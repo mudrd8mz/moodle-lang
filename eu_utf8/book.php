@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // book.php - created with Moodle 1.8.2+ (2007021520)
+      // book.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['addafter'] = 'Atala gehitu';
@@ -18,7 +18,7 @@ $string['fileordir'] = 'Fitxategia edo direktorioa';
 $string['import'] = 'Inportatu';
 $string['importinfo'] = 'Inportatu aukeratutako HTML fitxategia edo direktorioa.<br/>Kapituluak alfabetikoki ordenatuko dira izenaren arabera.<br/>\'sub_*\' izeneko fitxategiak beti atal gisa inportatuko dira.';
 $string['importing'] = 'Inportatzen';
-$string['importingchapters'] = 'Inportatzen atalak liburura';
+$string['importingchapters'] = 'Atalak liburura inportatzen';
 $string['maindirectory'] = 'Direktorio nagusia';
 $string['modulename'] = 'Liburua';
 $string['modulenameplural'] = 'Liburuak';

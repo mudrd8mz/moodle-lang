@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.2+ (2007021520)
+      // resource.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['addresource'] = 'Baliabidea gehitu';
 $string['affectedresources'] = 'Eragindako baliabideak';
+$string['allowlocalfiles'] = 'Fitxategi lokalak baimendu';
 $string['back'] = 'Atzera';
 $string['browserepository'] = 'Biltegia arakatu';
 $string['choose'] = 'Aukeratu';
@@ -12,9 +13,9 @@ $string['chooseparameter'] = 'Aukeratu parametroa';
 $string['clicktoopen'] = 'Dokumentu hau zabaltzeko, sakatu estekari';
 $string['configallowlocalfiles'] = 'Fitxategi-baliabidea sortzean, baimendu estekak sistema lokaleko fitxategietara; adibidez, CD edo disko gogorra. Hau lagungarri gerta daiteke ikasle guztiek intranet edo sare lokala izanez gero. Kasu horretan, agian, erabiltzaileak arakatzailearen segurtasun-arauak aldatu beharko ditu.';
 $string['configautofilerenamesettings'] = 'Fitxategien antolatzailean fitxategi edo direktorio  baten izena aldatuz gero, automatikoki eguneratu berari dagozkion erreferentziak.';
-$string['configblockdeletingfilesettings'] = 'Baliabideek erreferentziatutako artxibo eta direktorien blokeko ezabaketa. Ohar zaitez html bidez lotutako artxibo eta irudiak ez daudela babestuta.';
+$string['configblockdeletingfilesettings'] = 'Baliabideek erreferentziatutako fitxategi eta direktorien blokeko ezabaketa. Ohar zaitez html bidez lotutako fitxategi eta irudiak ez daudela babestuta.';
 $string['configdefaulturl'] = 'URLn oinarritutako baliabideak sortzean aurrez osatuko den balioa da hau.';
-$string['configfilterexternalpages'] = 'Ezarpen honen bidez kanpoko baliabideak (web orrialdeak, igotako artxiboak)lekuko iragazkien bidez prozesatuak izango dira (adibidez, glosategiko autoestekak). Aukera hau indarrean jarriz gero, zure ikastaroko orrialdeak nabarmen mantsoago ibil daitezke, kontuz erabili eta soilik beharrezkoa bada.';
+$string['configfilterexternalpages'] = 'Ezarpen honen bidez kanpoko baliabideak (web orrialdeak, igotako fitxategiak)lekuko iragazkien bidez prozesatuak izango dira (adibidez, glosategiko autoestekak). Aukera hau indarrean jarriz gero, zure ikastaroko orrialdeak nabarmen mantsoago ibil daitezke, kontuz erabili eta soilik beharrezkoa bada.';
 $string['configframesize'] = 'Web orrialde edo fitxategiren bat marko baten barruan azalduz gero, balio hau (pixeletan)  nabigazio-markoaren neurria da.';
 $string['configparametersettings'] = 'Honek baliabide berriak eransteko formularioko ezarpen panelaren lehenespenak ezartzen ditu. Behin egin ondoren, erabiltzailearen hobespen bihurtzen da.';
 $string['configpopup'] = 'Baliabide berria eranstean eta hau popup leiho baten ager baliteke, aukera hau lehenetsi behar da?';
@@ -53,8 +54,8 @@ $string['keepnavigationvisible'] = 'Orri berean nabigazioa ikusten utzi';
 $string['localfile'] = 'Fitxategi lokala';
 $string['localfilechoose'] = 'Aukeratu fitxategi lokala (CD-ROM)';
 $string['localfilehelp'] = 'Lagundu fitxategi lokalak erakusten';
-$string['localfileinfo'] = '<p>Fitxategi lokala aukeratu. Fitxategia ez da igoko web gunera, baina Moodlek baliabide hau bilatuko du edozin konputagailutan.</p><p> Hau guztiz erabilgarria izango da erabiltzaile guztien artean banatzen den CD-ROM batean fitxategi handiak badaude. Erabiltzaile bakoitzak fitxategi hauetarako bide-izen lokala aukeratu ahal izango du. Horretarko <a href=\"$a\" target=\"_blank\"> bere erabiltzaile profila editatu beharko du.';
-$string['localfilepath'] = 'Baliabide honi bide-izen lokala ezartzeko, aukeratu unitate lokaleko (gehienetan CD-ROMa) edozein fitxategi. Fitxategia ez da igoko baina unitate horren bidea gorde eta bertako edozein artxiborako erabiliko da.';
+$string['localfileinfo'] = '<p>Fitxategi lokala aukeratu. Fitxategia ez da igoko web gunera, baina Moodle-k baliabide hau bilatuko du edozein konputagailutan.</p><p> Hau guztiz erabilgarria izango da erabiltzaile guztien artean banatzen den CD-ROM batean fitxategi handiak badaude. Erabiltzaile bakoitzak fitxategi hauetarako bide-izen lokala aukeratu ahal izango du. Horretarko <a href=\"$a\" target=\"_blank\"> bere erabiltzaile profila editatu beharko du.';
+$string['localfilepath'] = 'Baliabide honi bide-izen lokala ezartzeko, aukeratu unitate lokaleko (gehienetan CD-ROMa) edozein fitxategi. Fitxategia ez da igoko baina unitate horren bidea gorde eta bertako edozein fitxategitarako erabiliko da.';
 $string['localfileselect'] = 'Aukeratu fitxategi honen bide-izena.';
 $string['maindirectory'] = 'Direktorio nagusia';
 $string['modulename'] = 'Baliabidea';

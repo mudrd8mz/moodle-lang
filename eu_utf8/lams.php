@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.7+ (2006101007)
+      // lams.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['createSequence'] = 'Sekuentzia berria sortu';
@@ -20,6 +20,9 @@ $string['openmonitor'] = 'LAMS monitorea ireki';
 $string['refreshSequenceList'] = 'Sekuentzien zerrenda freskatu';
 $string['selectExistingSequence'] = 'Baden sekuentzia bat aukeratu edo berri bat sortu.';
 $string['sequence'] = 'Sekuentzia aukeratu';
+$string['server_id'] = 'Zerbitzariaren IDa';
+$string['server_key'] = 'Zerbitzariaren gakoa';
+$string['server_url'] = 'Zerbitzariaren URLa';
 $string['serverid'] = '<a href=http://www.lamsinternational.com target=_blank>LAMS international</a>etik jasotako zerbitzariaren IDa idatzi.';
 $string['serverkey'] = '<a href=http://www.lamsinternational.com target=_blank>LAMS international</a>etik jasotako zerbitzariaren gakoa idatzi.';
 $string['serverurl'] = 'LAMS zerbitzarira sartzeko erabili duzun oinarrizko URLa idatzi. Adibidez, http://localhost:8080/lams';

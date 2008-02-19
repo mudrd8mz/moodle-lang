@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8.2+ (2007021520)
+      // message.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['addcontact'] = 'Kontaktua gehitu';
@@ -17,7 +17,7 @@ $string['blocknoncontacts'] = 'Blokeatu kontaktu-zerrendan ez dauden guztien mez
 $string['contactlistempty'] = 'Zure kontaktu-zerrenda hutsik dago';
 $string['contacts'] = 'Kontaktuak';
 $string['context'] = 'testuingurua';
-$string['deletemessagesdays'] = 'Mezu zaharrak automatikoki ezabatzeko egun kopurua';
+$string['deletemessagesdays'] = 'Mezu zaharrak automatikoki ezabatzeko egun-kopurua';
 $string['discussion'] = 'Eztabaida';
 $string['emailmessages'] = 'Bidali e-postaz niretzako mezuak ni lineaz kanpo nagoenean';
 $string['emailtagline'] = 'E-posta hau \"$a\"-(r)i bidali zenion mezuaren kopia da';
@@ -33,6 +33,7 @@ $string['message'] = 'Mezua';
 $string['messagehistory'] = 'Mezuen historia';
 $string['messages'] = 'Mezuak';
 $string['messaging'] = 'Mezularitza';
+$string['messagingdisabled'] = 'Mezularitza ez dago gaituta gune honetan, e-postak bidaliko dira mezuen ordez';
 $string['mycontacts'] = 'Nire kontaktuak';
 $string['newonlymsg'] = 'Berriak baino ez erakutsi';
 $string['newsearch'] = 'Bilaketa berria';
@@ -47,7 +48,7 @@ $string['onlinecontacts'] = 'Online kontaktuak ($a)';
 $string['onlyfromme'] = 'Neuk bidalitako mezuak bakarrik';
 $string['onlymycourses'] = 'Neure ikastaroetan bakarrik';
 $string['onlytome'] = 'Neuri bidalitako mezuak bakarrik';
-$string['pagerefreshes'] = 'Orri hau $a segunduero berriztatzen da';
+$string['pagerefreshes'] = 'Orri hau $a segunduro berriztatzen da';
 $string['readmessages'] = 'Irakurritako $a mezu';
 $string['removecontact'] = 'Ezabatu kontaktua';
 $string['savemysettings'] = 'Gorde nire ezarpenak';
@@ -59,13 +60,13 @@ $string['sendmessageto'] = 'Mezua bidali honi: $a';
 $string['sendmessagetopopup'] = '$a-ri mezua bidali - leiho berria';
 $string['settings'] = 'Ezarpenak';
 $string['settingssaved'] = 'Zure ezarpenak gordeta';
-$string['showmessagewindow'] = 'Mezuen leihoa erakutsi mezurik baldin badut. Horretarako nabigatzaileak popup leihoak zabaltzea onartu behar du webgune honetan!';
+$string['showmessagewindow'] = 'Mezuen leihoa erakutsi mezurik baldin badut. Horretarako nabigatzaileak popup leihoak zabaltzea onartu behar du web gune honetan!';
 $string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
 $string['timenosee'] = 'Online egon nintzen azkenengotik aurrerako minutuak';
 $string['timesent'] = 'Bidalketa-ordua';
 $string['unblockcontact'] = 'Desblokeatu kontaktuak';
 $string['unreadmessages'] = 'Irakurri gabeko $a mezu';
-$string['userisblockingyou'] = 'Erabaltzaile honek blokeatu egin zaitu eta ezin diozu mezurik bidali';
+$string['userisblockingyou'] = 'Erabiltzaile honek blokeatu egin zaitu eta ezin diozu mezurik bidali';
 $string['userisblockingyounoncontact'] = 'Erabiltzaile honek bere kontaktu-zerrendan daudenen mezuak bakarrik onartzen ditu eta zu, oraindik, ez zaude zerrenda horretan.';
 $string['userssearchresults'] = 'Bilaketaren emaitza: $a erabiltzaile aurkitu dira';
 

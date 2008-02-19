@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.2+ (2007021520)
+      // moodle.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['action'] = 'Ekintza';
@@ -27,12 +27,12 @@ $string['addedtogroup'] = 'Gehitu talde honetara: $a';
 $string['addedtogroupnot'] = 'Talde honetara gehitu gabe: $a';
 $string['addedtogroupnotenrolled'] = 'Talde honetara gaineratu gabe: $a. Ikastaro honetan izena eman gabea.';
 $string['addinganew'] = 'Beste $a bat gehitzen';
-$string['addinganewto'] = 'Beste $a->what bat gaineratzen hona: $a->to';
+$string['addinganewto'] = 'Beste $a->what bat gehitzen hona: $a->to';
 $string['addingdatatoexisting'] = 'Datu berriak gehitzen';
 $string['addnewcategory'] = 'Beste kategoria bat gehitu';
 $string['addnewcourse'] = 'Beste ikastaro bat gehitu';
 $string['addnewuser'] = 'Beste erabiltzaile bat gehitu';
-$string['addnousersrecip'] = 'Honetan sartu ez diren erabiltzaileak hartzaileen zerrendara gaineratu: $a';
+$string['addnousersrecip'] = 'Honetan sartu ez diren erabiltzaileak hartzaileen zerrendara gehitu: $a';
 $string['addresource'] = 'Baliabidea gehitu';
 $string['address'] = 'Helbidea';
 $string['addstudent'] = 'Ikaslea gehitu';
@@ -68,7 +68,7 @@ $string['adminhelpmymoodle'] = '\'Nire Moodle\' blokeak erabiltzaileentzat konfi
 $string['adminhelpreports'] = 'Irizpide ezberdinen araberako ikastaroen sailkapena';
 $string['adminhelpsitefiles'] = 'Fitxategi orokorrak argitaratu edo kanpoko segurtasun-kopiak eguneratzeko';
 $string['adminhelpsitesettings'] = 'Web gunearen lehen orriaren itxura erabaki';
-$string['adminhelpstickyblocks'] = 'Bloke finkoak Moodleren bidez konfiguratu';
+$string['adminhelpstickyblocks'] = 'Bloke finkoak Moodle-ren bidez konfiguratu';
 $string['adminhelpthemes'] = 'Web gune osoaren itxura erabaki';
 $string['adminhelpuploadusers'] = 'Ekarri erabiltzaile berrien kontuak testu-fitxategi batetik';
 $string['adminhelpusers'] = 'Definitu erabiltzaileak eta egiaztatzeko modua';
@@ -147,7 +147,7 @@ $string['backupexecuteathelp'] = 'Erabaki zein ordutan egingo diren segurtasun-k
 $string['backupfailed'] = 'Ikastaro batzuk gorde gabe gelditu dira!';
 $string['backupfilename'] = 'segurtasun-kopia';
 $string['backupfinished'] = 'Segurtasun-kopia ondo egina';
-$string['backupincludemoduleshelp'] = 'Erabaki ikastaroetako moduloak, erabiltzaileen datuekin edo gabe, sartu nahi dituzun segurtasun-kopia automatikoetan.';
+$string['backupincludemoduleshelp'] = 'Erabaki ikastaroetako moduluak, erabiltzaileen datuekin edo horiek gabe, sartu nahi dituzun segurtasun-kopia automatikoetan.';
 $string['backupincludemoduleuserdatahelp'] = 'Erabaki moduluen erabiltzaileen datuak sartu nahi dituzun segurtasun-kopia automatikoetan.';
 $string['backupkeephelp'] = 'Arestiko zenbat segurtasun-kopia gorde nahi duzu ikastaro bakoitzeko? Zaharragoak ezabatu egingo dira.';
 $string['backuplogdetailed'] = 'Kopiaren log zehatza';
@@ -155,8 +155,8 @@ $string['backuploglaststatus'] = 'Azken kopiaren log-a';
 $string['backuplogshelp'] = 'Aukeratuz gero, ikastaroen logak ere sartuko dira segurtasun-kopia automatikoetan.';
 $string['backupmetacoursehelp'] = 'Indarrean jarriz gero, metaikastaroaren informazioa (jasotako matrikulazioak) segurtasun-kopia automatikoetan sartuko da';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['backupnoneusersinfo'] = 'Oharra: modulo guztien segurtasun-kopia erabiltzaileen daturik gabe egitea aukeratu duzu. \"Ariketa\" eta \"tailerra\" moduloak ez dira segurtasun-kopia mota honekin bateragarriak eta, beraz, kendu egin behar dira.';
-$string['backupnonisowarning'] = 'Kontuz: kopia hau Moodle bertsio ez Unicode (1.6en aurretikoa) batetik dator. Kopiak ISO-8859-1 ez den edozein testu badu KALTETUA izan daiteke Moodleren Unicode bertsio honetara berreskuratzean.';
+$string['backupnoneusersinfo'] = 'Oharra: modulu guztien segurtasun-kopia erabiltzaileen daturik gabe egitea aukeratu duzu. \"Ariketa\" eta \"tailerra\" moduluak ez dira segurtasun-kopia mota honekin bateragarriak eta, beraz, kendu egin behar dira.';
+$string['backupnonisowarning'] = 'Kontuz: kopia hau Moodle bertsio ez Unicode (1.6en aurretikoa) batetik dator. Kopiak ISO-8859-1 ez den edozein testu badu KALTETUA izan daiteke Moodle-ren Unicode bertsio honetara berreskuratzean.';
 $string['backuporiginalname'] = 'Segurtasun-kopiaren izena';
 $string['backuproleassignments'] = 'Rol hauetarako rol-esleipenen segurtasun-kopia';
 $string['backupsavetohelp'] = 'Zein direktoriotan gorde nahi duzu segurtasun-kopia? Horren helbide osoa idatzi.<br>(Ez idatzi ezer ikastaroari dagokion direktorioan gorde dadin)';
@@ -183,7 +183,7 @@ $string['bypassed'] = 'Saihestua';
 $string['cachecontrols'] = 'Cache kontrolak';
 $string['cancel'] = 'Utzi';
 $string['cancelled'] = 'Bertan behera utzi da';
-$string['categories'] = 'Ikastaro-motak';
+$string['categories'] = 'Ikastaro-kategoriak';
 $string['category'] = 'Kategoria';
 $string['categoryadded'] = '\'$a\' ikastaro-mota gehitu da';
 $string['categorydeleted'] = '\'$a\' ikastaro-mota ezabatu da';
@@ -220,7 +220,7 @@ $string['clamdeletedfilefailed'] = 'Fitxategia ezin da ezabatu';
 $string['clamemailsubject'] = '$a :: Clam AV oharra';
 $string['clamfailed'] = 'Clam AV ez da egikaritu. Akatsaren mezua $a da. Hau da Clam-en output-a:';
 $string['clamlost'] = 'Moodle fitxategi bat kargatzean Clam egikaritzeko konfiguratuta dago, baina Clam AV bidea, $a, ez da egokia.';
-$string['clamlostandactinglikevirus'] = 'Gainera, Moodleren konfigurazioa dela eta, Clam ez badabil, fitxategiak birustzat hartzen dira. Hori dela eta, ikasleek ezin dute fitxategirik igo arazoa konpondu ezean.';
+$string['clamlostandactinglikevirus'] = 'Gainera, Moodle-ren konfigurazioa dela eta, Clam ez badabil, fitxategiak birustzat hartzen dira. Hori dela eta, ikasleek ezin dute fitxategirik igo arazoa konpondu ezean.';
 $string['clammovedfile'] = 'Fitxategia zuk aukeratutako koarentena-direktoriora mugitu da eta orain hemen dago: $a';
 $string['clammovedfilebasic'] = 'Fitxategia koarentena-direktoriora mugitu da.';
 $string['clamquarantinedirfailed'] = 'Fitxategia ezin izan da mugitu zuk aukeratutako koarentena-direktoriora: $a . Hori zuzendu behar duzu fitxategiak infektatuta baleude ezabatu beharko lirateke eta.';
@@ -285,11 +285,11 @@ $a';
 $string['courserejectreason'] = 'Ikastaro hau ez onartzeko zure arrazoiak idatzi<br />(eskatzaileari bidali egingo zaizkio)';
 $string['courserejectsubject'] = 'Zure ikastaroa ez da onartu';
 $string['courserequest'] = 'Ikastaro-eskaera';
-$string['courserequestdisabled'] = 'Administrariak ikastaroen eskaera indargabetu du. Sentitzen dugu.';
+$string['courserequestdisabled'] = 'Kudeatzaileak ikastaroen eskaera indargabetu du. Sentitzen dugu.';
 $string['courserequestfailed'] = 'Zure ikastaro-eskaera arrazoi ezezagunengatik ezin izan da gorde';
-$string['courserequestintro'] = 'Ikastaroa sortzeko eskaera egiteko formulario hau erabili.<br />Administrariek ikastaroa zergatik eskatzen duzun jakin dezaten<br />ahalik eta informazio gehien eman, mesedez.';
+$string['courserequestintro'] = 'Ikastaroa sortzeko eskaera egiteko formulario hau erabili.<br />Kudeatzaileek ikastaroa zergatik eskatzen duzun jakin dezaten<br />ahalik eta informazio gehien eman, mesedez.';
 $string['courserequestreason'] = 'Ikastaroa eskatzeko arrazoiak';
-$string['courserequestsuccess'] = 'Ikastaro-eskaera arrakastaz gorde da. Gutxi barru erantzuna e-mailez bidaliko zaizu.';
+$string['courserequestsuccess'] = 'Ikastaro-eskaera arrakastaz gorde da. Gutxi barru erantzuna e-postaz bidaliko zaizu.';
 $string['courserestore'] = 'Ikastaroa berreskuratu';
 $string['courses'] = 'Ikastaroak';
 $string['coursescategory'] = 'Kategoria bereko ikastaroa';
@@ -519,17 +519,17 @@ Hala ez balitz, esteka ebaki eta zure
 nabigatzailearen helbideen leihoan itsasi.
 
 Bestelako laguntzarik behar izanez gero, 
-administrariarekin harremanetan jarri, $a->admin';
+kudeatzailearekin harremanetan jarri, $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: pasahitz-aldaketaren baieztatzea';
 $string['emailpasswordconfirmmaybesent'] = '<p>Erabiltzaile izen edo helbide zuzena eman baduzu e-postaz mezua jaso behar izan duzu</p>
-<p>Pasahitza-aldaketa baieztatu eta egiteko argibide errazak ditu. Arazorik bazenu, mesedez gunearen administrariarekin harremanetan jarri.</p>';
+<p>Pasahitza-aldaketa baieztatu eta egiteko argibide errazak ditu. Arazorik bazenu, mesedez gunearen kudeatzailearekin  harremanetan jarri.</p>';
 $string['emailpasswordconfirmsent'] = 'Zure helbidera mezu bat bidali dugu <b>$a</b>.
-<p>Mezu honek pasahitza-aldaketa egin eta baieztatzeko argibide errezak ditu.
-Arazorik bazenu, mesedez gunearen administrariarekin harremanetan jarri.</p>';
+<p>Mezu honek pasahitza-aldaketa egin eta baieztatzeko argibide errazak ditu.
+Arazorik bazenu, mesedez gunearen kudeatzailearekin harremanetan jarri.</p>';
 $string['emailpasswordsent'] = 'Mila esker pasahitz aldaketa baieztatzeagatik.
 <p>Zure pasahitz berria kontu honetara bidali dizugu: <b>$a->email</b>.</p>
 <p>Pasahitz berria automatikoki sortu da.
-<a href=\"$a->link\">Zure pasahitza aldatzeko</a> eta gogoratzeko errezagoa den bat ezartzeko aholkatzen dizugu.</p>';
+<a href=\"$a->link\">Zure pasahitza aldatzeko</a> eta gogoratzeko errazagoa den bat ezartzeko aholkatzen dizugu.</p>';
 $string['enable'] = 'Gaitu';
 $string['encryptedcode'] = 'Enkriptaturiko kodea';
 $string['enroldate'] = 'Daten bitartea';
@@ -859,7 +859,7 @@ $string['logs'] = 'Agerraldiak';
 $string['logtoomanycourses'] = '[ <a href=\"$a->url\">gehiago</a> ]';
 $string['logtoomanyusers'] = '[ <a href=\"$a->url\">gehiago</a> ]';
 $string['lookback'] = 'Epea';
-$string['mailadmins'] = 'Administrariei informatu';
+$string['mailadmins'] = 'Kudeatzaileei informatu';
 $string['mailstudents'] = 'Ikasleei informatu';
 $string['mailteachers'] = 'Irakasleei informatu';
 $string['mainmenu'] = 'Menu nagusia';
@@ -1013,8 +1013,8 @@ $string['nobody'] = 'Inor ez';
 $string['nochange'] = 'Aldaketarik ez';
 $string['nocoursesfound'] = '\'$a\' hitza duen ikastarorik ez dago';
 $string['nocoursesyet'] = 'Ez dago ikastarorik kategoria honetan';
-$string['nodstpresets'] = 'Administrariak Daylight Savings Time aukera ez du indarrean jarri';
-$string['noexistingadmins'] = 'Ez dago administratzailerik, hau akats larria da eta mezu hau ez zenuke inoiz ikusi beharko.';
+$string['nodstpresets'] = 'Kudeatzaileak Daylight Savings Time aukera ez du indarrean jarri';
+$string['noexistingadmins'] = 'Ez dago kudeatzailerik, hau akats larria da eta mezu hau ez zenuke inoiz ikusi beharko.';
 $string['noexistingcreators'] = 'Ez dago sortzailerik';
 $string['noexistingstudents'] = 'Ez dago ikaslerik';
 $string['noexistingteachers'] = 'Ez dago tutorerik';
@@ -1097,7 +1097,7 @@ $string['parentcategory'] = 'Jatorri-kategoria';
 $string['parentcoursenotfound'] = 'Sustrai-ikastaroa ez da aurkitu!';
 $string['parentcoursenotmetacourse'] = 'Sustrai-ikastaroa ez da metaikastaroa!';
 $string['parentfolder'] = 'Sustrai direktorioa';
-$string['parentlanguage'] = 'es>>';
+$string['parentlanguage'] = 'eu>>';
 $string['participants'] = 'Partaideak';
 $string['participationratio'] = 'Partaidetza-ratioa';
 $string['participationreport'] = 'Partaidetza-txostena';
@@ -1107,21 +1107,21 @@ $string['passwordconfirmchange'] = 'Baieztatu pasahitzaren aldaketa';
 $string['passwordextlink'] = 'Esteka honek galdutako pasahitza errekuperatzeko balio du eta Moodletik ateratzen behartzen zaitu.';
 $string['passwordforgotten'] = 'Pasahitz ahaztua';
 $string['passwordforgotteninstructions'] = 'Zure datuak lehenik erabiltzaileen datu-basean bilatu behar dira. Zure erabiltzaile-izena edo e-posta helbidea dagokion lekuan idatzi, mesedez. Biak idaztea ez da beharrezkoa.';
-$string['passwordnohelp'] = 'Ezin izan da galdu duzun pasahitza aurkitu. Moodle-ren administrariarekin harremanetan jarri, mesedez.';
+$string['passwordnohelp'] = 'Ezin izan da galdu duzun pasahitza aurkitu. Moodle-ren kudeatzailearekin harremanetan jarri, mesedez.';
 $string['passwordrecovery'] = 'Bai, laguntza behar dut saioa hasteko';
 $string['passwordsdiffer'] = 'Pasahitz hauek ez datoz bat';
 $string['passwordsent'] = 'Pasahitza bidali da';
 $string['passwordsenttext'] = '<P>E-posta mezu bat bidali da honako helbide honetara $a->email.
    <P><B>Mesedez begiratu zure e-posta pasahitz berria lortzeko</B>
    <P>Pasahitz berria automatikoki sortu da eta agian 
-   <A HREF=$a->link>gogoratzeko errezagoa den batera aldatu</A> nahi duzu.';
-$string['pathnotexists'] = 'Zure zerbitzarian ez dago holako biderik!';
+   <A HREF=$a->link>gogoratzeko errazagoa den batera aldatu</A> nahi duzu.';
+$string['pathnotexists'] = 'Zure zerbitzarian ez dago horrelako biderik!';
 $string['pathslasherror'] = 'Bidea ezin da barraz amaitu!';
 $string['paymentinstant'] = 'Ordaintzeko eta minutu gutxitan matrikulatzeko beheko botoia erabili, mesedez!';
 $string['paymentpending'] = '(<small><b><u>$a</u></b> amaitu gabe</small>)';
 $string['paymentrequired'] = 'Ikastaro hau ordainpekoa da';
 $string['payments'] = 'Ordainketak';
-$string['paymentsorry'] = 'Mila esker ordainketarengatik! Zoritxarrez zure ordainketa ez da guztiz prozesatu, eta \"$a->fullname\" ikastaroan ez zaude matrikulaturik. Segundu batzuk barru berriz sartu, mesedez. Arazoekin jarraitzen baduzu $a->teacher irakaslearekin edo gunearen administrariarekin harremanetan jarri';
+$string['paymentsorry'] = 'Mila esker ordainketarengatik! Zoritxarrez zure ordainketa ez da guztiz prozesatu, eta \"$a->fullname\" ikastaroan ez zaude matrikulaturik. Segundu batzuk barru berriz sartu, mesedez. Arazoekin jarraitzen baduzu $a->teacher irakaslearekin edo gunearen kudeatzailearekin harremanetan jarri';
 $string['paymentthanks'] = 'Mila esker ordainketarengatik! Ikastaro honetan matrikulatuta zaude:<br />\"$a\"';
 $string['people'] = 'Partaideak';
 $string['periodending'] = 'Epe-bukaera ($a)';
@@ -1174,7 +1174,7 @@ $string['registrationcontactyes'] = 'Bai, Moodle-ren formularioa nahi dut nireki
 $string['registrationemail'] = 'E-posta bidezko jakinarazpenak';
 $string['registrationinfo'] = '<p>Orria honek zure webgunea moodle.org-en erregistratzea ahalbidetzen dizu.
 Erregistroa doakoa da. Izango duzun etekina zure webgunea posta-zerrenda batean sartzea da, ohar garrantzitsu,
-ziurtasun-gastiguak eta Moodleko eskaintzak jasotzeko.</p>
+ziurtasun-gastiguak eta Moodle-ko eskaintzak jasotzeko.</p>
 <p>Zure informazioa konfidentziala izango da, eta ez zaio inoiz inori salduko. Informazio hau biltzeko 
 arrazoi bakarra zu lagundu eta Moodle komunitatearen koadro estatistikoa sortzea da.</p>
 <p>Nahi izanez gero, zure webgunearen izenburua, herria eta URLa idatz ditzakezu Moodle erabiltzen duten guneen zerrenda agertzeko.</p>
@@ -1213,7 +1213,7 @@ $string['restorecoursenow'] = 'Berreskuratu ikastaroa orain!';
 $string['restorefinished'] = 'Berreskuraketa ongi egina';
 $string['restoreto'] = 'Berreskuratu hona:';
 $string['restricted'] = 'Baimena behar da';
-$string['restrictmodules'] = 'Baliabide-moduloak murriztu?';
+$string['restrictmodules'] = 'Baliabide-moduluak murriztu?';
 $string['returningtosite'] = 'Izena emandako erabiltzaileak';
 $string['revert'] = 'Lehengora itzuli';
 $string['role'] = 'Rola';
@@ -1225,6 +1225,8 @@ $string['rsserror'] = 'Errorea jarioa irakurtzerakoan';
 $string['rsstype'] = 'RSS jarioak jarduera honetan';
 $string['saveandnext'] = 'Gorde eta hurrengoa erakutsi';
 $string['savechanges'] = 'Aldaketak gorde';
+$string['savechangesanddisplay'] = 'Gorde eta erakutsi';
+$string['savechangesandreturntocourse'] = 'Gorde eta bueltatu ikastarora';
 $string['savedat'] = 'Hemen gordeta:';
 $string['savepreferences'] = 'Aldaketak gorde';
 $string['saveto'] = 'Non gorde';
@@ -1341,7 +1343,7 @@ $string['statsmodegeneral'] = 'Ikuspen orokorra';
 $string['statsnodata'] = 'Ikastaro eta epe honetarako ez dago datu eskuragarririk.';
 $string['statsnodatauser'] = 'Ikastaro, erabiltzaile eta epe honetarako ez dago datu eskuragarririk.';
 $string['statsoff'] = 'Estatistikak ez daude orain gaituta';
-$string['statsreads'] = 'Ikuspenak';
+$string['statsreads'] = 'Ikustaldiak';
 $string['statsreport1'] = 'Sarrerak';
 $string['statsreport10'] = 'Erabiltzailearen aktibitatea';
 $string['statsreport11'] = 'Ikastaro aktiboenak';
@@ -1360,7 +1362,7 @@ $string['statsreportactivitybyrole'] = 'Aktibitate osoa (ikuspen eta mezuak)';
 $string['statsreportforuser'] = 'norentzat';
 $string['statsreportlogins'] = 'Sarrerak';
 $string['statsreportreads'] = 'Ikustaldiak (rol guztiak)';
-$string['statsreporttype'] = 'Txosten mota';
+$string['statsreporttype'] = 'Txosten-mota';
 $string['statsreportwrites'] = 'Mezuak (rol guztiak)';
 $string['statsstudentactivity'] = 'Ikaslearen aktibitatea';
 $string['statsstudentreads'] = 'Ikaslearen ikuspenak';
@@ -1379,7 +1381,7 @@ $string['status'] = 'Egoera';
 $string['strftimedate'] = '%%Y(e)ko %%Bk %%d';
 $string['strftimedateshort'] = '%%Bren %%d';
 $string['strftimedatetime'] = '%%Y(e)ko %%Bk %%d, %%H:%%M';
-$string['strftimedatetimeshort'] = '%%Y/%%m/%%d  %%H:%%M';
+$string['strftimedatetimeshort'] = '%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Y/%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%m/%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%d  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%H:%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%M';
 $string['strftimedaydate'] = '%%A, %%Y(e)ko %%Bk %%d';
 $string['strftimedaydatetime'] = '%%A, %%Y(e)ko %%Bk %%d, %%H:%%M';
 $string['strftimedayshort'] = '%%A, %%Bk %%d';
@@ -1516,18 +1518,18 @@ $string['version'] = 'Bertsioa';
 $string['view'] = 'Ikusteko modua';
 $string['views'] = 'Ikustaldiak';
 $string['viewsolution'] = 'soluzioa ikusi';
-$string['virusfound'] = 'Kontuz administrari! Clam AV-k $a->user erabiltzaileak $a->course ikastarora igotako fitxategian birusa aurkitu du. Hau da clamscan-en output-a:';
+$string['virusfound'] = 'Kontuz kudeatzaile! Clam AV-k $a->user erabiltzaileak $a->course ikastarora igotako fitxategian birusa aurkitu du. Hau da clamscan-en output-a:';
 $string['virusfoundlater'] = 'Zuk $a->date egunean $a->course ikastarora igotako $a->filename izeneko fitxategiak birusa dauka. Hona hemen fitxategiarekin gertatutakoaren laburpena:
 
 $a->action
 
 Bidalitako lana bada, berriz bidali zure tutoreak ikus dezan.';
-$string['virusfoundlateradmin'] = 'Kontuz administrari! $a->date egunean $a->course ikastarora $a->filename $a->user erabiltzaileak igotako fitxategi batek birusa dauka. Hona hemen fitxategiarekin gertatutakoaren laburpena:
+$string['virusfoundlateradmin'] = 'Kontuz kudeatzaile! $a->date egunean $a->course ikastarora $a->filename $a->user erabiltzaileak igotako fitxategi batek birusa dauka. Hona hemen fitxategiarekin gertatutakoaren laburpena:
 
 $a->action
 
 Erabiltzaileari ere ohartarazi egin zaio';
-$string['virusfoundlateradminnolog'] = 'Kontuz administrari! Igotako $a->filename izeneko fitxategiak birusa dauka. Moodle-k ezin izan dio fitxategia igorleari itzuli.
+$string['virusfoundlateradminnolog'] = 'Kontuz kudeatzaile! Igotako $a->filename izeneko fitxategiak birusa dauka. Moodle-k ezin izan dio fitxategia igorleari itzuli.
 
 Hona hemen fitxategiarekin gertatutakoaren laburpena:
 
@@ -1540,14 +1542,14 @@ $string['visibletostudents'] = '$a (r)entzat ikusgarri';
 $string['warningdeleteresource'] = 'Kontuz: baliabide batek $a-ri egiten dio erreferentzia. Baliabidea eguneratu nahi duzu?';
 $string['webpage'] = 'Web orria';
 $string['week'] = 'Astea';
-$string['weekhide'] = 'Aste hau $a (r)i izkutatu';
+$string['weekhide'] = 'Aste hau $a (r)i ezkutatu';
 $string['weeklyoutline'] = 'Astea hitz bitan';
 $string['weekshow'] = 'Aste hau $a (r)i erakutsi';
 $string['welcometocourse'] = 'Ongi etorri $a gunera';
 $string['welcometocoursetext'] = 'Ongi etorri $a->coursename ikastarora! 
 
 Nahi baduzu zure erabiltzaile-profila
-edita dezakezu beheko loturan sakatuta. Horrela geuk eta zure ikastarokideek zutaz gehiago jakingo dugu.
+edita dezakezu beheko loturan sakatuta. Horrela geuk eta zure ikastarokideek zuri buruz gehiago jakingo dugu.
 
   $a->profileurl';
 $string['whattocallzip'] = 'Nola izendatu nahi duzu zip fitxategia?';
@@ -1573,7 +1575,7 @@ $string['writinggroupsinfo'] = 'Taldeen informazioa idazten';
 $string['writingheader'] = 'Izenburua idazten';
 $string['writingloginfo'] = 'Erregistroen informazioa idazten';
 $string['writingmessagesinfo'] = 'Mezuen informazioa idazten';
-$string['writingmoduleinfo'] = 'Moduloaren informazioa idazten';
+$string['writingmoduleinfo'] = 'Moduluaren informazioa idazten';
 $string['writingscalesinfo'] = 'Eskalen informazioa idazten';
 $string['writinguserinfo'] = 'Erabiltzailaren informazioa idazten';
 $string['wrongpassword'] = 'Pasahitz desegokia erabiltzaile izen honentzat';
@@ -1589,5 +1591,6 @@ $string['yourlastlogin'] = 'Zure azken saioa:';
 $string['yourself'] = 'Zu zeu';
 $string['yourteacher'] = 'zure $a';
 $string['zippingbackup'] = 'Segurtasun-kopia zipeatzen';
+$string['skiptomaincontent'] = 'Eduki nagusira joan'; // ORPHANED
 
 ?>

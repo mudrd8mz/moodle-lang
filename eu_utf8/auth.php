@@ -1,20 +1,27 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.7+ (2006101007)
+      // auth.php - created with Moodle 1.8.4+ (2007021541)
 
 
+$string['CASform'] = 'Autentifikaziorako modua';
+$string['accesCAS'] = 'CAS erabiltzaileak';
+$string['accesNOCAS'] = 'Beste erabiltzaile batzuk';
 $string['alternatelogin'] = 'Hemen URL bat sartuz gero,  tokirako sarbide gisa erabiliko da. Orriak formularioa eduki beharko luke, ekintza <strong>\'$a\'</strong> ezaugarrian ezarrita duena eta eremu hauek itzultzen dituena: <strong>erabiltzaile-izena</strong> eta <strong>pasahitza</strong>.<br />URL desegokia ez sartzen saia zaitez, hori egiteak tokitik egoiztea ekarriko baitu.<br />Lehenetsitako sarbide erabiltzeko zuriz utzi, mesedez.';
 $string['alternateloginurl'] = 'Aukerazko sarbiderako URLa';
 $string['auth_cas_baseuri'] = 'Zerbitzariaren URIa (zuriz Uri oinarririk ez badago)<br />Adibidez, CAS zerbitzariak host.domaine.com/CAS/ helbideari erantzuten badio, orduan<br />cas_baseuri = CAS/';
+$string['auth_cas_baseuri_key'] = 'URI oinarria';
+$string['auth_cas_casversion'] = 'Bertsioa';
 $string['auth_cas_create_user'] = 'Moodleren datu-basean CASen bidez onartutako erabiltzaileak erantsi nahi badituzu aktibatu. Bestela, Moodleren datu-basean honez gero dauden erabiltzaileek soilik izango dute sarbidea.';
+$string['auth_cas_create_user_key'] = 'Erabiltzailea sortu';
 $string['auth_cas_enabled'] = 'Aktibatu CAS autentifikazioa nahi baduzu.';
 $string['auth_cas_hostname'] = 'CAS zerbitzariaren izena<br />ad.: host.domain.eu';
 $string['auth_cas_invalidcaslogin'] = 'Sentitzen dugu, zure loginak huts egin du: ezin zara sartu';
 $string['auth_cas_language'] = 'Hizkuntza aukeratua';
+$string['auth_cas_language_key'] = 'Hizkuntza';
 $string['auth_cas_logincas'] = 'Konexio seguruaren sarbidea';
 $string['auth_cas_port'] = 'CAS zerbitzariaren portua';
 $string['auth_cas_server_settings'] = 'CAS zerbitzariaren ezarpenak';
 $string['auth_cas_text'] = 'Konexio segurua';
-$string['auth_cas_version'] = 'CASen bertsioa';
+$string['auth_cas_version'] = 'CAS bertsioa';
 $string['auth_casdescription'] = 'Metodo honek CAS zerbitzaria erabiltzen du (Central Authentication Service) erabiltzaileak SSO (Single Sign On) inguruan autentikatzeko. Nahi baduzu LDAP autentikazio xumea erabil dezakezu. Erabiltzaile-izena eta pasahitza CASen arabera egokiak badira, Moodlek erabiltzaile berri bat sortzen du datubasean, beharko balitz LDAPetik atributuak hartuz. Hurrengo konexioetan erabiltzaile-izena eta pasahitza baieztatzen dira, besterik ez.';
 $string['auth_castitle'] = 'CAS zerbitzaria erabili (SSO)';
 $string['auth_changepasswordhelp'] = 'Pasahitza aldatzeko laguntza';
@@ -34,10 +41,12 @@ $string['auth_dbpasstype'] = 'Pasahitza eremuak erabiltzen duen formatua zehaztu
 $string['auth_dbtable'] = 'Datu-baseko taulak duen izena';
 $string['auth_dbtitle'] = 'Kanpoko datu-base bat erabili';
 $string['auth_dbtype'] = 'Datu-base mota (Ikus <A HREF=../lib/adodb/readme.htm#drivers>ADOdb documentation</A> xehetasun gahiagorako)';
+$string['auth_dbtype_key'] = 'Datu-basea';
 $string['auth_dbuser'] = 'Datu-basean irakurtzeko baimena duen erabiltzaile izena';
 $string['auth_emaildescription'] = 'ePostaz berrestea da lehenetsitako autentifikazio metodoa.  Erabiltzaileak izena ematen duenean, bere izen eta pasahitza aukeratuz, konfirmazio ePosta mezu bat bidaltzen zaio erabiltzailearen ePostara.  ePosta Mezu honek, erabiltzaileei kontua berresteko aukera emango dien orri batera lotura zihur bat du. Hurrengoetan saioa hasteko izen eta pasahitza Moodle datu-basean dauden balioekin konparatzea nahikoa da.';
 $string['auth_emailtitle'] = 'E-postaren bidezko autentifikazioa';
 $string['auth_fccreators'] = 'Ikastaro berriak sor ditzaketen taldeko partaideen zerrenda. Taldeak \';\' erabiliz banandu. Izenak FirstClass zerbitzarian bezalaxe idatzi behar dira. Sistemak maiuskulak eta minuskulak bereizten ditu.';
+$string['auth_fccreators_key'] = 'Sortzaileak';
 $string['auth_fcdescription'] = 'Metodo honek FirstClass zerbitzaria erabiltzen du erabiltzailearen izena edo pasahitza zuzenak diren baieztatzeko.';
 $string['auth_fcfppport'] = 'Zerbitzariaren portua (ohikoena 3333 izaten da)';
 $string['auth_fchost'] = 'FirstClass zerbitzariaren helbidea. IP zenbakia edo DNS izena erabili.';
@@ -79,6 +88,7 @@ $string['auth_ldap_user_attribute'] = 'Erbiltzaileak izendatzeko edo bilatzeko a
 $string['auth_ldap_user_settings'] = 'Erabiltzailearen bilaketaren ezarpenak';
 $string['auth_ldap_user_type'] = 'Erabiltzaileak LDAPen nola gordeko diren aukeratu. Ezarpen honek sarbidearen kaduzitateak, sarbide askeek eta erabiltzaileen sorrerak nola funtzionatuko duten zehazten du.';
 $string['auth_ldap_version'] = 'Zure zerbitzariak erabiltzen duen LDAP protokoloaren bertsioa.';
+$string['auth_ldap_version_key'] = 'Bertsioa';
 $string['auth_ldapdescription'] = 'Metodo honek kanpo LDAP zerbitzari baten aurkako autentifikazioa eskeintzen du.
                                   Emandako erabiltzaile izen eta pasahitza baliozkoak badira, Moodlek erabiltzaile 
 								  sarrera berri bat sortuko du bere datu-basean. Modulu honek erabiltzaile atributuak 

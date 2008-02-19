@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8.2+ (2007021520)
+      // error.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['adminprimarynoedit'] = 'Lehen mailako kudeatzailea ezin dute besteek editatu.';
@@ -11,6 +11,7 @@ $string['cannotfindcomponent'] = 'Osagaia ezin da aurkitu.';
 $string['cannotsavemd5file'] = 'Md5 fitxategia ezin da gorde.';
 $string['cannotsavezipfile'] = 'ZIP fitxategia ezin da gorde.';
 $string['cannotunzipfile'] = 'Ezin da fitxategia deskonprimatu.';
+$string['cannotviewprofile'] = 'Ezin duzu erabiltzaile honen profila ikusi';
 $string['cantunenrollfrommetacourse'] = 'Ezin duzu baja eman metaikastaro honetan.';
 $string['cantunenrollinthisrole'] = 'Ezin duzu ikastaro honetan baja eman oraingo rola duzun bitartean.';
 $string['cmunknown'] = 'Modulu hau ezin izan da aurkitu';
@@ -47,9 +48,9 @@ $string['loginasonecourse'] = 'Ezin zara ikastaro honetan sartu.<br />\"Aukeratu
 $string['missingfield'] = '\"$a\" eremua ez da aurkitzen';
 $string['missingrequiredfield'] = 'Beharrezko eremuren bat falta da.';
 $string['modulemissingcode'] = '$a moduluak funtzio hau aurrera eramateko beharrezko kodea ez dauka.';
-$string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modulua ezin da instalatu Moodleren bertsio berriagoa eskatzen duelako (zure bertsioa $a->currentmoodle da, eta moduluak behar duena $a->requiremoodle da).';
+$string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modulua ezin da instalatu Moodle-ren bertsio berriagoa eskatzen duelako (zure bertsioa $a->currentmoodle da, eta moduluak behar duena $a->requiremoodle da).';
 $string['mustbeteacher'] = 'Orri hau irakasleek baino ezin dute ikusi';
-$string['nocontext'] = 'Barkatu, ikastaro hau ez da kontestu baliogarria';
+$string['nocontext'] = 'Barkatu, ikastaro hau ez da testuinguru baliagarria';
 $string['noinstances'] = 'Ikastaro honetan ez da $a azaltzen.';
 $string['nologinas'] = 'Ez duzu rol hori aukeratzeko baimenik \"Aukeratu beste rol bat\"-en';
 $string['nonmeaningfulcontent'] = 'Eduki esaguratsurik ez.';
@@ -59,18 +60,19 @@ $string['notavailable'] = 'Ez dago eskura';
 $string['onlyadmins'] = 'Kudeatzaileek baino ezin dute hori egin.';
 $string['onlyeditingteachers'] = 'Edizio-baimena duten irakasleek baino ezin dute hori egin.';
 $string['onlyeditown'] = 'Zeure informazioa baino ezin duzu editatu';
-$string['pagenotexist'] = 'Ohiz kanpoko errorea gertatu da (ez dagoen orri batera sartzeko saiakera egon da).';
+$string['pagenotexist'] = 'Ohiz kanpoko errorea gertatu da (ez dagoen orri batera sartzeko saiakera egin da).';
 $string['pleasereport'] = 'Denbora baduzu, errorea gertatu zenean zertan saiatzen ari zinen jakinaraz iezaguzu, mesedez:';
 $string['pluginrequirementsnotmet'] = '\"$a->pluginname\" ($a->pluginversion) plugina ezin izan da instalatu. Moodleren bertsio berriagoa behar duzu (zure bertsioa $a->currentmoodle da, eta pluginak behar duena $a->requiremoodle da)';
 $string['processingstops'] = 'Prozesamendua hemen bukatu da. Gainontzeko erregistroak ez dira kontuan hartu.';
 $string['remotedownloadnotallowed'] = 'Osagaiak ezin dira zure zerbitzarira jaitsi (allow_url_fopen ez dago aktibatuta).<br /><br /><a href=\"$a->url\">$a->url</a> fitxategia eskuz jaitsi eta \"$a->dest\" kokapenean kopiatu behar duzu.';
 $string['restricteduser'] = 'Sentitzen dugu, baina zure kontuak, \"$a\" , ezin du holakorik egin.';
+$string['scheduledbackupsdisabled'] = 'Guneko kudeatzaileak programatutako segurtasun-kopiak desgaitu ditu';
 $string['sendmessage'] = 'Mezua bidali';
 $string['sessionerroruser'] = 'Saioa amaitu da. Sar zaitez berriro, mesedez.';
 $string['sessionerroruser2'] = 'Zure saioari eragiten dion zerbitzari-errorea antzeman da. Berriz sartu edo nabigatzailea berriro abiatu, mesedez.';
 $string['sessionipnomatch'] = 'Sentitzen dugu, baina lehenengo sarreratik zure IPa aldatu dela dirudi. Ziurtasun neurri honen arrazoia crackerrek gune honetan zauden bitartean zure nortasuna ez lapurtzean datza. Erabiltzaile arruntek ez lukete mezu hau ikusi beharko. Beraz, gunearen kudeatzaileari laguntza eskatu.';
 $string['statscatchupmode'] = 'Estatista une honetan \'catchup\' moduan dago. Orain arte $a->daysdone egun prozesatu dira eta $a->dayspending prozesatzeko daude. Mesedez, beranduago berriz aztertu.';
-$string['unicodeupgradeerror'] = 'Barkatu baina zure datu-basea oraindik ez dago Unicoden eta Moodle-ren bertsio honek ezin du zure datu-basea Unicodera migratu. Mesedez, eguneratu Moodle 1.7.x-era eta egin Unicoderako migrazioa Kudeaketa orritik. Hori eginda, Moodle $a-rako migraketa egin ahal izango duzu.';
+$string['unicodeupgradeerror'] = 'Barkatu baina zure datu-basea oraindik ez dago Unicoden eta Moodle-ren bertsio honek ezin du zure datu-basea Unicodera migratu. Mesedez, eguneratu Moodle 1.7.x-era eta egin Unicoderako migrazioa Kudeaketa orritik. Hori eginda, Moodle $a-rako migrazioa egin ahal izango duzu.';
 $string['unknowncourse'] = 'Ez dago \"$a\" izeneko ikastarorik';
 $string['unknowncourseidnumber'] = '\"$a\" ikastaroaren ID ezezaguna';
 $string['unknownuseraction'] = 'Sentitzen dugu, baina erabiltzailearen ekintza hau ez dugu ulertzen.';
@@ -78,7 +80,7 @@ $string['usernotaddederror'] = '\"$a\" erabiltzailea ezin gehitu - errore ezezag
 $string['usernotaddedregistered'] = '\"$a\" erabiltzailea ezin gehitu - dagoeneko izena emanda';
 $string['usernotavailable'] = 'Erabiltzaile honen xehetasunak ezin dituzu ikusi';
 $string['usernotrenamedexists'] = 'Erabiltzailea ez da berrizendatu - erabiltzaile-izen berria indarrean dago.';
-$string['usernotrenamedmissing'] = 'Erabiltzailea ez da berrizendatu - erabiltzailaren aurreko izena ez da aurkitu.';
+$string['usernotrenamedmissing'] = 'Erabiltzailea ez da berrizendatu - erabiltzailearen aurreko izena ez da aurkitu.';
 $string['wrongdestpath'] = 'Bide desegokia.';
 $string['wrongsourcebase'] = 'URL iturriaren oinarri akastuna.';
 $string['wrongzipfilename'] = 'ZIP fitxategiko izen desegokia.';

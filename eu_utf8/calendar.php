@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8.2+ (2007021520)
+      // calendar.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['advancedoptions'] = 'Aukera aurreratuak';
@@ -18,6 +18,7 @@ $string['dayview'] = 'Eguneko ikuspegia';
 $string['daywithnoevents'] = 'Ekitaldirik ez egun honetan';
 $string['default'] = 'Lehenetsia';
 $string['deleteevent'] = 'Ekitaldia ezabatu';
+$string['deleteevents'] = 'Ekitaldiak ezabatu';
 $string['detailedmonthview'] = 'Hileko ikuspegi xehatua';
 $string['durationminutes'] = 'Iraupena minututan';
 $string['durationnone'] = 'Iraupenik ez';

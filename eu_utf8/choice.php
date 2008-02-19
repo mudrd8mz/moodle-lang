@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8.2+ (2007021520)
+      // choice.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['addmorechoices'] = 'Aukera gehiago gehitu';
@@ -11,6 +11,7 @@ $string['choice:deleteresponses'] = 'Erantzunak ezabatu';
 $string['choice:downloadresponses'] = 'Erantzunak jaitsi';
 $string['choice:readresponses'] = 'Erantzunak irakurri';
 $string['choiceclose'] = 'Noiz arte';
+$string['choicefull'] = 'Inkesta hau beteta dago eta ez dago erantzun posible gehiagorik';
 $string['choicename'] = 'Inkestaren izena';
 $string['choiceopen'] = 'Zabaldu';
 $string['choicetext'] = 'Inkesta-testua';
@@ -20,9 +21,9 @@ $string['displayvertical'] = 'Bertikalean erakutsi';
 $string['expired'] = 'Barkatu, jardura hau $a(e)an itxi zen eta dagoeneko ez dago eskuragarri.';
 $string['fillinatleastoneoption'] = 'Gutxienez bi erantzun eman behar dituzu.';
 $string['full'] = '(Beteta)';
-$string['havetologin'] = 'Saioa hasi behar duzu zure erantzuna bidali ahal izateko.';
+$string['havetologin'] = 'Saioa hasi behar duzu erantzuna bidali ahal izateko.';
 $string['limit'] = 'Muga';
-$string['limitanswers'] = 'Onar daitekeen erantzunen kopurua  mugatu';
+$string['limitanswers'] = 'Onar daitekeen erantzunen kopurua mugatu';
 $string['modulename'] = 'Inkesta xumea';
 $string['modulenameplural'] = 'Inkesta xumeak';
 $string['mustchooseone'] = 'Erantzunen bat aukeratu behar duzu gorde aurretik. Ezer ez da gorde orain arte.';
@@ -39,6 +40,7 @@ $string['publishanonymous'] = 'Emaitzak anonimoki argitaratu. Ez erakutsi ikasle
 $string['publishnames'] = 'Emaitza osoak argitaratu, izenak eta egindako aukerak erakutsiz.';
 $string['publishnot'] = 'Ez argitaratu emaitzak ikasleei';
 $string['removemychoice'] = 'Ezabatu nire aukera';
+$string['removeresponses'] = 'Erantzun guztiak ezabatu';
 $string['responses'] = 'Erantzunak';
 $string['responsesto'] = 'Erantzunak $a-rentzat';
 $string['savemychoice'] = 'Nire inkesta gorde';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8.2+ (2007021520)
+      // hotpot.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['abandoned'] = 'Bertan behera utzita';
@@ -18,7 +18,7 @@ $string['clues'] = 'Argibideak';
 $string['completed'] = 'Beteta';
 $string['configexcelencodings'] = 'Komaz banatutako kodifikazio-zerrenda, kalkulu-orriko programetarako kodifikazio zehatz batean baloreez informatzera behartzeko erabil daitekeena. Adibidez, Microsoft Excelek \"SJIS\" kodifikazioa behar du japonierarako.';
 $string['configshowtimes'] = 'Erakutsi behar al da erregistroak zerrenda eta txostenetan prozesatzeko erabilitako denbora? Zure zerbitzaria zergatik dabilen geldo jakiteko bakarrik da hau beharrezkoa.';
-$string['copiedtoclipboard'] = 'Orrialde honetako edukia arbelean kopiatu da';
+$string['copiedtoclipboard'] = 'Orri honetako edukia arbelean kopiatu da';
 $string['copytoclipboard'] = 'Kopiatu Arbelean';
 $string['correct'] = 'Zuzena';
 $string['deleteabandoned'] = 'Bertan behera utzitakoak ezabatu';
@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = 'Mesedez, idatzi web orri honetarako URL
 $string['error_nofilename'] = 'Mesedez, idatzi fitxategiaren izena';
 $string['error_noquizzesfound'] = 'Ez da Hot Potatoes motako galdetegirik aurkitu';
 $string['error_notfileorfolder'] = '&quot;$a&quot; ez da ez fitxategia ezta direktorioa ere';
+$string['excelencodings'] = 'Excel kodifikazioak';
 $string['feedbackformmail'] = 'Feedback-erako formularioa';
 $string['feedbackmoodleforum'] = 'Moodle-ren foroa';
 $string['feedbackmoodlemessaging'] = 'Moodle-ren mezularitza';
@@ -56,8 +57,8 @@ $string['hotpotopens'] = 'Hot Potatoes galdetegia ireki';
 $string['ignored'] = 'Alde batera utzi';
 $string['inprogress'] = 'Ari da';
 $string['location'] = 'Fitxategiaren kokalekua';
-$string['modulename'] = 'Hot Potatoes motako ariketa';
-$string['modulenameplural'] = 'Hot Potatoes motako ariketak';
+$string['modulename'] = 'Hot Potatoes galdetegia';
+$string['modulenameplural'] = 'Hot Potatoes galdetegiak';
 $string['navigation'] = 'Nabigazioa';
 $string['navigation_bar'] = 'Moodle-ren nabigazio-barra';
 $string['navigation_buttons'] = 'Hot Potatoes galdetegien botoiak';
@@ -138,6 +139,7 @@ $string['resultssaved'] = 'Galdetegiaren datuak gorde dira';
 $string['score'] = 'Puntuazioa';
 $string['showhtmlsource'] = 'HTML iturria erakutsi';
 $string['shownextquiz'] = 'Hurrengoa erakutsi';
+$string['showtimes'] = 'Prozesatze-denbora erakutsi';
 $string['showxmlsource'] = 'XML iturria erakutsi';
 $string['showxmltree'] = 'XML zuhaitza erakutsi';
 $string['specifictime'] = 'Denbora zehatza';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.8.2+ (2007021520)
+      // notes.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['addnewnote'] = 'Gehitu beste ohar bat';
@@ -10,6 +10,7 @@ $string['course'] = 'Ikastaroa';
 $string['coursenotes'] = 'Ikastaroaren oharrak';
 $string['created'] = 'Sortuta';
 $string['deleteconfirm'] = 'Ohar hau ezabatu?';
+$string['deletenotes'] = 'Ezabatu ohar guztiak';
 $string['editnote'] = 'Editatu oharra';
 $string['groupaddnewnote'] = 'Gehitu guztientzako ohar berria';
 $string['nocontent'] = 'Oharraren edukiak ezin du hutsik egon';

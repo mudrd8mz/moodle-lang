@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8.2+ (2007021520)
+      // data.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['action'] = 'Ekintza';
@@ -8,13 +8,11 @@ $string['addafield'] = 'Eremua gehitu';
 $string['addcomment'] = 'Iruzkina gehitu';
 $string['addentries'] = 'Sarrerak gehitu';
 $string['addtemplate'] = 'Txantiloia gehitu';
-$string['advancedsearch'] = 'Bilaketa aurreratua';
 $string['allowcomments'] = 'Iruzkinik onartu?';
 $string['allowratings'] = 'Argitaraturikoa neurtzea onartu?';
 $string['alttext'] = 'Ordezko testua';
 $string['approve'] = 'Onartu';
 $string['ascending'] = 'Goranzkoa';
-$string['asearchtemplate'] = 'Bilaketa aurreraturako txantiloia';
 $string['atmaxentry'] = 'Onartutako sarrera kopuru handiena erantsi duzu!';
 $string['autogenallforms'] = 'Lehenetsitako txantiloi guztiak sortu';
 $string['autolinkurl'] = 'URL-a automatikoki lotu';
@@ -34,7 +32,7 @@ $string['commentempty'] = 'Iruzkina hutsik zegoen';
 $string['comments'] = 'Iruzkinak';
 $string['commentsaved'] = 'Iruzkinak gorde dira';
 $string['commentsn'] = '$a iruzkina(k)';
-$string['configenablerssfeeds'] = 'Honek datu-base osorako RSS jarioen aukera indarrean jarriko du. Datu-base bakoitzeko RSS jarioak eskuz aktibatu beharko dituzu.';
+$string['configenablerssfeeds'] = 'Honek datu-base osorako RSS jarioen aukera indarrean jarriko du. Datu-base bakoitzeko RSS jarioak eskuz gaitu beharko dituzu.';
 $string['confirmdeletefield'] = 'Eremu hau ezabatzear zaude, ziur al zaude?';
 $string['confirmdeleterecord'] = 'Sarrera hau ezabatu nahi duzula ziur al zaude?';
 $string['csstemplate'] = 'CSS txantiloia';
@@ -107,7 +105,6 @@ $string['forcelinkname'] = 'Estekarako behartutako izena';
 $string['fromfile'] = 'zip fitxategitik';
 $string['header'] = 'Goialdea';
 $string['headeraddtemplate'] = 'Sarrerak sartzeko itxura definitzen du';
-$string['headerasearchtemplate'] = 'Definitu Bilaketa aurreraturako interfaza';
 $string['headercsstemplate'] = 'Beste txantiloietarako CSS estiloak definitzen ditu';
 $string['headerjstemplate'] = 'Gainontzeko txantiloietarako Javascript pertsonalizatua definitzen du';
 $string['headerlisttemplate'] = 'Sarrera anitzeko nabigazio-itxura definitzen du';
@@ -153,7 +150,7 @@ $string['nameradiobutton'] = 'Aukera bakarreko botoia';
 $string['nametext'] = 'Testua';
 $string['nametextarea'] = 'Testu-eremua';
 $string['nameurl'] = 'URLa';
-$string['newentry'] = 'Beste sarrera bat';
+$string['newentry'] = 'Sarrera berria';
 $string['newfield'] = 'Beste eremu bat sortu';
 $string['noaccess'] = 'Orri honetara ez duzu sarbiderik';
 $string['nodefinedfields'] = 'Preset berriak ez du definitutako eremurik!';
@@ -174,7 +171,7 @@ $string['overwrite'] = 'Gainean idatzi';
 $string['pagesize'] = 'Sarrerak orriko';
 $string['participants'] = 'Partaideak';
 $string['picture'] = 'Irudia';
-$string['pleaseaddsome'] = 'Mesedez, sortu baten bat azpian edo <a href=\"$a\"> aukeatu aurrez definitutako konjuntu bat </a> hasteko.';
+$string['pleaseaddsome'] = 'Mesedez, sortu baten bat azpian edo <a href=\"$a\"> aukeratu aurrez definitutako konjuntu bat </a> hasteko.';
 $string['presetinfo'] = 'Aurretiko ezarpena gordetzean publikatu egingo da txantiloi hau. Beste erabiltzaile batzuek erabili ahal izango dute euren datu-baseetan.';
 $string['presets'] = 'Aurretiko ezarpenak';
 $string['radiobutton'] = 'Aukera bakarreko botoia';
@@ -195,7 +192,6 @@ $string['recordssaved'] = 'Sarrera(k) ezabatuta';
 $string['requireapproval'] = 'Onarpenik behar al da?';
 $string['requiredentries'] = 'Sarrera beharrezkoak';
 $string['requiredentriestoview'] = 'Ikusi aurretik behar diren sarrerak';
-$string['resetsettings'] = 'Fitxategiak berriz kargatu';
 $string['resettemplate'] = 'Txantiloia berriz kargatu';
 $string['resizingimages'] = 'Irudi txikien tamaina aldatzen';
 $string['rows'] = 'iladak';
@@ -230,5 +226,9 @@ $string['usestandard'] = 'erabili aurretiko ezarpena';
 $string['viewfromdate'] = 'Noiztik ikusgarri';
 $string['viewtodate'] = 'Noiz arte ikusgarri';
 $string['wrongdataid'] = 'id datu okerrak';
+$string['advancedsearch'] = 'Bilaketa aurreratua'; // ORPHANED
+$string['asearchtemplate'] = 'Bilaketa aurreraturako txantiloia'; // ORPHANED
+$string['headerasearchtemplate'] = 'Definitu Bilaketa aurreraturako interfaza'; // ORPHANED
+$string['resetsettings'] = 'Fitxategiak berriz kargatu'; // ORPHANED
 
 ?>

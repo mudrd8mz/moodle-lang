@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.7+ (2006101007)
+      // glossary.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['addcomment'] = 'Iruzkina gehitu';
@@ -37,7 +37,7 @@ $string['cnfdefaulthook'] = 'Erabaki nola agertuko den glosategia lehen ikustald
 $string['cnfdefaultmode'] = 'Erabaki zein markotan agertuko den glosategia lehen ikustaldian';
 $string['cnffullmatch'] = 'Erabaki sarrera batek, estekaduna bada, letra larri eta xeheetan berez bat etorri behar duen testuarekin';
 $string['cnflinkentry'] = 'Erabaki sarrerek lotura moduan agertu behar duten';
-$string['cnflinkglossaries'] = 'Erabaki glosatekiak automatikoki esteka bihurtu behar duen';
+$string['cnflinkglossaries'] = 'Erabaki glosategiak automatikoki esteka bihurtu behar duen';
 $string['cnfrelatedview'] = 'Aukeratu esteka automatikoa ikusteko formatua';
 $string['cnfshowgroup'] = 'Zehaztu taldea erakutsi ala ez';
 $string['cnfsortkey'] = 'Aukeratu berezko antolaketa-gakoa';
@@ -89,7 +89,7 @@ $string['entryleveldefaultsettings'] = 'Sarreren aldez aurretiko ezarpenak';
 $string['entrysaved'] = 'Sarrera gordeta';
 $string['entryupdated'] = 'Sarrera eguneratua';
 $string['entryusedynalink'] = 'Sarrera hau automatikoki estekatu';
-$string['explainaddentry'] = 'Sarrera gehitu glosategi honetara.<br>Kontzeptua eta azalpena derrigorrezko datuak dira.';
+$string['explainaddentry'] = 'Beste sarrera bat gehitu glosategi honetara.<br>Kontzeptua eta azalpena derrigorrezko datuak dira.';
 $string['explainall'] = 'Erakutsi sarrera guztiak orri bakar batean';
 $string['explainalphabet'] = 'Bilatu glosategian aurkibide hau erabiliz';
 $string['explainexport'] = 'Fitxategia sortu da.<br/>Behera kargatu eta gorde ondo. Beti izango duzu aukera hori inportatzeko, ikastaro honetan edo beste batean.';
@@ -102,7 +102,7 @@ $string['exportglossary'] = 'Glosategia esportatu';
 $string['exporttomainglossary'] = 'Glosategi nagusira esportatu';
 $string['filetoimport'] = 'Inportatu beharreko fitxategia';
 $string['fillfields'] = 'Kontzeptua eta azalpena derrigorrezko datuak dira';
-$string['filtername'] = 'Auto-estekatutako glosategia';
+$string['filtername'] = 'Autoestekatutako glosategia';
 $string['fullmatch'] = 'Hitz osoak bakarrik bilatu';
 $string['globalglossary'] = 'Glosategi orokorra';
 $string['glossary:approve'] = 'Onartzeko dauden sarrerak onartu';
@@ -122,8 +122,10 @@ $string['importcategories'] = 'Kategoriak inportatu';
 $string['importedcategories'] = 'Inportatutako kategoriak';
 $string['importedentries'] = 'Inportatutako sarrerak';
 $string['importentries'] = 'Sarrerak inportatu';
+$string['importentriesfromxml'] = 'Sarrerak inportatu XML fitxategi batetik';
 $string['isglobal'] = 'Glosategi orokorra al da hau?';
 $string['linkcategory'] = 'Automatikoki estekatu nahi duzu kategoria hau?';
+$string['linking'] = 'Autoesteka';
 $string['mainglossary'] = 'Glosategi nagusia';
 $string['maxtimehaspassed'] = 'Barkatu, baina iruzkin hau ($a) editatzeko gehienezko denbora agortu egin duzu!';
 $string['modulename'] = 'Glosategia';
@@ -154,7 +156,7 @@ $string['ratingsuse'] = 'Erabili balorazioak';
 $string['ratingtime'] = 'Balorazioak epe honetan bakarrik egin ahal izango dira:';
 $string['rejectedentries'] = 'Onartu gabeko sarrerak';
 $string['rejectionrpt'] = 'Onartu gabeko txostena';
-$string['rsssubscriberss'] = 'Erakutsi RSS kanala \'$a\' kontzeptuetarako';
+$string['rsssubscriberss'] = 'Erakutsi RSS jarioa \'$a\' kontzeptuetarako';
 $string['searchindefinition'] = 'Bilatu testu osoan';
 $string['secondaryglossary'] = 'Bigarren mailako glosategia';
 $string['sendinratings'] = 'Bidali nire azken kalifikazioetan';
@@ -176,5 +178,6 @@ $string['withauthor'] = 'Kontzeptuak eta egilea';
 $string['withoutauthor'] = 'Kontzeptuak egilerik gabe';
 $string['writtenby'] = 'Nork idatzia';
 $string['youarenottheauthor'] = 'Iruzkina ez da zurea; beraz, ezin duzu editatu.';
+$string['author'] = 'Egilea'; // ORPHANED
 
 ?>

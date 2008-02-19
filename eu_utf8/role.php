@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8.2+ (2007021520)
+      // role.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['addrole'] = 'Rola gehitu';
@@ -18,8 +18,8 @@ $string['blog:view'] = 'Blog-sarrerak ikusi';
 $string['calendar:manageentries'] = 'Egutegiko edozein sarrera kudeatu';
 $string['calendar:managegroupentries'] = 'Egutegian norberaren sarrerak kudeatu';
 $string['calendar:manageownentries'] = 'Norberaren egutegiko sarrerak kudeatu';
-$string['capabilities'] = 'Gaitasunak';
-$string['capability'] = 'Gaitasuna';
+$string['capabilities'] = 'Baimenak';
+$string['capability'] = 'Baimena';
 $string['category:create'] = 'Kategoriak sortu';
 $string['category:delete'] = 'Kategoriak ezabatu';
 $string['category:update'] = 'Kategoriak eguneratu';
@@ -144,6 +144,7 @@ $string['site:mnetloginfromremote'] = 'Urrutiko Moodle batetik sarbidea izan';
 $string['site:mnetlogintoremote'] = 'Urrutiko Moodle batera joan';
 $string['site:readallmessages'] = 'Gune osoko mezuak irakurri';
 $string['site:restore'] = 'Ikastaroak berrabiarazi';
+$string['site:sendmessage'] = 'Mezuak edozein erabiltzaileri bidali';
 $string['site:trustcontent'] = 'Bidalitako edukietan konfidantza izan';
 $string['site:uploadusers'] = 'Erabiltzaile berriak fitxategi batetik igo';
 $string['site:viewfullnames'] = 'Erabiltzaileen izen osoak ikusi beti';

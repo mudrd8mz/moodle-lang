@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.7.1+ (2006101010)
+      // currencies.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['AED'] = 'Arabiar Emirerri Batuetako Dirhama';
@@ -99,7 +99,7 @@ $string['NPR'] = 'Nepal-go Errupia';
 $string['NZD'] = 'Zelanda Berriko Dolarra';
 $string['OMR'] = 'Omango Erriala';
 $string['PAB'] = 'Panamako Balboa';
-$string['PEI'] = 'Perubiako Intia';
+$string['PEN'] = 'Sol berria';
 $string['PGK'] = 'Papua Ginea Berriko Kina';
 $string['PHP'] = 'Filipinetako Pesoa';
 $string['PKR'] = 'Pakistango Errupia';
@@ -143,5 +143,6 @@ $string['YER'] = 'Yemengo Riyala';
 $string['ZAR'] = 'Hego Afrikako randa';
 $string['ZMK'] = 'Zambiako Kwacha';
 $string['ZWD'] = 'Zimbabweko dolarra';
+$string['PEI'] = 'Perubiako Intia'; // ORPHANED
 
 ?>
