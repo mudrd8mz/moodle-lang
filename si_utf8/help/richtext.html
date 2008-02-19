@@ -1,0 +1,148 @@
+<h1> Richtext HTML  සංස්කාරකය </h1>
+<p>                            පවතින්නේ ද?:<b>
+  <?php  if (!$CFG->htmleditor) {
+       print_string("htmleditordisabledadmin");
+   } else if (!$USER->htmleditor) {
+       print_string("htmleditordisabled");
+   } else if (!can_use_richtext_editor()) {
+       print_string("htmleditordisabledbrowser");
+   } else {
+       print_string("htmleditoravailable");
+   }
+?>
+</b>(මෙම සංස්කාරකය පද්ධතියේ තිබේ ද නැති ද යන්න පද්ධතියෙන් ම සොයා බැලේ) </p>
+<p><br />
+  Richtext  HTML සංස්කාරකය,  ඔබට පද සැකසුම් අතුරු මුහුණතක්, ඔබේ වෙබ් පිටුවට ඔබ්බවයි, එමඟින් ඔබේ පෙළවැල් ඉතා  පහසුවෙන් සංස්කරණය කරගැනීමටත් , සාමාන්‍ය HTML  කේත ජනනය කිරීමටත් ඉඩ සලසා දෙයි. <br />
+මෙලෙස ‍Richtext ආකෘතිකරණයට අමතර ව මෙම සංස්කාරකය  ඔබට උදව් විය හැකි වෙනත් අමතර අංග ගණනාවක්  සපයයි. </p>
+<h2>වෙනත් යෙදුම්වලින් පෙළවැල් ඇලවීම</h2>
+<p>මෙම සංස්කාර‍කට, ඔබට වෙනත් මයික්‍රෝසො‍ෆ්ට් වදන් සැකසුම්  වැනි වින්ඩෝස් යෙදවුම්වලින් Richtext කපා   ඇලවිය හැක. එමෙන්ම ඔබේ ආකෘතිකරණය එලෙස ම ආරක්ෂා වේ. සාමාන්‍ය පරිදි ඔබේ වෙබ්  බ්‍රවුස‍රයේ කපන හා අලවන මේනු භාවිත කරන්න (හෝ Control-C and Control-V) </p>
+<h2> රූප ඇතුළත් කිරීම <img alt="" src="lib/editor/htmlarea/images/ed_image.gif" /></h2>
+<p>URL මඟින් ප්‍රවේශ විය හැකි දැනටමත් ප්‍රකාශයට පත්කර ඇති  වෙබ් අඩවිවල රූප ඔබ සතුව තිබේනම්, ඔබට එම රූප ඔබේ පෙළට “රූප ඇතුල් කරන්න” බොත්තම හරහා  ඇතුළත් කළහැක.</p>
+<h2> වගු ඇතුළත් කිරීම<img alt="" src="lib/editor/htmlarea/images/insert_table.gif" /></h2>
+<p>ඔබේ පාඨයන්ට පිරිසැකසුමක් එක් කිරීමට, මෙවලම් තීරුවේ  ඇති “වගු ඇතුල් කරන්න” බොත්තම භාවිත කරන්න. </p>
+<h2> සම්බන්ධක ඇතුළත්  කිරීම<img alt="" src="lib/editor/htmlarea/images/ed_link.gif" /></h2>
+<p>නව සම්බන්ධකයක් සෑදීමට, පළමුව සම්බන්ධ කිරීමට අවශ්‍ය පෙළවැල්  යතුරු ලියනය කරන්න. ඉන් පසු එය තෝරා මෙවලම් තීරුවේ ඇති සම්බන්ධක බොත්තම ක්ලික් කරන්න. දැන්  ඔබට අවශ්‍ය URL ය යතුරු ලියනය කරන්න. එපමණයි ! දැන් සම්බන්ධකය   නිර්මාණය වී ඇත.<br />
+</p>
+<h2> Smilies  (භාව නිරූපකයන්) ඇතුළත් කිරීම </h2>
+<p>ඔබේ පෙළවැල් සඳහා මෙම කුඩා අයිකන ඇතුළත් කිරීමට, මෙවලම්  තීරුවේ ඇති ''භාව නිරූපකයන්''  මත ක්ලික් කරන්න. එවිට පහත  භාව නිරූපකයන් සහිත සං‍‍වාදයක් ඔබට දිස්වේ; ඉන් පසු ඔබට අවශ්‍ය නිරූපකය එමඟින් තෝරා ගත  හැක.(එසේ නැතිනම් අදාල කේතයන් ඔබේ පෙළවැළෙහි යතුරු ලියනය කිරීමෙන්ද මෙය කළහැක. එවිට එය  අදාල පරිදි පරිවර්තනය වී දිස්වනු ඇත.) </p>
+<div align="center">
+  <div align="center">
+    <div align="center">
+      <table border="1" cellpadding="0">
+        <tr>
+          <td valign="top"><div align="center">
+              <table border="0" cellpadding="0">
+                <tr>
+                  <td><p><a href="javascript:inserttext(':-)')"><img src="pix/s/smiley.gif" class="icon" alt="smiles" /></a></p></td>
+                  <td><p>සිනාව </p></td>
+                  <td><p>:-)</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext(':-D')"><img src="pix/s/biggrin.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>ලොකුවට විරිත්තිම </p></td>
+                  <td><p>:-D</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext(';-)')"><img src="pix/s/wink.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>ඉඟිමැරීම </p></td>
+                  <td><p>;-)</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext(':-/')"></a><a href="javascript:inserttext(':-/')"><img src="pix/s/mixed.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>මිශ්‍ර </p></td>
+                  <td><p>:-/</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('V-.')"></a><a href="javascript:inserttext(':-/')"><img src="pix/s/mixed.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>කල්පනාකරන</p></td>
+                  <td><p>V-.</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext(':-P')"></a><a href="javascript:inserttext(':-P')"><img src="pix/s/tongueout.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>දිව එළියට </p></td>
+                  <td><p>:-P</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('B-)')"></a><a href="javascript:inserttext('B-)')"><img src="pix/s/cool.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>නිසංසල </p></td>
+                  <td><p>B-)</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('%5e-)')"></a><a href="javascript:inserttext('^-)')"><img src="pix/s/approve.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>අනුමත කිරීම </p></td>
+                  <td><p>^-)</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('8-)')"></a><a href="javascript:inserttext('8-)')"><img src="pix/s/wideeyes.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>‍ඇස් විශාල කිරීම </p></td>
+                  <td><p>8-)</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('8-o')"></a><a href="javascript:inserttext('8-o')"><img src="pix/s/surprise.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>පුදුමයන් </p></td>
+                  <td><p>8-o</p></td>
+                </tr>
+              </table>
+          </div></td>
+          <td valign="top"><div align="center">
+              <table border="0" cellpadding="0">
+                <tr>
+                  <td><p><a href="javascript:inserttext(':-(')"></a><a href="javascript:inserttext(':-(')"><img src="pix/s/sad.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>දුක </p></td>
+                  <td><p>:-(</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('8-.')"></a><a href="javascript:inserttext('8-.')"><img src="pix/s/shy.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>ලැජ්ජාව </p></td>
+                  <td><p>8-.</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext(':-I')"></a><a href="javascript:inserttext(':-I')"><img src="pix/s/blush.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>(මුහුණ) <br />
+                    රතු වීම </p></td>
+                  <td><p>:-I</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext(':-X')"></a><a href="javascript:inserttext(':-X')"><img src="pix/s/kiss.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>හාදුව </p></td>
+                  <td><p>:-X</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext(':o)')"></a><a href="javascript:inserttext(':o)')"><img src="pix/s/clown.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>විකටයා </p></td>
+                  <td><p>:o)</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('P-|')"></a><a href="javascript:inserttext('P-|')"><img src="pix/s/blackeye.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>කළු ඇස </p></td>
+                  <td><p>P-|</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('8-%5b')"></a><a href="javascript:inserttext('8-[')"><img src="pix/s/angry.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>කෝපය </p></td>
+                  <td><p>8-[</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('xx-P')"></a><a href="javascript:inserttext('}-]')"><img src="pix/s/evil.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>මරණය </p></td>
+                  <td><p>xx-P</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('|-.')"></a><a href="javascript:inserttext('}-]')"><img src="pix/s/evil.gif" class="icon" alt="" /></a></p></td>
+                  <td><p>නිදිමත </p></td>
+                  <td><p>|-.</p></td>
+                </tr>
+                <tr>
+                  <td><p><a href="javascript:inserttext('}-]')"><img src="pix/s/evil.gif" class="icon" alt="" /></a><a href="javascript:inserttext('%7d-%5d')"></a></p></td>
+                  <td><p>නපුරු </p></td>
+                  <td><p>}-]</p></td>
+                </tr>
+              </table>
+          </div></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+
