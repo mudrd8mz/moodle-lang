@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta + (2007092806)
+      // data.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['action'] = 'Acció';
@@ -58,9 +58,11 @@ $string['defaultfielddelimiter'] = '(per defecte és una coma)';
 $string['defaultfieldenclosure'] = '(per defecte no s\'utilitza)';
 $string['defaultsortfield'] = 'Camp d\'ordenació per defecte';
 $string['delete'] = 'Suprimeix';
-$string['deletecomment'] = 'Segur que voleu suprimir aquest comentari';
+$string['deleteallentries'] = 'Suprimeix totes les entrades';
+$string['deletecomment'] = 'Segur que voleu suprimir aquest comentari?';
 $string['deleted'] = 'suprimit';
 $string['deletefield'] = 'Suprimeix un camp existent';
+$string['deletenotenrolled'] = 'Suprimeix les entrades d\'usuaris no inscrits';
 $string['deletewarning'] = 'Segur que voleu suprimir aquest predefinit?';
 $string['descending'] = 'Descendent';
 $string['directorynotapreset'] = '$a->directory No és un predefinit: falten fitxers: $a->missing_files';
@@ -210,6 +212,7 @@ $string['saveaspreset'] = 'Desa com a predefinit';
 $string['savesettings'] = 'Desa els paràmetres';
 $string['savesuccess'] = 'S\'ha desat amb èxit. El vostre predefinit estarà disponible per a tot el lloc.';
 $string['savetemplate'] = 'Desa la plantilla';
+$string['search'] = 'Cerca';
 $string['sendinratings'] = 'Envia les meves darreres valoracions';
 $string['showall'] = 'Mostra totes les entrades';
 $string['single'] = 'Visualitza una entrada';

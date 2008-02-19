@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7 beta + (2006101001)
+      // chat.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['beep'] = 'bip';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a t\'acaba de fer bip!';
 $string['messageenter'] = '$a acaba d\'entrar en aquest xat';
 $string['messageexit'] = '$a ha abandonat aquest xat';
 $string['messages'] = 'Missatges';
+$string['method'] = 'Mètode de xat';
 $string['methoddaemon'] = 'Dimoni servidor de xat';
 $string['methodnormal'] = 'Mètode normal';
 $string['modulename'] = 'Xat';
@@ -48,15 +49,25 @@ $string['nomessages'] = 'No hi ha missatges encara';
 $string['normalkeepalive'] = 'Keep-Alive';
 $string['normalstream'] = 'Corrent de dades';
 $string['noscheduledsession'] = 'No hi ha cap sessió programada';
+$string['oldping'] = 'Temps límit de desconnexió';
+$string['pastchats'] = 'Sessions de xat anteriors';
+$string['refreshroom'] = 'Refresca la cambra';
+$string['refreshuserlist'] = 'Refresca la llista d\'usuaris';
+$string['removemessages'] = 'Suprimeix tots els missatges';
 $string['repeatdaily'] = 'A la mateixa hora cada dia';
 $string['repeatnone'] = 'No es repeteix - publica només la data i hora especificades';
 $string['repeattimes'] = 'Repeteix sessions';
 $string['repeatweekly'] = 'El mateix dia a la mateixa hora cada setmana';
 $string['savemessages'] = 'Desa les sessions anteriors';
 $string['seesession'] = 'Visualitza aquesta sessió';
+$string['serverhost'] = 'Nom del servidor';
+$string['serverip'] = 'Adreça IP del servidor';
+$string['servermax'] = 'Nombre màxim d\'usuaris';
+$string['serverport'] = 'Port del servidor';
 $string['sessions'] = 'Sessions de xat';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Tothom pot veure les sessions anteriors';
+$string['updatemethod'] = 'Mètode d\'actualització';
 $string['viewreport'] = 'Visualitza les sessions de xat anteriors';
 
 ?>

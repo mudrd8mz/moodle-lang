@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7 beta + (2006101001)
+      // block_rss_client.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addfeed'] = 'Afegeix un URL d\'un canal d\'informació:';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'S\'ha actualitzat un canal d\'informació';
 $string['findmorefeeds'] = 'Cerca més canals RSS';
 $string['managefeeds'] = 'Gestiona els meus canals';
 $string['nofeeds'] = 'No hi ha canals RSS definits en aquest lloc';
+$string['numentries'] = 'Entrades per canal';
 $string['pickfeed'] = 'Tria un canal d\'informació';
 $string['remotenewsfeed'] = 'Canals d\'informació remots';
 $string['rss_client:createprivatefeeds'] = 'Crea canals RSS privats';
@@ -40,7 +41,9 @@ $string['seeallfeeds'] = 'Mostra tots els canals';
 $string['sharedfeed'] = 'Canal compartit';
 $string['shownumentrieslabel'] = 'Nombre màxim d\'entrades que es pot visualitzar en un bloc';
 $string['submitters'] = 'Qui pot definir nous canals RSS? Els canals ja definits estan disponibles per a qualsevol pàgina del lloc.';
+$string['submitters2'] = 'Contribucions';
 $string['timeout'] = 'Temps d\'espera RSS';
+$string['timeout2'] = 'Temps d\'espera';
 $string['timeoutdesc'] = 'Temps en minuts que un canal RSS roman a la memòria cau';
 $string['updatefeed'] = 'Actualitza l\'URL d\'un canal d\'informació';
 $string['validatefeed'] = 'Valida canal';
