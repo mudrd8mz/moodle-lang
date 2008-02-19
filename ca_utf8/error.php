@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007092806)
+      // error.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -8,6 +8,7 @@ $string['cannotcreatelangdir'] = 'No s\'ha pogut crear el directori d\'idiomes.'
 $string['cannotcreatetempdir'] = 'No s\'ha pogut crear el directori temporal';
 $string['cannotcustomizelocallang'] = 'No teniu permís per a personalitzar la traducció de cadenes. Aquest permís és controlat per la capacitat \"moodle/site:langeditlocal\". Definiu aquesta capacitat per poder editar paquets d\'idioma locals en cas que vulgueu modificar les traduccions per al vostre lloc.';
 $string['cannotdownloadcomponents'] = 'No s\'han pogut baixar components';
+$string['cannotdownloadlanguageupdatelist'] = 'No es pot baixar de download.moodle.org la llista d\'actualitzacions d\'idiomes.';
 $string['cannotdownloadzipfile'] = 'No s\'ha pogut baixar el fitxer zip';
 $string['cannoteditmasterlang'] = 'No teniu permís per a editar un paquet mestre d\'idioma. Aquest permís és controlat per la capacitat \"moodle/site:langeditmaster\". Definiu aquesta capacitat per poder editar paquets mestre d\'idioma en cas que sigueu responsable d\'un d\'aquests paquets.';
 $string['cannotfindcomponent'] = 'No s\'ha pogut trobar un component';
@@ -22,7 +23,12 @@ $string['componentisuptodate'] = 'El component està al dia';
 $string['confirmsesskeybad'] = 'No s\'ha pogut confirmar la vostra clau de sessió per portar a terme aquesta acció. Aquesta característica de seguretat impedeix que s\'executin funcions importants en el vostre nom de manera accidental o fraudulenta. Si us plau confirmeu que volíeu realment executar aquesta funció.';
 $string['couldnotassignrole'] = 'S\'ha produït un error greu sense especificar mentre se us intentava assignar un rol';
 $string['coursegroupunknown'] = 'No s\'ha especificat el curs corresponent al grup $a';
-$string['downloadedfilecheckfailed'] = 'Ha fallat la comprovació del fitxer baixat';
+$string['csvcolumnduplicates'] = 'S\'han detectat columnes duplicades.';
+$string['csvemptyfile'] = 'El fitxer CSV està buit.';
+$string['csvfewcolumns'] = 'No hi ha prou columnes. Reviseu el paràmetre del caràcter delimitador.';
+$string['csvweirdcolumns'] = 'El format del fitxer CSV no és vàlid. El nombre de columnes no és constant.';
+$string['dbupdatefailed'] = 'Ha fallat l\'actualització de la base de dades.';
+$string['downloadedfilecheckfailed'] = 'Ha fallat la comprovació del fitxer baixat.';
 $string['duplicateusername'] = 'Nom d\'usuari duplicat. S\'ha omès aquest registre.';
 $string['errorcleaningdirectory'] = 'S\'ha produït un error en netejar el directori \"$a\"';
 $string['errorcopyingfiles'] = 'S\'ha produït un error en copiar els fitxers';
@@ -43,11 +49,14 @@ $string['guestnoeditprofileother'] = 'El perfil de l\'usuari o usuària visitant
 $string['invalidcourse'] = 'El curs no és vàlid';
 $string['invalidfieldname'] = '\"$a\" no és un nom vàlid per a un camp';
 $string['invalidfiletype'] = '\"$a\" no és un tipus de fitxer vàlid';
+$string['invalidipformat'] = 'El format de l\'adreça IP no és vàlid.';
 $string['invalidmd5'] = 'El md5 no és vàlid';
 $string['invalidrequest'] = 'La sol·licitud no és vàlida';
 $string['invalidrole'] = 'El rol no és vàlid';
 $string['invalidurl'] = 'L\'URL no és vàlid';
 $string['invalidxmlfile'] = '\"$a\" no és un fitxer XML vàlid';
+$string['iplookupfailed'] = 'No es pot trobar informació geogràfica sobre aquesta adreça IP $a.';
+$string['iplookupprivate'] = 'No es pot mostrar informació d\'adreces IP privades';
 $string['listcantmovedown'] = 'No es pot moure aquest element més avall: és el darrer dels seus iguals.';
 $string['listcantmoveleft'] = 'No es pot moure aquest element a l\'esquerra: no és fill de cap altre element.';
 $string['listcantmoveright'] = 'No es pot moure aquest element a la dreta: no hi ha un element igual del qual fer-lo fill. Mogueu-lo sota un altre element igual i tot seguit podreu moure\'l a la dreta.';
@@ -77,6 +86,7 @@ $string['pagenotexist'] = 'S\'ha esdevingut un error poc comú (heu intentat ana
 $string['pleasereport'] = 'Si teniu temps, us agrairem que ens informeu de què estàveu fent quan s\'ha esdevingut aquest error:';
 $string['pluginrequirementsnotmet'] = 'El connector \"$a->pluginname\" ($a->pluginversion) no s\'ha pogut instal·lar. Necessita una versió més nova de Moodle (esteu utilitzant la $a->currentmoodle i necessiteu la $a-> requiremoodle).';
 $string['processingstops'] = 'El processament acaba aquí. Els registres que resten s\'ignoraran.';
+$string['remotedownloaderror'] = 'No s\'ha pogut baixar el component al vostre servidor. Verifiqueu els paràmetres de servidor intermediari. Es recomana l\'extensió cURL.<br /><br />Haureu de baixar manualment el fitxer <a href=\"$a->url\">$a->url</a>, copiar-lo a la ubicació \"$a->dest\" del vostre servidor i descomprimir-lo allí.';
 $string['remotedownloadnotallowed'] = 'El vostre servidor no permet baixar components ((allow_url_fopen inhabilitat).<br /><br />Baixeu manualment el fitxer <a href=\"$a->url\">$a->url</a>, copieu en la ubicació \"$a->dest\" del vostre servidor i descomprimiu-lo allí.';
 $string['restricteduser'] = 'Al vostre compte \"$a\" no li és permès de fer això.';
 $string['scheduledbackupsdisabled'] = 'Els administradors d\'aquest servidor han inhabilitat les còpies de seguretat programades.';
@@ -88,7 +98,13 @@ $string['statscatchupmode'] = 'S\'estan recollint les estadístiques. Fins ara s
 $string['unicodeupgradeerror'] = 'La vostra base de dades encara no és en Unicode i aquesta versió de Moodle no pot efectuar la migració a Unicode. Actualitzeu primer a Moodle 1.7 i feu la migració de la base de dades a Unicode mitjançant la pàgina d\'Administració. Després d\'això ja podreu actualitzar a Moodle $a.';
 $string['unknowncourse'] = 'El curs \"$a\" és desconegut';
 $string['unknowncourseidnumber'] = 'Curs ID \"$a\" desconegut';
+$string['unknowngroup'] = 'Grup \"$a\" desconegut';
+$string['unknownrole'] = 'Rol \"$a\" desconegut';
 $string['unknownuseraction'] = 'Aquesta acció d\'usuari no és intel·ligible';
+$string['userautherror'] = 'Connector d\'autenticació desconegut';
+$string['userauthunsupported'] = 'El connector d\'autenticació no funciona aquí';
+$string['useremailduplicate'] = 'Adreça duplicada';
+$string['usernotaddedadmin'] = 'Els comptes d\'administració no es poden suprimir.';
 $string['usernotaddederror'] = 'No s\'ha afegit l\'usuari \"$a\". Error desconegut';
 $string['usernotaddedregistered'] = 'No s\'ha afegit l\'usuari \"$a\". Ja està registrat';
 $string['usernotavailable'] = 'Els detalls d\'aquest usuari no estan disponibles per a vós.';

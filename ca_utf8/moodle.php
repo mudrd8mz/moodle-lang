@@ -1193,6 +1193,7 @@ $string['reset'] = 'Reinicia';
 $string['resetcomponent'] = 'Component';
 $string['resetcourse'] = 'Reinicia curs';
 $string['resetinfo'] = 'Aquesta pàgina us permet buidar un curs, tot suprimint les dades d\'usuari i conservant les activitats i altres paràmetres. Teniu en compte que en trametre aquest formulari suprimireu definitivament les dades d\'usuari d\'aquest curs que hàgiu seleccionat.';
+$string['resetnotimplemented'] = 'Reinici no implementat';
 $string['resetstartdate'] = 'Redefineix la data d\'inici';
 $string['resetstatus'] = 'Estat';
 $string['resettask'] = 'Tasca';
