@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007081600)
+      // error.php - created with Moodle 1.9 Beta 4 (2007101507)
 
 
 $string['adminprimarynoedit'] = 'אחרים לא יכולים לערוך את המנהל הראשי';
 $string['cannotcreatelangdir'] = 'לא ניתן ליצור סיפריית שפה.';
 $string['cannotcreatetempdir'] = 'לא ניתן ליצור סיפרייה זמנית.';
-$string['cannotcustomizelocallang'] = 'אין לך רשות לבצע התאמה אישיתלתרגום המחרוזות. הראשה זאת מבוקרת על ידי היכולת \"moodle/site:langeditlocal\". הפעל יכולת זאת בכדי לאשפר לך לערוך את חבילות השפה המקומיות במידה ואתה רוצה לשנות תרגומים עבור באתר דלך.';
+$string['cannotcustomizelocallang'] = 'אין לך רשות לבצע התאמה אישיתלתרגום המחרוזות. הראשה זאת מבוקרת על ידי היכולת \"moodle/site:langeditlocal\". הפעל יכולת זאת בכדי לאפשר לך לערוך את חבילות השפה המקומיות במידה ואתה רוצה לשנות תרגומים עבור באתר דלך.';
 $string['cannotdownloadcomponents'] = 'לא ניתן להוריד רכיבים.';
 $string['cannotdownloadzipfile'] = 'לא ניתן להוריד קובץ ZIP.';
-$string['cannoteditmasterlang'] = 'אין לך רשות לערוך את חבילת השפה הראשית. אישור זה מבוקר על ידי ההרשאה moodle/site:langeditmaster. הפעל יכולת זאת בכדי לאשפר לך לערוך את חבילת השפה העקרית במידה ואתה התחזק של החבילה.';
+$string['cannoteditmasterlang'] = 'אין לך רשות לערוך את חבילת השפה הראשית. אישור זה מבוקר על ידי ההרשאה moodle/site:langeditmaster. הפעל יכולת זאת בכדי לאפשר לך לערוך את חבילת השפה העקרית במידה ואתה התחזק של החבילה.';
 $string['cannotfindcomponent'] = 'הרכיב לא נמצא.';
 $string['cannotsavemd5file'] = 'לא ניתן לשמור קובץ md5.';
 $string['cannotsavezipfile'] = 'לא ניתן לשמור קובץ ZIP.';
@@ -78,6 +78,7 @@ $string['pluginrequirementsnotmet'] = 'לא ניתן היה להתקין את ה
 $string['processingstops'] = 'עיבוד נגמר כאן, תוך התעלמות מהרשומות הנותרות.';
 $string['remotedownloadnotallowed'] = 'לא מורשה הורדה של רכיבים לשרת שלך (פונקצייתallow_url_fopen מנוטרלת).<br /><br />עליך להוריד את קובץ ה<a href=\"$a->url\">$a->url</a> באופן ידני, להעתיק אותו לתוך \"$a->dest\" בשרת שלך, ולפתוח אותו שם.';
 $string['restricteduser'] = 'מצטערים אבל חשבונך הנוכחי \"$a\" מוגבל מלעשות זאת.';
+$string['scheduledbackupsdisabled'] = 'גיבויים מתוכננים נוטרלו ע\"י מנהל המערכת';
 $string['sendmessage'] = 'שלח הודעה';
 $string['sessionerroruser'] = 'למושב שלך חלף הזמן. אנא התחבר שוב.';
 $string['sessionerroruser2'] = 'נתגלתה שגיאה של השרת שמשפיעה של מושב ההתחברות שלך. אנא התחבר שוב, או התחל מחדש את השרת שלך.';
@@ -95,5 +96,6 @@ $string['usernotrenamedmissing'] = 'שם המשתמש לא שונה -- שם המ
 $string['wrongdestpath'] = 'נתיב יעד שגוי.';
 $string['wrongsourcebase'] = 'מקור בסיס URL שגוי';
 $string['wrongzipfilename'] = 'שם קובץ ZIP שגוי.';
+$string['cannotviewprofile'] = 'אינך רשאי לראות את הפרופיל של משתמש זה.'; // ORPHANED
 
 ?>

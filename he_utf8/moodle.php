@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta + (2007081600)
+      // moodle.php - created with Moodle 1.9 Beta 4 (2007101507)
 
 
 $string['action'] = 'פעולה';
@@ -507,7 +507,6 @@ $string['enrolperiod'] = 'תקופת רישום';
 $string['enrolstartdate'] = 'תאריך התחלה';
 $string['entercourse'] = 'לחץ בכדי להיכנס לקורס';
 $string['enteremailaddress'] = 'הכנס את כתובת הדואר אלקטרוני שלך בכדי לאתחל מחדש את הסיסמה ושהסיסמה החדשה תשלח לך דרך דואר אלקטרוני.';
-$string['enteryourinterests'] = 'הכנס אתתחומי הענין שלך מופרדים על ידי פסיקים';
 $string['entries'] = 'כניסות';
 $string['error'] = 'טעות';
 $string['errortoomanylogins'] = 'מצטערים, מספר ניסיונותיך להתחבר למערכת עלו על מספר הפעמים המורשה.';
@@ -594,6 +593,7 @@ $string['gd1'] = 'GD 1.x מותקן';
 $string['gd2'] = 'GD 2.x מותקן';
 $string['gdneed'] = 'GD חייב להיות מותקן בכדי לראות גרף זה';
 $string['gdnot'] = 'GD אינו מותקן';
+$string['general'] = 'כללי';
 $string['gettheselogs'] = 'קבל את יומני מעקב אלו';
 $string['go'] = 'גש';
 $string['gotoyourserver'] = '(מסתעף בחזרה לשרת שלך)';
@@ -640,6 +640,7 @@ $string['guestsyes'] = 'הרשה אורחים ללא המפתח';
 $string['guestuser'] = 'משתמש אורח';
 $string['guestuserinfo'] = 'משתמש זה הינו משתמש מיוחד המאפשר גישת קריאה בלבד לחלק מהקורסים.';
 $string['healthcenter'] = 'וידוי יציבות';
+$string['healthnoproblemsfound'] = 'לא נמצאה בעיית תקינות!';
 $string['healthproblemsdetected'] = 'הבחנת בעיות יציבות';
 $string['healthproblemsolution'] = 'פתרונות בעית יציבות';
 $string['healthreturntomain'] = 'המשך';
@@ -906,6 +907,7 @@ $string['nofilesselected'] = 'לא נבחרו קבצים לשחזור';
 $string['nofilesyet'] = 'עדיין לא הועלו קבצים לקורס שלך';
 $string['nograde'] = 'אין ציון';
 $string['noimagesyet'] = 'עדיין לא הועלו תמונות לקורס שלך';
+$string['nologsfound'] = 'לא נמצאו רשימות יומני מעקב';
 $string['nomorecourses'] = 'לא נמצאו קורסים נוספים המתאימים לשאילתא';
 $string['nomoreidnumber'] = 'אין שימוש במספר ID כדי למנוע התנגשויות';
 $string['none'] = 'אין';
@@ -965,6 +967,7 @@ $string['numwords'] = '$a מילים';
 $string['numyears'] = '$a שנים';
 $string['ok'] = 'אישור';
 $string['oldpassword'] = 'סיסמה נוכחית';
+$string['olduserdirectory'] = 'זוהי ספריית המשתמשים הישנה, אשר אינה נחוצה יותר. אתה יכול למחוקה אותה. הקבצים אותם היא הכילה הועתקו לספריית המשתמש החדשה.';
 $string['opentoguests'] = 'כניסת אורחים';
 $string['optional'] = 'ניתן לבחירה';
 $string['order'] = 'סדר';
@@ -1101,6 +1104,8 @@ $string['rsserror'] = 'שגיאה בקריאת נתוני RSS';
 $string['rsstype'] = 'RSS feed לפעילות זו';
 $string['saveandnext'] = 'שמור והראה את הבא';
 $string['savechanges'] = 'שמור שינויים';
+$string['savechangesanddisplay'] = 'שמור את השינויים והצג';
+$string['savechangesandreturntocourse'] = 'שמור את השינויים וחזור לקורס';
 $string['savedat'] = 'נשמר ב:';
 $string['savepreferences'] = 'שמור העדפות';
 $string['saveto'] = 'שמור ב';
@@ -1113,6 +1118,7 @@ $string['scalesstandard'] = 'מדרגות הערכה סטנדרטיות';
 $string['scalestandard'] = 'סקאלה סטנדרטית';
 $string['scalestip'] = 'כדי ליצור מדרגות הערכה מותאמות אישית, השתמש בקישור ה \'מדרגות...\' בתפריט הנהלת הקורס שלך.';
 $string['schedule'] = 'לוח זמנים';
+$string['scheduledbackupsinactive'] = 'גיבויים מתוכננים לא ניתנים לאפשור ע\"י מנהל המערכת';
 $string['scheduledbackupstatus'] = 'מצב גיבוי מתוכנן';
 $string['screenreaderno'] = 'לא';
 $string['screenreaderuse'] = 'קורא מסך';
@@ -1195,7 +1201,6 @@ $string['sizegb'] = 'GB';
 $string['sizekb'] = 'KB';
 $string['sizemb'] = 'MB';
 $string['skipped'] = 'דולג';
-$string['skiptomaincontent'] = 'דלג קדימה לתוכן הראשי';
 $string['skypeid'] = 'זיהוי משתמש Skype';
 $string['socialheadline'] = 'פורום חברתי - נושאים אחרונים';
 $string['someallowguest'] = 'יתכן וחלק מהקורסים מאפשרים כניסת אורחים';
@@ -1449,5 +1454,7 @@ $string['yourlastlogin'] = 'התחברותך האחרונה היתה';
 $string['yourself'] = 'עצמך';
 $string['yourteacher'] = '$a שלך';
 $string['zippingbackup'] = 'מכווץ את הגיבוי לארכיב';
+$string['enteryourinterests'] = 'הכנס את תחומי הענין שלך מופרדים על ידי פסיקים'; // ORPHANED
+$string['skiptomaincontent'] = 'דלג קדימה לתוכן הראשי'; // ORPHANED
 
 ?>

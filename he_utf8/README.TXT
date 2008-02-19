@@ -42,3 +42,6 @@ Additional postings  from 17/06/2007 up to 22/08/2007
 The strings and help files are applicable to versions 1.8 and 1.9.
 ----------------------------------------------------------------------------------------
 Updating 17 Help files and 4 Php files (strings) non Help files 16/9/07
+----------------------------------------------------------------------------------------
+Some spelling corrections and new strings
+11/02/08

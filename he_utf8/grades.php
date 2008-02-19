@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // grades.php - created with Moodle 1.9 Beta + (2007081600)
 
 
@@ -222,7 +222,7 @@ $string['itemnamehelp'] = 'שם הפריט שהוצב על יד המודול';
 $string['items'] = 'פריטים';
 $string['itemsedit'] = 'ערוך פריט ציון';
 $string['keephigh'] = 'שמור את הגבוה ביותר';
-$string['keephighhelp'] = 'אם תופעל, אשפרות שאת תשמושר רק את X הערכים הגבוהים ביותר, מקום ש-X הןא הערך שנבחר בעבור אפשרות זאת.';
+$string['keephighhelp'] = 'אם תופעל, אפשרות שאת תשמושר רק את X הערכים הגבוהים ביותר, מקום ש-X הןא הערך שנבחר בעבור אפשרות זאת.';
 $string['left'] = 'שמאל';
 $string['letter'] = 'אות';
 $string['lettergrade'] = 'ציון אות';

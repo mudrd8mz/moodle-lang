@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta + (2007081600)
+      // role.php - created with Moodle 1.9 Beta 4 (2007101507)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
@@ -96,9 +96,6 @@ $string['potentialusers'] = '$a משתמשים פוטנציאליים';
 $string['prevent'] = 'מנע';
 $string['prohibit'] = 'אסור';
 $string['question:config'] = 'צור סוגי שאלה';
-$string['question:export'] = 'ייצא שאלות';
-$string['question:import'] = 'ייבא שאלות';
-$string['question:manage'] = 'נהל שאלות';
 $string['question:managecategory'] = 'נהל קטגוריות של שאלות';
 $string['resetrole'] = 'אתחל מחדש לברירות המחדל';
 $string['resetrolenolegacy'] = 'נקה את ההרשאות';
@@ -131,6 +128,7 @@ $string['site:mnetloginfromremote'] = 'התחבר למערכת ממוודל חי
 $string['site:mnetlogintoremote'] = 'שוטט למוודל חיצוני';
 $string['site:readallmessages'] = 'קרא את כל ההודעות באתר';
 $string['site:restore'] = 'שחזר קורסים';
+$string['site:sendmessage'] = 'שלח הודעות לכל משתמש';
 $string['site:trustcontent'] = 'בטח בתוכן שהוגש';
 $string['site:uploadusers'] = 'העלה מקובץ משתמשים חדשים';
 $string['site:viewfullnames'] = 'תמיד ראה את שמם המלא של המשתמשים';
@@ -155,5 +153,8 @@ $string['user:viewuseractivitiesreport'] = 'ראה את דוחות פעילות 
 $string['user:viewusergrades'] = 'ראה את ציוני המשתמשים';
 $string['viewrole'] = 'ראה את פרטי התפקיד';
 $string['xuserswiththerole'] = 'משתמשים שממונים לתפקיד \"$a->role\": $a->number';
+$string['question:export'] = 'ייצא שאלות'; // ORPHANED
+$string['question:import'] = 'ייבא שאלות'; // ORPHANED
+$string['question:manage'] = 'נהל שאלות'; // ORPHANED
 
 ?>

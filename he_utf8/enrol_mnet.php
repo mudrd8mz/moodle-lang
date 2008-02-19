@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 1.8 + (2007021503)
+      // enrol_mnet.php - created with Moodle 1.9 Beta 4 (2007101507)
 
 
 $string['allcategories'] = '$a קטגוריות פוטנציאליות';
@@ -21,6 +21,7 @@ $string['mnet_enrol_description'] = 'פרסם את השירות הזה על מנ
 
  בנוסף, חובה עליך <strong>לפרסם</strong> את שירות ה-SSO (מספק הזהות) ל-$a.</li></ul><br/>';
 $string['mnet_enrol_name'] = 'הרשמה מרושתת למוודל';
+$string['mnetlocalforexternal'] = 'קורסים מקומיים עבור משתמשים חיצוניים';
 $string['nocategoriesdefined'] = 'לא נמצאו קטגוריות קורסים. הגדר קטגוריות חדשות <a href=\"$a\">כאן</a>.';
 $string['nocoursesdefined'] = 'לא נמצאו קורסים. הגדר קורסים חדשים <a href=\"$a\">כאן</a>.';
 

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // search.php - created with Moodle 1.9 Beta + (2007081600)
 
 
@@ -36,11 +36,11 @@ $string['next'] = 'הבא אחריו';
 $string['noindexmessage'] = 'מנהל: כנראה שאין כל אינדקס לחיפוש. בבקשה';
 $string['normalsearch'] = 'חיפוש רגיל';
 $string['openedon'] = 'נפתח ב-';
-$string['resultsreturnedfor'] = 'תוצאות הוחזרו בעסור';
+$string['resultsreturnedfor'] = 'תוצאות הוחזרו בעבור';
 $string['runindexer'] = 'הרץ יוצר אינדקס (אמיתי)';
 $string['runindexertest'] = 'הרץ מבחן ליוצר אינדקסים';
 $string['score'] = 'תוצאה';
-$string['search'] = 'חיפשו';
+$string['search'] = 'חפשו';
 $string['searching'] = 'מחפש ב...';
 $string['seconds'] = 'שניות';
 $string['solutions'] = 'פתרונות';

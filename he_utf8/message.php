@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta + (2007081600)
+      // message.php - created with Moodle 1.9 Beta 4 (2007101507)
 
 
 $string['addcontact'] = 'הוסף איש קשר';
@@ -27,11 +27,13 @@ $string['includeblockedusers'] = 'כלול משתמשים חסומים';
 $string['incomingcontacts'] = 'אנשי קשר נכנסים ($a)';
 $string['keywords'] = 'מילות מפתח';
 $string['keywordssearchresults'] = 'תוצאות החיפוש: נמצאו $a הודעות.';
+$string['mailsent'] = 'הודעתך נשלחה דרך הדוא\"ל.';
 $string['maxmessages'] = 'מספר ההודעות המקסימלי שיש להראות בהיסטוריה של דיון.';
 $string['message'] = 'הודעה';
 $string['messagehistory'] = 'היסטוריית הודעות';
 $string['messages'] = 'הודעות';
 $string['messaging'] = 'העברת הודעות';
+$string['messagingdisabled'] = 'שליחת הודעות מנוטרלת באתר זה, שליחת דוא\"לים בשימוש במקום';
 $string['mycontacts'] = 'אנשי הקשר שלי';
 $string['newonlymsg'] = 'הצג רק את החדש';
 $string['newsearch'] = 'חיפש חדש';

@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // block_rss_client.php - created with Moodle 1.8 dev (2006120700)
 
 
@@ -28,7 +28,7 @@ $string['feedsconfigurenewinstance'] = 'לחץ כאן להגדרת בלוק זה
 $string['feedstitle'] = 'הזנות RSS חיצוניות';
 $string['feedupdated'] = 'הזנת החדשות עודכנה';
 $string['findmorefeeds'] = 'מצא עוד הזנות RSS';
-$string['managefeeds'] = 'נהל את כל ההזנות שלי';
+$string['managefeeds'] = 'נהל את ההזנות שלי';
 $string['nofeeds'] = 'אין הזנות RSS שמוגדרות עבור אתר זה.';
 $string['pickfeed'] = 'בחר הזנת חדשות';
 $string['remotenewsfeed'] = 'הזנת חדשות חיצונית';
