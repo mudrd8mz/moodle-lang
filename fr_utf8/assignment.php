@@ -56,6 +56,7 @@ $string['failedupdatefeedback'] = 'Impossible d\'enregistrer le feedback pour $a
 $string['feedback'] = 'Feedback';
 $string['feedbackfromteacher'] = 'Feedback de l\'enseignant';
 $string['feedbackupdated'] = 'Feedback enregistré pour $a utilisateurs';
+$string['finalize'] = 'Plus d\'autres remises';
 $string['graded'] = 'Noté';
 $string['guestnoupload'] = 'Désolé, les utilisateurs invités de sont pas autorisé à déposer des fichiers';
 $string['guestnosubmit'] = 'Désolé, les utilisateurs invités de sont pas autorisé à remettre un devoir. Vous devez vous connecter ou vous enregistrer avant de pouvoir remettre votre réponse';
