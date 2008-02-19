@@ -726,6 +726,7 @@ $string['validateerror'] = 'この値は有効ではありません。:';
 $string['warningcurrentsetting'] = '無効な現在値: $a';
 $string['webproxy'] = 'ウェブプロクシ';
 $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネットに接続できない場合、以下のオプションに必要事項を入力してください。インターネットアクセスは、環境データ、言語パック、RSSフィード、タイムゾーン等のダウンロードに必要です。<br />PHP cURL拡張モジュールの使用を強くお勧めします。';
+$string['xmlrpcrecommended'] = '任意のxmlrpc拡張モジュールのインストールは、Moodleネットワーキング機能に有用です。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
 $string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (2007101508.02)
 $string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (2007101508.02)
