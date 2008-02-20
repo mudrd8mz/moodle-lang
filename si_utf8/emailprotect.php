@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 1.8.2+ (2007021520)
+      // emailprotect.php - created with Moodle 2.0 dev (2007101508.02)
 
-$string['filtername'] = 'විද්‍යුත් තැපැල් ආරක්ෂාව';
+
+$string['filtername'] = 'විද්‍යුත් තැපැල් රැකවරණය';
 
 ?>
