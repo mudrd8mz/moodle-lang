@@ -252,6 +252,7 @@ $string['maxgrade'] = 'උපරිම ශ්‍රේණිය';
 $string['meanall'] = 'සියලු ශ්‍රේණි';
 $string['median'] = 'මධ්‍යස්ථය';
 $string['min'] = 'අවම';
+$string['missingscale'] = 'දර්ශකය තෝරාගත යුතුයි';
 $string['mode'] = 'ප්‍රකාරය';
 $string['movingelement'] = '$a සසල කිරීම';
 $string['newcategory'] = 'නව ප්‍රව‍ර්ගය';
