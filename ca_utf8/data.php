@@ -75,6 +75,7 @@ $string['editorenable'] = 'Habilita l\'editor';
 $string['emptyadd'] = 'La plantilla d\'afegir dades és buida. S\'està generant un formulari per defecte...';
 $string['emptyaddform'] = 'No heu emplenat cap camp';
 $string['entries'] = 'Entrades';
+$string['entrieslefttoadd'] = 'Heu d\'afegir $a entrades més abans que pugueu veure les entrades d\'altres participants.';
 $string['entry'] = 'Entrada';
 $string['entrysaved'] = 'S\'ha desat la vostra entrada';
 $string['errormustbeteacher'] = 'Per a utilitzar aquesta pàgina heu de ser professor/a';

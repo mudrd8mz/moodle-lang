@@ -49,6 +49,7 @@ $string['fetchservererror'] = 'Ha sorgit un error quan s\'intentava recuperar la
 $string['filename'] = 'Nom del fitxer';
 $string['filtername'] = 'Enllaços automàtics a recursos';
 $string['frameifpossible'] = 'Posa el recurs en un marc per mantenir visible la navegació local';
+$string['framesize'] = 'Mida del marc';
 $string['fulltext'] = 'Text complet';
 $string['htmlfragment'] = 'Fragment HTML';
 $string['imspackageloaded'] = 'S\'ha carregat el paquet.';

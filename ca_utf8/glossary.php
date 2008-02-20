@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta + (2007092806)
+      // glossary.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addcomment'] = 'Afegeix un comentari';
@@ -19,6 +19,7 @@ $string['areyousuredeletecomment'] = 'Segur que voleu suprimir aquest comentari?
 $string['areyousureexport'] = 'Segur que voleu exportar aquesta entrada a';
 $string['ascending'] = '(ascendent)';
 $string['attachment'] = 'Fitxer adjunt';
+$string['author'] = 'autor/a';
 $string['authorview'] = 'Ordenat per autor';
 $string['back'] = 'Enrere';
 $string['cantinsertcat'] = 'No s\'ha pogut inserir la categoria';
@@ -54,11 +55,16 @@ $string['concepts'] = 'Conceptes';
 $string['configenablerssfeeds'] = 'Aquest commutador habilita la possibilitat de tenir RSS en tots els glossaris. Haureu d\'activar manualment l\'RSS en els paràmetres de cada glossari.';
 $string['current'] = 'Ordenació actual $a';
 $string['currentglossary'] = 'Glossari actual';
+$string['date'] = 'data';
 $string['dateview'] = 'Navega per data';
 $string['defaultapproval'] = 'Estat d\'aprovació per defecte';
+$string['defaultmode'] = 'Mode per defecte';
+$string['defaultsortkey'] = 'Clau d\'ordenació per defecte';
+$string['defaultsortorder'] = 'Ordenació per defecte';
 $string['definition'] = 'Definició';
 $string['definitions'] = 'Definicions';
 $string['deleteentry'] = 'Suprimeix entrada';
+$string['deletenotenrolled'] = 'Suprimeix les entrades d\'usuaris no inscrits';
 $string['deletingcomment'] = 'S\'està suprimint un comentari';
 $string['deletingnoneemptycategory'] = 'Suprimir aquesta categoria no suprimirà les entrades que conté: simplement aquestes es marcaran com a no categoritzades.';
 $string['descending'] = '(descendent)';
@@ -130,6 +136,7 @@ $string['importedentries'] = 'Entrades importades';
 $string['importentries'] = 'Importa entrades';
 $string['importentriesfromxml'] = 'Importa entrades d\'un fitxer XML';
 $string['isglobal'] = 'Aquest glossari és global?';
+$string['letter'] = 'lletra';
 $string['linkcategory'] = 'Enllaça automàticament aquesta categoria';
 $string['linking'] = 'Enllaços automàtics';
 $string['mainglossary'] = 'Glossari principal';
@@ -148,6 +155,7 @@ $string['noentry'] = 'No s\'ha trobat cap entrada.';
 $string['notcategorised'] = 'No categoritzat';
 $string['numberofentries'] = 'Nombre d\'entrades';
 $string['onebyline'] = '(una per línia)';
+$string['popupformat'] = 'Format emergent';
 $string['printerfriendly'] = 'Versió per imprimir';
 $string['printviewnotallowed'] = 'La visualització per a impressora no està autoritzada';
 $string['question'] = 'Qüestió';
@@ -162,6 +170,8 @@ $string['ratingsuse'] = 'Utilitza valoracions';
 $string['ratingtime'] = 'Limita les valoracions a les entrades enviades en aquestes dates:';
 $string['rejectedentries'] = 'Entrades rebutjades';
 $string['rejectionrpt'] = 'Informe de rebuigs';
+$string['resetglossaries'] = 'Suprimeix entrades de';
+$string['resetglossariesall'] = 'Suprimeix entrades de tots els glossaris';
 $string['rsssubscriberss'] = 'Visualitza l\'RSS \'$a\'';
 $string['searchindefinition'] = 'Cerca en tot el text';
 $string['secondaryglossary'] = 'Glossari secundari';

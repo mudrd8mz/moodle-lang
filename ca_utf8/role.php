@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta 2 (2007101000)
+      // role.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addrole'] = 'Afegeix un nou rol';
@@ -8,6 +8,7 @@ $string['allowassign'] = 'Permet assignar rols';
 $string['allowoverride'] = 'Permet excepcions';
 $string['assignglobalroles'] = 'Assignació de rols globals';
 $string['assignroles'] = 'Assignació de rols';
+$string['assignrolesin'] = 'Assignació de rols en $a';
 $string['block:view'] = 'Visualitzar bloc';
 $string['blog:create'] = 'Crear noves entrades de bitàcola';
 $string['blog:manageentries'] = 'Editar i gestionar entrades';
@@ -15,6 +16,7 @@ $string['blog:manageofficialtags'] = 'Gestionar etiquetes oficials';
 $string['blog:managepersonaltags'] = 'Gestionar etiquetes personals';
 $string['blog:view'] = 'Veure entrades de bitàcola';
 $string['calendar:manageentries'] = 'Gestionar totes les entrades del calendari';
+$string['calendar:managegroupentries'] = 'Gestionar entrades de calendari de grup';
 $string['calendar:manageownentries'] = 'Gestionar les entrades pròpies del calendari';
 $string['capabilities'] = 'Capacitats';
 $string['capability'] = 'Capacitat';
@@ -50,6 +52,8 @@ $string['currentcontext'] = 'Context actual';
 $string['currentrole'] = 'Rol actual';
 $string['defaultrole'] = 'Rol per defecte';
 $string['defineroles'] = 'Definició de rols';
+$string['deletecourseoverrides'] = 'Suprimeix totes les excepcions del curs';
+$string['deletelocalroles'] = 'Suprimeix totes les assignacions de rols locals';
 $string['deleterolesure'] = '<p>Esteu segur que voleu suprimir el rol \"$a->name ($a->shortname)\"?</p><p>Actualment aquest rol està assignat a $a->count usuaris.</p>';
 $string['duplicaterole'] = 'Duplica aquest rol';
 $string['duplicaterolesure'] = 'Segur que voleu duplicar el rol \"$a->name ($a->shortname)\"?</p>';
@@ -84,9 +88,11 @@ $string['legacy:teacher'] = 'ROL HERETAT: Professor/a (sense edició)';
 $string['legacy:user'] = 'ROL HERETAT: Usuari autenticat';
 $string['legacytype'] = 'Tipus de rol heretat';
 $string['listallroles'] = 'Llista tots els rols';
+$string['localroles'] = 'Rols assignats localment';
 $string['manageroles'] = 'Gestiona rols';
 $string['metaassignerror'] = 'No es pot assignar aquest rol a l\'usuari \"$a\" perquè es necessita la capacitat de gestió de metacurs.';
 $string['metaunassignerror'] = 'El rol de l\'usuari \"$a\" s\'ha reassignat automàticament. Cancel·leu l\'assignació del rol en els cursos fills.';
+$string['morethan'] = 'Més que $a';
 $string['my:manageblocks'] = 'Gestionar els blocs de la pàgina myMoodle';
 $string['nocapabilitiesincontext'] = 'No hi ha capacitats disponibles en aquest context';
 $string['notes:manage'] = 'Gestionar anotacions';
@@ -140,6 +146,7 @@ $string['site:mnetloginfromremote'] = 'Entrar des d\'un Moodle remot';
 $string['site:mnetlogintoremote'] = 'Anar a un Moodle remot';
 $string['site:readallmessages'] = 'Llegir tots els missatges del lloc';
 $string['site:restore'] = 'Restaurar cursos';
+$string['site:sendmessage'] = 'Enviar missatges a qualsevol usuari';
 $string['site:trustcontent'] = 'Confiar en continguts tramesos';
 $string['site:uploadusers'] = 'Carregar nous usuaris des d\'un fitxer';
 $string['site:viewfullnames'] = 'Veure sempre els noms complets dels usuaris';

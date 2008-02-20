@@ -49,6 +49,7 @@ $string['failedupdatefeedback'] = 'Ha fallat l\'actualització de la retroacció
 $string['feedback'] = 'Retroacció';
 $string['feedbackfromteacher'] = 'Retroacció del $a';
 $string['feedbackupdated'] = 'S\'ha actualitzat la retroacció en les tasques de $a persones';
+$string['finalize'] = 'Prou trameses';
 $string['graded'] = 'Qualificada';
 $string['guestnosubmit'] = 'Els visitants no poden trametre una tasca. Abans de trametre una tasca heu d\'entrar o us heu de registrar.';
 $string['guestnoupload'] = 'Els usuaris visitants no poden penjar fitxers.';

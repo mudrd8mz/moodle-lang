@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 dev (2007080103)
+      // quiz.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['1day'] = 'Un dia';
@@ -11,7 +11,20 @@ $string['acceptederror'] = 'Error acceptat';
 $string['action'] = 'Acció';
 $string['adaptive'] = 'Mode adaptatiu';
 $string['addcategory'] = 'Afegeix categoria';
+$string['addingcalculated'] = 'S\'està afegint una pregunta calculada';
+$string['addingdescription'] = 'S\'està afegint una descripció';
+$string['addingessay'] = 'S\'està afegint una pregunta de resposta oberta';
+$string['addingmatch'] = 'S\'està afegint una pregunta d\'aparellar';
+$string['addingmultianswer'] = 'S\'està afegint una pregunta de respostes incrustades (Cloze)';
+$string['addingmultichoice'] = 'S\'està afegint una pregunta d\'opcions múltiples';
+$string['addingnumerical'] = 'S\'està afegint una pregunta numèrica';
+$string['addingquestion'] = 'S\'està afegint una pregunta';
 $string['addingquestions'] = 'Des d\'aquesta part de la pàgina podeu gestionar la vostra base de dades de preguntes. Les preguntes s\'emmagatzemen en categories per tal de mantenir-les organitzades i es poden utilitzar en qualsevol qüestionari del vostre curs o fins i tot en altres cursos si trieu de \'publicar-les\'. <br /><br />Després de seleccionar o crear una categoria podreu crear o editar preguntes. Podeu seleccionar qualsevol d\'aquestes preguntes per afegir-la al qüestionari a l\'altra part de la pàgina.';
+$string['addingrandom'] = 'S\'està afegint una pregunta aleatòria';
+$string['addingrandomsamatch'] = 'S\'està afegint una pregunta aleatòria d\'aparellar respostes breus';
+$string['addingshortanswer'] = 'S\'està afegint una pregunta de resposta breu';
+$string['addingtruefalse'] = 'S\'està afegint una pregunta de vertader o fals';
+$string['addmoreoverallfeedbacks'] = 'Afegeix {no} camps més de retroacció';
 $string['addquestions'] = 'Afegeix preguntes';
 $string['addquestionstoquiz'] = 'Afegeix preguntes al qüestionari actual';
 $string['addrandom'] = 'Afegeix $a preguntes aleatòries';
@@ -161,7 +174,7 @@ $string['editingrandom'] = 'S\'està editant una pregunta aleatòria';
 $string['editingrandomsamatch'] = 'S\'està editant una pregunta aleatòria d\'aparellar respostes breus';
 $string['editingrqp'] = '$a: s\'està editant una pregunta';
 $string['editingshortanswer'] = 'S\'està editant una pregunta de resposta breu';
-$string['editingtruefalse'] = 'S\'està editant una pregunta de vertader/fals';
+$string['editingtruefalse'] = 'S\'està editant una pregunta de vertader o fals';
 $string['editqcats'] = 'Edita categories de les preguntes';
 $string['editquestions'] = 'Edita preguntes';
 $string['editquiz'] = 'Edita el qüestionari';

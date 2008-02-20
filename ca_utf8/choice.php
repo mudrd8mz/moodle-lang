@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 dev (2007062008)
+      // choice.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addmorechoices'] = 'Afegeix més opcions';
@@ -11,12 +11,14 @@ $string['choice:deleteresponses'] = 'Suprimir respostes';
 $string['choice:downloadresponses'] = 'Baixar respostes';
 $string['choice:readresponses'] = 'Llegir respostes';
 $string['choiceclose'] = 'Fins';
+$string['choicefull'] = 'Aquesta consulta està completa i no queden espais disponibles.';
 $string['choicename'] = 'Títol de la consulta';
 $string['choiceopen'] = 'Oberta';
 $string['choicetext'] = 'Text de la consulta';
 $string['displayhorizontal'] = 'En horitzontal';
 $string['displaymode'] = 'Mode de visualització';
 $string['displayvertical'] = 'En vertical';
+$string['expired'] = 'Aquesta activitat es va tancar el dia $a i ja no està disponible.';
 $string['fillinatleastoneoption'] = 'Heu de proporcionar almenys dues possibles respostes';
 $string['full'] = '(Complet)';
 $string['havetologin'] = 'Abans de trametre una resposta heu d\'entrar amb el vostre nom d\'usuari i contrasenya.';
@@ -38,6 +40,7 @@ $string['publishanonymous'] = 'Publica els resultats anònimament, sense mostrar
 $string['publishnames'] = 'Publica els resultats complets, amb els noms dels estudiants i les seves respostes';
 $string['publishnot'] = 'No publiquis els resultats';
 $string['removemychoice'] = 'Suprimeix la meva resposta';
+$string['removeresponses'] = 'Suprimeix totes les respostes';
 $string['responses'] = 'Respostes';
 $string['responsesto'] = 'Respostes per a $a';
 $string['savemychoice'] = 'Desa la meva resposta';

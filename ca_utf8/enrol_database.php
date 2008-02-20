@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.9 Beta + (2007092806)
+      // enrol_database.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['autocreate'] = 'Es poden crear els cursos automàticament si hi ha inscripcions a cursos que encara no existeixen en aquest Moodle.';
@@ -17,6 +17,7 @@ $string['dbtype'] = 'Tipus de base de dades';
 $string['dbuser'] = 'Usuari del servidor';
 $string['defaultcourseroleid'] = 'El rol que s\'assignarà per defecte si no se n\'especifica un altre.';
 $string['description'] = 'Podeu fer servir una base de dades externa (gairebé de qualsevol mena) per controlar les inscripcions. Se suposa que la base de dades externa té un camp que conté un ID de curs i un altre camp amb un ID d\'usuari. Aquests camps es comparen amb els camps que trieu de les taules locals de cursos i d\'usuaris.';
+$string['disableunenrol'] = 'SI activeu aquest paràmetre, la inscripció dels usuaris prèviament inscrits pel connector de base de dades externa ja no podrà ser cancel·lada per aquest mateix connector, independentment del contingut de la base de dades.';
 $string['enrol_database_autocreation_settings'] = 'Creació automàtica de cursos nous';
 $string['enrolname'] = 'Base de dades externa';
 $string['general_options'] = 'Opcions generals';

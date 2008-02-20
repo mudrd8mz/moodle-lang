@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta + (2007092806)
+      // message.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['addcontact'] = 'Afegeix contacte';
@@ -33,6 +33,7 @@ $string['message'] = 'Missatge';
 $string['messagehistory'] = 'Històric de missatges';
 $string['messages'] = 'Missatges';
 $string['messaging'] = 'Missatgeria';
+$string['messagingdisabled'] = 'La missatgeria està inhabilitada en aquest lloc. Els missatges s\'enviaran per correu electrònic.';
 $string['mycontacts'] = 'Els meus contactes';
 $string['newonlymsg'] = 'Mostra només nous';
 $string['newsearch'] = 'Nova cerca';
