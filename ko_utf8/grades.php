@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101508)
+      // grades.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['activities'] = '활동';
@@ -31,6 +31,8 @@ $string['aggregation'] = '집계';
 $string['aggregationcoef'] = '집계 상수';
 $string['aggregationcoefextra'] = '가산 점수';
 $string['aggregationcoefextrahelp'] = '집계중 이 성적항목에 대한 가산점수';
+$string['aggregationcoefextrasum'] = '가산 점수';
+$string['aggregationcoefextrasumhelp'] = '집계중 이 성적항목에 대한 가산점수';
 $string['aggregationcoefweight'] = '항목 가중치';
 $string['aggregationcoefweighthelp'] = '타 성적항목의 집계가 이루어지는 동안 가중치는 성적항목의 모든 점수에 적용된다.';
 $string['aggregationhelp'] = '강좌에서 모든 학습자의 성적을 집계하는데 사용되는 전략';
@@ -62,6 +64,7 @@ $string['categoryedit'] = '범주 편집';
 $string['categoryname'] = '범주명';
 $string['categorytotal'] = '범주 합계';
 $string['changereportdefaults'] = '보고서 기본 설정 변경';
+$string['chooseaction'] = '활동 선택';
 $string['choosecategory'] = '범주 선택';
 $string['compact'] = '간결한';
 $string['configaggregationposition'] = '실제 점수를 참조한 채점자 보고서 표에서 총 합계 열의 위치';
@@ -160,6 +163,7 @@ $string['export'] = '내보내기';
 $string['exportfeedback'] = '내보내기에 피드백을 포함';
 $string['exportplugins'] = '플러그인 내보내기';
 $string['exportselectedoutcomes'] = '선택된 학습성과 내보냄';
+$string['exportto'] = '내보낼 곳';
 $string['extracredit'] = '별도 이수';
 $string['extracreditwarning'] = '주의: 한 범주의 모든 항목에 대해 별도 이수로 설정하면, 이들에 대한 성적합계가 없기 때문에 아예 성적 계산에서 빼는게 바람직 하다.';
 $string['feedback'] = '피드백';
@@ -262,6 +266,7 @@ $string['importfailed'] = '가져오기 실패';
 $string['importfeedback'] = '피드백 가져오기';
 $string['importfile'] = '파일 가져오기';
 $string['importfilemissing'] = '파일 받기 실패, 다시 가서 제대로 된 파일을 올리세요.';
+$string['importfrom'] = '가져올 곳';
 $string['importoutcomenofile'] = '올려진 파일이 깨졌거나 내용이 없습니다. 유효한 파일인지를 확인하기 바랍니다. 문제는 $a 째 줄에서 발생했으며, 이는 가져온 파일에 기대한 헤더가 존재하지 않았거나, 자료 라인에 (해더 라인인) 첫번째 줄에 나타난 칼럼수 만큼의 필드가 존재하지 않아서 벌어진 것일 수 있습니다. 연습삼아 내보낸 파일에 유효한 헤더가 존재하는지 살펴보라.';
 $string['importoutcomes'] = '학습성과 가져오기';
 $string['importoutcomesuccess'] = '식별번호 $a->id \"$a->name\" 학습성과 가져옴';
