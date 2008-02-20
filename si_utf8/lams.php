@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 2.0 dev (2007101508)
+      // lams.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['createSequence'] = 'නව අනුක්‍රමයක් සාදන්න';
@@ -23,6 +23,9 @@ $string['sequence'] = 'අනුක්‍රමය තෝරන්න';
 $string['server_id'] = 'සේවාදායකයේ හැඳුනුම් අංකය';
 $string['server_key'] = 'සේවාදායකයේ යතුර';
 $string['server_url'] = 'සේවාදායකයේ URLය';
+$string['serverid'] = '<a href=\"http://www.lamsinternational.com\">LAMS international</a> වෙතින් ලද සේවාදයක හැඳුනුම් අංකය ඇතුලත් කරන්න';
+$string['serverkey'] = '<a href=\"http://www.lamsinternational.com\">LAMS international</a> වෙතින් ලද සේවාදයක යතුර ඇතුලත් කරන්න';
+$string['serverurl'] = 'LAMS සේවාදායකයට පිවිසීම සඳහා මූලික URL ය ඇතුලත් කරන්න. උදාහරණයක් ලෙස http://localhost:8080/lams';
 $string['useSequence'] = 'තෝරාගත් අනුක්‍රමය භාවිතා කරන්න';
 $string['visibletostudents'] = 'ක්‍රියාකාරකම ශිෂ්‍යයන්ට පෙන්වන්න';
 $string['wikistartederror'] = 'විකියෙහි දැනටමත් ඇතුලත් කිරීම ඇත -  වෙනස්කල නොහැක.';
