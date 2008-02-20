@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (2007101508)
+      // xmldb.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['aftertable'] = 'වගුවෙන් පසු:';
@@ -115,6 +115,8 @@ $string['viewedited'] = 'සකසන ලද්ද පෙන්වන්න';
 $string['vieworiginal'] = 'මුල්පිටපත පෙන්වන්න';
 $string['viewphpcode'] = 'PHP කේතය පෙන්වන්න';
 $string['viewsqlcode'] = 'SQL කේතය පෙන්වන්න';
+$string['wrong'] = 'වැරදි';
+$string['wrongints'] = 'වැරදි පූර්ණ සංඛ්‍යාවක් සොයාගෙන ඇත';
 $string['wronglengthforenum'] = 'enum ක්ෂේත්‍රය සඳහා වැරදි දිගකි';
 $string['wrongnumberoffieldsorvalues'] = 'වැකියේ වැරදි ක්ෂේත්‍ර ගණනක් හෝ අගයන් පවතී';
 $string['wrongreservedwords'] = 'දැනට භාවිත වෙන්කරන ලද පද<br />(ඔබ $CFG->prefix භාවිතා කරන්නේ නම් වගු නාමයන් වැදගත් නොවන බව සලකන්න)';
