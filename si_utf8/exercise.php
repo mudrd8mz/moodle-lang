@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // emailprotect.php - created with Moodle 1.6 + (2006050507)
+      // exercise.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['absent'] = 'නොපැමිනි';
@@ -43,6 +43,7 @@ $string['enterpassword'] = 'මුර පදය ඇතුලත් කරන්�
 $string['entriessaved'] = 'ඇතුලත් කිරීම් සේව් කරන ලදි';
 $string['errorbanded'] = 'දෝෂ තහනම් කරන ලදි';
 $string['excellent'] = 'විශිෂ්ඨ';
+$string['exercise:assess'] = 'අභ්‍යාස අගයන්න';
 $string['exerciseassessments'] = 'අභ්‍යස ඇගයීම්';
 $string['exercisefeedback'] = 'අභ්‍යස ප්‍රතිචාර';
 $string['exercisesubmissions'] = 'අභ්‍යාස ඉදිරිපත් කිරීම්';

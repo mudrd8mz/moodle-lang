@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // quiz_regrade.php - created with Moodle 2.0 dev (2007101508.02)
 
 
-$string['regrade'] = 'නැවත ශ්‍රේණිගත කරන්න';
+$string['regrade'] = 'ප්‍රතිශ්‍රේණිගත කරන්න';
 
 ?>
