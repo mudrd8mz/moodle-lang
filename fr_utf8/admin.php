@@ -52,6 +52,7 @@ $string['clamfailureonupload'] = 'Lors d\'un échec de clam AV';
 $string['cleanup'] = 'Nettoyage';
 $string['commonsettings'] = 'Réglages communs';
 $string['componentinstalled'] = 'Composant installé';
+$string['computedfromlogs'] = 'Calculé à partir des historiques depuis $a.';
 $string['confeditorhidebuttons'] = 'Sélectionner les boutons ne devant pas apparaître dans la barre de l\'éditeur.';
 $string['configallowassign'] = 'Vous pouvez permettre aux utilisateurs ayant un rôle de la colonne de gauche d\'attribuer certains rôles de chaque colonne à d\'autres utilisateurs';
 $string['configallowcategorythemes'] = 'Si vous activez ce réglage, les thèmes pourront être définis au niveau des catégories. Le thème défini pour la catégorie sera hérité par toutes les sous-catégories et tous les cours qui s\'y trouvent, à moins qu\'un thème propre n\'y soit défini spécifiquement. ATTENTION&nbsp;! L\'activation de cette option pourrait affecter la performance de votre site.';
