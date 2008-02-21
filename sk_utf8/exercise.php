@@ -50,6 +50,7 @@ $string['enterpassword'] = 'Vložte heslo';
 $string['entriessaved'] = 'Záznamy uložené';
 $string['errorbanded'] = 'Množstvo chýb';
 $string['excellent'] = 'Výborný';
+$string['exercise:assess'] = 'Hodnotiť cvičenia';
 $string['exerciseassessments'] = 'Hodnotenie cvičení';
 $string['exercisefeedback'] = 'Cvičenie - spätná väzba';
 $string['exercisesubmissions'] = 'Riešenie zadaného cvičenia';

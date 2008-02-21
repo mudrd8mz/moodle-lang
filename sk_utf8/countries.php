@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 1.8.2+ (2007021520)
+      // countries.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['AD'] = 'Andorra';
@@ -49,7 +49,6 @@ $string['CM'] = 'Cameroon';
 $string['CN'] = 'Čína';
 $string['CO'] = 'Kolumbia';
 $string['CR'] = 'Kostarika';
-$string['CS'] = 'Srbsko a Čierna hora';
 $string['CU'] = 'Kuba';
 $string['CV'] = 'Mys Verde';
 $string['CX'] = 'Vianočné ostrovy';
@@ -74,7 +73,6 @@ $string['FK'] = 'Falklandské ostrovy (Malvíny)';
 $string['FM'] = 'Mikronézia; Federácia štátov';
 $string['FO'] = 'Faroeove ostrovy';
 $string['FR'] = 'Francúzsko';
-$string['FX'] = 'Francúzsko; Metropolitan';
 $string['GA'] = 'Gabon';
 $string['GB'] = 'Veľká Británia';
 $string['GD'] = 'Grenada';
@@ -116,7 +114,6 @@ $string['KH'] = 'Kambodža';
 $string['KI'] = 'Kiribati';
 $string['KM'] = 'Comoros';
 $string['KN'] = 'Saint Kitts a Nevis';
-$string['KO'] = 'Kosovo';
 $string['KP'] = 'Kórejská ľudovo demokratická republika';
 $string['KR'] = 'Južná Kórea';
 $string['KW'] = 'Kuvajt';
@@ -136,6 +133,7 @@ $string['LY'] = 'Libyan Arab Jamahiriya';
 $string['MA'] = 'Maroko';
 $string['MC'] = 'Monako';
 $string['MD'] = 'Moldavsko';
+$string['ME'] = 'Čierna Hora';
 $string['MG'] = 'Madagaskar';
 $string['MH'] = 'Marshallove ostrovy';
 $string['MK'] = 'Macedónsko';
@@ -184,6 +182,7 @@ $string['PY'] = 'Paraguaj';
 $string['QA'] = 'Qatar';
 $string['RE'] = 'Reunion';
 $string['RO'] = 'Rumunsko';
+$string['RS'] = 'Srbsko';
 $string['RU'] = 'Rusko';
 $string['RW'] = 'Rwanda';
 $string['SA'] = 'Saudská Arábia';
@@ -215,7 +214,6 @@ $string['TK'] = 'Tokelau';
 $string['TM'] = 'Turkmenistan';
 $string['TN'] = 'Tunisko';
 $string['TO'] = 'Tonga';
-$string['TP'] = 'Východný Timor';
 $string['TR'] = 'Turecko';
 $string['TT'] = 'Trinidad a Tobago';
 $string['TV'] = 'Tuvalu';
@@ -233,14 +231,12 @@ $string['VG'] = 'Panenské ostrovy (Britské)';
 $string['VI'] = 'Panenské ostrovy (Americké)';
 $string['VN'] = 'Vietnam';
 $string['VU'] = 'Vanuatu';
-$string['WA'] = 'Wales';
 $string['WF'] = 'Ostrovy Wallis a Futuna';
 $string['WS'] = 'Samoa';
 $string['YE'] = 'Jemen';
 $string['YT'] = 'Mayotte';
 $string['ZA'] = 'Južná Afrika';
 $string['ZM'] = 'Zambia';
-$string['ZR'] = 'Zair';
 $string['ZW'] = 'Zimbabwe';
 
 ?>
