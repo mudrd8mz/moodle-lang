@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508.02)
+      // admin.php - created with Moodle 2.0 dev (2007101508.04)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -54,7 +54,7 @@ $string['cleanup'] = 'クリーンアップ';
 $string['commonsettings'] = '共通設定';
 $string['componentinstalled'] = 'コンポーネントがインストールされました。';
 $string['confeditorhidebuttons'] = 'HTMLエディタで隠すボタンを選択してください。';
-$string['configallowassign'] = 'あなたはロールが割り当てられている左側のユーザに対して、他のユーザのロールを割り当てることができます。';
+$string['configallowassign'] = 'あなたは、ロール割り当て済みの左側のユーザに対して、他のユーザのロールを割り当てを許可することができます。';
 $string['configallowcategorythemes'] = 'この設定を有効にした場合、カテゴリに独自のテーマを設定することができます。独自のテーマが設定されていない限り、カテゴリテーマはすべての子カテゴリおよびコースのテーマを上書きします。警告: カテゴリテーマを有効にするとパフォーマンスに影響を及ぼします。';
 $string['configallowcoursethemes'] = 'この設定を有効にした場合、コースに独自のテーマを設定することができます。コーステーマは、他のすべてのテーマ (サイト、ユーザ、セッションテーマ) を上書きします。';
 $string['configallowemailaddresses'] = '新しいメールアドレスを特定のドメインのみに制限したい場合、この欄にスペースで区切って入力してください。他のドメインはすべて拒否されます。サブドメインを許可するには、先頭に「.」を付けたドメインを入力してください。例 <strong>ourcollege.edu.au .gov.au</strong>';
@@ -728,11 +728,11 @@ $string['webproxy'] = 'ウェブプロクシ';
 $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネットに接続できない場合、以下のオプションに必要事項を入力してください。インターネットアクセスは、環境データ、言語パック、RSSフィード、タイムゾーン等のダウンロードに必要です。<br />PHP cURL拡張モジュールの使用を強くお勧めします。';
 $string['xmlrpcrecommended'] = '任意のxmlrpc拡張モジュールのインストールは、Moodleネットワーキング機能に有用です。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
-$string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (2007101508.02)
-$string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (2007101508.02)
-$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; //TBD with Moodle 2.0 dev (2007101508.02)
-$string['skipuser'] = 'ユーザをスキップする'; //TBD with Moodle 2.0 dev (2007101508.02)
-$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; //TBD with Moodle 2.0 dev (2007101508.02)
-$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; //TBD with Moodle 2.0 dev (2007101508.02)
+$string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (2007101508.04)
+$string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (2007101508.04)
+$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; //TBD with Moodle 2.0 dev (2007101508.04)
+$string['skipuser'] = 'ユーザをスキップする'; //TBD with Moodle 2.0 dev (2007101508.04)
+$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; //TBD with Moodle 2.0 dev (2007101508.04)
+$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; //TBD with Moodle 2.0 dev (2007101508.04)
 
 ?>
