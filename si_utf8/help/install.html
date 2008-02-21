@@ -1,170 +1,122 @@
-<h1>මූඩ්ල් ස්ථාපනය</h1>
-<h2>කලබල නොවන්න! <img src="http://moodle.org/pix/s/smiley.gif" alt="" /></h2>
+﻿
+<h1>මූඩ්ල් ස්ථාපනය කිරීම </h1>
+<h2>කලබල වෙන්න එපා ! <img src="http://moodle.org/pix/s/smiley.gif" alt="" /></h2>
 <div class="indent">
-  <p>මෙම මාර්ගෝපදේශකය පළමු වරට මූඩ්ල් ස්ථාපනය කරන්නේ කෙසේද යන්න පහදයි.  මෙම සමහර පියවර වැඩි වශයෙන් විස්තර කර ඇත්තේ අන්තර්ජාල සේවාදායකය සැකසීම් පිළිබඳ වැඩි වපසරියක් ආවරණය කරණු සඳහා වන බැවින් මෙම ලේඛනය දිගු හා සංකීර්ණ ලෙස දිස්විය හැක. Don't panic, once you know how to do it you can install Moodle in minutes!</p>
-  <p>If you have problems please read this document carefully &ndash; most common issues are answered in here.
-     If you still have trouble, you can seek help from 
-   <a href="http://moodle.org/help">Moodle Help</a></p>
-  <p>Another option is to contact a <a href="http://moodle.com/hosting/">web hosting company</a>
-     who can completely maintain Moodle for you, so that you can ignore all this and get straight into educating!
-</p>
-
-  <p>Sections in this document:</p>
+  <p>මෙම උපදෙස් මාලාව මඟින් මූඩ්ල් පළමු වතාවට ස්ථාපනය කරන ආකාරය  විස්තර කරයි. මෙහි අඩංගු සමහර පියවර බහුලව භාවිතා වන වෙබ් සේවාදායකයන් පිහිටුවා  ගන්නා අයුරු විස්තර කිරීමට උත්සහ දරා ඇත. මේ නිසා මෙම උදෙස්මාලාව මදක් සංකීර්ණ ව  පෙනුන ද , ‍ඔබ කලබල නොවන්න. ඔබ එය දැනගත් පසුව ඔබට එය විනාඩි කිහිපයක් ඇතුළත  ස්ථාපනය කර ගැනීමට හැකි වනු ඇත. </p>
+  <p>ඔබට යම් ගැටළුවක් ඇත්නම් කරුණාකර මෙම ලියවිල්ල හොඳින් කියවන්න.  බහුලව හමුවන ප්‍රශ්නකාරී අවස්ථා නිරාකරණය සඳහා මෙහි උපදෙස් සපයා ඇත. එසේත්  නොවිසඳුන ප්‍රශ්න සඳහා ඔබට උදව් ලබාගැනීමට මූඩ්ල් <a href="http://moodle.org/help">උදව්ගොනු</a>වල පිහි‍ට  පතන්න.  <a href="http://moodle.org/help"></a></p>
+  <p>එසේත් නොමැති නම් ඔබට මූඩ්ල් පද්ධති පවත්වාගෙන යන  වෙබ් ධා‍රක (<a href="http://moodle.com/hosting/">web hosting company</a>) සේවාව සපයන ආයතන ‍වලට  ඔබගේ පද්ධතිය ධාරක කරන මෙන් ඉල්ලා සිටිය හැකි ය. එහිදී ඔබට මේ ඉදිරි සංකීර්ණ කරුණු  මඟහැර කෙලින්ම පද්ධතියේ භාවිත ඉගැන්වුම් ක්‍රියාවලියට යොමු විය හැකි ය.</p>
+  <p>මෙම ලියැවිල්ලෙන් පහත කරුණු විමසා බලමු :</p>
   <ol>
-    <li><a href="#requirements">Requirements</a></li>
-    <li><a href="#downloading">Download and copy files into place</a> </li>
-    <li><a href="#site">Site structure</a></li>
-    <li><a href="#installer">Run the installer script to create config.php</a>      <ul>
-        <li><a href="#webserver">Check web server settings</a></li>
-        <li><a href="#database">Creating a database</a></li>
-        <li><a href="#data">Creating a data directory</a></li>
+    <li><a href="#requirements">අවශ්‍යතා</a></li>
+    <li><a href="#downloading">බා ගත් පසු වෙනත් ‍ස්ථානයකට පිටපත් කරගැනීම</a> </li>
+    <li><a href="#site">අ‍ඩවියේ       ආකෘතිය</a></li>
+    <li><a href="#installer">ස්ථාපනය       කරන script ධාවනය       කර  config.php නිර්මාණය කිරීම </a>
+        <ul>
+          <li><a href="#webserver">වෙබ්        සේවා දායක ‍සැකසුම පරික්ෂා කිරීම</a></li>
+          <li><a href="#database">දත්ත        සමුදාය නිර්මාණය කිරීම</a></li>
+          <li><a href="#data">දත්ත        ඩිරෙක්ටරිය නිර්මාණය කිරීම</a></li>
         </ul>
     </li>
-    <li><a href="#admin">Go to the admin page to continue configuration</a></li>
-    <li><a href="#cron">Set up cron</a></li>
-    <li><a href="#course">Create a new course</a></li>
-     </ol>
-  <p>&nbsp;</p>
-</div>
-
-<h3 class="sectionheading" id="requirements">1. Requirements</h3>
-<div class="indent"> 
-  <p>Moodle is primarily developed in Linux using Apache, MySQL and PHP (also 
-    sometimes known as the LAMP platform), but is also regularly tested with PostgreSQL 
-    and on Windows XP, Mac OS X and Netware 6 operating systems</p>
-  <p>The requirements for Moodle are as follows:</p>
-  <ol>
-    <li>Web server software. Most people use <a href="http://www.apache.org/" >Apache</a>, 
-      but Moodle should work fine under any web server that supports PHP, such 
-      as IIS on Windows platforms.</li>
-    <li><a href="http://www.php.net/">PHP</a> scripting language (version 4.1.0 
-      or later). PHP 5 is supported as of Moodle 1.4. </li>
-    <li>a working database server: <a href="http://www.mysql.com/">MySQL</a> 
-      or <a href="http://www.postgresql.org/">PostgreSQL</a> are 
-      completely supported and recommended for use with Moodle. </li>
+    <li><a href="#admin">පාලක       පිටුවට (admin page) ගොස් පිහිටුවීම අඛණ්ඩව කර‍ගෙන       යාම</a></li>
+    <li><a href="#cron">cron සකස් කිරීම </a></li>
+    <li><a href="#course">නව පාඨමාලාවක් ආරම්භ කිරීම </a></li>
   </ol>
-  <p>Most web hosts support all of this by default. If you are signed up with 
-    one of the few webhosts that does not support these features ask them why, 
-    and consider taking your business elsewhere.</p>
-  <p>If you want to run Moodle on your own computer and all this looks a bit daunting, 
-    then please take a look at <a href="http://docs.moodle.org/en/Administrator_documentation">the administrator documentation</a>.</p>
   <p>&nbsp;</p>
 </div>
-
-<h3 class="sectionheading" id="downloading">2. Download and copy files into place </h3>
+<h3 class="sectionheading" id="requirements">1. අවශ්‍යතා       </h3>
 <div class="indent">
-  <p>There are two ways to get Moodle, as a compressed package and via CVS. These 
-    are explained in detail on the download page: <a href="http://moodle.org/download/">http://moodle.org/download/</a></p>
-  <p>After downloading and unpacking the archive, or checking out the files via 
-    CVS, you will be left with a directory called &quot;moodle&quot;, containing 
-    a number of files and folders.</p>
-  <p>You can either place the whole folder in your web server documents directory, 
-    in which case the site will be located at <b>http://yourwebserver.com/moodle</b>, 
-    or you can copy all the contents straight into the main web server documents 
-    directory, in which case the site will be simply <b>http://yourwebserver.com</b>.</p>
-  <p>If you are downloading Moodle to your local computer and then uploading it to your web site, it is usually better to upload the whole archive as one file, and then do the unpacking on the server. Even web hosting interfaces like Cpanel allow you to uncompress archives in the &quot;File Manager&quot;. </p>
+  <p>මූඩ්ල් පද්ධතිය මූලිකව නිර්මාණය කර  ඇත්තේ Linux මෙහෙයුම් පද්ධතියන් තුළ දිවෙන Apache වෙබ් බ්‍රව්සරය, MySQL දත්ත  සමුච්ච යෙදවුම සහ PHP යන පරිගණක භාෂාව උපයෝගී කරගෙනය. (ඒවා සමහර විට LAMP අංගය  ලෙසද හඳුන්වා දෙයි.)  නමුත් මූඩ්ල් පද්ධතිය, PostgreSQL,  සමඟ Windos XP, Mac OS  X හා Netware 6 වැනි  මෙහෙයුම් පද්ධති සමඟ පරික්ෂාකර භාවි‍තයේ යොදවා ඇත.</p>
+  <p>මූඩ්ල් පද්ධතිය සඳහා පහත අවශ්‍යතා තිබීම  අත්‍යාවශ්‍ය වේ. </p>
+  <ol>
+    <li>වෙබ් සේවා දායකය  : වැඩි වශයෙන් <a href="http://www.apache.org/" >Apache</a>  සේවා දායක යෙදවුම යොදාගනියි. නමුත්  වෙනත් ඕනෑම  PHP සඳහා සහයෝගය දක්වන  සේවාදායකයක් උචිතය. උදාහරණ Windows අංගනයේ ඇති IIS වෙබ් සේවාදාක යෙදවුම සැළකිය  හැකි ය.</li>
+    <li><a href="http://www.php.net/">PHP</a>script භාෂාව    : එහි 4.10 හෝ ‍ඊට වැඩි සංස්කරණ උචිතය.</li>
+    <li>දත්ත සමුච්ච යෙදවුම : <a href="http://www.mysql.com/">MySQL</a> හෝ <a href="http://www.postgresql.org/">PostgreSQL </a>සම්පූර්ණ සහයෝගය දක්වන  අතර ඒවා මූඩ්ල් සඳහා නිර්දේශ කරයි.</li>
+  </ol>
+  <p>බොහෝ සේවා ධාරකයන් (web host) මේවාට පෙරනිමියෙන්ම  සහයෝගය  දක්වයි.ඔබයම්  වෙබ් ධාරකයෙක් තෝරාගත් විට ඔවුන් ඉහත  අවශ්‍යතාවයන් සඳහා සහයෝගය නොදක්වන්නේ නම් ඔබට එය ප්‍රශ්න කිරීමට පිළිවන. නැතිනම්  අවශ්‍යතා සැපිරිය හැකි වෙබ් ධාරක සේවාදායක ආයතනයක් තෝරාගන්න. </p>
+  <p>ඔබගේ පරිගණකයට මූඩ්ල් පද්ධතිය ස්ථාපනය  කිරීමේදී කළකිරීම්/පසුබැසීම් අවස්ථා ඇති වි‍ටකදී කරුණාකර පාලකගේ ලියවිල්ල (<a href="http://docs.moodle.org/en/Administrator_documentation">the administrator documentation</a>.) බලන්න</p>
+  </div>
+<h3 class="sectionheading" id="downloading">2. බා ගත් පසු වෙනත් ‍ස්ථානයකට පිටපත් කරගැනීම </h3>
+<div class="indent">
+  <p>ක්‍රම දෙකකට බාගත හැක. එක් ක්‍රමයක් නම්  හැකිලූ ගොනුවක් ලෙස (compress file)    බාගැනීම ය. අනෙක් ක්‍රමයනම් සියලු ම ‍ගොනු වෙන වෙන ම  CVS ක්‍රමය හරහා බා ගැනීමයි. මේ පිළිබඳ ව වැඩි විස්තර  <a href="http://moodle.org/download/">http://moodle.org/download/</a> සම්බන්ධකය හරහා ලබා ගන්න. </p>
+  <p>බාගත් පසුව, හැකිලූ ගොනුව විවෘත කරන්න.  නැතිනම් ගොනු CVS  හරහා පරීක්ෂා කරන්න. අවසානයේදී ඔබට “moodle”නැමැති  ‍ඩිරෙක්ටරිය හා එතුළ වු ගොනු සහ උප ‍ඩිරෙක්ටරි විවෘත වනු ඇත. </p>
+  <p>ඔබට මෙම “moodle” ‍  ඩිරෙක්ටරිය, වෙබ් සේවාදායකයේ වූ වෙබ් ලියැවිලි සඳහා වෙන් කළ ඩිරෙක්ටරිය තුළ තැබිය  හැක. එහිදී ඔබට පද්ධතිය වෙබ් බ්‍රව්සර හරහා පහත ලිපිනය මඟින් ලබා ගතහැක. <strong>http://</strong><strong>ඔබගේ</strong><strong> සේවාදයක ලිපිනය/</strong><strong>moodle</strong><strong>. </strong>නැතිනම්  එම moodle ඩිරෙක්ටරියේ වූ ගොනු සියල්ල පිටපත්කර  වෙබ් සේවාදයකයේ අදාල ඩිරෙක්ට‍රියට ම දැමුවේ නම් ඔබට කෙලින් ම වෙබ් සේවාදායක ලිපිනයට  පද්ධතිය ප්‍රවේශ විය හැකි ය. එවිට ලිපිනය <strong>http://</strong><strong> සේවාදයක ලිපිනය/ </strong><strong> </strong></p>
+  <p>පළමුව මූඩ්ල්  පද්ධතිය ඔබගේ ප්‍රදේශීය පරිගණකයට බාගෙන දෙවනුව වෙබ් සේවා දායකයට දමන්න. එහිදී හැකිලු ‍ගොනුවක් ලෙස සේවා දායකයට දමා පසුව එය සේවාදායකය තුළට ඉහිල් කිරීම (decompress) ‍වඩාත් උචිතය. Cpanel  වැනි වෙබ් ධාරක මුහුණත පවා හැකිලූ ගොනු ඉහිල් කිරීමේ පහසුකම එහි ගොනු පාලකය තුළ ඇත.</p>
 </div>
 <p>&nbsp;</p>
-
-<h3 class="sectionheading" id="site">3. Site structure</h3>
+<h3 class="sectionheading" id="site">3. අඩවියේ  ආකෘතිය </h3>
 <div class="indent">
-  <p>You can safely skip this section, but here is a quick summary of the contents of the Moodle folder, to help get 
-    you oriented:</p>
+  <p>ඔබට මෙය අත්හැර මීළඟ කොටසට පිවිසීමට හැකි ය. නමුත් අඩවියේ ආකෘතිය සහ ඩිරෙක්ටරිවල අන්තර්ගතය පිළිබඳ යම් අදහසක් ලබා ගැනීමට   හැකි ය. </p>
   <div class="indent">
-    <table class="indent"><tr>
-      <td valign="top">config.php</td>
-      <td valign="top">-</td>
-      <td valign="top">
-        contains basic settings. This file does not come with Moodle - you will create it. </td>
-    </tr>
+    <table class="indent">
+      <tr>
+        <td valign="top">config.php</td>
+        <td valign="top">-</td>
+        <td valign="top">මූලික  සැකසුම අඩංගු එය මූඩ්ල් පද්ධතිය සමඟ ‍නොපැමිණේ. නමුත් ස්ථාපනය කරන විට එය නිර්මාණය  වේ.</td>
+      </tr>
       <tr>
         <td valign="top">install.php</td>
         <td valign="top">-</td>
-        <td valign="top">the script you will run to create config.php </td>
+        <td valign="top">config.php  ගොනුව නිර්මාණය වීම සඳහා ධාවනය කළ යුතු ගොනුවකි.</td>
       </tr>
-      <tr><td valign="top">version.php</td>
-      <td valign="top">-</td>
-      <td valign="top">
-        defines the current version of Moodle code
-      </td></tr>
-      <tr><td valign="top">index.php</td>
-      <td valign="top">-</td>
-      <td valign="top">
-        the front page of the site
-      </td></tr></table>
+      <tr>
+        <td valign="top">version.php</td>
+        <td valign="top">-</td>
+        <td valign="top">මූඩ්ල් කේත වල පවතින සංස්කරණ තීරණය කර තිබෙන ගොනුවකි.</td>
+      </tr>
+      <tr>
+        <td valign="top">index.php</td>
+        <td valign="top">-</td>
+        <td valign="top"> පද්ධතියේ මව් පිටුව </td>
+      </tr>
+    </table>
     <ul>
-      <li>admin/ - code to administrate the whole server </li>
-      <li>auth/ - plugin modules to authenticate users </li>
-      <li>blocks/ - plugin modules for the little side blocks on many pages</li>
-      <li>calendar/ - all the code for managing and displaying calendars</li>
-      <li>course/ - code to display and manage courses </li>
-      <li>doc/ - help documentation for Moodle (eg this page)</li>
-      <li>files/ - code to display and manage uploaded files</li>
-      <li>lang/ - texts in different languages, one directory per language </li>
-      <li>lib/ - libraries of core Moodle code </li>
-      <li>login/ - code to handle login and account creation </li>
-      <li>mod/ - all the main Moodle course modules are in here </li>
-      <li>pix/ - generic site graphics</li>
-      <li>theme/ - theme packs/skins to change the look of the site.</li>
-      <li>user/ - code to display and manage users</li>
+      <li>admin/ - සේවාදායකයේ පරිපාලන මෙහෙයවන කේත අඩංගුවේ. </li>
+      <li>auth/ - පරිශීලකයන් සත්‍යාපනය සඳහා plugin මොඩියුල  ඇත.  </li>
+      <li>blocks/ -වම් සහ දකුණු පස පිහිටි කුඩා කොටු සඳහා plugin මොඩියුල අඩංගු ය.</li>
+      <li>calendar/ - දින දසුන  සඳහා අවශ්‍ය සියලුම කේත අඩංගු ය. </li>
+      <li>course/ - පාඨමාලා  දර්ශනය සහ පාලනය කිරීම සඳහා අවශ්‍ය  කේත අඩංගු ය. </li>
+      <li>doc/ - මූඩ්ල්  පද්ධති‍යේ උදව් ලිපි ‍ඩිරෙක්ටරියකි. </li>
+      <li>files/ - උඩුගත  වූ ‍ගොනු දිස්වීම සහ පරිපාලනය කිරීම සඳහා අවශ්‍ය කේත අඩංගු ය </li>
+      <li>lang/ - විවිධ භාෂාවල පෙළ අඩංගු ය. සාමාන්‍යයෙන් සෑම භාෂාවකයට ම වෙන වෙන ම ‍ඩිරෙක්ටරි වෙන්  කර ඇත. </li>
+      <li>lib/ - මූඩ්ල් පද්ධතියේ මූලික කේත පුස්තකාල (libraries o‍‍‍f moodle code) අඩංගු ය </li>
+      <li>login/ - පද්ධතියට ලොගින් වීම සහ ගිණුම් නිර්මාණය සඳහා අවශ්‍ය කේත අඩංගු ය</li>
+      <li>mod/ - ප්‍රධාන  මූඩ්ල් ‍පාඨමාලා මොඩියුල අඩංගුව ඇත. </li>
+      <li>pix/ - රූප  සඳහා වූ අඩවිය </li>
+      <li>theme/ - අඩවියේ බාහිර පෙනුම පාලනය කරන කේත අඩංගු ය </li>
+      <li>user/ - පරිශීලකයන් පාලනය හා දර්ශනය කිරීම සඳහා අවශ්‍ය කේත අඩංගු ය </li>
     </ul>
     <p>&nbsp;</p>
   </div>
 </div>
-
-<h3 class="sectionheading" id="installer">4. Run the Installer script to create config.php </h3>
+<h3 class="sectionheading" id="installer">4. ස්ථාපනය       කරන <a href="chaturika_56/main_chaturika_23/install%20dd.html#installer#installer">script </a>ධාවනය       කර config.php නිර්මාණය කිරීම </h3>
 <div class="indent">
-  <p>To run the installer script (install.php), just try to access your Moodle main URL using a web browser, or access <strong>http://yourserver/install.php</strong> directly. </p>
-  <p>(The Installer will try to set a session cookie. If you get a popup warning in your browser make sure you accept that cookie!) </p>
-  <p>Moodle will detect that configuration is necessary and will lead you through some screens to help you create a new configuration file called <strong>config.php. </strong>At the end of the process Moodle will try and write the file into the right location, otherwise you can press a button to download it from the installer and then upload config.php into the main Moodle directory on the server. </p>
-  <p>Along the way the installer will test your server environment and give you suggestions about how to fix any problems. For most common issues these suggestions should be sufficient, but if you get stuck, look below for more information about some of common things that might be holding you up. <br />
+  <p>ස්ථාපනය කරන (install.php) script  ගොනුව ධාවනය කරවීමට මූඩ්ල් පද්ධතිය සපයා ඇති URL ලිපිනය යොදාගෙන වෙබ් බ්‍රව්සරයක්  මඟින් විවෘත කරන්න. නැතිනම් කෙළින්ම http://ඔබගේ සේවාදයකය/install.php බ්‍රව්සරයේ  යතුරු ලියන‍ය කර ගොනුව ධාවනය කරවන්න.  </p>
+  <p>(පද්ධතියේ කුකිස් තැන්පත් කිරීම සිදුකරන  හෙයින් ඒ බ්‍රව්සරයේ අවසර දී තිබීම අවශ්‍ය වේ!) </p>
+  <p>මුඩ්ල් පද්ධතිය ඔබ යම් යම් තිර  ඔස්සේ රැගෙන ගොස් අවශ්‍යතා ව සපිරුණ විගස පද්ධතිය විසින් config.php ගොනුව  නිර්මාණය කරවයි. අවසානයේ නිර්මාණය වු ගොනුව නිසි ස්ථානයේ ලිවීමට උත්සහ කරයි,  නැතිනම් ඔබට අදාල බොත්තම එබිම මඟින් පහසුකම සලසා ඇත. පසුව බාගත් config.php  ගොනුව පද්ධතියේ නිසි ස්ථානයේ වූ මුඩ්ල් ‍ඩිරෙක්ටරියට ඔබට දමා ගත හැකි ය. </p>
+  <p>මෙහිදී පද්ධතිය ඔබ‍ගේ සේවාදායකයේ  ස්වභාවය/පරිසරය පරික්ෂාකර පද්ධතියේ අවශ්‍ය අවශ්‍යතා සැපිරී නැත්නම්, ඒවා සපුරා  ගන්න. පද්ධතිය දෙන ලද උ‍පදෙස් මඟින් පද්ධතිය නිවැරදි ස්ථාපනය කිරීම ප්‍රමාණවත් ය.  වැඩි විස්තර බැලීම වැදගත් වන්නේ ‍ය. <br />
   </p>
-
-<h4 class="sectionheading" id="webserver">4.1 General web server settings </h4>
+  <h4 class="sectionheading" id="webserver">4.1 සාමාන්‍ය වෙබ් සේවාදායකය සැකසිම ‍ </h4>
   <div class="indent">
-    <p>Firstly, make sure that your web server is set up to use index.php as a default 
-      page (perhaps in addition to index.html, default.htm and so on).</p>
-    <p>In Apache, this is done using a DirectoryIndex parameter in your httpd.conf 
-      file. Mine usually looks like this:</p>
-
-      <pre><strong>DirectoryIndex</strong> index.php index.html index.htm </pre>
-
-    <p>Just make sure index.php is in the list (and preferably towards the start 
-      of the list, for efficiency).</p>
-    <p>Secondly, <b>if you are using Apache 2</b>, then you should turn on the <i>AcceptPathInfo</i>
-       variable, which allows scripts to be passed arguments like http://server/file.php/arg1/arg2.
-       This is essential to allow relative links between your resources, and also 
-       provides a performance boost for people using your Moodle web site.  You can 
-       turn this on by adding these lines to your httpd.conf file.</p>
-
-      <pre><strong>AcceptPathInfo</strong> on </pre>
-
-    <p>Thirdly, Moodle requires a number of PHP settings to be active for it to 
-       work.  <b>On most servers these will already be the default settings.</b>
-       However, some PHP servers (and some of the more recent PHP versions) may 
-       have things set differently.  These are defined in PHP's configuration
-       file (usually called php.ini):</p>
-
-      <pre>magic_quotes_gpc = 1    (preferred but not necessary)
+    <p>පළමුව ඔබ index.php ගොනුව වෙබ්  සේවාදායකයේ මව් පිටුව ලෙස පෙරනිමියෙන් සකසා ඇති බ‍ව සනාථ කරන්න. (මීට අමතරව,  index.html,  default.html ආදී වශයෙන් තිබිය හැත.) .</p>
+    <p>Apache වෙබ් සේවාදායක‍යේ, Directoryindex පරාමිතියෙන්  මෙය  සැකසිය හැකි ය. සාමාන්‍යයෙන් එය මෙසේ තිබේදැයි බලන්න</p>
+    <pre><strong>DirectoryIndex</strong> index.php index.html index.htm </pre>
+    <p>index.php පළමුව ඇත්දැයි පරික්ෂාකාරී වන්න. </p>
+    <p>දෙවනුව, ඔබ Apache 2 භාවිතා කරන්නේ නම්  ඔබ <em>AcceptPathInfo</em> විකල්පය  සක්‍රිය කරන්න. එමඟින් විස්තරාකාරයෙන් (arguments) යැවීම සිදු කරයි. උදා http://server/file.php/arg1/arg2 මෙය  ඉතා අවශ්‍යයි. එමඟින් පද්ධතියේ සම්පත් අතර සම්බන්ධතා ගොඩනැගීමට අවසර ලැබේ. එසේම  පද්ධතියේ කාර්යක්ෂම කිරීමට උපකාරීවේ. ඔබට පහත පේළිය එකතු කිරීමෙ මඟින් එය  සක්‍රිය කළ හැකි ය.</p>
+    <pre><strong>AcceptPathInfo</strong> on </pre>
+    <p>තෙවනුව php සැකසුම් කිහිපයක් සක්‍රීය  කිරිමට පද්ධතිය නිසි ලෙස පිහිටු වීමට අවශ්‍ය වේ. බොහෝ සේවාදායකවල මේවා  පෙරනිමියෙන් ම ඇත. නමුත් සමහ‍ර php සේවාදායකවල (සමහර සංස්කරණවල) මෙම ගොනුවේ (php configuration file) සැකසිය හැක. එම  ගොනුව php.ini ලෙස  හැඳින් වේ. :</p>
+    <pre>magic_quotes_gpc = 1    (preferred but not necessary)
 magic_quotes_runtime = 0    (necessary)
 file_uploads = 1
 session.auto_start = 0
 session.bug_compat_warn = 0</pre>
-
-    <p>If you don't have access to httpd.conf or php.ini on your server, or you 
-      have Moodle on a server with other applications that require different settings, 
-      then don't worry, you can often still OVERRIDE the default settings. 
-    </p>
-    <p>To do this, you need to create a file called <b>.htaccess</b> in Moodle's
-       main directory that contains lines like the following.
-       This only works on Apache servers and only when Overrides have been allowed in the main configuration. </p>
-
-      <pre>
+    <p>httpd.conf  හෝ php.ini ප්‍රවේශ  විය නොහැකි නම් හෝ වෙනත් කාරණාවන් නිසා ගොනු වෙනස් කිරීමට  නොහැකිනම්, ඔබට පෙරනිමි සැකසීම ප්‍රතික්ෂේප කර දැමිය හැක.</p>
+    <p>මෙය කිරීම සඳහා ඔබට <strong>.htaccess</strong><strong> </strong>නමින්  ගොනුවක් මුඩ්ල් ප්‍රධාන ගොනුවේ ලියා පහත සඳහන් කේත ඇතුළත් කරන්න. මෙය ක්‍රියාන්විත  වනුයේ Apache සේවා දායකයේ අවසර ඇත්නම් පමණයි. </p>
+    <pre>
 DirectoryIndex index.php index.html index.htm
 
-&lt;IfDefine APACHE2>
+&lt;IfDefine APACHE2&gt;
      <b>AcceptPathInfo</b> on
-&lt;/IfDefine>
+&lt;/IfDefine&gt;
 
 php_flag magic_quotes_gpc 1
 php_flag magic_quotes_runtime 0
@@ -172,90 +124,60 @@ php_flag file_uploads 1
 php_flag session.auto_start 0
 php_flag session.bug_compat_warn 0
 </pre>
-
-    <p>You can also do things like define the maximum size for uploaded files:
-         
-</p>
-
-      <pre>
+    <p>ඔබ උඩූග කිරිමේ ගොනුවල තිබිය යුතු උපරිම විශාලත්වය සැකසීමට අදහස් කරන්නේ නම් පහත කේත එම ‍ගොනුවට ඇතුළත් කරන්න : </p>
+    <pre>
 LimitRequestBody 0
 php_value upload_max_filesize 2M
 php_value post_max_size 2M</pre>
-
-    <p>The easiest thing to do is just copy the sample file from <strong>lib/htaccess</strong>      and edit it to suit your needs.  It contains further instructions.  For 
-      example, in a Unix shell:
-   </p>
-
-      <pre>cp lib/htaccess .htaccess</pre>
-
-  </div>
-<p>&nbsp;</p>
-
-<h4 class="sectionheading" id="database">4.2 Creating a database</h4>
-
+    <p>වඩාත් පහසුවෙන් කළ හැකි දෙයක් නම් <strong>lib/htaccess</strong>  සාම්පල ගොනුව අවශ්‍ය පරිදි සංස්කරණය අවශ්‍ය ස්ථානයට ස්ථානගත කිරිමය.  උදා. ලෙස Unix මෙහෙයුම් පද්ධතියේ දී සාම්පල් ගොනුව <strong> .htaccess </strong>ලෙස පිටපත් කිරීම පහත අණ පරිදි කළ හැකි ය. : </p>
+    <pre>cp lib/htaccess.htaccess</pre></div>
+  <p>&nbsp;</p>
+  <h4 class="sectionheading" id="database">4.2 දත්ත  සමුච්චයක් නිර්මාණය කිරීම</h4>
   <div class="indent">
-    <p>You need to create an empty database (eg "<em>moodle</em>") in your database system 
-      along with a special user (eg "moodleuser") that has access to that database 
-      (and that database only). You could use the "root" user if you wanted to for a test server, but 
-      this is not recommended for a production system: if hackers manage to discover
-      the password then your whole database system would be at risk, rather than 
-      just one database. </p>
-    <p>If you are using a webhost, they will probably have a control panel web interface for you to create your database. </p>
-    <p>The <strong>Cpanel</strong> system is  one of the most popular of these. To create a database in Cpanel, </p>
+    <p>ඔබට හිස් දත්ත සමුච්චයක් ඔබගේ දත්ත  සමුච්ච පද්ධතියේ නිර්මාණය කිරීම අවශ්‍ය වේ. (උදා moodle). එම දත්ත සමුච්චයට පමණක්  ප්‍රවේශ විය හැකි පරිදි පරිශීලක නම සහ රහස් වචනයන් තිබීම ද අවශ්‍ය ය.  ඔබට  සේවා දායකය පරීක්ෂා කිරීම සඳහා පරිශීලකයාගේ   “root”  ගිණුම භාවිතා කළ හැකි ය. නමුත් එය  සැබෑ පද්ධතියන් සඳහා රෙකමදාරු කිරීම සිදු නොකරයි. යම් හෙයකින් එහි රහස් පදය යම්  විනාශකාරී පුද්ගයලකුගේ අතට පත්වුවහොත් පද්ධතියට ඇතුළු වී දත්ත සමුදායේ ඇති සියලු ම  දත්ත විනාශ කිරීමට හැකියාව ඇත. </p>
+    <p>ඔබේ වෙබ් ධාරකයට ද (web host) සේවාව  ලබාගන්නේ නම් ඔවුන් ලබා දෙන පාලක මුහුණත ඔස්සේ දත්ත සමුදාය නිර්මාණය කරගත හැකි ය. </p>
+    <p><strong>Cpanel</strong> පද්ධතිය ප්‍රසිද්ධව පවතියි. එමඟින් දත්ත  සමුච්චයක් නිර්මාණය කිරීම සඳහා,</p>
     <ol>
-      <li>Click on the &quot;<strong>MySQL Databases</strong>&quot; icon.</li>
-      <li>Type &quot;moodle&quot; in the database field and click &quot;<strong>Add Database</strong>&quot;.</li>
-      <li> Type a username and password (not one you use elsewhere) in the respective fields and click &quot;<strong>Add User</strong>&quot;.</li>
-      <li> Now use the &quot;<strong>Add User to Database</strong>&quot; button to give this new user account &quot;<strong>ALL</strong>&quot; rights to the new database.</li>
-      <li>Note that the username and database names may be prefixed by your Cpanel account name. When entering this information into the Moodle installer - use the full names.</li>
+      <li>&quot;<strong>MySQL Databases</strong>&quot; අයිකනය  ක්ලික් කරන්න.</li>
+      <li>&quot;moodle&quot; ලෙස  දත්ත සමුච්චයේ නම යොදා &quot;<strong>Add Database</strong>&quot; ක්ලික් කරන්න.</li>
+      <li>පරිශීලක  නම සහ ‍රහස් වචනය අදාල ‍ක්ෂේත්‍රවලට ඇතුළත් කර &quot;<strong>Add User</strong>&quot; බොත්තම ක්ලික් කරන්න. .</li>
+      <li>දැන් &quot;<strong>Add User to Database</strong>&quot; බොත්තම ක්ලික් කර මෙම පරිශීලකයාට සියලු බලතල (අදාල)  නව දත්ත සමුච්චය එක්කරන්න.</li>
+      <li><span dir="ltr">පරිශීලක  නම සහ දත්ත සමුච්චයේ නම, </span>Cpanel  ගිණුම මඟින් පෙර ඈදුමක් ලැබීමට ඉඩ ඇත. එවැනි අවස්ථාවක අදාල මුලු නාමය ම මූඩ්ල්  ස්ථාපනය කරන අවස්ථාවේදී ලබා දිය යුතු ය.</li>
     </ol>
-    <p>If you have access to Unix command lines then you can do the same sort of thing by typing commands. </p>
-    <p>Here are some example Unix command lines for MySQL: </p>
+    <p>ඔබගේ Unix මෙහෙයුම් පද්ධතියේදී පහත කේත  යතුරු ලියනය කිරීමේ දත්ත සමුදායක්  MySQL  තුළ නිර්මාණය කළ හැකියි. . </p>
     <pre>
 # mysql -u root -p
-> CREATE DATABASE moodle; 
-> GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,INDEX,ALTER ON moodle.* 
+&gt; CREATE DATABASE moodle; 
+&gt; GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,INDEX,ALTER ON moodle.* 
         TO moodleuser@localhost IDENTIFIED BY 'yourpassword'; 
-> quit 
+&gt; quit 
 # mysqladmin -p reload</pre>
-
-    <p>And some example command lines for PostgreSQL: </p>
+    <p>එසේම PostgreSQL  සහිත පද්ධතියක් නම්  : </p>
     <pre>
 # su - postgres
-> psql -c "create user moodleuser createdb;" template1
-> psql -c "create database moodle;" -U moodleuser template1
-> psql -c "alter user moodleuser nocreatedb;" template1</pre>
+&gt; psql -c &quot;create user moodleuser createdb;&quot; template1
+&gt; psql -c &quot;create database moodle;&quot; -U moodleuser template1
+&gt; psql -c &quot;alter user moodleuser nocreatedb;&quot; template1</pre>
   </div>
   <p>&nbsp;</p>
-  
-<h4 class="sectionheading" id="data">4.3 Creating a data directory </h4>
-
+  <h4 class="sectionheading" id="data">4.3 දත්ත ඩිරෙක්ටරියක්  නිර්මාණය කිරීම </h4>
   <div class="indent">
-    <p>Moodle will also need some space on your server's hard disk to store uploaded files, such as course documents and user pictures. </p>
-    <p>The Moodle installer tries hard to create this directory for you but if it fails then you will have to create a directory for this purpose manually. </p>
-    <p>For security, it's best that this directory is NOT accessible directly via the web. The easiest way to do this is to simply locate it OUTSIDE the web directory, but if you must have it in the web directory then  protect it by creating a file in the data directory called .htaccess, containing this line: </p>
-
-      <pre>deny from all<br />AllowOverride None</pre>
-
-    <p>To make sure that Moodle can save uploaded files in this directory, check that the web server software (eg Apache) has permission to read, write and execute in  this directory. </p>
-    <p>On Unix machines, this means setting the owner of the directory to be something like &quot;nobody&quot; or &quot;apache&quot;, and then giving that user read, write and execute permissions.</p>
-    <p>On Cpanel systems you can use the &quot;File Manager&quot; to find the folder, click on it, then choose &quot;Change Permissions&quot;. On many shared hosting servers, you will probably need to restrict all file access to your "group" (to prevent other webhost customers from looking at or changing your files), but provide full read/write access to everyone else (which will allow the web server to access your files). </p>
-    <p>Speak to your server administrator if you are having trouble setting this up securely. In particular some sites that use a PHP feature known as &quot;Safe Mode&quot; may <em>require</em> the administrator to create this directory properly for you. </p>
+    <p>මූඩ්ල් පද්ධතියට, සේවාදායක දෘඩ තැටියේ (hard disk) යම් ඉඩ ප්‍රමාණයක් අවශ්‍ය  වේ. එම ඉඩ ප්‍රමාණය අවශ්‍ය වන්නේ, පාඨමාලා ගොනු සහ පරිශීලකයන්ගේ රූප ගබඩා  කිරීම සඳහා ය. </p>
+    <p>මූඩ්ල් ස්ථාපනය මඟින් මෙම ඩිරෙක්‍ටරිය නිර්මාණය කළ නොහැකි වූ  විට දී ඔබ එය අතින් නිර්මාණය කළ යුතු ය. </p>
+    <p>ආරක්ෂක හේතුන් මත මෙම ඩිරෙක්‍‍ටරියට වෙබ් සේවාදායකයාට ළඟාවිය  නොහැකි විය යුතු ය. මේ නිසා ඩිරෙක්‍ටරිය තුළ වෙබ් ගොනු තිබිය  යුතු ඩිරෙක්ටරියෙන් පිටතදී පිහිටු වීම අවශ්‍ය වේ. ඔබට වෙබ් ‍ඩිරෙක්ටරිය  තුළට එය පිහිටුවීමට අවශ්‍ය නම් ඒතුළට .htaccess ගොනුව ඇතුල් කර ඩිරෙක්ටරිය  ආරක්ෂා කරන්න. එම .htaccess ගොනුවට පහත කේත ඇතුළත්ව තිබිය යුතු ය. : </p>
+    <pre>deny from all<br />AllowOverride None</pre>
+    <p>මුඩ්ල් පද්ධතිය මෙම ඩිරෙක්ටරිය තුලට ගොනු තැම්පත් කිරීම සඳහා  වෙබ් සේවාදායකයට කියැවීම් ලිවීම සහ ධාවයනය කිරීම සඳහා අවසර ලබා දිය යුතු ය.  </p>
+    <p>ඩිරෙක්ටරියේ අයිතිය (owner),  Unix  පද්ධතියේ දී  නම් “nobody” හෝ “apache”  ලබාදී  අවශ්‍ය අවසරය ලබා දෙන්න. </p>
+    <p>Cpanel මුහුණතේ  ඇති ගොනු පාලනය මඟින් අදාල ඩිරෙක්ටරිය සොයා එහි “change permisson” තෝරා  අවශ්‍ය පරිදි අවසර ලබා දෙන්න. ඔබ සේවා දායක හවුලේ භාවිතා කරන්නේ නම් ඔබට සියලු ගොනු ඔබගේ  කණ්ඩායමට (group) ප්‍රවේශ වීම නවතා දැමිය යුතු ය. </p>
+    <p>ආරක්ෂාව සම්බන්ධයෙන් යම් ප්‍රශ්ණයක් තිබේ නම් ඔබගේ පද්ධති පරිපාලක වෙත දැනුම් දෙන්න. සමහර අඩවි PHP කෘත්‍යයන් වූ &quot;Safe Mode&quot; සක්‍රිය වී තිබේනම් පද්ධති පරිපාලක විසින් මෙම ඩිරෙක්ටරිය නිර්මාණය කළ යුතු ය. </p>
   </div>
-
 </div>
-
-<h3 class="sectionheading" id="admin">5. Go to the admin page to continue configuration </h3>
-<div class="indent"> 
-  <p>Once the basic <strong>config.php</strong> has been correctly created in the previous step, trying to access the front page of your site will take you the &quot;admin&quot; page for the rest of the configuration.</p>
-  <p>The first time you access this admin page, you will be presented with 
-    a GPL &quot;shrinkwrap&quot; agreement with which you <strong>must</strong> agree before you 
-  can continue with the setup.</p>
-  <p>Now Moodle will start setting up your database and creating tables to store 
-    data. Firstly, the main database tables are created. You should see a number 
-    of SQL statements followed by status messages (in green or red) that look 
-    like this:</p>
-  <div class="indent"> 
+<h3 class="sectionheading" id="admin">5. පාලක පිටුවට ගොස් පද්ධතියේ වින්‍යාසගත කිරීම ඉදිරියට කරගෙන යන්න. </h3>
+<div class="indent">
+  <p>ඔබ  <strong>config.php</strong> ‍ගොනු‍ව නි‍‍වැරදිව පෙර පියවරකදී නිර්මාණය කර තිබේනම්, ඔබගේ පද්ධතියේ මව් පිටුවට ‍ප්‍රවේශ වන්න. එමඟින් ඔබට <span class="sectionheading">පාලක පිටුවට ගොස් පද්ධතියේ වින්‍යාසගත කිරීම දිගටම කළ හැකි ය. </span></p>
+  <p>ඔබ ප්‍රථම වතාවට පාලක පිටුව ලබා ගත් විට ඔබට යම් ගිවිසුමක් සමඟ එකඟතාවයකට පැමිණීමට සිදුවේ. එය හොඳින් කියවා බලන්න. එය  GPL &quot;shrinkwrap&quot; ගිවිසුම නම් වේ. එයට එකඟ වි වින්‍යාස ගත කිරීම ඉදිරියට කරගත හැකි ය.</p>
+  <p>දැන් මූඩ්ල් පද්ධතිය දත්ත සමුච්චය අදාල වගු සහ දත්ත ඇතුළත් කිරීම ඇර‍ඹේ පළමුව ප්‍රධානම වගු නිර්මාණය‍ වේ. ඔබට පහත පරිදි SQL ප්‍රකාශ දැකිය හැක:</p>
+  <div class="indent">
     <p>CREATE TABLE course ( id int(10) unsigned NOT NULL auto_increment, category 
       int(10) unsigned NOT NULL default '0', password varchar(50) NOT NULL default 
       '', fullname varchar(254) NOT NULL default '', shortname varchar(15) NOT 
@@ -266,155 +188,68 @@ php_value post_max_size 2M</pre>
       TYPE=MyISAM</p>
     <p class="success">SUCCESS</p>
   </div>
-  <p>...and so on, followed by: <span class="success">Main databases set up 
-      successfully.</span> </p>
-
-    <p class="style3 indent">If you don't see these, then there must have been some problem with the database 
-        or the configuration settings you defined in config.php. Check that PHP isn't 
-        in a restricted "Safe Mode" (commercial web hosts sometimes have safe mode 
-        turned on). You can check PHP variables by creating a little file containing <strong>&lt;?php phpinfo() ?&gt;</strong> and looking at it through a browser. Check all these and 
-      try this page again.</p>
-
-  <p>Scroll down the very bottom of the page and press the &quot;Continue&quot; 
-    link.</p>
-  <p>You should now see a form where you can define more configuration variables 
-    for your installation, such as the default language, SMTP hosts and so on. 
-    Don't worry too much about getting everything right just now - you can always 
-    come back and edit these later on using the admin interface. The defaults are designed to be useful and secure for most sites. Scroll down to 
-    the bottom and click &quot;Save changes&quot;.</p>
-
-    <p class="style3 indent">If (and only if) you find yourself getting stuck on this page, unable to 
-      continue, then your server probably has what I call the "buggy referrer" problem. 
-      This is easy to fix: just turn off the &quot;secureforms&quot; setting, then 
-      try to continue again.</p>
-
-  <p>Next you will see more  pages that print lots of status messages as they set up all the tables required by the various Moodle module. As before, they should all be <span style="color:#006600">green</span>.</p>
-  <p>Scroll down the very bottom of the page and press the &quot;Continue&quot; link.</p>
-  <p>The next page is a form where you can define parameters for your Moodle site 
-    and the front page, such as the name, format, description and so on. Fill 
-    this out (you can always come back and change these later) and then press 
-    &quot;Save changes&quot;.</p>
-  <p>Finally, you will then be asked to create a top-level administration user 
-    for future access to the admin pages. Fill out the details with your own name, 
-    email etc and then click &quot;Save changes&quot;. Not all the fields are 
-    required, but if you miss any important fields you'll be re-prompted for them. 
-  </p>
+  <p>ඔබට මේ‍වා දැකිය නොහැකිනම් යම් ප්‍රශ්ණයක් පවතියි. එනම් ඔබගේ  දත්ත සමුදායේ හෝ conසෙg/ php වින්‍යාසගත වීමේ ප්‍රශ්ණයක් පවතින බවට ඉඟියකි. PHP, &quot;Safe Mode&quot;ලෙස සීමා වී නැති බව තහවුරු කරගන්න.(ඇතැම ව්‍යහරිත  වෙබ් සේවාදයාක සේවාවන්හිදී sa‍fe mode සක්‍රිය කර ඇත.) සියලුම  විස්තර දැනගැනීම සඳහා කුඩා php ගොනුවක් නිර්මාණය කර එය <strong>&lt;?php phpinfo() ?&gt;</strong> කේතය යොදා එය වෙබ් බ්‍රව්සරය මඟින් ලබා ගන්න.  එහිදී ඔබට සියලුම තොරතුරු බලා ගත හැකය.</p>
+  <p>පිටුයේ පහතම රෝල් කර &quot;Continue&quot; සම්බන්ධය ‍ ක්ලික් කිරිමෙන් ඉදිරියට යන්න.</p>
+  <p>දැන් ඔබට ලැබෙන පෝරමයේ ඔබගේ පෙරනිමියට  යොදාගතයුතු භෂාව SMTP ද්වාරකය ආදී තොරතුරු ඇතුළත් කිරීමට අවකාශ ලැබේ. ඔබට සියලුම  තොරතුරු එකවර ඇතුළත් කිරීමට අවශ්‍ය නම් විටින් විට පැමිණ දන්නා තොරතුරු ඇතුළත් කළ  හැකි ය. අවසානයේ කළ දේ සුරකින්න.</p>
+  <p class="style3 indent">මෙම පිටුවේදි ඔබගේ මුහුණත “ගල්” වී  (stuck) වී ඉදිරියට යා නොහැකි නම් ඔබගේ සේවාදායකය &quot;secureforms&quot;ප්‍රශ්ණයට මුහුණ පා ඇත. මෙය පහසුවෙන්  සවිකර ගත හැක. එනම් &quot;secureforms&quot; සැකසුම සක්‍රිය කර  ඉදිරියට යන්න.  </p>
+  <p>මීලඟට ඔබට පද්ධ‍තියට විවිධ මොඩියුල සඳහා අවශ්‍ය සියලුම වගු වල  තත්ත්වය දක්වා පිටුවන් දර්ශනය වේ. ඒවා <span class="style1">කොළ</span> පාටින් සටහන් වීම  මඟින් සාර්ථක බව ඉඟි කරවයි.</p>
+  <p>පිටුවේ පහලට රෝල් කර “ඉදිරියට”  සම්බන්ධකය ක්ලික් කර ඉදිරියට යන්න.</p>
+  <p>මීලඟ පිටුවේ දි ඔබට පද්ධතියේ සහ මවු පිටුවේ පරාමිතියන් නිර්ණය  කිරීමට සිදුවනවා ඇත. උදාහරණ වශයෙන් පද්ධතියේ නම හැඩතල, විස්තර ආදී මේ අතර වේ. මේ‍වා  පුරවා ”වෙනස්කම්  සුරකින්න  ”  බොත්තම ක්ලික් කර පරාමිතියන් සුරකින්න. </p>
+  <p>අවසානයේ ඔබට පිටුව සියලුම පුර්ණ බලතල සහිත පරිශීලකයෙක් නම්  කිරීමට සිදුවේ. එමඟින් ඉදිරියේ දී පරිපාලක පිටුව මෙහෙයවීම සිදුකළ හැකි ය. ඒ සඳහා  ඔබගේ නම, ඉ-තැපෑල ආදී කරුණු පුරවා “වෙනස්  කම් සුරක්ෂිත කරන්න”  බොත්තම ඔබන්න. සියලුම ක්ෂේත්‍ර ‍පිරවීම අත්‍යාවශ්‍ය නැත. නමුත් අවශ්‍ය කරුණු ‍නොපිරවූ  විට ඒ බව දක්වයි. </p>
   <div class="indent">
-
-            <p class="indent-big"><strong>Make sure you remember the username and password you chose 
-              for the administration user account, as they will be necessary to 
-              access the administration page in future.</strong></p>
-
-    <p class="style3">(If for any reason your install is interrupted, or there is a system error 
-      of some kind that prevents you from logging in using the admin account, you 
-      can usually log in using the default username of &quot;<strong>admin</strong>&quot;, 
-      with password &quot;<strong>admin</strong>&quot;.)</p>
+    <p class="indent-big"><strong>පාලක පරිශීලකගේ පරිශීලක නම සහ රහස් පදය අමතක නොවන පරිදි  සුරක්ෂිතව තබා ගන්න. ඉදිරියේදි පාලක පිටුව මෙහෙය වීමට ඒවා අවශ්‍ය වේ.</strong></p>
+    <p class="style3">(යම් හේතුවක් නිසා ඔබට පද්ධතිය ස්ථාපයට බාධා වූයේ නම්,  ඔබට පද්ධතියට සම්බන්ධ වීමේ දී ප්‍රශ්නයක් ඇති වුවහොත් පෙරනි‍මියෙන් දී ඇති  පරිශීලකගේ භාවිත නම ලෙස &quot;<strong>admin</strong>&quot;ද රහස් වචනය &quot;<strong>admin</strong>&quot; යොදා  ගෙන පාලක පිටුවට  පැමිණිය හැක.)</p>
   </div>
-  <p>Once successful, you will be returned to the home page of your new site! Note the 
-    administration links that appear down the left hand side of the page (these 
-    items also appear on a separate Admin page) - these items are only visible 
-    to you because you are logged in as the admin user. All your further administration 
-    of Moodle can now be done using this menu, such as:</p>
+  <p>සාර්ථක වූ පසුව, ඔබ මව් පිටුවට රැගෙන යනු ඇත.එහි ඔබගේ නව  මූඩ්ල් අඩවියයි. පරිපාලක සම්බන්ධකය වම්පස පහත කෙල‍රේ අඩංගුවේ. මෙය admin පරිශීලකය‍කු  ලෙස ලොග් වී ඇති නිසා මෙය දිස්වේ. සියලුම අනාගත මූඩ්ල් පරිපාලන සඳහා මෙම මෙනු‍ව  යොදා ගත හැකි ය. :</p>
   <ul>
-    <li>creating and deleting courses</li>
-    <li>creating and editing user accounts</li>
-    <li>administering teacher accounts</li>
-    <li>changing site-wide settings like themes etc</li>
+    <li>පාඨමාලාවන් නිර්මාණය සහ මකා දැමිමට </li>
+    <li>පරිශීලක මෙනුවක් නිර්මාණය සංස්කරණය</li>
+    <li>ගුරුවරුන්ගේ ගිණුම් පාළනය කිරීම </li>
+    <li>අඩවියටම බලපාන වෙනස්කම් සිදු කරීම උදාහරණ ලෙස තේමාවක් වෙනස්  කිරීම </li>
   </ul>
-  <p>But you are not done installing yet! There is one very important thing still to do (see the next section on cron). </p>
-</div>
-<p>&nbsp;</p>
-
-<h3 class="sectionheading" id="cron">6. Set up cron &ndash; IMPORTANT! </h3>
-<div class="indent"> 
-  <p>Some of Moodle's modules require continual checks to perform tasks. For example, 
-    Moodle needs to check the discussion forums so it can mail out copies of posts 
-    to people who have subscribed.</p>
-  <p>The script that does all this is located in the admin directory, and is called 
-    cron.php. However, it can not run itself, so you need to set up a mechanism 
-    where this script is run regularly (eg every five or ten minutes). This provides 
-    a &quot;heartbeat&quot; so that the script can perform functions at periods 
-    defined by each module. This kind of regular mechanism is known as a <strong>cron service</strong>. </p>
-  <p>Note that the machine performing the cron <b>does not need to be the same 
-    machine that is running Moodle</b>. For example, if you have a limited web 
-    hosting service that does not have a cron service, then you can might choose to run 
-    cron on another server or on your home computer. All that matters is that 
-    the cron.php file is called regularly. </p>
-  <p>The load of this script is not very high, so 5 minutes is usually reasonable, 
-    but if you're worried about it you can reduce the time period to something 
-    like 15 minutes or even 30 minutes. It's best not to make the time period 
-    too long, as delaying mail-outs can slow down activity within the course.</p>
-  <p>First, test that the script works by running it directly from your browser:</p>
-
-    <pre>http://example.com/moodle/admin/cron.php</pre>
-
-  <p>Now, you need to set up some of way of running the script automatically and 
-    regularly.</p>
-
-  <h4>On Windows systems</h4>
-
-    <p class="indent">The simplest way is to use this little package <a href="http://moodle.org/download/modules/moodle-cron-for-windows.zip" title="Click to download this package (150k)"><strong>moodle-cron-for-windows.zip</strong></a> which makes this whole thing very easy by installing a small Windows service. Run it and forget about it!</p>
-
-  <h4>On web hosting services</h4>
-
-    <p class="indent"> Your web-based control panel may have a web page that allows you to set up this cron process. For example, on Cpanel system, look for a button called &quot;Cron jobs&quot;. In there you can put the same sort of Unix commands as listed below. </p>
-
-  <h4> Using the command line on Unix </h4>
-  <div class="indent">
-    <p>There are different command line programs you can use to call the page from the command line. Not all of them may be available on a given server.</p>
-    <p>For example, you can use a Unix utility like 'wget':</p>
-
-      <pre>wget -q -O /dev/null http://example.com/moodle/admin/cron.php</pre>
-
-    <p>Note in this example that the output is thrown away (to /dev/null).</p>
-    <p>The same thing using lynx:</p>
-
-      <pre>lynx -dump http://example.com/moodle/admin/cron.php &gt; /dev/null</pre>
-
-    <p>Alternatively you could use a standalone version of PHP, compiled to be run 
-      on the command line. The advantage with doing this is that your web server 
-      logs aren't filled with constant requests to cron.php. The disadvantage is 
-      that you need to have access to a command-line version of php.</p>
-
-      <pre>/opt/bin/php /web/moodle/admin/cron.php</pre>
-
-  </div>
-
-  <h4>Using the crontab program on Unix </h4>
-  <div class="indent">
-    <p> All that Cpanel does is provide a web interface to a Unix utility known as crontab. If you have a command line, you can set up crontab yourself using the command:</p>
-
-      <pre>crontab -e</pre>
-
-   <p>and then adding one of the above commands like:</p>
-
-      <pre>*/5 * * * * wget -q -O /dev/null http://example.com/moodle/admin/cron.php</pre>
-
-    <p>Usually, the "crontab" command will put you into the 'vi' editor. You enter 
-     "insert mode" by pressing "i", then type in the line as above, then exit insert mode by 
-         pressing ESC.  You save and exit by typing ":wq", or quit without saving using ":q!" (without the quotes).</p>
-  </div>
   <p>&nbsp;</p>
 </div>
-
-<h3 class="sectionheading" id="course">7. Create a new course</h3>
+<h3 class="sectionheading" id="cron">6. cron සැකසිම ඉතා වැදගත්ය !    </h3>
 <div class="indent">
-  <p>Now that Moodle is running properly, you can try creating a new course to play with. </p>
-  <p>Select &quot;Create a new course&quot; from the Admin page (or the admin 
-    links on the home page).</p>
-  <p>Fill out the form, paying special attention to the course format. You don't 
-    have to worry about the details too much at this stage, as everything can 
-    be changed later by the teacher. Note that the yellow help icons are everywhere to provide contextual help on any aspect. </p>
-  <p>Press &quot;Save changes&quot;, and you will be taken to a new form where 
-    you can assign teachers to the course. You can only add existing user accounts 
-    from this form - if you want to create a new teacher account then either ask 
-    the teacher to create one for themselves (see the login page), or create one 
-    for them using the &quot;Add a new user&quot; on the Admin page.</p>
-  <p>Once done, the course is ready to customise, and is accessible via the &quot;Courses&quot; 
-    link on the home page.</p>
-  <p>See the &quot;<a href="http://docs.moodle.org/en/Teacher_documentation">Teacher Documentation</a>&quot; for more details 
-    on course-building.</p>
+  <p>සමහර මූඩ්ල් මොඩියුලයන් නිරන්තරයෙන් යම් යම් ක්‍රියාවන්  පරික්ෂා කිරීමටය අවශ්‍ය වනු  ඇත. උදාහරණ  වශයෙන් මූඩ්ල් සාකච්ඡා සංසඳය (discussion forums) සලකමු. එහි සෑම සාකච්ඡාවකම  පිටපතක් සංසඳයේ සාමාජිකයන්ට යැවිය යුතු ය. එය නිරන්තරයෙන්ම සිදුවිය යුතු ය. මෙවැනි  ‍යම් කාලාන්තරයක නිතරම් සිදුවන ක්‍රියාවලියන් CRON යෙදවුම මඟින් සිදුවේ.</p>
+  <p>මෙම CRON මඟින් ධාවනය කළ යුතු scripඑ ගොනුව admin ඩිරෙක්ටරියේ  පිහිටා ඇත. එය crom.php ලෙස නම් කර ඇත. එය නිරන්තරව ධාවන සඳහ ඔබ පද්ධතය  අනුරූපව සකස් කළ යුතු ය. (උදාහරණ සෑම විනාඩි 5 වරක් ධාවන කරවන්න  ආදි වශයෙන්) මෙවැනි පද්ධතියේ සිදුවන යාන්ත්‍රන <strong>CRON සේවා</strong> ලෙස නම් කරයි. . </p>
+  <p>CRON යාන්ත්‍රණය ට   අදාල සේවාව සේවාදයක පරිගන‍කයේම තිබීම අවශ්‍යම නැත. බොහෝ සීමා සහිත සේවා  සපයන වෙබ් ධාරකයන් (ඇb hosඑ ) සතුව එවැනි යාන්ත්‍රණ නැත.  එවැනි අවස්ථා වල ඔබ වෙනත් සේවාදායක හෝ නැතිනම් ඔ‍ප‍ගේ පරිගනකයක මෙම යාන්ත්‍රණය  පවත්වා ගැනීම සඳහා යෙදවිය හැකි ය. විය යුත්තේ නියමිත කාල සීමාවකදී cron.php ගොනුව  ධාවනය කරවීම පමණි.</p>
+  <p>සෑම මිනිත්තු 5කට වරක්ම cron.php ධාවනය කරවීම යෝග්‍ය වේ. වැඩි  කාලාන්තරයක්  තැබීම සුදුසු නැත. පමා වූ ඉ-තැපෑල් පා‍ඨමාලාව් ක්‍රියාකාරකම් අඩුකරවයි. </p>
+  <p>පලමුව URL යොදාගනිමින්, cron.php ගොනුව වෙබ් බ්‍රව්සරක් මඟින්  ධාවනය කරන්න. උදා :</p>
+  <pre>http://උදාහරණ සේවාව.com/moodle/admin/cron.php</pre>
+  <p>ය ක්‍රියාකරයි  නම්, එය නිරතුරුව ස්වයංක්‍රීයව සිදුවන ලෙස සකසන්න. </p>
+  <h4> Windows මෙහෙයුම් පද්ධතියේදි </h4>
+  <p class="indent">මෙම කුඩා යෙදවුමWindows සේවාවන් ලෙස පවත්වා ගැනීමෙන් ඔබට පහසුවෙන් cron යාන්ත්‍රනය සිදුකළ හැකි ය. එම යෙදවුම පහත URL ඔස්සේ බාගන්න.‍ <a href="http://moodle.org/download/modules/moodle-cron-for-windows.zip" title="Click to download this package (150k)"><strong>moodle-cron-for-windows.zip</strong></a> </p>
+  <h4>වෙබ් ධාරක සේවාවන් හීදි </h4>
+  <p class="indent">  ඔබට සපයා ඇති වෙබ් අතුරු මුහුණත Cpanel හි cron ක්‍රියාකරවීම සඳහා පහසුකම් සපයා ඇත.Cpanel අතුරු මුහුණත මඟින් පාලනය වන්නේ නම් &quot;Cron jobs&quot; බොත්තම ක්ලික් කර අවශ්‍ය කාලාන්තරය සහ කාර්යය සඳහන් කිරීමෙන් cron ක්‍රියාත්මක කළ හැකය.</p>
+  <h4>Cpane, cron කාර්යය සඳහා යොදාගත හැකි Unix කේත. </h4>
+  <div class="indent">
+    <p> 'wget' යොදා ගැනීම :</p>
+    <pre>wget -q -O /dev/null http://example.com/moodle/admin/cron.php</pre>
+    <p>මෙහිදී  /dev/null මඟින් ලැබෙන ප්‍රතිදානය ඉවත් කරයි.</p>
+    <p> lynx යොදා ගැනීම :</p>
+    <pre>lynx -dump http://example.com/moodle/admin/cron.php &gt; /dev/null</pre>
+    <p> නැතිනම් PHP තනි සංස්කරණයක් සම්පාදනය කර (compiled),  command line මත ධාවනය කරවිය හැකි ලෙස සැකසිය යුතු ය. මෙම ක්‍රමයේ වාසිය වන්නේ cron වල අදාල ලොග් වාර්තා පිරීම නොමැති විම ය. අවාසිය නම් ඔබට‍ php command line සංස්කරණයට ප්‍රවේශ වීම සඳහා අවසර තිබිය යුතු වීමය.</p>
+    <pre>/opt/bin/php /web/moodle/admin/cron.php</pre>
+  </div>
+  <h4>  Unix මෙහෙයුම් පද්ධතියේ crontab ‍වැඩසටහන යොදා ගැනීම </h4>
+  <div class="indent">
+    <p> සියලු ම Cpanel වෙබ් පාදක පාලන අතුරු මුහුණතේ crontab නම් වූ පහසුක ම සලසා ඇත. ඔබට  command line ‍මත‍ට ළඟා විය හැකිනම්,  crontab -e විධානය මඟින් crontab සේවය ලබා ගත හැක. </p>
+    
+    <p>විධානයට පසුව පහත කේතය ඇතුළත් කරන්න:</p>
+    <pre>*/5 * * * * wget -q -O /dev/null http://example.com/moodle/admin/cron.php</pre>
+    <p>සාමාන්‍යයෙන් &quot;crontab&quot; විධාන 'vi' සංස්කරණ තුළට යතුරු ලියන කරයි. vi  සංස්කරණයේ යතුරු ලිවීමට පෙර ඒ සඳහා vi සංස්කරණ විවෘත කර &quot;i&quot; අකුර යතුරු ලියනය කරන්න. පසුව‍ ඉහත කේත යතුරු ලියන කර යතුරු පුවරුවේ ESC බොත්තම ඔබන්න. ගොනුව සුරක්ෂිත කර ඉවත් වීම සඳහා   &quot;:wq&quot;, විධානය ද සුරක්ෂිත වීමකින් තොරව ඉවත් වීම සඳහා &quot;:q!&quot; විධානය ද ලබා දෙන්න.</p>
+  </div>
   <p>&nbsp;</p>
-  <p class="center"><strong>Happy exploring and happy Moodling!</strong></p>
-  <p class="center"><strong>If you like Moodle, please consider <a href="http://moodle.org/donations/">donating</a> to help us cover our costs! </strong></p>
 </div>
+<h3 class="sectionheading" id="course">7. නව පාඨමාලාවන් නිර්මාණය කිරීම </h3>
+<div class="indent">
+  <p>මූඩ්ල් පද්ධතිය නිසිලෙස ක්‍රියාකාරී වීම සිදුවේ නම් ඔබට නව පාඨමාලාව තැනීම ආරම්භ කළ හැකි ය. </p>
+  <p>පද්ධතියට ලොග්වී &quot;නව පාඨමාලාවක් නිර්මාණය කරන්න&quot; සම්බන්ධකය තෝරන්න.</p>
+  <p>ලබාදෙන පෝර‍මයේ තොරතුරු පුරවන්න. පාඨමාලාවේ හැඩතලය ගැන අවධානය යොමු කරන්න මෙම අවධියේදී විස්තර ගැන එතරම් කණගාටු විය යුතු නැත. පසු අවස්ථාවකදී ගුරුවරයාට සියලු දේ වෙනස් කළ හැකි ය. කහ පැහැති උදව් අයිකන සැම තැනම පිහිටා තිබේ. එමඟින්අවශ්‍ය විටකදි උදව් ලබා ගත හැකි ය.  </p>
+  <p>&quot;වෙනස්කම් සුරකින්න&quot; යන බොත්තම ඔබන්න. එවිට ඔබ නව පෝරමයකට රැගෙන යයි. එහිදී ඔබට පාඨමාලාව සඳහා ගුරුවරුන් ලබා දිය හැකි ය. ඔබට අවශ්‍යනම් නව ගුරුවරුන් ලබා දිය හැකි ය. ඔබට අවශ්‍ය නම් නව ගුරුවරුන් සඳහා ගිණුම් නිර්මාණය කළ හැකි ය. නැතිනම් ඔවුන්ට තමන්ගේම ගිණුම් සාදාගැනීම ද කළ හැකි ය. එය &quot;නව පරිශීලකයන් එකතු කරන්න&quot; යන බොත්තම ක්ලික් කිරීම මඟින් කළ හැකි ය. එය පිහිටා තිබෙන්නේ පාලක පිටුවේ ය.</p>
+  <p>එසේ වරක් කළ පසු, පාඨමාලාව අභිරුචිය පරිදි සැකසී සූදානම් ය. එසේම පාඨමාලාව, &quot;පාඨමාලා සම්බන්ධකය&quot; ඔස්සේ මව් පිටුව‍ තුළින් ලබාගත හැකි ය. </p>
+  <p>&quot;<a href="http://docs.moodle.org/en/Teacher_documentation">ගුරුවරයාට අදාල උපදෙස් </a>&quot; සම්බන්ධකය මඟින් පාඨමා‍ලවේ නිර්මාණයට අවශ්‍ය වැඩි විස්තර ලබාගත හැකි ය. </p>
+  <p>&nbsp;</p>
+  <p class="center"><strong>මූඩ්ල් ගවේශණයට ඔබට සුභ පැතුම්!</strong></p>
+  <p class="center"><strong>ඔබ කැමති නම් මූඩ්ල් පද්ධතියේ ‍වැඩි දියුණුව සඳහා <a href="http://moodle.org/donations/">පරිත්‍යාගයන්</a> කළ හැකි ය. ඒ සඳහා පහත සම්බන්ධකය මඟින් වැඩිදුර විස්තර ලබා ගන්න ! </strong></p>
