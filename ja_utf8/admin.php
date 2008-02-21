@@ -214,7 +214,7 @@ $string['configshowsiteparticipantslist'] = 'すべての学生および教師�
 $string['configsitemailcharset'] = 'あなたのサイトで生成されたすべてのメールは、ここで指定した文字コードで送信されます。次の設定が有効にされた場合、ユーザは自分の文字コードを指定することができます。';
 $string['configsitepolicy'] = 'このサイトを使用する前に、すべてのユーザがサイト使用許諾に同意する必要がある場合、サイト使用許諾ページのURIを指定してください。同意する必要が無い場合、空白のままにしてください。URIは自由に指定することができます - 便利な場所は、サイトファイルの中です。<br />
 例 http://yoursite/file.php/1/policy.html';
-$string['configslasharguments'] = 'ファイル (イメージ、アップロード等) は、スラッシュを使ってプログラムに受け渡されます。この方法により、簡単にブラウザ内やプロクシにイメージを一時保存させることが可能です。いくつかのPHPサーバではこの方法が取れない場合があります。もし、アップロードされたファイルやイメージ (例 ユーザの顔写真) の表示に問題がある場合、この設定を無効にしてください。';
+$string['configslasharguments'] = 'ファイル (イメージ、アップロード等) は、スラッシュを使ってプログラムに受け渡されます。この方法により、簡単にブラウザ内やプロクシにイメージを一時保存させることが可能です。いくつかのPHPサーバではこの方法が取れない場合があります。もし、アップロードされたファイルやイメージ (例 ユーザピクチャ) の表示に問題がある場合、この設定を無効にしてください。';
 $string['configsmartpix'] = 'この設定を有効にすると、PHPスクリプトが現在のテーマ、そしてすべてのテーマ、最後にMoodle/pixフォルダを検索して、アイコンを表示します。これはテーマ間の重複するイメージファイルを減らすことができますが、パフォーマンスにおいてわずかな負荷がかかります。';
 $string['configsmtphosts'] = 'Moodleでメールを送信するときに使用する1つ以上のローカルSMTPサーバを入力してください (例 mail.a.com またはmail.a.com;mail.b.com)。空白にした場合、MoodleはデフォルトのPHPメール送信機能を使用します。';
 $string['configsmtpmaxbulk'] = 'SMTPセッションごとに送信するメッセージの最大数です。メッセージのグルーピングにより、メールの送信スピードをスピードアップすることができます。2より少ない値に設定した場合、メールごとに新しいSMTPセッションの作成が強制されます。';
@@ -683,6 +683,13 @@ $string['upgradesure'] = 'あなたのMoodleファイルが更新されました
 本当にこのサーバのMoodleをこのバージョンにアップグレードしてもよろしいですか?';
 $string['upgradingdata'] = 'データのアップグレード';
 $string['upgradinglogs'] = 'ログのアップグレード';
+$string['uploadpicture_cannotmovezip'] = '一時ディレクトリにZIPファイルを移動できません。';
+$string['uploadpicture_cannotprocessdir'] = 'ZIP解凍されたファイルを処理できません。';
+$string['uploadpicture_cannotsave'] = 'ユーザ $a のピクチャを保存できません。ピクチャファイルを確認してください。';
+$string['uploadpicture_cannotunzip'] = 'ピクチャファイルを解凍できません。';
+$string['uploadpicture_overwrite'] = '既存のユーザピクチャを上書きしますか?';
+$string['uploadpicture_userupdated'] = 'ユーザ $a のピクチャが更新されました。';
+$string['uploadpictures'] = 'アップロードユーザピクチャ';
 $string['uploaduserspreview'] = 'アップロードユーザプレビュー';
 $string['uploadusersresult'] = 'アップロードユーザ結果';
 $string['upwards'] = '以上';

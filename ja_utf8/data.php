@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (2007101508)
+      // data.php - created with Moodle 2.0 dev (2007101508.04)
 
 
 $string['action'] = '操作';
@@ -151,7 +151,7 @@ $string['namelatlong'] = '緯度/経度フィールド';
 $string['namemenu'] = 'メニューフィールド';
 $string['namemultimenu'] = '複数選択メニューフィールド';
 $string['namenumber'] = '数値フィールド';
-$string['namepicture'] = 'ピクチャーフィールド';
+$string['namepicture'] = 'ピクチャフィールド';
 $string['nameradiobutton'] = 'ラジオボタンフィールド';
 $string['nametext'] = 'テキストフィールド';
 $string['nametextarea'] = 'テキストエリアフィールド';
@@ -176,7 +176,7 @@ $string['optionalfilename'] = 'ファイル名 (任意)';
 $string['overwrite'] = '上書き';
 $string['pagesize'] = '1ページあたりのエントリ数';
 $string['participants'] = '参加者';
-$string['picture'] = 'ピクチャー';
+$string['picture'] = 'ピクチャ';
 $string['pleaseaddsome'] = '始めるには、下で新しいフィールドを追加するか、<a href=\"$a\">定義済みフィールドセットを選択</a>してください。';
 $string['presetinfo'] = 'プリセットとして保存することで、このテンプレートが公開されます。他のユーザは、このテンプレートを自分のデータベースで使用することができます。';
 $string['presets'] = 'プリセット';
