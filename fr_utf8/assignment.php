@@ -42,6 +42,7 @@ $string['duedate'] = 'À rendre jusqu\'au';
 $string['duedateno'] = 'Pas de date de retour';
 $string['early'] = 'En avance de $a';
 $string['editmysubmission'] = 'Modifier mon devoir';
+$string['emailnotification'] = 'Envoyer courriel de notification';
 $string['emailstudents'] = 'Envoyer aux étudiants les alertes par courriel';
 $string['emailteachers'] = 'Envoyer aux enseignants les alertes par courriel';
 $string['emailteachermail'] = '$a->username a modifié son travail remis pour le devoir « $a->assignment ».
