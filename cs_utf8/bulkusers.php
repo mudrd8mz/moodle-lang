@@ -3,7 +3,7 @@
 
 
 $string['addall'] = 'Přidat všechny dostupné uživatele';
-$string['addsel'] = 'Přidat vybrané dostupné uživatele';
+$string['addsel'] = 'Přidat vybrané uživatele';
 $string['available'] = 'Dostupní';
 $string['selected'] = 'Vybraní';
 $string['selectedlist'] = 'Seznam vybraných uživatelů';

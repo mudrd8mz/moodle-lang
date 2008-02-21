@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 Beta + (2007100902)
+      // auth.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['CASform'] = 'Volba ověřování';
 $string['accesCAS'] = 'uživatelé CAS';
 $string['accesNOCAS'] = 'další uživatelé';
+$string['actauthhdr'] = 'Aktivace modulů ověřování uživatelů';
 $string['alternatelogin'] = 'Pokud sem vložíte URL, použije se jako přihlašovací stránka k této instalaci Moodlu. Tato vaše stránka by měla obsahovat formulář, který bude mít atribut \'action\' nastaven na <strong>\'$a\'</strong> a který vrací pole <strong>username</strong> a <strong>password</strong>.<br />Dbejte na to, abyste vložili platné URL! V opačném případě byste mohli všem včetně sebe zamezit v přístupu ke stránkám.<br />Chcete-li používat standardní přihlašovací stránku, nechejte toto pole prázdné.';
 $string['alternateloginurl'] = 'URL vlastního přihlášení';
 $string['auth_cas_auth_user_create'] = 'Vytvořit uživatele externě';
@@ -206,6 +207,11 @@ $string['auth_nologindescription'] = 'Pomocný zásuvný modul, který brání u
 $string['auth_nologintitle'] = 'Nepřihlašovat';
 $string['auth_nonedescription'] = 'Uživatelé si mohou vytvářet nová konta přímo bez ověření vůči externímu serveru nebo potvrzení přes e-mail. S touto volbou buďte opatrní - zvažte možné problémy se zabezpečením a správou uživatelů, které vám tato volba může způsobit.';
 $string['auth_nonetitle'] = 'Bez ověření';
+$string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'Zda se má povolit SSO přihlašování pomocí účtu v doméně NTLM. <strong>Pozor:</strong> tato metoda vyžaduje další konfiguraci na straně webového serveru. Podrobnosti jsou uvedeny v <a href=\"http://docs.moodle.org/en/NTLM_authentication\">dokumentaci</a>.';
+$string['auth_ntlmsso_enabled_key'] = 'Povolit';
+$string['auth_ntlmsso_subnet'] = 'Je-li nastaveno, dojde k ověření pomocí NTLM SSO pouze u klientů v dané podsíti. Formát: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet_key'] = 'Podsíť';
 $string['auth_pamdescription'] = 'Tato metoda využívá pro přístup k nativním uživatelským jménům na tomto serveru modul PAM.  Chcete-li tuto metodu používat, musíte si nainstalovat <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a>.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'Vaše heslo vypršelo. Chcete si je teď změnit?';
@@ -245,7 +251,10 @@ $string['auth_shib_instructions_help'] = 'Zde můžete zadat vlastní pokyny už
 $string['auth_shib_only'] = 'Pouze Shibboleth';
 $string['auth_shib_only_description'] = 'Zaškrtněte tuto volbu, chcete-li si vynutit přihlášení pomocí systému Shibboleth';
 $string['auth_shib_username_description'] = 'Název proměnné prostředí Shibboleth, která má být použita jako moodlovské uživatelské jméno';
+$string['auth_shibboleth_contact_administrator'] = 'V případě, že nejste vázáni na žádnou z uvedených organizací a potřebujete přístup ke kurzům na tomto serveru, kontaktujte správce:';
+$string['auth_shibboleth_errormsg'] = 'Prosím, zvolte organizaci, k níž náležíte';
 $string['auth_shibboleth_login'] = 'Přihlášení přes Shibboleth';
+$string['auth_shibboleth_login_long'] = 'Přihlásit se do Moodlu přes Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Ruční přihlášení';
 $string['auth_shibbolethdescription'] = 'Tato metoda umožňuje vytvářet a ověřovat uživatele pomocí systému <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>.<br>Přečtěte si soubor <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> obsahující informace o tom, jak nastavit váš Moodle pro podporu systému Shibboleth.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';

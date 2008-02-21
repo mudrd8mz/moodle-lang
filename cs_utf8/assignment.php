@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8 Beta (2007020400)
+      // assignment.php - created with Moodle 1.9 Beta 4 (2007101508)
 
 
 $string['allowdeleting'] = 'Povolit odstraňování';
@@ -22,7 +22,9 @@ $string['comment'] = 'Komentář';
 $string['commentinline'] = 'Komentovat v textu';
 $string['configitemstocount'] = 'Jednotky, v nichž bude udáván rozsah odevzdaných prací u úkolu typu \'online text\'.';
 $string['configmaxbytes'] = 'Výchozí maximální velikost odevzdávaného úkolu (může být upravena nastavením kurzu a dalšími lokálními proměnnými).';
+$string['configshowrecentsubmissions'] = 'Všem zobrazovat upozornění o odevzdaných úkolech v přehledu nedávné činnosti.';
 $string['confirmdeletefile'] = 'Jste si úplně jistí, že chcete odstranit tento soubor?<br /><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'Odstranit všechna řešení úkolu';
 $string['deletefilefailed'] = 'Odstraňování souboru selhalo.';
 $string['description'] = 'Popis';
 $string['draft'] = 'Pracovní verze';
@@ -45,6 +47,7 @@ $string['failedupdatefeedback'] = 'Selhala aktualizace hodnocení pro uživatele
 $string['feedback'] = 'Hodnocení';
 $string['feedbackfromteacher'] = 'Hodnotil: $a';
 $string['feedbackupdated'] = 'Aktualizována hodnocení pro $a uživatelů';
+$string['finalize'] = 'Žádná další řešení';
 $string['graded'] = 'Udělena známka';
 $string['guestnosubmit'] = 'Hostům není povoleno odevzdávat úkoly. Pro odeslání úkolu se musíte přihlásit/registrovat.';
 $string['guestnoupload'] = 'Bohužel, hostům není povoleno odevzdávat soubory.';
@@ -57,6 +60,7 @@ $string['helpupload'] = '<p>Tento typ úkolu umožňuje každému účastníkovi
 <p>V tomto typu úkolu musí každý řešitel ručně označit odevzdané řešení jako finální a předat je tak k ohodnocení. Přesto můžete kdykoliv kontrolovat postup řešení - nedokončené úkoly se označují jako \"Pracovní verze\". Ještě neoznámkované úkoly, které již student odeslal k ohodnocení, můžete vrátit do stavu \"Pracovní verze\".';
 $string['helpuploadsingle'] = '<p>Tento typ úkolu umožňuje každému účastníkovi kurzu nahrát (angl. upload) jeden soubor libovolného typu jako vypracování úkolu.</p><p>Souborem může být dokument Wordu, obrázek, ZIP archív, zdrojový kód programu, prostě cokoliv, co mají studenti za úkol odevzdat.</p>';
 $string['hideintro'] = 'Skrýt popis před datem zpřístupnění úkolu';
+$string['itemstocount'] = 'Počet';
 $string['late'] = '$a po termínu';
 $string['maximumgrade'] = 'Nejlepší známka';
 $string['maximumsize'] = 'Maximální velikost';
@@ -67,6 +71,7 @@ $string['noassignments'] = 'Zatím nebyly odevzdány žádné úkoly';
 $string['noattempts'] = 'Tento úkol se zatím nikdo nepokusil odevzdat';
 $string['nofiles'] = 'Nebyly odeslány žádné vypracované úkoly';
 $string['nofilesyet'] = 'Zatím nebyly odeslány žádné vypracované úkoly';
+$string['nosubmitusers'] = 'Žádný uživatel nemá oprávnění zaslat řešení tohoto úkolu';
 $string['notavailableyet'] = 'Je mi líto, tento úkol zatím není dostupný.<br />Pokyny k vypracování se zde budou zobrazovat až od data zpřístupnění, které je uvedeno dále.';
 $string['notes'] = 'Poznámky';
 $string['notesempty'] = 'Bez poznámek';
@@ -82,6 +87,7 @@ $string['responsefiles'] = 'Soubory přiložené k hodnocení';
 $string['reviewed'] = 'Revidováno';
 $string['saveallfeedback'] = 'Uložit všechna má hodnocení';
 $string['sendformarking'] = 'Odeslat k oznámkování';
+$string['showrecentsubmissions'] = 'Zobrazovat nedávná odevzdání';
 $string['submission'] = 'Odevzdané úkoly';
 $string['submissiondraft'] = 'Pracovní verze řešení';
 $string['submissionfeedback'] = 'Hodnocení odevzdaného úkolu';
