@@ -3,6 +3,7 @@
 $string['addnewentry'] = 'Ajouter un nouvel article';
 $string['addotags'] = 'Ajouter des balises officielles';
 $string['addptags'] = 'Ajouter des balises personnelles';
+$string['backupblogshelp'] = 'Ce réglage active la sauvegarde des blogs dans les sauvegardes automatiques du site';
 $string['blockmenutitle'] = 'Menu blog';
 $string['blocktagstitle'] = 'Balises de blog';
 $string['blocktitle'] = 'Titre du bloc des balises';
