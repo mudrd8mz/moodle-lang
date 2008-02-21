@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // block_course_list.php - created with Moodle 1.8.2+ (2007021520)
 
 $string['addmynewentries'] = 'මගේ නව ඇතුලත් කිරීම් එක් කරන්න';
