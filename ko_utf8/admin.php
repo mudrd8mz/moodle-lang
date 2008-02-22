@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508.02)
+      // admin.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -53,6 +53,7 @@ $string['clamfailureonupload'] = 'clam AV 실패';
 $string['cleanup'] = '정리';
 $string['commonsettings'] = '일반 설정';
 $string['componentinstalled'] = '구성요소가 설치되었음';
+$string['computedfromlogs'] = '$a 이후 기록에서 계산됨';
 $string['confeditorhidebuttons'] = 'HTML 편집기에서 감추고자 하는 버튼을 선택하세요.';
 $string['configallowassign'] = '왼쪽의 역할에게 각 칼럼의 역할 부여를 허용';
 $string['configallowcategorythemes'] = '이것을 활성화하면, 범주 수준에서 테마를 설정할 수 있게 된다. 각각의 하위 범주 혹은 강좌에서 나름대로 테마를 지정하지 않는 한, 범주 수준에서 설정한 테마가 그 하위에도 적용된다. 경고: 범주 테마 활성화는 성능에 영향을 미칠 수도 있다.';
@@ -691,8 +692,20 @@ $string['upgradesure'] = '무들의 파일이 갱신되었고  당신의 서버�
 버전으로 자동 업그레이드할 준비가 되었습니다. 일단 이 과정을 시작하면 되돌이킬 수 없습니다.<br /><br />확실히 이 서버를 새 버전으로 업그레이드 하시겠습니까?';
 $string['upgradingdata'] = '데이터 갱신';
 $string['upgradinglogs'] = '경과기록(로그) 갱신';
-$string['uploaduserspreview'] = '이용자 미리보기 업로드';
-$string['uploadusersresult'] = '이용자 결과 업로드';
+$string['uploadpicture_baduserfield'] = '사용자 속성 지정이 잘못되었습니다. 다시 시도하기 바랍니다.';
+$string['uploadpicture_cannotmovezip'] = '임시 경로로 zip 파일을 옮길 수 없습니다.';
+$string['uploadpicture_cannotprocessdir'] = 'zip 파일을 풀지 못합니다.';
+$string['uploadpicture_cannotsave'] = '$a 의 사진을 저장할 수 없습니다. 원본 파일을 점검해 보세요.';
+$string['uploadpicture_cannotunzip'] = '묶음 파일을 풀 수 없습니다.';
+$string['uploadpicture_invalidfilename'] = '그림 파일 $a 에는 쓸 수 없는 문자가 포함된 이름이 있습니다. 생략합니다.';
+$string['uploadpicture_overwrite'] = '기존 사진에 덮어 쓰겠습니까?';
+$string['uploadpicture_userfield'] = '사진에 상응하는 사용자 속성:';
+$string['uploadpicture_usernotfound'] = '\'$a->uservalue\'가 \'$a->userfield\'인 이용자는 존재하지 않습니다. 생략합니다.';
+$string['uploadpicture_userskipped'] = '$a 는 이미 사진이 있으므로 생략합니다.';
+$string['uploadpicture_userupdated'] = '$a 사진 갱신';
+$string['uploadpictures'] = '사진 올려주기';
+$string['uploaduserspreview'] = '올린 이용자 미리보기';
+$string['uploadusersresult'] = '이용자 업로드 결과';
 $string['upwards'] = '위로';
 $string['usehtmleditor'] = 'HTML편집기 사용';
 $string['useraccountupdated'] = '이용자가 갱신됨';
@@ -734,6 +747,7 @@ $string['validateerror'] = '이 값은 유효하지 않음:';
 $string['warningcurrentsetting'] = '잘못된 값: $a';
 $string['webproxy'] = '웹 프록시';
 $string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없는 경우 다음 옵션을 입력하세요. 환경변수, 언어팩, RSS feed, 타임존등을 다운로드하기 위해 인터넷 접속이 필요합니다. <br/><em> PHP cURL 익스텐션을 설치할 것을 추천합니다. </em>';
+$string['xmlrpcrecommended'] = '추가적인 xmlrpc 확장 설치는 무들 네트웍이 제대로 작동하는 데 쓸모가 있습니다.';
 $string['xmlstrictheaders'] = 'XML 정규 헤더';
 $string['addcounter'] = '숫자 추가'; // ORPHANED
 $string['newusernamehandling'] = '새 사용자명 복제 처리'; // ORPHANED

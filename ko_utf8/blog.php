@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2006120700)
+      // blog.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['addnewentry'] = '새 게시물 추가';
 $string['addotags'] = '공식적인 태그 추가';
 $string['addptags'] = '사용자 정의 태그 추가';
+$string['backupblogshelp'] = '활성화되어 있으면 사이트 자동 백업시 블로그가 포함될 것입니다.';
 $string['blockmenutitle'] = '블로그 메뉴';
 $string['blocktagstitle'] = '블로그 태그';
 $string['blocktitle'] = '블로그덧글 블럭 이름';

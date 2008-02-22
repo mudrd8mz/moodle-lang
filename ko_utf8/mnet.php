@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (2007101506)
+      // mnet.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (자동 서명)';
@@ -7,7 +7,7 @@ $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (서명)';
 $string['RPC_HTTP_PLAINTEXT'] = 'HTTP 비암호화';
 $string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (자동 서명)';
 $string['RPC_HTTP_VERIFIED'] = 'HTTP (서명)';
-$string['aboutyourhost'] = '당신의 서버에 대해';
+$string['aboutyourhost'] = '서버 소개';
 $string['accesslevel'] = '접속 수준';
 $string['addhost'] = '호스트 추가';
 $string['addnewhost'] = '새 호스트 추가';
@@ -16,12 +16,12 @@ $string['allow'] = '허용';
 $string['authfail_nosessionexists'] = '인증 실패: mnet 세션이 존재하지 않음';
 $string['authfail_sessiontimedout'] = '인증 실패: mnet 세션 시간 초과';
 $string['authfail_usermismatch'] = '인증 실패: 사용자 불일치';
-$string['authmnetautoadddisabled'] = '무들네트웍 인증 플러그인에서 <em>자동 추가 사용자</em>는 비활성화 됩니다.';
-$string['authmnetdisabled'] = '무들네트웍 인증플러그인 비활성됨.';
+$string['authmnetautoadddisabled'] = '무들네트웍 인증 플러그인에서 <em>자동 추가 사용자</em>는 <strong>비활성화</strong> 됩니다.';
+$string['authmnetdisabled'] = '무들네트웍 <em>인증플러그인</em> <strong>비활성</strong>됨.';
 $string['badcert'] = '유효한 자격이 아님.';
 $string['certdetails'] = '자격 세부사항';
-$string['couldnotgetcert'] = '$a에서 인증서를 찾을 수 없음.<br />호스트가 죽었거나 설정이 잘못 되어 있음.';
-$string['couldnotmatchcert'] = '웹서버에 의해 출판된 현재의 인증서와 일치하지 않음.';
+$string['couldnotgetcert'] = '$a 에서 인증서를 찾을 수 없음.<br />호스트가 죽었거나 설정이 잘못 되어 있음.';
+$string['couldnotmatchcert'] = '웹서버에 의해 공개된 현재의 인증서와 일치하지 않음.';
 $string['courses'] = '강좌들';
 $string['courseson'] = '강좌 탑재';
 $string['current_transport'] = '현재의 운송계층';
@@ -31,7 +31,7 @@ $string['deleteaserver'] = '서버를 삭제';
 $string['deletehost'] = '호스트 삭제';
 $string['deletekeycheck'] = '이 키를 삭제하는 것이 확실합니까?';
 $string['deleteoutoftime'] = '작동시간(60초)이 초과하였습니다. 다시 시작하시기 바랍니다.';
-$string['deleteuserrecord'] = 'SSO ACL: $a[1]의 사용자 \'$a[0]\' 삭제';
+$string['deleteuserrecord'] = 'SSO ACL: $a[1]의 사용자 \'$a[0]\' 기록 삭제';
 $string['deletewrongkeyvalue'] = '오류 발생. 만일 당신이 서버의 SSL키를 삭제하려고 하지 않았다면 아마 누군가가 심각한 침해를 하려고 했었습니다. 현재 아무런 시도도 성공하지 못했습니다.';
 $string['deny'] = '거부';
 $string['description'] = '설명';
@@ -45,7 +45,7 @@ $string['enrollingincourse'] = '호스트 $a[1]의 $a[0] 강좌 등록<br />';
 $string['enrolments'] = '등록';
 $string['enterausername'] = '사용자 아이디를 쉼표로 구분하여 입력하기 바랍니다.';
 $string['error7020'] = '이 오류는  http://www.yoursite.com 대신 http://yoursite.com 와 같이 원격 사이트가 틀린 wwwroot 기록을 만들었을때 발생한다. 당신의 호스트에 대한 기록을 갱신하도록 (config.php에 명시된) wwwroot의 원격사이트 관리자에게 요청하세요.';
-$string['error7022'] = '원격 사이트에 보낸 메세지는 적절하게 암호화되어 있지만 사인되지 않았습니다. 이것은 매우 예상되지 못한 일입니다. 이것이 발생하면 버그를 기록하여야만 할 것입니다.(무들 버전등 가능한 많은 정보제공)';
+$string['error7022'] = '원격 사이트에 보낸 메세지는 적절하게 암호화되어 있지만 사인되지 않았습니다. 이것은 예상치 못한 일입니다. 이것이 발생하면 버그를 기록하여야만 할 것입니다.(무들 버전등 가능한 많은 정보제공)';
 $string['error7023'] = '원격사이트는 당신의 사이트에 대해 레코드에 가지고 있는 모든 키를 사용하여 당신의 메세지를 복호화 하려고 시도하였으나 실패하였습니다. 원격사이트에 대하여 키를 재발급함에 의해 이 문제를 고칠 수 있습니다. 몇달 동안 원격 사이트와 통신을 하지 않은 경우가 아니라면 발생하기 어렵습니다.';
 $string['error7024'] = '원격 사이트에 암호화되지 않은 메세지를 보냈지만 원격사이트는 이를 수신하지 않았습니다. 이것은 매우 예상되지 못한 일입니다. 이것이 발생하면 버그를 기록하여야만 할 것입니다.(무들 버전등 가능한 많은 정보제공)';
 $string['error7026'] = '당신의 메세지에 사인된 키는 당신에 서버에 대해 원격서버가 파일에 가지고 있는 키와 다릅니다. 더우기 원격 호스트는 현재 당신키를 가져가려고 하였으나 실패하였습니다. 원격 호스트와 수동적으로 키를 맞추고 다시 시도하십시요.';
@@ -55,12 +55,12 @@ $string['expires'] = '유효기간';
 $string['expireyourkey'] = '키 삭제';
 $string['expireyourkeyexplain'] = '무들은 통상적으로 자동적으로 28일 주기로 키를 교체합니다만 관리자는 언제든지 <em>수동으로</em> 이를 파기할 수있는 선택권을 가지고 있습니다. 이는 키가 누출되었다고 여겨질 때 유용하게 활용될 수 있습니다. 키의 교체는 자동적으로 즉시 생성되어 이루어 집니다.<br />
 키를 교체하게 되면 당신이 다른 네트워크의 관리자와 접촉하여 새 키를 제공하기 전까지는 다른 네트웍의 무들과 교신하지 못하게 됩니다.';
-$string['failedaclwrite'] = '사용자 \'$a\'에 대한 MNET 접속 권한 목록을 작성할 수 없습니다.';
+$string['failedaclwrite'] = '사용자 \'$a\'에 대한 무들네트웍 접속 권한 목록을 작성할 수 없습니다.';
 $string['forbidden-function'] = '그 기능은 RPC 때문에 활성화될 수 없습니다.';
 $string['forbidden-transport'] = '시도하려는 전송방법은 허용되지 않습니다.';
 $string['forcesavechanges'] = '변경사항 강제 저장';
 $string['helpnetworksettings'] = '역내 무들네트웍 구성';
-$string['hidelocal'] = '지역 사용자 감추기';
+$string['hidelocal'] = '로컬 사용자 감추기';
 $string['hideremote'] = '원격 사용자 감추기';
 $string['host'] = '호스트';
 $string['hostcoursenotfound'] = '호스트나 강좌를 찾을 수 없음';
@@ -131,7 +131,7 @@ $string['notpermittedtojump'] = '당신은 이 무들 중계기로부터 원격 
 $string['notpermittedtoland'] = '당신은 원격 세션을 시작할 수 있는 자격이 없습니다.';
 $string['off'] = '끔';
 $string['on'] = '켬';
-$string['otherenrolledusers'] = '기타 등록된 사용자들';
+$string['otherenrolledusers'] = '기타 등록된 사용자';
 $string['permittedtransports'] = '허용된 전송계층';
 $string['phperror'] = '내부 PHP 오류로 요청을 실행하지 못 했습니다.';
 $string['postrequired'] = '삭제 기능은 POST 요청이 필요합니다.';
@@ -171,7 +171,7 @@ $string['subscribe'] = '등록';
 $string['system'] = '시스템';
 $string['testtrustedhosts'] = '주소 검사';
 $string['testtrustedhostsexplain'] = '인증된 호스트인지를 알아보려면 IP 주소를 입력하세요.';
-$string['themesavederror'] = '오류가 발생하였습니다. 테마변경이 저장되지 않았습니다.';
+$string['themesavederror'] = '오류가 발생하였습니다. 테마가 변경되지 않았습니다.';
 $string['transport_help'] = '이 선택항목들은 상호 호혜적인 것으로 만일 여러분의 서버가 서명된 SSL 인증서만 가지고 있다면, 원격서버에 서명된 SSL 인증서만 요구할 수 있다.';
 $string['trustedhosts'] = 'XML-RPC 호스트';
 $string['trustedhostsexplain'] = '<p>호스트 인증 매카니즘은 무들 API의 일부분으로 소위 XML-RPC를 호출하여 특정 기계에서 이를 실행시킬 수 있도록 한다. 이는 스크립트가 무들의 행동을 관장하게 하는데, 활성화 시키기에는 매우 위험한 선택 사항이 될 것이다. 만일 확신이 서지 않는다면, 이를 꺼 두도록 하라.</p>
@@ -179,7 +179,7 @@ $string['trustedhostsexplain'] = '<p>호스트 인증 매카니즘은 무들 API
  <p>이것을 활성화시키기 위해서는, 한 줄에 하나씩 IP 주소 혹은 네트웍 목록을 입력하라. 다음은 작성 예이다.</p>로칼 호스트:<br />127.0.0.1<br />로칼 호스트(네트웍 블럭):<br />127.0.0.1/32<br />IP 주소가 192.168.0.7인 호스트만:<br />192.168.0.7/32<br />IP 주소가 192.168.0.1 에서 192.168.0.255 사이의 모든 호스트:<br />192.168.0.0/24<br />모든 호스트:<br />192.168.0.0/0<br />물론 마지막 예는 추천할 수 <strong>없는</strong> 사례이기는 하다.';
 $string['unknownerror'] = '교섭중에 알 수 없는 오류 발생';
 $string['usercannotchangepassword'] = '원격 사용자이기 때문에 이곳에서는 암호를 바꿀 수 없다.';
-$string['userchangepasswordlink'] = '<br />당신은 자료 제공자인 <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>에서 비밀번호를 바꿀 수 있을 것입니다.';
+$string['userchangepasswordlink'] = '<br />당신은 신분 제공자인 <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>에서 비밀번호를 바꿀 수 있을 것입니다.';
 $string['usersareonline'] = '경고: 현재 그 서버로 부터 $a 사용자가 여러분의 사이트에 접속해 있습니다.';
 $string['validated_by'] = '<code>$a</code> 네트웍에 의해 승인되었습니다.';
 $string['verifysignature-error'] = '서명 확인 실패. 오류가 발생하였습니다.';
