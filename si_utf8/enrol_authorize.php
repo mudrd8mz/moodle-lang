@@ -14,7 +14,7 @@ $string['adminemailexpiredsortsum'] = 'එකතුවෙහි මුලු ග
 $string['adminemailexpsetting'] = '(0=විද්‍යුත් තැපැල් යැවීම අක්‍රිය කරන්න, default=2, max=5)<br />(විද්‍යුත් තැපැල් යාන්ත්‍රික ග්‍රහන සැකසුම්: cron=enabled, an_review=checked, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'න්‍යායපත්‍රගත-ග්‍රහන දිනය';
 $string['adminhelpreviewtitle'] = 'ඇනවුම් සම‍ාලෝචනය';
-$string['adminnewordersubject'] = '$a->course: නව අපේක්ෂිත ඇනවුම ($a->orderid)';
+$string['adminnewordersubject'] = '$a->course: නව අපේක්ෂිත ඇනවුම $a->orderid';
 $string['adminreview'] = 'ක්‍රෙඩිට් කාඩ් සැකසුමට ප්‍රථම ඇනවුම සමාලෝචනය කරන්න';
 $string['adminteachermanagepay'] = 'ගුරුවරුන්ට පාඨමාලා ගාස්තු කළමනාකරනය කල හැක';
 $string['amount'] = 'ගණන';

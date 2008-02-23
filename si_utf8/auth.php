@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101508)
+      // auth.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['CASform'] = 'සත්‍යාපන තේරීම';
