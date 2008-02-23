@@ -1,6 +1,6 @@
 <?php
 
-$string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
+$string['alphabet'] = 'අ,ආ,ඇ,ඈ,උ,ඌ,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 
