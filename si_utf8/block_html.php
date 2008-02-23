@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 1.8.2+ (2007021520)
+      // block_html.php - created with Moodle 2.0 dev (2007101508.02)
 
-$string['configcontent'] = 'අඩංගුව';
+
+$string['configcontent'] = 'අන්තර්ගතය';
 $string['configtitle'] = 'කොටස් මාතෘකාව';
 $string['html'] = 'HTML';
-$string['leaveblanktohide'] = 'මාතෘකාව සැගවීමට හිස්ව තබන්න';
+$string['leaveblanktohide'] = 'මාතෘකාව සැඟවීමට හිස්ව තබන්න';
 $string['newhtmlblock'] = '(නව HTML කොටස)';
 
 ?>
