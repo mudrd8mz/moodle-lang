@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2007101508)
+      // scorm.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['activation'] = 'සක්‍රිය කිරීම';

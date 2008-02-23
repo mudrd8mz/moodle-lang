@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (2007101508)
+      // mnet.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (ස්වයං අත්සන් කරන ලද)';

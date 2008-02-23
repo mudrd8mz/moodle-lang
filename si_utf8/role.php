@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101508)
+      // role.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['addrole'] = 'නව භූමිකාවක් එක් කරන්න';
@@ -54,7 +54,7 @@ $string['defaultrole'] = 'භූමිකා පෙරනිමිය';
 $string['defineroles'] = 'භූමිකා අර්ථ දක්වන්න';
 $string['deletecourseoverrides'] = 'පාඨමාලාවක ඇති සියලු යටපත් කිරීම් ඉවත් කරන්න';
 $string['deletelocalroles'] = 'සියලු ප්‍රාදේශීය භූමිකා පැවරීම් ඉවත් කරන්න';
-$string['deleterolesure'] = '<p>\"$a->name ($a->shortname)\" භූමිකාව මැකිය යුතු බවට විශ්වාසද?</p><p> දැනට මෙම භූමිකාව පරිශීලකයන් $a->count ට පවරා ඇත.';
+$string['deleterolesure'] = '\"$a->name ($a->shortname)\" භූමිකාව මැකිය යුතු බවට විශ්වාසද?</p><p> දැනට මෙම භූමිකාව පරිශීලකයන් $a->count කට පවරා ඇත.';
 $string['duplicaterole'] = 'භූමිකා අනු පිටපත් කිරීම';
 $string['duplicaterolesure'] = '\"$a->name ($a->shortname)\" භූමිකාව අනු පිටපත් කලයුතු බවට විශ්වාසද?</p>';
 $string['editrole'] = 'භූමිකා සංස්කරණය';
