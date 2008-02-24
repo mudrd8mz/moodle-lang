@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101508)
+      // moodle.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -654,13 +654,10 @@ $string['general'] = '일반적';
 $string['gettheselogs'] = '기록 보기';
 $string['go'] = '다음';
 $string['gotoyourserver'] = '(서버로 연결)';
-$string['gpl'] = 'Copyright (C) 2001-2004  Martin Dougiamas  (http://dougiamas.com)
-
-이 프로그램은 프리웨어입니다. 당신은 자유소프트웨어 재단이 선언한 GNU 협약에 근거하여 재배포할 수도 있고, 수정하여 사용할 수도 있습니다.
-
-이 프로그램은 유용할 것이라는 희망으로 배포되었습니만 어떠한 종류의 상업적 이익이나 특별한 의도를 지지하는 등에 대해 보장하지 않습니다.
-
-무들 라이센스에 대해 상세한 정보가 필요하시면 아래의 사이트(영문)를 참고하세요. http://docs.moodle.org/en/License';
+$string['gpl'] = 'Copyright (C) 1999 onwards Martin Dougiamas (http://moodle.com)< /br>< /br>
+이 프로그램은 프리웨어입니다. 당신은 자유소프트웨어 재단이 선언한 GNU 일반 공중 사용 허가서에 근거하여 재배포할 수도 있고, 수정하여 사용할 수도 있습니다. 이에는 GPL 버전 2 또는 그 이후의 버전이 적용됩니다.< /br>< /br>
+이 프로그램은 유용할 것이라는 희망으로 배포되었습니만, 어떠한 종류의 상업적 이익이나 특별한 의도를 지지하는 등에 대해 보장하지 않습니다.< /br>< /br>
+무들 저작권에 대해 상세한 정보가 필요하시면 아래의 사이트(영문)를 참고하시기 바랍니다.< /br> http://docs.moodle.org/en/License';
 $string['grade'] = '등급';
 $string['grades'] = '성적';
 $string['group'] = '모둠';
@@ -876,6 +873,7 @@ $string['metanoalreadycourses'] = '아직 지정된 강좌가 없습니다.';
 $string['metanopotentialcourses'] = '강좌를 이용할 수 없습니다.';
 $string['metapotentialcourses'] = '강좌 이용 가능';
 $string['metaremovecourse'] = '강좌 제거';
+$string['migratinggrades'] = '성적 이관';
 $string['min'] = '분';
 $string['mins'] = '분';
 $string['minutes'] = '분간';
@@ -1264,7 +1262,7 @@ $string['separate'] = '분리';
 $string['separateandconnected'] = '학습자의 분리와 연대 유형';
 $string['serverlocaltime'] = '서버의 지역시간';
 $string['setcategorytheme'] = '범주 테마 설정';
-$string['settings'] = '설정들';
+$string['settings'] = '설정';
 $string['shortname'] = '짧은 이름';
 $string['shortnamecollisionwarning'] = '[*]=이 짧은 이름은 이미 다른 교육과정에 사용되고 있습니다. 승인이 될 수 있는 다른 이름으로 바꿔주십시오';
 $string['shortnametaken'] = '짧은 이름이 다른 곳( $a )에서 사용되고 있습니다.';
@@ -1370,16 +1368,16 @@ $string['statswrites'] = '게시글수';
 $string['status'] = '상태';
 $string['strftimedate'] = '%%Y %%B %%d';
 $string['strftimedateshort'] = '%%B %%d';
-$string['strftimedatetime'] = '%%d %%B %%Y, %%I:%%M %%p';
-$string['strftimedatetimeshort'] = '%%d/%%m/%%Y %%H:%%M';
-$string['strftimedaydate'] = '%%A, %%d %%B %%Y';
-$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
-$string['strftimedayshort'] = '%%A,%%d %%B';
+$string['strftimedatetime'] = '%%Y %%B %%d, %%p %%I:%%M';
+$string['strftimedatetimeshort'] = '%%Y/%%m/%%d %%H:%%M';
+$string['strftimedaydate'] = '%%Y %%B %%d, %%A';
+$string['strftimedaydatetime'] = '%%Y %%B %%d, %%A, %%p %%I:%%M';
+$string['strftimedayshort'] = '%%B %%d, %%A';
 $string['strftimedaytime'] = '%%a,%%H:%%M';
-$string['strftimemonthyear'] = '%%B %%Y';
-$string['strftimerecent'] = '%%d %%b, %%H:%%M';
-$string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%I:%%M %%p';
-$string['strftimetime'] = '%%I:%%M %%p';
+$string['strftimemonthyear'] = '%%Y %%B';
+$string['strftimerecent'] = '%%b %%d, %%H:%%M';
+$string['strftimerecentfull'] = '%%Y, %%b %%d, %%a, %%p %%I:%%M';
+$string['strftimetime'] = '%%p %%I:%%M';
 $string['stringsnotset'] = '다음의 문자열은 $a 에 정의되지 않았습니다.';
 $string['studentnotallowed'] = '\'$a\' 계정으로 이 강좌에 접속할 수 없습니다.';
 $string['students'] = '학생들';
@@ -1394,10 +1392,10 @@ $string['summaryof'] = '$a 의 요약';
 $string['supplyinfo'] = '당신에 대한 정보를 써 주세요.';
 $string['switchrolereturn'] = '평소의 역활로 돌아감';
 $string['switchroleto'] = '다음으로 역할 바꾸기';
-$string['tag'] = '범주';
+$string['tag'] = '태그';
 $string['tagalready'] = '이 범주는 이미 존재합니다.';
 $string['tagmanagement'] = '범주 추가/삭제';
-$string['tags'] = '범주들';
+$string['tags'] = '태그';
 $string['targetrole'] = '변경될 역할';
 $string['teacheronly'] = '오직 $a 를 위한';
 $string['teacherroles'] = '$a 역할';

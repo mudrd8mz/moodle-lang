@@ -1,26 +1,30 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007100500)
+      // tag.php - created with Moodle 2.0 dev (2007101508.05)
 
 
+$string['addedotag'] = '공식 태그로 \"$a\"가 추가되었읍니다.';
+$string['addotags'] = '공식 태그 추가';
 $string['addtagtomyinterests'] = '관심분야에 \"$a\" 추가';
 $string['blocktagstitle'] = '태그';
-$string['changename'] = '태그이름 변경';
+$string['changename'] = '태그명칭 변경';
 $string['changetype'] = '태그형식 변경';
-$string['count'] = '계수';
+$string['count'] = '조회';
 $string['delete'] = '삭제';
 $string['deleted'] = '삭제됨';
 $string['description'] = '설명';
-$string['edittag'] = '이 태그 편집';
+$string['edittag'] = '태그 편집';
 $string['flag'] = '표식';
 $string['flagasinappropriate'] = '부적절 표시';
 $string['helprelatedtags'] = '관련 태그를 컴마로 분리';
 $string['id'] = 'id';
 $string['managetags'] = '태그 관리';
-$string['name'] = '이름';
-$string['namesalreadybeeingused'] = '태그 이름이 이미 사용중입니다.';
-$string['newname'] = '새 태그 이름';
+$string['name'] = '태그 명칭';
+$string['namesalreadybeeingused'] = '이미 있는 태그명칭';
+$string['newname'] = '새 태그명칭';
 $string['noresultsfor'] = '\"$a\"에 대한 결과 없음';
+$string['otags'] = '공식 태그';
 $string['owner'] = '소유자';
+$string['ptags'] = '사용자 정의 태그';
 $string['relatedblogs'] = '이 태그를 사용한 최신 블로그 항목';
 $string['relatedtags'] = '관련 태그';
 $string['reset'] = '초기화';
