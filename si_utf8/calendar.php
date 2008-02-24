@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 2.0 dev (2007101508)
+      // calendar.php - created with Moodle 2.0 dev (2007101508.02)
 
 
 $string['advancedoptions'] = 'උසස් විකල්ප';
 $string['allday'] = 'මුළු දිනම';
 $string['calendar'] = 'දින දසුන';
 $string['calendarheading'] = '$a දින දසුන';
-$string['clickhide'] = 'සැගවීමට ක්ලික් කරන්න';
+$string['clickhide'] = 'සැඟවීමට ක්ලික් කරන්න';
 $string['clickshow'] = 'පෙන්වීමට ක්ලික් කරන්න';
 $string['commontasks'] = 'විකල්ප';
 $string['confirmeventdelete'] = 'මෙම සිද්ධිය මකා දැමීමට අවශ්‍ය බවට ඔබට විශ්වාසද?';
@@ -20,12 +20,12 @@ $string['default'] = 'පෙර නිමිය';
 $string['deleteevent'] = 'සිද්ධිය මකා දමන්න';
 $string['deleteevents'] = 'සිද්ධිය ඉවත් කරන්න';
 $string['detailedmonthview'] = 'විස්තරාත්මක මාසික දැක්ම';
-$string['durationminutes'] = 'කාලසීමාව මින්ත්තු වලින්';
+$string['durationminutes'] = 'කාලසීමාව මිනිත්තු වලින්';
 $string['durationnone'] = 'කාලසීමාවක් නොමැතිව';
 $string['durationuntil'] = 'තෙක්';
 $string['editevent'] = 'සිද්ධිය සැකසීම';
 $string['errorbeforecoursestart'] = 'පාඨමාලාවේ ආරම්භක දිනයට පෙර සිද්ධිය සිටුවම් කළ නොහැක.';
-$string['errorinvaliddate'] = 'අවලංගු දිනය';
+$string['errorinvaliddate'] = 'වලංගු නොවන දිනයකි';
 $string['errorinvalidminutes'] = 'කාලසීමාව මිනිත්තු 1 සහ 999 අතර ගණනක් වන පරිදි සඳහන් කරන්න';
 $string['errorinvalidrepeats'] = 'සිද්ධීන් ගණන 1 හා 99 අතර ගණනක් වන පරිදි සඳහන් කරන්න.';
 $string['errornodescription'] = 'විස්තරයක් අවශ්‍ය වේ';
