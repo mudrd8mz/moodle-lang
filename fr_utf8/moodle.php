@@ -875,6 +875,7 @@ $string['metanoalreadycourses'] = 'Aucun cours n\'a encore été ajouté';
 $string['metanopotentialcourses'] = 'Aucun cours disponible';
 $string['metapotentialcourses'] = 'Cours disponibles';
 $string['metaremovecourse'] = 'Retirer ce cours';
+$string['migratinggrades'] = 'Migration des notes';
 $string['min'] = 'min';
 $string['mins'] = 'min';
 $string['minutes'] = 'minutes';
