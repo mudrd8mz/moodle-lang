@@ -26,6 +26,7 @@ $string['otags'] = 'Balises officielles';
 $string['ptags'] = 'Balises personnelles (séparées par des virgules)';
 $string['relatedblogs'] = 'Articles de blog récents avec cette balise';
 $string['relatedtags'] = 'Balises ';
+$string['removetagfrommyinterests'] = 'Retirer «&nbsp;$a&nbsp;» de mes centres d\'intérêts';
 $string['responsiblewillbenotified'] = 'La personne responsable sera avertie';
 $string['resetflag'] = 'Réinitialisation fanion';
 $string['reset'] = 'Réinitialisation';
