@@ -27,6 +27,7 @@ $string['owner'] = 'オーナー';
 $string['ptags'] = 'ユーザ定義タグ (カンマ区切り)';
 $string['relatedblogs'] = 'このタグに関連する最新ブログ';
 $string['relatedtags'] = '関連タグ';
+$string['removetagfrommyinterests'] = '「 $a 」を私の「興味があること」から削除する';
 $string['reset'] = 'リセット';
 $string['resetflag'] = 'フラグのリセット';
 $string['responsiblewillbenotified'] = '責任者に通知されます。';
