@@ -1,6 +1,8 @@
 <?php // $Id$
 
 // Trouver un meilleur terme que 'balise' pour 'tag'
+$string['addedotag'] = '«&nbsp;$a&nbsp;» a été ajouté comme balise officielle.';
+$string['addotags'] = 'Ajouter des balises officielles';
 $string['addtagtomyinterests'] =  'Ajouter «&nbsp;$a&nbsp; à mes centres d\'intérêts';
 $string['blocktagstitle'] =  'Balises';
 $string['changename'] = 'Modifier nom de balise';
@@ -20,6 +22,8 @@ $string['namesalreadybeeingused'] = 'Noms de balise déjà utilisés';
 $string['newname'] = 'Nouveau nom de balise';
 $string['noresultsfor'] = 'Aucun résultat pour «&nbsp;$a&nbsp;»';
 $string['owner'] = 'Possesseur';
+$string['otags'] = 'Balises officielles';
+$string['ptags'] = 'Balises personnelles (séparées par des virgules)';
 $string['relatedblogs'] = 'Articles de blog récents avec cette balise';
 $string['relatedtags'] = 'Balises ';
 $string['responsiblewillbenotified'] = 'La personne responsable sera avertie';

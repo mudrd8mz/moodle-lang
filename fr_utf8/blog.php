@@ -1,8 +1,6 @@
 <?php  // $Id$
 
 $string['addnewentry'] = 'Ajouter un nouvel article';
-$string['addotags'] = 'Ajouter des balises officielles';
-$string['addptags'] = 'Ajouter des balises personnelles';
 $string['backupblogshelp'] = 'Ce réglage active la sauvegarde des blogs dans les sauvegardes automatiques du site';
 $string['blockmenutitle'] = 'Menu blog';
 $string['blocktagstitle'] = 'Balises de blog';
@@ -34,10 +32,8 @@ $string['norighttodeletetag'] = 'Vous n\'êtes pas autorisé à supprimer cette 
 $string['notallowedtoedit'] = 'Vous n\'êtes pas autorisé à modifier cette article';
 $string['numberofentries'] = 'Articles&nbsp;: $a';
 $string['numberoftags'] = 'Nombre de balises à afficher';
-$string['otags'] = 'Balises officielles';
 $string['pagesize'] = 'Nombre d\'articles par pages';
 $string['personalblogs'] = 'Les utilisateurs ne peuvent voir que les articles de leur propre blog';
-$string['ptags'] = 'Balises personnelles (séparées par des virgules)';
 $string['publishto'] = 'Publier pour';
 $string['publishtonoone'] = 'Vous-même (brouillon)';
 $string['publishtosite'] = 'Tout le monde sur ce site';
