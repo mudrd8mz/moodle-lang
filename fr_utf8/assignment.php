@@ -80,6 +80,7 @@ $string['noattempts'] = 'Personne n\'a encore fait ce devoir';
 $string['nofilesforsubmit'] = 'Aucun fichier n\'est à remettre. En avez-vous vraiment déposé&nbsp;?'; // Legacy, to delete in 1.7dev
 $string['nofilesyet'] = 'Aucun fichier n\'a encore été remis';
 $string['nofiles'] = 'Aucun ficher n\'a été remis';
+$string['nomoresubmissions'] = 'Aucune autre remise n\'est autorisée.';
 $string['nosubmitusers'] = 'Aucun utilisateur ne possède les autorisations permettant de remettre de document pour ce devoir';
 $string['notavailableyet'] = 'Ce devoir n\'est pas encore disponible.<br />Les tâches à effectuer seront affichées ici à la date indiquée ci-dessous.';
 $string['notes'] = 'Notes';
