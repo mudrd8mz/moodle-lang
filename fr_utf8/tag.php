@@ -3,7 +3,7 @@
 // Trouver un meilleur terme que 'balise' pour 'tag'
 $string['addedotag'] = '«&nbsp;$a&nbsp;» a été ajouté comme balise officielle.';
 $string['addotags'] = 'Ajouter des balises officielles';
-$string['addtagtomyinterests'] =  'Ajouter «&nbsp;$a&nbsp; à mes centres d\'intérêts';
+$string['addtagtomyinterests'] =  'Ajouter «&nbsp;$a&nbsp;» à mes centres d\'intérêts';
 $string['blocktagstitle'] =  'Balises';
 $string['changename'] = 'Modifier nom de balise';
 $string['changetype'] = 'Modifier type de balise';
