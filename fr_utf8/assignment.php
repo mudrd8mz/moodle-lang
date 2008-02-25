@@ -120,6 +120,7 @@ $string['submitedformarking'] = 'Le devoir a été déjà remis pour notation. I
 $string['submitformarking'] = 'Valider le devoir pour notation'; // ATTENTION, to modify in 1.7dev
 $string['submitted'] = 'Devoir rendu';
 $string['submittedfiles'] = 'Fichiers remis';
+$string['trackdrafts'] = 'Activer l\'envoi pour évaluation';
 $string['typeoffline'] = 'Activité hors ligne';
 $string['typeonline'] = 'Texte en ligne';
 $string['typeupload'] = 'Dépôt avancé de fichiers';
