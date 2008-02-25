@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101508.02)
+      // moodle.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['abouttobeinstalled'] = 'ස්ථාපනය සඳහා සූදානම්';
@@ -858,6 +858,7 @@ $string['metanoalreadycourses'] = 'දැනට කිසිම පාඨමා�
 $string['metanopotentialcourses'] = 'පාඨමාලා කිසිවක් නැත.';
 $string['metapotentialcourses'] = 'පවතින පාඨමාලා';
 $string['metaremovecourse'] = 'මෙම පාඨමාලාව ඉවත් කරන්න';
+$string['migratinggrades'] = 'සංක්‍රමණය කිරීමේ ශ්‍රේණි';
 $string['min'] = 'අවමය';
 $string['mins'] = 'අවම';
 $string['minutes'] = 'මිනිත්තු';
