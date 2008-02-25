@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101508)
+      // moodle.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -890,6 +890,7 @@ $string['metanoalreadycourses'] = '割り当てられたコースはありませ
 $string['metanopotentialcourses'] = '利用できるコースはありません。';
 $string['metapotentialcourses'] = '利用可能コース';
 $string['metaremovecourse'] = 'このコースを取り消す';
+$string['migratinggrades'] = '評定のマイグレート';
 $string['min'] = '分';
 $string['mins'] = '分';
 $string['minutes'] = '分';
@@ -1599,8 +1600,8 @@ $string['yourlastlogin'] = 'あなたの最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
-$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (2007101508)
-$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (2007101508)
-$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (2007101508)
+$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (2007101508.05)
+$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (2007101508.05)
+$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (2007101508.05)
 
 ?>
