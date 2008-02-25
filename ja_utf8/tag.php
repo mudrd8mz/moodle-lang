@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007091401)
+      // tag.php - created with Moodle 2.0 dev (2007101508.05)
 
 
+$string['addedotag'] = '「 $a 」がオフィシャルタグとして追加されました。';
+$string['addotags'] = 'オフィシャルタグを追加する';
 $string['addtagtomyinterests'] = '「 $a 」を私の「興味があること」に追加する';
 $string['blocktagstitle'] = 'タグ';
 $string['changename'] = 'タグ名を変更する';
@@ -20,7 +22,9 @@ $string['name'] = 'タグ名';
 $string['namesalreadybeeingused'] = 'タグ名がすでに使用されています。';
 $string['newname'] = '新しいタグ名';
 $string['noresultsfor'] = '「 $a 」の検索結果なし';
+$string['otags'] = 'オフィシャルタグ';
 $string['owner'] = 'オーナー';
+$string['ptags'] = 'ユーザ定義タグ (カンマ区切り)';
 $string['relatedblogs'] = 'このタグに関連する最新ブログ';
 $string['relatedtags'] = '関連タグ';
 $string['reset'] = 'リセット';
