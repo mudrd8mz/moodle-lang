@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (2007101508)
+      // forum.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -45,7 +45,7 @@ $string['configtrackreadposts'] = '만약 각 사용자가 게시물을 읽었�
 $string['configusermarksread'] = '만약 \'예\'라면, 사용자는 손수 게시글 읽었음을 기표해야 합니다. \'아니오\'를 선택하면 게시글이 제시되면 자동으로 읽었음으로 표시됩니다.';
 $string['couldnotadd'] = '알 수 없는 오류로 인해 첨가할 수 없음.';
 $string['couldnotdeleteratings'] = '죄송합니다. 사람들이 벌써 평가를 하였기에 지울수 없습니다.';
-$string['couldnotdeletereplies'] = '죄송합니다. 사람들이 벌써 답변하였기에 지울수 없습니다.';
+$string['couldnotdeletereplies'] = '죄송합니다. 사람들이 벌써 답변하였기에 지울 수 없습니다.';
 $string['couldnotupdate'] = '알 수 없는 오류로 인해 업데이트 할 수 없음';
 $string['delete'] = '삭제';
 $string['deleteddiscussion'] = '이 주제는 삭제되었습니다.';
@@ -83,7 +83,7 @@ $string['everyoneissubscribed'] = '모든 사람이 이 포럼을 구독함';
 $string['existingsubscribers'] = '구독자 존재';
 $string['forcessubscribe'] = '모든 사람이 포럼을 구독해야 함';
 $string['forcesubscribe'] = '모든 사람이 구독하도록 강요함';
-$string['forcesubscribeq'] = '모든 사람이 반드시 구독하도록 할까요?';
+$string['forcesubscribeq'] = '구독을 강요할까요?';
 $string['forum'] = '포럼';
 $string['forum:addnews'] = '새소식 추가';
 $string['forum:createattachment'] = '첨부물 생성';
@@ -213,7 +213,7 @@ $string['ratingpublicnot'] = '$a 는 자신의 추천만을 볼 수 있습니다
 $string['ratings'] = '추천';
 $string['ratingssaved'] = '추천 저장됨';
 $string['ratingsuse'] = '추천 사용하기';
-$string['ratingtime'] = '추천하기 날짜 제한:';
+$string['ratingtime'] = '추천기간 제한:';
 $string['re'] = '회신:';
 $string['readtherest'] = '이 주제의 나머지 글 읽기';
 $string['replies'] = '답글들';
@@ -268,7 +268,7 @@ $string['tracking'] = '추적';
 $string['trackingoff'] = '추적않기';
 $string['trackingon'] = '추적하기';
 $string['trackingoptional'] = '선택적';
-$string['trackingtype'] = '이 포럼의 글타래 추적을 하시겠습니까?';
+$string['trackingtype'] = '읽지 않은 글 추적';
 $string['unread'] = '읽지 않음';
 $string['unreadposts'] = '읽지 않은 글';
 $string['unreadpostsnumber'] = '$a 개의 읽지 않은 글';
