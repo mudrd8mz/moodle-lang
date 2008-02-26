@@ -414,6 +414,7 @@ $string['rangesdisplaytype'] = 'Type d\'affichage des valeurs possibles';
 $string['rank'] = 'Rang';
 $string['rawpct'] = '%% brut';
 $string['real'] = 'Brut';
+$string['regradeanyway'] = 'Réévaluer malgré tout';
 $string['removeallcoursegrades'] = 'Supprimer toutes les notes';
 $string['removeallcourseitems'] = 'Supprimer tous les éléments et catégories';
 $string['report'] = 'Rapport';
