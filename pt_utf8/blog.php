@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (2007101506)
+      // blog.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addnewentry'] = 'Adicionar novo tópico';
-$string['addotags'] = 'Adicionar palavras chave oficiais';
-$string['addptags'] = 'Adicionar palavras chave definidas pelo utilizador';
+$string['backupblogshelp'] = 'Se for habilitado, os blogues serão incluídos nas cópias de segurança automáticas do Sítio';
 $string['blockmenutitle'] = 'Menu do Blogue';
 $string['blocktagstitle'] = 'Palavras Chave do Blogue';
 $string['blocktitle'] = 'Título do bloco de palavras chave do Blogue';
@@ -34,10 +33,8 @@ $string['norighttodeletetag'] = 'Não tem permissões para apagar esta palavra c
 $string['notallowedtoedit'] = 'Não está autorizado a editar este tópico';
 $string['numberofentries'] = 'Tópicos: $a';
 $string['numberoftags'] = 'Número de palavras chave a mostrar';
-$string['otags'] = 'Palavras Chave oficiais';
 $string['pagesize'] = 'Número de tópicos do blogue por página';
 $string['personalblogs'] = 'Os utilizadores apenas podem ver os seus blogues';
-$string['ptags'] = 'Palavras Chave definidas pelo utilizador (separados por vírgulas)';
 $string['publishto'] = 'Publicar para';
 $string['publishtonoone'] = 'O próprio (rascunho)';
 $string['publishtosite'] = 'Qualquer pessoa neste sítio';
@@ -57,5 +54,9 @@ $string['viewcourseentries'] = 'Ver tópicos na disciplina';
 $string['viewmyentries'] = 'Ver os meus tópicos';
 $string['viewsiteentries'] = 'Ver tópicos no sítio';
 $string['worldblogs'] = 'O mundo pode ler os tópicos designados como acessíveis por todo o mundo';
+$string['addotags'] = 'Adicionar palavras chave oficiais'; // ORPHANED
+$string['addptags'] = 'Adicionar palavras chave definidas pelo utilizador'; // ORPHANED
+$string['otags'] = 'Palavras Chave oficiais'; // ORPHANED
+$string['ptags'] = 'Palavras Chave definidas pelo utilizador (separados por vírgulas)'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101507)
+      // assignment.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['allowdeleting'] = 'Permitir apagar';
@@ -31,6 +31,7 @@ $string['confirmdeletefile'] = 'tem a certeza que pretende eliminar este ficheir
 $string['deleteallsubmissions'] = 'Apagara todos os envios';
 $string['deletefilefailed'] = 'A eliminação do ficheiro falhou';
 $string['description'] = 'Descrição';
+$string['disableemailnotification'] = 'Desabilitar notificações pelo correio electrónico';
 $string['draft'] = 'Rascunho';
 $string['duedate'] = 'Data de entrega';
 $string['duedateno'] = 'Sem data limite';
@@ -50,6 +51,7 @@ $string['failedupdatefeedback'] = 'Falhou a actualização dos comentários ao t
 $string['feedback'] = 'Os seus comentários';
 $string['feedbackfromteacher'] = 'Comentários do $a';
 $string['feedbackupdated'] = 'Foram actualizados os comentários aos trabalhos de $a pessoas';
+$string['finalize'] = 'Não mais envios';
 $string['graded'] = 'Avaliado';
 $string['guestnosubmit'] = 'Pedimos desculpas, mas os visitantes não podem enviar trabalhos. Tem que se validar ou registar para poder enviar o trabalho';
 $string['guestnoupload'] = 'Pedimos desculpas, mas os visitantes não podem enviar ficheiros';
@@ -72,6 +74,7 @@ $string['noassignments'] = 'Ainda não existem trabalhos';
 $string['noattempts'] = 'Não têm sido feita nenhuma tentativa neste trabalho';
 $string['nofiles'] = 'Nenhum ficheiro enviado';
 $string['nofilesyet'] = 'Ainda nenhum ficheiro foi enviado';
+$string['nomoresubmissions'] = 'Não são permitidos mais envios.';
 $string['nosubmitusers'] = 'Não foram encontrados utilizadores com autorização para enviar este tabalho';
 $string['notavailableyet'] = 'Este trabalho ainda não está disponível.<br />O trabalho será apresentado aqui na data indicada em baixo.';
 $string['notes'] = 'Notas';
@@ -100,6 +103,7 @@ $string['submitedformarking'] = 'O trabalho já foi enviado para avaliação e n
 $string['submitformarking'] = 'Enviar trabalho para ser avaliado';
 $string['submitted'] = 'Enviado';
 $string['submittedfiles'] = 'Ficheiros enviados';
+$string['trackdrafts'] = 'Habilitar Enviar para Avaliação';
 $string['typeoffline'] = 'Trabalho de casa';
 $string['typeonline'] = 'Texto em-linha';
 $string['typeupload'] = 'Envio de ficheiros avançado';

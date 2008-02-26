@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101507)
+      // moodle.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['abouttobeinstalled'] = 'a ponto de ser instalado';
@@ -750,6 +750,7 @@ $string['htmlformat'] = 'Formato HTML embelezado';
 $string['icqnumber'] = 'Número de ICQ';
 $string['idnumber'] = 'Código de identificação';
 $string['idnumbercourse'] = 'Número de identificação da disciplina';
+$string['idnumbermod'] = 'Número de identificação';
 $string['idnumbertaken'] = 'Este número de identificação já está a ser usado';
 $string['imagealt'] = 'Descrição de imagem';
 $string['import'] = 'Importar';
@@ -885,6 +886,7 @@ $string['metanoalreadycourses'] = 'Não há disciplinas já atribuídas';
 $string['metanopotentialcourses'] = 'Não há disciplinas disponíveis';
 $string['metapotentialcourses'] = 'Disciplinas disponíveis';
 $string['metaremovecourse'] = 'Apagar esta disciplina';
+$string['migratinggrades'] = 'Migração de notas';
 $string['min'] = 'minuto';
 $string['mins'] = 'minutos';
 $string['minutes'] = 'minutos';
@@ -1186,6 +1188,7 @@ $string['registrationno'] = 'Não pretendo receber mensagens de correio';
 $string['registrationsend'] = 'Enviar dados de registo para o moodle.org';
 $string['registrationyes'] = 'Notifique-me acerca de assuntos importantes';
 $string['reject'] = 'Rejeitar';
+$string['reload'] = 'Recarregar';
 $string['remotemaharauser'] = 'Utilizador Mahara remoto';
 $string['remove'] = 'Retirar';
 $string['removeadmin'] = 'Retirar administrador';

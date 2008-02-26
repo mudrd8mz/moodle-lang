@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101506)
+      // admin.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['accessdenied'] = 'Acesso recusado';
@@ -53,6 +53,7 @@ $string['clamfailureonupload'] = 'Quando falhar o antivírus CLAM';
 $string['cleanup'] = 'Limpeza';
 $string['commonsettings'] = 'Definições comuns';
 $string['componentinstalled'] = 'componente instalado';
+$string['computedfromlogs'] = 'Calculado a partir das estatísticas desde $a.';
 $string['confeditorhidebuttons'] = 'Seleccione os botões que deverão ser ocultados no editor HTML.';
 $string['configallowassign'] = 'Permitir que os cargos no lado esquerdo atribuam os cargos a cada coluna.';
 $string['configallowcategorythemes'] = 'Se activar esta opção, os temas poderão ser definidos a nível das categorias. Essa definição será usada em todas as disciplinas e subcategorias, a menos que tenham definido o seu próprio tema. ATENÇÃO: O uso de temas para as categorias pode piorar o desempenho.';
@@ -74,6 +75,8 @@ $string['configcachetype'] = 'Escolha um tipo de cache para o Moodle usar. Isto 
 $string['configclamactlikevirus'] = 'Tratar ficheiros como vírus';
 $string['configclamdonothing'] = 'Tratar ficheiros como OK';
 $string['configclamfailureonupload'] = 'Configurou o clam para filtrar os ficheiros enviados, mas está mal configurado ou falha ao arrancar por algum motivo, e como pode isso acontecer? Se escolher \'Tratar ficheiros como vírus\', eles serão movidos para a área de quarentena ou apagados. Se escolher \'Tratar ficheiros como OK\', os ficheiros serão movidos para a directoria normalmente. Por outro lado, os administradores serão alertados que o clam falhou. Se escolheu \'Tratar ficheiros como vírus\' e por algum motivo o clam falhou no arranque (normalmente porque introduziu mal o caminho para chamar o clam), TODOS os ficheiros aos quais fez o envio serão movidos para a área de quarentena dada ou apagados. Tenha muito cuidado com esta configuração.';
+$string['configcookiehttponly'] = 'Habilita uma nova funcionalidade do PHP 5.2.0 - pede-se aos navegadores que enviem   a cookie apenas com pedidos http reais, já que as cookies não deverão ser accesíveis aos scripts. Não existe suporte para isso em todos os navegadores e poderá não ser totalmente compatível com o código actual. Ajuda a evitar algum tipo de ataques XSS.';
+$string['configcookiesecure'] = 'Se o servidor estiver a aceitar apenas ligações https, recomenda-se activar o envio seguro de cookies. Uma vez activo, verifique que o servidor não estiver a aceitar pedidos http:// ou faça com que sejam redireccionados permanentemente para o endereço https://. Quando o endereço <em>wwwroot</em> não começar por https://, esta configuração é desactivada automaticamente.';
 $string['configcountry'] = 'Se definir um País aqui, então este País será seleccionado por omissão em novas contas de utilizadores. Para forçar os utilizadores a escolher o País, não coloque nada.';
 $string['configcoursemanager'] = 'Este campo permite-lhe ao controlar quem aparece na descrição da disciplina. Os utilizadores necessitam de ter pelo menos um destes cargos para aparecerem na descrição da disciplina.';
 $string['configcoursesperpage'] = 'Escreva o número de disciplinas a ser mostradas por página, na lista de disciplinas.';
@@ -214,10 +217,13 @@ $string['configsitepolicy'] = 'Se tiver uma política de acesso ao sítio, a qua
 $string['configslasharguments'] = 'Os ficheiros (imagens, mensagens enviadas, etc) são fornecidos por um script que utiliza \'slash arguments\' (a segunda opção aqui). Este método permite que os ficheiros sejam mais facilmente colocados em cache nos web browsers, servidores proxy, etc. Infelizmente, alguns servidores PHP não permitem este método, por isso se tiver problemas a ver ficheiros carregados ou imagens (Ex: Imagem dos utilizadores), coloque esta variável na Primeira opção.';
 $string['configsmartpix'] = 'Com esta opção activada, os ícones são pesquisados através de um script PHP que procura primeiro o tema actual, depois todos os temas pais, depois a pasta Moodle /pix. Isto reduz a necessidade de duplicar ficheiros de imagens dentro dos temas, mas tem alguns custos a nível de performance.';
 $string['configsmtphosts'] = 'Dê o nome completo de uma ou mais localizações de dos servidores SMPT que o Moodle irá utilizar para enviar correio electrónico (EX: \'mail.a.com\' ou \'mail.a.com;mail.b.com\'). Se deixar em branco, o Moodle irá utilizar o método por defeito do PHP para enviar correio electrónico.';
+$string['configsmtpmaxbulk'] = 'Número máximo de mensagens enviadas por sessão SMTP. Agrupando as mensagens pode acelerar o envio de correio electrónico. Valores inferiores a 2 obrigam à criação de novas sessões SMTP para cada mensagem.';
 $string['configsmtpuser'] = 'Especificou acima um servidor SMTP e o servidor requer autenticação. Digite então aqui o nome de utilizador e senha.';
 $string['configstartwday'] = 'Início da semana';
+$string['configstatscatdepth'] = 'O código de estatísticas usa uma lógica simplificada de inscrição nas disciplinas; as revogações são ignoradas e existe um número máximo de categorias ascendentes verificadas. Um número 0 implica detecção de cargos atribuídos directamente nos níveis do sítio e da disciplina; 1 implica  também detecção de cargos atribuídos na categoria de disciplinas ascendente, etc. Números maiores produzem cargas mais elevadas do servidor da base de dados durante o processamento das estatísticas.';
 $string['configstatsfirstrun'] = 'Aqui especifica qual a antiguidade dos logs que irão ser processados <strong>na primeira vez</strong> que o cronjob quiser processar as estatísticas. Se tiver muito tráfego e estiver com um servidor partilhado, não será muito aconselhado apanhar logs muito antigos, pois demorará muito tempo e consumir-lhe-à muitos recursos. (Repare que para esta definição, 1 Mês = 28 Dias. No gráfico e relatórios gerados, 1 Mês = 1 Mês do Calendário)';
 $string['configstatsmaxruntime'] = 'Ao serem processadas, as estatísticas poderão ser muito intensas, por isso utilize uma combinação deste campo com o próximo para especificar quando irá correr e durante quanto tempo.';
+$string['configstatsmaxruntime2'] = 'O processamento de estatísticas pode ser bastante intenso; defina um tempo máximo permitido para a obtenção de estatísticas de um dia. O número máximo de dias processados por cada execução do cron é de 3.';
 $string['configstatsruntimestart'] = 'A que horas deverá <strong>começar</strong> o cronjob que faz o processamento das estatísticas?';
 $string['configstatsuserthreshold'] = 'Se digitar um valor que não seja zero, ou não numérico, aqui, para a classificação das disciplinas, as disciplinas com menos que esse número de utilizadores inscritos (alunos + professores) serão ignoradas';
 $string['configsupportemail'] = 'Este endereço de correio electrónico será divulgado aos utilizadores deste sítio, como o endereço de contacto para pedidos de ajuda (por exemplo, quando os utilizadores criarem as suas próprias contas). Se este endereço estiver em branco, não será dado nenhum contacto para ajuda.';
@@ -235,6 +241,8 @@ $string['configxmlstrictheaders'] = 'Se activar esta opção, cada página será
 $string['configzip'] = 'Indique o local onde está o seu programa de Unzip (Apenas Unix, opcional). Se especificado, será utilizado para descompactar ficheiros para o seu servidor. Se deixar em branco, então o Moodle utilizará rotinas internas.';
 $string['confirmation'] = 'Confirmação';
 $string['confirminstall'] = 'Está prestes a instalar o pacote linguístico ($a). Tem a certeza?';
+$string['cookiehttponly'] = 'Unicamente cookies http';
+$string['cookiesecure'] = 'Unicamente cookies seguras';
 $string['country'] = 'País por omissão';
 $string['coursemanager'] = 'Responsáveis da disciplina.';
 $string['coursemgmt'] = 'Adicionar/editar disciplinas';
@@ -626,9 +634,11 @@ $string['sitesectionhelp'] = 'Quando seleccionado, uma secção de tópico será
 $string['slasharguments'] = 'Usar argumentos com barras inclinadas';
 $string['smartpix'] = 'Procura inteligente de ícones';
 $string['smtphosts'] = 'Servidores de SMTP';
+$string['smtpmaxbulk'] = 'Limite para sessões SMTP';
 $string['smtppass'] = 'Senha de SMTP';
 $string['smtpuser'] = 'Nome de utilizador SMTP';
 $string['stats'] = 'Estatísticas';
+$string['statscatdepth'] = 'Número máximo de categorias ascendentes';
 $string['statsfirstrun'] = 'Intervalo máximo de processamento';
 $string['statsmaxruntime'] = 'Tempo máximo de execução';
 $string['statsruntimestart'] = 'Executar em';
@@ -675,6 +685,18 @@ $string['upgradesettingsintro'] = 'As configurações que se mostram a seguir fo
 $string['upgradesure'] = 'Os seus ficheiros Moodle foram alterados, e está prestes a fazer a actualização do seu servidor para esta versão: <br /><br /><strong>$a</strong> <br /><br />Assim que fizer isto já não poderá voltar atrás. <br /><br />Tem a certeza que quer actualizar este servidor para essa versão?';
 $string['upgradingdata'] = 'Dados em actualização';
 $string['upgradinglogs'] = 'Actualizando estatísticas';
+$string['uploadpicture_baduserfield'] = 'O atributo de utilizador dado não é válido. Por favor tente novamente.';
+$string['uploadpicture_cannotmovezip'] = 'Não é possível deslocar o ficheiro zip para o directório temporário.';
+$string['uploadpicture_cannotprocessdir'] = 'Não é possível processar ficheros descompactado.';
+$string['uploadpicture_cannotsave'] = 'Não é possível gravar fotografia para o utilizador $a. Verifique o ficheiro original da fotografia.';
+$string['uploadpicture_cannotunzip'] = 'Não é possível descompactar ficheiro de fotografias.';
+$string['uploadpicture_invalidfilename'] = 'O ficheiro de fotografias $a tem caracteres não válidos no seu nome. Ignorado.';
+$string['uploadpicture_overwrite'] = 'Substituir fotografias de utilizadores existentes?';
+$string['uploadpicture_userfield'] = 'Atributo de utilizador a ser usado para atribuir fotografias:';
+$string['uploadpicture_usernotfound'] = 'Não existe um utilizador com o valor \'$a->uservalue\' no campo \'$a->userfield\'. Ignorado.';
+$string['uploadpicture_userskipped'] = 'A ignorar o utilizador $a (já tem fotografia)';
+$string['uploadpicture_userupdated'] = 'Fotografia para o utilizador $a actualizada.';
+$string['uploadpictures'] = 'Carregar fotografias de utilizadores';
 $string['uploaduserspreview'] = 'Enviar vista prévia de utilizadores';
 $string['uploadusersresult'] = 'Enviar resultados de utilizadores';
 $string['upwards'] = 'Para cima';
@@ -718,6 +740,7 @@ $string['validateerror'] = 'Este valor não foi válido:';
 $string['warningcurrentsetting'] = 'Valor actual inválido: $a';
 $string['webproxy'] = 'Proxy Web';
 $string['webproxyinfo'] = 'Preencha as seguintes definições se o seu servidor Moodle não poder aceder à Internet directamente. O acesso à Internet é necessário para descarregar dados do ambiente, pacotes linguísticos, fusos horários, etc.<br /><em>Recomenda-se vivamente usar a extensão cURL do PHP.</em>';
+$string['xmlrpcrecommended'] = 'A instalação da extensão opcional xmlrpc é útil para a Rede Moodle.';
 $string['xmlstrictheaders'] = 'Cabeçalhos XML estritos';
 
 ?>
