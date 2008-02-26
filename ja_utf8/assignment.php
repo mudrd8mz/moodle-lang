@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101508.04)
+      // assignment.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -74,6 +74,7 @@ $string['noassignments'] = '課題はまだありません。';
 $string['noattempts'] = 'この課題はまだ提出されていません。';
 $string['nofiles'] = 'ファイルが提出されていません。';
 $string['nofilesyet'] = 'ファイルはまだ提出されていません。';
+$string['nomoresubmissions'] = 'これ以上の課題提出は許可されていません。';
 $string['nosubmitusers'] = 'この課題を提出できるパーミッションのユーザは見つかりませんでした。';
 $string['notavailableyet'] = '申し訳ございません、この課題はまだ利用できません。<br />課題のインストラクションは、下記の開始日時以降、ここに表示されます。';
 $string['notes'] = 'メモ';
@@ -81,7 +82,7 @@ $string['notesempty'] = 'エントリなし';
 $string['notesupdateerror'] = 'メモの更新中にエラーが発生しました。';
 $string['notgradedyet'] = '未評価';
 $string['notsubmittedyet'] = '未提出';
-$string['onceassignmentsent'] = '採点のため課題を提出すると、あなたはファイルを削除または添付することができません。本当に続けてもよろしいですか?';
+$string['onceassignmentsent'] = '採点のために課題を提出すると、あなたはファイルを削除または添付することができません。本当に続けてもよろしいですか?';
 $string['overwritewarning'] = '注意: 再度アップロードすることにより現在の提出課題は置き換えられます。';
 $string['pagesize'] = '1ページあたりの提出課題数';
 $string['preventlate'] = '提出期限後の課題提出を禁止する';
@@ -89,7 +90,7 @@ $string['quickgrade'] = 'クイック評定を有効にする';
 $string['responsefiles'] = 'レスポンスファイル';
 $string['reviewed'] = 'レビュー済み';
 $string['saveallfeedback'] = 'すべてのフィードバックを保存する';
-$string['sendformarking'] = '採点のため送信する';
+$string['sendformarking'] = '採点のために送信する';
 $string['showrecentsubmissions'] = '最近の課題提出を表示する';
 $string['submission'] = '提出課題';
 $string['submissiondraft'] = '提出課題の下書き';
@@ -98,10 +99,11 @@ $string['submissions'] = '提出課題';
 $string['submissionsaved'] = '変更内容が保存されました。';
 $string['submissionsnotgraded'] = '$a 件の提出課題が評定されていません。';
 $string['submitassignment'] = 'このフォームを使用して課題を提出する';
-$string['submitedformarking'] = 'すでに採点のため提出されているので、課題を更新することはできません。';
-$string['submitformarking'] = '採点のため課題を最終提出する';
+$string['submitedformarking'] = 'すでに課題は採点のために提出されています。更新することはできません。';
+$string['submitformarking'] = '課題採点のために最後の提出を送信する';
 $string['submitted'] = '提出';
 $string['submittedfiles'] = '提出ファイル';
+$string['trackdrafts'] = '「採点のために送信する」ボタンを有効にする';
 $string['typeoffline'] = 'オフライン活動';
 $string['typeonline'] = 'オンラインテキスト';
 $string['typeupload'] = 'ファイルの高度なアップロード';
