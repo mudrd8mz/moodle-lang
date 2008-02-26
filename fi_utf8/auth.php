@@ -130,7 +130,7 @@ $string['auth_updateremote_expl'] = '<p><b>Päivitä ulkoinen tieto:</b> Jos tä
 $string['auth_updateremote_ldap'] = '<p><b>Huomautus:</b> Ulkoisen LDAP tiedon päivitys vaatii, että asetetaan binddn ja bindpw
 kaikilla sidoskäyttäjille muotoiluoikeus kaikkiin käyttäjärekistereihin. Se ei tällä hetkellä säilytä moniarvoisia määreitä, eikä poista ylimääräisiä arvoja päivityksessä. </p>';
 $string['auth_user_create'] = 'Käyttäjän luonti';
-$string['auth_user_creation'] = 'Käyttäjät voivat itse luoda tunnuksensa. Käyttäjätiedot tarkistetaan sähköpostin avulla. Jos aktivoit tämän vaihtoehdon, muista myös määritellä autentikointi-modulin muut tähän liittyvät asetukset.';
+$string['auth_user_creation'] = 'Käyttäjät voivat itse luoda tunnuksensa. Käyttäjätiedot tarkistetaan sähköpostin avulla. Jos aktivoit tämän vaihtoehdon, muista myös määritellä kayttäjäntunnistuksen muut tähän liittyvät asetukset.';
 $string['auth_usernameexists'] = 'Käyttäjätunnus on jo käytössä. Valitse joku toinen.';
 $string['authenticationoptions'] = 'Käyttäjätunnistuksen asetukset';
 $string['authinstructions'] = 'Tähän voi kirjoittaa ohjeet opiskelijoille, mitä tunnusta ja salasanaa heidän tulisi käyttää. Tämä teksti näkyy kirjautumissivulla.';
