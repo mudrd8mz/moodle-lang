@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508)
+      // admin.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -53,6 +53,7 @@ $string['clamfailureonupload'] = 'Als Clam AV faalt';
 $string['cleanup'] = 'Opschonen';
 $string['commonsettings'] = 'Algemene instellingen';
 $string['componentinstalled'] = 'Onderdeel geïnstalleerd';
+$string['computedfromlogs'] = 'Berekend uit logs sinds $a';
 $string['confeditorhidebuttons'] = 'Kies de knoppen die in de HTML-editor verborgen moeten zijn.';
 $string['configallowassign'] = 'De rollen aan de linkerkant toestaan de rollen in elke kolom toe te wijzen';
 $string['configallowcategorythemes'] = 'Als je dit inschakelt, dan kunnen thema\'s op categorieniveau gekozen worden. Die keuze wordt dan doorgetrokken naar alle onderliggende categorieën en cursussen, tenzij daar een eigen thema ingesteld is. WAARSCHUWING: het inschakelen van categoriethema\'s kan de performantie negatief beïnvloeden.';
@@ -75,6 +76,8 @@ $string['configcachetype'] = 'Kies een Cache type voor Moodle. Deze instelling z
 $string['configclamactlikevirus'] = 'Behandel bestanden als virussen';
 $string['configclamdonothing'] = 'Behandel bestanden als OK';
 $string['configclamfailureonupload'] = 'Als je clam geconfigureerd hebt om geüploade bestanden op virussen te scannen, maar het is slecht geconfigureerd of loopt niet om één of andere reden, hoe moet Moodle zich dan gedragen? Als je kiest voor \"Behandel alle bestanden als virussen\", dan zullen alle bestanden naar de quarantainezone  verplaatst worden of verwijderd worden. Als je kiest voor \"Behandel bestanden als OK\", dan zullen de bestanden naar de bedoelde map verplaatst worden zoals normaal. In beide gevallen wordt de beheerder op de hoogte gebracht van het slecht werken van clam. Als je kiest voor \"Behandel bestanden als virussen\" en om één of andere reden werkt clam niet (gewoonlijk omdat je een verkeerd pad naar clam gegeven hebt), dan zullen ALLE geüploade bestanden naar de quarantainezone verplaatst worden of verwijderd worden. Wees voorzichtig met deze instelling.';
+$string['configcookiehttponly'] = 'Schakelt nieuwe PHP 5.2.0-mogelijkheid in - browsers moeten cookies alleen met echte http-requests verzenden, cookies zouden niet toegankelijk mogen zijn voor script-talen. Dit wordt niet in alle browsers ondersteund en het is mogelijk dat het nog niet compatibel is met alle huidige code. Het helpt sommige types van XSS-aanvallen te voorkomen.';
+$string['configcookiesecure'] = 'Als de server alleen https-verbindingen aanvaardt, dan is het aangeraden om het versturen van secure cookies in te schakelen. Als dit ingeschakeld is, zorg er dan voor dat de webserver geen http:// toelaat of zet een permanente redirectie op naar een https://-adres. Wanneer het <em>wwwroot</em> niet begint met https://, dan wordt deze instelling automatisch uitgeschakeld.';
 $string['configcountry'] = 'Als je hier een land invult, wordt dit land als standaard geselecteerd bij nieuwe gebruikersaccounts. Laat dit veld gewoon leeg om gebruikers te dwingen een land te kiezen.';
 $string['configcoursemanager'] = 'Deze instelling maakt het mogelijk te controleren wie je toont in de cursusbeschrijving. Gebruikers moeten minstens één van deze rollen in een cursus hebben om getoond te worden in de cursusbeschrijving van een bepaalde cursus.';
 $string['configcoursesperpage'] = 'Geef het maximum aantal cursussen per pagina in een cursuslijst';
