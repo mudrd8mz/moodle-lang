@@ -380,6 +380,7 @@ $string['deletedcourse'] = '$a සම්පූර්ණයෙන්ම මකන
 $string['deletednot'] = '$a මැකීමට නොහැකි විය.';
 $string['deletelogs'] = 'ලොගයන් ඉවත් කරන්න';
 $string['deleteselected'] = 'තෝරාගත් දෙය මකන්න';
+$string['deleteselectedkey'] = 'තෝරාගත් යතුර ඉවත් කරන්න';
 $string['deletingcourse'] = '$a මකමින් පවතී / $a මැකීම.';
 $string['deletingexistingcoursedata'] = 'පවතින පාඨමාලා දත්ත මැකෙමින් පවතී /මැකීම.';
 $string['deletingolddata'] = 'පරණ දත්ත මැකෙමින් පවතී / මැකීම';
