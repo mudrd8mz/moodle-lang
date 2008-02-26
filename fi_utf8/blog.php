@@ -44,6 +44,7 @@ $string['settingsupdatederror'] = 'Blogin asetuksia ei voitu muuttaa tapahtuneen
 $string['siteblog'] = 'Sivuston blogi: $a';
 $string['siteblogs'] = 'Kaikki käyttäjät näkevät kaikki blogit';
 $string['tagdatelastused'] = 'Päiväys jolloin merkintää on viimeksi käytetty';
+$string['tags'] = 'Tunnisteet';
 $string['tagsort'] = 'Lajittele tunnisteet';
 $string['tagtext'] = 'Tunnisteen teksti';
 $string['timewithin'] = 'Näytä tunnisteet joita on käytetty viimeisen päivän sisällä';

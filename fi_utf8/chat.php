@@ -35,6 +35,7 @@ $string['messagebeepsyou'] = '$a on juuri kutsunut sinua!';
 $string['messageenter'] = '$a on juuri tullut mukaan chattiin';
 $string['messageexit'] = '$a on lopettanut chatin';
 $string['messages'] = 'Viestit';
+$string['method'] = 'Chat-tapa';
 $string['methoddaemon'] = 'Chat-palvelu';
 $string['methodnormal'] = 'Normaali toiminta';
 $string['modulename'] = 'Chat';
