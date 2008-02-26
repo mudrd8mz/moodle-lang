@@ -177,7 +177,7 @@ $string['parentofthispost'] = 'Ascendente desta mensagem';
 $string['postadded'] = '<p>A sua mensagem foi inserida com sucesso.</p><p>Tem $a para a editar se quiser fazer alterações.</p>';
 $string['postincontext'] = 'Ver mensagem no seu contexto';
 $string['postmailinfo'] = 'Esta é uma cópia de uma mensagem enviada para o sítio web de $a.
-Para enviar uma resposta para o fórum, use o vínculo que se segue:';
+Para enviar uma resposta para o fórum, use o apontador que se segue:';
 $string['postmailnow'] = '<p>Esta mensagem será enviada imediatamente a todos os subscritores do fórum.</p>';
 $string['postrating1'] = 'Contribui principalmente para a aprendizagem INDIVIDUAL';
 $string['postrating2'] = 'Aprendizagem Individual e Colectiva por igual';

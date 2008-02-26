@@ -350,7 +350,7 @@ $string['datemostrecentfirst'] = 'Data - mais recente(s) primeiro';
 $string['datemostrecentlast'] = 'Data - mais recente(s) no fim';
 $string['day'] = 'dia';
 $string['days'] = 'dias';
-$string['decodinginternallinks'] = 'A descodificar vínculos internos';
+$string['decodinginternallinks'] = 'A descodificar apontadores internos';
 $string['default'] = 'Valor por omissão';
 $string['defaultcoursefullname'] = 'Nome completo da disciplina';
 $string['defaultcourseshortname'] = 'DISC101';
@@ -557,7 +557,7 @@ para criar uma nova senha que lhe será enviada para esse endereço.';
 $string['entries'] = 'Entradas';
 $string['error'] = 'Erro';
 $string['errortoomanylogins'] = 'Desculpe, mas excedeu o número permitido de tentativas de acesso. Terá que reiniciar o seu navegador.';
-$string['errorwhenconfirming'] = 'A sua conta ainda não está confirmada porque ocorreu um erro. Se clicou num vínculo numa mensagem para chegar aqui, assegure-se de que não havia um parágrafo ou retorno de linha na linha da sua mensagem. Tem que usar \"cortar-colar\" para reconstruir o vínculo completo.';
+$string['errorwhenconfirming'] = 'A sua conta ainda não está confirmada porque ocorreu um erro. Se clicou num apontador numa mensagem para chegar aqui, assegure-se de que não havia um parágrafo ou retorno de linha na linha da sua mensagem. Tem que usar \"cortar-colar\" para reconstruir o apontador completo.';
 $string['everybody'] = 'Todos';
 $string['executeat'] = 'Executar em';
 $string['existing'] = 'Existente';
@@ -828,7 +828,7 @@ $string['loginsteps'] = 'Viva!<br />
 <ol>
 <li>Preencha o <a href=$a>formulário</a> de nova conta com os seus dados.</li>
 <li>Será enviada imediatamente uma mensagem para o seu endereço de correio.</li>
-<li>Leia essa mensagem e visite o vínculo fornecido para confirmar o registo e poder entrar no sítio.</li>
+<li>Leia essa mensagem e visite o apontador fornecido para confirmar o registo e poder entrar no sítio.</li>
 <li>A seguir poderá seleccionar a disciplina na qual se quer inscrever.</li>
 <li>Se precisar de uma \"chave de inscrição\", terá que usara a chave indicada pelo seu professor.</li>
 <li>A seguir já terá acesso completo à disciplina. A partir de agora só precisará de entrar com o seu nome de utilizador e senha (no formulário
@@ -966,7 +966,7 @@ A informação actual da sua conta de utilizador é:
 Por favor visite a página que se segue, para modificar a senha provisória:
   $a->link
 
-Em muitos leitores de correio bastará clicar sobre o vínculo acima.
+Em muitos leitores de correio bastará clicar sobre o apontador acima.
 Se isso não funcionar, recorte e cole o endereço na barra de endereço do seu
 navegador.
 
@@ -995,7 +995,7 @@ chave quando entrar pela primeira vez)
 Para começar a usar $a->sitename, entre em:
 $a->link
 
-Na maior parte dos programas de correio electrónico o vínculo anterior deverá aparecer sublinhado permitindo-lhe visitar essa página com um simples clique. Se isso não funcionar, copie o endereço para o campo de endereços no topo do seu navegador.
+Na maior parte dos programas de correio electrónico o apontador anterior deverá aparecer sublinhado permitindo-lhe visitar essa página com um simples clique. Se isso não funcionar, copie o endereço para o campo de endereços no topo do seu navegador.
 
 Cumprimentos do administrador de $a->sitename,
 $a->signoff
@@ -1104,7 +1104,7 @@ $string['participationreport'] = 'Relatório de participação';
 $string['password'] = 'Senha';
 $string['passwordchanged'] = 'Senha modificada';
 $string['passwordconfirmchange'] = 'Confirme alteração de senha';
-$string['passwordextlink'] = 'O seguinte vínculo permite-lhe substituir a sua senha esquecida. Este vínculo conduz para o sítio Moodle que está utilizar.';
+$string['passwordextlink'] = 'O seguinte apontador permite-lhe substituir a sua senha esquecida. Este apontador conduz para o sítio Moodle que está utilizar.';
 $string['passwordforgotten'] = 'Senha esquecida';
 $string['passwordforgotteninstructions'] = 'Primeiro teremos que identificar os seus dados na base de dados. Por favor diga-nos <strong>algum dos dois dados seguintes</strong> no campo respectivo: o seu nome de utilizador no sítio Moodle, ou o endereço de correio electrónico com que está registado. Não é preciso indicar as duas coisas.';
 $string['passwordnohelp'] = 'No é possível ajudar a recuperar a sua senha perdida. Por favor entre em contacto com o administrador do sítio Moddle que está a utilizar.';
@@ -1160,7 +1160,7 @@ $string['profile'] = 'Perfil';
 $string['publicdirectory'] = 'Directório público';
 $string['publicdirectory0'] = 'Não publique este sítio';
 $string['publicdirectory1'] = 'Publique apenas o nome do sítio';
-$string['publicdirectory2'] = 'Publique o nome do sítio com um vínculo';
+$string['publicdirectory2'] = 'Publique o nome do sítio com um apontador';
 $string['publicdirectorytitle'] = 'Ver a lista actual de sítios';
 $string['publicsitefileswarning'] = 'Nota: Os ficheiros aqui colocados poderão ser acedidos por todos';
 $string['question'] = 'Questão';
@@ -1244,7 +1244,7 @@ $string['scalescustomcreate'] = 'Adicionar uma nova escala';
 $string['scalescustomno'] = 'Ainda não foram criadas escalas personalizadas';
 $string['scalesstandard'] = 'Escalas por defeito';
 $string['scalestandard'] = 'Escala padrão';
-$string['scalestip'] = 'Para criar escalas personalizadas, use o vínculo \'Escalas...\' no menu de administração da sua disciplina.';
+$string['scalestip'] = 'Para criar escalas personalizadas, use o apontador \'Escalas...\' no menu de administração da sua disciplina.';
 $string['schedule'] = 'Horário';
 $string['scheduledbackupsinactive'] = 'O administrador do sítio não tem activado cópias de segurança programadas';
 $string['scheduledbackupstatus'] = 'Estado de cópias de segurança programadas';
@@ -1265,7 +1265,7 @@ $string['secondstotime432000'] = '5 dias';
 $string['secondstotime518400'] = '6 dias';
 $string['secondstotime604800'] = '1 semana';
 $string['secondstotime86400'] = '1 dia';
-$string['secretalreadyused'] = 'A senha não foi alterada, porque o vínculo para confirmar a sua alteração já foi utilizado.';
+$string['secretalreadyused'] = 'A senha não foi alterada, porque o apontador para confirmar a sua alteração já foi utilizado.';
 $string['secs'] = 'segundos';
 $string['section'] = 'Secção';
 $string['sections'] = 'Secções';
