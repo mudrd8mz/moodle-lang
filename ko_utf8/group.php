@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (2007101506)
+      // group.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
@@ -13,7 +13,7 @@ $string['backtogroups'] = '모둠으로 돌아감';
 $string['badnamingscheme'] = '한개의 \'@\'나 한개의\'#\'을 포함해야 합니다.';
 $string['byfirstname'] = '이름, 성 순서로';
 $string['byidnumber'] = 'ID번호 순서로';
-$string['bylastname'] = '성,이름 순서로';
+$string['bylastname'] = '성, 이름 순서로';
 $string['createautomaticgrouping'] = '자동 모둠무리 생성';
 $string['creategroup'] = '모둠 생성';
 $string['creategrouping'] = '모둠무리 생성';
@@ -56,7 +56,7 @@ $string['groupingsonly'] = '모둠무리만';
 $string['groupmember'] = '모둠 구성원';
 $string['groupmemberdesc'] = '모둠 구성원에 대한 기본 역할';
 $string['groupmembers'] = '모둠 구성원';
-$string['groupmembersonly'] = '모둠 구성원에게만 개방';
+$string['groupmembersonly'] = '모둠 구성원만 사용가능';
 $string['groupmembersonlyerror'] = '죄송합니다만, 이 활동을 하기 위해서는 최소한 어떤 모둠의 구성원이라야만 합니다.';
 $string['groupmemberssee'] = '모둠 구성원 보기';
 $string['groupmembersselected'] = '선택한 모둠의 구성원';
