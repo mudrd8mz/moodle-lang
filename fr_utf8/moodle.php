@@ -378,6 +378,7 @@ $string['deletedcourse'] = '$a a été entièrement supprimé';
 $string['deletednot'] = 'Impossible de supprimer $a !';
 $string['deletelogs'] = 'Supprimer les historiques';
 $string['deleteselected'] = 'Supprimer les éléments sélectionnés';
+$string['deleteselectedkey'] = 'Supprimer la clef sélectionnée';
 $string['deletingcourse'] = 'Suppression de $a';
 $string['deletingexistingcoursedata'] = 'Suppression des données d\'un cours existant';
 $string['deletingolddata'] = 'Suppression des anciennes données';
