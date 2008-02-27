@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // emailprotect.php - created with Moodle 1.6 + (2006050507)
+      // enrol_manual.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['enrolname'] = 'අභ්‍යන්තර ලියාපදිංචිය';
+$string['keyholderrole'] = 'පාඨමාලාවක් සඳහා ලියාපදිංචි යතුරක් ඇති පරිශීලකයෙකුගේ භූමිකාව. පාඨමාලාවේ ලියාපදිංචි වීම සඳහා උත්සාහ දරණ ශිෂ්‍යයන්ට දර්ශනය කරනු ලැබේ.';
 
 ?>
