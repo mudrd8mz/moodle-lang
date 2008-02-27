@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // admin.php - created with Moodle 1.9 Beta 4 + (2007101508.07)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -9,14 +9,14 @@ $string['adminseesallevents'] = 'Gli Amministratori  visualizzano tutti gli even
 $string['adminseesownevents'] = 'Gli Amministratori sono come tutti gli altri utenti';
 $string['allowcategorythemes'] = 'Consenti la scelta dei temi per le categorie';
 $string['allowcoursethemes'] = 'Consenti la scelta dei temi all\'interno dei corsi';
-$string['allowdeletes'] = 'Consenti cancellazioni';
+$string['allowdeletes'] = 'Consenti eliminazioni';
 $string['allowemailaddresses'] = 'Domini di posta autorizzati';
 $string['allowobjectembed'] = 'Consenti i tag EMBED e OBJECT';
 $string['allowrenames'] = 'Consenti di rinominare';
 $string['allowuserblockhiding'] = 'Consenti agli utenti di nascondere i blocchi';
-$string['allowusermailcharset'] = 'Consenti all\'utente di scegliere il set di caratteri';
-$string['allowuserthemes'] = 'Consenti all\'utente la scelta dei temi';
-$string['allowvisiblecoursesinhiddencategories'] = 'Consenti visibilità corsi in categorie nascoste';
+$string['allowusermailcharset'] = 'Consenti agli utenti di scegliere il set di caratteri';
+$string['allowuserthemes'] = 'Consenti agli utenti ldi scegliere il tema';
+$string['allowvisiblecoursesinhiddencategories'] = 'Consenti l\'accesso ai corsi presenti in categorie nascoste';
 $string['antivirus'] = 'Antivirus';
 $string['appearance'] = 'Aspetto';
 $string['aspellpath'] = 'Percorso d\'accesso ad aspell';
@@ -27,7 +27,7 @@ $string['autologinguests'] = 'Login automatico per gli ospiti';
 $string['availablelangs'] = 'Language Pack disponibili';
 $string['backgroundcolour'] = 'Colore trasparente';
 $string['backups'] = 'Backup';
-$string['badwordsconfig'] = 'Inserire l\'elenco delle parole da censurare. Separate ciascuna parola con la virgola.';
+$string['badwordsconfig'] = 'Inserire l\'elenco personalizzato delle parole da censurare. Separate ciascuna parola con la virgola.';
 $string['badwordsdefault'] = 'Se l\'elenco personalizzato è vuoto, verrà  utilizzato l\'elenco standard.';
 $string['badwordslist'] = 'Elenco personalizzato delle parole censurate';
 $string['blockinstances'] = 'Istanze';
@@ -42,8 +42,8 @@ $string['cachetext'] = 'Durata della cache del testo';
 $string['cachetype'] = 'Tipo di cache';
 $string['calendar_weekend'] = 'Giorni del weekend';
 $string['calendarsettings'] = 'Calendario';
-$string['cfgwwwrootslashwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo non corretto. E\' stato incluso un carattere \'/\' alla fine. Deve essere rimosso o si verificheranno strani errori come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
-$string['cfgwwwrootwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo non corretto. Non corrisponde al URL usato per accedere a questa pagina. Deve essere corretto o si verificheranno strani errori come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootslashwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. E\' stato incluso un carattere \'/\' alla fine. Deve essere rimosso o si verificheranno errori insoliti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. Non corrisponde al URL usato per accedere a questa pagina. Deve essere modificato o si verificheranno errori insoliti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'cambia';
 $string['changesitelang'] = 'Cambia la lingua del sito';
 $string['checkboxno'] = 'No';
@@ -53,6 +53,7 @@ $string['clamfailureonupload'] = 'In caso di errore di clam AV';
 $string['cleanup'] = 'Pulizia';
 $string['commonsettings'] = 'Impostazioni comuni';
 $string['componentinstalled'] = 'Componente installato';
+$string['computedfromlogs'] = 'Calcolato da log a partire da $a';
 $string['confeditorhidebuttons'] = 'Seleziona i pulsanti che non vanno mostrati nell\'editor HTML';
 $string['configallowassign'] = 'Permetti ai ruoli sulla sinistra di assegnare i ruoli in ogni colonna';
 $string['configallowcategorythemes'] = 'Abilitando questa opzione, i temi possono essere impostati a livello di categoria. Questo influenzerà tutte le categorie dipendenti e i relativi corsi a meno che gli stessi non abbiamo in modo specifico impostato il proprio tema. ATTENZIONE: L\'abilitazione dei temi di categoria può influenzare le prestazioni.';
@@ -77,6 +78,8 @@ $string['configclamfailureonupload'] = 'Se avete configurato Clam antivirus per 
 In ogni caso, gli Amministratori verranno avvisati se Clam antivirus dovesse fallire.
 
 Se scegliete \'Tratta i files come virus\' e per qualche motivo Clam antivirus dovesse fallire (solitamente perché lo avete inserito in un pathtoclam non valido), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o cancellati. Si consiglia di impostare questa variabile con molta attenzione!';
+$string['configcookiehttponly'] = 'Abilita le caratteristiche del PHP 5.2.0. I browser verrano obbligati ad inviare cookie solo tramite protocollo http, in modo da non consentire l\'accesso ai cookie da linguaggi di scripting. Non tutti i browser supportano questa caratteristica che potrebbe non essere compatibile con l\'attuale codice. Questa impostazione aiuta a prevenire alcuni tipi di attacchi XSS.';
+$string['configcookiesecure'] = 'Se il server accetta solamente connessioni https, allora è opportuno abilitare l\'invio di cookie sicuri. Se abilitate questa impostazione, accertatevi che il server web non accetti connessioni http://, oppure impostate un reindirizzamento permanente al protocollo https://. Nel caso in cui l\'indirizzo specificato per <em>wwwroot</em> nelal config.php non contenga https://, questa impostazione sarà automaticamente disabilitata.';
 $string['configcountry'] = 'Se scegliete uno Stato qui, questo verrà  proposto di default. Per obbligare un utente a scegliere il proprio stato, lasciatelo in bianco.';
 $string['configcoursemanager'] = 'Questa impostazione permette di controllare chi appare nella descrizione del corso. Gli utenti devono avere almeno uno di questi ruoli in un corso per essere mostrati nella descrizione di quel corso.';
 $string['configcoursesperpage'] = 'Numero di corsi da mostrare per pagina in un elenco dei corsi';
@@ -369,7 +372,7 @@ $string['forceloginforprofiles'] = 'Imponi il login per i profili';
 $string['forcetimezone'] = 'Forza il fuso orario di default';
 $string['framename'] = 'Nome del frame';
 $string['frontpage'] = 'Pagina principale';
-$string['frontpagebackup'] = 'Copia di sicurezza';
+$string['frontpagebackup'] = 'Backup';
 $string['frontpagedefaultrole'] = 'Ruolo default pagina principale';
 $string['frontpageloggedin'] = 'Elementi della pagina principale dopo il login';
 $string['frontpagequestions'] = 'Domande';
@@ -698,8 +701,15 @@ $string['upgradesure'] = 'I file di Moodle sono modificati, e si sta per aggiorn
 <p><b>$a</b></p>
 <p>Una volta effettuato questo non è possibile tornare indietro.</p>
 <p>Siete sicuri di voler aggiornare questo server a questa versione?</p>';
-$string['upgradingdata'] = 'Dati di aggiornamento';
-$string['upgradinglogs'] = 'Aggiornamento logs';
+$string['upgradingdata'] = 'Aggiornamento dei dati';
+$string['upgradinglogs'] = 'Aggiornamento dei log';
+$string['uploadpicture_cannotprocessdir'] = 'Non è stato possibile elaborare il file zip decompresso.';
+$string['uploadpicture_cannotsave'] = 'Non è stato possibile salvare l\'immagine dell\'utente $a. Controllate le caratteristiche dell\'immagine.';
+$string['uploadpicture_cannotunzip'] = 'Non è possibile decomprimere il file zip contenente le immagini.';
+$string['uploadpicture_overwrite'] = 'Sovrascrivere le immagini utente già esistenti?';
+$string['uploadpicture_userfield'] = 'Identificativo utente da utilizzare per far corrispondere le immagini';
+$string['uploadpicture_userupdated'] = 'Immagine per l\'utente $a caricata.';
+$string['uploadpictures'] = 'Immagini utente';
 $string['uploaduserspreview'] = 'Anteprima caricamento utenti';
 $string['uploadusersresult'] = 'Risultati caricamento utenti';
 $string['upwards'] = 'ed oltre';
@@ -736,6 +746,7 @@ $string['validateerror'] = 'Questo valore non era valido:';
 $string['warningcurrentsetting'] = 'Valore corrente non valido: $a';
 $string['webproxy'] = 'Proxy web';
 $string['webproxyinfo'] = 'Definire i seguenti parametri se il proprio server Moodle non può accedere a internet direttamente. L\'accesso a internet è richiesto per scaricare dati di ambiente, language packs, feed RSS, timezones, ecc.<br /><em>L\'estensione PHP cURL è fortemente raccomandata.</em>';
+$string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlrpc è utile per le funzionalità del Moodle Networking.';
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
 $string['configenablerecordcache'] = 'Se si abilita questa impostazione, sarà effettuato del caching in memoria durante la ricerca di informazioni da un database. Questo significa che la velocità di funzionamento del database sarà maggiore, ma nello stesso tempo, i requisiti di memoria del web server aumenteranno leggermente. Generalmente si consiglia di abilitare questa impostazione salvo nel caso in cui il server abbia poca memoria. Alcuni processi possono decidere di non tener conto di questa impostazione quando il programmatore è sicuro di un miglioramento delle prestazioni.'; // ORPHANED
 

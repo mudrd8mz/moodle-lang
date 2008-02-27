@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // data.php - created with Moodle 1.9 Beta 4 + (2007101508.07)
 
 
 $string['action'] = 'Azione';
@@ -75,6 +75,7 @@ $string['editorenable'] = 'Abilita editor';
 $string['emptyadd'] = 'Il Modello di visualizzazione \"Inserisci\" non è stato impostato. Ne sto generando uno di default...';
 $string['emptyaddform'] = 'Non hai riempito nessun campo!';
 $string['entries'] = 'Record';
+$string['entrieslefttoadd'] = 'Per poter visualizzare i record inseriti dagli altri partecipanti dovete inserire altri $a record.';
 $string['entry'] = 'Record';
 $string['entrysaved'] = 'Il record è stato salvato';
 $string['errormustbeteacher'] = 'Devi avere il ruolo di docente per utilizzare questa pagina!';
