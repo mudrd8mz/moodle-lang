@@ -65,6 +65,7 @@ $string['category'] = 'Catégorie';
 $string['categoryedit'] = 'Modifier catégorie';
 $string['categoryname'] = 'Nom de la catégorie';
 $string['categorytotal'] = 'Total de la catégorie';
+$string['changedefaults'] = 'Modifier les réglages par défaut';
 $string['changereportdefaults'] = 'Modifier les rapports par défaut';
 $string['chooseaction'] = 'Choisir une action...';
 $string['choosecategory'] = 'Choisir une catégorie';
