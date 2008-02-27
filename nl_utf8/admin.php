@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508.05)
+      // admin.php - created with Moodle 2.0 dev (2007101508.07)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -244,6 +244,8 @@ $string['configxmlstrictheaders'] = 'Wanneer dit ingeschakeld is, zal elke pagin
 $string['configzip'] = 'Geef de locatie van je ZIP-programma (alleen voor UNIX). Dit is nodig om ZIP-archieven op de server te maken.';
 $string['confirmation'] = 'Bevestiging';
 $string['confirminstall'] = 'Je gaat het taalpakket ($a) installeren. Verder gaan?';
+$string['cookiehttponly'] = 'Enkel http cookies';
+$string['cookiesecure'] = 'Enkel secure cookies';
 $string['country'] = 'Standaard landinstelling';
 $string['coursemanager'] = 'Cursus beheerders';
 $string['coursemgmt'] = 'Toevoegen/bewerken';
@@ -641,6 +643,7 @@ $string['smtpmaxbulk'] = 'SMTP-sessie limiet';
 $string['smtppass'] = 'SMTP wachtwoord';
 $string['smtpuser'] = 'SMTP gebruikersnaam';
 $string['stats'] = 'Statistieken';
+$string['statscatdepth'] = 'Maximum aantal bovenliggende categorieën';
 $string['statsfirstrun'] = 'Maximaal verwerkingsinterval';
 $string['statsmaxruntime'] = 'Maximum tijd verwerken';
 $string['statsruntimestart'] = 'Start om';
@@ -689,6 +692,12 @@ $string['upgradesure'] = 'De bestanden op je Moodleserver zijn gewijzigd en je g
 <p>Ben je er er zeker van dat je deze server naar die versie wil upgraden?</p>';
 $string['upgradingdata'] = 'Bezig met het upgraden van de gegevens';
 $string['upgradinglogs'] = 'Bezig met upgraden van logs';
+$string['uploadpicture_cannotprocessdir'] = 'Kan uitgepakte bestanden niet verwerken';
+$string['uploadpicture_cannotunzip'] = 'Kan fotobestanden niet uitpakken';
+$string['uploadpicture_overwrite'] = 'Bestaande gebruikersfoto\'s overschrijven?';
+$string['uploadpicture_userfield'] = 'Gebruikersattribuut waaraan foto\'s gekoppeld worden:';
+$string['uploadpicture_userupdated'] = 'Foto geüpdatet voor gebruiker $a';
+$string['uploadpictures'] = 'Upload gebruikersfoto\'s';
 $string['uploaduserspreview'] = 'Voorbeeld uploaden gebruikers';
 $string['uploadusersresult'] = 'Resultaat uploaden gebruikers';
 $string['upwards'] = 'hoger';

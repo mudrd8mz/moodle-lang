@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101508)
+      // moodle.php - created with Moodle 2.0 dev (2007101508.07)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -382,6 +382,7 @@ $string['deletedcourse'] = '$a is volledig verwijderd';
 $string['deletednot'] = 'Kon $a niet verwijderen!';
 $string['deletelogs'] = 'Verwijder logs';
 $string['deleteselected'] = 'Verwijder geselecteerde';
+$string['deleteselectedkey'] = 'Verwijder geselecteerde sleutel';
 $string['deletingcourse'] = '$a verwijderen';
 $string['deletingexistingcoursedata'] = 'Bestaande data van een cursus verwijderen';
 $string['deletingolddata'] = 'Oude data verwijderen';
@@ -881,6 +882,7 @@ $string['metanoalreadycourses'] = 'Er zijn nog geen cursussen toegewezen';
 $string['metanopotentialcourses'] = 'Er zijn geen cursussen beschikbaar';
 $string['metapotentialcourses'] = 'Beschikbare cursussen';
 $string['metaremovecourse'] = 'Verwijder deze cursus';
+$string['migratinggrades'] = 'Cijfers aan het migreren';
 $string['min'] = 'minuut';
 $string['mins'] = 'minuten';
 $string['minutes'] = 'minuten';
@@ -1174,6 +1176,7 @@ $string['registrationno'] = 'Nee, ik wil geen e-mail ontvangen';
 $string['registrationsend'] = 'Stuur de registratie-informatie naar moodle.org';
 $string['registrationyes'] = 'Ja, laat me iets weten als er iets belangrijks gebeurt';
 $string['reject'] = 'Verwerp';
+$string['reload'] = 'Opnieuw laden';
 $string['remotemaharauser'] = 'Maharagebruiker';
 $string['remove'] = 'Verwijder';
 $string['removeadmin'] = 'Verwijder beheerder';
