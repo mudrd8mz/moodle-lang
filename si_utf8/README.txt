@@ -8,5 +8,5 @@
 Sinhala language pack for Moodle
 
 rashan.uoc@gmail.com
-hbala@ou.ac.lk
-malindahs@yahoo.com
+hbala@ou.ac.lk (initial translators)
+malindahs@yahoo.com (initial translators)
