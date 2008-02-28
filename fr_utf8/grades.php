@@ -348,6 +348,7 @@ $string['noidnumber'] = 'Pas d\'identifiant';
 $string['nolettergrade'] = 'Pas de note lettre pour';
 $string['nomode'] = 'ND';
 $string['nonnumericweight'] = 'Valeur non numérique reçue pour ';
+$string['nonunlockableverbose'] = 'Cette note ne peut pas être déverrouillée tant que $a->itemname est verrouillé.';
 $string['nonweightedpct'] = '%% non pondéré';
 $string['nooutcome'] = 'Aucun objectif';
 $string['nopublish'] = 'Ne pas publier';
