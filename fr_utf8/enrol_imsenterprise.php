@@ -27,7 +27,7 @@ $string['location'] = 'Emplacement du fichier';
 $string['mailusers'] = 'Informer les utilisateurs par courriel';
 $string['mailadmins'] = 'Informer l\'administrateur par courriel';
 $string['processphoto'] = 'Ajouter la photo de l\'utilisateur à son profil';
-$string['processphotowarning'] = 'Attention&nbsp;! Le traitement des images est susceptible de charger le seveur de façon significative. Nous vous recommandons de n\'activer pas cette option si un grand nombre d\'étudiants doit être traité.';
+$string['processphotowarning'] = 'Attention&nbsp;! Le traitement des images est susceptible de charger le serveur de façon significative. Nous vous recommandons de n\'activer pas cette option si un grand nombre d\'étudiants doit être traité.';
 $string['logtolocation'] = 'Emplacement de l\'historique d\'importation (vide pour ne pas avoir d\'historique)';
 $string['restricttarget'] = 'Ne traiter les données que si la cible suivante est spécifiée';
 
