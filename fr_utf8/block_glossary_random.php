@@ -18,7 +18,7 @@ $string['select_glossary'] = 'Choisir les articles dans ce glossaire';
 $string['showconcept'] = 'Afficher le concept (nom) de chaque article';
 $string['title'] = 'Titre';
 $string['type'] = 'Comment un nouvel article est choisi';
-$string['typehelp'] = 'L\'option <b>Dernier article modifié</b> affiche systématiquement le dernier article modifié, tandis que l\'option <b>Article aléatoire</b> affiche à chaque fois un nouvel article. L\'option <b>Article suivant</b> passe en revue les différents articles du glossaire dans l\'ordre. Cette dernière option est particulièrement utile si un nombre de jours est aussi splécifié, vous permettant par exemple de mettre en place pour vos visiteurs une <i>Citation de la semaine</i> ou une <i>Astuce du jour</i>.';
+$string['typehelp'] = 'L\'option <b>Dernier article modifié</b> affiche systématiquement le dernier article modifié, tandis que l\'option <b>Article aléatoire</b> affiche à chaque fois un nouvel article. L\'option <b>Article suivant</b> passe en revue les différents articles du glossaire dans l\'ordre. Cette dernière option est particulièrement utile si un nombre de jours est aussi spécifié, vous permettant par exemple de mettre en place pour vos visiteurs une <i>Citation de la semaine</i> ou une <i>Astuce du jour</i>.';
 $string['viewglossary'] = 'Plus de citations...'; 
 $string['whichfooter'] = 'Vous pouvez afficher des liens vers des actions du glossaire auquel ce bloc est associé. Le bloc n\'affichera que les liens vers des actions activées dans ce glossaire.';
 
