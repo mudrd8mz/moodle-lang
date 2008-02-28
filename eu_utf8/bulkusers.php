@@ -1,12 +1,16 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.8.2+ (2007021520)
+      // bulkusers.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['addall'] = 'Gehitu balizko erabiltzaile guztiak';
 $string['addsel'] = 'Gehitu aukeratutako balizko erabiltzaile guztiak';
+$string['allfilteredusers'] = 'Guztiak iragazita ($a->count/$a->total)';
+$string['allselectedusers'] = 'Guztiak aukeratuta ($a->count/$a->total)';
+$string['allusers'] = 'Erabiltzaile guztiak ($a)';
 $string['available'] = 'Balizkoak';
-$string['deleteall'] = 'Kendu erabiltzaile guztiak';
-$string['deletesel'] = 'Kendu aukeratutako erabiltzaileak';
+$string['confirmmessage'] = 'Ziur al zaude erabiltzaile guztiei bidali nahi diezula mezua?<br />$a';
+$string['nofilteredusers'] = 'Ez da erabiltzailerik aurkitu (0/$a)';
+$string['noselectedusers'] = 'Ez erabiltzailerik aukeratu';
 $string['removeall'] = 'Ezabatu balizko erabiltzaile guztiak';
 $string['removesel'] = 'Ezabatu aukeratutako balizko erabiltzaile guztiak';
 $string['selected'] = 'Aukeratutakoa(k)';
@@ -14,5 +18,7 @@ $string['selectedlist'] = 'Aukeratutako ikasleen zerrenda';
 $string['usersfound'] = '$a erabiltzaile aurkituta';
 $string['usersinlist'] = 'Erabiltzaileak zerrendan';
 $string['usersselected'] = '$a erabiltzaile aukeratuta';
+$string['deleteall'] = 'Kendu erabiltzaile guztiak'; // ORPHANED
+$string['deletesel'] = 'Kendu aukeratutako erabiltzaileak'; // ORPHANED
 
 ?>

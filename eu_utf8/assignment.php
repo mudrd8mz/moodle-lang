@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7+ (2006101007)
+      // assignment.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['allowdeleting'] = 'Ezabatzen utzi';
@@ -23,7 +23,9 @@ $string['comment'] = 'Iruzkina';
 $string['commentinline'] = 'Lerro arteko iruzkina';
 $string['configitemstocount'] = 'Ikasleek on line eginkizunetako bidalketetan kontuan hartu behar diren itemen izaera';
 $string['configmaxbytes'] = 'Guneko eginkizun guztietarako berezko gehienezko tamaina (ikastaroaren mugen eta zerbitzariaren beste aldagai batzuen araberakoa)';
+$string['configshowrecentsubmissions'] = 'Duelako gutxiko aktibitatearen txostenetan guztiek ikus ditzakete bidalketen jakinarazpenak';
 $string['confirmdeletefile'] = 'Erabat ziur al zaude fitxategi hau ezabatu egin nahi duzula?<br /><strong>$a</strong>';
+$string['deleteallsubmissions'] = 'Bidalketa guztiak ezabatu';
 $string['deletefilefailed'] = 'Ezin izan da fitxategia ezabatu';
 $string['description'] = 'Deskribapena';
 $string['draft'] = 'Zirriborroa';
@@ -45,6 +47,7 @@ $string['failedupdatefeedback'] = 'Bidalketei erantzunaren eguneraketak huts egi
 $string['feedback'] = 'Erantzuna';
 $string['feedbackfromteacher'] = '$aren erantzuna';
 $string['feedbackupdated'] = 'Bidalketei erantzuna $a pertsonentzat eguneratu da';
+$string['finalize'] = 'Bidalketa gehiagorik ez';
 $string['graded'] = 'Kalifikatua';
 $string['guestnosubmit'] = 'Barkatu, bisitariek ezin dute eginkizunik bidali. Zure erantzuna bidali ahal izateko, zure datuak bidali behar dituzu edo erregistratu.';
 $string['guestnoupload'] = 'Barkatu, bisitariek ezin dute ezer igo.';
@@ -55,6 +58,7 @@ $string['helpupload'] = '<p>Zeregin mota honek edozein motatako fitxategi bat ed
 <p>Zeuk ere edozein motatako hainbat erantzun-fitxategi igo dezakezu.</p>';
 $string['helpuploadsingle'] = '<p>Eginkizun-mota honetan partaideek edozein motatako fitxategi bakarra igo beharko dute.</p><p>Word-en egindako dokumentua, irudia, web-gune konprimitua izan daiteke edo bidaltzeko esaten zaien beste edozer.</p>';
 $string['hideintro'] = 'Deskribapena eskura dagoen data baino lehen ezkutatu';
+$string['itemstocount'] = 'Zenbakia';
 $string['late'] = '$a berandu';
 $string['maximumgrade'] = 'Gehienezko kalifikazioa';
 $string['maximumsize'] = 'Gehienezko tamaina';
@@ -65,6 +69,7 @@ $string['noassignments'] = 'Ez dago zereginik oraindik';
 $string['noattempts'] = 'Inor ez da saiatu zeregin honetan oraindik';
 $string['nofiles'] = 'Ez da fitxategirik bidali';
 $string['nofilesyet'] = 'Oraindik ez da fitxategirik bidali';
+$string['nosubmitusers'] = 'Ez da aurkitu zeregin hau bidaltzeko baimenik duen erabiltzailerik';
 $string['notavailableyet'] = 'Barkatu, zeregin hau dagoeneko ez dago eskuragarri.<br />Zereginaren instrukzioak hemen erakutsiko dira beherago agertzen den datan.';
 $string['notes'] = 'Oharrak';
 $string['notesempty'] = 'Ez dago sarrerarik';
@@ -80,6 +85,7 @@ $string['responsefiles'] = 'Erantzun-fitxategiak';
 $string['reviewed'] = 'Berrikusia';
 $string['saveallfeedback'] = 'Nire erantzun guztiak gorde';
 $string['sendformarking'] = 'Kalifikatzeko bidali';
+$string['showrecentsubmissions'] = 'Azken bidalketak erakutsi';
 $string['submission'] = 'Bidalketa';
 $string['submissiondraft'] = 'Bidalketaren zirriborroa';
 $string['submissionfeedback'] = 'Bidalketari erantzuna';

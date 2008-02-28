@@ -30,10 +30,11 @@ $string['othersettings'] = 'Beste ezarpen batzuk';
 $string['requiredelement'] = 'Beharrezko eremua';
 $string['revealpassword'] = 'Azaldu';
 $string['security'] = 'Segurtasuna';
+$string['selectallornone'] = 'Guztiak/Bat erez aukeratu';
 $string['showadvanced'] = 'Erakutsi aurreratuak';
 $string['somefieldsrequired'] = 'Formulario honetan derrigorrezko eremuak daude';
 $string['timing'] = 'Denbora';
+$string['unmaskpassword'] = 'Agerian jarri';
 $string['year'] = 'Urtea';
-$string['unmaskpassword'] = 'Agerian jarri'; // ORPHANED
 
 ?>
