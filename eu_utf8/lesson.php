@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8.2+ (2007021520)
+      // lesson.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['accesscontrol'] = 'Sarbide-kontrola';
@@ -62,6 +62,7 @@ $string['credit'] = 'Kreditua';
 $string['customscoring'] = 'Puntuazio pertsonalizatua';
 $string['deadline'] = 'Amaiera-data';
 $string['defaultessayresponse'] = 'Zure entsegua ikastaroko arduradunak zuzenduko du.';
+$string['deleteallattempts'] = 'Ikasgaiaren saiaketa guztiak ezabatu';
 $string['deletedefaults'] = 'Lehenetsitako $a x ikasgai ezabatu da';
 $string['deletedpage'] = 'Orria ezabatu da';
 $string['deleting'] = 'Ezabatzen';
@@ -204,7 +205,6 @@ $string['or'] = 'edo';
 $string['ordered'] = 'Ordenatua';
 $string['other'] = 'Beste bat';
 $string['outof'] = '$a (e)tik kanpo';
-$string['outoftime'] = 'Denboraz kanpo';
 $string['overview'] = 'Berrikuspena';
 $string['page'] = 'Orria: $a';
 $string['pagecontents'] = 'Orriaren edukia';
@@ -262,7 +262,6 @@ $string['startlesson'] = 'Ikasgaia hasi';
 $string['studentattemptlesson'] = '$a->lastname, $a->firstname (r)en $a->attempt saiakera';
 $string['studentname'] = '$a Izena';
 $string['studentoneminwarning'] = 'Kontuz: Ikasgaia amaitzeko minutu bat edo gutxiago geratzen zaizu.';
-$string['studentoutoftime'] = 'Kontuz: Ikasgaiaren denbora-muga gainditu duzu. Zure azken erantzuna ez da kontuan hartuko epez kanpo eman duzulako. Ikasgaia bukatzeko \"Jarraitu\" botoia sakatu.';
 $string['studentresponse'] = '{$a}(r)en iruzkina';
 $string['submitname'] = 'Izena bidali';
 $string['teacherjumpwarning'] = 'Ikasgai honetan $a->cluster edo $a->unseen jauzia erabiltzen ari da. Bere ordez, hurrengo orrirako jauzia erabiliko da. Ikasle gisa sartu jauzi horiek probatzeko.';
@@ -301,6 +300,8 @@ $string['youranswer'] = 'Zure erantzuna';
 $string['yourcurrentgradeis'] = 'Oraingo zure kalifikazioa $a da';
 $string['yourcurrentgradeisoutof'] = 'Zure oraingo kalifikazioa $a->grade da izan zitekeen $a->total (e)tik.';
 $string['youshouldview'] = 'Gutxienez hau ikusi beharko zenuke: $a';
+$string['outoftime'] = 'Denboraz kanpo'; // ORPHANED
+$string['studentoutoftime'] = 'Kontuz: Ikasgaiaren denbora-muga gainditu duzu. Zure azken erantzuna ez da kontuan hartuko epez kanpo eman duzulako. Ikasgaia bukatzeko \"Jarraitu\" botoia sakatu.'; // ORPHANED
 $string['editlesson'] = '$a editatu'; // ORPHANED
 $string['mainmenu'] = 'Menu nagusia'; // ORPHANED
 $string['returnmainmenu'] = 'Menu nagusira itzuli'; // ORPHANED
