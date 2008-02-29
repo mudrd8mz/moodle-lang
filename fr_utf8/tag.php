@@ -22,6 +22,7 @@ $string['namesalreadybeeingused'] = 'Noms de balise déjà utilisés';
 $string['newname'] = 'Nouveau nom de balise';
 $string['noresultsfor'] = 'Aucun résultat pour «&nbsp;$a&nbsp;»';
 $string['owner'] = 'Possesseur';
+$string['officialtag'] = 'Balise officielle';
 $string['otags'] = 'Balises officielles';
 $string['ptags'] = 'Balises personnelles (séparées par des virgules)';
 $string['relatedblogs'] = 'Articles de blog récents avec cette balise';
