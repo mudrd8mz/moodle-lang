@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2007101506)
+      // error.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -95,6 +95,7 @@ $string['sessionerroruser'] = 'セッションがタイムアウトしました�
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検知されました。再度ログインするかブラウザを再起動してください。';
 $string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。通常のユーザは、このメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
 $string['statscatchupmode'] = '統計は現在キャッチアップモードです。今までのところ $a->daysdone 日分が処理され、$a->dayspending 日分が未処理です。すぐに確認してください!';
+$string['tagnotfound'] = '指定されたタグは、データベースで見つかりませんでした。';
 $string['unicodeupgradeerror'] = '申し訳ございません、あなたのデータベースはユニコードに対応していません。このバージョンのMoodleは、データベースをユニコードに移行できません。最初にMoodle 1.7.x にアップグレードして、管理画面でデータベースをユニコードへ移行してください。ユニコード移行後、Moodle $a へのアップグレードが可能となります。';
 $string['unknowncourse'] = '不明なコース名 「 $a 」';
 $string['unknowncourseidnumber'] = '不明なコースID「 $a 」';

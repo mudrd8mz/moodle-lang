@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (2007101508.05)
+      // tag.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['addedotag'] = '「 $a 」がオフィシャルタグとして追加されました。';
@@ -22,6 +22,7 @@ $string['name'] = 'タグ名';
 $string['namesalreadybeeingused'] = 'タグ名がすでに使用されています。';
 $string['newname'] = '新しいタグ名';
 $string['noresultsfor'] = '「 $a 」の検索結果なし';
+$string['officialtag'] = 'オフィシャルタグ';
 $string['otags'] = 'オフィシャルタグ';
 $string['owner'] = 'オーナー';
 $string['ptags'] = 'ユーザ定義タグ (カンマ区切り)';

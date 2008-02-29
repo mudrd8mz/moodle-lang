@@ -381,6 +381,7 @@ $string['deletedcourse'] = '$a が完全に削除されました。';
 $string['deletednot'] = '$a を削除できませんでした!';
 $string['deletelogs'] = 'ログを削除する';
 $string['deleteselected'] = '選択したものを削除する';
+$string['deleteselectedkey'] = '選択されたキーを削除する';
 $string['deletingcourse'] = '$a の削除';
 $string['deletingexistingcoursedata'] = '既存のコースデータの削除';
 $string['deletingolddata'] = '古いデータの削除';
@@ -1600,8 +1601,8 @@ $string['yourlastlogin'] = 'あなたの最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
-$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (2007101508.05)
-$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (2007101508.05)
-$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (2007101508.05)
+$string['skiptomaincontent'] = 'メインコンテンツに移動する'; // TBD
+$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; // TBD
+$string['weeks'] = '週'; // TBD
 
 ?>
