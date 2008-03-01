@@ -22,6 +22,7 @@ $string['name'] = 'ටැගයේ නම';
 $string['namesalreadybeeingused'] = 'ටැග නාමයන් දැනටමත් භාවිතා කර ඇත';
 $string['newname'] = 'නව ටැග නම';
 $string['noresultsfor'] = '\"$a\" සඳහා ප්‍රතිඵල නැත';
+$string['officialtag'] = 'නිල ටැගය';
 $string['otags'] = 'නිල ටැග';
 $string['owner'] = 'අයිතිකරු';
 $string['ptags'] = 'පරීශීලක අර්ථ දක්වන ලද ටැග (කොමාවකින් වෙන් කරන ලදි)';
