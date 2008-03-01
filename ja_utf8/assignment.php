@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101508.05)
+      // assignment.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -28,7 +28,6 @@ $string['confirmdeletefile'] = '本当にこのファイルを完全に削除し
 $string['deleteallsubmissions'] = 'すべての提出課題を削除する';
 $string['deletefilefailed'] = 'ファイルの削除が失敗しました。';
 $string['description'] = '詳細';
-$string['disableemailnotification'] = '通知メールを無効にする';
 $string['draft'] = '下書き';
 $string['duedate'] = '終了日時';
 $string['duedateno'] = '提出期限なし';
@@ -44,6 +43,7 @@ $string['emailteachermailhtml'] = '$a->username が「 <i>$a->assignment</i> 」
 <a href=\"$a->url\">ウェブサイトにて閲覧可能です</a>。';
 $string['emailteachers'] = '教師にメール通知する';
 $string['emptysubmission'] = 'あなたはまだ何も提出していません。';
+$string['enableemailnotification'] = '通知メールを送信する';
 $string['existingfiledeleted'] = '登録済みファイルが削除されました: $a';
 $string['failedupdatefeedback'] = 'ユーザ $a のフィードバック更新に失敗しました';
 $string['feedback'] = 'フィードバック';
@@ -120,5 +120,6 @@ $string['uploadsuccess'] = '「 $a 」のアップロードが正常に完了し
 $string['viewfeedback'] = '提出課題の評価とフィードバックを確認する';
 $string['viewsubmissions'] = '$a 件の提出課題を確認する';
 $string['yoursubmission'] = 'あなたの提出課題';
+$string['disableemailnotification'] = '通知メールを無効にする'; // TBD
 
 ?>
