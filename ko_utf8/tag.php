@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (2007101508.05)
+      // tag.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['addedotag'] = '공식 태그로 \"$a\"가 추가되었읍니다.';
@@ -22,11 +22,13 @@ $string['name'] = '태그 명칭';
 $string['namesalreadybeeingused'] = '이미 있는 태그명칭';
 $string['newname'] = '새 태그명칭';
 $string['noresultsfor'] = '\"$a\"에 대한 결과 없음';
+$string['officialtag'] = '공식 태그';
 $string['otags'] = '공식 태그';
 $string['owner'] = '소유자';
 $string['ptags'] = '사용자 정의 태그';
 $string['relatedblogs'] = '이 태그를 사용한 최신 블로그 항목';
 $string['relatedtags'] = '관련 태그';
+$string['removetagfrommyinterests'] = '관심 분야에서 \"$a\" 삭제';
 $string['reset'] = '초기화';
 $string['resetflag'] = '표식 초기화';
 $string['responsiblewillbenotified'] = '책임있는 사람에게는 통보됨';

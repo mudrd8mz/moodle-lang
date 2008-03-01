@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508.05)
+      // admin.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -60,7 +60,7 @@ $string['configallowcategorythemes'] = '이것을 활성화하면, 범주 수준
 $string['configallowcoursethemes'] = '이것을 활성화하면, 각 강좌는 나름대로 독특한 테마로 설정될 수 있다. 강좌 테마는 모든 다른 테마(사이트, 이용자, 또는 세션 테마) 선택보다 우선하여 적용된다';
 $string['configallowemailaddresses'] = '만약 특정 도메인의 이메일 주소만 허용하고자 한다면, 그 주소를 한 칸씩 띄어 적어 놓아라. 그 외 모든 다른 도메인은 거부된다. ( 예: <strong>sun.ac.kr moodle.org</strong> )';
 $string['configallowobjectembed'] = '기본 보안 규정에 따라, 일반 이용자들은 멀티미디어 파일 (예:플래시,동영상,mp3)을 EMBED, OBJECT 등의 명령어나 태그를 사용해서 올릴 수 없다. (비록 안전한 미디어 파일일지라도) 운영자가 허락 옵션을 켜야만 파일을 올릴 수 있다.';
-$string['configallowoverride'] = '왼쪽의 역할이 각 칼럼의 역할에게 권한을 재설정할 수 있도록 허용';
+$string['configallowoverride'] = '왼쪽의 역할이 각 칼럼의 역할에게 권한을 위임할 수 있도록 허용';
 $string['configallowunenroll'] = '만약 이것이 \"예\"로 설정된다면, 학생들은 스스로 수강 등록 여부를 결정할 수 있다. 반면에 \"아니오\"로 설정하면 교사와 관리자만 학생의 수강 여부를 결정할 수 있게 된다.';
 $string['configallowuserblockhiding'] = '이용자들이 사이트의 블럭을 숨기거나 볼 수 있도록 허용하겠는가? 이 기능은 각각의 분리된 블럭을 기억하기 위해 자바 스크립트와 쿠키를 사용하며, 이용자 화면에만 영향을 미친다.';
 $string['configallowusermailcharset'] = '이 기능을 활성화시키면, 모든 이용자는 이메일에 자신만의 문자 세트를 이용할 수 있다.';

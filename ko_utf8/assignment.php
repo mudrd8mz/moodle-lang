@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101508.05)
+      // assignment.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['allowdeleting'] = '삭제 허용';
 $string['allowmaxfiles'] = '올릴 파일의 최대 수';
 $string['allownotes'] = '주석 허용';
 $string['allowresubmit'] = '재제출 허가';
+$string['alreadygraded'] = '과제가 이미 제출되어 채점되었기 때문에 재제출이 허용되지 않습니다.';
 $string['assignment:grade'] = '과제 점수';
 $string['assignment:submit'] = '과제 제출';
 $string['assignment:view'] = '과제 보기';
@@ -17,6 +18,7 @@ $string['assignmentmailhtml'] = '$a->teacher 선생님이 제출된 \'<i>$a->ass
 $string['assignmentname'] = '과제명';
 $string['assignmenttype'] = '과제 형태';
 $string['availabledate'] = '시작 일시';
+$string['cannotdeletefiles'] = '오류가 발생하여 삭제할 수 없음';
 $string['comment'] = '평';
 $string['commentinline'] = '즉석 평';
 $string['configitemstocount'] = '온라인 과제를 제출한 학생들의 계수 항목 특성';
@@ -26,7 +28,6 @@ $string['confirmdeletefile'] = '다음 파일을 삭제하는 것이 확실합�
 $string['deleteallsubmissions'] = '모든 제출물 삭제';
 $string['deletefilefailed'] = '파일 삭제 실패';
 $string['description'] = '설명';
-$string['disableemailnotification'] = '이메일 통지 해제';
 $string['draft'] = '초안';
 $string['duedate'] = '마감 일시';
 $string['duedateno'] = '무기한';
@@ -38,12 +39,14 @@ $string['emailteachermailhtml'] = '$a->username 은 <i>\'$a->assignment\'</i>에
 그것은 <a href=\"$a->url\">이 곳</a>에서 볼 수 있습니다.';
 $string['emailteachers'] = '담당자에게 통지';
 $string['emptysubmission'] = '아무것도 제출하지 않았습니다.';
+$string['enableemailnotification'] = '통지메일 발송';
 $string['existingfiledeleted'] = '기존의 파일 $a 가 지워졌습니다.';
 $string['failedupdatefeedback'] = '$a 이 제출한 과제에 대한 평을 갱신하는데 실패함';
 $string['feedback'] = '과제평';
 $string['feedbackfromteacher'] = '$a 의 의견';
 $string['feedbackupdated'] = '$a 명의 과제에 대한 의견을 갱신함';
 $string['finalize'] = '제출 마감';
+$string['finalizeerror'] = '오류가 발생하여 제출이 완료되지 못함';
 $string['graded'] = '채점됨';
 $string['guestnosubmit'] = '죄송합니다. 손님은 과제를 제출할 수 없습니다. 답안을 제출하려면 로그인하거나 사용자 등록을 하기 바랍니다.';
 $string['guestnoupload'] = '죄송합니다. 손님은 업로드할 수 없습니다.';
@@ -67,6 +70,7 @@ $string['noassignments'] = '아직 주어진 과제가 없음';
 $string['noattempts'] = '이 과제를 제출하려는 시도가 없었음';
 $string['nofiles'] = '제출된 파일이 없음';
 $string['nofilesyet'] = '아직 아무 파일도 제출하지 않았음';
+$string['nomoresubmissions'] = '더이상의 제출은 허용되지 않습니다.';
 $string['nosubmitusers'] = '과제 제출 권한을 가진 사람이 없음';
 $string['notavailableyet'] = '죄송합니다. 이 과제는 아직 이용할 수 없습니다.<br /과제에 대한 설명은 아래에 나타난 날짜 이후에 이곳에 표시될 것입니다.';
 $string['notes'] = '주석';
@@ -95,11 +99,13 @@ $string['submitedformarking'] = '채점을 위한 과제가 이미 제출되었�
 $string['submitformarking'] = '채점을 위한 과제 제출';
 $string['submitted'] = '제출 완료';
 $string['submittedfiles'] = '제출된 파일들';
+$string['trackdrafts'] = '제출 표시 활성화';
 $string['typeoffline'] = '오프라인 활동';
 $string['typeonline'] = '온라인 문서 제출';
 $string['typeupload'] = '여러개 파일 제출';
 $string['typeuploadsingle'] = '한 개 파일 제출';
 $string['unfinalize'] = '초안으로 복원';
+$string['unfinalizeerror'] = '오류가 발생하여 제출을 초기 상태로 되돌릴 수 없음';
 $string['uploadbadname'] = '파일이름에 알 수 없는 문자가 포함되있어서 올릴 수 없음';
 $string['uploadedfiles'] = '올려진 파일들';
 $string['uploaderror'] = '서버에 파일을 저장하던 중 오류 발생';
@@ -111,5 +117,6 @@ $string['uploadsuccess'] = '\'$a\' 올리기 성공';
 $string['viewfeedback'] = '과제 점수와 피드백 보기';
 $string['viewsubmissions'] = '제출된 $a 개의 과제 보기';
 $string['yoursubmission'] = '과제 제출';
+$string['disableemailnotification'] = '이메일 통지 해제'; // ORPHANED
 
 ?>

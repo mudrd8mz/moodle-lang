@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101508.05)
+      // moodle.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -307,10 +307,10 @@ $string['createfolder'] = '$a 에 새 폴더 만들기';
 $string['createuserandpass'] = '아이디와 비밀번호 생성';
 $string['createziparchive'] = '압축 파일 만들기';
 $string['creatingblocks'] = '블럭 만들기';
-$string['creatingblocksroles'] = '블럭 수준의 역할부여 및 재설정권 생성';
+$string['creatingblocksroles'] = '블럭 수준의 역할부여 및 위임권 생성';
 $string['creatingcategoriesandquestions'] = '범주와 문항 만들기';
 $string['creatingcoursemodules'] = '강좌 모듈 만들기';
-$string['creatingcourseroles'] = '강좌 수준의 역할부여 및 재설정권 생성';
+$string['creatingcourseroles'] = '강좌 수준의 역할부여 및 위임권 생성';
 $string['creatingevents'] = '일정 만들기';
 $string['creatinggradebook'] = '성적표 만들기';
 $string['creatinggroupings'] = '모둠무리 만들기';
@@ -319,13 +319,13 @@ $string['creatinggroups'] = '모듬 만들기';
 $string['creatinglogentries'] = '로그 목록 만들기';
 $string['creatingmessagesinfo'] = '메시지 정보 만들기';
 $string['creatingmetacoursedata'] = '메타코스 정보 만들기';
-$string['creatingmodroles'] = '모듈 수준의 역할부여 및 재설정권 생성';
+$string['creatingmodroles'] = '모듈 수준의 역할부여 및 위임권 생성';
 $string['creatingnewcourse'] = '새로운 강좌 생성';
 $string['creatingrolesdefinitions'] = '역할 정의 생성';
 $string['creatingscales'] = '척도 만들기';
 $string['creatingsections'] = '섹션 만들기';
 $string['creatingtemporarystructures'] = '임시 구조 만들기';
-$string['creatinguserroles'] = '이용자 수준의 역할부여 및 재설정권 생성';
+$string['creatinguserroles'] = '이용자 수준의 역할부여 및 위임권 생성';
 $string['creatingusers'] = '사용자 계정 만들기';
 $string['creatingxmlfile'] = 'XML파일 만들기';
 $string['currency'] = '화폐단위';
@@ -381,7 +381,8 @@ $string['deletedactivity'] = '$a 지워짐';
 $string['deletedcourse'] = '$a 이 완전히 지워졌습니다.';
 $string['deletednot'] = '$a 를 지울 수 없습니다!';
 $string['deletelogs'] = '로그 삭제';
-$string['deleteselected'] = '선택된 것을 지움';
+$string['deleteselected'] = '선택 사항 삭제';
+$string['deleteselectedkey'] = '선택된 키 삭제';
 $string['deletingcourse'] = '강좌 $a 를 지우기';
 $string['deletingexistingcoursedata'] = '강좌에 있는 데이터 지우기';
 $string['deletingolddata'] = '오래된 데이터 지우기';

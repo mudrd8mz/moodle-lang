@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101508)
+      // auth.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['CASform'] = '인증 선택';
@@ -126,6 +126,8 @@ $string['auth_imaptitle'] = 'IMAP서버의 사용';
 $string['auth_imaptype'] = 'IMAP서버의 유형. IMAP서버는 다른 유형의 인증방법이나 교섭방법을 사용할 수 있다.';
 $string['auth_imaptype_key'] = 'imap유형';
 $string['auth_ldap_ad_create_req'] = '활성화된 경로에서 새로운 계정을 생성할 수 없습니다. 이 작업에 필요한 모든 조건(LADPS 연결, 운영자급 시용자의 적절한 권한 등)을 충족시켰는지를 확인하시오.';
+$string['auth_ldap_attrcreators'] = '구성원이 속성을 생성할 수 있도록 허용된 그룹 목록 또는 컨텍스트. 여러 그룹인 경우 \';\'를 이용. 대개는  \'cn=teachers,ou=staff,o=myorg\'처럼 씀.';
+$string['auth_ldap_attrcreators_key'] = '속성 생성자';
 $string['auth_ldap_auth_user_create_key'] = '외부 사용자 생성';
 $string['auth_ldap_bind_dn'] = '만약 당신이 bind-user(운영자급 사용자를 지칭한다)을 이용하여 사용자들을 찾길 바란다면 이곳에 자세한 것을 기록해야한다. 예를 들면 \'cn=ldapuser,ou=public,o=org\' 등이 있다.';
 $string['auth_ldap_bind_dn_key'] = '구별되는 이름';
@@ -150,6 +152,8 @@ $string['auth_ldap_graceattr_desc'] = '선택사항 : 유예기간 로그인 속
 $string['auth_ldap_gracelogin_key'] = '유예 로그인 속성';
 $string['auth_ldap_gracelogins_desc'] = 'LDAP 유예기간 로그인 지원이 가능하다. 비밀번호가 만기된 후에 사용자는 유예기간 로그인이 0이 되기 전까지 로그인 가능하다. 만약 이 설정을 \"예\"로 놓으면 비밀번호가 만료될 경우에 유예기간 로그인 메세지를 보여준다.';
 $string['auth_ldap_gracelogins_key'] = '유예 로그인';
+$string['auth_ldap_groupecreators'] = '구성원이 그룹을 생성할 수 있도록 허용된 그룹 목록 또는 컨텍스트. 여러 그룹인 경우 \';\'를 이용. 대개는  \'cn=teachers,ou=staff,o=myorg\'처럼 씀.';
+$string['auth_ldap_groupecreators_key'] = '그룹 생성자';
 $string['auth_ldap_host_url'] = '\'ldap://ldap.myorg.com/\' 또는 \'ldaps://ldap.myorg.com/\'식으로 URL상의 LDAP 호스트를 명기한다.';
 $string['auth_ldap_host_url_key'] = '호스트 URL';
 $string['auth_ldap_ldap_encoding'] = 'LDAP 서버에 의해 지정된 인코딩. 대개의 경우는 utf-8이나, MS AD v2 에서는 기본으로 cp1252, cp1250 등을 사용한다.';

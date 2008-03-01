@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2007101506)
+      // error.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -95,6 +95,7 @@ $string['sessionerroruser'] = '세션이 종료 되었습니다. 다시 로그�
 $string['sessionerroruser2'] = '로그인 세션에 영향을 줄만한 서버 오류가 발생했습니다. 다시 로그인 하시거나 인터넷 창을 다시 켜주십시오.';
 $string['sessionipnomatch'] = '죄송합니다 당신의 아이피 주소가 처음 로그인 했을 때와 다릅니다. 이 보안 기능은 해커가 아이디를 도용해 이 사이트에 접속하는 것을 방지합니다. 정상적인 사용자들에게는 이 메시지가 나타나지 않을 것입니다. 도움을 원한다면 이 사이트의 운영자에게 문의하시기 바랍니다.';
 $string['statscatchupmode'] = '현재 통계 수집중에 있습니다. 현재 $a->daysdone 일간의 자료가 처리되었고 $a->dayspending 가 처리 대기중에 있습니다. 잠시후 다시 확인해 주시기 바랍니다!';
+$string['tagnotfound'] = '지정한 태그가 데이터베이스에 없음';
 $string['unicodeupgradeerror'] = '데이터베이스가 아직 유니코드가 아니지만 이 무들판으로는  여러분의 데이터베이스를 유니코드로 변환시킬 수 없습니다. 우선 무들을 1.7.x버전대로 판올림을 하시고 그곳의 관리자화면에서 유니코드로 변환해 주시기 바랍니다. 그 이후에나 무들 $a로 이전해 갈 수 있을 것입니다.';
 $string['unknowncourse'] = '\"$a\"라는 알려지지 않은 강좌';
 $string['unknowncourseidnumber'] = '\"$a\" 강좌는 없습니다.';
