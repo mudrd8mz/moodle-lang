@@ -5,40 +5,39 @@
 
 <table><tbody>
 <tr valign="top">
-    <td align="right"><p><b>질문:</b></p>
-    </td>
+    <th scope="col" align="right">질문:</th>
     <td>
         <textarea id="questiontext" name="questiontext" rows="5" cols="40" wrap="virtual">How much is {a} + {b} ?</textarea>
 </td>
 </tr>
 <tr valign="top">
-    <td align="right"><p><b>보일 그림:</b></p></td>
+    <th scope="col" align="right">보일 그림:</th>
     <td>
     <select name="image"><option value="" selected="selected">None</option><option value="grevture.gif">grevture.gif</option></select>
     </td>
 </tr>
 
 <tr valign="top">
-<td align="right"><p><b>정답 함수:</b></p></td>
+<th scope="col" align="right">정답 함수:</th>
     <td>
     <input align="left" type="text" id="formula0" name="answer[]" size="20" value="{a} + {b}">&nbsp;&nbsp;
     <input type="hidden" name="fraction[]" value="1.0">
     </td>
 </tr>
 <tr valign="top">
-    <td align="right"><p><b>허용오차:</b></p></td>
+    <th scope="col" align="right">허용오차:</th>
     <td>
     <input align="left" type="text" id="tolerance0&quot;" name="tolerance[]" size="15" value="0.01">±
     </td>
 </tr>
 <tr valign="top">
-<td align="right"><p><b>허용오차 유형:</b></p></td>
+<th scope="col" align="right">허용오차 유형:</th>
     <td>
     <select name="tolerancetype[]"><option value="1" selected="selected">Relative</option><option value="2">Nominal</option><option value="3">Geometric</option></select>
     </td>
 </tr>
 <tr valign="top">
-<td align="right"><p><b>유효 숫자:</b></p></td>
+<th scope="col" align="right">유효 숫자:</th>
     <td>
     <select name="correctanswerlength[]"><option value="1">1</option><option value="2" selected="selected">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
     </td>

@@ -6,9 +6,8 @@
 
 <p>다음은 현재 지원되는 형식들이다.</p>
 
-<p><b>GIFT 형식</b></p>
-<ul>
-<p><p>GIFT 형식은 문서파일로 부터 무들 퀴즈의 질문을 가져오는데 쓸 수 있는 가장 보편적인 가져오기/내보내기 형식이다. 이것은 교사가 문서 파일로 문항을 작성하기에 적합하게 구성되어 있다. 선다형, OX, 단답형, 짝 맞추기 그리고 수치형 문제에서부터 괄호넣기(빠진 문자 채우기: Cloze)까지 다양한 문형을 제공한다. 다만 아직까지 Cloze 문제 유형은 지원되고 있지 못함을 유의하기 바란다. 다양한 문형들은 하나의 문서 파일에 같이 쓸 수 있으며, 형태 또한 line comments, 문제명, 피드백 그리고 가중된 백분률을 지원한다. 아래는 몇 개의 예시를 보여준다.</p>
+<h2>GIFT 형식</h2>
+<p>GIFT 형식은 문서파일로 부터 무들 퀴즈의 질문을 가져오는데 쓸 수 있는 가장 보편적인 가져오기/내보내기 형식이다. 이것은 교사가 문서 파일로 문항을 작성하기에 적합하게 구성되어 있다. 선다형, OX, 단답형, 짝 맞추기 그리고 수치형 문제에서부터 괄호넣기(빠진 문자 채우기: Cloze)까지 다양한 문형을 제공한다. 다만 아직까지 Cloze 문제 유형은 지원되고 있지 못함을 유의하기 바란다. 다양한 문형들은 하나의 문서 파일에 같이 쓸 수 있으며, 형태 또한 line comments, 문제명, 피드백 그리고 가중된 백분률을 지원한다. 아래는 몇 개의 예시를 보여준다.</p>
 <pre>
 Who's buried in Grant's tomb?{~Grant ~Jefferson =no one}
 
@@ -21,24 +20,17 @@ Who's buried in Grant's tomb?{=no one =nobody}
 When was Ulysses S. Grant born?{#1822}
 </pre>
 
-<p align="right"><a href="help.php?file=formatgift.html&module=quiz">"GIFT" 형식에 대한 좀더 자세한 정보</a></p>
-</ul>
+<p class="moreinfo"><a href="help.php?file=formatgift.html&module=quiz">"GIFT" 형식에 대한 좀더 자세한 정보</a></p>
 
-<p><b>Moodle XML 형식</b></p>
-<ul>
+<h2>Moodle XML 형식</h2>
 <p>이는 무들의 독특한 형식으로서 퀴즈 문항들을 하나의 XML형식으로 내보낸다. 내보낸 파일은 다른 퀴즈의 범주 혹은 좀 다른 처리과정, 예를 들어 XSLT 변환 등을 통해 활용될 수 있다. XML 형식은 퀴즈에 첨부된 그림들로 내보낼 수 있을 것이다.(encoded base64)</p>
-</ul>
 
-<p><b>IMS QTI 2.0</b></p>
-<ul>
+<h2>IMS QTI 2.0</h2>
 <p>표준 IMS QTI (version 2.0)를 통해 내보낸다. 이 때 만들어진 파일들은 하나의 zip파일로 만들어진다는 점에 유의하라.</p>
 <p align="right"><a href="http://www.imsglobal.org/question/" target="_qti">IMS QTI 사이트에 대한 좀더 자세한 정보</a>
  (팝업 창으로 뜨는 외부 사이트임)</p>
-</ul>
 
-<p><b>XHTML</b></p>
-<ul>
+<h2>XHTML</h2>
 <p>범주를 하나의 '복잡한' XHTML페이지로 내보냄. 각 질문들은 &lt;div&gt; 태그를 통해 명확히 위치한다. 만일 이 페이지를 있는 그대로 사용하고자 한다면, 제대로 작동하게 하기위해서는 적어도 &lt;body&gt; 영역의 처음 시작부분에 있는 &lt;form&gt; 태그를 편집할 필요가 있을 것이다.(예: 'mailto')</p>
-</ul>
 
 <p>좀 더 많은 형식들이 제공될 예정이다.  WebCT 등을 비롯해 아직 무들 사용자들이 기여하여 첨가해야 할 형식들이 많이 있다.</p>
