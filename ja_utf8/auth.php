@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101508)
+      // auth.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['CASform'] = '認証選択';
@@ -121,6 +121,8 @@ $string['auth_imaptitle'] = 'IMAPサーバ';
 $string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバは異なる認証およびネゴシエーションを利用することが可能です。';
 $string['auth_imaptype_key'] = 'タイプ';
 $string['auth_ldap_ad_create_req'] = 'アクティブディレクトリに新しいアカウントを作成できません。アカウントを作成するためのすべての必要条件 (LDAPSコネクション、必要な権限を持ったbindユーザ等) に合致しているか確認してください。';
+$string['auth_ldap_attrcreators'] = 'メンバーが属性の作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で分けてください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
+$string['auth_ldap_attrcreators_key'] = '属性作成者';
 $string['auth_ldap_auth_user_create_key'] = '外部にユーザを作成する';
 $string['auth_ldap_bind_dn'] = 'ユーザ検索にbindユーザを使用したい場合、ここで指定してください。「cn=ldapuser,ou=public,o=org」のように指定します。';
 $string['auth_ldap_bind_dn_key'] = '識別名';
@@ -145,6 +147,8 @@ $string['auth_ldap_graceattr_desc'] = '任意: 猶予ログイン属性をオー
 $string['auth_ldap_gracelogin_key'] = '猶予ログイン属性';
 $string['auth_ldap_gracelogins_desc'] = 'LDAPの猶予ログインサポートを有効にします。パスワードの有効期限が切れた後、猶予ログインカウントがゼロになるまでログインすることができます。この設定を「Yes」にすると、パスワードが期限切れになった場合に猶予ログインメッセージが表示されます。';
 $string['auth_ldap_gracelogins_key'] = '猶予ログイン';
+$string['auth_ldap_groupecreators'] = 'メンバーがグループの作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で分けてください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
+$string['auth_ldap_groupecreators_key'] = 'グループ作成者';
 $string['auth_ldap_host_url'] = 'LDAPホストのURIを「ldap://ldap.myorg.com/」または「ldaps://ldap.myorg.com/」のように明示してください。複数サーバのフェイルオーバーをサポートするには「;」で分離してください。';
 $string['auth_ldap_host_url_key'] = 'ホストURI';
 $string['auth_ldap_ldap_encoding'] = 'LDAPサーバで使用するエンコーディングを指定してください。ほとんどの場合はUTF-8ですが、MS AD v2ユーザデフォルトプラットフォームのエンコーディングは、cp1252、cp1250等のようになります。';
@@ -320,6 +324,6 @@ $string['update_never'] = 'しない';
 $string['update_oncreate'] = '作成時';
 $string['update_onlogin'] = '毎回ログイン時';
 $string['update_onupdate'] = '更新時';
-$string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]'; //TBD with Moodle 2.0 dev (2007101508)
+$string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]'; // TBD
 
 ?>
