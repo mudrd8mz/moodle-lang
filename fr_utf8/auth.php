@@ -118,6 +118,8 @@ $string['auth_imaptitle'] = 'Serveur IMAP';
 $string['auth_imaptype_key'] = 'Type';
 $string['auth_imaptype'] = 'Type de serveur IMAP. Les serveurs IMAP peuvent avoir différentes méthodes d\'authentification et de négociation.';
 $string['auth_ldap_ad_create_req'] = 'Impossible de créer le nouveau compte dans Active Directory. Assurez-vous que votre serveur satisfait toutes les conditions requises pour que cela fonctionne (connexion LDAPS, utilisateur de connexion avec droits adéquats, etc.)';
+$string['auth_ldap_attrcreators'] = 'Liste des groupes ou contextes dont les membres sont autorisés à créer des attributs. Les groupes (en général, de la forme «&nbsp;cn=teachers,ou=staff,o=myorg&nbsp;») sont séparés par des points-virgules (;)';
+$string['auth_ldap_attrcreators_key'] = 'Gestionnaires d\'attributs';
 $string['auth_ldap_auth_user_create_key'] = 'Créer les utilisateurs en externe';
 $string['auth_ldap_bind_dn_key'] = 'Distinguished Name';
 $string['auth_ldap_bind_dn'] = 'Si vous souhaitez utiliser une connexion authentifiée au serveur LDAP pour chercher les utilisateurs, indiquez ici son nom de connexion. Quelque chose comme : «&nbsp;cn=ldapuser, o=Organisation, c=FR&nbsp;».';
@@ -130,8 +132,8 @@ $string['auth_ldap_contexts'] = 'Liste des contextes de l\'annuaire LDAP, sépar
 $string['auth_ldap_create_context_key'] = 'Contexte des nouveaux utilisateurs';
 $string['auth_ldap_create_context'] = 'Lors de l\'utilisation de la création d\'utilisateurs avec confirmation par courriel, indiquer ici le contexte où créer les utilisateurs. Pour des raisons de sécurité, ce contexte ne doit pas être le même que celui des autres utilisateurs. Il n\'est pas nécessaire d\'ajouter ce contexte à la variable ldap_context. Moodle cherchera automatiquement les utilisateurs dans ce contexte.<br/><strong>Remarque&nbsp;:</strong> vous devrez modifier la méthode user_create() dans le fichier auth/ldap/auth.php pour permettre la création des utilisateurs.';
 $string['auth_ldap_create_error'] = 'Erreur lors de la création de l\'utilisateur dans LDAP.';
-$string['auth_ldap_creators_key'] = 'Créateurs';
-$string['auth_ldap_creators'] = 'Liste des groupes ou contextes dont les membres ont le droit de créer des cours. Les groupes (en général, de la forme «&nbsp;cn=teachers,ou=staff,o=myorg&nbsp;») sont séparés par des points-virgules (;).';
+$string['auth_ldap_creators_key'] = 'Gestionnaires de cours';
+$string['auth_ldap_creators'] = 'Liste des groupes ou contextes dont les membres sont autorisés à créer des cours. Les groupes (en général, de la forme «&nbsp;cn=teachers,ou=staff,o=myorg&nbsp;») sont séparés par des points-virgules (;).';
 $string['auth_ldap_expiration_desc'] = 'Si vous voulez désactiver le contrôle d\'échéance des mots de passe, indiquez «&nbsp;Non&nbsp;». Si vous indiquez LDAP, la durée sera reprise automatiquement de la variable passwordexpiration du serveur LDAP';
 $string['auth_ldap_expiration_key'] = 'Échéance';
 $string['auth_ldap_expiration_warning_desc'] = 'Nombre de jours avant que l\'avertissement d\'échéance soit affiché.';
@@ -142,6 +144,8 @@ $string['auth_ldap_graceattr_desc'] = 'Facultatif&nbsp;: ne pas tenir compte de 
 $string['auth_ldap_gracelogin_key'] = 'Attribut gracelogin';
 $string['auth_ldap_gracelogins_desc'] = 'Activer le support du gracelogin LDAP. Une fois le mot de passe échu, l\'utilisateur peut se connecter jusqu\'à ce que le paramètre gracelogin ait une valeur de 0. L\'activation de ce réglage affiche un message explicite lorsque le mot de passe est échu.';
 $string['auth_ldap_gracelogins_key'] = 'Support gracelogin';
+$string['auth_ldap_groupecreators'] = 'Liste des groupes ou contextes dont les membres sont autorisés à créer des groupes. Les groupes (en général, de la forme «&nbsp;cn=teachers,ou=staff,o=myorg&nbsp;») sont séparés par des points-virgules (;)';
+$string['auth_ldap_groupecreators_key'] = 'Gestionnaires de groupes';
 $string['auth_ldap_host_url_key'] = 'URL du serveur';
 $string['auth_ldap_host_url'] = 'Indiquer le serveur LDAP sous forme d\'URL comme ceci :<br />«&nbsp;ldap://ldap.organisation.fr/&nbsp;»<br />ou&nbsp;:<br />«&nbsp;ldaps://ldap.organisation.fr/&nbsp;». Si vous utilisez plusieurs serveurs LDAP par sécurité, séparez leurs adresses avec des points-virgules (;).';
 $string['auth_ldap_ldap_encoding'] = 'Indiquer l\'encodage utilisé par le serveur LDAP. Très probablement utf-8. Microsoft AD v2 utilise l\'encodage par défaut de la plateforme, par exemple cp1252, cp1250, etc.';
