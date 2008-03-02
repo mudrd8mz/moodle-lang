@@ -6,6 +6,7 @@ $string['allowdeleting'] = '削除を許可する';
 $string['allowmaxfiles'] = 'アップロードファイルの最大数';
 $string['allownotes'] = 'メモを許可する';
 $string['allowresubmit'] = '課題の再提出を許可する';
+$string['alreadygraded'] = 'あなたの提出課題は、すでに評定されています。課題を再提出することはできません。';
 $string['assignment:grade'] = '課題を評定する';
 $string['assignment:submit'] = '課題を提出する';
 $string['assignment:view'] = '課題を表示する';
@@ -19,6 +20,7 @@ $string['assignmentmailhtml'] = '$a->teacher があなたの提出課題「 <i>$
 $string['assignmentname'] = '課題名';
 $string['assignmenttype'] = '課題タイプ';
 $string['availabledate'] = '開始日時';
+$string['cannotdeletefiles'] = 'エラーが発生したため、ファイルを削除できませんでした。';
 $string['comment'] = 'コメント';
 $string['commentinline'] = 'インラインコメント';
 $string['configitemstocount'] = 'オンライン課題でカウントする学生の提出課題の単位';
@@ -50,6 +52,7 @@ $string['feedback'] = 'フィードバック';
 $string['feedbackfromteacher'] = '$a のフィードバック';
 $string['feedbackupdated'] = '$a の参加者に対するフィードバックの更新';
 $string['finalize'] = 'これ以上提出課題はありません';
+$string['finalizeerror'] = 'エラーが発生したため、課題の提出を終了することができませんでした。';
 $string['graded'] = '評定済み';
 $string['guestnosubmit'] = '申し訳ございません、ゲストは課題を提出できません。課題を提出するには、ログインまたはユーザ登録してください。';
 $string['guestnoupload'] = '申し訳ございません、ゲストはアップロードできません。';
@@ -60,7 +63,7 @@ $string['helponline'] = '<p>このタイプの課題では、各参加者に通�
 $string['helpupload'] = '<p>このタイプの課題では、各参加者が1つまたは複数のあらゆる種類のファイルをアップロードすることができます。ワードプロセッサ文書、イメージ、ZIP圧縮したウェブサイト、その他あなたが参加者に提出するよう求めたファイルです。</p>
 <p>このタイプの課題では、複数のレスポンスファイルをアップロードすることもできます。レスポンスファイルは課題提出の前にアップロードして、各参加者に異なるファイルを提供することができます。</p>
 <p>参加者は、提出したファイルに関して、進捗状況または他のテキスト情報を説明するメモを記述することができます。</p>
-<p>このタイプの課題の提出は、参加者により手動で行われる必要があります。あなたは、現在の状況をいつでもレビューでき、未完成の課題には「下書き」と表示されます。あなたは、評定が終わっていない課題を「下書き」状態に戻すことができます。</p>';
+<p>このタイプの課題は、参加者により手動で提出される必要があります。あなたは、現在の状況をいつでもレビューでき、未完成の課題には「下書き」と表示されます。あなたは、評定が終わっていない課題を「下書き」状態に戻すことができます。</p>';
 $string['helpuploadsingle'] = '<p>このタイプの課題では、各参加者があらゆる種類の単一ファイルをアップロードすることができます。</p> <p>ワードプロセッサ文書、イメージ、ZIP圧縮したウェブサイト、その他あなたが参加者に提出するよう求めたファイルです。</p>';
 $string['hideintro'] = '開始日時前に課題説明を隠す';
 $string['itemstocount'] = 'カウント';
@@ -109,6 +112,7 @@ $string['typeonline'] = 'オンラインテキスト';
 $string['typeupload'] = 'ファイルの高度なアップロード';
 $string['typeuploadsingle'] = '単一ファイルのアップロード';
 $string['unfinalize'] = '下書きに戻す';
+$string['unfinalizeerror'] = 'エラーが発生したため、提出課題を下書きに戻すことができませんでした。';
 $string['uploadbadname'] = 'ファイル名に不正な文字が含まれているため、このファイルをアップロードできませんでした。';
 $string['uploadedfiles'] = 'ファイルをアップロードしました。';
 $string['uploaderror'] = 'サーバへのファイル保存中にエラーが発生しました。';
