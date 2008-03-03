@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101508)
+      // auth.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
@@ -121,6 +121,8 @@ $string['auth_imaptitle'] = 'Gebruik een IMAP -server';
 $string['auth_imaptype'] = 'Het type van de IMAP-server. IMAP-servers kunnen verschillende manieren van authenticatie en onderhandeling hebben.';
 $string['auth_imaptype_key'] = 'Type';
 $string['auth_ldap_ad_create_req'] = 'Kan de nieuwe account niet aanmaken in de Active Directory. Zorg ervoor dat alle vereisten om dit mogelijk te maken voorzien zijn (LDAPS-verbinding, bind-gebruiker met de juiste rechten enz.)';
+$string['auth_ldap_attrcreators'] = 'Lijst van groepen of contexten waarvan de leden het recht hebben attributen aan te maken. Gebruik een \';\' als scheidingsteken tussen meerdere groepen. Gewoonlijk wordt dat iets als \'cn=leraars,ou=personeel,o=mijn_organisatie\'';
+$string['auth_ldap_attrcreators_key'] = 'Wie attributen mag aanmaken';
 $string['auth_ldap_auth_user_create_key'] = 'Maak gebruikers extern aan';
 $string['auth_ldap_bind_dn'] = 'Als je \'bind-user\' wilt gebruiken om gebruikers te zoeken, dan moet je dat hier aangeven. Bijvoorbeeld \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Unieke naam';
@@ -145,6 +147,8 @@ $string['auth_ldap_graceattr_desc'] = 'Optioneel: gaat voor op het gracelogin-at
 $string['auth_ldap_gracelogin_key'] = 'Grace login attribuut';
 $string['auth_ldap_gracelogins_desc'] = 'Schakel de gracelogin-ondersteuning voor LDAP in. Nadat een wachtwoord is verlopen kan een gebruiker nog aanmelden tot de teller van gracelogin 0 is geworden. Door deze instelling  in te schakelen, wordt de gracelogin-boodschap getoond als het wachtwoord verlopen is.';
 $string['auth_ldap_gracelogins_key'] = 'Grace logins';
+$string['auth_ldap_groupecreators'] = 'Lijst van groepen of contexten waarvan de leden het recht hebben groepen aan te maken. Gebruik een \';\' als scheidingsteken tussen meerdere groepen. Gewoonlijk wordt dat iets als \'cn=leraars,ou=personeel,o=mijn_organisatie\'';
+$string['auth_ldap_groupecreators_key'] = 'Wie groepen mag aanmaken';
 $string['auth_ldap_host_url'] = 'Geef de LDAP-host in de vorm van een URL zoals bijvoorbeeld: \'ldap://ldap.myorg.com/\' of \'ldaps://ldap.myorg.com/\'  Com/\'or \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_host_url_key'] = 'Host URL';
 $string['auth_ldap_ldap_encoding'] = 'Specifier de encoding van de LDAP-server. Waarschijnlijk utf-8, MS AD v2 gebruikt default platform encoding zoals cp1252, cp 1250, enz.';

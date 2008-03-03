@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2007012500)
+      // blog.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['addnewentry'] = 'Voeg een nieuw item toe';
-$string['addotags'] = 'Voeg tags toe';
-$string['addptags'] = 'Voeg eigen tags toe';
+$string['backupblogshelp'] = 'Als dit ingeschakeld is, dan zullen blogs in de automatische site backups opgenomen worden';
 $string['blockmenutitle'] = 'Blog menu';
 $string['blocktagstitle'] = 'Blogtags';
 $string['blocktitle'] = 'Bloktitel voor blogtags';
@@ -34,10 +33,8 @@ $string['norighttodeletetag'] = 'Je mag deze blogtag niet verwijderen - $a';
 $string['notallowedtoedit'] = 'Je mag deze tekst niet bewerken';
 $string['numberofentries'] = 'Teksten: $a';
 $string['numberoftags'] = 'Aantal te tonen tags';
-$string['otags'] = 'Officiële tags';
 $string['pagesize'] = 'Aantal teksten per pagina';
 $string['personalblogs'] = 'Gebruikers kunnen enkel hun eigen blogs zien';
-$string['ptags'] = 'Gebruikerstags';
 $string['publishto'] = 'Publiceer naar';
 $string['publishtonoone'] = 'jezelf (klad)';
 $string['publishtosite'] = 'iedereen op deze site';
@@ -56,5 +53,9 @@ $string['viewcourseentries'] = 'Bekijk de blogs van deze cursus';
 $string['viewmyentries'] = 'Bekijk mijn eigen blogs';
 $string['viewsiteentries'] = 'Bekijk de blogs van de site';
 $string['worldblogs'] = 'Blog-items die als Wereldtoegankelijk aangeduid zijn, kunnen door alle internetgebruikers gelezen worden';
+$string['addotags'] = 'Voeg tags toe'; // ORPHANED
+$string['addptags'] = 'Voeg eigen tags toe'; // ORPHANED
+$string['otags'] = 'Officiële tags'; // ORPHANED
+$string['ptags'] = 'Gebruikerstags'; // ORPHANED
 
 ?>

@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101508)
+      // assignment.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['allowdeleting'] = 'Verwijderen toestaan';
 $string['allowmaxfiles'] = 'Maximum aantal geüploade bestanden';
 $string['allownotes'] = 'Notities toestaan';
 $string['allowresubmit'] = 'Sta herhaald insturen toe';
+$string['alreadygraded'] = 'Jouw opdracht is al beoordeeld en opnieuw insturen is niet toegelaten.';
 $string['assignment:grade'] = 'Beoordeel opdracht';
 $string['assignment:submit'] = 'Stuur opdracht in';
 $string['assignment:view'] = 'Bekijk opdracht';
@@ -18,6 +19,7 @@ Hij is toegevoegd aan je ingestuurde <a href=\"$a->url\">opdracht</a>.';
 $string['assignmentname'] = 'Naam van de opdracht';
 $string['assignmenttype'] = 'Soort opdracht';
 $string['availabledate'] = 'Inleveren kan vanaf';
+$string['cannotdeletefiles'] = 'Er is een fout opgetreden en de bestanden konden niet verwijderd worden';
 $string['comment'] = 'Commentaar';
 $string['commentinline'] = 'Commentaar invoegen';
 $string['configitemstocount'] = 'Wat er moet geteld worden wanneer leerlingen hun online opdracht ingestuurd hebben.';
@@ -43,11 +45,14 @@ Je kunt ze hier vinden:
 Je kunt het <a href=\"$a->url\"> nakijken op de website</a>.';
 $string['emailteachers'] = 'Stuur een e-mail als waarschuwing naar de leraren';
 $string['emptysubmission'] = 'Je hebt nog niets ingestuurd';
+$string['enableemailnotification'] = 'Stuur notificatie e-mails';
 $string['existingfiledeleted'] = 'Het vorige bestand is verwijderd: $a';
 $string['failedupdatefeedback'] = 'Het updaten van de feedback op de ingestuurde opdracht van gebruiker $a is niet gelukt';
 $string['feedback'] = 'Feedback';
 $string['feedbackfromteacher'] = 'Feedback van de $a';
 $string['feedbackupdated'] = 'De feedback op ingestuurde opdrachten is voor $a mensen bijgewerkt';
+$string['finalize'] = 'Geen inzendingen meer';
+$string['finalizeerror'] = 'Er is een fout opgetreden en die inzending kon niet afgerond worden';
 $string['graded'] = 'Beoordeeld';
 $string['guestnosubmit'] = 'Sorry, maar gasten mogen geen opdracht insturen. Je moet je aanmelden, eventueel nog registreren voor je je antwoord kunt insturen';
 $string['guestnoupload'] = 'Sorry, gasten mogen geen bestanden uploaden';
@@ -70,6 +75,7 @@ $string['noassignments'] = 'Er zijn nog geen opdrachten';
 $string['noattempts'] = 'Er heeft nog niemand zijn opdracht ingestuurd';
 $string['nofiles'] = 'Er werden geen bestanden ingestuurd';
 $string['nofilesyet'] = 'Er werden nog geen bestanden ingestuurd';
+$string['nomoresubmissions'] = 'Inzenden is niet meer toegelaten.';
 $string['nosubmitusers'] = 'Er zijn geen gebruikers gevonden die het recht hebben deze opdracht in te sturen';
 $string['notavailableyet'] = 'Sorry, maar deze opdracht is nog niet beschikbaar.<br />De instructies voor de opdracht zullen getoond worden vanaf onderstaande datum.';
 $string['notes'] = 'Notities';
@@ -98,11 +104,13 @@ $string['submitedformarking'] = 'De opdracht is al ingestuurd om te beoordelen e
 $string['submitformarking'] = 'Stuur opdracht in';
 $string['submitted'] = 'Ingestuurd';
 $string['submittedfiles'] = 'Ingestuurde bestanden';
+$string['trackdrafts'] = 'Laat ingestuurde taak beoordelen';
 $string['typeoffline'] = 'Offline activiteit';
 $string['typeonline'] = 'Online activiteit';
 $string['typeupload'] = 'Geavanceerd uploaden van bestanden';
 $string['typeuploadsingle'] = 'Upload een bestand';
 $string['unfinalize'] = 'Terugzetten naar kladwerk';
+$string['unfinalizeerror'] = 'Er is een fout opgetreden. Deze inzending kon niet terug omgezet worden naar kladwerk.';
 $string['uploadbadname'] = 'In deze bestandsnaam staan rare tekens, het bestand kon daardoor niet worden geüpload';
 $string['uploadedfiles'] = 'Ingestuurde bestanden';
 $string['uploaderror'] = 'Er is een fout geconstateerd tijdens het opslaan van het bestand op de server';

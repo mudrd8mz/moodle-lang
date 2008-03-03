@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (2007101506)
+      // data.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['action'] = 'Actie';
@@ -76,6 +76,7 @@ $string['editorenable'] = 'Editor inschakelen';
 $string['emptyadd'] = 'Het sjabloon voor toevoegen is leeg. Standaard formulier aan het genereren...';
 $string['emptyaddform'] = 'Je hebt geen velden ingevuld!';
 $string['entries'] = 'Items';
+$string['entrieslefttoadd'] = 'Je moet $a meer item(s) ingeven voor je de items van anderen kunt zien.';
 $string['entry'] = 'Item';
 $string['entrysaved'] = 'Gegevens bewaard.';
 $string['errormustbeteacher'] = 'Je moet leraar zijn om deze pagina te kunnen gebruiken';
