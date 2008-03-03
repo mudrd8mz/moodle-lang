@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508.07)
+      // admin.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -225,8 +225,10 @@ $string['configsmtphosts'] = 'Geef de volledige naam van één of meer lokale SM
 $string['configsmtpmaxbulk'] = 'Maximum aantal verstuurde berichten per SMTP-sessie. Het groeperen van berichten kan het versturen van emails versnellen. Een waarde kleiner dan 2 zal er voor zorgen dat er voor elke email een nieuwe SMTP-sessie gestart wordt.';
 $string['configsmtpuser'] = 'Als je hierboven een SMTP-server hebt ingevuld en deze server authenticatie nodig heeft, vul hier dan de gebruikersnaam en het wachtwoord in.';
 $string['configstartwday'] = 'Begin van de week';
+$string['configstatscatdepth'] = 'De statistiekencode gebruikt een vereenvoudigde rollenlogica. Overschrijvingen worden genegeerd en er is een maximum aantal geverifiëerde bovenliggende cursuscategorieën. Het getal 0 betekent enkel roltoewijzingen op site en cursusniveau, 1 betekent ook nog roltoewijzingen in de bovenliggende cursuscategorie enz. Hogere getallen resulteren in een veel hogere belasting van de server gedurende het verwerken van statistieken.';
 $string['configstatsfirstrun'] = 'Hiermee stel je in hoever terug in de tijd dat de logs moeten herwerkt worden tijdens de <b>eerste keer</b> dat de crontaak de statistieken probeert te verwerken. Als je wel wat verkeer hebt en je server is een shared host, dan is het waarschijnlijk geen goed idee om te ver terug te gaan. Het erg zware proces zou wel eens lang kunnen lopen. (merk op voor deze instelling: 1 maand is 28 dagen. Op de grafieken en in de rapporten is een maand een kalendermaand.)';
 $string['configstatsmaxruntime'] = 'Het verwerken van statistieken is een erg belastende taak. Gebruik dus de combinatie van dit veld en het volgende om aan te geven wanneer en hoe lang het proces zal lopen.';
+$string['configstatsmaxruntime2'] = 'Het berekenen van statistieken kan voor je server een zeer belastende taak zijn. Specifiëer een maximum tijd dat de server mag werken aan de statistieken van één dag. Het maximum aantal verwerkte dagen per cron cyclus is 3.';
 $string['configstatsruntimestart'] = 'Op welk tijdstip moet de crontaak die de statistieken verwerk <b>starten</b>?';
 $string['configstatsuserthreshold'] = 'Als je een getal anders dan nul of een niet-nummerieke waarde ingeeft voor het rangschikken van cursussen, dan zullen de cursussen met minder dan dat aantal aangemelde gebruikers (leerlingen + leraren) genegeerd worden.';
 $string['configsupportemail'] = 'Dit e-mailadres zal gepubliceerd worden aan site-gebruikers als het e-mailadres dat ze kunnen contacteren om algemene hulp te krijgen (zoals bij het creëren van een nieuwe account). Als dit veld leeg gelaten wordt, dan wordt er zo geen e-mailadres aangeboden.';
@@ -692,10 +694,16 @@ $string['upgradesure'] = 'De bestanden op je Moodleserver zijn gewijzigd en je g
 <p>Ben je er er zeker van dat je deze server naar die versie wil upgraden?</p>';
 $string['upgradingdata'] = 'Bezig met het upgraden van de gegevens';
 $string['upgradinglogs'] = 'Bezig met upgraden van logs';
+$string['uploadpicture_baduserfield'] = 'Het gespecifiëerde gebruikersattribuut is niet geldig. Probeer opnieuw.';
+$string['uploadpicture_cannotmovezip'] = 'Kan zip-bestand niet naar tijdelijke map verplaatsten.';
 $string['uploadpicture_cannotprocessdir'] = 'Kan uitgepakte bestanden niet verwerken';
+$string['uploadpicture_cannotsave'] = 'Kan afbeelding voor gebruiker $a niet bewaren. Controleer het originele afbeeldingsbestand.';
 $string['uploadpicture_cannotunzip'] = 'Kan fotobestanden niet uitpakken';
+$string['uploadpicture_invalidfilename'] = 'Afbeeldingsbestand $a heeft ongeldige tekens in de naam. Overgeslagen.';
 $string['uploadpicture_overwrite'] = 'Bestaande gebruikersfoto\'s overschrijven?';
 $string['uploadpicture_userfield'] = 'Gebruikersattribuut waaraan foto\'s gekoppeld worden:';
+$string['uploadpicture_usernotfound'] = 'De gebruiker met \'$a->userfield\' met de waarde \'$a->uservalue\' bestaat niet. Overgeslagen.';
+$string['uploadpicture_userskipped'] = 'Gebruiker $a overgeslagen (heeft al een afbeelding)';
 $string['uploadpicture_userupdated'] = 'Foto geüpdatet voor gebruiker $a';
 $string['uploadpictures'] = 'Upload gebruikersfoto\'s';
 $string['uploaduserspreview'] = 'Voorbeeld uploaden gebruikers';
@@ -741,6 +749,7 @@ $string['validateerror'] = 'Deze waarde is niet geldig';
 $string['warningcurrentsetting'] = 'Foute waarde: $a';
 $string['webproxy'] = 'Web proxy';
 $string['webproxyinfo'] = 'Vul onderstaande opties in als je Moodle server niet rechtstreeks op internet kan. Internettoegang is nodig voor de download van geografische informatie, taalpakketten, RSS-feeds, tijdzones enz.<br /><em>Je kunt best de PHP cURL extentie installeren.</em>';
+$string['xmlrpcrecommended'] = 'Het installeren van de optionele XMLRPC-extentie is nuttig voor de werking van Moodle Netwerk';
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['addcounter'] = 'Teller toevoegen'; // ORPHANED
 $string['newusernamehandling'] = 'Afhandeling van dubbele nieuwe gebruikersnamen'; // ORPHANED
