@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (2007101508)
+      // message.php - created with Moodle 2.0 dev (2007101508.07)
 
 
-$string['addcontact'] = 'Voeg een contactpersoon toe';
+$string['addcontact'] = 'Voeg contactpersoon toe';
 $string['addsomecontacts'] = 'Gebruik het tabblad <a href=\"$a\">Zoek</a> om iemand een berichtje te sturen of om op deze pagina een snelkoppeling naar iemand te maken.';
 $string['addsomecontactsincoming'] = 'Deze berichten zijn van mensen die niet in je contactenlijst zitten. Om ze toe te voegen klik je op het pictogram \"Voeg contactpersoon toe\" naast hun naam.';
 $string['ago'] = '$a geleden';

@@ -1,11 +1,18 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (2007101508)
+      // forum.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
 $string['addanewquestion'] = 'Voeg een nieuwe vraag toe';
 $string['addanewtopic'] = 'Voeg een nieuw onderwerp toe';
 $string['advancedsearch'] = 'Uitgebreid zoeken';
+$string['aggregateavg'] = 'Gemiddelde van de beoordelingen';
+$string['aggregatecount'] = 'Aantal beoordelingen';
+$string['aggregatemax'] = 'Hoogste beoordeling';
+$string['aggregatemin'] = 'Laagste beoordeling';
+$string['aggregatenone'] = 'Geen beoordelingen';
+$string['aggregatesum'] = 'Som van de beoordelingen';
+$string['aggregatetype'] = 'Aggregatietype';
 $string['allforums'] = 'Alle forums';
 $string['allowchoice'] = 'Sta iedereen toe om te kiezen';
 $string['allowdiscussions'] = 'Mag een $a berichten posten?';
