@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007100903)
+      // tag.php - created with Moodle 2.0 dev (2007101509)
 
 
+$string['addedotag'] = '\"$a\" is toegevoegd als officiële tag';
+$string['addotags'] = 'Voeg officiële tag toe';
 $string['addtagtomyinterests'] = 'Voeg \"$a\" toe aan mijn interesses';
 $string['blocktagstitle'] = 'Tags';
 $string['changename'] = 'Wijzig naam';
