@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 dev (2007080202)
+      // lesson.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['accesscontrol'] = 'Control d\'accés';
@@ -62,6 +62,7 @@ $string['credit'] = 'Crèdit';
 $string['customscoring'] = 'Puntuació personalitzada';
 $string['deadline'] = 'Data límit';
 $string['defaultessayresponse'] = 'El vostre treball ha estat qualificat pel professor del curs.';
+$string['deleteallattempts'] = 'Suprimeix tots els intents de la lliçó';
 $string['deletedefaults'] = 'S\'han suprimit $a registres de valors per defecte de les lliçons';
 $string['deletedpage'] = 'S\'ha suprimit la pàgina';
 $string['deleting'] = 'S\'està suprimint';
@@ -204,7 +205,6 @@ $string['or'] = 'O';
 $string['ordered'] = 'Ordenat';
 $string['other'] = 'Altre';
 $string['outof'] = 'de $a';
-$string['outoftime'] = 'Temps esgotat';
 $string['overview'] = 'Revisió';
 $string['page'] = 'Pàgina: $a';
 $string['pagecontents'] = 'Continguts de la pàgina';
@@ -262,7 +262,6 @@ $string['startlesson'] = 'Comença la lliçó';
 $string['studentattemptlesson'] = 'Intent número $a->attempt de $a->firstname $a->lastname,';
 $string['studentname'] = 'Nom $a';
 $string['studentoneminwarning'] = 'Avís: us queda un minut o menys per acabar la lliçó.';
-$string['studentoutoftime'] = 'Atenció: heu esgotat el temps d\'aquesta lliçó. No es comptarà la darrera resposta perquè era fora de temps. Premeu el botó Continua per acabar la lliçó.';
 $string['studentresponse'] = 'Resposta de {$a}';
 $string['submitname'] = 'Envia el nom';
 $string['teacherjumpwarning'] = 'En aquesta lliçó s\'utilitza un salt $a->cluster o un salt $a->unseen. Al seu lloc es farà servir un salt a la pàgina següent Entreu com estudiant per comprovar aquests salts.';
@@ -301,6 +300,8 @@ $string['youranswer'] = 'La vostra resposta';
 $string['yourcurrentgradeis'] = 'La vostra qualificació actual és $a';
 $string['yourcurrentgradeisoutof'] = 'La vostra qualificació actual és $a->grade sobre $a->total';
 $string['youshouldview'] = 'N\'hauríeu de contestar com a mínim: $a';
+$string['outoftime'] = 'Temps esgotat'; // ORPHANED
+$string['studentoutoftime'] = 'Atenció: heu esgotat el temps d\'aquesta lliçó. No es comptarà la darrera resposta perquè era fora de temps. Premeu el botó Continua per acabar la lliçó.'; // ORPHANED
 $string['editlesson'] = 'Edita $a'; // ORPHANED
 $string['mainmenu'] = 'Menú principal'; // ORPHANED
 $string['returnmainmenu'] = 'Torna al menú principal'; // ORPHANED

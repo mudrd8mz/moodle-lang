@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007092806)
+      // tag.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
+$string['addedotag'] = 'S\'ha afegit \"$a\" com a etiqueta oficial';
+$string['addotags'] = 'Afegeix etiquetes oficials';
 $string['addtagtomyinterests'] = 'Afegeix \"$a\" als meus interessos';
 $string['blocktagstitle'] = 'Etiquetes';
 $string['changename'] = 'Canvia el nom de l\'etiqueta';
@@ -19,9 +21,13 @@ $string['name'] = 'Nom';
 $string['namesalreadybeeingused'] = 'Noms d\'etiquetes ja utilitzats';
 $string['newname'] = 'Nou nom d\'etiqueta';
 $string['noresultsfor'] = 'Cap resultat per a \"$a\"';
+$string['officialtag'] = 'Etiqueta oficial';
+$string['otags'] = 'Etiquetes oficials';
 $string['owner'] = 'Propietari';
+$string['ptags'] = 'Etiquetes definides per l\'usuari (separades per comes)';
 $string['relatedblogs'] = 'Apunts de bitàcola recents amb aquesta etiqueta';
 $string['relatedtags'] = 'Etiquetes relacionades';
+$string['removetagfrommyinterests'] = 'Treu \"$a\" dels meus interessos';
 $string['reset'] = 'Reinicia';
 $string['resetflag'] = 'Reinicia senyalador';
 $string['responsiblewillbenotified'] = 'La persona responsable rebrà una notificació';

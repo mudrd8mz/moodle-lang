@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // error.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['adminprimarynoedit'] = 'L\'administrador primari no pot ser editat per altres usuaris';
@@ -95,6 +95,7 @@ $string['sessionerroruser'] = 'Heu excedit el termini de la vostra sessió o s\'
 $string['sessionerroruser2'] = 'S\'ha detectat un error del servidor que afecta la vostra sessió. Heu d\'entrar de nou o reiniciar el vostre navegador.';
 $string['sessionipnomatch'] = 'Sembla que el vostre número IP ha canviat des que heu entrat. Aquesta característica de seguretat impedeix que un <i>cracker</i> suplanti la vostra identitat després que heu entrat en Moodle. Els usuaris normals no haurien de veure aquest missatge: demaneu ajuda a l\'administrador del lloc.';
 $string['statscatchupmode'] = 'S\'estan recollint les estadístiques. Fins ara s\'han processat $a->daysdone dies i estan pendents $a->dayspending. Torneu a provar-ho d\'aquí a una estona.';
+$string['tagnotfound'] = 'L\'etiqueta especificada no s\'ha pogut trobar a la base de dades';
 $string['unicodeupgradeerror'] = 'La vostra base de dades encara no és en Unicode i aquesta versió de Moodle no pot efectuar la migració a Unicode. Actualitzeu primer a Moodle 1.7 i feu la migració de la base de dades a Unicode mitjançant la pàgina d\'Administració. Després d\'això ja podreu actualitzar a Moodle $a.';
 $string['unknowncourse'] = 'El curs \"$a\" és desconegut';
 $string['unknowncourseidnumber'] = 'Curs ID \"$a\" desconegut';

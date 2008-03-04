@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2007010404)
+      // blog.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['addnewentry'] = 'Afegeix una nova entrada';
-$string['addotags'] = 'Afegeix etiquetes oficials';
-$string['addptags'] = 'Afegeix etiquetes definides per l\'usuari';
+$string['backupblogshelp'] = 'Si habiliteu aquesta opció les bitàcoles s\'inclouran en les còpies de seguretat automàtiques del lloc.';
 $string['blockmenutitle'] = 'Menú de bitàcola';
 $string['blocktagstitle'] = 'Etiquetes de bitàcoles';
 $string['blocktitle'] = 'Títol del bloc d\'etiquetes de bitàcoles';
@@ -34,10 +33,8 @@ $string['norighttodeletetag'] = 'No teniu drets per a suprimir aquesta etiqueta:
 $string['notallowedtoedit'] = 'No teniu permís per a editar aquesta entrada';
 $string['numberofentries'] = 'Entrades: $a';
 $string['numberoftags'] = 'Nombre d\'etiquetes per visualitzar';
-$string['otags'] = 'Etiquetes oficials';
 $string['pagesize'] = 'Nombre d\'entrades per pàgina';
 $string['personalblogs'] = 'Bitàcoles privades amb accés restringit a l\'autor';
-$string['ptags'] = 'Etiquetes definides pels usuaris';
 $string['publishto'] = 'Publica per a';
 $string['publishtonoone'] = 'Privat (esborrany)';
 $string['publishtosite'] = 'Usuaris del lloc';
@@ -56,5 +53,9 @@ $string['viewcourseentries'] = 'Mostra entrades del curs';
 $string['viewmyentries'] = 'Mostra les meves entrades';
 $string['viewsiteentries'] = 'Mostra entrades del lloc';
 $string['worldblogs'] = 'Bitàcoles obertes amb accés lliure des de l\'exterior';
+$string['addotags'] = 'Afegeix etiquetes oficials'; // ORPHANED
+$string['addptags'] = 'Afegeix etiquetes definides per l\'usuari'; // ORPHANED
+$string['otags'] = 'Etiquetes oficials'; // ORPHANED
+$string['ptags'] = 'Etiquetes definides pels usuaris'; // ORPHANED
 
 ?>

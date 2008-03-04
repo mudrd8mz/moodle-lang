@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // assignment.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['allowdeleting'] = 'Permet suprimir';
 $string['allowmaxfiles'] = 'Nombre màxim de fitxers';
 $string['allownotes'] = 'Permet notes';
 $string['allowresubmit'] = 'Permet tornar a trametre';
+$string['alreadygraded'] = 'La vostra tasca ja ha estat qualificada i no es permet tornar-la a trametre.';
 $string['assignment:grade'] = 'Qualificar tasca';
 $string['assignment:submit'] = 'Trametre tasca';
 $string['assignment:view'] = 'Veure tasca';
@@ -20,6 +21,7 @@ Podeu veure-ho en la vostra <a href=\"$a->url\">tramesa</a>.';
 $string['assignmentname'] = 'Nom de la tasca';
 $string['assignmenttype'] = 'Tipus de tasca';
 $string['availabledate'] = 'Disponible des de';
+$string['cannotdeletefiles'] = 'S\'ha produït un error i no es poden suprimir els fitxers';
 $string['comment'] = 'Comentari';
 $string['commentinline'] = 'Comentaris inserits';
 $string['configitemstocount'] = 'Naturalesa dels elements que cal comptar en les trameses de les tasques en línia.';
@@ -44,12 +46,14 @@ $string['emailteachermailhtml'] = '$a->username ha actualitzat la tramesa  de la
 Està <a href=\"$a->url\">disponible al web</a>.';
 $string['emailteachers'] = 'Avisa els professors per correu electrònic';
 $string['emptysubmission'] = 'Encara no heu fet cap tramesa';
+$string['enableemailnotification'] = 'Envia notificacions per correu';
 $string['existingfiledeleted'] = 'S\'ha suprimit el fitxer existent : $a';
 $string['failedupdatefeedback'] = 'Ha fallat l\'actualització de la retroacció en la tasca de l\'usuari $a';
 $string['feedback'] = 'Retroacció';
 $string['feedbackfromteacher'] = 'Retroacció del $a';
 $string['feedbackupdated'] = 'S\'ha actualitzat la retroacció en les tasques de $a persones';
 $string['finalize'] = 'Prou trameses';
+$string['finalizeerror'] = 'S\'ha produït un error i no s\'ha pogut completar la tramesa';
 $string['graded'] = 'Qualificada';
 $string['guestnosubmit'] = 'Els visitants no poden trametre una tasca. Abans de trametre una tasca heu d\'entrar o us heu de registrar.';
 $string['guestnoupload'] = 'Els usuaris visitants no poden penjar fitxers.';
@@ -71,6 +75,7 @@ $string['noassignments'] = 'Encara no hi tasques';
 $string['noattempts'] = 'No s\'han fet intents en aquesta tasca';
 $string['nofiles'] = 'No s\'ha tramès cap fitxer';
 $string['nofilesyet'] = 'Encara no s\'ha tramès cap fitxer';
+$string['nomoresubmissions'] = 'No es permet fer més trameses.';
 $string['nosubmitusers'] = 'No s\'han trobat usuaris amb dret a trametre aquesta tasca';
 $string['notavailableyet'] = 'Aquesta tasca encara no està disponible.<br />Les instruccions de la tasca es mostraran aquí a partir de la data que s\'indica més avall.';
 $string['notes'] = 'Notes';
@@ -99,11 +104,13 @@ $string['submitedformarking'] = 'La tasca ja s\'ha tramès per ser puntuada i no
 $string['submitformarking'] = 'Tramet la tasca per avaluar';
 $string['submitted'] = 'S\'ha tramès';
 $string['submittedfiles'] = 'Fitxers tramesos';
+$string['trackdrafts'] = 'Habilita Envia per avaluar';
 $string['typeoffline'] = 'Activitat fora de línia';
 $string['typeonline'] = 'Activitat en línia';
 $string['typeupload'] = 'Càrrega avançada de fitxers';
 $string['typeuploadsingle'] = 'Penjar un fitxer';
 $string['unfinalize'] = 'Torna a l\'esborrany';
+$string['unfinalizeerror'] = 'S\'ha produït un error i no s\'ha pogut revertir a esborrany aquesta tramesa';
 $string['uploadbadname'] = 'El nom d\'aquest fitxer contenia caràcters estranys i no s\'ha pogut penjar';
 $string['uploadedfiles'] = 'fitxers penjats';
 $string['uploaderror'] = 'S\'ha produït un error mentre s\'estava desant el fitxer al servidor';

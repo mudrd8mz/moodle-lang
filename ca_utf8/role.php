@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // role.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['addrole'] = 'Afegeix un nou rol';
 $string['allow'] = 'Concedit';
 $string['allowassign'] = 'Permet assignar rols';
-$string['allowoverride'] = 'Permet excepcions';
+$string['allowoverride'] = 'Permet excepcions als rols';
 $string['assignglobalroles'] = 'Assignació de rols globals';
 $string['assignroles'] = 'Assignació de rols';
 $string['assignrolesin'] = 'Assignació de rols en $a';
@@ -93,12 +93,16 @@ $string['manageroles'] = 'Gestiona rols';
 $string['metaassignerror'] = 'No es pot assignar aquest rol a l\'usuari \"$a\" perquè es necessita la capacitat de gestió de metacurs.';
 $string['metaunassignerror'] = 'El rol de l\'usuari \"$a\" s\'ha reassignat automàticament. Cancel·leu l\'assignació del rol en els cursos fills.';
 $string['morethan'] = 'Més que $a';
+$string['multipleroles'] = 'Rols múltiples';
 $string['my:manageblocks'] = 'Gestionar els blocs de la pàgina myMoodle';
 $string['nocapabilitiesincontext'] = 'No hi ha capacitats disponibles en aquest context';
 $string['notes:manage'] = 'Gestionar anotacions';
 $string['notes:view'] = 'Veure anotacions';
 $string['notset'] = 'No definit';
-$string['overrideroles'] = 'Excepcions';
+$string['overridepermissions'] = 'Excepcions als permisos';
+$string['overridepermissionsin'] = 'Defineix excepcions als permisos en $a';
+$string['overrideroles'] = 'Excepcions als rols';
+$string['overriderolesin'] = 'Defineix excepcions als rols en $a';
 $string['overrides'] = 'Excepcions';
 $string['permissions'] = 'Permisos';
 $string['potentialusers'] = '$a usuaris potencials';
@@ -129,7 +133,7 @@ $string['role:viewhiddenassigns'] = 'Veure assignacions de rol ocultes';
 $string['roleassignments'] = 'Assignacions de rol';
 $string['roles'] = 'Rols';
 $string['roletoassign'] = 'Rol per assignar';
-$string['roletooverride'] = 'Excepcions al rol';
+$string['roletooverride'] = 'Excepcions pel que fa al rol';
 $string['selectrole'] = 'Seleccioneu un rol';
 $string['showallroles'] = 'Mostra tots els rols';
 $string['site:accessallgroups'] = 'Accedir a tots els grups';
