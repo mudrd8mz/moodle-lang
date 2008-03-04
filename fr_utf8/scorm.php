@@ -153,6 +153,7 @@ $string['validationtype'] = 'Ce réglage détermine la librairie DOMXML utilisé
 $string['value'] = 'Valeur';
 $string['versionwarning'] = 'La version du fichier «&nbsp;manifest&nbsp;» est antérieure à 1.3, avertissement à la balise $a->tag';
 $string['viewallreports'] = 'Afficher les rapports des $a tentatives';
+$string['viewalluserreports'] = 'Afficher les rapports des $a utilisateurs';
 $string['whatgrade'] = 'Notation des tentatives';
 $string['width'] = 'Largeur';
 $string['window'] = 'Fenêtre';
