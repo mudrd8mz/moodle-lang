@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_quickmail.php - created with Moodle 2.0 dev (2007101508)
+      // block_quickmail.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['action'] = '操作';
@@ -9,7 +9,7 @@ $string['attachmentalt'] = 'メールに添付ファイルを追加する';
 $string['attachmenterror'] = '有効な添付ファイルではありません! 次のファイルは存在していません： <strong>$a</strong>';
 $string['attachmentoptional'] = '添付 (任意)';
 $string['blockname'] = 'クイックメール';
-$string['check'] = 'すべてを選択';
+$string['check'] = 'すべてを選択する';
 $string['clearhistory'] = 'すべての履歴をクリア';
 $string['compose'] = '作成';
 $string['date'] = '日時';
@@ -31,6 +31,6 @@ $string['successfulemail'] = 'メールが正常に送信されました。';
 $string['to'] = 'To';
 $string['toerror'] = 'メールの受信者を選択してください!';
 $string['uncheck'] = 'すべての選択を解除';
-$string['allowstudents'] = '$a にクイックメールの使用を許可する'; //TBD with Moodle 2.0 dev (2007101508)
+$string['allowstudents'] = '$a にクイックメールの使用を許可する'; // TBD
 
 ?>
