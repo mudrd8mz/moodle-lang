@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2007110800)
+      // scorm.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['activation'] = 'アクティベーション';
@@ -152,6 +152,7 @@ $string['validationtype'] = 'ここでは、SCORMマニフェストファイル�
 $string['value'] = '値';
 $string['versionwarning'] = 'マニフェストファイルのバージョンが1.3より古いため、$a->tag タグに警告があります。';
 $string['viewallreports'] = '$a 件の受験レポートを表示する';
+$string['viewalluserreports'] = '$a 件のユーザレポートを表示する';
 $string['whatgrade'] = '複数回受験時の評点';
 $string['width'] = '幅';
 $string['window'] = 'ウィンドウ設定';
