@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // admin.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['accessdenied'] = 'Accés denegat';
@@ -74,6 +74,8 @@ $string['configcachetype'] = 'Seleccioneu quin tipus de memòria cau voleu que u
 $string['configclamactlikevirus'] = 'Tracta els fitxers com a virus';
 $string['configclamdonothing'] = 'Dóna els fitxers per bons';
 $string['configclamfailureonupload'] = 'Si heu configurat el clam per escanejar els fitxers que es pengin, però està configurat incorrectament o no es pot executar per alguna raó desconeguda, com s\'hauria de comportar? Si trieu \"Tracta els fitxers com a virus\", tots els fitxers es mouran a l\'àrea de quarantena, o seran suprimits. Si trieu \"Dóna els fitxers per bons\", els fitxers es mouran al seu directori de destinació com és normal.';
+$string['configcookiehttponly'] = 'Habilita una nova característica del PHP 5.2.0. Es demana als navegadors que només envien la galeta amb sol·licituds HTTP reals: els llenguatges script no haurien de tenir accés a les galetes. Tanmateix això no funciona en tots els navegadors i pot no ser compatible amb el codi actual. Ajuda a impedir alguns tipus d\'atacs XSS.';
+$string['configcookiesecure'] = 'Si el servidor només accepta connexions HTTPS, es recomana habilitar l\'enviament de galetes segures. En cas que habiliteu aquest paràmetre, assegureu-vos que el servidor web no accepta http:// o configureu una redirecció permanent a adreces https://. Si l\'adreça <em>wwwroot</em> no comença per https:// aquest paràmetre es desactiva automàticament.';
 $string['configcountry'] = 'Si definiu un país aquí, llavors aquest país quedarà seleccionat per defecte en els nous comptes d\'usuari. Si voleu que els usuaris triïn obligatòriament un país, no n\'especifiqueu cap aquí.';
 $string['configcoursemanager'] = 'Aquest paràmetre us permet controlar qui apareix a la descripció dels cursos. Els usuaris que tinguin almenys un d\'aquests rols en un curs, apareixeran en la descripció d\'aquest curs.';
 $string['configcoursesperpage'] = 'Introduïu el nombre de cursos per pàgina per a les llistes de cursos.';
@@ -240,6 +242,8 @@ $string['configxmlstrictheaders'] = 'Si activeu aquest paràmetre, les pàgines 
 $string['configzip'] = 'Indiqueu la ubicació del vostre programa de compressió zip (opcional, només en Unix). Si l\'especifiqueu, aquest programa s\'utilitzarà per crear arxius zip al servidor. Si la deixeu en blanc, Moodle utilitzarà les seves rutines internes.';
 $string['confirmation'] = 'Confirmació';
 $string['confirminstall'] = 'Esteu a punt d\'instal·lar el paquet d\'idioma ($a). N\'esteu segur?';
+$string['cookiehttponly'] = 'Només galetes HTTP';
+$string['cookiesecure'] = 'Només galetes segures';
 $string['country'] = 'País per defecte';
 $string['coursemanager'] = 'Administradors de curs';
 $string['coursemgmt'] = 'Afegeix/edita cursos';
@@ -683,6 +687,18 @@ $string['upgradesettingsintro'] = 'Els paràmetres que es mostren a continuació
 $string['upgradesure'] = 'Els vostres fitxers de Moodle han canviat i esteu a punt d\'actualitzar automàticament el servidor a aquesta versió:<p><b>$a</b></p><p>Després de fer això no podreu tornar enrere.</p><p>Esteu segur que voleu actualitzar aquest servidor a aquesta versió?</p>';
 $string['upgradingdata'] = 'S\'estan actualitzant les dades';
 $string['upgradinglogs'] = 'S\'estan actualitzant els registres';
+$string['uploadpicture_baduserfield'] = 'L\'atribut d\'usuari que heu especificat no és vàlid. Torneu a intentar-ho.';
+$string['uploadpicture_cannotmovezip'] = 'No s\'ha pogut moure el fitxer zip al directori temporal.';
+$string['uploadpicture_cannotprocessdir'] = 'No s\'han pogut processar els fitxers descomprimits.';
+$string['uploadpicture_cannotsave'] = 'No s\'ha pogut desar la imatge de l\'usuari $a. Reviseu el fitxer original.';
+$string['uploadpicture_cannotunzip'] = 'No es pot descomprimir el fitxer de les imatges';
+$string['uploadpicture_invalidfilename'] = 'El nom del fitxer d\'imatge $a té caràcters no vàlids. Aquest fitxer s\'ha omès.';
+$string['uploadpicture_overwrite'] = 'Voleu sobreescriure les imatges d\'usuari existents?';
+$string['uploadpicture_userfield'] = 'Atribut d\'usuari utilitzat per aparellar les imatges:';
+$string['uploadpicture_usernotfound'] = 'No existeix l\'usuari amb camp \'$a->userfield\' igual a \'$a->uservalue\'. Aquest usuari s\'ha omès.';
+$string['uploadpicture_userskipped'] = 'S\'ha omès l\'usuari $a (ja té una imatge).';
+$string['uploadpicture_userupdated'] = 'S\'ha actualitzat la imatge de l\'usuari $a.';
+$string['uploadpictures'] = 'Càrrega d\'imatges d\'usuaris';
 $string['uploaduserspreview'] = 'Previsualització de la càrrega d\'usuaris';
 $string['uploadusersresult'] = 'Resultats de la càrrega d\'usuaris';
 $string['upwards'] = 'cap amunt';

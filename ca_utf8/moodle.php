@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // moodle.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['abouttobeinstalled'] = 's\'instal·larà ara';
@@ -533,7 +533,6 @@ $string['emailpasswordsent'] = 'Gràcies per confirmar el canvi de contrasenya.
 $string['enable'] = 'Habilita';
 $string['encryptedcode'] = 'Codi xifrat';
 $string['enroldate'] = 'Període';
-$string['enroldetails'] = 'Detalls de la inscripció';
 $string['enrolenddate'] = 'Data final';
 $string['enrolenddaterror'] = 'La fi del període d\'inscripció no pot ser abans de la data d\'inici.';
 $string['enrollable'] = 'Permet inscripcions';
@@ -883,6 +882,7 @@ $string['metanoalreadycourses'] = 'Encara no heu assignat cursos';
 $string['metanopotentialcourses'] = 'No hi ha cursos disponibles';
 $string['metapotentialcourses'] = 'Cursos disponibles';
 $string['metaremovecourse'] = 'Suprimiu aquest curs';
+$string['migratinggrades'] = 'S\'estan migrant les qualificacions';
 $string['min'] = 'minut';
 $string['mins'] = 'minuts';
 $string['minutes'] = 'minuts';
@@ -1495,7 +1495,6 @@ $string['userconfirmed'] = '$a confirmat';
 $string['userdata'] = 'Dades d\'usuari';
 $string['userdeleted'] = 'S\'ha suprimit aquest compte d\'usuari';
 $string['userdescription'] = 'Descripció';
-$string['userdetails'] = 'Detalls de l\'usuari';
 $string['userfiles'] = 'Fitxers d\'usuari';
 $string['userlist'] = 'Llista d\'usuaris';
 $string['username'] = 'Nom d\'usuari';
@@ -1588,6 +1587,8 @@ $string['yourlastlogin'] = 'La vostra darrera entrada va ser';
 $string['yourself'] = 'vós mateix';
 $string['yourteacher'] = 'el vostre $a';
 $string['zippingbackup'] = 'S\'està comprimint la còpia de seguretat';
+$string['enroldetails'] = 'Detalls de la inscripció'; // ORPHANED
+$string['userdetails'] = 'Detalls de l\'usuari'; // ORPHANED
 $string['skiptomaincontent'] = 'Salta fins el contingut principal'; // ORPHANED
 $string['enteryourinterests'] = 'Introduir els vostres interessos separats per comes'; // ORPHANED
 
