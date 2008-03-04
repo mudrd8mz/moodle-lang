@@ -571,8 +571,7 @@ $string['expirynotifystudentsemail'] = 'Cher $a->studentstr,
 
 Ce message est un rappel concernant votre inscription au cours $a->course. Votre inscription arrivera à échéance dans $a->threshold jours.
 
-Pour plus d\'informations, veuillez contacter votre $a->teacherstr.
-';
+Pour plus d\'informations, veuillez contacter $a->teacherstr.';
 $string['expirythreshold'] = 'Délai';
 $string['explanation'] = 'Explication';
 $string['extendenrol'] = 'Étendre la période d\'inscription';
