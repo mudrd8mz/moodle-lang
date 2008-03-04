@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101508.05)
+      // moodle.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -580,11 +580,11 @@ $a->past
 学生の登録期間を延長するには、次のページにアクセスしてください:
 $a->extendurl';
 $string['expirynotifystudents'] = '学生に通知';
-$string['expirynotifystudentsemail'] = 'こんにちは、$a->studentstr さん。
+$string['expirynotifystudentsemail'] = 'こんにちは、$a->studentstr さん
 
 このメールは、あなたのコース「 $a->course 」に対する登録期間が、あと $a->threshold 日で終了するお知らせのため送信されました。
 
-詳細な情報は、あなたの $a->teacherstr にたずねてください。';
+詳細な情報は、$a->teacherstr にお聞きください。';
 $string['expirythreshold'] = '閾値';
 $string['explanation'] = '説明';
 $string['extendenrol'] = '登録期間を延長する';
