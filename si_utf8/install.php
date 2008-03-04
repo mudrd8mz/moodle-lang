@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (2007101508.02)
+      // install.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['aborting'] = 'ස්ථාපනය අත්හැර දැමීම';
@@ -82,7 +82,27 @@ $string['safemode'] = 'ආරක්ෂාකාරී මාදිලිය';
 $string['safemodeerror'] = 'ආරක්ෂාකාරී මාදිලිය විවෘතව තැබීමෙන් මූඩ්ල් ආපදාවන්ට ලක්වී‍මට ඉඩතිබේ';
 $string['sessionautostart'] = 'සැසිය ස්වයංක්‍රීය ආරම්භය';
 $string['sessionautostarterror'] = 'මෙය වසාතැබිය යුතුයි';
+$string['sitefullname'] = 'සම්පූර්ණ අඩවි නාමය:';
+$string['siteinfo'] = 'අඩවි තොරතුරු';
+$string['sitenewsitems'] = 'පුවත් අයිතමයන් :';
+$string['siteshortname'] = 'කෙටි අඩවි නාමය :';
+$string['sitesummary'] = 'අඩවි සාරාංශය :';
 $string['skipdbencodingtest'] = 'DB කේතගත කිරීමේ පරීක්ෂණය මගහරින්න';
+$string['tableprefix'] = 'වගු උපසර්ගය :';
+$string['upgradingactivitymodule'] = 'ක්‍රියාකාරකම් මොඩියුලය යාවත් කාලීන කිරීම';
+$string['upgradingbackupdb'] = 'පසුගබඩා දත්ත ගබඩාව යාවත් කාලීන කිරීම';
+$string['upgradingblocksdb'] = 'කොටස් දත්ත ගබඩාව යාවත් කාලීන කිරීම';
+$string['upgradingblocksplugin'] = 'කොටස් ප්ලගිනයන් යාවත් කාලීන කිරීම';
+$string['upgradingcompleted'] = 'යාවත් කාලීන කිරීම සම්පූර්ණයි...';
+$string['upgradingcourseformatplugin'] = 'පාඨමාලා ආකෘති ප්ලගිනය යාවත් කාලීන කිරීම';
+$string['upgradingenrolplugin'] = 'ලියාපදිංච් වීමේ ප්ලගිනය යාවත් කාලීන කිරීම';
+$string['upgradinggradeexportplugin'] = 'ශ්‍රේණි නිර්යාත කිරීමේ ප්ලගිනය යාවත් කාලීන කිරීම';
+$string['upgradinggradeimportplugin'] = 'ශ්‍රේණි ආයාත කිරීමේ ප්ලගිනය යාවත් කාලීන කිරීම';
+$string['upgradinggradereportplugin'] = 'ශ්‍රේණී වාර්තා ප්ලගිනය යාවත් කාලීන කිරීම';
+$string['upgradinglocaldb'] = 'ප්‍රාදේශීය දත්ත ගබඩාව යාවත් කාලීන කිරීම';
+$string['upgradingmessageoutputpluggin'] = 'පණිවිඩ ප්‍රතිදාන ප්ලගිනය යාවත් කාලීන කිරීම';
+$string['upgradingqtypeplugin'] = 'ප්‍රශ්න/වර්ග ප්ලගිනය යාවත් කාලීන කිරීම';
+$string['upgradingrpcfunctions'] = 'RPC ක්‍රියාවන් යාවත් කාලීන කිරීම';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['wwwroot'] = 'අන්තර්ජාල ලිපිනය';
 $string['yourchoice'] = 'ඔබගේ තේරීම';
