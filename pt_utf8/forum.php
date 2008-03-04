@@ -1,11 +1,18 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (2007101506)
+      // forum.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addanewdiscussion'] = 'Começar um novo tema';
 $string['addanewquestion'] = 'Adicionar uma pergunta';
 $string['addanewtopic'] = 'Começar um novo tema';
 $string['advancedsearch'] = 'Pesquisa avançada';
+$string['aggregateavg'] = 'Média das classificações';
+$string['aggregatecount'] = 'Número de classificações';
+$string['aggregatemax'] = 'Classificação máxima';
+$string['aggregatemin'] = 'Classificação mínima';
+$string['aggregatenone'] = 'Sem classificações';
+$string['aggregatesum'] = 'Soma das classificações';
+$string['aggregatetype'] = 'Tipo agregado';
 $string['allforums'] = 'Todos os fóruns';
 $string['allowchoice'] = 'Permitir a todos escolher';
 $string['allowdiscussions'] = 'Permitir um $a começar novos temas?';
@@ -27,6 +34,7 @@ $string['configcleanreadtime'] = 'Hora do dia em que serão apagadas mensagens n
 $string['configdisplaymode'] = 'Modo de apresentação dos temas, por omissão.';
 $string['configenablerssfeeds'] = 'Esta opção permite a criação de listagens  RSS em qualquer fórum. Será preciso ainda activar a opção manualmente no fórum onde se quer obter a listagem.';
 $string['configenabletimedposts'] = 'Seleccione \'Sim\' se quiser permitir fixar períodos de publicação nas mensagens afixadas no fórum (isto está em fase experimental e ainda a ser testado)';
+$string['configlogblocked'] = 'O processo cron do fórum poderá registar tentativas falhadas de enviar correio electrónico a utilizadores com endereços desactivados.';
 $string['configlongpost'] = 'Qualquer mensagem acima deste tamanho (sem incluir HTML) será considerada longa.';
 $string['configmanydiscussions'] = 'Número máximo de temas do fórum apresentados em cada página';
 $string['configmaxbytes'] = 'Tamanho máximo, por omissão, para os anexos às mensagens dos fóruns (sujeito a outros limites impostos pela disciplina e pelo servidor)';
@@ -116,6 +124,7 @@ $string['introsocial'] = 'Um fórum aberto para conversar sobre qualquer coisa q
 $string['introteacher'] = 'Um fórum para docentes - só notas e discussão';
 $string['lastpost'] = 'Última mensagem';
 $string['learningforums'] = 'Fóruns de aprendizagem';
+$string['logblocked'] = 'Registar endereços bloqueados';
 $string['longpost'] = 'Mensagem comprida';
 $string['mailnow'] = 'Enviar agora';
 $string['manydiscussions'] = 'Temas por página';
@@ -149,6 +158,7 @@ $string['noguestsubscribe'] = 'Lamentamos informar que como visitante não lhe �
 $string['noguesttracking'] = 'Lamentamos informar que como visitante não pode definir opções de registo de mensagens lidas.';
 $string['nomorepostscontaining'] = 'Não foram encontradas mais mensagens contendo \'$a\'';
 $string['nonews'] = 'Ainda não foram publicadas notícias';
+$string['nopostforum'] = 'Lamentamos, mas não tem autorização para enviar mensagens para este fórum';
 $string['noposts'] = 'Nenhuma mensagem';
 $string['nopostscontaining'] = 'Nenhuma mensagem \'$a\' encontrada';
 $string['noquestions'] = 'Ainda não há perguntas neste fórum.';

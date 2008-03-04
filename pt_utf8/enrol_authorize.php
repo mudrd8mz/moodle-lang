@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (2007101506)
+      // enrol_authorize.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['adminacceptccs'] = 'Que tipos de cartões de crédito serão aceites?';
@@ -78,6 +78,7 @@ $string['captureyes'] = 'O cartão de crédito será captado e o aluno será ins
 $string['ccexpire'] = 'Data de expiração';
 $string['ccexpired'] = 'O cartão de crédito expirou';
 $string['ccinvalid'] = 'Número de cartão inválido';
+$string['cclastfour'] = 'Últimos 4 do cartão de crédito';
 $string['ccno'] = 'Número do cartão de crédito';
 $string['cctype'] = 'Tipo de cartão de crédito';
 $string['ccvv'] = 'Verificação de cartão';
@@ -104,6 +105,7 @@ $string['httpsrequired'] = 'Lamentamos informá-lo mas o seu pedido não pode se
 $string['invalidaba'] = 'Número ABA inválido';
 $string['invalidaccnum'] = 'Número de conta inválido';
 $string['invalidacctype'] = 'Tipo de conta inválido';
+$string['isbusinesschecking'] = 'Tem verificação de negócio?';
 $string['logindesc'] = 'Esta opção tem que estar ON. <br /><br />Certifique-se que colocou <a href=\"$a->url\">loginhttps ON</a> in Admin >> Variables >> Security.<br /><br />Colocando isto ON fará com que o Moodle utilize o protocolo de ligação segura https para o login e páginas de pagamento.';
 $string['logininfo'] = 'Não se mostram o nome de utilizador, senha e chaves de transacção devido a questões de segurança. Não será necessário introduzir de novo estes campos se estes já foram configurados anteriormente. Deverá ver um texto a verde á esquerda da (caixa de texto) se certos campos já foram configurados. Se introduz estes campos pela primeira vez, o nome do Login(*) é obrigatório e <strong> também </strong> deve introduzir a chave de transacção(#1)  <strong> ou </strong> a password(#2) na caixa de texto apropriada. Recomendamos que introduza a chave de transacção devido a precauções de questões de segurança. Se quiser apagar a password actual, (coloque um viste na checkbox).';
 $string['methodcc'] = 'Cartão de crédito';
@@ -122,6 +124,7 @@ $string['nameoncard'] = 'Nome no Cartão';
 $string['new'] = 'Novo';
 $string['noreturns'] = 'Sem retorno!';
 $string['notsettled'] = 'Não estabelecida';
+$string['orderdetails'] = 'Detalhes do pedido';
 $string['orderid'] = 'ID Pedido';
 $string['paymentmanagement'] = 'Controlo de Pagamentos';
 $string['paymentmethod'] = 'Método de pagamento';
@@ -180,6 +183,7 @@ $string['reviewnotify'] = 'O seu pagamento vai ser revisto. Aguarde um email den
 $string['sendpaymentbutton'] = 'Enviar pagamento';
 $string['settled'] = 'Estabelecido';
 $string['settlementdate'] = 'Data de estabelecimento';
+$string['shopper'] = 'Comprador';
 $string['subvoidyes'] = 'Transacção reembolsada $a->transid será cancelada e ser-lhe-á criado um crédito $a->amount na sua conta. Tem a certeza?';
 $string['tested'] = 'Testado';
 $string['testmode'] = 'Modo de Teste';
