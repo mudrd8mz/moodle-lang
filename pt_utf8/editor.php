@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.7.1+ (2006101010)
+      // editor.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['about'] = 'Acerca deste editor';
@@ -40,7 +40,7 @@ $string['fontname'] = 'Nome do tipo de letra';
 $string['fontsize'] = 'Tamanho da letra';
 $string['forecolor'] = 'Cor do texto';
 $string['formatblock'] = 'Formatar';
-$string['fullscreen'] = 'Editro de ecran completo';
+$string['fullscreen'] = 'Editor de texto do Moodle';
 $string['heading'] = 'Cabeçalho';
 $string['height'] = 'Altura';
 $string['hilitecolor'] = 'Cor de fundo';
