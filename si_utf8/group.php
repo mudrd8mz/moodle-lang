@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (2007101508.02)
+      // group.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['addgroupstogrouping'] = 'සමූහනයට සමූහයක් එක් කරන්න';
@@ -10,6 +10,7 @@ $string['anygrouping'] = 'ඕනෑම සමූහනයක්';
 $string['autocreategroups'] = 'ස්වයංක්‍රීය සෑදෙන සමූහ';
 $string['backtogroupings'] = 'සමූහන කිරීම වෙත ආපසු';
 $string['backtogroups'] = 'නැවතත් සමූහ වෙත';
+$string['badnamingscheme'] = 'අනිවාර්යයෙන්ම \'@\' එකක් හෝ \'#\' එකක් තිබිය යුතුයි';
 $string['byfirstname'] = 'අක්ෂර වින්‍යාසය අනුව පළමු නම හා අවසන් නම';
 $string['byidnumber'] = 'අක්ෂර වින්‍යාසය අනුව හැඳුනුම් අංකය';
 $string['bylastname'] = 'අක්ෂර වින්‍යාසය අනුව පළමු නම හා අවසන් නම';
@@ -78,18 +79,25 @@ $string['membersofselectedgroup'] = 'සාමාජිකයින්:';
 $string['namingscheme'] = 'නාමකරණ ක්‍රමය';
 $string['newgrouping'] = 'නව සමූහනයක්';
 $string['newpicture'] = 'නව රූපයක්';
+$string['noallocation'] = 'වෙන් කල කොටසක් නැත';
+$string['nogroups'] = 'මෙම පාඨමාලාව සඳහා තවම සමූහ සාදා නැතූ';
 $string['nogroupsassigned'] = 'කිසිම සමූහයක් පවරා නැත';
 $string['nopermissionforcreation'] = 'අවශ්‍ය අවසර නොමැතිකමින් ඔබට \"$a\" සමූහය සෑදිය නොහැක';
 $string['nosmallgroups'] = 'අවසන් කුඩා සමූහය වලකන්න';
 $string['notingrouping'] = 'සමූහනයේ නොමැති';
+$string['nousersinrole'] = 'තෝරාගත් භූමිකාව සඳහා සුදුසු පරිශීලකයින් නොමැත';
 $string['number'] = 'සමූහ/සාමාජිකයන් ගණන';
 $string['numgroups'] = 'සමූහ ගණන';
 $string['nummembers'] = 'සමූහයකට සාමාජිකයන්';
+$string['overview'] = 'දළ විශ්ලේෂණය';
 $string['potentialmembers'] = 'විභව සාමාජිකයින්: $a';
 $string['printerfriendly'] = 'මුද්‍රණ හිතෛෂී දසුන';
 $string['random'] = 'අහඹු ලෙස';
 $string['removegroupfromselectedgrouping'] = 'සමූහනයෙන් සමූහය ඉවත් කරන්න';
+$string['removegroupingsmembers'] = 'සමූහනයෙන් සියලු සමූහ ඉවත් කරන්න';
+$string['removegroupsmembers'] = 'සියලුම සමූහ සාමාජිකයින් ඉවත් කරන්න';
 $string['removeselectedusers'] = 'තෝරන ලද පරිශීලකයින් ඉවත් කරන්න';
+$string['selectfromrole'] = 'භූමිකාවෙන් සාමාජිකයින් තෝරන්න';
 $string['showgroupsingrouping'] = 'සමූහනයේ සමූහ පෙන්වන්න';
 $string['showmembersforgroup'] = 'සමූහය සඳහා සාමාජීකයින් පෙන්වන්න';
 $string['usercount'] = 'පරිශීලක ගණන';
