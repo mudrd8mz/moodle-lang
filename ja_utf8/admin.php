@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508.05)
+      // admin.php - created with Moodle 2.0 dev (2007101509)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -646,7 +646,7 @@ $string['statsuserthreshold'] = 'ユーザ閾値';
 $string['stickyblocks'] = 'スティッキーブロック';
 $string['stickyblockscourseview'] = 'コースページ';
 $string['stickyblocksduplicatenotice'] = 'あなたがここで追加するブロックがすでに特定のページに登録されている場合、ブロックが重複することになります。<br />この場合、スティッキーブロックのみ編集不可ですが、重複したブロックは編集することができます。';
-$string['stickyblocksmymoodle'] = 'マイ moodle';
+$string['stickyblocksmymoodle'] = 'マイ Moodle';
 $string['stickyblockspagetype'] = '設定するページタイプ';
 $string['supportemail'] = 'サポートメール';
 $string['supportname'] = 'サポート名';
@@ -681,7 +681,7 @@ $string['upgradeforumreadinfo'] = 'Moodle1.5では、フォーラムの既読/�
 $string['upgradelogs'] = '正常に動作させるためには、古いログのアップグレードが必要です。<a href=\"$a\">詳細はこちら</a>';
 $string['upgradelogsinfo'] = 'ログの保存方法に変更点があります。全活動ベースのログを閲覧することができるようにするには、古いログをアップグレードする必要があります。サイトによってはアップグレード作業に長時間(例 数時間)を要し、規模が大きなサイトではデータベースに負担がかかります。処理を開始した場合は終了するまでそのまま(ブラウザを開いたまま)にしてください。心配する必要はありません - ログが更新された後に、あなたのサイトは正常に動作します。<br/><br/>本当にログをアップグレードしてもよろしいですか?';
 $string['upgradesettings'] = '新しい設定';
-$string['upgradesettingsintro'] = '以下に表示されている設定は、あなたの前回のMoodleアップグレードで追加されました。変更した内容を必要に応じてデフォルトに戻し、このページ下部にある「設定を保存する」ボタンをクリックしてください。';
+$string['upgradesettingsintro'] = '以下に表示されている設定は、あなたの前回のMoodleアップグレードで追加されました。変更した内容を必要に応じてデフォルトに戻し、このページ下部にある「変更を保存する」ボタンをクリックしてください。';
 $string['upgradesure'] = 'あなたのMoodleファイルが更新されました。自動的にMoodleを下記バージョンにアップグレードしようとしています: <br /><br /><strong>$a</strong> <br /><br />
 一旦この処理を開始すると元に戻すことはできません。<br /><br />
 この処理には時間がかかりますので注意してください。<br /><br />
