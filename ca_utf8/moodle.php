@@ -221,7 +221,7 @@ $string['clambroken'] = 'L\'administrador ha habilitat la comprovació de virus,
 $string['clamdeletedfile'] = 'S\'ha suprimit el fitxer';
 $string['clamdeletedfilefailed'] = 'No s\'ha pogut suprimir el fitxer';
 $string['clamemailsubject'] = '$a :: Notificació Clam AV';
-$string['clamfailed'] = 'No s\'ha pogut executar Clam AV. El missatge d\'error retornat es $a. Heus ací la sortida de Clam:';
+$string['clamfailed'] = 'No s\'ha pogut executar Clam AV. El missatge d\'error retornat es $a. Heus aquí la sortida de Clam:';
 $string['clamlost'] = 'Moodle ha estat configurat per executar Clam amb cada fitxer que es pengi, pero el camí de Clam AV proporcionat, $a, no és vàlid.';
 $string['clamlostandactinglikevirus'] = 'A més a més Moodle ha estat configurat de manera que si Clam no es pot executar, els fitxers es tracten com si fossin virus. Això significa que els estudiants no podran penjar cap fitxer mentre no solucioneu el problema.';
 $string['clammovedfile'] = 'S\'ha mogut el fitxer al directori de quarantena especificat. La nova ubicació és $a.';
@@ -578,7 +578,7 @@ $string['existingcreators'] = 'Creadors de cursos actuals';
 $string['existingstudents'] = 'Estudiants inscrits';
 $string['existingteachers'] = 'Professors actuals';
 $string['expirynotify'] = 'Notificació de venciment d\'inscripció';
-$string['expirynotifyemail'] = 'La inscripció dels estudiants següents en aquest curs vencerà d\'ací a $a->threshold dies:
+$string['expirynotifyemail'] = 'La inscripció dels estudiants següents en aquest curs vencerà d\'aquí a $a->threshold dies:
 
 $a->current
 
@@ -592,7 +592,7 @@ $a->extendurl';
 $string['expirynotifystudents'] = 'Notifica als estudiants';
 $string['expirynotifystudentsemail'] = 'Benvolgut/da estudiant,
 
-Amb aquest missatge us notifiquem que la vostra inscripció en el curs $a->course vencerà d\'ací a $a->threshold dies.
+Amb aquest missatge us notifiquem que la vostra inscripció en el curs $a->course vencerà d\'aquí a $a->threshold dies.
 
 Contacteu amb el professorat si necessiteu cap aclariment.';
 $string['expirythreshold'] = 'Llindar';
@@ -1050,7 +1050,7 @@ $string['notifications'] = 'Notificacions';
 $string['notify'] = 'Notifica';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, usuari: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Podeu veure aquí aquests registres: $a/course/log.php?id=1&chooselog=1&modid=site_errors';
-$string['notifyloginfailuresmessagestart'] = 'Heus ací una llista d\'intents d\'entrada fracassats en $a des de la darrera notificació';
+$string['notifyloginfailuresmessagestart'] = 'Heus aquí una llista d\'intents d\'entrada fracassats en $a des de la darrera notificació';
 $string['notifyloginfailuressubject'] = '$a :: Notificació d\'entrades fracassades';
 $string['notincluded'] = 'No inclòs';
 $string['notingroup'] = 'Heu de ser part d\'un grup per veure aquesta activitat.';
@@ -1473,7 +1473,7 @@ $string['uploadafile'] = 'Penja un fitxer';
 $string['uploadedfile'] = 'El fitxer s\'ha penjat amb èxit';
 $string['uploadedfileto'] = 'S\'ha penjat $a->file en $a->directory';
 $string['uploadedfiletoobig'] = 'El fitxer és massa gran (el límit són $a bytes)';
-$string['uploadfailednotrecovering'] = 'La càrrega ha fallat perquè hi ha hagut un problema amb un dels fitxers, $a->name. <br />Heus ací un registre dels problemes:<br />$a->problema<br />Irrecuperable.';
+$string['uploadfailednotrecovering'] = 'La càrrega ha fallat perquè hi ha hagut un problema amb un dels fitxers, $a->name. <br />Heus aquí un registre dels problemes:<br />$a->problema<br />Irrecuperable.';
 $string['uploadfilelog'] = 'Registre de càrrega del fitxer $a';
 $string['uploadformlimit'] = 'El fitxer supera la mida màxima definida per al formulari';
 $string['uploadlabel'] = 'Títol:';
@@ -1516,20 +1516,20 @@ $string['version'] = 'Versió';
 $string['view'] = 'Visualització';
 $string['views'] = 'Visualitzacions';
 $string['viewsolution'] = 'Mostra la solució';
-$string['virusfound'] = 'Alerta administrador: Clam AV ha trobat un virus en un fitxer penjat per $a->user en el curs $a->course. Heus ací la sortida de Clamscan:';
-$string['virusfoundlater'] = 'S\'ha trobat un virus en un fitxer anomenat $a->filename que heu penjat el $a->date en el curs $a->course. Heus ací un resum dels esdeveniments:
+$string['virusfound'] = 'Alerta administrador: Clam AV ha trobat un virus en un fitxer penjat per $a->user en el curs $a->course. Heus aquí la sortida de Clamscan:';
+$string['virusfoundlater'] = 'S\'ha trobat un virus en un fitxer anomenat $a->filename que heu penjat el $a->date en el curs $a->course. Heus aquí un resum dels esdeveniments:
 
 $a->action
 
 Si això era una tasca que havíeu tramès, us caldrà tornar a enviar-la per tal que la vegi el vostre professor.';
-$string['virusfoundlateradmin'] = 'Alerta administrador: s\'ha trobat un virus en un fitxer anomenat $a->filename que heu penjat el $a->date en el curs $a->course. Heus ací un resum dels esdeveniments:
+$string['virusfoundlateradmin'] = 'Alerta administrador: s\'ha trobat un virus en un fitxer anomenat $a->filename que heu penjat el $a->date en el curs $a->course. Heus aquí un resum dels esdeveniments:
 
 $a->action
 
 S\'ha enviat una notificació a l\'usuari.';
 $string['virusfoundlateradminnolog'] = 'Alerta administrador: s\'ha trobat un virus en un fitxer anomenat $a->filename. Moodle ha estat incapaç d\'esbrinar quin usuari el va penjar.
 
-Heus ací un resum dels esdeveniments:
+Heus aquí un resum dels esdeveniments:
 
 $a->action';
 $string['virusfoundsubject'] = '$a: s\'ha trobat un virus';
