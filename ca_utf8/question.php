@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta + (2007092806)
+      // question.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['adminreport'] = 'Informe sobre possibles problemes en la vostra base de dades de preguntes';
@@ -10,7 +10,13 @@ $string['categorycurrentuse'] = 'Utilitza aquesta categoria';
 $string['categorydoesnotexist'] = 'Aquesta categoria no existeix';
 $string['categorymoveto'] = 'Desa en la categoria';
 $string['changepublishstatuscat'] = 'Es canviarà l\'estat de publicació de la categoria <a href=\"$a->caturl\">\"$a->name\"</a>, en el curs \"$a->coursename\", de <strong>$a->changefrom a $a->changeto</strong>.';
+$string['editingcategory'] = 'S\'està editant una categoria';
 $string['editingquestion'] = 'S\'està editant una pregunta';
+$string['errorfilecannotbecopied'] = 'Error: no s\'ha pogut copiar el fitxer $a';
+$string['errorfilecannotbemoved'] = 'Error: no s\'ha pogut moure el fitxer $a';
+$string['exportcategory'] = 'Exporta categoria';
+$string['filesareacourse'] = 'l\'àrea de fitxers del curs';
+$string['filesareasite'] = 'l\'àrea de fitxers del lloc';
 $string['fractionsnomax'] = 'Una de les respostes ha de tenir una puntuació del 100%% de manera que sigui possible aconseguir tots els punts en aquesta pregunta.';
 $string['missingimportantcode'] = 'Aquest tipus de pregunta manca de codi important: $a.';
 $string['notenoughdatatoeditaquestion'] = 'No s\'han especificat l\'identificador de la pregunta, ni el de la categoria i el tipus de pregunta.';

@@ -1,9 +1,15 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 dev (2007021501)
+      // qtype_multichoice.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
+$string['addingmultichoice'] = 'S\'està afegint una pregunta d\'opcions múltiples';
 $string['addmorechoiceblanks'] = 'Blancs per a {no} preguntes més';
 $string['answerhowmany'] = 'Una resposta o múltiples respostes?';
+$string['answernumbering'] = 'Numeració de les preguntes';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = 'Sense numerar';
 $string['answersingleno'] = 'Es permeten múltiples respostes';
 $string['answersingleyes'] = 'Només una resposta';
 $string['choiceno'] = 'Opció $a';
