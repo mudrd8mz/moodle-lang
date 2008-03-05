@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.7 beta + (2006101001)
+      // lams.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['createSequence'] = 'Crea nova seqüència';
@@ -20,13 +20,16 @@ $string['openmonitor'] = 'Obre el monitor de LAMS';
 $string['refreshSequenceList'] = 'Refresca la llista de seqüències';
 $string['selectExistingSequence'] = 'Seleccioneu una seqüència existent o creeu-ne una de nova.';
 $string['sequence'] = 'Seleccioneu una seqüència';
-$string['serverid'] = 'Introduïu l\'ID del servidor LAMS.';
-$string['serverkey'] = 'Introduïu la clau del servidor LAMS.';
+$string['server_id'] = 'ID del servidor';
+$string['server_key'] = 'Clau del servidor';
+$string['server_url'] = 'URL del servidor';
+$string['serverid'] = 'Introduïu l\'ID del servidor rebut de <a href=\"http://www.lamsinternational.com\">LAMS international</a>.';
+$string['serverkey'] = 'Introduïu la clau del servidor rebuda de <a href=\"http://www.lamsinternational.com\">LAMS international</a>.';
 $string['serverurl'] = 'Introduïu l\'URL base que s\'utilitzarà per accedir al servidor LAMS, p. ex. http://localhost:8080/lams';
 $string['useSequence'] = 'Utilitza la seqüència seleccionada';
-$string['visibletostudents'] = 'Mostra activitat als estudiants';
+$string['visibletostudents'] = 'Mostra l\'activitat als estudiants';
 $string['wikistartederror'] = 'El wiki ja té entrades. No es pot canviar.';
 $string['workspace'] = 'Seleccioneu un espai de treball';
-$string['wrongversionrange'] = '$a no és un abast correcte.';
+$string['wrongversionrange'] = '$a no és una gamma correcta.';
 
 ?>
