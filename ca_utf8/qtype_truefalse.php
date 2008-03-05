@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // qtype_truefalse.php - created with Moodle 1.9 dev (2007021501)
+      // qtype_truefalse.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
+$string['addingtruefalse'] = 'S\'està afegint una pregunta de vertader/fals';
 $string['correctanswer'] = 'Resposta correcta';
 $string['editingtruefalse'] = 'S\'està editant una pregunta de vertader/fals';
 $string['false'] = 'Fals';
