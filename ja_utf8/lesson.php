@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (2007101508)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080305) (2008030500)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -60,7 +60,7 @@ $string['correctanswerscore'] = '正解の評点';
 $string['correctresponse'] = '正解に対するレスポンス';
 $string['credit'] = '承認';
 $string['customscoring'] = 'カスタムスコア';
-$string['deadline'] = 'レッスン終了';
+$string['deadline'] = 'レッスン終了日時';
 $string['defaultessayresponse'] = 'あなたの作文はコース教師によって評定されます。';
 $string['deleteallattempts'] = 'すべてのレッスン受験を削除する';
 $string['deletedefaults'] = '$a x レッスンデフォルトを削除しました。';
@@ -183,6 +183,7 @@ $string['nobranchtablefound'] = 'ブランチテーブルが見つかりませ�
 $string['nocommentyet'] = 'コメントはありません。';
 $string['nocoursemods'] = '活動が見つかりません。';
 $string['nocredit'] = '未承認';
+$string['nodeadline'] = 'レッスン終了なし';
 $string['noessayquestionsfound'] = 'このレッスンに作文問題はありません。';
 $string['nohighscores'] = 'ハイスコアはありません。';
 $string['nolessonattempts'] = 'このレッスンは受験されていません。';
@@ -304,8 +305,8 @@ $string['youranswer'] = 'あなたの答え';
 $string['yourcurrentgradeis'] = 'あなたの現在の評点は $a です。';
 $string['yourcurrentgradeisoutof'] = 'あなたの現在の評点は $a->total 点中 $a->grade 点です。';
 $string['youshouldview'] = '少なくとも $a 回解答してください。';
-$string['outoftime'] = '時間切れ'; //TBD with Moodle 2.0 dev (2007101508)
-$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。'; //TBD with Moodle 2.0 dev (2007101508)
-$string['editlesson'] = '$a の編集'; //TBD with Moodle 2.0 dev (2007101508)
+$string['outoftime'] = '時間切れ'; // TBD
+$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。'; // TBD
+$string['editlesson'] = '$a の編集'; // TBD
 
 ?>
