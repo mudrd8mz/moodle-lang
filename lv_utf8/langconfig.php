@@ -1,7 +1,9 @@
 <?php
 $string['alphabet'] = 'A,Ā,B,C,Č,D,E,Ē,F,G,Ģ,H,I,Ī,J,K,Ķ,L,Ļ,M,N,Ņ,O,P,Q,R,S,Š,T,U,Ū,V,W,X,Y,Z,Ž';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['decsep'] = ',';
 $string['firstdayofweek'] = '0';
+$string['listsep'] = ';';
 $string['locale'] = 'lv_LV.UTF-8';
 $string['localewin'] = 'Latvian_Latvia.1257';
 $string['localewincharset'] = 'WINDOWS-1257';
