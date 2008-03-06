@@ -193,6 +193,7 @@ $string['question'] = 'Otázka';
 $string['questions'] = 'Otázky';
 $string['questionsnotanswered'] = 'Niekoľko otázok s možnosťou výberu odpovede nebolo zodpovedaných.';
 $string['report'] = 'Správa z prieskumu';
+$string['responses'] = 'Odozvy';
 $string['savednotes'] = 'Vaše poznámky boli uložené';
 $string['scaleagree5'] = 'Výrazne nesúhlasím,Čiastočne nesúhlasím,Nie som proti,ale ani nie za,Čiastočne súhlasím, Úplne súhlasím';
 $string['scales'] = 'Škály';

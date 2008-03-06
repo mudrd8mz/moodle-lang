@@ -12,6 +12,7 @@ $string['charincorrectlength'] = 'Nesprávna dĺžka znakového poľa';
 $string['check_indexes'] = 'Hľadať chýbajúce DB indexy';
 $string['checkindexes'] = 'Skontrolovať indexy';
 $string['completelogbelow'] = '(viď kompletný log vyhľadávania nižšie)';
+$string['confirmcheckindexes'] = 'Tento skript bude hľadať potenciálne chýbajúce indexy vo vašom Moodle serveri, generovať (ale nie vykonávať) automaticky potrebné SQL príkazy na zabezpečenie všetkých aktualizácií. Vygenerované príkazy môžete skopírovať a spustiť ich bezpečne vo vašom obľúbenom SQL rozhraní. <br /><br /> Je vysoko odporúčané spustiť najnovšiu dostupnú (+ verziu) Moodle (1.8, 1.9, 2.x ...) pred vykonaním hľadania chýbajúcich indexov. <br /><br /> Tento skript nevykonáva žiadnu akciu na DB (iba na čítanie), takže môže byť vykonaný kedykoľvek.';
 $string['confirmdeletefield'] = 'Ste si úplne istí, že chcete odstrániť pole:';
 $string['confirmdeleteindex'] = 'Ste si úplne istí, že chcete odstrániť index:';
 $string['confirmdeletekey'] = 'Ste si úplne istí, že chcete odstrániť kľúč:';
@@ -113,5 +114,5 @@ $string['viewsqlcode'] = 'Zobraziť kód SQL';
 $string['wronglengthforenum'] = 'Nesprávna dĺžka výčtového poľa';
 $string['wrongnumberoffieldsorvalues'] = 'Nesprávny počet polí alebo hodnôt vo vete';
 $string['wrongreservedwords'] = 'Súčasné rezervované slová<br />(názvy tabuliek nehrajú roľu, ak používate $CFG->prefix)';
-
+$string['yesmissingindexesfound'] = 'Niektoré chýbajúce indexy boli nájdené vo vašej DB. Tu sú podrobnosti a potrebné SQL príkazy na vykonanie s vašim obľúbeným SQL rozhraním na ich vytvorenie. <br /><br /> Po vykonaní je vysoko doporučované spustiť tento skript znova na skontrolovanie, či nebudú nájdené žiadne ďalšie chýbajúce indexy.';
 ?>
