@@ -121,6 +121,7 @@ $string['serverurl'] = 'Server URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Vis kursusblokkene';
 $string['skipsubmenus'] = 'Udelad undermenu-sider';
 $string['tableofcontents'] = 'Indholdsfortegnelse';
+$string['tableofcontentsabbrev'] = 'Indhold';
 $string['upbutton'] = 'Op';
 $string['variablename'] = 'Variabelnavn';
 $string['viewims'] = 'Gennemse IMS Content Package';
