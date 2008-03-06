@@ -1,31 +1,50 @@
-<?PHP // $Id$ 
-      // book.php - created with Moodle 1.3.1 (2004052501)
+<?PHP // $Id$
 
-
-$string['addafter'] = 'Pievienot jaunu daļu';
-$string['chapterscount'] = 'Daļas';
-$string['chaptertitle'] = 'Daļas nosaukums';
-$string['confchapterdelete'] = 'Vai Jūs tiešām vēlaties izdzēst šo daļu?';
-$string['content'] = 'Saturs';
-$string['faq'] = 'Grāmatas FAQ';
-$string['hidepreview'] = 'Atpakaļ uz labošanas režīmu';
 $string['modulename'] = 'Grāmata';
 $string['modulenameplural'] = 'Grāmatas';
-$string['navnext'] = 'Nākamais';
-$string['navprev'] = 'Iepriekšējais';
-$string['numbering'] = 'Daļu numurēšana';
-$string['numbering0'] = 'Neviens';
-$string['numbering1'] = 'Numurs';
-$string['numbering2'] = 'Tekstaatdalītājs';
-$string['numbering3'] = 'Izrobots';
+
+$string['toc'] = 'Satura rādītājs';
+$string['tocwidth'] = 'Izvēlieties visu grāmatu staura rādītāju platumu.';
+$string['faq'] = 'Grāmatas FAQ';
+
+$string['disableprinting'] = 'Atspējot drukāšanu';
+$string['customtitles'] = 'Pielāgotie virsraksti';
+
+$string['editingchapter'] = 'Nodaļas rediģēšana';
+$string['chaptertitle'] = 'Nodaļas nosaukums';
+$string['content'] = 'Saturs';
+$string['subchapter'] = 'Apakšnodaļa';
+
+$string['numbering'] = 'Nodaļu numerācija';
+$string['numbering0'] = 'Nav';
+$string['numbering1'] = 'Skaitļi';
+$string['numbering2'] = 'Aizzīmes';
+$string['numbering3'] = 'Atkāpes';
+
+$string['chapterscount'] = 'Nodaļas';
+
+$string['addafter'] = 'Pievienot jaunu nodaļu';
+$string['confchapterdelete'] = 'Vai jūs tiešām vēlaties izdzēst šo nodaļu?';
+$string['confchapterdeleteall'] = 'Vai jūs tiešām vēlaties izdzēst šo nodaļu un visas tās apakšnodaļas?';
+
 $string['printbook'] = 'Drukāt visu grāmatu';
-$string['printchapter'] = 'Drukāt šo daļu';
+$string['printchapter'] = 'Drukāt šo nodaļu';
 $string['printdate'] = 'Datums';
 $string['printedby'] = 'Drukājis';
-$string['showpreview'] = 'Rādīt TOC priekšskatījumu';
-$string['subchapter'] = 'Apakšnodaļa';
-$string['toc'] = 'Satura tabula';
-$string['tocwidth'] = 'Izvēlieties tabulas satura platumu visām grāmatām';
-$string['top'] = 'Augša';
+$string['top'] = 'top';
+
+$string['navprev'] = 'Iepriekšējais';
+$string['navnext'] = 'Nākamais';
+$string['navexit'] = 'Aizvērt grāmatu';
+
+$string['importingchapters'] = 'Nodaļu importēšana grāmatā';
+$string['import'] = 'Importēšana';
+$string['doimport'] = 'Importēt';
+$string['doexport'] = 'Eksportēt';
+$string['importing'] = 'Tiek importēts';
+$string['relinking'] = 'Atjaunot saites';
+$string['importinfo'] = 'Importēt izvēlēto HTML failu vai direktoriju.<br />Nodaļas ir sakārtotas alfabēta secībā izmantojot faila nosaukumu<br />Faili ar nosaukumu \'sub_*.*\' vienmēr tiek importēti kā apakšnodaļas.';
+$string['maindirectory'] = 'Galvenā direktorija';
+$string['fileordir'] = 'Fails vai direktorija';
 
 ?>

@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.7 beta + (2006101003)
+
+
+$string['absentlong'] = 'Promesošs';
+$string['absentshort'] = 'P';
+$string['addingmultiple'] = 'Vairāku dalības reģistru pievienošana';
+$string['addmultiple'] = 'Pievienot vairākus dalības reģistrus';
+$string['allmodulename'] = 'Visi dalības reģistri';
+$string['auto'] = 'automātiski';
+$string['autoattend'] = 'Automātiski iegūt informāciju par piedalīšanos, pamatojoties uz lietotāju aktivitāšu žurnāliem';
+$string['autoattendmulti'] = 'Visiem reģistriem automātiski iegūt informāciju par piedalīšanos, pamatojoties uz lietotāju aktivitāšu žurnāliem';
+$string['autoattendshort'] = 'Automātiski no žurnāliem';
+$string['choosedays'] = 'Nedēļas dienas, par kurām iegūt informāciju par piedalīšanos';
+$string['dayofroll'] = 'Datums, kuram iegūt informāciju par piedalīšanos';
+$string['defaultautoattend'] = 'Vai pēc noklusējuma iegūt informāciju par dalību, pamatojoties uz lietotāju aktivitāšu žurnāliem';
+$string['defaultdynamicsection'] = 'Vai dalības reģistrus pēc noklusējuma pārvietot uz pareizo nedēļu';
+$string['defaultgrade'] = 'Vai dalības reģistrus pēc noklusējuma padarīt par vērtējamiem';
+$string['defaulthoursinclass'] = 'Cik stundām jābūt noklusējuma dalības reģistrā';
+$string['defaultmaxgrade'] = 'Kāda ir maksimālā noklusējuma vērtējuma vērtība pilnai dalībai';
+$string['defaultstudentstatus'] = 'Studenta dalības noklusējuma statuss jaunajiem dalības reģistriem';
+$string['downloadexcelfull'] = 'Lejupielādēt pilnu Excel izklājlapu';
+$string['downloadexceltotals'] = 'Lejupielādēt Excel kopsavilkuma izklājlapu';
+$string['downloadtextfull'] = 'Lejupielādēt pilnu teksta atskaiti';
+$string['downloadtexttotals'] = 'Lejupielādēt teksta kopsavilkuma atskaiti';
+$string['dynamicsection'] = 'Noteikt dalības nedēļu, pamatojoties uz šo datumu';
+$string['dynamicsectionmulti'] = 'Reģistrus automātiski ievietot atbilstošajā nedēļas sadaļā';
+$string['dynsectionshort'] = 'Dinamiski pārvietots uz sadaļu';
+$string['endbeforestart'] = 'Beigu datums ir senāks par sākuma datumu';
+$string['endmulti'] = 'Pēdējā dalības reģistra datums';
+$string['for'] = '—';
+$string['friday'] = 'Pk';
+$string['gradeshort'] = 'Novērtēts';
+$string['gradevalue'] = 'Padarīt šo reģistru vērtējamu';
+$string['gradevaluemulti'] = 'Padarīt šos reģistrus vērtējamus';
+$string['hoursinclass'] = 'Nodarbību perioda stundu skaits';
+$string['hoursineachclass'] = 'Stundu skaits katrā nodarbību periodā';
+$string['hoursinfullreport'] = 'Maksimālais dalības stundu skaits, kas jārāda vienā atskaites lapā';
+$string['maxgradeshort'] = 'Maksimālais vērtējums';
+$string['maxgradevalue'] = 'Maksimālā vērtējuma vērtība pilnai dalībai';
+$string['modulename'] = 'Dalība';
+$string['modulenameplural'] = 'Dalības reģistri';
+$string['monday'] = 'Pr';
+$string['norolls'] = 'Šajā kursā nav dalības reģistru';
+$string['notes'] = 'Izņēmuma informācija';
+$string['notesfor'] = 'Izņēmuma informācija par';
+$string['noviews'] = 'Atvainojiet, šeit nav datu par jūsu kontu';
+$string['of'] = 'no';
+$string['pages'] = 'Lapas';
+$string['presentlong'] = 'Piedalās';
+$string['presentshort'] = 'P';
+$string['saturday'] = 'Se';
+$string['startafterend'] = 'Sākuma datums ir jaunāks par kursu beigu datumu';
+$string['startmulti'] = 'Pirmā dalības reģistra datums';
+$string['sunday'] = 'Sv';
+$string['takeroll'] = 'Vai reģistrēt šo dienu?';
+$string['tardiesperabsence'] = 'Cik kavējumu ir jāuzskata par vienu prombūtni';
+$string['tardylong'] = 'Kavē';
+$string['tardyshort'] = 'K';
+$string['teacheredit'] = 'Piedalīties';
+$string['thursday'] = 'Ce';
+$string['tuesday'] = 'Ot';
+$string['viewall'] = 'Skatīt visus dalības reģistrus';
+$string['viewmulti'] = 'Skatīt atskaiti vairāku lapu veidā';
+$string['viewone'] = 'Skatīt atskaites visas lapas';
+$string['viewsection'] = 'Skatīt visus šīs sadaļas dalības reģistrus';
+$string['viewtable'] = 'Skatīt atskaiti vienas tabulas veidā';
+$string['viewweek'] = 'Skatīt visus šīs kalendārās nedēļas dalības reģistrus';
+$string['wednesday'] = 'Tr';
+$string['weekmodulename'] = 'Visi pēdējās nedēļas dalības reģistri';
+
+?>

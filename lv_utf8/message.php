@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.8.4 (2007021540)
+
+
+$string['addcontact'] = 'Pievienot adresātu';
+$string['addsomecontacts'] = 'Lai kādam adresātam nosūtītu ziņu vai šajā lapā pievienotu saīsni uz šo adresātu, izmantojiet iepriekš norādīto <a href=\"$a\">meklēšanas cilni</a>.';
+$string['addsomecontactsincoming'] = 'Šīs ziņas ir nosūtījušas personas, kuras nav iekļautas jūsu adresātu sarakstā. Lai šīs personas pievienotu savam adresātu sarakstam, noklikšķiniet uz blakus viņu vārdiem esošās ikonas “Pievienot adresātu”.';
+$string['ago'] = 'Pirms $a';
+$string['allmine'] = 'Visas man adresētās vai manis nosūtītās ziņas';
+$string['allstudents'] = 'Visas kursa studentu savstarpējās ziņas';
+$string['allusers'] = 'Visas visu lietotāju ziņas';
+$string['backupmessageshelp'] = 'Ja šī funkcija ir iespējota, tūlītējās ziņas tiks iekļautas VIETNES automātiskajos dublējumos.';
+$string['beepnewmessage'] = 'Atskaņot signālu, kad tiek saņemta jauna ziņa (iespējams, būs nepieciešams pārlūkprogrammas spraudnis, kas var atskaņot skaņas, piemēram, QuickTime).';
+$string['blockcontact'] = 'Bloķēt adresātu';
+$string['blockedmessages'] = '$a ziņa(-s), kas nosūtīta(-s) bloķētiem lietotājiem vai saņemta(-s) no tiem';
+$string['blocknoncontacts'] = 'Bloķēt visas jaunās ziņas, kas tiek saņemtas no personām, kuras nav iekļautas manā adresātu sarakstā';
+$string['contactlistempty'] = 'Jūsu adresātu saraksts pašlaik ir tukšs.';
+$string['contacts'] = 'Adresāti';
+$string['context'] = 'konteksts';
+$string['deletemessagesdays'] = 'Dienu skaits, cik ilgi ziņas tiek glabātas pirms to automātiskas izdzēšanas';
+$string['discussion'] = 'Diskusija';
+$string['emailmessages'] = 'E-pasta ziņas, kad esmu bezsaistē';
+$string['emailtagline'] = 'Šī e-pasta ziņa ir tās ziņas kopija, kas tika nosūtīta jums “{$a}”.';
+$string['emptysearchstring'] = 'Jāveic meklēšana';
+$string['formorethan'] = 'Vairāk nekā';
+$string['includeblockedusers'] = 'Iekļaut bloķētos lietotājus';
+$string['incomingcontacts'] = 'Ziņu nosūtītāji ($a)';
+$string['keywords'] = 'Atslēgvārdi';
+$string['keywordssearchresults'] = 'Meklēšanas rezultāti: atrastas $a ziņas.';
+$string['maxmessages'] = 'Maksimālais ziņu skaits, kas jārāda diskusijas vēsturē';
+$string['message'] = 'Ziņa';
+$string['messagehistory'] = 'Ziņas vēsture';
+$string['messages'] = 'Ziņas';
+$string['messaging'] = 'Ziņapmaiņa';
+$string['messagingdisabled'] = 'Šajā serverī ziņu sūtīšana ir atslēgta, to vietā tiks izsūtīti e-pasti';
+$string['mycontacts'] = 'Mani adresāti';
+$string['newonlymsg'] = 'Radīt tikai jaunās ziņas';
+$string['newsearch'] = 'Jauna meklēšana';
+$string['noframesjs'] = 'Versija bez ietvariem un JavaScript';
+$string['nomessages'] = 'Rindā nav nevienas ziņas.';
+$string['nomessagesfound'] = 'Nav atrasta neviena ziņa.';
+$string['nosearchresults'] = 'Nav atrasts neviens meklēšanas rezultāts.';
+$string['offline'] = 'Bezsaistē';
+$string['offlinecontacts'] = 'Adresāti bezsaistē ($a)';
+$string['online'] = 'Tiešsaistē';
+$string['onlinecontacts'] = 'Adresāti tiešsaistē ($a)';
+$string['onlyfromme'] = 'Tikai manis sūtītās ziņas';
+$string['onlymycourses'] = 'Tikai mani kursi';
+$string['onlytome'] = 'Tikai man sūtītās ziņas';
+$string['pagerefreshes'] = 'Šī lapa tiek automātiski atjaunota pēc $a sekundēm.';
+$string['readmessages'] = '$a izlasītas ziņas';
+$string['removecontact'] = 'Dzēst adresātu';
+$string['savemysettings'] = 'Saglabāt manus iestatījumus';
+$string['search'] = 'Meklēt';
+$string['searchforperson'] = 'Meklēt personu';
+$string['searchmessages'] = 'Meklēt ziņas';
+$string['sendmessage'] = 'Nosūtīt ziņu';
+$string['sendmessageto'] = 'Nosūtīt ziņu adresātam $a';
+$string['sendmessagetopopup'] = 'Nosūtīt ziņu adresātam $a jaunā logā';
+$string['settings'] = 'Iestatījumi';
+$string['settingssaved'] = 'Jūsu veiktie iestatījumi ir saglabāti.';
+$string['showmessagewindow'] = 'Saņemot jaunu ziņu, automātiski rādīt logu Ziņa (pārlūkprogrammas iestatījumos šai vietnei jābūt atļautiem uznirstošajiem logiem)';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'Minūtes, kopš pēdējo reizi esmu redzēts tiešsaistē';
+$string['timesent'] = 'Nosūtīšanas laiks';
+$string['unblockcontact'] = 'Atbloķēt adresātu';
+$string['unreadmessages'] = '$a neizlasītas ziņas';
+$string['userisblockingyou'] = 'Šis lietotājs ir bloķējis jūsu nosūtītās ziņas.';
+$string['userisblockingyounoncontact'] = 'Šis lietotājs pieņem ziņas tikai no personām, kuras ir norādītas sarakstā kā adresāti, un jūs neesat iekļauts šajā sarakstā.';
+$string['userssearchresults'] = 'Meklēšanas rezultāti: atrasti $a lietotāji.';
+
+?>
