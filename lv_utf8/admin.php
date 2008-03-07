@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8.4 (2007021540)
+      // admin.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['accessdenied'] = 'Piekļuve liegta';
@@ -341,6 +341,7 @@ $string['langimport'] = 'Valodu importēšanas utilīta';
 $string['langimportsuccess'] = 'Valodas pakotne jaunināta sekmīgi';
 $string['langlist'] = 'Valodas izvēlnē iekļautās valodas';
 $string['langmenu'] = 'Rādīt valodas izvēlni';
+$string['langnoeditenglish'] = 'Neizdevās pārrakstīt bāzes angļu valodas pakotni. Lūdzu nomainiet lang direktoriju, lai veiktu lokālas izmaiņas';
 $string['langpackremoved'] = 'Valodas pakotne tika atinstalēta';
 $string['langpacks'] = 'Valodu pakotnes';
 $string['langpackupdated'] = 'Valodas pakotne $a tika sekmīgi instalēta';
@@ -583,5 +584,6 @@ $string['userscreated'] = 'Lietotāji izveidoti';
 $string['usersrenamed'] = 'Lietotāji pārdēvēti';
 $string['usersupdated'] = 'Lietotāji atjaunināti';
 $string['validateerror'] = 'Nebija derīga šī vērtība:';
+$string['xmlrpcrecommended'] = 'Neobligātās xmlrpc pakotnes uzstādīšana ir noderīga Moodle tīklošanas funkcionalitātei.';
 
 ?>

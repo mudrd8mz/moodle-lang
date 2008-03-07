@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.4+ (2007021540)
+      // moodle.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['action'] = 'Darbība';
@@ -1199,6 +1199,8 @@ $string['rsserror'] = 'RSS datu lasīšanas kļūda';
 $string['rsstype'] = 'Šīs aktivitātes RSS plūsma';
 $string['saveandnext'] = 'Saglabāt un rādīt nākamo';
 $string['savechanges'] = 'Saglabāt izmaiņas';
+$string['savechangesanddisplay'] = 'Saglabāt un parādīt';
+$string['savechangesandreturntocourse'] = 'Saglabāt un atgriezties kursā';
 $string['savedat'] = 'Saglabāts:';
 $string['savepreferences'] = 'Saglabāt iestatījumus';
 $string['saveto'] = 'Saglabāt šeit:';

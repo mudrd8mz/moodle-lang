@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.8.4 (2007021540)
+      // access.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['access'] = 'Pieejamība';
@@ -24,6 +24,5 @@ $string['tablelayout'] = 'Izkārtojumu tabula $a';
 $string['tocontent'] = 'Atvērt galveno saturu';
 $string['tonavigation'] = 'Atvērt naviģēšanu';
 $string['youarehere'] = 'Jūs esat šeit';
-$string['showhideblock'] = 'Rādīt vai paslēpt bloku'; // ORPHANED
 
 ?>

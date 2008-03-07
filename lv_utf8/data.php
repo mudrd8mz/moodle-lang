@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 beta + (2006101003)
+      // data.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['action'] = 'Darbība';
@@ -26,9 +26,9 @@ $string['cancel'] = 'Atcelt';
 $string['checkbox'] = 'Izvēles rūtiņa';
 $string['chooseorupload'] = 'Izvēlēties failu';
 $string['columns'] = 'kolonnas';
+$string['comment'] = 'Komentārs';
 $string['commentdeleted'] = 'Komentārs izdzēsts';
 $string['commentempty'] = 'Komentārs bija tukšs';
-$string['comment'] = 'Komentārs';
 $string['comments'] = 'Komentāri';
 $string['commentsaved'] = 'Komentārs saglabāts';
 $string['commentsn'] = '$a komentārs(-i)';
@@ -66,11 +66,12 @@ $string['download'] = 'Lejupielādēt';
 $string['edit'] = 'Rediģēt';
 $string['editcomment'] = 'Rediģēt komentāru';
 $string['editentry'] = 'Rediģēt ievadni';
-$string['editorenable'] = 'Iespējot redaktoru';
 $string['editordisable'] = 'Atspējot redaktoru';
+$string['editorenable'] = 'Iespējot redaktoru';
 $string['emptyadd'] = 'Pievienošanas veidne ir tukša, tiek ģenerēta noklusējuma veidlapa...';
 $string['emptyaddform'] = 'Jūs neaizpildījāt nevienu lauku!';
 $string['entries'] = 'Ievadnes';
+$string['entrieslefttoadd'] = 'Pirms apskatīt pārējo dalībnieku ievadnes, jums vēl jāpievieno $a ievadne/ievadnes.';
 $string['entry'] = 'Ievadne';
 $string['entrysaved'] = 'Jūsu ievadne tika saglabāta';
 $string['errormustbeteacher'] = 'Lai izmantotu šo lapu, jums ir jābūt pasniedzējam!';
@@ -88,11 +89,11 @@ $string['fieldenclosure'] = 'Lauka apvilkums';
 $string['fieldheight'] = 'Augstums';
 $string['fieldheightlistview'] = 'Augstums saraksta skatā';
 $string['fieldheightsingleview'] = 'Augstums atsevišķajā skatā';
+$string['fieldids'] = 'Lauku ID';
 $string['fieldmappings'] = 'Lauku kartējumi';
 $string['fieldname'] = 'Lauka nosaukums';
 $string['fieldoptions'] = 'Opcijas (katrā rindiņā pa vienai)';
 $string['fields'] = 'Lauki';
-$string['fieldids'] = 'Lauku ID';
 $string['fieldupdated'] = 'Lauks atjaunināts';
 $string['fieldwidth'] = 'Platums';
 $string['fieldwidthlistview'] = 'Platums saraksta skatā';
@@ -207,9 +208,9 @@ $string['savesettings'] = 'Saglabāt iestatījumus';
 $string['savesuccess'] = 'Saglabāts sekmīgi. Jūsu sākotnējais iestatījums tagad būs pieejams visā vietnē.';
 $string['savetemplate'] = 'Saglabāt veidni';
 $string['sendinratings'] = 'Iesūtīt manus jaunākos novērtējumus';
+$string['showall'] = 'Rādīt visas ievadnes';
 $string['single'] = 'Skatīt vienu';
 $string['singletemplate'] = 'Atsevišķa veidne';
-$string['showall'] = 'Rādīt visas ievadnes';
 $string['teachersandstudents'] = '$a->teachers un $a->students';
 $string['templates'] = 'Veidnes';
 $string['templatesaved'] = 'Veidne saglabāta';
@@ -226,4 +227,5 @@ $string['usestandard'] = 'Izmantot sākotnēju iestatījumu';
 $string['viewfromdate'] = 'Skatāms no';
 $string['viewtodate'] = 'Skatāms līdz';
 $string['wrongdataid'] = 'Norādīts nepareizs datu ID';
+
 ?>
