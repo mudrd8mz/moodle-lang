@@ -577,5 +577,6 @@ $string['userscreated'] = 'Novovytvorené používateľské účty';
 $string['usersrenamed'] = 'Premenované používateľské účty';
 $string['usersupdated'] = 'Aktualizované používateľské účty';
 $string['validateerror'] = 'Táto hodnota nie je validná:';
+$string['xmlrpcrecommended'] = 'Inštalácia nepovinného rozšírenia xmlrpc je potrebná v prípade požadovania funkcionality siete Moodle serverov.';
 
 ?>
