@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2007101506)
+      // scorm.php - created with Moodle 2.0 dev (2008030700)
 
 
 $string['activation'] = 'Activatie';
@@ -152,6 +152,7 @@ $string['validationtype'] = 'Deze instelling maakt dat de DOMXML-bibliotheek geb
 $string['value'] = 'Waarde';
 $string['versionwarning'] = 'De versie van het Manifest is ouder dan 1.3, waarschuwing bij tag $a->tag';
 $string['viewallreports'] = 'Bekijk de rapporten voor $a pogingen';
+$string['viewalluserreports'] = 'Bekijk de rapporten voor $a gebruikers';
 $string['whatgrade'] = 'Te beoordelen pogingen';
 $string['width'] = 'Breedte';
 $string['window'] = 'Frame/venster';
