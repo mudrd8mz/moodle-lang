@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101509)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['activities'] = '活動';
@@ -487,6 +487,7 @@ $string['typetext'] = 'テキスト';
 $string['typevalue'] = '値';
 $string['uncategorised'] = 'カテゴリなし';
 $string['unchangedgrade'] = '評点変更なし';
+$string['unenrolledusersinimport'] = 'このインポートには、現在コースに受講登録されていない次のユーザの評点が含まれています: $a';
 $string['unlock'] = 'ロック解除';
 $string['unlockverbose'] = '$a->category$a->itemmodule $a->itemname をロック解除する';
 $string['unused'] = '未使用';
@@ -499,6 +500,7 @@ $string['usenooutcome'] = '結果を使用しない';
 $string['usenoscale'] = '尺度を使用しない';
 $string['usepercent'] = 'パーセントを使用';
 $string['user'] = 'ユーザ';
+$string['usergrade'] = '評定項目 $a->gradeidnumber のユーザ $a->fullname ($a->useridnumber)';
 $string['userkeyhelp'] = 'このエクスポートプラグインにより公開されるデータに対して、ユーザがMoodleへのログインなしでアクセスするために必要な保存キーを選択してください。「新しいユーザキーを作成する」を選択することで、このフォームの送信時に新しいユーザキーを作成することができます。';
 $string['userpreferences'] = 'ユーザ属性';
 $string['useweighted'] = '加重を使用';
