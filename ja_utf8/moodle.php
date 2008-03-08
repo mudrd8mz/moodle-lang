@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101509)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -414,7 +414,7 @@ $string['edhelpcleanword'] = 'ここでは、Word特有のフォーマットを�
 $string['edhelpenablespelling'] = 'スペルチェックを行うかどうか設定します。スペルチェックを行う場合、<strong>aspell</strong>が自動的にサーバにインストールされます。';
 $string['edhelpfontfamily'] = 'フォントファミリー属性は、フォントファミリーの一覧および一般的なフォントファミリー名です。フォントファミリー名はカンマで区切ってください。';
 $string['edhelpfontlist'] = 'エディタのドロップダウンメニューで使用されるフォントを設定します。';
-$string['edhelpfontsize'] = 'デフォルトフォントサイズではフォントのサイズを設定します。<br />正しい値の例: medium, large, smaller, larger, 10pt, 11px.';
+$string['edhelpfontsize'] = 'ここでは、デフォルトのフォントサイズを設定します。<br />有効な値の例: medium, large, smaller, larger, 10pt, 11px.';
 $string['edit'] = '$a 編集';
 $string['editcategorysettings'] = 'カテゴリ設定の編集';
 $string['editcategorythis'] = 'このカテゴリを編集する';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101509)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -100,7 +100,7 @@ $string['configdigestmailtime'] = 'メール送信する選択をしたユーザ
 $string['configdisablecourseajax'] = 'メインコースページを編集する場合、AJAXを使用しません。';
 $string['configdisableuserimages'] = 'ユーザがユーザプロファイルイメージを変更できないようにします。';
 $string['configdisplayloginfailures'] = 'ここで選択したユーザに前回のログイン失敗情報を表示します。';
-$string['configdocroot'] = 'Moodle Docsのパスを定義します。独自のオンラインドキュメントを使用したい場合、この設定を変更することができます。設定を変更する場合、ドキュメンテーションのパスが、http://docs.moodle.orgと同じフォーマットであることを確認してください。';
+$string['configdocroot'] = 'Moodle Docsのパスを定義します。独自のオンラインドキュメントを使用したい場合、この設定を変更することができます。設定を変更する場合、ドキュメンテーションのパスが http://docs.moodle.org と同じフォーマットであることを確認してください。';
 $string['configdoctonewwindow'] = 'この設定を有効にした場合、新しいウィンドウにMoodle Docsの内容が表示されます。';
 $string['configeditordictionary'] = 'この値は、aspellがユーザ言語の辞書を持っていない場合に使用されます。';
 $string['configeditorfontlist'] = 'エディタのドロップダウンリストに表示されるフォントを選択してください。';
@@ -136,7 +136,7 @@ $string['configgradeexport'] = 'どの評定表エクスポートフォーマッ
 $string['configguestroleid'] = 'このロールは自動的にゲストに割り当てられます。また、パスワードなしで受講できるコースに入ったユーザに対しても一時的に割り当てられます。このロールが「moodle/legacy:guest」および「moodle/course:view」ケーパビリティを持っているか確認してください。';
 $string['confighiddenuserfields'] = 'コース教師/管理者以外のユーザに隠したいユーザ情報フィールドを選択してください。この設定により、ユーザのプライバシーを強化することができます。複数のフィールドを選択するには、CTRLキーを押したままにしてください。';
 $string['confighideactivitytypenavlink'] = '活動モジュールで表示されるナビゲーション内の活動タイプ (例 小テスト) リンクを誰に非表示にするか選択してください。';
-$string['confightmleditor'] = '内蔵れたHTMLテキストエディタの使用を許可するかどうか選択してください。「許可する」を選択した場合、互換性のあるブラウザが使われる場合のみ、このエディタが表示されます。ユーザはエディタを使用しない選択をすることもできます。';
+$string['confightmleditor'] = 'Moodleに内蔵れたHTMLテキストエディタの使用を許可するかどうか選択してください。有効に選択した場合、互換性のあるブラウザ使用時のみ、このエディタが表示されます。ユーザは、HTMLエディタを使用しない選択をすることもできます。';
 $string['configidnumber'] = 'このオプションでは次の内容を設定します。(a)ユーザがユーザIDの入力を求められない、(b)ユーザがユーザIDを空白にすることができる、(c)ユーザはユーザIDの入力を求められ、空白にできない。ユーザIDが入力された場合、プロファイルに表示されます。';
 $string['configintcachemax'] = 'この値は内部キャッシュのみに使用します。キャッシュに保持する最大レコード数です。推奨値は50です。 メモリ使用量を減らすには、値を低くしてください。';
 $string['configintro'] = 'このページではMoodleがサーバで最適に動くための設定値を入力できます。設定値を過度に心配しないでください - 通常、デフォルト値で最適に動作するよう設定されています。いつでもこのページに戻って再度設定することができます。';
@@ -168,7 +168,7 @@ $string['configminpasswordlength'] = 'パスワードは、少なくともここ
 $string['configminpasswordlower'] = 'パスワードには、少なくともここで設定した数の小文字を使用する必要があります。';
 $string['configminpasswordnonalphanum'] = 'パスワードには、少なくともここで設定した数の非英数字を使用する必要があります。';
 $string['configminpasswordupper'] = 'パスワードには、少なくともここで設定した数の大文字を使用する必要があります。';
-$string['configmymoodleredirect'] = 'この設定では、管理者以外のユーザがログインした後、 /my へ強制的にリダイレクトします。また、トップレベルのサイト・ブレッドクラムを /my に置き換えます。';
+$string['configmymoodleredirect'] = 'この設定では、管理者以外のユーザがログインした場合、 強制的に /my へリダイレクトします。また、トップレベルのサイトブレッドクラムを /my に置き換えます。';
 $string['confignodefaultuserrolelists'] = 'この設定では、デフォルトロールがサイトコースにアクセスを提供している場合、廃止予定のget_course_user等のコールを使用してデータベースからすべてのユーザに対してデフォルトロールを戻さないようにします。パフォーマンスに問題がある場合、この設定を有効にしてください。';
 $string['confignonmetacoursesyncroleids'] = '子コースからのすべての受講登録は、デフォルトでメタコースに同期されます。ここで選択されたロールは、同期化処理に含まれません。';
 $string['confignoreplyaddress'] = 'Moodleでは、メールがユーザに送信される場合があります (例 フォーラムの投稿)。ここで設定するメールアドレスは、「From」に使用され、受信者が直接送信者に返信できないようにします (例 ユーザが個人のメールアドレスを隠す設定を行っている場合)。';
@@ -620,7 +620,7 @@ $string['sessioncookiepath'] = 'クッキーパス';
 $string['sessionhandling'] = 'セッションハンドリング';
 $string['sessiontimeout'] = 'タイムアウト';
 $string['showblocksonmodpages'] = 'モジュールページにブロックを表示する';
-$string['simpletest'] = '単体テスト';
+$string['simpletest'] = 'ユニットテスト';
 $string['sitelangchanged'] = 'サイト言語の設定が正常に完了しました。';
 $string['sitemailcharset'] = '文字セット';
 $string['sitemaintenance'] = 'このサイトはメンテナンス中です。現在ご利用いただけません。';
