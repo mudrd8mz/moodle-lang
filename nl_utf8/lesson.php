@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (2007101506)
+      // lesson.php - created with Moodle 2.0 dev (2008030700)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
@@ -179,6 +179,7 @@ $string['nobranchtablefound'] = 'Geen vertakkingstabel gevonden';
 $string['nocommentyet'] = 'Nog geen commentaar';
 $string['nocoursemods'] = 'Geen activiteiten gevonden';
 $string['nocredit'] = 'Geen krediet';
+$string['nodeadline'] = 'Geen deadline';
 $string['noessayquestionsfound'] = 'Er zijn geen open vragen gevonden in deze les';
 $string['nohighscores'] = 'Geen hoogste cijfer';
 $string['nolessonattempts'] = 'Niemand heeft deze les gemaakt.';
@@ -205,7 +206,6 @@ $string['or'] = 'OF';
 $string['ordered'] = 'Gesorteerd';
 $string['other'] = 'Andere';
 $string['outof'] = 'Van $a';
-$string['outoftime'] = 'Tijd is op';
 $string['overview'] = 'Overzicht';
 $string['page'] = 'Pagina: $a';
 $string['pagecontents'] = 'Inhoud van de pagina';
@@ -263,7 +263,6 @@ $string['startlesson'] = 'Start de les';
 $string['studentattemptlesson'] = 'Pogingnummer $a->attempt van $a->lastname, $a->firstname';
 $string['studentname'] = '$a naam';
 $string['studentoneminwarning'] = 'Waarschuwing: je hebt nog één minuut of minder om deze les af te werken.';
-$string['studentoutoftime'] = 'Opgelet: je tijd voor deze les is op. Je laatste antwoord telt niet mee omdat het ingediend is nadat de tijd verstreken was. Klik op de knop \"ga verder\" om de les te beëindigen.';
 $string['studentresponse'] = 'Het antwoord van {$a}';
 $string['submitname'] = 'Geef een naam';
 $string['teacherjumpwarning'] = 'Er wordt een $a->cluster sprong of een $a->unseen sprong gebruikt in deze les. De sprong naar de volgende pagina zal in de plaats gebruikt worden. Meld je aan als leerling om deze sprongen te testen.';
@@ -302,6 +301,8 @@ $string['youranswer'] = 'Jouw antwoord';
 $string['yourcurrentgradeis'] = 'Je cijfer is nu $a';
 $string['yourcurrentgradeisoutof'] = 'Je huidige cijfer is $a->grade op $a->total';
 $string['youshouldview'] = 'Minimum te bekijken: $a';
+$string['outoftime'] = 'Tijd is op'; // ORPHANED
+$string['studentoutoftime'] = 'Opgelet: je tijd voor deze les is op. Je laatste antwoord telt niet mee omdat het ingediend is nadat de tijd verstreken was. Klik op de knop \"ga verder\" om de les te beëindigen.'; // ORPHANED
 $string['editlesson'] = 'Bewerk $a'; // ORPHANED
 
 ?>

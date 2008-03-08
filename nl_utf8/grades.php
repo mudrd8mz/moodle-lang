@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101509)
+      // grades.php - created with Moodle 2.0 dev (2008030700)
 
 
 $string['activities'] = 'Activiteiten';
@@ -37,7 +37,7 @@ $string['aggregationcoefweight'] = 'Weging beoordelingsitem';
 $string['aggregationcoefweighthelp'] = 'Weging, toegepast op alle cijfers in dit beoordelingsitem tijdens een aggregatie met andere beoordelingsitems';
 $string['aggregationhelp'] = 'Gebruikte strategie voor het aggregeren (samenvoegen) van cijfers voor alle leerlingen in een cursus.';
 $string['aggregationposition'] = 'Aggregatiepositie';
-$string['aggregationview'] = 'Aggregatie bekijken';
+$string['aggregationview'] = 'Aggregatieopmaak';
 $string['allgrades'] = 'Alle cijfers per categorie';
 $string['allstudents'] = 'Alle leerlingen';
 $string['allusers'] = 'Alle gebruikers';
@@ -488,6 +488,7 @@ $string['typetext'] = 'Text';
 $string['typevalue'] = 'Waarde';
 $string['uncategorised'] = 'Zonder categorie';
 $string['unchangedgrade'] = 'Beoordeling ongewijzigd';
+$string['unenrolledusersinimport'] = 'In deze import zaten cijfers voor gebruikers die niet in de cursus aangemeld zijn: $a';
 $string['unlock'] = 'deblokkeer';
 $string['unlockverbose'] = '$a->category$a->itemmodule $a->itemname vrijgeven';
 $string['unused'] = 'Ongebruikt';
@@ -500,6 +501,7 @@ $string['usenooutcome'] = 'Gebruik geen competentie';
 $string['usenoscale'] = 'Gebruik geen schaal';
 $string['usepercent'] = 'Gebruik procent';
 $string['user'] = 'Gebruiker';
+$string['usergrade'] = 'Gebruiker $a->fullname ($a->useridnumber) op item $a->gradeidnumber';
 $string['userkeyhelp'] = 'Kies een bewaarde sleutel die gebruikers toegang zal geven tot de gegevens, gepubliceerd door deze export-plugin, zonder te moeten inloggen in Moodle.
 Kies \'maak nieuwe gebruikerssleutel\' om een nieuwe sleutel te maken wanneer je dit formulier instuurt.';
 $string['userpreferences'] = 'Gebruikersvoorkeuren';
