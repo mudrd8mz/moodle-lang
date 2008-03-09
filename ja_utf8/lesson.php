@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080305) (2008030500)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -61,7 +61,7 @@ $string['correctresponse'] = '正解に対するレスポンス';
 $string['credit'] = '承認';
 $string['customscoring'] = 'カスタムスコア';
 $string['deadline'] = 'レッスン終了日時';
-$string['defaultessayresponse'] = 'あなたの作文はコース教師によって評定されます。';
+$string['defaultessayresponse'] = 'あなたの作文は、コース教師によって評定されます。';
 $string['deleteallattempts'] = 'すべてのレッスン受験を削除する';
 $string['deletedefaults'] = '$a x レッスンデフォルトを削除しました。';
 $string['deletedpage'] = 'ページを削除しました。';
@@ -94,8 +94,8 @@ $string['endoflesson'] = 'レッスン終了';
 $string['enteredthis'] = '入力されました。';
 $string['entername'] = 'ハイスコアリストのニックネームを入力してください。';
 $string['enterpassword'] = 'パスワードを入力してください:';
-$string['eolstudentoutoftime'] = 'お知らせ: このレッスンの制限時間が終了しました。制限時間終了後に答えた内容はカウントされません。';
-$string['eolstudentoutoftimenoanswers'] = 'あなたは問題に解答していません。このレッスンのあなたの評点は、0点です。';
+$string['eolstudentoutoftime'] = 'お知らせ: このレッスンの制限時間が終了しました。制限時間終了後に答えた場合、解答内容はカウントされません。';
+$string['eolstudentoutoftimenoanswers'] = 'あなたは、どの問題にも解答していません。このレッスンのあなたの評点は、0点です。';
 $string['essay'] = '作文問題';
 $string['essayemailmessage'] = '<p>作文問題:<blockquote>$a->question</blockquote></p>
 <p>あなたの解答:<blockquote><em>$a->response</em></blockquote></p>
