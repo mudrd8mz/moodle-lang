@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (2007101508.04)
+      // data.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['action'] = '操作';
-$string['add'] = 'エントリの追加';
-$string['addafield'] = 'フィールドの追加';
-$string['addcomment'] = 'コメントの追加';
-$string['addentries'] = 'エントリの追加';
+$string['add'] = 'エントリを追加する';
+$string['addafield'] = 'フィールドを追加する';
+$string['addcomment'] = 'コメントを追加する';
+$string['addentries'] = 'エントリを追加する';
 $string['addtemplate'] = 'エントリ追加用テンプレート';
 $string['advancedsearch'] = '検索オプション';
 $string['allowcomments'] = 'コメントを許可しますか?';
@@ -18,15 +18,15 @@ $string['asearchtemplate'] = '検索オプションテンプレート';
 $string['atmaxentry'] = 'あなたは、許可された最大数のエントリを入力しました!';
 $string['autogenallforms'] = 'すべてのデフォルトテンプレートを生成する';
 $string['autolinkurl'] = 'URIにオートリンクする';
-$string['availablefromdate'] = '利用開始日時';
+$string['availablefromdate'] = '利用開始';
 $string['availabletags'] = '利用可能なタグ';
-$string['availabletodate'] = '利用終了日時';
+$string['availabletodate'] = '利用終了';
 $string['blank'] = 'ブランク';
 $string['buttons'] = 'ボタン';
 $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cancel'] = 'キャンセル';
 $string['checkbox'] = 'チェックボックス';
-$string['chooseorupload'] = 'ファイルを選択';
+$string['chooseorupload'] = 'ファイルを選択する';
 $string['columns'] = 'カラム';
 $string['comment'] = 'コメント';
 $string['commentdeleted'] = 'コメントが削除されました。';
@@ -68,8 +68,8 @@ $string['descending'] = '降順';
 $string['directorynotapreset'] = '$a->directory はプリセットではありません。不明のファイル: $a->missing ファイル';
 $string['download'] = 'ダウンロード';
 $string['edit'] = '編集';
-$string['editcomment'] = 'コメントの編集';
-$string['editentry'] = 'エントリの編集';
+$string['editcomment'] = 'コメントを編集する';
+$string['editentry'] = 'エントリを編集する';
 $string['editordisable'] = 'エディタを無効にする';
 $string['editorenable'] = 'エディタを有効にする';
 $string['emptyadd'] = '追加用テンプレートが空です。デフォルトフォームを生成しています ...';
@@ -227,12 +227,12 @@ $string['todatabase'] = '>> データベース';
 $string['type'] = 'フィールドタイプ';
 $string['undefinedprocessactionmethod'] = 'アクション「 $a 」を処理するためのメソッドがData_Presetに定義されていません。';
 $string['updatefield'] = '既存のフィールドを更新します。';
-$string['uploadfile'] = 'ファイルのアップロード';
+$string['uploadfile'] = 'ファイルをアップロードする';
 $string['uploadrecords'] = 'ファイルからエントリをアップロードする';
 $string['url'] = 'URI';
 $string['usestandard'] = 'プリセットを使用する';
-$string['viewfromdate'] = '表示開始日時';
-$string['viewtodate'] = '表示終了日時';
+$string['viewfromdate'] = '表示開始';
+$string['viewtodate'] = '表示終了';
 $string['wrongdataid'] = '無効なデータIDが提供されました。';
 
 ?>
