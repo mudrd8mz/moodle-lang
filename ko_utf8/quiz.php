@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (2007101508)
+      // quiz.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['1day'] = '하루';
@@ -281,7 +281,7 @@ $string['importcategory'] = '범주 가져오기';
 $string['importerror'] = '가져오기 과정에서 오류 발생';
 $string['importerrorquestion'] = '질문 가져오기 오류';
 $string['importfilearea'] = '강좌에 있는 기존 파일에서 가져오기';
-$string['importfileupload'] = '올려진 파일에서 가져오기';
+$string['importfileupload'] = '내려받은 파일에서 가져오기';
 $string['importfromthisfile'] = '이 파일에서 가져오기';
 $string['importingquestions'] = '파일에서 $a 문항 가져오기';
 $string['importmax10error'] = '질문에 오류가 있습니다. 당신은 열 개 이상의 답을 가질 수 없습니다.';
@@ -542,7 +542,7 @@ $string['sortsubmit'] = '질문 정렬';
 $string['sorttypealpha'] = '형식, 이름으로 정렬';
 $string['startagain'] = '다시 시작';
 $string['startedon'] = '시작';
-$string['stoponerror'] = '오류로 중단됨';
+$string['stoponerror'] = '오류시 중단함';
 $string['subneterror'] = '미안합니다. 이 퀴즈는 잠겨있으므로 특정한 위치에서만 이용가능합니다. 현재 당신의 컴퓨터는 이 퀴즈를 이용할 수 없습니다.';
 $string['subnetnotice'] = '이 퀴즈는 특정한 지역에서만 접근 가능하도록 하기위해서 잠겨져 있습니다. 당신의 컴퓨터는 허용된 지역이 아닙니다. 어쨋든 선생님이라면 미리보기가 허용됩니다.';
 $string['substitutedby'] = '다음으로 대체';
