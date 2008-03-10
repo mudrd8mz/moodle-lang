@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 + (2007021503)
+      // blog.php - created with Moodle 1.9 (2007101509)
 
 
 $string['addnewentry'] = 'Nytt innlegg';
-$string['addotags'] = 'Legg til offisielle tagger';
-$string['addptags'] = 'Legg til egendefinerte tagger';
+$string['backupblogshelp'] = 'Hvis denne er slått på vil blogger bli inkludert i NETTSTEDETS automatiserte backuper.';
 $string['blockmenutitle'] = 'Bloggmeny';
 $string['blocktagstitle'] = 'Blogg tagger';
 $string['blocktitle'] = 'Bloggtagger blokktittel';
@@ -34,10 +33,8 @@ $string['norighttodeletetag'] = 'Du har ikke tillatelse til å slette denne tagg
 $string['notallowedtoedit'] = 'Du har ikke tillatelse til å redigere dette innlegget';
 $string['numberofentries'] = 'Innlegg: $a';
 $string['numberoftags'] = 'Antall tagger som kan vises';
-$string['otags'] = 'Offisielle tagger';
 $string['pagesize'] = 'Antall innlegg pr side';
 $string['personalblogs'] = 'Brukere kan kun se deres egne blogger';
-$string['ptags'] = 'Brukerdefinerte tagger';
 $string['publishto'] = 'Publisert til';
 $string['publishtonoone'] = 'Meg selv (kladd)';
 $string['publishtosite'] = 'Alle på denne siten';
@@ -56,5 +53,9 @@ $string['viewcourseentries'] = 'Vis blogg-innlegg fra kurset';
 $string['viewmyentries'] = 'Vis mine innlegg';
 $string['viewsiteentries'] = 'Vis blogg-innlegg fra hele siten';
 $string['worldblogs'] = 'Hele verden kan lese innlegg som settes til fri tilgang.';
+$string['addotags'] = 'Legg til offisielle tagger'; // ORPHANED
+$string['addptags'] = 'Legg til egendefinerte tagger'; // ORPHANED
+$string['otags'] = 'Offisielle tagger'; // ORPHANED
+$string['ptags'] = 'Brukerdefinerte tagger'; // ORPHANED
 
 ?>
