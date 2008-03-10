@@ -1,7 +1,12 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.7.1+ (2006101010)
+      // access.php - created with Moodle 1.9 (2007101509)
+      // local modifications from http://localhost
 
 
+$string['currenttopic'] = 'Nåværende emne';
+$string['currentweek'] = 'Denne uka';
+$string['hideblocka'] = 'Skjul $a boksen';
+$string['showblocka'] = 'Vis $a boksen';
 $string['access'] = 'Tilgjengelighet';
 $string['accesshelp'] = 'Hjelp om tilgjengelighet';
 $string['accesskey'] = 'Adgangsnøkkel, $a';
