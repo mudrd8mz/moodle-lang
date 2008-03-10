@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // lesson.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['accesscontrol'] = 'Adgangskontrol';
@@ -55,9 +55,9 @@ $string['confirmdeletionofthispage'] = 'Bekræft sletning af denne side.';
 $string['congratulations'] = 'Tillykke - Denne lektion er slut.';
 $string['continue'] = 'Fortsæt';
 $string['continuetoanswer'] = 'Fortsæt med at ændre svar.';
-$string['correctanswerjump'] = 'Korrekt svar spring';
+$string['correctanswerjump'] = 'Spring ved korrekt svar';
 $string['correctanswerscore'] = 'Korrekt svar score';
-$string['correctresponse'] = 'Korrekt svar';
+$string['correctresponse'] = 'Respons, korrekt svar';
 $string['credit'] = 'Point';
 $string['customscoring'] = '<acronym title=\"Specificer point for hvert spørgsmål\">Spørgsmålsspecifikke point</acronym>';
 $string['deadline'] = 'Afleveringsfrist';
@@ -101,7 +101,7 @@ $string['essayemailsubject'] = 'Din karakter for $a spørgsmål';
 $string['essays'] = 'Tekstsvar';
 $string['essayscore'] = 'Tekstsvar score';
 $string['fileformat'] = 'Filformat';
-$string['firstanswershould'] = 'Første svar skal hoppe til den \"korrekte\" side';
+$string['firstanswershould'] = 'Første svar skal springe til den \"korrekte\" side';
 $string['firstwrong'] = 'Du kan desværre ikke få point for dette spørgsmål fordi dit svar var forkert. Vil du fortsætte med at gætte for hyggens skyld?';
 $string['flowcontrol'] = 'Forgreningskontrol';
 $string['full'] = 'Udfoldet';
@@ -261,8 +261,8 @@ $string['studentname'] = '$a Navn';
 $string['studentoneminwarning'] = 'Bemærk: Du har et minut til at færdiggøre lektionen.';
 $string['studentresponse'] = '{$a}\'s reaktion';
 $string['submitname'] = 'Gem navn';
-$string['teacherjumpwarning'] = 'Et $a->cluster hop eller et $a->unseen hop bliver benyttet i denne lektion. Et 
-\'Næste side\'-hop vil blive brugt i stedet. Login som elev for at teste disse hop.';
+$string['teacherjumpwarning'] = 'Et $a->cluster spring eller et $a->unseen spring bliver benyttet i denne lektion. Et 
+\'Næste side\'-spring vil blive brugt i stedet. Login som elev for at teste disse spring.';
 $string['teacherongoingwarning'] = 'Løbende score vises kun for elever. Log ind som elev for at teste løbende score.';
 $string['teachertimerwarning'] = 'Timeren virker kun for elever. Du kan teste det ved at logge ind som elev.';
 $string['thatsthecorrectanswer'] = 'Dette er det rigtige svar';
@@ -288,9 +288,9 @@ $string['viewhighscores'] = 'Vis highscoreliste';
 $string['viewreports'] = 'Vis $a->attempts gennemførte $a->student forsøg';
 $string['welldone'] = 'Fint!';
 $string['whatdofirst'] = 'Hvad vil du gøre først?';
-$string['wronganswerjump'] = 'Forkert-svar-hop';
+$string['wronganswerjump'] = 'Spring ved forkert svar';
 $string['wronganswerscore'] = 'Forkert svarscore';
-$string['wrongresponse'] = 'Forkert reaktion';
+$string['wrongresponse'] = 'Respons, forkert svar';
 $string['xattempts'] = '$a forsøg';
 $string['youhaveseen'] = 'Du har allerede set mere end en side af denne lektion. <br />Ønsker du at starte på den sidste side du så?';
 $string['youmadehighscore'] = 'Tillykke du er kommet på top $a highscorelisten';
