@@ -1,20 +1,24 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 + (2007021503)
+      // calendar.php - created with Moodle 1.9 (2007101509)
 
 
 $string['advancedoptions'] = 'Avanserte innstillinger';
+$string['allday'] = 'Hele dagen';
 $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '$a Kalender';
 $string['clickhide'] = 'klikk for å skjule';
 $string['clickshow'] = 'klikk for å vise';
 $string['commontasks'] = 'Innstillinger';
 $string['confirmeventdelete'] = 'Er du sikker på at du vil slette denne?';
+$string['course'] = 'Kurs';
 $string['courseevent'] = 'Kurshendelse';
 $string['courseevents'] = 'Kurshendelser';
+$string['courses'] = 'Kurs';
 $string['dayview'] = 'Dagsoversikt';
 $string['daywithnoevents'] = 'Denne dagen skjer det ingen ting';
 $string['default'] = 'Standard';
 $string['deleteevent'] = 'Slett hendelse';
+$string['deleteevents'] = 'Slett hendelser';
 $string['detailedmonthview'] = 'Detaljert månedsoversikt';
 $string['durationminutes'] = 'Varighet i minutter';
 $string['durationnone'] = 'Uten varighet';
@@ -37,6 +41,7 @@ $string['eventnone'] = 'Ingen hendelser';
 $string['eventrepeat'] = 'Gjentagelser';
 $string['eventsall'] = 'Alle hendelser';
 $string['eventsfor'] = '$a hendelser';
+$string['eventskey'] = 'Hendelsesnøkkel';
 $string['eventsrelatedtocourses'] = 'Kursrelaterte hendelser';
 $string['eventstarttime'] = 'Starttid';
 $string['eventtime'] = 'Tid';
@@ -55,9 +60,11 @@ $string['for'] = 'for';
 $string['fri'] = 'Fre';
 $string['friday'] = 'Fredag';
 $string['generateurlbutton'] = 'Vis kalender-URL';
+$string['global'] = 'Global';
 $string['globalevent'] = 'Global hendelse';
 $string['globalevents'] = 'Nettstedshendelser';
 $string['gotocalendar'] = 'Gå til kalenderen';
+$string['group'] = 'Gruppe';
 $string['groupevent'] = 'Gruppehendelse';
 $string['groupevents'] = 'Gruppehendelser';
 $string['hidden'] = 'skjult';
@@ -116,6 +123,7 @@ $string['typesite'] = 'Hendelser på nettstedet';
 $string['typeuser'] = 'Brukerhendelse';
 $string['upcomingevents'] = 'Nærtstående hendelser';
 $string['urlforical'] = 'URL for iCal eksport når du skal abonnere på kalenderen';
+$string['user'] = 'Bruker';
 $string['userevent'] = 'Brukerhendelse';
 $string['userevents'] = 'Brukerhendelser';
 $string['wed'] = 'Ons';
