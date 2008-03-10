@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta 2 (2007101504)
+      // tag.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
 
 
+$string['addedotag'] = '\"$a\" è stata aggiunta come una tag ufficiale.';
+$string['addotags'] = 'Aggiungi tag ufficiali';
 $string['addtagtomyinterests'] = 'Aggiungi \"$a\" ai miei interessi';
 $string['blocktagstitle'] = 'Tag';
 $string['changename'] = 'Modifca nome tag';
@@ -20,9 +22,13 @@ $string['name'] = 'Nome tag';
 $string['namesalreadybeeingused'] = 'Nomi tag già usati';
 $string['newname'] = 'Nuovo nome tag';
 $string['noresultsfor'] = 'Nessun risultato per \"$a\"';
+$string['officialtag'] = 'Tag ufficiale';
+$string['otags'] = 'Tag ufficiali';
 $string['owner'] = 'Proprietario';
+$string['ptags'] = 'Tag definite dall\'utente (separate da virgole)';
 $string['relatedblogs'] = 'Interventi blog recenti con questa tag';
 $string['relatedtags'] = 'Tag correlate';
+$string['removetagfrommyinterests'] = 'Rimuovi \"$a\" dai miei interessi';
 $string['reset'] = 'Reset';
 $string['resetflag'] = 'Reset flag';
 $string['responsiblewillbenotified'] = 'La persona responsabile sarà avvertita';

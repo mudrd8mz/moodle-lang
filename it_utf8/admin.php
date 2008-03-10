@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta 4 + (2007101508.07)
+      // admin.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -241,10 +241,13 @@ Questo metodo permette una migliore gestione dei files nella cache del browser o
 Sfortunatamente alcuni server PHP non autorizzano questo metodo, perciò se avete problemi nel visualizzare files e/o immagini trasferiti (ad esempio le immagini del profilo utente), impostate la variabile con la prima opzione.';
 $string['configsmartpix'] = 'Con questa impostazione, le icone sono gestite tramite uno script PHP che le cerca prima nel tema grafico corrente, poi in tutti i temi a livello superiore i quindi nella cartella di Moodle /pix. Questo riduce il bisogno di duplicare le immagini all\'interno dei temi, anche se con un piccolo costo di performance.';
 $string['configsmtphosts'] = 'Impostare il nome intero di uno o più servers locali SMTP che Moodle dovrebbe usare (per esempio \'mail.a.com\' oppure \'mail.a.com;mail.b.com\'). Se lasciato in bianco, Moodle utilizzerà  il metodo di spedizione della posta predefinito in PHP.';
-$string['configsmtpuser'] = 'Se avete specificato un server SMTP che richiede l\'autenticazione, indicate qui l\'username e la password relativi.';
+$string['configsmtpmaxbulk'] = 'Massimo numero di messaggi inviati per sessione SMTP. Raggruppare i messaggi può velocizzare l\'invio delle email. Valori inferiori a 2 forzano la creazione di una nuova sessione SMTP per ogni email.';
+$string['configsmtpuser'] = 'Se avete specificato un server SMTP che richiede l\'autenticazione, indicate qui lo username e la password relativi.';
 $string['configstartwday'] = 'Inizio settimana';
+$string['configstatscatdepth'] = 'Il software delle statistiche usa la logica semplificata delle iscrizioni a un corso, le sostituzioni sono ignorate e c\'è un numero massimo di categorie di corso genitrici verificate. Il numero 0 significa rilevare solo le assegnazioni dirette di ruolo a livello di sito e di corso, 1 significa rilevare anche le assegnazioni di ruolo nelle categorie genitrici di corso, ecc. Numeri più alti producono un molto maggiore carico del database server durante l\'elaborazione delle statistiche.';
 $string['configstatsfirstrun'] = 'Questa impostazione definisce, per la <b>prima elaborazione</b> delle statistiche dei log, da quanto indietro nel tempo devono essere elaborati i log. Se avete molto traffico e non avete un server dedicato, probabilmente non è una buona idea tornare troppo indietro nel tempo, l\'elaborazione potrebbe essere abbastanza lunga ed esosa in termini di risorse necessarie. (Notare che nell\'impostazione , 1 mese = 28 giorni. Nei grafici e nei rapporti generati, 1 mese = 1 mese del calendario.)';
 $string['configstatsmaxruntime'] = 'L\'elaborazione delle statistiche può essere abbastanza lunga. Utilizzate una combinazione di questo e del prossimo campo per definire quando farla partire e per quanto tempo.';
+$string['configstatsmaxruntime2'] = 'L\'elaborazione delle statistiche può essere molto pesante. Specificare il massimo tempo consentito per raccogliere un giorno di statistiche. Il numero massimo di giorni elaborati nell\'esecuzione di un cron è 3.';
 $string['configstatsruntimestart'] = 'A che ora il cron deve far <b>iniziare</b> l\'elaborazione delle statistiche?';
 $string['configstatsuserthreshold'] = 'Se inserite un valore, numerico, diverso da zero qui, per la classifica dei corsi, i corsi con meno di questo numero di utenti iscritti (studenti+docenti) saranno ignorati';
 $string['configsupportemail'] = 'Questo indirizzo email, per gli utenti di questo sito, sarà quello da utilizzare se si ha bisogno di assistenza (per esempio, quando nuovi utenti creano il proprio account). Se tale indirizzo è lasciato vuoto, non sarà fornita alcuna email di supporto.';
@@ -263,6 +266,8 @@ $string['configzip'] = 'Indica il percorso del programma Zip di compressione dat
 Se specificato, questo programma si occuperà  di creare archivi di files compressi lato server. Se lasciato in bianco, Moodle utilizzerà  le proprie routine interne.';
 $string['confirmation'] = 'Conferma';
 $string['confirminstall'] = 'Si sta per installare il language pack ($a), siete sicuri?';
+$string['cookiehttponly'] = 'Solo cookies http';
+$string['cookiesecure'] = 'Solo cookies sicuri';
 $string['country'] = 'Paese default';
 $string['coursemanager'] = 'Gestori del corso';
 $string['coursemgmt'] = 'Aggiungi/Modifica corsi';
@@ -443,7 +448,7 @@ $string['langpackremoved'] = 'Disinstallazione Language Pack completata';
 $string['langpacks'] = 'Language pack';
 $string['langpackupdated'] = 'Language Pack $a aggiornato';
 $string['langpackupdateskipped'] = 'Aggiornamento del language pack $a saltato';
-$string['langpackwillbeupdated'] = 'Nota per i traduttori: Durante l\'aggiornamento, Moodle cercherà di aggiornare il ostro language pack. Le vostre modifiche in cartelle di lingua non locali saranno soprascritte.';
+$string['langpackwillbeupdated'] = 'Nota per i traduttori: Durante l\'aggiornamento, Moodle cercherà di aggiornare il vostro language pack. Le vostre modifiche in cartelle di lingua non locali saranno soprascritte.';
 $string['langrmyourself'] = 'Per impedire perdita di dati, lang.php non è in grado di scrivere contenuti vuoti su file esistenti. Rimuovere il file manualmente per evitare questo.';
 $string['languagesettings'] = 'Impostazioni lingua';
 $string['langupdatecomplete'] = 'Aggiornamento Language Pack completato';
@@ -651,9 +656,11 @@ $string['sitesectionhelp'] = 'Se selezionata, una sezione argomento sarà mostra
 $string['slasharguments'] = 'Utilizzare gli \"slash arguments\"';
 $string['smartpix'] = 'Ricerca icone intelligente';
 $string['smtphosts'] = 'SMTP hosts';
+$string['smtpmaxbulk'] = 'massimo per sessione SMTP';
 $string['smtppass'] = 'SMTP password';
 $string['smtpuser'] = 'SMTP username';
 $string['stats'] = 'Statistiche';
+$string['statscatdepth'] = 'Num. massimo categorie genitrici';
 $string['statsfirstrun'] = 'Intervallo massimo di elaborazione';
 $string['statsmaxruntime'] = 'Tempo massimo di esecuzione';
 $string['statsruntimestart'] = 'Esguire alle';
@@ -703,11 +710,16 @@ $string['upgradesure'] = 'I file di Moodle sono modificati, e si sta per aggiorn
 <p>Siete sicuri di voler aggiornare questo server a questa versione?</p>';
 $string['upgradingdata'] = 'Aggiornamento dei dati';
 $string['upgradinglogs'] = 'Aggiornamento dei log';
+$string['uploadpicture_baduserfield'] = 'L\'attributo utente specificato non è valido. Provare ancora.';
+$string['uploadpicture_cannotmovezip'] = 'Un file zip non può essere spostato in una directory temporanea.';
 $string['uploadpicture_cannotprocessdir'] = 'Non è stato possibile elaborare il file zip decompresso.';
 $string['uploadpicture_cannotsave'] = 'Non è stato possibile salvare l\'immagine dell\'utente $a. Controllate le caratteristiche dell\'immagine.';
 $string['uploadpicture_cannotunzip'] = 'Non è possibile decomprimere il file zip contenente le immagini.';
+$string['uploadpicture_invalidfilename'] = 'Il file immagine $a ha caratteri non validi nel nome. Saltato.';
 $string['uploadpicture_overwrite'] = 'Sovrascrivere le immagini utente già esistenti?';
 $string['uploadpicture_userfield'] = 'Identificativo utente da utilizzare per far corrispondere le immagini';
+$string['uploadpicture_usernotfound'] = 'Utente con un valore di \'$a->uservalue\' per \'$a->userfield\' non esiste. Saltato.';
+$string['uploadpicture_userskipped'] = 'Saltato utente $a (ha già un\'immagine).';
 $string['uploadpicture_userupdated'] = 'Immagine per l\'utente $a caricata.';
 $string['uploadpictures'] = 'Immagini utente';
 $string['uploaduserspreview'] = 'Anteprima caricamento utenti';

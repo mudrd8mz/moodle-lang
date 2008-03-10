@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // quiz.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
 
 
 $string['1day'] = '1 giorno';
@@ -212,6 +212,7 @@ $string['event8'] = 'Chiudi';
 $string['event9'] = 'Valutazione manuale';
 $string['examview'] = 'Vista esame';
 $string['export'] = 'Esporta';
+$string['exportcategory'] = 'esporta categoria';
 $string['exporterror'] = 'Un errore si è verificato durante il processo di esportazione';
 $string['exportfilename'] = 'quiz';
 $string['exportingquestions'] = 'Le domande sono state esportate nel file';
