@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // forum.php - created with Moodle 1.9 + (Build: 20080310) (2007101509)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -71,7 +71,7 @@ $string['displayend'] = 'Fine visualizzazione';
 $string['displaymode'] = 'Modalità visualizzazione';
 $string['displayperiod'] = 'Periodo di visualizzazione';
 $string['displaystart'] = 'Inizio visualizzazione';
-$string['eachuserforum'] = 'Ogni persona può iniziare una discussione';
+$string['eachuserforum'] = 'Ogni persona avvia una sola discussione';
 $string['edit'] = 'Modifica';
 $string['editedby'] = 'Modificato da $a->name - $a->date';
 $string['editing'] = 'Modifica';
