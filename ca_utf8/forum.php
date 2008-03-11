@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // forum.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -109,7 +109,7 @@ $string['forumblockingalmosttoomanyposts'] = 'Us esteu apropant al llindar de mi
 $string['forumbodyhidden'] = 'No podeu veure aquest missatge, probablement perquè encara no heu enviat un missatge en aquest debat.';
 $string['forumintro'] = 'Introducció al fòrum';
 $string['forumname'] = 'Nom del fòrum';
-$string['forumposts'] = 'Missatges enviats';
+$string['forumposts'] = 'Missatges a fòrums';
 $string['forums'] = 'Fòrums';
 $string['forumsubjecthidden'] = 'Assumpte (ocult)';
 $string['forumtracked'] = 'S\'està fent seguiment de missatges no llegits';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // message.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['addcontact'] = 'Afegeix contacte';
@@ -38,7 +38,7 @@ $string['mycontacts'] = 'Els meus contactes';
 $string['newonlymsg'] = 'Mostra només nous';
 $string['newsearch'] = 'Nova cerca';
 $string['noframesjs'] = 'Versió sense marcs ni Javascript';
-$string['nomessages'] = 'No hi ha missatges pendents';
+$string['nomessages'] = 'No teniu missatges pendents';
 $string['nomessagesfound'] = 'No s\'han trobat missatges';
 $string['nosearchresults'] = 'La cerca no ha tingut resultats';
 $string['offline'] = 'Fora de línia';
