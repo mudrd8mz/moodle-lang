@@ -190,6 +190,8 @@ $string['configproxyuser'] = 'プロクシ経由でインターネットにア�
 $string['configquarantinedir'] = 'clam AVによって感染ファイルを隔離用ディレクトリに移動させたい場合は、ここにそのディレクトリを入力してください。このディレクトリは、ウェブサーバより書き込みができるようにする必要があります。ここを空白にした場合、または存在しないか、書き込み権が無いディレクトリを指定した場合、感染ファイルは削除されます。末尾にスラッシュを付けないでください。';
 $string['configrcache'] = 'データベースレコードを保存するため、キャッシュを使用します。忘れずに「キャッシュタイプ」も設定してください!';
 $string['configrcachettl'] = 'キャッシュレコードの有効期間 (秒)です。ここでは、15秒より小さな値を使用してください。';
+$string['configrecaptchaprivatekey'] = 'あなたのMoodleサーバとrecaptcha.netサーバの通信に使用する文字列です。このサイト用にhttp://recaptcha.netで取得してください。';
+$string['configrecaptchapublickey'] = 'サインアップフォームにreCAPTCHA要素を表示するときに表示される文字列です。http://recaptcha.netで生成されます。';
 $string['configrequestedstudentname'] = 'リクエストされたコースで使用する学生 (単数) に対する呼称';
 $string['configrequestedstudentsname'] = 'リクエストされたコースで使用する学生 (複数) に対する呼称';
 $string['configrequestedteachername'] = 'リクエストされたコースで使用する教師 (単数) に対する呼称';
@@ -586,6 +588,8 @@ $string['questioncwqpfscheck'] = '1つまたはそれ以上の小テストの「
 $string['questioncwqpfsok'] = '素晴らしい。あなたの小テストでは、共有および非共有カテゴリから混在して選択されるよう設定されている「ランダム」問題はありません。';
 $string['rcache'] = 'レコードキャッシュ';
 $string['rcachettl'] = 'レコードキャッシュTTL';
+$string['recaptchaprivatekey'] = 'ReCAPTCHAプライベートキー';
+$string['recaptchapublickey'] = 'ReCAPTCHAパブリックキー';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_blank\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、言語パックを自動的にインストールできません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
