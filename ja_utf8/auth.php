@@ -5,7 +5,7 @@
 $string['CASform'] = '認証選択';
 $string['accesCAS'] = 'CASユーザ';
 $string['accesNOCAS'] = '他のユーザ';
-$string['actauthhdr'] = '有効な認証プラグイン';
+$string['actauthhdr'] = '使用可能な認証プラグイン';
 $string['alternatelogin'] = 'ここにURIを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURIを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
 $string['alternateloginurl'] = '代替ログインURI';
 $string['auth_cas_auth_user_create'] = '外部にユーザを作成する';
