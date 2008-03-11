@@ -181,6 +181,7 @@ $string['nobranchtablefound'] = 'Aucune table de branchement trouvée';
 $string['nocommentyet'] = 'Pas encore de commentaire.';
 $string['nocoursemods'] = 'Aucune activité trouvée';
 $string['nocredit'] = 'Pas de crédit';
+$string['nodeadline'] = 'Pas d\'échéance';
 $string['noessayquestionsfound'] = 'Il n\'y a pas de question de composition dans cette leçon.';
 $string['nohighscores'] = 'Pas de meilleur résultat';
 $string['nolessonattempts'] = 'Personne n\'a encore fait cette leçon.';
