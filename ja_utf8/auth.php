@@ -316,6 +316,7 @@ $string['passwordhandling'] = 'パスワードフィールドの取り扱い';
 $string['plaintext'] = 'プレインテキスト';
 $string['pluginnotenabled'] = '認証プラグイン「 $a 」が有効にされていません。';
 $string['pluginnotinstalled'] = '認証プラグイン「 $a 」がインストールされていません。';
+$string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'RPCネゴシエーションタイムアウト';
 $string['selfregistration'] = '自己登録';
 $string['selfregistration_help'] = 'ユーザの自己登録を処理する認証プラグインを選択してください。';
