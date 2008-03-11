@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -542,6 +542,8 @@ $string['quarantinedir'] = 'Karantina dizini';
 $string['question'] = 'Soru';
 $string['rcache'] = 'Kayıt önbelleği';
 $string['rcachettl'] = 'Kayıt önbelleği yaşam süresi';
+$string['recaptchaprivatekey'] = 'ReCAPTCHA gizli anahtar';
+$string['recaptchapublickey'] = 'ReCAPTCHA açık anahtar';
 $string['releasenoteslink'] = 'Moodle\'ın bu sürümü hakkında bilgi için lütfen çevrimiçi <a target=\"_new\" href=\"$a\">Sürüm Notlarına</a> bakınız';
 $string['remotelangnotavailable'] = 'download.moodle.org adresine bağlantı kurulamadığından dolayı dil paketi güncellemesi tamamlanamadı. Lütfen aşağıdaki listeden uygun zip dosyasını/dosyalarını indirin ve dil paketlerini elle bu klasöre açın: $a';
 $string['renameerrors'] = 'Yeniden adlandırmada hata';
@@ -557,6 +559,7 @@ $string['riskspam'] = 'Kullanıcılar, site kullanıcılarına veya diğer kişi
 $string['riskspamshort'] = 'Toplu mesaj riski';
 $string['riskxss'] = 'Kullanıcılar, cross-site scripting (XSS) izni verilerek dosya ve metin ekleyebilirler';
 $string['riskxssshort'] = 'XSS riski';
+$string['rowpreviewnum'] = 'Satırları incele';
 $string['rssglobaldisabled'] = 'Sunucu seviyesinde pasifleştirildi';
 $string['runclamavonupload'] = 'Yüklenen dosyalarla ClamAV kullan';
 $string['savechanges'] = 'Değişiklikleri Kaydet';
@@ -592,6 +595,7 @@ $string['smtpmaxbulk'] = 'SMTP oturum limiti';
 $string['smtppass'] = 'SMTP şifre';
 $string['smtpuser'] = 'SMTP kullanıcıadı';
 $string['stats'] = 'İstatistikler';
+$string['statscatdepth'] = 'En fazla ana kategori';
 $string['statsfirstrun'] = 'Max işleme aralığı';
 $string['statsmaxruntime'] = 'Max çalışma zamanı';
 $string['statsruntimestart'] = 'Çalıştır';
@@ -658,7 +662,7 @@ $string['uubulknew'] = 'Yeni kullanıcılar';
 $string['uubulkupdated'] = 'Güncellenmiş kullanıcılar';
 $string['uucoursedefaultrole'] = 'Varsayılan ders rolü';
 $string['uucsvline'] = 'CSV satırı';
-$string['uunoemailduplicates'] = 'Eposta adresi tekrarını engelle';
+$string['uunoemailduplicates'] = 'E-posta adresi tekrarını engelle';
 $string['uuoptype'] = 'Yükleme tipi';
 $string['uuoptype_addinc'] = 'Bunlara ek olarak, gerekirse kullanıcı adlarınına sayaç ekle';
 $string['uupasswordnew'] = 'Yeni kullanıcı şifresi';
