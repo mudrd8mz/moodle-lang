@@ -54,7 +54,7 @@ $string['fullscreen'] = 'Remplir tout l\'écran';
 $string['general'] = 'Généralités';
 $string['gradeaverage'] = 'Note moyenne';
 $string['gradehighest'] = 'Note la plus haute';
-$string['grademethod'] = 'Méthode de notation';
+$string['grademethod'] = 'Méthode d\'évaluation';
 $string['gradescoes'] = 'Objets d\'apprentissage';
 $string['gradesum'] = 'Note totale';
 $string['height'] = 'Hauteur';
@@ -154,7 +154,7 @@ $string['value'] = 'Valeur';
 $string['versionwarning'] = 'La version du fichier «&nbsp;manifest&nbsp;» est antérieure à 1.3, avertissement à la balise $a->tag';
 $string['viewallreports'] = 'Afficher les rapports des $a tentatives';
 $string['viewalluserreports'] = 'Afficher les rapports des $a utilisateurs';
-$string['whatgrade'] = 'Notation des tentatives';
+$string['whatgrade'] = 'Évaluation des tentatives';
 $string['width'] = 'Largeur';
 $string['window'] = 'Fenêtre';
 

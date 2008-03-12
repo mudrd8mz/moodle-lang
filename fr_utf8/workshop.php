@@ -113,8 +113,8 @@ $string['gradesforassessmentsare'] = 'La note maximale des évaluations est de $
 $string['gradesforstudentsassessment'] = 'Notes des évaluations des étudiants';
 $string['gradesforsubmissionsare'] = 'La note maximale des travaux remis est de $a';
 $string['gradetable'] = 'Tableau des notes';
-$string['gradingallassessments'] = 'Notation de toutes les évaluations';
-$string['gradinggrade'] = 'Note du processus de notation';
+$string['gradingallassessments'] = 'Évaluation de toutes les évaluations';
+$string['gradinggrade'] = 'Note du processus d\'évaluation';
 $string['gradingstrategy'] = 'Stratégie d\'évaluation';
 $string['hidegradesbeforeagreement'] = 'Masquer les notes avant l\'accord entre les parties';
 $string['hidenamesfromstudents'] = 'Masquer les noms pour les $a';
@@ -167,7 +167,7 @@ avant de rendre disponible cet atelier aux étudiants. Pour ce faire, cliquez<br
 sur l\'atelier dans le cours et on vous demandera d\'ajouter des éléments s\'il n\'y<br />
 en a encore aucun. Vous pourrez en ajouter d\'autres plus tard à l\'aide du menu<br />
 d\'édition. Vous pouvez modifier les critères à l\'aide de la commande « Gestion des évaluations ».';
-$string['noteonstudentassessments'] = '{Note donnée par l\'étudiant / Note du processus de notation de l\'évaluation}';
+$string['noteonstudentassessments'] = '{Note donnée par l\'étudiant / Note du processus d\'évaluation de l\'évaluation}';
 $string['notgraded'] = 'Sans note';
 $string['notitle'] = 'Pas de titre';
 $string['notitlegiven'] = 'Aucun titre fourni';
