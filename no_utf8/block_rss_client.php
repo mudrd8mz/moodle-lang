@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8 + (2007021503)
+      // block_rss_client.php - created with Moodle 1.9 (2007101509)
 
 
 $string['addfeed'] = 'Legg til nyhetsagent';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'Nyhetsagenten er oppdatert';
 $string['findmorefeeds'] = 'Finn flere nyhetsagenter';
 $string['managefeeds'] = 'Administrere mine nyhetsagenter';
 $string['nofeeds'] = 'Det er ikke aktivisert noen RSS nyhetsagenter på denne portalen.';
+$string['numentries'] = 'Artikler per agent';
 $string['pickfeed'] = 'Velg en nyhetsagent';
 $string['remotenewsfeed'] = 'Nyhetsagent';
 $string['rss_client:createprivatefeeds'] = 'Opprett private nyhetsagenter';
@@ -40,7 +41,9 @@ $string['seeallfeeds'] = 'Se alle nyhetsagenter';
 $string['sharedfeed'] = 'Offentlige nyhetsagenter';
 $string['shownumentrieslabel'] = 'Maks antall visninger pr. blokk.';
 $string['submitters'] = 'Hvem skal få sette opp nye RSS nyhetsagenter? Definerte nyhetsagenter vil være tilgjengelig for alle på denne portalen.';
+$string['submitters2'] = 'Utgivere';
 $string['timeout'] = 'Time out for blokken';
+$string['timeout2'] = 'Tidsavbrudd';
 $string['timeoutdesc'] = 'Tid i minutter for hvor lenge en RSS nyhetsagent skal holdes i hurtigminnet.';
 $string['updatefeed'] = 'Oppdater en nyhetsagent URL:';
 $string['validatefeed'] = 'Godkjenn nyhetsagenten';
