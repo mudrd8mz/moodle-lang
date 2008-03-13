@@ -1,7 +1,10 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (2007101508)
+      // question.php - created with Moodle 2.0 dev (2007101508.05)
 
 
+$string['adminreport'] = 'ඔබගේ ප්‍රශ්න දත්ත ගබඩාවේ විය හැකි ගැටලු සඳහා වූ වාර්තාව';
+$string['broken'] = 'මෙය කැඩුනු සම්බන්ධතාවයකි, එය නොපවතින ගොනුවකට යොමු කෙරේ.';
+$string['byandon'] = '<em>$a->time</em> ට <em>$a->user</em> මගින්';
 $string['categorycurrent'] = 'පවතින ප්‍රභේදය';
 $string['categorycurrentuse'] = 'මෙම ප්‍රභේදය තෝරන්න';
 $string['categorydoesnotexist'] = 'මෙම ප්‍රවර්ගය නොපවතී';
@@ -34,6 +37,9 @@ $string['permissionto'] = 'සඳහා ඔබට අවසර :';
 $string['published'] = 'හවුල්කාර';
 $string['questionbank'] = 'ප්‍රශ්න බැංකුව';
 $string['questiondoesnotexist'] = 'මෙම ප්‍රශ්නය නොපවතී';
+$string['tofilecontext'] = 'සන්දර්භය ගොනුවකට ලියන්න';
+$string['unknown'] = 'නොදන්නා';
 $string['unknownquestiontype'] = 'නොදන්නා ප්‍රශ්න වර්ගයකි:  $a.';
+$string['unpublished'] = 'නොබෙදූ';
 
 ?>
