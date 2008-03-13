@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101508)
+      // role.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -78,6 +78,8 @@ $string['grade:unlock'] = '評定または評定項目をロック解除する';
 $string['grade:view'] = '自分の評定を表示する';
 $string['grade:viewall'] = '他のユーザの評定を表示する';
 $string['grade:viewhidden'] = '自分の非表示の評定を表示する';
+$string['inactiveformorethan'] = '$a->timeperiod 以上活動していない';
+$string['ingroup'] = 'グループ「 $a->group 」に属している';
 $string['inherit'] = '継承';
 $string['legacy:admin'] = 'レガシーロール: 管理者';
 $string['legacy:coursecreator'] = 'レガシーロール: コース作成者';
@@ -174,13 +176,13 @@ $string['user:viewhiddendetails'] = '非表示のユーザ詳細を表示する'
 $string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表示する';
 $string['user:viewusergrades'] = 'ユーザの評定を表示する';
 $string['viewrole'] = 'ロール詳細の表示';
-$string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ数: $a->number';
-$string['question:export'] = '問題をエクスポートする'; //TBD with Moodle 2.0 dev (2007101508)
-$string['question:import'] = '問題をインポートする'; //TBD with Moodle 2.0 dev (2007101508)
-$string['question:manage'] = '問題を管理する'; //TBD with Moodle 2.0 dev (2007101508)
-$string['course:downloadallgrades'] = 'すべての評定をダウンロードする'; //TBD with Moodle 2.0 dev (2007101508)
-$string['course:viewallgrades'] = 'すべての評定を表示する'; //TBD with Moodle 2.0 dev (2007101508)
-$string['course:viewowngrades'] = '自分の評定を表示する'; //TBD with Moodle 2.0 dev (2007101508)
-$string['grade:editlocked'] = 'ロックされた評定を編集する'; //TBD with Moodle 2.0 dev (2007101508)
+$string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ';
+$string['question:export'] = '問題をエクスポートする'; // TBD
+$string['question:import'] = '問題をインポートする'; // TBD
+$string['question:manage'] = '問題を管理する'; // TBD
+$string['course:downloadallgrades'] = 'すべての評定をダウンロードする'; // TBD
+$string['course:viewallgrades'] = 'すべての評定を表示する'; // TBD
+$string['course:viewowngrades'] = '自分の評定を表示する'; // TBD
+$string['grade:editlocked'] = 'ロックされた評定を編集する'; // TBD
 
 ?>
