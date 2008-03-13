@@ -192,6 +192,8 @@ $string['configproxytype'] = 'Type de proxy web (PHP5 et son extension cURL sont
 $string['configquarantinedir'] = 'Si vous désirez que clam AV déplace les fichiers infectés vers un dossier de quarantaine, spécifiez ici son chemin d\'accès. Le serveur web doit pouvoir écrire dans ce dossier. Si vous laissez ce champ vide ou si vous spécifiez un dossier inexistant ou sans droit d\'écriture, les fichiers infectés seront détruits. Ne pas écrire la barre oblique finale.';
 $string['configrcache'] = 'Utiliser le cache pour stocker les enregistrements de la base de données. N\'oubliez pas de configurer aussi le paramètre «&nbsp;Type de cache&nbsp;»&nbsp;!';
 $string['configrcachettl'] = 'Durée de vie des enregistrements en cache, en secondes. Utiliser ici une brève durée (&lt;15).';
+$string['configrecaptchaprivatekey'] = 'Chaîne de caractères utilisée pour communiquer entre votre serveur Moodle et le serveur recaptcha.net. Vous pouvez obtenir une telle clef pour votre site en visitant http://recaptcha.net';
+$string['configrecaptchapublickey'] = 'Chaîne de caractères utilisée pour afficher l\'élément reCAPTCHA dans le formulaire d\'enregistrement. Cette chaîne est générée par http://recaptcha.net';
 $string['configrequestedstudentname'] = 'Terme utilisé pour «&nbsp;étudiant&nbsp;» dans les cours demandés';
 $string['configrequestedstudentsname'] = 'Terme utilisé pour «&nbsp;étudiants&nbsp;» dans les cours demandés';
 $string['configrequestedteachername'] = 'Terme utilisé pour «&nbsp;enseignant&nbsp;» dans les cours demandés';
@@ -588,6 +590,8 @@ $string['questioncwqpfscheck'] = 'Une ou plusieurs questions aléatoires d\'un t
 $string['questioncwqpfsok'] = 'Il n\'y a dans vos tests aucune question aléatoire tirant ses questions de catégories partagées et de catégories non partagées.';
 $string['rcache'] = 'Cache des enregistrements';
 $string['rcachettl'] = 'TTL des enregistrements en cache';
+$string['recaptchapublickey'] = 'Clef publique ReCAPTCHA';
+$string['recaptchaprivatekey'] = 'Clef privée ReCAPTCHA';
 $string['releasenoteslink'] = 'Pour des informations sur cette version de Moodle, veuillez consulter les <a target=\"_blank\" href=\"$a\">Notes de mise à jour</a> en ligne.';
 $string['remotelangnotavailable'] = 'Moodle ne peut pas se connecter au site download.moodle.org. L\'installation automatique des langues ne peut donc pas avoir lieu. Veuillez télécharger le(s) fichier(s) compressé(s) nécessaire(s) dans la liste ci-dessous, les copier dans votre dossier $a et les décompresser manuellement.';
 $string['renameerrors'] = 'Erreurs lors de changements de nom';
