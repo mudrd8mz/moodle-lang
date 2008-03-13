@@ -80,6 +80,8 @@ $string['grade:unlock'] = 'Déverrouiller les notes ou éléments';
 $string['grade:view'] = 'Voir ses propres notes';
 $string['grade:viewall'] = 'Voir toutes les notes de tous les utilisateurs';
 $string['grade:viewhidden'] = 'Voir ses propres notes cachées';
+$string['inactiveformorethan'] = 'inactif depuis plus de $a->timeperiod';
+$string['ingroup'] = 'dans le groupe «&nbsp;$a->group&nbsp;»';
 $string['inherit'] = 'Hériter';
 $string['legacy:admin'] = 'RÔLE HISTORIQUE&nbsp;: Administrateur';
 $string['legacy:coursecreator'] = 'RÔLE HISTORIQUE&nbsp;: Responsable de cours';
@@ -176,6 +178,6 @@ $string['user:viewhiddendetails'] = 'Voir les informations cachées des utilisat
 $string['user:viewuseractivitiesreport'] = 'Voir les rapports d\'activités des utilisateurs';
 $string['user:viewusergrades'] = 'Voir les notes des utilisateurs'; // Legacy, to delete after 1.9 release
 $string['viewrole'] = 'Afficher les détails du rôle';
-$string['xuserswiththerole'] = 'Utilisateurs ayant le rôle «&nbsp;$a->role&nbsp;»&nbsp;: $a->number';
+$string['xuserswiththerole'] = 'Utilisateurs ayant le rôle «&nbsp;$a->role&nbsp;»';
 
 ?>
