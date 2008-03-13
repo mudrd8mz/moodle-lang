@@ -267,7 +267,7 @@ $string['coursegrades'] = 'Známky v kurze';
 $string['coursehidden'] = 'Tento kurz je v súčasnosti pre študentov neprístupný';
 $string['courseimportnotaught'] = 'Zdá sa, že v iných kurzoch nemáte práva upravujúceho učiteľa. Nie je teda možné z nich importovať.';
 $string['courseinfo'] = 'Informácie o kurze';
-$string['coursemessage'] = 'Správa puužívateľom kurzu';
+$string['coursemessage'] = 'Správa používateľom kurzu';
 $string['coursenotaccessible'] = 'Tento kurz nepovoľuje verejný prístup';
 $string['courseoverview'] = 'Prehľad kurzu';
 $string['courseoverviewgraph'] = 'Graf prehľadu kurzu';
@@ -845,7 +845,7 @@ $string['memberincourse'] = 'Ľudia v kurze';
 $string['messagebody'] = 'Telo správy';
 $string['messagedselectedusers'] = 'Vybrať užívateľov, ktorým bola poslaná správa a vyčistiť zoznam príjemcov';
 $string['messagedselectedusersfailed'] = 'Niektorí príjemcovia možno nedostali mail.';
-$string['messageselect'] = 'Označiť tohto užívateľa ako príjemcu pošty';
+$string['messageselect'] = 'Označiť tohto používateľa ako príjemcu pošty';
 $string['messageselectadd'] = 'Pridať / poslať správu';
 $string['metaaddcourse'] = 'Pridať tento kurz';
 $string['metaalreadycourses'] = 'Kurzy, ktoré boli už pridelené';
@@ -1498,10 +1498,10 @@ $string['week'] = 'Týždeň';
 $string['weekhide'] = 'Ukryť tento týždeň pred $a';
 $string['weeklyoutline'] = 'Týždenný prehľad';
 $string['weekshow'] = 'Ukázať tento týždeň $a';
-$string['welcometocourse'] = 'Vitajte v $a';
-$string['welcometocoursetext'] = 'Vitajte v $a->coursename!
+$string['welcometocourse'] = 'Vitajte v kurze $a';
+$string['welcometocoursetext'] = 'Vitajte v kurze $a->coursename!
 
-Jednou z prvých vecí, ktoré by ste mali urobiť je, úprava Vašej profilovej stránku v rámci kurzu, aby sme sa mohli o vás niečo viac dozvedieť:
+Jednou z prvých vecí, ktoré by ste mali urobiť, je úprava Vašej profilovej stránku v rámci kurzu, aby sme sa mohli o Vás niečo viac dozvedieť:
 
   $a->profileurl';
 $string['whattocallzip'] = 'Ako chcete pomenovať zip súbor?';
