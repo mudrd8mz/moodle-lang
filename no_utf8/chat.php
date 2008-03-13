@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8 + (2007021503)
+      // chat.php - created with Moodle 1.9 (2007101509)
 
 
 $string['beep'] = 'tuut';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a har tutet på deg';
 $string['messageenter'] = '$a har akkurat kommet';
 $string['messageexit'] = '$a har forlatt denne praten';
 $string['messages'] = 'Beskjeder';
+$string['method'] = 'Chattemetode';
 $string['methoddaemon'] = 'Chatserver tjeneste';
 $string['methodnormal'] = 'Vanlig metode';
 $string['modulename'] = 'Prat';
@@ -48,15 +49,25 @@ $string['nomessages'] = 'Ingen beskjeder ennå';
 $string['normalkeepalive'] = 'Hold i live';
 $string['normalstream'] = 'Strøm';
 $string['noscheduledsession'] = 'Ingen oppsatt sesjon';
+$string['oldping'] = 'Kobler ut pga tidsavbrudd';
+$string['pastchats'] = 'Tidligere pratesesjoner';
+$string['refreshroom'] = 'Oppfrisk rom';
+$string['refreshuserlist'] = 'Oppfrisk brukerlista';
+$string['removemessages'] = 'Fjern alle beskjeder';
 $string['repeatdaily'] = 'Til samme tid hver dag';
 $string['repeatnone'] = 'Ingen gjentakelser - publiser bare det angitte tidspunktet';
 $string['repeattimes'] = 'Gjenta praterunder';
 $string['repeatweekly'] = 'Til samme tid hver uke';
 $string['savemessages'] = 'Lagre gamle praterunder';
 $string['seesession'] = 'Se denne runden';
+$string['serverhost'] = 'Servernavn';
+$string['serverip'] = 'Server IP';
+$string['servermax'] = 'Maks ant. brukere';
+$string['serverport'] = 'Serverport';
 $string['sessions'] = 'Praterunder';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Alle kan se tidligere praterunder';
+$string['updatemethod'] = 'Oppdateringsmetode';
 $string['viewreport'] = 'Vis tidligere praterunder';
 
 ?>
