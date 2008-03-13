@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // question.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
+$string['broken'] = 'Linket virker ikke, det peger på en fil der ikke eksisterer.';
 $string['byandon'] = 'af <em>$a->user</em> <em>$a->time</em>';
 $string['categorycurrent'] = 'Denne kategori';
 $string['categorycurrentuse'] = 'Benyt denne kategori';
@@ -44,6 +45,16 @@ $string['needtochoosecat'] = 'Du skal vælge en kategori at flytte spørgsmålet
 $string['nopermissionadd'] = 'Du har ikke tilladelse til at tilføje spørgsmål her.';
 $string['noprobs'] = 'Der er ikke fundet nogen problemer i din database med spørgsmål.';
 $string['notenoughdatatoeditaquestion'] = 'Der var hverken angivet spørgsmåls-id, kategori-id eller spørgsmålstype.';
+$string['permissionedit'] = 'Rediger dette spørgsmål';
+$string['permissionmove'] = 'Flyt dette spørgsmål';
+$string['permissionsaveasnew'] = 'Gem som et nyt spørgsmål';
+$string['permissionto'] = 'Du har tilladelse til:';
+$string['published'] = 'delt';
+$string['questionaffected'] = '<a href=\"$a->qurl\">Spørgsmålet \"$a->name\" ($a->qtype)</a> er i denne kategori, men det bruges også i <a href=\"$a->qurl\">quizzen \"$a->quizname\"</a> på et andet kursus \"$a->coursename\".';
+$string['questionbank'] = 'Spørgsmålsbank';
 $string['questioncatsfor'] = 'Spørgsmålskategorier for \"$a\"';
+$string['questiondoesnotexist'] = 'Spørgsmålet eksisterer ikke';
+$string['unknownquestiontype'] = 'Ukendt spørgsmålstype: $a';
+$string['unpublished'] = 'Ikke delt';
 
 ?>

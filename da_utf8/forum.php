@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // forum.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['addanewdiscussion'] = 'Tilføj en ny tråd';
@@ -25,7 +25,7 @@ $string['cannotviewpostyet'] = 'Du kan først læse andres indlæg i denne tråd
 $string['cleanreadtime'] = 'Marker gamle poster som læst klokken (time)';
 $string['configcleanreadtime'] = 'Hvilken tid på dagen skal gamle poster fra fjernes hvis de er læst.';
 $string['configdisplaymode'] = 'Den normale præsentation af tråde, hvis der ikke er valgt andre.';
-$string['configenablerssfeeds'] = 'Denne valgmulighed angiver om RSS feeds skal være mulig for alle forummer. Du skal stadig slå RSS-feeds til for hver enkelt forum.';
+$string['configenablerssfeeds'] = 'Denne valgmulighed angiver om RSS feeds skal kunne bruges i alle forummer. Du skal stadig slå RSS-feeds til for hver enkelt forum.';
 $string['configlongpost'] = 'Ethvert indlæg over denne længde (eksklusiv HTML) bliver betragtet som lang.';
 $string['configmanydiscussions'] = 'Max antal tråde vist på en forum-side.';
 $string['configmaxbytes'] = 'Generel maksimum filstørrelse for alle filer vedhæftet et svar på dette site. (underlagt kursusbegrænsninger og andre lokale indstillinger)';
@@ -143,10 +143,11 @@ $string['nodiscussionsstartedby'] = 'Denne bruger har ikke oprettet nogen tråde
 $string['noguestpost'] = 'Beklager, gæster kan ikke skrive indlæg.';
 $string['noguestsubscribe'] = 'Gæster kan desværre ikke abonnere på forumindlæg pr e-mail.';
 $string['noguesttracking'] = 'Desværre, gæster kan ikke ændre indstillingerne.';
-$string['nomorepostscontaining'] = 'Der blev ikke fundet flere poster indeholdende \"$a\"';
+$string['nomorepostscontaining'] = 'Der blev ikke fundet flere indlæg indeholdende \"$a\"';
 $string['nonews'] = 'Ingen nyheder endnu';
+$string['nopostforum'] = 'Desværre, du kan ikke deltage i dette forum';
 $string['noposts'] = 'Ingen indlæg';
-$string['nopostscontaining'] = 'Ingen indlæg indeholdende \"$a\" blev fundet';
+$string['nopostscontaining'] = 'Der er ingen indlæg med \"$a\"';
 $string['noquestions'] = 'Der er endnu ikke nogen spørgsmål i dette forum';
 $string['nosubscribers'] = 'Der er endnu ingen tilmeldte i dette forum';
 $string['nothingnew'] = 'Intet nyt for $a';
@@ -211,7 +212,7 @@ $string['replytouser'] = 'Brug e-mail-adresse i svaret';
 $string['resetforums'] = 'Fjern indlæg fra';
 $string['resetforumsall'] = 'Slet alle poster';
 $string['resetsubscriptions'] = 'Fjern forum abonneringer';
-$string['rsssubscriberssdiscussions'] = 'Vis RSS feed for \"$a\" diskussion';
+$string['rsssubscriberssdiscussions'] = 'Vis RSS feed for \"$a\" tråde';
 $string['rsssubscriberssposts'] = 'Vis RSS feed for \"$a\" indlæg';
 $string['search'] = 'Søg';
 $string['searchdatefrom'] = 'Indlæg skal være nyere end dette';

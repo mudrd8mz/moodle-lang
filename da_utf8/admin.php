@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // admin.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['accessdenied'] = 'Adgang afvist';
@@ -291,7 +291,7 @@ $string['globalsquoteswarning'] = '<p><strong>Advarsel om sikkerhed</strong>: Fo
 Hvis det er muligt bør du også sætte <code>register_globals=off</code> for at forbedre <br /> serverens sikkerhed generelt, indstillingen <code>magic_quotes_gpc=on</code> kan også anbefales.<p/><p>Disse indstillinger kan sættes ved at rette i <code>php.ini</code>, Apache/IIS <br />konfiguration eller en <code>.htaccess</code> fil.</p>';
 $string['gotofirst'] = 'Gå til første tomme streng';
 $string['gradebook'] = 'Karakterbog';
-$string['gradebookroles'] = 'Vurderende roller';
+$string['gradebookroles'] = 'Brugere, der kan få karakterer';
 $string['guestroleid'] = 'Rolle for gæsteprofil';
 $string['helpadminseesall'] = 'Skal administratorer se alle begivenheder eller kun dem som vedkommer dem?';
 $string['helpcalendarsettings'] = 'Konfigurer kalender og tid/dato relaterede indstillinger i Moodle';
@@ -492,7 +492,7 @@ $string['uninstallconfirm'] = 'Du er ved at afinstallere sprogpakken $a, er du s
 $string['unsupported'] = 'Understøttes ikke';
 $string['updateaccounts'] = 'Opdater eksisterende konti';
 $string['updatecomponent'] = 'Opdater komponent';
-$string['updatelangs'] = 'Opdater alle lokale sprogpakker';
+$string['updatelangs'] = 'Opdater installerede sprogpakker';
 $string['updatetimezones'] = 'Opdater tidszoner';
 $string['upgradeforumread'] = 'En ny funktion er blevet tilføjet i Moodle 1.5 til at holde styr på læste/ikke læste forumindlæg.<br />For at benytte denne funktionalitet bliver du nød til at <a href=\"$a\">opdatere tabellerne</a>.';
 $string['upgradeforumreadinfo'] = 'En ny funktion er blevet tilføjet i Moodle 1.5 til at holde styr på læste/ikke læste forumindlæg.<br />For at benytte denne funktionalitet bliver du nød til at opdatere dine tabeller med informationer om de eksisterende poster. Afhængig af størrelsen på sitet kan dette godt tage en del tid (timer) og kan være ret belastene for databasen, så det er bedst at gøre dette i stille perioder. Sitet vil fungere normalt under opdateringen, og brugerne vil ikke blive påvirket. Når du starter opdateringen bør du lade den køre til ende, (hold browservinduet åbent). Hvis du kommer til at stoppe opdateringen ved at lukke vinduet, så kan du fortsætte igen.
