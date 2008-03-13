@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (2007101508.02)
+      // xmldb.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['aftertable'] = 'වගුවෙන් පසු:';
@@ -81,6 +81,7 @@ $string['newstatement'] = 'නව ප්‍රකාශනයක්';
 $string['newtable'] = 'නව වගුවක්';
 $string['newtablefrommysql'] = 'MySQL වලින් නව වගුවක්';
 $string['nomissingindexesfound'] = 'කිසිදු අස්ථානගත සුචියක් හමු නොවීය. ඔබගේ DB සඳහා තවදුරටත් කිසිදු ක්‍රියාමාර්ගයක් අවශ්‍ය නොවේ.';
+$string['nowrongintsfound'] = 'වැරදි පූර්ණ සංඛ්‍යා කිසිවක් සොයා ගැනීමට නොමැත, ඔබගේ දත්ත ගබඩාව සඳහා තවදුරටත් ක්‍රියාමාර්ග අවශ්‍ය නොවේ.';
 $string['numberincorrectdecimals'] = 'number ක්ෂේත්‍රය සඳහා වැරදි දශමස්ථාන ගණනකි';
 $string['numberincorrectlength'] = 'number ක්ෂේත්‍රය සඳහා වැරදි දිගකි';
 $string['reserved'] = 'වෙන්කර ඇත';
