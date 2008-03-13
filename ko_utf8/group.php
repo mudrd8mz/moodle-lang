@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (2007101508.05)
+      // group.php - created with Moodle 2.0 dev (2007101508.08)
 
 
 $string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
@@ -104,7 +104,7 @@ $string['removeselectedusers'] = '선택한 사용자 제거';
 $string['selectfromrole'] = '구성원을 선택할 수 있는 역할';
 $string['showgroupsingrouping'] = '무리에 있는 모둠 보기';
 $string['showmembersforgroup'] = '모둠 구성원 보기';
-$string['toomanygroups'] = '모둠의 수를 채우기에 부족한 사용자 수-선택된 역할에 단지 $a사용자만 있습니다.';
+$string['toomanygroups'] = '모둠의 수를 채우기에 부족한 사용자 수 - 선택된 역할에 단지 $a 사용자만 있습니다.';
 $string['usercount'] = '사용자 수';
 $string['usercounttotal'] = '사용자 수 ($a)';
 $string['usergroupmembership'] = '선택된 사용자의 멤버쉽';
