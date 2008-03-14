@@ -22,11 +22,13 @@ $string['chooselanguage'] = 'භාෂාවක් තෝරාගන්න';
 $string['chooselanguagehead'] = 'භාෂාවක් තෝරාගන්න';
 $string['compatibilitysettings'] = 'ඔබගේ PHP සැකසීම් පරීක්ෂා කිරීම...';
 $string['compatibilitysettingshead'] = 'ඔබගේ PHP සැකසීම් පරීක්ෂා කිරීම...';
+$string['compatibilitysettingssub'] = 'මූඩ්ල් මනාව ධාවනය වීම සඳහා ඔබගේ සේවාදායකය මෙම සියලු පරීක්ෂණ සමත් විය යුතුයි';
 $string['configfilecreated'] = 'වින්‍යාස ගොනුව සාර්ථකව සාදන ලදි';
 $string['configfiledoesnotexist'] = 'වින්‍යාස ගොනුව නොපවතී !!!';
 $string['configfilewritten'] = 'config.php සාර්ථකව සාදන ලදි';
 $string['configurationcomplete'] = 'වින්‍යසගත කිරීම අවසන්';
 $string['configurationcompletehead'] = 'වින්‍යසගත කිරීම අවසන්';
+$string['configurationcompletesub'] = 'ඔබගේ මූඩ්ල් මූලිකයෙහි ඇති ගොනුවක ඔබගේ සැකසුම් සුරක්ෂිත කිරීමට මූඩ්ල් උත්සාහ දරණ ලදි';
 $string['configurationfileexist'] = 'වින්‍යාස ගොනුව දැනටමත් පවතී!';
 $string['creatingconfigfile'] = 'වින්‍යාස ගොනුව සෑදීම ...';
 $string['database'] = 'දත්තගබඩාව';
@@ -34,6 +36,30 @@ $string['databasehost'] = 'දත්තගබඩා ධාරකය';
 $string['databasename'] = 'දත්තගබඩා නම:';
 $string['databasepass'] = 'දත්තගබඩා මුරපදය :';
 $string['databasesettingsformoodle'] = 'මූඩ්ල් සඳහා දත්තගබඩා සැකසුම්';
+$string['databasesettingssub'] = '<b>වර්ගය:</b> mysql හෝ postgres7<br />
+<b>ධාරකය:</b> උදා. localhost හෝ db.isp.com<br />
+<b>නම:</b> දත්ත ගබඩා නම, උදා. moodle<br />
+<b>පරිශීලක:</b> ඔබගේ දත්ත ගබඩා පරිශීලක නාමය<br />
+<b>මුරපදය:</b> ඔබගේ දත්ත ගබඩා මුරපදය<br />
+<b>වගු උපසර්ගය:</b> සියලු වගු නාම සඳහා භාවිතා කල යුතු විකල්ප උපසර්ගය';
+$string['databasesettingssub_mssql_n'] = '<b>වර්ගය:</b> SQL*Server (UTF-8 සක්‍රිය කරන ලද)<br />
+<b>ධාරකය:</b> උදා. localhost හෝ db.isp.com<br />
+<b>නම:</b> දත්ත ගබඩා නාමය, උදා.  moodle<br />
+<b>පරිශීලක:</b> ඔබගේ දත්ත ගබඩා පරිශීලක නාමය<br />
+<b>මුරපදය:</b> ඔබගේ දත්ත ගබඩා මුරපදය<br />
+<b>වගු උපසර්ගය:</b> සියලු වගු නාම සඳහා භාවිතා කල යුතු විකල්ප උපසර්ගය (අනිවාර්ය)';
+$string['databasesettingssub_mysql'] = '<b>වර්ගය:</b> MySQL<br />
+<b>ධාරකය:</b> උදා. localhost හෝ db.isp.com<br />
+<b>නම:</b> දත්ත ගබඩා නාමය, උදා.  moodle<br />
+<b>පරිශීලක:</b> ඔබගේ දත්ත ගබඩා පරිශීලක නාමය<br />
+<b>මුරපදය:</b> ඔබගේ දත්ත ගබඩා මුරපදය<br />
+<b>වගු උපසර්ගය:</b> සියලු වගු නාම සඳහා භාවිතා කල යුතු විකල්ප උපසර්ගය (අනිවාර්ය)';
+$string['databasesettingssub_mysqli'] = '<b>වර්ගය:</b> වැඩි දියුණුකරන ලද MySQL<br />
+<b>ධාරකය:</b> උදා. localhost හෝ db.isp.com<br />
+<b>නම:</b> දත්ත ගබඩා නාමය, උදා.  moodle<br />
+<b>පරිශීලක:</b> ඔබගේ දත්ත ගබඩා පරිශීලක නාමය<br />
+<b>මුරපදය:</b> ඔබගේ දත්ත ගබඩා මුරපදය<br />
+<b>වගු උපසර්ගය:</b> සියලු වගු නාම සඳහා භාවිතා කල යුතු විකල්ප උපසර්ගය (අනිවාර්ය)';
 $string['databasetype'] = 'දත්තගබඩා වර්ගය :';
 $string['databaseuser'] = 'දත්තගබඩා පරීශීලක :';
 $string['dataroot'] = 'දත්ත ඩිරෙක්ටරිය';
