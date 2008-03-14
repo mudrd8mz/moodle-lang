@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8.4+ (2007021541)
+      // admin.php - created with Moodle 1.8.4 + (Build: 20080307) (2007021541)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -577,6 +577,6 @@ $string['userscreated'] = 'Novovytvorené používateľské účty';
 $string['usersrenamed'] = 'Premenované používateľské účty';
 $string['usersupdated'] = 'Aktualizované používateľské účty';
 $string['validateerror'] = 'Táto hodnota nie je validná:';
-$string['xmlrpcrecommended'] = 'Inštalácia nepovinného rozšírenia xmlrpc je potrebná v prípade požadovania funkcionality siete Moodle serverov.';
+$string['xmlrpcrecommended'] = 'Pre beh sieťových funkcionalít (\"Moodle Networking\") je treba nainštalovať voliteľnú knižnicu xlmrpc.';
 
 ?>
