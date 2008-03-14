@@ -150,6 +150,8 @@ Sus respuestas, pensadas cuidadosamente, nos ayudarán a mejorar la manera de pr
 Muchas gracias por su colaboración.';
 $string['collespname'] = 'COLLES (Preferida)';
 $string['customintro'] = 'Introducción personalizada';
+$string['deleteallanswers'] = 'Eliminar todas las respuestas de encuesta';
+$string['deleteanalysis'] = 'Eliminar el análisis de las respuestas';
 $string['done'] = 'Hecho';
 $string['download'] = 'Descargar';
 $string['downloadexcel'] = 'Descargar como hoja de cálculo';

@@ -1,8 +1,7 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 + (2007021502)
+      // mnet.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['deletehost'] = 'Eliminar host';
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (auto-firmado)';
 $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (firmado)';
 $string['RPC_HTTP_PLAINTEXT'] = 'HTTP no encriptado';
@@ -28,6 +27,7 @@ $string['current_transport'] = 'Transporte actual';
 $string['currentkey'] = 'Clave pública actual';
 $string['databaseerror'] = 'No se pudieron escribir detalles en la base de datos.';
 $string['deleteaserver'] = 'Eliminando un servidor';
+$string['deletehost'] = 'Eliminar host';
 $string['deletekeycheck'] = '¿Está absoultamente seguro que quiere eliminar esta clave?';
 $string['deleteoutoftime'] = 'Su ventana de 60 segundos para eliminar esta clave ha expirado.Por favor comience de nuevo.';
 $string['deleteuserrecord'] = 'SSO ACL: eliminar registro para el usuario \'$a[0]\' de $a[1].';
@@ -42,6 +42,12 @@ $string['enrolcourses_desc'] = 'Cursos ofrecidos para matrícula remota por este
 $string['enrollingincourse'] = 'Matriculando en curso $a[0] en el host $a[1]<br />';
 $string['enrolments'] = 'matriculaciones';
 $string['enterausername'] = 'Por favor entre un nombre de usuario, ó una lista de usuarios separados por comas.';
+$string['error7020'] = 'Este error ocurre por lo general si el sitio remoto ha creado un registro con el wwwroot equivocado, por ejemplo http://yoursite.com en lugar de http://www.yoursite.com. Debería contactar con el administrador del sitio remoto con su wwwroot (tal como se especifica en config.php) pidiéndole que actualice el registro de su servidor.';
+$string['error7022'] = 'El mensaje que ha enviado al sitio remoto ha sido adecuadamente encriptado, pero no firmado. Que ocurra esto es muy extraño, y usted probablemente debería informar sobre el error (proporcionando toda la información posible sobre la versión de Moodle).';
+$string['error7023'] = 'El sitio remoto ha intentado desencriptar su mensaje con todas las claves que tiene registradas para su sitio, pero han fallado. Debería poder solucionar este problema introduciendo a mano las claves del sitio remoto. Es poco probable que esto ocurra a menos que no haya mantenido contacto con el sitio remoto durante varios meses.';
+$string['error7024'] = 'Usted envía un mensaje no encriptado al sitio remoto, pero éste no acepta comunicación sin encriptar desde su sitio. Que ocurra esto es muy extraño, y usted probablemente debería informar sobre el error (proporcionando toda la información posible sobre la versión de Moodle).';
+$string['error7026'] = 'La clave con la que su mensaje ha sido firmado es distinta de la consta en el servidor remoto. Es más, el servidor ha intentado comprobar la clave y no lo ha conseguido. Intente introducir manualmente la clave y pruebe de nuevo.';
+$string['error709'] = 'El sitio remoto no ha podido obtener una clave SSL para usted.';
 $string['expired'] = 'Esta clave expiró el';
 $string['expires'] = 'Válida hasta';
 $string['expireyourkey'] = 'Eliminar esta clave';
@@ -94,6 +100,7 @@ $string['mnetlog'] = 'Registros';
 $string['mnetpeers'] = 'Iguales';
 $string['mnetservices'] = 'Servicios';
 $string['mnetsettings'] = 'Ajustes de la Red Moodle';
+$string['mnetthemes'] = 'Temas';
 $string['moodle_home_help'] = 'La ruta a la página de inicio de Moodle en el host remoto, por ejemplo: /moodle/.';
 $string['moodleloc'] = 'Ubicación Moodle';
 $string['net'] = 'Red';
@@ -161,6 +168,7 @@ $string['subscribe'] = 'Suscribir';
 $string['system'] = 'Sistema';
 $string['testtrustedhosts'] = 'Probar una dirección';
 $string['testtrustedhostsexplain'] = 'Ingrese una dirección IP para ver si es un host de confianza.';
+$string['themesavederror'] = 'Ha ocurrido un error: Cambio de tema no guardado';
 $string['transport_help'] = 'Estas opciones son recíprocas, de modo que usted solamente puede forzar a un servidor remoto a usar un certificado SSL firmado si su servidor tiene también un certificado SSL firmado.';
 $string['trustedhosts'] = 'Hosts XML-RPC';
 $string['trustedhostsexplain'] = '<p>El mecanismo de hosts de confianza permite que máquinas específicas ejecuten llamadas a través de XML-RPC a cualquier parte del API de Moodle. Esto está disponible para scripts para controlar el comportamiento de Moodle y puede ser una opción muy peligrosa para activar. Si se tienen dudas, mantenerlo desactivado.</p> <p>Esto <strong>no</strong> es necesario para la Red de Trabajo Moodle(\'Moodle Networking\').</p> <p>Para activarlo, ingrese una lista de direcciones IP o redes, una en cada línea. Algunos ejemplos:</p>Su host local:<br />127.0.0.1<br />Su host local (con un bloqueo de red):<br />127.0.0.1/32<br />Únicamente el host con dirección IP 192.168.0.7:<br />192.168.0.7/32<br />Cualquier host con una dirección IP entre 192.168.0.1 y 192.168.0.255:<br />192.168.0.0/24<br />Un host cualquiera:<br />192.168.0.0/0<br />Obviamente el último ejemplo <strong>no</strong> es una configuración recomendada.';

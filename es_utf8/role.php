@@ -91,6 +91,7 @@ $string['manageroles'] = 'Gestionar roles';
 $string['metaassignerror'] = 'No se puede asignar este rol al usuario \"$a\" porque se requiere capacidad para gestionar metacursos.';
 $string['metaunassignerror'] = 'El rol del usuario \"$a\" se ha reasignado automáticamente; por favor, desasigne el rol en los cursos hijo en su lugar.';
 $string['morethan'] = 'Más de $a';
+$string['multipleroles'] = 'Roles múltiples';
 $string['my:manageblocks'] = 'Gestionar bloques de página myMoodle';
 $string['nocapabilitiesincontext'] = 'Permisos no disponibles en este contexto';
 $string['notes:manage'] = 'Gestionar calificaciones';

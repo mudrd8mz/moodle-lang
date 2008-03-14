@@ -36,6 +36,7 @@ $string['removeall'] = 'Eliminar todo';
 $string['removeselected'] = 'Eliminar seleccionados';
 $string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = 'comienza con';
+$string['tablenosave'] = 'Los cambios de la tabla superior se guardan automáticamente.';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
 $string['isbetween'] = 'es entre $a(0) y $a(1)'; // ORPHANED

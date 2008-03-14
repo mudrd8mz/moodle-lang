@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 + (2007021502)
+      // lesson.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['accesscontrol'] = 'Control de acceso';
@@ -62,6 +62,7 @@ $string['credit'] = 'Crédito';
 $string['customscoring'] = 'Puntuación personalizada';
 $string['deadline'] = 'Fecha final';
 $string['defaultessayresponse'] = 'Su ensayo será calificado por el instructor del curso.';
+$string['deleteallattempts'] = 'Eliminar todos los intentos de resolver la lección';
 $string['deletedefaults'] = 'Eliminada $a x lección por defecto';
 $string['deletedpage'] = 'Página eliminada';
 $string['deleting'] = 'Eliminando';
@@ -204,7 +205,6 @@ $string['or'] = 'O';
 $string['ordered'] = 'Ordenado';
 $string['other'] = 'Otro';
 $string['outof'] = 'Fuera de $a';
-$string['outoftime'] = 'Fuera de tiempo';
 $string['overview'] = 'Revisión';
 $string['page'] = 'Página: $a';
 $string['pagecontents'] = 'Contenido de la página';
@@ -262,7 +262,6 @@ $string['startlesson'] = 'Comenzar lección';
 $string['studentattemptlesson'] = 'Intento número $a->attempt de $a->lastname, $a->firstname';
 $string['studentname'] = '$a Nombre';
 $string['studentoneminwarning'] = 'Atención: Le queda 1 minuto o menos para terminar la lección.';
-$string['studentoutoftime'] = 'Atención: Ha sobrepasado el límite de esta lección. Su última respuesta no cuenta porque ha sido dada fuera de tiempo. Por favor, pulse en el botón Continuar para terminar la lección.';
 $string['studentresponse'] = 'comentario de {$a}';
 $string['submitname'] = 'Enviar nombre';
 $string['teacherjumpwarning'] = 'Un salto $a->cluster o $a->unseen se está usando en esta lección. En su lugar se usará el salto a la página siguiente. Entre como estudiante para probar estos saltos.';
@@ -301,6 +300,8 @@ $string['youranswer'] = 'Su respuesta';
 $string['yourcurrentgradeis'] = 'Su calificación actual es $a';
 $string['yourcurrentgradeisoutof'] = 'Su calificación actual es $a->grade sobre $a->total';
 $string['youshouldview'] = 'Usted debería ver como mínimo: $a';
+$string['outoftime'] = 'Fuera de tiempo'; // ORPHANED
+$string['studentoutoftime'] = 'Atención: Ha sobrepasado el límite de esta lección. Su última respuesta no cuenta porque ha sido dada fuera de tiempo. Por favor, pulse en el botón Continuar para terminar la lección.'; // ORPHANED
 $string['editlesson'] = 'Editar $a'; // ORPHANED
 
 ?>

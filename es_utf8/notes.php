@@ -10,6 +10,7 @@ $string['course'] = 'curso';
 $string['coursenotes'] = 'Notas del curso';
 $string['created'] = 'creado';
 $string['deleteconfirm'] = '¿Eliminar esta nota?';
+$string['deletenotes'] = 'Eliminar todas las notas';
 $string['editnote'] = 'Editar nota';
 $string['groupaddnewnote'] = 'Agregar nueva nota para todos';
 $string['nocontent'] = 'El contenido de la nota no puede estar vacío';

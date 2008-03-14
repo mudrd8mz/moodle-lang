@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 + (2007021502)
+      // resource.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addresource'] = 'Agregar recurso';
 $string['affectedresources'] = 'Recursos afectados';
+$string['allowlocalfiles'] = 'Permitir archivos locales';
+$string['autofilerename'] = 'Actualizar enlace si se renombra el archivo';
 $string['back'] = 'Atrás';
+$string['blockdeletingfile'] = 'Bloquear la eliminación de archivos referenciados';
 $string['browserepository'] = 'Revisar repositorio';
 $string['choose'] = 'Seleccionar';
 $string['chooseafile'] = 'Elija o suba un archivo';
@@ -46,6 +49,7 @@ $string['fetchservererror'] = 'Ha ocurrido un problema con el servidor remoto al
 $string['filename'] = 'Nombre del archivo';
 $string['filtername'] = 'Auto-enlace de recursos';
 $string['frameifpossible'] = 'Colocar el recurso en un marco para mantener visible la navegación por el sitio';
+$string['framesize'] = 'Tamaño del marco';
 $string['fulltext'] = 'Texto completo';
 $string['htmlfragment'] = 'Fragmento HTML';
 $string['imspackageloaded'] = 'Paquete cargado.';
@@ -96,6 +100,7 @@ $string['previous'] = 'Anterior';
 $string['redeploy'] = 'Desplegar de nuevo';
 $string['repository'] = 'Repositorio IMS';
 $string['resource:view'] = 'Ver recurso';
+$string['resourcedefaulturl'] = 'URL por defecto';
 $string['resourcetype'] = 'Tipo de recurso';
 $string['resourcetype1'] = 'Referencia';
 $string['resourcetype2'] = 'Página web';
@@ -125,5 +130,6 @@ $string['viewims'] = 'Ver Paquete IMS CP';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'ATENCIÓN: La operación de borrado está bloqueada por un recurso existente. Puede actualizar en primer lugar sus recursos, o pedir al administrador que desactive este mecanismo de seguridad en la configuración global de los recursos.';
 $string['warningdisabledrename'] = 'ATENCIÓN: El renombrado automático de las referencias en los recursos está desactivado. Por favor, actualice manualmente los recursos afectados si fuera necesario. El administrador puede asimismo activar el renombrado automático en la configuración global de los recursos.';
+$string['websearchdefault'] = 'Búsqueda de web por defecto';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 + (2007021502)
+      // scorm.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['activation'] = 'Activación';
@@ -26,6 +26,7 @@ $string['contents'] = 'Contenido';
 $string['coursepacket'] = 'Paquete de curso';
 $string['coursestruct'] = 'Estructura de curso';
 $string['datadir'] = 'Error de sistema: No se puede crear el directorio de datos del curso';
+$string['deleteallattempts'] = 'Eliminar todos los intentos SCORM';
 $string['details'] = 'Detalles del rastreo SCO';
 $string['directories'] = 'Mostrar enlaces de directorio';
 $string['display'] = 'Mostrar';

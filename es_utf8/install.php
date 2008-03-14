@@ -1,15 +1,7 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7 (2006101007)
+      // install.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['databasesettingssub_mysqli'] = '<b>Tipo:</b> MySQL Mejorado<br />
-<b>Host:</b> e.g., localhost o db.isp.com<br />
-<b>Nombre:</b> nombre de la base de datos, e.g., moodle<br />
-<b>Usuario:</b> nombre de usuario de su base de datos<br />
-<b>Contraseña:</b> contraseña de su base de datos<br />
-<b>Prefijo de Tablas:</b> prefijo a usar en los nombres de las tablas (opcional)';
-$string['mysqli'] = 'MySQL Mejorado (mysqli)';
-$string['mysqliextensionisnotpresentinphp'] = 'PHP no ha sido configurado adecuadamente con la extensión MySQLi de forma que se pueda comunicar con MySQL. Por favor, compruebe su archivo php.ini o recompile PHP. La extensión MySQLi no está disponible en PHP 4.';
 $string['admindirerror'] = 'El directorio especificado para admin es incorrecto';
 $string['admindirname'] = 'Directorio Admin';
 $string['admindirsetting'] = '<p>Muy pocos servidores web usan /admin como URL especial para permitirle acceder a un panel de control o similar. Desgraciadamente, esto entra en conflicto con la ubicación estándar de las páginas de administración de Moodle Usted puede corregir esto renombrando el directorio admin en su instalación, y poniendo aquí ese nuevo nombre. Por ejemplo: <blockquote> moodleadmin</blockquote>.
@@ -80,6 +72,12 @@ $string['databasesettingssub_mysql'] = '<b>Tipo:</b> MySQL<br />
 <b>Usuario:</b> usuario de la base de datos<br />
 <b>Contraseña:</b> contraseña de la base de datos<br />
 <b>Prefijo de tablas:</b> prefijo a usar en los nombres de las tablas (opcional)';
+$string['databasesettingssub_mysqli'] = '<b>Tipo:</b> MySQL Mejorado<br />
+<b>Host:</b> e.g., localhost o db.isp.com<br />
+<b>Nombre:</b> nombre de la base de datos, e.g., moodle<br />
+<b>Usuario:</b> nombre de usuario de su base de datos<br />
+<b>Contraseña:</b> contraseña de su base de datos<br />
+<b>Prefijo de Tablas:</b> prefijo a usar en los nombres de las tablas (opcional)';
 $string['databasesettingssub_oci8po'] = '<b>Tipo:</b> Oracle<br />
 <b>Servidor:</b> no usado, puede dejarse en blanco<br />
 <b>Nombre:</b> nombre de la conexión tnsnames.ora<br />
@@ -98,6 +96,7 @@ $string['databasesettingssub_postgres7'] = '<b>Tipo:</b> PostgreSQL<br />
 <b>Usuario:</b> usuario de la base de datos<br />
 <b>Contraseña:</b> contraseña de la base de datos<br />
 <b>Prefijo de tablas:</b> prefijo para usar con todas las tablas (obligatorio)';
+$string['databasesettingswillbecreated'] = '<b>Nota:</> el instalador tratará de crear la base de datos en el caso de que no exista.';
 $string['dataroot'] = 'Directorio de Datos';
 $string['datarooterror'] = 'El \'Directorio de Datos\' no pudo ser encontrado o creado. Corrija la ruta o cree el directorio manualmente.';
 $string['dbconnectionerror'] = 'Error de conexión con la base de datos. Por favor, compruebe los ajustes de la base de datos.';
@@ -204,6 +203,8 @@ $string['mssql_n'] = 'SQL*Server con UTF-8 (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP no se ha configurado adecuadamente con la extensión MSSQL de modo que pueda comunicarse con el SQL*Server. Por favor, compruebe el archivo php.ini o vuelva a compilar PHP.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP no ha sido adecuadamente configurado con la extensión MySQL de modo que pueda comunicarse con MySQL. Por favor, compruebe el archivo php.ini o recompile PHP.';
+$string['mysqli'] = 'MySQL Mejorado (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP no ha sido configurado adecuadamente con la extensión MySQLi de forma que se pueda comunicar con MySQL. Por favor, compruebe su archivo php.ini o recompile PHP. La extensión MySQLi no está disponible en PHP 4.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP no ha sido adecuadamente configurado con la extensión OCI8 de modo que pueda comunicarse con Oracle. Por favor, compruebe el archivo php.ini o vuelva a compilar PHP.';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
