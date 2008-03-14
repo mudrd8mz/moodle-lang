@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101508.02)
+      // role.php - created with Moodle 2.0 dev (2007101508.05)
 
 
 $string['addrole'] = 'නව භූමිකාවක් එක් කරන්න';
@@ -78,6 +78,8 @@ $string['grade:unlock'] = 'ශ්‍රේණි හෝ අයිතමයන්
 $string['grade:view'] = 'තම ශ්‍රේණි දර්ශනය කරන්න';
 $string['grade:viewall'] = 'අනෙකුත් පරිශීලකයන්ගේ ශ්‍රේණි දර්ශනය කරන්න';
 $string['grade:viewhidden'] = 'සැඟවුනු ශ්‍රේණි බැලීම';
+$string['inactiveformorethan'] = '$a->timeperiod කාලයකට වඩා අක්‍රියශීලියි';
+$string['ingroup'] = '\"$a->group\" සමූහයේ';
 $string['inherit'] = 'උරුම වෙන්න';
 $string['legacy:admin'] = 'පැවත එන භූමිකාව: පරිපාලක';
 $string['legacy:coursecreator'] = 'පැවත එන භූමිකාව: පාඨමාලා උත්පාදක';
