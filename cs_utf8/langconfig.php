@@ -10,7 +10,6 @@ $string['locale'] = 'cs_CZ.UTF-8';
 $string['localewin'] = 'Czech_Czech Republic.1250';
 $string['localewincharset'] = 'WINDOWS-1250';
 $string['oldcharset'] = 'ISO-8859-2';
-$string['parentlanguage'] = '<< Pokud chcete definovat sekundární jazyk, který má Moodle používat v případech, kdy řetězce ve vašem jazykovém balíčku chybí, specifikujte jeho kód zde. Příklad: sk_utf8>>';
 $string['strftimedate'] = '%%d. %%B %%Y';
 $string['strftimedateshort'] = '%%d. %%B';
 $string['strftimedatetime'] = '%%d. %%B %%Y, %%H.%%M';

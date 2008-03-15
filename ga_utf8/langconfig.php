@@ -6,7 +6,6 @@ $string['locale'] = 'ga.UTF-8';
 $string['localewin'] = 'Gaelic; Scottish Gaelic';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'ISO-8859-1';
-$string['parentlanguage'] = '';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
 $string['strftimedatetime'] = '%%d %%B %%Y, %%I:%%M %%p';
