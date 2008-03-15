@@ -1,0 +1,29 @@
+<h1>Relative URL'er, medieafspillere og Hot Potatoes</h1>
+
+<h2>Definitioner</h2>
+
+<div class="indent">
+    <p><i>URL</i><br />
+        adressen på en fil på internettet, f.eks. en webside, et billede eller en lydfil.
+    </p>
+    <p>
+        <i>absolut URL</i><br />
+        en URL, der begynder med &quot;http://&quot; kaldes en absolut URL. 
+        Når den bruges refereres altid det samme sted på internettet.
+    </p>
+    <p>
+        <i>relativ URL</i><br />
+        en URL der ikke begynder med &quot;http://&quot; kaldes en relativ URL. 
+        Den kombineres automatisk med webstedets absolutte URL, og finder på den måde den egentlige (absolutte) URL på filen.
+    </p>
+</div>
+
+<h2>Relative URL'er i Hot Potatoes</h2>
+<p>Relative URL'er er en god måde at angive adressen på billeder, lyde og videoer i Hot Potatoes, for de gør det muligt at se og teste quizzer på en lokal pc inden de uploades til Moodle. Når en quiz er uploadet til Moodle skal mediefilerne også uploades så de er tilgængelige fra Moodle.</p>
+
+<p>Af sikkerhedsmæssige årsager tillader Moodle ikke direkte adgang til kursusfiler. Alle efterspørgsler efter filer i en hvilken som helst ressource går gennem et script som verificerer om den person, der skal bruge filen, er tilmeldt kurset. Imidlertid kan denne mekanisme ødelægge relative links da reglerne for at få adgang til en absolut URL via en relativ ikke virker.</p>
+
+<p>Løsningen er dog simpel: <font color="red"><b>alle relative URL'er skal konverteres til absolutte URL'er</b></font> på det tidspunkt hvor quizzen indlæses i browseren. Når det gælder HotPot-quizzer vil Moodle konvertere URL'erne, så man ikke manuelt skal bøvle med dette kedelige og fejlfølsomme arbejde. </p>
+
+<h2>Medieafspillere i Hot Potatoes</h2>
+<p>Nogle medieafspillere accepterer ikke mediefiler der kommer via det script, der leverer kursusfilerne. I så tilfælde skal man bruge de Moodle-kompatible medieafspillere. Du kan sikre dette ved at ændre referencen til medieafspilleren i quizzen, eller tvinge Moodle til at gøre det, ved at sætte indstillingen &quot;Tving medieplugins&quot; til &quot;Ja&quot;  indstillingerne til Hot Potatoes quizzen.</p>
