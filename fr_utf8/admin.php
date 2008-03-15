@@ -472,6 +472,7 @@ $string['minpasswordlower'] = 'Lettres minuscules';
 $string['minpasswordnonalphanum'] = 'Caractères non alphanumériques';
 $string['minpasswordupper'] = 'Lettres majuscules';
 $string['misc'] = 'Divers';
+$string['missinglangparent'] = 'Le paquetage de la langue parente <em>$a->parent</em> de <em>$a->lang</em> n\'est pas installé.';
 $string['mnetrestore_extusers'] = '<strong>Remarque&nbsp;:</strong> ce fichier de sauvegarde contient des comptes utilisateurs distants provenant d\'un réseau Moodle, qui seront restaurés au cours du processus.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Remarque&nbsp;:</strong> ce fichier de sauvegarde semble provenir d\'une installation de Moodle différente. Il contient des comptes utilisateurs distants provenant d\'un réseau Moodle dont la restauration pourrait échouer. Cette opération n\'est pas supportée. Si vous êtes vraiment certain que ce fichier a été créé sur ce Moodle, ou si vous pouvez vous assurer que tous les serveurs du réseau Moodle sont configurés correctement, vous pouvez malgré tout tenter la restauration.';
 $string['modsettings'] = 'Gestion des activités';
