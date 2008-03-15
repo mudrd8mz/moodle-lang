@@ -471,6 +471,7 @@ $string['minpasswordlower'] = '小文字';
 $string['minpasswordnonalphanum'] = '非英数字';
 $string['minpasswordupper'] = '大文字';
 $string['misc'] = 'その他';
+$string['missinglangparent'] = '「 $a->lang 」の親言語「 $a->parent 」がありません。';
 $string['mnetrestore_extusers'] = '<strong>注意:</strong> このバックアップファイルは、処理中にリストアされるMoodleネットワークユーザアカウントを含んでいます。';
 $string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。このバックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
 $string['modsettings'] = '活動の管理';
