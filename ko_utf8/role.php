@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101508.08)
+      // role.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['addrole'] = '역할 추가';
@@ -78,6 +78,8 @@ $string['grade:unlock'] = '성적 혹은 항목 잠금해제';
 $string['grade:view'] = '내 성적 보기';
 $string['grade:viewall'] = '다른 사람 성적 보기';
 $string['grade:viewhidden'] = '숨겨진 성적 보기';
+$string['inactiveformorethan'] = '$a->timeperiod 이상 비활동';
+$string['ingroup'] = '모둠 \"$a->group\" 속';
 $string['inherit'] = '따름';
 $string['legacy:admin'] = '규정된 역할 : 관리자';
 $string['legacy:coursecreator'] = '규정된 역할 : 강좌 생성자';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2007101506)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['activation'] = '활성화';
@@ -151,7 +151,8 @@ $string['validation'] = '결과 확인';
 $string['validationtype'] = '이 선택은 SCORM Manifest을 확인하기 위해서 사용되는 DOMXML library이다. 만약 잘 모르겠다면 기본값 그대로 두어라.';
 $string['value'] = '값';
 $string['versionwarning'] = 'Manifest 판은 1.3 보다 더 구판이다. $a->tag 태그경고';
-$string['viewallreports'] = '$a 시도를 위해 보고서를 봐라';
+$string['viewallreports'] = '$a 시도 보고서 보기';
+$string['viewalluserreports'] = '$a 사용자 보고서 보기';
 $string['whatgrade'] = '시도 점수 주기';
 $string['width'] = '폭';
 $string['window'] = '프레임/윈도우창';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101508.08)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -194,6 +194,8 @@ $string['configquarantinedir'] = '만약 clam AV가 감염된 파일을 격리�
 만약에 이 곳을 비워두거나 기록할 수 없거나 존재하지 않는 디렉토리를 입력한다면, 감염된 파일은 삭제될 것이다. 경로명을 쓸 때 마지막 슬래쉬는 포함시키면 안된다.';
 $string['configrcache'] = '데이터베이스의 기록을 저장하기 위해 캐쉬 사용. \'캐쉬유형\'도 설정해야 함에 유념할 것!';
 $string['configrcachettl'] = '초 단위로 기록을 캐쉬에 저장할 시간을 적는다. 15초 이내의 짧은 값을 사용하라.';
+$string['configrecaptchaprivatekey'] = '무들 서버와 recaptcha.net 서버 사이에 통신용으로 쓰이는 문자열. http://recaptcha.net에 접속하여 이 사이트에 쓸 문자열을 얻어 오라.';
+$string['configrecaptchapublickey'] = '등록 양식에 reCAPTCHA 요소를 표시하기 위해 쓸 문자열. http://recaptcha.net에서 생성';
 $string['configrequestedstudentname'] = '강좌에서 학생을 지칭하는 용어';
 $string['configrequestedstudentsname'] = '강좌에서 학생들을 지칭하는 용어';
 $string['configrequestedteachername'] = '강좌에서 교수자를 지칭하는 용어';
@@ -595,6 +597,8 @@ $string['questioncwqpfscheck'] = '퀴즈 중에 처리되어야 할 \'무작위\
 $string['questioncwqpfsok'] = '통과. 여러분의 퀴즈에는 처리되어야 할 \'무작위\' 질문이 없습니다.';
 $string['rcache'] = '기록 캐쉬';
 $string['rcachettl'] = '기록 캐쉬 TTL';
+$string['recaptchaprivatekey'] = 'ReCAPTCHA 비밀키';
+$string['recaptchapublickey'] = 'ReCAPTCHA 공개키';
 $string['releasenoteslink'] = '무들 버전에 대한 정보를 얻기 위해서는 온라인 <a target=\"_new\" href=\"$a\">릴리즈 노트</a> 를 보십시요.';
 $string['remotelangnotavailable'] = '무들이 download.moodle.org에 접속하지 못했기 때문에 언어팩을 자동으로 설치하지 못하였습니다. 수동으로 아래에 제시된 목록에서 적절한 zip파일을 내려받아 여러분의 $a 디랙토리에 풀어넣기 바랍니다.';
 $string['renameerrors'] = '이름변경 오류';

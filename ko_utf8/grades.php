@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101508.08)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['activities'] = '활동';
@@ -72,7 +72,6 @@ $string['configaggregationposition'] = '실제 점수를 참조한 채점자 보
 $string['configaggregationview'] = '총 합계가 표시되는 방식: 실제 점수옆에 혹은 실제 성적 혹은 총합계 성적 중 한번에 한 형식만 테이블에 보이는 간결한 형식.';
 $string['configaveragesdecimalpoints'] = '성적의 열 아래, 각 평균(모둠 혹은 전체)에 표시될 소수점 자리수';
 $string['configaveragesdisplaytype'] = '채점자 보고서에서 각 열의 평균을 보여주는 방법 명시. 기본 값 및 추천하는 값은 상속인데, 각 열의 표시 형식을 확인해서 명확히 설정이 되어 있지 않으면 일반적인 채점 표시 형식으로 설정됩니다. 다른 표시 형식이 선택되면 각 열의 개별적 설정은 무시되고 선택된 형식을 전적으로 사용할 것입니다.';
-$string['configbulkcheckboxes'] = '일괄 채점 동작을 위한 각 성적 부근의 체크박스들';
 $string['configcoursegradedisplaytype'] = '이 강좌에 대한 성적의 기본 표시형식을 선택하세요. 사이트 기본값을 선택할 수 있습니다. 성적은 실제성적, 백분율성적(최소,최대성적을 참조하여), 문자성적(A,B,C등)으로 보여질 수 있습니다. 문자를 선택하면 교수자가 성적문자및 경계를 정의할 수 있습니다.';
 $string['configdecimalpoints'] = '각 성적에 표시될 소수점 자리수, 채점 항목에 따라 변경될 수 있습니다.';
 $string['configdisablegradehistory'] = '성적 관련 테이블에서 이력 추적을 비활성화하라. 그러면 서버가 다소 빨라지며 데이터베이스 공간이 절약된다.';
@@ -89,9 +88,9 @@ $string['configgradeletterdefault'] = '등급 범위를 나타내는 문자나 �
 $string['configgradepublishing'] = '내보내기와 가져오기에서 공개 가능: 내보내기된 성적은 무들 사이트에 접속하지 않고도 그 URL을 접속하여 접근할 수 있다. 성적은 그러한 URL에 접속하여 다시 가져올 수 있다.(다른 사이트에서 공개된 성적을 무들사이트로 가져올 수 있음을 의미한다) 기본적으로 관리자만 이 기능을 사용할 수 있지만, 다른 사람에게 이 권한을 부여할 때는, 부여하기 전에 사용자에게 충분히 개인정보 유출에 따른 위험성을 교육시켜야 한다.(북마크 공유, 가속기 다운로드, IP제한 등의 위험)';
 $string['confighiddenasdate'] = '이용자에게 성적이 공개되지 않을 때 \'-\'대신 제출일을 보여줌';
 $string['confighideforcedsettings'] = '채점 사용자 화면에서 강제 설정은 보여주지 않음';
+$string['configincludescalesinaggregation'] = '전 강좌, 모든 성적기록부의 집계된 성적에서 척도를 숫자로 변환하여 포함시킬지의 여부를 정할 수 있다. 주의: 이 설정을 바꾸게 되면 모든 집계된 성적은 다시 계산 될 것이다.';
 $string['configmeanselection'] = '열 평균에 어느 종류의 성적이 포함될지 선택. 점수가 없는 셀은 무시되거나 0(기본 설정)으로 간주될 수 있다.';
 $string['configprofilereport'] = '이용자 개인 정보 페이지에 성적 보고서가 사용됨';
-$string['configquickfeedback'] = '일괄 피드백은 한꺼번에 많은 피드백을 편집할 수 있도록 채점자 보고서의 각 셀에 텍스트 입력난을 추가한다. 한번에 하나씩 저장하는 대신, 변경사항을 한꺼번에 저장하기 위해 갱신 버튼을 클릭할 수 있다.';
 $string['configquickgrading'] = '일괄 채점은 한꺼번에 많은 점수를 편집할 수 있도록 채점자 보고서의 각 셀에 텍스트 입력난을 추가한다. 한번에 하나씩 저장하는 대신, 변경사항을 한꺼번에 저장하기 위해 갱신 버튼을 클릭할 수 있다.';
 $string['configrangesdecimalpoints'] = '성적의 열 위에 각 범위에 대하여 표시될 소수점 자리수, 채점 항목에 따라 변경될 수 있다.';
 $string['configrangesdisplaytype'] = '채점자 보고서에서 각 열의 범위를 보여주는 방법 명시. 기본값이란 각 열의 표시 형식을 그대로 사용하는 것이다.';
@@ -105,6 +104,7 @@ $string['configshowhiddenitems'] = '이용자가 moodle/grade:viewhidden 권한�
 $string['configshowlocks'] = '각 성적 부근에 잠금/잠금해제 아이콘을 보여줄지 여부';
 $string['configshownumberofgrades'] = '괄호로 각 성적의 옆에 집계될 성적의 수를 표시
 예: 45(34)';
+$string['configshowquickfeedback'] = '일괄 피드백은 한꺼번에 많은 촌평을 편집할 수 있도록 채점자 보고서의 각 셀에 문서 입력난을 추가한다. 한번에 하나씩 저장하는 대신, 변경사항을 한꺼번에 저장하기 위해 갱신 버튼을 클릭할 수 있다';
 $string['configshowranges'] = '채점자 보고서에서 각 채점 항목에 대해 가능한 범위를 보여주는 행 표시';
 $string['configshowrank'] = '각 항목에 대해 순위 보이기';
 $string['configshowuseridnumber'] = '채점자 보고서에서 이용자의 식별 번호를 보여 줄지 여부';
@@ -284,6 +284,7 @@ $string['importskippedoutcome'] = '단축명 \"$a\" 학습성과는 이 영역�
 $string['importstandard'] = '표준 학습성과로 가져오기';
 $string['importsuccess'] = '성적 가져오기 성공';
 $string['importxml'] = 'XML 가져오기';
+$string['includescalesinaggregation'] = '집계에 척도 포함';
 $string['incorrectcourseid'] = '교과 아이디가 틀렸습니다.';
 $string['incorrectminmax'] = '최소값은 최대값보다 작아야만 함';
 $string['inherit'] = '상속';
@@ -487,6 +488,7 @@ $string['typetext'] = '텍스트';
 $string['typevalue'] = '값';
 $string['uncategorised'] = '범주외';
 $string['unchangedgrade'] = '성적이 변경되지 않음';
+$string['unenrolledusersinimport'] = '가져온 성적 중 다음 사용자의 것은 아직 이 강좌에 등록되지 않은 사용자의 것임: $a';
 $string['unlock'] = '잠금해제';
 $string['unlockverbose'] = '$a->category$a->itemmodule $a->itemname 잠금 해제';
 $string['unused'] = '사용안됨';
@@ -499,6 +501,7 @@ $string['usenooutcome'] = '학습성과 사용하지 않음';
 $string['usenoscale'] = '척도 사용하지 않음';
 $string['usepercent'] = '퍼센트 사용';
 $string['user'] = '이용자';
+$string['usergrade'] = '$a->gradeidnumber 항목의 사용자 $a->fullname ($a->useridnumber)';
 $string['userkeyhelp'] = '무들에 로그인 하지 않고 이 내보내기 플러그인에 의해 공개될 데이타에 대한 접근성을 이용자에게 주는 저장된 키를 선택하세요. 이 양식을 제출할때 새 키를 만들려면 \'새 사용자 키\'를 선택하세요.';
 $string['userpreferences'] = '이용자 선택사항';
 $string['useweighted'] = '가중치 사용';
@@ -514,6 +517,8 @@ $string['writinggradebookinfo'] = '성적표 쓰기 설정';
 $string['xml'] = 'XML형식';
 $string['yes'] = '예';
 $string['yourgrade'] = '당신의 성적';
+$string['configbulkcheckboxes'] = '일괄 채점 동작을 위한 각 성적 부근의 체크박스들'; // ORPHANED
+$string['configquickfeedback'] = '일괄 피드백은 한꺼번에 많은 피드백을 편집할 수 있도록 채점자 보고서의 각 셀에 텍스트 입력난을 추가한다. 한번에 하나씩 저장하는 대신, 변경사항을 한꺼번에 저장하기 위해 갱신 버튼을 클릭할 수 있다.'; // ORPHANED
 $string['errornocategorizedid'] = '범주화 되지않은 아이디는 취할 수 없음'; // ORPHANED
 $string['exportselectedoutcomes'] = '선택된 학습성과 내보냄'; // ORPHANED
 $string['overallavg'] = '전체 평균'; // ORPHANED

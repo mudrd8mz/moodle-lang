@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (2007101508.08)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['CASform'] = '인증 선택';
@@ -96,6 +96,9 @@ $string['auth_dbuserstoremove'] = '$a 에서 사용자 목록 제거';
 $string['auth_emaildescription'] = '이메일 확인 인증은 기본 인증 방법이다. 가입하기 위해  이용자가 새로운 사용자 아이디와 비밀번호를 입력하면, 사용자의 이메일 계정으로 확인 메일이 보내진다. 이 메일에는 계정을 활성화할 수 있는 안전한 링크를 포함한다. 다음에 로그인할 때에는 무들 데이타베이스에 저장된 자료들을 참고하게 된다.';
 $string['auth_emailnoemail'] = '이메일 발송 실패';
 $string['auth_emailnoinsert'] = '데이터베이스에 당신의 기록 추가 실패';
+$string['auth_emailrecaptcha'] = '이메일을 통해 자동 등록하는 사용자들을 위해 등록 화면에 시청각 확인 기능을 추가하라. 이렇게 하면 스패머로부터 사이트를 지킬 수 있을 뿐만 아니라 뭔가 의미있는 공헌도 할 수 있게 된다. 좀 더 알고 싶으면 http://recaptcha.net/learnmore.html 의 내용을 참조하라.';
+$string['auth_emailrecaptcha_key'] = 'reCAPTCHA 기능 활성화';
+$string['auth_emailsettings'] = '이메일 인증 설정';
 $string['auth_emailtitle'] = '이메일 기반 인증';
 $string['auth_fcchangepasswordurl'] = '암호 변경 URL';
 $string['auth_fcconnfail'] = '접속 실패 오류번호: $a[0] 오류내용: $a[1]';
@@ -292,6 +295,8 @@ $string['changepassword'] = '패스워드 URL 변경';
 $string['changepasswordhelp'] = '만약 사용자가 자신의 계정과 비밀번호를 잊어버리는 경우를 대비해 이곳에 계정과 비밀번호를 찾거나 혹은 바꿀 수 있는 장소를 지정해 줍니다. 이것은 로그인 페이지나 사용자 페이지에서 단추형식으로 제공되지만, 이곳을 빈칸으로 놓아둔다면 웹페이지에 단추가 나타나지 않습니다.';
 $string['chooseauthmethod'] = '인증 방법 선택';
 $string['createpasswordifneeded'] = '필요시 암호 생성';
+$string['enterthenumbersyouhear'] = '들리는 숫자를 입력하시오';
+$string['enterthewordsabove'] = '위의 단어를 입력하시오';
 $string['errorminpassworddigits'] = '암호에는 최소 $a 개의 숫자가 포함되야 합니다.';
 $string['errorminpasswordlength'] = '암호길이는 최소 $a 문자 이상이라야 합니다.';
 $string['errorminpasswordlower'] = '암호에는 최소 $a 개의 소문자가 포함되야 합니다.';
@@ -303,7 +308,11 @@ $string['forcechangepassword_help'] = '다음 로그인시 사용자에게 비�
 $string['forcechangepasswordfirst_help'] = '무들에 최초 로그인 할 때 비밀번호 교체 요청';
 $string['forgottenpassword'] = '여기에 URL을 입력하면, 이 주소는 사이트에 대한 암호 복원 화면으로 이용될 것입니다. 이것은 암호가 무들 외부에서 처리되는 사이트를 위한 것입니다. 기본 암호 복원 방법을 사용하려면 빈칸으로 남겨 놓으시오.';
 $string['forgottenpasswordurl'] = '암호 재발급 URL';
+$string['getanaudiocaptcha'] = '소리 CAPTCHA';
+$string['getanimagecaptcha'] = '그림 CAPTCHA';
+$string['getanothercaptcha'] = '다른 CAPTCHA 얻기';
 $string['guestloginbutton'] = '손님 접속 버튼';
+$string['incorrectpleasetryagain'] = '틀렸습니다. 다시 해 보세요.';
 $string['infilefield'] = '파일에 필요한 항목';
 $string['instructions'] = '안내문';
 $string['internal'] = '내부';
@@ -318,6 +327,7 @@ $string['passwordhandling'] = '비밀번호 처리';
 $string['plaintext'] = '단순 텍스트';
 $string['pluginnotenabled'] = '인증 플러그인 \'$a\'은 활성화되어 있지 않습니다.';
 $string['pluginnotinstalled'] = '인증 플러그인 \'$a\'은 설치되어 있지 않습니다.';
+$string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'RPC 교섭시간 초과';
 $string['selfregistration'] = '자체 등록';
 $string['selfregistration_help'] = '자체 등록에 쓰일 인증 플러그인을 선택하시오.';

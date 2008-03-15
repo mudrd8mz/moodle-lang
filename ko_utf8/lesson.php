@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (2007101506)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -186,6 +186,7 @@ $string['nobranchtablefound'] = '갈래표 없음';
 $string['nocommentyet'] = '아직 코멘트 없음';
 $string['nocoursemods'] = '아무런 활동도 하지 않음';
 $string['nocredit'] = '학점 없음';
+$string['nodeadline'] = '무한정';
 $string['noessayquestionsfound'] = '이 완전학습에는 서술형 문항이 없음.';
 $string['nohighscores'] = '높은 점수 없음';
 $string['nolessonattempts'] = '이 학습에 대해 아무런 시도도 없었음.';
