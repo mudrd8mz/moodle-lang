@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7+ (2006101007)
+      // xmldb.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['aftertable'] = 'Efter tabel:';
 $string['back'] = 'Tilbage';
 $string['backtomainview'] = 'Tilbage til hovedmenu';
-$string['binaryincorrectlength'] = 'Ukorrekt l�ngde for det bin�re felt';
-$string['cannotuseidfield'] = 'Kan ikke inds�tte \"id\"-feltet. Det er en automatisk genereret talkolonne.';
+$string['binaryincorrectlength'] = 'Ukorrekt længde for det binære felt';
+$string['cannotuseidfield'] = 'Kan ikke indsætte \"id\"-feltet. Det er en automatisk genereret talkolonne.';
 $string['change'] = 'Skift';
 $string['charincorrectlength'] = 'Forkert længde for karakterfelt';
 $string['confirmdeletefield'] = 'Er du helt sikker på at du vil slette feltet:';
@@ -79,12 +79,12 @@ $string['selectaction'] = 'Vælg handling:';
 $string['selectdb'] = 'Vælg database:';
 $string['selectfieldkeyindex'] = 'Vælg felt/nøgle/indeks:';
 $string['selectonecommand'] = 'Vælg venligst en handling fra listen for at se PHPkoden';
-$string['selectonefieldkeyindex'] = 'Vælg venligst et felt/nøgle/indeks fra listen for at se PHPkoden';
+$string['selectonefieldkeyindex'] = 'Vælg venligst et felt/nøgle/indeks fra listen for at se php-koden';
 $string['selecttable'] = 'Vælg tabel:';
 $string['sentences'] = 'Sætninger';
 $string['statements'] = 'Udsagn';
-$string['statementtable'] = 'Udsagns tabel:';
-$string['statementtype'] = 'Udsagns type:';
+$string['statementtable'] = 'Udsagnstabel:';
+$string['statementtype'] = 'Udsagnstype:';
 $string['table'] = 'Tabel';
 $string['tables'] = 'Tabeller';
 $string['test'] = 'Test';
