@@ -61,7 +61,7 @@ $string['correctresponse'] = 'Respons, korrekt svar';
 $string['credit'] = 'Point';
 $string['customscoring'] = '<acronym title=\"Specificer point for hvert spørgsmål\">Spørgsmålsspecifikke point</acronym>';
 $string['deadline'] = 'Afleveringsfrist';
-$string['defaultessayresponse'] = 'Dit svar vil blive vurderet af instruktøren for kurset.';
+$string['defaultessayresponse'] = 'Dit svar vil blive vurderet af instruktøren på kurset.';
 $string['deletedefaults'] = 'Slettet $a x lektionsstandard';
 $string['deletedpage'] = 'Slettet side';
 $string['deleting'] = 'Sletter';

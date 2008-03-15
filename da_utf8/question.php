@@ -15,7 +15,7 @@ $string['cwrqpfsinfo'] = '<p>Under opgradering til Moodle 1.9 vil vi opdele spø
 <p>De følgende spørgsmålskategorier, hvorfra tilfældige spørgsmål i overordnede kategorier vælger spørgsmål fra, vil få deres delingsstatus ændret til det samme som kategorien med det tilfældige spørgsmål i under opgraderingen til Moodle 1.9. De følgende kategorier vil få deres delingsstatus ændret. Spørgsmål som påvirkes vil fortsætte med at virke i alle eksisterende quizzer indtil du fjerner dem fra disse quizzer.</p>';
 $string['defaultfor'] = 'Standard for $a';
 $string['defaultinfofor'] = 'Standardkategorien for delte spørgsmål i konteksten \"$a\".';
-$string['donothing'] = 'Kopier ikke og flyt ikke filer eller lav ændringer i links.';
+$string['donothing'] = 'Kopier eller flyt ikke filer eller lav ændringer i links.';
 $string['editingcategory'] = 'Rediger en kategori';
 $string['editingquestion'] = 'Redigerer et spørgsmål';
 $string['errorfilecannotbecopied'] = 'Fejl, kan ikke kopiere filen $a.';

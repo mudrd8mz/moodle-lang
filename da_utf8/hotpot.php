@@ -3,7 +3,7 @@
 
 
 $string['abandoned'] = 'Efterladte';
-$string['addquizchain'] = 'Tilføj kæde af quiz\'er';
+$string['addquizchain'] = 'Tilføj kæde af quizzer';
 $string['allmycourses'] = 'Alle mine kurser';
 $string['allusers'] = 'Alle brugere';
 $string['alwaysopen'] = 'Altid tilgængelig';
@@ -35,7 +35,7 @@ $string['error_nocourseorfilename'] = 'Kunne ikke oprette et xml-træ: mangler k
 $string['error_nofeedbackurlformmail'] = 'Skriv venligst en URL for form\'ens behandlings side';
 $string['error_nofeedbackurlwebpage'] = 'Skriv en URL til websiden';
 $string['error_nofilename'] = 'Skriv et filnavn';
-$string['error_noquizzesfound'] = 'Ingen Hot Potatoes-quiz\'er fundet';
+$string['error_noquizzesfound'] = 'Ingen Hot Potatoes-quizzer fundet';
 $string['error_notfileorfolder'] = '\"$a\" er ikke en fil eller en mappe';
 $string['excelencodings'] = 'Excel-koder';
 $string['feedbackformmail'] = 'Feedback-formular';
