@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (2007101508.08)
+      // group.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
@@ -61,7 +61,7 @@ $string['groupmembersonlyerror'] = '죄송합니다만, 이 활동을 하기 위
 $string['groupmemberssee'] = '모둠 구성원 보기';
 $string['groupmembersselected'] = '선택한 모둠의 구성원';
 $string['groupmode'] = '모둠 모드';
-$string['groupmodeforce'] = '강제 모둠 모드';
+$string['groupmodeforce'] = '강제모둠 모드';
 $string['groupmy'] = '내 모둠';
 $string['groupname'] = '모둠 이름';
 $string['groupnameexists'] = '이 강좌에는 이미 \'$a\'라는 모둠이 있습니다. 다른 이름을 선택하세요.';
@@ -72,19 +72,19 @@ $string['groupsgroupings'] = '모둠 &amp;모둠무리';
 $string['groupsinselectedgrouping'] = '선택된 모둠무리의 모둠';
 $string['groupsnone'] = '모둠 없음';
 $string['groupspreview'] = '모둠 미리보기';
-$string['groupsseparate'] = '분리된 모둠';
-$string['groupsvisible'] = '개방된 모둠';
+$string['groupsseparate'] = '분리 모둠';
+$string['groupsvisible'] = '개방 모둠';
 $string['grouptemplate'] = '모둠 @';
 $string['hidepicture'] = '사진 감춤';
 $string['javascriptrequired'] = '이 화면에서는 자바스크립트를 활성화시켜야 합니다.';
 $string['members'] = '모둠당 구성원들';
 $string['membersofselectedgroup'] = '선택된 모둠의 구성원';
 $string['namingscheme'] = '이름만들기 규칙';
-$string['namingschemehelp'] = '노트:모둠 문자를 나타내기 위해 \'@\'를 사용하거나 모둠 숫자를 나타내기 위해 \'#\'사용';
+$string['namingschemehelp'] = '문자(A-Z)모둠을 나타내기 위해 \'@\'를 사용하거나 숫자모둠을 나타내기 위해 \'#\'사용';
 $string['newgrouping'] = '새 모둠무리';
-$string['newpicture'] = '새로운 사진';
+$string['newpicture'] = '새 사진';
 $string['noallocation'] = '할당 없음';
-$string['nogroups'] = '이 강좌에 모둠설정이 아직 없습니다.';
+$string['nogroups'] = '아직 모둠설정이 이루어지지 않았습니다.';
 $string['nogroupsassigned'] = '모둠이 할당되지 않았습니다.';
 $string['nopermissionforcreation'] = '당신의 권한으로는 모둠 \"$a\" 을 생성할 수 없습니다.';
 $string['nosmallgroups'] = '마지막 작은 모둠 방지';
@@ -96,7 +96,7 @@ $string['nummembers'] = '모둠당 구성원 수';
 $string['overview'] = '개요';
 $string['potentialmembers'] = '예비 회원수 : $a';
 $string['printerfriendly'] = '모둠무리의 인쇄용 화면';
-$string['random'] = '무작위적으로';
+$string['random'] = '무작위로';
 $string['removegroupfromselectedgrouping'] = '선택한 모둠무리에서 모둠 제거';
 $string['removegroupingsmembers'] = '모둠무리에서 모둠 제거';
 $string['removegroupsmembers'] = '모둠 구성원 제거';

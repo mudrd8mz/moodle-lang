@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101508.08)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -603,10 +603,10 @@ $string['folderclosed'] = '닫힌 경로';
 $string['folderopened'] = '열린 경로';
 $string['followingoptional'] = '아래 항목은 선택사항입니다.';
 $string['followingrequired'] = '아래 항목은 필수사항입니다.';
-$string['force'] = '강제 모둠';
-$string['forcedmode'] = '지정된 모드';
+$string['force'] = '강제지정';
+$string['forcedmode'] = '지정 모드';
 $string['forcelanguage'] = '지정 언어';
-$string['forceno'] = '강요하지 않음';
+$string['forceno'] = '지정하지 않음';
 $string['forcepasswordchange'] = '강제로 암호 변경';
 $string['forcepasswordchangehelp'] = '다음 로그인 때 즉시 사용자에게 변경 요청';
 $string['forcepasswordchangenotice'] = '계속하기 위해서는 비밀번호를 바꿔야만 합니다.';
