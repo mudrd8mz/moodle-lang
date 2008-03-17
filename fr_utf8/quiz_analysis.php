@@ -11,6 +11,7 @@ $string['attemptshighest'] = 'Meilleure note';
 $string['attemptslast'] = 'Dernière tentative';
 $string['dicsindextitle'] = 'Index<br />discr.';
 $string['disccoefftitle'] = 'Coeff.<br />discr.';
+$string['downloadhtml'] = 'Télécharger la table en format HTML';
 $string['downloadooo'] = 'Télécharger en format OpenOffice';
 $string['facilitytitle'] = 'Utilitaire<br />%% correct';
 $string['lowmarkslimit'] = 'Ne pas analyser si le score est inférieur à';
