@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (2007101508)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -23,8 +23,8 @@ $string['allsubscribe'] = 'すべてのフォーラムをメール購読する';
 $string['allunsubscribe'] = 'すべてのフォーラムのメール購読を解除する';
 $string['anyfile'] = 'すべてのファイル';
 $string['attachment'] = '添付ファイル';
-$string['blockafter'] = 'ブロッキングのための投稿閾値';
-$string['blockperiod'] = 'ブロッキングのための期間';
+$string['blockafter'] = 'ブロッキングまでの投稿閾値';
+$string['blockperiod'] = 'ブロッキング期間';
 $string['blockperioddisabled'] = 'ブロックしない';
 $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cannotadddiscussion'] = 'このフォーラムにディスカッションを追加するには、グループのメンバーである必要があります。';
@@ -279,7 +279,7 @@ $string['unsubscribe'] = 'このフォーラムのメール購読を解除する
 $string['unsubscribed'] = 'メール購読を解除しました。';
 $string['unsubscribeshort'] = 'メール購読解除';
 $string['usermarksread'] = '投稿を手動で既読にします。';
-$string['warnafter'] = '警告のための投稿閾値';
+$string['warnafter'] = '警告までの投稿閾値';
 $string['yesforever'] = 'Yes, 無期限';
 $string['yesinitially'] = 'Yes, 最初のみ';
 $string['youratedthis'] = 'あなたの評価';
