@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.8 dev (2006102600)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['analysis'] = 'アイテム分析';
@@ -13,7 +13,8 @@ $string['attemptshighest'] = '最高評点';
 $string['attemptslast'] = '最後の受験';
 $string['dicsindextitle'] = '識別指数';
 $string['disccoefftitle'] = '判別係数';
-$string['downloadooo'] = 'OpenOfficeフォーマットでダウンロードする。';
+$string['downloadhtml'] = '完全なテーブルをHTMLフォーマットでダウンロードする';
+$string['downloadooo'] = 'OpenOfficeフォーマットでダウンロードする';
 $string['facilitytitle'] = '%%正解<br />ファシリティ';
 $string['lowmarkslimit'] = '次の評点以下は分析しない';
 $string['pagesize'] = '1ページあたりの問題数';
