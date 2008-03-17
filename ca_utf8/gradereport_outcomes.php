@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // gradereport_outcomes.php - created with Moodle 1.9 Beta 2 (2007101000)
+      // gradereport_outcomes.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
-$string['addoutcome'] = 'Afegeix un resultat';
-$string['courseoutcomes'] = 'Resultats del curs';
-$string['coursespecoutcome'] = 'Resultats del curs';
-$string['modulename'] = 'Informe de resultats';
-$string['outcomes:view'] = 'Veure l\'informe de resultats';
+$string['addoutcome'] = 'Afegeix una competència';
+$string['courseoutcomes'] = 'Competències del curs';
+$string['coursespecoutcome'] = 'Competències del curs';
+$string['modulename'] = 'Informe de competències';
+$string['outcomes:view'] = 'Veure l\'informe de competències';
 $string['usedgradeitem'] = 'Nombre d\'elements de qualificació';
 
 ?>
