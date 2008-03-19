@@ -5,7 +5,7 @@
 $string['autocreate'] = 'まだMoodleに作成されていないコースへの登録ユーザがある場合、コースを自動的に作成します。';
 $string['autocreation_settings'] = '自動作成設定';
 $string['category'] = '自動作成されるコースのためのカテゴリです。';
-$string['course_fullname'] = 'コース名称が保存されるフィールド名です。';
+$string['course_fullname'] = 'コース名が保存されるフィールド名です。';
 $string['course_id'] = 'コードIDが保存されるフィールド名です。このフィールドの値は、Moodleコーステーブル内の「enrol_db_l_coursefield」とマッチングするために使用されます。';
 $string['course_shortname'] = 'コース省略名が保存されるフィールド名です。';
 $string['course_table'] = 'コース詳細 (コース省略名、コース名等) を探すためのテーブル名です。';
