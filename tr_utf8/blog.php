@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 dev (2006120700)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['addnewentry'] = 'Yeni kayıt ekle';
-$string['addotags'] = 'Resmi etiket ekle';
-$string['addptags'] = 'Kullanıcı tanımlı etiket ekle';
+$string['backupblogshelp'] = 'Etkinleştirilirse, bloglar, SITE otomatik yedeklemelerine dahil edilir.';
 $string['blockmenutitle'] = 'Blog Menüsü';
 $string['blocktagstitle'] = 'Blog Etiketleri';
 $string['blocktitle'] = 'Blog etiketleri blok başlığı';
@@ -28,20 +27,18 @@ $string['entryupdated'] = 'Blog güncellendi';
 $string['groupblog'] = 'Grup blogu: $a';
 $string['groupblogs'] = 'Kullanıcılar, sadece grupta paylaşıma açılan kullanıcı bloglarını görebilir';
 $string['intro'] = 'Bu RSS içeriği bir veya birden fazla blogdan otomatik olarak oluşturuldu.';
-$string['noentriesyet'] = 'Burada görünen kayıt yok';
+$string['noentriesyet'] = 'Henüz gösterilecek kayıt yok';
 $string['noguestpost'] = 'Konuklar blog gönderemezler!';
 $string['norighttodeletetag'] = 'Bu etiketi silme hakkınız yok - $a';
-$string['notallowedtoedit'] = 'Bu kaydı düzeltmeye izniniz yok';
+$string['notallowedtoedit'] = 'Bu kaydı düzenleme izniniz yok';
 $string['numberofentries'] = 'Kayıtlar: $a';
 $string['numberoftags'] = 'Gösterilecek etiket sayısı';
-$string['otags'] = 'Resmi etiketler';
 $string['pagesize'] = 'Her sayfadaki blog sayısı';
 $string['personalblogs'] = 'Kullanıcılar sadece kendi bloglarını görebilir';
-$string['ptags'] = 'Kullanıcı tanımlı etiketler (Virgülle ayrılmış)';
 $string['publishto'] = 'Yayınla';
-$string['publishtonoone'] = 'Kendiniz (taslak)';
+$string['publishtonoone'] = 'Kendinize (taslak)';
 $string['publishtosite'] = 'Bu sitedeki herkese';
-$string['publishtoworld'] = 'Bu dünyadaki herkese';
+$string['publishtoworld'] = 'Dünyadaki herkese';
 $string['settingsupdatederror'] = 'Bir hata oluştu, blog seçenekleri ayarları güncellenemedi';
 $string['siteblog'] = 'Site blogu: $a';
 $string['siteblogs'] = 'Tüm site kullanıcıları tüm blog kayıtlarını görebilir';
@@ -56,5 +53,9 @@ $string['viewcourseentries'] = 'Kurs kayıtlarına bak';
 $string['viewmyentries'] = 'Kayıtlarıma bak';
 $string['viewsiteentries'] = 'Site kayıtlarına bak';
 $string['worldblogs'] = 'Tüm dünyaya açık olarak ayarlanmış blogları görebilir';
+$string['addotags'] = 'Resmi etiket ekle'; // ORPHANED
+$string['addptags'] = 'Kullanıcı tanımlı etiket ekle'; // ORPHANED
+$string['otags'] = 'Resmi etiketler'; // ORPHANED
+$string['ptags'] = 'Kullanıcı tanımlı etiketler (Virgülle ayrılmış)'; // ORPHANED
 
 ?>
