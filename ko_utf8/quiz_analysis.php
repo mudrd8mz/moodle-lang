@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.9 dev (2007021400)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['analysis'] = '항목 분석';
@@ -13,6 +13,7 @@ $string['attemptshighest'] = '최고 점수';
 $string['attemptslast'] = '마지막 시도';
 $string['dicsindextitle'] = '변별도<br />지수';
 $string['disccoefftitle'] = '변별도<br />계수';
+$string['downloadhtml'] = 'HTML 형식으로 표 내려받음';
 $string['downloadooo'] = '오픈오피스 형식으로 내려받음';
 $string['facilitytitle'] = '%% 정답<br />난이도';
 $string['lowmarkslimit'] = '만약에 다음보다 점수가 낮다면 분석하지 마시오:';
