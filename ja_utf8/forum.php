@@ -185,7 +185,9 @@ $string['overviewnumunread'] = '合計未読記事';
 $string['parent'] = '親記事を表示する';
 $string['parentofthispost'] = 'この投稿の親記事';
 $string['postadded'] = '<p>あなたの投稿が追加されました。</p>
-<p>内容を変更したい場合、 $a 編集できます。</p>';
+<p>あなたが内容を変更したい場合、 $a 編集できます。</p>';
+$string['postaddedsuccess'] = 'あなたの投稿が追加されました。';
+$string['postaddedtimeleft'] = '<p>あなたが内容を変更したい場合、 $a 編集できます。</p>';
 $string['postincontext'] = 'この投稿をコンテクスト内に表示する';
 $string['postmailinfo'] = 'これは ウェブサイト $a に投稿された記事のコピーです。
 
