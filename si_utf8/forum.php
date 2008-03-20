@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (2007101508.05)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080320) (2008030700)
 
 
 $string['addanewdiscussion'] = 'නව කතිකා මාතෘකාවක් එක් කරන්න';
@@ -185,6 +185,8 @@ $string['overviewnumunread'] = 'නොකියවූ මුළුගණන';
 $string['parent'] = 'මාපිය පෙන්වන්න.';
 $string['parentofthispost'] = 'මෙම හසුනේ මාපිය හසුන';
 $string['postadded'] = '<p> ඔබගේ හසුන සාර්ථකව එක් කරන ලදි </p> ඕනෑම වෙනසක් සිදු කිරීමට අවශ්‍ය නම් ඔබට එය සංස්කරණය කිරීමට $a ක් ඇත.';
+$string['postaddedsuccess'] = 'ඔබගේ පළ කිරීම සාර්ථකව එක් කරන ලදි.';
+$string['postaddedtimeleft'] = 'ඔබට වෙනස්කම් කිරීමට අවශ්‍යනම් සංස්කරණය සඳහා $a ඇත.';
 $string['postincontext'] = 'මෙම හසුනේ අන්තර්ගතය බලන්න.';
 $string['postmailinfo'] = 'මෙම $a වෙබ් අඩවියේ පළ කරන ලද පණිවුඩයක පිටපතකි. ඔබගේ පිළිතුර වෙබ් අඩවිය හරහා එක් කිරීමට මෙම';
 $string['postmailnow'] = '<p> සියලුම සංසද දායකයන් වෙත මෙම හසුන සැනෙකින් තැපැල් කරනු ඇත</p>';

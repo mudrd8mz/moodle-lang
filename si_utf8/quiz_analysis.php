@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 2.0 dev (2007101508)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080320) (2008030700)
 
 
 $string['analysis'] = 'අයිතමයන් විශ්ලේෂණය';
@@ -13,6 +13,7 @@ $string['attemptshighest'] = 'උපරිම ශ්‍රේණිය';
 $string['attemptslast'] = 'අවසන් උත්සාහය';
 $string['dicsindextitle'] = 'Disc.<br />සූචිය';
 $string['disccoefftitle'] = 'Disc.<br />Coeff.';
+$string['downloadhtml'] = 'සම්පූර්ණ වගු HTML ආකෘතියෙන් බාගත කරන්න';
 $string['downloadooo'] = 'ඕපන් ඔෆිස් ආකෘතියෙන් බාගත කරන්න';
 $string['facilitytitle'] = '%%නිවැරදියි<br />පහසුකම්';
 $string['lowmarkslimit'] = 'ලකුණු ගණන අඩුනම් විශ්ලේෂණය කරන්න එපා';
