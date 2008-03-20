@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080320) (2008030700)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -643,7 +643,9 @@ $string['frontpagenews'] = '새소식 보기';
 $string['frontpagetopiconly'] = '토픽만 보기';
 $string['fulllistofcourses'] = '강좌목록';
 $string['fullname'] = '전체 이름';
+$string['fullnamecourse'] = '강좌 전체 이름';
 $string['fullnamedisplay'] = '$a->firstname $a->lastname';
+$string['fullnameuser'] = '이용자 성명';
 $string['fullprofile'] = '상세정보';
 $string['fullsitename'] = '사이트 정식 명칭';
 $string['functiondisabled'] = '그 기능은 현재 사용할 수 없음';
@@ -1266,8 +1268,10 @@ $string['setcategorytheme'] = '범주 테마 설정';
 $string['settings'] = '설정';
 $string['shortname'] = '짧은 이름';
 $string['shortnamecollisionwarning'] = '[*]=이 짧은 이름은 이미 다른 교육과정에 사용되고 있습니다. 승인이 될 수 있는 다른 이름으로 바꿔주십시오';
+$string['shortnamecourse'] = '강좌 단축명';
 $string['shortnametaken'] = '짧은 이름이 다른 곳( $a )에서 사용되고 있습니다.';
-$string['shortsitename'] = '사이트의 단축명(예:과목명,반명,학교명)';
+$string['shortnameuser'] = '이용자 이니셜';
+$string['shortsitename'] = '사이트의 단축명(예:한 단어)';
 $string['show'] = '보기';
 $string['showactions'] = '활동 보기';
 $string['showadvancedsettings'] = '상세 설정 보기';
