@@ -1,0 +1,20 @@
+<h1>Vyžaduje sa adresa siete</h1>
+
+<p>Toto pole je voliteľné.</p>
+
+<p>Špecifikovaním zoznamu úplných alebo neúplných IP adries oddelených čiarkou môžete obmedziť prístup k testu pre konkrétne podsiete v rámci siete LAN alebo Internetu.</p>
+
+<p>Toto je obzvlášť užitočné pre zabezpečené testy, pri ktorých chcete mať istotu, že k testu budú mať prístup iba študenti v danej miestnosti.</p>
+
+<p>Napríklad: <b>192.168. , 231.54.211.0/20, 231.3.56.211, 231.3.56.10-20</b></p>
+
+<p>Môžete použiť štyri typy čísiel (nemôžete použiť textové mená domén ako example.com):</p>
+
+<ol>
+<li>Úplné IP adresy, ako <b>192.168.10.1</b>, ktoré zodpovedajú jednému počítaču (alebo proxy serveru).</li> 
+<li>Neúplné adresy, ako <b>192.168</b>, ktoré zodpovedajú všetkým umiestneniam, ktoré začínajú na tieto čísla.</li>
+<li>CIDR zápis, ako <b>231.54.211.0/20</b>, ktorý Vám povoľuje podrobnejšie špecifikovať určenie podsietí.</li>
+<li>Rozsah IP adries <b>231.3.56.10-20</b>. Rozsah sa vzťahuje na poslednú časť adresy, to znamená na celú IP adresu od 231.3.56.10 do 231.3.56.20.</li>
+</ol>
+
+<p>Medzery sú ignorované.</p>

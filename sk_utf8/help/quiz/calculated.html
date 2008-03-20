@@ -1,0 +1,102 @@
+<h1>Upraviť výpočtovú otázku</h1>
+
+<p>Výpočtové otázky ponúkajú spôsob vytvorenia jednotlivých otázok použitím masiek, ktoré sú pri vstupe do testu nahradené konkrétnymi hodnotami.</p>
+<br />Nižšie je uvedený skrátený náhľad hlavnej stránky pre úpravu, spolu s príkladmi:</p> 
+
+<table><tbody>
+<tr valign="top">
+    <th scope="col" align="right">Otázka:</th>
+    <td> 
+<textarea id="questiontext" name="questiontext" rows="5" cols="40" wrap="virtual">Koľko je {a} + {b} ?</textarea>
+</td>
+</tr>
+<tr valign="top">
+    <th scope="col" align="right">Obrázok na zobrazenie:</th>
+    <td>
+<select name="image"><option value="" selected="selected">Žiadny</option><option value="grevture.gif">grevture.gif</option></select>
+    </td>
+</tr>
+
+<tr valign="top">
+<th scope="col" align="right">Vzorec správnej odpovedi:</th>
+    <td>
+    <input align="left" type="text" id="formula0" name="answer[]" size="20" value="{a} + {b}" />&nbsp;&nbsp;
+    <input type="hidden" name="fraction[]" value="1.0" />
+    </td>
+</tr>
+<tr valign="top">
+    <th scope="col" align="right">Tolerancia:</th>
+    <td>
+    <input align="left" type="text" id="tolerance0&quot;" name="tolerance[]" size="15" value="0.01" />±
+    </td>
+</tr>
+<tr valign="top">
+<th scope="col" align="right">Typ tolerancie:</th>
+    <td>
+    <select name="tolerancetype[]"><option value="1" selected="selected">Relatívna</option><option value="2">Nominálna</option><option value="3">Geometrická</option></select>
+    </td>
+</tr>
+<tr valign="top">
+<th scope="col" align="right">Platné číslice:</th>
+    <td>
+    <select name="correctanswerlength[]"><option value="1">1</option><option value="2" selected="selected">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
+    </td>
+</tr>
+</tbody></table>
+
+<p>Pri otázke vidíte zadaný text a "Vzorec správnej odpovede" {a} a
+{b}. Tieto a ostatné {name} môžu byť použité ako masky, ktoré sú pri
+vstupe do testu nahradené konkrétnymi hodnotami. Po odoslaní testu sa
+pomocou výrazu "Vzorec správnej odpovede" vypočíta správna odpoveď,
+ktorá je vypočítaná ako numerická hodnota po nahradení maskami. Masky,
+ktoré možno použiť, sú nastavené alebo vytvorené na ďalšej stránke
+pomocou nástroja pre úpravu vypočítných úloh.</p>
+
+<p>V príklade je použitý operátor +. Ďalšie povolené operátory sú -*/
+a % kde % je operátor modulo. Môžeme tiež použiť niektoré matematické
+funkcie používané v PHP. Medzi ne patrí 24 funkcií s jedným
+argumentom:<br /><b> abs, acos, acosh, asin, asinh, atan, atanh, ceil,
+cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg,
+round, sin, sinh, sprt, tan, tanh
+</b><br />a dve dvojargumentové funkcie<br /><b>atan2, pow</b><br /> a
+funkcie <b>min</b> a <b>max</b>, ktoré môžu mať dva alebo viac
+argumentov. Môžeme tiež použiť funciu <b>pi</b>, ktorá nemá žiadny
+argument, ale nesmieme zabudnúť použiť zátvorky - správne použitie
+je <b>pi()</b>. Podobne ostatné funkcie musia mať argument(y) v
+zátvorkách. Možný spôsob použitia je napríklad <b>sin({a}) + cos({b})* 2</b>. Nemal by byť žiadny problém vkladať jednu funkciu do druhej
+ako <b>cos(deg2rad({a} + 90))</b> a podobne.  <br />Viac informácií
+o používaní týchto PHP funkcií nájdete na
+stránkach <a target="phpmathdoc"
+href="http://www.php.net/manual/en/ref.math.php">dokumentácia PHP</a>
+</p> 
+
+<p>Aj pre numerické otázky je možné povoliť rozmedzie hodnôt, v ktorom
+všetky otázky budú považované za správne. K tomuto účelu sa používa
+pole "Tolerancia". Poznáme viacej druhov tolerancií. Sú
+to <b>Relatívna, Nominálna a Geometrická</b>. Ak povieme, že správna
+odpoveď v teste je vypočítaná na 200 a tolerancia je nastavená na 0.5,
+potom bude rozdiel medzi rôznymi typmi tolerancií nasledovný:
+</p> <p><b>Relatívna:</b> Interval tolerancie je vypočítaný vynásobením
+odpovede s 0.5, to znamená, že v tomto prípade dostaneme 100, tak pre
+túto toleranciu musí byť správna odpoveď medzi 100 a 300.  (200 ±
+100)<br /> Táto metóda je užitočná, ak veľkosť správnej odpovede sa
+môže veľmi líšiť s rôznymi hodnotami masiek.
+</p> <p><b>Nominálna:</b> Toto je najjednoduchší typ tolerancie, ktorý
+nie je veľmi účinný. Správna odpoveď musí byť medzi 199.5 a 200.5 (200
+± 0.5)<br /> Tento typ tolerancie môže byť použitý, ak rozdiely medzi
+rôznymi správnymi odpoveďami sú malé.
+</p> <p><b>Geometrická:</b> Horná hranica tolerancie sa vypočíta ako
+200 + 0.5*200 a je to to isté ako pre relatívny prípad. Spodná hranica
+tolerancie sa vypočíta ako 200/(1 + 0.5). Správna odpoveď musí byť
+medzi 133.33 a 300.<br /> Táto metóda je užitočná pre komplexné
+výpočty, ktoré musia mať veľkú toleranciu, kde relatívne tolerancie o
+hodnote 1 alebo viac, budú použité ako horná hranica, ale nemôžu byť
+použité ako spodná hranica, pretože by vo všetkých prípadoch
+povoľovali 0 ako správnu odpoveď.
+</p> <p> Pole <b>Platné číslice</b> súvisí iba s tým, akou formou by
+mala byť správna odpoveď uvedená v prehľade alebo v
+protokoloch. Príklady: Ak je nastavená na 3, potom správna odpoveď
+13.333 bude uvedená ako 13.3; 1236 bude uvedená ako 1240; 23 bude
+uvedená ako 23.0 atď.
+</p> <p> Pole pre komentár a ďalšie voliteľné polia fungujú rovnako
+ako pri numerických úlohách. </p>
