@@ -184,6 +184,8 @@ $string['overviewnumunread'] = 'messages non lus';
 $string['parent'] = 'Niveau supérieur';
 $string['parentofthispost'] = 'Niveau supérieur de cet article';
 $string['postadded'] = '<p>Votre message a été enregistré.</p><p>Il vous est possible de le modifier pendant $a.</p>';
+$string['postaddedsuccess'] = 'Votre message a été enregistré.';
+$string['postaddedtimeleft'] = 'Il vous est possible de le modifier pendant $a.';
 $string['postincontext'] = 'Voir ce message dans son contexte';
 $string['postmailinfo'] = 'Ceci est une copie du message posté sur le site $a.
 
