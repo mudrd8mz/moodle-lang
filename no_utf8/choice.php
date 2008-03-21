@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 + (2007021503)
+      // choice.php - created with Moodle 1.9 (2007101509)
 
 
 $string['addmorechoices'] = 'Legg til flere valg';
@@ -11,12 +11,14 @@ $string['choice:deleteresponses'] = 'Slett svar';
 $string['choice:downloadresponses'] = 'Last ned svar';
 $string['choice:readresponses'] = 'Les svar';
 $string['choiceclose'] = 'Til';
+$string['choicefull'] = 'Valget er fullt og det er ingen ledige plasser.';
 $string['choicename'] = 'Overskrift til spørsmålet';
 $string['choiceopen'] = 'Åpne';
 $string['choicetext'] = 'Spørsmålsformulering';
 $string['displayhorizontal'] = 'Vis vannrett';
 $string['displaymode'] = 'Visningsmåte';
 $string['displayvertical'] = 'Vis loddrett';
+$string['expired'] = 'Beklager, denne aktiviteten ble stengt $a og er ikke tilgjengelig lenger.';
 $string['fillinatleastoneoption'] = 'Du må i det minste skrive inn to mulige svar.';
 $string['full'] = '(full)';
 $string['havetologin'] = 'Du må logge inn før du får svare.';
@@ -37,6 +39,8 @@ $string['publishalways'] = 'La alltid studentene se resultatene';
 $string['publishanonymous'] = 'Vis anonyme resultater uten å vise studentenes navn';
 $string['publishnames'] = 'Vis studentene komplette resultater inkludert deres navn og hva de har svart.';
 $string['publishnot'] = 'Ikke vis resultater til studentene';
+$string['removemychoice'] = 'Ta bort valgene mine';
+$string['removeresponses'] = 'Ta bort alle responsene mine';
 $string['responses'] = 'Svar';
 $string['responsesto'] = 'Svar på $a';
 $string['savemychoice'] = 'Lagre mitt svar';

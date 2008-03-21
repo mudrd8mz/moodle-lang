@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // censor.php - created with Moodle 1.8 + (2007021503)
+      // censor.php - created with Moodle 1.9 (2007101509)
 
 
-$string['badwords'] = 'shit,fucked,fucker,fuck,dickhead, dick,cockhead,cock,cunt,asshole,arsehole,prick,bitch, jism,whore,slut,wanker, wank,bastard,dildo,masturbate, orgasm,penis,nigger, pussy,vagina';
+$string['badwords'] = 'shit,fucked,fucker,fuck,dickhead, dick,cockhead,,asshole,arsehole,prick,bitch, ,slut,wanker,pikk,fitte,bastard,dildo,masturbate, orgasme,penis,nigger, pussy, homo';
 $string['filtername'] = 'Ordsensurering';
 
 ?>
