@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (2007101508.04)
+      // group.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
 
 
 $string['addgroupstogrouping'] = 'グループをグルーピングに追加する';
@@ -71,6 +71,7 @@ $string['groupscount'] = 'グループ ($a)';
 $string['groupsgroupings'] = 'グループ &amp; グルーピング';
 $string['groupsinselectedgrouping'] = 'グループ:';
 $string['groupsnone'] = 'グループなし';
+$string['groupsonly'] = 'グループのみ';
 $string['groupspreview'] = 'グループプレビュー';
 $string['groupsseparate'] = '分離グループ';
 $string['groupsvisible'] = '可視グループ';
@@ -108,36 +109,36 @@ $string['toomanygroups'] = 'このグループ数に割り当てるユーザが�
 $string['usercount'] = 'ユーザ数';
 $string['usercounttotal'] = 'ユーザ数 ($a)';
 $string['usergroupmembership'] = '選択したユーザのメンバーシップ';
-$string['defaultgroupdescription'] = 'デフォルトグループ説明'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['defaultgroupprefix'] = 'グループ'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['displaygrouping'] = 'グルーピングを表示する'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['distributealphabetically'] = '姓のアルファベット順にグループに割り当てる'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['distributeevenly'] = '残りの学生を均一に割り当てる'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['firstname'] = '名のアルファベット順'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['lastname'] = '姓のアルファベット順'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['membersingroup'] = 'メンバー'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['numberofgroups'] = 'グループ数'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['numberofstudents'] = '学生数'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['prefixforgroupnames'] = 'グループ名の接頭辞'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['selectnumberineachgroup'] = '各グループの学生数を選択する'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['selectnumberofgroups'] = 'グループ数を選択する'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['usestudentsonlyfromselectedgroup'] = '現在選択されているグループの学生のみ使用する。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['cancel'] = 'キャンセル'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['editgroupingpermissions'] = 'グルーピングパーミッションを編集する'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['errorinvalidgrouping'] = 'エラー、無効なグルーピングです: $a'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['errornotingrouping'] = '申し訳ございません、あなたは $a にグループを作成できません。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['errornotingroupingedit'] = '申し訳ございません、あなたはグルーピング $a を編集できません。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['groupfor'] = 'グループ'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['return'] = '戻る'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['save'] = '保存'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['showusersalreadyingroup'] = 'すでにグルーピングのグループに登録されているユーザを表示する。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['teachersgroupmark'] = '教師は自分が属していないグループの活動を評定できない。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['teachersgroupview'] = '教師は自分が属していないグループの活動を閲覧できない。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['teachersoverride'] = '教師は自分が属していないグループの活動を閲覧および評定できる (上記をオーバーライド)。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['upgradeconfirm'] = '申し訳ございません、このアップグレードではMoodle 1.8 DEVで作成されたグループテーブルを削除する必要があります。本当に続けてもよろしいですか?'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['viewallgroupsactivities'] = '学生はすべてのグループの活動を閲覧のみできる。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['viewallgroupsmembers'] = '学生はすべてのグループのメンバーを閲覧できる。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['viewowngroup'] = '学生は自分が属しているすべてのグループのメンバーを閲覧できる。'; //TBD with Moodle 2.0 dev (2007101508.04)
-$string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する'; //TBD with Moodle 2.0 dev (2007101508.04)
+$string['defaultgroupdescription'] = 'デフォルトグループ説明'; // TBD
+$string['defaultgroupprefix'] = 'グループ'; // TBD
+$string['displaygrouping'] = 'グルーピングを表示する'; // TBD
+$string['distributealphabetically'] = '姓のアルファベット順にグループに割り当てる'; // TBD
+$string['distributeevenly'] = '残りの学生を均一に割り当てる'; // TBD
+$string['firstname'] = '名のアルファベット順'; // TBD
+$string['lastname'] = '姓のアルファベット順'; // TBD
+$string['membersingroup'] = 'メンバー'; // TBD
+$string['numberofgroups'] = 'グループ数'; // TBD
+$string['numberofstudents'] = '学生数'; // TBD
+$string['prefixforgroupnames'] = 'グループ名の接頭辞'; // TBD
+$string['selectnumberineachgroup'] = '各グループの学生数を選択する'; // TBD
+$string['selectnumberofgroups'] = 'グループ数を選択する'; // TBD
+$string['usestudentsonlyfromselectedgroup'] = '現在選択されているグループの学生のみ使用する。'; // TBD
+$string['cancel'] = 'キャンセル'; // TBD
+$string['editgroupingpermissions'] = 'グルーピングパーミッションを編集する'; // TBD
+$string['errorinvalidgrouping'] = 'エラー、無効なグルーピングです: $a'; // TBD
+$string['errornotingrouping'] = '申し訳ございません、あなたは $a にグループを作成できません。'; // TBD
+$string['errornotingroupingedit'] = '申し訳ございません、あなたはグルーピング $a を編集できません。'; // TBD
+$string['groupfor'] = 'グループ'; // TBD
+$string['return'] = '戻る'; // TBD
+$string['save'] = '保存'; // TBD
+$string['showusersalreadyingroup'] = 'すでにグルーピングのグループに登録されているユーザを表示する。'; // TBD
+$string['teachersgroupmark'] = '教師は自分が属していないグループの活動を評定できない。'; // TBD
+$string['teachersgroupview'] = '教師は自分が属していないグループの活動を閲覧できない。'; // TBD
+$string['teachersoverride'] = '教師は自分が属していないグループの活動を閲覧および評定できる (上記をオーバーライド)。'; // TBD
+$string['upgradeconfirm'] = '申し訳ございません、このアップグレードではMoodle 1.8 DEVで作成されたグループテーブルを削除する必要があります。本当に続けてもよろしいですか?'; // TBD
+$string['viewallgroupsactivities'] = '学生はすべてのグループの活動を閲覧のみできる。'; // TBD
+$string['viewallgroupsmembers'] = '学生はすべてのグループのメンバーを閲覧できる。'; // TBD
+$string['viewowngroup'] = '学生は自分が属しているすべてのグループのメンバーを閲覧できる。'; // TBD
+$string['addexistinggroupstogrouping'] = '既存のグループをグルーピングに追加する'; // TBD
 
 ?>
