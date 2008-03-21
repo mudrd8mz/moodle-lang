@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2007101509)
+      // error.php - created with Moodle 2.0 dev (2008030700)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -91,7 +91,7 @@ $string['remotedownloadnotallowed'] = 'Het downloaden van componenten naar je se
 $string['restricteduser'] = 'Sorry, maar je hebt onvoldoende rechten om dat te doen.';
 $string['scheduledbackupsdisabled'] = 'Automatische backups zijn uitgeschakeld door de site-beheerder';
 $string['sendmessage'] = 'Stuur bericht';
-$string['sessionerroruser'] = 'Je sessie bleef te lang zonder activiteit. Je moet terug inloggen.';
+$string['sessionerroruser'] = 'Je sessie bleef te lang zonder activiteit. Je moet opnieuw inloggen.';
 $string['sessionerroruser2'] = 'Je loginsessie is verknoeid. Meld je opnieuw aan of herstart je browser.';
 $string['sessionipnomatch'] = 'Sorry, maar je IP-adres is gewijzigd sinds je aangemeld bent. Deze beveiligingsmethode voorkomt dat crackers je identiteit stelen terwijl je aangemeld bent op deze site. Gewone gebruikers zouden deze melding niet mogen zien - vraag je sitebeheerder om hulp.';
 $string['statscatchupmode'] = 'De statistiekfunctie is nu wat achterstand aan het inhalen. Tot nu zijn al $a->daysdone dagen verwerkt en zijn er nog $a->dayspending dagen te doen. Kom later eens terug kijken!';
