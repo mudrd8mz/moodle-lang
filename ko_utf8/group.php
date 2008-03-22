@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // group.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
 
 
 $string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
@@ -71,6 +71,7 @@ $string['groupscount'] = '모둠 ($a)';
 $string['groupsgroupings'] = '모둠 &amp;모둠무리';
 $string['groupsinselectedgrouping'] = '선택된 모둠무리의 모둠';
 $string['groupsnone'] = '모둠 없음';
+$string['groupsonly'] = '모둠만';
 $string['groupspreview'] = '모둠 미리보기';
 $string['groupsseparate'] = '분리 모둠';
 $string['groupsvisible'] = '개방 모둠';

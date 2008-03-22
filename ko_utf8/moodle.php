@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080320) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1443,7 +1443,7 @@ $string['unenrolallstudents'] = '모든 학생을 제명시킴';
 $string['unenrolallstudentssure'] = '이 코스의 모든학생을 제명시키겠습니까?';
 $string['unenrolme'] = '$a 로부터 탈퇴';
 $string['unenrolroleusers'] = '사용자 등록취소';
-$string['unenrolsure'] = '$a 에서 탈퇴하는 것이 확실합니까?';
+$string['unenrolsure'] = '$a 를 강좌에서 탈퇴시키려고 합니까?';
 $string['unfinished'] = '미완성';
 $string['unknowncategory'] = '등록되지 않은 범주';
 $string['unlimited'] = '제한없음';
