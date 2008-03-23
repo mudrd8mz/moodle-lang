@@ -1,0 +1,295 @@
+<h2>Písanie textu pomocou Markdown formátu</h2>
+
+<div id="Main">
+
+<div class="article">
+<p>Formát Markdown rozširuje jednoduchý formát zadávania textu, ktorý je k
+    dispozícii v Moodle. Formát Markdown umožňuje jednoducho pridať zdôraznenie
+    (tučné a kurzívne  písmo), štrukturovať obsah (zoznamy s odrážkami a
+    nadpisy) a vkladať odkazy (na obrázky nebo iné webové zdroje). Formát
+    Markdown je možné používať na viacerých miestach v Moodle, stačí ho jednoducho
+    vybrať z rozbaľovacieho zoznamu formátovania, ktorý &ndash; ak je k dispozícii &ndash; je
+    umiestnený pod oblasťou pre zadanie textu.</p>
+
+    <ul>
+      <li><a href="#concepts">Základné pojmy</a></li>
+      <li><a href="#emphasis">Zdôraznenie textu</a></li>
+      <li><a href="#headings">Nadpisy</a></li>
+      <li><a href="#lists">Zoznamy</a></li>
+      <li><a href="#quotes">Citované odstavce</a></li>
+      <li><a href="#links">Webové odkazy</a></li>
+      <li><a href="#images">Obrázky</a></li>
+      <li><a href="#advanced">Ďalšie informácie</a></li>
+    </ul>
+
+    <h2><a id="concepts" name="concepts">Základné pojmy</a></h2>
+
+    <p>Text možno jednoducho písať v oblasti pre zadávanie textu alebo do
+    textového poľa. Na konci každého odstavca stlačte dvakrát klávesu Enter
+    tak, aby bol medzi koncom odstavca a začiatkom ďalšieho prázdny riadok.</p>
+
+    <h2><a id="emphasis" name="emphasis">Zdôraznenie textu</a></h2>
+
+    <p>Pomocou formátu Markdown môžete pridať tri úrovne zdôraznenia textu &ndash;
+    <em>kurzívu</em>, <strong>tučné písmo</strong> alebo kombináciu
+    <strong><em>kurzívy a tučného písma</em></strong>. Takéto písmo
+    získate, keď  pred aj za text, ktorý chcete zdôrazniť, zapíšete hviezdičky. Príklad:</p>
+
+    <p><strong><code>*kurzíva*</code></strong> -&gt; <em>kurzíva</em><br>
+    <strong><code>**tučne**</code></strong> -&gt; <strong>tučne</strong><br>
+    <strong><code>***tučná kurzíva***</code></strong> -&gt; <strong><em>tučná
+    kurzíva</em></strong></p>
+
+    <p>Zdôrazniť môžete jednotlivé slová, viacslovné spojenia alebo aj časti
+    slov:</p>
+
+    <p><strong><code>*jedno* slovo</code></strong> -&gt;
+    <em>jedno</em> slovo<br>
+    <strong><code>***viacslovné spojenie***</code></strong> -&gt;
+    <strong><em>viacslovné spojenie</em></strong><br>
+    <strong><code>ne**rozlíš**iteľný</code></strong> -&gt;
+    ne<b>rozlíš</b>iteľný</p>
+
+    <p>Pre dosiahnutie rovnakého výsledku môžete namiesto hviezdičiek použiť tiež
+    podtrhovníky (_).</p>
+
+    <h2><a id="headings" name="headings">Nadpisy</a></h2>
+
+    <p>Formát Markdown umožňuje rozdeliť text pomocou nadpisov; k dispozícii je
+    šesť rôznych úrovní, aj keď v bežnom texte sa používajú maximálne tri
+    úrovne. V texte, ktorý práve čítate, sú použité tri úrovne nadpisov.</p>
+
+    <p>Nadpis môžete vytvoriť tak, že na začiatok riadku umiestnite jeden či viac
+    mriežok (#). Jedna mriežka označuje najväčší a najdôležitejší nadpis, šesť
+    mriežok potom najmenej dôležitý alebo najmenší nadpis.</p>
+
+    <p><strong><code># nadpis sekcie</code></strong><br>
+    <strong><code>## nadpis podsekcie</code></strong><br>
+    <strong><code>### nadpis pod-podsekcie</code></strong><br>
+    atď.</p>
+
+    <p>Prvé dve úrovne nadpisov sú najbežnejšie a dajú sa vytvoriť ďalšími
+    spôsobmi, ktoré v textovom zápise viac vystupujú z okolitého textu (výsledná
+    podoba však bude rovnaké ako u predchodzej metódy). Jedna z alternatív
+    používa riadok znakov &quot;rovná sa&quot; (=) alebo &quot;spojovník&quot; (-) umiestnený pod
+    nadpisom:</p>
+
+    <p><strong><code>nadpis sekcie</code></strong><br>
+    <strong><code>===============</code></strong></p>
+
+    <p><strong><code>nadpis dielčej sekcie</code></strong><br>
+    <strong><code>------------------</code></strong></p>
+
+    <h2><a id="lists" name="lists">Zoznamy</a></h2>
+
+    <h3>Zoznamy s odrážkami</h3>
+
+    <p>Zoznamy s odrážkami možno vytvoriť tak, že na začiatok každého riadku
+    umiestnite hviezdičku, za ktorou bude nasledovať medzera a potom text odrážky.
+    Nezabudnite, že medzera je dôležitá a nemožno ju vynechať.</p>
+
+    <p><strong><code>* prvý bod</code></strong><br>
+    <strong><code>* druhý bod</code></strong><br>
+    <strong><code>* tretí bod</code></strong></p>
+
+    <p>bude vyzerať takto:</p>
+
+    <ul>
+      <li>prvý bod</li>
+      <li>druhý bod</li>
+      <li>tretí bod</li>
+    </ul>
+
+    <h3>Číslované zoznamy</h3>
+
+    <p>Podobne možno vytvoriť číslované zoznamy. Na začiatok každého riadku
+    umiestnite číslo, za ním medzeru a potom príslušný text.</p>
+
+    <p><strong><code>1. prvý bod</code></strong><br>
+    <strong><code>2. druhý bod</code></strong><br>
+    <strong><code>3. tretí bod</code></strong></p>
+
+    <p>bude vyzerať takto:</p>
+
+    <ol>
+      <li>prvý bod</li>
+      <li>druhý bod</li>
+      <li>tretí bod</li>
+    </ol>
+
+    <h3>Odsadené zoznamy</h3>
+
+    <p>Zoznamy s odrážkami a číslované zoznamy môžete vnoriť alebo odsadiť, a to
+    aj keď v jednom bloku použijete oba typy zoznamov:</p>
+    <pre>
+    * prvá odrážka najvyššej úrovne
+      * prvá odrážka druhej úrovne 
+      * druhá odrážka druhej úrovne 
+    * druhá odrážka najvyššej úrovne 
+    1. prvý číslovaný bod
+       1. vnorený číslovaný bod  
+    2. druhý číslovaný bod
+</pre>
+
+    <p>bude vyzerať takto:</p>
+
+    <ul>
+      <li>prvá odrážka najvyššej úrovne
+        <ul>
+          <li>prvá odrážka druhej úrovne</li>
+          <li>druhá odrážka druhej úrovne</li>
+        </ul>
+      </li>
+      <li>druhá odrážka najvyššej úrovne
+        <ol>
+          <li>prvý číslovaný bod
+            <ol>
+              <li>vnorený číslovaný bod</li>
+            </ol>
+          </li>
+          <li>druhý číslovaný bod</li>
+        </ol>
+      </li>
+    </ul>
+
+    <h2><a id="quotes" name="quotes">Citované odstavce</a></h2>
+
+    <p>Citovaný text môžete označiť tak, že na začiatok každého riadku umiestnite
+    ostrú zátvorku (&gt;). Dôvodom výberu práve tohto znaku je to, že veľa
+    e-mailových programov používa ostrú zátvorku k označeniu citovaných častí.
+    Pri zobrazení je obvykle citovaná časť odsadená z oboch strán.</p>
+
+    <p><strong><code>&gt; Toto je citovaný odstavec,</code><br>
+    <code>&gt; ktorý zahŕňa dva riadky.</code></strong></p>
+
+    <p>bude vyzerať takto:</p>
+
+    <blockquote>
+      <p>Toto je citovaný odstavec, ktorý zahŕňa dva riadky.</p>
+    </blockquote>
+
+    <p>Zadávanie lomených zátvoriek na každom riadku si môžete ušetriť tak, že
+    použijete jednu lomenú zátvorku na začiatku prvého riadku citovaného
+    odstavca:</p>
+
+    <p><strong><code>&gt; Toto celé je jeden citovaný</code><br>
+    <code>odstavec, hoci obsahuje</code> <code>niekoľko
+    riadkov.</code></strong></p>
+
+    <p>bude vyzerať takto:</p>
+
+    <blockquote>
+      <p>Toto celé je jeden citovaný odstavec, hoci obsahuje niekoľko
+      riadkov.</p>
+    </blockquote>
+
+    <h2><a id="links" name="links">Webové odkazy</a></h2>
+
+    <p>Existujú dva spôsoby vytvárania odkazov na webové materiály. Prvou
+    možnosťou je vložiť odkaz do textu. Text, ktorý má slúžiť ako odkaz,
+    uzavrite do hranatých zátvoriek a za neho umiestnite do okrúhlych zátvoriek URL
+    stránky, ktorá sa po kliknutí na odkaz otvorí; medzi dvomi sadami zátvoriek
+    nedávajte medzeru; za URL môžete v úvodzovkách voliteľne pridať názov
+    odkazu.</p>
+
+    <p><strong><code>Ukážka [odkazu](http://example.com/ "Voliteľný názov") vo
+    vete.</code></strong></p>
+
+    <p>bude vyzerať takto:</p>
+
+    <p>Ukážka <a href="http://example.com/" title="Voliteľný názov">odkazu</a>
+    vo vete.</p>
+
+    <p>Názov (ak je zadaný), sa zobrazí ako tooltip, keď používateľ cez
+    text odkazu prejde myšou. Vyskúšajte si to na vyššie uvedenom odkaze.</p>
+
+    <p>U dlhších odkazov sa môžete vyhnúť prerušeniu textu použitím štýlu
+    poznámky pod čiarou. V druhej sade hranatých zátvoriek pripojte k odkazu krátky
+    identifikačný názov (napríklad krátke vysvetľujúce slovo, fráza alebo
+    jednoducho číslo).</p>
+
+    <p><strong><code>Ukážka [odkazu][uk] vo vete.</code></strong></p>
+
+    <p>Potom môžete na ľubovoľnom mieste dokumentu (najlepšie priamo pod odstavcom
+    obsahujúcim odkaz alebo spoločne s ostatnými URL odkazmi na konci dokumentu)
+    definovať pridruženú adresu URL s identifikátorom:</p>
+
+    <p><strong><code>[uk]:</code></strong> <strong><code>http://example.com/
+    "Voliteľný názov"</code></strong></p>
+
+    <p>Výstup druhej ukážky bude na nerozoznanie od prvého. Celé je to jednoducho
+    otázka prehľadného usporiadania pracovného dokumentu z dôvodu zjednodušenia
+    následných úprav, najmä v prípadoch, keď spolupracujete s ďalšími
+    používateľmi.</p>
+
+    <p>Poslednou možnosťou je umiestniť adresu URL do ostrých závtoriek, ak
+    chcete, aby text odkazu vyzeral rovnako ako URL:</p>
+
+    <p><strong><code>&lt;http://moodle.org/&gt;</code></strong></p>
+
+    <p>bude vyzerať takto:</p>
+
+    <p><a href="http://moodle.org">http://moodle.org</a></p>
+
+    <h2><a id="images" name="images">Obrázky</a></h2>
+
+    <p>Obrázky sa vkladajú podobným spôsobom ako webové odkazy, ale
+    predchádza im výkričník. Používateľom, ktorí obrázok z nejakého
+    dôvodu nemôžu zobraziť, je poskytovaný alternatívny text
+    (<b>alt</b> text). Tento text by mal dávať zmysel aj bez
+    sprevádzajúceho obrázku. Týmto spôsobom je tiež možné poskytovať
+    ostatným používateľom upravujúcim text informácie o účele
+    obrázku.</p>
+
+    <p>Názov sa zobrazí v malom okienku, keď používateľ prejde myšou
+    cez obrázok. Tak môžete poskytovať čitateľom ďalšie informácie.</p>
+
+    <p><strong><code>![alt text](/path/img.jpg "Voliteľný
+    názov")</code></strong></p>
+
+    <p>Rovnako ako u webových odkazov môžete dokument usporiadať tak, že
+    zoskupíte všetky URL pomocou štýlu poznámky pod čiarou. Obrázku priraďte
+    krátky, jedinečný názov:</p>
+
+    <p><strong><code>![alt text][foto1]</code></strong></p>
+
+    <p>a na ľubovoľnom míste v dokumentu priraďte tento názov k súboru
+    obrázku:</p>
+
+    <p><strong><code>[foto1]:</code></strong> <strong><code>/url/to/img.jpg
+    "Voliteľný názov"</code></strong></p>
+
+    <p>Tu je ukážka a jej výsledok:</p>
+
+    <p><strong><code>![logo Google](http://www.google.com/images/logo.gif "Logo
+    vyhľadávača Google")</code></strong></p>
+
+    <p><img src="http://www.google.com/images/logo.gif" alt="logo Google"
+    title="Logo vyhľadávača Google"></p>
+
+    <p>Alternatívny text (alt text), ktorý je tiež dôležitý z hľadiska
+    prístupnosti, bude často používaný prehliadačom v prípadoch, keď dôjde k
+    poškodeniu odkazov na obrázky alebo k dočasnej nedostupnosti obrázku:</p>
+
+    <p><strong><code>![alternatívny text pre poškodený
+    obrázok](http://example.com/intentionally.broken.link "Tento obrázok sa
+    nikdy nezobrazí")</code></strong></p>
+
+    <p>bude vyzerať takto (presný výstup závisí na prehliadači):</p>
+
+    <p><img src="http://example.com/intentionally.broken.link" alt=
+    "alternatívny text pre poškodený obrázok" title=
+    "Tento obrázek sa nikdy nezobrazí"></p>
+
+    <h2><a id="advanced" name="advanced">Ďalšie informácie</a></h2>
+
+    <p>Tento krátky úvod opisuje najčastejšie používané vlastnosti formátu
+    Markdown. Formát Markdown možno tiež použiť aj pre komplikovanejšie
+    formátovanie, a to najmä ak ste už obznámení s vytváraním textov vo
+    formáte HTML. Informácie k ďalším funkciám sú uvedené v samostatnom
+    dokumente s názvom Pokročilé použitie formátu Markdown.</p>
+
+    <p align="right"><a href="help.php?file=advanced_markdown.html">Pokročilé
+    použitie formátu Markdown</a></p>
+  </div>
+</div>

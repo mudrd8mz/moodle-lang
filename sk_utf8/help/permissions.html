@@ -1,0 +1,90 @@
+<h1>Oprávnenia</h1>
+
+<p>
+Oprávnenia sú nastavenia, ktorými možno riadiť prideľovanie dopredu
+definovaných schopností.
+</p>
+
+<p>
+Jednou z týchto schopností je napr. "Začínať novú diskusiu" (vo fórach).
+</p>
+
+<p>
+V rámci každej roly môžete pre danú schopnosť vybrať jednu zo štyroch nasledujúcich hodnôt oprávnení:
+<dl>
+<dt>ZDEDIŤ</dt>
+<dd>Obvykle ide o východzie nastavenie. Je to nastavenie neutrálne a
+    znamená "použi oprávnenia, ktoré používateľ už má". Ak je niekomu
+    pridelená rola (napr. v&nbsp;kurze) a pre niektorú z&nbsp;jej
+    schopností je použité toto nastavenie, budú pri tejto schopnosti
+    použité oprávnenia, ktoré boli používateľovi pridelené
+    v&nbsp;nadradených kontextoch (napr. v&nbsp;kategóriách kurzov
+    alebo na úrovni systému). Ak nie je používateľovi povolené
+    schopnosť používať v&nbsp;žiadnom nadradenom kontexte, nebude
+    príslušnou schopnosťou disponovať.
+    </dd>
+
+<dt>POVOLIŤ</dt>
+<dd>Výberom tejto hodnoty priznávate danú schopnosť všetkým používateľom,
+    ktorým je priradená rola obsahujúca toto nastavenie. Oprávnenie
+    platí v&nbsp;kontexte, v&nbsp;ktorom bola rola priradená a ďalej
+    vo všetkých "nižších" kontextoch. Ak ide napr. o rolu študenta
+    priradenou v kurze, budú študenti môcť "začínať novú diskusiu"
+    v&nbsp;ľubovoľnom fóre daného kurzu s&nbsp;výnimkou tých, u
+    ktorých boli oprávnenia pre túto schopnosť prepísané na hodnotu
+    Zabrániť alebo Zakázať.</dd>
+
+<dt>ZABRÁNIŤ</dt>
+<dd>Touto voľbou odoberáte používateľovi danú schopnosť, a to aj v prípade, 
+    že ju mal vo vyššom kontexte povolenú.</dd>
+
+<dt>ZAKÁZAŤ</dt>
+<dd>Toto nastavenie nie je treba často, niekedy je však výhodné odobrať 
+    niektorej roli oprávnenia s&nbsp;tým, že ich v&nbsp;žiadnom nižšom kontexte 
+    nebude možné prepísať. Dobrým príkladom je situácia, keď chce 
+    administrátor konkrétnemu používateľovi celkom odobrať možnosť začať novú 
+    diskusiu na celom portáli. Môže v&nbsp;takom prípade vytvoriť rolu, 
+    v&nbsp;ktorej bude u schopnosti "Začínať novú diskusiu" nastavená hodnota 
+    "Zakázať" a takúto rolu prideliť vybranému používateľovi v&nbsp;najvyššom 
+    kontexte stránok (systému).</dd>
+
+</dl>
+</p>
+
+<h1>Konfliktné oprávnenia</h1>
+
+<p> Oprávnenia nastavené v "nižšom" kontexte majú obvykle prednosť
+    pred oprávneniami preberanými z "vyšších" kontextov (platí pre 
+    prepísanie rol a pre priradenie rol). Výnimkou je hodnota 
+    ZAKÁZAŤ, ktorú nemožno v nižších kontextoch prepísať.
+</p>
+
+<p> Ak sú používateľovi v&nbsp;rovnakom kontexte pridelené dve roly, 
+    v&nbsp;ktorých je u rovnakej schopnosti nastavené jedenkrát POVOLIŤ a 
+    druhýkrát ZAKÁZAŤ, ktoré oprávnenie sa použije? V&nbsp;takomto prípade 
+    sa Moodle pokúsi v&nbsp;kontextovom strome nájsť "rozhodcu".
+</p>
+    
+<p> Príklad: Študent má v kurze dve roly. Jedna mu umožňuje začínať 
+    nové diskusie, druhá nie. V tomto prípade Moodle preverí, či 
+    sa v&nbsp;kontexte kategórií kurzov alebo v&nbsp;kontexte portálu 
+    nachádzajú iné nastavenia oprávnení, ktoré by nám pomohli konflikt 
+    rozhodnúť. Ak sa žiadne také oprávnenia nenájdu, použije sa 
+    oprávnenie ZABRÁNIŤ (konfliktné nastavenia sa vzájomne vyrušia a 
+    výsledkom je neprítomnosť oprávnenia).
+</p>
+
+<h1>Výnimky</h1>
+
+<p> Účet hosťa vo všeobecnosti nemôže vkladať a meniť obsah (napr. vo fórach, 
+    v&nbsp;kalendári, v&nbsp;blogu) a to aj v&nbsp;prípade, že mu je 
+    táto schopnosť pridelená.
+</p>
+
+<p>
+Viď tiež 
+<a href="help.php?file=roles.html">Roly</a>, 
+<a href="help.php?file=contexts.html">Kontexty</a>, 
+<a href="help.php?file=assignroles.html">Priradiť roly</a> a
+<a href="help.php?file=overrides.html">Prepísať roly</a>.
+</p>

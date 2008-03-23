@@ -1,0 +1,54 @@
+<h1>Nahrávanie skupín</h1>
+
+<p>Táto funkcia umožňuje dávkové nahrávanie skupín do Moodle.</p>
+
+<ul>
+  <li>Každý riadok súboru obsahuje práve jeden záznam.</li>
+
+  <li>Každý záznam je tvorený zoznamom údajov oddelených čiarkami.</li>
+
+  <li>Prvý záznam súboru má zvláštnu funkcii &ndash; obsahuje zoznam názvov polí.
+  Tento zoznam definuje formát zbytku súboru.
+
+    <blockquote>
+      <p><strong>Povinné polia:</strong> Tieto položky nesmú chýbať v prvom zázname
+      a musia byť vyplnené u všetkých používateľov.</p>
+
+      <p><code class="example1">groupname</code> </p>
+
+      <p><strong>Štandardné polia:</strong> Tieto polia sú voliteľné.
+      Ak nie sú definované, sú hodnoty prevzaté z aktuálneho jazyka a kurzu:</p>
+
+      <p><code class="example1">idnumber, coursename, lang</code> </p>
+
+        <p><strong>Voliteľné polia:</strong> Všetky tieto polia sú úplne
+      voliteľné. </p>
+
+      <p> <code class="example1">description, enrolmentkey, picture, hidepicture</code></p>
+    </blockquote>
+  </li>
+
+  <li>Čiarky obsiahnuté vo vnútri údajov je nutné zapísať kódom &amp;#44; &ndash; skript ich
+  automaticky transformuje naspäť na čiarky.</li>
+
+  <li>Logické polia využívajú 0 pre False (nepravda) a 1 pre True
+  (pravda).</li>
+
+  <li>K identifikácii kurzu možno použiť identifikačné číslo (idnumber) alebo názov
+  kurzu (coursename). Identifikačné číslo má prednosť pred názvom kurzu. Ak
+  nie je ani jedno z týchto polí zadané, sú skupiny pridané do aktuálneho
+  kurzu.</li>
+
+  <li>Názov kurzu tu odpovedá krátkemu názvu kurzu.</li>
+
+  <li>Poznámka: Ak je skupina už registrovaná v databáze Moodle v
+  konkrétnom kurze, vráti skript názov dané skupiny. Učitelia môžu nahrávať
+  skupiny iba do kurzov, v ktorých majú oprávnenia k úpravám.</li>
+</ul>
+
+<p>Príklad platného súboru pre import:</p>
+
+<p><code>groupname,idnumber,lang,description,picture <br />
+group1, Phil101, en, this group requires extra attention!, 0 <br />
+group2, Math243, , ,
+</code></p>

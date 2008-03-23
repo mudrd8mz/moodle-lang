@@ -1,0 +1,121 @@
+<h1>Správa filtrov</h1>
+
+<p>Stránka &quot;Filtre&quot; umožňuje zadať, ktoré filtre budú použité pri
+zobrazovanom texte a v akom poradí. Táto stránka tiež zaisťuje prístup k
+stránke nastavení, ktorú poskytujú niektoré filtre. U väčšiny používateľských
+textov v Moodle sú filtre použité skôr, ako sa text zobrazí. To umožňuje
+úpravu textu &quot;na poslednú chvíľu&quot;.</p>
+
+<p>Filtre patria medzi tzv. zásuvné moduly Moodle. Ďalšie informácie nájdete na
+adrese <a href=
+"http://download.moodle.org/modules/filters.php">http://download.moodle.org/modules/filters.php</a>.</p>
+
+<p>Vyberte filtre, ktoré chcete použiť tak, že ich odkryjete pomocou ikony oka.
+Ak existuje viac skrytých filtrov, môžete pomocou šípiek hore a dole meniť
+poradí, v akom budú použité.</p>
+
+<h2>TeX zápis</h2>
+
+<div class="indent">
+  <p>Zápis pomocou syntaxe jazyka TeX slúži primárne k vytváraniu matematických vzorcov v rámci
+  študijných materiálov Moodle. Príkladom môže byť $$ sqrt(a+b) $$, kde $$ je
+  &quot;značka&quot; (tag) pre začiatok a koniec tohto formátu.</p>
+
+  <p>Moodle používa k zobrazeniu obrázkov externé binárne súbory, ktoré bude
+  pravdepodobne treba v systéme nastaviť. Filter sa najprv pokúsi vyhľadať
+  nástroj pre zobrazenie LaTeX (táto metóda tiež vyžaduje použitie skriptu
+  Ghostscript). Ak tento nástroj nenájde, použije jednoduchší binárny
+  súbor <i>mimetex</i>, ktorý je súčasťou Moodle. Nástroj LaTeX umožňuje
+  použitie plnej syntaxe, kým súbor mimetex podporuje iba určitú
+  matematickú podmnožinu.</p>
+
+  <p>Pre systém Windows je skript Ghostscript k dispozícii; tiež existuje
+  implementácia LaTeX s názvom MikTeX.</p>
+
+  <p>Stránka nastavenia umožňuje nakonfigurovať cesty k binárnym súborom LaTeX
+  a Ghostscript a hlavičku LaTeX.</p>
+
+  <h3>Ďalšie informácie</h3>
+
+  <p><a href="http://www.miktex.org/">MiKTeX</a><br>
+  <a href="http://www.forkosh.com/mimetex.html">MimeTeX</a><br>
+  <a href="http://www.latex-project.org/">LaTeX</a><br>
+  <a href="http://www.ghostscript.com/">ghostscript</a></p>
+</div>
+
+<h2>Cenzúra slov</h2>
+
+<div class="indent">
+  <p>Slovná cenzúra vyhľadáva v texte &quot;nevhodné slová&quot; z
+  predom definovaného zoznamu. Každý jazykový balík obsahuje vlastný
+  východzí zoznam, je však možné zostaviť iný. Ak chcete zostaviť
+  vlastný zoznam, otvoríte stránku nastavení a zadajte svoj zoznam
+  slov. Používateľom sa tieto slová zobrazia prekryté čiernym blokom,
+  ale pri prechode myši cez neho sa zobrazí pôvodný text.</p>
+</div>
+
+<h2>Automatické prepojenie názvov zdrojov</h2>
+
+<div class="indent">
+  <p>Automatické prepojenie názvov zdrojov vyhľadáva v texte názvy
+  materiálov, ktoré existujú v rovnakom kurze. Text odpovedajúci názvu
+  niektorého materiálu sa zobrazí ako odkaz na daný
+  materiál. Nezabudnite, že ak chcete túto funkciu efektívne používať,
+  mali by ste zadávať popisné názvy.  Názov &quot;Úvod&quot; napríklad
+  nie je príliš vhodný, pretože akékoľvek použitie slova
+  &quot;Úvod&quot; v textoch kurzu bude zobrazené ako odkaz na
+  materiál tohto názvu.</p>
+</div>
+
+<h2>Automatické prepojenie názvov aktivít</h2>
+
+<div class="indent">
+  <p>Automatické prepojenie názvov aktivít vyhľadáva v texte názvy aktivít,
+  ktoré existujú v rovnakom kurze. Text odpovedajúci názvu niektorej aktivity sa
+  zobrazí ako odkaz na danú aktivitu. Nezabudnite, že ak chcete túto funkciu
+  efektívne používať, mali by ste zadávať popisné názvy. Názov &quot;Test&quot; napríklad
+  nie je príliš vhodný, pretože akékoľvek použitie slova &quot;Test&quot; v textoch kurzu
+  bude zobrazené ako odkaz na materiál tohto mena.</p>
+</div>
+
+<h2>Automatické prepojenie slovníku</h2>
+
+<div class="indent">
+  <p>Tento filter vyhľadáva v texte kľúčové slová použité vo všetkých slovníkoch v
+  kurze. Nezabudnite však, že prepojovanie musí byť povolené u každého
+  slovníkového hesla. Nájdené kľúčové slová sa zobrazia ako odkazy.</p>
+</div>
+
+<h2>Ochrana e-mailových adries</h2>
+
+<div class="indent">
+  <p>Filter &quot;Ochrana e-mailových adries&quot; vyhľadáva v texte
+  všetky e-mailové adresy. Nájdené adresy sú &quot;zamaskované&quot;
+  &ndash; filter tak zabraňuje systémom pre automatický zber
+  e-mailových adries v zhromažďovaní e-mailov. Je tak možné znížiť
+  riziko spamu, ak sú niektoré časti stránok Moodle verejne
+  prístupné.</p>
+</div>
+
+<h2>Tidy</h2>
+
+<div class="indent">
+  <p>Filter Tidy vyhľadáva v texte fragmenty HTML. U nájdených fragmentov potom
+  použije pravidlá, a s ich pomocou sa pokúsi vytvoriť platný kód HTML.
+  Upozornenie: Funkcia čistenia kódu musí byť integrovaná do inštalácie PHP, inak
+  ju nebude možné používať.</p>
+</div>
+
+<h2>Viacjazyčný obsah</h2>
+
+<div class="indent">
+  <p>Tento filter umožňuje vytvárať materiály vo viacerých jazykoch. Jazyk materiálu
+  sa mení je podľa toho, aký jazyk používa aktuálny používateľ pre prehliadanie
+  stránok Moodle. Ak chcete používať túto funkciu, je treba najprv vytvoriť
+  obsah vo viacerých jazykoch (v rovnakom materiáli). Potom uzavrite po jednom
+  jazykové bloky do nasledujúcich značiek:</p>
+  <pre>      &lt;span lang="XX" class="multilang"&gt;váš_obsah&lt;/span&gt;</pre>
+
+  <p>Alternatívne je možné tiež použiť značky span (zastaralý spôsob). Príklad:</p>
+  <pre>      &lt;span lang="XX"&gt;váš_obsah&lt;/span&gt;  </pre>
+</div>
