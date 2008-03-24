@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // group.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
 
 
 $string['addgroupstogrouping'] = 'Gruppe zur Gruppierung hinzufügen';
@@ -71,6 +71,7 @@ $string['groupscount'] = 'Gruppen ($a)';
 $string['groupsgroupings'] = 'Gruppen &amp; Gruppierungen';
 $string['groupsinselectedgrouping'] = 'Gruppen in der Gruppierung';
 $string['groupsnone'] = 'Keine Gruppen';
+$string['groupsonly'] = 'Nur Gruppen';
 $string['groupspreview'] = 'Gruppenvorschau';
 $string['groupsseparate'] = 'Getrennte Gruppen';
 $string['groupsvisible'] = 'Sichtbare Gruppen';

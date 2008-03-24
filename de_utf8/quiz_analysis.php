@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6.3 (2006050530)
+      // quiz_analysis.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
 
 
 $string['analysis'] = 'Ergebnisanalyse';
@@ -13,6 +13,7 @@ $string['attemptshighest'] = 'Besten Versuch';
 $string['attemptslast'] = 'Letzten Versuch';
 $string['dicsindextitle'] = 'DI';
 $string['disccoefftitle'] = 'DC';
+$string['downloadhtml'] = 'Download der vollständigen Tabelle im HTML-Format';
 $string['downloadooo'] = 'Download im Open-Office-Format';
 $string['facilitytitle'] = 'Richtig <br />%%';
 $string['lowmarkslimit'] = 'Nicht auswerten, wenn der Wert niedriger ist als:';

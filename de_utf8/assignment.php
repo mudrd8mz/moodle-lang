@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // assignment.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
 
 
 $string['allowdeleting'] = 'Löschen erlauben';
 $string['allowmaxfiles'] = 'Maximale Anzahl hochgeladener Dateien';
 $string['allownotes'] = 'Anmerkungen zulassen';
 $string['allowresubmit'] = 'Erneutes Einreichen erlauben';
+$string['alreadygraded'] = 'Ihre Lösung zu dieser Aufgabe wurde bereits bewertet. Das Aktualisieren ist daher nicht mehr möglich.';
 $string['assignment:grade'] = 'Aufgabe bewerten';
 $string['assignment:submit'] = 'Aufgabe übermitteln';
 $string['assignment:view'] = 'Aufgabe ansehen';
@@ -21,6 +22,7 @@ Sie finden ihn im Anhang Ihrer
 $string['assignmentname'] = 'Name der Aufgabe';
 $string['assignmenttype'] = 'Aufgabentyp';
 $string['availabledate'] = 'Verfügbar ab';
+$string['cannotdeletefiles'] = 'Es ist ein Fehler aufgetreten. Die Dateien konnten nicht gelöscht werden.';
 $string['comment'] = 'Kommentar';
 $string['commentinline'] = 'eingearbeiteter Kommentar';
 $string['configitemstocount'] = 'Werte, die bei den Online-Aufgaben der Teilnehmer/innen ausgezählt werden sollen (z.B. Wort- oder Zeichenzahl)';
@@ -45,11 +47,14 @@ $string['emailteachermailhtml'] = '$a->username hat die Aufgabe <i>\'$a->assignm
 Sie ist auf der Webseite <a href=\"$a->url\"> verfügbar.</a>.';
 $string['emailteachers'] = 'E-Mail-Benachrichtung an Trainer/innen';
 $string['emptysubmission'] = 'Sie haben noch nichts eingereicht.';
+$string['enableemailnotification'] = 'Benachrichtigungsmails versenden';
 $string['existingfiledeleted'] = 'Die vorhandene Datei wurde gelöscht: $a';
 $string['failedupdatefeedback'] = 'Keine Aktualisierung der Rückmeldung für Benutzer $a';
 $string['feedback'] = 'Feedback';
 $string['feedbackfromteacher'] = 'Feedback von $a';
 $string['feedbackupdated'] = 'Feedback aktualisiert für $a Teilnehmer/innen';
+$string['finalize'] = 'Keine weiteren Einreichungen.';
+$string['finalizeerror'] = 'Es ist ein Fehler aufgetreten. Der Eintrag konnte nicht beendet werden.';
 $string['graded'] = 'Bewertet';
 $string['guestnosubmit'] = 'Gäste dürfen keine Aufgaben bearbeiten. Sie müssen sich zuerst einloggen oder registrieren, um eine Aufgabe zu bearbeiten.';
 $string['guestnoupload'] = 'Gäste dürfen keine Dateien hochladen.';
@@ -71,6 +76,7 @@ $string['noassignments'] = 'Es gibt derzeit keine  Aufgaben';
 $string['noattempts'] = 'Bisher wurden keine Arbeiten eingereicht.';
 $string['nofiles'] = 'Keine Dateien wurde abgegeben.';
 $string['nofilesyet'] = 'Bisher wurden keine Dateien abgegeben.';
+$string['nomoresubmissions'] = 'Es sind keine weiteren Einträge mehr möglich.';
 $string['nosubmitusers'] = 'Es wurden keine Nutzer/innen gefunden, die die Berechtigung zur Aufgabenabgabe hätten.';
 $string['notavailableyet'] = 'Entschuldigung, diese Aufgabe steht noch nicht zur Verfügung.<br />Anweisungen zur Aufgabe werden ab dem unten angegebenen Termin hier angezeigt.';
 $string['notes'] = 'Kommentare';
@@ -86,7 +92,7 @@ $string['quickgrade'] = 'Schnelle Bewertung ermöglichen';
 $string['responsefiles'] = 'Antwortdateien';
 $string['reviewed'] = 'Nachgeprüft';
 $string['saveallfeedback'] = 'Alle meine Rückmeldungen speichern';
-$string['sendformarking'] = 'Zur Bewertung abgeben';
+$string['sendformarking'] = 'Zur Bewertung freigeben';
 $string['showrecentsubmissions'] = 'Neueste Aufgabenabgaben anzeigen';
 $string['submission'] = 'Aufgabenabgabe';
 $string['submissiondraft'] = 'Lösungsentwurf';
@@ -99,11 +105,13 @@ $string['submitedformarking'] = 'Die Lösung der Aufgabe wurde jetzt zur Bewertu
 $string['submitformarking'] = 'Aufgabe zur Bewertung abgeben';
 $string['submitted'] = 'Eingereicht';
 $string['submittedfiles'] = 'Eingereichte Dateien';
+$string['trackdrafts'] = 'Aktiviere \"Benachrichtigt\" Markierung';
 $string['typeoffline'] = 'Offline - Aktivität';
 $string['typeonline'] = 'Online - Texteingabe';
 $string['typeupload'] = 'Online - mehrere Dateien hochladen';
 $string['typeuploadsingle'] = 'Online - eine Datei hochladen';
 $string['unfinalize'] = 'Status in \'Entwurf\' ändern';
+$string['unfinalizeerror'] = 'Es ist ein Fehler aufgetreten.  Die Lösung konnte nicht auf Entwurf umgestellt werden.';
 $string['uploadbadname'] = 'Dieser Dateiname enthält unzulässige Zeichen und kann nicht hochgeladen werden.';
 $string['uploadedfiles'] = 'hochgeladene Dateien';
 $string['uploaderror'] = 'Beim Hochladen der Datei trat ein Fehler auf.';

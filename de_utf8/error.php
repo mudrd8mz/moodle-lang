@@ -95,6 +95,7 @@ $string['sessionerroruser'] = 'Die Zeitdauer für Ihre Sitzung wurde überschrit
 $string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login-Session. Loggen Sie sich bitte neu ein oder starten Sie Ihren Browser noch einmal.';
 $string['sessionipnomatch'] = 'Entschuldigung, Ihre IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker, während Sie auf der Seite arbeiten. Normale Nutzer sollten diese Mitteilung nicht sehen - bitten Sie den Administrator um Hilfe.';
 $string['statscatchupmode'] = 'Die Statistiken befinden sich im sog. Catchup-Modus. Bisher sind $a->daysdone Tage verarbeitet und $a->dayspending Tage werden noch bearbeitet. Prüfen Sie es später noch einmal.';
+$string['tagnotfound'] = 'Der verwendete Tag wurde ich der Datenbank nicht gefunden.';
 $string['unicodeupgradeerror'] = 'Entschuldigung, aber Ihre Datenbank hat kein Unicode-Format. Diese Moodle-Version ist deswegen nicht fähig, Ihre Datenbank nach Unicode umzuwandeln. Bitte aktualisieren Sie zuerst auf Moodle 1.7.x. Anschließend starten Sie die Unicode-Umwandlung auf der Admin-Seite. Anschließend sollte es möglich sein, auf Moodle $a zu aktualisieren.';
 $string['unknowncourse'] = 'Unbekannter Kursname \"$a\"';
 $string['unknowncourseidnumber'] = 'Unbekannte Kurs-ID \"$a\"';
@@ -121,4 +122,5 @@ $string['usernotupdatednotexists'] = 'Nutzer/in nicht aktualisiert - der Account
 $string['wrongdestpath'] = 'Falscher Pfad';
 $string['wrongsourcebase'] = 'Falsche URL-Quelle';
 $string['wrongzipfilename'] = 'Falscher ZIP-Dateiname';
+
 ?>

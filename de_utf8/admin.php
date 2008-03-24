@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // admin.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -42,10 +42,8 @@ $string['cachetext'] = 'Gültigkeitsdauer des Cache';
 $string['cachetype'] = 'Cache-Typ';
 $string['calendar_weekend'] = 'Tage am Wochenende';
 $string['calendarsettings'] = 'Kalender';
-$string['cfgwwwrootslashwarning'] = 'Sie haben den Eintrag für &#36;CFG->wwwroot in Ihrer config.php Datei falsch eingetragen. Sie haben am ende ein \'/\' eingegeben. Bitte entfernen Sie dieses Zeichen. Bitte korrigieren Sie die Daten. Andernfalls kann es zu schwerwiegenden Problemen kommen <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.
-cfgwwwrootslashwarning.';
-$string['cfgwwwrootwarning'] = 'Sie haben den Eintrag für &#36;CFG->wwwroot in Ihrer config.php Datei falsch eingetragen. Der bestehende Eintrag passt nicht zur URL, die Sie eingegeben haben, um die Seite aufzurufen. Bitte korrigieren Sie die Daten. Andernfalls kann es zu schwerwiegenden Problemen kommen <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.
-cfgwwwrootwarning.';
+$string['cfgwwwrootslashwarning'] = 'Sie haben den Eintrag für &#36;CFG->wwwroot in Ihrer config.php Datei falsch eingetragen. Sie haben am ende ein \'/\' eingegeben. Bitte entfernen Sie dieses Zeichen. Bitte korrigieren Sie die Daten. Andernfalls kann es zu schwerwiegenden Problemen kommen <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootwarning'] = 'Sie haben den Eintrag für &#36;CFG->wwwroot in Ihrer config.php Datei falsch eingetragen. Der bestehende Eintrag passt nicht zur URL, die Sie eingegeben haben, um die Seite aufzurufen. Bitte korrigieren Sie die Daten. Andernfalls kann es zu schwerwiegenden Problemen kommen <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'Ändern';
 $string['changesitelang'] = 'Sprache für die Website ändern';
 $string['checkboxno'] = 'Nein';
@@ -55,6 +53,7 @@ $string['clamfailureonupload'] = 'Fehlermeldung bei ClamAV';
 $string['cleanup'] = 'Aufräumarbeiten';
 $string['commonsettings'] = 'Gemeinsame Einstellungen';
 $string['componentinstalled'] = 'Komponente installiert';
+$string['computedfromlogs'] = 'Log-Daten seit $a';
 $string['confeditorhidebuttons'] = 'Wählen Sie die Optionen, die im HTML-Editor verborgen sein sollen.';
 $string['configallowassign'] = 'Die Rollen auf der linken Seite können zu den Rollen in jeder Spalte zugewiesen werden.';
 $string['configallowcategorythemes'] = 'Wenn Sie diese Einstellung erlauben, dann können Designs auf Kategorieebene gesetzt werden. Dies wird sich dann auch auf alle Unterkategorien und Kurse auswirken, falls die wiederum keine eigenen Designs verwenden. ACHTUNG: Designs auf Kategorieebene könnten Geschwindigkeitseinbußen verursachen!!';
@@ -78,6 +77,8 @@ $string['configclamactlikevirus'] = 'Behandle die Dateien wie virenhaltige Datei
 $string['configclamdonothing'] = 'Behandle die Dateien als ok';
 $string['configclamfailureonupload'] = 'Legen Sie die Reaktion fest, falls bei der Virenprüfung von hochgeladenen Dateien ein Fehler auftritt.
 Wenn Sie \'Behandle Dateien wie virenhaltige Dateien\' auswählen, werden diese in Quarantäne verschoben oder gelöscht. Wenn Sie \'Behandle die Dateien als ok\' wählen, werden diese normal ohne Prüfung hochgeladen. In jedem Fall werden die Administrator/innen benachrichtigt, dass ein Problem aufgetreten ist. Seien Sie mit dieser Einstellung sehr vorsichtig.';
+$string['configcookiehttponly'] = 'Diese Funktion aktiviert neue Funktionen unter PHP 5.2.0. Um einige Typen von XSS-Attacken zu verhindern werden Cookies über http-Anfragen versandt. Cookies sollten auch nicht für Scriptsprachen offen sein. Diese Funktion wird nicht von allen Browsern unterstützt. Es kann auch sedicin, dass im aktuellem Code noch nicht überall die Funktion unterstützt wird.';
+$string['configcookiesecure'] = 'Wenn Ihr Server über https-Verbindungen erreicht wird, ist es empfehlenswert die Funktion zum Übertragen sicherer Cookies zu aktivieren. Wenn die Funktion aktiviert wird müssen sicher sicherstellen, dass der Server nicht über http-Verbindungen erreichbar ist oder Rückfragen an https:// Adressen erstellt.  Falls die <em>wwwroot</em> Adresse nicht mit https:// beginnt wird die Einstellung automatisch wieder deaktiviert. .';
 $string['configcountry'] = 'Wenn Sie hier ein Land festlegen, wird dieses Land als Vorgabe für neue Nutzereinträge gewählt.  Wenn  Nutzer/innen das Land aktiv wählen sollen, lassen Sie das Feld einfach leer.';
 $string['configcoursemanager'] = 'Diese Einstellung legt fest, wer zur Verwaltung eines Kurses angezeigt wird. Wem eine der hier angekreuzten Rollen für den Kurs zugewiesen wurde, dessen Name wird in der Beschreibung aufgelistet.';
 $string['configcoursesperpage'] = 'Geben Sie die Kursanzahl an, die pro Seite in einer Kursliste angezeigt werden soll.';
@@ -192,6 +193,8 @@ $string['configproxyuser'] = 'Für den Internet-Zugriff muss eventuell ein Nutze
 $string['configquarantinedir'] = 'Wenn ClamAV infizierte Dateien in ein Quarantäne-Verzeichnis verschieben soll, definieren Sie hier dieses Verzeichnis. Wenn Sie den Eintrag leer lassen, das Verzeichnis ungültig ist oder nicht beschrieben werden kann, werden infizierte Dateien gelöscht. Tragen Sie keinen Slash am Ende ein.';
 $string['configrcache'] = 'Der Cache-Speicher wird benutzt, um Datenbankeinträge zwischenzuspeichern. Achten Sie darauf, auch den Cache-Typ zu setzen!';
 $string['configrcachettl'] = 'Gültigkeitsdauer für zwischengespeicherte Inhalte (in Sekunden). Wählen Sie hier einen Wert kleiner als 15.';
+$string['configrecaptchaprivatekey'] = 'Codierung für die Kommunikation zwischen dem Moodle Server und dem recaptcha.net Server.  Dieser Code wird durch http://recaptcha.net zur Verfügung gestellt.';
+$string['configrecaptchapublickey'] = 'Code, der zur Anzeige des ReCaptcha Elements bei der Nutzerregistrierung verwandt wird. Dieser wird von http://recaptcha.net zur Verfügung gestellt.';
 $string['configrequestedstudentname'] = 'Begriff für Teilnehmer/in in beantragten Kursen';
 $string['configrequestedstudentsname'] = 'Begriff für Teilnehmer/innen in beantragten Kursen';
 $string['configrequestedteachername'] = 'Begriff für Trainer/in in beantragten Kursen';
@@ -227,8 +230,10 @@ $string['configsmtphosts'] = 'Geben Sie hier den vollen Namen von einem oder meh
 $string['configsmtpmaxbulk'] = 'Mehrere Mitteilungen im Paket bei einer einzigen SMTP-Verbindung versenden. Dies könnte den Versand von E-Mails beschleunigen.';
 $string['configsmtpuser'] = 'Sofern Sie einen SMTP-Server angegeben haben und der Server Zugangsdaten erfordert, dann geben Sie hier Nutzernamen und Kennwort an.';
 $string['configstartwday'] = 'Beginn der Woche';
+$string['configstatscatdepth'] = 'Der Code zur Ermittlung von Statistiken verwendet ein vereinfachtes Modell zur Kontrolle der Kurszugangsberechtigungen der Nutzer. Überschreibungen werden ignoriert und es wird nur in einer begrenzten Zahl übergeordneter Ebenen gesucht. Der Wert \'0\' berücksichtigt nur direkte Rollenzuweisungen im Kurs selber. Der Wert \'1\' ermittelt ebenfalls Rollenzuweisungen, die aus einem übergeordneten Kurs stammen. Höhere Werte verursachen sehr umfassende Rechenlast auf dem Server bei der Berechnung von Statistiken. Sie sollten im Normalfall vermieden werden.';
 $string['configstatsfirstrun'] = 'Die Einstellung legt den Zeitraum fest, um den die auszuwertenden Logdaten zurückliegen dürfen. Wenn Sie sehr viele Aktivitäten in den Kursen haben oder sich einen Server mit anderen Anwendungen teilen, sollten Sie keinen zu langen Zeitraum wählen. Die Auswertung erfordert eine hohe Serverleistung. (Hinweis: für diese Einstellung gilt: 1 Monat = 28 Tage. In der grafischen Auswertung und den Berichten ist 1 Monat = 1 Kalendermonat.)';
 $string['configstatsmaxruntime'] = 'Die Berechnung der Statistiken kann sehr viel Rechenleistung erfordern. Verwenden Sie eine Kombination aus diesem Feld und dem nächsten, um festzulegen zu welchem Zeitpunkt und für welchen Zeitraum die Berechnung erfolgen soll.';
+$string['configstatsmaxruntime2'] = 'Die Berechnung der Statistiken kann sehr aufwendig sein. Besonders durch die maximal Dauer für Prozesse wird hier eine Begrenzung gesetzt. Mit einem Cron-Job können daher höchstens drei Tage der Statistik berechnet werden.';
 $string['configstatsruntimestart'] = 'Zu welchem Zeitpunkt soll die Berechnung der Statistiken durchgeführt werden?';
 $string['configstatsuserthreshold'] = 'Kurse mit einer geringeren Zahl von Nutzer/innen als in diesem Wert angegeben, werden beim Erstellen des Kursrankings nicht berücksichtigt. Die Zahl der Nutzer/innen setzt sich aus den Teilnehmer/innen und den Trainer/innen des Kurses zusammen.';
 $string['configsupportemail'] = 'Diese E-Mail-Adresse wird Nutzer/innen dieser Website übermittelt, wenn sie allgemeine Hilfe über E-Mail benötigen (z.B. wenn neue Nutzeraccounts selber angelegt werden sollen). Wenn das Feld leer bleibt, dann wird keine helfende E-Mail-Adresse angeboten.';
@@ -246,6 +251,8 @@ $string['configxmlstrictheaders'] = 'Mit dieser Funktion werden auf jeder Seite 
 $string['configzip'] = 'Geben Sie hier die Lage (Pfad und Dateiname) des Programms zip an (nur Unix). Das Programm wird für die Erstellung ZIP-Archiven auf dem Server benötigt. Wenn Sie dieses Feld leer lassen, benutzt Moodle interne Routinen.';
 $string['confirmation'] = 'Bestätigung';
 $string['confirminstall'] = 'Sie sind dabei das Sprachpaket ($a) zu installieren. Wollen Sie dies fortsetzen?';
+$string['cookiehttponly'] = 'Nur HTTP-Cookies';
+$string['cookiesecure'] = 'Nur Sicherheitscookies';
 $string['country'] = 'Land';
 $string['coursemanager'] = 'Kursverwaltung';
 $string['coursemgmt'] = 'Verwaltung';
@@ -327,7 +334,7 @@ $string['enabletrusttext'] = 'Trusted-Content-System aktivieren';
 $string['encoding'] = 'Encoding';
 $string['environment'] = 'Serverinformationen';
 $string['environmenterrortodo'] = 'Sie müssen zunächst alle Probleme mit der Server-Konfiguration beheben, bevor Sie mit der Installation dieser Moodle-Version fortfahren können.';
-$string['environmenterrorupgrade'] = 'Achtung: Sie sollten die o.g. Probleme (Fehler) bzgl. Ihrer Servberkonfiguration lösen, bevor Sie mit dem Moodle-Upgrade fortsetzen. Wenn Sie das nicht tun, riskieren Sie Probleme, z.B. Datenverluste. Sind Sie sicher, dass Sie fortsetzen wollen?';
+$string['environmenterrorupgrade'] = 'ACHTUNG! Sie sollten die o.g. Probleme und Fehler bzgl. Ihrer Serverkonfiguration lösen, bevor Sie mit dem Moodle-Upgrade fortsetzen. Falls Sie das Upgrade ohne Beachtung der Anforderungen trotzdem fortsetzen, riskieren Sie Probleme wie z.B. Datenverluste. Sind Sie wirklich sicher, dass Sie weitermachen wollen?';
 $string['environmentok'] = 'Ihre Serverumgebung erfüllt die Mindestanforderungen.';
 $string['environmentrecommendcustomcheck'] = 'Wenn dieser Test fehlschlägt, dann ist ein  mögliches Problem vorhanden.';
 $string['environmentrecommendinstall'] = 'sollte installiert und aktiviert sein.';
@@ -470,6 +477,7 @@ $string['minpasswordlower'] = 'Kleinbuchstaben';
 $string['minpasswordnonalphanum'] = 'Sonderzeichen';
 $string['minpasswordupper'] = 'Großbuchstaben';
 $string['misc'] = 'Verschiedenes';
+$string['missinglangparent'] = 'Hauptsprachpaket  <em>$a->parent</em> fehlt für <em>$a->lang</em>.';
 $string['mnetrestore_extusers'] = '<strong>Achtung:</strong> Die Backup-Datei   enthält externe Moodle-Nutzerkonten, die bei der Wiederherstellung angelegt werden.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Achtung:</strong> Die Backup-Datei wurde anscheinend auf einer anderen Moodle-Installation erzeugt und enthält externe Moodle-Nutzerkonten, die evtl. nicht wiederhergestellt werden können. Diese Aktion wird nicht unterstützt. Wenn Sie sicher sind, dass die Backup-Datei auf dieser Moodle-Installation erzeugt wurde, oder wenn Sie sicherstellen können, dass alle notwendigen Moodle Netzwerk Server konfiguriert sind, dann können Sie die Wiederherstellung fortsetzen.';
 $string['modsettings'] = 'Übersicht';
@@ -526,8 +534,8 @@ $string['performance'] = 'Geschwindigkeit';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = 'PostgreSQL Versions-/Cluster-Parameter für Kommandozeilenoperationen. Wenn Sie nur eine PostgreSQL auf Ihrem System verwenden oder sich nicht sicher sind, lassen Sie das Feld leer.';
 $string['php50restricted'] = 'PHP 5.0.x hat eine Reihe bekannter Fehler! Sie sollten die Versionen 5.1.x bzw. 4.3.x/4.4.x benutzen.';
-$string['pleaserefreshregistration'] = 'Ihre Website wurde bie moodle.org registriert. Bitte erneuern Sie die Registrierung bei entscheidenden Veränderungen: $a';
-$string['pleaseregister'] = 'Registrieren Sie Ihre Website, um diesen Button zu entfernen';
+$string['pleaserefreshregistration'] = 'Ihre Website wurde am $a bei moodle.org registriert. <br />Bitte erneuern Sie die Registrierung bei entscheidenden Veränderungen.';
+$string['pleaseregister'] = 'Bitte registrieren Sie Ihre Website.';
 $string['plugins'] = 'Module';
 $string['profilecategory'] = 'Kategorie';
 $string['profilecategoryname'] = 'Name der Kategorie (muss eindeutig sein)';
@@ -588,9 +596,11 @@ $string['questioncwqpfscheck'] = 'Im Test sind eine oder mehrere \'Zufallsfragen
 Fragen aus einem Mix von freigegebenen und nichtfreigegebenen Fragenkategorien ausgewählt werden sollen. Lesen Sie dazu bitte den <a href=\"$a->reporturl\"> ausführlicheren Bericht</a> und die 
 <a href=\"$a->docsurl\"> Moodle Dokumentation</a>.';
 $string['questioncwqpfsok'] = 'Gut. Keine der \'Zufallsfragen\' in Ihren Tests ist so konfiguriert, dass 
-Fragen aus einem Mix von freigegebenen und nichtfreigegebenen Fragenkategorien ausgewählt werden könnten.';
+Fragen aus einem Mix von freigegebenen und nicht freigegebenen Fragenkategorien ausgewählt werden könnten.';
 $string['rcache'] = 'Cache-Speicher';
 $string['rcachettl'] = 'Cache-Speicher TTL';
+$string['recaptchaprivatekey'] = 'ReCaptcha: Private Key';
+$string['recaptchapublickey'] = 'ReCaptcha: Public Key';
 $string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target=\"_blank\" href=\"$a\">Versionsinformation</a>';
 $string['remotelangnotavailable'] = 'Moodle kann keine Verbindung zu download.moodle.org herstellen, um die Sprachpakete automatisch zu installieren. Stattdessen laden Sie bitte die  ausgewählten Sprachpakete herunter, kopieren sie in das Verzeichnis $a und entpacken sie dort manuell.';
 $string['renameerrors'] = 'Fehler beim Umbenennen';
@@ -643,13 +653,14 @@ $string['smtpmaxbulk'] = 'SMTP-Massenversand';
 $string['smtppass'] = 'SMTP-Kennwort';
 $string['smtpuser'] = 'SMTP-Nutzername';
 $string['stats'] = 'Statistiken';
+$string['statscatdepth'] = 'Maximale Kategorieverzweigstiefe';
 $string['statsfirstrun'] = 'Maximale Verarbeitungsdauer';
 $string['statsmaxruntime'] = 'Maximale Laufzeit';
 $string['statsruntimestart'] = 'Ausführung um';
 $string['statsuserthreshold'] = 'Schwelle für die Nutzerzahl';
-$string['stickyblocks'] = 'Unveränd. Blöcke';
+$string['stickyblocks'] = 'Feste Blöcke';
 $string['stickyblockscourseview'] = 'Kursseite';
-$string['stickyblocksduplicatenotice'] = 'Wenn Sie einen Block hier hinzufügen, so steht eine Kopie auf jeder einzelnen Seite zur Verfügung.<br />Der unveränderliche Block ist nicht verschieben. Ein Duplikat des Blocks können Sie jedoch an einem beliebigen Platz ablegen.';
+$string['stickyblocksduplicatenotice'] = 'Wenn Sie einen Block hier hinzufügen, so steht eine Kopie auf jeder einzelnen Seite zur Verfügung.<br />Der unveränderliche Block lässt sich nicht bearbeiten und nicht verschieben. Ein Duplikat des Blocks können Sie jedoch verändern und an einem beliebigen Platz ablegen.';
 $string['stickyblocksmymoodle'] = 'MyMoodle';
 $string['stickyblockspagetype'] = 'Seitentyp zum Konfigurieren';
 $string['supportemail'] = 'Support-Mail';
@@ -690,8 +701,20 @@ $string['upgradesure'] = 'Die Moodle-Dateien wurden verändert. Ihre Moodle-Inst
 <p>Sind Sie sicher, dass Sie das Update ausführen wollen?</p>';
 $string['upgradingdata'] = 'Daten aktualisieren';
 $string['upgradinglogs'] = 'Log-Daten aktualisieren';
-$string['uploaduserspreview'] = 'Nutzerupload-Vorschau';
-$string['uploadusersresult'] = 'Nutzerupload Ergebnisse';
+$string['uploadpicture_baduserfield'] = 'Die angegebene Nutzereigenschaft ist ungültig. Bitte versuchen Sie es noch einmal.';
+$string['uploadpicture_cannotmovezip'] = 'Die ZIP-Datei kann nicht in das temporäre Verzeichnis verschoben werden.';
+$string['uploadpicture_cannotprocessdir'] = 'Die entzippten Dateien können nicht verarbeitet werden.';
+$string['uploadpicture_cannotsave'] = 'Das Nutzerbild für $a kann nicht gespeichert werden. Prüfen Sie die ursprüngliche Bilddatei.';
+$string['uploadpicture_cannotunzip'] = 'Die Bilddateien können nicht entpackt werden.';
+$string['uploadpicture_invalidfilename'] = 'Die Bilddatei $a enthält ungültige Zeichen im Namen und wird nicht benutzt.';
+$string['uploadpicture_overwrite'] = 'Vorhandene Nutzerbilder überschreiben?';
+$string['uploadpicture_userfield'] = 'Nutzereigenschaft, die fürdie Zuordnung der Nutzerbilder verwandt werden soll:';
+$string['uploadpicture_usernotfound'] = 'Nutzer/in mit \'$a->userfield\'-Wert von \'$a->uservalue\' existiert nicht. Wird übersprungen.';
+$string['uploadpicture_userskipped'] = 'Nutzerbild $a exitiert bereits und wird nicht überschrieben.';
+$string['uploadpicture_userupdated'] = 'Nutzerbild $a aktualisiert';
+$string['uploadpictures'] = 'Nutzerbilder hochladen';
+$string['uploaduserspreview'] = 'Vorschau Nutzer-Upload';
+$string['uploadusersresult'] = 'Ergebnisse Nutzer-Upload';
 $string['upwards'] = 'aufwärts';
 $string['usehtmleditor'] = 'HTML-Editor benutzen';
 $string['useraccountupdated'] = 'Nutzer/in aktualisiert';
@@ -734,6 +757,7 @@ $string['warningcurrentsetting'] = 'Aktueller Wert ist ungültig: $a';
 $string['webproxy'] = 'Web-Proxy';
 $string['webproxyinfo'] = 'Bitte füllen Sie die folgenden Optionen aus, falls Ihr Moodle-Server das Internet nicht direkt erreichen kann. Ein Internet-Zugang ist notwendig, um Updates, Sprachpakete, RSS-Feeds, Zeitzonen-Daten usw. laden zu können. 
 <br /><em>Die PHP-Erweiterung cURL wird dringend empfohlen!</em>';
+$string['xmlrpcrecommended'] = 'Die Installation der optionalen xmlrpc Erweiterung ist für die Moodle-Network Funktionen nützlich.';
 $string['xmlstrictheaders'] = 'XML strict Header';
 $string['addcounter'] = 'Zähler hinzufügen'; // ORPHANED
 $string['newusernamehandling'] = 'Neue Handhabung bei doppeltem Anmeldenamen'; // ORPHANED

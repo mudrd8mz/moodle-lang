@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // auth.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -91,7 +91,10 @@ $string['auth_dbuserstoadd'] = 'Nutzereinträge zum Hinzufügen: $a';
 $string['auth_dbuserstoremove'] = 'Nutzereinträge zum Entfernen: $a';
 $string['auth_emaildescription'] = 'E-Mail-Bestätigung ist die Standard-Authentifizierungsmethode. Wenn sich Nutzer/innen neu anmelden, ihren eigenen Anmeldenamen und ihr Passwort auswählen, dann wird zur Bestätigung eine E-Mail an die angegebene E-Mail-Adresse gesendet. Diese E-Mail enthält einen sicheren Verweis auf eine Seite, wo die Nutzer/innen ihren Zugang bestätigen müssen. Spätere Anmeldungen prüfen nur  Anmeldenamen und Kennwort anhand der in der Moodle-Datenbank gespeicherten Daten.';
 $string['auth_emailnoemail'] = 'Der Versuch Ihnen eine E-Mail zu senden ist gescheitert!';
-$string['auth_emailnoinsert'] = 'Der Datensatz konnte nicht zur Datenbank hinzugefügt werden1';
+$string['auth_emailnoinsert'] = 'Der Datensatz konnte nicht zur Datenbank hinzugefügt werden!';
+$string['auth_emailrecaptcha'] = 'Diese Einstellung fügt dem Anmeldeformular für die E-Mail-Selbstregistierung ein Kontrollelement hinzu. Dabei handelt es sich um ein Bild- oder Audio-Element, um Sie wirksam gegen Spammer zu schützen. Weitere Informationen finden Sie unter http://recaptcha.net/learnmore.html';
+$string['auth_emailrecaptcha_key'] = 'ReCaptcha einschalten';
+$string['auth_emailsettings'] = 'Einstellungen';
 $string['auth_emailtitle'] = 'E-Mail basiert';
 $string['auth_fcchangepasswordurl'] = 'URL zur Kennwortänderung';
 $string['auth_fcconnfail'] = 'Verbindung fehlgeschlagen mit Errno: $a[0] und Error String: $a[1]';
@@ -122,6 +125,8 @@ $string['auth_imaptitle'] = 'IMAP-Server';
 $string['auth_imaptype'] = 'Der IMAP Servertyp. IMAP Server können verschiedene Arten der Authentifizierung und Überprüfung haben.';
 $string['auth_imaptype_key'] = 'Typ';
 $string['auth_ldap_ad_create_req'] = 'Im Active Directory konnte kein neuer Account angelegt werden. Prüfen Sie, ob alle Voraussetzungen hierfür getroffen wurden (LDAPS Verbindung, bind user mit angemessenen Rechten etc.)';
+$string['auth_ldap_attrcreators'] = 'Liste von Gruppen oder Kontexten, deren Mitglieder berechtigt sind Attribute zu erstellen. Mehrere Gruppen werden durch ein \';\' (Semikolon) getrennt. Der Eintrag lautet üblicherweise ähnlich wie: cn=teacher,ou=staff,o=myorg.';
+$string['auth_ldap_attrcreators_key'] = 'Ersteller von Attributen';
 $string['auth_ldap_auth_user_create_key'] = 'Nutzer extern anlegen';
 $string['auth_ldap_bind_dn'] = 'Möchten Sie Bind-User für die Nutzersuche verwenden, so geben Sie dies hier an. Normalerweise etwas wie \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Gekennzeichneter Name';
@@ -146,6 +151,8 @@ $string['auth_ldap_graceattr_desc'] = 'optional: Ändert die gracelogin Attribut
 $string['auth_ldap_gracelogin_key'] = 'grace Login Attribute';
 $string['auth_ldap_gracelogins_desc'] = 'Aktiviert LDAP gracelogin Unterstützung. Wenn das Passwort abgelaufen ist, können die Nutzer/innen sich weiter einloggen bis gracelogin den Wert 0 hat. Nach dem Aktivieren der Einstellung wird eine gracelogin Mitteilung angezeigt, wenn das Passwort abgelaufen ist.';
 $string['auth_ldap_gracelogins_key'] = 'Frist Login';
+$string['auth_ldap_groupecreators'] = 'Liste von Gruppen oder Kontexten, deren Mitglieder berechtigt sind Gruppen zu erstellen. Mehrere Gruppen werden durch ein \';\' (Semikolon) getrennt. Der Eintrag lautet üblicherweise ähnlich wie: cn=teacher,ou=staff,o=myorg.';
+$string['auth_ldap_groupecreators_key'] = 'Gruppenersteller';
 $string['auth_ldap_host_url'] = 'Geben Sie einen LDAP Server in URL-Form an wie \'ldap://ldap.myorg.de/\' oder \'ldaps://ldap.myorg.de/\'';
 $string['auth_ldap_host_url_key'] = 'Host URL';
 $string['auth_ldap_ldap_encoding'] = 'Geben Sie die Codierung des LDAP Servers an. Meist ist dies utf-8. MS AD v2 verwendet andere Codierung wie cp1252, cp1250, etc.';
@@ -250,11 +257,17 @@ $string['auth_shib_convert_data_description'] = 'Sie können diese API nutzen, u
 $string['auth_shib_convert_data_warning'] = 'Die Datei existiert nicht oder ist vom Server nicht lesbar.';
 $string['auth_shib_instructions'] = 'Nutzen Sie den <a href=\"$a\">Shibboleth Login</a>, um Zugangüber Shibboleth zu erhalten, wenn Ihr Unternehmen dies unterstützt. <br />Sonst verwenden Sie das normale hier angezeigte Loginformular.';
 $string['auth_shib_instructions_help'] = 'Tragen Sie hier Informationen für Ihre Nutzer/innen ein, die ihnen den Zugang mit Hilfe von Shibboleth erklären. Diese werden auf der Loginseite angzeigt. Der Text sollte einen Link \"<b>$a</b>\" enthalten, damit ein einfachere Login möglich ist. Wenn Sie das Feld leer lassen, werden die Standard-Texte angezeigt und keine Hinweise auf den Shibboleth Login.';
+$string['auth_shib_no_organizations_warning'] = 'Wenn Sie den integrierten WAYF Dienst verwenden wollen, ist es erforderlich eine kommaseparierte Liste von Identity Provider entityIDs, ihren Namen und Optional einen Session Initiator einzutragen.';
 $string['auth_shib_only'] = 'nur Shibboleth';
 $string['auth_shib_only_description'] = 'Checken Sie diese Option, wenn eine Shibboleth-Authentifizierung bevorzugt wird.';
 $string['auth_shib_username_description'] = 'Name der Shibboleth Umgebungsvariable, die als Moodle-Nutzername verwandt werden soll';
+$string['auth_shibboleth_contact_administrator'] = 'Im Falle, dass Sie nicht mit der Organisation verbunden sind und dennoch einen Zugang zu einem Kurs auf diesem Server benötigen kontakten Sie bitte';
+$string['auth_shibboleth_errormsg'] = 'Bitte wählen Sie die Organisation aus, bei der Sie Mitglied sind!';
 $string['auth_shibboleth_login'] = 'Shibboleth Login';
+$string['auth_shibboleth_login_long'] = 'Login für Moodle überShibboleth';
 $string['auth_shibboleth_manual_login'] = 'Manueller Login';
+$string['auth_shibboleth_select_member'] = 'Ich bin Mitglied von ...';
+$string['auth_shibboleth_select_organization'] = 'Bei Authentifizierung überShibboleth wählen Sie bitte Ihre Organisation über die Dropdownliste aus.';
 $string['auth_shibbolethdescription'] = 'Mit diesem Verfahren können Sie die Verbindung zu einem bestehenden Shibboleth Server herstellen, um  Zugänge zu prüfen und anzulegen.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Cron-Synchronisierungsskript';
@@ -273,6 +286,8 @@ $string['changepassword'] = 'Passwort-URL ändern';
 $string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter der die Nutzer ihren Nutzernamen/Passwort ändern können, sofern sie dies vergessen haben. Diese Option wird den Nutzern als Schaltfläche auf der Anmeldungsseite angeboten. Wenn Sie dieses Feld leer lassen, wird die Option nicht angeboten.';
 $string['chooseauthmethod'] = 'Authentifizierungsmethode';
 $string['createpasswordifneeded'] = 'Passwort anlegen, falls erforderlich';
+$string['enterthenumbersyouhear'] = 'Bitte tragen Sie die Zahlen ein, die Sie hören';
+$string['enterthewordsabove'] = 'Bitte tragen Sie die angegebenen Worte ein';
 $string['errorminpassworddigits'] = 'Passworte müssen mindestens $a Zahl(en) enthalten.';
 $string['errorminpasswordlength'] = 'Passworte müssen mindestens $a Zeichen lang sein.';
 $string['errorminpasswordlower'] = 'Passworte müssen mindestens $a Kleinbuchstaben enthalten.';
@@ -285,7 +300,11 @@ $string['forcechangepasswordfirst_help'] = 'Nutzer werden aufgefordert, ihr Pass
 $string['forgottenpassword'] = 'Wenn Sie außerhalb von Moodle eine Seite angelegt haben, mit der Nutzer/innen vergessene Kennwörter anfordern können, dann tragen Sie die URL hier ein. 
 Lassen Sie das Feld leer, damit die Standardseite von moodle für diesen Zweck genutzt wird.';
 $string['forgottenpasswordurl'] = 'URL für vergessene Passwörter';
+$string['getanaudiocaptcha'] = 'Audio-Captcha laden';
+$string['getanimagecaptcha'] = 'Bild-Captcha laden';
+$string['getanothercaptcha'] = 'Neues Captcha laden';
 $string['guestloginbutton'] = 'Taste für das Gast-Login';
+$string['incorrectpleasetryagain'] = 'Leider falsch! Bitte probieren Sie es nochmal.';
 $string['infilefield'] = 'Erforderliches Feld in Datei';
 $string['instructions'] = 'Anweisungen';
 $string['internal'] = 'Intern';
@@ -300,6 +319,7 @@ $string['passwordhandling'] = 'Nutzung des Passwortfeldes';
 $string['plaintext'] = 'Reiner Text';
 $string['pluginnotenabled'] = 'Authentifizierungsplugin \'$a\' ist nicht aktiviert.';
 $string['pluginnotinstalled'] = 'Authentifizierungsplugin \'$a\' ist nicht installiert.';
+$string['recaptcha'] = 'ReCaptcha';
 $string['rpc_negotiation_timeout'] = 'RPC negotiation timeout';
 $string['selfregistration'] = 'Selbstregistrierung';
 $string['selfregistration_help'] = 'Wählen Sie das Authentifizierungsplugin für die Selbstregistrierung aus.';

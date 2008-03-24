@@ -2,6 +2,8 @@
       // tag.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
+$string['addedotag'] = '\"$a\" wurde als offizielles Schlagwort hinzugefügt.';
+$string['addotags'] = 'Offizielle Schlagworte hinzufügen';
 $string['addtagtomyinterests'] = '\"$a\" zu meinen Interessen hinzufügen';
 $string['blocktagstitle'] = 'Schlagworte';
 $string['changename'] = 'Schlagwort ändern';
@@ -20,9 +22,13 @@ $string['name'] = 'Schlagwort';
 $string['namesalreadybeeingused'] = 'Bereits genutzte Schlagworte';
 $string['newname'] = 'Neues Schlagwort';
 $string['noresultsfor'] = 'Kein Ergebnis für \"$a\"';
+$string['officialtag'] = 'Offizielles Schlagwort';
+$string['otags'] = 'Offizielle Schlagworte';
 $string['owner'] = 'Eigentümer';
+$string['ptags'] = 'Von Nutzern angelegte Schlagworte (mit Kommas getrennt)';
 $string['relatedblogs'] = 'Letzte Blog-Einträge zu diesem Schlagwort';
 $string['relatedtags'] = 'Zusammenpassende Schlagworte';
+$string['removetagfrommyinterests'] = '\"$a\" von der Liste meiner Interessen entfernen';
 $string['reset'] = 'Rücksetzen';
 $string['resetflag'] = 'Rücksetzmarkierung';
 $string['responsiblewillbenotified'] = 'Die verantwortliche Person wird benachrichtigt';

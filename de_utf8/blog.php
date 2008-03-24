@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 dev (2007060100)
+      // blog.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['addnewentry'] = 'Neuen Eintrag hinzufügen';
-$string['addotags'] = 'Offizielles Schlagwort hinzufügen';
-$string['addptags'] = 'Nutzerdefiniertes Schlagwort hinzufügen';
+$string['backupblogshelp'] = 'Mit der Aktivierung dieser Funktion werden die Blogs in das automatische Backup der Site integriert.';
 $string['blockmenutitle'] = 'Blog-Menü';
 $string['blocktagstitle'] = 'Blog-Schlagworte';
 $string['blocktitle'] = 'Titel des Blocks für Blog-Schlagworte';
@@ -34,10 +33,8 @@ $string['norighttodeletetag'] = 'Sie dürfen dieses Schlagwort - $a - nicht lös
 $string['notallowedtoedit'] = 'Sie haben keine Berechtigung, diesen Beitrag zu bearbeiten';
 $string['numberofentries'] = 'Einträge: $a';
 $string['numberoftags'] = 'Zahl der anzuzeigenden Schlagworte';
-$string['otags'] = 'Offizielles Schlagwort';
 $string['pagesize'] = 'Zahl der Blog-Einträge pro Seite';
 $string['personalblogs'] = 'Nutzer/innen können nur ihren eigenen Blog sehen';
-$string['ptags'] = 'Nutzerdefiniertes Schlagwort';
 $string['publishto'] = 'Veröffentlichen für';
 $string['publishtonoone'] = 'Ich alleine (Entwurf)';
 $string['publishtosite'] = 'Alle auf dieser Website';
@@ -56,5 +53,9 @@ $string['viewcourseentries'] = 'Zeige Kurseinträge';
 $string['viewmyentries'] = 'Zeige meine Einträge';
 $string['viewsiteentries'] = 'Zeige alle Einträge';
 $string['worldblogs'] = 'Blog-System für alle öffentlich sichtbar';
+$string['addotags'] = 'Offizielles Schlagwort hinzufügen'; // ORPHANED
+$string['addptags'] = 'Nutzerdefiniertes Schlagwort hinzufügen'; // ORPHANED
+$string['otags'] = 'Offizielles Schlagwort'; // ORPHANED
+$string['ptags'] = 'Nutzerdefiniertes Schlagwort'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // role.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -65,7 +65,7 @@ $string['errorexistsrolename'] = 'Rollenname existiert bereits';
 $string['errorexistsroleshortname'] = 'Rollenname existiert bereits';
 $string['existingusers'] = '$a bestehende Nutzer/innen';
 $string['globalrole'] = 'Systemweite Rolle';
-$string['globalroleswarning'] = 'WARNUNG! Jede Rolle, die Sie von dieser Seite aus zuweisen, wird für die zugewiesenen Nutzer/innen und die gesamte Website angelegt, also für wirklich alle Kurse und die Startseite.';
+$string['globalroleswarning'] = 'ACHTUNG! Jede von dieser Seite aus zugewiesene Rolle wird für die gesamte Website angelegt. Die jeweiligen Nutzer/innen besitzen ihre Rollerechte dann wirklich für alle Kurse und auch für die Startseite.';
 $string['grade:edit'] = 'Bewertungen bearbeiten';
 $string['grade:export'] = 'Bewertungen exportieren';
 $string['grade:hide'] = 'Bewertungen oder Aspekte anzeigen / verbergen';
@@ -79,6 +79,8 @@ $string['grade:unlock'] = 'Bewertungen oder Aspekte freigeben';
 $string['grade:view'] = 'Eigene Bewertungen ansehen';
 $string['grade:viewall'] = 'Fremde Bewertungen ansehen';
 $string['grade:viewhidden'] = 'Verborgene Bewertungen sehen';
+$string['inactiveformorethan'] = 'länger als $a->timeperiod inaktiv';
+$string['ingroup'] = 'in der Gruppe \"$a->group\"';
 $string['inherit'] = 'Vererben';
 $string['legacy:admin'] = 'Basisrolle: Administration';
 $string['legacy:coursecreator'] = 'Basisrolle: Kursverwalter/in';

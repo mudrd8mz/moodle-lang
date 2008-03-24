@@ -1,11 +1,18 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // forum.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
 $string['addanewquestion'] = 'Neue Frage hinzufügen';
 $string['addanewtopic'] = 'Neues Thema hinzufügen';
 $string['advancedsearch'] = 'Erweiterte Suche';
+$string['aggregateavg'] = 'Durchschnittliche Bewertung';
+$string['aggregatecount'] = 'Zahl der Bewertungen';
+$string['aggregatemax'] = 'Höchstbewertung';
+$string['aggregatemin'] = 'Niedrigste Bewertung';
+$string['aggregatenone'] = 'Keine Bewertungen';
+$string['aggregatesum'] = 'Summe der Bewertungen';
+$string['aggregatetype'] = 'Berechnung der Bewertungen';
 $string['allforums'] = 'Alle Foren';
 $string['allowchoice'] = 'Ändern zu: Alle dürfen auswählen';
 $string['allowdiscussions'] = 'Teilnehmerrechte';
@@ -27,6 +34,7 @@ $string['configcleanreadtime'] = 'Zeitpunkt des Tages (Stunde), zu dem alte Beit
 $string['configdisplaymode'] = 'Standard-Anzeigemodus für Diskussionen, falls nichts eingestellt wurde.';
 $string['configenablerssfeeds'] = 'Diese Einstellung ermöglicht die Nutzung der RSS-Feeds für alle Foren. Jedes Forum muss einzeln für den RSS-Feed aktiviert werden.';
 $string['configenabletimedposts'] = 'Wählen Sie die Einstellung \'Ja\', um einen Zeitraum für den Beginn und das Ende der Anzeige eines Diskussionsbeitrags festzulegen. (Experimentell, noch nicht umfassend getestet.)';
+$string['configlogblocked'] = 'Der Cron-Job fürdie Forennachrichten kann versuchte Mailversendungen an Nutzer mit gesperrter Mailadresse loggen.';
 $string['configlongpost'] = 'Jeder Beitrag (ohne HTML-Codierung), der länger ist als diese Einstellung, wird als lang eingestuft.';
 $string['configmanydiscussions'] = 'Maximale Anzahl von Forumsthemen pro Seite';
 $string['configmaxbytes'] = 'Maximale Größe von Dateianhängen, die zu den Beiträgen dieser Seite hochgeladen werden können (in Abhängigkeit von Kursbegrenzungen und anderen lokalen Einstellungen)';
@@ -116,6 +124,7 @@ $string['introsocial'] = 'Ein offenes Forum ohne Themeneinschränkung';
 $string['introteacher'] = 'Ein Forum ausschließlich für Anmerkungen und Diskussionen der Trainer/innen';
 $string['lastpost'] = 'Letzter Beitrag';
 $string['learningforums'] = 'Lernforen';
+$string['logblocked'] = 'Geblockte E-Mails loggen';
 $string['longpost'] = 'Langer Beitrag';
 $string['mailnow'] = 'Sofort per E-Mail versenden';
 $string['manydiscussions'] = 'Diskussionen pro Seite';
@@ -149,6 +158,7 @@ $string['noguestsubscribe'] = 'Entschuldigung, Gäste können sich nicht eintrag
 $string['noguesttracking'] = 'Entschuldigung, Gäste dürfen Markierungsoptionen nicht bearbeiten.';
 $string['nomorepostscontaining'] = 'Es wurden keine weiteren Beiträge mit \'$a\' gefunden.';
 $string['nonews'] = 'Es wurden bisher keine Nachrichten gepostet.';
+$string['nopostforum'] = 'In diesem Forum können Sie keine Beiträge veröffentlichen';
 $string['noposts'] = 'Keine Beiträge';
 $string['nopostscontaining'] = 'Es wurden keine in \'$a\' enthaltenen Beiträge gefunden.';
 $string['noquestions'] = 'Derzeit gibt es noch keine Beiträge in diesem Forum.';
@@ -175,6 +185,8 @@ $string['overviewnumunread'] = 'Ungelesene Beiträge';
 $string['parent'] = 'Ursprungsbeitrag';
 $string['parentofthispost'] = 'Ursprungsbeitrag zu dieser Antwort';
 $string['postadded'] = '<p>Ihr Beitrag wurde erfolgreich hinzugefügt. </p><p>Sofern Sie noch etwas korrigieren möchten, haben Sie dafür $a Zeit. Danach wird keine Änderung mehr angenommen.</p>';
+$string['postaddedsuccess'] = 'Ihr Beitrag wurde erfolgreich eingefügt.';
+$string['postaddedtimeleft'] = 'Sie müssen zuerst $a eingeben, um Änderungen vornehmen zu können.';
 $string['postincontext'] = 'Diskussion im Forum zeigen';
 $string['postmailinfo'] = 'Hiermit erhalten Sie die Kopie einer Mitteilung, die auf der Webseite $a eingetragen wurde.
 Um darauf zu antworten, folgen Sie bitte diesem Link:';
@@ -275,6 +287,5 @@ $string['yournewquestion'] = 'Ihre neue Frage';
 $string['yournewtopic'] = 'Ihr neues Diskussionsthema';
 $string['yourreply'] = 'Ihre Antwort';
 $string['nopostdiscussion'] = 'In dieser Diskussion können Sie keine Beiträge veröffentlichen'; // ORPHANED
-$string['nopostforum'] = 'In diesem Forum können Sie keine Beiträge veröffentlichen'; // ORPHANED
 
 ?>

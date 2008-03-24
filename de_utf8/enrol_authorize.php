@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // enrol_authorize.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
 
 
 $string['adminacceptccs'] = 'Welche Kreditkartentypen sollen akzeptiert werden?';
@@ -77,6 +77,7 @@ $string['captureyes'] = 'Die Kreditkarte wird angenommen und die Einschreibung s
 $string['ccexpire'] = 'Gültig bis';
 $string['ccexpired'] = 'Die Kreditkarte ist abgelaufen.';
 $string['ccinvalid'] = 'Ungültige Kreditkartennummer';
+$string['cclastfour'] = 'CC letzte vier';
 $string['ccno'] = 'Kreditkartennummer';
 $string['cctype'] = 'Kreditkartentyp';
 $string['ccvv'] = 'Kreditkartenprüfung';
@@ -104,6 +105,7 @@ Warten Sie mit der Eingabe Ihrer Kreditkartennummer solange, bis Sie ein gelbes 
 $string['invalidaba'] = 'Ungültige ABA Nummer';
 $string['invalidaccnum'] = 'Ungültige Kontonummer';
 $string['invalidacctype'] = 'Ungültiger Kontentyp';
+$string['isbusinesschecking'] = 'Ist Geschäftsvorgang geprüft?';
 $string['logindesc'] = 'Diese Option MUSS aktiviert sein. Stellen Sie sicher, dass die Einstellung <a href=\"$a->url\">loginhttps</a> unter Administration >> Variablen konfigurieren >> Sicherheit aktiviert ist.
 <br /><br />
 Wenn diese Option aktiviert ist, verwendet Moodle für die Login- und Zahlungsvorgänge eine sichere HTTPS-Verbindung.';
@@ -124,6 +126,7 @@ $string['nameoncard'] = 'Karteninhaber';
 $string['new'] = 'Neu';
 $string['noreturns'] = 'Kein Rückgabe!';
 $string['notsettled'] = 'Nicht bearbeitet';
+$string['orderdetails'] = 'Vorgangsdetails';
 $string['orderid'] = 'ID-Nummer der Zahlung';
 $string['paymentmanagement'] = 'Zahlungsmanagement';
 $string['paymentmethod'] = 'Zahlungsverfahren';
@@ -179,6 +182,7 @@ $string['reviewnotify'] = 'Ihre Zahlung wird geprüft. Sie erhalten in einigen T
 $string['sendpaymentbutton'] = 'Zahlung ausführen';
 $string['settled'] = 'Erledigt';
 $string['settlementdate'] = 'Erledigungstermin';
+$string['shopper'] = 'Einkäufer';
 $string['subvoidyes'] = 'Zurückgezahlte Transaktionen $a->transid werden aufgehoben, und Ihr Konto wird mit $a->amount belastet. Sind Sie sicher?';
 $string['tested'] = 'Getestet';
 $string['testmode'] = '[TEST MODUS]';
