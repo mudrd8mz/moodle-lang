@@ -2,23 +2,23 @@
 <!-- TRANSLATORS BEWARE!! The comma (,) sign used in the calculations may be a semi-colon (;)
 in your language. Please use whichever is used in your spreadsheet application. -->
 
-<p>Berechnungen von Bewertungen folgen den den Mustern der meistgebrauchten Kalkulationsprogramme. Sie beginnen mit einem Gleichheitszeichen (=) und verwenden diegebräuchlichsten mathematischen Ausdrücke und Funktionen zur Berechnung eines numerischen Ergebnisses. Dieses ist dann die automatisch berechnete Bewertung.</p>
+<p>Berechnungen von Bewertungen folgen dem Muster der gebräuchlichen Kalkulationsprogramme. Sie beginnen mit einem Gleichheitszeichen (=) und verwenden mathematische Ausdrücke und Funktionen zur Berechnung eines numerischen Ergebnisses. Dieses ist dann die automatisch berechnete Bewertung.</p>
 
-<p>Die folgenden Funktionen werden bei der Berechnung unterstützt. Das Komma (,)
-trennt verschiedene Argumente in den Funktionsklammern. In der Tabellenkalkulation wird im deutschen Sprachraum hierfür meist ein Semikolon (;) verwandt..</p>
+<p>Es folgt eine Liste von Funktionen, die bei der Berechnung unterstützt werden. Das Komma (,)
+trennt die einzelnen Argumente in den Funktionsklammern. <br/><strong> Achtung: In der Tabellenkalkulation wird im deutschen Sprachraum meist ein Semikolon (;) verwendet, um Argumente zu trennen. Verwenden Sie in Moodle als Trennzeichen ein Komma (,)!</strong></p>
 
 <ul>
-    <li><strong>average</strong>([[item1]], [[item2]]...): Verwendet den Durchschnittswert aus der Liste</li>
-    <li><strong>max</strong>([[item1]], [[item2]]...): Verwendet den höchsten Wert aus der Liste</li>
-    <li><strong>min</strong>([[item1]], [[item2]]...): Verwendet den niedrigsten Wert aus der Liste</li>
-    <li><strong>mod</strong>(dividend, divisor): Ermittelt den Restwert bei einer Division</li>
-    <li><strong>pi</strong>(): Verendet den Wert der Zahl Pi</li>
-    <li><strong>power</strong>(base, power): Hebt einen Wert (base) bis zu einem anderen Wert (power) an</li>
-    <li><strong>round</strong>(number, count): Rundet eine Zahl bis zur angegebenen Genauigkeit (count)</li>
-    <li><strong>sum</strong>([[item1]], [[item2]]...): Ermittelt die Summe aller Werte</li>
+    <li><strong>average</strong>([[item1]], [[item2]]...): liefert den Durchschnittswert aus der Liste</li>
+    <li><strong>max</strong>([[item1]], [[item2]]...): liefert den höchsten Wert aus der Liste</li>
+    <li><strong>min</strong>([[item1]], [[item2]]...): liefert den niedrigsten Wert aus der Liste</li>
+    <li><strong>mod</strong>(dividend, divisor): liefert den Rest bei ganzzahliger Division</li>
+    <li><strong>pi</strong>(): liefert den Wert der Zahl Pi</li>
+    <li><strong>power</strong>(base, power): liefert die Potenz "base hoch power" mit der Basis "base" und dem Exponenten "power"</li>
+    <li><strong>round</strong>(number, count): Rundet eine Zahl (number) bis zur angegebenen Genauigkeit (count)</li>
+    <li><strong>sum</strong>([[item1]], [[item2]]...): liefert die Summe aller Werte aus der Liste</li>
 </ul>
 
-<p>Weitere unterstützte mathematische Funktionen:</p>
+<p>Weiterhin werden folgende mathematische Funktionen unterstützt:</p>
 <ul>
     <li>sin</li><li>sinh</li><li>arcsin</li><li>asin</li><li>arcsinh</li><li>asinh</li>
     <li>cos</li><li>cosh</li><li>arccos</li><li>acos</li><li>arccosh</li><li>acosh</li>
@@ -26,26 +26,14 @@ trennt verschiedene Argumente in den Funktionsklammern. In der Tabellenkalkulati
     <li>sqrt</li><li>abs</li><li>ln</li><li>log</li><li>exp</li>
 </ul>
 
-<p>You can include the values of other grade items by using their idnumber as references
-in your formulas. The idnumber is surrounded by two matching pairs of angle brackets,
-to avoid confusing the calculation parser when the idnumber contains uncommon characters.
-For example, if you have a grade item with Quiz.3 as idnumber, you will refer to this
-item as [[Quiz.3]] in your calculation. </p>
+<p>Sie können auch Werte aus anderen Bewertungen in die Berechnung einbeziehen, indem Sie die ID-Nummer der entsprechenden anderen Bewertungen als Referenzierung in die Formel einfügen. Die ID-Nummer wird dabei in zwei eckige öffnende und schließende Klammern eingeschlossen. <br/>
+Beispiel: Sie haben eine Bewertung mit der ID-Nummer Quiz.3, dann referenzieren Sie diese Bewertung in Ihrer Berechnungsformel mit [[Quiz.3]]. </p>
 
-<p>Below the calculation field is an arborescence of your course with its grade categories
-and grade items. Next to each item or category's total is displayed the idnumber you can
-use in your calculation (already surrounded with angle brackets). However, since the
-idnumber is optional, some items may not yet have one. These items without an idnumber
-have instead a form field which lets you enter the idnumber directly, so that you can use
-it in your calculation without having to leave the page. This form doesn't let you edit
-existing idnumbers though, you will have to go and edit the grade item directly if you
-want to do that.</p>
+<p>Unterhalb des Berechnungsfelds sehen Sie eine Baumstruktur mit den Bewertungskategorien und Bewertungen Ihres Kurses. Neben jedem Eintrag steht die zugehörige ID-Nummer, die Sie in Ihrer Berechnung verwenden können (bereits in eckige Klammern eingeschlossen). Beachten Sie, dass ID-Nummern optional sind. Es kann also Einträge geben, die noch keine ID-Nummer haben. Diese Einträge ohne ID-Nummer haben jedoch ein nebenstehendes Eingabefeld, wo Sie eine (neue) ID-Nummer direkt eingeben können (um sie anschließend in der Berechnung zu verwenden, ohne die Seite verlassen zu müssen). Sie können jedoch an dieser Stelle keine bereits existierenden ID-Nummer ändern (um dies zu tun, müssen Sie auf die entsprechende Seite wechseln, auf der Sie die Bewertungen bearbeiten können). </p>
 
-<p>As soon as you have assigned the idnumbers you need, you can press "add idnumbers", and
-the page will reload and show you the same arborescence with the idnumbers you have just
-assigned. You are then free to use these references in your calculation.</p>
+<p>Sobald Sie die nötigen ID-Nummern in den entsprechenden Eingabefeldern eingegeben haben, können Sie den Button "ID-Nummern hinzufügen" klicken. Dann wird die Seite neu geladen, und die Baumstruktur mit den Bewertungskategorien und Bewertungen enthält nun die ID-Nummern, die Sie gerade vergeben haben. Diese ID-Nummern können Sie nun in Ihren Berechnungsformeln verwenden.</p>
 
-<p>Here is a list of practical examples of calculations you may use in your gradebook:</p>
+<p>Es folgt eine Liste von Beispielberechnungen, die Sie in Ihren Bewertungen verwenden können:</p>
 
 <ul>
     <li>=average([[Quiz.1]], [[Quiz.4]], [[Assignment.1]])</li>
