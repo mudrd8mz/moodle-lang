@@ -46,6 +46,7 @@ $string['fetcherror'] = 'Une erreur est survenue lors du chargement de la page w
 $string['fetchservererror'] = 'Une erreur est survenue lors du chargement de la page web sur le serveur qui l\'héberge.';
 $string['filename'] = 'Nom du fichier';
 $string['filtername'] = 'Liens automatiques des noms des ressources';
+$string['forcedownload'] = 'Forcer le téléchargement';
 $string['frameifpossible'] = 'Afficher la ressource dans un cadre pour conserver les menus de navigation du site';
 $string['framesize'] = 'Taille du cadre';
 $string['fulltext'] = 'Texte de la page';
