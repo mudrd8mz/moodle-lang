@@ -69,6 +69,7 @@ $string['groupscount'] = 'Groupes ($a)';
 $string['groupsgroupings'] = 'Groupes &amp; groupements';
 $string['groupsinselectedgrouping'] = 'Groupes dans'; // groupement sélectionné
 $string['groupsnone'] = 'Aucun groupe';
+$string['groupsonly'] = 'Seulement les groupes';
 $string['groupspreview'] = 'Prévisualisation des groupes';
 $string['groupsseparate'] = 'Groupes séparés';
 $string['groupsvisible'] = 'Groupes visibles';
