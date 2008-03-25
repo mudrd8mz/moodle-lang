@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // internalmail.php - created with Moodle 1.8.4+ (2007021540)
+      // internalmail.php - created with Moodle 1.8.4+ (2007021541)
 
 
 $string['add_all_contacts'] = 'pievienot visus adresātus';
@@ -106,13 +106,5 @@ $string['user_online'] = 'tiešsaistē';
 $string['wanadoo'] = 'Ko vēlaties darīt?';
 $string['wantsummaryemail'] = 'Vai vēlaties, lai kopsavilkums tiktu sūtīts pa e-pastu?';
 $string['wtoi'] = 'Laipni lūdzam pasta pakalpojumā Internalmail 2.5!';
-$string['more contacts'] = 'vairāk adresātu'; // ORPHANED
-$string['marcar leido'] = 'Atzīmēt kā lasītu'; // ORPHANED
-$string['marcar no leido'] = 'Atzīmēt kā nelasītu'; // ORPHANED
-$string['mensaje borrado'] = 'Ziņa izdzēsta.'; // ORPHANED
-$string['enviat correctament'] = 'Ziņa nosūtīta.'; // ORPHANED
-$string['error desconegut'] = 'Notika kļūda, ziņa nav nosūtīta.'; // ORPHANED
-$string['error destinataris'] = 'Šī ziņa netika nosūtīta šiem lietotājiem'; // ORPHANED
-$string['send by'] = 'Nosūtīja'; // ORPHANED
 
 ?>

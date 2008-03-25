@@ -1,22 +1,22 @@
-<?php
+<?PHP // $Id$ 
+      // qtype_datasetdependent.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
+
+
 $string['additem'] = 'Pievienot vienumu';
-$string['atleastonerealdataset']='There should be at least one real dataset in question text';
-$string['atleastonewildcard']='There should be at least one wild card in answer formula or question text';
 $string['calcdistribution'] = 'Sadalījums';
 $string['calclength'] = 'Cipari aiz komata';
 $string['calcmax'] = 'Maksimums';
 $string['calcmin'] = 'Minimums';
-$string['dataitemdefined']='with $a numerical values already defined is available';
-$string['datasetrole']= ' Aizstājējzīmju <strong>(x...)</strong> vietā tiks lietotas skaitliskās vērtības no to datu kopas';
+$string['datasetrole'] = 'Aizstājējzīmju <strong>(x...)</strong> vietā tiks lietotas skaitliskās vērtības no to datu kopas';
 $string['deletelastitem'] = 'Dzēst pēdējo vienumu';
 $string['existingcategory1'] = 'literālis no jau esošas literāļu kopas, ko lieto arī citos šīs kategorijas jautājumos';
 $string['existingcategory2'] = 'fails no jau esošas failu kopas, ko lieto arī citos šīs kategorijas jautājumos';
 $string['existingcategory3'] = 'saite no jau esošas saišu kopas, ko lieto arī citos šīs kategorijas jautājumos';
 $string['forceregeneration'] = 'uzspiest atkārtotu izveidi';
 $string['getnextnow'] = 'Tūlīt iegūt jaunu objektu “Pievienojamais vienums”';
-$string['itemno'] = 'Vienums $a';
 $string['item(s)'] = 'vienums(i)';
-$string['itemscount']='Items<br/>Count';
+$string['itemno'] = 'Vienums $a';
+$string['itemscount'] = 'Items<br/>Count';
 $string['itemtoadd'] = 'Pievienojamais vienums';
 $string['keptcategory1'] = 'literālis no iepriekšējās atkārtoti lietojamās literāļu kopas kategorijas';
 $string['keptcategory2'] = 'fails no iepriekšējās atkārtoti lietojamās failu kopas kategorijas';
@@ -33,13 +33,12 @@ $string['newcategory3'] = 'saite no jaunas saišu kopas, ko var lietot arī cito
 $string['newlocal1'] = 'literālis no jaunas literāļu kopas, kas tiks lietota tikai šajā jautājumā';
 $string['newlocal2'] = 'fails no jaunas failu kopas, kas tiks lietota tikai šajā jautājumā';
 $string['newlocal3'] = 'saite no jaunas saišu kopas, kas tiks lietota tikai šajā jautājumā';
-$string['nodataset'] = 'nekas — tā nav aizstājējzīme';
+$string['nodataset'] = 'nekas — tā nav aizstājējzīme';
 $string['param'] = 'Parametrs {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'Aizstāt ar nejauši izraudzītu vērtību';
 $string['reuseifpossible'] = 'atkārtoti izmantot iepriekšējo vērtību, ja tāda ir pieejama';
-$string['sharedwildcard']='Shared wild card';
-$string['sharedwildcards']='Shared wild cards';
 $string['uniform'] = 'Vienots';
 $string['updatedatasetparam'] = 'Atjaunināt datu kopu parametrus';
 $string['youmustaddatleastoneitem'] = 'Lai varētu saglabāt šo jautājumu, vispirms jāpievieno vismaz viena datu kopa.';
+
 ?>

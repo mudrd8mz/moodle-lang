@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // quiz_regrade.php - created with Moodle 1.7 beta + (2006101003)
+      // quiz_regrade.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
 
 
-$string['regrade'] = 'Atkārtot vērtējumu';
+$string['regrade'] = 'Atkārtot vērtēšanu';
 
 ?>

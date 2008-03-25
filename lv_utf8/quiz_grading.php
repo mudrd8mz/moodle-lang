@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 1.8.4 (2007021540)
+      // quiz_grading.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
 
 
 $string['essayonly'] = 'Šie jautājumi ir jānovērtē manuāli';
-$string['grading'] = 'Manuālā novērtēšana';
-$string['gradingnotallowed'] = 'Jums nav pilnvaru manuāli atkārtoti novērtēt šī testa atbildes';
+$string['grading'] = 'Manuālā vērtēšana';
+$string['gradingnotallowed'] = 'Jums nav pilnvaru manuāli novērtēt šī testa atbildes';
 
 ?>

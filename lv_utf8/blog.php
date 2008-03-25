@@ -1,18 +1,16 @@
-<?PHP // $Id$
-      // blog.php - created with Moodle 1.7 beta + (2006101003)
+<?PHP // $Id$ 
+      // blog.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
 
 
 $string['addnewentry'] = 'Pievienot jaunu ievadni';
-$string['addotags'] = 'Pievienot oficiālus tagus';
-$string['addptags'] = 'Pievienot lietotāja definētus tagus';
-$string['blockmenutitle'] = 'Emuāra izvēlne';
-$string['blocktagstitle'] = 'Emuāra tagi';
-$string['blocktitle'] = 'Emuāra tagu bloka nosaukums';
+$string['blockmenutitle'] = 'Emuāru izvēlne';
+$string['blocktagstitle'] = 'Emuāru tagi';
+$string['blocktitle'] = 'Emuāru tagu bloka nosaukums';
 $string['blog'] = 'Emuārs';
 $string['blogdeleteconfirm'] = 'Vai dzēst šo emuāru?';
 $string['blogpreferences'] = 'Emuāra iestatījumi';
 $string['blogs'] = 'Emuāri';
-$string['blogtags'] = 'Emuāra tagi';
+$string['blogtags'] = 'Emuāru tagi';
 $string['courseblog'] = 'Kursa emuārs: $a';
 $string['courseblogs'] = 'Lietotāji var redzēt tikai to personu emuārus, kas koplieto vienu kursu.';
 $string['deleteotagswarn'] = 'Vai tiešām vēlaties noņemt šo(-s) tagu(-s) <br />no visiem publicētajiem emuāra ierakstiem, kā arī noņemt to(-s) sistēmā?';
@@ -34,10 +32,8 @@ $string['norighttodeletetag'] = 'Jums nav tiesību dzēst šo tagunbsp;— $a';
 $string['notallowedtoedit'] = 'Jums nav atļaujas rediģēt šo ierakstu';
 $string['numberofentries'] = 'Ieraksti: $a';
 $string['numberoftags'] = 'Rādāmo tagu skaits';
-$string['otags'] = 'Oficiālie tagi';
 $string['pagesize'] = 'Emuāra ierakstu skaits vienā lapā';
 $string['personalblogs'] = 'Lietotāji var skatīt tikai savu emuāru';
-$string['ptags'] = 'Lietotāja definēti tagi (atdalīti ar komatu)';
 $string['publishto'] = 'Kam publicēt';
 $string['publishtonoone'] = 'Sev (melnraksts)';
 $string['publishtosite'] = 'Jebkuram vietnes lietotājam';
@@ -46,9 +42,9 @@ $string['settingsupdatederror'] = 'Radās kļūda, emuāra iestatījumu iestatī
 $string['siteblog'] = 'Vietnes emuārs: $a';
 $string['siteblogs'] = 'Visi vietnes lietotāji var skatīt visus emuāra ierakstus';
 $string['tagdatelastused'] = 'Datuma tags tika pēdējo reizi izmantots';
+$string['tags'] = 'Tagi';
 $string['tagsort'] = 'Kārtot tagu rādīšanu pēc';
 $string['tagtext'] = 'Taga teksts';
-$string['tags'] = 'Tagi';
 $string['timewithin'] = 'Rādīt tagus, kas izmantoti šo pēdējo dienu laikā';
 $string['updateentrywithid'] = 'Ieraksta atjaunināšana';
 $string['userblog'] = 'Lietotāja emuārs: $a';

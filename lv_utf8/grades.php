@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.7 beta + (2006101003)
+      // grades.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
 
 
+$string['activities'] = 'Aktivitātes';
 $string['addcategory'] = 'Pievienot kategoriju';
 $string['addcategoryerror'] = 'Nevar pievienot kategoriju.';
-$string['addexceptionerror'] = 'Pievienojot izņēmumu — lietotāja ID: vērtēšanas vienums —, radās kļūda';
+$string['addexceptionerror'] = 'Pievienojot izņēmumu — lietotāja ID: vērtēšanas vienums —, radās kļūda';
+$string['addfeedback'] = 'Pievienot atsauksmes';
 $string['allgrades'] = 'Visi vērtējumi pēc kategorijām';
 $string['allstudents'] = 'Visi studenti';
 $string['average'] = 'Vidējais';
@@ -24,7 +26,6 @@ $string['dropped'] = 'Atmests';
 $string['dropxlowest'] = 'Atmest X zemāko';
 $string['dropxlowestwarning'] = 'Piezīme. Ja izmantosit “Atmest X zemāko”, vērtēšanas sistēma pieņems, ka visiem kategorijas vienumiem ir vienāda punktu vērtība. Ja punktu vērtības ir dažādas, rezultāti būs neprognozējami.';
 $string['errorgradevaluenonnumeric'] = 'Saņemta neskaitliska vērtība zemam vai augstam vērtējumam par';
-$string['errornocategorizedid'] = 'Nevar iegūt ID, kas neietilpst nevienā kategorijā!';
 $string['errornocourse'] = 'Nevar iegūt informāciju par kursiem.';
 $string['errorreprintheadersnonnumeric'] = 'Saņemta neskaitliska vērtība atkārtotiem virsrakstiem';
 $string['exceptions'] = 'Izņēmumi';
@@ -93,6 +94,7 @@ $string['respectingcurrentdata'] = 'saglabājot pašreizējo konfigurāciju bez 
 $string['savechanges'] = 'Saglabāt izmaiņas';
 $string['savepreferences'] = 'Saglabāt iestatījumus';
 $string['scaledpct'] = 'Diferencēts %%';
+$string['seeallcoursegrades'] = 'Apskatīt visa kursa vērtējumus';
 $string['setcategories'] = 'Kategoriju iestatījumi';
 $string['setcategorieserror'] = 'Lai kursa kategorijām varētu piešķirt svarīguma vērtības, šīs kategorijas vispirms ir jāiestata.';
 $string['setgradeletters'] = 'Burtu vērtējuma iestatījumi';

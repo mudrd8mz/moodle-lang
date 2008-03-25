@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_quiz_results.php - created with Moodle 1.7 beta + (2006101003)
+      // block_quiz_results.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
 
 
 $string['bestgrade'] = 'Augstākais vērtējums:';
@@ -14,15 +14,15 @@ $string['config_name_format'] = 'Parādīto rezultātu konfidencialitātes līme
 $string['config_names_anon'] = 'Anonīmie rezultāti';
 $string['config_names_full'] = 'Rādīt pilnus vārdus';
 $string['config_names_id'] = 'Rādīt tikai ID numurus';
-$string['config_no_quizzes_in_course'] = 'Šajā kursā nav nevienas testu aktivitātes. Lai šo bloku varētu izmantot pareizi, vismaz viena ir jāpievieno.';
+$string['config_no_quizzes_in_course'] = 'Šajā kursā nav neviena testa. Lai šo bloku varētu izmantot pareizi, ir jāpievieno vismaz viens tests.';
 $string['config_select_quiz'] = 'Kura testa rezultāti ir jārāda šajā blokā?';
 $string['config_show_best'] = 'Cik daudz augstāko vērtējumu jārāda (0, lai atspējotu)?';
 $string['config_show_worst'] = 'Cik daudz zemāko vērtējumu jārāda (0, lai atspējotu)?';
 $string['config_use_groups'] = 'Vai rādīt grupas, nevis studentus (tikai, ja tests atbalsta grupas)?';
 $string['configuredtoshownothing'] = 'Šī bloka konfigurācija pašlaik neļauj rādīt nekādus rezultātus. Iespējams, to vajag konfigurēt vai paslēpt.';
-$string['error_emptyquizid'] = 'Kļūda šajā blokā: izvēlieties, kura testa rezultāti šeit ir jārāda.';
-$string['error_emptyquizrecord'] = 'Kļūda šajā blokā: izvēlētā testa, šķiet, nav datubāzē.';
-$string['error_nogroupsexist'] = 'Kļūda šajā blokā: ir iestatīta vērtējumu rādīšana grupas režīmā, bet kursā nav definētu grupu.';
+$string['error_emptyquizid'] = 'Kļūda blokā: izvēlieties, kura testa rezultāti šeit ir jārāda.';
+$string['error_emptyquizrecord'] = 'Kļūda blokā: izvēlētā testa, šķiet, nav datubāzē.';
+$string['error_nogroupsexist'] = 'Kļūda blokā: ir iestatīta vērtējumu rādīšana grupas režīmā, bet kursā nav definētu grupu.';
 $string['formaltitle'] = 'Testa rezultāti';
 $string['worstgrade'] = 'Zemākais vērtējums:';
 $string['worstgrades'] = '$a zemākie vērtējumi:';

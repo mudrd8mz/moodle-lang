@@ -1,20 +1,23 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 beta + (2006101003)
+      // resource.php - created with Moodle 1.9 + (Build: 20080325) (2007101509)
 
 
 $string['addresource'] = 'Pievienot resursu';
 $string['affectedresources'] = 'Atbilstīgie resursi';
+$string['allowlocalfiles'] = 'Atļaut lokālos failus';
+$string['autofilerename'] = 'Atjaunināt saiti, ja fails pārsaukts';
 $string['back'] = 'Atpakaļ';
+$string['blockdeletingfile'] = 'Bloķēt failu ar atsaucēm dzēšanu';
 $string['browserepository'] = 'Pārlūkot krātuvi';
 $string['choose'] = 'Izvēlēties';
 $string['chooseafile'] = 'Izvēlēties vai augšupielādēt failu';
 $string['chooseparameter'] = 'Izvēlēties parametru';
-$string['clicktoopen'] = 'Lai atvērtu dokumentu, noklikšķiniet uz šīs saites: ';
+$string['clicktoopen'] = 'Lai atvērtu dokumentu, noklikšķiniet uz šīs saites:';
 $string['configallowlocalfiles'] = 'Izveidojot jaunu failu resursu, atļaut veidot saites uz failiem lokālo failu sistēmā, piemēram, kompaktdiskā vai cietajā diskā. Tas var būt noderīgi auditorijā, kur visi studenti var piekļūt koplietojamam tīkla diskam, vai vietā, kur jāpiekļūst kompaktdiskā saglabātiem failiem. Lai varētu izmantot šo līdzekli, iespējams, ir jāveic izmaiņas pārlūkprogrammas drošības iestatījumos.';
 $string['configautofilerenamesettings'] = 'Automātiski atjaunināt atsauces uz failiem un direktorijiem pēc to pārdēvēšanas, izmantojot failu pārvaldnieku.';
 $string['configblockdeletingfilesettings'] = 'Bloķēt to failu un direktoriju izdzēšanu, uz kuriem resursos ir izveidotas atsauces. Lūdzu, ņemiet vērā, ka attēli un citi faili, uz kuriem HTML failos ir ievietotas atsauces, nav aizsargāti.';
 $string['configdefaulturl'] = 'Šī vērtība tiek izmantota, lai, veidojot jaunu resursu, kurā izmanto URL, sākotnēji aizpildītu URL veidlapu.';
-$string['configfilterexternalpages'] = 'Šī iestatījuma iespējošana izraisīs visu ārējo resursu (tīmekļa vietņu, augšupielādēto HTML failu) apstrādi, izmantojot pašlaik definētos vietnes filtrus (piemēram, automātiskās saites uz vārdnīcām).  Šīs opcijas aktivizēšana var izraisīt būtisku jūsu kursa lapu darbības palēnināšanos — lietojiet to piesardzīgi un tikai tad, ja tas tiešām ir nepieciešams.';
+$string['configfilterexternalpages'] = 'Šī iestatījuma iespējošana izraisīs visu ārējo resursu (tīmekļa vietņu, augšupielādēto HTML failu) apstrādi, izmantojot pašlaik definētos vietnes filtrus (piemēram, automātiskās saites uz vārdnīcām).  Šīs opcijas aktivizēšana var izraisīt būtisku jūsu kursa lapu darbības palēnināšanos — lietojiet to piesardzīgi un tikai tad, ja tas tiešām ir nepieciešams.';
 $string['configframesize'] = 'Kad tīmekļa vietne vai augšupielādēts fails tiek parādīts ietvarā, šī vērtība tiek lietota augšējā ietvara (kurā ir ietverta lapas navigācija) lielumam (pikseļos).';
 $string['configparametersettings'] = 'Kad tiek pievienots jauns resurss, veidlapā šādi tiek iestatīta noklusējuma vērtība parametru iestatījumu rūtij. Pēc pirmās lietošanas reizes tā kļūst par atsevišķu lietotāja iestatījumu.';
 $string['configpopup'] = 'Vai šī opcija ir jāiespējo pēc noklusējuma, kad tiek pievienots jauns resurss, kuru var parādīt uznirstošajā logā?';
@@ -45,7 +48,9 @@ $string['fetcherror'] = 'Mēģinot izgūt tīmekļa lapu, tika atrasta kļūda.'
 $string['fetchservererror'] = 'Mēģinot izgūt tīmekļa lapu, tika atrasta attālā servera kļūda (iespējams, tā ir programmas kļūda).';
 $string['filename'] = 'Faila nosaukums';
 $string['filtername'] = 'Resursu nosaukumu automātiskā saistīšana';
+$string['forcedownload'] = 'Uzspiest lejupielādi';
 $string['frameifpossible'] = 'Ievietojiet resursu ietvarā, lai saglabātu vietnes navigācijas redzamību';
+$string['framesize'] = 'Ietvara lielum';
 $string['fulltext'] = 'Pilns teksts';
 $string['htmlfragment'] = 'HTML fragments';
 $string['imspackageloaded'] = 'Pakotne ir ielādēta';
@@ -95,6 +100,7 @@ $string['previous'] = 'Iepriekšējā';
 $string['redeploy'] = 'Izvietot vēlreiz';
 $string['repository'] = 'IMS krātuve';
 $string['resource:view'] = 'Skatīt resursu';
+$string['resourcedefaulturl'] = 'Noklusējuma URL';
 $string['resourcetype'] = 'Resursa veids';
 $string['resourcetype1'] = 'Atsauce';
 $string['resourcetype2'] = 'Tīmekļa lapa';
@@ -117,11 +123,13 @@ $string['serverurl'] = 'Servera URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Rādīt kursu blokus';
 $string['skipsubmenus'] = 'Izlaist apakšizvēļņu lapas';
 $string['tableofcontents'] = 'Satura rādītājs';
+$string['tableofcontentsabbrev'] = 'TOC';
 $string['upbutton'] = 'Augšup';
-$string['variablename'] = 'Mainīgās vērtības nosaukums';
+$string['variablename'] = 'Mainīgā nosaukums';
 $string['viewims'] = 'Skatīt IMS satura pakotni';
 $string['vol'] = 'Sēj.';
 $string['warningblockingdelete'] = 'Brīdinājums. Esošais resurss bloķē dzēšanas darbību. Vai nu vispirms atjauniniet resursus, vai arī vērsieties pie administratora, lai viņš atspējotu šo drošības mehānismu vispārējā resursu konfigurācijā.';
 $string['warningdisabledrename'] = 'Brīdinājums. Automātiskā atsauču pārdēvēšana resursos ir atspējota. Vajadzības gadījumā, lūdzu, atjauniniet atbilstīgos resursus manuāli. Administrators var arī iespējot automātisko pārdēvēšanu vispārējā resursu konfigurācijā.';
+$string['websearchdefault'] = 'Tīmekļa meklēšanas noklusējums';
 
 ?>

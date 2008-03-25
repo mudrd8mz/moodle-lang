@@ -1,9 +1,15 @@
-<?PHP // $Id$
-      // qtype_multichoice.php - created with Moodle 1.7 beta + (2006101003)
+<?PHP // $Id$ 
+      // qtype_multichoice.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
 
 
+$string['addingmultichoice'] = 'Daudzizvēļu jautājuma pievienošana';
 $string['addmorechoiceblanks'] = 'Tukši lauki vēl {no} izvēles iespējām';
 $string['answerhowmany'] = 'Viena atbilde vai atbilžu kombinācija?';
+$string['answernumbering'] = 'Numurēt atbildes?';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = 'Bez numerācijas';
 $string['answersingleno'] = 'Atļauts izmantot atbilžu kombināciju';
 $string['answersingleyes'] = 'Tikai viena atbilde';
 $string['choiceno'] = 'Izvēle $a';
@@ -19,8 +25,8 @@ $string['fractionsaddwrong'] = 'Jūsu izraudzītā pozitīvā vērtējuma kopsum
 $string['fractionsnomax'] = 'Lai varētu saņemt pilnu vērtējumu par atbildi uz šo jautājumu,<br />vienas atbildes vērtējumam jābūt 100%%.<br />Vai vēlaties atgriezties un labot šo jautājumu?';
 $string['incorrectfeedback'] = 'Par jebkuru nepareizu atbildi';
 $string['notenoughanswers'] = 'Šī veida jautājumam ir nepieciešamas vismaz $a atbildes.';
-$string['overallfeedback'] = 'Vispārīgas atsauksmes';
 $string['overallcorrectfeedback'] = 'Atsauksmes par jebkuru pareizu atbildi';
+$string['overallfeedback'] = 'Kopējās atsauksmes';
 $string['overallincorrectfeedback'] = 'Atsauksmes par jebkuru nepareizu atbildi';
 $string['overallpartiallycorrectfeedback'] = 'Atsauksmes par jebkuru daļēji pareizu atbildi';
 $string['partiallycorrectfeedback'] = 'Par jebkuru daļēji pareizu atbildi';

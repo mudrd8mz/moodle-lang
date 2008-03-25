@@ -1,2 +1,1 @@
-Latvijas Universitāte (University of Latvia), Arnis Voitkāns <lu@lu.lv>
-Girts Ozolins <girts@pic.lv>
+Latvijas Universitāte (University of Latvia), Arnis Voitkāns <arnis.voitkans@lu.lv>
