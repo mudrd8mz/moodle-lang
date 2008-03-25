@@ -175,6 +175,7 @@ $string['user:viewdetails'] = 'ユーザプロファイルを表示する';
 $string['user:viewhiddendetails'] = '非表示のユーザ詳細を表示する';
 $string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表示する';
 $string['user:viewusergrades'] = 'ユーザの評定を表示する';
+$string['userhashiddenassignments'] = 'このユーザには、このコースで1つまたはそれ以上の非表示のロールが割り当てられています。';
 $string['viewrole'] = 'ロール詳細の表示';
 $string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ';
 $string['question:export'] = '問題をエクスポートする'; // TBD
