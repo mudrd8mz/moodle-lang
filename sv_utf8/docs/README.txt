@@ -1,48 +1,15 @@
-Moodle documentation
---------------------
+Den här katalogen innehöll tidigare en mängd 
+dokumentation i HTML-format.
 
-If you want to translate this documentation into another language,
-I would suggest that you:
+Allt detta har nu tagits bort eftersom vi numera använder
+en wiki för Moodle Docs.
 
- 1) don't include English versions of the files in this directory
-    because they will be used automatically anyway if it is missing
-    from your language pack.
+För att hitta den nya platsen för all information som 
+fanns här, se: 
 
- 2) translate them in this order (starting with the important ones):
-  
-    MOST IMPORTANT
-    |-------------------
-    |
-    |   - files.php
-    |   - install.html
-    |   - installamp.html
-    |   - upgrade.html
-    |   - faq.html
-    |
-    |  -----------------
-    |
-    |   - teacher.html
-    |   - module_files.txt
-    | 
-    |  -----------------
-    |   
-    |   - intro.html
-    |   - features.html
-    |   - release.html
-    |
-    |  -----------------
-    |
-    |   - developer.html
-    |   - cvs.html
-    |   - future.html
-    |
-    |  -----------------
-    |   
-    |   - license.html
-    |
-    |-------------------
-    LEAST IMPORTANT
+    http://docs.moodle.org/en/MoodleDocs_and_lang_packs
 
- 3) Please don't translate credits.html at all - it changes too much.
+    http://tracker.moodle.org/browse/MDL-4912
 
-
+Cheers,
+Martin Dougiamas, 10th July 2007

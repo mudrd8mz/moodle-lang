@@ -1,26 +1,26 @@
 <?PHP // $Id$ 
-      // pix.php - created with Moodle 1.3 Beta (2004051100)
+      // pix.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['angry'] = 'arg';
-$string['approve'] = 'h&aring;ller med';
+$string['approve'] = 'håller med';
 $string['biggrin'] = 'stort leende';
-$string['blackeye'] = 'bl&aring;&ouml;ga';
+$string['blackeye'] = 'blåöga';
 $string['blush'] = 'rodnar';
 $string['clown'] = 'pajas';
 $string['cool'] = 'lugn';
-$string['dead'] = 'd&ouml;d';
+$string['dead'] = 'död';
 $string['evil'] = 'ond';
 $string['kiss'] = 'kyss';
-$string['mixed'] = 'blandade k&auml;nslor';
+$string['mixed'] = 'blandade känslor';
 $string['sad'] = 'ledsen';
 $string['shy'] = 'blyg';
-$string['sleepy'] = 's&ouml;mnig';
+$string['sleepy'] = 'sömnig';
 $string['smiley'] = 'leende';
-$string['surprise'] = '&ouml;verraskad';
+$string['surprise'] = 'överraskad';
 $string['thoughtful'] = 'tankfull';
-$string['tongueout'] = 'r&auml;cker ut tungan';
-$string['wideeyes'] = 'stora &ouml;gon';
+$string['tongueout'] = 'räcker ut tungan';
+$string['wideeyes'] = 'stora ögon';
 $string['wink'] = 'blinkning';
 
 ?>

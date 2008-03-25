@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 (2007021501)
+      // message.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addcontact'] = 'Lägg till kontakt';
@@ -27,6 +27,7 @@ $string['includeblockedusers'] = 'Ta med blockerade användare';
 $string['incomingcontacts'] = 'Inkommande kontakter ($a)';
 $string['keywords'] = 'Nyckelord';
 $string['keywordssearchresults'] = 'Sökresultat: $a meddelanden funna';
+$string['mailsent'] = 'Ditt meddelande har skickats via e-post';
 $string['maxmessages'] = 'Maximalt antal meddelanden som ska visas i historiken över diskussionsämnen';
 $string['message'] = 'Meddelande';
 $string['messagehistory'] = 'Historik för meddelanden';
@@ -55,6 +56,7 @@ $string['searchforperson'] = 'Sök en person';
 $string['searchmessages'] = 'Sök meddelande';
 $string['sendmessage'] = 'Skicka meddelande';
 $string['sendmessageto'] = 'Skicka meddelande till $a';
+$string['sendmessagetopopup'] = 'Skicka meddelande till $a - nytt fönster';
 $string['settings'] = 'Inställningar';
 $string['settingssaved'] = 'Dina inställningar har sparats';
 $string['showmessagewindow'] = 'Visa fönstret för meddelanden automatiskt när jag får nya meddelanden (Du behöver se till att inställningarna i Din webbläsare inte blockerar popup-fönster på den här webbplatsen)';

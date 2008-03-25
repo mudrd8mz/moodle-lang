@@ -27,6 +27,7 @@ $string['current_transport'] = 'Aktuell transport';
 $string['currentkey'] = 'Aktuell publik nyckel';
 $string['databaseerror'] = 'Det gick inte att skriva detaljer till databasen';
 $string['deleteaserver'] = 'Tar bort en server';
+$string['deletehost'] = 'Ta bort värd';
 $string['deletekeycheck'] = 'Är Du helt säker på att Du vill ta bort den här nyckeln?';
 $string['deleteoutoftime'] = 'Tiden för Ditt 60-sekunders fönster för att ta bort den här nyckeln har gått ut. Var snäll och börja om igen.';
 $string['deleteuserrecord'] = 'SSO ACL: ta bort post för användare \'$a[0]\' från $a[1].';

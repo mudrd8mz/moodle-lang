@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 (2007021501)
+      // hotpot.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['abandoned'] = 'Avbruten';
@@ -98,7 +98,7 @@ $string['reportclicktime'] = 'Tid för klickning';
 $string['reportclicktype'] = 'Typ av klickning';
 $string['reportclues'] = 'Ledtrådar';
 $string['reportcontent'] = 'Innehåll';
-$string['reportcorrectsymbol'] = '0';
+$string['reportcorrectsymbol'] = 'O';
 $string['reportcoursename'] = 'Namn på kurs';
 $string['reportencoding'] = 'kodning';
 $string['reportevents'] = 'Händelser';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 (2007021501)
+      // form.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addfields'] = 'Lägg till $a fält till formuläret';
@@ -26,11 +26,14 @@ $string['month'] = 'Månad';
 $string['nomethodforaddinghelpbutton'] = 'Det finns ingen metod för att lägga till en hjälpknapp till en komponent i ett formulär $a->name (class $a->classname)';
 $string['nonexistentformelements'] = 'Försöker att lägga till en hjälpknapp till en komponent till ett formulär som inte finns : $a';
 $string['optional'] = 'Valfri';
+$string['othersettings'] = 'Andra inställningar';
 $string['requiredelement'] = 'Obligatoriskt fält';
+$string['revealpassword'] = 'Avslöja';
 $string['security'] = 'Säkerhet';
 $string['showadvanced'] = 'Visa avancerad';
 $string['somefieldsrequired'] = 'Det finns obligatoriska fält i det här formuläret marked$a.';
 $string['timing'] = 'Tidsanpassning';
+$string['unmaskpassword'] = 'Avmaska';
 $string['year'] = 'År';
 
 ?>

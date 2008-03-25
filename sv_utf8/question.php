@@ -1,14 +1,74 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.8 (2007021501)
+      // question.php - created with Moodle 1.9 Beta + (2007090600)
 
 
+$string['adminreport'] = 'Rapport över  möjliga problem i Din frågedatabas.';
+$string['broken'] = 'Det här är en \'bruten\' länk, den pekar på en fil som inte finns.';
+$string['byandon'] = 'av <em>$a->user</em> på <em>$a->time</em>';
+$string['categorycurrent'] = 'Aktuell kategori';
+$string['categorycurrentuse'] = 'Använd den här kategorin';
 $string['categorydoesnotexist'] = 'Den här kategorin finns inte.';
+$string['categorymoveto'] = 'Spara i kategori';
+$string['changepublishstatuscat'] = '<a href=\"$a->caturl\">Kategorin \"$a->name\"</a> i kursen \"$a->coursename\" kommer att få sin status för gemenskap ändrad från <strong>$a->changefrom till $a->changeto</strong>';
+$string['copy'] = 'Kopiera från $a och ändra länkar';
+$string['created'] = 'Skapad';
+$string['createdmodifiedheader'] = 'Skapad/Senast sparad';
+$string['cwrqpfs'] = 'Slumpmässiga frågor som väljer frågor ur underkategorier.';
+$string['cwrqpfsinfo'] = '<p>I samband med uppgraderingen till Moodle 1.9 kommer vi att fördela frågekategorier på olika sammanhang. En del frågekategorier och frågor på Din webbplats kommer att få sin status angående vad som är gemensamt ändrad. Detta är nödvändigt i det sällsynta fall där en eller fler slumpmässiga frågor i ett test har ställts in från en blandning av gemensamma och separata kategorier, så som är fallet på den här webbplatsen. Detta inträffar när en slumpmässig fråga är inställd till att välja ur underkategorier och en eller flera underkategorier har en annan status angående gemenskap än den föräldrakategori i vilken den slumpmässiga frågan har skapats.</p><p>De följande frågekategorierna, som slumpmässiga frågor i föräldrakategorier väljer frågor ur kommer i samband med uppgradering till Moodle 1.9 att få sin status ändrad till samma gemensamma status som kategorin med  den slumpmässiga frågan i. De följande kategorierna kommer att få sin status som gemensamma ändrad. De frågor som påverkas kommer att fortsätta att  fungera i alla befintliga test ända tills Du tar bort dem från dessa test.</p>';
+$string['cwrqpfsnoprob'] = 'Inga frågekategorier på Din webbplats påverkas av funktionen \'Slumpmässiga frågor som väljer frågor ur underkategorier\'.';
+$string['defaultfor'] = 'Förinställt standardvärde för $a';
+$string['defaultinfofor'] = 'Det förinställda standardvärdet för frågor som är gemensamma i sammanhanget \'$a\'.';
+$string['donothing'] = 'Kopiera inte eller flytta filer eller ändra länkar.';
+$string['editingcategory'] = 'Redigerar en kategori';
 $string['editingquestion'] = 'Redigerar en fråga';
+$string['erroraccessingcontext'] = 'Det går inte att få tillgång till sammanhanget';
+$string['errorfilecannotbecopied'] = 'Fel. Det går inte att kopiera filen $a.';
+$string['errorfilecannotbemoved'] = 'Fel. Det går inte att flytta filen $a.';
+$string['errorfileschanged'] = 'De fel-filer som har länkats till från frågor har ändrats sedan formuläret visades.';
+$string['exportcategory'] = 'Kategori för export';
+$string['filesareacourse'] = 'arkiv för kursfiler';
+$string['filesareasite'] = 'arkiv för filer på webbplatsnivå';
+$string['filestomove'] = 'Flytta/kopiera filer till $a?';
 $string['fractionsnomax'] = 'Ett av svaren bör ha ett resultat på 100%% så att det blir möjligt att få komplett betyg för den här frågan.';
+$string['getcategoryfromfile'] = 'Hämta kategori från fil';
+$string['getcontextfromfile'] = 'Hämta sammanhang från fil';
+$string['ignorebroken'] = 'Ta inte hänsyn till brutna länkar';
+$string['linkedfiledoesntexist'] = 'Den länkade filen $a finns inte.';
+$string['makechildof'] = 'Gör om \'$a\'  till ett barn';
+$string['maketoplevelitem'] = 'Flytta till översta positionen';
 $string['missingimportantcode'] = 'Den här frågan saknar viktig kod: $a';
+$string['modified'] = 'Senast sparad';
+$string['move'] = 'Flytta från $a och byt länkar';
+$string['movecategory'] = 'Flytta kategori';
+$string['movelinksonly'] = 'Ändra bara länkadresserna, flytta inte och kopiera inte filerna.';
+$string['moveq'] = 'Flytta fråga/or';
+$string['moveqtoanothercontext'] = 'Flytta fråga till ett annat sammanhang';
+$string['movingcategory'] = 'Flyttar kategori';
+$string['movingcategoryandfiles'] = 'Är Du säker på att Du vill flytta kategorin {$a->name} och alla barn-kategorier till sammanhanget för \"{$a->contextto}\"?<br />Vi har upptäckt {$a->urlcount} filer som är länkade från frågor i {$a->fromareaname}, skulle Du vilja kopiera eller flytta dessa till {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Är Du säker på att Du vill flytta kategorin \"{$a->name}\" och alla barn-kategorier till sammanhanget för \"{$a->contextto}\"?';
+$string['movingquestions'] = 'Flyttar frågor och alla typer av filer';
+$string['movingquestionsandfiles'] = 'Är Du säker på att Du vill flytta frågorna  {$a->questions}till sammanhanget <strong>\"{$a->tocontext}\"</strong>?Vi har upptäckt <strong>{$a->urlcount} filer</strong> som är länkade från dessa frågor i {$a->fromareaname}, skulle Du vilja kopiera eller flytta dessa till {$a->toareaname}?';
+$string['movingquestionsnofiles'] = 'Är Du säker på att Du vill flytta frågorna  {$a->questions}till sammanhanget <strong>\"{$a->tocontext}\"</strong>?<br /> Det finns  <strong>inga filer</strong> som är länkade från dessa frågor i {$a->fromareaname}.';
+$string['needtochoosecat'] = 'Du måste välja en kategori för att flytta den här frågan eller klicka på \'Avbryt\'.';
+$string['nopermissionadd'] = 'Du har inte tillstånd att lägga till frågor här.';
+$string['noprobs'] = 'Det fanns inga problem i Din databas för frågor.';
 $string['notenoughdatatoeditaquestion'] = 'Varken ett fråge-id, en kategori-id eller frågetyp har angivits.';
+$string['notenoughdatatomovequestions'] = 'Du måste ange fråge-id för de frågor som Du vill flytta.';
+$string['permissionedit'] = 'Redigera den här frågan';
+$string['permissionmove'] = 'Flytta den här frågan';
+$string['permissionsaveasnew'] = 'Spara det här som en ny fråga';
+$string['permissionto'] = 'Du har tillstånd att:';
+$string['published'] = 'gemensam';
+$string['questionaffected'] = '<a href=\"$a->qurl\">Frågan \"$a->name\" ($a->qtype)</a> finns i den här frågekategorin men den används även i <a href=\"$a->qurl\">test \"$a->quizname\"</a> i en annan kurs \"$a->coursename\".';
 $string['questionbank'] = 'Frågebank';
+$string['questioncatsfor'] = 'Frågekategorier för \'$a\'';
 $string['questiondoesnotexist'] = 'Den här frågan finns inte.';
+$string['questionuse'] = 'Använd frågan i den här aktiviteten';
+$string['shareincontext'] = 'Dela i sammanhanget för $a';
+$string['tofilecategory'] = 'Skriv kategori till fil';
+$string['tofilecontext'] = 'Skriv sammanhang till fil';
+$string['unknown'] = 'Okänd';
 $string['unknownquestiontype'] = 'Okänd frågetyp: $a';
+$string['unpublished'] = 'Inte gemensam';
 
 ?>

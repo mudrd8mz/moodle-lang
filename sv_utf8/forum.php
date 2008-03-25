@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8 (2007021501)
+      // forum.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addanewdiscussion'] = 'Lägg till ett nytt diskussionsämne';
@@ -20,10 +20,12 @@ $string['blockafter'] = 'Tröskel för blockering av inlägg';
 $string['blockperiod'] = 'Tidsperiod för blockering';
 $string['blockperioddisabled'] = 'Blockera inte';
 $string['bynameondate'] = 'av $a->name - $a->date';
+$string['cannotadddiscussion'] = 'För att lägga till diskussionsämnen till det här forumet krävs det att man är medlem av en grupp.';
 $string['cannotviewpostyet'] = 'Du kan inte läsa de andras frågor i det här diskussionsämnet ännu eftersom du inte har gjort något eget inlägg.';
 $string['configcleanreadtime'] = 'Tidpunkten under dagen då gamla inlägg ska rensas från \'läs\'-tabellen.';
 $string['configdisplaymode'] = 'Det förinställda sättet att visa diskussionsämnen, om Du inte har ställt in ett annat.';
 $string['configenablerssfeeds'] = 'Den här omkopplaren aktiverar RSS -inmatning för alla forum. Du måste dock fortfarande koppla på inmatningen manuellt i inställlningarna för varje enskilt forum.';
+$string['configenabletimedposts'] = 'Ställ in det här till \'Ja\' om Du vill att det ska vara möjligt att ställa in att perioder då nya diskussionsämnen initieras ska visas (experimentellt - ej fullt utprovat).';
 $string['configlongpost'] = 'Alla inlägg som överskrider den här längden (förutom HTML) anses vara långa.';
 $string['configmanydiscussions'] = 'Maximalt antal diskussionsämnen som visas per sida i ett forum.';
 $string['configmaxbytes'] = 'Standardval (förinställt värde) för den maximala storleken på bifogade filer på den här webbsajten (det finns även lokala inställningar för t.ex. varje enskild kurs)';

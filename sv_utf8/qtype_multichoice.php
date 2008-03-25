@@ -1,9 +1,15 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8 (2007021501)
+      // qtype_multichoice.php - created with Moodle 1.9 Beta + (2007090600)
 
 
+$string['addingmultichoice'] = 'Lägger till en flervalsfråga';
 $string['addmorechoiceblanks'] = 'Tomma utrymmen för {inga} fler val';
 $string['answerhowmany'] = 'Ett eller flera svar?';
+$string['answernumbering'] = 'Numrera svarsalternativen?';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABC'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = 'Ingen numrering';
 $string['answersingleno'] = 'Flera svar tillåtna';
 $string['answersingleyes'] = 'Endast ett svar';
 $string['choiceno'] = 'Val $a';

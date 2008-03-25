@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8 (2007021501)
+      // qtype_calculated.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addmoreanswerblanks'] = 'Lägg till ytterligare ett tomt svar';
@@ -23,6 +23,7 @@ $string['nodataset'] = 'ingenting - detta är inte ett wild card';
 $string['nosharedwildcard'] = 'Det finns inget gemensamt \'wild card\' i den här kategorin';
 $string['possiblehdr'] = 'Möjliga \'wild cards\' finns endast med i frågetexten';
 $string['tolerance'] = 'Tolerans  &plusmn;';
+$string['updatecategory'] = 'Uppdatera kategorin';
 $string['usedinquestion'] = 'Använd i fråga';
 $string['youmustenteramultiplierhere'] = 'Du måste ange en multiplikator här';
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8 (2007021501)
+      // qtype_datasetdependent.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['additem'] = 'Lägg till komponent';
@@ -17,6 +17,7 @@ $string['existingcategory2'] = 'En fil från en befintlig uppsättning av filer 
 $string['existingcategory3'] = 'En länk från en befintlig uppsättning av länkar som även används av andra frågor i den här kategorin';
 $string['forceregeneration'] = 'tvinga fram återskapande';
 $string['getnextnow'] = 'Hämta en ny \'Komponent att lägga till\' nu';
+$string['item(s)'] = 'komponent(er)';
 $string['itemno'] = 'Komponent $a';
 $string['itemscount'] = 'Komponenter <br /> Räkna';
 $string['itemtoadd'] = 'Komponent att lägga till';
@@ -26,6 +27,7 @@ $string['keptcategory3'] = 'en länk från samma kategori av återbrukbara länk
 $string['keptlocal1'] = 'ett bokstavstecken från samma privata fråge)uppsättning av bokstavstecken som tidigare';
 $string['keptlocal2'] = 'en fil från samma privata fråge)uppsättning av filer som tidigare';
 $string['keptlocal3'] = 'en länk från samma privata fråge)uppsättning av länkar som tidigare';
+$string['lastitem(s)'] = 'sista komponent/en/erna';
 $string['loguniform'] = 'Loguniform';
 $string['minmax'] = 'Spann av värden';
 $string['newcategory1'] = 'ett bokstavstecken från en ny uppsättning av bokstavstecken som också kan användas av andra frågor i den här kategorin';

@@ -3,16 +3,16 @@
 
 
 $string['addall'] = 'Lägg till alla tillgängliga användare';
-$string['addsel'] = 'Lägg till de markerade av de tillgängliga användarna';
+$string['addsel'] = 'Lägg till urvalet av tillgängliga användare';
 $string['available'] = 'Tillgänglig';
 $string['deleteall'] = 'Rensa alla användare';
-$string['deletesel'] = 'Rensa alla markerade användare';
+$string['deletesel'] = 'Rensa bort urvalet av användare';
 $string['removeall'] = 'Ta bort alla tillgängliga användare';
-$string['removesel'] = 'Ta bort alla markerade tillgängliga användare';
-$string['selected'] = 'Markerad/e';
-$string['selectedlist'] = 'Lista över markerade användare...';
+$string['removesel'] = 'Ta bort urvalet av tillgängliga användare';
+$string['selected'] = 'Urvald/a';
+$string['selectedlist'] = 'Lista över urval av användare...';
 $string['usersfound'] = '$a användare har hittats';
 $string['usersinlist'] = 'Användare i lista';
-$string['usersselected'] = '$a användare har markerats';
+$string['usersselected'] = '$a användare har förts till urvalet';
 
 ?>

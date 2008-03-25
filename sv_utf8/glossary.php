@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 (2007021501)
+      // glossary.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addcomment'] = 'Lägg till kommentarer';
@@ -50,7 +50,7 @@ $string['commentson'] = 'Kommentarer aktiverade';
 $string['commentupdated'] = 'Kommentaren har uppdaterats';
 $string['concept'] = 'Begrepp';
 $string['concepts'] = 'Begrepp';
-$string['configenablerssfeeds'] = 'Den här omkopplaren kommer att aktivera RSS-inmatning för alla ord- och begreppslistor. Du  måste fortfarande aktivera inmatningarna manuellt i inställningarna för varje enskild ord och begreppslista';
+$string['configenablerssfeeds'] = 'Den här omkopplaren kommer att aktivera RSS-inmatning för alla ord- och begreppslistor. Du  måste fortfarande aktivera inmatningarna manuellt i inställningarna för varje enskild ord- och begreppslista.';
 $string['currentglossary'] = 'Aktuell ord- och begreppslista';
 $string['dateview'] = 'Bläddra enligt datum';
 $string['defaultapproval'] = 'Standardval för godkännande';
@@ -58,10 +58,10 @@ $string['definition'] = 'Definition';
 $string['definitions'] = 'Definitioner';
 $string['deleteentry'] = 'Ta bort bidrag';
 $string['deletingcomment'] = 'Tar bort kommentar';
-$string['deletingnoneemptycategory'] = 'Om en kategori som inte är tom tas bort så kommer dess relationer med dess bidrag också att tas bort. Om Du vill ta bort dessa bidrag så kan Du göra det manuellt';
+$string['deletingnoneemptycategory'] = 'Om Du tar bort den här kaegorin så bidragen i den inte att tas bort - istället kommer de att markeras som inte-kategoriserade.';
 $string['descending'] = '(fallande)';
 $string['destination'] = 'Mål';
-$string['displayformat'] = 'Visa format';
+$string['displayformat'] = 'Format för visning';
 $string['displayformatcontinuous'] = 'Fortlöpande men utan författare';
 $string['displayformatdictionary'] = 'Enkel ordboksstil';
 $string['displayformatencyclopedia'] = 'Encyklopedi';
@@ -69,7 +69,7 @@ $string['displayformatentrylist'] = 'Lista över bidrag';
 $string['displayformatfaq'] = 'FAQ';
 $string['displayformatfullwithauthor'] = 'Komplett med författare';
 $string['displayformatfullwithoutauthor'] = 'Komplett utan författare';
-$string['displayformats'] = 'Visningsformat';
+$string['displayformats'] = 'Format för visning';
 $string['displayformatssetup'] = 'Visa';
 $string['duplicateentry'] = 'Dubblerat bidrag';
 $string['editalways'] = 'Redigera alltid';
@@ -92,12 +92,13 @@ $string['entryusedynalink'] = 'Det här bidraget bör<br /> vara automatiskt lä
 $string['errcannoteditothers'] = 'Du kan inte redigera andra personers bidrag.';
 $string['errconceptalreadyexists'] = 'Det här begreppet finns redan med. Det är inte tillåtet med dubbleringar i den här ord- och begreppslistan.';
 $string['erredittimeexpired'] = 'Tiden för att redigera det här bidraget har gått ut.';
+$string['errorparsingxml'] = 'Det uppstod fel när filen skulle parsas. Säkerställ att det är en giltig syntax för XML.';
 $string['explainaddentry'] = 'Lägg till ett nytt bidrag till den aktuella ord- och begreppslistan.<br />\'Begrepp\' och \'definition\' är obligatoriska fält.';
 $string['explainall'] = '<b>ALLA</b> kommer att visa alla bidrag på en sida';
 $string['explainalphabet'] = 'Välj den sida Du vill söka efter<p>';
 $string['explainexport'] = 'En fil har skapats.<br />Ladda ned den och spara den på ett säkert ställe. Du kan importera den när helst Du vill, i den här kursen eller i någon annan.';
 $string['explainimport'] = 'Du måste ange vilken fil som ska importeras och villkoren för processen.<p>Skicka in Din förfrågan och titta på resultaten igen.</p>';
-$string['explainspecial'] = '<b>Special</b> kommer att visa alla begrepp som inte börjar med en bokstav<br />';
+$string['explainspecial'] = 'Visa alla begrepp som inte börjar med en bokstav';
 $string['exportedentry'] = 'Exporterat bidrag';
 $string['exportentries'] = 'Exportera bidrag';
 $string['exportfile'] = 'Exportera bidrag till fil';
@@ -125,6 +126,7 @@ $string['importcategories'] = 'Importera kategorier';
 $string['importedcategories'] = 'Importerade kategorier';
 $string['importedentries'] = 'Importerade bidrag';
 $string['importentries'] = 'Importera bidrag';
+$string['importentriesfromxml'] = 'Importera bidrag från XML-fil';
 $string['isglobal'] = 'Är det här en global ord- och begreppslista?';
 $string['linkcategory'] = 'Länka den här kategorin automatiskt';
 $string['linking'] = 'Automatisk länkning';

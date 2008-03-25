@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.8 (2007021501)
+      // enrol_database.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['autocreate'] = 'Det går att skapa kurser automatiskt om det finns registreringar på en kurs som ännu inte finns i Moodle.';
@@ -21,6 +21,7 @@ $string['enrol_database_autocreation_settings'] = 'Automatiskt skapande av nya k
 $string['enrolname'] = 'Extern databas';
 $string['general_options'] = 'Allmänna alternativ';
 $string['host'] = 'Databasserverns värdnamn';
+$string['ignorehiddencourse'] = 'Om detta är inställt till \"Ja\" så kommer inga studenter/elever/deltagare/lärande att registreras på kurser som inte är öppna för dem.';
 $string['local_fields_mapping'] = '(Lokala) databasfält i Moodle';
 $string['localcoursefield'] = 'Det namn på fältet i tabellen för kurser som vi använder för att matcha inmatningar i fjärrdatabasen (t.ex. idnummer).';
 $string['localrolefield'] = 'Det namn på fältet i tabellen för roller som vi använder för att matcha inmatningar i fjärrdatabasen (t.ex. kortnamn).';

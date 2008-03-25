@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // dialogue.php - created with Moodle 1.4 (2004083100)
+      // dialogue.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addmynewentries'] = 'Lägg till mina nya inlägg';
@@ -9,6 +9,7 @@ $string['allowmultiple'] = 'Tillåt mer än en dialog med samma person';
 $string['allowstudentdialogues'] = 'Tillåt dialoger mellan lärande-lärande';
 $string['close'] = 'Avbryt';
 $string['closed'] = 'Avbruten';
+$string['closeddialogues'] = 'Stängda dialoger';
 $string['confirmclosure'] = 'Du håller på att avbryta en dialog med $a. Avbrutna dialoger kan inte återupptas. Om Du avbryter den här dialogen kan Du se den men inte lägga till något till den. Om Du vill fortsätta att kommunicera med den här personen så måste Du påbörja en ny dialog. Är Du säker på att Du vill avbryta den här dialogen?';
 $string['deleteafter'] = 'Ta bort avbrutna dialoger efter (antal dagar)';
 $string['dialogueclosed'] = 'Dialogen är avbruten';
@@ -32,18 +33,20 @@ $string['newentry'] = 'Nytt inlägg';
 $string['noavailablepeople'] = 'Det finns ingen som är tillgänglig för att föra en dialog med';
 $string['nopersonchosen'] = 'Du har inte valt någon person';
 $string['nosubject'] = 'Inget ämne har angivits';
+$string['notavailable'] = 'Dialoger är inte tillgängliga för gästanvändarer';
 $string['notextentered'] = 'Ingen text har skrivits in';
 $string['notstarted'] = 'Du har inte påbörjat den här dialogen än';
 $string['notyetseen'] = 'Har ännu inte sett';
 $string['numberofentries'] = 'Antal inlägg';
 $string['numberofentriesadded'] = 'Antal inlägg som har lagts till: $a';
 $string['of'] = 'av';
-$string['onwrote'] = 'På $a skrev  ';
+$string['onwrote'] = 'På $a skrev';
 $string['onyouwrote'] = 'På $a skrev Du';
 $string['open'] = 'Öppna';
-$string['openadialoguewith'] = 'Öppna en dialog med ';
+$string['openadialoguewith'] = 'Öppna en dialog med';
 $string['opendialogue'] = 'Öppna dialog';
-$string['opendialogueentries'] = 'Öppna bidragen i dialogen ';
+$string['opendialogueentries'] = 'Öppna bidragen i dialogen';
+$string['opendialogues'] = 'Öppna dialoger';
 $string['pane0'] = 'Öppna en dialog';
 $string['pane1'] = '$a dialoger väntar på svar från Dig';
 $string['pane1one'] = '1 dialog väntar på svar från Dig';

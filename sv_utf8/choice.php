@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 (2007021501)
+      // choice.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addmorechoices'] = 'Lägg till fler opinionsundersökningar';
@@ -37,6 +37,7 @@ $string['publishalways'] = 'Visa alltid resultaten för studenterna/eleverna/del
 $string['publishanonymous'] = 'Publicera anonyma resultat, visa inte studenternas/elevernas/deltagarnas/de lärandes namn.';
 $string['publishnames'] = 'Publicera hela resultat, inklusive studenternas/elevernas/deltagarnas/de lärandes namn och val.';
 $string['publishnot'] = 'Publicera inte resultaten för  studenterna/eleverna/deltagarna/de lärande.';
+$string['removemychoice'] = 'Ta bort mitt val';
 $string['responses'] = 'Svar';
 $string['responsesto'] = 'Svar till $a';
 $string['savemychoice'] = 'Spara min opinionsundersökning';

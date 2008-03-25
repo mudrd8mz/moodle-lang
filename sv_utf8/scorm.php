@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 (2007021501)
+      // scorm.php - created with Moodle 1.9 Beta + (2007090600)
 
 
+$string['activation'] = 'Aktivering';
 $string['advanced'] = 'Avancerad';
 $string['asset'] = 'Tillgång';
 $string['assetlaunched'] = 'Tillgång - visad';
 $string['attempt'] = 'försök';
+$string['attempt1'] = '1 försök';
 $string['attempts'] = 'försök';
+$string['attemptsx'] = '$a försök';
 $string['attr_error'] = 'Olämpligt värde för attributet ($a->attr) i taggen $a->tag.';
 $string['autocontinue'] = 'Fortsätt automatiskt';
 $string['averageattempt'] = 'Medel av försök';
@@ -28,11 +31,13 @@ $string['directories'] = 'Visa katalogens länkar';
 $string['display'] = 'Visa';
 $string['domxml'] = 'DOMXML externt bibliotek';
 $string['element'] = 'Element';
+$string['enter'] = 'Mata in';
 $string['entercourse'] = 'Mata in en SCORM-kurs';
 $string['errorlogs'] = 'Logg över fel';
 $string['everyday'] = 'Varje dag';
 $string['everytime'] = 'Varje gång som det används';
 $string['exit'] = 'Avsluta SCORM-kurs';
+$string['exitactivity'] = 'Avsluta aktivitet';
 $string['expcoll'] = 'Utvidga/Fäll ihop';
 $string['external'] = 'Tajming för uppdatering av externa paket';
 $string['failed'] = 'Det fungerade inte';
@@ -71,6 +76,7 @@ $string['menubar'] = 'Visa menyraden';
 $string['min'] = 'Min resultat';
 $string['missing_attribute'] = 'Saknat attribut $a->attr i taggen $a->tag';
 $string['missing_tag'] = 'Saknad tagg $a->tag';
+$string['missingparam'] = 'Ett element som är obligatoriskt saknas eller felaktigt.';
 $string['mode'] = 'Läge';
 $string['modulename'] = 'Scorm';
 $string['modulenameplural'] = 'Scorms (flera)';
@@ -89,9 +95,12 @@ $string['not_corr_type'] = 'Felaktig matchning av datatyp för taggen  $a->tag';
 $string['notattempted'] = 'Inget försök';
 $string['objectives'] = 'Mål';
 $string['onchanges'] = 'Närhelst som det ändras';
+$string['options'] = 'Alternativ';
 $string['organization'] = 'Organisation';
 $string['organizations'] = 'Organisationer';
+$string['othersettings'] = 'Kompletterande inställningar';
 $string['othertracks'] = 'Andra spår';
+$string['package'] = 'Paketfil';
 $string['packagedir'] = 'filsystemet: det går inte att skapa en katalog för paketet';
 $string['packagefile'] = 'Ingen paketfil har angivits';
 $string['passed'] = 'Genomförd';
@@ -134,6 +143,8 @@ $string['toolbar'] = 'Visa verktygsraden';
 $string['totaltime'] = 'Tid';
 $string['trackingloose'] = 'VARNING: spårningsdata till detta SCORM-paket kommer att försvinna!';
 $string['type'] = 'Typ';
+$string['unziperror'] = 'Ett fel inträffade i samband med att paketet skulle packas upp.';
+$string['updatefreq'] = 'Intervall då automatisk uppdatering ska ske';
 $string['validateascorm'] = 'Validera ett SCORM-paket';
 $string['validation'] = 'Resultat av validering';
 $string['validationtype'] = 'Det här preferenssetet använder DOMXML-biblioteket för att validera SCORM Mansifestet om Du inte överger det markerade valet.';

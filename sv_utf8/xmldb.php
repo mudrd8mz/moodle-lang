@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 (2007021501)
+      // xmldb.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['aftertable'] = 'Efter tabell:';
@@ -9,6 +9,13 @@ $string['binaryincorrectlength'] = 'Felaktig längd på binärt fält';
 $string['cannotuseidfield'] = 'Det går inte att infoga \'id\'-fältet. Det är en autonumerisk kolumn.';
 $string['change'] = 'ändra';
 $string['charincorrectlength'] = 'Felaktig längd på  fält av typen tecken';
+$string['check_bigints'] = 'Leta efter felaktiga heltal för DB';
+$string['check_indexes'] = 'Leta efter  index för DB som saknas';
+$string['checkbigints'] = 'Kontrollera stora heltal (BigInts)';
+$string['checkindexes'] = 'Kontrollera index';
+$string['completelogbelow'] = '(se den kompletta loggen för sökningen här nedan)';
+$string['confirmcheckbigints'] = 'Den här funktionaliteten kommer att söka efter <a href=\"http://tracker.moodle.org/browse/MDL-11038\"> potentiellt felaktiga fält för heltal (integer) </a> på Din Moodle-server som automatiskt genererar (men inte utför!) de nödvändiga SQL-satser (statements) som innehåller alla de korrekt definierade heltalen (integers) i Din DB. <br /><br />När de väl har genererats kan Du kopiera sådana satser säkert och utföra dem genom det gränssnitt för SQL som Du trivs bäst med (glöm inte att säkerhetskopiera Dina data innan Du gör det).<br /><br />Vi rekommenderar starkt att Du kör den senaste  tillgängliga versionen av Moodle innan du utför sökningen av felaktiga heltal (integers).<br /><br />Den här funktionaliteten utför inga åtgärder i förhållande till databasen (den bara läser den) så Du kan använda den när Du vill på ett säkert sätt.';
+$string['confirmcheckindexes'] = 'Den här funktionaliteten kommer att söka efter potentiellt felaktiga index på Din Moodle-server, som automatiskt genererar (men inte utför!) de SQL-satser (statements) som är nödvändiga för att allt ska bevaras uppdaterat. <br /><br />När de väl har genererats kan Du kopiera sådana satser säkert och utföra dem genom det gränssnitt för SQL som Du trivs bäst med (glöm inte att säkerhetskopiera Dina data innan Du gör det).<br /><br />Vi rekommenderar starkt att Du kör den senaste tillgängliga versionen av Moodle innan du utför sökningen index som saknas.<br /><br />Den här funktionaliteten utför inga åtgärder i förhållande till databasen (den bara läser den) så Du kan använda den när Du vill på ett säkert sätt.';
 $string['confirmdeletefield'] = 'Är Du helt säker på att Du vill ta bort fältet:';
 $string['confirmdeleteindex'] = 'Är Du helt säker på att Du vill ta bort indexet:';
 $string['confirmdeletekey'] = 'Är Du helt säker på att Du vill ta bort nyckeln:';
@@ -48,17 +55,22 @@ $string['floatincorrectdecimals'] = 'Felaktigt antal decimaler för fält av typ
 $string['floatincorrectlength'] = 'Felaktig längd för fält av typen \'flyttal\'';
 $string['gotolastused'] = 'Gå till den senast använda filen';
 $string['incorrectfieldname'] = 'Felaktigt namn';
+$string['index'] = 'Index';
 $string['indexes'] = 'Index';
 $string['integerincorrectlength'] = 'Felaktig längd för fält av typen \'heltal\'';
+$string['key'] = 'Nyckel';
 $string['keys'] = 'Nycklar';
 $string['listreservedwords'] = 'Lista över reserverade ord<br/>(används för att hålla dem <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserverade_ord</a> uppdaterade)';
 $string['load'] = 'Ladda';
 $string['main_view'] = 'Huvudvy';
+$string['missing'] = 'Saknas';
 $string['missingfieldsinsentence'] = 'Det saknas fält i satsen';
+$string['missingindexes'] = 'De saknade indexen har återfunnits';
 $string['missingvaluesinsentence'] = 'Det saknas värden i satsen';
 $string['mustselectonefield'] = 'Du måste välja ett fält för att se de åtgärder som berör fält.';
 $string['mustselectoneindex'] = 'Du måste välja ett index för att se de åtgärder som berör index.';
 $string['mustselectonekey'] = 'Du måste välja en nyckel för att se de åtgärder som berör nycklar.';
+$string['mysqlextracheckbigints'] = 'I MySQL så letar den även efter felaktigt signerade stora heltal (signed bigints) och genererar den SQL som krävs för att rätta till dem alla.';
 $string['new_statement'] = 'Ny deklaration';
 $string['new_table_from_mysql'] = 'Ny tabell från MySQL';
 $string['newfield'] = 'Nytt fält';
@@ -68,6 +80,8 @@ $string['newsentence'] = 'Ny sats';
 $string['newstatement'] = 'Ny deklaration';
 $string['newtable'] = 'Ny tabell';
 $string['newtablefrommysql'] = 'Ny tabell från MySQL';
+$string['nomissingindexesfound'] = 'Det gick inte att hitta några saknade index så Du behöver inte göra något mer med Din databas.';
+$string['nowrongintsfound'] = 'Det gick inte att hitta några felaktiga heltal  (integers) så Du behöver inte göra något mer med Din databas.';
 $string['numberincorrectdecimals'] = 'Felaktigt antal decimaler för fält av typen \'tal\'.';
 $string['numberincorrectlength'] = 'Felaktig längd på fält av typen tal';
 $string['reserved'] = 'Reserverad';
@@ -75,6 +89,7 @@ $string['reservedwords'] = 'Reserverade ord';
 $string['revert'] = 'Återställ';
 $string['revert_changes'] = 'Återställ ändringar';
 $string['save'] = 'Spara';
+$string['searchresults'] = 'Sök Resultat';
 $string['selectaction'] = 'Välj åtgärd:';
 $string['selectdb'] = 'Välj databas:';
 $string['selectfieldkeyindex'] = 'Välj fält/nyckel/index:';
@@ -101,8 +116,12 @@ $string['viewedited'] = 'Visa redigerad';
 $string['vieworiginal'] = 'Visa ursprunglig';
 $string['viewphpcode'] = 'Visa PHP-kod';
 $string['viewsqlcode'] = 'Visa SQL-kod';
+$string['wrong'] = 'Fel';
+$string['wrongints'] = 'Felaktiga heltal (integers) har hittats';
 $string['wronglengthforenum'] = 'Felaktig längd för fält av typen \'enum\'';
 $string['wrongnumberoffieldsorvalues'] = 'Felaktigt antal fält eller värden i en sats.';
 $string['wrongreservedwords'] = 'De reseverade ord som används f.n.<br />(lägg märke till att tabellnamn inte är viktiga om $CFG-prefix är i bruk).';
+$string['yesmissingindexesfound'] = 'En del saknade index återfanns i Din databas. Här hittar Du detaljerad information om dem och även de SQL-satser som är nödvändiga (och som du kan utföra med hjälp av det gränssnitt för SQL som Du föredrar) i och för att skapa dem (de saknade indexen). Glöm inte att säkerhetskopiera Dina data innan Du gör detta.  <br /><br />Efter det att Du har gjort det så rekommenderar vi starkt att Du använder den här funktionen igen för att kontrollera att det inte saknas ännu fler index.';
+$string['yeswrongintsfound'] = 'En del felaktiga heltal återfanns i Din databas. Här hittar Du detaljerad information om dem och även de SQL-satser som är nödvändiga (och som du kan utföra med hjälp av det gränssnitt för SQL som Du föredrar) i och för att skapa dem (de saknade indexen). löm inte att säkerhetskopiera Dina data innan Du gör detta.<br /><br />Efter det att Du har gjort det så rekommenderar vi starkt att Du använder den här funktionen igen för att kontrollera att det inte finns ännu fler felaktiga heltal (integers).';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 (2007021501)
+      // resource.php - created with Moodle 1.9 Beta + (2007090600)
 
 
 $string['addresource'] = 'Lägg till resurs';
@@ -9,6 +9,7 @@ $string['browserepository'] = 'Bläddra i arkivet';
 $string['choose'] = 'Välj';
 $string['chooseafile'] = 'Välj eller ladda upp en fil';
 $string['chooseparameter'] = 'Välj parameter';
+$string['clicktoopen'] = 'För att öppna detta dokument, klicka på den här länken:';
 $string['configallowlocalfiles'] = 'När Du skapar en ny fil som resurs så kan Du tillåta länkar till filer på en lokal filhanterare som t.ex. en CD eller en hårddisk. Detta kan vara användbart i ett klassrum där alla studenter/elever/deltagare/lärande har tillgång till en gemensam nätverkskälla eller där filer på en CD måste vara tillgängliga. Användning av den här egenskapen kan kräva att Du ändrar på säkerhetsinställningarna på Din webbläsare.';
 $string['configautofilerenamesettings'] = 'Uppdatera referenser till filer automatiskt när de döps om i filhanteraren.';
 $string['configblockdeletingfilesettings'] = 'Blockera borttagandet av filer och kataloger som refereras av resurser. Var snäll och lägg märke till att bilder och andra filer som refereras från HTML inte är skyddade.';
