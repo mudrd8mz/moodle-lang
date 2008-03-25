@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9 dev (2007071300)
+      // install.php - created with Moodle 1.9 (2007101509)
 
 
 $string['admindirerror'] = 'Admin mappen som er angitt er feil';
@@ -70,6 +70,12 @@ $string['databasesettingssub_mysql'] = '<b>Type:</b> MySQL<br />
 <b>Bruker:</b> ditt brukernavn til databasen<br />
 <b>Passord:</b> databasepassordet ditt<br />
 <b>Tabell prefix:</b> prefiks å bruke foran alle tabellnavnene (valgfritt)';
+$string['databasesettingssub_mysqli'] = '<b>Type:</b> Forbedret MySQL<br />
+<b>Vert:</b> f.eks localhost or db.isp.no<br />
+<b>Navn:</b> databasenavn, eks moodle<br />
+<b>Bruker<:</b> databasebrukernavnet ditt<br />
+<b>Password:</b> databasepassordet ditt<br />
+<b>Tabellprefiks:</b> prefiks å bruke for alle tabell navn (valgfritt)';
 $string['databasesettingssub_oci8po'] = '<b>Type:</b> Oracle<br />
 <b>Vert:</b> brukes ikke, må være blank<br />
 <b>Navn:</b> gitt navn på tnsnames.ora forbindelsen<br />
@@ -88,6 +94,7 @@ $string['databasesettingssub_postgres7'] = '<b>Type:</b> PostgreSQL<br />
 <b>Bruker:</b> ditt brukernavn til databasen<br />
 <b>Passord:</b> databasepassordet ditt<br />
 <b>Tabell prefix:</b> prefiks å bruke foran alle tabellnavnene (obligatorisk)';
+$string['databasesettingswillbecreated'] = '<b>NB:</b> Installeringen vil prøve å lage databasen automatisk hvis den ikke eksisterer.';
 $string['dataroot'] = 'Datamappe';
 $string['datarooterror'] = '\"Datamappen\" du oppga kunne ikke bli funnet eller opprettet. Vennligst rett stien eller opprett katalogen manuelt.';
 $string['dbconnectionerror'] = 'Fikk ingen forbindelse til databasen du oppga. Vennligst sjekk database-innstillingene dine.';
@@ -191,6 +198,8 @@ $string['mssql_n'] = 'SQL*Server med UTF-8 support (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP er ikke ordentlig konfigurert med MSSQL tillegg slik at den kan kommunisere med SQL*Server. Vær vennlig å sjekk php.ini fila di eller rekompiler PHP.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP har ikke blitt ordentlig konfigurert med MySQL innstillingene slik at den kan kommunisere med MySQL. Vær vennlig å sjekk php.ini fila di eller rekompiler PHP.';
+$string['mysqli'] = 'Forbedret MySQL (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP er ikke ordentlig innstilt med MySQLi tillegget slik at den kan kommunisere med MySQL. Sjekk php.ini fila di eller rekompiler PHP. MySQLi tillegget finnes ikke for PHP 4.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP har ikke blitt ordentlig konfigurert med OCI8 tillegget slik at den kan kommunisere med Oracle. Vær vennlig å sjekk php.ini fila di eller rekompiler PHP.';
 $string['odbc_mssql'] = 'SQL*Server gjennom ODBC (odbc_mssql)';
