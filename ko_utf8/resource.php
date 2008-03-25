@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (2007101506)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080325) (2008030700)
 
 
 $string['addresource'] = '자료 추가';
@@ -48,6 +48,7 @@ $string['fetcherror'] = '웹 페이지를 열며 오류가 생겼습니다.';
 $string['fetchservererror'] = '웹 페이지를 갱신하려고 하니 원격 서버 오류가 생겼습니다.';
 $string['filename'] = '파일명';
 $string['filtername'] = '자료명 자동 연결';
+$string['forcedownload'] = '강제 내려받기';
 $string['frameifpossible'] = '사이트 항해를 지켜보고 싶으면 틀에 자료를 입력하시오.';
 $string['framesize'] = '프레임 크기';
 $string['fulltext'] = '전체 내용';

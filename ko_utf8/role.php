@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080325) (2008030700)
 
 
 $string['addrole'] = '역할 추가';
@@ -175,6 +175,7 @@ $string['user:viewdetails'] = '사용자 명세를 봄';
 $string['user:viewhiddendetails'] = '사용자의 비공개 세부사항 보기';
 $string['user:viewuseractivitiesreport'] = '활동 보고서 보기';
 $string['user:viewusergrades'] = '사용자 성적 보기';
+$string['userhashiddenassignments'] = '이 사용자는 강좌내에 하나 이상의 비공개 역할을 가지고 있음';
 $string['viewrole'] = '역할 자세히 보기';
 $string['xuserswiththerole'] = '\"$a->role\" 역할을 지닌 사용자 수 : $a->number';
 $string['question:export'] = '문항 내보냄'; // ORPHANED
