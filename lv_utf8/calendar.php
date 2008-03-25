@@ -1,19 +1,24 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.7 beta + (2006101003)
+      // calendar.php - created with Moodle 1.9 + (Build: 20080325) (2007101509)
+
 
 $string['advancedoptions'] = 'Papildu opcijas';
+$string['allday'] = 'Visa diena';
 $string['calendar'] = 'Kalendārs';
 $string['calendarheading'] = '$a kalendārs';
 $string['clickhide'] = 'noklikšķiniet, lai paslēptu';
 $string['clickshow'] = 'noklikšķiniet, lai parādītu';
 $string['commontasks'] = 'Opcijas';
 $string['confirmeventdelete'] = 'Vai tiešām vēlaties izdzēst šo notikumu?';
+$string['course'] = 'Kurss';
 $string['courseevent'] = 'Kursa notikums';
 $string['courseevents'] = 'Kursa notikumi';
+$string['courses'] = 'Kursi';
 $string['dayview'] = 'Dienas skats';
 $string['daywithnoevents'] = 'Šajā dienā nav notikumu.';
 $string['default'] = 'Noklusējums';
 $string['deleteevent'] = 'Dzēst notikumu';
+$string['deleteevents'] = 'Dzēst notikumus';
 $string['detailedmonthview'] = 'Detalizēts mēneša skats';
 $string['durationminutes'] = 'Ilgums minūtēs';
 $string['durationnone'] = 'Bez ilguma';
@@ -36,6 +41,7 @@ $string['eventnone'] = 'Nav notikumu';
 $string['eventrepeat'] = 'Atkārtojumi';
 $string['eventsall'] = 'Visi notikumi';
 $string['eventsfor'] = '$a notikumi';
+$string['eventskey'] = 'Notikumu atslēga';
 $string['eventsrelatedtocourses'] = 'Ar kursiem saistīti notikumi';
 $string['eventstarttime'] = 'Sākuma laiks';
 $string['eventtime'] = 'Laiks';
@@ -44,19 +50,21 @@ $string['expired'] = 'Beidzies';
 $string['explain_lookahead'] = 'Iestata (maksimālo) dienu skaitu, pēc kura jāsākas notikumam, lai tas tiktu rādīts kā gaidāmais notikums. Notikumi, kas sākas vēlāk, nekad netiks rādīti kā gaidāmie. Ievērojiet, ka <strong>nav garantijas</strong>, ka tiks rādīti visi notikumi, kuri sākas šajā laika periodā; ja to ir pārāk daudz (vairāk nekā norādīts iestatījumā “Maksimālais gaidāmo notikumu skaits”), vistālākie notikumi netiks rādīti.';
 $string['explain_maxevents'] = 'Iestata maksimālo gaidāmo notikumu skaitu, ko var parādīt. Ja izvēlēsities lielu skaitu, iespējams, ka gaidāmo notikumu saraksts ekrānā aizņems daudz vietas.';
 $string['explain_persistflt'] = 'Ja tiek iespējots, sistēma Moodle atcerēsies jūsu pēdējos notikumu filtra iestatījumus un automātiski tos atjaunos ikreiz, kad pieslēgsities.';
+$string['explain_site_timeformat'] = 'Varat izvēlēties visā vietnē laiku skatīt 12 vai 24 stundu formātā. Ja izvēlēsities “noklusējums”, formāts tiks automātiski izvēlēts atbilstoši valodai, ko izmantojat šajā vietnē. Šo iestatījumu var ignorēt, izmantojot lietotāja iestatījumus.';
 $string['explain_startwday'] = 'Kalendāra nedēļas tiks rādītas, sākot ar šeit izvēlēto nedēļas dienu.';
 $string['explain_timeformat'] = 'Varat izvēlēties laiku skatīt 12 vai 24 stundu formātā. Ja izvēlēsities “noklusējums”, formāts tiks automātiski izvēlēts atbilstoši valodai, ko izmantojat šajā vietnē.';
-$string['explain_site_timeformat'] = 'Varat izvēlēties visā vietnē laiku skatīt 12 vai 24 stundu formātā. Ja izvēlēsities “noklusējums”, formāts tiks automātiski izvēlēts atbilstoši valodai, ko izmantojat šajā vietnē. Šo iestatījumu var ignorēt, izmantojot lietotāja iestatījumus.';
 $string['export'] = 'Eksportēt';
-$string['exportcalendar'] = 'Eksportēt kalendāru';
 $string['exportbutton'] = 'Eksportēt';
+$string['exportcalendar'] = 'Eksportēt kalendāru';
 $string['for'] = '—';
 $string['fri'] = 'Pk';
 $string['friday'] = 'Piektdiena';
 $string['generateurlbutton'] = 'Iegūt kalendāra URL';
+$string['global'] = 'Globāls';
 $string['globalevent'] = 'Globāls notikums';
 $string['globalevents'] = 'Globāli notikumi';
 $string['gotocalendar'] = 'Atvērt kalendāru';
+$string['group'] = 'Grupa';
 $string['groupevent'] = 'Grupas notikums';
 $string['groupevents'] = 'Grupas notikumi';
 $string['hidden'] = 'paslēpts';
@@ -115,6 +123,7 @@ $string['typesite'] = 'Vietnes notikums';
 $string['typeuser'] = 'Lietotāja notikums';
 $string['upcomingevents'] = 'Gaidāmie notikumi';
 $string['urlforical'] = 'URL iCalendar eksportēšanai, kalendāra abonēšanai';
+$string['user'] = 'Lietotājs';
 $string['userevent'] = 'Lietotāja notikums';
 $string['userevents'] = 'Lietotāja notikumi';
 $string['wed'] = 'Tr';
