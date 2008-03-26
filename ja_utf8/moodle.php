@@ -1130,6 +1130,7 @@ $string['periodending'] = '期間終了 ($a)';
 $string['personal'] = 'パーソナル';
 $string['personalprofile'] = 'パーソナルプロファイル';
 $string['phone'] = '電話';
+$string['phone2'] = '携帯電話';
 $string['phpinfo'] = 'PHP情報';
 $string['pictureof'] = '写真 $a';
 $string['pleaseclose'] = 'このウィンドウを閉じてください。';
