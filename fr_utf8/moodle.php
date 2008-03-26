@@ -1108,6 +1108,7 @@ $string['periodending'] = 'Fin de la période ($a)';
 $string['personal'] = 'Personnel';
 $string['personalprofile'] = 'Fiche personnelle';
 $string['phone'] = 'Téléphone';
+$string['phone2'] = 'Téléphone mobile';
 $string['phpinfo'] = 'Info PHP';
 $string['pictureof'] = 'Image de $a';
 $string['pleaseclose'] = 'Veuillez maintenant fermer cette fenêtre.';
