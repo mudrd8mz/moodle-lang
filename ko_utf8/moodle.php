@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080326) (2008030700)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1106,6 +1106,7 @@ $string['periodending'] = '기간 종료 ($a)';
 $string['personal'] = '개인적인';
 $string['personalprofile'] = '개인정보';
 $string['phone'] = '전화';
+$string['phone2'] = '휴대 전화';
 $string['phpinfo'] = 'PHP 정보';
 $string['pictureof'] = '$a 사진';
 $string['pleaseclose'] = '이제 이 창을 닫기 바랍니다.';
@@ -1287,7 +1288,7 @@ $string['showmodulecourse'] = '활동이 있는 강좌 목록보기';
 $string['showonly'] = '보기만';
 $string['showonlytopic'] = '$a 주제 보기';
 $string['showonlyweek'] = '$a 주 보기';
-$string['showperpage'] = '$a 를 페이지 별로 보기';
+$string['showperpage'] = '화면당 $a 개씩 보기';
 $string['showrecent'] = '최근 활동 보기';
 $string['showreports'] = '활동 보고서 보기';
 $string['showsettings'] = '설정 보기';
