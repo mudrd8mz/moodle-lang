@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101508.07)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -176,8 +176,8 @@ $string['blockdeleteconfirm'] = 'Je gaat het blok \'$a\' volledig verwijderen. H
 $string['blockdeletefiles'] = 'Alle gegevens die met het blok \'$a->block\' geassocieerd zijn, zijn verwijderd uit de databank. Om het verwijderen af te ronden (en om te verhinderen dat het blok zich opnieuw zou installeren), moet je de map $a->directory van je server verwijderen';
 $string['blocks'] = 'Blokken';
 $string['blocksaddedit'] = 'Blokken toevoegen/bewerken';
-$string['blockseditoff'] = 'Blokken bewerken inschakelen';
-$string['blocksediton'] = 'Blokken bewerken uitschakelen';
+$string['blockseditoff'] = 'Blokken bewerken uitschakelen';
+$string['blocksediton'] = 'Blokken bewerken inschakelen';
 $string['blocksetup'] = 'Installeren van de tabellen voor blokken';
 $string['blocksuccess'] = '$a tabellen zijn juist geïnstalleerd';
 $string['brief'] = 'Kort';
