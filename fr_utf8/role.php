@@ -177,7 +177,7 @@ $string['user:viewdetails'] = 'Voir les profils des utilisateurs';
 $string['user:viewhiddendetails'] = 'Voir les informations cachées des utilisateurs';
 $string['user:viewuseractivitiesreport'] = 'Voir les rapports d\'activités des utilisateurs';
 $string['user:viewusergrades'] = 'Voir les notes des utilisateurs'; // Legacy, to delete after 1.9 release
-$string['userhashiddenassignments'] = 'Cet utilisateur a un ou plusieurs rôles cachés dans ce cours';
+$string['userhashiddenassignments'] = 'Cet utilisateur a dans ce cours une ou plusieurs attributions de rôles cachés';
 $string['viewrole'] = 'Afficher les détails du rôle';
 $string['xuserswiththerole'] = 'Utilisateurs ayant le rôle «&nbsp;$a->role&nbsp;»';
 
