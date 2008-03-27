@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -175,6 +175,7 @@ $string['user:viewdetails'] = 'Gebruikersprofielen bekijken';
 $string['user:viewhiddendetails'] = 'Verborgen details van gebruikers bekijken';
 $string['user:viewuseractivitiesreport'] = 'Activiteitenrapporten van gebruikers bekijken';
 $string['user:viewusergrades'] = 'Cijfers van gebruikers bekijken';
+$string['userhashiddenassignments'] = 'Deze gebruiker heeft één of meer verborgen rollen in deze cursus';
 $string['viewrole'] = 'Roldetails bekijken';
 $string['xuserswiththerole'] = 'Gebruikers met de rol \"$a->role\" $a->number';
 $string['question:export'] = 'Vragen exporteren'; // ORPHANED

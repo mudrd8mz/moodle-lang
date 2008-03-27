@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (2007101506)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['addresource'] = 'Bron toevoegen';
@@ -48,6 +48,7 @@ $string['fetcherror'] = 'Er is een fout gevonden tijdens het ophalen van de webp
 $string['fetchservererror'] = 'Er is een fout gevonden bij de webserver terwijl je probeerde een webpagina op te halen (waarschijnlijk een programmafout).</p>';
 $string['filename'] = 'Bestandsnaam';
 $string['filtername'] = 'Automatisch linken van bronnen';
+$string['forcedownload'] = 'Download verplicht';
 $string['frameifpossible'] = 'Toon de bron in een frame, zodat de navigatie zichtbaar blijft';
 $string['framesize'] = 'Frame grootte';
 $string['fulltext'] = 'Volledige tekst';

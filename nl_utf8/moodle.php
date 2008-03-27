@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -1118,6 +1118,7 @@ $string['periodending'] = 'Periode eindigt ($a)';
 $string['personal'] = 'Persoonlijk';
 $string['personalprofile'] = 'Persoonlijk profiel';
 $string['phone'] = 'Telefoon';
+$string['phone2'] = 'Mobiele telefoon';
 $string['phpinfo'] = 'PHP-info';
 $string['pictureof'] = 'Foto van $a';
 $string['pleaseclose'] = 'Sluit dit venster.';
