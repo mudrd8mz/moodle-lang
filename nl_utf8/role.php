@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101506)
+      // role.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -78,6 +78,8 @@ $string['grade:unlock'] = 'Beoordelingen of items vrijgeven';
 $string['grade:view'] = 'Eigen cijfers bekijken';
 $string['grade:viewall'] = 'Cijfers van andere gebruikers bekijken';
 $string['grade:viewhidden'] = 'Verborgen cijfer zien';
+$string['inactiveformorethan'] = 'langer dan $a->timeperiod niet actief';
+$string['ingroup'] = 'in de groep \"$a->group\"';
 $string['inherit'] = 'Overerven';
 $string['legacy:admin'] = 'PRE 1.7 ROL: Beheerder';
 $string['legacy:coursecreator'] = 'PRE 1.7 ROL: Cursusaanmaker';

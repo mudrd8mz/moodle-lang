@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (2007101509)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -193,6 +193,8 @@ $string['configproxyuser'] = 'Gebruikersnaam nodig om door een proxy op het inte
 $string['configquarantinedir'] = 'Als je wil dat clam AV besmette bestanden naar een quarantainemap verplaatst, zet het pad dan hier. Het moet beschrijfbaar zijn voor de webserver. Als je dit leeg laat of als je een map opgeeft die niet bestaat of niet beschrijfbaar is, dan zullen besmette bestanden verwijderd worden. Gebruik geen schuine streep achteraan het pad.';
 $string['configrcache'] = 'Gebruik de cache om database records in te bewaren. Denk er aan het cache type ook in te stellen!';
 $string['configrcachettl'] = 'Time-to-live voor records in cache, in seconden. Gebruik een korte waarde (<15).';
+$string['configrecaptchaprivatekey'] = 'Variable, nodig om je Moodle server te laten communiceren met de recaptcha.net server. Je kunt deze voor jouw site bekomen via http://recaptcha.net';
+$string['configrecaptchapublickey'] = 'Variable, gebruikt om het reCAPTCHA-element te tonen in het inschrijvingsformulier voor e-mail zelfregistratie. Gegenereerd door http://recaptcha.net';
 $string['configrequestedstudentname'] = 'Woord voor leerling, gebruikt in aangevraagde cursussen';
 $string['configrequestedstudentsname'] = 'Woord voor leerlingen, gebruikt in aangevraagde cursussen';
 $string['configrequestedteachername'] = 'Woord voor leraar, gebruikt in aangevraagde cursussen';
@@ -475,6 +477,7 @@ $string['minpasswordlower'] = 'Kleine letters';
 $string['minpasswordnonalphanum'] = 'Niet-alphanumerieke tekens';
 $string['minpasswordupper'] = 'Hoofdletters';
 $string['misc'] = 'Andere';
+$string['missinglangparent'] = 'Ontbrekende parent language <em>$a->parent</em> voor <em>$a->lang</em>.';
 $string['mnetrestore_extusers'] = '<strong>Opmerking:</strong> Dit backupbestand bevat Moodle Netwerk accounts, die zullen teruggezet worden als deel van dit proces';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Opmerking:</strong> Dit backupbestand komt blijkbaar van een andere Moodle-installatie en bevat Moodle Netwerk accounts die mogelijk niet teruggezet kunnen worden. Deze operatie wordt niet ondersteund. Als je er zeker van bent dat dit bestand op deze Moodle installatie werd gemaakt of je kunt er zeker van zijn dat alle nodige Moodle Netwerk Hosts geconfigureerd zijn, dan kun je toch proberen deze backup terug te zetten.';
 $string['modsettings'] = 'Beheer activiteiten';
@@ -593,6 +596,8 @@ $string['questioncwqpfscheck'] = 'Eén of meer willekeurige vragen in een test z
 $string['questioncwqpfsok'] = 'Goed. Er zijn geen willekeurige vragen in je testen die opgemaakt zijn om vragen uit zowel gedeelde als niet gedeelde vragencategorieën te kiezen.';
 $string['rcache'] = 'Record cache';
 $string['rcachettl'] = 'Record cache TTL';
+$string['recaptchaprivatekey'] = 'ReCAPTCHA private sleutel';
+$string['recaptchapublickey'] = 'ReCAPTCHA publieke sleutel';
 $string['releasenoteslink'] = 'Bekijk de online <a target=\"_new\" href=\"$a\">Release Notes</a> voor informatie over deze versie van Moodle.';
 $string['remotelangnotavailable'] = 'Het is niet mogelijk om automatisch taalpakketten te installeren, omdat Moodle geen verbinding kan maken met Moodle.org. Download daarom de nodige zipbestanden uit onderstaande lijst, copieer ze naar je $a map en unzip ze daar.';
 $string['renameerrors'] = 'Fouten in hernoemen';

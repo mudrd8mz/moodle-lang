@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (2007101509)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -185,6 +185,8 @@ $string['overviewnumunread'] = 'Totaal $a ongelezen';
 $string['parent'] = 'Toon discussiestart';
 $string['parentofthispost'] = 'Discussiestart van dit bericht';
 $string['postadded'] = 'Je bericht is gepost.<p> Je hebt $a de tijd om dit bericht te wijzigen als je nog iets wilt veranderen.';
+$string['postaddedsuccess'] = 'Je bericht werd toegevoegd.';
+$string['postaddedtimeleft'] = 'Je hebt $a om het te bewerken als je nog wijzigingen wil aanbrengen.';
 $string['postincontext'] = 'Bekijk dit bericht in zijn context';
 $string['postmailinfo'] = 'Dit is een kopie van een bericht dat op de $a website is toegevoegd.
 

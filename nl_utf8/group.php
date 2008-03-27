@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (2007101506)
+      // group.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
 
 
 $string['addgroupstogrouping'] = 'Voeg groepen aan groepering toe.';
@@ -71,6 +71,7 @@ $string['groupscount'] = 'Groepen ($a)';
 $string['groupsgroupings'] = 'Groepen &amp; groeperingen';
 $string['groupsinselectedgrouping'] = 'Groepen in geselecteerde groepering';
 $string['groupsnone'] = 'Geen groepen';
+$string['groupsonly'] = 'Enkel groepen';
 $string['groupspreview'] = 'Voorbeeld groepen';
 $string['groupsseparate'] = 'Gescheiden groepen';
 $string['groupsvisible'] = 'Zichtbare groepen';
