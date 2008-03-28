@@ -6,25 +6,29 @@
 
 <ul>
   <li>Elke lijn van het bestand moet één record bevatten</li>
-  <li>Elke record is een datareeks, gescheiden door komma's</li>
+  <li>Elke record is een datareeks, gescheiden door komma's (of andere scheidingstekens)</li>
   <li>Het eerste record van het bestand is speciaal: het bevat de lijst met veldnamen. Dit bepaalt de opmaak van de rest van het bestand.
     <blockquote>
 
       <p><strong>Vereiste veldnamen:</strong> deze velden moeten in de eerste record staan en voor elke gebruiker bepaald zijn</p>
-      <p><code>firstname, lastname,</code></p>
+      <p><code>firstname, lastname,</code> wanneer ingevoegd wordt of <code>username</code> wanneer bestaande accounts aangepast worden</p>
 
-      <p><strong>Optionele veldnamen:</strong> deze zijn optioneel - als ze niet bijgevoegd worden, dan worden de standaardwaarden gebruikt</p>
-      <p><code>institution, department, city, country, lang, auth, timezone, idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, emailstop, deleted</code> </p>
+      <p><strong>Optionele veldnamen:</strong> deze zijn optioneel - als er voor een veld geen waarde is, wordt de standaardwaarde gebruikt</p>
 
-      <p><strong>Aanmeldingsvelden (optioneel): </strong> De course names zijn de &quot;verkorte namen&quot; van de cursussen - als ze opgegeven worden, dan zal de gebruiker aangemeld worden bij die cursussen.  Groepnamen moeten geassocieerd worden met de overeenstemmende cursus, bv. group1 bij course1, enz.
-</p>
+      <p><code>institution, department, city, country, lang, auth, ajax, timezone, idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, emailstop</code> </p>
+
+     <p><strong>Aangepaste veldnamen in het profiel:</strong> optioneel, xxxxx is de echte aangepaste profiel veldnaam (de unieke korte naam)</p>
+      <p><code>profile_field_xxxxx</code></p>
+      <p><strong>Speciale veldnamen:</strong> gebruikt voor het wijzigen van gebruikersnamen en voor het verwijderen van gebruikers, zie verder</p>
+      <p><code>deleted, oldusername</code></p>
+      <p><strong>Aanmeldingsveldnamen (optioneel):</strong> De cursusnamen zijn de &quot;verkorte namen&quot; van de cursussen. Indien opgegeven zal de gebruiker aangemeld worden in de cursus. &quot;Type&quot; betekent de rol die de gebruiker zal krijgen in die cursus na zijn aanmelding.
+         Waarde 1 is de standaard cursus rol, 2 is de standaard leraar rol en 3 is de standaard leraar zonder bewerken rol. Je kunt ook het role-veld gebruiken om een rol rechtstreeks te specifiëren. Gebruik ofwel de verkorte rolnaam of id (numerieke namen van rollen worden niet ondersteund. Gebruikers kunnen ook aan groepen toegewezen worden  (group1 in course1, group2 in course2, etc.). Ook groepen worden geïdentifieerd door namen (numerieke namen worden niet ondersteund).</p>
       <p> code>course1, group1, type1, role1, course2, group2, type2, role2, etc.</code></p>
     </blockquote>
     </li>
 
   <li>Komma's in de gegevens mag je als &amp;#44 noteren. Het script zal automatisch de komma juist terugplaatsen. </li>
   <li>Voor Boolse velden gebruik je 0 voor onwaar en 1 voor waar. </li>
- <li>Types worden gebruikt om aan Moodle door te geven of een gebruiker een leerling of een leraar is als er een overeenkomstige cursus bestaat (vb type2 komt overeen met course2). 1 = leerling, 2 = leraar met bewerkrechten, en 3 = leraar zonder bewerkrechten. Als type leeg gelaten wordt of als je geen cursus specifieerd, dan wordt de gebruiker standaard leerling. </li>
   <li>Opmerking: Als een gebruiker al in de databank geregistreerd is, dan zal dit script het userID teruggeven (de databankindex)en deze leerling als leerling aanmelden in de gespecifieerde cursus ZONDER de andere gespecifieerde data te wijzigen.</li>
 </ul>
   
