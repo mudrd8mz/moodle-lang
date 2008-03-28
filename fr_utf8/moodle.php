@@ -915,6 +915,7 @@ $string['moodledocslink'] = 'Documentation Moodle pour cette page';
 $string['moodleversion'] = 'Version de Moodle';
 $string['more'] = 'suite';
 $string['moreinformation'] = 'Plus d\'informations sur cette erreur';
+$string['moreprofileinfoneeded'] = 'Veuillez nous en dire plus sur vous-même';
 $string['mostrecently'] = 'le plus récemment';
 $string['move'] = 'Déplacer';
 $string['movecategoryto'] = 'Déplacer la catégorie vers&nbsp;:';
