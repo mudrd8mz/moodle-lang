@@ -931,6 +931,7 @@ $string['moodledocslink'] = 'このページのMoodle Docs';
 $string['moodleversion'] = 'Moodleバージョン';
 $string['more'] = 'もっと';
 $string['moreinformation'] = 'このエラーに関する詳細情報';
+$string['moreprofileinfoneeded'] = 'あなたのことをもっと教えてください。';
 $string['mostrecently'] = '直近の';
 $string['move'] = '移動';
 $string['movecategoryto'] = 'カテゴリの移動:';
