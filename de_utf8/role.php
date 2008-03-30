@@ -176,6 +176,7 @@ $string['user:viewdetails'] = 'Nutzerprofile sehen';
 $string['user:viewhiddendetails'] = 'Verborgene Nutzerdetails sehen';
 $string['user:viewuseractivitiesreport'] = 'Nutzerberichte sehen';
 $string['user:viewusergrades'] = 'Nutzerbewertungen sehen';
+$string['userhashiddenassignments'] = 'Dies/er Nutzer/in hat eine oder mehrere nicht sichtbare Rollen in diesem Kurs.';
 $string['viewrole'] = 'Rollendetails sehen';
 $string['xuserswiththerole'] = 'Nutzer/innen mit der Rolle \"$a->role\": $a->number';
 $string['question:export'] = 'Fragen exportieren'; // ORPHANED

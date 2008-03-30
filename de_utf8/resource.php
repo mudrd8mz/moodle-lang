@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // resource.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -48,6 +48,7 @@ $string['fetcherror'] = 'Ein Fehler ist beim Aufruf der Seite aufgetreten.';
 $string['fetchservererror'] = 'Ein Fehler ist beim Remoteserver aufgetreten (evtl. ein Programmfehler).';
 $string['filename'] = 'Dateiname';
 $string['filtername'] = 'Automatische Verlinkung zu den Namen der Arbeitsmaterialien';
+$string['forcedownload'] = 'Dateidownload erzwingen';
 $string['frameifpossible'] = 'Arbeitsmaterial in einem Frame anzeigen und die Seitennavigation sichtbar lassen';
 $string['framesize'] = 'Frame-Größe';
 $string['fulltext'] = 'Text-/Webseite';
