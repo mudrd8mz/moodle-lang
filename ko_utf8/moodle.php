@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080326) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080330) (2008030700)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -916,6 +916,7 @@ $string['moodledocslink'] = '이 페이지를 위한 무들 문서';
 $string['moodleversion'] = '무들 버전';
 $string['more'] = '더 이상';
 $string['moreinformation'] = '이 오류에 대한 추가 정보';
+$string['moreprofileinfoneeded'] = '추가 신상 명세';
 $string['mostrecently'] = '가장 최근';
 $string['move'] = '옮기기';
 $string['movecategoryto'] = '범주를 다음으로 옮김 :';

@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080325) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080330) (2008030700)
 
 
 $string['addrole'] = '역할 추가';
 $string['allow'] = '허용';
 $string['allowassign'] = '역할 부여 허용';
-$string['allowoverride'] = '역할 위임 허용';
+$string['allowoverride'] = '권한 위임 허용';
 $string['assignglobalroles'] = '총괄 역할';
 $string['assignroles'] = '역할 부여';
 $string['assignrolesin'] = '$a 에서 역할 부여';
