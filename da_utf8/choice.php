@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // choice.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['addmorechoices'] = 'Tilføj flere valgmuligheder';
@@ -20,7 +20,7 @@ $string['displayvertical'] = 'Vis lodret';
 $string['expired'] = 'Beklager, denne aktivitet er lukket d. $a og er ikke længere tilgængelig';
 $string['fillinatleastoneoption'] = 'Du skal mindst give 2 svarmuligheder';
 $string['full'] = '(Fuld)';
-$string['havetologin'] = 'Du bliver nødt til at logge på før du kan afgive dit valg.';
+$string['havetologin'] = 'Du bliver nødt til at logge på før du kan afgive din stemme.';
 $string['limit'] = 'Begrænset';
 $string['limitanswers'] = 'Begræns antallet af svar';
 $string['modulename'] = 'Afstemning';
@@ -32,9 +32,9 @@ $string['notanswered'] = 'Ikke besvaret endnu';
 $string['notopenyet'] = 'Denne aktivitet er tilgængelig fra $a';
 $string['privacy'] = 'Vis ikke resultater';
 $string['publish'] = 'Vis resultater';
-$string['publishafteranswer'] = 'Vis resultatet til eleven efter aflevering.';
-$string['publishafterclose'] = 'Vis resultatet til eleverne efter at spørgsmålet er lukket.';
-$string['publishalways'] = 'Vis altid resultaterne til eleven';
+$string['publishafteranswer'] = 'Vis resultatet til de studerende efter aflevering.';
+$string['publishafterclose'] = 'Vis resultatet til de studerende efter at spørgsmålet er lukket.';
+$string['publishalways'] = 'Vis altid resultaterne til de studerende';
 $string['publishanonymous'] = 'Vis anonyme resultater uden at angive de studerendes navne';
 $string['publishnames'] = 'Vis alle resultater, med navne og spørgsmål';
 $string['publishnot'] = 'Vis ikke resultaterne til de studerende';
