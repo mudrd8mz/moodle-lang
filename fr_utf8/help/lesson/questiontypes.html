@@ -37,7 +37,7 @@
 
 <li><b>Le système d'analyse simple</b>
 
-<p>Dans ce système d'analyse (par défaut), le processus de comparaison ne tient pas compte de la casse (minuscules = majuscules). L'astérisque (*) peut être utilisé dans les réponses attendues comme caractère joker ; il remplace un nombre quelconque de caractères, y compris zéro caractères. Par exemple, la réponse attendue « long* » correspondra aux réponses de l'étudiant suivantes : long, longer, longueur, longuement, longitude, etc. Si l'une des réponses attendues comporte uniquement un astérisque, toutes les réponses données par l'étudiant seront acceptées. On utilisera donc l'astérisque seule comme toute dernière réponse attendue, en général afin de détecter en bloc toutes les réponses incorrectes lorsque l'enseignant veut fournir son propre message de feedback personnalisé au lieu du message de feedback par défaut fourni par Moodle. Notez que ce système d'analyse de réponse traite les réponses attendues dans l'ordre où elles ont été entrées par l'enseignant et que le processus s'arrête dès qu'une réponse attendue correspond à la réponse effectivement saisie par l'étudiant.</p>
+<p>Dans ce système d'analyse (par défaut), le processus de comparaison ne tient pas compte de la casse (minuscules = majuscules). L'astérisque (*) peut être utilisé dans les réponses attendues comme caractère joker ; il remplace un nombre quelconque de caractères, y compris zéro caractères. Par exemple, la réponse attendue « long* » correspondra aux réponses de l'étudiant suivantes : long, longer, longueur, longuement, longitude, etc. Si l'une des réponses attendues comporte uniquement un astérisque, toutes les réponses données par l'étudiant seront acceptées. On utilisera donc l'astérisque seule comme toute dernière réponse attendue, en général afin de détecter en bloc toutes les réponses incorrectes lorsque l'enseignant veut fournir son propre message de feedback personnalisé au lieu du message de feedback par défaut fourni par Moodle. Remarquez que ce système d'analyse de réponse traite les réponses attendues dans l'ordre où elles ont été entrées par l'enseignant et que le processus s'arrête dès qu'une réponse attendue correspond à la réponse effectivement saisie par l'étudiant.</p>
 
 <p>Si une réponse attendue comporte effectivement un astérisque, il faudra le saisir en le précédant d'une barre oblique inverse, comme ceci : « \* ».</p>
 
@@ -69,7 +69,7 @@
 
 </ul>
 
-<p>Notez que par défaut une expression régulière est sensible à la casse (minuscules ≠ majuscules). Pour accepter aussi bien les majuscules que les minuscules (pour l'ensemble de la réponse attendue), il faut ajouter le paramètre <i>/i</i> (ignore case) tout à la fin de l'expression.</p>
+<p>Remarquez que par défaut une expression régulière est sensible à la casse (minuscules ≠ majuscules). Pour accepter aussi bien les majuscules que les minuscules (pour l'ensemble de la réponse attendue), il faut ajouter le paramètre <i>/i</i> (ignore case) tout à la fin de l'expression.</p>
  
 <p><b>Exemple 2.</b> Question : « Comment s'appelle l'ustensile utilisé pour ouvrir une serrure ? ». Réponse attendue : "(|c'est )une cl(e|é)f?". On obtiendra une correspondance avec ces réponses de l'étudiant :</p>
 
@@ -85,7 +85,7 @@
 
 </ul>
 
-<p><b>Notes.</b> Le début de cette expression régulière, « (|c'est ) » correspondra soit à « c'est » soit à rien du tout. Un peu plus loin, le point d'interrogation signifie en syntaxe des expressions régulières : « le caractère qui précède, employé une ou zéro fois ». Ainsi seront acceptées pour ce mot aussi bien l'orthographe « clé » que « clef ».</p>
+<p><b>Remarques.</b> Le début de cette expression régulière, « (|c'est ) » correspondra soit à « c'est » soit à rien du tout. Un peu plus loin, le point d'interrogation signifie en syntaxe des expressions régulières : « le caractère qui précède, employé une ou zéro fois ». Ainsi seront acceptées pour ce mot aussi bien l'orthographe « clé » que « clef ».</p>
 
 <p><b>Exemple 3.</b> Question : « Donnez (en anglais) le nom d'un animal de 3 lettres dont les deux dernières lettres sont <b>A</b> et <b>T</b> ». Réponse attendue « [bcr]at », qui correspondra aux réponses : <i>bat</i>, <i>cat</i> ou <i>rat</i>.</p>
 
@@ -111,7 +111,7 @@
 
 <p><b>Remarque.</b> Ici, le . (point) signifie en langage des expressions régulières, « n'importe quel caractère », et l'astérisque signifie « un nombre quelconque de fois ». Donc, l'expression régulière ci-dessus signifie : rechercher si dans la réponse de l'étudiant on trouve oui ou non la chaîne de caractères <b>bleu</b>, précédée et suivie de n'importe quoi (y compris rien).</p>
 
-<p><b>Attention !</b> Veuillez noter que la signification de l'astérisque n'est pas la même selon que vous utilisez le système d'analyse simple ou le système d'analyse avec expressions régulières.    </p>
+<p><b>Attention !</b> Veuillez remarquer que la signification de l'astérisque n'est pas la même selon que vous utilisez le système d'analyse simple ou le système d'analyse avec expressions régulières.    </p>
 
 <p><b>Exemple 5.</b> Question : « Donnez (en anglais) le nom d'un animal en 3 lettres, et qui se termine par les lettres A et T. Réponse attendue : « --[b|c|r] ». Feedback : « Votre réponse doit commencer par l'une des lettres suivantes : b, c ou r ».</p>
 
