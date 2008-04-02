@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080320) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080402) (2008030700)
 
 
 $string['abouttobeinstalled'] = 'ස්ථාපනය සඳහා සූදානම්';
@@ -899,6 +899,7 @@ $string['moodledocslink'] = 'මෙම පිටුව සදහා මූඩ්
 $string['moodleversion'] = 'මූඩල් අනුවාදය';
 $string['more'] = 'තවත්';
 $string['moreinformation'] = 'මෙම දෝෂය පිළිබද තවත් විස්තර';
+$string['moreprofileinfoneeded'] = 'කරුණාකර ඔබ ගැන වැඩි විස්තර අපට පවසන්න';
 $string['mostrecently'] = 'ඉතාම මෑතකදී';
 $string['move'] = 'ගෙන යන්න';
 $string['movecategoryto'] = 'ප්‍රවර්ගයට ගෙන යන්න';
@@ -1081,6 +1082,7 @@ $string['periodending'] = '($a) කාලසීමා අවසානය';
 $string['personal'] = 'පෞද්ගලික';
 $string['personalprofile'] = 'පුද්ගලික ප්‍රෝෆයිලය';
 $string['phone'] = 'දුරකථනය';
+$string['phone2'] = 'ජංගම දුරකථන';
 $string['phpinfo'] = 'PHP තොරතුරු';
 $string['pictureof'] = '$aගේ පින්තුරය';
 $string['pleaseclose'] = 'කරුණාකර දැන් මෙම කවුළුව වසන්න.';
