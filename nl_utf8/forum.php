@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -113,8 +113,8 @@ $string['forumname'] = 'Naam van het forum';
 $string['forumposts'] = 'Forumberichten';
 $string['forums'] = 'Forums';
 $string['forumsubjecthidden'] = 'Onderwerp (verborgen)';
-$string['forumtracked'] = 'Opvolgen ongelezen post ingeschakeld';
-$string['forumtrackednot'] = 'Opvolgen ongelezen post uitgeschakeld';
+$string['forumtracked'] = 'Volgen ongelezen post ingeschakeld';
+$string['forumtrackednot'] = 'Volgen ongelezen post uitgeschakeld';
 $string['forumtype'] = 'Soort forum';
 $string['generalforum'] = 'Standaardforum voor algemeen gebruik';
 $string['generalforums'] = 'Algemene forums';
@@ -155,7 +155,7 @@ $string['nodiscussions'] = 'Er zijn nog geen discussies in dit forum';
 $string['nodiscussionsstartedby'] = 'Deze gebruiker heeft nog geen discussies gestart';
 $string['noguestpost'] = 'Sorry, gasten mogen geen berichten posten';
 $string['noguestsubscribe'] = 'Sorry, gasten mogen zich niet inschrijven om forumberichten via mail te kunnen ontvangen.';
-$string['noguesttracking'] = 'Sorry, gasten kunnen de instellingen voor het opvolgen van forumberichten niet wijzigen.';
+$string['noguesttracking'] = 'Sorry, gasten kunnen de instellingen voor het volgen van forumberichten niet wijzigen.';
 $string['nomorepostscontaining'] = 'Er zijn geen berichten met \'$a\' meer gevonden';
 $string['nonews'] = 'Er zijn nog geen nieuwsberichten';
 $string['nopostforum'] = 'Sorry, je mag geen berichten posten in dit forum';
@@ -165,7 +165,7 @@ $string['noquestions'] = 'Er zijn nog geen vragen in dit forum';
 $string['nosubscribers'] = 'Niemand krijgt e-mail van dit forum';
 $string['nothingnew'] = 'Niets nieuw voor $a';
 $string['notingroup'] = 'Sorry, je moet bij een groep horen om dit forum te kunnen zien.';
-$string['notrackforum'] = 'Schakel opvolgen van ongelezen berichten uit';
+$string['notrackforum'] = 'Schakel volgen van ongelezen berichten uit';
 $string['noviewdiscussionspermission'] = 'Je mag de discussies in dit forum niet zien';
 $string['nowallsubscribed'] = 'Je krijgt mail van alle forums in $a';
 $string['nowallunsubscribed'] = 'Je krijgt van geen enkel forum in $a mail';
@@ -267,11 +267,11 @@ $string['thisforumisthrottled'] = 'Dit forum heeft een limiet op het aantal beri
 $string['timedposts'] = 'Getimed bericht';
 $string['timestartenderror'] = 'De datum van het einde kan niet voor de startdatum zijn.';
 $string['trackforum'] = 'Volg ongelezen berichten op';
-$string['tracking'] = 'Opvolgen';
+$string['tracking'] = 'Volgen';
 $string['trackingoff'] = 'Uit';
 $string['trackingon'] = 'Aan';
 $string['trackingoptional'] = 'Optioneel';
-$string['trackingtype'] = 'Lezen van dit forum opvolgen?';
+$string['trackingtype'] = 'Lezen van dit forum volgen?';
 $string['unread'] = 'Niet gelezen';
 $string['unreadposts'] = 'Niet gelezen berichten';
 $string['unreadpostsnumber'] = '$a ongelezen berichten';
