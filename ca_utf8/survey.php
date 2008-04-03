@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.7 beta + (2006101001)
+      // survey.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['actual'] = 'Actual';
@@ -149,11 +149,14 @@ No existeixen respostes \'correctes\' o \'equivocades\', sòls ens interessa la 
 Les teves respostes, pensades cuidadosament, ens ajudaran a millorar la manera de presentar aquesta unitat en el futur.
 Moltes gràcies per la teva col·laboració.';
 $string['collespname'] = 'COLLES (preferit)';
+$string['customintro'] = 'Introducció personalitzada';
+$string['deleteallanswers'] = 'Suprimeix totes les respostes';
+$string['deleteanalysis'] = 'Suprimeix';
 $string['done'] = 'Fet';
-$string['download'] = 'Descarregar';
-$string['downloadexcel'] = 'Descarregar com a full de càlcul';
-$string['downloadinfo'] = 'Pots descarregar la informació completa en un format que pugui ser analitzat per un programa de fulls de càlcul';
-$string['downloadtext'] = 'Descarregar com a text';
+$string['download'] = 'Baixa';
+$string['downloadexcel'] = 'Baixa com a full de càlcul Excel';
+$string['downloadinfo'] = 'Podeu baixar les dades crues d\'aquesta enquesta en un format que pugui analitzar-se amb un programa de fulls de càlcul, SPSS o un altre.';
+$string['downloadtext'] = 'Baixa com a text';
 $string['editingasurvey'] = 'S\'està editant la informació';
 $string['guestsnotallowed'] = 'Els visitants no poden participar en les enquestes';
 $string['helpsurveys'] = 'Ajuda sobre els diferents tipus d’informació';
@@ -178,6 +181,7 @@ $string['question'] = 'Pregunta';
 $string['questions'] = 'Preguntes';
 $string['questionsnotanswered'] = 'Algunes de les preguntes amb opció múltiple no han estat contestades.';
 $string['report'] = 'Informe de l’enquesta';
+$string['responses'] = 'Respostes';
 $string['savednotes'] = 'S’han desat les vostres notes';
 $string['scaleagree5'] = 'en total desacord, una mica en desacord, ni d’acord ni en desacord, una mica d’acord, totalment d’acord';
 $string['scales'] = 'Escales';
@@ -189,6 +193,7 @@ $string['survey:download'] = 'Baixar respostes';
 $string['survey:participate'] = 'Respondre una enquesta';
 $string['survey:readresponses'] = 'Veure respostes';
 $string['surveycompleted'] = 'Heu completat l’enquesta. La gràfica següent resumeix els teus resultats comparats amb la mitjana de la classe.';
+$string['surveygraph'] = 'Gràfica de l\'enquesta';
 $string['surveyname'] = 'Nom de l’enquesta';
 $string['surveysaved'] = 'S\'ha desat l\'enquesta';
 $string['surveytype'] = 'Tipus d’enquesta';
