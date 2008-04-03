@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // data.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['action'] = 'Handling';
@@ -129,7 +129,7 @@ $string['list'] = 'Vis liste';
 $string['listtemplate'] = 'Liste';
 $string['longitude'] = 'Længdegrad';
 $string['mappingwarning'] = 'Alle gamle felter der ikke er mappet til et nyt felt til gå tabt og alle data i det felt vil blive fjernet.';
-$string['maxentries'] = 'Maksimum indlæg';
+$string['maxentries'] = 'Maksimalt antal poster pr. deltager';
 $string['maxsize'] = 'Maksimum størrelse';
 $string['menu'] = 'Menu';
 $string['menuchoose'] = 'Vælg...';
@@ -191,7 +191,7 @@ $string['recorddeleted'] = 'Posten er slettet';
 $string['recordsnotsaved'] = 'Ingen poster blev gemt. Kontroller venligst formatet på den uploadede fil.';
 $string['recordssaved'] = 'poster gemt';
 $string['requireapproval'] = 'Kræver godkendelse?';
-$string['requiredentries'] = 'Nødvendige poster';
+$string['requiredentries'] = 'Obligatorisk antal poster pr. deltager';
 $string['requiredentriestoview'] = 'Krævede poster før visning';
 $string['resetsettings'] = 'Nulstil felter';
 $string['resettemplate'] = 'Nulstil skabelon';

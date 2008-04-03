@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // journal.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['alwaysopen'] = 'Altid åben';
@@ -7,7 +7,7 @@ $string['blankentry'] = 'Tomt indlæg';
 $string['daysavailable'] = 'Dage til rådighed';
 $string['editingended'] = 'Redigeringsperioden er slut';
 $string['editingends'] = 'Redigeringsperioden slutter';
-$string['entries'] = 'Adgange';
+$string['entries'] = 'Indlæg';
 $string['feedbackupdated'] = 'Feedback opdateret for $a indlæg';
 $string['journalmail'] = '$a->teacher har skrevet en tilbagemelding til din dagbog \'$a->journal\' Du kan se det tilføjet i din dagbog: $a->url';
 $string['journalmailhtml'] = '$a->teacher har skrevet en tilbagemelding til dit dagbogindlæg \'<i>$a->journal</i>\'<br /><br /> Du kan se det tilføjet til din <a href=\"$a->url\">dagbog</a>.';
@@ -26,8 +26,8 @@ $string['notopenuntil'] = 'Denne dagbog åbner først';
 $string['notstarted'] = 'Du er ikke begyndt på denne dagbog endnu';
 $string['overallrating'] = 'Endelig bedømmelse';
 $string['rate'] = 'Bedøm';
-$string['saveallfeedback'] = 'Gem alle mine feedback';
-$string['startoredit'] = 'Start eller rediger i min dagbog';
+$string['saveallfeedback'] = 'Gem';
+$string['startoredit'] = 'Start eller rediger min dagbog';
 $string['viewallentries'] = 'Se $a indlæg i dagbøger';
 
 ?>

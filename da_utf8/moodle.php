@@ -110,13 +110,10 @@ $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,Æ,Ø
 $string['alphanumerical'] = 'Kan kun indeholde bogstaver eller tal';
 $string['alreadyconfirmed'] = 'Registrering er allerede bekræftet';
 $string['always'] = 'Altid';
-$string['and'] = '{
-  background-color: #f8f8f8;
-$a->one and $a->two
-$a->one og $a->two';
+$string['and'] = '$a->one og $a->two';
 $string['answer'] = 'Svar';
 $string['approve'] = 'Godkend';
-$string['areyousuretorestorethis'] = 'Ønsker du at fortsætte ?';
+$string['areyousuretorestorethis'] = 'Ønsker du at fortsætte?';
 $string['areyousuretorestorethisinfo'] = 'Senere i denne proces vil du have mulighed for at tilføje denne backup til et eksisterende kursus, eller oprette et helt nyt kursus.';
 $string['asc'] = 'Stigende';
 $string['assessment'] = 'Opgave';
@@ -390,7 +387,7 @@ $string['directorypaths'] = 'Biblioteks-sti';
 $string['disable'] = 'Deaktiver';
 $string['displayingfirst'] = 'Kun de første $a->count $a->things vises';
 $string['displayingrecords'] = 'Viser $a registreringer';
-$string['displayingusers'] = 'Viser brugere $a->start til $a->end';
+$string['displayingusers'] = 'Viser brugere $a->start til $a->slut';
 $string['displayonpage'] = 'Vis på side';
 $string['documentation'] = 'Moodle dokumentation';
 $string['donotask'] = 'Spørg ikke';
@@ -817,7 +814,7 @@ $string['manageroles'] = 'Roller og rettigheder';
 $string['markedthistopic'] = 'Dette emne er markeret som det nuværende emne';
 $string['markthistopic'] = 'Marker dette emne som det igangværende';
 $string['maximumchars'] = 'Maksimum af $a karakterer';
-$string['maximumgrade'] = 'Højeste karakter';
+$string['maximumgrade'] = 'Højeste karakter der kan tildeles';
 $string['maximumshort'] = 'Maks';
 $string['maximumupload'] = 'Maksimal filstørrelse der kan uploades';
 $string['maxsize'] = 'Max størrelse: $a';

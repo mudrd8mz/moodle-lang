@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // qtype_multichoice.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['addingmultichoice'] = 'Tilføj et multiple choice spørgsmål';
@@ -16,6 +16,7 @@ $string['choices'] = 'Mulige valg';
 $string['clozeaid'] = 'Skriv manglende ord';
 $string['correctfeedback'] = 'Respons på rigtigt svar';
 $string['editingmultichoice'] = 'Redigere et Multiple Choice spørgsmål';
+$string['errfractionsaddwrong'] = 'De positive point du har valgt giver ikke 100%%<br />I stedet giver de $a%%';
 $string['feedback'] = 'Tilbagemelding';
 $string['fillouttwochoices'] = 'Der skal minimum være to svarmuligheder. Svar der er tomme vil ikke blive brugt.';
 $string['fractionsaddwrong'] = 'Den samlede procentsum er ikke 100%%<br/>Den samlede procentsum er $a%%<br/>Ønsker du at vende tilbage ot rette det?';

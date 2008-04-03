@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // glossary.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['addcomment'] = 'Tilføj kommentar';
@@ -104,7 +104,7 @@ $string['exportentries'] = 'Eksporter opslagsord';
 $string['exportfile'] = 'Eksporter opslagsord til en fil';
 $string['exportglossary'] = 'Eksporter opslagsværk';
 $string['exporttomainglossary'] = 'Eksporter til hovedopslagsværk';
-$string['filetoimport'] = 'Fil der skal importeres';
+$string['filetoimport'] = 'Importfil';
 $string['fillfields'] = 'Opslagsord og definition skal udfyldes!';
 $string['filtername'] = 'Autolink opslagsværk';
 $string['fullmatch'] = 'Autolink kun til hele ord.';

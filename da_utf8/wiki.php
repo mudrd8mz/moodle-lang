@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // wiki.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['action'] = '-- Handling --';
@@ -158,7 +158,7 @@ $string['smfor'] = 'Sitemap for';
 $string['status'] = 'Status';
 $string['strippagecheck'] = 'Er du sikker på at du vil rense gamle versioner for disse sider:';
 $string['strippages'] = 'Rens sider';
-$string['studentadminoptions'] = 'Student admin muligheder';
+$string['studentadminoptions'] = 'Administrative muligheder for studerende';
 $string['submit'] = 'Gem';
 $string['tabattachments'] = 'Bilag';
 $string['tabedit'] = 'Ret';
