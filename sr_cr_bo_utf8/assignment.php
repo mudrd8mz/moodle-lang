@@ -4,12 +4,12 @@
 
 $string['allowresubmit'] = 'Дозвољено поновно потврђивање';
 $string['assignmentdetails'] = 'Детаљи задатка';
-$string['assignmentmail'] = '$a->предавач је послао повратне информације на слање Вашег материјала \'$a->assignment\'
+$string['assignmentmail'] = '$a->teacher је послао повратне информације на слање Вашег материјала \'$a->assignment\'
 
 Погледајте на:
 
     $a->url';
-$string['assignmentmailhtml'] = '$a->предавач је послао повратне информације на слање Вашег материјала \'<i>$a->assignment</i>\'<br /><br />
+$string['assignmentmailhtml'] = '$a->teacher је послао повратне информације на слање Вашег материјала \'<i>$a->assignment</i>\'<br /><br />
 Погледајте на <a href=\"$a->url\">приложени материјал</a>.';
 $string['assignmentname'] = 'Назив задатка';
 $string['assignmenttype'] = 'Врста задатка';

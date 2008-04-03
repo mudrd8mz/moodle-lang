@@ -1417,9 +1417,9 @@ $string['updatingain'] = 'Actualizando $a->what in $a->in';
 $string['upload'] = 'Cargar';
 $string['uploadafile'] = 'Cargar ficheiros';
 $string['uploadedfile'] = 'Ficheiro cargado con éxito';
-$string['uploadedfileto'] = 'Cargouse o ficheiro $a-> ao directorio $a->';
+$string['uploadedfileto'] = 'Cargouse o ficheiro $a->file ao directorio $a->directory';
 $string['uploadedfiletoobig'] = 'Desculpe, mais ese ficheiro é demasiado grande (o límite é $a bytes)';
-$string['uploadfailednotrecovering'] = 'O envío fallou porque houbo un problema cun dos ficheiros: $a->nome.<br /> Aquí pode ver un esquema do problema:<br />$a->problema<br />Non recuperado.';
+$string['uploadfailednotrecovering'] = 'O envío fallou porque houbo un problema cun dos ficheiros: $a->name.<br /> Aquí pode ver un esquema do problema:<br />$a->problem<br />Non recuperado.';
 $string['uploadfilelog'] = 'Cargar rexistro para un ficheiro $a';
 $string['uploadformlimit'] = 'O ficheiro cargado excede o tamaño máximo definido no formulario';
 $string['uploadlabel'] = 'Título:';
@@ -1428,8 +1428,8 @@ $string['uploadnotallowed'] = 'Non se permite o envío de ficheiros';
 $string['uploadoldfilesdeleted'] = 'Os ficheiros antigos da súa área de envío foron eliminados';
 $string['uploadpartialfile'] = 'O ficheiro só foi cargado parcialmente';
 $string['uploadproblem'] = 'Produciuse un problema mentres cargaba o ficheiro \'$a\'. (Talvez fose demasiado grande.)';
-$string['uploadrenamedchars'] = 'Mudouse o nome antigo do ficheiro $a-> por $a-> por causa dos caracteres que non eran válidos.';
-$string['uploadrenamedcollision'] = 'Mudouse o nome antigo do ficheiro $a-> por $a-> por causa dun conflito co nome do ficheiro.';
+$string['uploadrenamedchars'] = 'Mudouse o nome antigo do ficheiro $a->oldname por $a->newname por causa dos caracteres que non eran válidos.';
+$string['uploadrenamedcollision'] = 'Mudouse o nome antigo do ficheiro $a->oldname por $a->newname por causa dun conflito co nome do ficheiro.';
 $string['uploadserverlimit'] = 'O ficheiro cargado excede o tamaño máximo definido polo servidor';
 $string['uploadthisfile'] = 'Cargar este ficheiro';
 $string['uploadusers'] = 'Cargar usuarios';
@@ -1461,24 +1461,24 @@ $string['version'] = 'Versión';
 $string['view'] = 'Ver';
 $string['views'] = 'Visualizacións';
 $string['viewsolution'] = 'ver solución';
-$string['virusfound'] = 'Atención administrador! Clam AV encontrou un virus nun ficheiro cargado polo usuario $a-> para o curso $a->. Aquí pode ver a mensaxe de clamscan:';
-$string['virusfoundlater'] = 'Un ficheiro que cargou o día $a-> co nome $a-> para o curso $a-> contén un virus.  Aquí pode ver un resumo do que aconteceu co seu ficheiro:
+$string['virusfound'] = 'Atención administrador! Clam AV encontrou un virus nun ficheiro cargado polo usuario $a->user para o curso $a->course. Aquí pode ver a mensaxe de clamscan:';
+$string['virusfoundlater'] = 'Un ficheiro que cargou o día $a->date co nome $a->filename para o curso $a->course contén un virus.  Aquí pode ver un resumo do que aconteceu co seu ficheiro:
 
-Acción $a->
+Acción $a->action
 
 Se era un traballo enviado, talvez desexe volver envialo para que o seu titor poida velo.';
-$string['virusfoundlateradmin'] = 'Atención administrador! Un ficheiro cargado o día $a-> co nome $a-> para o curso $a-> polo usuario $a-> contén un virus. Aquí pode ver un resumo do que aconteceu co ficheiro:
+$string['virusfoundlateradmin'] = 'Atención administrador! Un ficheiro cargado o día $a->date co nome $a->filename para o curso $a->course polo usuario $a->action contén un virus. Aquí pode ver un resumo do que aconteceu co ficheiro:
 
-Acción $a->
+Acción $a->action
 
 O usuario tamén foi informado.';
-$string['virusfoundlateradminnolog'] = 'Atención administrador! Un ficheiro cargado co nome $a-> contén un virus. Moodle non conseguiu devolver este ficheiro ao usuario que o cargou.
+$string['virusfoundlateradminnolog'] = 'Atención administrador! Un ficheiro cargado co nome $a->filename contén un virus. Moodle non conseguiu devolver este ficheiro ao usuario que o cargou.
 
 Aquí pode ver un resumo do que aconteceu co ficheiro:
 
-Acción $a->';
+Acción $a->action';
 $string['virusfoundsubject'] = '$a: Encontrouse un virus!';
-$string['virusfounduser'] = 'O ficheiro que desexaba cargar, co nome $a->, foi escaneado por un antivirus que o analizou como infectado! O envío do seu ficheiro NON foi realizado con éxito.';
+$string['virusfounduser'] = 'O ficheiro que desexaba cargar, co nome $a->filename, foi escaneado por un antivirus que o analizou como infectado! O envío do seu ficheiro NON foi realizado con éxito.';
 $string['virusplaceholder'] = 'Este ficheiro cargado contiña un virus e foi transferido ou eliminado, informando o usuario.';
 $string['visible'] = 'Visible';
 $string['visibletostudents'] = 'Visible para $a';
@@ -1489,11 +1489,11 @@ $string['weekhide'] = 'Ocultar esta semana a $a';
 $string['weeklyoutline'] = 'Esquema semanal';
 $string['weekshow'] = 'Mostrar esta semana a $a';
 $string['welcometocourse'] = 'Benvido/a a $a';
-$string['welcometocoursetext'] = 'Benvido/a ao curso $a->!
+$string['welcometocoursetext'] = 'Benvido/a ao curso $a->coursename!
 
 Se aínda non o fixo, pode editar a súa páxina de perfil no curso para sabermos máis sobre vostede:
 
-  Url do perfil $a->';
+  Url do perfil $a->profileurl';
 $string['whattocallzip'] = 'Como desexa chamarlles aos ficheiros comprimidos?';
 $string['withchosenfiles'] = 'Cos ficheiros escollidos';
 $string['withoutuserdata'] = 'sen datos de usuario';

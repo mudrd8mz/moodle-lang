@@ -3,4 +3,3 @@
 $string['filtername'] = "Algebra Notation";
 
 ?>
-

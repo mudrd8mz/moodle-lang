@@ -456,7 +456,7 @@ $string['emailmustbereal'] = '注意: 的E-mail地址必须是真实的';
 $string['emailnotallowed'] = '不允许使用如下域名的电子邮件: ({$a})';
 $string['emailnotfound'] = '数据库中未找到此email地址';
 $string['emailonlyallowed'] = '此电子邮件不在允许的域名中: ({$a})';
-$string['emailpasswordchangeinfo'] = '{$a->displayname}：您好，
+$string['emailpasswordchangeinfo'] = '{$a->firstname}：您好，
 
 有人为您在“{$a->sitename}”的账号申请一个新的密码。
 
@@ -467,7 +467,7 @@ $string['emailpasswordchangeinfo'] = '{$a->displayname}：您好，
 在大多数邮件程序中，这个链接都会显示为蓝色，您只要直接点击就可以了。如果您点击后无效，只要将其复制并粘贴到浏览器的地址栏中即可。
 
 如果您需要帮助，请联系站点管理员{$a->admin}。';
-$string['emailpasswordchangeinfofail'] = '{$a->displayname}，您好：
+$string['emailpasswordchangeinfofail'] = '{$a->firstname}，您好：
 
 有人申请为您在“{$a->sitename}”上的账号重新设置密码。
 

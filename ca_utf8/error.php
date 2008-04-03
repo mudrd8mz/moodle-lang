@@ -84,7 +84,7 @@ $string['onlyeditingteachers'] = 'Això només pot fer-ho el professorat que tin
 $string['onlyeditown'] = 'Només podeu editar la vostra pròpia informació';
 $string['pagenotexist'] = 'S\'ha esdevingut un error poc comú (heu intentat anar a una pàgina que no existeix).';
 $string['pleasereport'] = 'Si teniu temps, us agrairem que ens informeu de què estàveu fent quan s\'ha esdevingut aquest error:';
-$string['pluginrequirementsnotmet'] = 'El connector \"$a->pluginname\" ($a->pluginversion) no s\'ha pogut instal·lar. Necessita una versió més nova de Moodle (esteu utilitzant la $a->currentmoodle i necessiteu la $a-> requiremoodle).';
+$string['pluginrequirementsnotmet'] = 'El connector \"$a->pluginname\" ($a->pluginversion) no s\'ha pogut instal·lar. Necessita una versió més nova de Moodle (esteu utilitzant la $a->currentmoodle i necessiteu la $a->requiremoodle).';
 $string['processingstops'] = 'El processament acaba aquí. Els registres que resten s\'ignoraran.';
 $string['remotedownloaderror'] = 'No s\'ha pogut baixar el component al vostre servidor. Verifiqueu els paràmetres de servidor intermediari. Es recomana l\'extensió cURL.<br /><br />Haureu de baixar manualment el fitxer <a href=\"$a->url\">$a->url</a>, copiar-lo a la ubicació \"$a->dest\" del vostre servidor i descomprimir-lo allí.';
 $string['remotedownloadnotallowed'] = 'El vostre servidor no permet baixar components ((allow_url_fopen inhabilitat).<br /><br />Baixeu manualment el fitxer <a href=\"$a->url\">$a->url</a>, copieu en la ubicació \"$a->dest\" del vostre servidor i descomprimiu-lo allí.';

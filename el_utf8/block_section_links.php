@@ -6,4 +6,3 @@ $string['jumptocurrenttopic'] = 'Τρέχουσα ενότητα';
 $string['jumptocurrentweek'] = 'Τρέχουσα εβδομάδα';
 $string['weeks'] = 'Εβδομάδες';
 ?>
-

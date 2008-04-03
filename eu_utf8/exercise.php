@@ -36,7 +36,7 @@ $string['deleting'] = 'Ezabatzen';
 $string['description'] = 'Deskribatzen';
 $string['descriptionofexercise'] = 'Ariketa baten esleipenean, $a (r)en deskribapena Word dokumentu batean edo HTML fitxategi batean kokatuko da. Fitxategi hori ariketara igoko da zeregina $a (r)i erakutsi aurretik. 
   Ariketa edo zeregin berean aldagai-taldea ere sor daiteke, baita HTML edo Word dokumentuak ere, eta geroztik ariketara igo $a (r)i erakutsi aurretik.';
-$string['detailsofassessment'] = 'Ebaluazioaren ñabardurak';
+$string['detailsofassessment'] = 'Ebaluazioaren Ã±abardurak';
 $string['displayoffinalgrades'] = 'Azken kalifikazioak';
 $string['doubleupload'] = 'Kontuz: Bidalketa hau seguru asko bi aldiz bidali da. Administrazio-orrira joan eta erabiltzaile honen bi bidalketa epe motzean egon diren aztertu.
    Aurrera jarraitu baino lehen bidalketa horietako bat ezabatu, mesedez.';

@@ -242,7 +242,7 @@ $string['costdefault'] = 'Domyślny koszt';
 $string['counteditems'] = '$a->count $a->items';
 $string['country'] = 'Kraj';
 $string['course'] = 'Kurs';
-$string['courseapprovedemail'] = 'Zamówienie na kurs $a->nazwa zostało zrealizowane, a Ty zostałeś $a->prowadzącym. Aby uzyskać dostęp do kursu, przejdź do $a->url';
+$string['courseapprovedemail'] = 'Zamówienie na kurs $a->name zostało zrealizowane, a Ty zostałeś $a->teacher. Aby uzyskać dostęp do kursu, przejdź do $a->url';
 $string['courseapprovedfailed'] = 'Nieudana próba zatwierdzenia kursu';
 $string['courseapprovedsubject'] = 'Twój kurs został zatwierdzony';
 $string['courseavailable'] = 'Ten kurs jest dostępny dla studentów';
@@ -521,11 +521,11 @@ $string['existingcreators'] = 'Istniejący autorzy kursów';
 $string['existingstudents'] = 'Zapisani studenci';
 $string['existingteachers'] = 'Istniejący nauczyciele';
 $string['expirynotify'] = 'Zgłoszenie o wygaśnięciu powiadomienia';
-$string['expirynotifyemail'] = 'Następujący uczniowie na tym kursie zostaną wydaleni po więcej  niż $a-> dniach:
+$string['expirynotifyemail'] = 'Następujący uczniowie na tym kursie zostaną wydaleni po więcej  niż $a->threshold dniach:
 
 $a->current
 
-Następujący uczniowie na tym kursie zostaną wydaleni pomniej niż $a-> dniach:
+Następujący uczniowie na tym kursie zostaną wydaleni pomniej niż $a->threshold dniach:
 
 $a->past
 

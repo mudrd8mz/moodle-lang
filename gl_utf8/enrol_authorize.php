@@ -25,9 +25,9 @@ $string['adminneworder'] = 'Querido administrador,
 
   Recibiu un novo pedido pendente:
 
-   Orde ID: $a->ordeid
+   Orde ID: $a->orderid
    Transacción ID: $a->transid
-   Usuario: $a->usuer
+   Usuario: $a->user
    Curso: $a->course
    Cantidade: $a->amount
 
@@ -136,7 +136,7 @@ $a->url';
 $string['pendingechecksubject'] = '$a->course: Pendente de verificar electronicamente ($a->count)';
 $string['pendingordersemail'] = 'Prezado administrador,
 
-As transaccións $a->pendentes para o curso \"$a->curso\" caducarán a non ser que acepte o pagamento dentro de $a->days días.
+As transaccións $a->pending para o curso \"$a->course\" caducarán a non ser que acepte o pagamento dentro de $a->days días.
 
 Esta é unha mensaxe de aviso, porque non está activada a captación programada.
 Isto significa que ten que aceptar ou recusar os pagamentos manualmente.

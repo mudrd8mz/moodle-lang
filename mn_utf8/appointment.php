@@ -43,4 +43,3 @@ $string['viewsubmissions'] = 'Оруулсан $a уулзалтыг харах'
 $string['yoursubmission'] = 'Таны оруулга';
 
 ?>
-

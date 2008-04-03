@@ -394,8 +394,7 @@ $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: bytt passord - stadfesting';
 $string['emailpasswordconfirmsent'] = 'ie-post vart sendt til adressa <b>$a</b>.
 <br />Den inneheld instruksjonar for å fullføre endringa av passord. Les denne nøye.
-Viss du treng hjelp, kan du ta kontakt med administrator,
-$a->admin';
+Viss du treng hjelp, kan du ta kontakt med administrator';
 $string['emailpasswordsent'] = '<p>Takk for stadfesting av passordbyte.</p>
 <p>Ein e-post med det nye passordet vart sendt til adressa <b>$a->email</b>.</p>
 <p>Det nye passordet vart automatisk laga - du vil kanskje <a href=\"$a->link\">endre passordet</a> til noko som er lettare å hugse.</p>

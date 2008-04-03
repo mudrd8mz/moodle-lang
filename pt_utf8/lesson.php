@@ -99,10 +99,10 @@ $string['eolstudentoutoftimenoanswers'] = 'Não respondeu a nenhuma pergunta. Fo
 $string['essay'] = 'Ensaio';
 $string['essayemailmessage'] = '<p>Pedido de ensaio:<blockquote>$a->question</blockquote></p>
 <p>A sua resposta:<blockquote><em>$a->response</em></blockquote></p>
-<p>$a->Comentário do professor:<blockquote><em>$a->comment</em></blockquote></p>
-<p>Recebeu $a->earned (máximo possível $a>outof) nesta pergunta de ensaio.</p><p>
+<p>$a->comment do professor:<blockquote><em>$a->comment</em></blockquote></p>
+<p>Recebeu $a->earned (máximo possível $a->outof) nesta pergunta de ensaio.</p><p>
 A sua nota na lição foi actualizada para $a->newgrade%%.</p>';
-$string['essayemailsubject'] = 'A sua nota para a pergunta $a<blockquote>$a->question</blockquote></p><p>Your response:<blockquote><em>$a->response</em></blockquote></p><p>$a->teacher\'s comments:<blockquote><em>$a->comment</em></blockquote></p><p>You have received $a->earned out of $a->outof for this essay question.</p><p>Your grade for the lesson has been changed to $a->newgrade%%.</p>';
+$string['essayemailsubject'] = 'A sua nota para a pergunta $a';
 $string['essays'] = 'Ensaios';
 $string['essayscore'] = 'Pontuação do ensaio';
 $string['fileformat'] = 'Formato de ficheiro';

@@ -563,7 +563,7 @@ $string['weekhide'] = 'hanc septimanam ab $a occulā';
 $string['weeklyoutline'] = 'adumbratio septimanam';
 $string['weekshow'] = 'hanc septimanam ad $a monstrā';
 $string['welcometocourse'] = 'salvē ad $a';
-$string['welcometocoursetext'] = 'salvē ad $a!
+$string['welcometocoursetext'] = 'salvē ad $a->coursename!
 
 sī nōn fēcisti, tibi pagina tua in classe edēnda est ita ut dē tē discere possīmus:
 

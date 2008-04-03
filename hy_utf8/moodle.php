@@ -86,7 +86,7 @@ $string['alphabet'] = '\"Այբուբեն  = Ա, Բ, Գ, Դ, Ե, Զ, Է, Ը, Թ,
 $string['alphanumerical'] = 'Կարող է պարունակել միայն տառեր և թվեր';
 $string['alreadyconfirmed'] = 'Գրանցումն արդեն հաստատվել է';
 $string['always'] = 'Միշտ';
-$string['and'] = '$a->մեկ և  $a-> երկու';
+$string['and'] = '$a->one և  $a->two';
 $string['answer'] = 'Պատասխան';
 $string['approve'] = 'Հաստատել';
 $string['areyousuretorestorethis'] = '\"Դուք համոզվա՞ծ եք, որ ուզում եք վերականգնել այն\"';
@@ -189,7 +189,7 @@ $string['copyingzipfile'] = 'զիպ-ֆայլի պատճենահանում';
 $string['copyrightnotice'] = 'Հեղինակային իրավունքի մասին նշում';
 $string['cost'] = 'Արժեք';
 $string['costdefault'] = 'Բազային արժեք';
-$string['counteditems'] = '$a->հաշված $a հատ';
+$string['counteditems'] = '$a->count $a->items հատ';
 $string['country'] = 'Երկիր';
 $string['course'] = 'Դասընթաց';
 $string['courseavailable'] = 'Դասընթացը մատչելի է ուսանողների համար';
@@ -652,13 +652,13 @@ $string['new'] = 'Նոր';
 $string['newaccount'] = 'Նոր հաշվառման գրառում';
 $string['newcourse'] = 'Նոր դասընթաց';
 $string['newpassword'] = 'Նոր նշանաբառ';
-$string['newpasswordtext'] = 'Բարև Ձեզ, $a անունը\"
+$string['newpasswordtext'] = 'Բարև Ձեզ, $a->firstname անունը\"
 \'$a->sitename\'  Ձեր հաշվառման նշանաբառը չեղյալ է համարվել և Ձեզ  տրվել է նոր (ժամանակավոր) նշանաբառ
 Այժմ Դուք կայք կարող եք մտնել հետ—յալ կերպ.
 Ծածկաբառ՝ $a->username 	
 Նշանաբառ՝ $a->newpassword	
-Անվտանգության նպատակող մտեք մեր կայք ևփոխեք նշանաբառը՝ $a link
-Հարգանքներով՝  $a ադմինիստրատոր	$a->signoff';
+Անվտանգության նպատակող մտեք մեր կայք ևփոխեք նշանաբառը՝ $a->link
+Հարգանքներով՝  ադմինիստրատոր	$a->signoff';
 $string['newpicture'] = 'Լուսանկար';
 $string['newsitem'] = 'Նորություն';
 $string['newsitems'] = 'Նորություններ';
@@ -731,7 +731,7 @@ $string['passwordconfirmchange'] = 'Նշանաբառի փոխման հաստատ
 $string['passwordrecovery'] = 'Օգնեցեք մտնել կայք';
 $string['passwordsdiffer'] = 'Նշանաբառը չի բավարարում անվտանգության պահանջները';
 $string['passwordsent'] = 'Նշանաբառն ուղարկվել է';
-$string['passwordsenttext'] = '$a էլ. փոստի հասցեին նամակ է ուղարկվել Ձեր ծածկաբառով և նոր նշանաբառով:
+$string['passwordsenttext'] = '$a->email էլ. փոստի հասցեին նամակ է ուղարկվել Ձեր ծածկաբառով և նոր նշանաբառով:
 Եթե Դուք ցանկանաք փոխել ավտոմատ ստեղծված նշանաբառը ավելի հեշտ հիշվողի, հետևեք հղմանը:
 <a href=\"\"$a->link\"\"></a>';
 $string['pathnotexists'] = 'Սերվերի վրա ուղին գտնված չէ';

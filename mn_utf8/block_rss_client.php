@@ -1,4 +1,4 @@
-?PHP // $Id$ 
+<?PHP // $Id$ 
       // block_rss_client.php - created with Moodle 1.7+ (2006101009)
 
 
@@ -46,4 +46,3 @@ $string['updatefeed'] = 'Мэдээлэл авах хаягийг шинэчлэ
 $string['validatefeed'] = 'Тэжээлийг батлах';
 
 ?>
-

@@ -10,12 +10,12 @@ $string['assignment:grade'] = 'Oceń zadanie';
 $string['assignment:submit'] = 'Zgłoś zadanie';
 $string['assignment:view'] = 'Zobacz zadanie';
 $string['assignmentdetails'] = 'Szczegóły zadania';
-$string['assignmentmail'] = '$a->nauczyciel przesłał informację zwrotną do Twojego zadania \'$a->assignment\'
+$string['assignmentmail'] = '$a->teacher przesłał informację zwrotną do Twojego zadania \'$a->assignment\'
 
 Informację zwrotną znajdziesz jako załącznik do zadania:
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->nauczyciel zamieścił informację zwrotną do oddanego zadania \'<i>$a->zadanie</i>\'<br /><br />
+$string['assignmentmailhtml'] = '$a->teacher zamieścił informację zwrotną do oddanego zadania \'<i>$a->assignment</i>\'<br /><br />
 Znajdziesz ją jako załącznik do <a href=\"$a->url\">oddanego zadania</a>.';
 $string['assignmentname'] = 'Nazwa zadania';
 $string['assignmenttype'] = 'Typ zadania';

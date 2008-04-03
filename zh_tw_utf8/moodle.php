@@ -565,7 +565,7 @@ $string['explanation'] = '說明';
 $string['extendenrol'] = '延長修課期限';
 $string['extendperiod'] = '延長修課期限';
 $string['failedloginattempts'] = '自從您上次登入後，$a->attempts登入失敗';
-$string['failedloginattemptsall'] = '{$a->account}帳號{$a->attempts}登入失敗';
+$string['failedloginattemptsall'] = '{$a->accounts}帳號{$a->attempts}登入失敗';
 $string['feedback'] = '回饋';
 $string['file'] = '檔案';
 $string['filemissing'] = '缺少了 {$a}';
@@ -1449,7 +1449,7 @@ $string['view'] = '檢視';
 $string['views'] = '檢視';
 $string['viewsolution'] = '看解答';
 $string['virusfound'] = '管理員請注意!Clam AV發現$a->course課程的$a->user使用者上傳的檔案有病毒。以下是clamscan的報告:';
-$string['virusfoundlater'] = '您在$a->課程，於$a->date所上傳的$a->filename發現含有病毒。這裡是對您檔案所做的處理動作:
+$string['virusfoundlater'] = '您在$a->course課程，於$a->date所上傳的$a->filename發現含有病毒。這裡是對您檔案所做的處理動作:
 $a->action
 
 如果這是繳交的作業，您可重新繳交，

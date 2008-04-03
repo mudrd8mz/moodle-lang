@@ -70,4 +70,3 @@ $string['wednesday'] = 'Лхагва';
 $string['weekmodulename'] = 'Сүүлчийн долоо хоногийн бүх ирц бүртгэл';
 
 ?>
-

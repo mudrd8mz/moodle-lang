@@ -4,7 +4,7 @@
 
 $string['addnewnote'] = 'Dodaj belešku';
 $string['addnewnoteselect'] = 'Izbor korisnikâ o kojima se pišu beleške';
-$string['bynameondate'] = 'autor $a->ime - $a->datum';
+$string['bynameondate'] = 'autor $a->name - $a->date';
 $string['content'] = 'Sadržaj';
 $string['course'] = 'kurs';
 $string['coursenotes'] = 'Beleške kursa';

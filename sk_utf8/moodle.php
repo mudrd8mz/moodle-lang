@@ -523,7 +523,7 @@ ho musíte zadať vždy, keď vstupujete do kurzu. Mali by ste ho dostať od $a'
 $string['enrolmentkeyhint'] = 'Tento prihlasovací kľúč nebol správny, skúste sa prihlásiť opäť<br />
 (Tu je pomôcka - začína to s \'$a\')';
 $string['enrolmentnew'] = 'Nový zápis do $a';
-$string['enrolmentnewuser'] = '$a->use sa zapísal do kurzu \"$a->course\"';
+$string['enrolmentnewuser'] = '$a->user sa zapísal do kurzu \"$a->course\"';
 $string['enrolmentnointernal'] = 'Manuálne prihlasovanie do kurzu nie je momentálne aktívne';
 $string['enrolmentnotyet'] = 'Prepáčte, ale nemáte prístup do tohto kurzu do<br /> $a';
 $string['enrolmentplugins'] = 'Spôsoby zápisu';
@@ -561,7 +561,7 @@ $a->extendurl';
 $string['expirynotifystudents'] = 'Oznámiť študentom';
 $string['expirynotifystudentsemail'] = 'Vážený(á) $a->studentstr:
 
-Toto hje upozornenie, že Váš zápis v kurze $a->coursebude ukončený po $a->threshold dňoch/dni. 
+Toto hje upozornenie, že Váš zápis v kurze $a->course bude ukončený po $a->threshold dňoch/dni. 
 
 Prosím, kontaktujte Vášho $a->teacherstr pre ďalšie informácie.';
 $string['expirythreshold'] = 'Prah';

@@ -234,4 +234,3 @@ $string['yourassessmentsofexamplesfromtheteacher'] = 'Вашыя адзнакі 
 $string['yourfeedbackgoeshere'] = 'Ваш водгук накіраваны сюды';
 
 ?>
-

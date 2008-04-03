@@ -318,4 +318,3 @@ $string['yourfeedbackgoeshere'] = 'Таны Хариу энд орно ';
 $string['yoursubmissions'] = 'Таны оруулгууд ';
 
 ?>
-

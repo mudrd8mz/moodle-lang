@@ -5,7 +5,7 @@
 $string['addall'] = 'Legg til alle';
 $string['addsel'] = 'Legg til utvalg';
 $string['allfilteredusers'] = 'Alle filtrerte ($a->count/$a->total)';
-$string['allselectedusers'] = 'Alle valgte ($a->count/$a->tatal';
+$string['allselectedusers'] = 'Alle valgte ($a->count/$a->total';
 $string['allusers'] = 'Alle brukere ($a)';
 $string['available'] = 'Tilgjengelig';
 $string['confirmmessage'] = 'Vil du virkelig sende denne meldingen til alle brukerne over?<br/>$a';

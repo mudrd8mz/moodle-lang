@@ -440,4 +440,3 @@ $string['yourfinalgradeis'] = 'энэ $a шалгалтын дvн нь таны 
 $string['zerosignificantfiguresnotallowed'] = 'the зөв хариулт cannot -тай тэг чухал figures! ';
 
 ?>
-

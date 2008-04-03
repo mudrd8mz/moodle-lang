@@ -205,9 +205,9 @@ $string['emailactive'] = 'e-Mail ທີ່ໃຊ້ການໄດ້';
 $string['emailagain'] = 'ໃສ່ e-Mail ອີກຄັ້ງ';
 $string['emailcharset'] = 'ອັກສອນທີ່ຕ້ອງການໃຊ້ໃນ e-Mail';
 $string['emailconfirm'] = 'ຢືນຢັນ account ຂອງເຈົ້າ';
-$string['emailconfirmation'] = 'ສະບາຍດີ $a-> firstname,
+$string['emailconfirmation'] = 'ສະບາຍດີ $a->firstname,
 
-ທ່ານໄດ້ສະມັກເປັນສະມາຊິກໃໝ່ໃນເວັບໄຊຕ໌ \'$a-> sitename\' <br> ໂດຍໃຊ້ e-Mail ນີ້ໃນການສະມັກ
+ທ່ານໄດ້ສະມັກເປັນສະມາຊິກໃໝ່ໃນເວັບໄຊຕ໌ \'$a->sitename\' <br> ໂດຍໃຊ້ e-Mail ນີ້ໃນການສະມັກ
 
 ກະລຸນາຍືນຍັນການໃຊ້ Account ນີ້ໂດຍການຄິກທີ່ລິງກ໌ດ້ານລຸມນີ້ <br>
 
@@ -215,7 +215,7 @@ $a->link   </br>
 
 ໃນໂປແກມຮັບສົ່ງ e-Mail ທົ່ວໄປເຈົ້າຈະເຫັນລິງກ໌ດ້ານເທິງ <br> ປາກົດເປັນສີຟ້າ ແລະສາມາດຄິກເພື່ອຢືນຢັນ <br> ໃນກໍລະນີທີ່ບໍ່ສາມາດຄິກທີ່ລິງກ໌ໄດ້ <br> ໃຫ້ Copy ລິງກ໌ດັ່ງກ່າວແລ້ວນຳໄປກ່າຍໃນເວັບບຣາວເຊີລ໌
 
-ຈາກຜູ້ເບິ່ງແຍງລະບົບ$a-> sitename,
+ຈາກຜູ້ເບິ່ງແຍງລະບົບ$a->sitename,
 $a->admin';
 $string['emailconfirmationsubject'] = '$a: ການຢືນຢັນ Account <P> e-Mail ສົ່ງໄປໃຫ້ເຈົ້າທີ່ <B> $a </B>';
 $string['emailconfirmsent'] = '<P>ປະກອບໄປດ້ວຍວິທີການລົງທະບຽນເທື່ອສຸດທ້າຍ <P> ຖ້າຫາກເຈົ້າມີບັນຫາໃນການລົງທະບຽນ ກະລຸນາຕິດຕໍ່ຜູ້ເບິ່ງແຍງລະບົບ';
@@ -295,8 +295,8 @@ $string['loginto'] = 'ເຂົ້າສູ່ລະບົບໃນຊື່  $a
 $string['loginusing'] = 'ເຂົ້າສູ່ລະບົບໂດຍໃຊ້ຊື່ຜູ້ໃຊ້ແລະລະຫັດຜ່ານຂອງເຈົ້າ';
 $string['logout'] = 'ອອກຈາກລະບົບ';
 $string['logs'] = 'Logs';
-$string['logtoomanycourses'] = '[<a href=\"$a-> url\"> ວິຊາທັງໝົດ </a>]';
-$string['logtoomanyusers'] = '[<a href=\"$a-> url\"> ສະມາຊິກທັງໝົດ </a>]';
+$string['logtoomanycourses'] = '[<a href=\"$a->url\"> ວິຊາທັງໝົດ </a>]';
+$string['logtoomanyusers'] = '[<a href=\"$a->url\"> ສະມາຊິກທັງໝົດ </a>]';
 $string['lookback'] = 'ເບິ່ງຄືນ';
 $string['mailadmins'] = 'ແຈ້ງຜູ້ເບິ່ງແຍງລະບົບ';
 $string['mailstudents'] = 'ແຈ້ງນັກຮຽນ';

@@ -582,7 +582,7 @@ $a->extendurl';
 $string['expirynotifystudents'] = 'Verwittig leerlingen';
 $string['expirynotifystudentsemail'] = 'Beste,
 
-Dit is een automatische verwittiging dat je aanmelding voor het vak $a->course zal verlopen binnen $a->treshold dagen.
+Dit is een automatische verwittiging dat je aanmelding voor het vak $a->course zal verlopen binnen $a->threshold dagen.
 
 Wanneer je hierbij vragen hebt, neem dan contact op met je leraar.';
 $string['expirythreshold'] = 'Drempelwaarde';
@@ -970,7 +970,7 @@ In de meeste mailprogramma\'s kun je op de bovenstaande link klikken. Als dat ni
 
 Veel succes en met vriendelijke groet,
 
-$a->admin
+$a->signoff
 (Beheerder van \'$a->sitename\')
 
 $a->signoff';
@@ -979,7 +979,7 @@ $string['newsitem'] = 'Nieuwsitem';
 $string['newsitems'] = 'Nieuwsitems';
 $string['newsitemsnumber'] = 'Weer te geven nieuwsitems';
 $string['newuser'] = 'Nieuwe gebruiker';
-$string['newusernewpasswordsubj'] = 'Hallo $a->firstname,';
+$string['newusernewpasswordsubj'] = 'Hallo,';
 $string['newusernewpasswordtext'] = 'Er is voor jou een nieuwe account gemaakt op \'$a->sitename\' en je hebt daarvoor een nieuw, tijdelijk wachtwoord gekregen.
 
 De informatie die je nu nodig hebt om op de site in te loggen is:

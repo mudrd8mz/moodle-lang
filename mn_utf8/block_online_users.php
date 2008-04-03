@@ -7,4 +7,3 @@ $string['configtimetosee'] = 'Хэрэглэгч холбогдохоо боль
 $string['periodnminutes'] = 'сүүлчийн $a минут';
 
 ?>
-

@@ -248,7 +248,7 @@ $a->profileurl
 
 Du kan se information om ditt konto här:
 $a->paymenturl
-Du kan inte göra detta: $a->action';
+Du kan inte göra detta: $a->name';
 $string['youcantdo'] = 'Du kan inte genomföra det här: $a->action';
 $string['zipcode'] = 'Postkod, t.ex . postnummer';
 

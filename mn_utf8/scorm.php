@@ -117,4 +117,3 @@ $string['width'] = 'Єргөн ';
 $string['window'] = 'Цонх ';
 
 ?>
-

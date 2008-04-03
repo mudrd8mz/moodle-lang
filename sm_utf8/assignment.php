@@ -4,12 +4,12 @@
 
 $string['allowresubmit'] = 'Fa\'ataga le toe tu\'uina atu';
 $string['assignmentdetails'] = 'Fa\'amatalaga au\'ili\'ili o le galuega fa\'apitoa';
-$string['assignmentmail'] = '$a->$a->ua tali atu le faiaoga i au tusitusiga/fa\'amaumauga mo le \'$a->assignment\' 
+$string['assignmentmail'] = '$a->teacher tali atu le faiaoga i au tusitusiga/fa\'amaumauga mo le \'$a->assignment\' 
 
 O lo\'o fa\'apipi\'iina atu i au tusitusiga ina ia mafai ona e va\'ai i ai: 
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->$a->ua tali atu le faiaoga i au galuega fa\'apitoa ua tu\'uina atu mo \'$a->assignment</i>\'<br /><br />
+$string['assignmentmailhtml'] = '$a->teacher tali atu le faiaoga i au galuega fa\'apitoa ua tu\'uina atu mo \'$a->assignment</i>\'<br /><br />
 
 O lo\'o fa\'apipi\'iina atu i au galuega ina ia mafai ona e va\'ai i ai:
  <a href=\"$a->url\">assignment submission</a>.';

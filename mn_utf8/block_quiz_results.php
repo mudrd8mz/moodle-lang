@@ -30,4 +30,3 @@ $string['worstgroupgrade'] = 'Бvлгийн хамгийн муу дvнгийн 
 $string['worstgroupgrades'] = '$a бүлгийн хамгийн муу дvнгийн дундаж:';
 
 ?>
-

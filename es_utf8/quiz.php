@@ -269,7 +269,7 @@ $string['gradeessays'] = 'Calificar ensayos';
 $string['gradehighest'] = 'Calificación más alta';
 $string['grademethod'] = 'Método de calificación';
 $string['gradesdeleted'] = 'Eliminadas calificaciones del cuestionario';
-$string['gradesofar'] = '$a->método: $a->mygrade / $a->quizgrade.';
+$string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = 'Puntos para este envío:
 $a->raw/$a->max.';
 $string['gradingdetailsadjustment'] = 'Con las penalizaciones previas esto da como resultado

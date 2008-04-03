@@ -23,7 +23,7 @@ $string['addedtogroup'] = 'Lagu darey koox $a';
 $string['addedtogroupnot'] = 'Aan lagu darin koox $a';
 $string['addedtogroupnotenrolled'] = 'Laguma darin koox $a, sabab koorsada isma qorin';
 $string['addinganew'] = 'Ku daraya ku cusub oo ah $a';
-$string['addinganewto'] = 'Ku daraya ku cusub $a->wixii lagu $a->ku';
+$string['addinganewto'] = 'Ku daraya ku cusub $a->what lagu $a->to';
 $string['addingdatatoexisting'] = 'Lagu daraya data sii jire';
 $string['addnewcategory'] = 'Qayb cusub ku dar';
 $string['addnewcourse'] = 'Koorso cusub ku dar';
@@ -368,7 +368,7 @@ $string['emailformat'] = 'Qaabka email';
 $string['emailmustbereal'] = 'F:G: cinwaanka emailkaagu waa in uu noqdaa mid run ah';
 $string['emailnotallowed'] = 'Cinwaannad email ee ee raasaskani lama oggola($a)';
 $string['emailonlyallowed'] = 'Emailkan ka mid ma aha kuwa la oggolayahay ($a)';
-$string['emailpasswordconfirmation'] = 'Nabadeey $a->magacahore,
+$string['emailpasswordconfirmation'] = 'Nabadeey $a->firstname,
 
 Qof (laga yaabe adiga) ayaa ka codsadey akoonkaaga erey-isgarad cusub\'$a->sitename\'.
 
@@ -422,8 +422,8 @@ $string['existingcreators'] = 'Koorsada jirta Sameeyayaashooda';
 $string['existingstudents'] = 'Ardeyda qoran';
 $string['existingteachers'] = 'Bareyaasha jirta ';
 $string['explanation'] = 'Faahfaahinta';
-$string['failedloginattempts'] = '$a->soo galeenno dhicisoobey kadib ilaa soo galkaagii ugu danbeeyey';
-$string['failedloginattemptsall'] = '$a->soo galeenno dhicisoobeyee $a->accounts akoonnada';
+$string['failedloginattempts'] = '$a->attempts galeenno dhicisoobey kadib ilaa soo galkaagii ugu danbeeyey';
+$string['failedloginattemptsall'] = '$a->attempts galeenno dhicisoobeyee $a->accounts akoonnada';
 $string['feedback'] = 'Ra\'yi ka bixin';
 $string['file'] = 'Fayle';
 $string['filemissing'] = '$a is missing';
@@ -719,7 +719,7 @@ $string['new'] = 'Cusub';
 $string['newaccount'] = 'Akoon cusub';
 $string['newcourse'] = 'Koorso cusub';
 $string['newpassword'] = 'Erey-isgarad cusub';
-$string['newpasswordtext'] = 'Nabadeey $a->magacahore,
+$string['newpasswordtext'] = 'Nabadeey $a->firstname,
 
 Akoonkaaga isgarad-eryegiisa ee ku yaal\'$a->sitename\' ayaa dib-dajin loogu sameeyey oo waxa laguu soo sameeyey isgard-erey cusub oo ah   ku meel gaadh.
 
@@ -1063,8 +1063,8 @@ $string['uploadnotallowed'] = 'kor u dhaaminta lama oggola';
 $string['uploadoldfilesdeleted'] = 'Fayl(shi) gaboobey ee ku jirey meesha kor u djhaamminta oo la tirtirey.';
 $string['uploadpartialfile'] = 'Faylka qayb ahaan kaliya ayaa kor loo dhaamiyey.';
 $string['uploadproblem'] = 'Dhibaato la garan waayey ayaa dhacdey markii kor loo dhaamminayey faylka \'$a\' (Ma laga yaabaa in u in uu aad u weynnaa?';
-$string['uploadrenamedchars'] = 'Faylka waxa magaca looga beddeley  $a->oldname oo lagu beddely $a-> sababta oo ah xuruufo aan la oggoleyn.';
-$string['uploadrenamedcollision'] = 'Faylka waxa magaca looga beddeley  $a->oldname oo lagu beddely $a-> sababta oo ah waxa jirey isk hor imaad magac-fayl.';
+$string['uploadrenamedchars'] = 'Faylka waxa magaca looga beddeley  $a->oldname oo lagu beddely $a->newname sababta oo ah xuruufo aan la oggoleyn.';
+$string['uploadrenamedcollision'] = 'Faylka waxa magaca looga beddeley  $a->oldname oo lagu beddely $a->newname sababta oo ah waxa jirey isk hor imaad magac-fayl.';
 $string['uploadserverlimit'] = 'Faylka kor loo dhaammiyey waxa u ka batey xaddidka qiyaasta ugu badan ee serferku uu u dajiyey. ';
 $string['uploadthisfile'] = 'Kor-u dhaami faylkan';
 $string['uploadusers'] = 'Kor-u-dhaami isticmaalayaasha';
@@ -1105,7 +1105,7 @@ Waa kan soo koob wah wixii ku dhacay faylka:
 
 $a->action';
 $string['virusfoundsubject'] = '$a: Fayras(virus)  ayaa la helay!';
-$string['virusfounduser'] = ' Faylkan kor aad u dhaammisey$a->aya wwaxa iskaan gareeyey baadhe fayras oo kala hely in hurgumenysan yahay. Kor u Dhaammistaadii falylku MA guuleysan.';
+$string['virusfounduser'] = ' Faylkan kor aad u dhaammisey $a->filename wwaxa iskaan gareeyey baadhe fayras oo kala hely in hurgumenysan yahay. Kor u Dhaammistaadii falylku MA guuleysan.';
 $string['virusplaceholder'] = 'Faylkan kor loo dhaammiyey ayaa waxa laga helay in uu wato fayras(virus)oo markaa waa la kexeeyey ama la tirtirey oo isticmaalaha yaa la wargalieyey.';
 $string['visibletostudents'] = 'Ay arki karaa  $a';
 $string['webpage'] = 'Bog web';

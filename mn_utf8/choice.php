@@ -48,4 +48,3 @@ $string['viewallresponses'] = '$a хариултуудыг харах';
 $string['yourselection'] = 'Таны сонголт';
 
 ?>
-

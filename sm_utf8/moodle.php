@@ -114,7 +114,7 @@ $string['backupuserfileshelp'] = 'Filifili pe ete mana\'o e fa\'aotometi le sefe
 $string['backupusershelp'] = 'Filifili pe ete mana\'o ina ia i ai uma ia igoa o tagata o lo\'o i le seva pe filifili na\'o tagata e te mana\'omia mo le vasega. ';
 $string['backupversion'] = 'Lolomiga ua uma ona fai kopi.';
 $string['blockdeleteconfirm'] = 'O le e tapeina le poloka \'$a\'. O le fa\'apea ona tapeina uma ai fa\'amatalaga o lo\'o fa\'amaumau i le taula\'iga o fa\'amatalaga po\'o le seva e autu tonu i lea poloka. Ua e MAUTINOA lelei e te mana\'o e fa\'aauau? ';
-$string['blockdeletefiles'] = 'O fa\'amatalaga uma e uiga i lenei poloka \'$a->block\' ua uma ona tapeina mai le tatapeise. Mo le fa\'amae\'aina o le tapeina o fa\'amatalaga (ma taofia le toe fa\'atuina o lenei poloka e ia lava), ua tatau nei loa ona e tapeina lenei auala mai lau seva: $a->direc';
+$string['blockdeletefiles'] = 'O fa\'amatalaga uma e uiga i lenei poloka \'$a->block\' ua uma ona tapeina mai le tatapeise. Mo le fa\'amae\'aina o le tapeina o fa\'amatalaga (ma taofia le toe fa\'atuina o lenei poloka e ia lava), ua tatau nei loa ona e tapeina lenei auala mai lau seva: $a->directory';
 $string['blocks'] = 'Poloka';
 $string['blocksetup'] = 'Setiina o poloka ';
 $string['blocksuccess'] = '$a o lenei vaega ua sa\'o ma ua uma ona setiina';
@@ -297,7 +297,7 @@ $string['detailedless'] = 'E le tele ni ona fa\'amatalaga';
 $string['detailedmore'] = 'E tele fa\'amatalaga ';
 $string['directorypaths'] = 'Auala atu i se mea';
 $string['disable'] = 'Aua le fa\'atagaina';
-$string['displayingfirst'] = 'E na o mea muamua $a->count $a->o lo\'o fa\'aalia atu';
+$string['displayingfirst'] = 'E na o mea muamua $a->count $a->things lo\'o fa\'aalia atu';
 $string['displayingrecords'] = 'Fa\'aaliaina o $a rikoti';
 $string['displayingusers'] = 'Fa\'aaliaina o e fa\'aaogaina le polokalame $a->start to $a->end';
 $string['documentation'] = 'Fa\'amaumauga o le Moodle';
@@ -345,7 +345,7 @@ e fa\'aaoga ai lau tuatusi i-meli.
 
 Mo le fa\'amaoniaina o lau account fou, alu sa\'o loa i le tuatusi lea i luga o le initaneti:
 
-$a->so\'oga
+$a->link
 
 I le tele lava o polokalame fa\'ameli, o lenei vaega e iloa lea i le link/feso\'ota\'iga o lo\'o tusia i le lanu moana ma e na\'o le kiliki ai lava ona e feso\'ota\'i atu lea.  Afai e le ola, e mafai lava ona e kopiina lenei tuatusi ma fa\'apipi\'i atu i le laina tuatusi i luga o le initaneti.
 
@@ -370,7 +370,7 @@ $string['emailformat'] = 'Tusiga fa\'aoga i i-meli';
 $string['emailmustbereal'] = 'Lapataiga: O lau tuatusi i-meli e tatau ona moni ';
 $string['emailnotallowed'] = 'O tuatusi i-meli i lenei vaega e le fa\'atagaina($a)';
 $string['emailonlyallowed'] = 'O lenei i-meli e aofia i le lisi o i-meli le fa\'atagaina ($a)';
-$string['emailpasswordconfirmation'] = 'Talofa $a->Igoamuamua,
+$string['emailpasswordconfirmation'] = 'Talofa $a->firstname,
 
 E i ai se isi(masalo lava o o\'e) na mana\'omiaina se upu tatala fou mo lau account i le \'$a->sitename\'.
 
@@ -400,7 +400,7 @@ se upu tatala sa tatau ona e mauaina mai $a';
 $string['enrolmentkeyhint'] = 'O lena ki e fa\'aulu atu ai i le vasega e le sa\'o, toe taumafai mai fa\'amolemole<BR>
 (Sina fesoasoani - e amata i le \'$a\')';
 $string['enrolmentnew'] = 'Fa\'auluga fou i le $a';
-$string['enrolmentnewuser'] = '$a->o se ua fa\'aulu atu i se vasega\"$a->course\"';
+$string['enrolmentnewuser'] = '$a->user se ua fa\'aulu atu i se vasega\"$a->course\"';
 $string['enrolmentnointernal'] = 'O fa\'auluga fa\'aali\'ilimaina le faiga e le o fa\'atagaina';
 $string['enrolmentnotyet'] = 'Sori, e le mafai ona e ulu atu i lenei vasega se\'iloga <br /> $a';
 $string['enrolments'] = 'Fa\'auluga';
@@ -421,8 +421,8 @@ $string['existingcoursedeleting'] = 'Vasega o lo\'o i ai, tapeina muamua';
 $string['existingcreators'] = 'E o lo\'o gaosia/fa\'atulagaina vasega o lo\'o i ai';
 $string['existingstudents'] = 'Tamaiti aoga ua fa\'aulu atu';
 $string['existingteachers'] = 'Faiaoga o lo\'o i ai';
-$string['failedloginattempts'] = '$a->taumafaiga e ulu atu e le\'i manuia talu mai le taimi mulimuli na e ulu atu ai';
-$string['failedloginattemptsall'] = '$a->taumafaiga e ulu atu e le\'i manuia mo le $a->accounts accounts';
+$string['failedloginattempts'] = '$a->attempts e ulu atu e le\'i manuia talu mai le taimi mulimuli na e ulu atu ai';
+$string['failedloginattemptsall'] = '$a->attempts e ulu atu e le\'i manuia mo le $a->accounts accounts';
 $string['feedback'] = 'Tali mai/faufautuaga';
 $string['file'] = 'Faila';
 $string['filemissing'] = '$a o lo\'o misi';
@@ -678,7 +678,7 @@ $string['new'] = 'Fou';
 $string['newaccount'] = 'Account fou';
 $string['newcourse'] = 'Vasega fou';
 $string['newpassword'] = 'Upu tatala fou';
-$string['newpasswordtext'] = 'Talofa $a->igoamuamua,
+$string['newpasswordtext'] = 'Talofa $a->firstname,
 
 O le upu tatala i le \'$a->sitename\' ua uma ona toe suia ma ua i ai se isi upu tatala fou e mafai ona e fa\'aaogaina mo lenei taimi. 
 
@@ -692,7 +692,7 @@ Fa\'amolemole alu atu i lenei itulau e sui ai lau upu tatala:
 I le tele lava o polokalame fa\'ameli, o lenei vaega e iloa lea i le link/feso\'ota\'iga o lo\'o tusia i le lanu moana ma e na\'o le kiliki ai lava ona e feso\'ota\'i atu lea.  Afai e le ola, e mafai lava ona e kopiina lenei tuatusi ma fa\'apipi\'i atu i le laina tuatusi i luga o le initaneti.
 
 Ia manuia, mai le \'$a->sitename\' pule o le nofoaga,
-$a->saini';
+$a->signoff';
 $string['newpicture'] = 'Ata fou';
 $string['newsitem'] = 'Se vaega o tala fou';
 $string['newsitems'] = 'Vaega o tala fou';
@@ -769,7 +769,7 @@ $string['pathnotexists'] = 'O le auala e le o maua i lau seva!';
 $string['pathslasherror'] = 'E le\'o mafai ona fa\'ai\'u se auala i le laina fa\'alava';
 $string['paymentinstant'] = 'Fa\'aaoga mai le button lea e i lalo ina ia mafai ai ona totogi ma e fa\'aulu atu loa i ni nai minute. ';
 $string['paymentrequired'] = 'O lenei vasega e mana\'omia ai se peimeni aua le ulu atu.';
-$string['paymentsorry'] = 'Fa\'afetai lava mo le peimeni!  Ona e le\'i uma lelei ona fa\'agaoioia lenei peimeni, ua le mafai ai ona e lesitala i lenei vasega \"$a->IgoaAtoa\".  Fa\'amolemole, toe taumafai mai mo nai sekone, ae afai lava e le ma\'ea lelei lenei gasologa, ua tatau loa ona logo le $a->faiaoga po\'o le e fa\'afoea lenei galuega.';
+$string['paymentsorry'] = 'Fa\'afetai lava mo le peimeni!  Ona e le\'i uma lelei ona fa\'agaoioia lenei peimeni, ua le mafai ai ona e lesitala i lenei vasega \"$a->teacher\".  Fa\'amolemole, toe taumafai mai mo nai sekone, ae afai lava e le ma\'ea lelei lenei gasologa, ua tatau loa ona logo le $a->fullname po\'o le e fa\'afoea lenei galuega.';
 $string['paymentthanks'] = 'Fa\'afetai lava mo le paymeni!  O lena ua uma ona fa\'auluina o\'e i lau vasega:<br />\"$a\"';
 $string['people'] = 'Tagata';
 $string['personalprofile'] = 'Fa\'amatalaga o le tagata';
@@ -1000,7 +1000,7 @@ $string['weekhide'] = 'Nana le vaiaso le mai le $a';
 $string['weeklyoutline'] = 'Fuafuaga o le vaiaso';
 $string['weekshow'] = 'Fa\'aali le vaiaso lea i le $a';
 $string['welcometocourse'] = 'Afio mai i le $a';
-$string['welcometocoursetext'] = 'Afio mai i le $a->IgoaOLeVasega!
+$string['welcometocoursetext'] = 'Afio mai i le $a->coursename!
 
 Afai ete le\'i faia, e tatau loa ona toe fa\'auma ma fa\'asa\'o au fa\'amatalaga ile itulau tonu e fai ai lenei vaega i totonu o le vasega ina ia mafai ai ona matou iloa uma fa\'amatalaga e uiga ia te o\'e i totonu lava o le vasega ina ia mafai ai fo\'i ona matou iloa leleia  o\'e:
 

@@ -514,7 +514,7 @@ $string['emailpasswordconfirmationsubject'] = '$a: potvrzeni zmeny hesla';
 $string['emailpasswordconfirmmaybesent'] = '<p>Pokud jste zadali správné uživatelské jméno nebo adresu, byl vám odeslán email.</p>
 <p>Obsahuje jednoduché instrukce k potvrzení a dokončení změny hesla. Pokud máte nadále potíže, kontaktujte správce těchto stránek.</p>';
 $string['emailpasswordconfirmsent'] = 'Na vaši adresu <b>$a</b> byl odeslán e-mail obsahující jednoduché pokyny k potvrzení a dokončení změny vašeho hesla. <br />Pokud narazíte na problémy, obraťte se na správce těchto stránek.';
-$string['emailpasswordsent'] = 'Děkujeme za potvrzení změny vašeho hesla.<p>Vaše nové heslo bylo odesláno na adresu <br /><b>$a->e-mail</b>.<p><br />Toto heslo bylo vygenerováno automaticky, můžete si je kdykoliv <a href=\"$a->link\">změnit</a> na nějaké snadněji zapamatovatelné.';
+$string['emailpasswordsent'] = 'Děkujeme za potvrzení změny vašeho hesla.<p>Vaše nové heslo bylo odesláno na adresu <br /><b>$a->email</b>.<p><br />Toto heslo bylo vygenerováno automaticky, můžete si je kdykoliv <a href=\"$a->link\">změnit</a> na nějaké snadněji zapamatovatelné.';
 $string['enable'] = 'Povolit';
 $string['encryptedcode'] = 'Šifrovaný kód';
 $string['enroldate'] = 'Termínovaný zápis';

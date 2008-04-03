@@ -11,4 +11,3 @@ $string['enrolname'] = 'Онлайн төлбөр хийх систем';
 $string['sendpaymentbutton'] = 'Төлбөрөө онлайн төлбөр хийх систем Paypal-р илгээх';
 
 ?>
-

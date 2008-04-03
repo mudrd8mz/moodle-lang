@@ -4,8 +4,8 @@
 
 $string['allowresubmit'] = 'Кілька спроб';
 $string['assignmentdetails'] = 'Деталі завдання';
-$string['assignmentmail'] = '$a->викладач зробив коментар до Вашого завдання для \'$a->assignment\'.Ви можете подивитися його за посиланням: $a->url';
-$string['assignmentmailhtml'] = '$a->викладач зробив коментар до Вашого завдання для  \'<i>$a->assignment</i>\'<br /><br />Ви можете подивитися його  <a href=\"$a->url\">за посиланням:</a>.';
+$string['assignmentmail'] = '$a->teacher зробив коментар до Вашого завдання для \'$a->assignment\'.Ви можете подивитися його за посиланням: $a->url';
+$string['assignmentmailhtml'] = '$a->teacher зробив коментар до Вашого завдання для  \'<i>$a->assignment</i>\'<br /><br />Ви можете подивитися його  <a href=\"$a->url\">за посиланням:</a>.';
 $string['assignmentname'] = 'Назва завдання';
 $string['assignmenttype'] = 'Тип завдання';
 $string['configmaxbytes'] = 'На сайті немає обмежень для розміру завдання (означення меж та інших локальних параметрів) ';

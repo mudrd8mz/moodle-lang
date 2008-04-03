@@ -6,4 +6,3 @@ $string['badwords'] = 'shit,fucked,fucker,fuck,dickhead, dick,cockhead,cock,cunt
 $string['filtername'] = 'Хориотой үгийн хяналт';
 
 ?>
-

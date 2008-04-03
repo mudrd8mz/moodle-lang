@@ -6,4 +6,3 @@ $string['pagesize'] = 'Õóóäàñ õóóäñààð õàíäàõ: ';
 $string['reportresponses'] = 'Äýëãýðýíã¿é õàðèóëò';
 $string['responses'] = 'Äýëãýðýíã¿é õàðèóëò';
 ?>
-

@@ -208,4 +208,3 @@ $string['time'] = 'Хугацаа';
 $string['viewsurveyresponses'] = '$a Судалгааны үр дүнг харах';
 
 ?>
-

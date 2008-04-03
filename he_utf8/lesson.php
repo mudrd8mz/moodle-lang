@@ -80,7 +80,7 @@ $string['displayofgrade'] = 'תצוגת הציון (לתלמידים בלבד)';
 $string['displayreview'] = 'כפתור סקירת התצוגה';
 $string['displayscorewithessays'] = 'עבור השאלות שנבדקות באופן אוטומטי קיבלת $a->score נקודות מתוך $a->tempmaxgrade .<br>
 שאלת(ות) החיבור $a->essayquestions  שלך תבדק, והציון שתקבל עבורה יתווסף <br />במועד מאוחר יותר לחישוב של הציון הסופי שלך. <br /><br />
-הציון הנוכחי שלך, מבלי שאלת(ות) החיבור הוא תוצאה של $a-> מתוך $a->grade.';
+הציון הנוכחי שלך, מבלי שאלת(ות) החיבור הוא תוצאה של $a->score מתוך $a->grade.';
 $string['displayscorewithoutessays'] = 'התוצאה שלך היא $a->score (מתוך $a->grade).';
 $string['edit'] = 'ערוך';
 $string['editlessonsettings'] = 'ערוך את הגדרות השיעור';

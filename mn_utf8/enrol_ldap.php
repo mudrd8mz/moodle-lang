@@ -39,4 +39,3 @@ $string['enrol_ldap_version'] = 'Таны серверийн хэрэглэж б
 $string['enrolname'] = 'LDAP';
 
 ?>
-

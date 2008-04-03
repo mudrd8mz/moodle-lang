@@ -195,7 +195,7 @@ $string['savetemplate'] = 'Загварыг хадгалах';
 $string['sendinratings'] = 'Миний сүүлийн үнэлгээг илгээх';
 $string['single'] = 'Ганцаарчилж харах';
 $string['singletemplate'] = 'Ганцхан загвар';
-$string['teachersandstudents'] = '$a->багш and $a->сурагчид';
+$string['teachersandstudents'] = '$a->teachers and $a->students';
 $string['templates'] = 'Загварууд';
 $string['templatesaved'] = 'Загвар хадгалагдлаа';
 $string['text'] = 'Текст';
@@ -211,4 +211,3 @@ $string['viewfromdate'] = 'Эндээс хойших харагдана';
 $string['viewtodate'] = 'Энэ хүртэл харагдана';
 
 ?>
-

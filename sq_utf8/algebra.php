@@ -4,4 +4,3 @@
 $string['filtername'] = 'Shënim algjebrik';
 
 ?>
-

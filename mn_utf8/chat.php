@@ -60,4 +60,3 @@ $string['studentseereports'] = 'Бүгд өнгөрсөн session-г харж б
 $string['viewreport'] = 'Өнгөрсөн session-г харах';
 
 ?>
-

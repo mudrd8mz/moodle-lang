@@ -50,11 +50,10 @@ $string['thorough']  = 'гүйлт a нарийн туршилт (may байх s
 
 $string['unittests']  = 'нэгж туршилт ';
 
-$string['uncaughtexception']  = 'uncaught exception [{$a->getmessage()}] -д/-т [{$a->getfile()}:{$a->getline()}] туршилт aborted. ';
+$string['uncaughtexception']  = 'uncaught exception [{$a->getMessage()}] -д/-т [{$a->getFile()}:{$a->getLine()}] туршилт aborted. ';
 
 $string['version']  = 'хэрэглэх <a hr ';
 
 
 
  ?>
-

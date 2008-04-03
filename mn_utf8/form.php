@@ -8,4 +8,3 @@ $string['nonexistentformelements'] = 'Байхгүй маягтын элемен
 $string['requiredelement'] = 'Шаардлагатай талбар.';
 
 ?>
-

@@ -9,4 +9,3 @@ $string['leaveblanktohide'] = 'Гарчигийг харуулахгүй бол�
 $string['newhtmlblock'] = '(шинэ HTML блок)';
 
 ?>
-

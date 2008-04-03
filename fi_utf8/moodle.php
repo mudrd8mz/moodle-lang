@@ -930,7 +930,7 @@ $string['missingurl'] = 'Puuttuva URL';
 $string['missingusername'] = 'Puuttuva käyttäjänimi';
 $string['modified'] = 'Muokattu';
 $string['moduledeleteconfirm'] = 'Olet aikeissa poistaa moduulin \'$a\'. Kaikki tietokannassa olevat tiedot, jotka koskevat tätä moduulia, häviävät. Oletko VARMA, että haluat jatkaa?';
-$string['moduledeletefiles'] = 'Kaikki moduulia \'$a\' koskevat tiedot on poistettu tietokannasta. Päättääksesi poiston (ja estääksesi moduulin näkyville tulon), sinun tulisi poistaa palvelimelta hakemisto: $a->directory';
+$string['moduledeletefiles'] = 'Kaikki moduulia \'$a->module\' koskevat tiedot on poistettu tietokannasta. Päättääksesi poiston (ja estääksesi moduulin näkyville tulon), sinun tulisi poistaa palvelimelta hakemisto: $a->directory';
 $string['modulesetup'] = 'Asetetaan taulut moduuleille';
 $string['modulesuccess'] = '$a taulut asetettu';
 $string['moodledocs'] = 'Moodle Docs';
@@ -1105,7 +1105,7 @@ $string['passwordsent'] = 'Salasana on lähetetty';
 $string['passwordsenttext'] = '<p>Viesti on lähetetty osoitteeseen: $a->email.</p>
    <p><b>Tarkista viestistä uusi salasanasi</b></p>
    <p>uusi salasana on automaattisesti generoitu, joten haluat luultavasti
-   <a href=\"$a\"->link>vaihtaa sen sen joksikin helpommin muistettavaksi</a>.</p>';
+   <a href=\"$a->link\">vaihtaa sen sen joksikin helpommin muistettavaksi</a>.</p>';
 $string['pathnotexists'] = 'Polkua ei löydy palvelimelta';
 $string['pathslasherror'] = 'Polku ei voi päätyä kauttaviivaan \"/\"!';
 $string['paymentinstant'] = 'Napsauta painiketta maksaaksesi kurssista ja rekisteröityäksesi kurssille.';

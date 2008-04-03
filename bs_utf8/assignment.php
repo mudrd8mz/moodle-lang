@@ -9,7 +9,7 @@ $string['assignmentmail'] = '$a->teacher će poslati neka ponovna uključenja na
 Možete vidjeti dopunjavanje Vašeg odredjenog prijedloga:
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->predavač je poslao povratne informacije na slanje Vašeg materijala \'<i>$a->assignment</i>\'<br /><br />Pogledajte na <a href=\"$a->url\">priloženi materijal</a>.';
+$string['assignmentmailhtml'] = '$a->teacher je poslao povratne informacije na slanje Vašeg materijala \'<i>$a->assignment</i>\'<br /><br />Pogledajte na <a href=\"$a->url\">priloženi materijal</a>.';
 $string['assignmentname'] = 'Naziv zadatka';
 $string['assignmenttype'] = 'Vrsta zadatka';
 $string['configmaxbytes'] = 'Podrazumijevana maksimalna veličina zadatka za sve zadatke na sajtu (vezano za ograničenje kursa i ostala lokalna podešavanja)';

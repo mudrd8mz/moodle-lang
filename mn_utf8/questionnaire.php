@@ -15,4 +15,3 @@ $string['questionnaireid'] = 'Асуулга';
 $string['respondenttype'] = 'Хариуцсан төрөл ';
 
 ?>
-

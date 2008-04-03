@@ -28,7 +28,7 @@ $string['invalidfieldname'] = '\"$a\" اسم الحقل غير صحيح';
 $string['missingfield'] = 'الحقل \"$a\" غير موجود';
 $string['missingrequiredfield'] = 'بعض الحقول المطلوبة مفقودة';
 $string['modulerequirementsnotmet'] = 'الوحد \" $a->modulename\" ($a->moduleversion) لايمكن تثبتها الآن. أنها تتطلب أصدار جديد لمودل 
-(أنت تستخدم الآن $a->currentmoodle, وتحتاج $a ->requiremoodle)';
+(أنت تستخدم الآن $a->currentmoodle, وتحتاج $a->requiremoodle)';
 $string['mustbeteacher'] = 'المعلمون فقط يستطيعون معاينة هذه الصغحة';
 $string['notavailable'] = 'غير متوفر حاليا';
 $string['onlyeditown'] = 'تستطيع تحرير معلوماتك فقط';

@@ -62,6 +62,6 @@ $string['missingrequiredfield']='Mõned nõutud väljad on puudu';
 $string['nopermissions']='Vabandust, kuid Sa ei oma selleks õigusi ($a)';
 $string['pleasereport']='Kui Sul on aega, siis palun anna meile teada, mida proovisid teha, mil viga tekkis:';
 $string['pluginrequirementsnotmet']='Plugin \"$a->pluginname\" ($a->pluginversion) ei saanud installeerida. Ta vajab uuemat Moodle versiooni (praegu kasutad versiooni $a->currentmoodle, Sa vajad versiooni $a->requiremoodle).';
-$string['remotedownloadnotallowed']='Komponentide alla tõmbamine ei ole Sinu serverisse lubatud (sest allow_url_fopen keelatud).<br /><br />Sa pead tõmbama alla faili <a href=\"$a->url\">$a->URL</a> käsitsti, kopeerima \"$a->dest\" oma serveris ja sinna lahti pakkima.';
+$string['remotedownloadnotallowed']='Komponentide alla tõmbamine ei ole Sinu serverisse lubatud (sest allow_url_fopen keelatud).<br /><br />Sa pead tõmbama alla faili <a href=\"$a->url\">$a->url</a> käsitsti, kopeerima \"$a->dest\" oma serveris ja sinna lahti pakkima.';
 $string['invalidrequest']='Vigane päring';
 ?>

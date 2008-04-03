@@ -10,7 +10,7 @@ $string['editingends'] = 'Խմբագրման ժամանակը սպառվել է'
 $string['entries'] = 'Գրություններ/մուտքեր';
 $string['feedbackupdated'] = 'Փոփոխությունները հիշված են';
 $string['journalmail'] = '$a->teacher $a->journal ավելացրել է Ձեր գրության գնահատականը: Դուք կարող եք  տեսնել մեկնաբանությունը $a->url';
-$string['journalmailhtml'] = '$a դասավանդողը  <i>$a->journal</i> <br /><br /> ավելացրել է Ձեր գրության գնահատականը: Դուք կարող եք  տեսնել <a href=\"$a->url\">մեկնաբանությունը</a>: \"';
+$string['journalmailhtml'] = '$a->teacher դասավանդողը  <i>$a->journal</i> <br /><br /> ավելացրել է Ձեր գրության գնահատականը: Դուք կարող եք  տեսնել <a href=\"$a->url\">մեկնաբանությունը</a>: \"';
 $string['journalname'] = 'Աշխատանքային տետրի վերնագիրը';
 $string['journalquestion'] = 'Աշխատանքի թեման';
 $string['journalrating1'] = 'Անբավարար';

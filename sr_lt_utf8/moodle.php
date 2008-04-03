@@ -952,7 +952,7 @@ U većini programa za čitanje e-pošte, u redu iznad ovog biste trebali videti 
 označite i kopirajte adresu u adresnu liniju Vašeg Web čitača (Firefox, Mozilla, Internet Explorer, Opera).
 
 U slučaju da Vam treba tehnička pomoć, molimo kontaktirajte administratora sistema,
-$a->admin
+$a->signoff
 
 Pozdrav,
 \'$a->sitename\' administrator,
@@ -1487,8 +1487,6 @@ $string['view'] = 'Prikaz';
 $string['views'] = 'Prikazi';
 $string['viewsolution'] = 'vidi rešenje';
 $string['virusfound'] = 'Upozorenje za administratora! Clam AV je našao virus u datoteci koju je korisnik $a->user postavio za kurs $a->course. Ovde je rezultat Clam skeniranja:
-
-$a->action
 
 Korisnik koji je učitao datoteku je takođe obavešten o tome šta se dogodilo.';
 $string['virusfoundlater'] = 'U datoteci koja je postavljena dana $a->date pod imenom $a->filename za kurs $a->course je u međuvremenu pronađen virus. Ovde je sažeti izveštaj o tome šta se tokom vremena dešavalo sa datotekom:

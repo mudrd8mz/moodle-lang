@@ -103,4 +103,3 @@ $string['viewims'] = 'харах ims агуулга илгээмж ';
 $string['vol'] = 'vol ';
 
 ?>
-

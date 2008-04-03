@@ -21,7 +21,7 @@ $string['addedtogroup'] = 'Kua t&#257;piria ki te r&#333;p&#363; $a';
 $string['addedtogroupnot'] = 'K&#257;hore an&#333; kia t&#257;piri ki te r&#333;p&#363; $a';
 $string['addedtogroupnotenrolled'] = 'K&#257;hore an&#333; kia t&#257;piria ki te r&#333;p&#363; $a, k&#257;ore an&#333; ia hei t&#257; whakauru hei &#257;konga';
 $string['addinganew'] = 'T&#257;piria he $a hou';
-$string['addinganewto'] = 'T&#257;piri he $a->hou, ki te aha $a->ki';
+$string['addinganewto'] = 'T&#257;piri he $a->what, ki te aha $a->to';
 $string['addingdatatoexisting'] = 'T&#257;piri h&#333;tuku ki te kaupapa kua takato k&#275;';
 $string['addnewcategory'] = 'T&#257;piri he w&#257;hanga hou';
 $string['addnewcourse'] = 'T&#257;piri he w&#257;nanga hou';
@@ -252,7 +252,7 @@ $string['detailedless'] = 'Ng&#257; Whakaaturanga Iti';
 $string['detailedmore'] = 'Ng&#257; Whakaaturanga Maha';
 $string['directorypaths'] = 'Ng&#257; Ara K&#333;paki';
 $string['disable'] = 'Tineia';
-$string['displayingfirst'] = 'Whakaaturanga tuatahi o te $a->tatau $a->ng&#257; mea ';
+$string['displayingfirst'] = 'Whakaaturanga tuatahi o te $a->count $a->things mea ';
 $string['displayingrecords'] = 'Whakaaturanga P&#363;kete Urunga $a ';
 $string['displayingusers'] = 'Whakaaturanga Kaiwhakauru $a->start ki $a->end';
 $string['documentation'] = 'Tuhinga Moodle';
@@ -298,7 +298,7 @@ $a->link .
 M&#333; te nuinga o ng&#257; mahi im&#275;ra, whakaatu he hononga kikorangi, a, patoa.  Ki te koremana, tapahi. T&#257;pia hoki te k&#257;inga noho ki te r&#257;rangi k&#257;inga o t&#333;u ake matapihi ipurangi ki runga.
 
 Toro atu ki te kaiwhakahaere o te pae,
-$a->kaiwhakahaere hei tiaki.';
+$a->admin hei tiaki.';
 $string['emailconfirmationsubject'] = '$a: Tatai Whakamana';
 $string['emaildigest'] = 'Momo P&#363;rongo K&#333;rero Im&#275;ra';
 $string['emaildigestcomplete'] = 'Kua oti (ng&#257; im&#275;ra me ng&#257; tuku k&#333;rero ia r&#257;)';

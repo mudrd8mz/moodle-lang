@@ -4,7 +4,7 @@
 
 $string['adminreport'] = 'Informe sobre posibles problemas en su base de datos de preguntas.';
 $string['broken'] = 'Éste es un enlace roto: apunta a un archivo inexistente.';
-$string['byandon'] = 'por <em>$a->usuario</em> en <em>$a->hora</em>';
+$string['byandon'] = 'por <em>$a->user</em> en <em>$a->time</em>';
 $string['categorycurrent'] = 'Categoría actual';
 $string['categorycurrentuse'] = 'Usar esta categoría';
 $string['categorymoveto'] = 'Guardar en categoría';

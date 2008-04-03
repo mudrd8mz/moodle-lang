@@ -6,4 +6,3 @@ $string['advancedsearch'] = 'Өргөтгөсөн хайлт';
 $string['blocktitle'] = 'Хэлэлцүүлэгт хайх';
 
 ?>
-

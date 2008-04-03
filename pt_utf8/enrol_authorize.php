@@ -204,7 +204,7 @@ Obrigado pelo pagamento, Você increveu-se nas seguintes disciplinas:
 $a->courses
 
 Pode edutar o seu perfil em:
-$a>profileurl
+$a->profileurl
 
 Pode ver os detalhes do seu pagamento em:
 $a->paymenturl';

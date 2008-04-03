@@ -66,4 +66,3 @@ $string['userisblockingyounoncontact'] = 'Энэ хэрэглэгч зөвхөн
 $string['userssearchresults'] = 'Хайлтын дүн: $a хэрэглэгчид олдлоо';
 
 ?>
-

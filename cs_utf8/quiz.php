@@ -260,7 +260,6 @@ $string['introduction'] = 'Úvod';
 $string['invalidcategory'] = 'Neplatné ID kategorie';
 $string['invalidnumericanswer'] = 'Jedna nebo více vkládaných odpovědí nejsou platnými čísly';
 $string['invalidnumerictolerance'] = 'Jedna nebo více vkládaných tolerancí nejsou platnými čísly';
-$string['invalidsource'] = 'The source is not accepted as valid by the server $a->rendering_server.';
 $string['invalidsourcetype'] = 'Neplatný typ úlohy.';
 $string['itemanal'] = 'Analýza odpovědí';
 $string['itemdefinition'] = 'Definice';

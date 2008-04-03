@@ -385,4 +385,3 @@ $string['time'] = "Timp";
 $string['viewsurveyresponses'] = "Vizualizează răspunsurile la sondaj pentru \$a";
 
 ?>
-

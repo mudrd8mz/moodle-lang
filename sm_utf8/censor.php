@@ -3,4 +3,3 @@
 $string['filtername'] = "Word Censorship";
 
 ?>
-

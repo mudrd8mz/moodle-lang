@@ -9,12 +9,12 @@ $string['editingended'] = 'რედაქტირების დრო და
 $string['editingends'] = 'რედაქტირების დრო სრულდება';
 $string['entries'] = 'შიგთავსი';
 $string['feedbackupdated'] = '$a შიგთავსის გამოხმაურების განახლება';
-$string['journalmail'] = '$a->მასწავლებელმა გამოგზავნა გამოხმაურება  თქვენს რვეულში ჩანაწერისათვის \'$a->journal\'
+$string['journalmail'] = '$a->teacher გამოგზავნა გამოხმაურება  თქვენს რვეულში ჩანაწერისათვის \'$a->journal\'
 
 თქვენ შეიძლება ის იხილოთ:
 
 $a->url';
-$string['journalmailhtml'] = '$a->მასწავლებელმა გამოგზავნა გამოხმაურება  თქვენს რვეულში ჩანაწერისათვის<i>$a->journal</i>\'<br /><br />
+$string['journalmailhtml'] = '$a->teacher გამოგზავნა გამოხმაურება  თქვენს რვეულში ჩანაწერისათვის<i>$a->journal</i>\'<br /><br />
 
 თქვენ შეიძლება ის იხილოთ:<a href=\"$a->url\">journal entry</a>.
 ';

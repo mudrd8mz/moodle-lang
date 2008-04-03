@@ -102,4 +102,3 @@ $string['friday'] = 'Баасан';
 $string['saturday'] = 'Бямба';
 
 ?>
-

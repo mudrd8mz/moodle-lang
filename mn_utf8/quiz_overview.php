@@ -10,4 +10,3 @@ $string['overview'] = 'Дүн';
 $string['overviewdownload'] = 'Дүн татах';
 
 ?>
-

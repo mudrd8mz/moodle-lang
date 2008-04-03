@@ -43,4 +43,3 @@ $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'සිංහල ';
 
 ?>
-

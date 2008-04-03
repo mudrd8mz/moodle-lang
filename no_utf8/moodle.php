@@ -568,11 +568,11 @@ $string['existingcreators'] = 'Eksisterende kursprodusenter';
 $string['existingstudents'] = 'Innmeldte studenter';
 $string['existingteachers'] = 'Eksisterende lærere';
 $string['expirynotify'] = 'Melding om at innmeldingen går ut på dato';
-$string['expirynotifyemail'] = 'Følgende studenter i dette kurset blir kastet ut etter nøyaktig $a->treshold dager:
+$string['expirynotifyemail'] = 'Følgende studenter i dette kurset blir kastet ut etter nøyaktig $a->threshold dager:
 
 $a->current
 
-Følgende studenter på dette kuret blir kastet ut innen $a->treshold dager:
+Følgende studenter på dette kuret blir kastet ut innen $a->threshold dager:
 
 $a->past
 

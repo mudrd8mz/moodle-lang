@@ -9,12 +9,12 @@ $string['editingended'] = 'Ua uma le taimi o fa\'asa\'oga';
 $string['editingends'] = 'Ua uma le taimi o fa\'asa\'oga';
 $string['entries'] = 'Fa\'amaumauga';
 $string['feedbackupdated'] = 'O tali mai i au galuega $a tusitusia';
-$string['journalmail'] = '$a->ua tali atu le faiaoga i au tusitusiga/fa\'amaumauga mo le \'$a->tusitusiga\'
+$string['journalmail'] = '$a->teacher tali atu le faiaoga i au tusitusiga/fa\'amaumauga mo le \'$a->journal\'
 
 O lo\'o fa\'apipi\'iina atu i au tusitusiga ina ia mafai ona e va\'ai i ai:
 
     $a->url';
-$string['journalmailhtml'] = '$a->ua tali atu le faiaoga i au tusitusiga/fa\'amaumauga mo le \'$a->tusitusiga\'
+$string['journalmailhtml'] = '$a->teacher tali atu le faiaoga i au tusitusiga/fa\'amaumauga mo le \'$a->journal\'
  \'<i>$a->journal</i>\'<br /><br />
 O lo\'o fa\'apipi\'iina atu i lau <a href=\"$a->url\">journal entry</a>.';
 $string['journalname'] = 'Igoa o tusitusiga/fa\'amaumauga';

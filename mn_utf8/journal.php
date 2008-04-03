@@ -31,4 +31,3 @@ $string['startoredit'] = 'Миний сэтгvvлийг оруулж эхлэх 
 $string['viewallentries'] = '$a сэтгvvлийн оруулгыг харах';
 
 ?>
-

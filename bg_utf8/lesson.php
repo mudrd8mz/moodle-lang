@@ -220,7 +220,6 @@ $string['teachertimerwarning'] = "Timer only works for students.  Test the timer
 $string['timed'] = "Timed";
 $string['timeremaining'] = "Time Remaining";
 $string['timetaken'] = "Time taken";
-$string['topscorestitle'] = "Top \$a->maxhighscores scores for \$a->name lesson.";
 $string['treeview'] = "Tree View";
 $string['unseenpageinbranch'] = "Unseen Question within a Branch";
 $string['updatefailed'] = "Update Failed";

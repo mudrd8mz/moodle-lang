@@ -7,4 +7,3 @@ $string['filtername']  = 'алгебр бичлэг ';
 
 
  ?>
-

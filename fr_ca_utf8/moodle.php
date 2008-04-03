@@ -678,7 +678,7 @@ Veuillez vous rendre sur cette page afin de changer de mot de passe :
    $a->link
 Dans la plupart des logiciels de messagerie, cette adresse devrait apparaître comme un lien de couleur bleue qu\'il vous suffit de cliquer. Si cela ne fonctionne pas, copiez et collez ce lien dans la ligne adresse de votre navigateur Web.
 Cordialement,
-$a->admin
+$a->signoff
 Administrateur du site \'$a->sitename\'';
 $string['newpicture'] = 'Nouvelle image';
 $string['newsitem'] = 'article';

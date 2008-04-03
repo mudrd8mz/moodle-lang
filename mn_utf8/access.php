@@ -23,4 +23,3 @@ $string['tonavigation'] = 'Удирдлага руу очих';
 $string['youarehere'] = 'Та энд байна';
 
 ?>
-

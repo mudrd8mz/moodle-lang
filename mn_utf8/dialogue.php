@@ -67,4 +67,3 @@ $string['typereply'] = 'Хариуг энд бич';
 $string['viewallentries'] = '$a харилцан ярианы оруулгыг харах';
 
 ?>
-

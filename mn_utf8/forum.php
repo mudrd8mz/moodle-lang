@@ -257,4 +257,3 @@ $string['yournewtopic'] = 'Таны шинэ хэлэлцүүлэг сэдэв';
 $string['yourreply'] = 'Таны хариу';
 
 ?>
-

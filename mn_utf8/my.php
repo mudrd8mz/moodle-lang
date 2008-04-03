@@ -19,4 +19,3 @@ $string['pinblocksexplan']  = 'хэн нэг хэсэг тохиргоо Та co
 
 
  ?>
-

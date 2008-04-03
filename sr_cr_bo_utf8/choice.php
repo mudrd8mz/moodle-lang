@@ -1,5 +1,3 @@
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
 <?PHP // $Id$ 
 
       // choice.php - created with Moodle 1.2 development (2003111400)
@@ -45,4 +43,3 @@ $string['viewallresponses'] = 'Погледајте $a одговоре';
 
 
 ?>
-

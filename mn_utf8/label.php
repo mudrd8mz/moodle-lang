@@ -7,4 +7,3 @@ $string['modulename'] = 'Шошго';
 $string['modulenameplural'] = 'Шошго';
 
 ?>
-

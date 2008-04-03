@@ -66,7 +66,7 @@ $string['deletenotenrolled'] = 'Verwijder items van niet aangemelde gebruikers';
 $string['deletewarning'] = 'Ben je zeker dat je deze sjabloonset wil verwijderen?';
 $string['descending'] = 'Aflopend';
 $string['directorynotapreset'] = '$a->directory Geen sjabloon: bestanden ontbreeken:
-$a-> missing_files';
+$a->missing_files';
 $string['download'] = 'Download';
 $string['edit'] = 'Bewerk';
 $string['editcomment'] = 'Bewerk commentaar';

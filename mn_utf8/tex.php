@@ -5,4 +5,3 @@
 $string['filtername'] = 'TeX Тэмдэлэгээ ';
 
 ?>
-

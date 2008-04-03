@@ -186,4 +186,3 @@ $string['yourfeedbackgoeshere'] = 'Таны Санал энд орно';
 $string['yoursubmission'] = 'Таны Оруулга';
 
 ?>
-

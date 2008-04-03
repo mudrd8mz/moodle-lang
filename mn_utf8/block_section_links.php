@@ -9,4 +9,3 @@ $string['topics'] = 'Сэдэв ';
 $string['weeks'] = 'Долоо хоног ';
 
 ?>
-

@@ -300,4 +300,3 @@ $string['yourcurrentgradeisoutof'] = 'Таны одоогийн оноо $a->tot
 $string['youshouldview'] = 'Та ядаж $a хариулсан байх ёстой';
 
 ?>
-

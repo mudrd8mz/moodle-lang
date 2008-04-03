@@ -126,4 +126,3 @@ $string['wordclean'] = 'Word HTML ийг цэвэрлэх';
 $string['zip'] = 'Шуудангийн код';
 
 ?>
-

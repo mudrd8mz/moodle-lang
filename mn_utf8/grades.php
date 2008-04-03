@@ -125,4 +125,3 @@ $string['writinggradebookinfo'] = 'Дүнгийн журнал хөтлөх то
 $string['yes'] = 'За';
 
 ?>
-

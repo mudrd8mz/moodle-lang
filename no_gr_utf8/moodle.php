@@ -315,8 +315,7 @@ $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: bytt passord - bekreftelse';
 $string['emailpasswordconfirmsent'] = 'En e-post er nå sendt til din adresse <b>$a</b>.
 <br />Den inneholder instruksjoner for å fullføre endringen av passord. LES DENNE NØYE!
-Hvis du trenger hjelp, vennligst ta kontakt med administrator,
-$a->admin';
+Hvis du trenger hjelp, vennligst ta kontakt med administrator';
 $string['emailpasswordsent'] = '<p>Takk for bekreftelse av passordbytte.</p>
 <p>En e-post med det NYE passordet er sendt til din adresse <b>$a->email</b>.</p>
 <p>Det nye passordet ble automatisk laget - du vil kanskje <a href=$a->link>endre passordet</a> til noe som er lettere å huske.</p>

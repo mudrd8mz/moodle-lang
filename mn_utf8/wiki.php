@@ -189,4 +189,3 @@ $string['withvirtualpages'] = 'Wiki-холбоосд хамаарна ';
 $string['wrongversionrange'] = '$a нь буруу мєр ';
 
 ?>
-

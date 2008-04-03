@@ -379,8 +379,7 @@ $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: potvrda promjene lozinke';
 $string['emailpasswordconfirmsent'] = 'Trebali ste primiti email poruku poslanu na adresu <b>$a</b>.
 <p>Poruka sadrzi jednostavne upute kako potvrditi zatrazenu promjenu lozinke.
-U slucaju da trebate tehnicku pomoc, molimo kontaktirajte administratora sustava,
-$a->admin</p>';
+U slucaju da trebate tehnicku pomoc, molimo kontaktirajte administratora sustava';
 $string['emailpasswordsent'] = 'Zahvaljujemo na potvrdjenju zahtjeva za promjenu lozinke.
 <p>Email poruka koja sadrzava vasu novu lozinku je poslana na vasu adresu <b>$a->email</b>.</p>
 <p>Nova lozinka je automatski generirana - preporucujemo da istu <a href=\"$a->link\"<promijenite </a> CIM ju dobijete u lozinku koju cete lakse zapamtiti.</p>';
@@ -731,7 +730,7 @@ U vecini programa za citanje e-maila, u redu iznad ovog biste trebali vidjeti pl
 oznacite i kopirajte adresu u adresnu liniju vaseg internet browsera (Firefox, Mozilla, Internet Explorer, Opera).
 
 U slucaju da trebate tehnicku pomoc, molimo kontaktirajte administratora sustava,
-$a->admin
+$a->signoff
 
 Pozdrav,
 \'$a->sitename\' administrator,

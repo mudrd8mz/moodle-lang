@@ -30,4 +30,3 @@ $string['workspace'] = 'Ажлын орчиноо сонго';
 $string['wrongversionrange'] = '$a нь зөв дараалал биш байна!';
 
 ?>
-

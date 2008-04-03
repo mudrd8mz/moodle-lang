@@ -556,8 +556,7 @@ Det innehåller enkla instruktioner för att Du ska
 kunna bekräfta och fullfölja detta byte av lösenord.
 
 Om Du stöter på problem, är Du välkommen att
-kontakta den som ansvarar för webbplatsen:
-$a->admin.';
+kontakta den som ansvarar för webbplatsen.';
 $string['emailpasswordsent'] = 'Tack för att Du bekräftade bytet av lösenord.
 
 Vi har skickat ett e-postbrev som innehåller

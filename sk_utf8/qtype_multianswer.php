@@ -1,3 +1,3 @@
 <?php
-$string['decodeverifyquestiontext'] = 'SKONTROLUJTE TEXT OTÁZKY';
+$string['decodeverifyquestiontext'] = 'SKONTROLUJTE TEXT OTÃZKY';
 ?>

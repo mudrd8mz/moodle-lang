@@ -1429,7 +1429,7 @@ $string['version'] = 'Útgáfa';
 $string['view'] = 'Skoða';
 $string['views'] = 'Skoðað';
 $string['viewsolution'] = 'skoða lausn';
-$string['virusfound'] = 'Ath. kerfisstjóri! Clam AV hefur fundið vírus í skrá sem innflutt var af notandanum $a->use í áfangann $a->course. Hér má sjá niðurstöðu vírusvarnarinnar:';
+$string['virusfound'] = 'Ath. kerfisstjóri! Clam AV hefur fundið vírus í skrá sem innflutt var af notandanum $a->user í áfangann $a->course. Hér má sjá niðurstöðu vírusvarnarinnar:';
 $string['virusfoundlater'] = 'Skráin $a->filename sem hlaðið var inn $a->date í áfangann $a->course inniheldur vírus. Eftirfarandi aðgerðir voru framkvæmdar:
 $a->action
 Ef um var að ræða innsent efni, t.d. verkefni, er skynsamlegt að senda það inn aftur þannig að kennarinn hafi aðgang að því.';

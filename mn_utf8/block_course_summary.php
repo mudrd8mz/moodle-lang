@@ -6,4 +6,3 @@ $string['coursesummary'] = 'Курсын Танилцуулга';
 $string['pagedescription'] = 'Курс/Сайтын Тодорхойлолт ';
 
 ?>
-

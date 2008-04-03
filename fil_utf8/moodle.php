@@ -761,7 +761,7 @@ Pakipuntahan ang pahinang ito para baguhin ang password mo:
 
 Karamihan sa mga program ng mail, dapat ito ay link na kulay asul na puwede mong i-klik. Kung ayaw nitong gumana, putulin (cut) at idikit (paste) mo ang address sa o linya ng address sa may itaas ng bintana ng iyong browser ng web.
 
-Kung kailangan mo ng tulong, pakikontak ang tagapangasiwa ng site, $a->admin
+Kung kailangan mo ng tulong, pakikontak ang tagapangasiwa ng site,
 
 Mabuhay mula sa tagapangasiwa ng \'$a->sitename\' ,
 $a->signoff';

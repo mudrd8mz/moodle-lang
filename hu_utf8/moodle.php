@@ -464,7 +464,7 @@ $string['emailpasswordchangeinfodisabled'] = 'Üdvözöljük $a->firstname, Vala
 $string['emailpasswordchangeinfo'] = 'Üdvözöljük $a->firstname, Valaki (feltehetőleg Ön) egy új jelszó létrehozását igényelte a(z) \'$a->sitename\'. Jelszava módosításához látogasson el ide: $a->link. Általában a levelező programokban ez kék ugrópontként jelenik meg, amelyre csak kattintania kell. Ha ez nem működik, másolja ki a címet a böngészőablak tetején lévő címsorba.  Ha segítségre van szüksége, forduljon a portál rendszergazdájához: $a->admin';
 $string['emailpasswordchangeinfofail'] = 'Üdvözöljük, $a->firstname! Valaki (feltehetőleg Ön) új jelszót kért a(z) $a->sitename portálon lévő azonosítójához. Jelszavát ezen a portálon nem lehetett helyreállítani, forduljon a portálon $a->admin rendszergazdához.';
 $string['emailpasswordchangeinfosubject'] = '\$a: jelszómódosítás adatai';
-$string['emailpasswordsent'] = 'Köszönjük a jelszómódosítás megerősítését. Egy e-mailt kellett kapnia $a címére. Az új jelszó automatikusan elkészült - előfordulhat, hogy szeretné <a href=\"$a->link\">jelszavát kicserélni</a> valamilyen könnyebben megjegyezhetőre.';
+$string['emailpasswordsent'] = 'Köszönjük a jelszómódosítás megerősítését. Egy e-mailt kellett kapnia $a->email címére. Az új jelszó automatikusan elkészült - előfordulhat, hogy szeretné <a href=\"$a->link\">jelszavát kicserélni</a> valamilyen könnyebben megjegyezhetőre.';
 $string['enable'] = 'Bekapcsolás';
 $string['encryptedcode'] = 'Titkosított kód';
 $string['enroldate'] = 'Időköz';

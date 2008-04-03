@@ -10,4 +10,3 @@ $string['description'] = 'Энэ нь элсэлтийн анхны хэлбэр
 $string['enrolname'] = 'Дотоод элсэлт';
 
 ?>
-

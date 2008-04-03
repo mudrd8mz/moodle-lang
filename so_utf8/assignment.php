@@ -4,11 +4,11 @@
 
 $string['allowresubmit'] = 'U Oggolow dib-u-dhiibid';
 $string['assignmentdetails'] = 'Faahfaahinta shaqada wax-barashoo';
-$string['assignmentmail'] = '$a-> ayaa ku soo dhajiyey ra\'yi-celis ku saabsan dhiibitaankaagii shaqo wax-barasho\'$a->assignment\'
+$string['assignmentmail'] = '$a->teacher ayaa ku soo dhajiyey ra\'yi-celis ku saabsan dhiibitaankaagii shaqo wax-barasho\'$a->assignment\'
 
 Waad arki kartaa iyada oo ku lifaaqan dhiibitaankaagii shaqo-waxbarsho:
 $a->url';
-$string['assignmentmailhtml'] = '$a-> ayaa ku soo dhajiyey ra\'yi-celis ku saabsan dhiibitaankaagii shaqo wax-barasho\'$a->assignment\'br /><br />
+$string['assignmentmailhtml'] = '$a->teacher ayaa ku soo dhajiyey ra\'yi-celis ku saabsan dhiibitaankaagii shaqo wax-barasho\'$a->assignment\'br /><br />
 
 Waad arki kartaa iyada oo ku lifaaqan dhiibitaankaagii shaqo-waxbarsho:
 $a->url> dhiibitaanka shaqo-waxbarsho</a>.';
@@ -22,7 +22,7 @@ $string['duedateno'] = 'Maalin rabid la\'aan';
 $string['early'] = '$a horey';
 $string['editmysubmission'] = 'Tafatir dhiibitaankeyga';
 $string['emailteachermail'] = ' 
-$a-> ayaa cusbooneysiiyey dhiibitaankii shaqo-waxbarasho\'$a->assignment\'
+$a->username ayaa cusbooneysiiyey dhiibitaankii shaqo-waxbarasho\'$a->assignment\'
 
 Waxa laga helayaa halkan:
 

@@ -6,4 +6,3 @@ $string['modulename'] = 'Вебквест';
 $string['modulenameplural'] = 'Вебквестүүд';
 
 ?>
-

@@ -151,4 +151,3 @@ $string['weighting'] = 'Чанар';
 $string['wrong'] = 'Буруу';
 
 ?>
-
