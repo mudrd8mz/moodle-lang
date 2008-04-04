@@ -1,0 +1,89 @@
+<h1>Import otázok zo súboru</h1>
+
+<p>Táto funkcia povoľuje import otázok z externých textových súborov, nahraním cez formulár alebo vybratím vhodného súboru v kurze.</p>
+
+<h2>Poznámka ku kódovaniu znakov</h2>
+
+<p>Ak Váš súbor obsahuje znaky, ktoré nie sú súčasťou ASCII, potom musíte použiť kódovanie UTF-8. Na výber alebo zmenu kódovania na UTF-8 môžete použiť Váš textový editor, alebo môže byť táto voľba nastavená v programe, z ktorého sú súbory exportované. Buďte obzvlášť opatrní so súbormi vytvorenými aplikáciami Microsoft Office, ktoré bežne používajú špeciálne kódovanie, ktoré nebude správne spracované. Importné formáty založené na XML formáte budú spracované automaticky, ak je vo Vašom Moodle serveri nainštalované PHP 5.</p>
+
+<p>Existuje viacero podporovaných formátov súborov:</p>
+
+<h2>GIFT formát</h2>
+
+<p>GIFT je najkomplexnejší z formátov, ktoré sú k dispozícii na import textových otázok z textových súborov. Bol navrhnutý ako jednoduchý nástroj pre učiteľov, ktorý vytvárajú otázky v formáte textového súboru. Podporuje otázky s: Viacerými možnosťami, Pravda/Nepravda, Krátke odpovede, Numerické a Zodpovedajúce otázky, ako aj vloženie  _____ do formátu "chýbajúce slovo". Rôzne typy otázok môžu byť pomiešané v jednom textovom súbore. Formát GIFT tiež podporuje poznámky k úlohám, názvy otázok, spätnú väzbu  a percentuálne hodnotenie. Pár príkladov:</p>
+<pre>
+Kto je pochovaný v hrobke Grant? {~Grant ~Jefferson =nikto}
+
+Grant je {~pochovaný =uložený ~žije} v Grant hrobke.
+
+Grant je pochovaný v Grant hrobke.{FALSE}
+
+Kto je pochovaný Grant hrobke?{=ani jeden =nikto}
+
+Kedy bol narodený Ulysses S. Grant?{#1822}
+</pre>
+
+<p class="moreinfo"><a href="help.php?file=formatgift.html&amp;module=quiz">Viac informácii o GIFT formáte</a></p>
+
+<h2>Formát Aiken</h2>
+
+<p>Je to jednoduchý formát pre import otázok s viacerými možnosťami z textového súboru</p>
+<p class="moreinfo"><a href="help.php?file=formataiken.html&amp;module=quiz">Viac informácii o Aiken formáte</a></p>
+
+<h2>Moodle XML formát</h2>
+
+<p>Tento špecifický Moodle formát importuje otázky testov, ktoré už boli exportované v rovnakom formáte. Formát je jednoduchý a je demonštrovaný exportovaním kategórie v Moodle XML formáte. XML formát umožňuje import obrázkových súborov.</p>
+<p class="moreinfo"><a href="help.php?file=formatxml.html&amp;module=quiz">Viac informácii Moodle XML formáte</a></p>
+
+<h2>Chýbajúce slovo</h2>
+
+<p>Tento formát podporuje iba otázky s viacerými možnosťami a otázky s krátkymi odpoveďami, čo závisí od počtu odpovedí. Jedna odpoveď vytvára otázku s krátkou odpoveďou, dve alebo viac odpovedí vytvára otázky s viacerými možnosťami. Každá odpoveď je oddelená tildou (~), a správna odpoveď je označená (=). Príklad otázky s viacerými možnosťami:</p>
+
+<blockquote><p>Už v rannom veku, kedy začíname skúmať svoje telo, sa z nás stávajú študenti {=anatómie a fyziológie ~reflexológie ~vedy ~experimentovania} a študentmi v istom zmysle zostávame až do konca života.
+</p></blockquote>
+
+<p>Príklad otázky s krátkou odpoveďou:</p>
+
+<blockquote><p>Už v rannom veku, kedy začíname skúmať svoje telo, sa z nás stávajú študenti {=anatómie a fyziológie} a študentmi v istom zmysle zostávame až do konca života.
+</p></blockquote>
+
+<h2>Formát Blackboard</h2>
+
+<p>Tento modul môže importovať otázky v exportnom formáte Blackboard typu "POOL". Je založený na XML funkciách, ktoré sú skompilované vo Vašom PHP.
+Upozornenie: Najprv musíte rozbaliť exportovaný súbor zip a dodať Moodle príslušný súbor .dat.
+Upozornenie: Táto verzia <strong>nie je</strong> kompatibilná s Blackboard verziou 6 a novšou.</p>
+
+<h2>Formát Blackboard V6+</h2>
+
+<p>Tento modul môže importovať otázky uložené v exportnom formáte Blackboard. V obmedzenej miere podporuje Blackboard verziu 6 a 7. Závisí to od XML funkcií, ktoré sú skompilované vo Vašom PHP. Musíte nahrať zip súbor exportovaný z Blackboard.</p>
+
+<h2>WebCT</h2>
+
+<p>Tento modul môže importovať otázky uložené v textovo založenom formáte WebCT. </p>
+
+<p class="moreinfo"><a href="help.php?file=formatwebct.html&amp;module=quiz">Viac informácii o "WebCT" formáte</a></p>
+
+<h2>Formát Course Test Manager</h2>
+
+<p>Tento modul môže importovať otázky uložené v banke Course Test Manager. Spolieha na rozdielne spôsoby prístupu do banky testov, ktoré sa nachádzajú v databáze Microsoft Access, závisiac od toho, či je Moodle spustený v operačnom systéme Windows alebo Linux.</p>
+<p>Vo Windows je povolené nahrať prístupovú databázu rovnakým spôsobom ako ostatné importné súbory.</p>
+<p>V Linuxe musíte do rovnakej siete umiestniť počítač so systémom Windows, na ktorý skopírujete databázu Course Test Manager a program ODBC Socket Server, ktorý používa XML na prenos dát do Moodle v Linuxe.</p>
+<p>Pred použitím si prečítajte podrobnejšiu nápovedu.</p>
+
+<p class="moreinfo"><a href="help.php?file=formatctm.html&amp;module=quiz">Viacej informácií o "CTM" formáte</a></p>
+
+<h2>S vloženými odpoveďami(Cloze)</h2>
+
+<p>Tento špeciálny formát importuje len jeden typ otázky, formát otázky s vloženými odpoveďami (Cloze). </p>
+
+<p class="moreinfo"><a href="help.php?file=multianswer.html&amp;module=quiz">Viac informácií o &quot;Cloze&quot; formáte</a></p>
+
+<h2>Formát Learnwise</h2>
+
+<p>Tento formát môže imporotvať otázky s viacerými odpoveďami uloženými v Learnwise XML formáte.</p>
+
+<h2>Formát Examview</h2>
+
+<p>Tento formát môže importovať z XML súborov Examview verzie 4. Upozernenie: Staršie verzie Examview nie sú podporované.</p>
+
+<p>Importované a exportované formáty sú vo forme zásuvných modulov. Ďalšie voliteľné formáty sú sprístupnené v databáze Modules and Plugins na stránke moodle.org. </p>
