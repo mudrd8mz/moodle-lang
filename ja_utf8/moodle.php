@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -165,7 +165,7 @@ $string['backupsavetohelp'] = 'バックアップファイルの保存先ディ�
 $string['backupschedulehelp'] = '何曜日に自動バックアップを実行するか選択してください。';
 $string['backupsitefileshelp'] = 'このオプションを有効にした場合、コースで使用されているサイトファイルが自動バックアップに含まれます。';
 $string['backuptakealook'] = '次のバックアップログをご覧ください: $a';
-$string['backupuserfileshelp'] = '自動バックアップにユーザファイル (例 プロファイル写真) を含めるかどうか選択してください。';
+$string['backupuserfileshelp'] = '自動バックアップにユーザファイル (例 プロファイル画像) を含めるかどうか選択してください。';
 $string['backupusershelp'] = 'サーバ内の全ユーザを含めるか、各コースに必要なユーザのみを含めるか選択してください。';
 $string['backupversion'] = 'バックアップバージョン';
 $string['block'] = 'ブロック';
@@ -334,7 +334,7 @@ $string['currentcoursedeleting'] = '現在のコース、最初に削除する';
 $string['currentlanguage'] = '現在の言語';
 $string['currentlocaltime'] = 'あなたの現在のローカルタイム';
 $string['currentlyselectedusers'] = '現在の選択済みユーザ';
-$string['currentpicture'] = '現在の写真';
+$string['currentpicture'] = '現在の画像';
 $string['currentrelease'] = '現在のリリース情報';
 $string['currentversion'] = '現在のバージョン';
 $string['databasechecking'] = 'Moodleデータベースをバージョン $a->oldversion より $a->newversion へアップグレードしています ...';
@@ -713,7 +713,7 @@ $string['helpformatting'] = 'テキストフォーマットに関して';
 $string['helphtml'] = 'htmlの書き方';
 $string['helpindex'] = '全ヘルプファイルのインデックス';
 $string['helpinterestslist'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。';
-$string['helppicture'] = '写真のアップロード方法';
+$string['helppicture'] = '画像のアップロード方法';
 $string['helpprefix'] = 'ヘルプ 「 $a 」';
 $string['helpprefix2'] = '$a のヘルプ';
 $string['helpquestions'] = '適切な質問をする';
@@ -730,7 +730,7 @@ $string['hiddensectionscollapsed'] = '非表示のコースセクションを折
 $string['hiddensectionsinvisible'] = '非表示のコースセクションを完全に見えなくする';
 $string['hide'] = '非表示';
 $string['hideadvancedsettings'] = '高度な設定を隠す';
-$string['hidepicture'] = '写真を隠す';
+$string['hidepicture'] = '画像を隠す';
 $string['hidesection'] = 'セクション $a を隠す';
 $string['hidesettings'] = '設定を隠す';
 $string['hits'] = 'アクセス';
@@ -752,7 +752,7 @@ $string['idnumber'] = 'IDナンバー';
 $string['idnumbercourse'] = 'コースIDナンバー';
 $string['idnumbermod'] = 'IDナンバー';
 $string['idnumbertaken'] = 'このIDナンバーはすでに使用されています。';
-$string['imagealt'] = '写真の説明';
+$string['imagealt'] = '画像の説明';
 $string['import'] = 'インポート';
 $string['importactivities'] = '他のコースより活動をインポートする';
 $string['importdata'] = 'コースデータをインポートする';
@@ -983,7 +983,7 @@ $a->link
 
 「 $a->sitename 」の管理者よりご挨拶でした。
 $a->signoff';
-$string['newpicture'] = '新しい写真';
+$string['newpicture'] = '新しい画像';
 $string['newsitem'] = '件のニュースアイテムを表示する';
 $string['newsitems'] = '件のニュースアイテムを表示する';
 $string['newsitemsnumber'] = 'ニュースアイテムの表示件数';
@@ -1133,7 +1133,7 @@ $string['personalprofile'] = 'パーソナルプロファイル';
 $string['phone'] = '電話';
 $string['phone2'] = '携帯電話';
 $string['phpinfo'] = 'PHP情報';
-$string['pictureof'] = '写真 $a';
+$string['pictureof'] = '画像 $a';
 $string['pleaseclose'] = 'このウィンドウを閉じてください。';
 $string['plugincheck'] = 'プラグインチェック';
 $string['pluginchecknotice'] = '次のテーブルには、あなたの現在のMoodleで検出されたモジュール、ブロックおよびフィルタが表示されています。テーブルでは、どのプラグインが標準であり、どのプラグインが標準でないか示されています。Moodleのアップグレードを続ける前に、すべての非標準プラグインを確認および最新バージョンへアップグレードしてください。';
@@ -1522,7 +1522,7 @@ $string['usernamelowercase'] = '小文字のみ使用できます。';
 $string['usernamenotfound'] = 'ユーザ名がデータベース内に見つかりませんでした。';
 $string['usernameoremail'] = 'ユーザ名またはメールアドレスを入力してください。';
 $string['usernotconfirmed'] = '$a を確認できませんでした。';
-$string['userpic'] = 'ユーザ写真';
+$string['userpic'] = 'ユーザ画像';
 $string['userprofilefor'] = '$a のプロファイル';
 $string['users'] = 'ユーザ';
 $string['usersnew'] = '新しいユーザ';
@@ -1607,8 +1607,8 @@ $string['yourlastlogin'] = 'あなたの最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
-$string['skiptomaincontent'] = 'メインコンテンツに移動する'; // TBD
-$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; // TBD
-$string['weeks'] = '週'; // TBD
+$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (Build: 20080331) (2008030700)
+$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (Build: 20080331) (2008030700)
+$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (Build: 20080331) (2008030700)
 
 ?>

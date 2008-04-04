@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (2007101508.04)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
 
 
 $string['add_item'] = '質問を追加する';
@@ -123,9 +123,9 @@ $string['page'] = 'ページ';
 $string['page_after_submit'] = '回答送信後のページ';
 $string['pagebreak'] = 'ページブレーク';
 $string['parameters_missing'] = 'パラメータが入力されていません:';
-$string['picture'] = 'ピクチャ';
-$string['picture_file_list'] = 'ピクチャリスト';
-$string['picture_values'] = '一覧より１つまたはそれ以上の<br />ピクチャを選択してください:';
+$string['picture'] = '画像';
+$string['picture_file_list'] = '画像リスト';
+$string['picture_values'] = '一覧より１つまたはそれ以上の<br />画像を選択してください:';
 $string['position'] = 'ポジション';
 $string['preview'] = 'プレビュー';
 $string['previous_page'] = '前のページ';
