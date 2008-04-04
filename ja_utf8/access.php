@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 2.0 dev (2007101508)
+      // access.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
 
 
 $string['access'] = 'アクセシビリティ';
@@ -24,6 +24,6 @@ $string['tablelayout'] = 'レイアウトテーブル $a';
 $string['tocontent'] = 'メインコンテンツへスキップする';
 $string['tonavigation'] = 'ナビゲーションへ移動する';
 $string['youarehere'] = '現在地';
-$string['showhideblock'] = 'ブロックの表示または非表示'; //TBD with Moodle 2.0 dev (2007101508)
+$string['showhideblock'] = 'ブロックの表示または非表示'; // TBD
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // attforblock.php - created with Moodle 2.0 dev (2007101508)
+      // attforblock.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
 
 
 $string['attforblock:changepreferences'] = '属性の変更';
@@ -12,6 +12,6 @@ $string['description'] = 'あなたは、1つのコースにつき1つの出欠�
 $string['modulename'] = '出欠';
 $string['modulenameplural'] = '出欠';
 $string['notfound'] = 'このコースには出欠活動がありません!';
-$string['modulenamesimple'] = '出欠'; //TBD with Moodle 2.0 dev (2007101508)
+$string['modulenamesimple'] = '出欠'; // TBD
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 2.0 dev (2007101508)
+      // countries.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
 
 
 $string['AD'] = 'アンドラ公国';
@@ -248,11 +248,11 @@ $string['YT'] = 'マイヨット島';
 $string['ZA'] = '南アフリカ共和国';
 $string['ZM'] = 'ザンビア共和国';
 $string['ZW'] = 'ジンバブエ共和国';
-$string['CS'] = 'セルビア・モンテネグロ'; //TBD with Moodle 2.0 dev (2007101508)
-$string['FX'] = 'フランス本国'; //TBD with Moodle 2.0 dev (2007101508)
-$string['KO'] = 'コソボ'; //TBD with Moodle 2.0 dev (2007101508)
-$string['TP'] = '東ティモール'; //TBD with Moodle 2.0 dev (2007101508)
-$string['WA'] = 'ウェールズ'; //TBD with Moodle 2.0 dev (2007101508)
-$string['ZR'] = 'ザイール共和国'; //TBD with Moodle 2.0 dev (2007101508)
+$string['CS'] = 'セルビア・モンテネグロ'; // TBD
+$string['FX'] = 'フランス本国'; // TBD
+$string['KO'] = 'コソボ'; // TBD
+$string['TP'] = '東ティモール'; // TBD
+$string['WA'] = 'ウェールズ'; // TBD
+$string['ZR'] = 'ザイール共和国'; // TBD
 
 ?>

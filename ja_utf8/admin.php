@@ -750,11 +750,11 @@ $string['webproxy'] = 'ウェブプロクシ';
 $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネットに接続できない場合、以下のオプションに必要事項を入力してください。インターネットアクセスは、環境データ、言語パック、RSSフィード、タイムゾーン等のダウンロードに必要です。<br />PHP cURL拡張モジュールの使用を強くお勧めします。';
 $string['xmlrpcrecommended'] = '任意のxmlrpc拡張モジュールのインストールは、Moodleネットワーキング機能に有用です。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
-$string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (Build: 20080331) (2008030700)
-$string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (Build: 20080331) (2008030700)
-$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; //TBD with Moodle 2.0 dev (Build: 20080331) (2008030700)
-$string['skipuser'] = 'ユーザをスキップする'; //TBD with Moodle 2.0 dev (Build: 20080331) (2008030700)
-$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; //TBD with Moodle 2.0 dev (Build: 20080331) (2008030700)
-$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; //TBD with Moodle 2.0 dev (Build: 20080331) (2008030700)
+$string['addcounter'] = 'カウンタを付加する'; // TBD
+$string['csvseparator'] = 'CSVセパレータ'; // TBD
+$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; // TBD
+$string['skipuser'] = 'ユーザをスキップする'; // TBD
+$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; // TBD
+$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; // TBD
 
 ?>
