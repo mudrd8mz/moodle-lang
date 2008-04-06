@@ -37,6 +37,7 @@ $string['messagingdisabled'] = 'Beskedsystemet er deaktiveret, der sendes e-mail
 $string['mycontacts'] = 'Mine kontakter';
 $string['newonlymsg'] = 'Vis kun nye';
 $string['newsearch'] = 'Ny søgning';
+$string['noframesjs'] = 'Version uden rammer og JavaScript';
 $string['nomessages'] = 'Ingen ventende beskeder';
 $string['nomessagesfound'] = 'Ingen beskeder fundet';
 $string['nosearchresults'] = 'Der var ingen beskeder der opfyldte søgekriteriet';
