@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // assignment.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
 
 
 $string['allowdeleting'] = 'Tillad sletning';
 $string['allowmaxfiles'] = 'Maksimalt antal uploadede filer';
 $string['allownotes'] = 'Tillad noter';
 $string['allowresubmit'] = 'Tillad gentagne afleveringer';
+$string['alreadygraded'] = 'Din opgave er allerede vurderet og gentagne afleveringer er ikke tilladt.';
 $string['assignment:grade'] = 'Bedøm opgaven';
 $string['assignment:submit'] = 'Aflever opgaven';
 $string['assignment:view'] = 'Vis opgaven';
@@ -20,10 +21,12 @@ Du kan se evt. kommentarer i slutningen af <a href=\"$a->url\"> det du har aflev
 $string['assignmentname'] = 'Opgavenavn';
 $string['assignmenttype'] = 'Opgavetype';
 $string['availabledate'] = 'Tilgængelig fra';
+$string['cannotdeletefiles'] = 'Der opstod en fejl, filerne blev ikke slettet';
 $string['comment'] = 'Kommentar';
 $string['commentinline'] = 'Indlejret kommentar';
 $string['configitemstocount'] = 'Type af poster, der skal tælles med som afleveringer (ved online opgaver).';
 $string['configmaxbytes'] = 'Generel maksimum filstørrelse for alle afleveringsopgaver på sitet (Underlagt kursus begrænsninger og andre lokale indstillinger)';
+$string['configshowrecentsubmissions'] = 'Alle kan se notifikationer på afleveringer i seneste aktivitetsrapporter.';
 $string['confirmdeletefile'] = 'Er du helt sikker på, at du vil slette denne fil?<br /><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'Slet alle afleveringer';
 $string['deletefilefailed'] = 'Det lykkedes ikke at slette filen';
@@ -41,11 +44,14 @@ $a->url';
 $string['emailteachermailhtml'] = '$a->username har opdateret deres opgaveaflevering for <i>\'$a->assignment\'</i><br /><br />Det kan hentes på <a href=\"$a->url\">websiden</a>.';
 $string['emailteachers'] = 'E-mail-notifikation til lærere';
 $string['emptysubmission'] = 'Du har endnu ikke afleveret noget';
+$string['enableemailnotification'] = 'Send notifikations-mails';
 $string['existingfiledeleted'] = 'Eksisterende fil er blevet slettet: $a';
 $string['failedupdatefeedback'] = 'Mislykkedes at opdatere feedback på aflevering for bruger $a';
 $string['feedback'] = 'Feedback';
 $string['feedbackfromteacher'] = 'Feedback fra $a';
 $string['feedbackupdated'] = 'Feedback på aflevering opdateret for $a';
+$string['finalize'] = 'Ikke flere afleveringer';
+$string['finalizeerror'] = 'Der opstod en fejl og opgaven kunne ikke afleveres';
 $string['graded'] = 'Bedømt';
 $string['guestnosubmit'] = 'Beklager! Gæster kan ikke aflevere en opgave. Du skal logge ind (eller registrere dig) før du kan aflevere din opgave.';
 $string['guestnoupload'] = 'Desværre, gæster kan ikke uploade.';
@@ -70,6 +76,8 @@ $string['noassignments'] = 'Der er ingen opgaver endnu';
 $string['noattempts'] = 'Ingen har afleveret noget til denne opgave endnu.';
 $string['nofiles'] = 'Ingen filer er afleveret';
 $string['nofilesyet'] = 'Ingen filer er afleveret endnu';
+$string['nomoresubmissions'] = 'Det er ikke tilladt at aflevere flere gange';
+$string['nosubmitusers'] = 'Der er ingen brugere med tilladelse til at aflevere denne opgave';
 $string['notavailableyet'] = 'Beklager! Denne opgave er endnu ikke tilgængelig. <br/>Opgaveinstrukser kan først læses her på nedenstående dato.';
 $string['notes'] = 'Noter';
 $string['notesempty'] = 'Ingen adgang';
@@ -85,6 +93,7 @@ $string['responsefiles'] = 'Svarfiler';
 $string['reviewed'] = 'Gennemset';
 $string['saveallfeedback'] = 'Gem alt mit feedback';
 $string['sendformarking'] = 'Send til markering';
+$string['showrecentsubmissions'] = 'Se de seneste afleveringer';
 $string['submission'] = 'Aflevering';
 $string['submissiondraft'] = 'Afleveringskladde';
 $string['submissionfeedback'] = 'Afleverings feedback';
@@ -101,6 +110,7 @@ $string['typeonline'] = 'Online tekst';
 $string['typeupload'] = 'Avanceret aflevering af filer';
 $string['typeuploadsingle'] = 'Upload en enkelt fil';
 $string['unfinalize'] = 'Gå tilbage til: Påbegyndt';
+$string['unfinalizeerror'] = 'Der opstod en fejl så opgaven kunne ikke ændres til kladde';
 $string['uploadbadname'] = 'Dette filnavn indeholdt ugyldige tegn og kunne ikke uploades.';
 $string['uploadedfiles'] = 'uploadede filer';
 $string['uploaderror'] = 'Fejl mens filen blev gemt på serveren';
