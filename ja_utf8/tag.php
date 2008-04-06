@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // tag.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
 
 
 $string['addedotag'] = '「 $a 」がオフィシャルタグとして追加されました。';
@@ -30,7 +30,7 @@ $string['relatedblogs'] = 'このタグに関連する最新ブログ';
 $string['relatedtags'] = '関連タグ';
 $string['removetagfrommyinterests'] = '「 $a 」を私の「興味があること」から削除する';
 $string['reset'] = 'リセット';
-$string['resetflag'] = 'フラグのリセット';
+$string['resetflag'] = 'フラグをリセットする';
 $string['responsiblewillbenotified'] = '責任者に通知されます。';
 $string['search'] = '検索';
 $string['searchresultsfor'] = '「 $a 」の検索結果';
