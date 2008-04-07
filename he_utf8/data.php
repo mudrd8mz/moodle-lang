@@ -1,5 +1,6 @@
-﻿﻿<?PHP // $Id$ 
+﻿﻿﻿<?PHP // $Id$ 
       // data.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+
 
 
 $string['action'] = 'פעולה';

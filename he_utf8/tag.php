@@ -1,10 +1,6 @@
-<<<<<<< tag.php
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // tag.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
-=======
-<?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta + (2007081600)
->>>>>>> 1.2
+
 
 
 $string['addedotag'] = '\"$a\" הוכנס כתג רישמי';
