@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8.2+ (2007021520)
+      // message.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['addcontact'] = '添加联系人';
@@ -27,11 +27,13 @@ $string['includeblockedusers'] = '包括被阻拦的用户';
 $string['incomingcontacts'] = '新的联系人 ({$a})';
 $string['keywords'] = '关键字';
 $string['keywordssearchresults'] = '搜索结果: 找到{$a}条消息';
+$string['mailsent'] = '您的短消息已通过邮件发送。';
 $string['maxmessages'] = '最多显示多少条讨论历史中的消息';
 $string['message'] = '消息';
 $string['messagehistory'] = '消息历史';
 $string['messages'] = '消息';
 $string['messaging'] = '发送消息';
+$string['messagingdisabled'] = '此站点已禁用短消息功能，系统会为您发送一封邮件';
 $string['mycontacts'] = '我的联系人';
 $string['newonlymsg'] = '只显示新的';
 $string['newsearch'] = '重新搜索';

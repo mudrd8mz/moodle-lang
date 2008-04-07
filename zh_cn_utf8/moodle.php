@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.2+ (2007021520)
+      // moodle.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['action'] = '动作';
@@ -1150,6 +1150,8 @@ $string['rsserror'] = '读取RSS数据错误';
 $string['rsstype'] = '此活动的RSS种子';
 $string['saveandnext'] = '保存并显示下一个';
 $string['savechanges'] = '保存更改';
+$string['savechangesanddisplay'] = '保存并显示';
+$string['savechangesandreturntocourse'] = '保存并返回课程主页';
 $string['savedat'] = '保存在：';
 $string['savepreferences'] = '保存使用偏好';
 $string['saveto'] = '保存到';
@@ -1241,7 +1243,6 @@ $string['sizegb'] = 'GB';
 $string['sizekb'] = 'KB';
 $string['sizemb'] = 'MB';
 $string['skipped'] = '跳过';
-$string['skiptomaincontent'] = '跳转到主内容';
 $string['skypeid'] = 'Skype号码';
 $string['socialheadline'] = '社区论坛――最新话题';
 $string['someallowguest'] = '有些课程可能允许访客进入';
@@ -1506,5 +1507,6 @@ $string['yourlastlogin'] = '您上次登录是在';
 $string['yourself'] = '您自己';
 $string['yourteacher'] = '您的{$a}';
 $string['zippingbackup'] = '压缩备份文件';
+$string['skiptomaincontent'] = '跳转到主内容'; // ORPHANED
 
 ?>

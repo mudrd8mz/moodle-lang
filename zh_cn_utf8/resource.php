@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.2+ (2007021520)
+      // resource.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['addresource'] = '添加资源';
 $string['affectedresources'] = '受影响的资源';
+$string['allowlocalfiles'] = '允许本地文件';
+$string['autofilerename'] = '如果文件改名则更新链接';
 $string['back'] = '后退';
+$string['blockdeletingfile'] = '阻止删除已被引用的文件';
 $string['browserepository'] = '浏览仓库';
 $string['choose'] = '选择';
 $string['chooseafile'] = '选择或上传一个文件';
@@ -46,6 +49,7 @@ $string['fetchservererror'] = '当试图下载网页时远程服务器发生错�
 $string['filename'] = '文件名';
 $string['filtername'] = '资源名称自动链接';
 $string['frameifpossible'] = '将资源放在单独框架中以保证站点导航';
+$string['framesize'] = '框架尺寸';
 $string['fulltext'] = '全文';
 $string['htmlfragment'] = 'HTML片段';
 $string['imspackageloaded'] = '包已载入。';
@@ -96,6 +100,7 @@ $string['previous'] = '前面的';
 $string['redeploy'] = '重新部署';
 $string['repository'] = 'IMS仓库';
 $string['resource:view'] = '查看资源';
+$string['resourcedefaulturl'] = '缺省链接';
 $string['resourcetype'] = '资源类型';
 $string['resourcetype1'] = '参考书目';
 $string['resourcetype2'] = '网页';
@@ -118,6 +123,7 @@ $string['serverurl'] = '服务器链接({$a->wwwroot})';
 $string['showcourseblocks'] = '显示课程版块';
 $string['skipsubmenus'] = '跳过子菜单页面';
 $string['tableofcontents'] = '目录';
+$string['tableofcontentsabbrev'] = '目录';
 $string['upbutton'] = '向上';
 $string['variablename'] = '变量名';
 $string['viewims'] = '查看IMS包';

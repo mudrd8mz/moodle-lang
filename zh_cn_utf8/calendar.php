@@ -1,20 +1,24 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8.2+ (2007021520)
+      // calendar.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['advancedoptions'] = '高级选项';
+$string['allday'] = '全部';
 $string['calendar'] = '日历';
 $string['calendarheading'] = '{$a}日历';
 $string['clickhide'] = '点击隐藏';
 $string['clickshow'] = '点击显示';
 $string['commontasks'] = '选项';
 $string['confirmeventdelete'] = '您确定要删除这个事件么?';
+$string['course'] = '课程';
 $string['courseevent'] = '课程事件';
 $string['courseevents'] = '课程事件';
+$string['courses'] = '课程';
 $string['dayview'] = '日视图';
 $string['daywithnoevents'] = '该日并无事件。';
 $string['default'] = '缺省';
 $string['deleteevent'] = '删除事件';
+$string['deleteevents'] = '删除事件';
 $string['detailedmonthview'] = '详细的月视图';
 $string['durationminutes'] = '持续多少分钟';
 $string['durationnone'] = '不持续';
@@ -55,11 +59,13 @@ $string['for'] = '为';
 $string['fri'] = '周五';
 $string['friday'] = '星期五';
 $string['generateurlbutton'] = '获得日历URL';
+$string['global'] = '全局';
 $string['globalevent'] = '全局事件';
 $string['globalevents'] = '全局事件';
 $string['gotocalendar'] = '去日历';
-$string['groupevent'] = '群组事件';
-$string['groupevents'] = '组事件';
+$string['group'] = '小组';
+$string['groupevent'] = '小组事件';
+$string['groupevents'] = '小组事件';
 $string['hidden'] = '隐藏';
 $string['ical'] = 'iCal';
 $string['iwanttoexport'] = '导出';
@@ -116,6 +122,7 @@ $string['typesite'] = '站点事件';
 $string['typeuser'] = '用户事件';
 $string['upcomingevents'] = '即将来临的事件';
 $string['urlforical'] = 'iCalendar导出的URL，用于订阅日历';
+$string['user'] = '用户';
 $string['userevent'] = '用户事件';
 $string['userevents'] = '用户事件';
 $string['wed'] = '周三';

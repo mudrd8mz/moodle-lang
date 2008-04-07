@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8.2+ (2007021520)
+      // form.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['addfields'] = '向表单中添加{$a}字段';
@@ -30,9 +30,11 @@ $string['othersettings'] = '社旗它设置';
 $string['requiredelement'] = '此处不能为空。';
 $string['revealpassword'] = '显示';
 $string['security'] = '保密';
+$string['selectallornone'] = '选择全部/全部不选';
 $string['showadvanced'] = '显示高级';
 $string['somefieldsrequired'] = '本表单中由必填的字段{$a}。';
 $string['timing'] = '时间';
+$string['unmaskpassword'] = '显示出来';
 $string['year'] = '年';
 
 ?>

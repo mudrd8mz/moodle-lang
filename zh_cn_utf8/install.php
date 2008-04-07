@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7.1+ (2006101011)
+      // install.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['admindirerror'] = '指定的管理目录不正确';
@@ -69,6 +69,12 @@ $string['databasesettingssub_mysql'] = '<b>类型:</b> MySQL<br />
 <b>用户:</b> 您的数据库用户名<br />
 <b>密码:</b> 您的数据库密码<br />
 <b>表格前缀:</b> 在所有的表格名称前加上前缀（可选的）';
+$string['databasesettingssub_mysqli'] = '<b>类型:</b> 改进的MySQL<br />
+<b>主机:</b> 例如，localhost或者db.isp.com<br />
+<b>名字:</b> 数据库名, 比如moodle<br />
+<b>用户:</b> 您的数据库用户名<br />
+<b>密码:</b> 您的数据库密码<br />
+<b>表格前缀:</b> 在所有的表格名称前加上前缀（可选的）';
 $string['databasesettingssub_oci8po'] = '<b>类型:</b> Oracle<br />
 <b>主机:</b> 不需要，必须留空<br />
 <b>名字:</b> 给出tnsnames.ora连接的名字<br />
@@ -87,6 +93,7 @@ $string['databasesettingssub_postgres7'] = '<b>类型:</b> PostgreSQL<br />
 <b>用户:</b> 您的数据库用户名<br />
 <b>密码:</b> 您的数据库密码<br />
 <b>表格前缀:</b> 在所有的表格名称前加上前缀(强制的)';
+$string['databasesettingswillbecreated'] = '<b>注意：</b>如果数据库不存在，则安装程序会尝试创建它。';
 $string['dataroot'] = '数据目录';
 $string['datarooterror'] = '找不到也无法创建您指定的“数据目录”，请更正路径或手工创建它。';
 $string['dbconnectionerror'] = '无法连接到您指定的数据库，请检查您的数据库设置。';
@@ -184,6 +191,8 @@ $string['mssql_n'] = '支持UTF-8的SQL*Server(mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP的MSSQL 扩展并未安装正确，因此无法与SQL*Server通信。请检查您的php.ini文件或重新编译PHP。';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP的MySQL扩展并未安装正确，因此无法与MySQL通信。请检查您的php.ini文件或重新编译PHP。';
+$string['mysqli'] = '改进的MySQL(mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP的MySQLi扩展并未安装正确，因此无法与MySQL通信。请检查您的php.ini文件或重新编译PHP。';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP的OCI8扩展并未安装正确，因此无法与Oracle通信。请检查您的php.ini文件或重新编译PHP。';
 $string['odbc_mssql'] = '基于ODBC的SQL*Server (odbc_mssql)';

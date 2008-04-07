@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8.2+ (2007021520)
+      // blog.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['addnewentry'] = '增加新条目';
-$string['addotags'] = '添加官方标签';
-$string['addptags'] = '添加用户定义标签';
+$string['backupblogshelp'] = '如果激活，则在站点自动备份中会包括博客的内容。';
 $string['blockmenutitle'] = '博客目录';
 $string['blocktagstitle'] = '博客分类';
 $string['blocktitle'] = '博客分类的版块名称';
@@ -34,10 +33,8 @@ $string['norighttodeletetag'] = '您不能删除这个分类- {$a}';
 $string['notallowedtoedit'] = '您不能修改这个项目';
 $string['numberofentries'] = '条目：{$a}';
 $string['numberoftags'] = '要显示的分类数';
-$string['otags'] = '官方标签';
 $string['pagesize'] = '每页显示的条目数';
 $string['personalblogs'] = '用户只能浏览自己的博客';
-$string['ptags'] = '用户定义的标签';
 $string['publishto'] = '发布给';
 $string['publishtonoone'] = '你自己(草稿)';
 $string['publishtosite'] = '本站的所有人';
@@ -56,5 +53,9 @@ $string['viewcourseentries'] = '显示课程记录';
 $string['viewmyentries'] = '显示我的记录';
 $string['viewsiteentries'] = '显示站点记录';
 $string['worldblogs'] = '用户可以浏览开放的博客';
+$string['addotags'] = '添加官方标签'; // ORPHANED
+$string['addptags'] = '添加用户定义标签'; // ORPHANED
+$string['otags'] = '官方标签'; // ORPHANED
+$string['ptags'] = '用户定义的标签'; // ORPHANED
 
 ?>

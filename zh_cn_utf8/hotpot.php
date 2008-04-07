@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8.2+ (2007021520)
+      // hotpot.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['abandoned'] = '放弃';
@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = '请为网页输入URL';
 $string['error_nofilename'] = '请输入文件名';
 $string['error_noquizzesfound'] = '没找到随堂练习';
 $string['error_notfileorfolder'] = '\"{$a}\" 不是文件或目录';
+$string['excelencodings'] = 'Excel编码';
 $string['feedbackformmail'] = '反馈格式';
 $string['feedbackmoodleforum'] = 'Moodle讨论';
 $string['feedbackmoodlemessaging'] = 'Moodle消息';
@@ -138,6 +139,7 @@ $string['resultssaved'] = '测验成绩已经保存';
 $string['score'] = '分数';
 $string['showhtmlsource'] = '显示HTML源';
 $string['shownextquiz'] = '显示下一个测验';
+$string['showtimes'] = '显示处理时间';
 $string['showxmlsource'] = '显示 XML 源';
 $string['showxmltree'] = '显示 XML 树';
 $string['specifictime'] = '特殊的时间';
