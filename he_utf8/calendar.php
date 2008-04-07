@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 + (2007021503)
+      // calendar.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['advancedoptions'] = 'אפשרויות מתקדמות';
@@ -18,6 +18,7 @@ $string['dayview'] = 'מראה יום';
 $string['daywithnoevents'] = 'אין ארועים ביום זה';
 $string['default'] = 'ברירת מחדל';
 $string['deleteevent'] = 'מחק ארוע';
+$string['deleteevents'] = 'מחק אירועים';
 $string['detailedmonthview'] = 'מראה חודש מפורט';
 $string['durationminutes'] = 'משך זמן בדקות';
 $string['durationnone'] = 'ללא משך זמן';

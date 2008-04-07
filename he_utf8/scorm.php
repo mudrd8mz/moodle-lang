@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8 + (2007021503)
+      // scorm.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['activation'] = 'הפעלה';
@@ -26,6 +26,7 @@ $string['contents'] = 'תוכן';
 $string['coursepacket'] = 'חבילת קורס';
 $string['coursestruct'] = 'מבנה קורס';
 $string['datadir'] = 'שגיאה במערכת הקבצים: לא ניתן ליצור ספריה שתכיל את נתוני הקורס.';
+$string['deleteallattempts'] = 'מחק את כל נסיונות ה-SCROM';
 $string['details'] = 'פרטי העקבות';
 $string['directories'] = 'הראה את קישורי הסיפרייה';
 $string['display'] = 'הצג את החבילה';
@@ -151,6 +152,7 @@ $string['validationtype'] = 'הקשר זה מגדיר את ספרית ה-DOMXML 
 $string['value'] = 'ערך';
 $string['versionwarning'] = 'גירסת המניפסט ישנה יותר מההזהרה ב $a->tag תג 1.3';
 $string['viewallreports'] = 'ראה את הדוחות עבור $a ניסיונות מענה';
+$string['viewalluserreports'] = 'הראה דוחות עבור משתמשים $a';
 $string['whatgrade'] = 'הציון של ניסיונות המענה';
 $string['width'] = 'רוחב';
 $string['window'] = 'חלון';

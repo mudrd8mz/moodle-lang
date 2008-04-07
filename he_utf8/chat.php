@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8 + (2007021503)
+      // chat.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['beep'] = 'ציפצוף';
@@ -38,6 +38,7 @@ $string['messagebeepsyou'] = '$a ציפצף לך הרגע!';
 $string['messageenter'] = '$a כרגע נכנס לצ\'אט זה';
 $string['messageexit'] = '$a עזב צ\'אט זה';
 $string['messages'] = 'הודעות';
+$string['method'] = 'שיטת הצ\'אט';
 $string['methoddaemon'] = 'תוכנת \"daemon\" השוהה בשרת צ\'אט';
 $string['methodnormal'] = 'שיטה רגילה';
 $string['modulename'] = 'צ\'אט';
@@ -49,15 +50,25 @@ $string['nomessages'] = 'אין הודעות עדיין';
 $string['normalkeepalive'] = 'KeepAlive (שמור בחיים)';
 $string['normalstream'] = 'זרם';
 $string['noscheduledsession'] = 'אין מושבים מתוכננות';
+$string['oldping'] = 'פסק-זמן לניתוק';
+$string['pastchats'] = 'מושבי צ\'אט שעברו';
+$string['refreshroom'] = 'רענן חדר';
+$string['refreshuserlist'] = 'רענן רשימת משתתפים';
+$string['removemessages'] = 'הסר את כל ההודעות';
 $string['repeatdaily'] = 'באותו זמן בכל יום';
 $string['repeatnone'] = 'ללא חזרות - פרסם את הזמן המפורט בלבד';
 $string['repeattimes'] = 'חזור על המושבים';
 $string['repeatweekly'] = 'באותו הזמן בכל שבוע';
 $string['savemessages'] = 'שמור מושבים ישנים';
 $string['seesession'] = 'ראה מושב זה';
+$string['serverhost'] = 'שם השרת';
+$string['serverip'] = 'ip השרת';
+$string['servermax'] = 'מקסימום משתתפים';
+$string['serverport'] = 'פורט השרת';
 $string['sessions'] = 'מושבי צ\'אט';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'כולם יכולים לראות מושבים ישנים';
+$string['updatemethod'] = 'עדכן שיטה';
 $string['viewreport'] = 'ראה מושבי צ\'אט ישנים';
 
 ?>

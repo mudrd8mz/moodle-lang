@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 + (2007021503)
+      // form.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['addfields'] = 'הוסף $a שדות לטופס';
@@ -30,6 +30,7 @@ $string['othersettings'] = 'הגדרות אחרות';
 $string['requiredelement'] = 'שדה נדרש';
 $string['revealpassword'] = 'גלה';
 $string['security'] = 'אבטחה';
+$string['selectallornone'] = 'בחר הכלכלום';
 $string['showadvanced'] = 'הראה מתקדם';
 $string['somefieldsrequired'] = 'בטופס זה ישנם שדות אותם חובה עליך למלא והם מסומנים ב-$a';
 $string['timing'] = 'תזמון';

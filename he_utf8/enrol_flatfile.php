@@ -1,8 +1,8 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // enrol_flatfile.php - created with Moodle 1.8 + (2007021503)
 
 
-$string['description'] = 'שיטה זו תבדוק אחר ותעבד באופן שיטתי קובץ טקסט שפורמט באופן מיוחד במיקום אותו תפרט. 
+$string['description'] = 'שיטה זו תבדוק ותעבד באופן שיטתי קובץ טקסט שפורמט באופן מיוחד במיקום אשר אותו אתה תפרט. 
 הקובץ הינו קובץ המופרד על ידי פסיק, ומונח כי יש בו ארבעה או שישה שדות בכל שורה:
 <pre>
 * operation, role, idnumber(user), idnumber(course) [, starttime, endtime]

@@ -1,14 +1,16 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 dev (2007072500)
+      // notes.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['addnewnote'] = 'הוסף מסר חדש';
+$string['addnewnoteselect'] = 'בחר משתמשים אליהם תרצה לכתוב מסרים';
 $string['bynameondate'] = 'על ידי $a->name ב- $a->date';
 $string['content'] = 'תוכן המסר';
 $string['course'] = 'קורס';
 $string['coursenotes'] = 'הודעות הקורס';
 $string['created'] = 'נוצר';
 $string['deleteconfirm'] = 'למחוק מסר זה?';
+$string['deletenotes'] = 'מחק את כל המסרים';
 $string['editnote'] = 'ערוך את המסר';
 $string['groupaddnewnote'] = 'הוסף  מסר חדש לכולם';
 $string['nocontent'] = 'תוכן המסר איננו יכול להיות ריק';

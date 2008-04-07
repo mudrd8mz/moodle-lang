@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8 dev (2006120700)
+﻿<?PHP // $Id$ 
+      // block_rss_client.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['addfeed'] = 'הוסף כתובת URL להזנת חדשות:';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'הזנת החדשות עודכנה';
 $string['findmorefeeds'] = 'מצא עוד הזנות RSS';
 $string['managefeeds'] = 'נהל את ההזנות שלי';
 $string['nofeeds'] = 'אין הזנות RSS שמוגדרות עבור אתר זה.';
+$string['numentries'] = 'כניסות לכל הזנה';
 $string['pickfeed'] = 'בחר הזנת חדשות';
 $string['remotenewsfeed'] = 'הזנת חדשות חיצונית';
 $string['rss_client:createprivatefeeds'] = 'צור הזנות RSS פרטיות';
@@ -40,7 +41,9 @@ $string['seeallfeeds'] = 'צפה בכל ההזנות';
 $string['sharedfeed'] = 'הזנות משותפות';
 $string['shownumentrieslabel'] = 'מספר הרשומות המירבי שיוצג בכל בלוק.';
 $string['submitters'] = 'מי יורשה להגדיר הזנות RSS חדשות? הזנות מוגדרות זמינות בכל דף באתר שלך.';
+$string['submitters2'] = 'מגישים';
 $string['timeout'] = 'תפוגת זמן בלוק RSS';
+$string['timeout2'] = 'פסק-זמן';
 $string['timeoutdesc'] = 'משך הזמן בדקות שבו הזנת RSS תשמר במטמון.';
 $string['updatefeed'] = 'עדכן את כתובת ה-URL של הזנת חדשות:';
 $string['validatefeed'] = 'תן תוקף להזנה';

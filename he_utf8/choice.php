@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 + (2007021503)
+      // choice.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['addmorechoices'] = 'הוסף אפשרויות נוספות';
@@ -11,12 +11,14 @@ $string['choice:deleteresponses'] = 'מחק את התגובות';
 $string['choice:downloadresponses'] = 'הורד את התגובות';
 $string['choice:readresponses'] = 'קרא את התגובות';
 $string['choiceclose'] = 'עד';
+$string['choicefull'] = 'בחירה זו מלאה ולא קיימים מקומות נוספים';
 $string['choicename'] = 'שם בחירה';
 $string['choiceopen'] = 'פתח';
 $string['choicetext'] = 'טקסט בחירה';
 $string['displayhorizontal'] = 'הצג במאוזן';
 $string['displaymode'] = 'אופן הצגה';
 $string['displayvertical'] = 'הצג במאונך';
+$string['expired'] = 'מצטערים, פעילות זו נסגרה על $a והיא איננה זמינה יותר';
 $string['fillinatleastoneoption'] = 'אתה צריך לספק לפחות שתי תשובות אפשריות';
 $string['full'] = '(מלא)';
 $string['havetologin'] = 'עליך להתחבר לחשבונך לפני שתוכל לשלוח את בחירתך';
@@ -38,6 +40,7 @@ $string['publishanonymous'] = 'פרסם תוצאות אנונימיות, אל ת
 $string['publishnames'] = 'פרסם תוצאות מלאות, הצג את השמות ואת בחירותיהם';
 $string['publishnot'] = 'אל תפרסם תוצאות לסטודנטים';
 $string['removemychoice'] = 'הסר את בחירתי';
+$string['removeresponses'] = 'הסר את כל התגובות';
 $string['responses'] = 'תגובות';
 $string['responsesto'] = 'תגובות ל $a';
 $string['savemychoice'] = 'שמור את הבחירה שלי';

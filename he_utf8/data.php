@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // data.php - created with Moodle 1.8 + (2007021503)
+﻿﻿<?PHP // $Id$ 
+      // data.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['action'] = 'פעולה';
@@ -58,9 +58,11 @@ $string['defaultfielddelimiter'] = '(ברירת המחדל הינה תו הפס�
 $string['defaultfieldenclosure'] = '(ברירת המחדל היא כלום)';
 $string['defaultsortfield'] = 'סוג שדה המשמש כברירת המחדל';
 $string['delete'] = 'מחק';
+$string['deleteallentries'] = 'מחק את כל הכניסות';
 $string['deletecomment'] = 'האם אתה בטוח שאתה רוצה למחוק את ההערה הזו?';
 $string['deleted'] = 'נמחקה';
 $string['deletefield'] = 'מחק שדה קיים';
+$string['deletenotenrolled'] = 'מחק כניסות משתמשים אשר לא נרשמו';
 $string['deletewarning'] = 'האם אתה בטוח שאתה רוצה למחוק את הגדרה זו שנקבעה מראש?';
 $string['descending'] = 'בסדר יורד';
 $string['directorynotapreset'] = '$a->directory איננה הגדרה קבועה מראש: קבצים חסרים: $a->missing_files';
@@ -210,6 +212,7 @@ $string['saveaspreset'] = 'שמור כהגדרה קבועה מראש';
 $string['savesettings'] = 'שמור הגדרות';
 $string['savesuccess'] = 'נשמרה בהצלחה. ההגדרה ששמרתם כהגדרה קבועה מראש תהיה נגישה מעכשיו באתר כולו.';
 $string['savetemplate'] = 'שמור תבנית';
+$string['search'] = 'חיפוש';
 $string['sendinratings'] = 'שלח את הדירוגים האחרונים שלי';
 $string['showall'] = 'הראה את כל הרשומות';
 $string['single'] = 'ראה יחיד';
@@ -230,5 +233,4 @@ $string['usestandard'] = 'השתמש כהגדרה שנקבעה מראש';
 $string['viewfromdate'] = 'נגיש מתאריך';
 $string['viewtodate'] = 'נגיש עד לתאריך';
 $string['wrongdataid'] = 'סופקו נתוני מספר זיהוי שגויים';
-
 ?>

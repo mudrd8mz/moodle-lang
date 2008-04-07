@@ -45,3 +45,5 @@ Updating 17 Help files and 4 Php files (strings) non Help files 16/9/07
 ----------------------------------------------------------------------------------------
 Some spelling corrections and new strings
 11/02/08
+----------------------------------------------------------------------------------------
+New strings and spelling corrections suited to Moodle 1.9.2  from the 30\03\2008

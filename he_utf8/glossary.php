@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 + (2007021503)
+      // glossary.php - created with Moodle 1.9 Beta 4 (2007101507)
 
 
 $string['addcomment'] = 'הוסף הערה';
@@ -29,6 +29,7 @@ $string['categories'] = 'קטגוריות';
 $string['category'] = 'קטגוריה';
 $string['categorydeleted'] = 'הקטגוריה נמחקה';
 $string['categoryview'] = 'עיין לפי קטגוריות';
+$string['changeto'] = 'שנה ל$a';
 $string['cnfallowcomments'] = 'הגדר האם לפי ברירת המחדל אגרון המונחים יאפשר הערות משתמשים על מונחים.';
 $string['cnfallowdupentries'] = 'הגדר האם לפי ברירת המחדל אגרון המונחים יאפשר מונחים כפולים.';
 $string['cnfapprovalstatus'] = 'הגדר את אופן האישור (שישמש כברירת המחדל) למונחים שיוגדרו על ידי המשתמשים.';
@@ -51,12 +52,14 @@ $string['commentupdated'] = 'ההערה עודכנה.';
 $string['concept'] = 'מושג';
 $string['concepts'] = 'מושגים';
 $string['configenablerssfeeds'] = 'מתג זה יפעיל את האפשרות של הזנת RSS לכל אגרוני המונחים. עדיין תצטרך להפעיל את ההזנות באופן ידני בהגדרות של כל אחד מאגרוני המונחים.';
+$string['current'] = '$a מאוחסן כרגע';
 $string['currentglossary'] = 'אגרון מונחים נוכחי';
 $string['dateview'] = 'עיין לפי תאריך';
 $string['defaultapproval'] = 'מאושר לפי ברירת מחדל';
 $string['definition'] = 'הגדרה';
 $string['definitions'] = 'הגדרות';
 $string['deleteentry'] = 'מחק מונח';
+$string['deletenotenrolled'] = 'מחק כניסות ע\"י משתמש אשר לא רשום';
 $string['deletingcomment'] = 'מוחק את ההערה';
 $string['deletingnoneemptycategory'] = 'מחיקת קטגוריה זו לא תמחוק את המונחים שהיא מכילה - הם יסומנו כללא-קטגוריה.';
 $string['descending'] = '(יורד)';
@@ -160,6 +163,8 @@ $string['ratingsuse'] = 'השתמש בדרוגים';
 $string['ratingtime'] = 'הגבל דרוגים למונחים עם תאריכים בטווח זה בלבד:';
 $string['rejectedentries'] = 'מונחים שנדחו';
 $string['rejectionrpt'] = 'דוח דחויים';
+$string['resetglossaries'] = 'מחק כניסות מכל אגרוני המונחים';
+$string['resetglossariesall'] = 'מחק כניסות מכל';
 $string['rsssubscriberss'] = 'הצג את הזנת ה-RSS עבור \'$a\' מושגים';
 $string['searchindefinition'] = 'חפש בטקסט המלא';
 $string['secondaryglossary'] = 'אגרון מונחים משני';

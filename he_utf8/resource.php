@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta + (2007081600)
+      // resource.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['addresource'] = 'הוסף משאב';
 $string['affectedresources'] = 'משאבים מושפעים';
+$string['allowlocalfiles'] = 'אפשר קבצים מקומיים';
+$string['autofilerename'] = 'עדכן קישור אם שם הקובץ שונה';
 $string['back'] = 'חזרה';
+$string['blockdeletingfile'] = 'חסום מחיקת קבצים אשר קושרו';
 $string['browserepository'] = 'עיין בגנזך';
 $string['choose'] = 'בחר';
 $string['chooseafile'] = 'בחר או העלה קובץ';
@@ -47,7 +50,9 @@ $string['fetcherror'] = 'חלה שגיאה במהלך הניסיון למצוא 
 $string['fetchservererror'] = 'במהלך הניסיון למצוא ולהחזיר את עמוד הרשת נמצאה שגיאה אצל השרת המרוחק (ייתכן כי מדובר בשגיאה בתוכנה).';
 $string['filename'] = 'שם קובץ';
 $string['filtername'] = 'יצירת אוטומטית של קישורים לשמות משאבים';
+$string['forcedownload'] = 'הכרח הורדה';
 $string['frameifpossible'] = 'הצג את המשאב במסגרת בכדי לשמר את יכולות הניווט באתר';
+$string['framesize'] = 'גודל מסגרת';
 $string['fulltext'] = 'טקסט מלא';
 $string['htmlfragment'] = 'מקטע HTML';
 $string['imspackageloaded'] = 'החבילה מוטענת';
@@ -98,6 +103,7 @@ $string['previous'] = 'קודם';
 $string['redeploy'] = 'מקם שוב';
 $string['repository'] = 'גנזך IMS';
 $string['resource:view'] = 'ראה את המשאב';
+$string['resourcedefaulturl'] = 'ברירת מחדל של ה-URL';
 $string['resourcetype'] = 'סוג המשאב';
 $string['resourcetype1'] = 'איזכור';
 $string['resourcetype2'] = 'דף אינטרנט';
@@ -120,6 +126,7 @@ $string['serverurl'] = 'כתובת URL של השרת ($a->wwwroot)';
 $string['showcourseblocks'] = 'הצג את הבלוקים של הקורס';
 $string['skipsubmenus'] = 'דלג על עמודי התת-תפריטים';
 $string['tableofcontents'] = 'תוכן העניינים';
+$string['tableofcontentsabbrev'] = 'TOC';
 $string['upbutton'] = 'למעלה';
 $string['variablename'] = 'שם משתנה';
 $string['viewims'] = 'ראה את חבילת תוכן IMS';

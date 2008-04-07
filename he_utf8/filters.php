@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9 Beta + (2007081600)
+      // filters.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
 $string['actfilterhdr'] = 'מסנים פעילים (מצורפים ביחד)';
@@ -14,16 +14,19 @@ $string['contains'] = 'מכיל';
 $string['courserole'] = 'תפקיד הקורס';
 $string['doesnotcontain'] = 'לא מכיל';
 $string['endswith'] = 'נגמר ב-';
+$string['firstaccess'] = 'כניסה ראשונה';
+$string['isafter'] = 'אחרי';
 $string['isanyvalue'] = 'כל ערך שהוא';
+$string['isbefore'] = 'לפני';
 $string['isdefined'] = 'מוגדר';
 $string['isempty'] = 'הינו ריק';
 $string['isequalto'] = 'שווה ל-';
 $string['isnotdefined'] = 'לא מוגדר';
 $string['isnotequalto'] = 'לא שווה ל-';
 $string['newfilter'] = 'מסנן חדש';
-$string['removeall'] = 'סלק בכל';
+$string['removeall'] = 'סלק הכל';
 $string['removeselected'] = 'סלק נבחרים';
-$string['setfilter'] = 'הפעל את המסנן';
 $string['startswith'] = 'התחל ב-';
+$string['setfilter'] = 'הפעל את המסנן'; // ORPHANED
 
 ?>
