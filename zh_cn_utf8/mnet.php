@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8.2+ (2007021520)
+      // mnet.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS(自签名)';
@@ -25,6 +25,7 @@ $string['courses'] = '课程';
 $string['currentkey'] = '当前的公钥';
 $string['databaseerror'] = '不能向数据库写入详细信息';
 $string['deleteaserver'] = '删除一个服务器';
+$string['deletehost'] = '删除主机';
 $string['deletekeycheck'] = '您确定要删除这个密钥吗？';
 $string['deleteoutoftime'] = '60秒删除密钥的窗口已经嗯超时，请重新开始。';
 $string['deleteuserrecord'] = 'SSO ACL：从{$a[1]}中删除用户{$a[0]}的记录。';
@@ -42,5 +43,17 @@ $string['enterausername'] = '请输入一个用户名，或者以逗号分隔的
 $string['expired'] = '密钥过期于';
 $string['expires'] = '有效至';
 $string['expireyourkey'] = '删除这个密钥';
+$string['publickey'] = '公钥';
+$string['recordnoexists'] = '记录不存在';
+$string['registerallhosts'] = '注册全部主机（<em>Hub模式</em>）';
+$string['ssl_acl_allow'] = 'SSOACL：允许{$a[1]}上的用户{$a[0])';
+$string['ssl_acl_deny'] = 'SSOACL：禁止{$a[1]}上的用户{$a[0])';
+$string['ssoaccesscontrol'] = 'SSO访问控制';
+$string['trustedhosts'] = 'XML-RPC主机';
+$string['version'] = '版本';
+$string['warning'] = '警告';
+$string['wrong-ip'] = '您的IP地址和我们记录的地址不匹配';
+$string['xmlrpc-missing'] = '要使用此功能，您必须按照PHP的XML-RPC模块。';
+$string['yourhost'] = '您的主机';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8.2+ (2007021520)
+      // lesson.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['accesscontrol'] = '访问控制';
@@ -38,7 +38,7 @@ $string['canretake'] = '{$a}允许重学';
 $string['casesensitive'] = '大小写敏感';
 $string['checkbranchtable'] = '检查此分支';
 $string['checkedthisone'] = '检查这一个';
-$string['checknavigation'] = '检查该课导航';
+$string['checknavigation'] = '检查导航';
 $string['checkquestion'] = '检查此问题';
 $string['classstats'] = '班级统计';
 $string['clicktodownload'] = '点击下面链接下载文件';
@@ -129,8 +129,10 @@ $string['leftduringtimed'] = '你在一个计时的课程期间离开了。<br/>
 $string['leftduringtimednoretake'] = '你在一个计时的课程期间离开了。<br/>此课程不允许取回或继续。';
 $string['lesson:edit'] = '编辑程序教学';
 $string['lesson:manage'] = '管理程序教学';
-$string['lessonclosed'] = '本课在 {$a} 关闭';
+$string['lessonattempted'] = '尝试此程序教学';
+$string['lessonclosed'] = '本程序教学在 {$a} 关闭';
 $string['lessoncloses'] = '关闭程序教学';
+$string['lessoncloseson'] = '程序教学于{$a}关闭';
 $string['lessondefault'] = '将此程序教学设置作为缺省值';
 $string['lessonformating'] = '程序教学格式';
 $string['lessonmenu'] = '程序教学目录';
@@ -176,6 +178,7 @@ $string['nobranchtablefound'] = '没有发现分支';
 $string['nocommentyet'] = '还没有意见';
 $string['nocoursemods'] = '没找到活动的';
 $string['nocredit'] = '没有学分';
+$string['nodeadline'] = '没有最终日期';
 $string['noessayquestionsfound'] = '在此程序教学未找到问题评论';
 $string['nohighscores'] = '没有最高成绩';
 $string['nolessonattempts'] = '在此程序教学中不能尝试。';
@@ -202,7 +205,6 @@ $string['or'] = '或';
 $string['ordered'] = '已排序的';
 $string['other'] = '其它';
 $string['outof'] = '超出 {$a}';
-$string['outoftime'] = '超时';
 $string['overview'] = '浏览';
 $string['page'] = '页面：{$a}';
 $string['pagecontents'] = '页面内容';
@@ -260,7 +262,6 @@ $string['startlesson'] = '开始专题讨论';
 $string['studentattemptlesson'] = '{$a->firstname} {$a->lastname}的尝试次数{$a->attempt}';
 $string['studentname'] = '{$a} 名称';
 $string['studentoneminwarning'] = '警告：你还有不到1分钟来完成此活动';
-$string['studentoutoftime'] = '注意：你已经超出本课规定的时间。你最后的回答没有计算因为它是在超时后回答的。请按 继续 按钮来结束此程序教学。';
 $string['studentresponse'] = '{$a} 的回复';
 $string['submitname'] = '提交名称';
 $string['teacherjumpwarning'] = '一个{$a->cluster}跳转或一个{$a->unseen}跳转在此课中使用。将使用“下一页”跳转模式替代。作为学生登录来测试这些跳转。';
@@ -292,12 +293,15 @@ $string['whatdofirst'] = '您希望先做什么?';
 $string['wronganswerjump'] = '错误答案跳转';
 $string['wronganswerscore'] = '错误答案成绩';
 $string['wrongresponse'] = '错误应答';
+$string['xattempts'] = '尝试了{$a}次';
 $string['youhaveseen'] = '您已经浏览了该课的多个页面。<br />想从最后浏览的页面开始吗?';
 $string['youmadehighscore'] = '您在高分表的第{$a}位。';
 $string['youranswer'] = '您的答案';
 $string['yourcurrentgradeis'] = '您当前的分数是{$a}';
 $string['yourcurrentgradeisoutof'] = '您目前的分数是{$a->grade}（总分{$a->total}）';
 $string['youshouldview'] = '您最少应该浏览：{$a}';
+$string['outoftime'] = '超时'; // ORPHANED
+$string['studentoutoftime'] = '注意：你已经超出本课规定的时间。你最后的回答没有计算因为它是在超时后回答的。请按 继续 按钮来结束此程序教学。'; // ORPHANED
 $string['editlesson'] = '编辑{$a}'; // ORPHANED
 $string['mainmenu'] = '课程菜单'; // ORPHANED
 $string['returnmainmenu'] = '返回主菜单'; // ORPHANED
