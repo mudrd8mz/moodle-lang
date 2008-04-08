@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+<?PHP // $Id$ 
+      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['addfeed'] = 'הוסף כתובת URL להזנת חדשות:';

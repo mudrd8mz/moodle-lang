@@ -1,6 +1,5 @@
-﻿﻿﻿<?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
-
+<?PHP // $Id$ 
+      // data.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['action'] = 'פעולה';
@@ -234,4 +233,5 @@ $string['usestandard'] = 'השתמש כהגדרה שנקבעה מראש';
 $string['viewfromdate'] = 'נגיש מתאריך';
 $string['viewtodate'] = 'נגיש עד לתאריך';
 $string['wrongdataid'] = 'סופקו נתוני מספר זיהוי שגויים';
+
 ?>

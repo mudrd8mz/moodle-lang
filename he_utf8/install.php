@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // install.php - created with Moodle 1.9 Beta + (2007081600)
+<?PHP // $Id$ 
+      // install.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['admindirerror'] = 'ספריית מנהל המערכת המצויינת שגויה';

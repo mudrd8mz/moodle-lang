@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // enrol_flatfile.php - created with Moodle 1.8 + (2007021503)
+<?PHP // $Id$ 
+      // enrol_flatfile.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['description'] = 'שיטה זו תבדוק ותעבד באופן שיטתי קובץ טקסט שפורמט באופן מיוחד במיקום אשר אותו אתה תפרט. 
