@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+<?PHP // $Id$ 
+      // role.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
@@ -90,7 +90,7 @@ $string['legacy:teacher'] = 'תפקיד מורש: מורה (לא עורך)';
 $string['legacy:user'] = 'תפקיד מורש: משתמש מאומת';
 $string['legacytype'] = 'סוג תפקיד מורש';
 $string['listallroles'] = 'רשום ברשימה את כל התפקידים';
-$string['localroles'] = 'מקומית';
+$string['localroles'] = 'הקצאת תפקיד מקומית';
 $string['manageroles'] = 'נהל תפקיד';
 $string['metaassignerror'] = 'לא היה ניתן למנות את משתמש \"$a\" לתפקיד זה, מפני שדרושה היכולת לנהל מטה-קורס.';
 $string['metaunassignerror'] = 'התפקיד של משתמש \"$a\" הועבר ממנו באופן אוטומטי. במקום זאת בטל בבקשה את התפקיד בקורסי בת.';

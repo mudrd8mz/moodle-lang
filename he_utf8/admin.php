@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+<?PHP // $Id$ 
+      // admin.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
 
 
 $string['accessdenied'] = 'הגישה נדחתה';
@@ -395,7 +395,7 @@ $string['langmasterpackage'] = 'חבילת השפה הראשית';
 $string['langmenu'] = 'הצג את תפריט השפה';
 $string['langnoeditenglish'] = 'לא ניתן לשנות את חבילת שפת האנגלית הבסיסית, אנא החלף את ספריית השפה בכדי לערוך שינויים מקומיים.';
 $string['langpackinstalled'] = 'חבילת שפת ה$a הותקנה בהצלחה';
-$string['langpackmaintaining'] = 'שפה';
+$string['langpackmaintaining'] = 'התאמת שפה';
 $string['langpackremoved'] = 'חבילת השפה הוסרה';
 $string['langpacks'] = 'חבילות שפה';
 $string['langpackupdated'] = 'חבילת השפה $a הותקנה בהצלחה';
