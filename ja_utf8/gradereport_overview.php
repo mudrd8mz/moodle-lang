@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // gradereport_overview.php - created with Moodle 1.9 Beta + (2007082400)
+      // gradereport_overview.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
 
 
-$string['modulename'] = 'オーバービューレポート';
-$string['overview:view'] = 'オーバービューレポートを表示する';
+$string['modulename'] = '概要レポート';
+$string['overview:view'] = '概要レポートを表示する';
 
 ?>
