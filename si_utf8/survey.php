@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (2007101508)
+      // survey.php - created with Moodle 2.0 dev (Build: 20080402) (2008030700)
 
 
 $string['actual'] = 'සත්‍ය';
@@ -133,6 +133,7 @@ $string['collesm6'] = 'අර්ථ කථනය';
 $string['collesm6short'] = 'අර්ථ කථනය';
 $string['collesmintro'] = 'මෙම ඔන්ලයින් ඒකකයේ';
 $string['collespname'] = 'COLLES (වඩාත් සුදුසුයි)';
+$string['customintro'] = 'රිසිකරණ හඳුන්වා දීම';
 $string['deleteallanswers'] = 'සියලුම සමීක්ෂණ ප්‍රතිචාර ඉවත් කරන්න';
 $string['deleteanalysis'] = 'ප්‍රතිචාර විශ්ලේෂණය ඉවත් කරන්න';
 $string['done'] = 'කරන ලදි';
