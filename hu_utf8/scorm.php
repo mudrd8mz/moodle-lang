@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 beta + (2006101003)
+      // scorm.php - created with Moodle 1.8.4+ (2007021540)
 
 
 $string['activation'] = 'Bekapcsolás';
@@ -9,7 +9,7 @@ $string['assetlaunched'] = 'Tudáselem - megtekintve';
 $string['attempt'] = 'próbálkozás';
 $string['attempt1'] = '1. próbálkozás';
 $string['attempts'] = 'Próbálkozások';
-$string['attemptsx'] = '\$a próbálkozás';
+$string['attemptsx'] = '$a próbálkozás';
 $string['attr_error'] = 'Hibás érték a(z) $a->tag elem attribútumánál ($a->attr).';
 $string['autocontinue'] = 'Automatikus folytatás';
 $string['averageattempt'] = 'Próbálkozások átlaga';
@@ -24,16 +24,16 @@ $string['completed'] = 'Kész';
 $string['confirmloosetracks'] = 'FIGYELEM: A csomagot módosították. Ha megváltozott a csomag szerkezete, egyes felhasználói nyomkövetések elveszhetnek a frissítés során.';
 $string['contents'] = 'Tartalom';
 $string['coursepacket'] = 'Kurzuscsomag';
-$string['package'] = 'Csomagállomány';
 $string['coursestruct'] = 'Kurzusszerkezet';
 $string['datadir'] = 'Fájlrendszer hibája: nem lehet létrehozni a kurzusadatok könyvtárát';
+$string['deleteallattempts'] = 'Összes SCORM-próbálkozás törlése';
 $string['details'] = 'SCO nyomon követésének részletei';
 $string['directories'] = 'Könyvtárkapcsolatok megjelenítése';
 $string['display'] = 'Csomag megjelenítése';
 $string['domxml'] = 'DOMXML külső könyvtár';
 $string['element'] = 'Elem';
-$string['entercourse'] = 'Belépés a kurzusba';
 $string['enter'] = 'Belépés';
+$string['entercourse'] = 'Belépés a kurzusba';
 $string['errorlogs'] = 'Hibanapló';
 $string['everyday'] = 'Naponta';
 $string['everytime'] = 'Amikor használatos';
@@ -96,9 +96,12 @@ $string['not_corr_type'] = 'A(z) $a->tag címke típusa nem egyezik';
 $string['notattempted'] = 'Nem oldották meg';
 $string['objectives'] = 'Célok';
 $string['onchanges'] = 'Ha változik';
+$string['options'] = 'Lehetőségek';
 $string['organization'] = 'Szervezet';
 $string['organizations'] = 'Szervezetek';
+$string['othersettings'] = 'Egyéb beállítások';
 $string['othertracks'] = 'Egyéb útvonalak';
+$string['package'] = 'Csomagállomány';
 $string['packagedir'] = 'Fájlrendszerbeli hiba: nem lehet létrehozni a csomag könyvtárát';
 $string['packagefile'] = 'Nincs megadva csomagállomány';
 $string['passed'] = 'Sikerült';
@@ -110,7 +113,6 @@ $string['position_error'] = 'A(z) $a->tag címke nem lehet a(z) $a->parent címk
 $string['prev'] = 'Előző';
 $string['raw'] = 'Nyers pontszám';
 $string['regular'] = 'Szabványos tananyagleírás';
-$string['deleteallattempts'] = 'Összes SCORM-próbálkozás törlése';
 $string['report'] = 'Jelentés';
 $string['resizable'] = 'Ablakméretezés engedélyezése';
 $string['result'] = 'Eredmény';
@@ -142,18 +144,17 @@ $string['toolbar'] = 'Eszköztár megjelenítése';
 $string['totaltime'] = 'Idő';
 $string['trackingloose'] = 'FIGYELEM: Ezen Scorm-csomag követési adatai elvesznek!';
 $string['type'] = 'Típus';
+$string['unziperror'] = 'Hiba történt kicsomagolás közben';
+$string['updatefreq'] = 'Automatikus frissítés gyakorisága';
 $string['validateascorm'] = 'Scorm-csomag érvényesítése';
 $string['validation'] = 'Érvényesítés eredménye';
 $string['validationtype'] = 'Ez a preferencia beállítja a Scorm tananyagleírásának érvényesítéséhez használt DOMXML-könyvtárat. Ha bizonytalan, hagyja meg a kiválasztást.';
 $string['value'] = 'Érték';
 $string['versionwarning'] = 'A tananyagleírás régebbi az 1.3 változatnál, figyelmeztetés a $a->tag címkénél';
 $string['viewallreports'] = '$a próbálkozás jelentéseinek megtekintése';
+$string['viewalluserreports'] = '$a felhasználó jelentéseinek megtekintése';
 $string['whatgrade'] = 'Próbálkozások pontozása';
 $string['width'] = 'Szélesség';
 $string['window'] = 'Ablak';
-$string['unziperror'] = 'Hiba történt kicsomagolás közben';
-$string['othersettings'] = 'Egyéb beállítások';
-$string['updatefreq'] = 'Automatikus frissítés gyakorisága';
-$string['options'] = 'Lehetőségek';
 
 ?>

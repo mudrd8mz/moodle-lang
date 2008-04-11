@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 beta + (2006101003)
+      // xmldb.php - created with Moodle 1.8.4+ (2007021540)
 
 
 $string['aftertable'] = 'Táblázat után:';
@@ -9,12 +9,12 @@ $string['binaryincorrectlength'] = 'Hibás hossz a bináris mezőnél';
 $string['cannotuseidfield'] = 'Nem szúrható be a(z) \"id\" mező. Ez egy automatikusan számozott oszlop';
 $string['change'] = 'Módosítás';
 $string['charincorrectlength'] = 'Hibás hossz a karaktermezőnél';
-$string['checkbigints'] = 'Nagy egész számok ellenőrzése';
-$string['checkindexes'] = 'Indexek ellenőrzése';
 $string['check_bigints'] = 'Hibás egész számok keresése az adatbázisban';
 $string['check_indexes'] = 'Hiányzó adatbázisindexek keresése';
+$string['checkbigints'] = 'Nagy egész számok ellenőrzése';
+$string['checkindexes'] = 'Indexek ellenőrzése';
 $string['completelogbelow'] = '(a keresés teljes naplózását lásd alább)';
-$string['confirmcheckbigints'] =  'Ez a funkció <a href=\"http://tracker.moodle.org/browse/MDL-11038\">esetlegesen hibás számjegymezőket fog vizsgálni</a> Moodle-szerverén, és automatikusan előállítja (de nem futtatja le!) azokat az SQL-parancsokat, amelyekkel ellenőrizheti, hogy adatbázisában minden egész számot helyesen definiált-e. Amikor a parancsok előálltak, a parancsokat átmásolhatja és biztonságosan lefuttathatja kedvenc SQL-interfészén (előtte azonban készítsen róluk biztonsági mentést). Ajánlatos a Moodle legfrissebb kiadását (1.8, 1.9, 2.x ...) használni a hibás egész számok kikeresése előtt. Ez a funkció semmilyen tevékenységet nem hajt végre az adatbázison (csak beolvassa), ezért bármikor biztonságosan futtatható.';
+$string['confirmcheckbigints'] = 'Ez a funkció <a href=\"http://tracker.moodle.org/browse/MDL-11038\">esetlegesen hibás számjegymezőket fog vizsgálni</a> Moodle-szerverén, és automatikusan előállítja (de nem futtatja le!) azokat az SQL-parancsokat, amelyekkel ellenőrizheti, hogy adatbázisában minden egész számot helyesen definiált-e. Amikor a parancsok előálltak, a parancsokat átmásolhatja és biztonságosan lefuttathatja kedvenc SQL-interfészén (előtte azonban készítsen róluk biztonsági mentést). Ajánlatos a Moodle legfrissebb kiadását (1.8, 1.9, 2.x ...) használni a hibás egész számok kikeresése előtt. Ez a funkció semmilyen tevékenységet nem hajt végre az adatbázison (csak beolvassa), ezért bármikor biztonságosan futtatható.';
 $string['confirmcheckindexes'] = 'Ezzel esetleg hiányzó indexekre kereshet rá Moodle-szerverén, automatikusan előállíthatja (de nem hajthatja végre!) a frissítéshez szükséges SQL-utasításokat. Ha elkészültek, az utasításokat kimásolhatja és biztonságosan végrehajthatja kedvenc SQL-felületén. Mindenképpen ajánlott a legfrissebb Moodle-változatot (1.8, 1.9, 2.x ...) használni a hiányzó indexekre keresés előtt.Ennek során az adatbázison nem hajtódnak végre műveletek (csak beolvasás történik), így bármikor biztonságosan végrehajtható.';
 $string['confirmdeletefield'] = 'Biztosan törölni akarja ezt a mezőt:';
 $string['confirmdeleteindex'] = 'Biztosan törölni akarja ezt az indexet:';
@@ -51,6 +51,7 @@ $string['enumvaluesincorrect'] = 'Hibás értékek felsoroló mezőhöz';
 $string['field'] = 'Mező';
 $string['fieldnameempty'] = 'Névmező üres';
 $string['fields'] = 'Mezők';
+$string['fieldsusedinkey'] = '[[hiányos nyelvi szöveg a /usr/moodle/lang/en_utf8/xmldb.php 60. sorában]]';
 $string['filenotwriteable'] = 'Az állomány nem írható';
 $string['floatincorrectdecimals'] = 'Hibás számú tizedes jegy a lebegőpontos mezőhöz';
 $string['floatincorrectlength'] = 'Hibás hossz a lebegőpontos mezőhöz';
@@ -61,12 +62,12 @@ $string['indexes'] = 'Indexek';
 $string['integerincorrectlength'] = 'Hibás hossz az egészszám-mezőhöz';
 $string['key'] = 'Kulcs';
 $string['keys'] = 'Kulcsok';
-$string['listreservedwords'] =  'Fenntartott szavak felsorolása (a <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> frissítéséhez)';
+$string['listreservedwords'] = 'Fenntartott szavak felsorolása (a <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> frissítéséhez)';
 $string['load'] = 'Betöltés';
-$string['missing'] = 'Hiányzik';
-$string['missingindexes'] = 'Hiányzó indexek';
 $string['main_view'] = 'Fő nézet';
+$string['missing'] = 'Hiányzik';
 $string['missingfieldsinsentence'] = 'Hiányzó mezők a mondatban';
+$string['missingindexes'] = 'Hiányzó indexek';
 $string['missingvaluesinsentence'] = 'Hiányzó értékek a mondatban';
 $string['mustselectonefield'] = 'A mezőhöz kapcsolódó tevékenységek megtekintéséhez válasszon ki egy mezőt!';
 $string['mustselectoneindex'] = 'Az indexhez kapcsolódó tevékenységek megtekintéséhez válasszon ki egy indexet!';
@@ -124,4 +125,5 @@ $string['wrongnumberoffieldsorvalues'] = 'Hibás mezőszámok vagy értékek a m
 $string['wrongreservedwords'] = 'Jelenlegi fenntartott szavak(ne feledje, hogy a táblázatnevek nem fontosak $CFG->prefix használata esetén)';
 $string['yesmissingindexesfound'] = 'Adatbázisából indexek hiányoznak. Itt találja ezek adatait és azokat az SQL-parancsokat, amelyekkel kedvenc SQL-felületén létrehozhatja őket.<br /><br />Ezután mindenképpen futtassa le ismét ezt a segédprogramot annak ellenőrzésére, hogy nem hiányoznak-e további indexek.';
 $string['yeswrongintsfound'] = 'Adatbázisában néhány hibás egész szám szerepel. Itt találja ezek adatait és azokat az SQL-parancsokat, amelyekkel kedvenc SQL-felületén létrehozhatja őket.<br /><br />Ezután mindenképpen futtassa le ismét ezt a segédprogramot annak ellenőrzésére, hogy nincs-e több hibás egész szám.';
+
 ?>

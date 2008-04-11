@@ -1,5 +1,7 @@
-<?PHP // $Id$
-      // choice.php - created with Moodle 1.7 beta + (2006101003) 
+<?PHP // $Id$ 
+      // choice.php - created with Moodle 1.8.4+ (2007021540)
+
+
 $string['addmorechoices'] = 'További válaszlehetőségek hozzáadása';
 $string['allowupdate'] = 'Válaszlehetőség frissítésének engedélyezése';
 $string['answered'] = 'Megválaszolva';
@@ -9,6 +11,7 @@ $string['choice:deleteresponses'] = 'Viszontválaszok törlése';
 $string['choice:downloadresponses'] = 'Viszontválaszok letöltése';
 $string['choice:readresponses'] = 'Viszontválaszok olvasása';
 $string['choiceclose'] = 'Meddig';
+$string['choicefull'] = 'Ez a válaszlehetőség betelt, többre nincs lehetőség.';
 $string['choicename'] = 'Válaszlehetőség neve';
 $string['choiceopen'] = 'Megnyitás';
 $string['choicetext'] = 'Válaszlehetőség szövege';
@@ -36,11 +39,11 @@ $string['publishalways'] = 'Eredmények mindenkori megmutatása a tanulóknak';
 $string['publishanonymous'] = 'Eredmények tanuló neve nélküli közzététele';
 $string['publishnames'] = 'Eredmények teljes közzététele nevekkel és válaszlehetőségekkel együtt';
 $string['publishnot'] = 'Ne mutassa meg az eredményeket a tanulóknak';
+$string['removemychoice'] = 'Válaszlehetőségem törlése';
 $string['removeresponses'] = 'Az összes viszontválasz törlése';
 $string['responses'] = 'Viszontválaszok';
 $string['responsesto'] = 'Viszontválaszok erre: $a';
 $string['savemychoice'] = 'Válaszlehetőségem mentése';
-$string['removemychoice'] = 'Válaszlehetőségem törlése';
 $string['showunanswered'] = 'Válasz nélküli oszlop megjelenítése';
 $string['spaceleft'] = 'felhasználható hely';
 $string['spacesleft'] = 'felhasználható helyek';

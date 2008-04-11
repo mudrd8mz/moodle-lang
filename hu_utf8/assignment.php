@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 beta + (2006101003)
+      // assignment.php - created with Moodle 1.8.4+ (2007021540)
+
 
 $string['allowdeleting'] = 'Törlés engedélyezése';
 $string['allowmaxfiles'] = 'Feltöltött állományok maximális száma';
 $string['allownotes'] = 'Megjegyzések engedélyezése';
 $string['allowresubmit'] = 'Ismételt leadás engedélyezése';
+$string['alreadygraded'] = 'Feladatának pontozása már megtörtént, újbóli leadásra nincs lehetőség.';
 $string['assignment:grade'] = 'Feladat pontozása';
 $string['assignment:submit'] = 'Feladat leadása';
 $string['assignment:view'] = 'Feladat megtekintése';
@@ -14,10 +16,12 @@ $string['assignmentmailhtml'] = '$a->teacher véleményezte a(z) \'$a->assignmen
 $string['assignmentname'] = 'Feladat neve';
 $string['assignmenttype'] = 'Feladat típusa';
 $string['availabledate'] = 'Elérhető ekkortól:';
+$string['cannotdeletefiles'] = 'Hiba történt, az állományokat nem lehetett törölni';
 $string['comment'] = 'Megjegyzés';
 $string['commentinline'] = 'Sorközi megjegyzés';
 $string['configitemstocount'] = 'Online feladatokban a tanulói leadott munkákhoz megszámolandó tételek jellege.';
 $string['configmaxbytes'] = 'Az adott portálon az összes feladat maximális mérete alaphelyzetben (a kurzustól és egyéb helyi beállításoktól függően)';
+$string['configshowrecentsubmissions'] = 'A tevékenységekről szóló mostani jelentésekben bárki megtekintheti a leadott munkákkal kapcsolatos értesítéseket.';
 $string['confirmdeletefile'] = 'Biztosan törölni akarja ezt az állományt <br /><strong>$a</strong>?';
 $string['deleteallsubmissions'] = 'Az összes leadott munka törlése';
 $string['deletefilefailed'] = 'Az állomány törlése nem sikerült.';
@@ -29,14 +33,17 @@ $string['early'] = '$a korai';
 $string['editmysubmission'] = 'Leadott munkám szerkesztése';
 $string['emailstudents'] = 'Figyelmeztetések elküldése a tanulóknak e-mailben';
 $string['emailteachermail'] = '$a->username frissítette a(z) $a->assignment  feladathoz leadott munkáját. Itt érhető el: $a->url';
-$string['emailteachermailhtml'] = '$a->username frissítette a(z) <i>\'$a->assignment\'</i><br /><br /> feladathoz leadott munkáját.<br></br>Elérhető <a href="$a->url">ezen a portálon</a>.';
+$string['emailteachermailhtml'] = '$a->username frissítette a(z) <i>\'$a->assignment\'</i><br /><br /> feladathoz leadott munkáját.<br></br>Elérhető <a href=\"$a->url\">ezen a portálon</a>.';
 $string['emailteachers'] = 'Tanárok figyelmeztetése e-mailben';
 $string['emptysubmission'] = 'Még semmit nem adott le';
+$string['enableemailnotification'] = 'Meglévő fájl törölve: $a';
 $string['existingfiledeleted'] = 'Meglévő fájl törölve: $a';
 $string['failedupdatefeedback'] = '$a felhasználó leadott munkájához a visszajelzés frissítése nem sikerült';
 $string['feedback'] = 'Visszajelzés';
 $string['feedbackfromteacher'] = 'Visszajelzés $a részéről';
 $string['feedbackupdated'] = 'A leadott munkára adott visszajelzés frissítve $a számára';
+$string['finalize'] = 'Nincs több leadott munka';
+$string['finalizeerror'] = 'Hiba történt, a leadott munkát nem lehetett lezárni';
 $string['graded'] = 'Pontozott';
 $string['guestnosubmit'] = 'Vendégek nem adhatnak le feladatokat. A válasz leadása előtt be kell jelentkeznie vagy regisztráltatnia kell magát.';
 $string['guestnoupload'] = 'Vendégek nem tölthetnek fel állományokat.';
@@ -56,6 +63,8 @@ $string['noassignments'] = 'Még nincsenek feladatok';
 $string['noattempts'] = 'Ezzel a feladattal még nem próbálkoztak';
 $string['nofiles'] = 'Nem adott le állományokat';
 $string['nofilesyet'] = 'Még nem adott le állományokat';
+$string['nomoresubmissions'] = 'Nem lehet több munkát leadni.';
+$string['nosubmitusers'] = 'Nincs ezen feladat leadására jogosult felhasználó';
 $string['notavailableyet'] = 'Ez a feladat még nem elérhető.<br></br>A feladattal kapcsolatos utasítások az alább megadott időpontban lesznek itt megtekinthetők.';
 $string['notes'] = 'Megjegyzések';
 $string['notesempty'] = 'Nincs bejegyzés';
@@ -71,6 +80,7 @@ $string['responsefiles'] = 'Viszontválaszok állományai';
 $string['reviewed'] = 'Ellenőrizve';
 $string['saveallfeedback'] = 'Minden visszajelzésem mentése';
 $string['sendformarking'] = 'Beküldés értékelésre';
+$string['showrecentsubmissions'] = 'Legutóbbi leadott munkák megjelenítése';
 $string['submission'] = 'Leadott munka';
 $string['submissiondraft'] = 'Leadott munka piszkozata';
 $string['submissionfeedback'] = 'Leadott munkára adott visszajelzés';
@@ -82,11 +92,13 @@ $string['submitedformarking'] = 'A feladatot már beküldte értékelésre, ezé
 $string['submitformarking'] = 'Végső leadott munka a feladat értékelésére';
 $string['submitted'] = 'Leadva';
 $string['submittedfiles'] = 'Leadott állományok';
+$string['trackdrafts'] = 'A Beküldés osztályozásra bekapcsolása';
 $string['typeoffline'] = 'Offline tevékenység';
 $string['typeonline'] = 'Online szöveg';
 $string['typeupload'] = 'Állományok továbbfejlesztett feltöltése';
 $string['typeuploadsingle'] = 'Egyetlen állomány feltöltése';
 $string['unfinalize'] = 'Visszaállítás piszkozattá';
+$string['unfinalizeerror'] = 'Hiba történt, a leadott munkát nem lehetett visszaalakítani piszkozattá';
 $string['uploadbadname'] = 'Az állománynév hibás karaktereket tartalmaz, ezért nem tölthető fel';
 $string['uploadedfiles'] = 'feltöltött állományok';
 $string['uploaderror'] = 'Az állomány szerverre mentése közben hiba történt';

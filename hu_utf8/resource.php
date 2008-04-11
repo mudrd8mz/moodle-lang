@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 beta + (2006101003)
+      // resource.php - created with Moodle 1.8.4+ (2007021540)
 
 
 $string['addresource'] = 'Tananyag hozzáadása';
@@ -12,14 +12,14 @@ $string['browserepository'] = 'Adattár böngészése';
 $string['choose'] = 'Választás';
 $string['chooseafile'] = 'Állomány kiválasztása vagy feltöltése';
 $string['chooseparameter'] = 'Paraméter kiválasztása';
-$string['clicktoopen'] = 'A dokumentum megnyitásához kattintson az ugrópontra: ';
+$string['clicktoopen'] = 'A dokumentum megnyitásához kattintson az ugrópontra:';
 $string['configallowlocalfiles'] = 'Új tananyag létrehozása során hozzon létre ugrópontokat a helyi rendszeren, például CD-meghajtón vagy merevlemezen lévő állományokhoz. Ez hasznosnak bizonyulhat olyankor, amikor minden tanuló azonos hálózati meghajtóhoz fér hozzá, vagy ha CD-n lévő állományokat kell elérni. Ennek használatához esetleg módosítani kell a böngésző biztonsági beállításait.';
 $string['configautofilerenamesettings'] = 'A fájlkezelőben történő átnevezés során automatikusan frissíti az állományokra és könyvtárakra való hivatkozásokat.';
 $string['configblockdeletingfilesettings'] = 'A tananyagokban hivatkozott állományok és könyvtárak egyszerre való törlése. Ne feledje, hogy a HTML-ből hivatkozott képek és más állományok nincsenek védve.';
 $string['configdefaulturl'] = 'Ez az érték új URL-alapú tananyag létrehozásakor az URL-űrlap előre kitöltésére szolgál.';
 $string['configfilterexternalpages'] = 'Ezzel a beállítással minden külső forrás (honlap, feltöltött HTML-fájl) a megadott honlapszűrőkkel (például automatikus fogalomtár-kapcsolással) lesz feldolgozva. Ha bekapcsolja, kurzusoldalai számottevően lelassulhatnak - használja körültekintéssel és csak szükség esetén.';
 $string['configframesize'] = 'Ha egy weboldal vagy egy feltöltött állomány keretben jelenik meg, ez az érték a felső (navigálást tartalmazó) keret (képpontban megadott) mérete.';
-$string['configparametersettings'] = 'Ez állítja be az űrlap paraméterbeállításainak alapértékét új tananyag hozzáadása esetén. Az első alkalmat követően ez egyéni felhasználói beállítás lesz. ';
+$string['configparametersettings'] = 'Ez állítja be az űrlap paraméterbeállításainak alapértékét új tananyag hozzáadása esetén. Az első alkalmat követően ez egyéni felhasználói beállítás lesz.';
 $string['configpopup'] = 'Ha olyan tananyagot szúr be, amely megjelenhet egy előbukkanó ablakban, alapbeállításban ez az opció be legyen kapcsolva?';
 $string['configpopupdirectories'] = 'Az előbukkanó ablakok alapbeállításban mutassák a könyvtárak ugrópontjait?';
 $string['configpopupheight'] = 'Az előbukkanó ablakok alapbeállításban milyen magasak legyenek?';
@@ -30,7 +30,7 @@ $string['configpopupscrollbars'] = 'Az előbukkanó ablakok alapbeállításban 
 $string['configpopupstatus'] = 'Az előbukkanó ablakok alapbeállításban mutassák az állapotsort?';
 $string['configpopuptoolbar'] = 'Az előbukkanó ablakok alapbeállításban mutassák az eszközsort?';
 $string['configpopupwidth'] = 'Az előbukkanó ablakok alapbeállításban milyen szélesek legyenek?';
-$string['configsecretphrase'] = 'Ez a titkos kifejezés azon kódolt érték előállítására szolgál, amelyet bizonyos tananyagok  paraméterként kaphatnak meg. A titkos kód a felhasználók IP-címének md5-értéke és a titkos kifejezés egyesítéséből származik: md5(IP-kifejezés). Ezzel a céltananyag a fokozott biztonság érdekében ellenőrizheti a csatlakozást. ';
+$string['configsecretphrase'] = 'Ez a titkos kifejezés azon kódolt érték előállítására szolgál, amelyet bizonyos tananyagok  paraméterként kaphatnak meg. A titkos kód a felhasználók IP-címének md5-értéke és a titkos kifejezés egyesítéséből származik: md5(IP-kifejezés). Ezzel a céltananyag a fokozott biztonság érdekében ellenőrizheti a csatlakozást.';
 $string['configwebsearch'] = 'URL weboldalként vagy ugrópontként való beszúrásakor ez a hely segíti a felhasználót a keresett URL megtalálásában.';
 $string['configwindowsettings'] = 'Ez új tananyag beszúrásakor beállítja az ablakbeállítások alapértékét. Az első alkalmat követően ez egyéni felhasználói beállítás lesz.';
 $string['deploy'] = 'Alkalmazás';
@@ -48,6 +48,7 @@ $string['fetcherror'] = 'Hiba a weboldal letöltése közben.';
 $string['fetchservererror'] = 'Hiba a távoli szervernél a weboldal letöltése közben (feltehetőleg programhiba).';
 $string['filename'] = 'Állománynév';
 $string['filtername'] = 'Tananyagnév automatikus csatolása';
+$string['forcedownload'] = 'Letöltés előírása';
 $string['frameifpossible'] = 'Helyezze a tananyagot keretbe, hogy a navigálás látható maradjon';
 $string['framesize'] = 'Keret mérete';
 $string['fulltext'] = 'Szöveg';
@@ -57,7 +58,7 @@ $string['keepnavigationvisible'] = 'Látható maradjon az oldalnavigálás ugyan
 $string['localfile'] = 'Helyi állomány';
 $string['localfilechoose'] = 'Helyi állomány (CD-ROM) kiválasztása';
 $string['localfilehelp'] = 'Súgó helyi állományok megjelenítéséhez';
-$string['localfileinfo'] =  'Válasszon helyi állományt a számítógépéről. Az állomány nem kerül fel a weboldalra, de a Moodle ezt fogja keresni a tananyagot megtekintők közül mindenkinek a gépén. Ez főleg akkor hasznos, ha nagy médiaállományokat tárol hagyományos CD-ROM-on, melyeket minden résztvevő számára kioszt. A résztvevők saját helyi útvonalat adhatnak meg ezekhez az állományokhoz a a href=\"$a\" target=\"_blank\">felhasználói profiljuk szerkesztésével</a>.';
+$string['localfileinfo'] = 'Válasszon helyi állományt a számítógépéről. Az állomány nem kerül fel a weboldalra, de a Moodle ezt fogja keresni a tananyagot megtekintők közül mindenkinek a gépén. Ez főleg akkor hasznos, ha nagy médiaállományokat tárol hagyományos CD-ROM-on, melyeket minden résztvevő számára kioszt. A résztvevők saját helyi útvonalat adhatnak meg ezekhez az állományokhoz a a href=\"$a\" target=\"_blank\">felhasználói profiljuk szerkesztésével</a>.';
 $string['localfilepath'] = 'Saját helyi útvonal megadásához válassza ki bármelyik állományt arról a számítógépén lévő meghajtóról (rendszerint egy CD-ROM), ahol a tananyagot tárolja. Az állomány nem töltődik fel, de a meghajtó adatait a rendszer eltárolja, és minden helyi tananyaghoz ezt használja.';
 $string['localfileselect'] = 'Ezen útvonal kiválasztása.';
 $string['maindirectory'] = 'Fő állományok könyvtára';
@@ -83,7 +84,7 @@ $string['next'] = 'Következő';
 $string['notallowedlocalfileaccess'] = 'A helyi állományok elérése jelenleg ki van kapcsolva, így a tananyag nem érhető el.';
 $string['notdeployed'] = 'Nincs használatba véve';
 $string['note'] = 'Megjegyzés';
-$string['notefile'] =  'Egy vagy több állomány kurzusba való feltöltéséhez (hogy a felsorolásban megjelenjenek) használja a <a href=\"$a\">Fájlkezelőt</a>.';
+$string['notefile'] = 'Egy vagy több állomány kurzusba való feltöltéséhez (hogy a felsorolásban megjelenjenek) használja a <a href=\"$a\">Fájlkezelőt</a>.';
 $string['notypechosen'] = 'Típust kell választania. A Vissza gombbal menjen az előző oldalra és próbálkozzék újból.';
 $string['packagechanged'] = 'Ez az IMS-csomag módosult.';
 $string['packagenotdeplyed'] = 'Az IMS-csomag nincs használatba véve.';

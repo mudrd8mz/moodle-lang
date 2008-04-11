@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 beta + (2006101003)
+      // lesson.php - created with Moodle 1.8.4+ (2007021540)
+
 
 $string['accesscontrol'] = 'Hozzáférés szabályozása';
 $string['actionaftercorrectanswer'] = 'Helyes válasz utáni lépés';
@@ -61,6 +62,7 @@ $string['credit'] = 'Kredit';
 $string['customscoring'] = 'Testre szabott pontozás';
 $string['deadline'] = 'Határidő';
 $string['defaultessayresponse'] = 'Az esszét kurzusvezetője fogja pontozni.';
+$string['deleteallattempts'] = 'Leckével kapcsolatos összes próbálkozás törlése';
 $string['deletedefaults'] = '$a x lecke alapbeállítása törölve';
 $string['deletedpage'] = 'Oldal törölve';
 $string['deleting'] = 'Törlés';
@@ -177,6 +179,7 @@ $string['nobranchtablefound'] = 'Nincs elágazási táblázat';
 $string['nocommentyet'] = 'Még nincs megjegyzés.';
 $string['nocoursemods'] = 'Nincs tevékenység';
 $string['nocredit'] = 'Nincs kreditpont';
+$string['nodeadline'] = 'Nincs határidő';
 $string['noessayquestionsfound'] = 'A leckében nincs esszékérdés.';
 $string['nohighscores'] = 'Nincsenek legmagasabb pontszámok';
 $string['nolessonattempts'] = 'A leckével kapcsolatosan nem történt próbálkozás.';
@@ -222,7 +225,6 @@ $string['previewlesson'] = '$a előzetes képe';
 $string['previouspage'] = 'Előző oldal';
 $string['progressbar'] = 'Folyamatjelző';
 $string['progressbarteacherwarning'] = '$a folyamatjelzője nem látszik';
-$string['deleteallattempts'] = 'Leckével kapcsolatos összes próbálkozás törlése';
 $string['qtype'] = 'Oldal típusa';
 $string['question'] = 'Kérdés';
 $string['questionoption'] = 'Kérdés';
@@ -236,7 +238,7 @@ $string['redisplaypage'] = 'Oldal újbóli megjelenítése';
 $string['report'] = 'Jelentés';
 $string['reports'] = 'Jelentések';
 $string['response'] = 'Viszontválasz';
-$string['returnto'] = 'Vissza ide: \$a';
+$string['returnto'] = 'Vissza ide: $a';
 $string['returntocourse'] = 'Vissza a kurzushoz';
 $string['review'] = 'Ellenőrzés';
 $string['reviewlesson'] = 'Összefoglaló lecke';

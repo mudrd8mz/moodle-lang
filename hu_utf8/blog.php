@@ -1,10 +1,9 @@
-<?PHP // $Id$
-      // blog.php - created with Moodle 1.7 beta + (2006101003)
+<?PHP // $Id$ 
+      // blog.php - created with Moodle 1.8.4+ (2007021540)
 
 
 $string['addnewentry'] = 'Új bejegyzés hozzáadása';
-$string['addotags'] = 'Hivatalos címkék hozzáadása';
-$string['addptags'] = 'Felhasználói címkék hozzáadása';
+$string['backupblogshelp'] = 'Bekapcsolásakor a blogok bekerülnek a PORTÁL automatikusan mentett állományai közé';
 $string['blockmenutitle'] = 'Blogmenü';
 $string['blocktagstitle'] = 'Blogcímkék';
 $string['blocktitle'] = 'Blogcímkék blokkcíme';
@@ -34,10 +33,8 @@ $string['norighttodeletetag'] = 'Ezt a címkét Ön nem törölheti: $a';
 $string['notallowedtoedit'] = 'Ezt az üzenetet Ön nem szerkesztheti';
 $string['numberofentries'] = 'Üzenetek: $a';
 $string['numberoftags'] = 'Megjelenítendő címkék száma';
-$string['otags'] = 'Hivatalos címkék';
 $string['pagesize'] = 'Oldalankénti blogüzenetek száma';
 $string['personalblogs'] = 'A felhasználók csak saját blogjaikat láthatják';
-$string['ptags'] = 'Felhasználói címkék (vesszővel elválasztva)';
 $string['publishto'] = 'Közzéteendő itt';
 $string['publishtonoone'] = 'Önmaga (piszkozat)';
 $string['publishtosite'] = 'A portálon bárki';
@@ -46,9 +43,9 @@ $string['settingsupdatederror'] = 'Hiba történt, a blog beállításait nem le
 $string['siteblog'] = 'Portálblog: $a';
 $string['siteblogs'] = 'A portál minden felhasználója minden blogüzenetet láthat';
 $string['tagdatelastused'] = 'Címke utolsó használatának dátuma';
+$string['tags'] = 'Címkék';
 $string['tagsort'] = 'Címkék megjelenítésének rendezési szempontja';
 $string['tagtext'] = 'Címkeszöveg';
-$string['tags'] = 'Címkék';
 $string['timewithin'] = 'Ennyi napon belül használt címkék megjelenítése';
 $string['updateentrywithid'] = 'Üzenet frissítése';
 $string['userblog'] = '$a felhasználói blog';
@@ -56,5 +53,9 @@ $string['viewcourseentries'] = 'Kurzusüzenetek megtekintése';
 $string['viewmyentries'] = 'Üzeneteim megtekintése';
 $string['viewsiteentries'] = 'Portálüzenetek megtekintése';
 $string['worldblogs'] = 'A bárki számára elérhetőként megjelölt naplóüzeneteket mindenki elolvashatja';
+$string['addotags'] = 'Hivatalos címkék hozzáadása'; // ORPHANED
+$string['addptags'] = 'Felhasználói címkék hozzáadása'; // ORPHANED
+$string['otags'] = 'Hivatalos címkék'; // ORPHANED
+$string['ptags'] = 'Felhasználói címkék (vesszővel elválasztva)'; // ORPHANED
 
 ?>

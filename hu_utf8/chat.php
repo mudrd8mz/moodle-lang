@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7 beta + (2006101003) 
+      // chat.php - created with Moodle 1.8.4+ (2007021540)
+
+
 $string['beep'] = 'hangjelzés';
 $string['chat:chat'] = 'Csevegés';
 $string['chat:deletelog'] = 'Csevegésnaplók törlése';
@@ -10,7 +12,7 @@ $string['chatreport'] = 'Csevegések';
 $string['chattime'] = 'A következő csevegés időpontja';
 $string['configmethod'] = 'A szokásos csevegés során a kliensprogramok rendszeresen a szerverhez fordulnak frissítésért. Semmilyen beállítást nem igényel és mindenhol működik, de sok csevegő esetén jelentősen megterheli a szervert. Szerverdémon használata során a Unix héjszintű elérésre van szükség, az eredmény viszont egy gyors és skálázható csevegési környezet.';
 $string['confignormalupdatemode'] = 'A csevegőszoba frissítéseit megfelelően támogatja a HTTP 1.1 Keep-Alive funkciója, ennek ellenére meglehetősen leterheli a szervert. Megfelelőbb módszer a Stream használata frissítések felhasználókhoz való eljuttatására. A Stream sokkal hatékonyabb (hasonló a chatd módszerhez), de előfordulhat, hogy szervere nem támogatja.';
-$string['configoldping'] =  'Mennyi ideig tartó hallgatás után kell egy felhasználót kilépettnek tekinteni (másodpercben)? Ez csak egy felső határ, mert a lekapcsolódás gyorsan érzékelhető. Alacsonyabb értékek jobban megterhelik a szervert. Ha a szokásos módszert használja, soha ne állítsa ezt az értéket alacsonyabbra, mint 2 * chat_refresh_room.';
+$string['configoldping'] = 'Mennyi ideig tartó hallgatás után kell egy felhasználót kilépettnek tekinteni (másodpercben)? Ez csak egy felső határ, mert a lekapcsolódás gyorsan érzékelhető. Alacsonyabb értékek jobban megterhelik a szervert. Ha a szokásos módszert használja, soha ne állítsa ezt az értéket alacsonyabbra, mint 2 * chat_refresh_room.';
 $string['configrefreshroom'] = 'Milyen gyakran legyen frissítve a csevegőszoba (másodpercben)? Alacsony értékre állítva a csevegőszoba gyorsabbnak látszik, azonban nagyobb terhelést jelenthet a szervernek, ha egyszerre sokan csevegnek. Ha <em>Stream</em> frissítést használ, kiválaszthat egy magasabb frissítési gyakoriságot - próbálkozzék 2-vel.';
 $string['configrefreshuserlist'] = 'Milyen gyakran legyen frissítve a felhasználók listája (mp-ben)?';
 $string['configserverhost'] = 'A szerverdémont tartalmazó számítógép gazdaneve';
@@ -48,6 +50,7 @@ $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nincs előjegyzett csevegés';
 $string['oldping'] = 'Szétkapcsolás időtúllépés miatt';
+$string['pastchats'] = 'Korábbi csevegések';
 $string['refreshroom'] = 'Frissítő szoba';
 $string['refreshuserlist'] = 'Felhasználói lista frissítése';
 $string['removemessages'] = 'Az összes üzenet törlése';
@@ -55,12 +58,12 @@ $string['repeatdaily'] = 'Minden nap ugyanakkor';
 $string['repeatnone'] = 'Nincs ismétlés - csak a megadott időpont közzététele';
 $string['repeattimes'] = 'Csevegések ismétlése';
 $string['repeatweekly'] = 'Minden héten ugyanakkor';
+$string['savemessages'] = 'Korábbi csevegések mentése';
+$string['seesession'] = 'A csevegés megtekintése';
 $string['serverhost'] = 'Szerver neve';
 $string['serverip'] = 'Szerver ip-címe';
 $string['servermax'] = 'Max. felhasználó';
 $string['serverport'] = 'Szerver portja';
-$string['savemessages'] = 'Korábbi csevegések mentése';
-$string['seesession'] = 'A csevegés megtekintése';
 $string['sessions'] = 'Csevegések';
 $string['strftimemessage'] = '%%Ó.%%P';
 $string['studentseereports'] = 'A korábbi csevegéseket mindenki megtekintheti';

@@ -1,120 +1,140 @@
-<?php
-/**
- * Language strings for new Moodle Groups (cvs:/group/) 
- *
- * @copyright &copy; 2006 The Open University
- * @author J.White AT open.ac.uk
- * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
- * @package groups
- */
+<?PHP // $Id$ 
+      // group.php - created with Moodle 1.8.4+ (2007021540)
 
-$string['groupmember'] = 'Csoporttag';
-$string['groupmemberdesc'] = 'Csoporttag szokásos szerepe.';
-$string['notingrouping'] = '[Nem szerepel valamely csoportosításban]';
-$string['anygrouping'] = '[Bármely csoportosítás]';
 
-$string['errornotingrouping'] = 'Nem hozhat létre csoportot itt: $a';
-$string['errornotingroupingedit'] = 'A(z) $a csoportosítást nem szerkesztheti';
-$string['errorinvalidgrouping'] = 'Hiba, érvénytelen $a csoportosítás';
-$string['errorinvalidgroup'] = 'Hiba, érvénytelen $a csoport';
-$string['erroreditgrouping'] = 'Hiba a(z) $a csoportosítás létrehozása/frissítése közben';
-$string['erroreditgroup'] = 'Hiba a(z) $a csoport létrehozása/frissítése közben';
-$string['erroraddremoveuser'] = 'Hiba a(z) $a felhasználó csoporthoz való hozzáadása/csoportból való törlése közben';
-
-$string['upgradeconfirm'] = 'A Moodle 1.8 DEV csoporttáblái ebből a frissítésből törölve lettek. Folytatja?';
-
-$string['groupings'] = 'Csoportosítások';
-$string['grouping'] = 'Csoportosítás';
-$string['groups'] = 'Csoportok';
-$string['group'] = 'Csoport';
-$string['groupsinselectedgrouping'] = 'Csoportok itt:';
-$string['membersofselectedgroup'] = 'Tagok itt:';
-
-$string['showgroupsingrouping'] = 'Csoportosításon belüli csoportok megjelenítése';
-$string['showmembersforgroup'] = 'A csoport tagjainak megjelenítése';
-$string['databaseupgradegroups'] = 'A jelenlegi csoportverzió most: \$a';
-
-$string['deletegroupingconfirm'] = 'Biztosan törli a(z) $a csoportosítást? (A benne lévő csoportok nem törlődnek.)';
-$string['deletegroupconfirm'] = 'Biztosan törli a(z) $a csoportot?';
-
-$string['editgroupingsettings'] = 'Csoportosítás beállításainak szerkesztése';
-$string['editgroupingpermissions'] = 'Csoportosítási engedélyek szerkesztése';
-$string['deletegrouping'] = 'Csoportosítás törlése';
-$string['creategrouping'] = 'Csoportosítás létrehozása';
-$string['createautomaticgrouping'] = 'Automatikus csoportosítás létrehozása';
-$string['printerfriendly'] = 'Nyomtatóbarát megjelenítés';
-
-$string['editgroupsettings'] = 'Csoport beállításainak szerkesztése';
-$string['deleteselectedgroup'] = 'Kiválasztott csoport törlése';
-$string['removegroupfromselectedgrouping'] = 'Csoport törlése a csoportosításból';
-$string['creategroupinselectedgrouping'] = 'Csoport létrehozása csoportosításon belül';
 $string['addgroupstogrouping'] = 'Csoport hozzáadása a csoportosításhoz';
-
-$string['removeselectedusers'] = 'Kiválasztott felhasználók törlése';
+$string['addgroupstogroupings'] = 'Csoportok hozzáadása/törlése';
 $string['adduserstogroup'] = 'Felhasználók hozzáadása/törlése';
-
-$string['groupingname'] = 'Csoportosítás neve';
-$string['defaultgroupingname'] = 'Csoportosítás';
-$string['groupingdescription'] = 'Csoportosítás leírása';
-$string['prefixforgroupnames'] = 'Csoportnevek előtagja';
-$string['defaultgroupprefix'] = ' csoport';
-$string['distributealphabetically'] = 'Csoportokra osztás betűrendben, vezetéknév szerint';
-$string['usestudentsonlyfromselectedgroup'] = 'Csak a most kiválasztott csoportból vegyen tanulókat';
-$string['selectnumberineachgroup'] = 'Szám kiválasztása minden csoportban';
-$string['numberofstudents'] = 'Tanulók száma';
-$string['distributeevenly'] = 'A többi tanuló egyenletes szétosztása';
-$string['selectnumberofgroups'] = 'Csoportok számának kiválasztása';
-$string['numberofgroups'] = 'Csoportok száma';
-$string['creategrouping'] = 'Csoportosítás létrehozása';
-$string['creategroup'] = 'Csoport létrehozása';
-$string['createorphangroup'] = 'Szólócsoport létrehozása';
-
-$string['groupname'] = 'Csoport neve';
-$string['groupnameexists'] = 'A(z) \'$a\' nevű csoport már szerepel ebben a kurzusban, válasszon másikat.';
-$string['defaultgroupname'] = 'Csoport';
-$string['groupdescription'] = 'Csoportleírás';
-$string['enrolmentkey'] = 'Beiratkozási kulcs';
-$string['hidepicture'] = 'Kép elrejtése';
-$string['newpicture'] = 'Új kép';
-
-$string['defaultgroupdescription'] = 'Alapbeállítás szerinti csoportleírás';
-
-$string['displaygrouping'] = 'Csoportosítás megjelenítése';
-$string['showusersalreadyingroup'] = 'A csoportosítás valamely csoportjában szereplő felhasználók megjelenítése';
-
-$string['save'] = 'Mentés';
-$string['cancel'] = 'Mégse';
-$string['return'] = 'Return';
+$string['allocateby'] = 'Tagok hozzárendelése';
+$string['anygrouping'] = '[Bármely csoportosítás]';
+$string['autocreategroups'] = 'Csoportok automatikus létrehozása';
+$string['backtogroupings'] = 'Vissza a csoportosításokhoz';
 $string['backtogroups'] = 'Vissza a csoportokhoz';
-$string['existingmembers'] = 'Létező tagok: $a'; 
-$string['potentialmembers'] = 'Potenciális tagok: $a';
-$string['groupfor'] = 'csoport számára';
+$string['badnamingscheme'] = 'Pontosan csak egy \'@\' vagy \'#\' karaktert tartalmazhat';
+$string['byfirstname'] = 'Betűrendben keresztnév, majd vezetéknév szerint';
+$string['byidnumber'] = 'Betűrendben azonosítószám szerint';
+$string['bylastname'] = 'Betűrendben vezetéknév, majd  keresztnév szerint';
+$string['createautomaticgrouping'] = 'Automatikus csoportosítás létrehozása';
+$string['creategroup'] = 'Csoport létrehozása';
+$string['creategrouping'] = 'Csoportosítás létrehozása';
+$string['creategroupinselectedgrouping'] = 'Csoport létrehozása csoportosításon belül';
+$string['createingrouping'] = 'Létrehozás csoportosításon belül';
+$string['createorphangroup'] = 'Szólócsoport létrehozása';
+$string['databaseupgradegroups'] = 'A jelenlegi csoportverzió most: $a';
+$string['defaultgrouping'] = 'Alapértelmezett csoportosítás';
+$string['defaultgroupingname'] = 'Csoportosítás';
+$string['defaultgroupname'] = 'Csoport';
+$string['deleteallgroupings'] = 'Az összes csoportosítás törlése';
+$string['deleteallgroups'] = 'Az összes csoport törlése';
+$string['deletegroupconfirm'] = 'Biztosan törli a(z) $a csoportot?';
+$string['deletegrouping'] = 'Csoportosítás törlése';
+$string['deletegroupingconfirm'] = 'Biztosan törli a(z) $a csoportosítást? (A benne lévő csoportok nem törlődnek.)';
+$string['deleteselectedgroup'] = 'Kiválasztott csoport törlése';
+$string['editgroupingsettings'] = 'Csoportosítás beállításainak szerkesztése';
+$string['editgroupsettings'] = 'Csoport beállításainak szerkesztése';
+$string['enrolmentkey'] = 'Beiratkozási kulcs';
+$string['erroraddremoveuser'] = 'Hiba a(z) $a felhasználó csoporthoz való hozzáadása/csoportból való törlése közben';
+$string['erroreditgroup'] = 'Hiba a(z) $a csoport létrehozása/frissítése közben';
+$string['erroreditgrouping'] = 'Hiba a(z) $a csoportosítás létrehozása/frissítése közben';
+$string['errorinvalidgroup'] = 'Hiba, érvénytelen $a csoport';
+$string['evenallocation'] = 'Megjegyzés: A csoporthozzárendelés egyenletes volta érdekében a tagok csoportonkénti száma eltér az Ön által megadottól.';
+$string['existingmembers'] = 'Létező tagok: $a';
+$string['filtergroups'] = 'Csoportok szűrésének szempontja:';
+$string['group'] = 'Csoport';
+$string['groupaddedsuccesfully'] = 'A(z) $a csoport hozzáadása sikerült';
+$string['groupby'] = 'Meghatározás';
+$string['groupdescription'] = 'Csoportleírás';
 $string['groupinfo'] = 'Információk a kiválasztott csoportról';
 $string['groupinfomembers'] = 'Információk a kiválasztott tagokról';
 $string['groupinfopeople'] = 'Információk a kiválasztott személyekről';
+$string['grouping'] = 'Csoportosítás';
+$string['groupingdescription'] = 'Csoportosítás leírása';
+$string['groupingname'] = 'Csoportosítás neve';
+$string['groupingnameexists'] = 'A(z) \'$a\' nevű csoport már szerepel ebben a kurzusban, válasszon másikat.';
+$string['groupings'] = 'Csoportosítások';
+$string['groupingsonly'] = 'Csak csoportosítások';
+$string['groupmember'] = 'Csoporttag';
+$string['groupmemberdesc'] = 'Csoporttag szokásos szerepe.';
 $string['groupmembers'] = 'Csoporttagok';
+$string['groupmembersonly'] = 'Csak csoporttagok számára érhető el';
+$string['groupmembersonlyerror'] = 'Legalább egy ezen tevékenységhez kötődő csoportban tagnak kell lennie.';
 $string['groupmemberssee'] = 'Csoporttagok megtekintése';
 $string['groupmembersselected'] = 'A kiválasztott csoport tagjai';
-
-
-$string['javascriptrequired'] = 'Ehhez az oldalhoz be kell kapcsolni a javascriptet.';
-
-$string['viewowngroup'] = 'A tanulók bármely olyan csoport tagját megtekinthetik, amelybe beletartoznak';
-$string['viewallgroupsmembers'] = 'A tanulók az összes csoport tagjait láthatják';
-$string['viewallgroupsactivities'] = 'A tanulók az összes csoport tevékenységét megtekinthetik, de nem kapcsolódhatnak be';
-$string['teachersgroupmark'] = 'A tanárok nem jelölhetnek ki tevékenységeket olyan csoportok számára, amelyekbe nem tartoznak bele';
-$string['teachersgroupview'] = 'A tanárok nem tekinthetik meg olyan csoportok tevékenységeit, amelyekbe nem tartoznak bele';
-$string['teachersoverride'] = 'Az egyetlen csoportba nem tartozó tanárok megtkintethetik az összes csoport tevékenységeit, és ki is jelölhetnek tevékenységeket (felülírja a fentit)';
-
 $string['groupmode'] = 'Csoportmód';
 $string['groupmodeforce'] = 'Csoportmód előírása';
 $string['groupmy'] = 'Csoportom';
+$string['groupname'] = 'Csoport neve';
+$string['groupnameexists'] = 'A(z) \'$a\' nevű csoport már szerepel ebben a kurzusban, válasszon másikat.';
 $string['groupnotamember'] = 'Ön nem tagja annak a csoportnak';
+$string['groups'] = 'Csoportok';
+$string['groupscount'] = 'Csoport ($a)';
+$string['groupsgroupings'] = 'Csoportok és csoportosítások';
+$string['groupsinselectedgrouping'] = 'Csoportok itt:';
 $string['groupsnone'] = 'Nincs csoport';
+$string['groupsonly'] = 'Csak csoportok';
+$string['groupspreview'] = 'Csoportok előnézete';
 $string['groupsseparate'] = 'Külön csoportok';
 $string['groupsvisible'] = 'Látható csoportok';
-
-$string['groupaddedsuccesfully'] = 'A(z) $a csoport hozzáadása sikerült';
+$string['grouptemplate'] = '@ csoport';
+$string['hidepicture'] = 'Kép elrejtése';
+$string['javascriptrequired'] = 'Ehhez az oldalhoz be kell kapcsolni a javascriptet.';
+$string['members'] = 'Tagok csoportonként';
+$string['membersofselectedgroup'] = 'Tagok itt:';
+$string['namingscheme'] = 'Nevezési séma';
+$string['namingschemehelp'] = 'Az @ karakterrel a csoport betűjét, a # karakterrel a csoport számát jelölheti.';
+$string['newgrouping'] = 'Új csoportosítás';
+$string['newpicture'] = 'Új kép';
+$string['noallocation'] = 'Nincs hozzárendelés';
+$string['nogroups'] = 'Ebben a kurzusban még nincsenek beállítva csoportok';
+$string['nogroupsassigned'] = 'Nincsenek hozzárendelve csoportok';
 $string['nopermissionforcreation'] = 'Nem hozhatja létre a(z) \'$a\' csoportot, mivel nincs meg a szükséges jogosultsága';
+$string['nosmallgroups'] = 'Utolsó kis csoport megakadályozása';
+$string['notingrouping'] = '[Nem szerepel valamely csoportosításban]';
+$string['nousersinrole'] = 'A kiválasztott szerepben nincsenek megfelelő felhasználók';
+$string['number'] = 'Csoport/tag arány';
+$string['numgroups'] = 'Csoportok száma';
+$string['nummembers'] = 'Tagok csoportonként';
+$string['overview'] = 'Áttekintés';
+$string['potentialmembers'] = 'Potenciális tagok: $a';
+$string['printerfriendly'] = 'Nyomtatóbarát megjelenítés';
+$string['random'] = 'Véletlenszerűen';
+$string['removegroupfromselectedgrouping'] = 'Csoport törlése a csoportosításból';
+$string['removegroupingsmembers'] = 'Minden csoport törlése a csoportosításokból';
+$string['removegroupsmembers'] = 'Minden csoporttag törlése';
+$string['removeselectedusers'] = 'Kiválasztott felhasználók törlése';
+$string['selectfromrole'] = 'Tagok kiválasztása a szerep alapján';
+$string['showgroupsingrouping'] = 'Csoportosításon belüli csoportok megjelenítése';
+$string['showmembersforgroup'] = 'A csoport tagjainak megjelenítése';
+$string['toomanygroups'] = 'Ennyi csoport közzétételéhez kevés a felhasználó - a kiválasztott szerephez csak $a felhasználó van hozzárendelve';
+$string['usercount'] = 'Felhasználók száma';
+$string['usercounttotal'] = 'Felhasználók száma ($a)';
+$string['usergroupmembership'] = 'Felhasználó tagságának kiválasztása';
+$string['errornotingrouping'] = 'Nem hozhat létre csoportot itt: $a'; // ORPHANED
+$string['errornotingroupingedit'] = 'A(z) $a csoportosítást nem szerkesztheti'; // ORPHANED
+$string['errorinvalidgrouping'] = 'Hiba, érvénytelen $a csoportosítás'; // ORPHANED
+$string['upgradeconfirm'] = 'A Moodle 1.8 DEV csoporttáblái ebből a frissítésből törölve lettek. Folytatja?'; // ORPHANED
+$string['editgroupingpermissions'] = 'Csoportosítási engedélyek szerkesztése'; // ORPHANED
+$string['prefixforgroupnames'] = 'Csoportnevek előtagja'; // ORPHANED
+$string['defaultgroupprefix'] = 'csoport'; // ORPHANED
+$string['distributealphabetically'] = 'Csoportokra osztás betűrendben, vezetéknév szerint'; // ORPHANED
+$string['usestudentsonlyfromselectedgroup'] = 'Csak a most kiválasztott csoportból vegyen tanulókat'; // ORPHANED
+$string['selectnumberineachgroup'] = 'Szám kiválasztása minden csoportban'; // ORPHANED
+$string['numberofstudents'] = 'Tanulók száma'; // ORPHANED
+$string['distributeevenly'] = 'A többi tanuló egyenletes szétosztása'; // ORPHANED
+$string['selectnumberofgroups'] = 'Csoportok számának kiválasztása'; // ORPHANED
+$string['numberofgroups'] = 'Csoportok száma'; // ORPHANED
+$string['defaultgroupdescription'] = 'Alapbeállítás szerinti csoportleírás'; // ORPHANED
+$string['displaygrouping'] = 'Csoportosítás megjelenítése'; // ORPHANED
+$string['showusersalreadyingroup'] = 'A csoportosítás valamely csoportjában szereplő felhasználók megjelenítése'; // ORPHANED
+$string['save'] = 'Mentés'; // ORPHANED
+$string['cancel'] = 'Mégse'; // ORPHANED
+$string['return'] = 'Return'; // ORPHANED
+$string['groupfor'] = 'csoport számára'; // ORPHANED
+$string['viewowngroup'] = 'A tanulók bármely olyan csoport tagját megtekinthetik, amelybe beletartoznak'; // ORPHANED
+$string['viewallgroupsmembers'] = 'A tanulók az összes csoport tagjait láthatják'; // ORPHANED
+$string['viewallgroupsactivities'] = 'A tanulók az összes csoport tevékenységét megtekinthetik, de nem kapcsolódhatnak be'; // ORPHANED
+$string['teachersgroupmark'] = 'A tanárok nem jelölhetnek ki tevékenységeket olyan csoportok számára, amelyekbe nem tartoznak bele'; // ORPHANED
+$string['teachersgroupview'] = 'A tanárok nem tekinthetik meg olyan csoportok tevékenységeit, amelyekbe nem tartoznak bele'; // ORPHANED
+$string['teachersoverride'] = 'Az egyetlen csoportba nem tartozó tanárok megtkintethetik az összes csoport tevékenységeit, és ki is jelölhetnek tevékenységeket (felülírja a fentit)'; // ORPHANED
 
 ?>

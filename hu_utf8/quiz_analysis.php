@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.7 beta + (2006101003)
+      // quiz_analysis.php - created with Moodle 1.8.4+ (2007021540)
 
 
 $string['analysis'] = 'Tételelemzés';
@@ -13,6 +13,7 @@ $string['attemptshighest'] = 'legmagasabb pont';
 $string['attemptslast'] = 'utolsó próbálkozás';
 $string['dicsindextitle'] = 'Megkül.<br />index';
 $string['disccoefftitle'] = 'Megkül.<br />együtth.';
+$string['downloadhtml'] = 'A teljes táblázat letöltése HTML-formában';
 $string['downloadooo'] = 'Letöltés OpenOffice-formában';
 $string['facilitytitle'] = '%% helyes<br />egység';
 $string['lowmarkslimit'] = 'Ne elemezze a pontszámot, ha alacsonyabb, mint:';

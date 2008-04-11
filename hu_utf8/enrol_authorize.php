@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
+      // enrol_authorize.php - created with Moodle 1.8.4+ (2007021540)
 
 
 $string['adminacceptccs'] = 'Milyen hitelkártyafajtákat fogad el?';
@@ -11,14 +11,14 @@ $string['adminauthorizesettings'] = 'Az authorize.net beállításai';
 $string['adminauthorizewide'] = 'Portálra érvényes beállítások';
 $string['adminavs'] = 'Jelölje be ezt, ha bekapcsolta a címellenőrzési rendszert (AVS) authorize.net fiókjában. Itt olyan címrészleteket kell megadni, mint a házszám, az állam, az ország és az irányítószám, ha a felhasználó fizetési űrlapot tölt ki.';
 $string['adminconfighttps'] = 'Gondoskodjon arról, hogy az Adminisztráció >> Beállítások >> Változók >> Biztonság >> loginhttps pontján a \"<a href=\"$a->url\"> loginhttps BE legyen kapcsolva</a>, hogy használhassa ezt a segédprogramot.';
-$string['adminconfighttpsgo'] =  'A segédprogram beállításához térjen át a <a href=\"$a->url\">biztonságos oldal</a>ra.';
+$string['adminconfighttpsgo'] = 'A segédprogram beállításához térjen át a <a href=\"$a->url\">biztonságos oldal</a>ra.';
 $string['admincronsetup'] = 'A cron.php karbantartó kód legalább 24 órája nem futott le. Az ütemezett leemelés használatához be kell kapcsolnia a Cront.<br />Állítsa be a cront megfelelően, vagy ismét szüntesse meg az an_review bejelölését.<br />Az ütemezett leemelés kikapcsolásakor az ügyleteket törli a rendszer, ha 30 napon belül nem ellenőrzi őket.<br />Ellenőrizze az an_review-t és az an_capture_day mezőbe írjon \'0\'-t,ha 30 napon belül kézzel kíván fizetéseket elfogadni/elutasítani.';
-$string['adminemailexpired'] =  'Ez akkor hasznos, ha bekapcsolta a kézi leemelést. $a nappal a lejárat előtt a rendszergazdák figyelmeztető e-mailt kapnak a folyamatban lévő ügyletről.';
+$string['adminemailexpired'] = 'Ez akkor hasznos, ha bekapcsolta a kézi leemelést. $a nappal a lejárat előtt a rendszergazdák figyelmeztető e-mailt kapnak a folyamatban lévő ügyletről.';
 $string['adminemailexpiredsort'] = 'Ha a tanárok e-mailben értesülnek a lejáró folyamatban lévő megrendelések számáról, melyik legyen fontos?';
 $string['adminemailexpiredsortcount'] = 'A megrendelések száma';
 $string['adminemailexpiredsortsum'] = 'A teljes összeg';
 $string['adminemailexpiredteacher'] = 'Ha bekapcsolta a kézi leemelést (lásd fent) és a tanárok kezelhetik a fizetéseket, értesülhetnek az elbírálatlan megrendelések lejártáról is. Ezzel a kurzusoktatók e-mailt kapnak a lejáró folyamatban lévő megrendelésekről.';
-$string['adminemailexpsetting'] =  '(0 = e-mail küldésének kikapcsolása, alap = 2, max. = 5)<br />(Kézi leemelés beállításai e-mail küldéséhez: cron= bekapcsolva, an_review= bejelölve, an_capture_day= 0, an_emailexpired=1-5)';
+$string['adminemailexpsetting'] = '(0 = e-mail küldésének kikapcsolása, alap = 2, max. = 5)<br />(Kézi leemelés beállításai e-mail küldéséhez: cron= bekapcsolva, an_review= bejelölve, an_capture_day= 0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Ütemezett leemelés napja';
 $string['adminhelpreviewtitle'] = 'Rendelés ellenőrzése';
 $string['adminneworder'] = 'Tisztelt Rendszergazda! Új folyamatban lévő megrendelést kapott: Megrendelés azonosítója: $a->orderid Ügylet azonosítója: $a->orderid  Felhasználó: $a->user Kurzus: $a->course Összeg: $a->amount KÉZI LEEMELÉS BEKAPCSOLVA?: $a->acstatus Ha a kézi leemelés be van kapcsolva, akkor a bankkártyáról való leemelés időpontja $a->captureon, melyet követően a felhasználót be kell íratni a kurzusba; ellenkező esetben lejár $a->expireon időpontban, melyet követően már nem emelhető le. Lehetősége van a tanulót beiratkoztató fizetés elfogadására/elutasítására az alábbi ugrópontot követve: $a->url';
@@ -62,6 +62,7 @@ $string['captureyes'] = 'A hitelkártyát megterheljük és a tanulót beiratkoz
 $string['ccexpire'] = 'Lejárat dátuma';
 $string['ccexpired'] = 'A hitelkártya lejárt';
 $string['ccinvalid'] = 'Érvénytelen kártyaszám';
+$string['cclastfour'] = 'Hitelkártyán az utolsó négy';
 $string['ccno'] = 'Hitelkártyaszám';
 $string['cctype'] = 'Hitelkártyatípus';
 $string['ccvv'] = 'Kártyaellenőrzés';
@@ -88,7 +89,8 @@ $string['httpsrequired'] = 'Sajnos kérését jelenleg nem tudjuk feldolgozni. A
 $string['invalidaba'] = 'Érvénytelen ABA-szám';
 $string['invalidaccnum'] = 'Érvénytelen számlaszám';
 $string['invalidacctype'] = 'Érvénytelen számlatípus';
-$string['logindesc'] =  'Ezt az opciót be kell kapcsolni.  A Rendszergazda >> Változók >> Biztonság részben ellenőrizze, be van-e kapcsolva a <a href=\"$a->url\">loginhttps</a> opció. Ennek bekapcsolásakor a Moodle csak a bejelentkezési és fizetési oldalakon használ biztonságos https-csatlakozást.';
+$string['isbusinesschecking'] = 'Ügyletellenőrzés?';
+$string['logindesc'] = 'Ezt az opciót be kell kapcsolni.  A Rendszergazda >> Változók >> Biztonság részben ellenőrizze, be van-e kapcsolva a <a href=\"$a->url\">loginhttps</a> opció. Ennek bekapcsolásakor a Moodle csak a bejelentkezési és fizetési oldalakon használ biztonságos https-csatlakozást.';
 $string['logininfo'] = 'Biztonsági okokból a felhasználói név, a jelszó és az ügyletkód nem jelenik meg. Ha korábban már beállította ezeket a mezőket, akkor nem kell újból kitöltenie. Ha már beállított néhány mezőt, tőlük balra zöld szöveg látható. Ha először tölti ki ezeket a mezőket, először a felhasználói nevet (*) kell megadnia, majd a megfelelő mezőben vagy az ügyletkódot (1-es), vagy a jelszót (2-es). Biztonsági okokból ajánlott az ügyletkód megadása. Ha a jelenlegi jelszót törölni kívánja, jelölje be a négyzetet.';
 $string['methodcc'] = 'Hitelkártya';
 $string['methodecheck'] = 'eCheck (ACH)';
@@ -106,14 +108,15 @@ $string['nameoncard'] = 'Kártyán szereplő név';
 $string['new'] = 'Új';
 $string['noreturns'] = 'Nincs visszatérítés!';
 $string['notsettled'] = 'Nincs kiegyenlítve';
+$string['orderdetails'] = 'Rendelés részletei';
 $string['orderid'] = 'Rendelésazonosító';
 $string['paymentmanagement'] = 'Fizetés kezelése';
 $string['paymentmethod'] = 'Fizetési mód';
 $string['paymentpending'] = 'Ezen kurzushoz tartozó fizetésének rendezése ezzel a rendelési számmal folyamatban: $a->orderid. Lásd a <a href=\"$a->url\">Fizetési részleteket</a>.';
 $string['pendingecheckemail'] = 'Tisztelt Igazgató Úr! Jelenleg $a->count e-csekk nincs befizetve, a tanulók beiratkozásához csv formátumú állományt kell feltöltenie.  Kattintson az ugrópontra és olvassa el az oldalon megjelenő súgót: $a->url';
 $string['pendingechecksubject'] = '$a->course: be nem fizetett e-csekk ($a->count)';
-$string['pendingordersemail'] = 'Tisztelt Rendszergazda! A $a->course" kurzus $a->pending ügylete lejár, ha $a->days napon belül nem fogadja el a fizetést.  Ez egy figyelmeztető üzenet, mert nem kapcsolta be az ütemezett leemelést. Vagyis a befizetést kézzel kell elfogadnia vagy elutasítania. Folyamatban lévő befizetés elfogadásához/elutasításához térjen át ide: $a->url Ütemezett leemelés bekapcsolásához nem kap további figyelmeztető e-mailt, térjen át ide: $a->enrolurl';
-$string['pendingordersemailteacher'] = 'Tisztelt Tanár Úr! A $a->course" kurzus $a->currency $a->sumcost összegű $a->pending ügylete lejár, ha $a->days napon belül nem fogadja el a fizetést. A fizetést kézi úton kell elfogadnia vagy elutasítania, mert a rendszergazda nem kapcsolta be az ütemezett leemelést.  $a->url';
+$string['pendingordersemail'] = 'Tisztelt Rendszergazda! A $a->course\" kurzus $a->pending ügylete lejár, ha $a->days napon belül nem fogadja el a fizetést.  Ez egy figyelmeztető üzenet, mert nem kapcsolta be az ütemezett leemelést. Vagyis a befizetést kézzel kell elfogadnia vagy elutasítania. Folyamatban lévő befizetés elfogadásához/elutasításához térjen át ide: $a->url Ütemezett leemelés bekapcsolásához nem kap további figyelmeztető e-mailt, térjen át ide: $a->enrolurl';
+$string['pendingordersemailteacher'] = 'Tisztelt Tanár Úr! A $a->course\" kurzus $a->currency $a->sumcost összegű $a->pending ügylete lejár, ha $a->days napon belül nem fogadja el a fizetést. A fizetést kézi úton kell elfogadnia vagy elutasítania, mert a rendszergazda nem kapcsolta be az ütemezett leemelést.  $a->url';
 $string['pendingorderssubject'] = 'FIGYELEM: $a->course $a->pending rendelése $a->days napon belül lejár.';
 $string['reason11'] = 'Az ügyletet kétszer továbbították.';
 $string['reason13'] = 'A bonyolító bejelentkezési azonosítója érvénytelen vagy a fiókja ki van kapcsolva.';
@@ -144,6 +147,7 @@ $string['reviewnotify'] = 'Fizetését ellenőrizzük. Néhány napon belül e-m
 $string['sendpaymentbutton'] = 'Fizetés elküldése';
 $string['settled'] = 'Kiegyenlítve';
 $string['settlementdate'] = 'Kiegyenlítés dátuma';
+$string['shopper'] = 'Vásárló';
 $string['subvoidyes'] = 'A visszatérített $a->transid ügylet törölve lesz és $a->amount összeget jóváírunk a számláján. Biztosan ezt akarja?';
 $string['tested'] = 'Ellenőrizve';
 $string['testmode'] = '[TESZTMÓD]';
@@ -152,8 +156,10 @@ $string['transid'] = 'Ügyletazonosító';
 $string['underreview'] = 'Ellenőrzés alatt';
 $string['unenrolstudent'] = 'A tanulót kiiratkoztatja?';
 $string['uploadcsv'] = 'CSV-állomány feltöltése';
-$string['usingccmethod'] =  'Beiratkozás <a href=\"$a->url\">hitelkártyával</a>';
-$string['usingecheckmethod'] =  'Beiratkozás <a href=\"$a->url\">eCheck</a> segítségével';
+$string['usingccmethod'] = 'Beiratkozás <a href=\"$a->url\">hitelkártyával</a>';
+$string['usingecheckmethod'] = 'Beiratkozás <a href=\"$a->url\">eCheck</a> segítségével';
+$string['verifyaccount'] = 'Az Authorize.net kereskedelmi számla ellenőrzése';
+$string['verifyaccountresult'] = 'Ellenőrzés eredménye: $a';
 $string['void'] = 'Érvénytelen';
 $string['voidyes'] = 'Az ügyletet töröljük. Biztosan ezt akarja?';
 $string['welcometocoursesemail'] = 'Tisztelt Tanuló! Köszönjük befizetését. Ezen kurzusokra iratkozott be: $a->courses Szerkesztheti profilját: $a->profileurl Megtekintheti fizetési adatait: $a->paymenturl';
