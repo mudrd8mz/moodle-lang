@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ webquest.php, [eu] library ,v 1.0 2007/01/16 12:00:00  darkath Exp $
+<?PHP // $Id$ webquest.php, [eu] library ,v 1.0 2007/01/16 12:00:00  darkath Exp $
 //translated by Juan Ezeiza
 
 $string['absent'] = 'Ez dago';

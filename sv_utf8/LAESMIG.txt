@@ -1,4 +1,4 @@
-﻿Oeversaettning av Moodle till svenska. 
+Oeversaettning av Moodle till svenska. 
 Swedish Language pack by Anders Berggren andersb@ikt-pedagogen.se
 
 
