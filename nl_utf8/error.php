@@ -1,17 +1,32 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2008030700)
+      // error.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
+$string['blockcannotconfig'] = 'Dit blok ondersteunt geen globale configuratie';
+$string['blockcannotinistantiate'] = 'Probleem met het inistialiseren van het blok object';
+$string['blockdoesnotexist'] = 'Dit blok bestaat niet';
 $string['cannotassignrole'] = 'Kan rol niet toewijzen in cursus';
+$string['cannotcreatelangbase'] = 'Fout. Kon geen basis lang map maken';
 $string['cannotcreatelangdir'] = 'Kan lang map niet maken';
+$string['cannotcreatesitedir'] = 'Kan site map niet maken. De beheerder moet de rechten op de bestanden herstellen';
 $string['cannotcreatetempdir'] = 'Kan tijdelijke map niet maken.';
 $string['cannotcustomizelocallang'] = 'Je hebt onvoldoende rechten om de woorden en zinnen van de vertaling aan te passen. Deze rechten worden gecontroleerd door de mogelijkheid \"moodle/site:langeditlocal\". Zet deze mogelijkheid op toelaten om locale aanpassingen te doen aan de vertaling van jouw site.';
+$string['cannotdeletelangcache'] = 'Taalcache kan niet verwijderd worden. Herstel de rechten in dataroot/cache/languages!';
+$string['cannotdeleterole'] = 'Het kan niet verwijderd worden wegens $a';
+$string['cannotdeleterolewithid'] = 'Kon de rol met ID $a niet verwijderen';
 $string['cannotdownloadcomponents'] = 'Kan componenten niet downloaden.';
 $string['cannotdownloadlanguageupdatelist'] = 'Kan de lijst met updates voor taalpakketten niet downloaden van download.moodle.org';
 $string['cannotdownloadzipfile'] = 'Kan ZIP-bestand niet downloaden.';
 $string['cannoteditmasterlang'] = 'Je hebt onvoldoende rechten om de woorden en zinnen van het taalpakket aan te passen. Deze rechten worden gecontroleerd door de mogelijkheid \"moodle/site:langeditmaster\". Zet deze mogelijkheid op toelaten om het taalpakket te kunnen aanpassen. Doe dit alleen maar als je het taalpakket beheert.';
+$string['cannotfindcategory'] = 'Kan geen categorierecord vinden voor databank met ID - $a';
 $string['cannotfindcomponent'] = 'Kan component niet vinden.';
+$string['cannotfinddocs'] = 'Kan \"$a\" taal documentatie bestanden niet vinden';
+$string['cannotfindhelp'] = 'Kan \"$a\" taal help bestanden niet vinden';
+$string['cannotfindinfo'] = 'Kan geen informatie voor \"$a\" vinden';
+$string['cannotfindlang'] = 'Kan taalpakket \"$a\" niet vinden';
+$string['cannotfindsite'] = 'Kan cursus voor site niveau niet vinden';
+$string['cannotmoverolewithid'] = 'Kan rol met ID $a niet verplaatsen';
 $string['cannotsavemd5file'] = 'Kan md5-bestand niet bewaren.';
 $string['cannotsavezipfile'] = 'Kan ZIP-bestand niet bewaren.';
 $string['cannotunzipfile'] = 'Kan bestand niet unzippen';
