@@ -1,6 +1,9 @@
 <?php // $Id$ 
 
 $string['adminprimarynoedit'] = 'Le compte de l\'administrateur principal ne peut pas être modifié par les autres administrateurs';
+$string['blockdoesnotexist'] = 'Ce bloc n\'existe pas';
+$string['blockcannotinistantiate'] = 'Problème lors de l\'instantiation de l\'objet bloc';
+$string['blockcannotconfig'] = 'Ce bloc ne permet pas de configuration globale';
 $string['cannotassignrole'] = 'Attribution du rôle dans le cours impossible.';
 $string['cannotcreatelangdir'] = 'Création du dossier lang impossible.';
 $string['cannotcreatetempdir'] = 'Création du dossier temp impossible.';
@@ -9,7 +12,12 @@ $string['cannotdownloadcomponents'] = 'Téléchargement des composants impossibl
 $string['cannotdownloadlanguageupdatelist'] = 'Téléchargement de la liste des mises à jour des langues impossible.';
 $string['cannotdownloadzipfile'] = 'Téléchargement du fichier ZIP impossible.';
 $string['cannoteditmasterlang'] = 'Vous n\'avez pas les autorisations nécessaires pour modifier le paquetage de langue officiel. Cette autorisation est contrôlée par la capacité «&nbsp;moodle/site:langeditmaster". &nbsp;». Veuillez vous accorder cette capacité pour vous permettre de modifier les paquetages de langue, si vous êtes le responsable de la maintenance d\'un paquetage.';
+$string['cannotfindcategory'] = 'Enregistrement de la catégorie (ID $a) introuvable dans la base de données';
 $string['cannotfindcomponent'] = 'Composant introuvable.';
+$string['cannotfinddocs'] = 'Fichiers de documentation de la langue «&nbsp;$a&nbsp;» introuvables';
+$string['cannotfindhelp'] = 'Fichiers d\'aide de la langue «&nbsp;$a&nbsp;» introuvables';
+$string['cannotsaveconfig'] = 'Problème lors de l\'enregistrement de la configuration «&nbsp;$a[0]&nbsp;» sur «&nbsp;$a[1]&nbsp;» pour le plugin «&nbsp;$a[2]&nbsp;»'; 
+$string['cannotsavefile'] = 'Impossible d\'enregistrer le fichier «&nbsp;$a&nbsp;».';
 $string['cannotsavemd5file'] = 'Enregistrement du fichier md5 impossible.';
 $string['cannotsavezipfile'] = 'Enregistrement du fichier ZIP impossible.';
 $string['cannotunzipfile'] = 'Décompression du fichier ZIP impossible.';
