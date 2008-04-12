@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (2007101509)
+      // data.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
 $string['action'] = 'Actie';
@@ -224,6 +224,8 @@ $string['templates'] = 'Sjablonen';
 $string['templatesaved'] = 'Sjabloon bewaard';
 $string['text'] = 'Tekst';
 $string['textarea'] = 'Tekstgebied';
+$string['timeadded'] = 'Toegevoegd op';
+$string['timemodified'] = 'Gewijzigd op';
 $string['todatabase'] = 'naar deze database';
 $string['type'] = 'Veldtype';
 $string['undefinedprocessactionmethod'] = 'Geen methode gedefiniëerd in Data_Preset om de actie \"$a\" af te handelen.';
