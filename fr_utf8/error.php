@@ -95,6 +95,7 @@ $string['listcantmoveleft'] = 'Échec du déplacement de l\'élément vers la ga
 $string['listcantmoveright'] = 'Échec du déplacement de l\'élément vers la droite&nbsp;: il n\y a pas d\'élément du même niveau sous lequel le ranger. Déplacez-le sous un autre élément et vous pourrez alors le déplacer.';
 $string['loginasonecourse'] = 'Vous ne pouvez pas entrer dans ce cours.<br />Vous devez d\'abord terminer la session dans laquelle vous êtes «&nbsp;Connecté sous le nom&nbsp;» d\'un autre participant.';
 $string['loginasnoenrol'] = 'Vous ne pouvez pas vous inscrire ou vous désinscrire d\'un cours lorsque vous êtes «&nbsp;Connecté sous le nom&nbsp;» d\'un autre participant.';
+$string['messagingdisable'] = 'La messagerie est désactivée sur ce site';
 $string['missingfield'] = 'Le champ «&nbsp;$a&nbsp;» est manquant.';
 $string['missingrequiredfield'] = 'Un champ obligatoire n\'est pas renseigné';
 $string['moduledoesnotexist'] = 'L\'instance de ce module n\'existe pas';
