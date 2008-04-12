@@ -1,0 +1,39 @@
+<h1>Exportovať otázky do súboru</h1>
+
+<p>Táto funkcia Vám umožňuje export celej kategórie (a všetky jej podkategórie) otázok do textového súboru.</p>
+
+<p>Upozornenie: u väčšiny formátov súborov sa pri exporte úloh niektoré informácie stratia. To preto, lebo niektoré formáty nemajú všetky vlastnosti, ktoré sa vyskytujú v otázkach Moodle. Nemali by ste očakávať, že pri exporte a importe zostane všetko bez zmien. Niektoré typy otázok nemôžu byť exportované. Doporučuje sa skontrolovať exportované dáta pred použitím v novom prostredí.</p>
+
+<p>Aktuálne podporované Formáty: </p>
+
+<h2>GIFT formát</h2>
+
+<p>GIFT je najkomplexnejší import/export formát dostupný pre export Moodle testových otázok do textového súboru. Bol navrhnutý ako jednoduchý nástroj pre učiteľov, ktorí vytvárajú otázky vo formáte textového súboru. Podporuje otázky s: Viacerými možnosťami, Pravda/Nepravda, Krátke odpovede, Numerické a Zodpovedajúce otázky, ako aj vloženie  _____ pre formát "chýbajúce slovo". Upozornenie: Cloze otázky nie sú v súčastnosti podporované. Rôzne typy otázok môžu byť pomiešané v jednom textovom súbore a formát tiež podporuje poznámky k úlohám, názvy otázok, spätnú väzbu  a percentuálne hodnotenie. Pár príkladov:</p>
+<pre>
+Kto je pochovaný v hrobke Grant? {~Grant ~Jefferson =nikto}
+
+Grant je {~pochovaný =uložený ~žije} v Grant hrobke.
+
+Grant je pochovaný v Grant hrobke.{FALSE}
+
+Kto je pochovaný Grant hrobke?{=ani jeden =nikto}
+
+Kedy bol narodený Ulysses S. Grant?{#1822}
+</pre>
+<p class="moreinfo"><a href="help.php?file=formatgift.html&amp;module=quiz">Viac informácii o GIFT formáte</a></p>
+
+<h2>Moodle XML formát</h2>
+
+<p>Tento špecifický Moodle formát exportuje otázky testov v jednoduchom XML formáte. Môžu byť importované do ďalšej kategórie testu alebo použité v ďalšom spracovaní napríklad XSLT transformáciou. XML formát exportuje obrázky, ktoré sú pripojené k otázkam (kódovanie base64).</p>
+
+<h2>IMS QTI 2.0</h2>
+
+<p>Exportuje v štandardnom IMS QTI (versia 2.0) formáte. Poznamenávame, že generuje viacero súborov zbalených v jednom 'zip' archíve.</p>
+<p class="moreinfo"><a href="http://www.imsglobal.org/question/" target="_qti">Viac informácií o IMS QTI stránkach</a> (externý odkaz v novom okne)</p>
+
+<h2>XHTML</h2>
+
+<p>Exportuje kategóriu ako jednu stránku v kóde HTML 'strict'. Každá otázka je samostatne umiestnená v tagu &lt;div&gt; Ak chcete použiť túto stránku ako je, budete najmenej musieť upraviť tag &lt;form&gt; na začiatku &lt;body&gt; aby sa zaistila požadovaná akcia (napríklad: 'mailto'). 
+</p>
+
+<p>Import a export formáty sú vo forme zásuvných modulov. Ďalšie voliteľné formáty môžu byť dostupné v databáze Modules and Plugins na stránke moodle.org. </p>
