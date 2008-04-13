@@ -1,29 +1,30 @@
 <?PHP // $Id$ 
-         // qtype_multichoice.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // qtype_multichoice.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['addmorechoiceblanks'] = 'மேலதிக தெரிவுக்கான இடைவெளி';
-$string['answerhowmany'] = 'ஒன்று அல்லது அதற்கு மேற்பட்ட பதில்கள்?';
-$string['answersingleno'] = 'ஒன்றுக்கு மேற்பட்ட பதில்கள் அனுமதிக்கப்படும்';
-$string['answersingleyes'] = 'ஒரு பதில் மட்டும்';
-$string['choiceno'] = 'விருப்பங்கள் $a';
-$string['choices'] = 'கிடைக்கக்கூடிய விருப்பங்கள்';
-$string['clozeaid'] = 'விடுபட்ட சொல்லை பதி';
-$string['correctfeedback'] = 'ஏதேனும் சரியான விடை';
-$string['editingmultichoice'] = 'பல்தேர்வு வினா ஒன்றை திருத்தல்';
-$string['errfractionsaddwrong'] = 'நீங்கள் தெரிவு செய்த நேரான தரங்கள் 100%%<br /> பதிலாக வரைக்கும் சேர்க்கப்படவில்லை,அவை $a%% வரைக்கும் சேர்க்கப்பட்டுள்ளது';
-$string['errfractionsnomax'] = 'விடைகளில் ஒன்று 100%% ஆக இருக்க வேண்டும்.எனவே இது <br /> இவ்வினாவிற்கு முழு தராதரத்தையும் பெற்றுக்கொள்ள முடியும்';
-$string['feedback'] = 'பின்குறிப்பு';
-$string['fillouttwochoices'] = 'இரு தெரிவுகளையாவது நீங்கள் தெரிவு செய்ய வேண்டும். பயன்படுத்தாத விடுபட்ட இடைவெளியை தெரிவு செய்.';
+
+$string['addmorechoiceblanks'] = 'மேலதிக தெரிவுக்கான  {no}இடைவெளிகள்';
+$string['answerhowmany'] = 'தனி அல்லது பல விடைகள்';
+$string['answersingleno'] = 'பல விடைகள் அனுமதிக்கப்பட்டது.';
+$string['answersingleyes'] = 'ஒரு விடை மட்டும்.';
+$string['choiceno'] = 'தெரிவு $a';
+$string['choices'] = 'தெரிவுகள்';
+$string['clozeaid'] = 'தவறும் சொல்லை உள்ளிடுக';
+$string['correctfeedback'] = 'எந்தச் சரியான விடைக்கும்';
+$string['editingmultichoice'] = 'ஓர் பல் தேர்வு வினாவைத் தொகுத்தல்';
+$string['errfractionsaddwrong'] = 'நீங்கள் தெரிவு செய்த நேர்ப்பெறுமானத் தரங்கள் 100%%<br />  வரைக்கும் சேர்க்கப்படவில்லை, அவை $a%% வரைக்கும் சேர்க்கப்பட்டுள்ளது';
+$string['errfractionsnomax'] = 'ஒரு விடையாவது 100%% புள்ளிகளைக் கொண்டிருக்க வேண்டும், <br />அப்பொழுதுதான் இவ்வினாவுக்கு முழுப் புள்ளிகளையும் ஒருவர் பெறக்கூடியதாக இருக்கும்.';
+$string['feedback'] = 'பின்னூட்டம்';
+$string['fillouttwochoices'] = 'நீங்கள் இரண்டு தெரிவுகளையாவது நிரப்ப வேண்டும். வெறுமையாக விடப்படும் தெரிவுகள் பயன்படுத்தப்பட மாட்டா.';
 $string['fractionsaddwrong'] = 'நீங்கள் தெரிவு செய்த நேரான தரங்கள் 100%%<br /> பதிலாக வரைக்கும் சேர்க்கப்படவில்லை,அவை $a%%<br />வரைக்கும் சேர்க்கப்பட்டுள்ளது.நீங்கள் பின்னோக்கிச்சென்று இவ்வினாவை நிர்ணயிக்க வேண்டுமா?';
-$string['fractionsnomax'] = 'விடைகளில் ஒன்று 100%% ஆக இருக்க வேண்டும்.எனவே இது <br /> இவ்வினாவிற்கு முழு தராதரத்தையும் பெற்றுக்கொள்ள முடியும்.<br />நீங்கள் பின்னோக்கிச்சென்று இவ்வினாவை நிர்ணயிக்க வேண்டுமா?';
-$string['incorrectfeedback'] = 'ஏதேனும் பிழையான விடைக்காக';
-$string['notenoughanswers'] = 'இந்த வகை கேள்விகளுக்கு குறைந்தது $a பதில்கள் தேவை';
-$string['overallcorrectfeedback'] = 'ஏதேனும் சரியான விடைக்கான பின்னூட்டல்';
-$string['overallfeedback'] = 'எல்லா பின்னூட்டல்';
-$string['overallincorrectfeedback'] = 'ஏதேனும் பிழையான  விடைக்கான பின்னூட்டல்';
-$string['overallpartiallycorrectfeedback'] = 'ஏதேனும் பகுதியான சரியான விடைக்கான பின்னூட்டல்';
-$string['partiallycorrectfeedback'] = 'ஏதேனும் பகுதியான சரியான விடைக்காக';
-$string['shuffleanswers'] = 'சுழற்சி முறை பதில்கள்';
-$string['singleanswer'] = 'ஒரு பதிலைத் தேர்ந்தெடு';
+$string['fractionsnomax'] = 'ஒரு விடையாவது 100%% புள்ளிகளைக் கொண்டிருக்க வேண்டும், <br />அப்பொழுதுதான் இவ்வினாவுக்கு முழுப் புள்ளிகளையும் ஒருவர் பெறக்கூடியதாக இருக்கும். நீங்கள் மீண்டும் வினாவுக்குச் சென்று இதை நிவர்த்தி செய்யப் போகிறீர்களா?';
+$string['notenoughanswers'] = 'இவ்வகையான வினாவுக்கு குறைந்த பட்சம் $a விடைகளாவது தேவை.';
+$string['overallcorrectfeedback'] = 'ஏதும் சரியான விடைக்குரிய பின்னூட்டம்';
+$string['overallfeedback'] = 'மொத்தப் பின்னூட்டம்';
+$string['overallincorrectfeedback'] = 'ஏதும் பிழையான விடைக்குரிய பின்னூட்டம்';
+$string['overallpartiallycorrectfeedback'] = 'ஏதும் பகுதி சரியான விடைக்குரிய பின்னூட்டம்';
+$string['partiallycorrectfeedback'] = 'ஏதும் பகுதி சரியான விடைக்கு';
+$string['shuffleanswers'] = 'விடைகளை குலை';
+$string['singleanswer'] = 'ஒரு விடையைத் தெரிவு செய்யவும்';
+$string['incorrectfeedback'] = 'ஏதும் பிழையான விடைக்கு'; // ORPHANED
 
 ?>

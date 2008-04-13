@@ -1,29 +1,30 @@
-<?php // $Id$ 
-         // qtype_calculated.php - created with Moodle 1.8.2 + (November 27, 2007)
+<?PHP // $Id$ 
+      // qtype_calculated.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['addmoreanswerblanks'] = 'இன்னுமொரு பதிலுக்கான வெற்றிடத்தைச் சேர்க்க.';
+
+$string['addmoreanswerblanks'] = 'இன்னொரு வெற்று விடையைச்  சேர்';
 $string['addmoreunitblanks'] = '$a மேலதிக பிரிவுகளுக்கான வெற்றிடங்கள்';
-$string['answerhdr'] = 'பதில்';
-$string['atleastoneanswer'] = 'நீங்கள் ஆகக்குறைந்தது ஒரு பதிலையாவது வழங்கவேண்டும்.';
-$string['correctanswershows'] = 'சரியான பதில் காட்டப்படுகிறது';
+$string['answerhdr'] = 'விடை';
+$string['atleastoneanswer'] = 'நீங்கள் குறைந்த பட்சம் ஒரு விடையாவது கொடுக்க வேண்டும்.';
+$string['correctanswershows'] = 'சரியான விடை காட்டுவது';
 $string['correctanswershowsformat'] = 'வடிவமைப்பு';
-$string['existingcategory1'] = 'ஏற்கனவே இருக்கும் பகிரப்பட்ட தரவுத்தொடையைப் பயன்படுத்தலாம்';
-$string['keptcategory1'] = 'முன்னரைப்போல ஏற்கனவே இருக்கும் அதே பகிரப்பட்ட தரவுத்தொடையைப் பயன்படுத்தலாம்';
-$string['keptlocal1'] = 'முன்னரைப்போல ஏற்கனவே இருக்கும் அதே தனிப்பட்ட தரவுத்தொடையைப் பயன்படுத்தலாம்';
-$string['makecopynextpage'] = 'அடுத்தபக்கம் (புதிய கேள்வி)';
-$string['mandatoryhdr']='கட்டாயமான wild cards பதில்களில் உள்ளன';
-$string['mustbenumeric'] = 'நீங்கள் இங்கு நிச்சயமாக ஒரு இலக்கத்தை வழங்கவேண்டும்.';
-$string['mustnotbenumeric'] = 'இது இலக்கமாக இருக்கமுடியாது.';
-$string['newcategory1'] = 'புதிய பகிரப்பட்ட தரவுத்தொடையைப் பயன்படுத்தலாம்';
-$string['newlocal1'] = 'புதிய தனிப்பட்ட தரவுத்தொடையைப் பயன்படுத்தலாம்';
-$string['nextitemtoadd'] = 'அடுத்து \'சேர்ப்பதற்கான வகை\'';
-$string['nextpage'] = 'அடுத்தபக்கம்';
-$string['nodataset'] = 'எதுவுமில்லை - இது wild card இல்லை';
-$string['nosharedwildcard']='இவ்வகையில் பகிரப்பட்ட wild card எதுவுமில்லை';
-$string['possiblehdr']='சாத்தியமான wild cards கேள்வி உரையில் மட்டும் உள்ளன';
-$string['tolerance'] = 'சகிப்புத்தன்மை &plusmn';
+$string['existingcategory1'] = 'ஏற்கனவே உள்ள பகிரப்பட்ட தரவுத்தொகுதி பயன்படுத்தப்படும்.';
+$string['keptcategory1'] = 'முன்னர் போலவே, அதே ஏற்கனவே உள்ள பகிரப்பட்ட தரவுத்தொகுதி பயன்படுத்தப்படும்.';
+$string['keptlocal1'] = 'முன்னர் போலவே, அதே ஏற்கனவே உள்ள பகிரப்பட்ட தனிப்பட்ட தரவுத்தொகுதி பயன்படுத்தப்படும்.';
+$string['makecopynextpage'] = 'அடுத்த பக்கம் (புதிய வினா)';
+$string['mandatoryhdr'] = 'கட்டாயமான wild cards பதில்களில் உள்ளன';
+$string['mustbenumeric'] = 'நீங்கள் ஓர் இலக்கத்தையே இங்கு உள்ளிட வேண்டும்.';
+$string['mustnotbenumeric'] = 'இது ஒரு இலக்கமாக இருக்க முடியாது.';
+$string['newcategory1'] = 'ஒரு புதிய பகிரப்பட்ட தரவுத் தொகுதி பயன்படுத்தப்படும்.';
+$string['newlocal1'] = 'ஒரு புதிய, தனிப்பட்ட, பகிரப்பட்ட தரவுத் தொகுதி பயன்படுத்தப்படும்';
+$string['nextitemtoadd'] = 'அடுத்த \'சேர்க்க வேண்டிய Item  \'';
+$string['nextpage'] = 'அடுத்த பக்கம்';
+$string['nodataset'] = 'எதுவுமில்லை - இது ஒரு wild card கிடையாது';
+$string['nosharedwildcard'] = 'பகிரப்பட்ட wild card எதுவும் இவ்வகையில் இல்லை.';
+$string['possiblehdr'] = 'wild cards ஆனவை வினாவுக்கான உரையில் மட்டும் காணப்பட சாத்தியம் உண்டு';
+$string['tolerance'] = 'சகிப்புத்தன்மை &plusmn;';
 $string['updatecategory'] = 'வகையை இற்றைப்படுத்துக';
-$string['usedinquestion']='கேள்வியில் பயன்படுத்தப்பட்டுள்ளது';
-$string['youmustenteramultiplierhere'] = 'நீங்கள் இங்கு நிச்சயமாக ஒரு multiplier வழங்கவேண்டும்.';
+$string['usedinquestion'] = 'வினாவில் பயன்படுத்தப்பட்டுள்ளது';
+$string['youmustenteramultiplierhere'] = 'நீங்கள் இங்கு ஒரு multiplier வழங்கியாக வேண்டும்.';
 
 ?>

@@ -1,25 +1,25 @@
 <?PHP // $Id$ 
-         // access.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // access.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
 
 
-$string['access'] = 'அணுகுமுறை';
-$string['accesshelp'] = 'அணுகுமுறை உதவி';
-$string['accesskey'] = 'அணுகு விசை $a';
-$string['accessstatement'] = 'அணுகுமுறை அறிக்கை';
-$string['activitynext'] = 'அடுத்த செயற்பாடு';
-$string['activityprev'] = 'முந்தைய செயற்பாடு';
-$string['breadcrumb'] = 'Breadcrumb சோதனை அனுபவம்';
+$string['access'] = 'அணுகற்திறன்';
+$string['accesshelp'] = 'அணுகலுதவி';
+$string['accesskey'] = 'அணுகற்குறி, $a';
+$string['accessstatement'] = 'அணுகற்திறன் கூற்று';
+$string['activitynext'] = 'அடுத்த செயல்பாடு';
+$string['activityprev'] = 'முன்னைய செயல்பாடு';
+$string['breadcrumb'] = 'Breadcrumb பாதை';
 $string['monthnext'] = 'அடுத்த மாதம்';
-$string['monthprev'] = 'முந்தைய மாதம்';
-$string['showhideblock'] = 'தொகுதியைப் பார்க்க அல்லது மறைக்க';
-$string['sitemap'] = 'இணைய வரைபடம்';
-$string['skipa'] = '$aஐ விட்டுச்செல்க';
-$string['skipblock'] = 'தொகுதியை விட்டுச்செல்க';
-$string['skipnavigation'] = 'வழிச்செலுத்தலை விட்டுச்செல்க';
-$string['tabledata'] = 'தகவல் அட்டவணை, $a';
-$string['tablelayout'] = 'அட்டவணை அமைப்பு, $a';
-$string['tocontent'] = 'முக்கிய உள்ளடக்கத்திற்கு செல்க';
-$string['tonavigation'] = 'வழிச்செலுத்தலுக்கு செல்க';
-$string['youarehere'] = 'நீங்கள் இங்கே இருக்கிறீர்கள்';
+$string['monthprev'] = 'முன்னைய மாதம்';
+$string['sitemap'] = 'தள அமைப்பு';
+$string['skipa'] = '$a ஐத் தவிர்';
+$string['skipblock'] = 'கட்டத்தைத் தவிர்';
+$string['skipnavigation'] = 'வழிச்செலுத்தல் தவிர்';
+$string['tabledata'] = 'தரவு அட்டவணை , $a';
+$string['tablelayout'] = 'தளக்கோல அட்டவணை,  $a';
+$string['tocontent'] = 'பிரதான உள்ளடக்கத்திற்கு செல்';
+$string['tonavigation'] = 'வழிச்செலுத்தலுக்கு செல்';
+$string['youarehere'] = 'நீங்கள் இருப்பது இங்கே';
+$string['showhideblock'] = 'கட்டத்தைக்காட்டு அல்லது மறை'; // ORPHANED
 
 ?>

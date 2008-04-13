@@ -1,34 +1,35 @@
 <?PHP // $Id$ 
-         // journal.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // journal.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['alwaysopen'] = 'எப்பொழுதும் திறந்தநிலை';
-$string['blankentry'] = 'வெற்றிடப்பதிவு';
-$string['daysavailable'] = 'இருக்கும் நாட்கள்';
-$string['editingended'] = 'மாற்றுவதற்கான காலம் முடிவடைந்துவிட்டது';
-$string['editingends'] = 'மாற்றுவதற்கான காலம் முடிவடைகிறது';
+
+$string['alwaysopen'] = 'எப்போதும் திறந்த';
+$string['blankentry'] = 'வெற்றுப் பதிவு';
+$string['daysavailable'] = 'கிடைக்கும் நாட்கள்';
+$string['editingended'] = 'தொகுக்கும் காலம் முடிவடைந்து விட்டது';
+$string['editingends'] = 'தொகுக்கும் காலம் முடிகிறது';
 $string['entries'] = 'பதிவுகள்';
-$string['feedbackupdated'] = '$a பதிவுகளுக்கு பின்னூட்டல் இற்றைப்படுத்தப்பட்டுவிட்டது';
-$string['journalmail'] = '$a->teacher சில பின்னூட்டல்களை உங்களுடைய journal பதிவுகளில் \'$a-journal\'இற்காக அனுப்பியுள்ளார். அது  உங்களுடைய சஞ்சிகை பதிவு: $a->url இற்கு சேர்க்கப்பட்டுள்ளது. நீங்கள் அதனைப் பார்க்கலாம்';
-$string['journalmailhtml'] = '$a->teacher சில பின்னூட்டல்களை உங்களுடைய 
-சஞ்சிகை பதிவுகளில் \'<i>$a->journal</i>\'<br /><br />இற்காக அனுப்பியுள்ளார். 
-அது  உங்களுடைய <a href=\"$a->url\">சஞ்சிகை பதிவு</a> இற்கு சேர்க்கப்பட்டுள்ளது. நீங்கள் அதனைப் பார்க்கலாம்.';
-$string['journalname'] = 'சஞ்சிகை பெயர்';
-$string['journalquestion'] = 'சஞ்சிகை கேள்வி';
+$string['feedbackupdated'] = '$a பதிவுகளுக்கான பின்னூட்டம் இற்றைப்படுத்தப்பட்டது.';
+$string['journalmail'] = '$a->teacher சில பின்னூட்டங்களை உங்களுடைய \'$a->journal\' ஆய்விதழுக்காக அஞ்சலிட்டுள்ளார்.
+உங்கள் ஆய்விதழில் சேர்க்கப்பட்டுள்ளதைக் காணலம்: $a->url';
+$string['journalmailhtml'] = '$a->teacher சில பின்னூட்டங்களை உங்களுடைய \'<i>$a->journal</i>\'<br /><br /> ஆய்விதழுக்காக அஞ்சலிட்டுள்ளார்.
+அது எங்களுடைய ஆய்விதழின் <a href=\"$a->url\">பதிவில்</a>. காணலாம்.';
+$string['journalname'] = 'ஆய்விதழ் பெயர்';
+$string['journalquestion'] = 'ஆய்விதழ் வினா';
 $string['journalrating1'] = 'திருப்தியில்லை';
 $string['journalrating2'] = 'திருப்தி';
-$string['journalrating3'] = 'வெளி';
-$string['mailsubject'] = 'சஞ்சிகைப்பின்னூட்டல்';
-$string['modulename'] = 'சஞ்சிகை';
-$string['modulenameplural'] = 'சஞ்சிகைகள்';
-$string['newjournalentries'] = 'புதிய சஞ்சிகைபதிவுகள்';
-$string['noentry'] = 'பதிவு இல்லை';
-$string['noratinggiven'] = 'மதிப்பீடு வழங்கப்படவில்லை';
-$string['notopenuntil'] = 'இச்சஞ்சிகை இது வரையில் திறக்கப்படாது';
-$string['notstarted'] = 'நீங்கள் இந்த சஞ்சிகை இன்னும் ஆரம்பிக்கவில்லை';
-$string['overallrating'] = 'மொத்த மதிப்பீடு';
-$string['rate'] = 'மதிப்பீடு';
-$string['saveallfeedback'] = 'எனது அனைத்து பின்னூட்டல்களையும் சேமிக்க';
-$string['startoredit'] = 'எனது  சஞ்சிகை பதிவை ஆரம்பிக்க அல்லது மாற்றுக';
-$string['viewallentries'] = '$a சஞ்சிகை பதிவுகளைப் பார்வையிடுக';
+$string['journalrating3'] = 'இருப்பு';
+$string['mailsubject'] = 'ஆய்விதழ் பின்னூட்டம்';
+$string['modulename'] = 'ஆய்விதழ்';
+$string['modulenameplural'] = 'ஆய்விதழ்கள்';
+$string['newjournalentries'] = 'புதிய ஆய்விதழ் பதிவுகள்';
+$string['noentry'] = 'ஒரு பதிவும் காணப்படவில்லை.';
+$string['noratinggiven'] = 'ஒரு தரப்படுத்தலும் கொடுக்கப்படவில்லை';
+$string['notopenuntil'] = 'This ஆய்விதழ் won\'t be open until';
+$string['notstarted'] = 'இந்த ஆய்விதழ் ஐ நீங்கள் இன்னும் தொடங்கவில்லை.';
+$string['overallrating'] = 'மொத்த தரப்படுத்தல்';
+$string['rate'] = 'தரம்';
+$string['saveallfeedback'] = 'எனது பின்னூட்டங்கள் எல்லாவற்றையும் சேமி';
+$string['startoredit'] = 'எனது ஆய்விதழ் பதிவைத் தொடங்கு அல்லது தொகு';
+$string['viewallentries'] = '$a ஆய்விதழ் பதிவுகளைப் பார்';
 
 ?>

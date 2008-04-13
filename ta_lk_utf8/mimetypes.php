@@ -1,18 +1,19 @@
 <?PHP // $Id$ 
-         // mimetypes.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // mimetypes.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['application/msword'] = 'எழுத்து ஆவணங்கள்';
-$string['application/pdf'] = 'pdf ஆவணங்கள்';
-$string['application/vnd.ms-excel'] = 'எக்ஸல் ஸ்பிரட்சீட்';
-$string['application/vnd.ms-powerpoint'] = 'பவர்பாயிண்ட் பிரசன்டேஷன்';
-$string['application/zip'] = 'ஷிப் அர்ச்சிவ்';
-$string['audio/mp3'] = 'எம்பி3 ஒலிக் கோப்பு';
-$string['audio/wav'] = 'ஒலிக் கோப்பு';
+
+$string['application/msword'] = 'Word ஆவணம்';
+$string['application/pdf'] = 'PDF ஆவணம்';
+$string['application/vnd.ms-excel'] = 'Excel spreadsheet ';
+$string['application/vnd.ms-powerpoint'] = 'Powerpoint presentation ';
+$string['application/zip'] = 'zip ஆவணக்காப்பு';
+$string['audio/mp3'] = 'MP3 ஒலிக் கோப்பு';
+$string['audio/wav'] = 'ஓசைக் கோப்பு';
 $string['document/unknown'] = 'கோப்பு';
-$string['image/bmp'] = 'பிஎம்பி படங்கள்';
-$string['image/gif'] = 'ஜிப் படங்கள்';
-$string['image/jpeg'] = 'ஜேபக் படங்கள்';
-$string['text/plain'] = 'எழுத்துக் கோப்பு';
-$string['text/rtf'] = 'ஆர்டிஎப் ஆவணங்கள்';
+$string['image/bmp'] = 'சுருக்கப்படாத BMP படம்';
+$string['image/gif'] = 'GIF படம்';
+$string['image/jpeg'] = 'JPEG படம்';
+$string['text/plain'] = 'உரைக் கோப்பு';
+$string['text/rtf'] = 'RTF ஆவணம்';
 
 ?>

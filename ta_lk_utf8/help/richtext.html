@@ -1,0 +1,160 @@
+<h1>HTML தொகுப்பி</h1>
+
+<p>கிட்டுமை: <b>
+<?php  if (!$CFG->htmleditor) {
+       print_string("htmleditordisabledadmin");
+   } else if (!$USER->htmleditor) {
+       print_string("htmleditordisabled");
+   } else if (!can_use_richtext_editor()) {
+       print_string("htmleditordisabledbrowser");
+   } else {
+       print_string("htmleditoravailable");
+   }
+?>
+</b></p>
+
+<p>நிறை உரை HTML தொகுப்பியானது, உங்களுக்கு, ஒரு வார்த்தை-முறைவழியாக்கி இடைமுகம் ஒன்றை, இணையப்பக்கத்தில் தரும். அதில் தட்டச்சப்படுபவை, HTML குறிகளாக மாற்றப்படும்.</p>
+
+<p>உரைகளை வடிவமைப்பதுடன், மேலும் பல வசதிகளை இத்தொகுப்பி வழங்குகிறது.</p>
+
+<h2>ஏனைய மென்பொருட்களிலிருந்து உரையை ஒட்டுதல்.</h2>
+<ul>
+<p>Microsoft Word போன்ற ஏனைய மென்பொருட்களிலிருந்து நிறை-உரையை வெட்டி ஒட்டும்போது, வடிவமைப்பு பேணப்படும். </p>
+</ul>
+
+<h2>படங்களை உள்ளிடல் <img alt="" src="lib/editor/htmlarea/images/ed_image.gif" /></h2>
+<ul>
+<p>உங்களிடம் ஏற்கனவே இணையத்தில் பிரசுரிக்கப்பட்ட, URL மூலம் அணுகக்கூடிய படங்கள் காணப்படுமானால், அவற்றைச் சேர்த்துக் கொள்ள, "படத்தை உள்ளிடு" பொத்தைனைச் சொடுக்குக. </p>
+</ul>
+
+<h2>அட்டவணைகளை உள்ளிடல்<img alt="" src="lib/editor/htmlarea/images/insert_table.gif" /></h2>
+<ul>
+<p>உங்கள், உரைக்கு ஒரு தளக்கோலத்தைச் சேர்க்க, கருவிப் பட்டையிலுள்ள "அட்டவணைகளை உள்ளிடு" பொத்தானைச் சொடுக்குக.   
+</ul>
+
+<h2>இணைப்புகளை உள்ளிடல்<img alt="" src="lib/editor/htmlarea/images/ed_link.gif" /> /</h2>
+<ul>
+<p>ஒரு புதிய இணைப்பு ஒன்றை உருவாக்குவதற்கு, முதலில் இணைப்பு ஏற்படுத்தப்பட வேண்டிய உரையைத் தட்டச்சுக. பின்னர் அதனைத் தேர்ந்து, கருவிப்பட்டையிலுள்ள இணைப்புப் பொத்தானைச் சொடுக்குக.  இணைப்பிற்குரிய URL ஐத் தட்டச்சுக. </p>
+</ul>
+
+
+<h2>smilies (emoticons) ஐ உள்ளிடல் <img alt="" src="pix/s/smiley.gif" class="icon" /></h2>
+<ul>
+<p>இச்சிறிய சின்னங்களை உங்கள் உரையினுள் உள்ளிட, கருவிப்பட்டியிலுள்ள smiley சின்னத்தில் சொடுக்குக. பின்வரும்  smiley சின்னங்கள் ஒரு உரையாடற் பெட்டியில் காட்டப்படும். அதிலிருந்து நீங்கள் தெரிந்து கொள்ளலாம். (மாற்று வழியாக, அச்சின்னங்களுக்குரிய குறியை நீங்கள் தட்டச்சலாம், அவை அனுப்பப்படும்போது, சின்னங்களாக மாற்றப்பட்டு அனுப்பப்படும். ).</p>
+
+    <table border="1">
+      <tr valign="top">
+        <td>
+        <table border="0" align="center" cellpadding="10">
+          <tr>
+            <td><img alt="" src="pix/s/smiley.gif" class="icon" /></td>
+            <td>புன்முறுவல்</td>
+            <td nowrap="nowrap"><code>:-)</code></td>
+          </tr>
+          <tr>
+            <td><img alt="" src="pix/s/biggrin.gif" class="icon" /></td>
+            <td>இளிப்பு</td>
+            <td nowrap="nowrap"><code>:-D</code></td>
+          </tr>
+          <tr>
+            <td><img alt="" src="pix/s/wink.gif" class="icon" /></td>
+            <td>கண் சிமிட்டல்</td>
+            <td nowrap="nowrap"><code>;-)</code></td>
+          </tr>
+          <tr>
+            <td><img alt="" src="pix/s/mixed.gif" class="icon" /></td>
+            <td>கலந்த</td>
+            <td nowrap="nowrap"><code>:-/</code></td>
+          </tr>
+            <tr>
+              <td><img alt="" src="pix/s/thoughtful.gif" class="icon" /></td>
+              <td>சிந்தனை</td>
+              <td nowrap="nowrap"><code>V-.</code></td>
+            </tr>
+          <tr>
+            <td><img alt="" src="pix/s/tongueout.gif" class="icon" /></td>
+            <td>நா வெளியே</td>
+            <td nowrap="nowrap"><code>:-P</code></td>
+         </tr>
+          <tr>
+            <td><img alt="" src="pix/s/cool.gif" class="icon" /></td>
+            <td>cool</td>
+            <td nowrap="nowrap"><code>B-)</code></td>
+          </tr>
+            <tr>
+              <td><img alt="" src="pix/s/approve.gif" class="icon" /></td>
+              <td>ஆமோதித்தல்</td>
+              <td nowrap="nowrap"><code>^-)</code></td>
+            </tr>
+            <tr>
+              <td><img alt="" src="pix/s/wideeyes.gif" class="icon" /></td>
+              <td>அகன்ற விழிகள்</td>
+              <td nowrap="nowrap"><code>8-)</code></td>
+            </tr>
+            <tr>
+              <td><img alt="" src="pix/s/surprise.gif" class="icon" /></td>
+              <td>ஆச்சரியம்</td>
+              <td nowrap="nowrap"><code>8-o</code></td>
+            </tr>
+        </table>
+        </td>
+        <td>
+        <table border="0" align="center" cellpadding="10">
+            <tr>
+              <td><img alt="" src="pix/s/sad.gif" class="icon" /></td>
+              <td>கவலை</td>
+              <td nowrap="nowrap"><code>:-(</code></td>
+            </tr>
+            <tr>
+              <td><img alt="" src="pix/s/shy.gif" class="icon" /></td>
+              <td>வெட்கம்</td>
+              <td nowrap="nowrap"><code>8-.</code></td>
+            </tr>
+          <tr>
+            <td><img alt="" src="pix/s/blush.gif" class="icon" /></td>
+            <td>சிவத்தல்</td>
+            <td nowrap="nowrap"><code>:-I</code></td>
+          </tr>
+            <tr>
+              <td><img alt="" src="pix/s/kiss.gif" class="icon" /></td>
+              <td>முத்தங்கள்</td>
+              <td nowrap="nowrap"><code>:-X</code></td>
+            </tr>
+          <tr>
+            <td><img alt="" src="pix/s/clown.gif" class="icon" /></td>
+            <td>கோமாளி</td>
+            <td nowrap="nowrap"><code>:o)</code></td>
+          </tr>
+          <tr>
+            <td><img alt="" src="pix/s/blackeye.gif" class="icon" /></td>
+            <td>கருவிழி</td>
+            <td nowrap="nowrap"><code>P-|</code></td>
+          </tr>
+            <tr>
+              <td><img alt="" src="pix/s/angry.gif" class="icon" /></td>
+              <td>கோபம்</td>
+              <td nowrap="nowrap"><code>8-[</code></td>
+            </tr>
+            <tr>
+              <td><img alt="" src="pix/s/dead.gif" class="icon" /></td>
+              <td>இறந்த</td>
+              <td nowrap="nowrap"><code>xx-P</code></td>
+            </tr>
+            <tr>
+              <td><img alt="" src="pix/s/sleepy.gif" class="icon" /></td>
+              <td>தூக்கம்</td>
+              <td nowrap="nowrap"><code>|-.</code></td>
+            </tr>
+          <tr>
+            <td><img alt="" src="pix/s/evil.gif" class="icon" /></td>
+            <td>துஷ்டத்தனம்</td>
+            <td nowrap="nowrap"><code>}-]</code></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+    </table>
+
+</ul>
+
+

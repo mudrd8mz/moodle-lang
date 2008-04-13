@@ -1,0 +1,86 @@
+<h1>வடிவமைப்பு மேலோட்டம்</h1>
+<p>கீழ் வருவது ஒரு பொதுவான IMS Enterprise தரவுக் கோப்பின் கட்டமைப்பிற்கான எளிய வழிகாட்டியாகும். கூடுதல் விபரங்கள் <a href="http://www.imsglobal.org/enterprise/">உத்தியோகபூர்வ IMS Enterprise இணையத்தளத்தில் </a>காணலாம்.</p>
+
+<p>இவ்வுட்செருகல் கையாளக்கூடிய IMS தரவுக் கூறுகளினைப் பற்றி மேலும் வாசிப்பதற்கு, <a href="./enrol/imsenterprise/entv1p1_conformance_summary.html">conformance சுருக்கத்தைப் </a>  பார்க்கவும்.</p>
+
+
+<h1>IMS Enterprise கோப்பு வடிவமைப்பின் அடிப்படை வழிகாட்டி</h1>
+
+<p>எந்த ஒரு IMS-வகை சேரலுக்கும், உங்களுக்குப் பாடநெறியைக் குறிக்கும்  &lt;group&gt; சீட்டும், பயனாளர் கணக்கைக் குறிக்கும்  &lt;person&gt; சீட்டும், வகிபாகங்களைக் குறிக்கும்  &lt;member&gt; சீட்டுகளைக் கொண்ட &lt;membership&gt; சீட்டும்  தேவைப்படும்.</p><p>
+</p>
+
+<p>
+Moodle  தரவுத்தளத்தில் பயன்படுத்தப்படும் இலக்கத் தரவுகள் இங்கே பயன்படாது. குறிப்பிட்ட பயனாளர் ஒருவர் எத்தனையாவதாக சேர்க்கப்பட்டார் என்பது மாணவ தரவுத்தொகுதிக்குத் தெரியாது. ஆகவே அவை இங்கு பரிமாறப்படுவதில்லை. </p><p>
+</p>
+
+<p>
+பொதுவாக ஒரு பாடநெறியைக் குறிப்பிடுவதற்கு அதனது குறியும் பெயரும் பயன்படும். ஒரு பாடநெறிக்கு உரிய குறி MOODLE101 ஆகக் கொள்வோம்.  உங்கள் பாடநெறியை வரையறுக்க பின்வரும் வகையைப் பயன்படுத்தலாம்.</p><p>
+</p>
+
+<p>
+&nbsp; &lt;group&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;description&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;short&gt;Moodle 101&lt;/short&gt;<br />
+&nbsp; &nbsp; &lt;/description&gt;<br />
+&nbsp; &lt;/group&gt;<br />
+</p>
+
+<p>
+சேரல் script ஆனது  MOODLE101 ஐக் குறியீடாகக் கொண்ட பாடநெறியைத் தேடும். கிடையாவிடில், வரையறுக்கப்பட்டபடி, அது உருவாக்கப்படும். அதேபோல் பயனாளருக்கம், நாம் &quot;jmoodle&quot;ஐக் கருதினால்:</p><p>
+</p>
+
+<p>
+&nbsp; &lt;person&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;userid&gt;jmoodle&lt;/userid&gt;<br />
+&nbsp; &nbsp; &lt;name&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;fn&gt;Joe Moodle&lt;/fn&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;n&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;family&gt;MOODLE&lt;/family&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;given&gt;JOE&lt;/given&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/n&gt;<br />
+&nbsp; &nbsp; &lt;/name&gt;<br />
+&nbsp; &lt;/person&gt;<br />
+</p>
+
+<p>
+Joe இற்கு ஏற்கனவே கணக்கு இல்லாவிடில், விருப்பத்தெரிவாக, அவரது கணக்கு உருவாக்கப்படும். </p>
+
+
+<p>
+பாடநெறிக்குப் பயனாளரைச் சேர்த்தல்:</p><p>
+</p>
+
+<p>
+&nbsp; &lt;membership&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;member&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;role roletype=&quot;01&quot;&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;status&gt;1&lt;/status&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;extension&gt;&lt;cohort&gt;unit 2&lt;/cohort&gt;&lt;/extension&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/role&gt;<br />
+&nbsp; &nbsp; &lt;/member&gt;<br />
+&nbsp; &lt;/membership&gt;<br />
+</p>
+
+<p>
+IMS Enterprise வரையறையில் சேரலின் ஆரம்ப, இறுதித் தினங்களை வரையறுக்கும் வசதி உண்டு. இவற்றைச் சேர்க்க  &lt;timeframe&gt; சீட்டைத் தேவைப்பட்ட வகையில் பயன்படுத்தலாம். </p><p>
+</p>
+
+<p>
+ஒரு பயனாளர் ஏற்கனவே ஒரு குழுவில் சேர்க்கப்பட்டிருந்தால், ஒரு மாற்றமும் செய்யப்படாது. குழுக்கள் காணப்படாது விட்டால் குழுவாக்கம் இடம் பெறும். </p><p>
+

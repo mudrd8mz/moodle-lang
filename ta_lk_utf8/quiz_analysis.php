@@ -1,32 +1,33 @@
 <?PHP // $Id$ 
-         // quiz_analysis.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // quiz_analysis.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['analysis'] = 'பகுதிப்பகுப்பாய்வு';
-$string['analysisdownload'] = 'பகுப்பாய்வு பதிவிறக்கம்.';
-$string['analysisoptions'] = 'பகுப்பாய்வு விருப்பு';
-$string['analysistitle'] = ' பகுதிப்பகுப்பாய்வு அட்டவணை';
-$string['attemptsall'] = 'அனைத்து முயற்சிகள்';
+
+$string['analysis'] = 'உறுப்பு ஆய்வு';
+$string['analysisdownload'] = 'ஆய்வுப் பதிவிறக்கம்';
+$string['analysisoptions'] = 'ஆய்வுத் தெரிவுகள்';
+$string['analysistitle'] = 'உறுப்பு ஆய்வு அட்டவணை';
+$string['attemptsall'] = 'எல்லா முயற்சிகளும்';
 $string['attemptselection'] = 'ஒவ்வொரு பயனாளருக்குமான பகுப்பாய்வு முயற்சிகள்';
-$string['attemptsfirst'] = 'முதல் முயற்சி';
-$string['attemptshighest'] = 'உயர் தரம்';
-$string['attemptslast'] = 'கடைசி  முயற்சி';
+$string['attemptsfirst'] = 'முதலாவது முயற்சி';
+$string['attemptshighest'] = 'அதிகூடிய மதிப்பெண்';
+$string['attemptslast'] = 'இறுதி முயற்சி';
 $string['dicsindextitle'] = 'வட்டு.<br />சுட்டி';
 $string['disccoefftitle'] = 'வட்டு.<br />மடங்கு.';
-$string['downloadooo'] = 'ஓப்பன் ஒபீஷ் வடிவமாக பதிவிறக்கு.';
-$string['facilitytitle'] = '%% சரி<br />இலகு';
-$string['lowmarkslimit'] = 'இதனை விட புள்ளி குறைவெனில் பகுப்பாய்வு செய்யவேண்டாம்';
-$string['pagesize'] = ' ஒவ்வொரு பக்கங்களிற்குமான வினாக்கள்:';
-$string['qcounttitle'] = 'வி. எண்ணிக்கை';
-$string['qidtitle'] = 'வினா எண்';
+$string['downloadooo'] = 'OpenOffice வடிவமைப்பில் தரவிறக்குக';
+$string['facilitytitle'] ='%% சரி<br />இலகு';
+$string['lowmarkslimit'] = 'இதை விட மதிப்பெண் குறைவாக இருந்தால் ஆய்வு செய்ய வேண்டாம்';
+$string['pagesize'] = 'ஒரு பக்கத்தில் காட்டப்படும் வினாக்களின் எண்ணிக்கை';
+$string['qcounttitle'] = 'Q. எண்ணிக்கை';
+$string['qidtitle'] = 'Q#';
 $string['qnametitle'] = 'வினாப் பெயர்';
-$string['qtexttitle'] = 'வினா எழுத்து';
-$string['qtypetitle'] = 'வினாக்களின் வகை';
-$string['quizreportdir'] = 'குறு வினாவின்  அறிக்கைகள்';
-$string['rcounttitle'] = 'பதில்.<br />எண்ணிக்கை';
-$string['reportanalysis'] = 'பகுதிப்பகுப்பாய்வு அறிக்கை';
-$string['responsestitle'] = 'பதில்களின் எழுத்து';
-$string['rfractiontitle'] = 'குறை<br />பகுதி';
-$string['rpercenttitle'] = 'பதில்.%%';
-$string['stddevtitle'] = 'நியம விலகல்';
+$string['qtexttitle'] = 'வினா உரை';
+$string['qtypetitle'] = 'Q. வகை';
+$string['quizreportdir'] = 'புதிர்_அறிக்கைகள்'; 
+$string['rcounttitle'] = 'R.<br />எண்ணிக்கைகள்';
+$string['reportanalysis'] = 'உறுப்பு ஆய்வு அறிக்கை';
+$string['responsestitle'] = 'பதில் உரை';
+$string['rfractiontitle'] = 'பகுதியான <br />credit';
+$string['rpercenttitle'] = 'R.%%';
+$string['stddevtitle'] = 'SD';
 
 ?>

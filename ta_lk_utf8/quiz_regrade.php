@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
-         // quiz_regrade.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // quiz_regrade.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['regrade'] = 'மீள்தரம்';
+
+$string['regrade'] = 'மீ-மதிப்பிடு';
 
 ?>

@@ -1,0 +1,197 @@
+<h1>"GIFT"வடிவமைப்புக் கோப்புகளை இறக்குமதி செய்தல்</h1>
+<p>GIFT ஆனது 
+  Moodle புதிர் வினாக்களை இறக்குமதி செய்யப் பயன்படும் ஒரு வடிவமைப்பாகும். இதில்
+   பல்தேர்வு வினாக்கள், சரி-பிழை வினாக்கள், குறுவிடை வினாக்கள், பொருத்தும் வினாக்கள்
+  மற்றும் எண்கணித வினாக்கள் அமைக்கப்படலாம். மற்றும் ஒரு கோப்பிலே பல வகையான வினாக்களைக்
+  கலந்து வழங்கவும் முடியும். அத்துடன் வரியில் குறிப்புரைகள், வினாப் பெயர்கள்,
+  பின்னூட்டம் ஆகியனவும் பயன்படு்த்தப்படலாம். </p>
+<p>உங்கள் உரைக் குறியீடாக்கமானது utf-8 ஆக இருக்க வேண்டும். </p>
+<p>உதாரணக்கோப்பு ஒன்று  <a href="<?php echo $CFG->wwwroot; ?>/question/format/gift/examples.txt">gift/examples.txt</a>.
+  இல் உள்ளது. </p>
+<h3>அடிப்படைகள்</h3>
+
+<p>வினாக்கள் வெற்று வரிகளால் பிரிக்கப்படும். வினாவினுள் வெற்று வரியைக் காட்ட <b>\n</b> ஐப்
+பயன்படுத்தவும். குறிப்புரைகளை //உடன் தொடங்கவும். </p>
+<p>&nbsp;</p>
+<h3>வினா வகைகள்</h3>
+
+<p><u>பல்தேர்வு:</u><br />
+    இதில் சரியான விடைகளின் முன் ஒரு ~ அடையாளமும் பிழையான விடையின் முன் ஒரு =
+      அடையாளமும் இடப்படும். </p>
+    <pre>     Who's buried in Grant's tomb?{~Grant ~Jefferson =no one}</pre>
+    <p><b>தவறும் சொல்</b> வடிவமைப்பில் ஒரு இடைவெளி  ( _____ இது போல) இடப்படும்.
+      உதாரணம். </p>
+    <p>&nbsp;</p>
+    <pre>     Grant is {~buried =entombed ~living} in Grant's tomb.</pre>
+    <p>விடைகள்  punctuation mark, இற்கு முன்னர் வந்தால் தவறும் சொல் வடிவமைப்பு
+      பயன்படும்.</p>
+    <p>வினாக்கள் வெற்று வரியால் பிரிக்கப்படும். </p>
+    <p>&nbsp;</p>
+    <pre>     The American holiday of Thanksgiving is celebrated on the {
+         ~second
+         ~third
+         =fourth
+     } Thursday of November.
+     
+     Japanese characters originally came from what country? {
+         ~India
+         =China
+         ~Korea
+         ~Egypt}</pre>
+
+<p><u>குறுவிடை:</u><br />
+    சரியான விடைகள் அனைத்தும் வழங்கப்படும். அவை அனைத்தின் முன்னும் ஒரு = குறி
+      இடப்படும். பிழையான விடைகள் வழங்கப்பட மாட்டா </p>
+<pre>     Who's buried in Grant's tomb?{=no one =nobody}
+
+     Two plus two equals {=four =4}.</pre>
+    <p>சரி-பிழை வினாக்களுடன் கலக்காதவிடத்து ஒரே ஒரு சரியான விடை வழங்கப்படுமானால்
+      = அடையாளம் தேவையில்லை.</p>
+
+    <p><u>சரி-பிழை:</u><br />
+    இதில் விடையானது சரியா பிழையா என வரையறுக்கப்படும். விடை {TRUE}அல்லது {FALSE},ஆக
+      அல்லது  {T} ,{F}. ஆக இருக்கும்  </p>
+    <pre>     Grant is buried in Grant's tomb.{F}
+
+     The sun rises in the east.{T}</pre>
+
+<p><u>பொருத்துதல்:</u><br />
+    பொருத்தும் சோடிகள் சமன் அடையாளத்துடன் தொடங்கும். அத்துடன் அவை  "->".ஆல் பிரிக்கப்படும்.
+    குறைந்த பட்சம் 3 சோடிகளாவது இருக்க வேண்டும். </p>
+    <pre>     பொருத்தும் வினா. {
+         =உப வினா1 -> உபவிடை1
+			=உப வினா2 -&gt; உபவிடை2
+			=உப வினா3 -&gt; உபவிடை3
+         }
+     
+     Match the following countries with their corresponding capitals. {
+         =Canada -> Ottawa
+         =Italy  -> Rome
+         =Japan  -> Tokyo
+         =India  -> New Delhi
+         }</pre>
+    <p>பொருத்தும் வினாக்களில் பின்னூட்டங்களோ விடைக்கான நிறைகளோ வழங்கப்பட முடியாது.      </p>
+
+    <p><u>எண்கணிதம்:</u><br />
+    இவ்வகை வினாக்களின் விடைப்பகுதியானது ஒரு # அடையாளத்துடன் தொடங்க வேண்டும்.
+      இவ்விடைகள் ஒரு வழு வீச்சைக் கொண்டிருக்கலாம். இவ்வீச்சானது சரியான விடையின்
+      பின்னர் கீழ்க்காட்டியவாறு பயன்படுத்தப்படும். உதாரணமாக <u>{#2:0.5}</u>.
+      இல் விடையானது 1.5இற்கும் 2.5இற்குமிடையில் இருக்கலாம். </p>
+    <pre>     When was Ulysses S. Grant born? {#1822}
+
+     What is the value of pi (to 3 decimal places)? {#3.1415:0.0005}.</pre>
+    <p>&nbsp;</p>
+    <h3>தெரிவுகள்</h3>
+    <p>இவ்வடிப்படை வினாவகைகளுடன் இவ்வடியானது, பின்வரும் தெரிவுகளையும் வழங்குகின்றது.      </p>
+    <p>வரியில் குறிப்புரை, வினாப் பெயர், பின்னூட்டம் மற்றும் விடை நிறை</p>
+    <p><u>வரியில் குறிப்புரை:</u><br />
+    Moodle இனுள் இறக்குமதி செய்யப்படத் தேவையில்லாத குறிப்புரைகளையும் உரைக் கோப்பில்
+      சேர்க்கலாம். இவை வினாக்கள் பற்றிய மேலதிக தகவல்களாக இருக்கலாம். குறிப்புரைகளைப்
+      பின்வருமாறு பயன்படுத்தலாம். .</p>
+    <pre>     // Subheading: Numerical questions below
+     What's 2 plus 2? {#4}</pre>
+
+<p><u>வினாவின் பெயர்:</u><br />
+    வினாவுக்கான பெயர் ஒன்றைப் பின்வருமாறு இடலாம்.</p>
+    <pre>     ::Kanji Origins::Japanese characters originally
+     came from what country? {=China}
+
+     ::Thanksgiving Date::The American holiday of Thanksgiving is 
+     celebrated on the {~second ~third =fourth} Thursday of November.</pre>
+    <p>வினாப்பெயர் வழங்கப்படாதவிடத்து, முழு வினாவும் பெயராகக் கொள்ளப்படும். </p>
+
+    <p><u>பின்னூட்டம்:</u><br />
+    ஒவ்வொரு வினாவுக்குமான பின்னூட்டமானது, வினாவைத் தொடர்ந்து #
+      ஐ இடுவதன் மூலம் வழங்கப்படலாம். </p>
+    <p>&nbsp;</p>
+    <pre>     What's the answer to this multiple-choice question?{
+     ~wrong answer#feedback comment on the wrong answer
+     ~another wrong answer#feedback comment on this wrong answer
+     =right answer#Very good!}
+     
+     Who's buried in Grant's tomb?{
+     =no one#excellent answer!
+     =nobody#excellent answer!}
+     
+     Grant is buried in Grant's tomb.{FALSE#Wrong, No one is buried in Grant's tomb.#Right, well done.}</pre>
+    <p>பல்தேர்வு வினாவாக இருந்தால் மாணவர் தெரிவு செய்யும் விடைக்குரிய பின்னூட்டம்
+      மட்டும் மாணவருக்குக் காட்டப்படும். குறுவிடை வினாக்களில் சரியான விடையை மாணவர்
+      அளித்தால் மட்டும் காட்டப்படும். சரி-பிழை வினாக்களுக்குப் பின்னூட்டம் இரண்டு
+      காணப்படும். முதலாவது மாணவர் அளித்தவிடை பிழையாக இருந்தால் காட்டப்படுவது,
+      இரண்டாவது மாணவர் அளித்த விடை சரியானால் காட்டப்படுவது. </p>
+    <p><u>விடை நிறை வீதங்கள்:</u><br />
+    இவை பல்தேர்வு வினாக்களுக்கும், குறுவிடை வினாக்களுக்கும் பொருந்தும்.  பல்தேர்வு
+      வினாக்களுக்கு இவை ~ அடையாளத்தின் பின்னர் வரையறுக்கப்படும். குறுவிடை வினாக்களில்
+      இவை = அடையாளத்தின் பின்னர் வரையறுக்கப்படும். இவை பின்வரும்வகையில் வழங்கப்படுகின்றன
+      (உதாரணம் %50%). </p>
+    <p>&nbsp;</p>
+    <pre>     Difficult question.{~wrong answer ~%50%half credit answer =full credit answer}
+          
+     ::Jesus' hometown::Jesus Christ was from {
+     ~Jerusalem#This was an important city, but the wrong answer.
+     ~%25%Bethlehem#He was born here, but not raised here.
+     ~%50%Galilee#You need to be more specific.
+     =Nazareth#Yes! That's right!}.
+     
+     ::Jesus' hometown:: Jesus Christ was from {
+     =Nazareth#Yes! That's right!
+     =%75%Nazereth#Right, but misspelled.
+     =%25%Bethlehem#He was born here, but not raised here.}</pre>
+    <p><u>பல விடை:</u><br />
+    பல்தேர்வு வினாக்களில் 1 இற்கு மேற்பட்ட விடைகள் சரியாக இருந்தால் இத்தெரிவு
+      பயன்படும். இதன்போது முழுப் புள்ளிகளையும் பெறுவதற்கு மாணவர் எல்லாச் சரியான
+      விடைகளையும தெரிவு செய்ய வேண்டும்.</p>
+
+    <pre>     What two people are entombed in Grant's tomb? {
+          ~No one
+          ~%50%Grant
+          ~%50%Grant's wife
+          ~Grant's father }</pre>
+    <p>= அடையாளம் பயன்படுத்தப்படைமையைக் கவனிக்க. அத்துடன் மொத்தப் புள்ளிகள் 
+      100% வீதத்தைத் தாண்ட முடியாது. மாணவர் எல்லா விடைகளையும் அடையாளப்படுத்தி
+       100% பெறுவதைத்த தடுப்படதற்கு மறைப் பெறுமானங்களை பிழையான விடைகளுக்கு வழங்கலாம்.      </p>
+    <pre>     What two people are entombed in Grant's tomb? {
+          ~%-50%No one
+          ~%50%Grant
+          ~%50%Grant's wife
+          ~%-50%Grant's father }</pre>
+
+<p><u>விசேட எழுத்துருக்கள் ~ = # { } :</u><br />
+    இவ்வெழுத்துருக்கள்  <b> ~ = # { } : </b> ஆனவை, இவ்வடியின் செயற்பாட்டைத் தீர்மானிப்பதால்
+    அவற்றை வினாவின் உரையில் வெறுமனே சேர்த்துக் கொள்ள முடியாது. அப்படி சேர்க்க
+    வேண்டிய தேவை இருப்பின் அவற்றின் முன்னால், ஒரு விசேட எழுத்துரு ஒன்றை இட வேண்டும்.
+    இது \ அடையாளமாகும். </p>
+<p>உதாரணமாக:</p>
+<pre>     Which answer equals 5? {
+          ~ \= 2 + 2
+          = \= 2 + 3
+          ~ \= 2 + 4  }
+
+     ::GIFT Control Characters::
+     Which of the following is NOT a control character for the GIFT import format? {
+        ~ \~     # \~ is a control character.
+        ~ \=     # \= is a control character.
+        ~ \#     # \# is a control character.
+        ~ \{     # \{ is a control character.
+        ~ \}     # \} is a control character.
+        = \     # Correct! \ (backslash) is not a control character. BUT,
+                   it is used to escape the control characters.
+     }</pre>
+    <p>வினாவைச் சேமிக்கும் போது இவ்வெழுத்துருக்கள் நீக்கப்பட்டு  Moodle இல் சேமிக்கப்படும். </p>
+
+    <h3>வகைகளை வரையறுத்தல்</h3>
+
+<p>GIFT கோப்பு ஒன்றிலே சேமிக்கப்படும் வினாவின் வகையை மாற்றலாம். </p>
+<p>வகையைப் பிரித்துக் காட்டுவதற்கு அதன் முன்னும் பின்னும் ஒரு வெற்று வரியை விடுக.
+  உதாரணமாக:</p>
+<pre>
+$CATEGORY: tom/dick/harry
+</pre>
+
+அல்லது
+<pre>
+$CATEGORY: mycategory
+</pre>
+
+<p>முதலாவது உதாரணத்தில் ஒரு கிளை வகையின் பாதை காட்டப்பட்டுள்ளது. </p>
+<p>&nbsp;</p>

@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-         // quiz_grading.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // quiz_grading.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['essayonly'] = 'தொடரும் கேள்விகள் கைமுறையாக தரமிடப்படல் வேண்டும்';
-$string['grading'] = 'கைமுறை தரமிடல்';
+
+$string['essayonly'] = 'பின்வரும் வினாக்கள் கைமுறையால் மதிப்பிடப்பட வேண்டியவை';
+$string['grading'] = 'கைமுறை மதிப்பிடல்';
 
 ?>

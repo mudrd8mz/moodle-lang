@@ -1,0 +1,136 @@
+<h2> Markdown இனது உயர்தரப் பிரயோகம் </h2>
+
+<div id="Main">
+
+<div class="article">
+<p>'Markdown கொண்டு உரையை மேம்படுத்தல்' என்ற பகுதியில் தரப்பட்ட அடிப்படைத் தகவல்களுக்கு, மேலதிகமாக, Markdown இனது முழுப் பிரயோகத்தையும் பயன்படுத்துவது பற்றி இப்பகுதி விளக்குகின்றது. கீழே பட்டியலிடப்பட்டுள்ள வடிவமைப்புகள் உங்களுக்குத் தற்சமயம் தேவையில்லா விடில், இப்பகுதியைத் தவிர்க்கலாம், தேவையேற்படும் போது மீண்டும் வந்து இதைப் பார்க்கலாம். </p>
+<ul>
+
+<li><a href="#linebreaks">வரி முறிப்புகள்</a></li>
+<li><a href="#hr">கிடைக் கோடுகள்</a></li>
+<li><a href="#image_links">இணைக்கப்பட்ட படங்கள்</a></li>
+<li><a href="#embedded">HTML ஐ உட்பொதித்தல்</a></li>
+<li><a href="#preformatted">முன்-வடிவமைக்கப்பட்ட  குறிகள்</a></li>
+<li><a href="#special_char">விசேட வரியுருக்களைப் பயன்படுத்தல்</a></li>
+<li><a href="#further">மேலதிக வாசிப்பு</a></li>
+</ul>
+
+<h2><a id="linebreaks">வரி முறிப்புகள்</a></h2>
+
+<p>கவிதை போன்ற சில உரைகளில், வரி முறிப்புகளை உள்ளிட வேண்டிய தேவை ஏற்படும். இதற்கு enter விசையைப் பயன்படுத்துவது, வேண்டிய விளைவைக் காட்டாது. </p>
+
+<p><strong><code>The best laid schemes o' Mice an' Men,<br />
+Gang aft agley,<br />
+An' lea'e us nought but grief an' pain,<br />
+For promis'd joy!</code></strong></p>
+
+<p>மேற்காட்டப்பட்ட உதாரணத்தை enter விசையைப் பயன்படுத்தி உள்ளிடும் போது பின்வரும் வகையில் அது காட்டப்படும். :</p>
+
+<p>The best laid schemes o' Mice an' Men,
+Gang aft agley,
+An' lea'e us nought but grief an' pain,
+For promis'd joy!</p>
+
+<p>ஆனால் இரண்டு வெற்று இடங்களை வரியினிறுதியில் இடுவதன் மூலம், வரி முறிப்பைக் கட்டாயப்படுத்தலாம். :</p>
+
+<p>The best laid schemes o' Mice an' Men,<br />
+Gang aft agley,<br />
+An' lea'e us nought but grief an' pain,<br />
+For promis'd joy!  </p>
+
+<h2><a id="hr">கிடைக் கோடுகள்</a></h2>
+
+<p>மூன்று அல்லது அதற்கு மேற்பட்ட எண்ணிக்கையில் நட்சத்திரக் குறிகள் (*), இணைப்புக்கோடுகள் (-) மற்றும் underscores (_) ஆகியவற்றை ஒரு வரியில் தொடரந்து இடுவதன்மூலம், அவற்றாலான கிடைக்கோடுகளை உருவாக்க முடியும். </p>
+
+<p>அது பின்வருமாறு தொழிற்படும்:</p>
+
+<p><strong><code>***</code></strong></p>
+
+<p>ஆனால் நீங்கள் இதற்கு மேலும் வெற்றிடங்கள் அல்லது வேறு எழுத்துக்களைச் சேர்த்து இது பகுதி முறிப்பென்பதைத் தெளிவாக்கலாம். </p>
+
+<p><strong><code>* * * * *</code></strong></p>
+
+<p><strong><code>-------------------------</code></strong></p>
+
+<p><strong><code>_ _ _ _ _</code></strong></p>
+
+<p>மேற்கூறிய அனைத்து முறைகளும், கீழ்வரும் விளைவையே சரியாகக் காட்டும். :</p>
+
+<hr />
+
+<h2><a id="image_links">மீ-இணைக்கப்பட்ட படங்கள்</a></h2>
+
+<p> Markdown கொண்டு உரையை மேம்படுத்தல, எனும் ஆவணமானது,  இணைப்புகளை ஏற்படுத்துவதற்கும், படங்களை உள்ளிடுவதற்குமான அறிவுறுத்தல்களைத் தருகின்றது.  இவற்றைச் சேர்த்துப் பயன்படுத்துவதால் சொடுக்கக் கூடிய இணைப்புகளாகப் படங்கள் காட்டப்பட முடியும் எனபது தெளிவில்லாதிருக்கலாம்.</p>
+
+<p><strong><code>[the google search engine][google]</code></strong></p>
+
+<p><strong><code>![the google logo][logo]</code></strong></p>
+
+<p>மேலே உள்ளவை சாதாரண இணைப்பும் படமும். இணைப்பு உரை இருக்கும் இடத்தில் படத்தை இட்டால் பின்வருவது கிடைக்கும்:</p>
+
+<p><strong><code>[![the google logo][logo]][google]</code></strong></p>
+
+<p>மேலே காட்டப்பட்ட வரியும், ஆவணத்தில் ஆங்காங்கே காணப்படும் இணைப்பு வரையறைகளான :</p>
+
+<p><strong><code>[logo]: http://www.google.com/images/logo.gif</code></strong><br />
+<strong><code>[google]: http://www.google.com/ "click to visit Google.com"</code></strong></p>
+
+<p>ஆகியனவும் சேர்ந்து பின்வரும் சொடுக்கக்கூடிய படத்தைத் தரும்.:</p>
+
+<p><a href="http://www.google.com/" title="click to visit Google.com"><img src="http://www.google.com/images/logo.gif" alt="the google logo" /></a></p>
+
+<p>பெரிய படங்களைப் பதிவிறக்குவதற்குரிய இணைப்புகளாகச் சிறிய படங்களைக் காட்டும் இடங்களில், இம்முறையானது பெரிதும் பயன்படும். </p>
+
+<h2><a id="embedded">HTML ஐ உட்பொதித்தல்</a></h2>
+
+<p>நீங்கள் ஏற்கனவே HTML இல் பரிச்சயமானவராக இருந்தால், நீங்கள் பழக்கப்பட்ட கட்டுப்பாட்டை Markdown இல் பெற முடியாதிருக்கும் சந்தர்ப்பங்கள் ஏற்படலாம். இதற்காக Markdown ஆனது தன்னுள் HTML ஐ உட்பொதிக்க அனுமதிக்கின்றது. </p>
+
+<p><strong><code>* &lt;small&gt;சிறிய உரை&lt;/small&gt;</code></strong><br />
+
+<strong><code>* &lt;big&gt;பெரிய உரை&lt;/big&gt;</code></strong> </p>
+
+<ul>
+<li><small>சிறிய உரை</small>  </li>
+<li><big>பெரிய உரைbig text</big> </li>
+</ul>
+
+
+<h2><a id="preformatted">HTML அல்லது முன்-வடிவமைக்கப்பட்ட உரை காட்டல்</a></h2>
+
+<p>மேற்கூறப்பட்டது போல அல்லாமல், தட்டச்சு செய்யப்படும் HTML ஆனது, தட்டச்சு செய்யப்பட்டடது போலவே காட்டப்பட வேண்டுமானால், ஒவ்வொரு வரித் தொடக்கத்திலும் நான்கு வெற்றிடங்களை விடவும். </p>
+
+<pre><code>&lt;p&gt;A paragraph in &lt;b&gt;HTML&lt;/b&gt; displayed as code&lt;/p&gt;
+</code></pre>
+
+<p>கணினிக்குறியைக் காட்டவும் இது பயன்படும்.:</p>
+
+<pre><code>print "Command-line arguments: (@ARGV)\n";
+</code></pre>
+
+<p>கணினி நிரல்கள் காட்டுவதற்குப் பயன்படுவதாலும், Markdown உடன் முரண்படக்கூடிய எழுத்துக்களைக் கொண்ட உரைகளைக் காட்டுவதற்குப் பயன்படுவதாலும், இவ்வரிகளுக்கு, Markdown வடிவமைப்பானது பயன்படுத்தப்படாது:</p>
+
+<pre><code>Normally this word would be **bold**.
+</code></pre>
+
+<p>சாதாரண உரையில் இப்படியான எழுத்துக்களைச் சேர்க்கப் பின்வரும் பகுதியைப் பார்க்க</p>
+
+<h2><a id="special_char">விசேட எழுத்துக்களைப் பயன்படுத்தல்</a></h2>
+
+<p>Markdown வடிவமைப்பைத் தூண்டும் விசேட வரியுருவை, அப்படியே காட்ட விரும்பின் அதற்கு முன்னால் ஒரு "\ "ஐ இடவும். இது 'escaping' வரியுரு என அழைக்கப்படும். </p>
+
+<p><strong><code>\*asterisks, not emphasis\*</code></strong></p>
+
+<p>என எழுதினால்</p>
+
+<p>*asterisks, not emphasis*</p>
+
+<p>என்று காட்டப்பும். ஆனால் </p>
+
+<p><strong><code>*emphasis, not asterisks*</code></strong></p>
+
+<p>என்று காட்டப்படாது. 
+
+<h2><a id="further">மேலதிக வாசிப்பு</a></h2>
+
+<p>Markdown தொகுதியானது Moodle இற்குத் தனித்துவமான தொன்றல்ல. இது, வளர்ந்து வரும் இணைய வெளியீட்டுக் மென்பொருட் கருவிகள் பலவற்றில் பயன்படுத்தப்படுகின்றது. இது பற்றி மேலும் அறிய <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a> இல் சொடுக்கவும்.</p>
+</div></div>

@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-         // label.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // label.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['labeltext'] = 'விவரச் சீட்டுகளின் எழுத்து';
-$string['modulename'] = 'விவரச் சீட்டு';
-$string['modulenameplural'] = 'விவரச் சீட்டுகள்';
+
+$string['labeltext'] = 'சிட்டை உரை';
+$string['modulename'] = 'சிட்டை';
+$string['modulenameplural'] = 'சிட்டைகள்';
 
 ?>

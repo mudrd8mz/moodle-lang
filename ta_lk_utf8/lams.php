@@ -1,31 +1,32 @@
 <?PHP // $Id$ 
-         // lams.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // lams.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['createSequence'] = 'புதிய வரிசையை அமைக்க';
-$string['editSequence'] = 'தேர்ந்தெடுக்கப்பட்ட வரிசையை பதிப்பி';
-$string['error'] = 'வருந்துகிறோம். என்ன தவறு என்று புரியவில்லை';
+
+$string['createSequence'] = 'புதிய தொடரை உருவாக்குக';
+$string['editSequence'] = 'தெரிவு செய்யப்பட்ட தொடரைத் தொகுக்க';
+$string['error'] = 'மன்னிக்கவும், இனம் தெரியாத வழு ஒன்று ஏற்பட்டுள்ளது.';
 $string['introduction'] = 'அறிமுகம்';
-$string['lams'] = '-- LAMS - கற்றல் செயற்பாட்டு நிர்வாக தொகுதி';
-$string['lams:manage'] = 'LAMS  செயற்பாடுகளை நிர்வகிக்க';
-$string['lams:participate'] = 'LAMS  செயற்பாடுகளில் பங்கெடுக்க';
+$string['lams'] = '-- LAMS - Learning Activity Management System - கற்றல் செயற்பாட்டு முகாமைத்துவத் தொகுதி --';
+$string['lams:manage'] = 'LAMS செயற்பாடுகளை நிர்வகி';
+$string['lams:participate'] = 'LAMS செயற்பாடுகளில் பங்குபற்று';
 $string['lamsoutline'] = 'LAMS மேலோட்டம்';
-$string['lesson'] = 'கற்றல் பகுதி';
-$string['modulename'] = 'LAMS';
-$string['modulenameplural'] = 'LAMS';
-$string['notsetup'] = 'ஒழுங்கமைக்கப்படவில்லை';
-$string['openauthor'] = 'LAMS எழுதுனரை திறக்க';
-$string['openlearner'] = 'LAMS கற்பவரை திறக்க';
-$string['openmonitor'] = 'LAMS நோக்குனரை திறக்க';
-$string['refreshSequenceList'] = 'தொடர் பட்டியலை புதுப்பிக்கவும்';
-$string['selectExistingSequence'] = 'ஏலவேயுள்ள தொடர் பட்டியலை தெரியவும் அல்லது புதியதொன்றை உருவாக்கவும்';
-$string['sequence'] = 'தொடரை தெரியவும்';
-$string['serverid'] = 'LAMS சர்வதேசத்திலிருந்து  <a href=\"http://www.lamsinternational.com\"> பெற்ற வழங்கி அடையாளத்தை கொடுக்கவும்';
-$string['serverkey'] = 'LAMS சர்வதேசத்திலிருந்து <a href=\"http://www.lamsinternational.com\"> பெற்ற வழங்கி திறப்பை கொடுக்கவும்';
-$string['serverurl'] = 'LAMS வழங்கியை அனுகுதலுக்கான அடிப்படை URL ஐத்தருக. உதாரணமாக http://localhost:8080/lams';
-$string['useSequence'] = 'தேர்வு செய்யப்பட்ட தொடரைக்காட்டுக';
-$string['visibletostudents'] = 'மாணவர்களிற்கு செயற்பாட்டைக்காட்டுக';
-$string['wikistartederror'] = 'விகி ஏலவே பதிவுகளைக்கொண்டுள்ளது - அதனை மாற்ற முடியாது';
-$string['workspace'] = 'வேலைப்பரப்பை தேர்வுசெய்க';
-$string['wrongversionrange'] = '$a சரியான விசாலம் இல்லை';
+$string['lesson'] = 'கற்கும் அமர்வு';
+$string['modulename'] = 'LAMS ';
+$string['modulenameplural'] = 'LAMS ';
+$string['notsetup'] = 'அமைக்கப்படவில்லை';
+$string['openauthor'] = 'LAMS ஆசிரியரைத் திற';
+$string['openlearner'] = 'LAMS மாணவரைத் திற';
+$string['openmonitor'] = 'LAMS கண்காணிப்பாளரைத் திற';
+$string['refreshSequenceList'] = 'தொடர்ப்பட்டியலைப் புதுப்பி';
+$string['selectExistingSequence'] = 'இருக்கும் தொடர் ஒன்றைத் தெரிவு செய்க அல்லது புதியதொன்றை உருவாக்குக.';
+$string['sequence'] = 'தொடரைத் தெரிவு செய்க';
+$string['serverid'] = '<a href=\"http://www.lamsinternational.com\">LAMS international</a>. கிடைத்த சேவை வழங்கி ID ஐ உள்ளிடுக';
+$string['serverkey'] = '<a href=\"http://www.lamsinternational.com\">LAMS international</a>.  கிடைத்த சேவை வழங்கி சாவியை உள்ளிடுக';
+$string['serverurl'] = 'LAMS சேவையகத்தை அணுகுவதற்கான அடிப்படை URL ஐத் தருக. உதாரணமாக http://localhost:8080/lams';
+$string['useSequence'] = 'தெரிவு செய்த தொடரைப் பயன்படுத்துக';
+$string['visibletostudents'] = 'செயற்பாட்டை மாணவருக்குக் காட்டுக';
+$string['wikistartederror'] = 'Wiki இல் ஏற்கனவே பதிவுகள் உண்டு - மாற்ற முடியாது.';
+$string['workspace'] = 'வேலைத்தளத்தைத் தெரிவு செய்க';
+$string['wrongversionrange'] = '$a ஒரு சரியான விசாலம் இல்லை!';
 
 ?>

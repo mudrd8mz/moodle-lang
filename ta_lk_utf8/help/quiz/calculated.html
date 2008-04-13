@@ -1,0 +1,62 @@
+<h1>கணிக்கப்பட்ட வினாக்கள்</h1>
+
+<p>புதிர் முயற்சிக்கப்படும்போது, தனித்துவமான பெறுமானங்களைக் கொண்ட  எண்கணித வினாக்களை உருவாக்குவதற்கு இது பயன்படும். 
+<br /> பிரதான தொகுக்கும் பக்கத்தின் சுருக்கம் கீழே சில உதாரணங்களுடன் தரப்பட்டுள்ளது:
+</p>
+
+<table><tbody>
+<tr valign="top">
+    <th scope="col" align="right">வினா:</th>
+    <td>
+        <textarea id="questiontext" name="questiontext" rows="5" cols="40" wrap="virtual">How much is {a} + {b} ?</textarea>
+</td>
+</tr>
+<tr valign="top">
+    <th scope="col" align="right">காட்ட வேண்டிய படம்:</th>
+    <td>
+    <select name="image"><option value="" selected="selected">எதுவும் இல்லை</option><option value="grevture.gif">grevture.gif</option></select>
+    </td>
+</tr>
+
+<tr valign="top">
+<th scope="col" align="right">சரியான விடைச் சமன்பாடு:</th>
+    <td>
+    <input align="left" type="text" id="formula0" name="answer[]" size="20" value="{a} + {b}" />&nbsp;&nbsp;
+    <input type="hidden" name="fraction[]" value="1.0" />
+    </td>
+</tr>
+<tr valign="top">
+    <th scope="col" align="right">Tolerance:</th>
+    <td>
+    <input align="left" type="text" id="tolerance0&quot;" name="tolerance[]" size="15" value="0.01" />±
+    </td>
+</tr>
+<tr valign="top">
+<th scope="col" align="right">Tolerance வகை:</th>
+    <td>
+    <select name="tolerancetype[]"><option value="1" selected="selected">Relative</option><option value="2">Nominal</option><option value="3">Geometric</option></select>
+    </td>
+</tr>
+<tr valign="top">
+<th scope="col" align="right">Significant Figures:</th>
+    <td>
+    <select name="correctanswerlength[]"><option value="1">1</option><option value="2" selected="selected">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
+    </td>
+</tr>
+</tbody></table>
+
+<p>
+சரியான விடைச்சமன்பாட்டில் உள்ள {a} , {b} ஆகியவற்றைப் பெறுமானங்களால் பிரதியிட முடியும். கணிக்கப்பட்ட வினாக்களுக்கான தொகுக்கும் wizard இல் பின்னர் பொருத்தமான பல பெறுமானங்கள் வரையறுக்கப்படும்...
+</p> <p>
+பயன்படுத்தக்கூடிய ஏற்றுக்கொள்ளப்பட்ட செயற்பாடுகள் + -*/ மற்றும் %  ஆகும்.  % என்பது modulo ஆகும். பின்வரும் கணிதவியல் செயற்பாடுகளும் பயன்படுத்தப்படலாம்:<br /><b>
+abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sprt, tan, tanh
+</b><br />பின்வருவன இரு அளபுருக்களை ஏற்கும் செயற்பாடுகளாகும்<br /><b>
+atan2, pow
+</b><br />மற்றும் ஒன்றிற்கு மேற்பட்ட அளபுருக்களை ஏற்பவை  <b>min</b> மற்றும் <b>max</b> ஆகும். 
+
+ <b>pi</b> ஐப் பயன்படுத்தும் போது <b>pi()</b> எனப் பயன்படுத்தவும். அதேபோல ஏனையவற்றிற்கும் அளபுருக்கள் அடைப்புக்குறிகளினுள் இடப்பட வேண்டும். உதாரணம் <b>sin({a}) + cos({b}) * 2</b>.
+<br /> PHP-style functions பற்றிய மேலதிக விபரங்களுக்கு <a target="phpmathdoc" href="http://www.php.net/manual/en/ref.math.php">PHP இணையத்தளத்திலுள்ள ஆவணத்தைப்</a>  பார்க்க.
+</p> <p> 
+எண்கணித வினாக்களுக்கு விடை ஒரு வீச்சத்தினுள் அமைந்ததாக அமைப்பதற்குப் புலம்  "Tolerance" பயன்படுத்தப்படும். </p> <p>
+ <b>Significant Figures</b> ஆனது அறிக்கைகளில் சரியான விடை எவ்வாறு தோற்ற வேண்டும் என்பதைத் தீர்மானிக்கும். உதாரணம்: இது 3 ஆக அமைக்கப்பட்டிருந்தால், சரியானவிடை  13.333  ஆக இருக்கையில், அது 13.3 ஆகக் காட்டப்படும் ; 1236 ஆனது 1240 ஆகக் காட்டப்படும்; 23 ஆனது  23.0 ஆகக் காட்டப்படும்.
+</p> 

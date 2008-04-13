@@ -1,25 +1,26 @@
 <?PHP // $Id$ 
-         // pix.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // pix.php - created with Moodle 1.8.2+ (2007021520)
+
 
 $string['angry'] = 'கோபம்';
 $string['approve'] = 'அனுமதி';
-$string['biggrin'] = 'big grin';
-$string['blackeye'] = 'கருப்பு கண்';
-$string['blush'] = 'சிவப்புமுகம்';
-$string['clown'] = 'கோமாளி';
-$string['cool'] = 'சாந்தமான';
-$string['dead'] = 'இறந்த';
+$string['biggrin'] = 'பெரிய அசட்டுச் சிரிப்பு';
+$string['blackeye'] = 'கறுப்புக் கண்';
+$string['blush'] = 'சிவத்தல்';
+$string['clown'] = 'விகடகவி';
+$string['cool'] = 'நன்று - Cool ...';
+$string['dead'] = 'இறத்தல்';
 $string['evil'] = 'தீங்கு';
 $string['kiss'] = 'முத்தம்';
-$string['mixed'] = 'கலவை';
-$string['sad'] = 'வருத்தம்';
+$string['mixed'] = 'கலந்தது';
+$string['sad'] = 'துக்கம்';
 $string['shy'] = 'வெட்கம்';
-$string['sleepy'] = 'தூக்கம்';
-$string['smiley'] = 'சிரி';
-$string['surprise'] = 'ஆச்சரியம்';
-$string['thoughtful'] = 'நினை';
-$string['tongueout'] = 'நாக்கு';
-$string['wideeyes'] = 'கண்கள்';
-$string['wink'] = 'மின்னக்கூடிய';
+$string['sleepy'] = 'தூக்கமான';
+$string['smiley'] = 'புன்முறுவல்';
+$string['surprise'] = 'வியப்பு';
+$string['thoughtful'] = 'சிந்திக்கின்ற';
+$string['tongueout'] = 'நாக்கு வெளியே';
+$string['wideeyes'] = 'அகன்ற கண்கள்';
+$string['wink'] = 'கண்சிமிட்டு';
 
 ?>

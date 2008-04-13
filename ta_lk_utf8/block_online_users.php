@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-         // block_online_users.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // block_online_users.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['blockname'] = 'நிகழ் நிலைப் பயனாளர்';
-$string['configtimetosee'] = 'பயனாளர் ஒருவர் நிகழ் நிலையில் இல்லையென கருதப்பட்ட பின்னர் செயற்படாத காலப்பகுதியை நிர்ணயிக்கும் நிமிடங்கள்';
-$string['periodnminutes'] = 'கடைசி $a நிமிடங்கள்';
+
+$string['blockname'] = 'இணைப்புநிலைப் பயனாளர்';
+$string['configtimetosee'] = 'ஒரு பயனாளர் இணப்பு நிலையில் இல்லை என்று கருதுவதற்கு அவர் செயற்பாடெதுவுமின்றி இருக்க வேண்டிய குறைந்த பட்ச நிமிடங்கள்.';
+$string['periodnminutes'] = 'கடந்த $a நிமிடங்கள்';
 
 ?>

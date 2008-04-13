@@ -1,7 +1,8 @@
-<?php // $Id $
-         // $Id: block_mnet_hosts.php - created with Moodle 1.8.2 + (November 27, 2007)
+<?PHP // $Id$ 
+      // block_mnet_hosts.php - created with Moodle 1.8.2+ (2007021520)
 
-$string['mnet_hosts'] = 'வலைப்பின்னல் வழங்கிகள்';
-$string['server'] = 'வழங்கி';
+
+$string['mnet_hosts'] = 'வலையமைப்புச் சேவையகங்கள்';
+$string['server'] = 'சேவையகம்';
 
 ?>

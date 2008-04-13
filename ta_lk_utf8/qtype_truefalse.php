@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-         // qtype_truefalse.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // qtype_truefalse.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['correctanswer'] = 'விடையை சரிபார்க்க';
-$string['editingtruefalse'] = 'உண்மை/பொய் வினாவொன்றை மாற்றுதல்';
-$string['false'] = 'பொய்';
-$string['feedbackfalse'] = '\'உண்மை\' பதிலுக்கான பின்னூட்டல்';
-$string['feedbacktrue'] = '\'உண்மை\' பதிலுக்கான பின்னூட்டல்';
-$string['true'] = 'உண்மை';
-$string['truefalse'] = 'உண்மை/ பொய்';
+$string['correctanswer'] = 'சரியான விடை';
+$string['editingtruefalse'] = 'ஒரு சரி/பிழை வினாவைத் தொகுத்தல்';
+$string['false'] = 'பிழை';
+$string['feedbackfalse'] = 'பதில் \'பிழை\' ஆக இருந்தால் அதற்குரிய பின்னூட்டம்.';
+$string['feedbacktrue'] = 'பதில் \'சரி\'  ஆக இருந்தால் பின்னூட்டம்.';
+$string['true'] = 'சரி';
+$string['truefalse'] = 'சரி/பிழை';
 
 ?>

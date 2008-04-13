@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-         // auth_mnet.php - created with Moodle 1.8.2 + (November 27, 2007)
+      // auth_mnet.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['sso_idp_description'] = 'திரும்பவும் Moodle இல் உள்நுழைவு செய்யாமல் உங்களுடைய பயனாளர்களை $a Moodle தளத்திற்கு உலாவுவதற்கான அனுமதிக்கு, இந்த சேவையை வெளியிடுக. <ul><li><em>தங்கியிருத்தல்</em>: நீங்கள் SSO(சேவை வழங்குநர்) இன் $a இலுள்ள சேவைக்கு <strong>சந்தாதாரர்</strong> ஆக வேண்டும்.</li></ul><br />. திரும்பவும் உள்நுழைவு செய்யாமல் நிரூபிக்கப்பட்ட பயனாளர்களை $a இருந்து உங்களுடைய தளத்தினை அணுகுவதற்கு இந்த சேவைக்கு சந்தாதாரராகுக. <ul><li><em>தங்கியிருத்தல்</em>: நீங்கள் $a சேவைக்கு, SSO(சேவை வழங்குநர்) இல்<strong>வெளியிடுட</strong> வேண்டும்.</li></ul><br />.';
-$string['sso_idp_name'] = 'SSO(அடையாள வழங்குநர்)';
-$string['sso_mnet_login_refused'] = 'பயனாளர் பெயர் $a[0] ற்கு $a[1]இலிருந்து உள்நுழைவதற்கு அனுமதிக்கப்படவில்லை.';
-$string['sso_sp_description'] = 'திரும்பவும் உள்நுழைவு செய்யாமல் நிரூபிக்கப்பட்ட பயனாளர்களை $a இருந்து உங்களுடைய தளத்தினை அணுகுவதற்கு இந்த சேவையை வெளியிடுக. <ul><li><em>தங்கியிருத்தல்</em>: நீங்கள் SSO(அடையாள வழங்குநர்) இன் $a  இலுள்ள சேவைக்கு <strong>சந்தாதாரர்</strong> ஆக வேண்டும்.li></ul><br />. திரும்பவும் Moodle இல் உள்நுழைவு செய்யாமல் உங்களுடைய பயனாளர்களை $a Moodle தளத்திற்கு உலாவுவதற்கான அனுமதிக்கு, இந்த சேவையில் சந்தாதாரராகுக. <ul><li><em>தங்கியிருத்தல்</em>: நீங்கள் $a சேவைக்கு, SSO(அடையாள வழங்குநர்) இல்<strong>வெளியிடுக</strong> வேண்டும்.</li></ul><br />.';
-$string['sso_sp_name'] = 'SSO(சேவை வழங்குநர்)';
+$string['sso_idp_description'] = 'Publish this service to allow your users to roam to the $a Moodle site without having to re-login there. <ul><li><em>Dependency</em>: You must also <strong>subscribe</strong> to the SSO (Service Provider) service on $a.</li></ul><br />Subscribe to this service to allow authenticated users from $a to access your site without having to re-login. <ul><li><em>Dependency</em>: You must also <strong>publish</strong> the SSO (Service Provider) service to $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (Identity Provider)';
+$string['sso_mnet_login_refused'] = 'பயனாளர் $a[0] , $a[1] இலிருந்து புகுபதிகை செய்ய அனுமதிக்கப்படவில்லை.';
+$string['sso_sp_description'] = 'Publish this service to allow authenticated users from $a to access your site without having to re-login. <ul><li><em>Dependency</em>: You must also <strong>subscribe</strong> to the SSO (Identity Provider) service on $a.</li></ul><br />Subscribe to this service to allow your users to roam to the $a Moodle site without having to re-login there. <ul><li><em>Dependency</em>: You must also <strong>publish</strong> the SSO (Identity Provider) service to $a.</li></ul><br />
+sso_sp_description';
+$string['sso_sp_name'] = 'SSO (சேவை வழங்குனர்)';
 
 ?>
