@@ -3,7 +3,7 @@
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
-$string['affectedresources'] = 'Bevorzugte Arbeitsmaterialien';
+$string['affectedresources'] = 'Zum Löschen ausgewählte Arbeitsmaterialien';
 $string['allowlocalfiles'] = 'Lokale Dateien zulassen';
 $string['autofilerename'] = 'Link beim Umbenennen der Datei aktualisieren';
 $string['back'] = 'Zurück';
@@ -12,7 +12,7 @@ $string['browserepository'] = 'Repository durchsuchen';
 $string['choose'] = 'Auswählen';
 $string['chooseafile'] = 'Datei wählen oder neu hochladen';
 $string['chooseparameter'] = 'Parameter auswählen';
-$string['clicktoopen'] = 'Klicken sie auf diesen Link, um das Dokument zur öffnen.';
+$string['clicktoopen'] = 'Klicken Sie auf diesen Link, um das Dokument zur öffnen.';
 $string['configallowlocalfiles'] = 'Beim Erstellen neuer Arbeitsmaterialien können  Verlinkungen zu lokalen Dateisystemen, Festplatten oder CD-Laufwerken angelegt werden. Das ist sinnvoll, wenn in einem Schulungsraum alle Nutzer/innen Zugriff auf gemeinsame Netzwerkverzeichnisse oder CD-Laufwerke haben. Evtl. müssen Sie dafür aber Sicherheitseinstellungen des Browsers anpassen.';
 $string['configautofilerenamesettings'] = 'Referenzen zu Dateien und Verzeichnissen automatisch erneuern, wenn sie im Dateimanager umbenannt werden.';
 $string['configblockdeletingfilesettings'] = 'Block-Löschen von Dateien und Verzeichnissen, auf die von Arbeitsmaterialien verwiesen wird. Bitte beachten Sie, dass Bilder und andere in HTML eingebundene Dateien nicht geschützt sind.';
@@ -68,7 +68,7 @@ $string['modulenameplural'] = 'Arbeitsmaterialien';
 $string['navigationbuttons'] = 'Navigationsbuttons';
 $string['navigationmenu'] = 'Navigationsmenü an der Seite';
 $string['navigationup'] = 'Aufwärtsbutton';
-$string['neverseen'] = 'Ressource nicht geöffnet';
+$string['neverseen'] = 'Arbeitsmaterial nicht geöffnet';
 $string['newdirectories'] = 'Verzeichnis-Links anzeigen';
 $string['newfullscreen'] = 'Den ganzen Bildschirm ausfüllen';
 $string['newheight'] = 'Standard-Fensterhöhe (in Pixeln)';
@@ -129,7 +129,7 @@ $string['upbutton'] = 'Aufwärts';
 $string['variablename'] = 'Name der Variablen';
 $string['viewims'] = 'IMS-Content-Paket anzeigen';
 $string['vol'] = 'Vol';
-$string['warningblockingdelete'] = 'Warnung: Das Löschen ist nicht möglich, da noch eine  Ressource vorhanden ist. Überarbeiten Sie zunächst diese Ressourcen oder fragen Sie die Administration, ob sie diese Sicherheitseinstellung in den Einstellungen für die Arbeitsmaterialien deaktiviert.';
+$string['warningblockingdelete'] = 'Warnung: Das Löschen ist nicht möglich, da noch eine Verlinkung auf diese Ressource vorhanden ist. Überarbeiten Sie zunächst diese Ressourcen oder fragen Sie die Administration, ob sie diese Sicherheitseinstellung in den Einstellungen für die Arbeitsmaterialien deaktiviert.';
 $string['warningdisabledrename'] = 'Warnung: Die automatische Umbenennung der Verlinkungen in den Arbeitsmaterialien ist deaktiviert. Aktualisieren Sie die betroffenen Arbeitsmaterialien einzeln oder fragen Sie die Administration, ob sie die entsprechenden Einstellungen ändert.';
 $string['websearchdefault'] = 'Standard-Websuche';
 

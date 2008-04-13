@@ -530,8 +530,10 @@ Viel Erfolg!
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: Kennwort-Änderung bestätigen';
 $string['emailpasswordconfirmmaybesent'] = '<p>Wenn Sie Ihren Anmeldenamen oder Ihre E-Mail-Adresse korrekt angegeben haben, wird eine automatische Benachrichtigung per E-Mail an Sie gesendet.</p>
-<p>Die Benachrichtigung enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>';
-$string['emailpasswordconfirmsent'] = '<p>Eine E-Mail zur Bestätigung der Kennwortänderung sollte an Ihre Adresse <b>$a</b> gesendet worden sein. <br />Sie enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>';
+<p>Die Benachrichtigung enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>
+<p>$a->admin</p>';
+$string['emailpasswordconfirmsent'] = '<p>Eine E-Mail zur Bestätigung der Kennwortänderung sollte an Ihre Adresse <b>$a</b> gesendet worden sein. <br />Sie enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>
+<p>$a->admin</p>';
 $string['emailpasswordsent'] = 'Danke für Ihre Bestätigung der Kennwortänderung.
 Eine E-Mail mit Ihrem neuen Kennwort wurde an Ihre Adresse <b>$a->email</b> gesendet.
 Das Kennwort wurde automatisch generiert. Sie können dieses <a href=\"$a->link\">Kennwort ändern</a>, um es sich besser merken können.';
@@ -1629,7 +1631,7 @@ $string['youareabouttocreatezip'] = 'Sie sind dabei, eine ZIP-Datei mit diesem I
 $string['youaregoingtorestorefrom'] = 'Sie sind dabei, die Wiederherstellung zu starten von:';
 $string['youneedtoenrol'] = 'Um diese Aktion auszuführen, müssen Sie sich in diesen Kurs eintragen.';
 $string['yourlastlogin'] = 'Ihr letztes Login war';
-$string['yourself'] = 'selbst';
+$string['yourself'] = 'sich selbst';
 $string['yourteacher'] = '$a';
 $string['zippingbackup'] = 'Sicherung komprimieren';
 $string['skiptomaincontent'] = 'Vorwärtsspringen zum Hauptthema'; // ORPHANED

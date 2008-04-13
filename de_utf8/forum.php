@@ -186,7 +186,7 @@ $string['parent'] = 'Ursprungsbeitrag';
 $string['parentofthispost'] = 'Ursprungsbeitrag zu dieser Antwort';
 $string['postadded'] = '<p>Ihr Beitrag wurde erfolgreich hinzugefügt. </p><p>Sofern Sie noch etwas korrigieren möchten, haben Sie dafür $a Zeit. Danach wird keine Änderung mehr angenommen.</p>';
 $string['postaddedsuccess'] = 'Ihr Beitrag wurde erfolgreich eingefügt.';
-$string['postaddedtimeleft'] = 'Sie müssen zuerst $a eingeben, um Änderungen vornehmen zu können.';
+$string['postaddedtimeleft'] = 'Sofern Sie noch etwas korrigieren möchten, haben Sie dafür $a Zeit. Danach wird keine Änderung mehr angenommen.';
 $string['postincontext'] = 'Diskussion im Forum zeigen';
 $string['postmailinfo'] = 'Hiermit erhalten Sie die Kopie einer Mitteilung, die auf der Webseite $a eingetragen wurde.
 Um darauf zu antworten, folgen Sie bitte diesem Link:';

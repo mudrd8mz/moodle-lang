@@ -484,7 +484,7 @@ $string['modsettings'] = 'Übersicht';
 $string['modulesecurity'] = 'Modul-Sicherheit';
 $string['multilangforceold'] = 'Alte Mehrsprach-Syntax erzwingen:
 <span> ohne class=\"multilang\" und <lang>';
-$string['multilangupgrade'] = 'Mehrsprach-Aktualisierung';
+$string['multilangupgrade'] = 'Multilang- Aktualisierung';
 $string['multilangupgradeinfo'] = 'Die Mehrsprach-Filtersyntax wurde in 1.8 verändert. Das <lang>-Tag wird nicht mehr unterstützt.<br /><br />Beispiel: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"es\" class=\"multilang\">Hola!</span><br /><br /><strong>Möchten Sie die Syntax in allen bestehenden Texten jetzt aktualisieren?</strong>';
 $string['multilangupgradenotice'] = 'Ihre Website nutzt die alte Mehrsprach-Syntax. Die <a href=\"multilangupgrade.php\"> Mehrsprach-Aktualisierung</a> wird empfohlen.';
 $string['mustenablestats'] = 'Die Statistiken wurden für diese Website nicht eingeschaltet.';
