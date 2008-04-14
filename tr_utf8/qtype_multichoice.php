@@ -1,18 +1,18 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 2.0 dev (2007101508)
+      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['addingmultichoice'] = 'Çoktan Seçmeli soru ekleniyor';
-$string['addmorechoiceblanks'] = 'Daha fazla Seçenek {no} için boşluk';
+$string['addmorechoiceblanks'] = '{no} seçenek daha ekle';
 $string['answerhowmany'] = 'Bir veya birden fazla yanıt?';
-$string['answernumbering'] = 'Seçenek sayısı?';
+$string['answernumbering'] = 'Seçenek türü';
 $string['answernumbering123'] = '1., 2., 3., ...';
 $string['answernumberingABCD'] = 'A., B., C., ...';
 $string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingnone'] = 'Numaralandırmasız';
 $string['answersingleno'] = 'Birden fazla yanıt';
 $string['answersingleyes'] = 'Sadece bir yanıt';
-$string['choiceno'] = 'Seçenek $a';
+$string['choiceno'] = '$a. Seçenek';
 $string['choices'] = 'Mevcut seçenekler';
 $string['clozeaid'] = 'Eksik kelimeyi gir';
 $string['correctfeedback'] = 'Herhangi bir doğru yanıt için';

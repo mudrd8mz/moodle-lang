@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (2007101503)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['1day'] = '1 Gün';
@@ -43,7 +43,7 @@ $string['analysisoptions'] = 'Analiz seçenekleri';
 $string['analysistitle'] = 'Öge Analiz Tablosu';
 $string['answer'] = 'Yanıt';
 $string['answerhowmany'] = 'Tek veya çok yanıtlı';
-$string['answers'] = 'Yanıtlar';
+$string['answers'] = 'Doğru yanıtlar';
 $string['answersingleno'] = 'Çok yanıtlı';
 $string['answersingleyes'] = 'Sadece tek yanıtlı';
 $string['answerswithacceptederrormarginmustbenumeric'] = 'Kabul edilen hata sayısal olmalı';
@@ -245,7 +245,6 @@ $string['generalfeedback'] = 'Genel geribildirim';
 $string['generatevalue'] = 'Aşağıdakiler arasında yeni bir değer oluştur';
 $string['geometric'] = 'Geometrik';
 $string['gift'] = 'GIFT biçimi';
-$string['gobacktocourse'] = 'Kursa dönmek için burayı tıklayın';
 $string['grade'] = 'Not';
 $string['gradeall'] = 'Tümünü Notlandır';
 $string['gradeaverage'] = 'Not ortalaması';
@@ -286,7 +285,7 @@ $string['invalidnumericanswer'] = 'Girdiğiniz yanıtlardan bir tanesi geçerli 
 $string['invalidnumerictolerance'] = 'Girdiğiniz toleranslardan biri geçerli bir sayı değil.';
 $string['invalidsource'] = 'Kaynak geçerli kabul edilmedi';
 $string['invalidsourcetype'] = 'Geçersiz kaynak tipi.';
-$string['itemanal'] = 'Öge Cevap Analizi';
+$string['itemanal'] = 'Öge Yanıt Analizi';
 $string['itemdefinition'] = 'Tanımlama';
 $string['itemsource'] = 'Öge Kaynağı';
 $string['itemsourceformat'] = 'Öge Kaynak Biçimi';
@@ -460,8 +459,8 @@ $string['reportsimplestat'] = 'Basit istatistikler';
 $string['requirepassword'] = 'Parola gerekli';
 $string['requirepasswordmessage'] = 'Bu sınavı uygulayabilmeniz için sınav parolasını bilmeniz gerekiyor';
 $string['requiresubnet'] = 'Ağ adresi gerekli';
-$string['response'] = 'Yanıt';
-$string['responses'] = 'Yanıtlar';
+$string['response'] = 'Verilen yanıt';
+$string['responses'] = 'Verilen yanıtlar';
 $string['results'] = 'Sonuçlar';
 $string['reuseifpossible'] = 'önceki silineni yeniden kullan';
 $string['review'] = 'Önizleme';
@@ -469,7 +468,7 @@ $string['reviewafter'] = 'Sınav kapandıktan sonra önizleme izni var';
 $string['reviewalways'] = 'Her zaman önizleme izni var';
 $string['reviewbefore'] = 'Sınav açıkken önizleme izni var';
 $string['reviewclosed'] = 'Sınav kapandıktan sonra';
-$string['reviewimmediately'] = 'Denemeden hemen sonra';
+$string['reviewimmediately'] = 'Yanıtladıktan hemen sonra';
 $string['reviewnever'] = 'Önizleme izni yok';
 $string['reviewofattempt'] = '$a. Uygulamayı İncele';
 $string['reviewopen'] = 'Sınav hala açıkken';
@@ -578,6 +577,7 @@ $string['xmltypeunsupported'] = 'Bu soru tipi $a, xml import tarafından destekl
 $string['youneedtoenrol'] = 'Bu sınavı uygulamadan önce bu kursa kaydolmanız gerekiyor';
 $string['yourfinalgradeis'] = 'Bu sınav için final notunuz: $a';
 $string['zerosignificantfiguresnotallowed'] = 'Doğru cevap sıfır ondalık basamağa sahip olamaz.';
+$string['gobacktocourse'] = 'Kursa dönmek için burayı tıklayın'; // ORPHANED
 $string['existingcategory1'] = 'bu kategoride başka sorular tarafından da kullanılmış mevcut harf kümelerinden bir harf'; // ORPHANED
 $string['existingcategory2'] = 'bu kategoride başka sorular tarafından da kullanılmış mevcut dosyalardan bir dosya'; // ORPHANED
 $string['existingcategory3'] = 'bu kategoride başka sorular tarafından da kullanılmış mevcut bağlantı kümelerinden bir bağlantı'; // ORPHANED

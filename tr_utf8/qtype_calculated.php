@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 2.0 dev (2007101508)
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
-$string['addmoreanswerblanks'] = 'Başka bir cevap seçeneği ekle';
-$string['addmoreunitblanks'] = 'Daha fazla $a birimi için seçenek';
+$string['addmoreanswerblanks'] = 'Başka cevap seçeneği ekle';
+$string['addmoreunitblanks'] = '$a birim daha ekle';
 $string['answerhdr'] = 'Yanıt';
 $string['atleastoneanswer'] = 'En az bir yanıt vermeniz gerekiyor.';
 $string['correctanswershows'] = 'Doğru cevap gösterir';
