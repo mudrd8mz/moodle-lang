@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2007101504)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['activation'] = 'Etkinleştirme';
@@ -56,7 +56,7 @@ $string['gradescoes'] = 'Öğrenme Nesneleri';
 $string['gradesum'] = 'Notları topla';
 $string['height'] = 'Yükseklik';
 $string['hidden'] = 'Gizli';
-$string['hidebrowse'] = 'Önizleme modunu pasifleştir';
+$string['hidebrowse'] = 'Önizleme modunu kapat';
 $string['hideexit'] = 'Çıkış linkini gizle';
 $string['hidenav'] = 'Gezinme düğmelerini gizle';
 $string['hidereview'] = 'Önizleme düğmesini gizle';
@@ -84,7 +84,7 @@ $string['modulenameplural'] = 'SCORM/AICC';
 $string['newattempt'] = 'Yeni bir uygulama başlat';
 $string['next'] = 'Devam et';
 $string['no_attributes'] = '$a->tag etiketinin özellikleri olmalı';
-$string['no_children'] = '$a->tag etiketinin yavruları olmalı';
+$string['no_children'] = '$a->tag etiketinin alt ögeleri olmalı';
 $string['noactivity'] = 'Rapor edilecek bir şey yok';
 $string['nolimit'] = 'Sınırsız uygulama';
 $string['nomanifest'] = 'Manifest bulunamadı';
@@ -103,13 +103,13 @@ $string['othersettings'] = 'Ek ayarlar';
 $string['othertracks'] = 'Diğer İzlemeler';
 $string['package'] = 'Paket dosyası';
 $string['packagedir'] = 'Dosya sistemi hatası: Klasör oluşturulamıyor';
-$string['packagefile'] = 'Paket dosya belirtilmedi';
+$string['packagefile'] = 'Paket dosyası belirtilmedi';
 $string['passed'] = 'Geçti';
 $string['php5'] = 'PHP 5 (DOMXML doğal kütüphansesi)';
 $string['popup'] = 'Yeni pencere';
 $string['popupmenu'] = 'Açılır menüde';
 $string['popupopen'] = 'Paketi yeni bir pencerede aç';
-$string['position_error'] = '$a->tag etiketi, $a->parent etiketinin yavrusu olamaz.';
+$string['position_error'] = '$a->tag etiketi, $a->parent etiketinin alt ögesi olamaz.';
 $string['prev'] = 'Önceki';
 $string['raw'] = 'Ham puan';
 $string['regular'] = 'Düzenli Manifest';
@@ -139,19 +139,20 @@ $string['tag_error'] = 'Bu içerikte bilinmeyen bir etiket ($a->tag) var: $a->va
 $string['time'] = 'Zaman';
 $string['title'] = 'Başlık';
 $string['too_many_attributes'] = '$a->tag etiketinin çok fazla özelliği var';
-$string['too_many_children'] = '$a->tag etiketinin çok fazla yavrusu var';
+$string['too_many_children'] = '$a->tag etiketinin çok fazla alt ögesi var';
 $string['toolbar'] = 'Araç çubuğunu göster';
 $string['totaltime'] = 'Zaman';
 $string['trackingloose'] = 'UYARI: Bu paketin izleme verisi kaybolacak!';
 $string['type'] = 'Tip';
 $string['unziperror'] = 'Paket açılırken hata oluştu';
 $string['updatefreq'] = 'Otomatik-güncelleme sıklığı';
-$string['validateascorm'] = 'Bir paket doğrula';
-$string['validation'] = 'Doğrulama sonucu';
-$string['validationtype'] = 'Bu seçenek SCORM paketindeki manifest dosyasınının geçerliliğini doğrulamak için DOMXML kütüphanesinin kullanımını ayarlar. Ne yaptığınızı bilmiyorsanız seçili olanı bırakın.';
+$string['validateascorm'] = 'Bir paketi denetle';
+$string['validation'] = 'Denetleme sonucu';
+$string['validationtype'] = 'Bu seçenek SCORM paketindeki manifest dosyasınının geçerliliğini denetlemek için DOMXML kütüphanesinin kullanımını ayarlar. Ne yaptığınızı bilmiyorsanız seçili olanı bırakın.';
 $string['value'] = 'Değer';
 $string['versionwarning'] = 'Manifest sürümü 1.3\'den daha eski, $a->tag etiketinde uyarı';
-$string['viewallreports'] = 'Toplam $a uygulama raporu var';
+$string['viewallreports'] = '$a uygulama raporuna bak';
+$string['viewalluserreports'] = '$a uygulama raporuna bak';
 $string['whatgrade'] = 'Uygulama notu';
 $string['width'] = 'Genişlik';
 $string['window'] = 'Pencere';
