@@ -1,10 +1,15 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2007101508)
+      // error.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
+$string['blockcannotconfig'] = 'Bu blokun genel yapılandırması yok';
+$string['blockcannotinistantiate'] = 'Blok nesnesi başlatılırken sorun oluştu';
+$string['blockdoesnotexist'] = 'Bu blok yok';
 $string['cannotassignrole'] = 'Kurstaki role atama yapılamadı';
+$string['cannotcreatelangbase'] = 'Ana dil klasörü oluşturulamadı.';
 $string['cannotcreatelangdir'] = 'Dil dizini oluşturulamıyor.';
+$string['cannotcreatesitedir'] = 'Site klasörü oluşturulamadı. Site yöneticisiniz dosya izinlerini düzenlemesi gerekiyor.';
 $string['cannotcreatetempdir'] = 'Geçici dizin oluşturulamıyor.';
 $string['cannotdownloadcomponents'] = 'Bileşenler indirilemedi.';
 $string['cannotdownloadlanguageupdatelist'] = 'download.moodle.org adresinden dil listesi güncellemeleri indirilemedi';
