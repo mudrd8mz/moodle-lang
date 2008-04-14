@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (2007101508)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['accesscontrol'] = 'Erişim kontrolü';
@@ -183,6 +183,7 @@ $string['nobranchtablefound'] = 'Konu Anlatımı Yok';
 $string['nocommentyet'] = 'Henüz yorum yok.';
 $string['nocoursemods'] = 'Etkinlik bulunamadı';
 $string['nocredit'] = 'Kredi yok';
+$string['nodeadline'] = 'Teslim tarihsiz';
 $string['noessayquestionsfound'] = 'Bu derste yazılı sorusu yok';
 $string['nohighscores'] = 'Yüksek not yok';
 $string['nolessonattempts'] = 'Bu derste uygulama yapılmadı.';

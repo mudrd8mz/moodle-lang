@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6 + (2006050506)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['analysis'] = 'Öge analizi';
@@ -13,6 +13,7 @@ $string['attemptshighest'] = 'en yüksek not';
 $string['attemptslast'] = 'son uygulama';
 $string['dicsindextitle'] = 'Ayırıcı<br />Index';
 $string['disccoefftitle'] = 'Ayırıcı<br />Katsayı';
+$string['downloadhtml'] = 'Tüm tabloyu HTML biçiminde indir';
 $string['downloadooo'] = 'OpenOffice biçiminde İndir';
 $string['facilitytitle'] = 'Doğruluk%%<br />Kolaylık';
 $string['lowmarkslimit'] = 'Puanlar bundan azsa analiz yapma:';
