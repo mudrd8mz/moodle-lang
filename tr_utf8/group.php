@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (2007101508)
+      // group.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['addgroupstogrouping'] = 'Grupları gruplamaya ekle';
@@ -70,6 +70,7 @@ $string['groupscount'] = 'Gruplar ($a)';
 $string['groupsgroupings'] = 'Gruplar &amp; gruplamalar';
 $string['groupsinselectedgrouping'] = 'Gruplamadaki gruplar';
 $string['groupsnone'] = 'Grup yok';
+$string['groupsonly'] = 'Sadece gruplar';
 $string['groupspreview'] = 'Grup önizlemesi';
 $string['groupsseparate'] = 'Ayrı gruplar';
 $string['groupsvisible'] = 'Görünür gruplar';
