@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2007101508)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['activities'] = 'Etkinlikler';
@@ -21,12 +21,15 @@ $string['aggregateonlygraded'] = 'Sadece boş olmayan notları topla';
 $string['aggregateonlygradedhelp'] = 'Girilmeyen notlar en düşük not olarak ele alınır veya toplama dahil edilmez.';
 $string['aggregateoutcomes'] = 'Toplama hedefleri dahil et';
 $string['aggregatesonly'] = 'Sadece toplamlar';
+$string['aggregatesubcats'] = 'Alt kategorileri dahil ederek topla';
 $string['aggregatesum'] = 'Başarı notlarının toplamı';
 $string['aggregateweightedmean'] = 'Notların ağırlıklı ortalaması';
+$string['aggregateweightedmean2'] = 'Notların basit ağırlıklı ortalaması';
 $string['aggregation'] = 'Toplam';
 $string['aggregationcoef'] = 'Toplam katsayı';
 $string['aggregationcoefextra'] = 'Ek kredi';
 $string['aggregationcoefweight'] = 'Öge ağırlığı';
+$string['aggregationhelp'] = 'Bir kurstaki tüm öğrencilerin notlarını toplamak için kullanılan yöntem';
 $string['aggregationposition'] = 'Toplamın yeri';
 $string['aggregationview'] = 'Toplam görünümü';
 $string['allgrades'] = 'Kategorilere göre tüm notlar';
@@ -41,6 +44,7 @@ $string['backupwithoutgradebook'] = 'Yedekleme, Notdefteri yapılandırmasını 
 $string['badgrade'] = 'Sağlanan not geçersiz';
 $string['baduser'] = 'Sağlanan kullanıcı geçersiz';
 $string['bonuspoints'] = 'Bonus notlar';
+$string['bulkcheckboxes'] = 'Toplu onay kutuları';
 $string['calculation'] = 'Hesaplama';
 $string['calculationadd'] = 'Hesaplama ekle';
 $string['calculationedit'] = 'Hesaplama düzenle';
@@ -53,8 +57,12 @@ $string['category'] = 'Kategori';
 $string['categoryedit'] = 'Kategori düzenle';
 $string['categoryname'] = 'Kategori adı';
 $string['categorytotal'] = 'Kategori toplamı';
+$string['changedefaults'] = 'Varsayılanları değiştir';
 $string['changereportdefaults'] = 'Rapor varsayılanlarını değiştir';
+$string['chooseaction'] = 'Bir eylem seçin';
 $string['choosecategory'] = 'Kategori seç';
+$string['compact'] = 'Sıkıştır';
+$string['configaggregationview'] = 'Her bir kategori üç şekilde gösterilir: Tam mod (toplanan sütun ve not ögesi sütunları), sadece toplanan sütun veya tek başına not ögeleri';
 $string['configgradedisplaytype'] = 'Başarı notları, gerçek başarı notu veya yüzde (en az ve en fazla başarı notlarına bağlı olarak) veya harf olarak (A, B, C gibi...) gösterilebilir.';
 $string['configgradeitemadvanced'] = 'Başarı notları düzenlenirken gelişmiş olarak görüntülenecek ögeleri seçiniz.';
 $string['confighideforcedsettings'] = 'Kullanıcı arayüzünde zorunlu ayarları gizle';
@@ -100,7 +108,6 @@ $string['encoding'] = 'Kodlama';
 $string['errorcalculationnoequal'] = 'Formül, eşittir işareti ile başlamalı (=1+2)';
 $string['errorcalculationunknown'] = 'Geçersiz formül';
 $string['errorgradevaluenonnumeric'] = 'Düşük veya yüksek başarı notu için sayısal olmayan değer alındı';
-$string['errornocategorizedid'] = 'Kategorilendirilmemiş id alınamadı!';
 $string['errornocourse'] = 'Kurs bilgisi alınamadı';
 $string['errorreprintheadersnonnumeric'] = 'Başlıkların tekrar yazılması için sayısal olmayan değer alındı';
 $string['exceptions'] = 'İstisnalar';
@@ -288,7 +295,6 @@ $string['outcomesstandardavailable'] = 'Kullanılabilir standart hedefler';
 $string['outcomestandard'] = 'Standart hedef';
 $string['outcomestandardhelp'] = 'Standart hedef tüm sitede tüm kurslar için kullanılabilir.';
 $string['overallaverage'] = 'Genel ortalama';
-$string['overallavg'] = 'Genel ortalama';
 $string['overriddennotice'] = 'Bu etkinlikteki final notunuz, elle ayarlandı.';
 $string['overridesitedefaultgradedisplaytype'] = 'Site varsayılanlarını yoksay';
 $string['parentcategory'] = 'Ana kategori';
@@ -404,5 +410,7 @@ $string['writinggradebookinfo'] = 'Not Defteri ayarları yazılıyor';
 $string['xml'] = 'XML';
 $string['yes'] = 'Evet';
 $string['yourgrade'] = 'Notunuz';
+$string['errornocategorizedid'] = 'Kategorilendirilmemiş id alınamadı!'; // ORPHANED
+$string['overallavg'] = 'Genel ortalama'; // ORPHANED
 
 ?>

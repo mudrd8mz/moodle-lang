@@ -1,11 +1,14 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (2007101504)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['addresource'] = 'Kaynak ekle';
 $string['affectedresources'] = 'Etkilenen kaynaklar';
+$string['allowlocalfiles'] = 'Tüm yerel dosyalar';
+$string['autofilerename'] = 'Dosya adı değişirse bağlantıyı güncelle';
 $string['back'] = 'Geri';
-$string['browserepository'] = 'Ambara gözat';
+$string['blockdeletingfile'] = 'Bağlantılı dosyaları silmeyi engelle';
+$string['browserepository'] = 'Depoya gözat';
 $string['choose'] = 'Seç';
 $string['chooseafile'] = 'Seç veya bir dosya yükle';
 $string['chooseparameter'] = 'Parametre seç';
@@ -41,10 +44,13 @@ $string['fetcherror'] = 'Web sayfası alınırken bir hata bulundu';
 $string['fetchservererror'] = 'Uzaktaki sunucudan bir web sayfası alınırken bir hata bulundu (muhtemelen program hatası)';
 $string['filename'] = 'Dosya adı';
 $string['filtername'] = 'Kaynak Adları Otomatik-Linkleme';
+$string['forcedownload'] = 'İndirmeye zorla';
 $string['frameifpossible'] = 'Site navigasyonunu görünür kılmak için kaynak frame içinde görünsün';
+$string['framesize'] = 'Çerçeve boyutu';
 $string['fulltext'] = 'Tam metin';
 $string['htmlfragment'] = 'HTML parçası';
 $string['imspackageloaded'] = 'Paket yüklendi';
+$string['keepnavigationvisible'] = 'Gezinti çubuğunu aynı sayfada tut';
 $string['localfile'] = 'Yerel dosya';
 $string['localfilechoose'] = 'Yerel bir dosya seçin (CD-ROM)';
 $string['localfilehelp'] = 'Yerel dosyaları gösterirken yardım et';
@@ -90,6 +96,7 @@ $string['previous'] = 'Önceki';
 $string['redeploy'] = 'Tekrar yerleştir';
 $string['repository'] = 'IMS ambarı';
 $string['resource:view'] = 'Kaynağa bak';
+$string['resourcedefaulturl'] = 'Varsayılan URL';
 $string['resourcetype'] = 'Kaynak türü';
 $string['resourcetype1'] = 'Referans';
 $string['resourcetype2'] = 'Web Sayfası';
@@ -98,6 +105,7 @@ $string['resourcetype4'] = 'Düz Metin';
 $string['resourcetype5'] = 'Web Bağlantısı';
 $string['resourcetype6'] = 'HTML Metni';
 $string['resourcetype7'] = 'Program';
+$string['resourcetype8'] = 'Wiki metni';
 $string['resourcetype9'] = 'Dizin';
 $string['resourcetypedirectory'] = 'Bir dizin göster';
 $string['resourcetypefile'] = 'Bir dosya/siteye bağlantı';
@@ -118,5 +126,6 @@ $string['viewims'] = 'IMS İçerik Paketine bak';
 $string['vol'] = 'Cilt';
 $string['warningblockingdelete'] = 'Uyarı: Silme işlemi mevcut bir kaynak tarafından engelleniyor. İlk önce kaynağınızı güncelleyin ya da yöneticinizden Kaynak Yapılandırmasından bu güvenlik  mekanizmasını kaldırmasını isteyin.';
 $string['warningdisabledrename'] = 'Uyarı: Kaynaklardaki bağlantıların isimlerini otomatik değiştirme etkin değil. Gerek duyuyorsanız kaynakların isimlerini elle güncelleyin. Yönetici, Kaynak Yapılandırmasından otomatik isim değiştirmeyi etkinleştirebilir.';
+$string['websearchdefault'] = 'Webaraması varsayılanı';
 
 ?>
