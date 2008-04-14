@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101506)
+      // role.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['addrole'] = 'Yeni rol ekle';
@@ -78,6 +78,8 @@ $string['grade:unlock'] = 'Başarı notlarının veya ögelerin kilidini aç';
 $string['grade:view'] = 'Kendi başarı notuna bak';
 $string['grade:viewall'] = 'Diğer kullanıcıların başarı notlarına bak';
 $string['grade:viewhidden'] = 'Sahibi için gizli başarı notlarına bak';
+$string['inactiveformorethan'] = '$a->timeperiod dır etkin değil';
+$string['ingroup'] = '\"$a->group\" grubunda';
 $string['inherit'] = 'Devral';
 $string['legacy:admin'] = 'DEVRALINAN ROL: Yönetici';
 $string['legacy:coursecreator'] = 'DEVRALINAN ROL: Kurs Oluşturucu';
@@ -173,6 +175,7 @@ $string['user:viewdetails'] = 'Kullanıcı profillerine bak';
 $string['user:viewhiddendetails'] = 'Kullanıcıların gizlenmiş bilgilerine bak';
 $string['user:viewuseractivitiesreport'] = 'Kullanıcı etkinlik raporlarına bak';
 $string['user:viewusergrades'] = 'Kullanıcıların başarı notlarına bak';
+$string['userhashiddenassignments'] = 'Bu kullanıcının bu derste bir veya daha fazla atanmış rolü var';
 $string['viewrole'] = 'Rol ayrıntılarına bak';
 $string['xuserswiththerole'] = '\"$a->role\" rolündeki kullanıcılar: $a->number';
 $string['question:export'] = 'Soruları dışa çıkart'; // ORPHANED

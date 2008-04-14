@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (2007101508)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -180,6 +180,8 @@ $string['overviewnumunread'] = 'toplam okunmayan';
 $string['parent'] = 'Üstünü göster';
 $string['parentofthispost'] = 'Bu mesajın üstü';
 $string['postadded'] = '<p>Mesajınız başarıyla eklendi.</p><p>Herhangi bir değişiklik yapmak için $a süreniz var.</p>';
+$string['postaddedsuccess'] = 'Mesajınız başarıyla eklendi.';
+$string['postaddedtimeleft'] = 'Herhangi bir değişiklik yapmanız için $a süreniz var.';
 $string['postincontext'] = 'Bu mesajı konu içinde göster';
 $string['postmailinfo'] = 'Bu metin $a websitesine gönderilmiş mesajın bir kopyasıdır.
 
