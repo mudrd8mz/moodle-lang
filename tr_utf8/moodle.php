@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (2007101508)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['abouttobeinstalled'] = 'yüklenmek üzere';
@@ -382,6 +382,7 @@ $string['deletedcourse'] = '$a tamamen silindi';
 $string['deletednot'] = '$a silinemedi!';
 $string['deletelogs'] = 'Kayıtları sil';
 $string['deleteselected'] = 'Seçilileri sil';
+$string['deleteselectedkey'] = 'Seçili anahtarı sil';
 $string['deletingcourse'] = '$a siliniyor';
 $string['deletingexistingcoursedata'] = 'Mevcut ders verileri siliniyor';
 $string['deletingolddata'] = 'Eski veri siliniyor';
@@ -645,7 +646,9 @@ $string['frontpagenews'] = 'Haber ögeleri';
 $string['frontpagetopiconly'] = 'Konu bölümü';
 $string['fulllistofcourses'] = 'Tüm dersler';
 $string['fullname'] = 'Tam adı';
+$string['fullnamecourse'] = 'Dersin tam adı';
 $string['fullnamedisplay'] = '$a->firstname $a->lastname';
+$string['fullnameuser'] = 'Kullanıcının tam adı';
 $string['fullprofile'] = 'Tam profil';
 $string['fullsitename'] = 'Tam site adı';
 $string['functiondisabled'] = 'Bu işlevsellik şu anda etkin değil';
@@ -877,6 +880,7 @@ $string['metanoalreadycourses'] = 'Atanan bir ders yok';
 $string['metanopotentialcourses'] = 'Açık ders yok';
 $string['metapotentialcourses'] = 'Açılan dersler';
 $string['metaremovecourse'] = 'Bu dersi sil';
+$string['migratinggrades'] = 'Notlar çevriliyor';
 $string['min'] = 'dk';
 $string['mins'] = 'dk';
 $string['minutes'] = 'dakika';
@@ -914,6 +918,7 @@ $string['moodledocslink'] = 'Bu sayfa için Moodle Belgeleri';
 $string['moodleversion'] = 'Moodle Sürümü';
 $string['more'] = 'dahası';
 $string['moreinformation'] = 'Bu hata hakkında daha fazla bilgi';
+$string['moreprofileinfoneeded'] = 'Hakkınızdaki diğer bilgiler';
 $string['mostrecently'] = 'en yakın';
 $string['move'] = 'Taşı';
 $string['movecategoryto'] = 'Kategoriyi taşı:';
@@ -1027,7 +1032,6 @@ $string['noresults'] = 'Sonuç yok';
 $string['normal'] = 'Normal';
 $string['normalfilter'] = 'Normal arama';
 $string['nosite'] = 'Site-seviyesinde ders bulunamadı';
-$string['nostatstodisplay'] = 'Üzgünüz, gösterilecek veri yok.';
 $string['nostudentsfound'] = '$a bulunamadı';
 $string['nostudentsingroup'] = 'Bu grupta henüz öğrenci yok';
 $string['nostudentsyet'] = 'Bu derse henüz öğrenci kaydolmadı';
@@ -1113,6 +1117,7 @@ $string['periodending'] = 'Bitiş süresi ($a)';
 $string['personal'] = 'Kişisel';
 $string['personalprofile'] = 'Kişisel profil';
 $string['phone'] = 'Telefon';
+$string['phone2'] = 'Cep Telefonu';
 $string['phpinfo'] = 'PHP bilgisi';
 $string['pictureof'] = '$a Resmi';
 $string['pleaseclose'] = 'Bu pencereyi şimdi kapat.';
@@ -1271,7 +1276,9 @@ $string['setcategorytheme'] = 'Kategori Teması Ayarla';
 $string['settings'] = 'Ayarlar';
 $string['shortname'] = 'Kısa ad';
 $string['shortnamecollisionwarning'] = '[*] = Bu kısa ad başka bir ders tarafından kullanılmakta ve onaylanması için bunu değiştirmeniz gerekiyor';
+$string['shortnamecourse'] = 'Dersin kısa adı';
 $string['shortnametaken'] = 'Bu kısa ad başka bir ders için kullanılıyor ($a)';
+$string['shortnameuser'] = 'Kullanıcının kısa adı';
 $string['shortsitename'] = 'Sitenin kısa adı (tek sözcük)';
 $string['show'] = 'Göster';
 $string['showactions'] = 'Eylemleri göster';
@@ -1561,6 +1568,7 @@ $string['wordforteacher'] = 'Eğitimcinize söyleyecekleriniz';
 $string['wordforteachereg'] = 'ör. Eğitimci, Öğretim Üyesi, Hoca, Öğretmen, Asistan vs.';
 $string['wordforteachers'] = 'Eğitimcilerinize söyleyecekleriniz';
 $string['wordforteacherseg'] = 'ör. Eğitimciler, Öğretim Üyeleri, Hocalar, Öğretmenler, Asistanlar vs.';
+$string['writingblogsinfo'] = 'Blog bilgisi yazılıyor';
 $string['writingcategoriesandquestions'] = 'Kategoriler ve sorular yazılıyor';
 $string['writingcoursedata'] = 'Ders verisi yazılıyor';
 $string['writingeventsinfo'] = 'Olay bilgileri yazılıyor';
@@ -1588,6 +1596,7 @@ $string['yourlastlogin'] = 'Son giriş tarihiniz';
 $string['yourself'] = 'kendiniz';
 $string['yourteacher'] = 'eğitimciniz $a';
 $string['zippingbackup'] = 'Yedekleme zipleniyor';
+$string['nostatstodisplay'] = 'Üzgünüz, gösterilecek veri yok.'; // ORPHANED
 $string['enteryourinterests'] = 'İlgi alanlarınızı virgülle ayırarak girin'; // ORPHANED
 $string['skiptomaincontent'] = 'Ana içeriğe geç'; // ORPHANED
 
