@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101508)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['allowdeleting'] = 'Silme izni';
 $string['allowmaxfiles'] = 'Yüklenecek en fazla dosya';
 $string['allownotes'] = 'Notlara izin ver';
 $string['allowresubmit'] = 'Tekrar göndermeye izin ver';
+$string['alreadygraded'] = 'Ödeviniz zaten notlandırılmış ve tekrar gönderilemez.';
 $string['assignment:grade'] = 'Ödevi notlandır';
 $string['assignment:submit'] = 'Ödevi gönder';
 $string['assignment:view'] = 'Ödeve bak';
@@ -19,6 +20,7 @@ $string['assignmentmailhtml'] = '$a->teacher, \'<i>$a->assignment</i>\' isimli �
 $string['assignmentname'] = 'Ödev adı';
 $string['assignmenttype'] = 'Ödev türü';
 $string['availabledate'] = 'Erişilebilme tarihi';
+$string['cannotdeletefiles'] = 'Bir hata oluştu ve dosyalar silinemedi';
 $string['comment'] = 'Yorum';
 $string['commentinline'] = 'Satıriçi yorum';
 $string['configitemstocount'] = 'Çevrimiçi ödevlerde öğrenci gönderileri için sayaç türü.';
@@ -42,11 +44,14 @@ $a->url';
 $string['emailteachermailhtml'] = '$a->username, <i>\'$a->assignment\'</i> isimli ödevini güncelledi.<br /><br /><a href=\"$a->url\">Web sitesinden</a> ulaşabilirsiniz.';
 $string['emailteachers'] = 'Eğitimcilere e-posta uyarısı';
 $string['emptysubmission'] = 'Henüz bir şey göndermediniz';
+$string['enableemailnotification'] = 'Bildirim e-postalarını gönder';
 $string['existingfiledeleted'] = 'Varolan dosya silindi: $a';
 $string['failedupdatefeedback'] = '$a kullanıcısının geribildirimi güncellenirken hata oluştu';
 $string['feedback'] = 'Geribildirim';
 $string['feedbackfromteacher'] = '$a\'den geribildirim';
 $string['feedbackupdated'] = '$a kişi için gönderi geribildirimleri güncellendi';
+$string['finalize'] = 'Artık gönderim yok';
+$string['finalizeerror'] = 'Bir hata oluştu ve gönderim sonlandırılamadı';
 $string['graded'] = 'Notlandırıldı';
 $string['guestnosubmit'] = 'Üzgünüz, konukların ödev göndermesine izin verilmemektedir. Cevabınızı göndermeden önce giriş yapmalı veya kayıt olmalısınız.';
 $string['guestnoupload'] = 'Üzgünüz, konukların dosya göndermesine izin verilmemektedir';
@@ -66,6 +71,7 @@ $string['noassignments'] = 'Henüz ödev yok';
 $string['noattempts'] = 'Bu ödev için uygulama yapılmadı';
 $string['nofiles'] = 'Dosya gönderilmedi';
 $string['nofilesyet'] = 'Henüz dosya gönderilmedi';
+$string['nomoresubmissions'] = 'Artık gönderemezsiniz.';
 $string['nosubmitusers'] = 'Bu ödevi gönderecek izni olan kullanıcı bulunamadı';
 $string['notavailableyet'] = 'Üzgünüz, bu ödeve şu anda ulaşılamaz.<br />Ödev yönergeleri aşağıda gösterilen tarihte burada gösterilecektir.';
 $string['notes'] = 'Notlar';
@@ -94,11 +100,13 @@ $string['submitedformarking'] = 'Ödev, bitmiş olarak zaten gönderilmiş ve ar
 $string['submitformarking'] = 'Bitmiş ödev için gönderiyi sonlandır';
 $string['submitted'] = 'Gönderilmiş';
 $string['submittedfiles'] = 'Gönderilmiş dosyalar';
+$string['trackdrafts'] = 'Bitmiş olarak gönderebilmeyi etkinleştir';
 $string['typeoffline'] = 'Çevrimdışı etkinlik';
 $string['typeonline'] = 'Çevrimiçi yazı';
 $string['typeupload'] = 'Gelişmiş dosya yükleme';
 $string['typeuploadsingle'] = 'Tek dosya yükle';
 $string['unfinalize'] = 'Taslağa çevir';
+$string['unfinalizeerror'] = 'Bir hata oluştu ve bu gönderim taslağa geri çevrilemedi.';
 $string['uploadbadname'] = 'Dosya adı geçersiz karakterler içerdiğinden gönderilemedi';
 $string['uploadedfiles'] = 'yüklenmiş dosyalar';
 $string['uploaderror'] = 'Sunucuya kaydederken hata oluştu';
