@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.8.2+ (2007021520)
+      // tag.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
+$string['addedotag'] = '\"$a\" etiketa ofizial gisa gehitu da';
+$string['addotags'] = 'Etiketa ofizialak gehitu';
 $string['addtagtomyinterests'] = '\"$a\" nire interesekoetara gehitu';
 $string['blocktagstitle'] = 'Etiketak';
 $string['changename'] = 'Aldatu etiketa-izena';
@@ -20,9 +22,13 @@ $string['name'] = 'Izena';
 $string['namesalreadybeeingused'] = 'Etiketa-izenak dagoeneko erabiltzen ari dira';
 $string['newname'] = 'Izen berria';
 $string['noresultsfor'] = '\"$a\" -k ez du emaitzik lortu';
+$string['officialtag'] = 'Etiketa ofiziala';
+$string['otags'] = 'Etiketa ofizialak';
 $string['owner'] = 'Jabea';
+$string['ptags'] = 'Erabiltzaileak definitutako etiketak (komaz bereizita)';
 $string['relatedblogs'] = 'Etiketa hau duten azken aldiko blog-sarrerak';
 $string['relatedtags'] = 'Harremana duten etiketak';
+$string['removetagfrommyinterests'] = '$a ezabatu nire interesekoetatik';
 $string['reset'] = 'Berriz hasi';
 $string['resetflag'] = 'Markatzea berriz hasi';
 $string['responsiblewillbenotified'] = 'Arduradunari jakinaraziko zaio';
@@ -39,7 +45,7 @@ $string['tagtype'] = 'Etiketa-mota';
 $string['tagtype_default'] = 'Berezko balorea';
 $string['tagtype_official'] = 'Ofiziala';
 $string['thingstaggedwith'] = '$a->count gauza\"$a->name\"-rekin etiketatuta';
-$string['thistaghasnodesc'] = 'Etiketa honek ez du deskribapenin une honetan';
+$string['thistaghasnodesc'] = 'Etiketa honek ez du deskribapenik une honetan';
 $string['timemodified'] = 'Aldatuta';
 $string['typechanged'] = 'Etiketa-mota aldatuta';
 $string['updated'] = 'Eguneratuta';

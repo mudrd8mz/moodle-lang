@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8.2+ (2007021520)
+      // blog.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addnewentry'] = 'Sarrera berria gehitu';
-$string['addotags'] = 'Etiketa ofizialak gehitu';
-$string['addptags'] = 'Erabiltzaileak zehaztutako etiketak gehitu';
+$string['backupblogshelp'] = 'Gaituz gero, blogak ere GUNEAren automatizatutako segurtasun-kopietan sartuko dira';
 $string['blockmenutitle'] = 'Blog-menua';
 $string['blocktagstitle'] = 'Blog-etiketak';
 $string['blocktitle'] = 'Blog-etiketen bloke izenburua';
@@ -34,10 +33,8 @@ $string['norighttodeletetag'] = 'Zuk ez duzu etiketa hau ezabatzeko baimenik';
 $string['notallowedtoedit'] = 'Zuk ez duzu sarrera hau editatzeko baimenik';
 $string['numberofentries'] = 'Sarrerak: $a';
 $string['numberoftags'] = 'Erakutsi beharreko etiketen kopurua';
-$string['otags'] = 'Etiketa ofizialak';
 $string['pagesize'] = 'Orri bakoitzeko sarrera-kopurua';
 $string['personalblogs'] = 'Erabiltzaileek beren blogak baino ezin dituzte ikusi';
-$string['ptags'] = 'Erabiltzaileak zehaztutako etiketak';
 $string['publishto'] = 'Norentzat argitaratu';
 $string['publishtonoone'] = 'Zuretzat bakarrik (zirriborroa)';
 $string['publishtosite'] = 'Gune honetako guztientzat';
@@ -56,5 +53,9 @@ $string['viewcourseentries'] = 'Ikastaroaren sarrerak ikusi';
 $string['viewmyentries'] = 'Nire sarrerak ikusi';
 $string['viewsiteentries'] = 'Gunearen sarrerak ikusi';
 $string['worldblogs'] = 'Edozeinek ikus ditzake mundu osoarentzat argitaratutako sarrerak';
+$string['addotags'] = 'Etiketa ofizialak gehitu'; // ORPHANED
+$string['addptags'] = 'Erabiltzaileak zehaztutako etiketak gehitu'; // ORPHANED
+$string['otags'] = 'Etiketa ofizialak'; // ORPHANED
+$string['ptags'] = 'Erabiltzaileak zehaztutako etiketak'; // ORPHANED
 
 ?>
