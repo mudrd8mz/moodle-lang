@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // calendar.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
@@ -57,7 +57,7 @@ $string['export'] = 'יצא';
 $string['exportbutton'] = 'יצא';
 $string['exportcalendar'] = 'יצא לוח שנה';
 $string['for'] = 'ל';
-$string['fri'] = 'שישי';
+$string['fri'] = 'ו\'';
 $string['friday'] = 'שישי';
 $string['generateurlbutton'] = 'השג את כתובת ה-URL של לוח השנה';
 $string['global'] = 'גלובלי';
@@ -71,7 +71,7 @@ $string['hidden'] = 'מוסתר';
 $string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'יצא';
 $string['manyevents'] = '$a ארועים';
-$string['mon'] = 'שני';
+$string['mon'] = 'ב\'';
 $string['monday'] = 'שני';
 $string['monthlyview'] = 'מראה חודשי';
 $string['monthnext'] = 'חודש הבא';
@@ -93,13 +93,13 @@ $string['repeateditthis'] = 'החל את השינוי על ארוע זה בלב�
 $string['repeatnone'] = 'אין חזרות';
 $string['repeatweeksl'] = 'חזור כל שבוע, יצירת סיכום';
 $string['repeatweeksr'] = 'ארועים';
-$string['sat'] = 'שבת';
+$string['sat'] = 'ש\'';
 $string['saturday'] = 'שבת';
 $string['shown'] = 'מוצג';
 $string['spanningevents'] = 'ארועים בדרך';
-$string['sun'] = 'ראשון';
+$string['sun'] = 'א\'';
 $string['sunday'] = 'ראשון';
-$string['thu'] = 'חמישי';
+$string['thu'] = 'ה\'';
 $string['thursday'] = 'חמישי';
 $string['timeformat_12'] = '12 שעות (am-pm)';
 $string['timeformat_24'] = '24 שעות';
@@ -115,7 +115,7 @@ $string['tt_showcourse'] = 'ארועי הקורס מוסתרים (לחץ כדי 
 $string['tt_showglobal'] = 'ארועים כוללים מוסתרים (לחץ כדי להציג)';
 $string['tt_showgroups'] = 'ארועים קבוצתיים מוסתרים (לחץ כדי להציג)';
 $string['tt_showuser'] = 'ארועי משתמשים מוסתרים (לחץ כדי להציג)';
-$string['tue'] = 'שלישי';
+$string['tue'] = 'ג\'';
 $string['tuesday'] = 'שלישי';
 $string['typecourse'] = 'ארוע קורס';
 $string['typegroup'] = 'ארוע קבוצתי';
@@ -126,7 +126,7 @@ $string['urlforical'] = 'כתובת ה-URL עבור יצוא לוח השנה iCa
 $string['user'] = 'משתמש';
 $string['userevent'] = 'ארוע משתמש';
 $string['userevents'] = 'ארועי משתמשים';
-$string['wed'] = 'רביעי';
+$string['wed'] = 'ד\'';
 $string['wednesday'] = 'רביעי';
 $string['weeknext'] = 'שבוע הבא';
 $string['weekthis'] = 'שבוע נוכחי';
