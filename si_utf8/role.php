@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101508.05)
+      // role.php - created with Moodle 2.0 dev (Build: 20080402) (2008030700)
 
 
 $string['addrole'] = 'නව භූමිකාවක් එක් කරන්න';
@@ -175,6 +175,7 @@ $string['user:viewdetails'] = 'පරිශීලක පැතිකඩයන්
 $string['user:viewhiddendetails'] = 'පරිශීලකයන්ගේ සැඟවුනු තොරතුරු බැලීම';
 $string['user:viewuseractivitiesreport'] = 'පරිශීලක ක්‍රියාකාරකම් වාර්ථා බැලීම';
 $string['user:viewusergrades'] = 'පරිශීලක ශ්‍රේණි බැලීම';
+$string['userhashiddenassignments'] = '‍මෙම පරිශීලකට මෙම පාඨමාලාවේ එකක් හෝ වැඩි ගණනක සැඟවුන භූමිකා පැවරීම් ඇත';
 $string['viewrole'] = 'භූමිකා තොරතුරු බැලීම';
 $string['xuserswiththerole'] = '\"$a->role\" භූමිකාව සහිත පරිශීලකයන්: $a->number';
 $string['course:downloadallgrades'] = 'සියළුම ශ්‍රේණි බාගත කිරීම'; // ORPHANED

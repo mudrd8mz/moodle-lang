@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (2007101508.05)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20080402) (2008030700)
 
 
 $string['aftertable'] = 'වගුවෙන් පසු:';
