@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
+      // data.php - created with Moodle 2.0 dev (Build: 20080415) (2008030700)
 
 
 $string['action'] = '操作';
@@ -16,13 +16,15 @@ $string['approve'] = '承認';
 $string['ascending'] = '昇順';
 $string['asearchtemplate'] = '検索オプションテンプレート';
 $string['atmaxentry'] = 'あなたは、許可された最大数のエントリを入力しました!';
+$string['authorfirstname'] = '著者の名';
+$string['authorlastname'] = '著者の姓';
 $string['autogenallforms'] = 'すべてのデフォルトテンプレートを生成する';
 $string['autolinkurl'] = 'URIにオートリンクする';
 $string['availablefromdate'] = '利用開始';
 $string['availabletags'] = '利用可能なタグ';
 $string['availabletodate'] = '利用終了';
 $string['blank'] = 'ブランク';
-$string['buttons'] = 'ボタン';
+$string['buttons'] = '処理';
 $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cancel'] = 'キャンセル';
 $string['checkbox'] = 'チェックボックス';
@@ -173,6 +175,7 @@ $string['numnotapproved'] = '保留';
 $string['numrecords'] = 'エントリ数: $a';
 $string['optionaldescription'] = '短い説明 (任意)';
 $string['optionalfilename'] = 'ファイル名 (任意)';
+$string['other'] = 'その他';
 $string['overwrite'] = '上書き';
 $string['pagesize'] = '1ページあたりのエントリ数';
 $string['participants'] = '参加者';
@@ -214,6 +217,7 @@ $string['savesettings'] = '設定を保存する';
 $string['savesuccess'] = '正常に保存されました。あなたのプリセットは、サイト全体で利用できます。';
 $string['savetemplate'] = 'テンプレートを保存する';
 $string['search'] = '検索';
+$string['selectedrequired'] = '選択したすべてを含む';
 $string['sendinratings'] = '私の評価を送信する';
 $string['showall'] = 'すべてのエントリを表示する';
 $string['single'] = '個別表示';

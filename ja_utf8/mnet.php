@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (2007101506)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20080415) (2008030700)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -79,7 +79,7 @@ $string['illegalchar-moodlehome'] = 'あなたのMoodleロケーションに無�
 $string['invalidaccessparam'] = '無効なアクセスパラメータです。';
 $string['invalidactionparam'] = '無効なアクションパラメータです。';
 $string['invalidhost'] = '有効なホスト識別子を提供してください。';
-$string['invalidpubkey'] = '有効なSSLキーではありません。';
+$string['invalidpubkey'] = '有効なSSLキーではありません ($a)。';
 $string['invalidurl'] = '無効なURIパラメータです。';
 $string['ipaddress'] = 'IPアドレス';
 $string['is_in_range'] = 'IPアドレス <code>$a</code> は、有効な信頼できるホストのIPアドレスです。';

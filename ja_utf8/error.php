@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
+      // error.php - created with Moodle 2.0 dev (Build: 20080415) (2008030700)
 
 
 $string['adminprimarynoedit'] = '主管理者は他から編集することはできません。';
@@ -74,6 +74,7 @@ $string['guestnoeditprofile'] = 'ゲストユーザはプロファイルを変�
 $string['guestnoeditprofileother'] = 'ゲストユーザのプロファイルを変更できません。';
 $string['invalidaccessparameter'] = '無効なアクセスパラメータです。';
 $string['invalidaction'] = '無効なアクションパラメータです。';
+$string['invalidarguments'] = '有効な引数が提供されていません。';
 $string['invalidcourse'] = '無効なコース';
 $string['invalidcoursemodule'] = '無効なコースモジュールIDです。';
 $string['invalidfieldname'] = '「 $a 」 は正しいフィールド名ではありません。';
@@ -99,6 +100,8 @@ $string['listupdatefail'] = 'リスト階層の編集中にデータベースエ
 $string['loginasnoenrol'] = 'コース「ログイン」セッション時、あなたはユーザ登録および登録抹消することはできません。';
 $string['loginasonecourse'] = 'あなたはこのコースに入ることはできません。<br />他のコースに入る前に、現在の「ログイン」セッションを終了する必要があります。';
 $string['messagingdisable'] = 'このサイトでは、メッセージングが無効にされています。';
+$string['mimetexisnotexist'] = 'あなたのシステムは、mimeTeXを実行できるよう設定されていません。あなたのPHPおよびOSプラットフォームに適した実行ファイルを<a href=\"http://moodle.org/download/mimetex/\">http://moodle.org/download/mimetex/</a>からダウンロードするか、C言語のソースを<a href=\"http://www.forkosh.com/mimetex.zip\"> http://www.forkosh.com/mimetex.zip</a>からダウンロードしてください。ダウンロードしたファイルをコンパイルした後、 あなたの「moodle/filter/tex/」ディレクトリに入れてください。';
+$string['mimetexnotexecutable'] = 'カスタムmimetexを実行できません!';
 $string['missingfield'] = '「 $a 」 を入力してください。';
 $string['missingrequiredfield'] = 'いくつかの必須入力フィールドに入力されていません。';
 $string['moduledoesnotexist'] = 'このモジュールのインスタンスがありません。';
