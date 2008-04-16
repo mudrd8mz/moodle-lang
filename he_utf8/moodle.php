@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
@@ -357,7 +357,7 @@ $string['defaultcourseshortname'] = 'CF101';
 $string['defaultcoursestudent'] = 'סטודנט';
 $string['defaultcoursestudentdescription'] = 'באופן כללי לסטודנטים יש זכויות גישה פחותות לכל קורס';
 $string['defaultcoursestudents'] = 'סטודנטים';
-$string['defaultcoursesummary'] = 'כתוב כאן פסקה תמציתית ומעניינת המסבירה על מה הקורס הזה';
+$string['defaultcoursesummary'] = 'כתוב כאן פסקה תמציתית ומעניינת המסבירה על קורס  זה';
 $string['defaultcourseteacher'] = 'מורה';
 $string['defaultcourseteacherdescription'] = 'מורים יכולים לעשות הכל בקורס, כולל שינוי פעילויות ומתן ציונים לסטודנטים';
 $string['defaultcourseteachers'] = 'מורים';
