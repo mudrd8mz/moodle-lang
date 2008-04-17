@@ -97,6 +97,8 @@ $string['listcantmoveright'] = 'Échec du déplacement de l\'élément vers la d
 $string['loginasonecourse'] = 'Vous ne pouvez pas entrer dans ce cours.<br />Vous devez d\'abord terminer la session dans laquelle vous êtes «&nbsp;Connecté sous le nom&nbsp;» d\'un autre participant.';
 $string['loginasnoenrol'] = 'Vous ne pouvez pas vous inscrire ou vous désinscrire d\'un cours lorsque vous êtes «&nbsp;Connecté sous le nom&nbsp;» d\'un autre participant.';
 $string['messagingdisable'] = 'La messagerie est désactivée sur ce site';
+$string['mimetexisnotexist'] = 'Votre serveur n\'est pas configurer que faire tourner mimeTeX. Veuillez télécharger le programme approprié à votre plateforme sur <a href=\"http://moodle.org/download/mimetex/\">http://moodle.org/download/mimetex/</a>, ou les sources en C du programme ici <a href=\"http://www.forkosh.com/mimetex.zip\"> http://www.forkosh.com/mimetex.zip</a>, les compiler et placer le programme dans le dossier moodle/filter/tex/.';
+$string['mimetexnotexecutable'] = 'Votre programme mimetex n\'est pas exécutable&nbsp;!';
 $string['missingfield'] = 'Le champ «&nbsp;$a&nbsp;» est manquant.';
 $string['missingrequiredfield'] = 'Un champ obligatoire n\'est pas renseigné';
 $string['moduledoesnotexist'] = 'L\'instance de ce module n\'existe pas';
