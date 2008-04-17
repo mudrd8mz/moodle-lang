@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (2007101508)
+      // data.php - created with Moodle 2.0 dev (Build: 20080402) (2008030700)
 
 
 $string['action'] = 'ක්‍රියාව';
@@ -16,6 +16,8 @@ $string['approve'] = 'අනුමත කරන්න';
 $string['ascending'] = 'ආරෝහන';
 $string['asearchtemplate'] = 'උසස් සෙවුම් අච්චුව';
 $string['atmaxentry'] = 'ඉඩදී ඇති උපරිම නිවේශන ගණන ඔබ ඇතුලත් කර ඇත';
+$string['authorfirstname'] = 'කර්තෘගේ පළමු නම';
+$string['authorlastname'] = 'කර්තෘගේ වාසගම';
 $string['autogenallforms'] = 'සියලු පෙරනිමි අච්චු උත්පාදනය කරන්න';
 $string['autolinkurl'] = 'URL ස්වයංක්‍රීයවම සම්බන්ධ කරන්න';
 $string['availablefromdate'] = 'උපයෝජන පෝරම';
@@ -173,6 +175,7 @@ $string['numnotapproved'] = 'අපේක්ෂිත';
 $string['numrecords'] = 'නිවේශන $a ක්';
 $string['optionaldescription'] = 'කෙටි විස්තරය (විකල්පයකි)';
 $string['optionalfilename'] = 'ගොනු නාමය (විකල්පයකි)';
+$string['other'] = 'වෙනත්';
 $string['overwrite'] = 'මතලියන්න';
 $string['pagesize'] = 'පිටුවකට නිවේශන ගණනෙම';
 $string['participants'] = 'සහභාගිවන්නන්';
@@ -214,6 +217,7 @@ $string['savesettings'] = 'සිටුවම් සුරකින්න';
 $string['savesuccess'] = 'සාර්ථකව සුරකින ලදි. දැන් ඔබගේ පෙරසිටුවම අඩවිය පුරා භාවිතාකල හැක';
 $string['savetemplate'] = 'අච්චුව සුරකින්න';
 $string['search'] = 'සෙවීම';
+$string['selectedrequired'] = 'තෝරාගත් සියල්ල අවශ්‍යයි';
 $string['sendinratings'] = 'මගේ නවතම තක්සේරුකිරීම් යවන්න';
 $string['showall'] = 'සියළුම නිවේශන පෙන්වන්න';
 $string['single'] = 'තනි එකක් පෙන්වන්න';
@@ -223,6 +227,8 @@ $string['templates'] = 'අච්චු';
 $string['templatesaved'] = 'අච්චුව සුරකින ලදි';
 $string['text'] = 'පෙළ';
 $string['textarea'] = 'පෙළසරිය';
+$string['timeadded'] = 'එක් කරන ලද වේලාව';
+$string['timemodified'] = 'වෙනස් කරන ලද වේලාව';
 $string['todatabase'] = 'මෙම දත්ත ගබඩාවට';
 $string['type'] = 'ක්ෂේත්‍ර වර්ගය';
 $string['undefinedprocessactionmethod'] = '\"$a\" හැසිරවීම සදහා Data_Preset හි කිසිදු ක්‍රියා විධියක් අර්ථදක්වා නැත';
