@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080330) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -914,7 +914,7 @@ $string['modulesuccess'] = '$a 테이블이 바르게 설정되었습니다.';
 $string['moodledocs'] = '문서 창고';
 $string['moodledocslink'] = '이 페이지를 위한 무들 문서';
 $string['moodleversion'] = '무들 버전';
-$string['more'] = '더 이상';
+$string['more'] = '좀 더';
 $string['moreinformation'] = '이 오류에 대한 추가 정보';
 $string['moreprofileinfoneeded'] = '추가 신상 명세';
 $string['mostrecently'] = '가장 최근';
@@ -1021,7 +1021,6 @@ $string['noresults'] = '결과 없음';
 $string['normal'] = '일반';
 $string['normalfilter'] = '일반 검색';
 $string['nosite'] = '사이트 내에서는 강좌를 찾을 수 없음';
-$string['nostatstodisplay'] = '사용가능한 데이터가 없습니다. 죄송합니다.';
 $string['nostudentsfound'] = '$a 발견되지 않음';
 $string['nostudentsingroup'] = '이 모둠에는 아직 학생들이 없습니다.';
 $string['nostudentsyet'] = '아직 이 강좌에 등록한 학생이 없습니다.';
@@ -1559,6 +1558,7 @@ $string['wordforteacher'] = '교수자에 대한 호칭';
 $string['wordforteachereg'] = '예: 선생님, 교수자, 도우미, 촉진자 등';
 $string['wordforteachers'] = '교수자들에 대한 호칭';
 $string['wordforteacherseg'] = '예: 선생님들, 교수자들 등';
+$string['writingblogsinfo'] = '블로그 정보 쓰기';
 $string['writingcategoriesandquestions'] = '범주를 정하고 질문 쓰기';
 $string['writingcoursedata'] = '강좌 데이터 쓰기';
 $string['writingeventsinfo'] = '이벤트 정보 쓰기';
@@ -1586,6 +1586,7 @@ $string['yourlastlogin'] = '마지막 로그인';
 $string['yourself'] = '당신자신';
 $string['yourteacher'] = '당신의 $a';
 $string['zippingbackup'] = '백업 압축하기';
+$string['nostatstodisplay'] = '사용가능한 데이터가 없습니다. 죄송합니다.'; // ORPHANED
 $string['skiptomaincontent'] = '목차로 이동'; // ORPHANED
 $string['enteryourinterests'] = '관심 분야를 컴마로 구분하여 적으세요.'; // ORPHANED
 

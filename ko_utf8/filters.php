@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20080330) (2008030700)
+      // filters.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['actfilterhdr'] = '활성화된 필터';
@@ -12,7 +12,7 @@ $string['anyvalue'] = '모든 값';
 $string['categoryrole'] = '범주관리 역활';
 $string['contains'] = '포함';
 $string['courserole'] = '강좌 역할';
-$string['courserolelabel'] = '$a->label 은  $a->categoryname 범주의  $a->coursename 강좌에서 $a->rolename 입니다.';
+$string['courserolelabel'] = '$a->label 은 $a->categoryname 범주의 $a->coursename 강좌에서 $a->rolename 입니다.';
 $string['courserolelabelerror'] = '$a->label 오류: 강좌 $a->coursename 가 존재하지 않습니다';
 $string['datelabelisafter'] = '$a->label 은 $a->after 다음에 있습니다.';
 $string['datelabelisbefore'] = '$a->label 은 $a->before 이전에 있습니다.';
