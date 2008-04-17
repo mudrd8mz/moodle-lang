@@ -1563,6 +1563,7 @@ $string['wordforteacher'] = 'Votre terme pour «&nbsp;enseignant&nbsp;»';
 $string['wordforteachereg'] = 'exemples&nbsp;: enseignant, professeur, gourou, ...';
 $string['wordforteachers'] = 'Votre terme pour «&nbsp;enseignants&nbsp;»';
 $string['wordforteacherseg'] = 'exemples&nbsp;: enseignants, professeurs, gourous, ...';
+$string['writingblogsinfo'] = 'Écriture des informations de blogs';
 $string['writingcategoriesandquestions'] = 'Écriture des catégories et questions';
 $string['writingcoursedata'] = 'Écriture des données du cours';
 $string['writingeventsinfo'] = 'Écriture du calendrier';
