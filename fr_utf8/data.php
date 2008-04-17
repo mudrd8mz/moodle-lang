@@ -174,6 +174,7 @@ $string['numnotapproved'] = 'En attente';
 $string['numrecords'] = '$a fiches';
 $string['optionaldescription'] = 'Brève description (facultative)';
 $string['optionalfilename'] = 'Nom affiché (facultatif)';
+$string['other'] = 'Autre';
 $string['overwrite'] = 'Écraser';
 $string['pagesize'] = 'Fiches par page';
 $string['participants'] = 'Participants';
