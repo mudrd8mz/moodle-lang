@@ -441,7 +441,7 @@ $string['edituser'] = 'ערוך חשבונות משתמשים';
 $string['email'] = 'כתובת דואר אלקטרוני';
 $string['emailactive'] = 'דואר אלקטרוני מאופשר';
 $string['emailagain'] = 'דואר אלקטרוני (שוב)';
-$string['emailcharset'] = 'קבוצה התווים של הדוא\"ל';
+$string['emailcharset'] = 'קבוצת התווים של הדוא\"ל';
 $string['emailconfirm'] = 'אשר את חשבונך';
 $string['emailconfirmation'] = 'שלום $a->firstname.
 
