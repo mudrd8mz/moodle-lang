@@ -72,6 +72,7 @@ $string['guestnoeditprofile'] = 'Les invités ne peuvent pas modifier leur profi
 $string['guestnoeditprofileother'] = 'Le profil de l\'utilisateur invité ne peut pas être modifié';
 $string['invalidaccessparameter'] = 'Paramètre d\'accès non valide.';
 $string['invalidaction'] = 'Paramètre d\'action non valide.';
+$string['invalidarguments'] = 'Aucun paramètre valide fourni';
 $string['invalidcourse'] = 'Cours non valide';
 $string['invalidcoursemodule'] = 'Mauvais identifiant de module de cours';
 $string['invalidfieldname'] = '«&nbsp;$a&nbsp;» n\'est pas un nom de champ valide';
