@@ -1,0 +1,36 @@
+<h1>Import súborov &quot;Course Test Manager&quot; </h1>
+
+<p>CTM je softvérový balíček, ktorého životný cyklus sa pomaly blíži ku koncu. Spoločnosťou Course Technology už nie je ďalej vyvíjaný. Bol nahradený novším systémom ExamView. Nikdy ale neexistoval spôsob ako exportovať banky testov z CTM do bežného testového formátu. To je dôvod, prečo bol tento modul vytvorený. </p>
+
+<p>Pre import otázok z CTM, musíte mať vo Windows nainštalované CTM a mať prístup k dátovým súborom MS Access. Pre prístup sú požadované dva dátové súbory:</p>
+<ul><li>System.mda - Tento súbor sa nachádza v koreňovom adresári v CTM inštalácii a v terminológii MS Access je nazývaný ako &quot;System Database&quot;.</li>
+<li>ctm.mdb - je databáza, pozostávajúca z banky otázok pre test. Pre každý kurz inštalovaný v CTM je jedna takáto databáza. Nachádza sa v adresári o úroveň nižšie ako adresár CTM inštalácie.</li>
+</ul>
+
+<p>Import súborov sa líši v závislosti, či Moodle beží vo Windows alebo Linuxe. Nezáleží, v akom operačnom systéme pracujete, potrebujete Windows systém (Windows 2000 alebo Windows XP) umiestnený na rovnakej sieti ako systém Moodle, na tomto počítači sú počas importu umiestnené banky testov.</p>
+
+<p>Proces je jednoduchší vo <b>Windows</b> Moodle systéme. Na použitie CTM importu potrebujete:</p>
+
+<ol><li>Nahrať system.mda systémovú databázu do Moodle pomocou správcu súborov. Nezáleží na tom, do akého kurzu nahráte súbor system.mda. Moodle ich nájde kdekoľvek.</li>
+<li>Vytvorte svoj test a použite funkciu &quot;importovať otázky zo súboru&quot;.  Nahrajte vybranú ctm.mdb databázu ako súbor na import. Ak ste to spravili správne, uvidíte ďalšiu stránku, kde si môžete vybrať podkategóriu otázok na import z databázy. Dôvod, prečo je tu tento krok je, že CTM banka testov často pozostáva z veľkého množstva kategorizovaných otázok, založených na kapitolách kníh alebo sekcií kurzov. </li>
+</ol>
+
+<p>Postup v <b>Linux</b> systéme Moodle zahŕňa nezávislý softvér nazývaný <a href="http://odbcsock.ourceforge.net/" target="_new"><b>ODBC Socket Server</b></a>. Ak chcete importovať CTM databázy do Linuxu, najprv si musíte stiahnuť a nainštalovať tento balíček do Windows systému, v ktorom bude vaša CTM databáza. <b>Nepostupujte</b> podľa inštalačných pokynov uvedených v ODBC Socket Server. Sú zbytočne komplikované. Namiesto toho postupujete podľa týchto krokov:</p>
+
+<ol><li>Choďte do Windows a rozzipujte inštalačný súbor, ktorý ste stiahli z
+<a href="http://odbcsock.sourceforge.net/" target="_new">tejto stránky</a> do systému.</li>
+<li>Skopírujte binárny súbor ODBCSocketServer.exe na vhodné miesto, ako napríklad Váš systémový adresár (pravdepodobne C:\WINNT\ alebo C:\Windows) alebo do adresára Program Files. </li>
+
+<li>Inštalujte ODBC Socket Server ako službu to pomocou príkazu:<br />
+<b>&lt;cesta k súboru z predchádzajúceho kroku&gt;ODBCSocketServer.exe /Service</b><br /> 
+Príkaz môžete zadať v menu Štart-&gt;Spustiť... alebo v príkazovom riadku operačného systému.</li>
+
+<li>Otvorte Správu služieb jedným z týchto spôsobov: Štart-&gt;Nastavenia-&gt;Ovládacie panely-&gt;Nástroje pre správu-&gt;Služby alebo kliknutím pravým tlačidlom na <b>Môj počítač</b>, vybratím <b>Spravovať</b>, potom vybratím <b>Služby a aplikácie-&gt;Služby</b> z pravého panela. Môžete otvoriť Správu služieb aj zadaním príkazu <b>services.msc</b> v Štart-&gt;Spustiť...</li>
+
+<li>V Správe služieb kliknutím pravým tlačidlo na odkaz ODBC Socket Server a vybraním položky <b>Štart</b>. Stav položky by sa mal zmeniť na "spustené". Upozornenie: Po ukončení importu môžete túto službu zastaviť alebo zakázať.</li>
+
+<li>Uistite sa, či sa v počítači nachádzajú súbory system.mda a ctm.mdb, rovnako ako aj ovládač MS Access ODBC. Ovládač je nainštalovaný štandardnou Windows inštaláciou. Môžete sa presvedčiť, že je nainštalovaný otvorením ikony &quot;"Zdroje dát&quot; v "Nástroje pre správu" a na ňom kliknite na záložku "Ovládače". Ďalej zistite, kde je nainštalovaný CTM a nájdite súbor system.mda a databázu ctm.mdb alebo ďalšie súbory, z ktorých chcete importovať dáta. Napíšte si úplné cesty k týmto súborom ako aj IP adresy alebo názov počítača so systémom Windows. Túto informáciu budete potrebovať na proces importu.</li>
+
+<li>Teraz môžete importovať banku testov do Moodle. Vytvorte váš test a choďte do &quot;importovať otázky zo súboru&quot;. <b>TU SA POSTUP PRE LINUXU LÍŠI</b> PRE ZAČATIE IMPORTU MUSÍTE ŠPECIFIKOVAŤ NÁHRADNÝ SÚBOR.  TENTO SÚBOR SA <b>NEBUDE</b> SPRACOVÁVAŤ, JE TO LEN PODPORA PRE FORMULÁR IMPORTU. INFORMÁCIE O POUŽÍVANOM SERVERY WINDOWS BUDETE MÔCŤ URČIŤ V ĎALŠOM KROKU. Ďalej sa Vám zobrazí stránka kde vyplníte názov serveru, ako aj cesty k súborom a bankám testov. Vložte informácie, ktoré ste si napísali v predchádzajúcom kroku a kliknite na &quot;Pripojiť k serveru&quot;. Ak ste všetko nastavili správne, zobrazí sa ďalší formulár, ktorý vám umožňuje vybrať podkategóriu otázok na import z databázy. Dôvod, prečo je tu tento krok je, že CTM banka testov často pozostáva z veľkého množstva kategorizovaných otázok, založených na kapitolách kníh alebo sekcií kurzov. AK ZVLÁDNETE TENTO KROK BEZ NAHLÁSENIA CHYBY, NASTAVILI STE SOCKET SERVER SPRÁVNE A MÔŽETE IMPORTOVAŤ OTÁZKY DO MOODLE.</li> 
+</ol>
+<p>Ak sa počas procesu zobrazí nahlásenie chyby, možno oceníte nasledovné technické informácie. ODBC Socket server používa port 9628 na otvorenie socketu a vymení XML dotaz za XML výsledkovú tabuľku. Importná trieda spracováva výsledok dotazu vo formáte XML rovnako, ako by bol spracovávaný miestny dotaz.</p>

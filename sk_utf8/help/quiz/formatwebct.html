@@ -1,0 +1,57 @@
+<h1>Import súborov &quot;WebCT Quiz Format&quot; </h1>
+
+<p>WebCT import filter sa vyvíja a nepodporuje všetky WebCT typy otázok.</p>
+
+<p>V tomto čase podporuje iba otázky typu viaceré možnosti a otázky typu krátka odpoveď.</p>
+
+<p>Príklady týchto otázok v textovom súbore:</p>
+
+<pre>
+# Začiatok otázky: Otázka typu krátka odpoveď
+:TYPE:S:
+:TITLE:Otázka typu krátka odpoveď
+:QUESTION:H
+Aký má názov WebCT Learning Hub?
+&lt;br />
+:IMAGE:dotcomLogoc.gif
+:ANSWERS:1
+:CASE:0
+:ANSWER1:WebCT.com:100:0:20:0
+:FEEDBACK:H
+Pozrite stránku \: www.WebCT.com
+:CAT:Default
+# Koniec otázky: Otázka typu krátka odpoveď
+
+# Začiatok otázky: Otázka typu viaceré možnosti
+:TYPE:MC:1:0:C
+:TITLE: Otázka typu viaceré možnosti
+:FEEDBACK
+Darwin spochybnil teóriu evolúcie a vytvoril Darvinizmus.
+:QUESTION:H
+Kde sa nachádza Darwin Research Center?
+:IMAGE:
+:LAYOUT:vertical
+:ANSWER1:0:H
+Menlo Park, California
+:REASON1:H
+Nesprávne!
+:ANSWER2:0:H
+Vancouver, Canada
+:REASON2:H
+Nesprávne!
+:ANSWER3:100:H
+Galapagos Islands, Ecuador
+:REASON3:H
+Správna odpoveď!
+:ANSWER4:0:H
+London, England
+:REASON4:H
+Nesprávne!
+:ANSWER5:0:H
+Sidney, Australia
+:REASON5:H
+Nesprávne!
+:CAT:Default
+# Koniec otázky: Otázka typu viaceré možnosti
+
+</pre>

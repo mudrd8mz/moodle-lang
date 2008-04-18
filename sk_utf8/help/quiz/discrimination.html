@@ -1,0 +1,11 @@
+<h1>Diskriminačná hodnota</h1>
+
+<p>Slúži ako hrubý ukazovateľ výkonu každej položky. Je vyčíslený spočítaním počtu študentov, ktorí sa umiestnili v prvej tretine za každú otázku v tomto teste a vydelením počtom študentov, ktorí sa umiestnili v poslednej tretine.</p>
+
+<p>Napríklad: Ak 30 študentov spraví test, bude 10 študentov v prvej tretine a 10 v poslednej tretine. Ak otázku č.1 vyriešilo správne deväť z najlepších študentov, ale len traja z poslednej tretiny, potom diskriminačná hodnota bude 9/3 = 3.0.</p>
+
+<p>Ak sa index dostane pod 1.0, znamená to, že viac slabších študentov zodpovedalo otázku správne. Takéto otázky by mali byť vyradené ako bezcenné, pretože v teste znižujú presnosť celkového skóre.
+</p>
+
+<p>Ak žiadny slabý študent nezodpovedá otázku správne, mal by menovateľ hodnotu 0, čo by viedlo k neprístupnej matematickej operácii. V takom prípade ju program nahradí číslom 10.
+</p>

@@ -1,0 +1,218 @@
+<h1>Import súborov formátu &quot;GIFT&quot;</h1>
+
+<p>Fornát GIFT je najkomplexnejší import formát, ktorý umožňuje import Moodle otázok z textového súboru. Podporuje otázky typu: Viaceré možnosti, Správne/Nesprávne, Krátka odpoveď, Zodpovedajúce a Rozsahové, ako aj otázky typu chýbajúce slovo. Rôzne typy otázok môžu byť zamiešané v jednom textovom súbore, a formát tiež podporuje komentáre, názvy otázok, spätnú väzbu a hodnotenie v percentách.</p>
+
+<p>Kódovanie textového súboru musí byť utf-t (pokiaľ nepoužívate znaky sady asci). Príklady otázok textového súboru nájdete tu: <a href="<?php echo $CFG->wwwroot; ?>/question/format/gift/examples.txt">gift/examples.txt</a>. </p>
+
+<h3>Základy</h3>
+
+<p>V Každej otázka v súbore GIFT nesmie byť prázdny riadok. Každá otázka je obmedzená aspoň na jeden riadok. Ak potrebujete vložiť prázdny riadok použite entitu <b>\n</b>. Môžete použiť komentáre kdekoľvek chcete, ale musia začínať dvomi lomkami (<b>//</b>) na začiatku riadku.</p>
+
+<h3>Typy otázok</h3>
+
+<p><u>Viaceré možnosti:</u><br /> Pre otázky typu Viaceré možnosti majú nesprávne odpovede na začiatku tildu (~) a správne odpovede rovná sa (=). </p>
+<pre>
+Kto je pochovaný v hrobke Grant? {~Grant ~Jefferson =nikto}
+</pre>
+<p>Formát <b>Chýba slovo</b> automaticky vloží miesto na vloženie odpovede v strede vety (takto _____). Na použitie formátu Chýba slovo, vložte odpovede vo vete tam, kde chcete aby sa zobrazila medzera.</p>
+<pre>
+Grant je {~pochovaný =uložený ~žije} v Grant hrobke.
+</pre>
+<p>Ak je odpoveď vložená pred interpunkčné znamienko, vloží sa automaticky medzera formátu &quot;chýba slovo&quot;. Všetky typy otázok môžu byť napísané vo formáte Chýba slovo.</p>
+<p>Prázdny riadok oddeľuje otázky. Pre prehľadnosť môžu byť odpovede napísané na oddelených riadkoch. Napríklad: </p>
+<pre>
+Americký sviatok vďaky vzdania sa koná {
+    ~druhý
+    ~tretí
+    =štvrtý
+} Novembrový štvrtok.
+
+Z ktorej krajiny pôvodne pochádzajú Japonské znaky? {
+    ~Indie
+    =Číny
+    ~Kórei
+    ~Egypta
+}
+</pre>
+
+<p><u>Krátke odpovede:</u><br /> Správne odpovede v otázkach typu Krátke odpovede majú predponu rovná sa (=). V odpovedi nesmie byť tilda. </p>
+<pre>
+Kto je pochovaný Grant hrobke?{=ani jeden =nikto}
+
+Dva plus dva sa rovná (=štyri =4)
+</pre>
+<p>Ak je len <u>jedna</u> krátka odpoveď správna, môže byť napísaná bez znamienka rovná sa. </p>
+
+<p><u>Pravda/Nepravda:</u><br /> Tento typ otázky určuje či je výrok pravdivý. Odpoveď by mala byť napísaná ako {TRUE} alebo {FALSE} alebo skrátene na {T} alebo {F}.</p>
+<pre>
+Grant je pochovaný v Grant hrobke.{F}
+
+Slnko vychádza na východe. {T} 
+</pre>
+
+<p><u>Zodpovedajúce:</u><br /> Zodpovedajúce otázky začínajú znamienkom rovná sa (=) a sú oddelené symbolom &quot;-&gt;&quot;. Musíme uviesť aspoň tri zodpovedajúce odpovede. </p>
+<pre>
+Zodpovedajúca otázka. {
+    =podotázka1 -> pododpoveď1
+    =podotázka2 -> pododpoveď2
+    =podotázka3 -> pododpoveď3
+}
+
+Spojte nasledovná štáty s ich hlavnými mestami. {
+    =Canada -> Ottawa
+    =Taliansko  -> Rým
+    =Japonsko  -> Tokyo
+    =India  -> New Delhi
+}
+</pre>
+<p>Zodpovedajúce otázky nepodporujú spätnú väzbu a váženie odpovedi v percentách.</p>
+<p><u>Rozsahová:</u><br /> Sekcia odpovede musí začínať mriežkou (#). Rozsahové odpovede môžu zahŕňať rozmedzie chyby, ktorá je napísaná za správnou odpoveďou, oddelená dvojbodkou. Napríklad: ak je správna odpoveď hocičo medzi 1.5 a 2.5, potom to bude zapísané nasledovne: <u>{#2:0.5}</u>. To naznačuje, že každá odpoveď 2 s rozmedzím 0.5 je správna. Ak rozmedzie nie je špecifikované, bude sa rovnať nule.</p>
+<pre>
+Kedy bol narodený Ulysses S. Grant?{#1822}
+
+Akú má hodnotu pi (na 3 desatinné miesta)? {#3.1415:0.0005}.
+</pre>
+<p>Rozsahové odpovede môžu byť napísané aj intervalovou formou {#<i>Minimálna hodnota</i>..<i>Maximálna hodnota</i>}.</p>
+<pre>
+Akú má hodnotu pi (na 3 desatinné miesta)? {#3.141..3.142}.
+</pre>
+<p>Používateľské rozhranie Moodle nepodporuje rozsahové odpovede s viacerými možnosťami, ale kódovanie Moodle a GIFT ho podporujú. Môže byť použitý na špecifikovanie rozsahových intervalov s viacerými možnosťami a čiastočne môže byť použitý v kombinácii s percentuálne váženými odpoveďami. Ak použijeme odpovede s viacerými možnosťami, musia byť tieto odpovede oddelené znakom rovná sa, ako pri otázkach typu krátka odpoveď.</p>
+<pre>
+Kedy bol narodený Ulysses S. Grant? {#
+    =1822:0
+    =%50%1822:2
+}
+</pre>
+<p>Poznámka: Ak používateľské rozhranie Moodle nepodporuje odpovede s viacerými možnosťami pre rozsahové otázky, nemôžete ich cez Moodle ani upravovať. Jediný spôsob ako zmeniť tieto otázky, je vymazať otázku a znovu ju importovať (alebo použiť phpMyAdmin).</p>
+
+<p><u>Esej:</u><br /> Otázka esej je jednoducho otázka s prázdnym poľom pre odpoveď. Medzi zloženými zátvorkami nie je písanie povolené.</p>
+<pre>
+Napíšte krátky životopis Ulysses S. Granta {}
+</pre>
+
+<p><u>Opis:</u><br /> Je otázka, ktorá nemá žiadnu odpoveď.</p>
+<pre>
+Ďalšia sada otázok bude výpočtová
+</pre>
+
+<h3>VOĽBY</h3>
+<p>K týmto základným typom otázok, ponúka filter nasledovné možnosti: poznámky k úlohe, názov otázky, spätnú väzbu a hodnotenie v percentách.</p>
+
+<p><u>Poznámky k úlohe:</u><br /> Poznámky, ktoré nemôžu byť importované do Moodle, môžu byť zahrnuté v textovom súbore. Môžu byť použité ako hlavička alebo ako viac informácii o otázke. Ignorované budú riadky začínajúce s dvojitým spätným lomítkom (nezahŕňa tabelátory alebo medzery).
+</p>
+<pre>
+// Podhlavička: Rozsahová otázka
+Koľko je dva plus dva? {#4}
+</pre>
+
+<p><u>Názov otázky:</u><br /> Názov otázky môže byť špecifikovaný vložením medzi dvojité dvojbodky. </p>
+<pre>
+::Pôvod Kanji::Z ktorej krajiny pochádzajú pôvodne japonské znaky? {=China}
+
+::Dátum vďakyvzdania::Americký sviatok vďakyvzdania je na {~druhý ~tretí =štvrtý} Novembrový štvrtok.
+</pre>
+<p>Ak nie je špecifikovaný názov otázky, meno otázky bude celé jej znenie.</p>
+
+<p><u>Spätná väzba:</u><br /> Môže sa nachádzať pri každej odpovedi so symbolom (# mriežka) a spätná väzba.</p>
+<pre>
+Čo je odpoveď na túto otázku s viacerými možnosťami? {
+    ~nesprávna odpoveď#spätná väzba pre túto nesprávnu odpoveď
+    ~Ďalšia nesprávna odpoveď#spätná väzba pre túto nesprávnu odpoveď
+    =správna odpoveď#Veľmi dobre!
+}
+     
+Kto je pochovaný v Grant hrobke? {
+    =ani jeden#správna odpoveď!
+    =niekto#správna odpoveď!
+}
+     
+     Grant je pochovaný v Grant hrobke.{FALSE#Nesprávne, ani jeden nie je pochovaný v Grant hrobke.#Správne, výborne.}</pre>
+<p>Pre otázky typu Viaceré možnosti je spätná väzba zobrazená iba v prípade, že študent vybral odpoveď. Pre krátku odpoveď je spätná väzba zobrazená iba vtedy, ak študent vložil prislúchajúcu správnu odpoveď. Pre otázky Správne/Nesprávne máme len jednu alebo dve spätné väzby. Prvá sa zobrazí ak študent odpovie nesprávne. Druhá sa zobrazí ak študent odpovie správne. </p>
+
+<p><u>Hodnotenie v percentách:</u><br /> Môžeme ho použiť aj pre otázky typu Viaceré možnosti aj pre otázky typu Krátka odpoveď. označujú sa tildou (pre otázky typu Viaceré možnosti) alebo znakom rovná sa (pre otázky typu Krátka odpoveď). Táto voľba môže byť kombinovaná so spätnou väzbou so žiadaným percentom ukončeným znakom percento. (čiže %50%)</p>
+<pre>
+Zložitá otázka.{~nesprávna odpoveď ~%50%polovica z počtu bodov =plný počet}
+
+::Rodisko Krista::Ježiš Kristus pochádza {
+    ~Jeruzalemu#Bolo to významné mesto, ale odpoveď je nesprávna.
+    ~%25%Bethlehem#Narodil sa tu, ale nevyrástol tu.
+    ~%50%Galilee#Treba špecifikovať.
+    =Nazareth#Áno! Správne!
+}.
+     
+::Rodisko Krista::Ježiš Kristus pochádza {
+    =Nazareth#Áno! Správne!
+    =%75%Nazereth#Správne, ale zle napísané.
+    =%25%Bethlehem#Narodil sa tu, ale nevyrástol tu.
+}</pre>
+<p>Poznámka: Posledná dva príklady sú v podstate tá istá otázka, prvá ako otázka typu Viaceré možnosti a druhá ako otázka typu Krátka odpoveď.</p>
+
+<p><font size="-1"> Poznámka: Nemôžeme špecifikovať hodnotenie v percentách, ktoré nie sú prístupné cez používateľské rozhranie. Podľa určenia hodnôt pri importe budú tieto hodnoty spracované. Môže sa zobraziť nahlásenie chyby alebo odpoveď bude upravená na najbližšiu správnu hodnotu.</font></p>
+
+<p><u>Špecifikujte tetxový formát pre otázku</u><br /> Text otázky môže mať špecifikovaný textový formát. Aktuálne sú dostupné formáty:  <b>moodle</b> (Moodle Auto-Formát), <b>html</b> (HTML formát), <b>plain</b> (Plain textový formát) and
+    <b>markdown</b> (Markdown formát). Formát je špecifikovaný medzi hranatými zátvorkami hneď pred textom otázky. <a href="help.php?file=textformat.html">Viac informácii o textovom formáte v Moodle.</a></p>
+
+<pre>
+[markdown] *Americký sviatok vďakyvzdania* sa koná {
+    ~druhý
+    ~tretí
+    =štvrtý
+} novembrový štvrtok.
+</pre>
+
+<p><u>Otázky typu Viaceré odpovede:</u><br /> Táto voľba sa používa pre otázky s Viacerými možnosťami, ak treba vybrať dve alebo viac odpovedí na dosiahnutie plného počtu bodov. Táto voľba dáva váhu na jednotlivé odpovede v otázke, a tak nedosiahneme plný počet pri zadaní len jednej odpovede.</p>
+<pre>
+Ktorí dvaja ľudia sú pochovaní v hrobke Grant? {
+    ~ani jeden
+    ~%50%Grant
+    ~%50%Grantova manželka
+    ~Grantov Otec
+}
+</pre>
+<p>Poznámka: V odpovediach sa nenachádza znak (=) a odpovede po sčítaní by mali dosiahnuť hodnotu 100%, inak Moodle nahlási chybu. Je vhodné vložiť záporné hodnoty pri nesprávnych odpovediach, aby sme sa vyhli problému, keď študenti zaškrtnú všetky odpovede a dostanú automaticky 100%.</p>
+<pre>
+Ktorí dvaja ľudia sú pochovaní v hrobke Grant? {
+    ~%-50%ani jeden
+    ~%50%Grant
+    ~%50%Grantova manželka
+    ~%-50%Grantov Otec
+}
+</pre>
+
+<p><u>Špeciálne znaky ~ = # { } :</u><br /> Znaky <b> ~ = # { } : </b> kontrolujú činnosti filtra a nemôžu byť použité ako normálny text v otázke. Tieto znaky sa nazývajú &quot;kontrolné znaky&quot;, pretože plnia dôležitú úlohu v činnosti filtra. V niektorých prípadoch je nutné použiť tieto znaky, napríklad pri zápise matematického vzorca.  V takom prípade sa treba vyhnúť týmto výrazom a pred znak vložiť spätné lomítko (\), tak filter bude vedieť, že tento znak chcete použiť ako riadiaci znak a nie ako kontrolný znak. Príklad:  </p>
+<pre>
+Ktorá odpoveď sa rovná 5? {
+    ~ \= 2 + 2
+    = \= 2 + 3
+    ~ \= 2 + 4
+}
+::GIFT Kontrolné znaky::
+Ktorý z nasledovných znakov NIE je riadiacim znakom pre GIFT import formát? {
+   ~ \~     # \~ je riadiaci znak.
+   ~ \=     # \= je riadiaci znak.
+   ~ \#     # \# je riadiaci znak.
+   ~ \{     # \{ je riadiaci znak.
+   ~ \}     # \} je riadiaci znak.
+   = \      # Správne! \ (spätné lomítko) nie je riadiaci znak. ALE, používa sa na vyhnutie sa riadiacim znakom.
+}</pre>
+<p>Pri spracovaní otázky sa spätné lomítko odstráni a do Moodle sa neuloží.</p>
+
+<h3>Špecifikovanie kategórie</h3>
+
+<p>Môžeme zmeniť kategóriu, do ktorej sú pridané otázky vrámci súboru GIFT. Kategóriu môžete zmeniť toľkokrát koľko chcete v rámci súboru. Po úprave sú otázky posunuté na ďalšiu úpravu alebo koniec súboru bude pridaný do špecifikovanej kategórie. Po úprave prvej kategórie bude použitá kategória na stránke importu. Poznámka: aby tento proces prebiehal, musí byť zaškrtnuté pole <b>zo súboru:</b> na stránke importu.</p>
+
+<p>Pre zaradenie úpravy kategórie, musíme vložiť riadok ako (s prázdnym riadkom pred a po):</p>
+<pre>
+$CATEGORY: tom/dick/harry
+</pre>
+
+alebo jednoducho
+
+<pre>
+$CATEGORY: mycategory
+</pre>
+
+...prvý príklad špecifikuje cestu ku kategórii. V tomto prípade pôjde do <i>harry</i>. Ak takáto kategória neexistuje bude vytvorená.
+
+<p><u>Ostatné možnosti:</u><br /> Otázky typu Krátka odpoveď môžete spraviť citlivými na veľkosť písmen, ak zmeníte &quot;0&quot; na &quot;1&quot; v nasledovnom riadku: <br />
+    <tt>$question-&gt;usecase = 0;  // Ignorovať veľkosť písmen</tt> </p>
