@@ -217,6 +217,7 @@ $string['savesettings'] = 'Enregistrer les réglages';
 $string['savesuccess'] = 'Enregistrement réussi. Votre préréglage est maintenant disponible sur tout le site.';
 $string['savetemplate'] = 'Enregistrer modèle';
 $string['search'] = 'Recherche';
+$string['selectedrequired'] = 'Toute la sélection requise';
 $string['sendinratings'] = 'Envoyer mes dernières évaluations';
 $string['showall'] = 'Afficher toutes les fiches';
 $string['single'] = 'Affichage fiche';
