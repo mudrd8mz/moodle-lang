@@ -4,6 +4,7 @@ $string['addrole'] = 'Ajouter un nouveau rôle';
 $string['allow'] = 'Autoriser';
 $string['allowassign'] = 'Autoriser les attributions de rôles';
 $string['allowoverride'] = 'Autoriser la définition de dérogations aux rôles';
+$string['allsiteusers'] = 'Tous les utilisateurs du site';
 $string['assignglobalroles'] = 'Attribution des rôles système';
 $string['assignroles'] = 'Attribution des rôles';
 $string['assignrolesin'] = 'Attribuer les rôles dans $a';
@@ -178,6 +179,7 @@ $string['user:viewhiddendetails'] = 'Voir les informations cachées des utilisat
 $string['user:viewuseractivitiesreport'] = 'Voir les rapports d\'activités des utilisateurs';
 $string['user:viewusergrades'] = 'Voir les notes des utilisateurs'; // Legacy, to delete after 1.9 release
 $string['userhashiddenassignments'] = 'Cet utilisateur a dans ce cours une ou plusieurs attributions de rôles cachés';
+$string['userswithrole'] = 'Tous les utilisateurs avec un rôle';
 $string['viewrole'] = 'Afficher les détails du rôle';
 $string['xuserswiththerole'] = 'Utilisateurs ayant le rôle «&nbsp;$a->role&nbsp;»';
 
