@@ -1,10 +1,8 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (2007101508.04)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
-$string['addotags'] = 'オフィシャルタグの追加';
-$string['addptags'] = 'ユーザ定義タグの追加';
 $string['backupblogshelp'] = '有効にした場合、サイト自動バックアップにブログが含まれます。';
 $string['blockmenutitle'] = 'ブログメニュー';
 $string['blocktagstitle'] = 'ブログタグ';
@@ -35,10 +33,9 @@ $string['norighttodeletetag'] = 'あなたはこのタグ ($a) を削除でき�
 $string['notallowedtoedit'] = 'あなたはこのエントリを編集できません。';
 $string['numberofentries'] = 'エントリ: $a';
 $string['numberoftags'] = '表示するタグ数';
-$string['otags'] = 'オフィシャルタグ';
 $string['pagesize'] = '1ページあたりのブログエントリ数';
+$string['permlink'] = 'パーマリンク';
 $string['personalblogs'] = 'ユーザは自分のブログのみ読むことができる';
-$string['ptags'] = 'ユーザ定義タグ (カンマ区切り)';
 $string['publishto'] = '公開先:';
 $string['publishtonoone'] = 'あなたのみ閲覧可 (下書き)';
 $string['publishtosite'] = 'このサイトの誰でも閲覧可';
@@ -57,5 +54,9 @@ $string['viewcourseentries'] = 'コースエントリの表示';
 $string['viewmyentries'] = 'マイエントリの表示';
 $string['viewsiteentries'] = 'サイトエントリの表示';
 $string['worldblogs'] = '世界中の誰でもエントリを読むことができる';
+$string['addotags'] = 'オフィシャルタグの追加'; // TBD
+$string['addptags'] = 'ユーザ定義タグの追加'; // TBD
+$string['otags'] = 'オフィシャルタグ'; // TBD
+$string['ptags'] = 'ユーザ定義タグ (カンマ区切り)'; // TBD
 
 ?>
