@@ -167,7 +167,6 @@ $string['nosubscribers'] = 'Personne n\'est abonné à ce forum';
 $string['nothingnew'] = 'Rien de neuf pour $a';
 $string['notingroup'] = 'Désolé, vous devez faire partie d\'un groupe pour consulter ce forum.';
 $string['notrackforum'] = 'Ne pas signaler les messages non lus';
-$string['nousersloaded'] = 'Aucun utilisateur chargé';
 $string['noviewdiscussionspermission'] = 'Vous n\'avez pas l\'autorisation de voir les discussions dans ce forum';
 $string['nowallsubscribed'] = 'Vous êtes abonné à tous les forums de $a.';
 $string['nowallunsubscribed'] = 'Vous êtes désabonné de tous les forums de $a.';

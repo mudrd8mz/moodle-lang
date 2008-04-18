@@ -358,6 +358,7 @@ $string['nopublish'] = 'Ne pas publier';
 $string['noselectedcategories'] = 'Aucune catégorie sélectionnée.';
 $string['noselecteditems'] = 'Aucun élément sélectionné.';
 $string['notteachererror'] = 'Vous devez être enseignant pour utiliser cette fonctionnalité.';
+$string['nousersloaded'] = 'Aucun utilisateur chargé';
 $string['numberofgrades'] = 'Nombre de notes';
 $string['onascaleof'] = ' sur un barème de $a->grademin à $a->grademax';
 $string['operations'] = 'Opérations';
