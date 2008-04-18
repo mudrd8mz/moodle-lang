@@ -1,10 +1,8 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (2007101508.05)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080418) (2008030700)
 
 
 $string['addnewentry'] = '새 게시물 추가';
-$string['addotags'] = '공식적인 태그 추가';
-$string['addptags'] = '사용자 정의 태그 추가';
 $string['backupblogshelp'] = '활성화되어 있으면 사이트 자동 백업시 블로그가 포함될 것입니다.';
 $string['blockmenutitle'] = '블로그 메뉴';
 $string['blocktagstitle'] = '블로그 태그';
@@ -35,10 +33,9 @@ $string['norighttodeletetag'] = '이 태그 $a 를 삭제할 권한이 없습니
 $string['notallowedtoedit'] = '이 게시물을 편집하도록 허용되지 않았습니다.';
 $string['numberofentries'] = '게시물들: $a';
 $string['numberoftags'] = '보여줄 태그 수';
-$string['otags'] = '정의된 태그';
 $string['pagesize'] = '페이지당 블로그 게시물 수';
+$string['permlink'] = '고정링크';
 $string['personalblogs'] = '사용자는 자신의 블로그만 볼 수 있습니다.';
-$string['ptags'] = '사용자 정의 태그';
 $string['publishto'] = '게시';
 $string['publishtonoone'] = '자신에게만(초안)';
 $string['publishtosite'] = '이 사이트에 있는 누구에게나';
@@ -57,5 +54,9 @@ $string['viewcourseentries'] = '코스 게시물 보기';
 $string['viewmyentries'] = '내 게시물 보기';
 $string['viewsiteentries'] = '사이트 게시물 보기';
 $string['worldblogs'] = '공개하도록 설정된 게시물은 아무나 읽을 수 있습니다.';
+$string['addotags'] = '공식적인 태그 추가'; // ORPHANED
+$string['addptags'] = '사용자 정의 태그 추가'; // ORPHANED
+$string['otags'] = '정의된 태그'; // ORPHANED
+$string['ptags'] = '사용자 정의 태그'; // ORPHANED
 
 ?>

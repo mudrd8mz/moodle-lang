@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080330) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080418) (2008030700)
 
 
 $string['addrole'] = '역할 추가';
 $string['allow'] = '허용';
 $string['allowassign'] = '역할 부여 허용';
 $string['allowoverride'] = '권한 위임 허용';
+$string['allsiteusers'] = '사이트의 모든 사용자';
 $string['assignglobalroles'] = '총괄 역할';
 $string['assignroles'] = '역할 부여';
 $string['assignrolesin'] = '$a 에서 역할 부여';
@@ -176,6 +177,7 @@ $string['user:viewhiddendetails'] = '사용자의 비공개 세부사항 보기'
 $string['user:viewuseractivitiesreport'] = '활동 보고서 보기';
 $string['user:viewusergrades'] = '사용자 성적 보기';
 $string['userhashiddenassignments'] = '이 사용자는 강좌내에 하나 이상의 비공개 역할을 가지고 있음';
+$string['userswithrole'] = '역할을 지닌 모든 사용자';
 $string['viewrole'] = '역할 자세히 보기';
 $string['xuserswiththerole'] = '\"$a->role\" 역할을 지닌 사용자 수 : $a->number';
 $string['question:export'] = '문항 내보냄'; // ORPHANED
