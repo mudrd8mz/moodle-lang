@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['activities'] = '活動';
@@ -348,6 +348,7 @@ $string['nopublish'] = '公開しない';
 $string['noselectedcategories'] = 'カテゴリを選択してください。';
 $string['noselecteditems'] = '項目を選択してください。';
 $string['notteachererror'] = 'この機能は教師のみ使用できます。';
+$string['nousersloaded'] = 'ユーザが読み込まれていません。';
 $string['numberofgrades'] = '評定数';
 $string['onascaleof'] = '尺度の適用範囲: $a->grademin - $a->grademax';
 $string['operations'] = '操作';

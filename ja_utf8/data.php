@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080415) (2008030700)
+      // data.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['action'] = '操作';
@@ -109,6 +109,8 @@ $string['filesnotgenerated'] = 'すべてのファイルは生成されません
 $string['filtername'] = 'データベースオートリンク';
 $string['footer'] = 'フッタ';
 $string['forcelinkname'] = '強制リンク名';
+$string['foundnorecords'] = 'レコードが見つかりませんでした (<a href=\"$a->reseturl\">フィルタをリセットする</a>)';
+$string['foundrecords'] = '$a->num/$a->max 件のレコードが見つかりました (<a href=\"$a->reseturl\">フィルタをリセットする</a>)';
 $string['fromfile'] = 'ZIPファイルからインポートする';
 $string['header'] = 'ヘッダ';
 $string['headeraddtemplate'] = 'エントリ編集用のインターフェース定義';
@@ -201,7 +203,7 @@ $string['recordssaved'] = 'エントリが保存されました。';
 $string['requireapproval'] = '承認が必要ですか?';
 $string['requiredentries'] = '必須エントリ数';
 $string['requiredentriestoview'] = '閲覧前に必要な入力エントリ数';
-$string['resetsettings'] = 'フィールドをリセットする';
+$string['resetsettings'] = 'フィルタをリセットする';
 $string['resettemplate'] = 'テンプレートをリセットする';
 $string['resizingimages'] = 'イメージサムネイルのリサイズ...';
 $string['rows'] = '行';

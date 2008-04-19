@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['addrole'] = '新しいロールを追加する';
 $string['allow'] = '許可';
 $string['allowassign'] = 'ロールの割り当て許可';
 $string['allowoverride'] = 'ロールのオーバーライド許可';
+$string['allsiteusers'] = 'すべてのサイトユーザ';
 $string['assignglobalroles'] = 'システムロールの割り当て';
 $string['assignroles'] = 'ロールの割り当て';
 $string['assignrolesin'] = '$a ロールの割り当て';
@@ -176,6 +177,7 @@ $string['user:viewhiddendetails'] = '非表示のユーザ詳細を表示する'
 $string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表示する';
 $string['user:viewusergrades'] = 'ユーザの評定を表示する';
 $string['userhashiddenassignments'] = 'このユーザには、このコースで1つまたはそれ以上の非表示ロールが割り当てられています。';
+$string['userswithrole'] = 'ロールのすべてのユーザ';
 $string['viewrole'] = 'ロール詳細の表示';
 $string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ';
 $string['question:export'] = '問題をエクスポートする'; // TBD
