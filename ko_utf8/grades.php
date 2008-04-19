@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080419) (2008030700)
 
 
 $string['activities'] = '활동';
@@ -30,11 +30,8 @@ $string['aggregateweightedmean2'] = '단순 가중 평균';
 $string['aggregation'] = '집계 전략';
 $string['aggregationcoef'] = '집계 상수';
 $string['aggregationcoefextra'] = '가산 점수';
-$string['aggregationcoefextrahelp'] = '집계중 이 성적항목에 대한 가산점수';
 $string['aggregationcoefextrasum'] = '가산 점수';
-$string['aggregationcoefextrasumhelp'] = '집계중 이 성적항목에 대한 가산점수';
 $string['aggregationcoefweight'] = '항목 가중치';
-$string['aggregationcoefweighthelp'] = '타 성적항목의 집계가 이루어지는 동안 가중치는 성적항목의 모든 점수에 적용된다.';
 $string['aggregationhelp'] = '강좌에서 모든 학습자의 성적을 집계하는데 사용되는 전략';
 $string['aggregationposition'] = '총계의 위치';
 $string['aggregationview'] = '총계 보기';
@@ -351,7 +348,8 @@ $string['nooutcome'] = '학습성과 없음';
 $string['nopublish'] = '비공개';
 $string['noselectedcategories'] = '범주가 선택되지 않았음';
 $string['noselecteditems'] = '항목이 지정되지 않았음';
-$string['notteachererror'] = '당신은 이 기능을 사용할수 없습니다.';
+$string['notteachererror'] = '교수자라야 이 기능을 사용할 수 있습니다.';
+$string['nousersloaded'] = '어떤 사용자도 탑재되지 않음';
 $string['numberofgrades'] = '등급의 수';
 $string['onascaleof'] = '$a->grademin 에서 $a->grademax 까지 척도에서';
 $string['operations'] = '동작';
@@ -517,6 +515,9 @@ $string['writinggradebookinfo'] = '성적표 쓰기 설정';
 $string['xml'] = 'XML형식';
 $string['yes'] = '예';
 $string['yourgrade'] = '당신의 성적';
+$string['aggregationcoefextrahelp'] = '집계중 이 성적항목에 대한 가산점수'; // ORPHANED
+$string['aggregationcoefextrasumhelp'] = '집계중 이 성적항목에 대한 가산점수'; // ORPHANED
+$string['aggregationcoefweighthelp'] = '타 성적항목의 집계가 이루어지는 동안 가중치는 성적항목의 모든 점수에 적용된다.'; // ORPHANED
 $string['configbulkcheckboxes'] = '일괄 채점 동작을 위한 각 성적 부근의 체크박스들'; // ORPHANED
 $string['configquickfeedback'] = '일괄 피드백은 한꺼번에 많은 피드백을 편집할 수 있도록 채점자 보고서의 각 셀에 텍스트 입력난을 추가한다. 한번에 하나씩 저장하는 대신, 변경사항을 한꺼번에 저장하기 위해 갱신 버튼을 클릭할 수 있다.'; // ORPHANED
 $string['errornocategorizedid'] = '범주화 되지않은 아이디는 취할 수 없음'; // ORPHANED
