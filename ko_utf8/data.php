@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
+      // data.php - created with Moodle 2.0 dev (Build: 20080420) (2008030700)
 
 
 $string['action'] = '행동';
@@ -13,6 +13,7 @@ $string['allowcomments'] = '덧글을 허용할까요?';
 $string['allowratings'] = '게시물에 등급주는 것을 허용할까요?';
 $string['alttext'] = '상응 문구';
 $string['approve'] = '승인';
+$string['approved'] = '승인됨';
 $string['ascending'] = '오름차순';
 $string['asearchtemplate'] = '상세 검색 템플릿';
 $string['atmaxentry'] = '허용된 최대 수의 게시물을 입력하였습니다.';
@@ -109,6 +110,8 @@ $string['filesnotgenerated'] = '파일이 전부 생성되지는 않았음 : $a'
 $string['filtername'] = '데이터베이스 자동링크';
 $string['footer'] = '꼬리말';
 $string['forcelinkname'] = '링크에 대한 강제 이름';
+$string['foundnorecords'] = '기록 없음(<a href=\"$a->reseturl\">필터 초기화</a>)';
+$string['foundrecords'] = '기록 발견 : $a->num/$a->max (<a href=\"$a->reseturl\">필터 초기화</a>)';
 $string['fromfile'] = 'zip파일에서 가져옴';
 $string['header'] = '머릿말';
 $string['headeraddtemplate'] = '게시물을 편집할 때 인터페이스 정의';

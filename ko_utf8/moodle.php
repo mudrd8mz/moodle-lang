@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080420) (2008030700)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -308,6 +308,7 @@ $string['createuserandpass'] = '아이디와 비밀번호 생성';
 $string['createziparchive'] = '압축 파일 만들기';
 $string['creatingblocks'] = '블럭 만들기';
 $string['creatingblocksroles'] = '블럭 수준의 역할부여 및 위임권 생성';
+$string['creatingblogsinfo'] = '블로그 정보 만들기';
 $string['creatingcategoriesandquestions'] = '범주와 문항 만들기';
 $string['creatingcoursemodules'] = '강좌 모듈 만들기';
 $string['creatingcourseroles'] = '강좌 수준의 역할부여 및 위임권 생성';
