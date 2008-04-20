@@ -179,6 +179,7 @@ $string['optionaldescription'] = 'Brève description (facultative)';
 $string['optionalfilename'] = 'Nom affiché (facultatif)';
 $string['other'] = 'Autre';
 $string['overwrite'] = 'Écraser';
+$string['overwritesettings'] = 'Écraser les réglages actuels';
 $string['pagesize'] = 'Fiches par page';
 $string['participants'] = 'Participants';
 $string['picture'] = 'Image';
