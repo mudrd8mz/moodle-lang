@@ -305,6 +305,7 @@ $string['createuserandpass'] = 'Créer un compte';
 $string['createziparchive'] = 'Créer une archive compactée zip';
 $string['creatingblocks'] = 'Création des blocs';
 $string['creatingblocksroles'] = 'Création des attributions de rôles et des dérogations pour les blocs';
+$string['creatingblogsinfo'] = 'Création des informations des blogs';
 $string['creatingcategoriesandquestions'] = 'Création des catégories et des questions';
 $string['creatingcoursemodules'] = 'Création des modules de cours';
 $string['creatingcourseroles'] = 'Création des attributions de rôles et des dérogations pour les cours';
