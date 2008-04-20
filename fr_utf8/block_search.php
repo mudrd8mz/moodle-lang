@@ -1,7 +1,7 @@
 <?php  // $Id$
 
 $string['blockname'] = 'Recherche globale';
-$string['configbuttonlabel'] = 'Libellé du bouton de recherche';
+$string['configbuttonlabel'] = 'Libellé du bouton';
 $string['configenablefileindexing'] = 'Activer l\'indexation des fichiers';
 $string['configfiletypes'] = 'Types de fichiers pris en charge';
 $string['configlimitindexbody'] = 'Taille limite du corps indexé';
@@ -12,5 +12,6 @@ $string['configsearchtext'] = 'Rechercher dans le texte';
 $string['go'] = 'Lancer la recherche';
 $string['bytes'] = ' octets (0 pour «&nbsp;pas de limite&nbsp;»)';
 $string['searchmoodle'] = 'Rechercher dans le site';
+string['usemoodleroot'] = 'Utiliser la racine de Moodle pour les convertisseurs externes';
 
 ?>
