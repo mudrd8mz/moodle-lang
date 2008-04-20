@@ -108,6 +108,8 @@ $string['filesnotgenerated'] = 'Les fichiers n\'ont pas tous été générés&nb
 $string['filtername'] = 'Liens automatiques des bases de données';
 $string['footer'] = 'Pied de page';
 $string['forcelinkname'] = 'Nom imposé pour le lien';
+$string['foundrecords'] = 'Fiches trouvées&nbsp;: $a->num/$a->max (<a href=\"$a->reseturl\">Réinitialiser les filtres</a>)';
+$string['foundnorecords'] = 'Aucune fiche trouvée (<a href=\"$a->reseturl\">Réinitialiser les filtres</a>)';
 $string['fromfile'] = 'Importer d\'un fichier zip';
 $string['header'] = 'Entête';
 $string['headeraddtemplate'] = 'Définit l\'interface présentée lors de l\'ajout de nouvelles fiches';
@@ -201,7 +203,7 @@ $string['recordssaved'] = 'fiche(s) importées';
 $string['requireapproval'] = 'Nécessite une approbation&nbsp;?';
 $string['requiredentries'] = 'Fiches requises';
 $string['requiredentriestoview'] = 'Fiches requises avant consultation';
-$string['resetsettings'] = 'Réinitialiser les champs';
+$string['resetsettings'] = 'Réinitialiser les filtres';
 $string['resettemplate'] = 'Réinitialiser le modèle';
 $string['resizingimages'] = 'Génération des vignettes...';
 $string['rows'] = 'rangées';
