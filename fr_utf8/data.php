@@ -11,6 +11,7 @@ $string['allowcomments'] = 'Permettre les commentaires&nbsp;?';
 $string['allowratings'] = 'Permettre l\'évaluation des fiches&nbsp;?';
 $string['alttext'] = 'Texte alternatif';
 $string['approve'] = 'Approuver';
+$string['approved'] = 'Approuvé';
 $string['ascending'] = 'Ascendant';
 $string['asearchtemplate'] = 'Modèle recherche avancée';
 $string['atmaxentry'] = 'Vous avez ajouté le nombre maximum de fiches permises&nbsp;!';
