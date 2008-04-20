@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -308,6 +308,7 @@ $string['createuserandpass'] = 'ユーザ名 (英数字) とパスワードを�
 $string['createziparchive'] = 'zip書庫を作成する';
 $string['creatingblocks'] = 'ブロックの作成';
 $string['creatingblocksroles'] = 'ブロックレベルロール割り当ておよびオーバーライドの作成';
+$string['creatingblogsinfo'] = 'ブログ情報の作成';
 $string['creatingcategoriesandquestions'] = 'カテゴリと問題の作成';
 $string['creatingcoursemodules'] = 'コースモジュールの作成';
 $string['creatingcourseroles'] = 'コースレベルロール割り当ておよびオーバーライドの作成';
