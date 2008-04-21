@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
 $string['accounts'] = 'アカウント';
 $string['adminseesall'] = '管理者がすべてを閲覧する';
-$string['adminseesallevents'] = '管理者にすべてのイベントを表示';
+$string['adminseesallevents'] = '管理者にすべてのイベントを表示する';
 $string['adminseesownevents'] = '管理者は他のユーザと同じ';
 $string['allowcategorythemes'] = 'カテゴリテーマを許可する';
 $string['allowcoursethemes'] = 'コーステーマを許可する';
@@ -33,7 +33,7 @@ $string['badwordslist'] = '特別使用禁止用語リスト';
 $string['blockinstances'] = 'インスタンス';
 $string['blockmultiple'] = '複数設置';
 $string['blocksettings'] = 'ブロックの管理';
-$string['bloglevel'] = 'ブログ閲覧';
+$string['bloglevel'] = 'ブログ可視性';
 $string['bookmarkadded'] = 'ブックマークが追加されました。';
 $string['bookmarkalreadyexists'] = 'あなたは、すでにこのページをブックマークしています。';
 $string['bookmarkdeleted'] = 'ブックマークが解除されました。';
@@ -62,7 +62,7 @@ $string['configallowemailaddresses'] = '新しいメールアドレスを特定�
 $string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア (Flash等) をEMBEDおよびOBJECTタグでHTMLに埋め込むことは許可されていません (メディアプラグインフィルタを使用して安全に埋め込むことは可能です)。これらのタグの使用を許可したい場合、このオプションを有効にしてください。';
 $string['configallowoverride'] = 'あなたはロール割り当て済みの左側のユーザに対して、いくつかのロールのオーバーライドを許可することができます。';
 $string['configallowunenroll'] = 'この設定を「Yes」にした場合、学生はいつでも好きなときにコースから登録抹消することができます。無効にした場合、学生は登録抹消することはできず、参加に関するすべてを教師および管理者がコントロールします。';
-$string['configallowuserblockhiding'] = 'サイト全体においてユーザにブロックの表示/非表示を許可しますか? 折りたたみ可能なブロックの状態を記憶するため、この機能はJavaスクリプトとクッキーを使用します。また、この設定はユーザ自身の使用にのみ影響します。';
+$string['configallowuserblockhiding'] = 'サイト全体において、ユーザにブロックの表示/非表示を許可しますか? 折りたたみ可能なブロックの状態を記憶するため、この機能はJavaスクリプトとクッキーを使用します。また、この設定はユーザ自身の使用にのみ影響します。';
 $string['configallowusermailcharset'] = 'この設定を有効にした場合、サイトの全ユーザは自分のメール文字コードを指定することができます。';
 $string['configallowuserthemes'] = 'この設定を有効にした場合、ユーザは自分のテーマを設定することができます。サイトテーマは、ユーザテーマに上書きされます (コーステーマは上書きされません)。';
 $string['configallusersaresitestudents'] = 'サイトのフロントページにある活動で、すべてのユーザを学生と考えてもよろしいですか? この設定を「Yes」にした場合、承認されたユーザは学生として、これらの活動に参加することができます。この設定を「No」にした場合、少なくとも1つのコースに登録しているユーザのみフロントページの活動に参加することができます。';
@@ -666,7 +666,7 @@ $string['themesettings'] = 'テーマ設定';
 $string['therewereerrors'] = 'あなたのデータにエラーがあります。';
 $string['timezone'] = 'デフォルトタイムゾーン';
 $string['timezoneforced'] = 'サイト管理者によって強制されています。';
-$string['timezoneisforcedto'] = 'ユーザに使用を強制';
+$string['timezoneisforcedto'] = 'ユーザに使用を強制する';
 $string['timezonenotforced'] = 'ユーザは独自のタイムゾーンを使用できる';
 $string['tokenizerrecommended'] = 'PHP Tokenizer拡張モジュールのインストールをお勧めします - Moodleネットーワーキングの機能性を改善します。';
 $string['unattendedoperation'] = '無人オペレーション';
@@ -681,7 +681,7 @@ $string['updateaccounts'] = '既存のアカウントを更新する';
 $string['updatecomponent'] = 'コンポーネントを更新する';
 $string['updatelangs'] = '利用中のすべての言語パックを更新する';
 $string['updatetimezones'] = 'タイムゾーンの更新';
-$string['upgradeforumread'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡するための新しい機能が追加されました。<br />この機能を有効にするには、<a href=\"$a\">テーブルをアップデート</a>する必要があります。';
+$string['upgradeforumread'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡する新しい機能が追加されました。<br />この機能を有効にするには、<a href=\"$a\">あなたのテーブルをアップデート</a>する必要があります。';
 $string['upgradeforumreadinfo'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡するための新しい機能が追加されました。この機能を有効にするには、投稿内容の未読管理を含むテーブルをアップデートする必要があります。あなたのサイトのサイズにより、この作業は長時間かかる場合があります。また、データベースに非常に負荷がかかる可能性がありますので、閑散期のアップデート作業をお勧めします。このアップデート期間中も、あなたのサイトは動作し続け、ユーザは影響を受けません。この処理を開始した場合は処理を終わらせてください (ブラウザを開いたままにして)。ウィンドウを閉じて処理を終わらせてしまった場合でも心配しないでください。アップデート処理を再開することができます。<br /><br />本当に今からアップデート処理を始めてもよろしいですか?';
 $string['upgradelogs'] = '正常に動作させるためには、古いログのアップグレードが必要です。<a href=\"$a\">詳細はこちら</a>';
 $string['upgradelogsinfo'] = 'ログの保存方法に変更点があります。全活動ベースのログを閲覧することができるようにするには、古いログをアップグレードする必要があります。サイトによってはアップグレード作業に長時間(例 数時間)を要し、規模が大きなサイトではデータベースに負担がかかります。処理を開始した場合は終了するまでそのまま(ブラウザを開いたまま)にしてください。心配する必要はありません - ログが更新された後に、あなたのサイトは正常に動作します。<br/><br/>本当にログをアップグレードしてもよろしいですか?';
