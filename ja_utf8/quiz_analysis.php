@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['analysis'] = 'アイテム分析';
@@ -16,8 +16,8 @@ $string['disccoefftitle'] = '判別係数';
 $string['downloadhtml'] = '完全なテーブルをHTMLフォーマットでダウンロードする';
 $string['downloadooo'] = 'OpenOfficeフォーマットでダウンロードする';
 $string['facilitytitle'] = '%%正解<br />ファシリティ';
-$string['lowmarkslimit'] = '次の評点以下は分析しない';
-$string['pagesize'] = '1ページあたりの問題数';
+$string['lowmarkslimit'] = '次の評点以下は分析しない:';
+$string['pagesize'] = '1ページあたりの問題数:';
 $string['qcounttitle'] = '問題数';
 $string['qidtitle'] = '問題ID';
 $string['qnametitle'] = '問題名';
