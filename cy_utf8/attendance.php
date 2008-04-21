@@ -1,0 +1,72 @@
+<?PHP // $Id$ 
+      // attendance.php - created with Moodle 1.8.2+ (2007021520)
+
+
+$string['absentlong'] = 'Absennol';
+$string['absentshort'] = 'A';
+$string['addingmultiple'] = 'Wrthi\'n ychwanegu Rhestri Presenoldeb Lluosog';
+$string['addmultiple'] = 'Ychwanegu Rhestri Presenoldeb Lluosog';
+$string['allmodulename'] = 'Pob Rhestr Presenoldeb';
+$string['auto'] = 'awto';
+$string['autoattend'] = 'Cofnodi presenoldeb yn awtomatig yn seiliedig ar gofnodion gweithgarwch defnyddwyr';
+$string['autoattendmulti'] = 'Cofnodi presenodeb yn awtomatig ar gyfer pob rhestr yn seiliedig ar gofnodion gweithgarwch defnyddwyr';
+$string['autoattendshort'] = 'Yn awtomatig o\'r cofnodion';
+$string['choosedays'] = 'Dewis dyddiau ym mhob wythnos i gofnodi presenoldeb';
+$string['dayofroll'] = 'Dyddiad ar gyfer cofrestru';
+$string['defaultautoattend'] = 'A ddylid cofnodi presenoldeb yn seiliedig ar gofnodion gweithgarwch defnyddwyr yn ddiofyn?';
+$string['defaultdynamicsection'] = 'A ddylid symud rhestri presenoldeb i\'r wythnos gywir yn ddiofyn?';
+$string['defaultgrade'] = 'A ddylid gwneud rhestri presenoldeb yn raddadwy\'n ddiofyn?';
+$string['defaulthoursinclass'] = 'Sawl awr ddylai fod mewn rhestr presenoldeb ddiofyn?';
+$string['defaultmaxgrade'] = 'Beth ddylai\'r gradd uchaf ddiofyn fod ar gyfer presenoldeb llawn?';
+$string['defaultstudentstatus'] = 'Statws diofyn presenoldeb myfyrwyr ar restri presenoldeb newydd';
+$string['downloadexcelfull'] = 'Llwytho Taenlen Excel Gyfan i Lawr';
+$string['downloadexceltotals'] = 'Llwytho Crynodeb Taenlen Excel i Lawr';
+$string['downloadtextfull'] = 'Llwytho Adroddiad Testun Llawn i Lawr';
+$string['downloadtexttotals'] = 'Llwytho Crynodeb Adroddiad Testun i Lawr';
+$string['dynamicsection'] = 'Pennu wythnos ar gyfer presenoldeb yn seiliedig ar y dyddiad hwn';
+$string['dynamicsectionmulti'] = 'Gosod rhestri yn eu hadran wythnosol yn awtomatig';
+$string['dynsectionshort'] = 'Wedi symud yn ddynamig i adran';
+$string['endbeforestart'] = 'Mae\'r dyddiad gorffen cyn y dyddiad dechrau';
+$string['endmulti'] = 'Dyddiad y gofrestr ddiwethaf';
+$string['for'] = 'ar gyfer';
+$string['friday'] = 'Gwener';
+$string['gradeshort'] = 'Wedi graddio';
+$string['gradevalue'] = 'Gwneud y rhestr hon yn raddadwy';
+$string['gradevaluemulti'] = 'Gwneud y rhestri hyn yn raddadwy';
+$string['hoursinclass'] = 'Nifer yr oriau mewn cyfnod dosbarth';
+$string['hoursineachclass'] = 'Nifer yr Oriau ym mhob cyfnod dosbarth';
+$string['hoursinfullreport'] = 'Nifer fwyaf yr oriau presenoldeb y dylid eu dangos ar un dudalen o adroddiad';
+$string['maxgradeshort'] = 'Gradd uchaf';
+$string['maxgradevalue'] = 'Gwerth gradd uchaf ar gyfer presenoldeb llawn';
+$string['modulename'] = 'Presenoldeb';
+$string['modulenameplural'] = 'Rhestri Presenoldeb';
+$string['monday'] = 'Llun';
+$string['norolls'] = 'Does dim rhestri presenoldeb yn y cwrs hwn';
+$string['notes'] = 'Gwybodaeth eithriadol';
+$string['notesfor'] = 'Gwybodaeth eithriadol ar gyfer';
+$string['noviews'] = 'Yn anffodus, does dim data am eich cyfrif yma';
+$string['of'] = 'o';
+$string['pages'] = 'Tudalennau';
+$string['presentlong'] = 'Presennol';
+$string['presentshort'] = 'P';
+$string['saturday'] = 'Sadwrn';
+$string['startafterend'] = 'Mae\'r dyddiad dechrau ar ôl diwedd y cwrs';
+$string['startmulti'] = 'Dyddiad y rhestr presenoldeb gyntaf';
+$string['sunday'] = 'Sul';
+$string['takeroll'] = 'Marcio\'r rhestr ar y diwrnod hwn?';
+$string['tardiesperabsence'] = 'Sawl gwaith y mae\'r myfyriwr yn hwyr a fydd yn cyfrif fel un absenoldeb?';
+$string['tardylong'] = 'Hwyr';
+$string['tardyshort'] = 'H';
+$string['teacheredit'] = 'Cyfrif Presenoldeb';
+$string['thursday'] = 'Iau';
+$string['tuesday'] = 'Mawrth';
+$string['viewall'] = 'Gweld Pob Rhestr Presenoldeb';
+$string['viewmulti'] = 'Gweld yr Adroddiad fel Tudalennau Lluosog';
+$string['viewone'] = 'Gweld Pob Tudalen yn yr Adroddiad';
+$string['viewsection'] = 'Gweld Pob Rhestr Presenoldeb o\'r Adran hon';
+$string['viewtable'] = 'Gweld yr Adroddiad fel Un Tabl';
+$string['viewweek'] = 'Gweld Pob Rhestr Presenoldeb am yr Wythnos Galendr';
+$string['wednesday'] = 'Mercher';
+$string['weekmodulename'] = 'Pob Rhestr Presenoldeb yn yr Wythnos Ddiwethaf';
+
+?>

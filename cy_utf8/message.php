@@ -1,0 +1,71 @@
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.8.2+ (2007021520)
+
+
+$string['addcontact'] = 'Ychwanegu cyswllt';
+$string['addsomecontacts'] = 'Defnyddiwch y <a href=\"$a\">tab chwilio</a> uchod i anfon neges at rywun neu i ychwanegu llwybr byr  iddynt ar y dudalen hon.';
+$string['addsomecontactsincoming'] = 'Mae\'r negeseuon hyn gan bobl nad ydynt yn eich rhestr cysylltiadau. I\'w hychwanegu at eich rhestr, cliciwch ar yr eicon \"Ychwanegu cyswllt\" nesaf at eu henw.';
+$string['ago'] = '$a yn ôl';
+$string['allmine'] = 'Pob neges i fi neu a anfonwyd gennyf';
+$string['allstudents'] = 'Pob neges rhwng myfyrwyr ar y cwrs';
+$string['allusers'] = 'Pob neges gan bob defnyddiwr';
+$string['backupmessageshelp'] = 'Os ydych chi\'n dewis hynny, gallwch gynnwys negeseuon gwib wrth wneud copïau wrth gefn SITE';
+$string['beepnewmessage'] = 'Bîpio pan ddaw neges newydd i mewn(efallai y bydd arnoch angen ategyn sy\'n gallu chwarae cerddoriaeth ar eich porwr, megis Quicktime)';
+$string['blockcontact'] = 'Rhwystro cyswllt';
+$string['blockedmessages'] = '$a neges i/o ddefnyddwyr sydd wedi\'u rhwystro';
+$string['blocknoncontacts'] = 'Rhwystro pob neges newydd gan bobl nad ydynt ar fy rhestr cysylltiadau';
+$string['contactlistempty'] = 'Mae eich rhestr cysylltiadau\'n wag ar hyn o bryd';
+$string['contacts'] = 'Cysylltiadau';
+$string['context'] = 'cyd-destun';
+$string['deletemessagesdays'] = 'Nifer y dyddiau cyn bod yr hen negeseuon yn cael eu dileu\'n awtomatig';
+$string['discussion'] = 'Trafodaeth';
+$string['emailmessages'] = 'E-bostiwch negeseuon pan na fyddaf ar-lein';
+$string['emailtagline'] = 'Mae\'r e-bost hwn yn gopi o\'r neges a anfonwyd atoch chi am \"$a\"';
+$string['emptysearchstring'] = 'Rhaid i chi chwilio am rywbeth';
+$string['formorethan'] = 'Ar gyfer mwy na';
+$string['includeblockedusers'] = 'Cynnwys defnyddwyr sydd wedi\'u rhwystro';
+$string['incomingcontacts'] = 'Cysylltiadau i Mewn ($a)';
+$string['keywords'] = 'Allweddeiriau';
+$string['keywordssearchresults'] = 'Canlyniadau\'r chwilio: wedi dod o hyd i $a neges';
+$string['maxmessages'] = 'Nifer fwyaf o negeseuon i\'w dangos yn hanes y drafodaeth';
+$string['message'] = 'Neges';
+$string['messagehistory'] = 'Hanes y Neges';
+$string['messages'] = 'Negeseuon';
+$string['messaging'] = 'Anfon negeseuon';
+$string['mycontacts'] = 'Cysylltiadau Personol';
+$string['newonlymsg'] = 'Dim ond dangos y rhai newydd';
+$string['newsearch'] = 'Chwiliad newydd';
+$string['noframesjs'] = 'Fersiwn heb fframiau a Script Jafa';
+$string['nomessages'] = 'Nid oes negeseuon i\'w darllen';
+$string['nomessagesfound'] = 'Heb ddod o hyd i\'r un neges';
+$string['nosearchresults'] = 'Heb ddod o hyd i ddim byd ar ôl chwilio';
+$string['offline'] = 'All-lein';
+$string['offlinecontacts'] = 'Cysylltiadau All-lein ($a)';
+$string['online'] = 'Ar-lein';
+$string['onlinecontacts'] = 'Cysylltiadau Ar-lein($a)';
+$string['onlyfromme'] = 'Dim ond negeseuon gen i';
+$string['onlymycourses'] = 'Dim ond yn fy nghyrsiau';
+$string['onlytome'] = 'Dim ond negeseuon i mi';
+$string['pagerefreshes'] = 'Mae\'r dudalen hon yn adnewyddu bob $a eiliad';
+$string['readmessages'] = 'Darllen negeseuon $a';
+$string['removecontact'] = 'Dileu cyswllt';
+$string['savemysettings'] = 'Cadw fy ngosodiadau';
+$string['search'] = 'Chwilio';
+$string['searchforperson'] = 'Chwilio am berson';
+$string['searchmessages'] = 'Chwilio\'r negeseuon';
+$string['sendmessage'] = 'Anfon neges';
+$string['sendmessageto'] = 'Anfon neges i $a';
+$string['sendmessagetopopup'] = 'Anfon neges i $a - ffenestr newydd';
+$string['settings'] = 'Gosodiadau';
+$string['settingssaved'] = 'Wedi cadw eich gosodiadau';
+$string['showmessagewindow'] = 'Agor Ffenestr Neges yn awtomatig pan fyddaf yn cael negeseuon newydd (rhaid i chi osod eich porwr fel nad yw\'n rhwystro ffenestri powld ar y safle hwn)';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'Sawl munud ers i mi gael fy ngweld ar-lein ddiwethaf?';
+$string['timesent'] = 'Amser Anfon';
+$string['unblockcontact'] = 'Peidio â rhwystro\'r cyswllt';
+$string['unreadmessages'] = '$a neges heb eu darllen';
+$string['userisblockingyou'] = 'Mae\'r defnyddiwr hwn wedi eich rhwystro chi rhag anfon negeseuon atynt';
+$string['userisblockingyounoncontact'] = 'Dim ond negeseuon gan bobl ar ei restr cysylltiadau y mae\'r defnyddiwr hwn yn eu derbyn, ac nid ydych chi ar y rhestr honno ar hyn o bryd.';
+$string['userssearchresults'] = 'Canlyniadau\'r chwilio: wedi dod o hyd i $a defnyddiwr';
+
+?>
