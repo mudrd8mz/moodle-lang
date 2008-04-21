@@ -12,6 +12,6 @@ $string['configsearchtext'] = 'Rechercher dans le texte';
 $string['go'] = 'Lancer la recherche';
 $string['bytes'] = ' octets (0 pour «&nbsp;pas de limite&nbsp;»)';
 $string['searchmoodle'] = 'Rechercher dans le site';
-string['usemoodleroot'] = 'Utiliser la racine de Moodle pour les convertisseurs externes';
+$string['usemoodleroot'] = 'Utiliser la racine de Moodle pour les convertisseurs externes';
 
 ?>
