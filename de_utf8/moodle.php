@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // moodle.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -179,7 +179,6 @@ $string['blockseditoff'] = 'Blockbearbeitung ausschalten';
 $string['blocksediton'] = 'Blockbearbeitung einschalten';
 $string['blocksetup'] = 'Richte Blocktabellen ein';
 $string['blocksuccess'] = '$a Tabellen wurden richtig angelegt';
-$string['brief'] = 'Auftrag';
 $string['bycourseorder'] = 'Sortiert nach Kursen';
 $string['byname'] = 'von $a';
 $string['bypassed'] = 'Unberücksichtigt';
@@ -530,17 +529,14 @@ Viel Erfolg!
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: Kennwort-Änderung bestätigen';
 $string['emailpasswordconfirmmaybesent'] = '<p>Wenn Sie Ihren Anmeldenamen oder Ihre E-Mail-Adresse korrekt angegeben haben, wird eine automatische Benachrichtigung per E-Mail an Sie gesendet.</p>
-<p>Die Benachrichtigung enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>
-<p>$a->admin</p>';
-$string['emailpasswordconfirmsent'] = '<p>Eine E-Mail zur Bestätigung der Kennwortänderung sollte an Ihre Adresse <b>$a</b> gesendet worden sein. <br />Sie enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>
-<p>$a->admin</p>';
+<p>Die Benachrichtigung enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>';
+$string['emailpasswordconfirmsent'] = '<p>Eine E-Mail zur Bestätigung der Kennwortänderung sollte an Ihre Adresse <b>$a</b> gesendet worden sein. <br />Sie enthält eine Anleitung, wie Sie Ihre Kennwortänderung bestätigen und abschließen.</p>';
 $string['emailpasswordsent'] = 'Danke für Ihre Bestätigung der Kennwortänderung.
 Eine E-Mail mit Ihrem neuen Kennwort wurde an Ihre Adresse <b>$a->email</b> gesendet.
 Das Kennwort wurde automatisch generiert. Sie können dieses <a href=\"$a->link\">Kennwort ändern</a>, um es sich besser merken können.';
 $string['enable'] = 'Aktivieren';
 $string['encryptedcode'] = 'Verschlüsselter Code';
 $string['enroldate'] = 'Zeitraum';
-$string['enroldetails'] = 'Einschreibedetails';
 $string['enrolenddate'] = 'Ende';
 $string['enrolenddaterror'] = 'Bei der Einschreibung kann der Endzeitpunkt nicht früher als der Anfangszeitpunkt liegen.';
 $string['enrollable'] = 'Einschreibung möglich';
@@ -661,9 +657,7 @@ $string['frontpagenews'] = 'Nachrichten anzeigen';
 $string['frontpagetopiconly'] = 'HTML-Eingabebereich';
 $string['fulllistofcourses'] = 'Alle Kurse';
 $string['fullname'] = 'Vollständiger Name';
-$string['fullnamecourse'] = 'Kursname (vollständig)';
 $string['fullnamedisplay'] = '$a->firstname $a->lastname';
-$string['fullnameuser'] = 'Nutzername (vollständig)';
 $string['fullprofile'] = 'Ganzes Profil';
 $string['fullsitename'] = 'Name der gesamten Website';
 $string['functiondisabled'] = 'Diese Funktion ist zur Zeit deaktiviert.';
@@ -1314,9 +1308,7 @@ $string['setcategorytheme'] = 'Kategoriendesign festlegen';
 $string['settings'] = 'Einstellungen';
 $string['shortname'] = 'Kurzbezeichnung';
 $string['shortnamecollisionwarning'] = '[*] = Diese Kurzbezeichnung wird bereits von einem anderen Kurs genutzt. Bitte ändern Sie den Eintrag.';
-$string['shortnamecourse'] = 'Kursname (kurz)';
 $string['shortnametaken'] = 'Die Kurzbezeichnung wird bereits für einen anderen Kurs ($a) verwendet.';
-$string['shortnameuser'] = 'Nutzername (kurz)';
 $string['shortsitename'] = 'Kurzbezeichnung für die Website';
 $string['show'] = 'Anzeigen';
 $string['showactions'] = 'Aktivitäten anzeigen';
@@ -1544,7 +1536,6 @@ $string['userconfirmed'] = '$a bestätigt';
 $string['userdata'] = 'Nutzerdaten';
 $string['userdeleted'] = 'Dieser Nutzerzugang wurde gelöscht';
 $string['userdescription'] = 'Beschreibung';
-$string['userdetails'] = 'Nutzerdetails';
 $string['userfiles'] = 'Nutzerdateien';
 $string['userlist'] = 'Nutzerliste';
 $string['username'] = 'Anmeldename';
@@ -1607,6 +1598,7 @@ $string['wordforteacher'] = 'Bezeichnung für Trainer/in';
 $string['wordforteachereg'] = 'z.B. Lehrer/in, Berater/in, Moderator/in usw.';
 $string['wordforteachers'] = 'Bezeichnung für Trainer/innen';
 $string['wordforteacherseg'] = 'z.B. Lehrer/innen, Berater/innen, Moderator/innen usw.';
+$string['writingblogsinfo'] = 'Blog-Informationen schreiben';
 $string['writingcategoriesandquestions'] = 'Kategorien und Fragen schreiben';
 $string['writingcoursedata'] = 'Kursdaten schreiben';
 $string['writingeventsinfo'] = 'Termininformationen schreiben';
@@ -1634,6 +1626,13 @@ $string['yourlastlogin'] = 'Ihr letztes Login war';
 $string['yourself'] = 'sich selbst';
 $string['yourteacher'] = '$a';
 $string['zippingbackup'] = 'Sicherung komprimieren';
+$string['brief'] = 'Auftrag'; // ORPHANED
+$string['enroldetails'] = 'Einschreibedetails'; // ORPHANED
+$string['fullnamecourse'] = 'Kursname (vollständig)'; // ORPHANED
+$string['fullnameuser'] = 'Nutzername (vollständig)'; // ORPHANED
+$string['shortnamecourse'] = 'Kursname (kurz)'; // ORPHANED
+$string['shortnameuser'] = 'Nutzername (kurz)'; // ORPHANED
+$string['userdetails'] = 'Nutzerdetails'; // ORPHANED
 $string['skiptomaincontent'] = 'Vorwärtsspringen zum Hauptthema'; // ORPHANED
 $string['enteryourinterests'] = 'Geben Sie hier Ihre Interessen ein, und zwar jeweils getrennt durch ein Komma'; // ORPHANED
 
