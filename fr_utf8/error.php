@@ -1,6 +1,7 @@
 <?php // $Id$ 
 
 $string['adminprimarynoedit'] = 'Le compte de l\'administrateur principal ne peut pas être modifié par les autres administrateurs';
+$string['backupcontainexternal'] = 'Ce fichier de sauvegarde comporte des hôtes externes Réseau Moodle qui ne sont pas configurés localement.';
 $string['blockdoesnotexist'] = 'Ce bloc n\'existe pas';
 $string['blockcannotinistantiate'] = 'Problème lors de l\'instantiation de l\'objet bloc';
 $string['blockcannotconfig'] = 'Ce bloc ne permet pas de configuration globale';
@@ -35,6 +36,7 @@ $string['cannotsetupcategory'] = 'Erreur grave&nbsp;! Impossible de créer une c
 $string['cannotsetupsite'] = 'Erreur grave&nbsp;! Impossible de mettre en place le site&nbsp;!';
 $string['cannotunzipfile'] = 'Décompression du fichier ZIP impossible.';
 $string['cannotupdaterole'] = 'Impossible de modifier le rôle&nbsp;!';
+$string['cannotusepage'] = 'Seuls les enseignants et les administrateurs peuvent utiliser cette page.';
 $string['cannotviewprofile'] = 'Affichage du profil de cet utilisateur impossible.';
 $string['cantunenrollfrommetacourse'] = 'Vous ne pouvez pas vous désinscrire de ce méta-cours.';
 $string['cantunenrollinthisrole'] = 'Vous ne pouvez pas vous désinscrire de ce cours dans le rôle que vous avez actuellement.';
