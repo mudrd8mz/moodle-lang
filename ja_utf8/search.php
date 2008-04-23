@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 2.0 dev (2007110800)
+      // search.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
 
 
 $string['advancedsearch'] = '検索オプション';
@@ -7,7 +7,7 @@ $string['all'] = 'すべて';
 $string['author'] = '著者';
 $string['authorname'] = '著者名';
 $string['back'] = '戻る';
-$string['beadmin'] = 'このページを使用するには管理者である必要があります。';
+$string['beadmin'] = 'このページを使用するには、管理者である必要があります。';
 $string['checkdb'] = 'データベースのチェック';
 $string['checkdbadvice'] = '問題がある場合、あなたのデータベースをチェックしてください。';
 $string['checkdir'] = 'ディレクトリのチェック';
