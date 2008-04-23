@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // moodle.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -380,6 +380,7 @@ $string['deletedcourse'] = '$a è stato completamente cancellato';
 $string['deletednot'] = 'Non è stato possibile cancellare $a !';
 $string['deletelogs'] = 'Cancella i logs';
 $string['deleteselected'] = 'Cancella i selezionati';
+$string['deleteselectedkey'] = 'Cancella chiave selezionata';
 $string['deletingcourse'] = 'Cancellazione $a';
 $string['deletingexistingcoursedata'] = 'Cancellazione dei dati del corso esistenti';
 $string['deletingolddata'] = 'Cancellazione vecchi dati';
@@ -863,7 +864,7 @@ $string['managemetadisabled'] = 'Disabilitato in quanto questo corso fa già par
 $string['managemetaexplan'] = '(Questo significa che le iscrizioni sono ereditate da altri corsi)';
 $string['managemodules'] = 'Moduli';
 $string['manageroles'] = 'Ruoli e privilegi';
-$string['markedthistopic'] = 'Questo argomento é evidenziato come l\'argomento attuale';
+$string['markedthistopic'] = 'Questo argomento é evidenziato come argomento attuale';
 $string['markthistopic'] = 'Contrassegna questo argomento come argomento corrente';
 $string['maximumchars'] = 'Massimo $a caratteri';
 $string['maximumgrade'] = 'Valutazione massima';
@@ -1126,7 +1127,7 @@ $string['pictureof'] = 'Immagine $a';
 $string['pleaseclose'] = 'Si prega ora di chiudere questa finestra.';
 $string['plugincheck'] = 'Controllo delle plugin';
 $string['pluginchecknotice'] = 'Le tabelle che seguono mostrano i moduli, i blocchi ed i filtri individuati nella vostra installazione di Moodle.
-Nelle tabelle sono indicati anche quali plugin sono standard e quali non lo sono. Prima di proseguire con l\'aggiornamento di Moodle, tutte le plugin che non sono standard dovrebbero essere controllate ed aggiornate alla più recente versione disponibile.';
+Nelle tabelle sono indicati anche quali plugin sono standard e quali non lo sono. Prima di proseguire con l\'aggiornamento di Moodle, tutti i plugin che non sono standard dovrebbero essere controllati ed aggiornati alla più recente versione disponibile.';
 $string['pluginsetup'] = 'Impostazione tabelle plugin';
 $string['policyaccept'] = 'Ho capito e sono d\'accordo';
 $string['policyagree'] = 'Per continuare ad usare questo sito, è necessario accettare le condizioni riportate.';
