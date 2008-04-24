@@ -19,6 +19,7 @@ $string['courseblog'] = 'Blog de cours&nbsp;: $a';
 $string['courseblogdisable'] = 'Les blogs de cours ne sont pas activés';
 $string['courseblogs'] = 'Les utilisateurs ne peuvent voir que les articles des blogs d\'utilisateurs inscrits aux mêmes cours qu\'eux';
 $string['deleteotagswarn'] = 'Voulez-vous vraiment retirer les tags sélectionnés de tous les articles de blog et les supprimer du système&nbsp;?';
+$string['deleteposterror'] = 'Une erreur est survenu lors de la suppression de l\'article';
 $string['disableblogs'] = 'Désactiver complètement les blogs';
 $strign['donothaveblog'] = 'Désolé, vous n\'avez pas votre propre blog.';
 $string['emptybody'] = 'Le texte d\'un article de blog ne peut pas être vide';
@@ -63,5 +64,6 @@ $string['viewcourseentries'] = 'Afficher les articles du cours';
 $string['viewmyentries'] = 'Afficher mes articles';
 $string['viewsiteentries'] = 'Afficher les articles du site';
 $string['worldblogs'] = 'Le grand public peut lire les articles de blog marqués comme accessibles à tout le monde';
+$string['wrongpostid'] = 'Identifiant de l\'article de blog incorrect';
 
 ?>
