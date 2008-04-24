@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
@@ -9,12 +9,19 @@ $string['blocktagstitle'] = 'ブログタグ';
 $string['blocktitle'] = 'ブログタグのブロックタイトル';
 $string['blog'] = 'ブログ';
 $string['blogdeleteconfirm'] = 'このブログを削除してもよろしいですか?';
+$string['blogdisable'] = 'ブログは無効にされています!';
 $string['blogpreferences'] = 'ブログ設定';
 $string['blogs'] = 'ブログ';
 $string['blogtags'] = 'ブログタグ';
+$string['cannotviewcourseblog'] = 'あなたには、このコースのブログを閲覧するパーミッションがありません。';
+$string['cannotviewcourseorgroupblog'] = 'あなたには、このコース/グループのブログを閲覧するパーミッションがありません。';
+$string['cannotviewsiteblog'] = 'あなたには、すべてのサイトブログを閲覧するパーミッションがありません。';
+$string['cannotviewuserblog'] = 'あなたには、ユーザブログを閲覧するパーミッションがありません。';
 $string['courseblog'] = 'コースブログ: $a';
+$string['courseblogdisable'] = 'コースブログは有効にされていません。';
 $string['courseblogs'] = 'ユーザはコースを共有しているユーザのブログのみ読むことができる';
 $string['deleteotagswarn'] = '本当にこれらのタグをすべての投稿ブログおよびシステムから削除してもよろしいですか';
+$string['deleteposterror'] = '投稿の削除中にエラーが発生しました。';
 $string['disableblogs'] = 'ブログシステムを完全に無効にする';
 $string['emptybody'] = 'ブログエントリ本文を入力してください。';
 $string['emptytitle'] = 'ブログエントリタイトルを入力してください。';
@@ -25,7 +32,9 @@ $string['entrysaved'] = 'あなたのエントリが保存されました。';
 $string['entrytitle'] = 'エントリタイトル';
 $string['entryupdated'] = 'ブログエントリが更新されました。';
 $string['groupblog'] = 'グループブログ: $a';
+$string['groupblogdisable'] = 'グループブログは有効にされていません。';
 $string['groupblogs'] = 'ユーザはグループを共有しているユーザのブログのみ読むことができる';
+$string['incorrectblogfilter'] = '間違ったブログフィルタタイプが指定されました。';
 $string['intro'] = 'このRSSフィードは、1つまたはそれ以上のブログから自動生成されました。';
 $string['noentriesyet'] = '表示できるエントリはありません。';
 $string['noguestpost'] = 'ゲストはブログを投稿できません!';
@@ -42,6 +51,7 @@ $string['publishtosite'] = 'このサイトの誰でも閲覧可';
 $string['publishtoworld'] = '世界中の誰でも閲覧可';
 $string['settingsupdatederror'] = 'エラーが発生したため、ブログ設定は更新されませんでした。';
 $string['siteblog'] = 'サイトブログ: $a';
+$string['siteblogdisable'] = 'サイトブログは有効にされていません。';
 $string['siteblogs'] = 'すべてのサイトユーザはすべてのブログを読むことができる';
 $string['tagdatelastused'] = '日付タグは使用されています。';
 $string['tags'] = 'タグ';
@@ -54,6 +64,7 @@ $string['viewcourseentries'] = 'コースエントリの表示';
 $string['viewmyentries'] = 'マイエントリの表示';
 $string['viewsiteentries'] = 'サイトエントリの表示';
 $string['worldblogs'] = '世界中の誰でもエントリを読むことができる';
+$string['wrongpostid'] = 'ブログ投稿IDが正しくありません。';
 $string['addotags'] = 'オフィシャルタグの追加'; // TBD
 $string['addptags'] = 'ユーザ定義タグの追加'; // TBD
 $string['otags'] = 'オフィシャルタグ'; // TBD
