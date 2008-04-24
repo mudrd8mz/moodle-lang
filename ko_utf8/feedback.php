@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.9 dev (2007072402)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
 
 
 $string['add_item'] = '활동에 질문 추가';
@@ -7,19 +7,12 @@ $string['add_items'] = '활동에 질문 추가';
 $string['add_pagebreak'] = '페이지 나눔 추가';
 $string['adjustment'] = '정돈';
 $string['after_submit'] = '제출 후';
-$string['all_old_values_will_be_deleted'] = '현재 질문과 사용자의 응답이 삭제될 것입니다.';
-$string['all_old_values_will_be_preserved'] = '모든 기존 문황과 설정값은 그대로 유지될 것입니다.';
-$string['all_related_values_will_be_deleted'] = '이 질문에 대한 모든 사용자의 응답이 삭제될 것입니다.';
 $string['analysis'] = '분석';
 $string['anonymous'] = '익명';
 $string['anonymous_edit'] = '사용자 이름 기록';
 $string['anonymous_entries'] = '익명 입장';
 $string['anonymous_user'] = '익명 사용자';
 $string['append_new_items'] = '새 항목 덧붙임';
-$string['are_you_sure_to_delete_this_entry'] = '이 항목을 삭제하는 것이 확실합니까?';
-$string['are_you_sure_to_delete_this_item'] = '이 요소를 삭제하는 것이 확실합니까?';
-$string['are_you_sure_to_delete_this_template'] = '이 템플릿을 삭제하는 것이 확실합니까?';
-$string['are_you_sure_to_use_this_template'] = '이 항목을 사용하고자 하는 것이 확실합니까?';
 $string['average'] = '평균';
 $string['bold'] = '굵게';
 $string['cancel_moving'] = '이동 취소';
@@ -32,6 +25,10 @@ $string['chosen_feedback_response'] = '선택된 응답의 피드백';
 $string['complete_the_form'] = '질문에 답하세요';
 $string['completed'] = '완료';
 $string['completed_feedbacks'] = '제출된 답';
+$string['confirmdeleteentry'] = '이 기록을 삭제하는 것이 맞습니까?';
+$string['confirmdeleteitem'] = '이 요소를 삭제하는 것이 맞습니까?';
+$string['confirmdeletetemplate'] = '이 템플릿을 삭제하는 것이 맞습니까?';
+$string['confirmusetemplate'] = '이 템플릿을 사용하는 것이 맞습니까?';
 $string['continue_the_form'] = '양식 계속';
 $string['count_of_nums'] = '계수';
 $string['courseid'] = '강좌id';
@@ -58,7 +55,7 @@ $string['export_to_excel'] = '엑셀로 내보내기';
 $string['feedback:complete'] = '피드백 완성';
 $string['feedback:createprivatetemplate'] = '개인 템플릿 생성';
 $string['feedback:createpublictemplate'] = '공용 템플릿 생성';
-$string['feedback:deletecompleteds'] = '완성본 삭제';
+$string['feedback:deletesubmissions'] = '완료된 접수물 삭제';
 $string['feedback:deletetemplate'] = '템플릿 삭제';
 $string['feedback:edititems'] = '항목 편집';
 $string['feedback:mapcourse'] = '전체 피드백을 위한 강좌 위치';
@@ -102,6 +99,7 @@ $string['name'] = '이름';
 $string['name_required'] = '이름이 필요합니다.';
 $string['next_page'] = '다음 화면';
 $string['no_handler'] = '다음에 대해 아무 동작 핸들러가 없습니다.';
+$string['no_itemname'] = '아이템의 이름 없음';
 $string['no_items_available_yet'] = '아직 어떤 질문도 설정되지 않았습니다.';
 $string['no_templates_available_yet'] = '아무 아무런 템플릿도 없습니다.';
 $string['non_anonymous'] = '사용자 이름이 기록될 것이며 답과 함께 보여질 것입니다.';
@@ -112,6 +110,8 @@ $string['numeric'] = '숫자 답';
 $string['numeric_range_from'] = '에서';
 $string['numeric_range_to'] = '까지';
 $string['of'] = '의';
+$string['oldvaluespreserved'] = '모든 옛 질문과 지정된 값들은 보존될 것임';
+$string['oldvalueswillbedeleted'] = '현재의 질문 및 사용자의 반응을 삭제될 것임';
 $string['overview'] = '요약';
 $string['page'] = '페이지';
 $string['page_after_submit'] = '제출 후 페이지';
@@ -133,6 +133,7 @@ $string['radiobutton'] = '선다형-단답 허용(라디오버튼)';
 $string['radiobutton_rated'] = '라디오버튼(순위있는)';
 $string['radiorated'] = '라디오버튼(순위있는)';
 $string['ready_feedbacks'] = '피드백 준비완료';
+$string['relateditemsdeleted'] = '이 질문에 대한 사용자의 반응들은 함께 삭제될 것임';
 $string['required'] = '필수';
 $string['resetting_data'] = '응답 초기화';
 $string['resetting_feedbacks'] = '초기화하기';
@@ -171,6 +172,14 @@ $string['use_one_line_for_each_value'] = '<br> 각 답에 한 줄을 사용하�
 $string['use_this_template'] = '이 템플릿 사용';
 $string['using_templates'] = '템플릿 사용';
 $string['vertical'] = '수직으로';
+$string['all_old_values_will_be_deleted'] = '현재 질문과 사용자의 응답이 삭제될 것입니다.'; // ORPHANED
+$string['all_old_values_will_be_preserved'] = '모든 기존 문황과 설정값은 그대로 유지될 것입니다.'; // ORPHANED
+$string['all_related_values_will_be_deleted'] = '이 질문에 대한 모든 사용자의 응답이 삭제될 것입니다.'; // ORPHANED
+$string['are_you_sure_to_delete_this_entry'] = '이 항목을 삭제하는 것이 확실합니까?'; // ORPHANED
+$string['are_you_sure_to_delete_this_item'] = '이 요소를 삭제하는 것이 확실합니까?'; // ORPHANED
+$string['are_you_sure_to_delete_this_template'] = '이 템플릿을 삭제하는 것이 확실합니까?'; // ORPHANED
+$string['are_you_sure_to_use_this_template'] = '이 항목을 사용하고자 하는 것이 확실합니까?'; // ORPHANED
+$string['feedback:deletecompleteds'] = '완성본 삭제'; // ORPHANED
 $string['saving_failed_because_missing_items'] = '<strong>모든</strong> 요구한 답 (빨간별표가 있는 질문)을 작성하시오.'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080420) (2008030700)
+      // data.php - created with Moodle 2.0 dev (Build: 20080421) (2008030700)
 
 
 $string['action'] = '행동';
@@ -179,7 +179,8 @@ $string['numrecords'] = '$a 게시물';
 $string['optionaldescription'] = '간단한 설명(선택)';
 $string['optionalfilename'] = '파일이름 (선택)';
 $string['other'] = '기타';
-$string['overwrite'] = '겹쳐 씀';
+$string['overwrite'] = '덮어 씀';
+$string['overwritesettings'] = '현재 설정에 덮어 씀';
 $string['pagesize'] = '한 화면당 게시물 수';
 $string['participants'] = '참가자';
 $string['picture'] = '그림';

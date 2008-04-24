@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -270,6 +270,8 @@ $string['cronerrorpassword'] = '죄송합니다. 이 화면에 접속하려면 �
 $string['cronremotepassword'] = '크론 비밀번호';
 $string['cronwarning'] = '<a href=\"cron.php\">cron.php 관리 스크립트</a>가 최소 24시간 동안 작동 되지 않았습니다.';
 $string['csvdelimiter'] = 'CSV 구분자';
+$string['ctyperecommended'] = '사이트가 비 라틴계열의 언어를 사용한다면 사이트의 성능 향상을 위해 추가적인 ctype PHP 확장자 설치를 강력히 권고합니다.';
+$string['ctyperequired'] = '다국어 호환 기능 및 사이트의 성능 향상을 위해 이제부터 무들은 ctype의 PHP 확장자를 요구합니다.';
 $string['curlrecommended'] = '무들 네트웍 기능을 활성화하기 위해서는 추가적인 Curl 라이브러리를 설치할 것을 강력히 권고한다.';
 $string['customcheck'] = '다른 점검들';
 $string['datarootsecuritywarning'] = '사이트가 안전해 보이지 않습니다. 데이터경로 ($a)를 직접 웹으로 접속할 수 없도록 조치하기 바랍니다.';
