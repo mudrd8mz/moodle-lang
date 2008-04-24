@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080402) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080420) (2008030700)
 
 
 $string['addrole'] = 'නව භූමිකාවක් එක් කරන්න';
 $string['allow'] = 'ඉඩ දෙන්න';
 $string['allowassign'] = 'භූමිකා පැවරීමට ඉඩ දෙන්න';
 $string['allowoverride'] = 'භූමිකා පරයා යෑම් සදහා ඉඩ දෙන්න';
+$string['allsiteusers'] = 'සියළු අඩවි පරිශීලකයින්';
 $string['assignglobalroles'] = 'ගෝලීය භූමිකා පැවරීම්';
 $string['assignroles'] = 'භූමිකා පැවරීම්';
 $string['assignrolesin'] = '$a හි භූමිකා පැවරීම';
