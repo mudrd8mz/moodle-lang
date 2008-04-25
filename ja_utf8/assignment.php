@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101508.08)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -11,12 +11,12 @@ $string['assignment:grade'] = '課題を評定する';
 $string['assignment:submit'] = '課題を提出する';
 $string['assignment:view'] = '課題を表示する';
 $string['assignmentdetails'] = '課題の詳細';
-$string['assignmentmail'] = '$a->teacher があなたの提出課題「 $a->assignment 」に関するフィードバックを登録しました。
+$string['assignmentmail'] = '$a->teacher があなたの提出課題「 $a->assignment 」に関するフィードバックを作成しました。
 
 フィードバックは、あなたの提出課題に追加されています:
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->teacher があなたの提出課題「 <i>$a->assignment</i> 」 に関するフィードバックを登録しました。<br /><br />フィードバックはあなたの<a href=\"$a->url\">提出課題</a>に追加されています。';
+$string['assignmentmailhtml'] = '$a->teacher があなたの提出課題「 $a->assignment 」 に関するフィードバックを作成しました。<br /><br />フィードバックはあなたの<a href=\"$a->url\">提出課題</a>に追加されています。';
 $string['assignmentname'] = '課題名';
 $string['assignmenttype'] = '課題タイプ';
 $string['availabledate'] = '開始日時';
@@ -41,7 +41,7 @@ $string['emailteachermail'] = '$a->username が「 $a->assignment 」の提出�
 以下にて閲覧可能です:
 
 $a->url';
-$string['emailteachermailhtml'] = '$a->username が「 <i>$a->assignment</i> 」の提出課題を更新しました。<br /><br />
+$string['emailteachermailhtml'] = '$a->username が「 $a->assignment 」の提出課題を更新しました。<br /><br />
 <a href=\"$a->url\">ウェブサイトにて閲覧可能です</a>。';
 $string['emailteachers'] = '教師にメール通知する';
 $string['emptysubmission'] = 'あなたはまだ何も提出していません。';
@@ -56,12 +56,12 @@ $string['finalizeerror'] = 'エラーが発生したため、課題の提出を�
 $string['graded'] = '評定済み';
 $string['guestnosubmit'] = '申し訳ございません、ゲストは課題を提出できません。課題を提出するには、ログインまたはユーザ登録してください。';
 $string['guestnoupload'] = '申し訳ございません、ゲストはアップロードできません。';
-$string['helpoffline'] = '<p>このタイプの課題は、Moodleの外で課題が行われるときに便利です。他のウェブサイト上での課題、対面により課される課題が考えられます。</p>
+$string['helpoffline'] = '<p>このタイプの課題は、Moodleの外で実施される課題に便利です。他のウェブサイト上での課題、対面により課される課題が考えられます。</p>
 <p>学生は課題の説明を読むことはできますが、ファイル等をアップロードすることはできません。評定は通常どおり動作し、評定に関する通知メールが学生宛に送信されます。</p>';
-$string['helponline'] = '<p>このタイプの課題では、各参加者に通常の編集ツールを使用したテキストの編集を求めます。教師はオンラインでこれらを評定でき、インラインコメントの追加・変更を行うこともできます。</p>
+$string['helponline'] = '<p>このタイプの課題では、各参加者に通常の編集ツールを使用したテキスト編集を求めます。教師はオンラインでこれらを評定でき、インラインコメントを追加および変更することもできます。</p>
 <p>( あなたが古いバージョンのMoodleに慣れているのでしたら、このタイプの課題は古い日誌モジュールと同じように動作すると考えてください。)</p>';
 $string['helpupload'] = '<p>このタイプの課題では、各参加者が1つまたは複数のあらゆる種類のファイルをアップロードすることができます。ワードプロセッサ文書、イメージ、ZIP圧縮したウェブサイト、その他あなたが参加者に提出するよう求めたファイルです。</p>
-<p>このタイプの課題では、複数のレスポンスファイルをアップロードすることもできます。レスポンスファイルは課題提出の前にアップロードして、各参加者に異なるファイルを提供することができます。</p>
+<p>このタイプの課題では、複数のレスポンスファイルをアップロードすることもできます。課題提出前にレスポンスファイルをアップロードして、各参加者に異なるファイルを提供することができます。</p>
 <p>参加者は、提出したファイルに関して、進捗状況または他のテキスト情報を説明するメモを記述することができます。</p>
 <p>このタイプの課題は、参加者により手動で提出される必要があります。あなたは、現在の状況をいつでもレビューでき、未完成の課題には「下書き」と表示されます。あなたは、評定が終わっていない課題を「下書き」状態に戻すことができます。</p>';
 $string['helpuploadsingle'] = '<p>このタイプの課題では、各参加者があらゆる種類の単一ファイルをアップロードすることができます。</p> <p>ワードプロセッサ文書、イメージ、ZIP圧縮したウェブサイト、その他あなたが参加者に提出するよう求めたファイルです。</p>';
