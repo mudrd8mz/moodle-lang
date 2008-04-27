@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
+      // error.php - created with Moodle 2.0 dev (Build: 20080427) (2008030700)
 
 
 $string['adminprimarynoedit'] = '主管理者は他のユーザから編集することはできません。';
@@ -13,6 +13,7 @@ $string['cannotassignrole'] = 'コース内でロールを割り当てること�
 $string['cannotcreatebackupdir'] = 'バックアップデータフォルダを作成できませんでした。サイト管理者がファイルパーミッションを変更する必要があります。';
 $string['cannotcreatelangbase'] = 'エラー: ベース言語ディレクトリを作成できませんでした。';
 $string['cannotcreatelangdir'] = 'langディレクトリを作成できません。';
+$string['cannotcreateorfindstructs'] = 'このコースのセクション構造の検出または作成中にエラーが発生しました。';
 $string['cannotcreatesitedir'] = 'サイトフォルダを作成できません。サイト管理者は、ファイルパーミッションを修正する必要があります。';
 $string['cannotcreatetempdir'] = 'tempディレクトリを作成できません。';
 $string['cannotcustomizelocallang'] = 'あなたには翻訳ストリングをカスタマイズするパーミッションがありません。このパーミッションは、ケイパビリティ「moodle/site:langeditlocal」でコントロールされます。あなたのサイトの翻訳ストリングを修正したい場合、このケイパビリティを設定して、ローカル言語パックを編集できるようにしてください。';
@@ -87,6 +88,8 @@ $string['invalidarguments'] = '有効な引数が提供されていません。'
 $string['invalidcourse'] = '無効なコース';
 $string['invalidcourseid'] = 'あなたは無効なコースID ($a) の使用を試みています。';
 $string['invalidcoursemodule'] = '無効なコースモジュールIDです。';
+$string['invalidcoursenameshort'] = '無効なコース省略名です。';
+$string['invalidevent'] = '無効なイベントです。';
 $string['invalidfieldname'] = '「 $a 」 は正しいフィールド名ではありません。';
 $string['invalidfiletype'] = '「 $a 」は有効なファイルタイプではありません。';
 $string['invalidgroupid'] = '不正なグループIDが指定されました。';
@@ -131,6 +134,7 @@ $string['nologinas'] = 'あなたはそのユーザとしてログインを許�
 $string['nonmeaningfulcontent'] = '意味の無いコンテンツです。';
 $string['noparticipatorycms'] = '申し訳ございません、レポートするための参加者がいるコースモジュールはありません。';
 $string['nopermissions'] = '申し訳ございません、あなたには現在「 $a 」のパーミッションがありません。';
+$string['nopermissiontoviewpage'] = 'あなたは、このページを閲覧できません。';
 $string['nosite'] = 'サイトがありません。';
 $string['nositeid'] = 'サイトIDがありません。';
 $string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。';
@@ -153,6 +157,7 @@ $string['sessionerroruser'] = 'セッションがタイムアウトしました�
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検知されました。再度ログインするかブラウザを再起動してください。';
 $string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。通常のユーザは、このメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
 $string['statscatchupmode'] = '統計は現在キャッチアップモードです。今までのところ $a->daysdone 日分が処理され、$a->dayspending 日分が未処理です。すぐに確認してください!';
+$string['statsdisable'] = '統計が有効にされていません。';
 $string['statsnodata'] = 'このコースおよび期間の組み合わせデータはありません。';
 $string['tagnotfound'] = '指定されたタグは、データベースで見つかりませんでした。';
 $string['unicodeupgradeerror'] = '申し訳ございません、あなたのデータベースはユニコードに対応していません。このバージョンのMoodleは、データベースをユニコードに移行できません。最初にMoodle 1.7.x にアップグレードして、管理画面でデータベースをユニコードへ移行してください。ユニコード移行後、Moodle $a へのアップグレードが可能となります。';
@@ -162,6 +167,8 @@ $string['unknowncourseidnumber'] = '不明なコースID「 $a 」です。';
 $string['unknowngroup'] = '不明なグループ「 $a 」です。';
 $string['unknownrole'] = '不明なロール「 $a 」です。';
 $string['unknownuseraction'] = '申し訳ございません、このユーザアクションが理解できません。';
+$string['unspecifycourseid'] = 'コースID、省略名またはIDナンバーを指定してください。';
+$string['unsupportedevent'] = 'サポートされていないイベントタイプです。';
 $string['updatersserror'] = 'ID $a のRSSフィードの更新中にエラーが発生しました。';
 $string['upgradefail'] = 'アップグレードに失敗しました! $a';
 $string['upgradeversionfail'] = 'バックアップシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)';
