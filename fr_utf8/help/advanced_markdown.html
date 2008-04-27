@@ -16,6 +16,12 @@
 
 <li><a href="#image_links">Images liées</a></li>
 
+<li><a href="#tables">Tableaux</a></li>
+
+<li><a href="#definition">Listes de définitions</a></li>
+
+<li><a href="#footnotes">Notes de bas de page</a></li>
+
 <li><a href="#embedded">Incorporer du code HTML</a></li>
 
 <li><a href="#preformatted">Code préformatté</a></li>
@@ -92,6 +98,101 @@ Lui tint à peu près ce langage.</p>
 
 <p>Un exemple d'utilisation futée de cette technique est de lier des petites vignettes vers le téléchagement d'images plus grandes.</p>
 
+<h2><a id="tables">Tableaux</a></h2>
+
+<p>Des tableaux peuvent être créés simplement avec le format Markdown. Par exemple :</p>
+
+<pre>
+Nom     |   Age
+--------|------
+Julie   |   29
+Lionel  |   47
+Martin  |   32
+</pre>
+
+<table>
+
+<thead>
+
+<tr>
+
+  <th>Nom</th>
+
+  <th>Age</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+  <td>Julie</td>
+
+  <td>29</td>
+
+</tr>
+
+<tr>
+
+  <td>Lionel</td>
+
+  <td>47</td>
+
+</tr>
+
+<tr>
+
+  <td>Martin</td>
+
+  <td>32</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<p>Les possibilités habituelles de formatage s'appliquent au contenu des cellules. Vous pouvez aligner les colonnes à gauche ou à droite en ajoutant un | à la gauche ou à la droite de la ligne horizontale (voir indications complémentaires).</p>
+
+<h2><a id="definition">Listes de définitions</a></h2>
+
+<p>À l'instar d'un dictionnaire, une liste de définitions comporte des termes suivis de leur définition. Par exemple :</p>
+
+<pre>
+Moodle
+:   plate-forme de formation en ligne réputée
+
+PHP
+:   Langage de programmation de scripts.
+    Principalement utilisé pour le développement d'applications web.
+</pre>
+
+<dl>
+
+<dt>Moodle</dt>
+
+<dd>plate-forme de formation en ligne réputée</dd>
+
+<dt>PHP</dt>
+
+<dd>Langage de programmation de scripts. Principalement utilisé pour le développement d'applications web.</dd>
+
+</dl>
+
+<h2><a id="footnotes">Notes de bas de page</a></h2>
+
+<p>Une note de bas de page comporte deux éléments. Un renvoi, au sein du texte, qui apparaîtra sous forme la forme d'un exposant, et le contenu de la note qui se trouvera à la fin du document. Par exemple :</p>
+
+<pre>
+Ce point est abordé dans mon livre.[^1]
+
+[^1]: Les références de mon livre.
+</pre>
+
+<p>Le contenu des notes peut être placé n'importe où. Les notes suivront l'ordre de leur apparition dans le texte. On ne peut créer qu'un lien vers chaque note.</p>
+
 <h2><a id="embedded">Incorporer du code HTML</a></h2>
 
 <p>Si vous connaissez bien le code HTML, vous pouvez l'utilisez dans les cas où Markdown ne suffirait pas. Markdown est en effet conçu dans cette éventualité et vous permet d'incorporer directement du code HTML dans le texte.</p>
@@ -110,7 +211,7 @@ Lui tint à peu près ce langage.</p>
 
 <p>Remarquez que le code HTML coexiste avec le code Markdown des listes. Cela vous permet de vous libérer de tâches fastidieuses d'écriture de code HTML complexe pour du formattage de base tout en vous permettant d'accéder à toute la puissance du HTML dans des cas spécifiques.</p>
 
-<h2><a id="preformatted">Code préformatté</a></h2>
+<h2><a id="preformatted">Affichage de code HTML ou de code préformatté</a></h2>
 
 <p>Si contrairement à la section ci-dessus, vous désirez afficher du code HTML exactement comme il est tapé, plutôt que de faire afficher son interprétation, vous commencerez chaque ligne par quatre espaces.</p>
 
@@ -148,6 +249,8 @@ Lui tint à peu près ce langage.</p>
 <h2><a id="further">Pour en savoir plus</a></h2>
 
 <p>Le format Markdown n'est pas propre à Moodle. Il est utilisé dans un grand nombre d'autres outils de publication web. Vous trouverez plus d'informations à ce sujet sur <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a>.</p>
+
+<p>Moodle utilise une version enrichie du format Markdown, connue sous le nom de « Markdown Extra ». Pour en savoir plus, reportez-vous à <a href="http://www.michelf.com/projects/php-markdown/extra/">http://www.michelf.com/projects/php-markdown/extra/</a>.</p>
 
 </div>
 
