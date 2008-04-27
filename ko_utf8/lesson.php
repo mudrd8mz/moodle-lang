@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080426) (2008030700)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -19,7 +19,7 @@ $string['addedcluster'] = '질문묶음 추가됨';
 $string['addedendofcluster'] = '질문묶음끝 추가됨';
 $string['addendofcluster'] = '질문묶음끝 추가';
 $string['addpage'] = '페이지 추가';
-$string['anchortitle'] = '중심 콘텐츠의 시작';
+$string['anchortitle'] = '핵심 콘텐츠의 시작';
 $string['and'] = '그리고';
 $string['answer'] = '답안';
 $string['answeredcorrectly'] = '정답을 맞췄음';
@@ -28,13 +28,13 @@ $string['arrangebuttonshorizontally'] = '화면에 갈래버튼을 수평으로 
 $string['attempt'] = '$a 번째 시도';
 $string['attempts'] = '시도';
 $string['attemptsdeleted'] = '삭제된 시도';
-$string['attemptsremaining'] = '당신은 $a 번의 시도가 남아 있습니다.';
+$string['attemptsremaining'] = '$a 번의 시도 남음';
 $string['available'] = '학습 시작';
 $string['averagescore'] = '평균 점수';
 $string['averagetime'] = '평균 시간';
 $string['branchtable'] = '갈래표';
 $string['cancel'] = '취소';
-$string['canretake'] = '$a의 재이수 가능';
+$string['canretake'] = '$a 는 재이수 가능';
 $string['casesensitive'] = '대소문자 구별';
 $string['checkbranchtable'] = '갈래표 점검';
 $string['checkedthisone'] = '이미 점검하였음';
@@ -49,10 +49,10 @@ $string['collapsed'] = '제목 펼침';
 $string['comments'] = '당신의 평';
 $string['completed'] = '이수';
 $string['completederror'] = '학습 완료';
-$string['completethefollowingconditions'] = '진행하기 위해서는 먼저 <b>$a</b> 수업의 다음 조건들을 충족시켜야만 합니다.';
+$string['completethefollowingconditions'] = '계속하기 위해서는 <b>$a</b> 학습에서 다음 내용을 먼저 완료해야만 합니다.';
 $string['conditionsfordependency'] = '선수 학습';
 $string['confirmdeletionofthispage'] = '페이지 삭제 확인';
-$string['congratulations'] = '축하합니다 - 마지막 학습 내용 입니다.';
+$string['congratulations'] = '학습의 끝입니다 - 축하합니다';
 $string['continue'] = '계속';
 $string['continuetoanswer'] = '답 수정 계속하기';
 $string['correctanswerjump'] = '정답인 경우 이동할 곳';
@@ -75,17 +75,17 @@ $string['didnotreceivecredit'] = '점수를 못 받음';
 $string['displaydefaultfeedback'] = '기본 피드백문장 보이기';
 $string['displayhighscores'] = '고득점 표시';
 $string['displayinleftmenu'] = '왼쪽 메뉴를 보일까요?';
-$string['displayleftif'] = '다음 점수 이상일 때 표시';
+$string['displayleftif'] = '$a 가 다음 점수 이상일 때 표시 :';
 $string['displayleftmenu'] = '왼쪽 메뉴 표시';
 $string['displayofgrade'] = '점수 표시 (학생 전용)';
 $string['displayreview'] = '다시보기 버튼 표시';
-$string['displayscorewithessays'] = '당신은 $a->tempmaxgrade 점 중 $a->score 점을 얻었습니다.<br> 당신의 $a->essayquestions  서술형 답안(들)은 추후에 채점될 것이며 최종 점수에 추가될 것입니다.<br/> 서술형 질문(들)을 제외한 현재 점수는 $a->grade 점 중에서 $a->score 점을 받았습니다.';
+$string['displayscorewithessays'] = '$a->tempmaxgrade 점 중 $a->score 점을 얻었습니다.<br> $a->essayquestions  서술형 답안(들)은 추후에 채점될 것이며 최종 점수에 추가될 것입니다.<br/> 서술형 질문(들)을 제외한 점수는 현재 $a->grade 점 중에서 $a->score 점을 받았습니다.';
 $string['displayscorewithoutessays'] = '당신의 점수는 $a->score 점 입니다.($a->grade 점 만점)';
 $string['edit'] = '편집';
-$string['editlessonsettings'] = '수업 환경 설정';
+$string['editlessonsettings'] = '완전학습 설정';
 $string['editpagecontent'] = '페이지 내용 편집';
 $string['email'] = '이메일';
-$string['emailallgradedessays'] = '모든 서술형 성적을 기록한 이메일';
+$string['emailallgradedessays'] = '모두에게 이메일 발송<br />채점된 서술형 문항';
 $string['emailgradedessays'] = '서술형 성적을 기록한 이메일';
 $string['emailsuccess'] = '이메일 발송 완료';
 $string['endofbranch'] = '갈래 끝';
@@ -94,7 +94,7 @@ $string['endoflesson'] = '학습 종료';
 $string['enteredthis'] = '입장했습니다.';
 $string['entername'] = '고득점 목록에 쓸 별명을 입력하세요';
 $string['enterpassword'] = '비밀번호를 입력하세요 :';
-$string['eolstudentoutoftime'] = '주의: 당신의 학습시간이 종료되었습니다.
+$string['eolstudentoutoftime'] = '주의: 학습시간이 종료되었습니다.
 마지막 답변이 종료 후에 입력되었다면, 그것은 평가되지 않을 것입니다.';
 $string['eolstudentoutoftimenoanswers'] = '당신은 답변을 전혀 하지 않았습니다. 
 이번 학습에서 0점을 얻게 되었습니다.';
@@ -103,7 +103,7 @@ $string['essayemailmessage'] = '<p>서술형 문항:<blockquote>$a->question</bl
 <p>여러분의 답:<blockquote><em>$a->response</em></blockquote></p>
 <p>$a->teacher 의 평:<blockquote><em>$a->comment</em></blockquote></p>
 <p>이 논술에서 $a->outof 중 $a->earned 을 얻었습니다.</p>
-<p>학습에 대한 성적은 $a->newgrade%%로 변경되었습니다.</p>';
+<p>학습에 대한 성적은 $a->newgrade%% 로 변경되었습니다.</p>';
 $string['essayemailsubject'] = '$a 질문에 대한 성적';
 $string['essays'] = '서술내용';
 $string['essayscore'] = '서술문항 점수';
@@ -150,7 +150,7 @@ $string['lessonopens'] = '완전 학습 시작';
 $string['lessonpagelinkingbroken'] = '학습의 시작 페이지가 발견되지 않습니다. 학습의 연결 고리가 끊어졌을 수 있습니다. 관리자에게 연락하십시요.';
 $string['lessonstats'] = '완전학습 통계';
 $string['linkedmedia'] = '연결된 매체';
-$string['loginfail'] = '로그인을 실패했습니다, 다시 시도하세요.';
+$string['loginfail'] = '로그인에 실패했습니다, 다시 시도하세요.';
 $string['lowscore'] = '낮은 점수';
 $string['lowtime'] = '최단 시간';
 $string['manualgrading'] = '서술문항 채점';
@@ -158,12 +158,12 @@ $string['matchesanswer'] = '답과 일치';
 $string['maxhighscores'] = '표시할 고득점 수';
 $string['maximumnumberofanswersbranches'] = '답안/갈래의 최대 수';
 $string['maximumnumberofattempts'] = '최대 시도 수';
-$string['maximumnumberofattemptsreached'] = '최대 허용 시도횟수에 도달하였습니다. 다음 페이지으로 갑니다.';
+$string['maximumnumberofattemptsreached'] = '최대 허용 시도횟수에 도달하였습니다. 다음 페이지로 갑니다.';
 $string['maxtime'] = '제한 시간(분)';
 $string['maxtimewarning'] = '완전 학습을 마치기까지 $a 분 남았습니다.';
 $string['mediaclose'] = '종료 버튼 보이기';
 $string['mediafile'] = '미디어파일 창';
-$string['mediafilepopup'] = '이곳을 누르면 수업 동영상 파일을 볼수 있습니다.';
+$string['mediafilepopup'] = '이곳을 누르면 수업 동영상 파일을 볼 수 있습니다.';
 $string['mediaheight'] = '창 높이 :';
 $string['mediawidth'] = '창 너비 :';
 $string['minimumnumberofquestions'] = '질문의 최소 갯수';
@@ -272,7 +272,7 @@ $string['studentname'] = '이름 : $a';
 $string['studentoneminwarning'] = '경고: 학습 종료 시간이 1분 정도 남았습니다.';
 $string['studentresponse'] = '{$a} 의 반응';
 $string['submitname'] = '이름 입력';
-$string['teacherjumpwarning'] = '$a->cluster 나 $a->unseen 의 건너뛰기는 이 학습과정에서만 사용됩니다. 다음 페이지 이동이 대신 사용될 것입니다. 건너뛰기를 점검하기 위해서는 학생으로 로그인하세요.';
+$string['teacherjumpwarning'] = '이 과정에는 $a->cluster 이나 $a->unseen 으로의 이동 과정이 존재합니다만 다음 페이지 이동이 대신 사용될 것입니다. 상세한 이동 상황을 점검하기 위해서는 학생으로 로그인하세요.';
 $string['teacherongoingwarning'] = '현재 점수는 학생들에게만 보여집니다. 현재 점수를 확인하기 위해서는 학생으로 로그인하십시오.';
 $string['teachertimerwarning'] = '타이머는 학생들을 위해서만 작동됩니다. 학생으로 로그인 하여 타이머를 점검하세요.';
 $string['thatsthecorrectanswer'] = '올바른 답 입니다.';

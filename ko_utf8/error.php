@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
+      // error.php - created with Moodle 2.0 dev (Build: 20080426) (2008030700)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 편집될 수 없음';
@@ -13,6 +13,7 @@ $string['cannotassignrole'] = '강좌의 역할을 지명할 수 없음';
 $string['cannotcreatebackupdir'] = '백업 경로를 생성할 수 없음. 사이트 관리자가 파일 권한을 조정할 필요가 있음';
 $string['cannotcreatelangbase'] = '오류: 기본 언어팩 경로 생성 실패';
 $string['cannotcreatelangdir'] = '언어팩 디렉토리를 만들 수 없습니다.';
+$string['cannotcreateorfindstructs'] = '강좌에 대한 구조를 만들거나 찾는데 오류 발생';
 $string['cannotcreatesitedir'] = '사이트의 경로 생성 실패. 사이트 관리자가 디렉토리 허가권을 수정할 필요가 있음';
 $string['cannotcreatetempdir'] = 'temp 디렉토리를 만들 수 없습니다.';
 $string['cannotcustomizelocallang'] = '맞춤 문자열을 변경할 수 있는 권한이 없습니다. 이 권한은 \"moodle/site:langeditlocal\"에 의해 설정됩니다. 만일 사이트 전체에 걸쳐 문자열을 변경하고 싶은 경우 이 기능을 조정하여 언어팩을 관리할 수 있게 해야 합니다.';
@@ -87,6 +88,8 @@ $string['invalidarguments'] = '적절한 인수가 제공되지 않음';
 $string['invalidcourse'] = '잘못된 강좌';
 $string['invalidcourseid'] = '잘못된 강좌 아이디:($a)를 입력하려고 함';
 $string['invalidcoursemodule'] = '바르지 않은 강좌 모듈 식별번호';
+$string['invalidcoursenameshort'] = '잘못된 강좌 단축명';
+$string['invalidevent'] = '잘못된 일정';
 $string['invalidfieldname'] = '\"$a\"는 유효하지 않은 필드명';
 $string['invalidfiletype'] = '\"$a\"는 유효한 파일유형이 아닙니다.';
 $string['invalidgroupid'] = '잘못된 모둠 id를 지정';
@@ -131,6 +134,7 @@ $string['nologinas'] = '현재 사용자 ID로는 로그인 할 수 없습니다
 $string['nonmeaningfulcontent'] = '의미없는 내용';
 $string['noparticipatorycms'] = '죄송합니다. 당신은 보고받을 특정 강좌 모듈을 가지고 있지 않습니다.';
 $string['nopermissions'] = '죄송합니다만 그 ($a)를 하도록 허용되지 않았습니다.';
+$string['nopermissiontoviewpage'] = '이 화면을 보도록 허용되지 않음';
 $string['nosite'] = '사이트 없음';
 $string['nositeid'] = '사이트 ID 누락';
 $string['nostatstodisplay'] = '표시할 데이터가 없습니다.';
@@ -153,6 +157,7 @@ $string['sessionerroruser'] = '세션이 종료 되었습니다. 다시 로그�
 $string['sessionerroruser2'] = '로그인 세션에 영향을 줄만한 서버 오류가 발생했습니다. 다시 로그인 하시거나 인터넷 창을 다시 켜주십시오.';
 $string['sessionipnomatch'] = '죄송합니다 당신의 아이피 주소가 처음 로그인 했을 때와 다릅니다. 이 보안 기능은 해커가 아이디를 도용해 이 사이트에 접속하는 것을 방지합니다. 정상적인 사용자들에게는 이 메시지가 나타나지 않을 것입니다. 도움을 원한다면 이 사이트의 운영자에게 문의하시기 바랍니다.';
 $string['statscatchupmode'] = '현재 통계 수집중에 있습니다. 현재 $a->daysdone 일간의 자료가 처리되었고 $a->dayspending 가 처리 대기중에 있습니다. 잠시후 다시 확인해 주시기 바랍니다!';
+$string['statsdisable'] = '통계가 활성화되어 있지 않음';
 $string['statsnodata'] = '강좌 및 시한의 조합 조건에 맞는 자료가 없습니다.';
 $string['tagnotfound'] = '지정한 태그가 데이터베이스에 없음';
 $string['unicodeupgradeerror'] = '데이터베이스가 아직 유니코드가 아니지만 이 무들판으로는  여러분의 데이터베이스를 유니코드로 변환시킬 수 없습니다. 우선 무들을 1.7.x버전대로 판올림을 하시고 그곳의 관리자화면에서 유니코드로 변환해 주시기 바랍니다. 그 이후에나 무들 $a로 이전해 갈 수 있을 것입니다.';
@@ -162,6 +167,8 @@ $string['unknowncourseidnumber'] = '\"$a\" 강좌는 없습니다.';
 $string['unknowngroup'] = '알 수 없는 모둠 \"$a\"';
 $string['unknownrole'] = '알 수 없는 역할 \"$a\"';
 $string['unknownuseraction'] = '죄송합니다만 이 사용자의 활동을 이해할 수 없습니다.';
+$string['unspecifycourseid'] = '반드시 강좌 아이디, 단축명 혹은 ID 번호가 지정되어야 함';
+$string['unsupportedevent'] = '지원되지 않는 일정 유형';
 $string['updatersserror'] = 'id: $a 로 rss 송출 갱신 중 오류 발생';
 $string['upgradefail'] = '$a 판올림 실패!';
 $string['upgradeversionfail'] = '백업시스템 판올림 실패! (설정 테이블의 판 갱신을 할 수 없음)';
