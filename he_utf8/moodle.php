@@ -1,4 +1,4 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
 
 
@@ -498,8 +498,6 @@ $string['enrolenddaterror'] = 'תאריך סיום ההרשמה לא יכול ל
 $string['enrollable'] = 'רישום קורס';
 $string['enrolledincourse'] = 'רשום לקורס \"$a\"';
 $string['enrolledincoursenot'] = 'לא רשום לקורס \"$a\"';
-$string['enrolledincoursenotrole'] = 'שגיאה ברישום ל\"$a->course\" כ\"$a->role\"';
-$string['enrolledincourserole'] = 'נרשם ל\"$a->course\" כ\"$a->role\"';
 $string['enrollfirst'] = 'עליך להרשם לאחד הקורסים לפני שתוכל להשתתף בפעילויות האתר';
 $string['enrolme'] = 'רשום אותי לקורס זה';
 $string['enrolmentconfirmation'] = 'אתה עומד לרשום את עצמך כחבר בקורס הזה.<br />האם אתה בטוח שאתה רוצה לעשות זאת?';
@@ -1338,7 +1336,7 @@ $string['thanks'] = 'תודה';
 $string['theme'] = 'ערכת נושא';
 $string['themes'] = 'ערכות נושא';
 $string['themesaved'] = 'ערכת הנושא החדשה נשמרה';
-$string['thereareno'] = 'לא קיימיםות $a בקורס';
+$string['thereareno'] = 'אין $a בקורס';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'rtl';
 $string['thislanguage'] = 'עברית';
@@ -1477,7 +1475,7 @@ $string['writingcoursedata'] = 'כתיבת נתוני קורס';
 $string['writingeventsinfo'] = 'כתיבת מידע אירועים';
 $string['writinggeneralinfo'] = 'כתיבת מידע כללי';
 $string['writinggradebookinfo'] = 'כתיבת מידע על ספר ציונים';
-$string['writinggroupingsgroupsinfo'] = 'כתיבת מידע על אוסף קבוצותקבוצות';
+$string['writinggroupingsgroupsinfo'] = 'כתיבת מידע על אוסף קבוצות';
 $string['writinggroupingsinfo'] = 'כתיבת מידע הקבצות';
 $string['writinggroupsinfo'] = 'כתיבת מידע קבוצות';
 $string['writingheader'] = 'כתיבת כותרת';
