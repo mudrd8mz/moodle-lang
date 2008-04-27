@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080427) (2008030700)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
@@ -34,7 +34,7 @@ $string['entryupdated'] = 'ブログエントリが更新されました。';
 $string['groupblog'] = 'グループブログ: $a';
 $string['groupblogdisable'] = 'グループブログは有効にされていません。';
 $string['groupblogs'] = 'ユーザはグループを共有しているユーザのブログのみ読むことができる';
-$string['incorrectblogfilter'] = '間違ったブログフィルタタイプが指定されました。';
+$string['incorrectblogfilter'] = '正しくないブログフィルタタイプが指定されました。';
 $string['intro'] = 'このRSSフィードは、1つまたはそれ以上のブログから自動生成されました。';
 $string['noentriesyet'] = '表示できるエントリはありません。';
 $string['noguestpost'] = 'ゲストはブログを投稿できません!';
@@ -53,16 +53,16 @@ $string['settingsupdatederror'] = 'エラーが発生したため、ブログ設
 $string['siteblog'] = 'サイトブログ: $a';
 $string['siteblogdisable'] = 'サイトブログは有効にされていません。';
 $string['siteblogs'] = 'すべてのサイトユーザはすべてのブログを読むことができる';
-$string['tagdatelastused'] = '日付タグは使用されています。';
+$string['tagdatelastused'] = '最後に使用された日付タグ';
 $string['tags'] = 'タグ';
-$string['tagsort'] = 'タグの並び替え';
+$string['tagsort'] = 'タグの並び替え方法';
 $string['tagtext'] = 'タグテキスト';
-$string['timewithin'] = '指定した期間に使用されたタグを表示';
+$string['timewithin'] = '指定した期間に使用されたタグを表示する';
 $string['updateentrywithid'] = 'エントリの更新';
 $string['userblog'] = 'ユーザブログ: $a';
-$string['viewcourseentries'] = 'コースエントリの表示';
-$string['viewmyentries'] = 'マイエントリの表示';
-$string['viewsiteentries'] = 'サイトエントリの表示';
+$string['viewcourseentries'] = 'コースエントリを表示する';
+$string['viewmyentries'] = 'マイエントリを表示する';
+$string['viewsiteentries'] = 'サイトエントリを表示する';
 $string['worldblogs'] = '世界中の誰でもエントリを読むことができる';
 $string['wrongpostid'] = 'ブログ投稿IDが正しくありません。';
 $string['addotags'] = 'オフィシャルタグの追加'; // TBD
