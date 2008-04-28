@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080428) (2008030700)
 
 
 $string['add_item'] = '質問を追加する';
@@ -99,6 +99,10 @@ $string['move_here'] = 'ここに移動する';
 $string['move_item'] = 'この質問を移動する';
 $string['movedown_item'] = 'この質問を下げる';
 $string['moveup_item'] = 'この質問を上げる';
+$string['multichoice'] = '多肢選択';
+$string['multichoice_values'] = '多肢選択値';
+$string['multichoicerated'] = '多肢選択 (評定)';
+$string['multichoicetype'] = '多肢選択タイプ';
 $string['multiple_submit'] = '複数回答';
 $string['name'] = '名称';
 $string['name_required'] = '名称を入力してください。';
