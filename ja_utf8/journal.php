@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 2.0 dev (2007101508)
+      // journal.php - created with Moodle 2.0 dev (Build: 20080427) (2008030700)
 
 
 $string['alwaysopen'] = '常に利用可能';
@@ -14,7 +14,7 @@ $string['journalmail'] = '$a->teacher さんがあなたの日誌「 $a->journal
 フィードバックはあなたの日誌に追加されています:
 
 $a->url';
-$string['journalmailhtml'] = '$a->teacher さんがあなたの日誌\'「 $a- >journal</i> 」にフィードバックを投稿しました。<br /><br />
+$string['journalmailhtml'] = '$a->teacher さんがあなたの日誌「 $a- >journal</i> 」にフィードバックを投稿しました。<br /><br />
 フィードバックはあなたの<a href=\"$a->url\">日誌</a>に追加されています。';
 $string['journalname'] = '日誌名';
 $string['journalquestion'] = '日誌問題';
