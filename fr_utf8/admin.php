@@ -263,6 +263,8 @@ $string['cronremotepassword'] = 'Mot de passe pour lancer le cron à distance';
 $string['cronwarning'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.';
 $string['cronwarning2'] = 'Le <a href=\"cron.php\">script de maintenance cron.php</a> n\'a pas été lancé depuis au moins 24 heures.<br />Voir $a pour de plus amples informations sur l\'automatisation de cette opération.';
 $string['csvdelimiter'] = 'Délimiteur CSV';
+$string['ctyperecommended'] = 'L\'installation de l\'extension PHP optionnelle ctype est vivement recommandée afin d\'améliorer les performances du site, en particulier si votre site utilise des caractères non-latins.';
+$string['ctyperequired'] = 'L\'extension PHP ctype est maintenant requise par Moodle, afin d\'améliorer les performances du site et d\'offrir compatibilité multilingue.';
 $string['curlrecommended'] = 'L\'installation de la bibliothèque optionnelle cURL est vivement recommandée, afin de pouvoir utiliser la fonctionnalité Réseau Moodle.';
 $string['customcheck'] = 'Autres contrôles';
 $string['datarootsecuritywarning'] = 'La configuration de votre site semble ne pas être sûre. Veuillez vous assurer que le dossier des données de Moodle ($a) ne soit pas directement accessible depuis le web.';
