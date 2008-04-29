@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // moodle.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
 
 
 $string['action'] = 'Akcja';
@@ -1105,6 +1105,8 @@ $string['rsserror'] = 'Błąd odczytu danych RSS';
 $string['rsstype'] = 'Kanał RSS dla tej aktywności';
 $string['saveandnext'] = 'Zachowaj i pokaż następne';
 $string['savechanges'] = 'Zapisz zmiany';
+$string['savechangesanddisplay'] = 'Zapisz zmiany i wyświetl';
+$string['savechangesandreturntocourse'] = 'Zapisz zmiany i wróc do kursu';
 $string['savedat'] = 'Zachowane w:';
 $string['savepreferences'] = 'Zapisz ustawienia';
 $string['saveto'] = 'Zapisz do';
@@ -1114,6 +1116,7 @@ $string['scalescustom'] = 'Niestandardowe skale';
 $string['scalescustomcreate'] = 'Dodaj nową skalę';
 $string['scalescustomno'] = 'Nie utworzono żadnych niestandardowych skali';
 $string['scalesstandard'] = 'Skale standardowe';
+$string['scalestandard'] = 'Skala standardowa';
 $string['scalestip'] = 'Aby stworzyć własne skale, użyj linku \"Skale\" w menu Administracja kursu.';
 $string['schedule'] = 'Harmonogram';
 $string['scheduledbackupstatus'] = 'Status kopii zapasowej';

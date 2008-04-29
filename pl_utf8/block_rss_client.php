@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // block_rss_client.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
 
 
 $string['addfeed'] = 'Dodaj adres URL niusów';
@@ -9,14 +9,14 @@ $string['blockname'] = 'Klient RSS';
 $string['choosefeedlabel'] = 'Wybierz wiadomości które mają być dostępne:';
 $string['clientchannellink'] = 'Strona z wiadomościami';
 $string['clientnumentries'] = 'Domyślna liczba pokazywanych haseł';
-$string['clientshowchannellinklabel'] = 'Czy wyświtlić łącze do oryginalnej strony z wiadomościami?';
+$string['clientshowchannellinklabel'] = 'Czy wyświetlić łącze do oryginalnej strony z wiadomościami?';
 $string['clientshowimagelabel'] = 'Pokaż logo strony wiadomości jeśli dostępne:';
 $string['configblock'] = 'Konfiguruj ten blok';
 $string['couldnotfindfeed'] = 'nie znaleziona źródła wiadomości o danym id.';
 $string['customtitlelabel'] = 'Tytuł wiadomości (zostaw puste jeżeli chcesz wyświetlić tytuł dostarczany wraz z wiadomościami)';
 $string['deletefeedconfirm'] = 'Czy chcesz usunąć źródło wiadomości?';
 $string['displaydescriptionlabel'] = 'Wyświetlać opisy dla linków?';
-$string['editfeeds'] = 'Edycja, prenumerata lub odwołaie prenumeraty wiadomości RSS';
+$string['editfeeds'] = 'Edycja, prenumerata lub odwołanie prenumeraty wiadomości RSS';
 $string['editnewsfeeds'] = 'Edytuj źródła wiadomości';
 $string['editrssblock'] = 'Edytuj nagłówek wiadomości RSS';
 $string['feed'] = 'Źródło wiadomości';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'Uaktualnij źródło wiadomości';
 $string['findmorefeeds'] = 'Znajdź więcej źródeł wiadomości RSS';
 $string['managefeeds'] = 'Zarządzaj źródłami wiadomościi RSS';
 $string['nofeeds'] = 'Na tej stronie nie ma źródła wiadomości RSS';
+$string['numentries'] = 'Wpisów na źródło';
 $string['pickfeed'] = 'Wybierz nowy źródło wiadomości';
 $string['remotenewsfeed'] = 'Usuń serwer RSS';
 $string['rss_client:createprivatefeeds'] = 'Utwórz prywatne źródła wiadomości';
@@ -40,7 +41,9 @@ $string['seeallfeeds'] = 'Pokaż wiadomości ze wszystkich zdefiniowanych źród
 $string['sharedfeed'] = 'Udostępnione źródło';
 $string['shownumentrieslabel'] = 'Maksymalna liczba haseł pokazywana w bloku';
 $string['submitters'] = 'Kto może definiować nowe źródła wiadomości RSS? Zdefiniowane wiadomości RSS są dostępne dla wszystkich stron w serwisie.';
+$string['submitters2'] = 'Prenumeratorów';
 $string['timeout'] = 'Przekroczony czas ważności kanału RSS';
+$string['timeout2'] = 'Opóźnienie';
 $string['timeoutdesc'] = 'Czas w minutach przechowywania w cachu';
 $string['updatefeed'] = 'Uaktualnij adres wiadomości RSS';
 $string['validatefeed'] = 'Sprawdź źródło wiadomości RSS';

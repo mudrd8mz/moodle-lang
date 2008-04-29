@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // choice.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
 
 
 $string['addmorechoices'] = 'Dodaj więcej opcji';
@@ -11,6 +11,7 @@ $string['choice:deleteresponses'] = 'Usuń odpowiedzi';
 $string['choice:downloadresponses'] = 'Ściągnij odpowiedzi';
 $string['choice:readresponses'] = 'Czytaj odpowiedzi';
 $string['choiceclose'] = 'Do';
+$string['choicefull'] = 'To głosowanie jest pełne i nie ma więcej wolnych miejsc.';
 $string['choicename'] = 'Nazwa głosowania';
 $string['choiceopen'] = 'Otwórz';
 $string['choicetext'] = 'Treść pytania';

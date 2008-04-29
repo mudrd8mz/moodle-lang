@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.5.2 + (2005060223)
+      // enrol_ldap.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
 
 
 $string['description'] = '<p>Możesz użyć serwera LDAP do kontroli zapisów.
@@ -14,6 +14,7 @@ $string['enrol_ldap_autocreation_settings'] = 'Ustawinia automatycznego tworzeni
 $string['enrol_ldap_bind_dn'] = 'Jeżeli chcesz używać bind-user do poszukiwania użytkowników, określ ich tutaj. Podobnie do \'cn=ldapuser,ou=public,o=org\'';
 $string['enrol_ldap_bind_pw'] = 'Hasło dla bind-user';
 $string['enrol_ldap_category'] = 'Kategoria dla automatycznie tworzonych kursów';
+$string['enrol_ldap_contexts'] = 'Kontekst LDAP';
 $string['enrol_ldap_course_fullname'] = 'Opcjonalne: Pole skąd LDAP ma pobierać pełną nazwę.';
 $string['enrol_ldap_course_idnumber'] = 'Mapuj (odwzoruj) unikalny identyfikator w LDAP, przeważnie <em>cn</em> lub <em>uid</em>. Blokuj tę wartość jeżeli używasz automatycznego tworzenia kursów.';
 $string['enrol_ldap_course_settings'] = 'Ustawienie zapisywania na kurs';
@@ -23,14 +24,16 @@ $string['enrol_ldap_editlock'] = 'Blokuj wartość';
 $string['enrol_ldap_general_options'] = 'Opcje ogólne';
 $string['enrol_ldap_host_url'] = 'Określ URL hostu LDAP podobnie do: \'ldap://ldap.myorg.com/\' 
 lub \'ldaps://ldap.myorg.com/\'';
+$string['enrol_ldap_memberattribute'] = 'Atrybut członka LDAP';
 $string['enrol_ldap_objectclass'] = 'objectClass używany do szukania kursów. Przeważnie \'posixGroup\'.';
+$string['enrol_ldap_roles'] = 'Mapowanie roli';
 $string['enrol_ldap_search_sub'] = 'Szukaj członków grupy dla podkontekstów.';
 $string['enrol_ldap_server_settings'] = 'Ustawienia sewera LDAP';
 $string['enrol_ldap_student_contexts'] = 'Wymień kolejno listę kontekstów gdzie grupy z zapisanymi studentami są rozmieszczane . Oddziel różne konteksty \';\'. Np: ou=courses,o=org; ou=others,o=org\'';
-$string['enrol_ldap_student_memberattribute'] = 'Cecha członek grupy, określa kiedy student należy (jest zapisany) do grupy. Zwykle zawiera pole \'member\' albo \'memberUid\'. ';
+$string['enrol_ldap_student_memberattribute'] = 'Cecha członek grupy, określa kiedy student należy (jest zapisany) do grupy. Zwykle zawiera pole \'member\' albo \'memberUid\'.';
 $string['enrol_ldap_student_settings'] = 'Ustawienia zapisywania studentów';
 $string['enrol_ldap_teacher_contexts'] = 'Wymień kolejno listę kontekstów gdzie grupy z zapisanymi prowadzącymi są rozmieszczane . Oddziel różne konteksty \';\'. Np: ou=courses,o=org; ou=others,o=org\'';
-$string['enrol_ldap_teacher_memberattribute'] = 'Cecha członek grupy, określa kiedy prowadzący należy (jest zapisany) do grupy. Zwykle zawiera pole \'member\' albo \'memberUid\'. ';
+$string['enrol_ldap_teacher_memberattribute'] = 'Cecha członek grupy, określa kiedy prowadzący należy (jest zapisany) do grupy. Zwykle zawiera pole \'member\' albo \'memberUid\'.';
 $string['enrol_ldap_teacher_settings'] = 'Ustawienia zapisywania prowadzących';
 $string['enrol_ldap_template'] = 'Opcjonalnie: Auto-tworzenie kursów może kopiować ustawienia z wzorcowego kursu.';
 $string['enrol_ldap_updatelocal'] = 'Uaktualnij dane lokalne';

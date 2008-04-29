@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // chat.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
 
 
 $string['beep'] = 'rozmawia';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a właśnie do Ciebie napisał';
 $string['messageenter'] = '$a właśnie wszedł na czat';
 $string['messageexit'] = '$a opuścił czat';
 $string['messages'] = 'Wiadomości';
+$string['method'] = 'Metoda czatu';
 $string['methoddaemon'] = 'Demon czatu';
 $string['methodnormal'] = 'Normalna metoda';
 $string['modulename'] = 'Czat';
@@ -48,6 +49,10 @@ $string['nomessages'] = 'Brak wiadomości';
 $string['normalkeepalive'] = 'Utrzymuj';
 $string['normalstream'] = 'Strumień';
 $string['noscheduledsession'] = 'Nie ma zaplanowanych sesji.';
+$string['oldping'] = 'Opóźnienie do rozłączenia';
+$string['pastchats'] = 'Poprzednie sesje czatu';
+$string['refreshroom'] = 'Odśwież pokój';
+$string['refreshuserlist'] = 'Odśwież listę użytkowników';
 $string['removemessages'] = 'Usuń wszystkie wiadomości';
 $string['repeatdaily'] = 'Codziennie w tym samym czasie';
 $string['repeatnone'] = 'Nie powtarzaj - jedynie określony czas';
@@ -55,9 +60,14 @@ $string['repeattimes'] = 'Powtórz sesje';
 $string['repeatweekly'] = 'Co tydzień w tym samym czasie';
 $string['savemessages'] = 'Zachowaj minione sesje';
 $string['seesession'] = 'Zobacz sesję';
+$string['serverhost'] = 'Nazwa serwera';
+$string['serverip'] = 'IP serwera';
+$string['servermax'] = 'Maksymalna liczba użytkowników';
+$string['serverport'] = 'Port serwera';
 $string['sessions'] = 'Sesje czat';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Każdy może oglądać minione sesje';
+$string['updatemethod'] = 'Metoda aktualizacji';
 $string['viewreport'] = 'Zobacz minione sesje czat';
 
 ?>
