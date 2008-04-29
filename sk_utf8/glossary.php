@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8.3 + (2007021533)
+      // glossary.php - created with Moodle 1.8.5+ (Build: 20080423) (2007021550)
 
 
 $string['addcomment'] = 'Pridať komentár';
@@ -9,7 +9,7 @@ $string['aliases'] = 'Kľúčové slovo(á)';
 $string['allcategories'] = 'Všetky kategórie';
 $string['allentries'] = 'VŠETKO';
 $string['allowcomments'] = 'Povoliť komentár k položkám';
-$string['allowduplicatedentries'] = 'Povoliť duplikované položky';
+$string['allowduplicatedentries'] = 'Povoliť duplicitné položky';
 $string['allowprintview'] = 'Povoliť náhľad tlače';
 $string['allowratings'] = 'Povoliť hodnotenie položiek?';
 $string['answer'] = 'Odpoveď';
