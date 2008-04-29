@@ -46,7 +46,7 @@ $string['dropdown_values'] = 'Réponses';
 $string['dropdownlist'] = 'Choix multiple - une seule réponse (menu)';
 $string['dropdownrated'] = 'Menu déroulant (évalué)';
 $string['edit_item'] = 'Modifier question';
-$string['edit_items'] = 'Modifier questions';
+$string['edit_items'] = 'Modifier les questions';
 $string['email_notification'] = 'Envoyer les notifications par courriel';
 $string['emailteachermail'] = '$a->username a terminé l\'activité feedback \'$a->feedback\'                               
                                        
@@ -81,7 +81,7 @@ $string['import_questions'] = 'Importer des questions';
 $string['importfromthisfile'] = 'Importer depuis ce fichier';
 $string['import_successfully'] = 'Importation réussie';
 $string['item_name'] = 'Question';
-$string['items_are_required'] = 'Les réponses sont requises pour les questions avec astérisque.';
+$string['items_are_required'] = 'Veuillez répondre obligatoirement aux questions marquées d\'un astérisque.';
 $string['label'] = 'Étiquette';
 $string['line_labels'] = 'Étiquette';
 $string['line_values'] = 'Évaluation';
