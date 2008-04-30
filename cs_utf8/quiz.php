@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 Beta 2 (2007101501)
+      // quiz.php - created with Moodle 1.9 + (Build: 20080428) (2007101509)
 
 
 $string['1day'] = '1 den';
@@ -319,7 +319,7 @@ $string['nomoreattempts'] = 'Již nemáte další pokusy.';
 $string['none'] = 'Žádné';
 $string['nopossibledatasets'] = 'Nejsou dostupné žádné datové sady.';
 $string['noquestionintext'] = 'Úloha neobsahuje žádné vnořené otázky.';
-$string['noquestions'] = 'Do testu dosud nebyly vloženy žádné úlohy.';
+$string['noquestions'] = 'Dosud nebyly vloženy žádné úlohy.';
 $string['noquestionsfound'] = 'Nenalezeny žádné úlohy.';
 $string['noquestionsinfile'] = 'Importovaný soubor neobsahuje žádné úlohy.';
 $string['noresponse'] = 'Nezodpovězeno';
