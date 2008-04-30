@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 + (2007021503)
+      // mnet.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (egensignert)';
@@ -27,6 +27,7 @@ $string['current_transport'] = 'Gjeldende transport';
 $string['currentkey'] = 'Gjeldende offentlig nøkkel';
 $string['databaseerror'] = 'Lagringen i databasen mislykkes';
 $string['deleteaserver'] = 'Sletter en server';
+$string['deletehost'] = 'Slett tjener';
 $string['deletekeycheck'] = 'Er du absolutt sikker på at du vil slette denne nøkkelen?';
 $string['deleteoutoftime'] = 'Du hadde 60 sekunder på deg til å slette nøkkelen og tiden er utløpt. Vennligst prøv en gang til.';
 $string['deleteuserrecord'] = 'SSO ACL: slett rad for brukeren \'$a[0]\' til $a[1].';
