@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 (2007101509)
+      // data.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
 
 
 $string['action'] = 'Handling';
@@ -13,9 +13,12 @@ $string['allowcomments'] = 'Tillat kommentarer?';
 $string['allowratings'] = 'Tillat vurdering av oppføringer?';
 $string['alttext'] = 'Alternativ tekst';
 $string['approve'] = 'Godkjenn';
+$string['approved'] = 'Godkjent';
 $string['ascending'] = 'Stigende';
 $string['asearchtemplate'] = 'Avansert søkemal';
 $string['atmaxentry'] = 'Du har lagt inn det maksimale antall oppføringer som er tillatt!';
+$string['authorfirstname'] = 'Forfatterens fornavn';
+$string['authorlastname'] = 'Forfatterens etternavn';
 $string['autogenallforms'] = 'Generer alle standardmaler';
 $string['autolinkurl'] = 'Lag akelapperutomatisk lenke til URL';
 $string['availablefromdate'] = 'Tilgjengelig fra';
@@ -107,6 +110,8 @@ $string['filesnotgenerated'] = 'Ikke alle filene ble generert: $a';
 $string['filtername'] = 'Database autolenking';
 $string['footer'] = 'Bunntekst';
 $string['forcelinkname'] = 'Obligatorisk lenkenavn';
+$string['foundnorecords'] = 'Ingen poster funnet (<a href=\"$a->reseturl\">Nullstill filter</a>)';
+$string['foundrecords'] = 'Funnet poster: $a->num/$a->max (<a href=\"$a->reseturl\">Nullstill filter</a>)';
 $string['fromfile'] = 'Importer fra en zip-fil';
 $string['header'] = 'Topptekst';
 $string['headeraddtemplate'] = 'Definerer skjermbildet for redigering av oppføringer';
@@ -173,7 +178,9 @@ $string['numnotapproved'] = 'Venter';
 $string['numrecords'] = '$a oppføringer';
 $string['optionaldescription'] = 'Kort beskrivelse (opsjon)';
 $string['optionalfilename'] = 'Filnavn (opsjon)';
+$string['other'] = 'Andre';
 $string['overwrite'] = 'Overskriv';
+$string['overwritesettings'] = 'Overskriv nåværende innstillinger';
 $string['pagesize'] = 'Oppføringer pr side';
 $string['participants'] = 'Deltakere';
 $string['picture'] = 'Bilde';
@@ -214,6 +221,7 @@ $string['savesettings'] = 'Lagre innstillinger';
 $string['savesuccess'] = 'Lagringen var vellykket. Forhåndsinnstillingen din vil være aktiv i  hele portalen.';
 $string['savetemplate'] = 'Lagre mal';
 $string['search'] = 'Søk';
+$string['selectedrequired'] = 'Velg alle er påkrevd';
 $string['sendinratings'] = 'Send inn min siste bedømming';
 $string['showall'] = 'Vis alle oppføringer';
 $string['single'] = 'Enkeltvisning';
@@ -223,6 +231,8 @@ $string['templates'] = 'Maler';
 $string['templatesaved'] = 'Malen er lagret';
 $string['text'] = 'Tekst';
 $string['textarea'] = 'Tekstområde';
+$string['timeadded'] = 'Tid lagt til';
+$string['timemodified'] = 'Tid endret';
 $string['todatabase'] = 'til denne databasen.';
 $string['type'] = 'Felttype';
 $string['undefinedprocessactionmethod'] = 'Det er ikke definert noen metode for å behandlet Data_Preset \"$a\".';
