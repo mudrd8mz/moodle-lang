@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 (2007101509)
+      // admin.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -192,6 +192,8 @@ $string['configproxyuser'] = 'Brukernavn nødvendig for å få tilgang på Inter
 $string['configquarantinedir'] = 'Dersom du ønsker at antivirusprogrammet skal flytte infiserte filer til en karantenekatalog, angir du det her. Katalogen må være skrivbar for webserveren. Dersom du lar feltet stå tomt, eller hvis oppgitt katalog ikke eksisterer eller er skrivbar, vil infiserte filer slettes. Ikke legg på /-tegnet etter mappenavnet.';
 $string['configrcache'] = 'Bruk hurtigminne ved lagring i databasen. Husk å velge hurtigminnetype også!';
 $string['configrcachettl'] = 'Levetid for mellomlagrede oppslag, i sekunder. Bruk en kort(&lt;15) verdi her.';
+$string['configrecaptchaprivatekey'] = 'Datastreng som brukes for å kommunisere mellom Moodleserveren din og recapthca.net-serveren. Få en for denne nettsiden ved å besøke http://recaptcha.net';
+$string['configrecaptchapublickey'] = 'Datastreng som brukes for å vise reCAPTCHA elementet i påmeldingsskjemaet. Generert av http://recaptcha.net';
 $string['configrequestedstudentname'] = 'Ord brukt for student i forespurte kurs';
 $string['configrequestedstudentsname'] = 'Ord brukt for studenter i forespurte kurs';
 $string['configrequestedteachername'] = 'Ord brukt for lærer i forespurte kurs';
@@ -262,6 +264,8 @@ $string['cronerrorpassword'] = 'Beklager, du har ikke gyldig passord for tilgang
 $string['cronremotepassword'] = 'Cron passord for fjerntilgang';
 $string['cronwarning'] = '<a href=\"cron.php\">vedlikeholds-skriptet cron.php</a> har ikke blitt kjørt på over 24 timer';
 $string['csvdelimiter'] = 'CSV skilletegn';
+$string['ctyperecommended'] = 'Å installer det valgfrie PHP tillegget ctype er anbefalt på det høyeste for å forbedre nettstedsytelsen, særlig hvis nettstedet ditt støtter ikke-latinske språk (eks. kinesisk, japansk, russisk o.l)';
+$string['ctyperequired'] = 'PHP tillegget ctype er nå påkrevd av Moodle for å forbedre nettstedsytelse og å støtte kompatibilitet med en del andre språk.';
 $string['curlrecommended'] = 'Vi anbefaler sterkt at Curl-biblioteket legges til i php.ini for å aktivere Moodles Nettverksfunksjonalitet.';
 $string['customcheck'] = 'A';
 $string['datarootsecuritywarning'] = 'Site-oppsettet ditt er kanskje ikke sikkert nok. Vennligst sjekk at dataroot katalogen ($a) ikke er direkte tilgjengelig via web.';
@@ -472,6 +476,7 @@ $string['minpasswordlower'] = 'Små bokstaver';
 $string['minpasswordnonalphanum'] = 'Ikke-alfanumeriske tegn';
 $string['minpasswordupper'] = 'Store bokstaver';
 $string['misc'] = 'Forskjellig';
+$string['missinglangparent'] = 'Mangler overordnet språk <em>$a->parent</em> of <em>$a->lang</em>.';
 $string['mnetrestore_extusers'] = '<strong>OBS:</strong> Denne sikkerhetskopien inneholder brukere fra andre Moodle Network-installasjoner som vil bli tilbakeført som en del av gjenopprettingsprosessen.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>OBS:</strong> Denne sikkerhetskopien ser ut til å komme fra en annen Moodle-installasjon og inneholder brukerkontoer fra Moodle Network. Dette kan føre til feil, og funksjonen er ikke støttet. Er du sikker på at denne sikkerhetskopien er opprettet her, eller at nødvendige Moodle Network Host er satt opp, kan du jo forsøke en gjenoppretting.';
 $string['modsettings'] = 'Administrer aktiviteter';
@@ -589,6 +594,8 @@ $string['questioncwqpfscheck'] = 'En eller flere \'tilfeldige\' spørsmål i pr�
 $string['questioncwqpfsok'] = 'Bra. Det er ingen \'tilfeldige\' spørsmål i prøvene som er satt opp til å velge spørsmål fra en blanding av delte og udelte kategorier.';
 $string['rcache'] = 'Hurtiglager';
 $string['rcachettl'] = 'Hurtiglager TTL';
+$string['recaptchaprivatekey'] = 'ReCAPTCHA privat nøkkel';
+$string['recaptchapublickey'] = 'ReCAPTCHA offentlig nøkkel';
 $string['releasenoteslink'] = 'For mer informasjon om denne versjonen av Moodle, sjekk online via  <a target=\"_new\" href=\"$a\">Release Notes</a>';
 $string['remotelangnotavailable'] = 'Moodle får ikke kontakt med download.moodle.org og kan derfor ikke laste ned og installere språkpakker automatisk. Last i stedet ned språkpakkene manuelt og kopier dem til ditt $a katalog og pakk ut der.';
 $string['renameerrors'] = 'Feil ved endring av navn';

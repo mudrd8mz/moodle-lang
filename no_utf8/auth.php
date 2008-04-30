@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 (2007101509)
+      // auth.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -92,6 +92,9 @@ $string['auth_dbuserstoremove'] = 'Brukere å fjerne: $a';
 $string['auth_emaildescription'] = 'E-postbekreftelse er standard autentiseringsmetode. Når brukerne registrerer seg og velger brukernavn og passord, vil en e-post om bekreftelse bli sendt til brukerens e-postadresse. Denne e-posten inneholder en sikker link til en side der brukeren kan bekrefte registreringen. Fremtidige innlogginger kontrolleres kun ved sammenligning av brukernavn og tilhørende passord som ligger i Moodle-databasen.';
 $string['auth_emailnoemail'] = 'Prøvde å sende deg en epost men fikk ikke til!';
 $string['auth_emailnoinsert'] = 'Kunne ikke legge til posten din i databasen!';
+$string['auth_emailrecaptcha'] = 'Legger til en visuell/hørbar bekreftelseselement på siden for egenregistrering ved epost. Denne beskytter siden din mot spammere og bidragsytere for veldedige saker. Se http://recaptcha.net/learnmore.html for flere detaljer';
+$string['auth_emailrecaptcha_key'] = 'Slå på reCAPTCHA element';
+$string['auth_emailsettings'] = 'Innstillinger';
 $string['auth_emailtitle'] = 'E-postbasert autentisering';
 $string['auth_fcchangepasswordurl'] = 'URL for passordendring';
 $string['auth_fcconnfail'] = 'Tilkobling feilet med Feilnr: $a[0] og Feilstreng: $a[1]';
@@ -282,6 +285,8 @@ $string['changepassword'] = 'URL for å endre passord';
 $string['changepasswordhelp'] = 'Her kan du angi et sted der dine brukere kan finne eller endre deres brukernavn og passord hvis de har glemt det. Brukerne vil få vist en knapp på login-siden. Hvis du ikke skriver noe her, vil knappen ikke vises.';
 $string['chooseauthmethod'] = 'Velg en autentiseringsmetode:';
 $string['createpasswordifneeded'] = 'Lag passord om nødvendig';
+$string['enterthenumbersyouhear'] = 'Skriv inn tallene du hører';
+$string['enterthewordsabove'] = 'Skriv inn ordene over';
 $string['errorminpassworddigits'] = 'Passord må ha minst $a tall.';
 $string['errorminpasswordlength'] = 'Passord må være minst $a tegn langt.';
 $string['errorminpasswordlower'] = 'Passord må ha minst $a små bokstaver.';
@@ -293,7 +298,11 @@ $string['forcechangepassword_help'] = 'Tving brukere å endre passord ved neste 
 $string['forcechangepasswordfirst_help'] = 'Tving brukere å endre passord ved første pålogging på Moodle.';
 $string['forgottenpassword'] = 'Hvis du skriver en URL her, vil den bli brukt på mistet passordsiden for siden. Dette er ment når en har passordhåndtering utenom Moodle. La den stå blank for standard passordgjenfinning.';
 $string['forgottenpasswordurl'] = 'Glemt passord URL';
+$string['getanaudiocaptcha'] = 'Få en hørbar CAPTCHA';
+$string['getanimagecaptcha'] = 'Få et bilde CAPTCHA';
+$string['getanothercaptcha'] = 'Få en CAPTCHA til';
 $string['guestloginbutton'] = 'Logg inn-knapp for gjester';
+$string['incorrectpleasetryagain'] = 'Feil. Vær vennlig å prøv en gang til.';
 $string['infilefield'] = 'Felt trengs i filen';
 $string['instructions'] = 'Instruksjoner';
 $string['internal'] = 'Intern';
@@ -308,6 +317,7 @@ $string['passwordhandling'] = 'Passordfelt behandling';
 $string['plaintext'] = 'Ren tekst';
 $string['pluginnotenabled'] = 'Autentiseringsplugin \'$a\'er ikke slått på.';
 $string['pluginnotinstalled'] = 'Autentiseringsplugin \'$a\' er ikke installert.';
+$string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'Tidsavbrudd ved RPC forhandling';
 $string['selfregistration'] = 'Selvregistrering';
 $string['selfregistration_help'] = 'Velg hvilken autentiseringsplugin som vil håndtere selv-registrering.';
