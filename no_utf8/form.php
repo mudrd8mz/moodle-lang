@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 + (2007021503)
+      // form.php - created with Moodle 1.9 (2007101509)
 
 
 $string['addfields'] = 'Legg til $a felter i dette skjemaet';
@@ -26,12 +26,15 @@ $string['month'] = 'Måned';
 $string['nomethodforaddinghelpbutton'] = 'Det er ingen prosedyrer for å legge til hjelp-knapp til skjemaelementet $a->name (class $a->classname)';
 $string['nonexistentformelements'] = 'Du forsøker å legge til en hjelp-knapp til et ikkeeksisterende skjemaelement: $a';
 $string['optional'] = 'Valgfritt';
+$string['othersettings'] = 'Andre innstillinger';
 $string['requiredelement'] = 'Obligatorisk felt';
 $string['revealpassword'] = 'Avdekke';
 $string['security'] = 'Sikkerhet';
+$string['selectallornone'] = 'Velg alle/ingen';
 $string['showadvanced'] = 'Vis Avansert';
 $string['somefieldsrequired'] = 'Det er obligatoriske felt merket med $a i dette skjemaet.';
 $string['timing'] = 'Tidsbegrensning';
+$string['unmaskpassword'] = 'Vis passord';
 $string['year'] = 'År';
 
 ?>

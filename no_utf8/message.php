@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 dev (2007071300)
+      // message.php - created with Moodle 1.9 (2007101509)
 
 
 $string['addcontact'] = 'Legg til kontakt';
@@ -27,11 +27,13 @@ $string['includeblockedusers'] = 'Ta med blokkerte brukere';
 $string['incomingcontacts'] = 'Innkommende kontakter ($a)';
 $string['keywords'] = 'Nøkkelord';
 $string['keywordssearchresults'] = 'Søkeresultater: $a meldinger funnet';
+$string['mailsent'] = 'Beskjeden din ble sendt via epost';
 $string['maxmessages'] = 'Maks antall meldinger å vise i diskusjonshistorien din';
 $string['message'] = 'Melding';
 $string['messagehistory'] = 'Meldingshistorie';
 $string['messages'] = 'Meldinger';
 $string['messaging'] = 'Å sende meldinger';
+$string['messagingdisabled'] = 'Meldingstjenesten er slått av på dette nettstedet, epost vil bli sendt i stedet.';
 $string['mycontacts'] = 'Mine kontakter';
 $string['newonlymsg'] = 'Vis bare nye';
 $string['newsearch'] = 'Nytt søk';
@@ -55,6 +57,7 @@ $string['searchforperson'] = 'Søk etter en person';
 $string['searchmessages'] = 'Søk etter melding';
 $string['sendmessage'] = 'Send melding';
 $string['sendmessageto'] = 'Send melding til $a';
+$string['sendmessagetopopup'] = 'Send melding til $a - nytt vindu';
 $string['settings'] = 'Innstillinger';
 $string['settingssaved'] = 'Innstillingene dine har blitt lagret';
 $string['showmessagewindow'] = 'Vis automatisk meldingsvindu når jeg får nye meldinger (Nettleseren din må være inntillt slik at den ikke blokkerer oppsprettsvinduer fra denne siden)';
