@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 (2007101509)
+      // moodle.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -305,6 +305,7 @@ $string['createuserandpass'] = 'Lag et nytt brukernavn og passord for innlogging
 $string['createziparchive'] = 'Lag ziparkiv';
 $string['creatingblocks'] = 'Lager bokser';
 $string['creatingblocksroles'] = 'Oppretter blokknivå rolle-rettigheter og overstyringer';
+$string['creatingblogsinfo'] = 'Lager blogginfo';
 $string['creatingcategoriesandquestions'] = 'Lager kategorier og spørsmål';
 $string['creatingcoursemodules'] = 'Lager kursmoduler';
 $string['creatingcourseroles'] = 'Oppretter kursnivå rolle-rettigheter og overstyringer';
@@ -918,6 +919,7 @@ $string['moodledocslink'] = 'Moodledokumentasjon for denne siden';
 $string['moodleversion'] = 'Moodleversjon';
 $string['more'] = 'mer';
 $string['moreinformation'] = 'Mer informasjon om denne feilen';
+$string['moreprofileinfoneeded'] = 'Fortell oss mer om deg selv';
 $string['mostrecently'] = 'siste';
 $string['move'] = 'Flytt';
 $string['movecategoryto'] = 'Flytt kategori til:';
@@ -1115,6 +1117,7 @@ $string['periodending'] = 'Peridoen slutter ($a)';
 $string['personal'] = 'Personlig';
 $string['personalprofile'] = 'Personlig profil';
 $string['phone'] = 'Telefon';
+$string['phone2'] = 'Mobiltelefon';
 $string['phpinfo'] = 'PHP-info';
 $string['pictureof'] = 'Bilde av $a';
 $string['pleaseclose'] = 'Vennligst lukk dette vinduet';
@@ -1557,6 +1560,7 @@ $string['wordforteacher'] = 'Ditt ord for lærer';
 $string['wordforteachereg'] = 'eks. lærer, veileder, professor osv.';
 $string['wordforteachers'] = 'Ditt ord for lærere';
 $string['wordforteacherseg'] = 'eks. lærere, veileder, professorer osv.';
+$string['writingblogsinfo'] = 'Skriver blogginfo';
 $string['writingcategoriesandquestions'] = 'Skriver kategorier og spørsmål';
 $string['writingcoursedata'] = 'Skriver kursdata';
 $string['writingeventsinfo'] = 'Skriver info om hendelser';
