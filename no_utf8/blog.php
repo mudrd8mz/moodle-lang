@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 (2007101509)
+      // blog.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
 
 
 $string['addnewentry'] = 'Nytt innlegg';
@@ -34,6 +34,7 @@ $string['notallowedtoedit'] = 'Du har ikke tillatelse til å redigere dette innl
 $string['numberofentries'] = 'Innlegg: $a';
 $string['numberoftags'] = 'Antall tagger som kan vises';
 $string['pagesize'] = 'Antall innlegg pr side';
+$string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'Brukere kan kun se deres egne blogger';
 $string['publishto'] = 'Publisert til';
 $string['publishtonoone'] = 'Meg selv (kladd)';
