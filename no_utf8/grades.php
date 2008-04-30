@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 (2007101509)
+      // grades.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
 
 
 $string['activities'] = 'Aktiviteter';
@@ -183,7 +183,7 @@ $string['forelementtypes'] = 'for de valgte $a';
 $string['forstudents'] = 'For Students';
 $string['full'] = 'Full';
 $string['fullmode'] = 'Full visning';
-$string['generalsettings'] = 'Generelle innstillinger';
+$string['generalsettings'] = 'Generelt';
 $string['grade'] = 'Karakter';
 $string['gradebook'] = 'Karakterbok';
 $string['gradebookhiddenerror'] = 'Karakterboken er for tiden satt til å skjule alt fra studenten';
@@ -192,7 +192,7 @@ $string['gradeboundary'] = 'Grenser for bokstavkarakterer';
 $string['gradecategories'] = 'Karakterkategorier';
 $string['gradecategory'] = 'Karakterkategori';
 $string['gradecategoryhelp'] = 'Hjelp for karakterkategorier';
-$string['gradecategorysettings'] = 'Innstillinger for karakterkategorier';
+$string['gradecategorysettings'] = 'Karakterkategorier';
 $string['gradedisplay'] = 'Karaktervisning';
 $string['gradedisplaytype'] = 'Type karaktervisning';
 $string['gradedon'] = 'Satt karakter: $a';
@@ -211,7 +211,7 @@ $string['gradeitemmembersselected'] = 'Eksludert fra karaktersetting';
 $string['gradeitemnonmembers'] = 'Inkludert i karaktersetting';
 $string['gradeitemremovemembers'] = 'Inkluder i karaktersetting';
 $string['gradeitems'] = 'Sett karakter';
-$string['gradeitemsettings'] = 'Innstillinger for karaktersetting';
+$string['gradeitemsettings'] = 'Karaktersetting';
 $string['gradeitemsinc'] = 'Karakterenheter som skal inkluderes';
 $string['gradeletter'] = 'Bokstavkarakter';
 $string['gradeletterhelp'] = 'Hjelp for bokstavkarakter';
