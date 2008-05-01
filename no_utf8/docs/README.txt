@@ -1,46 +1,24 @@
-Moodle dokumentasjon
---------------------
+Denne mappen brukte � inneholde masse dokumentasjon som websider.
+Alt er borte fordi en n� bruker Moodle Docs Wiki.
 
-Hvis du ønsker å oversette denne dokumentsjon til et annet språk, 
-foreslår jeg at du:
+For � finne nye steder for all informasjonen som var her se:
 
- 1) ikke inkluderer engelske versjoner av filene i denne mappen 
-    fordi de automatisk vil bli brukt uansett hvis de mangler fra din
-    språkpakke.
+    http://docs.moodle.org/no/
+    http://docs.moodle.org/en/MoodleDocs_and_lang_packs
+    http://tracker.moodle.org/browse/MDL-4912
 
- 2) oversett dem i denne rekkefølge (de viktigste listes først):
+John H., 1 mai 2008
 
-    VIKTIGST
-    |--------------------
-    | 
-    |  - files.php
-    |  - install.php
-    |  - installamp.html
-    |  - upgrade.html
-    |  - faq.html
-    |
-    | -------------------
-    |
-    |  - teacher.html
-    |  - module_files.txt
-    |  
-    | -------------------
-    |  
-    |  - intro.html
-    |  - features.html
-    |  - release.html
-    |
-    | -------------------
-    |  
-    |  - developer.html
-    |  - cvs.html
-    |  - future.html
-    | 
-    | -------------------
-    |
-    |  - license.html
-    |  
-    | -------------------
-    LEAST IMPORTANT
+This directory used to contain lots of documentation in HTML form.
 
- 3) Ikke oversett credits.html i det hele tatt - den endres for mye.
+All of it has gone now because we now use the Moodle Docs wiki.
+
+
+To find out the new locations for all the information that was here, see:
+
+    http://docs.moodle.org/en/MoodleDocs_and_lang_packs
+
+    http://tracker.moodle.org/browse/MDL-4912
+
+Cheers,
+Martin Dougiamas, 10th July 2007
