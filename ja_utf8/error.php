@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080427) (2008030700)
+      // error.php - created with Moodle 2.0 dev (Build: 20080430) (2008030700)
 
 
 $string['adminprimarynoedit'] = '主管理者は他のユーザから編集することはできません。';
@@ -84,6 +84,7 @@ $string['guestnoeditprofile'] = 'ゲストユーザはプロファイルを変�
 $string['guestnoeditprofileother'] = 'ゲストユーザのプロファイルを変更できません。';
 $string['invalidaccessparameter'] = '無効なアクセスパラメータです。';
 $string['invalidaction'] = '無効なアクションパラメータです。';
+$string['invalidargorconf'] = '有効な引数が提供されていないか、サーバ設定が正しくありません。';
 $string['invalidarguments'] = '有効な引数が提供されていません。';
 $string['invalidcourse'] = '無効なコース';
 $string['invalidcourseid'] = 'あなたは無効なコースID ($a) の使用を試みています。';
@@ -145,6 +146,7 @@ $string['onlyadmins'] = '管理者のみ処理可能です。';
 $string['onlyeditingteachers'] = '編集権限を持った教師のみ処理可能です。';
 $string['onlyeditown'] = '他の人の情報は編集できません。';
 $string['pagenotexist'] = '異常なエラー (存在しないページへのアクセス) が発生しました。';
+$string['pathdoesnotstartslash'] = '有効な引数が提供されていないか、パスがスラッシュで始まっていません!';
 $string['pleasereport'] = 'あなたに時間がある場合、エラーが発生したとき、あなたが何を試みたのか私たちにお教えください。';
 $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($a->pluginversion) がインストールされませんでした。インストールするには、新しいバージョンのMoodleが必要です (現在使用しているバージョン: $a->currentmoodle  インストールに必要なバージョン: $a->requiremoodle)。';
 $string['processingstops'] = 'ここで処理が停止します。残りのレコードは無視されました。';
@@ -156,6 +158,7 @@ $string['sendmessage'] = 'メッセージを送信する';
 $string['sessionerroruser'] = 'セッションがタイムアウトしました。再度ログインしてください。';
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検知されました。再度ログインするかブラウザを再起動してください。';
 $string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。通常のユーザは、このメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
+$string['socksnotsupported'] = 'PHP4では、SOCKS5プロクシがサポートされていません。';
 $string['statscatchupmode'] = '統計は現在キャッチアップモードです。今までのところ $a->daysdone 日分が処理され、$a->dayspending 日分が未処理です。すぐに確認してください!';
 $string['statsdisable'] = '統計が有効にされていません。';
 $string['statsnodata'] = 'このコースおよび期間の組み合わせデータはありません。';
@@ -171,6 +174,7 @@ $string['unspecifycourseid'] = 'コースID、省略名またはIDナンバー�
 $string['unsupportedevent'] = 'サポートされていないイベントタイプです。';
 $string['updatersserror'] = 'ID $a のRSSフィードの更新中にエラーが発生しました。';
 $string['upgradefail'] = 'アップグレードに失敗しました! $a';
+$string['upgraderequires19'] = 'エラー: このサーバに新しいMoodleバージョンがインストールされました。残念ですが、前のバージョンからのアップグレードがサポートされていません。<br />最初に、最新の1.9.xリリースにアップグレードしてください。オリジナルファイルを再インストールすることで、あなたは元のバージョンに戻ることができます。';
 $string['upgradeversionfail'] = 'バックアップシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)';
 $string['urlnotdefinerss'] = 'RSSフィードのURIが定義されていません。';
 $string['userautherror'] = '不明な認証プラグイン「 $a 」';

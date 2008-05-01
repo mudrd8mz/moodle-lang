@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080430) (2008030700)
 
 
 $string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできません!';
@@ -14,6 +14,7 @@ $string['dbnotupdate'] = 'データベースエラー - 更新できません ($
 $string['doesnotworkwitholdversion'] = 'このスクリプトは、この古いバージョンのMoodleでは動作しません。';
 $string['erroroccur'] = 'この処理中にエラーが発生しました。';
 $string['fixsetting'] = 'あなたのconfig.php設定を修正してください: <p>あなたは次のように設定していますが:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>実際には次のように設定する必要があります:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
+$string['nomodules'] = 'モジュールが見つかりません!!';
 $string['notables'] = 'テーブルがありません!';
 $string['phpvaroff'] = 'PHPサーバ変数「 $a[0] 」をOffにしてください - $a[1]';
 $string['phpvaron'] = 'PHPサーバ変数「 $a[0] 」がOnにされていません - $a[1]';
