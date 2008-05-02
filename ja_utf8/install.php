@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
+      // install.php - created with Moodle 2.0 dev (Build: 20080502) (2008050100)
 
 
 $string['aborting'] = 'インストール異常終了';
@@ -245,8 +245,11 @@ $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHPのODBC拡張モジュールが適切に設定されていないため、SQL*Serverと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['pass'] = 'パス';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHPのPGSQL拡張モジュールが適切に設定されていないため、PostgreSQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
+$string['php52versionerror'] = '少なくとも5.2.0以上のPHPバージョンを使用してください。';
+$string['php52versionhelp'] = '<p>Moodleでは、少なくとも5.2.0以上のPHPバージョンを必要とします。</p>
+<p>現在、あなたはPHPバージョン $a を使用しています。</p>
+<p>あなたは、PHPをアップグレードするか、新しいバージョンのPHPを使用しているホストに移動する必要があります!</p>';
 $string['phpversion'] = 'PHPバージョン';
-$string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください (5.0.x には既知の多数の問題があります)。';
 $string['phpversionhelp'] = '<p>Moodleには、少なくとも 4.3.0 または 5.1.0 のPHPバージョンが必要です (5.0.x には既知の多数の問題があります)。</p>
 <p>現在、バージョン $a が動作しています。</p>
 <p>PHPをアップグレードするか、新しいバージョンがインストールされているホストに移動してください!<br/>
@@ -325,6 +328,7 @@ $string['writetoconfigfilefaild'] = 'エラー: config.phpファイルの書き�
 $string['wwwroot'] = 'ウェブアドレス';
 $string['wwwrooterror'] = '「ウェブアドレス」が正しくありません - インストール済みMoodleはそこに表示されません。下記の値はリセットされました。';
 $string['yourchoice'] = 'あなたの選択 :';
+$string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください (5.0.x には既知の多数の問題があります)。'; // TBD
 $string['unsafedirname'] = 'エラー: ディレクトリ名に安全でない文字が含まれています。有効な文字は、「a-zA-Z0-9_」です。'; // TBD
 
 ?>
