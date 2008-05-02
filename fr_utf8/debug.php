@@ -14,6 +14,7 @@ $string['dbnotsetup'] = 'Erreur&nbsp;: la base de données principale <b>n\'a pa
 $string['doesnotworkwitholdversion'] = 'Ce script ne fonctionne pas avec cette ancienne version de Moodle';
 $string['erroroccur'] = 'Une erreur est survenue durant cette procédure';
 $string['fixsetting'] = 'Veuillez corriger vos réglages dans le fichier config.php. <p>Vous avez&nbsp;:</p> <p>\$CFG->dirroot = \"$a[0]\";</p> <p>alors qu\'il devrait y avoir</p> <p>\$CFG->dirroot = \"$a[1]\"</p>';
+$string['nomodules'] = 'Aucun module trouvé&nbsp;!';
 $string['notables'] = 'Pas de tables&nbsp;!';
 $string['phpvaroff'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP devrait être sur Off - $a[1]';
 $string['phpvaron'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP n\'set pas sur On - $a[1]';

@@ -28,6 +28,7 @@ $string['bynameondate'] = 'par $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Pour créer une discussion dans ce forum, vous devez être membre d\'un groupe.';
 $string['cannotadddiscussionall'] = 'Vous n\'avez pas la permission de commencer une nouvelle discussion pour tous les participants.';
 $string['cannotdeleteforummodule'] = 'Le module forum ne peut pas être supprimé&nbsp;!';
+$string['cannotfindorcreateforum'] = 'Impossible de trouver ou de créer le forum de nouvelles principal pour ce site';
 $string['cannotviewpostyet'] = 'Vous ne pouvez pas lire les questions des autres étudiants, car vous n\'avez pas encore écrit de message';
 $string['cleanreadtime'] = 'Heure de nettoyage des messages lus';
 $string['configcleanreadtime'] = 'L\'heure à laquelle nettoyer les anciens messages de la table des messages lus.';
