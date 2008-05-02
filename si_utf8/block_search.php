@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 2.0 dev (2007101508)
+      // block_search.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
 
 
 $string['blockname'] = 'ගෝලීය සෙවීම';
@@ -14,5 +14,6 @@ $string['configwordtotextcmd'] = 'doctotext විධානය සඳහා ප�
 $string['configwordtotextenv'] = 'MSWord පරිවර්තකය සඳහා පාරසරික සැකසීම්';
 $string['go'] = 'යන්න!';
 $string['searchmoodle'] = 'මූඩ්ල් තුල සොයන්න';
+$string['usemoodleroot'] = 'බාහිර පරිවර්තකයන් සඳහා මූඩ්ල් මූලය භාවිතා කරන්න';
 
 ?>
