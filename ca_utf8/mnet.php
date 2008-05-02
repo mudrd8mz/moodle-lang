@@ -18,6 +18,7 @@ $string['hostname'] = 'Nom del servidor';
 $string['hostsettings'] = 'Paràmetres del servidor';
 $string['invalidurl'] = 'El paràmetre URL no és vàlid';
 $string['ipaddress'] = 'Adreça IP';
+$string['loginlinkmnetuser'] = '<br/>Si sou un usuari remot de Moodle en Xarxa i podeu <a href=\"$a\">confirmar la vostra adreça de correu aquí</a>, us podem redirigir a la vostra pàgina d\'entrada.<br />';
 $string['mnet'] = 'Moodle en Xarxa';
 $string['mnetdisabled'] = 'Moodle en Xarxa està <strong>inhabilitat</strong>';
 $string['mnetenrol'] = 'Inscripcions';
