@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080430) (2008030700)
+      // error.php - created with Moodle 2.0 dev (Build: 20080502) (2008050100)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 수정될 수 없음';
@@ -7,6 +7,7 @@ $string['backupcontainexternal'] = '이 백업 파일에는 이 곳과는 관련
 $string['backuptablefail'] = '백업 테이블을 제대로 설정할 수 없습니다!';
 $string['blockcannotconfig'] = '이 블록은 전역 설정을 지원하지 않음';
 $string['blockcannotinistantiate'] = '블록 객체의 초기화 문제';
+$string['blockcannotread'] = '블록ID $a 에 대한 자료를 읽을 수 없음';
 $string['blockdoesnotexist'] = '블록이 존재하지 않음';
 $string['cannotaddrss'] = 'rss 송출을 추가할 수 있는 권한이 없음';
 $string['cannotassignrole'] = '강좌의 역할을 지명할 수 없음';
@@ -42,6 +43,7 @@ $string['cannotsavemd5file'] = 'md5 파일을 저장할 수 없습니다.';
 $string['cannotsavezipfile'] = 'ZIP 파일을 저장할 수 없습니다.';
 $string['cannotsetupcategory'] = '심각한 오류! 기본 강좌 범주를 설정할 수 없음!';
 $string['cannotsetupsite'] = '심각한 오류! 사이트를 설정할 수 없음!';
+$string['cannotunassignrolefrom'] = '이용자를 역할 id: $a 에서 해임할 수 없음';
 $string['cannotunzipfile'] = '압축된 파일을 풀 수 없습니다.';
 $string['cannotupdaterole'] = '역할을 갱신할 수 없음!';
 $string['cannotuseadmin'] = '이 화면을 사용하려면 관리자가 되어야 함';
@@ -86,6 +88,7 @@ $string['invalidaccessparameter'] = '유효하지 않은 접속 매개 변수';
 $string['invalidaction'] = '유효하지 않은 작동 매개 변수';
 $string['invalidargorconf'] = '적절한 인수가 제공되지 않았거나 서버 설정이 잘못 되었음';
 $string['invalidarguments'] = '적절한 인수가 제공되지 않음';
+$string['invalidcontext'] = '잘못된 컨텍스트';
 $string['invalidcourse'] = '잘못된 강좌';
 $string['invalidcourseid'] = '잘못된 강좌 아이디:($a)를 입력하려고 함';
 $string['invalidcoursemodule'] = '바르지 않은 강좌 모듈 식별번호';
@@ -96,7 +99,9 @@ $string['invalidfiletype'] = '\"$a\"는 쓸 수 있는 파일형태가 아님';
 $string['invalidgroupid'] = '잘못된 모둠 id를 지정';
 $string['invalidipformat'] = '잘못된 IP 주소 형식';
 $string['invalidmd5'] = '잘못된 md5';
-$string['invalidmodule'] = '잘못된 모듈 ID';
+$string['invalidmodule'] = '잘못된 모듈';
+$string['invalidmoduleid'] = '잘못된 모듈 ID : $a';
+$string['invalidmodulename'] = '잘못된 모듈 명칭 : $a';
 $string['invalidpagesize'] = '잘못된 화면 크기';
 $string['invalidrequest'] = '잘못된 요청';
 $string['invalidrole'] = '잘못된 역할';
@@ -158,10 +163,12 @@ $string['sendmessage'] = '메세지 보내기';
 $string['sessionerroruser'] = '세션이 종료 되었습니다. 다시 로그인 하십시오.';
 $string['sessionerroruser2'] = '로그인 세션에 영향을 줄만한 서버 오류가 발생했습니다. 다시 로그인 하시거나 인터넷 창을 다시 켜주십시오.';
 $string['sessionipnomatch'] = '죄송합니다 당신의 아이피 주소가 처음 로그인 했을 때와 다릅니다. 이 보안 기능은 해커가 아이디를 도용해 이 사이트에 접속하는 것을 방지합니다. 정상적인 사용자들에게는 이 메시지가 나타나지 않을 것입니다. 도움을 원한다면 이 사이트의 운영자에게 문의하시기 바랍니다.';
+$string['socksnotsupported'] = 'PHP4는 SOCKS5 프록시를 지원하지 않음';
 $string['statscatchupmode'] = '현재 통계 수집중에 있습니다. 현재 $a->daysdone 일간의 자료가 처리되었고 $a->dayspending 가 처리 대기중에 있습니다. 잠시후 다시 확인해 주시기 바랍니다!';
 $string['statsdisable'] = '통계가 활성화되어 있지 않음';
 $string['statsnodata'] = '강좌 및 시한의 조합 조건에 맞는 자료가 없습니다.';
 $string['tagnotfound'] = '지정한 태그가 데이터베이스에 없음';
+$string['unenrolerror'] = '그 사람을 제명시키려 하는 중에 오류 발생';
 $string['unicodeupgradeerror'] = '데이터베이스가 아직 유니코드가 아니지만 이 무들판으로는  여러분의 데이터베이스를 유니코드로 변환시킬 수 없습니다. 우선 무들을 1.7.x버전대로 판올림을 하시고 그곳의 관리자화면에서 유니코드로 변환해 주시기 바랍니다. 그 이후에나 무들 $a 로 이전해 갈 수 있을 것입니다.';
 $string['unknowaction'] = '알 수 없는 활동!';
 $string['unknowncourse'] = '\"$a\"라는 알려지지 않은 강좌';
@@ -173,6 +180,7 @@ $string['unspecifycourseid'] = '반드시 강좌 아이디, 단축명 혹은 ID 
 $string['unsupportedevent'] = '지원되지 않는 일정 유형';
 $string['updatersserror'] = 'id: $a 로 rss 송출 갱신 중 오류 발생';
 $string['upgradefail'] = '$a 판올림 실패!';
+$string['upgraderequires19'] = '오류: 무들의 새판이 서버에 설치되었습니다만, 안타깝께도 기존의 판에서는 판올림을 지원하지 않습니다.<br />우선 최근의 1.9.x로 판올림하시기 바랍니다. 한편 전에 있던 판을 재 설치해서 원래의 판으로 되돌아 갈 수도 있습니다.';
 $string['upgradeversionfail'] = '백업시스템 판올림 실패! (설정 테이블의 판 갱신을 할 수 없음)';
 $string['urlnotdefinerss'] = 'rss 송출을 위한 URL이 정의되지 않음';
 $string['userautherror'] = '알 수 없는 인증 플러그 인';

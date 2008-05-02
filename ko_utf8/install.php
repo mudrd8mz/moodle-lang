@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (2007101508)
+      // install.php - created with Moodle 2.0 dev (Build: 20080502) (2008050100)
 
 
 $string['aborting'] = '설치 취소';
@@ -242,8 +242,11 @@ $string['odbc_mssql'] = 'ODBC를 통한 SQL*Server (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'ODBC 익스텐션으로 PHP가 SQL*서버와 통신하도록 적절히 설정되지 않았습니다. php.ini 파일을 점검하거나 PHP를 다시 컴파일 하십시오.';
 $string['pass'] = '통과';
 $string['pgsqlextensionisnotpresentinphp'] = 'PGSQL 익스텐션으로 PHP가 PostgreSQL 서버와 통신하도록 적절히 설정되지 않았습니다. php.ini 파일을 점검하거나 PHP를 다시 컴파일 하십시오.';
+$string['php52versionerror'] = 'PHP는 최소한 5.2.0 이상이어야 합니다.';
+$string['php52versionhelp'] = '<p>무들은 최소한 PHP 5.2.0 이상을 요구합니다..</p>
+<p>현재 구동되고 있는 판은 $a 입니다.</p>
+<p>PHP를 판올림하던가 새 판을 지원하는 호스트로 이전해야 합니다!</p>';
 $string['phpversion'] = 'php버젼';
-$string['phpversionerror'] = 'php 버젼은 최소한 4.3.0 혹은 5.1.0. 이상 이어야합니다.(5.0.x는 버그가 있다고 알려져 있습니다)';
 $string['phpversionhelp'] = '<p>무들은 적어도 PHP4.3.0 혹은 5.1.0. 이상 이어야합니다.(5.0.x는 버그가 있다고 알려져 있습니다)</p>
 <p>현재 구동되고 있는 PHP버전은 $a 입니다.</p>
 <p>PHP를 업그레이드 하시거나 새버전을 제공하는 웹호스팅 업체로 이전하기를 권합니다!<br />(만일 5.0.x버전을 사용 중이라면 4.4.x 버전으로 다운그레이드 할 수 있습니다)</p>';
@@ -322,6 +325,7 @@ $string['writetoconfigfilefaild'] = '오류 : 설정 파일 쓰기 실패';
 $string['wwwroot'] = '웹 주소';
 $string['wwwrooterror'] = '이 웹 주소는 유효한 것 같지 않습니다 - 무들 설치 프로그램이 거기에 없습니다.';
 $string['yourchoice'] = '/n 선택 :';
+$string['phpversionerror'] = 'php 버젼은 최소한 4.3.0 혹은 5.1.0. 이상 이어야합니다.(5.0.x는 버그가 있다고 알려져 있습니다)'; // ORPHANED
 $string['unsafedirname'] = '오류 : 경로명에 적절치 않은 문자 포함. 사용가능한 문자는 a-zA-Z0-9_- 입니다. /n'; // ORPHANED
 
 ?>

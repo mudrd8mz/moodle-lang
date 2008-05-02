@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101508.08)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080502) (2008050100)
 
 
 $string['allowdeleting'] = '삭제 허용';
@@ -59,6 +59,7 @@ $string['helpupload'] = '<p>이 과제 유형은 학생들이 어떤 형태의 �
 $string['helpuploadsingle'] = '<p>이 과제 유형은 각각의 참여자들에게 하나의 화일을 업로드 할 것을 요구합니다.</p>
 <p>화일은 워드프로세서 문서 혹은 이미지, 압축된 웹 사이트, 혹은 여러분이 요청했던 어떤 것이든 관계 없습니다.</p>';
 $string['hideintro'] = '시작 일시 전에는 설명 감춤';
+$string['invalidid'] = '과제의 ID가 틀렸음';
 $string['itemstocount'] = '갯수';
 $string['late'] = '$a 늦음';
 $string['maximumgrade'] = '최대 점수';
