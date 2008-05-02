@@ -157,6 +157,7 @@ $string['sendmessage'] = 'Envoyer un message';
 $string['sessionerroruser'] = 'Votre session est échue. Veuillez vous connecter à nouveau.';
 $string['sessionerroruser2'] = 'Une erreur du serveur affectant votre session de connexion a été détectée. Veuillez vous connecter à nouveau ou relancer votre navigateur.';
 $string['sessionipnomatch'] = 'Désolé, votre adresse IP semble avoir changé depuis votre première connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Les utilisateurs ne devraient en principe pas rencontrer ce message. Veuillez demander de l\'aide à l\'administrateur de ce site.';
+$string['socksnotsupported'] = 'Le proxy SOCKS5 n\'est pas supporté en PHP4';
 $string['statscatchupmode'] = 'Les statistiques sont en cours de traitement. Jusqu\'ici, $a->daysdone jour(s) ont été traités. Il en reste $a->dayspending à traiter. Veuillez patienter et revenir plus tard&nbsp;!';
 $string['statsdisable'] = 'Les statistiques ne sont pas activées.';
 $string['statsnodata'] = 'Aucune donnée disponible pour ce cours et cette période.';
