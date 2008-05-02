@@ -172,6 +172,7 @@ $string['unspecifycourseid'] = 'Vous devez indiquer l\'identifiant du cours, son
 $string['unsupportedevent'] = 'Type d\'événement non supporté';
 $string['updatersserror'] = 'Une erreur est survenue lors de la mise à jour du fil RSS d\'identifiant $a';
 $string['upgradefail'] = 'Échec de la mise à jour&nbsp: $a';
+$string['upgraderequires19'] = 'Erreur&nbsp;! Une nouvelle version de Moodle a été installée sur le serveur. Malheureusement, la mise à jour à partir de la version installée actuellement n\'est pas supportée.<br />Veuillez effectuer d\'abord une mise à jour vers la dernière version 1.9.x. Vous pouvez revenir à votre version actuelle en la réinstallant.';
 $string['upgradeversionfail'] = 'La mise à jour du système de sauvegarde a échoué&nbsp;: impossible de mettre à jour la version dans la table de configuration.';
 $string['urlnotdefinerss'] = 'URL du fil RSS non défini';
 $string['userautherror'] = 'Méthode d\'authentification inconnue.';
