@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_glossary_random.php - created with Moodle 1.8 dev (2006102600)
+      // block_glossary_random.php - created with Moodle 2.0 dev (Build: 20080503) (2008050200)
 
 
 $string['addentry'] = 'お気に入りの引用を追加!';
@@ -11,8 +11,8 @@ $string['intro'] = '少なくとも1つ以上のエントリが登録されて�
 $string['invisible'] = '(続く)';
 $string['lastmodified'] = '最新の更新';
 $string['nextone'] = '順次';
-$string['noentriesyet'] = '選択された用語集にはエントリが登録されていません。';
-$string['notyetconfigured'] = '編集アイコンをクリックしてブロック設定を行ってください。';
+$string['noentriesyet'] = '選択された用語集には、エントリが登録されていません。';
+$string['notyetconfigured'] = '編集アイコンをクリックして、ブロックを設定してください。';
 $string['notyetglossary'] = '少なくとも1つの用語集を選択してください。';
 $string['random'] = 'ランダム';
 $string['refresh'] = '新しいエントリとみなされる日数';

@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_course_summary.php - created with Moodle 1.8 dev (2006102600)
+      // block_course_summary.php - created with Moodle 2.0 dev (Build: 20080503) (2008050200)
 
 
-$string['coursesummary'] = 'コース要約';
+$string['coursesummary'] = 'コースサマリ';
 $string['pagedescription'] = 'コース/サイト説明';
 
 ?>
