@@ -1,4 +1,7 @@
-<?PHP // 
+<?PHP // $Id$ 
+      // feedback.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+
+
 $string['add_item'] = 'Itema erantsi';
 $string['add_items'] = 'Itemak erantsi';
 $string['all_old_values_will_be_deleted'] = 'Gordetako balore guztiak ezabatu egingo dira';
@@ -7,79 +10,83 @@ $string['analysis'] = 'Analisia';
 $string['anonymous'] = 'Izengabea';
 $string['anonymous_edit'] = 'Izengabea editatu';
 $string['anonymous_entries'] = 'Izenik gabeko sarrerak';
+$string['anonymous_user'] = 'Erabiltzaile ezezaguna';
 $string['are_you_sure_to_delete_this_entry'] = 'Sarrera hau ezabatu nahi duzula ziur al zaude?';
-$string['are_you_shure_to_delete_this_item'] = 'Item hau ezabatu nahi duzula ziur al zaude?';
-$string['are_you_shure_to_delete_this_template'] = 'Txantiloi hau ezabatu nahi duzula ziur al zaude?';
-$string['are_you_shure_to_use_this_template'] = 'Txantiloi hau erabili nahi duzula ziur al zaude?';
-$string['average'] = 'Kopurua';
+$string['average'] = 'Bataz bestekoa';
 $string['bold'] = 'Markatua';
 $string['cancel_moving'] = 'Mugitzeari utzi';
-$string['check_values'] = 'Aukera edo balore posibleak';
 $string['check'] = 'Aukera anitzeko karratutxoa';
+$string['check_values'] = 'Aukera edo balore posibleak';
 $string['checkbox'] = 'Aukera anitzeko karratutxoa';
+$string['choosefile'] = 'Fitxategia aukeratu';
 $string['complete_the_form'] = 'Formularioa bete';
 $string['completed'] = 'bukatua';
 $string['completed_feedbacks'] = 'Bukatutako inkestak';
-$string['creating_templates'] = 'txantiloiak sortzen...';
 $string['courseid'] = 'Ikastaroaren IDa';
-$string['delete_item'] = 'Elementua ezabatu';
+$string['creating_templates'] = 'txantiloiak sortzen...';
 $string['delete_entry'] = 'Sarrera ezabatu';
+$string['delete_item'] = 'Elementua ezabatu';
 $string['delete_template'] = 'Txantiloia ezabatu';
 $string['delete_templates'] = 'Txantiloiak ezabatu';
 $string['description'] = 'Deskribapena';
-$string['dropdown_values'] = 'Aukera edo balore posibleak';
 $string['dropdown'] = 'Zerrenda zabalgarria';
+$string['dropdown_values'] = 'Aukera edo balore posibleak';
 $string['dropdownlist'] = 'Zerrenda';
 $string['dropdownrated'] = 'Zerrenda zabalgarria (neurtua)';
 $string['edit_item'] = 'Elementua editatu';
 $string['edit_items'] = 'Elementuak editatu';
 $string['email_notification'] = 'E-Mail-abisua';
-$string['emailteachermail'] = '$a->erabiltzaileak inkesta hau bete eta bidali du: \'$a->feedback\'
+$string['emailteachermail'] = '$a->username (k) inkesta hau bete eta bidali du: \'$a->feedback\'
 
 Hemen ikus dezakezu:
 
 $a->url';
-$string['emailteachermailhtml'] = '$a->erabiltzaileak inkesta hau bete eta bidali du: <i>\'$a->feedback\'</i><br /><br />
-<a href=\"$a->url\">Wwebgune honetan</a> ikus dezakezu.';
+$string['emailteachermailhtml'] = '$a->username (k) inkesta hau bete eta bidali du: <i>\'$a->feedback\'</i><br /><br />
+<a href=\"$a->url\">Hemen</a> ikus dezakezu.';
 $string['entries_saved'] = 'Gordetako sarrerak';
-$string['every_defines_self'] = 'Aukera pertsonala';
+$string['export_questions'] = 'Elementuak esportatu';
 $string['export_to_excel'] = 'Excelera esportatu';
+$string['file'] = 'Fitxategia';
 $string['filter_by_course'] = 'Ikastaroen araberako bilaketa';
-$string['go_back_to'] = 'Atzera joan';
+$string['handling_error'] = 'Errorea sortu da eta feedback modulua ezin du ekintza kudeatu';
 $string['item_name'] = 'Elementuaren izena';
 $string['items_are_required'] = 'Item hauei erantzuna ematea ezinbestekoa da';
 $string['label'] = 'Etiketa';
-$string['label_item'] = 'Etiketaren itema';
 $string['line_labels'] = 'Etiketak';
 $string['line_values'] = 'Baloreak';
+$string['max_args_exceeded'] = 'Gehienez 6 argumentu onar daiteke, argumentu gehiegi';
 $string['modulename'] = 'Inkesta-feedback';
 $string['modulenameplural'] = 'Inkesta-feedback-ak';
-$string['movedown_item'] = 'Beherantz joan';
 $string['move_here'] = 'hona mugitu';
 $string['move_item'] = 'Elementua mugitu';
+$string['movedown_item'] = 'Beherantz joan';
 $string['moveup_item'] = 'Gorantz joan';
 $string['multiple_submit'] = 'Bidalketa anitza';
 $string['name'] = 'Izena';
 $string['name_required'] = 'Izena ezinbestekoa da';
+$string['no_handler'] = 'Ez dago ekintza kudeatzalerik';
 $string['no_items_available_yet'] = 'Oraindik ez dago itemik';
 $string['no_templates_available_yet'] = 'Oraindik ez dago txantiloirik';
 $string['non_anonymous'] = 'Ez izengabea';
 $string['not_completed_yet'] = 'Oraindik ez da bukatu';
 $string['of'] = 'nongoa';
-$string['page'] = 'Orrialdea';
+$string['page'] = 'Orria';
+$string['pagebreak'] = 'Orri-jauzia';
+$string['parameters_missing'] = 'Hemengo parametroak falta dira';
 $string['picture'] = 'Irudia';
-$string['please_do_fill_out_all_required_fields'] = 'Bete beharreko item guztiak osatu, mesedez';
+$string['picture_file_list'] = 'Irudien zerrenda';
+$string['picture_values'] = 'Zerrendako irudi bat edo gehiago<br />aukeratu:';
 $string['position'] = 'Kokapena';
 $string['preview'] = 'Aurrebista';
 $string['public'] = 'Publikoa';
 $string['publish_stats_on_students'] = 'Ikasleentzako estatistika publikoak';
 $string['question'] = 'Galdera';
 $string['questions'] = 'Galderak';
-$string['radio_values'] = 'Aukera bakarreko botoien baloreak';
 $string['radio'] = 'Aukera bakarreko botoia';
+$string['radio_values'] = 'Aukera bakarreko botoien baloreak';
 $string['radiobutton'] = 'Aukera bakarreko botoia';
-$string['radiorated'] = 'Aukera bakarreko botoia (neurtua)';
 $string['radiobutton_rated'] = 'Aukera bakarreko botoia (neurtua)';
+$string['radiorated'] = 'Aukera bakarreko botoia (neurtua)';
 $string['ready_feedbacks'] = 'Prest dauden inkestak';
 $string['required'] = 'Ezinbestekoa';
 $string['responses'] = 'Erantzunak';
@@ -87,14 +94,16 @@ $string['save_as_new_template'] = 'Txantiloi berri moduan gorde';
 $string['save_entries'] = 'Erantzunak gorde';
 $string['save_item'] = 'Itema gorde';
 $string['saving_failed'] = 'Ezin izan da gorde';
-$string['saving_failed_because_missing_items'] = 'Ezin izan da gorde item batzuk desagertu direlako';
 $string['search_course'] = 'Ikastaroa bilatu';
+$string['selected_dump'] = '$SESSION saioko aldagai hauek jaitsi dira:';
 $string['separator_decimal'] = ',';
 $string['separator_thousand'] = '.';
+$string['show_all'] = 'Guztiak erakutsi';
 $string['show_entries'] = 'Sarrerak erakutsi';
 $string['show_entry'] = 'Sarrera erakutsi';
-$string['switch_item_to_not_required'] = 'Ez ezinbestekora aldatu';
 $string['sort_by_course'] = 'Ikastaroen arabera sailkatuta';
+$string['start'] = 'Hasiera';
+$string['stop'] = 'Amaiera';
 $string['switch_item_to_not_required'] = 'Ez ezinbestekora aldatu';
 $string['switch_item_to_required'] = 'Ezinbestekora aldatu';
 $string['template'] = 'Txantiloia';
@@ -110,17 +119,13 @@ $string['update_item'] = 'Itema eguneratu';
 $string['use_one_line_for_each_value'] = '<br>(aukera bakoitza lerro batean jarri)';
 $string['use_this_template'] = 'Txantiloi hau erabili';
 $string['using_templates'] = 'Txantiloiak erabiltzen';
+$string['are_you_shure_to_delete_this_item'] = 'Item hau ezabatu nahi duzula ziur al zaude?'; // ORPHANED
+$string['are_you_shure_to_delete_this_template'] = 'Txantiloi hau ezabatu nahi duzula ziur al zaude?'; // ORPHANED
+$string['are_you_shure_to_use_this_template'] = 'Txantiloi hau erabili nahi duzula ziur al zaude?'; // ORPHANED
+$string['every_defines_self'] = 'Aukera pertsonala'; // ORPHANED
+$string['go_back_to'] = 'Atzera joan'; // ORPHANED
+$string['label_item'] = 'Etiketaren itema'; // ORPHANED
+$string['please_do_fill_out_all_required_fields'] = 'Bete beharreko item guztiak osatu, mesedez'; // ORPHANED
+$string['saving_failed_because_missing_items'] = 'Ezin izan da gorde item batzuk desagertu direlako'; // ORPHANED
 
-/* ----------------------------------------------------------------------------------- */
-
-$string['picture_file_list'] = 'Irudien zerrenda';
-$string['picture_values'] = 'Zerrendako irudi bat edo gehiago<br />aukeratu:';
-$string['picture'] = 'Irudia';
-$string['max_args_exceeded'] = 'Gehienez 6 argumentu onar daiteke, argumentu gehiegi';
-$string['parameters_missing']='Hemengo parametroak falta dira';
-$string['no_handler']='Ez dago ekintza kudeatzalerik';
-$string['selected_dump']=' \$SESSION saioko aldagai hauek jaitsi dira:';
-$string['handling_error']='Errorea sortu da eta feedback modulua ezin du ekintza kudeatu';
-
-$string['pagebreak']='Orrialde-aldaketa';
 ?>
