@@ -1,0 +1,85 @@
+﻿<?PHP // $Id$ 
+      // block_attendance.php - created with Moodle 1.5.3+ (2005060230)
+
+
+$string['Aacronym'] = 'N';
+$string['Afull'] = 'Bo\’lmagan';
+$string['Eacronym'] = 'U';
+$string['Efull'] = 'Uzrli sabab';
+$string['Lacronym'] = 'О';
+$string['Lfull'] = 'Kechikkan';
+$string['Pacronym'] = 'P';
+$string['Pfull'] = 'Bo\'lgan';
+$string['acronym'] = 'Qisqartirilgan.';
+$string['add'] = 'Qo\'shimcha qilmoq';
+$string['addmultiplesessions'] = 'Bir necha darslarni qo\'shimcha qilmoq';
+$string['addsession'] = 'Bitta darsni qo\'shimcha qilmoq';
+$string['alltaken'] = 'Barcha bundan o\'tganlar';
+$string['attendance'] = 'Qatnashish';
+$string['attendanceforthecourse'] = 'Kursga qatnashuvchanlik';
+$string['attendancegrade'] = 'Qatnashish uchun baho';
+$string['attendancenotstarted'] = 'Bu kursda hozircha qatnashish haqidagi yozuvlar yo\'q.';
+$string['attendancepercent'] = 'Qatnashish foizi';
+$string['attendancereport'] = 'Qatnashish hissoboti';
+$string['attendancesuccess'] = 'Bor bo\'lish ma\'lumoti muvaffaqiyatli saqlandi';
+$string['attendanceupdated'] = 'Bor bo\'lish ma\'lumoti muvaffaqiyatli yangilandi';
+$string['changesession'] = 'Mashg\'ulotni o\'zgartirmoq';
+$string['createmultiplesessions'] = 'Bir necha mashg\'ulotlar tuzmoq';
+$string['createonesession'] = 'Kurs uchun bitta mashg\'ulot tuzmoq';
+$string['defaults'] = 'Izohsiz';
+$string['delete'] = 'O\'chirmoq';
+$string['deletesession'] = 'Mashg\'ulotni olib tashlamoq';
+$string['deletingsession'] = 'Kursdan mashg\'ulotni olib tashlamoq';
+$string['description'] = 'Ta\'riflash';
+$string['display'] = 'Ko\'rsatish';
+$string['downloadexcel'] = 'Excel formatida ko\'chirib olmoq';
+$string['downloadtext'] = 'Matn formatida ko\'chirib olmoq';
+$string['editsession'] = 'Mashg\'ulotni tahrirlamoq';
+$string['errorinaddingsession'] = 'Mashg\'ulotni qo\'shishdagi hato';
+$string['erroringeneratingsessions'] = 'Mashg\'ulotlarni tuzishdagi hato';
+$string['indetail'] = 'Batafsil...';
+$string['months'] = 'Oylar bo\'yicha';
+$string['myvariables'] = 'Mening o\'zgaruvchilarim';
+$string['newdate'] = 'Yangi sana';
+$string['nodescription'] = 'Bu mashg\'ulot uchun ta\'rif yo\'q';
+$string['noguest'] = 'Mehmon qatnashish haqidagi ma\'lumotni ko\'ra olmaydi';
+$string['noofdaysabsent'] = 'Qoldirilgan';
+$string['noofdaysexcused'] = 'Uzrli sabab tufayli qoldirilgan';
+$string['noofdayslate'] = 'Kechikishlar';
+$string['noofdayspresent'] = 'Siz bor edingiz';
+$string['nosessiondayselected'] = 'Mashg\'ulot kuni tanlanmagan';
+$string['nosessionexists'] = 'Ushbu kursda mashg\'ulotlar tanlanmagan. Dastlab ularni qo\'shing';
+$string['olddate'] = 'Eski sana';
+$string['period'] = 'Davriylik';
+$string['versionforprinting'] = 'Matbuot uchun versiya';
+$string['remarks'] = 'Yozuvlar';
+$string['report'] = 'Hisobot';
+$string['restoredefaults'] = 'Izohsiz holda mazmunlarni tiklamoq';
+$string['session'] = 'Mashg\'ulot';
+$string['sessionadded'] = 'Mashg\'ulot muvaffaqiyatli qo\'shimcha qilindi';
+$string['sessionalreadyexists'] = 'Bu kuni mashg\'ulot bor edi';
+$string['sessiondate'] = 'Mashg\'ulot sanasi';
+$string['sessiondays'] = 'Mashg\'ulotlar kunlari';
+$string['sessiondeleted'] = 'Mashg\'ulotlar muvaffaqiyatli olib tashlandi';
+$string['sessionenddate'] = 'Mashg\'ulotlarni yakunlash sanasi';
+$string['sessionexist'] = 'Mashg\'ulotlar qo\'shimcha qilinmagan (mavjud)!';
+$string['sessionscompleted'] = 'Mashg\'ulotlar bo\'lib o\'tdi';
+$string['sessionsgenerated'] = 'Mashg\'ulotlar muvaffaqiyatli yaratildi';
+$string['sessionstartdate'] = 'Mashg\'ulotlar boshlanish sanasi';
+$string['sessionupdated'] = 'Mashg\'ulotlar mivaffaqiyatli o\'zgartirildi';
+$string['settings'] = 'Sozlashlar';
+$string['showdefaults'] = 'Izohsiz holda mazmunlarni ko\'rsatish';
+$string['status'] = 'Daraja';
+$string['strftimedm'] = '%%d.%%m';
+$string['strftimedmy'] = '%%d.%%m.%%Y';
+$string['strftimedmyw'] = '%%d.%%m.%%y&nbsp;(%%a)';
+$string['strftimeshortdate'] = '%%d.%%m.%%Y';
+$string['studentid'] = ' Talabaning ID ';
+$string['takeattendance'] = 'Qatnashishni belgilamoq';
+$string['update'] = 'Yangilamoq';
+$string['variablesupdated'] = 'O\'zgaruvchilar muvaffaqiyatli yangilandi';
+$string['week'] = 'Hafta(lar)';
+$string['weeks'] = 'Haftalar bo\'yicha';
+
+?>
+
