@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // resource.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -13,7 +13,7 @@ $string['choose'] = 'Auswählen';
 $string['chooseafile'] = 'Datei wählen oder neu hochladen';
 $string['chooseparameter'] = 'Parameter auswählen';
 $string['clicktoopen'] = 'Klicken Sie auf diesen Link, um das Dokument zur öffnen.';
-$string['configallowlocalfiles'] = 'Beim Erstellen neuer Arbeitsmaterialien können  Verlinkungen zu lokalen Dateisystemen, Festplatten oder CD-Laufwerken angelegt werden. Das ist sinnvoll, wenn in einem Schulungsraum alle Nutzer/innen Zugriff auf gemeinsame Netzwerkverzeichnisse oder CD-Laufwerke haben. Evtl. müssen Sie dafür aber Sicherheitseinstellungen des Browsers anpassen.';
+$string['configallowlocalfiles'] = 'Beim Erstellen neuer Arbeitsmaterialien können  Verlinkungen zu lokalen Dateisystemen, Festplatten oder CD-Laufwerken angelegt werden. Das ist sinnvoll, wenn in einem Schulungsraum alle Nutzer/innen Zugriff auf gemeinsame Netzwerkverzeichnisse oder CD-Laufwerke haben. <b>Diese Funktion wird nur von wenigen älteren Browsern unterstützt.</b> Evtl. müssen Sie dafür aber Sicherheitseinstellungen des Browsers anpassen.';
 $string['configautofilerenamesettings'] = 'Referenzen zu Dateien und Verzeichnissen automatisch erneuern, wenn sie im Dateimanager umbenannt werden.';
 $string['configblockdeletingfilesettings'] = 'Block-Löschen von Dateien und Verzeichnissen, auf die von Arbeitsmaterialien verwiesen wird. Bitte beachten Sie, dass Bilder und andere in HTML eingebundene Dateien nicht geschützt sind.';
 $string['configdefaulturl'] = 'Wenn Sie eine neue URL-basierte Ressource anlegen, wird dieser Wert als Voreinstellung bereits angezeigt.';

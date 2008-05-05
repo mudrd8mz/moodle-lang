@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 (2006101007)
+      // wiki.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['action'] = '-- Aktion --';
@@ -55,7 +55,7 @@ $string['errororreason'] = 'Fehler oder Grund';
 $string['errorroandwr'] = 'Fehler: Die Seite ist schreibbar, gleichzeitig aber nur lesbar';
 $string['errorsize'] = 'Seite ist größer als 64K';
 $string['errversionsave'] = 'Entschuldigung, während Sie Ihren Text bearbeitet haben, hat jemand anders die gleiche Seite aktualisiert. Gehen Sie bitte zum vorherigen Bildschirm zurück, kopieren Sie den Text in die Zwischenablage und fügen Sie die Änderungen erneut ein, nachdem Sie die Seite neu geladen haben. Beachten Sie bitte auch die inzwischen vorgenommenen Änderungen.';
-$string['ewikiacceptbinary'] = 'Binäre Dateien zulassen';
+$string['ewikiacceptbinary'] = 'Dateianhänge zulassen';
 $string['ewikiprinttitle'] = 'Wiki-Name auf allen Seiten';
 $string['export'] = 'Export';
 $string['exportformats'] = 'Exportformate';
@@ -76,7 +76,7 @@ $string['flagtxt'] = 'TXT';
 $string['flagwr'] = 'WR';
 $string['for'] = 'für';
 $string['forbidden'] = 'Sie sind nicht berechtigt, diese Seite zu bearbeiten.';
-$string['groups'] = 'Gruppen';
+$string['groups'] = 'Teilnehmer/innen und Trainer/innen';
 $string['hits'] = '$a Zugriffe';
 $string['howtooperate'] = 'Wie Sie Seiten bearbeiten können';
 $string['howtowiki'] = 'Wie Sie Wikis bearbeiten';
@@ -183,8 +183,8 @@ $string['versionstodelete'] = 'Version(en) zum Löschen';
 $string['viewpage'] = 'Seite anzeigen';
 $string['viewsmfor'] = 'Sitemap anzeigen für';
 $string['wantedpages'] = 'Gesuchte Seiten';
-$string['wiki:manage'] = 'Wiki-Einstellungen verwalten';
-$string['wiki:overridelock'] = 'Seitenblockierung übergehen';
+$string['wiki:manage'] = 'Wiki-Seiten verwalten';
+$string['wiki:overridelock'] = 'Seitensperrung übergehen';
 $string['wiki:participate'] = 'Wiki-Seiten bearbeiten';
 $string['wikidefaultpagename'] = 'WikiIndex';
 $string['wikiexport'] = 'Seitenexport';
@@ -193,9 +193,10 @@ $string['wikilinkoptions'] = 'Automatische Wiki-Verlinkung';
 $string['wikilinks'] = 'Wiki-Links';
 $string['wikiname'] = 'Seitenname';
 $string['wikistartederror'] = 'Im Wiki wurden bereits Daten eingetragen. Die Einstellungen des Wikis können nicht mehr geändert werden.';
-$string['wikitype'] = 'Typ';
+$string['wikitype'] = 'Wiki-Bearbeitung durch:';
 $string['wikiusage'] = 'Wiki-Anleitung';
 $string['withbinaries'] = 'Binäre Inhalte einbinden';
 $string['withvirtualpages'] = 'Wiki-Links einbinden';
 $string['wrongversionrange'] = '$a ist kein zulässiger Wert';
+
 ?>

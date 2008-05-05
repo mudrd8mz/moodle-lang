@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // role.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -18,7 +18,7 @@ $string['blog:view'] = 'Blog-Einträge sehen';
 $string['calendar:manageentries'] = 'Alle Kalendereinträge verwalten';
 $string['calendar:managegroupentries'] = 'Kalendereinträge für Gruppen verwalten';
 $string['calendar:manageownentries'] = 'Eigene Kalendereinträge verwalten';
-$string['capabilities'] = 'Fähigkeiten';
+$string['capabilities'] = 'Capabilities';
 $string['capability'] = 'Fähigkeit';
 $string['category:create'] = 'Kursbereiche anlegen';
 $string['category:delete'] = 'Kursbereiche löschen';

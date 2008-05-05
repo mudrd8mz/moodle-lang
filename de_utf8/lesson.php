@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // lesson.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['accesscontrol'] = 'Zugriffskontrolle';
@@ -124,7 +124,7 @@ $string['highscore'] = 'Höchste Bewertung';
 $string['highscores'] = 'Bestenliste';
 $string['hightime'] = 'Maximale Zeit';
 $string['importcount'] = '$a Fragen importieren';
-$string['importppt'] = 'PowerPoint importieren';
+$string['importppt'] = 'Einfache PowerPoint-Datei importieren';
 $string['importquestions'] = 'Fragen importieren';
 $string['insertedpage'] = 'Seite eingefügt';
 $string['jump'] = 'Sprung';
