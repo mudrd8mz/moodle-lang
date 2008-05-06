@@ -9,11 +9,11 @@ $string['editingended'] = 'Kuo \'osi e taimi \'etita';
 $string['editingends'] = 'Kuo ngata e piliote \'etita';
 $string['entries'] = 'Ngaahi \'enitulii';
 $string['feedbackupdated'] = 'Koe \'apu-teiti fakamuimui taha ki he \'enitulii $a ';
-$string['journalmail'] = '$a-> kuo tohi\'i atu \'ehe faiako ha ngaahi fiiti-peeki fekau\'aki moe\'enitulii senolo \'$a->senolo\'
+$string['journalmail'] = '$a->teacher kuo tohi\'i atu \'ehe faiako ha ngaahi fiiti-peeki fekau\'aki moe\'enitulii senolo \'$a->journal\'
 Teke lava \'o sio kiai kuo fakapipiki atu ki ho\'o senolo \'enitulii:
 
     $a->url';
-$string['journalmailhtml'] = '$a->kuo tohi atu e faiako ha ngaahi fiiti-peeki i ho\'o senolo \'enitulii ki he \'<i>$a->senolo</i>\'<br /><br />
+$string['journalmailhtml'] = '$a->teacher tohi atu e faiako ha ngaahi fiiti-peeki i ho\'o senolo \'enitulii ki he \'<i>$a->journal</i>\'<br /><br />
 Teke lava \'o sio kiai kuo fakapipiki atu ki ho\'o <a href=\"$a->url\">senolo \'enitulii</a>.';
 $string['journalname'] = 'Hingoa \'o e senolo ';
 $string['journalquestion'] = 'Fehu\'i SEnolo';

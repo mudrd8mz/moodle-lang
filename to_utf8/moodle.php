@@ -21,7 +21,7 @@ $string['addedtogroup'] = 'Kuo tanaki kiha kulupu $a';
 $string['addedtogroupnot'] = 'Te\'eki ai ke tanaki ki ha kulupu $a';
 $string['addedtogroupnotenrolled'] = 'Oku te\'ekiai ke tanaki ki he kulupu $a koe\'uhi \'oku te\'eki ke \'enilolo \'i he koosi';
 $string['addinganew'] = 'Tanaki ha $a fo\'ou';
-$string['addinganewto'] = 'Tanaki ha  $a-fo\'ou >ki he ha $a->ke';
+$string['addinganewto'] = 'Tanaki ha  $a-what fo\'ou >ki he ha $a->to';
 $string['addingdatatoexisting'] = 'Tanaki\'i ha teita ki he lolotonga';
 $string['addnewcategory'] = 'Tanaki ha katekolii/fa\'ahinga fo\'ou';
 $string['addnewcourse'] = 'Tanaki ha koosi fo\'ou';
@@ -118,7 +118,7 @@ $string['backupversion'] = 'Veesini Talifaki';
 $string['blockconfiga'] = 'Konifika e poloka $a';
 $string['blockconfigbad'] = 'Ne fokotu\'u totonu e poloka ko \'eni koia ai he \'ikai kene \'omai ha hokotanga konifikaleisoni.  This block has not been implemented correctly and thus cannot provide a configuration interface.';
 $string['blockdeleteconfirm'] = 'Oku ke teuteu ke tiliiti kakato \'a e poloka \'$a\'. \'E tiliiti kakato heni \'a e me\'a kotoa \'I he teitapeisi \'oku fekau\'aki mo e poloka. \'Oku ke fakapapau\'I \'oku ke fiehoko atu?';
-$string['blockdeletefiles'] = 'Kuo \'osi tiliiti mei he teitapeisi \'a e kotoa \'o e teita \'oku fekau\'aki mo e poloka \'$a\'. Ke fakakakato \'a hono tiliiti (mo faka\'ehi\'ehi \'a e poloka hono toe fokotu\'u pe \'eia ia), \'oku totonu ke ke tiliiti he taimini \'a e taletokili ko \'eni mei ho\'o seava: $a->taletokilii';
+$string['blockdeletefiles'] = 'Kuo \'osi tiliiti mei he teitapeisi \'a e kotoa \'o e teita \'oku fekau\'aki mo e poloka \'$a->block\'. Ke fakakakato \'a hono tiliiti (mo faka\'ehi\'ehi \'a e poloka hono toe fokotu\'u pe \'eia ia), \'oku totonu ke ke tiliiti he taimini \'a e taletokili ko \'eni mei ho\'o seava: $a->directory';
 $string['blocks'] = 'Ngaahi Kaveinga';
 $string['blocksetup'] = 'fokotu\'utu\'u e ngaahi tepile poloka';
 $string['blocksuccess'] = 'Kuo \'osi seti totonu \'a e tepile $a';
@@ -308,7 +308,7 @@ $string['currentlocaltime'] = 'koe taimi lolotonga \'iho feitu\'u';
 $string['currentpicture'] = 'La\'itaa lolotonga';
 $string['currentrelease'] = 'Koe fakamatala \'oku lolotonga tukuange mai';
 $string['currentversion'] = 'Vesini lolotonga';
-$string['databasechecking'] = '\'Apukuleiti e tatapeisi Muutolo mei he vesini $a->vesinimotu\'a ki he $a->vesinifo\'ou...';
+$string['databasechecking'] = '\'Apukuleiti e tatapeisi Muutolo mei he vesini $a->oldversion\'a ki he $a->newversion\'ou...';
 $string['databaseperformance'] = 'Koe pefoomu \'ae Teitapeisi';
 $string['databasesetup'] = 'Fokotu\'u ha teitapeisi';
 $string['databasesuccess'] = 'Kuo lava lelei hono \'apukuleiti e teitapeisi';
@@ -352,9 +352,9 @@ $string['detailedless'] = ' Fakaikiiki si\'isi\'i';
 $string['detailedmore'] = 'Fakaikiiki lahi';
 $string['directorypaths'] = 'Founga hangatonu';
 $string['disable'] = 'Ta\'e malava';
-$string['displayingfirst'] = 'Koe \'uluaki pee $a->lau $a->e ngaahi me\'a kuo faka\'ali\'ali';
+$string['displayingfirst'] = 'Koe \'uluaki pee $a->count $a->things ngaahi me\'a kuo faka\'ali\'ali';
 $string['displayingrecords'] = 'Faka\'ali\'ali e ngaahi lekooti $a ';
-$string['displayingusers'] = 'Faka\'ali\'ali e kau \'iusa $a->kamata mei $a->ngata';
+$string['displayingusers'] = 'Faka\'ali\'ali e kau \'iusa $a->start mei $a->end';
 $string['documentation'] = 'Moodle Tokimenitasini';
 $string['donotask'] = '\'OUA \'E \'Eke';
 $string['down'] = 'Lalo';
@@ -363,7 +363,7 @@ $string['downloadtext'] = 'Taunilouti \'iha text format';
 $string['doyouagree'] = 'Kuo ke lau pea ke mahino\'i e ngaahi e ngaahi  konitisini?';
 $string['duplicate'] = 'Taatu\'olahi';
 $string['duplicatinga'] = 'Taatu\'olahi: $a';
-$string['duplicatingain'] = 'Taatu\'olahi $a->koeha \'ihe $a->\'ihe';
+$string['duplicatingain'] = 'Taatu\'olahi $a->what \'ihe $a->in';
 $string['edhelpbgcolor'] = 'Fakamahino\'i mai e lanu \'oe \'elia \'e \'etita\'i.<br />Mahu\'inga \'oku ngofua, fakatataa\'aki eni: #ffffff pe Hinehina';
 $string['edhelpcleanword'] = 'Koe setingi ko \'eni \'oku ne fakangofua pe tapui hono sivi\'i \'oha ngaahi fo\'i lea kuo fakamavahe\'i mai. ';
 $string['edhelpenablespelling'] = 'Fakangofua pe tapu\'i hono vakai\'i e sipela. \'I ono fakangofua, <malohi>hasipela</malohi> kuo pau pe ke fokotu\'u he seeva. ';
@@ -394,9 +394,9 @@ $string['email'] = 'Tu\'asila \'Imeili';
 $string['emailactive'] = 'Fakamo\'ui e \'Imeili';
 $string['emailagain'] = '(toe) \'Imeili';
 $string['emailconfirm'] = 'Fakapapau\'i ho\'o \'akauni';
-$string['emailconfirmation'] = 'Malo e lelei $a->hignoa,
+$string['emailconfirmation'] = 'Malo e lelei $a->firstname,
 
-Kuo likuesi mai ha \'akauni fo\'ou \'i he \'$a->saitineimi\'
+Kuo likuesi mai ha \'akauni fo\'ou \'i he \'$a->sitename\'
 o ngaue\'aki ho\'o tu\'asila.
 
 Ke fakapapau\'i ho\'o \'akauni fo\'ou, kataki \'o \'alu kie tu\'asila \'oe uepi ko \'eni: 
@@ -405,7 +405,7 @@ $a->link
 Koe lahi \'oe ngaahi polokalama meili, \'oku totonu ke \'ai eni koha lingi lanu puluu, \'aia teke lava pe \'o kiliki \'iai. Kapapu leva he\'ikai ke ngaue ia, pea ke tu\'usi pe \'o fakapipiki e tu\'asila ki he laine tu\'asila \'i \'olunga \'i ho\'o uepi paplausa uinitou.
 Kapau \'oku ke fiema\'u ha tokoni, kataki \'o fetu\'utaki ki ho\'o saiti \'etiminisituleita,
 
-$a->\'etimini';
+$a->admin';
 $string['emailconfirmationsubject'] = '$a:Fakapapau\'i e \'akauni';
 $string['emailconfirmsent'] = '   <p> koha imeili ne tonu ke li atu ki ho\'o tu\'asila ki he<b>$a</b>
    <p> \'oku \'iai e ngaahi fakamatala faingofua ke fakafonu aki ho\'o lesisita.
@@ -427,12 +427,12 @@ $string['emailformat'] = ' Fometi \'oe \'Imeili';
 $string['emailmustbereal'] = 'Manatu\'i: ko ho\'o tu\'asila \'imeili kuo pau ke mo\'oi ';
 $string['emailnotallowed'] = 'Koe tu\'asila \'imeili \'i he feitu\'uu ko \'eni\'oku \'ikai ke ngofua ($a)';
 $string['emailonlyallowed'] = 'Koe \'imeili ko \'eni, koe taha ia \'oe ngaahi \'imeili \'oku \'ikai ke ngofua ($a)';
-$string['emailpasswordconfirmation'] = 'Malo e lelei $a->Hingoa,
+$string['emailpasswordconfirmation'] = 'Malo e lelei $a->firstname,
 
 Ne \'iai e tokotaha(mahalo pe ko koe) ne likuesi mai ha paasiueeti fo\'ou ki ho\'o \'akauni \'i he  \'$a->sitename\'.
 Ke fakapapau\'i \'eni pea lii atu ha paasiueeti fo\'ou \'i he \'imeili, \'alu ki he ngaahi tu\'asila uepi ko \'eni:
 
-$a->lingi
+$a->link
 \'I he lahi \'oe ngaahi polokalama meili, \'okku totonu ke ha \'eni ko ha lingi lau puluu, \'aia teke lava \'o kiliki ai.
 
 Kapau leva he \'ikai ke ngaue ia, pea ke tu\'usi \'oe fakapipiki \'ae tu\'asila ki he laine tu\'asila \'i \'olunga \'i ho\'o uepi palausa uinitou.
@@ -456,7 +456,7 @@ $string['enrolmentkey'] = 'Kii ki he \'Enilolomeni';
 $string['enrolmentkeyfrom'] = '\'Oku fiema\'u he\'e koosi ko \'enmi ha \'\'enilolomeni ki\' - ha taha-taimi<br />paasiueeti ne totonu keke ma\'u mei he $a';
 $string['enrolmentkeyhint'] = 'Koe \'enilolomeni kii na\'e hala, kataki \'o toe feinga<br /> (koeni ha ki\'i tokoni - \'oku kamata\'aki e \'$a\')';
 $string['enrolmentnew'] = '\'Enilolomeni fo\'ou \'i he $a';
-$string['enrolmentnewuser'] = '$a->\'iusa kuo \'enilolo ki he koosi \"$a->koosi\"';
+$string['enrolmentnewuser'] = '$a->user kuo \'enilolo ki he koosi \"$a->course\"';
 $string['enrolmentnointernal'] = 'Koe ngaahi \'enilolomeni menuolo \'oku lolotonga ta\'emalava';
 $string['enrolmentnotyet'] = 'Kataki, \'Oku \'ikai keke lava \'o \'ekisesi ki he koosi ko \'eni kae \'oua <br /> $a';
 $string['enrolments'] = 'Ngaahi \'enilolomeni';
@@ -477,8 +477,8 @@ $string['existingcoursedeleting'] = 'Koosi lolotonga, \'uluaki tiliti\'i ia ';
 $string['existingcreators'] = 'Koe fakatupu \'oe Koosi lolotonga';
 $string['existingstudents'] = 'Fanauako kuo \'enilolo';
 $string['existingteachers'] = 'Kau faiako lolotonga';
-$string['failedloginattempts'] = '$a->feinga ngaahi looki\'ini ne \'ikai lava talu ho\'o looki\'ini fakamuimui ';
-$string['failedloginattemptsall'] = '$a->finga  ngaahi looki\'ini ne \'ikai lava ki he $a->\'akauni ngaahi \'akauni';
+$string['failedloginattempts'] = '$a->attempts ngaahi looki\'ini ne \'ikai lava talu ho\'o looki\'ini fakamuimui ';
+$string['failedloginattemptsall'] = '$a->attempts  ngaahi looki\'ini ne \'ikai lava ki he $a->accounts ngaahi \'akauni';
 $string['feedback'] = 'Fiitipeeki';
 $string['file'] = 'Faile';
 $string['filemissing'] = '$a \'oku mole';
@@ -516,7 +516,7 @@ $string['frontpageformat'] = 'Fometi \'oe peesi mu\'omu\'a';
 $string['frontpagenews'] = 'Fakaha ha ngaahi \'aitemi fo\'ou';
 $string['fulllistofcourses'] = 'Ngaahi koosi kotoa';
 $string['fullname'] = 'Hingoa kakato';
-$string['fullnamedisplay'] = '$a->Hingoa $a->fakaiku';
+$string['fullnamedisplay'] = '$a->firstname $a->lastname';
 $string['fullprofile'] = 'Poloofaile kakato';
 $string['fullsitename'] = 'Hingoa kakato \'oe saiti';
 $string['functiondisabled'] = '\'Oku lolotonga ta\'emalava e fatongia ko \'ena';
@@ -584,8 +584,8 @@ $string['hide'] = 'Fufuu';
 $string['hidepicture'] = 'Fufuu\'i e \'imisi';
 $string['hidesettings'] = 'Fufuu\'i e ngaahi setingi';
 $string['hits'] = 'Hiti';
-$string['hitsoncourse'] = 'Ngaahi hiti \'ihe $a->hingoa\'oekoosi meia $a->\'iusaneimi';
-$string['hitsoncoursetoday'] = 'Koe ngaahi hiti he \'aho\'ni \'ihe $a->hingoa\'oekoosi mei a $a->\'iusaneimi';
+$string['hitsoncourse'] = 'Ngaahi hiti \'ihe $a->coursename\'oekoosi meia $a->username';
+$string['hitsoncoursetoday'] = 'Koe ngaahi hiti he \'aho\'ni \'ihe $a->coursename\'oekoosi mei a $a->username';
 $string['home'] = '\'Api';
 $string['hour'] = 'houa';
 $string['hours'] = 'Ngaahi houa';
@@ -708,7 +708,7 @@ $string['missingurl'] = 'URL \'oku mole';
 $string['missingusername'] = 'Hingoa fakaiku \'oku mole';
 $string['modified'] = 'Fakalelei\'i';
 $string['moduledeleteconfirm'] = '\'Oku \'amanaki keke fakakakato hono tiliti e motiula \'$a\'.  \'E hanga \'ehe ngaue ko \'eni \'o tiliti\'i kakato e me\'a kotoa \'i he tatapeisi \'oku fekau\'aki moe motiula ngaue ko \'eni. \'Oku ke fakapapau\'i \'oku ke loto keke hokoatu? ';
-$string['moduledeletefiles'] = 'Koe tatakotoa pe \'oku fekau\'aki moe motiula \'$a->motiula\' kuo \'osi tiliti\'i mei he tatapeisi. Ke fakakakato e tiliti (mo ta\'ofi e motiula mei ha\'ane toe fokotu\'u pe \'eia \'a ia ), \'oku totonu keke tiliti\'i e fakahinohino ko \'eni mei ho\'o seeva: $a->fakhinohino';
+$string['moduledeletefiles'] = 'Koe tatakotoa pe \'oku fekau\'aki moe motiula \'$a->module kuo \'osi tiliti\'i mei he tatapeisi. Ke fakakakato e tiliti (mo ta\'ofi e motiula mei ha\'ane toe fokotu\'u pe \'eia \'a ia ), \'oku totonu keke tiliti\'i e fakahinohino ko \'eni mei ho\'o seeva: $a->directory';
 $string['modulesetup'] = 'Fokotu\'utu\'u e ngaahi tepile motiula';
 $string['modulesuccess'] = 'Koe ngaahi tepile $a kuo \'osi fokotu\'utu\'u totonu';
 $string['moodleversion'] = 'Moodle Vesini';
@@ -740,21 +740,21 @@ $string['new'] = 'Fo\'ou';
 $string['newaccount'] = '\'akauni fo\'ou';
 $string['newcourse'] = 'Koosi fo\'ou';
 $string['newpassword'] = 'Paasi-ueeti fo\'ou';
-$string['newpasswordtext'] = 'Malo e lelei $a->Hingoa,
+$string['newpasswordtext'] = 'Malo e lelei $a->firstname,
 
-Ko ho\'o \'akauni paasiueeti \'i he \'$a->saitineimi kuo toe seti pea kuo \'osi \'oatu ki koe ha paasiueeti fakatimi fo\'ou
+Ko ho\'o \'akauni paasiueeti \'i he \'$a->sitename kuo toe seti pea kuo \'osi \'oatu ki koe ha paasiueeti fakatimi fo\'ou
 
 Ko e fakamatala ki ho\'o looki\'ini lolotonga ko e:
-   \'iusaneimi: $a->\'iusaneimi
-   paasiueeti: $a->paasiueetifo\'ou
+   \'iusaneimi: $a->username
+   paasiueeti: $a->newpassword
 
 Kataki \'o \'alu ki he peesi ko \'eni \'o liliu ho\'o paasiueeti:
-   $a->lingi
+   $a->link
 
 \'I he ngaahi polokalama meili lahi, \'oku totonu ke ha \'eni ia ko ha lingi lanu puluu \'aia teke kiliki ai.
 Kapau leva he\'ikai ke ngaue ia,  peake tu\'usi mo paaki e tu\'asila ki he laine tu\'asila \'i \'olunga \'i ho\'o uinitou uepi palausa.
 
-\'Ofa atu mei he \'$a->hingoasaiti\' \'etiminisituleita,
+\'Ofa atu mei he \'$a->lastname\' \'etiminisituleita,
 $a->signoff';
 $string['newpicture'] = '\'imisi fo\'ou';
 $string['newsitem'] = 'kupu\'i ongoongo';
@@ -792,8 +792,8 @@ $string['noteachersyet'] = '\'Ikai ke \'iai ha kau faiako \'ihe koosi ko \'eni';
 $string['notenrolled'] = '$a \'oku \'ikai ke enilolo \'ihe koosi ko \'eni.';
 $string['noteuserschangednonetocourse'] = 'Nouti: \'Oku fiema\'u ke toe fokotu\'u e kau koosi \'iusa he taimi \'oku toe fokotu\'u ai e tata. Kuo \'osi liliu e setingi ia ko \'eni ma\'au. ';
 $string['nothingnew'] = '\'Ikai ke \'iai ha me\'a fo\'o talu ho\'o looki\'ini fakamuimui';
-$string['noticenewerbackup'] = 'Na\'e fakatupu \'aki e Moodle e faile talifaki ko \'eni Moodle $a->talifaki ($a->vesinitalifaki)pea \'oku fo\'ou ange ia \'i ho\'o Moodle lolotonga  $a->seeva ($a->vesiniseeva). \'Emalava heni ke hoko ha ngaahi fehalaaki he koe fakatatau ki mui \'oe ngaahi faile talifaki \'oku \'ikai lava ke fakapapau\'i. ';
-$string['notifyloginfailuresmessage'] = '$a->taimi, IP: $a->ip, \'Iusa: $a->info';
+$string['noticenewerbackup'] = 'Na\'e fakatupu \'aki e Moodle e faile talifaki ko \'eni Moodle $a->backuprelease ($a->backupversion)pea \'oku fo\'ou ange ia \'i ho\'o Moodle lolotonga  $a->serverrelease ($a->serverversion). \'Emalava heni ke hoko ha ngaahi fehalaaki he koe fakatatau ki mui \'oe ngaahi faile talifaki \'oku \'ikai lava ke fakapapau\'i. ';
+$string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, \'Iusa: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Teke lava \'o mamata ki he ngaahi looki \'i he $a/koosi/log.php?id=1&lokafili=1&modid=saiti_hala.';
 $string['notifyloginfailuresmessagestart'] = 'Koe lisi \'eni \'oe ngaahi feinga looki\'ini ne \'ikai lava $a talu hono fakahaatu ki mu\'a.';
 $string['notifyloginfailuressubject'] = '$a :: Fakatokanga looki\'ini ne \'ikai lava';
@@ -828,15 +828,15 @@ $string['passwordconfirmchange'] = 'Fakapapau\'ie liliu \'oe paasiueeti ';
 $string['passwordrecovery'] = '\'Io, tokoni mai keu looki\'ini';
 $string['passwordsdiffer'] = 'Koe ngaahi paasiueeti ko \'eni \'oku \'ikai ke hoa';
 $string['passwordsent'] = 'Kuo \'osi liatu e paasiueeti';
-$string['passwordsenttext'] = '   <p>Ne \'iai ha \'imeili kuo \'osi lii atu ki ho\'o tu\'asila ki he $a->\'imeili.
+$string['passwordsenttext'] = '   <p>Ne \'iai ha \'imeili kuo \'osi lii atu ki ho\'o tu\'asila ki he $a->email.
    <p><b>Kataki \'o vakai\'i ho\'o \'imeili ki ho\'o paasiueeti fo\'ou</b>
    <p>Na\'e fakatupu \'otometiki pee ho\'o paasiueeti fo\'ou, koia ai \'oku totonu keke
-   <a href=$a->lingi>liliu ia ki ha me\'a \'oku faingofua hono manatu\'i</a>.';
+   <a href=$a->link>liliu ia ki ha me\'a \'oku faingofua hono manatu\'i</a>.';
 $string['pathnotexists'] = 'Koe founga ko \'eni \'oku \'ikai ke \'i ho\'o seeva!';
 $string['pathslasherror'] = 'He\'ikai ke lava \'o faka\'osi \'aki  e hala ha makohi!!';
 $string['paymentinstant'] = 'Use the button below to pay and be enrolled within minutes!';
 $string['paymentrequired'] = '\'Oku fiema\'u \'ehe koosi ko \'eni ha totongi huu.';
-$string['paymentsorry'] = 'Malo\'aupito ho\'o totongi mai!  Me\'apango ia \'oku te\'eki ai ke kakato e ngaue ki ho\'o totongi, pea koia ai \'oku te\'eki ai keke lesisita keke hu ki he koosi \"$a->hingoakakato\".  Kataki \'o toe feinga keke hu mai \'i ha momeniti si\'i mei heni, pea kapau \'i toe \'iai ha pelopalema kataki \'o fetu\'utaki ki he $a->faiako pe ko esaiti \'etiminisituleita. ';
+$string['paymentsorry'] = 'Malo\'aupito ho\'o totongi mai!  Me\'apango ia \'oku te\'eki ai ke kakato e ngaue ki ho\'o totongi, pea koia ai \'oku te\'eki ai keke lesisita keke hu ki he koosi \"$a->fullname\".  Kataki \'o toe feinga keke hu mai \'i ha momeniti si\'i mei heni, pea kapau \'i toe \'iai ha pelopalema kataki \'o fetu\'utaki ki he $a->teacher pe ko esaiti \'etiminisituleita. ';
 $string['paymentthanks'] = 'Malo \'aupito ho\'o totongi mai! Kuo ke \'osi \'enilolo \'i ho\'o koosi:<br />\"$a\"';
 $string['people'] = 'Kakai';
 $string['personalprofile'] = 'Poloofaile fakataautaha';
@@ -1040,13 +1040,13 @@ $string['updatesevery'] = '\'Aputeiti  he sekoni kotoa pe \'e $a ';
 $string['updatethis'] = '\'Aputeiti eni $a';
 $string['updatethiscourse'] = '\'Aputeiti e koosi o \'eni';
 $string['updatinga'] = '\'Aputeiti\'i: $a';
-$string['updatingain'] = '\'Aputeiti\'i $a->koeha \'ihe $a->in';
+$string['updatingain'] = '\'Aputeiti\'i $a->what \'ihe $a->in';
 $string['upload'] = '\'Apulouti';
 $string['uploadafile'] = '\'Apulouti ha faile';
 $string['uploadedfile'] = 'Kuo lava lelei hono \'apulouti e faile';
-$string['uploadedfileto'] = 'Kuo \'apulouti $a->faile ki$a->fakahinohino';
+$string['uploadedfileto'] = 'Kuo \'apulouti $a->file ki$a->directory';
 $string['uploadedfiletoobig'] = 'Kataki,Ka \'oku fu\'u lahi e faile ia ko \'ena (koe limiti \'oku $a bytes)';
-$string['uploadfailednotrecovering'] = 'Ne \'ikai ke lava hono \'apulouti ho\'o faile he na\'e \'iai e palopalema ia moe taha \'oe ngaahi faile, $a->name.<br/> Ko \'eni e loka \'oe ngaahi palopalema:<br />$a->palopalema<br />\'ikai ke teo ma\'u.';
+$string['uploadfailednotrecovering'] = 'Ne \'ikai ke lava hono \'apulouti ho\'o faile he na\'e \'iai e palopalema ia moe taha \'oe ngaahi faile, $a->name.<br/> Ko \'eni e loka \'oe ngaahi palopalema:<br />$a->problem<br />\'ikai ke teo ma\'u.';
 $string['uploadfilelog'] = '\'Apulouti e loka ki he faile $a';
 $string['uploadformlimit'] = 'Koe faile kuo \'apulouti \'oku laka ia he limiti \'oe mekisimamu saisi \'oku seti mai \'ehe foomu ';
 $string['uploadlabel'] = 'Taitolo:';
@@ -1055,8 +1055,8 @@ $string['uploadnotallowed'] = '\'Oku \'ikai ke ngofua e \'apulouti';
 $string['uploadoldfilesdeleted'] = 'Koe(ngaahi)faile motu\'a \'ihe \'elia \'apulouti kuo \'osi tiliti\'i';
 $string['uploadpartialfile'] = 'Koe konga pe \'oe faile kuo \'osi \'apulouti';
 $string['uploadproblem'] = 'Ne \'iai e palopalema ta\'eilonga ne hoko lolotonga ho\'o \'apulouti e faile \'$a\' (mahalo pe \'oku fu\'ulahi?)';
-$string['uploadrenamedchars'] = 'Kuo toe fakahingoa e faile $a->hingoamptu\'a ki he $a->hingoafo\'ou koe\'uhi koha ngaahi kalekitaa hala .';
-$string['uploadrenamedcollision'] = ' Kuo toe fakahingoa e faile $a->hingoamotu\'a ki he $a->hingoafo\'ou koe\'uhi ne \'iai ha fepakipaki he hingoafaile. ';
+$string['uploadrenamedchars'] = 'Kuo toe fakahingoa e faile $a->oldname\'a ki he $a->newname\'ou koe\'uhi koha ngaahi kalekitaa hala .';
+$string['uploadrenamedcollision'] = ' Kuo toe fakahingoa e faile $a->oldname\'a ki he $a->newname\'ou koe\'uhi ne \'iai ha fepakipaki he hingoafaile. ';
 $string['uploadserverlimit'] = 'Koe faile kuo \'apulouti kuolaka hake ia e limiti mekisimamu saisi ne seti he\'e seeva ';
 $string['uploadthisfile'] = '\'Apulouti e faile ko \'eni';
 $string['uploadusers'] = '\'Apulouti e ngaahi \'iusa';
@@ -1078,24 +1078,24 @@ $string['userzones'] = 'Ngaahi souni \'iusa';
 $string['usingexistingcourse'] = 'Ngaue\'aki e koosi lolotonga ';
 $string['version'] = 'Vesini';
 $string['view'] = 'Vakai';
-$string['virusfound'] = 'Kataki \'o tokanga mai \'Etiminisituleita!Kuo ma\'u \'ehe  Clam AV  ha vailasi \'i he faile ne \'apulouti mai \'e  $a->\'iusa ki he koosi $a->course. Koe ola eni \'oe me\'a ne fakahuatu \'e he clamscan:';
-$string['virusfoundlater'] = 'Koe faile ne \'apulouti \'ihe $a->\'aho moe hingoa \'oe faile koe$a->Hignoafaile ki he koosi koe$a->koosi kuo ma\'u \'oku \'iai ha vailasi. Koe fakaikiiki \'eni e me\'a ne hoko ki ho\'o faile: 
+$string['virusfound'] = 'Kataki \'o tokanga mai \'Etiminisituleita!Kuo ma\'u \'ehe  Clam AV  ha vailasi \'i he faile ne \'apulouti mai \'e  $a->user ki he koosi $a->course. Koe ola eni \'oe me\'a ne fakahuatu \'e he clamscan:';
+$string['virusfoundlater'] = 'Koe faile ne \'apulouti \'ihe $a->date moe hingoa \'oe faile koe$a->filename ki he koosi koe$a->course kuo ma\'u \'oku \'iai ha vailasi. Koe fakaikiiki \'eni e me\'a ne hoko ki ho\'o faile: 
 
 $a->action
 
 Kapau ko ha\'o ngaue \'eni ne fakahu mai, kataki \'o toe fakahu mai ia koe\'uhi ke lava ho\'o tiuta \'o sio ki ai. ';
-$string['virusfoundlateradmin'] = 'Kataki \'o tokanga mai \'Etiminisituleita! Koha faile ne \'apulouti mai \'i he \'aho $a->\'aho moha hingoa faile koe $a->hingoafaile ki he koosi koe $a->koosi \'ehe \'iusa ko $a->\'iusa kuo toki \'ilo\'i ia \'oku \'iai ha vailasi. Ko \'eni ha fakaikiiki ki he me\'a ne hoko ki he faile:
+$string['virusfoundlateradmin'] = 'Kataki \'o tokanga mai \'Etiminisituleita! Koha faile ne \'apulouti mai \'i he \'aho $a->date moha hingoa faile koe $a->filename ki he koosi koe $a->course \'ehe \'iusa ko $a->user kuo toki \'ilo\'i ia \'oku \'iai ha vailasi. Ko \'eni ha fakaikiiki ki he me\'a ne hoko ki he faile:
 
 $a->action
 
 Kuo \'osi fakaha ki he \'iusa.';
-$string['virusfoundlateradminnolog'] = 'Kataki \'o tokanga mai \'Etiminisituleita!Ko ha faile ne \'apulouti mai moe hingoa koe $a->hingoafaile kuo toki \'ilo\'i ia \'oku \'iai ha vailasi. Kuo \'ikai ke malava he\'e Moodle ia \'o fakafoki e faile ki he \'iusa na\'ane \'apulouti mai.
+$string['virusfoundlateradminnolog'] = 'Kataki \'o tokanga mai \'Etiminisituleita!Ko ha faile ne \'apulouti mai moe hingoa koe $a->filename kuo toki \'ilo\'i ia \'oku \'iai ha vailasi. Kuo \'ikai ke malava he\'e Moodle ia \'o fakafoki e faile ki he \'iusa na\'ane \'apulouti mai.
 
 Ko \'eni ha fakaikiiki ki he me\'a ne hoko ki he faile:
 
 $a->action';
 $string['virusfoundsubject'] = '$a: Vailasi kuo ma\'u!';
-$string['virusfounduser'] = 'Koe faile kuoke \'apulouti, $a->hingoafaile, Kuo \'osi sivi\'i \'aki ha me\'a sivi pea \'ilo \'oku huhukia!  Ko ho\'o \'apulouti faile na\'e ikai ke lava.';
+$string['virusfounduser'] = 'Koe faile kuoke \'apulouti, $a->filename, Kuo \'osi sivi\'i \'aki ha me\'a sivi pea \'ilo \'oku huhukia!  Ko ho\'o \'apulouti faile na\'e ikai ke lava.';
 $string['virusplaceholder'] = '\'Koe faile\'ni ne \'apulouti pea kuo \'ilo\'i \'oku \'iai ha vailasi ko ia ai kuo \'osi to\'o ia pe kuo tiliti\'i pea kuo \'osi fakaha ki he \'iusa. ';
 $string['webpage'] = 'Uepi peesi';
 $string['week'] = 'Uike';
@@ -1103,7 +1103,7 @@ $string['weekhide'] = 'Fufuu\'i e uike\'ni mei a $a';
 $string['weeklyoutline'] = 'Fakaikiiki fakauike';
 $string['weekshow'] = 'Fakaha e uike\'ni ki he $a';
 $string['welcometocourse'] = 'Malo e lava mai ki he $a';
-$string['welcometocoursetext'] = 'Malo e lava mai ki he $a->Hingoa\'oekoosi!
+$string['welcometocoursetext'] = 'Malo e lava mai ki he $a->coursename!
 
 Kapau \'oku te\'eki aikeke fai \'eni, \'oku totonu keke \'etita\'i ho\'o peesi poloofaile \'ihe koosi ka tau lava \'o toe \'ilo lahi ange fekau\'aki mo koe:
 

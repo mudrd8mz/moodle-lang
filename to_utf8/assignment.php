@@ -5,7 +5,7 @@
 $string['allowresubmit'] = 'fakangofua ke toe fakahu';
 $string['assignmentdetails'] = 'Fakaikiiki oe asainimeni';
 $string['assignmentmail'] = 'Kuo fokotu\'u atu \'ehe faiako ha ngaahi fakamatala ki ho\'o asainimeni na\'e fakahuu. Teke lava \'o sio ki ai he oku fakapipiki atu \'I ho\'o asainimeni na\'e fakahu. ';
-$string['assignmentmailhtml'] = '$a->kuo fokotu\'u atu he\'e faiako ha ngaahi fiiti peeki ki ho\'o \'asainimeni ne sapumiti ki he \'<i>$aasainimeni</i>\'<br/><br />Teke lava \'o sio kiai \'aia \'oku fakapipikiatu I ho\'o<a href=\"$a->url\"> Asainimeni sapumisoni</a>.';
+$string['assignmentmailhtml'] = '$a->teacher fokotu\'u atu he\'e faiako ha ngaahi fiiti peeki ki ho\'o \'asainimeni ne sapumiti ki he \'<i>$a->assignment</i>\'<br/><br />Teke lava \'o sio kiai \'aia \'oku fakapipikiatu I ho\'o<a href=\"$a->url\"> Asainimeni sapumisoni</a>.';
 $string['assignmentname'] = 'Hingoa oe \'asainimeni';
 $string['assignmenttype'] = 'Kalasi/fa\'ahinga oe \'asainimeni';
 $string['configmaxbytes'] = 'Koe mekisimamu \'oe saisi ki he kotoa \'oe ngaahi \'asainimeni \'ihe saiti (fakatatau ki he limiti \'oe koosi moe ngaahi setingi kehe)';
