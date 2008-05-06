@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 2.0 dev (2007101505)
+      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20080504) (2008050200)
 
 
 $string['addfeed'] = 'ニュースフィードURIを追加:';
@@ -24,7 +24,7 @@ $string['feedadded'] = 'ニュースフィードが追加されました。';
 $string['feeddeleted'] = 'ニュースフィードが削除されました。';
 $string['feeds'] = 'ニュースフィード';
 $string['feedsaddedit'] = 'フィードを追加/編集する';
-$string['feedsconfigurenewinstance'] = 'RSSフィードの表示設定をするには、ここをクリックしてください。';
+$string['feedsconfigurenewinstance'] = 'このブロックがRSSフィードを表示するよう設定するには、ここをクリックしてください。';
 $string['feedstitle'] = 'リモートRSSフィード';
 $string['feedupdated'] = 'ニュースフィードが更新されました。';
 $string['findmorefeeds'] = 'さらにRSSフィードを探す';
@@ -44,8 +44,8 @@ $string['submitters'] = '誰が新しいRSSフィードを設定できますか?
 $string['submitters2'] = '配信者';
 $string['timeout'] = 'キャッシュ内のRSSフィードの有効期限が切れる時間 (分) です。この時間には有効期限の最短時間を設定します。有効期限後の次のcron実行により、キャッシュ内のRSSフィードがリフレッシュされます。推奨設定値は、30分またはそれ以上です。';
 $string['timeout2'] = 'タイムアウト';
-$string['timeoutdesc'] = 'RSSフィードのキャッシュ保存期間 (分)';
+$string['timeoutdesc'] = 'RSSフィードキャッシュの保存期間 (分)';
 $string['updatefeed'] = 'ニュースフィードURIの更新:';
-$string['validatefeed'] = 'フィードの確認';
+$string['validatefeed'] = 'フィードを確認する';
 
 ?>
