@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080504) (2008050200)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -182,6 +182,7 @@ $string['configpathtoclam'] = 'clam AVのパスを指定してください。お
 $string['configpathtodu'] = 'duのパスを指定してください。おそらく /usr/bin/du のようになります。duのパスを設定した場合、多くのファイルを含んだディレクトリに関して、ディレクトリコンテンツを表示するページの表示速度が、はるかに速くなります。';
 $string['configperfdebug'] = 'この設定を有効にした場合、パフォーマンス情報がスタンダードテーマのフッタに表示されます。';
 $string['configprotectusernames'] = 'この設定を有効にした場合、forget_password.phpはユーザ名またはメールアドレスを推測できるヒントを表示しません。';
+$string['configproxybypass'] = 'プロクシをバイパスする、ホスト名 (一部) またはIPアドレスのカンマ区切り一覧です (例 192.168., .mydomain.com)。';
 $string['configproxyhost'] = '<b>サーバ</b>のインターネットアクセスにプロクシ (例 ファイアーウォール) が必要な場合、プロクシのホスト名を入力してください。必要でない場合、空白にしてください。';
 $string['configproxypassword'] = 'プロクシ経由でインターネットにアクセスする必要がある場合、パスワードを入力してください。必要でない場合、空白にしてください (PHP cURL拡張モジュールが必要です)。';
 $string['configproxyport'] = 'サーバがプロクシを必要とする場合、ここにプロクシのポート番号を入力してください。';
@@ -578,6 +579,7 @@ $string['profilevisibleall'] = 'すべての人に表示する';
 $string['profilevisiblenone'] = '非表示';
 $string['profilevisibleprivate'] = 'ユーザに表示する';
 $string['protectusernames'] = 'ユーザ名を保護する';
+$string['proxybypass'] = 'プロクシバイパスホスト';
 $string['proxyhost'] = 'プロクシホスト';
 $string['proxypassword'] = 'プロクシパスワード';
 $string['proxyport'] = 'プロクシポート';

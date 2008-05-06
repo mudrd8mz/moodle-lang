@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 2.0 dev (2007110800)
+      // calendar.php - created with Moodle 2.0 dev (Build: 20080504) (2008050200)
 
 
 $string['advancedoptions'] = '高度なオプション';
@@ -27,7 +27,7 @@ $string['editevent'] = 'イベントの編集';
 $string['errorbeforecoursestart'] = 'コースの開始日以前にはイベントを登録できません';
 $string['errorinvaliddate'] = '日付に間違いがあります';
 $string['errorinvalidminutes'] = '期間 (分) を1から999の間で指定してください。';
-$string['errorinvalidrepeats'] = 'イベントを1から999の間で指定してください。';
+$string['errorinvalidrepeats'] = 'イベント数を1から999の間で指定してください。';
 $string['errornodescription'] = '説明を入力してください';
 $string['errornoeventname'] = '名称を入力してください';
 $string['eventdate'] = '日付';
@@ -35,7 +35,7 @@ $string['eventdescription'] = '説明';
 $string['eventduration'] = '期間';
 $string['eventendtime'] = '終了日時';
 $string['eventinstanttime'] = '時間';
-$string['eventkind'] = 'イベントの種類';
+$string['eventkind'] = 'イベントのタイプ';
 $string['eventname'] = '名称';
 $string['eventnone'] = 'イベントなし';
 $string['eventrepeat'] = '繰り返し';
@@ -47,11 +47,11 @@ $string['eventstarttime'] = '開始日時';
 $string['eventtime'] = '時間';
 $string['eventview'] = 'イベント詳細';
 $string['expired'] = '期間終了';
-$string['explain_lookahead'] = 'ここでは、イベントが直近のイベントとして表示されるための最大日数を設定します。この範囲より後に開催されるイベントは、直近イベントとして表示されません。すべてのイベントがこのスケジュールどおりに開始されることは<strong>保証されません</strong>; もし数多く (「直近イベントの最大表示件数」以上) のイベントが登録されている場合は、時間が遅いイベントが表示されません。';
-$string['explain_maxevents'] = 'ここでは、直近イベントの最大表示件数を設定します。ここで大きな数を設定した場合は、直近のイベントを大量に表示するための画面スペースが必要になります。';
+$string['explain_lookahead'] = 'ここでは、イベントが直近のイベントとして表示されるための最大日数を設定します。この範囲より後に開催されるイベントは、直近イベントとして表示されません。すべてのイベントがこのスケジュールどおりに開始されることは<strong>保証されません</strong>。数多く (「直近イベントの最大表示件数」以上) のイベントが登録されている場合、時間が遅いイベントは表示されません。';
+$string['explain_maxevents'] = 'ここでは、直近イベントの最大表示件数を設定します。ここで大きな数を設定した場合、直近のイベントを大量に表示するための画面スペースが必要になります。';
 $string['explain_persistflt'] = 'この設定を行った場合、Moodleはあなたの最新のイベントフィルタ設定を記憶します。また、あなたがログインするたびに最新のイベントを自動的に表示します。';
 $string['explain_site_timeformat'] = 'あなたは、12時間表示または24時間表示を時間の表示方法として選択することができます。「デフォルト」を選択した場合、使用言語に合わせてフォーマットが自動的に選択されます。この設定は、ユーザ設定によりオーバーライドすることができます。';
-$string['explain_startwday'] = 'ここでは、すべての月間カレンダーの表示方法を設定します。あなたが慣れ親しんだ表示になるように設定してください。';
+$string['explain_startwday'] = 'ここでは、すべての月間カレンダーの表示方法を設定します。あなたが慣れ親しんだ表示になるよう設定してください。';
 $string['explain_timeformat'] = 'あなたは、12時間表示または24時間表示を時間の表示方法として選択することができます。「デフォルト」を選択した場合、使用言語に合わせてフォーマットが自動的に選択されます。';
 $string['export'] = 'エクスポート';
 $string['exportbutton'] = 'エクスポート';
@@ -131,6 +131,6 @@ $string['wednesday'] = '水曜日';
 $string['weeknext'] = '来週';
 $string['weekthis'] = '今週';
 $string['yesterday'] = '昨日';
-$string['youcandeleteallrepeats'] = 'このイベントは繰り返しイベントの一部です。あなたはこのイベントのみ削除することもできます。また、一度に $a 件すべてのイベントを削除することもできます。';
+$string['youcandeleteallrepeats'] = 'このイベントは、繰り返しイベントの一部です。あなたは、このイベントのみ削除することもできます。また、一度に $a 件すべてのイベントを削除することもできます。';
 
 ?>
