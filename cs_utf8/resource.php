@@ -1,30 +1,37 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.6 + (2006050506)
+      // resource.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
 
 
 $string['addresource'] = 'Přidat studijní materiál';
+$string['affectedresources'] = 'Ovlivněné materiály';
+$string['allowlocalfiles'] = 'Povolit lokální soubory';
+$string['autofilerename'] = 'Aktualizovat odkaz při změně názvu souboru';
 $string['back'] = 'Zpět';
+$string['blockdeletingfile'] = 'Blokovat odstranění odkazovaných souborů';
 $string['browserepository'] = 'Procházet repozitář';
 $string['choose'] = 'Vyberte';
 $string['chooseafile'] = 'Vyberte nebo nahrejte soubor';
 $string['chooseparameter'] = 'Vyberte parametr';
+$string['clicktoopen'] = 'Pro otevření souboru klikněte na tento odkaz:';
 $string['configallowlocalfiles'] = 'Při vytváření studijních materiálů ve formě odkazů na soubory lze povolit odkazy směřující na lokální souborový systém, např. CD mechaniky či pevné disky. Tato možnost může být užitečná ve třídách, kde mají všichni studenti k dispozici stejně namapované síťové disky nebo když je potřeba přistupovat k obsahu vložených CD. Tato možnost si může vyžádat změnu nastavení zabezpečení použitých prohlížečů.';
-$string['configdefaulturl'] = 'Tato hodnota je použita k vyplnění předvolené hodnoty URL při vytváření nového URL zdroje.';
+$string['configautofilerenamesettings'] = 'Automaticky aktualizovat odkazy na soubory a adresáře při jejich přejmenování v souborech kurzu.';
+$string['configblockdeletingfilesettings'] = 'Blokovat odstranění souborů a adresářů, na které se odkazuje ze studijních materiálů. Upozornění: obrázky a další soubory, na něž se odkazuje v HTML zdroji studijních materiálů, nejsou tímto mechanismem chráněny.';
+$string['configdefaulturl'] = 'Zadaný řetězec bude použit jako předvyplněná hodnota URL při vytváření nového materiálu, který vyžaduje zadání URL.';
 $string['configfilterexternalpages'] = 'Povolením tohoto nastavení docílíte toho, že i externí studijní materiály (webové stránky, nahrané HTML soubory) budou zpracovány stávajícími aktivními filtry (například propojení se slovníkem). Zapnutí této volby může znatelně zpomalit zobrazování stránek kurzů - proto ji používejte s opatrností a jen v případě, že ji opravdu potřebujete.';
-$string['configframesize'] = 'Jsou-li Vložená webová stránka nebo Přiložený soubor zobrazovány uvnitř rámce, pak tato hodnota určuje velikost (v pixelech) nadřazeného rámce (který obsahuje navigační pruh).';
+$string['configframesize'] = 'Tato hodnota určuje výšku (v pixelech) rámce obsahujícího horní navigační pruh, jsou-li vložený soubor nebo webová stránka zobrazovány včetně horní navigace.';
 $string['configparametersettings'] = 'Tímto se nastavuje výchozí nastavení panelu Parametry ve formuláři pro přidání nového studijního materiálu. Po prvním použití se tyto hodnoty stávají součástí preferencí jednotlivých uživatelů.';
-$string['configpopup'] = 'Když se přidává studijní materiál, který je možno zobrazit v novém okně, má být tato možnost implicitně povolena?';
-$string['configpopupdirectories'] = 'Měly by se v nových oknech ukazovat v odkazu implicitně adresáře?';
+$string['configpopup'] = 'Když se přidává studijní materiál, který je možno zobrazit v novém okně, má být tato možnost nastavena jako výchozí?';
+$string['configpopupdirectories'] = 'Měla by se v nových oknech implicitně zobrazovat lišta s odkazy?';
 $string['configpopupheight'] = 'Výchozí výška nových oken';
 $string['configpopuplocation'] = 'Měl by se v nových oknech implicitně zobrazovat pruh s umístěním (adresou)?';
 $string['configpopupmenubar'] = 'Měl by se v nových oknech implicitně zobrazovat pruh s nabídkou (menu)?';
 $string['configpopupresizable'] = 'Měla by se dát u nových oken implicitně měnit velikost?';
-$string['configpopupscrollbars'] = 'Mělo by se dát v nových oknech implicitně skrolovat?';
-$string['configpopupstatus'] = 'Měl by se v nových oknech implicitně zobrazovat stavový pruh?';
+$string['configpopupscrollbars'] = 'Mělo by se dát v nových oknech implicitně posouvat po stránce nahoru a dolů?';
+$string['configpopupstatus'] = 'Měl by se v nových oknech implicitně zobrazovat stavový řádek?';
 $string['configpopuptoolbar'] = 'Měl by se v nových oknech implicitně zobrazovat pruh s nástroji?';
 $string['configpopupwidth'] = 'Výchozí šířka nových oken';
-$string['configsecretphrase'] = 'Tento tajný výraz se používá k tvorbě šifrovaného kódu, který můžete zasílat některým externím zdrojům studijních materiálů (jako např. vaše vlastní skripty) jako parametr. Šifrovaný kód je vytvořen jako MD5 hodnota IP adresy stávajícího uživatele (current_user) spojená s vaším tajným výrazem, tzn. kod=md5(IP.tajnyvyraz) . To umožňuje externím zdrojům ověřovat oprávněnost spojení.';
-$string['configwebsearch'] = 'Pokud přidáváte vloženou stránku nebo odkaz, je tato adresa nabídnuta jako stránka, kde může uživatel najít požadované URL.';
+$string['configsecretphrase'] = 'Tento tajný výraz se používá k tvorbě šifrovaného kódu, který můžete zasílat některým externím zdrojům studijních materiálů (jako např. vaše vlastní skripty) jako parametr. Šifrovaný kód je vytvořen jako MD5 hodnota IP adresy stávajícího uživatele (current_user) spojené s vaším tajným výrazem, tzn. kod=md5(IP.tajnyvyraz). To umožňuje externím zdrojům ověřovat oprávněnost spojení.';
+$string['configwebsearch'] = 'Při vkládání URL webové stránky nebo odkazu na soubor je vyhledávač na uvedené adrese nabídnut uživateli pro vyhledání požadované stránky.';
 $string['configwindowsettings'] = 'Tímto se nastavuje výchozí nastavení panelu Okno ve formuláři pro přidání nového studijního materiálu. Po prvním použití se tyto hodnoty stávají součástí preferencí jednotlivých uživatelů.';
 $string['deploy'] = 'Aktivovat';
 $string['deployall'] = 'Aktivovat vše';
@@ -41,10 +48,13 @@ $string['fetcherror'] = 'Při pokusu o načtení webové stránky došlo k chyb�
 $string['fetchservererror'] = 'Při pokusu o načtení webové stránky došlo u vzdáleného serveru k chybě (pravděpodobně chyba programu).';
 $string['filename'] = 'Jméno souboru';
 $string['filtername'] = 'Automatické propojování názvů studijních materiálů';
+$string['forcedownload'] = 'Vynutit stažení';
 $string['frameifpossible'] = 'Umístit studijní materiál do rámce a ponechat tak na obrazovce navigační lištu';
+$string['framesize'] = 'Výška rámce';
 $string['fulltext'] = 'Full text';
 $string['htmlfragment'] = 'HTML fragment';
 $string['imspackageloaded'] = 'Balíček aktivován';
+$string['keepnavigationvisible'] = 'Zachovat na stránce horní navigační pruh';
 $string['localfile'] = 'Lokální soubor';
 $string['localfilechoose'] = 'Vyberte lokální soubor (CD-ROM)';
 $string['localfilehelp'] = 'Nápověda k zobrazování lokálních souborů';
@@ -90,6 +100,8 @@ $string['preview'] = 'Náhled';
 $string['previous'] = 'Předchozí';
 $string['redeploy'] = 'Znovu aktivovat';
 $string['repository'] = 'Repozitář IMS';
+$string['resource:view'] = 'Prohlížet studijní materiál';
+$string['resourcedefaulturl'] = 'Výchozí URL';
 $string['resourcetype'] = 'Typ studijního materiálu';
 $string['resourcetype1'] = 'Literatura';
 $string['resourcetype2'] = 'Vložená webová stránka';
@@ -112,9 +124,13 @@ $string['serverurl'] = 'URL serveru ($a->wwwroot)';
 $string['showcourseblocks'] = 'Zobrazovat bloky kurzu';
 $string['skipsubmenus'] = 'Přeskočit stránky s podnabídkami';
 $string['tableofcontents'] = 'Obsah';
+$string['tableofcontentsabbrev'] = 'Obsah';
 $string['upbutton'] = 'Nahoru';
 $string['variablename'] = 'Název proměnné';
 $string['viewims'] = 'Zobrazit balíček IMS Content';
 $string['vol'] = 'Vol';
+$string['warningblockingdelete'] = 'Upozornění: Odstranění je blokováno, protože na soubor/adresář odkazuje jeden či více studijních materiálů. Aktualizujte nejdříve své studijní materiály nebo požádejte správce, aby tento bezpečnostní mechanismus deaktivoval.';
+$string['warningdisabledrename'] = 'Upozornění: Automatická aktualizace odkazů ve studijních materiálech není aktivní. Změnou názvu souboru přestanou výše uvedené studijní materiály fungovat. Aktualizaci postižených studijních materiálů můžete provést ručně. Automatickou aktualizaci odkazů může aktivovat správce v nastavení modulu Studijní materiály.';
+$string['websearchdefault'] = 'Výchozí vyhledávač';
 
 ?>
