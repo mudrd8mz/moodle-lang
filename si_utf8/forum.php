@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080320) (2008030700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080505) (2008050200)
 
 
 $string['addanewdiscussion'] = 'නව කතිකා මාතෘකාවක් එක් කරන්න';
@@ -28,6 +28,8 @@ $string['blockperiod'] = 'අවහිර කිරීම සදහා කාල
 $string['blockperioddisabled'] = 'අවහිර නොකරන්න';
 $string['bynameondate'] = '$a->name - $a->date මගින්';
 $string['cannotadddiscussion'] = 'මෙම සංසදයට කතිකා එක් කිරීමට කණ්ඩායම් සාමාජිකත්වය අවශ්‍ය වේ.';
+$string['cannotadddiscussionall'] = 'සියලු පරිශීලකයින් සඳහා නව සාකච්ඡා මාතෘකාවක් එක් කිරීමට ඔබට අවසර නොමැත.';
+$string['cannotfindorcreateforum'] = 'අඩවිය සඳහා මූලික පුවත් සංසදයක් සොයා ගැනීමට හෝ සෑදීමට නොහැක';
 $string['cannotviewpostyet'] = 'ඔබ කිසිවක් පළකර නැති බැවින් ඔබට මෙම කතිකාවේ අනික් සිසුන්ගේ පැන කියවීමට නොහැක.';
 $string['cleanreadtime'] = 'පැරණි පළ කිරීම් කියවීමේ පැය ලෙස සලකුණු කරන්න';
 $string['configcleanreadtime'] = '\'කියවන ලද \' වගුවෙන් පැරණි හසුන්  ඉවත් කිරීමට යොදා ගත යුතු දිනයේ පැය';
