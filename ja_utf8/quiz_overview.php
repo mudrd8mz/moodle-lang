@@ -6,6 +6,7 @@ $string['allattempts'] = 'すべての受験を表示する';
 $string['allstudents'] = 'すべての $a を表示する';
 $string['attemptsonly'] = '受験した $a のみ表示する';
 $string['attemptsprepage'] = '1ページあたりの受験数';
+$string['deleteselected'] = '選択した受験を削除する';
 $string['noattemptsonly'] = '未受験の $a のみ表示する';
 $string['optallattempts'] = 'すべての受験';
 $string['optallstudents'] = 'すべての「 $a 」';
