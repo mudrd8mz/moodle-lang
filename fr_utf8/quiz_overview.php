@@ -4,6 +4,7 @@ $string['attemptsonly'] = 'N\'afficher que les $a avec tentatives';
 $string['allattempts'] = 'Afficher toutes les tentatives';
 $string['allstudents'] = 'Afficher tous les $a';
 $string['attemptsprepage'] = 'Tentatives affichées par page';
+$string['deleteselected'] = 'Supprimer les tentatives sélectionnées';
 $string['noattemptsonly'] = 'N\'afficher que les $a sans tentatives';
 $string['optallattempts'] = 'toutes les tentatives';
 $string['optallstudents'] = 'tous les $a';
