@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080429) (2008030700)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080504) (2008050200)
 
 
 $string['CASform'] = '認証選択';
@@ -88,7 +88,7 @@ $string['auth_dbuser_key'] = 'データベースユーザ';
 $string['auth_dbusernotexist'] = '登録されていないユーザを更新できません: $a';
 $string['auth_dbuserstoadd'] = '追加するユーザエントリ: $a';
 $string['auth_dbuserstoremove'] = '削除するユーザエントリ: $a';
-$string['auth_emaildescription'] = 'メールによるアカウント登録確認は、デフォルトの認証方法です。ユーザが新しいユーザ名とパスワードを選択してサインアップした場合、アカウント確定用メールがユーザのメールアドレスに送信されます。このメールにはユ、ーザがアカウントの登録を確認するためのリンクが記入されています。アカウント確定後のログインでは、Moodleデータベースに保存されているユーザ名とパスワードのみを確認します。';
+$string['auth_emaildescription'] = 'メールによるアカウント登録確認は、デフォルトの認証方法です。ユーザが新しいユーザ名とパスワードを選択してサインアップした場合、アカウント確定用メールがユーザのメールアドレスに送信されます。このメールにはユーザがアカウントの登録を確認するためのリンクが記入されています。アカウント確定後のログインでは、Moodleデータベースに保存されているユーザ名とパスワードのみを確認します。';
 $string['auth_emailnoemail'] = 'あなたへのメール送信に失敗しました!';
 $string['auth_emailnoinsert'] = 'あなたのレコードをデータベースに追加できませんでした!';
 $string['auth_emailrecaptcha'] = 'Eメールによる自己登録ユーザのため、サインアップページにビジュアル/オーディオ確認フォーム要素を追加します。これは、あなたのサイトをスパム発信者から守り、価値ある活動に貢献します。詳細は、http://recaptcha.net/learnmore.html をご覧ください。';
