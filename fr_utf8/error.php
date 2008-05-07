@@ -109,6 +109,7 @@ $string['invalidcourseid'] = 'Vous essayez d\'utilisant un identifiant de cours 
 $string['invalidcoursemodule'] = 'Identifiant de module de cours non valide';
 $string['invalidcoursenameshort'] = 'Le nom abrégé du cours n\'est pas valide';
 $string['invaliddata'] = 'Les données envoyées ne sont pas valides.';
+$string['invalidenrol'] = 'Tentative d\'inscription illégale';
 $string['invalidevent'] = 'Événement non valide';
 $string['invalidfieldname'] = '«&nbsp;$a&nbsp;» n\'est pas un nom de champ valide';
 $string['invalidfiletype'] = '«&nbsp;$a&nbsp;» n\'est pas un type de fichier valide';
@@ -181,6 +182,7 @@ $string['processingstops'] = 'Le traitement s\'arrête ici. Les enregistrements 
 $string['remotedownloaderror'] = 'Le téléchargement de composants sur votre serveur a échoué. Veuillez vérifier les réglages de proxy. L\'extension cURL de PHP est vivement recommandée.<br /><br />Vous devez télécharger manuellement le fichier <a href=\"$a->url\">$a->url</a>, le copier sur votre serveur à l\'emplacement «&nbsp;$a->dest&nbsp;» et le décompresser à cet endroit.';
 $string['remotedownloadnotallowed'] = 'Le téléchargement de composants sur votre serveur n\'est pas autorisé (l\'option allow_url_fopen est désactivée).<br /><br />Vous devez télécharger manuellement le fichier <a href=\"$a->url\">$a->url</a>, le copier vers «&nbsp;$a->dest&nbsp;» dans votre serveur et le décompresser.';
 $string['restricteduser'] = 'Votre compte utilisateur «&nbsp;$a&nbsp;» ne vous permet pas d\'effectuer cette opération.';
+$string['rpcerror'] = 'RPC cours disponibles pour inscription réseau Moodle&nbsp;:<br/> ($a)';
 $string['scheduledbackupsdisabled'] = 'Les sauvegardes automatiques ont été désactivées par l\'administrateur du serveur';
 $string['sectionnotexist'] = 'Cette section n\'existe pas';
 $string['sendmessage'] = 'Envoyer un message';

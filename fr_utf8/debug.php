@@ -2,6 +2,7 @@
 /*
  * debug information for developer only
  */
+$string['cannotfindadmin'] = 'Impossible de trouver un administrateur&nbsp;!';
 $string['cannotupgradecapabilities'] = 'Problèmes lors de la mise à jour des capacités centrales du systèmes des rôles';
 $string['cannotupdateversion'] = 'Échec de la mise à jour&nbsp;! (Impossible de mettre à jour la version dans la table config)';
 $string['cannotupdaterelease'] = 'Erreur&nbsp;: impossible de mettre à jour la version dans la base de données&nbsp;!!';
@@ -20,6 +21,7 @@ $string['phpvaroff'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP devrait
 $string['phpvaron'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP n\'set pas sur On - $a[1]';
 $string['prefixcannotbeempty'] = 'Le préfixe des tables «&nbsp;$a[0]&nbsp;» ne peut pas être vite avec ce type de base de données ($a[1])';
 $string['prefixlimit'] = 'La longueur maximale du préfixe des tables «&nbsp;$a[0]&nbsp;» dans les bases de données Oracle est de 2 caractères.';
+$string['siteisnotdefined'] = 'Le site n\'est pas défini&nbsp;!';
 $string['withoutversion'] = 'Le fichier principal version.php n\'set pas accessible';
 
 ?>
