@@ -5,16 +5,20 @@
 $string['allattempts'] = 'すべての受験を表示する';
 $string['allstudents'] = 'すべての $a を表示する';
 $string['attemptsonly'] = '受験した $a のみ表示する';
+$string['attemptsprepage'] = '1ページあたりの受験数';
 $string['noattemptsonly'] = '未受験の $a のみ表示する';
 $string['optallattempts'] = 'すべての受験';
-$string['optallstudents'] = 'すべての $a';
-$string['optattemptsonly'] = '受験した $a のみ';
-$string['optnoattemptsonly'] = '未受験の $a のみ';
+$string['optallstudents'] = 'すべての「 $a 」';
+$string['optattemptsonly'] = '受験した「 $a 」のみ';
+$string['optnoattemptsonly'] = '未受験の「 $a 」のみ';
+$string['optonlygradedattempts'] = '評定された受験のみ表示する';
 $string['overview'] = '概要';
 $string['overviewdownload'] = '概要のダウンロード';
+$string['pagesize'] = 'ページサイズ';
 $string['preferencespage'] = 'このページのみに関する設定';
 $string['preferencessave'] = '設定を保存する';
-$string['preferencesuser'] = 'このレポートに関する、あなたの設定';
+$string['preferencesuser'] = 'このレポートに関する設定';
 $string['show'] = '表示';
+$string['showdetailedmarks'] = '問題の最大評点を表示する';
 
 ?>
