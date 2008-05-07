@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080507) (2008050700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -302,7 +302,7 @@ $string['coursestaught'] = '私が担当したコース';
 $string['courseupdates'] = 'コース更新内容';
 $string['courseuploadlimit'] = 'コースアップロード制限';
 $string['create'] = '作成';
-$string['createaccount'] = 'アカウントの作成';
+$string['createaccount'] = '私の新しいアカウントを作成する';
 $string['createfolder'] = '$a にフォルダを作成する';
 $string['createuserandpass'] = 'ユーザ名 (英数字) とパスワードを入力してください。';
 $string['createziparchive'] = 'zip書庫を作成する';
@@ -1517,7 +1517,7 @@ $string['userfiles'] = 'ユーザファイル';
 $string['userlist'] = 'ユーザ一覧';
 $string['username'] = 'ユーザ名';
 $string['usernameemailmatch'] = 'ユーザ名とメールアドレスが同じユーザに関連していません。';
-$string['usernameexists'] = 'このユーザ名はすでに使用されています　他のユーザ名を入力してください';
+$string['usernameexists'] = 'このユーザ名はすでに使用されています。他のユーザ名を入力してください。';
 $string['usernamelowercase'] = '小文字のみ使用できます。';
 $string['usernamenotfound'] = 'ユーザ名がデータベース内に見つかりませんでした。';
 $string['usernameoremail'] = 'ユーザ名またはメールアドレスを入力してください。';
