@@ -12,6 +12,7 @@ $string['optnoattemptsonly'] = 'seulement $a sans tentatives';
 $string['optonlygradedattempts'] = 'seulement la tentative évaluée de chaque participant';
 $string['overview'] = 'Vue d\'ensemble';
 $string['overviewdownload'] = 'Téléchargement vue d\'ensemble';
+$string['overviewreportgraph'] = 'Histogramme du nombre de participants avec intervalle des notes';
 $string['pagesize'] = 'Taille de page';
 $string['preferencespage'] = 'Préférences pour cette page';
 $string['preferencessave'] = 'Enregistrer préférences';
