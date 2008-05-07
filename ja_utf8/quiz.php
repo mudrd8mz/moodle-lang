@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080504) (2008050200)
 
 
 $string['1day'] = '1日';
@@ -119,8 +119,8 @@ $string['confirmstartattemptlimit'] = 'この小テストの受験回数は、$a
 $string['confirmstartattempttimelimit'] = 'この小テストには制限時間があり、受験回数は $a 回に制限されています。あなたは新しい受験を開始しようとしています。本当に続けてもよろしいですか?';
 $string['confirmstarttimelimit'] = '小テストには制限時間があります。本当に開始してもよろしいですか?';
 $string['containercategorycreated'] = 'このカテゴリは、下記の原因によりサイトレベルで移動されたすべてのオリジナルカテゴリを保存するために作成されました。';
-$string['continueattemptquiz'] = '最後の受験を続ける';
-$string['continuepreview'] = '最後のプレビューを続ける';
+$string['continueattemptquiz'] = '前回の受験を続ける';
+$string['continuepreview'] = '前回のプレビューを続ける';
 $string['copyingfrom'] = '問題「 $a 」のコピーを作成';
 $string['copyingquestion'] = '問題のコピー';
 $string['correct'] = '正解';

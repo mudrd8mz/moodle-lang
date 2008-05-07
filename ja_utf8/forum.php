@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080430) (2008030700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080504) (2008050200)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -38,7 +38,7 @@ $string['configenablerssfeeds'] = 'すべてのフォーラムのRSS使用を有
 $string['configenabletimedposts'] = '新しいフォーラムディスカッションの表示期間の設定を許可したい場合、「Yes」を選択してください。';
 $string['configlogblocked'] = 'フォーラムcronは、メールアドレスを非公開にしたユーザに対するメール送信のブロックを記録することができます。';
 $string['configlongpost'] = 'この文字長以上の長さ (HTMLは含まない) は長いとみなされます。サイトのフロントページ、ソーシャルフォーマット、ユーザプロファイルに表示される投稿内容の長さは、forum_shortpostとforum_longpostの値の間に短くされます。';
-$string['configmanydiscussions'] = 'フォーラムの1ページあたりに表示されるディスカッションの最大数';
+$string['configmanydiscussions'] = 'フォーラム1ページあたりに表示されるディスカッションの最大数です。';
 $string['configmaxbytes'] = 'すべてのフォーラムの添付ファイルに関するデフォルト最大サイズ (コース制限および他のローカル設定に従います)';
 $string['configoldpostdays'] = '古い投稿を既読とする日数';
 $string['configreplytouser'] = 'フォーラムの投稿がメール送信される場合、受信者がフォーラムを介さず個人的に返信できるよう、メールにユーザのメールアドレスを表示しますか?　「Yes」に設定した場合でも、ユーザはプロファイルページで、メールアドレスを隠すよう設定することができます。';
@@ -129,7 +129,7 @@ $string['learningforums'] = '学習フォーラム';
 $string['logblocked'] = 'ブロックされたメール送信を記録する';
 $string['longpost'] = '長い投稿';
 $string['mailnow'] = 'すぐにメール送信する';
-$string['manydiscussions'] = 'ページあたりのディスカッション数';
+$string['manydiscussions'] = '1ページあたりのディスカッション数';
 $string['markalldread'] = 'このディスカッションの投稿をすべて既読にする。';
 $string['markallread'] = 'このフォーラムの投稿をすべて既読にする。';
 $string['markread'] = '既読にする';
