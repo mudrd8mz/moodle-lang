@@ -5,8 +5,8 @@ $string['firstdayofweek'] = '1';
 $string['locale'] = 'zh_CN.UTF-8';
 $string['localewin'] = 'Chinese_China.936';
 $string['localewincharset'] = 'CP936';
-$string['fullnamedisplay'] = '{$a->lastname}{$a->firstname}';
-$string['nameedit'] = 'LF';                                                                                          
+$string['nativecharset'] = 'GB18030';
+$string['nameedit'] = 'LF';
 $string['oldcharset'] = 'UTF-8';
 $string['strftimedate'] = '%%Y年%%m月%%d日';
 $string['strftimedateshort'] = '%%m月%%d日';
@@ -21,5 +21,5 @@ $string['strftimerecentfull'] = '%%Y年%%m月%%d日 %%A %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = '简体中文';
+$string['thislanguage'] = 'Chinese';
 ?>

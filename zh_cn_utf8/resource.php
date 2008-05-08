@@ -1,18 +1,15 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
+      // resource.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addresource'] = '添加资源';
 $string['affectedresources'] = '受影响的资源';
-$string['allowlocalfiles'] = '允许本地文件';
-$string['autofilerename'] = '如果文件改名则更新链接';
 $string['back'] = '后退';
-$string['blockdeletingfile'] = '阻止删除已被引用的文件';
 $string['browserepository'] = '浏览仓库';
 $string['choose'] = '选择';
 $string['chooseafile'] = '选择或上传一个文件';
 $string['chooseparameter'] = '选择一个参数';
-$string['clicktoopen'] = '要开启这个文档，请点击下面的链接：';
+$string['clicktoopen'] = '如果要打开文档，点击此链接。';
 $string['configallowlocalfiles'] = '允许在创建新文件资源时使用指向本地文件系统的链接，如光驱或者硬盘。这对于学生都在一个教室内访问网络驱动器或CD上的文件是很有用出的。是用这个功能可能要修改您的浏览器的安全设置。';
 $string['configautofilerenamesettings'] = '当在文件管理器中对文件重命名时，系统将自动更新所有对文件和目录的引用。';
 $string['configblockdeletingfilesettings'] = '阻止删除被资源引用的文件和目录的请求。请注意，从html引用的图片和其它文件不受保护。';
@@ -49,11 +46,10 @@ $string['fetchservererror'] = '当试图下载网页时远程服务器发生错�
 $string['filename'] = '文件名';
 $string['filtername'] = '资源名称自动链接';
 $string['frameifpossible'] = '将资源放在单独框架中以保证站点导航';
-$string['framesize'] = '框架尺寸';
 $string['fulltext'] = '全文';
 $string['htmlfragment'] = 'HTML片段';
 $string['imspackageloaded'] = '包已载入。';
-$string['keepnavigationvisible'] = '在同样页面上保留浏览信息';
+$string['keepnavigationvisible'] = '保持页面导航在同一页中可见';
 $string['localfile'] = '本地文件';
 $string['localfilechoose'] = '选择一个本地文件(CD-ROM)';
 $string['localfilehelp'] = '帮助显示本地文件';
@@ -63,9 +59,9 @@ $string['localfileselect'] = '选择这个路径。';
 $string['maindirectory'] = '主文件目录';
 $string['modulename'] = '资源';
 $string['modulenameplural'] = '资源';
-$string['navigationbuttons'] = '浏览按钮';
-$string['navigationmenu'] = '浏览侧边菜单';
-$string['navigationup'] = '上方按钮';
+$string['navigationbuttons'] = '导航按钮';
+$string['navigationmenu'] = '浏览侧栏菜单';
+$string['navigationup'] = '显示顶部导航';
 $string['neverseen'] = '没看过';
 $string['newdirectories'] = '显示目录链接';
 $string['newfullscreen'] = '全屏';
@@ -100,7 +96,6 @@ $string['previous'] = '前面的';
 $string['redeploy'] = '重新部署';
 $string['repository'] = 'IMS仓库';
 $string['resource:view'] = '查看资源';
-$string['resourcedefaulturl'] = '缺省链接';
 $string['resourcetype'] = '资源类型';
 $string['resourcetype1'] = '参考书目';
 $string['resourcetype2'] = '网页';
@@ -122,13 +117,23 @@ $string['searchweb'] = '搜索网页';
 $string['serverurl'] = '服务器链接({$a->wwwroot})';
 $string['showcourseblocks'] = '显示课程版块';
 $string['skipsubmenus'] = '跳过子菜单页面';
-$string['tableofcontents'] = '目录';
-$string['tableofcontentsabbrev'] = '目录';
+$string['tableofcontents'] = '显示目录内容';
 $string['upbutton'] = '向上';
 $string['variablename'] = '变量名';
 $string['viewims'] = '查看IMS包';
 $string['vol'] = '音量';
-$string['warningblockingdelete'] = '警告：删除操作被现存的资源阻止。首先更新你的资源，或者请管理员在全局资源配置中禁止这项安全机制。';
+$string['warningblockingdelete'] = '警告：删除操作被现存的资源阻止。首先更新您的资源，或者请管理员在全局资源配置中禁止这项安全机制。';
 $string['warningdisabledrename'] = '警告：自动重命名资源中的引用的机制被禁止。如需要，请手动更新受影响的资源。管理员也可以在全局资源配置中使自动重命名有效。';
 
+	  //翻译者：况亮
+	  //Email：kuangliang12345@163.com
+	  //Moodle 1.9 2008/04
+
+$string['allowlocalfiles'] = '允许本地文件';
+$string['autofilerename'] = '如果文件重命名则自动更新链接';
+$string['blockdeletingfile'] = '版块删除引用文件';
+$string['framesize'] = 'Frame大小';
+$string['resourcedefaulturl'] = '默认URL';
+$string['tableofcontentsabbrev'] = 'TOC';
+$string['websearchdefault'] = '默认Web搜索引擎';
 ?>

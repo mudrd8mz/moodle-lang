@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // qtype_shortanswer.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_shortanswer.php - created with Moodle 1.8 (2007021501)
 
 
-$string['addmoreanswerblanks'] = '为更多答案提供空白';
+$string['addmoreanswerblanks'] = '更多的答案空白';
 $string['answerno'] = '答案{$a}';
-$string['filloutoneanswer'] = '您必须提供至少一个答案。空白的答案不会被使用。“*”可用于任何字符的通配符。第一个匹配的答案将会被用于评分和反馈。';
+$string['filloutoneanswer'] = '必须提供至少一个可能的答案。答案不能为空.*可以做为一个通配符，用来匹配任何字符。第一个匹配的答案将用来决定分数和反馈。';
 
 ?>

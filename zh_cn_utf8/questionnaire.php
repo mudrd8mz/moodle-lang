@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // questionnaire.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005021800)
+      // questionnaire.php - created with Moodle 1.8 (2007021501)
 
 
-$string['alreadyfilled'] = '您已经填写了此调查表。谢谢。';
+$string['alreadyfilled'] = '您已经填写了此调查表，谢谢。';
 $string['modulename'] = '调查表';
 $string['modulenameplural'] = '调查表';
 $string['mustcomplete'] = '<b>您必须<i>现在</i>填写此调查表以记录您的选择。在其它时间不能填表。</b><br /><br />';

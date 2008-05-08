@@ -1,24 +1,20 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
+      // calendar.php - created with Moodle 1.8 (2007021501)
 
 
 $string['advancedoptions'] = '高级选项';
-$string['allday'] = '全部';
 $string['calendar'] = '日历';
 $string['calendarheading'] = '{$a}日历';
 $string['clickhide'] = '点击隐藏';
 $string['clickshow'] = '点击显示';
 $string['commontasks'] = '选项';
 $string['confirmeventdelete'] = '您确定要删除这个事件么?';
-$string['course'] = '课程';
 $string['courseevent'] = '课程事件';
 $string['courseevents'] = '课程事件';
-$string['courses'] = '课程';
 $string['dayview'] = '日视图';
 $string['daywithnoevents'] = '该日并无事件。';
 $string['default'] = '缺省';
 $string['deleteevent'] = '删除事件';
-$string['deleteevents'] = '删除事件';
 $string['detailedmonthview'] = '详细的月视图';
 $string['durationminutes'] = '持续多少分钟';
 $string['durationnone'] = '不持续';
@@ -40,8 +36,8 @@ $string['eventname'] = '名称';
 $string['eventnone'] = '没有事件';
 $string['eventrepeat'] = '重复';
 $string['eventsall'] = '所有事件';
-$string['eventsfor'] = '{$a}事件';
-$string['eventsrelatedtocourses'] = '与课程相关的事件';
+$string['eventsfor'] = '$a 事件';
+$string['eventsrelatedtocourses'] = '与课程相关事件';
 $string['eventstarttime'] = '开始时间';
 $string['eventtime'] = '时间';
 $string['eventview'] = '事件详情';
@@ -49,25 +45,20 @@ $string['expired'] = '过期';
 $string['explain_lookahead'] = '此处设置最多未来多少天之内将会发生的事件会显示为即将发生的事件。在此天数之外的事件不会被显示出来。请注意，系统<strong>并不保证</strong>此天数之内所有的事件都会被显示出来，如果事件总数超过了“最多显示几条即将发生的事件”的设置，系统将不显示最后发生的事件。';
 $string['explain_maxevents'] = '此处设置了显示出来的即将发生事件的最大数目。如果您在此设置的数值较大，即将发生事件的显示区域将会占据屏幕上的很大空间。';
 $string['explain_persistflt'] = '如果激活，则Moodle将会记住您最后一次使用的事件过滤设定并在每次登录时自动恢复。';
-$string['explain_site_timeformat'] = '您可以为全站选择以12或24小时格式。如果你选择“缺省”，那么会根据站点语言包来自动选择。用户可以通过偏好选项设定自己的时间格式。';
+$string['explain_site_timeformat'] = '您可以选择以12或24小时格式查看整个站点时间。如果选择“默认”。系统将按照站点语言自动选择格式，该项会被用户的首选项覆盖。';
 $string['explain_startwday'] = '日历中每周的起始日期将会根据您在此处的选择来显示。';
 $string['explain_timeformat'] = '您可以选择以12小时或24小时的格式来显示时间。如果您选择“缺省”，系统将根据您所使用的语言自动选择格式。';
 $string['export'] = '导出';
 $string['exportbutton'] = '导出';
 $string['exportcalendar'] = '导出日历';
-$string['for'] = '为';
+$string['for'] = '为了';
 $string['fri'] = '周五';
 $string['friday'] = '星期五';
 $string['generateurlbutton'] = '获得日历URL';
-$string['global'] = '全局';
-$string['globalevent'] = '全局事件';
-$string['globalevents'] = '全局事件';
-$string['gotocalendar'] = '去日历';
-$string['group'] = '小组';
-$string['groupevent'] = '小组事件';
-$string['groupevents'] = '小组事件';
+$string['groupevent'] = '组事件';
+$string['groupevents'] = '组事件';
 $string['hidden'] = '隐藏';
-$string['ical'] = 'iCal';
+$string['ical'] = '日历';
 $string['iwanttoexport'] = '导出';
 $string['manyevents'] = '{$a}事件';
 $string['mon'] = '周一';
@@ -86,7 +77,7 @@ $string['pref_timeformat'] = '时间显示格式';
 $string['preferences'] = '偏好';
 $string['preferences_available'] = '您的个人偏好';
 $string['quickdownloadcalendar'] = '快速下载/订阅日历';
-$string['recentupcoming'] = '最近60天';
+$string['recentupcoming'] = '最近和接下来的60天';
 $string['repeateditall'] = '对此系列中的全部{$a}事件';
 $string['repeateditthis'] = '仅对此次事件';
 $string['repeatnone'] = '不重复';
@@ -121,8 +112,7 @@ $string['typegroup'] = '组事件';
 $string['typesite'] = '站点事件';
 $string['typeuser'] = '用户事件';
 $string['upcomingevents'] = '即将来临的事件';
-$string['urlforical'] = 'iCalendar导出的URL，用于订阅日历';
-$string['user'] = '用户';
+$string['urlforical'] = '导出日历的URL，用于订阅日历。';
 $string['userevent'] = '用户事件';
 $string['userevents'] = '用户事件';
 $string['wed'] = '周三';
@@ -132,4 +122,21 @@ $string['weekthis'] = '本周';
 $string['yesterday'] = '昨天';
 $string['youcandeleteallrepeats'] = '这个事件是一个重复发生的系列事件中的一个。您可以仅删除此事件，也可以删除全部{$a}事件。';
 
+
+
+	  //翻译者：况亮
+	  //Email：kuangliang12345@163.com
+	  //Moodle 1.9 2008/04
+
+$string['allday'] = '整天';
+$string['course'] = '课程';
+$string['courses'] = '课程';
+$string['deleteevents'] = '删除事件';
+$string['eventskey'] = '事件关键字';
+$string['global'] = '全局';
+$string['globalevent'] = '全局事件';
+$string['globalevents'] = '全局事件';
+$string['gotocalendar'] = '转到日历';
+$string['group'] = '组';
+$string['user'] = '用户';
 ?>

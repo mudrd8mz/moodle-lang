@@ -10,12 +10,12 @@
 <body>
 <h1>开发者手册</h1>
 <blockquote>
-  <p>这个文档解释了一些Moodle的设计，以及你如何能够参与开发。</p>
+  <p>这个文档解释了一些Moodle的设计，以及您如何能够参与开发。</p>
   <p>目前文档有一些简洁 - 最终将会有更好的文档出现!</p>
   <p>文档中的章节:</p>
   <ol>
     <li><a href="#architecture">Moodle 体系结构</a></li>
-    <li><a href="#contribute">你如何参与开发</a> 
+    <li><a href="#contribute">您如何参与开发</a> 
       <ul>
         <li><a href="#activities">学习活动</a></li>
         <li><a href="#themes">主题风格</a></li>
@@ -48,7 +48,7 @@
        最早的 Moodle (1999) 原型使用 <a target="_top" href="http://www.zope.org/">Zope</a> 构建
       - 一种高级面向对象的web应用服务器。不幸的是我发现即使这项技术非常酷，
        但它学习起来很困难而且在系统管理上也不灵活。PHP脚本语言，在另一方面来说，是非常容易入门的
-      (尤其是当你有其他脚本语言的编程经验时)。
+      (尤其是当您有其他脚本语言的编程经验时)。
        最早我决定不使用以类（class-oriented）为基础的设计，来保持它对于新手而言足够简洁。
        代码重用通过使用分类的库文件、清晰命名的函数和一致的脚本文件放置来实现。
       PHP也非常容易安装(几乎每个平台都有可用的二进制包)并且大多数的主机托管服务作为标准配置提供广泛的PHP支持。<br />
@@ -58,7 +58,7 @@
       <br />
       Moodle知道自己目前的版本 (也同样知道所有插件的版本)，
        同时一个内置的机制确保 Moodle 能正常的升级自己到新的版本(例如，它能修改数据库表格或添加新的字段)。
-       如果你使用Unix下的CVS命令，你可以运行&quot;cvs update -d&quot;，然后访问站点的主页来完成升级。<br />
+       如果您使用Unix下的CVS命令，您可以运行&quot;cvs update -d&quot;，然后访问站点的主页来完成升级。<br />
       <br />
     </li>
     <li><strong>它应该是模块化的来允许发展</strong><br />
@@ -79,10 +79,10 @@
   </ol>
 </blockquote>
 <p>&nbsp;</p>
-<h2><a name="contribute" id="contribute"></a>2. 你可以如何参与</h2>
+<h2><a name="contribute" id="contribute"></a>2. 您可以如何参与</h2>
 <blockquote>
   <p>如上面提到的，Moodle 有一系列的特性是模块化的。 
-     即使你不是一个程序员，那也有些事情是你能帮上或改变的。</p>
+     即使您不是一个程序员，那也有些事情是您能帮上或改变的。</p>
   <h3><a name="activities" id="activities"></a>学习活动</h3>
   <blockquote>
     <p>它们是到目前为止最重要的模块，存放在'mod' 目录。 
@@ -105,43 +105,43 @@
           <li>widget_user_complete() - 给定一个实例，打印用户投稿的详细信息<br />
           </li>
           <li>为避免可能的冲突，所有的模块函数应该被命名开始包括widget_，
-          并且你定义的任何常量应该由WIDGET_开始。 </li>
+          并且您定义的任何常量应该由WIDGET_开始。 </li>
         </ul>
       </li>
       <li>最后，每个模块必须有一些语言文件包含给这个模块使用的字符串。看下面关于语言文件的说明。</li>
     </ul>
     <p>开始一个新学习活动模块最简单的方法是使用模版<strong><a href="http://moodle.org/mod/newmodule_template.zip">mod/newmodule_template.zip</a></strong>。 
       解压缩它，并跟随其中README文件的指示。 </p>
-    <p>你或许也希望浏览论坛 <a href="http://moodle.org/mod/forum/view.php?id=44" target="_top">Activities 
+    <p>您或许也希望浏览论坛 <a href="http://moodle.org/mod/forum/view.php?id=44" target="_top">Activities 
       modules forum on Using Moodle</a>中的贴子。</p>
     <p>&nbsp;</p>
   </blockquote>
   <h3><a name="themes" id="themes"></a>主题风格</h3>
   <blockquote>
     <p>主题风格 (或皮肤) 定义了站点的外观。 许多的简单风格在主发布版本中已经提供，
-      但你或许想创建你自己的主题使用你的颜色，标示，样式和图标。 </p>
+      但您或许想创建您自己的主题使用您的颜色，标示，样式和图标。 </p>
     <p>每个主题在 &quot;theme&quot; 目录的一个子目录下，并包含下列文件:</p>
     <ul>
       <li><strong>config.php</strong>: 定义整个站点使用的主题风格颜色。</li>
       <li><strong>styles.php</strong>: 样式表，包含了Moodle元素和标准HTML元素的CSS定义。</li>
-      <li><strong>header.html</strong>: 包含了每个页面的头部。例如，你可以修改这里添加一个logo到页面的顶部。</li>
+      <li><strong>header.html</strong>: 包含了每个页面的头部。例如，您可以修改这里添加一个logo到页面的顶部。</li>
       <li><strong>footer.html</strong>: 包含了每个页面用到的页脚信息。</li>
     </ul>
-    <p>要为当前的Moodle版本创建一个你自己的主题风格:</p>
+    <p>要为当前的Moodle版本创建一个您自己的主题风格:</p>
     <ol>
-      <li>复制一个已经存在的主题目录到一个新目录，推荐你从一个标准的主题风格开始。 </li>
-      <li>修改 config.php 插入你自己的颜色。</li>
-      <li>修改 styles.php 插入你自己的CSS定义。 </li>
+      <li>复制一个已经存在的主题目录到一个新目录，推荐您从一个标准的主题风格开始。 </li>
+      <li>修改 config.php 插入您自己的颜色。</li>
+      <li>修改 styles.php 插入您自己的CSS定义。 </li>
       <li>修改 header.html 和 footer.html 来添加新的标示或更改布局。 
       </li>
     </ol>
-    <p>注意，所有的这些步骤都是可选的 - 你可以从根本上更改你站点的外观通过简单的修改config.php中的颜色。</p>
-    <p>同时也注意Moodle 升级 <em>可能</em> 会细微的改变风格，所以请仔细检查发布说明如果你使用定制的主题风格。</p>
+    <p>注意，所有的这些步骤都是可选的 - 您可以从根本上更改您站点的外观通过简单的修改config.php中的颜色。</p>
+    <p>同时也注意Moodle 升级 <em>可能</em> 会细微的改变风格，所以请仔细检查发布说明如果您使用定制的主题风格。</p>
     <p>特别是，Moodle 2.0 将有一个全新的显示子系统，或许基于Moodle输出XML使用XSL的转化。
        看起来为此主题风格将会是完全不同的格式，但是好处是可以提供更高程度的定制化 (包括移动页面上的元素)。</p>
     <p>更多的关于这个的讨论在<a target="_top" href="http://moodle.org/mod/forum/view.php?id=46">Themes 
-      forum on Using Moodle</a>。如果你创建了一个不错的主题风格并且你认为其他的人或许需要使用， 
-      请上传你的zip文件到主题风格论坛!<br />
+      forum on Using Moodle</a>。如果您创建了一个不错的主题风格并且您认为其他的人或许需要使用， 
+      请上传您的zip文件到主题风格论坛!<br />
     </p>
   </blockquote>
   <h3><a name="languages" id="languages"></a>语言</h3>
@@ -171,19 +171,19 @@
     <p><strong>lang/en/help</strong> - 包含全部的帮助文档 (为弹出的上下文相关帮助)</p>
     <blockquote>
       <p>主帮助文件被放在这里，但是每个模块的帮助页面被放置在每个模块命名的子目录中。</p>
-      <p>你可以插入一个帮助按钮到页面上使用helpbutton 函数。</p>
+      <p>您可以插入一个帮助按钮到页面上使用helpbutton 函数。</p>
       <p>举例说明 helpbutton(&quot;text&quot;, &quot;Click here for help about text&quot;);</p>
       <p>而为模块提供帮助的范例:</p>
       <p>helpbutton(&quot;forumtypes&quot;, &quot;Forum types&quot;, &quot;forum&quot;);</p>
     </blockquote>
-    <p>注意，你可以在线编辑语言文件，使用Moodle web管理工具，在 &quot;检查缺漏的字串&quot;项目中。
+    <p>注意，您可以在线编辑语言文件，使用Moodle web管理工具，在 &quot;检查缺漏的字串&quot;项目中。
        这使得不仅创建新的语言变得容易，对精炼已有的语言也同样有效。
-       如果你要开始一个新语言，请联系我，<a target="_top" href="http://dougiamas.com/">Martin 
+       如果您要开始一个新语言，请联系我，<a target="_top" href="http://dougiamas.com/">Martin 
       Dougiamas</a>。 </p>
-    <p>你也许想把它提交到讨论区 <a target="_top" href="http://moodle.org/mod/forum/view.php?id=43">Languages 
+    <p>您也许想把它提交到讨论区 <a target="_top" href="http://moodle.org/mod/forum/view.php?id=43">Languages 
       forum on Using Moodle</a>。 </p>
-    <p>如果你正在维护一种语言，我将给你<a href="?file=cvs.html">Moodle源代码的CVS写权限</a>，
-       这样你能直接维护这些文件。</p>
+    <p>如果您正在维护一种语言，我将给您<a href="?file=cvs.html">Moodle源代码的CVS写权限</a>，
+       这样您能直接维护这些文件。</p>
   </blockquote>
   <h3><a name="database" id="database"></a>数据库模式</h3>
   <blockquote>
@@ -201,23 +201,23 @@
   <blockquote>
     <p>Moodle目前支持三种不同的课程格式：星期格式，主题格式和社区格式。</p>
     <p>代码之间有更多的关联(因此，缺乏&quot;插拔性&quot;)，但仍然很容易添加一种新的课程格式。</p>
-    <p>如果你有关于你需要或想看到的不同课程格式的想法，请联系我，我将绝对尽力将它们添加到未来的版本中。</p>
+    <p>如果您有关于您需要或想看到的不同课程格式的想法，请联系我，我将绝对尽力将它们添加到未来的版本中。</p>
   </blockquote>
   <p>&nbsp;</p>
   <h3><a name="doc" id="doc"></a>文档和文章</h3>
   <blockquote>
-    <p>如果你感到喜欢编写关于Moodle的教程，文章或学术论文或任何其他东西，
+    <p>如果您感到喜欢编写关于Moodle的教程，文章或学术论文或任何其他东西，
       请立即动手! </p>
-    <p>把它放在网上并且确保你包含了链接到<a target="_top" href="http://moodle.org/">http://moodle.org/</a>。</p>
+    <p>把它放在网上并且确保您包含了链接到<a target="_top" href="http://moodle.org/">http://moodle.org/</a>。</p>
   </blockquote>
   <p>&nbsp;</p>
   <h3><a name="bugs" id="bugs"></a>参与缺陷修正</h3>
   <blockquote>
-    <p>最后，我诚挚的邀请你在 <a target="_top" href="http://moodle.org/bugs/">http://moodle.org/bugs</a>注册成为 &quot;缺陷报告员&quot;
-      ,从而你可以记录你发现的任何缺陷，或许还可以参与讨论和修复它们。 </p>
+    <p>最后，我诚挚的邀请您在 <a target="_top" href="http://moodle.org/bugs/">http://moodle.org/bugs</a>注册成为 &quot;缺陷报告员&quot;
+      ,从而您可以记录您发现的任何缺陷，或许还可以参与讨论和修复它们。 </p>
     <p>&quot;缺陷&quot; 不仅包含目前Moodle版本的软件缺陷，还包括新的想法，
        特性需求甚至是对已有特性的建设性批判。开源之美在于任何人都能从某种途径参与来创建为我们大家享用的更好的产品。 
-       对Moodle这个项目而言，你的投入是非常受欢迎的!</p>
+       对Moodle这个项目而言，您的投入是非常受欢迎的!</p>
   </blockquote>
 </blockquote>
 <p>&nbsp;</p>

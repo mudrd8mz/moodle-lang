@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8.2+ (2007021520)
+      // editor.php - created with Moodle 1.8 (2007021501)
 
 
 $string['about'] = '关于此编辑器';
@@ -75,7 +75,7 @@ $string['matchcase'] = '匹配大小写';
 $string['middle'] = '中央';
 $string['minimize'] = '最小化编辑器';
 $string['move'] = '移动';
-$string['multi'] = '多个';
+$string['multi'] = '多项';
 $string['mustenterurl'] = '您必须录入URL';
 $string['nolink'] = '不自动处理链接';
 $string['normal'] = '常规';

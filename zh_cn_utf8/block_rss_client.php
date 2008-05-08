@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
+      // block_rss_client.php - created with Moodle 1.7.1+ (2006101011)
 
 
 $string['addfeed'] = '添加新种子链接：';
@@ -30,7 +30,6 @@ $string['feedupdated'] = '新闻种子已更新';
 $string['findmorefeeds'] = '查找更多RSS种子';
 $string['managefeeds'] = '管理我的全部种子';
 $string['nofeeds'] = '此站尚未添加RSS种子。';
-$string['numentries'] = '每个种子的项目';
 $string['pickfeed'] = '选择一个新闻种子';
 $string['remotenewsfeed'] = '远程新闻种子';
 $string['rss_client:createprivatefeeds'] = '建立个人的RSS种子';
@@ -41,11 +40,17 @@ $string['seeallfeeds'] = '查看所有的种子';
 $string['sharedfeed'] = '共享种子';
 $string['shownumentrieslabel'] = '每个版块中最多显示几条。';
 $string['submitters'] = '允许谁定义新的RSS种子？已定义的种子可以在站点的任何页面显示。';
-$string['submitters2'] = '提交人';
 $string['timeout'] = '读RSS种子超时';
-$string['timeout2'] = '超时';
 $string['timeoutdesc'] = '缓冲RSS中种子的时间(分钟)';
 $string['updatefeed'] = '更新新闻种子链接：';
 $string['validatefeed'] = '验证种子';
+
+	  //翻译者：况亮
+	  //Email：kuangliang12345@163.com
+	  //Moodle 1.9 2008/04
+
+$string['numentries'] = '每个种子的标题数';
+$string['submitters2'] = '提交者';
+$string['timeout2'] = '超时';
 
 ?>

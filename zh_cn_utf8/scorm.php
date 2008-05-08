@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7.1+ (2006101011)
+      // scorm.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['activation'] = '激活';
 $string['advanced'] = '高级';
 $string['asset'] = '资源';
 $string['assetlaunched'] = '已阅读的资源';
 $string['attempt'] = '试答';
+$string['attempt1'] = '1次试答';
 $string['attempts'] = '试答';
+$string['attemptsx'] = '{$a}次试答';
 $string['attr_error'] = '在标签({$a->tag})属性({$a->attr})中不标准值';
 $string['autocontinue'] = '自动继续';
 $string['averageattempt'] = '平均试答';
@@ -28,10 +31,15 @@ $string['directories'] = '显示目录链接';
 $string['display'] = '显示软件包';
 $string['domxml'] = 'DOMXML 外部库';
 $string['element'] = '基本要素';
+$string['enter'] = '输入';
 $string['entercourse'] = '进入课程';
 $string['errorlogs'] = '错误日志';
-$string['exit'] = '从课程退出';
+$string['everyday'] = '每天';
+$string['everytime'] = '每天使用';
+$string['exit'] = '从课程中退出';
+$string['exitactivity'] = '从活动中退出';
 $string['expcoll'] = '扩大/冲突';
+$string['external'] = '定时更新外部课程包';
 $string['failed'] = '失败';
 $string['firstaccess'] = '首次访问';
 $string['firstattempt'] = '第一次试答';
@@ -43,7 +51,7 @@ $string['general'] = '大体数据';
 $string['gradeaverage'] = '平均成绩';
 $string['gradehighest'] = '最高成绩';
 $string['grademethod'] = '评分方法';
-$string['gradescoes'] = '成绩状况';
+$string['gradescoes'] = '完成的学习对象数目';
 $string['gradesum'] = '总成绩';
 $string['height'] = '高度';
 $string['hidden'] = '隐藏';
@@ -66,28 +74,33 @@ $string['max'] = '最大成绩';
 $string['maximumattempts'] = '试答次数';
 $string['menubar'] = '显示菜单栏';
 $string['min'] = '最小成绩';
-$string['missing_attribute'] = '遗失属性{$a->attr}在标签中{$a->tag}';
+$string['missing_attribute'] = '在标签{$a->tag}中缺失属性{$a->attr}';
 $string['missing_tag'] = '遗失标签{$a->tag}';
-$string['mode'] = '方式';
+$string['missingparam'] = '必须项缺失或错误';
+$string['mode'] = '模式';
 $string['modulename'] = 'SCORM/AICC';
 $string['modulenameplural'] = 'SCORMs/AICCs';
 $string['newattempt'] = '开始新的试答';
 $string['next'] = '继续';
 $string['no_attributes'] = '标签{$a->tag}必须具有属性';
 $string['no_children'] = '标签{$a->tag}必须具有子项目';
-$string['noactivity'] = '没有需要报告的内容';
-$string['nolimit'] = '无限制试答';
+$string['noactivity'] = '没有需要报表的内容';
+$string['nolimit'] = '无限制';
 $string['nomanifest'] = '没有找到名单';
-$string['noprerequisites'] = '很抱歉，你没有具有足够的必备条件以进入此学习对象。';
-$string['noreports'] = '没有报告要显示';
+$string['noprerequisites'] = '很抱歉，您没有具有足够的必备条件以进入此学习对象。';
+$string['noreports'] = '没有报表要显示';
 $string['normal'] = '标准';
-$string['noscriptnoscorm'] = '你的浏览器不支持javascript或者支持javascript失效。没有记录路径。';
+$string['noscriptnoscorm'] = '您的浏览器不支持javascript或者支持javascript失效。没有记录路径。';
 $string['not_corr_type'] = '类型不匹配针对标签{$a->tag}';
 $string['notattempted'] = '没有尝试';
 $string['objectives'] = '目标';
+$string['onchanges'] = '无论何时改变';
+$string['options'] = '可选项';
 $string['organization'] = '组织';
 $string['organizations'] = '组织';
+$string['othersettings'] = '附加设置';
 $string['othertracks'] = '其他路径';
+$string['package'] = '课程包';
 $string['packagedir'] = '文件系统错误：不能创建批目录';
 $string['packagefile'] = '无打包文件的详细说明';
 $string['passed'] = '通过';
@@ -99,7 +112,7 @@ $string['position_error'] = '此{$a->tag}标签不能作为一个子{$a->parent}
 $string['prev'] = '以前的';
 $string['raw'] = '原始得分';
 $string['regular'] = '正常显示';
-$string['report'] = '报告';
+$string['report'] = '报表';
 $string['resizable'] = '允许调整此窗口大小';
 $string['result'] = '结果';
 $string['review'] = '回顾';
@@ -108,13 +121,13 @@ $string['scoes'] = '学习对象';
 $string['score'] = '成绩';
 $string['scorm:savetrack'] = '保存路径';
 $string['scorm:skipview'] = '跳过概览';
-$string['scorm:viewreport'] = '查看报告';
+$string['scorm:viewreport'] = '查看报表';
 $string['scorm:viewscores'] = '查看分数';
 $string['scormcourse'] = '学习课程';
 $string['scrollbars'] = '允许滚动此窗口';
 $string['sided'] = '在左边';
 $string['skipview'] = '学生跳过内容结构页面';
-$string['stagesize'] = '平台大小';
+$string['stagesize'] = '窗口大小';
 $string['started'] = '开始';
 $string['status'] = '状态';
 $string['statusbar'] = '显示状态栏';
@@ -130,14 +143,22 @@ $string['toolbar'] = '显示工具栏';
 $string['totaltime'] = '时间';
 $string['trackingloose'] = '警告：将会丢失此包的跟踪数据！';
 $string['type'] = '类型';
+$string['unziperror'] = '解压包过程中发生错误';
+$string['updatefreq'] = '自动更新频率';
 $string['validateascorm'] = '检验一个包';
 $string['validation'] = '检验结果';
-$string['validationtype'] = '此首选项设置用于使SCORM显示生效的DOMXML库。如果你不了解，放弃已被选的选项。';
+$string['validationtype'] = '此首选项设置用于使SCORM显示生效的DOMXML库。如果您不了解，放弃已被选的选项。';
 $string['value'] = '值';
 $string['versionwarning'] = '显示版本比1.3旧，警告在{$a->tag}标签中';
-$string['viewallreports'] = '查看{$a}试答报告';
+$string['viewallreports'] = '查看{$a}试答报表';
 $string['whatgrade'] = '试答等级';
 $string['width'] = '宽度';
 $string['window'] = '窗口';
 
+	  //翻译者：况亮
+	  //Email：kuangliang12345@163.com
+	  //Moodle 1.9 2008/04
+
+
+$string['deleteallattempts'] = '删除所有SCORM试答';
 ?>

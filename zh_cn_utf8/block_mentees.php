@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // block_mentees.php - created with Moodle 1.8.2+ (2007021520)
+      // block_mentees.php - created with Moodle 1.8 (2007021501)
 
 
-$string['blockname'] = 'Mentees';
-$string['configtitle'] = '版块标题';
-$string['leaveblanktohide'] = '留空以隐藏标题';
-$string['newmenteesblock'] = '(新的Mentees版块)';
+$string['blockname'] = '学员';
+$string['configtitle'] = '版块名称';
+$string['leaveblanktohide'] = '为空则隐藏名称';
+$string['newmenteesblock'] = '（新学员版块）';
 
 ?>

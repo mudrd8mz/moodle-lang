@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
+      // survey.php - created with Moodle 1.8 (2007021501)
 
 
 $string['actual'] = '实际的';
@@ -150,9 +150,7 @@ $string['collespintro'] = '该问卷调查的目的是为了了解您对网上�
 您深思熟虑的回答将有助于我们对该单元作进一步的改善。
 非常感谢！';
 $string['collespname'] = '建构主义在线学习环境问卷调查（希望的）';
-$string['customintro'] = '自定义介绍';
-$string['deleteallanswers'] = '删除所有的回答';
-$string['deleteanalysis'] = '删除对回答的分析';
+$string['customintro'] = '自定义描述';
 $string['done'] = '完成';
 $string['download'] = '下载';
 $string['downloadexcel'] = '以Excel电子表格形式下载数据';
@@ -164,7 +162,7 @@ $string['helpsurveys'] = '不同类型问卷的帮助文档';
 $string['howlong'] = '您完成这份问卷花了多长时间？';
 $string['howlongoptions'] = '1分钟之内,1-2分钟,2-3分钟,3-4分钟,4-5分钟,5-10分钟,超过10分钟';
 $string['ifoundthat'] = '我发现';
-$string['introtext'] = '介绍';
+$string['introtext'] = '描述';
 $string['ipreferthat'] = '我希望的是';
 $string['modulename'] = '问卷调查';
 $string['modulenameplural'] = '问卷调查';
@@ -181,8 +179,7 @@ $string['preferredstudent'] = '{$a}希望的';
 $string['question'] = '问题';
 $string['questions'] = '问题';
 $string['questionsnotanswered'] = '有些问题没有回答。';
-$string['report'] = '调查报告';
-$string['responses'] = '回答';
+$string['report'] = '调查报表';
 $string['savednotes'] = '您的注解已经保存';
 $string['scaleagree5'] = '非常反对,稍许反对,既不同意也不反对,稍许同意,非常同意';
 $string['scales'] = '量表';
@@ -194,7 +191,7 @@ $string['survey:download'] = '下载响应';
 $string['survey:participate'] = '响应问卷';
 $string['survey:readresponses'] = '查看响应';
 $string['surveycompleted'] = '您已经完成了该问卷。以下图表概要显示了您的结果与班级平均结果的比较。';
-$string['surveygraph'] = '问卷图像';
+$string['surveygraph'] = '问卷调查图表';
 $string['surveyname'] = '问卷名称';
 $string['surveysaved'] = '问卷已保存';
 $string['surveytype'] = '问卷类型';
@@ -202,4 +199,11 @@ $string['thanksforanswers'] = '{$a}，谢谢您回答了这个问卷！';
 $string['time'] = '时间';
 $string['viewsurveyresponses'] = '查看{$a}个调查答卷';
 
+	  //翻译者：况亮
+	  //Email：kuangliang12345@163.com
+	  //Moodle 1.9 2008/04
+
+$string['deleteallanswers'] = '删除所有调查回复';
+$string['deleteanalysis'] = '删除所有分析回复';
+$string['responses'] = '回复';
 ?>

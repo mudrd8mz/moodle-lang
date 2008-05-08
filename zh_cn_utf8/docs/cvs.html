@@ -39,10 +39,10 @@ style ol {margin-left:40px;}
   <h2><a name="n1" id="n1"></a>1. 以开发人员身份加入项目</h2>
   <blockquote>
     <p>假设您已经获得CVS的写入权限权并通过它来帮助我们开发和维护Moodle！<a href="http://sourceforge.net/project/memberlist.php?group_id=30935">欢迎登陆</a>!</p>
-    <p>为了能把变动写入<a target="_top" href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/moodle/moodle/">Moodle 的 CVS 档案库</a>，首先你需要拥有一个 Sourceforge的帐户(<a href="http://sourceforge.net/account/register.php">注册是免费和简单的</a>)。在这一页面的例子里, 让我们假设您的用户名为<strong><font color="#990000">myusername</font></strong>，而您的密码是 <strong><font color="#990000">mypassword</font></strong>。您需要阅读一下sourceforge关于<a target="_top" href="http://sourceforge.net/docman/display_doc.php?docid=768&amp;group_id=1#develhomedir">创建您的CVS本地目录</a>的特别指导——要激活任何一个新帐号的CVS功能，都必须这么做。简单地说，您需要使用ssh交互式地连接到cvs.sourceforge.net。</p>
-    <p>一旦您有了Sourceforge的帐户，联系<a target="_top" href="http://moodle.org/user/view.php?id=1&amp;course=1">Martin Dougiamas</a>他可以设定你的帐户使你拥有写入特殊Moodle目录的权限。</p>
+    <p>为了能把变动写入<a target="_top" href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/moodle/moodle/">Moodle 的 CVS 档案库</a>，首先您需要拥有一个 Sourceforge的帐户(<a href="http://sourceforge.net/account/register.php">注册是免费和简单的</a>)。在这一页面的例子里, 让我们假设您的用户名为<strong><font color="#990000">myusername</font></strong>，而您的密码是 <strong><font color="#990000">mypassword</font></strong>。您需要阅读一下sourceforge关于<a target="_top" href="http://sourceforge.net/docman/display_doc.php?docid=768&amp;group_id=1#develhomedir">创建您的CVS本地目录</a>的特别指导——要激活任何一个新帐号的CVS功能，都必须这么做。简单地说，您需要使用ssh交互式地连接到cvs.sourceforge.net。</p>
+    <p>一旦您有了Sourceforge的帐户，联系<a target="_top" href="http://moodle.org/user/view.php?id=1&amp;course=1">Martin Dougiamas</a>他可以设定您的帐户使您拥有写入特殊Moodle目录的权限。</p>
     <p>为了避免每次运行CVS命令时都提示输入<strong><font color="#990000">mypassword</font></strong>，可以参考<a target="_top" href="http://sourceforge.net/account/editsshkeys.php">Sourceforge 使用授权密钥的指导</a>。这一步是可选的，但它可以使您使用CVS时感觉更好些。</p>
-    <p>做完这些后，您应该拥有了你所需要的权限，您只需要设置好你的机器和正确的下载源，然后您就可以开始工作了。</p>
+    <p>做完这些后，您应该拥有了您所需要的权限，您只需要设置好您的机器和正确的下载源，然后您就可以开始工作了。</p>
     <p>&nbsp;</p>
   </blockquote>
   <h2><a name="n2" id="n2"></a>2. CVS模块</h2>
@@ -63,7 +63,7 @@ style ol {margin-left:40px;}
   <blockquote>
     <h3><a name="n3.1" id="n3.1"></a>3.1 Unix上的CVS</h3>
     <blockquote>
-      <p>Sourceforge CVS使用ssh作为传送层来确保安全性，所以你必须在你的Unix Shell中设置一个CVS_RSH环境变量。最好把这些命令输入您的.bashrc或者.cshrc那么您将不需要每次使用的时候都输入它们<strong>：</strong></p>
+      <p>Sourceforge CVS使用ssh作为传送层来确保安全性，所以您必须在您的Unix Shell中设置一个CVS_RSH环境变量。最好把这些命令输入您的.bashrc或者.cshrc那么您将不需要每次使用的时候都输入它们<strong>：</strong></p>
        <div class="commandline">setenv CVS_RSH ssh <em>(用于csh、tcsh等)</em><br /> 
 	    export CVS_RSH=ssh <em>(用于sh、bash等)</em></div>  
       <p>接下来, 您可以通过以下命令(整个一行)来获取最新的Moodle开发版本: </p>
@@ -140,7 +140,7 @@ update -dP</div>
       <p>CVS主干是Moodle的主要开发版本，在CVS里它被称为<span class="style4">HEAD</span>，或者缺省分支。</p>
       <p>Moodle的开发者尽可能的保持它工作得稳定，但它通常包含一些新的代码所以可能有些bug和些小的不稳定的地方。</p>
       <p>常常当我们认为这个产品有足够的特性去发行的时候，这个主干就加上名为<strong>MOODLE_XX_BETA</strong>的标签(如果我们想回溯当那一点)然后一个新的分支作为发行版而形成，称为<span class="style1">MOODLE_XX_STABLE</span>。</p>
-      <p>同时发布一个β测试包——一般是为了那些不使用CVS而希望测试最新的特性和报告bug的人。</p>
+      <p>同时发布一个β测试包——一般是为了那些不使用CVS而希望测试最新的特性和报表bug的人。</p>
     </blockquote>
     <p>&nbsp;</p>
     <h3><a name="n4.2" id="n4.2"></a>4.2 发行版的稳定分支</h3>
@@ -181,7 +181,7 @@ update -dP</div>
     <blockquote>
       <p>偶尔会有个非常大的的特性需要提交到服务器，且一些人从事与它相关的工作， 但它实在是太不稳定以至不能包括在主开发主干上。</p>
       <p>在这种情况一个短期的分支将被建立用于实现这个特性，然后尽可能快的合并到主线上。<span class="style1"><strong>MOODLE_14_WIDGET</strong></span>就是一个例子，在上面的图表上找到它的分支。</p>
-      <p>如果你需要做一些关于WIDGET的新特性，那么按照以下步骤：</p>
+      <p>如果您需要做一些关于WIDGET的新特性，那么按照以下步骤：</p>
         <ol>
           <li>与其他开发人员进行讨论以确定它的比较性！</li>
           <li>在<strong>主干</strong>上(为所有的moodle)做一个名为<strong>MOODLE_XX_WIDGET_PRE</strong>的标记

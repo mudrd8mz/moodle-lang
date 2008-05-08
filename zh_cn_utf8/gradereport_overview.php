@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // gradereport_overview.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
+      // gradereport_overview.php - created with Moodle 1.9 (2007101509)
+      // local modifications from http://guijishu.oicp.net
 
 
-$string['modulename'] = '概览报表';
-$string['overview:view'] = '查看概览报表';
+$string['modulename'] = '总体成绩';
+$string['overview:view'] = '查看总体成绩';
 
 ?>

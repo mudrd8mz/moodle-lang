@@ -9,19 +9,19 @@
 
 <body>
 <h1>常见问题解答(FAQ)</h1>
-<p class="normaltext">这个文档包括了一些安装Moodle的人经常会遇到的问题。如果你跟随 
+<p class="normaltext">这个文档包括了一些安装Moodle的人经常会遇到的问题。如果您跟随 
   <a href="./?file=install.html">安装指导 </a>的说明进行安装但是仍然遇到了问题，
   那么或许这份文档能够提供帮助。 </p>
 
-<p class="normaltext">如果你在这里没有找到你期望的答案，尝试moodle.org上的 <a href="http://moodle.org/mod/forum/index.php?id=5" target="_top">Using 
-  Moodle</a> 课程。首先在论坛中使用关键字检索一下，或许你的问题已经有人讨论过了。 
-  如果你不能找到相关问题，你可以将你的问题发布到合适的论坛中 --通常会有人能帮助你。</p>
+<p class="normaltext">如果您在这里没有找到您期望的答案，尝试moodle.org上的 <a href="http://moodle.org/mod/forum/index.php?id=5" target="_top">Using 
+  Moodle</a> 课程。首先在论坛中使用关键字检索一下，或许您的问题已经有人讨论过了。 
+  如果您不能找到相关问题，您可以将您的问题发布到合适的论坛中 --通常会有人能帮助您。</p>
 
-<p class="normaltext">如果你尝试了很多的方法也没有解决你的问题，同时你的系统运行在防火墙保护下，
-较明智的做法是尝试重新配置你的防火墙，确保它没有阻止Moodle需要的功能和通讯端口。
+<p class="normaltext">如果您尝试了很多的方法也没有解决您的问题，同时您的系统运行在防火墙保护下，
+较明智的做法是尝试重新配置您的防火墙，确保它没有阻止Moodle需要的功能和通讯端口。
 防火墙很少引发Moodle的问题，但偶尔由于防火墙设置不当也会引发功能缺失的问题。
 
-<p class="normaltext">点击下面的链接定位到你需要的问题答案:</p>
+<p class="normaltext">点击下面的链接定位到您需要的问题答案:</p>
 
 <p class="questionlink"><a href="#filenotfound">只要我试图访问或查看一个上传文件，我得到一个 &quot;File not Found&quot; 的错误</a></p>
 
@@ -63,25 +63,25 @@
 
   was not found on this server. </p>
 
-<p class="answer">你的web服务器需要被配置为允许URL作为脚本名称的一部分传递为脚本。 
+<p class="answer">您的web服务器需要被配置为允许URL作为脚本名称的一部分传递为脚本。 
 
   这在Apache 1中通常默认是允许的，但在Apache 2中通常默认是不允许的。
 
-  要设置该项为允许，添加这一行到你的httpd.conf或本地目录中的.htaccess文件里(详情请浏览<a href="./?file=install.html#webserver"> 安装文档 </a>) : </p>
+  要设置该项为允许，添加这一行到您的httpd.conf或本地目录中的.htaccess文件里(详情请浏览<a href="./?file=install.html#webserver"> 安装文档 </a>) : </p>
 
 <p class="answercode"><b>AcceptPathInfo</b> on</p>
 
 <p class="answer">注意, 这个配置仅对 Apache 版本 2.x 有效. </p>
 
-<p class="answer">如果你没有使用 Apache 2 并且你还是遇到了这个问题，你可以配置 Moodle 使用一个选择性的方法。
+<p class="answer">如果您没有使用 Apache 2 并且您还是遇到了这个问题，您可以配置 Moodle 使用一个选择性的方法。
 
-  缺点是会稍有些性能损失，并且你不能在HTML资源中使用相对链接。</p>
+  缺点是会稍有些性能损失，并且您不能在HTML资源中使用相对链接。</p>
 
 <p class="answer">要配置这个可选的方法: 
 
   作为管理员登录，进入到“设置 - 变量”，更改 "<b>slasharguments</b>" 参数，使用第一项。 
 
-  你现在应该可以访问你的上传文档了。</p>
+  您现在应该可以访问您的上传文档了。</p>
 
 <p class="answer">&nbsp;</p>
 
@@ -100,7 +100,7 @@
 
 <h3><a name="blankpages"></a>为何所有的页面都是空的? </h3> 
 
-<p class="answer">检查 "config.php"中的"dirroot"变量。你必须使用完全的绝对路径， 
+<p class="answer">检查 "config.php"中的"dirroot"变量。您必须使用完全的绝对路径， 
 
   例如：</p>
 
@@ -116,7 +116,7 @@
 
   例如：call to undefined function: get_string()</h3>
 
-<p class="answer">如果你看到这样的错误信息:</p>
+<p class="answer">如果您看到这样的错误信息:</p>
 
 <p class="answercode">Parse error: parse error, unexpected T_VARIABLE in c:\program 
 
@@ -126,11 +126,11 @@
 
   on line 11</p>
 
-<p class="answer">请检查你是否在config.php中保留了一个半括号或引号 
+<p class="answer">请检查您是否在config.php中保留了一个半括号或引号 
 
   (在94行之前)。</p>
 
-<p class="answer">另一个可能的原因是你使用了像Word这样的文本编辑程序打开"config.php"，  
+<p class="answer">另一个可能的原因是您使用了像Word这样的文本编辑程序打开"config.php"，  
 
   并将它保存为一个HTML文件，而不是一个适当的文本文件。 
 
@@ -142,7 +142,7 @@
 
    &quot;HTTP头部已经被设置&quot;?</h3>
 
-<p class="answer">如果你看到这样的错误信息：</p>
+<p class="answer">如果您看到这样的错误信息：</p>
 
 <p class="answercode">Warning: Cannot add header information - headers already 
 
@@ -162,11 +162,11 @@
 
   on line 54 </p>
 
-<p class="answer">在你的"config.php"中，在最后的?>之外还有空行或空格。 
+<p class="answer">在您的"config.php"中，在最后的?>之外还有空行或空格。 
 
   一些文本编辑器会添加这些空格或空行 - 例如：Windows的写字板 -  
 
-  所以你必须使用一个其他的编辑工具来完全移除这些空格和空行。</p>
+  所以您必须使用一个其他的编辑工具来完全移除这些空格和空行。</p>
 
 <p class="answer">&nbsp;</p>
 
@@ -174,9 +174,9 @@
 
   opening required '/web/moodle/lib/setup.php'</h3>
 
-<p class="answer">在你的"config.php"中，你配置用于"dirroot"变量的值 
+<p class="answer">在您的"config.php"中，您配置用于"dirroot"变量的值 
 
-   <strong>必须是从你的服务器硬盘根目录开始的完全路径
+   <strong>必须是从您的服务器硬盘根目录开始的完全路径
 
   </strong>。</p>
 
@@ -208,7 +208,7 @@
 
 <h3><a name="sessiontmp"></a>为何我一直获得关于session_start的错误?</h3>
 
-<p class="answer">如果你:</p>
+<p class="answer">如果您:</p>
 
 <p class="answercode">Warning: session_start() [function.session-start]: open(/tmp\sess_d40f380d37d431fc1516e9a895ad9ce0, O_RDWR) failed: No such file or directory (2) in G:\web\moodle\lib\setup.php on line 123</p>
 
@@ -216,13 +216,13 @@
 
 <p class="answercode">Warning: session_start() [function.session-start]: Cannot send session cache limiter - headers already sent (output started at G:\web\moodle\lib\setup.php:1) in G:\web\moodle\lib\setup.php on line 123</p>
 
-<p class="answer">... 这些都是由于PHP不能保存 "session" 文件到你的硬盘上 
+<p class="answer">... 这些都是由于PHP不能保存 "session" 文件到您的硬盘上 
 
-  (在一个叫"/tmp"的目录中)。 通常是由于你没有一个叫做"/tmp"的目录在你的计算机上。
+  (在一个叫"/tmp"的目录中)。 通常是由于您没有一个叫做"/tmp"的目录在您的计算机上。
 
   经常是由于Windows安装所引起的问题。
 
-<p class="answer">解决的方法是在PHP的设置中，将这个路径指向一个真实的路径。  编辑你的"php.ini"文件，修改变量:</p>
+<p class="answer">解决的方法是在PHP的设置中，将这个路径指向一个真实的路径。  编辑您的"php.ini"文件，修改变量:</p>
 
 <p class="answercode">session.save_path = C:\temp</p>
 
@@ -234,7 +234,7 @@
 
 <h3><a name="fixdirroot"></a>当我进入管理页面时，我被告知要保持 "dirroot" 空白！</h3>
 
-<p class="answer">如果你能看到这样像 Moodle 1.0.9 的错误信息:</p>
+<p class="answer">如果您能看到这样像 Moodle 1.0.9 的错误信息:</p>
 
 <table class="generalbox" cellspacing="0" cellpadding="5" align="center" border="0">
 
@@ -252,7 +252,7 @@
 
 <p>$CFG-&gt;dirroot = "";</p></td></tr></tbody></table>
 
-<p class="answer">那么你可能遇到了一个在一些服务器上发生的小缺陷。这个问题是由于错误检测机制引起的，而不是由于你的路径设置。
+<p class="answer">那么您可能遇到了一个在一些服务器上发生的小缺陷。这个问题是由于错误检测机制引起的，而不是由于您的路径设置。
 
   要修正这个问题，查找 "admin/index.php" 中的 (66行): </p>
 
@@ -266,15 +266,15 @@
 
 <h3><a name="loginsetting"></a>我已经登录但不正确（我能登录系统并且可以浏览）。</h3>
 
-<p class="answer">确保配置文件中 "$CFG->wwwroot" 的链接地址设置跟你用来访问站点的URL一致。</p>
+<p class="answer">确保配置文件中 "$CFG->wwwroot" 的链接地址设置跟您用来访问站点的URL一致。</p>
 
 <p class="answer">&nbsp;</p>
 
 <h3><a name="resource1"></a>当尝试添加资源时我接受到错误信息。</h3>
 
-<p class="answer">假设你使用 Apache，那么你可能在 "config.php" 中设置 
+<p class="answer">假设您使用 Apache，那么您可能在 "config.php" 中设置 
 
-  "$CFG->wwwroot" 使用了不同于你访问该站点的URL。 
+  "$CFG->wwwroot" 使用了不同于您访问该站点的URL。 
 
   同时也请关闭管理设置中的 "<b>secureforms</b>" 选项。</p>
 
@@ -292,7 +292,7 @@
 
 <p class="answercode">unset($user);<br />unset($admin);<br />unset($teacher);</p>
 
-<p class="answer">做完这些操作后，最好删除你数据库中的所有表格， 
+<p class="answer">做完这些操作后，最好删除您数据库中的所有表格， 
 
   并且从零开始重新安装。</p>
 
@@ -300,9 +300,9 @@
 
 <h3><a name="nologin"></a>我不能登录 - 我总是停留在登录页面。</h3>
 
-<p class="answer">通常引起这个问题的原因是你自己的计算机 (而不是你的 Moodle 服务器) 
+<p class="answer">通常引起这个问题的原因是您自己的计算机 (而不是您的 Moodle 服务器) 
 
-                    的防火墙从你的浏览器中剥离了HTTP Referrer信息。 这里有 
+                    的防火墙从您的浏览器中剥离了HTTP Referrer信息。 这里有 
                   
                     一些修正这个问题的指导 <a href="http://service1.symantec.com/SUPPORT/nip.nsf/46f26a2d6dafb0a788256bc7005c3fa3/b9b47ad7eddd343b88256c6b006a85a8?OpenDocument&amp;src=bar_sch_nam">Norton firewall products</a>。</p>
 
@@ -312,7 +312,7 @@
 
 <p class="answer">另一个可能导致这个问题的原因是服务器上的session没有被正确的配置。 
 
-  你可以调用脚本：  
+  您可以调用脚本：  
 
   http://yourserver/moodle/lib/session-test.php 测试服务器上的session配置。</p>
 
@@ -320,9 +320,9 @@
 
 <h3><a name="backup"></a>我该如何备份整个 Moodle 站点？</h3>
 
-<p class="answer">有两个主要的部分需要你进行备份：数据库和上传的文件。 Moodle自己的脚本反而不重要，因为你总是可以下载最新的拷贝。</p>
+<p class="answer">有两个主要的部分需要您进行备份：数据库和上传的文件。 Moodle自己的脚本反而不重要，因为您总是可以下载最新的拷贝。</p>
 
-<p class="answer">有很多备份的途径。这里给出一个在Unix系统在备份数据库的范例代码 (你也可以利用cron 任务来让它每天都运行)</p>
+<p class="answer">有很多备份的途径。这里给出一个在Unix系统在备份数据库的范例代码 (您也可以利用cron 任务来让它每天都运行)</p>
 
 <p class="answercode">cd /my/backup/directory</p>
 
@@ -332,7 +332,7 @@
 
 <p class="answercode">gzip moodle-database.sql</p>
 
-<p class="answer">对于这些文件，你也可以使用 rsync 有规律的拷贝改变的文件到另一台主机：</p>
+<p class="answer">对于这些文件，您也可以使用 rsync 有规律的拷贝改变的文件到另一台主机：</p>
 
 <p class="answercode">rsync -auvtz --delete -e ssh mysshusername@example.com:/my/server/directory 
 
@@ -348,7 +348,7 @@
 
   但有时它们不能在 Windows 服务器上工作。 </p>
 
-<p class="answer">你可以在这两个页面中找到Windows所用的正确的本地代码
+<p class="answer">您可以在这两个页面中找到Windows所用的正确的本地代码
 
   : <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclib/html/_crt_language_strings.asp" target="_blank">Language 
 
@@ -366,7 +366,7 @@
 
    </h3>
 
-<p class="answer">你 <strong>必须</strong> 适当地设置 cron 任务如果你想让 Moodle 
+<p class="answer">您 <strong>必须</strong> 适当地设置 cron 任务如果您想让 Moodle 
 
   自动的从论坛、作业等中发送出邮件。 This same 
 
@@ -374,7 +374,7 @@
 
   未登入的旧学生等等。</p>
 
-<p class="answer">基本上，你需要设置一个进程来有规律的调用脚本 
+<p class="answer">基本上，您需要设置一个进程来有规律的调用脚本 
 
   http://yoursite/admin/cron.php。 请参照 <a href="./?file=install.html#cron"> 
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.7.1+ (2006101011)
+      // enrol_database.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['autocreate'] = '如果Moodle中某课程不存在，则当有人选修课程时系统会自动创建课程。';
@@ -21,6 +21,7 @@ $string['enrol_database_autocreation_settings'] = '自动建立新课程';
 $string['enrolname'] = '外部数据库';
 $string['general_options'] = '通用选项';
 $string['host'] = '数据库服务的主机名';
+$string['ignorehiddencourse'] = '此项如果设置为是，用户将不能登录到那些对学生不可利用的课程。';
 $string['local_fields_mapping'] = 'Moodle（本地）数据库字段';
 $string['localcoursefield'] = '我们用来和远程数据库条目匹配的课程表中的字段名（例如：idnumber）。';
 $string['localrolefield'] = '我们用来和远程数据库条目匹配的角色表中的字段名（例如：shortname）。';
@@ -44,4 +45,9 @@ $string['template'] = '选项：自动创建的课程可以从模板课程中拷
 $string['type'] = '数据库服务的类型';
 $string['user'] = '登陆服务器的用户名';
 
+	  //翻译者：况亮
+	  //Email：kuangliang12345@163.com
+	  //Moodle 1.9 2008/04
+
+$string['disableunenrol'] = '如果设置为“是”，先前通过外部数据库插件注册的用户将不能以同样的插件来注销。';
 ?>
