@@ -3,6 +3,6 @@
 
 
 $string['CZK'] = 'Kč';
-$string['EUR'] = '&euro';
+$string['EUR'] = '&euro;';
 
 ?>
