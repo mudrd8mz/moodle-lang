@@ -171,6 +171,7 @@ $string['nologinas'] = 'Vous n\'êtes pas autorisé à vous connecté avec ce no
 $string['nonmeaningfulcontent'] = 'Le contenu ne fait pas de sens';
 $string['noparticipatorycms'] =  'Désolé, aucun module de participation pour lequel faire un rapport.';
 $string['nopermissions'] =  'Désolé, vous n\'avez actuellement pas les autorisations pour effectuer ceci ($a)';
+$string['nopermissiontomanagegroup'] = 'Vous n\'êtes pas autorisé à gérer les groupes.';
 $string['nopermissiontoviewpage'] = 'Vous n\'êtes pas autorisé à voir cette page';
 $string['nosite'] = 'Aucun site';
 $string['nositeid'] = 'Aucun identifiant de site';
