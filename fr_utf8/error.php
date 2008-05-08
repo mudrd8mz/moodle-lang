@@ -59,6 +59,7 @@ $string['cannotupdaterss'] = 'Impossible de modifier le fil RSS';
 $string['cannotupdatesummary'] = 'Impossible de modifier le résumé&nbsp;!';
 $string['cannotupdatesubcate'] = 'Impossible de modifier une catégorie fille&nbsp;!';
 $string['cannotupdatesubcourse'] = 'Impossible de modifier un cours descendant&nbsp;!';
+$string['cannotupdateuser'] = 'Échec de la modification de l\'utilisateur';
 $string['cannotuseadmin'] = 'Vous devez être administrateur pour utiliser cette page.';
 $string['cannotuseadminadminorteacher'] = 'Vous devez être enseignant ou administrateur pour utiliser cette page.';
 $string['cannotusepage'] = 'Seuls les enseignants et les administrateurs peuvent utiliser cette page.';
@@ -144,6 +145,8 @@ $string['mimetexisnotexist'] = 'Votre serveur n\'est pas configurer que faire to
 $string['mimetexnotexecutable'] = 'Votre programme mimetex n\'est pas exécutable&nbsp;!';
 $string['missingfield'] = 'Le champ «&nbsp;$a&nbsp;» est manquant.';
 $string['missingrequiredfield'] = 'Un champ obligatoire n\'est pas renseigné';
+$string['mnetdisable'] = 'Le réseau Moodle est désactivé';
+$string['mnetlocal'] = 'Les utilisateurs distants du Réseau Moodle ne peuvent pas se connecter localement.';
 $string['moduledoesnotexist'] = 'Ce module n\'existe pas';
 $string['moduleinstancedoesnotexist'] = 'L\'instance de ce module n\'existe pas';
 $string['moduledisable'] = 'Ce module ($a) a été désactivé dans ce cours';
@@ -182,7 +185,7 @@ $string['processingstops'] = 'Le traitement s\'arrête ici. Les enregistrements 
 $string['remotedownloaderror'] = 'Le téléchargement de composants sur votre serveur a échoué. Veuillez vérifier les réglages de proxy. L\'extension cURL de PHP est vivement recommandée.<br /><br />Vous devez télécharger manuellement le fichier <a href=\"$a->url\">$a->url</a>, le copier sur votre serveur à l\'emplacement «&nbsp;$a->dest&nbsp;» et le décompresser à cet endroit.';
 $string['remotedownloadnotallowed'] = 'Le téléchargement de composants sur votre serveur n\'est pas autorisé (l\'option allow_url_fopen est désactivée).<br /><br />Vous devez télécharger manuellement le fichier <a href=\"$a->url\">$a->url</a>, le copier vers «&nbsp;$a->dest&nbsp;» dans votre serveur et le décompresser.';
 $string['restricteduser'] = 'Votre compte utilisateur «&nbsp;$a&nbsp;» ne vous permet pas d\'effectuer cette opération.';
-$string['rpcerror'] = 'RPC cours disponibles pour inscription réseau Moodle&nbsp;:<br/> ($a)';
+$string['rpcerror'] = 'RPC cours disponibles pour inscription réseau Moodle&nbsp;: ($a)';
 $string['scheduledbackupsdisabled'] = 'Les sauvegardes automatiques ont été désactivées par l\'administrateur du serveur';
 $string['sectionnotexist'] = 'Cette section n\'existe pas';
 $string['sendmessage'] = 'Envoyer un message';
