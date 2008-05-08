@@ -1,0 +1,211 @@
+<h2>Ako pracovať s Wiki</h2>
+
+<p>Wiki, ktorú používa Moodle, je založená na <a href=
+"http://erfurtwiki.sourceforge.net/?id=ErfurtWiki" target=
+"_blank">ErfurtWiki</a>, čo je implementácia hypertextového systému <a href=
+"http://c2.com/cgi/wiki?WikiWikiWeb" target="_blank">WikiWikiWeb</a>. Umožňuje
+skupine používateľov jednoducho spolupracovať na tvorbe a úpravách webových
+stránok.</p>
+
+<ul>
+  <li>Naučte sa <a href="#createpages">vytvárať nové stránky</a>.</li>
+
+  <li>Existujúce stránky možno upravovať alebo tak, že kliknete na ikonu
+  (<img alt="upraviť" src="pix/t/edit.gif">), alebo na záložku "Upraviť" v
+  záhlaví stránky.</li>
+
+  <li>Obsah stránok môžete formátovať buď s formátovacími značkami <a href=
+  "#wikimarkup">Wiki</a>, alebo pomocou značiek HTML &ndash; ak je táto možnosť
+  aktivovaná.</li>
+
+  <li>Vytvorené stránky možno prehľadávať a zostavovať ich zoznamy podľa
+  rôznych kritérií.</li>
+
+  <li>Existuje napríklad zoznam najnovších stránok, najnavštevovanejších
+  stránok, najčastejšie upravovaných stránok či nedávno aktualizovaných
+  stránok.</li>
+</ul>
+
+<h3 id="createpages">Vytváranie stránok:</h3>
+<p>Novú stránku založíte tak, že jej názov uvediete v texte niektorej existujúcej
+stránky. Stránku wiki možno pomenovať buď pomocou <a href=
+"#camelcase">WikiSlov</a> alebo tak, že názov uzavriete do hranatých zátvoriek (
+[] ).</p>
+
+<p>Príklady:</p>
+
+<ul>
+  <li>MojaStrankaWiki (WikiSlová)</li>
+
+  <li>[Moja stránka wiki] (v hranatých zátvorkách)</li>
+</ul>
+
+<p>Po uložení sa za textom označeným ako názov stránky bude zobrazovať otáznik
+'?'. Kliknutím na '?' prejdete do režimu úprav pre danú stránku. Vložíte svoj
+text, uložíte a máte novú stránku wiki.</p>
+
+<h3 id="wikimarkup">Wiki značkovací jazyk:</h3>
+
+<p>Všetky stránky vo wiki môžete jednoducho upravovať pomocou formátovacích značiek wiki.</p>
+
+<h4>Odstavce</h4>
+
+<ul type="circle">
+  <li>Odstavce v texte oddeľujte prázdnymi riadkami;</li>
+
+  <li>pre zalomenie riadku použite tri znaky percent %%%;</li>
+
+  <li>odsadenie textu dosiahnete tak, že na začiatok riadku vložíte medzeru alebo
+  tabulátor.</li>
+</ul>
+
+<h4>!! Nadpisy</h4>
+
+<ul type="circle">
+  <li>Ak chcete vytvoriť malý nadpis, použite na začiatku riadku výkričník
+  !;</li>
+
+  <li>pre stredne veľký nadpis použite dva výkričníky !!;</li>
+
+  <li>a pre veľké nadpisy tri výkričníky !!!.</li>
+</ul>
+
+<h4>Formátovanie textu</h4>
+
+<ul type="circle">
+  <li>Ak chcete časť textu <em>zdôrazniť</em>, uzavrite ho na začiatku a na
+  konci dvomi jednoduchými úvodzovkami, tj. ''zdôraznenie'' (obvykle sa zobrazí
+  ako kurzíva);</li>
+
+  <li><strong>tučný text</strong> získate dvomi podtrhovníkmi (__tučný__),
+  alebo dvomi hviezdičkami ** (**tučný**);</li>
+
+  <li><big>zväčšenie textu</big> získate tak, že ho napíšete medzi dve dvojice
+  znakov ## (##zväčšiť##);</li>
+
+  <li><small>zmenšenie textu</small> potom rovnakým postupom s týmito symbolmi
+  'µµ' ( µµzmenšiťµµ);</li>
+
+  <li>písmo pripomínajúce <tt>text písaný na stroji</tt> sa použije, ak text
+  umiestnite medzi dve dvojice rovnítok == (==strojopis==).</li>
+</ul>
+
+<h4>Zoznamy</h4>
+
+<ul type="circle">
+  <li>Položku zoznamu (odsadenú a začínajúcu odrážkou) vytvoríte tak, že na
+  začiatok riadku napíšete hviezdičku *;</li>
+
+  <li>pre číslované zoznamy použite rovnakým spôsobom znak #;
+
+    <ol>
+      <li>môžete vytvárať aj vnorené zoznamy &ndash; pre každú ďalšiu úroveň
+      zoznamu pridajte na začiatku jeden formátovací znak naviac;</li>
+
+      <li>ak zachováte úroveň vnorenia, môžete dokonca odrážkové a číslované
+      zoznamy kombinovať.</li>
+    </ol>
+  </li>
+</ul>
+
+<h4>Hypertextové Odkazy</h4>
+
+<ul type="circle">
+  <li>Pre vytvorenie nového hypertextového odkazu stačí do textu umiestniť
+  WikiSlovo,</li>
+
+  <li>alebo uzavrieť vybraný text do <b>hranatých zátvoriek</b>.</li>
+
+  <li>Ak zapíšete do textu stránky platnú internetovú adresu (začínajúcu
+  <a href="http://">http://</a>), napr. http://www.example.com, bude z nej pri
+  zobrazení automaticky vytvorený hypertextový odkaz, na ktorý bude možné
+  kliknúť.</li>
+
+  <li>Ak uzavriete internetovú adresu alebo WikiOdkaz do hranatých zátvoriek
+  [<a href="http://www.moodle.org/">Moodle</a>], môžete vzniknutý odkaz opísať
+  vhodným titulkom &ndash; zapísaným buď v uvodzovkách, alebo pomocou znaku | (rúra, pipe):
+
+    <ul type="circle">
+      <li>[názov | http://example.com]</li>
+
+      <li>[WikiOdkaz "názov"] alebo ["názov pre" WikiOdkaz]</li>
+    </ul>
+  </li>
+
+  <li>Ak nechcete, aby sa z WikiSlova alebo z internetovej adresy (alebo iného
+  textu v hranatých zátvorkách) stal hypertextový odkaz, stačí pred ne napísať
+  výkričník ! alebo tildu (vlnovku):
+
+    <ul type="circle">
+      <li>!BezOdkazu, ~BezOdkazu</li>
+
+      <li>![bez odkazu], !!http://example.com</li>
+    </ul>
+  </li>
+</ul>
+
+<h4>Tabuľky pomocou znaku |</h4>
+
+<table cellpadding="2" border="1" cellspacing="0">
+  <tr>
+    <td>každú bunku</td>
+
+    <td>stačí uzavrieť</td>
+
+    <td>z každej strany</td>
+  </tr>
+
+  <tr>
+    <td>jednou</td>
+
+    <td>zvislou čiarou</td>
+  </tr>
+
+  <tr>
+    <td>prázdne bunky</td>
+
+    <td>prehliadače</td>
+
+    <td>obvykle vynechávajú</td>
+  </tr>
+</table>
+
+<p>Zápis:<br>
+| každú bunku | stačí uzavrieť | z každej strany |<br>
+| jednou | zvislou čiarou |<br>
+| prázdne bunky | prehliadače | obvykle vynechávajú |<br>
+<br>
+Poznámka: Pred tabuľku a aj za tabuľku vložte vždy prázdny riadok, aby bola
+dostatočne odlíšená od ostatného textu.</p>
+
+<h4>Obrázky</h4>
+
+<ul type="circle">
+  <li>Ak chcete vložiť do stránky obrázok, zapíšte jeho absolútnu internetovú
+  adresu do hranatých zátvoriek, napr.
+  [http://www.example.com/pics/image.png];</li>
+
+  <li>Druhou možnosťou je použiť funkciu Vkladanie obrázkov.</li>
+</ul>
+
+<h4>Ďalšie čítanie</h4>
+
+<p>Značkovací systém Wiki ponúka radu ďalších možností. Viac
+o ňom nájdete na domácej stránke <a href="http://erfurtwiki.sourceforge.net"
+target="_blank">Erfurt Wiki</a>.</p>
+
+<h5 id="camelcase">WikiSlová:</h5>
+
+<p>
+Pre WikiSlová sa v angličtine používa výraz "CamelCase", 
+tj. doslova "ťavia veľkosť písma" &ndash; jedná sa o opisný názov, ktorý vychádza z vonkajšej 
+podoby WikiSlov.
+Vždy sa jedná o niekoľko slov zapísaných za sebou bez medzier, oddelených iba
+zmenou veľkosti písma. Striedanie malých a veľkých písmen pripomína hrby
+ťavy.</p>
+
+<p>Iným anglickým názvom pre rovnaký jav je "Bumpy Text", tj. doslova "hrboľatý
+text".</p>
+
+<p>Aj keď jazykoví puristi majú proti tomuto spôsobu pomenovávania výhrady, v
+počítačovom svete je veľmi časté a pozná ho väčšina programátorov.</p>
