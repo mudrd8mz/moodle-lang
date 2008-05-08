@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8.4+ (2007021541)
+      // data.php - created with Moodle 1.8.5+ (Build: 20080430) (2007021550)
 
 
 $string['action'] = 'Akcia';
@@ -103,7 +103,7 @@ $string['filesnotgenerated'] = 'Neboli vytvorené všetky polia: $a';
 $string['filtername'] = 'Automatické prepojenie databázy';
 $string['footer'] = 'Päta';
 $string['forcelinkname'] = 'Preddefinovaný názov pre odkaz';
-$string['fromfile'] = 'Importovať zo ZIP súboru';
+$string['fromfile'] = 'Importovať zo zip súboru';
 $string['header'] = 'Hlavička';
 $string['headeraddtemplate'] = 'Definuje interface pri editovaní záznamov';
 $string['headercsstemplate'] = 'Definuje lokálne CSS štýly pre iné šablóny';
@@ -164,8 +164,8 @@ $string['nosingletemplate'] = 'Šablóna pre jednotlivý záznam ešte nie je de
 $string['notinjectivemap'] = 'Nie je mapa vkladania';
 $string['number'] = 'Číslo';
 $string['numberrssarticles'] = 'RSS články';
-$string['numnotapproved'] = 'Čoskoro';
-$string['numrecords'] = 'Záznamy';
+$string['numnotapproved'] = 'Schváliť';
+$string['numrecords'] = '$a záznamov';
 $string['optionaldescription'] = 'Krátky opis (voliteľný)';
 $string['optionalfilename'] = 'Meno súboru (voliteľné)';
 $string['overwrite'] = 'Prepísať';
