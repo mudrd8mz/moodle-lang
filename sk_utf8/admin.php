@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8.4 + (Build: 20080307) (2007021541)
+      // admin.php - created with Moodle 1.8.5+ (Build: 20080430) (2007021550)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -37,6 +37,8 @@ $string['cachetext'] = 'Doba existencie textovej vyrovnávacej pamäte';
 $string['cachetype'] = 'Typ vyrovnávacej pamäte';
 $string['calendar_weekend'] = 'Víkend';
 $string['calendarsettings'] = 'Kalendár';
+$string['cfgwwwrootslashwarning'] = 'V súbore config.php ste nesprávne definovali &#36;CFG->wwwroot. Na jeho konci je znak \'/\'. Ak ho nevymažete, môže dôjsť k neobvyklým chybám, ako napr <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootwarning'] = 'V súbore config.php ste nesprávne definovali &#36;CFG->wwwroot. Nesúhlasí s URL, ktorú používate na prístup k tejto stránke. Ak ho neupravíte, môže dôjsť k neobvyklým chybám, ako napr <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'zmeniť';
 $string['changesitelang'] = 'Zmena jazyka stránok';
 $string['choosefiletoedit'] = 'Vyberte súbor k úprave';
