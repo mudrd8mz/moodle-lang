@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080507) (2008050700)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
 
 
 $string['cannotfindadmin'] = '管理ユーザが見つかりませんでした!';
@@ -21,6 +21,7 @@ $string['phpvaroff'] = 'PHPサーバ変数「 $a[0] 」をOffにしてくださ�
 $string['phpvaron'] = 'PHPサーバ変数「 $a[0] 」がOnにされていません - $a[1]';
 $string['prefixcannotbeempty'] = 'あなたのターゲットDB ($a[1]) では、テーブル接頭辞「 $a[0] 」を空にすることはできません。';
 $string['prefixlimit'] = 'Oracle DBで許可されるテーブル接頭辞「 $a 」の最大長は、2ccです。';
+$string['sessionmissing'] = 'セッションに $a オブジェクトがありません。';
 $string['siteisnotdefined'] = 'サイトが定義されていません!';
 $string['withoutversion'] = 'メインversion.phpが読めない、または指定されていません。';
 
