@@ -12,6 +12,7 @@ $string['oldcharset'] = 'ISO-8859-1';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
 $string['strftimedatetime'] = '%%d %%B %%Y, %%H:%%M';
+$string['strftimedatetimeshort'] = '%%d.%%B.%%y, %%H:%%M';
 $string['strftimedaydate'] = '%%A %%d %%B %%Y';
 $string['strftimedaydatetime'] = '%%A %%d %%B %%Y, %%H:%%M';
 $string['strftimedayshort'] = '%%A %%d %%B';
