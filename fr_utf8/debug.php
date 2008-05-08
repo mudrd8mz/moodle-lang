@@ -21,6 +21,7 @@ $string['phpvaroff'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP devrait
 $string['phpvaron'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP n\'set pas sur On - $a[1]';
 $string['prefixcannotbeempty'] = 'Le préfixe des tables «&nbsp;$a[0]&nbsp;» ne peut pas être vite avec ce type de base de données ($a[1])';
 $string['prefixlimit'] = 'La longueur maximale du préfixe des tables «&nbsp;$a[0]&nbsp;» dans les bases de données Oracle est de 2 caractères.';
+$string['sessionmissing'] = 'L\'objet de session $a n\'est pas présent dans la session';
 $string['siteisnotdefined'] = 'Le site n\'est pas défini&nbsp;!';
 $string['withoutversion'] = 'Le fichier principal version.php n\'set pas accessible';
 
