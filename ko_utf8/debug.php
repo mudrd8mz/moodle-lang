@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080507) (2008050200)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
 
 
 $string['cannotfindadmin'] = '관리자가 없음!';
@@ -21,6 +21,7 @@ $string['phpvaroff'] = 'PHP서버의 변수 \'$a[0]\'는  off되어야 함 -   $
 $string['phpvaron'] = 'PHP서버의 변수 \'$a[0]\'가 On 이 아님 -   $a[1]';
 $string['prefixcannotbeempty'] = '대상 DB ($a[1])의 테이블 접두사를 공난으로 둘 수 없음';
 $string['prefixlimit'] = '오라클 DB의 테이블 접두사의 최대 허용 길이는 2cc임';
+$string['sessionmissing'] = '세션에 $a 가 없음';
 $string['siteisnotdefined'] = '사이트가 정의되지 않았음!';
 $string['withoutversion'] = '주 version.php가 지정되지 않았거나 읽을 수 없음';
 

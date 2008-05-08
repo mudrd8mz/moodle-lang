@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080507) (2008050200)
+      // error.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 수정될 수 없음';
@@ -21,6 +21,7 @@ $string['cannotcreateorfindstructs'] = '강좌에 대한 구조를 만들거나 
 $string['cannotcreatesitedir'] = '사이트의 경로 생성 실패. 사이트 관리자가 디렉토리 허가권을 수정할 필요가 있음';
 $string['cannotcreatetempdir'] = 'temp 디렉토리를 만들 수 없습니다.';
 $string['cannotcustomizelocallang'] = '맞춤 문자열을 변경할 수 있는 권한이 없습니다. 이 권한은 \"moodle/site:langeditlocal\"에 의해 설정됩니다. 만일 사이트 전체의 문자열을 변경하고 싶은 경우 이 기능을 조정하여 언어팩을 관리할 수 있게 해야 합니다.';
+$string['cannotdeletebackupids'] = '이전 백업 id를 삭제할 수 없습니다.';
 $string['cannotdeletecourse'] = '강좌를 삭제할 권한이 없습니다.';
 $string['cannotdeletelangcache'] = '언어팩의 캐시를 삭제할 수 없으므로 dataroot/cache/languages의 허가권을 수정해야 합니다!';
 $string['cannotdeleterole'] = '$a 때문에 삭제할 수 없음';
@@ -44,6 +45,9 @@ $string['cannotmoverolewithid'] = 'ID $a 의 역할을 이동할 수 없음';
 $string['cannotoverridebaserole'] = '기본 역할 권한을 위임할 수 없음';
 $string['cannotreadtmpfile'] = '임시 파일 읽어들이기 오류';
 $string['cannotremovefrommeta'] = '선택한 강좌를 이 메타 강좌에서 제거할 수 없음!';
+$string['cannotrestore'] = '오류가 발생하여 복구를 완료할 수 없음!';
+$string['cannotrestoreadminorcreator'] = '새 강좌를 복구하려면 강좌 생성자이거나 관리자라야 합니다!';
+$string['cannotrestoreadminoredit'] = '선택한 강좌를 복구하려면 편집 가능한 교수자이거나 관리자라야 합니다!';
 $string['cannotsaveconfig'] = '플러그인 \"$a[2]\"에 대한 설정  \"$a[0]\"를  \"$a[1]\"로  저장하기 실패';
 $string['cannotsavefile'] = '\"$a\" 파일을 저장할 수 없음';
 $string['cannotsavemd5file'] = 'md5 파일을 저장할 수 없습니다.';
@@ -54,11 +58,13 @@ $string['cannotunassignrolefrom'] = '이용자를 역할 id: $a 에서 해임할
 $string['cannotunzipfile'] = '압축된 파일을 풀 수 없습니다.';
 $string['cannotupdatecategory'] = '범주($a)를 갱신할 수 없음';
 $string['cannotupdatecm'] = '정확한 위치로 강좌 모듈을 갱신할 수 없음';
+$string['cannotupdatelevel'] = '강좌 모듈을 이동시켜 갱신할 수 없음';
 $string['cannotupdatemod'] = '$a 를 갱신할 수 없음';
 $string['cannotupdaterole'] = '역할을 갱신할 수 없음!';
 $string['cannotupdatesubcate'] = '하위 범주를 갱신할 수 없음!';
 $string['cannotupdatesubcourse'] = '하위 강좌를 갱신할 수 없음!';
 $string['cannotupdatesummary'] = '요약 내용을 갱신할 수 없음!';
+$string['cannotupdateuser'] = '사용자 갱신 실패';
 $string['cannotuseadmin'] = '이 화면을 사용하려면 관리자가 되어야 함';
 $string['cannotuseadminadminorteacher'] = '이 화면을 사용하려면 교수자 혹은 관리자가 되어야 함';
 $string['cannotusepage'] = '교수자 및 관리자만 이 화면을 쓸 수 있습니다.';
@@ -144,6 +150,8 @@ $string['mimetexisnotexist'] = '시스템이 mimeTeX를 구동하도록 설정�
 $string['mimetexnotexecutable'] = '맞춤 mimetex가 실행되지 않음!';
 $string['missingfield'] = '필드 \"$a\" 가 없음';
 $string['missingrequiredfield'] = '필요한 항목이 빠져 있음';
+$string['mnetdisable'] = 'mnet을 이용할 수 없음';
+$string['mnetlocal'] = '원격 MNET 사용자는 여기에 로그인 할 수 없음';
 $string['moduledisable'] = '이 강좌에서는 모듈($a)을 쓸 수 없음';
 $string['moduledoesnotexist'] = '모듈이 존재하지 않음';
 $string['moduleinstancedoesnotexist'] = '본 모듈의 인스턴스가 존재하지 않음';
@@ -164,6 +172,7 @@ $string['nologinas'] = '현재 사용자 ID로는 로그인 할 수 없음';
 $string['nonmeaningfulcontent'] = '의미없는 내용';
 $string['noparticipatorycms'] = '죄송합니다. 당신이 참여했던 보고받을 만한 강좌 모듈이 없습니다.';
 $string['nopermissions'] = '죄송합니다만 그 ($a)를 할만한 권한이 없습니다.';
+$string['nopermissiontomanagegroup'] = '모둠을 관리할 수 있는 권한이 없습니다.';
 $string['nopermissiontoviewpage'] = '이 화면을 보도록 허용되지 않음';
 $string['nosite'] = '사이트 없음';
 $string['nositeid'] = '사이트 ID 누락';
