@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta + (2007100802)
+      // question.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -27,6 +27,7 @@ $string['erroraccessingcontext'] = 'コンテクストにアクセスできま�
 $string['errorfilecannotbecopied'] = 'エラー: ファイル $a をコピーできません。';
 $string['errorfilecannotbemoved'] = 'エラー: ファイル $a を移動できません。';
 $string['errorfileschanged'] = 'エラー: 問題からリンクされているファイルがフォームが表示された後、変更されました。';
+$string['errormovingquestions'] = 'ID $a の問題の移動中にエラーが発生しました。';
 $string['exportcategory'] = 'カテゴリのエクスポート';
 $string['filesareacourse'] = 'コースファイルエリア';
 $string['filesareasite'] = 'サイトファイルエリア';
