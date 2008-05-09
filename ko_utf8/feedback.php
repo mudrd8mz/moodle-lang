@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080429) (2008030700)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080509) (2008050700)
 
 
 $string['add_item'] = '활동에 질문 추가';
@@ -10,7 +10,7 @@ $string['after_submit'] = '제출 후';
 $string['analysis'] = '분석';
 $string['anonymous'] = '익명';
 $string['anonymous_edit'] = '사용자 이름 기록';
-$string['anonymous_entries'] = '익명 입장';
+$string['anonymous_entries'] = '익명 응답';
 $string['anonymous_user'] = '익명 사용자';
 $string['append_new_items'] = '새 항목 덧붙임';
 $string['average'] = '평균';
@@ -46,10 +46,10 @@ $string['dropdownlist'] = '선다형-단답(펼침 목록)';
 $string['dropdownrated'] = '순위있는 펼침 목록';
 $string['edit_item'] = '질문 편집';
 $string['edit_items'] = '질문 편집';
-$string['email_notification'] = '이메일로 알리기';
+$string['email_notification'] = '이메일 통지';
 $string['emailteachermail'] = '$a->username 가 \'$a->feedback\' 피드백 활동을 완료하였습니다. $a->url 에서 결과를 볼 수 있습니다.';
 $string['emailteachermailhtml'] = '$a->username 가 <i>\'$a->feedback\'</i><br/><br/> 피드백 활동을 완료하였습니다. <a href=\"$a->url\">여기</a> 에서 결과를 볼 수 있습니다.';
-$string['entries_saved'] = '당신의 답이 저장되었습니다. 감사합니다.';
+$string['entries_saved'] = '응답 저장됨. 감사합니다.';
 $string['export_questions'] = '문항 내보내기';
 $string['export_to_excel'] = '엑셀로 내보내기';
 $string['feedback:complete'] = '피드백 완료';
@@ -61,7 +61,7 @@ $string['feedback:edititems'] = '항목 편집';
 $string['feedback:mapcourse'] = '강좌에 공용 피드백 배치';
 $string['feedback:view'] = '피드백 보기';
 $string['feedback:viewreports'] = '보고서 보기';
-$string['feedback_is_not_open'] = '피드백이 아직 시작되지 않았습니다.';
+$string['feedback_is_not_open'] = '피드백이 아직 시작되지 않았음';
 $string['feedback_options'] = '피드백 선택사항';
 $string['feedbackclose'] = '피드백 마감 시간';
 $string['feedbackcloses'] = '피드백 마감';
@@ -69,7 +69,7 @@ $string['feedbackopen'] = '피드백 시작 시간';
 $string['feedbackopens'] = '피드백 시작';
 $string['file'] = '파일';
 $string['filter_by_course'] = '강좌에서 걸름';
-$string['handling_error'] = '피드백 모듈 동작 처리에서 오류가 발생하였습니다.';
+$string['handling_error'] = '모듈 작동 처리 중 오류 발생';
 $string['horizontal'] = '수평으로';
 $string['import_questions'] = '질문 가져오기';
 $string['import_successfully'] = '가져오기 성공';

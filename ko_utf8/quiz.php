@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080326) (2008030700)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080509) (2008050700)
 
 
 $string['1day'] = '하루';
@@ -52,7 +52,7 @@ $string['answerswithacceptederrormarginmustbenumeric'] = '허용 오차를 포�
 $string['answertoolong'] = '$a 째 줄의 답이 너무 깁니다.';
 $string['aon'] = 'AON 형식';
 $string['attempt'] = '$a 차 시도';
-$string['attemptduration'] = '시간 경과';
+$string['attemptduration'] = '소비 시간';
 $string['attemptedon'] = '시도 중';
 $string['attemptfirst'] = '첫번째 시도';
 $string['attemptincomplete'] = '$a 차 시도가 아직 종료되지 않았습니다.';
