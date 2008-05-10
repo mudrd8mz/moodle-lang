@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080502) (2008050100)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -23,9 +23,9 @@ $string['availabledate'] = '開始日時';
 $string['cannotdeletefiles'] = 'エラーが発生したため、ファイルを削除できませんでした。';
 $string['comment'] = 'コメント';
 $string['commentinline'] = 'インラインコメント';
-$string['configitemstocount'] = 'オンライン課題でカウントする学生の提出課題の単位';
-$string['configmaxbytes'] = 'すべての課題に関するデフォルト最大サイズ (コース制限および他のローカル設定に従います)';
-$string['configshowrecentsubmissions'] = 'すべてのユーザが課題提出の通知を「最近の活動」レポートで閲覧できる。';
+$string['configitemstocount'] = 'オンライン課題における学生の提出課題カウントに使用する単位です。';
+$string['configmaxbytes'] = 'すべての課題に関するデフォルト最大サイズです (コース制限および他のローカル設定に従います)。';
+$string['configshowrecentsubmissions'] = 'すべてのユーザが課題提出の通知を「最近の活動」レポートで閲覧できます。';
 $string['confirmdeletefile'] = '本当にこのファイルを完全に削除してもよろしいですか?<br /><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'すべての提出課題を削除する';
 $string['deletefilefailed'] = 'ファイルの削除が失敗しました。';
