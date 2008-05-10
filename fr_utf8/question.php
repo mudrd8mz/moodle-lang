@@ -23,6 +23,7 @@ $string['erroraccessingcontext'] = 'Impossible d\'accéder au contexte';
 $string['errorfilecannotbecopied'] = 'Impossible de copier le fichier $a.';
 $string['errorfilecannotbemoved'] = 'Impossible de déplacer le fichier $a.';
 $string['errorfileschanged'] = 'Erreur&nbsp;: certains fichiers liés dans des questions ont été modifiés depuis l\'affichage du formulaire.';
+$string['errormovingquestions'] = 'Erreur lors du déplacement des questions d\'identifiants $a.';
 $string['exportcategory'] = 'Exporter catégorie';
 $string['filesareasite'] = 'la zone des fichiers du site';
 $string['filesareacourse'] = 'la zone des fichiers du cours';
