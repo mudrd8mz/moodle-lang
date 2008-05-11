@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
       // quiz_analysis.php - created with Moodle 1.7.1+ (2006101010)
-
-
 $string['analysis'] = 'Elementanalyse';
 $string['analysisdownload'] = 'Last ned analysen';
 $string['analysisoptions'] = 'Analysealternativ';
@@ -29,5 +27,4 @@ $string['responsestitle'] = 'Teksten i svaret';
 $string['rfractiontitle'] = 'partial<br />credit';
 $string['rpercenttitle'] = 'R.%%';
 $string['stddevtitle'] = 'SD';
-
 ?>

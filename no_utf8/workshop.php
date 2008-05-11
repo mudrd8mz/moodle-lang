@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
       // workshop.php - created with Moodle 1.7.1+ (2006101010)
-
-
 $string['absent'] = 'Fraværende';
 $string['accumulative'] = 'Akkumulerende';
 $string['action'] = 'Handling';
@@ -323,5 +321,4 @@ $string['yourassessments'] = 'Dine vurderinger';
 $string['yourassessmentsofexamplesfromtheteacher'] = 'Dine vurderinger av eksempler fra $a';
 $string['yourfeedbackgoeshere'] = 'Skriv din tilbakemelding her';
 $string['yoursubmissions'] = 'Dine innleveringer';
-
 ?>

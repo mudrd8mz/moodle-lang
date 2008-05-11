@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 dev (2007071300)
-
-
+      // xmldb.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 $string['aftertable'] = 'Etter Tabell:';
 $string['back'] = 'Tilbake';
 $string['backtomainview'] = 'Tilbake til Hoved';
@@ -9,9 +7,15 @@ $string['binaryincorrectlength'] = 'Feil lengde for binærfelt';
 $string['cannotuseidfield'] = 'Kan ikke sette inn \"id\"-feltet. Dette er en autonumerisk kolonne';
 $string['change'] = 'Endre';
 $string['charincorrectlength'] = 'Feil lengde for tegn-felt';
+$string['check_bigints'] = 'Se etter feil med DB heltall';
 $string['check_indexes'] = 'Ser etter manglende DB indekser';
+$string['checkbigints'] = 'Sjekk Bigints';
 $string['checkindexes'] = 'Sjekk Indekser';
 $string['completelogbelow'] = '(se den komplette loggen av søket under)';
+$string['confirmcheckbigints'] = 'This functionality will search for <a href=\"http://tracker.moodle.org/browse/MDL-11038\">potential wrong integer fields</a> in your Moodle server, generating (but not executing!) automatically the needed SQL statements to have all the integers in your DB properly defined.<br /><br />
+Once generated you can copy such statements and execute them safely with your favourite SQL interface (don\'t forget to backup your data before doing that).<br /><br />
+It\'s highly recommended to be running the latest (+ version) available of your Moodle release (1.8, 1.9, 2.x ...) before executing the search of wrong integers.<br /><br />
+This functionality doesn\'t perform any action against the DB (just reads from it), so can be safely executed at any moment.';
 $string['confirmcheckindexes'] = 'Denne funksjonaliteten vil søke etter potensielt manglende indekser i Moodleserveren din, lager (men kjører ikke) automatisk de behøvelige SQL kommandoer for å holde alt oppdatert. Når den først er laget kan du kopiere slike kommandoer og kjøre dem i favoritt SQL grensesnittet ditt.<br /><br />
 Det er anbefalt at du kjører siste (+versjon) tilgjengelig av Moodle utgaven din (1.8, 1.9, 2.x ...) før du kjører søket etter manglende indekser.<br /><br />Denne funksjonaliteten gjør ingenting med databasen (unntatt å lese fra den), så dette kan trygt gjøres når som helst.';
 $string['confirmdeletefield'] = 'Er du helt sikker på at du vil slette feltet:';
@@ -68,6 +72,7 @@ $string['missingvaluesinsentence'] = 'Savned(e) verdier i setningen';
 $string['mustselectonefield'] = 'Du må velge et felt for å se feltrelaterte handlinger';
 $string['mustselectoneindex'] = 'Du må velge en indeks for å se indeksrelaterte handlinger!';
 $string['mustselectonekey'] = 'Du må velge en nøkkel for å se nøkkelrelaterte handlinger!';
+$string['mysqlextracheckbigints'] = 'For MySQL vil søket se etter feil med signerte bigints, og genererer nødvendig SQL for å fikse feilene.';
 $string['new_statement'] = 'Ny kommando';
 $string['new_table_from_mysql'] = 'Ny tabell fra MySQL';
 $string['newfield'] = 'Nytt felt';
@@ -78,6 +83,7 @@ $string['newstatement'] = 'Ny kommando';
 $string['newtable'] = 'Ny tabell';
 $string['newtablefrommysql'] = 'Ny tabell fra MySQL';
 $string['nomissingindexesfound'] = 'Ingen savnede indekser er funnet, databasen din trenger ikke fler handlinger.';
+$string['nowrongintsfound'] = 'Fant ingen feil med heltall, databasen din trenger ingen flere handlinger.';
 $string['numberincorrectdecimals'] = 'Feil antall desimaler i tallfelt';
 $string['numberincorrectlength'] = 'Feil lengde for tallfelt';
 $string['reserved'] = 'Reservert';
@@ -112,9 +118,11 @@ $string['viewedited'] = 'Se redigert';
 $string['vieworiginal'] = 'Se orginal';
 $string['viewphpcode'] = 'Se PHP kode';
 $string['viewsqlcode'] = 'Se SQL kode';
+$string['wrong'] = 'Feil';
+$string['wrongints'] = 'Funnet feil med heltall';
 $string['wronglengthforenum'] = 'Feil lengde for enum felt';
 $string['wrongnumberoffieldsorvalues'] = 'Feil antall felt eller verdier i setningen';
 $string['wrongreservedwords'] = 'Gjeldende reserverte ord<br />(vær oppmerksom på at tabellnavn ikke er viktig ved bruk av $CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Noen manglende indekser har blitt funnet i databasen din. Her er detaljene og de nødvendige SQL-kommandoene som må kjøres med SQL-grensesnittet ditt for å lage alle.<br /><br />Etter at du har gjort det, er det veldig anbefalt å kjøre dette verktøyet igjen for å sjekke at det ikke er flere manglende indekser.';
-
+$string['yeswrongintsfound'] = 'Some wrong integers have been found in your DB. Here there are their details and the needed SQL statements to be executed with your favourite SQL interface to create all them (don\'t forget to backup your data before doing that).<br /><br />After doing that, it\'s highly recommended to execute this utility again to check that no more wrong integers are found.';
 ?>

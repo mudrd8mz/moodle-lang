@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
       // simpletest.php - created with Moodle 1.7.1+ (2006101010)
-
-
 $string['all'] = 'Alle';
 $string['exception'] = 'Unntak';
 $string['fail'] = 'Feil';
@@ -28,5 +26,4 @@ $string['thorough'] = 'Kjør \"full pakke\"-test (kan gå tregt)';
 $string['uncaughtexception'] = 'Uventet unntak [{$a->getMessage()}] i [{$a->getFile()}:{$a->getLine()}] TESTEN ER AVBRUTT.';
 $string['unittests'] = 'Testelementer';
 $string['version'] = 'Bruker <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> versjon $a.';
-
 ?>

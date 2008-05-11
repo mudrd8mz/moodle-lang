@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 dev (2007071300)
-
-
+      // scorm.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 $string['activation'] = 'Aktivisering';
 $string['advanced'] = 'Parametre';
 $string['asset'] = 'Ressurs';
@@ -26,6 +24,7 @@ $string['contents'] = 'Innhold';
 $string['coursepacket'] = 'Kurspakke';
 $string['coursestruct'] = 'Kursstruktur';
 $string['datadir'] = 'Filsystemfeil: Kan ikke opprette mappe for kursdata';
+$string['deleteallattempts'] = 'Slett alle forsøk';
 $string['details'] = 'Spor detaljer';
 $string['directories'] = 'Vis mappelenkene';
 $string['display'] = 'Vis pakke';
@@ -151,8 +150,8 @@ $string['validationtype'] = 'Dette valget angir DOMXML biblioteket som brukes fo
 $string['value'] = 'Verdi';
 $string['versionwarning'] = 'Manifestversjon er eldre enn 1.3, advarsel om $a->tag taggen';
 $string['viewallreports'] = 'Se på rapporter for $a forsøk';
+$string['viewalluserreports'] = 'Vis rapportene for $a brukere';
 $string['whatgrade'] = 'Karaktersetting av forsøk';
 $string['width'] = 'Vidde';
 $string['window'] = 'Vindu';
-
 ?>

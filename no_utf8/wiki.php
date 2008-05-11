@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
       // wiki.php - created with Moodle 1.7.1+ (2006101010)
-
-
 $string['action'] = '-- Handling --';
 $string['administration'] = 'Administrasjon';
 $string['allowremovepages'] = 'Tillat \'fjern sider\'';
@@ -198,5 +196,4 @@ $string['wikiusage'] = 'Wiki-bruk';
 $string['withbinaries'] = 'Inkluder binært innhold';
 $string['withvirtualpages'] = 'Inkluder Wiki-lenker';
 $string['wrongversionrange'] = '$a er ikke en korrekt verdiområde!';
-
 ?>

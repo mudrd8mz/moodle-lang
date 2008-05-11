@@ -1,16 +1,72 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 dev (2007071300)
-
-
+      // question.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+$string['adminreport'] = 'Rapport over mulige problemer i din spørsmålsdatabase.';
+$string['broken'] = 'Dette er en råtten lenke, filen den peker til finnes ikke.';
+$string['byandon'] = 'av <em>$a->user</em> på <em>$a->time</em>';
+$string['categorycurrent'] = 'Gjeldende kategori';
+$string['categorycurrentuse'] = 'Bruk denne kategorien';
 $string['categorydoesnotexist'] = 'Kategorien finne ikke';
+$string['categorymoveto'] = 'Lagre i kategori';
+$string['changepublishstatuscat'] = '<a href=\"$a->caturl\">Kategori \"$a->name\"</a> i kurset \"$a->coursename\" will få status endret fra  <strong>$a->changefrom til $a->changeto</strong>.';
+$string['copy'] = 'Kopier fra $a og endre lenkene.';
+$string['created'] = 'Opprettet';
+$string['createdmodifiedheader'] = 'Opprettet / Sist lagret';
+$string['cwrqpfs'] = 'Tilfeldige spørsmål som velges fra underkategorier.';
+$string['cwrqpfsinfo'] = '<p>Ved oppgradering til Moodle 1.9 vil vi dele spørsmålskategoriene i flere kontekster. Noen spørsmålskategorier og spørsmål på siten din vil kanskje få endret delingsstatus. Dette er nødvendig i de sjeldne tilfeller hvor ett eller flere tilfeldige spørsmål i en test er satt opp til å trekkes fra en miks av delte og private kategorier (som er tilfelle her). Dette skjer når et tilfeldig spørsmål er satt til å hentes fra underkategorier med både delt og privat status.</p>
+<p>De følgende kategoriene vil få status endret til det samme som overordnet kategori. Dette innvirker ikke på eksisterende tester før de evt. opprettes på nytt.</p>';
+$string['cwrqpfsnoprob'] = 'Ingen spørsmålskategorier på din site berøres av oppgraderingen.';
+$string['defaultfor'] = 'Standard for $a';
+$string['defaultinfofor'] = 'Standard kategori for spørsmål delt i konteksten \'$a\'.';
+$string['donothing'] = 'Ikke kopier eller flytt filer eller endre lenker.';
+$string['editingcategory'] = 'Rediger en kategori';
 $string['editingquestion'] = 'Rediger et spørsmål';
+$string['erroraccessingcontext'] = 'Får ikke tilgang til konteksten';
+$string['errorfilecannotbecopied'] = 'Feil - kan ikke kopiere $a.';
+$string['errorfilecannotbemoved'] = 'Feil - kan ikke flytte $a.';
+$string['errorfileschanged'] = 'Feil -  filer det er lenket til fra spørsmål er endret etter skjemaet ble vist.';
+$string['exportcategory'] = 'Eksportkategori';
+$string['filesareacourse'] = 'Kursets filområde';
+$string['filesareasite'] = 'Sitens filområde';
+$string['filestomove'] = 'Flytt / kopier filer til $a?';
 $string['fractionsnomax'] = 'Et av svarene bør ha en score på 100%% slik at det er mulig å få toppkarakter for spørsmålet.';
+$string['getcategoryfromfile'] = 'Ta med kategorier fra fil';
+$string['getcontextfromfile'] = 'Ta med kontekst fra fil';
+$string['ignorebroken'] = 'Ignorer råtne lenker';
+$string['linkedfiledoesntexist'] = 'Den lenkede filen $a eksisterer ikke';
 $string['makechildof'] = 'Lag et underpunkt til \'$a\'';
 $string['maketoplevelitem'] = 'Gå til toppnivå';
 $string['missingimportantcode'] = 'Spørsmålstypen mangler en viktig kode: $a.';
+$string['modified'] = 'Sist lagret';
+$string['move'] = 'Flytt fra $a og endre lenkene';
+$string['movecategory'] = 'Flytt kategori';
+$string['movelinksonly'] = 'Bare endre lenkereferanser, ikke flytt eller kopier filer.';
+$string['moveq'] = 'Flytt spørsmål';
+$string['moveqtoanothercontext'] = 'Flytt spørsmål til en annen kontekst.';
+$string['movingcategory'] = 'Flytter kategori';
+$string['movingcategoryandfiles'] = 'Er du sikker på at du vil flytte kategorien {$a->name} og alle underkategorier for \"{$a->contextto}\"?<br /> Vi har oppdaget {$a->urlcount} filer som er lenket fra {$a->fromareaname}, ønsker du å kopiere eller flytte disse til  {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Er du sikker på at du vil flytte kategorien \"{$a->name}\" og alle underkategorier for \"{$a->contextto}\"?';
+$string['movingquestions'] = 'Flytter spørsmål og filer';
+$string['movingquestionsandfiles'] = 'Er du sikker på at du vil flytte spørsmålene {$a->questions} til konteksten for <strong>\"{$a->tocontext}\"</strong>?<br /> Vi har oppdaget <strong>{$a->urlcount} filer</strong> lenket fra disse spørsmålene i {$a->fromareaname}, ønsker du å kopiere eller flytte disse til {$a->toareaname}?';
+$string['movingquestionsnofiles'] = 'Er du sikker på at du vil flytte spørsmålene {$a->questions} til konteksten for <strong>\"{$a->tocontext}\"</strong>?<br /> Vi ikke oppdaget <strong>{$a->urlcount} noen filer</strong> lenket fra disse spørsmålene i {$a->fromareaname}.';
+$string['needtochoosecat'] = 'Du må velge en kategori å flytte spørsmålene til eller klikke \'Avbryt\'.';
+$string['nopermissionadd'] = 'Du har ikke tillatelse til å legge til spørsmål her.';
+$string['noprobs'] = 'Fant ingen problemer i spørsmålsdatabasen.';
 $string['notenoughdatatoeditaquestion'] = 'Hverken spørsmålsid, eller kategori-id og spørsmålstype eller blitt angitt.';
+$string['notenoughdatatomovequestions'] = 'Du må ta med spørsmålsID på spørsmål du ønsker å flytte.';
+$string['permissionedit'] = 'Endre dette spørsmålet';
+$string['permissionmove'] = 'Flytt dette spørsmålet';
+$string['permissionsaveasnew'] = 'Lagre som et nytt spørsmål';
+$string['permissionto'] = 'Du har tillatelse til:';
+$string['published'] = 'delt';
+$string['questionaffected'] = '<a href=\"$a->qurl\">Spørsmål \"$a->name\" ($a->qtype)</a> er i denne kategorien, men er også benyttet i <a href=\"$a->qurl\">test \"$a->quizname\"</a> i kurset  \"$a->coursename\".';
 $string['questionbank'] = 'Spørsmålsbank';
+$string['questioncatsfor'] = 'Spørsmålskategorier for \'$a\'';
 $string['questiondoesnotexist'] = 'Spørsmålet finnes ikke';
+$string['questionuse'] = 'Bruk spørsmål i denne aktiviteten';
+$string['shareincontext'] = 'Del i konteksten for $a';
+$string['tofilecategory'] = 'Skriv kategorien til fil';
+$string['tofilecontext'] = 'Skriv konteksten til fil';
+$string['unknown'] = 'Ukjent';
 $string['unknownquestiontype'] = 'Ukjent spørsmålstype: $a.';
-
+$string['unpublished'] = 'privat';
 ?>

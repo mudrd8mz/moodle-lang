@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007071300)
-
-
+      // resource.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 $string['addresource'] = 'Ny ressurs';
 $string['affectedresources'] = 'Berørte ressurser';
+$string['allowlocalfiles'] = 'Tillat lokale filer';
+$string['autofilerename'] = 'Oppdater lenken hvis den endres';
 $string['back'] = 'Tilbake';
+$string['blockdeletingfile'] = 'Blokker sletting av avhengige filer';
 $string['browserepository'] = 'Bla gjennom lager';
 $string['choose'] = 'Velg';
 $string['chooseafile'] = 'Velg eller last opp ei fil';
@@ -46,6 +47,7 @@ $string['fetchservererror'] = 'En feil ble funnet på tjeneren mens du forsøkte
 $string['filename'] = 'Filnavn';
 $string['filtername'] = 'Automatisk lenke til ressurser';
 $string['frameifpossible'] = 'Vis ressursen i ei ramme slik at navigeringen er synlig';
+$string['framesize'] = 'Rammestørrelse';
 $string['fulltext'] = 'Full tekst';
 $string['htmlfragment'] = 'Teksten som skal vises';
 $string['imspackageloaded'] = 'Pakken er lastet inn';
@@ -95,6 +97,7 @@ $string['previous'] = 'Forrige';
 $string['redeploy'] = 'Klargjør igjen';
 $string['repository'] = 'IMS lager';
 $string['resource:view'] = 'Vis ressursen';
+$string['resourcedefaulturl'] = 'Standard URL';
 $string['resourcetype'] = 'Type ressurs';
 $string['resourcetype1'] = '7. Referanse (F.eks. til bok, nettsted, artikkel etc.)';
 $string['resourcetype2'] = 'Nettside';
@@ -117,11 +120,12 @@ $string['serverurl'] = 'Tjener URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Vis kursbokser';
 $string['skipsubmenus'] = 'Hopp over undermeny-sider';
 $string['tableofcontents'] = 'Innholdsfortegnelse';
+$string['tableofcontentsabbrev'] = 'Innhold';
 $string['upbutton'] = 'Opp';
 $string['variablename'] = 'Variabelnavn';
 $string['viewims'] = 'Vis IMS-innholdspakke';
 $string['vol'] = 'Vol.';
 $string['warningblockingdelete'] = 'Advarsel: Slettingen er blokkert av en eksisterende ressurs. Du må enten redigere eksisterende ressurs eller be administrator oppheve sikkerhetsmekanismen i det globale ressursoppsettet.';
 $string['warningdisabledrename'] = 'Advarsel: Automatisk oppdatering av referanser til ressurser er koblet ut. Vennligst oppdater berørte ressurser manuelt, hvis nødvendig. Administrator kan også aktivere automatisk oppdatering i de globale ressursinnstillingene.';
-
+$string['websearchdefault'] = 'Standard websøk';
 ?>

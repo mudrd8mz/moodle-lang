@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9 dev (2007071300)
-
-
+      // survey.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 $string['actual'] = 'Faktisk';
 $string['actualclass'] = 'Gjelde kurs';
 $string['actualstudent'] = '$a faktisk';
@@ -51,7 +49,6 @@ $string['attls8short'] = 'vite hvorfor folk sier og tror';
 $string['attls9'] = 'Jeg tar meg selv ofte i å argumentere mot forfattere av bøker jeg leser for logisk å forstå hvorfor de tar feil.';
 $string['attls9short'] = 'argumentere mot forfattere';
 $string['attlsintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å evaluere dine holdninger til tenking og læring.
-
 Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Svarene blir behandlet strengt konfidensielt og vil ikke påvirke dine resultater i kurset.';
 $string['attlsm1'] = 'Holdninger til tenking og læring';
 $string['attlsm2'] = 'Koblet læring';
@@ -121,23 +118,15 @@ $string['colles8short'] = 'Kritisk til det jeg leser';
 $string['colles9'] = 'Jeg forklarer mine idéer til andre studenter.';
 $string['colles9short'] = 'Jeg forklarer idéer';
 $string['collesaintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss til å forstå hvor godt nettpresentasjonen av denne enheten hjalp deg å lære. 
-
 Hver av de 24 påstandene under spør etter dine erfaringer i denne enheten.
-
 Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Dine svar vil bli behandlet konfidensielt og vil ikke påvirke vurderingen av deg.
-
 Dine nøye gjennomtenkte svar vil hjelpe oss til å forbedre måten denne enheten blir presentert på nett i framtiden.
-
 Tusen takk.';
 $string['collesaname'] = '26 spørsmål om faktiske forhold i kurset';
 $string['collesapintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å forstå hvor godt nettpresentasjonen av denne enheten hjalp deg å lære. 
-
 Hver av de 24 påstandene under ber deg sammenligne dine <b>ønskede</b> (ideelle) og <b>faktiske</b> erfaringer i denne enheten.
-
 Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Dine svar vil bli behandlet konfidensielt og vil ikke påvirke resultatet ditt.
-
 Dine nøye gjennomtenkte svar vil hjelpe oss med å forbedre måten denne enheten blir presentert på nett i framtiden.
-
 Tusen takk.';
 $string['collesapname'] = '26 spørsmål om ønskede og faktiske forhold';
 $string['collesm1'] = 'Relevans';
@@ -154,16 +143,14 @@ $string['collesm6'] = 'Tolkning';
 $string['collesm6short'] = 'Tolkning';
 $string['collesmintro'] = 'I denne nettenheten ...';
 $string['collespintro'] = 'Meningen med denne undersøkelsen er å hjelpe oss å forstå hva du finner verdifullt i læring over Internett.
-
 Hver av de 24 påstandene under spør etter dine <b>foretrukne</b> (ideelle) erfaringer i dette kurset.
-
 Det er ingen \'riktige\' eller \'gale\' svar; vi er bare interessert i din mening. Svarene vil bli behandlet konfidensielt og vil ikke påvirke dine resultater.
-
 Dine nøye gjennomtenkte svar vil hjelpe oss i å forbedre dette kurset på nett i framtiden.
-
 Tusen takk.';
 $string['collespname'] = '26 spørsmål om ønskede forhold i kurset';
 $string['customintro'] = 'Selvvalgt introduksjon';
+$string['deleteallanswers'] = 'Slett alle besvarelser';
+$string['deleteanalysis'] = 'Slett analysen av besvarelser';
 $string['done'] = 'Ferdig';
 $string['download'] = 'Last ned';
 $string['downloadexcel'] = 'Last ned data som Excel-regneark';
@@ -193,6 +180,7 @@ $string['question'] = 'Spørsmål';
 $string['questions'] = 'Spørsmål';
 $string['questionsnotanswered'] = 'Noen av flervalgs-spørsmålene er ikke besvart.';
 $string['report'] = 'Rapport fra undersøkelse';
+$string['responses'] = 'Besvareslser';
 $string['savednotes'] = 'Dine notater ble lagret';
 $string['scaleagree5'] = 'Svært uenig,Litt uenig,Verken eller,Litt enig,Svært enig';
 $string['scales'] = 'Skalaer';
@@ -211,5 +199,4 @@ $string['surveytype'] = 'Type undersøkelse';
 $string['thanksforanswers'] = 'Takk for at du svarte på denne undersøkelsen, $a';
 $string['time'] = 'Tid';
 $string['viewsurveyresponses'] = 'Vis $a svar på undersøkelse';
-
 ?>

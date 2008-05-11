@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
       // timezones.php - created with Moodle 1.9 dev (2007071300)
-
-
 $string['africa/abidjan'] = 'Afrika/Abidjan';
 $string['africa/accra'] = 'Afrika/Accra';
 $string['africa/addis_ababa'] = 'Afrika/Addis_Ababa';
@@ -372,5 +370,4 @@ $string['pacific/truk'] = 'Stillehavet/Truk';
 $string['pacific/wake'] = 'Stillehavet/Wake';
 $string['pacific/wallis'] = 'Stillehavet/Wallis';
 $string['pacific/yap'] = 'Stillehavet/Yap';
-
 ?>
