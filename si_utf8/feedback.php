@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080505) (2008050200)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['add_item'] = 'ක්‍රියාකාරකම සඳහා ප්‍රශ්නයක් එක් කරන්න';
@@ -21,6 +21,26 @@ $string['check'] = 'බහු වරණ - බහු පිළිතුරු';
 $string['check_values'] = 'විය හැකි ප්‍රතිචාර';
 $string['checkbox'] = 'බහු වරණ - බහු පිළිතුරු සඳහා ඉඩ ඇත (කතිර කොටු)';
 $string['choosefile'] = 'ගොනුවක් තෝරන්න';
+$string['chosen_feedback_response'] = 'තෝරාගත් ප්‍රතිචාර පිළිතුර';
+$string['complete_the_form'] = 'ප්‍රශ්න සඳහා පිළිතුරු සපයන්න ...';
+$string['completed'] = 'සම්පූර්ණ කර ඇත';
+$string['completed_feedbacks'] = 'ඉදිරිපත් කරන ලද පිළිතුරු';
+$string['confirmdeleteentry'] = 'ඔබට විශ්වාසද මෙම ඇතුලත් කිරීම ඉවත් කල යුතු බව?';
+$string['confirmdeleteitem'] = 'ඔබට විශ්වාසද මෙම උපාංගය ඉවත් කල යුතු බව?';
+$string['confirmdeletetemplate'] = 'ඔබට විශ්වාසද මෙම ටෙම්ප්ලේටය ඉවත් කල යුතු බව?';
+$string['confirmusetemplate'] = 'ඔබට විශ්වාසද මෙම ටෙම්ප්ලේටය භාවිතා කල යුතු බව?';
+$string['continue_the_form'] = 'පෝරමය පවත්වා ගන්න';
+$string['count_of_nums'] = 'නොම්බර වල ගණන';
+$string['courseid'] = 'පාඨමාලා අංකය';
+$string['creating_templates'] = 'මෙම ප්‍රශ්න නව ටෙම්ප්ලේටයක් ලෙස සුරක්ෂිත කරන්න';
+$string['delete_entry'] = 'ඇතුලත් කිරීම ඉවත් කරන්න';
+$string['delete_item'] = 'ප්‍රශ්නය ඉවත් කරන්න';
+$string['delete_old_items'] = 'පැරණි අයිතම ඉවත් කරන්න';
+$string['delete_template'] = 'ටෙම්ප්ලේටය ඉවත් කරන්න';
+$string['delete_templates'] = '‍ටෙම්ප්ලේටය ඉවත් කරන්න...';
+$string['description'] = 'විස්තරය';
+$string['drop_feedback'] = 'මෙම පාඨපාලාවෙන් ඉවත් කරන්න';
+$string['dropdown_values'] = 'පිළිතුරු';
 $string['using_templates'] = 'ටෙම්ප්ලේටයක් භාවිතා කරන්න';
 $string['vertical'] = 'සිරස්';
 
