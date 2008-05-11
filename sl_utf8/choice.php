@@ -1,44 +1,20 @@
-<?PHP // $Id:choice.php from choice.xml
-      // Comments: tomaz at zid dot si
+<?PHP // $Id$ 
+      // choice.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
+      // local modifications from http://193.2.123.15/moodle
 
-$string['addmorechoices'] = 'Dodaj več možnosti';
-$string['allowupdate'] = 'Dovoli posodobitev možnosti';
-$string['answered'] = 'Odgovorjeno';
-$string['choice'] = 'Možnost';
-$string['choiceclose'] = 'Do';
-$string['choicename'] = 'Ime možnosti';
-$string['choiceopen'] = 'Odpri';
-$string['choicetext'] = 'Besedilo možnosti';
-$string['displayhorizontal'] = 'Prikaži vodoravno';
-$string['displaymode'] = 'Način prikaza';
-$string['displayvertical'] = 'Prikaži navpično';
-$string['full'] = '(Polno)';
-$string['havetologin'] = 'Morate se prijaviti preden lahko oddate svoj izbor';
-$string['limit'] = 'Omejitev';
-$string['limitanswers'] = 'Omeji število možnih odgovorov';
-$string['modulename'] = 'Možnost';
-$string['modulenameplural'] = 'Možnosti';
-$string['mustchooseone'] = 'Odločiti se morate za odgovor pred shranjevanjem.  Nič ni bilo shranjeno.';
-$string['notanswered'] = 'Še ni odgovorjeno';
-$string['notopenyet'] = 'Oprostite, ta dejavnost ni na voljo do $a';
-$string['privacy'] = 'Zasebnost rezultatov';
-$string['publish'] = 'Objavi rezultate';
-$string['publishafteranswer'] = 'Pokaži rezultate udeležencem po njihovem odgovoru';
-$string['publishafterclose'] = 'Pokaži rezultate udeležencem šele, ko je izbira možnosti zaključena';
-$string['publishalways'] = 'Vedno pokaži rezultate udeležencem';
-$string['publishanonymous'] = 'Objavi rezultate anonimno, ne prikaži imen udeležencev';
-$string['publishnames'] = 'Objavi polne rezultate, ki prikažejo imena in njihove odločitve';
-$string['publishnot'] = 'Ne objavi rezultatov udeležencem';
-$string['responses'] = 'Odgovori';
-$string['responsesto'] = 'Odgovori na $a';
-$string['savemychoice'] = 'Shrani mojo odločitev';
-$string['showunanswered'] = 'Prikaži stolpec za neodgovorjeno';
-$string['spaceleft'] = 'prostor na voljo';
-$string['spacesleft'] = 'prostorov na voljo';
-$string['taken'] = 'Zasedeno';
-$string['timerestrict'] = 'Omeji odgovarjanje na to časovno obdobje';
-$string['yourselection'] = 'Vaš izbor';
-$string['viewallresponses'] = 'Poglej $a odgovore';
 
+$string['choice:choose'] = 'Zabeleži izbiro';
+$string['choice:deleteresponses'] = 'Zbriši odgovore';
+$string['choice:downloadresponses'] = 'Naloži odgovore';
+$string['choice:readresponses'] = 'Preberi odgovore';
+$string['choicefull'] = 'Na voljo ni več prostih mest. Izbira ni mogoča.';
+$string['choicename'] = 'Ime po izbiri';
+$string['choicetext'] = 'Možnost izbire besedila';
+$string['expired'] = 'Aktivnost na $a se je zaprla in ni več na voljo.';
+$string['fillinatleastoneoption'] = 'Izbrati morate najmanj dva možna odgovora.';
+$string['noguestchoose'] = 'Oprostite, gosti ne smejo odgovarjati na vprašanja'; // ORPHANED
+$string['noresultsviewable'] = 'Rezultati trenutno niso na vpogled'; // ORPHANED
+$string['removemychoice'] = 'Odstrani moje odgovore'; // ORPHANED
+$string['removeresponses'] = 'Odstrani vse odgovore'; // ORPHANED
 
 ?>

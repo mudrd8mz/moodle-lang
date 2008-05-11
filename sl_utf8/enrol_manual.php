@@ -1,14 +1,9 @@
-<?PHP // $Id:enrol_manual.php from enrol_manual.xml
-      // Comments: tomaz at zid dot si
+<?PHP // $Id$ 
+      // enrol_manual.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
+      // local modifications from http://193.2.123.15/moodle
 
-$string['enrolname'] = 'Interen vpis';
-$string['description'] = 'To je privzet obrazec za vpis. Obstajata dva glavna načina za vpis udeleženca v določen predmet.
-<ul>
-<li>Izvajalec ali skrbnik jih lahko vpiše ročno prek povezave v Skrbniškem meniju predmeta
-    v predmetu.</li>
-<li>Predmet ima lahko določeno geslo, imenovano tudi \"ključ za vpis\".  Kdorkoli pozna ta ključ se
-    lahko doda v predmet.</li>
-<ul>';
 
+$string['enrolname'] = 'Interni vpis';
+$string['keyholderrole'] = 'Vloga uporabnika, ki ima ključ za vpis v predmet. Prikazan uporabnikom - študentom, ki se poskušajo vpisati v predmet.';
 
 ?>

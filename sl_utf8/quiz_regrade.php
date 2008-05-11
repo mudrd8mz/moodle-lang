@@ -1,7 +1,7 @@
-<?PHP // $Id:quiz_regrade.php from quiz_regrade.xml
-      // Comments: tomaz at zid dot si
+<?PHP // $Id$ 
+      // quiz_regrade.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
+      // local modifications from http://193.2.123.15/moodle
 
-$string['regrade'] = 'Ponovno ocenjevanje';
 
 
 ?>

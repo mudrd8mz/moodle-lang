@@ -1,12 +1,7 @@
-<?PHP // $Id:quiz_overview.php from quiz_overview.xml
-      // Comments: tomaz at zid dot si
+<?PHP // $Id$ 
+      // quiz_overview.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
+      // local modifications from http://193.2.123.15/moodle
 
-$string['overview'] = 'Pregled';
-$string['attemptsonly'] = 'Pokaži samo $a s poskusi';
-$string['allattempts'] = 'Pokaži vse poskuse';
-$string['allstudents'] = 'Pokaži vse $a';
-$string['noattemptsonly'] = 'Pokaži samo $a brez poskusov';
-$string['overviewdownload'] = 'Prenos pregleda';
 
 
 ?>

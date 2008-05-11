@@ -1,9 +1,8 @@
-<?PHP // $Id:block_online_users.php from block_online_users.xml
-      // Comments: tomaz at zid dot si
+<?PHP // $Id$ 
+      // block_online_users.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
+      // local modifications from http://193.2.123.15/moodle
 
-$string['blockname'] = 'Prisotni uporabniki';
-$string['periodnminutes'] = 'zadnjih $a minut';
-$string['configtimetosee'] = 'Število minut določa obdobje nedejavnosti po katerem uporabnik ni več štet kot prisoten.';
 
+$string['timetosee'] = 'Odstrani po neaktivnem času (minute)';
 
 ?>

@@ -1,8 +1,8 @@
-<?PHP // $Id:quiz_grading.php from quiz_grading.xml
-      // Comments: tomaz at zid dot si
+<?PHP // $Id$ 
+      // quiz_grading.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
+      // local modifications from http://193.2.123.15/moodle
 
-$string['grading'] = 'Ročno ocenjevanje';
-$string['essayonly'] = 'Naslednja vprašanja je potrebno oceniti ročno';
 
+$string['gradingnotallowed'] = 'Nimate dovoljenja za ročno ocenjevanje odgovorov v tem kvizu';
 
 ?>

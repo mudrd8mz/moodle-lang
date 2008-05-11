@@ -1,0 +1,78 @@
+<?PHP // $Id$ 
+      // question.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
+      // local modifications from http://193.2.123.15/moodle
+
+
+$string['adminreport'] = 'Poročajte o morebitnih problemih v vaši vprašalni datoteki.';
+$string['broken'] = 'To je \"broken link\", kaže neobstoječ dokument';
+$string['byandon'] = 'Od <em>$a->user</em> na <em>$a->time</em>';
+$string['categorycurrent'] = 'Trenutna kategorija.';
+$string['categorycurrentuse'] = 'Uporabite to kategorijo.';
+$string['categorydoesnotexist'] = 'Ta kategorija ne obstaja.';
+$string['categorymoveto'] = 'Shranite kategorijo.';
+$string['changepublishstatuscat'] = '<a href=\"$a->caturl\">Category \"$a->name\"</a> in course \"$a->coursename\" 
+bo imela svoj delitveni status spremenjen 
+iz <strong>$a->changefrom na $a->changeto</strong>.';
+$string['copy'] = 'Kopirajte iz $a in spremenite v povezavo.';
+$string['created'] = 'Ustvarjeno.';
+$string['createdmodifiedheader'] = 'Ustvarjeno/ zadnje shranjeno.';
+$string['cwrqpfs'] = 'Naključno izbiranje vprašanj iz kategorij.';
+$string['cwrqpfsinfo'] = '<p> Med nadgradnjo Moodle 1.9 bomo razčlenili kategorije vprašanj v različna sobesedila. Nekatere kategorije vprašanj ter posamezna vprašanja na vaši strani bodo morala zamenjati svoj delitveni status. To je potrebno v redkih primerih, kjer so en ali več naključnih vprašanj v kvizu izbrana iz mešanice delitvenih ter nedelitvenih kategorij ( kot je primer na tej strani). To se zgodi ko so naključna vprašanja nastavljena iz podkategorij, pri tem pa imajo te različen delitveni status kot njene nadkategorije v katerih so ustvarjene.</p>
+<p> Nadaljne kategorije vprašanj, iz katerih nakjučno izbiramo vprašanja v nadkategorijah, morajo spremeniti svoj delitveni status v isti delitveni status kot kategorije z naključnimi izbiralcem vprašanj v nadgradnji Moodle 1.9. Naslednje kategorije morajo spremeniti svoj delitveni status. Izbrana vprašanja bodo nadaljno delovala v vseh obstoječih kvizih do takrat, ko jih boste iz kviza odstranili.</p>.';
+$string['cwrqpfsnoprob'] = 'Nobena od kategorij vprašanj na vaši strani niso uporabljena z naključnim izbiralcem vprašanj iz podkategorij.';
+$string['defaultfor'] = 'Privzet za &a.';
+$string['defaultinfofor'] = 'Privzeta kategorija za vprašanja deljena v kontekstu \'$a\'.';
+$string['donothing'] = 'Ne kopiraj ali premikaj dokumentov ali ne spreminjaj povezav.';
+$string['editingcategory'] = 'Urejanje kategorije.';
+$string['editingquestion'] = 'Urejenje vprašanja.';
+$string['erroraccessingcontext'] = 'Ne dozežem konteksta.';
+$string['errorfilecannotbecopied'] = 'Napaka ne morem kopirati dokumenta $a.';
+$string['errorfilecannotbemoved'] = 'Napaka ne morem premakniti dokumenta $a.';
+$string['errorfileschanged'] = 'Napačni dokumenti so povezani od vprašanja so spremenjena od: oblika je prikazana.';
+$string['exportcategory'] = 'Izvoz kategorije.';
+$string['filesareacourse'] = 'Področje tečajnih dokumentov.';
+$string['filesareasite'] = 'Področje strani dokumentov.';
+$string['filestomove'] = 'Premakni/kopiraj dokumente v $a?';
+$string['fractionsnomax'] = 'En od odgovorov bi moral imeti 100%% rezultat, da je možno dobiti polno oceno za to vprašanje.';
+$string['getcategoryfromfile'] = 'Dobi kategorijo iz dokumenta.';
+$string['getcontextfromfile'] = 'Dobi kontekst iz dokumenta.';
+$string['ignorebroken'] = 'Ignoriraj napačne povezave.';
+$string['linkedfiledoesntexist'] = 'Povezan dokument $a ne obstaja.';
+$string['makechildof'] = 'Ustvari \"otroka\" od $a.';
+$string['maketoplevelitem'] = 'Premakni na najvišjo raven.';
+$string['missingimportantcode'] = 'Temu tipu vprašanja manjka pomembna koda: $a.';
+$string['modified'] = 'Zadnji shranjen.';
+$string['move'] = 'Premakni iz $a in spremeni povezavo.';
+$string['movecategory'] = 'Premakni kategorijo.';
+$string['movelinksonly'] = 'Spremeni samo, kjer linki kažejo na ne premakni in  kopiraj dokumentov.';
+$string['moveq'] = 'Premakni vprašanja/-e.';
+$string['moveqtoanothercontext'] = 'Premakni vprašanje v drug kontekst.';
+$string['movingcategory'] = 'Premikanje kategorije.';
+$string['movingcategoryandfiles'] = 'Ste prpričani da želite premakniti kategorijo {$a->name} in vse \"otroške\" kategorije v kontekst za \"{$a->contextto}\"?<br/> Smo odkrili {$a->urlcount} dokumente povezane iz vprašanj {$a->fromareaname}, ali želite te povezave premakniti ači kopirati v  {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Ali ste prepričani da želite premakniti \"{$a->name}\" in vse \"otroške\" kategorije v kontekst za  \"{$a->contextto}\"?';
+$string['movingquestions'] = 'Premikanje vprašanj in vse dokumente.';
+$string['movingquestionsandfiles'] = 'Ali ste prepričani da želite premakniti vprašanja {$a->questions} <strong>\"{$a->tocontext}\"</strong>?<br /> Odkrili smo <strong>{$a->urlcount} files</strong> povezave iz teh vprašanj v {$a->fromareaname}, ali želite kopirati ali pa premakniti te v {$a->toareaname}?';
+$string['movingquestionsnofiles'] = 'Ali ste prepričani da želite premakniti vprašanja {$a->questions} v kontekst za <strong>\"{$a->tocontext}\"</strong>?<br /> Tu so <strong>no dokumenti </strong> povezani iz teh vprašanj v{$a->fromareaname}.';
+$string['needtochoosecat'] = 'Izbrati morate kategorijo, če želite premakniti ta vprašanja v ali pa pritisniti \"prekliči\".';
+$string['nopermissionadd'] = 'Tukaj imate dovoljenja za dodajanje vprašanj.';
+$string['noprobs'] = 'Ni najdenih problemov v vaši bazi vprašanj.';
+$string['notenoughdatatoeditaquestion'] = 'Ne id vprašanja, ne id kategorije  in tip vprašanj niso določene.';
+$string['notenoughdatatomovequestions'] = 'Prilazati morate id vprašanj od vprašanj, ki jih želite premakniti.';
+$string['permissionedit'] = 'Uredi to vprašanje.';
+$string['permissionmove'] = 'Premakni to vprašanje.';
+$string['permissionsaveasnew'] = 'Shrani to kot novo vprašanje.';
+$string['permissionto'] = 'Imate dovoljenje za:';
+$string['published'] = 'Deljeno';
+$string['questionaffected'] = '<a href=\"$a->qurl\">Question \"$a->name\" ($a->qtype)</a> je v tej kategoriji vprašanj ampak je uporabljeno tudi v <a href=\"$a->qurl\">quiz \"$a->quizname\"</a> v drugem tečaju \"$a->coursename\".';
+$string['questionbank'] = 'Banka vprašanj.';
+$string['questioncatsfor'] = 'Ktegorije vprašanj za \'$a\'.';
+$string['questiondoesnotexist'] = 'To vprašanje ne obstaja.';
+$string['questionuse'] = 'Uporabite vprašanje v tej aktivnosti.';
+$string['shareincontext'] = 'Delji v kontekstu za $a.';
+$string['tofilecategory'] = 'Zapiši kategorijo v dokument.';
+$string['tofilecontext'] = 'Zapiši kontekst v dokument.';
+$string['unknown'] = 'Nepoznan.';
+$string['unknownquestiontype'] = 'Nepoznan tip vprašanja: $a.';
+$string['unpublished'] = 'Nedeljen.';
+
+?>
