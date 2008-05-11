@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -185,6 +185,7 @@ $string['configpathtoclam'] = 'Pfad für ClamAV, meistens /usr/bin/clamscan oder
 $string['configpathtodu'] = 'Pfad für du, meistens /usr/bin/du. Mit dieser Option werden Seiten mit Verzeichnissen und vielen Dateien schneller angezeigt.';
 $string['configperfdebug'] = 'Nach der Aktivierung der Option wird eine Performance-Information in der Fußzeile des Standardthemes angezeigt.';
 $string['configprotectusernames'] = 'Standardmäßig werden keine Hinweise für vergessene Benutzernamen und Passwörter angezeigt.';
+$string['configproxybypass'] = 'Komma getrennte Liste von Servernamen oder IP-Adressen (auch Teile davon), die ohne den Proxy geladen werden (z.B. 192.168., .meineseite.de)';
 $string['configproxyhost'] = 'Wenn dieser <b>Moodle-Server</b> einen Proxy für den Internetzugriff (z.B. eine Firewall) benötigt, dann tragen Sie hier den Namen und den Port des Proxys ein. Andernfalls lassen Sie das Feld leer.';
 $string['configproxypassword'] = 'Für den Internet-Zugriff wird eventuell ein Passwort benötigt. Lassen Sie das Feld leer, falls der Proxy kein Passwort verlangt. Die PHP-Erweiterung cURL ist notwendig!';
 $string['configproxyport'] = 'Falls dieser Server einen Proxy benutzt, geben Sie hier bitte den Proxy-Port an.';
@@ -267,7 +268,9 @@ $string['cronerrorpassword'] = 'Entschuldigung, Sie haben kein gültiges Kennwor
 $string['cronremotepassword'] = 'Kennwort für cron';
 $string['cronwarning'] = 'Das <a href=\"cron.php\">Cron-Script</a> wurde in den letzten 24 Stunden nicht ausgeführt.';
 $string['csvdelimiter'] = 'CSV Trennzeichen';
-$string['curlrecommended'] = 'Die Installation der optionalen Bibliothek Curl wird empfohlen, um die Moodle-Netzwerk-Funktionalität einzuschalten.';
+$string['ctyperecommended'] = 'Die Installation der optionalen Bibliothek ctype wird empfohlen, um die Geschwindigkeit der Website zu steigern. Dies ist besonders wichtig, wenn Sie Sprachen mit anderen als lateinischen Zeichensätzen verwenden.';
+$string['ctyperequired'] = 'Die PHP-Erweiterung ctype wird von Moodle benötigt, um die Geschwindigkeit der Website zu steigern und die Mehrsprachkompatibilität zu ermöglichen.';
+$string['curlrecommended'] = 'Die Installation der optionalen Bibliothek cURL wird empfohlen, um die Netzwerk-Funktionalität von Moodle einzuschalten.';
 $string['customcheck'] = 'Weitere Überprüfungen';
 $string['datarootsecuritywarning'] = 'Ihre Einstellungen sind möglicherweise nicht sicher. Bitte überprüfen Sie, dass Ihr Datenverzeichnis ($a) nicht direkt aus dem Internet aufrufbar ist.';
 $string['dbmigrate'] = 'Moodle-Datenbankmigration';
@@ -583,6 +586,7 @@ $string['profilevisibleall'] = 'Sichtbar für alle';
 $string['profilevisiblenone'] = 'Nicht sichtbar';
 $string['profilevisibleprivate'] = 'Sichtbar für Teilnehmer/innen';
 $string['protectusernames'] = 'Nutzernamen schützen';
+$string['proxybypass'] = 'Proxy für diese Server nicht verwenden';
 $string['proxyhost'] = 'Proxy-Server';
 $string['proxypassword'] = 'Proxy-Passwort';
 $string['proxyport'] = 'Proxy-Port';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // install.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['aborting'] = 'Installation abbrechen';
@@ -237,8 +237,11 @@ $string['odbc_mssql'] = 'SQL*Server über ODBC (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die ODBC-Erweiterung mit SQL*Server zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
 $string['pass'] = 'Durchgang';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die PGSQL-Erweiterung mit PostgreSQL zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
+$string['php52versionerror'] = 'PHP-Version muss mindestens 5.2.0 sein.';
+$string['php52versionhelp'] = '<p>Moodle benötigt mindestens PHP Version 2.0</p>
+<p>Sie nutzen zur Zeit Version $a.</p>
+<p>Ihre PHP-Version muss aktualisiert oder ein anderer Host genutzt werden.</p>';
 $string['phpversion'] = 'PHP-Version';
-$string['phpversionerror'] = 'PHP muss mindestens in der Version 4.3.0 oder 5.1.0 installiert sein (5.0.x weist eine Reihe bekannter Fehler auf).';
 $string['phpversionhelp'] = '<p>Moodle erwartet PHP mindestens in der Version 4.3.0/4.4.0 oder 5.1.0 (5.0.x weist eine Reihe bekannter Fehler auf).</p>
 <p>Sie nutzen zur Zeit die Version $a.</p>
 <p>Sie müssen Ihre PHP-Verson aktualisieren oder auf einen Rechner wechseln, der eine neuere Version von PHP nutzt.<br />
@@ -320,5 +323,6 @@ $string['writetoconfigfilefaild'] = 'Fehler beim Schreiben der Konfigurationsdat
 $string['wwwroot'] = 'Web-Adresse';
 $string['wwwrooterror'] = 'Diese Web-Adresse scheint nicht gültig zu sein. Moodle ist nicht unter dieser Adresse installiert.';
 $string['yourchoice'] = 'Ihre Wahl :';
+$string['phpversionerror'] = 'PHP muss mindestens in der Version 4.3.0 oder 5.1.0 installiert sein (5.0.x weist eine Reihe bekannter Fehler auf).'; // ORPHANED
 
 ?>

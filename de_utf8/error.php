@@ -1,11 +1,18 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // error.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
-$string['adminprimarynoedit'] = 'Der Hauptadmin kann nicht von anderen bearbeitet werden';
-$string['cannotassignrole'] = 'Rolle kann im Kurs nicht zugewiesen werden.';
-$string['cannotcreatelangdir'] = 'Verzeichnis \"lang\" kann nicht angelegt werden.';
-$string['cannotcreatetempdir'] = 'Temporäres Verzeichnis kann nicht angelegt werden.';
+$string['adminprimarynoedit'] = 'Der Hauptadministrator kann nicht von anderen bearbeitet werden';
+$string['blockcannotread'] = 'Die Daten für die Block-ID $a konnten nicht gelesen werden';
+$string['blockdoesnotexist'] = 'Dieser Block existiert nicht';
+$string['cannotaddcmtosection'] = 'Das neue Kursmodul konnte in diesem Bereich nicht hinzugefügt werden';
+$string['cannotaddcoursemodule'] = 'Das neue Kursmodul konnte nicht hinzugefügt werden';
+$string['cannotaddnewmodule'] = 'Die neue Instanz von $a konnte nicht hinzugefügt werden';
+$string['cannotaddrss'] = 'Sie haben keine Berechtigung, RSS-Feeds hinzuzufügen';
+$string['cannotassignrole'] = 'Die Rolle kann im Kurs nicht zugewiesen werden';
+$string['cannotcreatebackupdir'] = 'Das Verzeichnis \"backupdata\" konnte nicht erstellt werden. Der Administrator muss die Zugriffsrechte korrigieren.';
+$string['cannotcreatelangdir'] = 'Das Verzeichnis \"lang\" kann nicht angelegt werden.';
+$string['cannotcreatetempdir'] = 'Das Verzeichnis \"temp\" kann nicht angelegt werden.';
 $string['cannotcustomizelocallang'] = 'Sie haben keine Berechtigung, die Übersetzung im lokalen Sprachpaket anzupassen. Diese Berechtigung wird durch das Recht \"moodle/site:langeditlocal\" kontrolliert. Setzen Sie dieses Recht auf \"Erlauben\", um das lokale Sprachpaket für Ihre Website bearbeiten zu können.';
 $string['cannotdownloadcomponents'] = 'Komponenten können nicht heruntergeladen werden.';
 $string['cannotdownloadlanguageupdatelist'] = 'Die Liste der Sprachupdates konnte nicht von download.moodle.org herunter geladen werden.';
@@ -47,13 +54,24 @@ $string['groupunknown'] = 'Die Gruppe \"$a\" gehört nicht zum ausgewählten Kur
 $string['guestnoeditprofile'] = 'Gäste können das Profil nicht bearbeiten.';
 $string['guestnoeditprofileother'] = 'Das Profil für Gäste kann nicht bearbeitet werden.';
 $string['invalidcourse'] = 'Ungültiger Kurs';
+$string['invalidcourseid'] = 'Sie versuchen, eine ungültige Kurs-ID zu benutzen ($a)';
+$string['invalidcoursemodule'] = 'Ungültige Kurs-Modul-ID';
+$string['invalidcoursenameshort'] = 'Ungültige Kurzbezeichnung für den Kurs';
+$string['invalidevent'] = 'Ungültiges Ereignis';
 $string['invalidfieldname'] = '\"$a\" ist ein ungültiger Feldname.';
 $string['invalidfiletype'] = '\"$a\" ist ein unzulässiger Dateityp.';
 $string['invalidipformat'] = 'Ungültiges IP-Adressformat';
 $string['invalidmd5'] = 'md5 ungültig';
+$string['invalidmodule'] = 'Ungültiges Modul';
+$string['invalidmoduleid'] = 'Ungültige Modul-ID';
+$string['invalidmodulename'] = 'Ungültiger Modulname: $a';
+$string['invalidpagesize'] = 'Ungültige Seitengröße';
 $string['invalidrequest'] = 'Ungültige Abfrage';
 $string['invalidrole'] = 'Ungültige Rolle';
+$string['invalidshortname'] = 'Die Kurzbezeichnung für den Kurs ist ungültig';
 $string['invalidurl'] = 'Ungültige URL';
+$string['invaliduser'] = 'Ungültige Nutzer/in';
+$string['invaliduserid'] = 'Ungültige Nutzer-ID';
 $string['invalidxmlfile'] = '\"$a\" ist eine ungültige XML-Datei.';
 $string['iplookupfailed'] = 'Es konnten keine Geo-Informationen zu dieser IP-Adresse gefunden werden.';
 $string['iplookupprivate'] = 'Private IP-Adressen können nicht nachgeschlagen werden.';

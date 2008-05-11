@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta + (2007092001)
+      // question.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
@@ -26,6 +26,7 @@ $string['erroraccessingcontext'] = 'Kein Zugriff auf den Kontext';
 $string['errorfilecannotbecopied'] = 'Fehler: Datei $a kann nicht kopiert werden.';
 $string['errorfilecannotbemoved'] = 'Fehler: Datei $a kann nicht verschoben werden.';
 $string['errorfileschanged'] = 'Die von einigen Fragen verlinkten Fehlerdateien wurden geändert, nachdem das Formular gezeigt wurde.';
+$string['errormovingquestions'] = 'Fehler beim Verschieben von Fragen mit Ids $a.';
 $string['exportcategory'] = 'Kategorie exportieren';
 $string['filesareacourse'] = 'Dateibereich im Kurs';
 $string['filesareasite'] = 'Dateibereich der Website';

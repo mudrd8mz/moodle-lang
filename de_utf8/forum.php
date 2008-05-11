@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // forum.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -28,6 +28,8 @@ $string['blockperiod'] = 'Zeitdauer für Sperre';
 $string['blockperioddisabled'] = 'Nicht sperren';
 $string['bynameondate'] = 'von  $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Um in diesem Forum mit zu diskutieren, müssen Sie Mitglied der Gruppe sein.';
+$string['cannotadddiscussionall'] = 'Sie haben nicht die Berechtigung, um neue Diskussionsthemen für alle Teilnehmer/innen anzulegen.';
+$string['cannotfindorcreateforum'] = 'Das Nachrichtenforum dieses Kurses wurde nicht gefunden oder konnte nicht angelegt  werden.';
 $string['cannotviewpostyet'] = 'Sie können die Beiträge anderer Teilnehmer/innen erst dann lesen, wenn Sie selbst Beiträge verfasst haben.';
 $string['cleanreadtime'] = 'Stunde zu der alte Beiträge als gelesen gekennzeichnet werden';
 $string['configcleanreadtime'] = 'Zeitpunkt des Tages (Stunde), zu dem alte Beiträge von der \'read\'-Tabelle gelöscht werden.';
