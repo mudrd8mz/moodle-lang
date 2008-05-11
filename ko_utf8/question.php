@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta + (2007081600)
+      // question.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제점 보고서';
@@ -26,6 +26,7 @@ $string['erroraccessingcontext'] = '항목에 접속할 수 없음';
 $string['errorfilecannotbecopied'] = '$a 복사 오류';
 $string['errorfilecannotbemoved'] = '$a 이동 오류';
 $string['errorfileschanged'] = '문제가 제시된 후 문항에 연결된 파일의 링크가 변경된 오류';
+$string['errormovingquestions'] = 'id $a 의 문항을 옮기는 중에 오류발생';
 $string['exportcategory'] = '범주 내보내기';
 $string['filesareacourse'] = '강좌 파일 구역';
 $string['filesareasite'] = '사이트 파일 구역';
