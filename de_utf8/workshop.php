@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7+ (2006101008)
+      // workshop.php - created with Moodle 1.9 Beta 3 (2007101506)
 
 
 $string['absent'] = 'Abwesend';
@@ -308,7 +308,7 @@ $string['weightforteacherassessments'] = 'Gewichtung für Trainerbewertungen';
 $string['weights'] = 'Gewichtungen';
 $string['weightsusedforfinalgrade'] = 'Gewichtung, die für die Endnote verwendet wird';
 $string['weightsusedforsubmissions'] = 'Gewichtung, die für die Beiträge verwenden wird';
-$string['workshop:manage'] = 'Einstellungen verwalten';
+$string['workshop:manage'] = 'Workshops verwalten';
 $string['workshop:participate'] = 'Am Workshop teilnehmen';
 $string['workshopagreedassessments'] = 'Bewertungen, denen zugestimmt wurde';
 $string['workshopassessments'] = 'Bewertungen des Workshop';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 1.8 Beta (2007020200)
+      // enrol_mnet.php - created with Moodle 1.9 Beta + (2007100903)
 
 
 $string['allcategories'] = '$a mögliche Kategorien';
@@ -18,6 +18,7 @@ Abonnieren Sie diesen Dienst, um die Teilnehmer/innen Ihres Moodles in Kursen au
 <ul><li><em>Voraussetzung</em>: Sie müssen den SSO-Dienst (Service Provider) von $a <strong>abonnieren </strong>. </li>
 <li><em>Voraussetzung</em>: Sie müssen den SSO-Dienst (Identity Provider) für $a <strong> veröffentlichen </strong>.</li></ul><br/>';
 $string['mnet_enrol_name'] = 'Moodle-Netzwerk-Registrierung';
+$string['mnetlocalforexternal'] = 'Lokale Kurse für externe Nutzer/innen.';
 $string['nocategoriesdefined'] = 'Keine Kategorien gefunden. Definieren Sie neue Kategorien <a href=\"$a\">hier</a>.';
 $string['nocoursesdefined'] = 'Keine Kurse gefunden. Definieren Sie neue Kurse <a href=\"$a\">hier</a>.';
 
