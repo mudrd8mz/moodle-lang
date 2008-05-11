@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // assignment.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['allowdeleting'] = 'Löschen erlauben';
@@ -65,6 +65,7 @@ $string['helpupload'] = '<p>Dieser Aufgabentyp ermöglicht es den Teilnehmenden,
 <p>Außerdem ist es möglich, mehrere Antwortdateien hochzuladen. Antwortdateien können auch schon hochgeladen werden, bevor die Teilnehmer/innen die Aufgabe bearbeiten. Auf diese Weise können Sie allen  unterschiedliche Dateien zur Bearbeitung zur Verfügung stellen. </p> <p>Die Teilnehmer/innen können außerdem Kommentare zu ihrer Aufgabenbearbeitung verfassen und dabei die hochgeladenen Dateien beschreiben, Hinweise zum Stand ihrer Bearbeitung geben, Fragen stellen und vieles mehr.</p><p>Diese Art der Aufgabenbearbeitung muss von den Teilnehmer/innen manuell beendet werden. Sie können sich jederzeit den Stand der Bearbeitung ansehen. Aufgabenbearbeitungen, die noch nicht fertig sind, werden als \"Entwurf\" gekennzeichnet. Sie können jede Lösung, die Sie noch nicht bewertet haben, wieder in einen Entwurf verwandeln.';
 $string['helpuploadsingle'] = '<p>Diese Aufgabenart ermöglicht allen Teilnehmer/innen den Upload einer einzelnen Datei beliebigen Typs.</p><p>Dies kann eine Text-, Bild-, ZIP- oder eine Datei in jedem anderen Format sein, das Sie in der Aufgabenstellung beschrieben haben.</p>';
 $string['hideintro'] = 'Beschreibung vor dem Veröffentlichungszeitpunkt verbergen';
+$string['invalidid'] = 'ID der Aufgabe war fehlerhaft';
 $string['itemstocount'] = 'Anzahl';
 $string['late'] = '$a spät';
 $string['maximumgrade'] = 'Höchste Bewertung';

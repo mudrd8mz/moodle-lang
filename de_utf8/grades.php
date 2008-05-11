@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // grades.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
 
 
 $string['activities'] = 'Aktivitäten';
@@ -348,6 +348,7 @@ $string['nopublish'] = 'Nicht veröffentlichen';
 $string['noselectedcategories'] = 'Keine Kategorie wurde ausgewählt.';
 $string['noselecteditems'] = 'keine Werte ausgewählt.';
 $string['notteachererror'] = 'Diese Funktionen können nur Trainer/innen nutzen';
+$string['nousersloaded'] = 'Es wurden keine Nutzer importiert.';
 $string['numberofgrades'] = 'Anzahl der Bewertungsstufen';
 $string['onascaleof'] = 'auf einer Skala von $a->grademin bis $a->grademax';
 $string['operations'] = 'Vorgänge';
