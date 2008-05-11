@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // data.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['action'] = 'Aktion';
@@ -13,9 +13,12 @@ $string['allowcomments'] = 'Kommentare zulassen?';
 $string['allowratings'] = 'Bewertung von Beiträgen';
 $string['alttext'] = 'Alternativer Text';
 $string['approve'] = 'Zulassen';
+$string['approved'] = 'Bestätigt';
 $string['ascending'] = 'Aufsteigend';
 $string['asearchtemplate'] = 'Vorlage zur erweiterten Suche';
 $string['atmaxentry'] = 'Sie haben die Höchstzahl zulässiger Einträge erreicht!';
+$string['authorfirstname'] = 'Vorname (Autor)';
+$string['authorlastname'] = 'Nachname (Autor)';
 $string['autogenallforms'] = 'Alle Basisvorlagen anlegen';
 $string['autolinkurl'] = 'Automatische Verlinkung der URL';
 $string['availablefromdate'] = 'Verfügbar ab';
@@ -107,6 +110,8 @@ $string['filesnotgenerated'] = 'Es wurden nicht alle Dateien erzeugt: $a';
 $string['filtername'] = 'Automatische Verlinkung zur Datenbank';
 $string['footer'] = 'Fußzeile';
 $string['forcelinkname'] = 'Namenseintrag  für den Link erzwingen';
+$string['foundnorecords'] = 'Keine Einträge gefunden (<a href=\"$a->reseturl\">Filter zurücksetzen</a>)';
+$string['foundrecords'] = 'Einträge gefunden: $a->num/$a->max (<a href=\"$a->reseturl\">Filter zurücksetzen</a>)';
 $string['fromfile'] = 'aus der ZIP-Datei';
 $string['header'] = 'Kopfzeile';
 $string['headeraddtemplate'] = 'Definiert Formular zum Anlegen neuer Einträge';
@@ -173,7 +178,9 @@ $string['numnotapproved'] = 'Wartend';
 $string['numrecords'] = '$a Datensätze';
 $string['optionaldescription'] = 'Kurzbeschreibung (optional)';
 $string['optionalfilename'] = 'Dateiname (optional)';
+$string['other'] = 'Andere';
 $string['overwrite'] = 'Überschreiben';
+$string['overwritesettings'] = 'Bisherige Einträge überschreiben';
 $string['pagesize'] = 'Einträge pro Seite';
 $string['participants'] = 'Teilnehmer/innen';
 $string['picture'] = 'Bild';
@@ -214,15 +221,18 @@ $string['savesettings'] = 'Einstellungen speichern';
 $string['savesuccess'] = 'Erfolgreich gespeichert. Ihr Vorlagensatz wird ab sofort überall in dieser Installation nutzbar sein.';
 $string['savetemplate'] = 'Vorlage speichern';
 $string['search'] = 'Suche';
+$string['selectedrequired'] = 'Alle ausgewählte sind erforderlich';
 $string['sendinratings'] = 'Meine neuesten Bewertungen abschicken';
 $string['showall'] = 'Alle Einträge anzeigen';
 $string['single'] = 'Einzelansicht';
 $string['singletemplate'] = 'Vorlage für Einzelansicht';
-$string['teachersandstudents'] = '$a->Trainer/innen und $a->Teilnehmer/innen';
+$string['teachersandstudents'] = '$a->teachers und $a->students';
 $string['templates'] = 'Vorlagen';
 $string['templatesaved'] = 'Vorlage wurde gespeichert.';
 $string['text'] = 'Text';
 $string['textarea'] = 'Textbereich';
+$string['timeadded'] = 'Zeit ergänzt';
+$string['timemodified'] = 'Zeit geändert';
 $string['todatabase'] = 'in diese Datenbank';
 $string['type'] = 'Feld-Typ';
 $string['undefinedprocessactionmethod'] = 'In Data_Preset wurde keine Verarbeitungsmethode definiert für: \"$a$\".';
