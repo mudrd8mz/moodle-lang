@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // hotpot.php - created with Moodle 1.8 + (2007021503)
 
 
@@ -43,7 +43,7 @@ $string['feedbackmoodlemessaging'] = 'העברת הודעות במוודל';
 $string['feedbacknone'] = 'אף אחד';
 $string['feedbackwebpage'] = 'עמוד רשת';
 $string['filetype'] = 'סוג קובץ';
-$string['forceplugins'] = 'כפה התקני תקע למדיה';
+$string['forceplugins'] = 'כפה התקני מולטימדיה';
 $string['giveup'] = 'וותר';
 $string['hints'] = 'עצות';
 $string['hotpot:attempt'] = 'נסה לפתור בוחן';

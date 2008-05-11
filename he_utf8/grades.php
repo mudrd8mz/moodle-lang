@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // grades.php - created with Moodle 1.9 Beta + (2007081600)
 
 
@@ -94,7 +94,7 @@ $string['createcategory'] = 'צור קטגוריה';
 $string['createcategoryerror'] = 'לא ניתן ליצור קטגוריה';
 $string['creatinggradebooksettings'] = 'יוצר הגדרות גיליון ציונים';
 $string['csv'] = 'CSV';
-$string['curveto'] = 'העקם ל-';
+$string['curveto'] = 'נרמל ל-';
 $string['decimalpoints'] = 'המספר הכולל של ספרות השבר';
 $string['default'] = 'בררת מחדל';
 $string['deletecategory'] = 'מחק קטגוריה';
@@ -269,7 +269,7 @@ $string['numberofgrades'] = 'מספר הציונים';
 $string['onascaleof'] = 'בסולם של $a->grademin ל- $a->grademax';
 $string['operations'] = 'פעולות';
 $string['outcome'] = 'תוצאה';
-$string['outcomecategory'] = 'צור תוצאות בקטדוריה';
+$string['outcomecategory'] = 'צור תוצאות בקטגוריה';
 $string['outcomecategorynew'] = 'קטגוריה חדשה';
 $string['outcomecreate'] = 'הוסף תוצאה חדשה';
 $string['outcomeidhelp'] = 'התוצאה שפריט הציון מייצג';

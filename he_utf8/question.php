@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
       // question.php - created with Moodle 1.9 Beta + (2007081600)
 
 
@@ -69,7 +69,7 @@ $string['questioncatsfor'] = 'קטגוריות שאלה עבור \'$a\'';
 $string['questiondoesnotexist'] = 'שאלה זו לא קיימת.';
 $string['questionuse'] = 'השתמש בשאלה בפעילות זאת';
 $string['shareincontext'] = 'השתתף בהקשר עבור $a';
-$string['tofilecategory'] = 'כתוב את הקטדוריה לקובץ';
+$string['tofilecategory'] = 'כתוב את הקטגוריה לקובץ';
 $string['tofilecontext'] = 'כתוב את ההקשר לקובץ';
 $string['unknown'] = 'לא ידוע';
 $string['unknownquestiontype'] = 'סוג שאלה לא ידוע: $a.';
