@@ -124,7 +124,7 @@ $string['auth_ldap_ad_create_req'] = 'Impossible de créer le nouveau compte dan
 $string['auth_ldap_attrcreators'] = 'Liste des groupes ou contextes dont les membres sont autorisés à créer des attributs. Les groupes (en général, de la forme «&nbsp;cn=teachers,ou=staff,o=myorg&nbsp;») sont séparés par des points-virgules (;)';
 $string['auth_ldap_attrcreators_key'] = 'Gestionnaires d\'attributs';
 $string['auth_ldap_auth_user_create_key'] = 'Créer les utilisateurs en externe';
-$string['auth_ldap_bind_dn_key'] = 'Distinguished Name';
+$string['auth_ldap_bind_dn_key'] = 'DN (Distinguished Name)';
 $string['auth_ldap_bind_dn'] = 'Si vous souhaitez utiliser une connexion authentifiée au serveur LDAP pour chercher les utilisateurs, indiquez ici son nom de connexion. Quelque chose comme : «&nbsp;cn=ldapuser, o=Organisation, c=FR&nbsp;».';
 $string['auth_ldap_bind_pw_key'] = 'Mot de passe';
 $string['auth_ldap_bind_pw'] = 'Mot de passe pour cette connexion';
@@ -164,7 +164,7 @@ $string['auth_ldap_noconnect'] = 'Le module LDAP ne peut pas se connecter au ser
 $string['auth_ldap_noextension'] = 'Attention&nbsp;! Le module LDAP ne semble pas être installé. Veuillez vous assurer qu\'il est bien installé et activé.';
 $string['auth_ldap_objectclass_key'] = 'Classe objet';
 $string['auth_ldap_objectclass'] = 'Le filtre utilisé pour rechercher/renommer des utilisateurs. On y mettra d\'habitude quelque chose comme objectClass=posixAccount. La valeur par défaut est objectClass=*, ce qui retournera tous les objets du serveur LDAP.';
-$string['auth_ldap_opt_deref_key'] = 'Déréférencement alias';
+$string['auth_ldap_opt_deref_key'] = 'Alias de déréférencement';
 $string['auth_ldap_opt_deref'] = 'Détermine le traitement des alias durant la recherche. Veuillez sélectionner une des valeurs suivantes&nbsp;: «&nbsp;Non&nbsp;» (LDAP_DEREF_NEVER) ou «&nbsp;Oui&nbsp;» (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_passtype'] = 'Indiquer le format des mots de passe (nouveaux ou modifiés) dans le serveur LDAP.';
 $string['auth_ldap_passtype_key'] = 'Format de mot de passe';
