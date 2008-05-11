@@ -35,7 +35,7 @@ $string['removeall'] = 'Retirer tous les filtres';
 $string['removeselected'] = 'Retirer la sélection';
 $string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = 'commence par';
-$string['tablenosave'] = 'Les modifications dans le tableau ci-dessus sont enregistrés automatiquement.';
+$string['tablenosave'] = 'Les modifications dans le tableau ci-dessus sont immédiatement effectives.';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
 
