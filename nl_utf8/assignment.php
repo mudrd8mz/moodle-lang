@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (2007101509)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
 
 
 $string['allowdeleting'] = 'Verwijderen toestaan';
@@ -64,6 +64,7 @@ $string['helpupload'] = '<p>Dit type opdracht laat elke leerling toe om één of
 <p>Dit type opdracht maakt het ook voor jou mogelijk om één of meerdere bestanden van gelijk welk type te uploaden als feedback.</p>';
 $string['helpuploadsingle'] = '<p>Dit type opdracht laat elke deelnemer toe om één bestand te uploaden, van gelijk welk bestandstype.</p><p>Dit kan een bestand zijn van een tekstverwerker, een afbeelding, een website in een zip-bestand of gelijk welk type dat je je leerlingen vraagt te maken</p>';
 $string['hideintro'] = 'Verberg beschrijving voor de startdatum';
+$string['invalidid'] = 'Opdracht ID was fout';
 $string['itemstocount'] = 'Aantal';
 $string['late'] = '$a laat';
 $string['maximumgrade'] = 'Maximale cijfer';

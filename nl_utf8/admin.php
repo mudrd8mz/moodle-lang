@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -185,6 +185,7 @@ $string['configpathtoclam'] = 'Pad naar clam AV. Gewoonlijk iets als /usr/bin/cl
 $string['configpathtodu'] = 'Pad naar du. Waarschijnlijk iets als /usr/bin/du. Als je dit invult, dan zullen pagina\'s die mapinhoud tonen veel sneller openen bij mappen met veel bestanden in.';
 $string['configperfdebug'] = 'Als je dit inschakelt wordt er informatie over de performantie getoond onderaan de pagina. Je moet hiervoor het standaard thema gebruiken.';
 $string['configprotectusernames'] = 'De standaardinstelling voor forget_password.php is dat er geen hints getoond worden die het zouden mogelijk maken een gebruikersnaam of e-mailadres te raden.';
+$string['configproxybypass'] = 'Kommagescheiden lijst of (gedeeltelijke) hostnamen of IP-adressen die de proxyserver zouden moeten negeren (vb., 192.168., .mijndomein.com)';
 $string['configproxyhost'] = 'Als deze <b>server</b> een proxyserver (zoals bijvoorbeeld een firewall) nodig heeft om op het internet te komen, vul hier dan de hostname en de poort van de proxy in. Laat het veld leeg als dit niet het geval is.';
 $string['configproxypassword'] = 'Wachtwoord nodig om door een proxy op het internet te komen, leeg indien geen wachtwoord (PHP cURL extentie nodig).';
 $string['configproxyport'] = 'Als deze server een proxyserver gebruikt, zet dan hier de gebruikte poort.';
@@ -264,6 +265,8 @@ $string['cronerrorpassword'] = 'Sorry, maar je kon geen geldig wachtwoord ingeve
 $string['cronremotepassword'] = 'Cron wachtwoord voor toegang op afstand';
 $string['cronwarning'] = 'Het onderhoudsscript <a href=\"cron.php\">cron.php</a> heeft de laatste 24 uur niet gelopen.';
 $string['csvdelimiter'] = 'Scheidingsteken voor CSV';
+$string['ctyperecommended'] = 'Het installeren van de optionele ctype PHP extentie is aanbevolen om de performantie van de site te verhogen, vooral als op je site niet-latijnse talen gebruikt worden.';
+$string['ctyperequired'] = 'De ctype PHP-extentie is nu vereist in Moodle om de performantie te verhogen en om multi-talencompatibiliteit mogelijk te maken.';
 $string['curlrecommended'] = 'Het installeren van de optionele Curl bibliotheek wordt ten zeerste aangeraden om de netwerkmogelijkheden van Moodle in te schakelen';
 $string['customcheck'] = 'Andere controles';
 $string['datarootsecuritywarning'] = 'De configuratie van je site zou onveilig kunnen zijn. Zorg er voor dat je dataroot map ($a) niet toegankelijk is vanaf het internet.';
@@ -583,6 +586,7 @@ $string['profilevisibleall'] = 'Zichtbaar voor iedereen';
 $string['profilevisiblenone'] = 'Niet zichtbaar';
 $string['profilevisibleprivate'] = 'Zichtbaar voor gebruiker';
 $string['protectusernames'] = 'Bescherm gebruikersnamen';
+$string['proxybypass'] = 'Proxy bypass hosts';
 $string['proxyhost'] = 'Proxyserver';
 $string['proxypassword'] = 'Proxy wachtwoord';
 $string['proxyport'] = 'Proxy poort';

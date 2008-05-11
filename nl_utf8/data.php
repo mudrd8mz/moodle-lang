@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
+      // data.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
 
 
 $string['action'] = 'Actie';
@@ -13,9 +13,12 @@ $string['allowcomments'] = 'Commentaar geven toelaten?';
 $string['allowratings'] = 'Berichten laten beoordelen?';
 $string['alttext'] = 'Alternatieve tekst';
 $string['approve'] = 'Goedkeuren';
+$string['approved'] = 'Goedgekeurd';
 $string['ascending'] = 'Oplopend';
 $string['asearchtemplate'] = 'Sjabloon voor geavanceerd zoeken';
 $string['atmaxentry'] = 'Je hebt het maximum aantal items ingevoegd';
+$string['authorfirstname'] = 'Voornaam auteur';
+$string['authorlastname'] = 'Achternaam auteur';
 $string['autogenallforms'] = 'Genereer alle standaardsjablonen';
 $string['autolinkurl'] = 'Maak automatisch links van URL\'s';
 $string['availablefromdate'] = 'Beschikbaar van';
@@ -108,6 +111,8 @@ $string['filesnotgenerated'] = 'Niet alle bestanden werden aangemaakt: $a';
 $string['filtername'] = 'Databank automatisch linken';
 $string['footer'] = 'Voettekst';
 $string['forcelinkname'] = 'Geforceerde naam voor de link';
+$string['foundnorecords'] = 'Geen records gevonden (<a href=\"$a->reseturl\">Reset filters</a>)';
+$string['foundrecords'] = 'Gevonden records: $a->num/$a->max (<a href=\"$a->reseturl\">Reset filters</a>)';
 $string['fromfile'] = 'Van zip-bestand';
 $string['header'] = 'Koptekst';
 $string['headeraddtemplate'] = 'Definieer de interface voor het vullen van de databank';
@@ -174,7 +179,9 @@ $string['numnotapproved'] = 'Wachtend';
 $string['numrecords'] = 'Records';
 $string['optionaldescription'] = 'Korte beschrijving (optioneel)';
 $string['optionalfilename'] = 'Bestandsnaam (optioneel)';
+$string['other'] = 'Andere';
 $string['overwrite'] = 'Overschrijf';
+$string['overwritesettings'] = 'Overschrijf met huidige instellingen';
 $string['pagesize'] = 'Items per pagina';
 $string['participants'] = 'Deelnemers';
 $string['picture'] = 'Afbeelding';
@@ -215,6 +222,7 @@ $string['savesettings'] = 'Bewaar instellingen';
 $string['savesuccess'] = 'Bewaren gelukt. Je sjabloonset zal nu voor de hele site beschikbaar zijn.';
 $string['savetemplate'] = 'Bewaar sjabloon';
 $string['search'] = 'Zoek';
+$string['selectedrequired'] = 'Alle geselecteerde vereist';
 $string['sendinratings'] = 'Stuur mijn laatste beoordelingen in';
 $string['showall'] = 'Toon alles';
 $string['single'] = 'Itemweergave';
