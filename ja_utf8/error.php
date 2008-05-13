@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // error.php - created with Moodle 2.0 dev (Build: 20080513) (2008051201)
 
 
 $string['adminprimarynoedit'] = '主管理者は他のユーザから編集することはできません。';
@@ -40,6 +40,7 @@ $string['cannotfindhelp'] = '言語helpファイル「 $a 」を見つけるこ�
 $string['cannotfindinfo'] = '次の情報が見つかりません: 「 $a 」';
 $string['cannotfindlang'] = '「 $a 」言語パックが見つかりません!';
 $string['cannotfindsite'] = 'サイトレベルのコースが見つかりません。';
+$string['cannotmarktopic'] = 'このコースのトピックをマークできませんでした。';
 $string['cannotmetacourse'] = 'このメタコースに、選択したコースを追加できませんでした!';
 $string['cannotmoverolewithid'] = 'ID $a のロールを移動できません。';
 $string['cannotoverridebaserole'] = 'ベースロールのケイパビリティをオーバーライドできません。';
@@ -143,6 +144,7 @@ $string['listnochildren'] = '子アイテムが見つかりませんでした。
 $string['listnoitem'] = 'アイテムが見つかりませんでした。';
 $string['listnopeers'] = '同レベルのアイテムが見つかりませんでした。';
 $string['listupdatefail'] = 'リスト階層の編集中にデータベースエラーが発生しました。';
+$string['logfilenotavailable'] = 'ログは利用できません。';
 $string['loginasnoenrol'] = 'コース「ログイン」セッション時、あなたはユーザ登録および登録抹消することはできません。';
 $string['loginasonecourse'] = 'あなたはこのコースに入ることはできません。<br />他のコースに入る前に、現在の「ログイン」セッションを終了する必要があります。';
 $string['messagingdisable'] = 'このサイトでは、メッセージングが無効にされています。';
@@ -172,6 +174,7 @@ $string['nologinas'] = 'あなたはそのユーザとしてログインを許�
 $string['nonmeaningfulcontent'] = '意味の無いコンテンツです。';
 $string['noparticipatorycms'] = '申し訳ございません、レポートするための参加者がいるコースモジュールはありません。';
 $string['nopermissions'] = '申し訳ございません、あなたには現在「 $a 」のパーミッションがありません。';
+$string['nopermissiontoimportact'] = 'あなたには、このコースに活動をインポートするため必要なパーミッションがありません。';
 $string['nopermissiontomanagegroup'] = 'あなたには、グループを管理するため必要なパーミッションがありません。';
 $string['nopermissiontoviewpage'] = 'あなたは、このページを閲覧できません。';
 $string['nosite'] = 'サイトがありません。';
@@ -190,6 +193,7 @@ $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($
 $string['processingstops'] = 'ここで処理が停止します。残りのレコードは無視されました。';
 $string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\"$a->url\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「$a->dest」にコピーおよび解凍してください。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
+$string['reportnotavailable'] = 'このタイプのレポートは、サイトコースのみで利用できます。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を行うことができません。';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses:<br/> ($a)';
 $string['scheduledbackupsdisabled'] = 'スケジュールバックアップは、サーバ管理者により無効にされています。';
