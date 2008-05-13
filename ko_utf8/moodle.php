@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080513) (2008051201)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -352,7 +352,7 @@ $string['datechanged'] = '변경된 날짜';
 $string['datemostrecentfirst'] = '날짜-최근부터';
 $string['datemostrecentlast'] = '날짜-오래된 것부터';
 $string['day'] = '일';
-$string['days'] = '일간';
+$string['days'] = '일';
 $string['decodinginternallinks'] = '내부 링크 해독하기';
 $string['default'] = '기본값';
 $string['defaultcoursefullname'] = '강좌 전체 이름';
@@ -411,7 +411,7 @@ $string['duplicate'] = '복제';
 $string['duplicatinga'] = '$a 를 복제중';
 $string['duplicatingain'] = '$a->what 를 $a->in 에 복사중';
 $string['edhelpaspellpath'] = '맞춤법검사 기능을 이용하기위해, <strong>aspell 0.50</strong> 이 있어야 하거나 후에 서버에 설치해야 합니다. 그리고 aspell 프로그램에 접근하는 정확한 경로를 명시해야 합니다. Linix/Unix 시스템에서 이 경로는 대체로 <strong>/usr/bin/aspell</strong>이나, 그렇지  않을 때도 있습니다';
-$string['edhelpbgcolor'] = '편집창의 배경색을 결정합니다.<br />유효 한 값은 #ffffff 또는 white 등 입니다.';
+$string['edhelpbgcolor'] = '편집창의 배경색을 결정합니다.<br />유효한 값은 #ffffff 또는 white 등 입니다.';
 $string['edhelpcleanword'] = '이 설정은 특정-워드 형태의 필터링을 가능하게 하거나, 불가능하게 합니다.';
 $string['edhelpenablespelling'] = '맞춤법 검사 기능을 설정합니다. 맞춤법 검사를 활성화할 경우, <strong>aspell</strong>이 서버에 설치되어 있어야만 합니다.';
 $string['edhelpfontfamily'] = '폰트-패밀리 속성은 폰트 패밀리 명칭이나, 일반적 문자의 패밀리 명칭을 모아 놓은 목록입니다. 패밀리 명칭은 쉼표로 구분되어야 합니다.';
@@ -547,7 +547,7 @@ $string['enrolmentkeyhint'] = '등록키가 부정확합니다. 다시 입력해
 $string['enrolmentnew'] = '$a 에 새로 등록';
 $string['enrolmentnewuser'] = '$a->user 가 강좌 \"$a->course\"에 등록됨';
 $string['enrolmentnointernal'] = '아직은 수동 등록이 가능하지 않음';
-$string['enrolmentnotyet'] = '미안합니다, 당신은 $a 까지 들어갈 수 없습니다';
+$string['enrolmentnotyet'] = '미안합니다, $a 까지는 들어갈 수 없습니다.';
 $string['enrolmentplugins'] = '등록 플러그인';
 $string['enrolments'] = '등록 설정';
 $string['enrolmentstart'] = '등록 시작';
@@ -895,14 +895,14 @@ $string['missingname'] = '빠짐: 이름';
 $string['missingnewpassword'] = '빠짐: 새로운 비밀번호';
 $string['missingpassword'] = '빠짐: 비밀번호';
 $string['missingreqreason'] = '빠짐: 이유';
-$string['missingshortname'] = '빠짐: 사용자 이름';
+$string['missingshortname'] = '빠짐: 단축명';
 $string['missingshortsitename'] = '빠짐: 단축 사이트명';
 $string['missingsitedescription'] = '빠짐: 사이트 설명';
 $string['missingsitename'] = '빠짐: 사이트 이름';
 $string['missingstrings'] = '번역안된 문자열 확인';
-$string['missingstudent'] = '무엇인가 선택해야 합니다.';
+$string['missingstudent'] = '누군가를 선택해야 함';
 $string['missingsummary'] = '빠짐: 요약';
-$string['missingteacher'] = '무엇인가 선택해야 합니다.';
+$string['missingteacher'] = '누군가를 선택해야 함';
 $string['missingurl'] = '빠짐: 웹주소(URL)';
 $string['missingusername'] = '빠짐: 사용자 아이디';
 $string['modified'] = '수정됨';
@@ -1206,6 +1206,7 @@ $string['returningtosite'] = '이 웹사이트로 들어 갈까요?';
 $string['revert'] = '복구';
 $string['role'] = '역할';
 $string['rolemappings'] = '역할 배치';
+$string['rolerenaming'] = '역할명 고침';
 $string['roles'] = '역할';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'RSS로 배포할 최근 문서의 수';
