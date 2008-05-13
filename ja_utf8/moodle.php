@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080507) (2008050700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080513) (2008051201)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1141,7 +1141,7 @@ $string['pluginsetup'] = 'プラグインテーブル設定中';
 $string['policyaccept'] = '内容を理解し、同意します。';
 $string['policyagree'] = 'このサイトを継続して使用するには、使用許諾に同意する必要があります。同意しますか?';
 $string['policyagreement'] = 'サイト使用許諾';
-$string['policyagreementclick'] = 'サイト使用許諾を読む';
+$string['policyagreementclick'] = 'サイト使用許諾にリンクする';
 $string['popup'] = 'ポップアップ';
 $string['popupwindow'] = '新しいウィンドウでファイルを開く';
 $string['popupwindowname'] = 'ポップアップウィンドウ';
@@ -1228,6 +1228,7 @@ $string['returningtosite'] = 'アカウントをお持ちの方ですか?';
 $string['revert'] = 'クリア';
 $string['role'] = 'ロール';
 $string['rolemappings'] = 'ロールマッピング';
+$string['rolerenaming'] = 'ロールのリネーム';
 $string['roles'] = 'ロール';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = '最近の記事のRSS数';
