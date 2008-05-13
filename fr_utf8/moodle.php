@@ -1205,6 +1205,7 @@ $string['returningtosite'] = 'Déjà inscrit ?';
 $string['revert'] = 'Version précédente';
 $string['role'] = 'Rôle';
 $string['rolemappings'] = 'Application des rôles';
+$string['rolerenaming'] = 'Renommer les rôles';
 $string['roles'] = 'Rôles';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'Nombre d\'articles RSS récents';
