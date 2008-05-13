@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // error.php - created with Moodle 2.0 dev (Build: 20080513) (2008051201)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 수정될 수 없음';
@@ -40,6 +40,7 @@ $string['cannotfindhelp'] = '\"$a\" 언어팩의 도움말 파일을 찾을 수 
 $string['cannotfindinfo'] = '\"$a\"에 대한 정보를 찾을 수 없음';
 $string['cannotfindlang'] = '\"$a\" 언어팩을 찾을 수 없음';
 $string['cannotfindsite'] = '사이트 수준의 강좌를 찾을 수 없음';
+$string['cannotmarktopic'] = '본 강좌에서 그 주제는 표시할 수 없음';
 $string['cannotmetacourse'] = '선택한 강좌를 이 메타 강좌에 추가할 수 없음!';
 $string['cannotmoverolewithid'] = 'ID $a 의 역할을 이동할 수 없음';
 $string['cannotoverridebaserole'] = '기본 역할 권한을 위임할 수 없음';
@@ -143,6 +144,7 @@ $string['listnochildren'] = '항목의 하위를 찾지 못함';
 $string['listnoitem'] = '항목이 없음';
 $string['listnopeers'] = '항목의 동항이 없음';
 $string['listupdatefail'] = '위계 목록을 편집 중 DB 조작 실패';
+$string['logfilenotavailable'] = '기록할 수 없음';
 $string['loginasnoenrol'] = '강좌에서 타인명의로는 등록 또는 탈퇴를 할 수 없습니다.';
 $string['loginasonecourse'] = '이 강좌에 입장할 수 없습니다.<br />다른 강좌에 들어가기 전에 반드시 타인 명의로 로그인한 세션을 종료하여야 합니다.';
 $string['messagingdisable'] = '이 사이트에서는 메시지 기능을 쓸 수 없음';
@@ -172,6 +174,7 @@ $string['nologinas'] = '현재 사용자 ID로는 로그인 할 수 없음';
 $string['nonmeaningfulcontent'] = '의미없는 내용';
 $string['noparticipatorycms'] = '죄송합니다. 당신이 참여했던 보고받을 만한 강좌 모듈이 없습니다.';
 $string['nopermissions'] = '죄송합니다만 그 ($a)를 할만한 권한이 없습니다.';
+$string['nopermissiontoimportact'] = '본 강좌에 활동을 가져올 수 있는 권한이 없음';
 $string['nopermissiontomanagegroup'] = '모둠을 관리할 수 있는 권한이 없습니다.';
 $string['nopermissiontoviewpage'] = '이 화면을 보도록 허용되지 않음';
 $string['nosite'] = '사이트 없음';
@@ -190,6 +193,7 @@ $string['pluginrequirementsnotmet'] = '플러그인 \"$a->pluginname\" ($a->plug
 $string['processingstops'] = '진행이 멈췄습니다. 남은 기록은 무시됩니다.';
 $string['remotedownloaderror'] = '서버로 구성요소를 다운로드하는데 실패하였습니다. 프록시 설정을 확인하십시요. PHP cURL 확장라이브러리를 추천합니다. <br /><br /> <a href=\"$a->url\">$a->url</a> 파일을 수동으로 다운로드해서 서버의 \"$a->dest\"에 복사한 다음 거기서 압축을 해제하십시요.';
 $string['remotedownloadnotallowed'] = '서버로 구성요소를 내려받는 것이 허용되지 않습니다. (allow_url_fopen 이 비활성화 됨).<br /><br /> 수동으로 <a href=\"$a->url\">$a->url</a> 파일을 다운로드 하고, 서버의 \"$a->dest\"에 복사한 다음 거기서 압축을 해제하십시요.';
+$string['reportnotavailable'] = '사이트 수준의 강좌에서만 이 유형의 보고서를 쓸 수 있음';
 $string['restricteduser'] = '죄송합니다. 현재 당신의 \"$a\" 계정으로는 그 일을 할 수 없습니다.';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses:<br/> ($a)';
 $string['scheduledbackupsdisabled'] = '자동 백업이 서버관리자에 의해 비활성화 되었습니다.';
