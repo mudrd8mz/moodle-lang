@@ -165,6 +165,7 @@ $string['needcoursecategroyid'] = 'Un identifiant de cours ou de catégorie doit
 $string['needphpext'] = 'Vous devez ajouter à votre installation PHP le support de $a';
 $string['noadmins'] = 'Aucun administrateur&nbsp;!';
 $string['noblocks'] = 'Aucun bloc trouvé&nbsp;!';
+$string['nocategorydelete'] = 'La catégorie « $a » ne peut pas être supprimée&nbsp;!';
 $string['nocontext'] = 'Désolé, ce cours n\'est pas dans un contexte valide';
 $string['noformdesc'] = 'Aucun fichier de description de formulaire formslib trouvé pour cette activité.';
 $string['noguest'] = 'Pas d\'invité ici&nbsp;!';
