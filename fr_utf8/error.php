@@ -110,6 +110,7 @@ $string['errorcreatingfile'] = 'Erreur lors de la création du fichier «&nbsp;$
 $string['erroronline'] = 'Erreur à la ligne $a';
 $string['errorreadingfile'] = 'Erreur lors de la lecture du fichier «&nbsp;$a&nbsp;»';
 $string['errorunzippingfiles'] = 'Erreur lors de la décompression de fichiers';
+$string['errorwhenconfirming'] = 'Votre compte n\'est pas encore confirmé parce qu\'une erreur est survenue. Si pour arriver ici, vous avez cliqué sur un lien dans un courriel, assurez-vous que la ligne contenant le lien n\'a pas été coupée. Essayez de copier et coller pour reconstruire le lien correctement.';
 $string['failtoloadblocks'] = 'Un ou plusieurs blocs sont enregistrés dans la base de données, mais une erreur est survenue lors de leur chargement&nbsp;!';
 $string['fieldrequired'] = 'Le champ «&nbsp;$a&nbsp;» est obligatoire';
 $string['filemismatch'] = 'Un nom de fichier ne correspond pas. Le fichier «&nbsp;$a[0]&nbsp;» devrait être {$a[1]}{$a[2]}.php';
