@@ -92,6 +92,7 @@ $string['errorcreatingdirectory'] = 'ディレクトリ「 $a 」の作成中に
 $string['errorcreatingfile'] = 'ファイル「 $a 」の作成中にエラーが発生しました。';
 $string['erroronline'] = '$a 行目にエラーがあります。';
 $string['errorreadingfile'] = 'ファイル「 $a 」の読み取り中にエラーが発生しました。';
+$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。';
 $string['errorunzippingfiles'] = 'ファイルの解凍処理中にエラーが発生しました。';
 $string['failtoloadblocks'] = '1つまたはそれ以上のブロックがデータベースに登録されていますが、すべて読み込みに失敗しました!';
 $string['fieldrequired'] = '「 $a 」 は必須項目です。';
