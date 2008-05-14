@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080513) (2008051201)
 
 
 $string['cannotfindadmin'] = '管理ユーザが見つかりませんでした!';
@@ -16,6 +16,7 @@ $string['doesnotworkwitholdversion'] = 'このスクリプトは、この古い�
 $string['erroroccur'] = 'この処理中にエラーが発生しました。';
 $string['fixsetting'] = 'あなたのconfig.php設定を修正してください: <p>あなたは次のように設定していますが:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>実際には次のように設定する必要があります:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
 $string['nomodules'] = 'モジュールが見つかりません!!';
+$string['noreports'] = 'アクセスできるレポートはありません。';
 $string['notables'] = 'テーブルがありません!';
 $string['phpvaroff'] = 'PHPサーバ変数「 $a[0] 」をOffにしてください - $a[1]';
 $string['phpvaron'] = 'PHPサーバ変数「 $a[0] 」がOnにされていません - $a[1]';
