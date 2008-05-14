@@ -3,6 +3,9 @@
 $string['adminreport'] = 'Rapport sur les problèmes possibles dans votre banque de questions.';
 $string['broken'] = 'Ce lien est «&nbsp;cassé&nbsp;», il pointe vers un fichier inexistant.';
 $string['byandon'] = 'par <em>$a->user</em> à <em>$a->time</em>';
+$string['cannotinsert'] = 'Impossible de créer un nouvel enregistrement dans question_sessions';
+$string['cannotcreate'] = 'Impossible de créer un nouvel enregistrement dans la table question_attempts';
+$string['cannotsavequiz'] = 'Échec de la sauvegarde de la tentative actuelle à ce test&nbsp;!';
 $string['categorycurrent'] = 'Catégorie';
 $string['categorycurrentuse'] = 'Utiliser cette catégorie';
 $string['categorydoesnotexist'] = 'Cette catégorie n\'existe pas';
@@ -30,6 +33,7 @@ $string['exportcategory'] = 'Exporter catégorie';
 $string['filesareacourse'] = 'la zone des fichiers du cours';
 $string['filesareasite'] = 'la zone des fichiers du site';
 $string['filestomove'] = 'Déplacer / copier les fichiers vers $a&nbsp;?';
+$string['formquestionnotinids'] = 'Le formulaire contient une question qui n\'apparaît pas dans les identifiants de question';
 $string['fractionsnomax'] = 'L\'une des réponses doit donner un score de 100%% afin qu\'il soit possible d\'obtenir la totalité des points pour cette question.';
 $string['getcategoryfromfile'] = 'Obtenir la catégorie à partir du fichier';
 $string['getcontextfromfile'] = 'Obtenir le contexte à partir du fichier';
