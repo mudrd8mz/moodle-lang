@@ -139,6 +139,7 @@ $string['invalidpagesize'] = 'Taille de page non valide';
 $string['invalidpaymentmethod'] = 'Méthode de paiement non valide&nbsp;: $a';
 $string['invalidrequest'] = 'Requête non valide';
 $string['invalidrole'] = 'Rôle non valide';
+$string['invalidscaleid'] = 'Identifiant de barème incorrect';
 $string['invalidshortname'] = 'Le nom abrégé du cours n\'est pas valide';
 $string['invalidurl'] = 'URL non valide';
 $string['invaliduser'] = 'Utilisateur non valide';
