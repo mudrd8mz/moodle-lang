@@ -138,6 +138,7 @@ $string['invalidevent'] = 'Événement non valide';
 $string['invalidfieldname'] = '«&nbsp;$a&nbsp;» n\'est pas un nom de champ valide';
 $string['invalidfiletype'] = '«&nbsp;$a&nbsp;» n\'est pas un type de fichier valide';
 $string['invalidformatpara'] = 'Format incorrect pour le paramètre à choisir';
+$string['invalidgradeitmeid'] = 'Identifiant d\'élément d\'évaluation incorrect';
 $string['invalidgroupid'] = 'Identifiant de groupe incorrect.';
 $string['invalidipformat'] = 'Format d\'adresse IP non valide';
 $string['invaliditemid'] = 'Identifiant d\'élément incorrect&nbsp;!';

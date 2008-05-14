@@ -16,6 +16,7 @@ $string['doesnotworkwitholdversion'] = 'Ce script ne fonctionne pas avec cette a
 $string['erroroccur'] = 'Une erreur est survenue durant cette procédure';
 $string['fixsetting'] = 'Veuillez corriger vos réglages dans le fichier config.php. <p>Vous avez&nbsp;:</p> <p>\$CFG->dirroot = \"$a[0]\";</p> <p>alors qu\'il devrait y avoir</p> <p>\$CFG->dirroot = \"$a[1]\"</p>';
 $string['nomodules'] = 'Aucun module trouvé&nbsp;!';
+$string['noreports'] = 'Aucun rapport accessible';
 $string['notables'] = 'Pas de tables&nbsp;!';
 $string['phpvaroff'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP devrait être sur Off - $a[1]';
 $string['phpvaron'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP n\'set pas sur On - $a[1]';
