@@ -3,8 +3,8 @@
 $string['adminreport'] = 'Rapport sur les problèmes possibles dans votre banque de questions.';
 $string['broken'] = 'Ce lien est «&nbsp;cassé&nbsp;», il pointe vers un fichier inexistant.';
 $string['byandon'] = 'par <em>$a->user</em> à <em>$a->time</em>';
-$string['cannotinsert'] = 'Impossible de créer un nouvel enregistrement dans question_sessions';
 $string['cannotcreate'] = 'Impossible de créer un nouvel enregistrement dans la table question_attempts';
+$string['cannotinsert'] = 'Impossible de créer un nouvel enregistrement dans question_sessions';
 $string['cannotsavequiz'] = 'Échec de la sauvegarde de la tentative actuelle à ce test&nbsp;!';
 $string['categorycurrent'] = 'Catégorie';
 $string['categorycurrentuse'] = 'Utiliser cette catégorie';
