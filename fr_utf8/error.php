@@ -47,6 +47,7 @@ $string['cannotmapfield'] = 'Collision détectée, 2 champs correspondent au mê
 $string['cannotmarktopic'] = 'Impossible de marquer cette section comme actuelle dans ce cours';
 $string['cannotmetacourse'] = 'Impossible d\'ajouter le cours sélectionné à ce méta-cours&nbsp;!';
 $string['cannotmoverolewithid'] = 'Impossible de déplacer le rôle d\'identifiant $a';
+$string['cannotnetgeo'] = 'Connexion impossible au serveur NetGeo à l\'adresse http://netgeo.caida.org/. Veuillez vérifier les réglages du proxy, ou, mieux encore, installer un fichier de données MaxMind GeoLite City.';
 $string['cannotopencsv'] = 'Impossible d\'ouvrir le fichier CSV';
 $string['cannotoverridebaserole'] = 'Impossible de définir des dérogations sur les capacités des rôles de base';
 $string['cannotreadfile'] = 'Impossible de lire le fichier';
