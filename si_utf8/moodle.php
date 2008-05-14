@@ -1,6 +1,4 @@
-<?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080420) (2008030700)
-
+<?php
 
 $string['abouttobeinstalled'] = 'ස්ථාපනය සඳහා සූදානම්';
 $string['action'] = 'ක්‍රියාව';
@@ -1553,7 +1551,17 @@ $string['yourlastlogin'] = 'ඔබගේ අවසාන සබඳ වීම ව
 $string['yourself'] = 'ඔබම';
 $string['yourteacher'] = 'ඔබගේ $a';
 $string['zippingbackup'] = 'උපස්ථය  සිප් කිරීම';
-$string['nostatstodisplay'] = 'කණගාටුයි! මෙහි පෙන්වීම සඳහා දත්ත නොමැත.'; // ORPHANED
-$string['skiptomaincontent'] = 'ප්‍රධාන අන්තර්ගතය මගහැර ඉදිරියට යන්න'; // ORPHANED
+$string['nostatstodisplay'] = 'කණගාටුයි! මෙහි පෙන්වීම සඳහා දත්ත නොමැත.';
+$string['skiptomaincontent'] = 'ප්‍රධාන අන්තර්ගතය මගහැර ඉදිරියට යන්න';
+$string['categorycontents'] = 'අපර ප්‍රවර්ග හා පාඨමාලාවන්';
+$string['categorycurrentcontents'] = '$a හි අන්තර්ගතය';
+$string['categorymodifiedcancel'] = 'ප්‍රවර්ගය වෙනස්කරන ලදි! කරුණාකර අවලංගු කර නැවත උත්සහ කරන්න.';
+$string['coursecategorydeleted'] = 'මකාදමන ලද $a පාඨමාලා ප්‍රවර්ගය';
+$string['coursedeleted'] = 'මකාදමන ලද $a පාඨමාලාව';
+$string['coursesmovedout'] = 'පාඨමාලාවන් $a ගෙන් ඉවතට ගෙන ඇත';
+$string['deletecategory'] = 'පාඨමාලා ප්‍රවර්ගය මකා දමන්න: $a';
+$string['deletecategorycheck2'] = 'ොබ මෙම ප්‍රවර්ගය මකා දැමුවහොත්, එහි අඩංගු අපර ප්‍රවර්ග හා පාඨමාලාවන්ට කළ යුත්තේ කුමක්දැයි තේරිය යුතුය.';
+$string['movecategorycontentto'] = 'වෙත ගෙන යන්න';
+$string['rolerenaming'] = 'භූමිකා යළි නම් කිරීම';
 
 ?>
