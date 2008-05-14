@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080514) (2008051201)
 
 
 $string['cannotfindadmin'] = '관리자가 없음!';
@@ -16,6 +16,7 @@ $string['doesnotworkwitholdversion'] = '무들의 예전 판에서는 이 스크
 $string['erroroccur'] = '현재의 과정에서 오류가 발생함';
 $string['fixsetting'] = 'config.php의 설정을 조절하십시오. <p>현재설정</p> <p>$CFG->dirroot = \"$a[0]\"; 를</p> <p>$CFG->dirroot = \"$a[1]\" 로 바꾸어야 합니다</p>';
 $string['nomodules'] = '모듈이 없음!';
+$string['noreports'] = '어떤 보고서에도 접근할 수 없음';
 $string['notables'] = '테이블 없음!';
 $string['phpvaroff'] = 'PHP서버의 변수 \'$a[0]\'는  off되어야 함 -   $a[1]';
 $string['phpvaron'] = 'PHP서버의 변수 \'$a[0]\'가 On 이 아님 -   $a[1]';

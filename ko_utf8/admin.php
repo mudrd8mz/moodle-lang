@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080514) (2008051201)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -129,7 +129,7 @@ $string['configfrontpageloggedin'] = '위에서 선택된 항목은 이용자가
 $string['configfullnamedisplay'] = '이것은 전체 이름을 표시하는 방법을 정의하는 것이다. 대부분의 한 언어만 쓰는 사이트에서는 기본값인 \"이름+성\"으로도 충분하지만, 다양한 언어팩을 쓰는 경우 특히 성이나 이름이 매우 긴 경우에는 이름을 보이지 않게 하거나 성을 보이지 않게 설정할 수도 있다.';
 $string['configgdversion'] = '설치된 GD 버전을 보여준다. 여기에 표시된 버전은 자동으로 검출된 것이다. 정확한 내용을 알지 못한다면 가급적 바꾸지 말기 바란다.';
 $string['configgeoipfile'] = 'GeoIP City의 이진 데이터가 있는 위치. 이 파일은 무들 배포본에 포함된 것이 아니며 <a href=\"http://www.maxmind.com/\">MaxMind</a>에서 개별적으로 얻어야만 하는 것이다. 상용 정식판을 구매할 수도 있고 공개판을 이용할 수도 있다. 간단히 <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>을 내려받아 서버의 \"$a\" 경로에 풀어 넣으면 된다.';
-$string['configgooglemapkey'] = 'IP주소의 위치를 찾기 위해 구글맵을 이용하려면 특별한 암호가 필요하다. 이는 <a href=\"http://code.google.com/apis/maps/signup.html\">http://code.google.com/apis/maps/signup.html< /a>에서 무료로 얻을 수 있다. <br />현재 이 곳의 웹주소는 $a 로 되어 있다.';
+$string['configgooglemapkey'] = 'IP주소의 위치를 찾기 위해 구글맵을 이용하려면 특별한 암호가 필요하다. 이는 <a href=\"http://code.google.com/apis/maps/signup.html\" >http://code.google.com/apis/maps/signup.html</a> 에서 무료로 얻을 수 있다. <br />현재 이 곳의 웹주소는 $a 로 되어 있다.';
 $string['configgradebookroles'] = '이 설정은 성적표에 표시될 사람을 조정할 수 있게 한다. 강좌의 성적표에 표시되려면 이용자는 최소한 다음 중 하나의 역할이 되어야 한다.';
 $string['configgradeexport'] = '성적을 내보낼 때 우선적으로 사용할 성적표 형식을 선택하라. 선택된 플러그인이 설정된 후에는 추후 모든 성적의 \"최근 내보냄\" 항목으로 이용될 것이다. 예를 들면 내보내기 한 레코드들은 \"새로운\" 혹은 \"새로고침\"된 것으로 간주될 것이다. 확신이 들지 않으면 모든 것을 비워 두어라.';
 $string['configguestroleid'] = '이 역할은 손님계정에 자동으로 부여되는 것이다. 방문이 허용된 강좌에 참여한 비등록 이용자에게도 한시적으로 적용된다. moodle/legacy:guest 및 moodle/course:view 권한이 부여되어 있는지 확인하라.';

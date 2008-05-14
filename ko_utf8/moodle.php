@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080513) (2008051201)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080514) (2008051201)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -189,8 +189,11 @@ $string['cancelled'] = '취소됨';
 $string['categories'] = '강좌 범주';
 $string['category'] = '범주';
 $string['categoryadded'] = '범주 \'$a\' 가 추가됨';
+$string['categorycontents'] = '강좌 및 범주목록';
+$string['categorycurrentcontents'] = '$a 목록';
 $string['categorydeleted'] = '범주 \'$a\' 가 삭제됨';
 $string['categoryduplicate'] = '이미 범주명 \'$a\' 존재함!';
+$string['categorymodifiedcancel'] = '범주가 변경되었음! 취소하고 다시 시도하시기 바랍니다.';
 $string['categoryname'] = '범주명';
 $string['categoryupdated'] = '범주 \'$a\'가 갱신되었음';
 $string['changedpassword'] = '변경된 비밀번호';
@@ -267,8 +270,10 @@ $string['courseavailablenot'] = '학생 이용 불가능';
 $string['coursebackup'] = '강좌 백업';
 $string['coursecategories'] = '강좌 목록';
 $string['coursecategory'] = '강좌 범주';
+$string['coursecategorydeleted'] = '삭제된 강좌 범주 $a';
 $string['coursecreators'] = '강좌 생성자';
 $string['coursecreatorsdescription'] = '강좌 생성자는 새로운 과정을 개설하여 가르칠 수 있습니다.';
+$string['coursedeleted'] = '삭제된 강좌 $a';
 $string['courseenrolenddate'] = '강좌 출석 종료일';
 $string['courseenrolstartdate'] = '강좌 출석 시작일';
 $string['coursefiles'] = '강좌 파일';
@@ -297,6 +302,7 @@ $string['courserequestsuccess'] = '개설 신청 저장 성공. 며칠안에 그
 $string['courserestore'] = '강좌 복원';
 $string['courses'] = '강좌';
 $string['coursescategory'] = '동일 범주의 강좌';
+$string['coursesmovedout'] = '$a 에서 강좌 옮겨짐';
 $string['coursespending'] = '유보되었던 강좌 승인';
 $string['coursestaught'] = '담당 강좌';
 $string['courseupdates'] = '강좌 업데이트';
@@ -369,7 +375,9 @@ $string['delete'] = '삭제';
 $string['deleteall'] = '전부 삭제';
 $string['deleteallcomments'] = '모든 코멘트를 삭제';
 $string['deleteallratings'] = '모든 등급을 삭제';
+$string['deletecategory'] = '$a 범주 삭제';
 $string['deletecategorycheck'] = '<b>\'$a\'<b/> 범주를 완전히 삭제하시겠습니까? 상위 범주로 모든 코스가 이동하거나 다른 장소로 이동됩니다.';
+$string['deletecategorycheck2'] = '이 범주를 삭제하려면, 그 속에 있는 강좌와 범주를 어떻게 할 것인가를 선택해야 합니다.';
 $string['deletecheck'] = '$a 를 지울까요?';
 $string['deletecheckfiles'] = '이 파일을 지우는 것이 확실합니까?';
 $string['deletecheckfull'] = '$a 파일을 지우는 것이 확실합니까?';
@@ -920,6 +928,7 @@ $string['moreinformation'] = '이 오류에 대한 추가 정보';
 $string['moreprofileinfoneeded'] = '추가 신상 명세';
 $string['mostrecently'] = '가장 최근';
 $string['move'] = '옮기기';
+$string['movecategorycontentto'] = '옮겨감';
 $string['movecategoryto'] = '범주를 다음으로 옮김 :';
 $string['movecourseto'] = '강좌를 다음으로 옮김 :';
 $string['movedown'] = '아래로 옮김';

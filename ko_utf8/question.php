@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // question.php - created with Moodle 2.0 dev (Build: 20080514) (2008051201)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제점 보고서';
 $string['broken'] = '존재하지 않는 파일로 연결된 \"깨진 링크\"입니다.';
 $string['byandon'] = '<em>$a->user</em>가 <em>$a->time</em>에';
+$string['cannotcreate'] = 'question_attempts 테이블에 새 항목을 생성할 수 없음';
+$string['cannotinsert'] = 'question_sessions에 삽입할 수 없음';
+$string['cannotsavequiz'] = '현재의 퀴즈 시도를 저장하는 데 실패!';
 $string['categorycurrent'] = '현재 범주';
 $string['categorycurrentuse'] = '이 범주를 사용';
 $string['categorydoesnotexist'] = '존재하지 않는 범주';
@@ -19,10 +22,12 @@ $string['cwrqpfsinfo'] = '<p>무들 1.9판으로 판올림하는 과정에서 �
 $string['cwrqpfsnoprob'] = '여러분의 사이트에는 소위 \"하위 범주에서 문제를 추출한 무작위 문항\" 때문에 생기는 문제점이 발견되지 않았습니다.';
 $string['defaultfor'] = '$a 의 기본설정';
 $string['defaultinfofor'] = '문항의 기본 범주는 하위 범주 \'$a\'로 공유되었습니다.';
+$string['deletecoursecategorywithquestions'] = '문제은행에 본 강좌의 범주와 연계된 문항들이 있습니다. 계속 진행하게 되면 이들이 삭제될 것입니다. 뭉항들을 이동시키고 싶으면 문제은행의 인터페이스를 사용하기 바랍니다.';
 $string['donothing'] = '파일을 복사/이동시키거나 링크를 변경시키지 마십시오.';
 $string['editingcategory'] = '범주 편집';
 $string['editingquestion'] = '질문 편집';
 $string['erroraccessingcontext'] = '항목에 접속할 수 없음';
+$string['errordeletingquestionsfromcategory'] = '$a 범주에 있는 문항 삭제 중 오류 발생';
 $string['errorfilecannotbecopied'] = '$a 복사 오류';
 $string['errorfilecannotbemoved'] = '$a 이동 오류';
 $string['errorfileschanged'] = '문제가 제시된 후 문항에 연결된 파일의 링크가 변경된 오류';
@@ -42,6 +47,7 @@ $string['missingimportantcode'] = '본 문항 유형은 다음과 같은 주요 
 $string['modified'] = '수정됨';
 $string['move'] = '$a 에서 이동되어 링크가 변경';
 $string['movecategory'] = '범주 이동';
+$string['movedquestionsandcategories'] = '$a->oldplace 에서 $a->newplace 로 이동된 문항 및 범주';
 $string['movelinksonly'] = '링크의 연결점만 변경시키고 파일을 복사하거나 이동시키지 마십시오.';
 $string['moveq'] = '문항 이동';
 $string['moveqtoanothercontext'] = '다른 항목으로 문항 이동';
@@ -63,8 +69,12 @@ $string['permissionto'] = '권한 :';
 $string['published'] = '공개됨';
 $string['questionaffected'] = '본 문항의 범주에는 <a href=\"$a->qurl\">문제 \"$a->name\" ($a->qtype)</a>가 있는데, 다른 강좌인 \"$a->coursename\"의 <a href=\"$a->qurl\">퀴즈 \"$a->quizname\"</a>에서 쓰이고 있습니다.';
 $string['questionbank'] = '문제은행';
+$string['questioncategory'] = '문항 범주';
 $string['questioncatsfor'] = '\'$a\'의 문항 범주';
-$string['questiondoesnotexist'] = '이 문항은 존재하지 않습니다.';
+$string['questiondoesnotexist'] = '이 문항은 존재하지 않음';
+$string['questionsmovedto'] = '사용중인 문항이 상위 강좌 범주의 \"$a\"로 이동됨';
+$string['questionsrescuedfrom'] = '$a 컨텍스트로부터 문항 저장됨';
+$string['questionsrescuedfrominfo'] = '이 문항들은 (어떤 것들은 감추어져 있을지 모르지만) 다른 활동 또는 퀴즈에서 여전히 쓰이고 있기 때문에 비록 컨텍스트 $a 가 삭제됬다 하더라도 여전히 남아 있습니다.';
 $string['questionuse'] = '이 활동에 질문 사용';
 $string['shareincontext'] = '하위 범주 $a 와 공유';
 $string['tofilecategory'] = '파일에 범주 기입';
