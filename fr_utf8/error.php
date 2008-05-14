@@ -133,6 +133,7 @@ $string['invalidmd5'] = 'Le code de contrôle md5 n\'est pas valide';
 $string['invalidmodule'] = 'Module non valide';
 $string['invalidmoduleid'] = 'Identifiant de module non valide';
 $string['invalidmodulename'] = 'Nom de module non valide&nbsp; $a';
+$string['invalidoutcome'] = 'Identifiant d\'objectif incorrect';
 $string['invalidpagesize'] = 'Taille de page non valide';
 $string['invalidpaymentmethod'] = 'Méthode de paiement non valide&nbsp;: $a';
 $string['invalidrequest'] = 'Requête non valide';
