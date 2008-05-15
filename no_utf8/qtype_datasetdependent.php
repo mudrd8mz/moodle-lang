@@ -1,0 +1,46 @@
+<?PHP // $Id$ 
+      // qtype_datasetdependent.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+$string['additem'] = 'Legg til element';
+$string['atleastonerealdataset'] = 'Vi savner i det minste ett reelt datasett i spørsmålsteksten.';
+$string['atleastonewildcard'] = 'Vi savner  det minste en variabel i svarformelen eller spørsmålsteksten';
+$string['calcdistribution'] = 'Distribusjon';
+$string['calclength'] = 'Desimalplasser';
+$string['calcmax'] = 'Maksimum';
+$string['calcmin'] = 'Minimum';
+$string['dataitemdefined'] = 'med $a numeriske verdier allerede definert er tilgjengelige';
+$string['datasetrole'] = 'Variabelen <strong>{x..}</strong> vil bli erstattet av en numerisk verdi fra datasettet';
+$string['deletelastitem'] = 'Slett siste element';
+$string['existingcategory1'] = 'en bokstav fra allerede eksisterende bokstavsett som også brukes av andre spørsmål i denne kategorien.';
+$string['existingcategory2'] = 'en fil fra et allerede eksisterende sett av filer som også benyttes av andre spørsmål i denne kategorien';
+$string['existingcategory3'] = 'en lenke fra et allerede eksisterende sett av lenker som også brukes av andre spørsmål i denne kategorien';
+$string['forceregeneration'] = 'tving regenerering';
+$string['getnextnow'] = 'Hent nytt \'Legg til element\' nå';
+$string['item(s)'] = 'element(er)';
+$string['itemno'] = 'Element $a';
+$string['itemscount'] = 'Elementer<br />Antall';
+$string['itemtoadd'] = 'Elementer å legge til';
+$string['keptcategory1'] = 'en bokstav fra samme kategori gjenbrukbare sett av bokstaver som tidligere';
+$string['keptcategory2'] = 'en fil fra samme kategori gjenbrukbare sett av filer som tidligere';
+$string['keptcategory3'] = 'en lenke fra samme kategori gjenbrukbare sett av lenker som tidligere';
+$string['keptlocal1'] = 'en bokstav fra samme private spørsmålssett av bokstaver som tidligere';
+$string['keptlocal2'] = 'en fil fra samme private spørsmålssett av filer som tidligere';
+$string['keptlocal3'] = 'en lenke fra samme private spørsmålssett av lenker som tidligere';
+$string['lastitem(s)'] = 'siste element';
+$string['loguniform'] = 'Loguniform';
+$string['minmax'] = 'Verdiskala';
+$string['newcategory1'] = 'en bokstav fra et nytt sett av bokstaver som også an brukes av andre spørsmål i denne kategorien';
+$string['newcategory2'] = 'en fil fra et nytt sett av filer som også an brukes av andre spørsmål i denne kategorien';
+$string['newcategory3'] = 'en lenke fra et nytt sett av lenker som også an brukes av andre spørsmål i denne kategorien';
+$string['newlocal1'] = 'en bokstav fra et nytt sett av bokstaver som bare vil bli brukt i dette spørsmålet';
+$string['newlocal2'] = 'en fil fra et nytt sett av filer som bare vil bli brukt i dette spørsmålet';
+$string['newlocal3'] = 'en lenke fra et nytt sett av lenker som bare vil bli brukt i dette spørsmålet';
+$string['nodataset'] = 'ingenting - det er ikke noen variabel';
+$string['param'] = 'Param {<strong>$a</strong>}';
+$string['replacewithrandom'] = 'Erstatt med en tilfeldig verdi';
+$string['reuseifpossible'] = 'gjenbruk forrige verdi dersom finnes';
+$string['sharedwildcard'] = 'Delt variabel';
+$string['sharedwildcards'] = 'Delte variabler';
+$string['uniform'] = 'Uniform';
+$string['updatedatasetparam'] = 'Oppdater parameterne for datasettet';
+$string['youmustaddatleastoneitem'] = 'Du må legge til minst ett datasett før du kan lagre dette spørsmålet.';
+?>

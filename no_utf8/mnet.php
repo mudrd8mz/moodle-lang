@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
-
-
+      // mnet.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (egensignert)';
 $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (signert)';
 $string['RPC_HTTP_PLAINTEXT'] = 'HTTP ukryptert';
@@ -42,6 +40,12 @@ $string['enrolcourses_desc'] = 'Kurs for fjernpåmelding som tilbys av denne ver
 $string['enrollingincourse'] = 'Melder på i kurset $a[0] på verten $a[1]<br />';
 $string['enrolments'] = 'påmeldinger';
 $string['enterausername'] = 'Vennligst skriv inn et brukernavn, eller en liste med brukernavn adskilt av komma.';
+$string['error7020'] = 'Denne feilen oppstår normalt hvis den andre siten har opprettet en oppføring til deg med feil wwwroot, f.eks. glemt \'www\' i adressen. Du bør kontakte administratoren på den andre siten med info om korrekt adresse (den i config.php).';
+$string['error7022'] = 'Meldingen du sendte til den andre siten var kryptert, men ikke signert. Dette er ganske  uvanlig; du bør melde dette som en bug - vennligst ta med så mye info som mulig.';
+$string['error7023'] = 'Den andre siten har forsøkt å dekryptere meldingen med nøkkelinformasjonen fra din site - men mislykkes. Dette kan trolig fikses ved å manuelt endre nøkkel på begge sitene. Dette bør ikke skje så sant dere ikke har  hatt noen kommunikasjon mellom sitene på noen måneder.';
+$string['error7024'] = 'Du sendte en ukryptert melding til den andre siten, men dette ble ikke akseptert. Dette er ganske uvanlig - vennligst rapporter dette som en bug til Moodle.org. Ta med så mye info som mulig.';
+$string['error7026'] = 'Nøkkelen du signerte meldingen med er forskjellig fra nøkkelen den andre serveren har fått fra deg tidligere. Vennligst endre nøkkelen manuelt på begge sitene.';
+$string['error709'] = 'Den andre siten mislykkes i å motta en SSL-nøkkel fra deg.';
 $string['expired'] = 'Denne nøkkelen utløp';
 $string['expires'] = 'Gyldig til';
 $string['expireyourkey'] = 'Slett denne nøkkelen';
@@ -94,6 +98,7 @@ $string['mnetlog'] = 'Logger';
 $string['mnetpeers'] = 'Andre verter';
 $string['mnetservices'] = 'Tjenester';
 $string['mnetsettings'] = 'Moodle Nettverk innstillinger';
+$string['mnetthemes'] = 'Design';
 $string['moodle_home_help'] = 'Stien til Moodles startside på fjernverten, f.eks. www.eksempel.no/moodle';
 $string['moodleloc'] = 'Moodle-plassering';
 $string['net'] = 'Nettverk';
@@ -161,6 +166,7 @@ $string['subscribe'] = 'Abonner';
 $string['system'] = 'System';
 $string['testtrustedhosts'] = 'Sjekk en adresse';
 $string['testtrustedhostsexplain'] = 'Skriv inn en IP-adresse for å sjekke om dette er en godkjent vert.';
+$string['themesavederror'] = 'Det oppstod en feil. Design-endringen ble ikke lagret';
 $string['transport_help'] = 'Disse innstillingene er resiproke, du kan derfor kun tvinge en fjernvert til å benytte et signert SSL sertifikat dersom din egen server har det samme.';
 $string['trustedhosts'] = 'XML-RPC verter';
 $string['trustedhostsexplain'] = '<p>Oppsettet med godkjente verter tillater valgte servere å utføre kall via XML-RPC til alle deler av din Moodle-API. Dette gjør at egne script kan styre din Moodles oppførsel og kan derfor være meget risikabelt å aktivisere. Er du i tvil - la den være av.</p>
@@ -180,5 +186,4 @@ $string['wrong-ip'] = 'IP-adressen din samsvarer ikke med den adressen vi har i 
 $string['xmlrpc-missing'] = 'Du må ha XML-RPC installert i PHP for å kunne bruke denne funksjonaliteten.';
 $string['yourhost'] = 'Din vert';
 $string['yourpeers'] = 'Andre Moodle- verter';
-
 ?>
