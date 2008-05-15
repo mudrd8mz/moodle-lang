@@ -1,40 +1,26 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.8.2+ (2007021520)
+      // question.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['adminreport'] = '报告试题库中的可能的问题';
-$string['categorydoesnotexist'] = '该类别不存在';
-$string['changepublishstatuscat'] = '课程\"{$a->coursename}\"中<a href=\"$a->caturl\">类别\"{$a->name}\"</a>可以将共享状态<strong>{$a->changefrom} 改变为 {$a->changeto}</strong> .{$a}';
-$string['cwrqpfs'] = '从子类别中随机选择试题。';
-$string['cwrqpfsinfo'] = '<p>在升级到1.9版后，我们将试题类别分离到不同的情境中。一些试题类别和试题将必须改变共享状态。在测验中如果存在从共享和不共享类别中选择的一个或多个随机试题这种情况，这种情况很少发生。而常发生在子类别和一个或多个子类别中有与父类别共享状态不同时。</p>';
-$string['cwrqpfsnoprob'] = '由于没有子类别，所以从子类别中随机选择试题受到印象。';
-$string['editingquestion'] = '编辑一道试题';
-$string['fractionsnomax'] = '其中的一个答案应该是100%%，这样这道题才能拿到满分。';
-$string['missingimportantcode'] = '该试题类型缺少重要代码{$a}。';
-$string['noprobs'] = '在试题库中未发现试题。';
-$string['notenoughdatatoeditaquestion'] = '试题id、类别id和试题类型都没指定。';
-$string['published'] = '共享';
-$string['questionbank'] = '试题库';
-$string['questiondoesnotexist'] = '该试题不存在';
-$string['unknownquestiontype'] = '未知的试题类型：{$a}';
-$string['unpublished'] = '不共享';
-
-	  //翻译者：况亮
-	  //Email：kuangliang12345@163.com
-	  //Moodle 1.9 2008/04
-
 $string['broken'] = '这时一个“坏链接”，它指向一个不存在的文件。';
 $string['byandon'] = '<em>$a->user</em>|<em>$a->time</em>';
 $string['categorycurrent'] = '当前类别';
 $string['categorycurrentuse'] = '使用该类别';
+$string['categorydoesnotexist'] = '该类别不存在';
 $string['categorymoveto'] = '保存在类别中';
+$string['changepublishstatuscat'] = '课程“{$a->coursename}”中<a href=\"$a->caturl\">类别“{$a->name}”</a>可以将共享状态从<strong>{$a->changefrom}</strong>改变为<strong>{$a->changeto}</strong>。';
 $string['copy'] = '从{$a}复制并且更改链接。';
 $string['created'] = '已创建';
 $string['createdmodifiedheader'] = '创建/上次保存';
+$string['cwrqpfs'] = '从子类别中随机选择试题。';
+$string['cwrqpfsinfo'] = '<p>在升级到1.9版后，我们将试题类别分离到不同的情境中。一些试题类别和试题将必须改变共享状态。在测验中如果存在从共享和不共享类别中选择的一个或多个随机试题这种情况，这种情况很少发生。而常发生在子类别和一个或多个子类别中有与父类别共享状态不同时。</p>';
+$string['cwrqpfsnoprob'] = '由于没有子类别，所以从子类别中随机选择试题受到印象。';
 $string['defaultfor'] = '默认{$a}';
 $string['defaultinfofor'] = '课程：{$a}中共享的默认题目类型。';
 $string['donothing'] = '不要复制或移动文件或更改链接。';
 $string['editingcategory'] = '编辑一个类别';
+$string['editingquestion'] = '编辑一道试题';
 $string['erroraccessingcontext'] = '无法访问上下文';
 $string['errorfilecannotbecopied'] = '无法复制文件{$a}';
 $string['errorfilecannotbemoved'] = '无法移动文件{$a}';
@@ -43,12 +29,14 @@ $string['exportcategory'] = '导出类别';
 $string['filesareacourse'] = '课程文件区';
 $string['filesareasite'] = '站点文件区';
 $string['filestomove'] = '移动/复制文件到{$a}？';
+$string['fractionsnomax'] = '其中的一个答案应该是100%%，这样这道题才能拿到满分。';
 $string['getcategoryfromfile'] = '从文件中获得类别';
 $string['getcontextfromfile'] = '从文件中获得上下文';
 $string['ignorebroken'] = '忽略坏链接';
 $string['linkedfiledoesntexist'] = '链接文件{$a}不存在';
 $string['makechildof'] = '“{$a}”的子文件';
 $string['maketoplevelitem'] = '移动至顶层';
+$string['missingimportantcode'] = '该试题类型缺少重要代码{$a}。';
 $string['modified'] = '最后保存';
 $string['move'] = '从{$a}移动并更改链接';
 $string['movecategory'] = '移动类别';
@@ -63,17 +51,24 @@ $string['movingquestionsandfiles'] = '确定移动试题{$a->questions} 至<stro
 $string['movingquestionsnofiles'] = '确定移动试题{$a->questions}至<strong>\"{$a->tocontext}\"</strong>吗?<br /> 在{$a->fromareaname}中没有任何文件链接到这些试题。';
 $string['needtochoosecat'] = '移动这些试题需要选择一种类别或点击“取消”。';
 $string['nopermissionadd'] = '无权限在此添加试题。';
+$string['noprobs'] = '在试题库中未发现试题。';
+$string['notenoughdatatoeditaquestion'] = '试题id、类别id和试题类型都没指定。';
 $string['notenoughdatatomovequestions'] = '如果想移动您需要提供试题的试题ID。';
 $string['permissionedit'] = '编辑试题';
 $string['permissionmove'] = '移动试题';
 $string['permissionsaveasnew'] = '以新试题形式保存';
 $string['permissionto'] = '有权限做：';
+$string['published'] = '共享';
 $string['questionaffected'] = '<a href=\"$a->qurl\">试题\"$a->name\" ($a->qtype)</a> 在该试题类别中，但是正在其他课程的<a href=\"$a->qurl\">测验\"$a->quizname\"</a> \"$a->coursename\"中使用。';
+$string['questionbank'] = '试题库';
 $string['questioncatsfor'] = '{$a}的试题类别';
+$string['questiondoesnotexist'] = '该试题不存在';
 $string['questionuse'] = '在该活动中使用试题';
 $string['shareincontext'] = '{$a}中共享';
 $string['tofilecategory'] = '撰写类别至文件';
 $string['tofilecontext'] = '撰写上下文至文件';
 $string['unknown'] = '未知';
+$string['unknownquestiontype'] = '未知的试题类型：{$a}';
+$string['unpublished'] = '不共享';
 
 ?>

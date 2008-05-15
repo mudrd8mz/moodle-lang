@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 (2007021501)
+      // enrol_authorize.php - created with Moodle 1.9 + (Build: 20080320) (2007101509)
 
 
 $string['adminacceptccs'] = '接受哪种信用卡？';
@@ -74,7 +74,7 @@ $string['avsu'] = '地址信息不能获取';
 $string['avsw'] = '9位邮政编码匹配，地址不匹配';
 $string['avsx'] = '地址和9位邮政编码都匹配';
 $string['avsy'] = '地址和5位邮政编码都匹配';
-$string['avsz'] = '5位邮政编码匹配可以归还给{$a->upto}，地址不匹配';
+$string['avsz'] = '5位邮政编码匹配，地址不匹配';
 $string['canbecredit'] = '可以归还给{$a->upto}';
 $string['cancelled'] = '取消';
 $string['capture'] = '获取';
@@ -155,8 +155,7 @@ $string['pendingordersemailteacher'] = '亲爱的老师，
 
 $a->pending 交易花费$a->currency $a->sumcost 课程的 \"$a->course\"
 将期满除非您可以在$a->days天内支付。';
-$string['pendingorderssubject'] = '$a->url
-警告：$a->course, $a->pending 定制将在$a->days天内期满。';
+$string['pendingorderssubject'] = '警告：$a->course, $a->pending 定制将在{$a->days天}内期满。';
 $string['reason11'] = '一个交易备份已经被提交';
 $string['reason13'] = '商业登陆ID有问题或帐号不正确';
 $string['reason16'] = '没有找到交易';
