@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080514) (2008051201)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080515) (2008051201)
 
 
+$string['cannotdowngrade'] = '$a[0] 에서 $a[1] 로는 판내림을 할 수 없음';
 $string['cannotfindadmin'] = '관리자가 없음!';
 $string['cannotsetupsite'] = '심각한 오류! 사이트를 설정할 수 없음!';
 $string['cannotupdaterelease'] = '오류: 새 판의 데이터베이스 갱신을 할 수 없음!';
@@ -15,6 +16,10 @@ $string['dbnotupdate'] = '데이터베이스 오류 - ($a)를 갱신할 수 없�
 $string['doesnotworkwitholdversion'] = '무들의 예전 판에서는 이 스크립트가 작동하지 않음';
 $string['erroroccur'] = '현재의 과정에서 오류가 발생함';
 $string['fixsetting'] = 'config.php의 설정을 조절하십시오. <p>현재설정</p> <p>$CFG->dirroot = \"$a[0]\"; 를</p> <p>$CFG->dirroot = \"$a[1]\" 로 바꾸어야 합니다</p>';
+$string['noblockbase'] = '/blocks/moodleblock.class.php
+noblockbase에 대하여 block_base가 정의되지 않았거나 파일을 찾을 수 없음';
+$string['noblocks'] = '블록이 설치되지 않았음!';
+$string['nocaps'] = '오류: 할 일이 정의되지 않았음!';
 $string['nomodules'] = '모듈이 없음!';
 $string['noreports'] = '어떤 보고서에도 접근할 수 없음';
 $string['notables'] = '테이블 없음!';
