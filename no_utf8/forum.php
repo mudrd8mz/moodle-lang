@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // forum.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+
+
 $string['addanewdiscussion'] = 'Skriv i dette forumet';
 $string['addanewquestion'] = 'Legg til et nytt spørsmål';
 $string['addanewtopic'] = 'Skriv i dette forumet';
@@ -26,6 +28,7 @@ $string['blockperiod'] = 'Tidsperiode for blokkering';
 $string['blockperioddisabled'] = 'Ikke blokker';
 $string['bynameondate'] = 'av $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Du må være medlem av en gruppe for å legge til ny diskusjon i dette forumet.';
+$string['cannotadddiscussionall'] = 'Du har ikke tillatelse til å legge til et nytt diskusjonsemne for alle deltakerne.';
 $string['cannotviewpostyet'] = 'Du kan ikke lese andre studenters spørsmål i denne diskusjonen ennå fordi du ikke har lagt inn noe selv';
 $string['cleanreadtime'] = 'Tidspunkt for merking av gamle innlegg som lest';
 $string['configcleanreadtime'] = 'Tidspunkt for sletting av gamle, leste innlegg.';
@@ -284,4 +287,5 @@ $string['yournewquestion'] = 'Ditt nye spørsmål';
 $string['yournewtopic'] = 'Ditt nye diskusjonsemne';
 $string['yourreply'] = 'Ditt svar';
 $string['nopostdiscussion'] = 'Beklager, du kan ikke poste innlegg i denne diskusjonen'; // ORPHANED
+
 ?>
