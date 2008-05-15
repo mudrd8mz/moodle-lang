@@ -97,6 +97,7 @@ $string['selectonecommand'] = 'Veuillez sélectionner une action index dans la l
 $string['selectonefieldkeyindex'] = 'Veuillez sélectionner un champ/une clef/un index dans la liste pour voir le code PHP';
 $string['selecttable'] = 'Choisir une table&nbsp;:';
 $string['sentences'] = 'Phrases';
+$string['shouldbe'] = 'devrait être';
 $string['statements'] = 'Instructions';
 $string['statementtable'] = 'Table d\'instruction&nbsp;:';
 $string['statementtype'] = 'Type d\'instruction&nbsp;:';
@@ -117,11 +118,13 @@ $string['vieworiginal'] = 'Afficher l\'original';
 $string['viewphpcode'] = 'Afficher le code PHP';
 $string['viewsqlcode'] = 'Afficher le code SQL';
 $string['wrong'] = 'Incorrect';
+$string['wrongdefaults'] = 'Réglages par défaut erronés';
 $string['wrongints'] = 'Entiers incorrects trouvés';
 $string['wronglengthforenum'] = 'Longueur du champ énumération incorrecte';
 $string['wrongnumberoffieldsorvalues'] = 'Nombre incorrect de champs ou de valeurs dans la phrase';
 $string['wrongreservedwords'] = 'Noms réservés utilisés actuellement<br />(les noms des tables ne sont pas importants si vous utilisez \$CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Des index manquants ont été trouvés dans votre BDD. Voici les détails et instructions SQL à exécuter avec votre interface SQL favorite pour les créer. N\'oubliez pas d\'effectuer une sauvegarde de la BDD avant de lancer ces commandes.<br /><br />Après les avoir exécutés, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus d\'index manquant.';
+$string['yeswrongdefaultsfound'] = 'Certains réglages par défaut incohérents ont été trouvés dans votre BDD. Voici les détails et instructions SQL à exécuter avec votre interface SQL favorite pour les corriger. N\'oubliez pas d\'effectuer une sauvegarde de la BDD avant de lancer ces commandes.<br /><br />Après les avoir exécutés, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus de réglages par défaut incohérents.';
 $string['yeswrongintsfound'] = 'Des entiers incorrectement définis ont été trouvés dans votre BDD. Voici les détails et instructions SQL à exécuter avec votre interface SQL favorite pour les créer. N\'oubliez pas d\'effectuer une sauvegarde de la BDD avant de lancer ces commandes.<br /><br />Après les avoir exécutés, il vous est vivement recommandé de lancer cet utilitaire une nouvelle fois afin de vérifier qu\'il ne reste plus d\'entiers incorrectement définis.';
 
 ?>
