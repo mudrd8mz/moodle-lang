@@ -22,6 +22,7 @@ $string['minute'] = 'Minute';
 $string['miscellaneoussettings'] = 'Réglages divers';
 $string['modstandardels'] = 'Réglages communs aux modules';
 $string['month'] = 'Mois';
+$string['mustbeoverriden'] = 'La méthode form_definition() dans la classe $a doit être surchargée. Veuillez corriger le code.';
 $string['nomethodforaddinghelpbutton'] = 'Il n\'y a pas de méthode pour ajouter un bouton d\'aide sur un élément $a->name (classe $a->classname) de formulaire';
 $string['nonexistentformelements'] = 'Tentative d\'ajout de bouton d\'aide à des éléments non existants&nbsp;: $a';
 $string['optional'] = 'Facultatif';
