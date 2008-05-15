@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080515) (2008051201)
 
 
 $string['cannotfindadmin'] = 'පරිපාලක පරිශීකයෙකු සොයා ගත නොහැක!';
@@ -16,6 +16,7 @@ $string['doesnotworkwitholdversion'] = 'මෙම ස්ක්‍රිප්ට
 $string['erroroccur'] = 'මෙම කාර්යාවලියේදී දෝෂයක් ඇති විය';
 $string['fixsetting'] = 'කරුණාකර ඔබගේ config.php සැකසීම් සාදන්න :<p>ඔබට ඇත්තේ :</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>නමුත් එය :</p> <p>$CFG->dirroot = \"$a[1]\" විය යුතුයි</p>';
 $string['nomodules'] = 'මොඩියුලයන් සොයා ගන්නා නොලදි';
+$string['noreports'] = 'වාර්තා කිසිවකට පිවිසිය නොහැක';
 $string['notables'] = 'වගු නොමැත';
 $string['phpvaroff'] = '\'$a[0] \'PHP සේවාදායක විචල්‍යයය සංවෘත විය යුතුයි- $a[1]';
 $string['phpvaron'] = '\'$a[0] \'PHP සේවාදායක විචල්‍යයය විවෘත කල යුතුයි- $a[1]';

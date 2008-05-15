@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080515) (2008051201)
 
 
 $string['add_item'] = 'ක්‍රියාකාරකම සඳහා ප්‍රශ්නයක් එක් කරන්න';
@@ -40,7 +40,17 @@ $string['delete_template'] = 'ටෙම්ප්ලේටය ඉවත් කර
 $string['delete_templates'] = '‍ටෙම්ප්ලේටය ඉවත් කරන්න...';
 $string['description'] = 'විස්තරය';
 $string['drop_feedback'] = 'මෙම පාඨපාලාවෙන් ඉවත් කරන්න';
+$string['dropdown'] = 'බහු වරණ - කනි පිළිතුරකට පමණක් ඉඩ ලබා දේ (ගලා හැලෙන ලැයිස්තුව)';
 $string['dropdown_values'] = 'පිළිතුරු';
+$string['dropdownlist'] = 'බහු වරණ - තනි පිළිතුර (ගලා හැලෙන)';
+$string['dropdownrated'] = 'ගලා හැලෙන ලයිස්තුව (rated)';
+$string['edit_item'] = 'ප්‍රශ්නය සංස්කරණය කරන්න';
+$string['edit_items'] = 'ප';
+$string['email_notification'] = 'ප්‍රශ්න සංස්කරණය කරන්න';
+$string['label'] = 'ලේබලය';
+$string['line_labels'] = 'ලේබලය';
+$string['mapcourse'] = 'පාඨමාලාව අනුරූපනය කරන්න';
+$string['mode'] = 'මාදිලිය';
 $string['using_templates'] = 'ටෙම්ප්ලේටයක් භාවිතා කරන්න';
 $string['vertical'] = 'සිරස්';
 
