@@ -2,6 +2,7 @@
 /*
  * debug information for developer only
  */
+$string['cannotdowngrade'] = 'Impossible de revenir à $a[0] vers $a[1].';
 $string['cannotfindadmin'] = 'Impossible de trouver un administrateur&nbsp;!';
 $string['cannotupgradecapabilities'] = 'Problèmes lors de la mise à jour des capacités centrales du systèmes des rôles';
 $string['cannotupdateversion'] = 'Échec de la mise à jour&nbsp;! (Impossible de mettre à jour la version dans la table config)';
@@ -15,6 +16,9 @@ $string['dbnotsetup'] = 'Erreur&nbsp;: la base de données principale <b>n\'a pa
 $string['doesnotworkwitholdversion'] = 'Ce script ne fonctionne pas avec cette ancienne version de Moodle';
 $string['erroroccur'] = 'Une erreur est survenue durant cette procédure';
 $string['fixsetting'] = 'Veuillez corriger vos réglages dans le fichier config.php. <p>Vous avez&nbsp;:</p> <p>\$CFG->dirroot = \"$a[0]\";</p> <p>alors qu\'il devrait y avoir</p> <p>\$CFG->dirroot = \"$a[1]\"</p>';
+$string['noblockbase'] = 'La classe block_base n\'est pas définie ou le fichier pour /blocks/moodleblock.class.php n\'a pas été trouvé';
+$string['noblocks'] = 'Aucun bloc installé&nbsp;!';
+$string['nocaps'] = 'Erreur&nbsp;: aucune capacité définie&nbsp;!';
 $string['nomodules'] = 'Aucun module trouvé&nbsp;!';
 $string['noreports'] = 'Aucun rapport accessible';
 $string['notables'] = 'Pas de tables&nbsp;!';
