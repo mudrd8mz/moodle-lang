@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // resource.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+
+
 $string['addresource'] = 'Ny ressurs';
 $string['affectedresources'] = 'Berørte ressurser';
 $string['allowlocalfiles'] = 'Tillat lokale filer';
@@ -46,6 +48,7 @@ $string['fetcherror'] = 'En feil ble funnet mens du forsøkte å laste ned netts
 $string['fetchservererror'] = 'En feil ble funnet på tjeneren mens du forsøkte å laste ned nettsiden (muligens en programfeil).';
 $string['filename'] = 'Filnavn';
 $string['filtername'] = 'Automatisk lenke til ressurser';
+$string['forcedownload'] = 'Tving nedlasting';
 $string['frameifpossible'] = 'Vis ressursen i ei ramme slik at navigeringen er synlig';
 $string['framesize'] = 'Rammestørrelse';
 $string['fulltext'] = 'Full tekst';
@@ -128,4 +131,5 @@ $string['vol'] = 'Vol.';
 $string['warningblockingdelete'] = 'Advarsel: Slettingen er blokkert av en eksisterende ressurs. Du må enten redigere eksisterende ressurs eller be administrator oppheve sikkerhetsmekanismen i det globale ressursoppsettet.';
 $string['warningdisabledrename'] = 'Advarsel: Automatisk oppdatering av referanser til ressurser er koblet ut. Vennligst oppdater berørte ressurser manuelt, hvis nødvendig. Administrator kan også aktivere automatisk oppdatering i de globale ressursinnstillingene.';
 $string['websearchdefault'] = 'Standard websøk';
+
 ?>

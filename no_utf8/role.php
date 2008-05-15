@@ -1,9 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // role.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+
+
 $string['addrole'] = 'Legg til ny rolle';
 $string['allow'] = 'Tillat';
 $string['allowassign'] = 'Tillat å gi roller';
 $string['allowoverride'] = 'Tillat rolleunntak';
+$string['allsiteusers'] = 'Alle nettstedsbrukere';
 $string['assignglobalroles'] = 'Tildel globale roller';
 $string['assignroles'] = 'Tildel roller';
 $string['assignrolesin'] = 'Tildel roller i $a';
@@ -173,6 +176,8 @@ $string['user:viewdetails'] = 'Se brukerprofiler';
 $string['user:viewhiddendetails'] = 'Vis skjulte egenskaper hos brukere';
 $string['user:viewuseractivitiesreport'] = 'Se brukerens aktivitetsrapport';
 $string['user:viewusergrades'] = 'Se brukerens karakterer';
+$string['userhashiddenassignments'] = 'Denne brukeren har en eller flere skjulte roller i dette kurset.';
+$string['userswithrole'] = 'Alle brukere med en rolle';
 $string['viewrole'] = 'Se rolledetaljer';
 $string['xuserswiththerole'] = 'Brukere som har rolle \"a->role\": $a->number';
 $string['course:downloadallgrades'] = 'Last ned alle karakterer'; // ORPHANED
@@ -182,4 +187,5 @@ $string['grade:editlocked'] = 'Rediger låste karakterer'; // ORPHANED
 $string['question:export'] = 'Eksporter spørsmål'; // ORPHANED
 $string['question:import'] = 'Importer spørsmål'; // ORPHANED
 $string['question:manage'] = 'Administrer spørsmål'; // ORPHANED
+
 ?>
