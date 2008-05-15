@@ -98,6 +98,7 @@ $string['categorynamecantbeblank'] = 'Le nom de la catégorie ne peut pas être 
 $string['categorynoedit'] = 'Vous n\'avez pas les autorisations nécessaires pour modifier la catégorie «&nbsp;$a&nbsp;».';
 $string['categoryupdated'] = 'La catégorie a été modifiée';
 $string['changessaved'] = 'Modifications enregistrées';
+$string['changessavedwitherrors'] = 'Des erreurs sont survenues lors de l\'enregistrement des modifications des évaluations';
 $string['checkanswer'] = 'Vérifier';
 $string['choice'] = 'Proposition';
 $string['choices'] = 'Propositions';
