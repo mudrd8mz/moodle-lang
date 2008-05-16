@@ -2,7 +2,7 @@
 
 $string['addrole'] = 'Ajouter un nouveau rôle';
 $string['allow'] = 'Autoriser';
-$string['allowassign'] = 'Autoriser les attributions de rôles';
+$string['allowassign'] = 'Autoriser l\'attribution des rôles';
 $string['allowoverride'] = 'Autoriser la définition de dérogations aux rôles';
 $string['allsiteusers'] = 'Tous les utilisateurs du site';
 $string['assignglobalroles'] = 'Attribution des rôles système';
