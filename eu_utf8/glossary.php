@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8.4+ (2007021541)
+      // glossary.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addcomment'] = 'Iruzkina gehitu';
@@ -29,10 +29,11 @@ $string['categories'] = 'Kategoriak';
 $string['category'] = 'Kategoria';
 $string['categorydeleted'] = 'Kategoria ezabatuta';
 $string['categoryview'] = 'Kategoriaren arabera bilatu';
+$string['changeto'] = '$a-(e)ra aldatu';
 $string['cnfallowcomments'] = 'Erabaki glosategiak sarreretan iruzkinak onartuko dituen ala ez';
 $string['cnfallowdupentries'] = 'Erabaki glosategiak sarrera bikoiztuak onartuko dituen ala ez';
 $string['cnfapprovalstatus'] = 'Erabaki ikasleek egindako sarreren berezko egoera';
-$string['cnfcasesensitive'] = 'Erabaki sarreretan, lotura direnean, letra larri-txikiak bereiztuko diren ala ez';
+$string['cnfcasesensitive'] = 'Erabaki sarreretan, lotura direnean, letra larri-txikiak bereiziko diren ala ez';
 $string['cnfdefaulthook'] = 'Erabaki nola agertuko den glosategia lehen ikustaldian';
 $string['cnfdefaultmode'] = 'Erabaki zein markotan agertuko den glosategia lehen ikustaldian';
 $string['cnffullmatch'] = 'Erabaki sarrera batek, estekaduna bada, letra larri eta xeheetan berez bat etorri behar duen testuarekin';
@@ -51,12 +52,14 @@ $string['commentupdated'] = 'Iruzkina eguneratuta';
 $string['concept'] = 'Kontzeptua';
 $string['concepts'] = 'Kontzeptuak';
 $string['configenablerssfeeds'] = 'Aukera honekin glosategi guztietan eza daitezke RSS jarioak. Glosategi bakoitzaren ezarpenetan eskuz ezarri beharko dira jariook.';
+$string['current'] = 'Orain ordenatuak $a';
 $string['currentglossary'] = 'Oraingo glosategia';
 $string['dateview'] = 'Dataren arabera bilatu';
 $string['defaultapproval'] = 'Aldez aurretik onartua';
 $string['definition'] = 'Azalpena';
 $string['definitions'] = 'Azalpenak';
 $string['deleteentry'] = 'Ezabatu sarrera';
+$string['deletenotenrolled'] = 'Matrikulatu gabeko erabiltzaileen sarrerak ezabatu';
 $string['deletingcomment'] = 'Iruzkina ezabatzen';
 $string['deletingnoneemptycategory'] = 'Kategoria hau ezabatuta ez dira ezabatuko dituen sarrerak. Besterik gabe, kategoria gabeko bezala agertuko dira.';
 $string['descending'] = 'Goitik behera';
@@ -89,6 +92,10 @@ $string['entryleveldefaultsettings'] = 'Sarreren aldez aurretiko ezarpenak';
 $string['entrysaved'] = 'Sarrera gordeta';
 $string['entryupdated'] = 'Sarrera eguneratua';
 $string['entryusedynalink'] = 'Sarrera hau automatikoki estekatu';
+$string['errcannoteditothers'] = 'Ezin dituzu beste pertsonen sarrerak editatu';
+$string['errconceptalreadyexists'] = 'Kontzeptu hau dagoeneko existitzen da. Glosategi honetan ezin dira sarrerak bikoiztu.';
+$string['erredittimeexpired'] = 'Sarrera hau editatzeko denbora amaitu egin da.';
+$string['errorparsingxml'] = 'Errorea fitxategia aztertzean. Ziurta ezazu XML sintaxia ondo dagoela.';
 $string['explainaddentry'] = 'Beste sarrera bat gehitu glosategi honetara.<br>Kontzeptua eta azalpena derrigorrezko datuak dira.';
 $string['explainall'] = 'Erakutsi sarrera guztiak orri bakar batean';
 $string['explainalphabet'] = 'Bilatu glosategian aurkibide hau erabiliz';
@@ -156,6 +163,8 @@ $string['ratingsuse'] = 'Erabili balorazioak';
 $string['ratingtime'] = 'Balorazioak epe honetan bakarrik egin ahal izango dira:';
 $string['rejectedentries'] = 'Onartu gabeko sarrerak';
 $string['rejectionrpt'] = 'Onartu gabeko txostena';
+$string['resetglossaries'] = 'Sarrerak ezabatu ondokotik';
+$string['resetglossariesall'] = 'Glosategi guztietako sarrerak ezabatu';
 $string['rsssubscriberss'] = 'Erakutsi RSS jarioa \'$a\' kontzeptuetarako';
 $string['searchindefinition'] = 'Bilatu testu osoan';
 $string['secondaryglossary'] = 'Bigarren mailako glosategia';

@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.8.4+ (2007021541)
+      // notes.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addnewnote'] = 'Gehitu beste ohar bat';
-$string['addnewnoteselect'] = 'Aukeratu ikasleak beraiei buruzko notak idazteko';
+$string['addnewnoteselect'] = 'Aukeratu ikasleak beraiei buruzko oharrak idazteko';
 $string['bynameondate'] = '$a->name -k - $a->date';
 $string['content'] = 'Edukia';
 $string['course'] = 'Ikastaroa';
@@ -22,7 +22,7 @@ $string['nouser'] = 'Erabiltzaile bat aukeratu behar duzu';
 $string['personal'] = 'pertsonala';
 $string['personalnotes'] = 'Norberaren oharrak';
 $string['publishstate'] = 'Egoera';
-$string['site'] = 'Gunea';
+$string['site'] = 'gunea';
 $string['sitenotes'] = 'Guneko oharrak';
 $string['unknown'] = 'ezezaguna';
 

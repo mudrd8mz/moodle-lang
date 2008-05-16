@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8.4+ (2007021541)
+      // calendar.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['advancedoptions'] = 'Aukera aurreratuak';
@@ -11,7 +11,7 @@ $string['clickshow'] = 'Erakutsi';
 $string['commontasks'] = 'Aukerak';
 $string['confirmeventdelete'] = 'Ziur al zaude ekitaldi hau ezabatu nahi duzula?';
 $string['course'] = 'Ikastaroa';
-$string['courseevent'] = 'Ikasataroko ekitaldia';
+$string['courseevent'] = 'Ikastaroko ekitaldia';
 $string['courseevents'] = 'Ikastaroko ekitaldiak';
 $string['courses'] = 'Ikastaroak';
 $string['dayview'] = 'Eguneko ikuspegia';

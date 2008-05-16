@@ -1,10 +1,30 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.7.2 + (2006101020)
+      // qtype_calculated.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
+$string['addmoreanswerblanks'] = 'Beste erantzun zuri bat gehitu';
+$string['addmoreunitblanks'] = 'Zuriuneak $a unitate gehiagotarako';
 $string['answerhdr'] = 'Erantzuna';
+$string['atleastoneanswer'] = 'Gutxienez erantzun bat eman behar duzu';
+$string['correctanswershows'] = 'Erantzun zuzena erakutsi';
 $string['correctanswershowsformat'] = 'Formatua';
+$string['existingcategory1'] = 'dagoeneko existitzen den datu-multzo konpartitua erabiliko du';
+$string['keptcategory1'] = 'lehengo datu-multzo konpartitu bera erabiliko du';
+$string['keptlocal1'] = 'lehengo datu-multzo pribatu bera erabiliko du';
 $string['makecopynextpage'] = 'Hurrengo orria (beste galdera bat)';
+$string['mandatoryhdr'] = 'Erantzunetan derrigor agertu beharreko wild card-ak';
+$string['mustbenumeric'] = 'Zenbaki bat idatzi behar duzu';
+$string['mustnotbenumeric'] = 'Ezin da zenbakia izan';
+$string['newcategory1'] = 'konpartitutako beste datu-multzo bat erabiliko du';
+$string['newlocal1'] = 'beste datu-multzo pribatu bat erabiliko du';
+$string['nextitemtoadd'] = 'Hurengo \'Gehitzeko elementua\'';
 $string['nextpage'] = 'Hurrengo orria';
+$string['nodataset'] = 'Ezer ez - ez da wild card bat';
+$string['nosharedwildcard'] = 'Ez dago wild card-ik kategoria honetan';
+$string['possiblehdr'] = 'Galderaren testuan baino ez dauden  wild card posibleak';
+$string['tolerance'] = 'Tolerantzia &plusmn;';
+$string['updatecategory'] = 'Kategoria eguneratu';
+$string['usedinquestion'] = 'Galderan erabilia';
+$string['youmustenteramultiplierhere'] = 'Biderkatzaile bat idatzi behar duzu';
 
 ?>
