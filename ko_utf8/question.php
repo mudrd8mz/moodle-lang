@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080514) (2008051201)
+      // question.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제점 보고서';
@@ -17,29 +17,34 @@ $string['copy'] = '$a 에서 복사후 연결';
 $string['created'] = '생성됨';
 $string['createdmodifiedheader'] = '생성/변경됨';
 $string['cwrqpfs'] = '하위 범주에서 문제를 추출한 무작위 문항';
-$string['cwrqpfsinfo'] = '<p>무들 1.9판으로 판올림하는 과정에서 문항 범주를 다른 맥락으로 구분할 것입니다. 대개의 문항 및 문항 범주는 공유상태가 변해야 할 것입니다. 드문 경우이긴 하겠지만 질문지(퀴즈)에 \'무작위\' 문항이 포함되어 있을 경우, 공유 혹은 비공유 범주 중에서 선택해야 할 필요가 있습니다. 이는 \'무작위\' 문항을 하위 범주에서 고르게 할 때와, 하나 이상의 하위 범주가 질문이 만들어진 상위 범주와 서로 다른 공유 상태일 때 발생하게 됩니다.</p> 
+$string['cwrqpfsinfo'] = '<p>무들 1.9판으로 판올림하는 과정에서 문항 범주를 다른 맥락으로 구분할 것입니다. 대개의 문항 및 문항 범주는 공유상태가 변해야 할 것입니다. 드문 경우이긴 하겠지만 질문지(퀴즈)에 \'무작위\' 문항이 포함되어 있을 경우, 공유 혹은 비공유 범주 중에서 선택해야 할 필요가 있습니다. 이는 \'무작위\' 문항을 하위 범주에서 선택하게 할 때와, 하나 이상의 하위 범주가 질문이 만들어진 상위 범주와 서로 다른 공유 상태일 때 발생하게 됩니다.</p> 
 <p>다음의 문항 범주들, 즉 \'무작위\' 질문이 선택된 상위 범주들은 무들 1.9판으로 판올림되면서 \'무작위\' 질문과 동일한 공유상태로 변해야 합니다. 따라서 다음의 범주들은 공유상태가 변할 것입니다. 관련된 문항들은 퀴즈에서 삭제하지 않는 한, 기존의 모든 질문지에서 잘 작동할 것입니다.';
 $string['cwrqpfsnoprob'] = '여러분의 사이트에는 소위 \"하위 범주에서 문제를 추출한 무작위 문항\" 때문에 생기는 문제점이 발견되지 않았습니다.';
 $string['defaultfor'] = '$a 의 기본설정';
-$string['defaultinfofor'] = '문항의 기본 범주는 하위 범주 \'$a\'로 공유되었습니다.';
+$string['defaultinfofor'] = '문항의 기본 범주는 맥락 \'$a\'로 공유되었습니다.';
 $string['deletecoursecategorywithquestions'] = '문제은행에 본 강좌의 범주와 연계된 문항들이 있습니다. 계속 진행하게 되면 이들이 삭제될 것입니다. 뭉항들을 이동시키고 싶으면 문제은행의 인터페이스를 사용하기 바랍니다.';
 $string['donothing'] = '파일을 복사/이동시키거나 링크를 변경시키지 마십시오.';
 $string['editingcategory'] = '범주 편집';
 $string['editingquestion'] = '질문 편집';
-$string['erroraccessingcontext'] = '항목에 접속할 수 없음';
+$string['erroraccessingcontext'] = '맥락에 접근할 수 없음';
 $string['errordeletingquestionsfromcategory'] = '$a 범주에 있는 문항 삭제 중 오류 발생';
 $string['errorfilecannotbecopied'] = '$a 복사 오류';
 $string['errorfilecannotbemoved'] = '$a 이동 오류';
 $string['errorfileschanged'] = '문제가 제시된 후 문항에 연결된 파일의 링크가 변경된 오류';
+$string['errormanualgradeoutofrange'] = '문항 $a->name 에 대한 점수 $a->grade 는 0과 $a->maxgrade 의 범위를 벗어났습니다. 점수 및 논평은 저장되지 않습니다.';
 $string['errormovingquestions'] = 'id $a 의 문항을 옮기는 중에 오류발생';
+$string['errorsavingcomment'] = '문항 $a->name 에 대한 촌평을 데이터베이스에 저장하던 중 오류발생';
+$string['errorupdatingattempt'] = '시도 $a->id 를 데이터베이스에 갱신하던 중 오류발생';
 $string['exportcategory'] = '범주 내보내기';
 $string['filesareacourse'] = '강좌 파일 구역';
 $string['filesareasite'] = '사이트 파일 구역';
 $string['filestomove'] = '$a 로 이동/복사할까요?';
+$string['formquestionnotinids'] = '문항에 포함된 서식이 questionid에 없음';
 $string['fractionsnomax'] = '이 질문에 대한 온전한 점수를 획득하게 하려면 답안 중 하나는 100%%를 주어야 합니다.';
 $string['getcategoryfromfile'] = '파일로부터 범주 추출';
 $string['getcontextfromfile'] = '파일로부터 맥락 추출';
 $string['ignorebroken'] = '깨진 링크 무시';
+$string['invalidcontextinhasanyquestions'] = '잘못된 맥락이 question_context_has_any_questions로 전달됨';
 $string['linkedfiledoesntexist'] = '연결된 $a 파일 없음';
 $string['makechildof'] = '\'$a\'의 하위 생성';
 $string['maketoplevelitem'] = '최 상위 단계로 이동';
@@ -50,13 +55,13 @@ $string['movecategory'] = '범주 이동';
 $string['movedquestionsandcategories'] = '$a->oldplace 에서 $a->newplace 로 이동된 문항 및 범주';
 $string['movelinksonly'] = '링크의 연결점만 변경시키고 파일을 복사하거나 이동시키지 마십시오.';
 $string['moveq'] = '문항 이동';
-$string['moveqtoanothercontext'] = '다른 항목으로 문항 이동';
+$string['moveqtoanothercontext'] = '다른 맥락으로 문항 이동';
 $string['movingcategory'] = '범주 이동';
-$string['movingcategoryandfiles'] = '정말 범주를 \"{$a->name}\"로 옮기고 모든 하위 범주를 \"{$a->contextto}\"로 옮기겠습니까?<br /> 그리고 {$a->fromareaname} 속의 {$a->urlcount} 개의 파일이 링크되어 있던데, 이들을 {$a->toareaname}로 이동시키거나 복사하겠습니까?';
-$string['movingcategorynofiles'] = '정말 범주를 \"{$a->name}\"로 옮기고 모든 하위 범주를 \"{$a->contextto}\"로 옮기겠습니까?';
+$string['movingcategoryandfiles'] = '정말 {$a->name}범주로 옮기고 모든 하위 범주를 \"{$a->contextto}\" 맥락으로 옮기겠습니까?<br /> 그리고 {$a->urlcount}개의 파일이 {$a->fromareaname} 속에 링크되어 있던데, 이들을 {$a->toareaname}로 이동시키거나 복사하겠습니까?';
+$string['movingcategorynofiles'] = '정말 범주를 \"{$a->name}\"로 옮기고 모든 하위 범주를 \"{$a->contextto}\" 맥락으로 옮기겠습니까?';
 $string['movingquestions'] = '문제 및 파일 이동';
-$string['movingquestionsandfiles'] = '{$a->questions} 문항을 <strong>\"{$a->tocontext}\"</strong>로 정말 옮기겠습니까? <br />{$a->fromareaname} 속의 {$a->urlcount} 개의 파일이 문제들과 링크되어 있던데, 이들을 {$a->toareaname}로 이동시키거나 복사하겠습니까?';
-$string['movingquestionsnofiles'] = '{$a->questions} 문항을 <strong>\"{$a->tocontext}\"</strong>로 정말 옮기겠습니까? <br />{$a->fromareaname} 속에는 문제와 연결된 파일이 하나도 없습니다.';
+$string['movingquestionsandfiles'] = '정말 {$a->questions} 문항을 <strong>\"{$a->tocontext}\"</strong> 맥락으로 옮기겠습니까? <br />{$a->urlcount} 개의 파일이 {$a->fromareaname} 속의 문제들과 링크되어 있던데, 이들을 {$a->toareaname}로 이동시키거나 복사하겠습니까?';
+$string['movingquestionsnofiles'] = '정말 {$a->questions} 문항을 <strong>\"{$a->tocontext}\"</strong> 맥락으로 옮기겠습니까? <br />{$a->fromareaname} 속에는 문제와 연결된 파일이 하나도 없습니다.';
 $string['needtochoosecat'] = '문제를 이동시키려면 범주를 선택하고 그렇지 않으면 \'취소\'를 누르세요.';
 $string['nopermissionadd'] = '여기에 문제를 추가시킬 자격이 없습니다.';
 $string['noprobs'] = '문제은행 데이터베이스에는 아무런 문제점도 없습니다.';
