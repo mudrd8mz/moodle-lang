@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -1152,7 +1152,7 @@ $string['pluginsetup'] = 'Lege Plugin-Tabellen an';
 $string['policyaccept'] = 'Ich verstehe den Text und stimme ihm zu';
 $string['policyagree'] = 'Lesen Sie diese Zustimmungserklärung sorgfältig. Sie müssen erst zustimmen, um diese Website weiter nutzen zu können. Stimmen Sie zu?';
 $string['policyagreement'] = 'Zustimmungserklärung';
-$string['policyagreementclick'] = 'Klicken Sie hier, um die Zustimmungserklärung zu lesen';
+$string['policyagreementclick'] = 'Link zur Zustimmungserklärung';
 $string['popup'] = 'Popup';
 $string['popupwindow'] = 'Datei in neuem Fenster öffnen';
 $string['popupwindowname'] = 'Popup-Fenster';

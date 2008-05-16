@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['addnewentry'] = 'Neuen Eintrag hinzufügen';
@@ -9,12 +9,19 @@ $string['blocktagstitle'] = 'Blog-Schlagworte';
 $string['blocktitle'] = 'Titel des Blocks für Blog-Schlagworte';
 $string['blog'] = 'Blog';
 $string['blogdeleteconfirm'] = 'Diesen Blog löschen?';
+$string['blogdisable'] = 'Blogfunktion ist deaktiviert!';
 $string['blogpreferences'] = 'Blog-Voreinstellungen';
 $string['blogs'] = 'Blogs';
 $string['blogtags'] = 'Blog-Schlagwörter';
+$string['cannotviewcourseblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, Blogs in diesem Kurs zu sehen';
+$string['cannotviewcourseorgroupblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, Blogs in diesem Kurs/Gruppe zu sehen';
+$string['cannotviewsiteblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, alle Blogs dieser Site zu sehen';
+$string['cannotviewuserblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, Blogs der Nutzer zu lesen';
 $string['courseblog'] = 'Kursblog: $a';
+$string['courseblogdisable'] = 'Blogfunktion ist nicht aktiviert';
 $string['courseblogs'] = 'Nutzer/innen können nur Blogs anderer Kursteilnehmer/innen sehen';
 $string['deleteotagswarn'] = 'Sind Sie sicher, dass Sie diese Schlagworte <br />aus allen Blog-Einträgen und aus dem System entfernen möchten?';
+$string['deleteposterror'] = 'Beim Löschen von Einträgen ist ein Fehler aufgetreten';
 $string['disableblogs'] = 'Blog-System vollständig deaktivieren';
 $string['emptybody'] = 'Der Blog-Eingabetext kann nicht leer sein';
 $string['emptytitle'] = 'Der Blog-Eingabetitel kann nicht leer sein';
@@ -25,7 +32,9 @@ $string['entrysaved'] = 'Ihr Eintrag wurde gespeichert.';
 $string['entrytitle'] = 'Titel des Eintrags';
 $string['entryupdated'] = 'Eintrag aktualisiert';
 $string['groupblog'] = 'Gruppenblog: $a';
+$string['groupblogdisable'] = 'Gruppenblogs sind nicht aktiviert';
 $string['groupblogs'] = 'Nutzer/innen können nur Blogs anderer Gruppenmitglieder sehen';
+$string['incorrectblogfilter'] = 'Es wurde ein falscher Blogfilter ausgewählt';
 $string['intro'] = 'Der RSS-Feed wurde automatisch von einem oder mehreren Blogs erstellt.';
 $string['noentriesyet'] = 'Keine sichtbaren Einträge hier';
 $string['noguestpost'] = 'Gäste können in Blogs keine Beiträge veröffentlichen!';
@@ -34,6 +43,7 @@ $string['notallowedtoedit'] = 'Sie haben keine Berechtigung, diesen Beitrag zu b
 $string['numberofentries'] = 'Einträge: $a';
 $string['numberoftags'] = 'Zahl der anzuzeigenden Schlagworte';
 $string['pagesize'] = 'Zahl der Blog-Einträge pro Seite';
+$string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'Nutzer/innen können nur ihren eigenen Blog sehen';
 $string['publishto'] = 'Veröffentlichen für';
 $string['publishtonoone'] = 'Ich alleine (Entwurf)';
@@ -41,6 +51,7 @@ $string['publishtosite'] = 'Alle auf dieser Website';
 $string['publishtoworld'] = 'Alle (öffentlich)';
 $string['settingsupdatederror'] = 'Es ist ein Fehler aufgetreten. Die Einstellungen konnten nicht aktualisiert werden.';
 $string['siteblog'] = 'Site-Blog: $a';
+$string['siteblogdisable'] = 'Site-Blogs wurden nicht aktiviert';
 $string['siteblogs'] = 'Nutzer/innen können alle Blogs sehen';
 $string['tagdatelastused'] = 'Tag, an dem das Schlagwort zuletzt gebraucht wurde';
 $string['tags'] = 'Schlagworte';
@@ -53,6 +64,7 @@ $string['viewcourseentries'] = 'Zeige Kurseinträge';
 $string['viewmyentries'] = 'Zeige meine Einträge';
 $string['viewsiteentries'] = 'Zeige alle Einträge';
 $string['worldblogs'] = 'Blog-System für alle öffentlich sichtbar';
+$string['wrongpostid'] = 'Falsche Blog-Post-ID';
 $string['addotags'] = 'Offizielles Schlagwort hinzufügen'; // ORPHANED
 $string['addptags'] = 'Nutzerdefiniertes Schlagwort hinzufügen'; // ORPHANED
 $string['otags'] = 'Offizielles Schlagwort'; // ORPHANED

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -87,8 +87,8 @@ $string['notdeployed'] = 'Nicht genutzt';
 $string['note'] = 'Anmerkung';
 $string['notefile'] = 'Um mehr als eine Datei für diesen Kurs hochzuladen (damit diese in der Liste erscheinen), benutzen Sie bitte den <a href=\"$a\">Datei-Manager</a>.';
 $string['notypechosen'] = 'Sie müssen einen Typ auswählen. Verwenden Sie den Zurück-Knopf und probieren Sie es erneut.';
-$string['packagechanged'] = 'Dieses IMS-Content-Paket hat gewechselt';
-$string['packagenotdeplyed'] = 'Dieses IMS-Content-Paket wird nicht verwendet';
+$string['packagechanged'] = 'IMS-Content-Paket wurde geändert';
+$string['packagenotdeplyed'] = 'IMS-Content-Paket wird aufbereitet';
 $string['pagedisplay'] = 'Arbeitsmaterial im aktuellen Fenster anzeigen';
 $string['pagewindow'] = 'Gleiches Fenster';
 $string['pan'] = 'Pan';
@@ -99,7 +99,7 @@ $string['popupresourcelink'] = 'Falls es nicht klappt, klicken Sie hier: $a';
 $string['preview'] = 'Vorschau';
 $string['previous'] = 'Vorherige';
 $string['redeploy'] = 'Nochmal verwenden';
-$string['repository'] = 'IMS-Repository';
+$string['repository'] = 'IMS-Verzeichnis';
 $string['resource:view'] = 'Arbeitsmaterial sehen';
 $string['resourcedefaulturl'] = 'Standard-URL';
 $string['resourcetype'] = 'Art des Arbeitsmaterials';

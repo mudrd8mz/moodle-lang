@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 1.9 Beta + (2007081600)
+      // search.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['advancedsearch'] = 'Erweiterte Suche';
@@ -45,16 +45,16 @@ $string['searching'] = 'Suche in ...';
 $string['seconds'] = 'Sekunden';
 $string['solutions'] = 'Lösungen';
 $string['statistics'] = 'Statistiken';
-$string['thesewordshelpimproverank'] = 'Diese Worte beeinflussen dieGewichtung';
-$string['thesewordsmustappear'] = 'Diese Worte müssen enthalten sein';
-$string['thesewordsmustnotappear'] = 'Diese Worte dürfen nicht enthalten sein';
+$string['thesewordshelpimproverank'] = 'Worte mit hoher Gewichtung';
+$string['thesewordsmustappear'] = 'Worte müssen vorkommen';
+$string['thesewordsmustnotappear'] = 'Worte dürfen nicht vorkommen';
 $string['title'] = 'Titel';
 $string['tofetchtheseresults'] = ', um diese Ergebnisse zu bekommen';
 $string['totalsize'] = 'Gesamtgröße';
 $string['type'] = 'Typ';
 $string['uncompleteindexingerror'] = 'Die Indizierung wurde nicht erfolgreich beendet. Bitte versuchen Sie es noch einmal.';
 $string['versiontoolow'] = 'Entschuldigung, aber die globale Suche benötigt PHP 5.0.0 (oder höher). Aktuell wird folgende Version benutzt:';
-$string['whichmodulestosearch?'] = 'Welche Module sollen gesucht werden?';
+$string['whichmodulestosearch?'] = 'Diese Module durchsuchen';
 $string['wordsintitle'] = 'Worte im Titel';
 
 ?>
