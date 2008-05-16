@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (2007101509)
+      // form.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
 
 
 $string['addfields'] = 'フィールド $a 個をフォームに追加する';
@@ -23,6 +23,7 @@ $string['minute'] = '分';
 $string['miscellaneoussettings'] = 'その他の設定';
 $string['modstandardels'] = '一般モジュール設定';
 $string['month'] = '月';
+$string['mustbeoverriden'] = 'クラス $a のabstract form_definition() メソッドはオーバーライドすべきです。コードを修正してください。';
 $string['nomethodforaddinghelpbutton'] = 'フォームエレメント $a->name (クラス$a->classname) にヘルプボタンを追加する方法がありません。';
 $string['nonexistentformelements'] = '存在しないフォームエレメント $a にヘルプボタンを追加しようとしています。';
 $string['optional'] = '任意';
