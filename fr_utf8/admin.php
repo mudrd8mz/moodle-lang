@@ -734,7 +734,7 @@ $string['uucsvline'] = 'Ligne CSV';
 $string['uucoursedefaultrole'] = 'Rôle par défaut dans les cours';
 $string['uulegacy1role'] = '(Anciennement étudiant) typeN=1';
 $string['uulegacy2role'] = '(Anciennement enseignant) typeN=2';
-$string['uulegacy3role'] = '(Anciennement enseignant sans droit d\'édtition) typeN=3';
+$string['uulegacy3role'] = '(Anciennement enseignant sans droit d\'édition) typeN=3';
 $string['uunoemailduplicates'] = 'Empêcher les doublons des adresses de courriel';
 $string['uuoptype_addinc'] = 'Tout ajouter, y compris un compteur aux noms d\'utilisateurs au besoin';
 $string['uuoptype_addnew'] = 'Ajouter seulement les nouveaux, ignorer les utilisateurs existants';
