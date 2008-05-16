@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080513) (2008051201)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
 
 
+$string['cannotdowngrade'] = '$a[0] から $a[1] にはダウングレードできません。';
 $string['cannotfindadmin'] = '管理ユーザが見つかりませんでした!';
 $string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできません!';
 $string['cannotupdaterelease'] = 'エラー: データベース内のリリースバージョンを更新できませんでした!!';
@@ -15,6 +16,9 @@ $string['dbnotupdate'] = 'データベースエラー - 更新できません ($
 $string['doesnotworkwitholdversion'] = 'このスクリプトは、この古いバージョンのMoodleでは動作しません。';
 $string['erroroccur'] = 'この処理中にエラーが発生しました。';
 $string['fixsetting'] = 'あなたのconfig.php設定を修正してください: <p>あなたは次のように設定していますが:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>実際には次のように設定する必要があります:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
+$string['noblockbase'] = 'Class block_baseが定義されていないか、/blocks/moodleblock.class.phpのファイルが見つかりませんでした。';
+$string['noblocks'] = 'ブロックがインストールされていません!';
+$string['nocaps'] = 'エラー: ケイパビリティが定義されていません!';
 $string['nomodules'] = 'モジュールが見つかりません!!';
 $string['noreports'] = 'アクセスできるレポートはありません。';
 $string['notables'] = 'テーブルがありません!';
