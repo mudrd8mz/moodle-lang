@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080513) (2008051201)
+      // error.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
 
 
 $string['adminprimarynoedit'] = '主管理者は他のユーザから編集することはできません。';
@@ -45,7 +45,7 @@ $string['cannotfindsite'] = 'サイトレベルのコースが見つかりませ
 $string['cannotgetcats'] = 'カテゴリレコードの取得中にエラーが発生しました。';
 $string['cannotinsertrecord'] = 'レコードID $a のレコードを追加できませんでした。';
 $string['cannotmarktopic'] = 'このコースのトピックをマークできませんでした。';
-$string['cannotmetacourse'] = 'このメタコースに、選択したコースを追加できませんでした!';
+$string['cannotmetacourse'] = '選択したコースを、このメタコースに追加できません!';
 $string['cannotmoverolewithid'] = 'ID $a のロールを移動できません。';
 $string['cannotopencsv'] = 'CSVファイルをオープンできません。';
 $string['cannotoverridebaserole'] = 'ベースロールのケイパビリティをオーバーライドできません。';
@@ -91,7 +91,9 @@ $string['coursegroupunknown'] = 'コースに関連するグループ $a が指�
 $string['csvcolumnduplicates'] = '重複するカラムが見つかりました。';
 $string['csvemptyfile'] = 'CSVファイルが空です。';
 $string['csvfewcolumns'] = 'カラムが不足しています、デリミタ設定を確認してください。';
-$string['csvweirdcolumns'] = 'CSVファイルフォーマットが正しくありません - カラム数が一定ではありません!';
+$string['csvinvalidcols'] = '<b>無効なCSVファイル:</b> 最初の行には「ヘッダフィールド」を含み、ファイルタイプは<br />「カンマ区切りの拡張フィールド」<br />または<br />「CAVV結果コード (Cardholder Authentication Verification Value) を含むカンマ区切りの拡張フィールド」にする必要があります。';
+$string['csvinvalidcolsnum'] = '無効なCSVファイルフォーマット - それぞれの行には49または70フィールドを含む必要があります。';
+$string['csvweirdcolumns'] = '無効なCSVファイルフォーマット - カラム数が一定ではありません!';
 $string['dbupdatefailed'] = 'データベースの更新が失敗しました。';
 $string['destinationcmnotexit'] = '目的のコースモジュールがありません。';
 $string['downloadedfilecheckfailed'] = 'ダウンロードファイルのチェックが失敗しました。';
@@ -102,7 +104,6 @@ $string['errorcreatingdirectory'] = 'ディレクトリ「 $a 」の作成中に
 $string['errorcreatingfile'] = 'ファイル「 $a 」の作成中にエラーが発生しました。';
 $string['erroronline'] = '$a 行目にエラーがあります。';
 $string['errorreadingfile'] = 'ファイル「 $a 」の読み取り中にエラーが発生しました。';
-$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。';
 $string['errorunzippingfiles'] = 'ファイルの解凍処理中にエラーが発生しました。';
 $string['failtoloadblocks'] = '1つまたはそれ以上のブロックがデータベースに登録されていますが、すべて読み込みに失敗しました!';
 $string['fieldrequired'] = '「 $a 」 は必須項目です。';
@@ -202,6 +203,7 @@ $string['nopermissiontohide'] = '非表示にするパーミッションはあ�
 $string['nopermissiontoimportact'] = 'あなたには、このコースに活動をインポートするため必要なパーミッションがありません。';
 $string['nopermissiontolock'] = 'ロックするパーミッションはありません!';
 $string['nopermissiontomanagegroup'] = 'あなたには、グループを管理するため必要なパーミッションがありません。';
+$string['nopermissiontomkdir'] = 'フォルダを作成できません。サイト管理者がファイルパーミッションを変更する必要があります。';
 $string['nopermissiontoshow'] = '表示するパーミッションはありません!';
 $string['nopermissiontounlock'] = 'ロック解除するパーミッションはありません!';
 $string['nopermissiontoviewpage'] = 'あなたは、このページを閲覧できません。';
@@ -220,6 +222,8 @@ $string['pathdoesnotstartslash'] = '有効な引数が提供されていない�
 $string['pleasereport'] = 'あなたに時間がある場合、エラーが発生したとき、あなたが何を試みたのか私たちにお教えください。';
 $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($a->pluginversion) がインストールされませんでした。インストールするには、新しいバージョンのMoodleが必要です (現在使用しているバージョン: $a->currentmoodle  インストールに必要なバージョン: $a->requiremoodle)。';
 $string['processingstops'] = 'ここで処理が停止します。残りのレコードは無視されました。';
+$string['refoundto'] = '払戻し可能額: $a';
+$string['refoundtoorigi'] = '注文金額の払戻し: $a';
 $string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\"$a->url\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「$a->dest」にコピーおよび解凍してください。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['reportnotavailable'] = 'このタイプのレポートは、サイトコースのみで利用できます。';
@@ -236,6 +240,7 @@ $string['statscatchupmode'] = '統計は現在キャッチアップモードで�
 $string['statsdisable'] = '統計が有効にされていません。';
 $string['statsnodata'] = 'このコースおよび期間の組み合わせデータはありません。';
 $string['tagnotfound'] = '指定されたタグは、データベースで見つかりませんでした。';
+$string['transactionvoid'] = 'すでに取り消されているため、トランザクションを取り消すことはできません。';
 $string['unenrolerror'] = 'ユーザの登録抹消中にエラーが発生しました。';
 $string['unicodeupgradeerror'] = '申し訳ございません、あなたのデータベースはユニコードに対応していません。このバージョンのMoodleは、データベースをユニコードに移行できません。最初にMoodle 1.7.x にアップグレードして、管理画面でデータベースをユニコードへ移行してください。ユニコード移行後、Moodle $a へのアップグレードが可能となります。';
 $string['unknowaction'] = '不明な処理です!';
@@ -277,5 +282,6 @@ $string['wrongdestpath'] = '宛先パスが正しくありません。';
 $string['wrongroleid'] = 'ロールIDが正しくありません。';
 $string['wrongsourcebase'] = 'ソースURIベースが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
+$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; // TBD
 
 ?>
