@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // question.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -20,10 +20,12 @@ $string['cwrqpfsinfo'] = '<p>Moodle 1.9へのアップグレード中、問題�
 $string['cwrqpfsnoprob'] = 'あなたのサイト内で「サブカテゴリから問題を選択しているランダム問題」に関する問題に影響している問題カテゴリはありません。';
 $string['defaultfor'] = '$a のデフォルト';
 $string['defaultinfofor'] = 'コンテクスト「 $a 」で共有される問題のデフォルトカテゴリ';
+$string['deletecoursecategorywithquestions'] = 'このコースカテゴリに関連する問題バンクに問題が登録されています。あなたが続けた場合、問題が削除されます。問題バンクのインターフェースを使用して、最初に問題を移動してください。';
 $string['donothing'] = 'ファイルをコピーまたは移動またはリンクを変更しない。';
 $string['editingcategory'] = 'カテゴリの編集';
 $string['editingquestion'] = '問題の編集';
 $string['erroraccessingcontext'] = 'コンテクストにアクセスできません。';
+$string['errordeletingquestionsfromcategory'] = 'カテゴリ $a から問題を削除中にエラーが発生しました。';
 $string['errorfilecannotbecopied'] = 'エラー: ファイル $a をコピーできません。';
 $string['errorfilecannotbemoved'] = 'エラー: ファイル $a を移動できません。';
 $string['errorfileschanged'] = 'エラー: 問題からリンクされているファイルがフォームが表示された後、変更されました。';
@@ -36,6 +38,7 @@ $string['fractionsnomax'] = 'この問題で満点を取ることができるよ
 $string['getcategoryfromfile'] = 'ファイルからカテゴリを取得する';
 $string['getcontextfromfile'] = 'ファイルからコンテクストを取得する';
 $string['ignorebroken'] = 'リンク切れを無視する';
+$string['invalidcontextinhasanyquestions'] = '無効なコンテクストが「question_context_has_any_questions」に移動しました。';
 $string['linkedfiledoesntexist'] = 'リンクファイル $a がありません。';
 $string['makechildof'] = '「 $a 」の子にする';
 $string['maketoplevelitem'] = 'トップレベルに移動する';
@@ -43,6 +46,7 @@ $string['missingimportantcode'] = 'この問題タイプには、重要なコー
 $string['modified'] = '最終更新日時';
 $string['move'] = '$a から移動およびリンクを変更する。';
 $string['movecategory'] = 'カテゴリを移動する';
+$string['movedquestionsandcategories'] = '問題および問題カテゴリを $a->oldplace から $a->newplace に移動しました。';
 $string['movelinksonly'] = 'リンクが指している場所のみ変更して、ファイルを移動およびコピーしない。';
 $string['moveq'] = '問題を移動する';
 $string['moveqtoanothercontext'] = '問題を他のコンテクストに移動する';
@@ -64,8 +68,12 @@ $string['permissionto'] = 'あなたのパーミッションは下記のとお�
 $string['published'] = '共有';
 $string['questionaffected'] = '<a href=\"$a->qurl\">問題「 $a->name」($a->qtype)</a> は、この問題カテゴリ内にありますが、別のコース「 $a->coursename 」の <a href=\"$a->qurl\">小テスト「 $a->quizname 」</a> でも使用されています。';
 $string['questionbank'] = '問題バンク';
+$string['questioncategory'] = '問題カテゴリ';
 $string['questioncatsfor'] = '「 $a 」の問題カテゴリ';
 $string['questiondoesnotexist'] = 'この問題は存在しません。';
+$string['questionsmovedto'] = 'まだ使用されている問題が、親コースカテゴリの「 $a 」に移動されました。';
+$string['questionsrescuedfrom'] = '問題がコンテクスト $a より保存されました。';
+$string['questionsrescuedfrominfo'] = 'いくつかの小テストまたは他の活動で使用されているため、これらの問題 (いくつかは非表示) は、コンテクスト $a の削除時に保存されました。';
 $string['questionuse'] = 'この活動で問題を使用する';
 $string['shareincontext'] = '$a でコンテクストを共有する';
 $string['tofilecategory'] = 'カテゴリをファイルに書く';

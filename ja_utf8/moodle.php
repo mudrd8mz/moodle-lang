@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080513) (2008051201)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -189,8 +189,11 @@ $string['cancelled'] = 'キャンセルされました。';
 $string['categories'] = 'コースカテゴリ';
 $string['category'] = 'カテゴリ';
 $string['categoryadded'] = '「 $a 」 が追加されました。';
+$string['categorycontents'] = 'サブカテゴリおよびコース';
+$string['categorycurrentcontents'] = '$a のコンテンツ';
 $string['categorydeleted'] = '「 $a 」 が削除されました。';
 $string['categoryduplicate'] = '「$a」はすでに登録されています!';
+$string['categorymodifiedcancel'] = 'カテゴリは変更されました! キャンセルの後、再度お試しください。';
 $string['categoryname'] = 'カテゴリ名';
 $string['categoryupdated'] = 'カテゴリ「 $a 」が更新されました。';
 $string['changedpassword'] = 'パスワードを変更しました。';
@@ -368,7 +371,9 @@ $string['delete'] = '削除';
 $string['deleteall'] = 'すべてを削除する';
 $string['deleteallcomments'] = 'すべてのコメントを削除する';
 $string['deleteallratings'] = 'すべての評価を削除する';
+$string['deletecategory'] = 'カテゴリの削除: $a';
 $string['deletecategorycheck'] = '本当にこのカテゴリ<b>「 $a 」</b>を完全に削除してもよろしいですか? 親カテゴリがある場合、このカテゴリ内のすべてのコースが親カテゴリに移動されます。親カテゴリが無い場合、その他のカテゴリに移動されます。';
+$string['deletecategorycheck2'] = 'このカテゴリを削除した場合、あなたは、カテゴリが含んでいるコースおよびサブカテゴリをどのようにするか選択する必要があります。';
 $string['deletecheck'] = '$a を削除してもよろしいですか?';
 $string['deletecheckfiles'] = '本当にこれらのファイルを削除してもよろしいですか?';
 $string['deletecheckfull'] = '本当に $a を完全に削除してもよろしいですか?';
@@ -935,6 +940,7 @@ $string['moreinformation'] = 'このエラーに関する詳細情報';
 $string['moreprofileinfoneeded'] = 'あなたのことをもっと教えてください。';
 $string['mostrecently'] = '直近の';
 $string['move'] = '移動';
+$string['movecategorycontentto'] = '移動先';
 $string['movecategoryto'] = 'カテゴリの移動:';
 $string['movecourseto'] = 'コースの移動:';
 $string['movedown'] = '下へ';
