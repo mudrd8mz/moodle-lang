@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (2007101506)
+      // form.php - created with Moodle 2.0 dev (Build: 20080517) (2008051202)
 
 
-$string['addfields'] = '양식에 $a 필드 추가';
+$string['addfields'] = '서식에 $a 필드 추가';
 $string['advancedelement'] = '상세 항목';
 $string['day'] = '일';
 $string['display'] = '표시';
@@ -23,8 +23,9 @@ $string['minute'] = '분';
 $string['miscellaneoussettings'] = '기타 설정';
 $string['modstandardels'] = '일반 모듈 설정';
 $string['month'] = '월';
-$string['nomethodforaddinghelpbutton'] = '양식 요소 $a->name (학급 $a->classname)에 도움말 단추를 추가할 방법이 없습니다.';
-$string['nonexistentformelements'] = '존재하지 않는 양식 요소 $a 에 도움말 단추를 추가하려 함';
+$string['mustbeoverriden'] = '클래스 $a 에 있는 form_definition()의 축약방법이 재조정되어야 하므로 코드를 고치기 바랍니다.';
+$string['nomethodforaddinghelpbutton'] = '서식 내용 $a->name (학급 $a->classname)에 도움말 단추를 추가할 방법이 없습니다.';
+$string['nonexistentformelements'] = '없는 서식 내용 $a 에 도움말 단추를 추가하려 함';
 $string['optional'] = '선택사항';
 $string['othersettings'] = '기타 설정';
 $string['requiredelement'] = '필수 항목';

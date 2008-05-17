@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
+      // question.php - created with Moodle 2.0 dev (Build: 20080517) (2008051202)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제점 보고서';
@@ -52,7 +52,7 @@ $string['missingimportantcode'] = '본 문항 유형은 다음과 같은 주요 
 $string['modified'] = '수정됨';
 $string['move'] = '$a 에서 이동되어 링크가 변경';
 $string['movecategory'] = '범주 이동';
-$string['movedquestionsandcategories'] = '$a->oldplace 에서 $a->newplace 로 이동된 문항 및 범주';
+$string['movedquestionsandcategories'] = '$a->oldplace 에서 $a->newplace 로 문항 및 범주 이동';
 $string['movelinksonly'] = '링크의 연결점만 변경시키고 파일을 복사하거나 이동시키지 마십시오.';
 $string['moveq'] = '문항 이동';
 $string['moveqtoanothercontext'] = '다른 맥락으로 문항 이동';

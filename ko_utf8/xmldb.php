@@ -1,21 +1,25 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (2007101506)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20080517) (2008051202)
 
 
 $string['aftertable'] = '다음 표 :';
 $string['back'] = '뒤로';
 $string['backtomainview'] = '주화면으로';
 $string['binaryincorrectlength'] = '바이너리 필드의 길이가 바르지 않음';
+$string['butis'] = '현재값';
 $string['cannotuseidfield'] = '\"id\"필드에 입력할 수 없음. 자동 숫자 컬럼임';
 $string['change'] = '변경';
 $string['charincorrectlength'] = '문자 필드의 길이가 바르지 않음';
 $string['check_bigints'] = '잘못된 DB 정수 찾기';
+$string['check_defaults'] = '일관성이 결여된 기본값 찾기';
 $string['check_indexes'] = '누락된 DB 인덱스 찾기';
 $string['checkbigints'] = 'Bigints 체크';
+$string['checkdefaults'] = '기본사항 점검';
 $string['checkindexes'] = '인덱스 확인';
 $string['completelogbelow'] = '(검색에 대한 전체 로그는 하단 참조)';
 $string['confirmcheckbigints'] = '이 기능은 무들 서버에서 <a href=\"http://tracker.moodle.org/browse/MDL-11038\">가망성있는 잘못된 정수</a>를 검색해서 DB에서 모든 정수들이 적절히 정의되도록 필요한 SQL 문장을 자동적으로 만들어 줍니다. 일단 만들어진 문장을 복사해서 사용자의 SQL 인터페이스를 사용하여 실행합니다(데이터백업권장). 잘못된 정수를 검색하기 전에 가능한 최신 무들판을 사용하기를 권장합니다.<br /><br /> 이 기능은 DB에 어떤 조치도 취하지 않으므로 아무때나 안전하게 실행할 수 있습니다';
-$string['confirmcheckindexes'] = '이 기능은 무들 서버에서 가망성있는 누락된 인덱스를 검색해서 모든것이 갱신되는데 필요한 SQL 문장을 자동적으로 만들어 줍니다. 일단 만들어진 문장을 복사해서 사용자의 SQL 인터페이스를 사용하여 실행합니다(데이터 백업권장). 누락된 인덱스를 검색하기 전에 가능한 최신 무들판을 사용하기를 권장합니다.<br /><br /> 이 기능은 DB에 어떤 조치도 취하지 않으므로 아무때나 안전하게 실행할 수 있습니다.';
+$string['confirmcheckdefaults'] = '이 기능은 서버의 일관성 없는 초기값을 검색하여, 이들이 제대로 정의될 수 있게끔 필요한 SQL질의를 자동적으로 생성(실행은 하지 않음!)해 낼 것입니다.<br /><br />일단 만들어진 문장을 복사해서 사용자의 SQL 인터페이스를 사용하여 실행할 수 있습니다(데이터 백업권장).<br /><br />잘못된 초기값을 검색하기 전에 되도록 무들의 최신판(+판)을 사용하기 바랍니다.<br /><br /> 이 기능은 DB에 어떤 조치도 취하지 않으므로 아무때나 안전하게 실행할 수 있습니다.';
+$string['confirmcheckindexes'] = '이 기능은 서버에 있을지도 모르는 누락된 인덱스를 검색해서, 빠짐없이 갱신되는데 필요한 SQL질의를 자동적으로 생성(실행은 하지 않음!)해 낼 것입니다..<br /><br />일단 만들어진 문장을 복사해서 사용자의 SQL 인터페이스를 사용하여 실행할 수 있습니다(데이터 백업권장). 누락된 인덱스를 검색하기 전에 되도록 무들의 최신판(+판)을 사용하기 바랍니다.<br /><br />이 기능은 DB에 어떤 조치도 취하지 않으므로 아무때나 안전하게 실행할 수 있습니다.';
 $string['confirmdeletefield'] = '필드 삭제 확인 :';
 $string['confirmdeleteindex'] = '인덱스 삭제 확인 :';
 $string['confirmdeletekey'] = '키 삭제 확인 :';
@@ -51,7 +55,7 @@ $string['enumvaluesincorrect'] = '영숫자 필드에 옳지 않은 값';
 $string['field'] = '필드';
 $string['fieldnameempty'] = '필드명 없음';
 $string['fields'] = '필드들';
-$string['fieldsusedinkey'] = '[[/var/www/moodle/lang/en_utf8/xmldb.php의 60번째 줄에 불완전한 문자열]]';
+$string['fieldsusedinkey'] = '[[/var/www/moodle/lang/en_utf8/xmldb.php의 67번째 줄에 불완전한 문자열]]';
 $string['filenotwriteable'] = '기록할 수 없는 파일';
 $string['floatincorrectdecimals'] = '부동소숫점 필드에 적합하지 않는 십진수';
 $string['floatincorrectlength'] = '부동소숫점 필드에 적합하지 않은 길이';
@@ -82,8 +86,9 @@ $string['newsentence'] = '새 문장';
 $string['newstatement'] = '새 선언문';
 $string['newtable'] = '새 테이블';
 $string['newtablefrommysql'] = 'MySQL의 새 테이블';
-$string['nomissingindexesfound'] = '누락된 인덱스가 발견되지 않았습니다. 당신의 DB는 추가 조치가 필요하지 않습니다.';
-$string['nowrongintsfound'] = '잘못된 정수가 발견되지 않았습니다. DB에 추가적인 조치가 필요하지 않습니다.';
+$string['nomissingindexesfound'] = '누락된 인덱스가 발견되지 않았으므로, DB는 추가 조치가 필요하지 않습니다.';
+$string['nowrongdefaultsfound'] = '잘못된 초기값이 발견되지 않았으므로, DB는 추가 조치가 필요하지 않습니다.';
+$string['nowrongintsfound'] = '잘못된 정수가 발견되지 않았으므로, DB는 추가 조치가 필요하지 않습니다.';
 $string['numberincorrectdecimals'] = '숫자 필드에 적합하지 않은 십진수';
 $string['numberincorrectlength'] = '숫자 필드에 맞지 않는 길이';
 $string['reserved'] = '유보됨';
@@ -99,6 +104,7 @@ $string['selectonecommand'] = 'PHP코드를 보려면 목록에서 하나의 작
 $string['selectonefieldkeyindex'] = 'PHP코드를 보려면 목록에서 하나의 필드/키/인덱스를 선택하세요.';
 $string['selecttable'] = '데이블 선택 :';
 $string['sentences'] = '문장';
+$string['shouldbe'] = '고칠값';
 $string['statements'] = '선언문';
 $string['statementtable'] = '선언 테이블 :';
 $string['statementtype'] = '선언유형 :';
@@ -119,11 +125,13 @@ $string['vieworiginal'] = '원본 보기';
 $string['viewphpcode'] = 'PHP 코드 보기';
 $string['viewsqlcode'] = 'SQL 코드 보기';
 $string['wrong'] = '틀림';
-$string['wrongints'] = 'enum 필드에대한 틀린 길이';
+$string['wrongdefaults'] = '잘못된 기본값 발견';
+$string['wrongints'] = '잘못된 인수 발견';
 $string['wronglengthforenum'] = '영숫자 필드에 적합하지 안은 길이';
 $string['wrongnumberoffieldsorvalues'] = '문장에 적합하지 않은 필드 수 혹은 값';
 $string['wrongreservedwords'] = '현재 사용되고 있는 유보 단어들<br />($CFG->prefix 를 쓸 경우에는 테이블명은 중요하지 않다는 점을 유의하라)';
-$string['yesmissingindexesfound'] = '누락된 인덱스가 당신의 DB에서 발견되었습니다. 자세한 사항은 다음과 같으며 모든것을 생성하기 위한 SQL 문장을 당신이 사용하고 있는 SQL 인터페이스로 실행하기 바랍니다. 그 다음 더 이상의 누락된 인덱스가 없는지를 확인하기 위하여 이 유틸리티를 다시한번 실행할 것을 권장합니다.';
-$string['yeswrongintsfound'] = '잘못된 정수가 당신의 DB에서 발견되었습니다. 자세한 사항은 다음과 같으며 모든것을 생성하기 위한 SQL 문장을 당신이 사용하고 있는 SQL 인터페이스로 실행하기 바랍니다. 그 다음 더 이상의 잘못된 정수가 없는지를 확인하기 위하여 이 유틸리티를 다시한번 실행할 것을 권장합니다.';
+$string['yesmissingindexesfound'] = '누락된 인덱스가 당신의 DB에서 발견되었습니다. 자세한 사항은 다음과 같으며 필요한 SQL질의를 당신이 사용하고 있는 SQL 인터페이스로 실행하기 바랍니다.<br /><br />그 다음 더 이상의 누락된 인덱스가 없는지 확인하기 위하여 이 유틸리티를 다시한번 실행할 것을 권합니다.';
+$string['yeswrongdefaultsfound'] = '잘못된 초기값이 DB에서 발견되었습니다. 자세한 사항은 다음과 같으며 필요한 SQL질의를 당신이 사용하고 있는 SQL 인터페이스로 실행하기 바랍니다.<br /><br />그 다음 더 이상의 잘못된 초기값이 없는지 확인하기 위하여 이 유틸리티를 다시한번 실행할 것을 권합니다.';
+$string['yeswrongintsfound'] = '잘못된 인수가 당신의 DB에서 발견되었습니다. 자세한 사항은 다음과 같으며 필요한 SQL질의를 당신이 사용하고 있는 SQL 인터페이스로 실행하기 바랍니다.<br /><br />그 다음 더 이상의 잘못된 정수가 없는지를 확인하기 위하여 이 유틸리티를 다시한번 실행할 것을 권합니다.';
 
 ?>
