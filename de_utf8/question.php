@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
+      // question.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
 $string['broken'] = 'Dies ist ein ungültiger Link, der auf eine nicht existierende Datei zeigt.';
 $string['byandon'] = 'von <em>$a->user</em> - <em>$a->time</em>';
+$string['cannotcreate'] = 'Es konnte kein Eintrag in der Datenbanktabelle für Testversuche (question_attempts) angelegt werden.';
+$string['cannotinsert'] = 'Es konnte kein Eintrag in question_sessions erstellt werden.';
+$string['cannotsavequiz'] = 'Der letzte Testversuch konnte nicht gespeichert  werden!';
 $string['categorycurrent'] = 'Aktuelle Kategorie';
 $string['categorycurrentuse'] = 'Diese Kategorie benutzen';
 $string['categorydoesnotexist'] = 'Diese Kategorie gibt es nicht';
@@ -19,22 +22,29 @@ $string['cwrqpfsinfo'] = '<p>Beim Update auf Moodle 1.9 werden Kategorien, in de
 $string['cwrqpfsnoprob'] = 'Es sind keine Fragenkategorien von der Funktion \"Zufallsfragenauswahl aus untergeordnete Kategorien\" betroffen.';
 $string['defaultfor'] = 'Standard für $a';
 $string['defaultinfofor'] = 'Standardkategorie für Fragen, die im Kontext \'$a\' freigegeben sind.';
+$string['deletecoursecategorywithquestions'] = 'In dieser Kurskategorie sind Fragen in der Testfragendatenbank hinterlegt. Wenn Sie nun fortfahren, werden diese gelöscht. Über die Testfragenverwaltung können diese  von Ihnen verschoben werden.';
 $string['donothing'] = 'Keine Dateien kopieren oder verschieben. Keine Links ändern.';
 $string['editingcategory'] = 'Kategorie bearbeiten';
 $string['editingquestion'] = 'Frage bearbeiten';
 $string['erroraccessingcontext'] = 'Kein Zugriff auf den Kontext';
+$string['errordeletingquestionsfromcategory'] = 'Fehler beim Löschen von Fragen in der Kategorie $a.';
 $string['errorfilecannotbecopied'] = 'Fehler: Datei $a kann nicht kopiert werden.';
 $string['errorfilecannotbemoved'] = 'Fehler: Datei $a kann nicht verschoben werden.';
 $string['errorfileschanged'] = 'Die von einigen Fragen verlinkten Fehlerdateien wurden geändert, nachdem das Formular gezeigt wurde.';
+$string['errormanualgradeoutofrange'] = 'Die Bewertung $a->grade für die Frage $a->name liegt nicht zwischen \'0\' und §a->maxgrade. Punkte und Kommentare wurde nicht gespeichert.';
 $string['errormovingquestions'] = 'Fehler beim Verschieben von Fragen mit Ids $a.';
+$string['errorsavingcomment'] = 'Fehler beim Speichern des Kommentars für Frage $a->name.';
+$string['errorupdatingattempt'] = 'Fehler beim Speichern des Kommentars zu frage $a->name in der Datenbank.';
 $string['exportcategory'] = 'Kategorie exportieren';
 $string['filesareacourse'] = 'Dateibereich im Kurs';
 $string['filesareasite'] = 'Dateibereich der Website';
 $string['filestomove'] = 'Dateien nach $a kopieren / verschieben?';
+$string['formquestionnotinids'] = 'Die angefragte Frage ist nicht in quiestionids vermerkt.';
 $string['fractionsnomax'] = 'Eine der Antworten sollte mit 100%% bewertet werden, um für die Beantwortung der Frage die volle Punktzahl bekommen zu können.';
 $string['getcategoryfromfile'] = 'Kategorie aus Datei holen';
 $string['getcontextfromfile'] = 'Kontext aus Datei holen';
 $string['ignorebroken'] = 'Ungültige Links ignorieren';
+$string['invalidcontextinhasanyquestions'] = 'Ungültiger Kontext für question_context_has_any_questions.';
 $string['linkedfiledoesntexist'] = 'Verbundene Datei $a existiert nicht';
 $string['makechildof'] = 'Unterkategorie  von \'$a\' erzeugen';
 $string['maketoplevelitem'] = 'Nach ganz oben bewegen';
@@ -42,6 +52,7 @@ $string['missingimportantcode'] = 'Für diesem Fragentyp fehlt wichtiger Code: $
 $string['modified'] = 'Verändert';
 $string['move'] = 'Aus $a verschieben und Links ändern.';
 $string['movecategory'] = 'Kategorie verschieben';
+$string['movedquestionsandcategories'] = 'Fragen und Fragenkategorien wurden von $a->oldplace nach $a->newplace verschoben.';
 $string['movelinksonly'] = 'Verändert die Angabe auf die Links verweisen. Verschiebt oder kopiert keine Dateien.';
 $string['moveq'] = 'Frage(n) verschieben';
 $string['moveqtoanothercontext'] = 'Frage in einen anderen Kontext verschieben';
@@ -63,8 +74,12 @@ $string['permissionto'] = 'Sie besitzen Berechtigungen für :';
 $string['published'] = 'Freigegeben';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Die Frage \"$a->name\" ($a->qtype)</a> gehört zu dieser Fragenkategorie. Sie wird aber auch im <a href=\"$a->qurl\">Test \"$a->quizname\"</a> innerhalb des Kurses \"$a->coursename\" benutzt.';
 $string['questionbank'] = 'Fragenliste';
+$string['questioncategory'] = 'Fragenkategorie';
 $string['questioncatsfor'] = 'Fragenkategorien für \'$a\'';
 $string['questiondoesnotexist'] = 'Diese Frage gibt es nicht';
+$string['questionsmovedto'] = 'In Gebrauch befindliche Fragen wurden nach \"$a\" in der Kategorie verschoben.';
+$string['questionsrescuedfrom'] = 'Fragen aus Kontext $a gespeichert.';
+$string['questionsrescuedfrominfo'] = 'Diese Fragen (einige mögen verborgen sein)  wurden gespeichert als der Kontext $a gelöscht wurde, da sie in Tests oder anderen Aktivitäten in Gebrauch sind.';
 $string['questionuse'] = 'Frage in dieser Aktivität benutzen';
 $string['shareincontext'] = 'Im Kontext von $a freigeben';
 $string['tofilecategory'] = 'Kategorie in eine Datei schreiben';

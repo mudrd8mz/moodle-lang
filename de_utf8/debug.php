@@ -2,6 +2,7 @@
       // debug.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
+$string['cannotdowngrade'] = 'Ein Downgrade von $a[0] nach $a[1] ist nicht möglich.';
 $string['cannotfindadmin'] = 'Der Nutzer Admin konnte nicht gefunden werden!';
 $string['cannotsetupsite'] = 'Schwerwiegender Fehler: Die Website konnte nicht eingerichtet werden!';
 $string['cannotupdaterelease'] = 'Fehler: Die Release-Version der Datenbank konnte nicht aktualisiert werden!';
@@ -15,7 +16,11 @@ $string['dbnotupdate'] = 'Datenbankfehler - \"$a\" konnte nicht aktualisiert wer
 $string['doesnotworkwitholdversion'] = 'Dieses Script arbeitet nicht mit dieser alten Version von Moodle.';
 $string['erroroccur'] = 'Ein Fehler ist während des Vorgangs aufgetreten.';
 $string['fixsetting'] = 'Bitte korrigieren Sie die Einstellungen in der Datei config.php: <p>Aktuell vorhanden: </p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>aber das sollte geändert werden in: </p> <p>$CFG->dirroot = \"$a[1]\"</p>';
+$string['noblockbase'] = 'Die Klasse block_base ist nicht definiert oder eine Datei für /blocks/moodleblock.class.php  kann nicht gefunden werden.';
+$string['noblocks'] = 'Keine Blocks installiert!';
+$string['nocaps'] = 'Fehler: keine Fähigkeiten definiert!';
 $string['nomodules'] = 'Keine Module gefunden!';
+$string['noreports'] = 'Kein Zugriff auf Berichte';
 $string['notables'] = 'Keine Tabellen!';
 $string['phpvaroff'] = 'Die PHP Server Variable \'$a[0]\' sollte auf  Off - $a[1] gesetzt werden.';
 $string['phpvaron'] = 'Die PHP Server Variable \'$a[0]\' sollte auf  On - $a[1] gesetzt werden.';

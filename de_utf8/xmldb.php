@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['aftertable'] = 'Nach Tabelle:';
@@ -10,14 +10,20 @@ $string['cannotuseidfield'] = 'Feld \'id\' kann nicht eingefügt werden. Es hand
 $string['change'] = 'Ändern';
 $string['charincorrectlength'] = 'Falsche Feldlänge (char)';
 $string['check_bigints'] = 'Ungültige DB-Werten suchen';
+$string['check_defaults'] = 'Inkonsistente Defaultwerte suchen';
 $string['check_indexes'] = 'Fehlende Datenbank-Indizes suchen';
 $string['checkbigints'] = 'Zahlen prüfen';
+$string['checkdefaults'] = 'Defaults prüfen';
 $string['checkindexes'] = 'Indizes prüfen';
 $string['completelogbelow'] = '(das vollständige Suchprotokoll folgt)';
 $string['confirmcheckbigints'] = 'Diese Funktion sucht nach <a href=\"http://tracker.moodle.org/browse/MDL-11038\"> möglicherweise ungültigen Zahlenwerten</a> in Ihrem Moodle-Server und erzeugt automatisch die notwendigen SQL-Anweisungen, um die Werte in der Datenbank zu korrigieren (die SQL-Anweisungen werden erzeugt, aber nicht ausgeführt!). <br /><br />
 Nachdem die Anweisungen erzeugt wurden, können Sie diese kopieren und sie sicher in Ihrer bevorzugten SQL-Oberfläche ausführen (vergessen Sie bitte nicht, Ihre Daten vorher zu sichern!!). <br /><br />
 Es wird dringend empfohlen, auf die jeweils neueste Variante Ihrer Moodle-Version (1.8, 1.9, 2.x ...) zu updaten, bevor Sie die Suche nach ungültigen Werten durchführen.<br /><br />
 Die Funktion führt selber keinerlei Aktionen mit der Datenbank durch (außer  lesend auf sie zuzugreifen), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
+$string['confirmcheckdefaults'] = 'Diese Funktion sucht nach inkonsistenten Defaultwerten in der Datenbank und erstellt ein SQL-Statement zur Korrektur dieser Werte, ohne jedoch automatisch die SQL Anpassungen vorzunehmen. <br/><br/>
+Wenn die Prüfung ausgeführt und das SQL Statement erstellt wurde können Sie mit dieses mit dem Werkzeug Ihrer Wahl in der Datenbank ausführen. Vorher unbedingt ein Backup der Datenbank erstellen. <br/><br/>
+Es ist sehr wichtig zuvor die letzte (+Version) des Moodle Releases (1.8;1.9;2.x...) zu installieren, um nicht falsch integer-Werte zu verwenden. <br/><br/>
+Diese Prüfung verändert keine Einstellungen und Inhalte in Ihrer Datenbank. Es werden nur bestehende Einstellungen gelesen. Die Prüfung kann also jederzeit ausgeführt werden.';
 $string['confirmcheckindexes'] = 'Diese Funktion sucht nach möglicherweise fehlenden Indizes in Ihrem Moodle-Server, wobei die nötigen SQL-Anweisungen für ein Update automatisch erzeugt (aber nicht ausgeführt) werden. Nachdem die Anweisungen erzeugt sind, können Sie sie kopieren und in Ihrem bevorzugten SQL-Zugang ausführen.<br /><br />
 Es wird dringend empfohlen, die neueste verfügbare +Version zu Ihrem Moodle-Release (1.8, 1.9, 2.x ...) zu installieren, bevor Sie die Suche nach fehlenden Indizes starten.<br /><br />
 Die Funktion führt keine SQL-Anweisungen auf Ihrer Datenbank aus (außer dass sie lesend zugreift), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
@@ -43,6 +49,7 @@ $string['delete_xml_file'] = 'XML-Datei löschen';
 $string['down'] = 'Nach unten';
 $string['duplicate'] = 'Kopieren';
 $string['duplicatefieldname'] = 'Es existiert bereits ein anderes Feld mit diesem Namen';
+$string['duplicatekeyname'] = 'Es existiert bereits ein anderer Schlüssel mit diesem Namen';
 $string['edit'] = 'Bearbeiten';
 $string['edit_field'] = 'Feld bearbeiten';
 $string['edit_index'] = 'Index bearbeiten';
@@ -55,6 +62,7 @@ $string['enumvaluesincorrect'] = 'Ungültige Feldwerte (enum)';
 $string['field'] = 'Feld';
 $string['fieldnameempty'] = 'Feldname ist leer';
 $string['fields'] = 'Felder';
+$string['fieldsusedinkey'] = '[[unvollständiger Sprachstring in Zeile \' . __LINE__ . \' in \' . __FILE__ . \']]';
 $string['filenotwriteable'] = 'Datei ist schreibgeschützt';
 $string['floatincorrectdecimals'] = 'Falsche Anzahl von Nachkommazahlen (float)';
 $string['floatincorrectlength'] = 'Falsche Feldlänge (float)';
@@ -86,6 +94,7 @@ $string['newstatement'] = 'Neue Anweisung';
 $string['newtable'] = 'Neue Tabelle';
 $string['newtablefrommysql'] = 'Neue Tabelle aus MySQL';
 $string['nomissingindexesfound'] = 'Es wurden keine fehlenden Indizes gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
+$string['nowrongdefaultsfound'] = 'Es wurden keine inkonsistenten Defaultwerte gefunden. die Datenbank benötigt keine weiter Bearbeitung.';
 $string['nowrongintsfound'] = 'Es wurden keine ungültigen Zahlenwerte (integer) gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
 $string['numberincorrectdecimals'] = 'Falsche Anzahl von Stellen (number)';
 $string['numberincorrectlength'] = 'Falsche Feldlänge (number)';
@@ -102,6 +111,7 @@ $string['selectonecommand'] = 'Wählen Sie bitte eine Aktion aus, um den PHP-Cod
 $string['selectonefieldkeyindex'] = 'Wählen Sie bitte ein Feld/Schlüssel/Index aus, um den PHP-Code anzusehen.';
 $string['selecttable'] = 'Tabelle auswählen:';
 $string['sentences'] = 'Sätze';
+$string['shouldbe'] = 'sollte sein';
 $string['statements'] = 'Anweisungen';
 $string['statementtable'] = 'Anweisungstabelle:';
 $string['statementtype'] = 'Anweisungstyp:';
@@ -122,14 +132,15 @@ $string['vieworiginal'] = 'Original anzeigen';
 $string['viewphpcode'] = 'PHP-Code anzeigen';
 $string['viewsqlcode'] = 'SQL-Code anzeigen';
 $string['wrong'] = 'Falsch';
+$string['wrongdefaults'] = 'Falsche Defaults gefunden';
 $string['wrongints'] = 'Falsche Zahlen gefunden';
 $string['wronglengthforenum'] = 'Falsche Feldlänge (enum)';
 $string['wrongnumberoffieldsorvalues'] = 'Falsche Anzahl von Feldern oder Werten in Satz';
 $string['wrongreservedwords'] = 'Derzeit verwendete reservierte Wörter <br />(die Tabellennamen sind nicht wichtig, wenn $CFG->prefix genutzt wird)';
 $string['yesmissingindexesfound'] = 'Einige fehlende Indizes wurden in Ihrer Datenbank gefunden. Es folgen genauere Einzelheiten und die nötigen SQL-Anweisungen, die Sie mit Ihrem bevorzugten SQL-Werkzeug ausführen müssen, um alle Indizes zu erzeugen.<br /><br />
 Es wird dringend empfohlen, die Suche nach fehlenden Indizes danach noch einmal auszuführen.';
+$string['yeswrongdefaultsfound'] = 'Es wurden einige inkonsistente Defaultwerte in der Datenbank gefunden. Im folgenden stehen die Details und das erforderliche SQL Statement für den von Ihnen genutzt Datenbanktyp. Vergessen Sie nicht ein Backup zu erstellen, bevor Sie diese Änderungen ausführen.<br/> <br/>
+Nachdem Sie das Statement ausgeführt haben, sollten sie diese Prüfung nochmals durchführen, um sicher zu gehen, ob nicht noch weitere Inkonsistenzen auftreten.';
 $string['yeswrongintsfound'] = 'In Ihrer Datenbank wurden mehrere ungültige Zahlenwerte gefunden. Es folgen die Details und die benötigten SQL-Befehle, die Sie in Ihrer bevorzugten SQL-Oberfläche ausführen müssen, um die Fehler zu beheben (vergessen Sie bitte nicht, vor der Korrektur eine Sicherungskopie Ihrer Daten anzulegen!!)<br /><br />Nach der Ausführung wird dringend empfohlen, dieses Werkzeug erneut aufzurufen, um sicher zu stellen, dass keine ungültige Zahlenwerte mehr gefunden werden.';
-$string['duplicatekeyname'] = 'Es existiert bereits ein anderer Schlüssel mit diesem Namen'; // ORPHANED
-$string['fieldsusedinkey'] = '[[unvollständiger Sprachstring in Zeile \' . __LINE__ . \' in \' . __FILE__ . \']]'; // ORPHANED
 
 ?>

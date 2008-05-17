@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // form.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['addfields'] = '$a Felder zum Formular hinzufügen';
@@ -23,6 +23,7 @@ $string['minute'] = 'Minute';
 $string['miscellaneoussettings'] = 'Verschiedene Einstellungen';
 $string['modstandardels'] = 'Weitere Modul-Einstellungen';
 $string['month'] = 'Monat';
+$string['mustbeoverriden'] = 'Die Methode form_definition() in der Klasse $a muss außer Kraft gesetzt werden. Bitte korrigieren Sie den Code.';
 $string['nomethodforaddinghelpbutton'] = 'Es gibt keine Möglichkeit, einen Hilfebutton zum Formularelement $a->name (class $a->classname) hinzuzufügen.';
 $string['nonexistentformelements'] = 'Sie versuchen einen Hilfebutton zu einem nicht existierenden Formularelement hinzuzufügen: $a.';
 $string['optional'] = 'Optional';
