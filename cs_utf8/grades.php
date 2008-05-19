@@ -1,11 +1,23 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta 2 (2007101504)
+      // grades.php - created with Moodle 1.9.1+ (Build: 20080519) (2007101513)
 
 
+$string['activities'] = 'Činnosti';
 $string['addcategory'] = 'Přidat kategorii';
 $string['addcategoryerror'] = 'Nepodařilo se přidat kategorii';
 $string['addexceptionerror'] = 'Vyskytla se chyba při přidávání výjimky pro userid:gradeitem';
+$string['addfeedback'] = 'Přidat komentář';
 $string['addgradeletter'] = 'Přidat slovní známku';
+$string['addidnumbers'] = 'Přidat identifikátory';
+$string['additem'] = 'Přidat položku hodnocení';
+$string['addoutcomeitem'] = 'Přidat výstup';
+$string['aggregateextracreditmean'] = 'Průměr známek (včetně známek navíc)';
+$string['aggregatemax'] = 'Nejvyšší známka';
+$string['aggregatemean'] = 'Průměr známek';
+$string['aggregatemedian'] = 'Medián známek';
+$string['aggregatemin'] = 'Nejnižší známka';
+$string['aggregatemode'] = 'Modus známek';
+$string['aggregateonlygraded'] = 'Do výsledné zahrnout pouze neprázdné známky';
 $string['allgrades'] = 'Všechny známky podle kategorie';
 $string['allstudents'] = 'Všichni studenti';
 $string['average'] = 'Průměr';
@@ -24,7 +36,6 @@ $string['dropped'] = 'Ignorováno';
 $string['dropxlowest'] = 'Ignorovat X nejhorších';
 $string['dropxlowestwarning'] = 'Pozn.: Pokud používáte funkci \'Ignorovat X nejhorších\', předpokládá se, že všechny položky v dané kategorii mají stejnou hodnotu počtu bodů. Pokud se tyto hodnoty liší, výsledky jsou nepředvídatelné.';
 $string['errorgradevaluenonnumeric'] = 'Nenumerická hodnota známky:';
-$string['errornocategorizedid'] = 'Nepodařilo se získat nezařazené id!';
 $string['errornocourse'] = 'Nepodařilo se získat informace o kurzu';
 $string['errorreprintheadersnonnumeric'] = 'Nenumerická hodnota v opakujícím se záhlaví';
 $string['exceptions'] = 'Výjimky';
@@ -127,5 +138,6 @@ $string['weightedpctcontribution'] = 'vážená';
 $string['writinggradebookinfo'] = 'Zapisuji nastavení klasifikace';
 $string['yes'] = 'Ano';
 $string['yourgrade'] = 'Vaše známka';
+$string['errornocategorizedid'] = 'Nepodařilo se získat nezařazené id!'; // ORPHANED
 
 ?>
