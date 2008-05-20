@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
+      // error.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
 $string['adminprimarynoedit'] = '主管理者は他のユーザから編集することはできません。';
@@ -9,11 +9,14 @@ $string['blockcannotconfig'] = 'このブロックは、グローバル設定を
 $string['blockcannotinistantiate'] = 'ブロックオブジェクトのインストール中に問題が発生しました。';
 $string['blockcannotread'] = 'ブロックID= $a のデータを読み込めませんでした。';
 $string['blockdoesnotexist'] = 'このブロックはありません。';
+$string['blocknameconflict'] = 'ネーミングコンフリクト: ブロック $a[0] には、既存のブロック $a[1] と同じタイトルが設定されています。';
 $string['cannofindgradeitem'] = '評定項目が見つかりません。';
+$string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!';
 $string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。';
 $string['cannotaddcoursemodule'] = '新しいコースモジュールを追加できませんでした。';
 $string['cannotaddnewmodule'] = '$a の新しいインスタンスを追加できませんでした。';
 $string['cannotaddrss'] = 'あなたには、RSSフィードを追加するパーミッションがありません。';
+$string['cannotassignanthing'] = 'moodle/site:doanythingを割り当てることができません。';
 $string['cannotassignrole'] = 'コース内でロールを割り当てることができません。';
 $string['cannotcreatebackupdir'] = 'バックアップデータフォルダを作成できませんでした。サイト管理者がファイルパーミッションを変更する必要があります。';
 $string['cannotcreatedefaultcat'] = 'コンテクスト $a のデフォルトカテゴリ作成中にエラーが発生しました。';
@@ -21,10 +24,13 @@ $string['cannotcreategroup'] = 'グループの作成中にエラーが発生し
 $string['cannotcreatelangbase'] = 'エラー: ベース言語ディレクトリを作成できませんでした。';
 $string['cannotcreatelangdir'] = 'langディレクトリを作成できません。';
 $string['cannotcreateorfindstructs'] = 'このコースのセクション構造の検出または作成中にエラーが発生しました。';
+$string['cannotcreatepopupwin'] = '未定義エレメント - ポップアップウィンドウを作成できません。';
 $string['cannotcreatesitedir'] = 'サイトフォルダを作成できません。サイト管理者は、ファイルパーミッションを修正する必要があります。';
 $string['cannotcreatetempdir'] = 'tempディレクトリを作成できません。';
+$string['cannotcreateuploaddir'] = 'アップロードフォルダを作成できません。サイト管理者は、ファイルパーミッションを修正する必要があります。';
 $string['cannotcustomizelocallang'] = 'あなたには翻訳ストリングをカスタマイズするパーミッションがありません。このパーミッションは、ケイパビリティ「moodle/site:langeditlocal」でコントロールされます。あなたのサイトの翻訳ストリングを修正したい場合、このケイパビリティを設定して、ローカル言語パックを編集できるようにしてください。';
 $string['cannotdeletebackupids'] = '前回のバックアップIDを削除できませんでした。';
+$string['cannotdeletecap'] = '廃止予定のケイパビリティ $a を削除できませんでした。';
 $string['cannotdeletecourse'] = 'あなたには、このコースを削除するパーミッションがありません。';
 $string['cannotdeletelangcache'] = '言語キャッシュを削除できません。dataroot/cache/languagesのパーミッションを修正してください!';
 $string['cannotdeleterole'] = '次の理由で削除できません: $a';
@@ -43,6 +49,7 @@ $string['cannotfindhelp'] = '言語helpファイル「 $a 」を見つけるこ�
 $string['cannotfindinfo'] = '次の情報が見つかりません: 「 $a 」';
 $string['cannotfindlang'] = '「 $a 」言語パックが見つかりません!';
 $string['cannotfindsite'] = 'サイトレベルのコースが見つかりません。';
+$string['cannotgetblock'] = 'データベースからブロックを検索できませんでした。';
 $string['cannotgetcats'] = 'カテゴリレコードの取得中にエラーが発生しました。';
 $string['cannotgradeuser'] = 'このユーザを評定できません。';
 $string['cannotimportgrade'] = '評定インポートエラー';
@@ -50,7 +57,10 @@ $string['cannotinsertrecord'] = 'レコードID $a のレコードを追加で�
 $string['cannotmapfield'] = 'マッピングの衝突が発生しました。2つのフィールドが同じ評定項目 $a にマップされています。';
 $string['cannotmarktopic'] = 'このコースのトピックをマークできませんでした。';
 $string['cannotmetacourse'] = '選択したコースを、このメタコースに追加できません!';
+$string['cannotmodulename'] = 'ビルドナビゲーションでモジュール名を取得できません。';
+$string['cannotmoduletype'] = 'ビルドナビゲーションでモジュールタイプを取得できません。';
 $string['cannotmoverolewithid'] = 'ID $a のロールを移動できません。';
+$string['cannotnetgeo'] = 'http://netgeo.caida.orgのNetGeoサーバに接続できません。プロクシ設定およびMaxMind GeoLite Cityデータファイルのインストールを確認してください。';
 $string['cannotopencsv'] = 'CSVファイルをオープンできません。';
 $string['cannotoverridebaserole'] = 'ベースロールのケイパビリティをオーバーライドできません。';
 $string['cannotreadfile'] = 'ファイルを読み込めません。';
@@ -59,6 +69,7 @@ $string['cannotremovefrommeta'] = 'このメタコースから、選択したコ
 $string['cannotrestore'] = 'エラーが発生したため、正常にリストアできませんでした!';
 $string['cannotrestoreadminorcreator'] = '新しいコースにリストアするには、あなたはコース作成者または管理者である必要があります!';
 $string['cannotrestoreadminoredit'] = '選択されたコースにリストアするには、あなたは編集権限のある教師または管理者である必要があります!';
+$string['cannotsaveblock'] = 'ブロック設定の保存中にエラーが発生しました。';
 $string['cannotsavecomment'] = 'コメントを保存できません。';
 $string['cannotsaveconfig'] = 'プラグイン「 $a[2] 」の設定「 $a[0] 」を「 $a[1] 」として保存中に問題が発生しました。';
 $string['cannotsavefile'] = 'ファイル「 $a 」を保存できません。';
@@ -68,8 +79,10 @@ $string['cannotsetprefgrade'] = 'この評定カテゴリの $a に総計表示�
 $string['cannotsetupblock'] = 'ブロックテーブルが正常に設定されませんでした!';
 $string['cannotsetupcategory'] = '重大なエラー! デフォルトのコースカテゴリを作成できませんでした!';
 $string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!';
+$string['cannotunassigncap'] = '廃止予定のケイパビリティ $a[0] をロール $a[1] から割り当て解除できませんでした。';
 $string['cannotunassignrolefrom'] = 'このユーザをロールID $a から割り当て解除できませんでした。';
 $string['cannotunzipfile'] = 'ZIPファイルを解凍できません。';
+$string['cannotupdateblock'] = 'ブロックテーブルのブロック $a レコードを更新できませんでした!';
 $string['cannotupdatecategory'] = 'カテゴリ ($a) を更新できませんでした。';
 $string['cannotupdatecm'] = 'コースモジュールを正しいセクションに更新できませんでした。';
 $string['cannotupdategroup'] = 'グループの更新中にエラーが発生しました。';
@@ -81,6 +94,8 @@ $string['cannotupdatesubcate'] = '子カテゴリを更新できませんでし�
 $string['cannotupdatesubcourse'] = '子コースを更新できませんでした!';
 $string['cannotupdatesummary'] = '要約を更新できませんでした!';
 $string['cannotupdateuser'] = 'ユーザの更新に失敗しました。';
+$string['cannotupgradeblock'] = 'ブロックシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした)';
+$string['cannotupgradecaps'] = 'ロールシステムのコアケイパビリティのアップグレード中に問題が発生しました。';
 $string['cannotuploadfile'] = 'ファイルのアップロード中にエラーが発生しました。';
 $string['cannotuseadmin'] = 'このページを使用するには、管理者である必要があります';
 $string['cannotuseadminadminorteacher'] = 'このページを使用するには、教師または管理者である必要があります';
@@ -100,6 +115,11 @@ $string['csvfewcolumns'] = 'カラムが不足しています、デリミタ設�
 $string['csvinvalidcols'] = '<b>無効なCSVファイル:</b> 最初の行には「ヘッダフィールド」を含み、ファイルタイプは<br />「カンマ区切りの拡張フィールド」<br />または<br />「CAVV結果コード (Cardholder Authentication Verification Value) を含むカンマ区切りの拡張フィールド」にする必要があります。';
 $string['csvinvalidcolsnum'] = '無効なCSVファイルフォーマット - それぞれの行には49または70フィールドを含む必要があります。';
 $string['csvweirdcolumns'] = '無効なCSVファイルフォーマット - カラム数が一定ではありません!';
+$string['dbconnectionfailed'] = '<p>エラー: データベースの接続に失敗しました。</p>
+<p>データベースがオーバーロードしているか、正常に動作していないことが考えられます。</p>
+<p>サイト管理者は、config.phpでデータベース詳細が正しく設定されているか確認してください。</p><p>$a</p>';
+$string['dbdriverproblem'] = '<p>エラー: データベースドライバに問題が見つかりました。</p>
+<p>サイト管理者は、サーバ設定を確認してください。</p><p>$a</p>';
 $string['dbupdatefailed'] = 'データベースの更新が失敗しました。';
 $string['destinationcmnotexit'] = '目的のコースモジュールがありません。';
 $string['downloadedfilecheckfailed'] = 'ダウンロードファイルのチェックが失敗しました。';
@@ -236,6 +256,10 @@ $string['pagenotexist'] = '異常なエラー (存在しないページへのア
 $string['pathdoesnotstartslash'] = '有効な引数が提供されていないか、パスがスラッシュで始まっていません!';
 $string['pleasereport'] = 'あなたに時間がある場合、エラーが発生したとき、あなたが何を試みたのか私たちにお教えください。';
 $string['pluginrequirementsnotmet'] = 'プラグイン 「 $a->pluginname 」 ($a->pluginversion) がインストールされませんでした。インストールするには、新しいバージョンのMoodleが必要です (現在使用しているバージョン: $a->currentmoodle  インストールに必要なバージョン: $a->requiremoodle)。';
+$string['prefixcannotbeempty'] = '<p>エラー: データベーステーブル接頭辞に空白は指定できません ($a)</p>
+<p>サイト管理者は、この問題を修正してください。</p>';
+$string['prefixtoolong'] = '<p>エラー: データベーステーブル接頭辞が長すぎます ($a->dbfamily)</p>
+<p>サイト管理者は、この問題を修正してください。$a->dbfamily のテーブル接頭辞の最大長は、半角 $a->maxlength 文字です。</p>';
 $string['processingstops'] = 'ここで処理が停止します。残りのレコードは無視されました。';
 $string['refoundto'] = '払戻し可能額: $a';
 $string['refoundtoorigi'] = '注文金額の払戻し: $a';
@@ -251,6 +275,7 @@ $string['sessionerroruser'] = 'セッションがタイムアウトしました�
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検知されました。再度ログインするかブラウザを再起動してください。';
 $string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。通常のユーザは、このメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
 $string['socksnotsupported'] = 'PHP4では、SOCKS5プロクシがサポートされていません。';
+$string['spellcheckernotconf'] = 'スペルチェッカが設定されていません。';
 $string['statscatchupmode'] = '統計は現在キャッチアップモードです。今までのところ $a->daysdone 日分が処理され、$a->dayspending 日分が未処理です。すぐに確認してください!';
 $string['statsdisable'] = '統計が有効にされていません。';
 $string['statsnodata'] = 'このコースおよび期間の組み合わせデータはありません。';
