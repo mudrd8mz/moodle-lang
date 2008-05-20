@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (2007101508)
+      // form.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
 $string['addfields'] = 'පොර්මයට ක්ෂේත්‍ර $a ක් එක් කරන්න';
@@ -8,9 +8,9 @@ $string['day'] = 'දිනය';
 $string['display'] = 'දර්ශණය';
 $string['err_alphanumeric'] = 'ඔබ මෙහි ඇතුලත් කල යුත්තේ අකුරු හෝ සංඛ්‍යා පමණි';
 $string['err_email'] = 'ඔබ මෙහි වලංගු ඊ-තැපැල් ලිපිනයක් ඇතුලත් කලු යුතුය.';
-$string['err_lettersonly'] = 'ඔබ මෙහි ඇතුලත් කල යුත්තේ අකුරු පමණි';
-$string['err_maxlength'] = 'ඔබ මෙහි ඇතුලත් කල යුත්තේ අකුරු $a->format ට නොවැඩි ගනණකි';
-$string['err_minlength'] = 'ඔබ මෙහි අවම වශයෙන් අකුරු $a->format ක් වත් ඇතුලු කල යුතුය';
+$string['err_lettersonly'] = 'ඔබ මෙහි ඇතුලත් කල යුත්තේ අක්ෂර පමණි';
+$string['err_maxlength'] = 'ඔබ මෙහි ඇතුලත් කල යුත්තේ අක්ෂර $a->format ට නොවැඩි ගනණකි';
+$string['err_minlength'] = 'ඔබ මෙහි අවම වශයෙන් අක්ෂර $a->format ක් වත් ඇතුලු කල යුතුය';
 $string['err_nonzero'] = 'ඔබ මෙහි 0 න් පටන් නොගන්නා සාඛ්‍යාවක් ඇතුලත් කල යුතුය.';
 $string['err_nopunctuation'] = 'ඔබ මෙහි කිසිදු විරාමලකුණක් ඇතුලත් නොකල යුතුය';
 $string['err_numeric'] = 'ඔබ මෙහි සංඛ්‍යාවක් ඇතුලු කල යුතුය';
@@ -23,6 +23,7 @@ $string['minute'] = 'මිනිත්තු';
 $string['miscellaneoussettings'] = 'විවිධ සිටුවම්';
 $string['modstandardels'] = 'පොදු මොඩියුල සිටුවම්';
 $string['month'] = 'මාසය';
+$string['mustbeoverriden'] = '$a පන්තියේ ඇති Abstract form_definition() ක්‍රමය යටපත් කල යුතුයි, කරුණාකර කේතය සාදන්න.';
 $string['nomethodforaddinghelpbutton'] = '$a->name (class $a->classname) පෝර්ම මූලිකාංශය සදහා උදව් බොත්තමක් එක් කිරීමට කිසිදු විධියක් නැත';
 $string['nonexistentformelements'] = 'නොපවතින පෝර්ම මූලිකාංශයක් ($a) සදහා උදව් බොත්තමක් එක් කිරීමට උත්සහ කරයි.';
 $string['optional'] = 'විකල්ප';
