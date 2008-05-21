@@ -30,6 +30,7 @@ $string['noadminrole'] = 'adminロールが見つかりませんでした。';
 $string['noblockbase'] = 'クラスblock_baseが定義されていないか、/blocks/moodleblock.class.phpのファイルが見つかりませんでした。';
 $string['noblocks'] = 'ブロックがインストールされていません!';
 $string['nocaps'] = 'エラー: ケイパビリティが定義されていません!';
+$string['nocate'] = 'カテゴリがありません!';
 $string['nomodules'] = 'モジュールが見つかりません!!';
 $string['nopageclass'] = '$a がインポートされましたが、ページクラスがありません。';
 $string['noreports'] = 'アクセスできるレポートはありません。';
