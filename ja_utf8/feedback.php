@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080428) (2008030700)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
 $string['add_item'] = '質問を追加する';
@@ -13,6 +13,7 @@ $string['anonymous_edit'] = 'ユーザ名を記録する';
 $string['anonymous_entries'] = '匿名エントリ';
 $string['anonymous_user'] = '匿名ユーザ';
 $string['append_new_items'] = '新しいアイテムを追加する';
+$string['autonumbering'] = 'それぞれの問題に自動番号付けする';
 $string['average'] = '平均';
 $string['bold'] = '太字';
 $string['cancel_moving'] = '移動をキャンセルする';
@@ -64,6 +65,7 @@ $string['feedback:deletesubmissions'] = '完了した送信を削除する';
 $string['feedback:deletetemplate'] = 'テンプレートを削除する';
 $string['feedback:edititems'] = 'アイテムを編集する';
 $string['feedback:mapcourse'] = 'コースをグローバルフィードバックにマップする';
+$string['feedback:receivemail'] = 'メール通知を受信する';
 $string['feedback:view'] = 'フィードバックを表示する';
 $string['feedback:viewreports'] = 'レポートを表示する';
 $string['feedback_is_not_open'] = 'フィードバックは利用できません。';
@@ -79,6 +81,8 @@ $string['horizontal'] = '水平';
 $string['import_questions'] = '質問をインポートする';
 $string['import_successfully'] = '正常にインポートされました。';
 $string['importfromthisfile'] = 'このファイルからインポートする';
+$string['info'] = '情報';
+$string['infotype'] = '情報タイプ';
 $string['insufficient_responses_for_this_group'] = 'このグループに対して不十分な回答があります。';
 $string['item_name'] = '質問';
 $string['items_are_required'] = 'アスタリスクが付けられた質問は必須回答です。';
@@ -148,6 +152,7 @@ $string['resetting_data'] = 'フィードバックをリセットする';
 $string['resetting_feedbacks'] = 'フィードバックのリセット';
 $string['response_nr'] = '回答No';
 $string['responses'] = '回答';
+$string['responsetime'] = '回答時間';
 $string['save_as_new_template'] = '新しいテンプレートとして保存する';
 $string['save_entries'] = 'あなたの回答を送信する';
 $string['save_item'] = '質問を保存する';
@@ -160,6 +165,7 @@ $string['separator_thousand'] = ',';
 $string['show_all'] = 'すべてを表示する';
 $string['show_entries'] = '回答を表示する';
 $string['show_entry'] = '回答を表示する';
+$string['site_after_submit'] = '回答送信後のサイト';
 $string['sort_by_course'] = 'コース名で並び替える';
 $string['start'] = '開始';
 $string['stop'] = '終了';

@@ -3,7 +3,7 @@
 
 
 $string['authpluginnotfound'] = '認証プラグイン $a が見つかりませんでした。';
-$string['cannotbenull'] = '$a にはnullを使用できません!';
+$string['cannotbenull'] = '$a には、nullを使用できません!';
 $string['cannotcreateadminuser'] = '深刻なエラー: adminユーザレコードを作成できませんでした!!!';
 $string['cannotdowngrade'] = '$a[0] から $a[1] にはダウングレードできません。';
 $string['cannotfindadmin'] = '管理ユーザが見つかりませんでした!';
@@ -25,13 +25,13 @@ $string['invalidarraysize'] = '$a の変数内の配列サイズが正しくあ�
 $string['invalideventdata'] = '正しくないイベントデータが送信されました: $a';
 $string['morethanonerecordinfetch'] = 'fetch() に1レコード以上のレコードが見つかりました!';
 $string['mustbeoveride'] = '抽象メソッド $a は、オーバーライドしてください。';
-$string['noactivityname'] = 'page_generic_activityによりページオブジェクトが生成されましたが、$this->activityname が定義されていません。';
+$string['noactivityname'] = 'page_generic_activityによりページオブジェクトが生成されましたが、$this->activitynameが定義されていません。';
 $string['noadminrole'] = 'adminロールが見つかりませんでした。';
-$string['noblockbase'] = 'Class block_baseが定義されていないか、/blocks/moodleblock.class.phpのファイルが見つかりませんでした。';
+$string['noblockbase'] = 'クラスblock_baseが定義されていないか、/blocks/moodleblock.class.phpのファイルが見つかりませんでした。';
 $string['noblocks'] = 'ブロックがインストールされていません!';
 $string['nocaps'] = 'エラー: ケイパビリティが定義されていません!';
 $string['nomodules'] = 'モジュールが見つかりません!!';
-$string['nopageclass'] = '$a がインポートされましたがページクラスがありません。';
+$string['nopageclass'] = '$a がインポートされましたが、ページクラスがありません。';
 $string['noreports'] = 'アクセスできるレポートはありません。';
 $string['notables'] = 'テーブルがありません!';
 $string['phpvaroff'] = 'PHPサーバ変数「 $a[0] 」をOffにしてください - $a[1]';
