@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // assignment.php - created with Moodle 1.9 + (Build: 20080507) (2007101509)
 
 
 $string['allowdeleting'] = 'Povolit odstraňování';
 $string['allowmaxfiles'] = 'Maximální počet nahraných souborů';
 $string['allownotes'] = 'Povolit poznámky';
 $string['allowresubmit'] = 'Umožnit znovuodevzdání';
+$string['alreadygraded'] = 'Váš úkol již byl oznámkován a znovuodevzdání není povoleno.';
 $string['assignment:grade'] = 'Známkovat úkoly';
 $string['assignment:submit'] = 'Odevzdávat úkoly';
 $string['assignment:view'] = 'Prohlížet úkoly';
@@ -18,6 +19,7 @@ $string['assignmentmailhtml'] = '$a->teacher ohodnotil(a) vaše vypracování ú
 $string['assignmentname'] = 'Název úkolu';
 $string['assignmenttype'] = 'Typ úkolu';
 $string['availabledate'] = 'Datum zpřístupnění';
+$string['cannotdeletefiles'] = 'Vyskytla se chyba, soubory nemohou být odstraněny';
 $string['comment'] = 'Komentář';
 $string['commentinline'] = 'Komentovat v textu';
 $string['configitemstocount'] = 'Jednotky, v nichž bude udáván rozsah odevzdaných prací u úkolu typu \'online text\'.';
@@ -42,12 +44,14 @@ $string['emailteachermailhtml'] = '$a->username upravil(a) své vypracování ú
 Aktualizované řešení je <a href=\"$a->url\">dostupné zde</a>.';
 $string['emailteachers'] = 'Upozorňovat učitele e-mailem';
 $string['emptysubmission'] = 'Zatím jste nic neodevzdali';
+$string['enableemailnotification'] = 'Zasílat oznamování emailem';
 $string['existingfiledeleted'] = 'Stávající soubor byl smazán: $a';
 $string['failedupdatefeedback'] = 'Selhala aktualizace hodnocení pro uživatele $a';
 $string['feedback'] = 'Hodnocení';
 $string['feedbackfromteacher'] = 'Hodnotil: $a';
 $string['feedbackupdated'] = 'Aktualizována hodnocení pro $a uživatelů';
 $string['finalize'] = 'Žádná další řešení';
+$string['finalizeerror'] = 'Vyskytla se chyba. Odevzdání nemůže být dokončeno';
 $string['graded'] = 'Udělena známka';
 $string['guestnosubmit'] = 'Hostům není povoleno odevzdávat úkoly. Pro odeslání úkolu se musíte přihlásit/registrovat.';
 $string['guestnoupload'] = 'Bohužel, hostům není povoleno odevzdávat soubory.';
@@ -71,6 +75,7 @@ $string['noassignments'] = 'Zatím nebyly odevzdány žádné úkoly';
 $string['noattempts'] = 'Tento úkol se zatím nikdo nepokusil odevzdat';
 $string['nofiles'] = 'Nebyly odeslány žádné vypracované úkoly';
 $string['nofilesyet'] = 'Zatím nebyly odeslány žádné vypracované úkoly';
+$string['nomoresubmissions'] = 'Další odevzdávání není povoleno';
 $string['nosubmitusers'] = 'Žádný uživatel nemá oprávnění zaslat řešení tohoto úkolu';
 $string['notavailableyet'] = 'Je mi líto, tento úkol zatím není dostupný.<br />Pokyny k vypracování se zde budou zobrazovat až od data zpřístupnění, které je uvedeno dále.';
 $string['notes'] = 'Poznámky';
@@ -99,11 +104,13 @@ $string['submitedformarking'] = 'Řešení již bylo odesláno k oznámkování 
 $string['submitformarking'] = 'Odeslat řešení k oznámkování';
 $string['submitted'] = 'Odevzdáno';
 $string['submittedfiles'] = 'Odevzdané soubory';
+$string['trackdrafts'] = 'Povolit Odeslání k oznámkování';
 $string['typeoffline'] = 'Offline činnost';
 $string['typeonline'] = 'Online text';
 $string['typeupload'] = 'Pokročilé nahrávání souborů';
 $string['typeuploadsingle'] = 'Odevzdat soubor';
 $string['unfinalize'] = 'Vrátit do stavu pracovní verze';
+$string['unfinalizeerror'] = 'Vyskytla se chyba. Odevzdaná práce nemůže být vrácena do stavu \"rozpracovaná\"';
 $string['uploadbadname'] = 'Název tohoto souboru obsahuje nepodporované znaky, soubor proto nemůže být odevzdán.';
 $string['uploadedfiles'] = 'odevzdaných souborů';
 $string['uploaderror'] = 'Vyskytla se chyba při ukládání souboru na server.';

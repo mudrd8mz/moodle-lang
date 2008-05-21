@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // auth.php - created with Moodle 1.9 + (Build: 20080507) (2007101509)
 
 
 $string['CASform'] = 'Volba ověřování';
@@ -91,6 +91,9 @@ $string['auth_dbuserstoremove'] = 'Uživatelské položky ke smazání: $a';
 $string['auth_emaildescription'] = 'Registrace na základě e-mailu je výchozí metoda ověřování. Při registraci si uživatel vybere vlastní uživatelské jméno a heslo. Poté je na jeho adresu odeslán e-mail obsahující zabezpečený odkaz na stránku, kde potvrdí zadané údaje. Při dalším přihlášení se již ověřuje pouze zadané uživatelské jméno a heslo proti údajům uloženým v databázi Moodlu.';
 $string['auth_emailnoemail'] = 'Nebylo možno Vám poslat email.';
 $string['auth_emailnoinsert'] = 'Nelze přidat Váš záznam do databáze!';
+$string['auth_emailrecaptcha'] = 'Přidat ověřovací audiovizuální prvek na stránku pro registraci uživatelů, kteří se přihlašují emailem. Tímto ochráníte vaší stránku proti spammerů a pomůžete i dobré věci. Více podrobností najdete na <a href = \"http://recaptcha.net/learnmore.html\"> http://recaptcha.net/learnmore.html</a>';
+$string['auth_emailrecaptcha_key'] = 'Aktivovat reCAPTCHA';
+$string['auth_emailsettings'] = 'Nastavení';
 $string['auth_emailtitle'] = 'Registrace na základě e-mailu';
 $string['auth_fcchangepasswordurl'] = 'Heslo - změna URL';
 $string['auth_fcconnfail'] = 'Připojení se nezdařilo s Errno: $a[0] a Error String: $a[1]';
@@ -121,6 +124,8 @@ $string['auth_imaptitle'] = 'Používat server IMAP';
 $string['auth_imaptype'] = 'Typ serveru IMAP. Servery IMAP mohou používat různé typy ověřování a komunikace (IMAP authentication and negotiation).';
 $string['auth_imaptype_key'] = 'Typ';
 $string['auth_ldap_ad_create_req'] = 'Nelze vytvořit nový účet ve službě Active Directory. Ujistěte se, že jsou splněny všechny požadavky (LDAPS spojení, bind user má dostatečná práva apod.)';
+$string['auth_ldap_attrcreators'] = 'Seznam skupin a kontextů, jejichž členové mají oprávnění vytvářet atributy. Více skupin oddělte \';\'. Obvykle něco jako \'cn=teachers,ou=staff,o=myorg\'.';
+$string['auth_ldap_attrcreators_key'] = 'Tvůrce atributů';
 $string['auth_ldap_auth_user_create_key'] = 'Vytvořit uživatele externě';
 $string['auth_ldap_bind_dn'] = 'Chcete-li používat nějaký účet (bind-user) k vyhledání uživatelů, specifikujte jej zde. Příklad: \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Jednoznačné jméno (Distinguished Name)';
@@ -145,6 +150,8 @@ $string['auth_ldap_graceattr_desc'] = 'Volitelné: přenastavuje hodnotu atribut
 $string['auth_ldap_gracelogin_key'] = 'Atribut \'gracelogin\'';
 $string['auth_ldap_gracelogins_desc'] = 'Povolit podporu LDAP gracelogin (tzv. přihlášení z milosti). Uživatelé se mohou přihlásit i po vypršení hesla, dokud jim počítadlo přihlášení z milosti neklesne na 0. Uživatelé jsou v případě vypršení hesla upozorňováni.';
 $string['auth_ldap_gracelogins_key'] = 'Přihlášení z milosti';
+$string['auth_ldap_groupecreators'] = 'Seznam skupin a kontextů jejichž členové mají dovolenou vytvářet skupiny. Více skupin oddělte \';\'. Obvykle něco jako \'cn=teachers,ou=staff,o=myorg\'Další';
+$string['auth_ldap_groupecreators_key'] = 'Tvůrci skupin';
 $string['auth_ldap_host_url'] = 'Zadejte URL serveru LDAP. Například \'ldap://ldap.naseskola.cz/\' nebo \'ldaps://ldap.naseskola.cz/\'';
 $string['auth_ldap_host_url_key'] = 'URL hostitele';
 $string['auth_ldap_ldap_encoding'] = 'Specifikujte kódování, používané serverem LDAP. Nejpravděpodobněji utf-8, MS AD v2 implicitně používá takové platformy kódování, jako cp1252, cp1250 atd.';
@@ -256,6 +263,8 @@ $string['auth_shibboleth_errormsg'] = 'Prosím, zvolte organizaci, k níž nále
 $string['auth_shibboleth_login'] = 'Přihlášení přes Shibboleth';
 $string['auth_shibboleth_login_long'] = 'Přihlásit se do Moodlu přes Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Ruční přihlášení';
+$string['auth_shibboleth_select_member'] = 'Jsem člen ...';
+$string['auth_shibboleth_select_organization'] = 'Pro autentizaci přes Shibboleth vyberte vaší organizaci ze seznamu.';
 $string['auth_shibbolethdescription'] = 'Tato metoda umožňuje vytvářet a ověřovat uživatele pomocí systému <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>.<br>Přečtěte si soubor <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> obsahující informace o tom, jak nastavit váš Moodle pro podporu systému Shibboleth.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Synchronizační skript Cron.';
@@ -274,6 +283,8 @@ $string['changepassword'] = 'URL ke změně hesla';
 $string['changepasswordhelp'] = 'Zde můžete určit URL, na kterém si uživatelé mohou obnovit či změnit své uživatelské jméno/heslo, pokud je zapomněli. URL bude uživatelům poskytnuto jako tlačitko na přihlašovací a osobní stránce. Necháte-li toto pole prázdné, nebude se tlačítko zobrazovat.';
 $string['chooseauthmethod'] = 'Vyberte si způsob ověření uživatelů:';
 $string['createpasswordifneeded'] = 'Vytvořit heslo, je-li to potřeba';
+$string['enterthenumbersyouhear'] = 'Vložte číslo, které slyšíte';
+$string['enterthewordsabove'] = 'Vložte výše uvedená slova';
 $string['errorminpassworddigits'] = 'Minimální počet číslic v heslech: $a';
 $string['errorminpasswordlength'] = 'Minimální počet znaků v heslech: $a';
 $string['errorminpasswordlower'] = 'Minimální počet malých písmen v heslech: $a';
@@ -283,7 +294,13 @@ $string['errorpasswordupdate'] = 'Chyba při změně hesla, heslo nebylo změně
 $string['forcechangepassword'] = 'Vynutit změnu hesla';
 $string['forcechangepassword_help'] = 'Vynutit změnu hesla při příštím přihlášení do Moodlu.';
 $string['forcechangepasswordfirst_help'] = 'Vynutit změnu hesla při prvním přihlášení do Moodlu.';
+$string['forgottenpassword'] = 'Sem vložte URL stránky, která bude použita pro získávání zapomenutých hesel. Toto je zamýšleno používat v případech, kdy Moodle používá k autentizaci uživatelů jakoukoliv externí databázi. Pokud používáte standardní zasílání zapomenutých hesel, nechte okénko prázdné.';
+$string['forgottenpasswordurl'] = 'URL na získání hesla';
+$string['getanaudiocaptcha'] = 'Získat audio CAPTCHA';
+$string['getanimagecaptcha'] = 'Získat obrázkové CAPTCHA';
+$string['getanothercaptcha'] = 'Získat jiné CAPTCHA';
 $string['guestloginbutton'] = 'Tlačítko pro hosta';
+$string['incorrectpleasetryagain'] = 'Špatně, zkuste to prosím znovu.';
 $string['infilefield'] = 'Pole je v souboru povinné';
 $string['instructions'] = 'Pokyny';
 $string['internal'] = 'Interní';
@@ -291,10 +308,14 @@ $string['locked'] = 'Uzamknuto';
 $string['md5'] = 'MD5 hash';
 $string['nopasswordchange'] = 'Heslo nelze změnit';
 $string['nopasswordchangeforced'] = 'Nemůžete pokračovat dál bez změny hesla, ale stránka pro jeho změnu není k dispozici. Kontaktujte správce Vašeho eLearningu Moodle.';
+$string['ntlmsso_attempting'] = 'Pokouším se o automatické přihlášení přes NTLM ...';
+$string['ntlmsso_failed'] = 'Automatické přihlášení selhalo, zkuste normální přihlašovací stránku...';
+$string['ntlmsso_isdisabled'] = 'NTLM SSO je vypnuto';
 $string['passwordhandling'] = 'Ukládat pole s heslem jako';
 $string['plaintext'] = 'Čistý text';
 $string['pluginnotenabled'] = 'Metoda ověřování uživatelů \'$a\' není povolena.';
 $string['pluginnotinstalled'] = 'Metoda ověřování uživatelů \'$a\' není nainstalována.';
+$string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'RPC vyjednávání překročilo časový limit';
 $string['selfregistration'] = 'Uživatelé se sami registrují pomocí';
 $string['selfregistration_help'] = 'Která metoda ověřování bude mít na starosti uživatele, kteří se registrují sami.';
