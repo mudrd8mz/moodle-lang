@@ -1,13 +1,18 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
+$string['authpluginnotfound'] = '認証プラグイン $a が見つかりませんでした。';
+$string['cannotbenull'] = '$a にはnullを使用できません!';
+$string['cannotcreateadminuser'] = '深刻なエラー: adminユーザレコードを作成できませんでした!!!';
 $string['cannotdowngrade'] = '$a[0] から $a[1] にはダウングレードできません。';
 $string['cannotfindadmin'] = '管理ユーザが見つかりませんでした!';
+$string['cannotinitpage'] = 'ページを完全に初期化できません: 無効 $a[0] ID $a[1]';
 $string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできません!';
 $string['cannotupdaterelease'] = 'エラー: データベース内のリリースバージョンを更新できませんでした!!';
 $string['cannotupdateversion'] = 'アップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)';
 $string['cannotupgradecapabilities'] = 'ロールシステムのコアケイパビリティのアップグレードに問題が発生しました。';
+$string['cannotupgradedbcustom'] = 'ローカルデータベースのアップグレードに失敗しました!  (configテーブルのバージョンを更新できませんでした。)';
 $string['configmoodle'] = 'Moodleは、まだ設定されていません。最初にconfig.phpを編集してください。';
 $string['dbnotinsert'] = 'データベースエラー - レコードを挿入できません ($a)';
 $string['dbnotsetup'] = 'エラー: メインデータベースが正常にセットアップされませんでした。';
@@ -16,10 +21,17 @@ $string['dbnotupdate'] = 'データベースエラー - 更新できません ($
 $string['doesnotworkwitholdversion'] = 'このスクリプトは、この古いバージョンのMoodleでは動作しません。';
 $string['erroroccur'] = 'この処理中にエラーが発生しました。';
 $string['fixsetting'] = 'あなたのconfig.php設定を修正してください: <p>あなたは次のように設定していますが:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>実際には次のように設定する必要があります:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
+$string['invalidarraysize'] = '$a の変数内の配列サイズが正しくありません。';
+$string['invalideventdata'] = '正しくないイベントデータが送信されました: $a';
+$string['morethanonerecordinfetch'] = 'fetch() に1レコード以上のレコードが見つかりました!';
+$string['mustbeoveride'] = '抽象メソッド $a は、オーバーライドしてください。';
+$string['noactivityname'] = 'page_generic_activityによりページオブジェクトが生成されましたが、$this->activityname が定義されていません。';
+$string['noadminrole'] = 'adminロールが見つかりませんでした。';
 $string['noblockbase'] = 'Class block_baseが定義されていないか、/blocks/moodleblock.class.phpのファイルが見つかりませんでした。';
 $string['noblocks'] = 'ブロックがインストールされていません!';
 $string['nocaps'] = 'エラー: ケイパビリティが定義されていません!';
 $string['nomodules'] = 'モジュールが見つかりません!!';
+$string['nopageclass'] = '$a がインポートされましたがページクラスがありません。';
 $string['noreports'] = 'アクセスできるレポートはありません。';
 $string['notables'] = 'テーブルがありません!';
 $string['phpvaroff'] = 'PHPサーバ変数「 $a[0] 」をOffにしてください - $a[1]';
@@ -28,6 +40,8 @@ $string['prefixcannotbeempty'] = 'あなたのターゲットDB ($a[1]) では�
 $string['prefixlimit'] = 'Oracle DBで許可されるテーブル接頭辞「 $a 」の最大長は、2ccです。';
 $string['sessionmissing'] = 'セッションに $a オブジェクトがありません。';
 $string['siteisnotdefined'] = 'サイトが定義されていません!';
+$string['sqlrelyonobsoletetable'] = 'このSQLは古いテーブル $a を参照しています! あなたのコードは、開発者により修正される必要があります。';
+$string['upgradefail'] = 'アップグレードに失敗しました! 詳細: $a';
 $string['withoutversion'] = 'メインversion.phpが読めない、または指定されていません。';
 
 ?>

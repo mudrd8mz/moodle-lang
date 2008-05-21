@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080504) (2008050200)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
 $string['1day'] = '1日';
@@ -100,6 +100,7 @@ $string['categorynamecantbeblank'] = 'カテゴリ名を入力してください
 $string['categorynoedit'] = 'あなたは、カテゴリ「 $a 」における編集権限がありません。';
 $string['categoryupdated'] = 'カテゴリが正常に更新されました。';
 $string['changessaved'] = '評定の変更が保存されました。';
+$string['changessavedwitherrors'] = '評定の変更を保存中にエラーが発生しました。';
 $string['checkanswer'] = 'チェック';
 $string['choice'] = '選択';
 $string['choices'] = '利用可能な選択';
@@ -390,6 +391,8 @@ $string['onlyteachersimport'] = '権限のある教師のみ問題をインポ�
 $string['openclosedatesupdated'] = '小テスト公開日時および終了日時が更新されました。';
 $string['optional'] = 'オプション';
 $string['outof'] = '$a->grade / $a->maxgrade';
+$string['outofpercent'] = '$a->grade / $a->maxgrade ($a->percent%%)';
+$string['outofshort'] = '$a->grade / $a->maxgrade';
 $string['overallfeedback'] = '全体のフィードバック';
 $string['overdue'] = '期限切れ';
 $string['pagesize'] = '1ページあたりの受験数:';
