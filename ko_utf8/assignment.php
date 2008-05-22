@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080502) (2008050100)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
 $string['allowdeleting'] = '삭제 허용';
@@ -19,12 +19,15 @@ $string['assignmentname'] = '과제명';
 $string['assignmenttype'] = '과제 형태';
 $string['availabledate'] = '시작 일시';
 $string['cannotdeletefiles'] = '오류가 발생하여 삭제할 수 없음';
+$string['cannotinsertempty'] = '비어있는 제출물은 추가할 수 없음';
+$string['cannotviewassignment'] = '이 과제는 볼 수 없음';
 $string['comment'] = '평';
 $string['commentinline'] = '즉석 평';
 $string['configitemstocount'] = '온라인 과제를 제출한 학생들의 계수 항목 특성';
 $string['configmaxbytes'] = '이 사이트에 있는 모든 과제의 기본 최대 크기';
 $string['configshowrecentsubmissions'] = '모든 사람이 최근 활동의 제출물 공지사항을 볼 수 있습니다.';
 $string['confirmdeletefile'] = '다음 파일을 삭제하는 것이 확실합니까?<br /><strong>$a</strong>';
+$string['coursemisconf'] = '강좌가 잘못 설정되었음';
 $string['deleteallsubmissions'] = '모든 제출물 삭제';
 $string['deletefilefailed'] = '파일 삭제 실패';
 $string['description'] = '설명';
@@ -59,7 +62,9 @@ $string['helpupload'] = '<p>이 과제 유형은 학생들이 어떤 형태의 �
 $string['helpuploadsingle'] = '<p>이 과제 유형은 각각의 참여자들에게 하나의 화일을 업로드 할 것을 요구합니다.</p>
 <p>화일은 워드프로세서 문서 혹은 이미지, 압축된 웹 사이트, 혹은 여러분이 요청했던 어떤 것이든 관계 없습니다.</p>';
 $string['hideintro'] = '시작 일시 전에는 설명 감춤';
+$string['invalidassignment'] = '틀린 과제';
 $string['invalidid'] = '과제의 ID가 틀렸음';
+$string['invalidtype'] = '틀린 과제 유형';
 $string['itemstocount'] = '갯수';
 $string['late'] = '$a 늦음';
 $string['maximumgrade'] = '최대 점수';
@@ -115,6 +120,7 @@ $string['uploadfiletoobig'] = '파일용량이 너무 큽니다.(최대 $a 바�
 $string['uploadnofilefound'] = '파일을 찾을 수 없음 - 업로드할 파일을 선택하셨습니까?';
 $string['uploadnotregistered'] = '\'$a\'는 전송되었지만, 제출된 과제는 등록되지 않았습니다!';
 $string['uploadsuccess'] = '\'$a\' 올리기 성공';
+$string['usermisconf'] = '사용자가 잘못 설정됨';
 $string['viewfeedback'] = '과제 점수와 피드백 보기';
 $string['viewsubmissions'] = '제출된 $a 개의 과제 보기';
 $string['yoursubmission'] = '과제 제출';

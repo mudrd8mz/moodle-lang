@@ -1,13 +1,18 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080515) (2008051201)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
+$string['authpluginnotfound'] = '인증 플러그인 $a 없음';
+$string['cannotbenull'] = '$a 는 빌 수 없음!';
+$string['cannotcreateadminuser'] = '심각한 오류: 관리자 계정을 생성할 수 없음!!!';
 $string['cannotdowngrade'] = '$a[0] 에서 $a[1] 로는 판내림을 할 수 없음';
 $string['cannotfindadmin'] = '관리자가 없음!';
+$string['cannotinitpage'] = '화면을 초기화 할 수 없음: 잘못된 $a[0] id $a[1]';
 $string['cannotsetupsite'] = '심각한 오류! 사이트를 설정할 수 없음!';
 $string['cannotupdaterelease'] = '오류: 새 판의 데이터베이스 갱신을 할 수 없음!';
 $string['cannotupdateversion'] = '업그레이드 실패! (새 판의 설정 테이블을 갱신할 수 없음)';
 $string['cannotupgradecapabilities'] = '역할 시스템에 대한 핵심 권한 갱신을 할 수 없음';
+$string['cannotupgradedbcustom'] = '데이터베이스 최적화 실패! (config 테이블의 판 갱신을 할 수 없음)';
 $string['configmoodle'] = '아직 무들이 설정되지 않았음. 우선 config.php를 수정할 필요가 있음';
 $string['dbnotinsert'] = '데이터베이스 오류 - ($a)를 삽입할 수 없음';
 $string['dbnotsetup'] = '오류: 주 데이터베이스가 바르게 설정되지 않음';
@@ -16,11 +21,18 @@ $string['dbnotupdate'] = '데이터베이스 오류 - ($a)를 갱신할 수 없�
 $string['doesnotworkwitholdversion'] = '무들의 예전 판에서는 이 스크립트가 작동하지 않음';
 $string['erroroccur'] = '현재의 과정에서 오류가 발생함';
 $string['fixsetting'] = 'config.php의 설정을 조절하십시오. <p>현재설정</p> <p>$CFG->dirroot = \"$a[0]\"; 를</p> <p>$CFG->dirroot = \"$a[1]\" 로 바꾸어야 합니다</p>';
+$string['invalidarraysize'] = '$a 매개변수의 틀린 어레이 크기';
+$string['invalideventdata'] = '틀린 이벤트 자료 제시: $a';
+$string['morethanonerecordinfetch'] = 'fetch()에 중복 자료 발견!';
+$string['noactivityname'] = 'page_generic_activity에서 추촐된 페이지 오브젝트는 $this->activityname 을 정의하지 않습니다.';
+$string['noadminrole'] = '관리자 역할을 찾을 수 없음';
 $string['noblockbase'] = '/blocks/moodleblock.class.php
 noblockbase에 대하여 block_base가 정의되지 않았거나 파일을 찾을 수 없음';
 $string['noblocks'] = '블록이 설치되지 않았음!';
 $string['nocaps'] = '오류: 할 일이 정의되지 않았음!';
+$string['nocate'] = '범주 없음!';
 $string['nomodules'] = '모듈이 없음!';
+$string['nopageclass'] = '가져온 $a 에 page classes가 없음';
 $string['noreports'] = '어떤 보고서에도 접근할 수 없음';
 $string['notables'] = '테이블 없음!';
 $string['phpvaroff'] = 'PHP서버의 변수 \'$a[0]\'는  off되어야 함 -   $a[1]';
@@ -29,6 +41,8 @@ $string['prefixcannotbeempty'] = '대상 DB ($a[1])의 테이블 접두사를 �
 $string['prefixlimit'] = '오라클 DB의 테이블 접두사의 최대 허용 길이는 2cc임';
 $string['sessionmissing'] = '세션에 $a 가 없음';
 $string['siteisnotdefined'] = '사이트가 정의되지 않았음!';
+$string['sqlrelyonobsoletetable'] = '이 SQL은 과거 $a 테이블에 의존합니다! 개발자가 코드를 수정해야 합니다.';
+$string['upgradefail'] = '갱신 실패! $a 를 참조하시오.';
 $string['withoutversion'] = '주 version.php가 지정되지 않았거나 읽을 수 없음';
 
 ?>
