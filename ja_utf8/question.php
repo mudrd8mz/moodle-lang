@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
+      // question.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -29,7 +29,10 @@ $string['errordeletingquestionsfromcategory'] = 'カテゴリ $a から問題を
 $string['errorfilecannotbecopied'] = 'エラー: ファイル $a をコピーできません。';
 $string['errorfilecannotbemoved'] = 'エラー: ファイル $a を移動できません。';
 $string['errorfileschanged'] = 'エラー: 問題からリンクされているファイルがフォームが表示された後、変更されました。';
+$string['errormanualgradeoutofrange'] = '問題 $a->name の評点 $a->grade が、ゼロおよび $a->maxgrade の範囲にありません。評点およびコメントは、保存されませんでした。';
 $string['errormovingquestions'] = 'ID $a の問題の移動中にエラーが発生しました。';
+$string['errorsavingcomment'] = '問題 $a->name のコメントをデータベースに保存中にエラーが発生しました。';
+$string['errorupdatingattempt'] = 'データベース内の受験結果 $a->id を更新中にエラーが発生しました。';
 $string['exportcategory'] = 'カテゴリのエクスポート';
 $string['filesareacourse'] = 'コースファイルエリア';
 $string['filesareasite'] = 'サイトファイルエリア';
