@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.6 (2006050506)
+      // exercise.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['absent'] = 'Ez dago';
 $string['accumulative'] = 'Metatua';
 $string['action'] = 'Ekintza';
-$string['ago'] = 'duela $a ';
+$string['ago'] = 'duela $a';
 $string['amend'] = 'Zuzendu';
 $string['amendassessmentelements'] = 'Ebaluazio-elementuak zuzendu';
 $string['amendtitle'] = 'Zuzenketaren izenburua';
@@ -38,8 +38,7 @@ $string['descriptionofexercise'] = 'Ariketa baten esleipenean, $a (r)en deskriba
   Ariketa edo zeregin berean aldagai-taldea ere sor daiteke, baita HTML edo Word dokumentuak ere, eta geroztik ariketara igo $a (r)i erakutsi aurretik.';
 $string['detailsofassessment'] = 'Ebaluazioaren ñabardurak';
 $string['displayoffinalgrades'] = 'Azken kalifikazioak';
-$string['doubleupload'] = 'Kontuz: Bidalketa hau seguru asko bi aldiz bidali da. Administrazio-orrira joan eta erabiltzaile honen bi bidalketa epe motzean egon diren aztertu.
-   Aurrera jarraitu baino lehen bidalketa horietako bat ezabatu, mesedez.';
+$string['doubleupload'] = 'Kontuz: Bidalketa hau seguru asko bi aldiz bidali da. Administrazio-orrira joan eta erabiltzaile honen bi bidalketa epe motzean egon diren aztertu. Aurrera jarraitu baino lehen bidalketa horietako bat ezabatu, mesedez.';
 $string['duedate'] = 'Adostutako data';
 $string['edit'] = 'Editatu';
 $string['editingassessmentelements'] = 'Ebaluazio-elementuen edizioa';
@@ -58,7 +57,7 @@ $string['generalcomment'] = 'Iruzkin orokorra';
 $string['good'] = 'Ongi';
 $string['gradeassessment'] = 'Kalifikazioaren ebaluazioa';
 $string['gradeforassessment'] = 'Kalifikazioaren ebaluazioa';
-$string['gradeforstudentsassessment'] = ' $a (r)en kalifikazioaren ebaluazioa';
+$string['gradeforstudentsassessment'] = '$a (r)en kalifikazioaren ebaluazioa';
 $string['gradeforsubmission'] = 'Bidali beharreko kalifikazioa';
 $string['gradetable'] = 'Kalifikazio-taula';
 $string['gradinggrade'] = 'Kalifikazioen kalifikazioa';
@@ -69,7 +68,7 @@ $string['incorrect'] = 'Ez zuzena';
 $string['late'] = 'Berandu';
 $string['lax'] = 'Laxo';
 $string['leaguetable'] = 'Bidalitako lanen taula';
-$string['mail1'] = 'Zure lana \'$a\' honek ebaluatu du: ';
+$string['mail1'] = 'Zure lana \'$a\' honek ebaluatu du:';
 $string['mail2'] = 'Iruzkinak eta kalifikazioa \'$a\' lanaren esleipenean aurki daitezke';
 $string['mail3'] = 'Lanaren esleipenean ikus dezakezu';
 $string['mail6'] = '\'$a\' lanaren ebaluazioa berrikusi da';
@@ -165,7 +164,7 @@ $string['submissions'] = 'Bidalketak';
 $string['submissionsnowclosed'] = 'Bidalketak ez dira onartzen - Data-muga gainditu da';
 $string['submitexercisedescription'] = 'Bidalitako ariketaren deskribapena';
 $string['submitted'] = 'Bidalia';
-$string['submittedby'] = 'Honek bidalia: ';
+$string['submittedby'] = 'Honek bidalia:';
 $string['suggestedgrade'] = 'Iradokitzen den kalifikazioa';
 $string['teacherassessment'] = '$a (r)en ebaluazioa';
 $string['teacherassessmenttable'] = '$a (r)en ebaluazio-taula';
