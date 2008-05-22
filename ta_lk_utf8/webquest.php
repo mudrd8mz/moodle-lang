@@ -5,5 +5,3 @@
 $string['modulename'] = 'இணைய-விருந்தினர்';
 $string['modulenameplural'] = 'இணைய-விருந்தினர்கள்';
 ?>
-
-

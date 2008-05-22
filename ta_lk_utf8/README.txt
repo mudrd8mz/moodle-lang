@@ -2,7 +2,7 @@ Tamil(LK) Localization
 Sri Lanka
 
 'Thedchanamoorthy Gnanakumar' 		- iamgnana@yahoo.com
-'Kaleelur Rahuman' 				- kaleelur.rahuman@yahoo.com
+'Kaleelur Rahuman' 			- kaleelur.rahuman@yahoo.com
 'Kengatharaiyer Sarveswaran (Sarves)' 	- iamsarves@gmail.com
 
 -------------
