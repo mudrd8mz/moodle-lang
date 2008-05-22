@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8.4+ (2007021541)
+      // assignment.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['allowdeleting'] = 'Ezabatzen utzi';
@@ -19,6 +19,7 @@ Egin zenuen <a href=\"$a->url\">bidalketarekin batera ikus dezakezu erantzuna</a
 $string['assignmentname'] = 'Zereginaren izena';
 $string['assignmenttype'] = 'Zeregin-mota';
 $string['availabledate'] = 'Noiztik aurrera eskuragarri';
+$string['cannotdeletefiles'] = 'Errorea gertatu da eta fitxategiak ezin dira ezabatu';
 $string['comment'] = 'Iruzkina';
 $string['commentinline'] = 'Lerro arteko iruzkina';
 $string['configitemstocount'] = 'Ikasleek on line eginkizunetako bidalketetan kontuan hartu behar diren itemen izaera';
@@ -42,21 +43,23 @@ $string['emailteachermailhtml'] = '$a->username(e)k bidalketa eguneratu du ondor
 Web-gune honetan ikusgai: <a href=\"$a->url\">sakatu hemen</a>.';
 $string['emailteachers'] = 'Abisuak bidali tutoreei e-postaz';
 $string['emptysubmission'] = 'Ez duzu ezer bidali oraindik';
+$string['enableemailnotification'] = 'Jakinarazpena e-postaz bidali';
 $string['existingfiledeleted'] = 'Fitxategia ezabatuta: $a';
 $string['failedupdatefeedback'] = 'Bidalketei erantzunaren eguneraketak huts egin du hurrengo erabiltzailearentzat: $a';
 $string['feedback'] = 'Erantzuna';
 $string['feedbackfromteacher'] = '$aren erantzuna';
 $string['feedbackupdated'] = 'Bidalketei erantzuna $a pertsonentzat eguneratu da';
 $string['finalize'] = 'Bidalketa gehiagorik ez';
+$string['finalizeerror'] = 'Errorea gertatu da eta bidalketa ezin izan da amaitu';
 $string['graded'] = 'Kalifikatua';
 $string['guestnosubmit'] = 'Barkatu, bisitariek ezin dute eginkizunik bidali. Zure erantzuna bidali ahal izateko, zure datuak bidali behar dituzu edo erregistratu.';
 $string['guestnoupload'] = 'Barkatu, bisitariek ezin dute ezer igo.';
 $string['helpoffline'] = '<p>Hau baliagarria da eginkizuna Moodle-tik kanpo, interneteko guneren batean edota aurrez aurre egiten denean.</p><p>Ikasleek eginkizunaren deskribapena ikus dezakete baina ezin dute inolako fitxategirik igo zerbitzarira. Kalifikazioek normal funtzionatzen dute eta ikasleek izandako kalifikazioaren inguruko jakinarazpenak jasoko dituzte.</p>';
-$string['helponline'] = '<p>Eginkizun-mota honetan erabiltzaileek testu bat editatu beharko dute ohiko edizio-trenak erabilita. Irakasleek online kalifikatu ahal izango dituzte eta baita iruzkinak edota aldaketak gaineratu ere.</p><p>(Moodleren aurreko bertsioak ezagutzen badituzu, Egunerokoa moduluak eginten zuen gauza bera egiten du eginkizun-mota honek)</p>';
+$string['helponline'] = '<p>Eginkizun-mota honetan erabiltzaileek testu bat editatu beharko dute ohiko edizio-trenak erabilita. Irakasleek online kalifikatu ahal izango dituzte eta baita iruzkinak edota aldaketak gaineratu ere.</p><p>(Moodle-ren aurreko bertsioak ezagutzen badituzu, Egunerokoa moduluak egiten zuen gauza bera egiten du eginkizun-mota honek)</p>';
 $string['helpupload'] = '<p>Zeregin mota honek edozein motatako fitxategi bat edo gehiago igotzeko aukera ematen dio partaide bakoitzari.</p>
 <p> Word dokumentua, irudia, web konprimitua edo bidaltzeko eskatzen zaien beste edozein fitxategi izan daiteke.</p>
 <p>Zeuk ere edozein motatako hainbat erantzun-fitxategi igo dezakezu.</p>';
-$string['helpuploadsingle'] = '<p>Eginkizun-mota honetan partaideek edozein motatako fitxategi bakarra igo beharko dute.</p><p>Word-en egindako dokumentua, irudia, web-gune konprimitua izan daiteke edo bidaltzeko esaten zaien beste edozer.</p>';
+$string['helpuploadsingle'] = '<p>Eginkizun-mota honetan partaideek edozein motatako fitxategi bakarra igo beharko dute.</p><p>Word-en egindako dokumentua, irudia, web gune konprimitua izan daiteke edo bidaltzeko esaten zaien beste edozer.</p>';
 $string['hideintro'] = 'Deskribapena eskura dagoen data baino lehen ezkutatu';
 $string['itemstocount'] = 'Zenbakia';
 $string['late'] = '$a berandu';

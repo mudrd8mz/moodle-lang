@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.4+ (2007021541)
+      // moodle.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
+$string['abouttobeinstalled'] = 'instalatzeko zorian';
 $string['action'] = 'Ekintza';
 $string['actions'] = 'Ekintzak';
 $string['active'] = 'Martxan';
@@ -315,7 +316,7 @@ $string['creatinggroupings'] = 'Taldekatzeak sortzen';
 $string['creatinggroupingsgroups'] = 'Taldeak taldekatzeetara gaineratzen';
 $string['creatinggroups'] = 'Taldeak sortzen';
 $string['creatinglogentries'] = 'Erregistro-sarrerak sortzen';
-$string['creatingmessagesinfo'] = 'Mezuei buruzko informazioak sortzen';
+$string['creatingmessagesinfo'] = 'Informazio-mezuak sortzen';
 $string['creatingmetacoursedata'] = 'Metaikastaroari buruzko informazioa sortzen';
 $string['creatingmodroles'] = 'Modulu mailako rol ezarpenak eta indargabetzeak sortzen';
 $string['creatingnewcourse'] = 'Ikastaro berria sortzen';
@@ -379,6 +380,7 @@ $string['deletedcourse'] = '$a guztiz ezabatu da';
 $string['deletednot'] = 'Ezin izan da $a ezabatu!';
 $string['deletelogs'] = 'Agerraldiak ezabatu';
 $string['deleteselected'] = 'Aukeratutakoa ezabatu';
+$string['deleteselectedkey'] = 'Aukeratutako partaide-giltza ezabat';
 $string['deletingcourse'] = '$a ezabatzen';
 $string['deletingexistingcoursedata'] = 'Ikastaroko datuak ezabatzen';
 $string['deletingolddata'] = 'Datu zaharrak ezabatzen';
@@ -412,7 +414,7 @@ $string['edhelpenablespelling'] = 'Zuzenketa ortografikoa aktibatzen du. Indarre
 $string['edhelpfontfamily'] = 'Hizki-familiaren ezaugarria familia generiko baten izenen edo eta hizki-izenen zerrenda da. Familiaren izenek kakotxez bananduta egon behar dute.';
 $string['edhelpfontlist'] = 'Erabilitako hizki-motak editoreen menu kontestualean definitu.';
 $string['edhelpfontsize'] = 'Hizki-motaren lehenetsitako tamaina aipatutako tamaina zehazten du. <br />Balore baliagarriak hauek izan daitezke, adibidez: medium, large, smaller, larger, 10pt, 11px.';
-$string['edit'] = '$a editatu';
+$string['edit'] = '$a Editatu';
 $string['editcategorysettings'] = 'Kategoria-ezarpenak editatu';
 $string['editcategorythis'] = 'Kategoria hau editatu';
 $string['editcoursesettings'] = 'Ikastaroaren ezarpenak editatu';
@@ -479,7 +481,7 @@ $string['emailmustbereal'] = 'Oharra: zure e-posta helbideak benetakoa izan beha
 $string['emailnotallowed'] = 'Dominio hauetako e-mail helbideak ez dira onartzen ($a)';
 $string['emailnotfound'] = 'Ez da e-mail helbidea datu-basean aurkitu';
 $string['emailonlyallowed'] = 'E-mail helbide hau ez da onartzen ($a)';
-$string['emailpasswordchangeinfo'] = 'kaixo $a->firstname,
+$string['emailpasswordchangeinfo'] = 'Kaixo $a->firstname,
 
 Norbaitek (zeuk ziurrenik) zure \'$a->sitename\' konturako pasahitz berria eskatu du.
 
@@ -490,7 +492,7 @@ $a->link
 E-posta programa gehienetan, esteka urdina izango da lotura hau eta sakatu egin ahal izango diozu. Ez badabil,
 helbidea kopiatu eta pegatu nabigatzailearen helbide barran.
 
-If you need help, please contact the site administrator,
+Laguntza gehiago behar baduzu, mesedez jar zaitez harremanetan guneko kudeatzailerekin,
 $a->admin';
 $string['emailpasswordchangeinfodisabled'] = 'Kaixo $a->firstname,
 
@@ -717,7 +719,7 @@ $string['guestskey'] = 'Giltzadun bisitariak onartu';
 $string['guestsno'] = 'Bisitariei sarrera ukatu';
 $string['guestsnotallowed'] = 'Barkatu, ikastaro honek ez die bisitariei sartzen uzten.';
 $string['guestsyes'] = 'Giltza gabeko bisitariak onartu';
-$string['guestuser'] = 'Bisitari-motako erabiltzailea';
+$string['guestuser'] = 'Bisitaria';
 $string['guestuserinfo'] = 'Erabiltzaile hau berezia da eta ikastaro batzuetan soilik begiratzera sartzea uzten die.';
 $string['healthcenter'] = 'Osasun-zentroa';
 $string['healthnoproblemsfound'] = 'Ez da osasun-arazorik aurkitu';
@@ -907,6 +909,7 @@ $string['metanoalreadycourses'] = 'Ez da ikastarorik esleitu';
 $string['metanopotentialcourses'] = 'Ez dago ikastaro eskuragarririk';
 $string['metapotentialcourses'] = 'Ikastaro eskuragarriak';
 $string['metaremovecourse'] = 'Ikastaro hau ezabatu';
+$string['migratinggrades'] = 'Kalifikazioak migratzen';
 $string['min'] = 'minutu';
 $string['mins'] = 'minutu';
 $string['minutes'] = 'minutu';
@@ -1039,6 +1042,7 @@ $string['nomoreidnumber'] = 'ID zenbakirik ez da erabiltzen arazoak saihesteko';
 $string['none'] = 'Bat ere ez';
 $string['noneditingteacher'] = 'Edizio-baimenik ez duen tutorea';
 $string['noneditingteacherdescription'] = 'Editatzeko baimenik gabeko irakasleek ikastaroetan irakats dezakete eta ikasleak kalifikatu baina ezin dituzte jarduerak aldatu.';
+$string['nonstandard'] = 'Ez-estandarra';
 $string['nopendingcourses'] = 'Ez dago onartu gabeko ikastarorik';
 $string['nopotentialadmins'] = 'Ez dago kudeatzaile posiblerik';
 $string['nopotentialcreators'] = 'Ez dago ikastaro-sortzaile posiblerik';
@@ -1067,6 +1071,7 @@ $string['notenrolledprofile'] = 'Profil hau ez da eskuragarria erabiltzailea ez 
 $string['noteuserschangednonetocourse'] = 'Oharra: Erabiltzaileen datuak berrezarritakoan ikastaroetako erabiltzaileak ere berrezarri beharra dago (ekintza, fitxategi edo mezuetan). Konfigurazio hau zuretzat aldatu da.';
 $string['nothingnew'] = 'Ez dago ezer berririk aurreko bisitatik';
 $string['nothingtodisplay'] = 'Erakustekorik ez';
+$string['notice'] = 'Abisua';
 $string['noticenewerbackup'] = 'Ziurtasun-kopia Moodle-k prestatu du $a->backuprelease ($a->backupversion) eta instalatutako Moodle bertsioa baino berriagoa da $a->serverrelease ($a->serverversion). Honek arazoak sor litzake elkargarritasuna dela eta.';
 $string['notifications'] = 'Jakinarazpenak';
 $string['notify'] = 'Jakinarazi';
@@ -1140,6 +1145,7 @@ $string['periodending'] = 'Epe-bukaera ($a)';
 $string['personal'] = 'Pertsonala';
 $string['personalprofile'] = 'Norberaren profila';
 $string['phone'] = 'Telefonoa';
+$string['phone2'] = 'Telefono mugikorra';
 $string['phpinfo'] = 'PHP info';
 $string['pictureof'] = '$a -(r)en irudia';
 $string['pleaseclose'] = 'Mesedez, orain itxi leiho hau.';
@@ -1157,7 +1163,7 @@ $string['posts'] = 'Mezuak';
 $string['potentialadmins'] = 'Balizko kudeatzaileak';
 $string['potentialcreators'] = 'Balizko ikastaro-sortzaileak';
 $string['potentialstudents'] = 'Balizko ikasleak';
-$string['potentialteachers'] = 'Balizko tutoreak';
+$string['potentialteachers'] = 'Balizko irakasleak';
 $string['preferences'] = 'Aukerak';
 $string['preferredlanguage'] = 'Lehenetsitako hizkuntza';
 $string['preferredtheme'] = 'Lehenetsitako itxura';
@@ -1220,10 +1226,11 @@ $string['reset'] = 'Berrabiarazi';
 $string['resetcomponent'] = 'Osagaia';
 $string['resetcourse'] = 'Ikastaroa berrabiarazi';
 $string['resetinfo'] = 'Orri honek aukera ematen dizu ikastaroa erabiltzaile-datuz husteko, jarduerak eta beste zehaztasun batzuk mantenduta. Mesedez, egin kontu beheragoko itemak aukeratuta eta orri hau bidalita behin betiko ezabatuko dituzula ikastaro honetatik aukeratutako erabiltzaileen datuak.';
+$string['resetnotimplemented'] = 'Berrabiaraztea ez dago inplementatuta';
 $string['resetstartdate'] = 'Hasiera-data aldatu';
 $string['resetstatus'] = 'Estatusa';
 $string['resettask'] = 'Ataza';
-$string['resettodefaults'] = 'Berezko balioetara ekarri';
+$string['resettodefaults'] = 'Berezko baloreetara ekarri';
 $string['resortcoursesbyname'] = 'Aurkeztu ikastaroak izenaren arabera';
 $string['resource'] = 'Baliabidea';
 $string['resources'] = 'Baliabideak';
@@ -1350,6 +1357,7 @@ $string['someerrorswerefound'] = 'Daturen bat falta da edo ez da zuzena. Xehetas
 $string['sortby'] = 'Zeren arabera';
 $string['sourcerole'] = 'Jatorrizko rola';
 $string['specifyname'] = 'Izena eman behar duzu derrigor';
+$string['standard'] = 'Estandarra';
 $string['starpending'] = '([*] = ikastaroa onarpenaren zain dago)';
 $string['startdate'] = 'Ikastaroaren hasiera-data';
 $string['startingfrom'] = 'Hasiera hemen:';
@@ -1514,7 +1522,7 @@ $string['uploadusers'] = 'Erabiltzaileak igo';
 $string['used'] = 'Erabilia';
 $string['usedinnplaces'] = '$a lekuetan erabilia';
 $string['usemessageform'] = 'edo behealdeko formularioa erabili aukeratutako ikasleei mezua bidaltzeko';
-$string['user'] = 'Erabiltzaile';
+$string['user'] = 'Erabiltzailea';
 $string['userconfirmed'] = '$a baieztatuta';
 $string['userdata'] = 'Erabiltzailearen datuak';
 $string['userdeleted'] = 'Erabiltzaile-kontu hau ezabatu da';
@@ -1537,7 +1545,7 @@ $string['userzones'] = 'Erabiltzaileen ordu-zonaldeak';
 $string['usethiscourse'] = 'Erabili ikastaro hau';
 $string['usingexistingcourse'] = 'Erabili dagoen ikastaroa';
 $string['version'] = 'Bertsioa';
-$string['view'] = 'Ikusteko modua';
+$string['view'] = 'Ikusi';
 $string['views'] = 'Ikustaldiak';
 $string['viewsolution'] = 'soluzioa ikusi';
 $string['virusfound'] = 'Kontuz kudeatzaile! Clam AV-k $a->user erabiltzaileak $a->course ikastarora igotako fitxategian birusa aurkitu du. Hau da clamscan-en output-a:';

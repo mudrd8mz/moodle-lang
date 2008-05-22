@@ -1,23 +1,32 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.7+ (2006101007)
+      // enrol_database.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
-$string['autocreate'] = 'Moodlen oraindik sortu ez den ikastaroan matrikulaziorik egonez gero automatikoki sor daiteke.';
+$string['autocreate'] = 'Moodle-n oraindik sortu ez den ikastaroan matrikulaziorik egonez gero automatikoki sor daiteke.';
 $string['autocreation_settings'] = 'Berez sortzearen ezarpenak';
 $string['category'] = 'Berez sortutako ikastaroen kategoria.';
 $string['course_fullname'] = 'Ikastaroaren izena metatzen den eremuaren izena.';
-$string['course_id'] = 'Ikastaroaren IDa metatzen den eremuaren izena. Eremu honen baloreak \"enrol_db_l_coursefield\" eremukoekin konparatzen dira Moodleren ikastaroen taulan.';
+$string['course_id'] = 'Ikastaroaren IDa metatzen den eremuaren izena. Eremu honen baloreak \"enrol_db_l_coursefield\" eremukoekin konparatzen dira Moodle-ren ikastaroen taulan.';
 $string['course_shortname'] = 'Ikastaroaren izen motza metatzen den eremuaren izena.';
 $string['course_table'] = 'Ikastaroaren ñabardurak aurkitzea espero dugun taularen izena (ad., izen motza, izen luzea, ID, etab.)';
-$string['description'] = 'Matrikulazioak kontrolatzeko kanpoko datu-basea erabil daiteke (ia edozein motakoa). Kanpoko datu-baseak ikastaroaren identifikatzailea daukan eremua izango duela asumitzen da,  baita erabiltzailearena ere. Balore horiek ikastaroan eta erabiltzaileen taulan aukeratzen dituzunekin konparatzen dira.';
+$string['dbhost'] = 'IP zerbitzariaren izena edo zenbakia';
+$string['dbname'] = 'Datu-basearen izena';
+$string['dbpass'] = 'Zerbitzariaren pasahitza';
+$string['dbtable'] = 'Datu-basearen taula';
+$string['dbtype'] = 'Datu-base mota';
+$string['dbuser'] = 'Zerbitzariaren erabiltzailea';
+$string['description'] = 'Matrikulazioak kontrolatzeko kanpoko datu-basea erabil daiteke (ia edozein motakoa). Kanpoko datu-baseak ikastaroaren identifikatzailea daukan eremua izango duela asumitzen da, baita erabiltzailearena ere. Balore horiek ikastaroan eta erabiltzaileen taulan aukeratzen dituzunekin konparatzen dira.';
+$string['enrol_database_autocreation_settings'] = 'Ikastaro berriak automatikoki sortu';
 $string['enrolname'] = 'Kanpoko datu-basea';
 $string['general_options'] = 'Aukera orokorrak';
 $string['host'] = 'Datu-basearen zerbitzariaren izena.';
-$string['local_coursefield'] = 'Ikastaro taulan urrutiko datubasearen sarrerekin konparazioak egiteko erabiltzen dugun eremuaren izena (ad., ID zenbakia).';
 $string['local_fields_mapping'] = 'Moodleko datu-basearen eremuak (lokala)';
 $string['name'] = 'Erabili beharreko datu-basea.';
 $string['pass'] = 'Zerbitzarira sartzeko pasahitza.';
-$string['remote_fields_mapping'] = 'Matrikulazio urrutiko datu-basearen eremuak.';
+$string['remote_fields_mapping'] = 'Matrikulaziorako (urrutiko) datu-basearen eremuak.';
+$string['remotecoursefield'] = 'Ikastaroen taulan sarrerak parekatzeko erabiltzen den eremuaren izena urrutiko taulan.';
+$string['remoterolefield'] = 'Rolen taulan sarrerak parekatzeko erabiltzen den eremuaren izena urrutiko taulan.';
+$string['remoteuserfield'] = 'Erabiltzaileen taulan sarrerak parekatzeko erabiltzen den eremuaren izena urrutiko taulan.';
 $string['server_settings'] = 'Kanpoko datu-basearen zerbitzariaren ezarpenak.';
 $string['student_coursefield'] = 'Ikastaroaren IDa aurkitzea espero dugun ikasleen matrikulazio-taularen eremuaren izena.';
 $string['student_l_userfield'] = 'Erabiltzailea ikasleentzako urrutiko erregistro batekin konparatzeko erabiltzen dugun erabiltzaileen taula lokaleko eremuaren izena (ad., ID zenbakia).';
@@ -27,8 +36,9 @@ $string['teacher_coursefield'] = 'Ikastaroaren ID aurkitzea espero dugun irakasl
 $string['teacher_l_userfield'] = 'Erabiltzaile lokaleko taularen eremuaren izena erabiltzailea irakasleentzako urrutiko erregistro batekin konparatzeko erabiltzen duguna (ad., ID zenbakia).';
 $string['teacher_r_userfield'] = 'Irakaslearen urrutiko matrikulazio-taularen eremuaren izena non erabiltzailearen izena aurkitzea espero dugun.';
 $string['teacher_table'] = 'Irakaslearen matrikulazioak metatzen diren taularen izena.';
-$string['template'] = 'Aukerazkoa: berez sortutako ikastaroek ikastaro-txantiloi baten ezarpenak kopia ditzakete. Ikastaro-txantilioiaren izen motza hemen idatzi.';
-$string['type'] = 'Datu-basearen zerbitzari mota.';
-$string['user'] = 'Zerbitzarira sartzeko erabiltzailearen izena.';
+$string['template'] = 'Aukerakoa: berez sortutako ikastaroek ikastaro-txantiloi baten ezarpenak kopia ditzakete. Ikastaro-txantilioiaren izen motza hemen idatzi.';
+$string['type'] = 'Datu-basearen zerbitzari-mota.';
+$string['user'] = 'Zerbitzarira sartzeko erabiltzaile-izena.';
+$string['local_coursefield'] = 'Ikastaro taulan urrutiko datubasearen sarrerekin konparazioak egiteko erabiltzen dugun eremuaren izena (ad., ID zenbakia).'; // ORPHANED
 
 ?>

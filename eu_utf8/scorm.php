@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7.2 + (2006101020)
+      // scorm.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['advanced'] = 'Aurreratua';
 $string['asset'] = 'Baliabidea';
 $string['assetlaunched'] = 'Baliabidea - Ikusia';
 $string['attempt'] = 'saiakera';
+$string['attempt1'] = 'saiakera 1';
 $string['attempts'] = 'saiakerak';
+$string['attemptsx'] = '$ saiakera';
 $string['attr_error'] = '($a->attr) atributuaren balore desegokia $a->tag markan.';
 $string['autocontinue'] = 'Jarraipen automatikoa';
 $string['averageattempt'] = 'Saiakeren bataz bestekoa';
@@ -23,6 +25,7 @@ $string['contents'] = 'Edukiak';
 $string['coursepacket'] = 'Ikastaro-paketea';
 $string['coursestruct'] = 'Ikastaroaren egitura';
 $string['datadir'] = 'Sistema-errorea: Ikastaroko datuen direktorioa ezin da sortu';
+$string['deleteallattempts'] = 'SCORMen saiakera guztiak ezabatu';
 $string['details'] = 'SCO miaketaren zehaztapenak';
 $string['directories'] = 'Direktorioaren estekak erakutsi';
 $string['display'] = 'Erakutsi';
@@ -31,6 +34,7 @@ $string['element'] = 'Elementua';
 $string['enter'] = 'Sartu';
 $string['entercourse'] = 'SCORM ikastaroa sartu';
 $string['errorlogs'] = 'Erroreen erregistroa';
+$string['everyday'] = 'Egunero';
 $string['exit'] = 'SCORM ikastarotik irten';
 $string['expcoll'] = 'Zabaldu/Estutu';
 $string['failed'] = 'Errorea';
@@ -86,8 +90,10 @@ $string['noscriptnoscorm'] = 'Zure nabigatzaileak ez du javascript onartzen, edo
 $string['not_corr_type'] = '$a->tag markari ez dagokio mota hau';
 $string['notattempted'] = 'Saiatu gabea';
 $string['objectives'] = 'Helburuak';
+$string['options'] = 'Aukerak';
 $string['organization'] = 'Erakundea';
 $string['organizations'] = 'Erakundeak';
+$string['othersettings'] = 'Beste ezarpen batzuk';
 $string['othertracks'] = 'Beste pistak';
 $string['package'] = 'Eduki-paketea';
 $string['packagedir'] = 'Sistema-errorea: Pakete-direktorioa ezin da sortu';
