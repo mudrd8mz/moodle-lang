@@ -6,6 +6,7 @@ $string['aftertable'] = 'Nach Tabelle:';
 $string['back'] = 'Zurück';
 $string['backtomainview'] = 'Zurück zur Hauptübersicht';
 $string['binaryincorrectlength'] = 'Falsche Feldlänge (binary)';
+$string['butis'] = 'ist aber';
 $string['cannotuseidfield'] = 'Feld \'id\' kann nicht eingefügt werden. Es handelt sich um eine Spalte, die automatisch nummeriert wird.';
 $string['change'] = 'Ändern';
 $string['charincorrectlength'] = 'Falsche Feldlänge (char)';
