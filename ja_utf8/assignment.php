@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -21,12 +21,15 @@ $string['assignmentname'] = '課題名';
 $string['assignmenttype'] = '課題タイプ';
 $string['availabledate'] = '開始日時';
 $string['cannotdeletefiles'] = 'エラーが発生したため、ファイルを削除できませんでした。';
+$string['cannotinsertempty'] = '空の提出課題を送信できませんでした。';
+$string['cannotviewassignment'] = 'あなたは、この課題を閲覧できません。';
 $string['comment'] = 'コメント';
 $string['commentinline'] = 'インラインコメント';
 $string['configitemstocount'] = 'オンライン課題における学生の提出課題カウントに使用する単位です。';
 $string['configmaxbytes'] = 'すべての課題に関するデフォルト最大サイズです (コース制限および他のローカル設定に従います)。';
 $string['configshowrecentsubmissions'] = 'すべてのユーザが課題提出の通知を「最近の活動」レポートで閲覧できます。';
 $string['confirmdeletefile'] = '本当にこのファイルを完全に削除してもよろしいですか?<br /><strong>$a</strong>';
+$string['coursemisconf'] = 'コースの設定が正しくありません。';
 $string['deleteallsubmissions'] = 'すべての提出課題を削除する';
 $string['deletefilefailed'] = 'ファイルの削除が失敗しました。';
 $string['description'] = '詳細';
@@ -66,7 +69,9 @@ $string['helpupload'] = '<p>このタイプの課題では、各参加者が1つ
 <p>このタイプの課題は、参加者により手動で提出される必要があります。あなたは、現在の状況をいつでもレビューでき、未完成の課題には「下書き」と表示されます。あなたは、評定が終わっていない課題を「下書き」状態に戻すことができます。</p>';
 $string['helpuploadsingle'] = '<p>このタイプの課題では、各参加者があらゆる種類の単一ファイルをアップロードすることができます。</p> <p>ワードプロセッサ文書、イメージ、ZIP圧縮したウェブサイト、その他あなたが参加者に提出するよう求めたファイルです。</p>';
 $string['hideintro'] = '開始日時前に課題説明を隠す';
+$string['invalidassignment'] = '課題が正しくありません。';
 $string['invalidid'] = '課題IDが正しくありません。';
+$string['invalidtype'] = '課題タイプが正しくありません。';
 $string['itemstocount'] = 'カウント';
 $string['late'] = '$a 遅く提出';
 $string['maximumgrade'] = '最大評価';
@@ -122,6 +127,7 @@ $string['uploadfiletoobig'] = '申し訳ございません、ファイルサイ�
 $string['uploadnofilefound'] = 'ファイルが見つかりませんでした - 本当にアップロードするファイルを選択しましたか?';
 $string['uploadnotregistered'] = '「 $a 」は正常にアップロードされましたが、提出課題は登録されませんでした!';
 $string['uploadsuccess'] = '「 $a 」のアップロードが正常に完了しました。';
+$string['usermisconf'] = 'ユーザの設定が正しくありません。';
 $string['viewfeedback'] = '提出課題の評価とフィードバックを確認する';
 $string['viewsubmissions'] = '$a 件の提出課題を確認する';
 $string['yoursubmission'] = 'あなたの提出課題';
