@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8.4+ (2007021541)
+      // lesson.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['accesscontrol'] = 'Sarbide-kontrola';
@@ -84,7 +84,7 @@ $string['displayscorewithoutessays'] = 'Zure puntuazioa hau da: $a->score (gehie
 $string['edit'] = 'Editatu';
 $string['editlessonsettings'] = 'Ikasgai honen ezarpenak editatu';
 $string['editpagecontent'] = 'Orri honen edukia editatu';
-$string['email'] = 'Email';
+$string['email'] = 'E-posta';
 $string['emailallgradedessays'] = 'Kalifikatutako entsegu GUZTIAK e-mailez bidali';
 $string['emailgradedessays'] = 'Kalifikatutako entseguak e-mailez bidali';
 $string['emailsuccess'] = 'Emaila(k) arrakastaz bidali d(ir)a';
@@ -179,6 +179,7 @@ $string['nobranchtablefound'] = 'Ez da aurkitu adar-taularik';
 $string['nocommentyet'] = 'Iruzkinik ez oraindik.';
 $string['nocoursemods'] = 'Ez da jarduerarik aurkitu';
 $string['nocredit'] = 'Ez duzu krediturik';
+$string['nodeadline'] = 'Ez dago eperik';
 $string['noessayquestionsfound'] = 'Ikasgai honetan ez da entsegu-galderarik aurkitu.';
 $string['nohighscores'] = 'Ez dago gehinezko puntuaziorik';
 $string['nolessonattempts'] = 'Ez da ikasgai hau praktikatzeko saiakerarik egin.';
