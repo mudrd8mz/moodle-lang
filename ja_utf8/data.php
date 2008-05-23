@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // data.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
 
 
 $string['action'] = '操作';
@@ -28,6 +28,14 @@ $string['blank'] = 'ブランク';
 $string['buttons'] = '処理';
 $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cancel'] = 'キャンセル';
+$string['cannotaccesspresentsother'] = 'あなたは他のユーザのプリセットへのアクセスを許可されていません';
+$string['cannotadd'] = 'エントリを追加できません!';
+$string['cannotdeletepreset'] = 'プリセットの削除中にエラーが発生しました!';
+$string['cannotinsertempty'] = '空のレコードを作成できませんでした!';
+$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。';
+$string['cannotrate'] = 'アイテムの評価が許可されていません!';
+$string['cannotunziptopreset'] = 'プリセットディレクトリにZIPファイルを解凍できません。';
+$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。';
 $string['checkbox'] = 'チェックボックス';
 $string['chooseorupload'] = 'ファイルを選択する';
 $string['columns'] = 'カラム';
@@ -113,6 +121,7 @@ $string['forcelinkname'] = '強制リンク名';
 $string['foundnorecords'] = 'レコードが見つかりませんでした (<a href=\"$a->reseturl\">フィルタをリセットする</a>)';
 $string['foundrecords'] = '$a->num/$a->max 件のレコードが見つかりました (<a href=\"$a->reseturl\">フィルタをリセットする</a>)';
 $string['fromfile'] = 'ZIPファイルからインポートする';
+$string['guestrate'] = 'ゲストは、このエントリの評価を許可されていません。';
 $string['header'] = 'ヘッダ';
 $string['headeraddtemplate'] = 'エントリ編集用のインターフェース定義';
 $string['headerasearchtemplate'] = '検索オプションのインターフェース定義';
@@ -124,7 +133,14 @@ $string['headersingletemplate'] = '個別表示用のインターフェース定
 $string['importsuccess'] = 'プリセットが正常に適用されました。';
 $string['insufficiententries'] = 'このデータベースを見るには、さらにエントリが必要です。';
 $string['intro'] = 'イントロダクション';
+$string['invalidaccess'] = 'このページは、正しくアクセスされていません。';
+$string['invaliddata'] = 'データが正しくありません。';
+$string['invalidfieldid'] = 'フィールドIDが正しくありません。';
 $string['invalidfieldname'] = 'このフィールドに他の名称を選択してください。';
+$string['invalidfieldtype'] = 'フィールドタイプが正しくありません。';
+$string['invalidid'] = 'データIDが正しくありません。';
+$string['invalidratedata'] = '送信された評価データが正しくありません。';
+$string['invalidrecord'] = 'レコードが正しくありません。';
 $string['invalidurl'] = '入力されたURIが正しくありません。';
 $string['jstemplate'] = 'Javaスクリプトテンプレート';
 $string['latitude'] = '経度';
@@ -165,10 +181,12 @@ $string['newentry'] = '新しいエントリ';
 $string['newfield'] = '新しいフィールドを作成する';
 $string['noaccess'] = 'あなたは、このページにアクセスできません。';
 $string['nodefinedfields'] = '新しいプリセットにフィールドが定義されていません!';
+$string['nofieldcontent'] = 'フィールドコンテンツが見つかりませんでした。';
 $string['nofieldindatabase'] = 'このデータベースには、フィールドが定義されていません。';
 $string['nolisttemplate'] = 'テンプレート一覧は、まだ定義されていません。';
 $string['nomatch'] = '該当するエントリが見つかりませんでした!';
 $string['nomaximum'] = '最大数なし';
+$string['norating'] = 'この活動は、評価を使用していません。';
 $string['norecords'] = 'データベースにエントリがありません。';
 $string['nosingletemplate'] = 'テンプレートは、まだ定義されていません。';
 $string['notinjectivemap'] = 'エントリを追加できるマップではありません。';

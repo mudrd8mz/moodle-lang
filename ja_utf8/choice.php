@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // choice.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
 
 
 $string['addmorechoices'] = '選択肢の追加';
 $string['allowupdate'] = '投票内容の更新を許可する';
 $string['answered'] = '投票済み';
+$string['cannotsavechoice'] = 'あなたの投票を保存できませんでした。';
+$string['cannotupdatechoice'] = 'データベースにエラーが発生したため、あなたの投票を更新できませんでした。';
 $string['choice'] = '選択肢';
 $string['choice:choose'] = '投票を記録する';
 $string['choice:deleteresponses'] = '投票結果を削除する';
