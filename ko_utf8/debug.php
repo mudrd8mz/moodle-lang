@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
 
 
 $string['authpluginnotfound'] = '인증 플러그인 $a 없음';
@@ -24,6 +24,7 @@ $string['fixsetting'] = 'config.php의 설정을 조절하십시오. <p>현재�
 $string['invalidarraysize'] = '$a 매개변수의 틀린 어레이 크기';
 $string['invalideventdata'] = '틀린 이벤트 자료 제시: $a';
 $string['morethanonerecordinfetch'] = 'fetch()에 중복 자료 발견!';
+$string['mustbeoveride'] = '모호한 $a 방법은 수정되어야 합니다.';
 $string['noactivityname'] = 'page_generic_activity에서 추촐된 페이지 오브젝트는 $this->activityname 을 정의하지 않습니다.';
 $string['noadminrole'] = '관리자 역할을 찾을 수 없음';
 $string['noblockbase'] = '/blocks/moodleblock.class.php

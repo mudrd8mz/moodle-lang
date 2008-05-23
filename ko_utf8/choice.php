@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (2007101506)
+      // choice.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
 
 
 $string['addmorechoices'] = '선택사항을 더 추가하시오';
 $string['allowupdate'] = '설문 응답 수정 허용';
 $string['answered'] = '응답함';
+$string['cannotsavechoice'] = '선택사항을 저장할 수 없음';
+$string['cannotupdatechoice'] = '데이터베이스의 오류로 선택사항 갱신 불가';
 $string['choice'] = '선택문';
 $string['choice:choose'] = '설문 기록';
 $string['choice:deleteresponses'] = '설문 응답 삭제';
