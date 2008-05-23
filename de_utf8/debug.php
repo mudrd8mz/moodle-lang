@@ -2,8 +2,12 @@
       // debug.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
+$string['authpluginnotfound'] = 'Plugin $a zur Authentifierung nicht gefunden';
+$string['cannotbenull'] = '$a darf nicht Null sein!';
+$string['cannotcreateadminuser'] = 'Schwerer Fehler: Der Datensatz für den Admin-Nutzer konnte nicht angelegt werden!';
 $string['cannotdowngrade'] = 'Ein Downgrade von $a[0] nach $a[1] ist nicht möglich.';
-$string['cannotfindadmin'] = 'Der Nutzer Admin konnte nicht gefunden werden!';
+$string['cannotfindadmin'] = 'Es konnte kein Admin-Nutzer gefunden werden!';
+$string['cannotinitpage'] = 'Die Seite konnte nicht vollständig initialisiert werden. Ungültige $a[0]-ID $a[1]';
 $string['cannotsetupsite'] = 'Schwerwiegender Fehler: Die Website konnte nicht eingerichtet werden!';
 $string['cannotupdaterelease'] = 'Fehler: Die Release-Version der Datenbank konnte nicht aktualisiert werden!';
 $string['cannotupdateversion'] = 'Die Aktualisierung ist fehlgeschlagen! In der Konfigurationstabelle konnte die Version nicht aktualisiert werden.';
@@ -16,9 +20,14 @@ $string['dbnotupdate'] = 'Datenbankfehler - \"$a\" konnte nicht aktualisiert wer
 $string['doesnotworkwitholdversion'] = 'Dieses Script arbeitet nicht mit dieser alten Version von Moodle.';
 $string['erroroccur'] = 'Ein Fehler ist während des Vorgangs aufgetreten.';
 $string['fixsetting'] = 'Bitte korrigieren Sie die Einstellungen in der Datei config.php: <p>Aktuell vorhanden: </p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>aber das sollte geändert werden in: </p> <p>$CFG->dirroot = \"$a[1]\"</p>';
+$string['invalidarraysize'] = 'Falsche Feldgröße bei den Einstellungen von $a';
+$string['invalideventdata'] = 'Falscher Kalendereintrag übermittelt: $a';
+$string['mustbeoveride'] = 'Die Methode $a muss außer Kraft gesetzt werden.';
+$string['noadminrole'] = 'Es konnte keine Admin-Rolle gefunden werden';
 $string['noblockbase'] = 'Die Klasse block_base ist nicht definiert oder eine Datei für /blocks/moodleblock.class.php  kann nicht gefunden werden.';
 $string['noblocks'] = 'Keine Blocks installiert!';
 $string['nocaps'] = 'Fehler: keine Fähigkeiten definiert!';
+$string['nocate'] = 'Keine Kursbereiche!';
 $string['nomodules'] = 'Keine Module gefunden!';
 $string['noreports'] = 'Kein Zugriff auf Berichte';
 $string['notables'] = 'Keine Tabellen!';
@@ -28,6 +37,8 @@ $string['prefixcannotbeempty'] = 'Der Prefix für die Tabellen \"$a[0]\" der Zie
 $string['prefixlimit'] = 'Die Länge des Tabellen-Prefix \"$a\" für Oracle Datenbanken darf höchstens 2cc sein.';
 $string['sessionmissing'] = '$a Objekt fehlt für Session';
 $string['siteisnotdefined'] = 'Site ist nicht festgelegt!';
-$string['withoutversion'] = 'Haupt-version.php ist nicht lesbar oder festgelegt.';
+$string['sqlrelyonobsoletetable'] = 'Dieses SQL beinhaltet fehlerhafte Tabellen: $a! Ein Entwickler muss Ihren Code korrigieren.';
+$string['upgradefail'] = 'Aktualisierung fehlgeschlagen!';
+$string['withoutversion'] = 'Im Hauptverzeichnis ist version.php nicht lesbar oder nicht vorhanden.';
 
 ?>

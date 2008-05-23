@@ -3,11 +3,22 @@
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
+$string['badbase'] = 'Schlechter Bezug vor **: $a**';
 $string['broken'] = 'Dies ist ein ungültiger Link, der auf eine nicht existierende Datei zeigt.';
 $string['byandon'] = 'von <em>$a->user</em> - <em>$a->time</em>';
+$string['cannotcopybackup'] = 'Die Sicherungsdatei konnte nicht kopiert werden';
 $string['cannotcreate'] = 'Es konnte kein Eintrag in der Datenbanktabelle für Testversuche (question_attempts) angelegt werden.';
+$string['cannotcreatedataset'] = 'Der Datensatz $a kann nicht angelegt werden';
+$string['cannotcreaterelation'] = 'Eine Verbindung zum den Datensatz $a[0] $a[1] kann nicht angelegt werden';
+$string['cannotfindquestionfile'] = 'Die Fragendaten konnten nicht in der ZIP-Datei gefunden werden';
 $string['cannotinsert'] = 'Es konnte kein Eintrag in question_sessions erstellt werden.';
-$string['cannotsavequiz'] = 'Der letzte Testversuch konnte nicht gespeichert  werden!';
+$string['cannotinsertquestion'] = 'Die neue Frage konnte nicht eingefügt werden!';
+$string['cannotsavequiz'] = 'Der letzte Testversuch konnte nicht gespeichert werden!';
+$string['cannotunzip'] = 'Die Datei konnte nicht entpackt werden.';
+$string['cannotupdatecate'] = 'Die Kategorie $a konnte nicht aktualisiert werden';
+$string['cannotupdatequestion'] = 'Die Frage konnte nicht aktualisiert werden!';
+$string['cannotupdatequestionver'] = 'Das Versionsfeld der Frage konnte nicht aktualisiert werden';
+$string['cannotwriteto'] = 'Die exportierten Fragen können nicht nach \"$a\" gespeichert werden';
 $string['categorycurrent'] = 'Aktuelle Kategorie';
 $string['categorycurrentuse'] = 'Diese Kategorie benutzen';
 $string['categorydoesnotexist'] = 'Diese Kategorie gibt es nicht';
@@ -63,10 +74,13 @@ $string['movingquestions'] = 'Fragen und Dateien werden verschoben';
 $string['movingquestionsandfiles'] = 'Sind Sie sicher, dass Sie die Frage(n) {$a->questions} in den Kontext <strong>\"{$a->tocontext}\"</strong> verschieben wollen?<br/>In Frage(n) in {§a->fromareaname} wird auf <strong>{$a->urlcount} Dateien</strong> verlinkt. Wollen Sie diese Dateien nach {$a->toareaname} kopieren oder verschieben?';
 $string['movingquestionsnofiles'] = 'Sind Sie sicher, dass Sie die Frage(n) {$a->questions} in den Kontext <strong>\"{$a->tocontext}\"</strong> verschieben wollen?<br/>In keiner Frage in {§a->fromareaname} wird auf <strong> Dateien</strong> verlinkt.';
 $string['needtochoosecat'] = 'Sie müssen eine Kategorie auswählen, um diese Frage zu verschieben. Oder Sie drücken \"Abbrechen\".';
+$string['nocate'] = 'Keine solche Kategorie: $a!';
 $string['nopermissionadd'] = 'Sie haben keine Berechtigung, um hier Fragen hinzuzufügen.';
 $string['noprobs'] = 'Es wurden keine Probleme in Ihrer Fragen-Datenbank gefunden.';
 $string['notenoughdatatoeditaquestion'] = 'Weder eine Frage-ID noch eine Kategorie-ID noch ein Fragetyp sind angegeben.';
 $string['notenoughdatatomovequestions'] = 'Sie müssen die Frage-ID der Fragen angeben, die Sie verschieben wollen.';
+$string['parenthesisinproperclose'] = 'Die Klammer vor ** ist nicht richtig geschlossen bei $a**';
+$string['parenthesisinproperstart'] = 'Die Klammer vor ** ist nicht richtig geöffnet bei $a**';
 $string['permissionedit'] = 'Diese Frage bearbeiten';
 $string['permissionmove'] = 'Diese Frage verschieben';
 $string['permissionsaveasnew'] = 'Diese Frage  als neue Frage speichern';
@@ -85,7 +99,9 @@ $string['shareincontext'] = 'Im Kontext von $a freigeben';
 $string['tofilecategory'] = 'Kategorie in eine Datei schreiben';
 $string['tofilecontext'] = 'Kontext in eine Datei schreiben';
 $string['unknown'] = 'Unbekannt';
-$string['unknownquestiontype'] = 'Unbekannter Fragentyp: $a.';
+$string['unknownquestiontype'] = 'Unbekannter Fragentyp: $a';
+$string['unknowntolerance'] = 'Unbekannter Toleranztyp: $a';
 $string['unpublished'] = 'Nicht freigegeben';
+$string['wrongprefix'] = 'Falsch formatiertes Präfix-Wort';
 
 ?>
