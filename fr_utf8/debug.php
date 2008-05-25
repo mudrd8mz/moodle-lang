@@ -30,6 +30,7 @@ $string['noadminrole'] = 'Aucun rôle administrateur trouvé';
 $string['noblockbase'] = 'La classe block_base n\'est pas définie ou le fichier pour /blocks/moodleblock.class.php n\'a pas été trouvé';
 $string['noblocks'] = 'Aucun bloc installé&nbsp;!';
 $string['nocaps'] = 'Erreur&nbsp;: aucune capacité définie&nbsp;!';
+$string['nocate'] = 'Aucune catégorie&nbsp;!';
 $string['nomodules'] = 'Aucun module trouvé&nbsp;!';
 $string['nopageclass'] = '$a a été importé, mais aucune classe de page n\'a été trouvée';
 $string['noreports'] = 'Aucun rapport accessible';
