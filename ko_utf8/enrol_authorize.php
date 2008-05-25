@@ -17,7 +17,7 @@ $string['adminemailexpired'] = '이 기능은 \'수동 수납\' 때 유용합니
 $string['adminemailexpiredsort'] = '담당 교수자에게 파기될 수강신청에 대한 이메밀을 보내게 될 때, 어느 사항이 중요합니까?';
 $string['adminemailexpiredsortcount'] = '수강신청 수';
 $string['adminemailexpiredsortsum'] = '총 합계';
-$string['adminemailexpiredteacher'] = '만일 수동으로 수납할 수 있게 해서 선생님들이 공납금을 손수 관리한다면, 선생님들은 수강신청 파기에 대해 알 수 있어야만 합니다. 이 경우 각 강좌의 선생님들에게 얼마나 마감 기일이 남았는지에 대해 이메일로 일려줄 것입니다.';
+$string['adminemailexpiredteacher'] = '만일 수동으로 수납할 수 있게 해서 교수자들이 공납금을 손수 관리한다면, 교수자들은 수강신청 파기에 대해 알 수 있어야만 합니다. 이 경우 각 강좌의 교수자들에게 얼마나 마감 기일이 남았는지에 대해 이메일로 일려줄 것입니다.';
 $string['adminemailexpsetting'] = '(0=통보이메일 불가, 기본값=2, 최대=5)<br />(이메일을 보내기 위한 수동 수납 설정 : cron=enabled, an_review=checked, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = '예정된 징수일';
 $string['adminhelpreviewtitle'] = '수강신청 검토';
@@ -150,7 +150,7 @@ $string['pendingordersemailteacher'] = '담당 교수자에게
 
 $a->days 일 이내로 지불을 승인하지 않으면 \"$a->course\"의 $a->currency $a->sumcost 에 대한 $a->pending 거래가 파기될 것입니다.
 
-관리자가 자동 징수할 수 없으므로 선생님이 직접 지불에 대해 승인/거부 의사를 밝히셔야만 합니다.
+관리자가 자동 징수할 수 없으므로 교수자가 직접 지불에 대해 승인/거부 의사를 밝히셔야만 합니다.
 
 $a->url';
 $string['pendingorderssubject'] = '경고 : $a->days 일 이내에  $a->course, $a->pending 수강신청이 피기될 것입니다.';
@@ -177,7 +177,7 @@ $string['reason56'] = '본 거래는 eCheck(ACH)만 허용합니다. 신용카�
 $string['refund'] = '환불';
 $string['refunded'] = '환불됨';
 $string['returns'] = '반환';
-$string['reviewday'] = '<b>$a</b>일 내에 선생님이나 관리자가 수강신청을 검토하지 않는 한, 자동적으로 신용카드에서 징수합니다. cron이 반드시 활성화 되어 있어야 합니다.<br />(0일 이란 자동징수 불가능을 의미하며 따라서 교수자나 관리자가 수강신청을 수동으로 검토해야 합니다. 만일 교수자나 관리자가 수동으로 접수하기로 하고 30일 이내에 검토하지 않으면 거래는 취소될 것입니다)';
+$string['reviewday'] = '<b>$a</b>일 내에 교수자나 관리자가 수강신청을 검토하지 않는 한, 자동적으로 신용카드에서 징수합니다. cron이 반드시 활성화 되어 있어야 합니다.<br />(0일 이란 자동징수 불가능을 의미하며 따라서 교수자나 관리자가 수강신청을 수동으로 검토해야 합니다. 만일 교수자나 관리자가 수동으로 접수하기로 하고 30일 이내에 검토하지 않으면 거래는 취소될 것입니다)';
 $string['reviewfailed'] = '검토 실패';
 $string['reviewnotify'] = '결제가 확인되었습니다. 선생님으로부터 며칠안으로 이메일이 갈것입니다.';
 $string['sendpaymentbutton'] = '지불하기';
