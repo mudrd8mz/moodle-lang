@@ -1,6 +1,6 @@
 <h1>O urejevalniku obogatenega besedila HTML</h1>
 
-<p>Razpoložljivost: <b><?php  if (!$CFG->htmleditor) { print_string("htmleditordisabledadmin"); } else if (!$USER->htmleditor) { print_string("htmleditordisabled"); } else if (!can_use_richtext_editor()) { print_string("htmleditordisabledbrowser"); } else { print_string("htmleditoravailable"); } ?></b></p>
+<p>Razpoložljivost: <b><?php  if (!$CFG->htmleditor) { print_string("htmleditordisabledadmin"); } else if (!$USER->htmleditor) { print_string("htmleditordisabled"); } else if (!can_use_html_editor()) { print_string("htmleditordisabledbrowser"); } else { print_string("htmleditoravailable"); } ?></b></p>
 
 <p>Urejevalnik obogatenega besedila HTML ponuja vgrajen vmesnik urejevalnika besedil na vaši spletni strani in vam omogoča urejanje besedila na intuitiven način ter ustvari običajno HTML kodo.</p>
 
