@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -30,6 +30,8 @@ $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cannotadddiscussion'] = 'このフォーラムにディスカッションを追加するには、グループのメンバーである必要があります。';
 $string['cannotadddiscussionall'] = 'あなたには、すべての参加者に対する新しいディスカッショントピックを追加するパーミッションがありません。';
 $string['cannotfindorcreateforum'] = 'サイトのメインニュースフォーラムが見つからないか、作成できません。';
+$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。';
+$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。';
 $string['cannotviewpostyet'] = 'まだ投稿していないため、あなたは他の学生の質問を読むことはできません。';
 $string['cleanreadtime'] = '古い投稿を既読とする時刻';
 $string['configcleanreadtime'] = '古い投稿を「既読」テーブルからクリアする時刻 (時) です。';
@@ -124,6 +126,9 @@ $string['inforum'] = '$a';
 $string['intronews'] = '一般ニュースとお知らせ';
 $string['introsocial'] = '投稿制限なしフォーラム';
 $string['introteacher'] = '教師専用フォーラム';
+$string['invalidaccess'] = 'このページは正しくアクセスされていません。';
+$string['invalidforumid'] = 'フォーラムIDが正しくありません。';
+$string['invalidpostid'] = '投稿IDが正しくありません - $a';
 $string['lastpost'] = '最新の投稿';
 $string['learningforums'] = '学習フォーラム';
 $string['logblocked'] = 'ブロックされたメール送信を記録する';
@@ -156,6 +161,7 @@ $string['newforumposts'] = '新しいフォーラム投稿';
 $string['nodiscussions'] = 'このフォーラムにはまだディスカッショントピックがありません。';
 $string['nodiscussionsstartedby'] = 'このユーザから開始されたディスカッションはありません。';
 $string['noguestpost'] = '申し訳ございません、ゲストは投稿できません。';
+$string['noguestrate'] = 'ゲストは、このエントリを評価できません。';
 $string['noguestsubscribe'] = '申し訳ございません、ゲストはフォーラムの投稿内容をメールで受信できません。';
 $string['noguesttracking'] = '申し訳ございません、ゲストは未読管理オプションを設定できません。';
 $string['nomorepostscontaining'] = 'これ以上「 $a 」 を含んだ投稿はありません。';
@@ -164,11 +170,15 @@ $string['nopostforum'] = '申し訳ございません、あなたはこのフォ
 $string['noposts'] = '投稿していません。';
 $string['nopostscontaining'] = '「 $a 」 が含まれる投稿は見つかりませんでした。';
 $string['noquestions'] = 'このフォーラムにはまだ質問がありません。';
+$string['norate'] = 'アイテムの評価は許可されていません!';
+$string['noresult'] = 'この投稿に関する評価はありません: $a';
 $string['nosubscribers'] = 'このフォーラムにはまだメール購読ユーザはいません。';
 $string['nothingnew'] = '$a に新しい投稿はありません。';
 $string['notingroup'] = '申し訳ございません、グループ以外の方はこのフォーラムを閲覧できません。';
 $string['notrackforum'] = '投稿の未読管理をしない';
+$string['noviewanyrate'] = 'あなたは、自分の投稿に関する結果のみ閲覧できます。';
 $string['noviewdiscussionspermission'] = 'あなたには、このフォーラムを閲覧するパーミッションがありません。';
+$string['noviewrate'] = 'あなたには、この投稿評価を閲覧するケイパビリティがありません。';
 $string['nowallsubscribed'] = '$a のすべてのフォーラムのメール購読を登録しました。';
 $string['nowallunsubscribed'] = '$a のすべてのフォーラムのメール購読を解除しました。';
 $string['nownotsubscribed'] = '$a->name には「 $a->forum 」の記事がメールで届きません。';
