@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 2.0 dev (2007110800)
+      // notes.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
 
 
 $string['addnewnote'] = '新しいノートを追加する';
@@ -12,7 +12,7 @@ $string['created'] = '作成日時';
 $string['deleteconfirm'] = 'このノートを削除してもよろしいですか?';
 $string['deletenotes'] = 'すべてのノートを削除する';
 $string['editnote'] = 'ノートの編集';
-$string['groupaddnewnote'] = '全員の新しいノートを追加する';
+$string['groupaddnewnote'] = '一般的なノートを追加する';
 $string['nocontent'] = 'ノートコンテンツを入力してください。';
 $string['nonotes'] = 'まだこのタイプのノートはありません。';
 $string['note'] = 'ノート';

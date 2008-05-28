@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
+      // data.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
 
 
 $string['action'] = '操作';
@@ -37,6 +37,8 @@ $string['cannotrate'] = 'アイテムの評価が許可されていません!';
 $string['cannotunziptopreset'] = 'プリセットディレクトリにZIPファイルを解凍できません。';
 $string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。';
 $string['checkbox'] = 'チェックボックス';
+$string['chooseexportfields'] = 'あなたがエクスポートしたいフィールドを選択してください:';
+$string['chooseexportformat'] = 'あなたがエクスポートしたいフォーマットを選択してください:';
 $string['chooseorupload'] = 'ファイルを選択する';
 $string['columns'] = 'カラム';
 $string['comment'] = 'コメント';
@@ -50,6 +52,7 @@ $string['confirmdeletefield'] = 'あなたは、このフィールドを削除�
 $string['confirmdeleterecord'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['csstemplate'] = 'CSSテンプレート';
 $string['csvfile'] = 'CSVファイル';
+$string['csvformat'] = 'CSVフォーマット';
 $string['csvimport'] = 'CSVファイルインポート';
 $string['data:approve'] = '未承認のエントリを承認する';
 $string['data:comment'] = 'コメントを追加する';
@@ -91,8 +94,10 @@ $string['entry'] = 'エントリ';
 $string['entrysaved'] = 'エントリが保存されました。';
 $string['errormustbeteacher'] = 'このページは教師のみ使用できます!';
 $string['example'] = 'データベースモジュール例';
+$string['excelformat'] = 'Excelフォーマット';
 $string['export'] = 'エクスポート';
 $string['exportaszip'] = 'ZIPファイルとしてエクスポートする';
+$string['exportdatabase'] = 'データベースレコードをエクスポートする';
 $string['exportedtozip'] = 'ZIPファイルとして一時的にエクスポートしました ...';
 $string['failedpresetdelete'] = 'プリセットの削除にエラーが発生しました!';
 $string['fieldadded'] = 'フィールドが追加されました。';
@@ -194,6 +199,7 @@ $string['number'] = '数値';
 $string['numberrssarticles'] = 'RSS記事';
 $string['numnotapproved'] = '保留';
 $string['numrecords'] = 'エントリ数: $a';
+$string['odsformat'] = 'ODSフォーマット';
 $string['optionaldescription'] = '短い説明 (任意)';
 $string['optionalfilename'] = 'ファイル名 (任意)';
 $string['other'] = 'その他';
@@ -254,6 +260,7 @@ $string['timemodified'] = '修正日時';
 $string['todatabase'] = '>> データベース';
 $string['type'] = 'フィールドタイプ';
 $string['undefinedprocessactionmethod'] = 'アクション「 $a 」を処理するためのメソッドがData_Presetに定義されていません。';
+$string['unsupportedexport'] = '($a->fieldtype) をエクスポートできませんでした。';
 $string['updatefield'] = '既存のフィールドを更新します。';
 $string['uploadfile'] = 'ファイルをアップロードする';
 $string['uploadrecords'] = 'ファイルからエントリをアップロードする';
