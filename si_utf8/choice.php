@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (2007101508)
+      // choice.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
 
 
 $string['addmorechoices'] = 'තවත් තේරීම්  එක් කරන්න';
 $string['allowupdate'] = 'තේරීම යාවත්කාලීක කිරීමට ඉඩදෙන්න';
 $string['answered'] = 'පිළිතුරු සපයන ලදි';
+$string['cannotsavechoice'] = 'ඔබගේ තේරීම සුරක්ෂිත කල නොහැක';
+$string['cannotupdatechoice'] = 'දත්ත ගබඩා දෝෂයක් නිසා ඔබගේ තේරීම යාවත් කාලීන කල නොහැක';
 $string['choice'] = 'තේරීම';
 $string['choice:choose'] = 'තේරීමක් වාර්තා ගත කරන්න';
 $string['choice:deleteresponses'] = 'ප්‍රතිචාර මකා දමන්න.';
