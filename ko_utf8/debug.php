@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080528) (2008051202)
 
 
 $string['authpluginnotfound'] = '인증 플러그인 $a 없음';
@@ -45,5 +45,6 @@ $string['siteisnotdefined'] = '사이트가 정의되지 않았음!';
 $string['sqlrelyonobsoletetable'] = '이 SQL은 과거 $a 테이블에 의존합니다! 개발자가 코드를 수정해야 합니다.';
 $string['upgradefail'] = '갱신 실패! $a 를 참조하시오.';
 $string['withoutversion'] = '주 version.php가 지정되지 않았거나 읽을 수 없음';
+$string['xmlizeunavailable'] = 'xml 변환기능을 사용할 수 없음';
 
 ?>

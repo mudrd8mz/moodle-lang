@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
+      // error.php - created with Moodle 2.0 dev (Build: 20080528) (2008051202)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 수정될 수 없음';
@@ -14,6 +14,8 @@ $string['cannofindgradeitem'] = '채점 항목이 없음';
 $string['cannotaddblock'] = '$a 블록은 블록 목록에 추가할 수 없음!';
 $string['cannotaddcmtosection'] = '영역에 새로운 강좌 모듈을 추가할 수 없음';
 $string['cannotaddcoursemodule'] = '새로운 강좌 모듈을 추가할 수 없음';
+$string['cannotaddcoursemoduletosection'] = '영역에 새로운 강좌 모듈을 추가할 수 없음';
+$string['cannotaddnewinstance'] = '$a 의 새 인스턴스를 추가할 수 없음';
 $string['cannotaddnewmodule'] = '$a 의 새 인스턴스를 추가할 수 없음';
 $string['cannotaddrss'] = 'rss 송출을 추가할 수 있는 권한이 없음';
 $string['cannotassignanthing'] = 'moodle/site:doanything 권한을 부여할 수 없음';
@@ -102,6 +104,7 @@ $string['cannotunzipfile'] = '압축된 파일을 풀 수 없습니다.';
 $string['cannotupdateblock'] = '블록 테이블의 $a 블록 자료를 갱신할 수 없음!';
 $string['cannotupdatecategory'] = '범주($a)를 갱신할 수 없음';
 $string['cannotupdatecm'] = '정확한 위치로 강좌 모듈을 갱신할 수 없음';
+$string['cannotupdatecoursemodule'] = '정확한 위치로 강좌 모듈을 갱신할 수 없음';
 $string['cannotupdategroup'] = '모둠 갱신중 오류';
 $string['cannotupdatelevel'] = '강좌 모듈을 이동시켜 갱신할 수 없음';
 $string['cannotupdatemod'] = '$a 를 갱신할 수 없음';
@@ -204,6 +207,7 @@ $string['invalidpaymentmethod'] = '잘못된 지불 방법: $a';
 $string['invalidrequest'] = '잘못된 요청';
 $string['invalidrole'] = '잘못된 역할';
 $string['invalidscaleid'] = '잘못된 척도 id';
+$string['invalidsection'] = '강좌 모듈에 잘못된 위치 정보 포함됨';
 $string['invalidseeky'] = 'sesskey가 틀렸기 때문에 서식이 접수되지 않음!';
 $string['invalidsesskey'] = 'sesskey가 틀렸기 때문에 서식이 접수되지 않음!';
 $string['invalidshortname'] = '강좌의 잘못된 단축명임';
