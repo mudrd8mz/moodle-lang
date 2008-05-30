@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
+      // error.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
 
 
 $string['adminprimarynoedit'] = '主管理者は他のユーザから編集することはできません。';
@@ -14,7 +14,9 @@ $string['cannofindgradeitem'] = '評定項目が見つかりません。';
 $string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!';
 $string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。';
 $string['cannotaddcoursemodule'] = '新しいコースモジュールを追加できませんでした。';
-$string['cannotaddnewmodule'] = '$a の新しいインスタンスを追加できませんでした。';
+$string['cannotaddcoursemoduletosection'] = '新しいコースモジュールをセクションに追加できませんでした。';
+$string['cannotaddnewinstance'] = '$a の新しいインスタンスを追加できませんでした。';
+$string['cannotaddnewmodule'] = '$a の新しいモジュールを追加できませんでした。';
 $string['cannotaddrss'] = 'あなたには、RSSフィードを追加するパーミッションがありません。';
 $string['cannotassignanthing'] = 'moodle/site:doanythingを割り当てることができません。';
 $string['cannotassignrole'] = 'コース内でロールを割り当てることができません。';
@@ -102,6 +104,7 @@ $string['cannotunzipfile'] = 'ZIPファイルを解凍できません。';
 $string['cannotupdateblock'] = 'ブロックテーブルのブロック $a レコードを更新できませんでした!';
 $string['cannotupdatecategory'] = 'カテゴリ ($a) を更新できませんでした。';
 $string['cannotupdatecm'] = 'コースモジュールを正しいセクションに更新できませんでした。';
+$string['cannotupdatecoursemodule'] = 'コースモジュールを正しいセクションに更新できませんでした。';
 $string['cannotupdategroup'] = 'グループの更新中にエラーが発生しました。';
 $string['cannotupdatelevel'] = 'コースモジュールのインデントレベルを更新できませんでした。';
 $string['cannotupdatemod'] = '$a を更新できませんでした。';
@@ -204,6 +207,7 @@ $string['invalidpaymentmethod'] = '無効な支払方法: $a';
 $string['invalidrequest'] = '無効なリクエストです。';
 $string['invalidrole'] = '無効なロールです。';
 $string['invalidscaleid'] = '無効なスケールIDです。';
+$string['invalidsection'] = 'コースモジュールのレコードに無効なセクションが含まれています。';
 $string['invalidseeky'] = '無効なsesskeyが送信されました。フォームの内容は受信されませんでした!';
 $string['invalidsesskey'] = '無効なsesskeyが送信されました。フォームの内容は受信されませんでした!';
 $string['invalidshortname'] = '無効なコース省略名です。';
