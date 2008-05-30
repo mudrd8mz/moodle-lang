@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
 
 
+$string['actual'] = '実値';
 $string['aftertable'] = '次のテーブルの後:';
 $string['back'] = '戻る';
 $string['backtomainview'] = 'メインに戻る';
 $string['binaryincorrectlength'] = 'binaryフィールドの長さが正しくありません。';
-$string['butis'] = '現在の値:';
 $string['cannotuseidfield'] = '「id」フィールドは追加できません。自動作成されるカラムです。';
 $string['change'] = '変更';
 $string['charincorrectlength'] = 'charフィールドの長さが正しくありません。';
@@ -55,9 +55,11 @@ $string['edit_statement'] = 'ステートメントの編集';
 $string['edit_table'] = 'テーブルの編集';
 $string['edit_xml_file'] = 'XMLファイルの編集';
 $string['enumvaluesincorrect'] = 'enumフィールドが正しくありません。';
+$string['expected'] = '期待値';
 $string['field'] = 'フィールド';
 $string['fieldnameempty'] = 'フィールド名が空です。';
 $string['fields'] = 'フィールド';
+$string['fieldsusedinkey'] = 'このフィールドは、キーとして使用されています。';
 $string['filenotwriteable'] = 'ファイルに書き込み権がありません。';
 $string['floatincorrectdecimals'] = 'floatフィールドの小数点以下桁数が正しくありません。';
 $string['floatincorrectlength'] = 'floatフィールドの長さが正しくありません。';
@@ -106,7 +108,6 @@ $string['selectonecommand'] = 'PHPコードを表示するには、リストよ�
 $string['selectonefieldkeyindex'] = 'PHPコードを表示するには、リストよりフィールド/キー/インデックスを選択してください。';
 $string['selecttable'] = 'テーブルの選択:';
 $string['sentences'] = 'センテンス';
-$string['shouldbe'] = '適切な値:';
 $string['statements'] = 'ステートメント';
 $string['statementtable'] = 'ステートメントテーブル:';
 $string['statementtype'] = 'ステートメントタイプ:';
@@ -135,5 +136,7 @@ $string['wrongreservedwords'] = '現在使用されている予約語<br />($CFG
 $string['yesmissingindexesfound'] = 'あなたのDBに不明なインデックスが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上不明なインデックスが見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
 $string['yeswrongdefaultsfound'] = 'あなたのDBに矛盾したデフォルト値が見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上矛盾したデフォルト値が見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
 $string['yeswrongintsfound'] = 'あなたのDBに不正なインテジャが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインテジャ作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上不正なインテジャが見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
+$string['butis'] = '現在の値:'; // TBD
+$string['shouldbe'] = '適切な値:'; // TBD
 
 ?>

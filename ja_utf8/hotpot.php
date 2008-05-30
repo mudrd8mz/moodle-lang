@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
 
 
 $string['abandoned'] = '放棄';
@@ -56,6 +56,7 @@ $string['hotpotcloses'] = 'Hot Potatoesクイズ終了日時';
 $string['hotpotopens'] = 'Hot Potatoesクイズ開始日時';
 $string['ignored'] = '無視';
 $string['inprogress'] = '進行中';
+$string['invalidhotpotid'] = 'hotpot IDが正しくありません。';
 $string['location'] = 'ファイルの場所';
 $string['modulename'] = 'Hot Potatoes';
 $string['modulenameplural'] = 'Hot Potatoes';
@@ -82,6 +83,7 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = 'ペナルティ';
 $string['questionshort'] = 'Q-$a';
 $string['quiztype'] = 'クイズタイプ';
+$string['quizunavailable'] = '現在、クイズを利用できません。';
 $string['rawdetails'] = '生の受験詳細';
 $string['regrade'] = '再評定';
 $string['regradecheck'] = '本当に「 $a 」を再評定しますか?';
@@ -150,6 +152,7 @@ $string['textsourcequiz'] = 'クイズより取得する';
 $string['textsourcespecific'] = 'テキストを指定する';
 $string['thiscourse'] = 'このコース';
 $string['timedout'] = 'タイムアウト';
+$string['unknownreport'] = '不明なレポート ($a) です。';
 $string['updatequizchain'] = 'クイズチェーンを更新する';
 $string['weighting'] = 'ウェイト';
 $string['wrong'] = '不正解';
