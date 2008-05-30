@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
 
 
 $string['authpluginnotfound'] = '認証プラグイン $a が見つかりませんでした。';
@@ -44,5 +44,6 @@ $string['siteisnotdefined'] = 'サイトが定義されていません!';
 $string['sqlrelyonobsoletetable'] = 'このSQLは古いテーブル $a を参照しています! あなたのコードは、開発者により修正される必要があります。';
 $string['upgradefail'] = 'アップグレードに失敗しました! 詳細: $a';
 $string['withoutversion'] = 'メインversion.phpが読めない、または指定されていません。';
+$string['xmlizeunavailable'] = 'xmlize関数を利用できません。';
 
 ?>

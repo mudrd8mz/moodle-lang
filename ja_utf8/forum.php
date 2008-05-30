@@ -29,8 +29,10 @@ $string['blockperioddisabled'] = 'ブロックしない';
 $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cannotadddiscussion'] = 'このフォーラムにディスカッションを追加するには、グループのメンバーである必要があります。';
 $string['cannotadddiscussionall'] = 'あなたには、すべての参加者に対する新しいディスカッショントピックを追加するパーミッションがありません。';
+$string['cannotaddsubscriber'] = 'このフォーラムに、ID $a のメール購読ユーザを追加できませんでした!';
 $string['cannotfindorcreateforum'] = 'サイトのメインニュースフォーラムが見つからないか、作成できません。';
 $string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。';
+$string['cannotremovesubscriber'] = 'このフォーラムから、ID $a のメール購読ユーザを削除できませんでした!';
 $string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。';
 $string['cannotviewpostyet'] = 'まだ投稿していないため、あなたは他の学生の質問を読むことはできません。';
 $string['cleanreadtime'] = '古い投稿を既読とする時刻';
@@ -166,6 +168,7 @@ $string['noguestsubscribe'] = '申し訳ございません、ゲストはフォ�
 $string['noguesttracking'] = '申し訳ございません、ゲストは未読管理オプションを設定できません。';
 $string['nomorepostscontaining'] = 'これ以上「 $a 」 を含んだ投稿はありません。';
 $string['nonews'] = '新しいニュースはありません。';
+$string['nopermissiontosubscribe'] = 'あなたには、メール購読ユーザを閲覧するパーミッションがありません。';
 $string['nopostforum'] = '申し訳ございません、あなたはこのフォーラムに投稿できません。';
 $string['noposts'] = '投稿していません。';
 $string['nopostscontaining'] = '「 $a 」 が含まれる投稿は見つかりませんでした。';
