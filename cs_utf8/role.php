@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta 2 (2007101504)
+      // role.php - created with Moodle 1.9.1+ (Build: 20080519) (2007101513)
 
 
 $string['addrole'] = 'Přidat novou roli';
 $string['allow'] = 'Povolit';
 $string['allowassign'] = 'Povolit přidělování rolí';
 $string['allowoverride'] = 'Povolit přenastavování rolí';
+$string['allsiteusers'] = 'Všichni uživatelé na serveru';
 $string['assignglobalroles'] = 'Přidělit globální role';
 $string['assignroles'] = 'Přidělit role';
 $string['assignrolesin'] = 'Přidělit role v $a';
@@ -72,12 +73,14 @@ $string['grade:import'] = 'Importovat známky';
 $string['grade:lock'] = 'Uzamykat známky nebo položky';
 $string['grade:manage'] = 'Spravovat položky známkování';
 $string['grade:manageletters'] = 'Spravovat slovní známky';
-$string['grade:manageoutcomes'] = 'Spravovat výstupy známkování';
+$string['grade:manageoutcomes'] = 'Spravovat očekávané výstupy';
 $string['grade:override'] = 'Přepisovat známky';
 $string['grade:unlock'] = 'Odemykat známky nebo položky';
 $string['grade:view'] = 'Vidět vlastní známky';
 $string['grade:viewall'] = 'Vidět známky ostatních';
 $string['grade:viewhidden'] = 'Vidět skryté známky vlastníka';
+$string['inactiveformorethan'] = 'nečinní déle než $a->timeperiod';
+$string['ingroup'] = 've skupině \"$a->group\"';
 $string['inherit'] = 'Zdědit';
 $string['legacy:admin'] = 'Archetyp: Správce';
 $string['legacy:coursecreator'] = 'Archetyp: Tvůrce kurzu';
@@ -93,6 +96,7 @@ $string['manageroles'] = 'Spravovat role';
 $string['metaassignerror'] = 'Tuto roli nelze přidělit uživateli \"$a\", protože je nutná pravomoc spravovat metakurz.';
 $string['metaunassignerror'] = 'Role uživatele  \"$a\" byla automaticky znovu přiřazena. Prosím, zrušte namísto toho její přiřazení v asociovaných kurzech.';
 $string['morethan'] = 'Více než $a';
+$string['multipleroles'] = 'Více rolí';
 $string['my:manageblocks'] = 'Spravovat bloky na stránce Můj Moodle';
 $string['nocapabilitiesincontext'] = 'V tomto kontextu nejsou k dispozici žádné pravomoci.';
 $string['notes:manage'] = 'Spravovat poznámky';
@@ -172,8 +176,10 @@ $string['user:viewdetails'] = 'Vidět profily uživatelů';
 $string['user:viewhiddendetails'] = 'Vidět skryté detaily uživatelů';
 $string['user:viewuseractivitiesreport'] = 'Vidět zprávy o činnosti uživatele';
 $string['user:viewusergrades'] = 'Vidět známky uživatele';
+$string['userhashiddenassignments'] = 'Tento uživatel má v tomto kurzu přiřazenu jednu nebo více skrytých rolí.';
+$string['userswithrole'] = 'Všichni uživatelé s rolí';
 $string['viewrole'] = 'Vidět podrobnosti role';
-$string['xuserswiththerole'] = 'Uživatelů s rolí \"$a->role\": $a->number';
+$string['xuserswiththerole'] = 'Uživatelé s rolí \"$a->role\"';
 $string['question:export'] = 'Exportovat otázky'; // ORPHANED
 $string['question:import'] = 'Importovat otázky'; // ORPHANED
 $string['question:manage'] = 'Spravovat otázky'; // ORPHANED
