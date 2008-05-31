@@ -52,8 +52,8 @@ $string['confirmdeletefield'] = 'あなたは、このフィールドを削除�
 $string['confirmdeleterecord'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['csstemplate'] = 'CSSテンプレート';
 $string['csvfile'] = 'CSVファイル';
-$string['csvformat'] = 'CSVフォーマット';
 $string['csvimport'] = 'CSVファイルインポート';
+$string['csvwithselecteddelimiter'] = '選択したデリミタによる<acronym title=\"カンマ区切り\">CSV</acronym>テキスト:';
 $string['data:approve'] = '未承認のエントリを承認する';
 $string['data:comment'] = 'コメントを追加する';
 $string['data:managecomments'] = 'コメントを管理する';
@@ -94,10 +94,10 @@ $string['entry'] = 'エントリ';
 $string['entrysaved'] = 'エントリが保存されました。';
 $string['errormustbeteacher'] = 'このページは教師のみ使用できます!';
 $string['example'] = 'データベースモジュール例';
-$string['excelformat'] = 'Excelフォーマット';
+$string['excel'] = 'Excel';
 $string['export'] = 'エクスポート';
 $string['exportaszip'] = 'ZIPファイルとしてエクスポートする';
-$string['exportdatabase'] = 'データベースレコードをエクスポートする';
+$string['exportdatabaserecords'] = 'データベースレコードをエクスポートする';
 $string['exportedtozip'] = 'ZIPファイルとして一時的にエクスポートしました ...';
 $string['failedpresetdelete'] = 'プリセットの削除にエラーが発生しました!';
 $string['fieldadded'] = 'フィールドが追加されました。';
@@ -199,7 +199,7 @@ $string['number'] = '数値';
 $string['numberrssarticles'] = 'RSS記事';
 $string['numnotapproved'] = '保留';
 $string['numrecords'] = 'エントリ数: $a';
-$string['odsformat'] = 'ODSフォーマット';
+$string['ods'] = '<acronym title=\"OpenDocumentスプレッドシート\">ODS</acronym> (OpenOffice)';
 $string['optionaldescription'] = '短い説明 (任意)';
 $string['optionalfilename'] = 'ファイル名 (任意)';
 $string['other'] = 'その他';
@@ -269,5 +269,9 @@ $string['usestandard'] = 'プリセットを使用する';
 $string['viewfromdate'] = '表示開始';
 $string['viewtodate'] = '表示終了';
 $string['wrongdataid'] = '無効なデータIDが提供されました。';
+$string['csvformat'] = 'CSVフォーマット'; // TBD
+$string['excelformat'] = 'Excelフォーマット'; // TBD
+$string['exportdatabase'] = 'データベースレコードをエクスポートする'; // TBD
+$string['odsformat'] = 'ODSフォーマット'; // TBD
 
 ?>
