@@ -583,7 +583,7 @@ Ce message est un rappel concernant votre inscription au cours $a->course. Votre
 Pour plus d\'informations, veuillez contacter $a->teacherstr.';
 $string['expirythreshold'] = 'Délai';
 $string['explanation'] = 'Explication';
-$string['extendenrol'] = 'Étendre la période d\'inscription';
+$string['extendenrol'] = 'Étendre la période d\'inscription (individuelle)';
 $string['extendperiod'] = 'Extension de la période d\'inscription';
 $string['failedloginattempts'] = '$a->attempts tentatives de connexion depuis votre dernière connexion';
 $string['failedloginattemptsall'] = '$a->attempts tentatives de connexion pour $a->accounts comptes';
@@ -676,7 +676,7 @@ $string['grades'] = 'Notes';
 $string['group'] = 'Groupe';
 $string['groupadd'] = 'Ajouter un nouveau groupe';
 $string['groupaddusers'] = 'Ajouter les utilisateurs sélectionnés au groupe';
-$string['groupextendenrol'] = 'Étendre la période d\'inscription pour tous';
+$string['groupextendenrol'] = 'Étendre la période d\'inscription (commune)';
 $string['groupfor'] = 'pour le groupe';
 $string['groupinfo'] = 'Information sur le groupe sélectionné';
 $string['groupinfoedit'] = 'Modifier les réglages du groupe';
