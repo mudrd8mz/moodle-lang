@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -29,7 +29,11 @@ $string['blockperioddisabled'] = 'Nicht sperren';
 $string['bynameondate'] = 'von  $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Um in diesem Forum mit zu diskutieren, müssen Sie Mitglied der Gruppe sein.';
 $string['cannotadddiscussionall'] = 'Sie haben nicht die Berechtigung, um neue Diskussionsthemen für alle Teilnehmer/innen anzulegen.';
+$string['cannotaddsubscriber'] = 'Abonnent mit id $a konnte nicht für das Forum registriert werden!';
 $string['cannotfindorcreateforum'] = 'Das Nachrichtenforum dieses Kurses wurde nicht gefunden oder konnte nicht angelegt  werden.';
+$string['cannotinsertrate'] = 'Neue Bewertung ($a[0] = $a[1]) konnte nicht eingefügt werden';
+$string['cannotremovesubscriber'] = 'Abonnent mit id $a konnte nicht aus dem Forum ausgetragen werden!';
+$string['cannotupdaterate'] = 'Alte Bewertung ($a[0] = $a[1]) konnte nicht aktualisiert werden';
 $string['cannotviewpostyet'] = 'Sie können die Beiträge anderer Teilnehmer/innen erst dann lesen, wenn Sie selbst Beiträge verfasst haben.';
 $string['cleanreadtime'] = 'Stunde zu der alte Beiträge als gelesen gekennzeichnet werden';
 $string['configcleanreadtime'] = 'Zeitpunkt des Tages (Stunde), zu dem alte Beiträge von der \'read\'-Tabelle gelöscht werden.';
@@ -124,6 +128,9 @@ $string['inforum'] = 'in $a';
 $string['intronews'] = 'Nachrichten und Ankündigungen';
 $string['introsocial'] = 'Ein offenes Forum ohne Themeneinschränkung';
 $string['introteacher'] = 'Ein Forum ausschließlich für Anmerkungen und Diskussionen der Trainer/innen';
+$string['invalidaccess'] = 'Seitenzugriff war nicht korrekt.';
+$string['invalidforumid'] = 'Foren-ID war falsch';
+$string['invalidpostid'] = 'Ungültige Beitrags-ID - $a';
 $string['lastpost'] = 'Letzter Beitrag';
 $string['learningforums'] = 'Lernforen';
 $string['logblocked'] = 'Geblockte E-Mails loggen';
@@ -156,19 +163,25 @@ $string['newforumposts'] = 'Neue Forenbeiträge';
 $string['nodiscussions'] = 'Es befindet sich noch kein Diskussionsthema in diesem Forum.';
 $string['nodiscussionsstartedby'] = 'Von diesem Nutzer wurde noch kein Diskussionsthema gestartet.';
 $string['noguestpost'] = 'Entschuldigung, Gäste dürfen hier nicht mitdiskutieren. Bitte melden Sie sich an.';
+$string['noguestrate'] = 'Gäste können Beiträge nicht bewerten.';
 $string['noguestsubscribe'] = 'Entschuldigung, Gäste können sich nicht eintragen, um Forumsbeiträge per E-Mail erhalten.';
 $string['noguesttracking'] = 'Entschuldigung, Gäste dürfen Markierungsoptionen nicht bearbeiten.';
 $string['nomorepostscontaining'] = 'Es wurden keine weiteren Beiträge mit \'$a\' gefunden.';
 $string['nonews'] = 'Es wurden bisher keine Nachrichten gepostet.';
+$string['nopermissiontosubscribe'] = 'Sie haben nicht die Berechtigung die Liste der Foren-Abonnenten einzusehen';
 $string['nopostforum'] = 'In diesem Forum können Sie keine Beiträge veröffentlichen';
 $string['noposts'] = 'Keine Beiträge';
 $string['nopostscontaining'] = 'Es wurden keine in \'$a\' enthaltenen Beiträge gefunden.';
 $string['noquestions'] = 'Derzeit gibt es noch keine Beiträge in diesem Forum.';
+$string['norate'] = 'Bewertungen der  Einträge sind nicht zulässig!';
+$string['noresult'] = 'Keine Bewertung für den Beitrag $a';
 $string['nosubscribers'] = 'Derzeit gibt es noch keine Teilnehmer/in in diesem Forum.';
 $string['nothingnew'] = 'Keine Neuigkeiten für $a';
 $string['notingroup'] = 'Dieses Forum steht nur den Mitgliedern der Gruppe zur Verfügung.';
 $string['notrackforum'] = 'Ungelesene Beiträge nicht markieren';
+$string['noviewanyrate'] = 'Sie können Bewertungen für eigene Beiträge einsehen.';
 $string['noviewdiscussionspermission'] = 'Sie haben keine Berechtigung, die Themen in diesem Forum zu sehen.';
+$string['noviewrate'] = 'Sie haben nicht die Berechtigung, um Beitragsbewertungen einzusehen';
 $string['nowallsubscribed'] = 'Sie haben alle Foren von $a abonniert';
 $string['nowallunsubscribed'] = 'Sie haben kein Forum von $a abonniert';
 $string['nownotsubscribed'] = '$a->name wird künftig KEINE Kopien von \'$a->forum\' per E-Mail erhalten.';

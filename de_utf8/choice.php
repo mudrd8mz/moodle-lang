@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // choice.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['addmorechoices'] = 'Weitere Auswahloptionen hinzufügen';
 $string['allowupdate'] = 'Abstimmung kann bearbeitet werden';
 $string['answered'] = 'Beantwortet';
+$string['cannotsavechoice'] = 'Ihre Abstimmung konnte nicht gespeichert werden.';
+$string['cannotupdatechoice'] = 'Aufgrund eines Datenbankfehlers konnte der geänderte Eintrag zur Abstimmung nicht gespeichert werden.';
 $string['choice'] = 'Antwort  $a';
 $string['choice:choose'] = 'An einer Abstimmung teilnehmen';
 $string['choice:deleteresponses'] = 'Stimmabgaben löschen';

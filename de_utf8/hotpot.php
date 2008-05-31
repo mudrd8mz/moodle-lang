@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
 $string['abandoned'] = 'Abgebrochen';
@@ -56,6 +56,7 @@ $string['hotpotcloses'] = 'HotPot-Test endet';
 $string['hotpotopens'] = 'HotPot-Test startet';
 $string['ignored'] = 'Ignoriert';
 $string['inprogress'] = 'In Bearbeitung';
+$string['invalidhotpotid'] = 'Hotpot ID ist falsch';
 $string['location'] = 'Speicherort für HotPot-Datei';
 $string['modulename'] = 'HotPot-Test';
 $string['modulenameplural'] = 'HotPot-Tests';
@@ -82,6 +83,7 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = 'Abzüge';
 $string['questionshort'] = 'Frage $a';
 $string['quiztype'] = 'Testtyp';
+$string['quizunavailable'] = 'Der Test steht zur Zeit nicht zur Verfügung';
 $string['rawdetails'] = 'Versuchsdetails';
 $string['regrade'] = 'Neubewertung';
 $string['regradecheck'] = 'Wollen Sie wirklich \"$a\" neu bewerten?';
@@ -150,6 +152,7 @@ $string['textsourcequiz'] = 'Vom Test übernehmen';
 $string['textsourcespecific'] = 'Spezifischer Text';
 $string['thiscourse'] = 'Dieser Kurs';
 $string['timedout'] = 'Zeit ist abgelaufen';
+$string['unknownreport'] = 'Kein Bericht bekannt ($a)';
 $string['updatequizchain'] = 'Test-Kette aktualisieren';
 $string['weighting'] = 'Gewichtung';
 $string['wrong'] = 'Falsch';

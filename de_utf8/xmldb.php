@@ -2,11 +2,11 @@
       // xmldb.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
 
 
+$string['actual'] = 'Aktuell';
 $string['aftertable'] = 'Nach Tabelle:';
 $string['back'] = 'Zurück';
 $string['backtomainview'] = 'Zurück zur Hauptübersicht';
 $string['binaryincorrectlength'] = 'Falsche Feldlänge (binary)';
-$string['butis'] = 'ist aber';
 $string['cannotuseidfield'] = 'Feld \'id\' kann nicht eingefügt werden. Es handelt sich um eine Spalte, die automatisch nummeriert wird.';
 $string['change'] = 'Ändern';
 $string['charincorrectlength'] = 'Falsche Feldlänge (char)';
@@ -60,6 +60,7 @@ $string['edit_statement'] = 'Anweisung bearbeiten';
 $string['edit_table'] = 'Tabelle bearbeiten';
 $string['edit_xml_file'] = 'XML-Datei bearbeiten';
 $string['enumvaluesincorrect'] = 'Ungültige Feldwerte (enum)';
+$string['expected'] = 'Erwartet';
 $string['field'] = 'Feld';
 $string['fieldnameempty'] = 'Feldname ist leer';
 $string['fields'] = 'Felder';
@@ -112,7 +113,6 @@ $string['selectonecommand'] = 'Wählen Sie bitte eine Aktion aus, um den PHP-Cod
 $string['selectonefieldkeyindex'] = 'Wählen Sie bitte ein Feld/Schlüssel/Index aus, um den PHP-Code anzusehen.';
 $string['selecttable'] = 'Tabelle auswählen:';
 $string['sentences'] = 'Sätze';
-$string['shouldbe'] = 'sollte sein';
 $string['statements'] = 'Anweisungen';
 $string['statementtable'] = 'Anweisungstabelle:';
 $string['statementtype'] = 'Anweisungstyp:';
@@ -143,5 +143,7 @@ Es wird dringend empfohlen, die Suche nach fehlenden Indizes danach noch einmal 
 $string['yeswrongdefaultsfound'] = 'Es wurden einige inkonsistente Defaultwerte in der Datenbank gefunden. Im folgenden stehen die Details und das erforderliche SQL Statement für den von Ihnen genutzt Datenbanktyp. Vergessen Sie nicht ein Backup zu erstellen, bevor Sie diese Änderungen ausführen.<br/> <br/>
 Nachdem Sie das Statement ausgeführt haben, sollten sie diese Prüfung nochmals durchführen, um sicher zu gehen, ob nicht noch weitere Inkonsistenzen auftreten.';
 $string['yeswrongintsfound'] = 'In Ihrer Datenbank wurden mehrere ungültige Zahlenwerte gefunden. Es folgen die Details und die benötigten SQL-Befehle, die Sie in Ihrer bevorzugten SQL-Oberfläche ausführen müssen, um die Fehler zu beheben (vergessen Sie bitte nicht, vor der Korrektur eine Sicherungskopie Ihrer Daten anzulegen!!)<br /><br />Nach der Ausführung wird dringend empfohlen, dieses Werkzeug erneut aufzurufen, um sicher zu stellen, dass keine ungültige Zahlenwerte mehr gefunden werden.';
+$string['butis'] = 'ist aber'; // ORPHANED
+$string['shouldbe'] = 'sollte sein'; // ORPHANED
 
 ?>

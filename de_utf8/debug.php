@@ -44,5 +44,6 @@ $string['siteisnotdefined'] = 'Site ist nicht festgelegt!';
 $string['sqlrelyonobsoletetable'] = 'Dieses SQL beinhaltet fehlerhafte Tabellen: $a! Ein Entwickler muss Ihren Code korrigieren.';
 $string['upgradefail'] = 'Aktualisierung fehlgeschlagen!';
 $string['withoutversion'] = 'Im Hauptverzeichnis ist version.php nicht lesbar oder nicht vorhanden.';
+$string['xmlizeunavailable'] = 'xmlize-Funktionen sind nicht verfügbar.';
 
 ?>
