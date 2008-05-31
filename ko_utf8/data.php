@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
+      // data.php - created with Moodle 2.0 dev (Build: 20080531) (2008051202)
 
 
 $string['action'] = '행동';
@@ -37,6 +37,8 @@ $string['cannotrate'] = '항목에 등위를 매길 수 없음!';
 $string['cannotunziptopreset'] = '지정된 경로에 풀어넣을 수 없음';
 $string['cannotupdaterate'] = '예전 등위 ($a[0] = $a[1])를 갱신할 수 없음';
 $string['checkbox'] = '체크박스';
+$string['chooseexportfields'] = '내보낼 필드 선택:';
+$string['chooseexportformat'] = '내보낼 형식 선택:';
 $string['chooseorupload'] = '파일 선택';
 $string['columns'] = '행';
 $string['comment'] = '덧글';
@@ -51,6 +53,7 @@ $string['confirmdeleterecord'] = '이 게시물을 삭제하려고 하는 것이
 $string['csstemplate'] = 'CSS 템플릿';
 $string['csvfile'] = 'CSV 파일';
 $string['csvimport'] = 'CSV 파일 가져오기';
+$string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym>선택된 구분자로 분리된 문서:';
 $string['data:approve'] = '미승인된 자료 승인';
 $string['data:comment'] = '덧글 쓰기';
 $string['data:managecomments'] = '덧글 관리';
@@ -91,8 +94,10 @@ $string['entry'] = '입력 내용';
 $string['entrysaved'] = '입력 내용이 저장되었습니다.';
 $string['errormustbeteacher'] = '교수자만 이 페이지를 사용할 수 있습니다.';
 $string['example'] = '데이터베이스 모듈 예제';
+$string['excel'] = '엑셀';
 $string['export'] = '내보내기';
 $string['exportaszip'] = 'zip파일로 내보내기';
+$string['exportdatabaserecords'] = '데이터베이스 자료 내보내기';
 $string['exportedtozip'] = 'zip파일로 묶어 내보냄';
 $string['failedpresetdelete'] = '초기설정 삭제 오류!';
 $string['fieldadded'] = '항목이 추가됨';
@@ -194,6 +199,7 @@ $string['number'] = '수';
 $string['numberrssarticles'] = 'RSS 문서';
 $string['numnotapproved'] = '대기중';
 $string['numrecords'] = '$a 게시물';
+$string['ods'] = '<acronym title=\"OpenDocument Spreadsheet\">ODS</acronym> (OpenOffice)';
 $string['optionaldescription'] = '간단한 설명(선택)';
 $string['optionalfilename'] = '파일이름 (선택)';
 $string['other'] = '기타';
@@ -254,6 +260,7 @@ $string['timemodified'] = '변경된 시간';
 $string['todatabase'] = '이 데이터베이스에';
 $string['type'] = '항목 유형';
 $string['undefinedprocessactionmethod'] = '데이터 초기설정에서 \"$a\"를 처리하기 위한 방법이 정의되지 않았음.';
+$string['unsupportedexport'] = '($a->fieldtype) 내보낼 수 없음';
 $string['updatefield'] = '기존 항목 갱신';
 $string['uploadfile'] = '파일 올리기';
 $string['uploadrecords'] = '파일에서 항목 올리기';
