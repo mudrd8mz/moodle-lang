@@ -1,0 +1,55 @@
+<h1>Souhrnná známka</h1>
+
+<p>Všechny známky v dané kategorii (a případně i v jejích podkategoriích) mohou být shrnuty do jediné známky za danou kategorii. Souhrnná známka za danou kategorii může být vypočítávána různými způsoby. Následující text objasňuje jednotlivé způsoby výpočtu souhrnné známky.</p>
+
+<p>Nejprve jsou známky převedeny na procentuální hodnotu z intervalu <0; 1>, tomuto procesu se říká normalizace. Poté je vypočítána souhrnná známka pomocí jedné z funkcí uvedené dále. Nakonec je takto vypočtená známka převedena na odpovídající hodnotu z rozsahu nastaveného pro danou kategorii (tj. do intervalu mezi nejnižší a nejvyšší známkou definovanou v nastavení kategorie).</p>
+
+<p><strong>Důležité:</strong> Prázdná známka je prostě chybějící záznam v modulu klasifikace a může mít více významů.  Může jít o studenta, který dosud neodevzdal zadaný úkol, nebo o případ, kdy učitel ještě neoznámkoval zaslané řešení, případně byla známka ručně odstraněna správcem klasifikace. Pečlivě si rozmyslete, jaký význam mají prázdná pole známek a podle toho i nastavte výpočet souhrnné známky.</p>
+
+<p>Ve všech následujících příkladech jsou uvažovány tři bodované položky hodnocení označené jako A1, A2 a A3. Za A1 šlo získat maximálně 100 bodů, student získal 70. Za A2 bylo možno získat 80 bodů, daný student získal jen 20. V položce A3 student získal 10 bodů z 10 možných. Všechny jsou položy A1, A2 a A3 jsou zařazeny do stejné kategorie, která má nastavenu nejvyšší možnou známku 100.</p>
+
+<dl id="grade-aggregation-help">
+    <dt>Průměr známek</dt>        
+    <dd>Součet známek dělený jejich počtem.</dd>
+    <dd class="example">A1 70/100, A2 20/80, A3 10/10, nejvyšší možná za danou kategorii 100:<br />
+                     <code>(0.7 + 0.25 + 1.0)/3 = 0.65 --> 65/100</code></dd>
+                     
+    <dt>Vážený průměr</dt>
+        <dd>Každé položce může být přiřazena váha, která se poté promítá do výpočtu aritmetického průměru. Čím větší váhu položka má, tím více souhrnnou známku ovlivňuje.</dd>
+        <dd class="example">A1 70/100 s vahou 10, A2 20/80 s vahou 5, 
+                            A3 10/10 s vahou 3, nejvyšší možná známka za danou kategorii 100:
+        <br /><code>(0.7*10 + 0.25*5 + 1.0*3)/18 = 0.625 --> 62.5/100</code></dd>
+    
+    <dt>Jednoduchý vážený průměr</dt>
+        <dd>Od <em>Váženého průměru</em> se liší tím, že váha je u každé položky určena automaticky jako <em>Nejvyšší známka</em> - <em>Nejnižší známka</em>. Úkol, za který je možno získat až 100 bodů, má pak váhu 100, úkol s maximem 10 bodů má váhu 10.</dd>
+    <dd class="example">A1 70/100, A2 20/80, A3 10/10, nejvyšší možná za danou kategorii 100:<br />
+                         <code>(0.7*100 + 0.25*80 + 1.0*10)/190 = 0.526 --> 52.6/100</code></dd>
+    
+    <dt>Průměr známek (včetně známek navíc)</dt>
+        <dd>Drobně modifikovaný aritmetický průměr. Starší, nyní již nepodporovaný způsob výpočtu souhrnné známky, který je zde zařazen jen pro účely zpětné kompatibility se staršími aktivitami.</dd>
+    
+    <dt>Medián známek</dt>
+        <dd>Prostřední známka (příp. průměr dvou prostředních známek) v řadě známek seřazených podle velikosti. Výhodou oproti průměru je, že medián není tolik ovlivněn výjimečnými hodnotami známek (tj. známkami hodně vzdálenými od průměru).</dd>
+    <dd class="example">A1 70/100, A2 20/80, A3 10/10, nejvyšší možná za danou kategorii 100:<br />
+                         <code>median(0.7 ; 0.25 ; 1.0) --> 0.7 --> 70/100</code></dd>
+    
+    <dt>Nejnižší známka</dt>
+        <dd>Výsledkem je nejmenší známka po normalizaci. Často se používá v kombinaci s nastavením <em>Do souhrnné známky zahrnout pouze neprázdné známky</em>.</dd>
+    <dd class="example">A1 70/100, A2 20/80, A3 10/10, nejvyšší možná za danou kategorii 100:<br />
+                         <code>min(0.7 ; 0.25 ; 1.0) = 0.25 --> 25/100</code></dd>
+                         
+    <dt>Nejvyšší známka</dt>
+        <dd>Výsledkem je nejvyšší známka po normalizaci.</dd>
+    <dd class="example">A1 70/100, A2 20/80, A3 10/10, nejvyšší možná za danou kategorii 100:<br />
+                         <code>max(0.7 ; 0.25 ; 1.0) = 1.0 --> 100/100</code></dd>
+    
+    <dt>Modus známek</dt>
+        <dd>Modus je známka, která se vyskytuje nejčastěji. Často se používá pro nenumerické typy známek. Výhodou oproti průměru je, že modus není tolik ovlivněn výjimečnými hodnotami známek (tj. známkami hodně vzdálenými od průměru). Modus ztrácí význam, pokud stejné maximální četnosti dosahuje vícero hodnot (pouze jedna z nich je zaznamenána) nebo pokud se všechny známky od sebe liší (každá z nich má četnost 1).</dd>
+        <dd class="example">A1 70/100, A2 35/50, A3 20/80, A4 10/10, A5 7/10 nejvyšší možná za danou kategorii 100:<br />
+                         <code>mode(0.7; 0.7; 0.25; 1.0; 0.7) = 0.7 --> 70/100</code></dd>
+    
+    <dt>Součet známek</dt>
+        <dd>Součet nenormalizovaných hodnot všech zahrnutých známek. Škály jsou ignorovány. Toto je jediný typ výpočtu shouhrnné známky, při kterém nejsou známky normalizovány. <em>Nejvyšší možná známka</em> za danou kategorii je vypočtena automaticky jakou součet nejvyšších možných známek dílčích položek.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10:<br />
+                         <code>70 + 20 + 10 = 100/190</code></dd>
+</dl>

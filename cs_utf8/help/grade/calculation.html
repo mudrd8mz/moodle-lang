@@ -1,0 +1,33 @@
+<h1>Výpočty</h1>
+
+<p>Výpočty v klasifikaci používají stejný zápis vzorců a funkcí, jaký se používá v běžných tabulkových kalkulátorech. Každý vzorec začíná rovnítkem (=) a skládá se z aritmetických operací a funkcí. Výsledkem vzorce je numerická hodnota, která je následně použita jako vypočítaná známka za danou položku.</p>
+
+<p>Na hodnoty známek z jiných položek hodnocení je možno se odkazovat pomocí tzv. identifikátorů, které si musíte pro každou položku hodnocení zahrnutou ve výpočtu definovat. Identifikátory se zapisují do dvojice sobě odpovídajících hranatých závorek. Např. přidělíte-li nějakému testu v kurzu identifikátor Test.3, můžete se na hodnotu známky z tohoto testu odkazovat pomocí zápisu [[Test.3]]. Identifikátory můžete definovat u každého bodovaného modulu činností ve formuláři pro úpravy, nebo je můžete přidělit hromadně v spodní části obrazovky výpočty.</p>
+
+<p>Následuje seznam funkcí, které můžete používat ve výpočtech. Pro oddělování parametrů funkcí je nutné používat znak středníku (;).</p>
+
+<ul>
+    <li><strong>average</strong>([[polozka1]]; [[polozka2]]...): Vrací průměr ze vzorku</li>
+    <li><strong>max</strong>([[polozka1]]; [[polozka2]]...): Vrací největší hodnotu ze seznamu parametrů</li>
+    <li><strong>min</strong>([[polozka1]]; [[polozka2]]...): Vrací nejmenší hodnotu ze seznamu parametrů</li>
+    <li><strong>mod</strong>(dělenec; dělitel): Vrací zbytek po celočíselném dělení</li>
+    <li><strong>pi</strong>(): Vrací hodnotu Ludolfova čísla</li>
+    <li><strong>power</strong>(základ; mocnina): Vrací danou mocninu základu</li>
+    <li><strong>round</strong>(číslo; počet): Zaokrouhluje číslo na daný počet desetinných míst</li>
+    <li><strong>sum</strong>([[polozka1]]; [[polozka2]]...): Vrací součet všech parametrů</li>
+</ul>
+
+<p>Podporována je též řada matematických funkcí:</p>
+<ul>
+    <li>sin</li><li>sinh</li><li>arcsin</li><li>asin</li><li>arcsinh</li><li>asinh</li>
+    <li>cos</li><li>cosh</li><li>arccos</li><li>acos</li><li>arccosh</li><li>acosh</li>
+    <li>tan</li><li>tanh</li><li>arctan</li><li>atan</li><li>arctanh</li><li>atanh</li>
+    <li>sqrt</li><li>abs</li><li>ln</li><li>log</li><li>exp</li>
+</ul>
+
+<p>Některé praktické ukázky výpočtů, které můžete v klasifikaci použít:</p>
+
+<ul>
+    <li>=average([[Test.1]]; [[Test.4]]; [[Ukol.1]])</li>
+    <li>=average(max([[Test.1]], [[Test.4]], [[Ukol.1]]), min([[Test.1]], [[Test.4]], [[Ukol.1]]))</li>
+</ul>

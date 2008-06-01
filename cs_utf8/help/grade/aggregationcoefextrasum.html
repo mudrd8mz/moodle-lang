@@ -1,0 +1,16 @@
+<h1>Považovat za extra bodový zisk</h1>
+
+<p>Při použití typu souhrnné známky "Součet známek" se bude tato položka hodnocení považovat za bonusovou. To znamená, že maximální možná známka z této položky nebude přičtena k celkové maximální možné známce za celou kategorii, ale samotná známka ano. Například:</p>
+
+<h1>Act as extra credit</h1>
+<p>When the "Sum of grades" aggregation strategy is used, a grade item can act as Extra credit for the category. This means that the grade item's maximum grade will not be added to the category total's maximum grade, but the item's grade will. Following is an example:</p>
+
+<ul>
+    <li>Položka 1 má rozsah 0-100</li>
+    <li>Položka 2 má rozsah 0-75</li>
+    <li>Položka 1 má nastaven extra bodový zisk, položka 2 nikoliv.</li>
+    <li>Obě položky patří do Kategorie 1, která má definován typ souhrnné známky "Součet známek"</li>
+    <li>Rozsah souhrnné známky za kategorii je nastaven na 0-75</li>
+    <li>Uvažovaný student obdržel 20 body z Položky 1 a 70 bodů z Položky 2</li>
+    <li>Studentův celkový počet bodů za Kategorii 1 bude 75/75, protože 20+70 = 90 získaných bodů ze 75 možných - body za Položku 2 jsou bonusové</li>
+</ul>
