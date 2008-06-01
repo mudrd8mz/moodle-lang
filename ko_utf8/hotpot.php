@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (2007101506)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080531) (2008051202)
 
 
 $string['abandoned'] = '실패';
@@ -56,6 +56,7 @@ $string['hotpotcloses'] = '핫포테이토 닫기';
 $string['hotpotopens'] = '핫포테이토 열기';
 $string['ignored'] = '무시됨';
 $string['inprogress'] = '진행중';
+$string['invalidhotpotid'] = '잘못된 핫포테이토 ID';
 $string['location'] = '화일 장소';
 $string['modulename'] = '핫포테이토';
 $string['modulenameplural'] = '핫포테이토';
@@ -82,6 +83,7 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = '경고';
 $string['questionshort'] = 'Q-$a';
 $string['quiztype'] = '퀴즈 유형';
+$string['quizunavailable'] = '퀴즈를 사용할 수 없음';
 $string['rawdetails'] = '시도 항목';
 $string['regrade'] = '재채점';
 $string['regradecheck'] = '정말 \"$a\" 에 대해 재채점을 원하십니까?';
@@ -150,6 +152,7 @@ $string['textsourcequiz'] = '퀴즈로부터 얻기';
 $string['textsourcespecific'] = '특정 문서';
 $string['thiscourse'] = '이 강좌';
 $string['timedout'] = '시간 종료';
+$string['unknownreport'] = '알 수 없는 보고서 ($a)';
 $string['updatequizchain'] = '퀴즈 묶음 갱신';
 $string['weighting'] = '가중치';
 $string['wrong'] = '틀림';
