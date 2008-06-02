@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20080517) (2008051202)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20080602) (2008051202)
 
 
+$string['actual'] = '실제';
 $string['aftertable'] = '다음 표 :';
 $string['back'] = '뒤로';
 $string['backtomainview'] = '주화면으로';
 $string['binaryincorrectlength'] = '바이너리 필드의 길이가 바르지 않음';
-$string['butis'] = '현재값';
 $string['cannotuseidfield'] = '\"id\"필드에 입력할 수 없음. 자동 숫자 컬럼임';
 $string['change'] = '변경';
 $string['charincorrectlength'] = '문자 필드의 길이가 바르지 않음';
@@ -52,6 +52,7 @@ $string['edit_statement'] = '선언문 편집';
 $string['edit_table'] = '테이블 편집';
 $string['edit_xml_file'] = 'XML 파일 편집';
 $string['enumvaluesincorrect'] = '영숫자 필드에 옳지 않은 값';
+$string['expected'] = '기대치';
 $string['field'] = '필드';
 $string['fieldnameempty'] = '필드명 없음';
 $string['fields'] = '필드들';
@@ -104,7 +105,6 @@ $string['selectonecommand'] = 'PHP코드를 보려면 목록에서 하나의 작
 $string['selectonefieldkeyindex'] = 'PHP코드를 보려면 목록에서 하나의 필드/키/인덱스를 선택하세요.';
 $string['selecttable'] = '데이블 선택 :';
 $string['sentences'] = '문장';
-$string['shouldbe'] = '고칠값';
 $string['statements'] = '선언문';
 $string['statementtable'] = '선언 테이블 :';
 $string['statementtype'] = '선언유형 :';
@@ -133,5 +133,7 @@ $string['wrongreservedwords'] = '현재 사용되고 있는 유보 단어들<br 
 $string['yesmissingindexesfound'] = '누락된 인덱스가 당신의 DB에서 발견되었습니다. 자세한 사항은 다음과 같으며 필요한 SQL질의를 당신이 사용하고 있는 SQL 인터페이스로 실행하기 바랍니다.<br /><br />그 다음 더 이상의 누락된 인덱스가 없는지 확인하기 위하여 이 유틸리티를 다시한번 실행할 것을 권합니다.';
 $string['yeswrongdefaultsfound'] = '잘못된 초기값이 DB에서 발견되었습니다. 자세한 사항은 다음과 같으며 필요한 SQL질의를 당신이 사용하고 있는 SQL 인터페이스로 실행하기 바랍니다.<br /><br />그 다음 더 이상의 잘못된 초기값이 없는지 확인하기 위하여 이 유틸리티를 다시한번 실행할 것을 권합니다.';
 $string['yeswrongintsfound'] = '잘못된 인수가 당신의 DB에서 발견되었습니다. 자세한 사항은 다음과 같으며 필요한 SQL질의를 당신이 사용하고 있는 SQL 인터페이스로 실행하기 바랍니다.<br /><br />그 다음 더 이상의 잘못된 정수가 없는지를 확인하기 위하여 이 유틸리티를 다시한번 실행할 것을 권합니다.';
+$string['butis'] = '현재값'; // ORPHANED
+$string['shouldbe'] = '고칠값'; // ORPHANED
 
 ?>
