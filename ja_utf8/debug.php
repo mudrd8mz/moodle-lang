@@ -14,13 +14,13 @@ $string['cannotupdateversion'] = 'アップグレードに失敗しました! (c
 $string['cannotupgradecapabilities'] = 'ロールシステムのコアケイパビリティのアップグレードに問題が発生しました。';
 $string['cannotupgradedbcustom'] = 'ローカルデータベースのアップグレードに失敗しました!  (configテーブルのバージョンを更新できませんでした。)';
 $string['configmoodle'] = 'Moodleは、まだ設定されていません。最初にconfig.phpを編集してください。';
-$string['dbnotinsert'] = 'データベースエラー - レコードを挿入できません ($a)';
+$string['dbnotinsert'] = 'データベースエラー - レコードを追加できません ($a)';
 $string['dbnotsetup'] = 'エラー: メインデータベースが正常にセットアップされませんでした。';
-$string['dbnotsupport'] = 'エラー: あなたのデータベース ($a) がMoodleでサポートできないか、install.xmlが作成されていません。lib/dbディレクトリをご覧ください。';
+$string['dbnotsupport'] = 'エラー: あなたのデータベース ($a) がMoodleでサポートされないか、install.xmlが作成されていません。lib/dbディレクトリをご覧ください。';
 $string['dbnotupdate'] = 'データベースエラー - 更新できません ($a)';
 $string['doesnotworkwitholdversion'] = 'このスクリプトは、この古いバージョンのMoodleでは動作しません。';
-$string['erroroccur'] = 'この処理中にエラーが発生しました。';
-$string['fixsetting'] = 'あなたのconfig.php設定を修正してください: <p>あなたは次のように設定していますが:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>実際には次のように設定する必要があります:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
+$string['erroroccur'] = '処理中にエラーが発生しました。';
+$string['fixsetting'] = 'config.php設定を修正してください: <p>あなたは次のように設定していますが:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>実際には次のように設定する必要があります:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
 $string['invalidarraysize'] = '$a の変数内の配列サイズが正しくありません。';
 $string['invalideventdata'] = '正しくないイベントデータが送信されました: $a';
 $string['morethanonerecordinfetch'] = 'fetch() に1レコード以上のレコードが見つかりました!';
@@ -43,7 +43,7 @@ $string['sessionmissing'] = 'セッションに $a オブジェクトがあり�
 $string['siteisnotdefined'] = 'サイトが定義されていません!';
 $string['sqlrelyonobsoletetable'] = 'このSQLは古いテーブル $a を参照しています! あなたのコードは、開発者により修正される必要があります。';
 $string['upgradefail'] = 'アップグレードに失敗しました! 詳細: $a';
-$string['withoutversion'] = 'メインversion.phpが読めない、または指定されていません。';
+$string['withoutversion'] = 'メインversion.phpが読めないか、指定されていません。';
 $string['xmlizeunavailable'] = 'xmlize関数を利用できません。';
 
 ?>
