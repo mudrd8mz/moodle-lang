@@ -43,6 +43,7 @@ $string['sessionmissing'] = 'L\'objet de session $a n\'est pas présent dans la 
 $string['siteisnotdefined'] = 'Le site n\'est pas défini&nbsp;!';
 $string['sqlrelyonobsoletetable'] = 'Ce code SQL présuppose des tables obsolètes&nbsp;: $a&nbsp;! Votre code doit être corrigé par un développeur.';
 $string['upgradefail'] = 'Échec de la mise à jour&nbsp;! Voir $a';
-$string['withoutversion'] = 'Le fichier principal version.php n\'set pas accessible';
+$string['withoutversion'] = 'Le fichier principal version.php n\'est pas accessible';
+$string['xmlizeunavailable'] = 'Les fonctions xmlize ne sont pas disponibles';
 
 ?>
