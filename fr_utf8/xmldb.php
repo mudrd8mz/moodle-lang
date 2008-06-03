@@ -1,10 +1,10 @@
 <?php // $Id$
 
+$string['actual'] = 'Actuel';
 $string['aftertable'] = 'Après la table';
 $string['back'] = 'Retour';
 $string['backtomainview'] = 'Retour à la vue d\'ensemble';
 $string['binaryincorrectlength'] = 'Longueur du champ binaire incorrecte';
-$string['butis'] = 'mais est';
 $string['cannotuseidfield'] = 'Impossible d\'insérer le champ «&nbsp;id&nbsp;». Il s\'agit d\'une colonne numérique automatique';
 $string['change'] = 'Modifier';
 $string['charincorrectlength'] = 'Longueur du champ caractère incorrecte';
@@ -50,6 +50,7 @@ $string['edit_table'] = 'Modifier la table';
 $string['edit_xml_file'] = 'Modifier le fichier XML';
 $string['edit'] = 'Modifier';
 $string['enumvaluesincorrect'] = 'Valeur du champ énumération incorrecte';
+$string['expected'] = 'Attendu';
 $string['field'] = 'Champ';
 $string['fieldnameempty'] = 'Nom du champ vide';
 $string['fields'] = 'Champs';
@@ -102,7 +103,6 @@ $string['selectonecommand'] = 'Veuillez sélectionner une action index dans la l
 $string['selectonefieldkeyindex'] = 'Veuillez sélectionner un champ/une clef/un index dans la liste pour voir le code PHP';
 $string['selecttable'] = 'Choisir une table&nbsp;:';
 $string['sentences'] = 'Phrases';
-$string['shouldbe'] = 'devrait être';
 $string['statements'] = 'Instructions';
 $string['statementtable'] = 'Table d\'instruction&nbsp;:';
 $string['statementtype'] = 'Type d\'instruction&nbsp;:';
