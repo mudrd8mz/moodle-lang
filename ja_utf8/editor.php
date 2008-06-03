@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // editor.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
 
 
 $string['about'] = 'このエディタに関して';
-$string['absbottom'] = 'Absbottom';
+$string['absbottom'] = '下揃え (絶対指定)';
 $string['address'] = 'アドレス';
 $string['alertnoselectedtext'] = '最初にテキストを選択してください!';
 $string['alignment'] = '配置';
@@ -11,10 +11,10 @@ $string['alternatetext'] = '代替表示テキスト';
 $string['anchorhelp'] = 'ここでは、アンカーのみを作成します。あなたはリンクを手動で作成する必要があります。';
 $string['anchorname'] = 'アンカー名';
 $string['anchors'] = 'アンカー';
-$string['baseline'] = 'Baseline';
+$string['baseline'] = 'ベースライン揃え';
 $string['bold'] = '太字';
 $string['borderthickness'] = '線の太さ';
-$string['bottom'] = 'Bottom';
+$string['bottom'] = '下揃え';
 $string['browse'] = '閲覧';
 $string['cancel'] = 'キャンセル';
 $string['cellpadding'] = 'セルパッディング';
@@ -60,7 +60,7 @@ $string['justifyleft'] = '左寄せ';
 $string['justifyright'] = '右寄せ';
 $string['lang'] = '言語';
 $string['layout'] = 'レイアウト';
-$string['left'] = 'Left';
+$string['left'] = '左';
 $string['lefttoright'] = '左 >> 右';
 $string['linkproperties'] = 'リンク属性';
 $string['linktarget'] = 'ターゲット';
@@ -72,7 +72,7 @@ $string['linktargettop'] = '同一ウィンドウ';
 $string['linktitle'] = 'タイトル';
 $string['linkurl'] = 'URI';
 $string['matchcase'] = '大文字小文字を区別する';
-$string['middle'] = 'Middle';
+$string['middle'] = '中央揃え';
 $string['minimize'] = 'エディタを最小化する';
 $string['move'] = '移動';
 $string['multi'] = '多言語';
@@ -100,7 +100,7 @@ $string['removelink'] = 'リンクを削除する';
 $string['rename'] = 'リネーム';
 $string['replaceall'] = 'すべてを置換する';
 $string['replacewith'] = '置換';
-$string['right'] = 'Right';
+$string['right'] = '右';
 $string['righttoleft'] = '右 >> 左';
 $string['rows'] = '行';
 $string['searchandreplace'] = '検索および置換';
@@ -115,8 +115,8 @@ $string['subscript'] = '下付き文字';
 $string['superscript'] = '上付き文字';
 $string['textindicator'] = '現在のスタイル';
 $string['textmode'] = 'あなたは、現在テキストモードを使用しています。WYSIWYGモードに戻るには、[<>]ボタンをクリックしてください。';
-$string['texttop'] = 'Texttop';
-$string['top'] = 'Top';
+$string['texttop'] = 'テキスト上揃え';
+$string['top'] = '上揃え';
 $string['type'] = 'タイプ';
 $string['underline'] = 'アンダーライン';
 $string['undo'] = '元に戻す';
