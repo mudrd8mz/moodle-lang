@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -138,6 +138,7 @@ $string['importedentries'] = 'インポートされたエントリ';
 $string['importentries'] = 'エントリのインポート';
 $string['importentriesfromxml'] = 'エントリをXMLファイルからインポートする';
 $string['includegroupbreaks'] = 'グループ区切りを含む';
+$string['invalidid'] = '用語集IDが正しくありません。';
 $string['isglobal'] = 'これはグローバル用語集ですか?';
 $string['letter'] = 'アルファベット';
 $string['linkcategory'] = 'このカテゴリを自動的にリンクする';
@@ -155,6 +156,8 @@ $string['nocomments'] = '( このエントリにはコメントがありませ�
 $string['noconceptfound'] = '用語または定義が見つかりませんでした。';
 $string['noentries'] = 'このセクションにはエントリがありません。';
 $string['noentry'] = 'エントリが見つかりませんでした。';
+$string['nopermissiontodelcomment'] = 'あなたは、他のユーザのコメントを削除できません!';
+$string['nopermissiontodelinglossary'] = 'あなたは、この用語集にコメントを追加できません!';
 $string['notcategorised'] = 'カテゴリなし';
 $string['numberofentries'] = 'エントリ数';
 $string['onebyline'] = '(1行あたり1件)';
