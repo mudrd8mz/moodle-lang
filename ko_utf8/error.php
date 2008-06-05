@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080528) (2008051202)
+      // error.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 수정될 수 없음';
@@ -63,8 +63,10 @@ $string['cannothaveparentcate'] = '강좌 범주는 상위를 가질 수 없음!
 $string['cannotimportformat'] = '죄송합니다만 본 유형은 아직 적용할 수 없습니다!';
 $string['cannotimportgrade'] = '점수 가져오기 오류';
 $string['cannotinitpage'] = '강좌 id $a 는 즉각 화면을 초기화 할 수 없음';
+$string['cannotinsertcomment'] = '새 논평을 삽입할 수 없음';
 $string['cannotinsertgrade'] = '강좌 id없이는 점수 항목을 삽입할 수 없음!';
 $string['cannotinsertkey'] = '새 암호로 대체할 수 없음';
+$string['cannotinsertrate'] = '새 순위($a[0] = $a[1])를 삽입할 수 없음';
 $string['cannotinsertrecord'] = '새로운 레코드 ID $a 를 삽입할 수 없음';
 $string['cannotmapfield'] = '채점 항목 $a 에 두 필드가 중복 배치됨';
 $string['cannotmarktopic'] = '본 강좌에서 그 주제는 표시할 수 없음';
@@ -104,6 +106,7 @@ $string['cannotunzipfile'] = '압축된 파일을 풀 수 없습니다.';
 $string['cannotupdateblock'] = '블록 테이블의 $a 블록 자료를 갱신할 수 없음!';
 $string['cannotupdatecategory'] = '범주($a)를 갱신할 수 없음';
 $string['cannotupdatecm'] = '정확한 위치로 강좌 모듈을 갱신할 수 없음';
+$string['cannotupdatecomment'] = '촌평을 갱신할 수 없음';
 $string['cannotupdatecoursemodule'] = '정확한 위치로 강좌 모듈을 갱신할 수 없음';
 $string['cannotupdategroup'] = '모둠 갱신중 오류';
 $string['cannotupdatelevel'] = '강좌 모듈을 이동시켜 갱신할 수 없음';
@@ -170,14 +173,18 @@ $string['groupalready'] = '사용자는 이미 $a 모둠에 속해있습니다.'
 $string['groupexistforcourse'] = '강좌에 이미 \"$a\" 모둠이 있습니다.';
 $string['groupnotaddederror'] = '모둠 \"$a\"는 추가되지 않습니다.';
 $string['groupunknown'] = '$a 모둠은 지정한 강좌에 속해있지 않습니다.';
+$string['guestnocomment'] = '손님은 게시물의 논평을 할 수 없음!';
 $string['guestnoeditprofile'] = '손님은 개인정보를 수정할 수 없습니다.';
 $string['guestnoeditprofileother'] = '손님의 개인정보는 수정할 수 없습니다.';
+$string['guestnorate'] = '손님은 게시물의 평가를 할 수 없음';
+$string['invalidaccess'] = '본 화면은 정상적으로 접속되지 않음';
 $string['invalidaccessparameter'] = '유효하지 않은 접속 매개 변수';
 $string['invalidaction'] = '유효하지 않은 작동 매개 변수';
 $string['invalidargorconf'] = '적절한 인수가 제공되지 않았거나 서버 설정이 잘못 되었음';
 $string['invalidarguments'] = '적절한 인수가 제공되지 않음';
 $string['invalidblockinstance'] = '$a 에 대한 잘못된 블록 인스턱스';
 $string['invalidcategory'] = '잘못된 범주 id!';
+$string['invalidcomment'] = '논평이 바르지 않음';
 $string['invalidcontext'] = '잘못된 컨텍스트';
 $string['invalidcourse'] = '잘못된 강좌';
 $string['invalidcourseid'] = '잘못된 강좌 아이디:($a)를 입력하려고 함';
@@ -187,6 +194,7 @@ $string['invalidcoursenameshort'] = '잘못된 강좌 단축명';
 $string['invaliddata'] = '제시된 자료가 바르지 않습니다.';
 $string['invalidelementid'] = '잘못된 엘리먼트 id!';
 $string['invalidenrol'] = '불법적인 등록이 시도됨';
+$string['invalidentry'] = '바르지 않은 입력임!';
 $string['invalidevent'] = '잘못된 일정';
 $string['invalidfieldname'] = '\"$a\"는 유효하지 않은 필드명';
 $string['invalidfiletype'] = '\"$a\"는 쓸 수 있는 파일형태가 아님';
@@ -262,11 +270,14 @@ $string['nologinas'] = '현재 사용자 ID로는 로그인 할 수 없음';
 $string['nonmeaningfulcontent'] = '의미없는 내용';
 $string['noparticipatorycms'] = '죄송합니다. 당신이 참여했던 보고받을 만한 강좌 모듈이 없습니다.';
 $string['nopermissions'] = '죄송합니다만 그 ($a)를 할만한 권한이 없습니다.';
+$string['nopermissiontocomment'] = '본 어휘집에 덧글을 추가할 수 없음!';
+$string['nopermissiontoeditcomment'] = '타인의 덧글을 수정할 수 없음!';
 $string['nopermissiontohide'] = '숨길 권한이 없음!';
 $string['nopermissiontoimportact'] = '본 강좌에 활동을 가져올 수 있는 권한이 없음';
 $string['nopermissiontolock'] = '잠글 권한이 없음!';
 $string['nopermissiontomanagegroup'] = '모둠을 관리할 수 있는 권한이 없습니다.';
 $string['nopermissiontomkdir'] = '폴더를 생성할 수 없음. 사이트 관리자가 파일의 허가권을 조정해야 함';
+$string['nopermissiontorate'] = '항목 순위를 매길 수 없음!';
 $string['nopermissiontoshow'] = '볼 권한이 없음!';
 $string['nopermissiontounlock'] = '잠김 해제할 권한이 없음!';
 $string['nopermissiontoupdateblock'] = '$a 를 갱신할 권한이 없음!';
