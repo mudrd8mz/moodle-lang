@@ -52,6 +52,7 @@ $string['confirmdeleterecord'] = 'Voulez-vous vraiment supprimer cette fiche&nbs
 $string['csstemplate'] = 'Modèle CSS';
 $string['csvfile'] = 'Fichier CSV';
 $string['csvformat'] = 'Format CSV';
+$string['csvformatwithselecteddelimiter'] = 'Format CSV avec séparateur&nbsp;:';
 $string['csvimport'] = 'Importation fichier CSV';
 $string['data:approve'] = 'Approuver des fiches';
 $string['data:comment'] = 'Écrire des commentaires';
