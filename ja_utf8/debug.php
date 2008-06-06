@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['authpluginnotfound'] = '認証プラグイン $a が見つかりませんでした。';
@@ -23,6 +23,7 @@ $string['erroroccur'] = '処理中にエラーが発生しました。';
 $string['fixsetting'] = 'config.php設定を修正してください: <p>あなたは次のように設定していますが:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>実際には次のように設定する必要があります:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
 $string['invalidarraysize'] = '$a の変数内の配列サイズが正しくありません。';
 $string['invalideventdata'] = '正しくないイベントデータが送信されました: $a';
+$string['modulenotexist'] = '$a モジュールがありません。';
 $string['morethanonerecordinfetch'] = 'fetch() に1レコード以上のレコードが見つかりました!';
 $string['mustbeoveride'] = '抽象メソッド $a は、オーバーライドしてください。';
 $string['noactivityname'] = 'page_generic_activityによりページオブジェクトが生成されましたが、$this->activitynameが定義されていません。';
