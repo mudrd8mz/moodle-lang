@@ -1,14 +1,87 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.8 + (2007021503)
+      // question.php - created with Moodle 1.9.1+ (Build: 20080531) (2007101513)
 
 
+$string['adminreport'] = 'Přehled možných problémů s vaší databází úloh.';
+$string['broken'] = 'Toto je neplatný odkaz - ukazuje na neexistující soubor';
+$string['byandon'] = '<em>$a->user</em> - <em>$a->time</em>';
+$string['categorycurrent'] = 'Stávající kategorie';
+$string['categorycurrentuse'] = 'Použij tuto kategorii';
 $string['categorydoesnotexist'] = 'Tato kategorie neexistuje';
+$string['categorymoveto'] = 'Uložit do kategorie';
+$string['changepublishstatuscat'] = 'Stav sdílení <a href=\"$a->caturl\">kategorie \"$a->name\"</a> v kurzu \"$a->coursename\" bude změněn z <strong>$a->changefrom na $a->changeto</strong>.';
+$string['copy'] = 'Zkopíruj z $a a změň odkazy.';
+$string['created'] = 'Vytvořeno';
+$string['createdmodifiedheader'] = 'Vytvořeno / Naposledy upraveno';
+$string['cwrqpfs'] = 'Náhodné úlohy vybírající úlohy z podkategorií';
+$string['cwrqpfsinfo'] = '<p>V průběhu upgrade na Moodle 1.9 dojde k rozdělení kategorií úloh do různých kontextů. U některých kategorií a úloh dojde ke změně stavu jejich sdílení. Tato změna se děje zřídka, ale je nezbytná v případě, kdy je jedna nebo více náhodně vybíraných úloh v testu nastaveno tak, že náhodně vybírají úlohy jak ze sdílených, tak z nesdílených kategorií (jako je tomu v případě tohoto serveru). K této situaci dochází, když náhodně vybíraná úloha vybírá úlohy i z podkategorií a jedna nebo více těchto podkategorií má jiný stav sdílení než má nadřazená kategorie, ve které je náhodně vybíraná úloha vytvořena.</p>
+<p>U následujících kategorií, z nichž jsou vybírány úlohy náhodně pomocí úlohy umístěné v nadřazené kategorii, bude změněn stav sdílení na stejnou hodnotu, jakou má kategorie, v níž je \"Náhodně vybíraná úloha\" uložena. Tato změna proběhne v průběhu upgrade na Moodle 1.9 a bude se týkat následujících kategorií. Úlohy, jichž se změna dotýká, budou i nadále fungovat ve všech testech, do nichž byly vloženy dokud je z těchto testů neodeberete.</p>';
+$string['cwrqpfsnoprob'] = 'Žádná kategorie úloh nebude ovlivněna problémem s náhodně vybíranými úlohami z podkategorií.';
+$string['defaultfor'] = 'Výchozí v $a';
+$string['defaultinfofor'] = 'Výchozí kategorie pro úlohy sdílené v kontextu \"$a\".';
+$string['deletecoursecategorywithquestions'] = 'V bance úloh jsou úlohy asociovány s touto kategorií kurzů. Budete-li pokračovat, budou tyto úlohy odstraněny. Možná si přejete je nejprve někam přesunout pomocí rozhraní banky úloh.';
+$string['donothing'] = 'Nekopírovat a nepřesouvat soubory, ani neměnit odkazy.';
+$string['editingcategory'] = 'Úprava kategorie';
 $string['editingquestion'] = 'Úprava otázky';
+$string['erroraccessingcontext'] = 'Kontext není dostupný';
+$string['errordeletingquestionsfromcategory'] = 'Chyba při odstraňování úloh z kategorie $a';
+$string['errorfilecannotbecopied'] = 'Chyba - nelze kopírovat soubor $a';
+$string['errorfilecannotbemoved'] = 'Chyba - nelze přesunout soubor $a';
+$string['errorfileschanged'] = 'Chyba - soubory odkazované z této úlohy byly změněny od doby posledního zobrazení formuláře pro úpravy';
+$string['errormanualgradeoutofrange'] = 'Bodová známka $a->grade neleží mezi 0 a $a->maxgrade u otázky \"$a->name\". Získaný skór ani komentář nebyl uložen.';
+$string['errormovingquestions'] = 'Chyba při přesunu úloh s identifikátory $a';
+$string['errorsavingcomment'] = 'Chyba při ukládání komentáře u otázky $a->name do databázi.';
+$string['errorupdatingattempt'] = 'Chyba při aktualizaci pokusu id $a->id v databázi.';
+$string['exportcategory'] = 'Exportovat kategorii';
+$string['filesareacourse'] = 'prostoru pro soubory v tomto kurzu';
+$string['filesareasite'] = 'prostoru pro soubory na titulní stránce';
+$string['filestomove'] = 'Přesunout / zkopírovat do $a?';
 $string['fractionsnomax'] = 'Jedna nebo více odpovědí má mít bodování 100%%, aby bylo možno docílit plného bodování za tuto otázku!';
+$string['getcategoryfromfile'] = 'Získat kategorii ze souboru';
+$string['getcontextfromfile'] = 'Získat kontext ze souboru';
+$string['ignorebroken'] = 'Ignorovat neplatné odkazy';
+$string['invalidcontextinhasanyquestions'] = 'Funkci question_context_has_any_questions() byl předán neplatný parametr context';
+$string['linkedfiledoesntexist'] = 'Odkazovaný soubor $a neexistuje';
+$string['makechildof'] = 'Vytvořit potomka \"$a\"';
+$string['maketoplevelitem'] = 'Přesunout úplně nahoru';
 $string['missingimportantcode'] = 'Tento typ otázky postrádá důležitý kód: $a.';
+$string['modified'] = 'Naposledy uloženy';
+$string['move'] = 'Přesunout z $a a změnit odkazy';
+$string['movecategory'] = 'Přesunout kategorii';
+$string['movedquestionsandcategories'] = 'Úlohy a kategorie přesunuty z $a->oldplace do $a->newplace.';
+$string['movelinksonly'] = 'Změnit jenom odkazy, nepřesouvat ani nekopírovat.';
+$string['moveq'] = 'Přesunout úlohu/-y';
+$string['moveqtoanothercontext'] = 'Přesunout úlohu do jiného kontextu';
+$string['movingcategory'] = 'Přesun kategorie';
+$string['movingcategoryandfiles'] = 'Jste si jisti, že chcete přesunout kategorii \"{$a->name}\" a všechny její podkategorie do kontextu \"{$a->contextto}\"?<br />Bylo zjištěno {$a->urlcount} odkazů na soubory uložené v {$a->fromareaname}. Přejete si tyto soubory přesunout nebo zkopírovat do {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Jste si jisti, že chcete přesunout kategorii \"{$a->name}\" a všechny její podkategorie do kontextu \"{$a->contextto}\"?';
+$string['movingquestions'] = 'Přesouvání úloh jakýchkoliv souborů';
+$string['movingquestionsandfiles'] = 'Jste si jisti, že chcete přesunout úlohu/-y {$a->questions} do kontextu <strong>\"{$a->tocontext}\"</strong>? <br />Bylo zjištěno <strong>{$a->urlcount} odkazů</strong> na soubory uložené v {$a->fromareaname}. Přejete si tyto soubory přesunout nebo zkopírovat do {$a->toareaname}?';
+$string['movingquestionsnofiles'] = 'Jste si jisti, že chcete přesunout úlohu/-y {$a->questions} do kontextu <strong>\"{$a->tocontext}\"</strong>? <br />Nebyly zjištěny žádné odkazy na soubory umístěné v {$a->fromareaname}.';
+$string['needtochoosecat'] = 'Musíte zvolit kategorii, kam se má úloha přesunout, nebo stisknout \"Zrušit\".';
+$string['nopermissionadd'] = 'Nemáte oprávnění přidávat zde úlohy.';
+$string['noprobs'] = 'Nebyly nalezeny žádné problémy ve vaší databázi úloh.';
 $string['notenoughdatatoeditaquestion'] = 'Nebylo specifikováno ani ID otázky, ani ID kategorie a typ otázky.';
-$string['questionbank'] = 'Banka otázek';
+$string['notenoughdatatomovequestions'] = 'Musíte poskytnout identifikátory úloh, které chcete přesunout.';
+$string['permissionedit'] = 'Upravit tuto úlohu';
+$string['permissionmove'] = 'Přesunout tuto úlohu';
+$string['permissionsaveasnew'] = 'Uložit jako novou úlohu';
+$string['permissionto'] = 'Máte oprávnění:';
+$string['published'] = 'sdílená';
+$string['questionaffected'] = '<a href=\"$a->qurl\">Úloha \"$a->name\" ($a->qtype)</a> je v této kategorii úloh, ale je též zařazena do <a href=\"$a->qurl\">testu \"$a->quizname\"</a> v kurzu \"$a->coursename\".';
+$string['questionbank'] = 'Banka úloh';
+$string['questioncategory'] = 'Kategorie úloh';
+$string['questioncatsfor'] = 'Kategorie úloh v kontextu \'$a\'';
 $string['questiondoesnotexist'] = 'Tato otázka neexistuje';
+$string['questionsmovedto'] = 'Úlohy, které jsou stále používány, byly přesunuty do \"$a\" v nadřazené kategorii kurzů.';
+$string['questionsrescuedfrom'] = 'Úlohy uložené z kontextu $a.';
+$string['questionsrescuedfrominfo'] = 'Tyto úlohy (z nichž některé mohou být skryté) byly uloženy při odstraňování kontextu $a, protože jsou stále používány v některých testech či jiných modulech činností.';
+$string['questionuse'] = 'Použij úlohu v této činnosti';
+$string['shareincontext'] = 'Sdílet v kontextu $a';
+$string['tofilecategory'] = 'Zapsat kategorii do souboru';
+$string['tofilecontext'] = 'Zapsat kontext do souboru';
+$string['unknown'] = 'Neznámý';
 $string['unknownquestiontype'] = 'Neznámý typ otázky: $a.';
+$string['unpublished'] = 'nesdílená';
 
 ?>

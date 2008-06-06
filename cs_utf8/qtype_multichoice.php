@@ -1,10 +1,15 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8 Beta + (2007021400)
-      // local modifications from http://qes.cz.web4ce.cz/m18
+      // qtype_multichoice.php - created with Moodle 1.9.1+ (Build: 20080531) (2007101513)
 
 
+$string['addingmultichoice'] = 'Přidávání úlohy s více možnostmi';
 $string['addmorechoiceblanks'] = 'Prázdná místa pro více možností';
 $string['answerhowmany'] = 'Jedna nebo více odpovědí?';
+$string['answernumbering'] = 'Formát číslování možností';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = 'nečíslovat';
 $string['answersingleno'] = 'Je povoleno více odpovědí';
 $string['answersingleyes'] = 'Jen jedna odpověď';
 $string['choiceno'] = 'Volba $a';
