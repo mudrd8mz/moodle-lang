@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['beep'] = 'ビープ';
+$string['cantinsert'] = 'チャットメッセージを追加できませんでした!';
+$string['cantlogin'] = 'チャットルームに入室できませんでした!';
 $string['chat:chat'] = 'チャットで会話する';
 $string['chat:deletelog'] = 'チャットログを削除する';
 $string['chat:readlog'] = 'チャットログを表示する';
@@ -32,6 +34,7 @@ $string['explainmethodnormal'] = 'これらの設定は、chat_methodに「ノ�
 $string['generalconfig'] = '一般設定';
 $string['helpchatting'] = 'チャットヘルプ';
 $string['idle'] = 'アイドル';
+$string['invalidid'] = 'チャットルームが見つかりませんでした!';
 $string['messagebeepseveryone'] = '$a が全員にビープします!';
 $string['messagebeepsyou'] = '$a があなたにビープしました!';
 $string['messageenter'] = '$a が入室しました。';
@@ -49,6 +52,7 @@ $string['nomessages'] = 'メッセージがありません。';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'スケジュールセッションがありません。';
+$string['notlogged'] = 'ログインしていません!';
 $string['oldping'] = '切断タイムアウト';
 $string['pastchats'] = '過去のチャットセッション';
 $string['refreshroom'] = 'チャットルームをリフレッシュする';
