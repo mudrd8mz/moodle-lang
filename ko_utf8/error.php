@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // error.php - created with Moodle 2.0 dev (Build: 20080607) (2008051202)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 수정될 수 없음';
@@ -63,6 +63,7 @@ $string['cannothaveparentcate'] = '강좌 범주는 상위를 가질 수 없음!
 $string['cannotimportformat'] = '죄송합니다만 본 유형은 아직 적용할 수 없습니다!';
 $string['cannotimportgrade'] = '점수 가져오기 오류';
 $string['cannotinitpage'] = '강좌 id $a 는 즉각 화면을 초기화 할 수 없음';
+$string['cannotinsertcategory'] = '알 수 없는 오류. 범주가 삽입되지 못 함';
 $string['cannotinsertcomment'] = '새 논평을 삽입할 수 없음';
 $string['cannotinsertgrade'] = '강좌 id없이는 점수 항목을 삽입할 수 없음!';
 $string['cannotinsertkey'] = '새 암호로 대체할 수 없음';
@@ -183,7 +184,8 @@ $string['invalidaction'] = '유효하지 않은 작동 매개 변수';
 $string['invalidargorconf'] = '적절한 인수가 제공되지 않았거나 서버 설정이 잘못 되었음';
 $string['invalidarguments'] = '적절한 인수가 제공되지 않음';
 $string['invalidblockinstance'] = '$a 에 대한 잘못된 블록 인스턱스';
-$string['invalidcategory'] = '잘못된 범주 id!';
+$string['invalidcategory'] = '잘못된 범주!';
+$string['invalidcategoryid'] = '잘못된 범주 id!';
 $string['invalidcomment'] = '논평이 바르지 않음';
 $string['invalidcontext'] = '잘못된 컨텍스트';
 $string['invalidcourse'] = '잘못된 강좌';
@@ -271,6 +273,7 @@ $string['nonmeaningfulcontent'] = '의미없는 내용';
 $string['noparticipatorycms'] = '죄송합니다. 당신이 참여했던 보고받을 만한 강좌 모듈이 없습니다.';
 $string['nopermissions'] = '죄송합니다만 그 ($a)를 할만한 권한이 없습니다.';
 $string['nopermissiontocomment'] = '본 어휘집에 덧글을 추가할 수 없음!';
+$string['nopermissiontodelentry'] = '타인의 입력사항을 삭제할 수 없음!';
 $string['nopermissiontoeditcomment'] = '타인의 덧글을 수정할 수 없음!';
 $string['nopermissiontohide'] = '숨길 권한이 없음!';
 $string['nopermissiontoimportact'] = '본 강좌에 활동을 가져올 수 있는 권한이 없음';

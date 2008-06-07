@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (2007101507)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080607) (2008051202)
 
 
 $string['beep'] = '호출';
+$string['cantinsert'] = '대화 내용을 입력할 수 없음!';
+$string['cantlogin'] = '대화방에 입장할 수 없음!!';
 $string['chat:chat'] = '대화 중';
 $string['chat:deletelog'] = '대화 기록 삭제';
 $string['chat:readlog'] = '대화 기록 읽기';
@@ -32,6 +34,7 @@ $string['explainmethodnormal'] = 'chat_method로 \"일반 방법\"을 선택하�
 $string['generalconfig'] = '일반 설정';
 $string['helpchatting'] = '대화방 도움말';
 $string['idle'] = '쉼';
+$string['invalidid'] = '대화방을 찾을 수 없음!';
 $string['messagebeepseveryone'] = '$a가 모든 사람을 호출했음!';
 $string['messagebeepsyou'] = '$a가 나를 호출했음!';
 $string['messageenter'] = '$a 대화방에 들어옴';
@@ -49,6 +52,7 @@ $string['nomessages'] = '아직 메시지 없음';
 $string['normalkeepalive'] = '연결유지';
 $string['normalstream'] = '스트림';
 $string['noscheduledsession'] = '예정된 대화방 없음';
+$string['notlogged'] = '입장하지 않았음!';
 $string['oldping'] = '연결 해제 한계값';
 $string['pastchats'] = '종료된 대화방';
 $string['refreshroom'] = '대화방 새로 고침';

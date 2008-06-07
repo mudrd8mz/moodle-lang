@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080528) (2008051202)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080607) (2008051202)
 
 
 $string['authpluginnotfound'] = '인증 플러그인 $a 없음';
@@ -23,6 +23,7 @@ $string['erroroccur'] = '현재의 과정에서 오류가 발생함';
 $string['fixsetting'] = 'config.php의 설정을 조절하십시오. <p>현재설정</p> <p>$CFG->dirroot = \"$a[0]\"; 를</p> <p>$CFG->dirroot = \"$a[1]\" 로 바꾸어야 합니다</p>';
 $string['invalidarraysize'] = '$a 매개변수의 틀린 어레이 크기';
 $string['invalideventdata'] = '틀린 이벤트 자료 제시: $a';
+$string['modulenotexist'] = '$a 모듈이 없음';
 $string['morethanonerecordinfetch'] = 'fetch()에 중복 자료 발견!';
 $string['mustbeoveride'] = '모호한 $a 방법은 수정되어야 합니다.';
 $string['noactivityname'] = 'page_generic_activity에서 추촐된 페이지 오브젝트는 $this->activityname 을 정의하지 않습니다.';
@@ -30,11 +31,11 @@ $string['noadminrole'] = '관리자 역할을 찾을 수 없음';
 $string['noblockbase'] = '/blocks/moodleblock.class.php
 noblockbase에 대하여 block_base가 정의되지 않았거나 파일을 찾을 수 없음';
 $string['noblocks'] = '블록이 설치되지 않았음!';
-$string['nocaps'] = '오류: 할 일이 정의되지 않았음!';
+$string['nocaps'] = '오류: 권한이 정의되지 않았음!';
 $string['nocate'] = '범주 없음!';
 $string['nomodules'] = '모듈이 없음!';
 $string['nopageclass'] = '가져온 $a 에 page classes가 없음';
-$string['noreports'] = '어떤 보고서에도 접근할 수 없음';
+$string['noreports'] = '어느 보고서에도 접근할 수 없음';
 $string['notables'] = '테이블 없음!';
 $string['phpvaroff'] = 'PHP서버의 변수 \'$a[0]\'는  off되어야 함 -   $a[1]';
 $string['phpvaron'] = 'PHP서버의 변수 \'$a[0]\'가 On 이 아님 -   $a[1]';
