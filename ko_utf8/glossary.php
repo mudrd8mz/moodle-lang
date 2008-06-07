@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080607) (2008051202)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -22,9 +22,12 @@ $string['attachment'] = '붙임파일';
 $string['author'] = '작성자';
 $string['authorview'] = '집필자순으로 보기';
 $string['back'] = '뒤로';
+$string['cantexportentry'] = '항목을 주 어휘집으로 내보낼 수 없음';
 $string['cantinsertcat'] = '범주를 추가할 수 없음';
+$string['cantinsertent'] = '새 항목을 추가할 수 없음';
 $string['cantinsertrec'] = '자료를 추가할 수 없음';
 $string['cantinsertrel'] = '범주 항목의 관계를 설정할 수 없음';
+$string['cantupdateglossary'] = '어휘집을 갱신할 수 없음';
 $string['casesensitive'] = '대,소문자 구분';
 $string['cat'] = '범주';
 $string['categories'] = '범주';
@@ -101,6 +104,7 @@ $string['entryupdated'] = '이 항목은 갱신되었음';
 $string['entryusedynalink'] = '이 항목은 자동적으로 링크됨';
 $string['errcannoteditothers'] = '다른 사람의 항목은 편집할 수 없습니다.';
 $string['errconceptalreadyexists'] = '이미 있는 내용입니다. 이 용어집에서는 중복입력을 허용하지 않습니다.';
+$string['errdeltimeexpired'] = '이것을 삭제할 수 없습니다. 시간이 지났습니다!';
 $string['erredittimeexpired'] = '이 항목에 대한 편집 시간이 종료되었습니다.';
 $string['errorparsingxml'] = '파일을 해석하는 중에 오류가 발생하였습니다. 유효한 XML 문법인지 확인하세요.';
 $string['explainaddentry'] = '현재의 용어집에 새 항목을 추가합니다.';
@@ -132,6 +136,7 @@ $string['glossary:viewrating'] = '등위 보기';
 $string['glossary:write'] = '새로 입력';
 $string['glossaryleveldefaultsettings'] = '어휘수준 초기설정';
 $string['glossarytype'] = '용어집 유형';
+$string['guestnoedit'] = '손님은 어휘집 수정 권한이 없음';
 $string['importcategories'] = '범주 가져오기';
 $string['importedcategories'] = '가져온 범주';
 $string['importedentries'] = '가져온 항목';
@@ -158,6 +163,7 @@ $string['noentries'] = '이 영역에는 찾는 항목이 없음';
 $string['noentry'] = '항목 없음';
 $string['nopermissiontodelcomment'] = '타인의 덧글을 삭제할 수 없음!';
 $string['nopermissiontodelinglossary'] = '본 용어집에 덧글을 쓸 수 없음!';
+$string['nopermissiontoviewresult'] = '자신의 입력 내용만 살펴볼 수 있음';
 $string['notcategorised'] = '분류되지 않았음';
 $string['numberofentries'] = '항목의 수';
 $string['onebyline'] = '(한 줄에 하나)';
