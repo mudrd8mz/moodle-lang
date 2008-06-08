@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['abandoned'] = '放棄';
@@ -12,6 +12,10 @@ $string['attemptsbest'] = '最高の受験';
 $string['attemptsfirst'] = '最初の受験';
 $string['attemptslast'] = '最後の受験';
 $string['average'] = '平均';
+$string['cannotaddquestionrecord'] = '問題レコードを追加できませんでした。';
+$string['cannotaddresprecord'] = '解答レコードを追加できませんでした。';
+$string['cannotaddstrrecord'] = '文字列レコードを追加できませんでした。';
+$string['cannotupdateattempt'] = '受験レコード $a を更新できませんでした。';
 $string['checks'] = 'チェック';
 $string['clickreporting'] = 'クリックレポートを有効にする';
 $string['clues'] = 'クルー';
@@ -56,6 +60,7 @@ $string['hotpotcloses'] = 'Hot Potatoesクイズ終了日時';
 $string['hotpotopens'] = 'Hot Potatoesクイズ開始日時';
 $string['ignored'] = '無視';
 $string['inprogress'] = '進行中';
+$string['invalidattemptid'] = '受験IDが正しくありません。';
 $string['invalidhotpotid'] = 'hotpot IDが正しくありません。';
 $string['location'] = 'ファイルの場所';
 $string['modulename'] = 'Hot Potatoes';
@@ -70,6 +75,7 @@ $string['navigation_none'] = 'なし';
 $string['neverclosed'] = '終了なし';
 $string['noactivity'] = '活動なし';
 $string['noresponses'] = '問題と解答に関する情報が見つかりませんでした。';
+$string['notyourattempt'] = 'これは、あなたの受験ではありません!';
 $string['outputformat'] = '出力フォーマット';
 $string['outputformat_best'] = 'best';
 $string['outputformat_flash'] = 'Flash';
