@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -288,6 +288,7 @@ $string['debugnormal'] = 'NORMAL: エラー、警告および注意を表示す�
 $string['debugsmtp'] = 'デバッグメール送信';
 $string['defaultallowedmodules'] = 'デフォルトで許可するモジュール';
 $string['defaultcourseroleid'] = 'コースユーザのデフォルトロール';
+$string['defaulthtmleditor'] = 'デフォルトHTMLエディタ';
 $string['defaultrequestcategory'] = 'コースリクエストのデフォルトカテゴリ';
 $string['defaultsettinginfo'] = 'デフォルト: $a';
 $string['defaultuserroleid'] = 'すべてのユーザのデフォルトロール';
@@ -393,6 +394,7 @@ $string['hidefromall'] = 'すべての人に対して非表示にする';
 $string['hidefromnone'] = '誰に対しても非表示にしない';
 $string['hidefromstudents'] = '学生に対して非表示にする';
 $string['htmleditor'] = 'HTMLエディタ';
+$string['htmleditorsettings'] = 'HTMLエディタ設定';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTPセキュリティ';
 $string['iconvrecommended'] = 'より良いパフォーマンスを得るため、ICONVライブラリのインストールおよび稼動を強くお勧めします。あなたのサイトがラテン文字以外をサポートしている場合、特にお勧めします。';
