@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (2007101508)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080608) (2008051202)
 
 
 $string['beep'] = 'බීප්';
+$string['cantinsert'] = 'සංවාද පණිවිඩයක් ඇතුලත් කල නොහැක';
 $string['chat:chat'] = 'සංවාදයක් තුල කතාව';
 $string['chat:deletelog'] = 'සංවාද ලොගය ඉවත් කරන්න';
 $string['chat:readlog'] = 'සංවාද ‍ලොගය කියවන්න';
