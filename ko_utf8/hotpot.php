@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080531) (2008051202)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080609) (2008051202)
 
 
 $string['abandoned'] = '실패';
@@ -12,6 +12,10 @@ $string['attemptsbest'] = '최고의 시도';
 $string['attemptsfirst'] = '첫번째 시도';
 $string['attemptslast'] = '마지막 시도';
 $string['average'] = '평균';
+$string['cannotaddquestionrecord'] = '문항 기록을 추가할 수 없음';
+$string['cannotaddresprecord'] = '응답 기록을 추가할 수 없음';
+$string['cannotaddstrrecord'] = '문자 기록을 추가할 수 없음';
+$string['cannotupdateattempt'] = '시도기록 $a 를 갱신할 수 없음';
 $string['checks'] = '확인';
 $string['clickreporting'] = '보고서 선택 가능';
 $string['clues'] = '힌트';
@@ -56,6 +60,7 @@ $string['hotpotcloses'] = '핫포테이토 닫기';
 $string['hotpotopens'] = '핫포테이토 열기';
 $string['ignored'] = '무시됨';
 $string['inprogress'] = '진행중';
+$string['invalidattemptid'] = '시도 ID가 틀림';
 $string['invalidhotpotid'] = '잘못된 핫포테이토 ID';
 $string['location'] = '화일 장소';
 $string['modulename'] = '핫포테이토';
@@ -70,6 +75,7 @@ $string['navigation_none'] = '없음';
 $string['neverclosed'] = '절대로 닫지 않음';
 $string['noactivity'] = '활동 없음';
 $string['noresponses'] = '발견된 개인적인 질문이나 응답에 대한 정보가 없음';
+$string['notyourattempt'] = '본인의 시도가 아닙니다!';
 $string['outputformat'] = '출력형식';
 $string['outputformat_best'] = '최선';
 $string['outputformat_flash'] = '플래시';

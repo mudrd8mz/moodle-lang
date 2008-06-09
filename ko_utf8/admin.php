@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080514) (2008051201)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080609) (2008051202)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -26,7 +26,7 @@ $string['autolang'] = '언어 자동 검색';
 $string['autologinguests'] = '자동 로그인 손님';
 $string['availablelangs'] = '사용가능한 언어팩';
 $string['backgroundcolour'] = '투명 색상';
-$string['backups'] = '백업 보고';
+$string['backups'] = '백업';
 $string['badwordsconfig'] = '금칙어(욕설 등)를 콤마로 구분해 입력하시오';
 $string['badwordsdefault'] = '따로 지정한 목록이 없다면, 언어팩에 들어있는 기본적인 목록을 사용';
 $string['badwordslist'] = '금칙어 목록';
@@ -294,6 +294,7 @@ $string['debugnormal'] = '보통: 오류와 경고 및 알림을 보여주기';
 $string['debugsmtp'] = '이메일 발송 디버그';
 $string['defaultallowedmodules'] = '허용되는 기본 모듈';
 $string['defaultcourseroleid'] = '수강자 기본 역활';
+$string['defaulthtmleditor'] = '기본 HTML 편집기';
 $string['defaultrequestcategory'] = '강좌 요청시 기본 범주';
 $string['defaultsettinginfo'] = '기본: $a';
 $string['defaultuserroleid'] = '이용자 기본 역할';
@@ -399,6 +400,7 @@ $string['hidefromall'] = '모두에게 감춤';
 $string['hidefromnone'] = '아무에게도 감추지  않음';
 $string['hidefromstudents'] = '학생에게 감춤';
 $string['htmleditor'] = '웹 편집기';
+$string['htmleditorsettings'] = 'HTML 편집기 설정';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP 보안';
 $string['iconvrecommended'] = '당신의 사이트가 라틴언어계열이 아닌 언어를 지원하는 경우, 사이트의 성능을 향상시키기 위해서는 ICONV라이브러리를 설치할 것을 권장합니다.';
@@ -406,7 +408,7 @@ $string['importlangreminder'] = '데이터베이스 마이그레이션 프로세
 $string['importtimezones'] = '표준시 목록의 업데이트 완료';
 $string['importtimezonescount'] = '$a->source로 부터 $a->count 개 항목을 가져왔습니다.';
 $string['importtimezonesfailed'] = '소스를 찾을 수 없습니다.(안좋은 소식)';
-$string['includemoduleuserdata'] = '모듈 이용자 데이터 포함';
+$string['includemoduleuserdata'] = '모듈이용자 데이터 포함';
 $string['incompatibleblocks'] = '호환되지 않는 블럭';
 $string['install'] = '선택한 언어팩 설치';
 $string['installedlangs'] = '설치된 언어팩';
