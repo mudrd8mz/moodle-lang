@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 2.0 dev (2007101504)
+      // notes.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
 
 
 $string['addnewnote'] = 'Yeni not ekle';
@@ -12,7 +12,7 @@ $string['created'] = 'oluşturulma';
 $string['deleteconfirm'] = 'Bu not silinsin mi?';
 $string['deletenotes'] = 'Tüm notları sil';
 $string['editnote'] = 'Notu düzenle';
-$string['groupaddnewnote'] = 'Hepsi için bir not ekle';
+$string['groupaddnewnote'] = 'Genel not ekle';
 $string['nocontent'] = 'Not içeriği boş olamaz';
 $string['nonotes'] = 'Bu tip için yazılmış bir not henüz yok';
 $string['note'] = 'Not';

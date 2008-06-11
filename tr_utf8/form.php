@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (2007101504)
+      // form.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
 
 
 $string['addfields'] = 'Forma $a alan ekle';
@@ -23,6 +23,7 @@ $string['minute'] = 'Dakika';
 $string['miscellaneoussettings'] = 'Çeşitli Ayarlar';
 $string['modstandardels'] = 'Genel Modül Ayarları';
 $string['month'] = 'Ay';
+$string['mustbeoverriden'] = '$a sınıfındaki özet(abstract) form_definition() metodunun üstüne yazılmalı(override), lütfen kodu düzeltin.';
 $string['nomethodforaddinghelpbutton'] = '$a->name (sınıf $a->classname) form ögesi için yardım butonu ekleme metodu yok.';
 $string['nonexistentformelements'] = 'Var olmayan form ögelerine yardım butonları eklenmeye çalışılıyor: $a';
 $string['optional'] = 'İsteğe bağlı';

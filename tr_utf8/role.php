@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
 
 
 $string['addrole'] = 'Yeni rol ekle';
 $string['allow'] = 'İzin ver';
 $string['allowassign'] = 'Rol ataması izni';
 $string['allowoverride'] = 'Eski rolü geçersiz kılma izni';
+$string['allsiteusers'] = 'Tüm site kullanıcıları';
 $string['assignglobalroles'] = 'Sistem rollerini ata';
 $string['assignroles'] = 'Rolleri ata';
 $string['assignrolesin'] = '$a rollerini ata';
@@ -176,6 +177,7 @@ $string['user:viewhiddendetails'] = 'Kullanıcıların gizlenmiş bilgilerine ba
 $string['user:viewuseractivitiesreport'] = 'Kullanıcı etkinlik raporlarına bak';
 $string['user:viewusergrades'] = 'Kullanıcıların başarı notlarına bak';
 $string['userhashiddenassignments'] = 'Bu kullanıcının bu derste bir veya daha fazla atanmış rolü var';
+$string['userswithrole'] = 'Roldeki bütün kullanıcılar';
 $string['viewrole'] = 'Rol ayrıntılarına bak';
 $string['xuserswiththerole'] = '\"$a->role\" rolündeki kullanıcılar: $a->number';
 $string['question:export'] = 'Soruları dışa çıkart'; // ORPHANED

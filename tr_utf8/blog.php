@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
 
 
 $string['addnewentry'] = 'Yeni girdi ekle';
@@ -9,12 +9,19 @@ $string['blocktagstitle'] = 'Blog Etiketleri';
 $string['blocktitle'] = 'Blog etiketleri blok başlığı';
 $string['blog'] = 'Blog';
 $string['blogdeleteconfirm'] = 'Bu blog silinsin mi?';
+$string['blogdisable'] = 'Blog etkinleştirilmemiş!';
 $string['blogpreferences'] = 'Blog seçenekleri';
 $string['blogs'] = 'Bloglar';
 $string['blogtags'] = 'Blog Etiketleri';
+$string['cannotviewcourseblog'] = 'Bu dersteki blogları görmek için gerekli izinleriniz yok';
+$string['cannotviewcourseorgroupblog'] = 'Bu dersteki/gruptaki blogları görmek için gerekli izinleriniz yok';
+$string['cannotviewsiteblog'] = 'Sitedeki tüm blogları görmek için gerekli izinleriniz yok';
+$string['cannotviewuserblog'] = 'Kullanıcı bloglarını görmek için gerekli izinleriniz yok';
 $string['courseblog'] = 'Ders blogu: $a';
+$string['courseblogdisable'] = 'Ders blogları etkin değil';
 $string['courseblogs'] = 'Kullanıcılar, sadece derste paylaşıma açılan kullanıcı bloglarını görebilir';
 $string['deleteotagswarn'] = 'Bu etiketleri bütün blog mesajlarından<br />ve sistemden kaldırmak istediğinizden emin misiniz?';
+$string['deleteposterror'] = 'Gönderi silinirken hata oluştu';
 $string['disableblogs'] = 'Blog sistemini tamamen kapat';
 $string['emptybody'] = 'Blog metni boş olamaz';
 $string['emptytitle'] = 'Blog başlığı boş olamaz';
@@ -25,7 +32,9 @@ $string['entrysaved'] = 'Girdiniz kaydedildi';
 $string['entrytitle'] = 'Girdi başlığı';
 $string['entryupdated'] = 'Blog güncellendi';
 $string['groupblog'] = 'Grup blogu: $a';
+$string['groupblogdisable'] = 'Grup blogu etkin değil';
 $string['groupblogs'] = 'Kullanıcılar, sadece grupta paylaşıma açılan kullanıcı bloglarını görebilir';
+$string['incorrectblogfilter'] = 'Hatalı blog filtreleme tipi';
 $string['intro'] = 'Bu RSS içeriği bir veya birden fazla blogdan otomatik olarak oluşturuldu.';
 $string['noentriesyet'] = 'Henüz gösterilecek girdi yok';
 $string['noguestpost'] = 'Konuklar blog gönderemezler!';
@@ -34,6 +43,7 @@ $string['notallowedtoedit'] = 'Bu kaydı düzenleme izniniz yok';
 $string['numberofentries'] = 'Girdiler: $a';
 $string['numberoftags'] = 'Gösterilecek etiket sayısı';
 $string['pagesize'] = 'Her sayfadaki blog sayısı';
+$string['permalink'] = 'DeğişmeyenBağlantı';
 $string['personalblogs'] = 'Kullanıcılar sadece kendi bloglarını görebilir';
 $string['publishto'] = 'Yayınla';
 $string['publishtonoone'] = 'Kendinize (taslak)';
@@ -41,6 +51,7 @@ $string['publishtosite'] = 'Bu sitedeki herkese';
 $string['publishtoworld'] = 'Dünyadaki herkese';
 $string['settingsupdatederror'] = 'Bir hata oluştu, blog seçenekleri ayarları güncellenemedi';
 $string['siteblog'] = 'Site blogu: $a';
+$string['siteblogdisable'] = 'Site blogu etkin değil';
 $string['siteblogs'] = 'Tüm site kullanıcıları tüm blog girdilerini görebilir';
 $string['tagdatelastused'] = 'En son kullanım tarihi';
 $string['tags'] = 'Etiketler';
@@ -53,6 +64,7 @@ $string['viewcourseentries'] = 'Ders girdilerine bak';
 $string['viewmyentries'] = 'Girdilerime bak';
 $string['viewsiteentries'] = 'Site girdilerine bak';
 $string['worldblogs'] = 'Tüm dünyaya açık olarak ayarlanmış blogları görebilir';
+$string['wrongpostid'] = 'Hatalı blog gönderim kimliği';
 $string['addotags'] = 'Resmi etiket ekle'; // ORPHANED
 $string['addptags'] = 'Kullanıcı tanımlı etiket ekle'; // ORPHANED
 $string['otags'] = 'Resmi etiketler'; // ORPHANED

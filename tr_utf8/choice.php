@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (2007101508)
+      // choice.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
 
 
 $string['addmorechoices'] = 'Daha fazla seçenek ekle';
 $string['allowupdate'] = 'Anketi tekrar yanıtlama izni';
 $string['answered'] = 'Yanıtlandı';
+$string['cannotsavechoice'] = 'Seçeneğiniz kaydedilemedi';
+$string['cannotupdatechoice'] = 'Veritabanı hatasından dolayı seçeneğiniz kaydedilemedi';
 $string['choice'] = 'Seçenek';
 $string['choice:choose'] = 'Oy kullan';
 $string['choice:deleteresponses'] = 'Yanıtları sil';

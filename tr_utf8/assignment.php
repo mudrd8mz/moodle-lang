@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
 
 
 $string['allowdeleting'] = 'Silme izni';
@@ -21,12 +21,15 @@ $string['assignmentname'] = 'Ödev adı';
 $string['assignmenttype'] = 'Ödev türü';
 $string['availabledate'] = 'Erişilebilme tarihi';
 $string['cannotdeletefiles'] = 'Bir hata oluştu ve dosyalar silinemedi';
+$string['cannotinsertempty'] = 'Boş bir ödev eklenemedi';
+$string['cannotviewassignment'] = 'Bu ödeve bakamazsınız';
 $string['comment'] = 'Yorum';
 $string['commentinline'] = 'Satıriçi yorum';
 $string['configitemstocount'] = 'Çevrimiçi ödevlerde öğrenci gönderileri için sayaç türü.';
 $string['configmaxbytes'] = 'Sitedeki tüm ödevler için varsayılan en fazla ödev büyüklüğü (kurs sınırlarına ve diğer yerel ayarlara bağlıdır)';
 $string['configshowrecentsubmissions'] = 'Herkes, şu anki etkinlik raporlarındaki gönderim uyarılarını görebilir.';
 $string['confirmdeletefile'] = 'Bu dosyayı tamamen silmek istediğinizden emin misiniz?<br /><strong>$a</strong>';
+$string['coursemisconf'] = 'Ders hatalı yapılandırılmış';
 $string['deleteallsubmissions'] = 'Tüm gönderileri sil';
 $string['deletefilefailed'] = 'Dosya silme başarısız.';
 $string['description'] = 'Açıklama';
@@ -60,6 +63,9 @@ $string['helponline'] = '<p>Bu ödev türünde normal yazı editörü kullanıla
 $string['helpupload'] = '<p>Bu ödev türü, her bir katılımcının bir veya birden fazla dosya göndermesine olanak sağlar. Word belgesi, resim, ziplenmiş web sayfası veya öğrencilerden ne tür bir dosya göndermelerini istediyseniz.</p><p>Bu tür aynı zamanda herhangi bir dosya tipinde birden fazla yanıt yüklemenize olanak sağlar. Her bir katılımcının farklı dosya türünde çalışabilmesi için kullanılan yanıt dosyaları ödevden önce de yüklenebilir.</p><p>Katılımcılar gönderilen dosyalarla ilgili ilerleme durumunu veya metin bilgilerini açıklamak için notlar girebilir.</p><p>Bu ödev türü katılımcı tarafından elle bitirilmeli. İstediğiniz zaman bu ödevin şu anki durumunu görebilirsiniz, bitirilmeyen ödevler \'Taslak\' olarak gösterilir. Notlandırılmamış herhangi bir ödevi taslak durumuna çevirebilirsiniz.</p>';
 $string['helpuploadsingle'] = '<p>Bu ödev türü, tüm katılımcıların herhangi bir tipte bir dosya göndermelerine olanak sağlar.</p><p>Word belgesi, resim dosyası, zip veya öğrencilerden ne tür bir dosya göndermelerini istediyseniz.</p>';
 $string['hideintro'] = 'Erişilebilme tarihine kadar açıklamayı gizle';
+$string['invalidassignment'] = 'geçersiz ödev';
+$string['invalidid'] = 'ödev ID geçerli değil';
+$string['invalidtype'] = 'Hatalı ödev türü';
 $string['itemstocount'] = 'Sayaç';
 $string['late'] = '$a sonrası';
 $string['maximumgrade'] = 'En yüksek not';
@@ -115,6 +121,7 @@ $string['uploadfiletoobig'] = 'Bu dosya çok büyük (sınır $a byte)';
 $string['uploadnofilefound'] = 'Dosya bulunamadı - bir dosya seçtiğinizden emin misiniz?';
 $string['uploadnotregistered'] = '\'$a\' yüklendi fakat gönderim kaydı yapılamadı!';
 $string['uploadsuccess'] = '\'$a\' başarıyla yüklendi';
+$string['usermisconf'] = 'Kullanıcı hatalı yapılandırılmış';
 $string['viewfeedback'] = 'Ödev notlarına ve geribildirimlere bak';
 $string['viewsubmissions'] = '$a ödev gönderisine bak';
 $string['yoursubmission'] = 'Gönderiniz';
