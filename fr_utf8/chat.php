@@ -1,6 +1,8 @@
 <?php // $Id$ 
 
 $string['beep'] = 'bip';
+$string['cantlogin'] = 'Connexion iau salon de chat impossible&nbsp;!';
+$string['cantinsert'] = 'Impossible d\'ajouter un message dans le chat&nbsp;!';
 $string['chat:chat'] = 'Participer à un chat';
 $string['chat:readlog'] = 'Lire les historiques des chats';
 $string['chat:deletelog'] = 'Supprimer les historiques des chats';
@@ -30,6 +32,7 @@ $string['explainmethodnormal'] = 'Ces réglages sont effectifs <strong>uniquemen
 $string['generalconfig'] = 'Configuration générale';
 $string['helpchatting'] = 'Aide pour le chat';
 $string['idle'] = 'En attente';
+$string['invalidid'] = 'Salon de chat introuvable&nbsp;!';
 $string['messagebeepseveryone'] = '$a appelle tout le monde !';
 $string['messagebeepsyou'] = '$a vient de vous appeler!';
 $string['messageenter'] = '$a vient d\'arriver dans ce chat';
@@ -47,6 +50,7 @@ $string['nomessages'] = 'Pas encore de messages';
 $string['normalkeepalive'] = 'Keep-Alive';
 $string['normalstream'] = 'Flux';
 $string['noscheduledsession'] = 'Aucune session agendée';
+$string['notlogged'] = 'Vous n\'êtes pas connecté&nbsp;!';
 $string['oldping'] = 'Délai de déconnexion';
 $string['pastchats'] = 'Sessions de chat antérieures';
 $string['refreshroom'] = 'Actualisation salon';
