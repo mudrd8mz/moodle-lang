@@ -23,6 +23,7 @@ $string['erroroccur'] = 'Une erreur est survenue durant cette procédure';
 $string['fixsetting'] = 'Veuillez corriger vos réglages dans le fichier config.php. <p>Vous avez&nbsp;:</p> <p>\$CFG->dirroot = \"$a[0]\";</p> <p>alors qu\'il devrait y avoir</p> <p>\$CFG->dirroot = \"$a[1]\"</p>';
 $string['invalidarraysize'] = 'Taille incorrecte des tableaux dans les paramètres de $a';
 $string['invalideventdata'] = 'Données d\'événement incorrecte&nbsp;: $a';
+$string['modulenotexist'] = 'Le module $a n\'existe pas';
 $string['morethanonerecordinfetch'] = 'Plus d\'un enregistrement trouvé dans fetch()&nbsp;!';
 $string['mustbeoveride'] = 'La méthode abstraite $a doit être surchargée.';
 $string['noactivityname'] = 'L\'objet de page est dérivé de page_generic_activity mais ne définit pas $this->activityname';
