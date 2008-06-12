@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -34,6 +34,30 @@ $string['averagescore'] = '平均評点';
 $string['averagetime'] = '平均時間';
 $string['branchtable'] = 'ブランチテーブル';
 $string['cancel'] = 'キャンセル';
+$string['cannotdeleteanswer'] = 'ページの更新: 解答レコードを削除できません。';
+$string['cannotdeleteattempt'] = 'エラー: 古い受験を削除できませんでした。';
+$string['cannotdeletebranch'] = 'エラー: 古いブランチを削除できませんでした。';
+$string['cannotfindanswer'] = '答えが見つかりません。';
+$string['cannotfindfirstgrade'] = 'エラー: 評点が見つかりませんでした。';
+$string['cannotfindfirstpage'] = '最初のページが見つかりませんでした。';
+$string['cannotfindgrade'] = '評定レコードが見つかりませんでした。';
+$string['cannotfindnewestgrade'] = 'エラー: 最新の評点が見つかりませんでした。';
+$string['cannotfindnextpage'] = 'レッスンバックアップ: 次のページが見つかりませんでした!';
+$string['cannotfindpagerecord'] = '終了ブランチの追加: ページレコードが見つかりませんでした。';
+$string['cannotfindpages'] = 'レッスンページが見つかりませんでした。';
+$string['cannotfindpagetitle'] = '削除の確認: パージタイトルが見つかりませんでした。';
+$string['cannotfindpreattempt'] = '前回の受験レコードが見つかりませんでした!';
+$string['cannotfindtimer'] = 'エラー: lesson_timerレコードが見つかりませんでした。';
+$string['cannotinsertanswer'] = '解答レコードを追加できません。';
+$string['cannotinsertgrade'] = '評点を追加できません。';
+$string['cannotinserthighscore'] = '新しいハイスコアの追加に失敗しました!';
+$string['cannotinsertpage'] = '新しいページを追加できません。';
+$string['cannotinserttimer'] = 'エラー: lesson_timerテーブルに行を追加できませんでした。';
+$string['cannotupdateanswer'] = 'ページの更新: 解答が更新されませんでした。';
+$string['cannotupdategrade'] = '評点を更新できません。';
+$string['cannotupdatelink'] = 'リンクを更新できません。';
+$string['cannotupdatepage'] = 'ページの更新: ページが更新されませんでした。';
+$string['cannotupdatetimer'] = 'エラー: lesson_timerテーブルを更新できませんでした。';
 $string['canretake'] = '$a の再受験を許可する';
 $string['casesensitive'] = '正規表現を使用する';
 $string['checkbranchtable'] = 'ブランチテーブルを確認する';
@@ -206,6 +230,7 @@ $string['numberofpagesviewednotice'] = '解答済み問題数: $a->nquestions; (
 $string['ongoing'] = '進行中の評点を表示する';
 $string['ongoingcustom'] = '現在、あなたの評点は $a->currenthigh 点中 $a->score 点です。';
 $string['ongoingnormal'] = 'あなたは $a->viewed の問題の中から $a->correct を正しく答えました。';
+$string['onpostperpage'] = '1評点あたり1回のみ登録してください。';
 $string['or'] = 'または';
 $string['ordered'] = '整理済み';
 $string['other'] = 'その他';

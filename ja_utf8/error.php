@@ -201,6 +201,7 @@ $string['invalidevent'] = '無効なイベントです。';
 $string['invalidfieldname'] = '「 $a 」 は正しいフィールド名ではありません。';
 $string['invalidfiletype'] = '「 $a 」は有効なファイルタイプではありません。';
 $string['invalidformatpara'] = '選択パラメータのフォーマットが正しくありません。';
+$string['invalidformdata'] = 'フォームデータが正しくありません。';
 $string['invalidgradeitmeid'] = '評定項目が正しくありません。';
 $string['invalidgroupid'] = '不正なグループIDが指定されました。';
 $string['invalidipformat'] = '無効なIPアドレスフォーマットです。';
