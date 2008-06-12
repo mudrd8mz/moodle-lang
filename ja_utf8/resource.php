@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -9,6 +9,7 @@ $string['autofilerename'] = 'ファイルがリネームされた場合、リン
 $string['back'] = '戻る';
 $string['blockdeletingfile'] = '参照ファイルの削除をブロックする';
 $string['browserepository'] = 'リポジトリの表示';
+$string['cannotupdate'] = 'リソースを更新できません。';
 $string['choose'] = '選択';
 $string['chooseafile'] = 'ファイルを選択またはアップロードする';
 $string['chooseparameter'] = 'パラメータを選択';
@@ -54,6 +55,8 @@ $string['framesize'] = 'フレームサイズ';
 $string['fulltext'] = 'フルテキスト';
 $string['htmlfragment'] = 'HTMLフラグメント';
 $string['imspackageloaded'] = 'パッケージがロードされました。';
+$string['invalidassignment'] = '割り当てが正しくありません。';
+$string['invalidid'] = 'リソースIDが正しくありません。';
 $string['keepnavigationvisible'] = '同じページにページナビゲーションを表示したままにする';
 $string['localfile'] = 'ローカルファイル';
 $string['localfilechoose'] = 'ローカルファイルの選択 (CD-ROM)';
