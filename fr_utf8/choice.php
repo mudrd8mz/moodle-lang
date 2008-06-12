@@ -3,6 +3,8 @@
 $string['addmorechoices'] = 'Ajouter d\'autres propositions';
 $string['allowupdate'] = 'Permettre la mise à jour du sondage';
 $string['answered'] = 'Répondu';
+$string['cannotupdatechoice'] = 'Impossible de modifier votre choix en raison d\'une erreur de base de données';
+$string['cannotsavechoice'] = 'Impossible d\'enregistrer votre choix';
 $string['choice'] = 'Proposition';
 $string['choice:choose'] = 'Répondre aux sondages';
 $string['choice:readresponses'] = 'Lire les réponses';
