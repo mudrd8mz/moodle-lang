@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (2007101506)
+      // form.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['addfields'] = 'Voeg $a velden toe aan formulier';
@@ -23,6 +23,7 @@ $string['minute'] = 'Minuut';
 $string['miscellaneoussettings'] = 'Diverse instellingen';
 $string['modstandardels'] = 'Algemene module-instellingen';
 $string['month'] = 'Maand';
+$string['mustbeoverriden'] = 'Abstracte form_definition() methode in class $a moet overschreven worden, herstel de code.';
 $string['nomethodforaddinghelpbutton'] = 'Er is geen methode om een helpknop aan formulierelement $a->name (klasse $a->classname) toe  te voegen';
 $string['nonexistentformelements'] = 'Je probeert een helpknop toe te voegen aan een onbestaand formulierelement: $a';
 $string['optional'] = 'Optioneel';
