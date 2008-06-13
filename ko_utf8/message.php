@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (2007101508.08)
+      // message.php - created with Moodle 2.0 dev (Build: 20080613) (2008051202)
 
 
 $string['addcontact'] = '연락 추가';
@@ -18,6 +18,7 @@ $string['contactlistempty'] = '연락처 목록이 비어있습니다';
 $string['contacts'] = '연락들';
 $string['context'] = '문장';
 $string['deletemessagesdays'] = '오래된 메세지 자동삭제 기한';
+$string['disabled'] = '이 사이트에서는 메세지 전달 안 됨';
 $string['discussion'] = '토론주제';
 $string['emailmessages'] = '오프라인 상태에 온 이메일';
 $string['emailtagline'] = '이 이메일은 \"$a\"에서 당신에게 보내진 메세지의 복사본입니다.';

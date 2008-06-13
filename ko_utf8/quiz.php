@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080610) (2008051202)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080613) (2008051202)
 
 
 $string['1day'] = '하루';
@@ -83,7 +83,9 @@ $string['calculatedquestion'] = '$a 번째 줄에 지원되지 않는 수식계�
 $string['cannotcreatepath'] = '($a)경로를 생성할 수 없음';
 $string['cannoteditafterattempts'] = '시도가 있었기 때문에 질문을 추가하거나 제거할 수 없습니다.';
 $string['cannotfindprevattempt'] = '처리할 이전의 시도가 없습니다.';
+$string['cannotfindquestionregard'] = '재평가를 위한 문항 선제 실패';
 $string['cannotinsert'] = '질문을 삽입할 수 없음';
+$string['cannotloadquestion'] = '문항 옵션을 탑재할 수 없음';
 $string['cannotloadtypeinfo'] = '지정 문항 정보에 따른 문형을 탑재할 수 없음';
 $string['cannotopen'] = '내보내기 파일($a)을 열 수 없음';
 $string['cannotread'] = '가져오기한 파일(비어있거나)을 읽을 수 없음';

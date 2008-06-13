@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080612) (2008051202)
+      // error.php - created with Moodle 2.0 dev (Build: 20080613) (2008051202)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 수정될 수 없음';
@@ -32,6 +32,7 @@ $string['cannotcreatepopupwin'] = '정의되지 않은 요소 - 팝업창을 생
 $string['cannotcreatesitedir'] = '사이트의 경로 생성 실패. 사이트 관리자가 디렉토리 허가권을 수정할 필요가 있음';
 $string['cannotcreatetempdir'] = 'temp 디렉토리를 만들 수 없습니다.';
 $string['cannotcreateuploaddir'] = '올릴 경로를 생성할 수 없음. 사이트 관리자가 허가권을 조정하여야 함';
+$string['cannotcreateuser'] = '사용자 기록 생성 오류';
 $string['cannotcustomizelocallang'] = '맞춤 문자열을 변경할 수 있는 권한이 없습니다. 이 권한은 \"moodle/site:langeditlocal\"에 의해 설정됩니다. 만일 사이트 전체의 문자열을 변경하고 싶은 경우 이 기능을 조정하여 언어팩을 관리할 수 있게 해야 합니다.';
 $string['cannotdeletebackupids'] = '이전 백업 id를 삭제할 수 없습니다.';
 $string['cannotdeletecap'] = '$a 업무를 삭제할 수 없음';
@@ -46,6 +47,7 @@ $string['cannoteditcomment'] = '촌평을 수정할 수 없음!';
 $string['cannoteditmasterlang'] = '언어팩을 번역할 수 있는 권한이 없습니다. 이 권한은 \"moodle/site:langeditmaster\"에 의해 설정됩니다. 만일 당신이 해당 언어의 언어팩 관리자라면 이 기능을 조정하여 언어팩을 관리할 수 있게 해야 합니다.';
 $string['cannoteditpostorblog'] = '블로그를 게시하거나 편집할 수 없습니다.';
 $string['cannoteditsiteform'] = '이 서식을 이용해서는 사이트 강좌를 수정할 수 없습니다.';
+$string['cannotedityourprofile'] = '죄송합니다만 개인정보를 수정할 수 없습니다.';
 $string['cannotfindcategory'] = '데이테베이스에서 ID - $a 로 범주 자료를 찾을 수 없음';
 $string['cannotfindcomponent'] = '구성요소를 찾을 수 없습니다.';
 $string['cannotfindcontext'] = '영역을 찾을 수 없음';
@@ -87,6 +89,7 @@ $string['cannotremovefrommeta'] = '선택한 강좌를 이 메타 강좌에서 �
 $string['cannotrestore'] = '오류가 발생하여 복구를 완료할 수 없음!';
 $string['cannotrestoreadminorcreator'] = '새 강좌를 복구하려면 강좌 생성자이거나 관리자라야 합니다!';
 $string['cannotrestoreadminoredit'] = '선택한 강좌를 복구하려면 편집 가능한 교수자이거나 관리자라야 합니다!';
+$string['cannotsaveagreement'] = '동의 사항을 저장할 수 없음';
 $string['cannotsaveblock'] = '블록 설정 저장 오류';
 $string['cannotsavecomment'] = '덧글을 저장할 수 없음';
 $string['cannotsaveconfig'] = '플러그인 \"$a[2]\"에 대한 설정  \"$a[0]\"를  \"$a[1]\"로  저장하기 실패';
@@ -114,12 +117,14 @@ $string['cannotupdatelevel'] = '강좌 모듈을 이동시켜 갱신할 수 없�
 $string['cannotupdatemod'] = '$a 를 갱신할 수 없음';
 $string['cannotupdatemodcap'] = '$a 권한을 갱신할 수 없음!';
 $string['cannotupdateplugincap'] = '$a 권한을 갱신할 수 없음!';
+$string['cannotupdateprofile'] = '사용자 기록 갱신 오류';
 $string['cannotupdaterecord'] = '레코드 ID $a 를 갱신할 수 없음';
 $string['cannotupdaterole'] = '역할을 갱신할 수 없음!';
 $string['cannotupdatesubcate'] = '하위 범주를 갱신할 수 없음!';
 $string['cannotupdatesubcourse'] = '하위 강좌를 갱신할 수 없음!';
 $string['cannotupdatesummary'] = '요약 내용을 갱신할 수 없음!';
 $string['cannotupdateuser'] = '사용자 갱신 실패';
+$string['cannotupdateuseronexauth'] = '외부 인증 $a 사용자 자료 갱신 실패. 자세한 내용은 서버 기록을 참조할 것';
 $string['cannotupgradeblock'] = '블록 시스템의 갱신 실패! (config 테이블의 판을 갱신할 수 없음)';
 $string['cannotupgradecaps'] = '역할 시스템에 대한 핵심 업무를 갱신하는데 어려움이 있음';
 $string['cannotuploadfile'] = '파일 업로드 처리중 오류';
@@ -154,6 +159,7 @@ $string['downloadedfilecheckfailed'] = '내려받은 파일 점검에 실패하�
 $string['duplicaterolename'] = '이 이름을 가진 역할이 이미 존재함!';
 $string['duplicateroleshortname'] = '이 단축명을 가진 역할이 이미 존재함!';
 $string['duplicateusername'] = '사용자명 복사 - 기록 생략';
+$string['emailfail'] = '이메일 전송 실패';
 $string['errorcleaningdirectory'] = '\"$a\" 디렉토리 정리 오류';
 $string['errorcopyingfiles'] = '파일 복사 오류';
 $string['errorcreatingdirectory'] = '\"$a\" 디렉토리 생성 오류';
@@ -326,6 +332,7 @@ $string['spellcheckernotconf'] = '철자검색기가 설정되지 않음';
 $string['statscatchupmode'] = '현재 통계 수집중에 있습니다. 현재 $a->daysdone 일간의 자료가 처리되었고 $a->dayspending 가 처리 대기중에 있습니다. 잠시후 다시 확인해 주시기 바랍니다!';
 $string['statsdisable'] = '통계가 활성화되어 있지 않음';
 $string['statsnodata'] = '강좌 및 시한의 조합 조건에 맞는 자료가 없습니다.';
+$string['tagdisabled'] = '태그 사용 불가!';
 $string['tagnotfound'] = '지정한 태그가 데이터베이스에 없음';
 $string['transactionvoid'] = '이미 취소되었기 때문에 거래를 취소할 수 없음';
 $string['unenrolerror'] = '그 사람을 제명시키려 하는 중에 오류 발생';
