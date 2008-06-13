@@ -255,6 +255,7 @@ $string['pleasecheckoneormoreanswers'] = 'Valider la ou les réponses choisies';
 $string['pleaseenteryouranswerinthebox'] = 'Valider la réponse';
 $string['pleasematchtheabovepairs'] = 'Valider les correspondances choisies';
 $string['pointsearned'] = 'Points reçus';
+$string['postprocesserror'] = 'Erreur lors du post-traitement&nbsp;!';
 $string['postsuccess'] = 'Message envoyé avec succès';
 $string['practice'] = 'Leçon d\'entraînement';
 $string['preprocesserror'] = 'Erreur lors du pré-traitement&nbsp;!';
