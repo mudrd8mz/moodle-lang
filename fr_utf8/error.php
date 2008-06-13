@@ -324,6 +324,7 @@ $string['spellcheckernotconf'] = 'Le correcteur orthographique n\'est pas config
 $string['statscatchupmode'] = 'Les statistiques sont en cours de traitement. Jusqu\'ici, $a->daysdone jour(s) ont été traités. Il en reste $a->dayspending à traiter. Veuillez patienter et revenir plus tard&nbsp;!';
 $string['statsdisable'] = 'Les statistiques ne sont pas activées.';
 $string['statsnodata'] = 'Aucune donnée disponible pour ce cours et cette période.';
+$string['tagdisabled'] = 'Les tags sont désactivés&nbsp;!';
 $string['tagnotfound'] = 'Le tag indiqué n\'a pas été trouvé dans la base de données';
 $string['transactionvoid'] = 'La transaction ne peut pas être annulée, car cela a déjà été fait.';
 $string['unenrolerror'] = 'Une erreur est survenue lors de la tentative de désinscription de cet utilisateur.';
