@@ -48,6 +48,7 @@ $string['cannotfindpagetitle'] = 'Confirmation de suppression&nbsp;: titre de pa
 $string['cannotfindpreattempt'] = 'L\'enregistrement de la tentative précédente n\'a pas été trouvé&nbsp;!';
 $string['cannotfindtimer'] = 'Impossible de trouver les enregistrements de la table lesson_timer';
 $string['cannotinsertanswer'] = 'Impossible d\'insérer l\'enregistrement de la réponse';
+$string['cannotinsertgrade'] = 'Impossible d\'insérer une note';
 $string['cannotinserthighscore'] = 'Échec de l\'ajout d\'un nouveau meilleur résultat&nbsp;!';
 $string['cannotinsertpage'] = 'Impossible d\'insérer une nouvelle page';
 $string['cannotinserttimer'] = 'Impossible d\'insérer une rangée dans la table lesson_timer';
