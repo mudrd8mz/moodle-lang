@@ -153,6 +153,7 @@ $string['downloadedfilecheckfailed'] = 'La vérification du fichier télécharg�
 $string['duplicaterolename'] = 'Un rôle portant ce nom existe déjà&nbsp;!';
 $string['duplicateroleshortname'] = 'Un rôle portant ce nom abrégé existe déjà&nbsp;!';
 $string['duplicateusername'] = 'Nom d\'utilisateur à double&nbsp;: ligne ignorée';
+$string['emailfail'] = 'Échec de l\'envoi par courriel';
 $string['errorcleaningdirectory'] = 'Erreur lors du nettoyage du dossier «&nbsp;$a&nbsp;»';
 $string['errorcopyingfiles'] = 'Erreur lors de la copie de fichiers';
 $string['errorcreatingdirectory'] = 'Erreur lors de la création du dossier «&nbsp;$a&nbsp;»';
