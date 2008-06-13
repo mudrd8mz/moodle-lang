@@ -16,6 +16,7 @@ $string['contactlistempty'] = 'Votre liste de contacts est vide';
 $string['contacts'] = 'Contacts';
 $string['context'] = 'Contexte';
 $string['deletemessagesdays'] = 'Nombre de jours avant la suppression automatique des anciens messages';
+$string['disabled'] = 'La messagerie instantanée est désactivée sur ce site';
 $string['discussion'] = 'Discussion';
 $string['emailmessages'] = 'Envoyer les messages par courriel quand je suis déconnecté';
 $string['emailtagline'] = 'Ce courriel est la copie d\'un message qui vous a été envoyé sur « $a »';
