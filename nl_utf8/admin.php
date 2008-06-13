@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -290,6 +290,7 @@ $string['debugnormal'] = 'NORMAAL: toon fouten, waarschuwingen en opmerkingen';
 $string['debugsmtp'] = 'Foutopsporing voor versturen van e-mail';
 $string['defaultallowedmodules'] = 'Standaard toegelaten modules';
 $string['defaultcourseroleid'] = 'Stanaard rol voor gebruikers in een cursus';
+$string['defaulthtmleditor'] = 'Standaard HTML-editor';
 $string['defaultrequestcategory'] = 'Standaardcategorie voor cursusaanvragen';
 $string['defaultsettinginfo'] = 'Standaard: $a';
 $string['defaultuserroleid'] = 'Standaardrol voor alle gebruikers';
@@ -396,6 +397,7 @@ $string['hidefromall'] = 'Verberg voor alle gebruikers';
 $string['hidefromnone'] = 'Verberg voor niemand';
 $string['hidefromstudents'] = 'Verberg voor leerlingen';
 $string['htmleditor'] = 'HTML-editor';
+$string['htmleditorsettings'] = 'Instellingen HTML-editor';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP Security';
 $string['iconvrecommended'] = 'Als je site andere talen dan die uit de Latin1 tekenset gebruikt, dan is het installeren van de optionele ICONV library ten zeerste aangeraden om de performantie van de site te verhogen.';

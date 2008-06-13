@@ -304,8 +304,10 @@ $string['prefixtoolong'] = '<p>Fout: databank tabel prefix is te lang ($a->dbfam
 <p>De site-beheerder moet dit probleem oplossen. De maximum lengte voor de tabelprefix in $a->dbfamily is $a->maxlength tekens.</p>';
 $string['processingstops'] = 'Verwerking stopt hier. De overgebleven records worden genegeerd';
 $string['refoundto'] = 'Kan teruggegeven worden aan $a';
+$string['refoundtoorigi'] = 'Teruggegeven op oorspronkelijke hoeveelheid: $a';
 $string['remotedownloaderror'] = 'De download van de component naar jouw server is mislukt, controleer je proxy-instellingen, de PHP cURL-extentie wordt ten zeerste aanbevolen te installeren.<br /><br />Je moet je <a href=\"$a->url\">$a->url</a> bestand manueel downloaden , kopiëren naar de map \"$a->dest\" op je server en het daar unzippen.';
 $string['remotedownloadnotallowed'] = 'Het downloaden van componenten naar je server is niet toegelaten (allow_url_fopen is uitgeschakeld)<br /><br />Je moet het <a href=\"$a->url\">$a->url</a>bestand manueel downloaden en het kopiëren naar \"$a->dest\" op je server en het daar unzippen.';
+$string['reportnotavailable'] = 'Dit type rapport is alleen maar beschikbaar voor de site-cursus';
 $string['restricteduser'] = 'Sorry, maar je hebt onvoldoende rechten om dat te doen.';
 $string['scheduledbackupsdisabled'] = 'Automatische backups zijn uitgeschakeld door de site-beheerder';
 $string['sendmessage'] = 'Stuur bericht';

@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (2007101508)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['beep'] = 'Piep';
+$string['cantinsert'] = 'Kon chatbericht niet toevoegen!';
+$string['cantlogin'] = 'Kon niet in de chatroom!';
 $string['chat:chat'] = 'Gebruik chat';
 $string['chat:deletelog'] = 'Verwijder chat logs';
 $string['chat:readlog'] = 'Bekijk chat logs';
@@ -32,6 +34,7 @@ $string['explainmethodnormal'] = 'Deze instellingen worden <strong>alleen maar</
 $string['generalconfig'] = 'Algemene instellingen';
 $string['helpchatting'] = 'Help met chatten';
 $string['idle'] = 'Wachtend';
+$string['invalidid'] = 'Kon chatroom niet vinden!';
 $string['messagebeepseveryone'] = '$a piept iedereen!';
 $string['messagebeepsyou'] = '$a heeft je net gepiept!';
 $string['messageenter'] = '$a is net deze chat binnen gekomen';
@@ -49,6 +52,7 @@ $string['nomessages'] = 'Nog geen berichten';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Steam';
 $string['noscheduledsession'] = 'Geen sessie gepland';
+$string['notlogged'] = 'Niet ingelogd';
 $string['oldping'] = 'Timeout verbinding verbroken';
 $string['pastchats'] = 'Voorbije chatsessies';
 $string['refreshroom'] = 'Ververs chatroom';

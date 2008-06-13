@@ -23,6 +23,7 @@ $string['erroroccur'] = 'Er is een fout opgetreden tijdens dit proces.';
 $string['fixsetting'] = 'Verbeter je instellingen in config.php: <p>Je hebt:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>maar het moet:</p> <p>$CFG->dirroot = \"$a[1]\" zijn</p>';
 $string['invalidarraysize'] = 'Array grootte in params van $a fout';
 $string['invalideventdata'] = 'Foute gebeurtenisgegevens ingestuurd: $a';
+$string['modulenotexist'] = 'module $a bestaat niet';
 $string['morethanonerecordinfetch'] = 'Meer dan één record gevonden !';
 $string['mustbeoveride'] = 'Abstract $a methode moet overschreven worden.';
 $string['noactivityname'] = 'Pagina-object gehaald van page_generic_activity, maar $this->activityname is niet gedefiniëerd';
