@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080325) (2008030700)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080613) (2008051202)
 
 
 $string['addresource'] = '자료 추가';
@@ -9,6 +9,7 @@ $string['autofilerename'] = '파일명 교체 후 링크 갱신';
 $string['back'] = '뒤로';
 $string['blockdeletingfile'] = '참조된 파일 블럭 삭제';
 $string['browserepository'] = '저장소 검색';
+$string['cannotupdate'] = '자료 갱신 불가';
 $string['choose'] = '선택';
 $string['chooseafile'] = '업로드 파일 선택';
 $string['chooseparameter'] = '조건 선택';
@@ -54,6 +55,8 @@ $string['framesize'] = '프레임 크기';
 $string['fulltext'] = '전체 내용';
 $string['htmlfragment'] = 'HTML 조각';
 $string['imspackageloaded'] = '팩키지 불러오기';
+$string['invalidassignment'] = '잘못된 과제';
+$string['invalidid'] = '자료 ID 잘못됨';
 $string['keepnavigationvisible'] = '진행경로 보이기';
 $string['localfile'] = '지역 파일';
 $string['localfilechoose'] = '지역 파일 선택(CD-ROM)';

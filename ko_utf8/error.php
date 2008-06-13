@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080607) (2008051202)
+      // error.php - created with Moodle 2.0 dev (Build: 20080612) (2008051202)
 
 
 $string['adminprimarynoedit'] = '다른 이에 의해 주 관리자가 수정될 수 없음';
@@ -201,6 +201,7 @@ $string['invalidevent'] = '잘못된 일정';
 $string['invalidfieldname'] = '\"$a\"는 유효하지 않은 필드명';
 $string['invalidfiletype'] = '\"$a\"는 쓸 수 있는 파일형태가 아님';
 $string['invalidformatpara'] = '매개변수 선택 형식이 바르지 않음';
+$string['invalidformdata'] = '잘못된 서식 자료';
 $string['invalidgradeitmeid'] = '잘못된 점수 항목 id';
 $string['invalidgroupid'] = '잘못된 모둠 id를 지정';
 $string['invalidipformat'] = '잘못된 IP 주소 형식';

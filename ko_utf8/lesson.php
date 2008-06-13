@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080426) (2008030700)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080613) (2008051202)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -34,6 +34,30 @@ $string['averagescore'] = '평균 점수';
 $string['averagetime'] = '평균 시간';
 $string['branchtable'] = '갈래표';
 $string['cancel'] = '취소';
+$string['cannotdeleteanswer'] = '화면 갱신: 답안 기록 삭제 불가';
+$string['cannotdeleteattempt'] = '오류: 오래된 시도 삭제 불가';
+$string['cannotdeletebranch'] = '오류: 오래된 갈래 삭제 불가';
+$string['cannotfindanswer'] = '답안을 찾을 수 없음';
+$string['cannotfindfirstgrade'] = '오류: 점수를 찾을 수 없음';
+$string['cannotfindfirstpage'] = '초기 화면을 찾을 수 없음';
+$string['cannotfindgrade'] = '채점 기록을 찾을 수 없음';
+$string['cannotfindnewestgrade'] = '오류: 최근 득점을 찾을 수 없음';
+$string['cannotfindnextpage'] = '강좌 백업: 다음 화면을 찾을 수 없음!';
+$string['cannotfindpagerecord'] = '갈래끝 추가: 쪽 기록을 찾을 수 없음';
+$string['cannotfindpages'] = '완전학습 화면을 찾을 수 없음';
+$string['cannotfindpagetitle'] = '인증 삭제: 쪽 제목을 찾을 수 없음';
+$string['cannotfindpreattempt'] = '이전의 시도 기록을 찾을 수 없음!';
+$string['cannotfindtimer'] = '오류: 학습 시간 기록을 찾을 수 없음';
+$string['cannotinsertanswer'] = '답안 기록을 기입할 수 없음';
+$string['cannotinsertgrade'] = '성적을 기록할 수 없음';
+$string['cannotinserthighscore'] = '새 고득점 기록 추가 실패!';
+$string['cannotinsertpage'] = '새 쪽 삽입 불가';
+$string['cannotinserttimer'] = '오류: 학습 시간 기록표에 새 항목을 삽입할 수 없음';
+$string['cannotupdateanswer'] = '화면 갱신: 답안 갱신 불가';
+$string['cannotupdategrade'] = '성적을 갱신할 수 없음';
+$string['cannotupdatelink'] = '링크를 갱신할 수 없음';
+$string['cannotupdatepage'] = '화면 갱신: 쪽을 갱신할 수 없음';
+$string['cannotupdatetimer'] = '오류: 학습 시간 기록표를 갱신할 수 없음';
 $string['canretake'] = '$a 는 재이수 가능';
 $string['casesensitive'] = '대소문자 구별';
 $string['checkbranchtable'] = '갈래표 점검';
@@ -209,6 +233,7 @@ $string['numberofpagesviewednotice'] = '응답한 문항수 : $a->nquestions (�
 $string['ongoing'] = '현재 점수 보기';
 $string['ongoingcustom'] = '당신은 $a->currenthigh (최고)점 중 $a->score 점입니다.';
 $string['ongoingnormal'] = '당신은 $a->viewed 개의 질문 중  $a->correct 질문에 정확한 답을 했습니다.';
+$string['onpostperpage'] = '등급 당 하나의 게시물만';
 $string['or'] = '또는';
 $string['ordered'] = '정렬';
 $string['other'] = '기타';
