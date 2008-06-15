@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['activation'] = '활성화';
@@ -19,6 +19,7 @@ $string['browse'] = '미리보기';
 $string['browsed'] = '보여진';
 $string['browsemode'] = '미리보기 모드';
 $string['browserepository'] = '저장소';
+$string['cannotfindsco'] = 'SCO가 없음';
 $string['chooseapacket'] = '패키지 선택 혹은 업데이트';
 $string['completed'] = '완료됨';
 $string['confirmloosetracks'] = '경고 : 패키지가 변경된 것으로 보임. 만일 패키지의 구조가 변경되면, 일부 사용자 자료들은 업데이트 중에 누락될 가능성이 있음.';
@@ -67,6 +68,7 @@ $string['iframe'] = '현재창';
 $string['iframedisplay'] = '현재창에 표시';
 $string['incomplete'] = '미완성됨';
 $string['interactions'] = '상호작용';
+$string['invalidactivity'] = '스콤 활동이 바르지 않음';
 $string['last'] = '마지막 접속일';
 $string['lastaccess'] = '마지막 접속';
 $string['lastattempt'] = '마지막 시도';

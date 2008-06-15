@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080613) (2008051202)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['1day'] = '하루';
@@ -55,6 +55,7 @@ $string['attempt'] = '$a 차 시도';
 $string['attemptclosed'] = '아직 시도를 마치지 않았음';
 $string['attemptduration'] = '소비 시간';
 $string['attemptedon'] = '시도 중';
+$string['attempterror'] = '시도 오류';
 $string['attemptfirst'] = '첫번째 시도';
 $string['attemptincomplete'] = '시도($a 회까지)가 아직 종료되지 않았습니다.';
 $string['attemptlast'] = '마지막 시도';
@@ -249,6 +250,7 @@ $string['finishreview'] = '검토 마침';
 $string['forceregeneration'] = '다시 생성';
 $string['formatnotfound'] = '$a 형식에 대한 가져오기/내보내기를 찾을 수 없음';
 $string['formatnotimplemented'] = '이 형식은 정확하게 구현되지 않았습니다. 버그 보고서를 제출하기 바람';
+$string['formulaerror'] = '수식 오류!';
 $string['fractionsaddwrong'] = '당신이 선택한 점수 총계는 100%% 가 아닙니다.<br /> 현재 합계가 $a %% 입니다. <br />문제를 수정하기 위해 되돌아가겠습니까?';
 $string['fractionsnomax'] = '정답은 100%%가 되어야 합니다.<br /> 그래야 이문제에 대한 등급 처리가 가능합니다.<br /> 이문제를 수정하기 위해 되돌아 가겠습니까?';
 $string['fromfile'] = '파일에서 :';

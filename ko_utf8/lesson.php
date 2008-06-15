@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080613) (2008051202)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -57,7 +57,9 @@ $string['cannotinsertgrade'] = '성적을 기록할 수 없음';
 $string['cannotinserthighscore'] = '새 고득점 기록 추가 실패!';
 $string['cannotinsertpage'] = '새 쪽 삽입 불가';
 $string['cannotinserttimer'] = '오류: 학습 시간 기록표에 새 항목을 삽입할 수 없음';
+$string['cannotresetjump'] = '완전학습 복구 라이브러리: 건너뜀 재설정 불가';
 $string['cannotupdateanswer'] = '화면 갱신: 답안 갱신 불가';
+$string['cannotupdatebook'] = '개인 기록부를 갱신할 수 없음';
 $string['cannotupdateessayscore'] = '논술 점수를 갱신할 수 없음';
 $string['cannotupdategrade'] = '성적을 갱신할 수 없음';
 $string['cannotupdatelink'] = '링크를 갱신할 수 없음';

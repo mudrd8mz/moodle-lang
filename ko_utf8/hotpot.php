@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080609) (2008051202)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['abandoned'] = '실패';
@@ -15,6 +15,7 @@ $string['average'] = '평균';
 $string['cannotaddquestionrecord'] = '문항 기록을 추가할 수 없음';
 $string['cannotaddresprecord'] = '응답 기록을 추가할 수 없음';
 $string['cannotaddstrrecord'] = '문자 기록을 추가할 수 없음';
+$string['cannotfindmethod'] = '템플릿 블록의 확장 방법을 찾을 수 없음: ($a)';
 $string['cannotupdateattempt'] = '시도기록 $a 를 갱신할 수 없음';
 $string['checks'] = '확인';
 $string['clickreporting'] = '보고서 선택 가능';

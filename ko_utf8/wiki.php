@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (2007101508.05)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['action'] = '-- 활동 --';
@@ -17,7 +17,14 @@ $string['binimgtoolarge'] = '이미지 파일이 너무 큽니다!';
 $string['binnoimg'] = '지원되지 않는 파일 형태입니다!';
 $string['browse'] = '보기';
 $string['canceledit'] = '취소';
+$string['cannotacceptbin'] = '이 위키에 바이너리를 쓸 수 없음';
+$string['cannotaccessgroup'] = '이 위키에는 모둠으로 접속할 수 없음';
+$string['cannotaddentry'] = '위키에 항목을 추가할 수 없음';
 $string['cannotchangepage'] = '이 페이지는 바꾸지 못합니다.';
+$string['cannotdeletelockrecored'] = '잠긴 기록은 삭제할 수 없음';
+$string['cannotgetentry'] = '기록을 얻을 수 없음';
+$string['cannotinsertlockrecored'] = '잠긴 기록은 삽입할 수 없음';
+$string['cannotstartwith'] = '바이너리 항목은 ($a)로 시작할 수 없음';
 $string['changes'] = '$a 변경';
 $string['changesfield'] = '마지막 바꾼 시간으로부터';
 $string['changesfielderror'] = '정확한 시간을 입력하시오.';
@@ -77,6 +84,7 @@ $string['flagtxt'] = 'TXT';
 $string['flagwr'] = '읽고쓰기';
 $string['for'] = '에 대해';
 $string['forbidden'] = '이 페이지에 대한 권한이 없습니다.';
+$string['groupmodeerror'] = '강좌에서 설정되지 않은 모둠은 위키에 접근할 수 없음';
 $string['groups'] = '모둠';
 $string['hits'] = '$a 번 열람';
 $string['howtooperate'] = '사용법';
@@ -87,6 +95,7 @@ $string['htmlonly'] = 'HTML만 가능';
 $string['index'] = '목차';
 $string['infoaboutpage'] = '페이지 이력 :';
 $string['initialcontent'] = '시작페이지 선택';
+$string['invalidpageval'] = '지원되지 않는 화면';
 $string['invalidroot'] = '루트 페이지의 접속 권한이 없기 때문에, 사이트맵을 만들 수 없습니다';
 $string['lastchanged'] = '최종 변경 일시 : $a';
 $string['lastmodified'] = '마지막 수정';
@@ -109,6 +118,7 @@ $string['nochangestorevert'] = '복구할 변경사항이 없습니다.';
 $string['nohtml'] = 'HTML없음';
 $string['nojslockwarning'] = '브라우저의 자바스크립트가 비활성화 되어있기 때문에 누군가 동시에 이 페이지를 편집할 수 있습니다. 그럴 경우, 당신이 변경한 것을 저장할 수 없습니다. 잽싸게 편집하여 저장하거나 자바스크립트를 켜 놓고 이 페이지를 다시 로드 하십시요';
 $string['nolinksfound'] = '페이지에서 링크를 찾을 수 없음';
+$string['nopermissiontooverride'] = '잠긴 내용을 편집할 수 있는 권한이 없음';
 $string['noregexp'] = '이것은 수정된 문자열이다(당신은 *나 regex를 사용할 수 없다).최선의 방법은 공격자의 IP 주소나 호스트의 이름을 이용하라. 그러나 포트 번호를 포함시키지 말아라(왜나하면 그것은 매번 http접속과 함께 증가하기 때문이다)';
 $string['notadministratewiki'] = '이 위키를 관리할 권한이 없습니다';
 $string['nothingtostrip'] = '한 버전의 페이지밖에 없습니다';
@@ -175,6 +185,7 @@ $string['uplinsect'] = '업로드 경로';
 $string['uplnewnam'] = '다른 이름으로 저장';
 $string['upload0'] = '임의의 이진파일을 위키에 업로드하려면 이 양식을 이용하십시오 :';
 $string['uploadedon'] = '업로드 날짜';
+$string['uploaderror'] = '($a) 올리는 중 오류 발생';
 $string['uploadpicturebutton'] = '올리기';
 $string['uplok'] = '파일이 정확히 올려졌습니다';
 $string['version'] = '버전';

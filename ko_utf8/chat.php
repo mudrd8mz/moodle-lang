@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080607) (2008051202)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['beep'] = '호출';
@@ -47,6 +47,7 @@ $string['modulename'] = '대화방';
 $string['modulenameplural'] = '대화모음';
 $string['neverdeletemessages'] = '메시지 삭제 금지';
 $string['nextsession'] = '다음번 예정된 대화';
+$string['nochat'] = '대화방 없음';
 $string['noguests'] = '손님은 이용권한 없음';
 $string['nomessages'] = '아직 메시지 없음';
 $string['normalkeepalive'] = '연결유지';

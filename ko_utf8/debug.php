@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080607) (2008051202)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['authpluginnotfound'] = '인증 플러그인 $a 없음';
@@ -9,6 +9,7 @@ $string['cannotdowngrade'] = '$a[0] 에서 $a[1] 로는 판내림을 할 수 없
 $string['cannotfindadmin'] = '관리자가 없음!';
 $string['cannotinitpage'] = '화면을 초기화 할 수 없음: 잘못된 $a[0] id $a[1]';
 $string['cannotsetupsite'] = '심각한 오류! 사이트를 설정할 수 없음!';
+$string['cannotsetuptable'] = '$a 테이블을 제대로 설정할 수 없음!';
 $string['cannotupdaterelease'] = '오류: 새 판의 데이터베이스 갱신을 할 수 없음!';
 $string['cannotupdateversion'] = '업그레이드 실패! (새 판의 설정 테이블을 갱신할 수 없음)';
 $string['cannotupgradecapabilities'] = '역할 시스템에 대한 핵심 권한 갱신을 할 수 없음';

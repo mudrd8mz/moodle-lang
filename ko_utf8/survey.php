@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (2007101506)
+      // survey.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['actual'] = '실적';
@@ -58,6 +58,10 @@ $string['attlsm2'] = '연결된 배움';
 $string['attlsm3'] = '분리된 배움';
 $string['attlsmintro'] = '토론에서...';
 $string['attlsname'] = 'ATTLS (20 항목 버전)';
+$string['cannotfindanswer'] = '본 설문에는 아직 응답하지 않았음';
+$string['cannotfindquestion'] = '질문이 없음';
+$string['cannotfindsurveytmpt'] = '설문지가 앖음!';
+$string['cannotinsertanswer'] = '설문 결과를 저장하는 중 오류 발생. 죄송합니다.';
 $string['ciq1'] = '배우는 입장으로서 교실에서 어떤점에 어느 순간에 가장 집중하게 되어는가?';
 $string['ciq1short'] = '가장 집중한';
 $string['ciq2'] = '배우는 입장으로서 교실에서 어떤점에 어느 순간에 가장 집중 하지않게 되었는가?';
@@ -168,6 +172,8 @@ $string['howlong'] = '이 조사를 마치는데 시간이 얼마나 걸렸습�
 $string['howlongoptions'] = '1분 미만, 1-2분, 2-3분, 3-4분, 4-5분, 5-10분, 10분 초과';
 $string['ifoundthat'] = '을 발견하다.';
 $string['introtext'] = '소개글';
+$string['invalidsurveyid'] = '설문 ID가 바르지 않음';
+$string['invalidtmptid'] = '잘못된 설문지 ID';
 $string['ipreferthat'] = '을 더 좋아하다.';
 $string['modulename'] = '조사';
 $string['modulenameplural'] = '설문조사';
