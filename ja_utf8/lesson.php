@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -57,7 +57,9 @@ $string['cannotinsertgrade'] = '評点を追加できません。';
 $string['cannotinserthighscore'] = '新しいハイスコアの追加に失敗しました!';
 $string['cannotinsertpage'] = '新しいページを追加できません。';
 $string['cannotinserttimer'] = 'エラー: lesson_timerテーブルに行を追加できませんでした。';
+$string['cannotresetjump'] = 'レッスン restorelib: ジャンプをリセットできません。';
 $string['cannotupdateanswer'] = 'ページの更新: 解答が更新されませんでした。';
+$string['cannotupdatebook'] = 'あなたのブックを更新できません。';
 $string['cannotupdateessayscore'] = '作文問題の評点を更新できませんでした。';
 $string['cannotupdategrade'] = '評点を更新できません。';
 $string['cannotupdatelink'] = 'リンクを更新できません。';
