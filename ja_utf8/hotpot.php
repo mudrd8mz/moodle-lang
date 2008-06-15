@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['abandoned'] = '放棄';
@@ -15,7 +15,8 @@ $string['average'] = '平均';
 $string['cannotaddquestionrecord'] = '問題レコードを追加できませんでした。';
 $string['cannotaddresprecord'] = '解答レコードを追加できませんでした。';
 $string['cannotaddstrrecord'] = '文字列レコードを追加できませんでした。';
-$string['cannotupdateattempt'] = '受験レコード $a を更新できませんでした。';
+$string['cannotfindmethod'] = 'テンプレートブロックの拡張メソッド「 $a 」が見つかりませんでした。';
+$string['cannotupdateattempt'] = '受験レコード「 $a 」を更新できませんでした。';
 $string['checks'] = 'チェック';
 $string['clickreporting'] = 'クリックレポートを有効にする';
 $string['clues'] = 'クルー';

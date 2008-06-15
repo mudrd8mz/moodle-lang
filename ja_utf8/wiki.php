@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (2007101508)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['action'] = '-- アクション --';
@@ -17,7 +17,14 @@ $string['binimgtoolarge'] = 'イメージファイルが大きすぎます!';
 $string['binnoimg'] = '許可されていないファイルフォーマットです!';
 $string['browse'] = '表示';
 $string['canceledit'] = 'キャンセル';
+$string['cannotacceptbin'] = 'このWikiでは、バイナリを許可していません。';
+$string['cannotaccessgroup'] = 'このWikiにグループはアクセスできません。';
+$string['cannotaddentry'] = 'Wikiエントリを追加できませんでした。';
 $string['cannotchangepage'] = 'このページは更新できません。';
+$string['cannotdeletelockrecored'] = 'ロックレコードを削除できません。';
+$string['cannotgetentry'] = 'エントリを取得できません。';
+$string['cannotinsertlockrecored'] = 'ロックレコードを追加できません。';
+$string['cannotstartwith'] = 'バイナリエントリを「 $a 」で開始できません。';
 $string['changes'] = '変更回数: $a 回';
 $string['changesfield'] = '最後の更新から何時間以内';
 $string['changesfielderror'] = '正しい時間を入力してください。';
@@ -76,6 +83,7 @@ $string['flagtxt'] = 'TXT';
 $string['flagwr'] = 'WR';
 $string['for'] = 'for';
 $string['forbidden'] = 'このページにアクセスする権限がありません。';
+$string['groupmodeerror'] = 'コースにグループが設定されていない場合、Wikiのグループモードにアクセスすることはできません。';
 $string['groups'] = 'グループ';
 $string['hits'] = '$a ヒット';
 $string['howtooperate'] = '処理内容';
@@ -86,6 +94,7 @@ $string['htmlonly'] = 'HTMLのみ';
 $string['index'] = 'index';
 $string['infoaboutpage'] = '履歴:';
 $string['initialcontent'] = '初期ページの選択';
+$string['invalidpageval'] = 'サポートされていないページ値です。';
 $string['invalidroot'] = '現在のルートページにアクセスする権限が無いため、サイトマップは作成できません。';
 $string['lastchanged'] = '最終更新日時: $a';
 $string['lastmodified'] = '最終更新日時';
@@ -108,6 +117,7 @@ $string['nochangestorevert'] = '前の状態に戻す変更はありません。
 $string['nohtml'] = 'HTMLなし';
 $string['nojslockwarning'] = 'あなたのブラウザでJavaスクリプトが無効にされているため、他の人がこのページを編集することが可能です。他の人がこのページを編集した場合、あなたの変更内容を保存することはできません。編集をすぐに完了するか、ブラウザのJavaスクリプトを有効にして、このページをリロードしてください。';
 $string['nolinksfound'] = 'ページにリンクは見つかりませんでした。';
+$string['nopermissiontooverride'] = 'あなたには、編集ロックをオーバーライドするためのケイパビリティがありません。';
 $string['noregexp'] = 'ストリングを訂正してください (* や regex は使用できません)。最良の方法は攻撃者の「IPアドレスまたはホスト名」を使用することですが、ポート番号を含めないでください  (すべてのhttpアクセスに関して記述する必要がありますので、設定数を増やすことになります)。';
 $string['notadministratewiki'] = 'このwikiの管理を許可されていません!';
 $string['nothingtostrip'] = '1つのバージョン以外にページがありません。';
@@ -174,6 +184,7 @@ $string['uplinsect'] = 'アップロード先';
 $string['uplnewnam'] = '別名で保存する';
 $string['upload0'] = '任意のバイナリファイルをwikiにアップロードする場合は、このフォームを使用してください。';
 $string['uploadedon'] = 'アップロード先';
+$string['uploaderror'] = '$a のアップロード中にエラーが発生しました。';
 $string['uploadpicturebutton'] = 'アップロード';
 $string['uplok'] = 'ファイルが正常にアップロードされました。';
 $string['version'] = 'バージョン';

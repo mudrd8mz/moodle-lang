@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['allattemptsavg'] = 'すべての受験評点の平均値';
@@ -13,13 +13,17 @@ $string['errorpowerquestions'] = '問題評点の分散を計算するデータ�
 $string['errorpowers'] = '小テスト評点の分散を計算するデータの取得中にエラーが発生しました。';
 $string['errorratio'] = '誤差率';
 $string['firstattemptsavg'] = '最初の受験評点の平均値';
+$string['intended_weight'] = '意図された問題加重';
 $string['kurtosis'] = '評点分布の尖度';
 $string['median'] = '評点の中央値';
 $string['noofallattempts'] = '合計受験数';
 $string['nooffirstattempts'] = '最初の受験数';
+$string['questionnumber'] = '問題#';
+$string['questiontype'] = '問題タイプ';
 $string['quizinformation'] = '小テスト情報';
 $string['quizname'] = '小テスト名';
 $string['quizoverallstatistics'] = '小テスト全体の統計';
+$string['quizstructureanalysis'] = '問題構造分析';
 $string['skewness'] = '評点分布の歪み';
 $string['standarddeviation'] = '標準偏差';
 $string['standarderror'] = '標準誤差';

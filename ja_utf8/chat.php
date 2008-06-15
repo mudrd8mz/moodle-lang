@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['beep'] = 'ビープ';
@@ -47,6 +47,7 @@ $string['modulename'] = 'チャット';
 $string['modulenameplural'] = 'チャット';
 $string['neverdeletemessages'] = 'メッセージを削除しない';
 $string['nextsession'] = '次のスケジュールセッション';
+$string['nochat'] = 'チャットが見つかりませんでした。';
 $string['noguests'] = 'ゲストはこのチャットを利用できません。';
 $string['nomessages'] = 'メッセージがありません。';
 $string['normalkeepalive'] = 'KeepAlive';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2007101509)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['activation'] = 'アクティベーション';
@@ -19,6 +19,7 @@ $string['browse'] = 'プレビュー';
 $string['browsed'] = '閲覧済み';
 $string['browsemode'] = 'プレビューモード';
 $string['browserepository'] = 'リポジトリの閲覧';
+$string['cannotfindsco'] = 'SCOを見つけることができませんでした。';
 $string['chooseapacket'] = 'パッケージの選択または更新';
 $string['completed'] = '完了';
 $string['confirmloosetracks'] = '警告: パッケージが変更/修正されたようです。パッケージ構造が変更された場合、更新処理中にユーザのトラックが失われる可能性があります。';
@@ -67,6 +68,7 @@ $string['iframe'] = '現在のウィンドウ';
 $string['iframedisplay'] = 'パッケージを現在のウィンドウで開く';
 $string['incomplete'] = '不完全';
 $string['interactions'] = '相互作用';
+$string['invalidactivity'] = 'Scorm活動が正しくありません。';
 $string['last'] = '最新アクセス日時';
 $string['lastaccess'] = '最新のアクセス';
 $string['lastattempt'] = '最新の受験';

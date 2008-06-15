@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
+      // question.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -67,6 +67,7 @@ $string['errormovingquestions'] = 'ID $a の問題の移動中にエラーが発
 $string['errorsavingcomment'] = '問題 $a->name のコメントをデータベースに保存中にエラーが発生しました。';
 $string['errorupdatingattempt'] = 'データベース内の受験結果 $a->id を更新中にエラーが発生しました。';
 $string['exportcategory'] = 'カテゴリのエクスポート';
+$string['exporterror'] = 'エクスポート中にエラーが発生しました!';
 $string['filesareacourse'] = 'コースファイルエリア';
 $string['filesareasite'] = 'サイトファイルエリア';
 $string['filestomove'] = '$a にファイルを移動/コピーしますか?';
@@ -118,6 +119,7 @@ $string['questionbank'] = '問題バンク';
 $string['questioncategory'] = '問題カテゴリ';
 $string['questioncatsfor'] = '「 $a 」の問題カテゴリ';
 $string['questiondoesnotexist'] = 'この問題は存在しません。';
+$string['questionsaveerror'] = '問題の保存中にエラーが発生しました- ($a)';
 $string['questionsmovedto'] = 'まだ使用されている問題が、親コースカテゴリの「 $a 」に移動されました。';
 $string['questionsrescuedfrom'] = '問題がコンテクスト $a より保存されました。';
 $string['questionsrescuedfrominfo'] = 'いくつかの小テストまたは他の活動で使用されているため、これらの問題 (いくつかは非表示) は、コンテクスト $a の削除時に保存されました。';

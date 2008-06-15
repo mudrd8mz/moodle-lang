@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['1day'] = '1日';
@@ -55,6 +55,7 @@ $string['attempt'] = '受験  $a';
 $string['attemptclosed'] = '受験はまだ終了していません。';
 $string['attemptduration'] = '所要時間';
 $string['attemptedon'] = '受験日時';
+$string['attempterror'] = '受験エラー';
 $string['attemptfirst'] = '最初の受験';
 $string['attemptincomplete'] = '$a による受験はまだ完了していません。';
 $string['attemptlast'] = '最新の受験';
@@ -258,6 +259,7 @@ $string['finishreview'] = 'レビューを終了する';
 $string['forceregeneration'] = 'データを再生成する';
 $string['formatnotfound'] = 'インポート/エクスポートフォーマット $a が見つかりませんでした。';
 $string['formatnotimplemented'] = 'フォーマットが正しく実装されていません。バグレポートに投稿してください。';
+$string['formulaerror'] = '公式エラー!';
 $string['fractionsaddwrong'] = 'あなたが選択したプラス評点の合計が、100%%になっていません。<br />現在の評点合計は $a%% です。<br />戻ってこの問題を修正しますか?';
 $string['fractionsnomax'] = 'この問題で満点を取ることができるよう、<br />答えの1つは、100%%でなければなりません。 <br />戻ってこの問題を修正しますか?';
 $string['fromfile'] = 'ファイルからインポートする:';
