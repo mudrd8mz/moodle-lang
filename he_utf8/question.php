@@ -1,5 +1,5 @@
-﻿<?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta + (2007081600)
+<?PHP // $Id$ 
+      // question.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
 
 
 $string['adminreport'] = 'דווח על בעיות אפשריות במסד הנתונים של שאלותיך';
