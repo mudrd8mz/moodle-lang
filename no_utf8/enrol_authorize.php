@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+
+
 $string['adminacceptccs'] = 'Hvilke typer kredittkort vil bli akseptert?';
 $string['adminaccepts'] = 'Velg betalingsmetoder som er tillatt og typene deres';
 $string['adminauthcode'] = 'Hvis en brukers kredittkort ikke godkjennes direkte på internett, få tak i en godkjenningskode fra kundens bank.';
@@ -124,16 +126,23 @@ Klikk på lenken og les hjelp-filen på denne siden:
 $a->url';
 $string['pendingechecksubject'] = '$a->course: Ventende e-Sjekker($a->count)';
 $string['pendingordersemail'] = 'Kjøre administrator,
-$a->ventende transaksjoner for kurset \"$a->course\" vil utløpe dersom du ikke godtar betaling innen $a->days dager.
+
+$a->pending transaksjoner for kurset \"$a->course\" vil utløpe dersom du ikke godtar betaling innen $a->days dager.
+
 Dette er en advarsel, siden du ikke aktiviserte automatisk håndtering av påmelding.
+
 For å godta/asvlå ventende betalinger kan du gå til siden:
 $a->url
+
 For å slå på automatisk påmeldingshåndtering - det betyr at du ikke får slike meldinger mer - gå til siden:
+
 $a->enrolurl';
 $string['pendingordersemailteacher'] = 'Kjære lærer,
-$a->ventende transaksjoner til en verdi av $a->currency $a->sumcost for kurset \"$a->course\"
-vil utløpe dersom du ikke godtar betalingen innen  $a->days dager.
+
+$a->pending transaksjoner til en verdi av $a->currency $a->sumcost for kurset \"$a->course\" vil utløpe dersom du ikke godtar betalingen innen  $a->days dager.
+
 Du må godta eller avslå betalinger manuelt siden administrator ikke har aktivisert automatisk påmeldingshåndtering.
+
 $a->url';
 $string['pendingorderssubject'] = 'ADVARSEL: $a->course, $a->pending ordre vil utløpe om $a->days dag(er).';
 $string['reason11'] = 'En duplikat transaksjon er sendt.';
@@ -186,4 +195,5 @@ Hvis du vil se betalingsdetaljene kan du klikke her:
 $a->paymenturl';
 $string['youcantdo'] = 'Du kan ikke utføre denne handlingen: $a->action';
 $string['zipcode'] = 'Postnummer';
+
 ?>

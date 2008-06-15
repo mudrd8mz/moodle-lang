@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // question.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+
+
 $string['adminreport'] = 'Rapport over mulige problemer i din spørsmålsdatabase.';
 $string['broken'] = 'Dette er en råtten lenke, filen den peker til finnes ikke.';
 $string['byandon'] = 'av <em>$a->user</em> på <em>$a->time</em>';
@@ -47,7 +49,7 @@ $string['movingcategoryandfiles'] = 'Er du sikker på at du vil flytte kategorie
 $string['movingcategorynofiles'] = 'Er du sikker på at du vil flytte kategorien \"{$a->name}\" og alle underkategorier for \"{$a->contextto}\"?';
 $string['movingquestions'] = 'Flytter spørsmål og filer';
 $string['movingquestionsandfiles'] = 'Er du sikker på at du vil flytte spørsmålene {$a->questions} til konteksten for <strong>\"{$a->tocontext}\"</strong>?<br /> Vi har oppdaget <strong>{$a->urlcount} filer</strong> lenket fra disse spørsmålene i {$a->fromareaname}, ønsker du å kopiere eller flytte disse til {$a->toareaname}?';
-$string['movingquestionsnofiles'] = 'Er du sikker på at du vil flytte spørsmålene {$a->questions} til konteksten for <strong>\"{$a->tocontext}\"</strong>?<br /> Vi ikke oppdaget <strong>{$a->urlcount} noen filer</strong> lenket fra disse spørsmålene i {$a->fromareaname}.';
+$string['movingquestionsnofiles'] = 'Er du sikker på at du vil flytte spørsmålene {$a->questions} til konteksten for <strong>\"{$a->tocontext}\"</strong>?<br /> Vi ikke oppdaget <strong>noen filer</strong> lenket fra disse spørsmålene i {$a->fromareaname}.';
 $string['needtochoosecat'] = 'Du må velge en kategori å flytte spørsmålene til eller klikke \'Avbryt\'.';
 $string['nopermissionadd'] = 'Du har ikke tillatelse til å legge til spørsmål her.';
 $string['noprobs'] = 'Fant ingen problemer i spørsmålsdatabasen.';
@@ -69,4 +71,5 @@ $string['tofilecontext'] = 'Skriv konteksten til fil';
 $string['unknown'] = 'Ukjent';
 $string['unknownquestiontype'] = 'Ukjent spørsmålstype: $a.';
 $string['unpublished'] = 'privat';
+
 ?>
