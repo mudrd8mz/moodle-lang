@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (2007101506)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['abandoned'] = 'verlaten';
@@ -12,6 +12,10 @@ $string['attemptsbest'] = 'Beste poging';
 $string['attemptsfirst'] = 'Eerste poging';
 $string['attemptslast'] = 'Laatste poging';
 $string['average'] = 'Gemiddelde';
+$string['cannotaddquestionrecord'] = 'Kon geen vraag-record toevoegen';
+$string['cannotaddresprecord'] = 'Kon geen antwoord-record toevoegen';
+$string['cannotaddstrrecord'] = 'Kon geen string-record toevoegen';
+$string['cannotupdateattempt'] = 'Kon de attempt record $a niet updaten';
 $string['checks'] = 'controles';
 $string['clickreporting'] = 'Schakel klikrapportering in';
 $string['clues'] = 'Ideeën';
@@ -56,6 +60,8 @@ $string['hotpotcloses'] = 'Hot Potatoes-test sluit';
 $string['hotpotopens'] = 'Hot Potatoes-test opent';
 $string['ignored'] = 'genegeerd';
 $string['inprogress'] = 'lopend';
+$string['invalidattemptid'] = 'Foute attempt ID';
+$string['invalidhotpotid'] = 'Foute hotpot ID';
 $string['location'] = 'Bestandslocatie';
 $string['modulename'] = 'Hot Potatoes-test';
 $string['modulenameplural'] = 'Hot Potatoes-testen';
@@ -69,6 +75,7 @@ $string['navigation_none'] = 'Geen';
 $string['neverclosed'] = 'Nooit gesloten';
 $string['noactivity'] = 'Geen activiteit';
 $string['noresponses'] = 'Er is geen informatie gevonden over individuele vragen en antwoorden.';
+$string['notyourattempt'] = 'Dit is niet jouw poging!';
 $string['outputformat'] = 'Output-opmaak';
 $string['outputformat_best'] = 'beste';
 $string['outputformat_flash'] = 'Flash';
@@ -82,6 +89,7 @@ $string['outputformat_v6_plus'] = 'V6+';
 $string['penalties'] = 'straffen';
 $string['questionshort'] = 'Vr-$a';
 $string['quiztype'] = 'Type test';
+$string['quizunavailable'] = 'De test is nu niet beschikbaar';
 $string['rawdetails'] = 'Ruwe pogingdetails';
 $string['regrade'] = 'Herwaardeer';
 $string['regradecheck'] = 'Wil je echt \"$a\" herwaarderen?';
@@ -150,6 +158,7 @@ $string['textsourcequiz'] = 'Haal uit test';
 $string['textsourcespecific'] = 'Specifieke test';
 $string['thiscourse'] = 'Deze cursus';
 $string['timedout'] = 'Gepauzeerd';
+$string['unknownreport'] = 'Onbekend rapport ($a)';
 $string['updatequizchain'] = 'Update vragenketting';
 $string['weighting'] = 'weging';
 $string['wrong'] = 'foutief';

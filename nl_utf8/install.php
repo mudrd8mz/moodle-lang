@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (2007101506)
+      // install.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['aborting'] = 'Installatie afbreken';
@@ -238,8 +238,11 @@ $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHP is niet juist geïnstalleerd met de ODBC-extentie en kan niet communiceren met SQL*Server. Controleer je php.ini-bestand of hercompileer PHP.';
 $string['pass'] = 'OK';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP is niet juist geïnstalleerd met de PGSQL-extentie en kan niet communiceren met PostgreSQL. Controleer je php.ini-bestand of hercompileer PHP.';
+$string['php52versionerror'] = 'PHP versie moet minstens 5.2.0 zijn';
+$string['php52versionhelp'] = '<p>Moodle vereist minstens PHP versie 5.2.0.</p>
+<p>Op dit moment heb je versie $a geïnstalleerd</p>
+<p>Je moet PHP upgraden of verhuizen naar een host met een nieuwere PHP-versie!</p>';
 $string['phpversion'] = 'PHP-versie';
-$string['phpversionerror'] = 'PHP-versie moet minstens 4.1.0 zijn';
 $string['phpversionhelp'] = '<p>Moodle heeft minstens PHP-versie 4.1.0 nodig.</p> <p>De huidige versie op je server is $a</p>
 <p>Je moet PHP upgraden of verhuizen naar een host met een nieuwere versie van PHP!</p>';
 $string['postgres7'] = 'PostgreSQL (postgres 7)';
@@ -320,6 +323,7 @@ $string['writetoconfigfilefaild'] = 'Fout: schrijven naar config.php-bestand mis
 $string['wwwroot'] = 'Web adres';
 $string['wwwrooterror'] = 'Het webadres lijkt niet geldig te zijn - deze Moodle-installatie is blijkbaar niet op die plaats.';
 $string['yourchoice'] = 'Jouw keuze:';
+$string['phpversionerror'] = 'PHP-versie moet minstens 4.1.0 zijn'; // ORPHANED
 $string['unsafedirname'] = 'Fout: onveilige tekens in de mapnaam. Geldige tekens zijn a-zA-Z0-9_-'; // ORPHANED
 
 ?>

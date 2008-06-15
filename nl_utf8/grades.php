@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (2008030700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['activities'] = 'Activiteiten';
@@ -30,11 +30,8 @@ $string['aggregateweightedmean2'] = 'Eenvoudig gewogen cijfergemiddelde';
 $string['aggregation'] = 'Aggregatie';
 $string['aggregationcoef'] = 'Aggregatiecoëfficiënt';
 $string['aggregationcoefextra'] = 'Bonus';
-$string['aggregationcoefextrahelp'] = 'Bonus voor dit beoordelingsitem tijdens aggregatie';
 $string['aggregationcoefextrasum'] = 'Bonus';
-$string['aggregationcoefextrasumhelp'] = 'Bonus voor dit beoordelingsitem tijdens aggregatie';
 $string['aggregationcoefweight'] = 'Weging beoordelingsitem';
-$string['aggregationcoefweighthelp'] = 'Weging, toegepast op alle cijfers in dit beoordelingsitem tijdens een aggregatie met andere beoordelingsitems';
 $string['aggregationhelp'] = 'Gebruikte strategie voor het aggregeren (samenvoegen) van cijfers voor alle leerlingen in een cursus.';
 $string['aggregationposition'] = 'Aggregatiepositie';
 $string['aggregationview'] = 'Aggregatieopmaak';
@@ -352,6 +349,7 @@ $string['nopublish'] = 'Niet publiceren';
 $string['noselectedcategories'] = 'Je hebt geen categorieën geselecteerd';
 $string['noselecteditems'] = 'Je hebt geen items geselecteerd';
 $string['notteachererror'] = 'Je moet leraar zijn om deze functie te gebruiken';
+$string['nousersloaded'] = 'Geen gebruikers geladen';
 $string['numberofgrades'] = 'Aantal beoordelingen';
 $string['onascaleof'] = 'op een schaal van $a-grademin tot $a->grademax';
 $string['operations'] = 'Operatie';
@@ -518,6 +516,9 @@ $string['writinggradebookinfo'] = 'Instelling cijferlijst wegschrijven';
 $string['xml'] = 'XML';
 $string['yes'] = 'Ja';
 $string['yourgrade'] = 'Jouw cijfer';
+$string['aggregationcoefextrahelp'] = 'Bonus voor dit beoordelingsitem tijdens aggregatie'; // ORPHANED
+$string['aggregationcoefextrasumhelp'] = 'Bonus voor dit beoordelingsitem tijdens aggregatie'; // ORPHANED
+$string['aggregationcoefweighthelp'] = 'Weging, toegepast op alle cijfers in dit beoordelingsitem tijdens een aggregatie met andere beoordelingsitems'; // ORPHANED
 $string['configbulkcheckboxes'] = 'Selectievakjes naast elk cijfer voor bulkoperaties'; // ORPHANED
 $string['configquickfeedback'] = 'Snelle feedback voegt een tekstveld in elke beoordelingscel toe op het rapport, waarmee je tegelijk de cijfers kunt wijzigen. Je kunt dan op de Aanpassen-knop klikken om al deze wijzigingen in één keer door te voeren i.p.v. één voor één.'; // ORPHANED
 $string['errornocategorizedid'] = 'Kon geen id zonder categorie vinden!'; // ORPHANED

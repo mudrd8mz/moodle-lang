@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
 $string['allow'] = 'Toelaten';
 $string['allowassign'] = 'Toewijzen van rollen toestaan';
 $string['allowoverride'] = 'Overschrijven van rollen toestaan';
+$string['allsiteusers'] = 'Alle sitegebruikers';
 $string['assignglobalroles'] = 'Globale rollen toewijzen';
 $string['assignroles'] = 'Rollen toewijzen';
 $string['assignrolesin'] = 'Rollen toewijzen in $a';
@@ -176,6 +177,7 @@ $string['user:viewhiddendetails'] = 'Verborgen details van gebruikers bekijken';
 $string['user:viewuseractivitiesreport'] = 'Activiteitenrapporten van gebruikers bekijken';
 $string['user:viewusergrades'] = 'Cijfers van gebruikers bekijken';
 $string['userhashiddenassignments'] = 'Deze gebruiker heeft één of meer verborgen rollen in deze cursus';
+$string['userswithrole'] = 'Alle gebruikers met een rol';
 $string['viewrole'] = 'Roldetails bekijken';
 $string['xuserswiththerole'] = 'Gebruikers met de rol \"$a->role\" $a->number';
 $string['question:export'] = 'Vragen exporteren'; // ORPHANED

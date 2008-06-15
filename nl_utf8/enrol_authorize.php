@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.9 Beta + (2007082200)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['adminacceptccs'] = 'Welke kredietkaarten zullen aanvaard worden?';
@@ -47,6 +47,7 @@ $string['anpassword'] = 'Authorize.net: Wachtwoord (niet vereist)';
 $string['anreferer'] = 'Type hier de URL-verwijzing als je dit instelt met je authorize.net account. Dit zal een header \"Referer:URL\" in de webaanvraag zetten.';
 $string['antestmode'] = 'Authorize.net: test transacties';
 $string['antrankey'] = 'Authorize.net: transactiesleutel';
+$string['approvedreview'] = 'Nakijken goedgekeurd';
 $string['authcaptured'] = 'Goedgekeurd /  Gekrediteerd';
 $string['authcode'] = 'Authorisatiecode';
 $string['authorize:managepayments'] = 'Beheer betalingen';
@@ -75,20 +76,25 @@ $string['captureyes'] = 'De kredietkaart wordt aanvaard en de leerling wordt in 
 $string['ccexpire'] = 'Vervaldatum';
 $string['ccexpired'] = 'De kredietkaart is vervallen';
 $string['ccinvalid'] = 'Ongeldig kaartnummer';
+$string['cclastfour'] = 'CC laatste vier';
 $string['ccno'] = 'Kredietkaartnummer';
 $string['cctype'] = 'Kredietkaarttype';
-$string['ccvv'] = 'CV2';
+$string['ccvv'] = 'Kaartverificatie';
 $string['ccvvhelp'] = 'Kijk op de achterkant van de kaart (laatste 3 cijfers)';
 $string['choosemethod'] = 'Als je de cursussleutel voor deze cursus kent, geef die dan in, indien je hem niet kent moet je betalen voor deze cursus';
 $string['chooseone'] = 'Vul één of beide velden in';
+$string['costdefaultdesc'] = '<strong>In cursusinstellingen, geef -1 in</strong> om dit standaardprijs naar cursusprijsveld te gebruiken.';
+$string['cutofftime'] = 'Transactie Cut-Off Time. Wanneer is de laatste transactie voor betaling opgenomen?';
 $string['delete'] = 'Vernietig';
 $string['description'] = 'Met de Authorize.net module kun je betaalde cursussen inrichten via CC-providers. Als de prijs voor een cursus 0 is, dan krijgen leerlingen de vraag om te betalen niet. Er is een standaardprijs die je hier voor de hele site kunt instellen en er is een instelling om de prijs per cursus vast te leggen. De prijs per cursus gaat over de standaardprijs van de site.';
 $string['echeckabacode'] = 'Bank ABA-nummer';
 $string['echeckaccnum'] = 'Bank rekeningnummer';
 $string['echeckacctype'] = 'Bank accounttype';
 $string['echeckbankname'] = 'Banknaam';
+$string['echeckbusinesschecking'] = 'Ondernemingscontrole';
 $string['echeckchecking'] = 'Controleren';
 $string['echeckfirslasttname'] = 'Bank rekeningeigenaar';
+$string['echecksavings'] = 'Opgespaard';
 $string['enrolname'] = 'Authorize.net Kredietkaart toegang';
 $string['expired'] = 'Vervallen';
 $string['haveauthcode'] = 'Ik heb al een authorisatiecode';
@@ -98,6 +104,7 @@ Geef het nummer van je kredietkaart niet in voor je een geel hangslot onderaan j
 $string['invalidaba'] = 'Ongeldig ABA nummer';
 $string['invalidaccnum'] = 'Ongeldig rekeningnummer';
 $string['invalidacctype'] = 'Ongeldig accounttype';
+$string['isbusinesschecking'] = 'Wordt de onderneming gecontroleerd?';
 $string['logindesc'] = 'Deze optie moet AAN staan.<br /><br />
 Je kunt de optie <a href=\"$a->url\">loginhttps</a> instellen in de sectie Variablen/Veiligheid.
 <br /><br />
@@ -118,25 +125,89 @@ $string['mypaymentsonly'] = 'Toon alleen mijn betalingen';
 $string['nameoncard'] = 'naam op de kaart';
 $string['new'] = 'Nieuw';
 $string['noreturns'] = 'geen teruggave!';
+$string['notsettled'] = 'Niet betaald';
+$string['orderdetails'] = 'Details bestelling';
 $string['orderid'] = 'Bestelnummer';
 $string['paymentmanagement'] = 'Beheer betalingen';
 $string['paymentmethod'] = 'Betalingsmethode';
 $string['paymentpending'] = 'Je betaling voor deze cursus wordt verwerkt met dit bestelnummer: $a->orderid.';
+$string['pendingecheckemail'] = 'Beste manager,
+
+Er zijn nu $a->count wachtende echecks en je moet een CSV-bestand uploaden om de gebruikers aangemeld te krijgen.
+
+Volg de link en lees het helpbestand op pagina $a->url';
+$string['pendingechecksubject'] = '$a->course:; Wachtende eChecks ($a->count)';
+$string['pendingordersemail'] = 'Beste beheerder,
+
+$a->pending transacties voor cursus \"$a->course\" zullen vervallen tenzij je de betaling aanvaardt binnen $a->days dagen.
+
+Dit is een waarschuwing omdat je automatische aanvaarding niet ingeschakeld hebt. Dat betekent dat je de betalingen manueel moet aanvaarden of weigeren.
+
+Om betalingen te aanvaarden of te weigeren ga je naar $a->url
+
+Om automatische aanvaarding van betalingen in te schakelen ga je naar $a->enrolurl. Dat betekent dat je geen waarschuwings e-mails meer zult krijgen.';
+$string['pendingordersemailteacher'] = 'Beste leraar,
+
+$a->pending transacties voor de prijs van $a->currency $a->sumcost voor cursus \"$a->course\" zullen vervallen tenzij je de betaling binnen de $a->days dagen accepteerd.
+
+Je moet manueel betalingen accepteren en weigeren omdat de beheerder de automatische aanvaarding niet ingeschakeld heeft. 
+
+$a->url';
+$string['pendingorderssubject'] = 'WAARSCHUWING: $a->course, $a->pending bestelling(en) zullen vervallen binnen de $a->days dag(en)';
 $string['reason11'] = 'Deze transactie is dubbel ingestuurd';
+$string['reason13'] = 'De login ID van de handelaar is niet geldig of de account is niet actief.';
 $string['reason16'] = 'De transactie is niet gevonden';
+$string['reason17'] = 'De handelaar accepteert dit type kredietkaart niet.';
+$string['reason245'] = 'Dit type eCheck is niet toegelaten als je het betalingsformulier voor deze betalingsgateway gebruikt.';
+$string['reason246'] = 'Dit type eCheck is niet toegelaten';
+$string['reason27'] = 'De transactie resulteerde in een AVS-probleem. Het gegeven adres klopt niet met het adres van de kaarthouder.';
+$string['reason28'] = 'De handelaar accepteert dit type kredietkaart niet.';
+$string['reason30'] = 'De configuratie met de processor is niet geldig. Bel de Merchant Service Provider.';
+$string['reason39'] = 'De opgegeven munteenheidscode is ofwel niet geldig, niet ondersteund, niet toegelaten door deze handelaar of heeft geen wisselkoers.';
+$string['reason43'] = 'De handelaar is niet juist ingesteld bij de processor. Bel de Merchant Service Provider.';
+$string['reason44'] = 'De transactie is afgewezen. Kaart code filterfout!';
+$string['reason45'] = 'Deze transactie is afgewezen. Kaart code/AVS filterfout!';
+$string['reason47'] = 'Het opgevraagde betalingsbedrag mag niet groter zijn dan het toegestane bedrag.';
 $string['reason5'] = 'Geldig bedrag invullen';
+$string['reason50'] = 'De transactie wacht op betaling en kan niet teruggestort worden.';
+$string['reason51'] = 'De som van alle krediet tegenover deze transactie is groter dan de oorspronkelijke transactiehoeveelheid.';
+$string['reason54'] = 'De referentietransactie komt niet overeen met de criteria om een krediet op te vragen.';
+$string['reason55'] = 'De som van de kredieten tegenover de referentietransactie zou het oorspronkelijke debetbedrag overschrijden.';
+$string['reason56'] = 'De handelaar accepteert alleen eCheck (ACH)-transacties. Er worden geen kredietkaarten aanvaard.';
 $string['refund'] = 'Terugstorten';
 $string['refunded'] = 'Teruggestort';
+$string['returns'] = 'Teruggave';
 $string['reviewday'] = 'Vraag het kredietkaartnummer automatisch, tenzij een leraar of beheer de bestelling herziet binnen de <b>$a</b> dagen. CRON MOET INGESCHAKELD ZIJN.<br />
 <0 dagen = schakel automatisch vragen uit = leraar of beheerder herzien de bestelling manueel. De transactie zal niet doorgaan als je automatisch kredietkaart vragen uitschakelt tenzij je ze goedkeurt binnen de 30 dagen.)';
+$string['reviewfailed'] = 'Nakijken mislukt';
 $string['reviewnotify'] = 'Je betaling zal bekeken worden. Verwacht binnen enkele dagen een e-mail van je leraar.';
 $string['sendpaymentbutton'] = 'Stuur betaling';
+$string['settled'] = 'Betaald';
+$string['settlementdate'] = 'Betalingsdatum';
+$string['shopper'] = 'Klant';
+$string['subvoidyes'] = 'De teruggestortte transactie ($a->transid) gaat geannuleerd worden en dat zal het crediteren van $a->amount op jouw rekening veroorzaken. Ben je zeker?';
 $string['tested'] = 'Getest';
 $string['testmode'] = '[TESTMODUS]';
+$string['testwarning'] = 'Aanvaarden/weigeren/terugbetalen schijnt te werken in testmodus, maar er is geen enkele record geüpdated of toegevoegd aan de databank.';
 $string['transid'] = 'TransactieID';
+$string['underreview'] = 'Wordt nagekeken';
 $string['unenrolstudent'] = 'Leerling afmelden?';
 $string['uploadcsv'] = 'Upload een CSV-bestand';
+$string['usingccmethod'] = 'Gebruik van <a href=\"$a->url\"><strong>Credit Card</strong></a> voor aanmelding';
+$string['usingecheckmethod'] = 'Gebruik van <a href=\"$a->url\"><strong>eCheck</strong></a> voor aanmelding';
+$string['verifyaccount'] = 'Controleer je authorize.net handelaarsaccount';
+$string['verifyaccountresult'] = 'Verificatieresultaat: $a';
+$string['void'] = 'Geannuleerd';
 $string['voidyes'] = 'Transactie zal geannuleerd worden. Wil je dat echt?';
+$string['welcometocoursesemail'] = 'Beste $a->name,
+
+Bedankt voor je betaling. Je bent aangemeld in deze cursussen:
+
+$a->courses
+
+Je kunt je betalingsdetails bekijken of je profiel bewerken:
+$a->paymenturl
+$a->profileurl';
 $string['youcantdo'] = 'Deze actie kun je niet doen: $a->action';
 $string['zipcode'] = 'Postcode';
 

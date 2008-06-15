@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -28,6 +28,12 @@ $string['blockperiod'] = 'Blokkeertijd';
 $string['blockperioddisabled'] = 'Niet blokkeren';
 $string['bynameondate'] = 'door  $a->name  - $a->date';
 $string['cannotadddiscussion'] = 'Om discussies aan dit forum te kunnen toevoegen, moet je lid zijn van deze groep';
+$string['cannotadddiscussionall'] = 'Je hebt het recht niet om een nieuw discussieonderwerp te starten voor alle deelnemers.';
+$string['cannotaddsubscriber'] = 'Kon gebruiker met ID $a niet inschrijven voor het ontvangen van e-mail van dit forum!';
+$string['cannotfindorcreateforum'] = 'Kon geen nieuwforum maken of vinden voor deze site';
+$string['cannotinsertrate'] = 'Kon nieuwe beoordeling niet toevoegen ($a[0] = $a[1])';
+$string['cannotremovesubscriber'] = 'Kon gebruiker met ID $a niet uitschrijven voor het ontvangen van e-mail van dit forum!';
+$string['cannotupdaterate'] = 'Kon een vroegere beoordeling niet updaten ($a[0] = $a[1])';
 $string['cannotviewpostyet'] = 'Je kunt de vragen van andere leerlingen in deze discussie nog niet lezen, omdat je zelf nog niets gepost hebt';
 $string['cleanreadtime'] = 'Markeer oude berichten als gelezen';
 $string['configcleanreadtime'] = 'Het uur van de dag waarop oude berichten van de \'gelezen\'-tabel moeten verwijderd worden.';
@@ -122,6 +128,9 @@ $string['inforum'] = 'in $a';
 $string['intronews'] = 'Algemeen nieuws en aankondigingen';
 $string['introsocial'] = 'Een open forum om te chatten over wat je maar wilt';
 $string['introteacher'] = 'Een forum alleen bestemd voor discussies en aantekeningen van leraren';
+$string['invalidaccess'] = 'Deze pagina is niet correct opgevraagd';
+$string['invalidforumid'] = 'Forum ID was fout';
+$string['invalidpostid'] = 'Post ID $a was fout';
 $string['lastpost'] = 'Laatste bericht';
 $string['learningforums'] = 'Leerforums';
 $string['logblocked'] = 'Log geblokkeerde e-mails';
@@ -154,19 +163,25 @@ $string['newforumposts'] = 'Nieuwe forumberichten';
 $string['nodiscussions'] = 'Er zijn nog geen discussies in dit forum';
 $string['nodiscussionsstartedby'] = 'Deze gebruiker heeft nog geen discussies gestart';
 $string['noguestpost'] = 'Sorry, gasten mogen geen berichten posten';
+$string['noguestrate'] = 'Gasten mogen geen berichten beoordelen';
 $string['noguestsubscribe'] = 'Sorry, gasten mogen zich niet inschrijven om forumberichten via mail te kunnen ontvangen.';
 $string['noguesttracking'] = 'Sorry, gasten kunnen de instellingen voor het volgen van forumberichten niet wijzigen.';
 $string['nomorepostscontaining'] = 'Er zijn geen berichten met \'$a\' meer gevonden';
 $string['nonews'] = 'Er zijn nog geen nieuwsberichten';
+$string['nopermissiontosubscribe'] = 'Je hebt het recht niet te zien wie e-mail van dit forum ontvangt';
 $string['nopostforum'] = 'Sorry, je mag geen berichten posten in dit forum';
 $string['noposts'] = 'Geen berichten';
 $string['nopostscontaining'] = 'Er zijn geen berichten met \'$a\' gevonden';
 $string['noquestions'] = 'Er zijn nog geen vragen in dit forum';
+$string['norate'] = 'Beoordelen van berichten niet toegelaten!';
+$string['noresult'] = 'Geen beoordelingen voor dit bericht: $a';
 $string['nosubscribers'] = 'Niemand krijgt e-mail van dit forum';
 $string['nothingnew'] = 'Niets nieuw voor $a';
 $string['notingroup'] = 'Sorry, je moet bij een groep horen om dit forum te kunnen zien.';
 $string['notrackforum'] = 'Schakel volgen van ongelezen berichten uit';
+$string['noviewanyrate'] = 'Je kan alleen de beoordelingen zien van berichten die jij gepost hebt';
 $string['noviewdiscussionspermission'] = 'Je mag de discussies in dit forum niet zien';
+$string['noviewrate'] = 'Je hebt de mogelijkheid niet gekregen om beoordelingen van berichten te bekijken';
 $string['nowallsubscribed'] = 'Je krijgt mail van alle forums in $a';
 $string['nowallunsubscribed'] = 'Je krijgt van geen enkel forum in $a mail';
 $string['nownotsubscribed'] = '$a->name zal via e-mail GEEN bijdragen aan \'$a->forum\' ontvangen.';

@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 2.0 dev (2007101506)
+      // notes.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['addnewnote'] = 'Nieuwe notitie toevoegen';
 $string['addnewnoteselect'] = 'Selecteer leerlingen om een notitie over te schrijven';
 $string['bynameondate'] = 'op $a->name - $a->date';
+$string['cannotdeletepost'] = 'Fout opgetreden tijdens het verwijderen van het bericht';
 $string['content'] = 'Inhoud notitie';
 $string['course'] = 'cursus';
 $string['coursenotes'] = 'Cursusnotities';
@@ -13,8 +14,10 @@ $string['deleteconfirm'] = 'Deze notitie verwijderen?';
 $string['deletenotes'] = 'Verwijder alle notities';
 $string['editnote'] = 'Bewerk notitie';
 $string['groupaddnewnote'] = 'Nieuwe notitie voor iedereen toevoegen';
+$string['invalidid'] = 'Ongeldige notitie ID opgegeven';
 $string['nocontent'] = 'Een notitie kan niet leeg zijn';
 $string['nonotes'] = 'Er zijn geen notities';
+$string['nopermissiontodelete'] = 'Je mag deze notitie niet verwijderen';
 $string['note'] = 'Notitie';
 $string['notes'] = 'Notities';
 $string['notesnotvisible'] = 'Je mag geen notities zien';

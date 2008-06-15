@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['addresource'] = 'Bron toevoegen';
@@ -9,6 +9,7 @@ $string['autofilerename'] = 'Update link als bestand hernoemd wordt';
 $string['back'] = 'Terug';
 $string['blockdeletingfile'] = 'Blokkeer het verwijderen van bestanden waarnaar een link verwijst';
 $string['browserepository'] = 'Zoek in IMS-bibliotheek';
+$string['cannotupdate'] = 'Kan bron niet aanpassen';
 $string['choose'] = 'Kies';
 $string['chooseafile'] = 'Kies of upload een bestand';
 $string['chooseparameter'] = 'Kies parameter';
@@ -54,6 +55,8 @@ $string['framesize'] = 'Frame grootte';
 $string['fulltext'] = 'Volledige tekst';
 $string['htmlfragment'] = 'HTML-fragment';
 $string['imspackageloaded'] = 'Pakket geladen';
+$string['invalidassignment'] = 'foute toewijzing';
+$string['invalidid'] = 'Fout bron ID';
 $string['keepnavigationvisible'] = 'Hou de navigatie zichtbaar op dezelfde pagina';
 $string['localfile'] = 'Lokaal bestand';
 $string['localfilechoose'] = 'Kies een lokaal bestand (CD-ROM)';

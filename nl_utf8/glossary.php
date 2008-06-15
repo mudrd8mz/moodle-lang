@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (2007101506)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -22,9 +22,12 @@ $string['attachment'] = 'Bijlage';
 $string['author'] = 'Auteur';
 $string['authorview'] = 'Blader volgens auteur';
 $string['back'] = 'Terug';
+$string['cantexportentry'] = 'Kon dit item niet exporteren naar de hoofdwoordenlijst';
 $string['cantinsertcat'] = 'Kan geen categorie toevoegen';
+$string['cantinsertent'] = 'Kon dit nieuwe item niet toevoegen';
 $string['cantinsertrec'] = 'Kan geen record toevoegen';
 $string['cantinsertrel'] = 'Kan geen relatie tussen categorie en invoer toevoegen';
+$string['cantupdateglossary'] = 'Kon je woordenlijst niet updaten';
 $string['casesensitive'] = 'Dit woord is hoofdlettergevoelig';
 $string['cat'] = 'cat';
 $string['categories'] = 'Categorieën';
@@ -101,6 +104,7 @@ $string['entryupdated'] = 'Dit item is geüpdatet';
 $string['entryusedynalink'] = 'Dit item wordt<br />automatisch gelinkt';
 $string['errcannoteditothers'] = 'Je kunt de items van anderen niet bewerken';
 $string['errconceptalreadyexists'] = 'Dit item bestaat al. In deze woordenlijst mogen geen dubbels voorkomen.';
+$string['errdeltimeexpired'] = 'Je kunt dit niet verwijderen. Tijd verstreken!';
 $string['erredittimeexpired'] = 'De bewerktijd voor dit item is voorbij.';
 $string['errorparsingxml'] = 'Er zijn fouten opgetreden bij het verwerken van het bestand. Zorg ervoor dat de XML-syntax geldig is.';
 $string['explainaddentry'] = 'Voeg een nieuwe invoer toe in deze woordenlijst<br />Zowel concept als definitie moeten ingevuld worden.';
@@ -132,12 +136,14 @@ $string['glossary:viewrating'] = 'Beoordelingen bekijken';
 $string['glossary:write'] = 'Nieuwe items toevoegen';
 $string['glossaryleveldefaultsettings'] = 'Standaardinstellingen woordenlijst';
 $string['glossarytype'] = 'Type woordenlijst';
+$string['guestnoedit'] = 'Gasten mogen geen woordenlijsten bewerken';
 $string['importcategories'] = 'Importeer categorieën';
 $string['importedcategories'] = 'Geïmporteerde categorieën';
 $string['importedentries'] = 'Geïmporteerde invoer';
 $string['importentries'] = 'Importeer inhoud';
 $string['importentriesfromxml'] = 'Items importeren uit XML-bestand';
 $string['includegroupbreaks'] = 'Scheiding invoegen';
+$string['invalidid'] = 'Foute woordenlijst ID';
 $string['isglobal'] = 'Is dit een globale woordenlijst?';
 $string['letter'] = 'letter';
 $string['linkcategory'] = 'Link deze categorie automatisch';
@@ -155,6 +161,9 @@ $string['nocomments'] = '(geen commentaar gevonden voor dit item)';
 $string['noconceptfound'] = 'Geen concept of definitie gevonden.';
 $string['noentries'] = 'Geen items gevonden in dit deel';
 $string['noentry'] = 'Geen item gevonden';
+$string['nopermissiontodelcomment'] = 'Je kunt de commentaren van anderen niet verwijderen!';
+$string['nopermissiontodelinglossary'] = 'Je kunt geen commentaar toevoegen in deze woordenlijst!';
+$string['nopermissiontoviewresult'] = 'Je kunt alleen naar de beoordelingen van je eigen items kijken';
 $string['notcategorised'] = 'Niet gecategoriseerd';
 $string['numberofentries'] = 'Aantal items';
 $string['onebyline'] = '(één per lijn)';

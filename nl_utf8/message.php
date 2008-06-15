@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (2007101508.07)
+      // message.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
 $string['addcontact'] = 'Voeg contactpersoon toe';
@@ -18,6 +18,7 @@ $string['contactlistempty'] = 'Je lijst met contactpersonen is leeg';
 $string['contacts'] = 'Contactpersonen';
 $string['context'] = 'context';
 $string['deletemessagesdays'] = 'Aantal dagen voor oude boodschappen automatisch verwijderd worden';
+$string['disabled'] = 'De berichtenservice is uitgeschakeld op deze site';
 $string['discussion'] = 'Discussie';
 $string['emailmessages'] = 'Stuur berichten door als e-mail wanneer ik offline ben';
 $string['emailtagline'] = 'Deze e-mail is een kopie van een bericht dat naar jou gestuurd is op \"$a\"';

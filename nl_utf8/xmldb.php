@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (2007101504)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
 
 
+$string['actual'] = 'Actueel';
 $string['aftertable'] = 'Tabel resultaat:';
 $string['back'] = 'Terug';
 $string['backtomainview'] = 'Terug naar Hoofd';
@@ -10,13 +11,19 @@ $string['cannotuseidfield'] = 'Kan het \"id\"-veld niet invullen: dit is een aut
 $string['change'] = 'Wijzig';
 $string['charincorrectlength'] = 'Foute lengte voor char veld';
 $string['check_bigints'] = 'Zoek foute DB integers';
+$string['check_defaults'] = 'Zoek naar onconsistente standaardwaarden';
 $string['check_indexes'] = 'Zoek ontbrekende DB indexen';
 $string['checkbigints'] = 'Controleer Bigints';
+$string['checkdefaults'] = 'Controleer standaardwaarden';
 $string['checkindexes'] = 'Controleer indexen';
 $string['completelogbelow'] = '(complete log van zoeken onderaan)';
 $string['confirmcheckbigints'] = 'Deze functie zal zoeken naar <a href=\"http://tracker.moodle.org/browse/MDL-11038\"> mogelijk foute integer velden op je Moodle server, en hierbij automatisch de nodige SQL-statements genereren (maar niet uitvoeren!) om alle integer velden in je DB juist te zetten. Eens gegenereerd kun je die statements kopiëren en veilig uitvoeren in je favoriete SQL-interface<br /><br />
 Het is ten zeerste aangeraden de laatst beschikbare (+ versie) Moodleversie te gebruiken voor je zoekt naar foute integers.<br /><br />
 Deze functie schrijft niets weg in de databank (enkel lezen), en kan dus veilig uitgevoerd worden op elk moment.';
+$string['confirmcheckdefaults'] = 'Deze functie zoekt naar inconsistente standaardwaarden in je Moodleserver. De SQL-statements, nodig om de standaardwaarden juist te definiëren, worden daarbij gegenereerd (maar niet uitgevoerd!).<br /><br />
+Als die gegenereerd zijn, kun je ze uitvoeren in je favoriete SQL-interface (vergeet niet je databank te backuppen voor je dat doet).<br /><br />
+Het is ten zeerste aangeraden om de laatste beschikbare +-versie van je Moodleversie te gebruiken voor je gaatzoeken naar inconsistente standaardwaarden.<br /><br />
+Deze actie leest alleen je databank en kan dus altijd veilig uitgevoerd worden.';
 $string['confirmcheckindexes'] = 'Deze functie zal zoeken naar mogelijk ontbrekende indexen op je Moodle server, en hierbij automatisch de nodige SQL-statements genereren (maar niet uitvoeren!) om alles up to date te houden. Eens gegenereerd kun je die statements kopiëren en veilig uitvoeren in je favoriete SQL-interface<br /><br />
 Het is ten zeerste aangeraden de laatst beschikbare (+ versie) Moodleversie te gebruiken voor je zoekt naar ontbrekende indexen.<br /><br />
 Deze functie schrijft niets weg in de databank (enkel lezen), en kan dus veilig uitgevoerd worden op elk moment.';
@@ -52,6 +59,7 @@ $string['edit_statement'] = 'Bewerk stelling';
 $string['edit_table'] = 'Bewerk tabel';
 $string['edit_xml_file'] = 'Bewerk XML-bestand';
 $string['enumvaluesincorrect'] = 'Foute waarden voor enum veld';
+$string['expected'] = 'Verwacht';
 $string['field'] = 'Veld';
 $string['fieldnameempty'] = 'Naam veld leeg';
 $string['fields'] = 'Velden';
@@ -87,6 +95,7 @@ $string['newstatement'] = 'Nieuwe stelling';
 $string['newtable'] = 'Nieuwe tabel';
 $string['newtablefrommysql'] = 'Nieuwe tabel van MySQL';
 $string['nomissingindexesfound'] = 'Er zijn geen ontbrekende indexen gevonden, er moet niets aan je databank gewijzigd worden.';
+$string['nowrongdefaultsfound'] = 'Er werden geen inconsistente standaardwaarden gevonden; Je databank is in orde.';
 $string['nowrongintsfound'] = 'Geen foute integers gevonden - er is verder geen actie nodig.';
 $string['numberincorrectdecimals'] = 'Fout aantal deximalen voor numeriek veld';
 $string['numberincorrectlength'] = 'Foute lengte voor numeriek veld';
@@ -123,11 +132,14 @@ $string['vieworiginal'] = 'Bekijk origineel';
 $string['viewphpcode'] = 'Bekijk PHP code';
 $string['viewsqlcode'] = 'Bekijk SQL code';
 $string['wrong'] = 'Fout';
+$string['wrongdefaults'] = 'Verkeerde standaardwaarden gevonden';
 $string['wrongints'] = 'Foute integers gevonden';
 $string['wronglengthforenum'] = 'Lengte van enum veld fout';
 $string['wrongnumberoffieldsorvalues'] = 'Fout aantal velden of waarden in zin';
 $string['wrongreservedwords'] = 'Gebruikte gereserveerde woorden<br />(merk op dat tabelnamen niet belangrijk zijn als je *CFG->prefix gebruikt)';
 $string['yesmissingindexesfound'] = 'Er zijn ontbrekende indexen gevonden in je databank. Hier vind je de details en de nodige SQL-statements om uit te voeren in je favoriete SQL interface om de indexen aan te maken. <br /><br />Nadat je dit gedaan hebt, is het ten zeerste aangeraden deze functie nogmaals te laten lopen om te controleren of er niet meer ontbrekende indexen gevonden kunnen worden.';
+$string['yeswrongdefaultsfound'] = 'Er zijn inconsistenties gevonden in je databank. Hier zijn de juiste standaardwaarden en de nodige SQL-expressies om uit te voeren in je favoriete SQL-interface om ze allemaal te herstellen (vergeet niet je databank te backuppen voor je dddat doet).<br /><br />
+Daarna is het ten zeerste aangeraden om dit script nogmaals te laten lopen om te zoeken naar meer inconsistenties.';
 $string['yeswrongintsfound'] = 'Er zijn foute integers gevonden in je databank. Hier vind je de details en de nodige SQL-statements om uit te voeren in je favoriete SQL interface ze te herstellen. <br /><br />Nadat je dit gedaan hebt, is het ten zeerste aangeraden deze functie nogmaals te laten lopen om te controleren of er niet meer foute integers gevonden kunnen worden.';
 
 ?>
