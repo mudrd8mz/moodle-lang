@@ -351,6 +351,7 @@ $string['reportnotavailable'] = '사이트 수준의 강좌에서만 이 유형�
 $string['restricteduser'] = '죄송합니다. 현재 당신의 \"$a\" 계정으로는 그 일을 할 수 없습니다.';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses:<br/> ($a)';
 $string['scheduledbackupsdisabled'] = '자동 백업이 서버관리자에 의해 비활성화 되었습니다.';
+$string['secretalreadyused'] = '암호 변경 확인 링크가 이미 쓰였으므로 암호는 변경되지 않습니다.';
 $string['sectionnotexist'] = '영역이 존재하지 않음';
 $string['sendmessage'] = '메세지 보내기';
 $string['sessioncookiesdisable'] = 'require_key_login()의 사용이 바르지 않음 - 세션 쿠기를 비활성해야 함!';

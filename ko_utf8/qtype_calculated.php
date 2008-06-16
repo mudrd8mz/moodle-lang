@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9 dev (2007041800)
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['addmoreanswerblanks'] = '답안란 추가';
@@ -23,6 +23,8 @@ $string['nodataset'] = '없음 - 임의 자료가 아님';
 $string['nosharedwildcard'] = '범주내에 공유된 임의 문자가 없음';
 $string['possiblehdr'] = '문항의 지문에 있는 가능한 임의 카드 존재';
 $string['tolerance'] = '허용오차';
+$string['trueanswerinsidelimits'] = '맞은 답: $a->correct 은 정답 $a->true 의 오차범위에 들어 있음';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">정답 오류 : $a->correct 은 정답 $a->true 의 오차범위 밖에 있음</span>';
 $string['updatecategory'] = '범주 갱신';
 $string['usedinquestion'] = '질문에서 사용됨';
 $string['youmustenteramultiplierhere'] = '지수를 넣어야만 합니다.';

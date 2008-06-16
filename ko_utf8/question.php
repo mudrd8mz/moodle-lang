@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080603) (2008051202)
+      // question.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -66,6 +66,7 @@ $string['errormovingquestions'] = 'id $a 의 문항을 옮기는 중에 오류�
 $string['errorsavingcomment'] = '문항 $a->name 의 논평을 데이터베이스에 저장하던 중 오류발생';
 $string['errorupdatingattempt'] = '시도 $a->id 를 데이터베이스에 갱신하던 중 오류발생';
 $string['exportcategory'] = '범주 내보내기';
+$string['exporterror'] = '내보내는 중 오류 발생!';
 $string['filesareacourse'] = '강좌 파일 구역';
 $string['filesareasite'] = '사이트 파일 구역';
 $string['filestomove'] = '$a 로 이동/복사할까요?';
@@ -117,6 +118,7 @@ $string['questionbank'] = '문제은행';
 $string['questioncategory'] = '문항 범주';
 $string['questioncatsfor'] = '\'$a\'의 문항 범주';
 $string['questiondoesnotexist'] = '문항이 존재하지 않음';
+$string['questionsaveerror'] = '문항 ($a) 저장 중 오류 발생';
 $string['questionsmovedto'] = '사용중인 문항이 상위 강좌 범주의 \"$a\"로 이동됨';
 $string['questionsrescuedfrom'] = '$a 영역에서 문항 저장됨';
 $string['questionsrescuedfrominfo'] = '이 문항들은 (어떤 것들은 감추어져 있을지 모르지만) 다른 활동 또는 퀴즈에서 여전히 쓰이고 있기 때문에 비록 영역 $a 가 삭제됐다 하더라도 여전히 남아 있습니다.';
