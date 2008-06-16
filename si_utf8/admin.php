@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
 
 
 $string['accessdenied'] = 'පිවිසුම ප්‍රතික්ෂේපිතයි';
