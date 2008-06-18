@@ -1,5 +1,6 @@
 <?php // $Id$ 
 
+$string['autoscroll'] = 'Défilement automatique';
 $string['beep'] = 'bip';
 $string['cantlogin'] = 'Connexion iau salon de chat impossible&nbsp;!';
 $string['cantinsert'] = 'Impossible d\'ajouter un message dans le chat&nbsp;!';
