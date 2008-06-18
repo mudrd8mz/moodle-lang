@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
 
 
+$string['ajax'] = 'Ajax 사용판';
+$string['autoscroll'] = '자동 스크롤';
 $string['beep'] = '호출';
 $string['cantinsert'] = '대화 내용을 입력할 수 없음!';
 $string['cantlogin'] = '대화방에 입장할 수 없음!!';
@@ -65,6 +67,8 @@ $string['repeattimes'] = '반복 대화방';
 $string['repeatweekly'] = '매주 같은 시간에';
 $string['savemessages'] = '종료된 대화 저장';
 $string['seesession'] = '내용 보기';
+$string['send'] = '전송';
+$string['sending'] = '보내는 중';
 $string['serverhost'] = '서버 이름';
 $string['serverip'] = '서버 아이피';
 $string['servermax'] = '최대 참여자';
@@ -73,6 +77,7 @@ $string['sessions'] = '대화 세션';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = '종료된 대화 공개 여부';
 $string['updatemethod'] = '갱신 방법';
+$string['updaterate'] = '갱신율:';
 $string['viewreport'] = '지난 대화 보기';
 
 ?>
