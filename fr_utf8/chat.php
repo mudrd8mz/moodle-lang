@@ -1,5 +1,6 @@
 <?php // $Id$ 
 
+$string['ajax'] = 'Version Ajax';
 $string['autoscroll'] = 'Défilement automatique';
 $string['beep'] = 'bip';
 $string['cantlogin'] = 'Connexion iau salon de chat impossible&nbsp;!';
@@ -63,6 +64,8 @@ $string['repeattimes'] = 'Répéter les sessions';
 $string['repeatweekly'] = 'Chaque semaine à la même heure';
 $string['savemessages'] = 'Enregistrer les sessions précédentes';
 $string['seesession'] = 'Consulter cette session';
+$string['send'] = 'Envoyer';
+$string['sending'] = 'Envoi';
 $string['serverhost'] = 'Nom du serveur';
 $string['serverip'] = 'Adresse IP serveur';
 $string['servermax'] = 'Nombre max d\'utilisateurs';
@@ -71,6 +74,7 @@ $string['sessions'] = 'Sessions de chat';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Tout le monde peut consulter les sessions précédentes';
 $string['updatemethod'] = 'Méthode d\'actualisation';
+$string['updaterate'] = 'Modifier la vitesse&nbsp;: ';
 $string['viewreport'] = 'Afficher les sessions précédentes';
 
 ?>
