@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8.4+ (2007021541)
+      // editor.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['about'] = 'Editore honi buruz';
@@ -15,7 +15,7 @@ $string['baseline'] = 'Baseline';
 $string['bold'] = 'Lodia';
 $string['borderthickness'] = 'Ertzaren lodiera';
 $string['bottom'] = 'Beheko aldea';
-$string['browse'] = 'Nabigatu';
+$string['browse'] = 'Arakatu';
 $string['cancel'] = 'Utzi';
 $string['cellpadding'] = 'Gelaxken betegarria';
 $string['cellspacing'] = 'Gelaxka-tartea';
