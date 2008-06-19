@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // gradeimport_xml.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // gradeimport_xml.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['errbadxmlformat'] = 'Fehler: ungültiges XML-Format';
@@ -8,6 +8,7 @@ $string['errduplicateidnumber'] = 'Fehler: doppelte ID-Nummer';
 $string['errincorrectgradeidnumber'] = 'Fehler: Die ID-Nummer \'$a\' aus der Importdatei passt zu keinem Bewertungsaspekt.';
 $string['errincorrectidnumber'] = 'Fehler: ungültige ID-Nummer';
 $string['errincorrectuseridnumber'] = 'Fehler: Die ID-Nummer \'$a\' aus der Importdatei passt zu keinem Nutzer!';
+$string['error'] = 'Fehler aufgetreten';
 $string['fileurl'] = 'URL zu Remotedatei';
 $string['modulename'] = 'XML-Datei';
 $string['xml:publish'] = 'Aus XML Datei importierte Bewertungen veröffentlichen';

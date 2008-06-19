@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -261,13 +261,13 @@ $string['auth_shib_no_organizations_warning'] = 'Wenn Sie den integrierten WAYF 
 $string['auth_shib_only'] = 'nur Shibboleth';
 $string['auth_shib_only_description'] = 'Checken Sie diese Option, wenn eine Shibboleth-Authentifizierung bevorzugt wird.';
 $string['auth_shib_username_description'] = 'Name der Shibboleth Umgebungsvariable, die als Moodle-Nutzername verwandt werden soll';
-$string['auth_shibboleth_contact_administrator'] = 'Im Falle, dass Sie nicht mit der Organisation verbunden sind und dennoch einen Zugang zu einem Kurs auf diesem Server benötigen kontakten Sie bitte';
+$string['auth_shibboleth_contact_administrator'] = 'Falls Sie keiner der angegebenen Organisationen angehören und Zugang zu einem Kurs auf diesem Server benötigen, wenden Sie sich bitte an den';
 $string['auth_shibboleth_errormsg'] = 'Bitte wählen Sie die Organisation aus, bei der Sie Mitglied sind!';
 $string['auth_shibboleth_login'] = 'Shibboleth Login';
-$string['auth_shibboleth_login_long'] = 'Login für Moodle überShibboleth';
+$string['auth_shibboleth_login_long'] = 'Login für Moodle über Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Manueller Login';
 $string['auth_shibboleth_select_member'] = 'Ich bin Mitglied von ...';
-$string['auth_shibboleth_select_organization'] = 'Bei Authentifizierung überShibboleth wählen Sie bitte Ihre Organisation über die Dropdownliste aus.';
+$string['auth_shibboleth_select_organization'] = 'Wählen Sie bitte aus dem Aufklappmenü die Organisation aus, der Sie angehören:';
 $string['auth_shibbolethdescription'] = 'Mit diesem Verfahren können Sie die Verbindung zu einem bestehenden Shibboleth Server herstellen, um  Zugänge zu prüfen und anzulegen.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Cron-Synchronisierungsskript';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -293,8 +293,9 @@ $string['debugnormal'] = 'NORMAL: Fehler, Warnungen und Bemerkungen anzeigen';
 $string['debugsmtp'] = 'Debug E-Mail versenden';
 $string['defaultallowedmodules'] = 'Standardmäßig erlaubte Module';
 $string['defaultcourseroleid'] = 'Standardrolle für Nutzer/innen in einem Kurs';
+$string['defaulthtmleditor'] = 'Standard-HTML-Editor';
 $string['defaultrequestcategory'] = 'Kategorie für beantragte Kurse';
-$string['defaultsettinginfo'] = 'Default: $a';
+$string['defaultsettinginfo'] = 'Standard: $a';
 $string['defaultuserroleid'] = 'Standardrolle für alle Nutzer/innen';
 $string['defaultvalues'] = 'Standardwerte';
 $string['deleteerrors'] = 'Fehler löschen';
@@ -398,6 +399,7 @@ $string['hidefromall'] = 'Für alle verbergen';
 $string['hidefromnone'] = 'Für niemanden verbergen';
 $string['hidefromstudents'] = 'Für Teilnehmer/innen verbergen';
 $string['htmleditor'] = 'HTML-Editor';
+$string['htmleditorsettings'] = 'Einstellungen für den HTML-Editor';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP-Sicherheit';
 $string['iconvrecommended'] = 'Die Installation der ICONV Bibliothek wird zur Leistungsverbesserung dringend empfohlen. Dies ist besonders wichtig, wenn Sie Sprachen mit anderen als lateinischen Zeichensätzen verwenden.';

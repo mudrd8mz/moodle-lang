@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // error.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadministrator kann nicht von anderen bearbeitet werden';
@@ -55,13 +55,17 @@ $string['cannotfindhelp'] = 'Die Hilfedateien zum Sprachpaket \"$a\" können nic
 $string['cannotfindinfo'] = 'Informationen zu \"$a\" können nicht gefunden werden';
 $string['cannotfindlang'] = 'Das Sprachpaket \"$a\" können nicht gefunden werden!';
 $string['cannotfindteacher'] = 'Kein Trainer gefunden!';
+$string['cannotfinduser'] = 'Nutzer \'$a\' nicht gefunden';
 $string['cannotgetblock'] = 'Blöcke konnten nicht aus der Datenbank abgerufen werden.';
 $string['cannotgetcats'] = 'Fehler beim Lesen des Datensatzes für den Kursbereich';
+$string['cannotgetdata'] = 'Daten nicht gefunden';
 $string['cannotgradeuser'] = 'Diese Nutzer/in kann nicht bewertet werden';
 $string['cannothaveparentcate'] = 'Der Kursbereich kann keinen übergeordneten Kursbereich besitzen!';
+$string['cannotimport'] = 'Importfehler';
 $string['cannotimportformat'] = 'Entschuldigung, aber ein solches Importformat ist bisher nicht implementiert!';
 $string['cannotimportgrade'] = 'Importfehler für die Bewertung';
 $string['cannotinitpage'] = 'Die Seite kann nicht initialisiert werden. Kurs-ID: $a';
+$string['cannotinsertcomment'] = 'Neuer Kommentar konnte nicht eingefügt werden.';
 $string['cannotinsertgrade'] = 'Es konnte keine Bewertung ohne Kurs-ID angelegt werden.';
 $string['cannotinsertkey'] = 'Neuer Schlüssel kann nicht eingetragen werden';
 $string['cannotinsertrecord'] = 'Neuer Datensatz ID $a konnte nicht eingetragen werden.';
@@ -177,7 +181,7 @@ $string['invalidaction'] = 'Ungültiger Aktionsparameter';
 $string['invalidargorconf'] = 'Keine gültigen Argumente angegeben oder falsche Server-Konfiguration';
 $string['invalidarguments'] = 'Keine gültigen Argumente angegeben';
 $string['invalidblockinstance'] = 'Ungültige Block-Instanz: $a';
-$string['invalidcategory'] = 'Falsche Kursbereichs-ID!';
+$string['invalidcategory'] = 'Falscher Kursbereich!';
 $string['invalidcontext'] = 'Ungültiger Kontext';
 $string['invalidcourse'] = 'Ungültiger Kurs';
 $string['invalidcourseid'] = 'Sie versuchen, eine ungültige Kurs-ID zu benutzen ($a)';

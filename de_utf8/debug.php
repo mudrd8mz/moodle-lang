@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['authpluginnotfound'] = 'Plugin $a zur Authentifierung nicht gefunden';
@@ -9,6 +9,7 @@ $string['cannotdowngrade'] = 'Ein Downgrade von $a[0] nach $a[1] ist nicht mögl
 $string['cannotfindadmin'] = 'Es konnte kein Admin-Nutzer gefunden werden!';
 $string['cannotinitpage'] = 'Die Seite konnte nicht vollständig initialisiert werden. Ungültige $a[0]-ID $a[1]';
 $string['cannotsetupsite'] = 'Schwerwiegender Fehler: Die Website konnte nicht eingerichtet werden!';
+$string['cannotsetuptable'] = '$a Tabellen konnten nicht erfolgreich erstellt werden!';
 $string['cannotupdaterelease'] = 'Fehler: Die Release-Version der Datenbank konnte nicht aktualisiert werden!';
 $string['cannotupdateversion'] = 'Die Aktualisierung ist fehlgeschlagen! In der Konfigurationstabelle konnte die Version nicht aktualisiert werden.';
 $string['cannotupgradecapabilities'] = 'Es sind Schwierigkeiten bei der Aktualisierung der Kernregeln für das Rollensystem aufgetreten.';
@@ -23,6 +24,7 @@ $string['erroroccur'] = 'Ein Fehler ist während des Vorgangs aufgetreten.';
 $string['fixsetting'] = 'Bitte korrigieren Sie die Einstellungen in der Datei config.php: <p>Aktuell vorhanden: </p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>aber das sollte geändert werden in: </p> <p>$CFG->dirroot = \"$a[1]\"</p>';
 $string['invalidarraysize'] = 'Falsche Feldgröße bei den Einstellungen von $a';
 $string['invalideventdata'] = 'Falscher Kalendereintrag übermittelt: $a';
+$string['modulenotexist'] = 'Modul $a existiert nicht';
 $string['morethanonerecordinfetch'] = 'Mehr als einen Datensatz in  fetch() gefunden!';
 $string['mustbeoveride'] = 'Die Methode $a muss außer Kraft gesetzt werden.';
 $string['noactivityname'] = 'Seitenobjekt von page_generic_activity legte keine $this->activityname Bezeichung fest.';

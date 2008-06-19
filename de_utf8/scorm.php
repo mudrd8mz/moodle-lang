@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['activation'] = 'Aktivierung';
@@ -19,6 +19,7 @@ $string['browse'] = 'Vorschau';
 $string['browsed'] = 'Durchsucht';
 $string['browsemode'] = 'Vorschaumodus';
 $string['browserepository'] = 'Repository durchsuchen';
+$string['cannotfindsco'] = 'SCO konnte nicht gefunden werden';
 $string['chooseapacket'] = 'Auswählen/aktualisieren eines Pakets';
 $string['completed'] = 'Abgeschlossen';
 $string['confirmloosetracks'] = 'Warnung: Das Lernpaket scheint verändert worden zu sein. Evtl. ist die Paketstruktur geändert worden. Beim Update könnten Protokolldaten der Nutzer/innen verloren gehen.';
@@ -67,6 +68,7 @@ $string['iframe'] = 'In aktuellem Fenster';
 $string['iframedisplay'] = 'Lernobjekt in aktuellen Fenster öffnen';
 $string['incomplete'] = 'Unvollständig';
 $string['interactions'] = 'Interaktionen';
+$string['invalidactivity'] = 'Aktivität im Lernpaket ist falsch';
 $string['last'] = 'Letzter Versuch am';
 $string['lastaccess'] = 'Letzter Versuch';
 $string['lastattempt'] = 'Letzter Versuch';

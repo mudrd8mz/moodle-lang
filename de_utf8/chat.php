@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['beep'] = 'Signal';
+$string['cantinsert'] = 'Die Chat-Nachricht konnte nicht eingefügt werden!';
+$string['cantlogin'] = 'DIe Chat-Anmeldung ist fehlgeschlagen!!';
 $string['chat:chat'] = 'An einem Chat teilnehmen';
 $string['chat:deletelog'] = 'Logdaten eines Chats löschen';
 $string['chat:readlog'] = 'Logdaten eines Chats sehen';
@@ -32,6 +34,7 @@ $string['explainmethodnormal'] = 'Diese Einstellungen sind <strong>nur erforderl
 $string['generalconfig'] = 'Grundeinstellungen';
 $string['helpchatting'] = 'Hilfe beim Chatten';
 $string['idle'] = 'Leerlauf';
+$string['invalidid'] = 'Dieser Chat-Raum konnte nicht gefunden werden!';
 $string['messagebeepseveryone'] = '$a piepst jeden an!';
 $string['messagebeepsyou'] = '$a hat Sie angepiepst!';
 $string['messageenter'] = '$a hat den Chat gerade betreten';
@@ -44,11 +47,13 @@ $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chats';
 $string['neverdeletemessages'] = 'Mitteilungen nie löschen';
 $string['nextsession'] = 'Nächste geplante Sitzung';
+$string['nochat'] = 'Kein Chat gefunden';
 $string['noguests'] = 'Der Chat ist für Gäste nicht zugänglich';
 $string['nomessages'] = 'Bisher keine Nachrichten';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Kein Termin vorgesehen';
+$string['notlogged'] = 'Nicht angemeldet!';
 $string['oldping'] = 'Timeout für Trennung';
 $string['pastchats'] = 'Vorherige Chat-Sitzungen';
 $string['refreshroom'] = 'Aktualisierung Raum';

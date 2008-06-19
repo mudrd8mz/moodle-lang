@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['action'] = '-- Aktion --';
@@ -17,6 +17,8 @@ $string['binimgtoolarge'] = 'Bilddatei ist zu groß!';
 $string['binnoimg'] = 'Dieses Dateiformat kann nicht verarbeitet werden!';
 $string['browse'] = 'Durchsuchen';
 $string['canceledit'] = 'Abbrechen';
+$string['cannotacceptbin'] = 'Dieses Wiki erlaubt keine Binärdateien';
+$string['cannotaddentry'] = 'Wiki-Eintrag konnte nicht hinzugefügt werden';
 $string['cannotchangepage'] = 'Diese Seite kann nicht bearbeitet werden.';
 $string['changes'] = '$a Veränderungen';
 $string['changesfield'] = 'Zeit seit der letzten Änderung in Stunden';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -9,6 +9,7 @@ $string['autofilerename'] = 'Link beim Umbenennen der Datei aktualisieren';
 $string['back'] = 'Zurück';
 $string['blockdeletingfile'] = 'Löschen der zugeordneten Dateien unterbinden';
 $string['browserepository'] = 'Repository durchsuchen';
+$string['cannotupdate'] = 'Arbeitsmaterial kann nicht aktualisiert werden';
 $string['choose'] = 'Auswählen';
 $string['chooseafile'] = 'Datei wählen oder neu hochladen';
 $string['chooseparameter'] = 'Parameter auswählen';
@@ -54,6 +55,8 @@ $string['framesize'] = 'Frame-Größe';
 $string['fulltext'] = 'Text-/Webseite';
 $string['htmlfragment'] = 'HTML-Teil';
 $string['imspackageloaded'] = 'Paket geladen';
+$string['invalidassignment'] = 'Falsche Zuordnung';
+$string['invalidid'] = 'Falsche Material-ID';
 $string['keepnavigationvisible'] = 'Seitennavigation auf der gleichen Seite sichtbar lassen.';
 $string['localfile'] = 'Lokale Datei';
 $string['localfilechoose'] = 'Wählen Sie eine lokale Datei aus (z.B. CD-ROM Laufwerk)';

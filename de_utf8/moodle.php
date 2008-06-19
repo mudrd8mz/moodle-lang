@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -1316,7 +1316,7 @@ $string['selectnos'] = '\'Nein\' für alle auswählen';
 $string['selectperiod'] = 'Zeitraum auswählen';
 $string['senddetails'] = 'Meine Daten per E-Mail zusenden';
 $string['separate'] = 'Getrennt';
-$string['separateandconnected'] = 'Getrennte und gemeinsame Art des Wissens??';
+$string['separateandconnected'] = 'Anwendung von Einzelfakten oder ganzheitliche Wissensnutzung';
 $string['serverlocaltime'] = 'Lokale Serverzeit';
 $string['setcategorytheme'] = 'Kategoriendesign festlegen';
 $string['settings'] = 'Einstellungen';

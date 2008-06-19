@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta + (2007100903)
+      // message.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['addcontact'] = 'Kontakt hinzufügen';
@@ -18,6 +18,7 @@ $string['contactlistempty'] = 'Ihre Kontaktliste ist zur Zeit noch leer.';
 $string['contacts'] = 'Kontakte';
 $string['context'] = 'Kontext';
 $string['deletemessagesdays'] = 'Dauer (in Tagen), bis alte Mitteilungen automatisch gelöscht werden';
+$string['disabled'] = 'Bei dieser Website sind die Mitteilungen deaktiviert';
 $string['discussion'] = 'Diskussion';
 $string['emailmessages'] = 'Mitteilungen per E-Mail versenden, wenn ich offline bin';
 $string['emailtagline'] = 'Diese E-Mail ist eine Kopie der Mitteilungen, die Sie an \"$a\" geschickt haben';

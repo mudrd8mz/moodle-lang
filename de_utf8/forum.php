@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -63,8 +63,8 @@ $string['digestmailheader'] = 'Dies ist die tägliche Zusammenfassung (Digest) d
 $string['digestmailprefs'] = 'Ihr Profil';
 $string['digestmailsubject'] = '$a: Zusammenfassung der Foren';
 $string['digestsentusers'] = 'Die E-Mail-Zusammenfassung wurde erfolgreich an $a Teilnehmer/innen versandt.';
-$string['disallowsubscribe'] = 'Einträge nicht zugelassen';
-$string['disallowsubscribeteacher'] = 'Einträge nur für Trainer/innen zulässig';
+$string['disallowsubscribe'] = 'Das Abonnieren des Forums ist nicht zugelassen';
+$string['disallowsubscribeteacher'] = 'Abonnements nur für Trainer/innen zulässig';
 $string['discussion'] = 'Thema';
 $string['discussionmoved'] = 'Dieses Thema wurde nach \'$a\' verschoben.';
 $string['discussionmovedpost'] = 'Dieses Thema wurde verschoben nach <a href=\"$a->discusshref\">hier</a> ins Forum <a href=\"$a->forumhref\">$a->forumname</a>';
@@ -206,9 +206,9 @@ $string['postincontext'] = 'Diskussion im Forum zeigen';
 $string['postmailinfo'] = 'Hiermit erhalten Sie die Kopie einer Mitteilung, die auf der Webseite $a eingetragen wurde.
 Um darauf zu antworten, folgen Sie bitte diesem Link:';
 $string['postmailnow'] = '<p>Dieser Beitrag wird direkt an alle eingetragenen Abonnent/innen dieses Forums versandt.</p>';
-$string['postrating1'] = 'Vor allem abgelöstes Verständnis';
-$string['postrating2'] = 'Integratives Verständnis';
-$string['postrating3'] = 'Vor allem gebundenes Verständnis';
+$string['postrating1'] = 'Nutzt Wissen über einzelne Fakten';
+$string['postrating2'] = 'Reflektiert das Wissen in Einzelfällen';
+$string['postrating3'] = 'Berücksichtigt den Gesamtzusammenhang und wägt Fakten ab';
 $string['posts'] = 'Beiträge';
 $string['posttoforum'] = 'Beitrag absenden';
 $string['postupdated'] = 'Ihr Beitrag wurde aktualisiert';
