@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // question.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
@@ -11,26 +11,40 @@ $string['cannotcreate'] = 'Es konnte kein Eintrag in der Datenbanktabelle für T
 $string['cannotcreatedataset'] = 'Der Datensatz $a kann nicht angelegt werden';
 $string['cannotcreaterelation'] = 'Eine Verbindung zum den Datensatz $a[0] $a[1] kann nicht angelegt werden';
 $string['cannotfindquestionfile'] = 'Die Fragendaten konnten nicht in der ZIP-Datei gefunden werden';
+$string['cannotgetdsfordependent'] = 'Für diese datensetabhängige Frage kann das gewählte Datenset nicht aufgerufen werden! (Frage {$a[0]}, Datensetwert: {$a[1]})';
+$string['cannotgetdsforquestion'] = 'Ausgewähltes Datenset für berechnete Fragen nicht gefunden! (Frage:{$a})';
 $string['cannotinsert'] = 'Es konnte kein Eintrag in question_sessions erstellt werden.';
+$string['cannotinsertitem'] = 'Datenset konnte nicht eingefügt werden: $a[0] mit $a[1] von $a[2]';
 $string['cannotinsertquestion'] = 'Die neue Frage konnte nicht eingefügt werden!';
+$string['cannotinsertquestioncate'] = 'Neue Fragenkategorie $a nicht eingefügt';
+$string['cannotinsertquestioncatecontext'] = 'Neue Fragenkategorie $a[0] nicht eingefügt: ungültige Kontext-ID $a[1}';
+$string['cannotmovecate'] = 'Kategorie $a nicht verschiebbar. Es ist die einzige in diesem Kontext.';
+$string['cannotmovefromto'] = 'Kategorie $a[0] konnte nicht nach $a[1] verschoben werden.';
+$string['cannotmovequestion'] = 'Mit dieser Funktionen können Sie keine Fragen verschieben in denen Dateien (Bilder) aus verschiedenen Bereichen eingebunden sind.';
+$string['cannotretrieveqcat'] = 'Fragekategorie konnte nicht aufgerufen werden';
 $string['cannotsavequiz'] = 'Der letzte Testversuch konnte nicht gespeichert werden!';
 $string['cannotunzip'] = 'Die Datei konnte nicht entpackt werden.';
 $string['cannotupdatecate'] = 'Die Kategorie $a konnte nicht aktualisiert werden';
+$string['cannotupdatecount'] = 'Fehler: Zähler für Wert nicht aktualisiert';
+$string['cannotupdateitem'] = 'Fehler: Datensetwert nicht aktualisiert';
 $string['cannotupdatequestion'] = 'Die Frage konnte nicht aktualisiert werden!';
 $string['cannotupdatequestionver'] = 'Das Versionsfeld der Frage konnte nicht aktualisiert werden';
+$string['cannotupdaterandomqname'] = 'Name der Zufallsfrage nicht aktualisiert';
+$string['cannotupdatesubcate'] = 'Unterkategorie nicht aktualisiert';
 $string['cannotwriteto'] = 'Die exportierten Fragen können nicht nach \"$a\" gespeichert werden';
 $string['categorycurrent'] = 'Aktuelle Kategorie';
 $string['categorycurrentuse'] = 'Diese Kategorie benutzen';
 $string['categorydoesnotexist'] = 'Diese Kategorie gibt es nicht';
 $string['categorymoveto'] = 'In der Kategorie sichern';
 $string['changepublishstatuscat'] = 'Die <a href=\"$a->caturl\">Kategorie \"$a->name\"</a> im Kurs \"$a->coursename\" wird ihren Freigabestatus von <strong>$a->changefrom nach $a->changeto</strong> ändern.';
+$string['contexterror'] = 'Diese Seite sollte nur angezeigt werden, wenn eine Kategorie in einen anderen Kontext verschoben wird.';
 $string['copy'] = 'Aus $a kopieren und Links ändern.';
 $string['created'] = 'Erstellt';
 $string['createdmodifiedheader'] = 'Erstellt / Verändert';
 $string['cwrqpfs'] = 'Zufallsfragen, die Fragen aus der Unterkategorie auswählen.';
 $string['cwrqpfsinfo'] = '<p>Beim Update auf Moodle 1.9 werden Kategorien, in denen Fragen abgelegt wurden, unterschiedlichen Kontexten zugeordnet. Bei einigen Kategorien kann es vorkommen, dass der Status der Freigabe dabei angepasst werden muss. Dies ist in dem seltenen Fall erforderlich, dass Sie die Funktion zufällig ausgewählte Fragen verwenden und die Kategorien, in denen die Fragen liegen, auf unterschiedlichen Hierarchieebenen unterschiedliche Freigabewerte haben.</p>
 <p>In den folgenden Fragenkategorien wurde der Freigabestatus so angepasst, dass die übergeordnete Kategorie den gleichen Status erhält wie die Kategorie, in der Fragen zur Zufallsauswahl abgelegt sind. Die von dieser Änderung betroffenen Fragen können wie bisher in allen Tests weiter genutzt werden, bis sie aus den Tests entfernt werden.</p>';
-$string['cwrqpfsnoprob'] = 'Es sind keine Fragenkategorien von der Funktion \"Zufallsfragenauswahl aus untergeordnete Kategorien\" betroffen.';
+$string['cwrqpfsnoprob'] = 'Es sind keine Fragekategorien von der Funktion \"Zufallsfragenauswahl aus untergeordnete Kategorien\" betroffen.';
 $string['defaultfor'] = 'Standard für $a';
 $string['defaultinfofor'] = 'Standardkategorie für Fragen, die im Kontext \'$a\' freigegeben sind.';
 $string['deletecoursecategorywithquestions'] = 'In dieser Kurskategorie sind Fragen in der Testfragendatenbank hinterlegt. Wenn Sie nun fortfahren, werden diese gelöscht. Über die Testfragenverwaltung können diese  von Ihnen verschoben werden.';
@@ -50,8 +64,9 @@ $string['errorfileschanged'] = 'Die von einigen Fragen verlinkten Fehlerdateien 
 $string['errormanualgradeoutofrange'] = 'Die Bewertung $a->grade für die Frage $a->name liegt nicht zwischen \'0\' und $a->maxgrade. Punkte und Kommentare wurde nicht gespeichert.';
 $string['errormovingquestions'] = 'Fehler beim Verschieben von Fragen mit Ids $a.';
 $string['errorsavingcomment'] = 'Fehler beim Speichern des Kommentars für Frage $a->name.';
-$string['errorupdatingattempt'] = 'Fehler beim Speichern des Kommentars zu frage $a->id in der Datenbank.';
+$string['errorupdatingattempt'] = 'Fehler beim Speichern des Kommentars zu Frage $a->id in der Datenbank.';
 $string['exportcategory'] = 'Kategorie exportieren';
+$string['exporterror'] = 'Fehler beim Export aufgetreten!';
 $string['filesareacourse'] = 'Dateibereich im Kurs';
 $string['filesareasite'] = 'Dateibereich der Website';
 $string['filestomove'] = 'Dateien nach $a kopieren / verschieben?';
@@ -60,13 +75,17 @@ $string['fractionsnomax'] = 'Eine der Antworten sollte mit 100%% bewertet werden
 $string['getcategoryfromfile'] = 'Kategorie aus Datei holen';
 $string['getcontextfromfile'] = 'Kontext aus Datei holen';
 $string['ignorebroken'] = 'Ungültige Links ignorieren';
+$string['impossiblechar'] = 'Unzulässiges Zeichen ($a) innerhalb der Klammern entdeckt';
 $string['invalidcategoryidforparent'] = 'Ungültige Kategorien ID für übergeordnete Ebene';
-$string['invalidcategoryidtomove'] = 'Ungültige Kategorien ID beim verschieben';
+$string['invalidcategoryidtomove'] = 'Ungültige Kategorien ID beim Verschieben';
 $string['invalidcontextinhasanyquestions'] = 'Ungültiger Kontext für question_context_has_any_questions.';
+$string['invalidwizardpage'] = 'Falsche oder keine Seite festgelegt!';
 $string['linkedfiledoesntexist'] = 'Verbundene Datei $a existiert nicht';
 $string['makechildof'] = 'Unterkategorie  von \'$a\' erzeugen';
 $string['maketoplevelitem'] = 'Nach ganz oben bewegen';
+$string['missingcourseorcmid'] = 'courseid oder cmid muss für print_question  angegeben werden';
 $string['missingimportantcode'] = 'Für diesem Fragentyp fehlt wichtiger Code: $a.';
+$string['missingoption'] = 'In der Lückentextfrage $a fehlen Optionen.';
 $string['modified'] = 'Verändert';
 $string['move'] = 'Aus $a verschieben und Links ändern.';
 $string['movecategory'] = 'Kategorie verschieben';
@@ -86,6 +105,7 @@ $string['nopermissionadd'] = 'Sie haben keine Berechtigung, um hier Fragen hinzu
 $string['noprobs'] = 'Es wurden keine Probleme in Ihrer Fragen-Datenbank gefunden.';
 $string['notenoughdatatoeditaquestion'] = 'Weder eine Frage-ID, noch Kategorie-ID oder Fragetyp sind angegeben.';
 $string['notenoughdatatomovequestions'] = 'Sie müssen die Frage-ID der Fragen angeben, die Sie verschieben wollen.';
+$string['novirtualquestiontype'] = 'Kein virtueller Fragetyp für Fragetyp $a vorhanfden';
 $string['parenthesisinproperclose'] = 'Die Klammer vor ** ist nicht richtig geschlossen bei $a**';
 $string['parenthesisinproperstart'] = 'Die Klammer vor ** ist nicht richtig geöffnet bei $a**';
 $string['permissionedit'] = 'Diese Frage bearbeiten';
@@ -98,6 +118,7 @@ $string['questionbank'] = 'Fragenliste';
 $string['questioncategory'] = 'Fragenkategorie';
 $string['questioncatsfor'] = 'Fragenkategorien für \'$a\'';
 $string['questiondoesnotexist'] = 'Diese Frage gibt es nicht';
+$string['questionsaveerror'] = 'Fehler beim Speichern der Frage aufgetreten - ($a)';
 $string['questionsmovedto'] = 'In Gebrauch befindliche Fragen wurden nach \"$a\" in der Kategorie verschoben.';
 $string['questionsrescuedfrom'] = 'Fragen aus Kontext $a gespeichert.';
 $string['questionsrescuedfrominfo'] = 'Diese Fragen (einige mögen verborgen sein)  wurden gespeichert als der Kontext $a gelöscht wurde, da sie in Tests oder anderen Aktivitäten in Gebrauch sind.';
@@ -110,5 +131,6 @@ $string['unknownquestiontype'] = 'Unbekannter Fragentyp: $a';
 $string['unknowntolerance'] = 'Unbekannter Toleranztyp: $a';
 $string['unpublished'] = 'Nicht freigegeben';
 $string['wrongprefix'] = 'Falsch formatiertes Präfix-Wort';
+$string['novirtualquestion'] = 'Für den Fragetyp $a wurde kein virtueller Fragetyp gefunden.'; // ORPHANED
 
 ?>
