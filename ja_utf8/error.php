@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // error.php - created with Moodle 2.0 dev (Build: 20080615) (2008051203)
 
 
 $string['adminprimarynoedit'] = '主管理者は他のユーザから編集することはできません。';
@@ -88,7 +88,6 @@ $string['cannotmetacourse'] = '選択したコースを、このメタコース�
 $string['cannotmodulename'] = 'ビルドナビゲーションでモジュール名を取得できません。';
 $string['cannotmoduletype'] = 'ビルドナビゲーションでモジュールタイプを取得できません。';
 $string['cannotmoverolewithid'] = 'ID $a のロールを移動できません。';
-$string['cannotmovezip'] = 'ZIPファイルを移動できません。';
 $string['cannotnetgeo'] = 'http://netgeo.caida.orgのNetGeoサーバに接続できません。プロクシ設定およびMaxMind GeoLite Cityデータファイルのインストールを確認してください。';
 $string['cannotopencsv'] = 'CSVファイルをオープンできません。';
 $string['cannotopenfile'] = 'ファイル「 $a 」をオープンできません。';
@@ -417,6 +416,7 @@ $string['wrongsourcebase'] = 'ソースURIベースが正しくありません�
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
+$string['cannotmovezip'] = 'ZIPファイルを移動できません。'; // TBD
 $string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; // TBD
 
 ?>

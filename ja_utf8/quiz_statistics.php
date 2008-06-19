@@ -22,6 +22,7 @@ $string['kurtosis'] = '評点分布の尖度';
 $string['median'] = '評点の中央値';
 $string['noofallattempts'] = '合計受験数';
 $string['nooffirstattempts'] = '最初の受験数';
+$string['nostudentsingroup'] = 'このグループには、まだ学生が登録されていません。';
 $string['questionnumber'] = '問題#';
 $string['questiontype'] = '問題タイプ';
 $string['quizinformation'] = '小テスト情報';
