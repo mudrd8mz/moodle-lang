@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080620) (2008051203)
 
 
 $string['allattempts'] = 'すべての受験を表示する';
@@ -16,7 +16,7 @@ $string['optallstudents'] = 'すべての「 $a 」';
 $string['optattemptsonly'] = '受験した「 $a 」のみ';
 $string['optnoattemptsonly'] = '未受験の「 $a 」のみ';
 $string['optonlygradedattempts'] = '各ユーザの評定された受験のみ表示する ($a)';
-$string['overview'] = '概要';
+$string['overview'] = '評定';
 $string['overviewdownload'] = '概要のダウンロード';
 $string['overviewreportgraph'] = '到達した評点の範囲に関する学生数の棒グラフ';
 $string['pagesize'] = 'ページサイズ';

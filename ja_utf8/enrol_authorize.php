@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080620) (2008051203)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -52,6 +52,7 @@ $string['authcode'] = '認証コード';
 $string['authorize:managepayments'] = '支払いを管理する';
 $string['authorize:uploadcsv'] = 'CSVファイルをアップロードする';
 $string['authorizedpendingcapture'] = '認証完了 / キャプチャ保留';
+$string['authorizeerror'] = 'Authorize.netエラー: $a';
 $string['avsa'] = '住所は合致しますが、郵便番号が合致しません。';
 $string['avsb'] = '住所情報が入力されていません。';
 $string['avse'] = '住所確認システムエラー';

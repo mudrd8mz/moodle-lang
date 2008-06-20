@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080615) (2008051203)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080620) (2008051203)
 
 
 $string['allattempts'] = 'すべての受験';
@@ -33,7 +33,7 @@ $string['random_guess_score'] = '当てずっぽうの評点';
 $string['skewness'] = '評点分布の歪み';
 $string['standarddeviation'] = '標準偏差';
 $string['standarderror'] = '標準誤差';
-$string['statistics'] = '小テスト統計';
+$string['statistics'] = '統計';
 $string['statsfor'] = '統計 ($a)';
 $string['statsforallattempts'] = 'すべての受験の統計'; // TBD
 $string['statsforfirstattempts'] = '最初の受験の統計'; // TBD
