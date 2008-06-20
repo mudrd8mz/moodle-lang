@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (2007101508)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080620) (2008051203)
 
 
 $string['adminacceptccs'] = '어떤 유형의 카드가 가능합니까?';
@@ -35,7 +35,7 @@ $string['adminneworder'] = '관리자님께,
 만일 자동 징수가 활성화되어 있다면, 신용카드로부터 $a->captureon 에 징수될 것이며 학생은 강좌에 등록될 수 있을 것입니다. 그렇지 않으면  $a->expireon 에 실효될 것이고 이 날 이후로는 징수될 수 없습니다.
 
 당신은 $a->url 에서 학생들 등록시키기 위하여 지불을 승인하거나 거부할 수 있습니다.';
-$string['adminnewordersubject'] = '$a->course;새로운 미결된 수강신청:$a->orderid';
+$string['adminnewordersubject'] = '$a->course;새로운 미결된 수강신청: $a->orderid';
 $string['adminpendingorders'] = '당신은 자동 징수 기능을 비활성화 하였습니다. <br/> 총금액은 $a->count 이고 AN_STATUS_AUTH 상태의 거래가 당신이 체크를 하지 않으면 취소될 것입니다. <br />지불을 승인/거절하기 위해서는<a href=\'$a->url\'> 지불 관리 </a> 페이지로 가십시요.';
 $string['adminreview'] = '신용카드를 처리하기 전에 주문을 검토하시오.';
 $string['adminteachermanagepay'] = '교수자는 자신의 강좌에 대한 지불을 관리할 수 있습니다.';
@@ -52,6 +52,7 @@ $string['authcode'] = '인증 코드';
 $string['authorize:managepayments'] = '지불 관리';
 $string['authorize:uploadcsv'] = 'CSV 파일 올리기';
 $string['authorizedpendingcapture'] = '승인/징수 처리중';
+$string['authorizeerror'] = 'Authorize.net 오류: $a';
 $string['avsa'] = '주소(거리)이름은 일치하지만 우편번호는 일치하지 않습니다.';
 $string['avsb'] = '주소 정보가 제공되지 않았습니다.';
 $string['avse'] = '주소 확인 시스템 오류';
