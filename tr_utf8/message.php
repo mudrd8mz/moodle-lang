@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (2007101504)
+      // message.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
 
 
 $string['addcontact'] = 'Kişi ekle';
@@ -18,6 +18,7 @@ $string['contactlistempty'] = 'Kişi listeniz şu anda boş';
 $string['contacts'] = 'Kişiler';
 $string['context'] = 'içerik';
 $string['deletemessagesdays'] = 'Eski mesajlar otomatik olarak silinmeden önce geçecek gün sayısı';
+$string['disabled'] = 'Mesajlaşma bu sitede etkinleştirilmemiş';
 $string['discussion'] = 'Tartışma';
 $string['emailmessages'] = 'Çevrimdışı olduğumda email gönder';
 $string['emailtagline'] = 'Bu email, size \"$a\" tarihinde gönderilen mesajların kopyasıdır';

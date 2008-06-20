@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (2007101508)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -55,6 +55,7 @@ $string['authcode'] = 'Yetki Kodu';
 $string['authorize:managepayments'] = 'Ödemeleri yönet';
 $string['authorize:uploadcsv'] = 'CSV dosyası yükle';
 $string['authorizedpendingcapture'] = 'Yetki Verilmiş / Çekilmeyi Bekliyor';
+$string['authorizeerror'] = 'Authorize.net Hatası: $a';
 $string['avsa'] = 'Adres (cadde) uydu, posta kodu uymadı';
 $string['avsb'] = 'Adres bilgisi verilmedi';
 $string['avse'] = 'Adres Doğrulama Sistemi Hatası';

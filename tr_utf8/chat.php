@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (2007101508)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
 
 
 $string['beep'] = 'biip';
+$string['cantinsert'] = 'Sohbet mesajı eklenemedi!';
+$string['cantlogin'] = 'Sohbet odasına giriş yapılamadı!';
 $string['chat:chat'] = 'Sohbette konuş';
 $string['chat:deletelog'] = 'Sohbet kayıtlarını sil';
 $string['chat:readlog'] = 'Sohbet kayıtlarına bak';
@@ -32,6 +34,7 @@ $string['explainmethodnormal'] = 'Bu ayarlar, chat_method\'dan <strong>sadece</s
 $string['generalconfig'] = 'Genel yapılandırma';
 $string['helpchatting'] = 'Sohbet yardımı';
 $string['idle'] = 'Boş geçen';
+$string['invalidid'] = 'Bu sohbet odası bulunamadı!';
 $string['messagebeepseveryone'] = '$a herkese sesleniyor!';
 $string['messagebeepsyou'] = '$a size sesleniyor!';
 $string['messageenter'] = '$a odaya girdi';
@@ -44,11 +47,13 @@ $string['modulename'] = 'Sohbet';
 $string['modulenameplural'] = 'Sohbetler';
 $string['neverdeletemessages'] = 'Mesajları asla silme';
 $string['nextsession'] = 'Sonraki oturum';
+$string['nochat'] = 'Sohbet yok';
 $string['noguests'] = 'Sohbet odası konuklara açık değildir';
 $string['nomessages'] = 'Henüz mesaj yok';
 $string['normalkeepalive'] = 'KeepAlive(SürekliBağlantı)';
 $string['normalstream'] = 'Stream(Akım)';
 $string['noscheduledsession'] = 'Zamanlanmış oturum yok';
+$string['notlogged'] = 'Giriş yapılmadı!';
 $string['oldping'] = 'Bağlantı kesimi zaman aşımı';
 $string['pastchats'] = 'Geçmiş sohbet oturumları';
 $string['refreshroom'] = 'Odayı yenile';

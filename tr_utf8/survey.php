@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (2007101508)
+      // survey.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
 
 
 $string['actual'] = 'Gerçek';
@@ -58,6 +58,10 @@ $string['attlsm2'] = 'Birleştirilmiş Öğrenme';
 $string['attlsm3'] = 'Ayrı Öğrenme';
 $string['attlsmintro'] = 'BİR TARTIŞMADA ...';
 $string['attlsname'] = 'Düşünme ve Öğrenme Yaklaşımları (20 maddelik)';
+$string['cannotfindanswer'] = 'Henüz bu anket için cevap yok.';
+$string['cannotfindquestion'] = 'Soru yok';
+$string['cannotfindsurveytmpt'] = 'Soru şablonu bulunamadı!';
+$string['cannotinsertanswer'] = 'Sonuçlarınız kaydedilirken bir sorun oluştu. Özür dileriz.';
 $string['ciq1'] = 'Bir öğrenci olarak, sınıfta hangi anda en fazla katılım gösterirsin?';
 $string['ciq1short'] = 'En fazla katılım';
 $string['ciq2'] = 'Bir öğrenci olarak, sınıftan hangi anda en fazla uzaklaşırsın?';
@@ -178,6 +182,8 @@ $string['howlong'] = 'Bu anketi tamamlamanız ne kadar zamanınızı aldı?';
 $string['howlongoptions'] = '1 dakikadan az,1-2 dk,2-3 dk,3-4 dk,4-5 dk,5-10 dk,10 dakikadan çok';
 $string['ifoundthat'] = 'Gerçekte olan';
 $string['introtext'] = 'Tanıtım metni';
+$string['invalidsurveyid'] = 'Hatalı anket ID';
+$string['invalidtmptid'] = 'Hatalı şablon ID';
 $string['ipreferthat'] = 'İstediğim';
 $string['modulename'] = 'Anket Formu';
 $string['modulenameplural'] = 'Anket Formları';

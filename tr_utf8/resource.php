@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
 
 
 $string['addresource'] = 'Kaynak ekle';
@@ -9,6 +9,7 @@ $string['autofilerename'] = 'Dosya adı değişirse bağlantıyı güncelle';
 $string['back'] = 'Geri';
 $string['blockdeletingfile'] = 'Bağlantılı dosyaları silmeyi engelle';
 $string['browserepository'] = 'Depoya gözat';
+$string['cannotupdate'] = 'Kaynak güncellenemedi';
 $string['choose'] = 'Seç';
 $string['chooseafile'] = 'Seç veya bir dosya yükle';
 $string['chooseparameter'] = 'Parametre seç';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
 
 
 $string['activation'] = 'Etkinleştirme';
@@ -19,6 +19,7 @@ $string['browse'] = 'Önizleme';
 $string['browsed'] = 'Gözatıldı';
 $string['browsemode'] = 'Önizleme Modu';
 $string['browserepository'] = 'Depoya gözat';
+$string['cannotfindsco'] = 'SCO bulunamadı';
 $string['chooseapacket'] = 'Seç veya bir paketi güncelle';
 $string['completed'] = 'Tamamlandı';
 $string['confirmloosetracks'] = 'UYARI: Paket değiştirilmiş veya güncellenmiş görünüyor. Paket yapısı değiştirildiyse bazı kullanıcı izlemeleri güncelleme sırasında kaybolabilir.';
@@ -67,6 +68,7 @@ $string['iframe'] = 'Şimdiki pencere';
 $string['iframedisplay'] = 'Paketi şu anki pencerede aç';
 $string['incomplete'] = 'Tamamlanmadı';
 $string['interactions'] = 'Etkileşimler';
+$string['invalidactivity'] = 'Scorm etkinliği hatalı';
 $string['last'] = 'Son erişim tarihi';
 $string['lastaccess'] = 'Son erişim';
 $string['lastattempt'] = 'Son uygulama';
