@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // admin.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['accessdenied'] = 'Accés denegat';
@@ -189,6 +189,8 @@ $string['configproxyuser'] = 'Nom d\'usuari requerit per a accedir a Internet a 
 $string['configquarantinedir'] = 'Si voleu que clam AV mogui els fitxers infectats a un directori de quarantena, definiu el directori aquí. El servidor web ha de tenir permís d\'escriptura en aquest directori. Si el deixeu en blanc, o introduïu un directori que no existeix, o no s\'hi pot escriure, lllavors els fitxers infectats se suprimiran. No inclogueu una barra final.';
 $string['configrcache'] = 'Utilitzeu la memòria cau per emmagatzemar els registres de la base de dades. Recordeu que cal definir també \'cachetype\'.';
 $string['configrcachettl'] = 'Durada (time-to-live) dels registres a la memòria cau. Utilitzeu un valor baix (<15).';
+$string['configrecaptchaprivatekey'] = 'Cadena de caràcters utilitzada per a la comunicació entre el vostre servidor Moodle i el servidor recaptcha.net. Podeu obtenir-la en http://recaptcha.net';
+$string['configrecaptchapublickey'] = 'Cadena de caràcters utilitzada per visualitzar l\'element reCAPTCHA en el formulari de registre. Generada per http://recaptcha.net';
 $string['configrequestedstudentname'] = 'Paraula per a \"estudiant\" en els cursos sol·licitats';
 $string['configrequestedstudentsname'] = 'Paraula per a \"estudiants\" en els cursos sol·licitats';
 $string['configrequestedteachername'] = 'Paraula per a \"professor\" en els cursos sol·licitats';
@@ -258,6 +260,8 @@ $string['cronerrorpassword'] = 'No heu proporcionat una contrasenya vàlida per 
 $string['cronremotepassword'] = 'Contrasenya d\'accés remot al cron';
 $string['cronwarning'] = 'La <a href=\"cron.php\">seqüència de manteniment cron.php</a> no s\'ha executat en les darreres 24 hores com a mínim.';
 $string['csvdelimiter'] = 'Delimitador CSV';
+$string['ctyperecommended'] = 'Es recomana instal·lar l\'extensió de PHP ctype a fi de millorar el rendiment del lloc, especialment si teniu usuaris que treballen amb idiomes no occidentals.';
+$string['ctyperequired'] = 'A hores d\'ara Moodle requereix l\'extensió de PHP ctype, a fi de millorar el rendiment del lloc i oferir compatibilitat amb diferents idiomes.';
 $string['curlrecommended'] = 'Es recomana instal·lar la biblioteca opcional Curl a fi d\'habilitar la funcionalitat de Moodle en Xarxa.';
 $string['customcheck'] = 'Altres comprovacions';
 $string['datarootsecuritywarning'] = 'La configuració d\'aquest lloc podria no ser segura. Cercioreu-vos que el directori de dades ($a) no és accessible directament via web.';
@@ -467,6 +471,7 @@ $string['minpasswordlower'] = 'Minúscules';
 $string['minpasswordnonalphanum'] = 'Caràcters alfanumèrics';
 $string['minpasswordupper'] = 'Majúscules';
 $string['misc'] = 'Miscel·lània';
+$string['missinglangparent'] = 'Falta l\'idioma pare <em>$a->parent</em> de: <em>$a->lang</em>.';
 $string['mnetrestore_extusers'] = '<strong>Nota:</strong> aquesta còpia de seguretat conté comptes d\'usuari remots de Moodle en Xarxa que es restauraran durant el procés.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Nota:</strong> aparentment aquesta còpia de seguretat s\'ha originat en una altra instal·lació de Moodle i conté comptes d\'usuari remots de Moodle en Xarxa que potser no es podran restaurar. Aquest tipus d\'operació no està implementada. Si esteu segur que la còpia es va crear en aquesta instal·lació de Moodle, o us podeu assegurar que estan configurats tots els amfitrions necessaris de Moodle en Xarxa, potser tot i això voldreu intentar la restauració.';
 $string['modsettings'] = 'Gestió d\'activitats';
@@ -588,6 +593,8 @@ $string['questioncwqpfscheck'] = 'Una o més preguntes \"aleatòries\" d\'algun 
 $string['questioncwqpfsok'] = 'D\'acord. No teniu cap pregunta \"aleatòria\" en els vostres qüestionaris que seleccioni preguntes d\'una barreja de categories compartides i no compartides.';
 $string['rcache'] = 'Memòria cau de registres';
 $string['rcachettl'] = 'TTL de la memòria cau de registres';
+$string['recaptchaprivatekey'] = 'Clau privada de ReCAPTCHA';
+$string['recaptchapublickey'] = 'Clau pública de ReCAPTCHA';
 $string['releasenoteslink'] = 'Consulteu la informació sobre aquesta versió de Moodle en les <a target=\"_new\" href=\"$a\">Notes de llançament</a>';
 $string['remotelangnotavailable'] = 'Moodle no s\'ha pogut connectar a download.moodle.org i no ha pogut fer la instal·lació automàtica del paquet d\'idioma. Baixeu el fitxer o fitxers zip de la llista següent, copieu-los al directori $a i descomprimiu-los manualment.';
 $string['renameerrors'] = 'S\'han produït errors en els canvis de nom';

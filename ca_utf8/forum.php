@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // forum.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -28,6 +28,7 @@ $string['blockperiod'] = 'Període de temps per blocar';
 $string['blockperioddisabled'] = 'No bloquis';
 $string['bynameondate'] = 'per $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Afegir debats en aquest fòrum requereix pertànyer al grup.';
+$string['cannotadddiscussionall'] = 'No teniu permís per a afegir un nou tema de debat per a tots els participants.';
 $string['cannotviewpostyet'] = 'Encara no podeu llegir les preguntes d\'altres estudiants en aquest debat perquè no hi heu enviat cap missatge';
 $string['configcleanreadtime'] = 'L\'hora del dia per a netejar missatges vells de la taula de lectures.';
 $string['configdisplaymode'] = 'El mode de visualització per defecte dels debats si no se n\'especifica un.';
@@ -183,6 +184,8 @@ $string['overviewnumunread'] = '$a no llegits en total';
 $string['parent'] = 'Mostra missatge original';
 $string['parentofthispost'] = 'Missatge original';
 $string['postadded'] = 'S\'ha afegit el vostre missatge. <p>Teniu $a per editar-lo si voleu fer algun canvi.';
+$string['postaddedsuccess'] = 'S\'ha afegit correctament el vostre missatge.';
+$string['postaddedtimeleft'] = 'Teniu $a per a editar-lo si voleu fer-hi algun canvi.';
 $string['postincontext'] = 'Mostra aquest missatge en el seu context';
 $string['postmailinfo'] = 'Això és una còpia d\'un missatge enviat al lloc web $a.
 Per afegir la vostra resposta via web, feu clic en aquest enllaç:';

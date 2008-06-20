@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // blog.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['addnewentry'] = 'Afegeix una nova entrada';
@@ -34,6 +34,7 @@ $string['notallowedtoedit'] = 'No teniu permís per a editar aquesta entrada';
 $string['numberofentries'] = 'Entrades: $a';
 $string['numberoftags'] = 'Nombre d\'etiquetes per visualitzar';
 $string['pagesize'] = 'Nombre d\'entrades per pàgina';
+$string['permalink'] = 'Enllaç permanent';
 $string['personalblogs'] = 'Bitàcoles privades amb accés restringit a l\'autor';
 $string['publishto'] = 'Publica per a';
 $string['publishtonoone'] = 'Privat (esborrany)';
