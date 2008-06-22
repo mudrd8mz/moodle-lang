@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // quiz.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+
+
 $string['1day'] = '1 dag';
 $string['1hour'] = '1 time';
 $string['2hours'] = '2 timer';
@@ -95,6 +97,7 @@ $string['categorynamecantbeblank'] = 'Kategorinavnet kan ikke være tomt';
 $string['categorynoedit'] = 'Du har ikke rettigheter til å redigere spørsmål i kategorien \'$a\'';
 $string['categoryupdated'] = 'Oppdateringen av denne kaegorien var vellykket';
 $string['changessaved'] = 'Endringer av karakterer lagret';
+$string['changessavedwitherrors'] = 'Det oppstod feil under lagring av karakterendringer';
 $string['checkanswer'] = 'Kontroller';
 $string['choice'] = 'Svar';
 $string['choices'] = 'Tilgjengelige svar';
@@ -377,6 +380,8 @@ $string['onlyteachersimport'] = 'bare lærere med redigeringstilgang kan importe
 $string['openclosedatesupdated'] = 'Testens tilgangsdatoer er oppdatert';
 $string['optional'] = 'valgfritt';
 $string['outof'] = 'av';
+$string['outofpercent'] = '$a->grade av maksimum $a->maxgrade ($a->percent%%)';
+$string['outofshort'] = '$a->grade/$a->maxgrade';
 $string['overallfeedback'] = 'Generell tilbakemelding';
 $string['overdue'] = 'For sent';
 $string['pagesize'] = 'Antall forsøk pr.side';
@@ -601,4 +606,5 @@ $string['zerosignificantfiguresnotallowed'] = 'Det riktige svaret kan ikke ha nu
 $string['existingcategory1'] = 'en bokstav fra et allerede eksisterende sett av bokstaver som også brukes av andre spørsmål i denne kategorien'; // ORPHANED
 $string['existingcategory2'] = 'en fil fra et allerede eksisterende sett med filer som også brukes av andre spørsmål i denne kategorien'; // ORPHANED
 $string['existingcategory3'] = 'en lenke fre et allerede eksisterende sett lenker som også brukes av andre spørsmål i denne kategorien'; // ORPHANED
+
 ?>

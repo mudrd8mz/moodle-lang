@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+      // qtype_calculated.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['addmoreanswerblanks'] = 'Legg til et blank svar til';
@@ -23,6 +23,8 @@ $string['nodataset'] = 'ingenting - er ikke en joker';
 $string['nosharedwildcard'] = 'Ingen delte jokere i dene kategorien';
 $string['possiblehdr'] = 'Mulige jokere vises bare i spørsmålsteksten';
 $string['tolerance'] = 'Toleranse &plusmn;';
+$string['trueanswerinsidelimits'] = 'Korrekt svar: $a->correct innenfor grensene av sanne verdier $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">FEIL Korrekt svar : $a->correct utenfor grensene av sann verdi $a->true</span>';
 $string['updatecategory'] = 'Oppdater kategorien';
 $string['usedinquestion'] = 'Brukt i spørsmål';
 $string['youmustenteramultiplierhere'] = 'Du må angi en multiplikator her';
