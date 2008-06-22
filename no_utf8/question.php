@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // question.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['adminreport'] = 'Rapport over mulige problemer i din spørsmålsdatabase.';
@@ -19,13 +19,19 @@ $string['cwrqpfsinfo'] = '<p>Ved oppgradering til Moodle 1.9 vil vi dele spørsm
 $string['cwrqpfsnoprob'] = 'Ingen spørsmålskategorier på din site berøres av oppgraderingen.';
 $string['defaultfor'] = 'Standard for $a';
 $string['defaultinfofor'] = 'Standard kategori for spørsmål delt i konteksten \'$a\'.';
+$string['deletecoursecategorywithquestions'] = 'Det finnes spørsmål i spørsmålsbanken koblet til denne kurskategorien. Hvis du fortsetter vil disse bli slettet. Hvis du ønsker å flytte dem først, vær vennlig å bruk spørsmålsbankbildet.';
 $string['donothing'] = 'Ikke kopier eller flytt filer eller endre lenker.';
 $string['editingcategory'] = 'Rediger en kategori';
 $string['editingquestion'] = 'Rediger et spørsmål';
 $string['erroraccessingcontext'] = 'Får ikke tilgang til konteksten';
+$string['errordeletingquestionsfromcategory'] = 'Feil ved sletting av spørsmål fra kategorien $a';
 $string['errorfilecannotbecopied'] = 'Feil - kan ikke kopiere $a.';
 $string['errorfilecannotbemoved'] = 'Feil - kan ikke flytte $a.';
 $string['errorfileschanged'] = 'Feil -  filer det er lenket til fra spørsmål er endret etter skjemaet ble vist.';
+$string['errormanualgradeoutofrange'] = 'Karakteren $a->grade er ikke mellom 0 og $a->maxgrade for spørsmålet $a->name. Poeng og kommentar er ikke blitt lagret.';
+$string['errormovingquestions'] = 'Feil ved flytting av spørsmål med id\'er $a.';
+$string['errorsavingcomment'] = 'Feil ved lagring av kommentarer for spørsmål $a->navn i databasen.';
+$string['errorupdatingattempt'] = 'Feil ved oppdatering av forsøk $a->id i databasen.';
 $string['exportcategory'] = 'Eksportkategori';
 $string['filesareacourse'] = 'Kursets filområde';
 $string['filesareasite'] = 'Sitens filområde';
@@ -34,6 +40,7 @@ $string['fractionsnomax'] = 'Et av svarene bør ha en score på 100%% slik at de
 $string['getcategoryfromfile'] = 'Ta med kategorier fra fil';
 $string['getcontextfromfile'] = 'Ta med kontekst fra fil';
 $string['ignorebroken'] = 'Ignorer råtne lenker';
+$string['invalidcontextinhasanyquestions'] = 'Feil kontekst sendt til question_context_has_any_questions.';
 $string['linkedfiledoesntexist'] = 'Den lenkede filen $a eksisterer ikke';
 $string['makechildof'] = 'Lag et underpunkt til \'$a\'';
 $string['maketoplevelitem'] = 'Gå til toppnivå';
@@ -41,6 +48,7 @@ $string['missingimportantcode'] = 'Spørsmålstypen mangler en viktig kode: $a.'
 $string['modified'] = 'Sist lagret';
 $string['move'] = 'Flytt fra $a og endre lenkene';
 $string['movecategory'] = 'Flytt kategori';
+$string['movedquestionsandcategories'] = 'Flyttet spørsmål og spørsmålskategorier fra $a->oldplace til $a->newplace.';
 $string['movelinksonly'] = 'Bare endre lenkereferanser, ikke flytt eller kopier filer.';
 $string['moveq'] = 'Flytt spørsmål';
 $string['moveqtoanothercontext'] = 'Flytt spørsmål til en annen kontekst.';
@@ -62,8 +70,12 @@ $string['permissionto'] = 'Du har tillatelse til:';
 $string['published'] = 'delt';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Spørsmål \"$a->name\" ($a->qtype)</a> er i denne kategorien, men er også benyttet i <a href=\"$a->qurl\">test \"$a->quizname\"</a> i kurset  \"$a->coursename\".';
 $string['questionbank'] = 'Spørsmålsbank';
+$string['questioncategory'] = 'Spørsmålskategori';
 $string['questioncatsfor'] = 'Spørsmålskategorier for \'$a\'';
 $string['questiondoesnotexist'] = 'Spørsmålet finnes ikke';
+$string['questionsmovedto'] = 'Spørsmål som er i bruk er flyttet til \"$a\" i overordnet kurskategori';
+$string['questionsrescuedfrom'] = 'Spørsmål lagret fra kontekst $a';
+$string['questionsrescuedfrominfo'] = 'Disse spørsmålene (noen av dem kan være skjult) ble lagret da kontekst $a ble slettet fordi de er fremdeles i bruk av noen prøver eller aktiviteter.';
 $string['questionuse'] = 'Bruk spørsmål i denne aktiviteten';
 $string['shareincontext'] = 'Del i konteksten for $a';
 $string['tofilecategory'] = 'Skriv kategorien til fil';
