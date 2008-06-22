@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // error.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+
+
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
 $string['cannotassignrole'] = 'Kan ikke tildele rolle i kurset';
 $string['cannotcreatelangdir'] = 'Kan ikke opprette mappen \'lang\'.';
@@ -46,7 +48,10 @@ $string['groupnotaddederror'] = 'Gruppe \"$a\" ble ikke lagt til';
 $string['groupunknown'] = 'Gruppe $a er ikke tilordnet spesifisert klasse';
 $string['guestnoeditprofile'] = 'En gjest kan ikke editere profilen sin';
 $string['guestnoeditprofileother'] = 'Gjesteprofilen kan ikke editeres';
+$string['invalidcontext'] = 'Ugyldig kontekst';
 $string['invalidcourse'] = 'Ugyldig kurs';
+$string['invalidcourseid'] = 'Du prøver å bruke en ugyldig kurs-ID ($a)';
+$string['invalidcoursemodule'] = 'Ugyldig kursmodul-ID';
 $string['invalidfieldname'] = '\"$a\" er ikke et gyldig navn';
 $string['invalidfiletype'] = '\"$a\" er ikke en gyldig filtype';
 $string['invalidipformat'] = 'Ugyldig IP-adresseformat';
@@ -125,4 +130,5 @@ $string['usernotupdatednotexists'] = 'Brukeren ble ikke oppdatert - eksisterer i
 $string['wrongdestpath'] = 'Gal resultatmappe';
 $string['wrongsourcebase'] = 'Galt ZIP-filnavn.';
 $string['wrongzipfilename'] = 'Galt ZIP-filnavn.';
+
 ?>
