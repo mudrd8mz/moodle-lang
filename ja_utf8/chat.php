@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080615) (2008051203)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080620) (2008051203)
 
 
+$string['ajax'] = 'Ajaxバージョン';
 $string['autoscroll'] = 'オートスクロール';
 $string['beep'] = 'ビープ';
 $string['cantinsert'] = 'チャットメッセージを追加できませんでした!';
@@ -67,6 +68,7 @@ $string['repeatweekly'] = '毎週同じ時間に';
 $string['savemessages'] = 'セッションの保存期間';
 $string['seesession'] = 'このセッションを見る';
 $string['send'] = '送信';
+$string['sending'] = '送信中';
 $string['serverhost'] = 'サーバ名';
 $string['serverip'] = 'サーバIP';
 $string['servermax'] = '最大ユーザ';
