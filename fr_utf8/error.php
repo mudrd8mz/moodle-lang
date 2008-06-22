@@ -406,6 +406,7 @@ $string['wrongcontextid'] = 'Identifiant du contexte incorrect (impossible de le
 $string['wrongroleid'] = 'Identifiant de rôle incorrect';
 $string['wrongsourcebase'] = 'Adresse URL de base de la source incorrect.';
 $string['wrongzipfilename'] = 'Nom de fichier ZIP incorrect.';
+$string['xmldberror'] = 'Erreur XMLDB&nbsp;!';
 $string['younotteacher'] = 'Vous n\'êtes pas enseignant&nbsp;!';
 
 ?>
