@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
 
 
 $string['add_item'] = '質問を追加する';
@@ -67,6 +67,7 @@ $string['feedback:edititems'] = 'アイテムを編集する';
 $string['feedback:mapcourse'] = 'コースをグローバルフィードバックにマップする';
 $string['feedback:receivemail'] = 'メール通知を受信する';
 $string['feedback:view'] = 'フィードバックを表示する';
+$string['feedback:viewanalysepage'] = '回答送信後、分析ページを表示する';
 $string['feedback:viewreports'] = 'レポートを表示する';
 $string['feedback_is_not_open'] = 'フィードバックは利用できません。';
 $string['feedback_options'] = 'フィードバックオプション';
@@ -137,7 +138,6 @@ $string['position'] = 'ポジション';
 $string['preview'] = 'プレビュー';
 $string['previous_page'] = '前のページ';
 $string['public'] = '公開';
-$string['publish_stats_on_students'] = '学生に分析を表示する';
 $string['question'] = '質問';
 $string['questions'] = '質問';
 $string['radio'] = '多肢選択 - 単一回答';
@@ -163,6 +163,7 @@ $string['selected_dump'] = '選択された $SESSION 変数のインデックス
 $string['separator_decimal'] = '.';
 $string['separator_thousand'] = ',';
 $string['show_all'] = 'すべてを表示する';
+$string['show_analysepage_after_submit'] = '回答送信後、分析ページを表示する';
 $string['show_entries'] = '回答を表示する';
 $string['show_entry'] = '回答を表示する';
 $string['site_after_submit'] = '回答送信後のサイト';
@@ -187,6 +188,7 @@ $string['use_one_line_for_each_value'] = '<br />1行に1つの回答を入力し
 $string['use_this_template'] = 'このテンプレートを使用する';
 $string['using_templates'] = 'テンプレートの使用';
 $string['vertical'] = '垂直';
+$string['publish_stats_on_students'] = '学生に分析を表示する'; // TBD
 $string['all_old_values_will_be_deleted'] = '現在の質問およびすべてのユーザの回答内容が削除されます。'; // TBD
 $string['all_old_values_will_be_preserved'] = 'すべての古い質問および割り当てられた値は保持されます。'; // TBD
 $string['all_related_values_will_be_deleted'] = 'この質問に関する、すべてのユーザの回答内容も削除されます。'; // TBD

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080615) (2008051203)
+      // error.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
 
 
 $string['adminprimarynoedit'] = '主管理者は他のユーザから編集することはできません。';
@@ -176,6 +176,13 @@ $string['dbconnectionfailed'] = '<p>エラー: データベースの接続に失
 $string['dbdriverproblem'] = '<p>エラー: データベースドライバに問題が見つかりました。</p>
 <p>サイト管理者は、サーバ設定を確認してください。</p><p>$a</p>';
 $string['dbupdatefailed'] = 'データベースの更新が失敗しました。';
+$string['ddlexecuteerror'] = 'DDL sql実行エラーが発生しました。';
+$string['ddlfieldalreadyexists'] = 'フィールド「 $a 」がありません。';
+$string['ddlfieldnotexist'] = 'テーブル「 $a->tablename 」内にフィールド「 $a->fieldname 」がありません。';
+$string['ddltablealreadyexists'] = 'テーブル「 $a 」は、すでに登録されています。';
+$string['ddltablenotexist'] = 'テーブル「 $a 」がありません。';
+$string['ddlunknownerror'] = '不明なDDLライブラリエラーが発生しました。';
+$string['ddlxmlfileerror'] = 'XMLデータベースファイルにエラーが見つかりました。';
 $string['destinationcmnotexit'] = '目的のコースモジュールがありません。';
 $string['downloadedfilecheckfailed'] = 'ダウンロードファイルのチェックが失敗しました。';
 $string['duplicaterolename'] = 'この名称のロールは、すでに登録されています!';
