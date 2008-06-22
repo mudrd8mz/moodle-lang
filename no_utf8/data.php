@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+      // data.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['action'] = 'Handling';
@@ -29,6 +29,8 @@ $string['buttons'] = 'Knapper';
 $string['bynameondate'] = 'ved $a->name - $a->date';
 $string['cancel'] = 'Avbryt';
 $string['checkbox'] = 'Valgboks';
+$string['chooseexportfields'] = 'Velg feltene du ønsker å eksportere';
+$string['chooseexportformat'] = 'Velg formatet du ønsker å eksportere til:';
 $string['chooseorupload'] = 'Velg fil';
 $string['columns'] = 'Kolonner';
 $string['comment'] = 'Kommentar';
@@ -43,6 +45,7 @@ $string['confirmdeleterecord'] = 'Er du sikker på at du vil slette denne oppfø
 $string['csstemplate'] = 'CSS-mal';
 $string['csvfile'] = 'CSV-fil';
 $string['csvimport'] = 'CSV-import';
+$string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Seperated Values\">CSV</acronym>tekst med valgt skilletegn:';
 $string['data:approve'] = 'Godkjenn ventende oppføringer';
 $string['data:comment'] = 'Skriv kommentarer';
 $string['data:managecomments'] = 'Administrer kommentarer';
@@ -83,8 +86,10 @@ $string['entry'] = 'Oppføring';
 $string['entrysaved'] = 'Din oppføring er lagret';
 $string['errormustbeteacher'] = 'Du må være Lærer for å bruke denne siden!';
 $string['example'] = 'Eksempel på databasemodul';
+$string['excel'] = 'Excel';
 $string['export'] = 'Eksport';
 $string['exportaszip'] = 'Eksporter som zip';
+$string['exportdatabaserecords'] = 'Eksporter databaseposter';
 $string['exportedtozip'] = 'Eksportert til midlertidig zip...';
 $string['failedpresetdelete'] = 'Sletting av forhåndsinnstilling mislykkes!';
 $string['fieldadded'] = 'Felter er lagt til';
@@ -176,6 +181,7 @@ $string['number'] = 'Antall';
 $string['numberrssarticles'] = 'RSS-artikler';
 $string['numnotapproved'] = 'Venter';
 $string['numrecords'] = '$a oppføringer';
+$string['ods'] = '<acronym title=\"OpenDocument Spreadsheet\">ODS</acronym> (OpenOffice)';
 $string['optionaldescription'] = 'Kort beskrivelse (opsjon)';
 $string['optionalfilename'] = 'Filnavn (opsjon)';
 $string['other'] = 'Andre';
@@ -236,6 +242,7 @@ $string['timemodified'] = 'Tid endret';
 $string['todatabase'] = 'til denne databasen.';
 $string['type'] = 'Felttype';
 $string['undefinedprocessactionmethod'] = 'Det er ikke definert noen metode for å behandlet Data_Preset \"$a\".';
+$string['unsupportedexport'] = '($a->fieldtype) kan ikke eksporteres.';
 $string['updatefield'] = 'Oppdatér et eksisterende felt';
 $string['uploadfile'] = 'Last opp fil';
 $string['uploadrecords'] = 'Last opp oppføringer fra en fil';

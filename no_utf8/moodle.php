@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+      // moodle.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -188,8 +188,11 @@ $string['cancelled'] = 'Avbrutt';
 $string['categories'] = 'Studiekategorier';
 $string['category'] = 'Kategori';
 $string['categoryadded'] = 'Kategorien \'$a\' ble lagt til';
+$string['categorycontents'] = 'Underkategorier og kurs';
+$string['categorycurrentcontents'] = 'Innhold av $a';
 $string['categorydeleted'] = 'Kategorien \'$a\' ble slettet';
 $string['categoryduplicate'] = 'Kategorien \'$a\' eksisterer allerede!';
+$string['categorymodifiedcancel'] = 'Kategorien ble endret! Avbryt og prøv igjen.';
 $string['categoryname'] = 'Kategorinavn';
 $string['categoryupdated'] = 'Kategorien \'$a\' ble oppdatert';
 $string['changedpassword'] = 'Passordet er endret';
@@ -265,8 +268,10 @@ $string['courseavailablenot'] = 'Dette kurset er ikke tilgjengelig for studenter
 $string['coursebackup'] = 'Sikkerhetskopi av kurs';
 $string['coursecategories'] = 'Studiekategorier';
 $string['coursecategory'] = 'Studiekategori';
+$string['coursecategorydeleted'] = 'Slett kurskategori $a';
 $string['coursecreators'] = 'Kursprodusenter';
 $string['coursecreatorsdescription'] = 'Kursopprettere kan opprette nye kurs og undervise i dem.';
+$string['coursedeleted'] = 'Slett kurs $a';
 $string['courseenrolenddate'] = 'Sluttdato kursinnmelding';
 $string['courseenrolstartdate'] = 'Startdato kursinnmelding';
 $string['coursefiles'] = 'Kursfiler';
@@ -294,6 +299,7 @@ $string['courserequestsuccess'] = 'Kurssøknaden ble lagret uten feil. Du vil f�
 $string['courserestore'] = 'Gjenopprett kurs';
 $string['courses'] = 'Kurs';
 $string['coursescategory'] = 'Kurs i samme kategori';
+$string['coursesmovedout'] = 'Kursene ble flyttet fra $a';
 $string['coursespending'] = 'Kurs som venter på godkjenning';
 $string['coursestaught'] = 'Kurs jeg har undervist i';
 $string['courseupdates'] = 'Oppdateringer i kurset';
@@ -365,7 +371,9 @@ $string['delete'] = 'Slett';
 $string['deleteall'] = 'Slett alle';
 $string['deleteallcomments'] = 'Slett alle kommentarer';
 $string['deleteallratings'] = 'Slett alle vurderinger';
+$string['deletecategory'] = 'Slett kategori: $a';
 $string['deletecategorycheck'] = 'Er du helt sikker på at du vil slette denne kategorien, <b>\'$a\'</b>?<br /> Dette vil flytte alle alle kurs til kategorien over hvis det er noen, eller til kategorien \"Diverse\".';
+$string['deletecategorycheck2'] = 'Hvis du sletter denne kategorien, må du bestemme hva du vil gjøre med underkategorier og kurs den inneholder.';
 $string['deletecheck'] = 'Slett $a ?';
 $string['deletecheckfiles'] = 'Er du helt sikker på at du vil slette disse filene?';
 $string['deletecheckfull'] = 'Er du sikker på at du vil slette $a ?';
@@ -922,6 +930,7 @@ $string['moreinformation'] = 'Mer informasjon om denne feilen';
 $string['moreprofileinfoneeded'] = 'Fortell oss mer om deg selv';
 $string['mostrecently'] = 'siste';
 $string['move'] = 'Flytt';
+$string['movecategorycontentto'] = 'Flytt til';
 $string['movecategoryto'] = 'Flytt kategori til:';
 $string['movecourseto'] = 'Flytt kurs til:';
 $string['movedown'] = 'Flytt ned';
@@ -1212,6 +1221,7 @@ $string['returningtosite'] = 'Registrert bruker?';
 $string['revert'] = 'Tilbakestill';
 $string['role'] = 'Rolle';
 $string['rolemappings'] = 'Rolletildelinger';
+$string['rolerenaming'] = 'Gi rolle nytt navn';
 $string['roles'] = 'Roller';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'Antallet ferske RSS-artikler';
