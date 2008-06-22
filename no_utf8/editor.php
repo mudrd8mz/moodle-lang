@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 + (2007021503)
-
-
+      // editor.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 $string['about'] = 'Om denne HTML-editoren';
 $string['absbottom'] = 'Absolutt nederst';
 $string['address'] = 'Adresse';
@@ -91,7 +89,7 @@ $string['percent'] = 'Prosent';
 $string['pixels'] = 'Piksler';
 $string['pleaseenteralt'] = 'Vennligst skriv inn en alternativ tekst';
 $string['popupeditor'] = 'Forstørr editoren';
-$string['preformatted'] = 'Formattert på forhånd';
+$string['preformatted'] = 'Preformatert';
 $string['preview'] = 'Forhåndsvis';
 $string['properties'] = 'Egenskaper';
 $string['redo'] = 'Gjør om siste handling';
@@ -126,5 +124,4 @@ $string['vertical'] = 'Vertikal';
 $string['width'] = 'Bredde';
 $string['wordclean'] = 'Rensk HTML fra Word';
 $string['zip'] = 'Zip';
-
 ?>
