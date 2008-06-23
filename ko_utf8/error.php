@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // error.php - created with Moodle 2.0 dev (Build: 20080623) (2008051203)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -88,7 +88,6 @@ $string['cannotmetacourse'] = '선택한 강좌를 이 메타 강좌에 추가�
 $string['cannotmodulename'] = '진행경로로 모듈 명칭을 읽어올 수 없음';
 $string['cannotmoduletype'] = '진행경로로 모듈 형식을 읽어올 수 없음';
 $string['cannotmoverolewithid'] = 'ID $a 의 역할을 이동할 수 없음';
-$string['cannotmovezip'] = '압축파일을 옮길 수 없음';
 $string['cannotnetgeo'] = 'http://netgeo.caida.org에 있는 NetGeo서버에 접속할 수 없습니다. 프록시 설정을 점검해 보시거나 더 나은 방법인 MaxMind의 GeoLite City data를 설치하시기 바랍니다.';
 $string['cannotopencsv'] = 'csv파일을 열 수 없음';
 $string['cannotopenfile'] = '($a) 파일을 열 수 없음';
@@ -177,6 +176,13 @@ $string['dbconnectionfailed'] = '<p>오류: 데이터베이스 연결 실패</p>
 $string['dbdriverproblem'] = '<p>오류: 데이터베이스의 드라이버 문제 발견됨</p>
 <p>사이트 관리자가 서버의 설정을 검토해야 합니다.</p><p>$a</p>';
 $string['dbupdatefailed'] = '데이터베이스 갱신 실패';
+$string['ddlexecuteerror'] = 'DDL 쿼리 실행 오류';
+$string['ddlfieldalreadyexists'] = '\"$a\" 필드가 없음';
+$string['ddlfieldnotexist'] = '\"$a->tablename\" 테이블에 \"$a\" 필드가 없음';
+$string['ddltablealreadyexists'] = '테이블 \"$a\"는 벌써 만들어져 있음';
+$string['ddltablenotexist'] = '테이블 \"$a\"가 없음';
+$string['ddlunknownerror'] = '알수없는 DDL 라이브러리 오류';
+$string['ddlxmlfileerror'] = 'XML 데이터베이스 파일 오류 발견';
 $string['destinationcmnotexit'] = '대상 강좌의 모듈이 서버에 존재하지 않음!';
 $string['downloadedfilecheckfailed'] = '내려받은 파일 점검에 실패하였습니다.';
 $string['duplicaterolename'] = '이 이름을 가진 역할이 이미 존재함!';
@@ -417,5 +423,6 @@ $string['wrongsourcebase'] = '잘못된 소스 URL  베이스';
 $string['wrongzipfilename'] = '잘못된 ZIP 파일명';
 $string['xmldberror'] = 'XMLDB 오류!';
 $string['younotteacher'] = '교수자가 아닙니다!';
+$string['cannotmovezip'] = '압축파일을 옮길 수 없음'; // ORPHANED
 
 ?>

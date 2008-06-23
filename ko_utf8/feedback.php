@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080518) (2008051202)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080623) (2008051203)
 
 
 $string['add_item'] = '활동에 질문 추가';
@@ -62,6 +62,7 @@ $string['feedback:edititems'] = '항목 편집';
 $string['feedback:mapcourse'] = '강좌에 공용 피드백 배치';
 $string['feedback:receivemail'] = '이메일 통지 받기';
 $string['feedback:view'] = '피드백 보기';
+$string['feedback:viewanalysepage'] = '제출 후 분석결과 보기';
 $string['feedback:viewreports'] = '보고서 보기';
 $string['feedback_is_not_open'] = '피드백이 아직 시작되지 않았음';
 $string['feedback_options'] = '피드백 선택사항';
@@ -132,7 +133,6 @@ $string['position'] = '위치';
 $string['preview'] = '미리보기';
 $string['previous_page'] = '앞 화면';
 $string['public'] = '공개';
-$string['publish_stats_on_students'] = '학생들에게 분석내용 제시';
 $string['question'] = '질문';
 $string['questions'] = '질문들';
 $string['radio'] = '선다형-단답(라디오버튼)';
@@ -158,6 +158,7 @@ $string['selected_dump'] = '$SESSION 변수의 선택된 인덱스가 다음의 
 $string['separator_decimal'] = '.';
 $string['separator_thousand'] = ',';
 $string['show_all'] = '모두 보기';
+$string['show_analysepage_after_submit'] = '제출 후 분석결과 보기';
 $string['show_entries'] = '응답 보기';
 $string['show_entry'] = '응답 보기';
 $string['site_after_submit'] = '제출 후 화면';
@@ -182,6 +183,7 @@ $string['use_one_line_for_each_value'] = '<br />한 줄에 하나씩 답하세�
 $string['use_this_template'] = '이 질문지 사용';
 $string['using_templates'] = '질문지 사용';
 $string['vertical'] = '수직으로';
+$string['publish_stats_on_students'] = '학생들에게 분석내용 제시'; // ORPHANED
 $string['all_old_values_will_be_deleted'] = '현재 질문과 사용자의 응답이 삭제될 것입니다.'; // ORPHANED
 $string['all_old_values_will_be_preserved'] = '모든 기존 문황과 설정값은 그대로 유지될 것입니다.'; // ORPHANED
 $string['all_related_values_will_be_deleted'] = '이 질문에 대한 모든 사용자의 응답이 삭제될 것입니다.'; // ORPHANED
