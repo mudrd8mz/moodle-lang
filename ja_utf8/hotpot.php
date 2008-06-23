@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
 
 
 $string['abandoned'] = '放棄';
@@ -63,7 +63,7 @@ $string['ignored'] = '無視';
 $string['inprogress'] = '進行中';
 $string['invalidattemptid'] = '受験IDが正しくありません。';
 $string['invalidhotpotid'] = 'hotpot IDが正しくありません。';
-$string['location'] = 'ファイルの場所';
+$string['location'] = 'ファイルロケーション';
 $string['modulename'] = 'Hot Potatoes';
 $string['modulenameplural'] = 'Hot Potatoes';
 $string['navigation'] = 'ナビゲーション';
