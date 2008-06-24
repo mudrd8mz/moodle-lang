@@ -171,6 +171,7 @@ $string['csvcolumnduplicates'] = 'Colonnes identiques détectées.';
 $string['csvfewcolumns'] = 'Pas assez de colonnes. Veuillez vérifier le réglage du séparateur.';
 $string['csvinvalidcolsnum'] = 'Fichier CSV non valide. Chaque ligne doit comporter 49 ou 70 champs';
 $string['csvinvalidcols'] = '<b>Fichier CSV non valide&nbsp;!</b> La première ligne doit comporter l\'entête de définition des champs et le fichier doit être du type <br />Champs étendus/Séparateur virgule<br />ou<br />Champs étendus avec code CAVV/Séparateur virgule';
+$string['csvloaderror'] = 'Une erreur est survenue lors du chargement du fichier CSV&nbsp;!';
 $string['csvweirdcolumns'] = 'Format de fichier CSV non valide&nbsp;: le nombre de colonnes n\'est pas toujours le même&nbsp;!';
 $string['dbconnectionfailed'] = '<p>Erreur&nbsp;: la connexion à la base de données a échoué.</p><p>Il est possible que la base de données soit surchargée ou qu\'elle ne fonctionne pas correctement.</p><p>L\'administrateur du site doit vérifier que les informations concernant la base de données sont indiquées correctement dans le fichier <i>config.php</i></p><p>$a</p>';
 $string['dbdriverproblem'] = '<p>Erreur&nbsp;: problème avec le pilote de la base de données.</p><p>L\'administrateur du site doit vérifier la configuration du serveur.</p><p>$a</p>';
