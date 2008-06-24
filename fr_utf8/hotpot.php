@@ -13,6 +13,7 @@ $string['average'] = 'Moyenne';
 $string['cannotaddquestionrecord'] = 'Impossible d\'ajouter la question';
 $string['cannotaddresprecord'] = 'Impossible d\'ajouter la réponse';
 $string['cannotaddstrrecord'] = 'Impossible d\'ajouter la chaîne de caractères';
+$string['cannotfindmethod'] = 'Méthode d\'expansion du modèle de bloc introuvable&nbsp;: ($a)';
 $string['cannotinsertattempt'] = 'Impossible d\'insérer l\'enregistrement de la tentative&nbsp;: $a';
 $string['cannotupdateattempt'] = 'Impossible de modifier la tentative&nbsp;: $a';
 $string['checks'] = 'Vérifications';

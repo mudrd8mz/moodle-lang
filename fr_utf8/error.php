@@ -89,6 +89,7 @@ $string['cannotnetgeo'] = 'Connexion impossible au serveur NetGeo à l\'adresse 
 $string['cannotopencsv'] = 'Impossible d\'ouvrir le fichier CSV';
 $string['cannotopenfile'] = 'Impossible d\'ouvrir le fichier ($a)';
 $string['cannotopenforwrit'] = 'Impossible d\'ouvrir en écriture&nbsp;: $a';
+$string['cannotopentemplate'] = 'Impossible d\'ouvrir le fichier de modèle ($a)';
 $string['cannotoverridebaserole'] = 'Impossible de définir des dérogations sur les capacités des rôles de base';
 $string['cannotreadfile'] = 'Impossible de lire le fichier ($a)';
 $string['cannotreaduploadfile'] = 'Impossible de lire le fichier déposé';
