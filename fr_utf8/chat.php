@@ -47,6 +47,7 @@ $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chats';
 $string['neverdeletemessages'] = 'Ne pas effacer les messages';
 $string['nextsession'] = 'Prochaine session agendée';
+$string['nochat'] = 'Aucun chat trouvé';
 $string['noguests'] = 'Ce salon n\'est pas ouvert aux invités';
 $string['nomessages'] = 'Pas encore de messages';
 $string['normalkeepalive'] = 'Keep-Alive';
