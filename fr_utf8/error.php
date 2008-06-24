@@ -69,6 +69,7 @@ $string['cannotgetcats'] = 'Impossible d\'obtenir l\'enregistrement de la catég
 $string['cannotgetdata'] = 'Impossible d\'obtenir les données';
 $string['cannotgradeuser'] = 'Impossible d\'évaluer cet utilisateur';
 $string['cannothaveparentcate'] = 'La catégorie de cours ne peut pas avoir de parent&nbsp;!';
+$string['cannotimport'] = 'Erreur d\'importation';
 $string['cannotimportformat'] = 'Désolé, l\'importation de ce format n\'est pas encore implémentée&nbsp;!';
 $string['cannotimportgrade'] = 'Erreur d\'importation des notes';
 $string['cannotinitpage'] = 'Impossible d\'initialiser la page, identifiant de cours $a';
