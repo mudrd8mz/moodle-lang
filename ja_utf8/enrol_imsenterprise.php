@@ -1,20 +1,20 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 2.0 dev (2007101506)
+      // enrol_imsenterprise.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
 
 
 $string['aftersaving...'] = 'あなたの設定を保存した後、';
 $string['allowunenrol'] = 'IMSデータに学生/教師の<strong>登録解除</strong> を許可する';
 $string['basicsettings'] = '基本設定';
 $string['coursesettings'] = 'コースデータオプション';
-$string['createnewcategories'] = 'Moodleに登録されていない場合、新しい (隠された) カテゴリを作成する';
+$string['createnewcategories'] = 'Moodleに登録されていない場合、新しい (隠された) コースカテゴリを作成する';
 $string['createnewcourses'] = 'Moodleに登録されていない場合、新しい (隠された) コースを作成する';
 $string['createnewusers'] = 'Moodleに登録されていないユーザのアカウントを作成する';
 $string['cronfrequency'] = '処理の頻度';
 $string['deleteusers'] = 'IMSデータに指定されている場合、ユーザアカウントを削除する';
-$string['description'] = 'ここでは、あなたが指定した場所にある特別にフォーマットされたテキストファイルを繰り返しチェックおよび処理します。ファイルは、<a href=\'../help.php?module=enrol/imsenterprise&amp;file=formatoverview.html\'>IMSエンタープライズ仕様</a>に基づき、person、groupおよびmembershipをXML要素に含む必要があります。';
-$string['doitnow'] = 'IMSエンタープライズインポート処理を行ってください。';
+$string['description'] = 'ここでは、あなたが指定した場所にある、特別にフォーマットされたテキストファイルを繰り返しチェックおよび処理します。ファイルは、<a href=\'../help.php?module=enrol/imsenterprise&amp;file=formatoverview.html\'>IMSエンタープライズ仕様</a>に基づき、person、groupおよびmembershipをXML要素に含む必要があります。';
+$string['doitnow'] = 'IMSエンタープライズインポート処理を実行してください。';
 $string['enrolname'] = 'IMSエンタープライズファイル';
-$string['filelockedmail'] = 'あなたが使用しているIMSファイルベースのユーザ登録 ($a) のテキストファイルをcronプロセスで削除することができません。 これは通常、パーミッションが間違っていることを意味します。Moodleがファイルを削除できるように、パーミッションを修正してください。そうでなければ、この処理が繰り返し行われます。';
+$string['filelockedmail'] = 'あなたが使用しているIMSファイルベースのユーザ登録 ($a) のテキストファイルをcronプロセスで削除することができません。通常、これはファイルパーミッションが正しくないことを意味します。Moodleが削除できるようファイルのパーミッションを変更してください。変更しない場合、この処理が繰り返し実行されます。';
 $string['filelockedmailsubject'] = 'インポートエラー: ユーザ登録ファイル';
 $string['fixcasepersonalnames'] = '個人名をタイトル文字にする';
 $string['fixcaseusernames'] = 'ユーザ名を小文字に変更する';
