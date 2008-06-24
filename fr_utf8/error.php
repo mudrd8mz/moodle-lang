@@ -12,6 +12,7 @@ $string['cannotaddblock'] = 'Le bloc $a  n\'a pas pu être ajouté à la liste d
 $string['cannotaddcmtosection'] = 'Impossible d\'ajouter le module de cours à cette section';
 $string['cannotaddcoursemodule'] = 'Impossible d\'ajouter un module de cours';
 $string['cannotaddcoursemoduletosection'] = 'Impossible d\'ajouter un module de cours à cette section';
+$string['cannotaddmodule'] = 'Le module $a n\'a pas pu être ajouté à la liste des modules&nbsp;!';
 $string['cannotaddnewinstance'] = 'Impossible d\'ajouter une nouvelle instance de $a';
 $string['cannotaddnewmodule'] = 'Impossible d\'ajouter un nouveau module $a';
 $string['cannotaddrss'] = 'Vous n\'avez pas le droits d\'ajouter des fils RSS';

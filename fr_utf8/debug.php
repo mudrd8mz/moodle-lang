@@ -9,6 +9,7 @@ $string['cannotdowngrade'] = 'Impossible de revenir à $a[0] vers $a[1].';
 $string['cannotfindadmin'] = 'Impossible de trouver un administrateur&nbsp;!';
 $string['cannotinitpage'] = 'Impossible d\'initialiser totalement la page&nbsp;: $a[0] non valide, identifiant $a[1]';
 $string['cannotsetupsite'] = 'Erreur grave&nbsp;! Impossible de mettre en place le site&nbsp;!';
+$string['cannotsetuptable'] = '$a tables n\'ont pas pu être configurées correctement&nbsp;!'
 $string['cannotupdaterelease'] = 'Erreur&nbsp;: impossible de mettre à jour la version dans la base de données&nbsp;!!';
 $string['cannotupdateversion'] = 'Échec de la mise à jour&nbsp;! (Impossible de mettre à jour la version dans la table config)';
 $string['cannotupgradecapabilities'] = 'Problèmes lors de la mise à jour des capacités centrales du systèmes des rôles';
