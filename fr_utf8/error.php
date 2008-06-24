@@ -1,6 +1,7 @@
 <?php // $Id$ 
 
 $string['adminprimarynoedit'] = 'Le compte de l\'administrateur principal ne peut pas être modifié par les autres administrateurs';
+$string['authorizeerror'] = 'Erreur Authorize';
 $string['backupcontainexternal'] = 'Ce fichier de sauvegarde comporte des hôtes externes Réseau Moodle qui ne sont pas configurés localement.';
 $string['backuptablefail'] = 'Les tables de sauvegarde n\'ont PAS pu être mises en place&nbsp;!';
 $string['blockdoesnotexist'] = 'Ce bloc n\'existe pas';
