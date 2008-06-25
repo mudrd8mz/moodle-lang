@@ -349,6 +349,7 @@ $string['reportnotavailable'] = 'Ce type de rapport n\'est disponible que pour l
 $string['restricteduser'] = 'Votre compte utilisateur «&nbsp;$a&nbsp;» ne vous permet pas d\'effectuer cette opération.';
 $string['rpcerror'] = 'RPC cours disponibles pour inscription réseau Moodle&nbsp;: ($a)';
 $string['scheduledbackupsdisabled'] = 'Les sauvegardes automatiques ont été désactivées par l\'administrateur du serveur';
+$string['secretalreadyused'] = 'Le lien de confirmation du changement de mot de passe a déjà été utilisé. Le mot de passe n\'a pas été modifié.';
 $string['sectionnotexist'] = 'Cette section n\'existe pas';
 $string['sendmessage'] = 'Envoyer un message';
 $string['sessioncookiesdisable'] = 'Utilisation incorrecte de require_key_login(). Les cookies de session doivent être désactivés&nbsp;!';
