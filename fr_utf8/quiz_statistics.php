@@ -20,6 +20,7 @@ $string['kurtosis'] = 'Aplatissement de la distribution des notes';
 $string['median'] = 'Note médiane';
 $string['noofallattempts'] = 'Nombre total des tentatives';
 $string['nooffirstattempts'] = 'Nombre des premières tentatives';
+$string['nostudentsingroup'] = 'Il n\'y a pas encore d\'étudiant dans ce groupe';
 $string['questionnumber'] = 'No Q';
 $string['questiontype'] = 'Type Q';
 $string['quizinformation'] = 'Information du test';
