@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
+      // data.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
 
 
 $string['action'] = '操作';
@@ -126,6 +126,7 @@ $string['forcelinkname'] = '強制リンク名';
 $string['foundnorecords'] = 'レコードが見つかりませんでした (<a href=\"$a->reseturl\">フィルタをリセットする</a>)';
 $string['foundrecords'] = '$a->num/$a->max 件のレコードが見つかりました (<a href=\"$a->reseturl\">フィルタをリセットする</a>)';
 $string['fromfile'] = 'ZIPファイルからインポートする';
+$string['generateerror'] = 'すべてのファイルは生成されませんでした!';
 $string['guestrate'] = 'ゲストは、このエントリの評価を許可されていません。';
 $string['header'] = 'ヘッダ';
 $string['headeraddtemplate'] = 'エントリ編集用のインターフェース定義';
@@ -139,7 +140,6 @@ $string['importsuccess'] = 'プリセットが正常に適用されました。'
 $string['insufficiententries'] = 'このデータベースを閲覧するには、さらにエントリが必要です。';
 $string['intro'] = 'イントロダクション';
 $string['invalidaccess'] = 'このページは、正しくアクセスされていません。';
-$string['invaliddata'] = 'データが正しくありません。';
 $string['invalidfieldid'] = 'フィールドIDが正しくありません。';
 $string['invalidfieldname'] = 'このフィールドに他の名称を選択してください。';
 $string['invalidfieldtype'] = 'フィールドタイプが正しくありません。';
@@ -147,6 +147,7 @@ $string['invalidid'] = 'データIDが正しくありません。';
 $string['invalidratedata'] = '送信された評価データが正しくありません。';
 $string['invalidrecord'] = 'レコードが正しくありません。';
 $string['invalidurl'] = '入力されたURIが正しくありません。';
+$string['invildpreset'] = '$a はプレセットではありません。';
 $string['jstemplate'] = 'Javaスクリプトテンプレート';
 $string['latitude'] = '経度';
 $string['latlong'] = '緯度/経度';
@@ -162,6 +163,8 @@ $string['maxentries'] = '最大エントリ数';
 $string['maxsize'] = '最大サイズ';
 $string['menu'] = 'メニュー';
 $string['menuchoose'] = '選択 ...';
+$string['missingdata'] = 'フィールドクラスには、データIDまたはオブジェクトを提供してください。';
+$string['missingfield'] = 'プログラミングエラー: フィールドクラスを定義するには、フィールドおよびデータを指定してください。';
 $string['modulename'] = 'データベース';
 $string['modulenameplural'] = 'データベース';
 $string['more'] = '詳細';
@@ -262,6 +265,7 @@ $string['type'] = 'フィールドタイプ';
 $string['undefinedprocessactionmethod'] = 'アクション「 $a 」を処理するためのメソッドがData_Presetに定義されていません。';
 $string['unsupportedexport'] = '($a->fieldtype) をエクスポートできませんでした。';
 $string['updatefield'] = '既存のフィールドを更新します。';
+$string['updatingerror'] = 'データベースの更新中にエラーが発生しました。';
 $string['uploadfile'] = 'ファイルをアップロードする';
 $string['uploadrecords'] = 'ファイルからエントリをアップロードする';
 $string['url'] = 'URI';
@@ -269,6 +273,7 @@ $string['usestandard'] = 'プリセットを使用する';
 $string['viewfromdate'] = '表示開始';
 $string['viewtodate'] = '表示終了';
 $string['wrongdataid'] = '無効なデータIDが提供されました。';
+$string['invaliddata'] = 'データが正しくありません。'; // TBD
 $string['csvformat'] = 'CSVフォーマット'; // TBD
 $string['excelformat'] = 'Excelフォーマット'; // TBD
 $string['exportdatabase'] = 'データベースレコードをエクスポートする'; // TBD
