@@ -87,7 +87,6 @@ $string['cannotmetacourse'] = 'Impossible d\'ajouter le cours sélectionné à c
 $string['cannotmodulename'] = 'Impossible d\'obtenir le nom du module dans la navigation.';
 $string['cannotmoduletype'] = 'Impossible d\'obtenir le type du module dans la navigation.';
 $string['cannotmoverolewithid'] = 'Impossible de déplacer le rôle d\'identifiant $a';
-$string['cannotmovezip'] = 'Impossible de déplacer le fichier compressé';
 $string['cannotnetgeo'] = 'Connexion impossible au serveur NetGeo à l\'adresse http://netgeo.caida.org/. Veuillez vérifier les réglages du proxy, ou, mieux encore, installer un fichier de données MaxMind GeoLite City.';
 $string['cannotopencsv'] = 'Impossible d\'ouvrir le fichier CSV';
 $string['cannotopenfile'] = 'Impossible d\'ouvrir le fichier ($a)';
