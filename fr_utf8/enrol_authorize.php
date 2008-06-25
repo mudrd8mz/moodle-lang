@@ -56,6 +56,7 @@ $string['authcode'] = 'Code d\'autorisation';
 $string['authorize:managepayments'] = 'Gérer les paiements';
 $string['authorize:uploadcsv'] = 'Télécharger un fichier CSV';
 $string['authorizedpendingcapture'] = 'Autorisé / En attente de saisie';
+$string['authorizeerror'] = 'Erreur Authorize.net&nbsp;: $a';
 $string['avsa'] = 'L\'adresse (rue) correspond, mais pas le code postal';
 $string['avsb'] = 'L\'adresse n\'est pas renseignée';
 $string['avse'] = 'Erreur du système de vérification d\'adresse (AVS)';
