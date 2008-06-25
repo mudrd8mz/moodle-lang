@@ -31,7 +31,7 @@ $string['random_guess_score'] = 'Score de réponses au hasard';
 $string['skewness'] = 'Dissymétrie de la distribution des notes';
 $string['standarddeviation'] = 'Écart type';
 $string['standarderror'] = 'Erreur standard';
-$string['statistics'] = 'Statistiques du test';
+$string['statistics'] = 'Statistiques';
 $string['statsfor'] = 'Statistiques pour $a';
 $string['statsforfirstattempts'] = 'Statistiques des premières tentatives';
 
