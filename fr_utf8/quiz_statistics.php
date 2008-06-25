@@ -22,10 +22,12 @@ $string['quizinformation'] = 'Information du test';
 $string['quizname'] = 'Nom du test';
 $string['quizoverallstatistics'] = 'Statistiques globales du test';
 $string['quizstructureanalysis'] = 'Analyse structurelle du test';
+$string['random_guess_score'] = 'Score de réponses au hasard';
 $string['skewness'] = 'Dissymétrie de la distribution des notes';
 $string['standarddeviation'] = 'Écart type';
 $string['standarderror'] = 'Erreur standard';
 $string['statistics'] = 'Statistiques du test';
 $string['statsforallattempts'] = 'Statistiques de toutes les tentatives';
 $string['statsforfirstattempts'] = 'Statistiques des premières tentatives';
+
 ?>
