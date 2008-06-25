@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080625) (2008051203)
 
 
 $string['allattempts'] = '모든 시도';
@@ -27,5 +27,6 @@ $string['show'] = '표시';
 $string['showdetailedmarks'] = '점수 세부사항 보기';
 $string['showinggraded'] = '각 사용자에 대해 시도한 점수만 제시';
 $string['showinggradedandungraded'] = '사용자의 모든 시도를 제시. 채점이 된 시도는 강조됨. 퀴즈의 채점 방법은 $a 임.';
+$string['studentingroup'] = '\'$a->groupname\' 모둠의 \'$a->coursestudent\'';
 
 ?>

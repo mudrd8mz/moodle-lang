@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080623) (2008051203)
+      // error.php - created with Moodle 2.0 dev (Build: 20080625) (2008051203)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -51,6 +51,7 @@ $string['cannotdownloadcomponents'] = '구성요소를 내려받을 수 없습�
 $string['cannotdownloadlanguageupdatelist'] = 'download.moodle.org에서 갱신 언어 목록을 내려받을 수 없음';
 $string['cannotdownloadzipfile'] = 'ZIP파일을 내려받을 수 없습니다.';
 $string['cannoteditcomment'] = '촌평을 수정할 수 없음!';
+$string['cannoteditcommentexpired'] = '제한 시간이 지나서 편집할 수 없음!';
 $string['cannoteditmasterlang'] = '언어팩을 번역할 수 있는 권한이 없습니다. 이 권한은 \"moodle/site:langeditmaster\"에 의해 설정됩니다. 만일 당신이 해당 언어의 언어팩 관리자라면 이 기능을 조정하여 언어팩을 관리할 수 있게 해야 합니다.';
 $string['cannoteditpostorblog'] = '블로그를 게시하거나 편집할 수 없습니다.';
 $string['cannoteditsiteform'] = '이 서식을 이용해서는 사이트 강좌를 수정할 수 없습니다.';
@@ -134,10 +135,12 @@ $string['cannotupdategroup'] = '모둠 갱신중 오류';
 $string['cannotupdatelevel'] = '강좌 모듈을 이동시켜 갱신할 수 없음';
 $string['cannotupdatemod'] = '$a 를 갱신할 수 없음';
 $string['cannotupdatemodcap'] = '$a 권한을 갱신할 수 없음!';
+$string['cannotupdatepasswordonextauth'] = '외부 인증 $a 의 비밀번호 갱신 실패. 좀 더 자세한 내용은 서버 기록을 참조하기 바람';
 $string['cannotupdateplugincap'] = '$a 권한을 갱신할 수 없음!';
 $string['cannotupdateprofile'] = '사용자 기록 갱신 오류';
 $string['cannotupdaterecord'] = '레코드 ID $a 를 갱신할 수 없음';
 $string['cannotupdaterole'] = '역할을 갱신할 수 없음!';
+$string['cannotupdaterss'] = 'RSS를 갱신할 수 없음';
 $string['cannotupdatesecret'] = '사용자 비밀 문자 재설정 오류';
 $string['cannotupdatesubcate'] = '하위 범주를 갱신할 수 없음!';
 $string['cannotupdatesubcourse'] = '하위 강좌를 갱신할 수 없음!';
