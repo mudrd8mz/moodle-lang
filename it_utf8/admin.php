@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
+      // admin.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['accessdenied'] = 'Accesso vietato';
@@ -55,12 +55,12 @@ $string['commonsettings'] = 'Impostazioni comuni';
 $string['componentinstalled'] = 'Componente installato';
 $string['computedfromlogs'] = 'Calcolato da log a partire da $a';
 $string['confeditorhidebuttons'] = 'Seleziona i pulsanti che non vanno mostrati nell\'editor HTML';
-$string['configallowassign'] = 'Permetti ai ruoli sulla sinistra di assegnare i ruoli in ogni colonna';
+$string['configallowassign'] = 'Permetti ai ruoli sulla sinistra di assegnare i ruoli di ogni colonna ad altre persone';
 $string['configallowcategorythemes'] = 'Abilitando questa opzione, i temi possono essere impostati a livello di categoria. Questo influenzerà tutte le categorie dipendenti e i relativi corsi a meno che gli stessi non abbiamo in modo specifico impostato il proprio tema. ATTENZIONE: L\'abilitazione dei temi di categoria può influenzare le prestazioni.';
 $string['configallowcoursethemes'] = 'Se abilitato, sarà  possibile impostare un tema personalizzato in ogni corso. Il tema del corso sovrascriverà  ogni altra scelta (sito, utenti, sessioni di sistema).';
 $string['configallowemailaddresses'] = 'Se si desidera restringere tutti i nuovi indirizzi e-mail ad un particolare dominio, farne un elenco qui, separato da spazi. Tutti gli altri domini verranno rifiutati: <strong>Per esempio, miosito.it, unito.it</strong>';
 $string['configallowobjectembed'] = 'Come misura di sicurezza standard, agli utenti normali non è permesso includere oggetti multimediali (come Flash) utilizzando esplicitamente i tag EMBED e OBJECT nei testi HTML (rimane la possibilità  per loro di utilizzare il filtro mediaplugins). Se si vuole permettere l\'utilizzo di questi tag allora abilitare questa opzione.';
-$string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di sostituire i ruoli in ogni colonna';
+$string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di modificare i ruoli di ogni colonna';
 $string['configallowunenroll'] = 'Se impostato su \"Si\", gli studenti saranno autorizzati a revocarsi autonomamente da un corso in qualunque momento. In caso contrario non verranno autorizzati a farlo, demandando a docenti e amministratori questa possibilità .';
 $string['configallowuserblockhiding'] = 'Si desidera permettere agli utenti di mostrare/nascondere i blocchi laterali di tutto il sito? <br>Questa caratteristica utilizza Javascript e i cookies per ricordare lo stato di ogni blocco, e influenza solo la vista personale dell\'utente.';
 $string['configallowusermailcharset'] = 'Abilitando questa opzione, ogni utente sarà in grado di definire il proprio set di caratteri per le email.';

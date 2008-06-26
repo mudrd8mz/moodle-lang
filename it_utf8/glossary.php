@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // glossary.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['addcomment'] = 'Aggiungi commento';
@@ -186,6 +186,6 @@ $string['warningstudentcapost'] = '(applicato solo se il glossario non è quello
 $string['withauthor'] = 'Concetti con autore';
 $string['withoutauthor'] = 'Concetti senza autore';
 $string['writtenby'] = 'scritto da';
-$string['youarenottheauthor'] = 'Non puoi modificare questo commento perchè non ne sei autore.';
+$string['youarenottheauthor'] = 'Non puoi modificare questo commento perché non ne sei autore.';
 
 ?>

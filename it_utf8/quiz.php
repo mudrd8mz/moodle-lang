@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
+      // quiz.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['1day'] = '1 giorno';
@@ -44,7 +44,7 @@ $string['analysisoptions'] = 'Opzioni di analisi';
 $string['analysistitle'] = 'Tabella per l\'analisi degli elementi';
 $string['answer'] = 'Risposta';
 $string['answerhowmany'] = 'Una sola oppure più risposte?';
-$string['answers'] = 'Risposte';
+$string['answers'] = 'Repliche';
 $string['answersingleno'] = 'Risposte multiple permesse';
 $string['answersingleyes'] = 'Una sola risposta';
 $string['answerswithacceptederrormarginmustbenumeric'] = 'Le risposte con errore accettato devono essere numeriche';
@@ -159,7 +159,7 @@ $string['discrimination'] = 'Indice di discriminazione';
 $string['displayoptions'] = 'Opzioni';
 $string['download'] = 'Click per il download del file della categoria esportata';
 $string['downloadextra'] = '(il file è anche salvato nei files del corso nella cartella /backupdata/quiz)';
-$string['duplicateresponse'] = 'Questo invio è stato ignorato perchè hai già dato una risposta equivalente.';
+$string['duplicateresponse'] = 'Questo invio è stato ignorato perché hai già dato una risposta equivalente.';
 $string['eachattemptbuildsonthelast'] = 'Ogni tentativo parte dall\'ultimo';
 $string['editcategories'] = 'Modifica categorie';
 $string['editcategory'] = 'Modifica categoria';
@@ -239,7 +239,7 @@ $string['forceregeneration'] = 'Forza rigenerazione';
 $string['formatnotfound'] = 'Formato di importazione/esportazione $a non trovato';
 $string['formatnotimplemented'] = 'Questo formato non è stato correttamente implementato, si prega di inviare una segnalazione di bug';
 $string['fractionsaddwrong'] = 'I voti positivi che hai scelto non assommano al 100%% ma al $a%%.<br />Vuoi tornare indietro e correggere?';
-$string['fractionsnomax'] = 'Una delle risposte deve essere 100%%, perchè sia<br />possibile una votazione piena per questa domanda.<br />Vuoi tornare indietro e correggere?';
+$string['fractionsnomax'] = 'Una delle risposte deve essere 100%%, perché sia<br />possibile una votazione piena per questa domanda.<br />Vuoi tornare indietro e correggere?';
 $string['fromfile'] = 'da file';
 $string['functiontakesatleasttwo'] = 'La funzione $a deve avere come minimo due argomenti';
 $string['functiontakesnoargs'] = 'La funzione $a non ha argomenti';
@@ -477,7 +477,7 @@ $string['requirepassword'] = 'Richiede password';
 $string['requirepasswordmessage'] = 'Per tentare questo quiz è necessario conoscere la password d\'accesso.';
 $string['requiresubnet'] = 'Abilitazione indirizzi di rete';
 $string['response'] = 'Risposta';
-$string['responses'] = 'Repliche';
+$string['responses'] = 'Commenti';
 $string['results'] = 'Risultati';
 $string['reuseifpossible'] = 'Riutilizza precedentemente rimossi';
 $string['review'] = 'Revisione';

@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // assignment.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['allowdeleting'] = 'Permettere rimozione';
 $string['allowmaxfiles'] = 'Numero massimo di file inviati';
 $string['allownotes'] = 'Permettere note';
 $string['allowresubmit'] = 'Possibilità  di consegnare più volte';
+$string['alreadygraded'] = 'Il tuo compito è già stato valutato e il re-invio non è consentito.';
 $string['assignment:grade'] = 'Valutare compito';
 $string['assignment:submit'] = 'Consegnare compito';
 $string['assignment:view'] = 'Visualizzare compito';
@@ -20,6 +21,7 @@ Puoi vedere la valutazione associata al tuo <a href=\"$a->url\">compito</a>';
 $string['assignmentname'] = 'Titolo del compito';
 $string['assignmenttype'] = 'Tipo di compito';
 $string['availabledate'] = 'Disponibile da';
+$string['cannotdeletefiles'] = 'Si è verificato un errore e i files non possono essere cancellati';
 $string['comment'] = 'Commento';
 $string['commentinline'] = 'Commento in linea';
 $string['configitemstocount'] = 'Natura degli item da contare per le consegne degli studenti nei compiti on-line.';
@@ -43,12 +45,14 @@ $a->url';
 $string['emailteachermailhtml'] = '$a->username ha consegnato il suo compito per <i>\'$a->assignment\'</i><br /><br />Il compito è <a href=\"$a->url\">disponibile sul sito web</a>.';
 $string['emailteachers'] = 'Avvisi ai docenti via email';
 $string['emptysubmission'] = 'Non avete ancora inviato niente';
+$string['enableemailnotification'] = 'Invia email di notifica';
 $string['existingfiledeleted'] = 'Il file esistente è stato cancellato: $a';
 $string['failedupdatefeedback'] = 'Aggiornamento delle risposte alle consegne dell\'utente $a non riuscito';
 $string['feedback'] = 'Risposte';
 $string['feedbackfromteacher'] = 'Risposte dal';
 $string['feedbackupdated'] = 'Risposte alle consegne aggiornate per $a utenti';
 $string['finalize'] = 'Non ci sono altre consegne';
+$string['finalizeerror'] = 'Si è verificato un errore e la consegna non può essere completata';
 $string['graded'] = 'Valutato';
 $string['guestnosubmit'] = 'Spiacente, ma agli ospiti non è permesso inviare compiti.
 Dovete autenticarvi/registrarvi prima di poter inviare la risposta';
@@ -73,6 +77,7 @@ $string['noassignments'] = 'Non ci sono ancora compiti';
 $string['noattempts'] = 'Ancora nessuna consegna per questo compito';
 $string['nofiles'] = 'Nessun file consegnato';
 $string['nofilesyet'] = 'Nessun file ancora consegnato';
+$string['nomoresubmissions'] = 'Non sono consentite ulteriori consegne.';
 $string['nosubmitusers'] = 'Non sono stati trovati utenti con privilegi sufficienti per consegnare questo compito.';
 $string['notavailableyet'] = 'Spiacente, questo compito non è ancora disponibile.<br/>Istruzioni sul compito saranno qui riportate alla data sotto specificata.';
 $string['notes'] = 'Note';
@@ -101,11 +106,13 @@ $string['submitedformarking'] = 'Il compito è stato già consegnato per la valu
 $string['submitformarking'] = 'Consegna finale per valutazione compito';
 $string['submitted'] = 'Consegnato';
 $string['submittedfiles'] = 'Files consegnati';
+$string['trackdrafts'] = 'Abilita consegna per valutazione';
 $string['typeoffline'] = 'Attività  in aula';
 $string['typeonline'] = 'Testo online';
 $string['typeupload'] = 'Trasferimento file avanzato';
 $string['typeuploadsingle'] = 'Trasferimento file';
 $string['unfinalize'] = 'Riporta a bozza';
+$string['unfinalizeerror'] = 'Si è verificato un errore e la consegna non può essere riconvertita in bozza';
 $string['uploadbadname'] = 'Questo file contiene caratteri non conformi e non può essere trasferito.';
 $string['uploadedfiles'] = 'files trasferiti';
 $string['uploaderror'] = 'Si è verificato un errore durante il salvataggio del file sul server.';

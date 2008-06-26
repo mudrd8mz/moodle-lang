@@ -1,2 +1,12 @@
-<h1>Credito extra</h1>
-<p>Extra credito per questo elemento di valutazione durante l'aggregazione.</p>
+<h1>Coefficiente di Credito extra</h1>
+
+<p>Un valore maggiore di 0 tratta le valutazioni di questo elemento di valutazione come Extra credito durante l'aggregazione. Il numero è un fattore per il quale il valore della valutazione sarà moltiplicato prima di essere aggiunto alla somma di tutte le valutazioni, ma l'elemento stesso non sarà contato nella divisione. Per esempio:</p>
+
+<ul>
+    <li>Item 1 è valutato 0-100 e il suo "Extra credito" è impostato a 2</li>
+    <li>Item 2 è valutato 0-100 e il suo "Extra credito" è lasciato a 0.0000</li>
+    <li>Item 3 è valutato 0-100 e il suo "Extra credito" è lasciato a 0.0000</li>
+    <li>Tutti e 3 gli elementi appartengono alla Categoria 1, che ha "Media delle valutazioni (con extra credito)" come strategia di aggregazione</li>
+    <li>Uno studente è valutato 20 sull'elemento 1, 40 sull'elemento 2 e 70 sull'elemento 3</li>
+    <li>Il totale dello studente per la Categoria 1 sarà 95/100 poiché 20*2 + (40 + 70)/2 = 95</li>
+</ul>

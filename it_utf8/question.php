@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // question.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['adminreport'] = 'Rapporto su possibili problemi nel tuo database di domande.';
@@ -19,13 +19,16 @@ $string['cwrqpfsinfo'] = '<p>Nell\'aggiornamento a Moodle 1.9 separeremo le cate
 $string['cwrqpfsnoprob'] = 'Nessuna categoria del tuo sito è affetta dal problema \'Domande a caso che pescano domande da sotto-categorie\'.';
 $string['defaultfor'] = 'Default per $a';
 $string['defaultinfofor'] = 'La categoria default per le domande condivise nel contesto \'$a\'.';
+$string['deletecoursecategorywithquestions'] = 'Ci sono domande nel banco delle domande associate con questa categoria di corso. Se procedi, queste saranno cancellate. Puoi comunque spostarle prima, usando l\'interfaccia del banco delle domande.';
 $string['donothing'] = 'Non copiare o spostare files o cambiare links.';
 $string['editingcategory'] = 'Modifica una categoria';
 $string['editingquestion'] = 'Modifica una domanda';
 $string['erroraccessingcontext'] = 'Il contesto non può essere acceduto';
+$string['errordeletingquestionsfromcategory'] = 'Errore nella cancellazione di domande dalla categoria $a.';
 $string['errorfilecannotbecopied'] = 'Errore: il file $a non può essere copiato.';
 $string['errorfilecannotbemoved'] = 'Errore: il file $a non può essere spostato.';
 $string['errorfileschanged'] = 'Errore: i files linkati dalle domande sono cambiati da quando è iniziata la visualizzazione di questo form.';
+$string['errormovingquestions'] = 'Errore nello spostamento di domande con ids $a.';
 $string['exportcategory'] = 'Esporta categoria';
 $string['filesareacourse'] = 'area files del corso';
 $string['filesareasite'] = 'area files del sito';
@@ -34,6 +37,7 @@ $string['fractionsnomax'] = 'Una delle risposte dovrebbe avere un punteggio del 
 $string['getcategoryfromfile'] = 'Categoria da file';
 $string['getcontextfromfile'] = 'Contesto da file';
 $string['ignorebroken'] = 'Ignora link interrotti';
+$string['invalidcontextinhasanyquestions'] = 'Contesto non valido passato a question_context_has_any_questions.';
 $string['linkedfiledoesntexist'] = 'Il file linkato $a non esiste';
 $string['makechildof'] = 'Fai un discendente di \'$a\'';
 $string['maketoplevelitem'] = 'Muovi a livello Top';
@@ -41,6 +45,7 @@ $string['missingimportantcode'] = 'In questo tipo di domanda manca una parte imp
 $string['modified'] = 'Ultimo salvataggio';
 $string['move'] = 'Sposta da $a e modifica i link.';
 $string['movecategory'] = 'Sposta Categoria';
+$string['movedquestionsandcategories'] = 'Spostate domande e categorie di domande da $a->oldplace a $a->newplace.';
 $string['movelinksonly'] = 'Cambia solamente l\'indirizzamento dei link, non spostare o copiare i files.';
 $string['moveq'] = 'Sposta domande';
 $string['moveqtoanothercontext'] = 'Sposta domanda in un altro contesto';
@@ -62,8 +67,12 @@ $string['permissionto'] = 'Sei autorizzato a:';
 $string['published'] = 'condivise';
 $string['questionaffected'] = '<a href=\"$a->qurl\">La domanda \"$a->name\" ($a->qtype)</a> è in questa categoria ma è anche usata nel <a href=\"$a->qurl\">quiz \"$a->quizname\"</a> nell\'altro corso \"$a->coursename\".';
 $string['questionbank'] = 'Banco delle domande';
+$string['questioncategory'] = 'Categoria di domande';
 $string['questioncatsfor'] = 'Categorie di domande per \'$a\'';
 $string['questiondoesnotexist'] = 'Questa domanda non esiste';
+$string['questionsmovedto'] = 'Domande ancora in uso spostate a \"$a\" nella categoria superiore di corso.';
+$string['questionsrescuedfrom'] = 'Domande salvate dal contesto $a.';
+$string['questionsrescuedfrominfo'] = 'Queste domande (alcune delle quali possono essere nascoste) sono state salvate quando il contesto $a è stato cancellato, perché sono ancora utilizzate da qualche quiz o da altre attività.';
 $string['questionuse'] = 'Usa domanda in questa attività';
 $string['shareincontext'] = 'Condividi in contesto per $a';
 $string['tofilecategory'] = 'Scrivi categoria su file';

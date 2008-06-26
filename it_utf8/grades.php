@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
+      // grades.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['activities'] = 'Attività';
@@ -158,7 +158,7 @@ $string['errornocourse'] = 'Mancano informazioni sul corso';
 $string['errorreprintheadersnonnumeric'] = 'Inserito un valore non numerico per le ristampe dei titoli';
 $string['exceptions'] = 'Eccezioni';
 $string['excluded'] = 'Esclusi';
-$string['excludedhelp'] = 'Se -Escluso- è attivo, questa valutazione sarà esclusa da ogni aggregazione effettuata do ogni elemento o categoria superiori (parents).';
+$string['excludedhelp'] = 'Se -Escluso- è attivo, questa valutazione sarà esclusa da ogni aggregazione effettuata do ogni elemento o categoria gerarchicamente superiori.';
 $string['expand'] = 'Espandi Categoria';
 $string['export'] = 'Esportazione';
 $string['exportalloutcomes'] = 'Esporta tutti gli obiettivi';
@@ -480,6 +480,7 @@ $string['typetext'] = 'Testo';
 $string['typevalue'] = 'Valore';
 $string['uncategorised'] = 'Senza categoria';
 $string['unchangedgrade'] = 'Valutazione non modificata';
+$string['unenrolledusersinimport'] = 'Questa importazione includeva le seguenti valutazioni per utenti attualmente non iscritti in questo corso: $a';
 $string['unlock'] = 'Sproteggi';
 $string['unlockverbose'] = 'Sproteggi $a->category$a->itemmodule $a->itemname';
 $string['unused'] = 'Non usato';
@@ -492,6 +493,8 @@ $string['usenooutcome'] = 'Nessun obiettivo';
 $string['usenoscale'] = 'Nessuna scala';
 $string['usepercent'] = 'Percentuali';
 $string['user'] = 'Utente';
+$string['usergrade'] = 'Utente $a->fullname ($a->useridnumber) su elemento di valutazione $a->gradeidnumber';
+$string['userkeyhelp'] = 'Seleziona una chiave salvata che darà agli utenti accesso ai dati pubblicati da questa esportazione senza necessità del login su Moodle. Seleziona \'crea una nuova chiave utente\' per generare una nuova chiave quando si usa questo form.';
 $string['userpreferences'] = 'Preferenze utente';
 $string['useweighted'] = 'Pesate';
 $string['viewbygroup'] = 'Gruppo';

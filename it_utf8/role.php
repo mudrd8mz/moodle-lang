@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // role.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
-$string['addrole'] = 'Aggiungere un nuovo ruolo';
+$string['addrole'] = 'Aggiungi un nuovo ruolo';
 $string['allow'] = 'Permetti';
 $string['allowassign'] = 'Permetti l\'attribuzione di ruoli';
 $string['allowoverride'] = 'Permetti la modifica dei ruoli';
+$string['allsiteusers'] = 'Utenti di tutto il sito';
 $string['assignglobalroles'] = 'Assegna ruoli globali';
 $string['assignroles'] = 'Ruoli';
 $string['assignrolesin'] = 'Attribuire ruoli in $a';
@@ -78,6 +79,8 @@ $string['grade:unlock'] = 'Sbloccare valutazioni o elementi';
 $string['grade:view'] = 'Visualizzare proprie valutazioni';
 $string['grade:viewall'] = 'Visualizzare valutazioni di altri utenti';
 $string['grade:viewhidden'] = 'Visualizzare valutazioni nascoste per proprietario';
+$string['inactiveformorethan'] = 'non attivo per più di $a->timeperiod';
+$string['ingroup'] = 'nel gruppo \"$a->group\"';
 $string['inherit'] = 'Eredita';
 $string['legacy:admin'] = 'RUOLO ORIGINARIO: Amministratore';
 $string['legacy:coursecreator'] = 'RUOLO ORIGINARIO: Creatore corsi';
@@ -171,10 +174,12 @@ $string['user:readuserposts'] = 'Vedere i messaggi di tutti gli utenti';
 $string['user:update'] = 'Aggiornare i profili utente';
 $string['user:viewdetails'] = 'Visualizzare i profili utente';
 $string['user:viewhiddendetails'] = 'Visualizzare campi nascosti nei profili utenti';
-$string['user:viewuseractivitiesreport'] = 'Visualizzare i rappporti delle attività degli utenti';
+$string['user:viewuseractivitiesreport'] = 'Visualizzare i rapporti delle attività degli utenti';
 $string['user:viewusergrades'] = 'Visualizzare le valutazioni degli utenti';
+$string['userhashiddenassignments'] = 'Questo utente, in questo corso, ha una o più assegnazioni di ruolo in modalità nascosta';
+$string['userswithrole'] = 'Tutti gli utenti con un ruolo';
 $string['viewrole'] = 'Visualizzazione dettagli ruolo';
-$string['xuserswiththerole'] = 'Utenti con il ruolo \"<b>$a->role\": $a->number</b>';
+$string['xuserswiththerole'] = 'Utenti con il ruolo \"<b>$a->role</b>\"';
 $string['question:export'] = 'Esporta domande'; // ORPHANED
 $string['question:import'] = 'Importa domande'; // ORPHANED
 $string['question:manage'] = 'Gestisci domande'; // ORPHANED

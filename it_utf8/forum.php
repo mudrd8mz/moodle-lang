@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 + (Build: 20080310) (2007101509)
+      // forum.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -28,6 +28,7 @@ $string['blockperiod'] = 'Periodo per controllo limitazione';
 $string['blockperioddisabled'] = 'Non limitare';
 $string['bynameondate'] = 'di $a->name - $a->date';
 $string['cannotadddiscussion'] = 'L\'aggiunta di discussioni a questo forum richiede l\'appartenenza a un gruppo.';
+$string['cannotadddiscussionall'] = 'Non hai il permesso per aggiungere un nuovo argomento di discussione per tutti i partecipanti.';
 $string['cannotviewpostyet'] = 'Non puoi leggere le domande degli altri studenti in questa discussione perché non hai ancora effettuato interventi';
 $string['cleanreadtime'] = 'Marca vecchi interventi come ora lettura';
 $string['configcleanreadtime'] = 'L\'ora del giorno in cui vengono eliminati i vecchi interventi dalla tabella \'lettura\'.';
@@ -96,7 +97,7 @@ $string['forum:movediscussions'] = 'Spostare le discussioni';
 $string['forum:rate'] = 'Valutare gli interventi';
 $string['forum:replynews'] = 'Rispondere alle news';
 $string['forum:replypost'] = 'Rispondere agli interventi';
-$string['forum:splitdiscussions'] = 'Separare discussioni';
+$string['forum:splitdiscussions'] = 'Spezzare discussioni';
 $string['forum:startdiscussion'] = 'Iniziare una nuova discussione';
 $string['forum:throttlingapplies'] = 'Applicare le limitazioni';
 $string['forum:viewanyrating'] = 'Vedere tutte le valutazione';
@@ -182,10 +183,12 @@ $string['openmode1'] = 'Discussioni non permesse ma repliche consentite';
 $string['openmode2'] = 'Discussioni e repliche sono permesse';
 $string['overviewnumpostssince'] = '$a interventi dall\'ultimo accesso';
 $string['overviewnumunread'] = '$a totale non letti';
-$string['parent'] = 'Mostra superiore';
+$string['parent'] = 'Mostra intervento superiore';
 $string['parentofthispost'] = 'Padre di questo intervento';
 $string['postadded'] = '<p>Il tuo intervento è stato aggiunto con successo.</p><p>Hai $a a disposizione se desideri apportare delle modifiche.</p>';
-$string['postincontext'] = 'Vedi questo intervento nel contesto';
+$string['postaddedsuccess'] = 'Il tuo intervento è stato aggiunto con successo.';
+$string['postaddedtimeleft'] = 'Hai $a a disposizione se desideri apportare delle modifiche.';
+$string['postincontext'] = 'Mostra questo intervento nel contesto';
 $string['postmailinfo'] = 'Questa è la copia di un intervento effettuato su $a .
 Per replicare via internet, clicca su questo link:';
 $string['postmailnow'] = '<p>Questo intervento sarà inviato via mail immediatamente a tutti gli iscritti al forum.</p>';
@@ -198,7 +201,7 @@ $string['postupdated'] = 'Il tuo intervento è stato aggiornato';
 $string['potentialsubscribers'] = 'Utenti non iscritti';
 $string['processingdigest'] = 'Elaborazione mail della raccolta per l\'utente $a';
 $string['processingpost'] = 'Elaborazione intervento $a';
-$string['prune'] = 'Separa';
+$string['prune'] = 'Sposta altrove';
 $string['prunedpost'] = 'Una nuova discussione è stata creata a partire da quell\'intervento';
 $string['pruneheading'] = 'Spezza la discussione e sposta questo intervento ad una nuova discussione';
 $string['qandaforum'] = 'Forum Domande e Risposte';
