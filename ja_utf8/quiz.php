@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080626) (2008051203)
 
 
 $string['1day'] = '1日';
@@ -313,6 +313,7 @@ $string['importquestions'] = 'ファイルから問題をインポートする';
 $string['incorrect'] = '不正解';
 $string['indivresp'] = '各問題に対する解答内容';
 $string['info'] = 'インフォメーション';
+$string['infoshort'] = 'i';
 $string['introduction'] = 'イントロダクション';
 $string['invalidattemptid'] = 'そのような受験IDはありません。';
 $string['invalidcategory'] = 'カテゴリIDが正しくありません。';
@@ -441,6 +442,7 @@ $string['questionmissing'] = 'このセッションの問題がありません�
 $string['questionname'] = '問題名';
 $string['questionnametoolong'] = '$a 行の問題名が長すぎます (最大、半角255文字)。問題名を省略しました。';
 $string['questionno'] = '問題 $a';
+$string['questionnotloaded'] = '問題 $a はデータベースから読み込まれませんでした。';
 $string['questions'] = '問題';
 $string['questionsinclhidden'] = '問題 (隠された問題を含む)';
 $string['questionsinthisquiz'] = 'この小テストの問題';
@@ -580,11 +582,14 @@ $string['specificapathnotonquestion'] = '指定されたパスが問題にあり
 $string['specificquestionnotonquiz'] = '指定された問題が小テストにありません。';
 $string['startagain'] = 'もう一度始める';
 $string['startedon'] = '開始日時';
+$string['statenotloaded'] = '問題 $a の状態は、データベースから読み込まれませんでした。';
+$string['status'] = 'ステータス';
 $string['stoponerror'] = 'エラーで中止する';
 $string['subneterror'] = '申し訳ございません、この小テストは特定の場所からのみアクセスすることができます。あなたのコンピュータは、この小テストを利用できるコンピュータではありません。';
 $string['subnetnotice'] = '特定の場所からのみアクセスできるように、この小テストはロックされています。現在、あなたのコンピュータは、この小テストの使用を許可されていません。教師として、プレビューすることは許可されています。';
 $string['subnetwrong'] = 'この小テストには、特定の場所からのみアクセスすることができます。このコンピュータは、許可一覧に登録されていません。';
 $string['substitutedby'] = 'が次の値と置換されます:';
+$string['summaryofattempt'] = '受験の要約';
 $string['summaryofattempts'] = 'あなたの前回受験の要約';
 $string['temporaryblocked'] = 'あなたは、小テストを一時的に受験することができません。<br /> 次に小テストを受験できる日時は:';
 $string['time'] = '時間';
