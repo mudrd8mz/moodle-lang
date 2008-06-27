@@ -10,9 +10,9 @@ $string['highlightinggraded'] = 'La tentative comptant pour la note finale est s
 $string['noattemptsonly'] = 'N\'afficher / télécharger que les $a sans tentatives';
 $string['onlyoneattemptallowed'] = 'Une seule tentative par participant est autorisée pour ce test.';
 $string['optallattempts'] = 'toutes les tentatives';
-$string['optallstudents'] = 'tous les $a';
-$string['optattemptsonly'] = 'seulement $a avec tentatives';
-$string['optnoattemptsonly'] = 'seulement $a sans tentatives';
+$string['optallstudents'] = 'Tous les $a';
+$string['optattemptsonly'] = '$a ayant effectué le test';
+$string['optnoattemptsonly'] = '$a n\'ayant pas effectué le test';
 $string['optonlygradedattempts'] = 'seulement la tentative évaluée de chaque participant ($a)';
 $string['overview'] = 'Notes';
 $string['overviewdownload'] = 'Téléchargement vue d\'ensemble';
@@ -25,5 +25,6 @@ $string['show'] = 'Afficher / télécharger';
 $string['showdetailedmarks'] = 'Afficher / télécharger les points pour chaque question';
 $string['showinggraded'] = 'Afficher seulement les tentatives évaluées de chaque participant.';
 $string['showinggradedandungraded'] = 'Afficher toutes les tentatives de chaque participant. La tentative évaluée est surlignée pour chaque utilisateur. La méthode d\'évaluation pour ce test est $a.';
+$string['studentingroup'] = '$a->coursestudent du groupe $a->groupname';
 
 ?>
