@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080531) (2008051202)
+      // data.php - created with Moodle 2.0 dev (Build: 20080621) (2008051203)
 
 
 $string['action'] = '행동';
@@ -126,6 +126,7 @@ $string['forcelinkname'] = '링크에 대한 강제 이름';
 $string['foundnorecords'] = '기록 없음(<a href=\"$a->reseturl\">필터 초기화</a>)';
 $string['foundrecords'] = '기록 발견 : $a->num/$a->max (<a href=\"$a->reseturl\">필터 초기화</a>)';
 $string['fromfile'] = 'zip파일에서 가져옴';
+$string['generateerror'] = '생성 안 된 파일이 있음!';
 $string['guestrate'] = '손님계정으로는 추천할 수 없습니다.';
 $string['header'] = '머릿말';
 $string['headeraddtemplate'] = '게시물을 편집할 때 인터페이스 정의';
@@ -139,11 +140,11 @@ $string['importsuccess'] = '초기설정이 성공적으로 적용됨';
 $string['insufficiententries'] = '이 데이터베이스를 보기 위해서는 입력항목이 더 필요함';
 $string['intro'] = '소개';
 $string['invalidaccess'] = '이 화면은 제대로 접속되지 않았음';
-$string['invaliddata'] = '틀린 자료';
 $string['invalidfieldid'] = '필드 ID가 틀렸음';
 $string['invalidfieldname'] = '이 필드에 대한 다른 이름을 선택하시오.';
 $string['invalidfieldtype'] = '필드 형식이 틀림';
 $string['invalidid'] = '틀린 자료 ID';
+$string['invalidpreset'] = '$a 의 초기설정이 잘 못 됨';
 $string['invalidratedata'] = '틀린 추천 자료';
 $string['invalidrecord'] = '틀린 레코드';
 $string['invalidurl'] = '맞지 않는 URL';
@@ -162,6 +163,8 @@ $string['maxentries'] = '최대 게시물';
 $string['maxsize'] = '최대 크기';
 $string['menu'] = '메뉴';
 $string['menuchoose'] = '선택...';
+$string['missingdata'] = '데이터 ID 혹은 대상이 필드 클래스로 제공되어야 함';
+$string['missingfield'] = '작성 오류: 필드 클래스를 정의할 때 필드/데이터를 지정해야만 함';
 $string['modulename'] = '데이터베이스';
 $string['modulenameplural'] = '데이터베이스';
 $string['more'] = '더 이상';
@@ -262,6 +265,7 @@ $string['type'] = '항목 유형';
 $string['undefinedprocessactionmethod'] = '데이터 초기설정에서 \"$a\"를 처리하기 위한 방법이 정의되지 않았음.';
 $string['unsupportedexport'] = '($a->fieldtype) 내보낼 수 없음';
 $string['updatefield'] = '기존 항목 갱신';
+$string['updatingerror'] = '데이터베이스 갱신 중 오류 발생';
 $string['uploadfile'] = '파일 올리기';
 $string['uploadrecords'] = '파일에서 항목 올리기';
 $string['url'] = 'URL';
@@ -269,5 +273,6 @@ $string['usestandard'] = '초기설정 사용';
 $string['viewfromdate'] = '이후 볼 수 있음';
 $string['viewtodate'] = '까지 볼 수 있음';
 $string['wrongdataid'] = '잘못된 데이터 아이디가 제공되었음';
+$string['invaliddata'] = '틀린 자료'; // ORPHANED
 
 ?>
