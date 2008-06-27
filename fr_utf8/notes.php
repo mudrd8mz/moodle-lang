@@ -3,6 +3,7 @@
 $string['addnewnote'] = 'Ajouter une nouvelle annotation';
 $string['addnewnoteselect'] = 'Sélectionnez les utilisateurs sur lesquels écrire une annotation';
 $string['bynameondate'] = 'par $a->name - $a->date';
+$string['cannotdeletepost'] = 'Une erreur est survenue lors de la suppression de l\'annotation';
 $string['content'] = 'Contenu';
 $string['course'] = 'cours';
 $string['coursenotes'] = 'Annotations de cours';
