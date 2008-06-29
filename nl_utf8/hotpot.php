@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
 $string['abandoned'] = 'verlaten';
@@ -15,6 +15,7 @@ $string['average'] = 'Gemiddelde';
 $string['cannotaddquestionrecord'] = 'Kon geen vraag-record toevoegen';
 $string['cannotaddresprecord'] = 'Kon geen antwoord-record toevoegen';
 $string['cannotaddstrrecord'] = 'Kon geen string-record toevoegen';
+$string['cannotfindmethod'] = 'Methode om Sjabloonblok uit te pakken niet gevonden: ($a)';
 $string['cannotupdateattempt'] = 'Kon de attempt record $a niet updaten';
 $string['checks'] = 'controles';
 $string['clickreporting'] = 'Schakel klikrapportering in';

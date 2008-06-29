@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
 $string['add_item'] = 'Voeg een vraag toe';
@@ -67,6 +67,7 @@ $string['feedback:edititems'] = 'Bewerk items';
 $string['feedback:mapcourse'] = 'Koppel cursussen aan globale feedbacks';
 $string['feedback:receivemail'] = 'E-mailnotifivatie ontvangen';
 $string['feedback:view'] = 'Feedback bekijken';
+$string['feedback:viewanalysepage'] = 'Bekijk de analysepagina na insturen';
 $string['feedback:viewreports'] = 'Rapporten bekijken';
 $string['feedback_is_not_open'] = 'De feedback is niet open';
 $string['feedback_options'] = 'Feedbackopties';
@@ -137,7 +138,6 @@ $string['position'] = 'Positie';
 $string['preview'] = 'Voorbeeld';
 $string['previous_page'] = 'Vorige pagina';
 $string['public'] = 'Publiek';
-$string['publish_stats_on_students'] = 'Toon analyse aan leerlingen';
 $string['question'] = 'Vraag';
 $string['questions'] = 'Vragen';
 $string['radio'] = 'Meerkeuzevraag - één antwoord';
@@ -163,6 +163,7 @@ $string['selected_dump'] = 'De geselecteerde indexen van $SESSION variable staan
 $string['separator_decimal'] = ',';
 $string['separator_thousand'] = '.';
 $string['show_all'] = 'Toon alle';
+$string['show_analysepage_after_submit'] = 'Toon analysepagina na insturen';
 $string['show_entries'] = 'Toon antwoorden';
 $string['show_entry'] = 'Toon antwoord';
 $string['site_after_submit'] = 'Site na insturen';
@@ -187,6 +188,7 @@ $string['use_one_line_for_each_value'] = '<br />Gebruik één regel per antwoord
 $string['use_this_template'] = 'Gebruik dit sjabloon';
 $string['using_templates'] = 'Gebruik een sjabloon';
 $string['vertical'] = 'verticaal';
+$string['publish_stats_on_students'] = 'Toon analyse aan leerlingen'; // ORPHANED
 $string['all_old_values_will_be_deleted'] = 'Alle oude waarden worden gewist'; // ORPHANED
 $string['all_related_values_will_be_deleted'] = 'Alle verwante waarden worden gewist'; // ORPHANED
 $string['are_you_sure_to_delete_this_entry'] = 'Weet u zeker dat u deze invoer wilt wissen?'; // ORPHANED
