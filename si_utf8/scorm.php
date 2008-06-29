@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2007101508.05)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
 $string['activation'] = 'සක්‍රිය කිරීම';
@@ -19,6 +19,7 @@ $string['browse'] = 'පෙරදසුන';
 $string['browsed'] = 'බ්‍රවුස් කරන ලදි';
 $string['browsemode'] = 'පෙරදසුන් ප්‍රකාරය';
 $string['browserepository'] = 'ගබඩාව බ්‍රවුස් කිරීම';
+$string['cannotfindsco'] = 'SCO සොයා ගැනීමට නොමැත';
 $string['chooseapacket'] = 'පැකේජය තොරන්න හෝ යාවත්කාලීන කරන්න';
 $string['completed'] = 'සම්පූර්ණ කර ඇත';
 $string['confirmloosetracks'] = 'අවවාදයයි: පැකේජය වෙනස්වී හෝ වෙනස්කරන ලද බව පෙනේ. පැකේජයේ සැකසුම වෙනස්වී ඇත්නම් යාවත්කාලීන ක්‍රියාවලියේදී ඇතැම් පරිශීලක හඹායෑම් නැතිවිය හැක.';
@@ -67,6 +68,7 @@ $string['iframe'] = 'පවතින කවුළුවේම';
 $string['iframedisplay'] = 'පවතින කවුළුවේ පැකේජය විවෘත කරන්න';
 $string['incomplete'] = 'අසම්පූර්ණ';
 $string['interactions'] = 'අන්තර්ක්‍රියා';
+$string['invalidactivity'] = 'Scorm ක්‍රියාකාරකම වැරදියි';
 $string['last'] = 'අවසන්වරට පිවිසී ඇත්තේ';
 $string['lastaccess'] = 'අවසන් පිවිසුම';
 $string['lastattempt'] = 'අවසන් උත්සහය';
