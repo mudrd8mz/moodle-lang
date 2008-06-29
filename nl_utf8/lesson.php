@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
@@ -57,7 +57,9 @@ $string['cannotinsertgrade'] = 'Kon beoordeling niet toevoegen';
 $string['cannotinserthighscore'] = 'Invoegen van neiuwe hoogste cijfer mislukt!';
 $string['cannotinsertpage'] = 'Kan geen nieuwe pagina invoegen';
 $string['cannotinserttimer'] = 'Fout: kon geen nieuwe rij invoegen in lesson_timer tabel';
+$string['cannotresetjump'] = 'Les restorelib: kan sprong niet herstellen';
 $string['cannotupdateanswer'] = 'Update-pagina: antwoord niet geüpdated';
+$string['cannotupdatebook'] = 'Kan je boek niet updaten';
 $string['cannotupdateessayscore'] = 'Kon openvraagscore niet updaten';
 $string['cannotupdategrade'] = 'Kon beoordeling niet updaten';
 $string['cannotupdatelink'] = 'Kon link niet updaten';
