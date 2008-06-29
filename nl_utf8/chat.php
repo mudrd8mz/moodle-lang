@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
+$string['ajax'] = 'Versie met Ajax';
+$string['autoscroll'] = 'Automatisch rollen';
 $string['beep'] = 'Piep';
 $string['cantinsert'] = 'Kon chatbericht niet toevoegen!';
 $string['cantlogin'] = 'Kon niet in de chatroom!';
@@ -47,6 +49,7 @@ $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chats';
 $string['neverdeletemessages'] = 'Berichten nooit verwijderen';
 $string['nextsession'] = 'Volgende geplande sessie';
+$string['nochat'] = 'Geen chatruimte gevonden';
 $string['noguests'] = 'De chatruimte is niet toegankelijk voor gastgebruikers';
 $string['nomessages'] = 'Nog geen berichten';
 $string['normalkeepalive'] = 'KeepAlive';
@@ -64,6 +67,8 @@ $string['repeattimes'] = 'Herhaal sessies';
 $string['repeatweekly'] = 'Elke week om dezelfde tijd';
 $string['savemessages'] = 'Bewaar voorbije chatsessies';
 $string['seesession'] = 'Bekijk deze sessie';
+$string['send'] = 'Stuur';
+$string['sending'] = 'Versturen';
 $string['serverhost'] = 'Servernaam';
 $string['serverip'] = 'Server IP';
 $string['servermax'] = 'Maximum aantal gebruikers';
@@ -72,6 +77,7 @@ $string['sessions'] = 'Chatsessies';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Iedereen kan voorbije chatsessies bekijken';
 $string['updatemethod'] = 'Update methode';
+$string['updaterate'] = 'Updatesnelheid';
 $string['viewreport'] = 'Bekijk voorbije chatsessies';
 
 ?>
