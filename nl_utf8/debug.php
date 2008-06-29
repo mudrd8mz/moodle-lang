@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
 $string['authpluginnotfound'] = 'Authenticatieplugin $a niet gevonden.';
@@ -9,6 +9,7 @@ $string['cannotdowngrade'] = 'Kan niet terugdraaien van from $a[0] to $a[1].';
 $string['cannotfindadmin'] = 'Kon geen beheerder vinden!';
 $string['cannotinitpage'] = 'Kan pagina niet helemaal initialiseren: ongeldige $a[0] id $a[1]';
 $string['cannotsetupsite'] = 'Fatale fout: kon de site niet installeren!';
+$string['cannotsetuptable'] = '$a tabellen konden NIET juist ingesteld worden!';
 $string['cannotupdaterelease'] = 'Fout: kon de versie niet updaten in de databank!';
 $string['cannotupdateversion'] = 'Upgrade mislukt! (Kon de versie niet upgraden in de config tabel)';
 $string['cannotupgradecapabilities'] = 'Problemen met het upgraden van de hoofdmogelijkheden van het rollensysteem';

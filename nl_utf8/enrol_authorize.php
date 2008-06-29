@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
 $string['adminacceptccs'] = 'Welke kredietkaarten zullen aanvaard worden?';
@@ -53,6 +53,7 @@ $string['authcode'] = 'Authorisatiecode';
 $string['authorize:managepayments'] = 'Beheer betalingen';
 $string['authorize:uploadcsv'] = 'CSV-bestand uploaden';
 $string['authorizedpendingcapture'] = 'Goedgekeurd / Wachten op kreditering';
+$string['authorizeerror'] = 'Authorize.net fout: $a';
 $string['avsa'] = 'Adres (straat) is juist';
 $string['avsb'] = 'Adres niet opgegeven';
 $string['avse'] = 'Systeem fout in adresverificatie';
