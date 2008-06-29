@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // data.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
 $string['action'] = 'Actie';
@@ -127,6 +127,7 @@ $string['forcelinkname'] = 'Geforceerde naam voor de link';
 $string['foundnorecords'] = 'Geen records gevonden (<a href=\"$a->reseturl\">Reset filters</a>)';
 $string['foundrecords'] = 'Gevonden records: $a->num/$a->max (<a href=\"$a->reseturl\">Reset filters</a>)';
 $string['fromfile'] = 'Van zip-bestand';
+$string['generateerror'] = 'Niet alle bestanden gegenereerd!';
 $string['guestrate'] = 'Gasten mogen geen  items beoordelen';
 $string['header'] = 'Koptekst';
 $string['headeraddtemplate'] = 'Definieer de interface voor het vullen van de databank';
@@ -140,11 +141,11 @@ $string['importsuccess'] = 'De sjabloonset is met succes toegepast';
 $string['insufficiententries'] = 'meer items nodig om deze databank te kunnen bekijken';
 $string['intro'] = 'Inleiding';
 $string['invalidaccess'] = 'Deze pagina is niet correct opgevraagd';
-$string['invaliddata'] = 'Gegevensfout';
 $string['invalidfieldid'] = 'Veld ID is fout';
 $string['invalidfieldname'] = 'Kies een andere naam voor dit veld';
 $string['invalidfieldtype'] = 'Verld type is fout';
 $string['invalidid'] = 'Data ID is fout';
+$string['invalidpreset'] = '$a is geen sjabloon.';
 $string['invalidratedata'] = 'Fout ingestuurde beoordelingsgegevens';
 $string['invalidrecord'] = 'Record fout';
 $string['invalidurl'] = 'De URL die je net gaf is niet geldig';
@@ -163,6 +164,8 @@ $string['maxentries'] = 'Maximum items';
 $string['maxsize'] = 'Maximum grootte';
 $string['menu'] = 'Menu (enkele selectie)';
 $string['menuchoose'] = 'Kies...';
+$string['missingdata'] = 'Data ID of object moet opgegeven worden aan field class';
+$string['missingfield'] = 'Programmatiefout: je moet een veld en of gegevens specifiëren wanneer je een field class definieerd.';
 $string['modulename'] = 'Databank';
 $string['modulenameplural'] = 'Databanken';
 $string['more'] = 'Meer';
@@ -263,6 +266,7 @@ $string['type'] = 'Veldtype';
 $string['undefinedprocessactionmethod'] = 'Geen methode gedefiniëerd in Data_Preset om de actie \"$a\" af te handelen.';
 $string['unsupportedexport'] = '($a->fieldtype) kan niet geëxporteerd worden.';
 $string['updatefield'] = 'Update een bestaand veld';
+$string['updatingerror'] = 'Er was een fout bij het updaten van de databank';
 $string['uploadfile'] = 'Upload bestand';
 $string['uploadrecords'] = 'Upload records uit een bestand';
 $string['url'] = 'URL';
@@ -270,5 +274,6 @@ $string['usestandard'] = 'gebruik een sjabloonset';
 $string['viewfromdate'] = 'Zichtbaar vanaf';
 $string['viewtodate'] = 'Zichtbaar voor';
 $string['wrongdataid'] = 'Verkeerd data-ID opgegeven';
+$string['invaliddata'] = 'Gegevensfout'; // ORPHANED
 
 ?>
