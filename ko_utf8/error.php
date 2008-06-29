@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080625) (2008051203)
+      // error.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -181,7 +181,7 @@ $string['dbdriverproblem'] = '<p>오류: 데이터베이스의 드라이버 문�
 $string['dbupdatefailed'] = '데이터베이스 갱신 실패';
 $string['ddlexecuteerror'] = 'DDL 쿼리 실행 오류';
 $string['ddlfieldalreadyexists'] = '\"$a\" 필드가 없음';
-$string['ddlfieldnotexist'] = '\"$a->tablename\" 테이블에 \"$a\" 필드가 없음';
+$string['ddlfieldnotexist'] = '\"$a->tablename\" 테이블에 \"$a->fieldname\" 필드가 없음';
 $string['ddltablealreadyexists'] = '테이블 \"$a\"는 벌써 만들어져 있음';
 $string['ddltablenotexist'] = '테이블 \"$a\"가 없음';
 $string['ddlunknownerror'] = '알수없는 DDL 라이브러리 오류';
