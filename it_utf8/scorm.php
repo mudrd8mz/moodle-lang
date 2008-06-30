@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // scorm.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['activation'] = 'Attivazione';
@@ -151,7 +151,8 @@ $string['validation'] = 'Risultato controllo';
 $string['validationtype'] = 'Questa impostazione abilita l\'utilizzo di una libreria DOMXML per validare il manifest. Se non conosci quale libreria è installata sul tuo server lascia la preselezione.';
 $string['value'] = 'Valore';
 $string['versionwarning'] = 'La versione del manifest è precedente alla 1.3, avviso rilevato al tag $a->tag';
-$string['viewallreports'] = 'Vedi lo stato dei $a tentativi';
+$string['viewallreports'] = 'Mostra lo stato dei $a tentativi';
+$string['viewalluserreports'] = 'Mostra lo stato dei $a utenti';
 $string['whatgrade'] = 'Valutazione tentativi';
 $string['width'] = 'Larghezza';
 $string['window'] = 'Finestra';

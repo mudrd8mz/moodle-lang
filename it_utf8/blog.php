@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8 Beta + (2007021501)
+      // blog.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['addnewentry'] = 'Nuovo intervento';
-$string['addotags'] = 'Aggiungi tag ufficiali';
-$string['addptags'] = 'Aggiungi tag definiti dall\'utente';
+$string['backupblogshelp'] = 'Se abilitato, i blog verranno inclusi nei backup automatici di SITO';
 $string['blockmenutitle'] = 'Menu Blog';
 $string['blocktagstitle'] = 'Tag dei blog';
 $string['blocktitle'] = 'Titolo blocco tag dei blog';
@@ -34,10 +33,9 @@ $string['norighttodeletetag'] = 'Non hai l\'autorizzazione di cancellare questo 
 $string['notallowedtoedit'] = 'Non vi è permesso modificare questo intervento';
 $string['numberofentries'] = 'Interventi: $a';
 $string['numberoftags'] = 'Numero tag da mostrare';
-$string['otags'] = 'Tag ufficiali';
 $string['pagesize'] = 'Numero di interventi del blog per Pagina';
+$string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'Gli utenti possono vedere solo i propri blog';
-$string['ptags'] = 'Tag definiti dall\'utente';
 $string['publishto'] = 'Pubblicazione';
 $string['publishtonoone'] = 'Personale (Bozza)';
 $string['publishtosite'] = 'Su questo sito';
@@ -56,5 +54,9 @@ $string['viewcourseentries'] = 'Interventi del corso';
 $string['viewmyentries'] = 'Miei interventi';
 $string['viewsiteentries'] = 'Interventi del sito';
 $string['worldblogs'] = 'Tutti possono leggere gli interventi impostati come pubblici';
+$string['addotags'] = 'Aggiungi tag ufficiali'; // ORPHANED
+$string['addptags'] = 'Aggiungi tag definiti dall\'utente'; // ORPHANED
+$string['otags'] = 'Tag ufficiali'; // ORPHANED
+$string['ptags'] = 'Tag definiti dall\'utente'; // ORPHANED
 
 ?>

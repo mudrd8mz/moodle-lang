@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta 4 + (2007101508.07)
+      // data.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['action'] = 'Azione';
@@ -13,9 +13,12 @@ $string['allowcomments'] = 'Permettere commenti?';
 $string['allowratings'] = 'Valutazione dei record inseriti';
 $string['alttext'] = 'Testo alternativo';
 $string['approve'] = 'Approva';
+$string['approved'] = 'Approvato';
 $string['ascending'] = 'Ascendente';
 $string['asearchtemplate'] = 'Modello ricerca avanzata';
 $string['atmaxentry'] = 'È stato inserito il massimo numero consentito di record!';
+$string['authorfirstname'] = 'Nome autore';
+$string['authorlastname'] = 'Cognome autore';
 $string['autogenallforms'] = 'Imposta automaticamente i modelli di visualizzazione';
 $string['autolinkurl'] = 'Collega automaticamente la URL';
 $string['availablefromdate'] = 'E\' possibile inserire record dal';
@@ -96,7 +99,7 @@ $string['fieldheightsingleview'] = 'Altezza nella visualizzazione \"Dettagli\"';
 $string['fieldids'] = 'Id del campo';
 $string['fieldmappings'] = 'Mappatura dei campi';
 $string['fieldname'] = 'Nome del campo';
-$string['fieldoptions'] = 'Opzioni (scrivete una sola opzione per ciascuna linea)';
+$string['fieldoptions'] = 'Opzioni (scrivete una sola opzione per ciascuna riga)';
 $string['fields'] = 'Campi';
 $string['fieldupdated'] = 'Il campo è stato aggiornato';
 $string['fieldwidth'] = 'Larghezza';
@@ -107,6 +110,8 @@ $string['filesnotgenerated'] = 'Non tutti i files sono stati generati: $a';
 $string['filtername'] = 'Generazione automatica di link verso il Database';
 $string['footer'] = 'Pié di pagina';
 $string['forcelinkname'] = 'Nome';
+$string['foundnorecords'] = 'Non trovato alcun record (<a href=\"$a->reseturl\">Reset filtri</a>)';
+$string['foundrecords'] = 'Record trovati: $a->num/$a->max (<a href=\"$a->reseturl\">Reset filtri</a>)';
 $string['fromfile'] = 'da un file .zip';
 $string['header'] = 'Intestazione';
 $string['headeraddtemplate'] = 'Imposta come apparirà il form di inserimento o modifica dei record.';
@@ -173,7 +178,9 @@ $string['numnotapproved'] = 'In attesa di approvazione';
 $string['numrecords'] = '<strong>$a</strong> Record';
 $string['optionaldescription'] = 'Descrizione breve (opzionale)';
 $string['optionalfilename'] = 'Nome del file (opzionale)';
+$string['other'] = 'Altro';
 $string['overwrite'] = 'Sovrascrivi';
+$string['overwritesettings'] = 'Sovrascrivi impostazioni correnti';
 $string['pagesize'] = 'Record per pagina';
 $string['participants'] = 'Sono autorizzati ad inserire record';
 $string['picture'] = 'Immagine';
@@ -214,6 +221,7 @@ $string['savesettings'] = 'Salva le impostazioni';
 $string['savesuccess'] = 'Le preimpostazioni sono state salvate. Queste preimpostazioni saranno disponibili in tutto il sito.';
 $string['savetemplate'] = 'Salva il modello di visualizzazione';
 $string['search'] = 'Cerca';
+$string['selectedrequired'] = 'Richiesta selezione tutti';
 $string['sendinratings'] = 'Invia le mie più recenti valutazioni';
 $string['showall'] = 'Mostra tutti i record';
 $string['single'] = 'Dettagli';
@@ -223,6 +231,8 @@ $string['templates'] = 'Modelli di visualizzazione';
 $string['templatesaved'] = 'Il modello di visualizzazione è stato salvato';
 $string['text'] = 'Testo';
 $string['textarea'] = 'Area di testo';
+$string['timeadded'] = 'Data/ora aggiunto';
+$string['timemodified'] = 'Data/ora modificato';
 $string['todatabase'] = 'in questo Database';
 $string['type'] = 'Tipo di campo';
 $string['undefinedprocessactionmethod'] = 'Nessuna metodo definito in Data_Preset per gestire l\'azione \"$a\".';

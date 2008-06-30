@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 (2007021501)
+      // survey.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['actual'] = 'Attuale';
@@ -21,9 +21,9 @@ $string['attls13'] = 'Mi è più facile provare a capire l\'opinione di qualcun 
 $string['attls13short'] = 'provare a capire';
 $string['attls14'] = 'Cerco di evidenziare le debolezze degli altri pensando di aiutarli a chiarire le loro argomentazioni.';
 $string['attls14short'] = 'evidenziare le debolezze';
-$string['attls15'] = 'Tendo a mettermi nei panni degli altri quando discutiamo, per capire perchè la pensano in quel modo.';
+$string['attls15'] = 'Tendo a mettermi nei panni degli altri quando discutiamo, per capire perché la pensano in quel modo.';
 $string['attls15short'] = 'mettermi nei panni degli altri';
-$string['attls16'] = 'Il mio modo di analizzare le cose si potrebbe chiamare \'mettere alla prova\' perchè sono attento a prendere in considerazione tutti i casi.';
+$string['attls16'] = 'Il mio modo di analizzare le cose si potrebbe chiamare \'mettere alla prova\' perché sono attento a prendere in considerazione tutti i casi.';
 $string['attls16short'] = 'mettere alla prova';
 $string['attls17'] = 'Io metto l\'uso della logica e della ragione sopra ogni mia preoccupazione quando risolvo dei problemi.';
 $string['attls17short'] = 'dare maggior importanza alla logica';
@@ -46,9 +46,9 @@ $string['attls6'] = 'Mi piace ascoltare le opinioni delle persone che provengono
 $string['attls6short'] = 'ascoltare opinioni diverse';
 $string['attls7'] = 'Trovo che posso rinforzare la mia posizione discutendo con qualcuno che non sia d\'accordo con me.';
 $string['attls7short'] = 'rinforzarsi discutendo';
-$string['attls8'] = 'Sono sempre interessato a sapere perchè le persone dicono e credono le cose che fanno.';
-$string['attls8short'] = 'sapere perchè le persone fanno';
-$string['attls9'] = 'Spesso mi ritrovo a discutere con gli autori dei libri che leggo, cercando di dimostrare logicamente perchè hanno torto.';
+$string['attls8'] = 'Sono sempre interessato a sapere perché le persone dicono e credono le cose che fanno.';
+$string['attls8short'] = 'sapere perché le persone fanno';
+$string['attls9'] = 'Spesso mi ritrovo a discutere con gli autori dei libri che leggo, cercando di dimostrare logicamente perché hanno torto.';
 $string['attls9short'] = 'discutere con gli autori';
 $string['attlsintro'] = 'L\'obiettivo di questo sondaggio è aiutarci a valutare il tuo atteggiamento nei confronti del pensare e dell\'imparare.
 
@@ -164,6 +164,8 @@ Le tue risposte saranno considerate con attenzione e ci aiuteranno a migliorare 
 Grazie.';
 $string['collespname'] = 'COLLES (Preferito)';
 $string['customintro'] = 'Introduzione personalizzata';
+$string['deleteallanswers'] = 'Cancella tutte le risposte al sondaggio';
+$string['deleteanalysis'] = 'Cancella analisi risposte';
 $string['done'] = 'Fatto';
 $string['download'] = 'Download';
 $string['downloadexcel'] = 'Scarica come file Excel';
@@ -193,6 +195,7 @@ $string['question'] = 'Domanda';
 $string['questions'] = 'Domande';
 $string['questionsnotanswered'] = 'Alcune delle domande a scelta multipla non hanno avuto risposta.';
 $string['report'] = 'Prospetto del sondaggio';
+$string['responses'] = 'Risposte';
 $string['savednotes'] = 'Le tue annotazioni sono state salvate';
 $string['scaleagree5'] = 'Fortemente in disaccordo,Un pò in disaccordo,Nè daccordo nè in disaccordo,Abbastanza daccordo,Completamente daccordo';
 $string['scales'] = 'Valutazioni';

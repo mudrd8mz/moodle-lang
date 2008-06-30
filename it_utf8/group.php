@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // group.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['addgroupstogrouping'] = 'Aggiungi gruppo a raggruppamento';
@@ -52,6 +52,7 @@ $string['groupingdescription'] = 'Descrizione raggruppamento';
 $string['groupingname'] = 'Nome raggruppamento';
 $string['groupingnameexists'] = 'Il raggruppamento di nome \'$a\' già esiste in questo corso, scegliere un altro nome.';
 $string['groupings'] = 'Raggruppamenti';
+$string['groupingsonly'] = 'Solo raggruppamenti';
 $string['groupmember'] = 'Membro del gruppo';
 $string['groupmemberdesc'] = 'Ruolo standard per un membro di un gruppo';
 $string['groupmembers'] = 'Membri del gruppo';
@@ -67,8 +68,10 @@ $string['groupnameexists'] = 'Il nome di gruppo \'<b>$a</b>\' è già esistente 
 $string['groupnotamember'] = 'Spiacente non sei un membro di quel gruppo';
 $string['groups'] = 'Gruppi';
 $string['groupscount'] = 'Gruppi ($a)';
+$string['groupsgroupings'] = 'Gruppi &amp; raggruppamenti';
 $string['groupsinselectedgrouping'] = 'Gruppi nel raggruppamento';
 $string['groupsnone'] = 'Nessun gruppo';
+$string['groupsonly'] = 'Solo gruppi';
 $string['groupspreview'] = 'Anteprima gruppi';
 $string['groupsseparate'] = 'Gruppi separati';
 $string['groupsvisible'] = 'Gruppi visibili';

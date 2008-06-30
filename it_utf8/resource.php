@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // resource.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -48,6 +48,7 @@ $string['fetcherror'] = 'E\' stato rilevato un errore durante l\'accesso alla pa
 $string['fetchservererror'] = 'E\' stato rilevato un errore sul server mentre provavo a recuperare la pagina web (potrebbe esserci un errore nel codice).<br />';
 $string['filename'] = 'Nome del file';
 $string['filtername'] = 'Creazione automatica di link ai nomi delle risorse';
+$string['forcedownload'] = 'Forza download';
 $string['frameifpossible'] = 'Mostra la risorsa in un frame mantenendo visibile i pulsanti di navigazione.';
 $string['framesize'] = 'Dimensione frame';
 $string['fulltext'] = 'Testo visualizzato dalla risorsa';

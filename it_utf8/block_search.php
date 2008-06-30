@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // block_search.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['blockname'] = 'Ricerca globale';
@@ -14,5 +14,6 @@ $string['configwordtotextcmd'] = 'Percorso per il comando docftotext';
 $string['configwordtotextenv'] = 'Impostazioni per il convertitore MSWord';
 $string['go'] = 'Vai';
 $string['searchmoodle'] = 'Ricerca in Moodle';
+$string['usemoodleroot'] = 'Usa Moodle root per i convertitori esterni';
 
 ?>

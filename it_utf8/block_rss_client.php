@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // block_rss_client.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
 
 
 $string['addfeed'] = 'Aggiungi un URL di feed news:';
-$string['addheadlineblock'] = 'Aggiungi il  titolo per il blocco RSS';
+$string['addheadlineblock'] = 'Aggiungi il titolo per il blocco RSS';
 $string['addnew'] = 'Aggiungi nuovo';
 $string['blockname'] = 'Client RSS';
 $string['choosefeedlabel'] = 'Scegliere quale feed rendere disponibile in questo blocco:';
@@ -41,8 +41,10 @@ $string['seeallfeeds'] = 'Visualizza tutti i feed';
 $string['sharedfeed'] = 'Feed condivisi';
 $string['shownumentrieslabel'] = 'Numero massimo di voci da mostrare per blocco.';
 $string['submitters'] = 'Chi sarà  autorizzato a definire nuovi feed RSS?
-Alcuni feed sono disponibili per utte le pagine del vostro sito.';
-$string['timeout'] = 'blockrsstimeout';
+Alcuni feed sono disponibili per tutte le pagine del vostro sito.';
+$string['submitters2'] = 'Creatori';
+$string['timeout'] = 'Tempo in minuti prima che un feed RSS sparisca dalla cache. Notare che questo tempo definisce il minimo intervallo prima della scomparsa; il feed sarà ripristinato nella cache alla prossima esecuzione del cron dopo la scomparsa. Valori raccomandati sono 30 min e oltre.';
+$string['timeout2'] = 'Tempo massimo';
 $string['timeoutdesc'] = 'Tempo di permanenza nella cache di un RSS feed. (minuti)';
 $string['updatefeed'] = 'Aggiorna l\'URL di un feed News:';
 $string['validatefeed'] = 'Valida feed';
