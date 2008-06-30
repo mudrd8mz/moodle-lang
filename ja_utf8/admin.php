@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080630) (2008063002)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -266,6 +266,7 @@ $string['csvdelimiter'] = 'CSVデリミタ';
 $string['ctyperecommended'] = 'あなたのサイトが非ラテン言語をサポートしている場合、サイトパフォーマンスを改善するため、PHP ctype拡張モジュールのインストールを強くお勧めします。';
 $string['ctyperequired'] = 'サイトパフォーマンスの改善および多言語サポートを提供するため、MoodleではPHP ctype拡張モジュールが必須です。';
 $string['curlrecommended'] = 'Moodleネットワーキング機能を有効にするため、cURLライブラリのインストールを強くお勧めします。';
+$string['curlrequired'] = 'Moodleリポジトリと通信するため、MoodleではPHP cURL拡張モジュールが必須です。';
 $string['customcheck'] = 'その他のチェック';
 $string['datarootsecuritywarning'] = 'あなたのサイト設定は、安全ではない可能性があります。datarootディレクトリ ($a) が、ウェブから直接アクセスできないことを確認してください。';
 $string['dbmigrate'] = 'Moodleデータベース移行';
