@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080626) (2008051203)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080630) (2008063002)
 
 
 $string['1day'] = '1日';
@@ -221,6 +221,7 @@ $string['errorinquestion'] = '問題のエラー';
 $string['errormissingquestion'] = 'エラー: id $a の問題はありません。';
 $string['errornotnumbers'] = 'エラー - 答えは数字を使用してください。';
 $string['errorsdetected'] = '$a のエラーが見つかりました';
+$string['errorunexpectedevent'] = '受験「 $a->attemptid 」の問題「 $a->questionid 」に予期しないイベントコード「 $a->event 」が見つかりました。';
 $string['essay'] = '作文問題';
 $string['essayquestions'] = '問題';
 $string['event1'] = '自動保存';
