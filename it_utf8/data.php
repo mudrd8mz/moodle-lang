@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // data.php - created with Moodle 1.9.1+ (Build: 20080625) (2007101514)
 
 
 $string['action'] = 'Azione';
-$string['add'] = 'Aggiungi record';
+$string['add'] = 'Aggiungi';
 $string['addafield'] = 'Aggiungi un campo';
 $string['addcomment'] = 'Aggiungi un commento';
 $string['addentries'] = 'Aggiungi record';
@@ -23,12 +23,14 @@ $string['autogenallforms'] = 'Imposta automaticamente i modelli di visualizzazio
 $string['autolinkurl'] = 'Collega automaticamente la URL';
 $string['availablefromdate'] = 'E\' possibile inserire record dal';
 $string['availabletags'] = 'Tag disponibili';
-$string['availabletodate'] = 'E\' possibile inserire record fino al';
+$string['availabletodate'] = 'fino al';
 $string['blank'] = 'Vuoto';
 $string['buttons'] = 'Pulsanti';
 $string['bynameondate'] = 'di <strong>$a->name - $a->date</strong>';
 $string['cancel'] = 'Annulla';
 $string['checkbox'] = 'Casella Spunta';
+$string['chooseexportfields'] = 'Scegli i record da esportare';
+$string['chooseexportformat'] = 'Scegli il formato di esportazione';
 $string['chooseorupload'] = 'Scegli un file';
 $string['columns'] = 'colonne';
 $string['comment'] = 'Commento';
@@ -43,6 +45,7 @@ $string['confirmdeleterecord'] = 'Stai per eliminare questo record. Ne sei certo
 $string['csstemplate'] = 'Foglio di stile CSS';
 $string['csvfile'] = 'File CSV';
 $string['csvimport'] = 'Importa un file CSV';
+$string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym> testo delimitato da:';
 $string['data:approve'] = 'Approvare tutti i record in attesa';
 $string['data:comment'] = 'Scrivere i commenti';
 $string['data:managecomments'] = 'Gestire i commenti';
@@ -83,8 +86,10 @@ $string['entry'] = 'Record';
 $string['entrysaved'] = 'Il record è stato salvato';
 $string['errormustbeteacher'] = 'Devi avere il ruolo di docente per utilizzare questa pagina!';
 $string['example'] = 'Esempio di modulo Database';
-$string['export'] = 'Esporta preimpostazioni';
+$string['excel'] = 'Excel';
+$string['export'] = 'Esporta';
 $string['exportaszip'] = 'Esporta come .zip';
+$string['exportdatabaserecords'] = 'Esporta i record del Database';
 $string['exportedtozip'] = 'Preimpostazione esportata su un file .zip temporaneo';
 $string['failedpresetdelete'] = 'Errore nella cancellazione di una preimpostazione!';
 $string['fieldadded'] = 'Il campo è stato aggiunto.';
@@ -176,6 +181,7 @@ $string['number'] = 'Numero';
 $string['numberrssarticles'] = 'Numero di record da mostrare nel feed RSS';
 $string['numnotapproved'] = 'In attesa di approvazione';
 $string['numrecords'] = '<strong>$a</strong> Record';
+$string['ods'] = '<acronym title=\"OpenDocument Spreadsheet\">ODS</acronym> (OpenOffice)';
 $string['optionaldescription'] = 'Descrizione breve (opzionale)';
 $string['optionalfilename'] = 'Nome del file (opzionale)';
 $string['other'] = 'Altro';
@@ -219,7 +225,7 @@ $string['saveandview'] = 'Salva e visualizza il record';
 $string['saveaspreset'] = 'Salva preimpostazione';
 $string['savesettings'] = 'Salva le impostazioni';
 $string['savesuccess'] = 'Le preimpostazioni sono state salvate. Queste preimpostazioni saranno disponibili in tutto il sito.';
-$string['savetemplate'] = 'Salva il modello di visualizzazione';
+$string['savetemplate'] = 'Salva il modello';
 $string['search'] = 'Cerca';
 $string['selectedrequired'] = 'Richiesta selezione tutti';
 $string['sendinratings'] = 'Invia le mie più recenti valutazioni';
@@ -236,13 +242,14 @@ $string['timemodified'] = 'Data/ora modificato';
 $string['todatabase'] = 'in questo Database';
 $string['type'] = 'Tipo di campo';
 $string['undefinedprocessactionmethod'] = 'Nessuna metodo definito in Data_Preset per gestire l\'azione \"$a\".';
+$string['unsupportedexport'] = '($a->fieldtype) non può essere esportato';
 $string['updatefield'] = 'Aggiorna un campo già esistente';
 $string['uploadfile'] = 'Carica file';
 $string['uploadrecords'] = 'Carica i record da un file';
 $string['url'] = 'URL';
 $string['usestandard'] = 'Utilizza una preimpostazione';
 $string['viewfromdate'] = 'Database visualizzabile dal';
-$string['viewtodate'] = 'Database visualizzabile fino al';
+$string['viewtodate'] = 'fino al';
 $string['wrongdataid'] = 'Immesso un id errato';
 
 ?>
