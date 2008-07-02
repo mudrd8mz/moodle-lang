@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // question.php - created with Moodle 2.0 dev (Build: 20080630) (2008063002)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -64,6 +64,7 @@ $string['errorfilecannotbemoved'] = 'エラー: ファイル $a を移動でき�
 $string['errorfileschanged'] = 'エラー: 問題からリンクされているファイルがフォームが表示された後、変更されました。';
 $string['errormanualgradeoutofrange'] = '問題 $a->name の評点 $a->grade が、ゼロおよび $a->maxgrade の範囲にありません。評点およびコメントは、保存されませんでした。';
 $string['errormovingquestions'] = 'ID $a の問題の移動中にエラーが発生しました。';
+$string['errorprocessingresponses'] = 'あなたの解答の処理中にエラーが発生しました。';
 $string['errorsavingcomment'] = '問題 $a->name のコメントをデータベースに保存中にエラーが発生しました。';
 $string['errorupdatingattempt'] = 'データベース内の受験結果 $a->id を更新中にエラーが発生しました。';
 $string['exportcategory'] = 'カテゴリのエクスポート';
