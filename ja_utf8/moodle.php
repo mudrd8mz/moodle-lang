@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080630) (2008063002)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1465,7 +1465,7 @@ $string['total'] = '合計';
 $string['trackforums'] = 'フォーラム未読管理';
 $string['trackforumsno'] = 'いいえ: 閲覧した投稿を追跡しません';
 $string['trackforumsyes'] = 'はい: 新しい投稿をハイライトします';
-$string['trysearching'] = '代わりに検索する。';
+$string['trysearching'] = '代わりに検索してください。';
 $string['turneditingoff'] = '編集モードの終了';
 $string['turneditingon'] = '編集モードの開始';
 $string['undecided'] = '未決定';
@@ -1476,7 +1476,7 @@ $string['unenrolme'] = '$a から私を登録抹消する';
 $string['unenrolroleusers'] = '次のユーザを登録解除する';
 $string['unenrolsure'] = '本当に $a をこのコースから登録抹消してもよろしいですか?';
 $string['unfinished'] = '未了';
-$string['unknowncategory'] = '無名のカテゴリ';
+$string['unknowncategory'] = '不明のカテゴリ';
 $string['unlimited'] = '無制限';
 $string['unpacking'] = '$a の解凍';
 $string['unsafepassword'] = '安全ではないパスワードです - 他のパスワードを入力してください。';
