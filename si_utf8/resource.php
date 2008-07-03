@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080402) (2008030700)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080703) (2008063002)
 
 
 $string['addresource'] = 'සම්පත් එක් කරන්න';
@@ -9,6 +9,7 @@ $string['autofilerename'] = 'ගොනුව නැවත නම් ක‍රේ
 $string['back'] = 'පසුපසට';
 $string['blockdeletingfile'] = 'යොමුකරන ලද ගොනු රාශියක් ලෙස ඉවත් කිරීම';
 $string['browserepository'] = 'ගබඩාව බ්‍රවුස් කරන්න';
+$string['cannotupdate'] = 'සම්පත යාවත් කාලීන කල නොහැක.';
 $string['choose'] = 'තෝරන්න';
 $string['chooseafile'] = 'ගොනුවක් උඩුගත කරන්න හෝ තෝරන්න';
 $string['chooseparameter'] = 'විචල්‍යයන් තෝරන්න';
@@ -54,6 +55,8 @@ $string['framesize'] = 'රාමුවේ ප්‍රමාණය';
 $string['fulltext'] = 'සම්පූර්ණ පෙළ';
 $string['htmlfragment'] = 'HTML ඛණ්ඩය';
 $string['imspackageloaded'] = 'පැකේජය ලෝඩ් කරන ලදි';
+$string['invalidassignment'] = 'වැරදි පැවරුම';
+$string['invalidid'] = 'සම්පත් හැඳුනුම් අංකය වැරදියි';
 $string['keepnavigationvisible'] = 'පිටු සංචාලනය එම පිටුවේම දර්ශනය කරන්න';
 $string['localfile'] = 'පෙදෙසි ගොනුව';
 $string['localfilechoose'] = 'පෙදෙසි ගොනුවක් තෝරන්න (CD-තැටියක)';

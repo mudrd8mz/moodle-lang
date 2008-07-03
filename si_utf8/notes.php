@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 2.0 dev (2007101508)
+      // notes.php - created with Moodle 2.0 dev (Build: 20080703) (2008063002)
 
 
 $string['addnewnote'] = 'නව සටහනක් එක් කරන්න';
 $string['addnewnoteselect'] = 'සටහන් ලිවීම සඳහා පරිශීලයකන් තෝරන්න';
 $string['bynameondate'] = '$a->date දින $a->name විසිනි';
+$string['cannotdeletepost'] = 'දැන්වීම ඉවත් කිරීමේදී දෝ\'ෂයක් ඇති විය';
 $string['content'] = 'සටහන් අන්තර්ගතය';
 $string['course'] = 'පාඨමාලාව';
 $string['coursenotes'] = 'පාඨමාලා සටහන්';
@@ -13,8 +14,10 @@ $string['deleteconfirm'] = 'මෙම සටහන මකා දමන්නද?
 $string['deletenotes'] = 'සියලුම සටහන ඉවත් කරන්න';
 $string['editnote'] = 'සටහන් සංස්කරණය කරන්න';
 $string['groupaddnewnote'] = 'සියලු දෙනා සඳහාම නව සටහනක් එක් කරන්න';
+$string['invalidid'] = 'වැරදි සටහන් හැදුනුම් අංකයක් සඳහන් කර ඇත';
 $string['nocontent'] = 'සටහන් අන්තර්ගතය හිස් විය නොහැක';
 $string['nonotes'] = 'කිසිදු සටහනක් නැත';
+$string['nopermissiontodelete'] = 'ඔබ මෙම සටහන මකා දැමීම නොකල යුතුයි';
 $string['note'] = 'සටහන්';
 $string['notes'] = 'සටහන්';
 $string['notesnotvisible'] = 'සටහන් බැලීම සඳහා ඔබට අවසර නැත';
