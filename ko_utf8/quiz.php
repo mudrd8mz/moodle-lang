@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080703) (2008063002)
 
 
 $string['1day'] = '하루';
@@ -212,6 +212,7 @@ $string['errorinquestion'] = '문항 오류';
 $string['errormissingquestion'] = '오류 : 아이디 $a 의 질문이 사라짐';
 $string['errornotnumbers'] = '오류 - 답은 숫자라야 함';
 $string['errorsdetected'] = '$a 개의 오류가 발견됨';
+$string['errorunexpectedevent'] = '시도 $a->attemptid 의  $a->questionid 문항에서 예기치 않은 이벤트 코드 $a->attemptid 발견';
 $string['essay'] = '논술형';
 $string['essayquestions'] = '논제';
 $string['event1'] = '자동저장';
@@ -304,6 +305,7 @@ $string['importquestions'] = '파일에서 질문 가져오기';
 $string['incorrect'] = '부정확';
 $string['indivresp'] = '각 문항에 대한 개별 응답';
 $string['info'] = '정보';
+$string['infoshort'] = 'i';
 $string['introduction'] = '소개';
 $string['invalidattemptid'] = '그런 시도 ID가 존재하지 않음';
 $string['invalidcategory'] = '범주 ID가 올바르지 않음';
@@ -433,6 +435,7 @@ $string['questionmissing'] = '현 세션에 대한 문항 누락됨';
 $string['questionname'] = '질문명';
 $string['questionnametoolong'] = '$a 줄에 있는 질문 이름이 너무 깁니다. 짧게 줄입니다.';
 $string['questionno'] = '$a 번 질문';
+$string['questionnotloaded'] = '데이터베이스로부터 문항 $a 를 가져오지 못했음';
 $string['questions'] = '문제은행';
 $string['questionsinclhidden'] = '질문들(숨겨진 질문 포함)';
 $string['questionsinthisquiz'] = '퀴즈의 문항';
@@ -572,11 +575,14 @@ $string['specificapathnotonquestion'] = '지정 문항에 대한 파일 경로�
 $string['specificquestionnotonquiz'] = '지정한 문항이 퀴즈에 없음';
 $string['startagain'] = '다시 시작';
 $string['startedon'] = '시작';
+$string['statenotloaded'] = '데이터베이스로부터 문항 $a 를 가져오지 못한 상태';
+$string['status'] = '현황';
 $string['stoponerror'] = '오류시 중단함';
 $string['subneterror'] = '미안합니다. 이 퀴즈는 잠겨있으므로 특정한 위치에서만 이용가능합니다. 현재 당신의 컴퓨터는 이 퀴즈를 이용할 수 없습니다.';
 $string['subnetnotice'] = '이 퀴즈는 특정한 지역에서만 접근 가능하도록 하기위해서 잠겨져 있습니다. 당신의 컴퓨터는 허용된 지역이 아닙니다. 어쨋든 교수자라면 미리보기가 허용됩니다.';
 $string['subnetwrong'] = '이 문제는 특정 장소에서만 접속 가능하며, 이 컴퓨터는 허용된 목록에 들어있지 않습니다.';
 $string['substitutedby'] = '다음으로 대체';
+$string['summaryofattempt'] = '시도 개요';
 $string['summaryofattempts'] = '이전 시도들에 대한 요약';
 $string['temporaryblocked'] = '현재 당신은 일시적으로 퀴즈를 재시도 하도록 허용되지 않았습니다.<br /> 재시도는 다음 날자에 할 수 있습니다:';
 $string['time'] = '시간';

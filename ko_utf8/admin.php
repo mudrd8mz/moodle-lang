@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080609) (2008051202)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080703) (2008063002)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -271,7 +271,8 @@ $string['cronwarning'] = '<a href=\"cron.php\">cron.php 관리 스크립트</a>�
 $string['csvdelimiter'] = 'CSV 구분자';
 $string['ctyperecommended'] = '사이트가 비 라틴계열의 언어를 사용한다면 사이트의 성능 향상을 위해 추가적인 ctype PHP 확장자 설치를 강력히 권고합니다.';
 $string['ctyperequired'] = '다국어 호환 기능 및 사이트의 성능 향상을 위해 이제부터 무들은 ctype의 PHP 확장자를 요구합니다.';
-$string['curlrecommended'] = '무들 네트웍 기능을 활성화하기 위해서는 추가적인 Curl 라이브러리를 설치할 것을 강력히 권고한다.';
+$string['curlrecommended'] = '무들 네트웍 기능을 활성화하기 위해서는 추가적인 cURL 라이브러리를 설치할 것을 강력히 권고한다.';
+$string['curlrequired'] = '무들 저장소와 교신하기 위해서는 cURL 확장이 필요합니다.';
 $string['customcheck'] = '다른 점검들';
 $string['datarootsecuritywarning'] = '사이트가 안전해 보이지 않습니다. 데이터경로 ($a)를 직접 웹으로 접속할 수 없도록 조치하기 바랍니다.';
 $string['dbmigrate'] = '무들 데이터베이스 변경';
@@ -346,7 +347,7 @@ $string['environmentrecommendinstall'] = '설치하거나 활성화할 것을 �
 $string['environmentrecommendversion'] = '$a->needed 버전을 권장하고 있는 데 현재 $a->current 을 사용하고 있음';
 $string['environmentrequirecustomcheck'] = '반드시 통과해야 함';
 $string['environmentrequireinstall'] = '설치하거나 활성화해야만 함';
-$string['environmentrequireversion'] = '$a->needed 버전이 요구되지만, 현재 $a->current 이 구동되고 있음';
+$string['environmentrequireversion'] = '$a->needed 버전이 요구되는 데, 현재 $a->current 이 구동되고 있음';
 $string['environmentxmlerror'] = '환경 설정 데이터 불러들이기 오류 ($a->error_code)';
 $string['errors'] = '오류들';
 $string['errorsetting'] = '설정을 저장할 수 없음:';

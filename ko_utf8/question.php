@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // question.php - created with Moodle 2.0 dev (Build: 20080703) (2008063002)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -63,6 +63,7 @@ $string['errorfilecannotbemoved'] = '$a 이동 오류';
 $string['errorfileschanged'] = '문제가 제시된 후 문항에 연결된 파일의 링크가 변경된 오류';
 $string['errormanualgradeoutofrange'] = '문항 $a->name 에 대한 점수 $a->grade 는 0과 $a->maxgrade 의 범위를 벗어났습니다. 점수 및 논평은 저장되지 않습니다.';
 $string['errormovingquestions'] = 'id $a 의 문항을 옮기는 중에 오류발생';
+$string['errorprocessingresponses'] = '응답 처리 중 오류 발생';
 $string['errorsavingcomment'] = '문항 $a->name 의 논평을 데이터베이스에 저장하던 중 오류발생';
 $string['errorupdatingattempt'] = '시도 $a->id 를 데이터베이스에 갱신하던 중 오류발생';
 $string['exportcategory'] = '범주 내보내기';
