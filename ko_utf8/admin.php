@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080703) (2008063002)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080704) (2008070300)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -93,6 +93,7 @@ $string['configdefaultcourseroleid'] = '강좌에 등록한 모든 이용자는 
 $string['configdefaultrequestcategory'] = '이용자가 요청한 강좌는 자동적으로 이 범주에 속하게 된다.';
 $string['configdefaultrequestedcategory'] = '승인된 강좌가 수용될 기본 범주';
 $string['configdefaultuserroleid'] = '이곳에서 지정한 역할로 모든 이용자에게 사이트 수준의 역할이 부여된다. 또한 다른 역할도 부여할 수 있다. 기본 역할은 인증된 이용자(구판에서는 손님)이다. 자신들이 소유한 다른 역할과 상충되지 않게 하고, 강좌 수준의 권한(포럼의 게시 및 일정 관리 등)을 넘어서는 권한을 모든 이용자가 갖지 않게 주의하라.';
+$string['configdeleteincompleteusers'] = '제시된 날 이후까지 계정 설정을 완료하지 않은 사용자는 자동 삭제됨';
 $string['configdeleteunconfirmed'] = '만약 이메일 인증제를 사용한다면, 여기에 설정된 기간내에 이용자들이 확인 응답을 해야한다. 이 기간이 경과한 후에는 확인 응답을 하지 않은 계정은 삭제된다.';
 $string['configdenyemailaddresses'] = '같은 방법으로 여기에 있는 특정 도메인 목록의 이메일 주소를 허용하지 않는다. 그 외 모든 다른 도메인들은 허용된다. 예: <strong>hanmail.net yahoo.co.uk<strong/>';
 $string['configdigestmailtime'] = '미리 메일을 전송해 달라고 요청을 한 사람들에게 매일 요약을 보낼 것이다. 이 설정은 메일 발송 시간, 날짜 등을 정하는 것이다. (cron은 여기에 지정된 시간 이후에 작동하여 이메일을 발송할 것이다)';
@@ -301,6 +302,7 @@ $string['defaultsettinginfo'] = '기본: $a';
 $string['defaultuserroleid'] = '이용자 기본 역할';
 $string['defaultvalues'] = '기본값';
 $string['deleteerrors'] = '오류 삭제';
+$string['deleteincompleteusers'] = '미설정 사용자 삭제 기한';
 $string['deleteunconfirmed'] = '인증 유예 기간';
 $string['deleteuser'] = '이용자 삭제';
 $string['density'] = '밀도';
