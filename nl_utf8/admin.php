@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080704) (2008070300)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -96,6 +96,7 @@ $string['configdefaultrequestcategory'] = 'Cursussen die door gebruikers aangevr
 $string['configdefaultrequestedcategory'] = 'Standaardcategorie om aangevraagde cursussen te plaatsen nadat ze goedgekeurd zijn.';
 $string['configdefaultuserroleid'] = 'Alle aangemelde gebruikers zullen de rechten krijgen van de rol die je hier op siteniveau opgeeft. Deze rol is bijkomend bij andere rollen die je misschien al gegeven hebt. De standaardrol is de gastrol. 
 Merk op dat dit geen conflict geeft met andere rollen die je gebruikers al hebben - het zorgt er alleen voor dat alle gebruikers minstens iets kunnen doen op siteniveau (vb het lezen van forumdiscussies, bronnen enz.)';
+$string['configdeleteincompleteusers'] = 'Na deze periode zullen oude, niet volledig ingestelde accounts verwijderd worden.';
 $string['configdeleteunconfirmed'] = 'Als je met e-mailauthenticatie werkt dan is dit de periode waarbinnen gebruikers moeten reageren op de bevestigingsmail voor de nieuwe account. Na deze periode zullen oude, niet-bevestigde accounts verwijderd worden.';
 $string['configdenyemailaddresses'] = 'Om e-mailadressen van bepaalde domeinen te weigeren, kun je ze hier op dezelfde manier opnemen. Alle andere domeinen zullen aanvaard worden. bv <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Gebruikers die ervoor kiezen dat de e-mails hun als samenvatting toegezonden worden, zullen dagelijks een e-mail ontvangen. Deze instelling controleert op welk moment van de dag deze dagelijkse mail verzonden wordt (de mail wordt verstuurd door de cron die volgt op het uur dat hier gekozen wordt)';
@@ -268,6 +269,7 @@ $string['csvdelimiter'] = 'Scheidingsteken voor CSV';
 $string['ctyperecommended'] = 'Het installeren van de optionele ctype PHP extentie is aanbevolen om de performantie van de site te verhogen, vooral als op je site niet-latijnse talen gebruikt worden.';
 $string['ctyperequired'] = 'De ctype PHP-extentie is nu vereist in Moodle om de performantie te verhogen en om multi-talencompatibiliteit mogelijk te maken.';
 $string['curlrecommended'] = 'Het installeren van de optionele Curl bibliotheek wordt ten zeerste aangeraden om de netwerkmogelijkheden van Moodle in te schakelen';
+$string['curlrequired'] = 'De cURL PHP-extentie is nu vereist in Moodle om te kunnen communiceren met Moodle bewaarplaats';
 $string['customcheck'] = 'Andere controles';
 $string['datarootsecuritywarning'] = 'De configuratie van je site zou onveilig kunnen zijn. Zorg er voor dat je dataroot map ($a) niet toegankelijk is vanaf het internet.';
 $string['dbmigrate'] = 'Migratie van de Moodle databank naar UTF8';

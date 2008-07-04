@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9 dev (2007062401)
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
 
 
 $string['addmoreanswerblanks'] = 'Nog een lijn toevoegen';
@@ -23,6 +23,8 @@ $string['nodataset'] = 'niets - is geen jokerteken';
 $string['nosharedwildcard'] = 'Geen gedeeld jokerteken in deze categorie';
 $string['possiblehdr'] = 'Mogelijke jokertekens enkel in de vraagtekst aanwezig.';
 $string['tolerance'] = 'Tolerantie';
+$string['trueanswerinsidelimits'] = 'Juist antwoord: $a->correct binnen de limieten van waar-waarde $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">FOUT - Juist antwoord:$a->correct buiten limieten van waar-waarde $a->true</span';
 $string['updatecategory'] = 'Update de categorie';
 $string['usedinquestion'] = 'Gebruikt in vraag';
 $string['youmustenteramultiplierhere'] = 'Je moet hier een vermenigvuldigtal opgeven.';
