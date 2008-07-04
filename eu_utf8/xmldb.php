@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8.2+ (2007021520)
+      // xmldb.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['aftertable'] = 'Taularen ondoren:';
@@ -16,7 +16,7 @@ $string['confirmdeletesentence'] = 'Ziur al zaude ondoko esaldia ezabatu nahi du
 $string['confirmdeletestatement'] = 'Ziur al zaude ondoko sententzia eta esaldi guztiak ezabatu nahi dituzula?';
 $string['confirmdeletetable'] = 'Ziur al zaude ondoko taula ezabatu nahi duzula?';
 $string['confirmdeletexmlfile'] = 'Ziur al zaude ondoko fitxategia ezabatu nahi duzula?';
-$string['confirmrevertchanges'] = 'Erabeat ziur al zaude honen gainean egindako aldaketak desegin nahi dituzula:';
+$string['confirmrevertchanges'] = 'Erabat ziur al zaude honen gainean egindako aldaketak desegin nahi dituzula:';
 $string['create'] = 'Sortu';
 $string['createtable'] = 'Taula sortu:';
 $string['defaultincorrect'] = 'Berezko balio ezegokia';
@@ -78,6 +78,7 @@ $string['reservedwords'] = 'Erreserbatutako Hitzak';
 $string['revert'] = 'Desegin';
 $string['revert_changes'] = 'Aldaketak desegin';
 $string['save'] = 'Gorde';
+$string['searchresults'] = 'Emaitzak bilatu';
 $string['selectaction'] = 'Ekintza aukeratu:';
 $string['selectdb'] = 'Datu-basea aukeratu:';
 $string['selectfieldkeyindex'] = 'Eremua/Gakoa/Aurkibidea aukeratu:';
@@ -104,6 +105,7 @@ $string['viewedited'] = 'Edizioa ikusi';
 $string['vieworiginal'] = 'Jatorrizkoa ikusi';
 $string['viewphpcode'] = 'PHP kodea ikusi';
 $string['viewsqlcode'] = 'SQL kodea ikusi';
+$string['wrong'] = 'Okerra';
 $string['wronglengthforenum'] = 'Enum eremuaren luzera ez da zuzena';
 $string['wrongnumberoffieldsorvalues'] = 'Eremu edo esaldiaren balore kopurua ez da zuzena';
 $string['wrongreservedwords'] = 'Une honetan erabilitako Erreserbatutako Hitzak<br />(ohartu taularen izenak ez direla garrantzizkoak $CFG->prefix erabiltzen bada)';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8.4+ (2007021541)
+      // hotpot.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['abandoned'] = 'Bertan behera utzita';
@@ -56,6 +56,7 @@ $string['hotpotcloses'] = 'Hot Potatoes galdetegia itxi';
 $string['hotpotopens'] = 'Hot Potatoes galdetegia ireki';
 $string['ignored'] = 'Alde batera utzi';
 $string['inprogress'] = 'Ari da';
+$string['invalidhotpotid'] = 'Hotpot-aren IDa ez da zuzena';
 $string['location'] = 'Fitxategiaren kokalekua';
 $string['modulename'] = 'Hot Potatoes galdetegia';
 $string['modulenameplural'] = 'Hot Potatoes galdetegiak';
@@ -82,6 +83,7 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = 'Penalizazioak';
 $string['questionshort'] = 'Q-$a';
 $string['quiztype'] = 'Galdetegi-mota';
+$string['quizunavailable'] = 'Momentu honetan galdetegia ez dago eskuragarri';
 $string['rawdetails'] = 'Saiakera-zehaztasun gordinak';
 $string['regrade'] = 'Berriz kalifikatu';
 $string['regradecheck'] = 'Benetan &quot;$a&quot; birkalifikatu nahi al duzu?';
@@ -150,6 +152,7 @@ $string['textsourcequiz'] = 'Galdetegitik lortu';
 $string['textsourcespecific'] = 'Testu zehatza';
 $string['thiscourse'] = 'Ikastaro hau';
 $string['timedout'] = 'Denbora-muga';
+$string['unknownreport'] = 'Txosten ezezaguna ($a)';
 $string['updatequizchain'] = 'Hurrengo galdetegia eguneratu';
 $string['weighting'] = 'Haztapena';
 $string['wrong'] = 'Ez da zuzena';

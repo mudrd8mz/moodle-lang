@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8.4+ (2007021541)
+      // install.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['admindirerror'] = 'Kudeaketarako zehaztu den direktorioa ez da zuzena';
@@ -9,6 +9,13 @@ Horrela Moodle-ko admin loturak berrezarriko dira.</p>';
 $string['admindirsettinghead'] = 'Admin direktorioa aukeratu...';
 $string['admindirsettingsub'] = '<p>Oso web zerbitzari gutxik erabiltzen dute /admin kontrol-panel edo antzekora era sartzeko URL berezi gisa. Zoritxorrez, hau ez dator bat Moodlen lehenetsitako administrazio-orrien kokapenarekin. Nahi izanez gero, zure instalazioko admin direktorioaren izena alda dezakezu, hemen izen berria idatziz. Adibidez: <blockquote> moodleadmin</blockquote>.
 Horrela Moodle-ko admin loturak berrezarriko dira.</p>';
+$string['adminemail'] = 'E-posta';
+$string['adminfirstname'] = 'Izena:';
+$string['admininfo'] = 'Kudeatzailearen xehetasunak';
+$string['adminlastname'] = 'Deitura:';
+$string['adminpassword'] = 'Pasahitza:';
+$string['adminusername'] = 'Erabiltzaile-izena:';
+$string['askcontinue'] = 'Jarraitu (bai/ez):';
 $string['caution'] = 'Kontuz';
 $string['chooselanguage'] = 'Hizkuntza aukeratu';
 $string['chooselanguagehead'] = 'Hizkuntza aukeratu';
@@ -37,6 +44,9 @@ $string['databasecreationsettingssub'] = '<b>Mota:</b> lehenetsitako balorea \"m
 <b>Erabiltzailea:</b> lehenetsitako balorea  \"root\" da<br />
 <b>Pasahitza:</b> datu-basearen pasahitza<br />
 <b>Taulen aurrizkia:</b> taula guztietarako aukerazko aurrizkia';
+$string['databasehost'] = 'datu-basearen ostalaria:';
+$string['databasename'] = 'Datu-basearen izena:';
+$string['databasepass'] = 'Datu-basearen pasahitza:';
 $string['databasesettings'] = 'Orain Moodle-ren datu gehienak bilduko dituen datu-basearen ezarpenak zehaztu behar dituzu. Datu-base hori aldez aurretik sortu behar zen eta erabiltzaile-izena eta sarbide-pasahitza izan beharko lituzke.<br />
 <br /> <br />
 <b>Mota:</b> mysql edo postgres7<br />
@@ -45,12 +55,15 @@ $string['databasesettings'] = 'Orain Moodle-ren datu gehienak bilduko dituen dat
 <b>Erabiltzailea:</b> datu-basearen erabiltzaile-izena<br />
 <b>Pasahitza:</b> datu-basearen pasahitza<br />
 <b>Taulen aurrizkia:</b> taula-izen guztietan erabiliko den aurrizkia';
+$string['databasesettingsformoodle'] = 'Datu-basearen ezarpenak Moodle-rako';
 $string['databasesettingshead'] = 'Orain Moodle-ren datu gehienak bilduko dituen datu-basearen ezarpenak zehaztu behar dituzu. Datu-base hori aldez aurretik sortu behar zen eta erabiltzaile-izena eta sarbide-pasahitza izan beharko lituzke.';
 $string['databasesettingssub'] = '<b>Mota:</b> mysql edo postgres7<br />
 <b>Zerbitzaria:</b> p.ej.: localhost edo db.zuredomeinua.com<br />
 <b>Erabiltzailea:</b> datu-basearen erabiltzaile-jabea<br />
 <b>Pasahitza:</b> datu-basearen erabiltzailearen pasahitza<br />
 <b>Taulen aurrizkia:</b> taula guztietan erabiltzeko aukerazko aurrizkia';
+$string['databasetype'] = 'Datu-base mota:';
+$string['databaseuser'] = 'Datu-basearen erabiltzailea:';
 $string['dataroot'] = 'Datu-direktorioa';
 $string['datarooterror'] = '\'Datu-direktorioa\' ezin izan da sortu edo aurkitu. Bidea zuzendu edo direktorioa eskuz sortu.';
 $string['dbconnectionerror'] = 'Datu-basearekiko konexio-errorea. Mesedez, datu-basearen ezarpenak aztertu.';
@@ -118,7 +131,13 @@ $string['globalsquoteshelp'] = '<p>Ez da aholkatzen Magic Quotes GPC indargabetz
 <blockquote>php_value magic_quotes_gpc On</blockquote>
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
+$string['inputdatadirectory'] = 'Datuen Direktorioa;';
+$string['inputwebadress'] = 'Web helbidea :';
+$string['inputwebdirectory'] = 'Moodle Direktorioa:';
 $string['installation'] = 'Instalazioa';
+$string['invalidemail'] = 'E-posta ez da baliozkoa';
+$string['invalidhost'] = 'Ostalaria ez da baliozkoa';
+$string['invalidurl'] = 'URLa ez da baliozkoa';
 $string['langdownloaderror'] = '\"$a\" hizkuntza ezin izan da instalatu. Instalazio-prozesuak ingelesez jarraituko du.';
 $string['langdownloadok'] = '\"$a\" hizkuntza zuzen instalatu da. Instalazio-prozesuak hizkuntza horretan jarraituko du.';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
@@ -153,7 +172,6 @@ $string['mysqlextensionisnotpresentinphp'] = 'PHP ez da ongi ezarri MySQL luzape
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['pass'] = 'Zuzena';
 $string['phpversion'] = 'PHP bertsioa';
-$string['phpversionerror'] = 'PHP bertsioak 4.1.0 edo geroagokoa izan behar du';
 $string['phpversionhelp'] = '<p>Moodle-k PHP 4.1.0 edo geroagoko bertsioa behar du.</p>
 <p>Zure bertsioa: $a</p>
 <p>PHP eguneratu edo PHP bertsio berriagoa duen zerbitzari batera jo</p>';
@@ -187,5 +205,7 @@ $string['welcomep60'] = 'Datozen orriek urrats erraz batzuen bidez gidatuko zait
 $string['welcomep70'] = '\"Hurrengoa\" botoia sakatu <strong>Moodle</strong>ren konfigurazioarekin jarraitzeko.';
 $string['wwwroot'] = 'Web helbidea';
 $string['wwwrooterror'] = '\'Web helbidea\' zuzena ez dela dirudi. Ezin izan da Moodle-ren instalazioa aurkitu. Jatorrizko balorea berrezarri da.';
+$string['yourchoice'] = 'Zure aukera:';
+$string['phpversionerror'] = 'PHP bertsioak 4.1.0 edo geroagokoa izan behar du'; // ORPHANED
 
 ?>

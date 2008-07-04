@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // book.php - created with Moodle 1.8.4+ (2007021541)
+      // book.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addafter'] = 'Atala gehitu';
@@ -8,7 +8,7 @@ $string['chaptertitle'] = 'Atalaren izenburua';
 $string['confchapterdelete'] = 'Ziur al zaude atal hau ezabatu nahi duzula?';
 $string['confchapterdeleteall'] = 'Ziur al zaude atal hau eta bere azpiatal guztiak ezabatu nahi dituzula?';
 $string['content'] = 'Edukia';
-$string['customtitles'] = 'Erabiltzailearen izenburuak';
+$string['customtitles'] = 'Izenburu pertsonalizatuak';
 $string['disableprinting'] = 'Inprimatzeko aukera ezgaitu';
 $string['doexport'] = 'Esportatu';
 $string['doimport'] = 'Inportatu';
