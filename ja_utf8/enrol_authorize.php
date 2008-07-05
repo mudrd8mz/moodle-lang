@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080620) (2008051203)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080704) (2008070300)
 
 
 $string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
@@ -85,6 +85,7 @@ $string['choosemethod'] = 'あなたがコース登録キーを知っている�
 $string['chooseone'] = '次の2つのフィールドの1つまたは両方に入力してください。パスワードは表示されません。';
 $string['costdefaultdesc'] = 'このデフォルト費用を使用するには、<strong>コース設定でコース費用フィールドに -1 を設定</strong>してください。';
 $string['cutofftime'] = 'トランザクションの遮断時間です。確定するため、何時に最終トランザクションを取得しますか?';
+$string['dataentered'] = 'データ入力済み';
 $string['delete'] = '無効化';
 $string['description'] = 'Authorize.netモジュールでは、支払いプロバイダを通して、受講料支払いが必要なコースを作成することができます。コース受講料がゼロの場合、学生には受講登録費用は請求されません。コース費用を設定するには、(1) サイト全体のデフォルトとしてのサイト費用 または (2) 各コースで個々に設定できるコース費用 の2つの方法があります。コース費用は、サイト費用をオーバーライドします。<br /><br /><b>メモ:</b> コース設定で登録キーを指定した場合、学生は登録キーを使用した受講登録のオプションも持つことになります。これは、支払い要、支払い不要の学生が混在している場合に便利です。';
 $string['echeckabacode'] = '銀行ABA番号';

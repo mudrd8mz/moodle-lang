@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080704) (2008070300)
 
 
 $string['activities'] = '活動';
@@ -502,6 +502,7 @@ $string['usergrade'] = '評定項目 $a->gradeidnumber のユーザ $a->fullname
 $string['userkeyhelp'] = 'このエクスポートプラグインにより公開されるデータに対して、ユーザがMoodleへのログインなしでアクセスするために必要な保存キーを選択してください。「新しいユーザキーを作成する」を選択することで、このフォームの送信時に新しいユーザキーを作成することができます。';
 $string['userpreferences'] = 'ユーザ属性';
 $string['useweighted'] = '加重を使用';
+$string['verbosescales'] = '詳細尺度';
 $string['viewbygroup'] = 'グループ';
 $string['viewgrades'] = '評定の表示';
 $string['weight'] = '加重';
