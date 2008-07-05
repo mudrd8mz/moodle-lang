@@ -213,6 +213,7 @@ $string['errorinquestion'] = 'Erreur dans la question';
 $string['errormissingquestion'] = 'Erreur&nbsp;! Le système ne trouve pas la question d\'identifiant $a';
 $string['errornotnumbers'] = 'Erreur&nbsp;! Les réponses doivent être numériques';
 $string['errorsdetected'] = '$a erreur(s) détectée(s)';
+$string['errorunexpectedevent'] = 'Code d\'événement $a->event inattendu trouvé pour la question $a->questionid dans la tentative $a->attemptid.';
 $string['essay'] = 'Composition';
 $string['essayquestions'] = 'Questions';
 $string['event1'] = 'Autoenregistrer';
