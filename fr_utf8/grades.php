@@ -514,6 +514,7 @@ $string['userkeyhelp'] = 'Choisissez une clef qui donnera aux utilisateurs accè
 $string['userpreferences'] = 'Préférences utilisateur';
 $string['userreport'] = 'Rapport du participant';
 $string['useweighted'] = 'Utiliser les coefficients';
+$string['verbosescales'] = 'Barèmes de mots';
 $string['viewbygroup'] = 'Groupe';
 $string['viewgrades'] = 'Affichage des notes';
 $string['weight'] = 'Pondération';
