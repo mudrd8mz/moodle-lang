@@ -89,6 +89,7 @@ $string['choosemethod'] = 'Tapez la clef d\'inscription à ce cours.<br />Si vou
 $string['chooseone'] = 'Veuillez remplir l\'un des deux champs ci-dessous ou tous les deux. Le mot de passe n\'est pas affiché.';
 $string['costdefaultdesc'] = 'Pour utiliser ce prix par défaut, <strong>tapez -1 dans le champ du coût</strong> des paramètres du cours.';
 $string['cutofftime'] = 'Date butoir de transaction. Quand la dernière transaction doit-elle être traitée pour règlement&nbsp;?';
+$string['dataentered'] = 'Données saisies';
 $string['delete'] = 'Détruire';
 $string['description'] = 'Le module Authorize.net permet de mettre en place des cours payants via des fournisseurs de paiement. Si le prix d\'un cours est de zéro, les étudiants peuvent s\'y inscrire sans payer. Le prix des cours peut être fixé de 2 manières. (1) Un prix défini globalement, que vous fixez ici, est le prix par défaut pour tous les cours du site. (2) Le prix de chaque cours peut être fixé individuellement. S\'il est défini, le prix spécifique d\'un cours remplace le prix par défaut.<br /><br /><b>Remarque&nbsp;:</b> si vous indiquez une clef d\'inscription dans les réglages du cours, les étudiants auront également la possibilité de s\'y inscrire avec cette clef. Ceci est utile si vous avez un mélange d\'étudiants payant et non payant.';
 $string['echeckabacode'] = 'Numéro bancaire ABA';
