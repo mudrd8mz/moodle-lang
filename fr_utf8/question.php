@@ -61,6 +61,7 @@ $string['errorfilecannotbemoved'] = 'Impossible de déplacer le fichier $a.';
 $string['errorfileschanged'] = 'Erreur&nbsp;: certains fichiers liés dans des questions ont été modifiés depuis l\'affichage du formulaire.';
 $string['errormanualgradeoutofrange'] = 'La note $a->grade n\'est pas entre 0 et $a->maxgrade pour la question $a->name. Le score et le commentaire n\'ont pas été enregistrés.';
 $string['errormovingquestions'] = 'Erreur lors du déplacement des questions d\'identifiants $a.';
+$string['errorprocessingresponses'] = 'Une erreur est survenue lors du traitement de vos réponses.';
 $string['errorsavingcomment'] = 'Erreur lors de l\'enregistrement dans la base de données du commentaire pour la question $a->name.';
 $string['errorupdatingattempt'] = 'Erreur lors de la mise à jour dans la base de données de la tentative $a->id.';
 $string['exportcategory'] = 'Exporter catégorie';
