@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080704) (2008070300)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080706) (2008070500)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -65,7 +65,7 @@ $string['configallowunenroll'] = '만약 이것이 \"예\"로 설정된다면, �
 $string['configallowuserblockhiding'] = '이용자들이 사이트의 블럭을 숨기거나 볼 수 있도록 허용하겠는가? 이 기능은 각각의 분리된 블럭을 기억하기 위해 자바 스크립트와 쿠키를 사용하며, 이용자 화면에만 영향을 미친다.';
 $string['configallowusermailcharset'] = '이 기능을 활성화시키면, 모든 이용자는 이메일에 자신만의 문자 세트를 이용할 수 있다.';
 $string['configallowuserthemes'] = '이것을 활성화하면, 이용자는 자신만의 테마를 사용할 수 있게 된다. 개인별 테마는 기존의 (강좌 테마가 아닌)사이트 테마보다 우선적으로 적용된다.';
-$string['configallusersaresitestudents'] = '이 사이트 초기화면의 활동에 대하여 모든 이용자가 학생으로 간주되도록 할 것인가? 만약 \"예\"라고 설정한다면 승인된 이용자 누구라도 다른 과정에 손쉽게 학생으로 참여할 수 있게 된다. 만얀 \"아니오\"를 선택한다면 이용자는 초기화면 활동의 특정 과정에만 참여하도록 제한될 것이다. 이 때는 관리자와 지정된 교수자만 초기화면의 교수자로서 활동할 수 있다.';
+$string['configallusersaresitestudents'] = '이 사이트 초기화면의 활동에 대하여 모든 이용자가 학생으로 간주되도록 할 것인가? 만약 \"예\"라고 설정한다면 승인된 이용자 누구라도 다른 과정에 손쉽게 학생으로 참여할 수 있게 된다. 만약 \"아니오\"를 선택한다면 이용자는 초기화면의 특정 과정에만 참여하도록 제한될 것이다. 이 때는 관리자와 지정된 교수자만 초기화면의 교수자로서 활동할 수 있다.';
 $string['configauthenticationplugins'] = '사용하고자 하는 인증 플러그인을 선택하여 우선 순위로 나열하라.';
 $string['configautolang'] = '브라우저 설정에서 기본 언어를 검출. 비활성화된 경우 사이트 기본설정이 사용됨';
 $string['configautologinguests'] = '어떤 강좌에 방문객이 접속했을 때, 자동적으로 손님자격으로 로그인이 되게 할 것인가?';
@@ -75,12 +75,12 @@ $string['configcachetype'] = '무들이 사용할 캐쉬 유형을 고르라. �
 $string['configclamactlikevirus'] = '바이러스 파일로 처리';
 $string['configclamdonothing'] = '정상적인 파일로 처리';
 $string['configclamfailureonupload'] = '만약 업로드 된 파일을 검사하도록 지정했는데, 잘 못 설정되거나 알려지지 않은 이유 때문에 오류가 발생한다면, 어떻게 될까? 이 때 만약 \'바이러스 파일로 처리하기\'를 선택한다면 그들은 격리 구역으로 가거나 삭제될 것이다. 만약 \'정상적인 파일로 처리\'를 선택하면 그 파일은 일반적인 저장고로 이동할 것이다. 어쨌든 관리자는 이에 대한 경고를 받게 된다. 만약 당신이 \'바이러스 파일로 처리\'를 선택했는데, 어떤 이유에서건 실행 오류를 만나게 된다면(대개는 불가능한 경로를 설정했기 때문에 생긴다)업로드 된 모든 파일은 격리된 구역으로 옮겨지거나 삭제 된다. 이 설정을 할 때는 매우 조심하라.';
-$string['configcookiehttponly'] = 'PHP 5.2.0기능 활성화 - 부라우저가 실제 http의 요청에만 쿠키를 제공해야 하며 스크립트에 의해서는 쿠키를 접속할 수 없어야 한다. 이것은 모든 부라우저를 지원하는 것은 아니며 모든 코드에 완벽히 호환되지는 않을 것이다. 몇 종류의 XSS 공격을 막는데 도움이 된다.';
+$string['configcookiehttponly'] = 'PHP 5.2.0기능 활성화 - 브라우저가 실제 http의 요청에만 쿠키를 제공해야 하며 스크립트에 의해서는 쿠키를 접속할 수 없어야 한다. 이것은 모든 브라우저를 지원하는 것은 아니며 모든 코드에 완벽히 호환되지는 않을 것이다. 몇 종류의 XSS 공격을 막는데 도움이 된다.';
 $string['configcookiesecure'] = '만일 서버가 https 접속만 허용한다면 보안 쿠키 제공 활성화를 권장한다. 만일 이를 활성화 해 놓았다면 웹서버는 http://나 https:// 주소로 우회시킨 설정에 대해서는 접속을 허용하지 않을 것이다. <em>wwwroot</em> 가 https:// 로 시작하지 않는  주소에 대해서는 이 설정이 자동적으로 꺼진다.';
 $string['configcountry'] = '만약 여기에 국가를 지정한다면, 그 국가는 새로운 이용자계정의 기본값으로 설정된다. 이용자 스스로 국가(언어)를 선택하게 하고 싶으면, 지정하지 말고 그냥 놓아 두어라.';
-$string['configcoursemanager'] = '여기에서는 강좌 설명 하단에 표시하고 싶은 사람을 설정할 수 있게 한다. 기표된 역할이 주어진 이용자는 강좌 설명에 이름이 제시된다.';
+$string['configcoursemanager'] = '여기에서는 강좌 소개에 표시하고 싶은 사람을 설정할 수 있게 한다. 기표된 역할이 주어진 이용자는 강좌 설명에 이름이 제시된다.';
 $string['configcoursesperpage'] = '강좌 목록에서 페이지당 표시될 강좌의 수를 입력하세요.';
-$string['configcreatornewroleid'] = '새 강좌를 생성한 사람에게 자동적으로 주어지는 역할. 만일 이미 상위 강좌의 권한을 상속받을 경우에는 역할이 다시 주어지지 않는다.';
+$string['configcreatornewroleid'] = '강좌를 생성한 사람에게 자동적으로 주어지는 역할. 만일 이미 상위 강좌의 권한을 상속받을 경우에는 역할이 다시 주어지지 않는다.';
 $string['configcronclionly'] = '이것이 설정되면 크론 스크립트는 웹 대신 명령어 줄에서만 실행될 수 있다. 이것은 아래의 크론 암호설정에 우선한다.';
 $string['configcronremotepassword'] = '이것은 cron.php가 다음의 URL에서 제공하는 양식을 이용하여 암호가 제공되지 않으면 웹에서 구동될 수 없다는 것을 의미한다.<pre> http://site.example.com/admin/cron.php?password=opensesame
  </pre> 여기를 비워놓으면 암호를 요구하지 않는다.';
@@ -104,6 +104,7 @@ $string['configdocroot'] = '무들 문서 창고의 경로를 정의한다. 만�
 $string['configdoctonewwindow'] = '만일 이 기능을 \"예\"로 놓으면 무들 문서창이 새 창으로 뜬다.';
 $string['configeditordictionary'] = '이것은 만약 aspell에 이용자가 쓰는 언어의 사전이 없을 때 사용할 값입니다.';
 $string['configeditorfontlist'] = '편집기의 펼침 목록에 나타날 글꼴을 선택하라.';
+$string['configemailchangeconfirmation'] = '사용자가 개인 정보에서 메일 주소를 변경하면 이메일 주소 확인 절차를 요구';
 $string['configemoticons'] = '오른편에 있는 이모티콘의 이름과 관계된 왼편의 코드를 변경하세요. 새로운 이모티콘을 추가하기 위해서는 코드와 이름, 그리고 /pix/s 에  이름.gif 형식으로 이미지를 추가하세요.';
 $string['configenableajax'] = '만일 AJAX 기능을 활성화하면 이용자는 자신들의 개인정보에서 이를 비활성화 할 수 있으나, 여기에서 비활성화하면 모든 사람이 AJAX 기능을 쓸 수 없게 된다.';
 $string['configenablecourserequests'] = '이 기능을 켜 놓으면 어느 누구던 강좌를 요청하여 만들 수 있다.';
@@ -112,8 +113,8 @@ $string['configenablegroupings'] = '이 설정은 모둠을 무리지을 수 있
 $string['configenablehtmlpurifier'] = '신뢰할 수 없는 문서의 악성코드를 제거하기 위해서는 KSES 대신에 HTML Purifier를 사용하라. 이것은 심혈을 기울여 개발되었고 상당한 신뢰도를 가지지만 자원 집약적인 측면이 있다. 최종 결과물은 다소 원안과 다르게 보일 수도 있다. embed 및 object 태그는 처리할 수 없으며 MathML과 오래된 lang 태그는 지원하지 않음을 유념하기 바란다.';
 $string['configenablerssfeeds'] = '이 스위치는 무들에서 자료를 RSS 방식으로 내보낼 수 있게 한다. 각 모듈에서 RSS로 내보내려 한다면, 현재 어떤 상황인지를 살펴보고 안되면 관리자 환경설정 아래에 있는 모듈 설정에서 조정하라.';
 $string['configenablerssfeedsdisabled'] = '만일 사이트 전체의 RSS 송출기능을 막아놓았다면, 이 기능은 이용할 수 없다. 이를 가능하게 하려면 우선 관리자 환경설정 아래에 있는 변수 설정으로 가서 사이트 전체의 설정을 바꾸어야 한다.';
-$string['configenablerssfeedsdisabled2'] = 'RSS feed가 서버 수준에서 비활성화 되어 있습니다. 우선 서버/RSS에서 활성화 할 필요가 있습니다.';
-$string['configenablestats'] = '여기를 체크해 놓으면 무들의 일정관리 기능은 여러 기록과 통계를 수합할 것이다. 사이트의 부하에 따라 시간이 걸릴 수도 있다. 이 기능을 설정할 경우, 여러분의 강좌는 물론 사이트 전체에 관련된 여러 그래프와 통계를 볼 수 있다.';
+$string['configenablerssfeedsdisabled2'] = 'RSS 송출이 서버 수준에서 비활성화 되어 있습니다. 우선 서버/RSS에서 활성화 할 필요가 있습니다.';
+$string['configenablestats'] = '여기를 체크해 놓으면 무들의 일정관리 기능은 여러 기록과 통계를 수합할 것이다. 사이트의 부하에 따라 다소 시간이 걸릴 수도 있다. 이 기능을 활성화할 경우, 여러분의 강좌는 물론 사이트 전체에 관련된 여러 그래프와 통계를 볼 수 있다.';
 $string['configenabletrusttext'] = '무들은 기본적으로 이용자가 올리는 문서를 철저하게 검색하여 혹시 있을지 모르는 보안에 위해가 되는 악성코드 혹은 동영상 등을 제거한다. 내용 검증 체계는 신임하는 이용자들에게 그들이 올리는 내용에 대해서는 간섭하지 않고 향상된 기능을 포함시킬 수 있는 권한을 부여하는 형태로 이루어진다. 이러한 체계를 가능하게 하려면, 우선 이 설정을 켜고, 내용신임 인증에 대한 특별한 무들 역할을 부여해야 한다. 이러한 이용자들에 의해 올려지거나 생성되는 문서는 따로 인증표식이 붙어 화면에 표시되기 전에 특정 코드가 삭제되지 않을 것이다.';
 $string['configenrolmentplugins'] = '사용하고자 하는 출석 플러그인을 선택하라. 또 원활하게 작동하도록 설정하는 것을 잊지 말아라.<br /><br />어느 플러그인이 활성화되어 있는지 명시되어야 한다.<strong>하나의</strong> 플러그인이 <em>자동(interactive)</em> 등록에 필요한 기본 플로그인으로 설정될 수 있다. 자동 등록을 비활성화 하기 위해서는 필요한 강좌에서 \"등록가능\"을 \"아니오\"로 하면 된다.';
 $string['configerrorlevel'] = '당신이 알고싶은 PHP경고 수준을 선택하라. 대부분 보통(Normal)이 가장 좋은 선택이다.';
@@ -127,11 +128,11 @@ $string['configforceloginforprofiles'] = '이 기능은 손님계정이 아닌 �
 $string['configframename'] = '만약 여러분이 웹 프레임 안에 무들을 통합하려고 한다면 프레임의 이름을 적어 넣어라. 그렇지 않으면 기본값은 _top으로 설정된다.';
 $string['configfrontpage'] = '위에서 선택된 항목은 사이트 초기화면에 표시될 것이다.';
 $string['configfrontpageloggedin'] = '위에서 선택된 항목은 이용자가 로그인한 후 사이트 초기화면에 표시될 것이다.';
-$string['configfullnamedisplay'] = '이것은 전체 이름을 표시하는 방법을 정의하는 것이다. 대부분의 한 언어만 쓰는 사이트에서는 기본값인 \"이름+성\"으로도 충분하지만, 다양한 언어팩을 쓰는 경우 특히 성이나 이름이 매우 긴 경우에는 이름을 보이지 않게 하거나 성을 보이지 않게 설정할 수도 있다.';
+$string['configfullnamedisplay'] = '이것은 전체 이름을 표시하는 방법을 정의하는 것이다. 대부분의 한 언어만 쓰는 사이트에서는 기본값인 \"성+이름\"으로도 충분하지만, 다양한 언어팩을 쓰는 경우 특히 성이나 이름이 매우 긴 경우에는 이름을 보이지 않게 하거나 성을 보이지 않게 설정할 수도 있다.';
 $string['configgdversion'] = '설치된 GD 버전을 보여준다. 여기에 표시된 버전은 자동으로 검출된 것이다. 정확한 내용을 알지 못한다면 가급적 바꾸지 말기 바란다.';
 $string['configgeoipfile'] = 'GeoIP City의 이진 데이터가 있는 위치. 이 파일은 무들 배포본에 포함된 것이 아니며 <a href=\"http://www.maxmind.com/\">MaxMind</a>에서 개별적으로 얻어야만 하는 것이다. 상용 정식판을 구매할 수도 있고 공개판을 이용할 수도 있다. 간단히 <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>을 내려받아 서버의 \"$a\" 경로에 풀어 넣으면 된다.';
 $string['configgooglemapkey'] = 'IP주소의 위치를 찾기 위해 구글맵을 이용하려면 특별한 암호가 필요하다. 이는 <a href=\"http://code.google.com/apis/maps/signup.html\" >http://code.google.com/apis/maps/signup.html</a> 에서 무료로 얻을 수 있다. <br />현재 이 곳의 웹주소는 $a 로 되어 있다.';
-$string['configgradebookroles'] = '이 설정은 성적표에 표시될 사람을 조정할 수 있게 한다. 강좌의 성적표에 표시되려면 이용자는 최소한 다음 중 하나의 역할이 되어야 한다.';
+$string['configgradebookroles'] = '이 설정은 성적표에 표시될 사람을 조정할 수 있게 한다. 강좌의 성적표에 표시되려면 이용자는 최소한 이들 중 하나의 역할이 되어야 한다.';
 $string['configgradeexport'] = '성적을 내보낼 때 우선적으로 사용할 성적표 형식을 선택하라. 선택된 플러그인이 설정된 후에는 추후 모든 성적의 \"최근 내보냄\" 항목으로 이용될 것이다. 예를 들면 내보내기 한 레코드들은 \"새로운\" 혹은 \"새로고침\"된 것으로 간주될 것이다. 확신이 들지 않으면 모든 것을 비워 두어라.';
 $string['configguestroleid'] = '이 역할은 손님계정에 자동으로 부여되는 것이다. 방문이 허용된 강좌에 참여한 비등록 이용자에게도 한시적으로 적용된다. moodle/legacy:guest 및 moodle/course:view 권한이 부여되어 있는지 확인하라.';
 $string['confighiddenuserfields'] = '교수자와 관리자 이외의 사람들에게는 보이게 하고 싶지 않은 이용자 정보를 선택하라. 이렇게 하면 학생들의 프라이버시를 증진시킬 수 있다. 여러 항목을 선택할 때는 CTRL키를 누른채 항목들을 선택하면 된다.';
@@ -143,11 +144,11 @@ $string['configintro'] = '이 관리 화면을 통하여 무들 서버가 원할
 $string['configintroadmin'] = '이 화면을 통해 이 사이트 전반을 완벽하게 통제할 수 있는 주관리자 계정을 설정하여야 한다. 실제 사용할 수 있는 이메일 주소와 함께 안전한 사용자 ID와 암호를 조심스레 입력하라. 나중에 또 다른 관리자 계정을 추가할 수도 있다.';
 $string['configintrosite'] = '이 화면에서는 이 사이트의 명칭과 초기화면에 대한 설정을 할 수 있다. 여러분은 언제라도 다시 홈 페이지의 관리 > 환경설정 > 사이트 설정 항목을 통해 이 곳으로 돌아와 설정을 바꿀 수 있다.';
 $string['configintrotimezones'] = '이 페이지에서는 세계 표준시간대(일광 절약 시간제 포함)에 대한 새로운 정보를 찾을 수 있으며, 이 정보를 데이터베이스에 갱신 할 수 있다. 이런 위치들은 $a 순서로 점검 될 것이다. 이 과정은 일반적으로 안전하여 설치 과정을 멈추게 하지 않는다. 지금 표준시간대를 업데이트하겠는가?';
-$string['configiplookup'] = '여러 기록에서 (34.12.222.93 같은) IP주소를 클릭하여 IP가 어디에 있는지를 추정해 볼 수 있다. 다양한 플러그인 중에 선택할 수 있는데, 나름대로 일장 일단을 갖고 있다.';
+$string['configiplookup'] = '여러 기록에서 (34.12.222.93 같은) IP주소를 클릭하여 IP가 어디에 있는지를 살펴볼 수 있다. 선택할 수 있는 다양한 플러그인이 있는데, 나름대로 일장 일단을 갖고 있다.';
 $string['configkeeptagnamecase'] = '태그를 만든 사람이 이용자로 입장할 때, 태그 명칭이 원래 형태대로 유지되도록 하려면 여기를 체크해 놓아라.';
 $string['configlang'] = '사이트 전체를 위한 기본 언어를 선택해라. 이용자들은 자신의 언어 설정을 개별적으로 바꿀 수도 있다.';
 $string['configlangcache'] = '언어 메뉴의 임시 저장. 많은 메모리가 절약되고 처리 속도도 빨라질 것이다. 이를 활성화해 놓으면 언어를 추가하거나 삭제한 후, 수 분 이내에 언어 메뉴가 업데이트 될 것이다.';
-$string['configlangdir'] = '대부분 언어들은 왼쪽에서 오른쪽으로 인쇄되나, 아라비아어나 헤브리아어 같은 일부 언어들은 오른쪽에서 왼쪽으로 인쇄된다.';
+$string['configlangdir'] = '대부분 언어들은 왼쪽에서 오른쪽으로 인쇄되나, 아랍어나 히브리어 같은 일부 언어들은 오른쪽에서 왼쪽으로 인쇄된다.';
 $string['configlanglist'] = '무들에 설치된 언어팩이면 어떤 언어든지 이용자 스스로 선택할 수 있도록 가급적 이 곳을 빈칸으로 놓아 두어라. 하지만, 이용자들이 선택하는 언어 목록을 제한하고 싶으면 해당하는 언어코드를 쉼표로 분리하여 작성하여 넣으면 된다. 예시: ko,en,fr,it';
 $string['configlangmenu'] = '사이트에서 일반적 안내 문구로 사용할 언어의 선택 목록을 보이게 할 것인지 말 것인지를 설정하는 것이다. 이 설정은 이용자들이 개인정보에서 개별적으로 선택한 언어에는 영향을 미치지 않는다.';
 $string['configlatinexcelexport'] = '엑셀로 내보내기 위한 인코딩 선택';
@@ -328,6 +329,7 @@ $string['editorkillword'] = '워드 형식 필터';
 $string['editorspelling'] = '편집기 철자법';
 $string['editorspellinghelp'] = '철자 검사의 활성/비활성. 이를 활성화해 놓으려면 반드시 서버에 <strong>aspell</strong>이 탑재되어 있어야 합니다.';
 $string['editstrings'] = '문자열 편집';
+$string['emailchangeconfirmation'] = '이메일 주소 검증';
 $string['emoticons'] = '이모티콘';
 $string['emptysettingvalue'] = '비어있음';
 $string['enableajax'] = 'AJAX 활성화';

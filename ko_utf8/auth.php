@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080706) (2008070500)
 
 
 $string['CASform'] = '인증 선택';
@@ -16,7 +16,7 @@ $string['auth_cas_baseuri'] = '서버의 URI (기반 uri가 없는 것)
 host.domaine.fr/CAS/에 응답한다면 
 <br />cas_baseuri = CAS/';
 $string['auth_cas_baseuri_key'] = '기반 URI';
-$string['auth_cas_broken_password'] = '비밀번호 변경없이는 계속할 수 없습니다만 비밀번호를 바꿀 방법이 없습니다. 무들 관리자에게 연락하기 바랍니다.';
+$string['auth_cas_broken_password'] = '비밀번호 변경없이는 계속할 수 없습니다만, 비밀번호를 바꿀 방법이 없습니다. 무들 관리자에게 연락하기 바랍니다.';
 $string['auth_cas_cantconnect'] = 'CAS모듈의 LDAP 부분만으로는 $a 서버에 연결할 수 없습니다.';
 $string['auth_cas_casversion'] = '판번호';
 $string['auth_cas_changepasswordurl'] = '암호변경 URL';
@@ -48,6 +48,7 @@ $string['auth_changepasswordhelp'] = '비밀번호 도움문서 바꾸기';
 $string['auth_changepasswordhelp_expl'] = '비밀번호 도움문서를 자신의 $a 비밀번호를 잊어버린 사용자들에게 보여줍니다. 또한 이것은 무들의 비밀번호 변경 혹은 <strong>비밀번호 변경 주소</strong>를 대신 보여줄 수도 있습니다.';
 $string['auth_changepasswordurl'] = '암호 재발급 주소';
 $string['auth_changepasswordurl_expl'] = '$a 비밀번호를 잊어버린 사용자들에게 이 주소를 전송한다. <strong>표준적인 비밀번호 변경 페이지</strong>를 <strong>아니오</strong>로 설정하라.';
+$string['auth_changingemailaddress'] = '이용자께서는 $a->oldemail 에서 $a->newemail 로 이메일 주소 변경 요청을 하셨습니다. 보안 관계상, 새로 바뀐 이메일 주소로 확인 메시지를 발송할 것입니다. 확인 메시지를 받고 URL 을 열어 응답하는 즉시, 새로운 이메일 주소로 갱신될 것입니다.';
 $string['auth_common_settings'] = '일반설정';
 $string['auth_data_mapping'] = '데이타 매핑';
 $string['auth_dbcantconnect'] = '지정한 인증 데이터베이스에 연결할 수 없습니다.';
@@ -93,13 +94,25 @@ $string['auth_dbuser_key'] = 'DB 사용자';
 $string['auth_dbusernotexist'] = '존재하지 않는 사용자 $a 는 갱신할 수 없음';
 $string['auth_dbuserstoadd'] = '$a 에 사용자 목록 추가';
 $string['auth_dbuserstoremove'] = '$a 에서 사용자 목록 제거';
+$string['auth_emailchangecancel'] = '이메일 주소변경 취소';
+$string['auth_emailchangepending'] = '변경 보류. $a->preference_newemail 로 발송된 확인 내용에 응답하기 바랍니다.';
 $string['auth_emaildescription'] = '이메일 확인 인증은 기본 인증 방법이다. 가입하기 위해  이용자가 새로운 사용자 아이디와 비밀번호를 입력하면, 사용자의 이메일 계정으로 확인 메일이 보내진다. 이 메일에는 계정을 활성화할 수 있는 안전한 링크를 포함한다. 다음에 로그인할 때에는 무들 데이타베이스에 저장된 자료들을 참고하게 된다.';
 $string['auth_emailnoemail'] = '이메일 발송 실패';
 $string['auth_emailnoinsert'] = '데이터베이스에 당신의 기록 추가 실패';
-$string['auth_emailrecaptcha'] = '이메일을 통해 자동 등록하는 사용자들을 위해 등록 화면에 시청각 확인 기능을 추가하라. 이렇게 하면 스패머로부터 사이트를 지킬 수 있을 뿐만 아니라 뭔가 의미있는 공헌도 할 수 있게 된다. 좀 더 알고 싶으면 http://recaptcha.net/learnmore.html 의 내용을 참조하라.';
+$string['auth_emailnowexists'] = '최초 메일 변경 요청 이후, 누군가 여러분의 개인정보난의 이메일 주소에 대해 확인을 했습니다. 이에따라 이메일 주소 변경 요청은 기각되었읍니다만, 다른 주소를 이용하여 재 시도할 수는 있습니다.';
+$string['auth_emailrecaptcha'] = '이메일을 이용해 스스로 등록하려는 사용자들을 위해 등록 화면에 시청각 확인 기능을 추가하라. 이렇게 하면 스패머로부터 사이트를 지킬 수 있을 뿐만 아니라 뭔가 의미있는 공헌도 할 수 있게 된다. 좀 더 알고 싶으면 http://recaptcha.net/learnmore.html 의 내용을 참조하라.';
 $string['auth_emailrecaptcha_key'] = 'reCAPTCHA 기능 활성화';
 $string['auth_emailsettings'] = '이메일 인증 설정';
 $string['auth_emailtitle'] = '이메일 기반 인증';
+$string['auth_emailupdate'] = '이메일 주소 갱신';
+$string['auth_emailupdatemessage'] = '$a->fullname 님,
+
+$a->site 에 등록된 이메일 주소 변경을 요구하신 바 있습니다.
+확실하다면, 다음에 나오는 URL을 클릭하여 확인해주길 부탁드립니다.
+
+$a->url';
+$string['auth_emailupdatesuccess'] = '사용자 <em>$a->fullname</em>의 이메일 주소가 <em>$a->email</em>로 갱신 완료되었음';
+$string['auth_emailupdatetitle'] = '$a->site 의 이메일 갱신 확인';
 $string['auth_fcchangepasswordurl'] = '암호 변경 URL';
 $string['auth_fcconnfail'] = '접속 실패 오류번호: $a[0] 오류내용: $a[1]';
 $string['auth_fccreators'] = '새로운 강좌를 만들수 있는 회원들이 있는 모둠의 목록.  다수의 모둠이 있는 경우에는 \';\'를 사용하여 구분하라. 이름은 FirstClass 서버에서와 마찬가지로 반드시 정확하게 쓰여져야 한다. 시스템은 대소문자를 구별한다.';
@@ -128,6 +141,7 @@ $string['auth_imapport_key'] = 'imap포트';
 $string['auth_imaptitle'] = 'IMAP서버의 사용';
 $string['auth_imaptype'] = 'IMAP서버의 유형. IMAP서버는 다른 유형의 인증방법이나 교섭방법을 사용할 수 있다.';
 $string['auth_imaptype_key'] = 'imap유형';
+$string['auth_invalidnewemailkey'] = '오류: 메일 주소 변경 확인을 시도했지만, 서버에서 발송한 이메일 주소와 일치하지 않는 모양입니다. 이메일 주소를 다시한번 확인하고 재 시도하기 바랍니다.';
 $string['auth_ldap_ad_create_req'] = '활성화된 경로에서 새로운 계정을 생성할 수 없습니다. 이 작업에 필요한 모든 조건(LADPS 연결, 운영자급 시용자의 적절한 권한 등)을 충족시켰는지를 확인하시오.';
 $string['auth_ldap_attrcreators'] = '구성원이 속성을 생성할 수 있도록 허용된 그룹 목록 또는 컨텍스트. 여러 그룹인 경우 \';\'를 이용. 대개는  \'cn=teachers,ou=staff,o=myorg\'처럼 씀.';
 $string['auth_ldap_attrcreators_key'] = '속성 생성자';
@@ -226,6 +240,7 @@ $string['auth_ntlmsso_enabled'] = 'NTLM 도메인에서 싱글사인온을 하�
 $string['auth_ntlmsso_enabled_key'] = '활성화';
 $string['auth_ntlmsso_subnet'] = '설정되면 이 서브넷에 있는 클라이언트에 대해 SSO를 시도합니다.  포맷: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = '서브넷';
+$string['auth_outofnewemailupdateattempts'] = '허용된 이메일 주소 변경의 갱신 시도 횟수를 넘겼습니다. 요청이 기각되었습니다.';
 $string['auth_pamdescription'] = '이 방법은 이 서버에서 원래 사용자 이름에 접근하는 PAM을 사용한다. 당신은 이 모듈을 사용하기 위해 
 <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> 를 설치해야 한다.';
 $string['auth_pamtitle'] = 'PAM';

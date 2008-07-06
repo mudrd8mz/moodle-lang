@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20080419) (2008030700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080706) (2008070500)
 
 
 $string['activities'] = '활동';
@@ -503,6 +503,7 @@ $string['usergrade'] = '$a->gradeidnumber 항목의 사용자 $a->fullname ($a->
 $string['userkeyhelp'] = '무들에 로그인 하지 않고 이 내보내기 플러그인에 의해 공개될 데이타에 대한 접근성을 이용자에게 주는 저장된 키를 선택하세요. 이 양식을 제출할때 새 키를 만들려면 \'새 사용자 키\'를 선택하세요.';
 $string['userpreferences'] = '이용자 선택사항';
 $string['useweighted'] = '가중치 사용';
+$string['verbosescales'] = 'Verbose 척도';
 $string['viewbygroup'] = '모둠';
 $string['viewgrades'] = '성적 보기';
 $string['weight'] = '가중치';
