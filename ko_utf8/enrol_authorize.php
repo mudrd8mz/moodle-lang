@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080620) (2008051203)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080707) (2008070700)
 
 
 $string['adminacceptccs'] = '어떤 유형의 카드가 가능합니까?';
@@ -85,6 +85,7 @@ $string['choosemethod'] = '만약 강좌 등록키를 안다면 그것을 여기
 $string['chooseone'] = '아래의 빈칸들 중 한 부분이나 모든 부분을 채우시오. 비밀번호는 보이지 않습니다.';
 $string['costdefaultdesc'] = '강좌 설정에서 항목난에 <strong>-1</strong>을 써 넣으면 기본값으로 설정이 됩니다.';
 $string['cutofftime'] = '거래 기간 만료. 결제했던 마지막 거래가 언제입니까?';
+$string['dataentered'] = '자료 입력됨';
 $string['delete'] = '파기';
 $string['description'] = 'Authorize.net 모듈은 유료교육과정을 신용카드 공급자로부터 지불하는것을 허락할것입니다. 만약 무료교육과정이라면 학생들에게 수업료를 청구할 필요가 없습니다. 수강료를 설정하는 방법에는 두 가지가 있습니다. (1)이 사이트의 처음 설정된 값으로 전체 사이트 등록금을 정할수 있고 (2)각 코스마다 개인적으로 등록금을 정할수 있습니다. 교육과정의 수업료는 사이트 기본 수업료보다 우선 적용됩니다.<br /><br /><b>참고:</b>등록키를 설정해 놓은 경우, 학생도 등록을 할 때 등록키를 사용할 옵션을 가질 것입니다. 장학생 등을 관리할 때 유용하게 쓰일 수 있습니다.';
 $string['echeckabacode'] = 'ABA 코드';
