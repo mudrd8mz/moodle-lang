@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080704) (2008070300)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080707) (2008070700)
 
 
 $string['CASform'] = '認証選択';
@@ -43,6 +43,7 @@ $string['auth_changepasswordhelp'] = 'パスワードヘルプの変更';
 $string['auth_changepasswordhelp_expl'] = 'ユーザが $a パスワードを忘れた場合、パスワード喪失ヘルプを表示します。これは、<strong>パスワード変更URI</strong>またはMoodle内部のパスワード変更画面と同時に、または代わりに表示されます。';
 $string['auth_changepasswordurl'] = 'パスワードURIの変更';
 $string['auth_changepasswordurl_expl'] = '$a パスワードを忘れたユーザが使用するURIを指定してください。<strong>通常のパスワード変更ページを使用する場合</strong>、<strong>No</strong>を設定してください。';
+$string['auth_changingemailaddress'] = 'あなたは、$a->oldemail から $a->newemail へのメールアドレス変更をリクエストしました。セキュリティ上の理由から、新しいメールアドレスがあなたのメールアドレスか確認するため、私たちはあなたにメッセージを送信しています。このメッセージ内のURIにアクセスすることで、あなたのメールアドレスが更新されます。';
 $string['auth_common_settings'] = '共通設定';
 $string['auth_data_mapping'] = 'データマッピング';
 $string['auth_dbcantconnect'] = '指定された認証データベースに接続できませんでした ...';
@@ -88,13 +89,20 @@ $string['auth_dbuser_key'] = 'データベースユーザ';
 $string['auth_dbusernotexist'] = '登録されていないユーザを更新できません: $a';
 $string['auth_dbuserstoadd'] = '追加するユーザエントリ: $a';
 $string['auth_dbuserstoremove'] = '削除するユーザエントリ: $a';
+$string['auth_emailchangecancel'] = 'メール変更をキャンセルする';
+$string['auth_emailchangepending'] = '変更保留中です。あなたのメールアドレス $a->preference_newemail に送信されたメッセージ内のリンクにアクセスしてください。';
 $string['auth_emaildescription'] = 'メールによるアカウント登録確認は、デフォルトの認証方法です。ユーザが新しいユーザ名とパスワードを選択してサインアップした場合、アカウント確定用メールがユーザのメールアドレスに送信されます。このメールにはユーザがアカウントの登録を確認するためのリンクが記入されています。アカウント確定後のログインでは、Moodleデータベースに保存されているユーザ名とパスワードのみを確認します。';
 $string['auth_emailnoemail'] = 'あなたへのメール送信に失敗しました!';
 $string['auth_emailnoinsert'] = 'あなたのレコードをデータベースに追加できませんでした!';
+$string['auth_emailnowexists'] = 'あなたのプロファイルに割り当てようと試みたメールアドレスは、あなたがリクエストした後、他のユーザに割り当てられています。このため、あなたのメールアドレス変更はキャンセルされましたが、他のアドレスを割り当てることはできます。';
 $string['auth_emailrecaptcha'] = 'Eメールによる自己登録ユーザのため、サインアップページにビジュアル/オーディオ確認フォーム要素を追加します。これは、あなたのサイトをスパム発信者から守り、価値ある活動に貢献します。詳細は、http://recaptcha.net/learnmore.html をご覧ください。';
 $string['auth_emailrecaptcha_key'] = 'reCAPTCHA要素を有効にする';
 $string['auth_emailsettings'] = '設定';
 $string['auth_emailtitle'] = 'Eメールによる自己登録';
+$string['auth_emailupdate'] = 'メールアドレス更新';
+$string['auth_emailupdatemessage'] = 'あなたは、$a->site のアカウントに関するメールアドレスの変更をリクエストしました。この変更を確認するには、あなたのブラウザで以下のURIにアクセスしてください。';
+$string['auth_emailupdatesuccess'] = 'ユーザのメールアドレス <em>$a->fullname</em> は、正常に <em>$a->email</em> に変更されました。';
+$string['auth_emailupdatetitle'] = '$a->site のメール更新確認';
 $string['auth_fcchangepasswordurl'] = 'パスワード変更のURI';
 $string['auth_fcconnfail'] = '接続に失敗しました。エラー番号: $a[0] エラーストリング: $a[1]';
 $string['auth_fccreators'] = 'メンバーがコースの作成を許可されているグループの一覧です。複数のグループは「;」で分けてください。グループ名はFirstClassサーバと厳密に同じ名称にしてください。システムは、大文字と小文字を区別します。';
@@ -123,6 +131,7 @@ $string['auth_imapport_key'] = 'ポート';
 $string['auth_imaptitle'] = 'IMAPサーバ';
 $string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバでは、異なる認証およびネゴシエーションを使用することができます。';
 $string['auth_imaptype_key'] = 'タイプ';
+$string['auth_invalidnewemailkey'] = 'エラー: あなたがメールアドレスの変更確認を試みているのでしたら、あなたに送信されたメール内のURIのコピーに失敗しているようです。URIをコピーして、再度お試しください。';
 $string['auth_ldap_ad_create_req'] = 'アクティブディレクトリに新しいアカウントを作成できません。アカウントを作成するためのすべての必要条件 (LDAPSコネクション、必要な権限を持ったbindユーザ等) に合致しているか確認してください。';
 $string['auth_ldap_attrcreators'] = 'メンバーが属性の作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で分けてください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
 $string['auth_ldap_attrcreators_key'] = '属性作成者';
@@ -219,6 +228,7 @@ $string['auth_ntlmsso_enabled'] = '「Yes」にした場合、NTLMドメイン�
 $string['auth_ntlmsso_enabled_key'] = '有効';
 $string['auth_ntlmsso_subnet'] = '設定した場合、このサブネットの中のクライアントのみSSOを試みます。フォーマット: xxx.xxx.xxx.xxx/ビットマスク';
 $string['auth_ntlmsso_subnet_key'] = 'サブネット';
+$string['auth_outofnewemailupdateattempts'] = 'あなたは、メールアドレスの変更許容回数を超えました。あなたのメール変更リクエストは、キャンセルされました。';
 $string['auth_pamdescription'] = 'この方法では、サーバのネイティブユーザ名にアクセスする手段としてPAMを使用します。このモジュールを使用するためには、<a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a>がインストールされている必要があります。';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'あなたのパスワードの有効期限が切れました。パスワードを変更しますか?';
