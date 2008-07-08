@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080706) (2008070500)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080708) (2008070701)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -311,6 +311,7 @@ $string['denyemailaddresses'] = '거부할 이메일 도메인';
 $string['digestmailtime'] = '요약 이메일 보내는 시각';
 $string['disablecourseajax'] = '메인 강좌 편집시 비활성화';
 $string['disableuserimages'] = '사진 갱신 불허';
+$string['displayerrorswarning'] = '상용 사이트에서는 오류 메세지를 통하여 서버의 민감한 정보가 누출될 우려가 있기 때문에 PHP의 <em>display_errors</em> 설정을 추천하지 않습니다.';
 $string['displayloginfailures'] = '로그인 실패 보여주기';
 $string['docroot'] = '무들 문서창고 경로';
 $string['doctonewwindow'] = '새 창에서 열기';

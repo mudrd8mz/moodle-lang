@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080528) (2008051202)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080708) (2008070701)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -291,6 +291,10 @@ $string['unreadposts'] = '읽지 않은 글';
 $string['unreadpostsnumber'] = '$a 개의 읽지 않은 글';
 $string['unreadpostsone'] = '읽지 않은 글 하나';
 $string['unsubscribe'] = '이 포럼 구독해지';
+$string['unsubscribeall'] = '모든 포럼 구독 해지';
+$string['unsubscribeallconfirm'] = '이제부터 $a 포럼에 대한 구독신정을 하려고 합니다. 정말 모든 포럼의 구독을 해지하고 자동 구독을 금하겠습니까?';
+$string['unsubscribealldone'] = '포럼에 대한 모든 구독사항을 삭제하였지만, 강제 구독해야 하는 포럼의 공지사항은 받아볼 수 있습니다. 만일 이 서버에서 보내는 어떤 메일도 받고 싶지 않다면, 개인 정보수정의 이메일 활성난에서 이메일 전송 금지를 선택하기 바랍니다.';
+$string['unsubscribeallempty'] = '죄송합니다만, 어떤 포럼도 구독하고 있지 않습니다. 만일 이 서버에서 보내는 어떤 메일도 받고 싶지 않다면, 개인 정보수정의 이메일 활성난에서 이메일 전송 금지를 선택하기 바랍니다.';
 $string['unsubscribed'] = '구독해지 됨';
 $string['unsubscribeshort'] = '구독해지';
 $string['usermarksread'] = '읽었음 수동 표시';
