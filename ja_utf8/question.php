@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080630) (2008063002)
+      // question.php - created with Moodle 2.0 dev (Build: 20080707) (2008070701)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -133,6 +133,7 @@ $string['unknownquestiontype'] = '不明な問題タイプ「 $a 」です。';
 $string['unknowntolerance'] = '不明な許容誤差タイプ「 $a 」です。';
 $string['unpublished'] = '非共有';
 $string['wrongprefix'] = '問題名接頭辞のフォーマット「 $a 」が正しくありません。';
+$string['yourfileshoulddownload'] = 'あなたのエクスポートファイルのダウンロードは、まもなく始まります。ダウンロードされない場合、<a href=\"$a\">ここをクリックしてください</a>。';
 $string['novirtualquestion'] = '問題タイプ $a には、バーチャル問題がありません。'; // TBD
 
 ?>
