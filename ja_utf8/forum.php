@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080707) (2008070701)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -293,6 +293,10 @@ $string['unreadposts'] = '未読の投稿';
 $string['unreadpostsnumber'] = '未読件数 $a';
 $string['unreadpostsone'] = '未読件数 1';
 $string['unsubscribe'] = 'このフォーラムのメール購読を解除する';
+$string['unsubscribeall'] = 'すべてのフォーラムのメール購読を解除する';
+$string['unsubscribeallconfirm'] = '現在、あなたは $a 件のフォーラムをメール購読しています。本当にすべてのフォーラムのメール購読を解除およびフォーラム自動メール購読を無効にしてもよろしいですか?';
+$string['unsubscribealldone'] = 'すべてのフォーラムのメール購読は解除されました。まだ、メール購読が強制されているフォーラムから通知が送信されます。このサーバからメールを受信したくない場合、あなたのプロファイルページに移動して、メールアドレスを無効にしてください。';
+$string['unsubscribeallempty'] = '申し訳ございません、あなたがメール購読しているフォーラムはありません。このサーバからメールを受信したくない場合、あなたのプロファイルページに移動して、メールアドレスを無効にしてください。';
 $string['unsubscribed'] = 'メール購読を解除しました。';
 $string['unsubscribeshort'] = 'メール購読解除';
 $string['usermarksread'] = '投稿を手動で既読にする';
