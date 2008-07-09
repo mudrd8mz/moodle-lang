@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080703) (2008063002)
+      // question.php - created with Moodle 2.0 dev (Build: 20080709) (2008070701)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -132,6 +132,7 @@ $string['unknownquestiontype'] = '$a 문항 유형은 없습니다.';
 $string['unknowntolerance'] = '알 수 없는 오차 유형 $a';
 $string['unpublished'] = '비공개됨';
 $string['wrongprefix'] = '접두사 $a 의 형식 오류';
+$string['yourfileshoulddownload'] = '내보낸 파일은 즉시 내려받기가 됩니다. 만일 자동으로 내려받기가 되지 않으면 <a href=\"$a\">여기</a>를 클릭하세요.';
 $string['novirtualquestion'] = '$a 문형과 유사 문형은 없음'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080703) (2008063002)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080709) (2008070701)
 
 
 $string['1day'] = '하루';
@@ -44,6 +44,7 @@ $string['alwaysavailable'] = '항상 가능';
 $string['analysisoptions'] = '분석 옵션';
 $string['analysistitle'] = '항목 분석표';
 $string['answer'] = '정답';
+$string['answered'] = '응답했음';
 $string['answerhowmany'] = '단답 혹은 복수의 답?';
 $string['answers'] = '답안';
 $string['answersingleno'] = '복수의 답 인정';
@@ -396,6 +397,7 @@ $string['numberabbr'] = '#';
 $string['numerical'] = '수치형';
 $string['onlyteachersexport'] = '교수자만이 질문을 내보내기 할 수 있음';
 $string['onlyteachersimport'] = '편집 권한이 있는 사람만 질문 가져오기를 할 수 있음';
+$string['open'] = '시작했음';
 $string['openclosedatesupdated'] = '퀴즈 시작 및 종료일이 변경되었음';
 $string['optional'] = '선택사항';
 $string['outof'] = '최대 $a->maxgrade 중 $a->grade';
