@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080630) (2008063002)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080707) (2008070701)
 
 
 $string['1day'] = '1日';
@@ -44,6 +44,7 @@ $string['alwaysavailable'] = '常時利用可能';
 $string['analysisoptions'] = '分析オプション';
 $string['analysistitle'] = 'アイテム分析テーブル';
 $string['answer'] = '答え';
+$string['answered'] = '解答済み';
 $string['answerhowmany'] = '単一または複数解答?';
 $string['answers'] = '正解';
 $string['answersingleno'] = '複数解答を許可する';
@@ -404,6 +405,7 @@ $string['numberabbr'] = '#';
 $string['numerical'] = '数値問題';
 $string['onlyteachersexport'] = '教師のみ問題をエクスポートできます。';
 $string['onlyteachersimport'] = '権限のある教師のみ問題をインポートできます。';
+$string['open'] = '開始済み';
 $string['openclosedatesupdated'] = '小テスト公開日時および終了日時が更新されました。';
 $string['optional'] = 'オプション';
 $string['outof'] = '$a->grade / $a->maxgrade';
