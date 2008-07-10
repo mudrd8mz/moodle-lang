@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['allattempts'] = 'Toon alle pogingen';
@@ -27,5 +27,6 @@ $string['show'] = 'Toon / download';
 $string['showdetailedmarks'] = 'Toon / download cijfers voor elke vraag';
 $string['showinggraded'] = 'Toon alleen de beoordeelde poging voor elke gebruiker.';
 $string['showinggradedandungraded'] = 'De beoordeelde en onbeoordeelde pogingen voor elke gebruiker worden getoond. De beoordeelde poging voor elke gebruiker is gemarkeerd. De beoordelingsmethode voor deze test is $a.';
+$string['studentingroup'] = '\'$a->coursestudent\' in groep \'$a->groupname\'';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (2007101508)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['action'] = '- - Acties - -';
@@ -17,7 +17,12 @@ $string['binimgtoolarge'] = 'Afbeeldingsbestand is te groot!';
 $string['binnoimg'] = 'Dit is een onaanvaard bestandsformaat!';
 $string['browse'] = 'Bladeren';
 $string['canceledit'] = 'Negeer';
+$string['cannotacceptbin'] = 'Deze wikki accepteerd geen binaire bestanden';
+$string['cannotaccessgroup'] = 'Geen toegang voor groepen voor deze wiki';
+$string['cannotaddentry'] = 'Kon wiki-item niet toevoegen';
 $string['cannotchangepage'] = 'Deze pagina kan niet gewijzigd worden';
+$string['cannotdeletelockrecored'] = 'Kon blokkeer-record niet verwijderen';
+$string['cannotgetentry'] = 'Kon geen item vinden.';
 $string['changes'] = '$a wijzigingen';
 $string['changesfield'] = 'Hoelang sinds de vorige wijzigingen';
 $string['changesfielderror'] = 'Geef een juist uur in.';

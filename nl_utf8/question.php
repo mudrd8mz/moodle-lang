@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // question.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['adminreport'] = 'Rapport over mogelijke problemen in je vragendatabank';
@@ -63,9 +63,11 @@ $string['errorfilecannotbemoved'] = 'Fout: kan bestand $a niet verplaatsen.';
 $string['errorfileschanged'] = 'Fout: bestanden gelinkt aan vragen zijn gewijzigd sinds het tonen van dit formulier.';
 $string['errormanualgradeoutofrange'] = 'Het cijfer $a->grade is niet tussen 0 en  $a->maxgrade voor vraag $a->name. De score en commentaar zijn niet bewaard.';
 $string['errormovingquestions'] = 'Fout tijdens het verplaatsen van vragen met ID $a';
+$string['errorprocessingresponses'] = 'Er is een fout opgetreden tijdens het verwerken van je antwoorden.';
 $string['errorsavingcomment'] = 'Fout bij het bewaren van de commentaar voor vraag $a->name in de databank.';
 $string['errorupdatingattempt'] = 'Fout bij het updaten van poging $a->id in de databank.';
 $string['exportcategory'] = 'Exporteer categorie';
+$string['exporterror'] = 'Fouten opgetreden tijdens exporteren!';
 $string['filesareacourse'] = 'de plaats voor cursusbestanden';
 $string['filesareasite'] = 'de plaats voor sitebestanden';
 $string['filestomove'] = 'Verplaats / kopieëer bestanden naar $a?';
@@ -117,6 +119,7 @@ $string['questionbank'] = 'Vragenpool';
 $string['questioncategory'] = 'Vraagcategorie';
 $string['questioncatsfor'] = 'Vragencategorieën voor \'$a\'';
 $string['questiondoesnotexist'] = 'Deze vraag bestaat niet.';
+$string['questionsaveerror'] = 'Fouten opgetreden tijdens het bewaren van de vraag - ($a)';
 $string['questionsmovedto'] = 'De nog gebruikte vragen zijn verplaatst naar \"$a\" in de bovenliggende cursuscategorie.';
 $string['questionsrescuedfrom'] = 'Vragen bewaard vanuit context $a.';
 $string['questionsrescuedfrominfo'] = 'Deze vragen (waarvan sommigen verborgen kunnen zijn) werden bewaard wanneer context $a is verwijderd omdat ze nog gebruikt worden door sommige testen of andere activiteiten.';
@@ -129,5 +132,6 @@ $string['unknownquestiontype'] = 'Onbekend vraagtype: $a.';
 $string['unknowntolerance'] = 'Onbekend tolerantietype $a';
 $string['unpublished'] = 'Niet gepubliceerd';
 $string['wrongprefix'] = 'Fout geformateerde naamprefix $a';
+$string['yourfileshoulddownload'] = 'De download van je exportbestand begint zodadelijk. Indien niet, <a href=\"$a\">klik hier</a>.';
 
 ?>

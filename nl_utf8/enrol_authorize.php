@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['adminacceptccs'] = 'Welke kredietkaarten zullen aanvaard worden?';
@@ -86,6 +86,7 @@ $string['choosemethod'] = 'Als je de cursussleutel voor deze cursus kent, geef d
 $string['chooseone'] = 'Vul één of beide velden in';
 $string['costdefaultdesc'] = '<strong>In cursusinstellingen, geef -1 in</strong> om dit standaardprijs naar cursusprijsveld te gebruiken.';
 $string['cutofftime'] = 'Transactie Cut-Off Time. Wanneer is de laatste transactie voor betaling opgenomen?';
+$string['dataentered'] = 'Datum ingevoerd';
 $string['delete'] = 'Vernietig';
 $string['description'] = 'Met de Authorize.net module kun je betaalde cursussen inrichten via CC-providers. Als de prijs voor een cursus 0 is, dan krijgen leerlingen de vraag om te betalen niet. Er is een standaardprijs die je hier voor de hele site kunt instellen en er is een instelling om de prijs per cursus vast te leggen. De prijs per cursus gaat over de standaardprijs van de site.';
 $string['echeckabacode'] = 'Bank ABA-nummer';

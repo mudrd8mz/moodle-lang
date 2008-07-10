@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['activities'] = 'Activiteiten';
@@ -504,6 +504,7 @@ $string['userkeyhelp'] = 'Kies een bewaarde sleutel die gebruikers toegang zal g
 Kies \'maak nieuwe gebruikerssleutel\' om een nieuwe sleutel te maken wanneer je dit formulier instuurt.';
 $string['userpreferences'] = 'Gebruikersvoorkeuren';
 $string['useweighted'] = 'Gebruik weging';
+$string['verbosescales'] = 'Schalen tonen';
 $string['viewbygroup'] = 'Groep';
 $string['viewgrades'] = 'Bekijk cijfers';
 $string['weight'] = 'weging';

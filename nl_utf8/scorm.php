@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2008030700)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['activation'] = 'Activatie';
@@ -19,6 +19,7 @@ $string['browse'] = 'Voorproeven';
 $string['browsed'] = 'Voorgeproefd';
 $string['browsemode'] = 'Voorproef-modus';
 $string['browserepository'] = 'Blader door de bibliotheek';
+$string['cannotfindsco'] = 'Kon SCO niet vinden';
 $string['chooseapacket'] = 'Kies of update een SCORM/AICC-pakket';
 $string['completed'] = 'Volledig';
 $string['confirmloosetracks'] = 'WAARSCHUWING: Dit pakket is blijkbaar gewijzigd/aangepast. De pakketstructuur is gewijzigd. Het afgelegde leerpad van sommige gebruikers zou kunnen verloren gegaan zijn tijdens het updateproces.';
@@ -67,6 +68,7 @@ $string['iframe'] = 'Huidig venster';
 $string['iframedisplay'] = 'Open het pakket in het huidige venster';
 $string['incomplete'] = 'Onvolledig';
 $string['interactions'] = 'Interacties';
+$string['invalidactivity'] = 'Fout in SCORM-activiteit';
 $string['last'] = 'Laatst bekeken op';
 $string['lastaccess'] = 'Laatst bekeken';
 $string['lastattempt'] = 'Laatste poging';

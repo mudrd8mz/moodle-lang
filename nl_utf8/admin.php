@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080704) (2008070300)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -107,6 +107,7 @@ $string['configdocroot'] = 'Bepaalt het pad naar Moodle Docs. Je kunt dit wijzig
 $string['configdoctonewwindow'] = 'Als je dit aanzet zullen links naar Moodle Docs geopend worden in een nieuw venster';
 $string['configeditordictionary'] = 'Deze waarde zal gebruikt worden als aspell geen woordenlijst heeft voor de eigen taal van een gebruiker.';
 $string['configeditorfontlist'] = 'Kies de lettertypes die in het dropdownmenu van de editor zouden moeten verschijnen';
+$string['configemailchangeconfirmation'] = 'Als een gebruiker zijn e-mailadres wil wijzigen, moet die dat dan bevestigen via een bevestigingsmail? Deze optie inschakelen is nuttig op sites waar gebruikers zelf accounts kunnen aanmaken en wijzigen en waarbij die accounts gebruikt kunnen worden voor het versturen van spam.';
 $string['configemoticons'] = 'Wijzig de code (links) die gekoppeld is aan de naam van het emoticon (rechts). Om nieuwe emoticons toe te voegen, voeg je naam en code toe en voeg je een afbeelding toe in de map /pix/s met naam.gif als naam.';
 $string['configenableajax'] = 'Met deze instelling kun je het gebruik van AJAX (een geavanceerde op Javascript gebaseerde client/serverinterface) controleren voor de hele site. Met deze instelling aan kunnen gebruikers nog steeds kiezen via hun profiel of ze AJAX willen gebruiken, anders is AJAX voor iedereen uitgeschakeld';
 $string['configenablecourserequests'] = 'Hiermee kan elke gebruiker aanvragen om een nieuwe cursus aan te maken.';
@@ -298,6 +299,7 @@ $string['defaultsettinginfo'] = 'Standaard: $a';
 $string['defaultuserroleid'] = 'Standaardrol voor alle gebruikers';
 $string['defaultvalues'] = 'Standaardwaarden';
 $string['deleteerrors'] = 'Verwijder fouten';
+$string['deleteincompleteusers'] = 'Verwijder onvolledig ingestelde accounts na';
 $string['deleteunconfirmed'] = 'Verwijder niet-bevestigde gebruikers na';
 $string['deleteuser'] = 'Verwijder gebruiker';
 $string['density'] = 'Dichtheid';
@@ -305,6 +307,7 @@ $string['denyemailaddresses'] = 'Verboden e-maildomeinen';
 $string['digestmailtime'] = 'Uur om e-mail met verzamelde berichten te versturen';
 $string['disablecourseajax'] = 'Cursus bewerken met AJAX uitschakelen';
 $string['disableuserimages'] = 'Schakel profielprentjes uit.';
+$string['displayerrorswarning'] = 'Het inschakelen van de PHP-instelling <em>dispaly_errors</em> is niet aangewezen op productie-sites omdat sommige foutmeldingen gevoelige informatie over de server kunnen vrijgeven.';
 $string['displayloginfailures'] = 'Toon loginfouten aan';
 $string['docroot'] = 'Startpagina Moodle Docs';
 $string['doctonewwindow'] = 'Open in nieuw venster';
@@ -323,6 +326,7 @@ $string['editorkillword'] = 'Word-document opschonen';
 $string['editorspelling'] = 'Editor spelling';
 $string['editorspellinghelp'] = 'Inschakelen of uitschakelen van spellingscontrole. Wanneer je dit inschakeld, moet <strong>aspell</strong> op de server geïnstalleerd zijn.';
 $string['editstrings'] = 'Bewerk woorden en zinnen';
+$string['emailchangeconfirmation'] = 'Bevestiging van wijziging e-mailadres';
 $string['emoticons'] = 'Emoticons';
 $string['emptysettingvalue'] = 'Leeg';
 $string['enableajax'] = 'AJAX inschakelen';
@@ -335,6 +339,7 @@ $string['enablerssfeeds'] = 'RSS-feeds inschakelen';
 $string['enablestats'] = 'Statistieken inschakelen';
 $string['enabletrusttext'] = 'Vertrouwde Inhoud inschakelen';
 $string['encoding'] = 'Codering';
+$string['enrolmultipleusers'] = 'Gebruikers aanmelden';
 $string['environment'] = 'Omgeving';
 $string['environmenterrortodo'] = 'Je moet all de problemen over de installatie-omgeving die hierboven gevonden zijn, oplossen. Ga pas dan verder met het installeren van deze Moodleversie.';
 $string['environmenterrorupgrade'] = 'Waarschuwing: je moet eerst alle hierboven gemelde omgevingsproblemen oplossen voor je verder gaat met de upgrade van Moodle! Upgraden zonder deze vereiste omgeving kan problemen zoals gegevensverlies veroorzaken. Ben je er zeker van dat je verder wil doen met deze upgrade?';

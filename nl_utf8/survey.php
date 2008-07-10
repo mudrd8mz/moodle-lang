@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (2007101506)
+      // survey.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['actual'] = 'Werkelijk';
@@ -58,6 +58,10 @@ $string['attlsm2'] = 'Verbonden/relationeel leren';
 $string['attlsm3'] = 'Gescheiden leren';
 $string['attlsmintro'] = 'In discussie ...';
 $string['attlsname'] = 'ATTLS (versie met 20 beweringen)';
+$string['cannotfindanswer'] = 'Er zijn nog geen antwoorden voor dit onderzoek.';
+$string['cannotfindquestion'] = 'Vraag bestaat niet';
+$string['cannotfindsurveytmpt'] = 'Geen onderzoekssjablonen gevonden!';
+$string['cannotinsertanswer'] = 'Fout bij het bewaren van je resultaten.';
 $string['ciq1'] = 'Op welk moment van de les was je het meest betrokken als leerling?';
 $string['ciq1short'] = 'Meest betrokken';
 $string['ciq2'] = 'Op welk moment van de les had je de meeste afstand als een leerling?';
@@ -176,6 +180,8 @@ $string['howlong'] = 'Hoe lang heb je er over gedaan om dit onderzoek in te vull
 $string['howlongoptions'] = 'minder dan 1 min,1-2 min,2-3 min,3-4 min,4-5 min,5-10 min,meer dan 10 min';
 $string['ifoundthat'] = 'Ik vond dat';
 $string['introtext'] = 'Inleidende tekst';
+$string['invalidsurveyid'] = 'Onderzoeks ID was fout';
+$string['invalidtmptid'] = 'Fout sjabloon ID';
 $string['ipreferthat'] = 'Mijn voorkeur zou zijn';
 $string['modulename'] = 'Onderzoek';
 $string['modulenameplural'] = 'Onderzoeken';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -292,6 +292,10 @@ $string['unreadposts'] = 'Niet gelezen berichten';
 $string['unreadpostsnumber'] = '$a ongelezen berichten';
 $string['unreadpostsone'] = '1 ongelezen bericht';
 $string['unsubscribe'] = 'Ik wil van dit forum geen e-mail meer ontvangen';
+$string['unsubscribeall'] = 'Van geen enkel forum nog e-mail ontvangen';
+$string['unsubscribeallconfirm'] = 'je ontvangt nu e-mail van $a forums. Wil je echt van geen enkel forum nog e-mail ontvangen en het automatisch ontvangen van e-mail van forums uitschakelen?';
+$string['unsubscribealldone'] = 'Je krijgt nu van geen enkel forum nog e-mail, behalve van die forums waar e-mail ontvangen verplicht is. Als je van deze server helemaal geen e-mail wil ontvangen, ga dan naar je profielpagina en schakel daar je e-mailadres uit.';
+$string['unsubscribeallempty'] = 'Je krijgt van geen enkel forum e-mail. Als je van deze server helemaal geen e-mail wil ontvangen, ga dan naar je profielpagina en schakel daar je e-mailadres uit.';
 $string['unsubscribed'] = 'Je zult geen mail meer ontvangen';
 $string['unsubscribeshort'] = 'Ik wil geen mail meer';
 $string['usermarksread'] = 'Manueel bericht als gelezen aanduiden';

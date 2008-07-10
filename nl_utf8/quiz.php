@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
 
 
 $string['1day'] = '1 dag';
@@ -46,6 +46,7 @@ $string['alwaysavailable'] = 'Altijd beschikbaar';
 $string['analysisoptions'] = 'Analyse-opties';
 $string['analysistitle'] = 'Vraag analysetabel';
 $string['answer'] = 'Antwoord';
+$string['answered'] = 'Beantwoord';
 $string['answerhowmany'] = 'Eén of meer antwoorden';
 $string['answers'] = 'Juiste antwoorden';
 $string['answersingleno'] = 'Meer antwoorden toegestaan';
@@ -57,6 +58,7 @@ $string['attempt'] = 'Poging $a';
 $string['attemptclosed'] = 'Poging is nog niet gesloten';
 $string['attemptduration'] = 'Gebruikte tijd';
 $string['attemptedon'] = 'Geprobeerd op';
+$string['attempterror'] = 'Je mag deze test nu niet proberen omdat:';
 $string['attemptfirst'] = 'Eerste poging';
 $string['attemptincomplete'] = 'De poging (door $a) is nog niet afgewerk.';
 $string['attemptlast'] = 'Laatste poging';
@@ -215,6 +217,7 @@ $string['errorinquestion'] = 'Fout in de vraag';
 $string['errormissingquestion'] = 'Fout: de vraag met id $a ontbreekt in het systeem';
 $string['errornotnumbers'] = 'Fout - antwoorden moeten cijfers zijn';
 $string['errorsdetected'] = '$a fout(en) ontdekt';
+$string['errorunexpectedevent'] = 'Onverwachte gebeurteniscode $a->event gevonden voor vraag $a->questionid in poging $a->attemptid.';
 $string['essay'] = 'Open vraag';
 $string['essayquestions'] = 'Vragen';
 $string['event1'] = 'Bewaar automatisch';
@@ -253,6 +256,7 @@ $string['finishreview'] = 'Nakijken beëindigen';
 $string['forceregeneration'] = 'maak nieuwe waarden';
 $string['formatnotfound'] = 'Import- / exportopmaak $a niet gevonden';
 $string['formatnotimplemented'] = 'Deze opmaak is niet juist geïmplementeerd. Stuur aub een bugrapport.';
+$string['formulaerror'] = 'Formulefouten!';
 $string['fractionsaddwrong'] = 'De positieve cijfers die je hebt gekozen tellen niet op tot 100%%
 <br />In plaats daarvan tellen ze op tot $a%%
 <br />Wil je terug gaan en deze vraag verbeteren?';
@@ -312,6 +316,7 @@ $string['importquestions'] = 'Importeer vragen uit bestand';
 $string['incorrect'] = 'Niet juist';
 $string['indivresp'] = 'Reacties van ieder afzonderlijk op elke vraag';
 $string['info'] = 'Info';
+$string['infoshort'] = 'i';
 $string['introduction'] = 'Inleiding';
 $string['invalidattemptid'] = 'Die poging ID bestaat niet';
 $string['invalidcategory'] = 'Categorie ID is ongeldig';
@@ -403,6 +408,7 @@ $string['numberabbr'] = '#';
 $string['numerical'] = 'Numeriek';
 $string['onlyteachersexport'] = 'Enkel leraren kunnen vragen exporteren';
 $string['onlyteachersimport'] = 'Enkel leraren met bewerkrechten kunnen vragen importeren';
+$string['open'] = 'Begonnen';
 $string['openclosedatesupdated'] = 'Open- en sluittijden aangepast';
 $string['optional'] = 'optioneel';
 $string['outof'] = '$a->grade uit een maximum van $a->maxgrade';
@@ -442,6 +448,7 @@ $string['questionmissing'] = 'Vraag voor deze sessie ontbreekt';
 $string['questionname'] = 'Naam vraag';
 $string['questionnametoolong'] = 'Vraagnaam te lang op lijn $a (maximum 255 tekens). De naam is afgekort.';
 $string['questionno'] = 'Vraag $a';
+$string['questionnotloaded'] = 'Vraag $a is niet geladen vanuit de databank';
 $string['questions'] = 'Vragen';
 $string['questionsinclhidden'] = 'Vragen (verborgen inbegrepen)';
 $string['questionsinthisquiz'] = 'Vragen in deze test';
@@ -581,11 +588,14 @@ $string['specificapathnotonquestion'] = 'Het opgegeven pad is niet in de opgegev
 $string['specificquestionnotonquiz'] = 'De opgegeven vraag is niet in de opgegeven test';
 $string['startagain'] = 'Start opnieuw';
 $string['startedon'] = 'Gestart op';
+$string['statenotloaded'] = 'De status van vraag $a is niet geladen vanuit de databank';
+$string['status'] = 'Status';
 $string['stoponerror'] = 'Stop bij fout';
 $string['subneterror'] = 'Deze test is zo beveiligd dat hij alleen toegankelijk is vanop bepaalde plaatsen. Jouw computer staat niet in de lijst met toegelaten machines om deze test te maken.';
 $string['subnetnotice'] = 'De test is vastgezet, zodat hij alleen geopend kan worden vanop bepaalde locaties. Jouw computer staat niet op een toegelaten subnet. Als leraar kun je wel een voorbeeld bekijken';
 $string['subnetwrong'] = 'Deze test kan alleen bekeken worden vanaf bepaalde computers en dit toestel staat niet op de lijst.';
 $string['substitutedby'] = 'zal vervangen worden door';
+$string['summaryofattempt'] = 'Samenvatting van poging';
 $string['summaryofattempts'] = 'Samenvatting van al je pogingen';
 $string['temporaryblocked'] = 'Je mag tijdelijk deze test niet opnieuw proberen<br /> Je mag een niewe poging doen op:';
 $string['time'] = 'Tijd';
