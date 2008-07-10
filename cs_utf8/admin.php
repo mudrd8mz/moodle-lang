@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 + (Build: 20080507) (2007101509)
+      // admin.php - created with Moodle 1.9.1+ (Build: 20080710) (2007101517)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -122,7 +122,7 @@ $string['configfiltermatchoneperpage'] = 'Filtry, které automaticky propojují 
 $string['configfiltermatchonepertext'] = 'Filry, které automaticky propojují obsah kurzů, vytvoří odkaz pouze u první nalezené shody v každém úseku textu (např. studijní materiál, blok apod.). Ostatní výskyty jsou ignorovány. Toto nastavení se nauplatní, pokud je proměnná \'Jedna shoda na stránku\' nastavena na \'Ano\'.';
 $string['configfilteruploadedfiles'] = 'Filtrovat vložené textové a HTML soubory. (Při zapnutí této volby mohou nastat problémy s kódováním češtiny v textových souborech.)';
 $string['configforcelogin'] = 'Vyžadovat přihlášení uživatele před zobrazením úvodní stránky nebo před jakoukoliv jinou činností na stránkách. V opačném případě je vyžadováno přihlášení až před vstupem do kurzu.';
-$string['configforceloginforprofiles'] = 'Vyžadovat přihlášení uživatele před zobrazením profilů ostatních uživatelů. Výchozí hodnota je \'Ne\' -- to znamená, že si zájemci o kurs mohou prohlédnout profily vyučujících, ale zároveň jsou profily přístupné vyhledávačům.';
+$string['configforceloginforprofiles'] = 'Vynucovat přihlášení před zobrazením profilů ostatních uživatelů. Pokud zvolíte \'Ne\', můžete se dostat do situace, kdy někteří uživatelé publikují ve svém profilu nevhodný obsah (reklamu, porno), který je poté veřejně dostupný. Zejména pokud se na vašem serveru mohou libovolní návštěvníci registrovat sami, měli byste zvolit \'Ano\'.';
 $string['configframename'] = 'Jestliže začleňujete Moodle do webového rámu (frame), zadejte název tohoto rámce. Jinak ponechte hodnotu \'_top\'.';
 $string['configfrontpage'] = 'Položky vybrané výše budou zobrazeny na titulní stránce serveru.';
 $string['configfrontpageloggedin'] = 'Přihlášeným uživatelům budou na titulní stránce serveru zobrazeny položky vybrané výše.';
