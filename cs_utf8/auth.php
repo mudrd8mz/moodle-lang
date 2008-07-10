@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 + (Build: 20080507) (2007101509)
+      // auth.php - created with Moodle 1.9.1+ (Build: 20080710) (2007101517)
 
 
 $string['CASform'] = 'Volba ověřování';
@@ -318,7 +318,7 @@ $string['pluginnotinstalled'] = 'Metoda ověřování uživatelů \'$a\' není n
 $string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'RPC vyjednávání překročilo časový limit';
 $string['selfregistration'] = 'Uživatelé se sami registrují pomocí';
-$string['selfregistration_help'] = 'Která metoda ověřování bude mít na starosti uživatele, kteří se registrují sami.';
+$string['selfregistration_help'] = 'Pokud zde vyberete nějaký způsob (typicky registraci na základě emailu), umožníte návštěvníkům vašich stránek založit si na vašem serveru svůj účet. Toto může vést k útoku spammerů formou hromadnému zakládání fiktivních účtů, které jsou poté využívány k publikování nevhodného obsahu (reklama, porno) ve fórech, blogu, uživatelských profilech apod. Pokud můžete, zkuste se této možnosti vyhnout, případně alespoň použijte nastavení povolených emailových domén.';
 $string['sha1'] = 'SHA-1 hash';
 $string['shib_no_attributes_error'] = 'Vaše ověření prostřednictvím systému Shibboleth proběhlo zřejmě úspěšně, Moodle však neobdržel žádné údaje o uživateli. Ověřte prosím, zda váš poskytovatel identity (Identity Provider) předává potřebné údaje ($a) poskytovateli služeb (Service Provider), od něhož je přebírá Moodle, nebo informujte administrátora těchto stránek.';
 $string['shib_not_all_attributes_error'] = 'Moodle potřebuje znát některé údaje systému Shibboleth, které ovšem nejsou ve vašem případě k dispozici. Jedná se o následující údaje: $a<br />Obraťte se na administrátora těchto stránek nebo na vašeho poskytovatele identity.';
