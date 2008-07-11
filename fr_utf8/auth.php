@@ -101,7 +101,7 @@ Vous avez demandé la modification de votre adresse de courriel pour votre compt
 $a->url';
 $string['auth_emailupdatetitle'] = 'Confirmation de modification de courriel sur $a->site';
 $string['auth_invalidnewemailkey'] = 'Erreur&nbsp;: si vous avez tenté de confirmer la modification de votre adresse de courriel, il se peut que vous ayez fait une erreur lors de la copie de l\'URL qui vous a été envoyé. Veuillez essayer à nouveau.';
-$string['auth_emailupdatesuccess'] = 'Votre adresse de courriel a été modifiée. L\'adresse est maintenant $a->email.';
+$string['auth_emailupdatesuccess'] = 'L\'adresse de courriel de votre compte <em>$a->fullname</em> a été modifiée. L\'adresse est maintenant <em>$a->email</em>.';
 $string['auth_outofnewemailupdateattempts'] = 'Le nombre de tentatives permises pour modifier votre adresse de courriel est dépassé. Votre demande de modification a été annulée.';
 $string['auth_emailupdate'] = 'Modification d\'adresse de courriel';
 $string['auth_changingemailaddress'] = 'Vous avez demandé la modification de votre adresse de courrie, de $a->oldemail à $a->newemail. Pour des raisons de sécurité, un message de confirmation vous est envoyé à la nouvelle adresse afin de confirmer qu\'elle vous appartient. Votre adresse de courriel sera modifiée dès que vous aurez cliqué sur l\'URL indiquée dans le message envoyé.';
