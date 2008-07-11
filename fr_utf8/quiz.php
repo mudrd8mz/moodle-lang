@@ -42,6 +42,7 @@ $string['alwaysavailable'] = 'Toujours disponible';
 $string['analysisoptions'] = 'Options d\'analyse';
 $string['analysistitle'] = 'Table d\'analyse des éléments';
 $string['answer'] = 'Solution';
+$string['answered'] = 'Répondu';
 $string['answerhowmany'] = 'Une ou plusieurs réponses ?';
 $string['answers'] = 'Solutions';
 $string['answersingleno'] = 'Plusieurs choix possibles';
