@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080707) (2008070700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080707) (2008070701)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -337,6 +337,7 @@ $string['enablerssfeeds'] = 'RSSフィードを有効にする';
 $string['enablestats'] = '統計を有効にする';
 $string['enabletrusttext'] = 'コンテンツ信頼を有効にする';
 $string['encoding'] = 'エンコーディング';
+$string['enrolmultipleusers'] = 'ユーザを受講登録する';
 $string['environment'] = '動作環境';
 $string['environmenterrortodo'] = 'このバージョンのMoodleをインストールする前に、発見された動作環境の問題 (エラー) を解消してください!';
 $string['environmenterrorupgrade'] = 'このバージョンのMoodleをアップグレードする前に、発見された動作環境の問題 (エラー) を解消してください! これらの必要条件に関して修正せずにアップグレードした場合、データ喪失等の問題が生じる可能性があります。本当にアップグレードを続けてもよろしいですか?';
