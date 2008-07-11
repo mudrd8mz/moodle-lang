@@ -130,5 +130,6 @@ $string['unknownquestiontype'] = 'Type de question inconnu $a';
 $string['unknowntolerance'] = 'Type de tolérance inconnu $a';
 $string['unpublished'] = 'non partagée';
 $string['wrongprefix'] = 'Le préfixe est mal formatté $a';
+$string['yourfileshoulddownload'] = 'Le téléchargement de votre fichier d\'exportation va commencer. Si rien ne se passe, veuillez <a href=\"$a\">cliquer ici</a>.';
 
 ?>
