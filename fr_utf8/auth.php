@@ -90,6 +90,7 @@ $string['auth_emailchangepending'] = 'Modification en attente. Veuillez cliquer 
 $string['auth_emaildescription'] = 'La confirmation par courriel est la méthode d\'authentification par défaut. Lorsqu\'un utilisateur s\'enregistre en choisissant ses nom d\'utilisateur et mot de passe, un message de confirmation est envoyé à son adresse de courriel. Ce message contient un lien sécurisé vers une page Web où il peut confirmer son inscription. Les connexions suivantes ne vérifient que les nom d\'utilisateur et mot de passe précédemment enregistrés dans la base de données de Moodle.';
 $string['auth_emailnoemail'] = 'La tentative de vous envoyer un courriel a échoué&nbsp;!';
 $string['auth_emailnoinsert'] = 'Impossible d\'ajouter votre enregistrement à la base de données&nbsp;!';
+$string['auth_emailnowexists'] = 'L\'adresse de courriel que vous tentez d\'utiliser pour votre profil est déjà attribuée à un autre utilisateur. Votre demande de modification de courriel est donc annulée, mais vous pouvez réessayer avec une adresse différente.';
 $string['auth_emailrecaptcha'] = 'Ajoute une confirmation visuelle ou audio aux éléments du formulaire de la page d\'enregistrement pour les utilisateurs s\'enregistrant eux-mêmes avec confirmation par courriel. Ceci permet de protéger votre site contre les spammeurs et contribue en même temps à une cause valable. Voir http://recaptcha.net/learnmore.html pour plus de détails.';
 $string['auth_emailrecaptcha_key'] = 'Activer reCAPTCHA';
 $string['auth_emailsettings'] = 'Réglages';
