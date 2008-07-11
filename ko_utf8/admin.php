@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080708) (2008070701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -343,6 +343,7 @@ $string['enablerssfeeds'] = 'RSS 송출 활성화';
 $string['enablestats'] = '통계 활성화';
 $string['enabletrusttext'] = '내용인증 활성화';
 $string['encoding'] = '엔코딩';
+$string['enrolmultipleusers'] = '이용자 등록';
 $string['environment'] = '환경';
 $string['environmenterrortodo'] = '이 무들버전을 설치하기 전에 앞에서 발견된 모든 환경설정 문제(오류)를 해결해야 합니다!';
 $string['environmenterrorupgrade'] = '경고: 이 무들판의 갱신을 계속하기 전에 위에 제시된 모든 환경 문제(오류)를 해결해야만 합니다. 이러한 요구사항을 수정하지 않은 채로 판올림을 하게되면 자료를 잃게 되는 등의 문제에 봉착하게 됩니다. 그래도 판올림을 계속 하겠습니까?';

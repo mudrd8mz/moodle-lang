@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080709) (2008070701)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
 
 
 $string['1day'] = '하루';
@@ -77,7 +77,7 @@ $string['backtoquestionlist'] = '질문목록으로 돌아가기';
 $string['backtoquiz'] = '문항 편집으로 이동';
 $string['bestgrade'] = '최고 점수';
 $string['blackboard'] = 'Blackboard';
-$string['blackboard_6'] = 'Blackboard 6.0버전 이상';
+$string['blackboard_six'] = 'Blackboard V6+';
 $string['bothattempts'] = '시도를 한 학생과 하지 않은 학생 보기';
 $string['braceerror'] = '답 중에 {...}은 없음';
 $string['calculated'] = '수식계산형';
@@ -640,6 +640,7 @@ $string['youmustwait'] = '이 문제를 다시 시도하려면 잠시 기다려�
 $string['youneedtoenrol'] = '강좌에 등록을 마쳐야 이 퀴즈에 도전할 수 있음';
 $string['yourfinalgradeis'] = '이번 퀴즈의 최종 점수는 $a 입니다.';
 $string['zerosignificantfiguresnotallowed'] = '정답에 0점을 줄 수는 없습니다!';
+$string['blackboard_6'] = 'Blackboard 6.0버전 이상'; // ORPHANED
 $string['gobacktocourse'] = '강좌로 돌아가기 위해서는 여기를 클릭하세요'; // ORPHANED
 $string['existingcategory1'] = '이 범주의 다른 질문에서도 사용되었던 상수묶음에 있는 값'; // ORPHANED
 $string['existingcategory2'] = '이 범주의 다른 질문에서도 사용되었던 파일묶음에 있는 파일'; // ORPHANED
