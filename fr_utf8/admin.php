@@ -306,6 +306,7 @@ $string['denyemailaddresses'] = 'Domaines courriel interdits';
 $string['digestmailtime'] = 'Heure d\'envoi des messages résumés';
 $string['disablecourseajax'] = 'Désactiver l\'édition AJAX';
 $string['disableuserimages'] = 'Désactiver les images des utilisateurs';
+$string['displayerrorswarning'] = 'L\'activation du réglage PHP <em>display_errors</em> n\'est pas recommandée sur des sites en production, car certains messages d\'erreur peuvent révéler des informations sensible au sujet de votre server.';
 $string['displayloginfailures'] = 'Afficher les erreurs de connexion à';
 $string['docroot'] = 'URL du site Moodle Docs';
 $string['doctonewwindow'] = 'Ouvrir dans une nouvelle fenêtre';
