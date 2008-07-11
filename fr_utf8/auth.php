@@ -85,6 +85,8 @@ $string['auth_dbuser'] = 'Compte avec accès en lecture à la base de données';
 $string['auth_dbusernotexist'] = 'Impossible de modifier l\'utilisateur $a, qui n\'existe pas';
 $string['auth_dbuserstoadd'] = 'Enregistrements utilisateurs à ajouter&nbsp;: $a';
 $string['auth_dbuserstoremove'] = 'Enregistrements utilisateurs à supprimer&nbsp;: $a';
+$string['auth_emailchangecancel'] = 'Annuler la modification de l\'adresse de courriel';
+$string['auth_emailchangepending'] = 'Modification en attente. Veuillez cliquer sur le lien qui vous à été envoyé à l\'adresse $a->preference_newemail.';
 $string['auth_emaildescription'] = 'La confirmation par courriel est la méthode d\'authentification par défaut. Lorsqu\'un utilisateur s\'enregistre en choisissant ses nom d\'utilisateur et mot de passe, un message de confirmation est envoyé à son adresse de courriel. Ce message contient un lien sécurisé vers une page Web où il peut confirmer son inscription. Les connexions suivantes ne vérifient que les nom d\'utilisateur et mot de passe précédemment enregistrés dans la base de données de Moodle.';
 $string['auth_emailnoemail'] = 'La tentative de vous envoyer un courriel a échoué&nbsp;!';
 $string['auth_emailnoinsert'] = 'Impossible d\'ajouter votre enregistrement à la base de données&nbsp;!';
@@ -92,6 +94,17 @@ $string['auth_emailrecaptcha'] = 'Ajoute une confirmation visuelle ou audio aux 
 $string['auth_emailrecaptcha_key'] = 'Activer reCAPTCHA';
 $string['auth_emailsettings'] = 'Réglages';
 $string['auth_emailtitle'] = 'Auto-enregistrement par courriel';
+$string['auth_emailupdatemessage'] = 'Bonjour,
+
+Vous avez demandé la modification de votre adresse de courriel pour votre compte utilisateur sur $a->site. Veuillez cliquer sur l\'URL ci-dessous afin de confirmer la modification.
+
+$a->url';
+$string['auth_emailupdatetitle'] = 'Confirmation de modification de courriel sur $a->site';
+$string['auth_invalidnewemailkey'] = 'Erreur&nbsp;: si vous avez tenté de confirmer la modification de votre adresse de courriel, il se peut que vous ayez fait une erreur lors de la copie de l\'URL qui vous a été envoyé. Veuillez essayer à nouveau.';
+$string['auth_emailupdatesuccess'] = 'Votre adresse de courriel a été modifiée. L\'adresse est maintenant $a->email.';
+$string['auth_outofnewemailupdateattempts'] = 'Le nombre de tentatives permises pour modifier votre adresse de courriel est dépassé. Votre demande de modification a été annulée.';
+$string['auth_emailupdate'] = 'Modification d\'adresse de courriel';
+$string['auth_changingemailaddress'] = 'Vous avez demandé la modification de votre adresse de courrie, de $a->oldemail à $a->newemail. Pour des raisons de sécurité, un message de confirmation vous est envoyé à la nouvelle adresse afin de confirmer qu\'elle vous appartient. Votre adresse de courriel sera modifiée dès que vous aurez cliqué sur l\'URL indiquée dans le message envoyé.';
 $string['auth_fcchangepasswordurl'] = 'URL pour changement de mot de passe';
 $string['auth_fcconnfail'] = 'La connexion a échoué avec l\'erreur numéro $a[0] et le message $a[1]';
 $string['auth_fccreators_key'] = 'Créateurs';
