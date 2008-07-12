@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080712) (2008070701)
 
 
 $string['1day'] = '하루';
@@ -209,6 +209,7 @@ $a->studentname 학생이  강좌 \'$a->coursename\' 에서 \'$a->quizname\' ($a
 
 이 시도는 $a->quizreviewurl 에서 검토 할 수 있습니다.';
 $string['emailnotifysubject'] = '$a->studentname 은  $a->quizname 퀴즈를 완결하였습니다.';
+$string['endtest'] = '시험 종료 ...';
 $string['errorinquestion'] = '문항 오류';
 $string['errormissingquestion'] = '오류 : 아이디 $a 의 질문이 사라짐';
 $string['errornotnumbers'] = '오류 - 답은 숫자라야 함';
@@ -428,7 +429,7 @@ $string['previous'] = '이전의 상태';
 $string['publish'] = '공개';
 $string['publishedit'] = '이 범주의 질문을 수정하거나 추가하기 위해서는 강좌에서 출판할 수 있는 권한이 있어야 함';
 $string['qti'] = 'IMS QTI 형식';
-$string['qti2'] = 'IMS OTI 2.0 형식';
+$string['qti_two'] = 'IMS QTI 2.0 형식';
 $string['question'] = '질문';
 $string['questioncats'] = '문항 범주';
 $string['questiondeleted'] = '이 질문은 삭제되었습니다. 선생님에게 연락하십시오.';
@@ -461,6 +462,7 @@ $string['quizclose'] = '퀴즈 종료';
 $string['quizclosed'] = '$a 에 퀴즈 끝남';
 $string['quizcloses'] = '퀴즈그만하기';
 $string['quizcloseson'] = '$a 에 퀴즈가 종료될 예정임';
+$string['quiznavigation'] = '퀴즈 진행';
 $string['quiznotavailable'] = '$a 까지는 퀴즈를 이용할 수 없음';
 $string['quizopen'] = '퀴즈시작';
 $string['quizopenedon'] = '이 문제는 $a 에 개봉됨';
@@ -640,6 +642,7 @@ $string['youmustwait'] = '이 문제를 다시 시도하려면 잠시 기다려�
 $string['youneedtoenrol'] = '강좌에 등록을 마쳐야 이 퀴즈에 도전할 수 있음';
 $string['yourfinalgradeis'] = '이번 퀴즈의 최종 점수는 $a 입니다.';
 $string['zerosignificantfiguresnotallowed'] = '정답에 0점을 줄 수는 없습니다!';
+$string['qti2'] = 'IMS OTI 2.0 형식'; // ORPHANED
 $string['blackboard_6'] = 'Blackboard 6.0버전 이상'; // ORPHANED
 $string['gobacktocourse'] = '강좌로 돌아가기 위해서는 여기를 클릭하세요'; // ORPHANED
 $string['existingcategory1'] = '이 범주의 다른 질문에서도 사용되었던 상수묶음에 있는 값'; // ORPHANED
