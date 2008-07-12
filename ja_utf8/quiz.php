@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080707) (2008070701)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
 
 
 $string['1day'] = '1日';
@@ -218,6 +218,7 @@ URI: $a->quizurl
 
 小テストは、$a->quizreviewurl でレビューすることが可能です。';
 $string['emailnotifysubject'] = '$a->studentname が小テスト「 $a->quizname 」を完了しました。';
+$string['endtest'] = 'テスト終了 ...';
 $string['errorinquestion'] = '問題のエラー';
 $string['errormissingquestion'] = 'エラー: id $a の問題はありません。';
 $string['errornotnumbers'] = 'エラー - 答えは数字を使用してください。';
@@ -436,7 +437,7 @@ $string['previous'] = '前の状態に戻す';
 $string['publish'] = '公開';
 $string['publishedit'] = 'このカテゴリへの問題の追加・編集を行うためにはコース公開に関する権限を有する必要があります。';
 $string['qti'] = 'IMS QTIフォーマット';
-$string['qti2'] = 'IMS QTI 2.0フォーマット';
+$string['qti_two'] = 'IMS QTI 2.0フォーマット';
 $string['question'] = '問題';
 $string['questioncats'] = '問題カテゴリ';
 $string['questiondeleted'] = 'この問題は削除されました。あなたの先生に連絡してください。';
@@ -469,6 +470,7 @@ $string['quizclose'] = '小テスト終了日時';
 $string['quizclosed'] = 'この小テストは $a に終了しました。';
 $string['quizcloses'] = '終了日時';
 $string['quizcloseson'] = 'この小テストは $a に終了します。';
+$string['quiznavigation'] = '小テストナビゲーション';
 $string['quiznotavailable'] = '小テストは  $a まで利用できません。';
 $string['quizopen'] = '小テスト公開日時';
 $string['quizopenedon'] = 'この小テストは $a に公開されます。';
@@ -648,6 +650,7 @@ $string['youmustwait'] = 'この小テストを再受験は、お待ちくださ
 $string['youneedtoenrol'] = 'この小テストを受験する前に、このコースに受講登録する必要があります。';
 $string['yourfinalgradeis'] = 'あなたの最終評点は $a です。';
 $string['zerosignificantfiguresnotallowed'] = '正解の有効数字にはゼロを設定できません!';
+$string['qti2'] = 'IMS QTI 2.0フォーマット'; // TBD
 $string['blackboard_6'] = 'Blackboard V6+'; // TBD
 $string['existingcategory1'] = 'すでに登録されている定数、このカテゴリの他の問題でも使用'; // TBD
 $string['existingcategory2'] = 'すでに登録されているファイル、このカテゴリの他の問題でも使用'; // TBD
