@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
 
 
+$string['ajax'] = 'Kullanılan ajax sürümü';
+$string['autoscroll'] = 'Otomatik kaydır';
 $string['beep'] = 'biip';
 $string['cantinsert'] = 'Sohbet mesajı eklenemedi!';
 $string['cantlogin'] = 'Sohbet odasına giriş yapılamadı!';
@@ -65,6 +67,8 @@ $string['repeattimes'] = 'Oturum tekrarları';
 $string['repeatweekly'] = 'Her hafta aynı vakitte';
 $string['savemessages'] = 'Geçmiş oturumları kaydet';
 $string['seesession'] = 'Bu oturuma gözat';
+$string['send'] = 'Gönder';
+$string['sending'] = 'Gönderiliyor';
 $string['serverhost'] = 'Sunucu adı';
 $string['serverip'] = 'Sunucu IP';
 $string['servermax'] = 'En fazka kullanıcı';
