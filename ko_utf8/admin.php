@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -30,6 +30,7 @@ $string['backups'] = '백업';
 $string['badwordsconfig'] = '금칙어(욕설 등)를 콤마로 구분해 입력하시오';
 $string['badwordsdefault'] = '따로 지정한 목록이 없다면, 언어팩에 들어있는 기본적인 목록을 사용';
 $string['badwordslist'] = '금칙어 목록';
+$string['blockediplist'] = '차단된 IP 목록';
 $string['blockinstances'] = '보기';
 $string['blockmultiple'] = '다중';
 $string['blocksettings'] = '블럭 관리';
@@ -422,6 +423,7 @@ $string['installedlangs'] = '설치된 언어팩';
 $string['intcachemax'] = '최대 내부 캐쉬';
 $string['invalidsection'] = '잘못된 영역';
 $string['invaliduserchangeme'] = '\"changeme\"는 예약된 이용자 아이디입니다. 이 이름으로는 계정을 만들 수 없습니다.';
+$string['ipblocker'] = 'IP 차단기';
 $string['iplookup'] = 'IP 주소 열람';
 $string['iplookupinfo'] = '기본적으로 무들은 IP 주소의 위치를 찾기위해 무료 NetGeo (The Internet Geographic Database) 서버를 이용하지만, 안타깝게도 더이상 정상적으로 유지되지 않고 <em>대제적으로 부정확한</em> 자료를 회신합니다. 따라서 MaxMind의 공개 GeoLite City 데이터베이스 사본을 설치할 것을 권합니다.<br />IP 주소의 위치는 단순한 지도나 구글맵을 이용하여 표시될 수 있습니다. 이를 이용하기 위해서는 구글 계정과 구글맵에 제대로 표시하기 위한 공개 구글맵 API 암호를 적용해 주어야 합니다.';
 $string['iplookupmaxmindnote'] = '이 제품은 MaxMind(<a href=\"http://www.maxmind.com/\">http://www.maxmind.com/</a>)의 의해 제작된 GeoLite의 자료를 포함하고 있습니다.';
@@ -463,6 +465,7 @@ $string['longtimenosee'] = '출석 유예 기간';
 $string['longtimewarning'] = '<b>이 과정은 꽤 시간이 소요됨을 염두에 두시기 바랍니다.</b>';
 $string['mail'] = '전자우편';
 $string['mailnewline'] = '메일의 라인 개행문자';
+$string['maintenancemode'] = '유지관리 모드';
 $string['maintfileopenerror'] = '유지 관리 파일 열기 오류';
 $string['maintinprogress'] = '유지 관리 진행 중...';
 $string['managelang'] = '<b>언어팩 관리</b>';

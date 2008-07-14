@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -772,7 +772,7 @@ $string['includecourseusers'] = '강좌 이용자 포함';
 $string['included'] = '포함됨';
 $string['includelogentries'] = '로그 목록 포함';
 $string['includemodules'] = '모듈 포함';
-$string['includemoduleuserdata'] = '모듈 이용자 데이터 포함';
+$string['includemoduleuserdata'] = '모듈의 이용자 데이터 포함';
 $string['includeneededusers'] = '필수 이용자 포함';
 $string['includenoneusers'] = '무 사용자 포함';
 $string['includeroleassignments'] = '역할 부여 포함';
@@ -1478,15 +1478,18 @@ $string['updatinga'] = '$a 업데이트 중';
 $string['updatingain'] = '$a->in 에 있는 $a->what 을 업데이트';
 $string['upload'] = '올리기';
 $string['uploadafile'] = '파일 올리기';
+$string['uploadcantwrite'] = '디스크에 파일 쓰기 실패';
 $string['uploadedfile'] = '파일 올리기 성공';
 $string['uploadedfileto'] = '$a->file 이 $a->directory 로 업로드됨';
 $string['uploadedfiletoobig'] = '죄송합니다 파일이 너무큽니다($a 바이트 이상 불가)';
+$string['uploadextension'] = '확장기능에 의해 파일 올리기 중지됨';
 $string['uploadfailednotrecovering'] = '당신의 파일 업로드가 실패했음 왜냐하면 한개의 파일 $a->name 에 문제가 있었음.<br /> 여기 문제의 기록이 있음:<br />$a->problem<br />복원할 수 없음.';
 $string['uploadfilelog'] = '$a 파일의 업로드 기록';
 $string['uploadformlimit'] = '올려진 파일이 지정된 최대 크기를 초과함';
 $string['uploadlabel'] = '제목:';
 $string['uploadnofilefound'] = '파일이 없습니다. 올릴 파일을 제대로 선택하셨습니까?';
 $string['uploadnotallowed'] = '업로드 할 수 없습니다.';
+$string['uploadnotempdir'] = '임시 폴더 누락';
 $string['uploadoldfilesdeleted'] = '당신이 올린 경로에서 오래된 파일(들)이 지워졌음';
 $string['uploadpartialfile'] = '파일의 일부만 업로드 되었습니다.';
 $string['uploadproblem'] = '\'$a\' 파일을 올리는 중에 오류가 발생하였습니다.( 파일 크가가 너무 큰가요?)';
