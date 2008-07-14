@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080620) (2008051203)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
 
 
 $string['allattempts'] = 'すべての受験';
@@ -10,6 +10,7 @@ $string['attemptsfirst'] = '最初の受験';
 $string['calculatefrom'] = '統計計算:';
 $string['cic'] = '内部整合性係数';
 $string['coursename'] = 'コース名';
+$string['duration'] = '公開期間';
 $string['errormedian'] = '中央値の取得中にエラーが発生しました。';
 $string['errorpowerquestions'] = '問題評点の分散を計算するデータの取得中にエラーが発生しました。';
 $string['errorpowers'] = '小テスト評点の分散を計算するデータの取得中にエラーが発生しました。';
