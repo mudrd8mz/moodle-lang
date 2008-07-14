@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080630) (2008063002)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1497,15 +1497,18 @@ $string['updatinga'] = '$a を更新中';
 $string['updatingain'] = '$a->in の $a->what を更新中';
 $string['upload'] = 'アップロード';
 $string['uploadafile'] = 'ファイルをアップロードする';
+$string['uploadcantwrite'] = 'ディスクへのファイル書き込みに失敗しました。';
 $string['uploadedfile'] = 'ファイルが正常にアップロードされました。';
 $string['uploadedfileto'] = '$a->file を $a->directory にアップロードしました。';
 $string['uploadedfiletoobig'] = '申し訳ございません、ファイルサイズが大きすぎます (上限 $a バイト)。';
+$string['uploadextension'] = '拡張子を原因としてファイルアップロードが停止しました。';
 $string['uploadfailednotrecovering'] = 'ファイル $a->name に問題があるため、あなたのファイルは正常にアップロードされませんでした。<br /> この問題に関するログです:<br />$a->problem<br />この問題は未解決状態です。';
 $string['uploadfilelog'] = 'ファイル $a のログをアップロードする。';
 $string['uploadformlimit'] = 'アップロードファイルがフォームで設定された最大サイズを超えました。';
 $string['uploadlabel'] = 'タイトル:';
 $string['uploadnofilefound'] = 'ファイルが見つかりませんでした - アップロードするファイルを選択しましたか?';
 $string['uploadnotallowed'] = 'アップロードは許可されません';
+$string['uploadnotempdir'] = '一時ディレクトリがありません。';
 $string['uploadoldfilesdeleted'] = 'アップロードエリアの古いファイルが削除されました。';
 $string['uploadpartialfile'] = 'ファイルが部分的にアップロードされました。';
 $string['uploadproblem'] = 'ファイル「 $a 」のアップロード中に不明なエラーが発生しました (ファイルサイズが大きすぎると思われます)';

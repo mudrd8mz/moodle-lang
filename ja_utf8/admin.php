@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080707) (2008070701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -457,6 +457,7 @@ $string['longtimenosee'] = 'コースからユーザを登録抹消する日数'
 $string['longtimewarning'] = '<b>この処理には長時間がかかりますので注意してください。</b>';
 $string['mail'] = 'Eメール';
 $string['mailnewline'] = 'メールの改行文字';
+$string['maintenancemode'] = 'メンテナンスモード';
 $string['maintfileopenerror'] = 'メンテナンスファイルのオープン中にエラーが発生しました！';
 $string['maintinprogress'] = 'メンテナンス処理中です ...';
 $string['managelang'] = '管理';
