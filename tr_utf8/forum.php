@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -28,6 +28,12 @@ $string['blockperiod'] = 'Engelleme için süre';
 $string['blockperioddisabled'] = 'Engelleme yok';
 $string['bynameondate'] = 'yazan $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Bu foruma tartışma ekleme, grup üyeliği gerektirir.';
+$string['cannotadddiscussionall'] = 'Tüm katılımcılar için yeni bir tartışma konusu ekleme izniniz yok.';
+$string['cannotaddsubscriber'] = '$a numaralı üye, bu foruma abone yapılamadı!';
+$string['cannotfindorcreateforum'] = 'Bu site için haber forumu bulunamadı veya oluşturulamadı';
+$string['cannotinsertrate'] = 'Yeni derecelendirme eklenemedi ($a[0] = $a[1])';
+$string['cannotremovesubscriber'] = '$a numaralı üyenin bu forumdan aboneliği kaldırılamadı.';
+$string['cannotupdaterate'] = 'Eski derecelendirme güncellenemedi ($a[0] = $a[1])';
 $string['cannotviewpostyet'] = 'Bu tartışmaya henüz mesaj göndermediğinizden diğer öğrencilerin sorularını okuyamazsınız';
 $string['cleanreadtime'] = 'Eski mesajların okunmuş olarak işaretleneceği saat';
 $string['configcleanreadtime'] = 'Eski mesajların \'okunmuş\' tablosundan silineceği günün saati';
@@ -118,6 +124,9 @@ $string['inforum'] = '$a\'de';
 $string['intronews'] = 'Genel haberler ve duyurular';
 $string['introsocial'] = 'İstediğiniz herhangi bir konuda tartışabileceğiniz açık forum';
 $string['introteacher'] = 'Eğitimciler için sadece not ve tartışma forumu';
+$string['invalidaccess'] = 'Bu sayfaya düzgün bir şekilde erişmediniz';
+$string['invalidforumid'] = 'Forum ID hatalı';
+$string['invalidpostid'] = 'Hatalı Mesaj ID - $a';
 $string['lastpost'] = 'Son mesaj';
 $string['learningforums'] = 'Öğrenme forumları';
 $string['logblocked'] = 'Bloklanmış emaillerin günlük kaydı';
@@ -149,19 +158,25 @@ $string['newforumposts'] = 'Yeni forum mesajı';
 $string['nodiscussions'] = 'Bu forumda bir tartışma konusu henüz yoktur';
 $string['nodiscussionsstartedby'] = 'Bu kullanıcı tarafından bir tartışma başlatılmamış';
 $string['noguestpost'] = 'Üzgünüz, ziyaretçiler mesaj gönderemezler.';
+$string['noguestrate'] = 'Konukların kayıtları derecelendirme izni yoktur.';
 $string['noguestsubscribe'] = 'Üzgünüz, konuk kullanıcılar e-postayla forum mesajlarını alamazlar.';
 $string['noguesttracking'] = 'Üzgünüz, konuk kullanıcılar izleme ayarlarını yapamazlar.';
 $string['nomorepostscontaining'] = 'İçinde \'$a\' olan başka mesaj bulunamadı';
 $string['nonews'] = 'Henüz haber gönderilmemiş';
+$string['nopermissiontosubscribe'] = 'Forum abonelerine bakma izniniz yoktur.';
 $string['nopostforum'] = 'Üzgünüz, bu foruma mesaj gönderme izniniz yok';
 $string['noposts'] = 'Mesaj yok';
 $string['nopostscontaining'] = 'İçinde \'$a\' olan bir mesaj bulunamadı';
 $string['noquestions'] = 'Bu forumda henüz soru yok';
+$string['norate'] = 'Ögelerin derecelendirme izni yok!';
+$string['noresult'] = 'Bu gönderi için derecelendirme yok: $a';
 $string['nosubscribers'] = 'Bu forumun henüz abonesi yoktur';
 $string['nothingnew'] = '$a için yeni bir şey yok';
 $string['notingroup'] = 'Üzgünüz, bu forumu görebilmeniz için bir grubun üyesi olmalısınız.';
 $string['notrackforum'] = 'Okunmamış mesajları İZLEME';
+$string['noviewanyrate'] = 'Sadece gönderdiğiniz mesajlar için sonuçlara bakabilirsiniz';
 $string['noviewdiscussionspermission'] = 'Bu forumdaki tartışmaları görmek için yetkiniz yok';
+$string['noviewrate'] = 'Mesaj derecelendirmelerine bakma izniniz yok';
 $string['nowallsubscribed'] = '$a\'daki bütün forumlara abone olundu.';
 $string['nowallunsubscribed'] = '$a\'daki hiçbir foruma abone olunmadı.';
 $string['nownotsubscribed'] = '$a->name, \'$a->forum\' başlıklı forumun kopyasını e-postayla ALMAYACAKTIR.';
@@ -272,6 +287,10 @@ $string['unreadposts'] = 'Okunmamış mesajlar';
 $string['unreadpostsnumber'] = '$a okunmamış mesaj';
 $string['unreadpostsone'] = '1 okunmamış mesaj';
 $string['unsubscribe'] = 'Bu forum aboneliğini kaldır';
+$string['unsubscribeall'] = 'Tüm forumlardan aboneliği kaldır';
+$string['unsubscribeallconfirm'] = 'Şu anda $a forumuna abonesiniz. Gerçekten tüm forumlardan aboneliğinizi kaldırmak ve otomatik forum üyeliğini kapatmak istiyor musunuz?';
+$string['unsubscribealldone'] = 'Bütün forum abonelikleriniz kaldırıldı ama zorunlu abonelik gerektiren forumlardan bildirimler alabilirsiniz. Bu sunucudan hiç bir şekilde e-posta almak istemiyorsanız, profilinize gidin ve e-posta aktifliğini kapatın.';
+$string['unsubscribeallempty'] = 'Üzgünüz, hiç bir foruma abone değilsiniz. Bu sunucudan hiç bir şekilde e-posta almak istemiyorsanız, profilinize gidin ve e-posta aktifliğini kapatın.';
 $string['unsubscribed'] = 'Abonelik kaldırıldı';
 $string['unsubscribeshort'] = 'Aboneliği kaldır';
 $string['usermarksread'] = 'Mesaj okuma işaretlemesi';
