@@ -458,6 +458,7 @@ $string['longtimenosee'] = 'Désinscrire les utilisateurs des cours après';
 $string['longtimewarning'] = '<b>Veuillez remarquer que ce processus peut prendre beaucoup de temps.</b>';
 $string['mail'] = 'Courriel';
 $string['mailnewline'] = 'Caractère de fin de ligne des courriels';
+$string['maintenancemode'] = 'En mode de maintenance';
 $string['maintfileopenerror'] = 'Erreur lors de l\'ouverture des fichiers de maintenance&nbsp;!';
 $string['maintinprogress'] = 'Opérations de maintenance en cours...';
 $string['managelang'] = 'Gérer';
