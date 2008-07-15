@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 Beta 2 (2007101000)
+      // auth.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['CASform'] = 'Opció d\'autenticació';
 $string['accesCAS'] = 'usuaris CAS';
 $string['accesNOCAS'] = 'altres usuaris';
+$string['actauthhdr'] = 'Connectors d\'autenticació actius';
 $string['alternatelogin'] = 'Si introduïu un URL aquí, s\'utilitzarà com a pàgina d\'entrada d\'aquest lloc. Aquesta pàgina hauria de contenir un formulari, amb la propietat \'action\' igual a <strong>$a</strong> i que retornés els camps <strong>username</strong> i <strong>password</strong>.<br />Tingueu cura de no escriure un URL incorrecte, ja que podríeu impedir l\'entrada dels usuaris en aquest lloc.<br />Si deixeu en blanc aquest paràmetre s\'utilitzarà la pàgina d\'entrada per defecte.';
 $string['alternateloginurl'] = 'URL d\'entrada alternatiu';
 $string['auth_cas_auth_user_create'] = 'Crea usuaris externament';
@@ -42,6 +43,7 @@ $string['auth_changepasswordhelp'] = 'Ajuda de canvi de contrasenya';
 $string['auth_changepasswordhelp_expl'] = 'Mostra l\'ajuda de canvi de contrasenya als usuaris que hagin oblidat la contrasenya $a. Aquest ajuda es visualitzarà en lloc de o a més a més de l\'<strong>URL de canvi de contrasenya</strong> o el canvi de contrasenya intern de Moodle.';
 $string['auth_changepasswordurl'] = 'URL de canvi de contrasenya';
 $string['auth_changepasswordurl_expl'] = 'Especifiqueu l\'URL on cal enviar els usuaris que hagin oblidat la contrasenya $a. Trieu <strong>No</strong> en <strong>Utilitza la pàgina estàndard de canvi de contrasenya</strong>.';
+$string['auth_changingemailaddress'] = 'Heu sol·licitat un canvi d\'adreça de correu. Adreça actual: $a->oldemail. Adreça nova: $a->newemail. Per a més seguretat us enviarem un missatge de correu a l\'adreça nova, de manera que puguem confirmar que us pertany. El canvi d\'adreça de correu només es farà efectiu si seguiu l\'enllaç que figura en aquell missatge.';
 $string['auth_common_settings'] = 'Paràmetres comuns';
 $string['auth_data_mapping'] = 'Mapatge de dades';
 $string['auth_dbcantconnect'] = 'No s\'ha pogut establir una connexió amb la base de dades d\'autenticació...';
@@ -87,10 +89,17 @@ $string['auth_dbuser_key'] = 'Usuari de la base de dades';
 $string['auth_dbusernotexist'] = 'No es pot actualitzar un usuari no existent: $a';
 $string['auth_dbuserstoadd'] = 'Registres d\'usuari per afegir: $a';
 $string['auth_dbuserstoremove'] = 'Registres d\'usuari per suprimir: $a';
+$string['auth_emailchangecancel'] = 'Cancel·la el canvi de correu';
+$string['auth_emailchangepending'] = 'Canvi pendent. Obriu l\'enllaç que us hem enviat a l\'adreça $a->preference_newemail.';
 $string['auth_emaildescription'] = 'La confirmació per correu electrònic és el mètode d\'autenticació per defecte. Quan l\'usuari es registra i tria el seu nom d\'usuari i contrasenya, se li envia un missatge per confirmar les dades. Aquest missatge conté un enllaç segur a una pàgina en la qual l\'usuari pot confirmar el seu compte. En les connexions següents simplement es compara el nom d\'usuari i la contrasenya amb els valors guardats a la base de dades de Moodle.';
 $string['auth_emailnoemail'] = 'No ha estat possible enviar-vos un correu electrònic.';
 $string['auth_emailnoinsert'] = 'No ha estat possible afegir el vostre registre a la base de dades.';
+$string['auth_emailnowexists'] = 'L\'adreça de correu que heu intentat vincular al vostre perfil ha estat assignada a un altre compte des que vau fer la sol·licitud de canvi de correu. Per tant s\'ha cancel·lat aquesta sol·licitud. Podeu tornar a intentar-ho amb una altra adreça.';
+$string['auth_emailrecaptcha'] = 'Afegeix un element de confirmació visual o sonor al formulari de registre, per a usuaris de l\'autoregistre per correu electrònic. Això protegeix el lloc contra la brossa i a més a més contribueix a una bona causa. Vegeu <a href=\"http://recaptcha.net/learnmore.html\">http://recaptcha.net/learnmore.html</a> per a més informació.';
+$string['auth_emailrecaptcha_key'] = 'Habilita element reCAPTCHA';
+$string['auth_emailsettings'] = 'Paràmetres';
 $string['auth_emailtitle'] = 'Autenticació basada en el correu electrònic';
+$string['auth_emailupdate'] = 'Actualització de l\'adreça de correu';
 $string['auth_fcchangepasswordurl'] = 'URL de canvi de contrasenya';
 $string['auth_fcconnfail'] = 'Ha fallat la connexió amb Errno = $a[0] i Error String = $a[1]';
 $string['auth_fccreators'] = 'Llista de grups als membres dels quals els és permès de crear nous cursos. Separeu els diferents grups amb \';\'. Els noms han de ser exactament iguals als del servidor FirstClass. El sistema distingeix majúscules i minúscules.';
@@ -290,7 +299,7 @@ $string['pluginnotenabled'] = 'El connector d\'autenticació \'$a\' no està hab
 $string['pluginnotinstalled'] = 'El connector d\'autenticació \'$a\' no està instal·lat.';
 $string['rpc_negotiation_timeout'] = 'Temps màxim negociació RPC';
 $string['selfregistration'] = 'Autoregistre';
-$string['selfregistration_help'] = 'Trieu quin connector gestionarà l\'autoregistre d\'usuaris.';
+$string['selfregistration_help'] = 'Si seleccioneu un connector d\'autenticació, per exemple l\'autoregistre basat en correu electrònic, usuaris potencials es podran inscriure i crear comptes. Això fa possible que s\'enviï brossa a fòrums, bitàcoles, etc. Per evitar aquest perill, inhabiliteu l\'autoregistre o limiteu-lo mitjançant el paràmetre <em>Dominis de correu permesos</em>';
 $string['sha1'] = 'Resum SHA-1';
 $string['shib_no_attributes_error'] = 'Sembla que us heu autenticat via Shibboleth, però Moodle no ha rebut els vostres atributs d\'usuari. Comproveu que el vostre Proveïdor d\'Identitat ha alliberat els atributs ($a) necessaris al Proveïdor de Servei en el qual s\'està executant Moodle, o informeu l\'administrador d\'aquest servidor.';
 $string['shib_not_all_attributes_error'] = 'Moodle necessita certs atributs de Shibboleth que en el vostre cas no són presents. Els atributs són: $a<br />Contacteu amb l\'administrador d\'aquest servidor o amb el vostre Proveïdor d\'Identitat.';
