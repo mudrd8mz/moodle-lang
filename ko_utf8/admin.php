@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080715) (2008070701)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -563,6 +563,7 @@ $string['profilecreatefield'] = '개인정보 항목 생성:';
 $string['profilecreatenewcategory'] = '개인정보 범주 만들기';
 $string['profilecreatenewfield'] = '새로운 \"$a\" 개인정보 항목 만들기';
 $string['profiledefaultcategory'] = '기타 항목';
+$string['profiledefaultchecked'] = '기본사항 점검 완료';
 $string['profiledefaultdata'] = '기본값';
 $string['profiledeletecategory'] = '범주 삭제';
 $string['profiledeletefield'] = '항목 삭제';
@@ -576,6 +577,7 @@ $string['profilefieldmaxlength'] = '최대 길이';
 $string['profilefieldrows'] = '행';
 $string['profilefields'] = '추가항목 설정';
 $string['profilefieldsize'] = '표시 크기';
+$string['profilefieldtypecheckbox'] = '유형점검';
 $string['profilefieldtypemenu'] = '선택 차림표';
 $string['profilefieldtypetext'] = '문서 입력';
 $string['profilefieldtypetextarea'] = '입력난';
