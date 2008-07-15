@@ -3,11 +3,12 @@
 $string['allattempts'] = 'toutes les tentatives';
 $string['allattemptsavg'] = 'Note moyenne de toutes les tentatives';
 $string['attempts'] = 'Tentatives';
-$string['attemptsall'] = 'Toutes les tentatives';
+$string['attemptsall'] = 'toutes les tentatives';
 $string['attemptsfirst'] = 'Première tentative';
 $string['calculatefrom'] = 'Calculer les statistiques de';
 $string['cic'] = 'Coefficient de cohérence interne';
 $string['coursename'] = 'Nom du cours';
+$string['duration'] = 'Ouvert durant';
 $string['errormedian'] = 'Erreur de récupération de la médiane';
 $string['errorpowerquestions'] = 'Erreur de récupération des données pour calculer la variance des notes de question';
 $string['errorpowers'] = 'Erreur de récupération des données pour calculer la variance des notes des tests';
