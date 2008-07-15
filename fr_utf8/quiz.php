@@ -210,6 +210,7 @@ du cours « $a->coursename ».
 
 Vous pouvez voir cette tentative en suivant le lien $a->quizreviewurl.';
 $string['emailnotifysubject'] = 'Le participant $a->studentname a effectué le test $a->quizname';
+$string['endtest'] = 'Fin du test...';
 $string['errorinquestion'] = 'Erreur dans la question';
 $string['errormissingquestion'] = 'Erreur&nbsp;! Le système ne trouve pas la question d\'identifiant $a';
 $string['errornotnumbers'] = 'Erreur&nbsp;! Les réponses doivent être numériques';
@@ -461,6 +462,7 @@ $string['quizclose'] = 'Fermer le test';
 $string['quizclosed'] = 'Ce test a été fermé le $a';
 $string['quizcloses'] = 'Test est fermé';
 $string['quizcloseson'] = 'Ce test sera fermé le $a';
+$string['quiznavigation'] = 'Navigation du test';
 $string['quiznotavailable'] = 'Ce test ne sera pas disponible avant le $a';
 $string['quizopen'] = 'Ouvrir ce test';
 $string['quizopenedon'] = 'Ce test est ouvert depuis $a';
