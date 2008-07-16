@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // choice.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['addmorechoices'] = 'Afegeix més opcions';
 $string['allowupdate'] = 'Permet canviar la resposta';
 $string['answered'] = 'Contestades';
+$string['cannotsavechoice'] = 'No s\'ha pogut desar la vostra opció';
+$string['cannotupdatechoice'] = 'Un error de la base de dades ha impedit actualitzar la vostra opció';
 $string['choice'] = 'Opció $a';
 $string['choice:choose'] = 'Respondre una consulta';
 $string['choice:deleteresponses'] = 'Suprimir respostes';

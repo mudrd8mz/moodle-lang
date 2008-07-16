@@ -323,6 +323,7 @@ $string['editorkillword'] = 'Filtre format Word';
 $string['editorspelling'] = 'Verificació de l\'ortografia en l\'editor';
 $string['editorspellinghelp'] = 'Habiliteu o inhabiliteu la verificació de l\'ortografia. Si l\'habiliteu, cal tenir instal·lat <strong>aspell</strong> al servidor.';
 $string['editstrings'] = 'Edita cadenes';
+$string['emailchangeconfirmation'] = 'Confirmació de canvi de correu';
 $string['emoticons'] = 'Emoticones';
 $string['emptysettingvalue'] = 'Buit';
 $string['enableajax'] = 'Habilita AJAX';

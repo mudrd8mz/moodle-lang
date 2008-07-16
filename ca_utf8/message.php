@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // message.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['addcontact'] = 'Afegeix contacte';
@@ -18,6 +18,7 @@ $string['contactlistempty'] = 'La vostra llista de contactes actualment està bu
 $string['contacts'] = 'Contactes';
 $string['context'] = 'context';
 $string['deletemessagesdays'] = 'Nombre de dies abans que els missatges vells se suprimeixin automàticament';
+$string['disabled'] = 'La missatgeria està inhabilitada en aquest lloc';
 $string['discussion'] = 'Discussió';
 $string['emailmessages'] = 'Envia missatges per correu quan no estigui connectat';
 $string['emailtagline'] = 'Aquest correu és una còpia d\'un missatge enviat a \"$a\"';

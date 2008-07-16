@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // assignment.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['allowdeleting'] = 'Permet suprimir';
@@ -22,12 +22,15 @@ $string['assignmentname'] = 'Nom de la tasca';
 $string['assignmenttype'] = 'Tipus de tasca';
 $string['availabledate'] = 'Disponible des de';
 $string['cannotdeletefiles'] = 'S\'ha produït un error i no es poden suprimir els fitxers';
+$string['cannotinsertempty'] = 'No s\'ha pogut inserir una nova tramesa buida';
+$string['cannotviewassignment'] = 'No podeu veure aquesta tasca';
 $string['comment'] = 'Comentari';
 $string['commentinline'] = 'Comentaris inserits';
 $string['configitemstocount'] = 'Naturalesa dels elements que cal comptar en les trameses de les tasques en línia.';
 $string['configmaxbytes'] = 'Mida màxima per defecte de la tasca per a totes les tasques del lloc (subjecta als límits del curs i a altres paràmetres locals)';
 $string['configshowrecentsubmissions'] = 'Tothom pot veure les notificacions de trameses en els informes d\'activitat recent.';
 $string['confirmdeletefile'] = 'Esteu absolutament segur que voleu suprimir aquest fitxer?<br /><strong>$a</strong>';
+$string['coursemisconf'] = 'El curs està mal configurat';
 $string['deleteallsubmissions'] = 'Suprimeix totes les trameses';
 $string['deletefilefailed'] = 'No s\'ha pogut suprimir el fitxer.';
 $string['description'] = 'Descripció';
@@ -64,6 +67,9 @@ $string['helpupload'] = '<p>Aquest tipus de tasca permet que cada participant pe
 <p>Aquest tipus també us permet penjar múltiples fitxers de qualsevol mena en resposta a les trameses dels participants.</p>';
 $string['helpuploadsingle'] = '<p>Aquest tipus de tasca permet que cada participant pengi un fitxer, només un, de qualsevol mena.</p><p>Pot ser un document de processador de textos, una imatge, un lloc web complet empaquetat en un fitxer zip, o qualsevol altra cosa que els vulgueu demanar que trametin.</p>';
 $string['hideintro'] = 'Oculta la descripció fins la data de disponibilitat';
+$string['invalidassignment'] = 'tasca incorrecta';
+$string['invalidid'] = 'l\'ID de la tasca és incorrecte';
+$string['invalidtype'] = 'el tipus de tasca és incorrecte';
 $string['itemstocount'] = 'Nombre';
 $string['late'] = '$a tard';
 $string['maximumgrade'] = 'Nota màxima';
@@ -119,6 +125,7 @@ $string['uploadfiletoobig'] = 'Aquest fitxer és massa gran (el límit són $a b
 $string['uploadnofilefound'] = 'No s\'ha trobat cap fitxer - esteu segur que n\'heu seleccionat un per penjar-lo?';
 $string['uploadnotregistered'] = '\'$a\' s\'ha penjat correctament, però la tramesa no s\'ha registrat!';
 $string['uploadsuccess'] = '\'$a\' s\'ha penjat amb èxit';
+$string['usermisconf'] = 'L\'usuari està mal configurat';
 $string['viewfeedback'] = 'Visualitza les qualificacions i la retroacció de la tasca';
 $string['viewsubmissions'] = 'Visualitza $a tasques trameses';
 $string['yoursubmission'] = 'La vostra tramesa';
