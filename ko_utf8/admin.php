@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080715) (2008070701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080717) (2008070701)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -10,6 +10,7 @@ $string['adminseesownevents'] = '관리자는 일반 이용자와 동일';
 $string['allowcategorythemes'] = '범주 테마 허용';
 $string['allowcoursethemes'] = '강좌 테마 허용';
 $string['allowdeletes'] = '삭제 허용';
+$string['allowediplist'] = '허용된 IP 목록';
 $string['allowemailaddresses'] = '허용된 이메일 도메인';
 $string['allowobjectembed'] = 'Embed 와 Object 태그 허용';
 $string['allowrenames'] = '이름 변경 허용';
@@ -335,6 +336,8 @@ $string['emailchangeconfirmation'] = '이메일 주소 검증';
 $string['emoticons'] = '이모티콘';
 $string['emptysettingvalue'] = '비어있음';
 $string['enableajax'] = 'AJAX 활성화';
+$string['enableallowedip'] = 'IP 접속 제한 사용';
+$string['enableallowedipdesc'] = '만일 이 옵션을 켜면 허용된 IP 목록에 있는 IP만 접속할 수 있으며, 차단된 목록에 있는 IP는 접속이 불허된다.';
 $string['enablecourserequests'] = '강좌 요청 가능';
 $string['enableglobalsearch'] = '전역 검색 활성화';
 $string['enablegroupings'] = '모둠 무리 활성화';
@@ -423,11 +426,13 @@ $string['installedlangs'] = '설치된 언어팩';
 $string['intcachemax'] = '최대 내부 캐쉬';
 $string['invalidsection'] = '잘못된 영역';
 $string['invaliduserchangeme'] = '\"changeme\"는 예약된 이용자 아이디입니다. 이 이름으로는 계정을 만들 수 없습니다.';
-$string['ipblocker'] = 'IP 차단기';
+$string['ipblocker'] = 'IP 제한';
+$string['ipinblockedlist'] = '이 사이트는 현재 사용할 수 없습니다.';
 $string['iplookup'] = 'IP 주소 열람';
 $string['iplookupinfo'] = '기본적으로 무들은 IP 주소의 위치를 찾기위해 무료 NetGeo (The Internet Geographic Database) 서버를 이용하지만, 안타깝게도 더이상 정상적으로 유지되지 않고 <em>대제적으로 부정확한</em> 자료를 회신합니다. 따라서 MaxMind의 공개 GeoLite City 데이터베이스 사본을 설치할 것을 권합니다.<br />IP 주소의 위치는 단순한 지도나 구글맵을 이용하여 표시될 수 있습니다. 이를 이용하기 위해서는 구글 계정과 구글맵에 제대로 표시하기 위한 공개 구글맵 API 암호를 적용해 주어야 합니다.';
 $string['iplookupmaxmindnote'] = '이 제품은 MaxMind(<a href=\"http://www.maxmind.com/\">http://www.maxmind.com/</a>)의 의해 제작된 GeoLite의 자료를 포함하고 있습니다.';
 $string['iplookupnetgeonote'] = 'NetGeo서버는 지리적인 정보를 검색하기 위해 사용되고 있습니다. 좀 더 자세한 결과를 원한다면 MaxMind GeoLite database의 지역 사본을 설치하기 바랍니다.';
+$string['ipoutallowedlist'] = '이 사이트는 현재 사용할 수 없습니다.';
 $string['keeptagnamecase'] = '태그 명칭 유지';
 $string['lang'] = '초기 설정 언어';
 $string['lang16notify'] = '무들 1.6과 그 이후의 판은 아래에 연결된 download.moodle.org를 통해 직접 언어팩을 설치하고 업데이트 할 수 있습니다.';

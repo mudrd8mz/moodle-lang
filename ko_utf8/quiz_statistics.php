@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080717) (2008070701)
 
 
 $string['allattempts'] = '모든 시도에 대해';
@@ -10,11 +10,15 @@ $string['attemptsfirst'] = '첫번째 시도';
 $string['calculatefrom'] = '통계 산출';
 $string['cic'] = '내적 일관성 계수';
 $string['coursename'] = '강좌명';
+$string['discrimination_index'] = '변별도 지수';
+$string['discriminative_efficiency'] = '변별 효율';
 $string['duration'] = '개방 기간';
+$string['effective_weight'] = '유효 가중치';
 $string['errormedian'] = '오차제거 중앙값';
 $string['errorpowerquestions'] = '문항의 분산 계산을 위한 오차 제거한 데이터';
 $string['errorpowers'] = '퀴즈의 분산 계산을 위한 오차 제거한 데이터';
 $string['errorratio'] = '오류율';
+$string['errorstatisticsquestions'] = '문항 점수 통계 산출을 위한 오차 제거한 데이터';
 $string['facility'] = '난이도';
 $string['firstattempts'] = '최초 시도에 대해';
 $string['firstattemptsavg'] = '최초 시도의 평균값';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080712) (2008070701)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080717) (2008070701)
 
 
 $string['1day'] = '하루';
@@ -53,6 +53,7 @@ $string['answerswithacceptederrormarginmustbenumeric'] = '허용 오차를 포�
 $string['answertoolong'] = '$a 째 줄의 답이 너무 김';
 $string['aon'] = 'AON 형식';
 $string['attempt'] = '$a 차 시도';
+$string['attemptalreadyclosed'] = '이 시도는 이미 종료되었읍니다.';
 $string['attemptclosed'] = '아직 시도를 마치지 않았음';
 $string['attemptduration'] = '소비 시간';
 $string['attemptedon'] = '시도 중';
@@ -92,6 +93,7 @@ $string['cannotloadtypeinfo'] = '지정 문항 정보에 따른 문형을 탑재
 $string['cannotopen'] = '내보내기 파일($a)을 열 수 없음';
 $string['cannotread'] = '가져오기한 파일(비어있거나)을 읽을 수 없음';
 $string['cannotrestore'] = '질문 세션을 복구할 수 없음';
+$string['cannotreviewopen'] = '아직 열려있다고 하더라도, 이 시도를 재검토할 수는 없습니다.';
 $string['cannotsavequestion'] = '문항 목록을 저장할 수 없음';
 $string['cannotwrite'] = '내보내기 파일($a)에 쓸 수 없음';
 $string['caseno'] = '아니오, 대소문자는 중요치 않음';
@@ -371,6 +373,7 @@ $string['nocategory'] = '옳지 않거나 없는 범주가 지정됨';
 $string['nocommentsyet'] = '아직 의견이 없음';
 $string['noconnection'] = '현재 이 질문을 계속 진행 할 수 있는 웹 서비스에 접속되지 않았습니다. 관리자에게 연락하십시오.';
 $string['nodataset'] = '임의문자가 아님';
+$string['nodatasubmitted'] = '아무런 자료도 제출하지 않았음';
 $string['noessayquestionsfound'] = '수동으로 채점할 질문이 없음';
 $string['nomatchinganswer'] = '질문 \'$a\'와 일치하는 답을 지정해야만 함';
 $string['nominal'] = 'Nominal';
@@ -522,7 +525,6 @@ $string['reviewbefore'] = '퀴즈를 푸는 동안 재검토 허용';
 $string['reviewclosed'] = '퀴즈 마감 이후';
 $string['reviewimmediately'] = '퀴즈 제출 직후';
 $string['reviewnever'] = '재검토를 허용하지 않음';
-$string['reviewnotallowed'] = '이 시험에서 다른 사람의 시도를 검토해 볼 수는 없습니다.';
 $string['reviewofattempt'] = '$a 차 재검토';
 $string['reviewofpreview'] = '미리보기 검토';
 $string['reviewopen'] = '나중에, 퀴즈 마감 이전';
@@ -642,6 +644,7 @@ $string['youmustwait'] = '이 문제를 다시 시도하려면 잠시 기다려�
 $string['youneedtoenrol'] = '강좌에 등록을 마쳐야 이 퀴즈에 도전할 수 있음';
 $string['yourfinalgradeis'] = '이번 퀴즈의 최종 점수는 $a 입니다.';
 $string['zerosignificantfiguresnotallowed'] = '정답에 0점을 줄 수는 없습니다!';
+$string['reviewnotallowed'] = '이 시험에서 다른 사람의 시도를 검토해 볼 수는 없습니다.'; // ORPHANED
 $string['qti2'] = 'IMS OTI 2.0 형식'; // ORPHANED
 $string['blackboard_6'] = 'Blackboard 6.0버전 이상'; // ORPHANED
 $string['gobacktocourse'] = '강좌로 돌아가기 위해서는 여기를 클릭하세요'; // ORPHANED
