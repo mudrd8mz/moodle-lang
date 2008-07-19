@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080515) (2008051201)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080712) (2008070701)
 
 
 $string['abouttobeinstalled'] = 'ස්ථාපනය සඳහා සූදානම්';
@@ -1448,15 +1448,18 @@ $string['updatinga'] = '$a: අලුත් කිරීම';
 $string['updatingain'] = '$a->in හි $a->what යාවත්කාලීන කරන ලදි';
 $string['upload'] = 'උඩුගත කිරීම';
 $string['uploadafile'] = 'ගොනුවක් උඩුගත කිරීම';
+$string['uploadcantwrite'] = 'තැටිය මත ගොනුව ලිවිම අසාර්ථක විය';
 $string['uploadedfile'] = 'ගොනුව සාර්ථකව උඩුගත කරන ලදි';
 $string['uploadedfileto'] = '$a->file $a->directory උඩුගත කරන ලදි';
 $string['uploadedfiletoobig'] = 'කණගාටුයි,නමුත් ගොනුව ඉතා විශාලයි.';
+$string['uploadextension'] = 'දිගුව මගින් ගොනුව උඩුගත කිරීම නවතන ලදි';
 $string['uploadfailednotrecovering'] = '$a->name<br/> දෝෂයන් හේතුකොට ගෙන ඔබගේ ගොනුව උඩුගත කිරීම අසාර්ථක විය.';
 $string['uploadfilelog'] = '$a ගොනුව සඳහා ලොගය උඩුගත කරන්න';
 $string['uploadformlimit'] = 'පෝරමය මගින් ඉඩදී ඇති උපරිම ප්‍රමාණයට වඩා උඩුගත කරන ලද ගොනුවෙහි ප්‍රමාණය වැඩිය.';
 $string['uploadlabel'] = 'මාතෘකාව';
 $string['uploadnofilefound'] = 'කිසිම ගොනුවක් සොයා ගත නොහැකි විය. ඔබ උඩුගත කිරීමට යමක් තේරූ බව ඔබට විශ්වාසද?';
 $string['uploadnotallowed'] = 'උඩුගත කිරීමට ඉඩදී නොමැත';
+$string['uploadnotempdir'] = 'තාවකාලික ෆෝල්ඩරය අස්ථානගතවී ඇත';
 $string['uploadoldfilesdeleted'] = 'ඔබගේ උඩුගත  කොටසෙහි ඇති පැරණි ගොනු මකා දමා ඇත.';
 $string['uploadpartialfile'] = 'ගොනුවෙහි කොටසක් පමණක් උඩුගත කෙරුනි.';
 $string['uploadproblem'] = '\'$a\' ගොනුව උඩුගත කිරීමේදී නොදන්නා ගැටළුවක් මතුවිය.(සමහර විට එය විශාල ගොනුවක් විය හැක)';
