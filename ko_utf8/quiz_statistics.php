@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080717) (2008070701)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080719) (2008070701)
 
 
 $string['allattempts'] = '모든 시도에 대해';
@@ -14,9 +14,11 @@ $string['discrimination_index'] = '변별도 지수';
 $string['discriminative_efficiency'] = '변별 효율';
 $string['duration'] = '개방 기간';
 $string['effective_weight'] = '유효 가중치';
+$string['erroritemappearsmorethanoncewithdifferentweight'] = '문항 ($a) 는 시험의 다른 위치에서 각기 다른 가중치로 제시되었습니다. 이것은 통계보고에서 처리할 수 없으며, 이렇게 되면 문항 통계에 대한 신뢰도가 의심받게 됩니다.';
 $string['errormedian'] = '오차제거 중앙값';
 $string['errorpowerquestions'] = '문항의 분산 계산을 위한 오차 제거한 데이터';
 $string['errorpowers'] = '퀴즈의 분산 계산을 위한 오차 제거한 데이터';
+$string['errorrandom'] = '하위 항목 자료 획득 오류';
 $string['errorratio'] = '오류율';
 $string['errorstatisticsquestions'] = '문항 점수 통계 산출을 위한 오차 제거한 데이터';
 $string['facility'] = '난이도';
