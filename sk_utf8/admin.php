@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8.5+ (Build: 20080430) (2007021550)
+      // admin.php - created with Moodle 1.8.6 (Build: 20080716) (2007021560)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -79,6 +79,7 @@ $string['configdefaultcourseroleid'] = 'Pri zápise do kurzu bude používateľo
 $string['configdefaultrequestcategory'] = 'Požadované kurzy budú automaticky umiestené v tejto kategórii.';
 $string['configdefaultrequestedcategory'] = 'Do akej kategórie zaradiť požadované kurzy, ak sú schválené?';
 $string['configdefaultuserroleid'] = 'Prihlásení používatelia získajú na úrovni celého serveru všetky oprávnenia vyplývajúce z uvedenej roly. Tieto oprávnenia budú PRIDANÉ k ostatným oprávneniam získaných z ďalších rol. Pomocou tohoto nastavenia zabezpečujete minimálne oprávnenia pre každého prihláseného používateľa, aby mohol robiť niečo zmysluplné (napr. čítať verejné diskusie, zobrazovať študijné materiály a pod.). Východzie nastavenie je rola Hosťa.';
+$string['configdeleteincompleteusers'] = 'Kontá používateľov, ktorých vytvorenie nebolo korektne ukončené, budú po tomto časovom úseku vymazané.';
 $string['configdeleteunconfirmed'] = 'Ak používate emailovú autorizáciu, toto je časové rozpätie, počas ktorého bude odpoveď akceptovaná používateľmi. Po tomto období budú staré nepoužívané kontá vymazané.';
 $string['configdenyemailaddresses'] = 'Ak chcete zakázať emailové adresy z určitých domén, uveďte ich tu, oddelené medzerami. Všetky ostatné domény budú akceptované. Napr. <strong>atlas.sk szm.sk hotmail.com</strong>';
 $string['configdigestmailtime'] = 'Ľuďom, ktorí sa rozhodnú pre zasielanie emailov v štruktúrovanej forme, bude každý deň prichádzať email stručne informujúci o najnovších udalostiach v kurze. Toto nastavenie určuje tú časť dňa, kedy bude tento email zasielaný používateľom (odošle ho nasledujúci cron po ukončení tejto hodiny).';
@@ -87,6 +88,7 @@ $string['configdocroot'] = 'Cesta k dokumentácii Moodle. Upravte toto nastaveni
 $string['configdoctonewwindow'] = 'Otvárať stránky dokumentácie v novom okne.';
 $string['configeditordictionary'] = 'Táto hodnota je použitá, ak nemá aspell k dispozícii slovník pre jazyk používateľa.';
 $string['configeditorfontlist'] = 'Zoznam fontov, ktoré budú zobrazované v ponuke HTML editoru.';
+$string['configemailchangeconfirmation'] = 'Vyžadovať následné emailové potvrdenie, ak si používatelia zmenia svoju mailovú adresu.';
 $string['configenableajax'] = 'Týmto povoľujete technológiu AJAX na úrovni celého serveru. Jedná sa o pokročilé rozhranie medzi prehliadačom a webovým serverom, ktoré využíva Javascript. Aj keď je tu AJAX povolený, používatelia si jeho použitie môžu vypnúť vo svojich profiloch.';
 $string['configenablecourserequests'] = 'Povoliť užívateľom žiadať o založenie kurzu?';
 $string['configenableglobalsearch'] = 'Týmto je možné povoliť globálne vyhľadávanie textu v študijných materiáloch a činnostiach. Nie je kompatibilné s PHP 4.';
@@ -210,6 +212,8 @@ $string['cronerrorclionly'] = 'Ľutujem. Prístup na túto stránku z webového 
 $string['cronerrorpassword'] = 'Ľutujem. Pre prístup na túto stránku musíte použiť platné heslo.';
 $string['cronremotepassword'] = 'Heslo pre spustenia cronu';
 $string['cronwarning'] = '<a href=\"cron.php\" title=\"cron.php\">Skript pre údržbu cron.php?</a> nebol spustený najmenej 24 hodín.';
+$string['ctyperecommended'] = 'Pre zvýšenie výkonu Vašej Moodle inštalácie (najmä v prípade využívania nie latin1 jazykov) je doporučované nainštalovať voliteľnú knižnicu ctype.';
+$string['ctyperequired'] = 'Voliteľná knižnica ctype je odteraz vyžadovaná Moodle pre zvýšenie výkonu Moodle a pre podporu viacjazyčnej kompatibility.';
 $string['curlrecommended'] = 'Pre beh sieťových funkcionalít (\"Moodle Networking\") je treba nainštalovať voliteľnú knižnicu Curl.';
 $string['customcheck'] = 'Ostatné kontroly';
 $string['datarootsecuritywarning'] = 'Vaša inštalácia Moodle nemusí byť bezpečná. Prosím zabezpečte, aby váš dátový adresár ($a) nie je priamo dostupný z webu';
@@ -235,11 +239,13 @@ $string['defaultallowedmodules'] = 'Východzie povolené moduly';
 $string['defaultcourseroleid'] = 'Východzia rola používateľov v kurze';
 $string['defaultrequestcategory'] = 'Východzia kategória pre požadované kurzy';
 $string['defaultuserroleid'] = 'Východzia rola pre všetkých používateľov';
+$string['deleteincompleteusers'] = 'Odstrániť nekompletne vytvorených používateľov po';
 $string['deleteunconfirmed'] = 'Odstrániť nepotvrdené účty po';
 $string['deleteuser'] = 'Odstrániť používateľov';
 $string['density'] = 'Hustota';
 $string['denyemailaddresses'] = 'Zakázané emailové domény';
 $string['digestmailtime'] = 'Hodina odosielania súhrnných emailov';
+$string['displayerrorswarning'] = 'Zapnutie PHP nastavenia <em>display_errors</em> nie je doporučované na produkčných portáloch, pretože niektoré chybové správy môžu ukázať citlivé informácie o Vašom serveri.';
 $string['displayloginfailures'] = 'Komu zobrazovať neúspešné prihlásenia:';
 $string['docroot'] = 'Umiestnenie dokumentácie';
 $string['doctonewwindow'] = 'Otvárať v novom okne';
@@ -257,6 +263,7 @@ $string['editorkillword'] = 'Čistenie formátu z MS Word';
 $string['editorspelling'] = 'Pravopis editora';
 $string['editorspellinghelp'] = 'Povoliť alebo zakázať kontrolu pravopisu. Ak je povolené, musí byť na serveri nainštalovaný <strong>aspell</strong>.';
 $string['editstrings'] = 'Upraviť textové reťazce';
+$string['emailchangeconfirmation'] = 'Potvrdenie zmeny emailu';
 $string['enableajax'] = 'Povoliť AJAX';
 $string['enablecourserequests'] = 'Povoliť žiadanie kurzov';
 $string['enableglobalsearch'] = 'Povoliť globálne vyhľadávanie';
