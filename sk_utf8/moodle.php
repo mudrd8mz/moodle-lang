@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.4+ (2007021541)
+      // moodle.php - created with Moodle 1.8.6 (Build: 20080716) (2007021560)
 
 
 $string['action'] = 'Akcia';
@@ -1425,9 +1425,11 @@ $string['updatinga'] = 'Aktualizácia: $a';
 $string['updatingain'] = 'Aktualizácia: $a->what v $a->in';
 $string['upload'] = 'Preniesť';
 $string['uploadafile'] = 'Preniesť súbor';
+$string['uploadcantwrite'] = 'Nepodarilo sa zapísať súbor na disk';
 $string['uploadedfile'] = 'Súbor bol úspešne prenesený';
 $string['uploadedfileto'] = 'Preniesť $a->file do $a->directory';
 $string['uploadedfiletoobig'] = 'Prepáčte, ale tento súbor je veľmi veľký (limit je $a bytov)';
+$string['uploadextension'] = 'Nahranie súboru bolo zrušené z dôvodu jeho prípony';
 $string['uploadfailednotrecovering'] = 'Váš prenos súboru nebol úspešný, pretože sa tu vyskytol problém s jedným z týchto súborov, $a->name.<br />
 Tu je záznam tohto problému:<br />
 $a->problem<br />
@@ -1437,6 +1439,7 @@ $string['uploadformlimit'] = 'Prenášaný súbor prekročil povolenú nastaven�
 $string['uploadlabel'] = 'Nadpis:';
 $string['uploadnofilefound'] = 'Nebol nájdený súbor - ste si istý, že ste nejaký vybrali na prenos?';
 $string['uploadnotallowed'] = 'Prenosy nie sú povolené';
+$string['uploadnotempdir'] = 'Chýbajúci dočasný adresár';
 $string['uploadoldfilesdeleted'] = 'Starý súbor (súbory) boli vymazané';
 $string['uploadpartialfile'] = 'Súbor bol prenesený len čiastočne';
 $string['uploadproblem'] = 'Pri prenose súboru \'$a\' sa vyskytol neznámy problém (možno bol súbor príliš veľký)';

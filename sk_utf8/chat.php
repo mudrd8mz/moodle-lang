@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8.2+ (2007021520)
+      // chat.php - created with Moodle 1.8.6 (Build: 20080716) (2007021560)
 
 
+$string['autoscroll'] = 'Automatický posun';
 $string['beep'] = 'prezvoniť';
 $string['chat:chat'] = 'Prispievať do chatovania';
 $string['chat:deletelog'] = 'Odstrániť históriu chatovania';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8.2+ (2007021520)
+      // auth.php - created with Moodle 1.8.6 (Build: 20080716) (2007021560)
 
 
 $string['CASform'] = 'Voľba overovania';
@@ -42,6 +42,7 @@ $string['auth_changepasswordhelp'] = 'Pokyny k zmene hesla';
 $string['auth_changepasswordhelp_expl'] = 'Zobraziť pokyny k zmene $a hesla. Tento text sa alebo a) zobrazí súčasne s <strong>URL pre zmenu hesla</strong> alebo s internou stránkou Moodle pre zmenu hesla, alebo sa b) zobrazí namiesto <strong>URL pre zmenu hesla</strong> alebo interná stránka Moodle pre zmenu hesla.';
 $string['auth_changepasswordurl'] = 'URL pre zmenu hesla';
 $string['auth_changepasswordurl_expl'] = 'Zadajte URL, kam majú byť presmerovaní používatelia požadujúci zmenu svojho $a hesla. U voľby <strong>Použi štandardnú stránku \'Zmena hesla\'</strong> vyššie vyberte <strong>Nie</strong>.';
+$string['auth_changingemailaddress'] = 'Vyžiadali ste si zmenu emailovej adresy z  $a->oldemail na $a->newemail. Z bezpečnostných dôvodov Vám bude poslaný email na novú adresu pre potvrdenie, že táto patrí Vám. Vaša emailová adresa bude aktualizovaná, keď kliknete na URL odkaz v zaslanej správe.';
 $string['auth_common_settings'] = 'Bežné nastavenia';
 $string['auth_data_mapping'] = 'Mapovanie údajov';
 $string['auth_dbcantconnect'] = 'Nedá sa pripojiť k zvolenej overovacej databáze.';
@@ -89,10 +90,20 @@ $string['auth_dbuser_key'] = 'DB používateľ';
 $string['auth_dbusernotexist'] = 'Nemožné aktualizovať neexistujúceho používateľa:$a';
 $string['auth_dbuserstoadd'] = 'Používateľské položky na pridanie:$a';
 $string['auth_dbuserstoremove'] = 'Používateľské položky na zmazanie:$a';
+$string['auth_emailchangecancel'] = 'Zrušiť zmenu emailu';
+$string['auth_emailchangepending'] = 'Zmena mailu bude aktívna potom, ako kliknete na odkaz v maili poslanom na $a->preference_newemail.';
 $string['auth_emaildescription'] = 'Emailové potvrdzovanie je prednastavený spôsob overovania. Keď sa používateľ prihlási, vyberie si vlastné nové používateľské meno a heslo. Následne dostane potvrdzujúci email na svoju emailovú adresu. Tento email obsahuje bezpečný odkaz na stránku, kde môže používateľ potvrdiť svoje nastavené údaje. Pri ďalších prihlasovaniach sa už iba skontroluje používateľské meno a heslo v porovnaní s údajmi uloženými v Moodle databáze.';
 $string['auth_emailnoemail'] = 'Nepodarilo sa poslať Vám email!';
 $string['auth_emailnoinsert'] = 'Nemôžeme pridať Váš záznam do databázy!';
+$string['auth_emailnowexists'] = 'Nová emailová adresa, na ktorú ste si požiadali zmeniť svoje konto, už je používaná niekým iným. Vaša požiadavka na zmenu bola preto zrušená. Môžete požiadavku opakovať s odlišnou emailovou adresou.';
+$string['auth_emailrecaptcha'] = 'Pridáva formulár vizuálneho/audio potvrdenia k zadávacej stránke pre používateľov so samostatnou registráciou. Toto ochráni Váš portál pred spammermi. Pre viac informácií viď http://recaptcha.net/learnmore.html.';
+$string['auth_emailrecaptcha_key'] = 'Povoliť prvok reCAPTCHA';
+$string['auth_emailsettings'] = 'Nastavenia';
 $string['auth_emailtitle'] = 'Emailové overovanie';
+$string['auth_emailupdate'] = 'Aktualizácia emailovej adresy';
+$string['auth_emailupdatemessage'] = 'Vyžiadali ste si zmenu Vašej emailovej adresy vo Vašom konte na portáli $a->site. Prosím kliknite na nasledovný odkaz vo vašom prehliadači na potvrdenie tejto zmeny.';
+$string['auth_emailupdatesuccess'] = 'Emailová adresa používateľa <em>$a->fullname</em> bola úspešne aktualizovaná na <em>$a->email</em>.';
+$string['auth_emailupdatetitle'] = 'Potvrdenie emailovej aktualizácie na portáli $a->site';
 $string['auth_fcchangepasswordurl'] = 'Heslo - zmena URL';
 $string['auth_fcconnfail'] = 'Pripojenie s Errno: $a[0] and Error String: $a[1] zlyhalo';
 $string['auth_fccreators'] = 'Zoznam skupín, ktorých členovia majú oprávnenie na vytváranie nových kurzov. Ak ide o viaceré skupiny, oddeľte ich bodkočiarkou. Mená musia byť napísané presne tak, ako na FirstClass serveri. Systém zohľadňuje písanie malých a veľkých písmen.';
@@ -121,6 +132,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'Použiť IMAP server';
 $string['auth_imaptype'] = 'Typ IMAP serveru. IMAP servery môžu používať rozličné typy overovania.';
 $string['auth_imaptype_key'] = 'Typ';
+$string['auth_invalidnewemailkey'] = 'Chyba: ak sa snažíte potvrdiť zmenu emailovej adresy, zrejme ste urobili chybu pri kopírovaní URL odkazu, ktorý Vám bol poslaný emailom. Prosím skopírujte adresu správne a skúste znova.';
 $string['auth_ldap_auth_user_create_key'] = 'Vytvoriť používateľov externe';
 $string['auth_ldap_bind_dn'] = 'Ak chcete používať spoluužívateľov na vyhľadávanie používateľov, uveďte to tu. Napríklad: \'ou=users,o=org; ou=others,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Jednoznačné (distingvované) meno';
@@ -213,6 +225,7 @@ $string['auth_nologindescription'] = 'Pomocný zásuvný modul, ktorý zabraňuj
 $string['auth_nologintitle'] = 'Neprihlasovať';
 $string['auth_nonedescription'] = 'Používatelia sa môžu prihlásiť a okamžite si vytvoriť kontá bez nutnosti overovania proti externým serverom a bez potvrdzovania prostredníctvom emailu. Buďte opatrní pri tejto voľbe - myslite na bezpečnosť a problémy pri administrácii, ktoré tým môžu vzniknúť.';
 $string['auth_nonetitle'] = 'Bez overenia';
+$string['auth_outofnewemailupdateattempts'] = 'Prekročili ste povolený počet pokusov o zmenu svojej emailovej adresy. Vaša požiadavka na zmenu bola zrušená.';
 $string['auth_pamdescription'] = 'Táto metóda používa PAM na prístup do používateľských mien na tomto serveri. Musíte si nainštalovať <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a>, aby ste mohli používať tento modul.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'Platnosť Vášho hesla vypršala. Chcete si zmeniť Vaše heslo teraz?';

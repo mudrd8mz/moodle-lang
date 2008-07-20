@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8.2+ (2007021520)
+      // error.php - created with Moodle 1.8.6 (Build: 20080716) (2007021560)
 
 
 $string['adminprimarynoedit'] = 'Ostatní administrátori nemôžu upravovať údaje hlavného administrátora';
@@ -56,6 +56,7 @@ $string['nologinas'] = 'Nemáte povolenie prihlásiť sa ako tento používateľ
 $string['nonmeaningfulcontent'] = 'Nezmyselný obsah';
 $string['noparticipatorycms'] = 'Pre váš účet nie sú dostupné žiadne moduly kurzu, u ktorých je možné viesť záznamy v protokoloch.';
 $string['nopermissions'] = 'Ľutujeme, ale v súčasnosti nemáte oprávnenia vykonať túto operáciu ($a)';
+$string['nostatstodisplay'] = 'Ľutujem, nie sú v dipozícii žiadne údaje na zobrazenie';
 $string['notavailable'] = 'Momentálne nie je dostupné';
 $string['onlyadmins'] = 'Túto operáciu sú oprávnení vykonať iba administrátori.';
 $string['onlyeditingteachers'] = 'Túto operáciu sú oprávnení vykonať iba učitelia s právom úprav.';
