@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 1.9 Beta + (2007082000)
+      // block_search.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['blockname'] = 'Globální vyhledávání';
@@ -14,5 +14,6 @@ $string['configwordtotextcmd'] = 'Cesta k souboru doctotext';
 $string['configwordtotextenv'] = 'Nastavení prostředí pro konvertor MSWord';
 $string['go'] = 'Hledej';
 $string['searchmoodle'] = 'Prohledej Moodle';
+$string['usemoodleroot'] = 'Pro externí konvertory použij kořenový adresář Moodlu';
 
 ?>

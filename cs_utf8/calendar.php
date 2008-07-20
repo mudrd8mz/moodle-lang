@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 Beta + (2007100902)
+      // calendar.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['advancedoptions'] = 'Pokročilé možnosti';
@@ -18,6 +18,7 @@ $string['dayview'] = 'Zobrazit den';
 $string['daywithnoevents'] = 'V tento den nejsou žádné události';
 $string['default'] = 'Výchozí';
 $string['deleteevent'] = 'Odstranit událost';
+$string['deleteevents'] = 'Odstranit události';
 $string['detailedmonthview'] = 'Zobrazit měsíc podrobně';
 $string['durationminutes'] = 'Délka trvání v minutách';
 $string['durationnone'] = 'Nemá trvání';

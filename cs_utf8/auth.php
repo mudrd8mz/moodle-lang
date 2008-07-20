@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.1+ (Build: 20080710) (2007101517)
+      // auth.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['CASform'] = 'Volba ověřování';
@@ -14,7 +14,7 @@ $string['auth_cas_baseuri_key'] = 'Základní URI';
 $string['auth_cas_broken_password'] = 'Nemůžete pokračovat dál bez změny hesla, ale stránka pro jeho změnu není k dispozici. Kontaktujte správce Vašeho eLearningu Moodle.';
 $string['auth_cas_cantconnect'] = 'LDAP část  modulu CAS se nemůže připojit k serveru: $a';
 $string['auth_cas_casversion'] = 'Verze';
-$string['auth_cas_changepasswordurl'] = 'Heslo - změna URL';
+$string['auth_cas_changepasswordurl'] = 'URL pro změnu hesla';
 $string['auth_cas_create_user'] = 'Zapněte tuto volbu, chcete-li vkládat uživatele ověřené pomocí CAS do vaší databáze uživatelů Moodlu. V opačném případě se budou moci přihlásit pouze uživatelé, kteří již mají záznam v databázi Moodlu.';
 $string['auth_cas_create_user_key'] = 'Vytvořit uživatele';
 $string['auth_cas_enabled'] = 'Zapněte tuto volbu, chcete-li používat ověření CAS.';
@@ -43,6 +43,7 @@ $string['auth_changepasswordhelp'] = 'Pokyny ke změně hesla';
 $string['auth_changepasswordhelp_expl'] = 'Zobrazit pokyny ke změně $a hesla. Tento text se buď a) zobrazí současně s <strong>URL pro změnu hesla</strong> či s interní stránkou Moodlu pro změnu hesla, nebo se b) zobrazí namísto <strong>URL pro změnu hesla</strong> či interní stránky Moodlu pro změnu hesla.';
 $string['auth_changepasswordurl'] = 'URL pro změnu hesla';
 $string['auth_changepasswordurl_expl'] = 'Zadejte URL, kam mají být přesměrováni uživatelé požadující změnu svého $a hesla. U volby <strong>Použij standardní stránku \'Změna hesla\'</strong> výše vyberte <strong>Ne</strong>.';
+$string['auth_changingemailaddress'] = 'Požádali jste o změnu emailové adresy z \"$a->oldemail\" na \"$a->newemail\". Z bezpečnostních důvodů zasíláme na novou adresu email, pomocí kterého potvrdíte, že nová adresa patří skutečně vám. Vaše emailová adresa bude změněna hned poté, co ji potvrdíte pomocí odkazu v zaslaném emailu.';
 $string['auth_common_settings'] = 'Společná nastavení';
 $string['auth_data_mapping'] = 'Mapování dat';
 $string['auth_dbcantconnect'] = 'Nelze se připojit ke specifikované ověřovací databázi.';
@@ -88,13 +89,24 @@ $string['auth_dbuser_key'] = 'Uživatel DB';
 $string['auth_dbusernotexist'] = 'Nelze aktualizovat neexistujícího uživatele: $a';
 $string['auth_dbuserstoadd'] = 'Uživatelské položky k přidání: $a';
 $string['auth_dbuserstoremove'] = 'Uživatelské položky ke smazání: $a';
+$string['auth_emailchangecancel'] = 'Zrušit změnu emailu';
+$string['auth_emailchangepending'] = 'Změna čeká na potvrzení. Otevřete odkaz, který vám byl zaslán na adresu $a->preference_newemail.';
 $string['auth_emaildescription'] = 'Registrace na základě e-mailu je výchozí metoda ověřování. Při registraci si uživatel vybere vlastní uživatelské jméno a heslo. Poté je na jeho adresu odeslán e-mail obsahující zabezpečený odkaz na stránku, kde potvrdí zadané údaje. Při dalším přihlášení se již ověřuje pouze zadané uživatelské jméno a heslo proti údajům uloženým v databázi Moodlu.';
 $string['auth_emailnoemail'] = 'Nebylo možno Vám poslat email.';
 $string['auth_emailnoinsert'] = 'Nelze přidat Váš záznam do databáze!';
+$string['auth_emailnowexists'] = 'Nová emailová adresa, kterou jste zadali do vašeho profilu, je nyní používána jiným uživatelem. Vaše žádost o změnu emailové adresy byla z tohoto důvodu zrušena. Pokud na změně trváte, musíte opět požádat o změnu emailové adresy a uvést jinou novou adresu.';
 $string['auth_emailrecaptcha'] = 'Přidat ověřovací audiovizuální prvek na stránku pro registraci uživatelů, kteří se přihlašují emailem. Tímto ochráníte vaší stránku proti spammerů a pomůžete i dobré věci. Více podrobností najdete na <a href = \"http://recaptcha.net/learnmore.html\"> http://recaptcha.net/learnmore.html</a>';
 $string['auth_emailrecaptcha_key'] = 'Aktivovat reCAPTCHA';
 $string['auth_emailsettings'] = 'Nastavení';
 $string['auth_emailtitle'] = 'Registrace na základě e-mailu';
+$string['auth_emailupdate'] = 'Změna emailové adresy';
+$string['auth_emailupdatemessage'] = 'Zdravíčko, vy budete asi $a->fullname, že?
+
+Požádali jste o změnu emailové adresy vašeho účtu na stránkách $a->site. Prosíme, potvrďte tuto změnu na stránce uvedené níže:
+
+$a->url';
+$string['auth_emailupdatesuccess'] = 'Emailová adresa uživatele <em>$a->fullname</em> byla úspěšně změněna na <em>$a->email</em>.';
+$string['auth_emailupdatetitle'] = 'Potvrzení změny emailu na $a->site';
 $string['auth_fcchangepasswordurl'] = 'Heslo - změna URL';
 $string['auth_fcconnfail'] = 'Připojení se nezdařilo s Errno: $a[0] a Error String: $a[1]';
 $string['auth_fccreators'] = 'Seznam skupin, jejichž členové jsou oprávněni vytvářet nové kurzy. Skupiny oddělujte středníkem. Názvy musejí být zadány přesně jako na serveru FirstClass, rozlišují se malá/VELKÁ písmena.';
@@ -123,6 +135,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'Používat server IMAP';
 $string['auth_imaptype'] = 'Typ serveru IMAP. Servery IMAP mohou používat různé typy ověřování a komunikace (IMAP authentication and negotiation).';
 $string['auth_imaptype_key'] = 'Typ';
+$string['auth_invalidnewemailkey'] = 'Chyba! Pokud se pokoušíte potvrdit změnu vaší emailové adresy, pravděpodobně jste nezkopírovali celou adresu (URL) stránky pro potvrzení této změny. Prosíme, zkopírujte zaslanou URL adresu a pokuste se potvrdit změnu znovu.';
 $string['auth_ldap_ad_create_req'] = 'Nelze vytvořit nový účet ve službě Active Directory. Ujistěte se, že jsou splněny všechny požadavky (LDAPS spojení, bind user má dostatečná práva apod.)';
 $string['auth_ldap_attrcreators'] = 'Seznam skupin a kontextů, jejichž členové mají oprávnění vytvářet atributy. Více skupin oddělte \';\'. Obvykle něco jako \'cn=teachers,ou=staff,o=myorg\'.';
 $string['auth_ldap_attrcreators_key'] = 'Tvůrce atributů';
@@ -219,6 +232,7 @@ $string['auth_ntlmsso_enabled'] = 'Zda se má povolit SSO přihlašování pomoc
 $string['auth_ntlmsso_enabled_key'] = 'Povolit';
 $string['auth_ntlmsso_subnet'] = 'Je-li nastaveno, dojde k ověření pomocí NTLM SSO pouze u klientů v dané podsíti. Formát: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Podsíť';
+$string['auth_outofnewemailupdateattempts'] = 'Vyčerpali jste všechny možné pokusy o změnu vaší emailové adresy. Vaše žádost o změnu byla zrušena.';
 $string['auth_pamdescription'] = 'Tato metoda využívá pro přístup k nativním uživatelským jménům na tomto serveru modul PAM.  Chcete-li tuto metodu používat, musíte si nainstalovat <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a>.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'Vaše heslo vypršelo. Chcete si je teď změnit?';
@@ -255,6 +269,7 @@ $string['auth_shib_convert_data_description'] = 'Toto API (aplikační rozhraní
 $string['auth_shib_convert_data_warning'] = 'Soubor buď neexistuje, nebo k němu nemá proces webového serveru přístup ke čtení!';
 $string['auth_shib_instructions'] = 'Použijte <a href=\"$a\">přihlášení přes Shibboleth</a>, jestliže vaše instituce tento systém podporuje.<br />V opačném případě použijte normální formulář pro přihlášení.';
 $string['auth_shib_instructions_help'] = 'Zde můžete zadat vlastní pokyny uživatelům pro použití systému Shibboleth. Budou se zobrazovat na přihlašovací stránce. Vložené informace by měly obsahovat odkaz na zdroj chráněný systémem Shibboleth, který přesměruje uživatele na \'<b>$a</b>\', takže se uživatelé systému Shibboleth budou moci přihlásit do Moodlu. Necháte-li toto pole prázdné, budou se na přihlašovací stránce zobrazovat obecné pokyny.';
+$string['auth_shib_no_organizations_warning'] = 'Pokud si přejete používat integrovanou službu WAYF, uveďte čárkami oddělený seznam identifikátorů Identity Provider entityID, jejich názvů a případně iniciátora sezení (session initiator).';
 $string['auth_shib_only'] = 'Pouze Shibboleth';
 $string['auth_shib_only_description'] = 'Zaškrtněte tuto volbu, chcete-li si vynutit přihlášení pomocí systému Shibboleth';
 $string['auth_shib_username_description'] = 'Název proměnné prostředí Shibboleth, která má být použita jako moodlovské uživatelské jméno';

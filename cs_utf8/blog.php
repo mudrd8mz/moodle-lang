@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 Beta + (2007100902)
+      // blog.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['addnewentry'] = 'Vložit nový příspěvek';
-$string['addotags'] = 'Přidat oficiální nálepky';
-$string['addptags'] = 'Přidat uživatelské nálepky';
+$string['backupblogshelp'] = 'Zda zahrnout blogy v automatických zálohách STRÁNEK';
 $string['blockmenutitle'] = 'Nástroje blogu';
 $string['blocktagstitle'] = 'Nálepky blogu';
 $string['blocktitle'] = 'Nadpis pro blok s nálepkami blogovacího systému';
@@ -34,10 +33,9 @@ $string['norighttodeletetag'] = 'Nemáte oprávnění k odstranění nálepky $a
 $string['notallowedtoedit'] = 'Nemáte oprávnění upravovat tento příspěvek';
 $string['numberofentries'] = 'Příspěvky: $a';
 $string['numberoftags'] = 'Počet zobrazovaných nálepek';
-$string['otags'] = 'Oficiální nálepky';
 $string['pagesize'] = 'Počet příspěvků na stránku';
+$string['permalink'] = 'Trvalý odkaz';
 $string['personalblogs'] = 'Uživatelé smějí číst pouze svůj vlastní blog';
-$string['ptags'] = 'Uživatelské nálepky (oddělené čárkou)';
 $string['publishto'] = 'Zveřejnit';
 $string['publishtonoone'] = 'pouze vám (pracovní verze)';
 $string['publishtosite'] = 'všem uživatelům Moodlu';
@@ -56,6 +54,10 @@ $string['viewcourseentries'] = 'Číst blogy kurzu';
 $string['viewmyentries'] = 'Číst vlastní příspěvky';
 $string['viewsiteentries'] = 'Číst všechny blogy';
 $string['worldblogs'] = 'Návštěvníci stránek smějí číst záznamy zveřejněné \'komukoliv v Internetu\'';
+$string['addotags'] = 'Přidat oficiální nálepky'; // ORPHANED
+$string['addptags'] = 'Přidat uživatelské nálepky'; // ORPHANED
+$string['otags'] = 'Oficiální nálepky'; // ORPHANED
+$string['ptags'] = 'Uživatelské nálepky (oddělené čárkou)'; // ORPHANED
 $string['entrydeleted'] = 'Příspěvek blogu smazán'; // ORPHANED
 
 ?>

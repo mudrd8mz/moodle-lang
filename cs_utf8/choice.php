@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 Beta + (2007100902)
+      // choice.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['addmorechoices'] = 'Přidat další volby';
@@ -11,12 +11,14 @@ $string['choice:deleteresponses'] = 'Odstraňovat hlasy';
 $string['choice:downloadresponses'] = 'Stáhnout výsledky';
 $string['choice:readresponses'] = 'Číst výsledky';
 $string['choiceclose'] = 'Do';
+$string['choicefull'] = 'Tato volba je již zaplněna';
 $string['choicename'] = 'Název ankety';
 $string['choiceopen'] = 'Od';
 $string['choicetext'] = 'Text ankety';
 $string['displayhorizontal'] = 'Zobrazit horizontálně';
 $string['displaymode'] = 'Režim zobrazení';
 $string['displayvertical'] = 'Zobrazit vertikálně';
+$string['expired'] = 'Je nám líto, tato činnost byla uzavřena $a a není nadále dostupná';
 $string['fillinatleastoneoption'] = 'Musíte nadefinovat alespoň dvě možné odpovědi';
 $string['full'] = '(Obsazeno)';
 $string['havetologin'] = 'Před odesláním vaší odpovědi se musíte přihlásit';
@@ -38,6 +40,7 @@ $string['publishanonymous'] = 'Zveřejnit výsledky anonymně, nezobrazovat jmé
 $string['publishnames'] = 'Zveřejnit výsledky včetně jmen studentů a jejich volby';
 $string['publishnot'] = 'Nezobrazovat výsledky studentům';
 $string['removemychoice'] = 'Odstranit mou volbu';
+$string['removeresponses'] = 'Odstranit všechny odpovědi';
 $string['responses'] = 'Odpovědi';
 $string['responsesto'] = 'Odpovědi na $a';
 $string['savemychoice'] = 'Uložit mou volbu';

@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8 dev (2007010404)
+      // chat.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
+$string['autoscroll'] = 'Automaticky rolovat';
 $string['beep'] = 'prozvonit';
 $string['chat:chat'] = 'Přispívat do chatování';
 $string['chat:deletelog'] = 'Odstraňovat historii chatování';
@@ -37,6 +38,7 @@ $string['messagebeepsyou'] = '$a vás prozvání!';
 $string['messageenter'] = '$a právě vstoupil(a) do tohoto chatu';
 $string['messageexit'] = '$a opustil(a) tento chat';
 $string['messages'] = 'Zprávy';
+$string['method'] = 'Metoda chatování';
 $string['methoddaemon'] = 'Chatovací démon na serveru';
 $string['methodnormal'] = 'Normální metoda';
 $string['modulename'] = 'Chat';
@@ -48,15 +50,25 @@ $string['nomessages'] = 'Zatím žádné zprávy';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Streamování';
 $string['noscheduledsession'] = 'Není plánováno žádné chatování';
+$string['oldping'] = 'Časový limit spojení';
+$string['pastchats'] = 'Proběhnuté chatování';
+$string['refreshroom'] = 'Obnovit místnost';
+$string['refreshuserlist'] = 'Obnovit seznam uživatelů';
+$string['removemessages'] = 'Odstranit všechny zprávy';
 $string['repeatdaily'] = 'Ve stejný čas každý den';
 $string['repeatnone'] = 'Bez opakování - zveřejnit pouze určený čas';
 $string['repeattimes'] = 'Opakovat chatování';
 $string['repeatweekly'] = 'Ve stejný čas každý týden';
 $string['savemessages'] = 'Uložit proběhnuté chatování';
 $string['seesession'] = 'Ukázat toto chatování';
+$string['serverhost'] = 'Název serveru';
+$string['serverip'] = 'IP adresa serveru';
+$string['servermax'] = 'Maximum uživatelů';
+$string['serverport'] = 'Číslo portu';
 $string['sessions'] = 'Chatování';
 $string['strftimemessage'] = '%%H.%%M';
 $string['studentseereports'] = 'Kdokoliv může vidět proběhnuté chatování';
+$string['updatemethod'] = 'Aktualizovat metodu chatování';
 $string['viewreport'] = 'Ukázat proběhnuté chatování';
 
 ?>

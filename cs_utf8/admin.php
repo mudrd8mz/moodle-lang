@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.1+ (Build: 20080710) (2007101517)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -93,6 +93,7 @@ $string['configdefaultcourseroleid'] = 'Při zápisu do kurzu bude uživatelům 
 $string['configdefaultrequestcategory'] = 'Požadované kurzy budou automaticky umístěny v této kategorii.';
 $string['configdefaultrequestedcategory'] = 'Do jaké kategorie zařadit požadované kurzy, pokud jsou schváleny?';
 $string['configdefaultuserroleid'] = 'Přihlášení uživatelé získají na úrovni celého serveru všechna oprávnění vyplývající z uvedené role. Tato oprávnění budou PŘIDÁNA k ostatním oprávněním získaných z dalších rolí. Pomocí tohoto nastavení zajišťujete minimální oprávnění pro každého přihlášeného uživatele, aby mohl dělat něco smysluplného (např. číst veřejné diskuse, zobrazovat studijní materiály apod.). Výchozí nastavení je role Hosta.';
+$string['configdeleteincompleteusers'] = 'Po uplynutí této lhůty dojde k odstranění účtů, u nichž nebyla dokončena registrace.';
 $string['configdeleteunconfirmed'] = 'Jestliže používáte ověření na základě e-mailu, po uplynutí této doby jsou nepotvrzené účty automaticky odstraněny.';
 $string['configdenyemailaddresses'] = 'Chcete-li z některých domén e-mailové adresy zakázat, zadejte je stejným způsobem. Adresy ze všech ostatních domén budou povoleny. Příklad: <b>hotmail.com yahoo.co.uk</b>';
 $string['configdigestmailtime'] = 'Zadejte hodinu, kdy mají být odesílány denní e-mailové přehledy. (E-maily budou rozeslány při prvním spuštění cronu po nastavené hodině.)';
@@ -103,6 +104,7 @@ $string['configdocroot'] = 'Cesta k dokumentaci Moodlu. Upravte toto nastavení,
 $string['configdoctonewwindow'] = 'Otevírat stránky dokumentace v novém okně.';
 $string['configeditordictionary'] = 'Tato hodnota je použita, pokud nemá aspell k dispozici slovník pro jazyk uživatele.';
 $string['configeditorfontlist'] = 'Seznam fontů, které budou zobrazovány v nabídce HTML editoru.';
+$string['configemailchangeconfirmation'] = 'Znovu vyžadovat potvrzení nové emailové adresy, pokud si ji uživatelé změní ve svém profilu.';
 $string['configemoticons'] = 'Změňte znaky na levé straně reprezentující smajlík na pravé straně. Pro přidání nové emotikony přidejte její kód na levou stanu a jméno emotikony na pravou, pak nahrajte soubor nazvaný jmeno_emotikonu.gif do adresáře /pix/s.';
 $string['configenableajax'] = 'Tímto povolujete technologii AJAX na úrovni celého serveru. Jedná se o pokročilé rozhraní mezi prohlížečem a webovým serverem, které využívá Javascript. I když je zde AJAX povolen, uživatelé si jeho použití mohou vypnout ve svých profilech.';
 $string['configenablecourserequests'] = 'Povolit uživatelům žádat o založení kurzu?';
@@ -223,6 +225,7 @@ $string['configsmtphosts'] = 'Zadejte adresu jednoho nebo více serverů SMTP, k
 $string['configsmtpmaxbulk'] = 'Maximální počet e-mailů odeslaných během jedné relace se SMTP serverem. Seskupování e-mailů může odesílání zrychlit. Hodnoty nižší jak 2 vynutí vytvoření jedné relace pro každý odeslaný e-mail.';
 $string['configsmtpuser'] = 'Jestliže server SMTP vyžaduje ověření, zadejte uživatelské jméno a heslo.';
 $string['configstartwday'] = 'Začátek týdne';
+$string['configstatscatdepth'] = 'Kód pro zpracování statistik používá zjednodušenou logiku pro zjištění uživatelů zapsaných v kurzu. Lokální přenastavení rolí je zcela ignorováno a přidělení rolí se kontroluje pouze v jistém počtu nadřazených kategorií. Hodnota 0 zde znamená, že budou detekovány pouze role přidělené přímo na úrovni stránek (globální role) nebo kurzu. Hodnota 1 znamená, že budou detekovány i role přidělené na úrovni nadřazené kategorie. Hodnota 2 detekuje další nadřazenou kategorii atd. Čím je hodnota větší, tím více bude server zatížen v průběhu zpracování statistik.';
 $string['configstatsfirstrun'] = 'Jak daleko do minulosti se mají zpracovat statistiky <b>při prvním spuštění</b> této naplánované úlohy. Toto první zpracování může trvat dlouhou dobu a je docela náročné na systémové prostředky serveru. Jestliže je tedy na vašich stránkách velký provoz a navíc máte Moodle nainstalován na sdíleném hostingovém serveru, nedoporučujeme nastavovat příliš velkou hodnotu. Pro účely tohoto nastavení se jedním měsícem rozumí 28 dní. V generovaných grafech a statistikách odpovídá jeden měsíc jednomu kalendářnímu měsíci.';
 $string['configstatsmaxruntime'] = 'Zpracování statistik může poměrně náročné. Využijte proto tohoto a následujícího pole a nastavte, kdy bude tato úloha spuštěna a jak dlouho poběží.';
 $string['configstatsmaxruntime2'] = 'Zpracování může být poměrně náročné, proto určete maximální povolený čas na shromáždění statistik z jednoho dne. Maximální počet dní zpracovaný při jednom spuštění cronu je 3.';
@@ -259,6 +262,8 @@ $string['cronerrorpassword'] = 'Je mi líto. Pro přístup na tuto stránku mus�
 $string['cronremotepassword'] = 'Heslo pro spuštění cronu';
 $string['cronwarning'] = 'Skript <a href=\"cron.php\">cron.php</a>, který má na starosti běžnou údržbu serveru, nebyl během posledních 24 hodin spuštěn.';
 $string['csvdelimiter'] = 'CSV oddělovač';
+$string['ctyperecommended'] = 'Rozšíření PHP ctype je velmi doporučováno z důvodů výkonu vašich stránek, obzvláště když pracujete s jazyky, které nepoužívají latinku.';
+$string['ctyperequired'] = 'Rozšíření PHP ctype je Moodlem vyžadováno z důvodů výkonu a vícejazyčné podpory.';
 $string['curlrecommended'] = 'Pro běh síťových funkcionalit (\"Moodle Networking\") je potřeba nainstalovat volitelnou knihovnu Curl.';
 $string['customcheck'] = 'Další kontroly';
 $string['datarootsecuritywarning'] = 'Bezpečnostní varování - zkontrolujte si, že datový adresář ($a) není přímo dostupný přes webové rozhraní.';
@@ -287,6 +292,7 @@ $string['defaultsettinginfo'] = 'Výchozí: <b>$a</b>';
 $string['defaultuserroleid'] = 'Výchozí role pro všechny uživatele';
 $string['defaultvalues'] = 'Výchozí hodnoty';
 $string['deleteerrors'] = 'Odstranit chyby';
+$string['deleteincompleteusers'] = 'Odstranit účty bez dokončené registrace po';
 $string['deleteunconfirmed'] = 'Odstranit nepotvrzené účty po';
 $string['deleteuser'] = 'Odstranit uživatele';
 $string['density'] = 'Hustota';
@@ -294,6 +300,7 @@ $string['denyemailaddresses'] = 'Zakázané emailové domény';
 $string['digestmailtime'] = 'Hodina odesílání souhrnných emailů';
 $string['disablecourseajax'] = 'Zakázat AJAX při úpravě kurzů';
 $string['disableuserimages'] = 'Zakázat fotografie uživatelů';
+$string['displayerrorswarning'] = 'Povolené nastavení PHP <em>display_errors</em> není doporučováno v ostrém provozu, protože některá chybová hlášení mohou případným útočníkům prozradit citlivé informace o vaší instalaci.';
 $string['displayloginfailures'] = 'Komu zobrazovat neúspěšná přihlášení:';
 $string['docroot'] = 'Umístění dokumentace';
 $string['doctonewwindow'] = 'Otevírat v novém okně';
@@ -312,6 +319,7 @@ $string['editorkillword'] = 'Čištění formátu z MS Word';
 $string['editorspelling'] = 'Pravopis editoru';
 $string['editorspellinghelp'] = 'Povolit nebo zakázat kontrolu pravopisu. Pokud je povoleno, musí být na serveru nainstalován <strong>aspell</strong>.';
 $string['editstrings'] = 'Upravit textové řetězce';
+$string['emailchangeconfirmation'] = 'Potvrzovat změnu emailu';
 $string['emoticons'] = 'Emotikony';
 $string['emptysettingvalue'] = 'Prázdný';
 $string['enableajax'] = 'Povolit AJAX';
@@ -442,6 +450,7 @@ $string['longtimenosee'] = 'Vyškrtnout uživatele u kurzů po';
 $string['longtimewarning'] = '<b>Prosím pozor, tento proces může trvat dlouho.</b>';
 $string['mail'] = 'Email';
 $string['mailnewline'] = 'Formát nového řádku v emailech';
+$string['maintenancemode'] = 'V režimu údržby';
 $string['maintfileopenerror'] = 'Chyba při otevírání souborů údržby!';
 $string['maintinprogress'] = 'Probíhá údržba serveru...';
 $string['managelang'] = 'Správa';
@@ -540,6 +549,7 @@ $string['profilecreatefield'] = 'Vytvořit nové pole profilu:';
 $string['profilecreatenewcategory'] = 'Vytvářím novou kategorii';
 $string['profilecreatenewfield'] = 'Vytvářím nové pole \"$a\"';
 $string['profiledefaultcategory'] = 'Další pole';
+$string['profiledefaultchecked'] = 'Ve výchozím nastavení zaškrtnuto';
 $string['profiledefaultdata'] = 'Výchozí hodnota';
 $string['profiledeletecategory'] = 'Odstraňuji kategorii';
 $string['profiledeletefield'] = 'Odstraňuji pole';
@@ -553,6 +563,7 @@ $string['profilefieldmaxlength'] = 'Maximální délka';
 $string['profilefieldrows'] = 'Řádky';
 $string['profilefields'] = 'Uživatelská pole profilu';
 $string['profilefieldsize'] = 'Velikost zobrazení';
+$string['profilefieldtypecheckbox'] = 'Zaškrtávací pole';
 $string['profilefieldtypemenu'] = 'Nabídka možností';
 $string['profilefieldtypetext'] = 'Textové pole';
 $string['profilefieldtypetextarea'] = 'Textová oblast';
@@ -724,6 +735,9 @@ $string['uubulknew'] = 'Noví uživatelé';
 $string['uubulkupdated'] = 'Aktualizovaní uživatelé';
 $string['uucoursedefaultrole'] = 'Výchozí role v kruzu';
 $string['uucsvline'] = 'řádka z CSV';
+$string['uulegacy1role'] = '(původně Student) typeN=1';
+$string['uulegacy2role'] = '(původně Učitel) typeN=2';
+$string['uulegacy3role'] = '(původně Učitel bez práva úprav) typeN=3';
 $string['uunoemailduplicates'] = 'Zabránit nahrání dupicitních emailů';
 $string['uuoptype'] = 'Způsob nahrání uživatelů';
 $string['uuoptype_addinc'] = 'Přidat všechny a připojit číslo k uživatelským jménům, bude-li třeba';
