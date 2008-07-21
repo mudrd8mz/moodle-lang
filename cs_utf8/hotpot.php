@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 Beta (2007020400)
+      // hotpot.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['abandoned'] = 'nedokončeno';
@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = 'Zadejte prosím URL webové stránky';
 $string['error_nofilename'] = 'Zadejte prosím jméno souboru';
 $string['error_noquizzesfound'] = 'Nenalezen žádný test Hot Potatoes';
 $string['error_notfileorfolder'] = '\"$a\" není soubor ani adresář.';
+$string['excelencodings'] = 'Kódování Excelu';
 $string['feedbackformmail'] = 'Formulář';
 $string['feedbackmoodleforum'] = 'Fórum v Moodlu';
 $string['feedbackmoodlemessaging'] = 'Zpráva v Moodlu';
@@ -138,6 +139,7 @@ $string['resultssaved'] = 'Výsledky testu byly uloženy';
 $string['score'] = 'Skór';
 $string['showhtmlsource'] = 'Zobrazit HTML zdroj';
 $string['shownextquiz'] = 'Zobrazit další test';
+$string['showtimes'] = 'Zobrazovat dobu zpracování';
 $string['showxmlsource'] = 'Zobrazit XML zdroj';
 $string['showxmltree'] = 'Zobrazit XML strom';
 $string['specifictime'] = 'Zadat datum a čas';

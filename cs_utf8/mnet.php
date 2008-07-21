@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8 + (2007021502)
+      // mnet.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samopodepsané)';
@@ -27,12 +27,14 @@ $string['current_transport'] = 'Stávající transport';
 $string['currentkey'] = 'Stávající veřejný klíč';
 $string['databaseerror'] = 'Nelze zapsat detaily do databáze';
 $string['deleteaserver'] = 'Odstraňuji server';
+$string['deletehost'] = 'Odstranit hostitele';
 $string['deletekeycheck'] = 'Určitě chcete odstranit tento klíč?';
 $string['deleteoutoftime'] = '60ti vteřinové okno pro odstranění tohoto klíče vypršelo.';
 $string['deleteuserrecord'] = 'SSO ACL: odstranit záznam pro uživatele  \'$a[0]\' z $a[1].';
 $string['deletewrongkeyvalue'] = 'Vyskytla se chyba. Pokud jste se nesnažili smazat SSL klíč Vašeho serveru, stali jste se cílem zlomyslného útoku. Nic se nestalo';
 $string['deny'] = 'Zakázat';
 $string['description'] = 'Popis';
+$string['duplicate_usernames'] = 'Nepodařilo se vytvořit rejstřík nad sloupci \"mnethostid\" a \"username\" ve vaší tabulce uživatelů.<br />K tomu může dojít, obsahuje-li tabulka <a href=\"$a\" target=\"_blank\">duplicitní uživatelská jména</a>.<br />Upgrade by měl i přesto proběhnout v pořádku. Po kliknutí na odkaz uvedený výše se otevře nové okno s instrukcemi k odstranění tohoto problému. Můžete se mu věnovat po skončení této aktualizace.';
 $string['editenrolments'] = 'zapsat';
 $string['enabled_for_all'] = '(Tato služba byla povolena pro všechny hostitele).';
 $string['enrolcourseenrol_desc'] = 'Zapisovat a vyškrtávat uživatele z tohoto kurzu pomocí sítě Moodle. Všimněte si, že uživatelé mohou být do kurzu zapsáni pomocí jiné metody zápisu, pokud jim ji povolují vzdálení hostitelé. Takové zápisy jsou v seznamu jako  <em>Jinak zapsaní uživatelé</em>';
@@ -40,6 +42,12 @@ $string['enrolcourses_desc'] = 'Kurzy nabízené ke vzdálenému zapisování t�
 $string['enrollingincourse'] = 'zapisování do kurzu $a[0] na hostiteli $a[1]<br />';
 $string['enrolments'] = 'Zápisy';
 $string['enterausername'] = 'Prosím vložte jméno uživatele nebo seznam uživatelských jmen oddělených čárkami';
+$string['error7020'] = 'Tato chyba se typicky vyskytuje v případech, kdy byl na vzdáleném serveru vytvořen záznam pro vaše stránky, který ale chybně definuje parametr \"wwwroot\" - např. \"http://vaseskola.cz\" namísto \"http://www.vaseskola.cz\". Měli byste kontaktovat správce vzdáleného serveru a sdělit mu hodnotu parametru wwwroot, jak je uvedena ve vašem konfiguračním souboru config.php.';
+$string['error7022'] = 'Zpráva, kterou jste zaslali na vzdálený server, byla korektně zašifrována, ale nebyla podepsána. Toto je velmi neočekávané chování. Při výskytu byste měli nahlásit chybu a uvést maximum dostupných informací o použité verzi Moodlu apod.';
+$string['error7023'] = 'Vzdálený server se pokusil dešifrovat vaši zprávu pomocí všech dostupných klíčů, které si pro vaše stránky eviduje. Všechny tyto pokusy selhaly. Tento problém by měla vyřešit ručně opakovaná výměna klíčů. K této chybě by nemělo docházet; výjimku tvoří případy, kdy spolu oba servery nemohly po dobu několika měsíců komunikovat.';
+$string['error7024'] = 'Vzdálenému serveru zasíláte nešifrovanou zprávu, ale server nešifrovanou komunikaci s vaším serverem neakceptuje. Toto je velmi neočekávané chování. Při výskytu byste měli nahlásit chybu a uvést maximum dostupných informací o použité verzi Moodlu apod.';
+$string['error7026'] = 'Klíč, kterým byla podepsána vaše zpráva, se liší od klíče, který si eviduje vzdálený server. Vzdálený server se pokusil získat váš aktuální klíč, ale tento pokus selhal. Proveďte ručně výměnu klíčů a pokuste se odeslat zprávu znovu.';
+$string['error709'] = 'Vzdálenému serveru se nepodařilo získat váš SSL klíč.';
 $string['expired'] = 'Tento klíč vypršel dne';
 $string['expires'] = 'Platé do';
 $string['expireyourkey'] = 'Smazat tento klíč';
@@ -92,6 +100,7 @@ $string['mnetlog'] = 'Záznamy';
 $string['mnetpeers'] = 'Partneři';
 $string['mnetservices'] = 'Služby';
 $string['mnetsettings'] = 'Nastavení sítě Moodle';
+$string['mnetthemes'] = 'Motivy';
 $string['moodle_home_help'] = 'Cesta k domovské stránce Moodle na vzdáleném hostiteli, např. /moodle/.';
 $string['moodleloc'] = 'Umístění Moodle';
 $string['net'] = 'Síť';
@@ -160,6 +169,7 @@ $string['subscribe'] = 'Přihlásit';
 $string['system'] = 'Systém';
 $string['testtrustedhosts'] = 'Ověřit adresu';
 $string['testtrustedhostsexplain'] = 'Vložte IP adresu pro zjištění, zda je důvěryhodným hostitelem';
+$string['themesavederror'] = 'Vyskytla se chyba: nový motiv nebyl uložen';
 $string['transport_help'] = 'Tyto možnosti jsou reciproční, takže můžete poze donutit vzdáleného hostitele, aby používal podepsaný SSL certifikát, pokud i Vy jej používáte.';
 $string['trustedhosts'] = 'XML-RPC hostitelé';
 $string['trustedhostsexplain'] = '<p>Mechanismus důvěryhodných hostitelů umožňuje konkrétním strojům provádět volání kterékoli části Moodle API přes XML-RPC. To je dostupné přes skripty, řídící chování Moodle a může být velmi nebezpečné to povolit. Máte-li jakékoli pochybnosti, nechte vypnuté.</p><p>Toto <strong>není</strong> nezbytné pro síť  Moodle.</p><p>Povolíte vložením seznamu IP addres nebo sítí, jedna na každé řádce.
@@ -174,6 +184,7 @@ $string['verifysignature-invalid'] = 'Ověření podpisu selhalo. Zdá se, že t
 $string['version'] = 'verze';
 $string['warning'] = 'Výstraha';
 $string['wrong-ip'] = 'Vaše IP adresa se neshoduje se zaznamenanou.';
+$string['xmlrpc-missing'] = 'Ve vašem PHP musíte mít nainstalován XML-RPC, abyste mohli používat tuto funkci.';
 $string['yourhost'] = 'Váš hostitel';
 $string['yourpeers'] = 'Vaši partneři';
 

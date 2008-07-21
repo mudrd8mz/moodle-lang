@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.1+ (Build: 20080531) (2007101513)
+      // grades.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['activities'] = 'Činnosti';
@@ -504,6 +504,7 @@ $string['usergrade'] = 'Uživatel $a->fullname ($a->useridnumber), položka $a->
 $string['userkeyhelp'] = 'Vyberte některý z uložených klíčů, který dá uživatelům přístup k datům zveřejněným tímto modulem bez nutnosti se přihlásit do Moodlu. Pro vygenerování nového klíče zvolte při odesílání tohoto formuláře \"Nový přístupový klíč\".';
 $string['userpreferences'] = 'Uživatelské předvolby';
 $string['useweighted'] = 'Použij váhy';
+$string['verbosescales'] = 'Doslovné škály';
 $string['viewbygroup'] = 'Skupina';
 $string['viewgrades'] = 'Zobrazit známky';
 $string['weight'] = 'váha';

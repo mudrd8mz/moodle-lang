@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 Beta + (2007100902)
+      // form.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['addfields'] = 'Přidat $a polí do formuláře';
@@ -30,6 +30,7 @@ $string['othersettings'] = 'Další nastavení';
 $string['requiredelement'] = 'Povinné pole';
 $string['revealpassword'] = 'Prozradit';
 $string['security'] = 'Zabezpečení';
+$string['selectallornone'] = 'Vybrat vše/nic';
 $string['showadvanced'] = 'Zobrazit rozšiřující nastavení';
 $string['somefieldsrequired'] = 'Formulář obsahuje povinná pole';
 $string['timing'] = 'Načasování';

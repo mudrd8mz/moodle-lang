@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 + (2007021503)
+      // enrol_authorize.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['adminacceptccs'] = 'Typy přijímaných kreditních karet';
@@ -84,6 +84,7 @@ $string['choosemethod'] = 'Znáte-li klíč k zápisu do tohoto kurzu, zadejte j
 $string['chooseone'] = 'Vyplňte jedno nebo obě následující pole. Heslo se nezobrazuje.';
 $string['costdefaultdesc'] = 'Pro použití této výchozí ceny <strong>zadejte v nastavení kurzu v poli pro cenu hodnotu -1</strong>.';
 $string['cutofftime'] = 'Čas zpracování transakcí -- v tuto dobu systém Authorize.net hromadně převezme shromážděné transkace k vyřízení.';
+$string['dataentered'] = 'Data vložena';
 $string['delete'] = 'Zrušit';
 $string['description'] = 'Modul Authorize.net umožňuje nastavit placení za kurzy pomocí kreditní karty. Je-li cena některého z kurzů nastavena na nulu, nebudou uživatelé žádáni o platbu při zápisu do kurzu. Můžete nastavit výchozí cenu pro všechny kurzy na vašich stránkách -- tu lze potom upravit v nastavení jednotlivých kurzů. Cena uvedená v nastavení kurzu má přednost před cenou uvedenou v nastavení stránek.<br /><br /><b>Poznámka:</b> Zadáte-li v nastavení kurzu klíč k zápisu, budou mít studenti možnost zapsat se do kurzu také s použitím tohoto klíče. Tento kombinovaný způsob je výhodný zejména u kurzů, do nichž se zapisují platící a neplatící studenti.';
 $string['echeckabacode'] = 'Bankovní číslo ABA';

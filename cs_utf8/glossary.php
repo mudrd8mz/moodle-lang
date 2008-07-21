@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta + (2007100902)
+      // glossary.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['addcomment'] = 'Přidat komentář';
@@ -59,6 +59,7 @@ $string['defaultapproval'] = 'Automaticky schvalovat položky';
 $string['definition'] = 'Definice';
 $string['definitions'] = 'Definice';
 $string['deleteentry'] = 'Odstranit položku';
+$string['deletenotenrolled'] = 'Odstranit záznamy uživatelů, kteří zde nejsou zapsáni';
 $string['deletingcomment'] = 'Odstranění komentáře';
 $string['deletingnoneemptycategory'] = 'Odstraněním této kategorie neodstraníte položky, které obsahuje -- budou označeny jako nezařazené.';
 $string['descending'] = '(sestupně)';
@@ -162,6 +163,8 @@ $string['ratingsuse'] = 'Použít hodnocení';
 $string['ratingtime'] = 'Omezit hodnocení pouze na položky v tomto rozmezí:';
 $string['rejectedentries'] = 'Zamítnuté položky';
 $string['rejectionrpt'] = 'Zpráva o zamítnutí';
+$string['resetglossaries'] = 'Odstranit záznamy od';
+$string['resetglossariesall'] = 'Odstranit záznamy ze všech slovníků';
 $string['rsssubscriberss'] = 'Zobrazit RSS kanál pro pojmy slovníku \'$a\'';
 $string['searchindefinition'] = 'Vyhledat text';
 $string['secondaryglossary'] = 'Vedlejší slovník';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8 + (2007021503)
+      // install.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
 
 
 $string['admindirerror'] = 'Adresář pro správu (admin) není zadán správně.';
@@ -70,6 +70,12 @@ $string['databasesettingssub_mysql'] = '<b>Typ:</b> MySQL<br />
 <b>Uživatel (User):</b> uživatel oprávněný pro práci s databází<br />
 <b>Heslo (Password):</b> heslo pro uživatele<br />
 <b>Předpona (Tables Prefix):</b> jednotná předpona názvů všech tabulek, např. mdl_ (volitelné)';
+$string['databasesettingssub_mysqli'] = '<b>Typ:</b> vylepšené MySQL<br />
+<b>Hostitel:</b> např. localhost nebo db.naseskola.cz<br />
+<b>Název:</b> název databáze, např. moodle<br />
+<b>Uživatel:</b> uživatel dané databáze<br />
+<b>Heslo:</b> heslo uživatele k databázi<br />
+<b>Předpona:</b> jednotná předpona názvů všech tabulek (volitelné)';
 $string['databasesettingssub_oci8po'] = '<b>Typ:</b> Oracle<br />
 <b>Hostitel (Host):</b> nepoužito, musí být prázdné<br />
 <b>Název (Name):</b> daný název připojení tnsnames.ora<br />
@@ -88,6 +94,7 @@ $string['databasesettingssub_postgres7'] = '<b>Typ:</b> PostgreSQL<br />
 <b>Uživatel (User):</b> uživatel oprávněný pro práci s databází<br />
 <b>Heslo (Password):</b> heslo pro uživatele<br />
 <b>Předpona (Tables Prefix):</b> jednotná předpona názvů všech tabulek, např. mdl_ (povinné)';
+$string['databasesettingswillbecreated'] = '<b>Poznámka:</b> instalátor se pokusí vytvořit databázi automaticky, pokud ještě neexistuje';
 $string['dataroot'] = 'Datový adresář';
 $string['datarooterror'] = 'Zadaný datový adresář se nepodařilo nalézt nebo vytvořit. Buď opravte zadanou cestu, nebo vytvořte adresář ručně.';
 $string['dbconnectionerror'] = 'Nepodařilo se připojit k databázi, kterou jste zadali. Zkontrolujte prosím nastavení databáze.';
@@ -191,6 +198,8 @@ $string['mssql_n'] = 'SQL*Server s podporou UTF-8 (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP nebylo korektně nakonfigurováno pro komunikaci s SQL*Server přes rozšíření MSSQL. Zkontrolujte váš php.ini nebo překompilujte PHP.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP nebylo korektně nakonfigurováno pro komunikaci s MySQL. Zkontrolujte váš php.ini nebo překompilujte PHP.';
+$string['mysqli'] = 'Vylepšené MySQL (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP není korektně nakonfigurováno, aby mohlo s MySQL serverem komunikovat s podporou rozšíření MySQLi. Zkontrolujte nastavení v souboru php.ini nebo překompilujte PHP. Rozšíření MySQLi není k dispozici ve verzi PHP 4.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP nebylo korektně nakonfigurováno pro komunikaci s Oracle přes rozšíření OCI8. Zkontrolujte váš php.ini nebo překompilujte PHP.';
 $string['odbc_mssql'] = 'SQL*Server přes ODBC (odbc_mssql)';
