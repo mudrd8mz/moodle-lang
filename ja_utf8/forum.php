@@ -36,7 +36,7 @@ $string['cannotinsertrate'] = '新しい評価を追加できませんでした 
 $string['cannotremovesubscriber'] = 'このフォーラムから、ID $a のメール購読ユーザを削除できませんでした!';
 $string['cannotsubscribe'] = '申し訳ございません、あなたがメール購読するには、グループメンバーである必要があります。';
 $string['cannottrack'] = 'フォーラムの未読管理を停止できませんでした。';
-$string['cannotunsubscribe'] = 'あなたのフォーラムからメール購読解除できませんでした。';
+$string['cannotunsubscribe'] = 'あなたをフォーラムからメール購読解除できませんでした。';
 $string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。';
 $string['cannotviewpostyet'] = 'まだ投稿していないため、あなたは他の学生の質問を読むことはできません。';
 $string['cleanreadtime'] = '古い投稿を既読とする時刻';
