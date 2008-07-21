@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080626) (2008051203)
+      // error.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -11,6 +11,7 @@ $string['blockcannotinistantiate'] = 'ブロックオブジェクトのインス
 $string['blockcannotread'] = 'ブロックID= $a のデータを読み込めませんでした。';
 $string['blockdoesnotexist'] = 'このブロックはありません。';
 $string['blocknameconflict'] = 'ネーミングコンフリクト: ブロック $a[0] には、既存のブロック $a[1] と同じタイトルが設定されています!';
+$string['boundsyntaxnotsupport'] = 'Pg $1、$2 バウンドシンタックスは、まだサポートされていません :-(';
 $string['cannofindgradeitem'] = '評定項目が見つかりません。';
 $string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!';
 $string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。';
@@ -188,6 +189,7 @@ $string['ddlunknownerror'] = '不明なDDLライブラリエラーが発生し�
 $string['ddlxmlfileerror'] = 'XMLデータベースファイルにエラーが見つかりました。';
 $string['destinationcmnotexit'] = '目的のコースモジュールがありません。';
 $string['downloadedfilecheckfailed'] = 'ダウンロードファイルのチェックに失敗しました。';
+$string['duplicateparaminsql'] = 'エラー: クエリーのパラメータ名が重複しています。';
 $string['duplicaterolename'] = 'この名称のロールは、すでに登録されています!';
 $string['duplicateroleshortname'] = 'この省略名のロールは、すでに登録されています!';
 $string['duplicateusername'] = '重複ユーザ名 - レコードをスキップ';
@@ -256,11 +258,13 @@ $string['invalidmodule'] = '無効なモジュールです。';
 $string['invalidmoduleid'] = '無効なモジュールID ($a) です。';
 $string['invalidmodulename'] = '無効なモジュール名 ($a) です。';
 $string['invalidnum'] = '無効な数値です。';
+$string['invalidnumkey'] = '$conditions配列には、数字キーを含むことができません、コードを修正してください!';
 $string['invalidoutcome'] = '無効なアウトカムIDです。';
 $string['invalidpagesize'] = '無効なページサイズです。';
 $string['invalidpaymentmethod'] = '無効な支払方法: $a';
 $string['invalidrequest'] = '無効なリクエストです。';
 $string['invalidrole'] = '無効なロールです。';
+$string['invalidroleid'] = '無効なロールIDです。';
 $string['invalidscaleid'] = '無効なスケールIDです。';
 $string['invalidsection'] = 'コースモジュールのレコードに無効なセクションが含まれています。';
 $string['invalidseeky'] = '無効なsesskeyが送信されました。フォームの内容は受信されませんでした!';
@@ -288,11 +292,13 @@ $string['messagingdisable'] = 'このサイトでは、メッセージングが�
 $string['mimetexisnotexist'] = 'あなたのシステムは、mimeTeXを実行できるよう設定されていません。あなたのPHPおよびOSプラットフォームに適した実行ファイルを<a href=\"http://moodle.org/download/mimetex/\">http://moodle.org/download/mimetex/</a>からダウンロードするか、C言語のソースを<a href=\"http://www.forkosh.com/mimetex.zip\"> http://www.forkosh.com/mimetex.zip</a>からダウンロードしてください。ダウンロードしたファイルをコンパイルした後、 あなたの「moodle/filter/tex/」ディレクトリに入れてください。';
 $string['mimetexnotexecutable'] = 'カスタムmimetexを実行できません!';
 $string['missingfield'] = 'フィールド「 $a 」 に入力してください。';
+$string['missingkeyinsql'] = 'エラー: クエリーにパラメータ「 $a 」がありません。';
 $string['missingparam'] = '必須パラメータ ($a) がありません。';
 $string['missingparameter'] = 'パラメータがありません。';
 $string['missingrequiredfield'] = 'いくつかの必須入力フィールドが入力されていません。';
 $string['missinguseranditemid'] = 'ユーザIDおよび項目IDがありません。';
 $string['missingvarname'] = '必須の変数名がありません!';
+$string['mixedtypesqlparam'] = 'エラー: sqlのクエリーパラメータのタイプが混合しています!!';
 $string['mnetdisable'] = 'MNETが有効にされていません。';
 $string['mnetlocal'] = 'リモートMNETユーザは、ローカルにログインできません。';
 $string['moduledisable'] = 'このコースに対して、モジュール ($a) が無効にされました。';
@@ -315,6 +321,7 @@ $string['noguest'] = 'ゲストはいません!';
 $string['noinstances'] = 'このコースに $a のインスタンスがありません!';
 $string['nologinas'] = 'あなたは、そのユーザとしてのログインを許可されていません。';
 $string['nonmeaningfulcontent'] = '意味の無いコンテンツです。';
+$string['noparticipants'] = 'このコースには、参加者が登録されていません。';
 $string['noparticipatorycms'] = '申し訳ございません、レポートするための参加者がいるコースモジュールはありません。';
 $string['nopermissions'] = '申し訳ございません、あなたには現在「 $a 」のパーミッションがありません。';
 $string['nopermissiontocomment'] = 'あなたは、この用語集にコメントを追加できません!';
@@ -376,6 +383,7 @@ $string['tagdisabled'] = 'タグが無効にされています!';
 $string['tagnotfound'] = '指定されたタグは、データベースで見つかりませんでした。';
 $string['themenotinstall'] = 'このテーマは、インストールされていません。';
 $string['transactionvoid'] = 'すでに取り消されているため、トランザクションを取り消すことはできません。';
+$string['typenotimplement'] = 'TODO: タイプが実装されていません。';
 $string['unenrolerror'] = 'ユーザの登録抹消中にエラーが発生しました。';
 $string['unicodeupgradeerror'] = '申し訳ございません、あなたのデータベースはユニコードに対応していません。このバージョンのMoodleは、データベースをユニコードに移行できません。最初にMoodle 1.7.x にアップグレードして、管理画面でデータベースをユニコードへ移行してください。ユニコード移行後、Moodle $a へのアップグレードが可能となります。';
 $string['unknowaction'] = '不明な処理です!';

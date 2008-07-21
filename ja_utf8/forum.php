@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080707) (2008070701)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -30,9 +30,13 @@ $string['bynameondate'] = '$a->date - $a->name の投稿';
 $string['cannotadddiscussion'] = 'このフォーラムにディスカッションを追加するには、グループのメンバーである必要があります。';
 $string['cannotadddiscussionall'] = 'あなたには、すべての参加者に対する新しいディスカッショントピックを追加するパーミッションがありません。';
 $string['cannotaddsubscriber'] = 'このフォーラムに、ID $a のメール購読ユーザを追加できませんでした!';
+$string['cannotfindfirstpost'] = 'このフォーラムの最初の投稿が見つかりませんでした。';
 $string['cannotfindorcreateforum'] = 'サイトのメインニュースフォーラムが見つからないか、作成できません。';
 $string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。';
 $string['cannotremovesubscriber'] = 'このフォーラムから、ID $a のメール購読ユーザを削除できませんでした!';
+$string['cannotsubscribe'] = '申し訳ございません、あなたがメール購読するには、グループメンバーである必要があります。';
+$string['cannottrack'] = 'フォーラムの未読管理を停止できませんでした。';
+$string['cannotunsubscribe'] = 'あなたのフォーラムからメール購読解除できませんでした。';
 $string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。';
 $string['cannotviewpostyet'] = 'まだ投稿していないため、あなたは他の学生の質問を読むことはできません。';
 $string['cleanreadtime'] = '古い投稿を既読とする時刻';
@@ -129,6 +133,7 @@ $string['intronews'] = '一般ニュースとお知らせ';
 $string['introsocial'] = '投稿制限なしフォーラム';
 $string['introteacher'] = '教師専用フォーラム';
 $string['invalidaccess'] = 'このページは正しくアクセスされていません。';
+$string['invaliddiscussionid'] = 'ディスカッションIDが正しくありません。';
 $string['invalidforumid'] = 'フォーラムIDが正しくありません。';
 $string['invalidpostid'] = '投稿IDが正しくありません - $a';
 $string['lastpost'] = '最新の投稿';
