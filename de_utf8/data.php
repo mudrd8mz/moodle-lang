@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // data.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['action'] = 'Aktion';
@@ -126,6 +126,7 @@ $string['forcelinkname'] = 'Namenseintrag  für den Link erzwingen';
 $string['foundnorecords'] = 'Keine Einträge gefunden (<a href=\"$a->reseturl\">Filter zurücksetzen</a>)';
 $string['foundrecords'] = 'Einträge gefunden: $a->num/$a->max (<a href=\"$a->reseturl\">Filter zurücksetzen</a>)';
 $string['fromfile'] = 'aus der ZIP-Datei';
+$string['generateerror'] = 'Mehrere Dateien wurden nicht angelegt!';
 $string['guestrate'] = 'Gäste können Einträge nicht bewerten';
 $string['header'] = 'Kopfzeile';
 $string['headeraddtemplate'] = 'Definiert Formular zum Anlegen neuer Einträge';
@@ -139,11 +140,11 @@ $string['importsuccess'] = 'Die Vorlagensatz wurde erfolgreich übernommen.';
 $string['insufficiententries'] = 'Weitere Einträge sind erforderlich, um die Datenbank einzusehen.';
 $string['intro'] = 'Einführung';
 $string['invalidaccess'] = 'Seite wurde nicht richtig aufgerufen';
-$string['invaliddata'] = 'Falsche Daten';
 $string['invalidfieldid'] = 'Feld-ID ist falsch';
 $string['invalidfieldname'] = 'Wählen Sie bitte einen anderen Namen für dieses Feld.';
 $string['invalidfieldtype'] = 'Feldtyp ist falsch';
 $string['invalidid'] = 'Falsche Daten-ID';
+$string['invalidpreset'] = '$a ist keine Voreinstellung.';
 $string['invalidratedata'] = 'Bewertungseintrag falsch übermittelt';
 $string['invalidrecord'] = 'Falscher Eintrag';
 $string['invalidurl'] = 'Die eingegebene URL ist nicht gültig.';
@@ -162,6 +163,8 @@ $string['maxentries'] = 'Einträge (Höchstzahl)';
 $string['maxsize'] = 'Größe (max)';
 $string['menu'] = 'Menü';
 $string['menuchoose'] = 'Auswählen ...';
+$string['missingdata'] = 'Daten-ID bzw. Daten-Objekt müssen zur Feldklasse passen';
+$string['missingfield'] = 'Programmierfehler: Sie müssen Feld und Daten angeben, wenn Sie eine Feldklasse definieren.';
 $string['modulename'] = 'Datenbank';
 $string['modulenameplural'] = 'Datenbanken';
 $string['more'] = 'Einzelansicht';
@@ -261,7 +264,8 @@ $string['todatabase'] = 'in diese Datenbank';
 $string['type'] = 'Feld-Typ';
 $string['undefinedprocessactionmethod'] = 'In Data_Preset wurde keine Verarbeitungsmethode definiert für: \"$a$\".';
 $string['unsupportedexport'] = '($a->fieldtype) kann nicht exportiert werden';
-$string['updatefield'] = 'Ein bestehendes Feld aktualisieren';
+$string['updatefield'] = 'Bestehendes Feld aktualisieren';
+$string['updatingerror'] = 'Beim Aktualisieren der Datenbank ist ein Fehler aufgetreten';
 $string['uploadfile'] = 'Datei hochladen';
 $string['uploadrecords'] = 'Datensätze aus einer Datei hochladen';
 $string['url'] = 'URL';
@@ -269,6 +273,7 @@ $string['usestandard'] = 'Vorlagensatz benutzen';
 $string['viewfromdate'] = 'Sichtbar von';
 $string['viewtodate'] = 'Sichtbar bis';
 $string['wrongdataid'] = 'Falsche Daten-ID bereitgestellt';
+$string['invaliddata'] = 'Falsche Daten'; // ORPHANED
 $string['csvformat'] = 'CSV Format'; // ORPHANED
 $string['excelformat'] = 'Excel Format'; // ORPHANED
 $string['exportdatabase'] = 'Datenbankeinträge exportieren'; // ORPHANED

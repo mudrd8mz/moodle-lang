@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080715) (2008070701)
 
 
 $string['adminacceptccs'] = 'Welche Kreditkartentypen sollen akzeptiert werden?';
@@ -54,6 +54,7 @@ $string['authcode'] = 'Authorisierungscode';
 $string['authorize:managepayments'] = 'Zahlungsmethoden verwalten';
 $string['authorize:uploadcsv'] = 'CSV-Datei hochladen';
 $string['authorizedpendingcapture'] = 'Bestätigte / Offene Zahlungen';
+$string['authorizeerror'] = 'Fehler bei Authorize.net: $a';
 $string['avsa'] = 'Adresse (Straße) stimmt überein, PLZ nicht';
 $string['avsb'] = 'Adresse fehlt';
 $string['avse'] = 'Fehler bei der Adressprüfung';
@@ -86,6 +87,7 @@ $string['choosemethod'] = 'Wenn Sie den Zugangsschlüssel des Kurses kennen, tra
 $string['chooseone'] = 'Füllen Sie eines oder beide Felder aus. Das Kennwort wird nicht angezeigt.';
 $string['costdefaultdesc'] = 'Geben Sie bei den Kurseinstellungen den <strong>Wert -1 </strong> ein, um die Standardentgelt zu verwenden.';
 $string['cutofftime'] = 'Transaktionsende: Wann soll die letze Zahlung zur Abwicklung aufgenommen werden?';
+$string['dataentered'] = 'Daten eingegeben';
 $string['delete'] = 'Löschen';
 $string['description'] = 'Das Authorize.net-Anmeldeverfahren ermöglicht es Ihnen, entgeltpflichtige Kurse anzulegen und die Kursentgelte über Kreditkarten abzurechnen. Wenn die Kursentgelte eines Kurses auf \'0\' gesetzt werden, dann erhalten die Teilnehmer/innen keine Zahlungsaufforderung bei der Einschreibung in den Kurs.<br />Sie können eine Entgeltvoreinstellung vornehmen, die für alle Kurse als Standardentgelt übernommen wird. Dieses Standardentgelt kann in den Kurseinstellungen für jeden Kurs individuell überschrieben werden.';
 $string['echeckabacode'] = 'Bank ABA Nummer';

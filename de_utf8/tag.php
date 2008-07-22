@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // tag.php - created with Moodle 2.0 dev (Build: 20080715) (2008070701)
 
 
 $string['addedotag'] = '\"$a\" wurde als offizielles Schlagwort hinzugefügt.';
@@ -11,8 +11,12 @@ $string['changetype'] = 'Schlagworttyp ändern';
 $string['count'] = 'Zählen';
 $string['delete'] = 'Löschen';
 $string['deleted'] = 'Gelöscht';
+$string['deletedcoursetags'] = 'Gelöschte Schlagworte im Kurs';
 $string['description'] = 'Beschreibung';
 $string['edittag'] = 'Dieses Schlagwort bearbeiten';
+$string['errordeleting'] = 'Fehler beim Löschen des Schlagwortes mit der ID $a. Bitte teilen Sie dies Ihrem Systemadministrator mit.';
+$string['errortagfrontpage'] = 'Es ist nicht erlaubt, die Startseite der Website mit Schlagworten zu versehen.';
+$string['errorupdatingrecord'] = 'Fehler beim Aktualisieren des Schlagwort-Datensatzes';
 $string['flag'] = 'Markieren';
 $string['flagasinappropriate'] = 'Als unpassend markieren';
 $string['helprelatedtags'] = 'Kommagetrennte, zusammenpassende Schlagworte';
@@ -32,6 +36,8 @@ $string['removetagfrommyinterests'] = '\"$a\" von der Liste meiner Interessen en
 $string['reset'] = 'Rücksetzen';
 $string['resetflag'] = 'Rücksetzmarkierung';
 $string['responsiblewillbenotified'] = 'Die verantwortliche Person wird benachrichtigt';
+$string['rssdesc'] = 'Dieser RSS-Feed wurde automatisch von Moodle erzeugt und enthält nutzerspezifische Kurs-Schlagworte.';
+$string['rsstitle'] = 'RSS-Feed mit Kurs-Schlagworten für $a';
 $string['search'] = 'Suchen';
 $string['searchresultsfor'] = 'Ergebnisse für \"$a\" suchen';
 $string['searchtags'] = 'Schlagwort suchen';
@@ -39,12 +45,12 @@ $string['seeallblogs'] = 'Alle Blogs zu diesem Schlagwort anzeigen';
 $string['select'] = 'Auswählen';
 $string['tag'] = 'Schlagwort';
 $string['tagdescription'] = 'Beschreibung des Schlagworts';
+$string['tagindex_coursetitle'] = 'Kurse mit den Schlagworten \"$a\"';
 $string['tags'] = 'Schlagworte';
 $string['tagsaredisabled'] = 'Schlagworte sind nicht erlaubt';
 $string['tagtype'] = 'Schlagworttyp';
 $string['tagtype_default'] = 'Voreinstellung';
 $string['tagtype_official'] = 'Offiziell';
-$string['thingstaggedwith'] = '$a->count Dinge mit dem Schlagwort \"$a->name\"';
 $string['thistaghasnodesc'] = 'Dieses Schlagwort hat bisher keine Beschreibung.';
 $string['timemodified'] = 'Verändert';
 $string['typechanged'] = 'Schlagworttyp geändert';
@@ -52,5 +58,6 @@ $string['updated'] = 'Aktualisiert';
 $string['updatetag'] = 'Aktualisieren';
 $string['userstaggedwith'] = 'Nutzer/innen mit dem Schlagwort \"$a\"';
 $string['withselectedtags'] = 'Mit ausgewählten Schlagworten...';
+$string['thingstaggedwith'] = '$a->count Dinge mit dem Schlagwort \"$a->name\"'; // ORPHANED
 
 ?>

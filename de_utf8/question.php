@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
+      // question.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
@@ -63,6 +63,7 @@ $string['errorfilecannotbemoved'] = 'Fehler: Datei $a kann nicht verschoben werd
 $string['errorfileschanged'] = 'Die von einigen Fragen verlinkten Fehlerdateien wurden geändert, nachdem das Formular gezeigt wurde.';
 $string['errormanualgradeoutofrange'] = 'Die Bewertung $a->grade für die Frage $a->name liegt nicht zwischen \'0\' und $a->maxgrade. Punkte und Kommentare wurde nicht gespeichert.';
 $string['errormovingquestions'] = 'Fehler beim Verschieben von Fragen mit Ids $a.';
+$string['errorprocessingresponses'] = 'Während der Verarbeitung Ihrer Antworten ist ein Fehler aufgetreten.';
 $string['errorsavingcomment'] = 'Fehler beim Speichern des Kommentars für Frage $a->name.';
 $string['errorupdatingattempt'] = 'Fehler beim Speichern des Kommentars zu Frage $a->id in der Datenbank.';
 $string['exportcategory'] = 'Kategorie exportieren';
@@ -131,6 +132,7 @@ $string['unknownquestiontype'] = 'Unbekannter Fragentyp: $a';
 $string['unknowntolerance'] = 'Unbekannter Toleranztyp: $a';
 $string['unpublished'] = 'Nicht freigegeben';
 $string['wrongprefix'] = 'Falsch formatiertes Präfix-Wort';
+$string['yourfileshoulddownload'] = 'Der Download Ihrer Exportdatei sollte in Kürze beginnen. Falls nicht, dann klicken Sie  <a href=\"$a\">hier</a>.';
 $string['novirtualquestion'] = 'Für den Fragetyp $a wurde kein virtueller Fragetyp gefunden.'; // ORPHANED
 
 ?>

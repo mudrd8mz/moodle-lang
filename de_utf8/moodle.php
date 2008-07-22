@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -77,25 +77,25 @@ $string['adminhelpxmldbeditor'] = 'Interface zur Bearbeitung von XMLDB-Dateien. 
 $string['administration'] = 'Administration';
 $string['administrationsite'] = 'Website-Administration';
 $string['administrator'] = 'Administrator/in';
-$string['administratordescription'] = 'Administrator/innen haben normalerweise alle Rechte auf der Website und in allen Kursen.';
+$string['administratordescription'] = 'Administrator/innen haben normalerweise alle Rechte für die Website und in allen Kursen.';
 $string['administrators'] = 'Administrator/innen';
 $string['administratorsall'] = 'Alle Administrator/innen';
 $string['administratorsandteachers'] = 'Administrator/innen und Trainer/innen';
-$string['adminprimarynoedit'] = 'Sie können das Kennwort des Haupt-Admins nicht ändern.';
+$string['adminprimarynoedit'] = 'Sie dürfen das Kennwort des Haupt-Administrators nicht ändern';
 $string['advanced'] = 'Erweitert';
 $string['advancedfilter'] = 'Erweiterte Suche';
 $string['advancedsettings'] = 'Erweiterte Einstellungen';
 $string['again'] = 'noch einmal';
 $string['aimid'] = 'AIM';
 $string['ajaxno'] = 'Nein, nur Standardmöglichkeiten nutzen';
-$string['ajaxuse'] = 'JavaScript / AJAX';
+$string['ajaxuse'] = 'JavaScript / Ajax';
 $string['ajaxyes'] = 'Ja, die erweiterten Möglichkeiten nutzen';
 $string['all'] = 'Alle';
 $string['allactions'] = 'Alle Aktionen';
 $string['allactivities'] = 'Alle Aktivitäten';
 $string['allchanges'] = 'Alle Änderungen';
 $string['alldays'] = 'Alle Tage';
-$string['allfieldsrequired'] = 'Alle Felder sind zwingend erforderlich.';
+$string['allfieldsrequired'] = 'Alle Felder sind zwingend erforderlich';
 $string['allfiles'] = 'Alle Dateien';
 $string['allgroups'] = 'Alle Gruppen';
 $string['alllogs'] = 'Alle Logdaten';
@@ -129,7 +129,7 @@ $string['authenticateduser'] = 'Authentifizierte/r Nutzer/in';
 $string['authenticateduserdescription'] = 'Alle eingeloggten Nutzer/innen';
 $string['authentication'] = 'Authentifizierung';
 $string['authenticationplugins'] = 'Plugins zur Authentifizierung';
-$string['autosubscribe'] = 'Forenbeiträge  abonnieren';
+$string['autosubscribe'] = 'Forum abonnieren';
 $string['autosubscribeno'] = 'Nein, keine Foren automatisch abonnieren';
 $string['autosubscribeyes'] = 'Ja, das Forum abonnieren, in dem ich einen Beitrag schreibe';
 $string['availability'] = 'Verfügbarkeit';
@@ -650,7 +650,7 @@ $string['formatsocial'] = 'Soziales Format';
 $string['formattext'] = 'Moodle-Text-Format';
 $string['formattexttype'] = 'Formatierung';
 $string['formattopics'] = 'Themen-Format';
-$string['formattopicsajax'] = 'Themen-Format - AJAX';
+$string['formattopicsajax'] = 'Themen-Format - Ajax';
 $string['formattopicscss'] = 'Themenformat - CSS/ OhneTabellen';
 $string['formatweeks'] = 'Wochen-Format';
 $string['formatweekscss'] = 'Wochen-Format - CSS/Keine Tabellen';
@@ -1526,9 +1526,11 @@ $string['updatinga'] = 'Bearbeite $a';
 $string['updatingain'] = 'Bearbeite $a->what in $a->in';
 $string['upload'] = 'Hochladen';
 $string['uploadafile'] = 'Eine Datei hochladen';
+$string['uploadcantwrite'] = 'Das Schreiben der Datei ist fehlgeschlagen';
 $string['uploadedfile'] = 'Die Datei wurde erfolgreich hochgeladen';
 $string['uploadedfileto'] = '$a->file hochgeladen in $a->directory';
 $string['uploadedfiletoobig'] = 'Entschuldigung, die Datei ist zu groß (maximal $a Bytes)';
+$string['uploadextension'] = 'Datei-Upload wurde wegen der Dateiendung angehalten';
 $string['uploadfailednotrecovering'] = 'Beim Hochladen ist ein Problem mit einer der Dateien $a->name aufgetreten.<br />Folgende Fehlermeldung ist aufgetreten:<br />$a->problem<br/>
 Das Hochladen wurde erfolglos abgebrochen.';
 $string['uploadfilelog'] = 'Upload-Log für Datei $a';
@@ -1536,6 +1538,7 @@ $string['uploadformlimit'] = 'Die hochzuladene Datei ist größer als zulässig'
 $string['uploadlabel'] = 'Titel:';
 $string['uploadnofilefound'] = 'Es wurde keine Datei gefunden. Sind Sie sicher, dass Sie eine Datei zum Hochladen ausgewählt haben?';
 $string['uploadnotallowed'] = 'Das Hochladen von Dateien ist nicht erlaubt';
+$string['uploadnotempdir'] = 'Temporäres Dateiverzeichnis fehlt';
 $string['uploadoldfilesdeleted'] = 'Die alte(n) Datei(en) in Ihrem Upload-Bereich wurden gelöscht';
 $string['uploadpartialfile'] = 'Die Datei wurde unvollständig hochgeladen';
 $string['uploadproblem'] = 'Ein unbekanntes Problem ist beim Hochladen der Datei \'$a\' aufgetreten (war sie vielleicht zu groß?)';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9 dev (2007050901)
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['addmoreanswerblanks'] = 'Weiteres Antwortfeld hinzufügen';
@@ -23,6 +23,8 @@ $string['nodataset'] = 'Nichts - das ist kein Jokerzeichen';
 $string['nosharedwildcard'] = 'Kein gemeinsames Jokerzeichen in dieser Kategorie';
 $string['possiblehdr'] = 'Mögliche Jokerzeichen nur im Fragetext vorhanden';
 $string['tolerance'] = 'Toleranz ±';
+$string['trueanswerinsidelimits'] = 'Richtige Antwort: $a->correct liegt innerhalb der Grenzen des wahren Wertes $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">Fehler in der richtigen Antwort: $a->correct  liegt außerhalb der Grenzen des wahren Wertes $a->true</span>';
 $string['updatecategory'] = 'Kategorie aktualisieren';
 $string['usedinquestion'] = 'In Fragen verwendet';
 $string['youmustenteramultiplierhere'] = 'Sie müssen hier einen Multiplikationsfaktor eingeben.';

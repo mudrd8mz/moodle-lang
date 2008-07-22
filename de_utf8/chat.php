@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
+$string['ajax'] = 'Version benutzt Ajax';
+$string['autoscroll'] = 'Automatisches Scrollen';
 $string['beep'] = 'Signal';
 $string['cantinsert'] = 'Die Chat-Nachricht konnte nicht eingefügt werden!';
 $string['cantlogin'] = 'DIe Chat-Anmeldung ist fehlgeschlagen!!';
@@ -13,7 +15,7 @@ $string['chatname'] = 'Name dieses Chat-Raums';
 $string['chatreport'] = 'Chat-Protokolle';
 $string['chattime'] = 'Nächste Chat-Sitzung';
 $string['configmethod'] = 'In der Standardeinstellung fragen die Clients auf dem Server nach Aktualisierungen nach. Dazu ist keine Konfiguration erforderlich. Das Verfahren funktioniert immer. Es führt jedoch zu einer hohen Belastung des Servers durch dauernde Anfragen. Die Verwendung des Server Daemon erfordert einen Shell-Zugang zu Unix, es führt jedoch zu einem schnelleren Chatablauf.';
-$string['confignormalupdatemode'] = 'Chatroom-Aktualisierungen arbeiten in der Regel im <em>Keep-Alive-Modus</em> von HTTP 1.1 zuverlässig. Dies beansprucht den Server jedoch stark. Eine weiterentwickelte Möglichkeit nutzt die <em>Stream-Strategie</em> zur Aktualisierung der Anzeige bei den Nutzer/innen. Die <em>Stream-Einstellung</em> nutzt die Möglichkeiten des Servers (ähnlich wie chatd) besser. Es kann jedoch sein, dass Ihr Server dies nicht unterstützt.';
+$string['confignormalupdatemode'] = 'Chatroom-Aktualisierungen arbeiten normalerweise im <em>Keep-Alive-Modus</em> von HTTP 1.1, was den Server jedoch stark beansprucht. Eine verbesserte Möglichkeit nutzt die <em>Stream-Strategie</em> zur Aktualisierung der Anzeige bei den Nutzer/innen. Die <em>Stream-Einstellung</em> arbeitet wesentlich besser (ähnlich wie chatd), eventuell unterstützt Ihr Server dies aber nicht.';
 $string['configoldping'] = 'Bei inaktiven Teilnehmer/innen wird davon ausgegangen, dass sie den Chat verlassen haben. Nach welcher Zeitdauer (in Sekunden) soll dies angenommen werden? Zu kleine Werte führen zu höherer  Belastung des Webservers. Wenn Sie die \"Standardeinstellung\" benutzen, setzen Sie den Wert niemals kleiner als 2 * chat_refresh_room!!';
 $string['configrefreshroom'] = 'Wie oft (in Sekunden) soll der Chat-Raum aktualisiert werden? Ein niedriger Wert lässt den Chat-Raum schneller erscheinen, führt aber zu höherer Belastung des Webservers, wenn viele Leute chatten. Falls Sie <em>Stream</em>-Updates benutzen, können Sie höhere Aktualisierungsraten auswählen - versuchen Sie es mit 2.';
 $string['configrefreshuserlist'] = 'Wie häufig soll die Teilnehmerliste aktualisiert werden? (Zeit in Sekunden)';
@@ -65,6 +67,8 @@ $string['repeattimes'] = 'Sitzungen wiederholen';
 $string['repeatweekly'] = 'Jede Woche zur gleichen Zeit';
 $string['savemessages'] = 'Speicherung der Chat-Protokolle (Dauer)';
 $string['seesession'] = 'Die Sitzung einsehen';
+$string['send'] = 'Senden';
+$string['sending'] = 'wird gesendet';
 $string['serverhost'] = 'Servername';
 $string['serverip'] = 'Server IP';
 $string['servermax'] = 'Maximale Nutzerzahl';
@@ -72,7 +76,8 @@ $string['serverport'] = 'Server-Port';
 $string['sessions'] = 'Chat-Sitzungen';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Teilnehmer/innen können Chat-Protokolle sehen';
-$string['updatemethod'] = 'Update-Methode';
+$string['updatemethod'] = 'Aktualisierungsmethode';
+$string['updaterate'] = 'Aktualisierungsrate:';
 $string['viewreport'] = 'Vorherige Chat-Protokolle einsehen';
 
 ?>

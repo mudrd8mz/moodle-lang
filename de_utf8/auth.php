@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -43,6 +43,7 @@ $string['auth_changepasswordhelp'] = 'Hilfe für Passwortänderung';
 $string['auth_changepasswordhelp_expl'] = 'Nutzerhilfe für vergessene $a Passwörter anzeigen. Diese Hilfe wird neben oder statt der <strong>URL zur Passwortänderung</strong> oder der Moodle internen Passwortänderung angezeigt.';
 $string['auth_changepasswordurl'] = 'URL zur Passwortänderung';
 $string['auth_changepasswordurl_expl'] = 'Tragen Sie hier eine URL ein, unter der die Nutzer/innen ein neues Passwort anfordern können. Wenn Sie diese Option nutzen, sollten Sie die Standardeinstellung zur Passwortänderung auf \"Nein\" setzen.';
+$string['auth_changingemailaddress'] = 'Sie haben eine Änderung der E-Mail-Adresse von $a->oldemail nach $a->newemail beantragt. Aus Sicherheitsgründen senden wir Ihnen eine Nachricht an Ihre neue E-Mail-Adresse. Sobald Sie zur Bestätigung die in der Nachricht enthaltene URL öffnen, wird Ihre E-Mail-Adresse aktualisiert.';
 $string['auth_common_settings'] = 'Gemeinsame Einstellungen';
 $string['auth_data_mapping'] = 'Data mapping';
 $string['auth_dbcantconnect'] = 'Es konnte keine Verbindung zur angegebenen Authentifizierungsdatenbank hergestellt werden.';
@@ -89,13 +90,24 @@ $string['auth_dbuser_key'] = 'Datenbanknutzer';
 $string['auth_dbusernotexist'] = 'Nicht existierender Nutzer $a kann nicht aktualisiert werden';
 $string['auth_dbuserstoadd'] = 'Nutzereinträge zum Hinzufügen: $a';
 $string['auth_dbuserstoremove'] = 'Nutzereinträge zum Entfernen: $a';
+$string['auth_emailchangecancel'] = 'E-Mail-Änderung abbrechen';
+$string['auth_emailchangepending'] = 'Die Änderung ist noch nicht abgeschlossen. Öffnen Sie den zugesandten Link in $a->preference_newemail';
 $string['auth_emaildescription'] = 'E-Mail-Bestätigung ist die Standard-Authentifizierungsmethode. Wenn sich Nutzer/innen neu anmelden, ihren eigenen Anmeldenamen und ihr Passwort auswählen, dann wird zur Bestätigung eine E-Mail an die angegebene E-Mail-Adresse gesendet. Diese E-Mail enthält einen sicheren Verweis auf eine Seite, wo die Nutzer/innen ihren Zugang bestätigen müssen. Spätere Anmeldungen prüfen nur  Anmeldenamen und Kennwort anhand der in der Moodle-Datenbank gespeicherten Daten.';
 $string['auth_emailnoemail'] = 'Der Versuch Ihnen eine E-Mail zu senden ist gescheitert!';
 $string['auth_emailnoinsert'] = 'Der Datensatz konnte nicht zur Datenbank hinzugefügt werden!';
-$string['auth_emailrecaptcha'] = 'Diese Einstellung fügt dem Anmeldeformular für die E-Mail-Selbstregistierung ein Kontrollelement hinzu. Dabei handelt es sich um ein Bild- oder Audio-Element, um Sie wirksam gegen Spammer zu schützen. Weitere Informationen finden Sie unter http://recaptcha.net/learnmore.html';
+$string['auth_emailnowexists'] = 'Die E-Mail-Adresse, die Sie in Ihrem Nutzerprofil zuweisen wollten, wird bereits von jemand anders verwendet. Der Änderungsvorgang wird hiermit abgebrochen, wobei Sie aber nochmals versuchen können, eine andere Adresse einzugeben.';
+$string['auth_emailrecaptcha'] = 'Die E-Mail-Adresse, die Sie in Ihrem Nutzerprofil zuweisen wollten, wird bereits von jemand anders verwendet. Diese Einstellung fügt dem Anmeldeformular für die E-Mail-Selbstregistierung ein Kontrollelement hinzu. Dabei handelt es sich um ein Bild- oder Audio-Element, um Sie wirksam gegen Spammer zu schützen. Weitere Informationen finden Sie unter http://recaptcha.net/learnmore.html';
 $string['auth_emailrecaptcha_key'] = 'ReCaptcha einschalten';
 $string['auth_emailsettings'] = 'Einstellungen';
 $string['auth_emailtitle'] = 'E-Mail basiert';
+$string['auth_emailupdate'] = 'Aktualisierung der E-Mail-Adresse';
+$string['auth_emailupdatemessage'] = 'Lieber $a->fullname,
+
+Sie haben eine Änderung der E-Mail-Adresse für Ihr Nutzerkonto bei $a->site angefragt. Bitte öffnen Sie die folgende URL in Ihrem Browser, um die Änderung zu bestätigen.
+
+$a->url';
+$string['auth_emailupdatesuccess'] = 'Die E-Mail-Adresse von <em>$a->fullname</em> wurde erfolgreich aktualisiert: <em>$a->email</em>.';
+$string['auth_emailupdatetitle'] = 'Bestätigung der E-Mail-Änderung bei $a->site';
 $string['auth_fcchangepasswordurl'] = 'URL zur Kennwortänderung';
 $string['auth_fcconnfail'] = 'Verbindung fehlgeschlagen mit Errno: $a[0] und Error String: $a[1]';
 $string['auth_fccreators'] = 'Eine Liste von Gruppen, denen es erlaubt ist, Kurse zu verwalten und neu anzulegen (Liste der Kursverwalter/innen). Trennen Sie verschiedene Gruppen durch \';\'. Namen müssen genau so geschrieben werden, wie auf dem Referenz-Server. Achten Sie auch auf die korrekte Groß-/ Kleinschreibung.';
@@ -124,6 +136,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'IMAP-Server';
 $string['auth_imaptype'] = 'Der IMAP Servertyp. IMAP Server können verschiedene Arten der Authentifizierung und Überprüfung haben.';
 $string['auth_imaptype_key'] = 'Typ';
+$string['auth_invalidnewemailkey'] = 'Fehler: Falls Sie versuchen, die Änderung Ihrer E-Mail-Adresse zu bestätigen, dann haben Sie einen Fehler beim Kopieren der Ihnen zugesandten URL gemacht. Bitte kopieren Sie die URL noch einmal und versuchen es erneut.';
 $string['auth_ldap_ad_create_req'] = 'Im Active Directory konnte kein neuer Account angelegt werden. Prüfen Sie, ob alle Voraussetzungen hierfür getroffen wurden (LDAPS Verbindung, bind user mit angemessenen Rechten etc.)';
 $string['auth_ldap_attrcreators'] = 'Liste von Gruppen oder Kontexten, deren Mitglieder berechtigt sind Attribute zu erstellen. Mehrere Gruppen werden durch ein \';\' (Semikolon) getrennt. Der Eintrag lautet üblicherweise ähnlich wie: cn=teacher,ou=staff,o=myorg.';
 $string['auth_ldap_attrcreators_key'] = 'Ersteller von Attributen';
@@ -221,6 +234,7 @@ $string['auth_ntlmsso_enabled'] = 'Aktivieren Sie diese Einstellung, um die einm
 $string['auth_ntlmsso_enabled_key'] = 'Aktivieren';
 $string['auth_ntlmsso_subnet'] = 'Wenn das Feld nicht leer ist, dann ist SSO nur mit Adressen aus dem Subnet möglich. Format: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Subnet';
+$string['auth_outofnewemailupdateattempts'] = 'Sie haben die zulässige Zahl der Versuche zur Aktualisierung Ihrer E-Mail-Adresse überschritten. Der Änderungsvorgang wurde abgebrochen.';
 $string['auth_pamdescription'] = 'Diese Methode verwendet PAM (Pluggable Authentication Modules), um auf die richtigen Nutzernamen auf dem Server zuzugreifen. Sie müssen hierzu <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> installieren, um das Modul nutzen zu können.';
 $string['auth_pamtitle'] = 'PAM Authentifizierung';
 $string['auth_passwordisexpired'] = 'Ihr Passwort ist abgelaufen. Wollen Sie Ihr Passwort jetzt aktualisieren?';

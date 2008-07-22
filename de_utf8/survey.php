@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // survey.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['actual'] = 'Tatsächlich';
@@ -56,6 +56,10 @@ $string['attlsm2'] = 'Gebundenes Lernen';
 $string['attlsm3'] = 'Abgelöstes Lernen';
 $string['attlsmintro'] = 'In einer Diskussion verhalte ich mich so:';
 $string['attlsname'] = 'ATTLS (20 Punkte Version)';
+$string['cannotfindanswer'] = 'Bisher gibt es keine Antworten für diese Umfrage.';
+$string['cannotfindquestion'] = 'Frage existiert nicht';
+$string['cannotfindsurveytmpt'] = 'Keine Umfragemaske gefunden!';
+$string['cannotinsertanswer'] = 'Entschuldigung! Beim Speichern Ihrer Ergebnisse ist ein Problem aufgetreten.';
 $string['ciq1'] = 'Wann haben Sie sich in diesem Kurs als Lernende/r am meisten engagiert?';
 $string['ciq1short'] = 'Stark beteiligt';
 $string['ciq2'] = 'Wann hatten Sie als Lernende/r zu diesem Kurs die meiste Distanz?';
@@ -159,6 +163,8 @@ $string['howlong'] = 'Wie lange haben Sie für das Ausfüllen dieser Umfrage geb
 $string['howlongoptions'] = 'unter 1 Min, 1-2 Min, 2-3 Min, 3-4 Min, 4-5 Min, 5-10 Min, mehr als 10 Min';
 $string['ifoundthat'] = 'Dies findet statt:';
 $string['introtext'] = 'Einführungstext';
+$string['invalidsurveyid'] = 'Falsche Umfrage-ID';
+$string['invalidtmptid'] = 'Ungültige Masken-ID';
 $string['ipreferthat'] = 'Ich bevorzuge es so:';
 $string['modulename'] = 'Umfrage';
 $string['modulenameplural'] = 'Umfragen';

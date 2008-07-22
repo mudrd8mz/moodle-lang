@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['activities'] = 'Aktivitäten';
@@ -502,6 +502,7 @@ $string['usergrade'] = 'Nutzer/in $a->fullname ($a->useridnumber) mit Wert $a->g
 $string['userkeyhelp'] = 'Wählen Sie einen gespeicherten Schlüssel aus, der die Nutzer/innen auf die von diesem Export-Plugin veröffentlichten Daten zugreifen lässt, ohne sich in Moodle einzuloggen. Wählen Sie \"Neuen Nutzerschlüssel anlegen\", um einen neuen Schlüssel bei der Übertragung dieses Formulars zu erzeugen.';
 $string['userpreferences'] = 'Nutzereinstellungen';
 $string['useweighted'] = 'Gewichtung verwenden';
+$string['verbosescales'] = 'Wortreiche Skalen';
 $string['viewbygroup'] = 'Gruppe';
 $string['viewgrades'] = 'Bewertungen anzeigen';
 $string['weight'] = 'Gewichtung';

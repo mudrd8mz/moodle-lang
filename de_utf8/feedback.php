@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['add_item'] = 'Element hinzufügen';
@@ -67,6 +67,7 @@ $string['feedback:edititems'] = 'Fragen bearbeiten';
 $string['feedback:mapcourse'] = 'Kurse globalen Feedbacks zuordnen';
 $string['feedback:receivemail'] = 'E-Mailbenachrichtigung empfangen';
 $string['feedback:view'] = 'Ein Feedback anzeigen';
+$string['feedback:viewanalysepage'] = 'Analyseseite nach der Übertragung anzeigen';
 $string['feedback:viewreports'] = 'Auswertungen anzeigen';
 $string['feedback_is_not_open'] = 'Ein Feedback ist zu diesem Zeitpunkt nicht möglich';
 $string['feedback_options'] = 'Feedback-Einstellungen';
@@ -137,7 +138,6 @@ $string['position'] = 'Position';
 $string['preview'] = 'Vorschau';
 $string['previous_page'] = 'Vorherige Seite';
 $string['public'] = 'öffentlich';
-$string['publish_stats_on_students'] = 'Auswertung für Teilnehmer/innen veröffentlichen';
 $string['question'] = 'Frage';
 $string['questions'] = 'Fragen';
 $string['radio'] = 'Single Choice - Radiobutton';
@@ -163,6 +163,7 @@ $string['selected_dump'] = 'Dump der ausgewählten Indexe der $SESSION variable:
 $string['separator_decimal'] = ',';
 $string['separator_thousand'] = '.';
 $string['show_all'] = 'alle anzeigen';
+$string['show_analysepage_after_submit'] = 'Analyseseite nach der Übertragung anzeigen';
 $string['show_entries'] = 'Einträge anzeigen';
 $string['show_entry'] = 'Eintrag anzeigen';
 $string['site_after_submit'] = 'Seite nach Eingabe';
@@ -187,6 +188,7 @@ $string['use_one_line_for_each_value'] = '<br />Benutzen Sie für jeden Wert ein
 $string['use_this_template'] = 'Diese Vorlage verwenden';
 $string['using_templates'] = 'Vorlagen verwenden';
 $string['vertical'] = 'untereinander';
+$string['publish_stats_on_students'] = 'Auswertung für Teilnehmer/innen veröffentlichen'; // ORPHANED
 $string['all_old_values_will_be_deleted'] = 'Alle vorherigen Daten werden gelöscht!'; // ORPHANED
 $string['all_old_values_will_be_preserved'] = 'Alle vorherigen Daten bleiben erhalten.'; // ORPHANED
 $string['all_related_values_will_be_deleted'] = 'Alle damit verbundenen Daten werden gelöscht!'; // ORPHANED

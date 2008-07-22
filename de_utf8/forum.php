@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -291,6 +291,10 @@ $string['unreadposts'] = 'Ungelesen';
 $string['unreadpostsnumber'] = '$a ungelesene Nachrichten';
 $string['unreadpostsone'] = '1 ungelesene Nachricht';
 $string['unsubscribe'] = 'Ich möchte das Forum abbestellen';
+$string['unsubscribeall'] = 'Ich möchte alle Foren abbestellen';
+$string['unsubscribeallconfirm'] = 'Zahl der aktuell abonnierten Foren: $a. Möchten Sie wirklich alle Foren abbestellen und die automatische Anmeldung ausschalten?';
+$string['unsubscribealldone'] = 'Alle Ihre Foren-Abonnements wurden gelöscht. Sie werden trotzdem weitere Nachrichten aus Foren erhalten, in die Nutzer/innen zwingend eingetragen sind. Falls Sie überhaupt keine E-Mails von diesem Moodle-Server erhalten möchten, dann öffnen Sie Ihr Nutzerprofil und deaktivieren Sie Ihre E-Mail-Adresse.';
+$string['unsubscribeallempty'] = 'Entschuldigung, Sie haben kein Forum abonniert. Falls Sie überhaupt keine E-Mails von diesem Moodle-Server erhalten möchten, dann öffnen Sie Ihr Nutzerprofil und deaktivieren Sie Ihre E-Mail-Adresse.';
 $string['unsubscribed'] = 'Abgemeldet';
 $string['unsubscribeshort'] = 'Abmelden';
 $string['usermarksread'] = 'Manuelle Markierung der Beiträge als gelesen';

@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // qtype_truefalse.php - created with Moodle 1.9 Beta + (2007081600)
+      // qtype_truefalse.php - created with Moodle 2.0 dev (Build: 20080628) (2008051203)
 
 
 $string['addingtruefalse'] = 'Wahr/Falsch-Frage hinzufügen';
-$string['correctanswer'] = 'Richtige Antwort';
+$string['correctanswer'] = 'Positive Bewertung für die Antwort';
 $string['editingtruefalse'] = 'Eine Wahr/Falsch-Frage bearbeiten';
 $string['false'] = 'Falsch';
 $string['feedbackfalse'] = 'Feedback (Falsch)';

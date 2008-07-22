@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
 
 
 $string['abandoned'] = 'Abgebrochen';
@@ -12,11 +12,16 @@ $string['attemptsbest'] = 'Bester Versuch';
 $string['attemptsfirst'] = 'Erster Versuch';
 $string['attemptslast'] = 'Letzter Versuch';
 $string['average'] = 'Durchschnitt';
+$string['cannotaddquestionrecord'] = 'Die Frage konnte nicht hinzugefügt werden';
+$string['cannotaddresprecord'] = 'Die Antwort konnte nicht hinzugefügt werden';
+$string['cannotaddstrrecord'] = 'Der Text konnte nicht hinzugefügt werden';
+$string['cannotfindmethod'] = 'Die Erweiterungsmethode für den temporären Block wurde nicht gefunden: ($a)';
+$string['cannotupdateattempt'] = 'Die bisherigen Daten konnten nicht aktualisiert werden: $a';
 $string['checks'] = 'Checks';
 $string['clickreporting'] = 'Ausführlicher Zugriffsbericht';
 $string['clues'] = 'Lösungshinweise';
 $string['completed'] = 'Beendet';
-$string['configexcelencodings'] = 'Kommagetrennte Liste von Kodierungen, die genutzt werden, um Berichtsdaten an eine Tabellenkalkulation zu übergeben. Z.B. MS Excel erfordert \"SJIS\"-Kodierung für Japanisch.';
+$string['configexcelencodings'] = 'Kommagetrennte Liste von Kodierungen, die genutzt werden, um Berichtsdaten an eine Tabellenkalkulation zu übergeben. Microsoft Excel erfordert z.B. die \"SJIS\"-Kodierung für Japanisch.';
 $string['configshowtimes'] = 'Soll die benötigte Zeit für die Prozessabwicklung in Listen und Berichten angezeigt werden? Dies ist nur dann erforderlich, wenn man untersucht, warum der Server langsam wird.';
 $string['copiedtoclipboard'] = 'Der Inhalt der Seite wurde in die Zwischenablage kopiert.';
 $string['copytoclipboard'] = 'In Zwischenablage kopieren';
@@ -56,7 +61,8 @@ $string['hotpotcloses'] = 'HotPot-Test endet';
 $string['hotpotopens'] = 'HotPot-Test startet';
 $string['ignored'] = 'Ignoriert';
 $string['inprogress'] = 'In Bearbeitung';
-$string['invalidhotpotid'] = 'Hotpot ID ist falsch';
+$string['invalidattemptid'] = 'Versuchs-ID ist falsch';
+$string['invalidhotpotid'] = 'Hotpot-ID ist falsch';
 $string['location'] = 'Speicherort für HotPot-Datei';
 $string['modulename'] = 'HotPot-Test';
 $string['modulenameplural'] = 'HotPot-Tests';
@@ -70,6 +76,7 @@ $string['navigation_none'] = 'Keine';
 $string['neverclosed'] = 'Nie';
 $string['noactivity'] = 'Keine Aktivität';
 $string['noresponses'] = 'Es wurden keine Informationen zu einzelnen Fragen und Antworten gefunden.';
+$string['notyourattempt'] = 'Dies ist nicht Ihr Versuch!';
 $string['outputformat'] = 'Anzeigeformat';
 $string['outputformat_best'] = 'Optimal';
 $string['outputformat_flash'] = 'Flash';
