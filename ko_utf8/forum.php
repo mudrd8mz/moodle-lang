@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080708) (2008070701)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080722) (2008070701)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -30,9 +30,13 @@ $string['bynameondate'] = '$a->date 에 $a->name 씀';
 $string['cannotadddiscussion'] = '포럼에 의견을 제시하려면 모둠의 구성원이어야 합니다.';
 $string['cannotadddiscussionall'] = '참여자를 위한 토론 주제 추가 권한이 없습니다.';
 $string['cannotaddsubscriber'] = '이 포럼에 id $a 인 구독자를 추가할 수 없음!';
+$string['cannotfindfirstpost'] = '이 포럼의 첫 게시물을 찾을 수 없음';
 $string['cannotfindorcreateforum'] = '사이트의 주 뉴스 포럼을 만들거나 찾을 수 없음';
 $string['cannotinsertrate'] = '새로운 순위($a[0] = $a[1])를 삽입할 수 없음';
 $string['cannotremovesubscriber'] = '이 포럼에서 id $a 인 구독자를 제거할 수 없음!';
+$string['cannotsubscribe'] = '죄송합니다만, 구독하기 위해서는 모둠의 구성원이어야 합니다.';
+$string['cannottrack'] = '포럼의 추적기능을 정지할 수 없음';
+$string['cannotunsubscribe'] = '포럼의 구독을 해지할 수 없음';
 $string['cannotupdaterate'] = '예전 순위($a[0] = $a[1])를 갱신할 수 없음';
 $string['cannotviewpostyet'] = '게시물을 올리지 않았기 때문에 이 토론에서 다른 학생들의 질문을 읽을 수 없습니다.';
 $string['cleanreadtime'] = '게시물 정리 시각';
@@ -129,6 +133,7 @@ $string['intronews'] = '강좌관련 공지사항';
 $string['introsocial'] = '모든 것에 대해 논의할 수 있는 열린 포럼';
 $string['introteacher'] = '교수자 포럼';
 $string['invalidaccess'] = '화면이 제대로 접속되지 않았음';
+$string['invaliddiscussionid'] = '토론 ID가 바르지 않음';
 $string['invalidforumid'] = '포럼의 ID가 바르지 않음';
 $string['invalidpostid'] = '잘못된 게시물 ID - $a';
 $string['lastpost'] = '최근 게시';
