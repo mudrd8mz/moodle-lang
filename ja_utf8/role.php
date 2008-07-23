@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080723) (2008072300)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -130,6 +130,7 @@ $string['risks'] = 'リスク';
 $string['role:assign'] = 'ユーザにロールを割り当てる';
 $string['role:manage'] = 'ロールを作成および管理する';
 $string['role:override'] = '他のパーミッションをオーバーライドする';
+$string['role:safeoverride'] = '他のセーフパーミッションをオーバーライドする';
 $string['role:switchroles'] = '他のロールに切り替える';
 $string['role:unassignself'] = '自分のロールを解除する';
 $string['role:viewhiddenassigns'] = '非表示のロール割り当てを表示する';
@@ -137,6 +138,7 @@ $string['roleassignments'] = 'ロールの割り当て';
 $string['roles'] = 'ロール';
 $string['roletoassign'] = '割り当てるロール';
 $string['roletooverride'] = 'オーバーライドするロール';
+$string['safeoverridenotice'] = '注意: あなたはセーフケイパビリティのオーバーライドのみ許可されているため、高いリスクのケイパビリティはロックされています。';
 $string['selectrole'] = 'ロールの選択';
 $string['showallroles'] = 'すべてのロールを表示する';
 $string['site:accessallgroups'] = 'すべてのグループにアクセスする';
