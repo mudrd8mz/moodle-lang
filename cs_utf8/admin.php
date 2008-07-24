@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -61,6 +61,7 @@ $string['configallowcoursethemes'] = 'Povolit vlastní motivy v kurzech. Motivy 
 $string['configallowemailaddresses'] = 'Chcete-li povolit nové e-mailové adresy pouze z určitých domén, uveďte je zde -- jednotlivé domény oddělte mezerou. Všechny ostatní adresy budou odmítnuty. Příklad: <b>naseskola.cz .msmt.cz .edu.cz</b>';
 $string['configallowobjectembed'] = 'Výchozí bezpečnostní nastavení nedovoluje normálním uživatelům vkládat přímo do HTML textu multimediální objekty (např. Flash) pomocí značek EMBED a OBJECT. (Bezpečné vkládání multimediálních objektů zajišťuje jeden z tzv. filtrů.) Chcete-li přesto použití uvedených značek povolit, aktivujte tuto volbu.';
 $string['configallowoverride'] = 'Role uvedená vlevo (v prvním sloupci) bude moci přenastavovat oprávnění rolí zaškrtnutých v jednotlivých sloupcích.';
+$string['configallowoverride2'] = 'Role uvedená vlevo (v prvním sloupci) bude moci přenastavovat oprávnění rolí zaškrtnutých v jednotlivých sloupcích.<br />Důležité upozornění: toto nastavení se bere v potaz pouze u těch uživatelů, kteří mají nastavenu pravomoc moodle/role:override nebo moodle/role:safeoverride';
 $string['configallowunenroll'] = 'Je-li u této volby vybráno \'Ano\', mohou se studenti sami vyškrtávat z kurzů. Jinak je může z kurzu vyškrtnout pouze učitel nebo správce.';
 $string['configallowuserblockhiding'] = 'Povolit uživatelům zasouvání/vysouvání postranních bloků? Tato funkce používá Javascript a soubory cookie. Nastavení se aplikuje vždy pouze na pohled příslušného uživatele.';
 $string['configallowusermailcharset'] = 'Povolit všem uživatelům nastavení vlastní znakové sady pro e-maily.';

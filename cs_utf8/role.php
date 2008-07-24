@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.1+ (Build: 20080519) (2007101513)
+      // role.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
 
 
 $string['addrole'] = 'Přidat novou roli';
@@ -130,6 +130,7 @@ $string['risks'] = 'Rizika';
 $string['role:assign'] = 'Přiřadit role uživatelům';
 $string['role:manage'] = 'Vytvářet a spravovat role';
 $string['role:override'] = 'Přenastavovat oprávnění ostatních uživatelů';
+$string['role:safeoverride'] = 'Přenastavovat bezpečná oprávnění ostatních uživatelů';
 $string['role:switchroles'] = 'Přepínat na jiné role';
 $string['role:unassignself'] = 'Rušit přidělení vlastních rolí';
 $string['role:viewhiddenassigns'] = 'Vidět skrytá přidělení rolí';
@@ -137,6 +138,7 @@ $string['roleassignments'] = 'Přidělení rolí';
 $string['roles'] = 'Role';
 $string['roletoassign'] = 'Přidělit roli';
 $string['roletooverride'] = 'Přenastavit roli';
+$string['safeoverridenotice'] = 'Poznámka: pravomoci s vyšším stupněm rizika jsou zamknuty, protože jste oprávnění přenastavovat pouze bezpečná oprávnění.';
 $string['selectrole'] = 'Vybrat roli';
 $string['showallroles'] = 'Ukázat všechny role';
 $string['site:accessallgroups'] = 'Vstupovat do všech skupin';

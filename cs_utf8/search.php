@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 1.9.2 (Build: 20080715) (2007101520)
+      // search.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
 
 
 $string['advancedsearch'] = 'Pokročilé vyhledávání';
@@ -19,7 +19,7 @@ $string['database'] = 'Databáze';
 $string['databasestate'] = 'Stav indexace databáze';
 $string['datadirectory'] = 'Datový adresář';
 $string['deletionsinindex'] = 'Smazaných položek v indexu';
-$string['doctype'] = 'Doctype';
+$string['doctype'] = 'Typ dokumentu';
 $string['documents'] = 'dokumentech';
 $string['documentsfor'] = 'Dokumentů pro';
 $string['documentsindatabase'] = 'Dokumentů v databázi';
@@ -48,13 +48,13 @@ $string['statistics'] = 'Statistika';
 $string['thesewordshelpimproverank'] = 'Tato slova zvyšují pozici výsledku';
 $string['thesewordsmustappear'] = 'Dokument musí obsahovat tato slova';
 $string['thesewordsmustnotappear'] = 'Dokument nesmí obsahovat tato slova';
-$string['title'] = 'Title';
+$string['title'] = 'Název';
+$string['tofetchtheseresults'] = 'k získání těchto výsledků';
 $string['totalsize'] = 'Celková velikost';
 $string['type'] = 'Typ';
 $string['uncompleteindexingerror'] = 'Indexování nebylo dokončeno úspěšně, prosím spusťte je znovu.';
 $string['versiontoolow'] = 'Globální vyhledávání vyžaduje PHP 5.0.0 nebo novější.';
 $string['whichmodulestosearch?'] = 'Které moduly prohledávat';
 $string['wordsintitle'] = 'Slova v názvu';
-$string['tofetchtheseresults'] = '';
 
 ?>

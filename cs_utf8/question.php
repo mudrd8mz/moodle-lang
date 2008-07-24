@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.1+ (Build: 20080531) (2007101513)
+      // question.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
 
 
 $string['adminreport'] = 'Přehled možných problémů s vaší databází úloh.';
@@ -30,6 +30,7 @@ $string['errorfilecannotbemoved'] = 'Chyba - nelze přesunout soubor $a';
 $string['errorfileschanged'] = 'Chyba - soubory odkazované z této úlohy byly změněny od doby posledního zobrazení formuláře pro úpravy';
 $string['errormanualgradeoutofrange'] = 'Bodová známka $a->grade neleží mezi 0 a $a->maxgrade u otázky \"$a->name\". Získaný skór ani komentář nebyl uložen.';
 $string['errormovingquestions'] = 'Chyba při přesunu úloh s identifikátory $a';
+$string['errorprocessingresponses'] = 'Vyskytla se chyba při zpracování vašich odpovědí.';
 $string['errorsavingcomment'] = 'Chyba při ukládání komentáře u otázky $a->name do databázi.';
 $string['errorupdatingattempt'] = 'Chyba při aktualizaci pokusu id $a->id v databázi.';
 $string['exportcategory'] = 'Exportovat kategorii';
@@ -83,5 +84,6 @@ $string['tofilecontext'] = 'Zapsat kontext do souboru';
 $string['unknown'] = 'Neznámý';
 $string['unknownquestiontype'] = 'Neznámý typ otázky: $a.';
 $string['unpublished'] = 'nesdílená';
+$string['yourfileshoulddownload'] = 'Vyexportovaný soubor by se měl začít okamžitě stahovat. Pokud se tak nestane, <a href=\"$a\">klikněte sem</a>.';
 
 ?>

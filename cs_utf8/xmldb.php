@@ -1,21 +1,27 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // xmldb.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
 
 
 $string['aftertable'] = 'Za tabulkou:';
 $string['back'] = 'Zpět';
 $string['backtomainview'] = 'Zpět na hlavní stránku';
 $string['binaryincorrectlength'] = 'Nesprávná délka binárního pole';
+$string['butis'] = 'ale je';
 $string['cannotuseidfield'] = 'Nelze vložit pole \"id\", jeho hodnota se přiřazuje automaticky';
 $string['change'] = 'Změnit';
 $string['charincorrectlength'] = 'Nesprávná délka znakového pole';
 $string['check_bigints'] = 'Vyhledat v DB nesprávný typ celočíselných polí';
+$string['check_defaults'] = 'Vyhledat nekonzistentní výchozí hodnoty';
 $string['check_indexes'] = 'Vyhledat v DB chybějící indexy';
 $string['checkbigints'] = 'Kontrola BIGINT';
+$string['checkdefaults'] = 'Kontrola výchozích hodnot';
 $string['checkindexes'] = 'Kontrola indexů';
 $string['completelogbelow'] = '(viz dále výslednou zprávu o hledání)';
 $string['confirmcheckbigints'] = 'Tato funkce vyhledá <a href=\"http://tracker.moodle.org/browse/MDL-11038\">celočíselná pole s nesprávně nastaveným typem</a> ve vaší Moodle databázi a vygeneruje (ale nespustí!) SQL příkazy pro jejich opravu.<br /><br />
 Tato funkce žádným způsobem nemění obsah databáze, pouze z ní čte definice tabulek. Vygenerovaný SQL kód musíte spustit ručně ve vašem oblíbeném SQL klientovi (nezapomeňte předtím vaši databázi zazálohovat).<br /><br />
+Výrazně se doporučuje spustit tuto funkci až po upgrade na poslední stabilní verzi (označované jako \"+\" verze) vámi používané řady (1.8, 1.9, 2.x, ...).';
+$string['confirmcheckdefaults'] = 'Tato funkce vyhledá nekonzistentní výchozí hodnoty ve vaší Moodle databázi a vygeneruje (ale nespustí!) SQL příkazy pro jejich korektní nastavení.<br /><br />
+Tato funkce žádným způsobem nemění obsah databáze, pouze z ní čte data. Vygenerovaný SQL kód musíte spustit ručně ve vašem oblíbeném SQL klientovi (nezapomeňte předtím vaši databázi zazálohovat).<br /><br />
 Výrazně se doporučuje spustit tuto funkci až po upgrade na poslední stabilní verzi (označované jako \"+\" verze) vámi používané řady (1.8, 1.9, 2.x, ...).';
 $string['confirmcheckindexes'] = 'Tato funkce vyhledá chybějící indexy (angl. indices nebo indexes) ve vaší Moodle databázi a vygeneruje (ale nespustí!) SQL příkazy pro jejich vytvoření.<br /><br />
 Tato funkce žádným způsobem nemění obsah databáze, pouze z ní čte data. Vygenerovaný SQL kód musíte spustit ručně ve vašem oblíbeném SQL klientovi (nezapomeňte předtím vaši databázi zazálohovat).<br /><br />
@@ -85,6 +91,7 @@ $string['newstatement'] = 'Nový příkaz';
 $string['newtable'] = 'Nová tabulka';
 $string['newtablefrommysql'] = 'Nová tabulka z MySQL';
 $string['nomissingindexesfound'] = 'Nebyly nalezeny chybějící indexy. Není potřeba dalších oprav databáze.';
+$string['nowrongdefaultsfound'] = 'Nebyly nalezeny žádné nekonzistentní definice výchozích hodnot. Není potřeba dalších oprav databáze.';
 $string['nowrongintsfound'] = 'Nebyly nalezeny problémy v definici celočíselných polí. Není potřeba dalších oprav databáze.';
 $string['numberincorrectdecimals'] = 'Nesprávný počet desetinných čísel v číselném poli';
 $string['numberincorrectlength'] = 'Nesprávná délka číselného pole';
@@ -101,6 +108,7 @@ $string['selectonecommand'] = 'Vyberte jednu z akcí ze seznamu k zobrazení kó
 $string['selectonefieldkeyindex'] = 'Vyberte jedno z polí/klíčů/indexů ze seznamu k zobrazení kódu PHP';
 $string['selecttable'] = 'Výběr tabulky:';
 $string['sentences'] = 'Věty';
+$string['shouldbe'] = 'by mělo být';
 $string['statements'] = 'Příkazy';
 $string['statementtable'] = 'Tabulka příkazu:';
 $string['statementtype'] = 'Typ příkazu:';
@@ -121,9 +129,13 @@ $string['vieworiginal'] = 'Zobrazit originální';
 $string['viewphpcode'] = 'Zobrazit kód PHP';
 $string['viewsqlcode'] = 'Zobrazit kód SQL';
 $string['wrong'] = 'Chyby';
+$string['wrongdefaults'] = 'Nalezeny chybné výchozí hodnoty';
 $string['wrongints'] = 'Nalezeny problémy v definici celočíselných polí';
 $string['wronglengthforenum'] = 'Nesprávná délka výčtového pole';
 $string['wrongnumberoffieldsorvalues'] = 'Nesprávný počet polí nebo hodnot ve větě';
 $string['wrongreservedwords'] = 'Stávající rezervovaná slova<br />(názvy tabulek nehrajou roli, pokud používáte $CFG->prefix)';
+$string['yesmissingindexesfound'] = 'Ve vaší databázi byly nalezeny chybějící indexy. Následují bližší informace a potřebné SQL příkazy k jejich vytvoření. Před spuštěním těchto příkazů ve vašem oblíbeném SQL klientovi si nezapomeňte vytvořit zálohu celé databáze.<br /><br />Pro jistotu doporučujeme, abyste po provedení uvedených SQL příkazů spustili tuto kontrolu znovu.';
+$string['yeswrongdefaultsfound'] = 'Ve vaší databázi byly nalezeny nekonzistentní výchozí hodnoty u některých atributů. Následují bližší informace a potřebné SQL příkazy k jejich korekci. Před spuštěním těchto příkazů ve vašem oblíbeném SQL klientovi si nezapomeňte vytvořit zálohu celé databáze.<br /><br />Pro jistotu doporučujeme, abyste po provedení uvedených SQL příkazů spustili tuto kontrolu znovu.';
+$string['yeswrongintsfound'] = 'Ve vaší databázi byly nalezeny nesprávné typy některých celočíselných atributů. Následují bližší informace a potřebné SQL příkazy ke korektní definici vašich tabulek. Před spuštěním těchto příkazů ve vašem oblíbeném SQL klientovi si nezapomeňte vytvořit zálohu celé databáze.<br /><br />Pro jistotu doporučujeme, abyste po provedení uvedených SQL příkazů spustili tuto kontrolu znovu.';
 
 ?>

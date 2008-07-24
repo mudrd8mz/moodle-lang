@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // moodle.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -903,6 +903,7 @@ $string['missinglastname'] = 'Chybí příjmení';
 $string['missingname'] = 'Chybí název';
 $string['missingnewpassword'] = 'Chybí nové heslo';
 $string['missingpassword'] = 'Chybí heslo';
+$string['missingrecaptchachallengefield'] = 'Chybí pole s výzvou reCAPTCHA';
 $string['missingreqreason'] = 'Chybí důvod';
 $string['missingshortname'] = 'Chybí krátký název';
 $string['missingshortsitename'] = 'Chybí krátký název stránek';

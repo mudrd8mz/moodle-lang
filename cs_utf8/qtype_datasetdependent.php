@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8 + (2007021503)
+      // qtype_datasetdependent.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
 
 
 $string['additem'] = 'Přidat položku';
@@ -17,6 +17,7 @@ $string['existingcategory2'] = 'soubor z již existující sady souborů, které
 $string['existingcategory3'] = 'odkaz z již existující sady odkazů, které jsou používány také dalšími otázkami v této kategorii';
 $string['forceregeneration'] = 'vynutit regeneraci';
 $string['getnextnow'] = 'Dostat další \'Položku k přidání\'';
+$string['item(s)'] = 'položka/-ky';
 $string['itemno'] = 'Položka $a';
 $string['itemscount'] = 'Položky<br/>Počet';
 $string['itemtoadd'] = 'Položka k přidání';
@@ -26,6 +27,7 @@ $string['keptcategory3'] = 'odkaz ze stejné kategorie opakovaně použitelných
 $string['keptlocal1'] = 'literál ze stejné pro otázku privátní sady literálů jako dříve';
 $string['keptlocal2'] = 'soubor ze stejné pro otázku privátní sady souborů jako dříve';
 $string['keptlocal3'] = 'odkaz ze stejné pro otázku privátní sady odkazů jako dříve';
+$string['lastitem(s)'] = 'poslední položka/-ky';
 $string['loguniform'] = 'Logaritmicko-normální';
 $string['minmax'] = 'rozpětí hodnot';
 $string['newcategory1'] = 'literál z nové sady literálů, použitelných i pro další otázky v této kategorii';
