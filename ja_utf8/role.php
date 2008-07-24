@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080723) (2008072300)
+      // role.php - created with Moodle 2.0 dev (Build: 20080724) (2008072402)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -168,6 +168,8 @@ $string['tag:manage'] = 'すべてのタグを管理する';
 $string['user:changeownpassword'] = '自分のパスワードを変更する';
 $string['user:create'] = 'ユーザを作成する';
 $string['user:delete'] = 'ユーザを削除する';
+$string['user:editmessageprofile'] = 'ユーザのメッセージングプロファイルを編集する';
+$string['user:editownmessageprofile'] = '自分のメッセージングプロファイルを編集する';
 $string['user:editownprofile'] = '自分のユーザプロファイルを編集する';
 $string['user:editprofile'] = 'ユーザプロファイルを編集する';
 $string['user:loginas'] = '別のユーザとしてログインする';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // message.php - created with Moodle 2.0 dev (Build: 20080724) (2008072402)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
@@ -20,14 +20,20 @@ $string['context'] = 'コンテクスト';
 $string['deletemessagesdays'] = '古いメッセージを自動削除する経過日数';
 $string['disabled'] = 'このサイトでは、メッセージングが無効にされています。';
 $string['discussion'] = 'ディスカッション';
+$string['editmymessage'] = 'メッセージング';
 $string['emailmessages'] = 'オフライン時は下記メールアドレス宛にメッセージを転送する。';
 $string['emailtagline'] = 'このメールは $a にあなた宛に送信されたメッセージのコピーです。';
 $string['emptysearchstring'] = 'キーワードを入力してください。';
 $string['formorethan'] = '経過後';
+$string['general_config'] = '一般設定';
+$string['guestnoeditmessage'] = 'ゲストユーザは、メッセージングオプションを編集できません。';
+$string['guestnoeditmessageother'] = 'ゲストユーザは、他のユーザのメッセージングオプションを編集できません。';
 $string['includeblockedusers'] = '拒否したユーザも含む';
 $string['incomingcontacts'] = '受信したコンタクト ($a)';
 $string['keywords'] = 'キーワード';
 $string['keywordssearchresults'] = '検索結果: $a 件のメッセージが見つかりました。';
+$string['loggedin'] = 'ログイン後:';
+$string['loggedoff'] = 'ログアウト後:';
 $string['mailsent'] = 'あなたのメッセージがメール経由で送信されました。';
 $string['maxmessages'] = 'ディスカッション履歴に表示する最大メッセージ数';
 $string['message'] = 'メッセージ';
@@ -50,6 +56,10 @@ $string['onlyfromme'] = '送信済みメッセージ';
 $string['onlymycourses'] = 'マイ コース内のみ';
 $string['onlytome'] = '受信メッセージ';
 $string['pagerefreshes'] = 'このページは $a 秒ごとに自動更新されます。';
+$string['processor_config'] = '宛先設定';
+$string['processortag'] = '宛先:';
+$string['providers_config'] = 'メッセージソース';
+$string['providerstag'] = '発信元:';
 $string['readmessages'] = '既読メッセージ $a';
 $string['removecontact'] = 'コンタクトリストから削除する';
 $string['savemysettings'] = '私の設定を保存する';

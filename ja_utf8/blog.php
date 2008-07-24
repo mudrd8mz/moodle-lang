@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20080504) (2008050200)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080724) (2008072402)
 
 
 $string['addnewentry'] = '新しいエントリの追加';
@@ -39,6 +39,7 @@ $string['intro'] = 'このRSSフィードは、1つまたはそれ以上のブ�
 $string['noentriesyet'] = '表示できるエントリはありません。';
 $string['noguestpost'] = 'ゲストはブログを投稿できません!';
 $string['norighttodeletetag'] = 'あなたはこのタグ ($a) を削除できません。';
+$string['nosuchentry'] = 'そのようなブログエントリはありません。';
 $string['notallowedtoedit'] = 'あなたはこのエントリを編集できません。';
 $string['numberofentries'] = 'エントリ: $a';
 $string['numberoftags'] = '表示するタグ数';
