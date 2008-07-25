@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080712) (2008070701)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080724) (2008072403)
 
 
 $string['abouttobeinstalled'] = 'ස්ථාපනය සඳහා සූදානම්';
@@ -887,6 +887,7 @@ $string['missinglastname'] = 'වාසගම සඳහන් කර නැත';
 $string['missingname'] = 'නම සඳහන්කර නැත';
 $string['missingnewpassword'] = 'නව මුරපදය සඳහන් කර නැත';
 $string['missingpassword'] = 'මුරපදය සඳහන් කර නැත';
+$string['missingrecaptchachallengefield'] = 'අස්ථානගතවූ රිකැප්ච අභියෝග ක්ෂේත්‍රය';
 $string['missingreqreason'] = 'හේතුව සඳහන් කර නැත';
 $string['missingshortname'] = 'කෙටි නම සඳහන් කර නැත';
 $string['missingshortsitename'] = 'කෙටි අඩවි නම සඳහන් කර නැත';
