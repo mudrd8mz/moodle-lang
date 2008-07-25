@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080613) (2008051202)
+      // message.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
 
 
 $string['addcontact'] = '연락 추가';
@@ -20,14 +20,20 @@ $string['context'] = '문장';
 $string['deletemessagesdays'] = '오래된 메세지 자동삭제 기한';
 $string['disabled'] = '이 사이트에서는 메세지 전달 안 됨';
 $string['discussion'] = '토론주제';
+$string['editmymessage'] = '메세지 작성';
 $string['emailmessages'] = '오프라인 상태에 온 이메일';
 $string['emailtagline'] = '이 이메일은 \"$a\"에서 당신에게 보내진 메세지의 복사본입니다.';
 $string['emptysearchstring'] = '당신은 무언가를 찾아야만 합니다';
 $string['formorethan'] = '더 많이 보기';
+$string['general_config'] = '일반 설정';
+$string['guestnoeditmessage'] = '손님은 메세지 설정을 할 수 없음';
+$string['guestnoeditmessageother'] = '손님은 다른 사용자의 메시지 설정을 할 수 없음';
 $string['includeblockedusers'] = '차단 사용자 포함';
 $string['incomingcontacts'] = '들어온 연락 ($a)';
 $string['keywords'] = '키워드';
 $string['keywordssearchresults'] = '검색 결과 : $a 메세지 발견';
+$string['loggedin'] = '로그인';
+$string['loggedoff'] = '접속차단';
 $string['mailsent'] = '메세지가 이메일로 전송되었습니다.';
 $string['maxmessages'] = '토론 기록에 있는 최대의 메세지 숫자';
 $string['message'] = '메세지';
@@ -50,6 +56,10 @@ $string['onlyfromme'] = '내가 보낸 메세지만';
 $string['onlymycourses'] = '내 강좌 메세지만';
 $string['onlytome'] = '내게 온 메세지만';
 $string['pagerefreshes'] = '이 화면은 $a 초마다 자동 갱신됩니다';
+$string['processor_config'] = '수신처 설정';
+$string['processortag'] = '수신:';
+$string['providers_config'] = '발신처';
+$string['providerstag'] = '발신:';
 $string['readmessages'] = '읽은 메세지 $a';
 $string['removecontact'] = '연락 제거';
 $string['savemysettings'] = '내 설정 저장';

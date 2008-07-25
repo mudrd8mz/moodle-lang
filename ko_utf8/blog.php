@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20080424) (2008030700)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
 
 
 $string['addnewentry'] = '새 게시물 추가';
@@ -39,6 +39,7 @@ $string['intro'] = '이 RSS Feed는 한개 이상의 블로그에 의해 자동�
 $string['noentriesyet'] = '볼수있는 게시물이 없습니다.';
 $string['noguestpost'] = '손님들은 블로그를 게시할 수 없습니다';
 $string['norighttodeletetag'] = '이 태그 $a 를 삭제할 권한이 없습니다.';
+$string['nosuchentry'] = '블로그 항목 없음';
 $string['notallowedtoedit'] = '이 게시물을 편집하도록 허용되지 않았습니다.';
 $string['numberofentries'] = '게시물들: $a';
 $string['numberoftags'] = '보여줄 태그 수';

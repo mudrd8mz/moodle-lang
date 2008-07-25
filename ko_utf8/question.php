@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080709) (2008070701)
+      // question.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -10,19 +10,26 @@ $string['cannotcopybackup'] = '백업파일 복사 실패';
 $string['cannotcreate'] = 'question_attempts 테이블에 새 항목을 생성할 수 없음';
 $string['cannotcreatedataset'] = '자료묶음 $a 를 생성할 수 없음';
 $string['cannotcreaterelation'] = '자료묶음 $a[0] $a[1] 의 연계를 할 수 없음';
+$string['cannotdeletecate'] = '이 영역의 기본 범주이기 때문에 지울 수 없습니다.';
+$string['cannotfindcate'] = '범주 기록을 찾을 수 없음';
 $string['cannotfindquestionfile'] = '압축파일에서 문항 자료를 찾을 수 없음';
 $string['cannotgetdsfordependent'] = '자료묶음이 필요한 문항에서 지정한 내용을 얻을 수 없음!(문항: {$a[0]}, 자료묶음항목: {a[1]})';
 $string['cannotgetdsforquestion'] = '계산형 문항에서 지정한 자료묶음을 얻을 수 없음! (문항: {$a})';
+$string['cannothidequestion'] = '문항을 비공개로 전환할 수 없음';
+$string['cannotimportformat'] = '죄송합니다만, 이 형식은 아직 가져올 수 없습니다!';
 $string['cannotinsert'] = '오류: 자료묶음 항목을 삽입할 수 없음';
 $string['cannotinsertitem'] = '$a[2] 의 자료묶음 항목 $a[0] 을 $a[1] 에 삽입할 수 없음';
 $string['cannotinsertquestion'] = '새 문항을 추가할 수 없음!';
 $string['cannotinsertquestioncate'] = '새 문항 범주 $a 를 추가할 수 없음';
 $string['cannotinsertquestioncatecontext'] = '잘못된 contextid $a[1] 때문에 새 문항 범주$a[0] 를  추가할 수 없음';
+$string['cannotloadquestion'] = '문항을 탑재할 수 없음';
 $string['cannotmovecate'] = '범주 $a 를 이동할 수 없음. 이 영역의 마지막 범주임';
 $string['cannotmovefromto'] = '범주 $a[0] 를 $a[1] 로 옮길 수 없음';
 $string['cannotmovequestion'] = '이 스크립트는 다른 영역과 연관되어 있는 문항을 이동시키는 데는 사용할 수 없습니다.';
+$string['cannotpreview'] = '이 문항들은 미리 볼 수 없음!';
 $string['cannotretrieveqcat'] = '문항 범주를 복구할 수 없음';
 $string['cannotsavequiz'] = '현재의 시도를 저장하는 데 실패!';
+$string['cannotunhidequestion'] = '문항 공개 실패';
 $string['cannotunzip'] = '파일을 풀 수 없음';
 $string['cannotupdatecate'] = '범주 $a 를 갱신할 수 없음';
 $string['cannotupdatecount'] = '오류: 항목의 계수를 갱신할 수 없음';
@@ -77,8 +84,10 @@ $string['getcategoryfromfile'] = '파일로부터 범주 추출';
 $string['getcontextfromfile'] = '파일로부터 영역 추출';
 $string['ignorebroken'] = '깨진 링크 무시';
 $string['impossiblechar'] = '불가능한 문자 $a 가 괄호 문자로 검출되었음';
+$string['invalidarg'] = '잘못된 질의거나 서버 설정이 잘못되어 있음';
 $string['invalidcategoryidforparent'] = '상위에 잘못된 범주 id!';
 $string['invalidcategoryidtomove'] = '이동할 수 없는 범주 id!';
+$string['invalidconfirm'] = '인증키가 바르지 않음';
 $string['invalidcontextinhasanyquestions'] = '잘못된 영역명이 question_context_has_any_questions로 전달됨';
 $string['invalidwizardpage'] = '잘못되거나 없는 마법사 페이지를 지정했음!';
 $string['linkedfiledoesntexist'] = '연결된 $a 파일 없음';

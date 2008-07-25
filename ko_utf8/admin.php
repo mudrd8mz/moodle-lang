@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080722) (2008070701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -65,6 +65,7 @@ $string['configallowcoursethemes'] = '이것을 활성화하면, 각 강좌는 �
 $string['configallowemailaddresses'] = '만약 특정 도메인의 이메일 주소만 허용하고자 한다면, 그 주소를 한 칸씩 띄어 적어 놓아라. 그 외 모든 다른 도메인은 거부된다. ( 예: <strong>sun.ac.kr moodle.org</strong> )';
 $string['configallowobjectembed'] = '기본 보안 규정에 따라, 일반 이용자들은 멀티미디어 파일 (예:플래시,동영상,mp3)을 EMBED, OBJECT 등의 명령어나 태그를 사용해서 올릴 수 없다. (비록 안전한 미디어 파일일지라도) 운영자가 허락 옵션을 켜야만 파일을 올릴 수 있다.';
 $string['configallowoverride'] = '왼쪽의 역할이 각 칼럼의 역할에게 권한을 위임할 수 있도록 허용';
+$string['configallowoverride2'] = '왼쪽 난의 각 역할이 관장할 수 있는 역할을 선택<br />이 설정은 사용자가 moodle/role:override의 권한을 갖거나 moodle/role:safeoverride의 권한을 지닐 때만 적용됨을 유의하라.';
 $string['configallowunenroll'] = '만약 이것이 \"예\"로 설정된다면, 학생들은 스스로 수강 등록 여부를 결정할 수 있다. 반면에 \"아니오\"로 설정하면 교수자와 관리자만 학생의 수강 여부를 결정할 수 있게 된다.';
 $string['configallowuserblockhiding'] = '이용자들이 사이트의 블럭을 숨기거나 볼 수 있도록 허용하겠는가? 이 기능은 각각의 분리된 블럭을 기억하기 위해 자바 스크립트와 쿠키를 사용하며, 이용자 화면에만 영향을 미친다.';
 $string['configallowusermailcharset'] = '이 기능을 활성화시키면, 모든 이용자는 이메일에 자신만의 문자 세트를 이용할 수 있다.';
@@ -251,6 +252,7 @@ $string['configtimezone'] = '여기에서 표준시간대를 선택한다. 이�
 $string['configunzip'] = 'unzip 프로그램의 위치(유닉스만,선택사항)를 적어라. 
 만약 여기에 그 경로를 적어넣으면 서버상에서 압축된 zip 문서를 푸는데 사용된다.
 만약 여기를 비워둔다면, 무들은 내부 루틴을 사용할 것이다.';
+$string['configuseexternalyui'] = '자체 기능을 사용하는 대신 Yahoo&#145; 서버에서 온라인으로 제공하는 기능 사용';
 $string['configusetags'] = '사이트 전반에 걸쳐 태그 기능을 활성화할 필요가 있을까요?';
 $string['configvariables'] = '변수';
 $string['configvisiblecourses'] = '숨겨진 범주의 강좌 표시';
@@ -736,6 +738,7 @@ $string['uploadpictures'] = '사진 올려주기';
 $string['uploaduserspreview'] = '올린 이용자 미리보기';
 $string['uploadusersresult'] = '이용자 업로드 결과';
 $string['upwards'] = '위로';
+$string['useexternalyui'] = '야후 사용자 인터페이스 기능 사용';
 $string['usehtmleditor'] = 'HTML편집기 사용';
 $string['useraccountupdated'] = '이용자가 갱신됨';
 $string['userbulk'] = '일괄이용자처리';
