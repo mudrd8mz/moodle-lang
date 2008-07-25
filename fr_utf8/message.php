@@ -69,4 +69,20 @@ $string['userisblockingyou'] = 'Cet utilisateur vous a retiré le droit de lui e
 $string['userisblockingyounoncontact'] = 'Cet utilisateur n\'accepte de messages que de personnes de sa liste de contacts, dans laquelle vous ne figurez pas actuellement.';
 $string['userssearchresults'] = 'Résultats de recherche&nbsp;: $a utilisateur(s) trouvé(s)';
 
+//luis: used in the message system
+$string['editmymessage'] = 'Messagerie';
+$string['guestnoeditmessage'] = 'Les invités ne peuvent pas modifier les options de messagerie';
+$string['guestnoeditmessageother'] = 'Les invités ne peuvent pas modifier les options de messagerie des autres utilisateurs';
+$string['loggedin'] = 'Connectés&nbsp;: ';
+$string['loggedoff'] = 'Non connectés&nbsp;: ';
+$string['general_config'] = 'Options générales';
+$string['providers_config'] = 'Sources du message';
+$string['processor_config'] = 'Configuration des destinations';
+$string['showmessagewindow'] = 'Fenêtres surgissantes pour les nouveaux messages';
+$string['blocknoncontacts'] = 'Bloquer les utilisateurs inconnus';
+$string['beepnewmessage'] = 'Bip pour les nouveaux messages';
+$string['noframesjs'] = 'Ni cadre, ni JavaScript';
+$string['providerstag'] = 'Source&nbsp;: ';
+$string['processortag'] = 'Destination&nbsp;: ';
+
 ?>
