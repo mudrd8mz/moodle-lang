@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080725) (2008072500)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -23,6 +23,7 @@ $string['allsubscribe'] = 'すべてのフォーラムをメール購読する';
 $string['allunsubscribe'] = 'すべてのフォーラムのメール購読を解除する';
 $string['anyfile'] = 'すべてのファイル';
 $string['attachment'] = '添付ファイル';
+$string['attachmentnopost'] = 'あなたは、投稿IDなしで添付ファイルをエクスポートできません。';
 $string['blockafter'] = 'ブロッキングまでの投稿閾値';
 $string['blockperiod'] = 'ブロッキング期間';
 $string['blockperioddisabled'] = 'ブロックしない';
@@ -161,11 +162,13 @@ $string['modulenameplural'] = 'フォーラム';
 $string['more'] = '詳細';
 $string['movedmarker'] = '(移動済み)';
 $string['movethisdiscussionto'] = 'このディスカッションを移動する ...';
+$string['mustprovidediscussionorpost'] = 'あなたは、ディスカッションIDまたは投稿IDをエクスポートに提供する必要があります。';
 $string['namenews'] = 'ニュースフォーラム';
 $string['namesocial'] = '一般フォーラム';
 $string['nameteacher'] = '教師用フォーラム';
 $string['newforumposts'] = '新しいフォーラム投稿';
-$string['nodiscussions'] = 'このフォーラムにはまだディスカッショントピックがありません。';
+$string['noattachments'] = 'このフォーラムには、添付ファイルがありません。';
+$string['nodiscussions'] = 'このフォーラムには、まだディスカッショントピックがありません。';
 $string['nodiscussionsstartedby'] = 'このユーザから開始されたディスカッションはありません。';
 $string['noguestpost'] = '申し訳ございません、ゲストは投稿できません。';
 $string['noguestrate'] = 'ゲストは、このエントリを評価できません。';
