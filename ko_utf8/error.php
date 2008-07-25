@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // error.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -11,6 +11,7 @@ $string['blockcannotinistantiate'] = '블록 객체의 초기화 문제';
 $string['blockcannotread'] = '블록ID $a 에 대한 자료를 읽을 수 없음';
 $string['blockdoesnotexist'] = '블록이 존재하지 않음';
 $string['blocknameconflict'] = '명칭 중복: $a[0] 블록은 기존의 $a[1] 블록과 동일한 명칭을 지님!';
+$string['boundsyntaxnotsupport'] = '아직 Pg $1, $2 bound syntax 는 지원하지 않음 :-(';
 $string['cannofindgradeitem'] = '채점 항목이 없음';
 $string['cannotaddblock'] = '$a 블록은 블록 목록에 추가할 수 없음!';
 $string['cannotaddcmtosection'] = '영역에 새로운 강좌 모듈을 추가할 수 없음';
@@ -188,6 +189,7 @@ $string['ddlunknownerror'] = '알수없는 DDL 라이브러리 오류';
 $string['ddlxmlfileerror'] = 'XML 데이터베이스 파일 오류 발견';
 $string['destinationcmnotexit'] = '대상 강좌의 모듈이 서버에 존재하지 않음!';
 $string['downloadedfilecheckfailed'] = '내려받은 파일 점검에 실패하였습니다.';
+$string['duplicateparaminsql'] = '오류: 중복된 매개 변수명 요청';
 $string['duplicaterolename'] = '이 이름을 가진 역할이 이미 존재함!';
 $string['duplicateroleshortname'] = '이 단축명을 가진 역할이 이미 존재함!';
 $string['duplicateusername'] = '사용자명 복사 - 기록 생략';
@@ -256,11 +258,13 @@ $string['invalidmodule'] = '잘못된 모듈';
 $string['invalidmoduleid'] = '잘못된 모듈 ID : $a';
 $string['invalidmodulename'] = '잘못된 모듈 명칭 : $a';
 $string['invalidnum'] = '잘못된 수치';
+$string['invalidnumkey'] = '$conditions 행열에는 숫자키를 포함할 수 없음. 코드를 수정하세요!';
 $string['invalidoutcome'] = '잘못된 학습성과 id';
 $string['invalidpagesize'] = '잘못된 화면 크기';
 $string['invalidpaymentmethod'] = '잘못된 지불 방법: $a';
 $string['invalidrequest'] = '잘못된 요청';
 $string['invalidrole'] = '잘못된 역할';
+$string['invalidroleid'] = '잘못된 역할 ID';
 $string['invalidscaleid'] = '잘못된 척도 id';
 $string['invalidsection'] = '강좌 모듈에 잘못된 위치 정보 포함됨';
 $string['invalidseeky'] = 'sesskey가 틀렸기 때문에 서식이 접수되지 않음!';
@@ -288,11 +292,13 @@ $string['messagingdisable'] = '이 사이트에서는 메시지 기능을 쓸 �
 $string['mimetexisnotexist'] = '시스템이 mimeTeX를 구동하도록 설정되지 않음. <a href=\"http://moodle.org/download/mimetex/\">http://moodle.org/download/mimetex/</a>에서 환경에 맞는 적절한 파일을 내려받거나 <a href=\"http://www.forkosh.com/mimetex.zip\"> http://www.forkosh.com/mimetex.zip</a>에서 C 원본 코드를 내려받아 컴파일하여 moodle/filter/tex/ 경로에 넣어야 함.';
 $string['mimetexnotexecutable'] = '맞춤 mimetex가 실행되지 않음!';
 $string['missingfield'] = '필드 \"$a\" 가 없음';
+$string['missingkeyinsql'] = '오류: 질의에 \"$a\" 매개변수 누락';
 $string['missingparam'] = '필수 매개변수 ($a) 누락';
 $string['missingparameter'] = '매개변수 누락';
 $string['missingrequiredfield'] = '필요한 항목이 빠져 있음';
 $string['missinguseranditemid'] = '사용자 id와 항목 id 빠짐';
 $string['missingvarname'] = '필수 변수명이 누락됨!';
+$string['mixedtypesqlparam'] = '오류: sql 매개변수 질의가 혼합형임!!';
 $string['mnetdisable'] = 'mnet을 이용할 수 없음';
 $string['mnetlocal'] = '원격 MNET 사용자는 여기에 로그인 할 수 없음';
 $string['moduledisable'] = '이 강좌에서는 모듈($a)을 쓸 수 없음';
@@ -315,6 +321,7 @@ $string['noguest'] = '손님은 안됩니다!';
 $string['noinstances'] = '이 강좌에는 $a 의 인스턴스가 없습니다!';
 $string['nologinas'] = '현재 사용자 ID로는 로그인 할 수 없음';
 $string['nonmeaningfulcontent'] = '의미없는 내용';
+$string['noparticipants'] = '강좌에 참여자가 아무도 없음';
 $string['noparticipatorycms'] = '죄송합니다. 당신이 참여했던 보고받을 만한 강좌 모듈이 없습니다.';
 $string['nopermissions'] = '죄송합니다만 그 ($a)를 할만한 권한이 없습니다.';
 $string['nopermissiontocomment'] = '본 어휘집에 덧글을 추가할 수 없음!';
@@ -376,6 +383,7 @@ $string['tagdisabled'] = '태그 사용 불가!';
 $string['tagnotfound'] = '지정한 태그가 데이터베이스에 없음';
 $string['themenotinstall'] = '테마가 설치되지 않았음!';
 $string['transactionvoid'] = '이미 취소되었기 때문에 거래를 취소할 수 없음';
+$string['typenotimplement'] = 'TODO: 형식 미지정';
 $string['unenrolerror'] = '그 사람을 제명시키려 하는 중에 오류 발생';
 $string['unicodeupgradeerror'] = '데이터베이스가 아직 유니코드가 아니지만 이 무들판으로는  여러분의 데이터베이스를 유니코드로 변환시킬 수 없습니다. 우선 무들을 1.7.x버전대로 판올림을 하시고 그곳의 관리자화면에서 유니코드로 변환해 주시기 바랍니다. 그 이후에나 무들 $a 로 이전해 갈 수 있을 것입니다.';
 $string['unknowaction'] = '알 수 없는 활동!';
