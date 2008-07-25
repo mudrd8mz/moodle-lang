@@ -39,6 +39,7 @@ $string['intro'] = 'Ce fil RSS a été généré automatiquement à partir d\'un
 $string['noentriesyet'] = 'Aucun article visible ici';
 $string['noguestpost'] = 'Les invités ne peuvent écrire dans le blog&nbsp;!';
 $string['norighttodeletetag'] = 'Vous n\'êtes pas autorisé à supprimer ce tag&nbsp;: $a';
+$string['nosuchentry'] = 'Aucun tel article de blog';
 $string['notallowedtoedit'] = 'Vous n\'êtes pas autorisé à modifier cette article';
 $string['numberofentries'] = 'Articles&nbsp;: $a';
 $string['numberoftags'] = 'Nombre de tags à afficher';
