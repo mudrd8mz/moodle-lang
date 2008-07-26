@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080725) (2008072500)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080726) (2008072600)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -219,6 +219,7 @@ $string['configsectionsecurity'] = 'セキュリティ';
 $string['configsectionstats'] = '統計';
 $string['configsectionuser'] = 'ユーザ';
 $string['configsecureforms'] = 'Moodleでは、フォームデータを受入れる場合の追加的なレベルのセキュリティーを使用することができます。この設定を有効にした場合、ブラウザのHTTP_REFERER変数とフォーム設置のアドレスが照合されます。 ユーザがファイアーウォールソフト (例 Zonealarm) を使用してトラフィックからHTTP_REFERERを取除く設定をしている場合、まれに問題が発生する場合があります。 これは、フォーム使用時に画面が「固まる」現象です。例えば、ユーザがログインページで問題を抱えている場合はこの設定をNoにしてください。しかしこの設定ではブルートフォース・パスワードアタックに対して無防備な状態になります。分からない場合は、この設定を「Yes」のままにしてください。';
+$string['configsendcoursewelcomemessage'] = 'この設定を有効にした場合、コースへの受講登録後、ユーザにウェルカムメールが送信されます。';
 $string['configsessioncookie'] = 'ここでは、Moodleセッションで使用されるクッキーの名称をカスタマイズします。1つ以上のMoodleが同じウェブサイトで稼動している場合、クッキーが混乱するのを防ぐためだけに、この設定を任意でお使いください。';
 $string['configsessioncookiepath'] = 'ブラウザが送信するMoodleクッキーの場所を変更したい場合、ここでウェブサイトのサブディレクトリを指定することができます。変更しない場合、デフォルトの「/」をお使いください。';
 $string['configsessiontimeout'] = 'このサイトにログインして長時間何もしない (ページを更新しない) 場合、ユーザを自動的にログアウト (セッションを終了) させます。この変数には、ログアウトさせるまでの時間を設定します。';
@@ -239,6 +240,7 @@ $string['configstatsmaxruntime'] = '統計処理は、コンピュータに大�
 $string['configstatsmaxruntime2'] = '統計処理は、コンピュータに大きな負荷がかかる場合があります。1日の統計データの収集で許可する最大時間を指定してください。1回のcron実行で処理できる最大日数は、3です。';
 $string['configstatsruntimestart'] = '何時にcronジョブの統計処理を<b>開始</b>させますか? 1つの物理サーバに複数のMoodleをインストールしている場合、異なる時間を指定してください。';
 $string['configstatsuserthreshold'] = 'コースランキングのため、ゼロ以外の数値をここに入力した場合、この値より少ない登録ユーザ数 (すべてのロール) のコースは無視されます。';
+$string['configstripalltitletags'] = 'デフォルトでは、活動、フォーラム投稿、ブログ等、すべてのタイトルからHTMlタグが取り除かれます。活動名にHTMLタグを使用したい場合、この設定を無効してください。';
 $string['configsupportemail'] = 'このメールアドレスは、一般的なサポート (例えば、ユーザが自分のアカウントを作成) が必要な場合、このサイトのユーザに公開されます。この欄を空白のままにした場合、そのような有益なメールアドレスは提供されません。';
 $string['configsupportname'] = 'これは、サポートメールまたはウェブ経由で一般的なサポートを提供する人の名前または団体の名称です。';
 $string['configsupportpage'] = 'このウェブアドレスは、一般的なサポート (例えば、ユーザが自分のアカウントを作成) が必要な場合、このサイトのユーザに公開されます。この欄を空白のままにした場合、リンクは提供されません。';
@@ -408,6 +410,7 @@ $string['hidefromnone'] = '誰に対しても非表示にしない';
 $string['hidefromstudents'] = '学生に対して非表示にする';
 $string['htmleditor'] = 'HTMLエディタ';
 $string['htmleditorsettings'] = 'HTMLエディタ設定';
+$string['htmlsettings'] = 'HTML設定';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTPセキュリティ';
 $string['iconvrecommended'] = 'より良いパフォーマンスを得るため、ICONVライブラリのインストールおよび稼動を強くお勧めします。あなたのサイトがラテン文字以外をサポートしている場合、特にお勧めします。';
@@ -641,6 +644,7 @@ $string['searchresults'] = '検索結果';
 $string['sectionerror'] = 'セクションエラー!';
 $string['secureforms'] = '追加的なフォームセキュリティを使用する';
 $string['security'] = 'セキュリティ';
+$string['sendcoursewelcomemessage'] = 'コースウェルカムメッセージを送信する';
 $string['server'] = 'サーバ';
 $string['serverchecks'] = 'サーバチェック';
 $string['serverlimit'] = 'サーバリミット';
@@ -677,6 +681,7 @@ $string['stickyblockscourseview'] = 'コースページ';
 $string['stickyblocksduplicatenotice'] = 'あなたがここで追加するブロックがすでに特定のページに登録されている場合、ブロックが重複することになります。<br />この場合、スティッキーブロックのみ編集不可ですが、重複したブロックは編集することができます。';
 $string['stickyblocksmymoodle'] = 'マイ Moodle';
 $string['stickyblockspagetype'] = '設定するページタイプ';
+$string['stripalltitletags'] = 'すべてのタイトルからHTMLタグを取り除く';
 $string['supportemail'] = 'サポートメール';
 $string['supportname'] = 'サポート名';
 $string['supportpage'] = 'サポートページ';
@@ -769,7 +774,7 @@ $string['uuupdateall'] = 'ファイルおよびデフォルトでオーバーラ
 $string['uuupdatefromfile'] = 'ファイルでオーバライドする';
 $string['uuupdatemissing'] = '欠けているデータをファイルおよびデフォルトで補填する';
 $string['uuupdatetype'] = '既存のユーザ詳細';
-$string['validateerror'] = 'この値は有効ではありません。:';
+$string['validateerror'] = 'この値は有効ではありません:';
 $string['warningcurrentsetting'] = '無効な現在値: $a';
 $string['webproxy'] = 'ウェブプロクシ';
 $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネットに接続できない場合、以下のオプションに必要事項を入力してください。インターネットアクセスは、環境データ、言語パック、RSSフィード、タイムゾーン等のダウンロードに必要です。<br />PHP cURL拡張モジュールの使用を強くお勧めします。';
