@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080418) (2008030700)
+      // role.php - created with Moodle 2.0 dev (Build: 20080726) (2008072500)
 
 
 $string['addrole'] = '역할 추가';
@@ -130,6 +130,7 @@ $string['risks'] = '위험부담';
 $string['role:assign'] = '사용자에게 역할 부여';
 $string['role:manage'] = '역할을 생성하고 관리';
 $string['role:override'] = '타인에 대한 역활 위임권';
+$string['role:safeoverride'] = '안전한 타인에 대한 역활 위임권';
 $string['role:switchroles'] = '다른 역할과 맞바꿈';
 $string['role:unassignself'] = '역할에서 해임';
 $string['role:viewhiddenassigns'] = '비공개 역할부여 보기';
@@ -137,6 +138,7 @@ $string['roleassignments'] = '역할 부여';
 $string['roles'] = '역할들';
 $string['roletoassign'] = '부여할 역할';
 $string['roletooverride'] = '위임할 역활';
+$string['safeoverridenotice'] = '주: 안전한 권한이양만 허용되어 있으므로, 위험성이 큰 권한에 대해서는 제한됩니다.';
 $string['selectrole'] = '역할 선택';
 $string['showallroles'] = '모든 역할 보이기';
 $string['site:accessallgroups'] = '모든 모둠에 접속 기능';
@@ -166,6 +168,8 @@ $string['tag:manage'] = '태그 관리';
 $string['user:changeownpassword'] = '내 비밀번호 변경';
 $string['user:create'] = '사용자 생성';
 $string['user:delete'] = '사용자 삭제';
+$string['user:editmessageprofile'] = '사용자 메세지 편집';
+$string['user:editownmessageprofile'] = '내 메세지 편집';
 $string['user:editownprofile'] = '내 개인정보 편집';
 $string['user:editprofile'] = '사용자 개인정보 편집';
 $string['user:loginas'] = '다른 사용자로 로그인';

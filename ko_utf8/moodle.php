@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080726) (2008072500)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -902,6 +902,7 @@ $string['missinglastname'] = '빠짐: 이름';
 $string['missingname'] = '빠짐: 이름';
 $string['missingnewpassword'] = '빠짐: 새로운 비밀번호';
 $string['missingpassword'] = '빠짐: 비밀번호';
+$string['missingrecaptchachallengefield'] = 'reCAPTCHA 응답 누락';
 $string['missingreqreason'] = '빠짐: 이유';
 $string['missingshortname'] = '빠짐: 단축명';
 $string['missingshortsitename'] = '빠짐: 단축 사이트명';

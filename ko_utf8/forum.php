@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080722) (2008070701)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080726) (2008072500)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -8,8 +8,8 @@ $string['addanewtopic'] = '새로운 주제 추가';
 $string['advancedsearch'] = '상세 검색';
 $string['aggregateavg'] = '평균';
 $string['aggregatecount'] = '추천 수';
-$string['aggregatemax'] = '최고점';
-$string['aggregatemin'] = '최하점';
+$string['aggregatemax'] = '최상위';
+$string['aggregatemin'] = '최하위';
 $string['aggregatenone'] = '순위없음';
 $string['aggregatesum'] = '누계';
 $string['aggregatetype'] = '집계 유형';
@@ -23,6 +23,7 @@ $string['allsubscribe'] = '모든 포럼 구독';
 $string['allunsubscribe'] = '모든 포럼 구독 해지';
 $string['anyfile'] = '모든 파일';
 $string['attachment'] = '첨부';
+$string['attachmentnopost'] = '게시 ID 없이 첨부물을 내보낼 수 없음';
 $string['blockafter'] = '차단을 위한 게시 한계';
 $string['blockperiod'] = '차단 시간';
 $string['blockperioddisabled'] = '차단하지 않음';
@@ -161,13 +162,15 @@ $string['modulenameplural'] = '포럼모음';
 $string['more'] = '자세히';
 $string['movedmarker'] = '(옮겨짐)';
 $string['movethisdiscussionto'] = '이 토론 옮기기 ...';
+$string['mustprovidediscussionorpost'] = '내보내기 위해서는 게시 ID나 토론 ID를 제공해야만 함';
 $string['namenews'] = '강좌공지';
 $string['namesocial'] = '사회적 포럼';
 $string['nameteacher'] = '교수자 포럼';
 $string['newforumposts'] = '새로운 게시물';
-$string['nodiscussions'] = '아직 토론 주제가 게시되지 않았습니다.';
+$string['noattachments'] = '이 게시물에는 첨부물이 없음';
+$string['nodiscussions'] = '아직 토론 주제가 게시되지 않았음';
 $string['nodiscussionsstartedby'] = '이 사용자는 토론을 개시할 수 없음';
-$string['noguestpost'] = '죄송합니다. 손님 계정으로는 글을 올릴 수 없습니다.';
+$string['noguestpost'] = '죄송하지만, 손님 계정으로는 $a 에 글을 올릴 수 없습니다.';
 $string['noguestrate'] = '손님은 추천할 수 없습니다.';
 $string['noguestsubscribe'] = '죄송합니다, 손님은 이메일을 통해 게시된 포럼을 구독하거나 받아보실 수 없습니다.';
 $string['noguesttracking'] = '죄송합니다, 손님은 경로 추적이 허용되지 않습니다.';
