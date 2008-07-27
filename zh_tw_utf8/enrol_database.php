@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // enrol_database.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['autocreate'] = '如果Moodle中某課程不存在，則當有人選修課程時系統會自動建立該課程。';
@@ -17,6 +17,7 @@ $string['dbtype'] = '資料庫型式';
 $string['dbuser'] = '使用者';
 $string['defaultcourseroleid'] = '如果沒有指定其他角色就會使用預設值';
 $string['description'] = '您可以使用外部資料庫來控制您的選課, 假設您有一個名部資料庫包含 course ID,user ID. 它可以與本地的課程和使用者欄位對照';
+$string['disableunenrol'] = '如果設定為是，無論資料庫內容為何，使用者先前經由外部資料庫的選課將不會被相同的外掛程式取消選課。';
 $string['enrol_database_autocreation_settings'] = '自動建立新課程';
 $string['enrolname'] = '外部資料庫';
 $string['general_options'] = '一般選項';

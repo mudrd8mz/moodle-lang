@@ -1,9 +1,15 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // qtype_multichoice.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
+$string['addingmultichoice'] = '增加一個多選題';
 $string['addmorechoiceblanks'] = '增加 {no} 個選項';
 $string['answerhowmany'] = '單選還是多選？';
+$string['answernumbering'] = '選項編數目';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = '沒有編數目';
 $string['answersingleno'] = '多重選擇題';
 $string['answersingleyes'] = '單選題';
 $string['choiceno'] = '選項 {$a}';

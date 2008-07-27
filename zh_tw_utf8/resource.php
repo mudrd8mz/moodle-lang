@@ -1,11 +1,14 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // resource.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addresource'] = '新增資源';
 $string['affectedresources'] = '受影響的資源';
+$string['allowlocalfiles'] = '允許本地的檔案';
+$string['autofilerename'] = '如果檔案更名，就更新連結';
 $string['back'] = '回上頁';
-$string['browserepository'] = '瀏覽倉庫';
+$string['blockdeletingfile'] = '防止引用的檔案被刪除';
+$string['browserepository'] = '瀏覽儲存處';
 $string['choose'] = '選擇';
 $string['chooseafile'] = '選擇或上傳一個檔案';
 $string['chooseparameter'] = '選擇參數';
@@ -45,7 +48,9 @@ $string['fetcherror'] = '存取網頁發生錯誤';
 $string['fetchservererror'] = '當存取遠端網頁時，有錯誤發生。可能是程式執行錯誤';
 $string['filename'] = '檔案名稱';
 $string['filtername'] = '資源名稱 自動連結';
+$string['forcedownload'] = '強迫下載';
 $string['frameifpossible'] = '將線上資源放在頁框中';
+$string['framesize'] = '頁框大小';
 $string['fulltext'] = '文字內容';
 $string['htmlfragment'] = '網頁片段';
 $string['imspackageloaded'] = '教材包已載入';
@@ -95,6 +100,7 @@ $string['previous'] = '上一頁';
 $string['redeploy'] = '重新部署';
 $string['repository'] = 'IMS倉庫';
 $string['resource:view'] = '查看資源';
+$string['resourcedefaulturl'] = '預設的網址';
 $string['resourcetype'] = '資源型態';
 $string['resourcetype1'] = '參考文獻';
 $string['resourcetype2'] = '網頁';
@@ -117,11 +123,13 @@ $string['serverurl'] = '伺服器的 URL ($a->wwwroot)';
 $string['showcourseblocks'] = '顯示課程區塊';
 $string['skipsubmenus'] = '跳過子選單頁面';
 $string['tableofcontents'] = '目錄';
+$string['tableofcontentsabbrev'] = 'TOC';
 $string['upbutton'] = '向上';
 $string['variablename'] = '變數名稱';
 $string['viewims'] = '查看IMS課程包';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = '警告：刪除操作被現存的資源阻止。首先更新您的資源，或者請管理員在全網站資源配置中禁止這項安全機制。';
 $string['warningdisabledrename'] = '警告：自動重新命名資源中引用項目的名稱，這機制已停用。如需要，請手動更新受影響的資源。管理員也可以在全站資源配置中使自動重命名有效。';
+$string['websearchdefault'] = '預設的搜尋引擎';
 
 ?>

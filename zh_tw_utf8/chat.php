@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // chat.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['beep'] = '呼叫';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a 呼叫您';
 $string['messageenter'] = '$a 加入該聊天';
 $string['messageexit'] = '$a 退出該聊天';
 $string['messages'] = '訊息';
+$string['method'] = '聊天方式';
 $string['methoddaemon'] = '聊天伺服器daemon';
 $string['methodnormal'] = '普通模式';
 $string['modulename'] = '聊天室';
@@ -48,15 +49,25 @@ $string['nomessages'] = '尚無訊息';
 $string['normalkeepalive'] = '保持連線';
 $string['normalstream'] = '串流';
 $string['noscheduledsession'] = '沒有已安排會議';
+$string['oldping'] = '逾時斷線';
+$string['pastchats'] = '過去的聊天內容';
+$string['refreshroom'] = '更新聊天室';
+$string['refreshuserlist'] = '更新用戶列表';
+$string['removemessages'] = '刪除所有訊息';
 $string['repeatdaily'] = '每天的此刻';
 $string['repeatnone'] = '無回覆';
 $string['repeattimes'] = '回覆主題';
 $string['repeatweekly'] = '每週的此刻';
-$string['savemessages'] = '保存過去的主題';
-$string['seesession'] = '查看主題';
-$string['sessions'] = '聊天主題';
+$string['savemessages'] = '保存過去的聊天內容';
+$string['seesession'] = '查看聊天內容';
+$string['serverhost'] = '伺服器名稱';
+$string['serverip'] = '伺服器IP';
+$string['servermax'] = '最大用戶數';
+$string['serverport'] = '伺服器連接埠';
+$string['sessions'] = '聊天內容';
 $string['strftimemessage'] = '%%H:%%M';
-$string['studentseereports'] = '所有人都可查看過去的議題';
-$string['viewreport'] = '看過去的議題';
+$string['studentseereports'] = '所有人都可查看過去的聊天內容';
+$string['updatemethod'] = '更新方式';
+$string['viewreport'] = '看過去的聊天內容';
 
 ?>

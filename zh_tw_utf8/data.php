@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // data.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['action'] = '操作';
@@ -8,11 +8,13 @@ $string['addafield'] = '新增欄位';
 $string['addcomment'] = '新增評論';
 $string['addentries'] = '新增資料';
 $string['addtemplate'] = '新增樣板';
+$string['advancedsearch'] = '進階搜尋';
 $string['allowcomments'] = '允許評論？';
 $string['allowratings'] = '允許評分？';
 $string['alttext'] = '替代文字';
 $string['approve'] = '核准';
 $string['ascending'] = '升冪';
+$string['asearchtemplate'] = '進階搜尋的樣板';
 $string['atmaxentry'] = '您輸入的資料量已經超過達到上限！';
 $string['autogenallforms'] = '產生所有預設樣板';
 $string['autolinkurl'] = '自動連結網址';
@@ -56,6 +58,7 @@ $string['defaultfielddelimiter'] = '（預設是逗點字元）';
 $string['defaultfieldenclosure'] = '（預設為無）';
 $string['defaultsortfield'] = '預設排序欄位';
 $string['delete'] = '刪除';
+$string['deleteallentries'] = '刪除所有條目';
 $string['deletecomment'] = '您確定要刪除這個評論';
 $string['deleted'] = '已刪除';
 $string['deletefield'] = '刪除現有欄位';
@@ -105,6 +108,7 @@ $string['forcelinkname'] = '強制為連結取名';
 $string['fromfile'] = '從 zip 壓縮檔案匯入';
 $string['header'] = '頁首';
 $string['headeraddtemplate'] = '定義編輯資料的介面';
+$string['headerasearchtemplate'] = '訂定進階搜尋的介面';
 $string['headercsstemplate'] = '定義其他樣板的本地端 CSS 風格';
 $string['headerjstemplate'] = '為其他樣板自訂 Javascript';
 $string['headerlisttemplate'] = '定義多筆資料的瀏覽介面';
@@ -192,6 +196,7 @@ $string['recordssaved'] = '資料儲存了';
 $string['requireapproval'] = '請求審核？';
 $string['requiredentries'] = '必要資料';
 $string['requiredentriestoview'] = '檢視前需要的基本資料量';
+$string['resetsettings'] = '重設欄位';
 $string['resettemplate'] = '重設樣板';
 $string['resizingimages'] = '調整縮圖大小...';
 $string['rows'] = '列';
@@ -206,6 +211,7 @@ $string['saveaspreset'] = '儲存為預設值';
 $string['savesettings'] = '儲存設定';
 $string['savesuccess'] = '儲存成功，您的預設值現在開始可以在網站使用。';
 $string['savetemplate'] = '儲存樣板';
+$string['search'] = '搜尋';
 $string['sendinratings'] = '送到我最新的評分';
 $string['showall'] = '顯示所有資料';
 $string['single'] = '檢視單筆';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // block_rss_client.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addfeed'] = '新增一條新聞彙集網址：';
@@ -30,6 +30,7 @@ $string['feedupdated'] = '新聞彙集已更新';
 $string['findmorefeeds'] = '查找更多RSS彙集';
 $string['managefeeds'] = '管理我的全部彙集';
 $string['nofeeds'] = '此站尚未訂定RSS彙集。';
+$string['numentries'] = '傳送每一個新聞彙集';
 $string['pickfeed'] = '選擇一個新聞彙集';
 $string['remotenewsfeed'] = '遠端的新聞彙集';
 $string['rss_client:createprivatefeeds'] = '建立私人的RSS彙集';
@@ -40,7 +41,9 @@ $string['seeallfeeds'] = '查看所有的彙集';
 $string['sharedfeed'] = '分享的彙集';
 $string['shownumentrieslabel'] = '每個區塊最多顯示幾條。';
 $string['submitters'] = '允許誰來定義新的RSS彙集？已定義的彙集可以用在您網站上的任何頁面。';
+$string['submitters2'] = '上傳者';
 $string['timeout'] = '讀取RSS逾時';
+$string['timeout2'] = '逾時';
 $string['timeoutdesc'] = 'RSS彙集在快取記憶體中的保留時間(分鐘)';
 $string['updatefeed'] = '更新一新聞彙集網址：';
 $string['validatefeed'] = '檢驗彙集';

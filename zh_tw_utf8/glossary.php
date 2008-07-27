@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // glossary.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addcomment'] = '新增註解';
@@ -29,6 +29,7 @@ $string['categories'] = '類別';
 $string['category'] = '類別';
 $string['categorydeleted'] = '類別已被刪除';
 $string['categoryview'] = '依類別瀏覽';
+$string['changeto'] = '變換為{$a}';
 $string['cnfallowcomments'] = '在條目處是否允許對辭典進行評論';
 $string['cnfallowdupentries'] = '是否允許辭典有重複的條目';
 $string['cnfapprovalstatus'] = '設定預設的學生所提交的條目的待審狀態';
@@ -51,12 +52,14 @@ $string['commentupdated'] = '註解已經更新';
 $string['concept'] = '概念';
 $string['concepts'] = '概念';
 $string['configenablerssfeeds'] = '此設定將啟動辭典的RSS功能,您可以在每個辭典中分別設定';
+$string['current'] = '目前的排列 {$a}';
 $string['currentglossary'] = '目前的辭典';
 $string['dateview'] = '按日期瀏覽';
 $string['defaultapproval'] = '預設的審核狀態';
 $string['definition'] = '定義';
 $string['definitions'] = '定義';
 $string['deleteentry'] = '刪除條目';
+$string['deletenotenrolled'] = '由未選課的用戶刪除條目';
 $string['deletingcomment'] = '刪除註解';
 $string['deletingnoneemptycategory'] = '刪除這個類別將不會一併刪除包含的詞彙，這些內容將被標示成未分類。';
 $string['descending'] = '遞減排序';
@@ -160,6 +163,8 @@ $string['ratingsuse'] = '允許評比';
 $string['ratingtime'] = '將對條目的評論日期限定在以下範圍:';
 $string['rejectedentries'] = '已拒絕條目';
 $string['rejectionrpt'] = '拒絕條目報告';
+$string['resetglossaries'] = '刪除條目由';
+$string['resetglossariesall'] = '從所有辭典中刪除條目';
 $string['rsssubscriberss'] = '顯示概念“{$a}”的RSS匯集';
 $string['searchindefinition'] = '全文檢索';
 $string['secondaryglossary'] = '副辭典';
@@ -182,6 +187,12 @@ $string['withauthor'] = '概念(含作者)';
 $string['withoutauthor'] = '概念(不含作者)';
 $string['writtenby'] = '作者是';
 $string['youarenottheauthor'] = '您不是該評論的作者, 故您無權編輯它.';
+$string['author'] = '作者'; // ORPHANED
+$string['cat'] = '類別'; // ORPHANED
+$string['date'] = '日期'; // ORPHANED
+$string['defaultmode'] = '預設模式'; // ORPHANED
+$string['defaultsortkey'] = '預設的排序值'; // ORPHANED
+$string['defaultsortorder'] = '預設的排序順序'; // ORPHANED
 $string['exportedfile'] = '匯出的檔案'; // ORPHANED
 $string['glosssaryexported'] = '匯出的辭典'; // ORPHANED
 

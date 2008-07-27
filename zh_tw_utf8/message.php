@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // message.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addcontact'] = '增加聯絡人';
@@ -27,11 +27,13 @@ $string['includeblockedusers'] = '包括黑名單';
 $string['incomingcontacts'] = '新的聯絡人 ({$a})';
 $string['keywords'] = '關鍵字';
 $string['keywordssearchresults'] = '搜尋結果: 找到{$a}條簡訊';
+$string['mailsent'] = '將透過電子郵件發送簡訊';
 $string['maxmessages'] = '最多顯示多少條互動歷史簡訊';
 $string['message'] = '簡訊';
 $string['messagehistory'] = '歷史簡訊';
 $string['messages'] = '簡訊';
 $string['messaging'] = '傳簡訊';
+$string['messagingdisabled'] = '網站中已禁用簡訊功能，將以電子郵件發送來取代。';
 $string['mycontacts'] = '我的通訊錄';
 $string['newonlymsg'] = '只顯示新的';
 $string['newsearch'] = '新的搜尋';

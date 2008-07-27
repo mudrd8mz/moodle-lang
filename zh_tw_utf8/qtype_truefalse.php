@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // qtype_truefalse.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // qtype_truefalse.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
+$string['addingtruefalse'] = '新增一題是非題';
 $string['correctanswer'] = '正確答案';
 $string['editingtruefalse'] = '編輯是非題';
 $string['false'] = '錯誤';

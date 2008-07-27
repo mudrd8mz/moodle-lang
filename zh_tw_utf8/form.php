@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // form.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addfields'] = '新增$a 欄位到表單中';
@@ -30,9 +30,11 @@ $string['othersettings'] = '其他設定';
 $string['requiredelement'] = '必填欄位';
 $string['revealpassword'] = '揭露';
 $string['security'] = '安全';
+$string['selectallornone'] = '選擇全部/或不選';
 $string['showadvanced'] = '顯示進階設定';
 $string['somefieldsrequired'] = '表單中有($a)標記的欄位是一定要選填輸入的.';
 $string['timing'] = '定時';
+$string['unmaskpassword'] = '顯示';
 $string['year'] = '年';
 
 ?>

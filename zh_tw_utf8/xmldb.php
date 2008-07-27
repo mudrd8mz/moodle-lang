@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // xmldb.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['aftertable'] = '放在此資料表後：';
@@ -111,6 +111,7 @@ $string['viewedited'] = '檢視';
 $string['vieworiginal'] = '檢視';
 $string['viewphpcode'] = '檢視PHP程式碼';
 $string['viewsqlcode'] = '檢視SQL語法';
+$string['wrong'] = '錯誤';
 $string['wronglengthforenum'] = '列舉(enum)欄位的長度不正確';
 $string['wrongnumberoffieldsorvalues'] = '子句中欄位或值的數量不正確';
 $string['wrongreservedwords'] = '目前使用的保留字<br/>（如果資料表名稱使用{$CFG->prefix}，就不用留意這個問題）';

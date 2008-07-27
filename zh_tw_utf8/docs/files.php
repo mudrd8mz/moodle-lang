@@ -1,4 +1,4 @@
-<?php // $Id$
+﻿<?php // $Id$
       // Names of the documentation files
       // Files with a definition "-" are treated as spacers
 

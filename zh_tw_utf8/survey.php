@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // survey.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['actual'] = '實際的';
@@ -154,6 +154,8 @@ $string['collespintro'] = '本問卷是用來幫助我們瞭解您對本線上�
 非常謝謝您的合作!';
 $string['collespname'] = '學習環境問卷(期待的想法)';
 $string['customintro'] = '自訂介紹';
+$string['deleteallanswers'] = '刪除問卷所有的回答';
+$string['deleteanalysis'] = '刪除問卷回答的分析';
 $string['done'] = '完成';
 $string['download'] = '下載';
 $string['downloadexcel'] = '以 Execl 格式下載';
@@ -183,6 +185,7 @@ $string['question'] = '問題';
 $string['questions'] = '問題';
 $string['questionsnotanswered'] = '部份複選題尚未被回答';
 $string['report'] = '問卷報告';
+$string['responses'] = '回應';
 $string['savednotes'] = '您的注解已經儲存';
 $string['scaleagree5'] = '非常不同意,不同意,沒意見,部分同意,非常同意';
 $string['scales'] = '比例';

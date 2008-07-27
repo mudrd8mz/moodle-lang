@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // hotpot.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['abandoned'] = '放棄';
@@ -38,6 +38,7 @@ $string['error_nofeedbackurlwebpage'] = '請輸入網頁的網址';
 $string['error_nofilename'] = '請輸入一個檔名';
 $string['error_noquizzesfound'] = '沒有Hot Potatoes 測驗';
 $string['error_notfileorfolder'] = '&quot;$a&quot; 並非檔案或資料夾';
+$string['excelencodings'] = 'Excel 編碼';
 $string['feedbackformmail'] = '回饋單';
 $string['feedbackmoodleforum'] = 'Moodle 討論區';
 $string['feedbackmoodlemessaging'] = 'Moodle 簡訊';
@@ -139,6 +140,7 @@ $string['resultssaved'] = '測驗結果已儲存';
 $string['score'] = '分數';
 $string['showhtmlsource'] = '顯示HTML原始碼';
 $string['shownextquiz'] = '顯示下一個測驗';
+$string['showtimes'] = '顯示處理次數';
 $string['showxmlsource'] = '顯示XML原始碼';
 $string['showxmltree'] = '顯示XML樹狀圖';
 $string['specifictime'] = '特定的時間';

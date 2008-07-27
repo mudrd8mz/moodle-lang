@@ -1,20 +1,24 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // calendar.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['advancedoptions'] = '進階選項';
+$string['allday'] = '全部';
 $string['calendar'] = '行事曆';
 $string['calendarheading'] = '{$a} 行事曆';
 $string['clickhide'] = '點選可隱藏';
 $string['clickshow'] = '點選可顯示';
 $string['commontasks'] = '選項';
 $string['confirmeventdelete'] = '您確定要刪除這個事件嗎？';
+$string['course'] = '課程';
 $string['courseevent'] = '課程事件';
 $string['courseevents'] = '課程事件';
+$string['courses'] = '課程';
 $string['dayview'] = '日行事曆';
 $string['daywithnoevents'] = '這一天沒有任何事件';
 $string['default'] = '預設';
 $string['deleteevent'] = '刪除事件';
+$string['deleteevents'] = '刪除事件';
 $string['detailedmonthview'] = '詳細的月行事曆';
 $string['durationminutes'] = '持續多少分鐘';
 $string['durationnone'] = '不持續';
@@ -37,6 +41,7 @@ $string['eventnone'] = '沒事';
 $string['eventrepeat'] = '重複';
 $string['eventsall'] = '所有事件';
 $string['eventsfor'] = '$a  事件';
+$string['eventskey'] = '事件關鍵字';
 $string['eventsrelatedtocourses'] = '課程相關事件';
 $string['eventstarttime'] = '開始時間';
 $string['eventtime'] = '時間';
@@ -55,9 +60,11 @@ $string['for'] = '為';
 $string['fri'] = '五';
 $string['friday'] = '星期五';
 $string['generateurlbutton'] = '取得行事曆網址';
+$string['global'] = '全站';
 $string['globalevent'] = '全站事件';
 $string['globalevents'] = '全站事件';
 $string['gotocalendar'] = '進入行事曆';
+$string['group'] = '群組';
 $string['groupevent'] = '群組事件';
 $string['groupevents'] = '群組事件';
 $string['hidden'] = '隱藏';
@@ -116,6 +123,7 @@ $string['typesite'] = '網站全體事件';
 $string['typeuser'] = '使用者事件';
 $string['upcomingevents'] = '即將來臨的事件';
 $string['urlforical'] = 'iCalendar 匯出的網址，可用來訂閱行事曆';
+$string['user'] = '用戶';
 $string['userevent'] = '使用者事件';
 $string['userevents'] = '使用者事件';
 $string['wed'] = '三';

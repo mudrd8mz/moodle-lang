@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // scorm.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['activation'] = '啟動';
@@ -26,6 +26,7 @@ $string['contents'] = '目錄';
 $string['coursepacket'] = '課程包裹';
 $string['coursestruct'] = '課程結構';
 $string['datadir'] = '檔案系統錯誤：無法建立課程資料目錄';
+$string['deleteallattempts'] = '刪除所有SCORM使用紀錄';
 $string['details'] = 'SCO 追蹤細節';
 $string['directories'] = '顯示目錄連結';
 $string['display'] = '顯示';
@@ -134,7 +135,7 @@ $string['statusbar'] = '顯示狀態列';
 $string['student_response'] = '回答';
 $string['suspended'] = '中止';
 $string['syntax'] = '語法錯誤';
-$string['tag_error'] = '內容為$a->value的($a->tag)是不知名的標籤';
+$string['tag_error'] = '內容為$a->value的($a->tab)是不知名的標籤';
 $string['time'] = '時間';
 $string['title'] = '標題';
 $string['too_many_attributes'] = '標籤$a->tag 太多屬性了';
@@ -151,6 +152,7 @@ $string['validationtype'] = '此偏好在設定正式版的SCORM所使用的DOMX
 $string['value'] = '值';
 $string['versionwarning'] = '$a->tag標籤出現警告:現存版本比1.3還舊，';
 $string['viewallreports'] = '檢視{$a}次的使用報告';
+$string['viewalluserreports'] = '檢視{$a}位用戶的報告';
 $string['whatgrade'] = '使用評分';
 $string['width'] = '寬度';
 $string['window'] = '視窗';

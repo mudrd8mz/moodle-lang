@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // blog.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['addnewentry'] = '新增文章';
-$string['addotags'] = '新增正式標籤';
-$string['addptags'] = '新增自訂標籤';
+$string['backupblogshelp'] = '如果開啟此項設定，部落格資料將在網站自動備份時加入備份。';
 $string['blockmenutitle'] = '部落格選單';
 $string['blocktagstitle'] = '部落格標籤';
 $string['blocktitle'] = '部落格標籤區塊的標題';
@@ -34,10 +33,8 @@ $string['norighttodeletetag'] = '您沒有刪除這個標籤的權限 - $a';
 $string['notallowedtoedit'] = '您沒有編輯這篇文章的權限';
 $string['numberofentries'] = '文章數量： $a';
 $string['numberoftags'] = '要顯示的標籤數量';
-$string['otags'] = '正式標籤';
 $string['pagesize'] = '每頁顯示部落格文章數量';
 $string['personalblogs'] = '使用者只能夠檢視自己的部落格';
-$string['ptags'] = '使用者自訂標籤';
 $string['publishto'] = '發佈到';
 $string['publishtonoone'] = '您自己（草稿）';
 $string['publishtosite'] = '網站上任何人';
@@ -56,6 +53,10 @@ $string['viewcourseentries'] = '檢視課程文章';
 $string['viewmyentries'] = '檢視我的文章';
 $string['viewsiteentries'] = '檢視網站文章';
 $string['worldblogs'] = '全世界都能夠檢視您的文章';
+$string['addotags'] = '新增正式標籤'; // ORPHANED
+$string['addptags'] = '新增自訂標籤'; // ORPHANED
+$string['otags'] = '正式標籤'; // ORPHANED
+$string['ptags'] = '使用者自訂標籤'; // ORPHANED
 $string['entrydeleted'] = '部落格文章已刪除'; // ORPHANED
 
 ?>

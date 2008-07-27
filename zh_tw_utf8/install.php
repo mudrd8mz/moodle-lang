@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // install.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['admindirerror'] = '指定的管理目錄不正確';
@@ -40,10 +40,22 @@ $string['databasesettingssub'] = '<b>資料庫系統:</b> mysql 或 postgres7<br
 <b>資料表的前置字元:</b> 針對所有資料表名稱，選擇性的前置字元';
 $string['databasesettingssub_mssql'] = '<b>類型：</b> SQL*Server (非UTF-8) <b><font color=\"red\">實驗的！(不能用在產品中)</font></b><br /> <b>主機：</b> 例如，localhost 或者 db.isp.com<br /> <b>名稱：</b> 資料庫名稱：例如 moodle<br /> <b>帳號：</b> 您的資料庫帳號<br /> <b>密碼：</b> 您的資料庫密碼<br /> <b>資料表的前置字元：</b> 在所有的表格名稱前加上前置字元 (強制的)';
 $string['databasesettingssub_mssql_n'] = '<b>類型：</b> SQL*Server (UTF-8 可以)<br /> <b>主機：</b> 例如，localhost或者db.isp.com<br /> <b>名稱：</b>資料庫名稱，例如moodle<br /> <b>帳號：</b> 您的資料庫帳號<br /> <b>密碼：</b> 您的資料庫密碼<br /> <b>表格前置字元：</b> 在所有的表格名稱前加上字首 (強制的)';
-$string['databasesettingssub_mysql'] = '<b>類型：</b> MySQL<br /> <b>主機：</b> 例如，localhost或者db.isp.com<br /> <b>名稱：</b> 資料庫名稱，例如moodle<br /> <b>帳號：</b> 您的資料庫帳號<br /> <b>密碼：</b> 您的資料庫密碼<br /> <b>表格前置字元：</b> 在所有的表格名稱前加上字首（可選的）';
+$string['databasesettingssub_mysql'] = '<b>類型：</b> MySQL<br/> 
+<b>主機：</b> 例如，localhost或者db.dn.edu.tw<br/>
+<b>名稱：</b> 資料庫名稱，例如moodle<br/>
+<b>帳號：</b> 您的資料庫帳號<br/> 
+<b>密碼：</b> 您的資料庫密碼<br/> 
+<b>表格前置字元：</b>在所有的表格名稱前加上字首（可自選的）';
+$string['databasesettingssub_mysqli'] = '<b>類型：</b> 改良的MySQL<br/> 
+<b>主機：</b> 例如，localhost或者db.dn.edu.tw<br/>
+<b>名稱：</b> 資料庫名稱，例如moodle<br/>
+<b>帳號：</b> 您的資料庫帳號<br/> 
+<b>密碼：</b> 您的資料庫密碼<br/> 
+<b>表格前置字元：</b>在所有的表格名稱前加上字首（可自選的）';
 $string['databasesettingssub_oci8po'] = '<b>類型:</b> Oracle<br /> <b>主機:</b> 不需要，必須留空<br /> <b>名稱:</b> 給出tnsnames.ora連接的名稱<br /> <b>帳號:</b> 您的資料庫帳號<br /> <b>密碼:</b> 您的資料庫密碼<br /> <b>表格字首:</b> 在所有的表格名稱前加上字首(強制的, 最大2cc.)';
 $string['databasesettingssub_odbc_mssql'] = '<b>類型:</b> SQL*Server (超過 ODBC) <b><font color=\"red\">實驗的! (不可用在產品中)</font></b><br /> <b>主機:</b> 給出ODBC控制面板中DSN的名字<br /> <b>名稱：</b> 資料庫名稱，例如moodle<br /> <b>帳號:</b> 您的資料庫帳號<br /> <b>密碼:</b> 您的資料庫密碼<br /> <b>表格字首:</b> 在所有的表格名稱前加上字首(強制的)';
 $string['databasesettingssub_postgres7'] = '<b>類型:</b> PostgreSQL<br /> <b>主機:</b> 例如，localhost或者db.isp.com<br /> <b>名稱：</b> 資料庫名稱，例如moodle<br /> <b>帳號:</b> 您的資料庫帳號<br /> <b>密碼:</b> 您的資料庫密碼<br /> <b>表格字首:</b> 在所有的表格名稱前加上字首(強制的)';
+$string['databasesettingswillbecreated'] = '<b>註:</b>如果資料庫不存在，安裝程式將會自動建立';
 $string['dataroot'] = '資料目錄';
 $string['datarooterror'] = '您所指定的\'資料目錄\'找不到或無法建立。請更正路徑，或者手動建立該目錄。';
 $string['dbconnectionerror'] = '無法連到您指定的資料庫,請查檢您的資料庫設定';
@@ -73,7 +85,7 @@ $string['directorysettingssub'] = '<b>網站位址：</b> 指定存取 Moodle �
 $string['dirroot'] = 'Moodle目錄';
 $string['dirrooterror'] = '此\'Moodle目錄\'設定似乎不正確-我們無法在這兒找到Moodle安裝程式。下列數值已經重設。';
 $string['download'] = '下載';
-$string['downloadlanguagebutton'] = '下載這 &quot;$a&quot; 語言包';
+$string['downloadlanguagebutton'] = '下載 \"{$a}\" 語言包';
 $string['downloadlanguagehead'] = '下載語言包';
 $string['downloadlanguagenotneeded'] = '您可以用預設的語言包 \"{$a}\" 繼續安裝過程。';
 $string['downloadlanguagesub'] = '您現在可以選擇下載一個語言包然後用指定的語言繼續安裝過程。<br /><br />如果您無法下載語言包，安裝過程會繼續以英文繼續進行。（只要安裝完成，您還是可以下載、安裝其他的語言包）';
@@ -136,6 +148,8 @@ $string['mssql_n'] = '支援UTF-8的SQL*Server(mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP的 MSSQL擴充套件並未適當安裝，因此無法與SQL*Server連通。請檢查您的php.ini檔案或重新編譯PHP。';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP用MySQL延伸指令作無法正常架設，此延伸指令讓PHP可以跟MySQL做溝通。請檢查php.ini檔或者重新編譯PHP。';
+$string['mysqli'] = '改良的MySQL(mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP的MySQLi延伸套件沒有適當設置。為了可以和MySQL連線，請檢查您的php.ini檔案或重新編譯PHP。針對PHP4，MySQLi延伸套件不能使用。';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP的OCI8擴充套件並未適當安裝，因此無法與Oracle連通。請檢查您的php.ini檔案或重新編譯PHP。';
 $string['odbc_mssql'] = '經由ODBC的SQL*Server (odbc_mssql)';
