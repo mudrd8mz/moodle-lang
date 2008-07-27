@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080727) (2008072600)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -222,6 +222,7 @@ $string['configsectionsecurity'] = '보안';
 $string['configsectionstats'] = '통계';
 $string['configsectionuser'] = '사용자';
 $string['configsecureforms'] = '무들은 웹 폼에서 데이터를 받을 때 추가적인 보안 레벨을 사용할 수 있다. 만약 이것을 활성화하면, 브라우저의 HTTP_REFERER 변수는 현재의 form adress와 교차로 확인된다. 매우 드믄 경우이지만, 만약 이용자가 웹 트래픽으로부터 벗어나기 위해 HTTP_REFERER를 제거하도록 설정한 방화벽을 사용할 경우 문제를 야기할 수 있다. 그 증상은 폼에 갇혀 버리는 것이다. 예를들어 만약 당신의 유저들이 로그인하는데 문제를 가지고 있다면, 사이트를 brute-force password 공격에 더 노출 시킬지라도, 이 설정을 꺼 둘 수 있다. 자신이 없으면, \'예\'로 놓아라.';
+$string['configsendcoursewelcomemessage'] = '이를 활성화해 놓으면 사용자가 강좌에 등록하면 환영메세지를 보여 줍니다.';
 $string['configsessioncookie'] = '이 설정은 무들세션을 위해 사용하는 쿠기의 이름을 지정하는 것이다. 이것은 선택적이고, 같은 웹사이트에서 하나 이상의 무들 프로그램이 구동되어 쿠키의 혼동이 생길 우려가 있을 때만 유용하다.';
 $string['configsessioncookiepath'] = '브라우저가 무들 쿠키를 전송하는 위치를 변경하려면 이 곳에 특정 디렉토리를 설정하면 된다. 그냥 두면 기본값인 \'/\'로 설정된다.';
 $string['configsessiontimeout'] = '사이트에 로그인한 사람이 오랫동안 아무 일도 안하고 시간을 허비한다면, 일정 시간 후에 자동적으로 로그아웃 된다(세션 종료). 이 변수는 이 시간의 길이를 규정한다.';
@@ -243,6 +244,7 @@ $string['configstatsmaxruntime'] = '통계 처리과정은 부하가 매우 많�
 $string['configstatsmaxruntime2'] = '통계 처리는 매우 집중적일 수 있기 때문에, 하루의 통계를 처리하는데 있어 허용할 수 있는 최대 시간을 지정한다. 한번의 cron 실행으로 처리할 수 있는 최대 날 수는 3일이다.';
 $string['configstatsruntimestart'] = '언제 자동으로 통계 프로세스를 <b>가동</b>할까?';
 $string['configstatsuserthreshold'] = '만일 강좌의 순위를 정하기 위해 여기에 0이 아닌 숫자를 넣으면, 이 숫자보다 작은 동록인원(학생수+교수자수)이 등록되어 있는 강좌는 무시될 것이다.';
+$string['configstripalltitletags'] = '기본적으로 활동이나 게시물, 블로그 등의 제목에서 모든 HTML 태그를 제거합니다. 만일 태그를 그냥 두고 싶으면 체크표시를 해제하십시오.';
 $string['configsupportemail'] = '이 이메일 주소는 새 계정을 신청한 이용자가 일반적인 도움말이 필요할 경우 반송 주소로 공개될 것입니다. 이 이메일 주소를 입력하지 않은 경우에는 사용할 수 있는 이메일 주소는 제공되지 않습니다.';
 $string['configsupportname'] = '이는 보조 이메일이나 웹주소를 통해 일반적인 도움말을 제공할 때 쓰여지는 이름입니다.';
 $string['configsupportpage'] = '이 웹 주소는 새 계정을 신청한 이용자가 일반적인 도움말이 필요할 경우 접속 주소로 공개될 것입니다. 이 웹 주소를 입력하지 않은 경우에는 접속할 수 있는 링크가 제공되지 않습니다.';
@@ -414,6 +416,7 @@ $string['hidefromnone'] = '아무에게도 감추지  않음';
 $string['hidefromstudents'] = '학생에게 감춤';
 $string['htmleditor'] = '웹 편집기';
 $string['htmleditorsettings'] = 'HTML 편집기 설정';
+$string['htmlsettings'] = 'HTML 설정';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP 보안';
 $string['iconvrecommended'] = '당신의 사이트가 라틴언어계열이 아닌 언어를 지원하는 경우, 사이트의 성능을 향상시키기 위해서는 ICONV라이브러리를 설치할 것을 권장합니다.';
@@ -648,6 +651,7 @@ $string['searchresults'] = '검색 결과';
 $string['sectionerror'] = '섹션 오류!';
 $string['secureforms'] = '추가적인 보안 형식 사용';
 $string['security'] = '보안';
+$string['sendcoursewelcomemessage'] = '강좌 환영 메시지 전송';
 $string['server'] = '서버';
 $string['serverchecks'] = '서버 점검';
 $string['serverlimit'] = '서버 한계';
@@ -684,6 +688,7 @@ $string['stickyblockscourseview'] = '기본 강좌';
 $string['stickyblocksduplicatenotice'] = '만일 여기에 블럭을 첨가했는데 그것이 이미 어떤 페이지에 표시되어 있다면, 두 개가 겹쳐질 것입니다.<br />이때 원래의 블럭은 편집을 하지 못하게 되나 복사된 블럭은 여전히 편집할 수 있습니다.';
 $string['stickyblocksmymoodle'] = '내 공부방';
 $string['stickyblockspagetype'] = '환경설정 페이지 양식';
+$string['stripalltitletags'] = '제목의 HTML 태그 제거';
 $string['supportemail'] = '보조 이메일';
 $string['supportname'] = '보조 이름';
 $string['supportpage'] = '보조 화면';
