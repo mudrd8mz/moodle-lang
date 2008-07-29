@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080728) (2008072800)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -98,6 +98,7 @@ $string['parameter'] = 'パラメータ';
 $string['parameters'] = 'パラメータ';
 $string['popupresource'] = 'このリソースは、ポップアップウィンドウに表示されます。';
 $string['popupresourcelink'] = 'ウィンドウが表示されない場合はここをクリック： $a';
+$string['portfolionotimplemented'] = 'あなたは、サポートされていないリソースタイプからコンテンツをエクスポートしようと試みています!';
 $string['preview'] = 'プレビュー';
 $string['previous'] = '前へ';
 $string['redeploy'] = '再配置';

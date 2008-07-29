@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080725) (2008072500)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080728) (2008072800)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -41,6 +41,15 @@ $string['cannotunsubscribe'] = 'あなたをフォーラムからメール購読
 $string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。';
 $string['cannotviewpostyet'] = 'まだ投稿していないため、あなたは他の学生の質問を読むことはできません。';
 $string['cleanreadtime'] = '古い投稿を既読とする時刻';
+$string['completiondiscussions'] = 'ユーザは次の件数のディスカッションを作成する必要があります:';
+$string['completiondiscussionsgroup'] = 'ディスカッションを必要とする';
+$string['completiondiscussionshelp'] = '完了するには、ディスカッションを必要とする';
+$string['completionposts'] = 'ユーザは次の件数のディスカッションまたは返信を投稿する必要があります:';
+$string['completionpostsgroup'] = '投稿を必要とする';
+$string['completionpostshelp'] = '完了するには、ディスカッションまたは返信を必要とする';
+$string['completionreplies'] = 'ユーザは次の件数の返信を投稿する必要があります:';
+$string['completionrepliesgroup'] = '返信を必要とする';
+$string['completionreplieshelp'] = '完了するには、返信を必要とする';
 $string['configcleanreadtime'] = '古い投稿を「既読」テーブルからクリアする時刻 (時) です。';
 $string['configdisplaymode'] = '表示モードが設定されていない場合、ディスカッションで使用されるデフォルト表示モードです。';
 $string['configenablerssfeeds'] = 'すべてのフォーラムのRSS使用を有効にします。ここで設定しても、各フォーラムでRSSフィードを手動で設定する必要があります。';
