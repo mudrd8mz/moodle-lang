@@ -1,20 +1,24 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080724) (2008072402)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080729) (2008072800)
 
 
 $string['allattempts'] = 'すべての受験';
 $string['allattemptsavg'] = 'すべての受験評点の平均値';
 $string['allattemptscount'] = '受験総数';
+$string['analysisofresponses'] = '解答分析';
 $string['attempts'] = '受験';
 $string['attemptsall'] = 'すべての受験';
 $string['attemptsfirst'] = '最初の受験';
 $string['calculatefrom'] = '統計計算:';
 $string['cic'] = '内部整合性係数 ($a)';
 $string['coursename'] = 'コース名';
+$string['detailedanalysis'] = 'この問題に対する解答の詳細分析';
 $string['discrimination_index'] = '識別指数';
 $string['discriminative_efficiency'] = '識別率';
 $string['duration'] = '公開期間';
 $string['effective_weight'] = '有効加重';
+$string['errordeletingqstats'] = '古いquiz_question_statisticsレコードの削除中にエラーが発生しました。';
+$string['errordeletingquizstats'] = '古いquiz_statisticsレコードの削除中にエラーが発生しました。';
 $string['erroritemappearsmorethanoncewithdifferentweight'] = '問題 ($a) では、小テストの異なる位置において、1つ以上の異なる加重が設定されています。現在、統計レポートで、このような設定はサポートされていません。また、この小テスト統計の信頼性が損なわれる恐れがあります。';
 $string['errormedian'] = '中央値の取得中にエラーが発生しました。';
 $string['errorpowerquestions'] = '問題評点の分散を計算するデータの取得中にエラーが発生しました。';
@@ -31,7 +35,12 @@ $string['kurtosis'] = '評点分布の尖度 ($a)';
 $string['lastcalculated'] = '最終計算日時 $a->lastcalculated より $a->count attempts 件の受験がありました。';
 $string['median'] = '評点の中央値 ($a)';
 $string['nostudentsingroup'] = 'このグループには、まだ学生が登録されていません。';
+$string['position'] = 'ポジション';
+$string['positions'] = 'ポジション';
+$string['questioninformation'] = '問題情報';
+$string['questionname'] = '問題名';
 $string['questionnumber'] = '問題#';
+$string['questionstatistics'] = '問題統計';
 $string['questiontype'] = '問題タイプ';
 $string['quizinformation'] = '小テスト情報';
 $string['quizname'] = '小テスト名';
@@ -44,6 +53,7 @@ $string['standarddeviation'] = '標準偏差 ($a)';
 $string['standarddeviationq'] = '標準偏差';
 $string['standarderror'] = '標準誤差 ($a)';
 $string['statistics'] = '統計';
+$string['statisticsreportgraph'] = '問題ポジションの統計';
 $string['statsfor'] = '小テスト統計 ($a)';
 $string['noofallattempts'] = '合計受験数'; // TBD
 $string['nooffirstattempts'] = '最初の受験数'; // TBD

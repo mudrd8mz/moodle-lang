@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080728) (2008072800)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080729) (2008072800)
 
 
 $string['addnewportfolio'] = '新しいポートフォリオを追加する';
@@ -13,6 +13,10 @@ $string['configure'] = '設定';
 $string['confirmexport'] = '次のエクスポートを確認してください。';
 $string['confirmsummary'] = 'あなたのエクスポートの要約';
 $string['continuetoportfolio'] = 'あなたのポートフォリオを続ける';
+$string['deleteportfolio'] = 'ポートフォリオインスタンスを削除する';
+$string['disabled'] = '申し訳ございません、このサイトではポートフォリオエクスポートは有効にされていません。';
+$string['enabled'] = 'ポートフォリオを有効にする';
+$string['enableddesc'] = 'ポートフォリオを有効にすることで、ユーザがコンテンツをエクスポートできるよう、管理者がリモートシステムを設定することができます。';
 $string['err_uniquename'] = 'ポートフォリオ名は、(プラグインごとに) ユニークにしてください。';
 $string['exportcomplete'] = 'ポートフォリオのエクスポートが完了しました!';
 $string['exporting'] = 'ポートフォリオへのエクスポート';
