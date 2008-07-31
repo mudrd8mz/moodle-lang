@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -880,6 +880,8 @@ $string['memberincourse'] = 'Mensen in de cursus';
 $string['messagebody'] = 'Inhoud van het bericht';
 $string['messagedselectedusers'] = 'De geselecteerde gebruikers hebben het bericht gekregen en de lijst met ontvangers is leeggemaakt';
 $string['messagedselectedusersfailed'] = 'Er ging wat fout tijdens het versturen van het bericht naar de geselecteerde gebruikers. Sommigen kunnen de boodschap gekregen hebben, anderen niet.';
+$string['messageprovider:errors'] = 'Site vertoont belangrijke fouten';
+$string['messageprovider:notices'] = 'Opmerkingen over kleine problemen';
 $string['messageselect'] = 'Selecteer deze gebruiker om e-mail te ontvangen';
 $string['messageselectadd'] = 'Voeg toe / stuur bericht';
 $string['metaaddcourse'] = 'Voeg deze cursus toe';
@@ -910,6 +912,7 @@ $string['missinglastname'] = 'Achternaam ontbreekt';
 $string['missingname'] = 'Naam ontbreekt';
 $string['missingnewpassword'] = 'Nieuw wachtwoord ontbreekt';
 $string['missingpassword'] = 'Wachtwoord ontbreekt';
+$string['missingrecaptchachallengefield'] = 'Ontbrekend reCAPTCHA challenge veld';
 $string['missingreqreason'] = 'Motivatie ontbreekt';
 $string['missingshortname'] = 'Korte naam ontbreekt';
 $string['missingshortsitename'] = 'Korte naam van de site ontbreekt';
@@ -1200,6 +1203,8 @@ $string['rename'] = 'Hernoem';
 $string['renamefileto'] = 'Hernoem <b>$a</b> naar';
 $string['report'] = 'Rapport';
 $string['reports'] = 'Logs';
+$string['repositories'] = 'Bibliotheken';
+$string['repositoriesmanage'] = 'Beheer bibliotheken';
 $string['requestcourse'] = 'Vraag een nieuwe cursus';
 $string['requestedby'] = 'Gevraagd door';
 $string['requestreason'] = 'Motivatie voor de vraag';
@@ -1490,15 +1495,18 @@ $string['updatinga'] = 'Een $a wijzigen';
 $string['updatingain'] = 'Een $a->what wijzigen in $a->in';
 $string['upload'] = 'Upload';
 $string['uploadafile'] = 'Upload een bestand';
+$string['uploadcantwrite'] = 'Schrijven naar schijf mislukt';
 $string['uploadedfile'] = 'Bestand met succes geüpload';
 $string['uploadedfileto'] = '$a->file is geüpload naar $a->directory';
 $string['uploadedfiletoobig'] = 'Sorry, maar dit bestand is te groot (limiet is $a bytes)';
+$string['uploadextension'] = 'Bestandsupload gestopt bij extentie';
 $string['uploadfailednotrecovering'] = 'Je bestandsupload is mislukt omdat er een probleem was met één van de bestanden, $a->name.<br/>Hier is een log van de problemen:<br/>$a->problem<br/>Niet te herstellen.';
 $string['uploadfilelog'] = 'Uploadlog voor bestand $a';
 $string['uploadformlimit'] = 'Het geüploade bestand is groter dan de maximumgrootte ingesteld op het formulier';
 $string['uploadlabel'] = 'Titel:';
 $string['uploadnofilefound'] = 'Er is geen bestand gevonden - weet je zeker dat je een bestand geselecteerd hebt om te uploaden?';
 $string['uploadnotallowed'] = 'Uploads niet toegestaan';
+$string['uploadnotempdir'] = 'Tijdelijke map ontbreekt';
 $string['uploadoldfilesdeleted'] = 'Het oude bestand(en) in je uploadzone is verwijderd';
 $string['uploadpartialfile'] = 'Het bestand was slechts gedeeltelijk geüpload';
 $string['uploadproblem'] = 'Een was een onbekend probleem tijdens het uploaden van bestand \'$a\' (was het misschien te groot?)';
