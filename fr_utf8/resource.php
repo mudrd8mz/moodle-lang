@@ -96,6 +96,7 @@ $string['parameter'] = 'Paramètre';
 $string['parameters'] = 'Paramètres';
 $string['popupresource'] = 'Cette ressource apparaîtra dans une fenêtre pop-up';
 $string['popupresourcelink'] = 'Dans le cas contraire, cliquez ici&nbsp;: $a';
+$string['portfolionotimplemented'] = 'Vous essayez d\'exporter du contenu depuis un type de ressource qui ne le permet pas&nbsp;!';
 $string['preview'] = 'Prévisualisation';
 $string['previous'] = 'Précédent';
 $string['redeploy'] = 'Déployer à nouveau';
