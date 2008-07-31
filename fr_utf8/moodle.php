@@ -903,6 +903,7 @@ $string['missinglastname'] = 'Le nom ne peut pas être vide';
 $string['missingname'] = 'Le nom ne peut pas être vide';
 $string['missingnewpassword'] = 'Le nouveau mot de passe ne peut pas être vide';
 $string['missingpassword'] = 'Le mot de passe ne peut pas être vide';
+$string['missingrecaptchachallengefield'] = 'Le champ reCAPTCHA est manquant';
 $string['missingreqreason'] = 'Veuillez renseigner la raison';
 $string['missingshortname'] = 'Le nom abrégé ne peut pas être vide';
 $string['missingshortsitename'] = 'Le nom abrégé du site ne peut pas être vide';
