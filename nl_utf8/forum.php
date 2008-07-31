@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -23,6 +23,7 @@ $string['allsubscribe'] = 'Ik wil mail van alle forums';
 $string['allunsubscribe'] = 'Ik wil van geen enkel forum mail';
 $string['anyfile'] = 'Een bestand';
 $string['attachment'] = 'Bijlage';
+$string['attachmentnopost'] = 'Je kunt bijlagen niet exporteren zonder post ID';
 $string['blockafter'] = 'Maximum berichten voor blokkeren';
 $string['blockperiod'] = 'Blokkeertijd';
 $string['blockperioddisabled'] = 'Niet blokkeren';
@@ -30,12 +31,21 @@ $string['bynameondate'] = 'door  $a->name  - $a->date';
 $string['cannotadddiscussion'] = 'Om discussies aan dit forum te kunnen toevoegen, moet je lid zijn van deze groep';
 $string['cannotadddiscussionall'] = 'Je hebt het recht niet om een nieuw discussieonderwerp te starten voor alle deelnemers.';
 $string['cannotaddsubscriber'] = 'Kon gebruiker met ID $a niet inschrijven voor het ontvangen van e-mail van dit forum!';
+$string['cannotfindfirstpost'] = 'Kon het eerste bericht van dit forum niet vinden';
 $string['cannotfindorcreateforum'] = 'Kon geen nieuwforum maken of vinden voor deze site';
 $string['cannotinsertrate'] = 'Kon nieuwe beoordeling niet toevoegen ($a[0] = $a[1])';
 $string['cannotremovesubscriber'] = 'Kon gebruiker met ID $a niet uitschrijven voor het ontvangen van e-mail van dit forum!';
+$string['cannotsubscribe'] = 'Je moet lid van een groep zijn om email van dit forum te kunnen ontvangen.';
+$string['cannottrack'] = 'Kon het volgen van dit forum niet stoppen';
+$string['cannotunsubscribe'] = 'Kon er niet voor zorgen dat je van dit forum geen mail meer ontvangt.';
 $string['cannotupdaterate'] = 'Kon een vroegere beoordeling niet updaten ($a[0] = $a[1])';
 $string['cannotviewpostyet'] = 'Je kunt de vragen van andere leerlingen in deze discussie nog niet lezen, omdat je zelf nog niets gepost hebt';
 $string['cleanreadtime'] = 'Markeer oude berichten als gelezen';
+$string['completiondiscussions'] = 'Gebruiker moet discussies starten:';
+$string['completiondiscussionsgroup'] = 'Discussies vereist';
+$string['completiondiscussionshelp'] = 'discussies vereist om af te werken';
+$string['completionposts'] = 'Gebruiker moet discussies starten of beantwoorden:';
+$string['completionpostsgroup'] = 'Berichten vereist';
 $string['configcleanreadtime'] = 'Het uur van de dag waarop oude berichten van de \'gelezen\'-tabel moeten verwijderd worden.';
 $string['configdisplaymode'] = 'De standaardmanier voor het weergeven van discussies als er geen methode is ingesteld.';
 $string['configenablerssfeeds'] = 'Met deze instelling kun je de mogelijkheid voor het maken van RSS-feeds inschakelen voor alle forums. Je zult wel nog voor elk forum afzonderlijk het maken van de RSS-feeds moeten  inschakelen.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // error.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -11,6 +11,7 @@ $string['blockcannotinistantiate'] = 'Probleem met het inistialiseren van het bl
 $string['blockcannotread'] = 'Kon gegevens voor blokid=$a niet lezen';
 $string['blockdoesnotexist'] = 'Dit blok bestaat niet';
 $string['blocknameconflict'] = 'Naamconflikt: blok $a[0] heeft dezelfde titel als een ander blok: $a[1]!';
+$string['boundsyntaxnotsupport'] = 'Pg $1, $2 bound syntax nog niet ondersteund :-(';
 $string['cannofindgradeitem'] = 'Kan grade_item niet vinden';
 $string['cannotaddblock'] = 'Blok $a kon niet toegevoegd worden aan de blokkenlijst!';
 $string['cannotaddcmtosection'] = 'Kon geen nieuwe cursusmodule toevoegen in die sectie';
@@ -188,6 +189,7 @@ $string['ddlunknownerror'] = 'Onbekende DLL-bibliotheekfout';
 $string['ddlxmlfileerror'] = 'XML databankbestandsfouten gevonden';
 $string['destinationcmnotexit'] = 'De bestemde cursusmodule bestaat niet';
 $string['downloadedfilecheckfailed'] = 'Controle van het gedownloade bestand mislukt';
+$string['duplicateparaminsql'] = 'FOUT: dubbele parameternaam in query';
 $string['duplicaterolename'] = 'Er is al een rol met die naam!';
 $string['duplicateroleshortname'] = 'Er is al een rol met deze korte naam!';
 $string['duplicateusername'] = 'Gebruikersnaam bestaat al - record genegeerd';
@@ -256,11 +258,13 @@ $string['invalidmodule'] = 'Ongeldige module';
 $string['invalidmoduleid'] = 'Ongeldige module ID: $a';
 $string['invalidmodulename'] = 'Ongeldige modulenaam: $a';
 $string['invalidnum'] = 'Ongeldige numerieke waarde';
+$string['invalidnumkey'] = '$conditions array mag geen nummerieke sleutels bevatten. Verbeter de code!';
 $string['invalidoutcome'] = 'Ongeldig competentie ID';
 $string['invalidpagesize'] = 'Ongeldige paginagrootte';
 $string['invalidpaymentmethod'] = 'Ongeldige betalingsmetode: $a';
 $string['invalidrequest'] = 'Ongeldige vraag';
 $string['invalidrole'] = 'Ongeldige rol';
+$string['invalidroleid'] = 'Ongeldige rol ID';
 $string['invalidscaleid'] = 'Ongeldige schaal ID';
 $string['invalidsection'] = 'Cursusmodulerecord bevat ongeldige sectie';
 $string['invalidseeky'] = 'Foute sesskey ingestuurd; formulier kon niet aanvaard worden!';
@@ -293,6 +297,7 @@ $string['missingparameter'] = 'Ontbrekende parameter';
 $string['missingrequiredfield'] = 'Vereist veld ontbreekt';
 $string['missinguseranditemid'] = 'Ontbrekende gebruikers ID en item ID';
 $string['missingvarname'] = 'Vereiste variable ontbreekt!';
+$string['mixedtypesqlparam'] = 'FOUT: gemengde types sql query parameters!';
 $string['mnetdisable'] = 'mnet is uitgeschakeld';
 $string['mnetlocal'] = 'MNET gebruikers op afstand kunnen niet lokaal aanmelden.';
 $string['moduledisable'] = 'Deze module ($a) is voor deze cursus uitgeschakeld';
@@ -315,6 +320,7 @@ $string['noguest'] = 'Geen gasten hier!';
 $string['noinstances'] = 'Er is niets te vinden van $a in deze cursus!';
 $string['nologinas'] = 'Je hebt het recht niet in te loggen als die gebruiker';
 $string['nonmeaningfulcontent'] = 'Geen zinnige inhoud';
+$string['noparticipants'] = 'Geen gebruikers gevonden in deze cursus';
 $string['noparticipatorycms'] = 'Sorry, maar je hebt geen vereiste cursusmodules om over te rapporteren';
 $string['nopermissions'] = 'Sorry, maar je hebt nu niet het recht om dat te doen ($a).';
 $string['nopermissiontocomment'] = 'Je kunt geen commentaren toevoegen in deze woordenlijst';
@@ -376,6 +382,7 @@ $string['tagdisabled'] = 'Tags zijn uitgeschakeld!';
 $string['tagnotfound'] = 'Die tag kon niet in de databank gevonden worden';
 $string['themenotinstall'] = 'Dit thema is niet geïnstalleerd';
 $string['transactionvoid'] = 'Transactie kan niet geannuleerd worden omdat ze al geannuleerd is.';
+$string['typenotimplement'] = 'TODO: nog niet geïmplementeerd';
 $string['unenrolerror'] = 'Er is een fout opgetreden bij het afmelden van die gebruiker.';
 $string['unicodeupgradeerror'] = 'Sorry, maar je databank is nog niet in Unicode en deze versie van Moodle kan je databank niet naar Unicode migreren.
 Upgrade eerst naar Moodle 1.7.x en doe de Unicode migratie vanuit de Beheerpagina. Daarna zou je moeten kunnen upgraden naar Moodle $a';

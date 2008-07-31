@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // message.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
 
 
 $string['addcontact'] = 'Voeg contactpersoon toe';
@@ -20,14 +20,20 @@ $string['context'] = 'context';
 $string['deletemessagesdays'] = 'Aantal dagen voor oude boodschappen automatisch verwijderd worden';
 $string['disabled'] = 'De berichtenservice is uitgeschakeld op deze site';
 $string['discussion'] = 'Discussie';
+$string['editmymessage'] = 'Berichten';
 $string['emailmessages'] = 'Stuur berichten door als e-mail wanneer ik offline ben';
 $string['emailtagline'] = 'Deze e-mail is een kopie van een bericht dat naar jou gestuurd is op \"$a\"';
 $string['emptysearchstring'] = 'Je moet iets zoeken';
 $string['formorethan'] = 'Langer offline dan';
+$string['general_config'] = 'Algemene instellingen';
+$string['guestnoeditmessage'] = 'Gastgebruiker kan berichtopties niet wijzigen';
+$string['guestnoeditmessageother'] = 'Gastgebruiker kan berichtopties van andere gebruikers niet wijzigen';
 $string['includeblockedusers'] = 'Geblokkeerde bezoekers inbegrepen';
 $string['incomingcontacts'] = 'Binnenkomende contactpersonen ($a)';
 $string['keywords'] = 'Sleutelwoorden';
 $string['keywordssearchresults'] = 'Zoekresultaten: $a berichten gevonden';
+$string['loggedin'] = 'Ingelogd:';
+$string['loggedoff'] = 'Uitgelogd:';
 $string['mailsent'] = 'Je bericht is verzonden via e-mail.';
 $string['maxmessages'] = 'Maximum aantal berichten dat in de discussiegeschiedenis getoond mag worden';
 $string['message'] = 'Bericht';
@@ -50,6 +56,10 @@ $string['onlyfromme'] = 'Enkel mijn berichten';
 $string['onlymycourses'] = 'Enkel in mijn cursussen';
 $string['onlytome'] = 'Enkel berichten aan mij';
 $string['pagerefreshes'] = 'Deze pagina ververst automatisch om de $a seconden';
+$string['processor_config'] = 'Bestemmingsconfiguratie';
+$string['processortag'] = 'Bestemming:';
+$string['providers_config'] = 'Berichtbronnen';
+$string['providerstag'] = 'Bron:';
 $string['readmessages'] = '$a gelezen berichten';
 $string['removecontact'] = 'Verwijder contactpersoon';
 $string['savemysettings'] = 'Bewaar mijn instellingen';
