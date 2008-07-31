@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
 
 
 $string['abouttobeinstalled'] = 'yüklenmek üzere';
@@ -876,6 +876,8 @@ $string['memberincourse'] = 'Dersteki kişiler';
 $string['messagebody'] = 'Mesaj içeriği';
 $string['messagedselectedusers'] = 'Seçili kullanıcılara mesaj gönderildi ve alıcı listesi temizlendi.';
 $string['messagedselectedusersfailed'] = 'Seçili kullanıcılara mesaj gönderilirken bazı şeyler yanlış gitti. Bazıları emaili almış olabilir.';
+$string['messageprovider:errors'] = 'Sitedeki önemli hatalar';
+$string['messageprovider:notices'] = 'Küçük sorunlar hakkındaki bilgilendirmeler';
 $string['messageselect'] = 'Bu kullanıcıyı e-posta alıcısı olarak seç';
 $string['messageselectadd'] = 'Ekle / mesaj gönder';
 $string['metaaddcourse'] = 'Bu dersi ekle';
@@ -1196,6 +1198,8 @@ $string['rename'] = 'Yeniden adlandır';
 $string['renamefileto'] = '<b>$a</b> değiştir:';
 $string['report'] = 'Rapor';
 $string['reports'] = 'Raporlar';
+$string['repositories'] = 'Depolar';
+$string['repositoriesmanage'] = 'Depoları yönet';
 $string['requestcourse'] = 'Ders iste';
 $string['requestedby'] = 'İsteyen';
 $string['requestreason'] = 'Ders isteme sebebi';
@@ -1485,15 +1489,18 @@ $string['updatinga'] = 'Güncelleniyor: $a';
 $string['updatingain'] = '$a->in\'deki bir $a->what güncelleniyor';
 $string['upload'] = 'Yükle';
 $string['uploadafile'] = 'Bir dosya yükle';
+$string['uploadcantwrite'] = 'Diske yazılırken hata oluştu';
 $string['uploadedfile'] = 'Dosya başarıyla yüklendi';
 $string['uploadedfileto'] = '$a->file, $a->directory dizinine yüklendi';
 $string['uploadedfiletoobig'] = 'Üzgünüz bu dosya çok büyük (sınır: $a byte)';
+$string['uploadextension'] = 'Dosya yükleme eklenti tarafından durduruldu';
 $string['uploadfailednotrecovering'] = 'Dosyalarından bir tanesinde, $a->name, sorun olduğu için dosya yüklemesi başarısız oldu. <br />Sorunla ilgili hata kayıtları:<br />$a->problem<br />Dosya kurtarılamıyor.';
 $string['uploadfilelog'] = '$a dosyası için yükleme kaydı';
 $string['uploadformlimit'] = 'Gönderilen dosya formda ayarlanan dosya boyutu sınırını aşıyor';
 $string['uploadlabel'] = 'Başlık:';
 $string['uploadnofilefound'] = 'Dosya bulunamadı. Bir dosya seçtiğinizden emin misiniz?';
 $string['uploadnotallowed'] = 'Yüklemelere izin yok';
+$string['uploadnotempdir'] = 'Geçici klasör yok';
 $string['uploadoldfilesdeleted'] = 'Yükleme klasöründeki eski dosyalar silindi';
 $string['uploadpartialfile'] = 'Dosyanın sadece birazı yüklendi';
 $string['uploadproblem'] = '\'$a\' dosyası gönderilirken bilinmeyen bir hata oluştu (dosya çok büyük olabilir)';

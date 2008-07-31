@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';
@@ -88,6 +88,7 @@ $string['choosemethod'] = 'Kursun kayıt anahtarını biliyorsanız lütfen aşa
 $string['chooseone'] = 'Aşağıdaki iki alandan birini veya ikisini doldurun. Şifre gösterilmez.';
 $string['costdefaultdesc'] = 'Bu varsayılan ayarı kullanmak için, <strong>kurs ayarlarında ücret alanına -1</strong> girin.';
 $string['cutofftime'] = 'Hesap Kesim Zamanı. En son işlem ne zaman karara bağlanacak?';
+$string['dataentered'] = 'Veri girildi';
 $string['delete'] = 'Sil';
 $string['description'] = 'Authorize.net modülü Kredi Kartı sağlayıcılarıyla ücretli kurslar ayarlamanıza olanak verir. Bir kursun ücreti sıfır ise öğrencilere ödeme yapmaları için bir istekte bulunulmaz. Kurs ücretini iki şekilde ayarlayabilirsiniz. (1) Sitenin geneli için ayarlayabileceğiniz varsayılan bir tutar vardır ve ayrıca (2) her bir dersin ücretini tek tek de ayarlayabilirsiniz. Kurs ücreti ayarlanırsa site genelindeki ücret yoksayılır.<br /><br /><b>Not:</b> Kurs ayarlarında kayıt anahtarını girdiyseniz öğrenciler bu anahtara göre de kayıt olma seçeneğine sahip olabileceklerdir. Bu, öğrecilerden bazılarının ödeme yaparak bazılarının da kayıt anahtarına göre kayıt olmasını istiyorsanız kullanışlıdır.';
 $string['echeckabacode'] = 'Banka ABA Numarası';

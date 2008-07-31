@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -142,6 +142,8 @@ $string['markunreadbutton'] = 'Okunmadı olarak<br />işaretle';
 $string['maxattachmentsize'] = 'Dosya yükleme sınırı';
 $string['maxtimehaspassed'] = '($a) için düzeltme süresi doldu!';
 $string['message'] = 'Mesaj';
+$string['messageprovider:digests'] = 'Abone olunan forum özetleri';
+$string['messageprovider:posts'] = 'Abone olunan forum mesajları';
 $string['modeflatnewestfirst'] = 'Yanıtları yeniler önce olacak şekilde düz göster';
 $string['modeflatoldestfirst'] = 'Yanıtları eskiler önce olacak şekilde düz göster';
 $string['modenested'] = 'Yanıtları içiçe göster';

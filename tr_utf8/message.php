@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
+      // message.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
 
 
 $string['addcontact'] = 'Kişi ekle';
@@ -20,14 +20,20 @@ $string['context'] = 'içerik';
 $string['deletemessagesdays'] = 'Eski mesajlar otomatik olarak silinmeden önce geçecek gün sayısı';
 $string['disabled'] = 'Mesajlaşma bu sitede etkinleştirilmemiş';
 $string['discussion'] = 'Tartışma';
+$string['editmymessage'] = 'Mesajlaşma';
 $string['emailmessages'] = 'Çevrimdışı olduğumda email gönder';
 $string['emailtagline'] = 'Bu email, size \"$a\" tarihinde gönderilen mesajların kopyasıdır';
 $string['emptysearchstring'] = 'Bir şeyler aramalısınız';
 $string['formorethan'] = 'Bu süreyi geçerse';
+$string['general_config'] = 'Genel Seçenekler';
+$string['guestnoeditmessage'] = 'Konuk kullanıcı mesajlaşma seçeneklerini düzenleyemez';
+$string['guestnoeditmessageother'] = 'Konuk kullanıcı diğer kullanıcıların mesajlaşma seçeneklerini düzenleyemez';
 $string['includeblockedusers'] = 'Engellenmiş kullanıcılar dahil';
 $string['incomingcontacts'] = 'Gelen Kişiler ($a)';
 $string['keywords'] = 'Anahtar sözcükler';
 $string['keywordssearchresults'] = 'Arama sonuçları: $a mesaj bulundu';
+$string['loggedin'] = 'Sistemdeyken';
+$string['loggedoff'] = 'Çıkıldığında';
 $string['mailsent'] = 'Mesajınız e-posta olarak gönderildi.';
 $string['maxmessages'] = 'Tartışma geçmişinde görünecek en fazla mesaj sayısı';
 $string['message'] = 'Mesaj';
@@ -50,6 +56,10 @@ $string['onlyfromme'] = 'Sadece benden gidenler';
 $string['onlymycourses'] = 'Sadece aldığım dersleri alanlar içinden';
 $string['onlytome'] = 'Sadece bana gelenler';
 $string['pagerefreshes'] = 'Bu sayfa her $a saniyede bir yenilenir';
+$string['processor_config'] = 'Hedef Yapılandırmaları';
+$string['processortag'] = 'Hedef:';
+$string['providers_config'] = 'Mesaj Kaynakları';
+$string['providerstag'] = 'Kaynak:';
 $string['readmessages'] = '$a okunmuş mesaj';
 $string['removecontact'] = 'Kişiyi sil';
 $string['savemysettings'] = 'Ayarlarımı kaydet';
