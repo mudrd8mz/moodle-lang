@@ -1,9 +1,10 @@
 <?php // $Id$
 
 $string['responses'] = 'Réponses';
+$string['responsesdownload'] = 'Téléchargement des réponses';
 $string['responsesoptions'] = 'Options des réponses';
 $string['responsestitle'] = 'Réponses';
-$string['pagesize'] = 'Tentatives par page&nbsp;: ';
-$string['reportresponses'] = 'Réponses détaillées';
+$string['pagesize'] = 'Taille de page';
+$string['reportresponses'] = 'Réponses';
 
 ?>
