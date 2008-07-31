@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -7,9 +7,12 @@ $string['accounts'] = 'Hesaplar';
 $string['adminseesall'] = 'Yöneticiler Hepsini Görür';
 $string['adminseesallevents'] = 'Yöneticiler bütün olayları görür';
 $string['adminseesownevents'] = 'Yöneticiler diğer kullanıcılar gibidir';
+$string['allowbeforeblock'] = 'Önce izin verilenleri işleme al';
+$string['allowbeforeblockdesc'] = 'Varsayılan olarak, engellenenler listesi ilk önce işleme alınır. Bu ayar etkinleştirilirse izin verilen IP\'ler, engellenenler listesinden önce işleme alınır.';
 $string['allowcategorythemes'] = 'Kategori teması izni';
 $string['allowcoursethemes'] = 'Ders teması izni';
 $string['allowdeletes'] = 'Silme izni';
+$string['allowediplist'] = 'İzin Verilen IP Adresleri Listesi';
 $string['allowemailaddresses'] = 'İzin verilen eposta alan adları';
 $string['allowobjectembed'] = 'EMBED ve OBJECT etiket izni';
 $string['allowrenames'] = 'Yeniden adlandırabilir';
@@ -369,6 +372,7 @@ $string['hidefromnone'] = 'Hiç kimseden saklama';
 $string['hidefromstudents'] = 'Öğrencilerden sakla';
 $string['htmleditor'] = 'HTML düzenleyici';
 $string['htmleditorsettings'] = 'HTML düzenleyici ayarları';
+$string['htmlsettings'] = 'HTML ayarları';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP güvenliği';
 $string['iconvrecommended'] = 'Sitenizde latin olmayan dilleri kullanıyorsanız isteğe bağlı ICONV kütüphanesinin kurulması site performansını arttırmak için şiddetle tavsiye edilir.';
@@ -383,6 +387,7 @@ $string['installedlangs'] = 'Kurulu dil paketleri';
 $string['intcachemax'] = 'En fazla dahili önbellek';
 $string['invalidsection'] = 'Geçersiz bölüm.';
 $string['invaliduserchangeme'] = '\"changeme\" kullanıcı adı rezerve edildiğinden dolayı bu hesabı oluşturamazsınız.';
+$string['ipblocked'] = 'Bu siteye şu anda ulaşılamaz.';
 $string['ipblocker'] = 'IP Engelleyici';
 $string['iplookup'] = 'IP adresi araması';
 $string['lang'] = 'Varsayılan dil';
@@ -526,6 +531,7 @@ $string['profilefieldmaxlength'] = 'En fazla uzunluk';
 $string['profilefieldrows'] = 'Satırlar';
 $string['profilefields'] = 'Kullanıcı profil alanları';
 $string['profilefieldsize'] = 'Görünüm boyutu';
+$string['profilefieldtypecheckbox'] = 'Seçme kutusu';
 $string['profilefieldtypemenu'] = 'Seçenekler menüsü';
 $string['profilefieldtypetext'] = 'Metin girişi';
 $string['profilefieldtypetextarea'] = 'Uzun metin';
@@ -563,6 +569,8 @@ $string['recaptchapublickey'] = 'ReCAPTCHA açık anahtar';
 $string['releasenoteslink'] = 'Moodle\'ın bu sürümü hakkında bilgi için lütfen çevrimiçi <a target=\"_new\" href=\"$a\">Sürüm Notlarına</a> bakınız';
 $string['remotelangnotavailable'] = 'download.moodle.org adresine bağlantı kurulamadığından dolayı dil paketi güncellemesi tamamlanamadı. Lütfen aşağıdaki listeden uygun zip dosyasını/dosyalarını indirin ve dil paketlerini elle bu klasöre açın: $a';
 $string['renameerrors'] = 'Yeniden adlandırmada hata';
+$string['repsettings'] = 'Depoları yönet';
+$string['repsettingsgeneral'] = 'Genel depo ayarları';
 $string['restrictbydefault'] = 'Varsayılan eklenti sınırlaması';
 $string['restrictmodulesfor'] = 'Eklentileri sınırla';
 $string['riskconfig'] = 'Kullanıcılar, site yapılandırmasını ve davranışını değiştirebilir';
@@ -585,6 +593,7 @@ $string['searchresults'] = 'Arama Sonuçları';
 $string['sectionerror'] = 'Bölüm Hatası!';
 $string['secureforms'] = 'Ek form güvenliği kullan';
 $string['security'] = 'Güvenlik';
+$string['sendcoursewelcomemessage'] = 'Derse hoşgeldin mesajını gönder';
 $string['server'] = 'Sunucu';
 $string['serverchecks'] = 'Sunucu Kontrolleri';
 $string['serverlimit'] = 'Sunucu Sınırı';
@@ -621,6 +630,7 @@ $string['stickyblockscourseview'] = 'Ders sayfası';
 $string['stickyblocksduplicatenotice'] = 'Belirli bir sayfada zaten var olan bloğu buraya eklerseniz aynısının kopyası oluşacaktır.<br />Sadece sabit blok düzenlenemez, ancak kopya blok düzenlenebilir.';
 $string['stickyblocksmymoodle'] = 'Kişisel moodle';
 $string['stickyblockspagetype'] = 'Yapılandırılacak sayfa tipi';
+$string['stripalltitletags'] = 'Tüm etkinlik isimlerinden HTML etiketlerini sil';
 $string['supportemail'] = 'Destek e-posta';
 $string['supportname'] = 'Destek ismi';
 $string['supportpage'] = 'Destek sayfası';
@@ -663,6 +673,7 @@ $string['uploadpicture_userfield'] = 'Resimle eşleştirilecek kullanıcı özel
 $string['uploadpicture_userupdated'] = '$a kullanıcısı için resim yüklendi.';
 $string['uploadpictures'] = 'Kullanıcı resimleri yükle';
 $string['upwards'] = 'yukarısı';
+$string['useexternalyui'] = 'Çevrimiçi YUI kütüphanelerini kullan';
 $string['usehtmleditor'] = 'HTML düzenleyicisini kullan';
 $string['useraccountupdated'] = 'Kullanıcı güncellendi';
 $string['userbulk'] = 'Toplu kullanıcı eylemleri';
