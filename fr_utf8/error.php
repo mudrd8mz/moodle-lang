@@ -290,7 +290,7 @@ $string['messagingdisable'] = 'La messagerie est désactivée sur ce site';
 $string['mimetexisnotexist'] = 'Votre serveur n\'est pas configurer que faire tourner mimeTeX. Veuillez télécharger le programme approprié à votre plateforme sur <a href=\"http://moodle.org/download/mimetex/\">http://moodle.org/download/mimetex/</a>, ou les sources en C du programme ici <a href=\"http://www.forkosh.com/mimetex.zip\"> http://www.forkosh.com/mimetex.zip</a>, les compiler et placer le programme dans le dossier moodle/filter/tex/';
 $string['mimetexnotexecutable'] = 'Votre programme mimetex n\'est pas exécutable&nbsp;!';
 $string['missingfield'] = 'Le champ «&nbsp;$a&nbsp;» est manquant';
-$string['missingkeyinsql'] = 'Erreur&nbsp;: paramètre «&nbsp;$a&nbsp;» manquant dans la requête'
+$string['missingkeyinsql'] = 'Erreur&nbsp;: paramètre «&nbsp;$a&nbsp;» manquant dans la requête';
 $string['missingparam'] = 'Un paramètre requis ($a) est manquant';
 $string['missingparameter'] = 'Paramètre manquant';
 $string['missingrequiredfield'] = 'Un champ obligatoire n\'est pas renseigné';
