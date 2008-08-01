@@ -273,8 +273,8 @@ $string['odbc_mssql'] = 'SQL*Server ODBC üzerinden (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHP, SQL*Server ile iletişim kurabilmek için odbc uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['pass'] = 'Geçti';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP, PostgreSQL ile iletişim kurabilmek için pgsql uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
-$string['php52versionerror'] = 'En düşük PHP 5.2.0 sürümü gerekli';
-$string['php52versionhelp'] = '<p>Moodle en düşük PHP 5.2.0 sürümü ile çalışır.</p>
+$string['php52versionerror'] = 'En düşük PHP 5.2.4 sürümü gerekli';
+$string['php52versionhelp'] = '<p>Moodle en düşük PHP 5.2.4 sürümü ile çalışır.</p>
 <p>Şu anda çalışan sürüm $a</p>
 <p>PHP güncellemesi yapmalı veya en yeni PHP sürümü kullanan bir hostinge taşınmalısınız!</p>';
 $string['phpversion'] = 'PHP sürümü';
