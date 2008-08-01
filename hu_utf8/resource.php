@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.4+ (2007021540)
+      // resource.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addresource'] = 'Tananyag hozzáadása';
@@ -9,6 +9,7 @@ $string['autofilerename'] = 'Ugrópont frissítése az állomány átnevezése e
 $string['back'] = 'Vissza';
 $string['blockdeletingfile'] = 'Hivatkozott állományok törlésének megakadályozása';
 $string['browserepository'] = 'Adattár böngészése';
+$string['cannotupdate'] = 'A tananyag frissítése nem sikerült';
 $string['choose'] = 'Választás';
 $string['chooseafile'] = 'Állomány kiválasztása vagy feltöltése';
 $string['chooseparameter'] = 'Paraméter kiválasztása';
@@ -54,6 +55,8 @@ $string['framesize'] = 'Keret mérete';
 $string['fulltext'] = 'Szöveg';
 $string['htmlfragment'] = 'HTML-részlet';
 $string['imspackageloaded'] = 'Csomag betöltve.';
+$string['invalidassignment'] = 'hibás feladat';
+$string['invalidid'] = 'Hibás volt a tananyag-azonosító';
 $string['keepnavigationvisible'] = 'Látható maradjon az oldalnavigálás ugyanazon az oldalon';
 $string['localfile'] = 'Helyi állomány';
 $string['localfilechoose'] = 'Helyi állomány (CD-ROM) kiválasztása';

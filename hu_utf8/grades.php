@@ -1,7 +1,7 @@
-<?PHP // $Id$ 
-      // grades.php - created with Moodle 1.8.4+ (2007021540)
+<?PHP // $Id$
 
 
+$string['aggregationcoefextrasumhelp'] = 'Külön kreditpont ezért a pontozási tételért összesítés közben.';
 $string['activities'] = 'Tevékenységek';
 $string['addcategory'] = 'Kategória hozzáadása';
 $string['addcategoryerror'] = 'Kategória hozzáadása nem sikerült.';
@@ -348,6 +348,7 @@ $string['nopublish'] = 'Ne tegye közzé';
 $string['noselectedcategories'] = 'nem voltak kiválasztva kategóriák.';
 $string['noselecteditems'] = 'nem voltak kiválasztva tételek.';
 $string['notteachererror'] = 'Ennek a használatához tanárnak kell lennie.';
+$string['nousersloaded'] = 'Nincs betöltve felhasználó';
 $string['numberofgrades'] = 'Pontok száma';
 $string['onascaleof'] = '$a->grademin és $a->grademax közötti skálán';
 $string['operations'] = 'Műveletek';
@@ -501,6 +502,7 @@ $string['usergrade'] = '$a->fullname ($a->useridnumber) felhasználó $a->gradei
 $string['userkeyhelp'] = 'Válasszon ki egy elmentett kulcsot, mellyel a felhasználók elérhetik az exportáló segédprogrammal közzétett adatokat anélkül, hogy be kellene jelentkezniük a Moodle-ba. Az Új felhasználókulcs létrehozása kiválasztásával az űrlap leadásakor új kulcsot állíthat elő.';
 $string['userpreferences'] = 'Felhasználói beállítások';
 $string['useweighted'] = 'Súlyozás használata';
+$string['verbosescales'] = 'Szöveges skálák';
 $string['viewbygroup'] = 'Csoport';
 $string['viewgrades'] = 'Pontok kijelzése';
 $string['weight'] = 'súly';

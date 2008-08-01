@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8.4+ (2007021540)
+<?PHP // $Id$
+      // blog.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addnewentry'] = 'Új bejegyzés hozzáadása';
@@ -9,13 +9,20 @@ $string['blocktagstitle'] = 'Blogcímkék';
 $string['blocktitle'] = 'Blogcímkék blokkcíme';
 $string['blog'] = 'Blog';
 $string['blogdeleteconfirm'] = 'Törli ezt a blogot?';
+$string['blogdisable'] = 'A blogolás ki van kapcsolva!';
 $string['blogpreferences'] = 'Blogbeállítások';
 $string['blogs'] = 'Blogok';
 $string['blogtags'] = 'Blogcímkék';
+$string['cannotviewcourseblog'] = 'Nincs engedélye a kurzus blogjainak megtekintéséhez';
+$string['cannotviewcourseorgroupblog'] = 'Nincs engedélye a kurzus/csoport blogjainak megtekintéséhez';
+$string['cannotviewsiteblog'] = 'Nincs engedélye a portál összes blogjának a megtekintéséhez';
 $string['courseblog'] = '$a kurzusblog';
+$string['courseblogdisable'] = 'A kurzusblog nincs bekapcsolva';
 $string['courseblogs'] = 'A felhasználók csak a kurzusban részt vevők számára írt blogüzeneteket láthatják';
 $string['deleteotagswarn'] = 'Biztosan eltávolítja ez(eke)t a címké(ke)t minden blogüzenetből és törli a rendszerből?';
+$string['deleteposterror'] = 'Hiba történt az üzenet törlése közben';
 $string['disableblogs'] = 'A blogrendszer teljes kikapcsolása';
+$string['donothaveblog'] = 'Önnek nincs saját blogja.';
 $string['emptybody'] = 'A blogüzenet törzse nem lehet üres';
 $string['emptytitle'] = 'A blogüzenet címe nem lehet üres';
 $string['entrybody'] = 'Blogüzenet törzse';
@@ -25,7 +32,9 @@ $string['entrysaved'] = 'Az üzenet elmentése megtörtént';
 $string['entrytitle'] = 'Üzenet címe';
 $string['entryupdated'] = 'Blogüzenet frissítve';
 $string['groupblog'] = 'Csoportblog: $a';
+$string['groupblogdisable'] = 'A csoportblog nincs bekapcsolva';
 $string['groupblogs'] = 'A felhasználók csak a csoportban részt vevők blogüzeneteit láthatják';
+$string['incorrectblogfilter'] = 'A megadott blogszűrő típusa hibás';
 $string['intro'] = 'Az RSS-üzenet egy vagy több blogból automatikusan állt elő.';
 $string['noentriesyet'] = 'Itt nincsenek látható üzenetek';
 $string['noguestpost'] = 'Vendégek nem írhatnak blogüzeneteket!';
@@ -34,6 +43,7 @@ $string['notallowedtoedit'] = 'Ezt az üzenetet Ön nem szerkesztheti';
 $string['numberofentries'] = 'Üzenetek: $a';
 $string['numberoftags'] = 'Megjelenítendő címkék száma';
 $string['pagesize'] = 'Oldalankénti blogüzenetek száma';
+$string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'A felhasználók csak saját blogjaikat láthatják';
 $string['publishto'] = 'Közzéteendő itt';
 $string['publishtonoone'] = 'Önmaga (piszkozat)';
@@ -41,6 +51,7 @@ $string['publishtosite'] = 'A portálon bárki';
 $string['publishtoworld'] = 'A világon bárki';
 $string['settingsupdatederror'] = 'Hiba történt, a blog beállításait nem lehetett frissíteni';
 $string['siteblog'] = 'Portálblog: $a';
+$string['siteblogdisable'] = 'A portálblog nincs bekapcsolva';
 $string['siteblogs'] = 'A portál minden felhasználója minden blogüzenetet láthat';
 $string['tagdatelastused'] = 'Címke utolsó használatának dátuma';
 $string['tags'] = 'Címkék';
@@ -53,9 +64,6 @@ $string['viewcourseentries'] = 'Kurzusüzenetek megtekintése';
 $string['viewmyentries'] = 'Üzeneteim megtekintése';
 $string['viewsiteentries'] = 'Portálüzenetek megtekintése';
 $string['worldblogs'] = 'A bárki számára elérhetőként megjelölt naplóüzeneteket mindenki elolvashatja';
-$string['addotags'] = 'Hivatalos címkék hozzáadása'; // ORPHANED
-$string['addptags'] = 'Felhasználói címkék hozzáadása'; // ORPHANED
-$string['otags'] = 'Hivatalos címkék'; // ORPHANED
-$string['ptags'] = 'Felhasználói címkék (vesszővel elválasztva)'; // ORPHANED
+$string['wrongpostid'] = 'Hibás blogüzenet-azonosító';
 
 ?>

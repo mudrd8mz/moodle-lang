@@ -3,8 +3,8 @@
 
 
 $string['pagesize'] = 'Oldalankénti próbálkozások: ';
-$string['reportresponses'] = 'Részletes viszontválaszok';
-$string['responses'] = 'Részletes viszontválaszok';
+$string['reportresponses'] = 'Viszontválaszok';
+$string['responses'] = 'Viszontválaszok';
 $string['responsesoptions'] = 'Viszontválaszok lehetőségei';
 $string['responsestitle'] = 'Részletes viszontválaszok';
 

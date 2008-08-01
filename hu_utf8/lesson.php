@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8.4+ (2007021540)
+
+      // lesson.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['accesscontrol'] = 'Hozzáférés szabályozása';
@@ -33,6 +34,40 @@ $string['available'] = 'Felvehető ekkortól';
 $string['averagescore'] = 'Átlagpontszám';
 $string['averagetime'] = 'Átlagidő';
 $string['branchtable'] = 'Elágazási táblázat';
+$string['cannotfindanser'] = 'Nincs meg a válasz.';
+$string['cannotfindattempt'] = 'Hiba: nem található a próbálkozás';
+$string['cannotfindessay'] = 'Hiba: nem található az esszé';
+$string['cannotupdateessayscore'] = 'Az esszépontszám frissítése nem sikerült';
+$string['cannotfindfirstpage'] = 'Nincs meg az első oldal';
+$string['cannotfindfirstgrade'] = 'Hiba: nem találhatók a pontok';
+$string['cannotfindgrade'] = 'Nincs meg a pontok nyilvántartása';
+$string['cannotfindpages'] = 'Nincsenek meg a lecke oldalai';
+$string['cannotfindpagetitle'] = 'Törlés megerősítése: az oldal címe nem található';
+$string['cannotfindpagerecord'] = 'Elágazás vége beszúrandó: az oldal rekordja nem található';
+$string['cannotfindpreattempt'] = 'Az előző próbálkozás rekordja nem található!';
+$string['cannotfindnextpage'] = 'Nincs meg a következő oldal';
+$string['cannotfindnewestgrade'] = 'Hiba: nem található a legutolsó pont';
+$string['cannotfindnextpage'] = 'Lecke mentése: Nincs meg a következő oldal';
+$string['cannotfindtimer'] = 'Hiba: nem találhatók a lesson_timer rekordok';
+$string['cannotfindanswer'] = 'Hiba: nem található a válasz';
+$string['cannotfindgrade'] = 'Hiba: nem találhatók a pontok';
+$string['cannotfindrecords'] = 'Hiba: nem találhatók a lecke rekordjai';
+$string['cannotfinduser'] = 'Hiba: nem találhatók felhasználók';
+$string['cannotdeleteanswer'] = 'Frissítse az oldalt: nem lehet törölni a válaszrekordot';
+$string['cannotdeleteattempt'] = 'Hiba: nem törölhetők a korábbi próbálkozások';
+$string['cannotdeletebranch'] = 'Hiba: nem törölhetők a korábbi megtekintett elágazások';
+$string['cannotinsertanswer'] = 'Nem szúrható be válaszrekord';
+$string['cannotinserthighscore'] = 'Az új legmagasabb pont beszúrása nem sikerült!';
+$string['cannotinsertgrade'] = 'Nem szúrható be pont';
+$string['cannotinsertpage'] = 'Új oldal nem szúrható be';
+$string['cannotinserttimer'] = 'Hiba: nem szúrható be sor a lesson_timer táblázatba';
+$string['cannotupdateanswer'] = 'Frissítse az oldalt: a válasz nincs frissítve';
+$stirng['cannotupdatebook'] = 'Könyvének frissítése nem sikerült';
+$stirng['cannotupdategrade'] = 'A pont frissítése nem sikerült';
+$stirng['cannotupdatelink'] = 'Az ugrópont frissítése nem sikerült';
+$string['cannotupdatepage'] = 'Frissítse az oldalt: az oldal nincs frissítve';
+$string['cannotupdatetimer'] = 'Hiba: nem sikerült a lesson_timer táblázat frissítése';
+$string['cannotresetjump'] = 'restorelib lecke: az ugrás helyreállítása nem sikerült';
 $string['cancel'] = 'Mégse';
 $string['canretake'] = '$a újra próbálkozhat';
 $string['casesensitive'] = 'Reguláris kifejezések használata';
@@ -123,6 +158,10 @@ $string['importcount'] = '$a kérdés importálása';
 $string['importppt'] = 'PowerPoint importálása';
 $string['importquestions'] = 'Kérdések importálása';
 $string['insertedpage'] = 'Oldal beszúrva';
+$string['invalidpageid'] = 'Érvénytelen leckeoldal-azonosító';
+$string['invalidid'] = 'Nem került sor kurzusmodul-azonosító vagy leckeazonosító átadására';
+$string['invalidlessonid'] = 'hibás volt a leckeazonosító';
+$string['invalidpageid'] = 'Érvénytelen oldalazonosító';
 $string['jump'] = 'Ugrás';
 $string['jumps'] = 'Ugrások';
 $string['jumpsto'] = 'Ugrások ide: $a';
@@ -202,6 +241,7 @@ $string['numberofpagesviewednotice'] = 'Megválaszolt kérdések száma: $a->nqu
 $string['ongoing'] = 'Pillanatnyi pont mutatása';
 $string['ongoingcustom'] = '$a->score pontot ért el az eddig elérhető $a->currenthigh pontból.';
 $string['ongoingnormal'] = '$a->correct kérdést válaszolt meg helyesen az eddigi $a->viewed kérdésből.';
+$string['onpostperpage'] = 'Pontonként csak egy hozzászólás';
 $string['or'] = 'VAGY';
 $string['ordered'] = 'Rendezett';
 $string['other'] = 'Más';
@@ -220,6 +260,9 @@ $string['pleasematchtheabovepairs'] = 'Párosítsa a fenti elemeket';
 $string['pointsearned'] = 'Kapott pontok';
 $string['postsuccess'] = 'Az elküldés sikerült';
 $string['practice'] = 'Gyakorló lecke';
+$string['preprocesserror'] = 'Hiba történt előfeldolgozás közben!';
+$string['processerror'] = 'Hiba történt feldolgozás közben!';
+$string['postprocesserror'] = 'Hiba történt utófeldolgozás közben!';
 $string['preview'] = 'Előzetes megtekintés';
 $string['previewlesson'] = '$a előzetes képe';
 $string['previouspage'] = 'Előző oldal';

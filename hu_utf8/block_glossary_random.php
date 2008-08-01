@@ -1,4 +1,4 @@
-<?PHP // $Id$ 
+<?PHP // $Id$
       // block_glossary_random.php - created with Moodle 1.7 beta + (2006101003)
 
 
@@ -20,7 +20,6 @@ $string['select_glossary'] = 'A fogalmakat ebből a fogalomtárból válassza';
 $string['showconcept'] = 'Minden fogalom fejlécét mutatja';
 $string['title'] = 'Cím';
 $string['type'] = 'Új fogalom kiválasztásának módja';
-$string['typehelp'] = 'Az Utolsó módosított fogalom helyén mindig a legutoljára megváltoztatott fogalom jelenik meg, a Véletlenszerű fogalom mindig találomra választ ki egy új fogalmat. A Következő fogalom egymás után jeleníti meg a fogalmakat. Ez az utóbbi lehetőség különösen akkor hasznos, amikor sor kerül néhány nap kiválasztására is, így megjelenhet az "A hét idézete" vagy a "Napi ötlet", melyet mindenki lát.';
 $string['viewglossary'] = 'További idézetek...';
 $string['whichfooter'] = 'A blokkhoz tartozó fogalomtár tevékenységeihez ugrópontok jeleníthetők meg. A blokk csak az adott fogalomtárral működő ugrópontokat jeleníti meg.';
 

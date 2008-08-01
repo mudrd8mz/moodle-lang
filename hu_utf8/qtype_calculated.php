@@ -20,6 +20,8 @@ $string['nodataset'] = 'semmi - ez nem helyettesítő karakter';
 $string['nosharedwildcard'] = 'Nincs megosztott helyettesítő ebben a kategóriában';
 $string['possiblehdr'] = 'Lehetséges helyettesítők csak a kérdés szövegében fordulnak elő';
 $string['tolerance'] = 'Tűrés &plusmn;';
+$string['trueanswerinsidelimits'] = ' Helyes válasz: $a->correct az igaz $a->true határértékein belül';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">HIBA A helyes válasz: $a->correct az igaz $a->true határértékein kívül</span>';
 $string['updatecategory'] = 'Kategória frissítése';
 $string['usedinquestion'] = 'Szerepel ebben a kérdésben';
 $string['youmustenteramultiplierhere'] = 'Itt egy szorzót kell megadnia.';

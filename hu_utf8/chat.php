@@ -1,8 +1,13 @@
-<?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8.4+ (2007021540)
+<?PHP // $Id$
+      // chat.php - created with Moodle 1.7 beta + (2006101003)
 
 
+$string['autoscroll'] = 'Automatikus görgetés';
+$string['ajax'] = 'Ajax-változat';
+$string['autoscrol'] = 'Automatikus görgetés';
 $string['beep'] = 'hangjelzés';
+$string['cantlogin'] = 'Nem lehetett bejelentkezni a csevegőszobába!!';
+$string['cantinsert'] = 'Nem lehetett csevegőüzenetet beszúrni';
 $string['chat:chat'] = 'Csevegés';
 $string['chat:deletelog'] = 'Csevegésnaplók törlése';
 $string['chat:readlog'] = 'Csevegésnaplók elolvasása';
@@ -32,6 +37,7 @@ $string['explainmethodnormal'] = 'Ezek a beállítások csak akkor számítanak,
 $string['generalconfig'] = 'Általános beállítás';
 $string['helpchatting'] = 'Csevegés súgója';
 $string['idle'] = 'Tétlen';
+$string['invalidid'] = 'Nem található a csevegőszoba!';
 $string['messagebeepseveryone'] = '$a mindenkit csönget!';
 $string['messagebeepsyou'] = '$a most csöngetett Önnek!';
 $string['messageenter'] = '$a most lépett be a csevegésbe';
@@ -44,11 +50,13 @@ $string['modulename'] = 'Csevegés';
 $string['modulenameplural'] = 'Csevegések';
 $string['neverdeletemessages'] = 'Az üzenetek soha ne törlődjenek';
 $string['nextsession'] = 'A következő előjegyzett csevegés';
+$string['nochat'] = 'Nincs csevegés';
 $string['noguests'] = 'A csevegésbe vendégek nem kapcsolódhatnak be';
 $string['nomessages'] = 'Még nincs üzenet';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nincs előjegyzett csevegés';
+$string['notlogged'] = 'Nincs bejelentkezve!';
 $string['oldping'] = 'Szétkapcsolás időtúllépés miatt';
 $string['pastchats'] = 'Korábbi csevegések';
 $string['refreshroom'] = 'Frissítő szoba';
@@ -60,6 +68,8 @@ $string['repeattimes'] = 'Csevegések ismétlése';
 $string['repeatweekly'] = 'Minden héten ugyanakkor';
 $string['savemessages'] = 'Korábbi csevegések mentése';
 $string['seesession'] = 'A csevegés megtekintése';
+$string['send'] = 'Elküld';
+$string['sending'] = 'Küldés';
 $string['serverhost'] = 'Szerver neve';
 $string['serverip'] = 'Szerver ip-címe';
 $string['servermax'] = 'Max. felhasználó';
@@ -68,6 +78,7 @@ $string['sessions'] = 'Csevegések';
 $string['strftimemessage'] = '%%Ó.%%P';
 $string['studentseereports'] = 'A korábbi csevegéseket mindenki megtekintheti';
 $string['updatemethod'] = 'Frissítés módszere';
+$string['updaterate'] = 'Értékelés frissítése: ';
 $string['viewreport'] = 'Korábbi csevegések megtekintése';
 
 ?>

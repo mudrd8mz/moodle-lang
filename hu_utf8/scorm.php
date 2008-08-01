@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8.4+ (2007021540)
+      // scorm.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['activation'] = 'Bekapcsolás';
@@ -19,6 +19,7 @@ $string['browse'] = 'Előzetes megtekintés';
 $string['browsed'] = 'Böngészés megtörtént';
 $string['browsemode'] = 'Előzetes megtekintés üzemmódja';
 $string['browserepository'] = 'Adattár böngészése';
+$string['cannotfindsco'] = 'Nincs meg a SCO';
 $string['chooseapacket'] = 'SCORM-csomag kiválasztása vagy frissítése';
 $string['completed'] = 'Kész';
 $string['confirmloosetracks'] = 'FIGYELEM: A csomagot módosították. Ha megváltozott a csomag szerkezete, egyes felhasználói nyomkövetések elveszhetnek a frissítés során.';
@@ -67,6 +68,7 @@ $string['iframe'] = 'Ez az ablak';
 $string['iframedisplay'] = 'Csomag megnyitása ebben az ablakban';
 $string['incomplete'] = 'Nem teljes';
 $string['interactions'] = 'Interakciók';
+$string['invalidactivity'] = 'Hibás SCORM-tevékenység';
 $string['last'] = 'Utolsó hozzáférés időpontja';
 $string['lastaccess'] = 'Utolsó hozzáférés';
 $string['lastattempt'] = 'Utolsó próbálkozás';

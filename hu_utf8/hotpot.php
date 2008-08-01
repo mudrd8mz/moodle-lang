@@ -1,4 +1,5 @@
 <?PHP // $Id$ 
+
       // hotpot.php - created with Moodle 1.7 beta + (2006101003)
 
 
@@ -11,6 +12,12 @@ $string['attemptsbest'] = 'A legjobb próbálkozás';
 $string['attemptsfirst'] = 'Az első próbálkozás';
 $string['attemptslast'] = 'Az utolsó próbálkozás';
 $string['average'] = 'Átlag';
+$string['cannotaddquestionrecord'] = 'A kérdésrekord hozzáadása nem sikerült.';
+$string['cannotaddresprecord'] = 'A válaszrekord hozzáadása nem sikerült.';
+$string['cannotaddstrrecord'] = 'A szövegrészrekord hozzáadása nem sikerült.';
+$string['cannotfindmethod'] = 'A sablonblokkot bővítő metódus nem található: ($a)';
+$string['cannotinsertattempt'] = 'Nem lehetett a próbálkozásazonosítót beszúrni: $a';
+$string['cannotupdateattempt'] = 'Nem lehetett a próbálkozásazonosítót frissíteni: $a ';
 $string['checks'] = 'Ellenőrzések';
 $string['clickreporting'] = 'Kattintásról készített jelentés bekapcsolása';
 $string['clues'] = 'Rávezetések';
@@ -36,6 +43,7 @@ $string['error_nofeedbackurlwebpage'] = 'Adja meg a weboldal URL-jét';
 $string['error_nofilename'] = 'Adjon meg egy állománynevet';
 $string['error_noquizzesfound'] = 'Nem találtam Hot Potatoes tesztet';
 $string['error_notfileorfolder'] = 'A(z) &quot;$a&quot; nem állomány vagy mappa';
+$string['error_processreport'] = 'Hiba a jelentés feldolgozása közben';
 $string['excelencodings'] = 'Excel-kódolások';
 $string['feedbackformmail'] = 'Visszajelzés űrlapja';
 $string['feedbackmoodleforum'] = 'Moodle-fórum';
@@ -55,6 +63,8 @@ $string['hotpotcloses'] = 'A Hot Potatoes teszt bezáródik';
 $string['hotpotopens'] = 'A Hot Potatoes teszt megnyitása';
 $string['ignored'] = 'Kihagyva';
 $string['inprogress'] = 'Folyamatban';
+$string['invalidhotpotid'] = 'Hibás volt a hotpot-azonosító';
+$string['invalidattemptid'] = 'Hibás volt a próbálkozásazonosító';
 $string['location'] = 'Állomány helye';
 $string['modulename'] = 'Hot Potatoes teszt';
 $string['modulenameplural'] = 'Hot Potatoes tesztek';
@@ -68,6 +78,7 @@ $string['navigation_none'] = 'Egy sem';
 $string['neverclosed'] = 'Sosem volt lezárva';
 $string['noactivity'] = 'Nincs tevékenység';
 $string['noresponses'] = 'Nincs információ az egyes kérdésekről és válaszokról.';
+$string['notyourattempt'] = 'Ez nem az Ön próbálkozása!';
 $string['outputformat'] = 'Kimeneti forma';
 $string['outputformat_best'] = 'legjobb';
 $string['outputformat_flash'] = 'Flash';
@@ -81,6 +92,7 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = 'Büntetések';
 $string['questionshort'] = 'K-$a';
 $string['quiztype'] = 'Teszttípus';
+$string['quizunavailable'] = 'A teszt jelenleg nem oldható meg';
 $string['rawdetails'] = 'Próbálkozás nyers részletei';
 $string['regrade'] = 'Újrapontozás';
 $string['regradecheck'] = 'Biztosan újra akarja pontozni a(z) &quot;$a&quot;-t?';
@@ -152,6 +164,7 @@ $string['textsourcespecific'] = 'Megadott szöveg';
 $string['thiscourse'] = 'Ez a kurzus';
 $string['timedout'] = 'Lejárt';
 $string['updatequizchain'] = 'Tesztsor frissítése';
+$string['unknownreport'] = 'Ismeretlen jelentés ($a)';
 $string['weighting'] = 'Súlyozás';
 $string['wrong'] = 'Hibás';
 

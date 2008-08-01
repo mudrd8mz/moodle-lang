@@ -2,6 +2,7 @@
       // enrol_authorize.php - created with Moodle 1.8.4+ (2007021540)
 
 
+$string['dataentered'] = 'Adat rögzítve';
 $string['adminacceptccs'] = 'Milyen hitelkártyafajtákat fogad el?';
 $string['adminaccepts'] = 'Válassza ki az engedélyezett fizetési módokat és azok típusait';
 $string['adminauthcode'] = 'Ha egy felhasználó hitelkártyáját az interneten keresztül nem lehet közvetlenül beolvasni, telefonon kérjen hitelesítési kódot az ügyfél bankjától.';

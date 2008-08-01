@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8.4+ (2007021540)
+      // assignment.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['allowdeleting'] = 'Törlés engedélyezése';
@@ -17,12 +17,15 @@ $string['assignmentname'] = 'Feladat neve';
 $string['assignmenttype'] = 'Feladat típusa';
 $string['availabledate'] = 'Elérhető ekkortól:';
 $string['cannotdeletefiles'] = 'Hiba történt, az állományokat nem lehetett törölni';
+$string['cannotinsertempty'] = 'Nem lehetett új üres leadott munkát beszúrni';
+$string['cannotviewassignment'] = 'Ezt a feladatot nem tekintheti meg';
 $string['comment'] = 'Megjegyzés';
 $string['commentinline'] = 'Sorközi megjegyzés';
 $string['configitemstocount'] = 'Online feladatokban a tanulói leadott munkákhoz megszámolandó tételek jellege.';
 $string['configmaxbytes'] = 'Az adott portálon az összes feladat maximális mérete alaphelyzetben (a kurzustól és egyéb helyi beállításoktól függően)';
 $string['configshowrecentsubmissions'] = 'A tevékenységekről szóló mostani jelentésekben bárki megtekintheti a leadott munkákkal kapcsolatos értesítéseket.';
 $string['confirmdeletefile'] = 'Biztosan törölni akarja ezt az állományt <br /><strong>$a</strong>?';
+$string['coursemisconf'] = 'A kurzus hibásan van konfigurálva';
 $string['deleteallsubmissions'] = 'Az összes leadott munka törlése';
 $string['deletefilefailed'] = 'Az állomány törlése nem sikerült.';
 $string['description'] = 'Leírás';
@@ -53,6 +56,9 @@ $string['helpupload'] = '<p>Ezen feladattípus esetén minden résztvevő tetsz�
 $string['helpuploadsingle'] = '<p>Ezen feladattípus esetén a résztvevők egyetlen, tetszőleges típusú állományt tölthetnek fel. Ez lehet egy Word-állomány, egy kép, egy tömörített honlap, bármi, amit a tanár előír.</p>';
 $string['hideintro'] = 'Leírás elrejtése az elérhetőség időpontjáig';
 $string['itemstocount'] = 'Szám';
+$string['invalidid'] = 'Hibás volt a feladatazonosító';
+$string['invalidassignment'] = 'hibás feladat';
+$string['invalidtype'] = 'Hibás a feladat típusa';
 $string['late'] = '$a kései';
 $string['maximumgrade'] = 'Maximális pont';
 $string['maximumsize'] = 'Maximális méret';
@@ -107,6 +113,7 @@ $string['uploadfiletoobig'] = 'Az állomány túl nagy (a korlát $a bájt)';
 $string['uploadnofilefound'] = 'Nem található állomány - biztosan kiválasztott egyet feltöltésre?';
 $string['uploadnotregistered'] = 'A(z) \'$a\' feltöltése sikerült, de a leadott munka nincs regisztrálva!';
 $string['uploadsuccess'] = 'A(z) \'$a\' feltöltése sikerült';
+$string['usermisconf'] = 'A felhasználó hibásan van konfigurálva';
 $string['viewfeedback'] = 'A feladat pontjainak és a visszajelzéseknek a megtekintése';
 $string['viewsubmissions'] = 'A(z) $a beküldött feladatok megtekintése';
 $string['yoursubmission'] = 'Leadott munkája';

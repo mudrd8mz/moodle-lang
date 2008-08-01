@@ -1,10 +1,12 @@
-<?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8.4+ (2007021540)
+<?PHP // $Id$
+      // choice.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addmorechoices'] = 'További válaszlehetőségek hozzáadása';
 $string['allowupdate'] = 'Válaszlehetőség frissítésének engedélyezése';
 $string['answered'] = 'Megválaszolva';
+$string['cannotupdatechoice'] = 'Választását adatbázishiba miatt nem lehetett frissíteni';
+$string['cannotsavechoice'] = 'Választását nem lehetett elmenteni:';
 $string['choice'] = 'Válaszlehetőség';
 $string['choice:choose'] = 'Válaszlehetőség rögzítése';
 $string['choice:deleteresponses'] = 'Viszontválaszok törlése';

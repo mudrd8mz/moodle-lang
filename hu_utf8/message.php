@@ -1,4 +1,5 @@
 <?PHP // $Id$ 
+
       // message.php - created with Moodle 1.7 beta + (2006101003)
 
 
@@ -18,6 +19,7 @@ $string['contactlistempty'] = 'Kapcsolatainak jegyzéke jelenleg üres.';
 $string['contacts'] = 'Kapcsolatok';
 $string['context'] = 'környezet';
 $string['deletemessagesdays'] = 'Régi üzenetek automatikus törléséig eltelő napok száma';
+$string['disabled'] = 'Ezen a portálon az üzenetküldés ki van kapcsolva';
 $string['discussion'] = 'Vita';
 $string['emailmessages'] = 'Ha nem vagyok gépközelben, az üzenetek jöjjenek e-mailben';
 $string['emailtagline'] = 'Ez az e-mail a(z) $a időpontban elküldött üzenet másolata';

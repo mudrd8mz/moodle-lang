@@ -1,7 +1,7 @@
-<?PHP // $Id$ 
-      // gradeimport_xml.php - created with Moodle 1.8.4+ (2007021540)
+<?PHP // $Id$
 
 
+$string['error'] = 'Hibák történtek';
 $string['errbadxmlformat'] = 'Hiba - rossz XML-forma';
 $string['errduplicategradeidnumber'] = 'Hiba – a kurzusban két pontozási tétel szerepel \'$a\' azonosítószámmal. Ez így nem használható!';
 $string['errduplicateidnumber'] = 'Hiba – ismétlődő azonosítószám';

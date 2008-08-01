@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8.4+ (2007021540)
+      // xmldb.php - created with Moodle 1.7 beta + (2006101003)
 
-
+$string['butis'] = 'viszont';
+$string['shouldbe'] = 'legyen';
+$string['actual'] = 'Aktuális';
 $string['aftertable'] = 'Táblázat után:';
 $string['back'] = 'Vissza';
 $string['backtomainview'] = 'Vissza a fő oldalra';
@@ -10,11 +12,14 @@ $string['cannotuseidfield'] = 'Nem szúrható be a(z) \"id\" mező. Ez egy autom
 $string['change'] = 'Módosítás';
 $string['charincorrectlength'] = 'Hibás hossz a karaktermezőnél';
 $string['check_bigints'] = 'Hibás egész számok keresése az adatbázisban';
+$string['check_defaults'] = 'Nem egyező alapértékek keresése';
 $string['check_indexes'] = 'Hiányzó adatbázisindexek keresése';
 $string['checkbigints'] = 'Nagy egész számok ellenőrzése';
+$string['checkdefaults'] = 'Alapértékek ellenőrzése';
 $string['checkindexes'] = 'Indexek ellenőrzése';
 $string['completelogbelow'] = '(a keresés teljes naplózását lásd alább)';
 $string['confirmcheckbigints'] = 'Ez a funkció <a href=\"http://tracker.moodle.org/browse/MDL-11038\">esetlegesen hibás számjegymezőket fog vizsgálni</a> Moodle-szerverén, és automatikusan előállítja (de nem futtatja le!) azokat az SQL-parancsokat, amelyekkel ellenőrizheti, hogy adatbázisában minden egész számot helyesen definiált-e. Amikor a parancsok előálltak, a parancsokat átmásolhatja és biztonságosan lefuttathatja kedvenc SQL-interfészén (előtte azonban készítsen róluk biztonsági mentést). Ajánlatos a Moodle legfrissebb kiadását (1.8, 1.9, 2.x ...) használni a hibás egész számok kikeresése előtt. Ez a funkció semmilyen tevékenységet nem hajt végre az adatbázison (csak beolvassa), ezért bármikor biztonságosan futtatható.';
+$string['confirmcheckdefaults'] = 'Ezzel nem egyező alapértékekre kereshet rá Moodle-szerverén, automatikusan előállíthatja (de nem hajthatja végre!) a frissítéshez szükséges SQL-utasításokat.<br /><br />Ha elkészültek, az utasításokat kimásolhatja és biztonságosan végrehajthatja kedvenc SQL-felületén. <br /><br />Mindenképpen ajánlott a legfrissebb Moodle-változatot (1.8, 1.9, 2.x ...) használni a nem egyező alapértékekre keresés előtt.<br /><br />Ennek során az adatbázison nem hajtódnak végre műveletek (csak beolvasás történik), így bármikor biztonságosan végrehajtható.';
 $string['confirmcheckindexes'] = 'Ezzel esetleg hiányzó indexekre kereshet rá Moodle-szerverén, automatikusan előállíthatja (de nem hajthatja végre!) a frissítéshez szükséges SQL-utasításokat. Ha elkészültek, az utasításokat kimásolhatja és biztonságosan végrehajthatja kedvenc SQL-felületén. Mindenképpen ajánlott a legfrissebb Moodle-változatot (1.8, 1.9, 2.x ...) használni a hiányzó indexekre keresés előtt.Ennek során az adatbázison nem hajtódnak végre műveletek (csak beolvasás történik), így bármikor biztonságosan végrehajtható.';
 $string['confirmdeletefield'] = 'Biztosan törölni akarja ezt a mezőt:';
 $string['confirmdeleteindex'] = 'Biztosan törölni akarja ezt az indexet:';
@@ -48,10 +53,11 @@ $string['edit_statement'] = 'Parancs szerkesztése';
 $string['edit_table'] = 'Táblázat szerkesztése';
 $string['edit_xml_file'] = 'XML-állomány szerkesztése';
 $string['enumvaluesincorrect'] = 'Hibás értékek felsoroló mezőhöz';
+$string['expected'] = 'Kitöltendő';
 $string['field'] = 'Mező';
 $string['fieldnameempty'] = 'Névmező üres';
 $string['fields'] = 'Mezők';
-$string['fieldsusedinkey'] = '[[hiányos nyelvi szöveg a /usr/moodle/lang/en_utf8/xmldb.php 60. sorában]]';
+$string['fieldsusedinkey'] = 'Ez a mező kulcsként használatos.';
 $string['filenotwriteable'] = 'Az állomány nem írható';
 $string['floatincorrectdecimals'] = 'Hibás számú tizedes jegy a lebegőpontos mezőhöz';
 $string['floatincorrectlength'] = 'Hibás hossz a lebegőpontos mezőhöz';
@@ -83,6 +89,7 @@ $string['newstatement'] = 'Új parancs';
 $string['newtable'] = 'Új táblázat';
 $string['newtablefrommysql'] = 'Új MySQL-táblázat';
 $string['nomissingindexesfound'] = 'Nincsenek hiányzó indexek, adatbázisán nincs szükség egyéb művelet végrehajtására.';
+$string['nowrongdefaultsfound'] = 'Nincsenek nem egyező alapértékek, adatbázisán semmi egyebet nem kell végrehajtani.';
 $string['nowrongintsfound'] = 'Nincsenek hibás egész számok, adatbázisával nincs több teendő.';
 $string['numberincorrectdecimals'] = 'Hibás tizedes szám a számmezőhöz';
 $string['numberincorrectlength'] = 'Hibás hossz a számmezőhöz';
@@ -119,11 +126,13 @@ $string['vieworiginal'] = 'Eredeti megtekintése';
 $string['viewphpcode'] = 'PHP-kód megtekintése';
 $string['viewsqlcode'] = 'SQL-kód megtekintése';
 $string['wrong'] = 'Hibás';
+$string['wrongdefaults'] = 'Hibás alapértékek fordulnak elő';
 $string['wrongints'] = 'Hibás egész számok';
 $string['wronglengthforenum'] = 'Hibás hossz felsoroló mezőhöz';
 $string['wrongnumberoffieldsorvalues'] = 'Hibás mezőszámok vagy értékek a mondatban';
 $string['wrongreservedwords'] = 'Jelenlegi fenntartott szavak(ne feledje, hogy a táblázatnevek nem fontosak $CFG->prefix használata esetén)';
-$string['yesmissingindexesfound'] = 'Adatbázisából indexek hiányoznak. Itt találja ezek adatait és azokat az SQL-parancsokat, amelyekkel kedvenc SQL-felületén létrehozhatja őket.<br /><br />Ezután mindenképpen futtassa le ismét ezt a segédprogramot annak ellenőrzésére, hogy nem hiányoznak-e további indexek.';
-$string['yeswrongintsfound'] = 'Adatbázisában néhány hibás egész szám szerepel. Itt találja ezek adatait és azokat az SQL-parancsokat, amelyekkel kedvenc SQL-felületén létrehozhatja őket.<br /><br />Ezután mindenképpen futtassa le ismét ezt a segédprogramot annak ellenőrzésére, hogy nincs-e több hibás egész szám.';
+$string['yeswrongdefaultsfound'] = 'Adatbázisában nem egyező alapértékek fordulnak elő. Itt találja ezek adatait és azokat az SQL-parancsokat, amelyekkel kedvenc SQL-felületén kiküszöbölheti őket (előtte ne felejtsen el biztonsági mentést készíteni adatbázisáról).<br /><br />Ezután mindenképpen futtassa le ismét ezt a segédprogramot annak ellenőrzésére, hogy nincsenek-e további nem egyező alapértékek.';
+$string['yesmissingindexesfound'] = 'Adatbázisából indexek hiányoznak. Itt találja ezek adatait és azokat az SQL-parancsokat, amelyekkel kedvenc SQL-felületén létrehozhatja őket (előtte ne felejtsen el biztonsági mentést készíteni adatbázisáról).<br /><br />Ezután mindenképpen futtassa le ismét ezt a segédprogramot annak ellenőrzésére, hogy nem hiányoznak-e további indexek.';
+$string['yeswrongintsfound'] = 'Adatbázisában hibás egész számok fordulnak elő. Itt láthatók a részletek és azok az SQL-parancsok, amelyeket kedvenc SQL-interfészével le kell futtatnia a létrehozásukhoz (előtte ne feledjen el biztonsági mentést készíteni adatairól).<br /><br />Ezt követően ajánlatos ismét lefuttatni a kódot és ellenőrizni, nem maradtak-e hibás egész számok.';
 
 ?>

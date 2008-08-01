@@ -1,11 +1,12 @@
-<?PHP // $Id$ 
-      // role.php - created with Moodle 1.8.4+ (2007021540)
+<?PHP // $Id$
+      // role.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addrole'] = 'Új szerep hozzáadása';
 $string['allow'] = 'Engedélyez';
 $string['allowassign'] = 'Szerepek hozzárendelésének engedélyezése';
 $string['allowoverride'] = 'Szerepek felülírásának engedélyezése';
+$string['allsiteusers'] = 'A portál minden felhasználója';
 $string['assignglobalroles'] = 'Globális szerepek hozzárendelése';
 $string['assignroles'] = 'Szerepek hozzárendelése';
 $string['assignrolesin'] = 'Szerepek hozzárendelése $a esetén';
@@ -176,6 +177,7 @@ $string['user:viewhiddendetails'] = 'Rejtett felhasználói adatok megtekintése
 $string['user:viewuseractivitiesreport'] = 'Felhasználói tevékenységekről szóló jelentés megtekintése';
 $string['user:viewusergrades'] = 'Felhasználói pontok megjelenítése';
 $string['userhashiddenassignments'] = 'A felhasználónak ebben a kurzusban egy vagy több rejtett szerepe van';
+$string['userswithrole'] = 'Minden szereppel rendelkező felhasználó';
 $string['viewrole'] = 'Szerepek részleteinek megtekintése';
 $string['xuserswiththerole'] = '\"$a->role\" szerepű felhasználók: $a->number';
 $string['question:export'] = 'Kérdések exportálása'; // ORPHANED

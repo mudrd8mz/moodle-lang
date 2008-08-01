@@ -1,4 +1,5 @@
 <?PHP // $Id$
+
       // glossary.php - created with Moodle 1.7 beta + (2006101003)
 
 
@@ -22,9 +23,12 @@ $string['attachment'] = 'Csatolt állomány';
 $string['author'] = 'szerző';
 $string['authorview'] = 'Böngészés szerző szerint';
 $string['back'] = 'Vissza';
+$string['cannotinsertent'] = 'Az új fogalmat nem sikerült beszúrni';
+$string['cantexportentry'] = 'A fogalmat nem sikerült a fő szójegyzékbe exportálni';
 $string['cantinsertcat'] = 'A kategória nem szúrható be';
 $string['cantinsertrec'] = 'A rekord nem szúrható be';
 $string['cantinsertrel'] = 'A relációs kategóriafogalom nem szúrható be';
+$string['cantupdateglossary'] = 'Szójegyzékének frissítése nem sikerült';
 $string['casesensitive'] = 'Ennél a fogalomnál a kis- és nagybetűk különböznek';
 $string['cat'] = 'kat';
 $string['categories'] = 'Kategóriák';
@@ -102,6 +106,7 @@ $string['entryleveldefaultsettings'] = 'Fogalomszintű alapbeállítások';
 $string['entrysaved'] = 'A fogalom mentése megtörtént';
 $string['entryupdated'] = 'A fogalom frissítése megtörtént';
 $string['entryusedynalink'] = 'Ezt a fogalmat automatikusan kell kapcsolni';
+$stirng['errdeltimeexpired'] = 'Ezt nem törölheti. Az ideje lejárt!';
 $string['errorparsingxml'] = 'Hiba az állomány feldolgozása közben. Ellenőrizze, érvényes-e az XML-szintaxis.';
 $string['explainaddentry'] = 'Új fogalom hozzáadása ehhez a fogalomtárhoz. A fogalom és a meghatározás kötelezően kitöltendő.';
 $string['explainall'] = 'MINDEN fogalom megjelenítése egyetlen oldalon';
@@ -132,12 +137,14 @@ $string['glossary:viewrating'] = 'Értékelések megtekintése';
 $string['glossary:write'] = 'Új fogalmak létrehozása';
 $string['glossaryleveldefaultsettings'] = 'Fogalomtárszintű alapbeállítások';
 $string['glossarytype'] = 'Fogalomtár típusa';
+$string['guestnoedit'] = 'Vendégek nem szerkeszthetnek szójegyzékeket.';
 $string['importcategories'] = 'Kategóriák importálása';
 $string['importedcategories'] = 'Importált kategóriák';
 $string['importedentries'] = 'Importált fogalmak';
 $string['importentries'] = 'Fogalmak importálása';
 $string['importentriesfromxml'] = 'Fogalmak importálása XML-állományból';
 $string['includegroupbreaks'] = 'Csoportszünetek beiktatása';
+$string['invalidid'] = 'Hibás szójegyzék-azonosító';
 $string['isglobal'] = 'Ez a fogalomtár globális?';
 $string['letter'] = 'betű';
 $string['linkcategory'] = 'Automatikusan kapcsolja ezt a kategóriát';
@@ -155,6 +162,9 @@ $string['nocomments'] = '(Nincs megjegyzés ehhez a fogalomhoz)';
 $string['noconceptfound'] = 'Nincs fogalom vagy meghatározás.';
 $string['noentries'] = 'Ebben a részben nincs fogalom';
 $string['noentry'] = 'Nincs fogalom.';
+$string['nopermissiontodelcomment'] = 'Mások megjegyzéseit nem törölheti!';
+$string['nopermissiontodelinglossary'] = 'A szójegyzékhez nem adhat hozzá megjegyzéseket!';
+$string['nopermissiontoviewresult'] = 'Csak a saját fogalmaihoz kapcsolódó eredményeket tekintheti meg';
 $string['notcategorised'] = 'Nincs kategorizálva';
 $string['numberofentries'] = 'Fogalmak száma';
 $string['onebyline'] = '(soronként egy)';

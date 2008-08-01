@@ -1,26 +1,31 @@
 <?PHP // $Id$
+
       // note.php 
-$string['note'] = 'Megjegyzés';
-$string['notes'] = 'Megjegyzések';
-$string['sitenotes'] = 'Portállal kapcsolatos megjegyzések';
-$string['coursenotes'] = 'Kurzussal kapcsolatos megjegyzések';
-$string['personalnotes'] = 'Személyes megjegyzések';
-$string['created'] = 'létrehozva';
-$string['nonotes'] = 'Nincsenek még ilyen megjegyzések.';
-$string['notesnotvisible'] = 'Ön nem tekintheti meg a megjegyzéseket.';
 $string['addnewnote'] = 'Új megjegyzés hozzáadása';
 $string['addnewnoteselect'] = 'Felhasználók kiválasztása megjegyzések írásához';
-$string['groupaddnewnote'] = 'Új, mindenkinek szóló megjegyzés hozzáadása ';
-$string['deleteconfirm'] = 'Törli a megjegyzést?';
+$string['bynameondate'] = '$a->name írta $a->date időpontban';
+$string['cannotdeletepost'] = 'Hiba történt az üzenet törlése közben';
+$string['course'] = 'kurzus';
 $string['content'] = 'Tartalom';
+$string['created'] = 'létrehozva';
+$string['coursenotes'] = 'Kurzussal kapcsolatos megjegyzések';
+$string['deletenotes'] = 'Az összes megjegyzés törlése';
+$string['deleteconfirm'] = 'Törli a megjegyzést?';
+$string['editnote'] = 'Megjegyzés szerkesztése';
+$string['groupaddnewnote'] = 'Csoportmegjegyzés hozzáadása';
+$string['invalidid'] = 'Érvénytelen megjegyzésazonosító van megadva';
+$string['note'] = 'Megjegyzés';
+$string['notes'] = 'Megjegyzések';
+$string['nonotes'] = 'Nincsenek még ilyen megjegyzések.';
+$string['nopermissiontodelete'] = 'Ezt a megjegyzést nem törölheti';
+$string['notesnotvisible'] = 'Ön nem tekintheti meg a megjegyzéseket.';
 $string['nocontent'] = 'A megjegyzés tartalma nem lehet üres';
 $string['nouser'] = 'Válasszon ki egy felhasználót';
-$string['unknown'] = 'ismeretlen';
-$string['bynameondate'] = '$a->name írta $a->date időpontban';
+$string['personalnotes'] = 'Személyes megjegyzések';
 $string['publishstate'] = 'Állapot';
 $string['personal'] = 'személyes';
-$string['course'] = 'Kurzus';
+$string['unknown'] = 'ismeretlen';
 $string['site'] = 'portál';
-$string['editnote'] = 'Megjegyzés szerkesztése';
-$string['deletenotes'] = 'Az összes megjegyzés törlése';
+$string['sitenotes'] = 'Portállal kapcsolatos megjegyzések';
+$string['unknown'] = 'ismeretlen';
 ?>

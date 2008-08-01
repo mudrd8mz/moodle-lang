@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // forum.php - created with Moodle 1.8.4+ (2007021540)
+<?PHP // $Id$
+      // forum.php - created with Moodle 1.7 beta + (2006101003)
 
 
 $string['addanewdiscussion'] = 'Új vitatéma hozzáadása';
@@ -28,8 +28,14 @@ $string['blockperiod'] = 'Blokkolás időtartama';
 $string['blockperioddisabled'] = 'Ne blokkolja';
 $string['bynameondate'] = '$a->name írta $a->date időpontban';
 $string['cannotadddiscussion'] = 'Ahhoz, hogy hozzáadhasson vitát, ezen a fórumon csoporttagságra van szükség.';
+$string['cannotadddiscussionall'] = 'Ön nem adhat hozzá új vitatémát az összes résztvevő számára.';
+$string['cannotaddsubscriber'] = 'A(z) $a azonosítójú feliratkozót nem adhatja hozzá ehhez a fórumhoz';
+$string['cannotremovesubscriber'] = 'A(z) $a azonosítójú feliratkozót nem távoloíthatja el ebből a fórumból';
+$string['cannotfindorcreateforum'] = 'A portálhoz nem található vagy nem hozható létre fő hírfórum';
+$string['cannotupdaterate'] = 'Egy régi értékelést nem lehetett frissíteni ($a[0] = $a[1])';
+$string['cannotinsertrate'] = 'Nem lehetett frissíteni egy új értékelést ($a[0] = $a[1])';
+$string['cleanreadtime'] = 'A régi hozzászólásokat az elolvasás órája alapján jelöli meg';
 $string['cannotviewpostyet'] = 'Ezen vita során más tanulók kérdéseit még nem olvashatja el, mert még nem szólt hozzá';
-$string['cleanreadtime'] = 'Régi hozzászólások elolvasás órája szerint megjelölve';
 $string['configcleanreadtime'] = 'A nap azon órája, amikor a rendszer törli az olvasási táblázatból a régi hozzászólásokat.';
 $string['configdisplaymode'] = 'Alapértelmezett megjelenítési mód, ha más nincs megadva';
 $string['configenablerssfeeds'] = 'Ezzel kapcsolható be minden fórum esetén az RSS-frissítés. A fórumok beállításai között a frissítések bekapcsolását továbbra is kézzel kell elvégezni.';
@@ -122,6 +128,9 @@ $string['inforum'] = '$a fórumban';
 $string['intronews'] = 'Általános hírek és közlemények';
 $string['introsocial'] = 'Nyitott fórum, ahol bármit meg lehet beszélni';
 $string['introteacher'] = 'Fórum csak a tanárok megjegyzései és vitája számára';
+$string['invalidforumid'] = 'Érvénytelen volt a fórumazonosító';
+$string['invalidpostid'] = 'Érvénytelen $a hozzászólás-azonosító';
+$string['invalidaccess'] = 'Az oldal elérése hibásan történt';
 $string['lastpost'] = 'Utolsó hozzászólás';
 $string['learningforums'] = 'Tanulási fórumok';
 $string['logblocked'] = 'Zárolt e-mailek naplózása';
@@ -153,20 +162,26 @@ $string['nameteacher'] = 'Tanári fórum';
 $string['newforumposts'] = 'A fórum új hozzászólásai';
 $string['nodiscussions'] = 'Ebben a fórumban még nincsenek vitatémák';
 $string['nodiscussionsstartedby'] = 'Ez a felhasználó még nem kezdeményezett vitát';
-$string['noguestpost'] = 'Vendégek nem szólhatnak hozzá a vitához.';
+$string['noguestpost'] = 'Vendégek nem szólhatnak hozzá a(z) $a vitához.';
+$string['noguestrate'] = 'Vendégek nem értékelhetnek bejegyzéseket.';
 $string['noguestsubscribe'] = 'Vendégek nem iratkozhatnak fel fórumhozzászólás e-mailben való kézbesítésére.';
 $string['noguesttracking'] = 'Vendégek nyomon követést nem állíthatnak be.';
 $string['nomorepostscontaining'] = 'Nincs több \'$a\' tartalmú hozzászólás';
 $string['nonews'] = 'Nincs még hír';
+$string['nopermissiontosubscribe'] = 'A fórumra feliratkozottakat nem tekintheti meg';
 $string['nopostforum'] = 'Ön erre a fórumra nem küldhet hozzászólást';
 $string['noposts'] = 'Nincs hozzászólás';
 $string['nopostscontaining'] = 'Nincs \'$a\' tartalmú hozzászólás';
 $string['noquestions'] = 'Még nincsenek kérdések ezen a fórumon';
+$string['norate'] = 'Tételek értékelése nincs engedélyezve!';
+$string['noresult'] = 'Ezen üzenethez nincs értékelés: $a';
 $string['nosubscribers'] = 'Még senki nincs feliratkozva erre a fórumra';
 $string['nothingnew'] = 'Semmi új $a kapcsán.';
 $string['notingroup'] = 'Ennek a fórumnak a megtekintéséhez csoporttagnak kell lennie.';
 $string['notrackforum'] = 'Olvasatlan hozzászólásokat ne kövessen nyomon';
 $string['noviewdiscussionspermission'] = 'Ezen fórum vitáit nem tekintheti meg';
+$string['noviewrate'] = 'Üzenetek értékelését nem tekintheti meg';
+$string['noviewanyrate'] = 'Csak azon üzenetek eredményeit tekintheti meg, amelyek Öntől származnak';
 $string['nowallsubscribed'] = 'A(z) $a esetén minden fórumra feliratkoztak.';
 $string['nowallunsubscribed'] = 'A(z) $a esetén a fórumokra nem iratkoztak fel.';
 $string['nownotsubscribed'] = '$a->name NEM kap másolatot a \'$a->forum\'-ról e-mailben.';
@@ -275,6 +290,10 @@ $string['unreadposts'] = 'Elolvasatlan hozzászólások';
 $string['unreadpostsnumber'] = '$a elolvasatlan hozzászólás';
 $string['unreadpostsone'] = '1 elolvasatlan hozzászólás';
 $string['unsubscribe'] = 'Leiratkozás a fórumról';
+$string['unsubscribeall'] = 'Leiratkozás minden fórumról';
+$string['unsubscribeallconfirm'] = 'Jelenleg $a fórumra van feliratkozva. Biztosan le akar iratkozni az összes fórumról és kikapcsolja az automatikus fórumra feliratkozást?';
+$string['unsubscribealldone'] = 'Minden fórumra való feliratkozását töröltük, de a közvetlen feliratkozású fórumoktól még továbbra is kaphat értesítéseket. Ha semmilyen e-mailt nem kíván kapni erről a szerverről, térjen át profiljára és kapcsolja ki e-mail címét ott.';
+$string['unsubscribeallempty'] = 'Ön semmilyen fórumra nincs feliratkozva. Ha semmilyen e-mailt nem kíván kapni erről a szerverről, térjen át profiljára és kapcsolja ki e-mail címét ott.';
 $string['unsubscribed'] = 'Leiratkozott';
 $string['unsubscribeshort'] = 'Leiratkozás';
 $string['usermarksread'] = 'Üzenet elolvasásának kézi bejelölése';
