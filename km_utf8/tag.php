@@ -1,5 +1,7 @@
 <?PHP 
-			$string['addtagtomyinterests'] = 'បន្ថែម \"$a\" ទៅ​';
+			$string['addedotag'] = '\"$a\" ត្រូវ​បាន​បន្ថែម​ជា​ស្លាក​ផ្លូវការ ។';
+$string['addotags'] = 'បន្ថែម​ស្លាក​ជា​ផ្លូវការ';
+$string['addtagtomyinterests'] = 'បន្ថែម \"$a\" ទៅ​កាន់​ចំណាប់​អារម្មណ៍​របស់​ខ្ញុំ។';
 $string['blocktagstitle'] = 'ស្លាក';
 $string['count'] = 'រាប់';
 $string['changename'] = 'ផ្លាស់ប្ដូរ​ឈ្មោះ​ស្លាក';
@@ -18,8 +20,12 @@ $string['name'] = 'ឈ្មោះ';
 $string['namesalreadybeeingused'] = 'ឈ្មោះ​ស្លាក​ត្រូវ​បាន​ប្រើ​រួច​ហើយ';
 $string['newname'] = 'ឈ្មោះ​ស្លាក​ថ្មី';
 $string['noresultsfor'] = 'គ្មាន​លទ្ធផល​សម្រាប់ \"$a\"';
+$string['officialtag'] = 'ស្លាក​ផ្លូវការ';
 $string['owner'] = 'ម្ចាស់';
+$string['otags'] = 'ស្លាក​ផ្លូវការ';
+$string['ptags'] = 'ស្លាក​កំណត់​ដោយ​អ្នក​ប្រើ (បំបែក​ដោយសញ្ញា​ក្បៀស)';
 $string['relatedtags'] = 'ស្លាក​ដែល​ទាក់ទង';
+$string['removetagfrommyinterests'] = 'យក​ \"$a\" ចេញ​ពី​​ចំណាប់​​អារម្មណ៍​​របស់​ខ្ញុំ។';
 $string['responsiblewillbenotified'] = 'មនុស្ស​ដែល​ទទួល​ខុស​ត្រូវ​នឹង​ត្រូវ​បាន​ជូន​ដំណឹង';
 $string['resetflag'] = 'កំណត់​ទង់​ឡើង​វិញ';
 $string['reset'] = 'កំណត់​ឡើង​វិញ';

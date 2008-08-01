@@ -110,6 +110,7 @@ $string['position_error'] = 'ស្លាក $a->tag មិនអាច​ជា
 $string['prev'] = 'មុន';
 $string['raw'] = 'ពិន្ទុ​សុទ្ធ';
 $string['regular'] = 'ការ​រាយការណ៍​ជា​ទូទៅ';
+$string['deleteallattempts'] = 'លុប​ការ​ប៉ុនប៉ង​ SCORM ទាំងអស់';
 $string['report'] = 'របាយការណ៍';
 $string['resizable'] = 'អនុញ្ញាត​ឲ្យ​ប្ដូរ​ទំហំ​បង្អួច';
 $string['result'] = 'លទ្ធផល';

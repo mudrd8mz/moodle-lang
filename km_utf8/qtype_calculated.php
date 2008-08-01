@@ -1,5 +1,6 @@
 <?PHP 
-			$string['addmoreunitblanks'] = 'កន្លែង​ទំនេរ​សម្រាប់​មេរៀន $a បន្ថែម​ទៀត';
+			$string['addmoreanswerblanks'] = 'បន្ថែម​ចម្លើយ​​ទទេ​ផ្សេង​ៗទៀត';
+$string['addmoreunitblanks'] = 'ទទេ​​សម្រាប់ $a ក្រុម​​ផ្សេង​​ទៀត';
 $string['answerhdr'] = 'ចម្លើយ';
 $string['atleastoneanswer'] = 'អ្នក​ត្រូវ​ផ្ដល់​ចម្លើយ​យ៉ាងហោចណាស់​មួយ ។';
 $string['correctanswershows'] = 'ការ​បង្ហាញ​ចម្លើយ​ត្រឹមត្រូវ';
@@ -18,7 +19,7 @@ $string['nextpage'] = 'ទំព័រ​បន្ទាប់';
 $string['nodataset'] = 'គ្មាន - វា​មិនមែន​ជា​តួអក្សរ​ជំនួស';
 $string['nosharedwildcard'] = 'គ្មាន​តួអក្សរ​ជំនួស​ដែល​បាន​ចែករំលែក​នៅ​ក្នុង​ប្រភេទ​នេះ​ទេ';
 $string['possiblehdr'] = 'តួអក្សរ​ជំនួស​​ដែល​​អាច​ប្រើ​​​​បាន​​បង្ហាញ​តែ​នៅ​ក្នុង​អត្ថបទ​សំណួរ​ប៉ុណ្ណោះ';
-$string['tolerance'] = 'ភាព​ស្រដៀងនឹង &plusmn;';
+$string['tolerance'] = 'ភាព​ស្រដៀងនឹង &plusmn';
 $string['updatecategory'] = 'ធ្វើ​ឲ្យ​ប្រភេទ​ទាន់សម័យ';
 $string['usedinquestion'] = 'បាន​ប្រើ​នៅ​ក្នុង​សំណួរ';
 $string['youmustenteramultiplierhere'] = 'អ្នក​ត្រូវតែ​បញ្ចូល​ពហុគុណ​នៅ​ទីនេះ ។';

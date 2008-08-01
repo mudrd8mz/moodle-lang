@@ -1,7 +1,8 @@
 <?PHP 
-			$string['blockname'] = 'ស្វែងរក​ជា​សាកល';
+			$string['blockname'] = 'ស្វែងរក ​សកល';
 $string['configbuttonlabel'] = 'ស្លាក​ប៊ូតុង';
 $string['configenablefileindexing'] = 'អនុញ្ញាត​ឲ្យ​ធ្វើ​លិបិក្រម​ឯកសារ';
+$string['configfiletypes'] = 'បាន​គ្រប់គ្រង​ប្រភេទ​ឯកសារ';
 $string['configlimitindexbody'] = 'ទំហំ​កំណត់​លើ​តួ ដែល​ត្រូវ​ធ្វើ​លិបិក្រម';
 $string['configpdftotextcmd'] = 'ផ្លូវ​ទៅ​កាន់​ពាក្យបញ្ជា pdftotext';
 $string['configwordtotextcmd'] = 'ផ្លូវ​ទៅ​កាន់​ពាក្យបញ្ជា doctotext';

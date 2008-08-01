@@ -2,6 +2,7 @@
       // moodle.php - created with Moodle 1.7 beta + (2006101003)
 
 
+$string['abouttobeinstalled'] = 'រៀន​នឹង​ដំឡើង';
 $string['action'] = 'សកម្មភាព';
 $string['actions'] = 'សកម្មភាព';
 $string['active'] = 'សកម្ម';
@@ -23,11 +24,11 @@ $string['addcreator'] = 'បន្ថែម​អ្នក​បង្កើត�
 $string['added'] = 'បាន​បន្ថែម $a';
 $string['addedrecip'] = 'បាន​បន្ថែម​អ្នក​ទទួល​ថ្មី $a នាក់';
 $string['addedrecips'] = 'បាន​បន្ថែម​អ្នក​ទទួល​ថ្មី $a នាក់';
-$string['addedtogroup'] = 'បាន​បន្ថែម​ទៅ​ក្រុម $a';
-$string['addedtogroupnot'] = 'មិន​បាន​បន្ថែម​ទៅ​ក្រុម $a';
-$string['addedtogroupnotenrolled'] = 'មិនបានបន្ថែមទៅ​ក្រុម $a ទេ ព្រោះ​មិន​បាន​ចុះ​ឈ្មោះ​ក្នុង​វគ្គ​សិក្សា';
+$string['addedtogroup'] = 'បាន​បន្ថែម​ទៅ​ក្រុម \"$a\"';
+$string['addedtogroupnot'] = 'មិន​បាន​បន្ថែម​ទៅ​ក្រុម \"$a\"';
+$string['addedtogroupnotenrolled'] = 'មិនបានបន្ថែមទៅ​ក្រុម \"$a\" ទេ ព្រោះ​មិន​បាន​ចុះ​ឈ្មោះ​ក្នុង​វគ្គ​សិក្សា';
 $string['addinganew'] = 'បន្ថែម $a ថ្មី';
-$string['addinganewto'] = 'បន្ថែម $a->what ថ្មី​ទៅ $a->to';
+$string['addinganewto'] = 'បន្ថែម $a->what ​ថ្មី​ទៅ $a->to';
 $string['addingdatatoexisting'] = 'បន្ថែម​ទិន្នន័យ​ទៅ​ទិន្នន័យ​មាន​ស្រាប់';
 $string['addnewcategory'] = 'បន្ថែម​ប្រភេទ​ថ្មី';
 $string['addnewcourse'] = 'បន្ថែម​វគ្គ​សិក្សា​ថ្មី';
@@ -98,6 +99,7 @@ $string['allfieldsrequired'] = 'ទាមទារ​វាល​ទាំងអ
 $string['allfiles'] = 'ឯកសារ​ទាំងអស់';
 $string['allgroups'] = 'ក្រុម​ទាំងអស់';
 $string['alllogs'] = 'កំណត់​ហេតុ​ទាំងអស់';
+$string['allmods'] = ' $a ទាំងអស់';
 $string['allow'] = 'អនុញ្ញាត';
 $string['allowguests'] = 'វគ្គ​សិក្សា​នេះ​អនុញ្ញាត​ឲ្យ​អ្នក​ប្រើ​ជា​ភ្ញៀវ​ចូល​បាន';
 $string['allowinternal'] = 'អនុញ្ញាត​វិធីសាស្ត្រ​ខាង​ក្នុង​ផង​ដែរ';
@@ -138,8 +140,8 @@ $string['backupactivehelp'] = 'ជ្រើស​ថា​តើ​ត្រូ�
 $string['backupcancelled'] = 'បាន​បោះបង់​ការ​បម្រុង​ទុក';
 $string['backupcoursefileshelp'] = 'ប្រសិន​បើ​អនុញ្ញាត នោះ​ឯកសារ​វគ្គ​សិក្សា​នឹង​ត្រូវ​បាន​រួម​បញ្ចូល​ទៅ​ក្នុង​ការ​បម្រុង​ទុក​ស្វ័យ​ប្រវត្តិ';
 $string['backupdate'] = 'កាល​បរិច្ឆេទ​បម្រុង​ទុក';
-$string['backupdatenew'] = '&nbsp; $a->TAG ឥឡូវ​ជា $a->weekday, $a->mday $a->month $a->year<br />';
-$string['backupdateold'] = '$a->TAG នៅ $a->weekday, $a->mday $a->month $a->year';
+$string['backupdatenew'] = '&nbsp';
+$string['backupdateold'] = '$a->TAG គឺ $a->weekday, $a->mday $a->month $a->year';
 $string['backupdaterecordtype'] = '<br />$a->recordtype - $a->recordname<br />';
 $string['backupdetails'] = 'ព័ត៌មាន​លម្អិត​អំពី​ការ​បម្រុងទុក';
 $string['backupexecuteathelp'] = 'ជ្រើស​ពេលវេលា ​ដែល​គួរ​រត់​ការ​បម្រុង​ទុក​ស្វ័យ​ប្រវត្តិ ។';
@@ -226,6 +228,7 @@ $string['clamquarantinedirfailed'] = 'មិន​អាច​ផ្លាស់
 $string['clamunknownerror'] = 'មាន​កំហុស​មិន​ស្គាល់​មួយ​ជាមួយ clam ។';
 $string['cleaningtempdata'] = 'សម្អាត​ទិន្នន័យ​បណ្ដោះ​អាសន្ន';
 $string['clicktochange'] = 'ចុច​ដើម្បី​ផ្លាស់ប្ដូរ';
+$string['clickhere'] = 'ចុច​ទីនេះ...';
 $string['closewindow'] = 'បិទ​បង្អួច​នេះ';
 $string['comparelanguage'] = 'ប្រៀបធៀប និង​កែ​សម្រួល​ភាសា​បច្ចុប្បន្ន';
 $string['complete'] = 'ទាំងស្រុង';
@@ -253,7 +256,7 @@ $string['costdefault'] = 'តម្លៃ​លំនាំ​ដើម';
 $string['counteditems'] = '$a->count $a->items';
 $string['country'] = 'ប្រទេស';
 $string['course'] = 'វគ្គ​សិក្សា';
-$string['courseapprovedemail'] = 'វគ្គសិក្សា​ដែល​អ្នក​បាន​ស្នើសុំ, $a->name, ត្រូវ​បាន​អនុម័ត​ហើយ ។ អ្នក​ត្រូវ​បាន​ក្លាយ​ទៅ​ជា $a->teacher ។ ដើម្បី​ចូល​ដំណើរការ​វគ្គសិក្សា​ថ្មី សូម​ចូល​ទៅ $a->url';
+$string['courseapprovedemail'] = 'វគ្គសិក្សា​ដែល​បាន​ស្នើ​របស់​អ្នក $a->name ត្រូវ​បាន​អនុម័ត និង​អ្នក​ត្រូវ​បានបង្កើត $a->teacher ។  ដើម្បី​ចូល​ដំណើរការ​វគ្គសិក្សា​ថ្មី​របស់​អ្នក ទៅ​កាន់ $a->url';
 $string['courseapprovedfailed'] = 'បរាជ័យ​ក្នុង​ការ​រក្សាទុក​វគ្គសិក្សា​ថា​បាន​អនុម័ត !';
 $string['courseapprovedsubject'] = 'វគ្គ​សិក្សា​របស់​អ្នក​ត្រូវបាន​អនុម័ត !';
 $string['courseavailable'] = 'វគ្គសិក្សា​នេះ​អាច​ឲ្យ​សិស្ស​រៀន​បាន';
@@ -358,6 +361,8 @@ $string['defaultcourseteacherdescription'] = 'គ្រូ​អាច​ធ្�
 $string['defaultcourseteachers'] = 'គ្រូ';
 $string['delete'] = 'លុប';
 $string['deleteall'] = 'លុប​ទាំងអស់';
+$string['deleteallcomments'] = 'លុប​មតិយោបល់​ទាំងអស់';
+$string['deleteallratings'] = 'លុប​ការ​វាយតម្លៃ​ទាំងអស់';
 $string['deletecategorycheck'] = 'តើ​អ្នក​ពិត​ជា​ចង់​លុប​ប្រភេទ <b>\'$a\'</b> នេះ​ទាំងស្រុង​ឬ ?<br />វគ្គ​សិក្សា​ទាំងអស់​ក្នុង​ប្រភេទ​នេះ នឹង​ត្រូវ​បាន​ផ្លាស់ទី​ទៅ​ក្នុង​ប្រភេទ​មេ (ប្រសិន​បើ​មាន) ឬ​ទៅ​ក្នុង​ប្រភេទ ផ្សេងៗ ។';
 $string['deletecheck'] = 'លុប $a ?';
 $string['deletecheckfiles'] = 'តើ​អ្នក​ពិត​ជា​ចង់​លុប​ឯកសារ​ទាំងនេះ​ឬ ?';
@@ -370,7 +375,9 @@ $string['deleted'] = 'បាន​លុប';
 $string['deletedactivity'] = 'បាន​លុប $a';
 $string['deletedcourse'] = 'បាន​លុប $a ទាំងស្រុង';
 $string['deletednot'] = 'មិន​អាច​លុប $a បាន​ទេ !';
+$string['deletelogs'] = 'លុប​​កំណត់​​ហេតុ';
 $string['deleteselected'] = 'លុប​អ្វី​ដែល​បាន​ជ្រើស';
+$string['deleteselectedkey'] = 'លុប​​សោ​​ដែល​បាន​​ជ្រើស';
 $string['deletingcourse'] = 'លុប $a';
 $string['deletingexistingcoursedata'] = 'លុប​ទិន្នន័យ​វគ្គ​សិក្សា​មាន​ស្រាប់';
 $string['deletingolddata'] = 'លុប​ទិន្នន័យ​ចាស់';
@@ -380,9 +387,10 @@ $string['description'] = 'ពិពណ៌នា';
 $string['deselectall'] = 'ដោះ​ជ្រើស​ទាំងអស់';
 $string['detailedless'] = 'មិន​សូវ​លម្អិត';
 $string['detailedmore'] = 'លម្អិត​ជាង​នេះ';
+$string['directory'] = 'ថត';
 $string['directorypaths'] = 'ផ្លូវ​ថត';
 $string['disable'] = 'បិទ';
-$string['displayingfirst'] = 'បង្ហាញ​តែ $a->count $a->things ដំបូង​ប៉ុណ្ណោះ';
+$string['displayingfirst'] = 'បង្ហាញ​តែ $a->count $a->things ដំបូង​​ប៉ុណ្ណោះ';
 $string['displayingrecords'] = 'បង្ហាញ $a កំណត់ត្រា';
 $string['displayingusers'] = 'បង្ហាញ​អ្នក​ប្រើ $a->start ដល់ $a->end';
 $string['displayonpage'] = 'បង្ហាញលើ​ទំព័រ';
@@ -395,7 +403,7 @@ $string['downloadtext'] = 'ទាញ​យក​ជា​ទ្រង់ទ្�
 $string['doyouagree'] = 'តើ​អ្នក​បាន​អាន​លក្ខខណ្ឌ​យល់​ហើយ ឬនៅ ?';
 $string['duplicate'] = 'ស្ទួន';
 $string['duplicatinga'] = 'ស្ទួន ៖ $a';
-$string['duplicatingain'] = 'ស្ទួន $a->what ក្នុង $a->in';
+$string['duplicatingain'] = 'ស្ទួន $a->what នៅ​ក្នុង $a->in';
 $string['edhelpaspellpath'] = 'ដើម្បី​ប្រើ​ការ​ពិនិត្យ​អក្ខរាវិរុទ្ធ​នៅ​ក្នុង​កម្មវិធី​និពន្ធ អ្នកត្រូវតែ​បាន​ដំឡើង <strong>aspell ០.៥០</strong> ឬ​ថ្មី​ជាង​នេះ នៅលើ​ម៉ាស៊ីន​បម្រើ ហើយ​អ្នកត្រូវតែ​បញ្ជាក់​ផ្លូវ​ដែលត្រឹមត្រូវ​ដើម្បី​ចូល​ដំណើរការ​ឯកសារ​គោលពីរ​របស់ aspell ។ នៅ​លើ​ប្រព័ន្ធ យូនីក​/​លីនុច ជាទូទៅ​ផ្លូវ​នេះ​គឺ <strong>/usr/bin/aspell</strong> ប៉ុន្តែ​វា​អាច​ផ្សេង​ពី​នេះ ។';
 $string['edhelpbgcolor'] = 'កំណត់​ពណ៌​ផ្ទៃ​ខាង​ក្រោយ​របស់​ផ្ទៃ​កែ​សម្រួល ។<br />តម្លៃ​ត្រឹមត្រូវ​គឺ ឧទាហរណ៍ ៖ #FFFFFF ឬ white';
 $string['edhelpcleanword'] = 'ការ​កំណត់​នេះ​បិទ ឬ​បើក​តម្រង​ទ្រង់ទ្រាយ​ពាក្យ​ជាក់​លាក់​ណា​មួយ ។';
@@ -433,7 +441,7 @@ $string['emailactive'] = 'ធ្វើ​ឲ្យ​អ៊ីមែល​សក
 $string['emailagain'] = 'អ៊ីមែល (ម្ដង​ទៀត)';
 $string['emailcharset'] = 'សំណុំ​តួ​អក្សរ​អ៊ីមែល';
 $string['emailconfirm'] = 'អះអាង​គណនី​របស់​អ្នក';
-$string['emailconfirmation'] = 'សួស្ដី $a->firstname
+$string['emailconfirmation'] = 'សួស្ដី $a->firstname,
 
 គណនី​ថ្មី​មួយ​ត្រូវ​បាន​ស្នើ​នៅ​ \'$a->sitename\'
 ដោយ​ប្រើ​អាសយដ្ឋាន​អ៊ីមែល​របស់​អ្នក ។
@@ -443,7 +451,7 @@ $string['emailconfirmation'] = 'សួស្ដី $a->firstname
 $a->link
 
 កម្មវិធី​ផ្ញើ​សំបុត្រ​ភាគ​ច្រើន នឹង​បង្ហាញ​អាសយដ្ឋាន​នេះ​ជា​តំណ​ពណ៌​ខៀវ
-ដែល​អ្នក​គ្រាន់តែ​ចុច​លើ​វា ។ បើ​វា​មិន​ដំណើរការ​ទេ សូម​ចម្លង​វា 
+ដែល​អ្នក​គ្រាន់តែ​ចុច​លើ​វា ។ បើ​វា​មិន​ដំណើរការ​ទេ សូម​ចម្លង​វា
 ហើយ​ទៅ​បើក​ក្នុង​កម្មវិធី​រុករក​អ៊ីនធឺណិត​របស់​អ្នក ។
 
 ប្រសិន​បើ​អ្នក​ត្រូវ​ការ​ជំនួយ សូម​ទាក់ទង​អ្នក​គ្រប់គ្រង​តំបន់បណ្ដាញ ។
@@ -470,7 +478,7 @@ $string['emailmustbereal'] = 'ចំណាំ ៖ អាសយដ្ឋាន​
 $string['emailnotallowed'] = 'អាសយដ្ឋាន​អ៊ីមែល​ក្នុង​ដែន​ទាំងនេះ​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឡើយ ($a)';
 $string['emailnotfound'] = 'រក​មិន​ឃើញ​អាសយដ្ឋាន​អ៊ីមែល​ក្នុង​មូលដ្ឋាន​ទិន្នន័យ​ឡើយ';
 $string['emailonlyallowed'] = 'អ៊ីមែល​នេះ​មិនមែន​ជា​អ៊ីមែល​ដែល​បាន​អនុញ្ញាត​ឡើយ ($a)';
-$string['emailpasswordconfirmation'] = 'សួស្ដី $a->firstname
+$string['emailpasswordconfirmation'] = 'សួស្ដី $a->firstname,
 
 មាន​គេ (ប្រហែល​ជា​អ្នក) ស្នើសុំ​ពាក្យ​សម្ងាត់ថ្មី​
 សម្រាប់​គណនី​របស់​អ្នក​នៅ \'$a->sitename\' ។
@@ -481,7 +489,7 @@ $string['emailpasswordconfirmation'] = 'សួស្ដី $a->firstname
 $a->link
 
 កម្មវិធី​ផ្ញើសំបុត្រ​ភាគច្រើន គួរតែ​បង្ហាញ​អាសយដ្ឋាន​នេះជា​
-តំណ​ពណ៌ខៀវ​ដោយ​អ្នក​គ្រាន់តែ​ចុច​លើ​វា ។ បើ​វា​មិន​ដំណើរការ​ទេ 
+តំណ​ពណ៌ខៀវ​ដោយ​អ្នក​គ្រាន់តែ​ចុច​លើ​វា ។ បើ​វា​មិន​ដំណើរការ​ទេ
 សូម​ចម្លង​វា ហើយ​ទៅ​បើក​ក្នុង​កម្មវិធី​រុករក​អ៊ីនធឺណិត​របស់​អ្នក ។
 
 ប្រសិន​បើ​អ្នក​ត្រូវការ​ជំនួយ សូម​ទាក់ទង​អ្នកគ្រប់គ្រង​តំបន់បណ្ដាញ
@@ -493,7 +501,7 @@ $string['emailpasswordconfirmmaybesent'] = '<p>ប្រសិនបើ​អ្
 $string['emailpasswordconfirmsent'] = 'អ៊ីមែល​នឹង​ត្រូវ​បាន​ផ្ញើ​ទៅ​អាសយដ្ឋាន​របស់​អ្នក​នៅ <b>$a</b> ។
 <br />វា​មាន​សេចក្ដី​ណែនាំ​ងាយៗ ដើម្បី​អះអាង និង​បញ្ចប់​ការ​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​នេះ ។
 ប្រសិន​បើ​អ្នក​នៅ​តែ​មាន​ការ​លំបាក សូម​ទាក់ទង​អ្នក​គ្រប់គ្រង​តំបន់បណ្ដាញ ។';
-$string['emailpasswordchangeinfo'] = 'សួស្ដី $a->firstname
+$string['emailpasswordchangeinfo'] = 'សួស្ដី $a->firstname,
 
 មាន​គេ (ប្រហែល​ជា​អ្នក) ស្នើសុំ​ពាក្យ​សម្ងាត់ថ្មី​
 សម្រាប់​គណនី​របស់​អ្នក​នៅ \'$a->sitename\' ។
@@ -503,12 +511,12 @@ $string['emailpasswordchangeinfo'] = 'សួស្ដី $a->firstname
 $a->link
 
 កម្មវិធី​ផ្ញើសំបុត្រ​ភាគច្រើន គួរតែ​បង្ហាញ​អាសយដ្ឋាន​នេះជា​
-តំណ​ពណ៌ខៀវ ដោយ​អ្នក​គ្រាន់តែ​ចុច​លើ​វា ។ បើ​វា​មិន​ដំណើរការ​ទេ 
+តំណ​ពណ៌ខៀវ ដោយ​អ្នក​គ្រាន់តែ​ចុច​លើ​វា ។ បើ​វា​មិន​ដំណើរការ​ទេ
 សូម​ចម្លង​វា ហើយ​ទៅ​បើក​ក្នុង​កម្មវិធី​រុករក​អ៊ីនធឺណិត​របស់​អ្នក ។
 
 ប្រសិន​បើ​អ្នក​ត្រូវការ​ជំនួយ សូម​ទាក់ទង​អ្នកគ្រប់គ្រង​តំបន់បណ្ដាញ
 $a->admin';
-$string['emailpasswordchangeinfodisabled'] = 'សួស្ដី $a->firstname
+$string['emailpasswordchangeinfodisabled'] = 'សួស្ដី $a->firstname,
 
 មាន​គេ (ប្រហែល​ជា​អ្នក) ស្នើសុំ​ពាក្យ​សម្ងាត់ថ្មី​
 សម្រាប់​គណនី​របស់​អ្នក​នៅ \'$a->sitename\' ។
@@ -517,7 +525,7 @@ $string['emailpasswordchangeinfodisabled'] = 'សួស្ដី $a->firstname
 ត្រូវ​បាន​បិទ​ ហើយ​មិន​អាច​កំណត់​ឡើង​វិញ​បាន​ឡើយ
 សូម​ទាក់ទង​អ្នក​គ្រប់គ្រង​តំបន់​បណ្ដាញ
 $a->admin';
-$string['emailpasswordchangeinfofail'] = 'សួស្ដី $a->firstname
+$string['emailpasswordchangeinfofail'] = 'សួស្ដី $a->firstname,
 
 មាន​គេ (ប្រហែល​ជា​អ្នក) ស្នើសុំ​ពាក្យ​សម្ងាត់ថ្មី​
 សម្រាប់​គណនី​របស់​អ្នក​នៅ \'$a->sitename\' ។
@@ -537,7 +545,9 @@ $string['enrolenddate'] = 'កាល​បរិច្ឆេទ​បញ្ច�
 $string['enrolenddaterror'] = 'កាល​បរិច្ឆេទ​បញ្ចប់​ការ​ចុះ​ឈ្មោះ មិន​អាច​នៅ​មុន​កាល​បរិច្ឆេទ​ចាប់​ផ្ដើម​បាន​ឡើយ';
 $string['enrollable'] = 'វគ្គ​សិក្សា​អាច​ចុះ​ឈ្មោះ​បាន';
 $string['enrolledincourse'] = 'បាន​ចុះ​ឈ្មោះ​ក្នុង​វគ្គ​សិក្សា \"$a\"';
+$string['enrolledincourserole'] = 'បាន​ចុះឈ្មោះ​នៅ​ក្នុង​ \"$a->course\" ជា \"$a->role\"';
 $string['enrolledincoursenot'] = 'មិន​បាន​ចុះ​ឈ្មោះ​ក្នុង​វគ្គ​សិក្សា \"$a\"';
+$string['enrolledincoursenotrole'] = 'កំហុស​ក្នុងការ​ចុះឈ្នោះ​ទៅ​ក្នុង \"$a->course\" ជា \"$a->role\"';
 $string['enrollfirst'] = 'អ្នកត្រូវតែចុះឈ្មោះ​ក្នុងវគ្គសិក្សា​មួយ មុន​នឹងអាច​ប្រើ​សកម្មភាព​តំបន់​បណ្ដាញ';
 $string['enrolme'] = 'ចុះ​ឈ្មោះ​ខ្ញុំ​ក្នុង​វគ្គ​សិក្សា​នេះ';
 $string['enrolmentconfirmation'] = 'អ្នក​រៀប​នឹង​ចុះ​ឈ្មោះ​ខ្លួន​អ្នក​ជា​សមាជិក​នៃ​វគ្គ​សិក្សា​នេះ​ហើយ ។<br />តើ​អ្នក​ពិត​ជា​ចង់​ធ្វើ​ដូចនោះ​​ឬ ?';
@@ -600,8 +610,8 @@ $string['courseenrolstartdate'] = 'កាល​បរិច្ឆេទ​ចា
 $string['courseenrolenddate'] = 'កាល​បរិច្ឆេទ​បញ្ចប់​ការ​ចុះ​ឈ្មោះ​ចូល​រៀន';
 $string['startingfrom'] = 'ចាប់ផ្ដើម​ពី';
 $string['extendperiod'] = 'រយៈពេល​ពន្យារ';
-$string['failedloginattempts'] = 'ចូល​បរាជ័យ $a->attempts ដង តាំង​ពី​ចូល​លើក​មុន';
-$string['failedloginattemptsall'] = 'ចូល​បរាជ័យ $a->attempts ដង សម្រាប់​គណនី $a->accounts';
+$string['failedloginattempts'] = 'បាន​បរាជ័យ​ក្នុងការ​ចូល $a->attempts តាំង​ពី​ចូល​លើក​មុន';
+$string['failedloginattemptsall'] = 'ចូល​បាន​​បរាជ័យ $a->attempts ដង សម្រាប់​គណនី $a->accounts';
 $string['feedback'] = 'មតិ​យោបល់';
 $string['file'] = 'ឯកសារ';
 $string['filemissing'] = 'បាត់ $a';
@@ -639,6 +649,7 @@ $string['formatsocial'] = 'ទ្រង់ទ្រាយ​សង្គម';
 $string['formattext'] = 'ទ្រង់ទ្រាយ Moodle ស្វ័យប្រវត្តិ';
 $string['formattexttype'] = 'ទ្រង់ទ្រាយ';
 $string['formattopics'] = 'ទ្រង់ទ្រាយ​ប្រធាន​បទ';
+$string['formattopicscss'] = 'ទ្រង់Topics format - CSS/No tables';
 $string['formattopicsajax'] = 'ទ្រង់ទ្រាយ​ប្រធាន​បទ - AJAX';
 $string['formatweeks'] = 'ទ្រង់ទ្រាយ​សប្ដាហ៍';
 $string['formatweekscss'] = 'ទ្រង់ទ្រាយ​សប្ដាហ៍ - CSS/គ្មាន​តារាង';
@@ -740,6 +751,7 @@ $string['hiddensectionsinvisible'] = 'មើល​មិន​ឃើញ​ផ្
 $string['hide'] = 'លាក់';
 $string['hideadvancedsettings'] = 'លាក់​ការ​កំណត់​កម្រិត​ខ្ពស់';
 $string['hidepicture'] = 'លាក់​រូបភាព';
+$string['hidesection'] = 'លាក់​ភាគ $a';
 $string['hidesettings'] = 'លាក់​ការ​កំណត់';
 $string['hits'] = 'ចុច';
 $string['hitsoncourse'] = 'ចុច​​លើ $a->coursename ដោយ $a->username';
@@ -757,6 +769,7 @@ $string['htmlfilesonly'] = 'តែ​ឯកសារ HTML ប៉ុណ្ណោ�
 $string['htmlformat'] = 'ទ្រង់ទ្រាយ HTML ស្អាត';
 $string['icqnumber'] = 'លេខ ICQ';
 $string['idnumber'] = 'លេខ​សម្គាល់';
+$string['idnumbermod'] = 'លេខ​​សម្គាល់';
 $string['idnumbercourse'] = 'លេខ​សម្គាល់​វគ្គ​សិក្សា';
 $string['idnumbertaken'] = 'លេខ​សម្គាល់​នេះ​ត្រូវ​បាន​ប្រើ​រួច​ហើយ';
 $string['imagealt'] = 'ពណ៌នា​អំពី​រូបភាព';
@@ -814,6 +827,7 @@ $string['list'] = 'បញ្ជី';
 $string['listfiles'] = 'បញ្ជី​ឯកសារ​ក្នុង $a';
 $string['listofallpeople'] = 'បញ្ជី​មនុស្ស​ទាំងអស់';
 $string['livelogs'] = 'កំណត់ហេតុ​បន្តផ្ទាល់​កាល​ពី​ម៉ោង​មុន';
+$string['local'] = 'មូលដ្ឋាន';
 $string['locale'] = 'km_KH.UTF-8';
 $string['location'] = 'ទីតាំង';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
@@ -851,8 +865,8 @@ $string['loginusing'] = 'ចូល​នៅ​ទីនេះ ដោយ​ប្
 $string['logout'] = 'ចេញ';
 $string['logoutconfirm'] = 'តើ​អ្នក​ពិត​ជា​ចង់​ចេញ​ឬ ?';
 $string['logs'] = 'កំណត់​ហេតុ';
-$string['logtoomanycourses'] = '[ <a href=\"$a->url\">ច្រើន​ទៀត</a> ]';
-$string['logtoomanyusers'] = '[ <a href=\"$a->url\">ច្រើន​ទៀត</a> ]';
+$string['logtoomanycourses'] = '[ <a href=\"$a->url\">ជា​ច្រើន​ទៀត</a> ]';
+$string['logtoomanyusers'] = '[ <a href=\"$a->url\">ជា​ច្រើន​ទៀត</a> ]';
 $string['lookback'] = 'មើល​ថយ​ក្រោយ';
 $string['mailadmins'] = 'ជូនដំណឹង​ដល់​អ្នក​គ្រប់គ្រង';
 $string['mailstudents'] = 'ជូនដំណឹង​ដល់​សិស្ស';
@@ -893,6 +907,7 @@ $string['metanoalreadycourses'] = 'មិន​មាន​វគ្គសិក
 $string['metanopotentialcourses'] = 'មិន​មាន​វគ្គ​សិក្សា​ទេ';
 $string['metapotentialcourses'] = 'មាន​វគ្គ​សិក្សា';
 $string['metaremovecourse'] = 'យក​វគ្គ​សិក្សា​នេះ​ចេញ';
+$string['migratinggrades'] = 'ផ្លាស់ប្ដូរ​ពិន្ទុក';
 $string['min'] = 'នាទី';
 $string['mins'] = 'នាទី';
 $string['minutes'] = 'នាទី';
@@ -903,6 +918,7 @@ $string['missingcountry'] = 'បាត់​ប្រទេស';
 $string['missingdescription'] = 'បាត់​សេក្ដី​ពិពណ៌នា';
 $string['missingemail'] = 'បាត់​អាសយដ្ឋាន​អ៊ីមែល';
 $string['missingfirstname'] = 'បាត់​នាម​ខ្លួន';
+$string['missingfromdisk'] = 'បាត់​​ពី​​ថាស';
 $string['missingfullname'] = 'បាត់​ឈ្មោះ​ពេញ';
 $string['missinglastname'] = 'បាត់​នាម​ត្រកូល';
 $string['missingname'] = 'បាត់​ឈ្មោះ';
@@ -939,6 +955,7 @@ $string['movefull'] = 'ផ្លាស់ទី $a មក​ទីតាំង�
 $string['movehere'] = 'ផ្លាស់ទី​មក​ទីនេះ';
 $string['moveleft'] = 'ផ្លាស់ទី​ទៅ​ឆ្វេង';
 $string['moveright'] = 'ផ្លាស់ទី​ទៅ​ស្ដាំ';
+$string['movesection'] = 'ផ្លាស់ទី​​ភាគ $a';
 $string['moveselectedcoursesto'] = 'ផ្លាស់ទី​វគ្គ​សិក្សា​ដែល​បាន​ជ្រើស​ទៅ...';
 $string['movetoanotherfolder'] = 'ផ្លាស់ទី​ទៅ​ថត​មួយ​ផ្សេង​ទៀត';
 $string['moveup'] = 'ផ្លាស់ទី​ឡើង​លើ';
@@ -961,7 +978,7 @@ $string['newaccount'] = 'គណនី​ថ្មី';
 $string['newcourse'] = 'វគ្គ​សិក្សា​ថ្មី';
 $string['newpassword'] = 'ពាក្យ​សម្ងាត់​ថ្មី';
 $string['newpasswordfromlost'] = '<strong>ចំណាំ ៖</strong> <strong>ពាក្យ​សម្ងាត់​បច្ចុប្បន្ន</strong>​ របស់​អ្នក​នឹង​បាន​ត្រូវ​ផ្ញើ​ទៅ​អ្នក​នៅ​ក្នុង​អ៊ីមែល ​<strong>ទី​ពីរ</strong> ​ដែល​បាន​ផ្ញើ​ជា​ផ្នែក​នៃ​ដំណើរ​ការ​យក​មក​វិញ​នូវ​ពាក្យ​សម្ងាត់​ដែល​បាត់ ។ សូម​ប្រាកដ​ថា អ្នក​បាន​ទទួល​ពាក្យ​សម្ងាត់​ថ្មី​របស់​អ្នក មុន​ពេល​បន្ត​​ប្រើ​អេក្រង់​នេះ ។';
-$string['newpasswordtext'] = 'សួស្ដី $a->firstname
+$string['newpasswordtext'] = 'សួស្ដី $a->firstname,
 
 ពាក្យ​សម្ងាត់​គណនី​របស់​អ្នក​នៅ \'$a->sitename\' ត្រូវបាន​កំណត់​ឡើង​វិញ
 ហើយ​យើង​បាន​ចេញ​ពាក្យសម្ងាត់​ថ្មី​បណ្ដោះអាសន្ន​ជូន​អ្នក ។
@@ -975,7 +992,7 @@ $a->link
 
 កម្មវិធី​ផ្ញើសំបុត្រ​ភាគច្រើន នឹង​​បង្ហាញអាសយដ្ឋាន​នេះ​ជា​តំណ​
 ​ពណ៌ខៀវ ដោយ​អ្នក​គ្រាន់តែ​ចុច​លើ​វា ។
-ប្រសិន​បើ​វា​មិនដំណើរការ សូម​ចម្លង​វា 
+ប្រសិន​បើ​វា​មិនដំណើរការ សូម​ចម្លង​វា
 ហើយ​ទៅ​បើក​ក្នុង​កម្មវិធី​រុករក​អ៊ីនធឺណិត​របស់​អ្នក ។
 
 ពី​អ្នក​គ្រប់គ្រង \'$a->sitename\'
@@ -986,7 +1003,7 @@ $string['newsitems'] = 'ធាតុ​ព័ត៌មាន';
 $string['newsitemsnumber'] = 'ធាតុ​ព័ត៌មាន​ដែលត្រូវ​បង្ហាញ';
 $string['newuser'] = 'អ្នក​ប្រើ​ថ្មី';
 $string['newusernewpasswordsubj'] = 'គណនី​អ្នក​ប្រើ​ថ្មី';
-$string['newusernewpasswordtext'] = 'សួស្ដី $a->firstname
+$string['newusernewpasswordtext'] = 'សួស្ដី $a->firstname,
 
 គណនី​ថ្មី​ត្រូវបាន​បង្កើត​ឲ្យ​អ្នក​នៅ \'$a->sitename\'
 ហើយ​យើង​បាន​ចេញ​ពាក្យសម្ងាត់​ថ្មី​បណ្ដោះអាសន្ន​ជូន​អ្នក ។
@@ -1002,7 +1019,7 @@ $a->link
 
 កម្មវិធី​ផ្ញើសំបុត្រ​ភាគច្រើន នឹង​បង្ហាញ​អាសយដ្ឋាន​នេះ​ជា
 តំណ​ពណ៌​ខៀវ ដោយ​អ្នក​គ្រាន់​តែ​ចុច​លើ​វា ។
-បើ​វា​មិនដំណើរការ​ទេ សូម​ចម្លង​វា 
+បើ​វា​មិនដំណើរការ​ទេ សូម​ចម្លង​វា
 ហើយ​ទៅ​បើក​ក្នុង​កម្មវិធី​រុករក​អ៊ីនធឺណិត​របស់​អ្នក ។
 
 ពី​អ្នក​គ្រប់គ្រង \'$a->sitename\'
@@ -1031,6 +1048,7 @@ $string['nomoreidnumber'] = 'កុំ​ប្រើ​លេខ​សម្គ
 $string['none'] = 'គ្មាន';
 $string['noneditingteacher'] = 'គ្រូ​មិន​​កែសម្រួល';
 $string['noneditingteacherdescription'] = 'គ្រូ​មិន​​កែ​សម្រួល អាច​បង្រៀន​ក្នុង​វគ្គ​សិក្សា និង​ដាក់​ពិន្ទុ​សិស្ស​បាន ប៉ុន្តែ​មិន​អាច​ប្ដូរ​សកម្មភាព​បាន​ទេ ។';
+$string['nonstandard'] = 'មិន​ស្តង់ដារ';
 $string['nopendingcourses'] = 'មិន​មាន​វគ្គសិក្សា​រង់ចាំ​អនុម័ត​ឡើយ';
 $string['nopotentialadmins'] = 'គ្មាន​អ្នក​គ្រប់គ្រង​ជាក់ស្ដែង';
 $string['nopotentialcreators'] = 'គ្មាន​អ្នក​បង្កើត​វគ្គ​សិក្សា​ជាក់ស្ដែង';
@@ -1059,17 +1077,19 @@ $string['notenrolledprofile'] = 'មិនមាន​ទម្រង់​ន�
 $string['noteuserschangednonetocourse'] = 'ចំណាំ ៖ ត្រូវ​តែ​ស្ដារ​អ្នក​ប្រើ​វគ្គ​សិក្សា នៅពេល​ដែល​ស្ដារ​ទិន្នន័យ​អ្នក​ប្រើ (ក្នុង​សកម្មភាព ឯកសារ ឬ​សារ) ។ ការ​កំណត់​នេះ​បាន​ត្រូវ​ផ្លាស់ប្ដូរ​សម្រាប់​អ្នក ។';
 $string['nothingnew'] = 'មិន​មាន​អ្វី​ថ្មី​ឡើយ តាំង​ពី​អ្នក​ចូល​លើក​មុន';
 $string['nothingtodisplay'] = 'មិន​មាន​អ្វី​បង្ហាញ​ឡើយ';
+$string['notice'] = 'សម្គាល់';
 $string['noticenewerbackup'] = 'ឯកសារ​បម្រុងទុក​នេះ​ត្រូវ​បាន​បង្កើត​ដោយ Moodle $a->backuprelease ($a->backupversion) ហើយ​វា​ថ្មី​ជាង Moodle $a->serverrelease ($a->serverversion) ដែល​បាន​ដំឡើង​បច្ចុប្បន្ន​របស់​អ្នក ។ វា​អាច​បង្ក​ឲ្យ​មាន​បញ្ហា​មួយ​ចំនួន ព្រោះ​ឯកសារ​បម្រុងទុក​មិន​ប្រាកដ​ថា​នឹង​ឆប​គ្នា​ជាមួយ​កំណែ​ថយក្រោយ ។';
 $string['notifications'] = 'ការ​ជូន​ដំណឹង';
-$string['notifyloginfailuresmessage'] = '$a->time IP ៖ $a->ip អ្នក​ប្រើ ៖ $a->info';
+$string['notifyloginfailuresmessage'] = '$a->time, IP ៖ $a->ip, អ្នក​ប្រើ ៖ $a->info';
 $string['notify'] = 'ជូន​ដំណឹង';
-$string['notifyloginfailuresmessageend'] = 'អ្នក​អាច​មើល​កំណត់​ហេតុ​ទាំងនេះ​បាន​នៅ $a/course/log.php?id=1&amp;chooselog=1&amp;modid=site_errors ។';
+$string['notifyloginfailuresmessageend'] = 'អ្នក​អាច​មើល​កំណត់​ហេតុ​ទាំងនេះ​បាន​នៅ $a/course/report/log/index.php?id=1&amp';
 $string['notifyloginfailuresmessagestart'] = 'នេះ​គឺ​ជា​បញ្ជី​នៃ​ការ​ប៉ុនប៉ង​ចូល​បរាជ័យ​នៅ $a តាំង​ពី​ជូនដំណឹង​អ្នក​លើក​ចុងក្រោយ ។';
 $string['notifyloginfailuressubject'] = '$a :: ជូន​ដំណឹង​អំពី​ការ​ចូល​បរាជ័យ';
 $string['notincluded'] = 'មិន​រួម​បញ្ចូល';
 $string['notingroup'] = 'សូម​អភ័យទោស អ្នក​ត្រូវ​តែ​ជា​ផ្នែក​របស់​ក្រុម ដើម្បី​មើល​សកម្មភាព​នេះ ។';
 $string['notpublic'] = 'មិន​មែន​សាធារណៈ !';
 $string['nousersmatching'] = 'រក​មិន​ឃើញ​អ្នក​ប្រើ​ផ្គូផ្គង​នឹង \'$a\' ឡើយ';
+$string['nousersfound'] = 'រក​​មិន​ឃើញ​​អ្នក​ប្រើ';
 $string['nousersyet'] = 'មិនទាន់​មាន​អ្នកប្រើ​នៅ​ឡើយ​ទេ';
 $string['now'] = 'ឥឡូវ';
 $string['novalidcourses'] = 'មិន​មាន​វគ្គសិក្សា​ត្រឹមត្រូវ ដើម្បី​បង្ហាញ​ឡើយ';
@@ -1087,6 +1107,7 @@ $string['numwords'] = '$a ពាក្យ';
 $string['numyears'] = '$a ឆ្នាំ';
 $string['ok'] = 'យល់ព្រម';
 $string['oldpassword'] = 'ពាក្យ​សម្ងាត់​បច្ចុប្បន្ន';
+$string['olduserdirectory'] = 'នេះ​ជា​ថត​អ្នក​ប្រើ​ចាស់ OLD និង​មិន​ត្រូវការ​ទៀតទេ ។ អ្នក​អាច​លុប​វា​ដោយ​សុវត្ថិភាព ។ ឯកសារ​ដែល​វា​មាន​ត្រូវ​បាន​ចម្លង​ទៅ​ថត​អ្នក​ប្រើ​ថ្មី ។';
 $string['opentoguests'] = 'ចូល​ដំណើរ​ការ​ជា​ភ្ញៀវ';
 $string['optional'] = 'ស្រេច​ចិត្ត';
 $string['order'] = 'លំដាប់';
@@ -1126,16 +1147,21 @@ $string['paymentsorry'] = 'សូម​អរគុណ​សម្រាប់�
 $string['paymentthanks'] = 'សូម​អរគុណ​សម្រាប់​ការ​បង់ប្រាក់​របស់​អ្នក ! ឥឡូវ​អ្នក​បាន​ចុះឈ្មោះ​ក្នុង​វគ្គសិក្សា​របស់​អ្នក​ហើយ ៖ <br />\"$a\"';
 $string['people'] = 'មនុស្ស';
 $string['periodending'] = 'កំឡុងពេល​បញ្ចប់ ($a)';
+$string['personal'] = 'ផ្ទាល់​ខ្លួន';
 $string['personalprofile'] = 'ទម្រង់​ផ្ទាល់​ខ្លួន';
 $string['pictureof'] = 'រូបភាព $a';
 $string['phone'] = 'ទូរស័ព្ទ';
 $string['phpinfo'] = 'ព័ត៌មាន PHP';
 $string['pleaseclose'] = 'សូម​បិទ​បង្អួច​នេះ​ឥឡូវ ។';
+$string['plugincheck'] = 'ត្រួតពិនិត្យ​មើល​​កម្មវិធី​​ជំនួយ';
+$string['pluginchecknotice'] = 'តារាង​ខាង​ក្រោម​បង្ហាញ​ពី​ម៉ូឌុល ប្លុក និង​តម្រង​ដែល​ត្រូវ​បាន​រក​ឃើញ​ក្នុង​ការ​ដំឡើង​ Moodle ថ្មីៗ​របស់​អ្នក ។';
 $string['pluginsetup'] = 'រៀបចំ​តារាង​កម្មវិធី​ជំនួយ';
 $string['policyaccept'] = 'ខ្ញុំ​យល់ និង​យល់ព្រម';
 $string['policyagree'] = 'អ្នក​ត្រូវ​តែ​យល់ព្រម​ចំពោះ​គោលការណ៍​នេះ ដើម្បី​បន្ត​ប្រើ​តំបន់​បណ្ដាញ​នេះ ។ តើ​អ្នក​យល់ព្រម​ឬ​ទេ ?';
 $string['policyagreement'] = 'កិច្ច​ព្រមព្រៀង​លើ​គោលការណ៍​តំបន់​បណ្ដាញ';
 $string['policyagreementclick'] = 'ចុច​ទីនេះ ដើម្បី​អាន​កិច្ច​ព្រមព្រៀង​លើ​គោលការណ៍​តំបន់​បណ្ដាញ';
+$string['popup'] = 'លេច​​ឡើង';
+$string['popupwindowname'] = 'បង្អួច​​​​លេច​ឡើង';
 $string['popupwindow'] = 'បើក​ឯកសារ​ក្នុង​បង្អួច​ថ្មី';
 $string['post'] = 'ប្រកាស';
 $string['posts'] = 'ប្រកាស';
@@ -1182,6 +1208,7 @@ $string['registrationno'] = 'ទេ ខ្ញុំ​មិន​ចង់​�
 $string['registrationsend'] = 'ផ្ញើ​ព័ត៌មាន​ការ​ចុះ​ឈ្មោះ​ទៅ moodle.org';
 $string['registrationyes'] = 'បាន/ចាស សូម​ជូន​ដំណឹង​ខ្ញុំ​អំពី​បញ្ហា​សំខាន់ៗ';
 $string['reject'] = 'ច្រានចោល';
+$string['reload'] = 'ផ្ទុក​​​​ឡើង​វិញ';
 $string['remotemaharauser'] = 'អ្នក​ប្រើ Mahara ពី​ចម្ងាយ';
 $string['remove'] = 'យកចេញ';
 $string['removeadmin'] = 'យក​អ្នក​គ្រប់គ្រង​ចេញ';
@@ -1199,6 +1226,10 @@ $string['required'] = 'ទាមទារ';
 $string['requireskey'] = 'វគ្គ​សិក្សា​នេះ​ទាមទារ​កូនសោ​ចុះឈ្មោះ';
 $string['requirespayment'] = 'វគ្គ​សិក្សា​នេះ​ទាមទារ​ឲ្យ​អ្នក​បង់ប្រាក់ ទើប​អាច​ចូល​ដំណើរការ​បាន';
 $string['reset'] = 'កំណត់​ឡើង​វិញ';
+$string['resetcomponent'] = 'សមាសភាគ';
+$string['resettask'] = 'ភារកិច្ច';
+$string['resetnotimplemented'] = 'ការ​​កំណត់​​ឡើងវិញ​​មិន​​ត្រូវ​​​បាន​​​ប្រតិបត្តិ';
+$string['resetstatus'] = 'ស្ថានភាព';
 $string['resetcourse'] = 'កំណត់​វគ្គ​សិក្សា​ឡើង​វិញ';
 $string['resetinfo'] = 'ទំព័រ​នេះ​អនុញ្ញាត​ឲ្យ​អ្នក​សម្អាត​ទិន្នន័យ​អ្នក​ប្រើ​នៅ​ក្នុង​វគ្គសិក្សា​មួយ ដោយ​រក្សាទុក​នូវ​រាល់​សកម្មភាព និង​ការ​កំណត់​របស់​វា ។ សូម​ប្រយ័ត្ន បើ​អ្នក​ជ្រើស​ធាតុ​ខាង​ក្រោម ហើយ​ដាក់ស្នើ​ទំព័រ​នេះ អ្នក​នឹង​លុប​ទិន្នន័យ​អ្នក​ប្រើ​ដែល​បាន​ជ្រើស ជា​រៀង​រហូត !';
 $string['resetstartdate'] = 'កំណត់​កាល​បរិច្ឆេទ​ចាប់ផ្ដើម​ឡើង​វិញ';
@@ -1224,6 +1255,8 @@ $string['rsserror'] = 'កំហុស​ក្នុង​ការ​អាន
 $string['rsstype'] = 'មតិ​ព័ត៌មាន RSS សម្រាប់​សកម្មភាព​នេះ';
 $string['saveandnext'] = 'រក្សា​ទុក ហើយ​បង្ហាញ​បន្ទាប់​ទៀត';
 $string['savechanges'] = 'រក្សា​ទុក​ការ​ផ្លាស់ប្ដូរ';
+$string['savechangesanddisplay'] = 'រក្សាទុក និង​​​បង្ហាញ';
+$string['savechangesandreturntocourse'] = 'រក្សាទុក និង​ត្រឡប់​ទៅ​វគ្គសិក្សា';
 $string['savedat'] = 'បាន​រក្សា​ទុក​នៅ ៖';
 $string['savepreferences'] = 'រក្សា​ទុក​ចំណង់ចំណូល​ចិត្ត';
 $string['saveto'] = 'រក្សា​ទុក​ទៅ';
@@ -1263,6 +1296,7 @@ $string['seealsostats'] = 'សូម​មើល ៖ ស្ថិតិ';
 $string['select'] = 'ជ្រើស';
 $string['selectacountry'] = 'ជ្រើស​ប្រទេស';
 $string['selectall'] = 'ជ្រើស​ទាំងអស់';
+$string['selectdefault'] = 'ជ្រើស​​លំនាំដើម';
 $string['selectamodule'] = 'សូម​ជ្រើស​ម៉ូឌុល​សកម្មភាព​មួយ';
 $string['selectednowmove'] = 'បាន​ជ្រើស​ឯកសារ $a សម្រាប់​ផ្លាស់ទី ។ ឥឡូវ​សូម​ចូល​ទៅ​ទិសដៅ រួច​ចុច \'ផ្លាស់ទី​ឯកសារ​នៅ​ទីនេះ\'';
 $string['selectnos'] = 'ជ្រើស \'ទេ\' ទាំងអស់';
@@ -1319,7 +1353,6 @@ $string['sizegb'] = 'ជ.ប.';
 $string['sizekb'] = 'គ.ប.';
 $string['sizemb'] = 'ម.ប.';
 $string['skipped'] = 'បាន​រំលង';
-$string['skiptomaincontent'] = 'រំលង​ទៅ​មាតិកា​មេ';
 $string['skypeid'] = 'លេខ​សម្គាល់ Skype';
 $string['socialheadline'] = 'វេទិកា​សង្គម - ប្រធាន​បទ​ចុង​ក្រោយ​បំផុត';
 $string['someallowguest'] = 'វគ្គ​សិក្សា​មួយចំនួន​អាច​នឹង​អនុញ្ញាត​ឲ្យ​ចូលដំណើរការ​ជា​ភ្ញៀវ';
@@ -1327,6 +1360,7 @@ $string['someerrorswerefound'] = 'បាត់​ព័ត៌មាន​មួ�
 $string['sortby'] = 'តម្រៀប​តាម';
 $string['sourcerole'] = 'តួ​នាទី​ដើម';
 $string['specifyname'] = 'អ្នក​ត្រូវ​តែ​បញ្ជាក់​ឈ្មោះ​មួយ ។';
+$string['standard'] = 'ស្តង់ដារ';
 $string['starpending'] = '([*] = វគ្គសិក្សា​រង់ចាំ​អនុម័ត)';
 $string['startdate'] = 'កាល​បរិច្ឆេទ​ចាប់ផ្ដើម​វគ្គ​សិក្សា';
 $string['startsignup'] = 'បង្កើត​គណនី​ថ្មី';
@@ -1416,6 +1450,7 @@ $string['thanks'] = 'សូម​អរគុណ';
 $string['theme'] = 'ស្បែក';
 $string['themes'] = 'ស្បែក';
 $string['themesaved'] = 'បាន​រក្សា​ទុក​ស្បែក​ថ្មី';
+$string['thereareno'] = 'មិនមាន​ $a នៅ​ក្នុង​វគ្គសិក្សា​នេះ';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'ខ្មែរ';
@@ -1442,6 +1477,7 @@ $string['turneditingoff'] = 'បិទ​ការ​កែ​សម្រួល
 $string['turneditingon'] = 'បើក​ការ​កែ​សម្រួល';
 $string['undecided'] = 'មិន​បាន​សម្រេច​ចិត្ត';
 $string['unenrol'] = 'លុប​ឈ្មោះ';
+$string['unenrolroleusers'] = 'អ្នក​ប្រើ​​ដែល​​មិន​បាន​​ចុះ​ឈ្មោះ';
 $string['unenrolallstudents'] = 'លុប​ឈ្មោះ​សិស្ស​ទាំងអស់';
 $string['unenrolallstudentssure'] = 'តើ​អ្នក​ពិត​ជា​ចង់​លុប​ឈ្មោះ​សិស្ស​ទាំងអស់​ពី​វគ្គ​សិក្សា​នេះ​ទាំងស្រុង​​ឬ ?';
 $string['unenrolme'] = 'លុប​ឈ្មោះ​ខ្ញុំ​ពី $a';
@@ -1469,9 +1505,9 @@ $string['updatingain'] = 'ធ្វើ​ឲ្យ $a->what ទាន់សម�
 $string['upload'] = 'ផ្ទុក​ឡើង';
 $string['uploadafile'] = 'ផ្ទុក​ឯកសារ​ឡើង';
 $string['uploadedfile'] = 'បាន​ផ្ទុក​ឯកសារ​ឡើង​ដោយ​ជោគជ័យ';
-$string['uploadedfileto'] = 'បាន​ផ្ទុក $a->file ឡើង​ទៅ $a->directory';
+$string['uploadedfileto'] = 'បាន​ផ្ទុក $a->file ទៅ $a->directory';
 $string['uploadedfiletoobig'] = 'សូម​អភ័យ​ទោស ឯកសារ​នោះ​ធំ​ពេក​ហើយ (ទំហំ​កំណត់​ត្រឹម $a បៃ)';
-$string['uploadfailednotrecovering'] = 'បាន​បរាជ័យ​ក្នុងការ​ផ្ទុក​ឡើង​ឯកសារ​របស់​អ្នក ពីព្រោះ​មាន​បញ្ហា​ជាមួយ​ឯកសារ​មួយ​គឺ $a->name ។<br /> នេះ​គឺ​ជា​កំណត់​ហេតុ​របស់​បញ្ហា ៖<br />$a->problem<br />មិន​អាច​ប៉ះប៉ូវ​បាន​ឡើយ ។';
+$string['uploadfailednotrecovering'] = 'បាន​បរាជ័យ​ក្នុងការ​ផ្ទុក​ឡើង​ឯកសារ​របស់​អ្នក ពីព្រោះ​មាន​បញ្ហា​ជាមួយ​ឯកសារ​មួយ​គឺ $a->name ។<br /> នេះ​គឺ​ជា​កំណត់​ហេតុ​របស់​បញ្ហា ៖ <br />$a->problem<br />មិនបាន​សង្គ្រោះ ។';
 $string['uploadfilelog'] = 'កំណត់ហេតុ​ការ​ផ្ទុក​ឡើង​សម្រាប់​ឯកសារ $a';
 $string['uploadformlimit'] = 'ឯកសារ​ដែល​ផ្ទុក​ឡើង​បាន​លើស​​ទំហំ​កំណត់​អតិបរមា ដែល​កំណត់​ដោយ​សំណុំ​បែបបទ';
 $string['uploadlabel'] = 'ចំណង​ជើង ៖';
@@ -1520,7 +1556,7 @@ $string['virusfoundlater'] = 'ឯកសារ​ដែល​អ្នក​ប�
 $a->action
 
 ប្រសិន​បើ​ឯកសារ​នេះ​គឺ​ការងារ​ដែល​អ្នក​ត្រូវ​ដាក់ស្នើ អ្នក​គួរ​តែ​ដាក់ស្នើ​វា​ម្ដង​ទៀត ដូច្នេះ​ទើប​គ្រូ​របស់​អ្នក​អាច​មើល​វា​ឃើញ ។';
-$string['virusfoundlateradmin'] = 'អ្នក​គ្រប់គ្រង​សូម​ប្រុងប្រយ័ត្ន ! ឯកសារ​ដែល​បាន​ផ្ទុក​ឡើង​នៅថ្ងៃ​ទី $a->date មាន​ឈ្មោះថា $a->filename សម្រាប់​វគ្គសិក្សា $a->course ដោយ​អ្នកប្រើ $a->user គឺ​ត្រូវបាន​រកឃើញ​ថា​មាន​មេរោគ ។ នេះ​ជា​សេចក្ដី​សង្ខេប​នៃ​អ្វី​ដែល​បាន​កើតឡើង​ចំពោះ​ឯកសារ ៖
+$string['virusfoundlateradmin'] = 'អ្នក​គ្រប់គ្រង​សូម​ប្រុងប្រយ័ត្ន ! ឯកសារ​ដែល​បាន​ផ្ទុក​ឡើង​នៅថ្ងៃ​ទី $a->date មាន​ឈ្មោះថា $a->course សម្រាប់​វគ្គសិក្សា $a->course ដោយ​អ្នកប្រើ $a->user គឺ​ត្រូវបាន​រកឃើញ​ថា​មាន​មេរោគ ។ នេះ​ជា​សេចក្ដី​សង្ខេប​នៃ​អ្វី​ដែល​បាន​កើតឡើង​ចំពោះ​ឯកសារ ៖
 
 $a->action
 
@@ -1542,11 +1578,11 @@ $string['weekhide'] = 'លាក់​សប្ដាហ៍​នេះ​ពី
 $string['weeklyoutline'] = 'គ្រោង​ប្រចាំ​សប្ដាហ៍';
 $string['weekshow'] = 'បង្ហាញ​សប្ដាហ៍​នេះ​ចំពោះ $a';
 $string['welcometocourse'] = 'សូម​ស្វាគមន៍​ការ​មកកាន់ $a';
-$string['welcometocoursetext'] = 'សូម​ស្វាគមន៍​ការ​មកកាន់ $a->coursename !
+$string['welcometocoursetext'] = 'សូម​ស្វាគមន៍​ការ​មកកាន់ $a->coursename!
 
 ប្រសិន​បើ​អ្នក​មិន​បាន​ធ្វើ​ដូច​នោះ​រួច​រាល់​ទេ អ្នក​គួរតែ​កែ​សម្រួល​ទំព័រ​ទម្រង់​របស់​អ្នក​ក្នុង​វគ្គ​សិក្សា ដូច្នេះ​យើង​អាច​ស្វែងយល់​បន្ថែម​អំពី​អ្នក ៖
 
-$a->profileurl​';
+$a->profileurl';
 $string['whattocallzip'] = 'តើ​អ្នក​ចង់​ហៅ​ឯកសារ zip ធ្វើ​អ្វី ?';
 $string['withchosenfiles'] = 'ដោយ​មាន​ឯកសារ​ដែល​បាន​ជ្រើស';
 $string['withoutuserdata'] = 'ដោយ​គ្មាន​ទិន្នន័យ​អ្នក​ប្រើ';
@@ -1567,6 +1603,7 @@ $string['writinggeneralinfo'] = 'សរសេរ​ព័ត៌មាន​ទ�
 $string['writinggradebookinfo'] = 'សរសេរ​ព័ត៌មាន​សៀវភៅ​ពិន្ទុ';
 $string['writinggroupsinfo'] = 'សរសេរ​ព័ត៌មាន​ក្រុម';
 $string['writinggroupingsinfo'] = 'សរសេរ​ព័ត៌មាន​ការ​ដាក់​ក្រុម';
+$string['writinggroupingsgroupsinfo'] = 'កំពុង​​សរសេរ​​ការ​​ដាក់​​ជា​​ក្រុម-ព័ត៌មាន​​ក្រុម';
 $string['writingheader'] = 'សរសេរ​បឋមកថា';
 $string['writingloginfo'] = 'សរសេរ​ព័ត៌មាន​កំណត់​ហេតុ';
 $string['writingmessagesinfo'] = 'សរសេរ​ព័ត៌មាន​សារ';

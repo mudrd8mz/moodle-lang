@@ -9,6 +9,7 @@ $string['created'] = 'បាន​បង្កើត';
 $string['nonotes'] = 'គ្មាន​ចំណាំ​ទេ ។';
 $string['notesnotvisible'] = 'អ្នក​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​មើល​ចំណាំ​ទេ ។';
 $string['addnewnote'] = 'បន្ថែម​ចំណាំ​ថ្មី';
+$string['addnewnoteselect'] = 'ជ្រើស​អ្នក​ប្រើ ​ដើម្បី​សរសេរ​កំណត់​​ចំណាំ​​អំពី';
 $string['groupaddnewnote'] = 'បន្ថែម​ចំណាំ​ថ្មី​សម្រាប់​ទាំងអស់';
 $string['deleteconfirm'] = 'លុប​ចំណាំ​នេះ​ឬ ?';
 $string['content'] = 'មាតិកា';
@@ -21,5 +22,6 @@ $string['personal'] = 'ផ្ទាល់​ខ្លួន';
 $string['course'] = 'វគ្គ​សិក្សា';
 $string['site'] = 'តំបន់​បណ្ដាញ';
 $string['editnote'] = 'កែ​សម្រួល​ចំណាំ';
+$string['deletenotes'] = 'លុប​​កំណត់​​ចំណាំ​​ទាំងអស់';
 
 ?>
