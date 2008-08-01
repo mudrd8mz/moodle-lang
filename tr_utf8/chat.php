@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080714) (2008070701)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['ajax'] = 'Kullanılan ajax sürümü';
@@ -77,6 +77,7 @@ $string['sessions'] = 'Sohbet oturumları';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Geçmiş oturumlara herkes gözatabilir';
 $string['updatemethod'] = 'Güncelleme türü';
+$string['updaterate'] = 'Güncelleme Sıklığı:';
 $string['viewreport'] = 'Geçmiş sohbet oturumlarına gözat';
 
 ?>

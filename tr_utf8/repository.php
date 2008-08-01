@@ -1,11 +1,14 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
+$string['activaterep'] = 'Etkin depolar';
 $string['back'] = '&lt; Geri';
 $string['close'] = 'Kapat';
 $string['download'] = 'İndir';
 $string['filename'] = 'Dosya adı';
+$string['invalidplugin'] = 'Geçersiz Depo Eklentisi';
+$string['invalidrepositoryid'] = 'Geçersiz Depo ID';
 $string['listview'] = 'Liste Görünümü';
 $string['loading'] = 'Yükleniyor...';
 $string['logout'] = 'Çıkış';

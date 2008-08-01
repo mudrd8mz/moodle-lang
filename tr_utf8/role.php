@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
+      // role.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['addrole'] = 'Yeni rol ekle';
@@ -130,6 +130,7 @@ $string['risks'] = 'Riskler';
 $string['role:assign'] = 'Kullanıcılara rol ata';
 $string['role:manage'] = 'Rolleri oluştur ve yönet';
 $string['role:override'] = 'Diğerleri için eski izinleri geçersiz kıl';
+$string['role:safeoverride'] = 'Diğerleri için güvenli izinlerin üzerine yaz';
 $string['role:switchroles'] = 'Roller arası geçiş yap';
 $string['role:unassignself'] = 'Kendi rolünü kaldır';
 $string['role:viewhiddenassigns'] = 'Gizli rol atamalarına bak';
@@ -137,6 +138,7 @@ $string['roleassignments'] = 'Rol atamaları';
 $string['roles'] = 'Roller';
 $string['roletoassign'] = 'Atanacak rol';
 $string['roletooverride'] = 'Tekrar tanımlanacak rol';
+$string['safeoverridenotice'] = 'Not: Güvenli izinleri geçersiz kılma iznini vermediğiniz için yüksek riskli yetkiler kilitlenmiştir.';
 $string['selectrole'] = 'Bir rol seçin';
 $string['showallroles'] = 'Tüm rolleri göster';
 $string['site:accessallgroups'] = 'Tüm gruplara eriş';
@@ -166,6 +168,8 @@ $string['tag:manage'] = 'Tüm etiketleri yönet';
 $string['user:changeownpassword'] = 'Kendi şifresini değiştir';
 $string['user:create'] = 'Kullanıcıları oluştur';
 $string['user:delete'] = 'Kullanıcıları sil';
+$string['user:editmessageprofile'] = 'Kullanıcı mesajlaşma profilini düzenle';
+$string['user:editownmessageprofile'] = 'Kendi kullanıcı mesajlaşma profilini düzenle';
 $string['user:editownprofile'] = 'Kendi kullanıcı profilini değiştir';
 $string['user:editprofile'] = 'Kullanıcı profilini düzenle';
 $string['user:loginas'] = 'Farklı kullanıcı olarak giriş yap';

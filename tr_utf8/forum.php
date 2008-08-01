@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -23,6 +23,7 @@ $string['allsubscribe'] = 'Tüm forumlara abone ol';
 $string['allunsubscribe'] = 'Tüm forumlardan aboneliği kaldır';
 $string['anyfile'] = 'Herhangi dosya';
 $string['attachment'] = 'Dosya';
+$string['attachmentnopost'] = 'Mesaj id olmadan ekleri dışa çıkaramazsınız';
 $string['blockafter'] = 'Engelleme için mesaj sınırı';
 $string['blockperiod'] = 'Engelleme için süre';
 $string['blockperioddisabled'] = 'Engelleme yok';
@@ -30,12 +31,25 @@ $string['bynameondate'] = 'yazan $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Bu foruma tartışma ekleme, grup üyeliği gerektirir.';
 $string['cannotadddiscussionall'] = 'Tüm katılımcılar için yeni bir tartışma konusu ekleme izniniz yok.';
 $string['cannotaddsubscriber'] = '$a numaralı üye, bu foruma abone yapılamadı!';
+$string['cannotfindfirstpost'] = 'Bu forumda ilk mesaj bulunamıyor';
 $string['cannotfindorcreateforum'] = 'Bu site için haber forumu bulunamadı veya oluşturulamadı';
 $string['cannotinsertrate'] = 'Yeni derecelendirme eklenemedi ($a[0] = $a[1])';
 $string['cannotremovesubscriber'] = '$a numaralı üyenin bu forumdan aboneliği kaldırılamadı.';
+$string['cannotsubscribe'] = 'Üzgünüz, abone olmak için grup üyesi olmalısınız.';
+$string['cannottrack'] = 'Bu forumdaki izleme iptal edilemedi';
+$string['cannotunsubscribe'] = 'Bu forumdan aboneliğiniz kaldırılamadı';
 $string['cannotupdaterate'] = 'Eski derecelendirme güncellenemedi ($a[0] = $a[1])';
 $string['cannotviewpostyet'] = 'Bu tartışmaya henüz mesaj göndermediğinizden diğer öğrencilerin sorularını okuyamazsınız';
 $string['cleanreadtime'] = 'Eski mesajların okunmuş olarak işaretleneceği saat';
+$string['completiondiscussions'] = 'Kullanıcı tartışma başlatmalı:';
+$string['completiondiscussionsgroup'] = 'Tartışma gerekli';
+$string['completiondiscussionshelp'] = 'bitirmek için tartışma gerekliliği';
+$string['completionposts'] = 'Kullanıcı tartışma göndermeli veya yanıt vermeli:';
+$string['completionpostsgroup'] = 'Mesaj gerekli';
+$string['completionpostshelp'] = 'bitirmek için tartışma veya mesaj gerekliliği';
+$string['completionreplies'] = 'Kullanıcı yanıt vermeli:';
+$string['completionrepliesgroup'] = 'Yanıt gerekli';
+$string['completionreplieshelp'] = 'bitirmek için yanıt gerekliliği';
 $string['configcleanreadtime'] = 'Eski mesajların \'okunmuş\' tablosundan silineceği günün saati';
 $string['configdisplaymode'] = 'Hiç ayarlanmamışsa tartışmalar için görünüm modu';
 $string['configenablerssfeeds'] = 'Bu seçenek tüm forumlar için RSS içeriklerinin etkinleştirilmesine olanak sağlar. Her bir forum için tek tek ayar yapmanız gerekir.';
@@ -125,6 +139,7 @@ $string['intronews'] = 'Genel haberler ve duyurular';
 $string['introsocial'] = 'İstediğiniz herhangi bir konuda tartışabileceğiniz açık forum';
 $string['introteacher'] = 'Eğitimciler için sadece not ve tartışma forumu';
 $string['invalidaccess'] = 'Bu sayfaya düzgün bir şekilde erişmediniz';
+$string['invaliddiscussionid'] = 'Tartışma ID hatalı';
 $string['invalidforumid'] = 'Forum ID hatalı';
 $string['invalidpostid'] = 'Hatalı Mesaj ID - $a';
 $string['lastpost'] = 'Son mesaj';
@@ -153,10 +168,12 @@ $string['modulenameplural'] = 'Forumlar';
 $string['more'] = 'devamı';
 $string['movedmarker'] = '(Taşındı)';
 $string['movethisdiscussionto'] = 'Bu tartışmayı taşı...';
+$string['mustprovidediscussionorpost'] = 'Dışa çıkarım için ya mesaj id ya da tartışma id sağlamalısınız';
 $string['namenews'] = 'Haber forumu';
 $string['namesocial'] = 'Sosyal forum';
 $string['nameteacher'] = 'Eğitimci forumu';
 $string['newforumposts'] = 'Yeni forum mesajı';
+$string['noattachments'] = 'Bu mesajda ek dosya yok';
 $string['nodiscussions'] = 'Bu forumda bir tartışma konusu henüz yoktur';
 $string['nodiscussionsstartedby'] = 'Bu kullanıcı tarafından bir tartışma başlatılmamış';
 $string['noguestpost'] = 'Üzgünüz, ziyaretçiler mesaj gönderemezler.';

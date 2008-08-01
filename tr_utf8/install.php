@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
+      // install.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['aborting'] = 'Kurulum iptal ediliyor';
@@ -300,6 +300,8 @@ $string['sitenewsitems'] = 'Haber Öğeleri';
 $string['siteshortname'] = 'Site kısa adı:';
 $string['sitesummary'] = 'Site özeti:';
 $string['skipdbencodingtest'] = 'Veritabanı Dil Kodlama Testini Atla';
+$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Deneysel! (gerçek kullanım için değil)</strong></b>';
+$string['sqliteextensionisnotpresentinphp'] = 'PHP SQLite uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['tableprefix'] = 'Tablo öneki:';
 $string['upgradingactivitymodule'] = 'Etkinlik Modülü Güncelleniyor';
 $string['upgradingbackupdb'] = 'Yedekleme Veribananı Güncelleniyor';

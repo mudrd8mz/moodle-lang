@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['addnewentry'] = 'Yeni girdi ekle';
@@ -35,10 +35,11 @@ $string['groupblog'] = 'Grup blogu: $a';
 $string['groupblogdisable'] = 'Grup blogu etkin değil';
 $string['groupblogs'] = 'Kullanıcılar, sadece grupta paylaşıma açılan kullanıcı bloglarını görebilir';
 $string['incorrectblogfilter'] = 'Hatalı blog filtreleme tipi';
-$string['intro'] = 'Bu RSS içeriği bir veya birden fazla blogdan otomatik olarak oluşturuldu.';
+$string['intro'] = 'Bu RSS kaynağı bir veya birden fazla blogdan otomatik olarak oluşturuldu.';
 $string['noentriesyet'] = 'Henüz gösterilecek girdi yok';
 $string['noguestpost'] = 'Konuklar blog gönderemezler!';
 $string['norighttodeletetag'] = 'Bu etiketi silme hakkınız yok - $a';
+$string['nosuchentry'] = 'Böyle bir blog girdisi yok';
 $string['notallowedtoedit'] = 'Bu kaydı düzenleme izniniz yok';
 $string['numberofentries'] = 'Girdiler: $a';
 $string['numberoftags'] = 'Gösterilecek etiket sayısı';

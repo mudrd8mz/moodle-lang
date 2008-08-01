@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (2007101508)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['addcomment'] = 'Yorum ekle';
@@ -22,9 +22,12 @@ $string['attachment'] = 'Dosya';
 $string['author'] = 'yazar';
 $string['authorview'] = 'Yazara göre gözat';
 $string['back'] = 'Geri';
+$string['cantexportentry'] = 'Girdi, ana sözlüğe çıkartılamıyor';
 $string['cantinsertcat'] = 'Kategori eklenemez';
+$string['cantinsertent'] = 'Bu yeni girdi eklenemedi';
 $string['cantinsertrec'] = 'Kayıt eklenemez';
 $string['cantinsertrel'] = 'İlişkili kategori kaydı eklenemedi';
+$string['cantupdateglossary'] = 'Sözlüğünüz güncellenemedi';
 $string['casesensitive'] = 'Bu girdi harf duyarlıdır';
 $string['cat'] = 'kategori';
 $string['categories'] = 'Kategoriler';
@@ -100,6 +103,7 @@ $string['entryupdated'] = 'Bu girdi güncellendi';
 $string['entryusedynalink'] = 'Bu kayıt otomatikmen linklensin';
 $string['errcannoteditothers'] = 'Diğer kişilerin kayıtlarını düzenleyemezsiniz.';
 $string['errconceptalreadyexists'] = 'Bu kavram zaten var. Bu sözlükte aynı kaydın tekrar girilmesine izin verilmemektedir.';
+$string['errdeltimeexpired'] = 'Bunu silemezsiniz. Süresi doldu!';
 $string['erredittimeexpired'] = 'Bu kayıt için düzenleme süresi geçti.';
 $string['errorparsingxml'] = 'Dosya incenirken hata oluştu. XML söz dizimine uygun olduğundan emin olun.';
 $string['explainaddentry'] = 'Şu anki sözlüğe yeni bir kayıt ekleyin.<br />Kavram ve Tanım gerekli alanlardır.';
@@ -131,11 +135,13 @@ $string['glossary:viewrating'] = 'Derecelendirmelere bak';
 $string['glossary:write'] = 'Yeni kayıt oluştur';
 $string['glossaryleveldefaultsettings'] = 'Sözlük Seviyesindeki Ayarlar';
 $string['glossarytype'] = 'Sözlük Tipi';
+$string['guestnoedit'] = 'Konukların sözlüğü düzenleme izni yoktur.';
 $string['importcategories'] = 'Kategorileri al';
 $string['importedcategories'] = 'Alınan kategoriler';
 $string['importedentries'] = 'Alınan kayıtlar';
 $string['importentries'] = 'Kayıtları al';
 $string['importentriesfromxml'] = 'XML dosyasından kayıtları al';
+$string['invalidid'] = 'Hatalı sözlük id';
 $string['isglobal'] = 'Genel sözlük';
 $string['letter'] = 'harf';
 $string['linkcategory'] = 'Bu kategoriyi otomatik linkle';
@@ -153,6 +159,9 @@ $string['nocomments'] = '(Bu kayıtta yorum yok)';
 $string['noconceptfound'] = 'Kavram veya tanım yok';
 $string['noentries'] = 'Bu bölümde hiç kayıt yok';
 $string['noentry'] = 'Kayıt yok.';
+$string['nopermissiontodelcomment'] = 'Diğer kişilerin yorumlarını silemezsiniz!';
+$string['nopermissiontodelinglossary'] = 'Bu sözlükte yorum yapamazsınız!';
+$string['nopermissiontoviewresult'] = 'Sadece kendi girdilerinizin sonuçlarına bakabilirsiniz.';
 $string['notcategorised'] = 'Kategorisiz';
 $string['numberofentries'] = 'Kayıtların sayısı';
 $string['onebyline'] = '(her satır için bir tane)';

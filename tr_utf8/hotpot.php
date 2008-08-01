@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 dev (2006101001)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['abandoned'] = 'Vazgeçildi';
@@ -12,6 +12,10 @@ $string['attemptsbest'] = 'En iyi uygulama';
 $string['attemptsfirst'] = 'İlk uygulama';
 $string['attemptslast'] = 'Son uygulama';
 $string['average'] = 'Fark';
+$string['cannotaddquestionrecord'] = 'Soru kaydı eklenemedi';
+$string['cannotaddresprecord'] = 'Yanıt kaydı eklenemedi';
+$string['cannotaddstrrecord'] = 'Metin kaydı eklenemedi';
+$string['cannotupdateattempt'] = 'Uygulama kaydı güncellenemedi: $a';
 $string['checks'] = 'Denetim';
 $string['clickreporting'] = 'Tıklama raporunu etkinleştir';
 $string['clues'] = 'İpuçları';
@@ -35,6 +39,7 @@ $string['error_nofeedbackurlwebpage'] = 'Web sayfası için bir URL girin';
 $string['error_nofilename'] = 'Lütfen bir dosya adı girin';
 $string['error_noquizzesfound'] = 'Hot Potatoes sınavı bulunamadı';
 $string['error_notfileorfolder'] = '\"$a\" bir dosya veya klasör değil';
+$string['excelencodings'] = 'Excel kodlamaları';
 $string['feedbackformmail'] = 'Geribildirim formu';
 $string['feedbackmoodleforum'] = 'Forum';
 $string['feedbackmoodlemessaging'] = 'Mesajlaşma';
@@ -53,6 +58,8 @@ $string['hotpotcloses'] = 'Hot Potatoes sınavı kapanacak';
 $string['hotpotopens'] = 'Hot Potatoes sınavı açılacak';
 $string['ignored'] = 'Yoksayıldı';
 $string['inprogress'] = 'işlemde';
+$string['invalidattemptid'] = 'Uygulama ID hatalı';
+$string['invalidhotpotid'] = 'Hotpot ID hatalı';
 $string['location'] = 'Dosya yeri';
 $string['modulename'] = 'Hot Potatoes Sınavı';
 $string['modulenameplural'] = 'Hot Potatoes Sınavları';
@@ -66,6 +73,7 @@ $string['navigation_none'] = 'Hiçbiri';
 $string['neverclosed'] = 'Hiç kapanmaz';
 $string['noactivity'] = 'Etkinlik yok';
 $string['noresponses'] = 'Başlı başına soru ve yanıtlar hakkında bilgi bulunamadı.';
+$string['notyourattempt'] = 'Bu sizin uygulamanız değil!';
 $string['outputformat'] = 'Çıktı biçimi';
 $string['outputformat_best'] = 'eniyi';
 $string['outputformat_flash'] = 'Flash';
@@ -79,6 +87,7 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = 'Cezalar';
 $string['questionshort'] = 'S-$a';
 $string['quiztype'] = 'Sınav tipi';
+$string['quizunavailable'] = 'Sınava şu anda erişilemiyor';
 $string['rawdetails'] = 'Ham uygulama ayrıntıları';
 $string['regrade'] = 'Tekrar notlandır';
 $string['regradecheck'] = '\"$a\" sınavını tekrar notlandırmak istediğinizden emin misiniz?';
@@ -132,6 +141,7 @@ $string['resultssaved'] = 'Sınav sonuçları kaydedildi';
 $string['score'] = 'Puan';
 $string['showhtmlsource'] = 'HTML kaynağını göster';
 $string['shownextquiz'] = 'Sonraki sınavı göster';
+$string['showtimes'] = 'İşleme zamanlarını göster';
 $string['showxmlsource'] = 'XML kaynağını göster';
 $string['showxmltree'] = 'XML ağacını göster';
 $string['specifictime'] = 'Belirli zaman';
@@ -142,6 +152,7 @@ $string['textsourcequiz'] = 'Sınavdan getir';
 $string['textsourcespecific'] = 'Belirli metin';
 $string['thiscourse'] = 'Bu kurs';
 $string['timedout'] = 'Süresi doldu';
+$string['unknownreport'] = 'Rapor bilinmiyor ($a)';
 $string['updatequizchain'] = 'Zincirleme sınav güncelle';
 $string['weighting'] = 'Ağırlık';
 $string['wrong'] = 'Yanlış';

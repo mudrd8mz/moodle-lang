@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
+      // data.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['action'] = 'Eylem';
@@ -126,6 +126,7 @@ $string['forcelinkname'] = 'Bağlantı için zorunlu ad';
 $string['foundnorecords'] = 'Kayıt bulunamadı (<a href=\"$a->reseturl\">Filtreleri temizle</a>)';
 $string['foundrecords'] = 'Bulunan kayıtlar: $a->num/$a->max (<a href=\"$a->reseturl\">Filtreleri temizle</a>)';
 $string['fromfile'] = 'Zip dosyasından al';
+$string['generateerror'] = 'Tüm dosyalar oluşturulmadı!';
 $string['guestrate'] = 'Konuklar kayıtları derecelendiremezler';
 $string['header'] = 'Başlık';
 $string['headeraddtemplate'] = 'Kayıt düzenleme arayüzünü tanımlar';
@@ -139,11 +140,11 @@ $string['importsuccess'] = 'Ayar başarıyla uygulandı.';
 $string['insufficiententries'] = 'bu veritabanını görmek için daha fazla kayıt gerekli';
 $string['intro'] = 'Tanıtım';
 $string['invalidaccess'] = 'Bu sayfaya düzgün bir şekilde erişmediniz';
-$string['invaliddata'] = 'Geçersiz veri';
 $string['invalidfieldid'] = 'Alan ID geçersiz';
 $string['invalidfieldname'] = 'Lütfen bu alan için başka bir ad seçin';
 $string['invalidfieldtype'] = 'Alan Tipi geçersiz';
 $string['invalidid'] = 'Geçersiz veri ID';
+$string['invalidpreset'] = '$a bir ayar değil.';
 $string['invalidratedata'] = 'Geçersiz gönderilmiş derecelendirme verisi';
 $string['invalidrecord'] = 'Geçersiz kayıt';
 $string['invalidurl'] = 'Girdiğiniz URL geçerli değil';
@@ -162,6 +163,8 @@ $string['maxentries'] = 'En fazla girdi';
 $string['maxsize'] = 'En fazla boyut';
 $string['menu'] = 'Menu';
 $string['menuchoose'] = 'Seç...';
+$string['missingdata'] = 'Veri id veya nesne, sınıf alanında sağlanmalı';
+$string['missingfield'] = 'Programcı hatası: Sınıf alanını tanımlarken alanı ve/veya veriyi belirtmelisiniz.';
 $string['modulename'] = 'Veritabanı';
 $string['modulenameplural'] = 'Veritabanları';
 $string['more'] = 'Dahası';
@@ -262,6 +265,7 @@ $string['type'] = 'Alan tipi';
 $string['undefinedprocessactionmethod'] = '\"$a\" eylemini yakalamak için Data_Preset içinde eylem metodu tanımlanmadı.';
 $string['unsupportedexport'] = '($a->fieldtype) dışa verilemez.';
 $string['updatefield'] = 'Var olan alanı güncelle';
+$string['updatingerror'] = 'Veritabanını güncellerken hata oluştu';
 $string['uploadfile'] = 'Dosya yükle';
 $string['uploadrecords'] = 'Kayıtları dosyadan yükle';
 $string['url'] = 'Url';
@@ -269,5 +273,6 @@ $string['usestandard'] = 'Bir ayar kullan';
 $string['viewfromdate'] = 'Görünebilme, başlangıç';
 $string['viewtodate'] = 'Görünebilme, bitiş';
 $string['wrongdataid'] = 'Hatalı veri id girildi';
+$string['invaliddata'] = 'Geçersiz veri'; // ORPHANED
 
 ?>
