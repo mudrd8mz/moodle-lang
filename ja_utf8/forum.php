@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080728) (2008072800)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -161,6 +161,8 @@ $string['markunreadbutton'] = '未読<br />にする';
 $string['maxattachmentsize'] = '最大添付ファイルサイズ';
 $string['maxtimehaspassed'] = '申し訳ございません、この投稿 ($a) に対する最大編集回数を超えました!';
 $string['message'] = 'メッセージ';
+$string['messageprovider:digests'] = 'メール購読フォーラムダイジェスト';
+$string['messageprovider:posts'] = 'メール購読フォーラム投稿';
 $string['missingsearchterms'] = '次の検索語はメッセージのHTMLマークアップのみに表示されます。';
 $string['modeflatnewestfirst'] = '返信を新しいものからフラット表示する';
 $string['modeflatoldestfirst'] = '返信を古いものからフラット表示する';

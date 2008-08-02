@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080723) (2008072300)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -889,6 +889,8 @@ $string['memberincourse'] = 'コースに属する人';
 $string['messagebody'] = 'メッセージ本文';
 $string['messagedselectedusers'] = '選択されたユーザにメッセージが送信され、受信者リストがリセットされました。';
 $string['messagedselectedusersfailed'] = '選択されたユーザへのメッセージ送信時に問題が発生しました。何名かはメールを受信しています。';
+$string['messageprovider:errors'] = 'サイトの重大なエラー';
+$string['messageprovider:notices'] = 'マイナープロブレムに関する警告';
 $string['messageselect'] = 'このユーザをメール受信者として選択する。';
 $string['messageselectadd'] = 'メッセージを追加 / 送信する';
 $string['metaaddcourse'] = 'このコースを追加する';
@@ -1209,6 +1211,8 @@ $string['rename'] = 'リネーム';
 $string['renamefileto'] = '<b>$a</b> を下記名称にリネームする';
 $string['report'] = 'レポート';
 $string['reports'] = 'レポート';
+$string['repositories'] = 'リポジトリ';
+$string['repositoriesmanage'] = 'リポジトリの管理';
 $string['requestcourse'] = 'コースのリクエスト';
 $string['requestedby'] = 'リクエスト:';
 $string['requestreason'] = 'コースリクエストの理由';

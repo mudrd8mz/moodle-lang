@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080724) (2008072402)
+      // message.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
@@ -14,6 +14,7 @@ $string['beepnewmessage'] = 'メッセージが届いたら音を鳴らす。';
 $string['blockcontact'] = '受信拒否';
 $string['blockedmessages'] = '拒否ユーザの $a 件のto/fromメッセージ';
 $string['blocknoncontacts'] = 'コンタクトリストに登録されていないユーザから送信されるすべてのメッセージを拒否する。';
+$string['cannotsavemessageprefs'] = 'ユーザメッセージングのプリファレンスを保存できませんでした。';
 $string['contactlistempty'] = 'あなたのコンタクトリストは空です。';
 $string['contacts'] = 'コンタクト';
 $string['context'] = 'コンテクスト';
