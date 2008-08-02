@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
+      // error.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -220,6 +220,7 @@ $string['guestnoeditprofile'] = 'ゲストユーザは、プロファイルを�
 $string['guestnoeditprofileother'] = 'ゲストユーザのプロファイルを変更できません。';
 $string['guestnorate'] = 'ゲストは、エントリを評価できません。';
 $string['hackdetected'] = '不正侵入が検知されました!';
+$string['hashpoolproblem'] = 'POOLファイルコンテンツ $a が正しくありません。';
 $string['headersent'] = 'すでにヘッダが送信されています。';
 $string['invalidaccess'] = 'このページは正しくアクセスされていません。';
 $string['invalidaccessparameter'] = '無効なアクセスパラメータです。';
@@ -285,6 +286,10 @@ $string['listnochildren'] = '子アイテムが見つかりませんでした。
 $string['listnoitem'] = 'アイテムが見つかりませんでした。';
 $string['listnopeers'] = '同レベルのアイテムが見つかりませんでした。';
 $string['listupdatefail'] = 'リスト階層の編集中にデータベースエラーが発生しました。';
+$string['localfilecannotcreatefiledirs'] = 'ローカルファイルPOOLディレクトリを作成できません。datarootのパーミッションを確認してください。';
+$string['localfilecannotread'] = 'ファイルを読めません。ファイルが存在しないか、パーミッションに問題があります。';
+$string['localfilenotcreated'] = 'ファイル「 $a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename 」を作成できません。';
+$string['localfileproblem'] = 'ローカルファイル ($a) に関する不明な例外です。';
 $string['logfilenotavailable'] = 'ログは利用できません。';
 $string['loginasnoenrol'] = 'コース「ログイン」セッション時、あなたはユーザ登録および登録抹消することはできません。';
 $string['loginasonecourse'] = 'あなたは、このコースに入ることはできません。<br />他のコースに入る前に、現在の「ログイン」セッションを終了する必要があります。';
