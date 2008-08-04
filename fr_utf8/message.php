@@ -14,6 +14,7 @@ $string['blockcontact'] = 'Bloquer ce contact';
 $string['blockedmessages'] = '$a message(s) de/pour des utilisateurs bloqués';
 $string['blocknoncontacts'] = 'Bloquer les messages de personnes n\'appartenant pas à ma liste de contacts';
 $string['blocknoncontacts'] = 'Bloquer les utilisateurs inconnus';
+$string['cannotsavemessageprefs'] = 'Impossible d\'enregistrer les préférences de messagerie de l\'utilisateur';
 $string['contactlistempty'] = 'Votre liste de contacts est vide';
 $string['contacts'] = 'Contacts';
 $string['context'] = 'Contexte';
