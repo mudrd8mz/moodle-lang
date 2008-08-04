@@ -37,6 +37,7 @@ $string['reportanalysis'] = 'Rapport d\'analyse éléments';
 $string['responsestitle'] = 'Texte réponse';
 $string['rfractiontitle'] = 'Points<br />partiels';
 $string['rpercenttitle'] = 'R. %%';
+$string['statisticsreportgraph'] = 'Statistique des positions de question';
 $string['stddevtitle'] = 'Éc. type';
 
 ?>
