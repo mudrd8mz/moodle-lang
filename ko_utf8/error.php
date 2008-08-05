@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
+      // error.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -220,6 +220,7 @@ $string['guestnoeditprofile'] = '손님은 개인정보를 수정할 수 없습�
 $string['guestnoeditprofileother'] = '손님의 개인정보는 수정할 수 없습니다.';
 $string['guestnorate'] = '손님은 게시물의 평가를 할 수 없음';
 $string['hackdetected'] = '해커 침입이 탐지됨!';
+$string['hashpoolproblem'] = '$a 에 잘못된 지정 파일';
 $string['headersent'] = '이미 헤더는 전송되었음';
 $string['invalidaccess'] = '본 화면은 정상적으로 접속되지 않음';
 $string['invalidaccessparameter'] = '유효하지 않은 접속 매개 변수';
@@ -285,6 +286,10 @@ $string['listnochildren'] = '항목의 하위를 찾지 못함';
 $string['listnoitem'] = '항목이 없음';
 $string['listnopeers'] = '항목의 동항이 없음';
 $string['listupdatefail'] = '위계 목록을 편집 중 DB 조작 실패';
+$string['localfilecannotcreatefiledirs'] = '파일 저장 폴더를 생성할 수 없음. 저장 공간의 사용자 권한을 확인하기 바랍니다.';
+$string['localfilecannotread'] = '파일을 읽어낼 수 없음. 파일이 없거나 읽기 권한의 문제임';
+$string['localfilenotcreated'] = '파일을 \"$a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename\" 에 생성할 수 없음';
+$string['localfileproblem'] = '파일 ($a)와 관련된 알 수 없는 배제사항';
 $string['logfilenotavailable'] = '기록할 수 없음';
 $string['loginasnoenrol'] = '강좌에서 타인명의로는 등록 또는 탈퇴를 할 수 없습니다.';
 $string['loginasonecourse'] = '이 강좌에 입장할 수 없습니다.<br />다른 강좌에 들어가기 전에 반드시 타인 명의로 로그인한 세션을 종료하여야 합니다.';

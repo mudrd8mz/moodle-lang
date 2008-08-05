@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080726) (2008072500)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
 
 
 $string['addnewportfolio'] = '포트폴리오 작성';
@@ -14,9 +14,14 @@ $string['configure'] = '설정';
 $string['confirmexport'] = '내보낼 사항을 확인하기 바람';
 $string['confirmsummary'] = '내보낼 항목 개요';
 $string['continuetoportfolio'] = '포트폴리오 계속';
+$string['deleteportfolio'] = '포트폴리오 인스턴스 삭제';
+$string['disabled'] = '죄송합니다만, 이 사이트에서는 포트폴리오 내보내기가 되지 않습니다';
 $string['dontwait'] = '기다리지 말 것';
+$string['enabled'] = '포트폴리오 가능';
+$string['enableddesc'] = '사용자의 포트폴리오 내용을 관리자가 원격 시스템을 조정하여 내보낼 수 있게 허용할 것임';
 $string['err_uniquename'] = '포트폴리오의 명칭은 중복되면 안됨';
 $string['exportcomplete'] = '포트폴리오 내보내기 성공!';
+$string['exportedpreviously'] = '이전에 내보낸 포트폴리오';
 $string['exporting'] = '포트폴리오 내보내기';
 $string['failedtosendpackage'] = '지정된 포트폴리오 시스템에 자료 전송 실패!';
 $string['format_file'] = '파일';
@@ -28,6 +33,7 @@ $string['instancenotdelete'] = '포트폴리오 삭제 실패';
 $string['instancenotsaved'] = '포트폴리오 저장 실패';
 $string['instancesaved'] = '포트폴리오 저장 완료';
 $string['invalidformat'] = '잘못된 형식 $a 로 내보내려 하고 있음';
+$string['invalidinstance'] = '포트폴리오 인스턴스가 없음';
 $string['manageportfolios'] = '포트폴리오 관리';
 $string['manageyourportfolios'] = '내 포트폴리오 관리';
 $string['noavailableplugins'] = '내보낼 포트폴리오가 없음';
@@ -40,6 +46,7 @@ $string['nouploaddirectory'] = '자료를 묶을 임시 저장고를 생생할 �
 $string['plugin'] = '포트폴리오 플러그인';
 $string['plugincouldnotpackage'] = '내보낼 자료를 묶는 데 실패';
 $string['portfolio'] = '포트폴리오';
+$string['portfolionotfile'] = '파일대신 포트폴리오로 내보냄';
 $string['portfolios'] = '포트폴리오';
 $string['returntowhereyouwere'] = '원래 위치로 돌아감';
 $string['save'] = '저장';

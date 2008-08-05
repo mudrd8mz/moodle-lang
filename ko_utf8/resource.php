@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080613) (2008051202)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
 
 
 $string['addresource'] = '자료 추가';
@@ -98,6 +98,7 @@ $string['parameter'] = '조건';
 $string['parameters'] = '조건들';
 $string['popupresource'] = '이것은 팝업창으로 나타납니다.';
 $string['popupresourcelink'] = '나타나지 않으면 이곳을 클릭하시오: $a';
+$string['portfolionotimplemented'] = '지원하지 않는 자료 유형을 내보내려 하고 있습니다!';
 $string['preview'] = '미리보기';
 $string['previous'] = '이전';
 $string['redeploy'] = '다시 배포';

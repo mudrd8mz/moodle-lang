@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
+      // message.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
 
 
 $string['addcontact'] = '연락 추가';
@@ -14,6 +14,7 @@ $string['beepnewmessage'] = '새로운 메세지가 도착하면 진동(Quicktim
 $string['blockcontact'] = '연락 차단';
 $string['blockedmessages'] = '$a 차단된 사용자에게 수신되거나 발신한 메세지';
 $string['blocknoncontacts'] = '연락처에 없는 사람에게 온 모든 메세지 차단';
+$string['cannotsavemessageprefs'] = '맞춤 메시지 설정을 저장할 수 없음';
 $string['contactlistempty'] = '연락처 목록이 비어있습니다';
 $string['contacts'] = '연락들';
 $string['context'] = '문장';

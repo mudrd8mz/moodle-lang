@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080726) (2008072500)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -41,6 +41,15 @@ $string['cannotunsubscribe'] = '포럼의 구독을 해지할 수 없음';
 $string['cannotupdaterate'] = '예전 순위($a[0] = $a[1])를 갱신할 수 없음';
 $string['cannotviewpostyet'] = '게시물을 올리지 않았기 때문에 이 토론에서 다른 학생들의 질문을 읽을 수 없습니다.';
 $string['cleanreadtime'] = '게시물 정리 시각';
+$string['completiondiscussions'] = '토론 주제 생성:';
+$string['completiondiscussionsgroup'] = '필수 토론';
+$string['completiondiscussionshelp'] = '토론 이수 필수';
+$string['completionposts'] = '토론이나 응답을 게시해야 함';
+$string['completionpostsgroup'] = '게시글 필수';
+$string['completionpostshelp'] = '이수하기 위해 토론이나 응답이 필수 사항임';
+$string['completionreplies'] = '게시글에 응답 필수';
+$string['completionrepliesgroup'] = '응답 필수';
+$string['completionreplieshelp'] = '이수하기 위해 응답이 필수 사항임';
 $string['configcleanreadtime'] = '하루 중 \'읽음\'표에서 지난 게시 내용을 정리하는 시각';
 $string['configdisplaymode'] = '만약 설정되지 않았다면 기본 설정이 보여집니다.';
 $string['configenablerssfeeds'] = '이 스위치는 모든 포럼이 RSS를 이용할 수 있게 합니다. 또 각 포럼에서 기사를 전달하기 위해서는 수동으로 RSS를 지원하도록 옵션을 켜야 합니다.';
@@ -152,6 +161,8 @@ $string['markunreadbutton'] = '표시<br />\'읽지 않음\'';
 $string['maxattachmentsize'] = '최대 첨부 용량';
 $string['maxtimehaspassed'] = '죄송합니다. 이글의 수정 횟수($a)는 제한되어 있습니다!';
 $string['message'] = '페이지글';
+$string['messageprovider:digests'] = '포럼 요약을 구독했음';
+$string['messageprovider:posts'] = '포럼 게시글을 구독했음';
 $string['missingsearchterms'] = '다음 검색 용어는 이 메시지의 HTML 단계에서만 나타납니다:';
 $string['modeflatnewestfirst'] = '새 답글부터 내용 보기';
 $string['modeflatoldestfirst'] = '옛 답글부터 내용 보기';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080727) (2008072600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -628,6 +628,8 @@ $string['recaptchapublickey'] = 'ReCAPTCHA 공개키';
 $string['releasenoteslink'] = '무들 버전에 대한 정보를 얻기 위해서는 온라인 <a target=\"_new\" href=\"$a\">릴리즈 노트</a> 를 보십시요.';
 $string['remotelangnotavailable'] = '무들이 download.moodle.org에 접속하지 못했기 때문에 언어팩을 자동으로 설치하지 못하였습니다. 수동으로 아래에 제시된 목록에서 적절한 zip파일을 내려받아 여러분의 $a 디랙토리에 풀어넣기 바랍니다.';
 $string['renameerrors'] = '이름변경 오류';
+$string['repsettings'] = '저장소 관리';
+$string['repsettingsgeneral'] = '일반 저장소 설정';
 $string['requiredtemplate'] = '필수사항. 여기에 템플릿 문법을 사용할 수 있습니다 (%%l = 성, %%f = 이름, %%u = 사용자 ID). 세부사항과 예제는 도움말을 보세요.';
 $string['restrictbydefault'] = '초기 설정으로 모듈 제한';
 $string['restrictmodulesfor'] = '다음에 대하여 모듈 제한';

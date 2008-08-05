@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080726) (2008072500)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -872,6 +872,8 @@ $string['memberincourse'] = '강좌 동료';
 $string['messagebody'] = '메세지 쓰는곳';
 $string['messagedselectedusers'] = '선택한 이용자에게 메세지 발송 및 수령인 목록 초기화';
 $string['messagedselectedusersfailed'] = '선택한 이용자에게 메세지를 보내는 중 오류 발생. 누군가는 이미 메일을 받았을 것임.';
+$string['messageprovider:errors'] = '사이트관련 주요 오류';
+$string['messageprovider:notices'] = '사소한 문제에 대한 유의점';
 $string['messageselect'] = '이 이용자를 메일 수신자로 선택';
 $string['messageselectadd'] = '메세지 추가/보내기';
 $string['metaaddcourse'] = '메타과정 추가';
@@ -1187,6 +1189,8 @@ $string['rename'] = '새이름으로';
 $string['renamefileto'] = '<b>$a</b>를 새이름으로 고침';
 $string['report'] = '보고서';
 $string['reports'] = '보고서';
+$string['repositories'] = '저장소';
+$string['repositoriesmanage'] = '저장소 관리';
 $string['requestcourse'] = '개설 요청';
 $string['requestedby'] = '요청자:';
 $string['requestreason'] = '개설 요청 이유';
