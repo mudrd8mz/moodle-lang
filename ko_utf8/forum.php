@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -24,6 +24,7 @@ $string['allunsubscribe'] = '모든 포럼 구독 해지';
 $string['anyfile'] = '모든 파일';
 $string['attachment'] = '첨부';
 $string['attachmentnopost'] = '게시 ID 없이 첨부물을 내보낼 수 없음';
+$string['attachments'] = '첨부물';
 $string['blockafter'] = '차단을 위한 게시 한계';
 $string['blockperiod'] = '차단 시간';
 $string['blockperioddisabled'] = '차단하지 않음';

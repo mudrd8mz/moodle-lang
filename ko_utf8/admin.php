@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -788,6 +788,7 @@ $string['webproxy'] = '웹 프록시';
 $string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없는 경우 다음 옵션을 입력하세요. 환경변수, 언어팩, RSS feed, 타임존등을 다운로드하기 위해 인터넷 접속이 필요합니다. <br/><em> PHP cURL 익스텐션을 설치할 것을 추천합니다. </em>';
 $string['xmlrpcrecommended'] = '추가적인 xmlrpc 확장 설치는 무들 네트웍이 제대로 작동하는 데 쓸모가 있습니다.';
 $string['xmlstrictheaders'] = 'XML 정규 헤더';
+$string['ziprequired'] = '더 이상  info-ZIP 이나 PclZip 라이브러리가 사용되지 않으므로 Zip PHP확장자가 필요합니다.';
 $string['enableallowedip'] = 'IP 접속 제한 사용'; // ORPHANED
 $string['enableallowedipdesc'] = '만일 이 옵션을 켜면 허용된 IP 목록에 있는 IP만 접속할 수 있으며, 차단된 목록에 있는 IP는 접속이 불허된다.'; // ORPHANED
 $string['ipinblockedlist'] = '이 사이트는 현재 사용할 수 없습니다.'; // ORPHANED

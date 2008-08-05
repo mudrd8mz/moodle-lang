@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080726) (2008072500)
+      // role.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
 
 
 $string['addrole'] = '역할 추가';
@@ -52,7 +52,7 @@ $string['course:visibility'] = '강좌 공개/비공개';
 $string['currentcontext'] = '현재의 내용';
 $string['currentrole'] = '현재 역할';
 $string['defaultrole'] = '기본 역할';
-$string['defineroles'] = '역할 규정';
+$string['defineroles'] = '역할 정의';
 $string['deletecourseoverrides'] = '강좌의 모든 위임된 역할을 삭제';
 $string['deletelocalroles'] = '영역에서 부여한 모든 역할 삭제';
 $string['deleterolesure'] = '<p>\"$a->name ($a->shortname)\"의 역할을 삭제하는 것이 확실합니까?</p><p>현재 이 역할을 담당하고 있는 사람은 $a->count 명 입니다.</p>';
