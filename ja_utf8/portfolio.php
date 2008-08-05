@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080805) (2008080500)
 
 
 $string['addnewportfolio'] = '新しいポートフォリオを追加する';
@@ -23,6 +23,7 @@ $string['err_uniquename'] = 'ポートフォリオ名は、(プラグインご�
 $string['exportcomplete'] = 'ポートフォリオのエクスポートが完了しました!';
 $string['exportedpreviously'] = '前のエクスポート';
 $string['exporting'] = 'ポートフォリオへのエクスポート';
+$string['exportqueued'] = '転送のため、ポートフォリオエクスポートは正常にキューに入れられました。';
 $string['failedtosendpackage'] = 'あなたのデータを選択されたポートフォリオシステムに送信できませんでした!';
 $string['format_file'] = 'ファイル';
 $string['format_mbkp'] = 'Moodleバックアップ';
