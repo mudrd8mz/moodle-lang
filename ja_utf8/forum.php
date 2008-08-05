@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -24,6 +24,7 @@ $string['allunsubscribe'] = 'すべてのフォーラムのメール購読を解
 $string['anyfile'] = 'すべてのファイル';
 $string['attachment'] = '添付ファイル';
 $string['attachmentnopost'] = 'あなたは、投稿IDなしで添付ファイルをエクスポートできません。';
+$string['attachments'] = '添付ファイル';
 $string['blockafter'] = 'ブロッキングまでの投稿閾値';
 $string['blockperiod'] = 'ブロッキング期間';
 $string['blockperioddisabled'] = 'ブロックしない';

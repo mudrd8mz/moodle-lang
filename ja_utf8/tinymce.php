@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tinymce.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
+      // tinymce.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
 
 
 $string['main/advhr:advhr_desc'] = '水平方向の罫線';
@@ -151,33 +151,33 @@ $string['plugins/advlink_dlg:classes'] = 'クラス';
 $string['plugins/advlink_dlg:encoding'] = 'ターゲットの文字エンコーディング';
 $string['plugins/advlink_dlg:event_props'] = 'イベント';
 $string['plugins/advlink_dlg:events_tab'] = 'イベント';
-$string['plugins/advlink_dlg:general_props'] = '一般';
+$string['plugins/advlink_dlg:general_props'] = '一般プロパティ';
 $string['plugins/advlink_dlg:general_tab'] = '一般';
 $string['plugins/advlink_dlg:id'] = 'ID';
-$string['plugins/advlink_dlg:is_email'] = 'メールアドレスが入力されました。リンクにmailto:を付加しますか？';
-$string['plugins/advlink_dlg:is_external'] = 'リンクにhttp://を付加しますか？';
+$string['plugins/advlink_dlg:is_email'] = 'あなたが入力したURIにメールアドレスが含まれているようです。メールアドレスの前に「mailto:」をつけますか?';
+$string['plugins/advlink_dlg:is_external'] = 'あなたが入力したURIに外部リンクが含まれているようです。外部リンクの前に必須の「http://」をつけますか?';
 $string['plugins/advlink_dlg:langcode'] = '言語コード';
-$string['plugins/advlink_dlg:langdir'] = '文章の方向';
-$string['plugins/advlink_dlg:link_list'] = '一覧から選ぶ';
-$string['plugins/advlink_dlg:list'] = '一覧から選ぶ';
-$string['plugins/advlink_dlg:ltr'] = '左から右';
-$string['plugins/advlink_dlg:mime'] = 'ターゲットのMIMEタイプ';
-$string['plugins/advlink_dlg:popup'] = 'Javascriptポップアップ';
+$string['plugins/advlink_dlg:langdir'] = '言語の方向';
+$string['plugins/advlink_dlg:link_list'] = 'リンクリスト';
+$string['plugins/advlink_dlg:list'] = 'リンクリスト';
+$string['plugins/advlink_dlg:ltr'] = '左 >> 右';
+$string['plugins/advlink_dlg:mime'] = 'ターゲットMIMEタイプ';
+$string['plugins/advlink_dlg:popup'] = 'Javaスクリプトポップアップ';
 $string['plugins/advlink_dlg:popup_dependent'] = 'Dependent (Mozilla/Firefoxのみ)';
-$string['plugins/advlink_dlg:popup_location'] = 'アドレスバーを表示';
-$string['plugins/advlink_dlg:popup_menubar'] = 'メニューバーを表示';
-$string['plugins/advlink_dlg:popup_name'] = 'ウインドウ名';
+$string['plugins/advlink_dlg:popup_location'] = 'ロケーションバーを表示する';
+$string['plugins/advlink_dlg:popup_menubar'] = 'メニューバーを表示する';
+$string['plugins/advlink_dlg:popup_name'] = 'ウィンドウ名';
 $string['plugins/advlink_dlg:popup_opts'] = 'オプション';
 $string['plugins/advlink_dlg:popup_position'] = '位置 (X/Y)';
-$string['plugins/advlink_dlg:popup_props'] = 'ポップアップ';
-$string['plugins/advlink_dlg:popup_resizable'] = 'ウインドウのサイズ変更を許可する';
-$string['plugins/advlink_dlg:popup_return'] = '\'return false\'を挿入する';
-$string['plugins/advlink_dlg:popup_scrollbars'] = 'スクロールバーを表示';
+$string['plugins/advlink_dlg:popup_props'] = 'ポップアッププロパティ';
+$string['plugins/advlink_dlg:popup_resizable'] = 'ウィンドウのサイズ変更を許可する';
+$string['plugins/advlink_dlg:popup_return'] = '「return false」を挿入する';
+$string['plugins/advlink_dlg:popup_scrollbars'] = 'スクロールバーを表示する';
 $string['plugins/advlink_dlg:popup_size'] = 'サイズ';
-$string['plugins/advlink_dlg:popup_statusbar'] = 'ステータスバーを表示';
+$string['plugins/advlink_dlg:popup_statusbar'] = 'ステータスバーを表示する';
 $string['plugins/advlink_dlg:popup_tab'] = 'ポップアップ';
-$string['plugins/advlink_dlg:popup_toolbar'] = 'ツールバーを表示';
-$string['plugins/advlink_dlg:popup_url'] = 'ポップアップURL';
+$string['plugins/advlink_dlg:popup_toolbar'] = 'ツールバーを表示する';
+$string['plugins/advlink_dlg:popup_url'] = 'ポップアップURI';
 $string['plugins/advlink_dlg:rel'] = 'このページのターゲットに対する関係';
 $string['plugins/advlink_dlg:rev'] = 'ターゲットのこのページに対する関係';
 $string['plugins/advlink_dlg:rtl'] = '右から左';
