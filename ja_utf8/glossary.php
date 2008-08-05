@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
 
 
 $string['addcomment'] = 'コメントの追加';
 $string['addentry'] = 'エントリの追加';
 $string['addingcomment'] = 'コメントの追加';
+$string['alias'] = 'キーワード';
 $string['aliases'] = 'キーワード';
 $string['allcategories'] = 'すべてのカテゴリ';
 $string['allentries'] = 'すべて';
