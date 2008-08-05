@@ -21,6 +21,7 @@ $string['allsubscribe'] = 'S\'abonner à tous les forums';
 $string['allunsubscribe'] = 'Se désabonner de tous les forums';
 $string['anyfile'] = 'Tout fichier';
 $string['attachment'] = 'Annexe';
+$string['attachments'] = 'Annexes';
 $string['attachmentnopost'] = 'Vous ne pouvez pas exporter les annexes sans identifiant de message';
 $string['blockafter'] = 'Nombre maximal de messages';
 $string['blockperiod'] = 'Durée de blocage';
