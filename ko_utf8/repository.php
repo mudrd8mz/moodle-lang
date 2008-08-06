@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080806) (2008080500)
 
 
 $string['activaterep'] = '저장고';
@@ -7,6 +7,7 @@ $string['back'] = '&lt; 뒤로';
 $string['close'] = '닫기';
 $string['download'] = '내려받기';
 $string['filename'] = '파일명';
+$string['filesaved'] = '저장완료!';
 $string['invalidplugin'] = '잘못된 저장 플러그인';
 $string['invalidrepositoryid'] = '잘못된 저장고 ID';
 $string['listview'] = '목록 보기';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080806) (2008080500)
 
 
 $string['addnewportfolio'] = '포트폴리오 작성';
@@ -23,6 +23,7 @@ $string['err_uniquename'] = '포트폴리오의 명칭은 중복되면 안됨';
 $string['exportcomplete'] = '포트폴리오 내보내기 성공!';
 $string['exportedpreviously'] = '이전에 내보낸 포트폴리오';
 $string['exporting'] = '포트폴리오 내보내기';
+$string['exportqueued'] = '포트폴리오 내보내기 준비작업 성공';
 $string['failedtosendpackage'] = '지정된 포트폴리오 시스템에 자료 전송 실패!';
 $string['format_file'] = '파일';
 $string['format_mbkp'] = '무들 백업';
