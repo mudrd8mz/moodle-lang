@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -213,6 +213,7 @@ $string['configsectionsecurity'] = 'Zabezpečení';
 $string['configsectionstats'] = 'Statistiky';
 $string['configsectionuser'] = 'Uživatel';
 $string['configsecureforms'] = 'Používat vyšší úroveň zabezpečení při přijímání údajů z webových formulářů? Je-li tato volba povolena, pak je proměnná prohlížeče HTTP_REFERER ověřována proti aktuální adrese formuláře. V ojedinělých případech může toto nastavení způsobovat problémy, zejména používá-li uživatel firewall (např. Zonealarm nebo Kerio Personal Firewall) nastavený tak, aby hodnotu proměnné HTTP_REFERER blokoval. K příznakům patří problémy s formuláři, například na přihlašovací stránce. Jste-li na pochybách, ponechejte zde hodnotu \'Ano\'.';
+$string['configsendcoursewelcomemessage'] = 'Zda bude uživatelům zaslán uvítací email poté, co se sami zapíší do kurzu.';
 $string['configsessioncookie'] = 'Název souboru cookie používaného těmito stránkami. Jde o volitelné nastavení, které je užitečné pouze  v případě, že provozujete více instalací Moodlu na jednom serveru.';
 $string['configsessioncookiepath'] = 'Podadresář vašich webových stránek, kam prohlížeče odesílají soubory cookie vaší instalace Moodlu. Pravděpodobně vám bude vyhovovat výchozí \'/\'.';
 $string['configsessiontimeout'] = 'Délka nečinnosti, po níž jsou uživatelé automaticky odhlášeni.';
@@ -232,6 +233,7 @@ $string['configstatsmaxruntime'] = 'Zpracování statistik může poměrně nár
 $string['configstatsmaxruntime2'] = 'Zpracování může být poměrně náročné, proto určete maximální povolený čas na shromáždění statistik z jednoho dne. Maximální počet dní zpracovaný při jednom spuštění cronu je 3.';
 $string['configstatsruntimestart'] = 'Kdy se má <b>spustit</b> úloha zpracovávající statistiky?';
 $string['configstatsuserthreshold'] = 'Při vyhodnocování kurzů budou ignorovány kurzy, v nichž je zapsáno méně uživatelů (studentů + učitelů) než uvedená nenulová hodnota.';
+$string['configstripalltitletags'] = 'Zda se mají odstranit HTML značky z názvů studijních materiálů a modulů činností. Používáte-li HTML v názvech modulů, nezaškrtávejte.';
 $string['configsupportemail'] = 'Tato emailová adresa bude zveřejněna uživatelům pro případ obecné podpory na vašich stránkách (např. když si uživatel zakládá nový účet). Ponecháte-li prázdné, nebude tento kontakt na uživatelskou podporu uváděn.';
 $string['configsupportname'] = 'Jméno osoby nebo instituce zodpovědné za uživatelskou podporu na vašich stránkách prostřednictvím emailu nebo webové stránky.';
 $string['configsupportpage'] = 'Tato webová adresa bude zveřejněna uživatelům pro případ obecné podpory na vašich stránkách (např. když si uživatel zakládá nový účet). Ponecháte-li prázdné, nebude tento kontakt na uživatelskou podporu uváděn.';
@@ -396,6 +398,7 @@ $string['hidefromall'] = 'Skrýt před všemi uživateli';
 $string['hidefromnone'] = 'Neskrývat před nikým';
 $string['hidefromstudents'] = 'Skrývat před studenty';
 $string['htmleditor'] = 'Editor HTML';
+$string['htmlsettings'] = 'Nastavení HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Zabezpečení HTTP';
 $string['iconvrecommended'] = 'Instalace volitelné knihovny ICONV je silně doporučena, neboť zvyšuje výkon stránek, zejména pokud používáte jazyky nezaložené na latince.';
@@ -628,6 +631,7 @@ $string['searchresults'] = 'Výsledky hledání';
 $string['sectionerror'] = 'Chyba sekce!';
 $string['secureforms'] = 'Použít přidané zabezpečení formuláře';
 $string['security'] = 'Zabezpečení';
+$string['sendcoursewelcomemessage'] = 'Posílat uvítací dopis';
 $string['server'] = 'Server';
 $string['serverchecks'] = 'Kontroly serveru';
 $string['serverlimit'] = 'Omezení na straně serveru';
@@ -664,6 +668,7 @@ $string['stickyblockscourseview'] = 'Stránka kursu';
 $string['stickyblocksduplicatenotice'] = 'Pokud se vybraný blok na zvolené stránce již vyskytuje, bude se na ní zobrazovat dvakrát.<br />Povinný blok nebude možné upravovat, duplicitní (nepovinný) blok ano.';
 $string['stickyblocksmymoodle'] = 'Můj moodle';
 $string['stickyblockspagetype'] = 'Typ stránky';
+$string['stripalltitletags'] = 'Odstranit HTML z názvů modulů';
 $string['supportemail'] = 'Emailová podpora';
 $string['supportname'] = 'Uživatelskou podporu zajišťuje';
 $string['supportpage'] = 'Webová podpora';
@@ -758,6 +763,7 @@ $string['webproxy'] = 'Proxy server';
 $string['webproxyinfo'] = 'Vyplňte následující informace, jestliže tento Moodle nemá přístup k internetu. Přístup k internetu je třeba ke stahování jazykových balíčků, RSS kanálům, časových zón, atd.<br/><em>Velmi doporučená je instalace PHP cURL.</em>';
 $string['xmlrpcrecommended'] = 'Instalace rozšíření pro podporu XML-RPC je velmi užitečná pro síťové funkce Moodlu.';
 $string['xmlstrictheaders'] = 'XML strict hlavičky';
+$string['ziprequired'] = 'PHP rozšíření ZIP je povinné. Nelze již používat binárky info-ZIP nebo knihovnu PclZip.';
 $string['addcounter'] = 'Přidat pořadové číslo'; // ORPHANED
 $string['newusernamehandling'] = 'Ošetření duplicity uživatelských jmen'; // ORPHANED
 $string['skipuser'] = 'Přeskočit uživatele'; // ORPHANED
