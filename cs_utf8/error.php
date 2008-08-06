@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // error.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['adminprimarynoedit'] = 'Primární správce nemůže být upravován ostatními uživateli';
@@ -103,7 +103,7 @@ $string['sessionerroruser2'] = 'Objevila se chyba na serveru, která ovlivňuje 
 $string['sessionipnomatch'] = 'Je mi líto, ale vaše IP se v průběhu vašeho přihlášení změnila. Toto bezpečnostní opatření zabraňuje útočníkům vydávat se za přihlášeného uživatele. Běžným uživatelům by se tato zpráva neměla zobrazit - spojte se s vaším správcem a požádejte jej o pomoc.';
 $string['socksnotsupported'] = 'PHP verze 4 nepodporuje SOCKS5 proxy';
 $string['statscatchupmode'] = 'Probíhá zpracování statistik. Doposud byly zpracovány statistiky za $a->daysdone dnů, ke zpracování zůstává $a->dayspending dnů. Brzy na viděnou!';
-$string['tagnotfound'] = 'Daná nálepka nebyla v databázi nalezena';
+$string['tagnotfound'] = 'Daný štítek nebyl v databázi nalezen';
 $string['unicodeupgradeerror'] = 'Je mi líto. Vaše databáze dosud nepoužívá kódování Unicode a tato verze Moodlu není schopná migraci na Unicode provést. Prosím, proveďte nejprve upgrade na verzi 1.7.x a spusťte proces migrace na Unicode ze stránky Správy. Potom budete moci migrovat na Moodle $a';
 $string['unknowncourse'] = 'Neznámý kurz s názvem \"$a\"';
 $string['unknowncourseidnumber'] = 'Neznámý identifikátor kurzu \"$a\"';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
+      // moodle.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -1413,10 +1413,10 @@ $string['summaryof'] = 'Souhrn - $a';
 $string['supplyinfo'] = 'Uveďte prosím o sobě nějaké informace';
 $string['switchrolereturn'] = 'Vrátit se k mé obvyklé roli';
 $string['switchroleto'] = 'Přepnout roli na...';
-$string['tag'] = 'Nálepka';
-$string['tagalready'] = 'Tato nálepka již existuje';
-$string['tagmanagement'] = 'Přidat/odebrat nálepky';
-$string['tags'] = 'Nálepky';
+$string['tag'] = 'Štítek';
+$string['tagalready'] = 'Tento štítek již existuje';
+$string['tagmanagement'] = 'Přidat/odebrat štítky';
+$string['tags'] = 'Štítky';
 $string['targetrole'] = 'Cílová role';
 $string['teacheronly'] = 'pouze pro $a';
 $string['teacherroles'] = '$a rolí';
