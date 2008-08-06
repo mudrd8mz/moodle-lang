@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080805) (2008080500)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -621,8 +621,6 @@ $string['recaptchapublickey'] = 'reCAPTCHAパブリックキー';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_blank\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、言語パックを自動的にインストールできません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
-$string['repsettings'] = 'リポジトリの管理';
-$string['repsettingsgeneral'] = '一般リポジトリ設定';
 $string['requiredtemplate'] = '必須です。あなたはここでテンプレート構文 (%%l = 姓、%%f = 名、%%u = ユーザ名) を使用することができます。詳細および例に関して、ヘルプをご覧ください。';
 $string['restrictbydefault'] = 'モジュールをデフォルトで制限する';
 $string['restrictmodulesfor'] = 'モジュールの制限';

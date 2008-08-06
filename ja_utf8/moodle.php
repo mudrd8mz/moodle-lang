@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080805) (2008080500)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1211,8 +1211,6 @@ $string['rename'] = 'リネーム';
 $string['renamefileto'] = '<b>$a</b> を下記名称にリネームする';
 $string['report'] = 'レポート';
 $string['reports'] = 'レポート';
-$string['repositories'] = 'リポジトリ';
-$string['repositoriesmanage'] = 'リポジトリの管理';
 $string['requestcourse'] = 'コースのリクエスト';
 $string['requestedby'] = 'リクエスト:';
 $string['requestreason'] = 'コースリクエストの理由';
