@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080807) (2008080600)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -46,10 +46,10 @@ $string['completiondiscussions'] = '토론 주제 생성:';
 $string['completiondiscussionsgroup'] = '필수 토론';
 $string['completiondiscussionshelp'] = '토론 이수 필수';
 $string['completionposts'] = '토론이나 응답을 게시해야 함';
-$string['completionpostsgroup'] = '게시글 필수';
+$string['completionpostsgroup'] = '필수 게시';
 $string['completionpostshelp'] = '이수하기 위해 토론이나 응답이 필수 사항임';
 $string['completionreplies'] = '게시글에 응답 필수';
-$string['completionrepliesgroup'] = '응답 필수';
+$string['completionrepliesgroup'] = '필수 응답';
 $string['completionreplieshelp'] = '이수하기 위해 응답이 필수 사항임';
 $string['configcleanreadtime'] = '하루 중 \'읽음\'표에서 지난 게시 내용을 정리하는 시각';
 $string['configdisplaymode'] = '만약 설정되지 않았다면 기본 설정이 보여집니다.';

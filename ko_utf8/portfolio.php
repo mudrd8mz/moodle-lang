@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080806) (2008080500)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080807) (2008080600)
 
 
 $string['addnewportfolio'] = '포트폴리오 작성';
@@ -35,6 +35,7 @@ $string['instancenotsaved'] = '포트폴리오 저장 실패';
 $string['instancesaved'] = '포트폴리오 저장 완료';
 $string['invalidformat'] = '잘못된 형식 $a 로 내보내려 하고 있음';
 $string['invalidinstance'] = '포트폴리오 인스턴스가 없음';
+$string['invalidtempid'] = '잘못된 임시 ID';
 $string['manageportfolios'] = '포트폴리오 관리';
 $string['manageyourportfolios'] = '내 포트폴리오 관리';
 $string['noavailableplugins'] = '내보낼 포트폴리오가 없음';
