@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // question.php - created with Moodle 2.0 dev (Build: 20080806) (2008080600)
 
 
 $string['adminreport'] = 'Rapport over mulige problemer i din spørsmålsdatabase.';
@@ -30,7 +30,7 @@ $string['errorfilecannotbemoved'] = 'Feil - kan ikke flytte $a.';
 $string['errorfileschanged'] = 'Feil -  filer det er lenket til fra spørsmål er endret etter skjemaet ble vist.';
 $string['errormanualgradeoutofrange'] = 'Karakteren $a->grade er ikke mellom 0 og $a->maxgrade for spørsmålet $a->name. Poeng og kommentar er ikke blitt lagret.';
 $string['errormovingquestions'] = 'Feil ved flytting av spørsmål med id\'er $a.';
-$string['errorsavingcomment'] = 'Feil ved lagring av kommentarer for spørsmål $a->navn i databasen.';
+$string['errorsavingcomment'] = 'Feil ved lagring av kommentarer for spørsmål $a->name i databasen.';
 $string['errorupdatingattempt'] = 'Feil ved oppdatering av forsøk $a->id i databasen.';
 $string['exportcategory'] = 'Eksportkategori';
 $string['filesareacourse'] = 'Kursets filområde';
