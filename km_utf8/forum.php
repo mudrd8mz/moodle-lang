@@ -25,7 +25,7 @@ $string['attachment'] = 'ឯកសារ​ភ្ជាប់';
 $string['blockafter'] = 'ចំនួន​ប្រកាស ដែល​ត្រូវ​ទប់ស្កាត់';
 $string['blockperiod'] = 'រយៈពេល ដែល​ត្រូវ​ទប់ស្កាត់';
 $string['blockperioddisabled'] = 'កុំ​ទប់ស្កាត់';
-$string['bynameondate'] = 'តាម $a->name - $a->date';
+$string['bynameondate'] = 'ដោយ $a->name - $a->date';
 $string['cannotviewpostyet'] = 'អ្នក​មិន​អាច​អាន​សំណួរ​របស់​សិស្ស​ដទៃ​នៅ​ក្នុង​កិច្ចពិភាក្សា​នេះ​នៅឡើយទេ ព្រោះ​អ្នក​មិនបាន​ប្រកាស';
 $string['cannotadddiscussion'] = 'ការ​បន្ថែម​កិច្ចពិភាក្សា​ទៅ​វេទិកា​នេះ ត្រូវការ​សមាជិកភាព​ក្រុម ។';
 $string['cleanreadtime'] = 'សម្គាល់​ប្រកាស​ចាស់​ជា​ម៉ោង​អាន';
@@ -60,7 +60,8 @@ $string['disallowsubscribe'] = 'មិនបាន​អនុញ្ញាត​
 $string['disallowsubscribeteacher'] = 'មិនបាន​អនុញ្ញាត​ការ​ជាវ​ប្រចាំ (លើកលែងតែ​សម្រាប់​គ្រូ)';
 $string['discussion'] = 'កិច្ចពិភាក្សា';
 $string['discussionmoved'] = 'កិច្ចពិភាក្សា​នេះ​ត្រូវ​បាន​ផ្លាស់ទី​ទៅកាន់ \'$a\' ។';
-$string['discussionmovedpost'] = 'កិច្ចពិភាក្សា​នេះ​ត្រូវ​បាន​ផ្លាស់ទី​ទៅ <a href=\"$a->discusshref\">ទីនេះ</a>​នៅក្នុង​វេទិកា <a href=\"$a->forumhref\">$a->forumname</a>';
+$string['discussionmovedpost'] = 'កិច្ចពិភាក្សា​នេះ​ត្រូវ​បាន​ផ្លាស់ទី​ទៅ <a href=\"$a->discusshref\">ទីនេះ</a>​នៅក្នុង​វេទិកា <a href=\"$a->forumhref\">$a->forumname</a><a href=\"$a->discusshref\">ទីនេះ</a>​នៅក្នុង​វេទិកា <a href=\"$a->forumhref\">$a->forumname</a><a href=\"$a->discusshref\">ទីនេះ</a>​នៅក្នុង​វេទិកា <a href=\"$a->forumhref\">$a->forumname</a><a href=\"$a->discusshref\">ទីនេះ</a>​នៅក្នុង​វេទិកា <a href=\"$a->forumhref\">$a->forumname</a>
+        ';
 $string['discussionname'] = 'ឈ្មោះ​កិច្ចពិភាក្សា';
 $string['discussions'] = 'កិច្ចពិភាក្សា';
 $string['discussionsstartedby'] = 'កិច្ចពិភាក្សា​បាន​ចាប់ផ្ដើម​ដោយ $a';
@@ -130,9 +131,9 @@ $string['manydiscussions'] = 'ការ​​ពិភាក្សា​​ក�
 $string['markalldread'] = 'សម្គាល់​ប្រកាស​ទាំងអស់​នៅ​ក្នុង​កិច្ចពិភាក្សា​ថា​បាន​អាន ។';
 $string['markallread'] = 'សម្គាល់​ប្រកាស​ទាំងអស់​ក្នុង​វេទិកា​នេះ​ថា​បាន​អាន ។';
 $string['markread'] = 'សម្គាល់​ថា​បាន​អាន';
-$string['markreadbutton'] = 'សម្គាល់<br />ថា​បាន​អាន';
+$string['markreadbutton'] = 'សម្គាល់<br />ថា​បាន​អាន<br />ថា​បាន​អាន<br />ថា​បាន​អាន<br />ថា​បាន​អាន';
 $string['markunread'] = 'សម្គាល់​ថា​មិនបានអាន';
-$string['markunreadbutton'] = 'សម្គាល់<br />​ថា​មិនបាន​អាន';
+$string['markunreadbutton'] = 'សម្គាល់<br />​ថា​មិនបាន​អាន<br />​ថា​មិនបាន​អាន<br />​ថា​មិនបាន​អាន<br />​ថា​មិនបាន​អាន';
 $string['maxattachmentsize'] = 'ទំហំ​ឯកសារ​ភ្ជាប់​អតិបរមា';
 $string['maxtimehaspassed'] = 'សូម​អភ័យទោស ដោយសារ​ពេលវេលា​អតិបរមា​សម្រាប់​កែសម្រួល​ប្រកាស ($a) នេះ​បាន​ផុត​ទៅហើយ !';
 $string['message'] = 'សារ';
@@ -183,12 +184,17 @@ $string['overviewnumpostssince'] = 'ប្រកាស​តាំង​ពី�
 $string['overviewnumunread'] = 'មិនបាន​អាន​សរុប';
 $string['parent'] = 'បង្ហាញ​មេ';
 $string['parentofthispost'] = 'មេ​របស់​ប្រកាស​នេះ';
-$string['postadded'] = '<p>ប្រកាស​របស់​អ្នក​ត្រូវ​បាន​បន្ថែម​ដោយ​ជោគជ័យ ។</p> <p>អ្នក​មាន $a ដើម្បី​កែសម្រួល ប្រសិន​បើ​អ្នក​ចង់​ធ្វើការ​ផ្លាស់ប្ដូរ ។</p>';
+$string['postadded'] = '
+          <p>ប្រកាស​របស់​អ្នក​ត្រូវ​បាន​បន្ថែម​ដោយ​ជោគជ័យ ។</p>
+          <p>អ្នក​មាន $a ដើម្បី​កែសម្រួល ប្រសិន​បើ​អ្នក​ចង់​ធ្វើការ​ផ្លាស់ប្ដូរ ។</p>
+        ';
 $string['postincontext'] = 'មើល​ប្រកាស​នេះ​ជា​បរិបទ';
 $string['postmailinfo'] = 'នេះ​ជាច្បាប់​ចម្លង​របស់សារ​ដែល​បាន​ប្រកាស​នៅ​លើ​តំបន់បណ្ដាញ $a ។
 
 ដើម្បី​បន្ថែម​ការ​ឆ្លើយ​តប​របស់​អ្នក​តាមរយៈ​តំបន់បណ្ដាញ សូម​ចុច​លើ​តំណ​នេះ ៖';
-$string['postmailnow'] = '<p>ប្រកាស​នេះ​នឹង​ត្រូវ​បាន​ផ្ញើ​ទៅកាន់​អ្នក​ជាវ​​ប្រចាំ​​ទាំងអស់​របស់​វេទិកា​ភ្លាមៗ ។</p>';
+$string['postmailnow'] = '
+          <p>ប្រកាស​នេះ​នឹង​ត្រូវ​បាន​ផ្ញើ​ទៅកាន់​អ្នក​ជាវ​​ប្រចាំ​​ទាំងអស់​របស់​វេទិកា​ភ្លាមៗ ។</p>
+        ';
 $string['postrating1'] = 'អត្តនោម័តិ';
 $string['postrating2'] = 'អត្តនោម័តិ​ផង មិន​អត្តនោម័តិ​ផង';
 $string['postrating3'] = 'មិន​អត្តនោម័តិ';

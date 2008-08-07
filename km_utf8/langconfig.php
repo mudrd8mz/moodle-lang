@@ -2,15 +2,13 @@
       // langconfig.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,ក,ខ,គ,ឃ,ង,ច,ឆ,ជ,ឈ,ញ,ដ,ឋ,ឌ,ឍ,ណ,ត,ថ,ទ,ធ,ន,ប,ផ,ព,ភ,ម,យ,រ,ល,វ,ស,ហ,ឡ,អ,ឥ,ឦ,ឧ,ឩ,ឪ,ឫ,ឬ,ឭ,ឮ,ឯ,ឰ,ឱ,ឳ';
+$string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['decsep'] = '.';
-$string['firstdayofweek'] = '1';
+$string['firstdayofweek'] = '០';
 $string['listsep'] = ',';
-$string['locale'] = 'en_AU.UTF-8';
+$string['locale'] = 'km_KH.UTF-8';
 $string['localewin'] = 'English_Australia.1252';
-$string['localewincharset'] = '
-				';
 $string['oldcharset'] = 'ISO-8859-1';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
