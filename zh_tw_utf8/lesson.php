@@ -301,7 +301,6 @@ $string['yourcurrentgradeisoutof'] = '您目前的分數是{$a->grade}（總分{
 $string['youshouldview'] = '您至少應該回答：{$a}';
 $string['outoftime'] = '已逾時'; // ORPHANED
 $string['studentoutoftime'] = '注意:您用完此課程的時間。您最後的回答沒有計分，因為是在時間結束之後才回答的。請按繼續按鈕完成此課程。'; // ORPHANED
-$string['topscorestitle'] = '$a->name課程的最高$a->maxhighscores分數'; // ORPHANED
 $string['backtreeview'] = '回到樹狀檢視'; // ORPHANED
 $string['commentswithname'] = '$a->firstname {$a->lastname}的評語'; // ORPHANED
 $string['deleteattempts'] = '刪除學生在這個單元課程的學習記錄(用戶id)'; // ORPHANED

@@ -161,13 +161,6 @@ $string['use_one_line_for_each_value'] = '<br />一行只能有一個選項!<br 
 $string['use_this_template'] = '確定';
 $string['using_templates'] = '使用樣版';
 $string['vertical'] = '垂直';
-$string['emailteachermail'] = '$a->使用者已完成回饋活動 : \'$a->回饋表\'                               
-                                       
-You can view it here:                                   
-                                       
-$a->url'; // ORPHANED
-$string['emailteachermailhtml'] = '$a->使用者已完成回饋活動 : <i>\'$a-回饋單\'</i><br /><br />                             
-You can view it <a href=\"$a->url\">here</a>.'; // ORPHANED
 $string['all_old_values_will_be_deleted'] = '刪除目前的問題和所有使用者\'回應'; // ORPHANED
 $string['all_old_values_will_be_preserved'] = '儲存所有舊的問題和設定值'; // ORPHANED
 $string['all_related_values_will_be_deleted'] = '刪除所有這個問題的使用者\'回應'; // ORPHANED
