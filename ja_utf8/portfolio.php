@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080805) (2008080500)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080807) (2008080600)
 
 
 $string['addnewportfolio'] = '新しいポートフォリオを追加する';
@@ -35,6 +35,7 @@ $string['instancenotsaved'] = 'ポートフォリオの保存に失敗しまし�
 $string['instancesaved'] = 'ポートフォリオが正常に保存されました。';
 $string['invalidformat'] = '無効なフォーマットでエクスポートされています: $a';
 $string['invalidinstance'] = 'ポートフォリオインスタンスが見つかりませんでした。';
+$string['invalidtempid'] = '無効な一時IDです。';
 $string['manageportfolios'] = 'ポートフォリオの管理';
 $string['manageyourportfolios'] = 'あなたのポートフォリオの管理';
 $string['noavailableplugins'] = '申し訳ございません、あなたがエクスポートできるポートフォリオはありません。';
