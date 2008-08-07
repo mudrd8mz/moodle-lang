@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.6.2 (2006050520)
+      // block_rss_client.php - created with Moodle 1.9 + (Build: 20080318) (2007101509)
 
 
 $string['addfeed'] = 'Додавање URL-a извора вести';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'Ажуриран је извор вести';
 $string['findmorefeeds'] = 'Пронађите још RSS извора вести';
 $string['managefeeds'] = 'Управљање свим мојим изворима вести';
 $string['nofeeds'] = 'Нема RSS извора вести дефинисаних за овај сајт.';
+$string['numentries'] = 'Број уноса по извору';
 $string['pickfeed'] = 'Узимање извора вести.';
 $string['remotenewsfeed'] = 'Удаљени извор вести';
 $string['rss_client:createprivatefeeds'] = 'Креирање приватних RSS извора';
@@ -40,9 +41,11 @@ $string['seeallfeeds'] = 'Приказ свих извора вести';
 $string['sharedfeed'] = 'Дељени извор';
 $string['shownumentrieslabel'] = 'Максималан број ставки за приказ по блоку.';
 $string['submitters'] = 'Ко има дозволу да дефинише нове RSS изворе вести? Дефинисани извори вести су расположиви свакој страници Вашег сајта.';
-$string['timeout'] = 'blockrsstimeout';
+$string['submitters2'] = 'Пошиљаоци';
+$string['timeout'] = 'Време у минутима пре него што RSS извор буде обрисан из привремене меморије. Ово време дефинише минимално време пре брисања; извор вести ће бити освежен у привременој меморији када следећи пут буде стартован крон. Препоручене  вредности су 30 минута и више.';
+$string['timeout2'] = 'Време истека';
 $string['timeoutdesc'] = 'Време у минутима за RSS извор вести током ког ће његови подаци бити кеширани.';
-$string['updatefeed'] = 'Ажурирање URL-a извора вести:';
-$string['validatefeed'] = 'Валидација извора вести';
+$string['updatefeed'] = 'Ажурирај URL адресу извора вести:';
+$string['validatefeed'] = 'Провери исправност извора вести';
 
 ?>

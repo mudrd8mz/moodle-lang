@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8.2+ (2007021520)
+      // survey.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['actual'] = 'Актуелно';
@@ -164,6 +164,8 @@ $string['collespintro'] = 'Сврха овог упитника је да нам
 Много Вам хвала.';
 $string['collespname'] = 'COLLES (Преферирани)';
 $string['customintro'] = 'Сопствени увод';
+$string['deleteallanswers'] = 'Обриши све одговоре';
+$string['deleteanalysis'] = 'Обриши анализу одговора';
 $string['done'] = 'Урађено';
 $string['download'] = 'Преузимање';
 $string['downloadexcel'] = 'Преузимање података у виду Excel радне табеле';
@@ -193,6 +195,7 @@ $string['question'] = 'Питање';
 $string['questions'] = 'Питања';
 $string['questionsnotanswered'] = 'На нека од питања на која се одговара вишеструким избором понуђених одговора није одговорено.';
 $string['report'] = 'Извештај о упитнику';
+$string['responses'] = 'Одговори';
 $string['savednotes'] = 'Ваше белешке су сачуване';
 $string['scaleagree5'] = 'У потпуности се не слажем, Донекле се не слажем, Нити се слажем нити се не слажем, Донекле се слажем, У потпуности се слажем';
 $string['scales'] = 'Скале';

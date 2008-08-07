@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8.1+ (2007021510)
+      // message.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['addcontact'] = 'Додавање контакта';
@@ -33,6 +33,7 @@ $string['message'] = 'Порука';
 $string['messagehistory'] = 'Историја порука';
 $string['messages'] = 'Поруке';
 $string['messaging'] = 'Слање порука';
+$string['messagingdisabled'] = 'Слање порука је на овом сајту онемогућено. Уместо тога биће послато електронско писмо';
 $string['mycontacts'] = 'Моји контакти';
 $string['newonlymsg'] = 'Прикажи само нове';
 $string['newsearch'] = 'Нова претрага';

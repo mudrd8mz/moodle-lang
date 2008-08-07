@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.8.2+ (2007021520)
+      // tag.php - created with Moodle 1.9 + (Build: 20080318) (2007101509)
 
 
+$string['addedotag'] = '\"$a\" је додато као званична ознака';
+$string['addotags'] = 'Додај званичне ознаке';
 $string['addtagtomyinterests'] = 'Додај \"$a\" у моја интересовања';
 $string['blocktagstitle'] = 'Ознаке (тагови)';
 $string['changename'] = 'Промена имена ознаке';
@@ -20,9 +22,13 @@ $string['name'] = 'Назив ознаке';
 $string['namesalreadybeeingused'] = 'Већ се користе ова имена ознака';
 $string['newname'] = 'Ново име ознаке';
 $string['noresultsfor'] = 'Нема резултата за \"$a\"';
+$string['officialtag'] = 'Званична ознака';
+$string['otags'] = 'Званичне ознаке';
 $string['owner'] = 'Власник';
+$string['ptags'] = 'Кориснички дефинисане ознаке (одвојене зарезом)';
 $string['relatedblogs'] = 'Најновије ставке блога са овом ознаком';
 $string['relatedtags'] = 'Повезане ознаке';
+$string['removetagfrommyinterests'] = 'Уклони \"$a\" из мојих интересовања';
 $string['reset'] = 'Поново постави';
 $string['resetflag'] = 'Поново постави индикатор';
 $string['responsiblewillbenotified'] = 'Особа која је за ово одговорна ће бити обавештена';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8.2+ (2007021520)
+      // form.php - created with Moodle 1.9.1+ (Build: 20080611) (2007101513)
 
 
 $string['addfields'] = 'Додај $a поље у формулар';
@@ -23,6 +23,7 @@ $string['minute'] = 'Минуте';
 $string['miscellaneoussettings'] = 'Остала уређивања';
 $string['modstandardels'] = 'Општа подешавања модула';
 $string['month'] = 'Месец';
+$string['mustbeoverriden'] = 'Абстрактни метод form_definition() у класи $a мора бити поништен (и замењен), молимо поправите кôд.';
 $string['nomethodforaddinghelpbutton'] = 'Нема метода за додавање дугмета за помоћ елементу формулара $a->name (класа $a->classname)';
 $string['nonexistentformelements'] = 'Покушај додавања дугмади за помоћ непостојећим елементима формулара: $a';
 $string['optional'] = 'Изборни';
@@ -30,6 +31,7 @@ $string['othersettings'] = 'Дрзга подешавања';
 $string['requiredelement'] = 'Обавезно поље.';
 $string['revealpassword'] = 'Објасни';
 $string['security'] = 'Заштита';
+$string['selectallornone'] = 'Изабери све/ништа';
 $string['showadvanced'] = 'Покажи напредне';
 $string['somefieldsrequired'] = 'Неопходна поља у овом формулару су означена са $a';
 $string['timing'] = 'Мерење времена';

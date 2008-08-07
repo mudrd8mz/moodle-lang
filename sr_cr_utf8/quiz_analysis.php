@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6 + (2006050506)
+      // quiz_analysis.php - created with Moodle 1.9 + (Build: 20080318) (2007101509)
 
 
 $string['analysis'] = 'Анализа питања';
@@ -13,6 +13,7 @@ $string['attemptshighest'] = 'највиша оцена';
 $string['attemptslast'] = 'последњи покушај';
 $string['dicsindextitle'] = 'Индекс <br />дискриминативности';
 $string['disccoefftitle'] = 'Коефицијент <br />дискриминативности';
+$string['downloadhtml'] = 'Преузми целокупну табелу у HTML формату';
 $string['downloadooo'] = 'Преузимање у OpenOffice формату';
 $string['facilitytitle'] = '%% Тачног<br />извођења';
 $string['lowmarkslimit'] = 'Не анализирати уколико је укупан резултат мањи од:';

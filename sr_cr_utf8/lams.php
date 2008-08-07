@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.6.2 (2006050520)
+      // lams.php - created with Moodle 1.8.3 + (2007021532)
 
 
 $string['createSequence'] = 'Креирање новог редоследа';
@@ -20,6 +20,9 @@ $string['openmonitor'] = 'Отварање LAMS посматрача';
 $string['refreshSequenceList'] = 'Освежавање листе редоследа';
 $string['selectExistingSequence'] = 'Изаберите постојећи редослед или креирајте нови.';
 $string['sequence'] = 'Изаберите редослед';
+$string['server_id'] = 'Идентификатор сервера';
+$string['server_key'] = 'Кључ сервера';
+$string['server_url'] = 'URL сервера';
 $string['serverid'] = 'Унесите идентификатор сервера који сте добили од <a href=http://www.lamsinternational.com target=_blank>LAMS international</a> организације.';
 $string['serverkey'] = 'Унесите кључ сервера који сте добили од <a href=http://www.lamsinternational.com target=_blank>LAMS international</a> организације.';
 $string['serverurl'] = 'Унесите основни URL за приступ LAMS серверу. На пример http://localhost:8080/lams';
