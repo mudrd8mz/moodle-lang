@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8.2+ (2007021520) by Eric Hsin
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080806) (2008080600)
 
 
 $string['accesscontrol'] = '權限控管';
@@ -206,7 +206,6 @@ $string['or'] = '或';
 $string['ordered'] = '次序';
 $string['other'] = '其他';
 $string['outof'] = '超過 $a';
-$string['outoftime'] = '已逾時';
 $string['overview'] = '概要';
 $string['page'] = '頁面：$a';
 $string['pagecontents'] = '頁面內容';
@@ -264,7 +263,6 @@ $string['startlesson'] = '開始課程';
 $string['studentattemptlesson'] = '$a->lastname, $a->firstname的嘗試次數為$a->attempt';
 $string['studentname'] = '$a 姓名';
 $string['studentoneminwarning'] = '警告:您剩下一分鐘或更少的時間來完成此課程。';
-$string['studentoutoftime'] = '注意:您用完此課程的時間。您最後的回答沒有計分，因為是在時間結束之後才回答的。請按繼續按鈕完成此課程。';
 $string['studentresponse'] = '{$a}的回應';
 $string['submitname'] = '送出名稱';
 $string['teacherjumpwarning'] = '此課程正使用群集$a->cluster跳躍，或$a->unseen隱藏跳躍。將使用下一頁的跳躍方式來取代。以學生身份登入來測試這些跳躍。';
@@ -279,7 +277,6 @@ $string['timeremaining'] = '剩餘時間';
 $string['timespenterror'] = '至少花費 $a 分鐘在這單元';
 $string['timespentminutes'] = '用掉時間(分鐘 )';
 $string['timetaken'] = '使用時間';
-$string['topscorestitle'] = '$a->name課程的最高$a->maxhighscores分數';
 $string['unseenpageinbranch'] = '分支中未瀏覽的問題';
 $string['unsupportedqtype'] = '不支援的題型({$a})！';
 $string['updatedpage'] = '更新頁面';
@@ -302,6 +299,9 @@ $string['youranswer'] = '您的答案';
 $string['yourcurrentgradeis'] = '您目前的成績為{$a}';
 $string['yourcurrentgradeisoutof'] = '您目前的分數是{$a->grade}（總分{$a->total}）';
 $string['youshouldview'] = '您至少應該回答：{$a}';
+$string['outoftime'] = '已逾時'; // ORPHANED
+$string['studentoutoftime'] = '注意:您用完此課程的時間。您最後的回答沒有計分，因為是在時間結束之後才回答的。請按繼續按鈕完成此課程。'; // ORPHANED
+$string['topscorestitle'] = '$a->name課程的最高$a->maxhighscores分數'; // ORPHANED
 $string['backtreeview'] = '回到樹狀檢視'; // ORPHANED
 $string['commentswithname'] = '$a->firstname {$a->lastname}的評語'; // ORPHANED
 $string['deleteattempts'] = '刪除學生在這個單元課程的學習記錄(用戶id)'; // ORPHANED

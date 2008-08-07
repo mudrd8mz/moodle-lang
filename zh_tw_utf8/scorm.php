@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080806) (2008080600)
 
 
 $string['activation'] = '啟動';
@@ -135,7 +135,7 @@ $string['statusbar'] = '顯示狀態列';
 $string['student_response'] = '回答';
 $string['suspended'] = '中止';
 $string['syntax'] = '語法錯誤';
-$string['tag_error'] = '內容為$a->value的($a->tab)是不知名的標籤';
+$string['tag_error'] = '內容為$a->value的($a->tag)是不知名的標籤';
 $string['time'] = '時間';
 $string['title'] = '標題';
 $string['too_many_attributes'] = '標籤$a->tag 太多屬性了';

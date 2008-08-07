@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080806) (2008080600)
 
 
 $string['abouttobeinstalled'] = '即將安裝';
@@ -591,7 +591,7 @@ $string['explanation'] = '說明';
 $string['extendenrol'] = '延長修課期限';
 $string['extendperiod'] = '延長修課期限';
 $string['failedloginattempts'] = '自從您上次登入後，$a->attempts登入失敗';
-$string['failedloginattemptsall'] = '{$a->account}帳號{$a->attempts}登入失敗';
+$string['failedloginattemptsall'] = '{$a->accounts}帳號{$a->attempts}登入失敗';
 $string['feedback'] = '回饋';
 $string['file'] = '檔案';
 $string['filemissing'] = '缺少了 {$a}';
@@ -1035,7 +1035,6 @@ $string['noresults'] = '沒有結果';
 $string['normal'] = '標準的';
 $string['normalfilter'] = '標準搜尋';
 $string['nosite'] = '找不到網站層級的課程';
-$string['nostatstodisplay'] = '抱歉，沒有資料可以顯示。';
 $string['nostudentsfound'] = '$a 未被找到';
 $string['nostudentsingroup'] = '在這個組中尚未有學生';
 $string['nostudentsyet'] = '本課程還沒有學生登入';
@@ -1522,7 +1521,7 @@ $string['view'] = '檢視';
 $string['views'] = '檢視';
 $string['viewsolution'] = '看解答';
 $string['virusfound'] = '管理員請注意!Clam AV發現$a->course課程的$a->user使用者上傳的檔案有病毒。以下是clamscan的報告:';
-$string['virusfoundlater'] = '您在$a->課程，於$a->date所上傳的$a->filename發現含有病毒。這裡是對您檔案所做的處理動作:
+$string['virusfoundlater'] = '您在$a->course課程，於$a->date所上傳的$a->filename發現含有病毒。這裡是對您檔案所做的處理動作:
 $a->action
 
 如果這是繳交的作業，您可重新繳交，
@@ -1593,6 +1592,7 @@ $string['yourlastlogin'] = '您最後登入的時間';
 $string['yourself'] = '您自己';
 $string['yourteacher'] = '您的教師 $a';
 $string['zippingbackup'] = '壓縮備份資料中';
+$string['nostatstodisplay'] = '抱歉，沒有資料可以顯示。'; // ORPHANED
 $string['skiptomaincontent'] = '跳到主要內容'; // ORPHANED
 
 ?>
