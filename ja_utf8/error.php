@@ -439,10 +439,6 @@ $string['wrongsourcebase'] = 'ソースURIベースが正しくありません�
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
-$string['localfilecannotcreatefiledirs'] = 'ローカルファイルPOOLディレクトリを作成できません。datarootのパーミッションを確認してください。'; // TBD
-$string['localfilecannotread'] = 'ファイルを読めません。ファイルが存在しないか、パーミッションに問題があります。'; // TBD
-$string['localfilenotcreated'] = 'ファイル「 $a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename 」を作成できません。'; // TBD
-$string['localfileproblem'] = 'ローカルファイル ($a) に関する不明な例外です。'; // TBD
 $string['cannotmovezip'] = 'ZIPファイルを移動できません。'; // TBD
 $string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; // TBD
 
