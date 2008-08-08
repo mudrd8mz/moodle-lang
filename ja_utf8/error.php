@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // error.php - created with Moodle 2.0 dev (Build: 20080807) (2008080701)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -286,10 +286,6 @@ $string['listnochildren'] = '子アイテムが見つかりませんでした。
 $string['listnoitem'] = 'アイテムが見つかりませんでした。';
 $string['listnopeers'] = '同レベルのアイテムが見つかりませんでした。';
 $string['listupdatefail'] = 'リスト階層の編集中にデータベースエラーが発生しました。';
-$string['localfilecannotcreatefiledirs'] = 'ローカルファイルPOOLディレクトリを作成できません。datarootのパーミッションを確認してください。';
-$string['localfilecannotread'] = 'ファイルを読めません。ファイルが存在しないか、パーミッションに問題があります。';
-$string['localfilenotcreated'] = 'ファイル「 $a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename 」を作成できません。';
-$string['localfileproblem'] = 'ローカルファイル ($a) に関する不明な例外です。';
 $string['logfilenotavailable'] = 'ログは利用できません。';
 $string['loginasnoenrol'] = 'コース「ログイン」セッション時、あなたはユーザ登録および登録抹消することはできません。';
 $string['loginasonecourse'] = 'あなたは、このコースに入ることはできません。<br />他のコースに入る前に、現在の「ログイン」セッションを終了する必要があります。';
@@ -384,6 +380,10 @@ $string['spellcheckernotconf'] = 'スペルチェッカが設定されていま�
 $string['statscatchupmode'] = '現在、統計はキャッチアップモードです。今までのところ $a->daysdone 日分が処理され、$a->dayspending 日分が未処理です。すぐに確認してください!';
 $string['statsdisable'] = '統計が有効にされていません。';
 $string['statsnodata'] = 'このコースおよび期間の組み合わせデータはありません。';
+$string['storedfilecannotcreatefiledirs'] = 'ローカルファイルの保存ディレクトリを作成できません。datarootのパーミッションを確認してください。';
+$string['storedfilecannotread'] = 'ファイルを読み込めません。ファイルが存在しないか、パーミッションに問題があります。';
+$string['storedfilenotcreated'] = 'ファイル「 $a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename 」を作成できません。';
+$string['storedfileproblem'] = 'ローカルファイル ($a) に関して、不明な例外が発生しました。';
 $string['tagdisabled'] = 'タグが無効にされています!';
 $string['tagnotfound'] = '指定されたタグは、データベースで見つかりませんでした。';
 $string['themenotinstall'] = 'このテーマは、インストールされていません。';
@@ -439,6 +439,10 @@ $string['wrongsourcebase'] = 'ソースURIベースが正しくありません�
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
+$string['localfilecannotcreatefiledirs'] = 'ローカルファイルPOOLディレクトリを作成できません。datarootのパーミッションを確認してください。'; // TBD
+$string['localfilecannotread'] = 'ファイルを読めません。ファイルが存在しないか、パーミッションに問題があります。'; // TBD
+$string['localfilenotcreated'] = 'ファイル「 $a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename 」を作成できません。'; // TBD
+$string['localfileproblem'] = 'ローカルファイル ($a) に関する不明な例外です。'; // TBD
 $string['cannotmovezip'] = 'ZIPファイルを移動できません。'; // TBD
 $string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; // TBD
 
