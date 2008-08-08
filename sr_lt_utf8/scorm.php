@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8.2+ (2007021520)
+      // scorm.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
 $string['activation'] = 'Aktivacija';
@@ -26,6 +26,7 @@ $string['contents'] = 'Sadržaj';
 $string['coursepacket'] = 'Paket kursa';
 $string['coursestruct'] = 'Struktura kursa';
 $string['datadir'] = 'Greška datotečnog sistema: Nije moguće kreirati direktorijum za podatke kursa';
+$string['deleteallattempts'] = 'Obriši sve pokušaje pregleda SCORM  paketa';
 $string['details'] = 'Prati detalje';
 $string['directories'] = 'Prikaz linkova direktorijuma';
 $string['display'] = 'Prikaži paket';
@@ -151,6 +152,7 @@ $string['validationtype'] = 'Ovo svojstvo određuje DOMXML biblioteku koja se ko
 $string['value'] = 'Vrednost';
 $string['versionwarning'] = 'Verzija manifesta je starija od 1.3, upozorenje na oznaci $a->tag';
 $string['viewallreports'] = 'Prikaži izveštaj za $a pokušaja';
+$string['viewalluserreports'] = 'Prikaži izveštaj za $a korisnika';
 $string['whatgrade'] = 'Ocenjivanje pokušaja';
 $string['width'] = 'Širina';
 $string['window'] = 'Prozor';

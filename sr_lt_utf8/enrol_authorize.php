@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8.2+ (2007021520)
+      // enrol_authorize.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
 $string['adminacceptccs'] = 'Koji tipovi kreditnih kartica se prihvataju?';
@@ -77,6 +77,7 @@ $string['captureyes'] = 'Kreditna kartica će biti prihvaćena i student će bit
 $string['ccexpire'] = 'Datum isteka važnosti kreditne kartice';
 $string['ccexpired'] = 'Kreditna kartica je istekla';
 $string['ccinvalid'] = 'Pogrešan broj kartice';
+$string['cclastfour'] = 'poslednja četiri u CC polju';
 $string['ccno'] = 'Broj kreditne kartice';
 $string['cctype'] = 'Tip kreditne kartice';
 $string['ccvv'] = 'Provera kreditne kartice';
@@ -103,6 +104,7 @@ $string['httpsrequired'] = 'Žao nam je, ali Vaš zahtev trenutno ne može biti 
 $string['invalidaba'] = 'Pogrešan ABA broj';
 $string['invalidaccnum'] = 'Pogrešan broj računa';
 $string['invalidacctype'] = 'Pogrešan tip računa';
+$string['isbusinesschecking'] = 'Da li se proverava poslovanje?';
 $string['logindesc'] = 'Ova opcija mora biti uključena. <br /><br />Molimo proverite da li ste uključili <a href=\"$a->url\">loginhttps</a> u Administracija >> Promenljive >> Bezbednost.<br /><br />Uključivanjem ove opcije postići ćete to da Moodle koristi sigurnu https konekciju samo za stranica za pristup sistemu i uplate.';
 $string['logininfo'] = 'Korisničko ime, šifra i ključ ѕa transakciju nisu prikazani tokom mera predostrožnosti.Nema potrebe da ih unosite opet ako ste ih uneli ranije.Vidite zeleno obojen tekst ukoliko su neka polja već popunjena.Ako popunjavate ova polja po prvi put, korisničko ime (*) je obavezno i morate uneti <strong>either</strong> ključ transakcije (#1) <strong>or</strong> šifra  (#2)u odgovarajućem polju.Preporučujemo vam da unesete ključ transakcije tokom mera predostrožnosti.Ako želite da obrišete trenutnu šifru, obeležite polje ѕa potvrdu.';
 $string['methodcc'] = 'Kreditna kartica';
@@ -121,6 +123,7 @@ $string['nameoncard'] = 'Ime na kartici';
 $string['new'] = 'Novo';
 $string['noreturns'] = 'Bez povraćaja novca!';
 $string['notsettled'] = 'Nije utvrđeno';
+$string['orderdetails'] = 'Detalji porudžbine';
 $string['orderid'] = 'Identifikator porudžbine';
 $string['paymentmanagement'] = 'Upravljanje plaćanjem';
 $string['paymentmethod'] = 'Način plaćanja';
@@ -180,6 +183,7 @@ $string['reviewnotify'] = 'Vaša uplata će biti pregledana. Očekujte e-poruku 
 $string['sendpaymentbutton'] = 'Slanje uplate';
 $string['settled'] = 'Dogovoreno';
 $string['settlementdate'] = 'Datum dogovora';
+$string['shopper'] = 'Kupac';
 $string['subvoidyes'] = 'Refundirana transakcija $a->transid će biti poništena i dodaće svotu od $a->amount na Vaš račun. Da li ste sigurni da želite da nastavite?';
 $string['tested'] = 'Testirano';
 $string['testmode'] = '[REŽIM ZA TESTIRANJE]';
@@ -190,6 +194,8 @@ $string['unenrolstudent'] = 'Ispis studenta?';
 $string['uploadcsv'] = 'Postavljanje CSV datoteke';
 $string['usingccmethod'] = 'Greška pri korišćenju opcije <a href=\"$a->url\"><strong>Kreditna kartica</strong></a>';
 $string['usingecheckmethod'] = 'Greška pri korišćenju opcije <a href=\"$a->url\"><strong>eCheck</strong></a>';
+$string['verifyaccount'] = 'Proverite svoj authorize.net nalog';
+$string['verifyaccountresult'] = 'Rezultat provere: $a';
 $string['void'] = 'Ništa';
 $string['voidyes'] = 'Transakcija će biti otkazana. Da li ste sigurni da to želite?';
 $string['welcometocoursesemail'] = 'Poštovani polazniče,

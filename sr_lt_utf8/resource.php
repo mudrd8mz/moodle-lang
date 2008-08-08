@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.1+ (2007021510)
+      // resource.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
 $string['addresource'] = 'Dodaj resurs';
 $string['affectedresources'] = 'Pogođeni resursi';
+$string['allowlocalfiles'] = 'Dozvoli lokalne datoteke';
+$string['autofilerename'] = 'Ažuriraj link ako je promenjeno ime datoteke';
 $string['back'] = 'Nazad';
+$string['blockdeletingfile'] = 'Blokiraj brisanje referenciranih datoteka';
 $string['browserepository'] = 'Pretraži repozitorijum';
+$string['cannotupdate'] = 'Ne mogu se zabeležiti promene resursa.';
 $string['choose'] = 'Odaberi';
 $string['chooseafile'] = 'Odaberi ili postavi datoteku';
 $string['chooseparameter'] = 'Odaberi parametar';
@@ -45,10 +49,14 @@ $string['fetcherror'] = 'Došlo je do greške prilikom pokušaja učitavanja Web
 $string['fetchservererror'] = 'Došlo je do greške kada je udaljeni server pokušao da učita Web stranicu (verovatno programska greška).';
 $string['filename'] = 'Ime datoteke';
 $string['filtername'] = 'Automatsko linkovanje naziva resursa';
+$string['forcedownload'] = 'Obavezno preuzimanje';
 $string['frameifpossible'] = 'Postavite resurs u okvir da bi navigacija ostala vidljiva.';
+$string['framesize'] = 'Veličina okvira';
 $string['fulltext'] = 'Kompletan tekst';
 $string['htmlfragment'] = 'HTML fragment';
 $string['imspackageloaded'] = 'Paket je učitan';
+$string['invalidassignment'] = 'neispravan zadatak';
+$string['invalidid'] = 'ID resursa je bio netačan';
 $string['keepnavigationvisible'] = 'Neka navigacija bude vidljiva na istoj stranici';
 $string['localfile'] = 'Lokalna datoteka';
 $string['localfilechoose'] = 'Izaberi lokalnu datoteku (CD-ROM)';
@@ -96,6 +104,7 @@ $string['previous'] = 'Prethodno';
 $string['redeploy'] = 'Ponovo rasporedi';
 $string['repository'] = 'IMS repozitorijum';
 $string['resource:view'] = 'Prikaz resursa';
+$string['resourcedefaulturl'] = 'Podrazumevana URL adresa';
 $string['resourcetype'] = 'Tip resursa';
 $string['resourcetype1'] = 'Referenca';
 $string['resourcetype2'] = 'Web stranica';
@@ -118,11 +127,13 @@ $string['serverurl'] = 'URL servera ($a->wwwroot)';
 $string['showcourseblocks'] = 'Prikaži blokove kursa';
 $string['skipsubmenus'] = 'Preskoči stranice podmenija';
 $string['tableofcontents'] = 'Sadržaj';
+$string['tableofcontentsabbrev'] = 'Sadržaj';
 $string['upbutton'] = 'Gore';
 $string['variablename'] = 'Ime promenljive';
 $string['viewims'] = 'Prikaz IMS paketa';
 $string['vol'] = 'Volumen';
 $string['warningblockingdelete'] = 'Upozorenje: Operacija brisanja je blokirana postojećim resursima. Ili prvo ažurirajte svoje resurse ili pitajte administratora da onemogući ovaj sigurnosni mehanizam u delu za globalnu konfiguraciju resursa.';
 $string['warningdisabledrename'] = 'Upozorenje: Automatsko preimenovanje referenci u resursima je onemogućeno. Molimo ažurirajte pogođene resurse ručno ukoliko je to potrebno. Administrator može i da omogući automatsko preimenovanje u delu za globalnu konfiguraciju resursa.';
+$string['websearchdefault'] = 'Podrazumevana pretraga Weba';
 
 ?>

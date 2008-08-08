@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8.1+ (2007021510)
+      // qtype_multichoice.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
 $string['addingmultichoice'] = 'Dodavanje pitanja višestrukog izbora';

@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.8.1+ (2007021510)
+      // tag.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
+$string['addedotag'] = '\"$a\" je dodato kao zvanična oznaka';
+$string['addotags'] = 'Dodaj zvanične oznake';
 $string['addtagtomyinterests'] = 'Dodaj \"$a\" u moja interesovanja';
 $string['blocktagstitle'] = 'Oznake (tagovi)';
 $string['changename'] = 'Promena imena oznake';
@@ -20,9 +22,13 @@ $string['name'] = 'Naziv oznake';
 $string['namesalreadybeeingused'] = 'Već se koriste ova imena oznaka';
 $string['newname'] = 'Novo ime oznake';
 $string['noresultsfor'] = 'Nema rezultata za \"$a\"';
+$string['officialtag'] = 'Zvanična oznaka';
+$string['otags'] = 'Zvanične oznake';
 $string['owner'] = 'Vlasnik';
+$string['ptags'] = 'Korisnički definisane oznake (odvojene zarezom)';
 $string['relatedblogs'] = 'Najnovije stavke bloga sa ovom oznakom';
 $string['relatedtags'] = 'Povezane oznake';
+$string['removetagfrommyinterests'] = 'Ukloni \"$a\" iz mojih interesovanja';
 $string['reset'] = 'Ponovo postavi';
 $string['resetflag'] = 'Ponovo postavi indikator';
 $string['responsiblewillbenotified'] = 'Osoba koja je za ovo odgovorna će biti obaveštena';
@@ -38,7 +44,6 @@ $string['tagsaredisabled'] = 'Oznake nisu dostupne';
 $string['tagtype'] = 'Tip oznake';
 $string['tagtype_default'] = 'Početno';
 $string['tagtype_official'] = 'Oficijalno';
-$string['thingstaggedwith'] = 'Broj stvari označenih sa \"$a->name\": $a->count';
 $string['thistaghasnodesc'] = 'Ova oznaka trenutno nema opis.';
 $string['timemodified'] = 'Izmenjeno';
 $string['typechanged'] = 'Promenjen tip oznake';
@@ -46,5 +51,6 @@ $string['updated'] = 'Ažurirano';
 $string['updatetag'] = 'Ažuriraj';
 $string['userstaggedwith'] = 'Korisnici označeni sa \"$a\"';
 $string['withselectedtags'] = 'Sa odabranim oznakama...';
+$string['thingstaggedwith'] = 'Broj stvari označenih sa \"$a->name\": $a->count'; // ORPHANED
 
 ?>

@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8.2+ (2007021520)
+      // chat.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
 $string['beep'] = 'zvučni signal';
+$string['cantinsert'] = 'Nije bilo moguće uneti poruku u razgovor!';
+$string['cantlogin'] = 'Nije bilo moguće prijaviti se u pričaonicu!!';
 $string['chat:chat'] = 'Učestvuj u razgovoru';
 $string['chat:deletelog'] = 'Obriši zapise razgovora';
 $string['chat:readlog'] = 'Pročitaj zapise razgovora';
@@ -13,8 +15,8 @@ $string['chattime'] = 'Vreme narednog razgovora';
 $string['configmethod'] = 'Normalan režim rada pričaonice podrazumeva da korisnici konstantno komuniciraju sa serverom zbog osvežavanja sadržaja. Ovaj režim ne zahteva posebnu konfiguraciju i funkcioniše u svim okruženjima, ali može jako da optereti server ako je broj korisnika veliki. Sa druge strane, korišćenje IRC servera zahteva tzv. <i>shell</i> pristup Unix-u, ali zato pruža brzo i lako podesivo <i>chat</i> okruženje.';
 $string['confignormalupdatemode'] = 'Ažuriranje pričaonice se najčešće efikasno izvodi pomoću <em>Keep-Alive</em> opcije HTTP-a 1.1, ali to još uvek prilično opterećuje server. Napredniji način je korišćenje <em>Stream</em> strategije za prikaz promena korisnicima. Korišćenje <em>Stream</em> ažuriranja se pokazalo kao mnogo bolje rešenje (slično chatd metodu) ali je moguće da ga Vaš server ne podržava.';
 $string['configoldping'] = 'Koje je maksimalno vreme (u sekundama) nakon kojeg će biti detektovano da je korisnik izašao iz pričaonice. To je samo gornje ograničenje pošto se diskonekcije korisnika obično otkrivaju vrlo brzo. Niže vrednosti će dodatno opteretiti Vaš server. Ukoliko koristite normalan režim rada za pričaonicu <strong>nikad</strong> nemojte ovu vrednost postaviti na manje od 2 * chat_refresh_room.';
-$string['configrefreshroom'] = 'Koliko često bi se pričaonica trebala osvežavati? (u sekundama) Podešavanje na nizak nivo omogućava da pričaonica izgleda brže, ali može predstavljati veće opterećenje za Vaš Web server kad je u pričaonicama prisutan veći broj ljudi. Ako koristite <em>Stream</em> ažuriranje, možete izabrati više frenkvencije osvežavanja -- probajte sa 2 sekunde.';
-$string['configrefreshuserlist'] = 'Koliko često bi spisak korisnika trebao biti osvežavan? (u sekundama)';
+$string['configrefreshroom'] = 'Koliko često bi trebalo da se osvežava pričaonica? (u sekundama) Postavljanje niskih vrednosti omogućava da pričaonica izgleda brže, ali može predstavljati veće opterećenje za Vaš Web server kad je u pričaonicama prisutan veći broj ljudi. Ako koristite <em>Stream</em> ažuriranje, možete izabrati češće osvežavanje -- probajte sa 2 sekunde.';
+$string['configrefreshuserlist'] = 'Koliko često bi spisak korisnika trebalo da bude osvežavan? (u sekundama)';
 $string['configserverhost'] = 'Ime glavnog računara na kojem se nalazi IRC server';
 $string['configserverip'] = 'Numerička IP adresa koja odgovara navedenom računaru';
 $string['configservermax'] = 'Maksimalan broj dozvoljenih klijenata';
@@ -32,11 +34,13 @@ $string['explainmethodnormal'] = 'Ova podešavanja su aktivna <strong>samo</stro
 $string['generalconfig'] = 'Opšta konfiguracija';
 $string['helpchatting'] = 'Pomoć pri razgovoru';
 $string['idle'] = 'Neaktivan';
+$string['invalidid'] = 'Nije bilo moguće pronaći tu pričaonicu!';
 $string['messagebeepseveryone'] = 'Učesnik $a signalizira svima!';
 $string['messagebeepsyou'] = 'Učesnik $a Vam upravo šalje zvučni signal!';
 $string['messageenter'] = 'Učesnik $a upravo ulazi u pričaonicu';
 $string['messageexit'] = 'Učesnik $a upravo napušta pričaonicu';
 $string['messages'] = 'Poruke';
+$string['method'] = 'Chat režim';
 $string['methoddaemon'] = 'IRC server daemon';
 $string['methodnormal'] = 'Normalan režim';
 $string['modulename'] = 'Pričaonica';
@@ -48,15 +52,26 @@ $string['nomessages'] = 'Još nema poruka';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nema zakazanih sesija';
+$string['notlogged'] = 'Niko nije prijavljen!';
+$string['oldping'] = 'Vreme čekanja na raskid konekcije';
+$string['pastchats'] = 'Prethodne sesije';
+$string['refreshroom'] = 'Osveži sobu';
+$string['refreshuserlist'] = 'Osveži listu korisnika';
+$string['removemessages'] = 'Ukloni sve poruke';
 $string['repeatdaily'] = 'Svaki dan u isto vreme';
 $string['repeatnone'] = 'Nema ponavljanja - objaviti samo određeno vreme';
 $string['repeattimes'] = 'Ponovne sesije';
 $string['repeatweekly'] = 'Svake sedmice u isto vreme';
 $string['savemessages'] = 'Sačuvaj prethodne sesije';
 $string['seesession'] = 'Pogledaj ovu sesiju';
+$string['serverhost'] = 'Ime servera';
+$string['serverip'] = 'IP adresa servera';
+$string['servermax'] = 'Maksimalan broj korisnika';
+$string['serverport'] = 'Port na serveru';
 $string['sessions'] = 'Razgovori';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Svako može videti prethodne sesije';
+$string['updatemethod'] = 'Način ažuriranja';
 $string['viewreport'] = 'Pogledaj prethodne sesije';
 
 ?>

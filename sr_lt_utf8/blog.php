@@ -1,21 +1,27 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8.1+ (2007021510)
+      // blog.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
 $string['addnewentry'] = 'Dodavanje novog unosa';
-$string['addotags'] = 'Dodavanje zvaničnih oznaka';
-$string['addptags'] = 'Dodavanje korisničkih oznaka';
+$string['backupblogshelp'] = 'Ako je uključeno, tada će blogovi biti uključeni u automatsko kreiranje rezervnih kopija na nivou sajta';
 $string['blockmenutitle'] = 'Meni bloga';
 $string['blocktagstitle'] = 'Oznake bloga';
 $string['blocktitle'] = 'Naslov bloka sa oznakama bloga';
 $string['blog'] = 'Blog';
 $string['blogdeleteconfirm'] = 'Obrisati ovaj blog?';
+$string['blogdisable'] = 'Blogovi su onemogućeni!';
 $string['blogpreferences'] = 'Svojstva bloga';
 $string['blogs'] = 'Blogovi';
 $string['blogtags'] = 'Oznake bloga';
+$string['cannotviewcourseblog'] = 'Nemate zahtevane privilegije da pregledate blogove na ovom kursu';
+$string['cannotviewcourseorgroupblog'] = 'Nemate zahtevane privilegije da pregledate blogove na ovom kursu/grupi';
+$string['cannotviewsiteblog'] = 'Nemate zahtevane privilegije da pregledate sve blogove na sajtu';
+$string['cannotviewuserblog'] = 'Nemate zahtevane privilegije da čitate blogove korisnika';
 $string['courseblog'] = 'Blog kursa: $a';
+$string['courseblogdisable'] = 'Blogovi na kursu nisu omogućeni';
 $string['courseblogs'] = 'Korisnici mogu da vide samo blogove ljudi s kojima dele kurs';
 $string['deleteotagswarn'] = 'Da li ste sigurni da želite da uklonite ovu/ove oznake <br />iz svih blog unosa u uklonite je/ih iz sistema?';
+$string['deleteposterror'] = 'Došlo je do greške pri brisanju poruke';
 $string['disableblogs'] = 'Potpuno onemogućiti korišćenje blog sistema';
 $string['emptybody'] = 'Telo blog unosa ne može ostati nepopunjeno';
 $string['emptytitle'] = 'Naslov blog unosa ne može ostati nepopunjen';
@@ -26,7 +32,9 @@ $string['entrysaved'] = 'Vaš unos je sačuvan';
 $string['entrytitle'] = 'Naslov unosa';
 $string['entryupdated'] = 'Ažuriran je blog unos';
 $string['groupblog'] = 'Blog grupe: $a';
+$string['groupblogdisable'] = 'Blog grupe nije omogućen';
 $string['groupblogs'] = 'Korisnici mogu da vide samo blogove ljudi s kojima dele grupu';
+$string['incorrectblogfilter'] = 'Zadat je neispravan tip filtra bloga';
 $string['intro'] = 'Ovaj RSS izvor podataka je automatski generisan iz jednog ili više blogova.';
 $string['noentriesyet'] = 'Ovde nema dostupnih unosa';
 $string['noguestpost'] = 'Gosti ne mogu da pišu blog unose!';
@@ -34,16 +42,16 @@ $string['norighttodeletetag'] = 'Nemate pravo da obrišete ovu oznaku - $a';
 $string['notallowedtoedit'] = 'Nemate pravo da uređujete ovaj unos';
 $string['numberofentries'] = 'Unosi: $a';
 $string['numberoftags'] = 'Broj oznaka za prikaz';
-$string['otags'] = 'Zvanične oznake';
 $string['pagesize'] = 'Broj blog unosa po stranici';
+$string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'Korisnici mogu da vide samo svoj blog';
-$string['ptags'] = 'Korisničke oznake';
 $string['publishto'] = 'Objaviti za';
 $string['publishtonoone'] = 'Sebe samog (koncept)';
 $string['publishtosite'] = 'Sve na ovom sajtu';
 $string['publishtoworld'] = 'Sve na svetu';
 $string['settingsupdatederror'] = 'Došlo je do greške, podešavanje svojstava bloga nije moglo biti ažurirano';
 $string['siteblog'] = 'Blog sajta: $a';
+$string['siteblogdisable'] = 'Blog sajta nije omogućen';
 $string['siteblogs'] = 'Svi korisnici sajta mogu da vide sve blog unose';
 $string['tagdatelastused'] = 'Datum kad je oznaka poslednji put korišćena';
 $string['tags'] = 'Oznake';
@@ -56,5 +64,10 @@ $string['viewcourseentries'] = 'Prikaz unosa kursa';
 $string['viewmyentries'] = 'Prikaz mojih unosa';
 $string['viewsiteentries'] = 'Prikaz unosa sajta';
 $string['worldblogs'] = 'Ceo svet može da čita unose postavljene kao globalno dostupne';
+$string['wrongpostid'] = 'Pogrešan id poruke na blogu';
+$string['addotags'] = 'Dodavanje zvaničnih oznaka'; // ORPHANED
+$string['addptags'] = 'Dodavanje korisničkih oznaka'; // ORPHANED
+$string['otags'] = 'Zvanične oznake'; // ORPHANED
+$string['ptags'] = 'Korisničke oznake'; // ORPHANED
 
 ?>

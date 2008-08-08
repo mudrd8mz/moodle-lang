@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.8.2+ (2007021520)
+      // enrol_database.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
 $string['autocreate'] = 'Kursevi se mogu automatski kreirati ako je dozvoljeno upisati kurs koji još ne postoji u Moodle sistemu.';
@@ -17,6 +17,7 @@ $string['dbtype'] = 'Tip baze podataka';
 $string['dbuser'] = 'Korisnik servera';
 $string['defaultcourseroleid'] = 'Uloga koja će biti podrazumevana ako se ne precizira nijedna druga.';
 $string['description'] = 'Možete upotrebiti spoljašnju bazu podataka (skoro bilo koje vrste) za kontrolu Vaših upisa. To podrazumeva da Vaša spoljašnja baza podataka sadrži polje sa identifikatorom kursa, kao i polje sa identifikatorom korisnika. Ona se upoređuju sa poljima koja izaberete u lokalnom kursu i korisničkim tabelama.';
+$string['disableunenrol'] = 'Ako je postavljeno na \"da\" korisnici prethodno upisani pomoću dodatka za spoljašnju bazu podataka neće biti ispisani pomoću istog dodatka bez obzira na sadržaj baze podataka.';
 $string['enrol_database_autocreation_settings'] = 'Automatsko stvaranje novih kurseva';
 $string['enrolname'] = 'Spoljašnja baza podataka';
 $string['general_options'] = 'Opšte opcije';

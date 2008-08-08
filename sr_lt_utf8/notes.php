@@ -1,19 +1,23 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.8.1+ (2007021510)
+      // notes.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
 $string['addnewnote'] = 'Dodaj belešku';
 $string['addnewnoteselect'] = 'Izbor korisnikâ o kojima se pišu beleške';
-$string['bynameondate'] = 'autor $a->name - $a->date';
+$string['bynameondate'] = 'autor $a->ime - $a->datum';
+$string['cannotdeletepost'] = 'Došlo je do greške pri brisanju poruke';
 $string['content'] = 'Sadržaj';
 $string['course'] = 'kurs';
 $string['coursenotes'] = 'Beleške kursa';
 $string['created'] = 'postavljeno';
 $string['deleteconfirm'] = 'Obriši belešku';
+$string['deletenotes'] = 'Obriši sve beleške';
 $string['editnote'] = 'Uredi belešku';
 $string['groupaddnewnote'] = 'Dodaj belešku za sve';
+$string['invalidid'] = 'Specificirana je nevalidna beleška';
 $string['nocontent'] = 'Unesite sadržaj';
 $string['nonotes'] = 'Nema beleški';
+$string['nopermissiontodelete'] = 'Ne možete obrisati ovu belešku';
 $string['note'] = 'Beleška';
 $string['notes'] = 'Beleške';
 $string['notesnotvisible'] = 'Nije vam dozvoljeno da vidite beleške';

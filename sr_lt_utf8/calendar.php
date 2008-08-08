@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8.2+ (2007021520)
+      // calendar.php - created with Moodle 1.9 Beta 4 (2007101508.05)
 
 
 $string['advancedoptions'] = 'Napredne opcije';
@@ -17,8 +17,9 @@ $string['courses'] = 'Kursevi';
 $string['dayview'] = 'Pregled po danima';
 $string['daywithnoevents'] = 'Danas nema nikakvih aktivnosti.';
 $string['default'] = 'Podrazumevano';
-$string['deleteevent'] = 'Brisanje događaja';
-$string['detailedmonthview'] = 'Detanjan mesečni pregled';
+$string['deleteevent'] = 'Obriši događaj';
+$string['deleteevents'] = 'Obriši događaje';
+$string['detailedmonthview'] = 'Detaljan mesečni pregled';
 $string['durationminutes'] = 'Trajanje u minutima';
 $string['durationnone'] = 'Neograničeno';
 $string['durationuntil'] = 'Sve do';

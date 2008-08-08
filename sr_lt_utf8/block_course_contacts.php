@@ -3,7 +3,7 @@
 
 
 $string['configaddteachers'] = 'Dodavanje: $a';
-$string['configcontent'] = 'Sadržaj';
+$string['configcontent'] = 'SadrĹžaj';
 $string['configinstructions'] = 'Da biste dodali kontakte ovom bloku, dodajte ih kao $a na administratorskoj stranici:';
 $string['configtitle'] = 'Naslov bloka';
 $string['course_contacts'] = 'Kontakti kursa';
