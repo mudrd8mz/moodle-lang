@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9.1+ (Build: 20080611) (2007101513)
+      // blog.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['addnewentry'] = 'Додавање новог уноса';
@@ -39,6 +39,7 @@ $string['intro'] = 'Овај RSS извор података је аутомат
 $string['noentriesyet'] = 'Овде нема доступних уноса';
 $string['noguestpost'] = 'Гости не могу да пишу блог уносе!';
 $string['norighttodeletetag'] = 'Немате право да обришете ову ознаку - $a';
+$string['nosuchentry'] = 'Нема таквог блог уноса';
 $string['notallowedtoedit'] = 'Немате право да уређујете овај унос';
 $string['numberofentries'] = 'Уноси: $a';
 $string['numberoftags'] = 'Број ознака за приказ';
