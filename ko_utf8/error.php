@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
+      // error.php - created with Moodle 2.0 dev (Build: 20080809) (2008080701)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -286,10 +286,6 @@ $string['listnochildren'] = '항목의 하위를 찾지 못함';
 $string['listnoitem'] = '항목이 없음';
 $string['listnopeers'] = '항목의 동항이 없음';
 $string['listupdatefail'] = '위계 목록을 편집 중 DB 조작 실패';
-$string['localfilecannotcreatefiledirs'] = '파일 저장 폴더를 생성할 수 없음. 저장 공간의 사용자 권한을 확인하기 바랍니다.';
-$string['localfilecannotread'] = '파일을 읽어낼 수 없음. 파일이 없거나 읽기 권한의 문제임';
-$string['localfilenotcreated'] = '파일을 \"$a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename\" 에 생성할 수 없음';
-$string['localfileproblem'] = '파일 ($a)와 관련된 알 수 없는 배제사항';
 $string['logfilenotavailable'] = '기록할 수 없음';
 $string['loginasnoenrol'] = '강좌에서 타인명의로는 등록 또는 탈퇴를 할 수 없습니다.';
 $string['loginasonecourse'] = '이 강좌에 입장할 수 없습니다.<br />다른 강좌에 들어가기 전에 반드시 타인 명의로 로그인한 세션을 종료하여야 합니다.';
@@ -384,6 +380,10 @@ $string['spellcheckernotconf'] = '철자검색기가 설정되지 않음';
 $string['statscatchupmode'] = '현재 통계 수집중에 있습니다. 현재 $a->daysdone 일간의 자료가 처리되었고 $a->dayspending 가 처리 대기중에 있습니다. 잠시후 다시 확인해 주시기 바랍니다!';
 $string['statsdisable'] = '통계가 활성화되어 있지 않음';
 $string['statsnodata'] = '강좌 및 시한의 조합 조건에 맞는 자료가 없습니다.';
+$string['storedfilecannotcreatefiledirs'] = '이 곳에 파일 저장 경로를 만들 수 없습니다. 데이터 경로의 사용권한을 살펴 보기 바랍니다.';
+$string['storedfilecannotread'] = '파일이 존재하지 않거나 파일 접근 권한에 문제가 있어 파일을 읽을 수 없음';
+$string['storedfilenotcreated'] = '\"$a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename\"에 파일을 생성할 수 없음';
+$string['storedfileproblem'] = '파일 ($a)에 알 수 없는 예외 규정이 적용되어 있음';
 $string['tagdisabled'] = '태그 사용 불가!';
 $string['tagnotfound'] = '지정한 태그가 데이터베이스에 없음';
 $string['themenotinstall'] = '테마가 설치되지 않았음!';
@@ -439,6 +439,10 @@ $string['wrongsourcebase'] = '잘못된 소스 URL  베이스';
 $string['wrongzipfilename'] = '잘못된 ZIP 파일명';
 $string['xmldberror'] = 'XMLDB 오류!';
 $string['younotteacher'] = '교수자가 아닙니다!';
+$string['localfilecannotcreatefiledirs'] = '파일 저장 폴더를 생성할 수 없음. 저장 공간의 사용자 권한을 확인하기 바랍니다.'; // ORPHANED
+$string['localfilecannotread'] = '파일을 읽어낼 수 없음. 파일이 없거나 읽기 권한의 문제임'; // ORPHANED
+$string['localfilenotcreated'] = '파일을 \"$a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename\" 에 생성할 수 없음'; // ORPHANED
+$string['localfileproblem'] = '파일 ($a)와 관련된 알 수 없는 배제사항'; // ORPHANED
 $string['cannotmovezip'] = '압축파일을 옮길 수 없음'; // ORPHANED
 
 ?>
