@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // auth.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['CASform'] = 'Izbor provere identiteta';
@@ -43,6 +43,7 @@ $string['auth_changepasswordhelp'] = 'Promena pomoći za lozinku';
 $string['auth_changepasswordhelp_expl'] = 'Prikaz pomoći za slučaj izgubljene lozinke korisnicima koji su izgubili svoju $a lozinku. To će biti prikazano ili isto kao ili umesto <strong>URL-a za promenu lozinke</strong> ili interne promene Moodle lozinke.';
 $string['auth_changepasswordurl'] = 'URL za promenu lozinke';
 $string['auth_changepasswordurl_expl'] = 'Specificirajte URL koji će se slati korisnicima koji izgube svoje $a lozinke. Podesite<strong>Koristiti standardnu stranicu za promenu lozinke</strong> na <strong>Ne</strong>.';
+$string['auth_changingemailaddress'] = 'Tražili ste izmenu adrese e-pošte od $a->oldemail na $a->newemail. Iz bezbednosnih razloga, šaljemo Vam e-poruku na novu adresu da potvrdite da ona pripada Vama. Vaša adresa e-pošte biće ažurirana čim otvorite URL link koji Vam je poslat u toj poruci.';
 $string['auth_common_settings'] = 'Opšta podešavanja';
 $string['auth_data_mapping'] = 'Mapiranje podataka';
 $string['auth_dbcantconnect'] = 'Nije moguće povezivanje na navedenu bayu podataka ya proveru identiteta';
@@ -88,13 +89,22 @@ $string['auth_dbuser_key'] = 'Korisnik baze podataka';
 $string['auth_dbusernotexist'] = 'Nije moguće ažuriranje nepostojećeg korisnika: $a';
 $string['auth_dbuserstoadd'] = 'Stavke korisnika za dodavanje: $a';
 $string['auth_dbuserstoremove'] = 'Stavke korisnika za uklanjanje: $a';
+$string['auth_emailchangecancel'] = 'Otkaži promenu adrese e-pošte';
+$string['auth_emailchangepending'] = 'Promena se uspostavlja. Otvorite link kji Vam je poslat na $a->preference_newemail.';
 $string['auth_emaildescription'] = 'Potvrđivanje putem e-pošte je uobičajen način provere identiteta. Nakon što se korisnik prijavi i izabere svoje novo ime i lozinku, e-pošta se šalje na adresu tog korisnika. U e-pošti se nalazi sigurnosni link prema stranici gde novi korisnik potvrđuje svoj nalog. Pri svakom narednom pristup uneti podaci se samo upoređuju sa onima koji su sačuvani u Moodle bazi podataka.';
 $string['auth_emailnoemail'] = 'Pokušaj slanja e-pošte nije uspeo!';
 $string['auth_emailnoinsert'] = 'Nije moguće dodati dati zapis u bazu podataka!';
+$string['auth_emailnowexists'] = 'Adresa e-pošte koju ste hteli pridružiti Vašem profilu već je dodeljena nekome drugome od Vašeg provobitnog zahteva. Stoga je Vaš zahtev za promenu adrese e-pošte odbijen, ali možete pokušati ponovo za različitu adresu.';
 $string['auth_emailrecaptcha'] = 'Dodaje element na formi za audio/vizuelnu potvrdu na stranicu za upis za korisnike koji se sami prijavljuju na sajt putem e-poruke. Ovo štiti Vaš sajt protiv neželjenih poruka. Vidite http://recaptcha.net/learnmore.html za više detalja.';
 $string['auth_emailrecaptcha_key'] = 'Uključi reCAPTCHA element';
 $string['auth_emailsettings'] = 'Podešavanja';
 $string['auth_emailtitle'] = 'Provera identiteta putem e-pošte';
+$string['auth_emailupdate'] = 'Ažuriranje adrese e-pošte';
+$string['auth_emailupdatemessage'] = 'Dragi korisniče $a->fullname,
+Zahtevali ste izmenu Vaše adrese e-pošte za korisnički nalog na $a->site. Molimo Vas da otvorite sledeći URL link u Vašem Web čitaču da biste potvrdili ovu izmenu.
+$a->url';
+$string['auth_emailupdatesuccess'] = 'Adresa e-pošte korisnika <em>$a->fullname</em> uspešno je ažurirana na <em>$a->email</em>.';
+$string['auth_emailupdatetitle'] = 'Potvrda ažuriranja adrese e-pošte na $a->site';
 $string['auth_fcchangepasswordurl'] = 'URL za promenu lozinke';
 $string['auth_fcconnfail'] = 'Povezivanje nije uspelo - greška:$a[0] i tekst greške: $a[1]';
 $string['auth_fccreators'] = 'Lista grupa čijim saradnicima je dozvoljeno da kreiraju nove kurseve. Odvojite spojene grupe sa \';\'. Imena moraju biti napisana upravo onako kao na FirstClass serveru. Sistem vodi računa o velikim i malim slovima.';
@@ -123,6 +133,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'Koristiti IMAP server';
 $string['auth_imaptype'] = 'Tip IMAP servera. IMAP serveri mogu imati različite tipove provere identiteta.';
 $string['auth_imaptype_key'] = 'Tip';
+$string['auth_invalidnewemailkey'] = 'Greška: Ako pokušavate potvrdu izmene adrese e-pošte, možda ste napravili grešku pri kopiranju URL linka koji smo Vam poslali putem e-pošte. Molimo Vas da kopirate adresu i pokušate ponovo.';
 $string['auth_ldap_ad_create_req'] = 'Nije moguće kreirati korisnika u aktivnom direktorijumu. Proverite da li su ispunjeni da li su ispunjeni svi zahtevi da bi ova aktivnost uspela LDAPS povezivanje, vezivanje korisnika za odgovarajuća ovlašćenja, itd.)';
 $string['auth_ldap_attrcreators'] = 'Spisak grupa ili konteksta čijim članovima je dopušteno da kreiraju osobine. Odvajati posebne grupe sa \';\'. Obično nešto nalik \'cn=nastavnici,ou=osoblje,o=mojaorg\'';
 $string['auth_ldap_attrcreators_key'] = 'Kreatori osobina';
@@ -223,6 +234,7 @@ $string['auth_ntlmsso_enabled'] = 'Postavite na Da za pokušaj jedne prijave sa 
 $string['auth_ntlmsso_enabled_key'] = 'Uključi';
 $string['auth_ntlmsso_subnet'] = 'Ako je uključeno, pokušaće samo sa klijentima iz ove podmreže. Format: xxx.xxx.xxx.xxx/bitmas';
 $string['auth_ntlmsso_subnet_key'] = 'Podmreža';
+$string['auth_outofnewemailupdateattempts'] = 'Više nemate pravo na pokušaje ažuriranja Vaše adrese e-pošte. Vaš zahtev za ažuriranje je odbijen.';
 $string['auth_pamdescription'] = 'Ovaj metod koristi PAM za pristup korisničkom imenu na domaćem serveru. Morate instalirati <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM proveru identiteta</a> da biste koristili ovaj modul.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'Vaša lozinka je istekla. Želite li sad da je promenite?';
