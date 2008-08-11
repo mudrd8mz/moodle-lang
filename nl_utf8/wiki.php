@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['action'] = '- - Acties - -';
@@ -23,6 +23,8 @@ $string['cannotaddentry'] = 'Kon wiki-item niet toevoegen';
 $string['cannotchangepage'] = 'Deze pagina kan niet gewijzigd worden';
 $string['cannotdeletelockrecored'] = 'Kon blokkeer-record niet verwijderen';
 $string['cannotgetentry'] = 'Kon geen item vinden.';
+$string['cannotinsertlockrecored'] = 'Kon record niet op slot doen';
+$string['cannotstartwith'] = 'Binair bestand begint niet met ($a)';
 $string['changes'] = '$a wijzigingen';
 $string['changesfield'] = 'Hoelang sinds de vorige wijzigingen';
 $string['changesfielderror'] = 'Geef een juist uur in.';
@@ -81,6 +83,7 @@ $string['flagtxt'] = 'TXT';
 $string['flagwr'] = 'WR';
 $string['for'] = 'voor';
 $string['forbidden'] = 'Je hebt niet het recht om deze pagina te bekijken.';
+$string['groupmodeerror'] = 'Kan geen toegang tot wiki krijgen in groepsmodus omdat er geen groepen geconfigureerd zijn in deze cursus';
 $string['groups'] = 'Groepen';
 $string['hits'] = '$a hits';
 $string['howtooperate'] = 'Hoe gebruiken';
@@ -91,6 +94,7 @@ $string['htmlonly'] = 'Uitsluitend HTML';
 $string['index'] = 'Index';
 $string['infoaboutpage'] = 'Geschiedenis van:';
 $string['initialcontent'] = 'Wiki-inhoud bij start';
+$string['invalidpageval'] = 'Paginawaarde niet ondersteund';
 $string['invalidroot'] = 'Je hebt het recht niet om de huidige startpagina te bekijken en daarom kan er geen kaart van de site gemaakt worden.';
 $string['lastchanged'] = 'Laatst gewijzigd op $a';
 $string['lastmodified'] = 'Laatste wijziging';
@@ -113,6 +117,7 @@ $string['nochangestorevert'] = 'Er zijn geen wijzigingen om terug te draaien';
 $string['nohtml'] = 'Geen HTML';
 $string['nojslockwarning'] = 'Omdat Javascript is uitgeschakeld in je browser, is het mogelijk dat iemand anders gelijktijdig deze pagina bewerkt. Als dat gebeurt, is het niet mogelijk je wijzigingen te bewaren. Probeer je wijzigingen snel te maken of schakel javascript in en herlaad deze pagina.';
 $string['nolinksfound'] = 'Geen links gevonden op de pagina';
+$string['nopermissiontooverride'] = 'Je hebt niet de mogelijkheid om het bewerkenslot te overschrijven';
 $string['noregexp'] = 'Dit moet een vaste waarde zijn (je kunt geen * of regex gebruiken), gebruik best het IP-adres of computernaam van de aanvaller, maar dan zonder het poortnummer (omdat dat kan wijzigen bij elke http-toegang).';
 $string['notadministratewiki'] = 'Je hebt onvoldoende rechten om deze wiki te beheren!';
 $string['nothingtostrip'] = 'Er zijn geen pagina\'s met meer dan één versie';
@@ -179,6 +184,7 @@ $string['uplinsect'] = 'Upload naar';
 $string['uplnewnam'] = 'Bewaar met een andere bestandsnaam';
 $string['upload0'] = 'Gebruik dit formulier om een bepaald bestand te uploaden naar de wiki:';
 $string['uploadedon'] = 'Geüpload op';
+$string['uploaderror'] = 'Fout opgetreden tijdens uploaden ($a)';
 $string['uploadpicturebutton'] = 'Upload';
 $string['uplok'] = 'Je bestand is goed geüpload';
 $string['version'] = 'Versie';
