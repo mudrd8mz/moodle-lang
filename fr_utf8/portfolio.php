@@ -33,6 +33,7 @@ $string['instancenotdelete'] = 'Échec de la suppression du portfolio';
 $string['instancesaved'] = 'Le portfolio a été enregistré';
 $string['invalidformat'] = 'L\'exportation a lieu dans un format non valide, $a';
 $string['invalidinstance'] = 'Impossible de trouver ce portfolio';
+$string['invalidtempid'] = 'Identifiant de dossier temporaire non valide';
 $string['manageportfolios'] = 'Gérer les portfolios';
 $string['manageyourportfolios'] = 'Gérer vos portfolios';
 $string['noavailableplugins'] = 'Désolé, il n\'y a aucun portfolio disponible vers lequel exporter';
