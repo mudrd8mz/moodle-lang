@@ -41,6 +41,15 @@ $string['cannotunsubscribe'] = 'Vous ne pouvez pas vous désabonner de ce forum'
 $string['cannotupdaterate'] = 'Impossible de modifier une ancienne évaluation ($a[0] = $a[1])';
 $string['cannotviewpostyet'] = 'Vous ne pouvez pas lire les questions des autres étudiants, car vous n\'avez pas encore écrit de message';
 $string['cleanreadtime'] = 'Heure de nettoyage des messages lus';
+$string['completiondiscussions'] = 'Le participant doit créer des discussions&nbsp;:';
+$string['completiondiscussionshelp'] = 'discussions requises pour terminer';
+$string['completiondiscussionsgroup'] = 'Discussions requises';
+$string['completionposts'] = 'Le participant doit écrire des messages ou des réponses&nbsp;:';
+$string['completionpostshelp'] = 'discussions ou réponses requises pour terminer';
+$string['completionpostsgroup'] = 'Messages requis';
+$string['completionreplies'] = 'Le participant doit écrire des réponses&nbsp;:';
+$string['completionreplieshelp'] = 'réponses requises pour terminer';
+$string['completionrepliesgroup'] = 'Réponses requises';
 $string['configcleanreadtime'] = 'L\'heure à laquelle nettoyer les anciens messages de la table des messages lus.';
 $string['configdisplaymode'] = 'Mode d\'affichage par défaut des discussions';
 $string['configenablerssfeeds'] = 'Cette option permet l\'activation des flux RSS pour tous les forums. Il est en outre nécessaire d\'activer manuellement les flux RSS dans les réglages de chaque forum.';
