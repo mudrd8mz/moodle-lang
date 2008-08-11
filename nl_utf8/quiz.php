@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['1day'] = '1 dag';
@@ -55,6 +55,7 @@ $string['answerswithacceptederrormarginmustbenumeric'] = 'Antwoorden met een gea
 $string['answertoolong'] = 'Antwoord is te lang na lijn $a (maximum 255 tekens)';
 $string['aon'] = 'AON-opmaak';
 $string['attempt'] = 'Poging $a';
+$string['attemptalreadyclosed'] = 'Deze poging is al beëindigd.';
 $string['attemptclosed'] = 'Poging is nog niet gesloten';
 $string['attemptduration'] = 'Gebruikte tijd';
 $string['attemptedon'] = 'Geprobeerd op';
@@ -79,7 +80,7 @@ $string['backtoquestionlist'] = 'Terug naar de vragenlijst';
 $string['backtoquiz'] = 'Terug naar het bewerken/wijzigen van de test';
 $string['bestgrade'] = 'Hoogste cijfer';
 $string['blackboard'] = 'Blackboard';
-$string['blackboard_6'] = 'Blackboard V6+';
+$string['blackboard_six'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Toon leerlingen met en zonder testpogingen';
 $string['braceerror'] = 'Kon geen {...} rond antwoorden vinden';
 $string['calculated'] = 'Berekend';
@@ -94,6 +95,7 @@ $string['cannotloadtypeinfo'] = 'Kon vraagtypespecifieke informatie niet laden';
 $string['cannotopen'] = 'Kan exportbestand niet openen ($a)';
 $string['cannotread'] = 'Kan importbestand niet lezen (of bestand is leeg)';
 $string['cannotrestore'] = 'Kon vraagsessies niet terugzetten';
+$string['cannotreviewopen'] = 'Je kunt deze poging niet nakijken - ze is nog open';
 $string['cannotsavequestion'] = 'Kon vragenlijst niet bewaren';
 $string['cannotwrite'] = 'Kan exportbestand niet wegschrijven ($a)';
 $string['caseno'] = 'Nee, hoofd/kleine letters zijn niet belangrijk';
@@ -213,6 +215,7 @@ $a->studentname heeft de test \'$a->quizname ($a->quizurl) uit de cursus \'$a->c
 
 Je kunt deze test nakijken op $a->quizreviewurl.';
 $string['emailnotifysubject'] = '$a->studentname heeft de test $a->quizname afgewerkt';
+$string['endtest'] = 'Einde test...';
 $string['errorinquestion'] = 'Fout in de vraag';
 $string['errormissingquestion'] = 'Fout: de vraag met id $a ontbreekt in het systeem';
 $string['errornotnumbers'] = 'Fout - antwoorden moeten cijfers zijn';
@@ -379,6 +382,7 @@ $string['nocategory'] = 'Onjuiste of geen categorie opgegeven';
 $string['nocommentsyet'] = 'Nog geen commentaar';
 $string['noconnection'] = 'Er is op dit ogenblik geen verbinding naar een webservice die deze vraag kan behandelen. Neem contact op met je beheerder';
 $string['nodataset'] = 'niets - dit is geen jokerteken';
+$string['nodatasubmitted'] = 'Geen gegevens ingestuurd.';
 $string['noessayquestionsfound'] = 'Geen manueel te beoordelen vragen gevonden';
 $string['nomatchinganswer'] = 'Je moet een antwoord geven dat overeenkomt met vraag \'$a\'.';
 $string['nominal'] = 'Nominaal';
@@ -439,7 +443,7 @@ $string['previous'] = 'Vorige status';
 $string['publish'] = 'Publiceer';
 $string['publishedit'] = 'Je moet rechten hebben in de cursus die deze vragen publiceert om in deze categorie vragen te kunnen toevoegen of bewerken.';
 $string['qti'] = 'IMS QTI-opmaak';
-$string['qti2'] = 'IMS QTI 2.0-opmaak';
+$string['qti_two'] = 'IMS QTI 2.0 format';
 $string['question'] = 'Vraag';
 $string['questioncats'] = 'Vraagcategorieën';
 $string['questiondeleted'] = 'Deze vraag is verwijderd. Neem contact op met je leraar';
@@ -472,6 +476,7 @@ $string['quizclose'] = 'Sluit de test';
 $string['quizclosed'] = 'Deze test  wordt op $a gesloten';
 $string['quizcloses'] = 'Test gaat dicht';
 $string['quizcloseson'] = 'Deze test sluit op $a';
+$string['quiznavigation'] = 'Testnavigatie';
 $string['quiznotavailable'] = 'De test zal nog niet beschikbaar zijn tot :  $a';
 $string['quizopen'] = 'Open de test';
 $string['quizopenedon'] = 'Deze test is geopend op $a';
@@ -531,7 +536,6 @@ $string['reviewbefore'] = 'Sta nalezen toe als de test open is';
 $string['reviewclosed'] = 'Nadat de test gesloten is';
 $string['reviewimmediately'] = 'Onmiddellijk na de poging';
 $string['reviewnever'] = 'Sta nooit nalezen toe';
-$string['reviewnotallowed'] = 'Je hebt voor deze test het recht niet om de testpogingen van andere gebruikers te bekijken.';
 $string['reviewofattempt'] = 'Kijk poging $a na';
 $string['reviewofpreview'] = 'Voorbeeld nakijken';
 $string['reviewopen'] = 'Later, terwijl de test nog open is';
@@ -651,6 +655,9 @@ $string['youmustwait'] = 'Je moet wachten voor je de test opnieuw mag doen. Je m
 $string['youneedtoenrol'] = 'Je moet aangemeld zijn bij deze cursus voor je deze test kunt maken.';
 $string['yourfinalgradeis'] = 'Je eindcijfer voor deze test is $a';
 $string['zerosignificantfiguresnotallowed'] = 'Het juiste antwoord kan geen nul beduidende cijfers hebben!';
+$string['blackboard_6'] = 'Blackboard V6+'; // ORPHANED
+$string['qti2'] = 'IMS QTI 2.0-opmaak'; // ORPHANED
+$string['reviewnotallowed'] = 'Je hebt voor deze test het recht niet om de testpogingen van andere gebruikers te bekijken.'; // ORPHANED
 $string['existingcategory1'] = 'een jokerteken van een bestaande reeks jokertekens die ook door andere vragen in deze categorie gebruikt worden'; // ORPHANED
 $string['existingcategory2'] = 'een bestand van een bestaande set bestanden die ook door andere vragen in deze categorie gebruikt worden'; // ORPHANED
 $string['existingcategory3'] = 'een link van een bestaande set links die ook door andere vragen in deze categorie gebruikt worden'; // ORPHANED

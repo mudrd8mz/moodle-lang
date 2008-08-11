@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
+      // question.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['adminreport'] = 'Rapport over mogelijke problemen in je vragendatabank';
@@ -10,19 +10,26 @@ $string['cannotcopybackup'] = 'Kon backupbestand niet kopieëren';
 $string['cannotcreate'] = 'Kon geen nieuw item maken in de question_attemptstabel';
 $string['cannotcreatedataset'] = 'Kon dataset $a niet maken';
 $string['cannotcreaterelation'] = 'Kon relatie met dataset $a[0] $a[1] niet maken';
+$string['cannotdeletecate'] = 'Je kunt die categorie niet verwijderen. Het is de standaardcategorie voor deze context.';
+$string['cannotfindcate'] = 'Kon categorierecord niet vinden';
 $string['cannotfindquestionfile'] = 'kon vraaggegevensbestand niet vinden in zip';
 $string['cannotgetdsfordependent'] = 'Kan de dataset niet vinden voor een vraag die afhankelijk is van een dataset! (vraag: {$a[0]}, datasetitem: {a[1]})';
 $string['cannotgetdsforquestion'] = 'kan de dataset niet vinden voor een berekende vraag! (vraag: {$a})';
+$string['cannothidequestion'] = 'Kon vraag niet verbergen';
+$string['cannotimportformat'] = 'Het importeren van deze format is nog niet geïmplementeerd.';
 $string['cannotinsert'] = 'Fout: kan datasetitem niet invoegen';
 $string['cannotinsertitem'] = 'Kan datasetitem  $a[0] niet invoegen met $a[1] voor $a[2]';
 $string['cannotinsertquestion'] = 'Kon geen nieuwe vraag invoegen!';
 $string['cannotinsertquestioncate'] = 'Kon geen nieuwe vraagcategorie invoegen: $a';
 $string['cannotinsertquestioncatecontext'] = 'Kon de nieuwe vraagcategorie niet invoegen $a[0] ongeldige context ID $a[1]';
+$string['cannotloadquestion'] = 'Kon vraag niet laden';
 $string['cannotmovecate'] = 'Kan de categorie $a niet verplaatsen. Het is de laatste in deze context.';
 $string['cannotmovefromto'] = 'Kon de categorie $a[0] niet verplaatsen naar $a[1]';
 $string['cannotmovequestion'] = 'Je kan dit script niet gebruiken om vragen te verplaatsen waaraan bestanden geassocieerd zijn vanuit andere plaatsen';
+$string['cannotpreview'] = 'Je kunt geen voorbeeld van deze vragen zien';
 $string['cannotretrieveqcat'] = 'Kon vraagcategorie niet ophalen';
 $string['cannotsavequiz'] = 'Bewaren van deze poging mislukt!';
+$string['cannotunhidequestion'] = 'Terug zichtbaar maken van deze vraag mislukt';
 $string['cannotunzip'] = 'Kon bestand niet unzippen';
 $string['cannotupdatecate'] = 'Kon categorie $a niet updaten';
 $string['cannotupdatecount'] = 'Fout: kan itemcount niet updaten';
@@ -77,8 +84,10 @@ $string['getcategoryfromfile'] = 'Haal categorie uit bestand';
 $string['getcontextfromfile'] = 'Haal context uit bestand';
 $string['ignorebroken'] = 'Negeer gebroken links';
 $string['impossiblechar'] = 'Onmogelijk teken $a gevonden als haakje';
+$string['invalidarg'] = 'Geen geldige argumenten gegeven of foute serverconfiguratie';
 $string['invalidcategoryidforparent'] = 'Ongeldige categorieID voor bovenliggende!';
 $string['invalidcategoryidtomove'] = 'Ongeldig categorie ID om te verplaatsen';
+$string['invalidconfirm'] = 'Bevestigingsstring was fout';
 $string['invalidcontextinhasanyquestions'] = 'Ongeldige context doorgegeven aan question_context_has_any_questions.';
 $string['invalidwizardpage'] = 'Ongeldige of geen pagina opgegeven!';
 $string['linkedfiledoesntexist'] = 'Het gelinkte bestand $a bestaat niet';
