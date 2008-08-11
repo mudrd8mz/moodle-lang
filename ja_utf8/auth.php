@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080707) (2008070700)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080807) (2008080701)
 
 
 $string['CASform'] = '認証選択';
@@ -100,8 +100,12 @@ $string['auth_emailrecaptcha_key'] = 'reCAPTCHA要素を有効にする';
 $string['auth_emailsettings'] = '設定';
 $string['auth_emailtitle'] = 'Eメールによる自己登録';
 $string['auth_emailupdate'] = 'メールアドレス更新';
-$string['auth_emailupdatemessage'] = 'あなたは、$a->site のアカウントに関するメールアドレスの変更をリクエストしました。この変更を確認するには、あなたのブラウザで以下のURIにアクセスしてください。';
-$string['auth_emailupdatesuccess'] = 'ユーザのメールアドレス <em>$a->fullname</em> は、正常に <em>$a->email</em> に変更されました。';
+$string['auth_emailupdatemessage'] = '$a->fullname さん
+
+あなたは、$a->site のアカウントに関するメールアドレスの変更をリクエストしました。この変更を確認するには、あなたのブラウザで以下のURIにアクセスしてください。
+
+$a->url';
+$string['auth_emailupdatesuccess'] = 'ユーザ <em>$a->fullname</em> のメールアドレスは、正常に <em>$a->email</em> に変更されました。';
 $string['auth_emailupdatetitle'] = '$a->site のメール更新確認';
 $string['auth_fcchangepasswordurl'] = 'パスワード変更のURI';
 $string['auth_fcconnfail'] = '接続に失敗しました。エラー番号: $a[0] エラーストリング: $a[1]';
