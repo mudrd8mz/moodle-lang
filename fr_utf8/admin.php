@@ -623,6 +623,8 @@ $string['recaptchaprivatekey'] = 'Clef privée ReCAPTCHA';
 $string['releasenoteslink'] = 'Pour des informations sur cette version de Moodle, veuillez consulter les <a target=\"_blank\" href=\"$a\">Notes de mise à jour</a> en ligne.';
 $string['remotelangnotavailable'] = 'Moodle ne peut pas se connecter au site download.moodle.org. L\'installation automatique des langues ne peut donc pas avoir lieu. Veuillez télécharger le(s) fichier(s) compressé(s) nécessaire(s) dans la liste ci-dessous, les copier dans votre dossier $a et les décompresser manuellement.';
 $string['renameerrors'] = 'Erreurs lors de changements de nom';
+$string['repsettings'] = 'Gérer les dépôts';
+$string['repsettingsgeneral'] = 'Réglages généraux des dépôts';
 $string['requiredtemplate'] = 'Requis. Vous pouvez utiliser ici la syntaxe de modèle (%%l = nom, %%f = prénom, %%u = nom d\'utilisateur). Voir l\'aide pour des détails et des exemples help for details and examples.';
 $string['restrictbydefault'] = 'Restreindre les modules par défaut';
 $string['restrictmodulesfor'] = 'Restreindre les modules pour';
