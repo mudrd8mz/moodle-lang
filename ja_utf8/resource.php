@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080728) (2008072800)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -103,6 +103,7 @@ $string['preview'] = 'プレビュー';
 $string['previous'] = '前へ';
 $string['redeploy'] = '再配置';
 $string['repository'] = 'IMSリポジトリ';
+$string['resource:exportresource'] = 'リソースをエクスポートする';
 $string['resource:view'] = 'リソースを表示する';
 $string['resourcedefaulturl'] = 'デフォルトURI';
 $string['resourcetype'] = 'リソースのタイプ';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
+      // data.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['action'] = '操作';
@@ -56,6 +56,9 @@ $string['csvimport'] = 'CSVファイルインポート';
 $string['csvwithselecteddelimiter'] = '選択したデリミタによる<acronym title=\"カンマ区切り\">CSV</acronym>テキスト:';
 $string['data:approve'] = '未承認のエントリを承認する';
 $string['data:comment'] = 'コメントを追加する';
+$string['data:exportallentries'] = 'すべてのデータベースエントリをエクスポートする';
+$string['data:exportentry'] = 'データベースエントリをエクスポートする';
+$string['data:exportownentry'] = '自分のデータベースエントリをエクスポートする';
 $string['data:managecomments'] = 'コメントを管理する';
 $string['data:manageentries'] = 'エントリを管理する';
 $string['data:managetemplates'] = 'テンプレートを管理する';
@@ -212,6 +215,7 @@ $string['pagesize'] = '1ページあたりのエントリ数';
 $string['participants'] = '参加者';
 $string['picture'] = '画像';
 $string['pleaseaddsome'] = '始めるには、下で新しいフィールドを追加するか、<a href=\"$a\">定義済みフィールドセットを選択</a>してください。';
+$string['portfolionotfile'] = 'ファイル (csvのみ) ではなく、ポートフォリオにエクスポートする';
 $string['presetinfo'] = 'プリセットとして保存することで、このテンプレートが公開されます。他のユーザは、このテンプレートを自分のデータベースで使用することができます。';
 $string['presets'] = 'プリセット';
 $string['radiobutton'] = 'ラジオボタン';

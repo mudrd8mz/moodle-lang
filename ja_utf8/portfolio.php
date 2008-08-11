@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080807) (2008080600)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['addnewportfolio'] = '新しいポートフォリオを追加する';
@@ -48,7 +48,6 @@ $string['nouploaddirectory'] = 'あなたのデータをまとめるため一時
 $string['plugin'] = 'ポートフォリオプラグイン';
 $string['plugincouldnotpackage'] = 'あなたのエクスポートするデータをパックアップできませんでした。';
 $string['portfolio'] = 'ポートフォリオ';
-$string['portfolionotfile'] = 'ファイルではなく、ポートフォリオにエクスポートする';
 $string['portfolios'] = 'ポートフォリオ';
 $string['returntowhereyouwere'] = '戻る';
 $string['save'] = '保存';
