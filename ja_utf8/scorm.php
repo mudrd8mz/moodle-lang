@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080807) (2008080701)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['activation'] = 'アクティベーション';
 $string['activityloading'] = 'あなたは、次の時間経過後、自動的にリダイレクトされます:';
+$string['activitypleasewait'] = '活動読み込み中、お待ちください ...';
 $string['advanced'] = '詳細設定';
 $string['asset'] = 'アセット';
 $string['assetlaunched'] = 'アセット - 閲覧済み';
