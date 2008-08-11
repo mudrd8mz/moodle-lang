@@ -21,6 +21,7 @@ $string['enableddesc'] = 'Cette option permet aux administrateurs de configurer 
 $string['exporting'] = 'Exportation vers le portfolio';
 $string['exportcomplete'] = 'Exportation portfolio terminée&nbsp;!';
 $string['exportedpreviously'] = 'Exportations précédentes';
+$string['exportqueued'] = 'L\'exportation du portfolio a été mise file d\'attente pour tranfert';
 $string['failedtosendpackage'] = 'Échec de l\'envoi de vos données aux système de portfolio sélectionné&nbsp;!';
 $string['format_file'] = 'Fichier';
 $string['format_mbkp'] = 'Sauvegarde Moodle';
