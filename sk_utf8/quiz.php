@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.8.3 + (2007021534)
+      // quiz.php - created with Moodle 1.9.1+ (Build: 20080625) (2007101514)
 
 
 $string['1day'] = '1 deň';
@@ -11,8 +11,20 @@ $string['acceptederror'] = 'Akceptovaná chyba';
 $string['action'] = 'Akcia';
 $string['adaptive'] = 'Adaptívny režim';
 $string['addcategory'] = 'Pridať kategóriu';
+$string['addingcalculated'] = 'Pridávanie výpočtovej otázky';
+$string['addingdescription'] = 'Pridávanie opisu';
+$string['addingessay'] = 'Pridávanie eseje';
+$string['addingmatch'] = 'Pridávanie zodpovedajúcej otázky';
+$string['addingmultianswer'] = 'Pridávanie otázky s viacerými odpoveďami (cloze)';
+$string['addingmultichoice'] = 'Pridávanie otázky s viacerými odpoveďami';
+$string['addingnumerical'] = 'Pridávanie rozsahovej otázky';
+$string['addingquestion'] = 'Pridávanie otázky';
 $string['addingquestions'] = 'V tejto časti stránky si vediete databázu vašich otázok. Aby bolo otázky možné udržať usporiadané a aby mohli byť použité v ľubovoľnom teste vo Vašom kurze, alebo dokonca aj inými kurzami, ak sa rozhodnete publikovať ich, sú uložené v kategóriách.<br /><br />
 Keď vyberiete alebo vytvoríte kategóriu otázok, budete môcť tvoriť alebo meniť otázky. Môžete vybrať ktorúkoľvek z týchto otázok a pridať ju do Vášho testu na ostatných častiach tejto stránky.';
+$string['addingrandom'] = 'Pridávanie náhodnej otázky';
+$string['addingrandomsamatch'] = 'Pridávanie náhodnej zodpovedajúcej krátkej odpovede';
+$string['addingshortanswer'] = 'Pridávanie otázky typu krátka odpoveď';
+$string['addingtruefalse'] = 'Pridávanie otázky typu Pravda/Nepravda';
 $string['addmoreoverallfeedbacks'] = 'Pridať ešte {N} polí so spätnou väzbou';
 $string['addquestions'] = 'Pridať otázky';
 $string['addquestionstoquiz'] = 'Pridať otázky do testu';
@@ -48,8 +60,12 @@ $string['attemptlast'] = 'Posledný pokus';
 $string['attemptquiznow'] = 'Pokúsiť sa urobiť test teraz';
 $string['attempts'] = 'Pokusy';
 $string['attemptsallowed'] = 'Povolený počet pokusov';
+$string['attemptsdeleted'] = 'Vymazané pokusy';
 $string['attemptselection'] = 'Vyberte, ktoré pokusy sa majú analyzovať u používateľa:';
 $string['attemptsexist'] = 'Tento test sa už používatelia pokúsili urobiť';
+$string['attemptsnum'] = 'Pokusy: $a';
+$string['attemptsnumthisgroup'] = 'Pokusy: $a->total ($a->group z tejto skupiny)';
+$string['attemptsnumyourgroups'] = 'Pokusy: $a->total ($a->group z vašich skupín)';
 $string['attemptsonly'] = 'Ukázať iba študentov s pokusmi';
 $string['attemptsunlimited'] = 'Neobmedzené pokusy';
 $string['back'] = 'Späť na náhľad otázky';
@@ -63,6 +79,7 @@ $string['braceerror'] = 'Nedajú sa nájsť {...} okolo odpovedí';
 $string['calculated'] = 'Výpočtová';
 $string['calculatedquestion'] = 'Otázka na výpočet nie je podporovaná na riadku $a. Táto otázka bude ignorovaná.';
 $string['cannotcreatepath'] = 'Cestu nie je možné vytvoriť ($a)';
+$string['cannoteditafterattempts'] = 'Nemôžete pridať alebo odobrať otázky, pretože už sú pokusy.';
 $string['cannotinsert'] = 'Nie je možné vložiť úlohu';
 $string['cannotopen'] = 'Nie je možné otevríť exportovaný súbor ($a)';
 $string['cannotread'] = 'Nie je možné načítať súbor pre import (alebo je súbor prázdny)';
@@ -81,6 +98,7 @@ $string['categorynamecantbeblank'] = 'Názov kategórie nemôže byť prázdny';
 $string['categorynoedit'] = 'Nemáš právo na úpravu kategórie \'$a\'';
 $string['categoryupdated'] = 'Táto kategória bola úspešne aktualizovaná';
 $string['changessaved'] = 'Zmeny v známkovaní uložené';
+$string['changessavedwitherrors'] = 'Pri ukladaní zmien v známkovaní sa vyskytli chyby.';
 $string['checkanswer'] = 'Skontrolovať';
 $string['choice'] = 'Možnosť';
 $string['choices'] = 'Dostupné možnosti';
@@ -137,6 +155,7 @@ $string['deleteattemptcheck'] = 'Naozaj chcete úplne vymazať všetky pokusy o 
 $string['deletequestioncheck'] = 'Naozaj chcete vymazať \'$a\'?';
 $string['deletequestionscheck'] = 'Naozaj chcete zmazať nasledujúce otázky? <div>$a</div>';
 $string['deleteselected'] = 'Odstrániť vybraté';
+$string['deletingquestionattempts'] = 'Vymazávanie pokusov otázky';
 $string['description'] = 'Opis';
 $string['discrimination'] = 'Rozlišovací index';
 $string['displayoptions'] = 'Nastavenia zobrazenia';
@@ -166,6 +185,26 @@ $string['editqcats'] = 'Upraviť kategórie úloh';
 $string['editquestions'] = 'Upraviť otázky';
 $string['editquiz'] = 'Upraviť test';
 $string['editquizquestions'] = 'Upraviť kategórie testov';
+$string['emailconfirmbody'] = 'Dobrý deň $a->username,
+
+Ďakujeme za odoslanie odpovedí v teste
+\'$a->quizname\'
+v kurze \'$a->coursename\'
+dňa $a->submissiontime.
+
+Tento mail potvrdzuje, že Vaše odpovede boli zaznamenané v poriadku.
+
+Test je dostupný na stránke $a->quizurl.';
+$string['emailconfirmsubject'] = 'Potvrdenie odoslania testu: $a->quizname';
+$string['emailnotifybody'] = 'Dobrý deň $a->username,
+
+Študent $a->studentname odovzdal test
+\'$a->quizname\' ($a->quizurl)
+v kurze \'$a->coursename\'.
+
+Jeho výsledky sú dostupné na stránke $a->quizreviewurl.';
+$string['emailnotifysubject'] = 'Študent $a->studentname odovzdal test
+\'$a->quizname\'.';
 $string['errorinquestion'] = 'Chyba v otázke';
 $string['errormissingquestion'] = 'Chyba: V systéme chába otázka s id $a';
 $string['errornotnumbers'] = 'Chyba - odpoveď musí byť číselného typu';
@@ -204,6 +243,7 @@ $string['filloutoneanswer'] = 'Musíte vyplniť aspoň jednu možnú odpoveď. N
 $string['filloutthreequestions'] = 'Musíte vyplniť aspoň tri otázky. Nevyplnené otázky nebudú použité.';
 $string['fillouttwochoices'] = 'Musíte uviesť aspoň dve možnosti. Nevyplnené možnosti nebudú použité.';
 $string['finishattempt'] = 'Odoslať všetko a ukončiť';
+$string['finishreview'] = 'Ukončiť prehľad';
 $string['forceregeneration'] = 'obnova nastavení';
 $string['formatnotfound'] = 'Nie je možné nájsť formát pre export/import: $a';
 $string['formatnotimplemented'] = 'Tento formát nie je korektne implementovaný. Prosím, nahláste túto chybu vývojárom Moodle.';
@@ -233,7 +273,6 @@ $string['giftnonumericalanswers'] = 'Neboli nájdené odpovede na numerickú ot�
 $string['giftnovalidquestion'] = 'Nebola nájdená platná otázka';
 $string['giftqtypenotset'] = 'Typ otázky nie je nastavený';
 $string['giftrightbraceerror'] = 'Nedala sa nájsť pravá zátvorka }';
-$string['gobacktocourse'] = 'Na návrat do kurzu kliknite sem';
 $string['grade'] = 'Známka';
 $string['gradeall'] = 'Oznámkovať všetko';
 $string['gradeaverage'] = 'Priemerná známka';
@@ -241,6 +280,7 @@ $string['gradeboundary'] = 'Hranica hodnotenia';
 $string['gradeessays'] = 'Oznámkovať eseje';
 $string['gradehighest'] = 'Najvyššia známka';
 $string['grademethod'] = 'Metóda známkovania';
+$string['gradesdeleted'] = 'Vymazané hodnotenia testu';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = 'Známky za odoslaný test:
 $a->raw/$a->max.';
@@ -347,14 +387,18 @@ $string['notenoughsubquestions'] = 'Nebolo definovaných dosť podotázok (možn
 Chcete sa vrátiť a opraviť túto otázku?';
 $string['notimedependentitems'] = 'Položky, ktoré sú časovo obmedzené, nie sú podporované v tomto testovom module. Môžete si nastaviť časový limit pre celý kurz. Chcete si vybrať inú položku (alebo chcete pracovať s touto položkou)?';
 $string['numattempts'] = '$a->studentstring: $a->studentnum, pokusov: $a->attemptnum';
+$string['numattemptsmade'] = 'V tomto teste je $a pokusov';
 $string['numberabbr'] = '#';
 $string['numerical'] = 'Rozsahová';
 $string['onlyteachersexport'] = 'Iba učitelia môžu exportovať úlohy.';
 $string['onlyteachersimport'] = 'Iba učitelia s právom upravovať obsah kurzu môžu importovať úlohy.';
+$string['openclosedatesupdated'] = 'Dátumy otvorenia a uzatvorenia testu sú aktualizované';
 $string['optional'] = 'voliteľný';
 $string['outof'] = 'z maximálneho počtu bodov';
+$string['outofpercent'] = '$a->grade z možných $a->maxgrade ($a->percent%%)';
+$string['outofshort'] = '$a->grade/$a->maxgrade';
 $string['overallfeedback'] = 'Celková spätná väzba';
-$string['overdue'] = 'Po uplynutí časového obmedzenia';
+$string['overdue'] = 'Oneskorený';
 $string['pagesize'] = 'Počet pokusov na stránku:';
 $string['paragraphquestion'] = 'Odstavcová úloha nie je podporovaná na riadku $a. Úloha bude ignorovaná.';
 $string['parent'] = 'Rodičovský';
@@ -395,6 +439,8 @@ $string['questiontype'] = 'Otázka typu  $a';
 $string['questiontypesetupoptions'] = 'Možnosti nastavenia pre typy otázok:';
 $string['quiz:attempt'] = 'Pokusy testov';
 $string['quiz:deleteattempts'] = 'Vymazať všetky pokusy testov';
+$string['quiz:emailconfirmsubmission'] = 'Dostať mailové potvrdenie po odovzdaní';
+$string['quiz:emailnotifysubmission'] = 'Dostať mailové potvrdenie odovzdaných testov';
 $string['quiz:grade'] = 'Ohodnotiť testy manuálne';
 $string['quiz:ignoretimelimits'] = 'Ignorovať časový limit v testoch';
 $string['quiz:manage'] = 'Spravovať testy';
@@ -405,6 +451,7 @@ $string['quizavailable'] = 'Test je dostupný do: $a';
 $string['quizclose'] = 'Zatvoriť test';
 $string['quizclosed'] = 'Tento test bol zatvorený $a';
 $string['quizcloses'] = 'Test je uzatvorený';
+$string['quizcloseson'] = 'Tento test bude uzavrený dňa $a';
 $string['quiznotavailable'] = 'Test nebude dostupný do: $a';
 $string['quizopen'] = 'Otvoriť test';
 $string['quizopens'] = 'Test sa otvára';
@@ -430,6 +477,7 @@ $string['regradingquestion'] = 'Opätované známkovanie otázky  \"$a\".';
 $string['regradingquiz'] = 'Opätované známkovanie testu  \"$a\"';
 $string['relative'] = 'Relatívna';
 $string['remove'] = 'Odstrániť';
+$string['removeallquizattempts'] = 'Odstrániť všetky pokusy testov';
 $string['rename'] = 'Premenovať';
 $string['renderingserverconnectfailed'] = 'Server $a nedokázal spracovať RQP požiadavku. Skontrolujte, či je URL adresa zadaná správne.';
 $string['reordertool'] = 'Zobrazovať pomôcku pre zmenu poradia';
@@ -462,8 +510,10 @@ $string['reviewclosed'] = 'Po tom, ako sa uzatvorí test';
 $string['reviewimmediately'] = 'Hneď po pokuse';
 $string['reviewnever'] = 'Nikdy nepovoliť prehľad';
 $string['reviewofattempt'] = 'Revízia pokusu $a';
+$string['reviewofpreview'] = 'Prehľad náhľadu';
 $string['reviewopen'] = 'Neskôr, keď je test stále otvorený';
 $string['reviewoptions'] = 'Študenti majú možnosť revízie';
+$string['reviewoptionsheading'] = 'Možnosti prehľadu';
 $string['reviewresponse'] = 'Zhodnotiť odpoveď';
 $string['rqp'] = 'Nedostupná otázka';
 $string['rqps'] = 'Nedostupné otázky';
@@ -506,16 +556,17 @@ $string['shufflewithin'] = 'Zamiešať v rámci úloh';
 $string['significantfigures'] = 's $a';
 $string['significantfiguresformat'] = 'významné čísla';
 $string['singleanswer'] = 'Vyberte jednu odpoveď';
-$string['sortage'] = 'Striediť podľe dátumu';
-$string['sortalpha'] = 'Striediť abecedne podľe názvu';
+$string['sortage'] = 'Striediť podľa dátumu';
+$string['sortalpha'] = 'Striediť abecedne podľa názvu';
 $string['sortsubmit'] = 'Striediť úlohy';
-$string['sorttypealpha'] = 'Striediť abecedne podľe typu';
+$string['sorttypealpha'] = 'Striediť abecedne podľa typu';
 $string['startagain'] = 'Začať znovu';
 $string['startedon'] = 'Test bol začatý';
 $string['stoponerror'] = 'Zastaviť na chybe';
 $string['subneterror'] = 'Prepáčte, ale tento kurz bol uzamknutý a je možné do neho vstúpiť iba z určitých lokalít. Váš počítač je jeden z tých, ktoré nemajú povolenie vstupu do testu.';
 $string['subnetnotice'] = 'Tento test bol uzamknutý a je prístupný iba z niektorých miest. Váš počítač bohužiaľ medzi ne nepatrí. Ako učiteľ máte možnosť prehliadnuť si čokoľvek.';
 $string['substitutedby'] = 'bude nahradené';
+$string['summaryofattempts'] = 'Sumár vašich predošlých pokusov';
 $string['temporaryblocked'] = 'Dočasne vám nie je dovolené pokúsiť sa o ďalšie zvládnutie testu.<br />Ďalší pokus budete môcť absolvovať:';
 $string['time'] = 'Čas';
 $string['timecompleted'] = 'Čas vypršal';
@@ -523,6 +574,7 @@ $string['timedelay'] = 'Nie je vám dovolené absolvovať tento test, pretože v
 $string['timeleft'] = 'Čas zostávajúci do ukončenia testu';
 $string['timelimit'] = 'Časový limit';
 $string['timelimitexeeded'] = 'Prepáčte, ale čas už vypršal!';
+$string['timelimitmin'] = 'Časový limit testu (v minútach)';
 $string['timestr'] = '%%H:%%M:%%S dňa %%d/%%m/%%y';
 $string['timesup'] = 'Čas vypršal!';
 $string['timetaken'] = 'Strávený čas';
@@ -563,11 +615,13 @@ $string['xml'] = 'Moodle XML formát';
 $string['xmlimportnoname'] = 'Chýbajúce meno otázky v xml súbore';
 $string['xmlimportnoquestion'] = 'Chýbajúci text otázky v xml súbore';
 $string['xmltypeunsupported'] = 'Otázka typu $a nie je podporovaná XML importom';
+$string['youneedtoenrol'] = 'Tento test môžete začať až potom, keď sa zapíšete do tohto kurzu.';
 $string['yourfinalgradeis'] = 'Vaša konečná známka za tento test je $a';
 $string['zerosignificantfiguresnotallowed'] = 'Správne odpovede nemôžu mať žiadne platné číslice!';
 $string['existingcategory1'] = 'písmeno z už existujúcej sady písmen, ktoré sa používajú aj v iných otázkach v tejto kategórii'; // ORPHANED
 $string['existingcategory2'] = 'súbor z už existujúcej sady súborov, ktoré sa používajú aj v iných otázkach v tejto kategórii'; // ORPHANED
 $string['existingcategory3'] = 'link z už existujúcej sady linkov, ktoré sa používajú aj v iných otázkach v tejto kategórii'; // ORPHANED
+$string['gobacktocourse'] = 'Na návrat do kurzu kliknite sem'; // ORPHANED
 $string['keptcategory1'] = 'písmeno z tej istej kategórie je možné znovu použiť pri nastavovaní písmen ako predtým'; // ORPHANED
 $string['keptcategory2'] = 'súbor z tej istej kategórie je možné znovu použiť pri nastavovaní súborov ako predtým'; // ORPHANED
 $string['keptcategory3'] = 'link z tej istej kategórie je možné znovu použiť pri nastavovaní linkov ako predtým'; // ORPHANED

@@ -1,9 +1,8 @@
-<?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.6 development (2005053000)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['blockname'] = 'Prihlásení používatelia';
 $string['configtimetosee'] = 'Ako často zisťovať prihlásených používateľov (v minútach)?';
 $string['periodnminutes'] = 'posledných $a minút';
-
+$string['timetosee'] = 'Odstrániť po nečinnosti (minúty)';
 ?>

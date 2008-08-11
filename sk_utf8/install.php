@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // install.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['admindirerror'] = 'Adresár pre správu (admin) nie je určený správne';
 $string['admindirname'] = 'Adresár pre správu (admin)';
@@ -70,6 +69,12 @@ $string['databasesettingssub_mysql'] = '<b>Typ:</b> MySQL<br />
 <b>Používateľ (User):</b> používateľ oprávnený pre prácu s databázou<br />
 <b>Heslo (Password):</b> heslo pre používateľa<br />
 <b>Predpona (Tables Prefix):</b> jednotná predpona názvov všetkých tabuliek, napr. mdl_ (povinné)';
+$string['databasesettingssub_mysqli'] = '<b>Typ:</b> Vylepšené MySQL<br />
+<b>Hostiteľ (Host):</b> eg localhost alebo db.isp.com<br />
+<b>Názov (Name):</b> názov databázy, napr. moodle<br />
+<b>Používateľ (User):</b> používateľ oprávnený pre prácu s databázou<br />
+<b>Heslo (Password):</b> heslo pre používateľa<br />
+<b>Predpona (Tables Prefix):</b> jednotná predpona názvov všetkých tabuliek, napr. mdl_ (voliteľné)';
 $string['databasesettingssub_oci8po'] = '<b>Typ:</b> Oracle<br />
 <b>Hostitel (Host):</b> nepoužité, musí být prázdne<br />
 <b>Názov (Name):</b> daný názov pripojenia tnsnames.ora<br />
@@ -88,6 +93,7 @@ $string['databasesettingssub_postgres7'] = '<b>Typ:</b> PostgreSQL<br />
 <b>Používateľ (User):</b> používateľ oprávnený pre prácu s databázou<br />
 <b>Heslo (Password):</b> heslo pre používateľa<br />
 <b>Predpona (Tables Prefix):</b> jednotná predpona názvov všetkých tabuliek, napr. mdl_ (povinné)';
+$string['databasesettingswillbecreated'] = '<b>Poznámka:</b> inštalátor sa pokúsi vytvoriť databázu automaticky, ak neexistuje.';
 $string['dataroot'] = 'Adresár pre údaje';
 $string['datarooterror'] = '\'Adresár pre údaje\', ktorý ste zadali, nemôže byť nájdený alebo vytvorený. Upravte buď cestu alebo vytvorte ten adresár ručne.';
 $string['dbconnectionerror'] = 'Nemohli sme sa pripojiť k vami zadanej databáze. Prosím skontrolujte nastavenia Vašej databázy.';
@@ -184,6 +190,8 @@ $string['mssql_n'] = 'SQL*Server s UTF-8 podporou (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP nebolo správne nakonfigurované s MSSQL rozšírením, a tak nemôže komunikovať s SQL*Server. Prosím, skontrolujte si Váš php.ini súbor alebo znovu vytvorte PHP.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP nebolo správne nakonfigurované s MySQL rozšírením, a tak nemôže komunikovať s MySQL. Prosím, skontrolujte si Váš php.ini súbor alebo znovu vytvorte PHP.';
+$string['mysqli'] = 'Vylepšené MySQL (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP nebolo správne nakonfigurované s rozšírením MySQLi, aby mohlo komunikovať s MySQL. Skontrolujte svoj súbor php.ini alebo prekompilujte PHP. Rozšírenie MySQLi  nie je dostupné pre PHP 4.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP nebolo správne nakonfigurované s OCI8 rozšírením, a tak nemôže komunikovať s Oracle. Prosím, skontrolujte si Váš php.ini súbor alebo znovu vytvorte PHP.';
 $string['odbc_mssql'] = 'SQL*Server cez ODBC (odbc_mssql)';
@@ -214,5 +222,4 @@ $string['welcomep60'] = 'Nasledujúce stránky vás povedú v nekoľkých jednod
 $string['welcomep70'] = 'Stlačením nižšie uvedeného tlačidla \"Ďalší\" pokračujte v nastavení vašej inštalácie Moodle.';
 $string['wwwroot'] = 'Web adresa';
 $string['wwwrooterror'] = 'Táto web adresa pravdepodobne nie je platná - táto inštalácia Moodle tu pravdepodobne nie je.';
-
 ?>

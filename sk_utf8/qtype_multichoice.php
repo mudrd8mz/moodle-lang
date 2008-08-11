@@ -1,9 +1,14 @@
-<?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.8.2+ (2007021520)
+<?PHP // $Id$
+      // Modified with langdiff.php
 
-
+$string['addingmultichoice'] = 'Pridávanie otázky typu Viaceré možnosti';
 $string['addmorechoiceblanks'] = 'Prázdne miesta pre viac možností';
 $string['answerhowmany'] = 'Jedna alebo viaceré odpovede?';
+$string['answernumbering'] = 'Číslovať voľby?';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
+$string['answernumberingnone'] = 'bez číslovania';
 $string['answersingleno'] = 'Viaceré odpovede';
 $string['answersingleyes'] = 'Iba jedna odpoveď';
 $string['choiceno'] = 'Voľba $a';
@@ -26,5 +31,4 @@ $string['overallpartiallycorrectfeedback'] = 'Spätná väzba pre čiastočne sp
 $string['partiallycorrectfeedback'] = 'Na akúkoľvek čiastočne správnu odpoveď';
 $string['shuffleanswers'] = 'Zamiešať odpovede';
 $string['singleanswer'] = 'Vyberte jednu odpoveď.';
-
 ?>

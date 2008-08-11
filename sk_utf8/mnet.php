@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samopodpísané)';
 $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (podpísané)';
@@ -27,6 +26,7 @@ $string['current_transport'] = 'Súčasný transport';
 $string['currentkey'] = 'Súčasný verejný kľúč';
 $string['databaseerror'] = 'Nie je možné zapísať detaily do databázy';
 $string['deleteaserver'] = 'Odstraňujem server';
+$string['deletehost'] = 'Vymazať hostiteľa';
 $string['deletekeycheck'] = 'Určite chcete odstrániť tento kľúč?';
 $string['deleteoutoftime'] = '60 sekundové okno pre odstránenie tohto kľúča vypršalo.';
 $string['deleteuserrecord'] = 'SSO ACL: odstrániť záznam pre používateľa  \'$a[0]\' z $a[1].';
@@ -99,6 +99,7 @@ $string['mnetlog'] = 'Záznamy';
 $string['mnetpeers'] = 'Partneri';
 $string['mnetservices'] = 'Služby';
 $string['mnetsettings'] = 'Nastavenie siete Moodle';
+$string['mnetthemes'] = 'Témy';
 $string['moodle_home_help'] = 'Cesta k domovskej stránke Moodle na vzdialenom hostiteľovi, napr. /moodle/.';
 $string['moodleloc'] = 'Umiestenie Moodle';
 $string['net'] = 'Sieť';
@@ -167,6 +168,7 @@ $string['subscribe'] = 'Prihlásiť';
 $string['system'] = 'Systém';
 $string['testtrustedhosts'] = 'Overiť adresu';
 $string['testtrustedhostsexplain'] = 'Vložte IP adresu pre zistenie, či je dôveryhodným hostiteľom';
+$string['themesavederror'] = 'Vyskytla sa chyba: zmena témy nebola uložená';
 $string['transport_help'] = 'Tieto možnosti sú recipročné takže môžete iba donútiť vzdialeného hostiteľa, aby používal podpísaný SSL certifikát, ak aj Vy ho používate.';
 $string['trustedhosts'] = 'XML-RPC hostitelia';
 $string['trustedhostsexplain'] = '<p>Mechanizmus dôveryhodných hostiteľov umožňuje konkrétnym strojom vykonávať volanie ktorejkoľvek časti Moodle API cez XML-RPC. To je dostupné cez skripty, riadiace chovanie Moodle a môže byť veľmi nebezpečné to povoliť. Ak máte akékoľvek pochybnosti, nechajte vypnuté.</p><p>Toto <strong>nie je</strong> nutné pre sieť Moodle.</p><p>Povolíte vložením zoznamu IP addries alebo sietí, jedna na každom riadku.
@@ -184,5 +186,4 @@ $string['wrong-ip'] = 'Vaša IP adresa sa nezhoduje so zaznamenanou.';
 $string['xmlrpc-missing'] = 'Aby ste mohli použiť túto vlastnosť, musíte mať nainštalované XML-RPC vo Vašom PHP.';
 $string['yourhost'] = 'Váš hostiteľ';
 $string['yourpeers'] = 'Vaši partneri';
-
 ?>

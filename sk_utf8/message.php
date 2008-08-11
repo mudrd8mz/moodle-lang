@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // message.php - created with Moodle 1.8.3 + (2007021533)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addcontact'] = 'Pridať kontakt';
 $string['addsomecontacts'] = 'Pre poslanie správy niekomu, alebo pre pridanie odkazu naňho na túto stránku, použi <a href=\"$a\">záložku vyhľadávanie</a>.';
@@ -27,6 +26,7 @@ $string['includeblockedusers'] = 'Zahrnúť blokovaných používateľov';
 $string['incomingcontacts'] = 'Prichádzajúce kontakty ($a)';
 $string['keywords'] = 'Kľúčové slová';
 $string['keywordssearchresults'] = 'Výsledok hľadania: $a nájdených správ';
+$string['mailsent'] = 'Vaša správa bola poslaná mailom';
 $string['maxmessages'] = 'Maximálny počet správ ktoré budú zobrazované v histórii diskusií';
 $string['message'] = 'Správa';
 $string['messagehistory'] = 'História správ';
@@ -68,5 +68,4 @@ $string['unreadmessages'] = '$a nečítaných správ';
 $string['userisblockingyou'] = 'Tento používateľ má nastavené blokovanie správ od Vás';
 $string['userisblockingyounoncontact'] = 'Tento používateľ prijíma správy iba od ľudí, ktorých má zapísaných vo svojom zozname kontaktov a Vy sa v ňom nenachádzate.';
 $string['userssearchresults'] = 'Výsledok hľadania: $a nájdených používateľov';
-
 ?>

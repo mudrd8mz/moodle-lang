@@ -1,10 +1,10 @@
-<?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8.6 (Build: 20080716) (2007021560)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['CASform'] = 'Voľba overovania';
 $string['accesCAS'] = 'používatelia CAS';
 $string['accesNOCAS'] = 'ostatní používatelia';
+$string['actauthhdr'] = 'Aktívne autentifikačné zásuvné moduly';
 $string['alternatelogin'] = 'Pokiaľ sem vložíte nejaké URL, bude použité ako prihlasovacia stránka k tomuto systému. Táto Vaša stránka by mala obsahovať formulár s vlastnosťou \'action\' nastavenou na <strong>\'$a\'</strong>, ktorá vracia pole <strong>username</strong> a <strong>password</strong>.<br />Dbajte na to, aby ste vložili platné URL! V opačnom prípade by ste mohli komukoľvek vrátane seba zamedziť prístup k týmto stránkam.<br />Ak chcete používať štandardnú prihlasovaciu stránku, nechajte toto pole prázdne.';
 $string['alternateloginurl'] = 'Alternatívne URL pre prihlásenie';
 $string['auth_cas_auth_user_create'] = 'Vytvoriť používateľov externe';
@@ -96,7 +96,7 @@ $string['auth_emaildescription'] = 'Emailové potvrdzovanie je prednastavený sp
 $string['auth_emailnoemail'] = 'Nepodarilo sa poslať Vám email!';
 $string['auth_emailnoinsert'] = 'Nemôžeme pridať Váš záznam do databázy!';
 $string['auth_emailnowexists'] = 'Nová emailová adresa, na ktorú ste si požiadali zmeniť svoje konto, už je používaná niekým iným. Vaša požiadavka na zmenu bola preto zrušená. Môžete požiadavku opakovať s odlišnou emailovou adresou.';
-$string['auth_emailrecaptcha'] = 'Pridáva formulár vizuálneho/audio potvrdenia k zadávacej stránke pre používateľov so samostatnou registráciou. Toto ochráni Váš portál pred spammermi. Pre viac informácií viď http://recaptcha.net/learnmore.html.';
+$string['auth_emailrecaptcha'] = 'Pridáva formulár (audio)vizuálneho potvrdenia k stránke vytvorenia konta pre samoregistrujúcich sa používateľov s mailovým potvrdzovaním. Chráni váš portál proti spammerom. Viď http://recaptcha.net/learnmore.html pre viac informácií.';
 $string['auth_emailrecaptcha_key'] = 'Povoliť prvok reCAPTCHA';
 $string['auth_emailsettings'] = 'Nastavenia';
 $string['auth_emailtitle'] = 'Emailové overovanie';
@@ -133,6 +133,9 @@ $string['auth_imaptitle'] = 'Použiť IMAP server';
 $string['auth_imaptype'] = 'Typ IMAP serveru. IMAP servery môžu používať rozličné typy overovania.';
 $string['auth_imaptype_key'] = 'Typ';
 $string['auth_invalidnewemailkey'] = 'Chyba: ak sa snažíte potvrdiť zmenu emailovej adresy, zrejme ste urobili chybu pri kopírovaní URL odkazu, ktorý Vám bol poslaný emailom. Prosím skopírujte adresu správne a skúste znova.';
+$string['auth_ldap_ad_create_req'] = 'Nie je možné vytvoriť nové konto v Active Directory. Skontrolujte si všetky nastavenia pre jeho správnu funkcionalitu (LDAPS spojenie, bind používateľov so zodpovedajúcimi právami, atď).';
+$string['auth_ldap_attrcreators'] = 'Zoznam skupín alebo kontextov, ktorých členovia majú právo vytvárať atribúty. Oddeľujte viaceré skupiny bodkočiarkou. Väčšinou je to niečo ako \'cn=teachers,ou=staff,o=myorg\'.';
+$string['auth_ldap_attrcreators_key'] = 'Tvorcovia atribútov';
 $string['auth_ldap_auth_user_create_key'] = 'Vytvoriť používateľov externe';
 $string['auth_ldap_bind_dn'] = 'Ak chcete používať spoluužívateľov na vyhľadávanie používateľov, uveďte to tu. Napríklad: \'ou=users,o=org; ou=others,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Jednoznačné (distingvované) meno';
@@ -145,6 +148,7 @@ $string['auth_ldap_contexts_key'] = 'Kontexty';
 $string['auth_ldap_create_context'] = 'Ak umožníte vytváranie používateľov s emailovým potvrdzovaním, špecifikujte kontext, kde budú používatelia vytvorení. Tento kontext by mal byť iný, ako pre ostatných používateľov, v záujme bezpečnosti. Nepotrebujete pridať tento kontext do premennej ldap-context, Moodle bude vyhľadávať používateľov z tohto kontextu automaticky.<br />
 <b>Pozor!</b> Musíte upraviť funkciu auth_user_create() v súbore auth/ldap/lib.php, aby mohli byť takýmto spôsobom vytváraní noví používatelia.';
 $string['auth_ldap_create_context_key'] = 'Kontexty pre nových používateľov';
+$string['auth_ldap_create_error'] = 'Chyb pri vytváraní používateľov v LDAP.';
 $string['auth_ldap_creators'] = 'Zoznam skupín, ktorých členovia majú povolené vytvárať nové kurzy. Jednotlivé skupiny oddeľujte bodkočiarkou. Obyčajne niečo ako cn=ucitelia,ou=ostatni,o=univ\'';
 $string['auth_ldap_creators_key'] = 'Tvorcovia';
 $string['auth_ldap_expiration_desc'] = 'Vyberte si \'Nie\', aby sa deaktivovalo kontrolovanie neaktívneho hesla alebo LDAP na čítanie \'passwordexpiration time\' priamo z LDAP';
@@ -157,6 +161,8 @@ $string['auth_ldap_graceattr_desc'] = 'Nepovinné: Potlačí vlastnosť gracelog
 $string['auth_ldap_gracelogin_key'] = 'Atribút \'gracelogin\'';
 $string['auth_ldap_gracelogins_desc'] = 'Umožniť podporu LDAP gracelogin (tzv. prihlásenie z milosti). Po tom, ako vyprší platnosť hesla, používateľ sa môže prihlásiť, pokým nie je hodnota gracelogin 0. Ak povolíte toto nastavenie, používatelia budú informovaní, v prípade, že im vyprší platnosť hesla.';
 $string['auth_ldap_gracelogins_key'] = 'Prihlásenie z milosti';
+$string['auth_ldap_groupecreators'] = 'Zoznam skupín alebo kontextov, ktorých členovia majú právo vytvárať skupiny. Oddeľujte viaceré skupiny bodkočiarkou. Väčšinou je to niečo ako \'cn=teachers,ou=staff,o=myorg\'.';
+$string['auth_ldap_groupecreators_key'] = 'Tvorcovia skupín';
 $string['auth_ldap_host_url'] = 'Špecifikujte hostiteľa LDAP v podobe URL, napr. \'ldap://ldap.myorg.com/\' alebo \'ldaps://ldap.myorg.com/\'. Jednotlivé servery oddeľte bodkočiarkou.';
 $string['auth_ldap_host_url_key'] = 'Hosťovské URL';
 $string['auth_ldap_ldap_encoding'] = 'Upresnite kódovnie používané LDAP serverom. Pravdepodobne utf-8, MS AD v2 použiva formy kódovania ako cp1252, cp1250, atď.';
@@ -166,6 +172,7 @@ $string['auth_ldap_memberattribute'] = 'Nepovinné: voľba potlačí názov atri
 $string['auth_ldap_memberattribute_isdn'] = 'Voliteľné: predstavuje manipulovanie s hodnotami členstva, 0 alebo 1';
 $string['auth_ldap_memberattribute_isdn_key'] = 'Atribút členstva používa dn';
 $string['auth_ldap_memberattribute_key'] = 'Atribút členstva';
+$string['auth_ldap_no_mbstring'] = 'Pre vytváranie používateľov v Active Directory potrebujete rozšírenie mbstring.';
 $string['auth_ldap_noconnect'] = 'Modul LDAP sa nemôže pripojiť k serveru: $a';
 $string['auth_ldap_noconnect_all'] = 'Modul LDAP sa nemôže pripojiť k žiadnemu zo serverov: $a';
 $string['auth_ldap_noextension'] = 'Varovanie: nie je prítomný modul PHP LDAP. Zaistite inštaláciu alebo sprístupnenie.';
@@ -185,6 +192,7 @@ $string['auth_ldap_unsupportedusertype'] = 'Overovanie: ldap user_create() nepod
 $string['auth_ldap_update_userinfo'] = 'Aktualizovať informácie o používateľovi (krstné meno, priezvisko, adresa...) z LDAP do Moodle. Hľadať v /auth/ldap/attr_mappings.php pre priraďujúce informácie. Ak potrebujete, definujte nastavenia pre \"Mapovanie údajov\".';
 $string['auth_ldap_user_attribute'] = 'Nepovinné: voľba potlačí vlastnosť používanú na hľadanie mien používateľov. Zvyčajne \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Atribút používateľa';
+$string['auth_ldap_user_exists'] = 'LDAP meno už existuje.';
 $string['auth_ldap_user_settings'] = 'Nastavenia prehľadávania používateľov';
 $string['auth_ldap_user_type'] = 'Vyberte si, ako budú používatelia uchovávaní v LDAP. Toto nastavenie tiež špecifikuje, ako bude fungovať vytváranie nových používateľov, grace loginy a vypršanie platnosti hesla.';
 $string['auth_ldap_user_type_key'] = 'Typ používateľa';
@@ -225,6 +233,11 @@ $string['auth_nologindescription'] = 'Pomocný zásuvný modul, ktorý zabraňuj
 $string['auth_nologintitle'] = 'Neprihlasovať';
 $string['auth_nonedescription'] = 'Používatelia sa môžu prihlásiť a okamžite si vytvoriť kontá bez nutnosti overovania proti externým serverom a bez potvrdzovania prostredníctvom emailu. Buďte opatrní pri tejto voľbe - myslite na bezpečnosť a problémy pri administrácii, ktoré tým môžu vzniknúť.';
 $string['auth_nonetitle'] = 'Bez overenia';
+$string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'Nastavte na áno pre pokus o Single Sign On s NTLM doménou. <strong>Poznámka:</strong> na webserveri je treba ešte ďalšie nastavenia, viď <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>.';
+$string['auth_ntlmsso_enabled_key'] = 'Povoliť';
+$string['auth_ntlmsso_subnet'] = 'Nastavte na áno pre pokus o SSO s klintmi v tejto subsieti. Formát: xxx.xxx.xxx.xxx/bitovámaska';
+$string['auth_ntlmsso_subnet_key'] = 'Subsieť';
 $string['auth_outofnewemailupdateattempts'] = 'Prekročili ste povolený počet pokusov o zmenu svojej emailovej adresy. Vaša požiadavka na zmenu bola zrušená.';
 $string['auth_pamdescription'] = 'Táto metóda používa PAM na prístup do používateľských mien na tomto serveri. Musíte si nainštalovať <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a>, aby ste mohli používať tento modul.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
@@ -262,11 +275,17 @@ $string['auth_shib_convert_data_description'] = 'Toto API (aplikačné rozhranie
 $string['auth_shib_convert_data_warning'] = 'Súbor neexistuje alebo k nemu proces web serveru nemá prístup na čítanie!';
 $string['auth_shib_instructions'] = 'Použite <a href=\"$a\">prihlásenie cez Shibboleth</a>, pokiaľ Vaša inštitúcia tento systém podporuje.<br />V opačnom prípade použite normálny formulár pre prihlásenie.';
 $string['auth_shib_instructions_help'] = 'Tu môžete vložiť vlastné informácie o Vašom systéme Shibboleth. Budú sa zobrazovať na prihlasovacej stránke. Vložené informácie by mali obsahovať odkaz na zdroj chránený systémom Shibboleth, ktorý presmeruje používateľov na \"<b>$a</b>\", takže sa používatelia systému Shibboleth budú môcť prihlásiť do Moodle. Ak necháte toto pole prázdne, budú sa na prihlasovacej stránke zobrazovať všeobecné pokyny.';
+$string['auth_shib_no_organizations_warning'] = 'Ak chcete používať integrovanú službu WAYF, musíte zadať zoznam Identity Provider entityIDs oddelený čiarkami, ich mená a prípadne iniciátor sekcie.';
 $string['auth_shib_only'] = 'Len Shibboleth';
 $string['auth_shib_only_description'] = 'Zaškrtnite túto voľbu, pokiaľ si chcete nastaviť prihlásenie za pomoci systému Shibboleth';
 $string['auth_shib_username_description'] = 'Názov premennej prostredia webserveru Shibboleth, ktorá má byť použitá ako používateľské meno Moodle';
+$string['auth_shibboleth_contact_administrator'] = 'V prípade, že nie ste vo vzťahu k danej organizácii a potrebujete prístup ku kurzu na tomto serveri, kontaktujte:';
+$string['auth_shibboleth_errormsg'] = 'Vyberte organizáciu, ktorej ste členom!';
 $string['auth_shibboleth_login'] = 'Prihlásenie cez Shibboleth';
+$string['auth_shibboleth_login_long'] = 'Prihlásenie do Moodle cez Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Ručné prihlásenie';
+$string['auth_shibboleth_select_member'] = 'Som členom ...';
+$string['auth_shibboleth_select_organization'] = 'Pre autentifikáciu cez Shibboleth vyberte vašu organizáciu zo zoznamu:';
 $string['auth_shibbolethdescription'] = 'Táto metóda umožňuje vytvárať a overovať používatelov pomocou systému <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>.<br />
 Uistite sa, že ste si prečítali súbor <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> obsahujúci informácie o tom, ako nastaviť Váš Moodle pre podporu systému Shibboleth.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
@@ -286,11 +305,24 @@ $string['changepassword'] = 'URL na zmenu hesla';
 $string['changepasswordhelp'] = 'Tu môžete uviesť URL, na ktorom si Vaši používatelia môžu obnoviť alebo zmeniť používateľské meno/heslo, ak ho zabudli. Pre používateľov to bude zobrazené ako tlačidlo na prihlasovacej stránke ich používateľskej stránky. Ak to tu neuvediete, tlačidlo sa nezobrazí.';
 $string['chooseauthmethod'] = 'Vyberte si spôsob overovania používateľov:';
 $string['createpasswordifneeded'] = 'Vytvoriť heslo, ak je to treba';
+$string['enterthenumbersyouhear'] = 'Zadajte čísla, ktoré počujete';
+$string['enterthewordsabove'] = 'Zadajte vyššie uvedené slová';
+$string['errorminpassworddigits'] = 'Heslá musia mať minimálne $a číslic.';
+$string['errorminpasswordlength'] = 'Heslá musia byť minimálne $a znakov dlhé.';
+$string['errorminpasswordlower'] = 'Heslá musia mať minimálne $a malých písmen.';
+$string['errorminpasswordnonalphanum'] = 'Heslá musia mať minimálne $a nealfanumerických znakov.';
+$string['errorminpasswordupper'] = 'Heslá musia mať minimálne $a veľkých písmen.';
 $string['errorpasswordupdate'] = 'Chyba pri zmene hesla, heslo nebolo zmenené';
 $string['forcechangepassword'] = 'Vyžadovať zmenu hesla';
 $string['forcechangepassword_help'] = 'Vyžadovať od používateľov zmenu hesla pri ich ďalšom prihlásení do Moodle.';
 $string['forcechangepasswordfirst_help'] = 'Vyžadovať od používateľov zmenu hesla pri ich prvom prihlásení do Moodle.';
+$string['forgottenpassword'] = 'Ak sem vložíte URL, bude použitá ako stránka pre získanie zabudnutých hesiel tohto portálu. Sú tým mienené systémy, kde sú heslá spracovávané mimo Moodle. Nechajte prázdne na použitie východzieho systému správy zabudnutých hesiel.';
+$string['forgottenpasswordurl'] = 'URL pre zabudnuté heslo';
+$string['getanaudiocaptcha'] = 'Získať audio CAPTCHA';
+$string['getanimagecaptcha'] = 'Získať obrazové CAPTCHA';
+$string['getanothercaptcha'] = 'Získať iné CAPTCHA';
 $string['guestloginbutton'] = 'Prihlasovacie tlačidlo pre hosťa';
+$string['incorrectpleasetryagain'] = 'Nesprávne. Skúste znova.';
 $string['infilefield'] = 'Pole je v súbore vyžadované';
 $string['instructions'] = 'Inštrukcie';
 $string['internal'] = 'Interný';
@@ -298,10 +330,14 @@ $string['locked'] = 'Zamknutý/Zamknuté';
 $string['md5'] = 'MD5 šifrovanie';
 $string['nopasswordchange'] = 'Heslo nemôže byť zmenené';
 $string['nopasswordchangeforced'] = 'Nemôžete pokračovať bez zmeny hesla, ale stránka pre jeho zmenenie nie je k dispozícii. Kontaktujte prosím svojho Moodle administrátora.';
+$string['ntlmsso_attempting'] = 'Pokus o Single Sign On pomocou NTLM...';
+$string['ntlmsso_failed'] = 'Auto-login sa nepodaril, skúste normálne prihlasovanie.';
+$string['ntlmsso_isdisabled'] = 'NTLM SSO je zakázané.';
 $string['passwordhandling'] = 'Zaobchádzanie s poľom hesla';
 $string['plaintext'] = 'Čistý text';
 $string['pluginnotenabled'] = 'Overovanie plugin \'$a\' nie je povolené.';
 $string['pluginnotinstalled'] = 'Overovanie plugin \'$a\' nie je nainštalované.';
+$string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'RPC vyjednávanie prekročilo časový limit.';
 $string['selfregistration'] = 'Používatelia sa registrujú sami';
 $string['selfregistration_help'] = 'Vyber, ktorá metóda overovania bude mať na starosti používateľov, ktorí sa registrujú sami.';
@@ -319,5 +355,4 @@ $string['update_never'] = 'Nikdy';
 $string['update_oncreate'] = 'Pri vytváraní';
 $string['update_onlogin'] = 'Pri každom prihlásení';
 $string['update_onupdate'] = 'Pri aktualizácii';
-
 ?>

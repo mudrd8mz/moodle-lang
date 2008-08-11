@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_calculated.php - created with Moodle 1.9.1+ (Build: 20080625) (2007101514)
 
 
 $string['addmoreanswerblanks'] = 'Vložiť nasledujúcu prázdnu odpoveď';
@@ -23,6 +23,8 @@ $string['nodataset'] = 'nič - to nie je zástupný znak';
 $string['nosharedwildcard'] = 'V tejto kategórii nie sú zdieľané zástupné znaky';
 $string['possiblehdr'] = 'Možné sú iba zástupné znaky uvedené v otázke';
 $string['tolerance'] = 'Tolerancia &plusmn;';
+$string['trueanswerinsidelimits'] = 'Správna odpoveď: $a->correct leží v intervale pravdivej hodnoty $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">CHYBA - správna odpoveď: $a->correct leží mimo intervalu pravdivej hodnoty $a->true</span>';
 $string['updatecategory'] = 'Aktualizovať kategóriu';
 $string['usedinquestion'] = 'Použité v otázke';
 $string['youmustenteramultiplierhere'] = 'Sem musíte vložiť koeficient';

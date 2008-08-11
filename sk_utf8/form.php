@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8.2+ (2007021520)
+      // form.php - created with Moodle 1.9.1+ (Build: 20080625) (2007101514)
 
 
 $string['addfields'] = 'Pridať $a polí do formulára';
@@ -30,9 +30,11 @@ $string['othersettings'] = 'Ostatné nastavenia';
 $string['requiredelement'] = 'Povinné pole';
 $string['revealpassword'] = 'Prezradiť';
 $string['security'] = 'Zabezpečenie';
+$string['selectallornone'] = 'Vybrať všetko/nič';
 $string['showadvanced'] = 'Zobraziť rozširujúce nastavenia';
 $string['somefieldsrequired'] = 'Formulár obsahuje povinné polia';
 $string['timing'] = 'Vkladanie času';
+$string['unmaskpassword'] = 'Odmaskovať';
 $string['year'] = 'Rok';
 $string['minúte'] = 'Minúta'; // ORPHANED
 $string['requiredfield'] = 'Vyplnenie poľa je povinne vyžadované'; // ORPHANED

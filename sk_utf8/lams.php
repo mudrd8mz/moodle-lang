@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // lams.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['createSequence'] = 'Vytvoriť novú sekvenciu';
 $string['editSequence'] = 'Editovať vybranú sekvenciu';
@@ -20,6 +19,9 @@ $string['openmonitor'] = 'Otvoriť LAMS Monitor';
 $string['refreshSequenceList'] = 'Aktualizovať zoznam sekvencií';
 $string['selectExistingSequence'] = 'Vybrať existujúcu sekvenciu alebo vytvoriť novú sekvenciu';
 $string['sequence'] = 'Vybrať sekvenciu';
+$string['server_id'] = 'ID servera';
+$string['server_key'] = 'Kľúč servera';
+$string['server_url'] = 'URLservera';
 $string['serverid'] = 'Vložiť ID serveru získané od <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverkey'] = 'Vložiť tajný kľúč serveru získaný od <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverurl'] = 'Vložiť základné URL pre prístup na server LAMS. Napríklad http://localhost:8080/lams';
@@ -28,5 +30,4 @@ $string['visibletostudents'] = 'Zobraziť činnosť študentom';
 $string['wikistartederror'] = 'Wiki už má heslá – nie je možné ich meniť.';
 $string['workspace'] = 'Vybrať pracovnú plochu';
 $string['wrongversionrange'] = '$a nie je správny údaj!';
-
 ?>

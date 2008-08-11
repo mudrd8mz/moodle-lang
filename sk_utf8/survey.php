@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['actual'] = 'Aktuálny';
 $string['actualclass'] = 'Aktuálna trieda';
@@ -164,6 +163,8 @@ Vaše dobre zvážené odpovede nám pomôžu zlepšiť spôsob online prezentá
 Veľmi pekne ďakujeme.';
 $string['collespname'] = 'COLLES (Predstavy)';
 $string['customintro'] = 'Špeciálny úvod';
+$string['deleteallanswers'] = 'Vymazať všetky odpovede na prieskum';
+$string['deleteanalysis'] = 'Vymazať analýzu prieskumu';
 $string['done'] = 'Urobené';
 $string['download'] = 'Stiahnuť';
 $string['downloadexcel'] = 'Stiahnuť údaje ako Excelový tabuľkový súbor';
@@ -212,5 +213,4 @@ $string['surveytype'] = 'Typ prieskumu';
 $string['thanksforanswers'] = '$a, ďakujeme za vyplnenie tohto prieskumu.';
 $string['time'] = 'Čas';
 $string['viewsurveyresponses'] = 'Zobraziť $a vyplnených odpovedí';
-
 ?>

@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8.5+ (Build: 20080423) (2007021550)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addcomment'] = 'Pridať komentár';
 $string['addentry'] = 'Pridať novú položku';
@@ -66,6 +65,7 @@ $string['defaultsortorder'] = 'Štandardný spôsob triedenia';
 $string['definition'] = 'Definícia';
 $string['definitions'] = 'Definície';
 $string['deleteentry'] = 'Odstrániť položku';
+$string['deletenotenrolled'] = 'Vymazať položky vložené používateľmi, ktorí nie sú zapísaní do kurzu';
 $string['deletingcomment'] = 'Komentár sa odstraňuje';
 $string['deletingnoneemptycategory'] = 'Odstránením tejto kategórie neodstránite položky, ktoré obsahuje - tieto budú označené ako nezaradené.';
 $string['descending'] = '(zostupne)';
@@ -175,6 +175,8 @@ $string['ratingsuse'] = 'Použiť hodnotenia';
 $string['ratingtime'] = 'Obmedziť hodnotenia len na položky s dátumami v tomto rozsahu:';
 $string['rejectedentries'] = 'Zamietnuté položky';
 $string['rejectionrpt'] = 'Správa o zamietnutí';
+$string['resetglossaries'] = 'Vymazať položky z';
+$string['resetglossariesall'] = 'Vymazať položky zo všetkých slovníkov';
 $string['rsssubscriberss'] = 'Zobraziť RSS kanál pre \'$a\' pojmy';
 $string['searchindefinition'] = 'Plnotextové vyhľadávanie';
 $string['secondaryglossary'] = 'Vedľajší slovník';
@@ -197,5 +199,4 @@ $string['withauthor'] = 'Pojmy s autorom';
 $string['withoutauthor'] = 'Pojmy bez autora';
 $string['writtenby'] = 'autor';
 $string['youarenottheauthor'] = 'Prepáčte, ale tento komentár nemôžete upravovať, pretože nie ste jeho autorom.';
-
 ?>

@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['autocreate'] = 'Kurzy môžu byť vytvorené automaticky, ak existujú zápisy do kurzu, ktorý nie je v Moodle vytvorený.';
 $string['autocreation_settings'] = 'Nastavenie automatického vytvárania';
@@ -17,6 +16,7 @@ $string['dbtype'] = 'Typ databázového servera';
 $string['dbuser'] = 'Používateľské meno na prístup na server';
 $string['defaultcourseroleid'] = 'Rola, ktorá bude pridelená implicitne, ak nie je špecifikované inak.';
 $string['description'] = 'Môžete použiť externú databázu (resp. jej približnú) na kontrolu vašich zápisov. Predpokladom je, že Vaša externá databáza obsahuje položku s ID kurzu a položku s ID používateľa. Tieto sa budú porovnávať s tými položkami, ktoré si zvolíte v miestnom kurze a tabuľkách používateľa.';
+$string['disableunenrol'] = 'Ak je nastavené, používatelia zapísaní zásuvným modulom externej databázy nebudú odhlásení pomocou rovnakého modulu nezávisiac od obsahu databázy.';
 $string['enrol_database_autocreation_settings'] = 'Automatické vytvorenie nových kurzov';
 $string['enrolname'] = 'Externá databáza';
 $string['general_options'] = 'Hlavné nastavenia';
@@ -44,5 +44,4 @@ $string['teacher_table'] = 'Názov tabuľky, kde sú uložené zápisy učiteľo
 $string['template'] = 'Voliteľné: automaticky vytvorené kurzy môžu prevziať nastavenia z kurzu-šablóny. Zadajte skrátený názov kurzu-šablóny.';
 $string['type'] = 'Typ databázového serveru';
 $string['user'] = 'Používateľské meno pre vstup do serveru';
-
 ?>

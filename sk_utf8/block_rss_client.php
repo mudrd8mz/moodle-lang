@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addfeed'] = 'Pridať nové zdrojové URL:';
 $string['addheadlineblock'] = 'Pridať  RSS blok';
@@ -30,6 +29,7 @@ $string['feedupdated'] = 'Zdroj noviniek bol aktualizovaný';
 $string['findmorefeeds'] = 'Nájsť ďalšie RSS zdroje';
 $string['managefeeds'] = 'Spravovať všetky moje RSS zdroje';
 $string['nofeeds'] = 'Táto web stránka nemá definované žiadne RSS zdroje.';
+$string['numentries'] = 'Počet položiek na kanál';
 $string['pickfeed'] = 'Vybrať zdroj noviniek';
 $string['remotenewsfeed'] = 'Vzdialený RSS zdroj noviniek';
 $string['rss_client:createprivatefeeds'] = 'Vytvárať súkromné RSS zdroje';
@@ -40,9 +40,10 @@ $string['seeallfeeds'] = 'Zobraziť všetky zdroje';
 $string['sharedfeed'] = 'Zdieľaný zdroj';
 $string['shownumentrieslabel'] = 'Maximálny počet položiek na zobrazovanie v jednom bloku';
 $string['submitters'] = 'Kto bude oprávnený definovať nové RSS zdroje? Definované zdroje budú dostupné na ktorejkoľvek stránke v rámci www stránok Moodle.';
+$string['submitters2'] = 'Odoberatelia';
 $string['timeout'] = 'blockrsstimeout';
+$string['timeout2'] = 'Časový limit';
 $string['timeoutdesc'] = 'Čas v minútach, počas ktorého sa budú uchovávať RSS zdroje vo vyrovnávacej pamäti (cache).';
 $string['updatefeed'] = 'Aktualizovať URL zdroje noviniek';
 $string['validatefeed'] = 'Overiť validitu zdroja';
-
 ?>

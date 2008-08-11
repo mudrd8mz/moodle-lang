@@ -1,0 +1,54 @@
+<?PHP // $Id$
+      // Modified with langdiff.php
+
+$string['addedotag'] = '\"$a\" pridané ako oficiálny tag';
+$string['addotags'] = 'Pridať oficiálne tagy';
+$string['addtagtomyinterests'] = 'Pridať \"$a\" k mojim záujmom';
+$string['blocktagstitle'] = 'Tagy';
+$string['changename'] = 'Zmeniť meno tagu';
+$string['changetype'] = 'Zmeniť typ tagu';
+$string['count'] = 'Počet';
+$string['delete'] = 'Vymazať';
+$string['deleted'] = 'Vymazaný';
+$string['description'] = 'Opis';
+$string['edittag'] = 'Upraviť tag';
+$string['flag'] = 'Označiť';
+$string['flagasinappropriate'] = 'Označiť ako nevhodný';
+$string['helprelatedtags'] = 'Tagy oddelené čiarkou';
+$string['id'] = 'ID';
+$string['managetags'] = 'Spravovať tagy';
+$string['name'] = 'Názov tagu';
+$string['namesalreadybeeingused'] = 'Názvy tagov sú už používané';
+$string['newname'] = 'Nový názov tagu';
+$string['noresultsfor'] = 'Žiadne výsledky pre \"$a\"';
+$string['officialtag'] = 'Oficiálny tag';
+$string['otags'] = 'Oficiálne tagy';
+$string['owner'] = 'Vlastník';
+$string['ptags'] = 'Tagy definované používateľmi (oddelené čiarkou)';
+$string['relatedblogs'] = 'Nedávne položky blogov s týmto tagom';
+$string['relatedtags'] = 'Príbuzné tagy';
+$string['removetagfrommyinterests'] = 'Odstrániť \"$a\" z mojich záujmov';
+$string['reset'] = 'Resetovať';
+$string['resetflag'] = 'Resetovať flag';
+$string['responsiblewillbenotified'] = 'Zodpovedná osoba bude upozornená';
+$string['search'] = 'Vyhľadávanie';
+$string['searchresultsfor'] = 'Vyhľadať výsledky pre \"$a\"';
+$string['searchtags'] = 'Vyhľadať tagy';
+$string['seeallblogs'] = 'Vidieť blogy s týmto tagom';
+$string['select'] = 'Vybrať';
+$string['tag'] = 'Tag';
+$string['tagdescription'] = 'Opis tagu';
+$string['tags'] = 'Tagy';
+$string['tagsaredisabled'] = 'Tagy nie sú povolené';
+$string['tagtype'] = 'Typ tagu';
+$string['tagtype_default'] = 'Východzí';
+$string['tagtype_official'] = 'Oficiálny';
+$string['thingstaggedwith'] = 'Počet $a->count položiek s tagom \"$a->name\"';
+$string['thistaghasnodesc'] = 'Tento tag nemá opis.';
+$string['timemodified'] = 'Modifikovaný';
+$string['typechanged'] = 'Typ tagu bol zmenený';
+$string['updated'] = 'Aktualizované';
+$string['updatetag'] = 'Aktualizácia';
+$string['userstaggedwith'] = 'Používatelia s tagom \"$a\"';
+$string['withselectedtags'] = 'S vyznačenými tagmi...';
+?>

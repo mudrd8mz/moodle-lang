@@ -1,20 +1,23 @@
-<?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['advancedoptions'] = 'Pokročilé nastavenia';
+$string['allday'] = 'Celý deň';
 $string['calendar'] = 'Kalendár';
 $string['calendarheading'] = '$a Kalendár';
 $string['clickhide'] = 'Klikni pre skrytie';
 $string['clickshow'] = 'Klikni pre zobrazenie';
 $string['commontasks'] = 'Voľby';
 $string['confirmeventdelete'] = 'Naozaj chcete odstrániť túto udalosť?';
+$string['course'] = 'Kurz';
 $string['courseevent'] = 'Udalosť kurzu';
 $string['courseevents'] = 'Udalosti kurzu';
+$string['courses'] = 'Kurzy';
 $string['dayview'] = 'Zobraziť deň';
 $string['daywithnoevents'] = 'V tento deň nie sú žiadne udalosti';
 $string['default'] = 'Východiskový';
 $string['deleteevent'] = 'Odstrániť udalosť';
+$string['deleteevents'] = 'Vymazať udalosti';
 $string['detailedmonthview'] = 'Zobraziť mesiac detailne';
 $string['durationminutes'] = 'Dĺžka trvania v minútach';
 $string['durationnone'] = 'Nemá trvanie';
@@ -37,6 +40,7 @@ $string['eventnone'] = 'Žiadne udalosti';
 $string['eventrepeat'] = 'Opakovania';
 $string['eventsall'] = 'Všetky udalosti';
 $string['eventsfor'] = 'Udalosti pre $a';
+$string['eventskey'] = 'Kľúč udalostí';
 $string['eventsrelatedtocourses'] = 'Udalosti v kurzoch';
 $string['eventstarttime'] = 'Začína';
 $string['eventtime'] = 'Čas';
@@ -55,9 +59,11 @@ $string['for'] = 'pre';
 $string['fri'] = 'Pia';
 $string['friday'] = 'Piatok';
 $string['generateurlbutton'] = 'Získať URL kalendára';
+$string['global'] = 'Globálny';
 $string['globalevent'] = 'Globálna udalosť';
 $string['globalevents'] = 'Všeobecné udalosti';
 $string['gotocalendar'] = 'Choď do kalendára';
+$string['group'] = 'Skupina';
 $string['groupevent'] = 'Skupinová udalosť';
 $string['groupevents'] = 'Skupinové udalosti';
 $string['hidden'] = 'skrytý';
@@ -116,6 +122,7 @@ $string['typesite'] = 'Udalosť určená všetkým používateľom stránky';
 $string['typeuser'] = 'Udalosť používateľa';
 $string['upcomingevents'] = 'Nadchádzajúce udalosti';
 $string['urlforical'] = 'URL pre export vo formáte iCalendar a pre odoberanie udalostí z kalendára';
+$string['user'] = 'Používateľ';
 $string['userevent'] = 'Udalosť používateľa';
 $string['userevents'] = 'Udalosti používateľa';
 $string['wed'] = 'Str';
@@ -124,5 +131,4 @@ $string['weeknext'] = 'Ďalší týždeň';
 $string['weekthis'] = 'Tento týždeň';
 $string['yesterday'] = 'Včera';
 $string['youcandeleteallrepeats'] = 'Táto udalosť je súčasťou opakujúcej sa série udalostí. Môžete odstrániť len túto udalosť, alebo všetky (celkom $a) udalosti v tejto sérii naraz.';
-
 ?>

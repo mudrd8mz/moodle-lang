@@ -1,9 +1,9 @@
-<?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['abandoned'] = 'Zrušený';
 $string['addquizchain'] = 'Pridať sadu testov';
+$string['allattempts'] = 'všetky pokusy';
 $string['allmycourses'] = 'Všetky moje kurzy';
 $string['allusers'] = 'Všetci používatelia';
 $string['alwaysopen'] = 'Stále otvorené';
@@ -12,6 +12,7 @@ $string['attemptsbest'] = 'Najlepší pokus';
 $string['attemptsfirst'] = 'Prvý pokus';
 $string['attemptslast'] = 'Posledný pokus';
 $string['average'] = 'Priemer';
+$string['bestattempt'] = 'najlepší pokus';
 $string['checks'] = 'Kontroly';
 $string['clickreporting'] = 'Povoliť protokol o priebehu';
 $string['clues'] = 'Návody';
@@ -23,6 +24,8 @@ $string['copytoclipboard'] = 'Kopírovať do schránky';
 $string['correct'] = 'Správny';
 $string['deleteabandoned'] = 'Odstrániť nedokončené';
 $string['deleteabandonedcheck'] = 'Naozaj chcete odstrániť všetky $a nedokončené pokusy?';
+$string['deletedattempts'] = '$a pokusy boli vymazané';
+$string['deletedresponses'] = '$a odpovede boli vymazané';
 $string['displaycoursenext'] = 'Ďalej zobraziť stránku kurzov';
 $string['displayhotpotnext'] = 'Ďalej zobraziť stránku testu Hot Potatoes';
 $string['displayindexnext'] = 'Ďalej zobraziť HotPot index';
@@ -37,6 +40,7 @@ $string['error_nofeedbackurlwebpage'] = 'Prosím zadajte URL webovej stránky';
 $string['error_nofilename'] = 'Prosím zadajte názov súboru';
 $string['error_noquizzesfound'] = 'Nie je nájdený žiadny test Hot Potatoes';
 $string['error_notfileorfolder'] = '&quot;$a&quot; nie je súbor alebo adresár';
+$string['excelencodings'] = 'Kódovanie Excelu';
 $string['feedbackformmail'] = 'Formulár spätnej väzby';
 $string['feedbackmoodleforum'] = 'Moodle fórum';
 $string['feedbackmoodlemessaging'] = 'Moodle správy';
@@ -136,8 +140,10 @@ $string['reportwrong'] = 'Nesprávne';
 $string['reportwrongsymbol'] = 'X';
 $string['resultssaved'] = 'Výsledky testu boli uložené';
 $string['score'] = 'Skóre';
+$string['selectattempt'] = 'Prosím, vyberte si pokus';
 $string['showhtmlsource'] = 'Zobraziť HTML zdroj';
 $string['shownextquiz'] = 'Zobraziť nasledujúci test';
+$string['showtimes'] = 'Zobraziť časy spracovania';
 $string['showxmlsource'] = 'Zobraziť XML zdroj';
 $string['showxmltree'] = 'Zobraziť XML strom';
 $string['specifictime'] = 'Špecifický čas';
@@ -151,10 +157,4 @@ $string['timedout'] = 'Čas vypršal';
 $string['updatequizchain'] = 'Aktualizovať sadu testov';
 $string['weighting'] = 'Váženie';
 $string['wrong'] = 'Nesprávny';
-$string['allattempts'] = 'všetky pokusy'; // ORPHANED
-$string['bestattempt'] = 'najlepší pokus'; // ORPHANED
-$string['deletedattempts'] = '$a pokusy boli vymazané'; // ORPHANED
-$string['deletedresponses'] = '$a odpovede boli vymazané'; // ORPHANED
-$string['selectattempt'] = 'Prosím, vyberte si pokus'; // ORPHANED
-
 ?>

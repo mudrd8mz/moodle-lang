@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8.2+ (2007021520)
+      // enrol_authorize.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['adminacceptccs'] = 'Aké typy kreditných kariet prijaté?';
@@ -84,7 +84,8 @@ $string['ccvvhelp'] = 'Pozrite sa na zadnú stranu karty (posledné 3 čísla)';
 $string['choosemethod'] = 'Ak poznáte kód k zápisu do kurzu, zadajte ho;<br />  V opačnom prípade budete musieť za tento kurz zaplatiť.';
 $string['chooseone'] = 'Vypíšte jedno alebo obidve nasledujúce polia';
 $string['costdefaultdesc'] = '<strong> v nastaveniach kurzu vložte hodnotu -1</strong> pre použitie tejto pôvodnej ceny v poli pre cenu';
-$string['cutofftime'] = 'Čas spracovania transakcií. Kedy je posledná transakcia zobratá na uhradenie?';
+$string['cutofftime'] = 'Čas spracovania transakcií. Kedy je posledná transakcia zobraná na uhradenie?';
+$string['dataentered'] = 'Vložené údaje';
 $string['delete'] = 'Zrušiť';
 $string['description'] = 'Modul Authorize.net umožňuje nastaviť platenie za kurzy pomocou kreditnej karty. Pokiaľ je cena niektorého kurzu nulová, nebude od používateľov sa nebude vyžadovať platba za vstup pri zápise do kurzu. Cenu je možné nastaviť globálne pre všetky kurzy na stránkach a tiež pre každý kurz osobitne. Pokiaľ je nastavená cena za individuálny kurz, potom sa globálne nastavenie pre všetky kurzy neberie do úvahy.';
 $string['echeckabacode'] = 'Bankové číslo ABA';

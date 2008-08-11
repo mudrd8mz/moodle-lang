@@ -1,10 +1,10 @@
-<?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addnewentry'] = 'Pridať nový záznam';
 $string['addotags'] = 'Pridať oficiálne tagy';
 $string['addptags'] = 'Pridať používateľské tagy';
+$string['backupblogshelp'] = 'Blogy budú zahrnuté v automatizovaných zálohách portálu.';
 $string['blockmenutitle'] = 'Menu blogy';
 $string['blocktagstitle'] = 'Tagy blogov';
 $string['blocktitle'] = 'Názov bloku tagy blogov';
@@ -36,6 +36,7 @@ $string['numberofentries'] = 'Položky: $a';
 $string['numberoftags'] = 'Počet tagov na zobrazenie';
 $string['otags'] = 'Oficiálne tagy';
 $string['pagesize'] = 'Počet blogov na strane';
+$string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'Používatelia môžu vidieť iba vlastné blogy';
 $string['ptags'] = 'Používateľské tagy';
 $string['publishto'] = 'Publikovať k';
@@ -56,5 +57,4 @@ $string['viewcourseentries'] = 'Prezrieť položky kurzu';
 $string['viewmyentries'] = 'Prezrieť moje položky';
 $string['viewsiteentries'] = 'Prezrieť položky portálu';
 $string['worldblogs'] = 'Položky dostupné z celého sveta';
-
 ?>

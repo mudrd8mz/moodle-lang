@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8.6 (Build: 20080716) (2007021560)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['autoscroll'] = 'Automatický posun';
 $string['beep'] = 'prezvoniť';
@@ -38,6 +37,7 @@ $string['messagebeepsyou'] = '$a Vás práve prezváňa!';
 $string['messageenter'] = '$a práve vstúpil do tohto chatu';
 $string['messageexit'] = '$a sa práve odhlásil z chatu';
 $string['messages'] = 'Správy';
+$string['method'] = 'Chatovacia metóda';
 $string['methoddaemon'] = 'Chat démon ne serveri';
 $string['methodnormal'] = 'Normálna metóda';
 $string['modulename'] = 'Chat';
@@ -49,15 +49,24 @@ $string['nomessages'] = 'Zatiaľ žiadne správy';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Streamovanie';
 $string['noscheduledsession'] = 'Nie je plánované žiadne chatovanie';
+$string['oldping'] = 'Časový limit na odpojenie';
+$string['pastchats'] = 'Minulé chatovacie sedenia';
+$string['refreshroom'] = 'Aktualizovať miestnosť';
+$string['refreshuserlist'] = 'Aktualizovať zoznam účastníkov';
+$string['removemessages'] = 'Odstrániť všetky správy';
 $string['repeatdaily'] = 'V rovnaký čas každý deň';
 $string['repeatnone'] = 'Bez opakovania - zverejniť len stanovený čas';
 $string['repeattimes'] = 'Opakovať chatovanie';
 $string['repeatweekly'] = 'V rovnaký čas každý týždeň';
 $string['savemessages'] = 'Uložiť prebehnuté chatovanie';
 $string['seesession'] = 'Ukázať toto chatovanie';
+$string['serverhost'] = 'Meno servera';
+$string['serverip'] = 'IP adresa servera';
+$string['servermax'] = 'Maximálny počet účastníkov';
+$string['serverport'] = 'Port servera';
 $string['sessions'] = 'Chatovanie';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Každý si môže prezrieť prebehnuté chatovanie';
+$string['updatemethod'] = 'Metóda aktualizácie';
 $string['viewreport'] = 'Ukázať prebehnuté chatovanie';
-
 ?>

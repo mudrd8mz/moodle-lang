@@ -1,10 +1,12 @@
-<?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.2+ (2007021520)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addresource'] = 'Pridať zdroj';
 $string['affectedresources'] = 'Ovplyvnené zdroje';
+$string['allowlocalfiles'] = 'Povoliť lokálne súbory';
+$string['autofilerename'] = 'Aktualizovať odkaz pri premenovaní súboru';
 $string['back'] = 'Späť';
+$string['blockdeletingfile'] = 'Zakázať vymazanie odkazovaných súborov';
 $string['browserepository'] = 'Úložisko';
 $string['choose'] = 'Vybrať si';
 $string['chooseafile'] = 'Zmeniť alebo nahrať súbor';
@@ -45,7 +47,9 @@ $string['fetcherror'] = 'Bola zaznamenaná chyba pri pokuse zobraziť web strán
 $string['fetchservererror'] = 'Bola zaznamenaná chyba pri pokuse zobraziť web stránku zo vzdialeného serveru (pravdepodobne nejaká chyba v programe).';
 $string['filename'] = 'Názov súboru';
 $string['filtername'] = 'Automatické prepojenie názvov zdrojov';
+$string['forcedownload'] = 'Vynútiť stiahnutie';
 $string['frameifpossible'] = 'Pre zachovanie viditeľnosti navigácie web stránky, vložiť zdroj do rámu';
+$string['framesize'] = 'Veľkosť rámca';
 $string['fulltext'] = 'Plný text';
 $string['htmlfragment'] = 'HTML fragment';
 $string['imspackageloaded'] = 'Balík nahraný';
@@ -98,6 +102,7 @@ $string['previous'] = 'Predchádzajúci';
 $string['redeploy'] = 'Znova rozbaliť';
 $string['repository'] = 'IMS úložisko';
 $string['resource:view'] = 'Zobraziť zdroj';
+$string['resourcedefaulturl'] = 'Východzia URL';
 $string['resourcetype'] = 'Typ zdroja';
 $string['resourcetype1'] = 'Odkaz';
 $string['resourcetype2'] = 'Webová stránka';
@@ -120,11 +125,12 @@ $string['serverurl'] = 'Server URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Ukázať bloky kurzu';
 $string['skipsubmenus'] = 'Preskočiť stránky submenu';
 $string['tableofcontents'] = 'Obsah';
+$string['tableofcontentsabbrev'] = 'Obsah';
 $string['upbutton'] = 'Vyššie';
 $string['variablename'] = 'Meno premennej';
 $string['viewims'] = 'Prezrieť IMS balík';
 $string['vol'] = 'Zv.';
 $string['warningblockingdelete'] = 'Upozornenie: Operácia vymazania je blokovaná existujúcim zdrojom. Alebo aktualizujte zdroje alebo požiadajte administrátora na zablokovanie tohto bezpečnostného mechanizmu v celkovej konfigurácii zdrojov.';
 $string['warningdisabledrename'] = 'Upozornenie: Automatické premenovanie zdrojov je zakázané. Prosím aktualizujte ovplyvnené zdroje manuálne, ak treba. Administrátor tiež môže povoliť automatické premenovanie v celkovej konfigurácii zdrojov.';
-
+$string['websearchdefault'] = 'Východzie web vyhľadávanie';
 ?>

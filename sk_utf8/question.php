@@ -1,23 +1,89 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.8.2+ (2007021520)
+      // question.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['adminreport'] = 'Správa o možných problémoch v databáze Vašich otázok';
+$string['broken'] = 'Toto je \"mŕtvy odkaz\", ukazuje na neexistujúci súbor.';
+$string['byandon'] = 'používateľom <em>$a->user</em> dňa <em>$a->time</em>';
+$string['categorycurrent'] = 'Aktuálna kategória';
+$string['categorycurrentuse'] = 'Použiť túto kategóriu';
 $string['categorydoesnotexist'] = 'Táto kategória neexistuje';
+$string['categorymoveto'] = 'Uložiť v kategórii';
 $string['changepublishstatuscat'] = '<a href=\"$a->caturl\">Kategória \"$a->name\"</a> v kurze \"$a->coursename\" zmení svoj status zdieľania z <strong>$a->changefrom na $a->changeto</strong>.';
+$string['copy'] = 'Kopírovať z $a a zmeniť odkazy';
+$string['created'] = 'Vytvorené';
+$string['createdmodifiedheader'] = 'Vyrvorené / naposledy uložené';
 $string['cwrqpfs'] = 'Náhodné otázky z otázok v podkategóriách';
 $string['cwrqpfsinfo'] = '<p>Počas aktualizácie Moodle na verziu 1.9 budú rozdelené kategórie otázok v rámci rozdielnych kontextov. U niektorých kategórií sa zmení ich status zdieľania. To sa stane v zriedkavom prípade, že jedna alebo viacero \'náhodných\' otázok v teste je tvorená z podkategórií, v ktorých sú niektoré zdieľané a niektoré nezdieľané (ako je to v prípade Vášho portálu). </p>
 <p>Nasledovné kategórie otázok, z ktorých boli vybrané \'náhodné\' otázky, budú mať zmenený status zdieľania na rovnaký, ako má kategória s \'náhodnou\' otázkou pri aktualizácii na 1.9. Otázky, ktoré sa nachádzajú v týchto kategóriách, budú aj ďalej správne fungovať v existujúcich testoch, až kým ich z nich neodstránite.</p>';
 $string['cwrqpfsnoprob'] = 'Žiadne kategórie otázok neodpovedajú problému \'náhodné otázky z podkategórií\'.';
+$string['defaultfor'] = 'Východzí pre $a';
+$string['defaultinfofor'] = 'Východzia kategória pre otázky zdieľané v kontexte \'$a\'.';
+$string['deletecoursecategorywithquestions'] = 'V banke otázok sú otázky asociované s touto kategóriou. Ak budete pokračovať, budú vymazané. Ak potrebujete, najprv ich presuňte použitím rozhrania pre otázky.';
+$string['donothing'] = 'Nekopírujte alebo nepresúvajte súbory ani nemeňte odkazy.';
+$string['editingcategory'] = 'Úprava kategórie';
 $string['editingquestion'] = 'Úprava otázky';
+$string['erroraccessingcontext'] = 'Prístup k kontextu nie je povolený';
+$string['errordeletingquestionsfromcategory'] = 'Chyba pri vymazávaní otázok z kategórie $a.';
+$string['errorfilecannotbecopied'] = 'Chyba pri kopírovaní súboru $a.';
+$string['errorfilecannotbemoved'] = 'Chyba pri presúvaní súboru $a.';
+$string['errorfileschanged'] = 'Chyba: súbory odkazované z otázok boli zmenené potom, čo bol zobrazený tento formulár.';
+$string['errormanualgradeoutofrange'] = 'Bodová známka $a->grade neleží medzi 0 a $a->maxgrade u otázky \"$a->name\". Získané skóre ani komentár neboli uložené.';
+$string['errormovingquestions'] = 'Chyba pri presúvaní otázok s identifikátormi $a.';
+$string['errorprocessingresponses'] = 'Vyskytla sa chyba pri spracovaní Vašich odoziev.';
+$string['errorsavingcomment'] = 'Chyba pri ukladaní komentára u otázky $a->name do databázy.';
+$string['errorupdatingattempt'] = 'Chyba pri aktualizácii pokusu id $a->id v databáze.';
+$string['exportcategory'] = 'Exportovať kategóriu';
+$string['filesareacourse'] = 'miesto pre súbory kurzu';
+$string['filesareasite'] = 'miesto pre súbory portálu';
+$string['filestomove'] = 'Presunúť / kopírovať súbory do $a?';
 $string['fractionsnomax'] = 'Jedna alebo viac odpovedí má mať bodovanie 100%%, aby bolo možné dosiahnuť plné bodovanie za túto otázku!';
+$string['getcategoryfromfile'] = 'Získať kategóriu zo súboru';
+$string['getcontextfromfile'] = 'Získať kontext zo súboru';
+$string['ignorebroken'] = 'Ignorovať chybné odkazy';
+$string['invalidcontextinhasanyquestions'] = 'Nesprávny kontext zaslaný do question_context_has_any_questions.';
+$string['linkedfiledoesntexist'] = 'Odkazovaný súbor $a neexistuje';
+$string['makechildof'] = 'Vytvoriť potomka z \'$a\'';
+$string['maketoplevelitem'] = 'Presunúť do najvyššej úrovne';
 $string['missingimportantcode'] = 'Tomuto typu otázky chýba dôležitý kód: $a.';
+$string['modified'] = 'Naposledy uložené';
+$string['move'] = 'Presunúť z $a a zmeniť odkazy.';
+$string['movecategory'] = 'Presunúť kategóriu';
+$string['movedquestionsandcategories'] = 'Presunuté otázky a kategórie otázok z $a->oldplace do $a->newplace.';
+$string['movelinksonly'] = 'Zmeňte iba miesto, kam odkaz ukazuje, nepresúvajte ani nekopírujte súbory.';
+$string['moveq'] = 'Presunúť otázky';
+$string['moveqtoanothercontext'] = 'Presunúť otázku do iného kontextu.';
+$string['movingcategory'] = 'Presunutie kategórie';
+$string['movingcategoryandfiles'] = 'Naozaj chcete presunúť kategóriu {$a->name} a všetky podriadené kategórie do kontextu \"{$a->contextto}\"?<br /> Bolo zistených  {$a->urlcount} súborov odkazovaných z otázok v {$a->fromareaname}, chceli by ste ich skopírovať alebo presunúť do {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Naozaj chcete presunúť kategóriu \"{$a->name}\" a všetky podriadené kategórie do kontextu \"{$a->contextto}\"?';
+$string['movingquestions'] = 'Presúvanie otázok a súborov';
+$string['movingquestionsandfiles'] = 'Naozaj chcete presunúť otázky  {$a->questions} do kontextu <strong>\"{$a->tocontext}\"</strong>?<br /> Bolo zistených  <strong>{$a->urlcount} súborov</strong> odkazovaných z otázok v {$a->fromareaname}, chceli by ste ich skopírovať alebo presunúť do {$a->toareaname}?';
+$string['movingquestionsnofiles'] = 'Naozaj chcete presunúť otázky  {$a->questions} do kontextu <strong>\"{$a->tocontext}\"</strong>?<br /> Nie sú <strong>žiadne</strong> súbory odkazované z otázok v {$a->fromareaname}.';
+$string['needtochoosecat'] = 'Potrebujete vybrať kategóriu, do ktorej presuniete otázku. Alebo stlačte \'zrušiť\'.';
+$string['nopermissionadd'] = 'Nemáte oprávnenia pridávať otázky';
 $string['noprobs'] = 'Vo Vašej databáze otázok neboli zistené žiadne problémy.';
 $string['notenoughdatatoeditaquestion'] = 'Nebol špecifikovaný ani ID otázky, ani ID kategórie ani typ otázky.';
+$string['notenoughdatatomovequestions'] = 'Potrebujete zadať ID otázok, ktoré chcete presunúť.';
+$string['permissionedit'] = 'Upraviť túto otázku';
+$string['permissionmove'] = 'Presunúť túto otázku';
+$string['permissionsaveasnew'] = 'Uložiť ako novú otázku';
+$string['permissionto'] = 'Máte oprávnenie na:';
 $string['published'] = 'zdieľaná';
+$string['questionaffected'] = '<a href=\"$a->qurl\">Otázka \"$a->name\" ($a->qtype)</a> je zaradená v tejto kategórii otázok. Zároveň je tiež použitá v <a href=\"$a->qurl\"> teste \"$a->quizname\"</a> v kurze \"$a->coursename\".';
 $string['questionbank'] = 'Banka otázok';
+$string['questioncategory'] = 'Kategória otázok';
+$string['questioncatsfor'] = 'Kategórie otázok pre \'$a\'';
 $string['questiondoesnotexist'] = 'Táto otázka neexistuje';
+$string['questionsmovedto'] = 'Otázky, ktoré sú stále používané, boli presunuté do \"$a\" v nadradenej kategórii.';
+$string['questionsrescuedfrom'] = 'Otázky uložené z kontextu $a.';
+$string['questionsrescuedfrominfo'] = 'Tieto otázky (niektoré z nich môžu byť skryté) boli uložené, keď bol vymazaný kontext $a, pretože sú využívané v testoch alebo iných aktivitách.';
+$string['questionuse'] = 'Použiť otázku v tejto aktivite';
+$string['shareincontext'] = 'Zdieľať kontext pre $a';
+$string['tofilecategory'] = 'Zapísať kategóriu do súboru';
+$string['tofilecontext'] = 'Zapísať kontext do súboru';
+$string['unknown'] = 'Neznámy';
 $string['unknownquestiontype'] = 'Neznámy typ otázky: $a.';
 $string['unpublished'] = 'nezdieľaná';
+$string['yourfileshoulddownload'] = 'Váš vyexportovaný súbor sa začne čoskoro sťahovať. Ak nie, prosím <a href=\"$a\">kliknite sem</a>.';
 
 ?>

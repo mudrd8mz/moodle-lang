@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.8.5+ (Build: 20080430) (2007021550)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['activation'] = 'Aktivácia';
 $string['advanced'] = 'Parametre';
@@ -26,11 +25,13 @@ $string['contents'] = 'Obsah';
 $string['coursepacket'] = 'Balík kurzu';
 $string['coursestruct'] = 'Štruktúra kurzu';
 $string['datadir'] = 'Chyba v systéme súborov: Nedá sa vytvoriť adresár s údajmi kurzu';
+$string['deleteallattempts'] = 'Vymazať všetky SCORM pokusy';
 $string['details'] = 'Detaily prechodu';
 $string['directories'] = 'Ukazovať lištu s odkazmi';
 $string['display'] = 'Zobraziť';
 $string['domxml'] = 'Externá knižnica DOMXML';
 $string['element'] = 'Prvok';
+$string['enablebrowse'] = 'Zapnúť náhľad';
 $string['enter'] = 'Vstúpiť';
 $string['entercourse'] = 'Vstúpiť do kurzu';
 $string['errorlogs'] = 'Záznamy o chybách';
@@ -53,6 +54,7 @@ $string['gradehighest'] = 'Najvyšší počet bodov';
 $string['grademethod'] = 'Metóda bodovania';
 $string['gradescoes'] = 'Vzdelávacie objekty';
 $string['gradesum'] = 'Celkový počet bodov';
+$string['guestsno'] = 'Hosťovským používateľom nie je povolené zobrazenie SCORM kurzov';
 $string['height'] = 'Výška';
 $string['hidden'] = 'Skryť';
 $string['hidebrowse'] = 'Zakázať režim náhľadu';
@@ -151,10 +153,8 @@ $string['validationtype'] = 'Táto vlastnosť nastavuje knižnicu DOMXML, ktorá
 $string['value'] = 'Hodnota';
 $string['versionwarning'] = 'Verzia manifestu je staršia ako 1.3, upozornenie na tagu $a->tag';
 $string['viewallreports'] = 'Zobraziť správy pre $a pokusov';
+$string['viewalluserreports'] = 'Prezerať správy pre $a používateľov';
 $string['whatgrade'] = 'Známkovanie pokusov';
 $string['width'] = 'Šírka';
 $string['window'] = 'Okno';
-$string['enablebrowse'] = 'Zapnúť náhľad'; // ORPHANED
-$string['guestsno'] = 'Hosťovským používateľom nie je povolené zobrazenie SCORM kurzov'; // ORPHANED
-
 ?>
