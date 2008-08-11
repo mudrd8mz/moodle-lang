@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
 $string['addentry'] = 'Voeg een item toe';
 $string['addingcomment'] = 'Commentaar toevoegen';
+$string['alias'] = 'Alias';
 $string['aliases'] = 'Alias(sen)';
 $string['allcategories'] = 'Alle categorieën';
 $string['allentries'] = 'Alles';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -628,8 +628,6 @@ $string['recaptchapublickey'] = 'ReCAPTCHA publieke sleutel';
 $string['releasenoteslink'] = 'Bekijk de online <a target=\"_new\" href=\"$a\">Release Notes</a> voor informatie over deze versie van Moodle.';
 $string['remotelangnotavailable'] = 'Het is niet mogelijk om automatisch taalpakketten te installeren, omdat Moodle geen verbinding kan maken met Moodle.org. Download daarom de nodige zipbestanden uit onderstaande lijst, copieer ze naar je $a map en unzip ze daar.';
 $string['renameerrors'] = 'Fouten in hernoemen';
-$string['repsettings'] = 'Beheer bibliotheken';
-$string['repsettingsgeneral'] = 'Algemene bibliotheekinstellingen';
 $string['requiredtemplate'] = 'Vereist. Je kunt hier sjabloonsyntax gebruiken (%%l = achternaam, %%f = voornaam, %%u = gebruikersnaam). Bekijk het helpbestand voor details en voorbeelden.';
 $string['restrictbydefault'] = 'Modules beperken';
 $string['restrictmodulesfor'] = 'Beperk modules voor';
@@ -788,6 +786,9 @@ $string['webproxy'] = 'Web proxy';
 $string['webproxyinfo'] = 'Vul onderstaande opties in als je Moodle server niet rechtstreeks op internet kan. Internettoegang is nodig voor de download van geografische informatie, taalpakketten, RSS-feeds, tijdzones enz.<br /><em>Je kunt best de PHP cURL extentie installeren.</em>';
 $string['xmlrpcrecommended'] = 'Het installeren van de optionele XMLRPC-extentie is nuttig voor de werking van Moodle Netwerk';
 $string['xmlstrictheaders'] = 'XML strict headers';
+$string['ziprequired'] = 'De ZIP-PHP-extentie is nu vereist voor Moodle. Info-ZIP en PclZip worden niet meer gebruikt.';
+$string['repsettings'] = 'Beheer bibliotheken'; // ORPHANED
+$string['repsettingsgeneral'] = 'Algemene bibliotheekinstellingen'; // ORPHANED
 $string['addcounter'] = 'Teller toevoegen'; // ORPHANED
 $string['newusernamehandling'] = 'Afhandeling van dubbele nieuwe gebruikersnamen'; // ORPHANED
 $string['skipuser'] = 'Gebruikers overslaan'; // ORPHANED

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // error.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -220,6 +220,7 @@ $string['guestnoeditprofile'] = 'De gastgebruiker kan zijn profiel niet wijzigen
 $string['guestnoeditprofileother'] = 'Het profiel van de gastgebruiker kan niet gewijzigd worden';
 $string['guestnorate'] = 'Gasten mogen geen items beoordelen.';
 $string['hackdetected'] = 'Hackersaanval gedetecteerd!';
+$string['hashpoolproblem'] = 'Foute inhoud pool-bestand $a.';
 $string['headersent'] = 'Headers al verzonden';
 $string['invalidaccess'] = 'Deze pagina is niet correct opgevraagd';
 $string['invalidaccessparameter'] = 'Foute toegangsparameter';

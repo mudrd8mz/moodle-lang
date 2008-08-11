@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -24,6 +24,7 @@ $string['allunsubscribe'] = 'Ik wil van geen enkel forum mail';
 $string['anyfile'] = 'Een bestand';
 $string['attachment'] = 'Bijlage';
 $string['attachmentnopost'] = 'Je kunt bijlagen niet exporteren zonder post ID';
+$string['attachments'] = 'Bijlagen';
 $string['blockafter'] = 'Maximum berichten voor blokkeren';
 $string['blockperiod'] = 'Blokkeertijd';
 $string['blockperioddisabled'] = 'Niet blokkeren';
