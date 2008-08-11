@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // role.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -130,6 +130,7 @@ $string['risks'] = 'Risico\'s';
 $string['role:assign'] = 'Toewijzen van rollen aan gebruikers';
 $string['role:manage'] = 'Aanmaken en beheren van rollen';
 $string['role:override'] = 'Rechten voor anderen overschrijven';
+$string['role:safeoverride'] = 'Overschrijf veilige rechten voor anderen';
 $string['role:switchroles'] = 'Schakel over naar andere rollen';
 $string['role:unassignself'] = 'Eigen rol kunnen opzeggen';
 $string['role:viewhiddenassigns'] = 'Verborgen roltoewijzingen zien';
@@ -137,6 +138,7 @@ $string['roleassignments'] = 'Roltoewijzingen';
 $string['roles'] = 'Rollen';
 $string['roletoassign'] = 'Toe te wijzen rol';
 $string['roletooverride'] = 'Te overschrijven rol';
+$string['safeoverridenotice'] = 'Opmerking: mogelijkheden met hogere risico\'s zijn geblokkeerd omdat je alleen het recht hebt om veilige mogelijkheden te overschrijven';
 $string['selectrole'] = 'Kies een rol';
 $string['showallroles'] = 'Toon alle rollen';
 $string['site:accessallgroups'] = 'Toegang voor alle groepen';
@@ -166,6 +168,8 @@ $string['tag:manage'] = 'Alle tags bewerken';
 $string['user:changeownpassword'] = 'Eigen wachtwoord wijzigen';
 $string['user:create'] = 'Gebruikers aanmaken';
 $string['user:delete'] = 'Gebruikers verwijderen';
+$string['user:editmessageprofile'] = 'Bewerk berichtenprofiel';
+$string['user:editownmessageprofile'] = 'Bewerk jouw berichtenprofiel';
 $string['user:editownprofile'] = 'Eigen profiel wijzigen';
 $string['user:editprofile'] = 'Gebruikersprofielen bewerken';
 $string['user:loginas'] = 'Aanmelden als andere gebruikers';

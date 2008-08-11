@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['addresource'] = 'Bron toevoegen';
@@ -98,6 +98,7 @@ $string['parameter'] = 'Parameter';
 $string['parameters'] = 'Parameters';
 $string['popupresource'] = 'Deze bron zou in een popup-venster moeten verschijnen';
 $string['popupresourcelink'] = 'Als ze dat niet deed, klik hier: $a';
+$string['portfolionotimplemented'] = 'Je probeert inhoud te exporteren vanuit een brontype dat dit niet ondersteunt.';
 $string['preview'] = 'Voorbeeld';
 $string['previous'] = 'Vorige';
 $string['redeploy'] = 'Opnieuw publiceren';

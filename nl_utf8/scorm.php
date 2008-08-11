@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['activation'] = 'Activatie';
+$string['activityloading'] = 'Je zult automatisch doorverwezen worden naar de activiteit in';
 $string['advanced'] = 'Geavanceerd';
 $string['asset'] = 'Set';
 $string['assetlaunched'] = 'Set - bekeken';
