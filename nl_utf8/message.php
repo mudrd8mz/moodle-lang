@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // message.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
 
 
 $string['addcontact'] = 'Voeg contactpersoon toe';
@@ -14,6 +14,7 @@ $string['beepnewmessage'] = 'Geluidssignaal als er een nieuw bericht binnenkomt'
 $string['blockcontact'] = 'Blokkeer contactpersoon';
 $string['blockedmessages'] = '$a bericht(en) van/aan geblokkeerde gebruikers';
 $string['blocknoncontacts'] = 'Blokkeer alle nieuwe berichten van mensen die niet op mijn lijst met contactenpersonen staan.';
+$string['cannotsavemessageprefs'] = 'Kon gebruikersinstellingen voor berichten niet opslaan';
 $string['contactlistempty'] = 'Je lijst met contactpersonen is leeg';
 $string['contacts'] = 'Contactpersonen';
 $string['context'] = 'context';
