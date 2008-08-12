@@ -56,6 +56,9 @@ $string['csvwithselecteddelimiter'] = 'Texte <acronym title=\"Comma Separated Va
 $string['csvimport'] = 'Importation fichier CSV';
 $string['data:approve'] = 'Approuver des fiches';
 $string['data:comment'] = 'Écrire des commentaires';
+$string['data:exportentry'] = 'Exporter des fiches de base de données';
+$string['data:exportownentry'] = 'Exporter ses propres fiches de base de données';
+$string['data:exportallentries'] = 'Export toutes les fiches d\'une base de données';
 $string['data:managecomments'] = 'Gérer les commentaires';
 $string['data:manageentries'] = 'Gérer les fiches';
 $string['data:managetemplates'] = 'Gérer les modèles';
