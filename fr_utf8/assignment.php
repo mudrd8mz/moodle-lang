@@ -11,6 +11,7 @@ $string['attachfiletoassignment'] = 'Joindre un(des) fichier(s) au devoir'; // L
 $string['backtoassignment'] = 'Retour au devoir'; // Legacy, to delete in 1.7dev
 $string['backtofeedback'] = 'Retour au feedback'; // Legacy, to delete in 1.7dev
 $string['choosereviewfile'] = 'Choisir un fichier à déposer comme retour du devoir&nbsp;:'; // Legacy, to delete in 1.7dev
+$string['assignment:exportownsubmission'] = 'Exporter ses propres devoirs remis';
 $string['assignment:view'] = 'Afficher un devoir';
 $string['assignment:grade'] = 'Évaluer un devoir';
 $string['assignment:submit'] = 'Remettre un devoir';
