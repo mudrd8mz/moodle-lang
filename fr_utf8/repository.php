@@ -3,26 +3,30 @@
 // Quel terme pour repositories ? Dépôt
 
 $string['activaterep'] = 'Activer les dépôts';
+$string['add'] = 'Ajouter';
 $string['back'] = '&lt; Retour';
-$string['download'] = 'Télcharger';
 $string['close'] = 'Fermer';
+$string['download'] = 'Télcharger';
+$string['downloadsucc'] = 'Téléchargement réussi&nbsp;!';
 $string['filename'] = 'Nom de fichier';
 $string['filesaved'] = 'Fichier enregistré&nbsp;!';
-$string['invalidrepositoryid'] = 'Identifiant de dépôt non valide';
 $string['invalidplugin'] = 'Plugin de dépôt non valide';
-$string['manageuserrepository'] = 'Gérer le dépôt personnel';
-$string['plugin'] = 'Plugin dépôt';
-$string['settings'] = 'Réglages';
-$string['openpicker'] = 'Ouvrir le sélecteur de fichier';
+$string['invalidrepositoryid'] = 'Identifiant de dépôt non valide';
 $string['listview'] = 'Liste';
-$string['logout'] = 'Déconnexion';
 $string['loading'] = 'Chargement...';
-$string['thumbview'] = 'Vignettes';
+$string['logout'] = 'Déconnexion';
+$string['manageuserrepository'] = 'Gérer le dépôt personnel';
+$string['noenter'] = 'Pas de saisie';
+$string['openpicker'] = 'Ouvrir le sélecteur de fichier';
+$string['plugin'] = 'Plugin dépôt';
+$string['repositories'] = 'Dépôts';
+$string['repository'] = 'Dépôt';
 $string['search'] = 'Recherche ';
+$string['searching'] = 'Que cherchez-vous&nbsp;?';
+$string['settings'] = 'Réglages';
 $string['submit'] = 'Envoyer';
 $string['sync'] = 'Sync';
+$string['thumbview'] = 'Vignettes';
 $string['title'] = 'Sélecteur de fichier du dépôt';
-$string['repository'] = 'Dépôt';
-$string['repositories'] = 'Dépôts';
 
 ?>
