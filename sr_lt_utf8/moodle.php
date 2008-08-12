@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // moodle.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['abouttobeinstalled'] = 'će upravo biti instalirano';
@@ -969,9 +969,9 @@ $string['newaccount'] = 'Novi korisnički nalog';
 $string['newcourse'] = 'Novi kurs';
 $string['newpassword'] = 'Nova lozinka';
 $string['newpasswordfromlost'] = '<strong>OBAVEŠTENJE:</strong> Vaša <strong>Tekuća lozinka</strong> biće Vam poslata u <strong>drugoj</strong> od poruka poslatih tokom procesa oporavka izgubljene lozinke. Proverite da li ste primili zamenu lozinke pre nego što nastavite sa ovim ekranom.';
-$string['newpasswordtext'] = '$a->firstname,
+$string['newpasswordtext'] = 'Dobar dan $a->firstname,
 
-Vaša lozinka za korišćenje sistema \'$a->sitename\'  je resetovana i dodeljena Vam je nova privremena lozinka.
+Vaša lozinka za korišćenje sistema \'$a->sitename\' je resetovana i dodeljena Vam je nova privremena lozinka.
 
 Vaši trenutni podaci za pristup sistemu su:
    korisničko ime: $a->username
@@ -980,11 +980,7 @@ Vaši trenutni podaci za pristup sistemu su:
 Molimo posetite ovu stranicu kako biste promenili svoju lozinku:
    $a->link
 
-U većini programa za čitanje e-pošte, u redu iznad ovog biste trebali videti plavi link na koji možete kliknuti. U slučaju da to ne radi, 
-označite i kopirajte adresu u adresnu liniju Vašeg Web čitača (Firefox, Mozilla, Internet Explorer, Opera).
-
-U slučaju da Vam treba tehnička pomoć, molimo kontaktirajte administratora sistema,
-$a->admin
+U većini programa za čitanje e-pošte, u redu iznad ovog biste trebali videti plavi link na koji možete kliknuti. Ukoliko to nije slučaj, označite i kopirajte gornju adresu u adresnu liniju Vašeg Web čitača (Firefox, Mozilla, Internet Explorer, Opera).
 
 Pozdrav,
 \'$a->sitename\' administrator,
@@ -1542,11 +1538,7 @@ $string['version'] = 'Verzija';
 $string['view'] = 'Prikaz';
 $string['views'] = 'Prikazi';
 $string['viewsolution'] = 'vidi rešenje';
-$string['virusfound'] = 'Upozorenje za administratora! Clam AV je našao virus u datoteci koju je korisnik $a->user postavio za kurs $a->course. Ovde je rezultat Clam skeniranja:
-
-$a->action
-
-Korisnik koji je učitao datoteku je takođe obavešten o tome šta se dogodilo.';
+$string['virusfound'] = 'Upozorenje za administratora! Clam AV je našao virus u datoteci koju je korisnik $a->user postavio u okviru kursa $a->course. Evo rezultata Clam skeniranja:';
 $string['virusfoundlater'] = 'U datoteci koja je postavljena dana $a->date pod imenom $a->filename za kurs $a->course je u međuvremenu pronađen virus. Ovde je sažeti izveštaj o tome šta se tokom vremena dešavalo sa datotekom:
 
 $a->action

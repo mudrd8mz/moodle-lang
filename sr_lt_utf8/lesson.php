@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // lesson.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['accesscontrol'] = 'Kontrola pristupa';
@@ -315,7 +315,7 @@ $string['timeremaining'] = 'Preostalo vreme';
 $string['timespenterror'] = 'Provedite bar $a minuta pregledajući sadržaj lekcije';
 $string['timespentminutes'] = 'Potrošeno vreme (u minutima)';
 $string['timetaken'] = 'Potrošeno vreme';
-$string['topscorestitle'] = '$a->maxhighscores najboljih rezultata';
+$string['topscorestitle'] = '$a najboljih rezultata';
 $string['unseenpageinbranch'] = 'Još neprikazano pitanje unutar grane';
 $string['unsupportedqtype'] = 'Sistem ne podržava pitanja tipa kog je $a!';
 $string['updatedpage'] = 'Stranica je ažurirana';

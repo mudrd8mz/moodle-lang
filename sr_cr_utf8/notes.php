@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // notes.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['addnewnote'] = 'Додај белешку';
 $string['addnewnoteselect'] = 'Избор корисникâ о којима се пишу белешке';
-$string['bynameondate'] = 'аутор $a->име - $a->датум';
+$string['bynameondate'] = 'аутор: $a->name - $a->date';
 $string['cannotdeletepost'] = 'Дошло је до грешке при брисању поруке';
 $string['content'] = 'Садржај';
 $string['course'] = 'курс';
