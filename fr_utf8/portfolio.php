@@ -44,7 +44,6 @@ $string['nonprimative'] = 'Une valeur incorrecte a été passée comme paramètr
 $string['notexportable'] = 'Désolé, le type de contenu que vous essayez d\'exporter n\'est pas exportable';
 $string['nouploaddirectory'] = 'Impossible de créer un dossier temporaire dans lequel préparer vos données';
 $string['portfolio'] = 'Portfolio';
-$string['portfolionotfile'] = 'Exporter vers un portfolio plutôt que vers un fichier';
 $string['portfolios'] = 'Portfolios';
 $string['plugin'] = 'Plugin de portfolio';
 $string['plugincouldnotpackage'] = 'Échec de la préparation de vos données pour exportation';

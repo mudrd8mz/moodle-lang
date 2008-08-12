@@ -216,6 +216,7 @@ $string['pagesize'] = 'Fiches par page';
 $string['participants'] = 'Participants';
 $string['picture'] = 'Image';
 $string['pleaseaddsome'] = 'Veuillez en créer maintenant ou <a href=\"$a\">choisir un préréglage disponible</a>.';
+$string['portfolionotfile'] = 'Exporter vers un portfolio plutôt que vers un fichier (CSV seulement)';
 $string['presetinfo'] = 'L\'enregistrement en tant que préréglage publiera ce modèle. D\'autres utilisateurs pourront l\'utiliser dans leurs bases de données.';
 $string['presets'] = 'Préréglages';
 $string['presetwarning'] = 'L\'enregistrement en tant que préréglage publie ce modèle sur tout le site. Tous les utilisateurs pourront l\'utiliser dans leurs bases de données.'; // Legacy, to delete for 1.7
