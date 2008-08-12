@@ -6,6 +6,7 @@ $string['modulenameplural'] = 'SCORMs/AICCs';
 #------------------------------------------------------------
 
 $string['activation'] = 'Activation';
+$string['activityloading'] = 'Vous allez être dirigé automatiquement vers l\'activité dans';  // used in conjunction with numseconds
 $string['advanced'] = 'Paramètres';
 $string['asset'] = 'Élément';
 $string['assetlaunched'] = 'Élément - affiché';
