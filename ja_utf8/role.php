@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080724) (2008072402)
+      // role.php - created with Moodle 2.0 dev (Build: 20080812) (2008081200)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -108,6 +108,7 @@ $string['overrideroles'] = 'ロールのオーバーライド';
 $string['overriderolesin'] = '$a ロールのオーバーライド';
 $string['overrides'] = 'オーバーライド';
 $string['permissions'] = 'パーミッション';
+$string['portfolio:export'] = 'ポートフォリオにエクスポートする';
 $string['potentialusers'] = '潜在的なユーザ: $a';
 $string['prevent'] = '抑制';
 $string['prohibit'] = '禁止';

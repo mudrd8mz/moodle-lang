@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080812) (2008081200)
 
 
 $string['addnewportfolio'] = '新しいポートフォリオを追加する';
 $string['addtoportfolio'] = 'ポートフォリオに追加する';
-$string['alreadyexporting'] = 'このセッションでは、すでにアクティブなポートフォリオエクスポートがあります。このエクスポートを最初に完了してください。';
+$string['alreadyexporting'] = 'このセッションでは、すでにアクティブなポートフォリオエクスポートがあります。このエクスポートを最初に完了するか、<a href=\"$a\">ここをクリックして</a>キャンセルしてください。';
 $string['availableformats'] = '利用可能なエクスポートフォーマット';
 $string['callercouldnotpackage'] = 'あなたのエクスポートするデータをパックアップできませんでした。';
 $string['cannotsetvisible'] = 'このインスタンスを表示できません - 設定が正しくないため、プラグインが完全に無効にされています。';
@@ -25,6 +25,8 @@ $string['exportedpreviously'] = '前のエクスポート';
 $string['exporting'] = 'ポートフォリオへのエクスポート';
 $string['exportqueued'] = '転送のため、ポートフォリオエクスポートは正常にキューに入れられました。';
 $string['failedtosendpackage'] = 'あなたのデータを選択されたポートフォリオシステムに送信できませんでした!';
+$string['filedenied'] = 'このファイルへのアクセスが拒否されました。';
+$string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['format_file'] = 'ファイル';
 $string['format_mbkp'] = 'Moodleバックアップ';
 $string['hidden'] = '非表示';
@@ -35,7 +37,7 @@ $string['instancenotsaved'] = 'ポートフォリオの保存に失敗しまし�
 $string['instancesaved'] = 'ポートフォリオが正常に保存されました。';
 $string['invalidformat'] = '無効なフォーマットでエクスポートされています: $a';
 $string['invalidinstance'] = 'ポートフォリオインスタンスが見つかりませんでした。';
-$string['invalidtempid'] = '無効な一時IDです。';
+$string['invalidtempid'] = '無効なエクスポートIDです。おそらく有効期限が切れています。';
 $string['manageportfolios'] = 'ポートフォリオの管理';
 $string['manageyourportfolios'] = 'あなたのポートフォリオの管理';
 $string['noavailableplugins'] = '申し訳ございません、あなたがエクスポートできるポートフォリオはありません。';
