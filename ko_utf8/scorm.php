@@ -1,12 +1,13 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080810) (2008080701)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080812) (2008080701)
 
 
 $string['activation'] = '활성화';
 $string['activityloading'] = '자동으로 다음 활동으로 이동할 것임';
+$string['activitypleasewait'] = '활동 탑재 중입니다. 잠시만 ...';
 $string['advanced'] = '고급설정';
-$string['asset'] = '자산';
-$string['assetlaunched'] = '자산 - 보았음';
+$string['asset'] = '에셋';
+$string['assetlaunched'] = '에셋 - 보았음';
 $string['attempt'] = '시도';
 $string['attempt1'] = '첫 시도';
 $string['attempts'] = '시도들';

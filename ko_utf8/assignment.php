@@ -1,12 +1,13 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080812) (2008080701)
 
 
 $string['allowdeleting'] = '삭제 허용';
 $string['allowmaxfiles'] = '올릴 파일의 최대 수';
 $string['allownotes'] = '주석 허용';
-$string['allowresubmit'] = '재제출 허가';
-$string['alreadygraded'] = '과제가 이미 제출되어 채점되었기 때문에 재제출이 허용되지 않습니다.';
+$string['allowresubmit'] = '재제출 허용';
+$string['alreadygraded'] = '과제가 이미 채점되었고 재제출은 허용되지 않습니다.';
+$string['assignment:exportownsubmission'] = '제출사항 내보내기';
 $string['assignment:grade'] = '과제 점수';
 $string['assignment:submit'] = '과제 제출';
 $string['assignment:view'] = '과제 보기';
@@ -14,20 +15,20 @@ $string['assignmentdetails'] = '과제 세부사항';
 $string['assignmentmail'] = '$a->teacher 선생님이 제출된 \'$a->assignment\' 과제에 대한 의견을 달아놓으셨습니다.<br />
 이것은 다음에서 볼 수 있습니다: $a->url';
 $string['assignmentmailhtml'] = '$a->teacher 선생님이 제출된 \'<i>$a->assignment</i>\' 과제에 대한 의견을 달아놓으셨습니다. <br /><br />
-<a href=\"$a->url\">제출된 과제</a>에 꼬리말이 붙어있을 것입니다.';
+<a href=\"$a->url\">과제 제출</a>에서 추가된 내용을 볼 수 있을 것입니다.';
 $string['assignmentname'] = '과제명';
 $string['assignmenttype'] = '과제 형태';
 $string['availabledate'] = '시작 일시';
 $string['cannotdeletefiles'] = '오류가 발생하여 삭제할 수 없음';
-$string['cannotinsertempty'] = '비어있는 제출물은 추가할 수 없음';
+$string['cannotinsertempty'] = '내용없는 제출물은 추가할 수 없음';
 $string['cannotviewassignment'] = '이 과제는 볼 수 없음';
 $string['comment'] = '평';
 $string['commentinline'] = '즉석 평';
-$string['configitemstocount'] = '온라인 과제를 제출한 학생들의 계수 항목 특성';
+$string['configitemstocount'] = '온라인 과제에서 학생 제출물에 대한 주요 항목 특성';
 $string['configmaxbytes'] = '이 사이트에 있는 모든 과제의 기본 최대 크기';
 $string['configshowrecentsubmissions'] = '모든 사람이 최근 활동의 제출물 공지사항을 볼 수 있습니다.';
 $string['confirmdeletefile'] = '다음 파일을 삭제하는 것이 확실합니까?<br /><strong>$a</strong>';
-$string['coursemisconf'] = '강좌가 잘못 설정되었음';
+$string['coursemisconf'] = '강좌가 잘 못 설정되었음';
 $string['deleteallsubmissions'] = '모든 제출물 삭제';
 $string['deletefilefailed'] = '파일 삭제 실패';
 $string['description'] = '설명';
@@ -37,14 +38,14 @@ $string['duedateno'] = '무기한';
 $string['early'] = '$a 일찍 제출함';
 $string['editmysubmission'] = '제출물 편집';
 $string['emailstudents'] = '학생에게 이메일로 알림';
-$string['emailteachermail'] = '$a->username 은 \'$a->assignment\'에 대한 과제 제출을 갱신했습니다. 이것은 $a->url 에서 볼 수 있습니다.';
-$string['emailteachermailhtml'] = '$a->username 은 <i>\'$a->assignment\'</i>에 대한 과제 제출을 갱신했습니다.<br /><br />
-그것은 <a href=\"$a->url\">이 곳</a>에서 볼 수 있습니다.';
+$string['emailteachermail'] = '$a->username 의 \'$a->assignment\'에 대한 제출내용이 갱신되었습니다. 이 사항은 $a->url 에서 볼 수 있습니다.';
+$string['emailteachermailhtml'] = '$a->username 의 <i>\'$a->assignment\'</i>에 대한 제출내용이 갱신되었습니다.<br /><br />
+이 사항은 <a href=\"$a->url\">이 곳</a>에서 볼 수 있습니다.';
 $string['emailteachers'] = '담당자에게 통지';
-$string['emptysubmission'] = '아무것도 제출하지 않았습니다.';
+$string['emptysubmission'] = '아직 아무것도 제출하지 않음';
 $string['enableemailnotification'] = '통지메일 발송';
-$string['existingfiledeleted'] = '기존의 파일 $a 가 지워졌습니다.';
-$string['failedupdatefeedback'] = '$a 이 제출한 과제에 대한 평을 갱신하는데 실패함';
+$string['existingfiledeleted'] = '기존 파일 $a 가 지워졌습니다.';
+$string['failedupdatefeedback'] = '$a 의 과제에 대한 평을 갱신하는데 실패함';
 $string['feedback'] = '과제평';
 $string['feedbackfromteacher'] = '$a 의 의견';
 $string['feedbackupdated'] = '$a 명의 과제에 대한 의견을 갱신함';
@@ -115,10 +116,10 @@ $string['unfinalizeerror'] = '오류가 발생하여 제출을 초기 상태로 
 $string['uploadbadname'] = '파일이름에 알 수 없는 문자가 포함되있어서 올릴 수 없음';
 $string['uploadedfiles'] = '올려진 파일들';
 $string['uploaderror'] = '서버에 파일을 저장하던 중 오류 발생';
-$string['uploadfailnoupdate'] = '파일이 성공적으로 전송되었지만 제출 상황을 갱신할 수는 없음';
+$string['uploadfailnoupdate'] = '파일이 성공적으로 전송되었지만, 제출 상황을 갱신할 수는 없음!';
 $string['uploadfiletoobig'] = '파일용량이 너무 큽니다.(최대 $a 바이트까지)';
-$string['uploadnofilefound'] = '파일을 찾을 수 없음 - 업로드할 파일을 선택하셨습니까?';
-$string['uploadnotregistered'] = '\'$a\'는 전송되었지만, 제출된 과제는 등록되지 않았습니다!';
+$string['uploadnofilefound'] = '파일을 찾을 수 없음 - 업로드할 파일을 제대로 선택하셨습니까?';
+$string['uploadnotregistered'] = '\'$a\'가 성공적으로 전송되었지만, 제출 사항이 제대로 등록되지 않았습니다!';
 $string['uploadsuccess'] = '\'$a\' 올리기 성공';
 $string['usermisconf'] = '사용자가 잘못 설정됨';
 $string['viewfeedback'] = '과제 점수와 피드백 보기';

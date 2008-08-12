@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080812) (2008080701)
 
 
 $string['addresource'] = '자료 추가';
@@ -103,6 +103,7 @@ $string['preview'] = '미리보기';
 $string['previous'] = '이전';
 $string['redeploy'] = '다시 배포';
 $string['repository'] = 'IMS 저장소';
+$string['resource:exportresource'] = '학습자원 내보내기';
 $string['resource:view'] = '학습자원 보기';
 $string['resourcedefaulturl'] = '기본 URL';
 $string['resourcetype'] = '자료의 유형';
