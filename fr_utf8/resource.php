@@ -101,6 +101,7 @@ $string['preview'] = 'Prévisualisation';
 $string['previous'] = 'Précédent';
 $string['redeploy'] = 'Déployer à nouveau';
 $string['repository'] = 'Répertoire IMS';
+$string['resource:exportresource'] = 'Exporter des ressources';
 $string['resource:view'] = 'Voir les ressources';
 $string['resourcedefaulturl'] = 'URL par défaut';
 $string['resourcetype'] = 'Type de ressource';
