@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080807) (2008080701)
+      // error.php - created with Moodle 2.0 dev (Build: 20080812) (2008081200)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -259,7 +259,7 @@ $string['invalidmodule'] = '無効なモジュールです。';
 $string['invalidmoduleid'] = '無効なモジュールID ($a) です。';
 $string['invalidmodulename'] = '無効なモジュール名 ($a) です。';
 $string['invalidnum'] = '無効な数値です。';
-$string['invalidnumkey'] = '$conditions配列には、数字キーを含むことができません、コードを修正してください!';
+$string['invalidnumkey'] = '$conditions 配列には、数字キーを含むことができません、コードを修正してください!';
 $string['invalidoutcome'] = '無効なアウトカムIDです。';
 $string['invalidpagesize'] = '無効なページサイズです。';
 $string['invalidpaymentmethod'] = '無効な支払方法: $a';

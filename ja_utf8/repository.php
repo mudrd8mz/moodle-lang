@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080807) (2008080701)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080812) (2008081200)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
 $string['add'] = '追加';
 $string['back'] = '&lt; 戻る';
 $string['close'] = '閉じる';
+$string['configsaved'] = '設定が保存されました!';
+$string['confirmdelete'] = '本当にこのリポジトリ「 $a 」を削除してもよろしいですか?';
+$string['createrepository'] = 'リポジトリを作成する';
+$string['deleterepository'] = 'このリポジトリを削除する';
 $string['download'] = 'ダウンロード';
 $string['downloadsucc'] = '正常にダウンロードされました!';
 $string['filename'] = 'ファイル名';
@@ -15,6 +19,7 @@ $string['invalidrepositoryid'] = 'リポジトリIDが正しくありません�
 $string['listview'] = 'リストビュー';
 $string['loading'] = 'ローディング ...';
 $string['logout'] = 'ログアウト';
+$string['manage'] = '個人リポジトリの管理';
 $string['manageuserrepository'] = 'リポジトリの管理';
 $string['noenter'] = '何も入力されていません。';
 $string['openpicker'] = 'ファイルピッカーを開く';
