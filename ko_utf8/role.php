@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
+      // role.php - created with Moodle 2.0 dev (Build: 20080813) (2008081200)
 
 
 $string['addrole'] = '역할 추가';
@@ -108,6 +108,7 @@ $string['overrideroles'] = '역할 위임';
 $string['overriderolesin'] = '$a 에서 역할 위임';
 $string['overrides'] = '위임 현황';
 $string['permissions'] = '승인사항';
+$string['portfolio:export'] = '포트폴리오로 내보내기';
 $string['potentialusers'] = '$a 잠재적 사용자';
 $string['prevent'] = '제한';
 $string['prohibit'] = '금지';

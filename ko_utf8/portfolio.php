@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080807) (2008080600)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080813) (2008081200)
 
 
 $string['addnewportfolio'] = '포트폴리오 작성';
@@ -25,6 +25,8 @@ $string['exportedpreviously'] = '이전에 내보낸 포트폴리오';
 $string['exporting'] = '포트폴리오 내보내기';
 $string['exportqueued'] = '포트폴리오 내보내기 준비작업 성공';
 $string['failedtosendpackage'] = '지정된 포트폴리오 시스템에 자료 전송 실패!';
+$string['filedenied'] = '접속이 허용되지 않음';
+$string['filenotfound'] = '파일 없음';
 $string['format_file'] = '파일';
 $string['format_mbkp'] = '무들 백업';
 $string['hidden'] = '비공개';
@@ -48,7 +50,6 @@ $string['nouploaddirectory'] = '자료를 묶을 임시 저장고를 생생할 �
 $string['plugin'] = '포트폴리오 플러그인';
 $string['plugincouldnotpackage'] = '내보낼 자료를 묶는 데 실패';
 $string['portfolio'] = '포트폴리오';
-$string['portfolionotfile'] = '파일대신 포트폴리오로 내보냄';
 $string['portfolios'] = '포트폴리오';
 $string['returntowhereyouwere'] = '원래 위치로 돌아감';
 $string['save'] = '저장';
@@ -61,5 +62,6 @@ $string['sure'] = '\'$a\'를 삭제하겠습니까? 이는 되돌이킬 수 없�
 $string['wait'] = '대기';
 $string['wanttowait_high'] = '완료되기까지 대기하는 것을 권장하지는 않습니다만, 확실하게 그 결과를 알고 싶다면 대기하실 수 있습니다.';
 $string['wanttowait_moderate'] = '전송을 위해 대기하길 원하십니까? 수분 정도 걸립니다.';
+$string['portfolionotfile'] = '파일대신 포트폴리오로 내보냄'; // ORPHANED
 
 ?>
