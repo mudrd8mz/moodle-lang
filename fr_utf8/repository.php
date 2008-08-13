@@ -1,32 +1,33 @@
 <?php // $Id$
 
-// Quel terme pour repositories ? Dépôt
+// Terme actuellement choisi pour "repositories" : dépôt
+// Autres possibilités à envisager : entrepôt, stockage, zone de dépôt, ...
 
-$string['activaterep'] = 'Activer les dépôts';
+$string['activaterep'] = 'Activer les dépôts de documents';
 $string['add'] = 'Ajouter';
 $string['back'] = '&lt; Retour';
+$string['close'] = 'Fermer';
 $string['download'] = 'Télcharger';
 $string['downloadsucc'] = 'Téléchargement réussi&nbsp;!';
-$string['close'] = 'Fermer';
 $string['filename'] = 'Nom de fichier';
 $string['filesaved'] = 'Fichier enregistré&nbsp;!';
-$string['invalidrepositoryid'] = 'Identifiant de dépôt non valide';
 $string['invalidplugin'] = 'Plugin de dépôt non valide';
+$string['invalidrepositoryid'] = 'Identifiant de dépôt non valide';
+$string['listview'] = 'Liste';
+$string['loading'] = 'Chargement...';
+$string['logout'] = 'Déconnexion';
 $string['manageuserrepository'] = 'Gérer le dépôt personnel';
 $string['noenter'] = 'Pas de saisie';
-$string['plugin'] = 'Plugin dépôt';
-$string['settings'] = 'Réglages';
 $string['openpicker'] = 'Ouvrir le sélecteur de fichier';
-$string['listview'] = 'Liste';
-$string['logout'] = 'Déconnexion';
-$string['loading'] = 'Chargement...';
-$string['thumbview'] = 'Vignettes';
+$string['plugin'] = 'Plugin dépôt';
+$string['repositories'] = 'Dépôts';
+$string['repository'] = 'Dépôt';
 $string['search'] = 'Recherche ';
 $string['searching'] = 'Que cherchez-vous&nbsp;?';
+$string['settings'] = 'Réglages';
 $string['submit'] = 'Envoyer';
 $string['sync'] = 'Sync';
+$string['thumbview'] = 'Vignettes';
 $string['title'] = 'Sélecteur de fichier du dépôt';
-$string['repository'] = 'Dépôt';
-$string['repositories'] = 'Dépôts';
 
 ?>
