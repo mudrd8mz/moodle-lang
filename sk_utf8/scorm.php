@@ -1,7 +1,9 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // scorm.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
+
 
 $string['activation'] = 'Aktivácia';
+$string['activityloading'] = 'Budete automaticky presmerovaní do aktivity za';
 $string['advanced'] = 'Parametre';
 $string['asset'] = 'Objekt';
 $string['assetlaunched'] = 'Objekt - Prezrené';
@@ -31,7 +33,6 @@ $string['directories'] = 'Ukazovať lištu s odkazmi';
 $string['display'] = 'Zobraziť';
 $string['domxml'] = 'Externá knižnica DOMXML';
 $string['element'] = 'Prvok';
-$string['enablebrowse'] = 'Zapnúť náhľad';
 $string['enter'] = 'Vstúpiť';
 $string['entercourse'] = 'Vstúpiť do kurzu';
 $string['errorlogs'] = 'Záznamy o chybách';
@@ -54,7 +55,6 @@ $string['gradehighest'] = 'Najvyšší počet bodov';
 $string['grademethod'] = 'Metóda bodovania';
 $string['gradescoes'] = 'Vzdelávacie objekty';
 $string['gradesum'] = 'Celkový počet bodov';
-$string['guestsno'] = 'Hosťovským používateľom nie je povolené zobrazenie SCORM kurzov';
 $string['height'] = 'Výška';
 $string['hidden'] = 'Skryť';
 $string['hidebrowse'] = 'Zakázať režim náhľadu';
@@ -157,4 +157,7 @@ $string['viewalluserreports'] = 'Prezerať správy pre $a používateľov';
 $string['whatgrade'] = 'Známkovanie pokusov';
 $string['width'] = 'Šírka';
 $string['window'] = 'Okno';
+$string['enablebrowse'] = 'Zapnúť náhľad'; // ORPHANED
+$string['guestsno'] = 'Hosťovským používateľom nie je povolené zobrazenie SCORM kurzov'; // ORPHANED
+
 ?>
