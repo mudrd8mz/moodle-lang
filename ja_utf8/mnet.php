@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20080415) (2008030700)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20080812) (2008081200)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -138,7 +138,7 @@ $string['publickey'] = '公開鍵';
 $string['publickey_help'] = '公開鍵は、リモートサーバより自動的に取得されます。';
 $string['publish'] = '公開';
 $string['reallydeleteserver'] = '本当にサーバを削除してもよろしいですか?';
-$string['receivedwarnings'] = '次のエラーが発生しました。';
+$string['receivedwarnings'] = '次のエラーが発生しました';
 $string['recordnoexists'] = 'レコードが存在しません。';
 $string['reenableserver'] = 'No - このサーバを再度有効にするため、このオプションを選択します。';
 $string['registerallhosts'] = 'すべてのホストを登録する (ハブモード)';
