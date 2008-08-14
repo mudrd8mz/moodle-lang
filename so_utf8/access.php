@@ -22,7 +22,7 @@ $string['skipblock'] = 'Ka bood bilook';
 $string['skipnavigation'] = 'Ku bood gooshitaanka';
 $string['tabledata'] = 'shaxda data-da , $a';
 $string['tablelayout'] = 'Hab-u-yaalka shaxda , $a';
-$string['tocontent'] = 'Ku bood tusmada horranta';
+$string['tocontent'] = 'Ku bood tusmada horraanta';
 $string['tonavigation'] = 'Aad gooshitaanka';
 $string['youarehere'] = 'Halkan ayaad joogtaa';
 
