@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080621) (2008051203)
+      // data.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
 
 
-$string['action'] = '행동';
-$string['add'] = '자료 추가';
-$string['addafield'] = '항목 추가';
+$string['action'] = '실행';
+$string['add'] = '내용 추가';
+$string['addafield'] = '필드 추가';
 $string['addcomment'] = '덧글 추가';
-$string['addentries'] = '자료 추가';
+$string['addentries'] = '내용 추가';
 $string['addtemplate'] = '템플릿 추가';
 $string['advancedsearch'] = '상세 검색';
 $string['allowcomments'] = '덧글을 허용할까요?';
@@ -47,29 +47,32 @@ $string['commentempty'] = '덧글 없음';
 $string['comments'] = '덧글';
 $string['commentsaved'] = '덧글 저장됨';
 $string['commentsn'] = '$a 덧글';
-$string['configenablerssfeeds'] = '이 스위치는 모든 데이터베이스의 RSS Feed를 사용가능하게 합니다. 각각의 데이터베이스에 대하여 수동으로 송출기능을 켤 수도 있습니다.';
+$string['configenablerssfeeds'] = '이 스위치는 모든 데이터베이스의 RSS 송출을 가능하게 합니다. 수동으로 각각의 데이터베이스에 대하여 송출기능을 켤 수도 있습니다.';
 $string['confirmdeletefield'] = '파일을 삭제하려고 합니다. 확실합니까?';
 $string['confirmdeleterecord'] = '이 게시물을 삭제하려고 하는 것이 확실합니까?';
 $string['csstemplate'] = 'CSS 템플릿';
 $string['csvfile'] = 'CSV 파일';
 $string['csvimport'] = 'CSV 파일 가져오기';
-$string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym>선택된 구분자로 분리된 문서:';
+$string['csvwithselecteddelimiter'] = '선택된 구분자로 분리된 <acronym title=\"Comma Separated Values\">CSV</acronym>문서:';
 $string['data:approve'] = '미승인된 자료 승인';
 $string['data:comment'] = '덧글 쓰기';
+$string['data:exportallentries'] = '모든 데이터베이스 내용 내보내기';
+$string['data:exportentry'] = '데이터베이스 내용 내보내기';
+$string['data:exportownentry'] = '내 데이터베이스 내용 내보내기';
 $string['data:managecomments'] = '덧글 관리';
 $string['data:manageentries'] = '입력내용 관리';
 $string['data:managetemplates'] = '템플릿 관리';
 $string['data:manageuserpresets'] = '템플릿 초기설정 관리';
 $string['data:rate'] = '입력내용 평가';
-$string['data:readentry'] = '입력내용 보기';
+$string['data:readentry'] = '입력내용 읽기';
 $string['data:viewalluserpresets'] = '모든 사람의 기본 설정을 봄';
-$string['data:viewentry'] = '입력사항 보기';
+$string['data:viewentry'] = '입력내용 보기';
 $string['data:viewrating'] = '등급 보기';
 $string['data:writeentry'] = '내용 쓰기';
 $string['date'] = '일자';
 $string['dateentered'] = '입력일자';
-$string['defaultfielddelimiter'] = ',';
-$string['defaultfieldenclosure'] = 'none';
+$string['defaultfielddelimiter'] = '(기본은 쉼표)';
+$string['defaultfieldenclosure'] = '(기본은 none)';
 $string['defaultsortfield'] = '기본 정렬 항목';
 $string['delete'] = '삭제';
 $string['deleteallentries'] = '모든 항목 삭제';
@@ -212,6 +215,7 @@ $string['pagesize'] = '한 화면당 게시물 수';
 $string['participants'] = '참가자';
 $string['picture'] = '그림';
 $string['pleaseaddsome'] = '시작하려면 아래에 새로운 설정을 하던지 아니면 미리 <a href=\"$a\">설정한 기본값</a>에서 선택하십시오.';
+$string['portfolionotfile'] = '파일 대신 포트폴리오로 내보내기(csv 만)';
 $string['presetinfo'] = '초기설정으로 저장한 내용이 템플릿으로 공개될 것입니다. 다른 사용자들은 이 설정을 자신의 데이터베이스에서 사용할 수 있습니다.';
 $string['presets'] = '초기설정들';
 $string['radiobutton'] = '라디오버튼';

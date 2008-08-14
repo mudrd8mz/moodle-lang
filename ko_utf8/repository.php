@@ -1,11 +1,15 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080812) (2008080701)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
 $string['add'] = '추가';
 $string['back'] = '&lt; 뒤로';
 $string['close'] = '닫기';
+$string['configsaved'] = '설정 저장됨!';
+$string['confirmdelete'] = '정말 $a 저장소를 삭제하렵니까?';
+$string['createrepository'] = '저장소 만들기';
+$string['deleterepository'] = '저장소 삭제';
 $string['download'] = '내려받기';
 $string['downloadsucc'] = '내려받기 성공!';
 $string['filename'] = '파일명';
@@ -15,6 +19,7 @@ $string['invalidrepositoryid'] = '잘못된 저장소 ID';
 $string['listview'] = '목록 보기';
 $string['loading'] = '불러오는 중...';
 $string['logout'] = '나가기';
+$string['manage'] = '저장소 관리';
 $string['manageuserrepository'] = '개별 저장소 관리';
 $string['noenter'] = '입력내용 없음';
 $string['openpicker'] = '파일 열기 프로그램';
