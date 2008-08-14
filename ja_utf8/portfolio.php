@@ -46,6 +46,7 @@ $string['nocommonformats'] = 'ポートフォリオプラグインおよびロ�
 $string['nonprimative'] = 'portfolio_add_buttonのコールバック変数として、初期値なしの状態で通過しました。処理を停止しました。キーは $a->key 、値は $a->value です。';
 $string['nopermissions'] = '申し訳ございません、このエリアからファイルをエクスポートするため必要なパーミッションが、あなたにはありません。';
 $string['notexportable'] = '申し訳ございません、あなたがエクスポートを試みているコンテンツタイプは、エクスポートできません。';
+$string['notimplemented'] = '申し訳ございません、あなたはまだ実装されていないフォーマット ($a) でコンテンツのエクスポートを試みています。';
 $string['nouploaddirectory'] = 'あなたのデータをまとめるため一時ディレクトリを作成できませんでした。';
 $string['plugin'] = 'ポートフォリオプラグイン';
 $string['plugincouldnotpackage'] = 'あなたのエクスポートするデータをパックアップできませんでした。';
