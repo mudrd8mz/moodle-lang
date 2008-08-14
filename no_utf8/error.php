@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
-
-
+      // error.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
 $string['cannotassignrole'] = 'Kan ikke tildele rolle i kurset';
 $string['cannotcreatelangdir'] = 'Kan ikke opprette mappen \'lang\'.';
@@ -84,6 +82,7 @@ $string['nologinas'] = 'Du har ikke rettighet til å logge inn som den brukeren.
 $string['nonmeaningfulcontent'] = 'Ikke meningfullt innhold';
 $string['noparticipatorycms'] = 'Beklager, men ingen moduler i kurs du deltar i krever rapport fra deg.';
 $string['nopermissions'] = 'Beklager, men du har ikke rettighet til å gjøre dette ($a)';
+$string['nostatstodisplay'] = 'Beklager, ingen tilgjengelige data å vise.';
 $string['notavailable'] = 'Det er ikke tilgjengelig enda';
 $string['onlyadmins'] = 'Kun administratorer kan gjøre det.';
 $string['onlyeditingteachers'] = 'Bare lærere med administratorrettigheter kan gjøre det.';
@@ -130,5 +129,4 @@ $string['usernotupdatednotexists'] = 'Brukeren ble ikke oppdatert - eksisterer i
 $string['wrongdestpath'] = 'Gal resultatmappe';
 $string['wrongsourcebase'] = 'Galt ZIP-filnavn.';
 $string['wrongzipfilename'] = 'Galt ZIP-filnavn.';
-
 ?>
