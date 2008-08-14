@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 (2007101509)
+      // chat.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
 
 
+$string['autoscroll'] = 'Scroll automatisk';
 $string['beep'] = 'tuut';
 $string['chat:chat'] = 'Snakk i chat';
 $string['chat:deletelog'] = 'Slett chat-loggene';

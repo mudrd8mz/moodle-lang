@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+      // auth.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -44,6 +44,7 @@ $string['auth_changepasswordhelp'] = 'Hjelp for passordendring';
 $string['auth_changepasswordhelp_expl'] = 'Vis mistet passordhjelp til brukere som har mistet sitt $a passord. Dette vil bli enten i tillegg eller i stedet for <strong>Endre Passord URL</strong> og Intern Moodle passordendring.';
 $string['auth_changepasswordurl'] = 'URL for å endre passord';
 $string['auth_changepasswordurl_expl'] = 'Angi url hvor en skal sende brukere som har mistet $a passordet sitt. Angi <strong>Bruk standard passordendringsside</strong> til <strong>Nei</strong>.';
+$string['auth_changingemailaddress'] = 'Du har bedt om å endre e-postadressen, fra $a->oldemail to $a->newemail. Av sikkerhetsgrunner sender vi deg en e-post til den nye adressen for å bekrefte at denne tilhører deg. E-postadressen din vil bli oppdatert straks du klikker på URL-en i den tilsendte meldingen.';
 $string['auth_common_settings'] = 'Vanlige instillinger';
 $string['auth_data_mapping'] = 'Datamapping';
 $string['auth_dbcantconnect'] = 'Kunne ikke kontakte den oppgitte autentiseringsdatabasen';
@@ -89,13 +90,21 @@ $string['auth_dbuser_key'] = 'DB Bruker';
 $string['auth_dbusernotexist'] = 'Kan ikke oppdatere ikke-eksisterende bruker: $a';
 $string['auth_dbuserstoadd'] = 'Brukere å legge til: $a';
 $string['auth_dbuserstoremove'] = 'Brukere å fjerne: $a';
+$string['auth_emailchangecancel'] = 'Avbryt e-postendringen';
+$string['auth_emailchangepending'] = 'Venter på endringsbekreftelse. Vennligst klikk på lenken som ble sendt til deg på $a->preference_newemail.';
 $string['auth_emaildescription'] = 'E-postbekreftelse er standard autentiseringsmetode. Når brukerne registrerer seg og velger brukernavn og passord, vil en e-post om bekreftelse bli sendt til brukerens e-postadresse. Denne e-posten inneholder en sikker link til en side der brukeren kan bekrefte registreringen. Fremtidige innlogginger kontrolleres kun ved sammenligning av brukernavn og tilhørende passord som ligger i Moodle-databasen.';
 $string['auth_emailnoemail'] = 'Prøvde å sende deg en epost men fikk ikke til!';
 $string['auth_emailnoinsert'] = 'Kunne ikke legge til posten din i databasen!';
+$string['auth_emailnowexists'] = 'E-postadressen du forsøkte å skrive inn tilhører en annen bruker. Endringen av e-postadresse er derfor avbrutt, men du kan prøve igjen med en annen e-postadresse.';
 $string['auth_emailrecaptcha'] = 'Legger til en visuell/hørbar bekreftelseselement på siden for egenregistrering ved epost. Denne beskytter siden din mot spammere og bidragsytere for veldedige saker. Se http://recaptcha.net/learnmore.html for flere detaljer';
 $string['auth_emailrecaptcha_key'] = 'Slå på reCAPTCHA element';
 $string['auth_emailsettings'] = 'Innstillinger';
 $string['auth_emailtitle'] = 'E-postbasert autentisering';
+$string['auth_emailupdate'] = 'E-postadresse oppdatering';
+$string['auth_emailupdatemessage'] = 'Kjære $a->fullname,
+Du har bedt om at e-postadressen for brukerkontoen din på $a->site. Vennligst åpne følgende URL i nettleseren din for å bekrefte denne endringen.';
+$string['auth_emailupdatesuccess'] = 'E-postadressen til brukeren <em>$a->fullname</em> er bekreftet endret til <em>$a->email</em>.';
+$string['auth_emailupdatetitle'] = 'Bekreftelse av e-postoppdatering på  $a->site';
 $string['auth_fcchangepasswordurl'] = 'URL for passordendring';
 $string['auth_fcconnfail'] = 'Tilkobling feilet med Feilnr: $a[0] og Feilstreng: $a[1]';
 $string['auth_fccreators'] = 'Liste over grupper hvis medlemmer kan opprette nye kurs. Skille flere grupper med \';\'. Navn må staves nøyaktig slik det er stavet på FirstClass-tjeneren. Systemet skiller mellom store og små bokstaver.';
@@ -124,6 +133,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'Bruk en IMAP-server';
 $string['auth_imaptype'] = 'Typen IMAP-server. IMAP-servere kan ha forskjellige typer autentisering og kompatibilitet.';
 $string['auth_imaptype_key'] = 'Type';
+$string['auth_invalidnewemailkey'] = 'FEIL: Dersom du prøver å bekrefte endring av en e-postadresse, kan du ha fått feil i adressen du kopierte inn i nettleseren din. Vennligst kopier tilsendt URL på nytt og prøv igjen.';
 $string['auth_ldap_ad_create_req'] = 'Kan ikke lage ny konto i Active Directory. Pass på at du har fått med alle ting nødvendig for att dette skal virke (LDAPS forbindelse, bind bruker med nødvendige rettigheter osv.)';
 $string['auth_ldap_attrcreators'] = 'Liste med grupper eller kontekster hvor medlemmene kan lage egenskaper. Separer flere grupper med \';\'. Vanligvis noe i likhet med \'cn=lærere,ou=stab,o=minorg\'';
 $string['auth_ldap_attrcreators_key'] = 'Egenskap oppretter';
@@ -220,6 +230,7 @@ $string['auth_ntlmsso_enabled'] = 'Sett til ja for å forsøke Single Sign On p�
 $string['auth_ntlmsso_enabled_key'] = 'Slå på';
 $string['auth_ntlmsso_subnet'] = 'Hvis påslått, vil en bare forsøke SSO med klienter i dette subnettet. Format xxx.xxx.xxx.xxx/bitmaske';
 $string['auth_ntlmsso_subnet_key'] = 'Subnet';
+$string['auth_outofnewemailupdateattempts'] = 'Du har nå forsøkt endre e-postadressen for mange ganger. Oppdateringen er derfor avbrutt.';
 $string['auth_pamdescription'] = 'Denne metoden bruker PAM for å få tilgang til brukernavn på serveren. Du må installere <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a> for å bruke denne modulen.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'Passordet ditt er utløpt. Vil du endre passord nå?';

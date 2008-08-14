@@ -1,16 +1,17 @@
 <?PHP // $Id$ 
-      // gradeimport_xml.php - created with Moodle 1.9 (2007101509)
+      // gradeimport_xml.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
 
 
-$string['errbadxmlformat'] = 'Feil - dårlig XML kode';
-$string['errduplicategradeidnumber'] = 'Feil - det er to karakterenheter med idnummer \'$a\' i dette kurset. Det skal være umulig.';
-$string['errduplicateidnumber'] = 'Feil - duplikat idnummer';
-$string['errincorrectgradeidnumber'] = 'Feil - idnummer \'$a\' fra importfilen passer ikke noen karakterenheter.';
-$string['errincorrectidnumber'] = 'Feil - feil idnummer';
-$string['errincorrectuseridnumber'] = 'Feil - idnummer \'$a\' fra importfilen matcher ingen bruker.';
-$string['fileurl'] = 'URL til importfil';
-$string['modulename'] = 'XML-fil';
-$string['xml:publish'] = 'Publiser importkarakterer fra XML';
+$string['errbadxmlformat'] = 'FEIL - ødelagt XML-format';
+$string['errduplicategradeidnumber'] = 'FEIL - det er to karakterelementer med idnummeret \'$a\' i dette kurset. Dette skulle ikke vært mulig.';
+$string['errduplicateidnumber'] = 'FEIL - duplikat idnummer';
+$string['errincorrectgradeidnumber'] = 'FEIL - idnummeret \'$a\' fra importfilen matcher ingen karakterelementer.';
+$string['errincorrectidnumber'] = 'FEIL - feil idnummer';
+$string['errincorrectuseridnumber'] = 'FEIL - idnummeret \'$a\' fra importfilen passer ikke til noen brukere.';
+$string['fileurl'] = 'URL til opplastingsfil';
+$string['modulename'] = 'Oversiktsrapport';
+$string['xml:publish'] = 'Publiser importerte karakterer fra XML';
 $string['xml:view'] = 'Importer karakterer fra XML';
+$string['overview:view'] = 'Se oversiktsrapporten'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+      // forum.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
 
 
 $string['addanewdiscussion'] = 'Skriv i dette forumet';
@@ -276,6 +276,10 @@ $string['unreadposts'] = 'Uleste innlegg';
 $string['unreadpostsnumber'] = '$a uleste innlegg';
 $string['unreadpostsone'] = '1 ulest innlegg';
 $string['unsubscribe'] = 'Si opp abonnementet på dette forumet';
+$string['unsubscribeall'] = 'Si opp abonnementet på alle forum';
+$string['unsubscribeallconfirm'] = 'Du er abonnent på $a forum. Ønsker du virkelig å si opp abonnementet på alle forum og koble fra automatisk abonnement?';
+$string['unsubscribealldone'] = 'Alle forum abonnementer er nå sagt opp. Du kan fortsatt motta meldinger fra forum med tvungne abonnement. Dersom du ikke vil ha noe e-post fra denne serveren, ber vi deg åpne profilen din og koble fra e-postadressen der.';
+$string['unsubscribeallempty'] = 'Beklager, du er ikke abonnent på noen forum. Dersom du ikke ønsker å motta noe e-post fra denne serveren, ber vi deg åpne profilen din og koble fra e-postadressen der.';
 $string['unsubscribed'] = 'Ikke abonnent';
 $string['unsubscribeshort'] = 'Si opp abonnement';
 $string['usermarksread'] = 'Manuell merking av \"Lest\"';
