@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
-
-
+      // grades.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
 $string['activities'] = 'Aktiviteter';
 $string['addcategory'] = 'Legg til kategori';
 $string['addcategoryerror'] = 'Kunne ikke legge til kategorien.';
@@ -504,6 +502,7 @@ $string['usergrade'] = 'Bruker $a->fullname ($a->useridnumber) om emnet $a->grad
 $string['userkeyhelp'] = 'Velg et lagret passord som gir brukeren tilgang til data publisert av eksport-tillegget, uten å logge på Moodle. Velg \'lag en ny brukernøkkel\' for å generere en ny nøkkel når du sender inn dette skjemaet.';
 $string['userpreferences'] = 'Brukerinnstillinger';
 $string['useweighted'] = 'Bruk vektet';
+$string['verbosescales'] = 'Utvidede skalaer';
 $string['viewbygroup'] = 'Gruppe';
 $string['viewgrades'] = 'Se karakterer';
 $string['weight'] = 'vekting';
@@ -517,5 +516,4 @@ $string['xml'] = 'XML';
 $string['yes'] = 'Ja';
 $string['yourgrade'] = 'Din karakter';
 $string['errornocategorizedid'] = 'Could not get an uncategorized id!'; // ORPHANED
-
 ?>

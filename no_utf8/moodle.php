@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
-
-
+      // moodle.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
 $string['abouttobeinstalled'] = 'vil bli installert';
 $string['action'] = 'Handling';
 $string['actions'] = 'Handlinger';
@@ -452,15 +450,10 @@ $string['emailagain'] = 'E-post (igjen)';
 $string['emailcharset'] = 'Karaktersett i e-post';
 $string['emailconfirm'] = 'Godkjenn kontoen din';
 $string['emailconfirmation'] = 'Hei $a->firstname,
-
 En forespørsel om at det opprettes en brukerkonto på \'$a->sitename\' er mottatt fra din epostadresse.
-
 Gå til denne nettadressen for å bekrefte kontoen:
-
   $a->link
-
 I de fleste e-postlesere vil denne vises som en blå lenke som du kan klikke på. Hvis dette ikke virker, kan du kopiere adressen og lime den inn i adressefeiltet på nettleseren din.
-
 Hvis du trenger hjelp, ta kontakt med nettstedets administrator, $a->admin';
 $string['emailconfirmationsubject'] = '$a: kontobekreftelse';
 $string['emailconfirmsent'] = '<p>En e-post skal nå væresendt til deg på adressen <b>$a</b></p>
@@ -485,40 +478,25 @@ $string['emailnotallowed'] = 'E-postadresser fra disse domenene er ikke tillatt:
 $string['emailnotfound'] = 'Fant ikke e-postadressen i databasen';
 $string['emailonlyallowed'] = 'Denne e-postadressen har en adresse som ikke er tillatt.';
 $string['emailpasswordchangeinfo'] = 'Hei $a->firstname,
-
 Noen (antakelig deg) har bedt om nytt passord for din brukerkonto på \'$a->sitename\'.
-
 For å endre passordet ditt ber vi deg går til følgende adresse:
-
 $a->link
-
 I de fleste e-post programmer burde lenken over fremkomme som en internett-lenke du kan klikke på. Hvis dette ikke ser ut til å virke kan du kopiere lenken til adressefeltet i nettleseren din og klikke \"Gå til\".
-
 Trenger du mer hjelp kan du kontakte $a->admin';
 $string['emailpasswordchangeinfodisabled'] = 'Hei $a->firstname,
-
 Noen (antakeligvis deg) har bedt om et nytt passord for kontoen din på \'$a->sitename\'.
-
 Kontoen din er sperret og kan passord kan ikke settes på nytt, vennligst ta kontakt med administrator,
 $a->admin';
 $string['emailpasswordchangeinfofail'] = 'Hei $a->firstname,
-
 Noen (antakelig deg) har bedt om nytt passord for din brukerkonto på \'$a->sitename\'.
-
 Muligheten for å endre passord er slått av på denne siten, siden dette styres av andre systemer.
-
 Trenger du mer hjelp kan du kontakte $a->admin';
 $string['emailpasswordchangeinfosubject'] = 'Informasjon for passordbytte';
 $string['emailpasswordconfirmation'] = 'Hei $a->firstname,
-
 Noen (sannsynligvis deg) har bedt om et nytt passord for kontoen din på \'$a->sitename\'.
-
 For å bekrefte dette og få et nytt passord sendt til din e-post, må du gå til følgende adresse: 
-
 $a->link
-
 I de fleste e-postlesere vil denne vises som en blå lenke som du kan klikke på. Hvis dette ikke virker kan du kopiere adressen og lime den inn i nettleseren din. 
-
 Hvis du trenger hjelp, kan du ta kontakt med administrator
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: bytt passord - bekreftelse';
@@ -527,7 +505,6 @@ $string['emailpasswordconfirmmaybesent'] = '<p>Hvis du la inn korrekt brukernavn
 Hvis du fortsatt har problemer, være vennlig ta kontakt med administrator.</p>';
 $string['emailpasswordconfirmsent'] = 'En e-post skal være sendt til din adresse <b>$a</b>.
 <br />Den inneholder enkle instruksjoner for åbekrefte og fullføre endringen av passord. 
-
 Hvis du fortsatt har problemer, kan du ta kontakt med administrator';
 $string['emailpasswordsent'] = '<p>Takk for bekreftelse av passordbytte.</p>
 <p>En e-post med ditt nye passord er sendt til din adresse <br /><b>$a->email</b>.<br />
@@ -578,20 +555,14 @@ $string['existingstudents'] = 'Innmeldte studenter';
 $string['existingteachers'] = 'Eksisterende lærere';
 $string['expirynotify'] = 'Melding om at innmeldingen går ut på dato';
 $string['expirynotifyemail'] = 'Følgende studenter i dette kurset blir kastet ut etter nøyaktig $a->threshold dager:
-
 $a->current
-
 Følgende studenter på dette kuret blir kastet ut innen $a->threshold dager:
-
 $a->past
-
 Du kan gå til følgende side for å forlenge innmeldingsperioden:
 $a->extendurl';
 $string['expirynotifystudents'] = 'gi melding til studentene';
 $string['expirynotifystudentsemail'] = 'Kjære $a->studentstr
-
 Dette er en melding om at din innmeldingsperiode i kurs $a->course vil opphøre om $a->threshold dager.
-
 Vær vennlig å kontakte din lærer $a->teacherstr for nærmere forespørsel.';
 $string['expirythreshold'] = 'Grense';
 $string['explanation'] = 'Forklaring';
@@ -606,7 +577,7 @@ $string['files'] = 'Filer';
 $string['filesfolders'] = 'Filer/mapper';
 $string['filloutallfields'] = 'Vennligst fyll ut alle feltene i skjemaet';
 $string['findmorecourses'] = 'Finn flere kurs ...';
-$string['firstdayofweek'] = '0';
+$string['firstdayofweek'] = 'o';
 $string['firstname'] = 'Fornavn';
 $string['firsttime'] = 'Er det første gang du er her?';
 $string['folder'] = 'Mappe';
@@ -667,12 +638,9 @@ $string['gettheselogs'] = 'Hent disse loggene';
 $string['go'] = 'Kjør';
 $string['gotoyourserver'] = '(Lenker tilbake til serveren din)';
 $string['gpl'] = 'Copyright (C) 1999-2004  Martin Dougiamas  (http://dougiamas.com)
-
 Dette programmet er gratis programvare; du kan videreformidle det og/eller forandre det i henhold til betingelsene til \"GNU General Public License\" som publisert av \"Free Software Foundation\"; enten versjon 2 av lisensen eller (etter ditt valg) en senere versjon.
-
 Dette programmet distribueres med håp om at det blir nyttig, men UTEN NOEN GARANTIER; også uten \"the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE\". Se \"GNU General Public License\" for flere detaljer:
-
 http://www.gnu.org/copyleft/gpl.html';
 $string['grade'] = 'Karakter';
 $string['grades'] = 'Karakterer';
@@ -963,19 +931,14 @@ $string['newcourse'] = 'Nytt kurs';
 $string['newpassword'] = 'Nytt passord';
 $string['newpasswordfromlost'] = '<strong>NB:</strong> Ditt <strong>nåværende passord</strong> har blitt sendt til deg i den<strong>andre</strong> av de to meldinger sennt til deg i forbindelse med prosessen for å gjenopprette passordet. Pass på at du har mottatt erstatningspassordet før du fortsetter med dette skjermbildet.';
 $string['newpasswordtext'] = 'Hei $a->firstname,
-
 Ditt passord på \'$a->sitename\' er slettet
 og du har fått et midlertidig passord.
-
 Din innloggingsinformasjon er nå:
    brukernavn: $a->username
       passord: $a->newpassword
-
 Gå til denne siden for å endre passordet ditt:
    $a->link
-
 Hvis du ikke du kan klikke på lenken, klipp og lim den inn i nettleseren.
-
 Med vennlig hilsen \'$a->sitename\' administrator,
 $a->signoff';
 $string['newpicture'] = 'Nytt bilde';
@@ -985,18 +948,13 @@ $string['newsitemsnumber'] = 'Antall nyheter som skal vises';
 $string['newuser'] = 'Ny bruker';
 $string['newusernewpasswordsubj'] = 'Ny brukerkonto';
 $string['newusernewpasswordtext'] = 'Hei $a->firstname, 
-
 En ny konto er opprettet for deg på \'$a->sitename\' og du har fått et nytt midlertidig passord.
-
 Din aktuelle innloggingsinformasjon er nå:
 brukernavn: $a->username
 passord: $a->newpassword
 (må må forandre passordet når du logger inn første gang)
-
 For å begynne å bruker \'$a->sitename\', logger du inn på $a->link
-
 I de fleste e-postprogrammer vil det være en blå lenke som du kan klikke på. Hvis det ikke virker, kan du klippe og lime adressen inn i adressefeiltet på toppen av nettleservinduet ditt. 
-
 Vennlig hilsen fra administrator på \'$a->sitename\',
 $a->signoff';
 $string['newusers'] = 'Nye brukere';
@@ -1479,15 +1437,18 @@ $string['updatinga'] = 'Oppdaterer $a';
 $string['updatingain'] = 'Oppdaterer en $a->what i $a->in';
 $string['upload'] = 'Laste opp';
 $string['uploadafile'] = 'Laste opp ei fil';
+$string['uploadcantwrite'] = 'Fillagringen mislykkes';
 $string['uploadedfile'] = 'Fila ble lastet opp uten feil';
 $string['uploadedfileto'] = 'Lastet opp $a->file til $a->directory';
 $string['uploadedfiletoobig'] = 'Beklager, men den fila er for stor(grensen er på $a bytes)';
+$string['uploadextension'] = 'Filopplastingen ble stoppet på grunn av filtypen.';
 $string['uploadfailednotrecovering'] = 'Filopplastingen var mislykka fordi det var et problem med en av filene, $a->name.<br />Her finner du en logg over problemene: <br />$a->problem</br>';
 $string['uploadfilelog'] = 'Last opp logg for fila $a';
 $string['uploadformlimit'] = 'Den opplastede fila var større enn maksimumsgrensen som ble satt i skjemaet.';
 $string['uploadlabel'] = 'Tittel:';
 $string['uploadnofilefound'] = 'Fant ingen filer. Er du sikker på at du valgte ei?';
 $string['uploadnotallowed'] = 'Det er ikke lov å laste opp';
+$string['uploadnotempdir'] = 'Mangler tilgang til midlertidig mappe.';
 $string['uploadoldfilesdeleted'] = 'Den gamle filen i opplastingsområdet ditt ble slettet/De gamle filene i opplastingsområdet ditt ble slettet.';
 $string['uploadpartialfile'] = 'Filen ble bare delvis lastet opp.';
 $string['uploadproblem'] = 'Det oppstod et problem under opplasting av filen \'$a\' (kanskje den var for stor?)';
@@ -1527,18 +1488,13 @@ $string['views'] = 'Visninger';
 $string['viewsolution'] = 'vis løsning';
 $string['virusfound'] = 'Alarm! Clam Antivirus har funnet et virus i en fil lastet opp av $a->user på kurset $a->course. Clamscan sier:';
 $string['virusfoundlater'] = 'En fil du lastet opp den $a->date med filnavnet $a->filename i kurset $a->course viste seg å inneholde et virus. Her er en oppsummering av hva som skjedde med filen din:
-
 $a->action
-
 Hvis dette var en innlevering, vil du kanskje levere den på nytt, slik at læreren din får se den.';
 $string['virusfoundlateradmin'] = 'Administrator, vær oppmerksom! En fil som ble lastet opp den $a->date med filnavnet $a->filename på kurset $a->course av brukeren $a->user, viste seg å inneholde et virus.Her er en oppsummering av hva som skjedde med filen:
-
 $a->action
-
 Brukeren har også fått beskjed.';
 $string['virusfoundlateradminnolog'] = 'Alarm!Ei fil som ble lastet opp med filnavnet $a->filename viste seg å inneholde et virus. Moodle var ikke i stand til spore den til en bruker.
 Her er en oppsummering av hva som skjedde med fila:
-
 $a->action';
 $string['virusfoundsubject'] = '$a: Et virus er oppdaget!';
 $string['virusfounduser'] = 'Fila du lastet opp, $a->filename , ble sjekket av et virusprogram, og det viste seg at den var infisert! Opplastinga di ble ikke fullført.';
@@ -1553,9 +1509,7 @@ $string['weeklyoutline'] = 'Ukeformat';
 $string['weekshow'] = 'Vis denne uken til $a';
 $string['welcometocourse'] = 'Velkommen til $a';
 $string['welcometocoursetext'] = 'Velkommen til $a->coursename!
-
 Hvis du ikke har gjort det enda bør du redigere profilen din (informasjon om deg selv) slik at vi kan bli bedre kjent med deg:
-
   $a->profileurl';
 $string['whattocallzip'] = 'Hva vil du kalle zip-fila?';
 $string['withchosenfiles'] = 'Med valgte filer';
@@ -1599,5 +1553,4 @@ $string['yourself'] = 'deg selv';
 $string['yourteacher'] = 'din $a';
 $string['zippingbackup'] = 'Pakker sikkerhetskopi';
 $string['skiptomaincontent'] = 'Dropp viderekobling til hovedinnholdet'; // ORPHANED
-
 ?>

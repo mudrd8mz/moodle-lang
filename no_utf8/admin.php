@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
-
-
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
 $string['accessdenied'] = 'Ingen tilgang';
 $string['accounts'] = 'Kontoer';
 $string['adminseesall'] = 'Administratorer ser alt';
@@ -95,6 +93,7 @@ $string['configdefaultcourseroleid'] = 'Brukere som meldes inn i et kurs vil som
 $string['configdefaultrequestcategory'] = 'Kursønsker fra brukere vil automatisk bli plassert i denne kategorien.';
 $string['configdefaultrequestedcategory'] = 'Standard kategori forespurte kurs skal legges i hvis de godkjennes.';
 $string['configdefaultuserroleid'] = 'Alle innloggede brukere vil få tildelt mulighetene i den rollen du setter opp her, på site-nivå, I TILLEGG til enhver annen rolle de måtte ha blitt tildelt. Standard er GJEST. Merk at dette ikke vil konflikte med andre roller en bruker har, den bare sikrer at alle brukere kan gjøre noe nyttig på site-nivå. (F.eks. lese i forum, ressurser osv)';
+$string['configdeleteincompleteusers'] = 'Etter denne perioden vil ikke fullførte kontoer bli slettet.';
 $string['configdeleteunconfirmed'] = 'Hvis du bruker autentisering via epost, er dette den perioden som svar fra brukerne aksepteres. Etter denne perioden vil gamle ubekreftede konti slettes.';
 $string['configdenyemailaddresses'] = 'For å avvise adresser fra spesielle domener, lister du dem på samme måte her. Alle andre domener vil godkjennes. Eks. <strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Brukere som velger å få epost tilsendt i en samlesending vil få den en gang daglig. Denne settingen kontrollerer når på dagen samlesendingen vil bli sendt ut (neste gang cron kjører etter denne tiden vil sende den ut).';
@@ -105,6 +104,7 @@ $string['configdocroot'] = 'Definerer stien til Moodle dokumenter. Du kan forand
 $string['configdoctonewwindow'] = 'Hvis du slår denne på, så vil lenker til Moodle dokumentasjon vises i neste vindu.';
 $string['configeditordictionary'] = 'Denne verdien blir benyttet hvis aspell ikke har noen ordliste for brukerens valgte språk.';
 $string['configeditorfontlist'] = 'Velg de fontene som skal være tilgjengelige i html-editoren.';
+$string['configemailchangeconfirmation'] = 'Tving brukeren til å gjenta e-postadressen når den endres.';
 $string['configemoticons'] = 'Endre koden på venstre side som hører til navnet på emoticon til høyre. For å legge til nye emoticons, legg til en kode og et navn og legg til et bilde som heter navn.gif i /pix/s.';
 $string['configenableajax'] = 'Denne innstillingen lar deg kontrollere bruken av AJAX (avansert klient/server teknologi via javascript) på hele siten. Med denne innstillingen aktivert kan fortsatt den enkelte bruker slå av AJAX i egen profil. Som standard er AJAX inaktiv for alle.';
 $string['configenablecourserequests'] = 'Dette vil tillate at alle brukere kan be om at et kurs skal opprettes.';
@@ -294,6 +294,7 @@ $string['defaultsettinginfo'] = 'Standard: $a';
 $string['defaultuserroleid'] = 'Standard rolle for alle brukere';
 $string['defaultvalues'] = 'Standard verdier';
 $string['deleteerrors'] = 'Slett feil';
+$string['deleteincompleteusers'] = 'Slett ufullstendige brukere etter';
 $string['deleteunconfirmed'] = 'Slett ubekreftede brukere etter';
 $string['deleteuser'] = 'Slett bruker';
 $string['density'] = 'Tetthet';
@@ -301,6 +302,7 @@ $string['denyemailaddresses'] = 'Ikke tillatte domener';
 $string['digestmailtime'] = 'Samlesending av epost sendes ut kl:';
 $string['disablecourseajax'] = 'Slå av AJAX kursredigering';
 $string['disableuserimages'] = 'Slå av Brukerprofil-bilder';
+$string['displayerrorswarning'] = 'Aktivering av PHP-innstillingen <em>display_errors</em> frarådes på portaler i produksjon siden noen av feilmeldingene kan inneholde sensitiv informasjon om serveren din.';
 $string['displayloginfailures'] = 'Vis mislykkede login til';
 $string['docroot'] = 'Moodle Docs rotkatalog';
 $string['doctonewwindow'] = 'Åpne i nytt vindu';
@@ -319,6 +321,7 @@ $string['editorkillword'] = 'Word-filter';
 $string['editorspelling'] = 'Stavekontroll';
 $string['editorspellinghelp'] = 'Kobler til/fra stavekontroll. Dersom aktivert må <strong>aspell</strong> være installert på serveren.';
 $string['editstrings'] = 'Rediger strenger';
+$string['emailchangeconfirmation'] = 'E-postbekreftelse';
 $string['emoticons'] = 'Emoticons';
 $string['emptysettingvalue'] = 'Tom';
 $string['enableajax'] = 'Aktiver AJAX';
@@ -450,6 +453,7 @@ $string['longtimenosee'] = 'Meld ut brukere fra kurset etter';
 $string['longtimewarning'] = '<b>Vær tålmodig, denne prosessen kan ta noe tid.</b>';
 $string['mail'] = 'E-post';
 $string['mailnewline'] = 'Nylinje tegn i epost';
+$string['maintenancemode'] = 'I vedlikeholdsmodus';
 $string['maintfileopenerror'] = 'Feil ved åpning av vedlikeholdsfiler!';
 $string['maintinprogress'] = 'Vedlikehold pågår ...';
 $string['managelang'] = '<b>Administrer</b>';
@@ -546,6 +550,7 @@ $string['profilecreatefield'] = 'Opprett nytt profilfelt';
 $string['profilecreatenewcategory'] = 'Oppretter en ny kategori';
 $string['profilecreatenewfield'] = 'Oppretter et nytt &quot;$a&quot; profilfelt';
 $string['profiledefaultcategory'] = 'Andre felt';
+$string['profiledefaultchecked'] = 'Merket av som standard';
 $string['profiledefaultdata'] = 'Standardverdi';
 $string['profiledeletecategory'] = 'Sletter en kategori';
 $string['profiledeletefield'] = 'Sletter et felt';
@@ -559,6 +564,7 @@ $string['profilefieldmaxlength'] = 'Max lengde';
 $string['profilefieldrows'] = 'Rader';
 $string['profilefields'] = 'Bruker profilfelt';
 $string['profilefieldsize'] = 'Vises i størrelse';
+$string['profilefieldtypecheckbox'] = 'Avkrysningsboks';
 $string['profilefieldtypemenu'] = 'Valgmeny';
 $string['profilefieldtypetext'] = 'Skriv inn tekst';
 $string['profilefieldtypetextarea'] = 'Tekstfelt';
@@ -756,5 +762,4 @@ $string['webproxyinfo'] = 'Fyll inn følgende valg hvis ikke Moodle-serveren din
 $string['xmlrpcrecommended'] = 'Å installere det valgfrie xmlrpc-tillegget er nyttig for Moodle Networking funksjonaliteten.';
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['configenablerecordcache'] = 'Dersom du aktiverer denne, vil systemet lagre i hurtigminnet når det mottar data fra databasen. Dette betyr at databasen blir raskere i bruk, men på  den annen side vil minnekravet på serveren øke. Generelt anbefaler vi at innstillingen aktiviseres, så sant du ikke har lite minne på serveren. Noen prosesser vil likevel overstyre denne innstillingen (når utvikleren er sikker på at det er lurt).'; // ORPHANED
-
 ?>
