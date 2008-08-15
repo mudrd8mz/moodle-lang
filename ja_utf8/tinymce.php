@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tinymce.php - created with Moodle 2.0 dev (Build: 20080807) (2008080701)
+      // tinymce.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['main/advhr:advhr_desc'] = '水平方向の罫線';
@@ -513,36 +513,36 @@ $string['plugins/table_dlg:langdir'] = '文章の方向';
 $string['plugins/table_dlg:ltr'] = '左 >> 右';
 $string['plugins/table_dlg:merge_cells_title'] = 'テーブルセルを結合する';
 $string['plugins/table_dlg:mime'] = 'ターゲットのMIMEタイプ';
-$string['plugins/table_dlg:missing_scope'] = '表のスコープ属性を設定していませんがよろしいですか？';
-$string['plugins/table_dlg:row_all'] = '全ての行の更新';
-$string['plugins/table_dlg:row_even'] = '偶数行の更新';
-$string['plugins/table_dlg:row_limit'] = '行の最大数を超えました。';
-$string['plugins/table_dlg:row_odd'] = '奇数行の更新';
-$string['plugins/table_dlg:row_row'] = '選択行の更新';
-$string['plugins/table_dlg:row_title'] = '行のプロパティ';
+$string['plugins/table_dlg:missing_scope'] = '本当に、このテーブルヘッダセルのスコープ属性を指定せずに続けてもよろしいですか? スコープ属性がない場合、視覚障害を持つユーザは、テーブルに表示されるコンテンツまたはデータを理解できません。';
+$string['plugins/table_dlg:row_all'] = 'テーブルのすべての行を更新する';
+$string['plugins/table_dlg:row_even'] = 'テーブルの偶数行を更新する';
+$string['plugins/table_dlg:row_limit'] = 'あなたは最大行数 {$rows} を超過しました。';
+$string['plugins/table_dlg:row_odd'] = 'テーブルの奇数行を更新する';
+$string['plugins/table_dlg:row_row'] = '現在の行を更新する';
+$string['plugins/table_dlg:row_title'] = 'テーブル行のプロパティ';
 $string['plugins/table_dlg:rowgroup'] = '行グループ';
 $string['plugins/table_dlg:rows'] = '行';
-$string['plugins/table_dlg:rowtype'] = '行';
-$string['plugins/table_dlg:rtl'] = '右から左';
-$string['plugins/table_dlg:rules'] = '表の外枠';
-$string['plugins/table_dlg:rules_above'] = '上';
-$string['plugins/table_dlg:rules_below'] = '下';
-$string['plugins/table_dlg:rules_border'] = '上下左右(border)';
-$string['plugins/table_dlg:rules_box'] = '上下左右(box)';
-$string['plugins/table_dlg:rules_hsides'] = '上下';
-$string['plugins/table_dlg:rules_lhs'] = '左';
-$string['plugins/table_dlg:rules_rhs'] = '右';
+$string['plugins/table_dlg:rowtype'] = 'テーブルの行';
+$string['plugins/table_dlg:rtl'] = '右 >> 左';
+$string['plugins/table_dlg:rules'] = '枠線のルール';
+$string['plugins/table_dlg:rules_above'] = '上側のみ';
+$string['plugins/table_dlg:rules_below'] = '下側のみ';
+$string['plugins/table_dlg:rules_border'] = '上下左右 (border)';
+$string['plugins/table_dlg:rules_box'] = '上下左右 (box)';
+$string['plugins/table_dlg:rules_hsides'] = '上下のみ';
+$string['plugins/table_dlg:rules_lhs'] = '左側のみ';
+$string['plugins/table_dlg:rules_rhs'] = '右側のみ';
 $string['plugins/table_dlg:rules_void'] = 'なし';
-$string['plugins/table_dlg:rules_vsides'] = '左右';
+$string['plugins/table_dlg:rules_vsides'] = '左右のみ';
 $string['plugins/table_dlg:scope'] = 'スコープ';
 $string['plugins/table_dlg:style'] = 'スタイル';
 $string['plugins/table_dlg:summary'] = 'サマリー';
-$string['plugins/table_dlg:tbody'] = '表ボディ';
+$string['plugins/table_dlg:tbody'] = 'テーブルボディ';
 $string['plugins/table_dlg:td'] = '日付';
-$string['plugins/table_dlg:tfoot'] = '表フッタ';
+$string['plugins/table_dlg:tfoot'] = 'テーブルフッタ';
 $string['plugins/table_dlg:th'] = 'ヘッダ';
-$string['plugins/table_dlg:thead'] = '表ヘッダ';
-$string['plugins/table_dlg:title'] = '表の挿入/編集';
+$string['plugins/table_dlg:thead'] = 'テーブルヘッダ';
+$string['plugins/table_dlg:title'] = 'テーブルを挿入/修正する';
 $string['plugins/table_dlg:valign'] = '垂直方向の配置';
 $string['plugins/table_dlg:width'] = '幅';
 $string['plugins/template_dlg:cdate_format'] = '%%Y-%%m-%%d %%H:%%M:%%S';

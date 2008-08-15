@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080711) (2008070701)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['allattempts'] = 'すべての受験を表示する';
@@ -27,6 +27,7 @@ $string['optonlyregradedattempts'] = '最評定された/最評定が必要だ�
 $string['overview'] = '評定';
 $string['overviewdownload'] = '概要のダウンロード';
 $string['overviewreportgraph'] = '到達した評点の範囲に関する学生数の棒グラフ';
+$string['overviewreportgraphgroup'] = '到達した評点の範囲に関するグループ「 $a 」の学生数の棒グラフ';
 $string['pagesize'] = 'ページサイズ';
 $string['preferencespage'] = 'このページのみに関する設定';
 $string['preferencessave'] = '設定を保存する';

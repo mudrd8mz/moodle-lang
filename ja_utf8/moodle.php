@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080805) (2008080500)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -411,6 +411,7 @@ $string['documentation'] = 'Moodleドキュメンテーション';
 $string['donotask'] = '問合せしない';
 $string['down'] = '下へ';
 $string['downloadexcel'] = 'Excelフォーマットでダウンロードする';
+$string['downloadfile'] = 'ファイルをダウンロードする';
 $string['downloadods'] = 'ODSフォーマットでダウンロードする';
 $string['downloadtext'] = 'テキストフォーマットでダウンロードする';
 $string['doyouagree'] = 'これらの要件を読んで理解できましたか?';
@@ -1548,6 +1549,7 @@ $string['usethiscourse'] = 'このコースを使用する';
 $string['usingexistingcourse'] = '既存のコースを使用する';
 $string['version'] = 'バージョン';
 $string['view'] = '表示';
+$string['viewfileinpopup'] = 'ポップアップウィンドウにファイルを表示する';
 $string['views'] = '表示';
 $string['viewsolution'] = '解決方法の表示';
 $string['virusfound'] = '管理者の方! Clam AVが、 $a->user によって course $a->course へアップロードされたファイルにウイルスを発見しました。clamscanの出力結果は次のとおりです:';
