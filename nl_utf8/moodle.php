@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -412,6 +412,7 @@ $string['documentation'] = 'Moodledocumentatie';
 $string['donotask'] = 'Niet vragen';
 $string['down'] = 'Omlaag';
 $string['downloadexcel'] = 'Download in Excel-formaat';
+$string['downloadfile'] = 'Download bestand';
 $string['downloadods'] = 'Download in ODS-formaat';
 $string['downloadtext'] = 'Download in tekstformaat';
 $string['doyouagree'] = 'Heb je deze voorwaarden gelezen en begrepen?';
@@ -1203,8 +1204,6 @@ $string['rename'] = 'Hernoem';
 $string['renamefileto'] = 'Hernoem <b>$a</b> naar';
 $string['report'] = 'Rapport';
 $string['reports'] = 'Logs';
-$string['repositories'] = 'Bibliotheken';
-$string['repositoriesmanage'] = 'Beheer bibliotheken';
 $string['requestcourse'] = 'Vraag een nieuwe cursus';
 $string['requestedby'] = 'Gevraagd door';
 $string['requestreason'] = 'Motivatie voor de vraag';
@@ -1543,6 +1542,7 @@ $string['usethiscourse'] = 'Gebruik deze cursus';
 $string['usingexistingcourse'] = 'Gebruik bestaande cursus';
 $string['version'] = 'Versie';
 $string['view'] = 'Bekijken';
+$string['viewfileinpopup'] = 'Bekijk bestand in popupvenster';
 $string['views'] = 'Bekeken pagina\'s';
 $string['viewsolution'] = 'Bekijk oplossing';
 $string['virusfound'] = 'Opgelet beheerder! Clam AV vond een virus in een bestand, geüpload door $a->user voor de cursus $a->course. Hier is de boodschap van clamscan:';
@@ -1619,6 +1619,8 @@ $string['yourlastlogin'] = 'Je laatste log in was';
 $string['yourself'] = 'jezelf';
 $string['yourteacher'] = 'Jouw $a';
 $string['zippingbackup'] = 'Backup zippen';
+$string['repositories'] = 'Bibliotheken'; // ORPHANED
+$string['repositoriesmanage'] = 'Beheer bibliotheken'; // ORPHANED
 $string['nostatstodisplay'] = 'Er zijn geen gegevens om te tonen. Als je de logs net ingeschakeld hebt, dan is het mogelijk dat je een week moet wachten voor er genoeg gegevens zijn om iets te tonen.'; // ORPHANED
 $string['skiptomaincontent'] = 'Sla over en ga naar hoofdinhoud'; // ORPHANED
 $string['enteryourinterests'] = 'Noteer je interesses, gescheiden door komma\'s'; // ORPHANED
