@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['allattempts'] = 'Toon alle pogingen';
@@ -27,6 +27,7 @@ $string['optonlyregradedattempts'] = 'zijn herberekend / gemarkeerd om te herber
 $string['overview'] = 'Overzicht';
 $string['overviewdownload'] = 'Download overzicht';
 $string['overviewreportgraph'] = 'Staafdiagram met aantal leerlingen dat het gemiddelde haalt.';
+$string['overviewreportgraphgroup'] = 'Aantal leerlingen in groep \'$a\'die het cijferbereik halen';
 $string['pagesize'] = 'Paginagrootte';
 $string['preferencespage'] = 'Instellingen voor deze pagina';
 $string['preferencessave'] = 'Bewaar instellingen';

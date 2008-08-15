@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['addnewportfolio'] = 'Voeg een nieuw portfolio toe';
@@ -25,6 +25,8 @@ $string['exportedpreviously'] = 'Vorige exports';
 $string['exporting'] = 'Exporteren naar portfolio';
 $string['exportqueued'] = 'Portfolio-export is klaargezet voor transfer';
 $string['failedtosendpackage'] = 'Gegevens sturen naar het geselecteerde portfoliosysteem mislukt!';
+$string['filedenied'] = 'Toegang tot dit bestand geweigerd';
+$string['filenotfound'] = 'Bestand niet gevonden';
 $string['format_file'] = 'Bestand';
 $string['format_mbkp'] = 'Moodle backup';
 $string['hidden'] = 'Verborgen';
@@ -33,6 +35,7 @@ $string['instanceismisconfigured'] = 'Portfolio is fout geconfigureerd, overgesl
 $string['instancenotdelete'] = 'Portfolio verwijderen mislukt';
 $string['instancenotsaved'] = 'Portfolio bewaren mislukt';
 $string['instancesaved'] = 'Portfolio bewaren gelukt';
+$string['invalidaddformat'] = 'Ongeldig add format gegeven aan portfolio_add_button. ($a) Moet er één zijn van PORTFOLIO_ADD_XXX';
 $string['invalidformat'] = 'Iets is een ongelige format aan het exporteren, $a';
 $string['invalidinstance'] = 'Kon dat portfolio-item niet vinden';
 $string['invalidtempid'] = 'Ongeldig tijdelijke ID';
@@ -44,11 +47,11 @@ $string['nocommonformats'] = 'Geen gemeenschappelijke formaten tussen de portfol
 $string['nonprimative'] = 'Een niet-primative waarde is doorgegeven als callback argument aan de portfolio_add_button. Gestopt. De sleutel was $a->key en de waarde was $a->value';
 $string['nopermissions'] = 'Je hebt niet de juiste rechten om van hieruit bestanden te exporteren';
 $string['notexportable'] = 'Het type inhoud dat je probeert te exporteren is niet exporteerbaar';
+$string['notimplemented'] = 'Je probeert een format te exporteren naar een format die nog niet geïmplementeerd is ($a)';
 $string['nouploaddirectory'] = 'Kon geen tijdelijke map maken om je gegevens in te verpakken';
 $string['plugin'] = 'Portfolio Plugin';
 $string['plugincouldnotpackage'] = 'Inpakken van je gegevens voor export mislukt';
 $string['portfolio'] = 'Portfolio';
-$string['portfolionotfile'] = 'Exporteer naar een portfolio, eerder dan naar een bestand';
 $string['portfolios'] = 'Portfolio\'s';
 $string['returntowhereyouwere'] = 'Keer terug';
 $string['save'] = 'Bewaar';
@@ -61,5 +64,6 @@ $string['sure'] = 'Weet je zeker dat je \'$a\' wil verwijderen? Dit is definitie
 $string['wait'] = 'Wacht';
 $string['wanttowait_high'] = 'Het wordt niet aangeraden te wachten om deze transfer af te ronden, maar je kunt wachten als je zeker weet wat je doet.';
 $string['wanttowait_moderate'] = 'Wil je op deze transfer wachten? Het kan een aantal minuten duren';
+$string['portfolionotfile'] = 'Exporteer naar een portfolio, eerder dan naar een bestand'; // ORPHANED
 
 ?>
