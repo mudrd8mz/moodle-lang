@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // data.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['action'] = 'Akcija';
@@ -126,6 +126,7 @@ $string['forcelinkname'] = 'Obavezan naziv za linkovanje';
 $string['foundnorecords'] = 'Nisu pronađeni zapisi(<a href=\"$a->reseturl\">Vrati stara podešavanja filtera</a>)';
 $string['foundrecords'] = 'Pronađeni zapisi: $a->num/$a->max(<a href=\"$a->reseturl\">Vrati stara podešavanja filtera</a>)';
 $string['fromfile'] = 'iz arhive';
+$string['generateerror'] = 'Nisu sve datoteke generisane!';
 $string['guestrate'] = 'Gostima nije dopušteno da ocenjuju unose';
 $string['header'] = 'Zaglavlje';
 $string['headeraddtemplate'] = 'Definiše interfejs pri uređivanju unosa';
@@ -143,6 +144,7 @@ $string['invalidfieldid'] = 'ID polja nije ispravan';
 $string['invalidfieldname'] = 'Molimo izaberite neko drugo ime za ovo polje';
 $string['invalidfieldtype'] = 'Tip polja nije ispravan';
 $string['invalidid'] = 'ID podataka nije ispravan';
+$string['invalidpreset'] = '$a nije postojeće podešavanje.';
 $string['invalidratedata'] = 'Neispravni su prosleđeni podaci o ocenjivanju';
 $string['invalidrecord'] = 'Neispravan zapis';
 $string['invalidurl'] = 'URL koji ste upravo uneli nije ispravan';
@@ -161,6 +163,8 @@ $string['maxentries'] = 'Maksimalno unosa';
 $string['maxsize'] = 'Maksimalna veličina';
 $string['menu'] = 'Meni';
 $string['menuchoose'] = 'Izaberite...';
+$string['missingdata'] = 'id podataka ili objekt mora se proslediti klasi polja';
+$string['missingfield'] = 'Greška programera: Morate odrediti polje i/ili podatke kada definišete klasu polja.';
 $string['modulename'] = 'Baza podataka';
 $string['modulenameplural'] = 'Baze podataka';
 $string['more'] = 'Još';
@@ -261,6 +265,7 @@ $string['type'] = 'Tip polja';
 $string['undefinedprocessactionmethod'] = 'Ne postoji metoda definisana u Data_Preset da koristi akciju \"$a\".';
 $string['unsupportedexport'] = '($a->fieldtype)se ne može izvoziti';
 $string['updatefield'] = 'Ažuriranje postojećeg polja';
+$string['updatingerror'] = 'Postojala je greška pri ažuriranju baze podataka.';
 $string['uploadfile'] = 'Postavi datoteku';
 $string['uploadrecords'] = 'Postavljenje unosa iz datoteke';
 $string['url'] = 'URL';

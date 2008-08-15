@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // feedback.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['add_item'] = 'Dodaj pitanje';
@@ -67,6 +67,7 @@ $string['feedback:edititems'] = 'Uredi pitanja';
 $string['feedback:mapcourse'] = 'Poveži kurseve sa opštim upitnicima';
 $string['feedback:receivemail'] = 'Dobiti obaveštenje putem e-poruke';
 $string['feedback:view'] = 'Pogledaj upitnik';
+$string['feedback:viewanalysepage'] = 'Pogledaj stranicu sa analizom rezultata nakon ispunjavanja upitnika';
 $string['feedback:viewreports'] = 'Pogledaj izveštaj';
 $string['feedback_is_not_open'] = 'Upitnik nije otvoren';
 $string['feedback_options'] = 'Opcije za podešavanje upitnika';
@@ -162,6 +163,7 @@ $string['selected_dump'] = 'Izabrani indeksi varijable $SESSION  prikazani su ni
 $string['separator_decimal'] = '.';
 $string['separator_thousand'] = ',';
 $string['show_all'] = 'Prikaži sve';
+$string['show_analysepage_after_submit'] = 'Prikaži stranicu sa analizom rezultata nakon ispunjavanja upitnika';
 $string['show_entries'] = 'Prikaži odgovore';
 $string['show_entry'] = 'Prikaži odgovor';
 $string['site_after_submit'] = 'Sajt za posle predaje rešenja';

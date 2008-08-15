@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // forum.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['addanewdiscussion'] = 'Dodajte novu temu za diskusiju';
@@ -292,6 +292,10 @@ $string['unreadposts'] = 'Nepročitane poruke';
 $string['unreadpostsnumber'] = 'Broj nepročitanih poruka: $a';
 $string['unreadpostsone'] = '1 nepročitana poruka';
 $string['unsubscribe'] = 'Ispisivanje iz ovog foruma';
+$string['unsubscribeall'] = 'Ispisivanje sa svih foruma';
+$string['unsubscribeallconfirm'] = 'Upisani ste trenutno na $a foruma. Da li zaista želite da se ispišete sa svih foruma i da isključite automatski upis na forume?';
+$string['unsubscribealldone'] = 'Svi Vaši upisi na forum su poništeni, možda ćete još uvek primati obaveštenja sa foruma koji imaju obavezan upis. Ako ne želite da dobijate nikakve e-poruke sa ovog servera molimo Vas da odete u Vaš profil i onemogućite svoju adresu e-pošte.';
+$string['unsubscribeallempty'] = 'Žao nam je, niste upisani ni na jedan forum. Ako ne želite da primate bilo kakve  e-poruke saovog servera molimo Vas da odete u svoj profil i onemogućite svoju adresu e-pošte.';
 $string['unsubscribed'] = 'Ispisani ste iz ovog foruma';
 $string['unsubscribeshort'] = 'Ispis';
 $string['usermarksread'] = 'Ručno obeležavanje pročitanih poruka';
