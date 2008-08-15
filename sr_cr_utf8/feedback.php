@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.9.1+ (Build: 20080611) (2007101513)
+      // feedback.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['add_item'] = 'Додај питање';
@@ -67,6 +67,7 @@ $string['feedback:edititems'] = 'Уреди питања';
 $string['feedback:mapcourse'] = 'Повежи курсеве са општим упитницима';
 $string['feedback:receivemail'] = 'Добити обавештење путем е-поруке';
 $string['feedback:view'] = 'Погледај упитник';
+$string['feedback:viewanalysepage'] = 'Погледај страницу са анализом резултата након испуњавања упитника';
 $string['feedback:viewreports'] = 'Погледаj извештај';
 $string['feedback_is_not_open'] = 'Упитник није отворен';
 $string['feedback_options'] = 'Опције за подешавање упитника';
@@ -137,7 +138,6 @@ $string['position'] = 'Позиција';
 $string['preview'] = 'Преглед';
 $string['previous_page'] = 'Претходна страница';
 $string['public'] = 'Јавни шаблон';
-$string['publish_stats_on_students'] = 'Прикажи анализу студентима';
 $string['question'] = 'Питање';
 $string['questions'] = 'Питања';
 $string['radio'] = 'Вишеструки избор - један одговор';
@@ -163,6 +163,7 @@ $string['selected_dump'] = 'Изабрани индекси варијабле $
 $string['separator_decimal'] = '.';
 $string['separator_thousand'] = ',';
 $string['show_all'] = 'Прикажи све';
+$string['show_analysepage_after_submit'] = 'Прикажи страницу са анализом резултата након испуњавања упитника';
 $string['show_entries'] = 'Прикажи одговоре';
 $string['show_entry'] = 'Прикажи одговор';
 $string['site_after_submit'] = 'Сајт за после предаје решења';
@@ -187,6 +188,7 @@ $string['use_one_line_for_each_value'] = '<br />Употреби један ре
 $string['use_this_template'] = 'Употреби овај шаблон';
 $string['using_templates'] = 'Употреби шаблон';
 $string['vertical'] = 'вертикално';
+$string['publish_stats_on_students'] = 'Прикажи анализу студентима'; // ORPHANED
 $string['all_old_values_will_be_deleted'] = 'Текуће питања и сви одговори корисника биће обрисани'; // ORPHANED
 $string['all_old_values_will_be_preserved'] = 'Сва стара питања и додељене вредности биће сачувани'; // ORPHANED
 $string['all_related_values_will_be_deleted'] = 'Сви одговори корисника на ово питање биће, такође, обрисани'; // ORPHANED
