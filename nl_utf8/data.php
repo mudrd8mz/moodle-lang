@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // data.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['action'] = 'Actie';
@@ -56,6 +56,9 @@ $string['csvimport'] = 'Imorteer CSV-bestand';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym> tekst met het gekozen scheidingsteken:';
 $string['data:approve'] = 'Keur nieuwe items goed';
 $string['data:comment'] = 'Schrijf commentaar';
+$string['data:exportallentries'] = 'Exporteer alle databankitems';
+$string['data:exportentry'] = 'Exporteer een databankitem';
+$string['data:exportownentry'] = 'Exporteer je databankitem';
 $string['data:managecomments'] = 'Beheer commentaren';
 $string['data:manageentries'] = 'Beheer items';
 $string['data:managetemplates'] = 'Beheer sjablonen';
@@ -213,6 +216,7 @@ $string['pagesize'] = 'Items per pagina';
 $string['participants'] = 'Deelnemers';
 $string['picture'] = 'Afbeelding';
 $string['pleaseaddsome'] = 'Kies instellingen hieronder of <a href=\"$a\"> kies een voorgedefinieerd sjabloon</a> om te starten.';
+$string['portfolionotfile'] = 'Exporteer naar een portfolio, niet naar een bestand (enkel CSV)';
 $string['presetinfo'] = 'Bewaren als sjabloonset zal dit sjabloon publiceren. Andere gebruikers kunnen dit dan gebruiken in hun databanken.';
 $string['presets'] = 'Sjabloonsets';
 $string['radiobutton'] = 'Keuzeknoppen';

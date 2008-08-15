@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['allowdeleting'] = 'Verwijderen toestaan';
@@ -7,6 +7,7 @@ $string['allowmaxfiles'] = 'Maximum aantal geüploade bestanden';
 $string['allownotes'] = 'Notities toestaan';
 $string['allowresubmit'] = 'Sta herhaald insturen toe';
 $string['alreadygraded'] = 'Jouw opdracht is al beoordeeld en opnieuw insturen is niet toegelaten.';
+$string['assignment:exportownsubmission'] = 'Exporteer je opdracht';
 $string['assignment:grade'] = 'Beoordeel opdracht';
 $string['assignment:submit'] = 'Stuur opdracht in';
 $string['assignment:view'] = 'Bekijk opdracht';
