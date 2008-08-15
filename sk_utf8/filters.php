@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // filters.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
+
 
 $string['actfilterhdr'] = 'Aktívne filtre';
 $string['addfilter'] = 'Pridať filter';
@@ -14,7 +15,7 @@ $string['courserole'] = 'Rola v kurze';
 $string['courserolelabel'] = '$a->label je $a->rolename v kurze $a->coursename z kategórie $a->categoryname';
 $string['courserolelabelerror'] = '$a->label chyba: kurz $a->coursename neexistuje';
 $string['datelabelisafter'] = '$a->label je neskôr ako $a->after';
-$string['datelabelisbefore'] = '$a->label je predtým ako $a->after';
+$string['datelabelisbefore'] = '$a->label je predtým ako $a->before';
 $string['datelabelisbetween'] = '$a->label je medzi $a->after a $a->before';
 $string['doesnotcontain'] = 'neobsahuje';
 $string['endswith'] = 'končí s';
@@ -38,4 +39,5 @@ $string['startswith'] = 'začína s';
 $string['tablenosave'] = 'Zmeny v tabuľke vyššie sú uložené automaticky';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
+
 ?>
