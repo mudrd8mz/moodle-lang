@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['addresource'] = 'Bron toevoegen';
@@ -103,6 +103,7 @@ $string['preview'] = 'Voorbeeld';
 $string['previous'] = 'Vorige';
 $string['redeploy'] = 'Opnieuw publiceren';
 $string['repository'] = 'IMS-bibliotheek';
+$string['resource:exportresource'] = 'Bron exporteren';
 $string['resource:view'] = 'Bron bekijken';
 $string['resourcedefaulturl'] = 'Standaard URL';
 $string['resourcetype'] = 'Soort bron';

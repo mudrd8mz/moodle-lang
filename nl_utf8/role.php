@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // role.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
 
 
 $string['addrole'] = 'Nieuwe rol toevoegen';
@@ -108,6 +108,7 @@ $string['overrideroles'] = 'Rollen overschrijven';
 $string['overriderolesin'] = 'Rollen overschrijven in $a';
 $string['overrides'] = 'Rollen overschrijven';
 $string['permissions'] = 'Rechten';
+$string['portfolio:export'] = 'Exporteer naar portfolio';
 $string['potentialusers'] = '$a mogelijke gebruikers';
 $string['prevent'] = 'Verbieden';
 $string['prohibit'] = 'Blokkeren';
