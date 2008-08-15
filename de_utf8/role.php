@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 + (Build: 20080416) (2007101509)
+      // role.php - created with Moodle 2.0 dev (Build: 20080802) (2008073114)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -131,13 +131,15 @@ $string['risks'] = 'Risiken';
 $string['role:assign'] = 'Rollen an Nutzer/innen zuweisen';
 $string['role:manage'] = 'Rollen erstellen und  verwalten';
 $string['role:override'] = 'Rolle überschreiben';
+$string['role:safeoverride'] = 'Überschreiben sicherer Berechtigungen für andere';
 $string['role:switchroles'] = 'Rollen wechseln';
 $string['role:unassignself'] = 'Eigene Rollenzuweisung löschen';
 $string['role:viewhiddenassigns'] = 'Verborgene Rollenzuweisungen sehen';
 $string['roleassignments'] = 'Rollenzuweisungen';
 $string['roles'] = 'Rollen';
 $string['roletoassign'] = 'Zuzuweisende Rolle';
-$string['roletooverride'] = 'Zuüberschreibende Rolle';
+$string['roletooverride'] = 'Zu überschreibende Rolle';
+$string['safeoverridenotice'] = 'Anmerkung: Berechtigungen mit höheren Risiken sind gesperrt. Sie Können nur sichere Beredchtigungen überschreiben';
 $string['selectrole'] = 'Rolle auswählen';
 $string['showallroles'] = 'Alle Rollen anzeigen';
 $string['site:accessallgroups'] = 'Auf alle Gruppen zugreifen';
@@ -167,6 +169,8 @@ $string['tag:manage'] = 'Schlagworte verwalten';
 $string['user:changeownpassword'] = 'Eigenes Kennwort ändern';
 $string['user:create'] = 'Nutzer/innen anlegen';
 $string['user:delete'] = 'Nutzer/innen löschen';
+$string['user:editmessageprofile'] = 'Nutzer-Mitteilungsprofil bearbeiten';
+$string['user:editownmessageprofile'] = 'Eigenes Mitteilungsprofil bearbeiten';
 $string['user:editownprofile'] = 'Eigenes Nutzerprofil bearbeiten';
 $string['user:editprofile'] = 'Nutzerprofile bearbeiten';
 $string['user:loginas'] = 'Login als anderer Nutzer';

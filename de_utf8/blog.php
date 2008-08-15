@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // blog.php - created with Moodle 2.0 dev (Build: 20080802) (2008073114)
 
 
 $string['addnewentry'] = 'Neuen Eintrag hinzufügen';
@@ -39,6 +39,7 @@ $string['intro'] = 'Der RSS-Feed wurde automatisch von einem oder mehreren Blogs
 $string['noentriesyet'] = 'Keine sichtbaren Einträge hier';
 $string['noguestpost'] = 'Gäste können in Blogs keine Beiträge veröffentlichen!';
 $string['norighttodeletetag'] = 'Sie dürfen dieses Schlagwort - $a - nicht löschen';
+$string['nosuchentry'] = 'Kein Blogeintrag dazu vorhanden';
 $string['notallowedtoedit'] = 'Sie haben keine Berechtigung, diesen Beitrag zu bearbeiten';
 $string['numberofentries'] = 'Einträge: $a';
 $string['numberoftags'] = 'Zahl der anzuzeigenden Schlagworte';

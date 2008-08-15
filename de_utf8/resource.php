@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080802) (2008073114)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -99,6 +99,7 @@ $string['parameter'] = 'Einstellung';
 $string['parameters'] = 'Einstellungen';
 $string['popupresource'] = 'Das Material erscheint in einem Popup-Fenster.';
 $string['popupresourcelink'] = 'Falls es nicht klappt, klicken Sie hier: $a';
+$string['portfolionotimplemented'] = 'Der Materialientyp kann nicht exportiert werden!';
 $string['preview'] = 'Vorschau';
 $string['previous'] = 'Vorherige';
 $string['redeploy'] = 'Nochmal verwenden';

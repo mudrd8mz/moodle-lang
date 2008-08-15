@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080802) (2008073114)
 
 
 $string['1day'] = '1 Tag';
@@ -25,7 +25,7 @@ $string['addingrandom'] = 'Zufallsfrage hinzufügen';
 $string['addingrandomsamatch'] = 'Zufällige Kurzantwort-Zuordnung hinzufügen';
 $string['addingshortanswer'] = 'Kurzantwort-Frage hinzufügen';
 $string['addingtruefalse'] = 'Wahr-Falsch-Frage hinzufügen';
-$string['addmoreoverallfeedbacks'] = '[0} weitere Feedbackfelder hinzufügen';
+$string['addmoreoverallfeedbacks'] = '{no} weitere Feedbackfelder hinzufügen';
 $string['addquestions'] = 'Fragen hinzufügen';
 $string['addquestionstoquiz'] = 'Fragen zu aktuellem Test hinzufügen';
 $string['addrandom'] = '$a Zufallsfrage(n)';
