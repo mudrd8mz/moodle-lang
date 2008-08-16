@@ -5,9 +5,9 @@
 $string['authpluginnotfound'] = 'Méthode d\'authentification $a introuvable.';
 $string['cannotbenull'] = '$a ne peut pas être nul&nbsp;!';
 $string['cannotcreateadminuser'] = 'ERREUR GRAVE&nbsp;! Impossible de créer un compte administrateur&nbsp;!';
-$string['cannotdowngrade'] = 'Impossible de revenir à $a[0] vers $a[1].';
+$string['cannotdowngrade'] = 'Impossible de revenir à $a->oldversion vers $a->newversion.';
 $string['cannotfindadmin'] = 'Impossible de trouver un administrateur&nbsp;!';
-$string['cannotinitpage'] = 'Impossible d\'initialiser totalement la page&nbsp;: $a[0] non valide, identifiant $a[1]';
+$string['cannotinitpage'] = 'Impossible d\'initialiser totalement la page&nbsp;: $a->name non valide, identifiant $a->id';
 $string['cannotsetupsite'] = 'Erreur grave&nbsp;! Impossible de mettre en place le site&nbsp;!';
 $string['cannotsetuptable'] = '$a tables n\'ont pas pu être configurées correctement&nbsp;!';
 $string['cannotupdaterelease'] = 'Erreur&nbsp;: impossible de mettre à jour la version dans la base de données&nbsp;!!';
@@ -21,7 +21,7 @@ $string['dbnotsupport'] = 'Erreur&nbsp;: votre base de données ($a) n\'est pas 
 $string['dbnotupdate'] = 'Erreur de base de données - Modification impossible ($a)';
 $string['doesnotworkwitholdversion'] = 'Ce script ne fonctionne pas avec cette ancienne version de Moodle';
 $string['erroroccur'] = 'Une erreur est survenue durant cette procédure';
-$string['fixsetting'] = 'Veuillez corriger vos réglages dans le fichier config.php. <p>Vous avez&nbsp;:</p> <p>\$CFG->dirroot = \"$a[0]\";</p> <p>alors qu\'il devrait y avoir</p> <p>\$CFG->dirroot = \"$a[1]\"</p>';
+$string['fixsetting'] = 'Veuillez corriger vos réglages dans le fichier config.php. <p>Vous avez&nbsp;:</p> <p>\$CFG->dirroot = \"$a->current\";</p> <p>alors qu\'il devrait y avoir</p> <p>\$CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = 'Taille incorrecte des tableaux dans les paramètres de $a';
 $string['invalideventdata'] = 'Données d\'événement incorrecte&nbsp;: $a';
 $string['modulenotexist'] = 'Le module $a n\'existe pas';
@@ -37,10 +37,8 @@ $string['nomodules'] = 'Aucun module trouvé&nbsp;!';
 $string['nopageclass'] = '$a a été importé, mais aucune classe de page n\'a été trouvée';
 $string['noreports'] = 'Aucun rapport accessible';
 $string['notables'] = 'Pas de tables&nbsp;!';
-$string['phpvaroff'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP devrait être sur Off - $a[1]';
-$string['phpvaron'] = 'La variable «&nbsp;$a[0]&nbsp;» du serveur PHP n\'set pas sur On - $a[1]';
-$string['prefixcannotbeempty'] = 'Le préfixe des tables «&nbsp;$a[0]&nbsp;» ne peut pas être vite avec ce type de base de données ($a[1])'; // Obsolète dès la version 2.0
-$string['prefixlimit'] = 'La longueur maximale du préfixe des tables «&nbsp;$a[0]&nbsp;» dans les bases de données Oracle est de 2 caractères.'; // Obsolète dès la version 2.0
+$string['phpvaroff'] = 'La variable «&nbsp;$a->name&nbsp;» du serveur PHP devrait être sur Off - $a->link';
+$string['phpvaron'] = 'La variable «&nbsp;$a->name&nbsp;» du serveur PHP n\'set pas sur On - $a->link';
 $string['sessionmissing'] = 'L\'objet de session $a n\'est pas présent dans la session';
 $string['siteisnotdefined'] = 'Le site n\'est pas défini&nbsp;!';
 $string['sqlrelyonobsoletetable'] = 'Ce code SQL présuppose des tables obsolètes&nbsp;: $a&nbsp;! Votre code doit être corrigé par un développeur.';

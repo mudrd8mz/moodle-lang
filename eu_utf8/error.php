@@ -4,7 +4,7 @@
 
 $string['adminprimarynoedit'] = 'Lehen mailako kudeatzailea ezin dute besteek editatu.';
 $string['blockdoesnotexist'] = 'Bloke hau ez da existitzen';
-$string['blocknameconflict'] = 'Izenen arteko gatazka: $a[0] blokeak dagoeneko baden beste bloke honen izenburu bera du: $a[1]!';
+$string['blocknameconflict'] = 'Izenen arteko gatazka: $a->name blokeak dagoeneko baden beste bloke honen izenburu bera du: $a->conflict!';
 $string['cannotaddcoursemodule'] = 'Ezin da ikastaro modulu berria gehitu';
 $string['cannotaddnewmodule'] = 'Ezin da modulun berria gehitu $a -rako';
 $string['cannotaddrss'] = 'Ez duzu baimenik RSS jarioak gehitzeko';

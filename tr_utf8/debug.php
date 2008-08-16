@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
 
 
 $string['authpluginnotfound'] = 'Yetkinedirme eklentisi ($a) bulunamadı.';
 $string['cannotbenull'] = '$a, boş olamaz.';
 $string['cannotcreateadminuser'] = 'CİDDİ HATA: Yönetici kullanıcı kaydı oluşturulamadı.';
-$string['cannotdowngrade'] = '$a[0] dan $a[1] e indirgeme yapılamaz.';
+$string['cannotdowngrade'] = '$a->oldversion dan $a->newversion e indirgeme yapılamaz.';
 $string['cannotfindadmin'] = 'Yönetici kullanıcı bulunamadı!';
 $string['cannotinitpage'] = 'Sayfa tamamen ilklenemiyor: hatalı $a[0] id $a[1]';
 $string['cannotsetupsite'] = 'Ciddi hata! Site ayarlanamadı.';
@@ -20,17 +20,15 @@ $string['dbnotsupport'] = 'Hata: Veritabanınız ($a) Moodle tarafından tam ola
 $string['dbnotupdate'] = 'Veritabanı hatası - ($a) güncellenemedi';
 $string['doesnotworkwitholdversion'] = 'Bu betik, Moodle\'ın eski sürümüyle çalışmaz.';
 $string['erroroccur'] = 'İşlem sırasında hata oluştu';
-$string['fixsetting'] = 'Lütfen config.php deki ayarları düzeltin: <p>Şimdiki:</p> <p>$CFG->dirroot = \"$a[0]\";</p><p>Olması gereken:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
+$string['fixsetting'] = 'Lütfen config.php deki ayarları düzeltin: <p>Şimdiki:</p> <p>$CFG->dirroot = \"$a->current\";</p><p>Olması gereken:</p> <p>$CFG->dirroot = \"$a->found\"</p>';
 $string['modulenotexist'] = '$a eklentisi yok';
 $string['noblocks'] = 'Bloklar kurulmadı!';
 $string['nocate'] = 'Kategori yok!';
 $string['nomodules'] = 'Eklentiler bulunamadı!';
 $string['noreports'] = 'Erişilebilecek rapor yok';
 $string['notables'] = 'Tablo Yok!';
-$string['phpvaroff'] = 'PHP değişkeni \'$a[0]\' Kapalı olmalı - $a[1]';
-$string['phpvaron'] = 'PHP değişkeni \'$a[0]\' Açık olmalı - $a[1]';
-$string['prefixcannotbeempty'] = 'Tablo öneki \"$a[0]\", bu veritabanı ($a[1]) için boş olamaz.';
-$string['prefixlimit'] = 'Oracle veritabanı için izin verilen tablo öneki \"$a\" en fazla 2 karakterdir.';
+$string['phpvaroff'] = 'PHP değişkeni \'$a->name\' Kapalı olmalı - $a->link';
+$string['phpvaron'] = 'PHP değişkeni \'$a->name\' Açık olmalı - $a->link';
 $string['siteisnotdefined'] = 'Site id tanımlanmadı!';
 $string['sqlrelyonobsoletetable'] = 'Bu SQL kullanılmayan tablo(lar) üzerinde sorgu çalıştırıyor: $a! Kodunuz bir programcı tarafından düzeltilmeli.';
 $string['upgradefail'] = 'Güncelleme hatası! bakınız: $a';
