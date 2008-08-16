@@ -1,22 +1,46 @@
 <?PHP // $Id$ 
       // admin.php - created with Moodle 1.5.2 (2005060220)
-
-
-$string['adminseesallevents'] = 'Maammulayaashu waxay arkayaan dhacdooyin oo idil';
-$string['adminseesownevents'] = 'Maammulayaashu waa sida isticmaaleyaasha oo kale';
+$string['accessdenied'] = 'Marinka waa la diiday';
+$string['accounts'] = 'Akoonnada';
+$string['adminseesall'] = 'Maamuluhu Dhammaan Wuu Arkaa';
+$string['adminseesallevents'] = 'Maamulayaashu waxay arkayaan dhacdooyin oo idil';
+$string['adminseesownevents'] = 'Maamulayaashu waa sida isticmaaleyaasha oo kale';
+$string['allowcategorythemes'] = 'Oggolow dabuubyada qaybta(category)';
+$string['allowcoursethemes'] = 'Oggolow dabuubyada koorsada';
+$string['allowdeletes'] = 'oggolow tirtiryada';
+$string['allowemailaddresses'] = 'Oggolow raasaska (domains) emailka';
+$string['allowobjectembed'] = 'Allow EMBED and OBJECT tags';
+$string['allowrenames'] = 'Oggolow dib-u-magacbixinta';
+$string['allowuserblockhiding'] = 'Oggolow isticmaalayaashu inay qariyaan bilookyada';
+$string['allowusermailcharset'] = 'U Oggolow isticmaale in u doorto kooxda xuruufaha (character set)';
+$string['allowuserthemes'] = 'U Oggolow dabuubyada isticmaale';
+$string['allowvisiblecoursesinhiddencategories'] = 'Oggolow dhammaan koorsooyinka muuqda ee ku jira qaybaha qarsoon';
+$string['antivirus'] = 'Lid-Fayras';
+$string['appearance'] = 'Muuqaal';
+$string['aspellpath'] = 'Surinka aspell';
+$string['authentication'] = 'Xaqiijinta';
+$string['authsettings'] = 'Maaareynta xaqiijinta';
+$string['autolang'] = 'Si otomaatik ah luqada u helitaan';
+$string['autologinguests'] = 'Otomaatik ku soo gal marti';
+$string['availablelangs'] = 'Boqshadaha luqadaha la heli karo';
+$string['backgroundcolour'] = ' Midab iskadhex-arag ah';
+$string['backups'] = 'Dib-u-keydinta (Backups)';
+$string['badwordsconfig'] = 'Gali liiskaaaga ereyda xun oo ay kala qaybiyaan hakad';
+$string['badwordsdefault'] = 'Haddii liiska ereyda xun ee maran yihiin gaarka ah, waxa la isticmaali doonaa liiska ugu talagalaka ah ee boqshadda luqadda.';
+$string['badwordslist'] = 'Liiska ereyda xun ee gaarka ah';
 $string['blockinstances'] = 'Dhacdooyin';
 $string['blockmultiple'] = 'Badan';
-$string['cachetext'] = 'Cimriga urrurinta tekska';
+$string['cachetext'] = 'Cimriga ururinta tekska';
 $string['calendarsettings'] = 'Kaalender';
 $string['change'] = 'beddel';
 $string['configallowcoursethemes'] = 'Haddii aad kan karti siiso, koorsooyinka waxa loo oggolaanmarkaa iney dabuubooyinkooda dajistaan. Dabuubka koorsada ayaa ka dulbaxa giddi kuwa kale ee ku jira doorashooyinka dabuub (goob, isticmaale, ama kulan dabuubyooyinka)';
 $string['configallowemailaddresses'] = 'Haddii aad rabto inaad ku xaddido giddi cinwaanda \"email\"ada cusub ee raasaska (domains, markaa ku liis garee halkan iyada ooy u dhaxeeyaan meelo madhani. Raasaska kale oo idil waa la diidi. Tusaale
 <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'Ugu talagal tallaabo badbaado helitaan ahaan, isticmaalayaasha caadiga ah looma oggola iney dhex qotamiyaan \"multimedia\" (eey ka mid yihiin flashka) tekstiyo u isticmaalaya \"EMBED\" iyo \"OBJECT\" si toos ah iyaga oo sudhan \"HTML\"kooda (in kasta oo wali loo isticmaali karo sin badbaado leh  iyada oo la isticmaalayoshaandheeyayaasha \"mediaplugins\". Haddii aad rabto inaad u oggolaato wax-sudhakan marakaa karti u sii wax ka doorashadan.';
-$string['configallowunenroll'] = 'Haddii tani tahay \'Haa\', markaa haddaba ardeyda waxa loo oggol yahay iney iskaga baxaan is-qoritaanka koorsooyinka marka ay jecelyiin. Haddii kale looma oggolaanayo, oo nidaamkan waxa kaliya kontroolya bareyaasha iyo maammulayaasha.';
+$string['configallowunenroll'] = 'Haddii tani tahay \'Haa\', markaa haddaba ardeyda waxa loo oggol yahay iney iskaga baxaan is-qoritaanka koorsooyinka marka ay jecelyiin. Haddii kale looma oggolaanayo, oo nidaamkan waxa kaliya kontroolya bareyaasha iyo Maamulayaasha.';
 $string['configallowuserblockhiding'] = 'Ma rabtaa inaad u oggolaato isticmaalayaasha iney qariyaan/tusaan bilookyo dhinaca (ku yaal) giddi goobtaan? Astaantani waxay isticmaaleysaa \"Javascript iyo kukiis (cookies) si ay u xasuustaan bilook kasta la dumin ama la laabi karo, oo kaliya waxay saameyn ku leedahay fiirinta isticmaalaha kaliya.';
 $string['configallowuserthemes'] = 'Haddii aad kan karti siiso, isticmaalayasha waxa loo oggolaanyaa markaa waxa loo oggolaanayaa iney dajistaan dabuubyadooda. Dabuub isticmaalaha ayaa ka adag dabuubyada goobta (laakiin ma aha dabuubyada koorsada)';
-$string['configallusersaresitestudents'] = 'Bogga hore waxqabayada ku yaal ee goobta, miyaa DHAMMAAN isticmaalayaasha loo qataa ardey ahaan? Haddii jawaabtu tahay \"Haa\", markaa isticmaale akoon kasta oo la xaqiijiyey ayaa lloo oggolaanayaa iny uga qayb qaataan ardey ahaan waqbayadaas. Haddii jawaabtu tahay \"Maya\", markaa isticmaalayaasha oo hore uga qayb-qaadaney ugu yaraan hal koorso ayaa karti u lahaan iney ka qayb qaataan waxqabyada bogga hore. Kaliya Maammulayaasha iyo bareyaal gaar ahaan loogu talagaley ayaa ka noqon kara bareyaal waxqabyadan bogga hore.';
+$string['configallusersaresitestudents'] = 'Bogga hore waxqabayada ku yaal ee goobta, miyaa DHAMMAAN isticmaalayaasha loo qataa ardey ahaan? Haddii jawaabtu tahay \"Haa\", markaa isticmaale akoon kasta oo la xaqiijiyey ayaa lloo oggolaanayaa iny uga qayb qaataan ardey ahaan waqbayadaas. Haddii jawaabtu tahay \"Maya\", markaa isticmaalayaasha oo hore uga qayb-qaadaney ugu yaraan hal koorso ayaa karti u lahaan iney ka qayb qaataan waxqabyada bogga hore. Kaliya Maamulayaasha iyo bareyaal gaar ahaan loogu talagaley ayaa ka noqon kara bareyaal waxqabyadan bogga hore.';
 $string['configautologinguests'] = 'Miyey tahay dadka goobta soo booqanayaa iney ku soo galaan marti ahaan si ootamaatik ah marka ay soo galayaan koorsooyinka iyaga oo ku shaqeysanaya marinka martida?';
 $string['configcachetext'] = 'Goobaha sii waaweyn ama goobaha isticmaalaha shaandheeyayaasha tekstka, oo dajintani waxay sida dhabta ah ka caawin in arrimo si dhakhso ah u socdaan. nuqullada teksyada waxa lagu hayn habka lagu nidaamiyey wakhtiga halkan lagu tilmmaamo. U dajinta halkan si hooseysa waxay dhab ahaan qun-yar socod ka dhigi arrimaha aaya-aayar ahaan, laakiin haddii aad loo weyniisiiyo dajintan waxay ka dhigan tahay in tekstigu wakhti badan ka qaadato iney cusbooneysiismmaan (tusaale ahaan, xidhiidhyada cusub)';
 $string['configclamactlikevirus'] = 'Ula dhaqan faylasha sida fayraska';
@@ -29,8 +53,8 @@ $string['configdeleteunconfirmed'] = 'Haddii aad isticmaaleyso xaqiijinta emailk
 $string['configdenyemailaddresses'] = 'Inad u diiddo cinwaanno ka socda raasa gaar ah, sidoo kale isku daba-qor halkan. Raasaska kale oo idil waa la aqbali. tusaale. strong>hotmail.com yahoo.co.uk</strong>';
 $string['configdigestmailtime'] = 'Dadka doorta in loogu soo diro \"email\"lada iyaga ah qaabka cufan, yaa waxa loo soo diri doona cufnnaantaa maalin kasta. Dajintani waxay kantrooleysaa saacadda maalintii la diri doono maalinta.  (Kiroonka [cron] kaca saacadda waxa ka danbeeya ayaa diri)';
 $string['configdisplayloginfailures'] = 'Kani waxa u tusayaa macluumaad isticmaaleyaal la xushay oo ku saabsan soo-gal dhicisoobey.';
-$string['configenablerssfeeds'] = 'Furahani waxa u karti siinyaa \"RSS feeds\" giddi ahaan goobta. In sida dhabta waxa isbeddel ah la arko waxaad u baahan tahay oo kale inaad karti u siiso \"RSS feeds\" gooni ahaantooda dajinta \"Module\"lada oo hoos timaad Habenyta Maammulka.';
-$string['configenablerssfeedsdisabled'] = 'Lama heli karo sababta oo ah \"RSS feeds\" ayaa karti la\'aan ah dhammaan goobta. Inaad karti siiso, tag dajinta Doorsoomayaasha (Variables)ee ku hoos yaal Isku-dubaridka Maammul.';
+$string['configenablerssfeeds'] = 'Furahani waxa u karti siinyaa \"RSS feeds\" giddi ahaan goobta. In sida dhabta waxa isbeddel ah la arko waxaad u baahan tahay oo kale inaad karti u siiso \"RSS feeds\" gooni ahaantooda dajinta \"Module\"lada oo hoos timaad Habenyta Maamulka.';
+$string['configenablerssfeedsdisabled'] = 'Lama heli karo sababta oo ah \"RSS feeds\" ayaa karti la\'aan ah dhammaan goobta. Inaad karti siiso, tag dajinta Doorsoomayaasha (Variables)ee ku hoos yaal Isku-dubaridka Maamul.';
 $string['configerrorlevel'] = 'Dooro inta ay le eg tahay Dhignniinaha PHP ee aad rabto iney soo baxaan. Caadi waa ta badiyaa ugu wanaagsan xulasho ahaan.';
 $string['configextendedusernamechars'] = 'kari u sii dajintan sidii aad ugu oggolaan lahyd ardeyda iney u isticmaalaan dhigaalo(characters)isticmaale-magacooda (u fiirso oo arrintani wax saameyn ah kuma leh magacooda caadiga ah. Ka loogu talagaley waa \"been\" taas oo xaddideysa isticmaale-magacyada iney noqdaan xuruuf-tiro dhigaalkaliya.';
 $string['configfilterall'] = 'Ku shaandhee 9filter) tixaha, ooy ku jiraan madaxyada (headings), cinwaannada (titels), faseexadda iskaga-gooshka(navigation bars) iwm. Arrintani waxay badiyaa waxatar u leedhay marka la isticmaalayo shaandheeyaha luqad-badanaha, haddii kalese waxay u abuuri goobtaada rar dheeraad ah oo ff\'iidadeedu yaryahay.';
@@ -53,9 +77,9 @@ $string['configproxyhost'] = 'Haddii <b>serferkani</b> uu u baahan yahay \"proxy
 $string['configsectionmail'] = 'Mail';
 $string['configsectionmaintenance'] = 'Dayac-tir';
 $string['configsectionmisc'] = 'Jacbur';
-$string['configsectionoperatingsystem'] = 'Operating System';
+$string['configsectionoperatingsystem'] = 'Nidaam Shaqayn (Operating System)';
 $string['configsectionpermissions'] = 'Fasax';
-$string['configsectionsecurity'] = 'nabad xasilin';
+$string['configsectionsecurity'] = 'Nabad xasilin';
 $string['configsectionuser'] = 'Isticmaale';
 $string['configsessioncookie'] = 'Dajintani waxay diyaarineysaa magaca kukiga loo isticmaaley kulannada Moodle. Tani waa wax ikhtiyaar  ah, oo kaliya waxatar u leh in laga fogaado in kukiyadu ay khalkhalaan marka hal nuqul oo Moodle ah wax ka bada ay ka shaqeyneyaan goob web dhexdeeda.';
 $string['configsessiontimeout'] = 'Haddii dadka soo galey goobtani in badan wax dhaqdhaqaaq ah ayna samyn (iyaga oona bogag soo kicin) markaa si ootamaatik ah looga bixin soo gal goobta (Xilligii ku dhex-jirka yaa dhammaanaya). Doorsoomahan ayaa markaa meel-dhigaya wakhtigu inta u le-ekaanayointa ya tahay.';
@@ -79,8 +103,8 @@ $string['pleaseregister'] = 'Fadlan diiwaan gali goobtaada si aad uga saarto bad
 $string['sitemaintenance'] = 'Goobta waxak ka socda dayac-tir oo lama heli karo hadda';
 $string['sitemaintenancemode'] = 'Qaab dayactir';
 $string['sitemaintenanceoff'] = 'Qaabka dayactirka waa karti-la\'aan ayaa laga dhigey oo goobtu waxay u socotaa si caadi ah mar kale';
-$string['sitemaintenanceon'] = 'Goobtaadu hadda waxay ku jirtaa qaab dayac-tir (kaliya maammulka ayaa kara iney dhex-galaan ama isticmaalan goobta).';
-$string['sitemaintenancewarning'] = 'Goobtaadu hadda waxay ku jirtaa qaab dayac-tir (kaliya maammulka ayaa kara iney dhex-galaan. Inaad ku soo celiso shaqadeeda caadi ah, <a href=\"maintenance.php\">karti-la\'aan ka dhig qaabka dayac-tirka</a>.';
+$string['sitemaintenanceon'] = 'Goobtaadu hadda waxay ku jirtaa qaab dayac-tir (kaliya Maamulka ayaa kara iney dhex-galaan ama isticmaalan goobta).';
+$string['sitemaintenancewarning'] = 'Goobtaadu hadda waxay ku jirtaa qaab dayac-tir (kaliya maamulka ayaa kara iney dhex-galaan. Inaad ku soo celiso shaqadeeda caadi ah, <a href=\"maintenance.php\">karti-la\'aan ka dhig qaabka dayac-tirka</a>.';
 $string['therewereerrors'] = 'Waxa ku jirey khalad \"data\"da';
 $string['timezoneforced'] = 'Kani waxa ku jujuubey mammulaha goobta';
 $string['timezoneisforcedto'] = 'Ku jujuub isticmaalyaasha dhammaan iney isticmaalaan';
