@@ -110,6 +110,7 @@ $string['overrideroles'] = 'Définir des dérogations aux rôles';
 $string['overriderolesin'] = 'Définir des dérogations aux rôles dans $a';
 $string['overrides'] = 'Dérogations';
 $string['permissions'] = 'Permissions';
+$string['portfolio:export'] = 'Exporter vers des portfolios';
 $string['potentialusers'] = '$a utilisateurs potentiels';
 $string['prevent'] = 'Empêcher';
 $string['prohibit'] = 'Interdire';
