@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080712) (2008070701)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080816) (2008081506)
 
 
 $string['allattempts'] = '모든 시도';
@@ -26,7 +26,8 @@ $string['optonlygradedattempts'] = '사용자의 득점한 시도만';
 $string['optonlyregradedattempts'] = '재채점 완료/재채점 대상';
 $string['overview'] = '개요';
 $string['overviewdownload'] = '개요 내려받음';
-$string['overviewreportgraph'] = '급간 성취 학생 빈도 그래프';
+$string['overviewreportgraph'] = '급간 성취 학생 빈도';
+$string['overviewreportgraphgroup'] = '\'$a\' 모둠의 급간 성취 학생 빈도';
 $string['pagesize'] = '화면 크기';
 $string['preferencespage'] = '화면 표시 대상';
 $string['preferencessave'] = '설정 저장';
