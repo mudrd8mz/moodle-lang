@@ -2,7 +2,7 @@
 
 $string['addnewportfolio'] = 'Ajouter un portfolio';
 $string['addtoportfolio'] = 'Ajouter au portfolio';
-$string['alreadyexporting'] = 'Vous avez déjà entamé une exportation vers un portfolio durant cette session. Veuillez la terminer d\'abord';
+$string['alreadyexporting'] = 'Vous avez déjà entamé une exportation vers un portfolio durant cette session. Veuillez la terminer d\'abord, ou <a href=\"$a\">cliquer ici pour</a> l\'annuler.';
 $string['availableformats'] = 'Formats d\'exportation disponibles';
 $string['callercouldnotpackage'] = 'Échec de la préparation de vos données pour l\'exportation';
 $string['cannotsetvisible'] = 'Impossible de rendre visible ceci. Le plugin a été désactivé en raison d\'un problème de configuration';
@@ -23,6 +23,8 @@ $string['exportcomplete'] = 'Exportation portfolio terminée&nbsp;!';
 $string['exportedpreviously'] = 'Exportations précédentes';
 $string['exportqueued'] = 'L\'exportation du portfolio a été mise file d\'attente pour tranfert';
 $string['failedtosendpackage'] = 'Échec de l\'envoi de vos données aux système de portfolio sélectionné&nbsp;!';
+$string['filedenied'] = 'Accès au fichier refusé';
+$string['filenotfound'] = 'Fichier introuvable';
 $string['format_file'] = 'Fichier';
 $string['format_mbkp'] = 'Sauvegarde Moodle';
 $string['hidden'] = 'Caché';
@@ -33,7 +35,7 @@ $string['instancenotdelete'] = 'Échec de la suppression du portfolio';
 $string['instancesaved'] = 'Le portfolio a été enregistré';
 $string['invalidformat'] = 'L\'exportation a lieu dans un format non valide, $a';
 $string['invalidinstance'] = 'Impossible de trouver ce portfolio';
-$string['invalidtempid'] = 'Identifiant de dossier temporaire non valide';
+$string['invalidtempid'] = 'Identifiant d\'exportation non valide.';
 $string['manageportfolios'] = 'Gérer les portfolios';
 $string['manageyourportfolios'] = 'Gérer vos portfolios';
 $string['noavailableplugins'] = 'Désolé, il n\'y a aucun portfolio disponible vers lequel exporter';
