@@ -44,6 +44,7 @@ $string['nocommonformats'] = 'Aucun format en commun entre les plugins de portfo
 $string['nopermissions'] = 'Vous n\'avez pas les permissions requises pour exporter des fichiers depuis cette zone';
 $string['nonprimative'] = 'Une valeur incorrecte a été passée comme paramètre à portfolio_add_button. Impossible de continuer. La clef était $a->key et la valeur $a->value';
 $string['notexportable'] = 'Désolé, le type de contenu que vous essayez d\'exporter n\'est pas exportable';
+$string['notimplemented'] = 'Désolé, vous essayez d\'exporter du contenu dans un format non encore implémenté ($a)';
 $string['nouploaddirectory'] = 'Impossible de créer un dossier temporaire dans lequel préparer vos données';
 $string['portfolio'] = 'Portfolio';
 $string['portfolios'] = 'Portfolios';
