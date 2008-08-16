@@ -33,6 +33,7 @@ $string['instanceismisconfigured'] = 'La configuration du portfolio n\'est pas c
 $string['instancenotsaved'] = 'Échec de la sauvegarde du portfolio';
 $string['instancenotdelete'] = 'Échec de la suppression du portfolio';
 $string['instancesaved'] = 'Le portfolio a été enregistré';
+$string['invalidaddformat'] = 'Format à ajouter non valide envoyé à la fonction portfolio_add_button. $a doit être de la forme PORTFOLIO_ADD_XXX';
 $string['invalidformat'] = 'L\'exportation a lieu dans un format non valide, $a';
 $string['invalidinstance'] = 'Impossible de trouver ce portfolio';
 $string['invalidtempid'] = 'Identifiant d\'exportation non valide.';
