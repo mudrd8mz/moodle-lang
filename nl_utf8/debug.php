@@ -25,6 +25,7 @@ $string['erroroccur'] = 'Er is een fout opgetreden tijdens dit proces.';
 $string['fixsetting'] = 'Verbeter je instellingen in config.php: <p>Je hebt:</p> <p>$CFG->dirroot = \"$a->current\";</p> <p>maar het moet:</p> <p>$CFG->dirroot = \"$a->found\" zijn</p>';
 $string['invalidarraysize'] = 'Array grootte in params van $a fout';
 $string['invalideventdata'] = 'Foute gebeurtenisgegevens ingestuurd: $a';
+$string['missingconfigversion'] = 'De versie staat niet in de config-tabel. Kan niet verdergaan.';
 $string['modulenotexist'] = 'module $a bestaat niet';
 $string['morethanonerecordinfetch'] = 'Meer dan één record gevonden !';
 $string['mustbeoveride'] = 'Abstract $a methode moet overschreven worden.';
