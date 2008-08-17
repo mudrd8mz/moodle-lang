@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // chat.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
+$string['ajax'] = 'Verzija koja koristi Ajax';
+$string['autoscroll'] = 'Automatski skrol';
 $string['beep'] = 'zvučni signal';
 $string['cantinsert'] = 'Nije bilo moguće uneti poruku u razgovor!';
 $string['cantlogin'] = 'Nije bilo moguće prijaviti se u pričaonicu!!';
@@ -47,10 +49,11 @@ $string['modulename'] = 'Pričaonica';
 $string['modulenameplural'] = 'Pričaonice';
 $string['neverdeletemessages'] = 'Nikad ne briši poruke';
 $string['nextsession'] = 'Naredna planirana sesija';
-$string['noguests'] = 'Ovaj razgovor nije otvoren za goste';
+$string['nochat'] = 'Nije pronađena nijedna pričaonica';
+$string['noguests'] = 'Ova pričaonica nije otvorena za goste';
 $string['nomessages'] = 'Još nema poruka';
 $string['normalkeepalive'] = 'KeepAlive';
-$string['normalstream'] = 'Stream';
+$string['normalstream'] = 'Tok (Stream)';
 $string['noscheduledsession'] = 'Nema zakazanih sesija';
 $string['notlogged'] = 'Niko nije prijavljen!';
 $string['oldping'] = 'Vreme čekanja na raskid konekcije';
@@ -64,6 +67,8 @@ $string['repeattimes'] = 'Ponovne sesije';
 $string['repeatweekly'] = 'Svake sedmice u isto vreme';
 $string['savemessages'] = 'Sačuvaj prethodne sesije';
 $string['seesession'] = 'Pogledaj ovu sesiju';
+$string['send'] = 'Pošalji';
+$string['sending'] = 'Šalje se';
 $string['serverhost'] = 'Ime servera';
 $string['serverip'] = 'IP adresa servera';
 $string['servermax'] = 'Maksimalan broj korisnika';
@@ -72,6 +77,7 @@ $string['sessions'] = 'Razgovori';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Svako može videti prethodne sesije';
 $string['updatemethod'] = 'Način ažuriranja';
+$string['updaterate'] = 'Brzina ažuriranja:';
 $string['viewreport'] = 'Pogledaj prethodne sesije';
 
 ?>

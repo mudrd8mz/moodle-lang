@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // tag.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['addedotag'] = '\"$a\" je dodato kao zvanična oznaka';
@@ -11,8 +11,12 @@ $string['changetype'] = 'Promena tipa oznake';
 $string['count'] = 'Prebroj';
 $string['delete'] = 'Obriši';
 $string['deleted'] = 'Obrisano';
+$string['deletedcoursetags'] = 'Obrisano - oznake kurseva';
 $string['description'] = 'Opis';
 $string['edittag'] = 'Uredi ovu oznaku';
+$string['errordeleting'] = 'Greška pri brisanju oznake sa id $a, molimo prijavite Vašem sistem administratoru.';
+$string['errortagfrontpage'] = 'Označavanje glavne stranice sajta nije dozvoljeno';
+$string['errorupdatingrecord'] = 'Greška pri ažuriranju zapisa oznake';
 $string['flag'] = 'Indikator';
 $string['flagasinappropriate'] = 'Indikator je neprikladan';
 $string['helprelatedtags'] = 'Povezane oznake razdvojene zarezima';
@@ -32,13 +36,16 @@ $string['removetagfrommyinterests'] = 'Ukloni \"$a\" iz mojih interesovanja';
 $string['reset'] = 'Ponovo postavi';
 $string['resetflag'] = 'Ponovo postavi indikator';
 $string['responsiblewillbenotified'] = 'Osoba koja je za ovo odgovorna će biti obaveštena';
+$string['rssdesc'] = 'Ovaj RSS dovod je bio automatski generisan od Moodle-a i sadrži oznake za kurseve generisane od strane korisnika';
+$string['rsstitle'] = 'RSS dovod oznaka na kursu za korisnika: $a';
 $string['search'] = 'Pretraži';
 $string['searchresultsfor'] = 'Rezultati pretrage za \"$a\"';
 $string['searchtags'] = 'Pretraži oznake';
-$string['seeallblogs'] = 'Videti sve blogove sa ovom oznakom';
+$string['seeallblogs'] = 'Videti sve blogove sa ovom oznakom: \"$a\"...';
 $string['select'] = 'Izaberi';
 $string['tag'] = 'Oznaka';
 $string['tagdescription'] = 'Opis oznake';
+$string['tagindex_coursetitle'] = 'Kursevi označeni sa \"$a\"';
 $string['tags'] = 'Oznake';
 $string['tagsaredisabled'] = 'Oznake nisu dostupne';
 $string['tagtype'] = 'Tip oznake';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.6.2 (2006050520)
+      // wiki.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['action'] = '-- Akcija --';
@@ -17,7 +17,14 @@ $string['binimgtoolarge'] = 'Veličina slike je prevelika!';
 $string['binnoimg'] = 'Ovo je neprihvatljiv format datoteke!';
 $string['browse'] = 'Traži';
 $string['canceledit'] = 'Odustani';
+$string['cannotacceptbin'] = 'Ovaj Viki modul ne prihvata binarne datoteke';
+$string['cannotaccessgroup'] = 'Ne može se pristupiti nijednoj grupi za ovajViki modul';
+$string['cannotaddentry'] = 'Ne može se dodati unos na Viki modul.';
 $string['cannotchangepage'] = 'Ova stranica ne može biti promenjena.';
+$string['cannotdeletelockrecored'] = 'Ne može se obrisati zapis o zaključavanju';
+$string['cannotgetentry'] = 'Ne može se dobiti unos.';
+$string['cannotinsertlockrecored'] = 'Ne može se dodati zapis o zaključavanju';
+$string['cannotstartwith'] = 'Binarni zapis ne počinje sa ($a)';
 $string['changes'] = '$a promene';
 $string['changesfield'] = 'U roku od koliko sati od poslednje promene';
 $string['changesfielderror'] = 'Unesite tačan broj sati.';
@@ -76,6 +83,7 @@ $string['flagtxt'] = 'TXT';
 $string['flagwr'] = 'WR';
 $string['for'] = 'za';
 $string['forbidden'] = 'Niste ovlašćeni da pristupite ovoj stranici';
+$string['groupmodeerror'] = 'Ne može se pristupiti Viki modulu u grupnom režimu kada nisu konfigurisane grupe na nivou kursa';
 $string['groups'] = 'Grupe';
 $string['hits'] = '$a pogodaka';
 $string['howtooperate'] = 'Kako da upravljate';
@@ -86,6 +94,7 @@ $string['htmlonly'] = 'samo HTML';
 $string['index'] = 'Indeks';
 $string['infoaboutpage'] = 'Istorija za:';
 $string['initialcontent'] = 'Odaberite početnu stranicu';
+$string['invalidpageval'] = 'Nepodržana vrednost za stranicu';
 $string['invalidroot'] = 'Niste ovlašćeni da pristupite trenutnoj početnoj stranici tako da mapa sajta ne može biti napravljena.';
 $string['lastchanged'] = 'Poslednji put izmenjeno $a';
 $string['lastmodified'] = 'Poslednja promena';
@@ -108,6 +117,7 @@ $string['nochangestorevert'] = 'Bez promena koje se mogu poništiti.';
 $string['nohtml'] = 'Bez HTML-a';
 $string['nojslockwarning'] = 'Pošto je Javascript isključen u Vašem čitaču, može se dogoditi da neko drugi u isto vreme kad i Vi može da uređuje ovu stranicu. Ako do toga dođe, nećete moći da da sačuvate svoje promene. Molimo pokušajte da ih načinite što je brže moguće, ili da omogućite Javascript i ponovo učitate stranicu.';
 $string['nolinksfound'] = 'Nije pronađen nijedan link na stranici.';
+$string['nopermissiontooverride'] = 'Nemate mogućnost da menjate status zaključavanja uređivanja';
 $string['noregexp'] = 'Ovo mora biti precizno navedena potpuna reč (ne možete koristiti * ili regularni izraz), najbolje je da koristite IP adrese ili ime servera napadača, ali ne navodite broj porta (zato što se povećava sa svakim http pristupom).';
 $string['notadministratewiki'] = 'Nije Vam dopušteno da administrirate ovaj wiki!';
 $string['nothingtostrip'] = 'Nema stranica sa više od jedne verzije.';
@@ -174,6 +184,7 @@ $string['uplinsect'] = 'Postaviti u';
 $string['uplnewnam'] = 'Sačuvaj pod drugačijim imenom';
 $string['upload0'] = 'Koristite ovu formu da biste postavili proizvoljnu binarnu datoteku u wiki:';
 $string['uploadedon'] = 'Postavljeno u';
+$string['uploaderror'] = 'Došlo je do greške tokom postavljanja ($a)';
 $string['uploadpicturebutton'] = 'Postavljanje';
 $string['uplok'] = 'Vaša datoteka je uspešno postavljena.';
 $string['version'] = 'Verzija';

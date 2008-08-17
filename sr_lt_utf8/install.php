@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // install.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['aborting'] = 'Odustajanje od instalacije';
@@ -114,6 +114,13 @@ $string['databasesettingssub_postgres7'] = '<b>Tip:</b> PostgreSQL<br />
 <b>Korisnik:</b> Vaše korisničko ime za pristup bazi podataka<br />
 <b>Lozinka:</b> Vaša lozinka za pristup bazi podataka<br />
 <b>Prefiksi tabela:</b> prefiks koji će se koristiti u nazivima svih tabela (obavezno)';
+$string['databasesettingssub_sqlite3_pdo'] = '<b>Tip:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Eksperimentalno! (nije za zvanično korišćenje)</strong></b><br />
+<b>Host:</b> putanja do direktorijuma gde će biti sačuvane datoteke baze podataka (koristiti potpunu putanju); koristiti  localhost ili ostaviti prazno da bi bio korišćen direktorijum Moodle data <br />
+<b>Ime:</b> ime baze podataka, npr. moodle (opciono)<br />
+<b>Korisnik:</b> korisničko ime Vaše baze podataka (opciono)<br />
+<b>Lozinka:</b> lozinka za pristup Vašoj bazi podataka (opciono)<br />
+<b>Prefiks imena tabela:</b> opcioni prefiks koji se koristi kod imena tabela <br />
+Ime datoteke baze podataka biće određeno prema korisničkom imenu, imenu baze podataka i prema lozinki koju ste uneli iznad.';
 $string['databasesettingswillbecreated'] = '<b>Napomena:</b> Program ѕa instalaciju će automatski pokušati da kreira bazu podataka ukoliko ona ne postoji.';
 $string['databasetype'] = 'Vrsta baze podataka :';
 $string['databaseuser'] = 'Korisničko ime za pristup bazi podataka :';
@@ -280,6 +287,8 @@ $string['sitenewsitems'] = 'Vesti :';
 $string['siteshortname'] = 'Kratak naziv sajta :';
 $string['sitesummary'] = 'Kratak pregled sajta :';
 $string['skipdbencodingtest'] = 'Preskočiti test kodnog rasporeda baze podataka';
+$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Eksperimentalno! (nije za zvanično korišćenje)</strong></b>';
+$string['sqliteextensionisnotpresentinphp'] = 'PHP nije pravilno podešen sa ekstenzijom SQLite. Molimo proverite Vašu datoteku php.ini ili ponovo kompajlirajte PHP.';
 $string['tableprefix'] = 'Prefiks tabele :';
 $string['upgradingactivitymodule'] = 'Nadogradnja modula Aktivnost';
 $string['upgradingbackupdb'] = 'Nadogradnja rezervne kopije baze podataka';

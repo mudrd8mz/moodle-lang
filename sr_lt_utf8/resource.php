@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // resource.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['addresource'] = 'Dodaj resurs';
@@ -99,10 +99,12 @@ $string['parameter'] = 'Parametar';
 $string['parameters'] = 'Parametri';
 $string['popupresource'] = 'Ovaj resurs treba da se pojavi u iskačućem prozoru.';
 $string['popupresourcelink'] = 'Ako nije, kliknite ovde: $a';
+$string['portfolionotimplemented'] = 'Pokušavate da izvezete sadržaj iz tipa resursa koji to ne podržava!';
 $string['preview'] = 'Prikaz';
 $string['previous'] = 'Prethodno';
 $string['redeploy'] = 'Ponovo rasporedi';
 $string['repository'] = 'IMS repozitorijum';
+$string['resource:exportresource'] = 'Izvezi resurs';
 $string['resource:view'] = 'Prikaz resursa';
 $string['resourcedefaulturl'] = 'Podrazumevana URL adresa';
 $string['resourcetype'] = 'Tip resursa';

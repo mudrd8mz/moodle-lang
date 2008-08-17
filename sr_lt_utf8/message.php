@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // message.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['addcontact'] = 'Dodavanje kontakta';
@@ -14,19 +14,27 @@ $string['beepnewmessage'] = 'Kada stigne nova poruka obavesti me zvučnim signal
 $string['blockcontact'] = 'Blokiraj kontakt';
 $string['blockedmessages'] = '$a poruka za/od blokiranih korisnika';
 $string['blocknoncontacts'] = 'Blokiraj sve nove poruke od korisnika koji nisu na mojoj listi kontakata';
+$string['cannotsavemessageprefs'] = 'Nije bilo moguće sačuvati korisnička podešavanja za poruke.';
 $string['contactlistempty'] = 'Vaša lista kontakta je trenutno prazna';
 $string['contacts'] = 'Kontakti';
 $string['context'] = 'kontekst';
 $string['deletemessagesdays'] = 'Broj dana nakon kojih se sve stare poruke automatski brišu';
+$string['disabled'] = 'Razmenjivanje poruka nije omogućeno na ovom sajtu';
 $string['discussion'] = 'Diskusija';
+$string['editmymessage'] = 'Razmena poruka';
 $string['emailmessages'] = 'Pošalji mi poruke e-poštom kad nisam na sajtu';
 $string['emailtagline'] = 'Ova elektronska poruka je kopija poruke koju Vam je poslao/la \"$a\"';
 $string['emptysearchstring'] = 'Morate nešto tražiti';
 $string['formorethan'] = 'Za više od';
+$string['general_config'] = 'Opšte opcije';
+$string['guestnoeditmessage'] = 'Korisnici gosti ne mogu uređivati opcije za razmenjivanje poruka';
+$string['guestnoeditmessageother'] = 'Korisnici gosti ne mogu uređivati opcije za razmenjivanje poruka drugih korisnika';
 $string['includeblockedusers'] = 'Uključi blokirane korisnike';
 $string['incomingcontacts'] = 'Prispeli kontakti ($a)';
 $string['keywords'] = 'Ključne reči';
 $string['keywordssearchresults'] = 'Rezultati pretrage: $a poruka je pronađeno';
+$string['loggedin'] = 'Prijavljeni:';
+$string['loggedoff'] = 'Odjavljeni:';
 $string['mailsent'] = 'Vaša poruka je poslata elektronskom poštom';
 $string['maxmessages'] = 'Maksimalan broj poruka za prikazivanje u istoriji diskusija';
 $string['message'] = 'Poruka';
@@ -49,6 +57,10 @@ $string['onlyfromme'] = 'Samo poruke koje sam ja poslao/la';
 $string['onlymycourses'] = 'Samo u mojim kursevima';
 $string['onlytome'] = 'Samo poruke poslate meni';
 $string['pagerefreshes'] = 'Ova stranica se automatski osvežava svakih $a sekundi';
+$string['processor_config'] = 'Konfiguracija odredištâ';
+$string['processortag'] = 'Odredište:';
+$string['providers_config'] = 'Izvori poruka';
+$string['providerstag'] = 'Izvor:';
 $string['readmessages'] = '$a pročitanih poruka';
 $string['removecontact'] = 'Obriši kontakt';
 $string['savemysettings'] = 'Sačuvaj moja podešavanja';
