@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
+      // debug.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
 
 
 $string['authpluginnotfound'] = 'Додатак за проверу идентитета $a није пронађен.';
+$string['blocknotexist'] = 'Блок $a не постоји';
 $string['cannotbenull'] = '$a не може бити празно (null)!';
 $string['cannotcreateadminuser'] = 'ОЗБИЉНА ГРЕШКА: Није могуће креирати запис о администраторском кориснику!!!';
 $string['cannotdowngrade'] = 'Не може се прећи на старију верзију са $a->oldversion на $a->newversion.';
@@ -24,6 +25,7 @@ $string['erroroccur'] = 'Дошло је до грешке у току овог 
 $string['fixsetting'] = 'Молимо да исправите подешавања у config.php: <p>Ви имате:</p> <p>$CFG->dirroot = \"$a->current\";</p> <p>а треба да буде:</p> <p>$CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = 'Неисправна величина низова у параметрима $a';
 $string['invalideventdata'] = 'Прослеђени су неисправни подаци о догађању: $a';
+$string['missingconfigversion'] = 'Табела config не садржи податке о верзији, па нажалост није могуће наставити.';
 $string['modulenotexist'] = 'Модул $a не постоји';
 $string['morethanonerecordinfetch'] = 'Пронађено више од једног записа у fetch() !';
 $string['mustbeoveride'] = 'Апстрактни метод $a мора бити замењен.';
