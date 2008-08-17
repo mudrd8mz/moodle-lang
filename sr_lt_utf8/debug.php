@@ -3,6 +3,7 @@
 
 
 $string['authpluginnotfound'] = 'Dodatak za proveru identiteta $a nije pronađen.';
+$string['blocknotexist'] = 'Blok $a ne postoji';
 $string['cannotbenull'] = '$a ne može biti prazno (null)!';
 $string['cannotcreateadminuser'] = 'OZBILJNA GREŠKA: Nije moguće kreirati zapis o administratorskom korisniku!!!';
 $string['cannotdowngrade'] = 'Ne može se preći na stariju verziju sa $a->oldversion na $a->newversion.';
@@ -24,6 +25,7 @@ $string['erroroccur'] = 'Došlo je do greške u toku ovog procesa';
 $string['fixsetting'] = 'Molimo da ispravite podešavanja u config.php: <p>Vi imate:</p> <p>$CFG->dirroot = \"$a->current\";</p> <p>a treba da bude:</p> <p>$CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = 'Neispravna veličina nizova u parametrima $a';
 $string['invalideventdata'] = 'Prosleđeni su neispravni podaci o događanju: $a';
+$string['missingconfigversion'] = 'Tabela config ne sadrži podatke o verziji, pa nažalost nije moguće nastaviti.';
 $string['modulenotexist'] = 'Modul $a ne postoji';
 $string['morethanonerecordinfetch'] = 'Pronađeno više od jednog zapisa u fetch() !';
 $string['mustbeoveride'] = 'Apstraktni metod $a mora biti zamenjen.';
