@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080805) (2008080401)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -628,8 +628,6 @@ $string['recaptchapublickey'] = 'ReCAPTCHA 공개키';
 $string['releasenoteslink'] = '무들 버전에 대한 정보를 얻기 위해서는 온라인 <a target=\"_new\" href=\"$a\">릴리즈 노트</a> 를 보십시요.';
 $string['remotelangnotavailable'] = '무들이 download.moodle.org에 접속하지 못했기 때문에 언어팩을 자동으로 설치하지 못하였습니다. 수동으로 아래에 제시된 목록에서 적절한 zip파일을 내려받아 여러분의 $a 디랙토리에 풀어넣기 바랍니다.';
 $string['renameerrors'] = '이름변경 오류';
-$string['repsettings'] = '저장소 관리';
-$string['repsettingsgeneral'] = '일반 저장소 설정';
 $string['requiredtemplate'] = '필수사항. 여기에 템플릿 문법을 사용할 수 있습니다 (%%l = 성, %%f = 이름, %%u = 사용자 ID). 세부사항과 예제는 도움말을 보세요.';
 $string['restrictbydefault'] = '초기 설정으로 모듈 제한';
 $string['restrictmodulesfor'] = '다음에 대하여 모듈 제한';
@@ -728,6 +726,7 @@ $string['upgradesettingsintro'] = '아래의 설정이 지난 무들 판올림�
 $string['upgradesure'] = '무들의 파일이 갱신되었고  당신의 서버를<br /><br />
  <strong>$a</strong> <br /><br />
 버전으로 자동 업그레이드할 준비가 되었습니다. 일단 이 과정을 시작하면 되돌이킬 수 없습니다.<br /><br />확실히 이 서버를 새 버전으로 업그레이드 하시겠습니까?';
+$string['upgradetimedout'] = '판올림 제한 시간이 초과되었습니다. 다시 시작해 보기 바랍니다.';
 $string['upgradingdata'] = '데이터 갱신';
 $string['upgradinglogs'] = '경과기록(로그) 갱신';
 $string['uploadpicture_baduserfield'] = '사용자 속성 지정이 잘못되었습니다. 다시 시도하기 바랍니다.';
@@ -789,6 +788,8 @@ $string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없
 $string['xmlrpcrecommended'] = '추가적인 xmlrpc 확장 설치는 무들 네트웍이 제대로 작동하는 데 쓸모가 있습니다.';
 $string['xmlstrictheaders'] = 'XML 정규 헤더';
 $string['ziprequired'] = '더 이상  info-ZIP 이나 PclZip 라이브러리가 사용되지 않으므로 Zip PHP확장자가 필요합니다.';
+$string['repsettings'] = '저장소 관리'; // ORPHANED
+$string['repsettingsgeneral'] = '일반 저장소 설정'; // ORPHANED
 $string['enableallowedip'] = 'IP 접속 제한 사용'; // ORPHANED
 $string['enableallowedipdesc'] = '만일 이 옵션을 켜면 허용된 IP 목록에 있는 IP만 접속할 수 있으며, 차단된 목록에 있는 IP는 접속이 불허된다.'; // ORPHANED
 $string['ipinblockedlist'] = '이 사이트는 현재 사용할 수 없습니다.'; // ORPHANED
