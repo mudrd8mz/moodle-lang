@@ -4,7 +4,7 @@
 $string['adminview'] = 'Arag Maamule';
 $string['allcourses'] = 'Isticmaale maamule wuu arki karaa dhammaan koorsooyinka';
 $string['blockname'] = 'Liiska Koorsooyinka';
-$string['configadminview'] = 'Maxaa u maamuluhu ka arki karaa liiska bilooka koorsada.';
+$string['configadminview'] = 'Maxaa ah in u maamuluhu ka arko liiska bilooka koorsada?';
 $string['owncourses'] = 'Maamule isticmaale waxa u arki karaa koorsooyinkiisa/keeda.';
 $string['confighideallcourseslink'] = 'Qari \"Dhammaan koorsooyinka\"ku xir bilookga hoostiisa. Qarinta ku xirka saamayn kuma laha maamule\ arag';
 $string['hideallcourseslink'] = 'Qari dhammaan ku xirka koorsooyinka';
