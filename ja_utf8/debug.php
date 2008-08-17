@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 
 $string['authpluginnotfound'] = '認証プラグイン $a が見つかりませんでした。';
+$string['blocknotexist'] = '$a ブロックがありません。';
 $string['cannotbenull'] = '$a には、nullを使用できません!';
 $string['cannotcreateadminuser'] = '深刻なエラー: adminユーザレコードを作成できませんでした!!!';
-$string['cannotdowngrade'] = '$a->oldversion  から $a->newversion にはダウングレードできません。';
+$string['cannotdowngrade'] = '$a->oldversion から $a->newversion にはダウングレードできません。';
 $string['cannotfindadmin'] = '管理ユーザが見つかりませんでした!';
 $string['cannotinitpage'] = 'ページを完全に初期化できません: 無効 $a->name ID $a->id';
 $string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!';
@@ -24,6 +25,7 @@ $string['erroroccur'] = '処理中にエラーが発生しました。';
 $string['fixsetting'] = 'config.php設定を修正してください: <p>あなたは次のように設定していますが:</p> <p>$CFG->dirroot = \"$a->current\";</p> <p>実際には次のように設定する必要があります:</p> <p>$CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = '$a の変数内の配列サイズが正しくありません。';
 $string['invalideventdata'] = '正しくないイベントデータが送信されました: $a';
+$string['missingconfigversion'] = 'configテーブルにバージョンが含まれていません。申し訳ございません、続けることはできません。';
 $string['modulenotexist'] = '$a モジュールがありません。';
 $string['morethanonerecordinfetch'] = 'fetch() に1レコード以上のレコードが見つかりました!';
 $string['mustbeoveride'] = '抽象メソッド $a は、オーバーライドしてください。';
@@ -43,7 +45,9 @@ $string['sessionmissing'] = 'セッションに $a オブジェクトがあり�
 $string['siteisnotdefined'] = 'サイトが定義されていません!';
 $string['sqlrelyonobsoletetable'] = 'このSQLは古いテーブル $a を参照しています! あなたのコードは、開発者により修正される必要があります。';
 $string['upgradefail'] = 'アップグレードに失敗しました! 詳細: $a';
-$string['withoutversion'] = 'メインversion.phpが読めないか、指定されていません。';
+$string['withoutversion'] = 'メインversion.phpが存在しないか、読めない、または指定されていません。';
 $string['xmlizeunavailable'] = 'xmlize関数を利用できません。';
+$string['prefixcannotbeempty'] = 'あなたのターゲットDB ($a[1]) では、テーブル接頭辞「 $a[0] 」を空にすることはできません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['prefixlimit'] = 'Oracle DBで許可されるテーブル接頭辞「 $a 」の最大長は、2ccです。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 ?>

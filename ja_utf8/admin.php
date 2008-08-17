@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080807) (2008080701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -720,6 +720,7 @@ $string['upgradesure'] = 'あなたのMoodleファイルが更新されました
 一旦この処理を開始すると元に戻すことはできません。<br /><br />
 この処理には時間がかかりますので注意してください。<br /><br />
 本当にこのサーバのMoodleをこのバージョンにアップグレードしてもよろしいですか?';
+$string['upgradetimedout'] = 'アップグレードがタイムアウトしました。アップグレードをリスタートしてください。';
 $string['upgradingdata'] = 'データのアップグレード';
 $string['upgradinglogs'] = 'ログのアップグレード';
 $string['uploadpicture_baduserfield'] = '指定されたユーザ属性は有効ではありません。再度お試しください。';
@@ -781,15 +782,15 @@ $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネ�
 $string['xmlrpcrecommended'] = '任意のxmlrpc拡張モジュールのインストールは、Moodleネットワーキング機能に有用です。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
 $string['ziprequired'] = 'MoodleではPHP Zip拡張モジュールが必須です。info-ZIPバイナリまたはPclZipライブラリは、今後使用されません。';
-$string['enableallowedip'] = 'これらのIPアドレスからのクライアントを許可する'; // TBD
-$string['enableallowedipdesc'] = 'このオプションを有効にした場合、「許可されたIPアドレスリスト」のIPアドレスのみアクセスを許可されます。同時に「ブロックIPアドレスリスト」のIPアドレスがブロックされます。'; // TBD
-$string['ipinblockedlist'] = '現在、このサイトは利用できません。'; // TBD
-$string['ipoutallowedlist'] = '現在、このサイトは利用できません。'; // TBD
-$string['addcounter'] = 'カウンタを付加する'; // TBD
-$string['csvseparator'] = 'CSVセパレータ'; // TBD
-$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; // TBD
-$string['skipuser'] = 'ユーザをスキップする'; // TBD
-$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; // TBD
-$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; // TBD
+$string['enableallowedip'] = 'これらのIPアドレスからのクライアントを許可する'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['enableallowedipdesc'] = 'このオプションを有効にした場合、「許可されたIPアドレスリスト」のIPアドレスのみアクセスを許可されます。同時に「ブロックIPアドレスリスト」のIPアドレスがブロックされます。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['ipinblockedlist'] = '現在、このサイトは利用できません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['ipoutallowedlist'] = '現在、このサイトは利用できません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['skipuser'] = 'ユーザをスキップする'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 ?>

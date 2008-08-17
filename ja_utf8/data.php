@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // data.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 
 $string['action'] = '操作';
@@ -32,10 +32,8 @@ $string['cannotaccesspresentsother'] = 'あなたは他のユーザのプリセ�
 $string['cannotadd'] = 'エントリを追加できません!';
 $string['cannotdeletepreset'] = 'プリセットの削除中にエラーが発生しました!';
 $string['cannotinsertempty'] = '空のレコードを作成できませんでした!';
-$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。';
 $string['cannotrate'] = 'アイテムの評価が許可されていません!';
 $string['cannotunziptopreset'] = 'プリセットディレクトリにZIPファイルを解凍できません。';
-$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。';
 $string['checkbox'] = 'チェックボックス';
 $string['chooseexportfields'] = 'あなたがエクスポートしたいフィールドを選択してください:';
 $string['chooseexportformat'] = 'あなたがエクスポートしたいフォーマットを選択してください:';
@@ -277,10 +275,12 @@ $string['usestandard'] = 'プリセットを使用する';
 $string['viewfromdate'] = '表示開始';
 $string['viewtodate'] = '表示終了';
 $string['wrongdataid'] = '無効なデータIDが提供されました。';
-$string['invaliddata'] = 'データが正しくありません。'; // TBD
-$string['csvformat'] = 'CSVフォーマット'; // TBD
-$string['excelformat'] = 'Excelフォーマット'; // TBD
-$string['exportdatabase'] = 'データベースレコードをエクスポートする'; // TBD
-$string['odsformat'] = 'ODSフォーマット'; // TBD
+$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['invaliddata'] = 'データが正しくありません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['csvformat'] = 'CSVフォーマット'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['excelformat'] = 'Excelフォーマット'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['exportdatabase'] = 'データベースレコードをエクスポートする'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['odsformat'] = 'ODSフォーマット'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 ?>

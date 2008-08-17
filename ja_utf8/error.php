@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080812) (2008081200)
+      // error.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -11,7 +11,7 @@ $string['blockcannotinistantiate'] = 'ブロックオブジェクトのインス
 $string['blockcannotread'] = 'ブロックID= $a のデータを読み込めませんでした。';
 $string['blockdoesnotexist'] = 'このブロックはありません。';
 $string['blocknameconflict'] = 'ネーミングコンフリクト: ブロック $a->name には、既存のブロック $a->conflict と同じタイトルが設定されています!';
-$string['boundsyntaxnotsupport'] = 'Pg \$1、\$2 バウンドシンタックスは、まだサポートされていません :-(';
+$string['boundsyntaxnotsupport'] = 'Pg $1、$2 バウンドシンタックスは、まだサポートされていません :-(';
 $string['cannofindgradeitem'] = '評定項目が見つかりません。';
 $string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!';
 $string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。';
@@ -138,6 +138,7 @@ $string['cannotupdatemodcap'] = '$a のケイパビリティを更新できま�
 $string['cannotupdatepasswordonextauth'] = '外部認証「 $a 」のパスワードの更新に失敗しました。詳細はサーバログをご覧ください。';
 $string['cannotupdateplugincap'] = '$a のケイパビリティを更新できませんでした!';
 $string['cannotupdateprofile'] = 'ユーザレコードの更新中にエラーが発生しました。';
+$string['cannotupdaterate'] = '古い評価 ($a->id = $a->rating) を更新できませんでした。';
 $string['cannotupdaterecord'] = 'レコードID $a を更新できませんでした。';
 $string['cannotupdaterole'] = 'ロールを更新できません!';
 $string['cannotupdaterss'] = 'RSSを更新できません。';
@@ -203,7 +204,7 @@ $string['errorunzippingfiles'] = 'ファイルの解凍処理中にエラーが�
 $string['expiredkey'] = 'キーの有効期限が切れています。';
 $string['failtoloadblocks'] = '1つまたはそれ以上のブロックがデータベースに登録されていますが、すべて読み込みに失敗しました!';
 $string['fieldrequired'] = '「 $a 」 は必須項目です。';
-$string['filemismatch'] = 'ノンコアのファイル名が一致しません。ファイル「 $a->current 」は、$a->fileであるべきです。';
+$string['filemismatch'] = 'ノンコアのファイル名が一致しません。ファイル「 $a->current 」は、「 $a->file 」であるべきです。';
 $string['filenotfound'] = '申し訳ございません、ファイルが見つかりませんでした。';
 $string['filternotactive'] = '現在、フィルタ $a は有効ではありません。';
 $string['filternotinstalled'] = '現在、フィルタ $a はインストールされていません。';
@@ -258,7 +259,7 @@ $string['invalidmodule'] = '無効なモジュールです。';
 $string['invalidmoduleid'] = '無効なモジュールID ($a) です。';
 $string['invalidmodulename'] = '無効なモジュール名 ($a) です。';
 $string['invalidnum'] = '無効な数値です。';
-$string['invalidnumkey'] = '\$conditions 配列には、数字キーを含むことができません、コードを修正してください!';
+$string['invalidnumkey'] = '$conditions 配列には、数字キーを含むことができません、コードを修正してください!';
 $string['invalidoutcome'] = '無効なアウトカムIDです。';
 $string['invalidpagesize'] = '無効なページサイズです。';
 $string['invalidpaymentmethod'] = '無効な支払方法: $a';
@@ -409,6 +410,7 @@ $string['unsupportedevent'] = 'サポートされていないイベントタイ�
 $string['updatersserror'] = 'ID $a のRSSフィードの更新中にエラーが発生しました。';
 $string['upgradefail'] = 'アップグレードに失敗しました! $a';
 $string['upgraderequires19'] = 'エラー: このサーバに新しいMoodleバージョンがインストールされました。残念ですが、前のバージョンからのアップグレードがサポートされていません。<br />最初に、最新の1.9.xリリースにアップグレードしてください。オリジナルファイルを再インストールすることで、あなたは元のバージョンに戻ることができます。';
+$string['upgraderunning'] = 'サイトはアップグレード中です。後ほどお試しください。';
 $string['upgradeversionfail'] = 'バックアップシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)';
 $string['urlnotdefinerss'] = 'RSSフィードのURIが定義されていません。';
 $string['userautherror'] = '不明な認証プラグイン「 $a 」';
@@ -438,7 +440,8 @@ $string['wrongsourcebase'] = 'ソースURIベースが正しくありません�
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
-$string['cannotmovezip'] = 'ZIPファイルを移動できません。'; // TBD
-$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; // TBD
+$string['cannotinitpage'] = 'ページを迅速に初期化できません、コースID: $a'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['cannotmovezip'] = 'ZIPファイルを移動できません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 ?>
