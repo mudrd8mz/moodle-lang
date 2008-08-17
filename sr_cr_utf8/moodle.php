@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // moodle.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['abouttobeinstalled'] = 'ће управо бити инсталирано';
@@ -883,6 +883,8 @@ $string['memberincourse'] = 'Учесници у курсу';
 $string['messagebody'] = 'Тело поруке';
 $string['messagedselectedusers'] = 'Изабраним студентима је послата порука и ресетован је списак прималаца.';
 $string['messagedselectedusersfailed'] = 'Нешто није било у реду при слању поруке изабраним корисницима. Неки од њих су ипак можда примили послату поруку.';
+$string['messageprovider:errors'] = 'Важне грешке у вези са сајтом';
+$string['messageprovider:notices'] = 'Обавештења о мањим проблемима';
 $string['messageselect'] = 'Изаберите овог корисника као примаоца е-поруке';
 $string['messageselectadd'] = 'Додај/пошаљи поруку';
 $string['metaaddcourse'] = 'Додај овај курс';
@@ -913,6 +915,7 @@ $string['missinglastname'] = 'Недостаје презиме';
 $string['missingname'] = 'Недостаје име';
 $string['missingnewpassword'] = 'Недостаје нова лозинка';
 $string['missingpassword'] = 'Недостаје лозинка';
+$string['missingrecaptchachallengefield'] = 'Недостаје поље за reCAPTCHA';
 $string['missingreqreason'] = 'Недостаје разлог';
 $string['missingshortname'] = 'Недостаје кратки назив';
 $string['missingshortsitename'] = 'Недостаје кратки назив сајта';
@@ -1491,15 +1494,18 @@ $string['updatinga'] = 'Ажурирање: $a';
 $string['updatingain'] = 'Ажурирање $a->what у $a->in';
 $string['upload'] = 'Постављање';
 $string['uploadafile'] = 'Постављање датотеке';
+$string['uploadcantwrite'] = 'Неуспешно уписивање датотеке на диск';
 $string['uploadedfile'] = 'Датотека је успешно постављена';
 $string['uploadedfileto'] = 'Датотека $a->file је постављена у директоријум $a->directory';
 $string['uploadedfiletoobig'] = 'Нажалост, наведена датотека је превелика (ограничење износи $a бајта)';
+$string['uploadextension'] = 'Постављање датотеке прекинуто од стране екстензије';
 $string['uploadfailednotrecovering'] = 'Постављање Ваших датотека није успело јер је уочен проблем са једном од њих, $a->name.<br /> Овде је извештај о уоченим проблемима:<br />$a->problem<br />Нема опоравка.';
 $string['uploadfilelog'] = 'Извештај о постављању датотеке $a';
 $string['uploadformlimit'] = 'Датотека која је постављена премашила је ограничење за максималну величину одређено формуларом';
 $string['uploadlabel'] = 'Наслов:';
 $string['uploadnofilefound'] = 'Датотека није пронађена - јесте ли сигурни да сте одабрали датотеку за постављање?';
 $string['uploadnotallowed'] = 'Постављање није дозвољено';
+$string['uploadnotempdir'] = 'Недостаје привремени фолдер';
 $string['uploadoldfilesdeleted'] = 'Старе датотеке у Вашем одељку за постављање су обрисане';
 $string['uploadpartialfile'] = 'Постављање датотеке није извршено у потпуности';
 $string['uploadproblem'] = 'Приликом постављања датотеке \'$a\' догодила се непозната грешка (можда је наведена датотека била превелика?)';

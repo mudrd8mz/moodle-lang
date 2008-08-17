@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_calculated.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['addmoreanswerblanks'] = 'Додај још једно празно поље за одговор';
@@ -23,6 +23,8 @@ $string['nodataset'] = 'ништа - ово није џокер';
 $string['nosharedwildcard'] = 'Нема џокера у овој категорији';
 $string['possiblehdr'] = 'Могући џокери су присутни само у тексту питања';
 $string['tolerance'] = 'Одступање &plusmn;';
+$string['trueanswerinsidelimits'] = 'Тачан одговор: $a->correct унутар граница тачне вредности $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">ГРЕШКА Тачан одговор: $a->correct изван граница тачне вредности $a->true</span>';
 $string['updatecategory'] = 'Ажурирај категорију';
 $string['usedinquestion'] = 'Коришћено у питању';
 $string['youmustenteramultiplierhere'] = 'Овде морате унети множилац.';

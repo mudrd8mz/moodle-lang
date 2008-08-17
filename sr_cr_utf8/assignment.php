@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.1+ (Build: 20080611) (2007101513)
+      // assignment.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['allowdeleting'] = 'Дозволити брисање';
@@ -7,6 +7,7 @@ $string['allowmaxfiles'] = 'Максималан број постављених
 $string['allownotes'] = 'Дозволити белешке';
 $string['allowresubmit'] = 'Дозволити поновно предавање задатка';
 $string['alreadygraded'] = 'Ваш задатак је већ оцењен и поновно решавање задатка није дозвољено.';
+$string['assignment:exportownsubmission'] = 'Извези сопствена решења';
 $string['assignment:grade'] = 'Оцењивање задатка';
 $string['assignment:submit'] = 'Предаја задатка';
 $string['assignment:view'] = 'Преглед задатка';

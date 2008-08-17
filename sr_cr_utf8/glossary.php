@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.1+ (Build: 20080611) (2007101513)
+      // glossary.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['addcomment'] = 'Додаj коментар';
 $string['addentry'] = 'Додај нови појам';
 $string['addingcomment'] = 'Додавање коментара';
+$string['alias'] = 'Кључна реч';
 $string['aliases'] = 'Кључне речи';
 $string['allcategories'] = 'Све категорије';
 $string['allentries'] = 'СВЕ';
