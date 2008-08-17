@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // error.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 
 $string['adminprimarynoedit'] = 'Het profiel van de beheerder met het kleinste gebruikersnummer kan door de andere beheerders niet gewijzigd worden';
@@ -11,7 +11,7 @@ $string['blockcannotinistantiate'] = 'Probleem met het inistialiseren van het bl
 $string['blockcannotread'] = 'Kon gegevens voor blokid=$a niet lezen';
 $string['blockdoesnotexist'] = 'Dit blok bestaat niet';
 $string['blocknameconflict'] = 'Naamconflikt: blok $a->name heeft dezelfde titel als een ander blok: $a->conflict!';
-$string['boundsyntaxnotsupport'] = 'Pg \$1, \$2 bound syntax nog niet ondersteund :-(';
+$string['boundsyntaxnotsupport'] = 'Pg $1, $2 bound syntax nog niet ondersteund :-(';
 $string['cannofindgradeitem'] = 'Kan grade_item niet vinden';
 $string['cannotaddblock'] = 'Blok $a kon niet toegevoegd worden aan de blokkenlijst!';
 $string['cannotaddcmtosection'] = 'Kon geen nieuwe cursusmodule toevoegen in die sectie';
@@ -138,6 +138,7 @@ $string['cannotupdatemodcap'] = 'Kon de $a -mogelijkheden niet updaten';
 $string['cannotupdatepasswordonextauth'] = 'Updaten van het wachtwoord op extern systeem $a mislukt. Bekijk de serverlogs voor meer details.';
 $string['cannotupdateplugincap'] = 'Kon de $a -mogelijkheden niet updaten';
 $string['cannotupdateprofile'] = 'Fout bij het aanpassen van de gebruiker';
+$string['cannotupdaterate'] = 'Kon oude beoordeling niet updaten ($a->id = $a->rating)';
 $string['cannotupdaterecord'] = 'Kon record ID $a niet updaten';
 $string['cannotupdaterole'] = 'Kon rol niet updaten!';
 $string['cannotupdaterss'] = 'Kan RSS niet updaten';
@@ -258,7 +259,7 @@ $string['invalidmodule'] = 'Ongeldige module';
 $string['invalidmoduleid'] = 'Ongeldige module ID: $a';
 $string['invalidmodulename'] = 'Ongeldige modulenaam: $a';
 $string['invalidnum'] = 'Ongeldige numerieke waarde';
-$string['invalidnumkey'] = '\$conditions array mag geen nummerieke sleutels bevatten. Verbeter de code!';
+$string['invalidnumkey'] = '$conditions array mag geen nummerieke sleutels bevatten. Verbeter de code!';
 $string['invalidoutcome'] = 'Ongeldig competentie ID';
 $string['invalidpagesize'] = 'Ongeldige paginagrootte';
 $string['invalidpaymentmethod'] = 'Ongeldige betalingsmetode: $a';
@@ -410,6 +411,7 @@ $string['unsupportedevent'] = 'Gebeurtenistype niet ondersteund';
 $string['updatersserror'] = 'Er is een fout opgetreden bij het updaten van een rss feed met id: $a';
 $string['upgradefail'] = 'Upgrade mislukt! $a';
 $string['upgraderequires19'] = 'FOUT: er is een nieuwe Moodle versie geïnstalleerd op je server, maar upgrade vanaf je vorige versie is niet ondersteund.<br />Upgrade eerst naar de laatste 1.9.x-versie. Je kunt ook terug naar je vorige versie door de Moodle-bestanden van die versie terug te plaatsen.';
+$string['upgraderunning'] = 'Site wordt geüpgrade. Probeer later nog eens.';
 $string['upgradeversionfail'] = 'Upgrade van het backupsysteem mislukt! (kon versie niet updaten in de config tabel)';
 $string['urlnotdefinerss'] = 'URL voor rss feed niet gedefiniëerd';
 $string['userautherror'] = 'Onbekende authenticatieplugin';

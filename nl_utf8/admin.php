@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -726,6 +726,7 @@ $string['upgradesettingsintro'] = 'Onderstaande instellingen werden toegevoegd s
 $string['upgradesure'] = 'De bestanden op je Moodleserver zijn gewijzigd en je gaat zo dadelijk je server automatisch upgraden naar versie: <p><b>$a</b></p>
 <p>Als je dit doet, kun je niet meer terug.</p>
 <p>Ben je er er zeker van dat je deze server naar die versie wil upgraden?</p>';
+$string['upgradetimedout'] = 'Er is een time-out opgetreden. Herstart de upgrade.';
 $string['upgradingdata'] = 'Bezig met het upgraden van de gegevens';
 $string['upgradinglogs'] = 'Bezig met upgraden van logs';
 $string['uploadpicture_baduserfield'] = 'Het gespecifiëerde gebruikersattribuut is niet geldig. Probeer opnieuw.';

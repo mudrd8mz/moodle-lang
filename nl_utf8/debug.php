@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
 
 
 $string['authpluginnotfound'] = 'Authenticatieplugin $a niet gevonden.';
+$string['blocknotexist'] = 'Blok $a bestaat niet';
 $string['cannotbenull'] = '$a kan niet nul zijn !!!';
 $string['cannotcreateadminuser'] = 'ERNSTIGE FOUT: kon geen gebruikersrecord voor de beheerder bewaren !!!';
 $string['cannotdowngrade'] = 'Kan niet terugdraaien van from $a->oldversion to $a->newversion.';
