@@ -256,6 +256,7 @@ $string['configwarning'] = 'Attention ! Des valeurs inadaptées pour ces paramè
 $string['configxmlstrictheaders'] = 'Si ce réglage est activé, chaque page sera générée avec des entêtes et un prologue http XML, de sorte que les navigateurs afficheront les erreurs XHTML. Ceci n\'est utile que pour les développeurs.';
 $string['configzip'] = 'Indiquer le chemin complet du programme «&nbsp;zip&nbsp;» (seulement pour Unix). Ce programme est requis pour réaliser des archives zip sur le serveur.';
 $string['confirmation'] = 'Confirmation';
+$string['confirmed'] = 'Confirmé';
 $string['confirminstall'] = 'Vous êtes sur le point d\'installer une nouvelle langue ($a). Voulez-vous continuer&nbsp;?';
 $string['cookiehttponly'] = 'Cookies http uniquement';
 $string['cookiesecure'] = 'Cookies sécurisé uniquement';
