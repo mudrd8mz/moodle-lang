@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -158,7 +158,7 @@ $string['backuplogshelp'] = 'このオプションを有効にした場合、コ
 $string['backupmetacoursehelp'] = 'このオプションを有効にした場合、メタコース情報 (ユーザ登録情報の継承) は自動バックアップに含まれます。';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnoneusersinfo'] = '注意: あなたはユーザをバックアップしない (「なし」) を選択をしました。すべてのモジュールのバックアップは「ユーザデータを含まないモード」に変更されました。「エクササイズ」および「ワークショップ」モジュールは、このタイプのバックアップと互換性が無いため、これらのモジュールのバックアップは完全に解除されました。';
-$string['backupnonisowarning'] = '警告: このバックアップは、非ユニコードバージョンのMoodle (1.6以前) によって作成されたものです。このバックアップに非ISO-8859-1テキストが含まれている場合、ユニコードバージョンのMoodleにリストアすると、文字化けが発生する可能性があります。このバックアップを正常にするための詳細情報は、<a href=\\"http://docs.moodle.org/ja/バックアップFAQ\\">バックアップFAQ</a>をご覧ください。';
+$string['backupnonisowarning'] = '警告: このバックアップは、非ユニコードバージョンのMoodle (1.6以前) によって作成されたものです。このバックアップに非ISO-8859-1テキストが含まれている場合、ユニコードバージョンのMoodleにリストアすると、文字化けが発生する可能性があります。このバックアップを正常にするための詳細情報は、<a href=\"http://docs.moodle.org/ja/バックアップFAQ\">バックアップFAQ</a>をご覧ください。';
 $string['backuporiginalname'] = 'バックアップ名';
 $string['backuproleassignments'] = 'これらのロールに対するロール割り当てをバックアップする';
 $string['backupsavetohelp'] = 'バックアップファイルの保存先ディレクトリをフルパスで入力してください。<br />(コースのデフォルトディレクトリに保存する場合は空白)';
@@ -532,7 +532,7 @@ $string['emailpasswordconfirmmaybesent'] = '<p>正しいユーザ名またはメ
 <p>送信されたメールには、パスワードの変更を確認および完了するため、簡単な説明が記載されています。パスワード変更作業が難しい場合、サイト管理者にご連絡ください。</p>';
 $string['emailpasswordconfirmsent'] = 'メールがあなたのアドレス <b>$a</b> 宛に送信されました。<br />送信されたメールにはパスワードの変更を確認・完了するための簡単な説明が書いてあります。問題がある場合、サイト管理者にご連絡ください。';
 $string['emailpasswordsent'] = 'パスワードの変更確認ありがとうございます。
-<p>新しいパスワードが記載されたメールがあなたのメールアドレス<br /><b>$a->email</b>に送信されました。<br />新しいパスワードは自動的に生成されたものです - <a href=\\"$a->link\\">パスワードの変更</a> で覚えやすいものに変更することができます。';
+<p>新しいパスワードが記載されたメールがあなたのメールアドレス<br /><b>$a->email</b>に送信されました。<br />新しいパスワードは自動的に生成されたものです - <a href=\"$a->link\">パスワードの変更</a> で覚えやすいものに変更することができます。';
 $string['enable'] = 'Yes';
 $string['encryptedcode'] = '暗号化コード';
 $string['enroldate'] = '利用有効期間';
@@ -835,7 +835,7 @@ $string['loginsteps'] = 'こんにちは! コースにアクセスするため�
 <ol>
 <li>アカウントの作成</li>
 <ul>
-<li type=disc><a href=\\"$a\\">新しいアカウントを作成する</a>で<b>必要事項を入力してください</b>。</li>
+<li type=disc><a href=\"$a\">新しいアカウントを作成する</a>で<b>必要事項を入力してください</b>。</li>
 </ul>
 
 <li>アカウントの確定</li>
@@ -861,8 +861,8 @@ $string['loginusing'] = 'ユーザ名とパスワードを入力してくださ�
 $string['logout'] = 'ログアウト';
 $string['logoutconfirm'] = '本当にログアウトしてもよろしいですか?';
 $string['logs'] = 'ログ';
-$string['logtoomanycourses'] = '[ <a href=\\"$a->url\\">さらに表示する</a> ]';
-$string['logtoomanyusers'] = '[ <a href=\\"$a->url\\">さらに表示する</a> ]';
+$string['logtoomanycourses'] = '[ <a href=\"$a->url\">さらに表示する</a> ]';
+$string['logtoomanyusers'] = '[ <a href=\"$a->url\">さらに表示する</a> ]';
 $string['lookback'] = '期間';
 $string['mailadmins'] = '管理者に通知する';
 $string['mailstudents'] = '学生に通知する';
@@ -1130,7 +1130,7 @@ $string['passwordsdiffer'] = 'パスワードが正しくありません。';
 $string['passwordsent'] = 'パスワードが送信されました。';
 $string['passwordsenttext'] = '<p>メールが $a->email 宛に送信されました。
 <p><b>メールに記載されている新パスワードを確認してください。</b>
-<p>新パスワードは自動的に作成されたものです。ここで<a href=\\"$a->link\\">アクセスして憶えやすいものに変更してください</a>。';
+<p>新パスワードは自動的に作成されたものです。ここで<a href=\"$a->link\">アクセスして憶えやすいものに変更してください</a>。';
 $string['pathnotexists'] = 'サーバにパスが見当たりません!';
 $string['pathslasherror'] = 'パスの最後にスラッシュを付けないでください!!';
 $string['paymentinstant'] = '下のボタンをお使いください。お支払いと登録がすぐに完了します!';
@@ -1626,9 +1626,9 @@ $string['yourlastlogin'] = 'あなたの最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
-$string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 ?>

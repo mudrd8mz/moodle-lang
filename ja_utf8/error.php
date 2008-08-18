@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // error.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -290,7 +290,7 @@ $string['logfilenotavailable'] = 'ログは利用できません。';
 $string['loginasnoenrol'] = 'コース「ログイン」セッション時、あなたはユーザ登録および登録抹消することはできません。';
 $string['loginasonecourse'] = 'あなたは、このコースに入ることはできません。<br />他のコースに入る前に、現在の「ログイン」セッションを終了する必要があります。';
 $string['messagingdisable'] = 'このサイトでは、メッセージングが無効にされています。';
-$string['mimetexisnotexist'] = 'あなたのシステムは、mimeTeXを実行できるよう設定されていません。あなたのPHPおよびOSプラットフォームに適した実行ファイルを<a href=\\"http://moodle.org/download/mimetex/\\">http://moodle.org/download/mimetex/</a>からダウンロードするか、C言語のソースを<a href=\\"http://www.forkosh.com/mimetex.zip\\"> http://www.forkosh.com/mimetex.zip</a>からダウンロードしてください。ダウンロードしたファイルをコンパイルした後、 あなたの「moodle/filter/tex/」ディレクトリに入れてください。';
+$string['mimetexisnotexist'] = 'あなたのシステムは、mimeTeXを実行できるよう設定されていません。あなたのPHPおよびOSプラットフォームに適した実行ファイルを<a href=\"http://moodle.org/download/mimetex/\">http://moodle.org/download/mimetex/</a>からダウンロードするか、C言語のソースを<a href=\"http://www.forkosh.com/mimetex.zip\"> http://www.forkosh.com/mimetex.zip</a>からダウンロードしてください。ダウンロードしたファイルをコンパイルした後、 あなたの「moodle/filter/tex/」ディレクトリに入れてください。';
 $string['mimetexnotexecutable'] = 'カスタムmimetexを実行できません!';
 $string['missingfield'] = 'フィールド「 $a 」 に入力してください。';
 $string['missingkeyinsql'] = 'エラー: クエリにパラメータ「 $a 」がありません。';
@@ -362,8 +362,8 @@ $string['prefixtoolong'] = '<p>エラー: データベーステーブル接頭�
 $string['processingstops'] = 'ここで処理が停止します。残りのレコードは無視されました。';
 $string['refoundto'] = '払戻し可能額: $a';
 $string['refoundtoorigi'] = '注文金額の払戻し: $a';
-$string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\\"$a->url\\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「$a->dest」にコピーおよび解凍してください。';
-$string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\\"$a->url\\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
+$string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\"$a->url\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「$a->dest」にコピーおよび解凍してください。';
+$string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['reportnotavailable'] = 'このタイプのレポートは、サイトコースのみで利用できます。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を実行できません。';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses:<br/> ($a)';
@@ -440,8 +440,8 @@ $string['wrongsourcebase'] = 'ソースURIベースが正しくありません�
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
-$string['cannotinitpage'] = 'ページを迅速に初期化できません、コースID: $a'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['cannotmovezip'] = 'ZIPファイルを移動できません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['cannotinitpage'] = 'ページを迅速に初期化できません、コースID: $a'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['cannotmovezip'] = 'ZIPファイルを移動できません。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 ?>
