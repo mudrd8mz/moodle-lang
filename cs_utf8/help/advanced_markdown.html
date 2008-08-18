@@ -11,17 +11,14 @@
 
     <ul>
       <li><a href="#linebreaks">Zalomení řádků</a></li>
-
       <li><a href="#hr">Horizontální linky</a></li>
-
       <li><a href="#image_links">Obrázky s hypertextovými odkazy</a></li>
-
+      <li><a href="#tables">Tabulky</a></li>
+      <li><a href="#definition">Seznamy definic</a></li>
+      <li><a href="#footnotes">Poznámky pod čarou</a></li>
       <li><a href="#embedded">Vložení HTML</a></li>
-
       <li><a href="#preformatted">Předformátovaný kód</a></li>
-
       <li><a href="#special_char">Použití speciálních znaků</a></li>
-
       <li><a href="#further">Další informace</a></li>
     </ul>
 
@@ -106,6 +103,84 @@
     <p>Tato technika je například užitečná při propojení malých obrázků &ndash;
     náhledů &ndash; se soubory velkých fotografií pro stažení.</p>
 
+    <h2><a id="tables">Tabulky</a></h2>
+
+    <p>Pomocí formátu Markdown můžete vytvářet jednoduché HTML tabuky. Příklad:</p>
+
+<pre>
+Jméno   |   Věk
+--------|------
+Jakub   |   29
+Zbyněk  |   47
+Tomáš   |   32
+</pre>
+
+<table>
+<thead>
+<tr>
+  <th>Jméno</th>
+  <th>Věk</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Jakub</td>
+  <td>29</td>
+
+</tr>
+<tr>
+  <td>Zbyněk</td>
+  <td>47</td>
+</tr>
+<tr>
+  <td>Tomáš</td>
+  <td>32</td>
+</tr>
+
+</tbody>
+</table>
+
+    <p>Obsah buněk lze formátovat obvyklým způsobem. Sloupce lze zarovnat doleva 
+    nebo doprava přidáním dvojtečky na začátek nebo na konec vodorovné linky pod 
+    popiskem sloupce (viz další informace níže).</p>
+
+    <h2><a id="definition">Seznamy definic</a></h2>
+
+    <p>Seznamy definic sestávají z termínů následovaných jejich definicemi, 
+    jako ve slovníku. Viz jednoduchý příklad:</p>
+
+<pre>
+Moodle
+:   Známé prostředí pro online učení
+
+PHP
+:   Skriptovací jazyk.
+    Používaný především pro tvorbu interaktivních webových aplikací.
+</pre>
+
+    <dl>
+    <dt>Moodle</dt>
+    <dd>Známé prostředí pro online učení</dd>
+
+    <dt>PHP</dt>
+    <dd>Skriptovací jazyk.
+    Používaný především pro tvorbu interaktivních webových aplikací.</dd>
+    </dl>
+
+    <h2><a id="footnotes">Poznámky pod čarou</a></h2>
+
+    <p>Poznámka pod čarou má dvě části. Odkaz v textu v podobě číslice a text 
+    poznámky, který se zobrazí na konci dokumentu. Jednoduchý příklad:</p>
+
+<pre>
+Prostudujte si k tomuto tématu mou knihu.[^1]
+
+[^1]: Vše o mé knize.
+</pre>
+
+    <p>Text poznámek můžete vložit kamkoli. Budou zobrazeny v pořadí, v jakém se 
+    na ně odkazuje v textu. Ke každé poznámce lze vytvořit pouze jeden odkaz.</p>
+
     <h2><a id="embedded" name="embedded">Vložení HTML</a></h2>
 
     <p>Pokud jste zběhlí v používání jazyka HTML, může se stát, že vám formát
@@ -188,5 +263,8 @@
     častěji i v různých nástrojích pro publikování na webu. Další informace o
     tomto formátu naleznete na adrese <a href=
     "http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a>.</p>
+    
+    <p>Moodle požívá rozšířenou verzi sytému Markdown známou jako "Markdown 
+    Extra". Další informace lze najít na adrese <a href="http://www.michelf.com/projects/php-markdown/extra/">http://www.michelf.com/projects/php-markdown/extra/</a>.</p>
   </div>
 </div>
