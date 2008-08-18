@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -109,6 +109,9 @@ $string['forum:createattachment'] = '添付ファイルを作成する';
 $string['forum:deleteanypost'] = 'どの投稿でも削除する (いつでも)';
 $string['forum:deleteownpost'] = '自分の投稿を削除する (期限内)';
 $string['forum:editanypost'] = 'どの投稿でも編集する';
+$string['forum:exportdiscussion'] = 'すべてのディスカッションをエクスポートする';
+$string['forum:exportownpost'] = '自分の投稿をエクスポートする';
+$string['forum:exportpost'] = '投稿をエクスポートする';
 $string['forum:initialsubscriptions'] = '最初にメール購読する';
 $string['forum:managesubscriptions'] = 'メール購読を管理する';
 $string['forum:movediscussions'] = 'ディスカッションを移動する';
@@ -325,7 +328,7 @@ $string['youratedthis'] = 'あなたの評価';
 $string['yournewquestion'] = 'あなたの新しい質問';
 $string['yournewtopic'] = 'あなたの新しいディスカッショントピック';
 $string['yourreply'] = 'あなたの返信';
-$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 ?>

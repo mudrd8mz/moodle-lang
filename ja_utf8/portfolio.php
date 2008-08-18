@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 
+$string['addalltoportfolio'] = 'すべてをポートフォリオに追加する';
 $string['addnewportfolio'] = '新しいポートフォリオを追加する';
 $string['addtoportfolio'] = 'ポートフォリオに追加する';
 $string['alreadyexporting'] = 'このセッションでは、すでにアクティブなポートフォリオエクスポートがあります。このエクスポートを最初に完了するか、<a href=\"$a\">ここをクリックして</a>キャンセルしてください。';

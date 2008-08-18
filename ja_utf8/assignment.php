@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -8,6 +8,7 @@ $string['allownotes'] = 'メモを許可する';
 $string['allowresubmit'] = '課題の再提出を許可する';
 $string['alreadygraded'] = 'あなたの提出課題は、すでに評定されています。課題を再提出することはできません。';
 $string['assignment:exportownsubmission'] = '自分の提出課題をエクスポートする';
+$string['assignment:exportsubmission'] = '提出課題をエクスポートする';
 $string['assignment:grade'] = '課題を評定する';
 $string['assignment:submit'] = '課題を提出する';
 $string['assignment:view'] = '課題を表示する';
@@ -132,6 +133,6 @@ $string['usermisconf'] = 'ユーザの設定が正しくありません。';
 $string['viewfeedback'] = '提出課題の評価とフィードバックを確認する';
 $string['viewsubmissions'] = '$a 件の提出課題を確認する';
 $string['yoursubmission'] = 'あなたの提出課題';
-$string['disableemailnotification'] = '通知メールを無効にする'; // TBD
+$string['disableemailnotification'] = '通知メールを無効にする'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 ?>

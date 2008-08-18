@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080620) (2008051203)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 
 $string['ajax'] = 'Ajaxバージョン';
@@ -9,6 +9,8 @@ $string['cantinsert'] = 'チャットメッセージを追加できませんで�
 $string['cantlogin'] = 'チャットルームに入室できませんでした!';
 $string['chat:chat'] = 'チャットで会話する';
 $string['chat:deletelog'] = 'チャットログを削除する';
+$string['chat:exportparticipatedsession'] = '参加チャットセッションをエクスポートする';
+$string['chat:exportsession'] = 'チャットセッションをエクスポートする';
 $string['chat:readlog'] = 'チャットログを表示する';
 $string['chatintro'] = 'イントロダクションテキスト';
 $string['chatname'] = 'チャットルーム名';
