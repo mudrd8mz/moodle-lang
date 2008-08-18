@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -136,8 +136,8 @@ $string['configfrontpage'] = '上で選択したアイテムは、サイトフ�
 $string['configfrontpageloggedin'] = '上で選択したアイテムは、ユーザのログイン時にサイトフロントページに表示されます。';
 $string['configfullnamedisplay'] = 'ここでは、名前がどのように表示されるか設定します。単一言語を使用したほとんどのサイトでは「名 + 姓」を使用した方が良いでしょう。しかし、名字を隠したり、言語設定に添った形 (いくつかの言語では異なる並び) の並びにすることも可能です。';
 $string['configgdversion'] = 'サーバにGDがインストールされている場合、そのバージョンを選択してください。デフォルト値として表示されているバージョンは自動的に検知されたものです。分からない場合はそのままにしてください。';
-$string['configgeoipfile'] = 'GeoIP Cityバイナリデータファイルのロケーションです。このファイルは、Moodleディストリビューションの一部ではなく、<a href=\"http://www.maxmind.com/\">MaxMind</a>から個別に取得する必要があります。あなたは商用バージョンを購入するか、フリーバージョンを使用することができます。<br />フリーバージョンの場合、<a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>からダウンロードして、あなたのサーバの「 $a 」ディレクトリに解凍してください。';
-$string['configgooglemapkey'] = 'IPアドレスのルックアップを視覚化するため利用するGoogle Mapsのスペシャルキーを入力してください。あなたは、<a href=\"http://code.google.com/apis/maps/signup.html\">http://code.google.com/apis/maps/signup.html</a>よりキーを無償で取得することができます。<br />あなたのウェブサイトURIは: $a';
+$string['configgeoipfile'] = 'GeoIP Cityバイナリデータファイルのロケーションです。このファイルは、Moodleディストリビューションの一部ではなく、<a href=\\"http://www.maxmind.com/\\">MaxMind</a>から個別に取得する必要があります。あなたは商用バージョンを購入するか、フリーバージョンを使用することができます。<br />フリーバージョンの場合、<a href=\\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>からダウンロードして、あなたのサーバの「 $a 」ディレクトリに解凍してください。';
+$string['configgooglemapkey'] = 'IPアドレスのルックアップを視覚化するため利用するGoogle Mapsのスペシャルキーを入力してください。あなたは、<a href=\\"http://code.google.com/apis/maps/signup.html\\">http://code.google.com/apis/maps/signup.html</a>よりキーを無償で取得することができます。<br />あなたのウェブサイトURIは: $a';
 $string['configgradebookroles'] = 'ここでは、誰が評定表に表示されるか設定することができます。ユーザがコースの評定表で表示されるためには、これらの中から少なくとも１つのロールを割り当ててください。';
 $string['configgradeexport'] = 'どの評定表エクスポートフォーマットをあなたの主要な評定表エクスポート方法にするか選択してください。選択されたフォーマットのプラグインが設定され、すべての評定の「最新エクスポート」フィールドに使用されます。例えば、エクスポートされたレコードは、「新規」または「更新」レコードとして認識されます。あなたがこのことに関して自信がない場合、すべてをチェックしないままにしてください。';
 $string['configguestroleid'] = 'このロールは自動的にゲストに割り当てられます。また、パスワードなしで受講できるコースに入ったユーザに対しても一時的に割り当てられます。このロールが「moodle/legacy:guest」および「moodle/course:view」ケイパビリティを持っているか確認してください。';
@@ -152,7 +152,7 @@ $string['configintrosite'] = 'このページではこのサイトのフロン�
 $string['configintrotimezones'] = 'ここでは世界のタイムゾーン情報 (夏時間ルールを含む) を検索して、あなたのローカルデータベースを更新します。次のロケーションが順番にチェックされます: $a この処理は一般的に非常に安全であり、標準インストールのMoodleを壊すことはありません。タイムゾーン情報を更新してもよろしいですか?';
 $string['configiplookup'] = 'あなたがログ等でIPアドレス (例 34.12.222.93) をクリックした場合、そのIPアドレスがどこから来たものなのか推量しやすいマップが表示されます。この機能には異なるプラグインがあり、それぞれに利点と不利点があります。';
 $string['configkeeptagnamecase'] = 'ユーザが入力したタグ名の大文字小文字を保持したい場合、この設定を有効にしてください。';
-$string['configlang'] = 'サイト全体に適用されるデフォルト言語を選択してください。ユーザは、この設定を後で変更することができます。あなたがデータベース接続の問題に関するローカライズされたメッセージを表示させたい場合、config.phpに $CFG->lang=\"yourlangcode_utf8\"; と設定することもできます。';
+$string['configlang'] = 'サイト全体に適用されるデフォルト言語を選択してください。ユーザは、この設定を後で変更することができます。あなたがデータベース接続の問題に関するローカライズされたメッセージを表示させたい場合、config.phpに $CFG->lang=\\"yourlangcode_utf8\\"; と設定することもできます。';
 $string['configlangcache'] = '言語メニューをキャッシュします。多くのメモリーおよびCPU処理能力を節約することができます。この設定を有効にした場合、言語パッケージの追加または削除を行った後に数分間の更新時間を要します。';
 $string['configlangdir'] = 'ほとんどの言語は左から右に記述されますが、アラビア語やヘブライ語等は右から左に記述されます。';
 $string['configlanglist'] = 'ここを空白にすることで、インストールしたMoodleのすべての言語をユーザが選択することができます。カンマで区切ることにより、言語メニューを短くすることができます。例： ja,en,es_es,fr,it';
@@ -256,6 +256,7 @@ $string['configwarning'] = '設定の変更は慎重に行ってください - �
 $string['configxmlstrictheaders'] = 'この設定を有効にした場合、それぞれのページはXML httpヘッダおよびprologを使用して生成されるため、ブラウザにはXHTMLエラーがインラインに表示されます。これは開発者のみに有用です。';
 $string['configzip'] = 'zipプログラムのパスを指定してください (Unix/Linuxのみ、任意)。パスを指定した場合、サーバ内のzip書庫作成時に使用されます。空白にした場合、Moodleは内部ルーチンを使用します。';
 $string['confirmation'] = '確認';
+$string['confirmed'] = '確認済み';
 $string['confirminstall'] = 'あなたは言語パック ($a) をインストールしようとしています。本当によろしいですか?';
 $string['cookiehttponly'] = 'HTTPクッキーのみ';
 $string['cookiesecure'] = 'セキュアクッキーのみ';
@@ -271,7 +272,7 @@ $string['cronclionly'] = 'コマンドラインのみでcronを実行する';
 $string['cronerrorclionly'] = '申し訳ございません、このページへのインターネットアクセスは、管理者より無効にされています。';
 $string['cronerrorpassword'] = '申し訳ございません、あなたはこのページへアクセスするための有効なパスワードを提供していません。';
 $string['cronremotepassword'] = 'リモートアクセスのcronパスワード';
-$string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
+$string['cronwarning'] = '<a href=\\"cron.php\\">cron.phpメンテナンススクリプト</a>が、少なくとも24時間稼動していません。';
 $string['csvdelimiter'] = 'CSVデリミタ';
 $string['ctyperecommended'] = 'あなたのサイトが非ラテン言語をサポートしている場合、サイトパフォーマンスを改善するため、PHP ctype拡張モジュールのインストールを強くお勧めします。';
 $string['ctyperequired'] = 'サイトパフォーマンスの改善および多言語サポートを提供するため、MoodleではPHP ctype拡張モジュールが必須です。';
@@ -285,8 +286,8 @@ $string['dbmigrateencodingerror'] = '指定されたデータベースのエン�
 $string['dbmigratepostgres'] = 'あなたはデータベースサーバとして、PostgreSQLを使用しているようです。移行処理を続けるには、移行データを保存するため「ユニコード」 (PostgreSQL 7) または「UTF8」 (PostgreSQL 8) の新たなデータベースを手動で作成してください。続けるには、以下に新たなデータベース接続設定を入力してください:';
 $string['dbmigratewarning'] = 'この処理を始める前に、Moodleデータベースをバックアップしたか確認してください。バックアップの方法が分からない場合は、システム管理者にご連絡ください。移行プロセスの開始後、あなたのMoodleサイトはメンテナンスモードに変更されます。';
 $string['dbmigratewarning2'] = '<b>警告: あなたはデータベース移行処理を開始しようとしています。すべてのMoodleデータベースをバックアップしているか、確実に確認してください。</b>';
-$string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">このデータベースは廃止され、新しいUTF8データベースに移行されました。このMoodleに新しいデータベースを使用するため、config.phpを編集してください。</font>';
-$string['dbmigrationdupfailed'] = 'データベース重複エラー:<font color=\"#ff0000\"><pre>$a</pre></font>';
+$string['dbmigrationdeprecateddb'] = '<font color=\\"#ff0000\\">このデータベースは廃止され、新しいUTF8データベースに移行されました。このMoodleに新しいデータベースを使用するため、config.phpを編集してください。</font>';
+$string['dbmigrationdupfailed'] = 'データベース重複エラー:<font color=\\"#ff0000\\"><pre>$a</pre></font>';
 $string['dbsessions'] = 'セッション情報にデータベースを使用する';
 $string['debug'] = 'デバッグメッセージ';
 $string['debugall'] = 'ALL: すべての妥当なPHPデバッグメッセージを表示する';
@@ -429,7 +430,7 @@ $string['ipblocked'] = '現在、このサイトは利用できません。';
 $string['ipblocker'] = 'IPブロッカー';
 $string['iplookup'] = 'IPアドレスのルックアップ';
 $string['iplookupinfo'] = 'IPアドレスのロケーションをルックアップするため、MoodleはフリーオンラインNetGeo (The Internet Geographic Database) サーバをデフォルトで利用します。残念ですが、このデータベースは今後メンテナンスされることはなく、「大幅に不正確」なデータを返します。MaxMindからフリーGeoLite Cityデータベースのローカルコピーをインストールされることをお勧めします。<br />IPアドレスのロケーションは、シンプルマップまたはGoogle Mapsを利用して表示されます。インタラクティブマップを有効にするには、Googleアカウントを取得して、フリーGoogle Maps APIキーを適用する必要がありますので注意してください。';
-$string['iplookupmaxmindnote'] = 'この製品は、<a href=\"http://www.maxmind.com/\">http://www.maxmind.com/</a>で利用できる、MaxMindによって作成されたGeoLiteデータを含みます。';
+$string['iplookupmaxmindnote'] = 'この製品は、<a href=\\"http://www.maxmind.com/\\">http://www.maxmind.com/</a>で利用できる、MaxMindによって作成されたGeoLiteデータを含みます。';
 $string['iplookupnetgeonote'] = '現在、NetGeoサーバは地理情報をルックアップするため利用されています。さらに正確な情報を取得するには、MaxMind GeoLiteデータベースのローカルコピーのインストールをお勧めします。';
 $string['keeptagnamecase'] = 'タグ名の大文字小文字を保持する';
 $string['lang'] = 'デフォルト言語';
@@ -500,10 +501,10 @@ $string['mnetrestore_extusers'] = '<strong>注意:</strong> このバックア�
 $string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。このバックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
 $string['modsettings'] = '活動の管理';
 $string['modulesecurity'] = 'モジュールセキュリティ';
-$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの &lt;span&gt; および &lt;lang&gt;';
+$string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\\"multilang\\" なしの &lt;span&gt; および &lt;lang&gt;';
 $string['multilangupgrade'] = 'multilangアップグレード';
-$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、&lt;lang&gt; タグはサポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
-$string['multilangupgradenotice'] = 'あなたのサイトは、おそらく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
+$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、&lt;lang&gt; タグはサポートされません。<br /><br />例: &lt;span lang=\\"en\\" class=\\"multilang\\">Hello!&lt;/span&gt;&lt;span lang=\\"es\\" class=\\"multilang\\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
+$string['multilangupgradenotice'] = 'あなたのサイトは、おそらく古いmultilangシンタックスを使用しています。<a href=\\"multilangupgrade.php\\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
 $string['mymoodle'] = 'マイ Moodle';
 $string['mymoodleredirect'] = 'ユーザにマイ Moodleを強制する';
@@ -612,13 +613,13 @@ $string['qtyperqpwillberemoved'] = 'アップグレード中、RQP問題タイ�
 $string['qtyperqpwillberemovedanyway'] = 'アップグレード中、RQP問題タイプは削除されます。あなたのデータベース内にRQP問題タイプが登録されています。アップグレードを続ける前に、 http://moodle.org/mod/data/view.php?d=13&amp;rid=797 から対応するプログラムをインストールしない場合、これらの問題は動作しなくなります。';
 $string['quarantinedir'] = '隔離ディレクトリ';
 $string['question'] = '問題';
-$string['questioncwqpfscheck'] = '1つまたはそれ以上の小テストの「ランダム」問題が共有および非共有カテゴリから混在して選択されるよう設定されています。詳細レポートは<a href=\"$a->reporturl\">こちらを</a>ご覧ください。<a href=\"$a->docsurl\">こちら</a>でMoodle Docsページをご覧ください。';
+$string['questioncwqpfscheck'] = '1つまたはそれ以上の小テストの「ランダム」問題が共有および非共有カテゴリから混在して選択されるよう設定されています。詳細レポートは<a href=\\"$a->reporturl\\">こちらを</a>ご覧ください。<a href=\\"$a->docsurl\\">こちら</a>でMoodle Docsページをご覧ください。';
 $string['questioncwqpfsok'] = '素晴らしい。あなたの小テストでは、共有および非共有カテゴリから混在して選択されるよう設定されている「ランダム」問題はありません。';
 $string['rcache'] = 'レコードキャッシュ';
 $string['rcachettl'] = 'レコードキャッシュTTL';
 $string['recaptchaprivatekey'] = 'reCAPTCHAプライベートキー';
 $string['recaptchapublickey'] = 'reCAPTCHAパブリックキー';
-$string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_blank\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
+$string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\\"_blank\\" href=\\"$a\\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、言語パックを自動的にインストールできません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
 $string['requiredtemplate'] = '必須です。あなたはここでテンプレート構文 (%%l = 姓、%%f = 名、%%u = ユーザ名) を使用することができます。詳細および例に関して、ヘルプをご覧ください。';
@@ -660,7 +661,7 @@ $string['sitemaintenance'] = 'このサイトはメンテナンス中です。�
 $string['sitemaintenancemode'] = 'メンテナンスモード';
 $string['sitemaintenanceoff'] = 'メンテナンスモードが解除されました。サイトは正常に動作しています。';
 $string['sitemaintenanceon'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインまたはサイトを利用することができます)。';
-$string['sitemaintenancewarning'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインできます)。通常運用に戻すには、<a href=\"maintenance.php\">メンテナンスモードを解除してください</a>。';
+$string['sitemaintenancewarning'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインできます)。通常運用に戻すには、<a href=\\"maintenance.php\\">メンテナンスモードを解除してください</a>。';
 $string['sitepolicies'] = 'サイトポリシー';
 $string['sitepolicy'] = 'サイトポリシーURI';
 $string['sitesectionhelp'] = '選択した場合、トピックセクションがサイトフロントページに表示されます。';
@@ -702,7 +703,7 @@ $string['unattendedoperation'] = '無人オペレーション';
 $string['unbookmarkthispage'] = 'このページをブックマーク解除する';
 $string['unicoderecommended'] = 'あなたのすべてのデータをユニコードフォーマット (UTF-8) で保存することをお勧めします。Moodleの新しいインストールは、ユニコードをデフォルトキャラクタにセットしたデータベースで実行してください。アップグレードの場合、UTF-8移行プロセスを実行してださい (詳細は管理ページをご覧ください)。';
 $string['unicoderequired'] = 'あなたのすべてのデータをユニコードフォーマット (UTF-8) で保存することが必須です。Moodleの新しいインストールは、ユニコードをデフォルトキャラクタにセットしたデータベースで実行してください。アップグレードの場合、UTF-8移行プロセスを実行してださい (詳細は管理ページをご覧ください)。';
-$string['unicodeupgradenotice'] = 'Moodle1.6で、私たちはすべての言語をユニコードに移行しました。このサイトのアップグレードを完了するには、移行スクリプトを使用して、データベースのすべてのデータをユニコード (UTF-8) にコンバートする必要があります。<a href=\"utfdbmigrate.php\">移行スクリプトを実行するには、ここをクリックしてください</a>!';
+$string['unicodeupgradenotice'] = 'Moodle1.6で、私たちはすべての言語をユニコードに移行しました。このサイトのアップグレードを完了するには、移行スクリプトを使用して、データベースのすべてのデータをユニコード (UTF-8) にコンバートする必要があります。<a href=\\"utfdbmigrate.php\\">移行スクリプトを実行するには、ここをクリックしてください</a>!';
 $string['uninstall'] = '選択された言語パックをアンインストールする';
 $string['uninstallconfirm'] = 'あなたは言語パック $a を完全にアンインストールしようとしています。本当によろしいですか?';
 $string['unsupported'] = '未サポート';
@@ -710,9 +711,9 @@ $string['updateaccounts'] = '既存のアカウントを更新する';
 $string['updatecomponent'] = 'コンポーネントを更新する';
 $string['updatelangs'] = '利用中のすべての言語パックを更新する';
 $string['updatetimezones'] = 'タイムゾーンの更新';
-$string['upgradeforumread'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡する新しい機能が追加されました。<br />この機能を有効にするには、<a href=\"$a\">あなたのテーブルをアップデート</a>する必要があります。';
+$string['upgradeforumread'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡する新しい機能が追加されました。<br />この機能を有効にするには、<a href=\\"$a\\">あなたのテーブルをアップデート</a>する必要があります。';
 $string['upgradeforumreadinfo'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡するための新しい機能が追加されました。この機能を有効にするには、投稿内容の未読管理を含むテーブルをアップデートする必要があります。あなたのサイトのサイズにより、この作業は長時間かかる場合があります。また、データベースに非常に負荷がかかる可能性がありますので、閑散期のアップデート作業をお勧めします。このアップデート期間中も、あなたのサイトは動作し続け、ユーザは影響を受けません。この処理を開始した場合は処理を終わらせてください (ブラウザを開いたままにして)。ウィンドウを閉じて処理を終わらせてしまった場合でも心配しないでください。アップデート処理を再開することができます。<br /><br />本当に今からアップデート処理を始めてもよろしいですか?';
-$string['upgradelogs'] = '正常に動作させるためには、古いログのアップグレードが必要です。<a href=\"$a\">詳細はこちら</a>';
+$string['upgradelogs'] = '正常に動作させるためには、古いログのアップグレードが必要です。<a href=\\"$a\\">詳細はこちら</a>';
 $string['upgradelogsinfo'] = 'ログの保存方法に変更点があります。全活動ベースのログを閲覧することができるようにするには、古いログをアップグレードする必要があります。サイトによってはアップグレード作業に長時間(例 数時間)を要し、規模が大きなサイトではデータベースに負担がかかります。処理を開始した場合は終了するまでそのまま(ブラウザを開いたまま)にしてください。心配する必要はありません - ログが更新された後に、あなたのサイトは正常に動作します。<br/><br/>本当にログをアップグレードしてもよろしいですか?';
 $string['upgradesettings'] = '新しい設定';
 $string['upgradesettingsintro'] = '以下に表示されている設定は、あなたの前回のMoodleアップグレードで追加されました。変更した内容を必要に応じてデフォルトに戻し、このページ下部にある「変更を保存する」ボタンをクリックしてください。';
@@ -782,15 +783,15 @@ $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネ�
 $string['xmlrpcrecommended'] = '任意のxmlrpc拡張モジュールのインストールは、Moodleネットワーキング機能に有用です。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
 $string['ziprequired'] = 'MoodleではPHP Zip拡張モジュールが必須です。info-ZIPバイナリまたはPclZipライブラリは、今後使用されません。';
-$string['enableallowedip'] = 'これらのIPアドレスからのクライアントを許可する'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['enableallowedipdesc'] = 'このオプションを有効にした場合、「許可されたIPアドレスリスト」のIPアドレスのみアクセスを許可されます。同時に「ブロックIPアドレスリスト」のIPアドレスがブロックされます。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['ipinblockedlist'] = '現在、このサイトは利用できません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['ipoutallowedlist'] = '現在、このサイトは利用できません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['skipuser'] = 'ユーザをスキップする'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['enableallowedip'] = 'これらのIPアドレスからのクライアントを許可する'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['enableallowedipdesc'] = 'このオプションを有効にした場合、「許可されたIPアドレスリスト」のIPアドレスのみアクセスを許可されます。同時に「ブロックIPアドレスリスト」のIPアドレスがブロックされます。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['ipinblockedlist'] = '現在、このサイトは利用できません。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['ipoutallowedlist'] = '現在、このサイトは利用できません。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['addcounter'] = 'カウンタを付加する'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['csvseparator'] = 'CSVセパレータ'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['newusernamehandling'] = '新しいユーザ名の重複取り扱い'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['skipuser'] = 'ユーザをスキップする'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['confighideactivitytypecrumb'] = '活動モジュールで表示されるブレッドクラム内の活動タイプ (例 小テスト) クラムを誰に非表示にするか選択してください。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['hideactivitytypecrumb'] = '活動タイプクラムを非表示にする'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
 
 ?>
