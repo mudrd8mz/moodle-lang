@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080819) (2008081900)
 
 
 $string['addalltoportfolio'] = 'すべてをポートフォリオに追加する';
 $string['addnewportfolio'] = '新しいポートフォリオを追加する';
 $string['addtoportfolio'] = 'ポートフォリオに追加する';
-$string['alreadyexporting'] = 'このセッションでは、すでにアクティブなポートフォリオエクスポートがあります。このエクスポートを最初に完了するか、<a href=\"$a\">ここをクリックして</a>キャンセルしてください。';
+$string['alreadyexporting'] = 'このセッションでは、すでにアクティブなポートフォリオエクスポートがあります。このエクスポートを<a href=\"$a->finish\">最初に完了するか</a>、<a href=\"$a->cancel\">ここをクリックして</a>キャンセルしてください。';
 $string['availableformats'] = '利用可能なエクスポートフォーマット';
 $string['callercouldnotpackage'] = 'あなたのエクスポートするデータをパックアップできませんでした。';
 $string['cannotsetvisible'] = 'このインスタンスを表示できません - 設定が正しくないため、プラグインが完全に無効にされています。';
@@ -23,12 +23,16 @@ $string['enableddesc'] = 'ポートフォリオを有効にすることで、ユ
 $string['err_uniquename'] = 'ポートフォリオ名は、(プラグインごとに) ユニークにしてください。';
 $string['exportcomplete'] = 'ポートフォリオのエクスポートが完了しました!';
 $string['exportedpreviously'] = '前のエクスポート';
+$string['exportexceptionnoexporter'] = '活動セッションでportfolio_export_exceptionがスローされましたが、エクスポーターオブジェクトがありません。';
 $string['exporting'] = 'ポートフォリオへのエクスポート';
+$string['exportingcontentfrom'] = '$a からコンテンツをエクスポートする';
 $string['exportqueued'] = '転送のため、ポートフォリオエクスポートは正常にキューに入れられました。';
 $string['failedtosendpackage'] = 'あなたのデータを選択されたポートフォリオシステムに送信できませんでした!';
 $string['filedenied'] = 'このファイルへのアクセスが拒否されました。';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
 $string['format_file'] = 'ファイル';
+$string['format_html'] = 'HTML';
+$string['format_image'] = 'イメージ';
 $string['format_mbkp'] = 'Moodleバックアップ';
 $string['hidden'] = '非表示';
 $string['instancedeleted'] = 'ポートフォリオが正常に削除されました。';
@@ -37,11 +41,16 @@ $string['instancenotdelete'] = 'ポートフォリオの削除に失敗しまし
 $string['instancenotsaved'] = 'ポートフォリオの保存に失敗しました。';
 $string['instancesaved'] = 'ポートフォリオが正常に保存されました。';
 $string['invalidaddformat'] = '無効な追加フォーマットが「portfolio_add_button」を通過しました。($a) には、「PORTFOLIO_ADD_XXX」の形式を使用してください。';
+$string['invalidconfigproperty'] = '設定プロパティ ($a->property - $a->class) が見つかりませんでした。';
+$string['invalidexportproperty'] = 'エクスポート設定プロパティ ($a->property - $a->class) が見つかりませんでした。';
 $string['invalidformat'] = '無効なフォーマットでエクスポートされています: $a';
 $string['invalidinstance'] = 'ポートフォリオインスタンスが見つかりませんでした。';
+$string['invalidproperty'] = 'プロパティ ($a->property - $a->class) が見つかりませんでした。';
 $string['invalidtempid'] = '無効なエクスポートIDです。おそらく有効期限が切れています。';
+$string['invaliduserproperty'] = 'ユーザ設定プロパティ ($a->property - $a->class) が見つかりませんでした。';
 $string['manageportfolios'] = 'ポートフォリオの管理';
 $string['manageyourportfolios'] = 'あなたのポートフォリオの管理';
+$string['multipledisallowed'] = '複数インスタンス ($a) が許可されないプラグインのインスタンスを作成しようと試みています。';
 $string['noavailableplugins'] = '申し訳ございません、あなたがエクスポートできるポートフォリオはありません。';
 $string['nocallbackfile'] = 'あなたがエクスポートを試みているモジュールが壊れているようです - 必要なファイル ($a) を見つけることができませんでした。';
 $string['nocommonformats'] = 'ポートフォリオプラグインおよびロケーション $a 間のフォーマットが共通ではありません。';
@@ -62,6 +71,7 @@ $string['selectplugin'] = 'エクスポートするポートフォリオプラ�
 $string['someinstancesdisabled'] = '設定が正しくない、または他の要因により、いくつかの設定済みプラグインインスタンスは無効にされました。';
 $string['somepluginsdisabled'] = '設定が正しくない、または他の要因により、すべてのプラグインインスタンスは無効にされました。';
 $string['sure'] = '本当に「 $a 」を削除してもよろしいですか? 元に戻すことはできません。';
+$string['thirdpartyexception'] = 'ポートフォリオのエクスポート中 ($a)、サードパーティ例外がスローされました。取得および再スローされましたが、これは修正すべきです。';
 $string['wait'] = '待つ';
 $string['wanttowait_high'] = 'この転送が完了するまで、待つことはお勧めできません。あなたが何をしているか理解している場合、待つこともできます。';
 $string['wanttowait_moderate'] = 'この転送を待ちますか? 転送完了まで数分かかります。';
