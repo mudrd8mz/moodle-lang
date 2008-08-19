@@ -3,7 +3,7 @@
 
 
 $string['addall'] = 'Přidat všechny dostupné uživatele';
-$string['addsel'] = 'Přidat vybrané uživatele';
+$string['addsel'] = 'Přidat označené uživatele';
 $string['allfilteredusers'] = 'Všichni filtrovaní ($a->count/$a->total)';
 $string['allselectedusers'] = 'Všichni vybraní ($a->count/$a->total)';
 $string['allusers'] = 'Všichni uživatelé ($a)';
