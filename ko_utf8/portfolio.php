@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080815) (2008081200)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080819) (2008081600)
 
 
+$string['addalltoportfolio'] = '모두 포트폴리오에 추가';
 $string['addnewportfolio'] = '포트폴리오 작성';
 $string['addtoportfolio'] = '포트폴리오에 추가';
 $string['alreadyexporting'] = '이미 본 세션에서 포트폴리오를 내보냈습니다. 우선 그 내용을 완성하기 바랍니다.';

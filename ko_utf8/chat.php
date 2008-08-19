@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
+      // chat.php - created with Moodle 2.0 dev (Build: 20080819) (2008081600)
 
 
 $string['ajax'] = 'Ajax 사용판';
@@ -9,6 +9,8 @@ $string['cantinsert'] = '대화 내용을 입력할 수 없음!';
 $string['cantlogin'] = '대화방에 입장할 수 없음!!';
 $string['chat:chat'] = '대화 중';
 $string['chat:deletelog'] = '대화 기록 삭제';
+$string['chat:exportparticipatedsession'] = '대화 참석 내용 내보내기';
+$string['chat:exportsession'] = '대화 내용 내보내기';
 $string['chat:readlog'] = '대화 기록 읽기';
 $string['chatintro'] = '머리말';
 $string['chatname'] = '대화방 이름';

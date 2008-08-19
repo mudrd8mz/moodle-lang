@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080807) (2008080600)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080819) (2008081600)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -34,12 +34,10 @@ $string['cannotadddiscussionall'] = '참여자를 위한 토론 주제 추가 �
 $string['cannotaddsubscriber'] = '이 포럼에 id $a 인 구독자를 추가할 수 없음!';
 $string['cannotfindfirstpost'] = '이 포럼의 첫 게시물을 찾을 수 없음';
 $string['cannotfindorcreateforum'] = '사이트의 주 뉴스 포럼을 만들거나 찾을 수 없음';
-$string['cannotinsertrate'] = '새로운 순위($a[0] = $a[1])를 삽입할 수 없음';
 $string['cannotremovesubscriber'] = '이 포럼에서 id $a 인 구독자를 제거할 수 없음!';
 $string['cannotsubscribe'] = '죄송합니다만, 구독하기 위해서는 모둠의 구성원이어야 합니다.';
 $string['cannottrack'] = '포럼의 추적기능을 정지할 수 없음';
 $string['cannotunsubscribe'] = '포럼의 구독을 해지할 수 없음';
-$string['cannotupdaterate'] = '예전 순위($a[0] = $a[1])를 갱신할 수 없음';
 $string['cannotviewpostyet'] = '게시물을 올리지 않았기 때문에 이 토론에서 다른 학생들의 질문을 읽을 수 없습니다.';
 $string['cleanreadtime'] = '게시물 정리 시각';
 $string['completiondiscussions'] = '토론 주제 생성:';
@@ -111,6 +109,9 @@ $string['forum:createattachment'] = '첨부물 생성';
 $string['forum:deleteanypost'] = '(언제든) 어떤 게시물이든 삭제';
 $string['forum:deleteownpost'] = '자신의 게시물 삭제(시한 내)';
 $string['forum:editanypost'] = '게시물 편집';
+$string['forum:exportdiscussion'] = '전체 토론 내보내기';
+$string['forum:exportownpost'] = '내 게시물 내보내기';
+$string['forum:exportpost'] = '게시내용 내보내기';
 $string['forum:initialsubscriptions'] = '초기 구독';
 $string['forum:managesubscriptions'] = '구독 관리';
 $string['forum:movediscussions'] = '토론내용 이동';
@@ -325,5 +326,7 @@ $string['youratedthis'] = '당신의 추천';
 $string['yournewquestion'] = '새로운 질문';
 $string['yournewtopic'] = '새로운 토론 주제';
 $string['yourreply'] = '당신의 답글';
+$string['cannotinsertrate'] = '새로운 순위($a[0] = $a[1])를 삽입할 수 없음'; // ORPHANED
+$string['cannotupdaterate'] = '예전 순위($a[0] = $a[1])를 갱신할 수 없음'; // ORPHANED
 
 ?>

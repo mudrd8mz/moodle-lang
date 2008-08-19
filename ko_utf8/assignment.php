@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080812) (2008080701)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080819) (2008081600)
 
 
 $string['allowdeleting'] = '삭제 허용';
@@ -7,7 +7,8 @@ $string['allowmaxfiles'] = '올릴 파일의 최대 수';
 $string['allownotes'] = '주석 허용';
 $string['allowresubmit'] = '재제출 허용';
 $string['alreadygraded'] = '과제가 이미 채점되었고 재제출은 허용되지 않습니다.';
-$string['assignment:exportownsubmission'] = '제출사항 내보내기';
+$string['assignment:exportownsubmission'] = '내 제출 내보내기';
+$string['assignment:exportsubmission'] = '제출 내보내기';
 $string['assignment:grade'] = '과제 점수';
 $string['assignment:submit'] = '과제 제출';
 $string['assignment:view'] = '과제 보기';
