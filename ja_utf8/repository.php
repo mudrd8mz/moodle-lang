@@ -26,6 +26,7 @@ $string['listview'] = 'リストビュー';
 $string['loading'] = 'ローディング ...';
 $string['logout'] = 'ログアウト';
 $string['manage'] = '個人リポジトリの管理';
+$string['manageurl'] = '管理';
 $string['manageuserrepository'] = 'リポジトリの管理';
 $string['noenter'] = '何も入力されていません。';
 $string['openpicker'] = 'ファイルピッカーを開く';

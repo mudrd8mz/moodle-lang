@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.9 dev (2007060502)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20080819) (2008081900)
 
 
 $string['all'] = 'すべて';
@@ -16,10 +16,11 @@ $string['retest'] = 'テストの再実行';
 $string['retestonlythisfile'] = 'このテスト対象ファイルのテストのみ実行';
 $string['runall'] = 'すべてのテスト対象ファイルのテストを実行';
 $string['runat'] = '$a で実行';
-$string['runonlyfile'] = 'このファイル内のみテストを実行';
-$string['runonlyfolder'] = 'このフォルダ内のみテストを実行';
-$string['runtests'] = 'テストの実行';
-$string['rununittests'] = 'ユニットテストの実行';
+$string['rundbtests'] = 'データベーステストも実行する。';
+$string['runonlyfile'] = 'このファイル内のみテストを実行する';
+$string['runonlyfolder'] = 'このフォルダ内のみテストを実行する';
+$string['runtests'] = 'テストを実行する';
+$string['rununittests'] = 'ユニットテストを実行する';
 $string['showpasses'] = '不合格と同様に合格も表示する。';
 $string['showsearch'] = 'テストファイルの検索結果を表示する。';
 $string['stacktrace'] = 'スタックトレース:';
