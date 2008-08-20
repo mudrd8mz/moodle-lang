@@ -133,6 +133,7 @@ $string['scormcourse'] = 'Cours d\'apprentissage';
 $string['scrollbars'] = 'Permettre le défilement de la fenêtre';
 $string['sided'] = 'Sur le côté gauche';
 $string['skipview'] = 'L\'étudiant ne voit pas la page de structure du contenu';
+$string['slashargs'] = 'ATTENTION&nbsp;! Le réglage <i>slasharguments</i> est désactivé. Les objets SCORM ne fonctionneront pas correctement&nbsp;!';
 $string['stagesize'] = 'Taille cadre/fenêtre';
 $string['started'] = 'Démarré le';
 $string['status'] = 'État';
