@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080806) (2008080500)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080820) (2008081900)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -127,6 +127,8 @@ $string['globalglossary'] = '공용 용어집';
 $string['glossary:approve'] = '승인받지 못했던 내용 승인';
 $string['glossary:comment'] = '논평 생성';
 $string['glossary:export'] = '입력내용 내보내기';
+$string['glossary:exportentry'] = '한 항목 내보내기';
+$string['glossary:exportownentry'] = '내 입력 내보내기';
 $string['glossary:import'] = '입력내용 가져오기';
 $string['glossary:managecategories'] = '범주 관리';
 $string['glossary:managecomments'] = '덧글 관리';

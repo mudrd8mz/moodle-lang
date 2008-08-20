@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080819) (2008081600)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080820) (2008081900)
 
 
 $string['addalltoportfolio'] = '모두 포트폴리오에 추가';
 $string['addnewportfolio'] = '포트폴리오 작성';
 $string['addtoportfolio'] = '포트폴리오에 추가';
-$string['alreadyexporting'] = '이미 본 세션에서 포트폴리오를 내보냈습니다. 우선 그 내용을 완성하기 바랍니다.';
+$string['alreadyexporting'] = '이미 본 세션에서 포트폴리오를 내보냈습니다. <a href=\"$a->finish\">포트폴리오 완성</a>을 누르거나, 아니면 <a href=\"$a->cancel\">취소</a>를 누르세요.';
 $string['availableformats'] = '이용가능한 내보내기 형식';
 $string['callercouldnotpackage'] = '내보내기 위한 자료 묶기 실패';
 $string['cannotsetvisible'] = '공개로 설정할 수 없음 - 설정오류로 인해 플러그인이 작동 불가';
@@ -23,12 +23,16 @@ $string['enableddesc'] = '사용자의 포트폴리오 내용을 관리자가 �
 $string['err_uniquename'] = '포트폴리오의 명칭은 중복되면 안됨';
 $string['exportcomplete'] = '포트폴리오 내보내기 성공!';
 $string['exportedpreviously'] = '이전에 내보낸 포트폴리오';
+$string['exportexceptionnoexporter'] = '현재 세션에 대한 portfolio_export_exception이 제시됐지만 내보낼 객체가 없음';
 $string['exporting'] = '포트폴리오 내보내기';
+$string['exportingcontentfrom'] = '$a 의 내용 내보내기';
 $string['exportqueued'] = '포트폴리오 내보내기 준비작업 성공';
 $string['failedtosendpackage'] = '지정된 포트폴리오 시스템에 자료 전송 실패!';
 $string['filedenied'] = '접속이 허용되지 않음';
 $string['filenotfound'] = '파일 없음';
 $string['format_file'] = '파일';
+$string['format_html'] = 'HTML';
+$string['format_image'] = '이미지';
 $string['format_mbkp'] = '무들 백업';
 $string['hidden'] = '비공개';
 $string['instancedeleted'] = '포트폴리오 삭제 완료';
@@ -37,11 +41,16 @@ $string['instancenotdelete'] = '포트폴리오 삭제 실패';
 $string['instancenotsaved'] = '포트폴리오 저장 실패';
 $string['instancesaved'] = '포트폴리오 저장 완료';
 $string['invalidaddformat'] = 'portfolio_add_button에 잘못된 추가 형식 전달.  ($a) 반드시 PORTFOLIO_ADD_XXX 중에 하나가 되어야 함';
+$string['invalidconfigproperty'] = '($a->class 의 $a->property) 설정 항목을 찾을 수 없음';
+$string['invalidexportproperty'] = '내보낼 ($a->class 의 $a->property) 설정 항목을 찾을 수 없음';
 $string['invalidformat'] = '잘못된 형식 $a 로 내보내려 하고 있음';
 $string['invalidinstance'] = '포트폴리오 인스턴스가 없음';
+$string['invalidproperty'] = '($a->class 의 $a->property) 항목을 찾을 수 없음';
 $string['invalidtempid'] = '잘못된 임시 ID';
+$string['invaliduserproperty'] = '사용자 ($a->class 의 $a->property) 설정 항목을 찾을 수 없음';
 $string['manageportfolios'] = '포트폴리오 관리';
 $string['manageyourportfolios'] = '내 포트폴리오 관리';
+$string['multipledisallowed'] = '다중 인스턴스 ($a)가 허용되지 않는 플러그인에서 새 인스턴스를 생성하려 하고 있음';
 $string['noavailableplugins'] = '내보낼 포트폴리오가 없음';
 $string['nocallbackfile'] = '내보내려는 포트폴리오가 깨졌음 - 요청한 $a 파일을 찾을 수 없음';
 $string['nocommonformats'] = '요청한 $a 와 이용가능한 플러그인 사이에 공유 형식이 없음';
@@ -62,6 +71,7 @@ $string['selectplugin'] = '내보낼 플러그인 선택';
 $string['someinstancesdisabled'] = '설정오류거나 알지 못하는 이유에 의해 플러그인 인스턴스 작동 안 됨';
 $string['somepluginsdisabled'] = '설정오류거나 알지 못하는 이유에 의해 전체 플러그인 작동 안 됨';
 $string['sure'] = '\'$a\'를 삭제하겠습니까? 이는 되돌이킬 수 없습니다.';
+$string['thirdpartyexception'] = '제 3자 예외 조항이 포트폴리오 내보내기 ($a) 과정에서 제시됨. 수합은 됐지만 수정되어야 할 것임';
 $string['wait'] = '대기';
 $string['wanttowait_high'] = '완료되기까지 대기하는 것을 권장하지는 않습니다만, 확실하게 그 결과를 알고 싶다면 대기하실 수 있습니다.';
 $string['wanttowait_moderate'] = '전송을 위해 대기하길 원하십니까? 수분 정도 걸립니다.';
