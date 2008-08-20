@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -247,6 +247,7 @@ $string['configwarning'] = 'Postupujte veľmi opatrne pri zmenách týchto nasta
 $string['configxmlstrictheaders'] = 'Ak nastavíte, každá stránka bude generovaná pomocou XML http hlavičky a prológu, takže web prehliadače budú zobrazovať chyby priamo cez web. Je to výhodné iba pre vývojových pracovníkov.';
 $string['configzip'] = 'Uveďte cestu k Vášmu zip programu (len pre UNIX, nepovinné). Pokiaľ je cesta špecifikovaná, bude použitá pre tvorbu zip archívov na serveri. Pokiaľ ju ponecháte prázdnu, Moodle bude používať vlastný interný postup.';
 $string['confirmation'] = 'Potvrdenie';
+$string['confirmed'] = 'Potvrdené';
 $string['confirminstall'] = 'Chcete naozaj nainštalovať jazykový balíček $a?';
 $string['cookiehttponly'] = 'Iba http cookies';
 $string['cookiesecure'] = 'Iba bezpečné cookies';

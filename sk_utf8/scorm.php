@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
+      // scorm.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['activation'] = 'Aktivácia';
 $string['activityloading'] = 'Budete automaticky presmerovaní do aktivity za';
+$string['activitypleasewait'] = 'Aktivita je nahrávaná, čakajte prosím ...';
 $string['advanced'] = 'Parametre';
 $string['asset'] = 'Objekt';
 $string['assetlaunched'] = 'Objekt - Prezrené';
