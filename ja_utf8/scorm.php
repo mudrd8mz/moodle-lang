@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080819) (2008081900)
 
 
 $string['activation'] = 'アクティベーション';
@@ -132,6 +132,7 @@ $string['scormcourse'] = '学習コース';
 $string['scrollbars'] = 'ウィンドウのスクロールを許可する';
 $string['sided'] = '左側';
 $string['skipview'] = '学生によるコンテンツ構造ページスキップ';
+$string['slashargs'] = '警告: このサイトではスラッシュ引数が無効にされています。期待されたとおりにオブジェクトが動作しない場合があります!';
 $string['stagesize'] = 'ステージサイズ';
 $string['started'] = '開始日時';
 $string['status'] = 'ステータス';
