@@ -1,4 +1,4 @@
-b<?php // $Id:
+<?php // $Id:
       // moodle.php
 $string['abouttobeinstalled'] = 'namestitev v teku';
 $string['action'] = 'Dejanje';
