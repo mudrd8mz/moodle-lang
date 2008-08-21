@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // search.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // search.php
 $string['advancedsearch'] = 'Napredno iskanje';
 $string['all'] = 'Vse';
 $string['author'] = 'Avtor';
@@ -57,5 +54,4 @@ $string['uncompleteindexingerror'] = 'Indeksiranje ni bilo uspešno zaključeno,
 $string['versiontoolow'] = 'Globalno iskanje zahteva PHP 5.0.0 ali več';
 $string['whichmodulestosearch?'] = 'Katere module preiščem?';
 $string['wordsintitle'] = 'Besede v naslovu';
-
 ?>

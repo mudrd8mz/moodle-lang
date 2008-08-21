@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // filters.php
 $string['actfilterhdr'] = 'Aktivni filtri';
 $string['addfilter'] = 'Dodaj filter';
 $string['anycategory'] = 'katerakoli kategorija';
@@ -40,5 +37,4 @@ $string['startswith'] = 'se začne z';
 $string['tablenosave'] = 'Spremembe v zgornji tabeli se shranjujejo samodejno.';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
-
 ?>

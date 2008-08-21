@@ -1,11 +1,10 @@
-<?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
-
-
+<?php // $Id:
+      // role.php
 $string['addrole'] = 'Dodaj novo vlogo';
 $string['allow'] = 'Dovoli';
 $string['allowassign'] = 'Dovoli dodeljevanje vlog';
 $string['allowoverride'] = 'Dovoli razveljavitev vlog';
+$string['allsiteusers'] = 'Vsi uporabniki strani';
 $string['assignglobalroles'] = 'Dodelji sistemske vloge';
 $string['assignroles'] = 'Dodeli vloge';
 $string['assignrolesin'] = 'Dodeli vloge v $a';
@@ -54,9 +53,9 @@ $string['defaultrole'] = 'Privzeta vloga';
 $string['defineroles'] = 'DOloči vloge';
 $string['deletecourseoverrides'] = 'Izbriši vse razdelitve v predmetih';
 $string['deletelocalroles'] = 'Izbriši vse lokalne dodelitve vlog';
-$string['deleterolesure'] = 'Ali ste prepričani da želite izbrisati vlogo \"$a->name ($a->shortname)\")?</p><p> Trenutno je ta vloga dodeljena $a->count uporabnikom';
+$string['deleterolesure'] = 'Ali ste prepričani da želite izbrisati vlogo "$a->name ($a->shortname)")?</p><p> Trenutno je ta vloga dodeljena $a->count uporabnikom';
 $string['duplicaterole'] = 'Podvoji vlogo';
-$string['duplicaterolesure'] = 'Ali ste prepričani da želite podvojiti vlogo \"$a->name ($a->shortname)\"?</p>';
+$string['duplicaterolesure'] = 'Ali ste prepričani da želite podvojiti vlogo "$a->name ($a->shortname)"?</p>';
 $string['editrole'] = 'Uredi vlogo';
 $string['errorbadrolename'] = 'Nepravilno ime vloge';
 $string['errorbadroleshortname'] = 'Nepravilno ime vloge';
@@ -79,8 +78,8 @@ $string['grade:view'] = 'Poglej svoje razrede';
 $string['grade:viewall'] = 'Poglej razrede ostali uporabnikov';
 $string['grade:viewhidden'] = 'Poglej skrite razrede za skrbnika';
 $string['inactiveformorethan'] = 'Neaktiven več kot $a->timeperiod';
-$string['ingroup'] = 'v skupini \"$a->group\"';
-$string['inherit'] = 'Podeduj';
+$string['ingroup'] = 'v skupini "$a->group"';
+$string['inherit'] = 'Nasledi';
 $string['legacy:admin'] = 'Zapuščina: Skrbnik';
 $string['legacy:coursecreator'] = 'Zapuščina: ustvarjalec predmetov';
 $string['legacy:editingteacher'] = 'Zapuščina: Učitelj (urejanje)';
@@ -91,9 +90,9 @@ $string['legacy:user'] = 'Zapuščina: Avtentificaran uporabnik';
 $string['legacytype'] = 'Tip zapuščinske vloge';
 $string['listallroles'] = 'Preglej vse vloge';
 $string['localroles'] = 'Lokalno dodeljene vloge';
-$string['manageroles'] = 'Upravljaj vloge';
-$string['metaassignerror'] = 'Te vloge uporabniku \"$a\" ni mogoče dodeliti ker je potrebno upravljanje z metapredmetov';
-$string['metaunassignerror'] = 'Vloga uporabnika \"$a\" je bila avtomatično Odvzeta. Odvzemite vlogo v podpredmetih';
+$string['manageroles'] = 'Urejaj vloge';
+$string['metaassignerror'] = 'Te vloge uporabniku "$a" ni mogoče dodeliti ker je potrebno upravljanje z metapredmetov';
+$string['metaunassignerror'] = 'Vloga uporabnika "$a" je bila avtomatično Odvzeta. Odvzemite vlogo v podpredmetih';
 $string['morethan'] = 'več kot $a';
 $string['multipleroles'] = 'Večkratne vloge';
 $string['my:manageblocks'] = 'Upravljaj myMoodle bloke strani';
@@ -123,12 +122,13 @@ $string['question:viewall'] = 'Poglej vsa vprašanja';
 $string['question:viewmine'] = 'Poglej svoja lastna vprašanja';
 $string['resetrole'] = 'Natavi na privzeto';
 $string['resetrolenolegacy'] = 'Izbriši dovoljenja';
-$string['resetrolesure'] = 'Ali ste prepričani da želite resetirati vlogo \"$a->name($a->shortname)\" na privzet?<p></p> privzeto je vzeto iz izbrane zapuščine zmožnosti ($a->legacytype)';
-$string['resetrolesurenolegacy'] = 'Ali ste prepričani da želite izbrisati vsa dovoljenja za to vlogo \"$a->name ($a->shortname)\"?';
+$string['resetrolesure'] = 'Ali ste prepričani da želite resetirati vlogo "$a->name($a->shortname)" na privzet?<p></p> privzeto je vzeto iz izbrane zapuščine zmožnosti ($a->legacytype)';
+$string['resetrolesurenolegacy'] = 'Ali ste prepričani da želite izbrisati vsa dovoljenja za to vlogo "$a->name ($a->shortname)"?';
 $string['risks'] = 'Tveganja';
 $string['role:assign'] = 'Dodeli vloge uprabnikom';
 $string['role:manage'] = 'Ustvari in upravljaj vloge';
 $string['role:override'] = 'Razdeli dovoljenja za druge';
+$string['role:safeoverride'] = 'Povozi varna dovoljenja za druge';
 $string['role:switchroles'] = 'Preklopi na druge vloge';
 $string['role:unassignself'] = 'Odvzemi svoje vloge';
 $string['role:viewhiddenassigns'] = 'Poglej skrite dodeljene vloge';
@@ -136,6 +136,7 @@ $string['roleassignments'] = 'Dodeljevanje vlog';
 $string['roles'] = 'Vloge';
 $string['roletoassign'] = 'Vlohe za dodelitev';
 $string['roletooverride'] = 'Vloge za razdelitev';
+$string['safeoverridenotice'] = 'Obvestilo: zmožnosti z višjim rizikom so blokirane, ker smete povoziti zgolj varne zmožnosti.';
 $string['selectrole'] = 'Izberi vlogo';
 $string['showallroles'] = 'Pokaži vse vloge';
 $string['site:accessallgroups'] = 'Dostopi do vseh skupin';
@@ -176,7 +177,7 @@ $string['user:viewhiddendetails'] = 'Poglej skrite podrobnosti uporabnika';
 $string['user:viewuseractivitiesreport'] = 'Poglej poročilo aktivnosti uporabnika';
 $string['user:viewusergrades'] = 'Poglej ocene uporabnika';
 $string['userhashiddenassignments'] = 'Ta uporabnik ima eno ali več skritih vlog v tem predmetu';
+$string['userswithrole'] = 'Vsi uporabniki z vlogo';
 $string['viewrole'] = 'Poglej podrobnosti vlog';
-$string['xuserswiththerole'] = 'Uporabniki z vlogo \"$a->role\"';
-
+$string['xuserswiththerole'] = 'Uporabniki z vlogo "$a->role"';
 ?>

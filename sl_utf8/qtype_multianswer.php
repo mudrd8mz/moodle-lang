@@ -1,8 +1,4 @@
-<?PHP // $Id$ 
-      // qtype_multianswer.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // qtype_multianswer.php
 $string['decodeverifyquestiontext'] = 'ODKODIRAJ IN RPEVERI VPRAŠALNI TEKST';
-
 ?>

@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // group.php
 $string['addgroupstogrouping'] = 'Dodaj skupino nadrejeni';
 $string['addgroupstogroupings'] = 'Dodaj/odstrani skupine';
 $string['adduserstogroup'] = 'Dodaj/odstrani uporabnike';
@@ -11,7 +8,7 @@ $string['anygrouping'] = '[Kakršnekoli skupine]';
 $string['autocreategroups'] = 'Samodejno narejene skupine';
 $string['backtogroupings'] = 'Nazaj na urejanje skupin';
 $string['backtogroups'] = 'Nazaj na skupine';
-$string['badnamingscheme'] = 'Vsebovati mora samo en znak\'@\' ali \'#\'';
+$string['badnamingscheme'] = 'Vsebovati mora samo en znak&#039;@&#039; ali &#039;#&#039;';
 $string['byfirstname'] = 'Po abecednem redu: ime, priimek';
 $string['byidnumber'] = 'Po abecednem redu: ID številka';
 $string['bylastname'] = 'Po abecednem redu: priimek, ime';
@@ -21,15 +18,15 @@ $string['creategrouping'] = 'Kreiraj urejanje skupin';
 $string['creategroupinselectedgrouping'] = 'Kreiraj skupino v skupini';
 $string['createingrouping'] = 'Kreiraj v skupini';
 $string['createorphangroup'] = 'Kreiraj skupino brez nadrejene';
-$string['databaseupgradegroups'] = 'Verzija skupin je $a';
+$string['databaseupgradegroups'] = 'Različica skupin je sedaj $a';
 $string['defaultgrouping'] = 'Privzeto urejanje skupin';
 $string['defaultgroupingname'] = 'Nadrejene skupine';
 $string['defaultgroupname'] = 'Skupina';
 $string['deleteallgroupings'] = 'Briši nadrejene skupine';
 $string['deleteallgroups'] = 'Briši vse skupine';
-$string['deletegroupconfirm'] = 'Brisanje skupine \'$a\'?';
+$string['deletegroupconfirm'] = 'Brisanje skupine &#039;$a&#039;?';
 $string['deletegrouping'] = 'Briši nadrejene skupine';
-$string['deletegroupingconfirm'] = 'Brisanje nadrejene skupine \'$a\'? (podrejene skupine se ne brišejo)';
+$string['deletegroupingconfirm'] = 'Brisanje nadrejene skupine &#039;$a&#039;? (podrejene skupine se ne brišejo)';
 $string['deleteselectedgroup'] = 'Briši izbrano skupino';
 $string['editgroupingsettings'] = 'Uredi nastavitve nadrejenih skupin';
 $string['editgroupsettings'] = 'Uredi nastavitve skupin';
@@ -45,13 +42,14 @@ $string['group'] = 'Skupina';
 $string['groupaddedsuccesfully'] = 'Dodajanje skupine $a uspešno';
 $string['groupby'] = 'Specificiraj';
 $string['groupdescription'] = 'Opis skupine';
+$string['groupfor'] = 'za skupino';
 $string['groupinfo'] = 'Podatki o izbrani skupini';
 $string['groupinfomembers'] = 'Podatki o izbranih članih';
 $string['groupinfopeople'] = 'Podatki o izbranih uporabnikih';
 $string['grouping'] = 'Nadrejena skupina';
 $string['groupingdescription'] = 'Opis nadrejene skupine';
 $string['groupingname'] = 'Naziv nadrejene skupine';
-$string['groupingnameexists'] = 'V tem predmetu naziv skupine \'$a\' že obstaja. Določite različnen naziv.';
+$string['groupingnameexists'] = 'V tem predmetu naziv skupine &#039;$a&#039; že obstaja. Določite različnen naziv.';
 $string['groupings'] = 'Nadrejene skupine';
 $string['groupingsonly'] = 'Samo nadrejene skupine';
 $string['groupmember'] = 'Član skupine';
@@ -65,7 +63,7 @@ $string['groupmode'] = 'Skupinski način';
 $string['groupmodeforce'] = 'Vsili skupine';
 $string['groupmy'] = 'Moja skupina';
 $string['groupname'] = 'Naziv skupine';
-$string['groupnameexists'] = 'V tem predmetu naziv skupine \'$a\' že obstaja. Določite različnen naziv.';
+$string['groupnameexists'] = 'V tem predmetu naziv skupine &#039;$a&#039; že obstaja. Določite različnen naziv.';
 $string['groupnotamember'] = 'Žal niste član te skupine';
 $string['groups'] = 'Skupine';
 $string['groupscount'] = 'Skupine ($a)';
@@ -88,7 +86,7 @@ $string['newpicture'] = 'Nova slika';
 $string['noallocation'] = 'Brez alokacije';
 $string['nogroups'] = 'V tem predmetu še niso podane nastavitve skupin';
 $string['nogroupsassigned'] = 'Skupine niso določene';
-$string['nopermissionforcreation'] = 'Ker nimate ustreznih dovoljenj, ne morete kreirati skupine \"$a\"';
+$string['nopermissionforcreation'] = 'Ker nimate ustreznih dovoljenj, ne morete kreirati skupine "$a"';
 $string['nosmallgroups'] = 'Prepreči premajhno zadnjo skupino';
 $string['notingrouping'] = '[Ni v nadrejeni skupini]';
 $string['nousersinrole'] = 'Ni primernih uporabnikov z izbrano vlogo';
@@ -110,5 +108,4 @@ $string['toomanygroups'] = 'Premajhno število uporabnikov za popolnitev tega š
 $string['usercount'] = 'Število uporabnikov';
 $string['usercounttotal'] = 'Število uporabnikov ($a)';
 $string['usergroupmembership'] = 'Izbrano članstvo uporabnika:';
-
 ?>

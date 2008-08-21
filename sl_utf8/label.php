@@ -1,9 +1,4 @@
-<?PHP // $Id:label.php from label.xml
-      // Comments: tomaz at zid dot si
-
+<?php // $Id:
+      // label.php
 $string['labeltext'] = 'Besedilo oznake';
-$string['modulename'] = 'Oznaka';
-$string['modulenameplural'] = 'Oznake';
-
-
 ?>

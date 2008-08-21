@@ -1,16 +1,48 @@
-<?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
-$string['blockname'] = 'RSS Odjemalec';
+<?php // $Id:
+      // block_rss_client.php
+$string['addfeed'] = 'Dodaj URL vira novic:';
+$string['addheadlineblock'] = 'Dodaj blok RSS novic';
+$string['addnew'] = 'Dodaj nov';
+$string['blockname'] = 'RSS klient';
+$string['choosefeedlabel'] = 'Izberite vire, ki jih želite omogočiti v tem bloku:';
+$string['clientchannellink'] = 'Spletno mesto vira ...';
+$string['clientnumentries'] = 'Privzeto število vnosov na vir za prikaz.';
+$string['clientshowchannellinklabel'] = 'Ali naj bo prikazana povezave na izvorno stran (channel link)? (Vedite, da povezava ne bo prikazana v primeru, da povezave na izvorno stran ni navedene v viru):';
+$string['clientshowimagelabel'] = 'Prikaži sliko vira, če je na voljo:';
+$string['configblock'] = 'Konfiguriraj ta blok';
+$string['couldnotfindfeed'] = 'Ni možno najti vira z id';
+$string['customtitlelabel'] = 'Naslov po meri (pustite prazno za uporabo naslova iz vira):';
+$string['deletefeedconfirm'] = 'Ste prepričani, da želite izbrisati ta vir?';
+$string['displaydescriptionlabel'] = 'Prikaži opis vsake povezave?';
+$string['editfeeds'] = 'Uredi, naroči ali odjavi vire novic RSS/Atom';
+$string['editnewsfeeds'] = 'Uredi vire novic';
+$string['editrssblock'] = 'Uredi blok novic RSS';
+$string['feed'] = 'Vir';
+$string['feedadded'] = 'Dodan vir novic';
+$string['feeddeleted'] = 'Vir novic izbrisan';
+$string['feeds'] = 'Viri novic';
+$string['feedsaddedit'] = 'Dodaj / uredi vire';
+$string['feedsconfigurenewinstance'] = 'Kliknite tu za konfiguracijo tega bloka za prikaz virov RSS.';
+$string['feedstitle'] = 'Oddaljeni viri RSS';
+$string['feedupdated'] = 'Vir novic posodobljen';
+$string['findmorefeeds'] = 'Najdi več virov RSS';
+$string['managefeeds'] = 'Upravljaj vse moje vire';
+$string['nofeeds'] = 'Za to stran ni določenih virov RSS.';
 $string['numentries'] = 'Zapisov na vir';
+$string['pickfeed'] = 'Izberi vir novic';
+$string['remotenewsfeed'] = 'Oddaljen vir novic';
 $string['rss_client:createprivatefeeds'] = 'Ustvari zasebni RSS vir';
 $string['rss_client:createsharedfeeds'] = 'Ustvari skupni RSS vir';
 $string['rss_client:manageanyfeeds'] = 'Upravljaj z katerikoli RSS virom';
 $string['rss_client:manageownfeeds'] = 'Upravljaj s svojim RRS virom';
+$string['seeallfeeds'] = 'Poglej vse vire';
 $string['sharedfeed'] = 'Skupni vir';
+$string['shownumentrieslabel'] = 'Največje število vnosov za prikaz v bloku.';
+$string['submitters'] = 'Kdo bo smel določati nove vire RSS? Določeni viri so na voljo za vse strani na vašem spletnem mestu.';
 $string['submitters2'] = 'Oddajalci vlog';
+$string['timeout'] = 'blockrsstimeout';
 $string['timeout2'] = 'Prekinitev';
-
+$string['timeoutdesc'] = 'Čas v minutah za hranjenje vira RSS v predpomnilniku.';
+$string['updatefeed'] = 'Posodobi URL vira novic:';
+$string['validatefeed'] = 'Preveri vir';
 ?>

@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // form.php
 $string['addfields'] = 'Dodaj $a polja v  obrazec';
 $string['advancedelement'] = 'Vnaprejšni element';
 $string['day'] = 'Dan';
@@ -17,7 +14,7 @@ $string['err_nopunctuation'] = 'Tukaj ne smete vpisati razločnih znakov od črk
 $string['err_numeric'] = 'Tukaj morate vnesti številko.';
 $string['err_rangelength'] = 'Tukaj morate vnesti znake, ki so med formatoma {$a->format[0]} in {$a->format[1]}.';
 $string['err_required'] = 'Vnesite vrednost.';
-$string['general'] = 'Splošno';
+$string['general'] = 'Generalen';
 $string['hideadvanced'] = 'Skrito nadaljevanje';
 $string['hour'] = 'Ura';
 $string['minute'] = 'Minuta';
@@ -30,12 +27,11 @@ $string['optional'] = 'Izbirni';
 $string['othersettings'] = 'Ostale nastavitve';
 $string['requiredelement'] = 'Priporočeno polje';
 $string['revealpassword'] = 'Prikaži';
-$string['security'] = 'Varnost';
+$string['security'] = 'Vrnost';
 $string['selectallornone'] = 'Izberi vse/nič';
 $string['showadvanced'] = 'Prikaži naprej';
 $string['somefieldsrequired'] = 'Polja označena z $a so obvezna.';
 $string['timing'] = 'Pravočasnost';
 $string['unmaskpassword'] = 'Prikaži';
 $string['year'] = 'Leto';
-
 ?>

@@ -1,7 +1,4 @@
-<?PHP // $Id:activitynames.php from activitynames.xml
-      // Comments: tomaz at zid dot si
-
+<?php // $Id:
+      // activitynames.php
 $string['filtername'] = 'Samodejno povezovanje imen dejavnosti';
-
-
 ?>

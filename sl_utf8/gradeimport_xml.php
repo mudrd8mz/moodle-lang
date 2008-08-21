@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // gradeimport_xml.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // gradeimport_xml.php
 $string['errbadxmlformat'] = 'Napaka - slab XML format';
 $string['errduplicategradeidnumber'] = 'Napaka - obstajata dva razreda z idštevilko $a v tej smeti. To naj bi bilo nemogoče';
 $string['errduplicateidnumber'] = 'Napaka - podovojena IDštevilka';
@@ -13,5 +10,4 @@ $string['fileurl'] = 'Oddajlena datoteka URL';
 $string['modulename'] = 'XML datoteka';
 $string['xml:publish'] = 'Objavi uvožene razrede iz XMLja';
 $string['xml:view'] = 'Uvozi razrede iz XML';
-
 ?>

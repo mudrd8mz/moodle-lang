@@ -1,10 +1,9 @@
-<?PHP // $Id:langconfig.php from langconfig.xml
-      // Comments: tomaz at zid dot si
-
+<?php // $Id:
+      // langconfig.php
 $string['alphabet'] = 'A,B,C,Č,D,E,F,G,H,I,J,K,L,M,N,O,P,R,S,Š,T,U,V,Z,Ž';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['decsep'] = ',';
-$string['firstdayofweek'] = '1'; // 1 means monday
+$string['firstdayofweek'] = '1';
 $string['listsep'] = ';';
 $string['locale'] = 'sl_SI.UTF-8';
 $string['localewin'] = 'Slovenian_Slovenia.1250';
@@ -24,6 +23,4 @@ $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Sloven&#353;&#269;ina';
-
-
 ?>

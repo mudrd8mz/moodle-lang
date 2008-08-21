@@ -1,7 +1,4 @@
-<?PHP // $Id:algebra.php from algebra.xml
-      // Comments: tomaz at zid dot si
-
+<?php // $Id:
+      // algebra.php
 $string['filtername'] = 'Algebrski zapis';
-
-
 ?>

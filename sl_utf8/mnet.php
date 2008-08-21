@@ -1,13 +1,5 @@
-<?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
-$string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samo-podpisan)';
-$string['RPC_HTTPS_VERIFIED'] = 'HTTPS (podpisan)';
-$string['RPC_HTTP_PLAINTEXT'] = 'HTTP nekriptiran';
-$string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (samo-podpisan)';
-$string['RPC_HTTP_VERIFIED'] = 'HTTP (podpisan)';
+<?php // $Id:
+      // mnet.php
 $string['aboutyourhost'] = 'O vašem strežniku';
 $string['accesslevel'] = 'Nivo dostopa';
 $string['addhost'] = 'Dodaj gostitelja';
@@ -24,19 +16,19 @@ $string['couldnotgetcert'] = 'Certifikata ni bilo mogoče najti na <br />$a. <br
 $string['couldnotmatchcert'] = 'To se ne ujema s certifikatom strežnika.';
 $string['courses'] = 'predmeti';
 $string['courseson'] = 'predmeti na';
-$string['current_transport'] = 'Trenutni promet';
 $string['currentkey'] = 'Trenutni Javni ključ';
+$string['current_transport'] = 'Trenutni promet';
 $string['databaseerror'] = 'Podatkov ni bilo mogoče zapisati v bazo.';
 $string['deleteaserver'] = 'Brisanje strežnika';
 $string['deletehost'] = 'Izbriši gostitelja';
 $string['deletekeycheck'] = 'Res želite izbrisati ta ključ?';
 $string['deleteoutoftime'] = '60 sekund časa za brisanje ključa je poteklo. Prosimo, začnite ponovno.';
-$string['deleteuserrecord'] = 'SSO ACL: izbriši podatke o uporabniku \'$a[0]\' iz $a[1].';
+$string['deleteuserrecord'] = 'SSO ACL: izbriši podatke o uporabniku &#039;$a[0]&#039; iz $a[1].';
 $string['deletewrongkeyvalue'] = 'Prišlo je do napake. Če niste želeli izbrisati SSL ključa na strežniku, je mogoče, da ste bili žrtev napada.';
 $string['deny'] = 'Zavrni';
 $string['description'] = 'Opis';
-$string['duplicate_usernames'] = 'Indeksov za stolpce \"mnethostid\" ter \"username\" v tabeli z uporabniki ni bilo mogoče ustvariti.<br />
-Do tega pride, če imate <a href=\"$a\" target=\"_blank\">v tabeli uporabnikov podvojena uporabniška imena</a>.<br />Nadgradnja bi se kljub temu morala uspešno zaključiti. S klikom na zgornjo povezavo se bodo v novem oknu odprla navodila za rešitev te težave, ki jo lahko odpravite po koncu nadgradnje.<br />';
+$string['duplicate_usernames'] = 'Indeksov za stolpce "mnethostid" ter "username" v tabeli z uporabniki ni bilo mogoče ustvariti.<br />
+Do tega pride, če imate <a href="$a" target="_blank">v tabeli uporabnikov podvojena uporabniška imena</a>.<br />Nadgradnja bi se kljub temu morala uspešno zaključiti. S klikom na zgornjo povezavo se bodo v novem oknu odprla navodila za rešitev te težave, ki jo lahko odpravite po koncu nadgradnje.<br />';
 $string['editenrolments'] = 'vpis';
 $string['enabled_for_all'] = '(Ta storitev je omogočena za vse strežnike).';
 $string['enrolcourseenrol_desc'] = 'Vpiši/izpiši uporabnike z Moodlovim omrežnim vpisom..
@@ -52,11 +44,11 @@ $string['error7023'] = 'Oddaljeni strežnik ni uspešno dešifriral vaše sporo�
 $string['error7024'] = 'POslali ste nešifrirano sporočilo oddalenemu strežniku, ki pa ne sprejema nešifrirane komunikacije z vašega strežnika. Odpoved je zelo neobičajna, verjetno pa je posledica določene verzije Moodla.';
 $string['error7026'] = 'Ključ, s katerim je podpisano vaše sporočilo, se razlikuje od shranjenega ključa na strežniku. Oddaljeni strežnik je poskušal pridobiti vaš trenuktni ključ, vendar ni bil uspešen. Ročno vnesite ključ in poskusite ponovno.';
 $string['error709'] = 'Oddaljena stran ni uspela prejeti vašega SSL certifikata.';
-$string['expired'] = 'Ključ je potekel';
+$string['expired'] = 'Veljavnost ključa potekla';
 $string['expires'] = 'Veljaven do';
 $string['expireyourkey'] = 'Izbriši ta ključ';
 $string['expireyourkeyexplain'] = 'Moodle samodejno menjava vaše ključe vsakih 28 dni (privzeto). Imate pa možnost, da <em>ročno</em> določite čas veljavnosti. Tak pristop je smiseln, če predvidevate, da je bil ključ zlonamerno uporabljen. Zamenjava bo takoj samodejno generirana.<br />Brisanje tega ključa omogoča komunikacijo drugim Moodlom. Lahko pa vsakemu posameznemu administratorju posredujete nov ključ.';
-$string['failedaclwrite'] = 'Pisanje na MNET seznam dostopa za uporabnika \'$a\' ni uspelo.';
+$string['failedaclwrite'] = 'Pisanje na MNET seznam dostopa za uporabnika &#039;$a&#039; ni uspelo.';
 $string['forbidden-function'] = 'Funkcija še ni bila omogočena za RPC.';
 $string['forbidden-transport'] = 'Uporabljeni način prenosa ni dovoljen.';
 $string['forcesavechanges'] = 'Vsili Shrani spremembe';
@@ -71,10 +63,10 @@ $string['hostname'] = 'Naslov gostitelja';
 $string['hostnamehelp'] = 'Polna domena gostitelja, npr. www.neka-domena.org';
 $string['hostnotconfiguredforsso'] = 'Oddaljeni Moodle Hub ni konfiguriran za oddaljeni dostop';
 $string['hostsettings'] = 'Nastavitve gostitelja';
-$string['http_self_signed_help'] = 'Dovoli povezave s samo-podpisanim \'naredi-sam\' SSL certifikatom na gostitelju.';
-$string['http_verified_help'] = 'Dovoli povezave s preverjenim SSL certifikata v PHP na gostitelju, vendar prek HTTP (ne https).';
-$string['https_self_signed_help'] = 'Dovoli povezave s samo-podpisanim \'naredi-sam\' SSL certifikatom v PHP na gostitelju prek HTTP.';
+$string['https_self_signed_help'] = 'Dovoli povezave s samo-podpisanim &#039;naredi-sam&#039; SSL certifikatom v PHP na gostitelju prek HTTP.';
 $string['https_verified_help'] = 'Dovoli povezave s preverjenim SSL certifikatom na gostitelju.';
+$string['http_self_signed_help'] = 'Dovoli povezave s samo-podpisanim &#039;naredi-sam&#039; SSL certifikatom na gostitelju.';
+$string['http_verified_help'] = 'Dovoli povezave s preverjenim SSL certifikata v PHP na gostitelju, vendar prek HTTP (ne https).';
 $string['id'] = 'ID';
 $string['idhelp'] = 'Vrednost je vpisana samodejno in se je ne da spreminjati';
 $string['illegalchar-host'] = 'Ime gostitelja vsebuje neveljaven znak: $a';
@@ -83,21 +75,19 @@ $string['invalidaccessparam'] = 'Neveljaven podatek za dostop';
 $string['invalidactionparam'] = 'Neveljaven podatek za izvedbo';
 $string['invalidhost'] = 'Vpisati morate veljavno identifikacijo strežnika';
 $string['invalidpubkey'] = 'Ključ ni veljaven SSL ključ.';
-$string['invalidurl'] = 'Neveljaven URL podatek.';
+$string['invalidurl'] = 'Neveljaven URL parameter';
 $string['ipaddress'] = 'IP naslov';
-$string['is_in_range'] = 'Na IP naslovu &nbsp;<code>$a</code>&nbsp; se nahaja veljaven in preverjen gostitelj.';
 $string['ispublished'] = '$a Moodle je za vas omogočil to storitev.';
 $string['issubscribed'] = '$a Moodle se je prijavil na to storitev na vašem strežniku.';
+$string['is_in_range'] = 'Na IP naslovu &nbsp;<code>$a</code>&nbsp; se nahaja veljaven in preverjen gostitelj.';
 $string['keydeleted'] = 'Ključ je bil uspešno izbrisan in nadomšečn.';
 $string['keymismatch'] = 'Javni ključ, ki ga posedujete o tem gostitelju se razlikuje od njegovega javnega ključa.';
 $string['last_connect_time'] = 'Čas zadnje povezave';
 $string['last_connect_time_help'] = 'Čas, ko ste se nazadnje povezali na gostitelja.';
 $string['last_transport_help'] = 'Način prenosa, ki ste ga uporabili za zadnjo povezavo na gostitelja.';
-$string['loginlinkmnetuser'] = '<br/>Če ste oddaljeni uporabnik Moogle omrežja in lahko <a href=\"$a\">tukaj potrdite vaš e-poštni naslov</a>, boste preusmerjeni na stran za prijavo.<br />';
+$string['loginlinkmnetuser'] = '<br/>Če ste oddaljeni uporabnik Moogle omrežja in lahko <a href="$a">tukaj potrdite vaš e-poštni naslov</a>, boste preusmerjeni na stran za prijavo.<br />';
 $string['logs'] = 'dnevniki';
 $string['mnet'] = 'Moodle omrežje';
-$string['mnet_concatenate_strings'] = 'Združi (do) 3 nize in vrni rezultate';
-$string['mnet_session_prohibited'] = 'Uporabnikom vašega domačega strežnika ni dovoljeno gostovanje na $a.';
 $string['mnetdisabled'] = 'Moodle omrežje je <strong>onemogočeno</strong>.';
 $string['mnetenrol'] = 'Vpisi';
 $string['mnetlog'] = 'Dnevniki';
@@ -105,8 +95,10 @@ $string['mnetpeers'] = 'Nivoji';
 $string['mnetservices'] = 'Storitve';
 $string['mnetsettings'] = 'Nastavitve Moodle omrežja';
 $string['mnetthemes'] = 'Teme';
-$string['moodle_home_help'] = 'Pot do domače strani Moodla na gostitelju, npr. /moodle/';
+$string['mnet_concatenate_strings'] = 'Združi (do) 3 nize in vrni rezultate';
+$string['mnet_session_prohibited'] = 'Uporabnikom vašega domačega strežnika ni dovoljeno gostovanje na $a.';
 $string['moodleloc'] = 'Lokacija Moodla';
+$string['moodle_home_help'] = 'Pot do domače strani Moodla na gostitelju, npr. /moodle/';
 $string['net'] = 'Omrežje';
 $string['networksettings'] = 'Nastavitve omrežja';
 $string['never'] = 'Nikoli';
@@ -118,7 +110,7 @@ $string['nolocaluser'] = 'Lokalni podatki za oddaljenega uporabnika ne obstajajo
 $string['nomodifyacl'] = 'Nimate dovoljenja za urejanje MNET seznama dostopa.';
 $string['nonmatchingcert'] = 'Naziv certidikata: <br /><em>$a[0]</em><br />se ne ujema z gostiteljevim, s katerega je prišel:<br /><em>$a[1]</em>.';
 $string['nopubkey'] = 'Javni ključ ni dostopen.<br />Možno je tudi, da strežnik nima vključenega Moodlovega omrežja ali pa je ključ napačen.';
-$string['nosite'] = 'Ni predmeta na nivoju strežnika';
+$string['nosite'] = 'Nisem našel predmeta na nivoju strani';
 $string['nosuchfile'] = 'Datoteka/funkcija $a ne obstaja.';
 $string['nosuchfunction'] = 'Lociranje funkcije ni bilo uspešno ali pa RPC funkcije ne sme upšorabljati.';
 $string['nosuchmodule'] = 'Funkcija je nepravilno naslovljena in je ni moč locirati. Uporabite format
@@ -128,9 +120,9 @@ $string['nosuchservice'] = 'Storitev RPC se na tem strežniku ne izvaja.';
 $string['nosuchtransport'] = 'Način prenosa s to ID št. ne obstaja.';
 $string['notBASE64'] = 'Vpis ni pravilne Base64 kodirne oblike. Ne more biti veljavni ključ.';
 $string['notPEM'] = 'Ključ ni pravilne PEM oblike in ne bo deloval.';
-$string['not_in_range'] = 'Na IP naslovu &nbsp;<code>$a</code>&nbsp; se ne nahaja preverjen gostitelj.';
 $string['notpermittedtojump'] = 'Za ta Moodlov hub nimate pravice za začetek oddaljene seje.';
 $string['notpermittedtoland'] = 'Nimate dovoljenja za začetek oddaljene seje.';
+$string['not_in_range'] = 'Na IP naslovu &nbsp;<code>$a</code>&nbsp; se ne nahaja preverjen gostitelj.';
 $string['off'] = 'Izključeno';
 $string['on'] = 'Vključeno';
 $string['otherenrolledusers'] = 'Ostali vpisani uporabniki';
@@ -146,7 +138,7 @@ $string['receivedwarnings'] = 'Prejeta so bila naslednja opozorila';
 $string['recordnoexists'] = 'Vpis ne obstaja';
 $string['reenableserver'] = 'Ne - izberite to možnost za ponovno omogočenje tega strežnika';
 $string['registerallhosts'] = 'Registriraj vse strežnike (<em>Hub način</em>)';
-$string['registerallhostsexplain'] = 'Samodejno se lahko registrirajo vsi strežniki, ki se povežejo. Pojavil se bo seznam strežnikov, ki pričakujejo vaš javni ključ. <br />Izberete lahko \'Vsi strežniki\' in omogočite izbrane stroritve.';
+$string['registerallhostsexplain'] = 'Samodejno se lahko registrirajo vsi strežniki, ki se povežejo. Pojavil se bo seznam strežnikov, ki pričakujejo vaš javni ključ. <br />Izberete lahko &#039;Vsi strežniki&#039; in omogočite izbrane stroritve.';
 $string['remotecourses'] = 'Oddaljeni predmeti';
 $string['remoteenrolhosts_desc'] = 'Prijava in odjava uporabnikov, ki jo omogoča Moodlov omrežni vtičnik.';
 $string['remotehost'] = 'Oddaljeni hub';
@@ -156,6 +148,11 @@ $string['requiresopenssl'] = 'Omrežje zahteva razširitev OpenSSL';
 $string['restore'] = 'Obnovitev';
 $string['reviewhostdetails'] = 'Predled podrobnosti strežnika';
 $string['reviewhostservices'] = 'Pregled storitev na strežniku';
+$string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samo-podpisan)';
+$string['RPC_HTTPS_VERIFIED'] = 'HTTPS (podpisan)';
+$string['RPC_HTTP_PLAINTEXT'] = 'HTTP nekriptiran';
+$string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (samo-podpisan)';
+$string['RPC_HTTP_VERIFIED'] = 'HTTP (podpisan)';
 $string['selectaccesslevel'] = 'Iz seznama izberite nivo dostopa.';
 $string['selectahost'] = 'Izberite oddaljeni Moodlov strežnik';
 $string['serviceswepublish'] = 'Storitve, ki jih objavimo na $a.';
@@ -167,7 +164,7 @@ $string['ssl_acl_allow'] = 'SSO ACL: Dovoli uporabniku $a[0] z $a[1]';
 $string['ssl_acl_deny'] = 'SSO ACL: Prepreči uporabniku $a[0] z $a[1]';
 $string['ssoaccesscontrol'] = 'Nadzor dostopa SSO';
 $string['ssoacldescr'] = 'Na tej strani omogočate/preprečujete določenim uporabnikom dostop preko oddaljenega strežnika. Omogočiti morate storitve SSO. Gostovanje <em>lokalnih</em> uporabnikov omogočite tako, da jim dodelite <em>mnetlogintoremote</em>.';
-$string['ssoaclneeds'] = 'Za te funkcije morate vključiti Moodlovo omrežje in uporabiti vtičnik \"Moodle Network autentication\" z omogočeno opcijo \"auto-add users\".';
+$string['ssoaclneeds'] = 'Za te funkcije morate vključiti Moodlovo omrežje in uporabiti vtičnik "Moodle Network autentication" z omogočeno opcijo "auto-add users".';
 $string['strict'] = 'Natančno';
 $string['subscribe'] = 'Naroči';
 $string['system'] = 'Sistem';
@@ -182,7 +179,7 @@ $string['trustedhostsexplain'] = '<p>Mehanizem zaupanja vrednih strežnikov (tru
 Primeri:</p>Lokalni strežnik:<br />127.0.0.1<br />Lokalni strežnik z blokiranim omrežjem:<br />127.0.0.1/32<br />Samo strežnik z IP naslovom 192.168.0.7:<br />192.168.0.7/32<br />Katerikoli strežnik z IP naslovom med 192.168.0.1 in 192.168.0.255:<br />192.168.0.0/24<br />Katerikoli strežnik:<br />192.168.0.0/0<br />Zadnji primer <strong>ni priporočljiva</strong> konfiguracija.';
 $string['unknownerror'] = 'Neznana napaka med pogajanjem.';
 $string['usercannotchangepassword'] = 'Gesla ne morete spremeniti, ker niste oddaljeni uporabnik.';
-$string['userchangepasswordlink'] = '<br /> Morda geslo lahko spremenite na  <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>.';
+$string['userchangepasswordlink'] = '<br /> Morda geslo lahko spremenite na  <a href="$a->wwwroot/login/change_password.php">$a->description</a>.';
 $string['usersareonline'] = 'Opozorilo: število prijavljenih uporabnikov je $a';
 $string['validated_by'] = 'Validirano z omrežja: &nbsp;<code>$a</code>';
 $string['verifysignature-error'] = 'Verifikacija podpisa ni uspela. Zgodila se je napaka.';
@@ -193,5 +190,4 @@ $string['wrong-ip'] = 'Vaš IP naslov se ne sklada s shranjenih naslovom.';
 $string['xmlrpc-missing'] = 'V PHP morate dodati XML-RPC';
 $string['yourhost'] = 'Vaš strežnik';
 $string['yourpeers'] = 'Vaš nivo';
-
 ?>

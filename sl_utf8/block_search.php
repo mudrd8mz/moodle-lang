@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // block_search.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // block_search.php
 $string['blockname'] = 'Globalno iskanje';
 $string['bytes'] = 'bajti (0 brez omejitve)';
 $string['configbuttonlabel'] = 'Oznaka gumba';
@@ -15,5 +12,4 @@ $string['configwordtotextcmd'] = 'Pot do ukaza doctotext';
 $string['configwordtotextenv'] = 'Nastavitve okolja za MSWord converter';
 $string['go'] = 'Začni!';
 $string['searchmoodle'] = 'Išči po Moodlu';
-
 ?>

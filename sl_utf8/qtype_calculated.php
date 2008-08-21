@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // qtype_calculated.php
 $string['addmoreanswerblanks'] = 'Dodaj prazen odgovor';
 $string['addmoreunitblanks'] = 'Prazna mesta za $a enot';
 $string['answerhdr'] = 'Odgovor';
@@ -18,7 +15,7 @@ $string['mustbenumeric'] = 'Tu morate vnesti število';
 $string['mustnotbenumeric'] = 'To ne more biti število';
 $string['newcategory1'] = 'bo uporabljen nov skupni nabor podatkov';
 $string['newlocal1'] = 'bo uporabljen nov zasebni nabor podatkov';
-$string['nextitemtoadd'] = 'Naslednji \'Predmet za dodajanje\'';
+$string['nextitemtoadd'] = 'Naslednji &#039;Predmet za dodajanje&#039;';
 $string['nextpage'] = 'Naslednja stran';
 $string['nodataset'] = 'nič - ni spremenljivka';
 $string['nosharedwildcard'] = 'Ni skupnih spremenljivk v tej kategoriji';
@@ -27,5 +24,4 @@ $string['tolerance'] = 'Odstopanje &plusmn;';
 $string['updatecategory'] = 'Posodobi to kategorijo';
 $string['usedinquestion'] = 'Uporabljeno v vprašanju';
 $string['youmustenteramultiplierhere'] = 'Tu morate vnesti multiplikator';
-
 ?>

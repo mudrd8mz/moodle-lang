@@ -1,11 +1,8 @@
-<?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
-$string['addedotag'] = '\"$a\" je dodan uradni oznaki';
+<?php // $Id:
+      // tag.php
+$string['addedotag'] = '"$a" je dodan uradni oznaki';
 $string['addotags'] = 'Dodaj uradne oznake';
-$string['addtagtomyinterests'] = 'Dodaj \"$a\" k mojim interesom';
+$string['addtagtomyinterests'] = 'Dodaj "$a" k mojim interesom';
 $string['blocktagstitle'] = 'Oznake';
 $string['changename'] = 'Spremeni naziv oznake';
 $string['changetype'] = 'Spremeni tip oznake';
@@ -22,19 +19,19 @@ $string['managetags'] = 'Uredi oznake';
 $string['name'] = 'Naziv oznake';
 $string['namesalreadybeeingused'] = 'Naziv oznake je že uporabljeno';
 $string['newname'] = 'Naziv nove oznake';
-$string['noresultsfor'] = 'Ni rezultatot o \"$a\"';
+$string['noresultsfor'] = 'Ni rezultatot o "$a"';
 $string['officialtag'] = 'Uradna oznaka';
 $string['otags'] = 'Uradne oznake';
 $string['owner'] = 'Lastnik';
 $string['ptags'] = 'Uporabniške oznake (ločene z vejico)';
 $string['relatedblogs'] = 'Nedavni vnosi v blogu s to oznako';
 $string['relatedtags'] = 'Sorodne oznake';
-$string['removetagfrommyinterests'] = 'Brisanje \"$a\" iz mojih interesov';
+$string['removetagfrommyinterests'] = 'Brisanje "$a" iz mojih interesov';
 $string['reset'] = 'Reset';
 $string['resetflag'] = 'Reset zastavice';
 $string['responsiblewillbenotified'] = 'Odgovorna oseba bo obveščena';
 $string['search'] = 'Išči';
-$string['searchresultsfor'] = 'Išči rezultate za  \"$a\"';
+$string['searchresultsfor'] = 'Išči rezultate za  "$a"';
 $string['searchtags'] = 'Iskalne oznake';
 $string['seeallblogs'] = 'Prikaži vse vnose blogov s to oznako';
 $string['select'] = 'Izberi';
@@ -45,13 +42,12 @@ $string['tagsaredisabled'] = 'Oznake so onemogočene';
 $string['tagtype'] = 'Tip oznake';
 $string['tagtype_default'] = 'Privzeto';
 $string['tagtype_official'] = 'Uradno';
-$string['thingstaggedwith'] = '$a->count zadetkov z oznako \"$a->name\"';
+$string['thingstaggedwith'] = '$a->count zadetkov z oznako "$a->name"';
 $string['thistaghasnodesc'] = 'Ta oznaka trenutno nima opisa';
 $string['timemodified'] = 'Spremenjeno';
 $string['typechanged'] = 'Tip spremenjene oznake';
 $string['updated'] = 'Spremenjeno';
 $string['updatetag'] = 'Spremeni';
-$string['userstaggedwith'] = 'Uporabniki, označeni kot \"$a\"';
+$string['userstaggedwith'] = 'Uporabniki, označeni kot "$a"';
 $string['withselectedtags'] = 'Z izbranimi oznakami ...';
-
 ?>

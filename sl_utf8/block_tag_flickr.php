@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // block_tag_flickr.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // block_tag_flickr.php
 $string['blockname'] = 'Spletna stran';
 $string['configtitle'] = 'Naslov';
 $string['date-posted-asc'] = 'Datum objave - naraščajoče';
@@ -17,5 +14,4 @@ $string['interestingness-desc'] = 'Priljubljenost DESC-ja';
 $string['numberofphotos'] = 'Število fotografij';
 $string['relevance'] = 'Ustreznost';
 $string['sortby'] = 'Razporedi po';
-
 ?>

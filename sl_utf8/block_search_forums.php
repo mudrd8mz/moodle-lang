@@ -1,8 +1,5 @@
-<?PHP // $Id:block_search_forums.php from block_search_forums.xml
-      // Comments: tomaz at zid dot si
-
-$string['blocktitle'] = 'Išči v forumih';
+<?php // $Id:
+      // block_search_forums.php
 $string['advancedsearch'] = 'Napredno iskanje';
-
-
+$string['blocktitle'] = 'Išči v forumih';
 ?>

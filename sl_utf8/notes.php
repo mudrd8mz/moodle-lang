@@ -1,7 +1,5 @@
-<?PHP // $Id$ 
-      // notes.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
-
-
+<?php // $Id:
+      // notes.php
 $string['addnewnote'] = 'Dadaj nov zapis';
 $string['addnewnoteselect'] = 'Izberi uporabnike o katerih boste pisali zapiske';
 $string['bynameondate'] = 'po $a->name - $a->date';
@@ -25,5 +23,4 @@ $string['publishstate'] = 'Status';
 $string['site'] = 'stran';
 $string['sitenotes'] = 'Zapisi strani';
 $string['unknown'] = 'neznano';
-
 ?>

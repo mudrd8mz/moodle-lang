@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // bulkusers.php
 $string['addall'] = 'Dodaj vse';
 $string['addsel'] = 'Dodaj v izbor';
 $string['allfilteredusers'] = 'Vsi filtrirani ($a->count/$a->total)';
@@ -19,5 +16,4 @@ $string['selectedlist'] = 'Izbrana lista uporabnikov ...';
 $string['usersfound'] = '$a najdenih uporabnikov.';
 $string['usersinlist'] = 'Uporabnikov v seznamu';
 $string['usersselected'] = '$a izbranih uporabnikov.';
-
 ?>

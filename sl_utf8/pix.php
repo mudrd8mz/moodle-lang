@@ -1,6 +1,5 @@
-<?PHP // $Id:pix.php from pix.xml
-      // Comments: tomaz at zid dot si
-
+<?php // $Id:
+      // pix.php
 $string['angry'] = 'jezen';
 $string['approve'] = 'odobravanje';
 $string['biggrin'] = 'režanje';
@@ -21,6 +20,4 @@ $string['thoughtful'] = 'zamišljen';
 $string['tongueout'] = 'jezik';
 $string['wideeyes'] = 'široke oči';
 $string['wink'] = 'pomežik';
-
-
 ?>

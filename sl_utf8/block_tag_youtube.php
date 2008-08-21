@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // block_tag_youtube.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
-      // local modifications from http://193.2.123.15/moodle
-
-
+<?php // $Id:
+      // block_tag_youtube.php
 $string['anycategory'] = 'Poljubna kategorija';
 $string['autosvehicles'] = 'Avtomobili &amp; Vozila';
 $string['blockname'] = 'Youtube';
@@ -21,5 +18,4 @@ $string['peopleblogs'] = 'Ljudje &amp; Blogi';
 $string['petsanimals'] = 'Domači ljubljenčki &amp; Živali';
 $string['sports'] = 'Šport';
 $string['travel'] = 'Potovanja &amp; Kraji';
-
 ?>
