@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20080812) (2008080701)
+      // completion.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['activitycompletion'] = '활동 이수';
@@ -8,28 +8,28 @@ $string['completedunlocked'] = '이수 설정 해제';
 $string['completedunlockedtext'] = '변경사항을 저장하게 되면, 모든 사용자의 이수 상태가 지워질 것입니다. 만일 지워지는게 꺼림직하다면, 저장하지 마십시오.';
 $string['completedwarning'] = '이수 설정 잠금';
 $string['completedwarningtext'] = '여러 사람 ($a) 이 이 활동을 이수했다고 보고되었습니다. 이수 설정을 변경하게 되면 그들의 이수 상황이 지워질 것이며 혼선을 불러올 수도 있습니다. 꼭 필요하지 않고, 설정이 잠겨 있다면 굳이 이를 해제하지 마십시오.';
-$string['completion'] = '이수 상태 추적';
+$string['completion'] = '이수상황 추적';
 $string['completion-alt-auto-enabled'] = '조건에 의거하여 항목 이수를 표시함';
 $string['completion-alt-auto-fail'] = '이수함(통과 점수를 획득하지 못함)';
 $string['completion-alt-auto-n'] = '미이수';
 $string['completion-alt-auto-pass'] = '이수함(통과 점수 획득)';
 $string['completion-alt-auto-y'] = '이수함';
-$string['completion-alt-manual-enabled'] = '사용자 스스로 활동 이수상황을 기입할 수 있게 함';
+$string['completion-alt-manual-enabled'] = '사용자 스스로 이수상황을 기입할 수 있게 함';
 $string['completion-alt-manual-n'] = '미이수';
 $string['completion-alt-manual-y'] = '이수';
 $string['completion-title-manual-n'] = '이수로 표시';
 $string['completion-title-manual-y'] = '미이수로 표시';
-$string['completion_automatic'] = '조건을 충족시키면 활동 이수로 표시';
+$string['completion_automatic'] = '조건을 충족시키면 자동으로 활동 이수로 표시';
 $string['completion_manual'] = '사용자 스스로 활동 이수상황을 기입할 수 있게 함';
-$string['completion_none'] = '활동 이수 사항을 표시하지 않음';
-$string['completiondisabled'] = '이를 꺼 놓으면, 활동 설정에서 제시하지 않음';
-$string['completionenabled'] = '이를 켜 놓으면, 활동 설정에서 이를 조정할 수 있음';
+$string['completion_none'] = '활동 이수 상황을 표시하지 않음';
+$string['completiondisabled'] = '끔, 활동 설정에서 이를 제시하지 않음';
+$string['completionenabled'] = '켬, 활동 설정에서 이를 설정할 수 있음';
 $string['completionexpected'] = '이수 기한';
 $string['completionreport'] = '이수 경과 보고서';
-$string['completionusegrade'] = '필수 학점';
-$string['completionusegrade_text'] = '사용자가 반드시 취득해야할 점수';
-$string['completionview'] = '필수 요목';
-$string['completionview_text'] = '사용자가 반드시 봐야할 할동';
+$string['completionusegrade'] = '평점 필수';
+$string['completionusegrade_text'] = '사용자는 반드시 평점을 확보해야 함';
+$string['completionview'] = '열람 필수';
+$string['completionview_text'] = '사용자는 반드시 할동을 열람해야 함';
 $string['configenablecompletion'] = '이를 활성화하면, 강좌 수준에서 이수과정을 추적할 수 있게 된다.';
 $string['configprogresstrackedroles'] = '이수과정 추적 화면에 표시할 역할. (일반적으로 학생 및 이와 동등한 자격을 지닌 사람을 포함)';
 $string['csvdownload'] = '스프레드쉬트 형식으로 내려받기(UTF-8 .csv)';
@@ -41,7 +41,7 @@ $string['excelcsvdownload'] = '엑셀 호환 형식(.csv)으로 내려받음';
 $string['help_completion'] = '이수 과정 추적';
 $string['help_completionexpected'] = '이수 날짜가 필요함';
 $string['help_completionlocked'] = '이수 옵션 잠김';
-$string['help_completionview'] = '이수하기 위해 볼 것';
+$string['help_completionview'] = '이수를 위한 필수 열람 내용';
 $string['progress'] = '학생의 진도';
 $string['progress-title'] = '$a->user, $a->activity: $a->state $a->date';
 $string['progresstrackedroles'] = '진도 관리자 역할';

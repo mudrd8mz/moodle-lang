@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080820) (2008081900)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['addalltoportfolio'] = '모두 포트폴리오에 추가';
@@ -58,6 +58,7 @@ $string['nonprimative'] = 'portfolio_add_button으로 초기값 전송없음. �
 $string['nopermissions'] = '죄송합니다만, 이 영역에서 파일을 내보낼 권한이 없음';
 $string['notexportable'] = '죄송합니다만, 내보낼 수 없는 내용 형식을 지정하였음';
 $string['notimplemented'] = '죄송합니다만, 아직 지원하지 않는 ($a) 형식으로 내용을 내보내려 하고 있습니다.';
+$string['notyours'] = '남의 포트폴리오를 재작성하려고 합니다!';
 $string['nouploaddirectory'] = '자료를 묶을 임시 저장고를 생생할 수 없음';
 $string['plugin'] = '포트폴리오 플러그인';
 $string['plugincouldnotpackage'] = '내보낼 자료를 묶는 데 실패';

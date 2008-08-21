@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080812) (2008080701)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['activation'] = '활성화';
@@ -129,9 +129,12 @@ $string['scorm:skipview'] = '개요보기 생략';
 $string['scorm:viewreport'] = '보고서 보기';
 $string['scorm:viewscores'] = '점수 보기';
 $string['scormcourse'] = 'SCORM 학습';
+$string['scormloggingoff'] = 'API 기록 끔';
+$string['scormloggingon'] = 'API 기록 켬';
 $string['scrollbars'] = '스크롤 허용';
 $string['sided'] = '왼쪽에';
 $string['skipview'] = '학생들에게는 내용 구조 화면을 생략함';
+$string['slashargs'] = '경고 : 본 사이트의 슬래쉬 아규먼트는 비활성 되어 있으며 객체가 원하는 대로 작동하지 않을 수 있음!';
 $string['stagesize'] = '프레임/윈도우 크기';
 $string['started'] = '시작일';
 $string['status'] = '상태';
