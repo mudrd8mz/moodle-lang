@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
+      // install.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['aborting'] = 'インストール異常終了';
@@ -125,6 +125,7 @@ $string['databasetype'] = 'データベースタイプ :';
 $string['databaseuser'] = 'データベースユーザ :';
 $string['dataroot'] = 'データディレクトリ';
 $string['datarooterror'] = 'あなたが指定した「データディレクトリ」が見つからないか、作成されませんでした。パスを訂正するか、ディレクトリを手動で作成してください。';
+$string['datarootpublicerror'] = 'あなたが指定した「データディレクトリ」は、ウェブ経由でアクセスすることができます。異なるディレクトリを使用してください。';
 $string['dbconnectionerror'] = 'あなたが指定したデータベースに接続できませんでした。データベース設定を確認してください。';
 $string['dbcreationerror'] = 'データベース作成エラー。設定で指定された名称のデータベースを作成できませんでした。';
 $string['dbhost'] = 'ホストサーバ';
@@ -169,13 +170,13 @@ $string['downloadsuccess'] = '言語パックが正常にダウンロードさ�
 $string['doyouagree'] = '同意しますか ? (yes/no):';
 $string['environmenthead'] = 'あなたの環境を確認しています ...';
 $string['environmentsub'] = 'あなたのシステムに関する様々な要素が、システム要件に合致するか確認しています。';
-$string['errorsinenvironment'] = '環境エラー';
+$string['errorsinenvironment'] = '環境エラー!';
 $string['fail'] = '失敗';
 $string['fileuploads'] = 'ファイルアップロード';
 $string['fileuploadserror'] = 'これは有効にしてください。';
 $string['fileuploadshelp'] = '<p>あなたのサーバでは、ファイルのアップロードができないようです。</p>
 <p>Moodleのインストールは可能ですが、ファイルのアップロードができない場合は、コースファイルやユーザプロファイルのイメージをアップロードすることができません。</p>
-<p>ファイルアップロードを可能にするには、あなた (またはシステム管理者) があなたのシステムのメインphp.iniファイルを編集して、<b>file_uploads</b> を \'1\'にする必要があります。</p>';
+<p>ファイルアップロードを可能にするには、あなた (またはシステム管理者) があなたのシステムのメインphp.iniファイルを編集して、<b>file_uploads</b> を「1」にする必要があります。</p>';
 $string['gdversion'] = 'GDバージョン';
 $string['gdversionerror'] = 'イメージの処理および作成を行うにはGDライブラリが必要です。';
 $string['gdversionhelp'] = '<p>あなたのサーバには、GDがインストールされていないようです。</p>
@@ -334,7 +335,7 @@ $string['writetoconfigfilefaild'] = 'エラー: config.phpファイルの書き�
 $string['wwwroot'] = 'ウェブアドレス';
 $string['wwwrooterror'] = '「ウェブアドレス」が正しくありません - インストール済みMoodleはそこに表示されません。下記の値はリセットされました。';
 $string['yourchoice'] = 'あなたの選択 :';
-$string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください (5.0.x には既知の多数の問題があります)。'; // TBD
-$string['unsafedirname'] = 'エラー: ディレクトリ名に安全でない文字が含まれています。有効な文字は、「a-zA-Z0-9_」です。'; // TBD
+$string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください (5.0.x には既知の多数の問題があります)。'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
+$string['unsafedirname'] = 'エラー: ディレクトリ名に安全でない文字が含まれています。有効な文字は、「a-zA-Z0-9_」です。'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 ?>

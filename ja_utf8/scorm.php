@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080819) (2008081900)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['activation'] = 'アクティベーション';
@@ -129,6 +129,8 @@ $string['scorm:skipview'] = '概要をスキップする';
 $string['scorm:viewreport'] = 'レポートを表示する';
 $string['scorm:viewscores'] = '評点を表示する';
 $string['scormcourse'] = '学習コース';
+$string['scormloggingoff'] = 'APIログイン: OFF';
+$string['scormloggingon'] = 'APIログイン: ON';
 $string['scrollbars'] = 'ウィンドウのスクロールを許可する';
 $string['sided'] = '左側';
 $string['skipview'] = '学生によるコンテンツ構造ページスキップ';
