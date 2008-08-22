@@ -120,6 +120,7 @@ $string['databasetype'] = 'Type de base de données :';
 $string['databaseuser'] = 'Utilisateur de la base de données :';
 $string['dataroot'] = 'Dossier de données';
 $string['datarooterror'] = 'Le dossier de données indiqué n\'a pas pu être trouvé ou créé. Veuillez corriger le paramètre ou créer manuellement le dossier.';
+$string['datarootpublicerror'] = 'Le dossier de données que vous avez indiqué est directement accessible depuis le web. Vous devez utiliser un autre dossier.';
 $string['dbconnectionerror'] = 'Moodle n\'a pas pu se connecter à la base de données indiquée. Veuillez vérifier les paramètres de votre base de données';
 $string['dbcreationerror'] = 'Erreur lors de la création de la base de données. Impossible de créer la base de données avec les paramètres fournis';
 $string['dbwrongencoding'] = 'La base de données choisie fonctionne avec un encodage non recommandé ($a). La meilleure solution serait d\'utiliser plutôt une base de données encodée en Unicode (UTF-8). Vous pouvez cependant passer outre ce test en cochant l\'option «&nbsp;Ne pas effectuer le test d\'encodage de la base de données&nbsp;» ci-dessous, mais alors des problèmes pourraient survenir à l\'avenir.';
@@ -137,7 +138,7 @@ $string['directorysettings'] = '<p>Veuillez confirmer les emplacements de cette 
 $string['directorysettingshead'] = 'Veuillez confirmer les emplacements de cette installation de Moodle.';
 $string['directorysettingssub'] = '<b>Adresse web :</b> veuillez indiquer l\'adresse web complète par laquelle on accédera à Moodle. Si votre site web est accessible par plusieurs URL, choisissez celle qui est la plus naturelle ou la plus évidente. Ne placez pas de barre oblique à la fin de l\'adresse.<br /><br />
 <b>Dossier Moodle :</b> veuillez spécifier le chemin complet de cette installation de Moodle («&nbsp;OS path&nbsp;»). Assurez-vous que la casse des caractères (majuscules/minuscules) est correcte.<br /><br />
-<b>Dossier de données :</b> Moodle a besoin d\'un emplacement où enregistrer les fichiers déposés sur le site. Le serveur web (utilisateur dénommé habituellement «&nbsp;www&nbsp;», «&nbsp;apache&nbsp;» ou «&nbsp;nobody&nbsp;») doit avoir accès à ce dossier en lecture et EN ÉCRITURE. Toutefois ce dossier ne devrait pas être accessible directement depuis le web.';
+<b>Dossier de données :</b> Moodle a besoin d\'un emplacement où enregistrer les fichiers déposés sur le site. Le serveur web (utilisateur dénommé habituellement «&nbsp;www&nbsp;», «&nbsp;apache&nbsp;» ou «&nbsp;nobody&nbsp;») doit avoir accès à ce dossier en lecture et EN ÉCRITURE. Toutefois ce dossier ne doit pas être accessible directement depuis le web.';
 $string['dirroot'] = 'Dossier Moodle';
 $string['dirrooterror'] = 'Le dossier Moodle semble incorrect : aucune installation de Moodle ne se trouve dans ce dossier. Le dossier Moodle indiqué ci-dessous est vraisemblablement correct.';
 $string['disagreelicense'] = 'La mise à jour ne peut pas continuer, puisque vous n\'êtes pas d\'accord avec la GPL !';
