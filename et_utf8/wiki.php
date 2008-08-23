@@ -143,6 +143,7 @@ $string['safehtml']='Turvaline HTML';
 $string['save']='Salvesta';
 $string['searchwiki']='Otsi Wikist';
 $string['setpageflags']='Määra lehe lipud';
+$string['showversions']='Kuva versioonid:';
 $string['sitemap']='Sisukaart';
 $string['smfor']='Sisukaart';
 $string['status']='Olek';

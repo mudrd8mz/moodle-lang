@@ -1,12 +1,15 @@
 <?php
+$string['RPC_HTTPS_SELF_SIGNED']='HTTPS (ise signeeritud)';
 $string['RPC_HTTPS_VERIFIED']='HTTPS (signeeritud)';
 $string['RPC_HTTP_PLAINTEXT']='HTTP krüpteerimata';
+$string['RPC_HTTP_SELF_SIGNED']='HTTP (ise signeeritud)';
 $string['RPC_HTTP_VERIFIED']='HTTP (signeeritud)';
 $string['aboutyourhost']='Info Sinu serveri kohta';
 $string['accesslevel']='Ligipääsu tase';
 $string['addhost']='Lisa host';
 $string['addnewhost']='Lisa uus host';
 $string['allow']='Luba';
+$string['authfail_sessiontimedout']='Volitamine ebaõnnestus: mnet seanss on aegunud';
 $string['authmnetdisabled']='Moodle Networking <em>autentimise plugin</em>on <strong>mitte võimaldatud</strong>.';
 $string['badcert']='See ei ole kehtiv sertifikaat';
 $string['courses']='kursused';
@@ -61,6 +64,7 @@ $string['on']='Sees';
 $string['postrequired']='Kustutamisfunktsioon nõuab POST-päringut';
 $string['publickey']='Avalik võti';
 $string['publickey_help']='Avalik võti on automaatselt saadud kaud-serverist.';
+$string['recordnoexists']='Kirjet ei eksisteeri';
 $string['remotecourses']='Kaug-kursused';
 $string['remotehosts']='Kaug-hostid';
 $string['remotemoodles']='Kaug-Moodled';
@@ -76,8 +80,11 @@ $string['testtrustedhosts']='Testi aadressi';
 $string['testtrustedhostsexplain']='Sisesta IP-aadress saamaks teada, kas tegemist usaldatud hostiga.';
 $string['trustedhosts']='XML-RPC hostid';
 $string['unknownerror']='Tundmatu viga ilmnes kätlemise käigus.';
+$string['usersareonline']='Hoiatus: $a kasutajat sellest serverist on hetkel sisse logitud Sinu õpikeskkonda.';
+$string['verifysignature-error']='Signatuuri verifitseerimine ebaõnnestus. Viga ilmnes.';
 $string['version']='versioon';
 $string['warning']='Hoiatus';
+$string['xmlrpc-missing']='Sul peab olema PHP\'sse installeeritud XML-RPC, et seda võimalust kasutada.';
 $string['yourhost']='Sinu host';
 $string['yourpeers']='Sinu partnerid';
 ?>
