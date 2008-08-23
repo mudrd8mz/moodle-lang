@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080816) (2008081506)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080823) (2008081900)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -12,9 +12,10 @@ $string['activity'] = '활동';
 $string['activityclipboard'] = '이 활동을 옮기기: <b>$a</b>';
 $string['activityiscurrentlyhidden'] = '공개되지 않은 활동임';
 $string['activitymodule'] = '활동 모듈';
+$string['activitymodules'] = '활동 모듈들';
 $string['activityreport'] = '활동 보고';
 $string['activityreports'] = '활동 보고서';
-$string['activityselect'] = '이 활동을 다른 곳으로 옮기기 위해 선택';
+$string['activityselect'] = '다른 곳으로 옮기기 위한 활동 선택';
 $string['activitysince'] = '$a 이후 활동';
 $string['activityweighted'] = '개인별 활동';
 $string['add'] = '추가';
@@ -41,7 +42,7 @@ $string['addsubcategory'] = '하위 범주 추가';
 $string['addteacher'] = '교수자 추가';
 $string['admin'] = '관리자';
 $string['adminbookmarks'] = '관리자 갈무리주소록';
-$string['adminhelpaddnewuser'] = '새 사용자 계정 수동으로 생성';
+$string['adminhelpaddnewuser'] = '사용자 계정 수동으로 생성';
 $string['adminhelpassignadmins'] = '관리자는 사이트의 어디에서나 활동할 수 있음';
 $string['adminhelpassigncreators'] = '생성자는 새 강좌를 만들고 그 안에서 가르칠 수 있음';
 $string['adminhelpassignsiteroles'] = '특정 이용자에게 지정한 역할을 적용함';
@@ -89,7 +90,7 @@ $string['again'] = '다시';
 $string['aimid'] = 'AIM 아이디';
 $string['ajaxno'] = '아니오: 기본 웹 기능 사용';
 $string['ajaxuse'] = 'AJAX 및 자바';
-$string['ajaxyes'] = '예: 향상된 웹 기능 사용';
+$string['ajaxyes'] = '예: 고급 웹 기능 사용';
 $string['all'] = '모두';
 $string['allactions'] = '모든 조치';
 $string['allactivities'] = '모든 활동';
@@ -1566,9 +1567,9 @@ $string['welcometocoursetext'] = '$a->coursename 에 오신 것을 환영합니�
 $a->profileurl 를 누르면 개인정보를 수정할 수 있습니다.';
 $string['whattocallzip'] = 'zip 파일 이름은?';
 $string['withchosenfiles'] = '선택된 파일(들)을..';
-$string['withoutuserdata'] = '사용자 데이터 없이';
+$string['withoutuserdata'] = '사용자 데이터 제외';
 $string['withselectedusers'] = '선택된 사용자를';
-$string['withuserdata'] = '사용자 데이터와';
+$string['withuserdata'] = '사용자 데이터 포함';
 $string['wordforstudent'] = '학습자에 대한 호칭';
 $string['wordforstudenteg'] = '예: 학생, 참여자 등';
 $string['wordforstudents'] = '학습자들에 대한 호칭';
@@ -1580,7 +1581,7 @@ $string['wordforteacherseg'] = '예: 선생님들, 교수자들 등';
 $string['writingblogsinfo'] = '블로그 정보 쓰기';
 $string['writingcategoriesandquestions'] = '범주를 정하고 질문 쓰기';
 $string['writingcoursedata'] = '강좌 데이터 쓰기';
-$string['writingeventsinfo'] = '이벤트 정보 쓰기';
+$string['writingeventsinfo'] = '일정 정보 쓰기';
 $string['writinggeneralinfo'] = '일반적 정보 쓰기';
 $string['writinggradebookinfo'] = '성적표 정보 쓰기';
 $string['writinggroupingsgroupsinfo'] = '모둠무리-모둠 정보 쓰기';
@@ -1592,7 +1593,7 @@ $string['writingmessagesinfo'] = '메시지 정보 쓰기';
 $string['writingmoduleinfo'] = '모듈 정보 쓰기';
 $string['writingscalesinfo'] = '척도 정보 쓰기';
 $string['writinguserinfo'] = '이용자 정보 쓰기';
-$string['wrongpassword'] = '이 계정의 비밀번호와 일치하지 않습니다.';
+$string['wrongpassword'] = '계정 비밀번호가 일치하지 않음';
 $string['xmldbeditor'] = 'XMLDB 편집기';
 $string['yahooid'] = '야후 아이디';
 $string['year'] = '년';

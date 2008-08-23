@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080717) (2008070701)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080823) (2008081900)
 
 
 $string['1day'] = '하루';
@@ -34,6 +34,8 @@ $string['addrandom2'] = '임의의 문항';
 $string['addselectedtoquiz'] = '선택한 문항 퀴즈에 추가';
 $string['addtoquiz'] = '퀴즈에 추가';
 $string['affectedstudents'] = '변경된 $a';
+$string['aftereachquestion'] = '매 문항 추가 후';
+$string['afternquestions'] = '$a 문항 추가 후';
 $string['aiken'] = 'Aiken 형식';
 $string['allattempts'] = '모든 시도들';
 $string['allinone'] = '무제한';
@@ -289,6 +291,8 @@ $string['gradingdetailspenalty'] = '이번 제출은 $a 의 감점이 있습니�
 $string['gradingdetailszeropenalty'] = '이 제출에 대해 감점을 당하지 않습니다.';
 $string['gradingmethod'] = '채점 방법: $a';
 $string['guestsno'] = '죄송합니다, 손님 계정으로는 퀴즈를 보거나 풀 수 없습니다.';
+$string['hidebreaks'] = '쪽 분할 감춤';
+$string['hidereordertool'] = '재정렬 도구 감춤';
 $string['history'] = '응답 기록:';
 $string['hotpot'] = 'Hot Potatoes 형식';
 $string['illegalformulasyntax'] = '\'$a\'로 시작하는 적합하지 않은 공식';
@@ -366,6 +370,7 @@ $string['multipleanswers'] = '최소 한 개의 답을 선택하시오.';
 $string['multiplier'] = '승수';
 $string['name'] = '명칭';
 $string['newattemptfail'] = '오류 : 새로운 시도를 할 수 없음';
+$string['newpageevery'] = '새 페이지 자동 시작';
 $string['noanswers'] = '아무 답도 고르지 않았음!';
 $string['noattempts'] = '한번도 퀴즈를 시도하지 않았음';
 $string['noattemptstoshow'] = '보려는 시도가 없었음';

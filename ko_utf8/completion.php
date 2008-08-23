@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // completion.php - created with Moodle 2.0 dev (Build: 20080823) (2008081900)
 
 
 $string['activitycompletion'] = '활동 이수';
@@ -25,6 +25,7 @@ $string['completion_none'] = '활동 이수 상황을 표시하지 않음';
 $string['completiondisabled'] = '끔, 활동 설정에서 이를 제시하지 않음';
 $string['completionenabled'] = '켬, 활동 설정에서 이를 설정할 수 있음';
 $string['completionexpected'] = '이수 기한';
+$string['completionicons'] = '이수 아이콘';
 $string['completionreport'] = '이수 경과 보고서';
 $string['completionusegrade'] = '평점 필수';
 $string['completionusegrade_text'] = '사용자는 반드시 평점을 확보해야 함';
