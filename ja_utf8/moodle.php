@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -12,6 +12,7 @@ $string['activity'] = '活動';
 $string['activityclipboard'] = 'この活動を移動する: <b>$a</b>';
 $string['activityiscurrentlyhidden'] = '申し訳ございません、この活動は現在非表示にされています。';
 $string['activitymodule'] = '活動モジュール';
+$string['activitymodules'] = '活動モジュール';
 $string['activityreport'] = '活動レポート';
 $string['activityreports'] = '活動レポート';
 $string['activityselect'] = 'この活動を移動のため選択する';
@@ -1626,9 +1627,9 @@ $string['yourlastlogin'] = 'あなたの最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
-$string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
-$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
-$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
-$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
+$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
+$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
+$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 ?>

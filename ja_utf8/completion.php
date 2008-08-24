@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20080807) (2008080701)
+      // completion.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['activitycompletion'] = '活動完了';
@@ -25,6 +25,7 @@ $string['completion_none'] = '活動完了を表示しない';
 $string['completiondisabled'] = '無効、活動設定に表示しない';
 $string['completionenabled'] = '有効、活動設定を通してコントロールする';
 $string['completionexpected'] = '期待される完了日';
+$string['completionicons'] = '進捗アイコン';
 $string['completionreport'] = '完了進捗レポート';
 $string['completionusegrade'] = '評定を必要とする';
 $string['completionusegrade_text'] = 'ユーザは活動を評定される必要があります。';
