@@ -2,6 +2,7 @@
 $string['admindirerror']='Valitud administreerimiskataloog on vale';
 $string['admindirname']='Administreerimiskataloog';
 $string['admindirsetting']='Mõned vähesed veebihostid kasutavad spetsiaalset URL-i, et anda ligipääs juhtpaneelile. Kahjuks läheb see konflikti Moodle administreerimislehe standardse asukohaga. Sa saad seda viga parandada, kui nimetad oma administreerimiskataloogi ümber. Näiteks: <br /> <br /><b>moodleadmin</b><br /> <br /> See teeb administreerimislingid Moodle\'is korda.';
+$string['admindirsettinghead']='Kataloogi admin seadistamine ...';
 $string['caution']='Hoiatus';
 $string['chooselanguage']='Vali keel';
 $string['chooselanguagehead']='Keele valik';
@@ -13,6 +14,7 @@ $string['configfilenotwritten']='Installeerimisskript ei suutnud automaatselt te
 $string['configfilewritten']='config.php on edukalt loodud';
 $string['configurationcomplete']='Seadistamine lõpetatud';
 $string['configurationcompletehead']='Konfigureerimine lõpetatud';
+$string['configurationcompletesub']='Moodle tegi katse salvestada Sinu seadistuse Moodle juurkataloogis asuvasse faili.';
 $string['database']='Andmebaas';
 $string['databasecreationsettings']='Nüüd sa pead konfigureerima seadistuse andmebaasile, kus hoitakse enamikku Moodle andmetest. See andmebaas luuakse automaatselt Moodle4Windows poolt koos järgnevalt määratud seadistustega.<br />
 <br /> <br />
