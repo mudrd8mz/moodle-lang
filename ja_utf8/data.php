@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // data.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['action'] = '操作';
@@ -275,12 +275,12 @@ $string['usestandard'] = 'プリセットを使用する';
 $string['viewfromdate'] = '表示開始';
 $string['viewtodate'] = '表示終了';
 $string['wrongdataid'] = '無効なデータIDが提供されました。';
-$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['invaliddata'] = 'データが正しくありません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['csvformat'] = 'CSVフォーマット'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['excelformat'] = 'Excelフォーマット'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['exportdatabase'] = 'データベースレコードをエクスポートする'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['odsformat'] = 'ODSフォーマット'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD
+$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD
+$string['invaliddata'] = 'データが正しくありません。'; //TBD
+$string['csvformat'] = 'CSVフォーマット'; //TBD
+$string['excelformat'] = 'Excelフォーマット'; //TBD
+$string['exportdatabase'] = 'データベースレコードをエクスポートする'; //TBD
+$string['odsformat'] = 'ODSフォーマット'; //TBD
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -133,6 +133,6 @@ $string['usermisconf'] = 'ユーザの設定が正しくありません。';
 $string['viewfeedback'] = '提出課題の評価とフィードバックを確認する';
 $string['viewsubmissions'] = '$a 件の提出課題を確認する';
 $string['yoursubmission'] = 'あなたの提出課題';
-$string['disableemailnotification'] = '通知メールを無効にする'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['disableemailnotification'] = '通知メールを無効にする'; //TBD
 
 ?>

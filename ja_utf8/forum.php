@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -328,7 +328,7 @@ $string['youratedthis'] = 'あなたの評価';
 $string['yournewquestion'] = 'あなたの新しい質問';
 $string['yournewtopic'] = 'あなたの新しいディスカッショントピック';
 $string['yourreply'] = 'あなたの返信';
-$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
-$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD
+$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD
 
 ?>

@@ -1627,9 +1627,9 @@ $string['yourlastlogin'] = 'あなたの最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
-$string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
-$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
-$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
-$string['weeks'] = '週'; //TBD with Moodle 2.0 dev (Build: 20080821) (2008081900)
+$string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; //TBD
+$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD
+$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD
+$string['weeks'] = '週'; //TBD
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['authpluginnotfound'] = '認証プラグイン $a が見つかりませんでした。';
@@ -47,7 +47,7 @@ $string['sqlrelyonobsoletetable'] = 'このSQLは古いテーブル $a を参照
 $string['upgradefail'] = 'アップグレードに失敗しました! 詳細: $a';
 $string['withoutversion'] = 'メインversion.phpが存在しないか、読めない、または指定されていません。';
 $string['xmlizeunavailable'] = 'xmlize関数を利用できません。';
-$string['prefixcannotbeempty'] = 'あなたのターゲットDB ($a[1]) では、テーブル接頭辞「 $a[0] 」を空にすることはできません。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
-$string['prefixlimit'] = 'Oracle DBで許可されるテーブル接頭辞「 $a 」の最大長は、2ccです。'; //TBD with Moodle 2.0 dev (Build: 20080817) (2008081600)
+$string['prefixcannotbeempty'] = 'あなたのターゲットDB ($a[1]) では、テーブル接頭辞「 $a[0] 」を空にすることはできません。'; //TBD
+$string['prefixlimit'] = 'Oracle DBで許可されるテーブル接頭辞「 $a 」の最大長は、2ccです。'; //TBD
 
 ?>

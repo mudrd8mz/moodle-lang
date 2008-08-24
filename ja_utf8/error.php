@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
+      // error.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -440,8 +440,8 @@ $string['wrongsourcebase'] = 'ソースURIベースが正しくありません�
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
-$string['cannotinitpage'] = 'ページを迅速に初期化できません、コースID: $a'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
-$string['cannotmovezip'] = 'ZIPファイルを移動できません。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
-$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; //TBD with Moodle 2.0 dev (Build: 20080818) (2008081600)
+$string['cannotinitpage'] = 'ページを迅速に初期化できません、コースID: $a'; //TBD
+$string['cannotmovezip'] = 'ZIPファイルを移動できません。'; //TBD
+$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。'; //TBD
 
 ?>
