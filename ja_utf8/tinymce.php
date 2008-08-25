@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tinymce.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // tinymce.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
 
 
 $string['main/advhr:advhr_desc'] = '水平方向の罫線';
@@ -683,27 +683,27 @@ $string['themes/advanced_dlg:image_align_top'] = '上揃え';
 $string['themes/advanced_dlg:image_alt'] = 'イメージ説明';
 $string['themes/advanced_dlg:image_border'] = '枠線';
 $string['themes/advanced_dlg:image_dimensions'] = 'サイズ';
-$string['themes/advanced_dlg:image_hspace'] = '左右余白';
-$string['themes/advanced_dlg:image_list'] = '一覧から選ぶ';
-$string['themes/advanced_dlg:image_src'] = '画像URL';
-$string['themes/advanced_dlg:image_title'] = '画像の挿入/編集';
-$string['themes/advanced_dlg:image_vspace'] = '上下余白';
-$string['themes/advanced_dlg:link_is_email'] = 'メールアドレスが入力されました。リンクにmailto:を付加しますか？';
-$string['themes/advanced_dlg:link_is_external'] = 'リンクにhttp://を付加しますか？';
-$string['themes/advanced_dlg:link_list'] = '一覧から選ぶ';
+$string['themes/advanced_dlg:image_hspace'] = '水平方向のスペース';
+$string['themes/advanced_dlg:image_list'] = 'イメージリスト';
+$string['themes/advanced_dlg:image_src'] = 'イメージURI';
+$string['themes/advanced_dlg:image_title'] = 'イメージを挿入/編集する';
+$string['themes/advanced_dlg:image_vspace'] = '垂直方向のスペース';
+$string['themes/advanced_dlg:link_is_email'] = 'あなたが入力したURIは、メールアドレスのようです。必要な「mailto:」接頭辞を追加しますか?';
+$string['themes/advanced_dlg:link_is_external'] = 'あなたが入力したURIは、外部リンクのようです。必要な「http://」接頭辞を追加しますか?';
+$string['themes/advanced_dlg:link_list'] = 'リンクリスト';
 $string['themes/advanced_dlg:link_target'] = 'ターゲット';
-$string['themes/advanced_dlg:link_target_blank'] = '新しいウインドウで開く';
-$string['themes/advanced_dlg:link_target_same'] = '同じウインドウで開く';
-$string['themes/advanced_dlg:link_title'] = 'リンクの挿入/編集';
+$string['themes/advanced_dlg:link_target_blank'] = 'リンクを新しいウィンドウで開く';
+$string['themes/advanced_dlg:link_target_same'] = 'リンクを同じウィンドウで開く';
+$string['themes/advanced_dlg:link_title'] = 'リンクを挿入/編集する';
 $string['themes/advanced_dlg:link_titlefield'] = 'タイトル';
-$string['themes/advanced_dlg:link_url'] = 'リンクURL';
+$string['themes/advanced_dlg:link_url'] = 'リンクURI';
 $string['themes/simple:bold_desc'] = '太字 (Ctrl+B)';
 $string['themes/simple:bullist_desc'] = '番号なしリスト';
-$string['themes/simple:cleanup_desc'] = 'コード整形';
+$string['themes/simple:cleanup_desc'] = 'コードをクリーンアップする';
 $string['themes/simple:italic_desc'] = '斜体 (Ctrl+I)';
 $string['themes/simple:numlist_desc'] = '番号つきリスト';
 $string['themes/simple:redo_desc'] = 'やり直す (Ctrl+Y)';
-$string['themes/simple:striketrough_desc'] = '打消し線';
+$string['themes/simple:striketrough_desc'] = '取り消し線';
 $string['themes/simple:underline_desc'] = '下線 (Ctrl+U)';
 $string['themes/simple:undo_desc'] = '元に戻す (Ctrl+Z)';
 
