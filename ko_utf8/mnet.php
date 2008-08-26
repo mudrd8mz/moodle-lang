@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (2007101508.05)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (자동 서명)';
@@ -20,6 +20,7 @@ $string['authmnetautoadddisabled'] = '무들네트웍 인증 플러그인에서 
 $string['authmnetdisabled'] = '무들네트웍 <em>인증플러그인</em> <strong>비활성</strong>됨.';
 $string['badcert'] = '유효한 자격이 아님.';
 $string['certdetails'] = '자격 세부사항';
+$string['configmnet'] = '무들 네트웍을 통해 이 서버와 다른 서버와의 교신을 허용한다.';
 $string['couldnotgetcert'] = '$a 에서 인증서를 찾을 수 없음.<br />호스트가 죽었거나 설정이 잘못 되어 있음.';
 $string['couldnotmatchcert'] = '웹서버에 의해 공개된 현재의 인증서와 일치하지 않음.';
 $string['courses'] = '강좌들';

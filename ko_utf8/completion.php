@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20080823) (2008081900)
+      // completion.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
 
 
 $string['activitycompletion'] = '활동 이수';
@@ -45,7 +45,7 @@ $string['help_completionlocked'] = '이수 옵션 잠김';
 $string['help_completionview'] = '이수를 위한 필수 열람 내용';
 $string['progress'] = '학생의 진도';
 $string['progress-title'] = '$a->user, $a->activity: $a->state $a->date';
-$string['progresstrackedroles'] = '진도 관리자 역할';
+$string['progresstrackedroles'] = '진도 관리 대상자';
 $string['restoringcompletiondata'] = '이수 자료 복구';
 $string['saved'] = '저장됨';
 $string['unlockcompletion'] = '이수 옵션 해제';

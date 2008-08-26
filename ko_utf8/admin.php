@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -538,6 +538,7 @@ $string['numberofstrings'] = '전체 문자열 수: $a->strings<br />빠진 문�
 $string['opensslrecommended'] = '추가적인 OpenSSL 라이브러리를 설치할 것을 강력히 권고함 -- 무들 네트웍 기능을 이용할 수 있게 됨';
 $string['opentogoogle'] = 'Google에 개방';
 $string['optionalmaintenancemessage'] = '추가 유지보수 알림글';
+$string['optionalsubsystems'] = '부가기능 설정';
 $string['order1'] = '첫번째';
 $string['order2'] = '두번째';
 $string['order3'] = '세번째';

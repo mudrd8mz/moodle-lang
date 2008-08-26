@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
 
 
-$string['analysis'] = '항목 분석';
+$string['analysis'] = '문항 분석';
 $string['analysisdownload'] = '분석표 내려받음';
 $string['analysisoptions'] = '분석 선택';
-$string['analysistitle'] = '항목 분석 표';
+$string['analysisreport'] = '문항 분석 보고서';
+$string['analysistitle'] = '문항 분석 표';
 $string['attemptsall'] = '모든 시도들';
 $string['attemptselection'] = '사용자마다 분석할 시도';
 $string['attemptsfirst'] = '첫번째 시도';
@@ -25,7 +26,7 @@ $string['qtexttitle'] = '질문 내용';
 $string['qtypetitle'] = '문항 유형';
 $string['quizreportdir'] = '퀴즈 보고';
 $string['rcounttitle'] = '응답<br />갯수';
-$string['reportanalysis'] = '항목 분석 보고';
+$string['reportanalysis'] = '문항 분석 보고';
 $string['responsestitle'] = '답안들';
 $string['rfractiontitle'] = '부분<br />이수';
 $string['rpercenttitle'] = '응답 퍼센트';

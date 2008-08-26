@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
 
 
 $string['allattempts'] = '모든 시도에 대해';
@@ -53,6 +53,7 @@ $string['standarddeviation'] = '($a)표준편차';
 $string['standarddeviationq'] = '표준편차';
 $string['standarderror'] = '($a)표준오차';
 $string['statistics'] = '퀴즈 통계';
+$string['statisticsreport'] = '통계 보고';
 $string['statisticsreportgraph'] = '문항 통계';
 $string['statsfor'] = '($a) 통계';
 $string['noofallattempts'] = '시도의 총 수'; // ORPHANED
