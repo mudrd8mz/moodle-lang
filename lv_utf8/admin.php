@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 + (Build: 20080325) (2007101509)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['accessdenied'] = 'Piekļuve liegta';
@@ -353,6 +353,7 @@ $string['langimportsuccess'] = 'Valodas pakotne jaunināta sekmīgi';
 $string['langlist'] = 'Valodas izvēlnē iekļautās valodas';
 $string['langmenu'] = 'Rādīt valodas izvēlni';
 $string['langnoeditenglish'] = 'Neizdevās pārrakstīt bāzes angļu valodas pakotni. Lūdzu nomainiet lang direktoriju, lai veiktu lokālas izmaiņas';
+$string['langpackmaintaining'] = 'Valodas pakotņu uzturēšana';
 $string['langpackremoved'] = 'Valodas pakotne tika atinstalēta';
 $string['langpacks'] = 'Valodu pakotnes';
 $string['langpackupdated'] = 'Valodas pakotne $a tika sekmīgi instalēta';
@@ -363,6 +364,7 @@ $string['latexpreamble'] = 'LaTeX preambula';
 $string['latexsettings'] = 'LaTeX renderētāja iestatījumi';
 $string['latinexcelexport'] = 'Excel kodējums';
 $string['localetext'] = 'Vietnes lokalizācija';
+$string['localstringcustomization'] = 'Valodas frāžu lokālā pielāgošana';
 $string['location'] = 'Atrašanās vieta';
 $string['locationsettings'] = 'Atrašanās vietas iestatījumi';
 $string['log'] = 'Žurnāli';
@@ -417,6 +419,8 @@ $string['notifications'] = 'Paziņojumi';
 $string['notifyloginfailures'] = 'Kam nosūtīt e-pastu par pieslēgšanās kļūmēm:';
 $string['notifyloginthreshold'] = 'E-pasta paziņojumu slieksnis';
 $string['notloggedinroleid'] = 'Viesu loma';
+$string['numberofmissingstrings'] = 'Trūkstošo frāžu skaits: $a';
+$string['numberofstrings'] = 'Kopējais frāžu skaits: $a->strings<br />Trūkst: $a->missing ($a->missingpercent&nbsp;%%)';
 $string['opensslrecommended'] = 'Lai iespējotu Moodle tīklošanas funkcionalitāti, ļoti ieteicams instalēt neobligāto OpenSSL bibliotēku.';
 $string['opentogoogle'] = 'Atvērts pakalpojumam Google';
 $string['optionalmaintenancemessage'] = 'Neobligāts ziņojums par uzturēšanas darbiem';

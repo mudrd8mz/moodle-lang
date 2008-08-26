@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
+      // blog.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['addnewentry'] = 'Pievienot jaunu ievadni';
+$string['backupblogshelp'] = 'Ja iespējots, emuāri tiks iekļauti VIETNES automātiskajos dublējumos';
 $string['blockmenutitle'] = 'Emuāru izvēlne';
 $string['blocktagstitle'] = 'Emuāru tagi';
 $string['blocktitle'] = 'Emuāru tagu bloka nosaukums';
@@ -33,6 +34,7 @@ $string['notallowedtoedit'] = 'Jums nav atļaujas rediģēt šo ierakstu';
 $string['numberofentries'] = 'Ieraksti: $a';
 $string['numberoftags'] = 'Rādāmo tagu skaits';
 $string['pagesize'] = 'Emuāra ierakstu skaits vienā lapā';
+$string['permalink'] = 'Pastāvīgā adrese';
 $string['personalblogs'] = 'Lietotāji var skatīt tikai savu emuāru';
 $string['publishto'] = 'Kam publicēt';
 $string['publishtonoone'] = 'Sev (melnraksts)';

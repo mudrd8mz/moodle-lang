@@ -1,5 +1,5 @@
-<?PHP // $Id$
-      // choice.php - created with Moodle 1.7 beta + (2006101003)
+<?PHP // $Id$ 
+      // choice.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['addmorechoices'] = 'Pievienot papildu izvēles';
@@ -11,12 +11,14 @@ $string['choice:deleteresponses'] = 'Dzēst atbildes';
 $string['choice:downloadresponses'] = 'Lejupielādēt atbildes';
 $string['choice:readresponses'] = 'Lasīt atbildes';
 $string['choiceclose'] = 'Līdz';
+$string['choicefull'] = 'Šī izvēle ir pilna un vairs nav brīvu vietu.';
 $string['choicename'] = 'Izvēles nosaukums';
 $string['choiceopen'] = 'Atvērts';
 $string['choicetext'] = 'Izvēles teksts';
 $string['displayhorizontal'] = 'Rādīt horizontāli';
 $string['displaymode'] = 'Rādīšanas režīms';
 $string['displayvertical'] = 'Rādīt vertikāli';
+$string['expired'] = 'Atvainjiet, šī aktivitāte ir slēgta $a un vairs nav pieejama';
 $string['fillinatleastoneoption'] = 'Ir jānorāda vismaz divas iespējamās atbildes.';
 $string['full'] = '(Pilns)';
 $string['havetologin'] = 'Lai varētu iesniegt savu izvēli, jums ir jāpieslēdzas.';
@@ -37,6 +39,8 @@ $string['publishalways'] = 'Vienmēr rādīt rezultātus studentiem';
 $string['publishanonymous'] = 'Publicēt anonīmus rezultātus, nerādīt studentu vārdus';
 $string['publishnames'] = 'Publicēt pilnus rezultātus, rādot vārdus un veikto izvēli';
 $string['publishnot'] = 'Nepublicēt rezultātus studentiem';
+$string['removemychoice'] = 'Noņemt manu izvēli';
+$string['removeresponses'] = 'Noņemt visas atbildes';
 $string['responses'] = 'Atbildes';
 $string['responsesto'] = 'Atbildes uz $a';
 $string['savemychoice'] = 'Saglabāt manu izvēli';
