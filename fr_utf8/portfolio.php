@@ -57,6 +57,7 @@ $string['nonprimative'] = 'Une valeur incorrecte a été passée comme paramètr
 $string['notexportable'] = 'Désolé, le type de contenu que vous essayez d\'exporter n\'est pas exportable';
 $string['notimplemented'] = 'Désolé, vous essayez d\'exporter du contenu dans un format non encore implémenté ($a)';
 $string['nouploaddirectory'] = 'Impossible de créer un dossier temporaire dans lequel préparer vos données';
+$string['notyours'] = 'Vous essayez de reprendre l\'exportation d\'un portfolio ne vous appartenant pas&nbsp;!';
 $string['portfolio'] = 'Portfolio';
 $string['portfolios'] = 'Portfolios';
 $string['plugin'] = 'Plugin de portfolio';
