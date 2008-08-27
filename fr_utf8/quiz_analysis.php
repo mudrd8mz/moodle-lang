@@ -3,6 +3,7 @@
 $string['analysis'] = 'Analyse par éléments';
 $string['analysisdownload'] = 'Téléchargement analyse';
 $string['analysisoptions'] = 'Options d\'analyse';
+$string['analysisreport'] = 'Rapport d\'analyse par éléments';
 $string['analysistitle'] = 'Table d\'analyse éléments';
 $string['attemptsall'] = 'Toutes tentatives';
 $string['attemptselection'] = 'Tentatives à analyser par utilisateur';

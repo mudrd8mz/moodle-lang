@@ -43,6 +43,7 @@ $string['questiontype'] = 'Type de question';
 $string['quizinformation'] = 'Information du test';
 $string['quizname'] = 'Nom du test';
 $string['quizoverallstatistics'] = 'Statistiques globales du test';
+$string['statisticsreport'] = 'Rapport de statistiques';
 $string['quizstructureanalysis'] = 'Analyse structurelle du test';
 $string['random_guess_score'] = 'Score de réponses au hasard';
 $string['recalculatenow'] = 'Recalculer maintenant';

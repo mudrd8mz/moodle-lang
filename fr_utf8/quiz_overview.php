@@ -24,6 +24,7 @@ $string['optonlygradedattempts'] = 'évaluées de chaque participant ($a)';
 $string['optonlyregradedattempts'] = 'ré-évaluées ou marquées comme devant être ré-évaluées';
 $string['overview'] = 'Notes';
 $string['overviewdownload'] = 'Téléchargement vue d\'ensemble';
+$string['overviewreport'] = 'Rapport d\'évaluation';
 $string['overviewreportgraph'] = 'Nombre total de participants avec intervalle des notes';
 $string['overviewreportgraphgroup'] = 'Nombre total de participants du groupe «&nbsp;$a&nbsp;» avec intervalle des notes';
 $string['pagesize'] = 'Taille de page';

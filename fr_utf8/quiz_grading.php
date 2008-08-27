@@ -7,6 +7,7 @@ $string['gradenextungraded'] = 'Évaluer les $a tentatives non évaluées suivan
 $string['gradeungraded'] = 'Évaluer toutes les $a tentatives non évaluées';
 $string['grading'] = 'Évaluation manuelle';
 $string['gradingnextungraded'] = '$a tentatives non évaluées suivantes';
+$string['gradingreport'] = 'Rapport d\'évaluation manuelle';
 $string['gradinguser'] = 'Tentatives de $a';
 $string['gradingall'] = 'Toutes les $a tentatives pour cette question.';
 $string['gradingattempt'] = 'Tentative no $a->attempt de $a->fullname.';
