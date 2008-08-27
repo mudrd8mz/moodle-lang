@@ -3,7 +3,7 @@
 $string['addalltoportfolio'] = 'Tout ajouter au portfolio';
 $string['addnewportfolio'] = 'Ajouter un portfolio';
 $string['addtoportfolio'] = 'Ajouter au portfolio';
-$string['alreadyexporting'] = 'Vous avez déjà entamé une exportation vers un portfolio durant cette session. Veuillez la terminer d\'abord, ou <a href=\"$a\">cliquer ici pour</a> l\'annuler.';
+$string['alreadyexporting'] = 'Vous avez déjà entamé une exportation vers un portfolio durant cette session. Veuillez la <a href=\"$a->finish\">terminer d\'abord</a>, ou <a href=\"$a\">cliquer ici pour</a> l\'annuler.';
 $string['availableformats'] = 'Formats d\'exportation disponibles';
 $string['callercouldnotpackage'] = 'Échec de la préparation de vos données pour l\'exportation';
 $string['cannotsetvisible'] = 'Impossible de rendre visible ceci. Le plugin a été désactivé en raison d\'un problème de configuration';
