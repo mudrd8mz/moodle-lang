@@ -48,6 +48,7 @@ $string['invalidtempid'] = 'Identifiant d\'exportation non valide.';
 $string['invaliduserproperty'] = 'Impossible de trouver cette propriété de la configuration de l\'utilisateur ($a->property de $a->class)';
 $string['manageportfolios'] = 'Gérer les portfolios';
 $string['manageyourportfolios'] = 'Gérer vos portfolios';
+$string['multipledisallowed'] = 'Impossible de créer une autre instance de ce plugin, qui n\'autorise pas des instances multiples ($a)';
 $string['noavailableplugins'] = 'Désolé, il n\'y a aucun portfolio disponible vers lequel exporter';
 $string['nocallbackfile'] = 'Un problème est présent dans le module depuis lequel vous essayez d\'exporter des données. Impossible de trouver un fichier requis ($a)';
 $string['nocommonformats'] = 'Aucun format en commun entre les plugins de portfolio et le site appelant $a';
