@@ -30,6 +30,7 @@ $string['manage'] = 'Gérer les dépôts';
 $string['manageurl'] = 'Gestion';
 $string['manageuserrepository'] = 'Gérer le dépôt personnel';
 $string['noenter'] = 'Pas de saisie';
+$string['notyours'] = 'Vous essayez de reprendre l\'exportation d\'un portfolio ne vous appartenant pas&nbsp;!';
 $string['openpicker'] = 'Ouvrir le sélecteur de fichiers';
 $string['operation'] = 'Opération';
 $string['plugin'] = 'Plugin dépôt';
