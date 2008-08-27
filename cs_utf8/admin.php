@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -248,6 +248,7 @@ $string['configwarning'] = 'Následující hodnoty upravujte velmi opatrně -- n
 $string['configxmlstrictheaders'] = 'Toto je nastavení užitečné pouze pro vývojáře. Určuje, zda se má stránka generovat pomocí XML http hlaviček a prologu, takže prohlížeče zobrazují XHTML chyby v těle stránky.';
 $string['configzip'] = 'Umístění programu zip (pouze pro Unix, volitelné). Pokud je zadáno, bude Moodle používat tento program k vytváření zip archivů na serveru. Jinak bude používat vlastní knihovny.';
 $string['confirmation'] = 'Potvrzení';
+$string['confirmed'] = 'Potvrzeno';
 $string['confirminstall'] = 'Chcete opravdu nainstalovat jazykový balíček $a?';
 $string['cookiehttponly'] = 'Pouze http cookies';
 $string['cookiesecure'] = 'Pouze zabezbečené cookies';
@@ -269,6 +270,8 @@ $string['ctyperecommended'] = 'Rozšíření PHP ctype je velmi doporučováno z
 $string['ctyperequired'] = 'Rozšíření PHP ctype je Moodlem vyžadováno z důvodů výkonu a vícejazyčné podpory.';
 $string['curlrecommended'] = 'Pro běh síťových funkcionalit (\"Moodle Networking\") je potřeba nainstalovat volitelnou knihovnu Curl.';
 $string['customcheck'] = 'Další kontroly';
+$string['datarootsecurityerror'] = '<p><strong>BEZPEČNOSTNÍ VAROVÁNÍ!</strong></p><p>Váš datový adresář (dataroot) je chybně umístěn a je přímo dostupný přes WWW. Všechny privátní soubory Moodlu jsou dostupné komukoliv na Internetu. Některé z nich mohou posloužit útočníkům k získání neoprávněného přístupu na úrovni správce vašeho serveru!</p>
+<p><em>Musíte</em> přesunout váš datový adresář ($a) tak, aby nebyl ve veřejném webovém adresáři a adekvátně tomu upravit nastavení <code>$CFG->dataroot</code> v souboru config.php.</p>';
 $string['datarootsecuritywarning'] = 'Bezpečnostní varování - zkontrolujte si, že datový adresář ($a) není přímo dostupný přes webové rozhraní.';
 $string['dbmigrate'] = 'Migrace databáze Moodlu';
 $string['dbmigrateconnecerror'] = 'Nelze se připojit k určené databázi.';

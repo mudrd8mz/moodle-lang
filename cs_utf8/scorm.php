@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
+      // scorm.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
 
 
 $string['activation'] = 'Aktivace';
+$string['activityloading'] = 'Budete automaticky přesměrováni -';
+$string['activitypleasewait'] = 'Činnost se načítá, čekejte ...';
 $string['advanced'] = 'Parametry';
 $string['asset'] = 'Komponenta';
 $string['assetlaunched'] = 'Komponenta - prohlédnuto';
@@ -125,9 +127,12 @@ $string['scorm:skipview'] = 'Přeskočit přehled';
 $string['scorm:viewreport'] = 'Zobrazit přehledy';
 $string['scorm:viewscores'] = 'Zobrazit hodnocení';
 $string['scormcourse'] = 'Kurz SCORM';
+$string['scormloggingoff'] = 'API logování VYPNUTO';
+$string['scormloggingon'] = 'API logování ZAPNUTO';
 $string['scrollbars'] = 'Povolit svislý posuvník';
 $string['sided'] = 'Na levé straně';
 $string['skipview'] = 'Student přeskakuje stránku se strukturou obsahu';
+$string['slashargs'] = 'UPOZORNĚNÍ: argumenty zadávané lomítkem byly na tomto serveru zakázány. Mohou se vyskytnout problémy s funkčností.';
 $string['stagesize'] = 'Velikost okna/rámce';
 $string['started'] = 'Započetí';
 $string['status'] = 'Stav';
