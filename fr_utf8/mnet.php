@@ -13,6 +13,7 @@ $string['authmnetdisabled'] = 'La <em>méthode d\'authentification</em> Réseau 
 $string['authmnetautoadddisabled'] = 'L\'<em>ajout automatique d\'utilisateurs</em> de la méthode d\'authentification Réseau Moodle est <strong>désactivé</strong>.';
 $string['badcert'] = 'Ceci n\'est pas un certificat valide.';
 $string['certdetails'] = 'Détails du certificat';
+$string['configmnet'] = 'Le Réseau Moodle permet la communication de ce serveur avec d\'autres serveurs ou services.';
 $string['couldnotgetcert'] = 'Aucun certificat n\'a été trouvé sur <br />$a. <br />Le serveur est peut-être éteint ou incorrectement configuré.';
 $string['couldnotmatchcert'] = 'Ceci ne correspond pas au certificat publié actuellement par le serveur web.';
 $string['courses'] = 'Cours';

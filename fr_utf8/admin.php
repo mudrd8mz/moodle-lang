@@ -532,6 +532,7 @@ $string['numberofmissingstrings'] = 'Nombre de chaînes de caractères manquante
 $string['opensslrecommended'] = 'L\'installation de la bibliothèque optionnelle OpenSSL est vivement recommandée, afin de pouvoir utiliser la fonctionnalité Réseau Moodle.';
 $string['opentogoogle'] = 'Ouvert à Google';
 $string['optionalmaintenancemessage'] = 'Message de maintenance facultatif';
+$string['optionalsubsystems'] = 'Fonctionnalités optionelles';
 $string['order1'] = 'Premier';
 $string['order2'] = 'Deuxième';
 $string['order3'] = 'Troisième';
