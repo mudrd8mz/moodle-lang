@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // gradeimport_xml.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // gradeimport_xml.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['errbadxmlformat'] = 'Error: format XML incorrecte';
@@ -8,6 +8,7 @@ $string['errduplicateidnumber'] = 'Error: número ID duplicat';
 $string['errincorrectgradeidnumber'] = 'Error: el número ID \'$a\' del fitxer d\'importació no es correspon amb cap element de qualificació.';
 $string['errincorrectidnumber'] = 'Error: número ID incorrecte';
 $string['errincorrectuseridnumber'] = 'Error: el número ID \'$a\' del fitxer d\'importació no es correspon amb cap usuari.';
+$string['error'] = 'Error';
 $string['fileurl'] = 'URL d\'un fitxer remot';
 $string['modulename'] = 'Fitxer XML';
 $string['xml:publish'] = 'Publicar qualificacions importades en format XML';
