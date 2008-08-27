@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
 
 
 $string['1day'] = '1日';
@@ -126,6 +126,24 @@ $string['comment'] = 'コメント';
 $string['commentorgrade'] = 'コメント作成または評点を上書きする';
 $string['comments'] = 'コメント';
 $string['completedon'] = '完了日時';
+$string['configadaptive'] = 'あなたがこのオプションを有効にした場合、同じ小テスト内の受験だとしても、学生は問題に対して複数回の解答を許可されます。';
+$string['configattemptsallowed'] = '小テストで学生が許可される受験回数の制限です。';
+$string['configdecimaldigits'] = '評定を表示する場合、小数点以下に表示される評点の桁数を設定します。';
+$string['configdelay1'] = 'あなたが待ち時間を設定した場合、次の小テストを受験できるまで、最初の受験後、学生は指定された時間待つ必要があります。';
+$string['configdelay2'] = 'あなたがここで待ち時間を設定した場合、2回目またはそれ以降の小テストを受験できるまで、学生は指定された時間待つ必要があります。';
+$string['configeachattemptbuildsonthelast'] = '複数解答が許可されている場合、それぞれの新しい受験に[ 変更前 ]の受験の解答内容を含みます。';
+$string['configgrademethod'] = '複数解答が許可されている場合、小テストにおける学生の最終評点に関して、どの評定方法を使用するか設定します。';
+$string['configintro'] = 'あなたがここで設定した値は、新しい小テスト作成時のデフォルト値として使用されます。また、どの小テスト設定が「高度な設定」とみなされるか設定することもできます。';
+$string['configmaximumgrade'] = '設定値を基に小テスト評定が増減されるデフォルトの評点です。';
+$string['confignewpageevery'] = '問題を小テストに追加する場合、あなたがここで選択した設定に基づき、改ページ (Page break) が自動的に挿入されます。';
+$string['configpenaltyscheme'] = 'アダプティブモードの場合、それぞれの誤答に関して、ペナルティーが差し引かれます。';
+$string['configpopup'] = '小テストの受験中、コピー&ペースト等を制限するため、Javaスクリプトを使用します。';
+$string['configrequirepassword'] = '学生が小テストを受験するには、このパスワードを事前に入力する必要があります。';
+$string['configrequiresubnet'] = '学生は、これらのコンピュータからのみ小テストを受験することができます。';
+$string['configreviewoptions'] = 'これらのオプションでは、ユーザが小テスト受験をレビューまたは小テストレポートを閲覧する場合、どの情報を閲覧できるかコントロールします。';
+$string['configshufflequestions'] = 'あなたがこのオプションを有効にした場合、学生の小テスト受験ごとに、小テストの問題順はランダムにシャッフルされます。';
+$string['configshufflewithin'] = 'あなたがこのオプションを有効にした場合、学生の小テスト受験開始ごとに、個々の問題を構成している部品がランダムにシャッフルされます。';
+$string['configtimelimit'] = '小テストのデフォルトの制限時間 (分) です。ゼロは、制限時間なしを意味します。';
 $string['confirmclose'] = 'あなたは、この小テストを終了しようとしています。小テストを終了すると、これ以上答えを変更することができません。';
 $string['confirmserverdelete'] = '本当にサーバ <b>$a</b> をリストから削除してもよろしいですか?';
 $string['confirmstartattemptlimit'] = 'この小テストの受験回数は、$a 回に制限されています。あなたは新しい受験を開始しようとしています。本当に続けてもよろしいですか?';
@@ -238,6 +256,7 @@ $string['event6'] = '閉じる&amp;評定';
 $string['event7'] = '送信';
 $string['event8'] = '閉じる';
 $string['event9'] = '手動評定';
+$string['everythingon'] = 'すべて有効';
 $string['examview'] = 'Examview';
 $string['export'] = 'エクスポート';
 $string['exportcategory'] = 'カテゴリをエクスポートする';

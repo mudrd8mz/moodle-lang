@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_flickr.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
+      // repository_flickr.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
 
 
 $string['configplugin'] = 'Flickr設定';
@@ -9,6 +9,6 @@ $string['nullphotolist'] = 'このアカウントに関連する写真はあり�
 $string['remember'] = '次回から入力を省略する';
 $string['repositorydesc'] = 'flickr.comのリポジトリ';
 $string['repositoryname'] = 'Flickr';
-$string['username'] = 'Flickrアカウント';
+$string['username'] = 'Flickrアカウントメール';
 
 ?>

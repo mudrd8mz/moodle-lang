@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080819) (2008081900)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -14,10 +14,11 @@ $string['createrepository'] = 'リポジトリを作成する';
 $string['date'] = '日付';
 $string['deleterepository'] = 'このリポジトリを削除する';
 $string['download'] = 'ダウンロード';
-$string['downloadsucc'] = '正常にダウンロードされました!';
-$string['error'] = 'エラーが発生しました!';
+$string['downloadsucc'] = 'ファイルが正常にダウンロードされました!';
+$string['error'] = '不明なエラーが発生しました!';
 $string['filename'] = 'ファイル名';
 $string['filesaved'] = 'ファイルが保存されました!';
+$string['getfile'] = 'このファイルを選択する';
 $string['instance'] = 'インスタンス';
 $string['invalidjson'] = '無効なJSONストリングです。';
 $string['invalidplugin'] = 'リポジトリプラグインが正しくありません。';
@@ -35,6 +36,7 @@ $string['plugin'] = 'リポジトリプラグイン';
 $string['repositories'] = 'リポジトリ';
 $string['repository'] = 'リポジトリ';
 $string['save'] = '保存';
+$string['saveas'] = '名前を付けて保存する';
 $string['saved'] = '保存されました。';
 $string['saving'] = '保存';
 $string['search'] = '検索';
@@ -43,7 +45,7 @@ $string['settings'] = '設定';
 $string['size'] = 'サイズ';
 $string['submit'] = '送信';
 $string['sync'] = '同期';
-$string['thumbview'] = 'サムネイルビュー';
+$string['thumbview'] = 'アイコンとして表示する';
 $string['title'] = 'リポジトリファイルピッカー';
 $string['upload'] = 'このファイルをアップロードする';
 $string['uploading'] = 'アップロード中 ...';

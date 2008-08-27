@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080826) (2008082600)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -531,6 +531,7 @@ $string['numberofstrings'] = '合計ストリング数: $a->strings<br />未翻�
 $string['opensslrecommended'] = 'Moodleネットワーキング機能を有効にするため、OpenSSLライブラリのインストールを強くお勧めします。';
 $string['opentogoogle'] = 'Googleに公開する';
 $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセージ';
+$string['optionalsubsystems'] = 'オプションサブシステム';
 $string['order1'] = '1番目';
 $string['order2'] = '2番目';
 $string['order3'] = '3番目';
