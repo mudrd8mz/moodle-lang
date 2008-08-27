@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 + (Build: 20080325) (2007101509)
+      // moodle.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['abouttobeinstalled'] = 'tūlīt tiks instalēts';
@@ -641,7 +641,7 @@ $string['formatmarkdown'] = 'Markdown formāts';
 $string['formatplain'] = 'Vienkārša teksta formāts';
 $string['formatscorm'] = 'SCORM formāts';
 $string['formatsocial'] = 'Sociālais formāts';
-$string['formattext'] = 'Moodle automātiskais formāts';
+$string['formattext'] = 'Moodle automātiskā formatēšana';
 $string['formattexttype'] = 'Formatējums';
 $string['formattopics'] = 'Tēmu formāts';
 $string['formattopicsajax'] = 'Tēmu formāts — AJAX';
