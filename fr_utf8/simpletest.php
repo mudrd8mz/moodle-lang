@@ -14,6 +14,7 @@ $string['retest'] = 'Relancer les tests';
 $string['retestonlythisfile'] = 'Relancer uniquement ce fichier de test.';
 $string['runall'] = 'Lancer les tests de tous les fichiers de test.';
 $string['runat'] = 'Lancer à $a. ';
+$string['rundbtests'] = 'Lancer également les tests de la base de données.';
 $string['runonlyfile'] = 'Ne lancer que les tests de ce fichier';
 $string['runonlyfolder'] = 'Ne lancer que les tests de ce dossier';
 $string['runtests'] = 'Lancer les tests';
