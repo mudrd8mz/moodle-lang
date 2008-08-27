@@ -5,6 +5,7 @@
 
 $string['activaterep'] = 'Activer les dépôts de documents';
 $string['add'] = 'Ajouter';
+$string['attachment'] = 'Annexe';
 $string['back'] = '&lt; Retour';
 $string['close'] = 'Fermer';
 $string['configsaved'] = 'Configuration enregistrée&nbsp;!';
@@ -28,7 +29,7 @@ $string['logout'] = 'Déconnexion';
 $string['manage'] = 'Gérer les dépôts';
 $string['manageuserrepository'] = 'Gérer le dépôt personnel';
 $string['noenter'] = 'Pas de saisie';
-$string['openpicker'] = 'Ouvrir le sélecteur de fichier';
+$string['openpicker'] = 'Ouvrir le sélecteur de fichiers';
 $string['operation'] = 'Opération';
 $string['plugin'] = 'Plugin dépôt';
 $string['repositories'] = 'Dépôts';
