@@ -7,6 +7,7 @@ $string['allownotes'] = 'Permettre les remarques';
 $string['allowresubmit'] = 'Permettre plusieurs remises d\'un devoir';
 $string['alreadygraded'] = 'Votre devoir a déjà été évalué. Il n\'est pas permis de remettre à nouveau le devoir.';
 $string['assignment:exportownsubmission'] = 'Exporter ses propres devoirs remis';
+$string['assignment:exportsubmission'] = 'Exporter des devoirs remis';
 $string['assignment:grade'] = 'Évaluer un devoir';
 $string['assignment:submit'] = 'Remettre un devoir';
 $string['assignment:view'] = 'Afficher un devoir';
