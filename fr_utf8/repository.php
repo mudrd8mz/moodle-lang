@@ -27,6 +27,7 @@ $string['listview'] = 'Liste';
 $string['loading'] = 'Chargement...';
 $string['logout'] = 'Déconnexion';
 $string['manage'] = 'Gérer les dépôts';
+$string['manageurl'] = 'Gestion';
 $string['manageuserrepository'] = 'Gérer le dépôt personnel';
 $string['noenter'] = 'Pas de saisie';
 $string['openpicker'] = 'Ouvrir le sélecteur de fichiers';
