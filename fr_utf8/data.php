@@ -30,9 +30,7 @@ $string['cannotaccesspresentsother'] = 'Vous n\'avez pas la permission d\'accéd
 $string['cannotadd'] = 'Impossible d\'ajouter des fiches&nbsp;!';
 $string['cannotdeletepreset'] = 'Error deleting a preset!';
 $string['cannotrate'] = 'L\'évaluation des éléments n\'est pas autorisées&nbsp;!';
-$string['cannotupdaterate'] = 'Impossible de mettre à jour une ancienne évaluation ($a[0] = $a[1])';
 $string['cannotunziptopreset'] = 'Impossible de décompresser le dossier du préréglages';
-$string['cannotinsertrate'] = 'Impossible d\'ajouter une nouvelle évaluation ($a[0] = $a[1])';
 $string['cannotinsertempty'] = 'Impossible d\'ajouter une fiche vide&nbsp;!';
 $string['checkbox'] = 'Case à cocher';
 $string['chooseexportfields'] = 'Sélectionnez les champs que vous voulez exporter&nbsp;:';

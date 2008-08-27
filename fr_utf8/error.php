@@ -78,7 +78,7 @@ $string['cannotinsertcategory'] = 'Erreur étrange. La catégorie n\'a pas été
 $string['cannotinsertcomment'] = 'Impossible d\'ajouter ce commentaire';
 $string['cannotinsertgrade'] = 'Impossible d\'insérer d\'élément d\'évaluation sans identifiant de cours&nbsp;!';
 $string['cannotinsertkey'] = 'Impossible d\'insérer une nouvelle clef';
-$string['cannotinsertrate'] = 'Impossible d\'ajouter une nouvelle évaluation ($a->id = $a->rating)';
+$string['cannotinsertrate'] = 'Impossible d\'ajouter une évaluation ($a->id = $a->rating)';
 $string['cannotinsertrecord'] = 'Impossible d\'insérer le nouvel enregistrement d\'identifiant $a';
 $string['cannotmailconfirm'] = 'Erreur lors de l\'envoi du courriel de modification de mot de passe';
 $string['cannotmapfield'] = 'Collision détectée, 2 champs correspondent au même élément d\'évaluation $a';
@@ -138,6 +138,7 @@ $string['cannotupdatemodcap'] = 'Impossible de modifier les capacités $a&nbsp;!
 $string['cannotupdatepasswordonextauth'] = 'Échec de la modification du mot de passe dans la source d\'authentification externe&nbsp;: $a. Consultez les historiques du serveur pour plus de détails';
 $string['cannotupdateplugincap'] = 'Impossible de modifier les capacités $a&nbsp;!';
 $string['cannotupdateprofile'] = 'Erreur lors de la modification de l\'enregistrement de l\'utilisateur';
+$string['cannotupdaterate'] = 'Impossible de modifier une ancienne évaluation ($a[0] = $a[1])';
 $string['cannotupdaterecord'] = 'Impossible de modifier l\'enregistrement d\'identifiant $a';
 $string['cannotupdaterole'] = 'Impossible de modifier le rôle&nbsp;!';
 $string['cannotupdaterss'] = 'Impossible de modifier le fil RSS';

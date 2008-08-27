@@ -3,11 +3,12 @@
  * debug information for developer only
  */
 $string['authpluginnotfound'] = 'Méthode d\'authentification $a introuvable.';
+$string['blocknotexist'] = 'Le bloc $a n\'existe pas';
 $string['cannotbenull'] = '$a ne peut pas être nul&nbsp;!';
 $string['cannotcreateadminuser'] = 'ERREUR GRAVE&nbsp;! Impossible de créer un compte administrateur&nbsp;!';
 $string['cannotdowngrade'] = 'Impossible de revenir à $a->oldversion vers $a->newversion.';
 $string['cannotfindadmin'] = 'Impossible de trouver un administrateur&nbsp;!';
-$string['cannotinitpage'] = 'Impossible d\'initialiser totalement la page&nbsp;: $a->name non valide, identifiant $a->id';
+$string['cannotinitpage'] = 'Impossible d\'initialiser complètement la page&nbsp;: $a->name, identifiant $a->id non valide';
 $string['cannotsetupsite'] = 'Erreur grave&nbsp;! Impossible de mettre en place le site&nbsp;!';
 $string['cannotsetuptable'] = '$a tables n\'ont pas pu être configurées correctement&nbsp;!';
 $string['cannotupdaterelease'] = 'Erreur&nbsp;: impossible de mettre à jour la version dans la base de données&nbsp;!!';
@@ -24,6 +25,7 @@ $string['erroroccur'] = 'Une erreur est survenue durant cette procédure';
 $string['fixsetting'] = 'Veuillez corriger vos réglages dans le fichier config.php. <p>Vous avez&nbsp;:</p> <p>\$CFG->dirroot = \"$a->current\";</p> <p>alors qu\'il devrait y avoir</p> <p>\$CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = 'Taille incorrecte des tableaux dans les paramètres de $a';
 $string['invalideventdata'] = 'Données d\'événement incorrecte&nbsp;: $a';
+$string['missingconfigversion'] = 'La table Config ne contient pas la version. Impossible de continuer.';
 $string['modulenotexist'] = 'Le module $a n\'existe pas';
 $string['morethanonerecordinfetch'] = 'Plus d\'un enregistrement trouvé dans fetch()&nbsp;!';
 $string['mustbeoveride'] = 'La méthode abstraite $a doit être surchargée.';
@@ -38,12 +40,12 @@ $string['nopageclass'] = '$a a été importé, mais aucune classe de page n\'a �
 $string['noreports'] = 'Aucun rapport accessible';
 $string['notables'] = 'Pas de tables&nbsp;!';
 $string['phpvaroff'] = 'La variable «&nbsp;$a->name&nbsp;» du serveur PHP devrait être sur Off - $a->link';
-$string['phpvaron'] = 'La variable «&nbsp;$a->name&nbsp;» du serveur PHP n\'set pas sur On - $a->link';
+$string['phpvaron'] = 'La variable «&nbsp;$a->name&nbsp;» du serveur PHP n\'est pas sur On - $a->link';
 $string['sessionmissing'] = 'L\'objet de session $a n\'est pas présent dans la session';
 $string['siteisnotdefined'] = 'Le site n\'est pas défini&nbsp;!';
 $string['sqlrelyonobsoletetable'] = 'Ce code SQL présuppose des tables obsolètes&nbsp;: $a&nbsp;! Votre code doit être corrigé par un développeur.';
 $string['upgradefail'] = 'Échec de la mise à jour&nbsp;! Voir $a';
-$string['withoutversion'] = 'Le fichier principal version.php n\'est pas accessible';
+$string['withoutversion'] = 'Le fichier principal version.php n\'existe pas, n\'est pas accessible ou est corrompu';
 $string['xmlizeunavailable'] = 'Les fonctions xmlize ne sont pas disponibles';
 
 ?>
