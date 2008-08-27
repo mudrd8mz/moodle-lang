@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // scorm.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
 
 
 $string['activation'] = 'Aktivácia';
@@ -127,9 +127,12 @@ $string['scorm:skipview'] = 'Preskočiť prehľad';
 $string['scorm:viewreport'] = 'Prezerať výsledky';
 $string['scorm:viewscores'] = 'Prezerať hodnotenie';
 $string['scormcourse'] = 'Kurz SCORM';
+$string['scormloggingoff'] = 'Logovanie API je vypnuté';
+$string['scormloggingon'] = 'Logovanie API je zapnuté';
 $string['scrollbars'] = 'Povoliť zvislý posuvník';
 $string['sided'] = 'Na ľavej strane';
 $string['skipview'] = 'Študenti preskočia stránku s obsahom';
+$string['slashargs'] = 'UPOZORNENIE: slash (lomítkové) argumenty nie sú na tomto portáli povolené a objekty nemusia fungovať tak, ako očakávate.';
 $string['stagesize'] = 'Veľkosť okna/rámca';
 $string['started'] = 'Začaté dňa';
 $string['status'] = 'Stav';

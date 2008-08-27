@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // question.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['adminreport'] = 'Správa o možných problémoch v databáze Vašich otázok';
@@ -12,7 +12,7 @@ $string['categorymoveto'] = 'Uložiť v kategórii';
 $string['changepublishstatuscat'] = '<a href=\"$a->caturl\">Kategória \"$a->name\"</a> v kurze \"$a->coursename\" zmení svoj status zdieľania z <strong>$a->changefrom na $a->changeto</strong>.';
 $string['copy'] = 'Kopírovať z $a a zmeniť odkazy';
 $string['created'] = 'Vytvorené';
-$string['createdmodifiedheader'] = 'Vyrvorené / naposledy uložené';
+$string['createdmodifiedheader'] = 'Vytvorené / naposledy uložené';
 $string['cwrqpfs'] = 'Náhodné otázky z otázok v podkategóriách';
 $string['cwrqpfsinfo'] = '<p>Počas aktualizácie Moodle na verziu 1.9 budú rozdelené kategórie otázok v rámci rozdielnych kontextov. U niektorých kategórií sa zmení ich status zdieľania. To sa stane v zriedkavom prípade, že jedna alebo viacero \'náhodných\' otázok v teste je tvorená z podkategórií, v ktorých sú niektoré zdieľané a niektoré nezdieľané (ako je to v prípade Vášho portálu). </p>
 <p>Nasledovné kategórie otázok, z ktorých boli vybrané \'náhodné\' otázky, budú mať zmenený status zdieľania na rovnaký, ako má kategória s \'náhodnou\' otázkou pri aktualizácii na 1.9. Otázky, ktoré sa nachádzajú v týchto kategóriách, budú aj ďalej správne fungovať v existujúcich testoch, až kým ich z nich neodstránite.</p>';

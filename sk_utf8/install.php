@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // install.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
+
 
 $string['admindirerror'] = 'Adresár pre správu (admin) nie je určený správne';
 $string['admindirname'] = 'Adresár pre správu (admin)';
@@ -96,6 +97,7 @@ $string['databasesettingssub_postgres7'] = '<b>Typ:</b> PostgreSQL<br />
 $string['databasesettingswillbecreated'] = '<b>Poznámka:</b> inštalátor sa pokúsi vytvoriť databázu automaticky, ak neexistuje.';
 $string['dataroot'] = 'Adresár pre údaje';
 $string['datarooterror'] = '\'Adresár pre údaje\', ktorý ste zadali, nemôže byť nájdený alebo vytvorený. Upravte buď cestu alebo vytvorte ten adresár ručne.';
+$string['datarootpublicerror'] = 'Adresár \'data\', ktorý ste zvolili, je priamo dostupný z webu. Musíte zvoliť iný adresár.';
 $string['dbconnectionerror'] = 'Nemohli sme sa pripojiť k vami zadanej databáze. Prosím skontrolujte nastavenia Vašej databázy.';
 $string['dbcreationerror'] = 'Chyba pri vytváraní databázy. Ale bolo možné vytvoriť databázu so zadaným menom a jej nastaveniami';
 $string['dbhost'] = 'Hosťovský server';
@@ -222,4 +224,5 @@ $string['welcomep60'] = 'Nasledujúce stránky vás povedú v nekoľkých jednod
 $string['welcomep70'] = 'Stlačením nižšie uvedeného tlačidla \"Ďalší\" pokračujte v nastavení vašej inštalácie Moodle.';
 $string['wwwroot'] = 'Web adresa';
 $string['wwwrooterror'] = 'Táto web adresa pravdepodobne nie je platná - táto inštalácia Moodle tu pravdepodobne nie je.';
+
 ?>

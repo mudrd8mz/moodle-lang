@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -269,6 +269,8 @@ $string['ctyperecommended'] = 'Pre zlepšenie výkonu na portáli (najmä pre ni
 $string['ctyperequired'] = 'Voliteľná knižnica ctype je vyžadovaná v Moodle na zlepšenie výkonu na portáli a podporu kompatibility viacerých jazykov.';
 $string['curlrecommended'] = 'Pre beh sieťových funkcionalít (\"Moodle Networking\") je treba nainštalovať voliteľnú knižnicu Curl.';
 $string['customcheck'] = 'Ostatné kontroly';
+$string['datarootsecurityerror'] = '<p><strong>BEZPEČNOSTNÉ UPOZORNENIE!</strong></p><p>Váš dátový adresár je na nesprávnom mieste a dostupný z webu. To znamená, že všetky vaše súkromné súbory sú prístupné každému na svete a niektoré z nich môžu byť zneužité crackermi na získanie neoprávneného administratívneho prístupu k vášmu portálu !</p>
+<p><em>Musíte</em> presunúť  dátový adresár ($a) na nové miesto, ktoré sa nenachádza vo verejnom web adresári a aktualizovať nastavenie <code>$CFG->dataroot</code> vo vašom súbore config.php.</p>';
 $string['datarootsecuritywarning'] = 'Vaša inštalácia Moodle nemusí byť bezpečná. Prosím zabezpečte, aby váš dátový adresár ($a) nie je priamo dostupný z webu';
 $string['dbmigrate'] = 'Migrácia databázy Moodle';
 $string['dbmigrateconnecerror'] = 'K zvolenej databáze sa nepodarilo pripojiť.';
