@@ -20,6 +20,7 @@ $string['err_uniquename'] = 'Le nom du portfolio doit être unique (par plugin)'
 $string['enabled'] = 'Activer les portfolios';
 $string['enableddesc'] = 'Cette option permet aux administrateurs de configurer les systèmes distants vers lesquels les utilisateurs exportent des contenus';
 $string['exporting'] = 'Exportation vers le portfolio';
+$string['exportingcontentfrom'] = 'Exportation de contenus depuis $a';
 $string['exportcomplete'] = 'Exportation portfolio terminée&nbsp;!';
 $string['exportedpreviously'] = 'Exportations précédentes';
 $string['exportexceptionnoexporter'] = 'Une exception portfolio_export_exception a été levée lors d\'une session active, mais il n\'a pas d\'objet exporter';
