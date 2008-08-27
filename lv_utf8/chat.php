@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7 beta + (2006101003)
+      // chat.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
+$string['autoscroll'] = 'Automātiskā ritināšana';
 $string['beep'] = 'signāls';
 $string['chat:chat'] = 'Sarunāties tērzētavā';
 $string['chat:deletelog'] = 'Dzēst tērzēšanas žurnālus';
@@ -37,6 +38,7 @@ $string['messagebeepsyou'] = '$a tikko jums signalizēja!';
 $string['messageenter'] = '$a tikko pievienojās šai tērzēšanai';
 $string['messageexit'] = '$a tikko pameta šo tērzēšanu';
 $string['messages'] = 'Ziņojumi';
+$string['method'] = 'Tērzēšanas metode';
 $string['methoddaemon'] = 'Tērzēšanas servera dēmons';
 $string['methodnormal'] = 'Parastā metode';
 $string['modulename'] = 'Tērzēšana';
@@ -48,15 +50,25 @@ $string['nomessages'] = 'Vēl nav ziņojumu';
 $string['normalkeepalive'] = 'Dežurēšana';
 $string['normalstream'] = 'Plūsma';
 $string['noscheduledsession'] = 'Nav ieplānotas sesijas';
+$string['oldping'] = 'Atvienošanās noildze';
+$string['pastchats'] = 'Iepriekšējās tērzēšanas sesijas';
+$string['refreshroom'] = 'Atjaunināt telpu';
+$string['refreshuserlist'] = 'Atjaunināt lietotāju sarakstu';
+$string['removemessages'] = 'Noņemt visus ziņojumus';
 $string['repeatdaily'] = 'Katru dienu tajā pašā laikā';
 $string['repeatnone'] = 'Bez atkārtojumiem&nbsp;— publicēt tikai norādīto laiku';
 $string['repeattimes'] = 'Atkārtot sesijas';
 $string['repeatweekly'] = 'Katru nedēļu tajā pašā laikā';
 $string['savemessages'] = 'Saglabāt iepriekšējās sesijas';
 $string['seesession'] = 'Skatīt šo sesiju';
+$string['serverhost'] = 'Servera vārds';
+$string['serverip'] = 'Servera IP';
+$string['servermax'] = 'Maksimālais lietotāju skaits';
+$string['serverport'] = 'Servera ports';
 $string['sessions'] = 'Tērzēšanas sesijas';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Ikviens var skatīt iepriekšējās sesijas';
+$string['updatemethod'] = 'Atjaunināšanas metode';
 $string['viewreport'] = 'Skatīt iepriekšējās tērzēšanas sesijas';
 
 ?>

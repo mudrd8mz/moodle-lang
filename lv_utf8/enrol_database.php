@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.7 beta + (2006101003)
+      // enrol_database.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['autocreate'] = 'Kursus var izveidot automātiski, ja sistēmā Moodle veiktas reģistrācijas uz kursiem, kas vēl nepastāv.';
@@ -9,23 +9,24 @@ $string['course_fullname'] = 'Tā lauka nosaukums, kur tiek glabāts kursa pilna
 $string['course_id'] = 'Tā lauka nosaukums, kur tiek glabāts kursa ID. Šī lauka vērtības tiek izmantotas, lai veidotu atbilstības sistēmas Moodle kursu tabulas lauka “enrol_db_l_coursefield” vērtībām.';
 $string['course_shortname'] = 'Tā lauka nosaukums, kur tiek glabāts kursa īsais nosaukums.';
 $string['course_table'] = 'Pēc tam tās tabulas nosaukums, kur vajadzētu būt detalizētai informācijai par kursu (īsais nosaukums, pilnais nosaukums, ID u.c.)';
-$string['dbtype'] = 'Datubāzes tips';
 $string['dbhost'] = 'Servera IP nosaukums vai numurs';
-$string['dbuser'] = 'Servera lietotājs';
-$string['dbpass'] = 'Servera parole';
 $string['dbname'] = 'Datubāzes nosaukums';
+$string['dbpass'] = 'Servera parole';
 $string['dbtable'] = 'Datubāzes tabula';
+$string['dbtype'] = 'Datubāzes tips';
+$string['dbuser'] = 'Servera lietotājs';
 $string['defaultcourseroleid'] = 'Loma, kas tiks piešķirta pēc noklusējuma, ja nav norādīta neviena cita loma.';
 $string['description'] = 'Savu reģistrāciju kontrolei varat izmantot ārēju datubāzi (gandrīz jebkādu). Tiek pieņemts, ka ārējā datubāzē ir lauks ar kursa ID, kā arī lauks ar lietotāja ID. Tie tiek salīdzināti ar lokālajā kursu un lietotāju tabulā izvēlētajiem laukiem.';
-$string['enrolname'] = 'Ārējā datubāze';
+$string['disableunenrol'] = 'Ja iestatīts jā, lietotāji, kas iepriekš reģistrēti ar ārējās datubāzes spraudni, netiks atreģistrēti ar šo pašu spraudni neatkarīgi no datubāzes satura.';
 $string['enrol_database_autocreation_settings'] = 'Automātiska jaunu kursu izveide';
+$string['enrolname'] = 'Ārējā datubāze';
 $string['general_options'] = 'Vispārīgās opcijas';
 $string['host'] = 'Datubāzes servera resursdatora nosaukums.';
 $string['ignorehiddencourse'] = 'Ja iestatīta apstiprinoša vērtība, lietotāji netiks reģistrēti kursos, kas iestatīti kā studentiem nepieejami.';
+$string['local_fields_mapping'] = 'Moodle (lokālās) datubāzes lauki';
 $string['localcoursefield'] = 'Kursu tabulas tā lauka nosaukums, ko izmanto attālās datubāzes ievadņu saskaņošanai (piemēram, id_numurs).';
 $string['localrolefield'] = 'Lomu tabulas tā lauka nosaukums, ko izmanto attālās datubāzes ievadņu saskaņošanai (piemēram, īsais_nosaukums).';
 $string['localuserfield'] = 'Lietotāju tabulas tā lauka nosaukums, ko izmanto attālās datubāzes ievadņu saskaņošanai (piemēram, id_numurs).';
-$string['local_fields_mapping'] = 'Moodle (lokālās) datubāzes lauki';
 $string['name'] = 'Konkrētā izmantojamā datubāze.';
 $string['pass'] = 'Parole, lai piekļūtu serverim.';
 $string['remote_fields_mapping'] = 'Reģistrācijas (attālās) datubāzes lauki.';

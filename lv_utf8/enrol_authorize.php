@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006112200)
+      // enrol_authorize.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['adminacceptccs'] = 'Kāda veida kredītkartes tiks akceptētas?';
@@ -85,6 +85,7 @@ $string['choosemethod'] = 'Ja zināt kursa reģistrācijas atslēgu, lūdzu ieva
 $string['chooseone'] = 'Aizpildiet vienu no šiem laukiem vai abus laukus. parole netiek rādīta.';
 $string['costdefaultdesc'] = '<strong>Kursa iestatījumos ievadiet -1</strong>, lai kursa cenas laukā izmantotu šo noklusējuma cenu.';
 $string['cutofftime'] = 'Transakciju pārtraukšanas laiks. Kad norēķinu veikšanai tiek paņemta pēdējā transakcija?';
+$string['dataentered'] = 'Ievadītie dati';
 $string['delete'] = 'Iznīcināt';
 $string['description'] = 'Authorize.net modulis ļauj iestatīt maksas kursus, izmantojot norēķinu pakalpojumu sniedzējus. Ja kāda kursa cena ir nulle, studentiem netiek lūgts apmaksāt dalību. Kursu cenu var iestatīt divējādi: (1) cena vietnes mērogā kā noklusējums visai vietnei vai (2) kursa iestatījums, ko katram kursam var iestatīt atsevišķi. Kursa cena liek ignorēt cenu vietnē.<br /><br /><b>Piezīme.</b> Ja kursa iestatījumos ievadāt reģistrācijas atslēgu, studentiem tiek dota iespēja reģistrēties, arī izmantojot atslēgu. Tas noder, ja ir studenti, kam ir jāmaksā, kā arī kam nav jāmaksā.';
 $string['echeckabacode'] = 'Bankas ABA numurs';
