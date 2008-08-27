@@ -1,5 +1,6 @@
 <?php  // $Id$
 
+$string['addalltoportfolio'] = 'Tout ajouter au portfolio';
 $string['addnewportfolio'] = 'Ajouter un portfolio';
 $string['addtoportfolio'] = 'Ajouter au portfolio';
 $string['alreadyexporting'] = 'Vous avez déjà entamé une exportation vers un portfolio durant cette session. Veuillez la terminer d\'abord, ou <a href=\"$a\">cliquer ici pour</a> l\'annuler.';
