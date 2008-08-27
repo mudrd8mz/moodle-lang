@@ -23,6 +23,7 @@ $string['completion_none'] = 'Ne pas afficher le suivi des progrès';
 $string['completionenabled'] = 'Activé, configuration dans les réglages de l\'activité';
 $string['completionexpected'] = 'Achèvement attendu le';
 $string['completiondisabled'] = 'Désactivé';
+$string['completionicons'] = 'Icônes de progression';
 $string['completionreport'] = 'Rapport de progression';
 $string['completionusegrade'] = 'Note requise';
 $string['completionusegrade_text'] = 'Le participant doit recevoir une note de';
