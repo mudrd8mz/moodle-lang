@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080826) (2008082600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -59,7 +59,7 @@ $string['commonsettings'] = '共通設定';
 $string['componentinstalled'] = 'コンポーネントがインストールされました。';
 $string['computedfromlogs'] = '$a 以降のログより計算しています。';
 $string['confeditorhidebuttons'] = 'HTMLエディタで隠すボタンを選択してください。';
-$string['configallowassign'] = 'あなたはロール割り当て済みの左側のユーザに対して、他のユーザへのロールを割り当てを許可することができます。';
+$string['configallowassign'] = 'あなたはロール割り当て済みの左側のユーザに対して、他のユーザへのロール割り当てを許可することができます。';
 $string['configallowcategorythemes'] = 'この設定を有効にした場合、カテゴリに独自のテーマを設定することができます。独自のテーマが設定されていない限り、カテゴリテーマはすべての子カテゴリおよびコースのテーマを上書きします。警告: カテゴリテーマを有効にするとパフォーマンスに影響を及ぼします。';
 $string['configallowcoursethemes'] = 'この設定を有効にした場合、コースに独自のテーマを設定することができます。コーステーマは、他のすべてのテーマ (サイト、ユーザ、セッションテーマ) を上書きします。';
 $string['configallowemailaddresses'] = '新しいメールアドレスを特定のドメインのみに制限したい場合、この欄にスペースで区切って入力してください。他のドメインはすべて拒否されます。サブドメインを許可するには、先頭に「.」を付けたドメインを入力してください。例 <strong>ourcollege.edu.au .gov.au</strong>';
