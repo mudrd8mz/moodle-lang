@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080724) (2008072402)
+      // question.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -141,8 +141,11 @@ $string['unknown'] = '不明';
 $string['unknownquestiontype'] = '不明な問題タイプ「 $a 」です。';
 $string['unknowntolerance'] = '不明な許容誤差タイプ「 $a 」です。';
 $string['unpublished'] = '非共有';
+$string['upgradeproblemcategoryloop'] = '問題カテゴリのアップグレード中に問題が発生しました。カテゴリツリーにループがあります。影響のあるカテゴリIDは、$a です。';
+$string['upgradeproblemcouldnotupdatecategory'] = '問題カテゴリ「 $a->name ($a->id) 」をアップグレードできませんでした。';
+$string['upgradeproblemunknowncategory'] = '問題カテゴリのアップグレード中に問題が発生しました。カテゴリ「 $a->id 」が存在しない親カテゴリ「 $a->parent 」を参照しています。問題を修正するため、親カテゴリを変更しました。';
 $string['wrongprefix'] = '問題名接頭辞のフォーマット「 $a 」が正しくありません。';
 $string['yourfileshoulddownload'] = 'あなたのエクスポートファイルのダウンロードは、まもなく始まります。ダウンロードされない場合、<a href=\"$a\">ここをクリックしてください</a>。';
-$string['novirtualquestion'] = '問題タイプ $a には、バーチャル問題がありません。'; // TBD
+$string['novirtualquestion'] = '問題タイプ $a には、バーチャル問題がありません。'; //TBD
 
 ?>
