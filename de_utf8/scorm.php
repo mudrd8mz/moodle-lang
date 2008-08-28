@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['activation'] = 'Aktivierung';
+$string['activityloading'] = 'Sie werden automatisch zur Aktivität weitergeleitet:';
+$string['activitypleasewait'] = 'Aktivität wird geladen. Bitte warten ....';
 $string['advanced'] = 'Weitere Einstellungen';
 $string['asset'] = 'Anlage';
 $string['assetlaunched'] = 'Anlage gesehen';
@@ -127,9 +129,12 @@ $string['scorm:skipview'] = 'Übersicht überspringen';
 $string['scorm:viewreport'] = 'Berichte sehen';
 $string['scorm:viewscores'] = 'Bewertungen sehen';
 $string['scormcourse'] = 'Lernpaket-Kurs';
+$string['scormloggingoff'] = 'API - Logdatei ausgeschaltet';
+$string['scormloggingon'] = 'API - Logdatei eingeschaltet';
 $string['scrollbars'] = 'Scrollfunktion im Fenster bereitstellen';
 $string['sided'] = 'Auf der linken Seite';
 $string['skipview'] = 'Übersicht überspringen';
+$string['slashargs'] = 'Achtung: Slash-Argumente sind für diese Website ausgeschaltet. Einige Objekte werden nicht wie erwartet funktionieren!';
 $string['stagesize'] = 'Darstellungsgröße';
 $string['started'] = 'Begonnen am';
 $string['status'] = 'Status';

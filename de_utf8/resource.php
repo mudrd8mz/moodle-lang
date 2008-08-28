@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080802) (2008073114)
+      // resource.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -104,6 +104,7 @@ $string['preview'] = 'Vorschau';
 $string['previous'] = 'Vorherige';
 $string['redeploy'] = 'Nochmal verwenden';
 $string['repository'] = 'IMS-Verzeichnis';
+$string['resource:exportresource'] = 'Arbeitsmaterial exportieren';
 $string['resource:view'] = 'Arbeitsmaterial sehen';
 $string['resourcedefaulturl'] = 'Standard-URL';
 $string['resourcetype'] = 'Art des Arbeitsmaterials';

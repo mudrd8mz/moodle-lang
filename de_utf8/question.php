@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // question.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
@@ -10,21 +10,28 @@ $string['cannotcopybackup'] = 'Die Sicherungsdatei konnte nicht kopiert werden';
 $string['cannotcreate'] = 'Es konnte kein Eintrag in der Datenbanktabelle für Testversuche (question_attempts) angelegt werden.';
 $string['cannotcreatedataset'] = 'Der Datensatz $a kann nicht angelegt werden';
 $string['cannotcreaterelation'] = 'Eine Verbindung zum den Datensatz $a[0] $a[1] kann nicht angelegt werden';
+$string['cannotdeletecate'] = 'Kategorie konnte nicht gelöscht werden, weil sie für diesen Kontext die Standardkategorie darstellt.';
+$string['cannotfindcate'] = 'Kategoriedaten konnten nicht gefunden werden';
 $string['cannotfindquestionfile'] = 'Die Fragendaten konnten nicht in der ZIP-Datei gefunden werden';
 $string['cannotgetdsfordependent'] = 'Für diese datensetabhängige Frage kann das gewählte Datenset nicht aufgerufen werden! (Frage {$a[0]}, Datensetwert: {$a[1]})';
 $string['cannotgetdsforquestion'] = 'Ausgewähltes Datenset für berechnete Fragen nicht gefunden! (Frage:{$a})';
-$string['cannotinsert'] = 'Es konnte kein Eintrag in question_sessions erstellt werden.';
-$string['cannotinsertitem'] = 'Datenset konnte nicht eingefügt werden: $a[0] mit $a[1] von $a[2]';
-$string['cannotinsertquestion'] = 'Die neue Frage konnte nicht eingefügt werden!';
+$string['cannothidequestion'] = 'Frage konnte nicht verborgen werden';
+$string['cannotimportformat'] = 'Entschuldigung, aber der Import für dieses Format ist bisher nicht implementiert!';
+$string['cannotinsert'] = 'Fehler beim Einfügen des Eintrag';
+$string['cannotinsertitem'] = 'Datenmenge konnte nicht eingefügt werden: $a[0] mit $a[1] von $a[2]';
+$string['cannotinsertquestion'] = 'Neue Frage konnte nicht eingefügt werden!';
 $string['cannotinsertquestioncate'] = 'Neue Fragenkategorie $a nicht eingefügt';
 $string['cannotinsertquestioncatecontext'] = 'Neue Fragenkategorie $a[0] nicht eingefügt: ungültige Kontext-ID $a[1}';
+$string['cannotloadquestion'] = 'Frage konnte nicht geladen werden';
 $string['cannotmovecate'] = 'Kategorie $a nicht verschiebbar. Es ist die einzige in diesem Kontext.';
 $string['cannotmovefromto'] = 'Kategorie $a[0] konnte nicht nach $a[1] verschoben werden.';
 $string['cannotmovequestion'] = 'Mit dieser Funktionen können Sie keine Fragen verschieben in denen Dateien (Bilder) aus verschiedenen Bereichen eingebunden sind.';
+$string['cannotpreview'] = 'Keine Vorschau für diese Fragen möglich!';
 $string['cannotretrieveqcat'] = 'Fragekategorie konnte nicht aufgerufen werden';
 $string['cannotsavequiz'] = 'Der letzte Testversuch konnte nicht gespeichert werden!';
-$string['cannotunzip'] = 'Die Datei konnte nicht entpackt werden.';
-$string['cannotupdatecate'] = 'Die Kategorie $a konnte nicht aktualisiert werden';
+$string['cannotunhidequestion'] = 'Frage konnte nicht sichtbar gemacht werden';
+$string['cannotunzip'] = 'Datei konnte nicht entpackt werden.';
+$string['cannotupdatecate'] = 'Kategorie $a konnte nicht aktualisiert werden';
 $string['cannotupdatecount'] = 'Fehler: Zähler für Wert nicht aktualisiert';
 $string['cannotupdateitem'] = 'Fehler: Datensetwert nicht aktualisiert';
 $string['cannotupdatequestion'] = 'Die Frage konnte nicht aktualisiert werden!';
@@ -76,9 +83,11 @@ $string['fractionsnomax'] = 'Eine der Antworten sollte mit 100%% bewertet werden
 $string['getcategoryfromfile'] = 'Kategorie aus Datei holen';
 $string['getcontextfromfile'] = 'Kontext aus Datei holen';
 $string['ignorebroken'] = 'Ungültige Links ignorieren';
-$string['impossiblechar'] = 'Unzulässiges Zeichen ($a) innerhalb der Klammern entdeckt';
+$string['impossiblechar'] = 'Unzulässiges Zeichen $a innerhalb der Klammern entdeckt';
+$string['invalidarg'] = 'Ungültige Argumente oder falsche Serverkonfiguration';
 $string['invalidcategoryidforparent'] = 'Ungültige Kategorien ID für übergeordnete Ebene';
 $string['invalidcategoryidtomove'] = 'Ungültige Kategorien ID beim Verschieben';
+$string['invalidconfirm'] = 'Falscher Bestätigungstext';
 $string['invalidcontextinhasanyquestions'] = 'Ungültiger Kontext für question_context_has_any_questions.';
 $string['invalidwizardpage'] = 'Falsche oder keine Seite festgelegt!';
 $string['linkedfiledoesntexist'] = 'Verbundene Datei $a existiert nicht';

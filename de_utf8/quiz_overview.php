@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['allattempts'] = 'Alle Versuche anzeigen';
@@ -27,6 +27,7 @@ $string['optonlyregradedattempts'] = 'die neu bewertet  bzw. dafür markiert wur
 $string['overview'] = 'Übersicht';
 $string['overviewdownload'] = 'Download der Übersicht';
 $string['overviewreportgraph'] = 'Balkengrafik für die Zahl der Nutzer, die einzelne Bewertungstufen erreicht haben';
+$string['overviewreportgraphgroup'] = 'Anzahl derjenigen in der Gruppe \'$a\', die die Bewertungsgrenzen erreicht haben';
 $string['pagesize'] = 'Seitengröße';
 $string['preferencespage'] = 'Einstellungen für diese Seite';
 $string['preferencessave'] = 'Einstellungen speichern';

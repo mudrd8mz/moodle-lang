@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -23,19 +23,24 @@ $string['allsubscribe'] = 'Alle Foren abonnieren';
 $string['allunsubscribe'] = 'Alle Foren abbestellen';
 $string['anyfile'] = 'Jede Datei';
 $string['attachment'] = 'Anhang';
+$string['attachmentnopost'] = 'Ohne Nachrichten-ID können keine Anhänge exportiert werden';
+$string['attachments'] = 'Anhänge';
 $string['blockafter'] = 'Sperren nach wie vielen Beiträgen';
 $string['blockperiod'] = 'Zeitdauer für Sperre';
 $string['blockperioddisabled'] = 'Nicht sperren';
 $string['bynameondate'] = 'von  $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Um in diesem Forum mit zu diskutieren, müssen Sie Mitglied der Gruppe sein.';
 $string['cannotadddiscussionall'] = 'Sie haben nicht die Berechtigung, um neue Diskussionsthemen für alle Teilnehmer/innen anzulegen.';
-$string['cannotaddsubscriber'] = 'Abonnent mit id $a konnte nicht für das Forum registriert werden!';
+$string['cannotaddsubscriber'] = 'Abonnent mit der ID $a konnte nicht für das Forum registriert werden!';
+$string['cannotfindfirstpost'] = 'Die erste Nachricht konnte nicht gefunden werden';
 $string['cannotfindorcreateforum'] = 'Das Nachrichtenforum dieses Kurses wurde nicht gefunden oder konnte nicht angelegt  werden.';
-$string['cannotinsertrate'] = 'Neue Bewertung ($a[0] = $a[1]) konnte nicht eingefügt werden';
 $string['cannotremovesubscriber'] = 'Abonnent mit id $a konnte nicht aus dem Forum ausgetragen werden!';
-$string['cannotupdaterate'] = 'Alte Bewertung ($a[0] = $a[1]) konnte nicht aktualisiert werden';
+$string['cannotsubscribe'] = 'Entschuldigung, aber Sie müssen für ein Abonnement ein Gruppenmitglied sein.';
+$string['cannottrack'] = 'Das Tracking des Forums konnte nicht beendet werden';
+$string['cannotunsubscribe'] = 'Sie könnten nicht aus dem Forum abgemeldet werden';
 $string['cannotviewpostyet'] = 'Sie können die Beiträge anderer Teilnehmer/innen erst dann lesen, wenn Sie selbst Beiträge verfasst haben.';
 $string['cleanreadtime'] = 'Stunde zu der alte Beiträge als gelesen gekennzeichnet werden';
+$string['completiondiscussions'] = 'Teilnehmer/in muss Themen neu beginnen';
 $string['configcleanreadtime'] = 'Zeitpunkt des Tages (Stunde), zu dem alte Beiträge von der \'read\'-Tabelle gelöscht werden.';
 $string['configdisplaymode'] = 'Standard-Anzeigemodus für Diskussionen, falls nichts eingestellt wurde.';
 $string['configenablerssfeeds'] = 'Diese Einstellung ermöglicht die Nutzung der RSS-Feeds für alle Foren. Jedes Forum muss einzeln für den RSS-Feed aktiviert werden.';
@@ -96,6 +101,9 @@ $string['forum:createattachment'] = 'Dateianhänge hinzufügen';
 $string['forum:deleteanypost'] = 'Alle Beiträge löschen (jederzeit)';
 $string['forum:deleteownpost'] = 'Eigene Beiträge löschen (mit Zeitbegrenzung)';
 $string['forum:editanypost'] = 'Alle Beiträge bearbeiten';
+$string['forum:exportdiscussion'] = 'Gesamtes Thema exportieren';
+$string['forum:exportownpost'] = 'Eigenen Beitrag exportieren';
+$string['forum:exportpost'] = 'Beitrag exportieren';
 $string['forum:initialsubscriptions'] = 'Zunächst eintragen';
 $string['forum:managesubscriptions'] = 'Abonnent/innen verwalten';
 $string['forum:movediscussions'] = 'Themen verschieben';
@@ -129,8 +137,9 @@ $string['intronews'] = 'Nachrichten und Ankündigungen';
 $string['introsocial'] = 'Ein offenes Forum ohne Themeneinschränkung';
 $string['introteacher'] = 'Ein Forum ausschließlich für Anmerkungen und Diskussionen der Trainer/innen';
 $string['invalidaccess'] = 'Seitenzugriff war nicht korrekt.';
-$string['invalidforumid'] = 'Foren-ID war falsch';
-$string['invalidpostid'] = 'Ungültige Beitrags-ID - $a';
+$string['invaliddiscussionid'] = 'Falsche Themen-ID';
+$string['invalidforumid'] = 'Falsche Foren-ID';
+$string['invalidpostid'] = 'Ungültige Beitrags-ID $a';
 $string['lastpost'] = 'Letzter Beitrag';
 $string['learningforums'] = 'Lernforen';
 $string['logblocked'] = 'Geblockte E-Mails loggen';
@@ -146,6 +155,8 @@ $string['markunreadbutton'] = 'Als ungelesen<br /> markieren';
 $string['maxattachmentsize'] = 'Maximale Dateigröße';
 $string['maxtimehaspassed'] = 'Entschuldigung, aber die Höchstdauer für die Bearbeitung dieses Eintrags ($a) ist überschritten!';
 $string['message'] = 'Mitteilung';
+$string['messageprovider:digests'] = 'Abonnierte Forenzusammenfassungen';
+$string['messageprovider:posts'] = 'Abonnierte Forenbeiträge';
 $string['missingsearchterms'] = 'Die folgenden Suchbegriffe tauchen lediglich in den HTML-Formatierungen dieser Mitteilung auf:';
 $string['modeflatnewestfirst'] = 'Anzeige der Antworten flach, aktuellste zuerst';
 $string['modeflatoldestfirst'] = 'Anzeige der Antworten flach, älteste zuerst';
@@ -156,10 +167,12 @@ $string['modulenameplural'] = 'Foren';
 $string['more'] = 'mehr';
 $string['movedmarker'] = '(Bewegt)';
 $string['movethisdiscussionto'] = 'Diese Diskussion verschieben nach ...';
+$string['mustprovidediscussionorpost'] = 'Für den Export müssen Sie entweder eine Themen-ID oder eine Nachrichten-ID angeben';
 $string['namenews'] = 'Nachrichtenforum';
 $string['namesocial'] = 'Soziales Forum';
 $string['nameteacher'] = 'Trainerforum';
 $string['newforumposts'] = 'Neue Forenbeiträge';
+$string['noattachments'] = 'Zu dieser Nachricht gibt es keine Anhänge';
 $string['nodiscussions'] = 'Es befindet sich noch kein Diskussionsthema in diesem Forum.';
 $string['nodiscussionsstartedby'] = 'Von diesem Nutzer wurde noch kein Diskussionsthema gestartet.';
 $string['noguestpost'] = 'Entschuldigung, Gäste dürfen hier nicht mitdiskutieren. Bitte melden Sie sich an.';
@@ -305,6 +318,8 @@ $string['youratedthis'] = 'Ihre Bewertung';
 $string['yournewquestion'] = 'Ihre neue Frage';
 $string['yournewtopic'] = 'Ihr neues Diskussionsthema';
 $string['yourreply'] = 'Ihre Antwort';
+$string['cannotinsertrate'] = 'Neue Bewertung ($a[0] = $a[1]) konnte nicht eingefügt werden'; // ORPHANED
+$string['cannotupdaterate'] = 'Alte Bewertung ($a[0] = $a[1]) konnte nicht aktualisiert werden'; // ORPHANED
 $string['nopostdiscussion'] = 'In dieser Diskussion können Sie keine Beiträge veröffentlichen'; // ORPHANED
 
 ?>

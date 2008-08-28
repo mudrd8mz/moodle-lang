@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -12,6 +12,7 @@ $string['activity'] = 'Aktivität';
 $string['activityclipboard'] = 'Diese Aktivität verschieben: <b>$a</b>';
 $string['activityiscurrentlyhidden'] = 'Entschuldigung, diese Aktivität ist momentan verborgen';
 $string['activitymodule'] = 'Aktivitäten-Modul';
+$string['activitymodules'] = 'Aktivitäten-Module';
 $string['activityreport'] = 'Aktivitäten';
 $string['activityreports'] = 'Aktivitäten';
 $string['activityselect'] = 'Wählen Sie eine Aktivität aus, um sie zu verschieben';
@@ -223,14 +224,14 @@ $string['city'] = 'Stadt/Ort';
 $string['clambroken'] = 'Die Virenprüfung für hochgeladene Dateien wurde aktiviert. In der Konfiguration der Virenprüfung ist jedoch ein Fehler aufgetreten. <br/>Ihre Datei konnte nicht hochgeladen werden. Die Administrator/innen wurden per E-Mail benachrichtigt. <br/>Bitte versuchen Sie später noch einmal, die Datei hochzuladen.';
 $string['clamdeletedfile'] = 'Die Datei wurde gelöscht';
 $string['clamdeletedfilefailed'] = 'Die Datei konnte nicht gelöscht werden';
-$string['clamemailsubject'] = '$a :: Clam-AV Benachrichtigung';
-$string['clamfailed'] = 'Clam-AV ist nicht korrekt ausgeführt worden. Die Fehlermeldung lautet: $a.';
-$string['clamlost'] = 'Moodle verwendet Clam-AV zur Virenprüfung für hochgeladene Dateien, aber der Pfad für Clam-AV $a ist ungültig.';
-$string['clamlostandactinglikevirus'] = 'Desweiteren wurde Moodle so konfiguriert, dass Dateien nach dem Hochladen als virenverdächtig eingestuft werden, wenn Probleme bei der Ausführung von Clam-AV auftreten. Somit können keine Dateien hochgeladen werden, solange der Fehler nicht behoben ist.';
+$string['clamemailsubject'] = '$a :: ClamAV Benachrichtigung';
+$string['clamfailed'] = 'ClamAV ist nicht korrekt ausgeführt worden. Die Fehlermeldung lautet: $a.';
+$string['clamlost'] = 'Moodle verwendet ClamAV zur Virenprüfung für hochgeladene Dateien, aber der Pfad für ClamAV $a ist ungültig.';
+$string['clamlostandactinglikevirus'] = 'Desweiteren wurde Moodle so konfiguriert, dass Dateien nach dem Hochladen als virenverdächtig eingestuft werden, wenn Probleme bei der Ausführung von ClamAV auftreten. Somit können keine Dateien hochgeladen werden, solange der Fehler nicht behoben ist.';
 $string['clammovedfile'] = 'Die Datei wurde in das spezielle Quarantäne-Verzeichnis verschoben. Die neue Speicheradresse lautet $a';
 $string['clammovedfilebasic'] = 'Die Datei wurde im Quarantäne-Verzeichnis abgelegt.';
 $string['clamquarantinedirfailed'] = 'Die Datei konnte nicht im Quarantäne-Verzeichnis $a abgelegt werden. Sie müssen den Fehler beheben, denn  bis auf weiteres werden alle Dateien gelöscht, die als virenverdächtig eingestuft werden.';
-$string['clamunknownerror'] = 'Es ist ein unbekannter Fehler mit Clam-AV aufgetreten.';
+$string['clamunknownerror'] = 'Es ist ein unbekannter Fehler mit ClamAV aufgetreten.';
 $string['cleaningtempdata'] = 'Temporäre Dateien löschen';
 $string['clickhere'] = 'Hier klicken ...';
 $string['clicktochange'] = 'Zum Ändern klicken';
@@ -411,6 +412,7 @@ $string['documentation'] = 'Moodle-Dokumentation';
 $string['donotask'] = 'Fragen Sie nicht!';
 $string['down'] = 'Abwärts';
 $string['downloadexcel'] = 'Im Excel-Format herunterladen';
+$string['downloadfile'] = 'Datei herunterladen';
 $string['downloadods'] = 'Im ODS-Format herunterladen';
 $string['downloadtext'] = 'Im Text-Format herunterladen';
 $string['doyouagree'] = 'Haben Sie diese Bedingungen gelesen, verstanden und stimmen ihnen zu?';
@@ -897,6 +899,8 @@ $string['memberincourse'] = 'Kursteilnehmer/innen';
 $string['messagebody'] = 'Mitteilungstext';
 $string['messagedselectedusers'] = 'Die ausgewählten Nutzer/innen wurden benachrichtigt, und die Empfängerliste wurde zurückgesetzt.';
 $string['messagedselectedusersfailed'] = 'Beim Versenden der Mitteilung ist ein Problem aufgetreten. Es kann sein, dass einzelne Empfänger/innen die Nachricht erhalten haben.';
+$string['messageprovider:errors'] = 'Schwerwiegende Fehler mit dieser Website';
+$string['messageprovider:notices'] = 'Benachrichtigung bei kleinen Fehlern';
 $string['messageselect'] = 'Wählen Sie diese Nutzer/in zum E-Mail-Versand aus';
 $string['messageselectadd'] = 'Mitteilung hinzufügen/senden';
 $string['metaaddcourse'] = 'Diesen Kurs mit Metakurs verbinden';
@@ -927,6 +931,7 @@ $string['missinglastname'] = 'Nachname fehlt';
 $string['missingname'] = 'Name fehlt';
 $string['missingnewpassword'] = 'Neues Kennwort fehlt';
 $string['missingpassword'] = 'Kennwort fehlt';
+$string['missingrecaptchachallengefield'] = 'Fehlendes Eingabefeld für reCaptcha';
 $string['missingreqreason'] = 'Begründung fehlt';
 $string['missingshortname'] = 'Kurzbezeichnung fehlt';
 $string['missingshortsitename'] = 'Kurzbezeichnung der Website fehlt';
@@ -1571,13 +1576,14 @@ $string['users'] = 'Nutzer/innen';
 $string['usersnew'] = 'Neue Nutzer/innen';
 $string['usersnoaccesssince'] = 'Nutzer/innen anzeigen, deren Inaktivität länger dauert als';
 $string['userzones'] = 'Nutzerzonen';
-$string['usethiscourse'] = 'Diesen Kurs verwenden';
-$string['usingexistingcourse'] = 'Verwende vorhandenen Kurs';
+$string['usethiscourse'] = 'Diesen Kurs benutzen';
+$string['usingexistingcourse'] = 'Vorhandenen Kurs benutzen';
 $string['version'] = 'Version';
 $string['view'] = 'Zugriff';
+$string['viewfileinpopup'] = 'Datei im Popup-Fenster anzeigen';
 $string['views'] = 'Zugriffe';
 $string['viewsolution'] = 'Lösung anzeigen';
-$string['virusfound'] = 'Achtung! Clam-AV hat einen Virus in der Datei von Nutzer/in $a->user im Kurs $a->course gefunden. Bericht von Clam-AV:';
+$string['virusfound'] = 'Achtung! ClamAV hat einen Virus in der Datei von Nutzer/in $a->user im Kurs $a->course gefunden. Bericht von ClamAV:';
 $string['virusfoundlater'] = 'Die Datei mit dem Namen $a->filename, hochgeladen am $a->date im Kurs $a->course, kann einen Virus enthalten. Hier ist eine Information, was mit der Datei passiert ist:<br />
 $a->action
 

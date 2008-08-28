@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['allowdeleting'] = 'Löschen erlauben';
@@ -7,6 +7,8 @@ $string['allowmaxfiles'] = 'Maximale Anzahl hochgeladener Dateien';
 $string['allownotes'] = 'Anmerkungen zulassen';
 $string['allowresubmit'] = 'Erneutes Einreichen erlauben';
 $string['alreadygraded'] = 'Ihre Lösung zu dieser Aufgabe wurde bereits bewertet. Das Aktualisieren ist daher nicht mehr möglich.';
+$string['assignment:exportownsubmission'] = 'Eigene Einreichung exportieren';
+$string['assignment:exportsubmission'] = 'Einreichung exportieren';
 $string['assignment:grade'] = 'Aufgabe bewerten';
 $string['assignment:submit'] = 'Aufgabe übermitteln';
 $string['assignment:view'] = 'Aufgabe ansehen';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080802) (2008073114)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['1day'] = '1 Tag';
@@ -34,6 +34,8 @@ $string['addrandom2'] = 'Zufallsfragen';
 $string['addselectedtoquiz'] = 'Auswahl zum Test hinzufügen';
 $string['addtoquiz'] = 'Hinzufügen';
 $string['affectedstudents'] = 'Bestimmt für $a';
+$string['aftereachquestion'] = 'Nach jedem Hinzufügen einer Frage';
+$string['afternquestions'] = 'Nach dem Hinzufügen von $a Fragen';
 $string['aiken'] = 'AIKEN';
 $string['allattempts'] = 'Alle Versuche';
 $string['allinone'] = 'Unbegrenzt';
@@ -294,6 +296,8 @@ $string['gradingdetailspenalty'] = 'Die Arbeit berücksichtigt einen Abzug von $
 $string['gradingdetailszeropenalty'] = 'Sie erhalten für diese Arbeit keine Abzüge.';
 $string['gradingmethod'] = 'Bewertungsmethode: $a';
 $string['guestsno'] = 'Entschuldigung, aber Gäste können den Test weder sehen noch ausprobieren.';
+$string['hidebreaks'] = 'Seitenumbrüche verbergen';
+$string['hidereordertool'] = 'Neusortierung verbergen';
 $string['history'] = 'Frühere Antworten:';
 $string['hotpot'] = 'Hot Potatoes';
 $string['illegalformulasyntax'] = 'Fehlerhafte Formel-Syntax, beginnend mit $a';
@@ -370,6 +374,7 @@ $string['multipleanswers'] = 'Antwort(en) wählen:';
 $string['multiplier'] = 'Multiplikator';
 $string['name'] = 'Name';
 $string['newattemptfail'] = 'Fehler: Ein neuer Versuch des Tests konnte nicht begonnen werden.';
+$string['newpageevery'] = 'Automatisch eine neue Seite beginnen';
 $string['noanswers'] = 'Es wurden keine Antworten ausgewählt!';
 $string['noattempts'] = 'Diesen Test hat niemand durchgeführt.';
 $string['noattemptstoshow'] = 'Es gibt keine Versuche, die angezeigt werden können.';
@@ -496,7 +501,7 @@ $string['regradingquestion'] = 'Neubewertung \"$a\"';
 $string['regradingquiz'] = 'Neubewertung Test \"$a\"';
 $string['relative'] = 'Relativ';
 $string['remove'] = 'Entfernen';
-$string['removeallquizattempts'] = 'AlleTestversuche entfernen';
+$string['removeallquizattempts'] = 'Alle Testversuche entfernen';
 $string['rename'] = 'Umbenennen';
 $string['renderingserverconnectfailed'] = 'Der Server $a konnte die RQP-Anfrage nicht verarbeiten. Prüfen Sie, ob die eingegebene URL korrekt ist.';
 $string['reordertool'] = 'Zeilennummern anzeigen';

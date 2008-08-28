@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // data.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
 
 
 $string['action'] = 'Aktion';
@@ -56,6 +56,9 @@ $string['csvimport'] = 'CSV-Dateiimport';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Komma getrennte Werte\">CSV</acronym> mit diesem Trennzeichen:';
 $string['data:approve'] = 'Einträge freigeben';
 $string['data:comment'] = 'Kommentare schreiben';
+$string['data:exportallentries'] = 'Alle Datenbankeinträge exportieren';
+$string['data:exportentry'] = 'Datenbankeintrag exportieren';
+$string['data:exportownentry'] = 'Eigenen Datenbankeintrag exportieren';
 $string['data:managecomments'] = 'Kommentare verwalten';
 $string['data:manageentries'] = 'Einträge verwalten';
 $string['data:managetemplates'] = 'Vorlagen verwalten';
@@ -212,6 +215,7 @@ $string['pagesize'] = 'Einträge pro Seite';
 $string['participants'] = 'Teilnehmer/innen';
 $string['picture'] = 'Bild';
 $string['pleaseaddsome'] = 'Bitte tragen Sie etwas ein oder <a href=\"$a\">wählen Sie einen Vorlagensatz</a>, um zu beginnen';
+$string['portfolionotfile'] = 'In ein Portfolio und nicht als Datei exportieren';
 $string['presetinfo'] = 'Durch das Sichern als Vorlagensatz wird Ihre Datenbank-Gestaltung für die gesamte Moodle-Installation veröffentlicht. Andere Nutzer/innen können dann diesen Vorlagensatz für ihre Datenbank nutzen.';
 $string['presets'] = 'Vorlagensätze';
 $string['radiobutton'] = 'Radiobuttons';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080802) (2008073114)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -127,6 +127,8 @@ $string['globalglossary'] = 'Globales Glossar';
 $string['glossary:approve'] = 'Einträge freigeben';
 $string['glossary:comment'] = 'Kommentare';
 $string['glossary:export'] = 'Einträge exportieren';
+$string['glossary:exportentry'] = 'Einzeleintrag exportieren';
+$string['glossary:exportownentry'] = 'Ihren Einzeleintrag exportieren';
 $string['glossary:import'] = 'Einträge importieren';
 $string['glossary:managecategories'] = 'Kategorien verwalten';
 $string['glossary:managecomments'] = 'Kommentare verwalten';

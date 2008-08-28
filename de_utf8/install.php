@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // install.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['aborting'] = 'Installation abbrechen';
@@ -128,6 +128,7 @@ $string['databasetype'] = 'Datenbank-Typ :';
 $string['databaseuser'] = 'Datenbank-Nutzer :';
 $string['dataroot'] = 'Daten-Verzeichnis';
 $string['datarooterror'] = 'Das angegebene Datenverzeichnis ist nicht vorhanden und kann nicht angelegt werden. Korrigieren Sie die Pfad-Eingabe oder legen Sie das Verzeichnis manuell an.';
+$string['datarootpublicerror'] = 'Das von Ihnen angegebene Verzeichnis dataroot ist direkt aus dem Internet zugänglich. Sie müssen das Verzeichnis ändern!';
 $string['dbconnectionerror'] = 'Eine Verbindung zur angegebenen Datenbank konnte nicht hergestellt werden. Bitte überprüfen Sie Ihre Eingaben.';
 $string['dbcreationerror'] = 'Fehler beim Anlegen der Datenbank. Die Datenbank konnte mit diesen Einstellungen nicht erstellt werden.';
 $string['dbhost'] = 'Server';

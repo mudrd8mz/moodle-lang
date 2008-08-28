@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080522) (2008051202)
+      // message.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
 
 
 $string['addcontact'] = 'Kontakt hinzufügen';
@@ -14,20 +14,27 @@ $string['beepnewmessage'] = 'Akustisches Signal beim Eingang neuer Nachrichten';
 $string['blockcontact'] = 'Kontakt sperren';
 $string['blockedmessages'] = '$a Mitteilung(en) an/von gesperrten Nutzer/innen';
 $string['blocknoncontacts'] = 'Alle Nachrichten von Personen, die nicht in meiner Kontaktliste aufgeführt sind, sollen blockiert werden.';
+$string['cannotsavemessageprefs'] = 'Ihre Nutzereinstellungen konnten nicht gespeichert werden';
 $string['contactlistempty'] = 'Ihre Kontaktliste ist zur Zeit noch leer.';
 $string['contacts'] = 'Kontakte';
 $string['context'] = 'Kontext';
 $string['deletemessagesdays'] = 'Dauer (in Tagen), bis alte Mitteilungen automatisch gelöscht werden';
 $string['disabled'] = 'Bei dieser Website sind die Mitteilungen deaktiviert';
 $string['discussion'] = 'Diskussion';
+$string['editmymessage'] = 'Mitteilungssystem';
 $string['emailmessages'] = 'Mitteilungen per E-Mail versenden, wenn ich offline bin';
 $string['emailtagline'] = 'Diese E-Mail ist eine Kopie der Mitteilungen, die Sie an \"$a\" geschickt haben';
 $string['emptysearchstring'] = 'Sie müssen einen Suchbegriff eingeben';
 $string['formorethan'] = 'Für mehr als';
+$string['general_config'] = 'Allgemeine Einstellungen';
+$string['guestnoeditmessage'] = 'Gäste dürfen keine Einstellungen für  Mitteilungen ändern';
+$string['guestnoeditmessageother'] = 'Gäste dürfen keine Nutzereinstellungen ändern';
 $string['includeblockedusers'] = 'Gesperrte Nutzer/innen einschließen';
 $string['incomingcontacts'] = 'Eingehende Kontakte ($a)';
 $string['keywords'] = 'Schlüsselbegriffe';
 $string['keywordssearchresults'] = 'Suchergebnis: $a Mitteilungen gefunden';
+$string['loggedin'] = 'Angemeldet:';
+$string['loggedoff'] = 'Abgemeldet:';
 $string['mailsent'] = 'Ihre Nachricht wurde als E-Mail versandt.';
 $string['maxmessages'] = 'Höchstzahl der Mitteilungen, die im Rückblick angezeigt werden';
 $string['message'] = 'Mitteilung';
@@ -50,6 +57,10 @@ $string['onlyfromme'] = 'Nur Mitteilungen von mir';
 $string['onlymycourses'] = 'Nur in meinen Kursen';
 $string['onlytome'] = 'Nur Mitteilungen an mich';
 $string['pagerefreshes'] = 'Diese Seite wird automatisch nach $a Sekunden aktualisiert';
+$string['processor_config'] = 'Zieleinstellung';
+$string['processortag'] = 'Ziel:';
+$string['providers_config'] = 'Mitteilungseinstellung';
+$string['providerstag'] = 'Ursprung:';
 $string['readmessages'] = '$a gelesene Mitteilungen';
 $string['removecontact'] = 'Kontakt entfernen';
 $string['savemysettings'] = 'Meine Einstellungen speichern';

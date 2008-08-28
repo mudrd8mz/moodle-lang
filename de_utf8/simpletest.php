@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.9 Beta + (2007082400)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
 
 
 $string['all'] = 'Alle';
@@ -16,6 +16,7 @@ $string['retest'] = 'Tests wiederholen';
 $string['retestonlythisfile'] = 'Nur diese Testdatei wiederholen';
 $string['runall'] = 'Tests aus allen Testdateien wiederholen';
 $string['runat'] = 'Durchlauf $a';
+$string['rundbtests'] = 'Auch die Datenbanktests ausführen';
 $string['runonlyfile'] = 'Nur Tests aus dieser Datei durchführen';
 $string['runonlyfolder'] = 'Nur Tests aus diesem Ordner durchführen';
 $string['runtests'] = 'Tests durchführen';
