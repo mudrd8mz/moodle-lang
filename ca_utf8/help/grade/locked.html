@@ -1,24 +1,23 @@
 <h1>Blocatge</h1>
-
-<p>Aquesta opció determina si les qualificacions accepten o no actualitzacions automàtiques des de l'activitat a la qual estan vinculades. Generalment aquesta opció -blocatge- està activada a partir del moment en què l'activitat finalitza i ja no s'accepten més trameses. Una seqüència típica podria ser aquesta:</p>
-
-<table class="generaltable boxaligncenter" cellpadding="4" cellspacing="1" summary="Fases principals del procés de qualificació i estats d'ocultació i blocatge corresponents">
+<p>Les qualificacions poden actualitzar-se o no de manera automàtica des de l'activitat a la qual estan vinculades. Generalment, el blocatge s'activa quan s'acaba l'activitat i ja no s'accepten més trameses. Una seqüència normal seria aquesta:
+</p>
+<table class="generaltable boxaligncenter" cellpadding="4" cellspacing="1" summary="Fases principals del procés de qualificació, amb definició del blocatge i la visibilitat">
     <tr>
-        <th class="header">Fase</th><th class="header">Blocatge</th><th class="header">Ocultació</th>
+        <th class="header">Fase</th><th class="header">Blocatge</th><th class="header">Visibilitat</th>
     </tr>
     <tr>
-        <td class="cell">Començament de l'activitat i trameses dels participants</td>
-        <td class="cell">Desblocada</td>
+        <td class="cell">Inici de l'activitat i trameses dels participants</td>
+        <td class="cell">Sí</td>
         <td class="cell">Oculta</td>
     </tr>
     <tr>
-        <td class="cell">Fi de l'activitat i començament de la qualificació/retroacció</td>
-        <td class="cell">Blocada</td>
+        <td class="cell">Fi de l'activitat i inici de qualificacions/retroacció</td>
+        <td class="cell">Sí</td>
         <td class="cell">Oculta</td>
     </tr>
     <tr>
-        <td class="cell">Fi de la qualificació/retroacció i publicació de qualificacions</td>
-        <td class="cell">Blocada</td>
-        <td class="cell">Visible</td>
+        <td class="cell">Fi de qualificacions/retroacció i publicació de qualificacions</td>
+        <td class="cell">Sí</td>
+        <td class="cell">Mostra</td>
     </tr>
 </table>
