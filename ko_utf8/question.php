@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
+      // question.php - created with Moodle 2.0 dev (Build: 20080829) (2008082702)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -44,6 +44,8 @@ $string['categorycurrentuse'] = '이 범주를 사용';
 $string['categorydoesnotexist'] = '존재하지 않는 범주';
 $string['categorymoveto'] = '범주에 저장';
 $string['changepublishstatuscat'] = '\"$a->coursename\" 강좌의 <a href=\"$a->caturl\">범주 \"$a->name\"</a>는 <strong>$a->changefrom 에서 $a->changeto</strong>로 공유상태가 변경될 것입니다.';
+$string['clicktoflag'] = '본 문항을 표시하려면 클릭';
+$string['clicktounflag'] = '본 문항 표지를 해제하려면 클릭';
 $string['contexterror'] = '어떤 범주를 다른 영역으로 옮기지 않는 한, 여기에 들어올 수 없습니다.';
 $string['copy'] = '$a 에서 복사후 연결';
 $string['created'] = '생성됨';
@@ -78,6 +80,8 @@ $string['exporterror'] = '내보내는 중 오류 발생!';
 $string['filesareacourse'] = '강좌 파일 구역';
 $string['filesareasite'] = '사이트 파일 구역';
 $string['filestomove'] = '$a 로 이동/복사할까요?';
+$string['flagged'] = '기표됨';
+$string['flagthisquestion'] = '문항 기표';
 $string['formquestionnotinids'] = '문항에 포함된 서식이 questionid에 없음';
 $string['fractionsnomax'] = '이 질문 채점을 제대로 하려면 답안 중 하나는 100%%를 주어야 합니다.';
 $string['getcategoryfromfile'] = '파일로부터 범주 추출';
@@ -115,6 +119,7 @@ $string['nopermissionadd'] = '여기에 문제를 추가시킬 자격이 없습�
 $string['noprobs'] = '문제은행 데이터베이스에는 아무런 문제점도 없습니다.';
 $string['notenoughdatatoeditaquestion'] = '문항 아이디, 범주 아이디 및 문제 유형 등이 지정되지 않았습니다.';
 $string['notenoughdatatomovequestions'] = '문항을 이동시키기 위해서 문제의 id를 넣어야 합니다.';
+$string['notflagged'] = '기표되지 않음';
 $string['novirtualquestiontype'] = '$a 유형의 문항이 없음';
 $string['parenthesisinproperclose'] = '$a**의 ** 앞에 있는 괄호는 제대로 닫히지 않았음';
 $string['parenthesisinproperstart'] = '$a**의 ** 앞에 있는 괄호가 없음';
@@ -140,6 +145,9 @@ $string['unknown'] = '알수없음';
 $string['unknownquestiontype'] = '$a 문항 유형은 없습니다.';
 $string['unknowntolerance'] = '알 수 없는 오차 유형 $a';
 $string['unpublished'] = '비공개됨';
+$string['upgradeproblemcategoryloop'] = '문항 범주를 갱신하려는데 문제 발견. 범주가 꼬였음. 범주 ID는 $a';
+$string['upgradeproblemcouldnotupdatecategory'] = '문항 범주 $a->name ($a->id) 를 갱신할 수 없음';
+$string['upgradeproblemunknowncategory'] = '문항 범주를 갱신하려는데 문제 발견. 범주  $a->id 가 $a->parent 에 속해있다고 하는데, 존재하지 않는 범주임. 해결하기 위해 상위 범주가 변경됐음';
 $string['wrongprefix'] = '접두사 $a 의 형식 오류';
 $string['yourfileshoulddownload'] = '내보낸 파일은 즉시 내려받기가 됩니다. 만일 자동으로 내려받기가 되지 않으면 <a href=\"$a\">여기</a>를 클릭하세요.';
 $string['novirtualquestion'] = '$a 문형과 유사 문형은 없음'; // ORPHANED

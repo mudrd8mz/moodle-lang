@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // error.php - created with Moodle 2.0 dev (Build: 20080829) (2008082702)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -159,11 +159,9 @@ $string['cannotviewprofile'] = '이 사용자의 개인정보를 볼 수 없음'
 $string['cannotwritefile'] = '($a) 파일에 쓸 수 없음';
 $string['cantunenrollfrommetacourse'] = '이 메타 강좌의 등록을 취소 할 수 없음';
 $string['cantunenrollinthisrole'] = '현재 역할로는 이 강좌의 등록을 취소를 할 수 없음';
-$string['cmunknown'] = '이 강좌의 모듈을 찾을 수 없음';
 $string['commentmisconf'] = '촌평의 ID가 잘못 설정됨';
 $string['componentisuptodate'] = '구성 요소가 갱신됨';
 $string['confirmsesskeybad'] = '죄송합니다. 세션키가 확실치 않아 이 작업을 수행할 수 없습니다. 이 보안 기능은 당신 명의의 예기치 않은 사고나 매우 중요한 기능의 악의적인 실행을 방지합니다. 이 기능을 꼭 실행하여야 하는지 확인해 주길 바랍니다.';
-$string['copiedcmnotexist'] = '복제된 강좌의 모듈이 서버에 존재하지 않음!';
 $string['couldnotassignrole'] = '역할 부여 중에 알 수 없는 심각한 오류 발생';
 $string['coursegroupunknown'] = '모둠에 상응하는 강좌 $a 가 지정되어 있지 않음';
 $string['coursemisconf'] = '강좌가 잘못 설정됨';
@@ -200,6 +198,7 @@ $string['errorcreatingdirectory'] = '\"$a\" 디렉토리 생성 오류';
 $string['errorcreatingfile'] = '\"$a\" 파일 생성 오류';
 $string['erroronline'] = '\"$a\" 번째 줄 오류';
 $string['errorreadingfile'] = '\"$a\" 파일 읽기 오류';
+$string['errortoomanylogins'] = '오류-로그인 과다';
 $string['errorunzippingfiles'] = '파일 압축풀기 오류';
 $string['expiredkey'] = '폐기된 키';
 $string['failtoloadblocks'] = '데이터베이스에 하나 이상의 블록이 등록되어 있지만 모두 탑재에 실패함!';
@@ -440,6 +439,8 @@ $string['wrongsourcebase'] = '잘못된 소스 URL  베이스';
 $string['wrongzipfilename'] = '잘못된 ZIP 파일명';
 $string['xmldberror'] = 'XMLDB 오류!';
 $string['younotteacher'] = '교수자가 아닙니다!';
+$string['cmunknown'] = '이 강좌의 모듈을 찾을 수 없음'; // ORPHANED
+$string['copiedcmnotexist'] = '복제된 강좌의 모듈이 서버에 존재하지 않음!'; // ORPHANED
 $string['localfilecannotcreatefiledirs'] = '파일 저장 폴더를 생성할 수 없음. 저장 공간의 사용자 권한을 확인하기 바랍니다.'; // ORPHANED
 $string['localfilecannotread'] = '파일을 읽어낼 수 없음. 파일이 없거나 읽기 권한의 문제임'; // ORPHANED
 $string['localfilenotcreated'] = '파일을 \"$a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename\" 에 생성할 수 없음'; // ORPHANED

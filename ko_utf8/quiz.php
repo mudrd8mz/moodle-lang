@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080823) (2008081900)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
 
 
 $string['1day'] = '하루';
@@ -126,6 +126,7 @@ $string['comment'] = '덧글';
 $string['commentorgrade'] = '덧글 혹은 점수 덮어쓰기';
 $string['comments'] = '덧글';
 $string['completedon'] = '완료됨';
+$string['configadaptive'] = '예를 선택하게 되면 학생들은 시도 중 한 문항에 대해 여러번 응답을 할 수 있게 된다.';
 $string['confirmclose'] = '당신은 이 시도를 끝내려고 합니다. 일단 시도를 종료하면 더 이상 답을 고칠 수 없습니다.';
 $string['confirmserverdelete'] = '당신은 정말 서버 <b>$a</b>를 목록에서 삭제하겠습니까?';
 $string['confirmstartattemptlimit'] = '이 퀴즈는 $a 회의 시도만 허용됩니다. 퀴즈에 들어가면 1회의 기회를 쓰게 됩니다. 계속 하시겠습니까?';

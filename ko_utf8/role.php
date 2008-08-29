@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080813) (2008081200)
+      // role.php - created with Moodle 2.0 dev (Build: 20080829) (2008082702)
 
 
 $string['addrole'] = '역할 추가';
@@ -116,6 +116,7 @@ $string['question:add'] = '새 문항 추가';
 $string['question:config'] = '질문 유형 설정';
 $string['question:editall'] = '모든 질문 편집';
 $string['question:editmine'] = '자신의 질문 편집';
+$string['question:flag'] = '풀려는 문항 기표';
 $string['question:managecategory'] = '문항 범주 관리';
 $string['question:moveall'] = '모든 문항 이동';
 $string['question:movemine'] = '자신의 문항 이동';
