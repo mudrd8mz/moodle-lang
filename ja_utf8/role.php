@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080812) (2008081200)
+      // role.php - created with Moodle 2.0 dev (Build: 20080830) (2008082900)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -116,6 +116,7 @@ $string['question:add'] = '新しい問題を追加する';
 $string['question:config'] = '問題タイプを設定する';
 $string['question:editall'] = 'すべての問題を編集する';
 $string['question:editmine'] = '自分の問題を編集する';
+$string['question:flag'] = '受験中、問題にフラグ付けする';
 $string['question:managecategory'] = '問題カテゴリを管理する';
 $string['question:moveall'] = 'すべての問題を移動する';
 $string['question:movemine'] = '自分の問題を移動する';
@@ -185,12 +186,12 @@ $string['userhashiddenassignments'] = 'このユーザには、このコース�
 $string['userswithrole'] = 'ロールのすべてのユーザ';
 $string['viewrole'] = 'ロール詳細の表示';
 $string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ';
-$string['question:export'] = '問題をエクスポートする'; // TBD
-$string['question:import'] = '問題をインポートする'; // TBD
-$string['question:manage'] = '問題を管理する'; // TBD
-$string['course:downloadallgrades'] = 'すべての評定をダウンロードする'; // TBD
-$string['course:viewallgrades'] = 'すべての評定を表示する'; // TBD
-$string['course:viewowngrades'] = '自分の評定を表示する'; // TBD
-$string['grade:editlocked'] = 'ロックされた評定を編集する'; // TBD
+$string['question:export'] = '問題をエクスポートする'; //TBD
+$string['question:import'] = '問題をインポートする'; //TBD
+$string['question:manage'] = '問題を管理する'; //TBD
+$string['course:downloadallgrades'] = 'すべての評定をダウンロードする'; //TBD
+$string['course:viewallgrades'] = 'すべての評定を表示する'; //TBD
+$string['course:viewowngrades'] = '自分の評定を表示する'; //TBD
+$string['grade:editlocked'] = 'ロックされた評定を編集する'; //TBD
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080829) (2008082702)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -33,6 +33,7 @@ $string['noenter'] = '何も入力されていません。';
 $string['openpicker'] = 'ファイルピッカーを開く';
 $string['operation'] = '操作';
 $string['plugin'] = 'リポジトリプラグイン';
+$string['preview'] = 'プレビュー';
 $string['repositories'] = 'リポジトリ';
 $string['repository'] = 'リポジトリ';
 $string['save'] = '保存';

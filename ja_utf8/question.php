@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
+      // question.php - created with Moodle 2.0 dev (Build: 20080830) (2008082900)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -44,6 +44,8 @@ $string['categorycurrentuse'] = 'このカテゴリを使用する';
 $string['categorydoesnotexist'] = 'このカテゴリは存在しません。';
 $string['categorymoveto'] = 'カテゴリに保存する';
 $string['changepublishstatuscat'] = 'コース内の <a href=\"$a->caturl\">カテゴリ「 $a->name 」</a> の共有ステータスが <strong>$a->changefrom から $a->changeto</strong> に変更されます。';
+$string['clicktoflag'] = 'この問題にフラグ付けするには、ここをクリックしてください。';
+$string['clicktounflag'] = 'この問題のフラグを解除するには、ここをクリックしてください。';
 $string['contexterror'] = 'あなたがカテゴリを他のコンテクストに移動する場合、ここには移動できません。';
 $string['copy'] = '$a からコピーおよびリンクを変更する。';
 $string['created'] = '作成日時';
@@ -79,6 +81,8 @@ $string['exporterror'] = 'エクスポート中にエラーが発生しました
 $string['filesareacourse'] = 'コースファイルエリア';
 $string['filesareasite'] = 'サイトファイルエリア';
 $string['filestomove'] = '$a にファイルを移動/コピーしますか?';
+$string['flagged'] = 'フラグ済み';
+$string['flagthisquestion'] = 'この問題にフラグ付けする';
 $string['formquestionnotinids'] = '問題IDがない問題がフォームに含まれています。';
 $string['fractionsnomax'] = 'この問題で満点を取ることができるよう、答えの1つに評点100%%を指定してください。';
 $string['getcategoryfromfile'] = 'ファイルからカテゴリを取得する';
@@ -116,6 +120,7 @@ $string['nopermissionadd'] = 'あなたには問題をここに追加するパ�
 $string['noprobs'] = 'あなたの問題データベースに問題は見つかりませんでした。';
 $string['notenoughdatatoeditaquestion'] = '問題ID、カテゴリIDおよび問題タイプが指定されていません。';
 $string['notenoughdatatomovequestions'] = 'あなたが移動したい問題の問題IDを提供してください。';
+$string['notflagged'] = 'フラグなし';
 $string['novirtualquestiontype'] = '問題タイプ $a には、バーチャル問題タイプがありません。';
 $string['parenthesisinproperclose'] = '$a** 内の ** の前で丸括弧が適切に閉じていません。';
 $string['parenthesisinproperstart'] = '$a** 内の ** の前で丸括弧が適切に始まっていません。';
