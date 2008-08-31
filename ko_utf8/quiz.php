@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080831) (2008082900)
 
 
 $string['1day'] = '하루';
@@ -8,7 +8,7 @@ $string['2hours'] = '2시간';
 $string['30minutes'] = '30분';
 $string['6hours'] = '6시간';
 $string['acceptederror'] = '허용 오차';
-$string['accessnoticesheader'] = '이 문제를 미리 볼 수는 있지만, 이게 실제 시험이라면 다음과 같은 이유 때문에 제한을 받게 됩니다:';
+$string['accessnoticesheader'] = '이 문제를 미리 볼 수는 있지만, 이게 실제 시험이라면 다음과 같은 이유 때문에 볼 수 없게 됩니다:';
 $string['action'] = '활동';
 $string['adaptive'] = '적응 모드';
 $string['addcategory'] = '범주 추가';
@@ -16,7 +16,7 @@ $string['addingcalculated'] = '계산형 문항 추가';
 $string['addingdescription'] = '설명 추가';
 $string['addingessay'] = '논술형 문항 추가';
 $string['addingmatch'] = '일치형 문항 추가';
-$string['addingmultianswer'] = '채우기 문항(Cloze) 추가';
+$string['addingmultianswer'] = '내장형 문항(Cloze) 추가';
 $string['addingmultichoice'] = '선다형 문항 추가';
 $string['addingnumerical'] = '수치형 문항 추가';
 $string['addingquestion'] = '질문 추가';
@@ -127,6 +127,23 @@ $string['commentorgrade'] = '덧글 혹은 점수 덮어쓰기';
 $string['comments'] = '덧글';
 $string['completedon'] = '완료됨';
 $string['configadaptive'] = '예를 선택하게 되면 학생들은 시도 중 한 문항에 대해 여러번 응답을 할 수 있게 된다.';
+$string['configattemptsallowed'] = '퀴즈를 볼 수 있는 최대 시도 수';
+$string['configdecimaldigits'] = '성적 표시할 때 보여줄 소숫점 자릿 수';
+$string['configdelay1'] = '첫번째 시도 후 다음 시도까지의 대기 시간을 설정';
+$string['configdelay2'] = '세번째 혹은 그 이후 시도까지 대기할 시간 설정';
+$string['configeachattemptbuildsonthelast'] = '여러번 시도를 허용할 때 이전 시도 결과를 포함시킬지의 여부';
+$string['configgrademethod'] = '여러번 시도를 허용할 때 최종 퀴즈 결과를 어떤 방법으로 산출할 것인지를 선택';
+$string['configintro'] = '새 퀴즈를 만들 때 사용할 기본 양식 설정. 어떤 퀴즈 양식을 고급형으로 지정할 지를 설정할 수 있음';
+$string['configmaximumgrade'] = '퀴즈 성적 산출을 위한 기본 등급 형태';
+$string['confignewpageevery'] = '문항을 추가할 때 자동적으로 페이지 분할이 삽입될 수 있도록 설정 방법 선택';
+$string['configpenaltyscheme'] = '적응 모드에서 오답에 대한 감점 설정';
+$string['configpopup'] = '시험 중, 자바스크림트를 이용한 복사 및 붙이기를 제한';
+$string['configrequirepassword'] = '시험을 보기위해 반드시 암호를 입력해야 함';
+$string['configrequiresubnet'] = '학생들이 특정 컴퓨터로만 응시할 수 있게 함';
+$string['configreviewoptions'] = '시험을 검토할 때 혹은 시험 보고서를 살펴볼 때 사용자들이 볼 수 있는 정보를 조정';
+$string['configshufflequestions'] = '이 기능을 켜면, 시험지의 문항 순서가 학생들이 시도할 때마다 매번 임의로 바뀌게 될 것임';
+$string['configshufflewithin'] = '이 기능을 켜면, 개개 문항을 구성하는 부분들이 매번 무작위로 섞이게 되며, 문항 설정을 다시 할 수 있도록 제공된다.';
+$string['configtimelimit'] = '기본 응시 시간. 0은 무제한';
 $string['confirmclose'] = '당신은 이 시도를 끝내려고 합니다. 일단 시도를 종료하면 더 이상 답을 고칠 수 없습니다.';
 $string['confirmserverdelete'] = '당신은 정말 서버 <b>$a</b>를 목록에서 삭제하겠습니까?';
 $string['confirmstartattemptlimit'] = '이 퀴즈는 $a 회의 시도만 허용됩니다. 퀴즈에 들어가면 1회의 기회를 쓰게 됩니다. 계속 하시겠습니까?';
@@ -230,6 +247,7 @@ $string['event6'] = '종료/성적';
 $string['event7'] = '제출';
 $string['event8'] = '닫기';
 $string['event9'] = '수동 채점';
+$string['everythingon'] = '모두 켬';
 $string['examview'] = 'Examview4 형식';
 $string['export'] = '내보내기';
 $string['exportcategory'] = '범주 내보내기';

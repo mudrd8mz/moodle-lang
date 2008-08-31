@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080831) (2008082900)
 
 
 $string['activation'] = '활성화';
@@ -83,8 +83,8 @@ $string['missing_attribute'] = '$a->tag 의 빠진 속성 $a->attr';
 $string['missing_tag'] = '빠진 태그 $a->tag';
 $string['missingparam'] = '필요항목이 없거나 잘못 됨';
 $string['mode'] = '모드';
-$string['modulename'] = 'Scorm/AICC';
-$string['modulenameplural'] = 'Scorm/AICC';
+$string['modulename'] = '스콤/AICC';
+$string['modulenameplural'] = '스콤/AICC';
 $string['newattempt'] = '새로운 시도 시작하기';
 $string['next'] = '계속하기';
 $string['no_attributes'] = '$a->tag 태그는 속성을 가져야 함';
