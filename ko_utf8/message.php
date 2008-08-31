@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080804) (2008080400)
+      // message.php - created with Moodle 2.0 dev (Build: 20080830) (2008082900)
 
 
 $string['addcontact'] = '연락 추가';
@@ -26,7 +26,6 @@ $string['emailmessages'] = '오프라인 상태에 온 이메일';
 $string['emailtagline'] = '이 이메일은 \"$a\"에서 당신에게 보내진 메세지의 복사본입니다.';
 $string['emptysearchstring'] = '당신은 무언가를 찾아야만 합니다';
 $string['formorethan'] = '더 많이 보기';
-$string['general_config'] = '일반 설정';
 $string['guestnoeditmessage'] = '손님은 메세지 설정을 할 수 없음';
 $string['guestnoeditmessageother'] = '손님은 다른 사용자의 메시지 설정을 할 수 없음';
 $string['includeblockedusers'] = '차단 사용자 포함';
@@ -57,6 +56,7 @@ $string['onlyfromme'] = '내가 보낸 메세지만';
 $string['onlymycourses'] = '내 강좌 메세지만';
 $string['onlytome'] = '내게 온 메세지만';
 $string['pagerefreshes'] = '이 화면은 $a 초마다 자동 갱신됩니다';
+$string['private_config'] = '개별 메시지 설정';
 $string['processor_config'] = '수신처 설정';
 $string['processortag'] = '수신:';
 $string['providers_config'] = '발신처';
@@ -82,6 +82,7 @@ $string['unreadmessages'] = '$a 읽지않은 메세지';
 $string['userisblockingyou'] = '이 사용자는 당신의 메세지 수령을 거부했습니다';
 $string['userisblockingyounoncontact'] = '이 사용자는 자신의 연락처에 있는 사람들의 메세지만 받습니다, 당신은 현재 그 목록에 들어 있지 않습니다.';
 $string['userssearchresults'] = '검색 결과: $a 사용자 발견';
+$string['general_config'] = '일반 설정'; // ORPHANED
 $string['refresh'] = '갱신'; // ORPHANED
 
 ?>
