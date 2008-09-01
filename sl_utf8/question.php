@@ -1,13 +1,13 @@
 <?php // $Id:
       // question.php
 $string['adminreport'] = 'Poročajte o morebitnih problemih v vaši vprašalni datoteki.';
-$string['broken'] = 'To je "broken link", kaže neobstoječ dokument';
+$string['broken'] = 'To je \"broken link\", kaže neobstoječ dokument';
 $string['byandon'] = 'Od <em>$a->user</em> na <em>$a->time</em>';
 $string['categorycurrent'] = 'Trenutna kategorija.';
 $string['categorycurrentuse'] = 'Uporabite to kategorijo.';
 $string['categorydoesnotexist'] = 'Ta kategorija ne obstaja.';
 $string['categorymoveto'] = 'Shranite kategorijo.';
-$string['changepublishstatuscat'] = '<a href="$a->caturl">Category "$a->name"</a> in course "$a->coursename" 
+$string['changepublishstatuscat'] = '<a href=\"$a->caturl\">Category \"$a->name\"</a> in course \"$a->coursename\" 
 bo imela svoj delitveni status spremenjen 
 iz <strong>$a->changefrom na $a->changeto</strong>.';
 $string['copy'] = 'Kopirajte iz $a in spremenite v povezavo.';
@@ -42,7 +42,7 @@ $string['getcontextfromfile'] = 'Dobi kontekst iz dokumenta.';
 $string['ignorebroken'] = 'Ignoriraj napačne povezave.';
 $string['invalidcontextinhasanyquestions'] = 'Neveljaven kontekst posredovan za question_context_has_any_questions';
 $string['linkedfiledoesntexist'] = 'Povezan dokument $a ne obstaja.';
-$string['makechildof'] = 'Ustvari "otroka" od $a.';
+$string['makechildof'] = 'Ustvari \"otroka\" od $a.';
 $string['maketoplevelitem'] = 'Premakni na najvišjo raven.';
 $string['missingimportantcode'] = 'Temu tipu vprašanja manjka pomembna koda: $a.';
 $string['modified'] = 'Zadnji shranjen.';
@@ -53,12 +53,12 @@ $string['movelinksonly'] = 'Spremeni samo, kjer linki kažejo na ne premakni in 
 $string['moveq'] = 'Premakni vprašanja/-e.';
 $string['moveqtoanothercontext'] = 'Premakni vprašanje v drug kontekst.';
 $string['movingcategory'] = 'Premikanje kategorije.';
-$string['movingcategoryandfiles'] = 'Ste prpričani da želite premakniti kategorijo {$a->name} in vse "otroške" kategorije v kontekst za "{$a->contextto}"?<br/> Smo odkrili {$a->urlcount} dokumente povezane iz vprašanj {$a->fromareaname}, ali želite te povezave premakniti ači kopirati v  {$a->toareaname}?';
-$string['movingcategorynofiles'] = 'Ali ste prepričani da želite premakniti "{$a->name}" in vse "otroške" kategorije v kontekst za  "{$a->contextto}"?';
+$string['movingcategoryandfiles'] = 'Ste prpričani da želite premakniti kategorijo {$a->name} in vse \"otroške\" kategorije v kontekst za \"{$a->contextto}\"?<br/> Smo odkrili {$a->urlcount} dokumente povezane iz vprašanj {$a->fromareaname}, ali želite te povezave premakniti ači kopirati v  {$a->toareaname}?';
+$string['movingcategorynofiles'] = 'Ali ste prepričani da želite premakniti \"{$a->name}\" in vse \"otroške\" kategorije v kontekst za  \"{$a->contextto}\"?';
 $string['movingquestions'] = 'Premikanje vprašanj in vse dokumente.';
-$string['movingquestionsandfiles'] = 'Ali ste prepričani da želite premakniti vprašanja {$a->questions} <strong>"{$a->tocontext}"</strong>?<br /> Odkrili smo <strong>{$a->urlcount} files</strong> povezave iz teh vprašanj v {$a->fromareaname}, ali želite kopirati ali pa premakniti te v {$a->toareaname}?';
-$string['movingquestionsnofiles'] = 'Ali ste prepričani da želite premakniti vprašanja {$a->questions} v kontekst za <strong>"{$a->tocontext}"</strong>?<br /> Tu so <strong>no dokumenti </strong> povezani iz teh vprašanj v{$a->fromareaname}.';
-$string['needtochoosecat'] = 'Izbrati morate kategorijo, če želite premakniti ta vprašanja v ali pa pritisniti "prekliči".';
+$string['movingquestionsandfiles'] = 'Ali ste prepričani da želite premakniti vprašanja {$a->questions} <strong>\"{$a->tocontext}\"</strong>?<br /> Odkrili smo <strong>{$a->urlcount} files</strong> povezave iz teh vprašanj v {$a->fromareaname}, ali želite kopirati ali pa premakniti te v {$a->toareaname}?';
+$string['movingquestionsnofiles'] = 'Ali ste prepričani da želite premakniti vprašanja {$a->questions} v kontekst za <strong>\"{$a->tocontext}\"</strong>?<br /> Tu so <strong>no dokumenti </strong> povezani iz teh vprašanj v{$a->fromareaname}.';
+$string['needtochoosecat'] = 'Izbrati morate kategorijo, če želite premakniti ta vprašanja v ali pa pritisniti \"prekliči\".';
 $string['nopermissionadd'] = 'Tukaj imate dovoljenja za dodajanje vprašanj.';
 $string['noprobs'] = 'Ni najdenih problemov v vaši bazi vprašanj.';
 $string['notenoughdatatoeditaquestion'] = 'Ne id vprašanja, ne id kategorije  in tip vprašanj niso določene.';
@@ -68,7 +68,7 @@ $string['permissionmove'] = 'Premakni to vprašanje.';
 $string['permissionsaveasnew'] = 'Shrani to kot novo vprašanje.';
 $string['permissionto'] = 'Imate dovoljenje za:';
 $string['published'] = 'Deljeno';
-$string['questionaffected'] = '<a href="$a->qurl">Question "$a->name" ($a->qtype)</a> je v tej kategoriji vprašanj ampak je uporabljeno tudi v <a href="$a->qurl">quiz "$a->quizname"</a> v drugem tečaju "$a->coursename".';
+$string['questionaffected'] = '<a href=\"$a->qurl\">Question \"$a->name\" ($a->qtype)</a> je v tej kategoriji vprašanj ampak je uporabljeno tudi v <a href=\"$a->qurl\">quiz \"$a->quizname\"</a> v drugem tečaju \"$a->coursename\".';
 $string['questionbank'] = 'Banka vprašanj.';
 $string['questioncategory'] = 'Kategorija vprašanj';
 $string['questioncatsfor'] = 'Kategorije vprašanj za &#039;$a&#039;.';
@@ -84,5 +84,5 @@ $string['tofilecontext'] = 'Zapiši kontekst v dokument.';
 $string['unknown'] = 'Neznan';
 $string['unknownquestiontype'] = 'Nepoznan tip vprašanja: $a.';
 $string['unpublished'] = 'Nedeljen.';
-$string['yourfileshoulddownload'] = 'Nalaganje datoteke izvoza bi se moralo začeti v kratkem. Če ne, prosim <a href="$a">kliknite tukaj</a>.';
+$string['yourfileshoulddownload'] = 'Nalaganje datoteke izvoza bi se moralo začeti v kratkem. Če ne, prosim <a href=\"$a\">kliknite tukaj</a>.';
 ?>

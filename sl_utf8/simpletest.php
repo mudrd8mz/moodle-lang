@@ -25,5 +25,5 @@ $string['summary'] = '{$a->run}/{$a->total} testiranje zaključeno: <strong>{$a-
 $string['thorough'] = 'Zaženi testiranje (lahko traja nekaj časa).';
 $string['uncaughtexception'] = 'Nezabeležena izjema [{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}] TESTIRANJE JE PREKINJENO.';
 $string['unittests'] = 'Testne enote';
-$string['version'] = 'Uporablja <a href="http://sourceforge.net/projects/simpletest/">SimpleTest</a> različica $a.';
+$string['version'] = 'Uporablja <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> različica $a.';
 ?>

@@ -8,8 +8,8 @@ $string['adminauthorizeemail'] = 'Nastavitve pošiljanja elektronske pošte';
 $string['adminauthorizesettings'] = 'Nastavitve Authorize.net';
 $string['adminauthorizewide'] = 'Nastavitve za celo spletno mesto';
 $string['adminavs'] = 'Označite to, če ste vključili sistem preverjanja naslova (AVS - Address Verification Sistem) v vašem računu authorize.net. To zahteva polja naslova kot so ulica, država, poštna številka, ko uporabnik izpolnjuje obrazec plačila.';
-$string['adminconfighttps'] = 'Prosim priskrbite si, da imate "<a href="$a->url">vklopljen loginhttps ON</a>" za uporabo plugin<br />in Admin >> Variables >> Security >> HTTP varnost.';
-$string['adminconfighttpsgo'] = 'Pojdi na <a href="$a->url">secure page</a> za oblikovanje vtičnikov.';
+$string['adminconfighttps'] = 'Prosim priskrbite si, da imate \"<a href=\"$a->url\">vklopljen loginhttps ON</a>\" za uporabo plugin<br />in Admin >> Variables >> Security >> HTTP varnost.';
+$string['adminconfighttpsgo'] = 'Pojdi na <a href=\"$a->url\">secure page</a> za oblikovanje vtičnikov.';
 $string['admincronsetup'] = 'Vzdrževalna skripta cron.php ni bila zagnana vsaj 24 ur. <br />Cron mora biti omogočen, če želite uporabljati možnost razporejenega zajemanja.<br /><b>Omogočite</b> &#039;Vtičnik Authorize.net&#039; in pravilno <b>nastavite cron</b>; ali znova <b>odznačite an_review</b>.<br /> Če onemogočite razporejen zajem, bodo transakcije preklicane, če jih ne boste pregledali v 30-ih dneh. <br />Označite <b>an_review</b> in vnesite <b>&#039;0&#039; v polje an_capture_day</b>, če želite <b>ročno</b> sprejeti ali zavrniti plačila v 30-ih dneh.';
 $string['adminemailexpired'] = 'To je uporabno za &#039;Ročno zajemanje&#039;. Skrbniki so obveščeni <b>$a</b> dni preden čakajoča naročila potečejo.';
 $string['adminemailexpiredsort'] = 'Ko se vrsta čakajočih naročil, ki bodo potekla, pošlje izvajalcu prek elektronske pošte, kaj je pomembno?';
@@ -43,7 +43,7 @@ $string['allpendingorders'] = 'Vsa nerešena naročila';
 $string['amount'] = 'Znesek';
 $string['anlogin'] = 'Authorize.net: Uporabniško ime';
 $string['anpassword'] = 'Authorize.net: Geslo';
-$string['anreferer'] = 'Določi URL klicatelja, če ste to nastavili v vašem authorize.net računu. To bo poslalo vrstico "Referer: URL" umeščeno v spletno zahtevo.';
+$string['anreferer'] = 'Določi URL klicatelja, če ste to nastavili v vašem authorize.net računu. To bo poslalo vrstico \"Referer: URL\" umeščeno v spletno zahtevo.';
 $string['antestmode'] = 'Zaženi transakcije samo v testnem načinu (denar ne bo obračunan)';
 $string['antrankey'] = 'Authorize.net: Ključ transakcije';
 $string['approvedreview'] = 'Dovoljen ponoven pregled';
@@ -96,7 +96,7 @@ $string['httpsrequired'] = 'Žal vas moramo obvestiti, da vaše zahteve zdaj ni 
 $string['invalidaba'] = 'Napačna ABA številka';
 $string['invalidaccnum'] = 'Napačna številka bančnega računa';
 $string['invalidacctype'] = 'Napačna vrsta bančnega računa';
-$string['logindesc'] = 'Ta možnost mora biti vključena. <br /><br />Zagotovite, da ste vključili <a href="$a->url">loginhttps ON</a> v Skrbništvo >> Spremenljivke >> Varnost.<br /><br />Z vključitvijo bo Moodle uporabljal varno https povezavo samo za prijavo in strani plačevanja.';
+$string['logindesc'] = 'Ta možnost mora biti vključena. <br /><br />Zagotovite, da ste vključili <a href=\"$a->url\">loginhttps ON</a> v Skrbništvo >> Spremenljivke >> Varnost.<br /><br />Z vključitvijo bo Moodle uporabljal varno https povezavo samo za prijavo in strani plačevanja.';
 $string['logininfo'] = 'Uporabniško ime, geslo in transakcijska koda niso prikazane med varnostnimi ukrepi. Ni potrebe za ponovni vnos v polja, če ste jih že izpolnili. Če so bila ta polja že vnešena, vidite na levi strani zeleno besedilo.Če ta polja vnašate prvič, morate vpisati uporabniško ime (*) in <strong>either</strong> the transaction key (#1) <strong>or</strong> geslo (#2) v  namenjeno polje. Priporočamo da vnesete transakcijsko kodo med varnostnimi ukrepi. Če želite izbrisati trenutno geslo, označi checkbox.';
 $string['methodcc'] = 'Kreditna kartica';
 $string['methodecheck'] = 'eCheck (ACH)';
@@ -125,7 +125,7 @@ $a->url';
 $string['pendingechecksubject'] = '$a->course: Nerešena eChecks($a->count)';
 $string['pendingordersemail'] = 'Spoštovani skrbnik,
 
-$a->pending transakcij za predmet "$a->course" bo poteklo, če ne sprejmete plačila v $a->days dneh.
+$a->pending transakcij za predmet \"$a->course\" bo poteklo, če ne sprejmete plačila v $a->days dneh.
 
 To je opozorilno sporočilo, ker niste omogočili razporejenega zajemanja.
 To pomeni, da morate sprejeti ali zavrniti plačila ročno.
@@ -138,7 +138,7 @@ Za omogočanje razporejenega zajemanja, kar pomeni, da opozorilnih sporočil ne 
 $a->enrolurl';
 $string['pendingordersemailteacher'] = 'Spoštovani izvajalec,
 
-$a->pending transakcij vrednih $a->sumcost $a->currency za predmet "$a->course"
+$a->pending transakcij vrednih $a->sumcost $a->currency za predmet \"$a->course\"
 bo poteklo, če ne sprejmete plačila v $a->days dneh.
 
 Plačila morate sprejeti ali zavrniti ročno, ker skrbnik ni omogočil razporejenega zajemanja.
@@ -181,8 +181,8 @@ $string['transid'] = 'ID transakcije';
 $string['underreview'] = 'Pod pregledom';
 $string['unenrolstudent'] = 'Izpiši udeleženca?';
 $string['uploadcsv'] = 'Naloži CSV datoteko';
-$string['usingccmethod'] = 'Vpis uporablja <a href="$a->url"><strong>Credit Card</strong></a>';
-$string['usingecheckmethod'] = 'Vpis uporablja <a href="$a->url"><strong>eCheck</strong></a>';
+$string['usingccmethod'] = 'Vpis uporablja <a href=\"$a->url\"><strong>Credit Card</strong></a>';
+$string['usingecheckmethod'] = 'Vpis uporablja <a href=\"$a->url\"><strong>eCheck</strong></a>';
 $string['void'] = 'Neveljavno';
 $string['voidyes'] = 'Transakcija bo preklicana. Ste prepričani?';
 $string['welcometocoursesemail'] = 'Spoštovani udeleženec,

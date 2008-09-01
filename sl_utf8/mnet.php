@@ -27,8 +27,8 @@ $string['deleteuserrecord'] = 'SSO ACL: izbriši podatke o uporabniku &#039;$a[0
 $string['deletewrongkeyvalue'] = 'Prišlo je do napake. Če niste želeli izbrisati SSL ključa na strežniku, je mogoče, da ste bili žrtev napada.';
 $string['deny'] = 'Zavrni';
 $string['description'] = 'Opis';
-$string['duplicate_usernames'] = 'Indeksov za stolpce "mnethostid" ter "username" v tabeli z uporabniki ni bilo mogoče ustvariti.<br />
-Do tega pride, če imate <a href="$a" target="_blank">v tabeli uporabnikov podvojena uporabniška imena</a>.<br />Nadgradnja bi se kljub temu morala uspešno zaključiti. S klikom na zgornjo povezavo se bodo v novem oknu odprla navodila za rešitev te težave, ki jo lahko odpravite po koncu nadgradnje.<br />';
+$string['duplicate_usernames'] = 'Indeksov za stolpce \"mnethostid\" ter \"username\" v tabeli z uporabniki ni bilo mogoče ustvariti.<br />
+Do tega pride, če imate <a href=\"$a\" target=\"_blank\">v tabeli uporabnikov podvojena uporabniška imena</a>.<br />Nadgradnja bi se kljub temu morala uspešno zaključiti. S klikom na zgornjo povezavo se bodo v novem oknu odprla navodila za rešitev te težave, ki jo lahko odpravite po koncu nadgradnje.<br />';
 $string['editenrolments'] = 'vpis';
 $string['enabled_for_all'] = '(Ta storitev je omogočena za vse strežnike).';
 $string['enrolcourseenrol_desc'] = 'Vpiši/izpiši uporabnike z Moodlovim omrežnim vpisom..
@@ -85,7 +85,7 @@ $string['keymismatch'] = 'Javni ključ, ki ga posedujete o tem gostitelju se raz
 $string['last_connect_time'] = 'Čas zadnje povezave';
 $string['last_connect_time_help'] = 'Čas, ko ste se nazadnje povezali na gostitelja.';
 $string['last_transport_help'] = 'Način prenosa, ki ste ga uporabili za zadnjo povezavo na gostitelja.';
-$string['loginlinkmnetuser'] = '<br/>Če ste oddaljeni uporabnik Moogle omrežja in lahko <a href="$a">tukaj potrdite vaš e-poštni naslov</a>, boste preusmerjeni na stran za prijavo.<br />';
+$string['loginlinkmnetuser'] = '<br/>Če ste oddaljeni uporabnik Moogle omrežja in lahko <a href=\"$a\">tukaj potrdite vaš e-poštni naslov</a>, boste preusmerjeni na stran za prijavo.<br />';
 $string['logs'] = 'dnevniki';
 $string['mnet'] = 'Moodle omrežje';
 $string['mnetdisabled'] = 'Moodle omrežje je <strong>onemogočeno</strong>.';
@@ -164,7 +164,7 @@ $string['ssl_acl_allow'] = 'SSO ACL: Dovoli uporabniku $a[0] z $a[1]';
 $string['ssl_acl_deny'] = 'SSO ACL: Prepreči uporabniku $a[0] z $a[1]';
 $string['ssoaccesscontrol'] = 'Nadzor dostopa SSO';
 $string['ssoacldescr'] = 'Na tej strani omogočate/preprečujete določenim uporabnikom dostop preko oddaljenega strežnika. Omogočiti morate storitve SSO. Gostovanje <em>lokalnih</em> uporabnikov omogočite tako, da jim dodelite <em>mnetlogintoremote</em>.';
-$string['ssoaclneeds'] = 'Za te funkcije morate vključiti Moodlovo omrežje in uporabiti vtičnik "Moodle Network autentication" z omogočeno opcijo "auto-add users".';
+$string['ssoaclneeds'] = 'Za te funkcije morate vključiti Moodlovo omrežje in uporabiti vtičnik \"Moodle Network autentication\" z omogočeno opcijo \"auto-add users\".';
 $string['strict'] = 'Natančno';
 $string['subscribe'] = 'Naroči';
 $string['system'] = 'Sistem';
@@ -179,7 +179,7 @@ $string['trustedhostsexplain'] = '<p>Mehanizem zaupanja vrednih strežnikov (tru
 Primeri:</p>Lokalni strežnik:<br />127.0.0.1<br />Lokalni strežnik z blokiranim omrežjem:<br />127.0.0.1/32<br />Samo strežnik z IP naslovom 192.168.0.7:<br />192.168.0.7/32<br />Katerikoli strežnik z IP naslovom med 192.168.0.1 in 192.168.0.255:<br />192.168.0.0/24<br />Katerikoli strežnik:<br />192.168.0.0/0<br />Zadnji primer <strong>ni priporočljiva</strong> konfiguracija.';
 $string['unknownerror'] = 'Neznana napaka med pogajanjem.';
 $string['usercannotchangepassword'] = 'Gesla ne morete spremeniti, ker niste oddaljeni uporabnik.';
-$string['userchangepasswordlink'] = '<br /> Morda geslo lahko spremenite na  <a href="$a->wwwroot/login/change_password.php">$a->description</a>.';
+$string['userchangepasswordlink'] = '<br /> Morda geslo lahko spremenite na  <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>.';
 $string['usersareonline'] = 'Opozorilo: število prijavljenih uporabnikov je $a';
 $string['validated_by'] = 'Validirano z omrežja: &nbsp;<code>$a</code>';
 $string['verifysignature-error'] = 'Verifikacija podpisa ni uspela. Zgodila se je napaka.';

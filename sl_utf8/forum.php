@@ -31,7 +31,7 @@ $string['cannotviewpostyet'] = 'Ne morete brati vprašanj drugih udeležencev v 
 $string['cleanreadtime'] = 'Označi stare objave kot bralne ure';
 $string['configcleanreadtime'] = 'Ura dneva za čiščenje starih objav iz tabele &#039;prebranih&#039;.';
 $string['configdisplaymode'] = 'Privzet način prikaza za razprave, če ta ni nastavljen.';
-$string['configenabletimedposts'] = 'Izberi "DA", če želiš dovoliti nastavitev period prikaza pri objavljanju nove diskusije v forumu (Eksperimentalno, ker ni še popolnoma testirano)';
+$string['configenabletimedposts'] = 'Izberi \"DA\", če želiš dovoliti nastavitev period prikaza pri objavljanju nove diskusije v forumu (Eksperimentalno, ker ni še popolnoma testirano)';
 $string['configlogblocked'] = 'Forumov cron lahko beleži blokirane poskuse pošilja e-pošte uporabnikom z onemogočenim naslovom.';
 $string['configlongpost'] = 'Vsaka objava daljša od te dolžine (v znakih brez HTML) bo obravnavana kot predolga. Objave prikazane na naslovnici strani, straneh družbene oblike predmetov ali uporabniških profilih so okrajšane na naravno prekinitev nekje med vrednostma forum_shortpost in forum_longpost.';
 $string['configmanydiscussions'] = 'Največje število razprav prikazanih na strani foruma';
@@ -58,7 +58,7 @@ $string['disallowsubscribe'] = 'Naročnine niso dovoljene';
 $string['disallowsubscribeteacher'] = 'Naročnine niso dovoljene (razen za izvajalce)';
 $string['discussion'] = 'Razprava';
 $string['discussionmoved'] = 'Ta razprava je bila premaknjena v &#039;$a&#039;.';
-$string['discussionmovedpost'] = 'Ta diskusija je bila premaknjena <a href="$a->discusshref">semkaj</a> v forumu <a href="$a->forumhref">$a->forumname</a>';
+$string['discussionmovedpost'] = 'Ta diskusija je bila premaknjena <a href=\"$a->discusshref\">semkaj</a> v forumu <a href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'Ime razprave';
 $string['discussions'] = 'Razprave';
 $string['discussionsstartedby'] = 'Razprave, ki jih je začel(a) $a';

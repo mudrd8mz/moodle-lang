@@ -15,7 +15,7 @@ Vidite ga lahko pripetega k vašemu dnevniškem vnosu:
     $a->url';
 $string['journalmailhtml'] = '$a->teacher je objavil odziv na vašo
 dnevniški vnos za &#039;<i>$a->journal</i>&#039;<br /><br />
-Vidite ga lahko pripetega k vašemu <a href="$a->url">dnevniškemu vnosu</a>.';
+Vidite ga lahko pripetega k vašemu <a href=\"$a->url\">dnevniškemu vnosu</a>.';
 $string['journalname'] = 'Ime dnevnika';
 $string['journalquestion'] = 'Vprašanje dnevnika';
 $string['journalrating1'] = 'Nezadostno';

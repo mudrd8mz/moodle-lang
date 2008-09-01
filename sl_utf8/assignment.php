@@ -17,7 +17,7 @@ Odziv je bil pripet vaši oddaji naloge:
     $a->url';
 $string['assignmentmailhtml'] = '$a->teacher je objavil odziv na vašo
 oddajo naloge za &#039;<i>$a->assignment</i>&#039;<br /><br />
-Odziv je bil pripet <a href="$a->url">vaši oddaji nalogi</a>.';
+Odziv je bil pripet <a href=\"$a->url\">vaši oddaji nalogi</a>.';
 $string['assignmentname'] = 'Ime naloge';
 $string['assignmenttype'] = 'Vrsta naloge';
 $string['availabledate'] = 'Na voljo od';
@@ -45,7 +45,7 @@ Na voljo je tu:
     $a->url';
 $string['emailteachermailhtml'] = '$a->username je posodobil svojo oddajo naloge
 za <i>&#039;$a->assignment&#039;</i><br /><br />
-Oddaja <a href="$a->url">je na vojo na spletni strani</a>.';
+Oddaja <a href=\"$a->url\">je na vojo na spletni strani</a>.';
 $string['emailteachers'] = 'Obvesti izvajalce prek e-pošte';
 $string['emptysubmission'] = 'Ničesar še niste oddali';
 $string['enableemailnotification'] = 'Pošlji oznanitveno e-pošto';

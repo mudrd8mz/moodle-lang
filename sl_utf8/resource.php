@@ -56,7 +56,7 @@ $string['keepnavigationvisible'] = 'Pusti navigacijo na strani vidno na tej stra
 $string['localfile'] = 'Lokalna datoteka';
 $string['localfilechoose'] = 'Izberite lokalno datoteko (CD-ROM)';
 $string['localfilehelp'] = 'Pomoč pri prikazovanju lokalnih datotek';
-$string['localfileinfo'] = '<p>Izberite lokalno datoteko iz vašega računalnika. Datoteka ne bo naložena na spletno stran, vendar bo Moodle poiskal isto datoteko na računalniku tistega, ki bo gledal ta vir.</p><p>To je večinoma koristno, če imate velike medijske datoteke shranjene na standardnem CD-ROM-u, ki ga razdelite vsem udeležencem. Vsak udeleženec lahko izbere lastno lokalno pot za takšne datoteke, z <a href="$a" target="_blank">urejanjem svojega uporabniškega profila</a>.</p>';
+$string['localfileinfo'] = '<p>Izberite lokalno datoteko iz vašega računalnika. Datoteka ne bo naložena na spletno stran, vendar bo Moodle poiskal isto datoteko na računalniku tistega, ki bo gledal ta vir.</p><p>To je večinoma koristno, če imate velike medijske datoteke shranjene na standardnem CD-ROM-u, ki ga razdelite vsem udeležencem. Vsak udeleženec lahko izbere lastno lokalno pot za takšne datoteke, z <a href=\"$a\" target=\"_blank\">urejanjem svojega uporabniškega profila</a>.</p>';
 $string['localfilepath'] = 'Za nastavitev lastne lokalne poti za ta vir, izberite poljubno datoteko iz pogona (običajno CD_ROM) na vašem računalniku kjer je ta vir. Datoteka ne bo naložena, vendar bo informacija o pogonu shranjena in uporabljena za poljubne lokalne datotečne vire';
 $string['localfileselect'] = 'Izberi pot te datoteke.';
 $string['maindirectory'] = 'Glavni datotečni imenik';
@@ -82,7 +82,7 @@ $string['next'] = 'Naslednji';
 $string['notallowedlocalfileaccess'] = 'Dostop do lokalnih datotek je trenutno onemogočen, zato ta vir ni na voljo.';
 $string['notdeployed'] = 'Ni nameščeno';
 $string['note'] = 'Opomba';
-$string['notefile'] = 'Za nalaganje večih datotek v predmet (da se pojavijo na tem seznamu) uporabite <a href="$a">Upravnik datotek</a>.';
+$string['notefile'] = 'Za nalaganje večih datotek v predmet (da se pojavijo na tem seznamu) uporabite <a href=\"$a\">Upravnik datotek</a>.';
 $string['notypechosen'] = 'Izbrati morate tip. Uporabite gumb nazaj, da se vrnete in poskusite znova.';
 $string['packagechanged'] = 'Ta paket vsebine IMS je spremenjen.';
 $string['packagenotdeplyed'] = 'Ta paket vsebine IMS ni nameščen.';

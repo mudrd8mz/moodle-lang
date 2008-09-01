@@ -90,7 +90,7 @@ $string['noteonassessmentelements'] = 'Vedite, da je ocenjevanje razdeljeno v ve
 	elemente, preden omogočite dostop udeležencem. To naredite s<br />
 	klikom na nalogo v predmetu. Če ni trenutnih elementov boste pozvani,<br />
 	da jih dodate. Število elementov lahko spremenite na zaslonu Uredi nalogo,<br />
-	same elemente lahko spremenite iz zaslona "Upravljanje naloge".';
+	same elemente lahko spremenite iz zaslona \"Upravljanje naloge\".';
 $string['noteongradinggrade'] = 'Ta ocena je merilo o tem, kako se vaše vrednotenje ujema z vrednotenjem<br />
     vašega dela  s strani $a. Višja, ko je ocena, večje je ujemanje.';
 $string['noteonstudentassessments'] = '{Ocena udeleženca / Ocena ocenjevanja za vrednotenje}';

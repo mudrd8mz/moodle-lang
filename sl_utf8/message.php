@@ -1,8 +1,8 @@
 <?php // $Id:
       // message.php
 $string['addcontact'] = 'Dodaj stik';
-$string['addsomecontacts'] = 'Za pošiljanje sporočila nekomu ali dodajanje bližnjice zanj, na tej strani uporabite <a href="$a">zavihek Iskanje</a> zgoraj.';
-$string['addsomecontactsincoming'] = 'Ta sporočila so od oseb, ki niso na vašem seznamu stikov. Za njihovo dodajanje med vaše stike, kliknite ikono poleg njihovega imena "Dodaj stik".';
+$string['addsomecontacts'] = 'Za pošiljanje sporočila nekomu ali dodajanje bližnjice zanj, na tej strani uporabite <a href=\"$a\">zavihek Iskanje</a> zgoraj.';
+$string['addsomecontactsincoming'] = 'Ta sporočila so od oseb, ki niso na vašem seznamu stikov. Za njihovo dodajanje med vaše stike, kliknite ikono poleg njihovega imena \"Dodaj stik\".';
 $string['ago'] = 'pred $a';
 $string['allmine'] = 'Vsa sporočila zame ali od mene';
 $string['allstudents'] = 'Vsa sporočila med študenti v predmetu';
@@ -18,7 +18,7 @@ $string['context'] = 'kontekst';
 $string['deletemessagesdays'] = 'Število dni preden se stara sporočila samodejno izbrišejo';
 $string['discussion'] = 'Diskusija';
 $string['emailmessages'] = 'Pošlji sporočila na e-pošto, ko nisem prijavljen(a)';
-$string['emailtagline'] = 'To e-poštno sporočilo je kopija sporočila, ki vam je bilo poslano na "$a"';
+$string['emailtagline'] = 'To e-poštno sporočilo je kopija sporočila, ki vam je bilo poslano na \"$a\"';
 $string['emptysearchstring'] = 'Nekaj morate iskati';
 $string['formorethan'] = 'Za več kot';
 $string['includeblockedusers'] = 'Vključi blokirane uporabnike';

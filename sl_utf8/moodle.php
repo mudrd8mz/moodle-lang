@@ -155,8 +155,8 @@ $string['backuploglaststatus'] = 'Dnevnik zadnjega izvajanja';
 $string['backuplogshelp'] = 'Če je omogočeno, bodo dnevniki predmeta vključeni v samodejne varnostne kopije';
 $string['backupmetacoursehelp'] = 'Če je omogočeno, bodo metapodatki predmeta (podedovani vpisi) vključeni v samodejne varnostne kopije';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['backupnoneusersinfo'] = 'Obvestilo: Izbrali ste varnostno kopiranje brez ("brez") uporabnikov, zato so vse varnostne kopije modulov preklopljene na način "brez uporabniških podatkov". Vedite, da modula "vaja" in "delavnica" nista združljiva s to vrsto varnostnega kopiranja in sta bila zato popolnoma izključena.';
-$string['backupnonisowarning'] = 'Opozorilo: ta varnostna kopija izvira iz različice Moodla brez podpore Unicode (pred 1.6). Če ta varnostna kopija vsebuje besedilo, ki ni v kodni tabeli ISO-8850-1, se besedilo lahko POŠKODUJE, če ga boste poskušali obnoviti v to različico Moodla s podporo Unicode. Oglejte si <a href="http://docs.moodle.org/sl/Backup_FAQ">Pogosta vprašanja o varnostnem kopiranju</a> za več informacij o tem kako pravilno obnoviti to varnostno kopijo.';
+$string['backupnoneusersinfo'] = 'Obvestilo: Izbrali ste varnostno kopiranje brez (\"brez\") uporabnikov, zato so vse varnostne kopije modulov preklopljene na način \"brez uporabniških podatkov\". Vedite, da modula \"vaja\" in \"delavnica\" nista združljiva s to vrsto varnostnega kopiranja in sta bila zato popolnoma izključena.';
+$string['backupnonisowarning'] = 'Opozorilo: ta varnostna kopija izvira iz različice Moodla brez podpore Unicode (pred 1.6). Če ta varnostna kopija vsebuje besedilo, ki ni v kodni tabeli ISO-8850-1, se besedilo lahko POŠKODUJE, če ga boste poskušali obnoviti v to različico Moodla s podporo Unicode. Oglejte si <a href=\"http://docs.moodle.org/sl/Backup_FAQ\">Pogosta vprašanja o varnostnem kopiranju</a> za več informacij o tem kako pravilno obnoviti to varnostno kopijo.';
 $string['backuporiginalname'] = 'Ime varnostne kopije';
 $string['backuproleassignments'] = 'Varnostna kopija naloge za te vloge';
 $string['backupsavetohelp'] = 'Celotna pot do imenika, kamor želite shraniti datoteke varnostne kopije<br />(pustite prazno za shranjevanje v privzet imenik predmeta)';
@@ -528,17 +528,17 @@ $string['emailpasswordconfirmsent'] = 'Na vaš naslov <b>$a</b> je bilo poslano 
 $string['emailpasswordsent'] = 'Hvala za potrditev spremembe gesla.
 Elektronska pošta z vašim novim geslom je bila poslana na vaš naslov <br /><b>$a->email</b>.<br />
 Novo geslo je bilo samodejno generirano - morda boste želeli
-<a href="$a->link">spremeniti vaše geslo</a> v nekaj, kar si boste lažje zapomnili.';
+<a href=\"$a->link\">spremeniti vaše geslo</a> v nekaj, kar si boste lažje zapomnili.';
 $string['enable'] = 'Omogoči';
 $string['encryptedcode'] = 'Šifrirana koda';
 $string['enroldate'] = 'Časovni obseg';
 $string['enrolenddate'] = 'Končni datum';
 $string['enrolenddaterror'] = 'Končni datum vpisa ne more biti pred začetnim datumom';
 $string['enrollable'] = 'Predmet odprt za vpis';
-$string['enrolledincourse'] = 'Vpisani v predmet "$a"';
-$string['enrolledincoursenot'] = 'Niste vpisani v predmet "$a"';
-$string['enrolledincoursenotrole'] = 'Napaka pri vpisovanju v "$a->course" kot "$a->role"';
-$string['enrolledincourserole'] = 'Vpisani v "$a->course" kot "$a->role"';
+$string['enrolledincourse'] = 'Vpisani v predmet \"$a\"';
+$string['enrolledincoursenot'] = 'Niste vpisani v predmet \"$a\"';
+$string['enrolledincoursenotrole'] = 'Napaka pri vpisovanju v \"$a->course\" kot \"$a->role\"';
+$string['enrolledincourserole'] = 'Vpisani v \"$a->course\" kot \"$a->role\"';
 $string['enrollfirst'] = 'Preden lahko uporabljate dejavnosti spletnega mesta, se morate vpisati v enega izmed predmetov';
 $string['enrolme'] = 'Vpiši me v ta predmet';
 $string['enrolmentconfirmation'] = 'Vpisali se boste kot udeleženec tega predmeta.<br />Ste prepričani, da to želite storiti?';
@@ -550,7 +550,7 @@ $string['enrolmentkeyfromguest'] = 'Ta predmet zahteva &#039;vpisni ključ&#039;
 $string['enrolmentkeyhint'] = 'Vneseni ključ za vpis je nepravilen, poskusite znova<br />
 (Namig - začne se na &#039;$a&#039;)';
 $string['enrolmentnew'] = 'Nov vpis v $a';
-$string['enrolmentnewuser'] = '$a->user se je vpisal(a) v predmet "$a->course"';
+$string['enrolmentnewuser'] = '$a->user se je vpisal(a) v predmet \"$a->course\"';
 $string['enrolmentnointernal'] = 'Ročni vpisi trenutno niso omogočeni.';
 $string['enrolmentnotyet'] = 'Žal do tega predmeta nimate dostopa dokler <br /> $a';
 $string['enrolmentplugins'] = 'Vtičniki za vpisovanje';
@@ -827,21 +827,21 @@ $string['loggedinnot'] = 'Niste prijavljeni.';
 $string['login'] = 'Prijava';
 $string['loginalready'] = 'Ste že prijavljeni';
 $string['loginas'] = 'Prijavite se kot';
-$string['loginaspasswordexplain'] = '<p>Vnesti morate posebno "geslo za prijavo kot" za uporabo te možnosti.<br />Če gesla ne poznate, vprašajte skrbnika strežnika.</p>';
+$string['loginaspasswordexplain'] = '<p>Vnesti morate posebno \"geslo za prijavo kot\" za uporabo te možnosti.<br />Če gesla ne poznate, vprašajte skrbnika strežnika.</p>';
 $string['loginguest'] = 'Prijavite se kot gost';
 $string['loginsite'] = 'Prijava v spletno mesto';
 $string['loginsteps'] = 'Za dostop do strani si morate ustvariti nov uporabniški račun.
    Vsak posamezni predmet ima lahko tudi enkratni
-   "ključ za vpis", ki ga boste potrebovali kasneje. Tu so
+   \"ključ za vpis\", ki ga boste potrebovali kasneje. Tu so
    koraki:
    <ol>
-   <li>Izpolnite obrazec <a href="$a">Nov račun</a> z vašimi podrobnostmi.</li>
+   <li>Izpolnite obrazec <a href=\"$a\">Nov račun</a> z vašimi podrobnostmi.</li>
    <li>Elektronsko sporočilo bo nemudoma poslano na vaš e-poštni naslov.</li>
    <li>Preberite e-poštno sporočilo in kliknite na spletno povezavo v sporočilu.</li>
    <li>Vaš račun bo potrjen in prijavljeni boste.</li>
    <li>Nato izberite predmet, v katerem želite sodelovati.</li>
-   <li>Če boste pozvani k vnosu "ključa za vpis" - uporabite tistega
-   , ki vam ga je dal vaš izvajalec. S tem boste "vpisani" v
+   <li>Če boste pozvani k vnosu \"ključa za vpis\" - uporabite tistega
+   , ki vam ga je dal vaš izvajalec. S tem boste \"vpisani\" v
    predmet.</li>
    <li>Sedaj lahko dostopate do celotnega predmeta samo z uporabniškim imenom in geslom.</li>
    </ol>';
@@ -854,8 +854,8 @@ $string['login_failure_logs'] = 'Dnevniki spodletelih prijav';
 $string['logout'] = 'Odjava';
 $string['logoutconfirm'] = 'Ali se res želite odjaviti?';
 $string['logs'] = 'Dnevniki';
-$string['logtoomanycourses'] = '[ <a href="$a->url">več</a> ]';
-$string['logtoomanyusers'] = '[ <a href="$a->url">več</a> ]';
+$string['logtoomanycourses'] = '[ <a href=\"$a->url\">več</a> ]';
+$string['logtoomanyusers'] = '[ <a href=\"$a->url\">več</a> ]';
 $string['log_excel_date_format'] = 'llll mmmm d u:mm';
 $string['lookback'] = 'Poglej nazaj';
 $string['mailadmins'] = 'Obvesti administratorja';
@@ -1129,15 +1129,15 @@ $string['passwordsent'] = 'Geslo je bilo poslano';
 $string['passwordsenttext'] = '<p>Elektronsko sporočilo je bilo poslano na vaš naslov: $a->email.</p>
    <p><b>Preverite vašo e-pošto za vaše novo geslo</b></p>
    <p>Novo geslo je bilo generirano samodejno, morda boste želeli
-   <a href="$a->link">spremeniti geslo v nekaj, kar si boste lažje zapomnili</a>.</p>';
+   <a href=\"$a->link\">spremeniti geslo v nekaj, kar si boste lažje zapomnili</a>.</p>';
 $string['pathnotexists'] = 'Pot ne obstaja na vašem strežniku!';
 $string['pathslasherror'] = 'Po se ne sme zaključiti s poševnico!';
 $string['paymentinstant'] = 'Uporabite spodnje gumbe za plačilo in vpis v nekaj minutah!';
 $string['paymentpending'] = '(<small><b><u>$a</u></b> čakajočih</small>)';
 $string['paymentrequired'] = 'Ta predmet zahteva plačilo za vstop.';
 $string['payments'] = 'Plačila';
-$string['paymentsorry'] = 'Hvala za vaše plačilo! Žal vaše plačilo še ni bilo v celoti obdelano in zato še niste registrirani za vstop v predmet "$a->fullname". Prosimo, poskusite nadaljevati v predmet čez nekaj sekund, če bi imeli še naprej težave, pa na to opozorite skrbnika strani, morda vam lahko pomaga tudi $a->teacher predmeta.';
-$string['paymentthanks'] = 'Hvala za vaše plačilo!  Zdaj ste vpisani v vaš predmet:<br />"$a"';
+$string['paymentsorry'] = 'Hvala za vaše plačilo! Žal vaše plačilo še ni bilo v celoti obdelano in zato še niste registrirani za vstop v predmet \"$a->fullname\". Prosimo, poskusite nadaljevati v predmet čez nekaj sekund, če bi imeli še naprej težave, pa na to opozorite skrbnika strani, morda vam lahko pomaga tudi $a->teacher predmeta.';
+$string['paymentthanks'] = 'Hvala za vaše plačilo!  Zdaj ste vpisani v vaš predmet:<br />\"$a\"';
 $string['people'] = 'Osebe';
 $string['periodending'] = 'Konec obdobja ($a)';
 $string['personal'] = 'Osebni';
