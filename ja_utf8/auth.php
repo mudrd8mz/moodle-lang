@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080807) (2008080701)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['CASform'] = '認証選択';
@@ -95,7 +95,7 @@ $string['auth_emaildescription'] = 'メールによるアカウント登録確�
 $string['auth_emailnoemail'] = 'あなたへのメール送信に失敗しました!';
 $string['auth_emailnoinsert'] = 'あなたのレコードをデータベースに追加できませんでした!';
 $string['auth_emailnowexists'] = 'あなたのプロファイルに割り当てようと試みたメールアドレスは、あなたがリクエストした後、他のユーザに割り当てられています。このため、あなたのメールアドレス変更はキャンセルされましたが、他のアドレスを割り当てることはできます。';
-$string['auth_emailrecaptcha'] = 'Eメールによる自己登録ユーザのため、サインアップページにビジュアル/オーディオ確認フォーム要素を追加します。これは、あなたのサイトをスパム発信者から守り、価値ある活動に貢献します。詳細は、http://recaptcha.net/learnmore.html をご覧ください。';
+$string['auth_emailrecaptcha'] = 'Eメールによる自己登録ユーザのため、サインアップページにビジュアル/オーディオ確認フォーム要素を追加します。これは、あなたのサイトをスパム発信者から守り、価値ある活動に貢献します。詳細は、http://recaptcha.net/learnmore.html をご覧ください。<br /><em>PHP cURL拡張モジュールが必須です。</em>';
 $string['auth_emailrecaptcha_key'] = 'reCAPTCHA要素を有効にする';
 $string['auth_emailsettings'] = '設定';
 $string['auth_emailtitle'] = 'Eメールによる自己登録';
@@ -348,6 +348,6 @@ $string['update_never'] = 'しない';
 $string['update_oncreate'] = '作成時';
 $string['update_onlogin'] = '毎回ログイン時';
 $string['update_onupdate'] = '更新時';
-$string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]'; // TBD
+$string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]'; //TBD
 
 ?>

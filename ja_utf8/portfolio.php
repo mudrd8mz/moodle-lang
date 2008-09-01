@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080819) (2008081900)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['addalltoportfolio'] = 'すべてをポートフォリオに追加する';
@@ -26,7 +26,8 @@ $string['exportedpreviously'] = '前のエクスポート';
 $string['exportexceptionnoexporter'] = '活動セッションでportfolio_export_exceptionがスローされましたが、エクスポーターオブジェクトがありません。';
 $string['exporting'] = 'ポートフォリオへのエクスポート';
 $string['exportingcontentfrom'] = '$a からコンテンツをエクスポートする';
-$string['exportqueued'] = '転送のため、ポートフォリオエクスポートは正常にキューに入れられました。';
+$string['exportqueued'] = '転送のため、ポートフォリオエクスポートが正常にキューに入れられました。';
+$string['exportqueuedforced'] = '転送のため、ポートフォリオエクスポートが正常にキューに入れられました (リモートシステムがキュー型の転送を強制しました)。';
 $string['failedtosendpackage'] = 'あなたのデータを選択されたポートフォリオシステムに送信できませんでした!';
 $string['filedenied'] = 'このファイルへのアクセスが拒否されました。';
 $string['filenotfound'] = 'ファイルが見つかりませんでした。';
