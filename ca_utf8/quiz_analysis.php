@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6.1+ (2006050511)
+      // quiz_analysis.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['analysis'] = 'Anàlisi d\'elements';
@@ -13,6 +13,7 @@ $string['attemptshighest'] = 'qualificació més alta';
 $string['attemptslast'] = 'darrer intent';
 $string['dicsindextitle'] = 'Índex<br />disc.';
 $string['disccoefftitle'] = 'Coef.<br />disc.';
+$string['downloadhtml'] = 'Baixa la taula completa en format HTML';
 $string['downloadooo'] = 'Baixa en format OpenOffice';
 $string['facilitytitle'] = '%%Correctes<br />Dificultat';
 $string['lowmarkslimit'] = 'No analitzis si la puntuació és menor que:';
