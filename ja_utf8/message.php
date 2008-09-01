@@ -38,6 +38,7 @@ $string['mailsent'] = 'あなたのメッセージがメール経由で送信さ
 $string['maxmessages'] = 'ディスカッション履歴に表示する最大メッセージ数';
 $string['message'] = 'メッセージ';
 $string['messagehistory'] = 'メッセージ履歴';
+$string['messageprovider:instantmessage'] = 'ユーザ相互のインスタントメッセージ';
 $string['messages'] = 'メッセージ';
 $string['messaging'] = 'メッセージング';
 $string['messagingdisabled'] = 'このサイトでは、メッセージングが無効にされています。代わりにメールが送信されます。';
