@@ -1,26 +1,34 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080830) (2008082900)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
 $string['add'] = '追加';
+$string['addplugin'] = 'リポジトリプラグインを追加する';
 $string['attachment'] = '添付';
 $string['back'] = '&lt; 戻る';
 $string['close'] = '閉じる';
 $string['configsaved'] = '設定が保存されました!';
 $string['confirmdelete'] = '本当にこのリポジトリ「 $a 」を削除してもよろしいですか?';
+$string['confirmremove'] = '本当にこのリポジトリプラグイン「 $a 」を削除してもよろしいですか?';
 $string['copying'] = 'コピー';
 $string['create'] = '作成';
-$string['createrepository'] = 'リポジトリを作成する';
+$string['createrepository'] = 'リポジトリインスタンスを作成する';
 $string['date'] = '日付';
+$string['deleted'] = 'リポジトリが削除されました。';
 $string['deleterepository'] = 'このリポジトリを削除する';
 $string['download'] = 'ダウンロード';
-$string['downloadsucc'] = 'ファイルが正常にダウンロードされました!';
+$string['downloadsucc'] = 'ファイルが正常にダウンロードされました。';
+$string['editrepositoryaccount'] = 'リポジトリアカウントを編集する';
+$string['emptytype'] = 'リポジトリタイプを作成できません: タイプ名が空白です。';
 $string['error'] = '不明なエラーが発生しました!';
+$string['existingrepository'] = 'このリポジトリは、すでに登録されています。';
 $string['filename'] = 'ファイル名';
 $string['filesaved'] = 'ファイルが保存されました!';
 $string['getfile'] = 'このファイルを選択する';
 $string['instance'] = 'インスタンス';
+$string['instancedeleted'] = 'インスタンスが削除されました。';
+$string['instances'] = 'リポジトリインスタンス';
 $string['invalidjson'] = '無効なJSONストリングです。';
 $string['invalidplugin'] = 'リポジトリプラグインが正しくありません。';
 $string['invalidrepositoryid'] = 'リポジトリIDが正しくありません。';
@@ -35,6 +43,7 @@ $string['openpicker'] = 'ファイルピッカーを開く';
 $string['operation'] = '操作';
 $string['plugin'] = 'リポジトリプラグイン';
 $string['preview'] = 'プレビュー';
+$string['removed'] = 'リポジトリが削除されました。';
 $string['repositories'] = 'リポジトリ';
 $string['repository'] = 'リポジトリ';
 $string['save'] = '保存';
@@ -49,6 +58,7 @@ $string['submit'] = '送信';
 $string['sync'] = '同期';
 $string['thumbview'] = 'アイコンとして表示する';
 $string['title'] = 'リポジトリファイルピッカー';
+$string['updown'] = '上/下';
 $string['upload'] = 'このファイルをアップロードする';
 $string['uploading'] = 'アップロード中 ...';
 
