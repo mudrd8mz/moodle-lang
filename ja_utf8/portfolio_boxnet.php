@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20080726) (2008072600)
+      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['apikey'] = 'APIキー (Box.netより取得してください)';
@@ -13,6 +13,7 @@ $string['noauthtoken'] = 'このセッションで使用する認証トークン
 $string['notarget'] = 'あなたは、ファイルをアップロードする既存のフォルダ、または新しいフォルダを選択する必要があります。';
 $string['noticket'] = '認証を開始するためのチケットをbox.netから取得できませんでした。';
 $string['password'] = 'あなたのbox.netパスワード (保存されません)';
+$string['pluginname'] = 'Box.netインターネットストレージ';
 $string['sharedfolder'] = 'Shared';
 $string['targetfolder'] = 'ターゲットフォルダ';
 $string['username'] = 'あなたのbox.netユーザ名 (保存されません)';

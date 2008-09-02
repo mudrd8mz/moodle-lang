@@ -11,6 +11,7 @@ $string['failedtoping'] = 'リモートサーバ「 $a 」との通信の開始�
 $string['mnethost'] = 'Moodleネットワーキングホスト';
 $string['pf_description'] = 'このホストに対して、ユーザによるMoodleコンテンツの送信を許可します。<br />このサービスに登録することで、あなたのサイトの認証ユーザが $a にコンテンツを送信することを許可します。<br /><ul><li><em>依存関係</em>: あなたはSSO (アイデンティティプロバイダ) サービスを $a に<strong>公開</strong>する必要があります。<li><em>依存関係</em>: あなたは $a のSSO (サービスプロバイダ) サービスに<strong>登録</strong>する必要があります。</li><li><em>依存関係</em>: あなたは、mnet認証プラグインも有効にする必要があります。</li></ul><br />';
 $string['pf_name'] = 'ポートフォリオサービス';
+$string['pluginname'] = 'Mahara eポートフォリオ';
 $string['senddisallowed'] = '現在、あなたはMaharaにファイルを転送できません。';
 $string['url'] = 'URI';
 
