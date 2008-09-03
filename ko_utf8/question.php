@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080829) (2008082702)
+      // question.php - created with Moodle 2.0 dev (Build: 20080903) (2008090108)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -138,6 +138,7 @@ $string['questionsmovedto'] = '사용중인 문항이 상위 강좌 범주의 \"
 $string['questionsrescuedfrom'] = '$a 영역에서 문항 저장됨';
 $string['questionsrescuedfrominfo'] = '이 문항들은 (어떤 것들은 감추어져 있을지 모르지만) 다른 활동 또는 퀴즈에서 여전히 쓰이고 있기 때문에 비록 영역 $a 가 삭제됐다 하더라도 여전히 남아 있습니다.';
 $string['questionuse'] = '이 활동에 질문 사용';
+$string['saveflags'] = '표식 상태 저장';
 $string['shareincontext'] = '하위 범주 $a 와 공유';
 $string['tofilecategory'] = '파일에 범주 기입';
 $string['tofilecontext'] = '파일에 영역 기입';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080903) (2008090108)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -370,6 +370,7 @@ $string['errors'] = '오류들';
 $string['errorsetting'] = '설정을 저장할 수 없음:';
 $string['errorwithsettings'] = '오류때문에 설정을 바꿀 수 없음.';
 $string['experimental'] = '시험적임';
+$string['experimentalsettings'] = '시험적 설정';
 $string['extendedusernamechars'] = '아이디에 확장 문자 허용';
 $string['filecreated'] = '새 파일 생성됨';
 $string['filestoredin'] = '다음 경로에 저장 :';

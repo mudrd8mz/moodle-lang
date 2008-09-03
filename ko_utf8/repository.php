@@ -1,25 +1,38 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080829) (2008082702)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080903) (2008090108)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
+$string['activerepository'] = '활성화된 저장 플러그인';
 $string['add'] = '추가';
+$string['addplugin'] = '저장 플러그인 추가';
 $string['attachment'] = '첨부';
 $string['back'] = '&lt; 뒤로';
+$string['cacheexpire'] = '캐쉬 기한만료';
 $string['close'] = '닫기';
+$string['configcacheexpire'] = '캐쉬 기한 설정';
 $string['configsaved'] = '설정 저장됨!';
 $string['confirmdelete'] = '정말 $a 저장소를 삭제하렵니까?';
+$string['confirmremove'] = '정말 $a 저장 플러그인을 삭제하렵니까?';
+$string['copying'] = '복사 중';
 $string['create'] = '생성';
 $string['createrepository'] = '저장소 만들기';
 $string['date'] = '날짜';
+$string['deleted'] = '저장소 삭제됨';
 $string['deleterepository'] = '저장소 삭제';
 $string['download'] = '내려받기';
 $string['downloadsucc'] = '내려받기 성공!';
+$string['editrepositoryaccount'] = '저장소 계정 수정';
+$string['emptytype'] = '저장소 유형 생성 실패: 형식명이 비었음';
 $string['error'] = '오류 발생!';
+$string['existingrepository'] = '이미 있는 저장소';
 $string['filename'] = '파일명';
+$string['filenotnull'] = '올릴 파일을 선택해야 함';
 $string['filesaved'] = '저장완료!';
 $string['getfile'] = '파일 선택';
 $string['instance'] = '인스턴스';
+$string['instancedeleted'] = '인스턴스 삭제됨';
+$string['instances'] = '저장소 인스턴스';
 $string['invalidjson'] = '잘못된 JSON 문자열';
 $string['invalidplugin'] = '잘못된 저장 플러그인';
 $string['invalidrepositoryid'] = '잘못된 저장소 ID';
@@ -34,6 +47,7 @@ $string['openpicker'] = '파일 열기 프로그램';
 $string['operation'] = '작동';
 $string['plugin'] = '저장 플러그인';
 $string['preview'] = '미리보기';
+$string['removed'] = '저장소 제거됨';
 $string['repositories'] = '저장소';
 $string['repository'] = '저장소';
 $string['save'] = '저장';
@@ -48,6 +62,7 @@ $string['submit'] = '제출';
 $string['sync'] = '동기화';
 $string['thumbview'] = '작은 그림 보기';
 $string['title'] = '파일 관리 프로그램';
+$string['updown'] = '올림/내림';
 $string['upload'] = '이 파일 올림';
 $string['uploading'] = '올리는 중...';
 

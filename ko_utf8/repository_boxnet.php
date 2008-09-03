@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_boxnet.php - created with Moodle 2.0 dev (Build: 20080824) (2008081900)
+      // repository_boxnet.php - created with Moodle 2.0 dev (Build: 20080903) (2008090108)
 
 
 $string['apikey'] = 'API 키';
@@ -10,6 +10,7 @@ $string['password'] = '비밀번호';
 $string['repositorydesc'] = 'Box.net 저장소';
 $string['repositoryname'] = 'Box.net';
 $string['saved'] = 'Box.net 자료 저장됨';
+$string['shareurl'] = '공유 URL';
 $string['username'] = 'Box.net 계정';
 
 ?>

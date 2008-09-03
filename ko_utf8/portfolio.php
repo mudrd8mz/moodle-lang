@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080903) (2008090108)
 
 
 $string['addalltoportfolio'] = '모두 포트폴리오에 추가';
@@ -27,6 +27,7 @@ $string['exportexceptionnoexporter'] = '현재 세션에 대한 portfolio_export
 $string['exporting'] = '포트폴리오 내보내기';
 $string['exportingcontentfrom'] = '$a 의 내용 내보내기';
 $string['exportqueued'] = '포트폴리오 내보내기 준비작업 성공';
+$string['exportqueuedforced'] = '포트폴리오 내보내기 준비작업 성공(원격시스템 대기 완료)';
 $string['failedtosendpackage'] = '지정된 포트폴리오 시스템에 자료 전송 실패!';
 $string['filedenied'] = '접속이 허용되지 않음';
 $string['filenotfound'] = '파일 없음';
