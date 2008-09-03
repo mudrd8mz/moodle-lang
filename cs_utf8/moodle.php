@@ -1057,7 +1057,7 @@ $string['noticenewerbackup'] = 'Tato záloha byla vytvořena v Moodlu $a->backup
 $string['notifications'] = 'Informace';
 $string['notify'] = 'Oznámit';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Uzivatel: $a->info';
-$string['notifyloginfailuresmessageend'] = 'Tyto protokoly si muzete prohlednout zde: $a/course/log.php?id=1&chooselog=1&modid=site_errors';
+$string['notifyloginfailuresmessageend'] = 'Tyto protokoly si můžete prohlédnout zde: $a/course/report/log/index.php?id=1&amp;chooselog=1&amp;modid=site_errors';
 $string['notifyloginfailuresmessagestart'] = 'Zde je seznam neuspesnych pokusu o prihlaseni na $a od doby posledniho zaslani takovehoto upozorneni';
 $string['notifyloginfailuressubject'] = '$a :: Upozorneni na neuspesna prihlaseni';
 $string['notincluded'] = 'Nezahrnuto';
