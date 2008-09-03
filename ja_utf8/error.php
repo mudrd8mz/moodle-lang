@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
+      // error.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -198,7 +198,6 @@ $string['errorcreatingdirectory'] = 'ディレクトリ「 $a 」の作成中に
 $string['errorcreatingfile'] = 'ファイル「 $a 」の作成中にエラーが発生しました。';
 $string['erroronline'] = '$a 行目にエラーがあります。';
 $string['errorreadingfile'] = 'ファイル「 $a 」の読み取り中にエラーが発生しました。';
-$string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。';
 $string['errorunzippingfiles'] = 'ファイルの解凍処理中にエラーが発生しました。';
 $string['expiredkey'] = 'キーの有効期限が切れています。';
 $string['failtoloadblocks'] = '1つまたはそれ以上のブロックがデータベースに登録されていますが、すべて読み込みに失敗しました!';
