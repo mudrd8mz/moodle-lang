@@ -3,11 +3,14 @@
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
+$string['activerepository'] = 'アクティブリポジトリ・プラグイン';
 $string['add'] = '追加';
 $string['addplugin'] = 'リポジトリプラグインを追加する';
 $string['attachment'] = '添付';
 $string['back'] = '&lt; 戻る';
+$string['cacheexpire'] = 'キャッシュ有効期限';
 $string['close'] = '閉じる';
+$string['configcacheexpire'] = 'キャッシュの有効期限 (分) を設定します。';
 $string['configsaved'] = '設定が保存されました!';
 $string['confirmdelete'] = '本当にこのリポジトリ「 $a 」を削除してもよろしいですか?';
 $string['confirmremove'] = '本当にこのリポジトリプラグイン「 $a 」を削除してもよろしいですか?';
@@ -24,6 +27,7 @@ $string['emptytype'] = 'リポジトリタイプを作成できません: タイ
 $string['error'] = '不明なエラーが発生しました!';
 $string['existingrepository'] = 'このリポジトリは、すでに登録されています。';
 $string['filename'] = 'ファイル名';
+$string['filenotnull'] = 'アップロードするファイルを選択してください。';
 $string['filesaved'] = 'ファイルが保存されました!';
 $string['getfile'] = 'このファイルを選択する';
 $string['instance'] = 'インスタンス';
