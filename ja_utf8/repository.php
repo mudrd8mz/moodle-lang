@@ -62,7 +62,7 @@ $string['submit'] = '送信';
 $string['sync'] = '同期';
 $string['thumbview'] = 'アイコンとして表示する';
 $string['title'] = 'リポジトリファイルピッカー';
-$string['updown'] = '上/下';
+$string['updown'] = '表示順';
 $string['upload'] = 'このファイルをアップロードする';
 $string['uploading'] = 'アップロード中 ...';
 
