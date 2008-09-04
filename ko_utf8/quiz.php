@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080831) (2008082900)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080904) (2008090108)
 
 
 $string['1day'] = '하루';
@@ -410,7 +410,9 @@ $string['noquestionsfound'] = '질문을 찾을 수 없음';
 $string['noquestionsinfile'] = '가져온 파일에 질문이 없음';
 $string['noresponse'] = '반응 없음';
 $string['noreview'] = '이 퀴즈를 볼 권한이 없음';
+$string['noreviewshort'] = '허가되지 않음';
 $string['noreviewuntil'] = '$a까지 이 퀴즈를 볼 권한이 없음';
+$string['noreviewuntilshort'] = '$a 사용가능';
 $string['noscript'] = '계속하려면 자바스크립트가 지원되야 합니다!';
 $string['notavailable'] = '죄송합니다, 이 퀴즈를 이용할 수 없음';
 $string['notavailabletostudents'] = '경고 : 이 퀴즈는 현재 학생들에게 적용할 수 없음';
@@ -555,6 +557,7 @@ $string['reviewopen'] = '나중에, 퀴즈 마감 이전';
 $string['reviewoptions'] = '재검토 허용여부';
 $string['reviewoptionsheading'] = '검토 옵션';
 $string['reviewresponse'] = '재검토 응답';
+$string['reviewthisattempt'] = '본 시도에 대한 응답 재검토';
 $string['rqp'] = '원격 질문';
 $string['rqps'] = '원격 질문들';
 $string['save'] = '저장';
