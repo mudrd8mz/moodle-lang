@@ -10,6 +10,7 @@ $string['back'] = '&lt; Retour';
 $string['close'] = 'Fermer';
 $string['configsaved'] = 'Configuration enregistrée&nbsp;!';
 $string['confirmdelete'] = 'Voulez-vous vraiment supprimer le dépôt $a&nbsp;?';
+$string['copying'] = 'Copie en cours';
 $string['create'] = 'Créer';
 $string['createrepository'] = 'Créer un dépôt';
 $string['date'] = 'Date';
