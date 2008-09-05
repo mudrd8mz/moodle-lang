@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080904) (2008090108)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080905) (2008090108)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -46,13 +46,16 @@ $string['manageurl'] = 'URL 관리';
 $string['manageuserrepository'] = '개별 저장소 관리';
 $string['noenter'] = '입력내용 없음';
 $string['nopermissiontoaccess'] = '저장소 접근 권한 없음';
+$string['notyourinstances'] = '다른 사람의 저장 인스턴스는 보거나 편집할 수 없음';
 $string['openpicker'] = '파일 열기 프로그램';
 $string['operation'] = '작동';
+$string['personalrepositories'] = '개인 저장소';
 $string['plugin'] = '저장 플러그인';
 $string['preview'] = '미리보기';
 $string['removed'] = '저장소 제거됨';
 $string['repositories'] = '저장소';
 $string['repository'] = '저장소';
+$string['repositorycourse'] = '배움터 저장소';
 $string['save'] = '저장';
 $string['saveas'] = '다음으로 저장';
 $string['saved'] = '저장됨';
@@ -66,6 +69,7 @@ $string['submit'] = '제출';
 $string['sync'] = '동기화';
 $string['thumbview'] = '작은 그림 보기';
 $string['title'] = '파일 관리 프로그램';
+$string['typenotvisible'] = '유형 비공개';
 $string['updown'] = '올림/내림';
 $string['upload'] = '이 파일 올림';
 $string['uploading'] = '올리는 중...';
