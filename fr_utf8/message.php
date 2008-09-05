@@ -39,6 +39,7 @@ $string['mailsent'] = 'Votre message a été envoyé par courriel.';
 $string['maxmessages'] = 'Nombre maximal de messages à afficher dans l\'historique des discussions';
 $string['message'] = 'Message';
 $string['messagehistory'] = 'Historique du message';
+$string['messageprovider:instantmessage'] = 'Messagerie instantanée entre utilisateurs';
 $string['messages'] = 'Messages';
 $string['messaging'] = 'Messagerie';
 $string['messagingdisabled'] = 'La messagerie est désactivée. Ce message sera envoyé par courriel à ses destinataires';
