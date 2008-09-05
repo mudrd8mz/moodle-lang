@@ -118,6 +118,7 @@ $string['question:add'] = 'Ajouter des questions';
 $string['question:config'] = 'Configurer les types de question';
 $string['question:editall'] = 'Modifier toutes les questions';
 $string['question:editmine'] = 'Modifier ses propres questions';
+$string['question:flag'] = 'Marquer les questions auxquelles on répond';
 $string['question:managecategory'] = 'Modifier les catégories de questions';
 $string['question:moveall'] = 'Déplacer toutes les questions';
 $string['question:movemine'] = 'Déplacer ses propres questions';
