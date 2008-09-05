@@ -195,6 +195,7 @@ $string['errorcreatingdirectory'] = 'Erreur lors de la création du dossier «&n
 $string['errorcreatingfile'] = 'Erreur lors de la création du fichier «&nbsp;$a&nbsp;»';
 $string['erroronline'] = 'Erreur à la ligne $a';
 $string['errorreadingfile'] = 'Erreur lors de la lecture du fichier «&nbsp;$a&nbsp;»';
+$string['errortoomanylogins'] = 'Erreur, trop de connexions';
 $string['errorunzippingfiles'] = 'Erreur lors de la décompression de fichiers';
 $string['expiredkey'] = 'clef échue';
 $string['failtoloadblocks'] = 'Un ou plusieurs blocs sont enregistrés dans la base de données, mais une erreur est survenue lors de leur chargement&nbsp;!';
