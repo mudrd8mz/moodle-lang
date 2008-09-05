@@ -1058,7 +1058,7 @@ $string['notifications'] = 'Informace';
 $string['notify'] = 'Oznámit';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Uzivatel: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Tyto protokoly si můžete prohlédnout zde: $a/course/report/log/index.php?id=1&amp;chooselog=1&amp;modid=site_errors';
-$string['notifyloginfailuresmessagestart'] = 'Zde je seznam neuspesnych pokusu o prihlaseni na $a od doby posledniho zaslani takovehoto upozorneni';
+$string['notifyloginfailuresmessagestart'] = 'Zde je seznam neuspesnych pokusu o prihlaseni na $a od doby zaslani predchoziho upozorneni ';
 $string['notifyloginfailuressubject'] = '$a :: Upozorneni na neuspesna prihlaseni';
 $string['notincluded'] = 'Nezahrnuto';
 $string['notingroup'] = 'Je mi líto, ale pro přístup k této činnosti musíte být členem skupiny.';
