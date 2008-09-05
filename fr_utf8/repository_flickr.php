@@ -2,11 +2,11 @@
 
 $string['configplugin'] = 'Configuration Flickr';
 $string['repositoryname'] = 'Flickr';
-$string['repositorydesc'] = 'Dépôt pour flickr.com';
+$string['repositorydesc'] = 'Dépôt sur flickr.com';
 $string['notitle'] = 'sans titre';
-$string['username'] = 'Compte Flickr&nbsp;:';
+$string['username'] = 'Courriel du compte Flickr&nbsp;:';
 $string['remember'] = 'Enregistrer';
-$string['nullphotolist'] = 'Aucune photo n\'appartient à ce compte.';
-$string['invalidemail'] = 'Adresse de courriel Flickr non valide.';
+$string['nullphotolist'] = 'Il n\'y a pas de photo dans ce compte.';
+$string['invalidemail'] = 'Adresse de courriel non valide pour Flickr.';
 
 ?>
