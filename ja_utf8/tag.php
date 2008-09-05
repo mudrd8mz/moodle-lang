@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20080630) (2008063002)
+      // tag.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['addedotag'] = '「 $a 」がオフィシャルタグとして追加されました。';
@@ -51,6 +51,8 @@ $string['tagsaredisabled'] = 'タグが無効にされています。';
 $string['tagtype'] = 'タグタイプ';
 $string['tagtype_default'] = 'デフォルト';
 $string['tagtype_official'] = 'オフィシャル';
+$string['thingstaggedwith'] = '「 $a->name 」は、$a->count 回使用されています。';
+$string['thingtaggedwith'] = '「 $a->name 」は、1 回使用されています。';
 $string['thistaghasnodesc'] = '現在、このタグには説明がありません。';
 $string['timemodified'] = '修正日時';
 $string['typechanged'] = 'タグタイプが変更されました。';
@@ -58,6 +60,5 @@ $string['updated'] = '更新されました。';
 $string['updatetag'] = '更新';
 $string['userstaggedwith'] = 'ユーザタグ「 $a 」';
 $string['withselectedtags'] = '選択したタグを ...';
-$string['thingstaggedwith'] = '$a->count 件の項目にタグ「 $a->name 」が付けられています。'; // TBD
 
 ?>
