@@ -34,6 +34,7 @@ $string['noenter'] = 'Pas de saisie';
 $string['openpicker'] = 'Ouvrir le sélecteur de fichiers';
 $string['operation'] = 'Opération';
 $string['plugin'] = 'Plugins de dépôt';
+$string['preview'] = 'Prévisualiser';
 $string['repositories'] = 'Dépôts';
 $string['repository'] = 'Dépôt';
 $string['save'] = 'Enregistrer';
