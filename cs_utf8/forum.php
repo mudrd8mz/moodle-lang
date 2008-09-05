@@ -187,7 +187,7 @@ $string['parent'] = 'Ukázat předchůdce';
 $string['parentofthispost'] = 'Předchůdce tohoto příspěvku';
 $string['postadded'] = '<p>Váš příspěvek byl úspěšně přidán.</p><p>Na případné úpravy máte $a</p>';
 $string['postaddedsuccess'] = 'Váš příspěvek byl úspěšně přidán.';
-$string['postaddedtimeleft'] = 'Na případné úpravy máte $a.';
+$string['postaddedtimeleft'] = 'Na případné úpravy máte $a';
 $string['postincontext'] = 'Ukázat příspěvek v kontextu';
 $string['postmailinfo'] = 'Toto je kopie nove zpravy ze stranek $a.
 Chcete-li na prispevek odpovedet, nasledujte tento odkaz:';
