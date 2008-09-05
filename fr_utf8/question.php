@@ -138,6 +138,9 @@ $string['unknown'] = 'Inconnu';
 $string['unknownquestiontype'] = 'Type de question inconnu $a';
 $string['unknowntolerance'] = 'Type de tolérance inconnu $a';
 $string['unpublished'] = 'non partagée';
+$string['upgradeproblemcategoryloop'] = 'Un problème a été détecté lors de la modification des catégories de question&nbsp;: il y a une boucle dans l\'arbre des catégories. Les identifiants des catégories touchés sont $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Impossible de modifier la catégorie de question $a->name ($a->id).';
+$string['upgradeproblemunknowncategory'] = 'Un problème a été détecté lors de la modification des catégories de question&nbsp;: la catégorie $a->id fait référence à la catégorie parente $a->parent, qui n\'existe pas. La catégorie parente a été changée pour corriger le problème.';
 $string['wrongprefix'] = 'Le préfixe est mal formatté $a';
 $string['yourfileshoulddownload'] = 'Le téléchargement de votre fichier d\'exportation va commencer. Si rien ne se passe, veuillez <a href=\"$a\">cliquer ici</a>.';
 
