@@ -13,7 +13,7 @@ $string['close'] = '閉じる';
 $string['configcacheexpire'] = 'キャッシュの有効期限 (分) を設定します。';
 $string['configsaved'] = '設定が保存されました!';
 $string['confirmdelete'] = '本当にこのリポジトリ「 $a 」を削除してもよろしいですか?';
-$string['confirmremove'] = '本当にこのリポジトリプラグイン「 $a 」を削除してもよろしいですか?';
+$string['confirmremove'] = '本当にこのリポジトリプラグイン、オプションおよび<strong style=color:red>すべてのインスタンス</strong>を削除してもよろしいですか - $a?';
 $string['copying'] = 'コピー';
 $string['create'] = '作成';
 $string['createinstance'] = 'リポジトリインスタンスを作成する';
@@ -23,7 +23,7 @@ $string['deleted'] = 'リポジトリが削除されました。';
 $string['deleterepository'] = 'このリポジトリを削除する';
 $string['download'] = 'ダウンロード';
 $string['downloadsucc'] = 'ファイルが正常にダウンロードされました。';
-$string['editrepositoryaccount'] = 'リポジトリアカウントを編集する';
+$string['editrepositoryinstance'] = 'リポジトリインスタンスを編集する';
 $string['emptytype'] = 'リポジトリタイプを作成できません: タイプ名が空白です。';
 $string['error'] = '不明なエラーが発生しました!';
 $string['existingrepository'] = 'このリポジトリは、すでに登録されています。';
@@ -69,5 +69,6 @@ $string['title'] = 'リポジトリファイルピッカー';
 $string['updown'] = '表示順';
 $string['upload'] = 'このファイルをアップロードする';
 $string['uploading'] = 'アップロード中 ...';
+$string['editrepositoryaccount'] = 'リポジトリアカウントを編集する'; //TBD
 
 ?>

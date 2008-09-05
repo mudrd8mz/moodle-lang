@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080827) (2008082602)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['1day'] = '1日';
@@ -418,7 +418,9 @@ $string['noquestionsfound'] = '問題が見つかりませんでした。';
 $string['noquestionsinfile'] = 'インポートファイルには問題がありません。';
 $string['noresponse'] = '解答なし';
 $string['noreview'] = 'あなたは、この小テストのレビューを許可されていません。';
+$string['noreviewshort'] = '許可なし';
 $string['noreviewuntil'] = 'あなたは、$a までこの小テストのレビューはできません。';
+$string['noreviewuntilshort'] = '利用可能 $a';
 $string['noscript'] = '続けるにはJavaスクリプトを有効にしてください!';
 $string['notavailable'] = '申し訳ございません、このクイズはまだ利用できません。';
 $string['notavailabletostudents'] = '注意: 現在あなたの学生は、この小テストを利用できません。';
@@ -563,6 +565,7 @@ $string['reviewopen'] = '後で、小テスト実施中';
 $string['reviewoptions'] = '学生はレビューできる';
 $string['reviewoptionsheading'] = 'レビューオプション';
 $string['reviewresponse'] = '解答のレビュー';
+$string['reviewthisattempt'] = 'この受験に関して、あなたの解答をレビューします。';
 $string['rqp'] = 'リモート問題';
 $string['rqps'] = 'リモート問題';
 $string['save'] = '保存';
