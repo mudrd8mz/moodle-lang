@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -20,7 +20,7 @@ $string['authmnetautoadddisabled'] = 'Moodleネットワーク認証プラグイ
 $string['authmnetdisabled'] = 'Moodleネットワーク「認証プラグイン」が<strong>無効</strong>にされています。';
 $string['badcert'] = 'これは有効な証明書ではありません。';
 $string['certdetails'] = '証明書の詳細';
-$string['configmnet'] = 'Moodleネットワーキングは、このサーバと他のサーバまたはサービスとの通信を有効にします。';
+$string['configmnet'] = 'Moodleネットワーキングでは、このサーバと他のサーバまたはサービスとの通信を許可します。';
 $string['couldnotgetcert'] = '$a で証明書が見つかりませんでした。<br />ホストが停止しているか、正しく設定されていません。';
 $string['couldnotmatchcert'] = '現在ウェブサーバより公開されている証明書と合致しません。';
 $string['courses'] = 'コース';
