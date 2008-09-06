@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // tinymce.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // tinymce.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['main/advhr:advhr_desc'] = '水平方向の罫線';
 $string['main/advimage:image_desc'] = 'イメージを挿入/編集する';
 $string['main/advlink:link_desc'] = 'リンクを挿入/編集する';
-$string['main/autosave:unload_msg'] = 'あなたがこのページから移動した場合、変更内容は失われます';
+$string['main/autosave:unload_msg'] = 'あなたがこのページから移動した場合、変更内容は取り消されます。';
 $string['main/common:apply'] = '適用';
 $string['main/common:browse'] = '閲覧';
 $string['main/common:cancel'] = 'キャンセル';
@@ -13,7 +13,7 @@ $string['main/common:class_name'] = 'クラス';
 $string['main/common:clipboard_msg'] = 'MozillaおよびFirefoxでは、コピー/切り取り/貼り付けを利用できません。この件に関して、詳細情報が必要ですか?';
 $string['main/common:clipboard_no_support'] = '現在、あなたのブラウザではサポートされていません。代わりにキーボードショートカットをお使いください。';
 $string['main/common:close'] = '閉じる';
-$string['main/common:edit_confirm'] = 'このテキストエリアでWYSIWYGモードに切り替えてもよろしいですか?';
+$string['main/common:edit_confirm'] = 'このテキストエリアでWYSIWYGモードを使用しますか?';
 $string['main/common:insert'] = '挿入';
 $string['main/common:invalid_data'] = 'エラー: 入力された値が正しくありません。正しくない値は赤色に表示されています。';
 $string['main/common:more_colors'] = 'その他の色';
@@ -29,7 +29,7 @@ $string['main/directionality:ltr_desc'] = '左から右';
 $string['main/directionality:rtl_desc'] = '右から左';
 $string['main/emotions:emotions_desc'] = 'エモーティコン';
 $string['main/fullpage:desc'] = 'ドキュメントプロパティ';
-$string['main/fullscreen:desc'] = 'フルスクリーン';
+$string['main/fullscreen:desc'] = 'フルスクリーンモードに切り替える';
 $string['main/iespell:download'] = 'ieSpellが見つかりませんでした。今すぐインストールしますか?';
 $string['main/iespell:iespell_desc'] = 'スペルチェックを実行する';
 $string['main/insertdatetime:date_fmt'] = '%%Y-%%m-%%d';
@@ -40,7 +40,7 @@ $string['main/insertdatetime:inserttime_desc'] = '時間を挿入する';
 $string['main/insertdatetime:months_long'] = 'January,February,March,April,May,June,July,August,September,October,November,December';
 $string['main/insertdatetime:months_short'] = 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec';
 $string['main/insertdatetime:time_fmt'] = '%%H:%%M:%%S';
-$string['main/layer:absolute_desc'] = '絶対位置指定の切替';
+$string['main/layer:absolute_desc'] = '絶対位置指定を切り替える';
 $string['main/layer:backward_desc'] = '背面へ移動する';
 $string['main/layer:content'] = '新しいレイヤー ...';
 $string['main/layer:forward_desc'] = '前面へ移動する';
@@ -69,7 +69,7 @@ $string['main/spellchecker:menu'] = 'スペルチェッカー設定';
 $string['main/spellchecker:no_mpell'] = 'ミススペルは見つかりませんでした。';
 $string['main/spellchecker:no_sug'] = '候補はありません。';
 $string['main/spellchecker:sug'] = '候補';
-$string['main/spellchecker:wait'] = 'しばらくお待ちください...';
+$string['main/spellchecker:wait'] = 'お待ちください...';
 $string['main/style:desc'] = 'CSSスタイルを編集する';
 $string['main/table:cell'] = 'セル';
 $string['main/table:cell_desc'] = 'テーブルセルのプロパティ';
@@ -77,7 +77,7 @@ $string['main/table:col'] = '列';
 $string['main/table:col_after_desc'] = '列を後に挿入する';
 $string['main/table:col_before_desc'] = '列を前に挿入する';
 $string['main/table:copy_row_desc'] = 'テーブル行をコピーする';
-$string['main/table:cut_row_desc'] = 'テーブル行を削除する';
+$string['main/table:cut_row_desc'] = 'テーブル行を切り取る';
 $string['main/table:del'] = 'テーブルを削除する';
 $string['main/table:delete_col_desc'] = '列を削除する';
 $string['main/table:delete_row_desc'] = '行を削除する';
