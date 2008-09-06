@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20080703) (2008063002)
+      // tag.php - created with Moodle 2.0 dev (Build: 20080906) (2008090108)
 
 
 $string['addedotag'] = '공식 태그로 \"$a\"가 추가되었읍니다.';
@@ -51,6 +51,8 @@ $string['tagsaredisabled'] = '태그를 사용할 수 없음';
 $string['tagtype'] = '태그 형식';
 $string['tagtype_default'] = '기본';
 $string['tagtype_official'] = '공식적인';
+$string['thingstaggedwith'] = '\"$a->name\"로 $a->count 항목 검색됨';
+$string['thingtaggedwith'] = '\"$a->name\" 가 한차례 사용되었음';
 $string['thistaghasnodesc'] = '이 태그에는 설명이 없음';
 $string['timemodified'] = '수정됨';
 $string['typechanged'] = '태그 형식이 변경됨';
@@ -58,6 +60,5 @@ $string['updated'] = '갱신됨';
 $string['updatetag'] = '갱신';
 $string['userstaggedwith'] = '사용자가 \"$a\" 로 덧붙임';
 $string['withselectedtags'] = '선택한 태그';
-$string['thingstaggedwith'] = '\"$a->name\"로 $a->count 항목 검색됨'; // ORPHANED
 
 ?>

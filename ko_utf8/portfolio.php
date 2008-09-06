@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080903) (2008090108)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080906) (2008090108)
 
 
 $string['addalltoportfolio'] = '모두 포트폴리오에 추가';
@@ -35,6 +35,8 @@ $string['format_file'] = '파일';
 $string['format_html'] = 'HTML';
 $string['format_image'] = '이미지';
 $string['format_mbkp'] = '무들 백업';
+$string['format_text'] = '일반 문서';
+$string['format_video'] = '비디오';
 $string['hidden'] = '비공개';
 $string['instancedeleted'] = '포트폴리오 삭제 완료';
 $string['instanceismisconfigured'] = '포트폴리오 설정오류로 중지됨. $a 오류';
@@ -44,6 +46,7 @@ $string['instancesaved'] = '포트폴리오 저장 완료';
 $string['invalidaddformat'] = 'portfolio_add_button에 잘못된 추가 형식 전달.  ($a) 반드시 PORTFOLIO_ADD_XXX 중에 하나가 되어야 함';
 $string['invalidconfigproperty'] = '($a->class 의 $a->property) 설정 항목을 찾을 수 없음';
 $string['invalidexportproperty'] = '내보낼 ($a->class 의 $a->property) 설정 항목을 찾을 수 없음';
+$string['invalidfileargument'] = 'portfolio_format_from_file에 잘못된 인수 전달. 반드시 stored_file 객체이어야 함';
 $string['invalidformat'] = '잘못된 형식 $a 로 내보내려 하고 있음';
 $string['invalidinstance'] = '포트폴리오 인스턴스가 없음';
 $string['invalidproperty'] = '($a->class 의 $a->property) 항목을 찾을 수 없음';

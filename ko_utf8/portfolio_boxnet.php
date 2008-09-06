@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20080903) (2008090108)
+      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20080906) (2008090108)
 
 
 $string['apikey'] = 'API 키(Box.net에서 얻어야 함)';
+$string['apikeyhelp'] = 'enabled.box.net에 가입하여 API 키를 얻고 응용프로그램을 추가하여야 함. 회신 주소는 반드시 yourwwwroot/portfolio/add.php?postcontrol=1 형태이어야 함';
 $string['err_noapikey'] = '본 플러그인에 API 키가 설정되어 있지 않음. http://enabled.box.net 에서 얻을 수 있음';
 $string['existingfolder'] = '파일 저장소';
 $string['folderclash'] = '생성 요청한 폴더는 이미 존재함!';
