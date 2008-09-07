@@ -25,6 +25,7 @@ $string['emptytype'] = 'Impossible de créer le type de dépôt&nbsp;: le nom du
 $string['error'] = 'Une erreur inconnue est survenue&nbsp;!';
 $string['existingrepository'] = 'Ce dépôt existe déjà';
 $string['filename'] = 'Nom de fichier';
+$string['filenotnull'] = 'Vous devez choisir un fichier à déposer.';
 $string['filesaved'] = 'Le fichier a été enregistré';
 $string['getfile'] = 'Sélectionner ce fichier';
 $string['instance'] = 'Instance';
