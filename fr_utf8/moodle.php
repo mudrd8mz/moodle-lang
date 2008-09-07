@@ -1190,6 +1190,7 @@ $string['rename'] = 'Renommer';
 $string['renamefileto'] = 'Renommer <strong>$a</strong> en';
 $string['report'] = 'Rapport';
 $string['reports'] = 'Rapports';
+$string['repositories'] = 'Dépôts';
 $string['requestcourse'] = 'Demander la création d\'un cours';
 $string['requestedby'] = 'Demandé par';
 $string['requestreason'] = 'Raison de la demande de création';

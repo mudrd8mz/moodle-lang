@@ -10,5 +10,6 @@ $string['saved'] = 'Données Box.net enregistrées';
 $string['invalidpassword'] = 'Mot de passe non valide';
 $stirng['invalidtoken'] = 'Jeton d\'authentification non valide';
 $string['nullfilelist'] = 'Il n\'y a aucun fichier dans ce dépôt';
+$string['shareurl'] = 'Partager l\'URL';
 
 ?>
