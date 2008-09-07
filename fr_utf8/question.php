@@ -136,6 +136,7 @@ $string['questionsmovedto'] = 'Les questions encore utilisées ont été déplac
 $string['questionsrescuedfrom'] = 'Questions enregistrées depuis le contexte $a.';
 $string['questionsrescuedfrominfo'] = 'Ces questions (dont certaines sont peut-être cachées) ont été enregistrées lors de la suppression du contexte $a, car elles sont encore utilisées dans certains tests ou d\'autres activités.';
 $string['questionuse'] = 'Utilisation de question dans cette activité';
+$string['saveflags'] = 'Enregistrer l\'état des marquages';
 $string['shareincontext'] = 'Partager dans le contexte pour $a';
 $string['tofilecategory'] = 'Exporter la catégorie dans le fichier';
 $string['tofilecontext'] = 'Exporter le contexte dans le fichier';
