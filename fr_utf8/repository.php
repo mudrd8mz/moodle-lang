@@ -63,7 +63,7 @@ $string['submit'] = 'Envoyer';
 $string['sync'] = 'Sync';
 $string['thumbview'] = 'Afficher en vignettes';
 $string['title'] = 'Sélecteur de fichier du dépôt';
-$string['updown'] = 'Vers le haut/le bas';
+$string['updown'] = 'Ordre d\'affichage';
 $string['upload'] = 'Déposer ce fichier';
 $string['uploading'] = 'En cours de dépôt...';
 
