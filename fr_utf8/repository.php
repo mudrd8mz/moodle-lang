@@ -44,6 +44,7 @@ $string['manage'] = 'Gérer les dépôts';
 $string['manageurl'] = 'Gestion';
 $string['manageuserrepository'] = 'Gérer le dépôt personnel';
 $string['noenter'] = 'Pas de saisie';
+$string['nopermissiontoaccess'] = 'Pas d\'autorisation d\'accéder à ce dépôt';
 $string['openpicker'] = 'Choisir un fichier...';
 $string['operation'] = 'Opération';
 $string['plugin'] = 'Plugins de dépôt';
