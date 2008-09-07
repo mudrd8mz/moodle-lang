@@ -11,6 +11,7 @@ $string['noauthtoken'] = 'Impossible de récupérer un jeton d\authentification 
 $string['noticket'] = 'Impossible de récupérer un ticket sur box.net pour initier la session d\'authentification';
 $string['notarget'] = 'Vous devez indiquer soit un dossier existant soit un dossier à créer vers lequel déposer les données';
 $string['password'] = 'Votre mot de passe box.net (ne sera pas enregistré)';
+$string['pluginname'] = 'Stockage internet Box.net';
 $string['sharedfolder'] = 'Partagé';
 $string['targetfolder'] = 'Dossier cible';
 $string['username'] = 'Votre nom d\'utilisateur box.net (ne sera pas enregistré)';
