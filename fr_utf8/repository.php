@@ -4,11 +4,14 @@
 // Autres possibilités à envisager : entrepôt, stockage, zone de dépôt, ...
 
 $string['activaterep'] = 'Activer les dépôts de documents';
+$string['activerepository'] = 'Plugins de dépôt actifs';
 $string['add'] = 'Ajouter';
 $string['addplugin'] = 'Ajouter un plugin de dépôt';
 $string['attachment'] = 'Annexe';
 $string['back'] = '&lt; Retour';
+$string['cacheexpire'] = 'Échéance du cache';
 $string['close'] = 'Fermer';
+$string['configcacheexpire'] = 'Configurer la durée avant échéance du cache.';
 $string['configsaved'] = 'Configuration enregistrée&nbsp;!';
 $string['confirmdelete'] = 'Voulez-vous vraiment supprimer le dépôt $a&nbsp;?';
 $string['confirmremove'] = 'Voulez-vous vraiment supprimer le plugin de dépôt $a&nbsp;?';
