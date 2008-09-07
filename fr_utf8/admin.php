@@ -364,6 +364,7 @@ $string['errors'] = 'Erreurs';
 $string['errorsetting'] = 'Impossible d\'enregistrer le réglage';
 $string['errorwithsettings'] = 'Certains réglages n\'ont pas pu être modifié, en raison d\'une erreur.';
 $string['experimental'] = 'Expérimental';
+$string['experimentalsettings'] = 'Réglages expérimentaux';
 $string['extendedusernamechars'] = 'Autoriser les caractères spéciaux dans les noms d\'utilisateur';
 $string['filecreated'] = 'Nouveau fichier créé';
 $string['filestoredin'] = 'Enregistre le fichier dans le dossier&nbsp;:';
