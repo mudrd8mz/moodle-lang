@@ -265,7 +265,6 @@ $string['invalidrole'] = 'Rôle non valide';
 $string['invalidroleid'] = 'Identifiant de rôle incorrect';
 $string['invalidscaleid'] = 'Identifiant de barème incorrect';
 $string['invalidsection'] = 'L\'enregistrement du module de cours contient une section non valide';
-$string['invalidseeky'] = 'Clef de session non valide, le formulaire n\'est pas accepté&nbsp;!';
 $string['invalidsesskey'] = 'Clef de session incorrecte. Le formulaire n\'est pas accepté&nbsp;!';
 $string['invalidshortname'] = 'Le nom abrégé du cours n\'est pas valide';
 $string['invalidurl'] = 'URL non valide';
