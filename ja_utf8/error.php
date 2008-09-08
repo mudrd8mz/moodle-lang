@@ -266,7 +266,6 @@ $string['invalidrole'] = '無効なロールです。';
 $string['invalidroleid'] = '無効なロールIDです。';
 $string['invalidscaleid'] = '無効なスケールIDです。';
 $string['invalidsection'] = 'コースモジュールのレコードに無効なセクションが含まれています。';
-$string['invalidseeky'] = '無効なsesskeyが送信されました。フォームの内容は受信されませんでした!';
 $string['invalidsesskey'] = '無効なsesskeyが送信されました。フォームの内容は受信されませんでした!';
 $string['invalidshortname'] = '無効なコース省略名です。';
 $string['invalidurl'] = '無効なURIです。';

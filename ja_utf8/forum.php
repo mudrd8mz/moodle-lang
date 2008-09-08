@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -22,6 +22,7 @@ $string['allowsdiscussions'] = 'このフォーラムでは、1人1件のディ�
 $string['allsubscribe'] = 'すべてのフォーラムをメール購読する';
 $string['allunsubscribe'] = 'すべてのフォーラムのメール購読を解除する';
 $string['anyfile'] = 'すべてのファイル';
+$string['areaintro'] = 'フォーラムイントロダクション';
 $string['attachment'] = '添付ファイル';
 $string['attachmentnopost'] = 'あなたは、投稿IDなしで添付ファイルをエクスポートできません。';
 $string['attachments'] = '添付ファイル';

@@ -6,6 +6,12 @@ $string['activaterep'] = 'アクティブリポジトリ';
 $string['activerepository'] = 'アクティブリポジトリ・プラグイン';
 $string['add'] = '追加';
 $string['addplugin'] = 'リポジトリプラグインを追加する';
+$string['areabackup'] = 'バックアップ';
+$string['areacategoryintro'] = 'カテゴリイントロダクション';
+$string['areacourseintro'] = 'コースイントロダクション';
+$string['arearoot'] = 'システム';
+$string['areauserdraft'] = '下書き';
+$string['areauserpersonal'] = 'パーソナル';
 $string['attachment'] = '添付';
 $string['back'] = '&lt; 戻る';
 $string['cacheexpire'] = 'キャッシュ有効期限';
@@ -73,6 +79,7 @@ $string['typenotvisible'] = 'タイプを確認できません。';
 $string['updown'] = '表示順';
 $string['upload'] = 'このファイルをアップロードする';
 $string['uploading'] = 'アップロード中 ...';
+$string['wrongcontext'] = 'あなたは、このコンテクストにアクセスできません。';
 $string['editrepositoryaccount'] = 'リポジトリアカウントを編集する'; //TBD
 
 ?>

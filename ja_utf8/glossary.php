@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080819) (2008081900)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -15,6 +15,7 @@ $string['allowprintview'] = '印刷モードを許可する';
 $string['allowratings'] = 'エントリの評価を許可しますか?';
 $string['answer'] = '答え';
 $string['approve'] = '承認';
+$string['areaintro'] = '用語集イントロダクション';
 $string['areyousuredelete'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['areyousuredeletecomment'] = '本当にこのコメントを削除してもよろしいですか?';
 $string['areyousureexport'] = '本当にこのエントリを下記の用語集にエクスポートしてもよろしいですか?';
