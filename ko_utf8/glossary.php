@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080820) (2008081900)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080908) (2008090800)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -15,6 +15,7 @@ $string['allowprintview'] = '미리보기 허용';
 $string['allowratings'] = '추천 허용';
 $string['answer'] = '대답';
 $string['approve'] = '승인';
+$string['areaintro'] = '용어집 소개';
 $string['areyousuredelete'] = '이 항목을 지울까요?';
 $string['areyousuredeletecomment'] = '이 덧글을 지울까요?';
 $string['areyousureexport'] = '이 항목을 다음으로 내보낼까요?';
@@ -23,12 +24,12 @@ $string['attachment'] = '붙임파일';
 $string['author'] = '작성자';
 $string['authorview'] = '집필자순으로 보기';
 $string['back'] = '뒤로';
-$string['cantexportentry'] = '항목을 주 어휘집으로 내보낼 수 없음';
+$string['cantexportentry'] = '항목을 주 용어집으로 내보낼 수 없음';
 $string['cantinsertcat'] = '범주를 추가할 수 없음';
 $string['cantinsertent'] = '새 항목을 추가할 수 없음';
 $string['cantinsertrec'] = '자료를 추가할 수 없음';
 $string['cantinsertrel'] = '범주 항목의 관계를 설정할 수 없음';
-$string['cantupdateglossary'] = '어휘집을 갱신할 수 없음';
+$string['cantupdateglossary'] = '용어집을 갱신할 수 없음';
 $string['casesensitive'] = '대,소문자 구분';
 $string['cat'] = '범주';
 $string['categories'] = '범주';
@@ -139,7 +140,7 @@ $string['glossary:viewrating'] = '등위 보기';
 $string['glossary:write'] = '새로 입력';
 $string['glossaryleveldefaultsettings'] = '어휘수준 초기설정';
 $string['glossarytype'] = '용어집 유형';
-$string['guestnoedit'] = '손님은 어휘집 수정 권한이 없음';
+$string['guestnoedit'] = '손님은 용어집 수정 권한이 없음';
 $string['importcategories'] = '범주 가져오기';
 $string['importedcategories'] = '가져온 범주';
 $string['importedentries'] = '가져온 항목';

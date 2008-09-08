@@ -1,14 +1,22 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080905) (2008090108)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080908) (2008090800)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
 $string['activerepository'] = '활성화된 저장 플러그인';
 $string['add'] = '추가';
 $string['addplugin'] = '저장 플러그인 추가';
+$string['areabackup'] = '백업';
+$string['areacategoryintro'] = '범주 소개';
+$string['areacourseintro'] = '강좌 소개';
+$string['arearoot'] = '시스템';
+$string['areauserdraft'] = '초안';
+$string['areauserpersonal'] = '개인';
 $string['attachment'] = '첨부';
 $string['back'] = '&lt; 뒤로';
+$string['cachecleared'] = '임시파일 제거됨';
 $string['cacheexpire'] = '캐쉬 기한만료';
+$string['cleancache'] = '내 임시파일 정리';
 $string['close'] = '닫기';
 $string['configcacheexpire'] = '캐쉬 기한 설정';
 $string['configsaved'] = '설정 저장됨!';
@@ -73,6 +81,7 @@ $string['typenotvisible'] = '유형 비공개';
 $string['updown'] = '올림/내림';
 $string['upload'] = '이 파일 올림';
 $string['uploading'] = '올리는 중...';
+$string['wrongcontext'] = '영역에 접근할 수 없음';
 $string['editrepositoryaccount'] = '저장소 계정 수정'; // ORPHANED
 
 ?>
