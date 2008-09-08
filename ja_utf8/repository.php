@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080908) (2008090800)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -14,7 +14,9 @@ $string['areauserdraft'] = '下書き';
 $string['areauserpersonal'] = 'パーソナル';
 $string['attachment'] = '添付';
 $string['back'] = '&lt; 戻る';
+$string['cachecleared'] = 'キャッシュファイルが削除されました。';
 $string['cacheexpire'] = 'キャッシュ有効期限';
+$string['cleancache'] = 'キャッシュファイルを削除する';
 $string['close'] = '閉じる';
 $string['configcacheexpire'] = 'キャッシュの有効期限 (分) を設定します。';
 $string['configsaved'] = '設定が保存されました!';

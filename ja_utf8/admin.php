@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080908) (2008090800)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -291,6 +291,7 @@ $string['dbmigratewarning2'] = '<b>警告: あなたはデータベース移行�
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">このデータベースは廃止され、新しいUTF8データベースに移行されました。このMoodleに新しいデータベースを使用するため、config.phpを編集してください。</font>';
 $string['dbmigrationdupfailed'] = 'データベース重複エラー:<font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['dbsessions'] = 'セッション情報にデータベースを使用する';
+$string['dbtest'] = 'DB機能テスト';
 $string['debug'] = 'デバッグメッセージ';
 $string['debugall'] = 'ALL: すべての妥当なPHPデバッグメッセージを表示する';
 $string['debugdeveloper'] = 'DEVELOPER: 開発者のための特別Moodleデバッグメッセージ';
@@ -313,6 +314,7 @@ $string['deleteunconfirmed'] = 'セットアップ未了のユーザを削除す
 $string['deleteuser'] = 'ユーザを削除する';
 $string['density'] = '密度';
 $string['denyemailaddresses'] = '拒否されたメールアドレスのドメイン';
+$string['development'] = '開発';
 $string['digestmailtime'] = '要約メールを送信する時間 (時)';
 $string['disablecourseajax'] = 'AJAXコース編集を無効にする';
 $string['disableuserimages'] = 'ユーザプロファイルイメージを無効にする';
