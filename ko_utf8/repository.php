@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080908) (2008090800)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -12,6 +12,7 @@ $string['areacourseintro'] = '강좌 소개';
 $string['arearoot'] = '시스템';
 $string['areauserdraft'] = '초안';
 $string['areauserpersonal'] = '개인';
+$string['areauserprofile'] = '신상명세';
 $string['attachment'] = '첨부';
 $string['back'] = '&lt; 뒤로';
 $string['cachecleared'] = '임시파일 제거됨';
@@ -21,7 +22,7 @@ $string['close'] = '닫기';
 $string['configcacheexpire'] = '캐쉬 기한 설정';
 $string['configsaved'] = '설정 저장됨!';
 $string['confirmdelete'] = '정말 $a 저장소를 삭제하렵니까?';
-$string['confirmremove'] = '정말 $a 저장 플러그인을 삭제하렵니까?';
+$string['confirmremove'] = '정말 $a 저장 플러그인의 <strong style=color:red>모든 인스턴스와 옵션</strong>을 삭제하렵니까?';
 $string['copying'] = '복사 중';
 $string['create'] = '생성';
 $string['createinstance'] = '인스턴스 생성';
@@ -60,6 +61,7 @@ $string['operation'] = '작동';
 $string['personalrepositories'] = '개인 저장소';
 $string['plugin'] = '저장 플러그인';
 $string['preview'] = '미리보기';
+$string['refresh'] = '다시 읽음';
 $string['removed'] = '저장소 제거됨';
 $string['repositories'] = '저장소';
 $string['repository'] = '저장소';

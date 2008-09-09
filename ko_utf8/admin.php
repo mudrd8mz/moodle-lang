@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080903) (2008090108)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -28,6 +28,7 @@ $string['authsettings'] = '인증 관리';
 $string['autolang'] = '언어 자동 인식';
 $string['autologinguests'] = '자동 로그인 손님';
 $string['availablelangs'] = '사용가능한 언어팩';
+$string['availableto'] = '사용 대상';
 $string['backgroundcolour'] = '투명 색상';
 $string['backups'] = '백업';
 $string['badwordsconfig'] = '금칙어(욕설 등)를 콤마로 구분해 입력하시오';
@@ -297,6 +298,7 @@ $string['dbmigratewarning2'] = '<b>경고 : 데이터베이스 이전과정을 �
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">본 데이터베이스는 새로운 UTF8 코드로 변경되었습니다. config.php를 편집한 후, 새 데이터베이스를 사용하여 무들을 사용하기 바랍니다.</font>';
 $string['dbmigrationdupfailed'] = '오류: <font color=\"#ff0000\"><pre>$a</pre></font> 때문에 데이터베이스 복제 실패.';
 $string['dbsessions'] = '데이터베이스 사용';
+$string['dbtest'] = 'DB 기능 점검';
 $string['debug'] = '오류 알림';
 $string['debugall'] = '모두: 모든 디버그 내용을 보여줌';
 $string['debugdeveloper'] = '개발자: 개발자를 위한 추가적인 오류보고';
@@ -319,6 +321,7 @@ $string['deleteunconfirmed'] = '인증 유예 기간';
 $string['deleteuser'] = '이용자 삭제';
 $string['density'] = '밀도';
 $string['denyemailaddresses'] = '거부할 이메일 도메인';
+$string['development'] = '개발';
 $string['digestmailtime'] = '요약 이메일 보내는 시각';
 $string['disablecourseajax'] = '메인 강좌 편집시 비활성화';
 $string['disableuserimages'] = '사진 갱신 불허';
@@ -369,6 +372,7 @@ $string['environmentxmlerror'] = '환경 설정 데이터 불러들이기 오류
 $string['errors'] = '오류들';
 $string['errorsetting'] = '설정을 저장할 수 없음:';
 $string['errorwithsettings'] = '오류때문에 설정을 바꿀 수 없음.';
+$string['exceptions'] = '예외';
 $string['experimental'] = '시험적임';
 $string['experimentalsettings'] = '시험적 설정';
 $string['extendedusernamechars'] = '아이디에 확장 문자 허용';
@@ -482,6 +486,7 @@ $string['maintenancemode'] = '유지관리 모드';
 $string['maintfileopenerror'] = '유지 관리 파일 열기 오류';
 $string['maintinprogress'] = '유지 관리 진행 중...';
 $string['managelang'] = '<b>언어팩 관리</b>';
+$string['manageqtypes'] = '문제 유형 관리';
 $string['maxbytes'] = '올릴 파일의 최대 크기';
 $string['maxeditingtime'] = '게시물 수정 최대 시한';
 $string['mbstringrecommended'] = '당신의 사이트가 라틴언어계열이 아닌 언어를 지원하는 경우, 사이트의 성능을 향상시키기 위해서 MBSTRING 라이브러리 설치를 권장합니다.';
@@ -522,6 +527,7 @@ $string['mysql416bypassed'] = '사이트가 iso-8859-1 (라틴) 언어만을 사
 $string['mysql416required'] = '모든 데이터가 향후 UTF-8로 변환될 수 있도록 하기위해서는 MySQL 4.1.16 이상 버전이 무들 1.6버전에 필요합니다.';
 $string['nobookmarksforuser'] = '갈무리된 주소가 없음';
 $string['nochanges'] = '변화 없음';
+$string['nodatabase'] = '데이터베이스 없음';
 $string['nodefaultuserrolelists'] = '기본 역할 이용자 제지';
 $string['nolangupdateneeded'] = '모든 언어팩이 최신판임. 업데이트가 필요없음';
 $string['nomissingstrings'] = '빠진 문자열 없음';
@@ -530,12 +536,15 @@ $string['nonexistentbookmark'] = '요청한 곳을 찾을 수 없습니다.';
 $string['nonmetacoursesyncroleids'] = '메타코스 비동기 역할';
 $string['noreplyaddress'] = '발신전용 이메일 주소';
 $string['noresults'] = '검색 결과 없음.';
+$string['noroles'] = '역할 없음';
 $string['notifications'] = '알림 설정';
 $string['notifyloginfailures'] = '로그인실패를 통지받을 사람';
 $string['notifyloginthreshold'] = '이메일 알림을 위한 문턱값';
 $string['notloggedinroleid'] = '방문자 역할';
 $string['numberofmissingstrings'] = '$a 개의 문자열 번역안됨';
 $string['numberofstrings'] = '전체 문자열 수: $a->strings<br />빠진 문자열: $a->missing ($a->missingpercent&nbsp;%%)';
+$string['numquestions'] = '문항 번호';
+$string['numquestionsandhidden'] = '$a->numquestions (+$a->numhidden 비공개)';
 $string['opensslrecommended'] = '추가적인 OpenSSL 라이브러리를 설치할 것을 강력히 권고함 -- 무들 네트웍 기능을 이용할 수 있게 됨';
 $string['opentogoogle'] = 'Google에 개방';
 $string['optionalmaintenancemessage'] = '추가 유지보수 알림글';
@@ -626,6 +635,8 @@ $string['quarantinedir'] = '검역 디렉토리';
 $string['question'] = '문제 은행';
 $string['questioncwqpfscheck'] = '퀴즈 중에 처리되어야 할 \'무작위\' 문항이 비공개 혹은 공개 문제 은행 중에 포함되어 있습니다. 좀 더 자세한 보고서는 <a href=\"$a->reporturl\">이 곳</a> 과 무들 문서 창고의 <a href=\"$a->docsurl\">이 곳</a>을 참고하기 바랍니다.';
 $string['questioncwqpfsok'] = '통과. 여러분의 퀴즈에는 처리되어야 할 \'무작위\' 질문이 없습니다.';
+$string['questiontype'] = '문제 유형';
+$string['questiontypes'] = '문제 유형';
 $string['rcache'] = '기록 캐쉬';
 $string['rcachettl'] = '기록 캐쉬 TTL';
 $string['recaptchaprivatekey'] = 'ReCAPTCHA 비밀키';
@@ -634,6 +645,7 @@ $string['releasenoteslink'] = '무들 버전에 대한 정보를 얻기 위해�
 $string['remotelangnotavailable'] = '무들이 download.moodle.org에 접속하지 못했기 때문에 언어팩을 자동으로 설치하지 못하였습니다. 수동으로 아래에 제시된 목록에서 적절한 zip파일을 내려받아 여러분의 $a 디랙토리에 풀어넣기 바랍니다.';
 $string['renameerrors'] = '이름변경 오류';
 $string['requiredtemplate'] = '필수사항. 여기에 템플릿 문법을 사용할 수 있습니다 (%%l = 성, %%f = 이름, %%u = 사용자 ID). 세부사항과 예제는 도움말을 보세요.';
+$string['requires'] = '필수';
 $string['restrictbydefault'] = '초기 설정으로 모듈 제한';
 $string['restrictmodulesfor'] = '다음에 대하여 모듈 제한';
 $string['riskconfig'] = '이용자가 사이트의 설정과 작동을 변경할 수 있음';
@@ -665,6 +677,7 @@ $string['sessioncookiepath'] = '쿠키 경로';
 $string['sessionhandling'] = '세션 처리';
 $string['sessiontimeout'] = '시간 종료';
 $string['showblocksonmodpages'] = '모듈화면에 블럭 보임';
+$string['showdetails'] = '자세히 보기';
 $string['simpletest'] = '항목 점검';
 $string['sitelangchanged'] = '사이트의 언어설정이 성공적으로 변경되었습니다.';
 $string['sitemailcharset'] = '이메일 문자셋';
