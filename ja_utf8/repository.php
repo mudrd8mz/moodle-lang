@@ -19,7 +19,7 @@ $string['cachecleared'] = 'キャッシュファイルが削除されました�
 $string['cacheexpire'] = 'キャッシュ有効期限';
 $string['cleancache'] = 'キャッシュファイルを削除する';
 $string['close'] = '閉じる';
-$string['configcacheexpire'] = 'キャッシュの有効期限 (分) を設定します。';
+$string['configcacheexpire'] = '外部リポジトリの閲覧時、ファイルリストがローカルにキャッシュされる時間 (秒) です。';
 $string['configsaved'] = '設定が保存されました!';
 $string['confirmdelete'] = '本当にこのリポジトリ「 $a 」を削除してもよろしいですか?';
 $string['confirmremove'] = '本当にこのリポジトリプラグイン、オプションおよび<strong style=color:red>すべてのインスタンス</strong>を削除してもよろしいですか - $a?';
