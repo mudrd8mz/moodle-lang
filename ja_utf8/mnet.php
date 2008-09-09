@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -64,7 +64,7 @@ $string['hideremote'] = 'リモートユーザを隠す';
 $string['host'] = 'ホスト';
 $string['hostcoursenotfound'] = 'ホストまたはコースが見つかりませんでした。';
 $string['hostdeleted'] = 'OK - ホストが削除されました。';
-$string['hostexists'] = 'このホストに関してすでにレコードが登録され、ID $a によりMoodleで配置されています。<br />レコードを編集するには、「続ける」ボタンをクリックしてください。';
+$string['hostexists'] = 'このホストに関して、すでにレコードが登録され、ID $a でMoodleに配置されています。<br />レコードを編集するには、「続ける」ボタンをクリックしてください。';
 $string['hostname'] = 'ホスト名';
 $string['hostnamehelp'] = 'リモートホストの省略されていないドメイン名、例 www.example.com';
 $string['hostnotconfiguredforsso'] = 'このリモートMoodleハブでは、リモートログインの設定がなされていません。';
