@@ -12,6 +12,7 @@ $string['areacourseintro'] = 'コースイントロダクション';
 $string['arearoot'] = 'システム';
 $string['areauserdraft'] = '下書き';
 $string['areauserpersonal'] = 'パーソナル';
+$string['areauserprofile'] = 'プロファイル';
 $string['attachment'] = '添付';
 $string['back'] = '&lt; 戻る';
 $string['cachecleared'] = 'キャッシュファイルが削除されました。';
