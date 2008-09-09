@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio_mahara.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // portfolio_mahara.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
 
 
 $string['err_invalidhost'] = 'このプラグインは、無効な (または削除された) mnetホストにアクセスするよう誤って設定されています。このプラグインは、SSO IDP (アイデンティティプロバイダ) が公開されたMoodleネットワーキングピアおよび登録されたSSO SP (サービスプロバイダ) を信頼します。';
@@ -8,6 +8,11 @@ $string['err_nomnetauth'] = 'mnet認証プラグインが無効にされてい�
 $string['err_nomnethosts'] = 'このプラグインでは、MoodleネットワーキングピアのSSO IDP (アイデンティティプロバイダ) の公開、ポートフォーリオおよびSSO SP (サービスプロバイダ) の登録に依存します。同様にmnet認証プラグインにも依存します。問題が修正されるまで、このプラグインに関するインスタンスはすべて非表示にされます - 再度、手動でインスタンスを表示する必要があります。インスタンスが表示されるまで、使用することはできません。';
 $string['failedtojump'] = 'リモートサーバとの通信の開始に失敗しました。';
 $string['failedtoping'] = 'リモートサーバ「 $a 」との通信の開始に失敗しました。';
+$string['mnet_nofile'] = '転送オブジェクトにファイルを見つけることができませんでした - 不明なエラー。';
+$string['mnet_nofilecontents'] = '転送オブジェクトにファイルを発見しましたが、コンテンツを取得できませんでした - 不明なエラー: $a';
+$string['mnet_noid'] = 'このトークンに対して、合致する転送レコードを見つけることができませんでした。';
+$string['mnet_notoken'] = 'この転送に対して、合致するトークンを見つけることができませんでした。';
+$string['mnet_wronghost'] = 'この転送のトークンに対して、リモートホストが合致しません。';
 $string['mnethost'] = 'Moodleネットワーキングホスト';
 $string['pf_description'] = 'このホストに対して、ユーザによるMoodleコンテンツの送信を許可します。<br />このサービスに登録することで、あなたのサイトの認証ユーザが $a にコンテンツを送信することを許可します。<br /><ul><li><em>依存関係</em>: あなたはSSO (アイデンティティプロバイダ) サービスを $a に<strong>公開</strong>する必要があります。<li><em>依存関係</em>: あなたは $a のSSO (サービスプロバイダ) サービスに<strong>登録</strong>する必要があります。</li><li><em>依存関係</em>: あなたは、mnet認証プラグインも有効にする必要があります。</li></ul><br />';
 $string['pf_name'] = 'ポートフォリオサービス';

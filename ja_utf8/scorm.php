@@ -1,11 +1,17 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
 
 
 $string['activation'] = 'アクティベーション';
 $string['activityloading'] = 'あなたは、次の時間経過後、自動的にリダイレクトされます:';
 $string['activitypleasewait'] = '活動読み込み中、お待ちください ...';
 $string['advanced'] = '詳細設定';
+$string['allowtypeexternal'] = '外部パッケージタイプを有効にする';
+$string['allowtypeimsrepository'] = 'IMSパッケージタイプを有効にする';
+$string['allowtypelocalsync'] = 'ダウンロード済みパッケージタイプを有効にする';
+$string['areacontent'] = 'コンテンツファイル';
+$string['areaintro'] = 'イントロダクションファイル';
+$string['areapackage'] = 'パッケージファイル';
 $string['asset'] = 'アセット';
 $string['assetlaunched'] = 'アセット - 閲覧済み';
 $string['attempt'] = '受験';
@@ -131,6 +137,7 @@ $string['scorm:viewscores'] = '評点を表示する';
 $string['scormcourse'] = '学習コース';
 $string['scormloggingoff'] = 'APIログイン: OFF';
 $string['scormloggingon'] = 'APIログイン: ON';
+$string['scormtype'] = 'タイプ';
 $string['scrollbars'] = 'ウィンドウのスクロールを許可する';
 $string['sided'] = '左側';
 $string['skipview'] = '学生によるコンテンツ構造ページスキップ';
@@ -151,8 +158,14 @@ $string['toolbar'] = 'ツールバーを表示する';
 $string['totaltime'] = '時間';
 $string['trackingloose'] = '警告: このパッケージのトラッキングデータは消滅します!';
 $string['type'] = 'タイプ';
+$string['typeexternal'] = '外部SCORMマニフェスト';
+$string['typeimsrepository'] = 'ローカルIMSコンテンツリポジトリ';
+$string['typelocal'] = 'アップロード済みパッケージ';
+$string['typelocalsync'] = 'ダウンロード済みパッケージ';
 $string['unziperror'] = 'パッケージの解凍処理中にエラーが発生しました。';
 $string['updatefreq'] = '自動更新の頻度';
+$string['updatetime'] = '同期時間';
+$string['url'] = 'URI';
 $string['validateascorm'] = 'パッケージの確認';
 $string['validation'] = '確認結果';
 $string['validationtype'] = 'ここでは、SCORMマニフェストファイルを確認するDOMXMLライブラリを設定します。分からない場合は、このままにしてください。';

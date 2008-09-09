@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080908) (2008090800)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -28,6 +28,7 @@ $string['authsettings'] = '認証の管理';
 $string['autolang'] = '言語の自動認識';
 $string['autologinguests'] = 'ゲストのオートログイン';
 $string['availablelangs'] = '利用可能な言語パック';
+$string['availableto'] = '利用可能';
 $string['backgroundcolour'] = '透過色';
 $string['backups'] = 'バックアップ';
 $string['badwordsconfig'] = '使用禁止用語をカンマで区切って入力してください。';
@@ -365,6 +366,7 @@ $string['environmentxmlerror'] = '環境データ ($a->error_code) の読み込�
 $string['errors'] = 'エラー';
 $string['errorsetting'] = '設定を保存できませんでした:';
 $string['errorwithsettings'] = 'エラーが発生したため、いくつかの設定は変更されませんでした:';
+$string['exceptions'] = '例外';
 $string['experimental'] = '実験用';
 $string['experimentalsettings'] = '実験用設定';
 $string['extendedusernamechars'] = 'ユーザ名に拡張文字を許可する';
@@ -478,6 +480,7 @@ $string['maintenancemode'] = 'メンテナンスモード';
 $string['maintfileopenerror'] = 'メンテナンスファイルのオープン中にエラーが発生しました！';
 $string['maintinprogress'] = 'メンテナンス処理中です ...';
 $string['managelang'] = '管理';
+$string['manageqtypes'] = '問題タイプの管理';
 $string['maxbytes'] = '最大アップロードサイズ';
 $string['maxeditingtime'] = '投稿を編集できる最大時間';
 $string['mbstringrecommended'] = 'より良いパフォーマンスを得るため、mbstringライブラリのインストールおよび稼動を強くお勧めします。あなたのサイトがラテン文字以外をサポートしている場合、特にお勧めします。';
@@ -517,6 +520,7 @@ $string['mysql416bypassed'] = 'あなたのサイトがiso-8859-1 (ラテン) �
 $string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをUTF-8に変換するため、MySQL 4.1.16が要求される最低限のバージョンです。';
 $string['nobookmarksforuser'] = 'ブックマークはありません。';
 $string['nochanges'] = '変更なし';
+$string['nodatabase'] = 'データベースなし';
 $string['nodefaultuserrolelists'] = 'ユーザにすべてのデフォルトロールを戻さない';
 $string['nolangupdateneeded'] = 'すべての言語パックは最新版です。アップデートの必要はありません。';
 $string['nomissingstrings'] = '未翻訳ストリングはありません。';
@@ -525,12 +529,15 @@ $string['nonexistentbookmark'] = 'あなたがリクエストしたブックマ�
 $string['nonmetacoursesyncroleids'] = 'メタコースと同期されないロール';
 $string['noreplyaddress'] = 'No-replyアドレス';
 $string['noresults'] = '該当するデータは見つかりませんでした。';
+$string['noroles'] = 'ロールなし';
 $string['notifications'] = '通知';
 $string['notifyloginfailures'] = 'ログイン失敗をメール通知する';
 $string['notifyloginthreshold'] = 'メール通知の閾値';
 $string['notloggedinroleid'] = 'ビジターのロール';
 $string['numberofmissingstrings'] = '未翻訳ストリング数: $a';
 $string['numberofstrings'] = '合計ストリング数: $a->strings<br />未翻訳数: $a->missing ($a->missingpercent&nbsp;%%)';
+$string['numquestions'] = '問題なし';
+$string['numquestionsandhidden'] = '$a->numquestions (+$a->numhidden 非表示)';
 $string['opensslrecommended'] = 'Moodleネットワーキング機能を有効にするため、OpenSSLライブラリのインストールを強くお勧めします。';
 $string['opentogoogle'] = 'Googleに公開する';
 $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセージ';
@@ -621,6 +628,8 @@ $string['quarantinedir'] = '隔離ディレクトリ';
 $string['question'] = '問題';
 $string['questioncwqpfscheck'] = '1つまたはそれ以上の小テストの「ランダム」問題が共有および非共有カテゴリから混在して選択されるよう設定されています。詳細レポートは<a href=\"$a->reporturl\">こちらを</a>ご覧ください。<a href=\"$a->docsurl\">こちら</a>でMoodle Docsページをご覧ください。';
 $string['questioncwqpfsok'] = '素晴らしい。あなたの小テストでは、共有および非共有カテゴリから混在して選択されるよう設定されている「ランダム」問題はありません。';
+$string['questiontype'] = '問題タイプ';
+$string['questiontypes'] = '問題タイプ';
 $string['rcache'] = 'レコードキャッシュ';
 $string['rcachettl'] = 'レコードキャッシュTTL';
 $string['recaptchaprivatekey'] = 'reCAPTCHAプライベートキー';
@@ -629,6 +638,7 @@ $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細�
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、言語パックを自動的にインストールできません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
 $string['requiredtemplate'] = '必須です。あなたはここでテンプレート構文 (%%l = 姓、%%f = 名、%%u = ユーザ名) を使用することができます。詳細および例に関して、ヘルプをご覧ください。';
+$string['requires'] = '必要条件';
 $string['restrictbydefault'] = 'モジュールをデフォルトで制限する';
 $string['restrictmodulesfor'] = 'モジュールの制限';
 $string['riskconfig'] = 'ユーザは、サイトの設定および動作を変更することができます。';
@@ -660,6 +670,7 @@ $string['sessioncookiepath'] = 'クッキーパス';
 $string['sessionhandling'] = 'セッションハンドリング';
 $string['sessiontimeout'] = 'タイムアウト';
 $string['showblocksonmodpages'] = 'モジュールページにブロックを表示する';
+$string['showdetails'] = '詳細を表示する';
 $string['simpletest'] = 'ユニットテスト';
 $string['sitelangchanged'] = 'サイト言語の設定が正常に完了しました。';
 $string['sitemailcharset'] = '文字セット';

@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
 
 
+$string['activeportfolios'] = 'アクティブポートフォリオ';
 $string['addalltoportfolio'] = 'すべてをポートフォリオに追加する';
 $string['addnewportfolio'] = '新しいポートフォリオを追加する';
 $string['addtoportfolio'] = 'ポートフォリオに追加する';
@@ -9,6 +10,7 @@ $string['alreadyexporting'] = 'このセッションでは、すでにアクテ�
 $string['availableformats'] = '利用可能なエクスポートフォーマット';
 $string['callercouldnotpackage'] = 'あなたのエクスポートするデータをパックアップできませんでした。';
 $string['cannotsetvisible'] = 'このインスタンスを表示できません - 設定が正しくないため、プラグインが完全に無効にされています。';
+$string['commonsettingsdesc'] = '<p>「中程度」または「高程度」の転送時間を必要だと見なされる状態に対して、ユーザが転送完了を待つことができるかどうか設定します。</p><p>「中程度」の閾値に達するまで、ユーザへの問いかけなしに処理が実行されます。また、「中程度」および「高程度」の転送では、ユーザに対してオプションが提示されますが、時間を要することが警告されます。</p><p>さらに、いくつかのポートフォリオプラグインでは、このオプションを完全に無視して、すべての転送を強制的にキューに入れる場合があります。</p>';
 $string['configexport'] = 'エクスポートデータの設定';
 $string['configplugin'] = 'ポートフォリオプラグインの設定';
 $string['configure'] = '設定';
@@ -38,6 +40,10 @@ $string['format_mbkp'] = 'Moodleバックアップフォーマット';
 $string['format_text'] = 'プレインテキスト';
 $string['format_video'] = 'ビデオ';
 $string['hidden'] = '非表示';
+$string['highdbsizethreshold'] = '高程度のデータベース転送サイズ';
+$string['highdbsizethresholddesc'] = 'この数を超えると高程度の転送時間が必要だと見なされるデータベースレコード数です。';
+$string['highfilesizethreshold'] = '高程度のファイル転送サイズ';
+$string['highfilesizethresholddesc'] = 'この閾値を超えると高程度の転送時間が必要だと見なされるファイルサイズです。';
 $string['instancedeleted'] = 'ポートフォリオが正常に削除されました。';
 $string['instanceismisconfigured'] = 'ポートフォリオインスタンスの設定が正しくありません、スキップ中。エラー内容は: $a';
 $string['instancenotdelete'] = 'ポートフォリオの削除に失敗しました。';
@@ -54,6 +60,10 @@ $string['invalidtempid'] = '無効なエクスポートIDです。おそらく�
 $string['invaliduserproperty'] = 'ユーザ設定プロパティ ($a->property - $a->class) が見つかりませんでした。';
 $string['manageportfolios'] = 'ポートフォリオの管理';
 $string['manageyourportfolios'] = 'あなたのポートフォリオの管理';
+$string['moderatedbsizethreshold'] = '中程度のデータベース転送サイズ';
+$string['moderatedbsizethresholddesc'] = 'この数を超えると中程度の転送時間が必要だと見なされるデータベースレコード数です。';
+$string['moderatefilesizethreshold'] = '中程度のファイル転送サイズ';
+$string['moderatefilesizethresholddesc'] = 'この閾値を超えると中程度の転送時間が必要だと見なされるファイルサイズです。';
 $string['multipledisallowed'] = '複数インスタンス ($a) が許可されないプラグインのインスタンスを作成しようと試みています。';
 $string['noavailableplugins'] = '申し訳ございません、あなたがエクスポートできるポートフォリオはありません。';
 $string['nocallbackfile'] = 'あなたがエクスポートを試みているモジュールが壊れているようです - 必要なファイル ($a) を見つけることができませんでした。';
