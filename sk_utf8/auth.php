@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // auth.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+
 
 $string['CASform'] = 'Voľba overovania';
 $string['accesCAS'] = 'používatelia CAS';
@@ -96,7 +97,7 @@ $string['auth_emaildescription'] = 'Emailové potvrdzovanie je prednastavený sp
 $string['auth_emailnoemail'] = 'Nepodarilo sa poslať Vám email!';
 $string['auth_emailnoinsert'] = 'Nemôžeme pridať Váš záznam do databázy!';
 $string['auth_emailnowexists'] = 'Nová emailová adresa, na ktorú ste si požiadali zmeniť svoje konto, už je používaná niekým iným. Vaša požiadavka na zmenu bola preto zrušená. Môžete požiadavku opakovať s odlišnou emailovou adresou.';
-$string['auth_emailrecaptcha'] = 'Pridáva formulár (audio)vizuálneho potvrdenia k stránke vytvorenia konta pre samoregistrujúcich sa používateľov s mailovým potvrdzovaním. Chráni váš portál proti spammerom. Viď http://recaptcha.net/learnmore.html pre viac informácií.';
+$string['auth_emailrecaptcha'] = 'Pridáva formulár (audio)vizuálneho potvrdenia k stránke vytvorenia konta pre samoregistrujúcich sa používateľov s mailovým potvrdzovaním. Chráni váš portál proti spammerom. Viď http://recaptcha.net/learnmore.html pre viac informácií.<br /><em>Vyžaduje PHP zásuvný modul cURL.</em>';
 $string['auth_emailrecaptcha_key'] = 'Povoliť prvok reCAPTCHA';
 $string['auth_emailsettings'] = 'Nastavenia';
 $string['auth_emailtitle'] = 'Emailové overovanie';
@@ -355,4 +356,5 @@ $string['update_never'] = 'Nikdy';
 $string['update_oncreate'] = 'Pri vytváraní';
 $string['update_onlogin'] = 'Pri každom prihlásení';
 $string['update_onupdate'] = 'Pri aktualizácii';
+
 ?>

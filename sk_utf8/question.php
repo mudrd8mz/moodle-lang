@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // question.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['adminreport'] = 'Správa o možných problémoch v databáze Vašich otázok';
@@ -84,6 +84,9 @@ $string['tofilecontext'] = 'Zapísať kontext do súboru';
 $string['unknown'] = 'Neznámy';
 $string['unknownquestiontype'] = 'Neznámy typ otázky: $a.';
 $string['unpublished'] = 'nezdieľaná';
+$string['upgradeproblemcategoryloop'] = 'Pri aktualizácii kategórií otázok sa vyskytol problém. V systéme kategórií je uzavretá slučka. Identifikátory kategórií, ktorých sa tento problém dotýka, sú $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Nepodarilo sa aktualizovať kategóriu otázok $a->name ($a->id).';
+$string['upgradeproblemunknowncategory'] = 'Pri aktualizácii kategórií otázok sa vyskytol problém. Kategória $a->id sa odkazuje na nadradenú kategóriu $a->parent, ktorá neexistuje. Nadradená kategória bola zmenená.';
 $string['yourfileshoulddownload'] = 'Váš vyexportovaný súbor sa začne čoskoro sťahovať. Ak nie, prosím <a href=\"$a\">kliknite sem</a>.';
 
 ?>

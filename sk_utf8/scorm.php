@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
+      // scorm.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['activation'] = 'Aktivácia';
@@ -88,12 +88,12 @@ $string['next'] = 'Pokračovať';
 $string['no_attributes'] = 'Tag $a->tag musí mať atribúty';
 $string['no_children'] = 'Tag $a->tag musí mať potomkov';
 $string['noactivity'] = 'Nič k zobrazeniu';
-$string['nolimit'] = 'Neobmezený počet pokusov';
+$string['nolimit'] = 'Neobmedzený počet pokusov';
 $string['nomanifest'] = 'Manifest nebol nájdený';
-$string['noprerequisites'] = 'Žiaľ, nespĺňate požadované predpoklady pre prístup k tomuto učebnému objektu.';
+$string['noprerequisites'] = 'Žiaľ, zatiaľ nespĺňate požadované predpoklady pre prístup k tomuto učebnému objektu.';
 $string['noreports'] = 'Žiadna správa na zobrazenie';
 $string['normal'] = 'Normálny';
-$string['noscriptnoscorm'] = 'Váš prehliadač nepodporuje javascript, alebo bola podpora javascriptu vo vašem prehliadači zakázaná. Nie je preto možné zaznamenať údaje o prechode objektom SCORM/AICC.';
+$string['noscriptnoscorm'] = 'Váš prehliadač nepodporuje javascript, alebo bola podpora javascriptu vo vašom prehliadači zakázaná. Nie je preto možné zaznamenať údaje o prechode objektom SCORM/AICC.';
 $string['not_corr_type'] = 'Nesúlad typov v tagu $a->tag';
 $string['notattempted'] = 'Bez pokusov';
 $string['objectives'] = 'Ciele';
