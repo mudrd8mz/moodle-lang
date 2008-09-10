@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.1+ (Build: 20080625) (2007101514)
+      // quiz.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
 
 
 $string['1day'] = '1 deň';
@@ -206,7 +206,7 @@ Jeho výsledky sú dostupné na stránke $a->quizreviewurl.';
 $string['emailnotifysubject'] = 'Študent $a->studentname odovzdal test
 \'$a->quizname\'.';
 $string['errorinquestion'] = 'Chyba v otázke';
-$string['errormissingquestion'] = 'Chyba: V systéme chába otázka s id $a';
+$string['errormissingquestion'] = 'Chyba: V systéme chýba otázka s id $a';
 $string['errornotnumbers'] = 'Chyba - odpoveď musí byť číselného typu';
 $string['errorsdetected'] = '$a chyba(chyby) nájdené';
 $string['essay'] = 'Esej';

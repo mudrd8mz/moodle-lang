@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // grades.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
 
 
 $string['activities'] = 'Aktivity';
@@ -427,7 +427,7 @@ $string['savepreferences'] = 'Uložiť preferencie';
 $string['scaledpct'] = 'Škálované  %%';
 $string['scaleidhelp'] = 'Pri použití hodnotenia typu stupnice je potrebné vybrať stupnicu. Ak je stupnica viazaná k hodnoteniu viazaného na aktivitu, je vyberaná na stránke aktivity.';
 $string['scalestandardhelp'] = 'Štandardná stupnica je dostupná vo všetkých kurzoch na portáli';
-$string['seeallcoursegrades'] = 'Vidieť známky zo všetkých kurzov';
+$string['seeallcoursegrades'] = 'Vidieť všetky známky v kurze';
 $string['selectalloroneuser'] = 'Vybrať všetkých alebo jedného používateľa';
 $string['selectdestination'] = 'Vybrať cieľ pre $a';
 $string['separator'] = 'Oddeľovač';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // moodle.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -720,14 +720,14 @@ $string['guestsnotallowed'] = 'Prepáčte, \'$a\' nepovoľuje vstup hostí.';
 $string['guestsyes'] = 'Povoliť vstup hostí bez kľúča';
 $string['guestuser'] = 'Hosťovský používateľ';
 $string['guestuserinfo'] = 'Tento používateľ je zvláštnym používateľom, ktorý má prístup len na čítanie do niektorých kurzov.';
-$string['healthcenter'] = 'Poliklinika';
-$string['healthnoproblemsfound'] = 'Neboli nájdené zdravotné problémy!';
-$string['healthproblemsdetected'] = 'Boli nájdené zdravotné problémy!';
-$string['healthproblemsolution'] = 'Riešenie zdravotného problému';
+$string['healthcenter'] = 'Riešenie problémov';
+$string['healthnoproblemsfound'] = 'Neboli nájdené problémy!';
+$string['healthproblemsdetected'] = 'Boli nájdené problémy!';
+$string['healthproblemsolution'] = 'Riešenie problému';
 $string['healthreturntomain'] = 'Pokračovať';
 $string['healthsolution'] = 'Riešenie';
 $string['help'] = 'Pomoc';
-$string['helpemoticons'] = 'Používajte smajlíkov';
+$string['helpemoticons'] = 'Používajte smajlíky';
 $string['helpformatting'] = 'O formátovaní textu';
 $string['helphtml'] = 'Ako písať html';
 $string['helpindex'] = 'Zoznam všetkých súborov Pomocníka';
