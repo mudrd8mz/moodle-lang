@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -447,6 +447,7 @@ $string['editorhelptopics'] = 'エディタヘルプトピックス';
 $string['editorresettodefaults'] = 'デフォルト値にリセットする';
 $string['editorsettings'] = 'エディタ設定';
 $string['editorshortcutkeys'] = 'エディタショートカットキー';
+$string['editremoteprofile'] = 'リモートプロファイルを編集する';
 $string['editsummary'] = '要約の編集';
 $string['editthisactivity'] = '活動の編集';
 $string['editthiscategory'] = 'カテゴリの編集';
@@ -1203,7 +1204,7 @@ $string['registrationsend'] = 'moodle.orgに登録情報を送信する。';
 $string['registrationyes'] = 'はい、重要事項を知らせてください。';
 $string['reject'] = '拒否';
 $string['reload'] = 'リロード';
-$string['remotemaharauser'] = 'リモートMaharaユーザ';
+$string['remoteappuser'] = 'リモート $a ユーザ';
 $string['remove'] = '削除';
 $string['removeadmin'] = '管理者を削除する';
 $string['removecreator'] = 'コース作成者を削除する';
@@ -1628,6 +1629,7 @@ $string['yourlastlogin'] = 'あなたの最終ログイン';
 $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
+$string['remotemaharauser'] = 'リモートMaharaユーザ'; //TBD
 $string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; //TBD
 $string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD
 $string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -18,6 +18,8 @@ $string['back'] = '&lt; 戻る';
 $string['cachecleared'] = 'キャッシュファイルが削除されました。';
 $string['cacheexpire'] = 'キャッシュ有効期限';
 $string['cleancache'] = 'キャッシュファイルを削除する';
+$string['clicktohide'] = '非表示にするには、ここをクリックしてください。';
+$string['clicktoshow'] = '表示するには、ここをクリックしてください。';
 $string['close'] = '閉じる';
 $string['configcacheexpire'] = '外部リポジトリの閲覧時、ファイルリストがローカルにキャッシュされる時間 (秒) です。';
 $string['configsaved'] = '設定が保存されました!';

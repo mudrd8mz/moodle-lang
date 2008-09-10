@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
 
 
 $string['apikey'] = 'APIキー';
@@ -17,6 +17,7 @@ $string['password'] = 'あなたのbox.netパスワード (保存されません
 $string['pluginname'] = 'Box.netインターネットストレージ';
 $string['sharedfolder'] = 'Shared';
 $string['targetfolder'] = 'ターゲットフォルダ';
+$string['tobecreated'] = '作成予定';
 $string['username'] = 'あなたのbox.netユーザ名 (保存されません)';
 
 ?>

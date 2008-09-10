@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080830) (2008082900)
+      // role.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -25,6 +25,7 @@ $string['category:create'] = 'カテゴリを作成する';
 $string['category:delete'] = 'カテゴリを削除する';
 $string['category:update'] = 'カテゴリを更新する';
 $string['category:visibility'] = '非表示のカテゴリを表示する';
+$string['context'] = 'コンテクスト';
 $string['course:activityvisibility'] = '活動を表示/非表示する';
 $string['course:bulkmessaging'] = '多くのユーザにメッセージを送信する';
 $string['course:create'] = 'コースを作成する';
