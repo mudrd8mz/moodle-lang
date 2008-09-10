@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // bulkusers.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+
 
 $string['addall'] = 'Pridať všetkých';
 $string['addsel'] = 'Pridať k výberu';
@@ -15,6 +16,7 @@ $string['removesel'] = 'Odstrániť z výberu';
 $string['selected'] = 'Vybraní';
 $string['selectedlist'] = 'Zoznam vybraných používateľov...';
 $string['usersfound'] = '$a používatelia nájdení.';
-$string['usersinlist'] = 'Používatelia v zozname';
+$string['usersinlist'] = 'Výber používateľov';
 $string['usersselected'] = '$a používateľov vybraných.';
+
 ?>
