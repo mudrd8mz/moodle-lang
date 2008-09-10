@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.1+ (Build: 20080625) (2007101514)
+      // error.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['adminprimarynoedit'] = 'Ostatní administrátori nemôžu upravovať údaje hlavného administrátora';
@@ -58,8 +58,9 @@ $string['invalidipformat'] = 'Nesprávna IP adresa';
 $string['invalidmd5'] = 'Neplatný MD5 hash';
 $string['invalidrequest'] = 'Neplatná požiadavka';
 $string['invalidrole'] = 'Neplatná rola';
+$string['invalidsesskey'] = 'Formulár nebol akceptovaný z dôvodu neplatného kľúča sedenia (session)';
 $string['invalidurl'] = 'Neplatný parameter URL.';
-$string['invalidxmlfile'] = '\"$a\" není platný XML soubor';
+$string['invalidxmlfile'] = '\"$a\" nie je platný XML soubor';
 $string['iplookupfailed'] = 'Nie je možné nájsť geografickú informáciu o tento IP adrese $a.';
 $string['iplookupprivate'] = 'Nie je možné zobraziť vyhľadávanie súkromnej IP adresy';
 $string['listcantmovedown'] = 'Neúspešné presunutie položky nižšie, je to posledný prvok.';

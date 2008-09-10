@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
+      // filters.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['actfilterhdr'] = 'Aktívne filtre';
 $string['addfilter'] = 'Pridať filter';
 $string['anycategory'] = 'ľubovoľná kategória';
-$string['anycourse'] = 'ľovoboľný kurz';
-$string['anyfield'] = 'ľovoboľné pole';
-$string['anyrole'] = 'ľovoboľná rola';
-$string['anyvalue'] = 'ľovoboľná hodnota';
+$string['anycourse'] = 'ľubovoľný kurz';
+$string['anyfield'] = 'ľubovoľné pole';
+$string['anyrole'] = 'ľubovoľná rola';
+$string['anyvalue'] = 'ľubovoľná hodnota';
 $string['categoryrole'] = 'Rola v kategórii';
 $string['contains'] = 'obsahuje';
 $string['courserole'] = 'Rola v kurze';
