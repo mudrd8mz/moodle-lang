@@ -62,6 +62,7 @@ $string['openpicker'] = 'ファイルを選択する ...';
 $string['operation'] = '操作';
 $string['personalrepositories'] = 'パーソナルリポジトリ';
 $string['plugin'] = 'リポジトリプラグイン';
+$string['popup'] = 'ログインのためポップアップウィンドウを開く';
 $string['preview'] = 'プレビュー';
 $string['refresh'] = 'リフレッシュ';
 $string['removed'] = 'リポジトリが削除されました。';
