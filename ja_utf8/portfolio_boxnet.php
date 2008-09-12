@@ -15,6 +15,7 @@ $string['notarget'] = 'あなたは、ファイルをアップロードする既
 $string['noticket'] = '認証を開始するためのチケットをbox.netから取得できませんでした。';
 $string['password'] = 'あなたのbox.netパスワード (保存されません)';
 $string['pluginname'] = 'Box.netインターネットストレージ';
+$string['sendfailed'] = 'コンテクストをbox.netに送信できませんでした: $a';
 $string['sharedfolder'] = '共有';
 $string['sharefile'] = 'このファイルを共有しますか?';
 $string['sharefolder'] = 'この新しいフォルダを共有しますか?';

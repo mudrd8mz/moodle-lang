@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
 
 
 $string['allattempts'] = 'すべての受験を表示する';
@@ -49,5 +49,6 @@ $string['showdetailedmarks'] = '問題の最大評点を表示/ダウンロー�
 $string['showinggraded'] = '各ユーザの評定済みおよび未評定の受験を表示しています。';
 $string['showinggradedandungraded'] = '各ユーザの評定済みおよび未評定の受験を表示しています。評定済みの受験は、ハイライトされています。この小テストの評定方法は、$a です。';
 $string['studentingroup'] = 'グループ「 $a->groupname 」の「 $a->coursestudent 」';
+$string['studentingrouplong'] = 'このグループの「 $a->coursestudent 」';
 
 ?>
