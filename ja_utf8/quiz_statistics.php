@@ -1,24 +1,27 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
 
 
 $string['allattempts'] = 'すべての受験';
 $string['allattemptsavg'] = 'すべての受験評点の平均値';
 $string['allattemptscount'] = '受験総数';
 $string['analysisofresponses'] = '解答分析';
+$string['analysisofresponsesfor'] = '$a の解答に関する分析';
 $string['attempts'] = '受験';
 $string['attemptsall'] = 'すべての受験';
 $string['attemptsfirst'] = '最初の受験';
+$string['backtoquizreport'] = 'メイン統計レポートページに戻る';
 $string['calculatefrom'] = '統計計算:';
 $string['cic'] = '内部整合性係数 ($a)';
+$string['count'] = 'カウント';
 $string['coursename'] = 'コース名';
 $string['detailedanalysis'] = 'この問題に対する解答の詳細分析';
 $string['discrimination_index'] = '識別指数';
 $string['discriminative_efficiency'] = '識別率';
+$string['downloadeverything'] = '次のフォーマットでダウンロードする';
 $string['duration'] = '公開期間';
 $string['effective_weight'] = '有効加重';
-$string['errordeletingqstats'] = '古いquiz_question_statisticsレコードの削除中にエラーが発生しました。';
-$string['errordeletingquizstats'] = '古いquiz_statisticsレコードの削除中にエラーが発生しました。';
+$string['errordeleting'] = '古い $a レコード削除中にエラーが発生しました。';
 $string['erroritemappearsmorethanoncewithdifferentweight'] = '問題 ($a) では、小テストの異なる位置において、1つ以上の異なる加重が設定されています。現在、統計レポートで、このような設定はサポートされていません。また、この小テスト統計の信頼性が損なわれる恐れがあります。';
 $string['errormedian'] = '中央値の取得中にエラーが発生しました。';
 $string['errorpowerquestions'] = '問題評点の分散を計算するデータの取得中にエラーが発生しました。';
@@ -30,11 +33,13 @@ $string['facility'] = 'ファシリティ指標';
 $string['firstattempts'] = '最初の受験';
 $string['firstattemptsavg'] = '最初の受験評点の平均値';
 $string['firstattemptscount'] = '最初の受験数';
+$string['frequency'] = '頻度';
 $string['intended_weight'] = '意図された問題加重';
 $string['kurtosis'] = '評点分布の尖度 ($a)';
 $string['lastcalculated'] = '最終計算日時 $a->lastcalculated より $a->count attempts 件の受験がありました。';
 $string['median'] = '評点の中央値 ($a)';
 $string['nostudentsingroup'] = 'このグループには、まだ学生が登録されていません。';
+$string['optiongrade'] = '部分点';
 $string['position'] = 'ポジション';
 $string['positions'] = 'ポジション';
 $string['questioninformation'] = '問題情報';
@@ -48,6 +53,7 @@ $string['quizoverallstatistics'] = '小テスト全体の統計';
 $string['quizstructureanalysis'] = '問題構造分析';
 $string['random_guess_score'] = '当てずっぽうの評点';
 $string['recalculatenow'] = '再計算する';
+$string['response'] = '解答';
 $string['skewness'] = '評点分布の歪み ($a)';
 $string['standarddeviation'] = '標準偏差 ($a)';
 $string['standarddeviationq'] = '標準偏差';
@@ -56,6 +62,8 @@ $string['statistics'] = '統計';
 $string['statisticsreport'] = '統計レポート';
 $string['statisticsreportgraph'] = '問題ポジションの統計';
 $string['statsfor'] = '小テスト統計 ($a)';
+$string['errordeletingqstats'] = '古いquiz_question_statisticsレコードの削除中にエラーが発生しました。'; //TBD
+$string['errordeletingquizstats'] = '古いquiz_statisticsレコードの削除中にエラーが発生しました。'; //TBD
 $string['noofallattempts'] = '合計受験数'; //TBD
 $string['nooffirstattempts'] = '最初の受験数'; //TBD
 $string['statsforallattempts'] = 'すべての受験の統計'; //TBD

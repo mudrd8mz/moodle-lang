@@ -61,6 +61,7 @@ $string['invalidtempid'] = '無効なエクスポートIDです。おそらく�
 $string['invaliduserproperty'] = 'ユーザ設定プロパティ ($a->property - $a->class) が見つかりませんでした。';
 $string['manageportfolios'] = 'ポートフォリオの管理';
 $string['manageyourportfolios'] = 'あなたのポートフォリオの管理';
+$string['missingcallbackarg'] = 'クラス $a->class のコールバック変数 $a->arg がありません。';
 $string['moderatedbsizethreshold'] = '中程度のデータベース転送サイズ';
 $string['moderatedbsizethresholddesc'] = 'この数を超えると中程度の転送時間が必要だと見なされるデータベースレコード数です。';
 $string['moderatefilesizethreshold'] = '中程度のファイル転送サイズ';

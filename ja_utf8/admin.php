@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -47,6 +47,9 @@ $string['cachetext'] = 'テキストキャッシュ保存時間';
 $string['cachetype'] = 'キャッシュタイプ';
 $string['calendar_weekend'] = '週末日';
 $string['calendarsettings'] = 'カレンダー';
+$string['cannotdeletemissingqtype'] = 'システムで必要なため、あなたは不明な問題タイプを削除することはできません。';
+$string['cannotdeleteqtypeinuse'] = 'あなたは、問題タイプ「 $a 」を削除することはできません。このタイプの問題が問題バンクに登録されています。';
+$string['cannotdeleteqtypeneeded'] = 'あなたは、問題タイプ「 $a 」を削除することはできません。この問題タイプに依存する他の問題タイプがインストールされています。';
 $string['cfgwwwrootslashwarning'] = 'あなたは、config.phpファイルの \$CFG->wwwroot を正しく定義していません。末尾に「/」文字を含めています。「/」文字を取り除いてください。取り除かない場合、<a href=\"http://tracker.moodle.org/browse/MDL-11061\">MDL-11061</a>のようなバグが発生する可能性があります。';
 $string['cfgwwwrootwarning'] = 'あなたは、config.phpファイルの \$CFG->wwwroot を正しく定義していません。あなたがこのページにアクセスしているURIと合致しません。URIを修正してください。修正しない場合、<a href=\"http://tracker.moodle.org/browse/MDL-11061\">MDL-11061</a>のようなバグが発生する可能性があります。';
 $string['change'] = '変更';
@@ -311,8 +314,11 @@ $string['defaultuserroleid'] = 'すべてのユーザのデフォルトロール
 $string['defaultvalues'] = 'デフォルト値';
 $string['deleteerrors'] = '削除エラー';
 $string['deleteincompleteusers'] = '不完全なユーザを削除する日数';
+$string['deleteqtypeareyousure'] = '本当に問題タイプ「 $a 」を削除してもよろしいですか?';
+$string['deleteqtypeareyousuremessage'] = 'あなたは、問題タイプ「 $a 」を完全に削除しようとしています。本当にアンインストールしてもよろしいですか?';
 $string['deleteunconfirmed'] = 'セットアップ未了のユーザを削除する日数';
 $string['deleteuser'] = 'ユーザを削除する';
+$string['deletingqtype'] = '問題タイプ「 $a 」の削除中';
 $string['density'] = '密度';
 $string['denyemailaddresses'] = '拒否されたメールアドレスのドメイン';
 $string['development'] = '開発';
@@ -363,6 +369,7 @@ $string['environmentrequirecustomcheck'] = 'このテストはパスする必要
 $string['environmentrequireinstall'] = '必ずインストールおよび有効化してください。';
 $string['environmentrequireversion'] = 'バージョン $a->needed 以上が必須です。あなたは現在 $a->current を使用しています。';
 $string['environmentxmlerror'] = '環境データ ($a->error_code) の読み込み中にエラーが発生しました。';
+$string['errordeletingconfig'] = 'プラグイン「 $a 」の設定レコード削除中にエラーが発生しました。';
 $string['errors'] = 'エラー';
 $string['errorsetting'] = '設定を保存できませんでした:';
 $string['errorwithsettings'] = 'エラーが発生したため、いくつかの設定は変更されませんでした:';
@@ -622,6 +629,7 @@ $string['proxypassword'] = 'プロクシパスワード';
 $string['proxyport'] = 'プロクシポート';
 $string['proxytype'] = 'プロクシタイプ';
 $string['proxyuser'] = 'プロクシユーザ名';
+$string['qtypedeletefiles'] = '問題タイプ「 $a->qtype 」に関連する、すべてのデータがデータベースから削除されました。削除を完了する (および問題タイプの再インストールを防ぐ) には、あなたのサーバより次のディレクトリを削除する必要があります: $a->directory';
 $string['qtyperqpwillberemoved'] = 'アップグレード中、RQP問題タイプは削除されます。あなたはこの問題タイプを使用していませんので、トラブルが発生することはありません。';
 $string['qtyperqpwillberemovedanyway'] = 'アップグレード中、RQP問題タイプは削除されます。あなたのデータベース内にRQP問題タイプが登録されています。アップグレードを続ける前に、 http://moodle.org/mod/data/view.php?d=13&amp;rid=797 から対応するプログラムをインストールしない場合、これらの問題は動作しなくなります。';
 $string['quarantinedir'] = '隔離ディレクトリ';
@@ -651,6 +659,7 @@ $string['riskspam'] = 'ユーザは、サイトユーザまたはそれ以外に
 $string['riskspamshort'] = 'スパムリスク';
 $string['riskxss'] = 'ユーザは、クロスサイトスクリプティング (XSS) を許すファイルおよびテキストを追加することができます。';
 $string['riskxssshort'] = 'XSSリスク';
+$string['roleswithexceptions'] = '$a->roles および $a->exceptions';
 $string['rowpreviewnum'] = 'プレビュー行';
 $string['rssglobaldisabled'] = 'サーバレベルで無効済み';
 $string['runclamavonupload'] = 'アップロードファイルにclam AVを使用する';
@@ -723,6 +732,7 @@ $string['unicoderequired'] = 'あなたのすべてのデータをユニコー�
 $string['unicodeupgradenotice'] = 'Moodle1.6で、私たちはすべての言語をユニコードに移行しました。このサイトのアップグレードを完了するには、移行スクリプトを使用して、データベースのすべてのデータをユニコード (UTF-8) にコンバートする必要があります。<a href=\"utfdbmigrate.php\">移行スクリプトを実行するには、ここをクリックしてください</a>!';
 $string['uninstall'] = '選択された言語パックをアンインストールする';
 $string['uninstallconfirm'] = 'あなたは言語パック $a を完全にアンインストールしようとしています。本当によろしいですか?';
+$string['uninstallqtype'] = 'この問題タイプを削除します。';
 $string['unsupported'] = '未サポート';
 $string['updateaccounts'] = '既存のアカウントを更新する';
 $string['updatecomponent'] = 'コンポーネントを更新する';
