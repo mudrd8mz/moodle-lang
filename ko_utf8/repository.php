@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -18,6 +18,8 @@ $string['back'] = '&lt; 뒤로';
 $string['cachecleared'] = '임시파일 제거됨';
 $string['cacheexpire'] = '캐쉬 기한만료';
 $string['cleancache'] = '내 임시파일 정리';
+$string['clicktohide'] = '감추려면 클릭';
+$string['clicktoshow'] = '보이게 하려면 클릭';
 $string['close'] = '닫기';
 $string['configcacheexpire'] = '캐쉬 기한 설정';
 $string['configsaved'] = '설정 저장됨!';
@@ -60,6 +62,7 @@ $string['openpicker'] = '파일 열기 프로그램';
 $string['operation'] = '작동';
 $string['personalrepositories'] = '개인 저장소';
 $string['plugin'] = '저장 플러그인';
+$string['popup'] = '로그인시 팝업창 열기';
 $string['preview'] = '미리보기';
 $string['refresh'] = '다시 읽음';
 $string['removed'] = '저장소 제거됨';

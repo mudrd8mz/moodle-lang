@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080908) (2008090800)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -33,6 +33,7 @@ $string['bynameondate'] = '$a->date 에 $a->name 씀';
 $string['cannotadddiscussion'] = '포럼에 의견을 제시하려면 모둠의 구성원이어야 합니다.';
 $string['cannotadddiscussionall'] = '참여자를 위한 토론 주제 추가 권한이 없습니다.';
 $string['cannotaddsubscriber'] = '이 포럼에 id $a 인 구독자를 추가할 수 없음!';
+$string['cannotdeleteforummodule'] = '포럼 모듈을 삭제할 수 없습니다.';
 $string['cannotfindfirstpost'] = '이 포럼의 첫 게시물을 찾을 수 없음';
 $string['cannotfindorcreateforum'] = '사이트의 주 뉴스 포럼을 만들거나 찾을 수 없음';
 $string['cannotremovesubscriber'] = '이 포럼에서 id $a 인 구독자를 제거할 수 없음!';
