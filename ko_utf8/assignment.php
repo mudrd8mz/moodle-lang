@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080819) (2008081600)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080913) (2008091000)
 
 
 $string['allowdeleting'] = '삭제 허용';
@@ -67,6 +67,7 @@ $string['hideintro'] = '시작 일시 전에는 설명 감춤';
 $string['invalidassignment'] = '틀린 과제';
 $string['invalidid'] = '과제의 ID가 틀렸음';
 $string['invalidtype'] = '틀린 과제 유형';
+$string['invaliduserid'] = '잘못된 사용자 ID';
 $string['itemstocount'] = '갯수';
 $string['late'] = '$a 늦음';
 $string['maximumgrade'] = '최대 점수';

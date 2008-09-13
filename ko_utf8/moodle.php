@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080823) (2008081900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080913) (2008091000)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -448,6 +448,7 @@ $string['editorhelptopics'] = '도움말 항목 편집기';
 $string['editorresettodefaults'] = '기본값으로 재설정';
 $string['editorsettings'] = '편집기 설정';
 $string['editorshortcutkeys'] = '편집 단축키';
+$string['editremoteprofile'] = '원격 신상명세 편집';
 $string['editsummary'] = '요약 고치기';
 $string['editthisactivity'] = '이 활동 고치기';
 $string['editthiscategory'] = '이 범주 고치기';
@@ -1181,7 +1182,7 @@ $string['registrationsend'] = 'moodle.org에 등록 정보 보내기';
 $string['registrationyes'] = '예, 중요한 사항을 나에게 알려주세요.';
 $string['reject'] = '거절';
 $string['reload'] = '다시 로딩';
-$string['remotemaharauser'] = '원격 Mahara 사용자';
+$string['remoteappuser'] = '원격 $a 사용자';
 $string['remove'] = '삭제';
 $string['removeadmin'] = '관리자 삭제';
 $string['removecreator'] = '강좌 생성자 삭제';
@@ -1191,6 +1192,7 @@ $string['rename'] = '새이름으로';
 $string['renamefileto'] = '<b>$a</b>를 새이름으로 고침';
 $string['report'] = '보고서';
 $string['reports'] = '보고서';
+$string['repositories'] = '저장소';
 $string['requestcourse'] = '개설 요청';
 $string['requestedby'] = '요청자:';
 $string['requestreason'] = '개설 요청 이유';
@@ -1606,7 +1608,7 @@ $string['yourlastlogin'] = '마지막 로그인';
 $string['yourself'] = '당신자신';
 $string['yourteacher'] = '당신의 $a';
 $string['zippingbackup'] = '백업 압축하기';
-$string['repositories'] = '저장소'; // ORPHANED
+$string['remotemaharauser'] = '원격 Mahara 사용자'; // ORPHANED
 $string['repositoriesmanage'] = '저장소 관리'; // ORPHANED
 $string['nostatstodisplay'] = '사용가능한 데이터가 없습니다. 죄송합니다.'; // ORPHANED
 $string['skiptomaincontent'] = '목차로 이동'; // ORPHANED

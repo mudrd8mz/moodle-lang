@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20080913) (2008091000)
 
 
 $string['apikey'] = 'API 키(Box.net에서 얻어야 함)';
@@ -15,6 +15,7 @@ $string['notarget'] = '기존의 폴더와 새 폴더를 지정해야만 함';
 $string['noticket'] = 'box.net에서 인증 세션을 시작할 키를 확보할 수 없음';
 $string['password'] = 'box.net 비밀번호(저장되지 않음)';
 $string['pluginname'] = 'Box.net 저장고';
+$string['sendfailed'] = 'box.net에 $a 전송 실패';
 $string['sharedfolder'] = '공유폴더';
 $string['sharefile'] = '이 파일을 공유하겠습니까?';
 $string['sharefolder'] = '새 폴더를 공유하겠습니까?';

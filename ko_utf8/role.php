@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080829) (2008082702)
+      // role.php - created with Moodle 2.0 dev (Build: 20080913) (2008091000)
 
 
 $string['addrole'] = '역할 추가';
@@ -25,6 +25,7 @@ $string['category:create'] = '범주 만들기';
 $string['category:delete'] = '범주 삭제';
 $string['category:update'] = '범주 갱신';
 $string['category:visibility'] = '숨겨진 범주 보기';
+$string['context'] = '영역';
 $string['course:activityvisibility'] = '활동 공개/비공개';
 $string['course:bulkmessaging'] = '여러 사람에게 메시지 발송';
 $string['course:create'] = '강좌 생성';
