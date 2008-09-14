@@ -20,6 +20,7 @@ $string['allowsdiscussions'] = 'Tout le monde peut commencer une nouvelle discus
 $string['allsubscribe'] = 'S\'abonner à tous les forums';
 $string['allunsubscribe'] = 'Se désabonner de tous les forums';
 $string['anyfile'] = 'Tout fichier';
+$string['areaintro'] = 'Descriptif du forum';
 $string['attachment'] = 'Annexe';
 $string['attachments'] = 'Annexes';
 $string['attachmentnopost'] = 'Vous ne pouvez pas exporter les annexes sans identifiant de message';
