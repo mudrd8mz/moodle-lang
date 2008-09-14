@@ -1,8 +1,11 @@
 <?php // $Id$
 
+$string['addingmultianswer'] = 'Ajout d\'une question Cloze';
 $string['correctanswer'] = 'Réponse correcte';
 $string['correctanswerandfeedback'] = 'Réponse correcte et feedback';
 $string['decodeverifyquestiontext'] = 'Décoder et vérifier le texte de la question';
+$string['editingmultianswer'] = 'Modification d\'une question Cloze';
+$string['multianswer'] = 'Question Cloze';
 $string['nooptionsforsubquestion'] = 'Impossible d\'obtenir les options de la partie de question no $a->sub (question->id={$a->id})';
 $string['noquestions'] = 'La question Cloze (multianswer) «&nbsp;<strong>$a</strong>&nbsp;» ne contient aucune question';
 $string['qtypenotrecognized'] = 'Le type de question $a est inconnu';
