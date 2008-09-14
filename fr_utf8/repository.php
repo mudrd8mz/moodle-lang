@@ -80,5 +80,6 @@ $string['typenotvisible'] = 'Type non visible';
 $string['updown'] = 'Ordre d\'affichage';
 $string['upload'] = 'Déposer ce fichier';
 $string['uploading'] = 'En cours de dépôt...';
+$string['wrongcontext'] = 'Vous ne pouvez pas accéder à ce contexte';
 
 ?>
