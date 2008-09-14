@@ -20,7 +20,7 @@ $string['cachecleared'] = 'Les fichiers en cache ont été supprimés';
 $string['cacheexpire'] = 'Échéance du cache';
 $string['cleancache'] = 'Nettoyer les fichiers en cache';
 $string['close'] = 'Fermer';
-$string['configcacheexpire'] = 'Configurer la durée avant échéance du cache (en minutes).';
+$string['configcacheexpire'] = 'Durée (en secondes) pendant laquelle les listes de fichiers sont mises localement en cache lors de la consultation de dépôts externes.';
 $string['configsaved'] = 'Configuration enregistrée&nbsp;!';
 $string['confirmdelete'] = 'Voulez-vous vraiment supprimer le dépôt $a&nbsp;?';
 $string['confirmremove'] = 'Voulez-vous vraiment supprimer le plugin de dépôt $a, ses réglages et <strong style=color:red>toutes ces instances</strong>&nbsp;?';
