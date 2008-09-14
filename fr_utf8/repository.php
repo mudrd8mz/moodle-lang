@@ -1,6 +1,6 @@
 <?php // $Id$
 
-// Terme actuellement choisi pour "repositories" : dépôt
+// Terme actuellement choisi pour "repository" : dépôt
 // Autres possibilités à envisager : entrepôt, stockage, zone de dépôt, ...
 
 $string['activaterep'] = 'Activer les dépôts de documents';
@@ -47,8 +47,10 @@ $string['manageurl'] = 'Gestion';
 $string['manageuserrepository'] = 'Gérer le dépôt personnel';
 $string['noenter'] = 'Pas de saisie';
 $string['nopermissiontoaccess'] = 'Pas d\'autorisation d\'accéder à ce dépôt';
+$string['notyourinstances'] = 'Vous ne pouvez pas voir ni modifier les instances de dépôts d\'un autre utilisateur';
 $string['openpicker'] = 'Choisir un fichier...';
 $string['operation'] = 'Opération';
+$string['personalrepositories'] = 'Dépôts personels';
 $string['plugin'] = 'Plugins de dépôt';
 $string['preview'] = 'Prévisualiser';
 $string['removed'] = 'Dépôt supprimé';
