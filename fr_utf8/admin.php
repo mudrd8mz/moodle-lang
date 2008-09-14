@@ -291,6 +291,7 @@ $string['dbmigratewarning2'] = '<b>Attention&nbsp;! Vous êtes sur le point de c
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Cette base de données a été convertie en une nouvelle base de données UTF8. Elle n\'est plus utilisable avec cette version de Moodle. Veuillez modifier votre fichier config.php et utiliser la nouvelle base de données pour ce moodle.</font>';
 $string['dbmigrationdupfailed'] = 'La duplication de la base de données a échoué. L\'erreur est vraisemblablement&nbsp;: <font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['dbsessions'] = 'Stocker les informations de session dans la base de données';
+$string['dbtest'] = 'Test fonctionnels de la base de données';
 $string['debug'] = 'Messages de débogage';
 $string['debugall'] = 'Tout&nbsp;: afficher tous les messages de débogage de PHP';
 $string['debugdeveloper'] = 'Développeur&nbsp;: afficher tous les messages de débogage de Moodle';
@@ -313,6 +314,7 @@ $string['deleteunconfirmed'] = 'Supprimer les utilisateurs non confirmés après
 $string['deleteuser'] = 'Supprimer l\'utilisateur';
 $string['density'] = 'Densité';
 $string['denyemailaddresses'] = 'Domaines courriel interdits';
+$string['development'] = 'Développement';
 $string['digestmailtime'] = 'Heure d\'envoi des messages résumés';
 $string['disablecourseajax'] = 'Désactiver l\'édition AJAX';
 $string['disableuserimages'] = 'Désactiver les images des utilisateurs';
