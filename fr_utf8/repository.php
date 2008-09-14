@@ -13,6 +13,7 @@ $string['areacourseintro'] = 'Descriptif du cours';
 $string['arearoot'] = 'Système';
 $string['areauserdraft'] = 'Brouilons';
 $string['areauserpersonal'] = 'Personnel';
+$string['areauserprofile'] = 'Profil';
 $string['attachment'] = 'Annexe';
 $string['back'] = '&lt; Retour';
 $string['cachecleared'] = 'Les fichiers en cache ont été supprimés';
