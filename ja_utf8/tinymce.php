@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tinymce.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // tinymce.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
 
 
 $string['main/advhr:advhr_desc'] = '水平方向の罫線';
@@ -261,13 +261,13 @@ $string['plugins/fullpage_dlg:ltr'] = '左 >> 右';
 $string['plugins/fullpage_dlg:media'] = 'メディア';
 $string['plugins/fullpage_dlg:meta_description'] = '説明';
 $string['plugins/fullpage_dlg:meta_element'] = 'Meta要素';
-$string['plugins/fullpage_dlg:meta_index_follow'] = 'このページおよびリンク先の巡回を許可する';
-$string['plugins/fullpage_dlg:meta_index_nofollow'] = 'このページの巡回を許可およびリンク先の巡回を禁止する';
+$string['plugins/fullpage_dlg:meta_index_follow'] = 'リンクのインデックスおよび巡回を許可する';
+$string['plugins/fullpage_dlg:meta_index_nofollow'] = 'リンクのインデックスを許可、巡回を禁止する';
 $string['plugins/fullpage_dlg:meta_keywords'] = 'キーワード';
-$string['plugins/fullpage_dlg:meta_noindex_follow'] = 'このページの巡回を禁止およびリンク先の巡回を許可する';
-$string['plugins/fullpage_dlg:meta_noindex_nofollow'] = 'このページおよびリンク先の巡回を禁止する';
+$string['plugins/fullpage_dlg:meta_noindex_follow'] = 'リンクのインデックスを禁止、巡回を許可する';
+$string['plugins/fullpage_dlg:meta_noindex_nofollow'] = 'リンクのインデックスおよび巡回を禁止する';
 $string['plugins/fullpage_dlg:meta_props'] = 'メタ情報';
-$string['plugins/fullpage_dlg:meta_robots'] = 'ロボットの制御';
+$string['plugins/fullpage_dlg:meta_robots'] = 'ロボット';
 $string['plugins/fullpage_dlg:meta_tab'] = '一般';
 $string['plugins/fullpage_dlg:meta_title'] = 'タイトル';
 $string['plugins/fullpage_dlg:movedown'] = '選択した要素を下へ移動する';
@@ -339,8 +339,8 @@ $string['plugins/media_dlg:flv_loop'] = '繰り返し再生';
 $string['plugins/media_dlg:flv_options'] = 'Flashビデオオプション';
 $string['plugins/media_dlg:flv_scalemode'] = 'スケールモード';
 $string['plugins/media_dlg:flv_showscalemodes'] = 'スケールモードを表示する';
-$string['plugins/media_dlg:flv_smoothvideo'] = 'スムージング';
-$string['plugins/media_dlg:flv_startimage'] = 'スタートイメージ';
+$string['plugins/media_dlg:flv_smoothvideo'] = 'ビデオをスムージングする';
+$string['plugins/media_dlg:flv_startimage'] = '開始イメージ';
 $string['plugins/media_dlg:flv_starttime'] = '開始時間';
 $string['plugins/media_dlg:fullscreen'] = 'フルスクリーン';
 $string['plugins/media_dlg:general'] = '一般';
@@ -375,7 +375,7 @@ $string['plugins/media_dlg:rate'] = '再生レート';
 $string['plugins/media_dlg:rmp_options'] = 'Real media playerオプション';
 $string['plugins/media_dlg:salign'] = 'SAlign';
 $string['plugins/media_dlg:scale'] = '伸縮';
-$string['plugins/media_dlg:scriptcallbacks'] = 'コールバックスクリプト';
+$string['plugins/media_dlg:scriptcallbacks'] = 'スクリプトコールバック';
 $string['plugins/media_dlg:shockwave_options'] = 'Shockwaveオプション';
 $string['plugins/media_dlg:shuffle'] = 'シャッフル';
 $string['plugins/media_dlg:size'] = 'サイズ';
@@ -597,7 +597,7 @@ $string['themes/advanced:blockquote_desc'] = '引用';
 $string['themes/advanced:bold_desc'] = '太字 (Ctrl+B)';
 $string['themes/advanced:bullist_desc'] = '番号なしリスト';
 $string['themes/advanced:charmap_desc'] = 'ユーザ定義文字を挿入する';
-$string['themes/advanced:cleanup_desc'] = 'コード整形';
+$string['themes/advanced:cleanup_desc'] = 'コードをクリーンアップする';
 $string['themes/advanced:clipboard_msg'] = 'MozillaおよびFirefoxでは、コピー/切り取り/貼り付けを利用できません。この件に関して、詳細情報が必要ですか?';
 $string['themes/advanced:code'] = 'ソースコード';
 $string['themes/advanced:code_desc'] = 'HTMLソースを編集する';
