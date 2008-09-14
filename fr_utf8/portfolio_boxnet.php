@@ -1,6 +1,7 @@
 <?php // $Id$
 
-$string['apikey'] = 'Clef API (Vous obtiendrez cette clef chez Box.net)';
+$string['apikey'] = 'Clef API';
+$string['apikeyhelp'] = 'Vous obtiendrez cette clef en vous inscrivant sur le site enabled.box.net et en ajoutant application. L\' URL de <i>callback</i> doit être votre_wwwroot/portfolio/add.php?postcontrol=1';
 $string['err_noapikey'] = 'Aucune clef API n\'est configurée pour ce plugin. Vous pouvez en obtenir une à l\'adresse  http://enabled.box.net';
 $string['existingfolder'] = 'Dossier existant dans lequel placer le(s) fichier(s)';
 $string['folderclash'] = 'Le dossier dont vous avez demandé la création existe déjà&nbsp;!';
