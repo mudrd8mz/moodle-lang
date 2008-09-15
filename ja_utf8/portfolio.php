@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080915) (2008091500)
 
 
 $string['activeportfolios'] = 'アクティブポートフォリオ';
@@ -77,6 +77,7 @@ $string['mustsetcallbackoptions'] = 'あなたは、portfolio_add_buttonコン�
 $string['noavailableplugins'] = '申し訳ございません、あなたがエクスポートできるポートフォリオはありません。';
 $string['nocallbackclass'] = '使用するコールバッククラス ($a) を見つけることができませんでした。';
 $string['nocallbackfile'] = 'あなたがエクスポートを試みているモジュールが壊れているようです - 必要なファイル ($a) を見つけることができませんでした。';
+$string['noclassbeforeformats'] = 'portfolio_buttonでset_formatsをコールする前、あなたはコールバッククラスを設定する必要があります。';
 $string['nocommonformats'] = 'ポートフォリオプラグインおよびロケーション $a 間のフォーマットが共通ではありません。';
 $string['nonprimative'] = 'portfolio_add_buttonのコールバック変数として、初期値なしの状態で通過しました。処理を停止しました。キーは $a->key 、値は $a->value です。';
 $string['nopermissions'] = '申し訳ございません、このエリアからファイルをエクスポートするため必要なパーミッションが、あなたにはありません。';
