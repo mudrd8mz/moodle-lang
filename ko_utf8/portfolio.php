@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080913) (2008091000)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080916) (2008091500)
 
 
 $string['activeportfolios'] = '내 포트폴리오';
@@ -79,6 +79,7 @@ $string['mustsetcallbackoptions'] = 'portfolio_add_button 을 설정하거나 se
 $string['noavailableplugins'] = '내보낼 포트폴리오가 없음';
 $string['nocallbackclass'] = '($a)를 사용할 수 있는 회신 클래스를 찾을 수 없음';
 $string['nocallbackfile'] = '내보내려는 포트폴리오가 깨졌음 - 요청한 $a 파일을 찾을 수 없음';
+$string['noclassbeforeformats'] = 'portfolio_button의 set_formats을 호출하기 전에 회신 클래스를 설정해야만 함';
 $string['nocommonformats'] = '요청한 $a 와 이용가능한 플러그인 사이에 공유 형식이 없음';
 $string['nonprimative'] = 'portfolio_add_button으로 초기값 전송없음. 작업 중단.  $a->key 키의 키값은 $a->value 였음';
 $string['nopermissions'] = '죄송합니다만, 이 영역에서 파일을 내보낼 권한이 없음';
