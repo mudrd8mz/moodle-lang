@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080915) (2008091500)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080916) (2008091611)
 
 
+$string['activeexport'] = 'アクティブエクスポートを解決する';
 $string['activeportfolios'] = 'アクティブポートフォリオ';
 $string['addalltoportfolio'] = 'すべてをポートフォリオに追加する';
 $string['addnewportfolio'] = '新しいポートフォリオを追加する';
 $string['addtoportfolio'] = 'ポートフォリオに追加する';
-$string['alreadyexporting'] = 'このセッションでは、すでにアクティブなポートフォリオエクスポートがあります。このエクスポートを<a href=\"$a->finish\">最初に完了するか</a>、<a href=\"$a->cancel\">ここをクリックして</a>キャンセルしてください。';
+$string['alreadyalt'] = 'すでにエクスポートしています - この転送を解決するには、ここをクリックしてください。';
+$string['alreadyexporting'] = 'このセッションには、すでにアクティブなポートフォリオエクスポートがあります。続ける前に、あなたはこのエクスポートを完了するか、キャンセルする必要があります。続けてもよろしいですか? (Noを選択するとキャンセルします)';
 $string['availableformats'] = '利用可能なエクスポートフォーマット';
 $string['callercouldnotpackage'] = 'あなたのエクスポートするデータをパッケージできませんでした: オリジナルエラーは次のとおりです - $a';
 $string['cannotsetvisible'] = 'このインスタンスを表示できません - 設定が正しくないため、プラグインが完全に無効にされています。';

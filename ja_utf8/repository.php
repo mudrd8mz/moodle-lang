@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080916) (2008091611)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -64,6 +64,7 @@ $string['personalrepositories'] = 'パーソナルリポジトリ';
 $string['plugin'] = 'リポジトリプラグイン';
 $string['popup'] = 'ログインのためポップアップウィンドウを開く';
 $string['preview'] = 'プレビュー';
+$string['readonlyinstance'] = 'あなたは、読み取り専用のインスタンスを編集/削除できません。';
 $string['refresh'] = 'リフレッシュ';
 $string['removed'] = 'リポジトリが削除されました。';
 $string['repositories'] = 'リポジトリ';
