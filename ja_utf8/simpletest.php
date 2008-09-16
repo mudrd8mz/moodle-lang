@@ -14,11 +14,11 @@ $string['onlytest'] = '次のパスのみでテストを実行する:';
 $string['pass'] = '合格';
 $string['pathdoesnotexist'] = 'パス「 $a 」がありません。';
 $string['prefix'] = 'ユニットテストテーブル接頭辞';
-$string['prefixnotset'] = 'ユニットテストテーブル接頭辞が設定されていません。config.phpにユニットテストテーブル接頭辞を追加するには、接頭辞を入力後、このフォームで送信してください。';
+$string['prefixnotset'] = 'ユニットテストテーブル接頭辞が設定されていません。config.phpにユニットテストテーブル接頭辞を追加するには、接頭辞を入力後、このフォームを送信してください。';
 $string['retest'] = 'テストの再実行';
 $string['retestonlythisfile'] = 'このテスト対象ファイルのテストのみ実行';
 $string['runall'] = 'すべてのテスト対象ファイルのテストを実行';
-$string['runat'] = '$a で実行';
+$string['runat'] = '$a に実行';
 $string['rundbtests'] = 'データベーステストも実行する。';
 $string['runonlyfile'] = 'このファイル内のみテストを実行する';
 $string['runonlyfolder'] = 'このフォルダ内のみテストを実行する';
@@ -32,6 +32,6 @@ $string['tablesnotsetup'] = 'ユニットテストテーブルは、まだ構築
 $string['thorough'] = '総合テストの実行を実行する (時間がかかります)。';
 $string['uncaughtexception'] = '[{$a->getFile()}:{$a->getLine()}] に不明な例外 [{$a->getMessage()}] が発生したため、テストは中止されました。';
 $string['unittests'] = 'ユニットテスト';
-$string['version'] = '<a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> バージョン $a を使用';
+$string['version'] = '使用<a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a>バージョン $a';
 
 ?>
