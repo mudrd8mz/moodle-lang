@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
+      // moodle.php - created with Moodle 1.9.2+ (Build: 20080917) (2007101522)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -448,6 +448,7 @@ $string['editorhelptopics'] = 'Témy nápovedy editora';
 $string['editorresettodefaults'] = 'Obnoviť východiskové hodnoty';
 $string['editorsettings'] = 'Nastavenia editora';
 $string['editorshortcutkeys'] = 'Klávesové skratky editora';
+$string['editremoteprofile'] = 'Upraviť vzdialený profil';
 $string['editsummary'] = 'Upraviť zhrnutie';
 $string['editthisactivity'] = 'Upraviť túto aktivitu';
 $string['editthiscategory'] = 'Upraviť túto kategóriu';
@@ -1206,7 +1207,7 @@ $string['registrationsend'] = 'Poslať registračné informácie na domovskú st
 $string['registrationyes'] = 'Áno, informujte ma o dôležitých Moodle udalostiach';
 $string['reject'] = 'Odmietnuť';
 $string['reload'] = 'Reload';
-$string['remotemaharauser'] = 'Vzdialený Mahara používateľ';
+$string['remoteappuser'] = 'Vzdialený používateľ $a';
 $string['remove'] = 'Odstrániť';
 $string['removeadmin'] = 'Odstrániť administrátora';
 $string['removecreator'] = 'Odstrániť tvorcu kurzov';
@@ -1630,6 +1631,7 @@ $string['yourlastlogin'] = 'Vaše posledné prihlásenie bolo';
 $string['yourself'] = 'seba';
 $string['yourteacher'] = 'Váš $a';
 $string['zippingbackup'] = 'Záloha sa práve zozipováva';
+$string['remotemaharauser'] = 'Vzdialený Mahara používateľ'; // ORPHANED
 $string['skiptomaincontent'] = 'Preskočiť dopredu na hlavný obsah'; // ORPHANED
 
 ?>

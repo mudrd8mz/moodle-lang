@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080917) (2007101522)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -171,7 +171,7 @@ $string['configminpasswordnonalphanum'] = 'Heslá musia mať minimálne toľkoto
 $string['configminpasswordupper'] = 'Heslá musia mať minimálne toľkoto veľkých písmen.';
 $string['configmymoodleredirect'] = 'Používať stránku /my (Moj Moodle) namiesto bežnej úvodnej stránky po prihlásení užívateľov (okrem správcov)?';
 $string['confignodefaultuserrolelists'] = 'Toto nastavenie zabraňuje všetkým používateľom, aby boli vrátení z databázy pri volaní z funkcií get_course_user a podobne z kurzu na hlavnej stránke portálu ak východzia rola tento prístup poskytuje.  Zapnite, ak za Vám zdá, že máte problémy s výkonnosťou.';
-$string['confignonmetacoursesyncroleids'] = 'Štandardne sú všetky zápisy do asociovaných kurzov synchronizované s metakurzom. Vybrané roly nebudú do tohoto synchronizačného procesu zaradené.';
+$string['confignonmetacoursesyncroleids'] = 'Štandardne sú všetky priradenie rol v asociovaných kurzoch synchronizované s metakurzom. Vybrané roly nebudú do tohoto synchronizačného procesu zaradené.';
 $string['confignoreplyaddress'] = 'Emaily sa niekedy posielajú v mene používateľa (napr. prispievanie do fór). Emailová adresa, ktorú tu špecifikujete, bude používaná ako adresa \'Od koho\' v prípade, ak prijímatelia nie sú schopní priamo odpovedať používateľovi (napr. keď si používateľ vyberie zachovanie súkromnej adresy).';
 $string['confignotifyloginfailures'] = 'Ak sa uchovávajú záznamy o neúspešných pokusoch o prihlásenie do systému, môžu byť tieto odoslané emailom. Kto by si mal prezerať tieto oznámenia?';
 $string['confignotifyloginthreshold'] = 'Ak sú aktívne oznámenia o neúspešných pokusoch o prihlásenie do systému, koľko takýchto prihlásení od jedného používateľa alebo jednej IP adresy sa má zobrazovať v oznámeniach?';
