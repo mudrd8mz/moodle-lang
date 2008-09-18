@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080915) (2008091500)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -141,6 +141,7 @@ $string['configfrontpageloggedin'] = '上で選択したアイテムは、ユー
 $string['configfullnamedisplay'] = 'ここでは、名前がどのように表示されるか設定します。単一言語を使用したほとんどのサイトでは「名 + 姓」を使用した方が良いでしょう。しかし、名字を隠したり、言語設定に添った形 (いくつかの言語では異なる並び) の並びにすることも可能です。';
 $string['configgdversion'] = 'サーバにGDがインストールされている場合、そのバージョンを選択してください。デフォルト値として表示されているバージョンは自動的に検知されたものです。分からない場合はそのままにしてください。';
 $string['configgeoipfile'] = 'GeoIP Cityバイナリデータファイルのロケーションです。このファイルは、Moodleディストリビューションの一部ではなく、<a href=\"http://www.maxmind.com/\">MaxMind</a>から個別に取得する必要があります。あなたは商用バージョンを購入するか、フリーバージョンを使用することができます。<br />フリーバージョンの場合、<a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>からダウンロードして、あなたのサーバの「 $a 」ディレクトリに解凍してください。';
+$string['configgetremoteaddrconf'] = 'あなたがリバースプロクシの背後にサーバを設置している場合、異なるヘッダおよびIPアドレスをログに使用するため、この設定を変更することができます。';
 $string['configgooglemapkey'] = 'IPアドレスのルックアップを視覚化するため利用するGoogle Mapsのスペシャルキーを入力してください。あなたは、<a href=\"http://code.google.com/apis/maps/signup.html\">http://code.google.com/apis/maps/signup.html</a>よりキーを無償で取得することができます。<br />あなたのウェブサイトURIは: $a';
 $string['configgradebookroles'] = 'ここでは、誰が評定表に表示されるか設定することができます。ユーザがコースの評定表で表示されるためには、これらの中から少なくとも１つのロールを割り当ててください。';
 $string['configgradeexport'] = 'どの評定表エクスポートフォーマットをあなたの主要な評定表エクスポート方法にするか選択してください。選択されたフォーマットのプラグインが設定され、すべての評定の「最新エクスポート」フィールドに使用されます。例えば、エクスポートされたレコードは、「新規」または「更新」レコードとして認識されます。あなたがこのことに関して自信がない場合、すべてをチェックしないままにしてください。';
@@ -402,6 +403,7 @@ $string['fullnamedisplay'] = 'フルネームフォーマット';
 $string['gdversion'] = 'GDバージョン';
 $string['generalsettings'] = '一般設定';
 $string['geoipfile'] = 'GeoIP Cityデータファイル';
+$string['getremoteaddrconf'] = '記録されるIPアドレスのソース';
 $string['globalsquoteswarning'] = '<p><strong>セキュリティ警告</strong>: Moodleを適切に動作させるため、<br />現在のPHP設定を変更する必要があります。<p/><p><code>register_globals=off</code> および/または <code>magic_quotes_gpc=on</code> の<em>設定を行って</em>ください。<br />可能でしたら、一般的なサーバセキュリティを改善するため、<code>register_globals=off</code> の設定を行ってください。<br />また、<code>magic_quotes_gpc=on</code> の設定も推奨いたします。<p/><p>これらの設定は、<code>php.ini</code>、Apache/IIS <br />設定、または <code>.htaccess</code> ファイルの編集により管理することができます。</p>';
 $string['globalswarning'] = '<p><strong>セキュリティ警告</strong>: Moodleを適切に動作させるため、<br />現在のPHP設定を変更する必要があります。<p/><p><code>register_globals=off</code>  の<em>設定を行って</em>ください。<p>この設定は、<code>php.ini</code>、Apache/IIS <br />設定、または <code>.htaccess</code> ファイルの編集により管理することができます。</p>';
 $string['googlemapkey'] = 'Google Maps API キー';
@@ -649,6 +651,7 @@ $string['requiredtemplate'] = '必須です。あなたはここでテンプレ�
 $string['requires'] = '必要条件';
 $string['restrictbydefault'] = 'モジュールをデフォルトで制限する';
 $string['restrictmodulesfor'] = 'モジュールの制限';
+$string['reverseproxy'] = 'リバースプロクシ';
 $string['riskconfig'] = 'ユーザは、サイトの設定および動作を変更することができます。';
 $string['riskconfigshort'] = '設定リスク';
 $string['riskmanagetrust'] = 'ユーザは、他のユーザの信頼度設定を変更することができます。';
