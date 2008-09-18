@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080916) (2008091611)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -49,6 +49,7 @@ $string['instances'] = 'リポジトリインスタンス';
 $string['invalidjson'] = '無効なJSONストリングです。';
 $string['invalidplugin'] = 'リポジトリプラグインが正しくありません。';
 $string['invalidrepositoryid'] = 'リポジトリIDが正しくありません。';
+$string['keyword'] = 'キーワード';
 $string['listview'] = 'リストビュー';
 $string['loading'] = 'ローディング ...';
 $string['logout'] = 'ログアウト';
@@ -57,6 +58,7 @@ $string['manageurl'] = '管理';
 $string['manageuserrepository'] = 'リポジトリの管理';
 $string['noenter'] = '何も入力されていません。';
 $string['nopermissiontoaccess'] = 'このリポジトリにアクセスするパーミッションがありません。';
+$string['noresult'] = '検索結果なし';
 $string['notyourinstances'] = 'あなたは、他のユーザのリポジトリインスタンスを表示/編集できません。';
 $string['openpicker'] = 'ファイルを選択する ...';
 $string['operation'] = '操作';

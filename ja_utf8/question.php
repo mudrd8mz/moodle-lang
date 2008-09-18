@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // question.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -68,6 +68,7 @@ $string['errordeletingquestionsfromcategory'] = 'カテゴリ $a から問題を
 $string['errorduringpost'] = '処理後にエラーが発生しました!';
 $string['errorduringpre'] = '処理前にエラーが発生しました!';
 $string['errorduringproc'] = '処理中にエラーが発生しました!';
+$string['errorduringregrade'] = '問題 $a->qid を再評定できませんでした。状態 $a->stateid へ移動します。';
 $string['errorfilecannotbecopied'] = 'エラー: ファイル $a をコピーできません。';
 $string['errorfilecannotbemoved'] = 'エラー: ファイル $a を移動できません。';
 $string['errorfileschanged'] = 'エラー: 問題からリンクされているファイルがフォームが表示された後、変更されました。';
