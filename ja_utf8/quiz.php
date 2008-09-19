@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
 
 
 $string['1day'] = '1日';
@@ -330,8 +330,8 @@ $string['import'] = 'インポート';
 $string['importcategory'] = 'ファイルからカテゴリをインポートする';
 $string['importerror'] = 'インポート処理中にエラーが発生しました。';
 $string['importerrorquestion'] = '問題のインポート中にエラーが発生しました。';
-$string['importfilearea'] = 'すでにコース内にあるファイルからインポート ...';
-$string['importfileupload'] = 'アップロードしたファイルからインポート ...';
+$string['importfilearea'] = 'すでにコース内にあるファイルからインポートする ...';
+$string['importfileupload'] = 'アップロードしたファイルからインポートする ...';
 $string['importfromthisfile'] = 'このファイルからインポートする';
 $string['importingquestions'] = '$a の問題をファイルからインポートする';
 $string['importmax10error'] = '問題にエラーがあります。10以上の答えを設定することはできません。';
@@ -375,8 +375,8 @@ $string['matchanswer'] = '組み合わせの答え';
 $string['matchanswerno'] = '組み合わせの答え $a';
 $string['matcherror'] = '評点が評定オプションと合致しません - 問題をスキップしました。';
 $string['matchgrades'] = '評点の合致';
-$string['matchgradeserror'] = '評点が一覧に無い場合、エラー';
-$string['matchgradesnearest'] = '評点が一覧に無い場合、最も近い評点を使用';
+$string['matchgradeserror'] = '評点が一覧に無い場合、エラーにする';
+$string['matchgradesnearest'] = '評点が一覧に無い場合、最も近い評点を使用する';
 $string['max'] = '最大';
 $string['min'] = '最小';
 $string['minutes'] = '分';
