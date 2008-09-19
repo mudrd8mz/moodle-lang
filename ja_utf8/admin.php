@@ -141,7 +141,7 @@ $string['configfrontpageloggedin'] = '上で選択したアイテムは、ユー
 $string['configfullnamedisplay'] = 'ここでは、名前がどのように表示されるか設定します。単一言語を使用したほとんどのサイトでは「名 + 姓」を使用した方が良いでしょう。しかし、名字を隠したり、言語設定に添った形 (いくつかの言語では異なる並び) の並びにすることも可能です。';
 $string['configgdversion'] = 'サーバにGDがインストールされている場合、そのバージョンを選択してください。デフォルト値として表示されているバージョンは自動的に検知されたものです。分からない場合はそのままにしてください。';
 $string['configgeoipfile'] = 'GeoIP Cityバイナリデータファイルのロケーションです。このファイルは、Moodleディストリビューションの一部ではなく、<a href=\"http://www.maxmind.com/\">MaxMind</a>から個別に取得する必要があります。あなたは商用バージョンを購入するか、フリーバージョンを使用することができます。<br />フリーバージョンの場合、<a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>からダウンロードして、あなたのサーバの「 $a 」ディレクトリに解凍してください。';
-$string['configgetremoteaddrconf'] = 'あなたがリバースプロクシの背後にサーバを設置している場合、異なるヘッダおよびIPアドレスをログに使用するため、この設定を変更することができます。';
+$string['configgetremoteaddrconf'] = 'あなたがリバースプロクシの背後にサーバを設置している場合、リモートIPアドレスを含んでいる、信頼できるHTTPヘッダを指定することができます。ヘッダは順番に読まれ、最初の有効なヘッダが使用されます。';
 $string['configgooglemapkey'] = 'IPアドレスのルックアップを視覚化するため利用するGoogle Mapsのスペシャルキーを入力してください。あなたは、<a href=\"http://code.google.com/apis/maps/signup.html\">http://code.google.com/apis/maps/signup.html</a>よりキーを無償で取得することができます。<br />あなたのウェブサイトURIは: $a';
 $string['configgradebookroles'] = 'ここでは、誰が評定表に表示されるか設定することができます。ユーザがコースの評定表で表示されるためには、これらの中から少なくとも１つのロールを割り当ててください。';
 $string['configgradeexport'] = 'どの評定表エクスポートフォーマットをあなたの主要な評定表エクスポート方法にするか選択してください。選択されたフォーマットのプラグインが設定され、すべての評定の「最新エクスポート」フィールドに使用されます。例えば、エクスポートされたレコードは、「新規」または「更新」レコードとして認識されます。あなたがこのことに関して自信がない場合、すべてをチェックしないままにしてください。';
