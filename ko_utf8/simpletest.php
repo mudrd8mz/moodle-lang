@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
 
 
+$string['addconfigprefix'] = '설정파일에 접두어 추가';
 $string['all'] = '모두';
 $string['exception'] = '예외';
 $string['fail'] = '실패';
@@ -12,6 +13,8 @@ $string['notice'] = '알림';
 $string['onlytest'] = '한 항목만 점검';
 $string['pass'] = '통과';
 $string['pathdoesnotexist'] = '$a 경로가 존재하지 않습니다.';
+$string['prefix'] = '유닛점검 테이블 접두어';
+$string['prefixnotset'] = '유닛 점검 데이터베이스 테이블 접두어가 설정되지 않았습니다. config.php에 이를 추가하려면 양식을 채워 제출하시오.';
 $string['retest'] = '점검 재 시도';
 $string['retestonlythisfile'] = '이 파일만 재 점검';
 $string['runall'] = '모든 파일에 대해 점검';
@@ -25,6 +28,7 @@ $string['showpasses'] = '전 항목 보기';
 $string['showsearch'] = '점검 파일 검색결과 보기';
 $string['stacktrace'] = '스택 추적 :';
 $string['summary'] = '{$a->run}/{$a->total} 사례 점검 완료 : <strong>{$a->passes}</strong>  통과, <strong>{$a->fails}</strong>  실패, <strong>{$a->exceptions}</strong> 가 제외 되었음.';
+$string['tablesnotsetup'] = '유닛 점검 테이블이 아직 작성되지 않았습니다. 지금 만드시겠습니까?';
 $string['thorough'] = '상세 점검(느릴 수 있음)';
 $string['uncaughtexception'] = '알려지지 않은 예외항목인 [{$a->getMessage()}] 이 [{$a->getFile()}:{$a->getLine()}] 에서 발견되어 점검이 취소됨.';
 $string['unittests'] = '유닛 점검';

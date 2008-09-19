@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080913) (2008091000)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080919) (2008091611)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -140,6 +140,7 @@ $string['configfrontpageloggedin'] = '위에서 선택된 항목은 이용자가
 $string['configfullnamedisplay'] = '이것은 전체 이름을 표시하는 방법을 정의하는 것이다. 대부분의 한 언어만 쓰는 사이트에서는 기본값인 \"성+이름\"으로도 충분하지만, 다양한 언어팩을 쓰는 경우 특히 성이나 이름이 매우 긴 경우에는 이름을 보이지 않게 하거나 성을 보이지 않게 설정할 수도 있다.';
 $string['configgdversion'] = '설치된 GD 버전을 보여준다. 여기에 표시된 버전은 자동으로 검출된 것이다. 정확한 내용을 알지 못한다면 가급적 바꾸지 말기 바란다.';
 $string['configgeoipfile'] = 'GeoIP City의 이진 데이터가 있는 위치. 이 파일은 무들 배포본에 포함된 것이 아니며 <a href=\"http://www.maxmind.com/\">MaxMind</a>에서 개별적으로 얻어야만 하는 것이다. 상용 정식판을 구매할 수도 있고 공개판을 이용할 수도 있다. 간단히 <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>을 내려받아 서버의 \"$a\" 경로에 풀어 넣으면 된다.';
+$string['configgetremoteaddrconf'] = '리버스 프록시 뒤에 서버가 있으면, 어떤 HTTP 헤더가 원격 IP 주소를 신임해야 할 것인지 지정하기 위해 이 설정을 사용할 수 있다. 헤더는 순서대로 읽혀지며, 우선적으로 사용 가능한 것을 이용한다.';
 $string['configgooglemapkey'] = 'IP주소의 위치를 찾기 위해 구글맵을 이용하려면 특별한 암호가 필요하다. 이는 <a href=\"http://code.google.com/apis/maps/signup.html\" >http://code.google.com/apis/maps/signup.html</a> 에서 무료로 얻을 수 있다. <br />현재 이 곳의 웹주소는 $a 로 되어 있다.';
 $string['configgradebookroles'] = '이 설정은 성적표에 표시될 사람을 조정할 수 있게 한다. 강좌의 성적표에 표시되려면 이용자는 최소한 이들 중 하나의 역할이 되어야 한다.';
 $string['configgradeexport'] = '성적을 내보낼 때 우선적으로 사용할 성적표 형식을 선택하라. 선택된 플러그인이 설정된 후에는 추후 모든 성적의 \"최근 내보냄\" 항목으로 이용될 것이다. 예를 들면 내보내기 한 레코드들은 \"새로운\" 혹은 \"새로고침\"된 것으로 간주될 것이다. 확신이 들지 않으면 모든 것을 비워 두어라.';
@@ -408,6 +409,7 @@ $string['fullnamedisplay'] = '전체 이름';
 $string['gdversion'] = 'GD 버전';
 $string['generalsettings'] = '일반 설정';
 $string['geoipfile'] = 'GeoIP City 자료 파일';
+$string['getremoteaddrconf'] = '기록된 IP 주소 원본';
 $string['globalsquoteswarning'] = '<p><strong>보안 경고</strong>: 무들을 적절하게 작동시키기 위해<br />현재의 PHP 설정을 바꾸어 주어야만 합니다.<p/><p>먼저 <code>register_globals=off</code> 그리고 <code>magic_quotes_gpc=on</code> 으로 <em>설정되어 있어야만</em> 합니다.<br />만일 가능하다면  서버의 일반적인 보안기능을 증진시키기 위하여 <code>register_globals=off</code> 도 설정하고 <code>magic_quotes_gpc=on</code>도 해 주십시오.<p/><p>이러한 설정은 <code>php.ini</code>를 수정하여 바꿀 수도 있고, Apache/IIS 의 설정 혹은  <code>.htaccess</code> 파일을 수정해도 바꿀 수 있습니다.</p>';
 $string['globalswarning'] = '<p><strong>보안 경고</strong>  : 무들이 바르게 작동하기 위해서는, 현재의 일부 PHP설정을 바꿔야 합니다.<p/><p><em>반드시</em>  <code>register_globals=off</code>로 설정해야 합니다.<br /> 이는 <code>php.ini</code>나 Apache/IIS의  <code>.htaccess</code> 파일의 변수를 조정하면 됩니다.</p>';
 $string['googlemapkey'] = '구글맵 API 암호';
@@ -656,6 +658,7 @@ $string['requiredtemplate'] = '필수사항. 여기에 템플릿 문법을 사�
 $string['requires'] = '필수';
 $string['restrictbydefault'] = '초기 설정으로 모듈 제한';
 $string['restrictmodulesfor'] = '다음에 대하여 모듈 제한';
+$string['reverseproxy'] = '리버스 프록시';
 $string['riskconfig'] = '이용자가 사이트의 설정과 작동을 변경할 수 있음';
 $string['riskconfigshort'] = '위험한 설정';
 $string['riskmanagetrust'] = '이용자가 다른 이용자의 인증 설정을 변경할 수 있음';

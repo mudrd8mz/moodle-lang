@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080918) (2008091611)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -49,6 +49,7 @@ $string['instances'] = '저장소 인스턴스';
 $string['invalidjson'] = '잘못된 JSON 문자열';
 $string['invalidplugin'] = '잘못된 저장 플러그인';
 $string['invalidrepositoryid'] = '잘못된 저장소 ID';
+$string['keyword'] = '핵심어';
 $string['listview'] = '목록 보기';
 $string['loading'] = '불러오는 중...';
 $string['logout'] = '나가기';
@@ -57,6 +58,7 @@ $string['manageurl'] = 'URL 관리';
 $string['manageuserrepository'] = '개별 저장소 관리';
 $string['noenter'] = '입력내용 없음';
 $string['nopermissiontoaccess'] = '저장소 접근 권한 없음';
+$string['noresult'] = '검색결과 없음';
 $string['notyourinstances'] = '다른 사람의 저장 인스턴스는 보거나 편집할 수 없음';
 $string['openpicker'] = '파일 열기 프로그램';
 $string['operation'] = '작동';
@@ -64,6 +66,7 @@ $string['personalrepositories'] = '개인 저장소';
 $string['plugin'] = '저장 플러그인';
 $string['popup'] = '로그인시 팝업창 열기';
 $string['preview'] = '미리보기';
+$string['readonlyinstance'] = '읽기만 가능한 인스턴스는 편집/삭제를 할 수 없음';
 $string['refresh'] = '다시 읽음';
 $string['removed'] = '저장소 제거됨';
 $string['repositories'] = '저장소';

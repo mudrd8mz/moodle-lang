@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080903) (2008090108)
+      // question.php - created with Moodle 2.0 dev (Build: 20080918) (2008091611)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -67,6 +67,7 @@ $string['errordeletingquestionsfromcategory'] = '$a 범주에 있는 문항 삭�
 $string['errorduringpost'] = '후처리 과정에서 오류 발생!';
 $string['errorduringpre'] = '전처리 과정에서 오류 발생!';
 $string['errorduringproc'] = '처리 과정에서 오류 발생!';
+$string['errorduringregrade'] = '문항 $a->qid 를 재채점할 수 없어서 $a->stateid 상태로 됨';
 $string['errorfilecannotbecopied'] = '$a 복사 오류';
 $string['errorfilecannotbemoved'] = '$a 이동 오류';
 $string['errorfileschanged'] = '문제가 제시된 후 문항에 연결된 파일의 링크가 변경된 오류';
