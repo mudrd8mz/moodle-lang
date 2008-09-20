@@ -396,6 +396,7 @@ $string['fullnamedisplay'] = 'Format d\'affichage des noms';
 $string['gdversion'] = 'Version de GD';
 $string['generalsettings'] = 'Réglages généraux';
 $string['geoipfile'] = 'Fichier des données GeoIP City';
+$string['getremoteaddrconf'] = 'Source de l\'adresse IP enregistrée';
 $string['globalsquoteswarning'] = '<p><strong>Notification de sécurité</strong>&nbsp;: pour fonctionner correctement, Moodle nécessite <br />certaines modifications de vos réglages PHP actuels.<p/><p>Vous <em>devez</em> spécifier les réglages <code>register_globals=off</code> et/ou <code>magic_quotes_gpc=on</code>.<br />Si possible, veuillez effectuer le réglage <code>register_globals=off</code>, afin d\'augmenter la sécurité globale <br /> de votre serveur. L\'activation de l\'option <code>magic_quotes_gpc=on</code> est aussi recommandée.<p/><p>Ces réglages sont effectués en modifiant votre fichier <code>php.ini</code>, la configuration<br />de Apache/IIS ou du fichier <code>.htaccess</code>.</p>';
 $string['globalswarning'] = '<p><strong>NOTIFICATION DE SÉCURITÉ&nbsp;!</strong></p><p>Pour fonctionner correctement, Moodle nécessite <br />certaines modifications de vos réglages PHP actuels.<p/><p>Vous <em>devez</em> spécifier le réglage <code>register_globals=off</code>.<p>Ce réglage s\'effectue en modifiant le fichier <code>php.ini</code>, la configuration <br />de Apache/IIS ou le fichier <code>.htaccess</code>.</p>';
 $string['googlemapkey'] = 'Clef API de Google Maps';
@@ -643,6 +644,7 @@ $string['requiredtemplate'] = 'Requis. Vous pouvez utiliser ici la syntaxe de mo
 $string['requires'] = 'Requiert';
 $string['restrictbydefault'] = 'Restreindre les modules par défaut';
 $string['restrictmodulesfor'] = 'Restreindre les modules pour';
+$string['reverseproxy'] = 'Proxy inverse';
 $string['riskconfig'] = 'Les utilisateurs pourraient modifier la configuration et le comportement du site';
 $string['riskconfigshort'] = 'Configuration des risques';
 $string['riskmanagetrust'] = 'Les utilisateurs pourraient modifier les réglages de confiance d\'autres utilisateurs';
