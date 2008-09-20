@@ -1,15 +1,19 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 dev (2007021401)
+      // resource.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
-$string['addresource'] = 'Acrescentar recurso';
+$string['addresource'] = 'Acrescentar um recurso';
 $string['affectedresources'] = 'Recursos atingidos';
+$string['allowlocalfiles'] = 'Permitir arquivos locais';
+$string['autofilerename'] = 'Atualizar link se arquivo for renomeado';
 $string['back'] = 'Voltar';
+$string['blockdeletingfile'] = 'Removendo arquivos referenciados em bloco';
 $string['browserepository'] = 'Procurar no repositório';
 $string['choose'] = 'Escolher';
 $string['chooseafile'] = 'Escolher ou enviar arquivo';
 $string['chooseparameter'] = 'Escolher parâmetro';
-$string['configallowlocalfiles'] = 'Ao criar um novo recurso, permite links a arquivos do sistema local, como um CD ou um disco rígido. Isto pode ser útil numa classe onde todos os estudantes tem acesso ao mesmo dispositivo da rede ou quando è necessário acessar arquivos de um CD. O uso desta funcionalidade pode exigir a mudança da configuração de segurança de seu navegador.';
+$string['clicktoopen'] = 'Para abrir este documento, clique neste link.';
+$string['configallowlocalfiles'] = 'Ao criar um novo recurso, permite links a arquivos do sistema local, como um CD ou um disco rígido. Isto pode ser útil numa classe onde todos os estudantes tem acesso ao mesmo dispositivo da rede ou quando é necessário acessar arquivos de um CD. O uso desta funcionalidade pode exigir a mudança da configuração de segurança de seu navegador.';
 $string['configautofilerenamesettings'] = 'Atualizar automaticamente as referências a arquivos e diretórios quando forem renomeados no gerenciador de arquivos.';
 $string['configblockdeletingfilesettings'] = 'Bloquear a exclusão de arquivos e diretórios ligados a recursos. Imagens e arquivos que são ligados a páginas html não são protegidos.';
 $string['configdefaulturl'] = 'Este valor é usado para completar o formulário da URL automaticamente quando o recurso é baseado em endereço web.';
@@ -44,10 +48,12 @@ $string['fetcherror'] = 'Não foi possível o acesso a esta página.';
 $string['fetchservererror'] = 'Um erro de acesso ao servidor remoto foi identificado (provavelmente um erro do programa)';
 $string['filename'] = 'Nome do arquivo';
 $string['filtername'] = 'Link automático aos nomes dos recursos';
-$string['frameifpossible'] = 'Colocar o recurso em un frame par que a barra de navegação do site continue visível';
+$string['frameifpossible'] = 'Colocar o recurso em un frame para que a barra de navegação do site continue visível';
+$string['framesize'] = 'Tamanho do Frame';
 $string['fulltext'] = 'Texto completo';
 $string['htmlfragment'] = 'Fragmento de HTML';
 $string['imspackageloaded'] = 'Pacote carregado.';
+$string['keepnavigationvisible'] = 'Mantenha a navegação na mesma página';
 $string['localfile'] = 'Arquivo local';
 $string['localfilechoose'] = 'Escolha um arquivo local (CD-ROM)';
 $string['localfilehelp'] = 'Ajuda para visualização dos arquivos locais';
@@ -77,7 +83,7 @@ $string['next'] = 'Próximo';
 $string['notallowedlocalfileaccess'] = 'O acesso a arquivos locais está desabilitado, portanto este recurso não pode ser acessado.';
 $string['notdeployed'] = 'Não utilizado';
 $string['note'] = 'Nota';
-$string['notefile'] = 'Para transferir mais arquivos ao curso (in modo que aparecerem nesta lista) use o <a href=\"$a\">Administrador de Arquivos</a>.';
+$string['notefile'] = 'Para transferir mais arquivos ao curso (no modo que aparecerem nesta lista) use o <a href=\"$a\">Administrador de Arquivos</a>.';
 $string['notypechosen'] = 'Você tem que escolher um tipo. Use seu botão de retorno e tente novamente.';
 $string['packagechanged'] = 'Este pacote IMS CP foi mudado';
 $string['packagenotdeplyed'] = 'Este pacote IMS CP não está em uso';
@@ -93,6 +99,7 @@ $string['previous'] = 'Anterior';
 $string['redeploy'] = 'Usar de novo';
 $string['repository'] = 'Repositório IMS';
 $string['resource:view'] = 'Ver recurso';
+$string['resourcedefaulturl'] = 'URL padrão';
 $string['resourcetype'] = 'Tipo de recurso';
 $string['resourcetype1'] = 'Referência';
 $string['resourcetype2'] = 'Página Web';
@@ -115,11 +122,13 @@ $string['serverurl'] = 'URL do servidor  ($a->wwwroot)';
 $string['showcourseblocks'] = 'Mostrar os box do curso';
 $string['skipsubmenus'] = 'Saltar páginas de sub-menu';
 $string['tableofcontents'] = 'Tabela de conteúdos';
+$string['tableofcontentsabbrev'] = 'Sumário';
 $string['upbutton'] = 'Para cima';
 $string['variablename'] = 'Nome da variável';
 $string['viewims'] = 'Ver pacote IMS CP';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'Atenção: A exclusão de arquivos está bloqueada por um recurso. Atualize os seus recursos ou solicite o administrador para desabilitar a proteção no painel de configuração global dos recursos.';
 $string['warningdisabledrename'] = 'Atenção: Atualmente não está habilitada a operação de renomeação automática das referências nos recurso. Atualize os recursos afetados manualmente. O Administrador pode habilitar a renomeação automática no painel de configuração global dos recursos.';
+$string['websearchdefault'] = 'Pesquisa na web padrão';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.9 dev (2007021401)
+      // editor.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['about'] = 'Informações sobre este editor';
@@ -29,13 +29,13 @@ $string['createanchor'] = 'Criar âncora';
 $string['createfolder'] = 'Criar pasta';
 $string['createlink'] = 'Inserir link web';
 $string['cut'] = 'Cortar elemento selecionado';
-$string['cutpastemozilla'] = 'Infelizmente, não é possível utilizar os atalhos de teclado usuais (nem mesmo o botão Colar), para colar texto neste editor. Isto se deve a uma função de segurança de algumas versões dos navegadors Mozilla e Firefox. <br /><br />Você pode experimentar 3 soluções conhecidas:<br /><br />(1) Em vez de CTRL-v, use SHIFT-Insert<br />(2) Use o menu Editar->Colar de seu navegador<br />(3)Mude as preferências de seu navegador editando o arquivo user.js.<br /><br />Clique no botão OK abaixo para mais ajuda, ou no botão Cancelar para voltar ao editor';
+$string['cutpastemozilla'] = 'Infelizmente, não é possível utilizar os atalhos de teclado usuais (nem mesmo o botão Colar), para colar texto neste editor. Isto se deve a uma função de segurança de algumas versões dos navegadores Mozilla e Firefox. <br /><br />Você pode experimentar 3 soluções conhecidas:<br /><br />(1) Em vez de CTRL-v, use SHIFT-Insert<br />(2) Use o menu Editar->Colar de seu navegador<br />(3)Mude as preferências de seu navegador editando o arquivo user.js.<br /><br />Clique no botão OK abaixo para mais ajuda, ou no botão Cancelar para voltar ao editor';
 $string['delete'] = 'Cancelar';
 $string['enterurlfirst'] = 'Inserir primeiro o URL';
 $string['filebrowser'] = 'Navegador de arquivos';
 $string['findwhat'] = 'Buscar';
-$string['fontname'] = 'Nome do font';
-$string['fontsize'] = 'Tamanho do font';
+$string['fontname'] = 'Nome da fonte';
+$string['fontsize'] = 'Tamanho da fonte';
 $string['forecolor'] = 'Cor das letras';
 $string['formatblock'] = 'Formatar';
 $string['fullscreen'] = 'Editor completo';
@@ -58,7 +58,7 @@ $string['justifycenter'] = 'Centralizar';
 $string['justifyfull'] = 'Justificar';
 $string['justifyleft'] = 'Alinhar à esquerda';
 $string['justifyright'] = 'Alinhar à direita';
-$string['lang'] = 'Lingua';
+$string['lang'] = 'Língua';
 $string['layout'] = 'Layout';
 $string['left'] = 'Esquerda';
 $string['lefttoright'] = 'Da esquerda para a direita';

@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 dev (2007021401)
+      // choice.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
-$string['addmorechoices'] = 'Adicionar outras opções';
+$string['addmorechoices'] = 'Acrescentar outras opções';
 $string['allowupdate'] = 'Permitir a atualização da escolha feita';
 $string['answered'] = 'Respondido';
 $string['choice'] = 'Escolha $a';
@@ -11,13 +11,15 @@ $string['choice:deleteresponses'] = 'Excluir respostas';
 $string['choice:downloadresponses'] = 'Baixar respostas';
 $string['choice:readresponses'] = 'Ler respostas';
 $string['choiceclose'] = 'Até';
+$string['choicefull'] = 'Esta opção atingiu o limite de escolhas permitidas.';
 $string['choicename'] = 'Nome da Escolha';
 $string['choiceopen'] = 'Abrir';
 $string['choicetext'] = 'Texto da Escolha';
 $string['displayhorizontal'] = 'Disposição Horizontal';
 $string['displaymode'] = 'Formato de visualização';
 $string['displayvertical'] = 'Disposição Vertical';
-$string['fillinatleastoneoption'] = 'Você deve dar pelo menos duas respostas possíveis';
+$string['expired'] = 'Esta atividade está encerrada desde $a';
+$string['fillinatleastoneoption'] = 'Você deve definir pelo menos duas respostas';
 $string['full'] = '(Completo)';
 $string['havetologin'] = 'Você deve fazer o acesso ao site antes de enviar a sua resposta';
 $string['limit'] = 'Limitar';
@@ -32,17 +34,19 @@ $string['notopenyet'] = 'Esta atividade será acessível a partir de $a';
 $string['privacy'] = 'Privacidade dos resultados';
 $string['publish'] = 'Publicar resultados';
 $string['publishafteranswer'] = 'Mostrar os resultados ao estudante só depois que ele tiver dado a sua resposta';
-$string['publishafterclose'] = 'Mostrar resultados aos estudantes apenas após o fechamento do período de escolha';
+$string['publishafterclose'] = 'Mostrar resultados aos estudantes após o fechamento do período de escolha';
 $string['publishalways'] = 'Mostrar sempre os resultados aos estudantes';
-$string['publishanonymous'] = 'Publique resultados de forma anônima, sem mostrar o nome do aluno';
-$string['publishnames'] = 'Publique resultados completos, mostrando os nomes dos alunos e os resultados';
+$string['publishanonymous'] = 'Publicar resultados de forma anônima, sem mostrar o nome do aluno';
+$string['publishnames'] = 'Publicar resultados completos, mostrando os nomes dos alunos e os resultados';
 $string['publishnot'] = 'Não mostrar os resultados aos alunos';
+$string['removemychoice'] = 'Apagar a minha resposta';
+$string['removeresponses'] = 'Apagar todas as respostas';
 $string['responses'] = 'Respostas';
 $string['responsesto'] = 'Respostas a $a';
 $string['savemychoice'] = 'Gravar a minha resposta';
-$string['showunanswered'] = 'Mostrar coluna \"sem respostas\"';
-$string['spaceleft'] = 'espaço disponível';
-$string['spacesleft'] = 'espaços disponíveis';
+$string['showunanswered'] = 'Mostrar coluna Nenhuma Resposta';
+$string['spaceleft'] = 'resposta restante';
+$string['spacesleft'] = 'respostas restantes';
 $string['taken'] = 'Escolhido';
 $string['timerestrict'] = 'Aceitar respostas apenas neste período';
 $string['viewallresponses'] = 'Ver $a respostas';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.9 dev (2007021401)
+      // access.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['access'] = 'Acessibilidade';
@@ -7,11 +7,14 @@ $string['accesshelp'] = 'Ajuda para Acessibilidade';
 $string['accesskey'] = 'Botão de acesso, $a';
 $string['accessstatement'] = 'Declaração de acessibilidade';
 $string['activitynext'] = 'Próxima atividade';
-$string['activityprev'] = 'Atividade precedente';
+$string['activityprev'] = 'Atividade anterior';
 $string['breadcrumb'] = 'Percurso';
+$string['currenttopic'] = 'Tópico atual';
+$string['currentweek'] = 'Semana atual';
+$string['hideblocka'] = 'Esconder o bloco $a';
 $string['monthnext'] = 'Próximo mês';
 $string['monthprev'] = 'Mês anterior';
-$string['showhideblock'] = 'Mostrar ou esconder o bloco';
+$string['showblocka'] = 'Mostrar o bloco $a';
 $string['sitemap'] = 'Mapa do site';
 $string['skipa'] = 'Saltar $a';
 $string['skipblock'] = 'Saltar bloco';
@@ -21,5 +24,6 @@ $string['tablelayout'] = 'Tabela de layout, $a';
 $string['tocontent'] = 'Ir para o conteúdo principal';
 $string['tonavigation'] = 'Ir para navegação';
 $string['youarehere'] = 'Você está aqui';
+$string['showhideblock'] = 'Mostrar ou esconder o bloco'; // ORPHANED
 
 ?>

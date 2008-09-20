@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.9 dev (2007021401)
+      // exercise.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['absent'] = 'Ausente';
@@ -7,7 +7,7 @@ $string['accumulative'] = 'Acumulativo';
 $string['action'] = 'Ação';
 $string['ago'] = '$a atrás';
 $string['amend'] = 'Alterar';
-$string['amendassessmentelements'] = 'Alterar elementos da Avaliação';
+$string['amendassessmentelements'] = 'Alterar Elementos de Avaliação';
 $string['amendtitle'] = 'Alterar título';
 $string['analysis'] = 'Análise';
 $string['assess'] = 'Avaliar';
@@ -37,14 +37,14 @@ $string['description'] = 'Descrição';
 $string['descriptionofexercise'] = 'A descrição do Exercício é contida em um arquivo word ou HTML. Este arquivo é incluído no exercício antes da abertura do mesmo. É possível criar variações do mesmo exercício, sempre em Word ou Html, e incluí-los no exercício antes que seja aberto o período de acesso.';
 $string['detailsofassessment'] = 'Detalhes da avaliação';
 $string['displayoffinalgrades'] = 'Visualização das notas finais';
-$string['doubleupload'] = 'Atenção: é possível que este documento tenha sido enviado duas vêzes em um brevíssimo arco de tempo. Visite a página de administração e compare as versões com datas muito próximas e se forem iguais, cancele uma delas antes de continuar.';
+$string['doubleupload'] = 'Atenção: é possível que este documento tenha sido enviado duas vezes em um brevíssimo arco de tempo. Visite a página de administração e compare as versões com datas muito próximas e se forem iguais, cancele uma delas antes de continuar.';
 $string['duedate'] = 'Prazo final';
 $string['edit'] = 'Editar';
 $string['editingassessmentelements'] = 'Editando elementos da avaliação';
 $string['element'] = 'Elemento';
 $string['elementweight'] = 'Peso do elemento';
 $string['enterpassword'] = 'Escrever senha';
-$string['entriessaved'] = 'Rgistros salvados';
+$string['entriessaved'] = 'Registros salvos';
 $string['errorbanded'] = 'Erro relacionado';
 $string['excellent'] = 'Excelente';
 $string['exercise:assess'] = 'Avaliar exercícios';
@@ -74,7 +74,7 @@ $string['mail6'] = 'A sua avaliação do exercício \'$a\' foi examinada';
 $string['mail7'] = 'Os comentários dados por $a podem ser vistos na página do exercício';
 $string['managingassignment'] = 'Administrando o exercício';
 $string['maximum'] = 'Máximo';
-$string['maximumgradeforstudentassessments'] = 'Nota máxima para avalições de estudantes: $a';
+$string['maximumgradeforstudentassessments'] = 'Nota máxima para avaliações de estudantes: $a';
 $string['maximumgradeforsubmissions'] = 'Nota máxima para documentos enviados: $a';
 $string['maximumsize'] = 'Tamanho máximo';
 $string['mean'] = 'Médio';
@@ -100,8 +100,8 @@ $string['notitlegiven'] = 'nenhum título';
 $string['numberofassessmentelements'] = 'Número de comentários, Elementos da Avaliação, Notas, Definições de critérios ou categorias de uma rubrica';
 $string['numberofcriterionelements'] = 'O número de elementos de critério deve ser superior a um.';
 $string['numberofentries'] = 'Número de registros';
-$string['numberofentriesinleaguetable'] = 'Número de registros na tabela';
-$string['numberofnegativeresponses'] = 'Núvero de respostas negativas';
+$string['numberofentriesinleaguetable'] = 'Número de entradas na tabela';
+$string['numberofnegativeresponses'] = 'Número de respostas negativas';
 $string['onesubmission'] = 'Um envio';
 $string['optionaladjustment'] = 'Ajuste opcional';
 $string['overallgrade'] = 'Nota geral';
@@ -174,7 +174,7 @@ $string['verylax'] = 'Muito vago';
 $string['verypoor'] = 'Muito pobre';
 $string['verystrict'] = 'Muito preciso';
 $string['view'] = 'Mostrar';
-$string['viewteacherassessment'] = 'Ver $a Avalições';
+$string['viewteacherassessment'] = 'Ver $a Avaliações';
 $string['warningonamendingelements'] = 'Atenção: Já foram enviadas algumas avaliações. <br /> Não mude o número de elementos, o tipo de escala ou o peso dos elementos.';
 $string['weightederrorcount'] = 'Erro de contagem do peso $a';
 $string['weightforgradingofassessments'] = 'Peso para dar notas às avaliações';

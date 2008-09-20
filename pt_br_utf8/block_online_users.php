@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // block_online_users.php - created with Moodle 1.6 development (2006031600)
+      // block_online_users.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['blockname'] = 'Usuários Online';
-$string['configtimetosee'] = 'Número de minutos para indicar um usuário como atualmente online.';
+$string['configtimetosee'] = 'Periodo de inatividade (minutos) que determina a exclusão do usuário da lista.';
 $string['periodnminutes'] = 'últimos $a minutos';
+$string['timetosee'] = 'Remover após inatividade (minutos)';
 
 ?>

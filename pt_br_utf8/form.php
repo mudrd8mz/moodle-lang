@@ -1,15 +1,15 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 dev (2007021401)
+      // form.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['addfields'] = 'Acrescentar $a campos ao form';
-$string['advancedelement'] = 'Elemeto Avançado';
+$string['advancedelement'] = 'Elemento Avançado';
 $string['day'] = 'Dia';
 $string['display'] = 'Visualização';
 $string['err_alphanumeric'] = 'Inserir apena letras ou números.';
 $string['err_email'] = 'Inserir um email válido.';
 $string['err_lettersonly'] = 'Inserir apenas letras.';
-$string['err_maxlength'] = 'Inserir não mai que $a->format caracteres aqui.';
+$string['err_maxlength'] = 'Inserir não mais que $a->format caracteres aqui.';
 $string['err_minlength'] = 'Inserir pelo menos $a->format caracteres aqui.';
 $string['err_nonzero'] = 'Inserir um número que não inicia com 0.';
 $string['err_nopunctuation'] = 'Não inserir caracteres de pontuação.';
@@ -24,14 +24,18 @@ $string['miscellaneoussettings'] = 'Miscelanea';
 $string['modstandardels'] = 'Configuração de módulos comuns';
 $string['month'] = 'Mês';
 $string['nomethodforaddinghelpbutton'] = 'Não existe um método para acrescentar um botão de ajuda ao elemento do form $a->name (class $a->classname';
-$string['nonexistentformelements'] = 'tenetando acrescentar botões de ajuda em elementos de form inexistentes: $a';
+$string['nonexistentformelements'] = 'Tentando acrescentar botões de ajuda em elementos de form inexistentes: $a';
 $string['optional'] = 'Opcional';
+$string['othersettings'] = 'Outros parâmetros';
 $string['requiredelement'] = 'Campo obrigatório';
-$string['requiredfield'] = 'Campo obrigatório';
+$string['revealpassword'] = 'Mostrar';
 $string['security'] = 'Segurança';
+$string['selectallornone'] = 'Selecionar todos/nenhum';
 $string['showadvanced'] = 'Mostrar avançados';
 $string['somefieldsrequired'] = 'Este form contém campos obrigatórios';
 $string['timing'] = 'Tempo';
+$string['unmaskpassword'] = 'Mostrar';
 $string['year'] = 'Ano';
+$string['requiredfield'] = 'Campo obrigatório'; // ORPHANED
 
 ?>

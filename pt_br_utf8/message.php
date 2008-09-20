@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 dev (2007021401)
+      // message.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['addcontact'] = 'Acrescentar Contato';
@@ -27,11 +27,13 @@ $string['includeblockedusers'] = 'Incluir usuários bloqueados';
 $string['incomingcontacts'] = 'Contatos recebidos ($a)';
 $string['keywords'] = 'Palavras-chave';
 $string['keywordssearchresults'] = 'Resultados da busca: $a mensagens encontradas';
+$string['mailsent'] = 'Sua mensagem foi enviada.';
 $string['maxmessages'] = 'Número máximo de mensagens a serem mostradas no histórico de uma discussão';
 $string['message'] = 'Mensagem';
 $string['messagehistory'] = 'Histórico das mensagens';
 $string['messages'] = 'Mensagens';
 $string['messaging'] = 'Mensageria';
+$string['messagingdisabled'] = 'O Sserviço de mensagens está desativado neste site, ao invés de mensagens serão enviados e-mails';
 $string['mycontacts'] = 'Meus contatos';
 $string['newonlymsg'] = 'Mostrar apenas os novos';
 $string['newsearch'] = 'Nova busca';
@@ -55,9 +57,10 @@ $string['searchforperson'] = 'Procurar uma pessoa';
 $string['searchmessages'] = 'Buscar nas mensagens';
 $string['sendmessage'] = 'Enviar mensagem';
 $string['sendmessageto'] = 'Enviar mensagem para $a';
+$string['sendmessagetopopup'] = 'Envie mensagem para $a - nova janela';
 $string['settings'] = 'Preferências';
 $string['settingssaved'] = 'Suas preferências foram gravadas';
-$string['showmessagewindow'] = 'Mostrar automaticamente a janela de Mensagens quanto eu receber novas mensagens (seu navegador não deve bloquear a abertura automática de novas janelas \"pop-up\" deste site)';
+$string['showmessagewindow'] = 'Mostrar automaticamente a janela de Mensagens quando eu receber novas mensagens (seu navegador não deve bloquear a abertura automática de novas janelas \"pop-up\" deste site)';
 $string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
 $string['timenosee'] = 'Minutos desde que fui visto conectado';
 $string['timesent'] = 'Horário do envio';

@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.9 dev (2007021401)
+      // enrol_imsenterprise.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['aftersaving...'] = 'Depois de salvar as suas opções, é possível que você queira';
 $string['allowunenrol'] = 'Permitir que o IMS data <strong>cancele a inscrição</strong> de alunos e professores';
 $string['basicsettings'] = 'Configuração básica';
 $string['coursesettings'] = 'Opções de dados do curso';
-$string['createnewcategories'] = 'Criar novas (escondidas) categorias de cursos se não forem encontradas no Moodle';
-$string['createnewcourses'] = 'Criar novos (escondidos) cursos se não forem encontrados no Moodle';
+$string['createnewcategories'] = 'Criar novas categorias de cursos (ocultas) se não forem encontradas no Moodle';
+$string['createnewcourses'] = 'Criar novos cursos (ocultos) se não forem encontrados no Moodle';
 $string['createnewusers'] = 'Criar novas contas de usuários se ainda não forem registrados no Moodle';
 $string['cronfrequency'] = 'Freqüência de processamento';
 $string['deleteusers'] = 'Cancelar contas de usuários quando especificado em IMS data';
@@ -21,7 +21,7 @@ $string['fixcaseusernames'] = 'Mudar nomes de usuários para minúsculas';
 $string['imsrolesdescription'] = 'A especificação IMS Enterprise include 8 tipos de funções/papéis. Escolha o modo em que são designadas em Moodle, inclusive a possibilidade que alguma destas funções seja ignorada.';
 $string['location'] = 'Endereço do arquivo';
 $string['logtolocation'] = 'Endereço do arquivo log output (deixar em branco se não há arquivo de log)';
-$string['mailadmins'] = 'Notificar admins por email';
+$string['mailadmins'] = 'Notificar administradores por email';
 $string['mailusers'] = 'Notificar usuários por email';
 $string['miscsettings'] = 'Miscelânia';
 $string['processphoto'] = 'Acrescentar imagem do usuário ao perfil';

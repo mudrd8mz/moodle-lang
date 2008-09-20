@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.9 dev (2007021401)
+      // enrol_authorize.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['adminacceptccs'] = 'Que tipos de cartão de crédito são aceitos?';
@@ -35,7 +35,7 @@ AUTO-CAPTURE ATIVADO?: $a->acstatus
 
 Se auto-capture é ativo o cartão de crédito será capturado em $a->captureon
 e o aluno será inscrito no curso, em caso contrário expira em $a->expireon e não pode ser capturado em data posterior.
-Você também pode aceitar ou recusar o pagamento e inscrever o aluno imediatamente seguinto este link :
+Você também pode aceitar ou recusar o pagamento e inscrever o aluno imediatamente seguindo este link :
 $a->url';
 $string['adminnewordersubject'] = '$a->course: Novo pedido pendente($a->orderid)';
 $string['adminpendingorders'] = 'Você desabilitou a auto-captura.<br />As transações totais $a->count com status AN_STATUS_AUTH serão canceladas a menos que você as selecione.<br />Para aceitar/recusar pagamentos vá ao <a href=\'$a->url\'>painel de gestão de pagamentos</a>';
@@ -80,11 +80,12 @@ $string['ccinvalid'] = 'Número de cartão não válido';
 $string['ccno'] = 'Número do cartão de crédito';
 $string['cctype'] = 'Tipo de cartão de crédito';
 $string['ccvv'] = 'CV2';
-$string['ccvvhelp'] = 'Olhe na parte detrás do cartão (últimos 3 dígitos)';
+$string['ccvvhelp'] = 'Olhe na parte de trás do cartão (últimos 3 dígitos)';
 $string['choosemethod'] = 'Insira o código da chave de inscrição do curso. Se você ainda não tem este código, é necessário fazer a inscrição (e pagar) para poder obtê-lo.';
 $string['chooseone'] = 'Complete um ou dois dos campos abaixo';
 $string['costdefaultdesc'] = '<strong>Na configuração do curso, inserir -1</strong> no campo de preço para usar este preço padrão.';
 $string['cutofftime'] = 'Cut-Off Time da transação. Quando a próxima transação será selecionada para estabelecimento?';
+$string['dataentered'] = 'Dados inseridos';
 $string['delete'] = 'Destruir';
 $string['description'] = 'O módulo Authorize.net permite a configuração do pagamento de cursos utilizando providers CC. Se o valor da inscrição for zero, o pedido de pagamento não será apresentado ao aluno. Você deve configurar um preço predefinido para todo o site e um preço determinado para cada curso. O preço do curso tem prioridade sobre o preço predefinido para o site.';
 $string['echeckabacode'] = 'Número ABA do banco';
@@ -138,7 +139,7 @@ Clique o link e leia o arquivo de ajuda: $a->url';
 $string['pendingechecksubject'] = '$a->course: eChecks pendentes($a->count)';
 $string['pendingordersemail'] = 'Prezado administrador,
 
-$a->pending transações expiram amenos que voc~e aceite o pagamento em $a->days dias.
+$a->pending transações expiram a menos que você aceite o pagamento em $a->days dias.
 
 Este é um aviso enviado porque você não habilitou autocapture. Isto significa que você tem que aceitar ou recusar pagamentos manualmente.
 
@@ -182,7 +183,7 @@ $string['reviewfailed'] = 'Revisão falida';
 $string['reviewnotify'] = 'O seu pagamento vai ser controlado. Você receberá um email do seu professor nos próximos dias.';
 $string['sendpaymentbutton'] = 'Enviar Pagamento';
 $string['settled'] = 'Definido';
-$string['settlementdate'] = 'data de definição';
+$string['settlementdate'] = 'Data de definição';
 $string['subvoidyes'] = 'A transação restituída $a->transid vai ser cancelada e o valor de $a->amount vai ser acreditado na sua conta. Proceder?';
 $string['tested'] = 'Testado';
 $string['testmode'] = '[TEST MODE]';
