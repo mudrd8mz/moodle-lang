@@ -1,5 +1,6 @@
 <?php  // $Id$
 
+$string['activeportfolios'] = 'Portfolios actifs';
 $string['addalltoportfolio'] = 'Tout ajouter au portfolio';
 $string['addnewportfolio'] = 'Ajouter un portfolio';
 $string['addtoportfolio'] = 'Ajouter au portfolio';
@@ -7,6 +8,7 @@ $string['alreadyexporting'] = 'Vous avez déjà entamé une exportation vers un 
 $string['availableformats'] = 'Formats d\'exportation disponibles';
 $string['callercouldnotpackage'] = 'Échec de la préparation de vos données pour l\'exportation';
 $string['cannotsetvisible'] = 'Impossible de rendre visible ceci. Le plugin a été désactivé en raison d\'un problème de configuration';
+$string['commonsettingsdesc'] = '<p>En indiquant si la durée d\'un transfert doit être considérée comme <i>Modérée</i> ou comme <i>Élevée</i>, vous spécifiez si les utilisateurs pourront attendre la fin du transfert ou non.</p><p>Les transferts jusqu\'à une taille <i>Modérée</i> ont lieu immédiatement sans intervention de l\'utilisateur. Les transferts de taille supérieure sont mis dans la file d\'attente, avec l\'option de commencer, avec un avertissement que le transfert pourra durer un certain temps.</p><p>Il est possible que certains plugins de portfolio ignorent ce réglage et impose la mise en file d\'attente de tous les transferts.</p>';
 $string['configexport'] = 'Configurer les données exportées';
 $string['configplugin'] = 'Configurer le plugin portfolio';
 $string['confirmexport'] = 'Veuillez confirmer l\'exportation';
@@ -36,6 +38,10 @@ $string['format_mbkp'] = 'Format de sauvegarde Moodle';
 $string['format_text'] = 'Texte pur';
 $string['format_video'] = 'Vidéo';
 $string['hidden'] = 'Caché';
+$string['highdbsizethreshold'] = 'Taille de base de donnée élevée';
+$string['highdbsizethresholddesc'] = 'Nombre d\'enregistrements de la base de données au delà duquel le temps de transfert est considéré comme élevé';
+$string['highfilesizethreshold'] = 'Taille de transfert élevée';
+$string['highfilesizethresholddesc'] = 'Les fichiers dépassant cette taille seront considérés comme nécessitant un temps de transfert élevé';
 $string['instancedeleted'] = 'Le portfolio a été supprimé';
 $string['instanceismisconfigured'] = 'La configuration du portfolio n\'est pas correcte. Erreur&nbsp;: $a';
 $string['instancenotsaved'] = 'Échec de la sauvegarde du portfolio';
@@ -52,6 +58,10 @@ $string['invalidtempid'] = 'Identifiant d\'exportation non valide.';
 $string['invaliduserproperty'] = 'Impossible de trouver cette propriété de la configuration de l\'utilisateur ($a->property de $a->class)';
 $string['manageportfolios'] = 'Gérer les portfolios';
 $string['manageyourportfolios'] = 'Gérer vos portfolios';
+$string['moderatedbsizethreshold'] = 'Taille de base de donnée modérée';
+$string['moderatedbsizethresholddesc'] = 'Nombre d\'enregistrements de la base de données en-deçà duquel le temps de transfert est considéré comme modéré';
+$string['moderatefilesizethreshold'] = 'Taille de transfert modérée';
+$string['moderatefilesizethresholddesc'] = 'Les fichiers ne dépassant cette taille seront considérés comme nécessitant un temps de transfert modéré';
 $string['multipledisallowed'] = 'Impossible de créer une autre instance de ce plugin, qui n\'autorise pas des instances multiples ($a)';
 $string['noavailableplugins'] = 'Désolé, il n\'y a aucun portfolio disponible vers lequel exporter';
 $string['nocallbackfile'] = 'Un problème est présent dans le module depuis lequel vous essayez d\'exporter des données. Impossible de trouver un fichier requis ($a)';
