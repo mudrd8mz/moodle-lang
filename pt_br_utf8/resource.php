@@ -48,6 +48,7 @@ $string['fetcherror'] = 'Não foi possível o acesso a esta página.';
 $string['fetchservererror'] = 'Um erro de acesso ao servidor remoto foi identificado (provavelmente um erro do programa)';
 $string['filename'] = 'Nome do arquivo';
 $string['filtername'] = 'Link automático aos nomes dos recursos';
+$string['forcedownload'] = 'Forçar download';
 $string['frameifpossible'] = 'Colocar o recurso em un frame para que a barra de navegação do site continue visível';
 $string['framesize'] = 'Tamanho do Frame';
 $string['fulltext'] = 'Texto completo';

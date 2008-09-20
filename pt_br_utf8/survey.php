@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9 dev (2007021401)
+      // survey.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['actual'] = 'Atual';
@@ -177,6 +177,9 @@ Não há respostas certas ou erradas; nós estamos interessados apenas na sua op
 
 Agradecemos a sua colaboração.';
 $string['collespname'] = 'COLLES (expectativas)';
+$string['customintro'] = 'Introdução padrão';
+$string['deleteallanswers'] = 'Apagar todas as respostas';
+$string['deleteanalysis'] = 'Apagar a análise das respostas';
 $string['done'] = 'Feito';
 $string['download'] = 'Baixar';
 $string['downloadexcel'] = 'Baixar os dados como arquivo Excel';
@@ -206,6 +209,7 @@ $string['question'] = 'Pergunta';
 $string['questions'] = 'Perguntas';
 $string['questionsnotanswered'] = 'Algumas das perguntas de múltipla escolha não foram respondidas.';
 $string['report'] = 'Relatório da pesquisa de avaliação';
+$string['responses'] = 'Respostas';
 $string['savednotes'] = 'As suas anotações foram gravadas';
 $string['scaleagree5'] = 'Discordo completamente,Discordo em parte,Não concordo nem discordo,Concordo em parte,Concordo plenamente';
 $string['scales'] = 'Escalas';
