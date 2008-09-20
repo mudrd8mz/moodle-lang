@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.6.1 (2006050510)
+      // quiz_analysis.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
 
 
 $string['analysis'] = 'Análise de ítem';
@@ -7,7 +7,7 @@ $string['analysisdownload'] = 'Baixar análise';
 $string['analysisoptions'] = 'Opções de análise';
 $string['analysistitle'] = 'Tabela de análise de itens';
 $string['attemptsall'] = 'todas as tentativas';
-$string['attemptselection'] = 'Tentativas a serem analizadas por usuário';
+$string['attemptselection'] = 'Tentativas a serem analisadas por usuário';
 $string['attemptsfirst'] = 'Primeira tentativa';
 $string['attemptshighest'] = 'Melhor nota';
 $string['attemptslast'] = 'última tentativa';
