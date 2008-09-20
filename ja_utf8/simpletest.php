@@ -1,9 +1,11 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 2.0 dev (Build: 20080916) (2008091611)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
 
 
 $string['addconfigprefix'] = 'configファイルに接頭辞を追加する';
 $string['all'] = 'すべて';
+$string['deletingnoninsertedrecord'] = 'ユニットテストで挿入されていないレコードを削除しようとしています (テーブル: $a->table - id: $a->id)。';
+$string['deletingnoninsertedrecords'] = 'ユニットテストで挿入されていないレコードを削除しようとしています (テーブル: $a->table)。';
 $string['exception'] = '例外';
 $string['fail'] = '不合格';
 $string['ignorefile'] = 'このファイルのテストを無視する。';
@@ -29,9 +31,11 @@ $string['showsearch'] = 'テストファイルの検索結果を表示する。'
 $string['stacktrace'] = 'スタックトレース:';
 $string['summary'] = '{$a->run}/{$a->total} 件のテストケースが完了しました:パス <strong>{$a->passes}</strong> 件 / 不合格 <strong>{$a->fails}</strong> 件 / 例外 <strong>{$a->exceptions}</strong> 件';
 $string['tablesnotsetup'] = 'ユニットテストテーブルは、まだ構築されていません。ユニットテストテーブルを構築してもよろしいですか?';
+$string['testtablescsvfileunwritable'] = 'テストテーブルのCSVファイル ($a->filename) に書込み権がありません。';
 $string['thorough'] = '総合テストの実行を実行する (時間がかかります)。';
 $string['uncaughtexception'] = '[{$a->getFile()}:{$a->getLine()}] に不明な例外 [{$a->getMessage()}] が発生したため、テストは中止されました。';
 $string['unittests'] = 'ユニットテスト';
+$string['updatingnoninsertedrecord'] = 'ユニットテストで挿入されていないレコードを更新しようとしています (テーブル: $a->table - id: $a->id)。';
 $string['version'] = '使用<a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a>バージョン $a';
 
 ?>
