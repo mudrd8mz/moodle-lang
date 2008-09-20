@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080916) (2008091611)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
 
 
 $string['activeexport'] = 'アクティブエクスポートを解決する';
@@ -20,6 +20,7 @@ $string['confirmexport'] = 'このエクスポートを確認してください�
 $string['confirmsummary'] = 'あなたのエクスポートの要約';
 $string['continuetoportfolio'] = 'あなたのポートフォリオを続ける';
 $string['deleteportfolio'] = 'ポートフォリオインスタンスを削除する';
+$string['destination'] = 'エクスポート先';
 $string['disabled'] = '申し訳ございません、このサイトではポートフォリオエクスポートは有効にされていません。';
 $string['displayarea'] = 'エクスポートエリア';
 $string['displayexpiry'] = '転送有効時間';
@@ -31,6 +32,8 @@ $string['err_uniquename'] = 'ポートフォリオ名は、(プラグインご�
 $string['exportcomplete'] = 'ポートフォリオのエクスポートが完了しました!';
 $string['exportedpreviously'] = '前のエクスポート';
 $string['exportexceptionnoexporter'] = '活動セッションでportfolio_export_exceptionがスローされましたが、エクスポーターオブジェクトがありません。';
+$string['exportexpired'] = 'ポートフォリオエクスポート期限切れ';
+$string['exportexpireddesc'] = 'あなたは、いくつかの情報を繰り返しエクスポートしようとしているか、空のエクスポートを開始しようとしています。適切にエクスポートするには、オリジナルのロケーションに戻って、再度エクスポートを開始する必要があります。エクスポートの後、あなたがブラウザの戻るボタンを使用したか、無効なURIをブックマークした場合、この現象が時々発生します。';
 $string['exporting'] = 'ポートフォリオへのエクスポート';
 $string['exportingcontentfrom'] = '$a からコンテンツをエクスポートする';
 $string['exportqueued'] = '転送のため、ポートフォリオエクスポートが正常にキューに入れられました。';
@@ -50,6 +53,20 @@ $string['highdbsizethreshold'] = '高程度のデータベース転送サイズ'
 $string['highdbsizethresholddesc'] = 'この数を超えると高程度の転送時間が必要だと見なされるデータベースレコード数です。';
 $string['highfilesizethreshold'] = '高程度のファイル転送サイズ';
 $string['highfilesizethresholddesc'] = 'この閾値を超えると高程度の転送時間が必要だと見なされるファイルサイズです。';
+$string['insanebody'] = 'こんにちは! あなたは、このメッセージを $a->sitename の管理者として受信しています。
+
+設定が正しくないため、いくつかのポートフォリオプラグインが自動的に無効にされました。これは、現在のところ、ユーザがこれらのポートフォリオにコンテンツをエクスポートできないことを意味します。
+
+無効にされたポートフォリオインスタンスのリストは下記のとおりです:
+
+$a->textlist
+
+この問題は、$a->fixurl にアクセスして、可能な限り早く訂正されるべきです。';
+$string['insanebodyhtml'] = 'p>こんにちは! あなたは、このメッセージを $a->sitename の管理者として受信しています。</p>
+$a->htmllist
+<p>この問題は、<a href=\"$a->fixurl\">ポートフォリオ設定ページ</a>にアクセスして、可能な限り早く訂正されるべきです。</p>';
+$string['insanebodysmall'] = 'こんにちは! あなたは、このメッセージを $a->sitename の管理者として受信しています。設定が正しくないため、いくつかのポートフォリオプラグインが自動的に無効にされました。これは、現在のところ、ユーザがこれらのポートフォリオにコンテンツをエクスポートできないことを意味します。この問題は、$a->fixurl にアクセスして、可能な限り早く訂正されるべきです。';
+$string['insanesubject'] = 'いくつかのポートフォリオインスタンスが自動的に無効にされました。';
 $string['instancedeleted'] = 'ポートフォリオが正常に削除されました。';
 $string['instanceismisconfigured'] = 'ポートフォリオインスタンスの設定が正しくありません、スキップ中。エラー内容は: $a';
 $string['instancenotdelete'] = 'ポートフォリオの削除に失敗しました。';
@@ -85,10 +102,12 @@ $string['nonprimative'] = 'portfolio_add_buttonのコールバック変数とし
 $string['nopermissions'] = '申し訳ございません、このエリアからファイルをエクスポートするため必要なパーミッションが、あなたにはありません。';
 $string['notexportable'] = '申し訳ございません、あなたがエクスポートを試みているコンテンツタイプは、エクスポートできません。';
 $string['notimplemented'] = '申し訳ございません、あなたはまだ実装されていないフォーマット ($a) でコンテンツのエクスポートを試みています。';
+$string['notyetselected'] = '未選択';
 $string['notyours'] = 'あなたは、自分に属していないポートフォリオエクスポートの再開を試みています!';
 $string['nouploaddirectory'] = 'あなたのデータをパッケージするための一時ディレクトリを作成できませんでした。';
 $string['plugin'] = 'ポートフォリオプラグイン';
 $string['plugincouldnotpackage'] = 'あなたのエクスポートするデータをパッケージできませんでした: オリジナルエラーは次のとおりです - $a';
+$string['pluginismisconfigured'] = 'ポートフォリオプラグインの設定がが正しくありません。エラーは次のとおりです - $a';
 $string['portfolio'] = 'ポートフォリオ';
 $string['portfolios'] = 'ポートフォリオ';
 $string['queuesummary'] = '現在キューに入れられている転送';
