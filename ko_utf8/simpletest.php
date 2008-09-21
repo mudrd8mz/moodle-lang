@@ -1,9 +1,11 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20080921) (2008091611)
 
 
 $string['addconfigprefix'] = '설정파일에 접두어 추가';
 $string['all'] = '모두';
+$string['deletingnoninsertedrecord'] = '유닛 점검에 포함되지 않은 기록( $a->table 테이블의 id $a->id )을 삭제하려고 합니다.';
+$string['deletingnoninsertedrecords'] = '유닛 점검에 포함되지 않은 기록들( $a->table 테이블 )을 삭제하려고 합니다.';
 $string['exception'] = '예외';
 $string['fail'] = '실패';
 $string['ignorefile'] = '파일 점검 무시';
@@ -29,9 +31,11 @@ $string['showsearch'] = '점검 파일 검색결과 보기';
 $string['stacktrace'] = '스택 추적 :';
 $string['summary'] = '{$a->run}/{$a->total} 사례 점검 완료 : <strong>{$a->passes}</strong>  통과, <strong>{$a->fails}</strong>  실패, <strong>{$a->exceptions}</strong> 가 제외 되었음.';
 $string['tablesnotsetup'] = '유닛 점검 테이블이 아직 작성되지 않았습니다. 지금 만드시겠습니까?';
+$string['testtablescsvfileunwritable'] = '점검 테이블의 CSV파일에 쓸 수 없음($a->filename)';
 $string['thorough'] = '상세 점검(느릴 수 있음)';
 $string['uncaughtexception'] = '알려지지 않은 예외항목인 [{$a->getMessage()}] 이 [{$a->getFile()}:{$a->getLine()}] 에서 발견되어 점검이 취소됨.';
 $string['unittests'] = '유닛 점검';
+$string['updatingnoninsertedrecord'] = '유닛 점검에 포함되지 않은 기록( $a->table 테이블의 id $a->id )을 갱신하려고 합니다.';
 $string['version'] = '<a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> version $a 를 사용중임.';
 
 ?>

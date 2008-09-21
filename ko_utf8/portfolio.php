@@ -1,12 +1,13 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080921) (2008091611)
 
 
+$string['activeexport'] = '내보내기 마무리';
 $string['activeportfolios'] = '내 포트폴리오';
 $string['addalltoportfolio'] = '모두 포트폴리오에 추가';
 $string['addnewportfolio'] = '포트폴리오 작성';
 $string['addtoportfolio'] = '포트폴리오에 추가';
-$string['alreadyalt'] = '이미 내보내는 중 - 현재 전송을 말소하려면 여기를 누르기 바랍니다.';
+$string['alreadyalt'] = '이미 내보내는 중 - 현재 전송을 마무리하려면 여기를 누르기 바랍니다.';
 $string['alreadyexporting'] = '이미 본 세션에서 포트폴리오를 내보냈습니다. <a href=\"$a->finish\">포트폴리오 완성</a>을 누르거나, 아니면 <a href=\"$a->cancel\">취소</a>를 누르세요.';
 $string['availableformats'] = '이용가능한 내보내기 형식';
 $string['callercouldnotpackage'] = '내보내기 위한 자료 묶기 실패';
@@ -21,6 +22,7 @@ $string['confirmexport'] = '내보낼 사항을 확인하기 바람';
 $string['confirmsummary'] = '내보낼 항목 개요';
 $string['continuetoportfolio'] = '포트폴리오 계속';
 $string['deleteportfolio'] = '포트폴리오 인스턴스 삭제';
+$string['destination'] = '보낼 곳';
 $string['disabled'] = '죄송합니다만, 이 사이트에서는 포트폴리오 내보내기가 되지 않습니다';
 $string['displayarea'] = '내보낼 영역';
 $string['displayexpiry'] = '전송 제한 시간';
@@ -32,6 +34,8 @@ $string['err_uniquename'] = '포트폴리오의 명칭은 중복되면 안됨';
 $string['exportcomplete'] = '포트폴리오 내보내기 성공!';
 $string['exportedpreviously'] = '이전에 내보낸 포트폴리오';
 $string['exportexceptionnoexporter'] = '현재 세션에 대한 portfolio_export_exception이 제시됐지만 내보낼 객체가 없음';
+$string['exportexpired'] = '포트폴리오 해지됨';
+$string['exportexpireddesc'] = '정보 내보내기를 반복하고 있거나 빈 내용을 내보내려 하고 있습니다. 제대로 하려면 원래의 위치로 돌아가 다시 시작해야만 합니다. 이 현상은 가끔 내보내기가 완료된 후에 뒤로 돌아가기 버튼을 사용할 때나, 잘못된 주소를 갈무리 함으로서 일어납니다.';
 $string['exporting'] = '포트폴리오 내보내기';
 $string['exportingcontentfrom'] = '$a 의 내용 내보내기';
 $string['exportqueued'] = '포트폴리오 내보내기 준비작업 성공';
@@ -51,6 +55,21 @@ $string['highdbsizethreshold'] = '최고 전송 디비 크기';
 $string['highdbsizethresholddesc'] = '전송시간 내 최대로 전송할 수 있는 자료의 숫자';
 $string['highfilesizethreshold'] = '최고 전송 파일 크기';
 $string['highfilesizethresholddesc'] = '전송 시간 내 최대로 전송할 수 있는 파일의 크기';
+$string['insanebody'] = '$a->sitename 의 관리자이기 때문에 받는 메시지입니다.
+
+포트폴리오 인스턴스가 잘못된 설정으로 자동 해제되어 있습니다. 이로 말미암아 사용자는 현재 포트폴리의의 내용을 내보낼 수 없습니다.
+
+해제된 포트폴리오 목록은 다음과 같습니다.
+
+ $a->textlist
+
+가급적 빨리 $a->fixurl 을 방문하여 이를 바로잡기 바랍니다.';
+$string['insanebodyhtml'] = '<p> $a->sitename 의 관리자이기 때문에 받는 메시지입니다.</p>
+$a->htmllist
+<p>가급적 빨리<a href=\"$a->fixurl\">포트폴리오 설정화면</a>을 방문하여 이를 바로잡기 바랍니다.';
+$string['insanebodysmall'] = '$a->sitename 의 관리자이기 때문에 받는 메시지입니다. 포트폴리오 인스턴스가 잘못된 설정으로 자동 해제되어 있습니다. 이로 말미암아 사용자는 현재 포트폴리의의 내용을 내보낼 수 없습니다.
+가급적 빨리 $a->fixurl 을 방문하여 이를 바로잡기 바랍니다.';
+$string['insanesubject'] = '포트폴리오 인스턴스 자동 해제';
 $string['instancedeleted'] = '포트폴리오 삭제 완료';
 $string['instanceismisconfigured'] = '포트폴리오 설정오류로 중지됨. $a 오류';
 $string['instancenotdelete'] = '포트폴리오 삭제 실패';
@@ -86,10 +105,12 @@ $string['nonprimative'] = 'portfolio_add_button으로 초기값 전송없음. �
 $string['nopermissions'] = '죄송합니다만, 이 영역에서 파일을 내보낼 권한이 없음';
 $string['notexportable'] = '죄송합니다만, 내보낼 수 없는 내용 형식을 지정하였음';
 $string['notimplemented'] = '죄송합니다만, 아직 지원하지 않는 ($a) 형식으로 내용을 내보내려 하고 있습니다.';
+$string['notyetselected'] = '아직 선택되지 않음';
 $string['notyours'] = '남의 포트폴리오를 재작성하려고 합니다!';
 $string['nouploaddirectory'] = '자료를 묶을 임시 저장고를 생생할 수 없음';
 $string['plugin'] = '포트폴리오 플러그인';
 $string['plugincouldnotpackage'] = '내보낼 자료를 묶는 데 실패';
+$string['pluginismisconfigured'] = '포트폴리오 설정이 잘못되어 생략됨. 오류: $a';
 $string['portfolio'] = '포트폴리오';
 $string['portfolios'] = '포트폴리오';
 $string['queuesummary'] = '전송 대기 중';
