@@ -63,6 +63,7 @@ $string['openpicker'] = 'Choisir un fichier...';
 $string['operation'] = 'Opération';
 $string['personalrepositories'] = 'Dépôts personels';
 $string['plugin'] = 'Plugins de dépôt';
+$string['popup'] = 'Ouvre une fenêtre surgissante pour la connexion';
 $string['preview'] = 'Prévisualiser';
 $string['refresh'] = 'Actualiser';
 $string['removed'] = 'Dépôt supprimé';
