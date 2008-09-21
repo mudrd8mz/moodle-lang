@@ -23,6 +23,7 @@ $string['category:create'] = 'Créer les catégories de cours';
 $string['category:delete'] = 'Supprimer les catégories de cours';
 $string['category:update'] = 'Modifier les catégories de cours';
 $string['category:visibility'] = 'Voir les catégories de cours cachées';
+$string['context'] = 'Contexte';
 $string['course:activityvisibility'] = 'Cacher/afficher les activités';
 $string['course:bulkmessaging'] = 'Envoyer des messages à de nombreux utilisateurs';
 $string['course:create'] = 'Créer des cours';
