@@ -62,6 +62,7 @@ $string['operation'] = 'Opération';
 $string['personalrepositories'] = 'Dépôts personels';
 $string['plugin'] = 'Plugins de dépôt';
 $string['preview'] = 'Prévisualiser';
+$string['refresh'] = 'Actualiser';
 $string['removed'] = 'Dépôt supprimé';
 $string['repositories'] = 'Dépôts';
 $string['repository'] = 'Dépôt';
