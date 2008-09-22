@@ -32,6 +32,7 @@ $string['stacktrace'] = 'スタックトレース:';
 $string['summary'] = '{$a->run}/{$a->total} 件のテストケースが完了しました:パス <strong>{$a->passes}</strong> 件 / 不合格 <strong>{$a->fails}</strong> 件 / 例外 <strong>{$a->exceptions}</strong> 件';
 $string['tablesnotsetup'] = 'ユニットテストテーブルは、まだ構築されていません。ユニットテストテーブルを構築してもよろしいですか?';
 $string['testtablescsvfileunwritable'] = 'テストテーブルのCSVファイル ($a->filename) に書込み権がありません。';
+$string['testtablesok'] = 'テストDBテーブルが正常にインストールされました。';
 $string['thorough'] = '総合テストの実行を実行する (時間がかかります)。';
 $string['uncaughtexception'] = '[{$a->getFile()}:{$a->getLine()}] に不明な例外 [{$a->getMessage()}] が発生したため、テストは中止されました。';
 $string['unittests'] = 'ユニットテスト';
