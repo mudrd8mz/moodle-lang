@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 2.0 dev (Build: 20080921) (2008091611)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20080922) (2008091611)
 
 
 $string['addconfigprefix'] = '설정파일에 접두어 추가';
@@ -32,6 +32,7 @@ $string['stacktrace'] = '스택 추적 :';
 $string['summary'] = '{$a->run}/{$a->total} 사례 점검 완료 : <strong>{$a->passes}</strong>  통과, <strong>{$a->fails}</strong>  실패, <strong>{$a->exceptions}</strong> 가 제외 되었음.';
 $string['tablesnotsetup'] = '유닛 점검 테이블이 아직 작성되지 않았습니다. 지금 만드시겠습니까?';
 $string['testtablescsvfileunwritable'] = '점검 테이블의 CSV파일에 쓸 수 없음($a->filename)';
+$string['testtablesok'] = '점검하려는 DB 테이블 설치 성공';
 $string['thorough'] = '상세 점검(느릴 수 있음)';
 $string['uncaughtexception'] = '알려지지 않은 예외항목인 [{$a->getMessage()}] 이 [{$a->getFile()}:{$a->getLine()}] 에서 발견되어 점검이 취소됨.';
 $string['unittests'] = '유닛 점검';
