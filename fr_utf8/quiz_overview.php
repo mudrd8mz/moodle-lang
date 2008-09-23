@@ -47,5 +47,6 @@ $string['showdetailedmarks'] = 'Afficher / télécharger les points pour chaque 
 $string['showinggraded'] = 'Afficher seulement les tentatives évaluées de chaque participant.';
 $string['showinggradedandungraded'] = 'Afficher toutes les tentatives de chaque participant. La tentative évaluée est surlignée pour chaque utilisateur. La méthode d\'évaluation pour ce test est $a.';
 $string['studentingroup'] = '$a->coursestudent du groupe $a->groupname';
+$string['studentingrouplong'] = '«&nbsp;$a->coursestudent&nbsp;» dans ce groupe';
 
 ?>
