@@ -1,0 +1,46 @@
+<h1>About the Richtext HTML editor</h1>
+
+<p>Elérhetőség: <b>
+<?php  if (!$CFG->htmleditor) {
+       print_string("htmleditordisabledadmin");
+   } else if (!$USER->htmleditor) {
+       print_string("htmleditordisabled");
+   } else if (!can_use_html_editor()) {
+       print_string("htmleditordisabledbrowser");
+   } else {
+       print_string("htmleditoravailable");
+   }
+?>
+</b></p>
+
+<p>A richtext formájú HTML-szerkesztő olyan weboldalba beágyazott szövegszerkesztői felület, amely lehetővé teszi az adott szöveg intuitív módon való szerkesztését, eredményként pedig szokásos HTML-kódot ad vissza.</p>
+
+<p>A szöveg formázása mellett ez a szerkesztő egy sor egyéb, hasznos jellemzővel rendelkezik.</p>
+
+<h2>Szöveg beszúrása más alkalmazásokból</h2>
+<div class="indent">
+<p>Egyéb Windows-alkalmazásokból, például Microsoft Wordből szúrhat be szöveget közvetlenül ebbe a szerkesztőbe, miközben annak a formázása megőrződik. Ehhez mindössze a webböngésző szokásos kivágási és beillesztési menüpontjait (vagy a Control-C és Control-V) billentyűkombinációkat kell használnia.</p>
+</div>
+
+<h2>Képek beszúrása <img alt="" src="lib/editor/htmlarea/images/ed_image.gif" /></h2>
+<div class="indent">
+<p>Ha olyan képekkel rendelkezik, amelyek már valamely honlapon elérhetők, ezeket az "Kép beszúrása" gombbal beillesztheti.</p>
+</div>
+
+<h2>Táblázat beszúrása  <img alt="" src="lib/editor/htmlarea/images/insert_table.gif" /></h2>
+<div class="indent">
+<p>A szöveg elrendezéséhez használhatja az eszköztáron lévő "Táblázatok beszúrása" gombot. </p>  
+</div>
+
+<h2>Ugrópontok beszúrása <img alt="" src="lib/editor/htmlarea/images/ed_link.gif" /> /</h2>
+<div class="indent">
+<p>Új ugrópont létrehozásához először írja be a hivatkozáshoz szánt szöveget. Utána jelölje ki és kattintson az eszköztáron lévő Ugrópont gombra. Gépelje be a hivatkozás URL-jét, és kész!</p>
+</div>
+
+
+<h2>Hangulatjelek (emotikonok) beszúrása <img alt="" src="pix/s/smiley.gif" class="icon" /></h2>
+<div class="indent">
+<p>Ezeknek a kis ikonoknak a szövegbe való beillesztéséhez kattintson az eszköztáron lévő, emotikont jelölő ikonra. A felbukkanó párbeszédablakból választhat az alábbi emotikonok közül. (Másik megoldásként egyszerűen beírhatja a megfelelő kódot a szövegbe, amely később, a szöveg megjelenítésekor átalakítva jelenik majd meg). </p>
+<div id="emoticons">##emoticons_html##</div>
+</div>
+<div style="clear:both">&nbsp<div>

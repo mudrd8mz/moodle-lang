@@ -1,0 +1,58 @@
+<h1>WebCT tesztformájú állományok importálása</h1>
+
+<p>A WebCT-formájú importáló szűrő fejlesztése folyamatban van, most még nem támogatja az összes WebCT típusú kérdésfajtát.</p>
+
+<p>A jelen szöveg írásakor csak a feleletválasztós és a kiegészítő kérdések importálását támogatja.</p>
+
+<p>Íme néhány példa ezekre a kérdésekre:</p>
+
+<pre>
+# Kérdés kezdete: Kiegészítő kérdés
+:TYPE:S:
+:TITLE:Short Answer Question
+:QUESTION:H
+Mi a neve a WebCT tanulási központjának?
+<br /> 
+:IMAGE:dotcomLogoc.gif
+:ANSWERS:1
+:CASE:0
+:ANSWER1:WebCT.com:100:0:20:0
+:FEEDBACK1:H
+Mindenképpen látogassa meg a tanulási központot\: www.WebCT.com
+:CAT:Default
+# Kérdés : Kiegészítő kérdés
+
+# Kérdés kezdete: Feleletválasztós kérdés
+:TYPE:MC:1:0:C
+:TITLE:Feleletválasztós kérdés
+:VISSZAJELZÉS
+Darwin találta fel az evolúciós elméletet és ő alkotta meg a darwinizmust.
+:QUESTION:H
+Hol található a Darwin Kutatóközpont?
+:IMAGE:
+:LAYOUT:vertical
+:ANSWER1:0:H
+Menlo Park, Kalifornia
+:REASON1:H
+Sajnos nem!
+:VÁLASZOK:0:H
+Vancouver, Kanada
+:REASON2:H
+Pardon!
+:VÁLASZOK:100:H
+Galapagos szigetek, Ecuador
+:REASON3:H
+Helyes válasz!
+:ANSWER4:0:H
+London, Anglia
+:REASON4:H
+Pardon!
+:VÁLASZOK:0:H
+Sidney, Ausztrália
+:REASON5:H
+Pardon!
+:CAT:Default
+# Kérdés vége: Feleletválasztós kérdés
+
+</pre>
+

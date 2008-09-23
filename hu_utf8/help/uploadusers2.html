@@ -1,0 +1,69 @@
+<h1>Felhasználók feltöltése</h1>
+
+<p>Elõször is <strong>általában nem szükséges a felhasználókat ömlesztve importálni</strong> - a karbantartás minimálisra csökkentése érdekében elõször derítse fel azokat a hitelesítési módokat, amelyek nem igényelnek kézi karbantartást, például külsõ adatbázisokhoz kapcsolódás vagy a felhasználók számára saját fiók létrehozásának az engedélyezése.  Lásd az adminisztrációs menükben a hitelesítésre vonatkozó részt.</p>
+<p>Ha biztos abban, hogy több felhasználói fiókot kíván egy szöveges állományból importálni, akkor szövegét az alábbiak szerint kell megformáznia:</p>
+
+<ul>
+  <li>Az állomány minden sora egy rekordot tartalmaz.</li>
+  <li>Minden rekord egy-egy vesszõkkel (vagy más határoló karakterekkel) elválasztott adatsort tartalmaz</li>
+  <li>Az állomány elsõ rekordja különleges, amennyiben a mezõneveket tartalmazza. Ez határozza meg az állomány fennmaradó részének a szerkezetét.
+    <blockquote>
+      <p><strong>Elõírt mezõnevek:</strong> ezek a mezõk az elsõ rekordba kerülnek, és minden felhasználóhoz meg kell határozni õket</p>
+      <p><code>keresztnév, vezetéknév</code> beszúráskor, vagy <code>felhasználónév</code> frissítéskor</p>
+      <p><strong>Választható mezõnevek:</strong> ezek mindegyike teljességggel választható. Ha az állománybeli mezõben szerepel érték, a rendszer ezt az értéket használja; ellenkezõ esetben az alapbeállítás szerinti értéket használja.</p>
+      <p><code>institution, department, city, country, lang, auth, ajax, timezone, idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, emailstop</code></p>
+      <p><strong>Egyéni profilmezõk nevei:</strong> választható, az xxxxx a valódi ügyfél felhasználói profiljának mezõneve (azaz az egyedi rövid név)</p>
+      <p><code>profile_field_xxxxx</code></p>
+      <p><strong>Különleges mezõnevek:</strong> felhasználónevek módosítására vagy felhasználók törlésére használatos, lásd alább</p>
+      <p><code>deleted, oldusername</code></p>
+      <p><strong>Beiratkozási mezõnevek (választható):</strong> A kurzusnevek a kurzusok &quot;rövid elnevezései&quot; - ha meg van adva, akkor a felhasználó ezen kurzusokba lesz beiratkoztatva. A &quot;Típus&quot; a kapcsolódó kurzusfelvételhez használt szerep típusára utal. Az 1-es érték az alapbeállítás szerinti kurzusszerep, a 2-es a régi tanár, a 3-as a régi tananyagot nem szerkesztõ tanár. A szerepmezõt használatva közvetlenül adhatja meg a szerepeket - használhat rövid nevet vagy azonosítót (a szerepek számokkal való megnevezését a rendszer nem támogatja). A felhasználókat a kurzusban csoportokhoz is hozzárendelheti (1_kurzus 1_csoport, 2_kurzus 2_csoport stb.). A csoportok azonosítására ugyancsak nevet vagy azonosítót használhat (a csoportok számokkal való megnevezését a rendszer nem támogatja).</p>
+      <p><code>1_kurzus, 1_típus, 1_szerep, 1_csoport, 2_kurzus, 2_típus, 2_szerep, 2_csoport stb.</code></p>
+    </blockquote>
+    </li>
+  <li>Az adatokon belül a vesszõket &amp;#44 alakban kell kódolni - a program ezeket automatikusan visszaalakítja vesszõkké.</li>
+  <li>Bool-értékek mezõi esetén a 0 a hamis, az 1 az igaz érték. </li>
+</ul>
+<p>Íme egy példa egy érvényes importállományra:</p>
+<p><code>username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br /> jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br /> reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</code></p>
+
+<h2>Sablonok</h2>
+<p>Az alapértékeket a rendszer sablonokként dolgozza fel, melyben az alábbi kódok használata megengedett:</p>
+<ul>
+<li><code>%l</code> - helyére a vezetéknév kerül</li>
+<li><code>%f</code> - helyére a keresztnév kerül</li>
+<li><code>%u</code> - helyére a felhasználónév kerül</li>
+<li><code>%%</code> - helyére a % kerül</li>
+</ul>
+<p>A százalékjel (%) és bármely kódbetû (l, f vagy u) között az alábbi módosítókat használhatja:</p>
+<ul>
+<li>(-) mínuszjel - a kódbetûvel megadott adat kisbetûsre alakul át</li>
+<li>(-) pluszjel - a kódbetûvel megadott adat NAGYBETÛSRE alakul át</li>
+<li>(-) hullámvonal - a kódbetûvel megadott adat Címbetûsre alakul át</li>
+<li>tizedesjegy - a kódbetûvel megadott adat ennyi karakterre lesz levágva</li>
+</ul>
+
+<p>Ha például a keresztnév János, a vezetéknév pedig Kis, a megadott sablonokkal az alábbi értékek jönnek létre:</p>
+<ul>
+<li>%l%f = KisJános</li>
+<li>%l%1f = KisJ</li>
+<li>%-l%+f = kisJÁNOS</li>
+<li>%-f_%-l = jános_kis</li>
+<li>http://www.example.com/~%u/ = http://www.example.com/~jkis/ (ha a felhasználó neve jkis vagy %-1f%-l)</li>
+</ul>
+<p>A sablonfeldolgozás csak az alapbeállítás szerinti értékeken megy végbe, a CSV-állományból kinyert értékeken nem.</p>
+<p>Helyes Moodle-felhasználónevek létrehozása érdekében a felhasználónevek mindig átalakulnak kisbetûssé. Emellett a &quot;Kibõvített karakterek engedélyezése a felhasználónevekben&quot; ki van kapcsolva a portáladminisztáriós oldalon, akkor a betûktõl, számjegyektõl, kötõjeltõl (-) vagy ponttól (.) eltérõ karakterek törlõdnek. Ha például a vezetéknév ifj. Kis, a keresztnév pedig János, akkor a %-f_%-l felhasználónév jános_ifj. kis lesz, ha a &quot;Kibõvített karakterek engedélyezése a felhasználónevekben&quot; be van kapcsolva, ellenkezõ esetben pedig jánosifj.kis.</p>
+<p>Ha az &quot;Új dupla felhasználónév kezelése&quot; beállítása &quot;Számláló hozzáadása&quot;, a sablon egy automatikusan növekvõ számlálót kapcsol a dupla felhasználónevekhez. Ha például a CSV-állományban Kis János, Kis Janina és Kis Jolán felhasználók szerepelnek, akkor az alapbeállítás szerinti %-1f%-l felhasználónév és az &quot;Új dupla felhasználónév kezelése&quot; beállítás bekapcsolt &quot;Számláló hozzáadása&quot; esetén a felhasználónevek jkis, kis2 és jkis3 lesznek.
+</p>
+
+<h2>Létezõ fiókok frissítése</h2>
+
+<p>Alaphelyzetben a Moodle abból indul ki, hogy Ön új fiókokat hoz létre, a létezõ és egyezõ felhazsnbálónevek rekordjait pedig átugorja. Ha viszont engedélyezi a frissítést, a rendszer a létezõ fiókokat frissíteni fogja. </p>
+
+<p>Létezõ fiókok frissítése során módosíthatja a felhasználóneveket is. Az &quot;Átnevezés engedélyezése&quot; pontot állítsa <b>Igen</b>-re és az állományba iktasson be egy <code>oldusername</code> nevû mezõt.</p>
+
+<p><b>Vigyázat:</b> ha hibát vét a létezõ fiókok frissítése során, az felhasználóit hátrányosan érintheti. Legyen óvatos a frissítés használata során.</p>
+
+<h2>Fiókok törlése</h2>
+<p>Ha megjelenik a <code>deleted</code> mezõ, az 1-es értéket kapó felhasználókat a rendszer törölni fogja. Ez esetben a <code>username</code> mezõ kivételével az összes mezõt kihagyhatja.</p>
+<p>Fiókok törlése és feltöltése egyetlen CSV-állománnyal elvégezhetõ. Például az alábbi állomány hozzáadja Tom Jones felhasználót és törli reznort felhasználót:</p>
+<p><code>username, firstname, lastname, deleted<br /> jonest, Tom, Jones, 0<br /> reznort, , , 1</code></p>

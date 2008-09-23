@@ -1,0 +1,24 @@
+<h1>Moodle XML állományok</h1>
+
+
+<p>Ez a Moodle-forma azonos formában korábban exportált tesztkérdések importálására való. A forma áttekinthető és jól példázza egy kategória Moodle XML formában való exportálása. Az XML-forma alkalmas képek  
+importálására.
+</p>
+
+<p>A forma használatát kérdésfajtákhoz való külön beszerezhető segédprogramok egészítik ki.</p>
+
+<h3>Kategóriaváltás</h3>
+<p>Az XML-állományba beszúrhat egy speciális üres kérdést, mellyel a következő kérdések beillesztéséhez a kategória útvonalát tudja megadni.
+Ha a kategória vagy kategóriák nem léteznek, a rendszer létrehozza őket. 
+Ne feledje bejelölni a <b>forrásállomány:</b> opciót az opciós oldalán, mert különben ezt a kódot a rendszer teljes egészében figyelmen kívül hagyja. Az XML-állományban annyiszor válthat kategóriát, ahányszor csak tetszik.</p>
+
+<p>A formára példaként szolgálhat a következő:</p>
+
+<pre>
+&lt;kérdés type="category"&gt;
+
+    &lt;kategória&gt;
+        tom/dick/harry
+    &lt;/kategória&gt;
+&lt;/kérdés&gt;
+</pre>

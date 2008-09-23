@@ -1,0 +1,233 @@
+<h1>GIFT formájú állományok</h1>
+<p>A GIFT a legkiterjedtebb importálási forma, mellyel a Moodle szöveges állományokból 
+tesztkérdéseket képes beolvasni. Támogatja a feleletválasztós, igaz-hamis, 
+kiegészítő, párosító és számjegyes kérdések használatát, 
+továbbá az _____ beszúrását a "szókitöltő" forma esetén. 
+A különféle kérdésfajták egyetlen szöveges állományban vegyesen 
+használhatók, emellett a formátum támogatja egysoros megjegyzések, kérdésnevek, 
+visszajelzés és százaléksúlyozású pontok használatát.</p>
+
+    <p>A szöveges állomány kódolásának a Moodle telepítése során 
+    alkalmazott utf-8 kódolásúnak kell lenni (hacsak nem használ kizárólag ascii karaktereket). Példát talál a kérdést tartalmazó szöveges 
+    állományokra ezen a helyen: <a href="../../../../mod/quiz/format/gift/examples.txt">gift/examples.txt</a>.</p>
+
+<h3>KÉRDÉSFAJTÁK</h3>
+
+<p><u>Feleletválasztós:</u><br />
+    Feleletválasztós kérdések esetén a helytelen válaszok előtt hullámjel (~) áll, 
+    a helyes válaszokat az egyenlőségjel (=) előzi meg.</p>
+
+    <pre>     Hányat lép a veréb egy évben? {~egyet ~sokat =egyet sem}</pre>
+    <p>A <strong>szókitöltő</strong> forma automatikusan beszúr egy kitöltendő üres részt 
+    (például így: _____) a mondat közepébe. A szókitöltő forma használata 
+    esetén tegye a válaszokat oda, ahol az aláhúzás a mondatban megjelenik.</p>
+    <pre>     A veréb  {~egyet =egyet sem ~sokat} lép egy évben.</pre>
+    <p>Ha a válaszok a lezáró írásjel előtt jönnek, akkor a szókitöltő 
+    formához az adott helyen megjelenik a kitöltés helyét jelző vonal. Minden kérdésfajta 
+    megfogalmazható szókitöltő formában.</p>
+
+    <p>A kérdések elválasztása üres sorral (kettős kocsi-vissza jel beszúrásával) 
+    történik. Az egyértelműség érdekében a válaszok megadhatók külön 
+    sorokban, sőt, a sorban beljebb kezdhetők. Például:</p>
+    <pre>     Amerikában a hálaadás ünnepét november {
+         ~második
+         ~harmadik
+         =negyedik
+     } csütörtökén ünneplik.
+     
+     A japán betűk eredetileg mely országból származnak? {
+         ~India
+         =Kína
+         ~Korea
+         ~Egyiptom}</pre>
+
+<p><u>Kiegészítő kérdésfajta:</u><br />
+    Kiegészítő kérdésfajta esetén a válaszok mindegyike előtt egyenlőségjel (=) 
+    szerepel, ez jelzi, hogy mindegyik válasz helyes válasz. A válaszokban nem szerepelhet hullámjel.</p>
+    <pre>     Hányat lép a veréb egy évben?{=egyet sem =semennyit}
+
+     Kétszer kettő egyenlő  {=négy =4}.</pre>
+
+    <p>Amennyiben csak <u>egyetlen</u> helyes kiegészítő válasz van, akkor azt megadhatja a megelőző 
+    egyenlőségjel nélkül is, feltéve, hogy nem keverhető össze az igaz-hamis fajtával.
+
+<p><u>Igaz-hamis:</u><br />
+    Ennél a kérdésfajtánál a válasz azt jelzi, hogy az adott megállapítás igaz, 
+    avagy hamis. A választ {TRUE} vagy {FALSE}, rövidítve {T} vagy {F} [igaz, illetve hamis] formában adhatja meg.</p>
+    <pre>     A veréb hármat lép egy évben.{F}
+
+     A nap keleten kel fel.{T}</pre>
+
+<p><u>Párosító:</u><br />
+
+    A párosító párjai egyenlőségjellel (=) kezdődnek, elválasztónak a "->" jel 
+    használatos. Legalább három párosítandó párt kell létrehozni.</p>
+    <pre>     Párosító kérdés {
+         =1. alkérdés -> 1. alválasz
+         =2. alkérdés -> 2. alválasz
+         =3. alkérdés -> 3. alválasz
+         }
+     
+     Párosítsa az alábbi országokat és fővárosukat. {
+         =Kanada -> Ottawa
+         =Olaszország -> Róma
+         =Japán  -> Tokió
+         =India  -> Új-Delhi
+         }</pre>
+    <p>A párosító kérdések nem támogatják a visszajelzést és a 
+    százalékosan súlyozott válaszokat.</p>
+
+<p><u>Számjegyes:</u><br />
+    A számjegyes kérdések válaszokat tartalmazó részének számjegyjellel (#) kell 
+    kezdődni. A számjegyes válaszokban megadhat egy hibahatárt, melyet kettősponttal elválasztva a helyes 
+    válasz után ír. Ha például a helyes válasz 1,5 és 2,5 közé eshet, akkor azt 
+    így adja meg: <u>{#2:0,5}</u>. Ez azt jelenti, hogy egy 0,5-ös (azaz 1,5-től 2,5-ig terjedő) hibahatárt 
+    megengedő 2 eredmény helyesnek tekintendő. Ha nem ad meg hibahatárt, akkor a rendszer azt nullának tekinti.</p>
+
+    <pre>     Mikor született Ulysses S. Grant? {#1822}
+
+     Milyen értéke van a pi-nek (3 tizedes értékig)? {#3,1415:0,0005}.</pre>
+    <p>Opcionálisan a számjegyes válaszok megadhatók tartományként az alábbi formában: 
+    {#<i>MinimálisÉrték</i>..<i>MaximálisÉrték</i>}.</p>
+    <pre>     Milyen értéke van a pi-nek (3 tizedes értékig)? {#3,141..3.142}.</pre>
+    <p>A Moodle böngésző felülete nem támogatja a többszörös számjegyes válasz 
+    használatát, ugyanakkor a Moodle kódja és a GIFT támogatja ezt. Ily módon többszörös 
+    számjegyes tartományt adhat meg, ami különösen hasznos lehet akkor, ha százalékosan súlyozott 
+    pontozással kombinálja. Ha többszörös válaszadást használ, ezek elé - a 
+    kiegészítő kérdéshez hasonlóan - egyenlőségjelet kell beszúrni.</p>
+
+    <pre>     Mikor született Ulysses S. Grant? {#
+         =1822:0
+         =%50%1822:2}</pre>
+    <p>Ne feledje, hogy mivel a Moodle böngészőjének grafikus felülete nem támogatja  a többszörös 
+    válaszadást számjegyes kérdések esetén, ezért ezeket nem lehet a Moodle-ban megtekinteni vagy 
+    szerkeszteni. Az első utáni számjegyes válaszok módosítására az egyetlen 
+    lehetőség, ha kitörli az adott kérdést és újraimportálja (vagy valami 
+    phpMyAdmin-hoz hasonló megoldást használ).</p>
+
+<h3>OPCIÓK</h3>
+    <p>Ezen alapvető kérdésfajtákon túl ez a szűrő a következő opciókat teszi 
+    lehetővé: egysoros megjegyzés, kérdés neve, visszajelzés, valamint százalékosan 
+    súlyozott válaszok.</p>
+
+<p><u>Egysoros megjegyzés:</u><br />
+    A szöveges állományba olyan megjegyzéseket írhat, amelyeket a Moodle nem importál. Ezzel 
+    fejléceket vagy további információkat adhat meg a kérdésekkel kapcsolatosan. Minden 
+    kettős visszaperjellel kezdődő sort (a tabulátorokat vagy szóközöket nem számítva) a 
+    szűrő nem vesz figyelembe.</p>
+
+    <pre>     // Alcím: Számjegyes kérdések alább
+     Mennyi 2 meg 2? {#4}</pre>
+
+<p><u>Kérdés neve:</u><br />
+    A kérdésnek úgy adhat nevet, hogy először megírja, majd dupla kettőspontok közé 
+    illeszti.</p>
+    <pre>     ::A kanji eredete::A japán betűk eredetileg mely országból származnak? {=Kína} 
+    ::Hálaadás ünnepe::Amerikában a hálaadás ünnepét november {
+         ~második ~harmadik =negyedik} csütörtökén ünneplik.</pre>
+    <p>Ha nem ad nevet a kérdésnek, akkor alaphelyzetben az egész kérdést névnek tekinti a rendszer.</p>
+
+<p><u>Visszajelzés:</u><br />
+    Az egyes válaszokhoz visszajelzést adhat meg a válaszok után egy számjel (#), majd a visszajelzés 
+    begépelésével.</p>
+    <pre>     Mi a válasz erre a feleletválasztós kérdésre?{
+     ~rossz válasz#visszajelzésként hozzáfűzött megjegyzés a rossz válaszhoz
+     ~egy másik rossz válasz#visszajelzésként hozzáfűzött megjegyzés ehhez a rossz 
+     válaszhoz
+     =jó válasz#Nagyon jó!}
+     
+     Hányat lép a veréb egy évben?{
+     =egyet sem#kitűnő válasz!
+     =semennyit#kitűnő válasz!}
+     
+     A veréb sokat lép egy évben.{FALSE#A veréb egyet sem lép, mert ugrik.}</pre>
+    <p>Feleletválasztós kérdéseknél csak a tanuló által kiválasztott válaszra 
+    vonatkozó visszajelzés jelenik meg. Kiegészítő kérdéseknél a visszajelzés csak 
+    akkor jelenik meg, amikor a tanulók helyes választ adnak. Igaz-hamis kérdéseknél az importált 
+    visszajelzést a rendszer elmenti, így az akkor jelez ki, ha a tanuló rossz választ választott. Ennek 
+    megfelelően a fenti utolsó példánál a tanuló csak akkor látja a visszajelzést, ha 
+    IGAZ volt a válasza.</p>
+
+<p><u>Válaszok százalékos súlyozása:</u><br />
+    Válaszok százalékos súlyozásával mind a feleletválasztós, mind a 
+    kiegészítő kérdések esetén élhet. A válaszok százalékos 
+    súlyozását úgy adhatja meg, hogy a hullámvonal (feleletválasztós 
+    kérdéseknél) vagy az egyenlőségjel (kiegészítő kérdéseknél) 
+    után százalékjelek között megadja a kívánt százalékos értéket  
+    (például így:  %50%). Ezt az opciót kombinálhatja a visszajelzéshez fűzött 
+    megjegyzésekkel.</p>
+
+    <pre>     Nehéz kérdés.{~rossz válasz ~%50%fél kreditpontos válasz = teljes kreditpontos válasz}
+          
+     ::Jézus szülővárosa::Jézus Krisztus származási helye {
+     ~Jeruzsálem#Ez egy fontos város volt, de a válasz rossz.
+     ~%25%Betlehem#Ott született, de nem ott nevelkedett.
+     ~%50%Galilea#Adjon pontosabb választ.
+     =Názáret#Helyes! Jó válasz!}.
+     
+     ::Jézus szülővárosa:: Jézus Krisztus származási helye  {
+     =Názáret#Helyes! Jó válasz!
+     =%75%Názeret#Helyes, de hibás a helyesírása.
+     =%25%Betlehem#Ott született, de nem ott nevelkedett.}</pre>
+    <p>Ne feledje, hogy a két utolsó példa alapvetően ugyanaz a kérdés, az első 
+    feleletválasztós, a második kiegészítő formában.</p>
+
+    <p><font size="-1">Figyelje meg, hogy a válaszokhoz megadhat olyan százalékos súlyozást, amelyet a 
+    böngésző mint felület NEM tesz elérhetővé. Az ilyen válaszokhoz rendelt súlyok 
+    kiszámítása helyesen történik (az importálás során hozzárendelt 
+    értéknek megfelelően), a tesztet megoldó tanuló számára pedig a szokásos módon 
+    jelenik meg. Ugyanakkor az ilyen válaszsúlyok nem jelennek meg helyesen a tanár számára, amikor a Moodle 
+    Kérdés szerkesztése menüjében végzi a szerkesztést. A legördülő menü 
+    mindössze bizonyos rögzített értékeket enged meg, és ha a válaszsúly nem pontosan egyezik 
+    meg az előre meghatározott értékek valamelyikével, akkor a kijelzés sem lesz pontos. Ha ilyen 
+    kérdést szerkeszt a böngésző felületén keresztül, akkor a válaszhoz rendelt 
+    súly a kijelzettre fog módosulni.</font></p>
+
+<p><u>Több válasz:</u><br />
+    A több választ tartalmazó opció feleletválasztós kérdések esetén 
+    használatos, amikor a teljes kreditponthoz két vagy több választ kell kiválasztani. A több 
+    választ lehetővé tevő opciót úgy kapcsolhatja be, hogy a több válaszhoz 
+    részsúlyokat rendel, ugyanakkor egy válasznál sem engedi meg teljes kreditpont 
+    hozzárendelését.</p>
+
+    <pre>     Melyik két hónap következik egymás után? {
+          ~%-50%március és május
+          ~%50%május és június
+          ~%50%szeptember és október
+          ~%-50%február és április }</pre>
+
+<p><u>Speciális karakterek ~ = # { } :</u><br />
+    Ezek a szimbólumok <strong> ~ = # { } </strong> ennek a szűrőnek a működését 
+    szabályozzák, ezért nem használhatók kérdések szövegében. Mivel ezeknek a 
+    jeleknek speciális szerepe van ennek a szűrőnek a működését illetően, elnevezésük 
+    "vezérlőkarakter." Néha azonban szükség lehet arra, hogy valamelyiküket - például egy 
+    matematikai képletben - kérdésben használja. Ezt úgy oldhatja meg, hogy az adott vezérlőkaraktert 
+    speciális jellel együtt írja. Mindössze annyit kell tennie, hogy a vezérlőkarakter elé egy 
+    visszaperjel karaktert (\) ír. Így a szűrő tudni fogja, hogy mikor akarja az adott karaktert eredeti 
+    jelentésében használni, és mikor szerepel vezérlőkarakterként. Például:</p>
+    <pre>     Melyik válasz eredménye 5? {
+          ~ \= 2 + 2
+          = \= 2 + 3
+          ~ \= 2 + 4  }
+
+     ::GIFT vezérlőkarakterek::
+     Az alábbiak közül melyik NEM vezérlőkarakter a GIFT importálási formátuma esetén? {
+        ~ \~     # \~ vezérlőkarakter.
+        ~ \=     # \= vezérlőkarakter.
+        ~ \#     # \# vezérlőkarakter.
+        ~ \{     # \{ vezérlőkarakter.
+        ~ \}     # \} vezérlőkarakter.
+        = \     # Helyes! \ (visszaperjel) nem vezérlőkarakter. DE,
+                   használhatja vezérlőkarakterek eredeti jelentésben való használatának 
+                   jelzésére.
+     }</pre>
+
+    <p>A kérdés feldolgozása során a visszaperjel törlődik, a Moodle nem tárolja.</p>
+
+<p><u>Egyéb opciók:</u><br />
+    Kiegészítő kérdések esetén úgy különböztetheti meg a kis- és 
+    nagybetűs írásmódot, hogy az alábbi sorban a "0"-t "1"-re módosítja:<br />
+    <tt>$question->usecase = 0; // Kis-/nagybetű figyelmen kívül hagyva</tt></p>
+    <p>Egyéb opciókat érhet el, ha módosítja a <strong>gift/format.php</strong> 
+    importálási szűrő kódját. </p>
+
