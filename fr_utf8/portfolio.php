@@ -59,6 +59,7 @@ $string['invalidtempid'] = 'Identifiant d\'exportation non valide.';
 $string['invaliduserproperty'] = 'Impossible de trouver cette propriété de la configuration de l\'utilisateur ($a->property de $a->class)';
 $string['manageportfolios'] = 'Gérer les portfolios';
 $string['manageyourportfolios'] = 'Gérer vos portfolios';
+$string['missingcallbackarg'] = 'Paramètre de rappel (callback) $a->arg manquant pour la classe $a->class';
 $string['moderatedbsizethreshold'] = 'Taille de base de donnée modérée';
 $string['moderatedbsizethresholddesc'] = 'Nombre d\'enregistrements de la base de données en-deçà duquel le temps de transfert est considéré comme modéré';
 $string['moderatefilesizethreshold'] = 'Taille de transfert modérée';
