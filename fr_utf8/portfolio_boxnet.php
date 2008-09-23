@@ -13,6 +13,7 @@ $string['noticket'] = 'Impossible de récupérer un ticket sur box.net pour init
 $string['notarget'] = 'Vous devez indiquer soit un dossier existant soit un dossier à créer vers lequel déposer les données';
 $string['password'] = 'Votre mot de passe box.net (ne sera pas enregistré)';
 $string['pluginname'] = 'Stockage internet Box.net';
+$string['sendfailed'] = 'Échec de l\'envoi de contenu vers box.net&nbsp;: $a';
 $string['sharedfolder'] = 'Partagé';
 $string['sharefile'] = 'Partager ce fichier&nbsp;?';
 $string['sharefolder'] = 'Partager ce nouveau dossier&nbsp;?';
