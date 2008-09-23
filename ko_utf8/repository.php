@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080918) (2008091611)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080923) (2008091611)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -52,6 +52,7 @@ $string['invalidrepositoryid'] = '잘못된 저장소 ID';
 $string['keyword'] = '핵심어';
 $string['listview'] = '목록 보기';
 $string['loading'] = '불러오는 중...';
+$string['login'] = '로그인';
 $string['logout'] = '나가기';
 $string['manage'] = '저장소 관리';
 $string['manageurl'] = 'URL 관리';
