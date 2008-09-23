@@ -2,6 +2,7 @@
 
 $string['apikey'] = 'Clef API';
 $string['callbackurl'] = 'URL de rappel';
+$string['callbackwarning'] = 'Vous devez copier l\'URL de rappel dans Flickr. Cette URL sera générée une fois ces informations enregistrées. Veuillez cliquer sur le bouton Enregistrer, puis sur Réglages, afin de vérifier l\'URL de rappel générée';
 $string['configplugin'] = 'Configuration Flickr';
 $string['emailaddress'] = 'Adresse de courriel';
 $string['invalidemail'] = 'Adresse de courriel non valide pour flickr';
