@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
 
+$string['gradingnotallowed'] = 'Nincs engedélye ezen teszt válaszainak kézi pontozására';
+$string['gradingreport'] = 'Kézi osztályozó jelentés';
 
 $string['essayonly'] = 'Az alábbi kérdéseket kézzel kell pontozni';
 $string['grading'] = 'Kézi pontozás';

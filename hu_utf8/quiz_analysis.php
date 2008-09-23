@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
       // quiz_analysis.php - created with Moodle 1.8.4+ (2007021540)
 
+$string['analysisreport'] = 'Tételelemzési jelentés';
 
 $string['analysis'] = 'Tételelemzés';
 $string['analysisdownload'] = 'Elemzés letöltése';

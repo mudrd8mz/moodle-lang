@@ -1,6 +1,12 @@
 <?PHP // $Id$
       // role.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['portfolio:export'] = 'Exportálás portfoliókba';
+$string['question:flag'] = 'Kérdések megjelölése próbálkozás közben';
+$string['role:safeoverride'] = 'Mások biztonságos engedélyeinek felülírása';
+$string['safeoverridenotice'] = 'Megjegyzés: a kockázatosabb képességek zárolva vannak, mert csak a biztonságosakat írhatja felül.';
+$string['user:editmessageprofile'] = 'Felhasználói üzenetküldés profiljának szerkesztése';
+$string['user:editownmessageprofile'] = 'Saját felhasználói üzenetküldés profiljának szerkesztése';
 
 $string['addrole'] = 'Új szerep hozzáadása';
 $string['allow'] = 'Engedélyez';
@@ -9,7 +15,7 @@ $string['allowoverride'] = 'Szerepek felülírásának engedélyezése';
 $string['allsiteusers'] = 'A portál minden felhasználója';
 $string['assignglobalroles'] = 'Globális szerepek hozzárendelése';
 $string['assignroles'] = 'Szerepek hozzárendelése';
-$string['assignrolesin'] = 'Szerepek hozzárendelése $a esetén';
+$string['assignrolesin'] = 'Szerepek hozzárendelése - $a';
 $string['block:view'] = 'Blokk megtekintése';
 $string['blog:create'] = 'Új blogüzenetek létrehozása';
 $string['blog:manageentries'] = 'Bejegyzések szerkesztése és kezelése';
@@ -103,9 +109,9 @@ $string['notes:manage'] = 'Megjegyzések kezelése';
 $string['notes:view'] = 'Megjegyzések megtekintése';
 $string['notset'] = 'Nincs megadva';
 $string['overridepermissions'] = 'Engedélyek felülírása';
-$string['overridepermissionsin'] = 'Engedélyek felülírása $a esetén';
+$string['overridepermissionsin'] = 'Engedélyek felülírása itt: $a';
 $string['overrideroles'] = 'Szerepek felülírása';
-$string['overriderolesin'] = 'Szerepek felülírása $a esetén';
+$string['overriderolesin'] = 'Szerepek felülírása itt: $a';
 $string['overrides'] = 'Felülírja';
 $string['permissions'] = 'Engedélyek';
 $string['potentialusers'] = '$a potenciális felhasználó';

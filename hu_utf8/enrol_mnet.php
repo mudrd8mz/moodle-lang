@@ -1,9 +1,9 @@
 <?php
 
-$string['description'] = 'A hálózati Moodle-on keresztüli beiratkozás leírása.';
+$string['description'] = 'A hálózati Moodle-on keresztüli beiratkozás leírása';
 $string['enrolname'] = 'Hálózati Moodle';
 $string['enrolname'] = 'Hálózati Moodle';
-$string['allow_allcourses'] = 'Beiratkozás engedélyezése minden távoli kurzusba.';
+$string['allow_allcourses'] = 'Beiratkozás engedélyezése minden távoli kurzusba';
 $string['allcategories'] = '\$a potenciális kategória';
 $string['allowedcategories'] = '\$a engedélyezett kategória';
 $string['nocategoriesdefined'] =  'Nincsenek kurzuskategóriák. Adjon meg új kategóriákat <a href=\"$a\">itt</a>.';

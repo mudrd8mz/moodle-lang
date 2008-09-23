@@ -1,6 +1,8 @@
 <?PHP // $Id$
       // chat.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['chat:exportparticipatedsession'] = 'Csevegésben részt vevők exportálása';
+$string['chat:exportsession'] = 'Csevegés exportálása';
 
 $string['autoscroll'] = 'Automatikus görgetés';
 $string['ajax'] = 'Ajax-változat';
@@ -15,14 +17,14 @@ $string['chatintro'] = 'Bevezető szöveg';
 $string['chatname'] = 'A csevegőszoba neve';
 $string['chatreport'] = 'Csevegések';
 $string['chattime'] = 'A következő csevegés időpontja';
-$string['configmethod'] = 'A szokásos csevegés során a kliensprogramok rendszeresen a szerverhez fordulnak frissítésért. Semmilyen beállítást nem igényel és mindenhol működik, de sok csevegő esetén jelentősen megterheli a szervert. Szerverdémon használata során a Unix héjszintű elérésre van szükség, az eredmény viszont egy gyors és skálázható csevegési környezet.';
-$string['confignormalupdatemode'] = 'A csevegőszoba frissítéseit megfelelően támogatja a HTTP 1.1 Keep-Alive funkciója, ennek ellenére meglehetősen leterheli a szervert. Megfelelőbb módszer a Stream használata frissítések felhasználókhoz való eljuttatására. A Stream sokkal hatékonyabb (hasonló a chatd módszerhez), de előfordulhat, hogy szervere nem támogatja.';
-$string['configoldping'] = 'Mennyi ideig tartó hallgatás után kell egy felhasználót kilépettnek tekinteni (másodpercben)? Ez csak egy felső határ, mert a lekapcsolódás gyorsan érzékelhető. Alacsonyabb értékek jobban megterhelik a szervert. Ha a szokásos módszert használja, soha ne állítsa ezt az értéket alacsonyabbra, mint 2 * chat_refresh_room.';
+$string['configmethod'] = 'A szokásos csevegés során a kliensprogramok rendszeresen a szerverhez fordulnak frissítésért. Semmilyen beállítást nem igényel és mindenhol működik, de sok csevegő esetén jelentősen megterheli a szervert. Szerverdémon használata során a Unix héjszintű elérésére van szükség, az eredmény viszont egy gyors és skálázható csevegési környezet.';
+$string['confignormalupdatemode'] = 'A csevegőszoba frissítéseit megfelelően támogatja a HTTP 1.1 Keep-Alive funkciója, ennek ellenére meglehetősen leterheli a szervert. A frissítések felhasználókhoz való eljuttatására alkalmasabb módszer a Stream használata. A Stream sokkal hatékonyabb (hasonló a chatd módszerhez), de előfordulhat, hogy használatát szervere nem támogatja.';
+$string['configoldping'] = 'Mennyi ideig tartó hallgatás után kell egy felhasználót kilépettnek tekinteni (másodpercben)? Ez csak egy felső határ, mert a lekapcsolódás gyorsan érzékelhető. Alacsonyabb értékek jobban megterhelik a szervert. Ha a szokásos módszert használja, soha ne állítsa ezt az értéket alacsonyabbra, mint a chat_refresh_room idejének kétszerese.';
 $string['configrefreshroom'] = 'Milyen gyakran legyen frissítve a csevegőszoba (másodpercben)? Alacsony értékre állítva a csevegőszoba gyorsabbnak látszik, azonban nagyobb terhelést jelenthet a szervernek, ha egyszerre sokan csevegnek. Ha <em>Stream</em> frissítést használ, kiválaszthat egy magasabb frissítési gyakoriságot - próbálkozzék 2-vel.';
 $string['configrefreshuserlist'] = 'Milyen gyakran legyen frissítve a felhasználók listája (mp-ben)?';
 $string['configserverhost'] = 'A szerverdémont tartalmazó számítógép gazdaneve';
 $string['configserverip'] = 'A fenti gazdanévnek megfelelő numerikus IP-cím';
-$string['configservermax'] = 'Csevegők megengedett max. száma';
+$string['configservermax'] = 'Csevegők maximálisan megengedett száma';
 $string['configserverport'] = 'A szerveren a démonnal használandó port';
 $string['currentchats'] = 'Folyamatban lévő csevegések';
 $string['currentusers'] = 'Mostani felhasználók';
@@ -59,7 +61,7 @@ $string['noscheduledsession'] = 'Nincs előjegyzett csevegés';
 $string['notlogged'] = 'Nincs bejelentkezve!';
 $string['oldping'] = 'Szétkapcsolás időtúllépés miatt';
 $string['pastchats'] = 'Korábbi csevegések';
-$string['refreshroom'] = 'Frissítő szoba';
+$string['refreshroom'] = 'Frissítési idő';
 $string['refreshuserlist'] = 'Felhasználói lista frissítése';
 $string['removemessages'] = 'Az összes üzenet törlése';
 $string['repeatdaily'] = 'Minden nap ugyanakkor';

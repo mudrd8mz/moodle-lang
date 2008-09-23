@@ -71,5 +71,18 @@ $string['unreadmessages'] = '$a olvasatlan üzenet';
 $string['userisblockingyou'] = 'Ez a felhasználó nem engedélyezte az Öntől jövő üzenetek fogadását';
 $string['userisblockingyounoncontact'] = 'Ez a felhasználó csak kapcsolatként nyilvántartott személyektől fogad üzeneteket, Ön nincs ebben a jegyzékben.';
 $string['userssearchresults'] = 'Keresés eredménye: $a felhasználót találtam';
+$string['cannotsavemessageprefs'] = 'Nem sikerült a felhasználói üzenetküldési beállítások mentése.';
+$string['editmymessage'] = 'Üzenetküldés';
+$string['guestnoeditmessage'] = 'Vendégek nem szerkeszthetnek üzenetküldési beállításokat.';
+$string['guestnoeditmessageother'] = 'Vendégek nem szerkeszthetik más felhasználó üzenetküldési beállításait.';
+$string['loggedin'] = 'Bejelentkezve:';
+$string['loggedoff'] = 'Kijelentkezve:';
+$string['messageprovider:instantmessage'] = 'Felhasználók közötti azonnali üzenetküldés';
+$string['private_config'] = 'Saját üzenetküldési beállítások';
+$string['processor_config'] = 'Célszemélyek beállítása';
+$string['processortag'] = 'Célszemély:';
+$string['providers_config'] = 'Üzenetek forrásai';
+$string['providerstag'] = 'Forrás:';
+
 
 ?>

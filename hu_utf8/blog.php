@@ -1,8 +1,10 @@
 <?PHP // $Id$
       // blog.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['cannotviewuserblog'] = 'Nincs engedélye felhasználói blogok olvasáshoz';
+$string['nosuchentry'] = 'Nincs ilyen blogüzenet';
 
-$string['addnewentry'] = 'Új bejegyzés hozzáadása';
+$string['addnewentry'] = 'Új üzenet hozzáadása';
 $string['backupblogshelp'] = 'Bekapcsolásakor a blogok bekerülnek a PORTÁL automatikusan mentett állományai közé';
 $string['blockmenutitle'] = 'Blogmenü';
 $string['blocktagstitle'] = 'Blogcímkék';
@@ -63,7 +65,7 @@ $string['userblog'] = '$a felhasználói blog';
 $string['viewcourseentries'] = 'Kurzusüzenetek megtekintése';
 $string['viewmyentries'] = 'Üzeneteim megtekintése';
 $string['viewsiteentries'] = 'Portálüzenetek megtekintése';
-$string['worldblogs'] = 'A bárki számára elérhetőként megjelölt naplóüzeneteket mindenki elolvashatja';
+$string['worldblogs'] = 'A bárki számára elérhetőként megjelölt blogüzeneteket mindenki elolvashatja';
 $string['wrongpostid'] = 'Hibás blogüzenet-azonosító';
 
 ?>

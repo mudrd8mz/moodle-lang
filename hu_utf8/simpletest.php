@@ -2,6 +2,8 @@
       // simpletest.php - created with Moodle 1.7 beta + (2006101003)
 
 
+$string['rundbtests'] = 'Az adatbázistesztek végrehajtására is kerüljön sor.';
+
 $string['all'] = 'Mind';
 $string['exception'] = 'Kivétel';
 $string['fail'] = 'Hiba';

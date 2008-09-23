@@ -6,9 +6,9 @@
 $string['aborting'] = 'Telepítés abbahagyása';
 $string['admindirerror'] = 'A megadott rendszergazdakönyvtár hibás';
 $string['admindirname'] = 'Rendszergazdakönyvtár';
-$string['admindirsetting'] = 'Nagyon kevés kiszolgálónál használatos az /admin mint a vezérlőpanel vagy egyéb elérésére szolgáló külön URL. Sajnos ez ütközik a Moodle rendszergazdai oldalainak szokásos helyével. Ha telepítésében átnevezi a könyvtárat és az új nevet ide helyezi, a hiba megoldódik. Például: <br /> <br /><b>moodleadmin</b>.<br /> <br /> Ezzel a rendszergazdai ugrópontok a Moodle-ban rendbe tehetők.';
+$string['admindirsetting'] = 'Nagyon kevés kiszolgálónál használatos az /admin mint a vezérlőpanel vagy egyéb elérésére szolgáló külön URL. Ez ütközik a Moodle rendszergazda-oldalainak szokásos helyével. Ha telepítésében átnevezi a könyvtárat és az új nevet ide helyezi, a hiba megoldódik. Például: <br /> <br /><b>moodleadmin</b>.<br /> <br /> Ezzel a Moodle-ban rendbe tehetők a rendszergazda-ugrópontok.';
 $string['admindirsettinghead'] = 'A rendszergazdakönyvtár beállítása...';
-$string['admindirsettingsub'] = 'Nagyon kevés kiszolgálónál használatos az /admin mint a vezérlőpanel vagy egyéb elérésére szolgáló külön URL. Sajnos ez ütközik a Moodle rendszergazdai oldalainak szokásos helyével. Ha telepítésében átnevezi a könyvtárat és az új nevet ide helyezi, a hiba megoldódik. Például: <br /> <br /><b>moodleadmin</b>.<br /> <br /> Ezzel a rendszergazdai ugrópontok a Moodle-ban rendbe tehetők.';
+$string['admindirsettingsub'] = 'Nagyon kevés kiszolgálónál használatos az /admin mint a vezérlőpanel vagy egyéb elérésére szolgáló külön URL. Ez ütközik a Moodle rendszergazda-oldalainak szokásos helyével. Ha telepítésében átnevezi a könyvtárat és az új nevet ide helyezi, a hiba megoldódik. Például: <br /> <br /><b>moodleadmin</b>.<br /> <br /> Ezzel a Moodle-ban rendbe tehetők a rendszergazda-ugrópontok.';
 $string['adminemail'] = 'E-mail:';
 $string['adminfirstname'] = 'Keresztnév:';
 $string['admininfo'] = 'Rendszergazda adatai';
@@ -206,5 +206,6 @@ $string['writetoconfigfilefaild'] = 'Hiba: nem sikerült a konfigurációs állo
 $string['wwwroot'] = 'Webcím';
 $string['wwwrooterror'] = 'A webcím nem érvényes - a Moodle mostani telepítése nincs a megadott címen. Az alábbi értéket visszaállítottuk.';
 $string['yourchoice'] = 'Választása:';
+$string['datarootpublicerror'] = 'A megadott adatkönyvtár a netről közvetlenül elérhető, adjon meg egy másik könyvtárat.';
 
 ?>

@@ -1,0 +1,81 @@
+<?PHP // $Id$ 
+      // portfolio.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
+      // local modifications from http://localhost
+
+
+$string['addalltoportfolio'] = 'Az összes hozzáadása a portfolióhoz';
+$string['addnewportfolio'] = 'Új portfolió hozzáadása';
+$string['addtoportfolio'] = 'Hozzáadás a portfolióhoz';
+$string['alreadyexporting'] = 'Ebben a folyamatban már van aktív portfolió-exportálása. Előbb <a href=\"$a->finish\">azt fejezze be</a>, vagy <a href=\"$a->cancel\">ide kattintva</a> érvénytelenítse.';
+$string['availableformats'] = 'Használható exportálási formátumok';
+$string['callercouldnotpackage'] = 'Adatait nem sikerült exportáláshoz összecsomagolni.';
+$string['cannotsetvisible'] = 'Nem állítható láthatóra - téves beállítás miatt a segédprogram ki van iktatva.';
+$string['configexport'] = 'Exportált adatok beállítása';
+$string['configplugin'] = 'A portfolió segédprogramjának beállítása';
+$string['configure'] = 'Beállítás';
+$string['confirmexport'] = 'Erősítse meg az exportálást.';
+$string['confirmsummary'] = 'Exportálásának összegzése';
+$string['continuetoportfolio'] = 'Áttérés a portfoliójára';
+$string['deleteportfolio'] = 'A portfolió adott példányának törlése';
+$string['disabled'] = 'A portfolió-exportálás ezen a portálon nincs bekapcsolva.';
+$string['dontwait'] = 'Ne várjon!';
+$string['enabled'] = 'Portfoliók bekapcsolása';
+$string['enableddesc'] = 'Ezzel engedélyezi rendszergazdák számára távoli rendszerek beállítását úgy, hogy oda felhasználók tartalmakat exportálhassanak.';
+$string['err_uniquename'] = 'A portfolió nevének (segédprogramonként) egyedinek kell lenni.';
+$string['exportcomplete'] = 'A portfolió exportálása kész!';
+$string['exportedpreviously'] = 'Korábbi exportálások';
+$string['exportexceptionnoexporter'] = 'Aktív folyamat mellett portfolio_export_exception hiba jelentkezett, de nem volt exportált objektum';
+$string['exporting'] = 'Exportálás portfolióba';
+$string['exportingcontentfrom'] = 'Tartalom exportáláss innen: $a.';
+$string['exportqueued'] = 'A portfolió exportálása átvitelhez sikeresen beütemezve.';
+$string['failedtosendpackage'] = 'Adatait nem lehetetett a kiválasztott portfoliórendszerbe küldeni!';
+$string['filedenied'] = 'Ezen állományhoz a hozzáférés megtagadva.';
+$string['filenotfound'] = 'Nem található az állomány';
+$string['format_file'] = 'Éllomány';
+$string['format_html'] = 'HTML';
+$string['format_image'] = 'Kép';
+$string['format_mbkp'] = 'Moodle biztonsági mentés';
+$string['hidden'] = 'Rejtett';
+$string['instancedeleted'] = 'A portfolió törlése sikerült.';
+$string['instanceismisconfigured'] = 'Az adott portfolió tévesen van beállítva, kihagyva. A hiba: $a.';
+$string['instancenotdelete'] = 'A portfolió törlése nem sikerült.';
+$string['instancenotsaved'] = 'A portfolió mentése nem sikerült.';
+$string['instancesaved'] = 'A portfolió mentése sikerült.';
+$string['invalidaddformat'] = 'A portfolio_add_button érvénytelen formátumú adatot kapott. ($a) PORTFOLIO_ADD_XXX típusúnak kell lennie.';
+$string['invalidconfigproperty'] = 'Nem található a beállítási tulajdonság ($a->property / $a->class).';
+$string['invalidexportproperty'] = 'Nem található az exportálás-beállítási tulajdonság ($a->property / $a->class)';
+$string['invalidformat'] = 'Valaminek az exportálása érvénytelen formátumban történik: $a.';
+$string['invalidinstance'] = 'Az adott portfolió nem található.';
+$string['invalidproperty'] = 'Az adott tulajdonság nem található ($a->property / $a->class).';
+$string['invalidtempid'] = 'Érvénytelen exportálási azonosító. Lehet, hogy lejárt.';
+$string['invaliduserproperty'] = 'Nem található a felhasználó-beállítási tulajdonság ($a->property / $a->class)';
+$string['manageportfolios'] = 'Portfoliók kezelése';
+$string['manageyourportfolios'] = 'Portfolióinak kezelése';
+$string['multipledisallowed'] = 'A többszöri előfordulást ($a) nem engedélyező segédprogramból próbáljon meg létrehozni egy másik példányt.';
+$string['noavailableplugins'] = 'Az exportáláshoz nincs portfoliója.';
+$string['nocallbackfile'] = 'Az exportáláshoz használt modulban valami hibás - nincs meg a szükséges állomány ($a).';
+$string['nocommonformats'] = 'A létező portfolió-segédprogramok és a forráshely ($a) formátumai nem egyeznek.';
+$string['nonprimative'] = 'A portfolio_add_button visszatérő argumentumként nem primitív értéket kapott. Folytatás elutasítva. A kulcs $a->key, az érték $a->value volt.';
+$string['nopermissions'] = 'Nincs engedélye ezen területről állományok exportálásához.';
+$string['notexportable'] = 'Az exportálni kívánt tartalom nem exportálható.';
+$string['notimplemented'] = 'Az exportálandó tartalom formátuma még nem használható ($a).';
+$string['notyours'] = 'Olyan portfolió exportálását próbálja újraindítani, amely nem az Öné!';
+$string['nouploaddirectory'] = 'Nem lehetett létrehozni ideiglenes könyvtárat adatainak elhelyezéséhez.';
+$string['plugin'] = 'Portfolió segédprogramja';
+$string['plugincouldnotpackage'] = 'Nem sikerült adatait exportáláshoz becsomagolni.';
+$string['portfolio'] = 'Portfolió';
+$string['portfolios'] = 'Portfoliók';
+$string['returntowhereyouwere'] = 'Vissza a korábbi pontra';
+$string['save'] = 'Mentés';
+$string['selectedformat'] = 'Kiválasztott exportálási formátum';
+$string['selectedwait'] = 'Úgy döntött, hogy várakozik?';
+$string['selectplugin'] = 'Portfolió-segédprogram kiválasztása exportáláshoz';
+$string['someinstancesdisabled'] = 'A segédprogram egyes beállított példányai ki vannak kapcsolva hibás beállítás miatt, vagy mert egyébre támaszkodnak, ami';
+$string['somepluginsdisabled'] = 'Egyes segédprogramok ki vannak kapcsolva hibás beállítás miatt, vagy mert egyébre támaszkodnak, ami:';
+$string['sure'] = 'Biztosan törlendő a(z) \'$a\'? Visszaállítására nem lesz mód.';
+$string['thirdpartyexception'] = 'Külső kivételhiba történt a portfolió exportálása közben ($a). A hibát sikerült most kiküszöbölni, de gondoskodjon teljes elhárításáról.';
+$string['wait'] = 'Várakozás';
+$string['wanttowait_high'] = 'Nem ajánlott az átvitel végét kivárni, de megteheti, ha bizonyosan tudja, mit tesz voltaképpen.';
+$string['wanttowait_moderate'] = 'Kivárja az átvitel végét? Ez percekig is eltarthat.';
+
+?>

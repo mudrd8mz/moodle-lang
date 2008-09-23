@@ -1,5 +1,11 @@
 <?PHP // $Id$ 
 
+$string['data:exportallentries'] = 'Minden adatbázis-bejegyzés exportálása';
+$string['data:exportentry'] = 'Egy adatbázis-bejegyzés exportálása';
+$string['data:exportownentry'] = 'Egy saját adatbázis-bejegyzés exportálása';
+$string['portfolionotfile'] = 'Állomány helyett portfolióba való exportálás (csakis csv)';
+
+
 $string['action'] = 'Művelet';
 $string['add'] = 'Bejegyzés hozzáadása';
 $string['addafield'] = 'Mező hozzáadása';

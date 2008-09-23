@@ -1,6 +1,8 @@
 <?PHP // $Id$ 
       // resource.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['portfolionotimplemented'] = 'Olyan tananyagfajtából kíván tartalmat exportálni, amely nem támogatja azt!';
+$string['resource:exportresource'] = 'Tananyag exportálása';
 
 $string['addresource'] = 'Tananyag hozzáadása';
 $string['affectedresources'] = 'Érintett tananyagok';
@@ -14,7 +16,7 @@ $string['choose'] = 'Választás';
 $string['chooseafile'] = 'Állomány kiválasztása vagy feltöltése';
 $string['chooseparameter'] = 'Paraméter kiválasztása';
 $string['clicktoopen'] = 'A dokumentum megnyitásához kattintson az ugrópontra:';
-$string['configallowlocalfiles'] = 'Új tananyag létrehozása során hozzon létre ugrópontokat a helyi rendszeren, például CD-meghajtón vagy merevlemezen lévő állományokhoz. Ez hasznosnak bizonyulhat olyankor, amikor minden tanuló azonos hálózati meghajtóhoz fér hozzá, vagy ha CD-n lévő állományokat kell elérni. Ennek használatához esetleg módosítani kell a böngésző biztonsági beállításait.';
+$string['configallowlocalfiles'] = 'Új tananyag létrehozása során hozzon létre ugrópontokat a helyi rendszeren, például CD-meghajtón vagy merevlemezen lévő állományokhoz. Hasznos lehet, ha minden tanuló azonos hálózati meghajtóhoz fér hozzá, vagy ha CD-n lévő állományokat kell elérni. Ennek használatához esetleg módosítani kell a böngésző biztonsági beállításait.';
 $string['configautofilerenamesettings'] = 'A fájlkezelőben történő átnevezés során automatikusan frissíti az állományokra és könyvtárakra való hivatkozásokat.';
 $string['configblockdeletingfilesettings'] = 'A tananyagokban hivatkozott állományok és könyvtárak egyszerre való törlése. Ne feledje, hogy a HTML-ből hivatkozott képek és más állományok nincsenek védve.';
 $string['configdefaulturl'] = 'Ez az érték új URL-alapú tananyag létrehozásakor az URL-űrlap előre kitöltésére szolgál.';
@@ -25,7 +27,7 @@ $string['configpopup'] = 'Ha olyan tananyagot szúr be, amely megjelenhet egy el
 $string['configpopupdirectories'] = 'Az előbukkanó ablakok alapbeállításban mutassák a könyvtárak ugrópontjait?';
 $string['configpopupheight'] = 'Az előbukkanó ablakok alapbeállításban milyen magasak legyenek?';
 $string['configpopuplocation'] = 'Az előbukkanó ablakok alapbeállításban mutassák a helysávot?';
-$string['configpopupmenubar'] = 'Az előbukkanó ablakok alapbeállításban mutassák a menüsávot?';
+$string['configpopupmenubar'] = 'Az előbukkanó ablakok alapbeállításban mutassák a menüsort?';
 $string['configpopupresizable'] = 'Az előbukkanó ablakok alapbeállításban méretezhetők legyenek?';
 $string['configpopupscrollbars'] = 'Az előbukkanó ablakok alapbeállításban görgethetők legyenek?';
 $string['configpopupstatus'] = 'Az előbukkanó ablakok alapbeállításban mutassák az állapotsort?';
@@ -79,7 +81,7 @@ $string['newmenubar'] = 'Menüsor megjelenítése';
 $string['newresizable'] = 'Ablak átméretezésének engedélyezése';
 $string['newscrollbars'] = 'Ablak görgetésének engedélyezése';
 $string['newstatus'] = 'Állapotsor megjelenítése';
-$string['newtoolbar'] = 'Eszköztár megjelenítése';
+$string['newtoolbar'] = 'Eszközsor megjelenítése';
 $string['newwidth'] = 'Alapértelmezett ablakszélesség (képpontban)';
 $string['newwindow'] = 'Új ablak';
 $string['newwindowopen'] = 'Ez a tananyag új előbukkanó ablakban jelenjen meg';

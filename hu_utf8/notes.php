@@ -1,6 +1,11 @@
 <?PHP // $Id$
 
       // note.php 
+$string['configenablenotes'] = 'Egyes felhasználókra vonatkozó megjegyzések tárolásának bekapcsolása';
+$string['enablenotes'] = 'Megjegyzések bekapcsolása';
+$string['notesdisabled'] = 'A megjegyzések ki vannak kapcsolva.';
+
+
 $string['addnewnote'] = 'Új megjegyzés hozzáadása';
 $string['addnewnoteselect'] = 'Felhasználók kiválasztása megjegyzések írásához';
 $string['bynameondate'] = '$a->name írta $a->date időpontban';

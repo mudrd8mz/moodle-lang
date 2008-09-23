@@ -2,6 +2,12 @@
       // scorm.php - created with Moodle 1.7 beta + (2006101003)
 
 
+$string['activityloading'] = 'Automatikusan átkerül ehhez a tevékenységhez:';
+$string['activitypleasewait'] = 'Tevékenység betöltése folyamatban, várjon...';
+$string['scormloggingoff'] = 'API-bejelentkezés kikapcsolva';
+$string['scormloggingon'] = 'API-bejelentkezés bekapcsolva';
+$string['slashargs'] = 'VIGYÁZAT: a portálon a perjeles argumentumok ki vannak kapcsolva és az objektumok viselkedése szokatlan lehet!';
+
 $string['activation'] = 'Bekapcsolás';
 $string['advanced'] = 'Paraméterek';
 $string['asset'] = 'Tudáselem';
@@ -46,8 +52,8 @@ $string['failed'] = 'Nem sikerült';
 $string['firstaccess'] = 'Első hozzáférés';
 $string['firstattempt'] = 'Első próbálkozás';
 $string['found'] = 'Tananyagleírás megvan';
-$string['frameheight'] = 'Ezzel állítja be a keret vagy ablak alapmagasságát';
-$string['framewidth'] = 'Ezzel állítja be a keret vagy ablak alapszélességét';
+$string['frameheight'] = 'Ezzel állítja be a keret vagy ablak alapmagasságát.';
+$string['framewidth'] = 'Ezzel állítja be a keret vagy ablak alapszélességét.';
 $string['fullscreen'] = 'Teljes képernyő kitöltése';
 $string['general'] = 'Általános adatok';
 $string['gradeaverage'] = 'Átlagpont';

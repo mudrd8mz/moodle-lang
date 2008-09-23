@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
       // mnet.php - created with Moodle 1.8.4+ (2007021540)
 
+$string['configmnet'] = 'A Moodle-hálózat révén ez a szerver más szerverekkel vagy szolgáltatásokkal kommunikálhat.';
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (saját aláírású)';
 $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (aláírt)';
@@ -52,7 +53,7 @@ $string['error709'] = 'A távoli portálnak nem sikerült SSL-kulcsot kapni Önt
 $string['expired'] = 'A kulcs lejárt ekkor';
 $string['expires'] = 'Érvényesség lejárata';
 $string['expireyourkey'] = 'Kulcs törlése';
-$string['expireyourkeyexplain'] = 'A Moodle automatikusan (alapbeállításban) 28 naponként cseréli, de lehetősége van kézzel bármikor érvényteleníteni a kulcsot. Ez csak akkor bizonyul hasznosnak, ha biztos abban, hogy a kulcsot illetéktelenek piszkálták. A rendszer azonnal automatikusan előállít egy másikat.A kulcs törlése miatt más Moodle-helyekkel nem fog tudni kommunikálni mindaddig, amíg  kézzel az összes rendszergazdának meg nem adja az új kulcsát.';
+$string['expireyourkeyexplain'] = 'A Moodle automatikusan (alapbeállításban) 28 naponként cseréli, de lehetősége van kézzel bármikor érvényteleníteni a kulcsot. Ez csak akkor bizonyul hasznosnak, ha biztos abban, hogy a kulcsot illetéktelenek piszkálták. A rendszer azonnal automatikusan előállít egy másikat. A kulcs törlése miatt más Moodle-helyekkel nem fog tudni kommunikálni mindaddig, amíg  kézzel az összes rendszergazdának meg nem adja az új kulcsát.';
 $string['failedaclwrite'] = 'Az MNET hozzáférés-vezérlési listához \'$a\' felhasználó esetén nem sikerült a hozzáírás.';
 $string['forbidden-function'] = 'Ez a funkció nincs bekapcsolva az RPC-hez.';
 $string['forbidden-transport'] = 'A használni kívánt továbbítási módszer nincs engedélyezve.';
@@ -172,7 +173,7 @@ $string['testtrustedhostsexplain'] = 'A gazdagép megbízhatóságának ellenőr
 $string['themesavederror'] = 'Hiba történt: a stílus módosításának mentése nem történt meg.';
 $string['transport_help'] = 'Ezek a lehetőségek kölcsönösek, így egy távoli gazdagépen aláírt SSL-tanúsítvány használatát csak akkor írhatja elő, ha szervere szintén rendelkezik aláírt SSL-tanúsítvánnyal.';
 $string['trustedhosts'] = 'XML-RPC-gazdagépek';
-$string['trustedhostsexplain'] = 'A megbízható gazdagépeken alapuló mechanizmus révén meghatározott gépek eljárásokat hívhatnak meg XML-RPC-n keresztül a Moodle felületének bármely részéről. Ezzel szabályozható a Moodle viselkedése, ezért bekapcsolása igen nagy veszélyekkel járhat. Ha kételye támad, ne kapcsolja be.  Erre a Moodle hálózati működtetéséhez nincs szükség. Bekapcsolásához adjon meg soronként egy-egy IP-címet vagy hálózatot. Például:Helyi gazdagépe:127.0.0.1Helyi gazdagépe (hálózati blokkal):127.0.0.1/32Csak a 192.168.0.7 IP-címmel rendelkező gazdagép:192.168.0.7/32Bármely 192.168.0.1 és 192.168.0.255 közötti IP-címmel rendelkező gazdagép:192.168.0.0/24Tetszőleges gazdagép:192.168.0.0/0Nyilván ezen utóbbi példa használata nem ajánlott konfiguráció.';
+$string['trustedhostsexplain'] = 'A megbízható gazdagépeken alapuló mechanizmus révén meghatározott gépek eljárásokat hívhatnak meg XML-RPC-n keresztül a Moodle felületének bármely részéről. Ezzel szabályozható a Moodle viselkedése, ezért bekapcsolása igen nagy veszélyekkel járhat. Ha kételye támad, ne kapcsolja be.  Erre a Moodle hálózati működtetéséhez nincs szükség. Bekapcsolásához adjon meg soronként egy-egy IP-címet vagy hálózatot. Például:Helyi gazdagépe: 127.0.0.1 Helyi gazdagépe (hálózati blokkal):127.0.0.1/32 Csak a 192.168.0.7 IP-címmel rendelkező gazdagép: 192.168.0.7/32 Bármely 192.168.0.1 és 192.168.0.255 közötti IP-címmel rendelkező gazdagép: 192.168.0.0/24 Tetszőleges gazdagép:192.168.0.0/0 Nyilván ezen utóbbi példa használata nem egy ajánlott konfiguráció.';
 $string['unknownerror'] = 'Ismeretlen eredetű hiba történt kapcsolatteremtés közben.';
 $string['usercannotchangepassword'] = 'A jelszót nem módosíthatja itt, mivel Ön távoli felhasználó.';
 $string['userchangepasswordlink'] = 'Jelszavát <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a> szolgáltatójánál módosíthatja.';

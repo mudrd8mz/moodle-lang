@@ -1,6 +1,8 @@
 <?PHP // $Id$ 
       // assignment.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['assignment:exportownsubmission'] = 'Saját leadás exportálása';
+$string['assignment:exportsubmission'] = 'Leadás exportálása';
 
 $string['allowdeleting'] = 'Törlés engedélyezése';
 $string['allowmaxfiles'] = 'Feltöltött állományok maximális száma';
@@ -21,9 +23,9 @@ $string['cannotinsertempty'] = 'Nem lehetett új üres leadott munkát beszúrni
 $string['cannotviewassignment'] = 'Ezt a feladatot nem tekintheti meg';
 $string['comment'] = 'Megjegyzés';
 $string['commentinline'] = 'Sorközi megjegyzés';
-$string['configitemstocount'] = 'Online feladatokban a tanulói leadott munkákhoz megszámolandó tételek jellege.';
-$string['configmaxbytes'] = 'Az adott portálon az összes feladat maximális mérete alaphelyzetben (a kurzustól és egyéb helyi beállításoktól függően)';
-$string['configshowrecentsubmissions'] = 'A tevékenységekről szóló mostani jelentésekben bárki megtekintheti a leadott munkákkal kapcsolatos értesítéseket.';
+$string['configitemstocount'] = 'Online feladatokban a tanulói leadott munkákhoz megszámolandó elemek típusa.';
+$string['configmaxbytes'] = 'Az adott portálon az összes feladat maximális mérete alaphelyzetben (a kurzustól és egyéb helyi beállításoktól függően).';
+$string['configshowrecentsubmissions'] = 'A tevékenységekről szóló utóbbi jelentésekben bárki megtekintheti a leadott munkákkal kapcsolatos értesítéseket.';
 $string['confirmdeletefile'] = 'Biztosan törölni akarja ezt az állományt <br /><strong>$a</strong>?';
 $string['coursemisconf'] = 'A kurzus hibásan van konfigurálva';
 $string['deleteallsubmissions'] = 'Az összes leadott munka törlése';

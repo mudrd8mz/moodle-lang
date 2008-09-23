@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
       // enrol_authorize.php - created with Moodle 1.8.4+ (2007021540)
 
+$string['authorizeerror'] = 'Authorize.net hiba: $a';
 
 $string['dataentered'] = 'Adat rögzítve';
 $string['adminacceptccs'] = 'Milyen hitelkártyafajtákat fogad el?';
@@ -73,7 +74,7 @@ $string['chooseone'] = 'Az alábbi két mezőt vagy az egyiket töltse ki. A jel
 $string['costdefaultdesc'] = 'Ezen alapköltség használatához a kurzusköltség mezőben a <strong>kurzusbeállításoknál adjon meg -1-et</strong>.';
 $string['cutofftime'] = 'Ügylet megszüntetésének ideje. Mikor kerül sor az utolsó ügylet rendezésére?';
 $string['delete'] = 'Megsemmisítés';
-$string['description'] = 'Az Authorize.net modullal bonyolítók térítéses kurzusai hozhatók létre. Ha valamely kurzus ára nulla, a tanulóknak nem kell fizetni a belépéshez. Itt adható meg (1) a portálra globálisan érvényes költség, valamint (2) az egyes kurzusokhoz egyenként beállítható költség. A kurzusköltség felülírja a portálköltséget. <br /><br /><b>Megjegyzés:</b> Ha a kurzusbeállításoknál beiratkozási kulcsot ad meg, akkor a tanulók a kulccsal is beiratkozhatnak. Ez akkor hasznos, ha vegyesen vannak fizető és nem fizető tanulói.';
+$string['description'] = 'Az Authorize.net modullal tanfolyamszervezők térítéses kurzusai hozhatók létre. Ha valamely kurzus ára nulla, a tanulóknak nem kell fizetni a belépéshez. Itt adható meg (1) a portálra globálisan érvényes költség, valamint (2) az egyes kurzusokhoz egyenként beállítható költség. A kurzusköltség felülírja a portálköltséget. <br /><br /><b>Megjegyzés:</b> Ha a kurzusbeállításoknál beiratkozási kulcsot ad meg, akkor a tanulók a kulccsal is beiratkozhatnak. Ez akkor hasznos, ha vegyesen vannak fizető és nem fizető tanulói.';
 $string['echeckabacode'] = 'Bank ABA-száma';
 $string['echeckaccnum'] = 'Bankszámla száma';
 $string['echeckacctype'] = 'Bankszámla típusa';

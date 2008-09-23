@@ -1,6 +1,28 @@
 <?php // $Id$
 // question.php - created with Moodle 1.8 dev
 
+$string['cannotdeletecate'] = 'A kategóriát nem törölheti, mert az az adott környezetben az alapkategória.';
+$string['cannotfindcate'] = 'Nincs meg a kategóriarekord.';
+$string['cannotfindquestionfile'] = 'Nincs meg a tömörített állományban a kérdés adatállománya.';
+$string['cannotgetdsforquestion'] = 'Számításos kérdéshez nem érhető el a megadott adatkészlet! (kérdés: {$a[0]}, adatelem: {a[1]})';
+$string['cannothidequestion'] = 'Nem lehetett elrejteni a kérdést.';
+$string['cannotimportformat'] = 'Ebben a formában még nem lehet importálni!';
+$string['cannotloadquestion'] = 'Nem lehetett kérdést betölteni.';
+$string['cannotpreview'] = 'Ezeket a kérdéseket nem tekintheti meg előre!';
+$string['cannotunhidequestion'] = 'A kérdést nem sikerült megjeleníteni.';
+$string['clicktoflag'] = 'A kérdés megjelöléséhez kattintson.';
+$string['clicktounflag'] = 'A kérdés bejelölésének megszüntetéséhez kattintson.';
+$string['flagged'] = 'Megjelölve';
+$string['flagthisquestion'] = 'Megjelöli a kérdést';
+$string['impossiblechar'] = 'Az elfogadhatatlan $a karaktert a rendszer zárójelként észleli.';
+$string['invalidarg'] = 'NIncs megadva érvényes argumentum vagy hibás a szerver beállítása.';
+$string['invalidconfirm'] = 'A megerősítő szöveg hibás volt.';
+$string['notflagged'] = 'Nincs megjelölve';
+$string['upgradeproblemcategoryloop'] = 'Gond volt a kérdéskategóriák frissítésével. A kategóriafa hurkot tartalmaz. Az érintett kategóriaazonosítók: $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'A(z) $a->name ($a->id) kérdéskategória frissítése nem sikerült.';
+$string['upgradeproblemunknowncategory'] = 'Gond volt a kérdéskategóriák frissítésével. A(z) $a->id kategória nem létező $a->parent felettes kategóriára hivatkozik. A hiba kijavításához módosult a felettes kategória.';
+
+
 $string['errormanualgradeoutofrange'] = 'A(z) $a->grade pontszám  $a->name kérdés esetén nem esik 0 és $a->maxgrade közé. A pontszám és a megjegyzés mentésére nem került sor.';
 $string['adminreport'] = 'Jelentés a kérdéseinek adatbázisával kapcsolatos esetleges probklémákról.';
 $string['badbase'] = 'Hibás alap a **: $a** előtt';

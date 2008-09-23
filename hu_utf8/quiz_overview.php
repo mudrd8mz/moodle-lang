@@ -1,6 +1,8 @@
 <?PHP // $Id$ 
       // quiz_overview.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['overviewreport'] = 'Osztályozó jelentések';
+$string['overviewreportgraphgroup'] = 'Ponthatárt elérő tanulók száma a(z) \'$a\' csoportban';
 
 $string['allattempts'] = 'Minden próbálkozás megjelenítése';
 $string['allattemptscontributetograde'] = 'Minden próbálkozás beleszámít a felhasználó végső pontjába.';

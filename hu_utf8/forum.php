@@ -34,19 +34,20 @@ $string['cannotremovesubscriber'] = 'A(z) $a azonosítójú feliratkozót nem t�
 $string['cannotfindorcreateforum'] = 'A portálhoz nem található vagy nem hozható létre fő hírfórum';
 $string['cannotupdaterate'] = 'Egy régi értékelést nem lehetett frissíteni ($a[0] = $a[1])';
 $string['cannotinsertrate'] = 'Nem lehetett frissíteni egy új értékelést ($a[0] = $a[1])';
-$string['cleanreadtime'] = 'A régi hozzászólásokat az elolvasás órája alapján jelöli meg';
+$string['cleanreadtime'] = 'A régi hozzászólásokat ekkor törölje';
 $string['cannotviewpostyet'] = 'Ezen vita során más tanulók kérdéseit még nem olvashatja el, mert még nem szólt hozzá';
 $string['configcleanreadtime'] = 'A nap azon órája, amikor a rendszer törli az olvasási táblázatból a régi hozzászólásokat.';
 $string['configdisplaymode'] = 'Alapértelmezett megjelenítési mód, ha más nincs megadva';
 $string['configenablerssfeeds'] = 'Ezzel kapcsolható be minden fórum esetén az RSS-frissítés. A fórumok beállításai között a frissítések bekapcsolását továbbra is kézzel kell elvégezni.';
-$string['configenabletimedposts'] = 'Állítsa \'igen\'-re, ha lehetővé kívánja tenni olyan megjelenítési időszakok beállítását, amikor új fórumvita beküldésére nyílik lehetőség (kísérleti jellegű, mivel nincs teljesen leellenőrizve)';
+$string['configenabletimedposts'] = 'Állítsa \'igen\'-re, ha lehetővé kívánja tenni olyan megjelenítési időszakok beállítását, amikor új fórumvita beküldésére nyílik lehetőség (kísérleti jellegű, mivel nincs teljesen leellenőrizve).';
 $string['configlogblocked'] = 'A fórumhoz tartozó cron naplózhatja a zárolt próbálkozásokat, hogy e-mailt lehessen küldeni a kikapcsolt e-maillel rendelkező felhasználóknak.';
-$string['configlongpost'] = 'Minden ennél hosszabb hozzászólás (a HTML nélkül) hosszúnak tekintendő. A portál címoldalán, a fórumformájú kurzusok oldalain és a felhasználói profilokban megjelenő hozzászólások rövidítve láthatók a forum_shortpost és a forum_longpost közötti intervallumban.';
+$string['configlongpost'] = 'Minden ennél hosszabb (HTML nélküli) hozzászólás hosszúnak tekintendő. A portál címoldalán, a fórumformájú kurzusok oldalain és a felhasználói profilokban megjelenő hozzászólások rövidítve láthatók a forum_shortpost és a forum_longpost közötti intervallumban.';
 $string['configmanydiscussions'] = 'Az oldalanként megjelenítendő viták maximális száma';
 $string['configmaxbytes'] = 'A portálon az összes fórumhoz csatolt állomány alapbeállítás szerinti maximális mérete (a kurzuskorlátok és más helyi beállítások függvényében)';
 $string['configoldpostdays'] = 'Ennyi nap elteltével a hozzászólások elolvasottnak tekintendők.';
 $string['configreplytouser'] = 'Ha egy hozzászólást postáznak, tartalmazza-e a felhasználó e-mail címét, hogy a címzettek személy szerint válaszolhassanak a fórum helyett? Még \'Igen\' beállítás esetén is dönthet úgy a felhasználó, hogy profiljában titokban tartja e-mail címét.';
-$string['configshortpost'] = 'Minden ennél rövidebb hozzászólás (a HTML nélkül) rövidnek tekintendő';
+$string['configshortpost'] = 'Minden ennél rövidebb 
+(HTML nélküli) hozzászólás rövidnek tekintendő.';
 $string['configtrackreadposts'] = 'Állítsa \'igen\'-re, ha a felhasználók mindegyikénél figyelni kívánja, hogy elolvasta-e a hozzászólást.';
 $string['configusermarksread'] = 'Ha \'igen\', a felhasználónak kézzel kell a hozzászólás elolvasását megadni. Ha \'nem\', az üzenet megtekintésekor megkapja az \'elolvasott\' megjelölést.';
 $string['couldnotadd'] = 'Ismeretlen hiba miatt a hozzászólást nem lehetett hozzáadni';
@@ -191,7 +192,7 @@ $string['nowtracking'] = '$a->name már nyomon követi a(z) \'$a->forum\' fórum
 $string['numposts'] = '$a hozzászólás';
 $string['olderdiscussions'] = 'Régebbi viták';
 $string['oldertopics'] = 'Régebbi témák';
-$string['oldpostdays'] = 'Nap elteltével elolvasva';
+$string['oldpostdays'] = 'Ennyi nap után elolvasott';
 $string['openmode0'] = 'Nincsenek viták, nincsenek válaszok';
 $string['openmode1'] = 'Nincsenek viták, de válaszok megengedettek';
 $string['openmode2'] = 'Viták és válaszok megengedettek';
@@ -304,5 +305,30 @@ $string['youratedthis'] = 'Ön véleményezte ezt:';
 $string['yournewquestion'] = 'Az Ön új kérdése';
 $string['yournewtopic'] = 'Az Ön új vitatémája';
 $string['yourreply'] = 'Az Ön válasza';
+
+$string['attachmentnopost'] = 'Hozzászólás-azonosító nélkül nem exportálhat csatolt állományokat.';
+$string['attachments'] = 'Csatolt állományok';
+$string['cannotfindfirstpost'] = 'Nincs meg a fórum első hozzászólása';
+$string['cannotremovesubscriber'] = 'A(z) $a azonosítójú feliratkozót nem távolíthatja el ebből a fórumból';
+$string['cannotsubscribe'] = 'Feliratkozáshoz csoporttagnak kell lennie.';
+$string['cannottrack'] = 'A fórum nyomon követését nem lehetett leállítani.';
+$string['cannotunsubscribe'] = 'Kiiratkoztatása a fórumból nem sikerült.';
+$string['completiondiscussions'] = 'A felhasználónak vitát kell létrehoznia:';
+$string['completiondiscussionsgroup'] = 'Viták előírása';
+$string['completiondiscussionshelp'] = 'viták befejezésének előírása';
+$string['completionposts'] = 'A felhasználónak vitával vagy válasszal kell hozzászólnia';
+$string['completionpostsgroup'] = 'Hozzászólások előírása';
+$string['completionpostshelp'] = 'Viták vagy válaszok befejezésének előírása';
+$string['completionreplies'] = 'A felhasználónak válaszolnia kell:';
+$string['completionrepliesgroup'] = 'Válaszok előírása';
+$string['completionreplieshelp'] = 'válaszok befejezésének előírása';
+$string['forum:exportdiscussion'] = 'A teljes vita exportálása';
+$string['forum:exportownpost'] = 'Saját hozzászólás exportálása';
+$string['forum:exportpost'] = 'Hozzászólás exportálása';
+$string['invaliddiscussionid'] = 'Érvénytelen volt a vitaazonosító';
+$string['messageprovider:digests'] = 'Járatott fórum összesítései';
+$string['messageprovider:posts'] = 'Járatott fórum hozzászólásai';
+$string['mustprovidediscussionorpost'] = 'Exportáláshoz meg kell adnia egy vitaazonosítót vagy egy hozzászólás-azonosítót';
+$string['noattachments'] = 'A hozzászóláshoz nincsenek csatolt állományok';
 
 ?>

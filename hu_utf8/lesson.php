@@ -344,5 +344,8 @@ $string['youranswer'] = 'Válasza';
 $string['yourcurrentgradeis'] = 'Jelenlegi pontja:  $a';
 $string['yourcurrentgradeisoutof'] = 'Jelenlegi pontjainak száma $a->grade pont a $a->total pontból';
 $string['youshouldview'] = 'Minimálisan megválaszolandó: $a';
+$string['cannotupdatebook'] = 'Könyvét nem lehet frissíteni.';
+$string['cannotupdategrade'] = 'A pontot nem lehet frissíteni.';
+$string['cannotupdatelink'] = 'Az ugrópontot nem lehet frissíteni.';
 
 ?>

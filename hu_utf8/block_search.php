@@ -1,4 +1,5 @@
 <?php
+
 $string['blockname'] = 'Globális keresés';
 $string['blockssearchswitches'] = 'Indexáló bekapcsolása a blokkokhoz';
 $string['bytes'] = ' bájt (a 0 korlátlant jelent)';
@@ -8,7 +9,10 @@ $string['configfiletypes'] = 'Kezelt állománytípusok';
 $string['configlimitindexbody'] = 'Indexált törzsméretre vonatkozó korlát';
 $string['configpdftotextcmd'] = 'A pdftotext-parancs útvonala';
 $string['configsearchtext'] = 'Szöveg keresése';
-$string['configtypetotextenv'] = 'Környezeti beállítás az átalakítóhoz';
+
+$string['configtypetotxtenv'] = 'Az átalakító környezetének meghatározása';
+
+$string['configtypetotextenv'] = 'Az átalakító környezetének meghatározása';
 $string['configtypetotxtcmd'] = 'Az átalakító parancssora';
 $string['configwordtotextcmd'] = 'A doctotext-parancs útvonala';
 $string['configwordtotextenv'] = 'Környezeti beállítás az MSWord-átalakítóhoz';
