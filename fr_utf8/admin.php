@@ -737,6 +737,7 @@ $string['unicoderequired'] = 'Le stockage des données en format Unicode (UTF-8)
 $string['unicodeupgradenotice'] = 'Dans la version 1.6 de Moodle, toutes les langues ont été migrées en Unicode. Pour terminer la mise à jour de ce site, il est nécessaire de convertir toutes les données de votre base de données en Unicode (UTF-8) à l\'aide de notre script de migration. <a href=\"utfdbmigrate.php\">Cliquez ici pour lancer le script de migration maintenant</a>&nbsp;!';
 $string['uninstall'] = 'Désinstaller les langues sélectionnées';
 $string['uninstallconfirm'] = 'Vous êtes sur le point de supprimer totalement la langue $a. Voulez-vous continuer&nbsp;?';
+$string['uninstallqtype'] = 'Désinstaller ce type de question.';
 $string['unsupported'] = 'Non supporté';
 $string['updateaccounts'] = 'Modifier des comptes existants';
 $string['updatecomponent'] = 'Mise à jour du composant';
