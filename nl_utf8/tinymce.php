@@ -2,7 +2,7 @@
 /* Note to translators: this file was automatically imported from TinyMCE's 
  * translations. Any change to an automatically imported string will be overwritten 
  * the next time the import script is run. */
-$string['main/common:edit_confirm']='Weet je zeker dat je tekst in WYSIWYG mode wilt bewerken in dit tekstveld?';
+$string['main/common:edit_confirm']='Weet u zeker dat u tekst in WYSIWYG mode wilt bewerken in dit tekstveld?';
 $string['main/common:apply']='Toepassen';
 $string['main/common:insert']='Invoegen';
 $string['main/common:update']='Bijwerken';
@@ -12,7 +12,7 @@ $string['main/common:browse']='Bladeren';
 $string['main/common:class_name']='Klasse';
 $string['main/common:not_set']='- Standaard -';
 $string['main/common:clipboard_msg']='Kopiëren/knippen/plakken is niet beschikbaar in Mozilla en Firefox.\nWilt u meer informatie over deze beperking?';
-$string['main/common:clipboard_no_support']='Kopiëren/knippen/plakken is niet ondersteund door uw browser, gebruik hiervoor de sneltoetsen.';
+$string['main/common:clipboard_no_support']='Kopiëren/knippen/plakken wordt niet ondersteund door uw browser, gebruik hiervoor de sneltoetsen.';
 $string['main/common:popup_blocked']='U zult uw popup-blocker tijdelijk moeten uitschakelen voor deze website om gebruik te kunnen maken van alle fucties van deze teksteditor.';
 $string['main/common:invalid_data']='Fout: Er zijn ongeldige waardes ingevoerd, deze zijn rood gemarkeerd.';
 $string['main/common:more_colors']='Meer kleuren';
@@ -524,10 +524,10 @@ $string['plugins/table_dlg:tfoot']='Tabelvoet';
 $string['plugins/table_dlg:scope']='Bereik';
 $string['plugins/table_dlg:rowgroup']='Rijgroep';
 $string['plugins/table_dlg:colgroup']='Kolomgroep';
-$string['plugins/table_dlg:col_limit']='Je hebt het maximale aantal kolommen van {\$cols} overschreden.';
-$string['plugins/table_dlg:row_limit']='Je hebt het maximale aantal rijen van {\$rows} overschreden.';
-$string['plugins/table_dlg:cell_limit']='Je hebt het maximale aantal cellen van {\$cells} overschreden.';
-$string['plugins/table_dlg:missing_scope']='Weet je zeker dat je door wilt gaan met het toewijzen van een kop zonder een bereik op te geven? Mensen met een visuele handicap kunnen hierdoor waarschijnlijk slecht bij de gegevens.';
+$string['plugins/table_dlg:col_limit']='U heeft het maximale aantal kolommen van {\$cols} overschreden.';
+$string['plugins/table_dlg:row_limit']='U heeft hebt het maximale aantal rijen van {\$rows} overschreden.';
+$string['plugins/table_dlg:cell_limit']='U heeft het maximale aantal cellen van {\$cells} overschreden.';
+$string['plugins/table_dlg:missing_scope']='Weet u zeker dat u door wilt gaan met het toewijzen van een kop zonder een bereik op te geven? Mensen met een visuele handicap kunnen hierdoor waarschijnlijk slecht bij de gegevens.';
 $string['plugins/table_dlg:caption']='Tabelbeschrijving';
 $string['plugins/table_dlg:frame']='Frame';
 $string['plugins/table_dlg:frame_none']='Geen';
@@ -591,8 +591,8 @@ $string['plugins/xhtmlxtras_dlg:attribs_title']='Attributen Invoegen/bewerken';
 $string['themes/advanced:style_select']='Stijlen';
 $string['themes/advanced:font_size']='Tekengrootte';
 $string['themes/advanced:fontdefault']='Lettertype';
-$string['themes/advanced:block']='Formaat';
-$string['themes/advanced:paragraph']='Paragraaf';
+$string['themes/advanced:block']='Opmaak';
+$string['themes/advanced:paragraph']='Alinea';
 $string['themes/advanced:div']='Div';
 $string['themes/advanced:address']='Adres';
 $string['themes/advanced:pre']='Vaste opmaak';
