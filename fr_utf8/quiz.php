@@ -77,6 +77,7 @@ $string['back'] = 'Retour à la question précédente';
 $string['backtoquestionlist'] = 'Retour à la liste des questions';
 $string['backtoquiz'] = 'Retour à l\'édition du test';
 $string['bestgrade'] = 'Meilleure note';
+$string['blackboard_6'] = 'Blackboard V6+';  // Obsolete from 2.0dev onwards
 $string['blackboard_six'] = 'Blackboard V6+';
 $string['blackboard'] = 'Format Blackboard';
 $string['bothattempts'] = 'Afficher aussi les étudiants n\'ayant pas fait le test';

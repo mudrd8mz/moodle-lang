@@ -159,6 +159,7 @@ $string['cannotviewprofile'] = 'Affichage du profil de cet utilisateur impossibl
 $string['cannotwritefile'] = 'Impossible d\'écrire dans le fichier ($a)';
 $string['cantunenrollfrommetacourse'] = 'Vous ne pouvez pas vous désinscrire de ce méta-cours';
 $string['cantunenrollinthisrole'] = 'Vous ne pouvez pas vous désinscrire de ce cours dans le rôle que vous avez actuellement';
+$string['cmunknown'] = 'Impossible de trouver ce module de cours';  // Obsolete from 2.0dev onwards
 $string['commentmisconf'] = 'L\'identifiant du commentaire est mal configuré';
 $string['componentisuptodate'] = 'Le composant est à jour';
 $string['confirmsesskeybad'] = 'Désolé, votre identifiant de session n\'a pas pu être confirmé pour exécuter cette action. Cette sécurité vous protège contre l\'exécution accidentelle ou malfaisante en votre nom de fonctions essentielles. Veuillez vérifier que vous avez vraiment voulu effectuer cette action';
