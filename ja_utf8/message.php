@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080830) (2008082900)
+      // message.php - created with Moodle 2.0 dev (Build: 20080923) (2008092300)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
@@ -32,20 +32,20 @@ $string['includeblockedusers'] = '拒否したユーザも含む';
 $string['incomingcontacts'] = '受信したコンタクト ($a)';
 $string['keywords'] = 'キーワード';
 $string['keywordssearchresults'] = '検索結果: $a 件のメッセージが見つかりました。';
-$string['loggedin'] = 'ログイン後:';
-$string['loggedoff'] = 'ログアウト後:';
+$string['loggedin'] = 'オンライン';
+$string['loggedoff'] = '未オンライン';
 $string['mailsent'] = 'あなたのメッセージがメール経由で送信されました。';
 $string['maxmessages'] = 'ディスカッション履歴に表示する最大メッセージ数';
 $string['message'] = 'メッセージ';
 $string['messagehistory'] = 'メッセージ履歴';
-$string['messageprovider:instantmessage'] = 'ユーザ相互のインスタントメッセージ';
+$string['messageprovider:instantmessage'] = 'ユーザ相互のパーソナルメッセージ';
 $string['messages'] = 'メッセージ';
 $string['messaging'] = 'メッセージング';
 $string['messagingdisabled'] = 'このサイトでは、メッセージングが無効にされています。代わりにメールが送信されます。';
 $string['mycontacts'] = 'マイ コンタクト';
 $string['newonlymsg'] = '新しいメッセージのみ表示する';
 $string['newsearch'] = '新しい検索';
-$string['noframesjs'] = 'フレームおよびJavaスクリプトなしのバージョン';
+$string['noframesjs'] = 'さらにアクセス可能なインターフェースを使用する';
 $string['nomessages'] = '未読メッセージはありません。';
 $string['nomessagesfound'] = 'メッセージが見つかりませんでした。';
 $string['nosearchresults'] = '該当データが見つかりませんでした。';
@@ -57,8 +57,7 @@ $string['onlyfromme'] = '送信済みメッセージ';
 $string['onlymycourses'] = 'マイ コース内のみ';
 $string['onlytome'] = '受信メッセージ';
 $string['pagerefreshes'] = 'このページは $a 秒ごとに自動更新されます。';
-$string['private_config'] = 'プライベートメッセージング・オプション';
-$string['processor_config'] = '宛先設定';
+$string['private_config'] = 'ポップアップメッセージウィンドウ';
 $string['processortag'] = '宛先:';
 $string['providers_config'] = 'メッセージ発信元:';
 $string['providerstag'] = '発信元:';
@@ -82,6 +81,7 @@ $string['unreadmessages'] = '未読メッセージ $a 件';
 $string['userisblockingyou'] = 'このユーザはあなたからのメッセージ受信を拒否しています。';
 $string['userisblockingyounoncontact'] = 'このユーザはコンタクトリストに登録されたユーザからのみメッセージを受信します。あなたは現在コンタクトリストに登録されていません。';
 $string['userssearchresults'] = '検索結果: $a 名のユーザが見つかりました。';
+$string['processor_config'] = '宛先設定'; //TBD
 $string['general_config'] = '一般設定'; //TBD
 
 ?>
