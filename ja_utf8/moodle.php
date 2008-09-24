@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -194,7 +194,7 @@ $string['categorycontents'] = 'サブカテゴリおよびコース';
 $string['categorycurrentcontents'] = '$a のコンテンツ';
 $string['categorydeleted'] = '「 $a 」 が削除されました。';
 $string['categoryduplicate'] = '「$a」はすでに登録されています!';
-$string['categorymodifiedcancel'] = 'カテゴリは変更されました! キャンセルの後、再度お試しください。';
+$string['categorymodifiedcancel'] = 'カテゴリは変更されました! キャンセルの後、もう一度お試しください。';
 $string['categoryname'] = 'カテゴリ名';
 $string['categoryupdated'] = 'カテゴリ「 $a 」が更新されました。';
 $string['changedpassword'] = 'パスワードを変更しました。';
@@ -927,7 +927,7 @@ $string['missingpassword'] = 'パスワードが入力されていません。';
 $string['missingrecaptchachallengefield'] = 'reCAPTCHAチャレンジフィールドがありません。';
 $string['missingreqreason'] = '理由が入力されていません。';
 $string['missingshortname'] = '省略名が入力されていません。';
-$string['missingshortsitename'] = 'サイトの省略名が入力されていません。';
+$string['missingshortsitename'] = 'サイト省略名が入力されていません。';
 $string['missingsitedescription'] = 'サイトの説明が入力されていません。';
 $string['missingsitename'] = 'サイト名が入力されていません。';
 $string['missingstrings'] = '未翻訳ストリングの確認';
@@ -1309,7 +1309,7 @@ $string['shortnamecollisionwarning'] = '[*] = この省略名はすでに他の�
 $string['shortnamecourse'] = 'コース省略名';
 $string['shortnametaken'] = '省略名は他のコース ($a) で使用されています。';
 $string['shortnameuser'] = 'ユーザ省略名';
-$string['shortsitename'] = '短いサイト名 (例 単語)';
+$string['shortsitename'] = 'サイト省略名 (例 単語)';
 $string['show'] = '表示';
 $string['showactions'] = '行動の表示';
 $string['showadvancedsettings'] = '高度な設定を表示する';

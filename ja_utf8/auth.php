@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
 $string['CASform'] = '認証選択';
@@ -135,7 +135,7 @@ $string['auth_imapport_key'] = 'ポート';
 $string['auth_imaptitle'] = 'IMAPサーバ';
 $string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバでは、異なる認証およびネゴシエーションを使用することができます。';
 $string['auth_imaptype_key'] = 'タイプ';
-$string['auth_invalidnewemailkey'] = 'エラー: あなたがメールアドレスの変更確認を試みているのでしたら、あなたに送信されたメール内のURIのコピーに失敗しているようです。URIをコピーして、再度お試しください。';
+$string['auth_invalidnewemailkey'] = 'エラー: あなたがメールアドレスの変更確認を試みているのでしたら、あなたに送信されたメール内のURIのコピーに失敗しているようです。URIをコピーして、もう一度お試しください。';
 $string['auth_ldap_ad_create_req'] = 'アクティブディレクトリに新しいアカウントを作成できません。アカウントを作成するためのすべての必要条件 (LDAPSコネクション、必要な権限を持ったbindユーザ等) に合致しているか確認してください。';
 $string['auth_ldap_attrcreators'] = 'メンバーが属性の作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で分けてください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
 $string['auth_ldap_attrcreators_key'] = '属性作成者';
@@ -315,7 +315,7 @@ $string['getanaudiocaptcha'] = 'CAPTCHAオーディオを取得する';
 $string['getanimagecaptcha'] = 'CAPTCHAイメージを取得する';
 $string['getanothercaptcha'] = '別のCAPTCHAを取得する';
 $string['guestloginbutton'] = 'ゲストログインボタン';
-$string['incorrectpleasetryagain'] = '正しくありません。もう一度お試しください。';
+$string['incorrectpleasetryagain'] = '正しくありません、もう一度お試しください。';
 $string['infilefield'] = 'ファイルのパスワードフィールドを使用する';
 $string['instructions'] = '説明';
 $string['internal'] = '内部';

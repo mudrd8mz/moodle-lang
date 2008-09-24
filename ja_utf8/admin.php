@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080923) (2008092300)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -256,6 +256,7 @@ $string['configunzip'] = 'unzipプログラムのパスを指定してくださ�
 $string['configuseexternalyui'] = 'ローカルファイルを使用する代わりに、Yahooサーバで利用可能なオンラインファイルを使用します。警告: この設定にはインターネット接続が必要です。そうでない場合、あなたのサイトでAJAXは動作しません。';
 $string['configusetags'] = 'サイト全体でタグ機能を有効にしますか?';
 $string['configvariables'] = '詳細設定';
+$string['configverifychangedemail'] = '変更済みメールアドレスの確認に関して、「許可されたメールアドレスのドメイン」および「拒否されたメールアドレスのドメイン」設定を使用します。この設定が無効にされた場合、新しいユーザ作成時のみドメインが強制されます。';
 $string['configvisiblecourses'] = '非表示のカテゴリ内に通常どおりコースを表示します。';
 $string['configwarning'] = '設定の変更は慎重に行ってください - 間違った設定はトラブルの原因となります。';
 $string['configxmlstrictheaders'] = 'この設定を有効にした場合、それぞれのページはXML httpヘッダおよびprologを使用して生成されるため、ブラウザにはXHTMLエラーがインラインに表示されます。これは開発者のみに有用です。';
@@ -754,7 +755,7 @@ $string['upgradesure'] = 'あなたのMoodleファイルが更新されました
 $string['upgradetimedout'] = 'アップグレードがタイムアウトしました。アップグレードをリスタートしてください。';
 $string['upgradingdata'] = 'データのアップグレード';
 $string['upgradinglogs'] = 'ログのアップグレード';
-$string['uploadpicture_baduserfield'] = '指定されたユーザ属性は有効ではありません。再度お試しください。';
+$string['uploadpicture_baduserfield'] = '指定されたユーザ属性は有効ではありません。もう一度お試しください。';
 $string['uploadpicture_cannotmovezip'] = '一時ディレクトリにZIPファイルを移動できません。';
 $string['uploadpicture_cannotprocessdir'] = 'ZIP解凍されたファイルを処理できません。';
 $string['uploadpicture_cannotsave'] = 'ユーザ $a の画像を保存できません。画像ファイルを確認してください。';
@@ -807,6 +808,7 @@ $string['uuupdatefromfile'] = 'ファイルでオーバライドする';
 $string['uuupdatemissing'] = '欠けているデータをファイルおよびデフォルトで補填する';
 $string['uuupdatetype'] = '既存のユーザ詳細';
 $string['validateerror'] = 'この値は有効ではありません:';
+$string['verifychangedemail'] = 'メールアドレスの変更時、ドメインを制限する';
 $string['warningcurrentsetting'] = '無効な現在値: $a';
 $string['webproxy'] = 'ウェブプロクシ';
 $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネットに接続できない場合、以下のオプションに必要事項を入力してください。インターネットアクセスは、環境データ、言語パック、RSSフィード、タイムゾーン等のダウンロードに必要です。<br />PHP cURL拡張モジュールの使用を強くお勧めします。';

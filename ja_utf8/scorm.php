@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080923) (2008092300)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
 $string['activation'] = 'アクティベーション';
@@ -24,7 +24,7 @@ $string['attr_error'] = 'タグ $a->tag のアトリビュート ($a->attr) に�
 $string['autocontinue'] = '自動継続';
 $string['averageattempt'] = '平均評点';
 $string['badmanifest'] = 'マニフェストエラー: エラーログをご覧ください。';
-$string['badpackage'] = '指定されたパッケージ/マニフェストは有効ではありません。確認して再度お試しください。';
+$string['badpackage'] = '指定されたパッケージ/マニフェストは有効ではありません。確認した後、もう一度お試しください。';
 $string['browse'] = 'プレビュー';
 $string['browsed'] = '閲覧済み';
 $string['browsemode'] = 'プレビューモード';

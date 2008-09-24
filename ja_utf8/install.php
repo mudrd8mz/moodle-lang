@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // install.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
 $string['aborting'] = 'インストール異常終了';
@@ -274,7 +274,7 @@ $string['sessionautostarthelp'] = '<p>Moodleはセッションサポートを必
 $string['sitefullname'] = '長いサイト名 :';
 $string['siteinfo'] = 'サイト詳細';
 $string['sitenewsitems'] = 'ニュースアイテムの表示件数 :';
-$string['siteshortname'] = '短いサイト名 :';
+$string['siteshortname'] = 'サイト省略名 :';
 $string['sitesummary'] = 'フロントページの説明 :';
 $string['skipdbencodingtest'] = 'DBエンコーディングテストをスキップ';
 $string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用! (実稼動サイトには使用しないでください。)</strong></b>';
@@ -312,7 +312,7 @@ $php cliupgrade.php オプション
 --agreelicense Yes(デフォルト) または No
 --confirmrelease Yes(デフォルト) または No
 --sitefullname 長いサイト名です。デフォルトは : Moodle Site (サイト名を変更してください!!)
---siteshortname 短いサイト名です。デフォルトは: moodle
+--siteshortname サイト省略名です。デフォルトは: moodle
 --sitesummary フロントページの説明です。デフォルトは、空白です。
 --adminfirstname 管理者の名です。デフォルトは「Admin」です。
 --adminlastname 管理者の姓です。デフォルトは「User」です。
