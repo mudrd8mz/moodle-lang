@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // tinymce.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+<?php // $Id$
+      // tinymce.php - created by the automatic import script
 
 
 $string['main/advhr:advhr_desc'] = 'Yatay çizgi';

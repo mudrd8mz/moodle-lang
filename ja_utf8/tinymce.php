@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // tinymce.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
+<?php // $Id$
+      // tinymce.php - created by the automatic import script
 
 
 $string['main/advhr:advhr_desc'] = '水平方向の罫線';

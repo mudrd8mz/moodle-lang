@@ -1,5 +1,5 @@
-<?PHP // $Id$ 
-      // tinymce.php - created with Moodle 2.0 dev (Build: 20080802) (2008073114)
+<?php // $Id$
+      // tinymce.php - created by the automatic import script
 
 
 $string['main/advhr:advhr_desc'] = 'Trennlinie';
