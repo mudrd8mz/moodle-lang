@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
+      // message.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['addcontact'] = 'Kontakt hinzufügen';
@@ -26,7 +26,6 @@ $string['emailmessages'] = 'Mitteilungen per E-Mail versenden, wenn ich offline 
 $string['emailtagline'] = 'Diese E-Mail ist eine Kopie der Mitteilungen, die Sie an \"$a\" geschickt haben';
 $string['emptysearchstring'] = 'Sie müssen einen Suchbegriff eingeben';
 $string['formorethan'] = 'Für mehr als';
-$string['general_config'] = 'Allgemeine Einstellungen';
 $string['guestnoeditmessage'] = 'Gäste dürfen keine Einstellungen für  Mitteilungen ändern';
 $string['guestnoeditmessageother'] = 'Gäste dürfen keine Nutzereinstellungen ändern';
 $string['includeblockedusers'] = 'Gesperrte Nutzer/innen einschließen';
@@ -39,6 +38,7 @@ $string['mailsent'] = 'Ihre Nachricht wurde als E-Mail versandt.';
 $string['maxmessages'] = 'Höchstzahl der Mitteilungen, die im Rückblick angezeigt werden';
 $string['message'] = 'Mitteilung';
 $string['messagehistory'] = 'Mitteilungen (Rückblick)';
+$string['messageprovider:instantmessage'] = 'Teilnehmer/in zu Teilnehmer/in Sofort-Mitteilung';
 $string['messages'] = 'Mitteilungen';
 $string['messaging'] = 'Mitteilungen';
 $string['messagingdisabled'] = 'Bei dieser Website sind die Mitteilungen deaktiviert, aber es werden stattdessen E-Mails verschickt.';
@@ -57,6 +57,7 @@ $string['onlyfromme'] = 'Nur Mitteilungen von mir';
 $string['onlymycourses'] = 'Nur in meinen Kursen';
 $string['onlytome'] = 'Nur Mitteilungen an mich';
 $string['pagerefreshes'] = 'Diese Seite wird automatisch nach $a Sekunden aktualisiert';
+$string['private_config'] = 'Einstellungen für private Mitteilungen';
 $string['processor_config'] = 'Zieleinstellung';
 $string['processortag'] = 'Ziel:';
 $string['providers_config'] = 'Mitteilungseinstellung';
@@ -81,5 +82,6 @@ $string['unreadmessages'] = '$a ungelesene Mitteilungen';
 $string['userisblockingyou'] = 'Diese/r Teilnehmer/in hat Mitteilungen von Ihnen gesperrt.';
 $string['userisblockingyounoncontact'] = 'Der/die Empfänger/in nimmt derzeit nur Nachrichten von Personen an, die in der Kontaktliste eingetragen sind. Sie sind derzeit dort nicht aufgeführt.';
 $string['userssearchresults'] = 'Suchergebniss(e): $a Nutzer/innen gefunden';
+$string['general_config'] = 'Allgemeine Einstellungen'; // ORPHANED
 
 ?>

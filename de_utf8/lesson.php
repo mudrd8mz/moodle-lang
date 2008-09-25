@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['accesscontrol'] = 'Zugriffskontrolle';
@@ -66,7 +66,7 @@ $string['cannotupdatelink'] = 'Link kann nicht aktualisiert werden';
 $string['cannotupdatepage'] = 'Seitenaktualisierung: Seite wurde nicht aktualisiert';
 $string['cannotupdatetimer'] = 'Fehler: Tabelle lesson_timer konnte nicht aktualisiert werden';
 $string['canretake'] = 'Wiederholungen';
-$string['casesensitive'] = 'Groß-/Kleinschreibung beachten';
+$string['casesensitive'] = 'Erweiterte Antwortanalyse';
 $string['checkbranchtable'] = 'Verzweigungsseite testen';
 $string['checkedthisone'] = 'der Antworten';
 $string['checknavigation'] = 'Navigation testen';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['1day'] = '1 Tag';
@@ -72,7 +72,7 @@ $string['attemptselection'] = 'Welche Versuche pro Nutzer/in analysieren:';
 $string['attemptsexist'] = 'Sie können jetzt keine Fragen mehr hinzufügen oder entfernen.';
 $string['attemptsnum'] = 'Versuche: $a';
 $string['attemptsnumthisgroup'] = 'Versuche: $a->total ($a->group von dieser Gruppe)';
-$string['attemptsnumyourgroups'] = 'ersuche: $a->total ($a->group von Ihrer Gruppe)';
+$string['attemptsnumyourgroups'] = 'Versuche: $a->total ($a->group von Ihrer Gruppe)';
 $string['attemptsonly'] = 'Nur Teilnehmer/innen anzeigen, die bereits Versuche durchgeführt haben.';
 $string['attemptsunlimited'] = 'Unbegrenzte Zahl';
 $string['back'] = 'Zurück zur vorherigen Antwort';
@@ -126,6 +126,15 @@ $string['comment'] = 'Kommentar';
 $string['commentorgrade'] = 'Kommentieren oder Bewertung überarbeiten';
 $string['comments'] = 'Kommentare';
 $string['completedon'] = 'Beendet am';
+$string['configadaptive'] = 'Wenn Sie die Option \'Ja\' wählen, dann besteht für den/die Teilnehmer/in die Möglichkeit während des Tests mehrere Antworten auf eine Frage zu geben.';
+$string['configattemptsallowed'] = 'Beschränkung der Anzahl an Antwortversuchen des/der Teilnehmers/in während des Tests.';
+$string['configdecimaldigits'] = 'Anzahl der Nachkommastellen, die bei der Anzeige der Testbewertung aufscheinen sollen.';
+$string['configdelay1'] = 'Wählen Sie eine Zeitverzögerung, wenn Sie möchten, dass Teilnehmer/innen vor einem weiteren Versuch ein Pause einhalten sollen.';
+$string['configdelay2'] = 'Wählen Sie eine Zeitverzögerung, wenn Sie möchten, dass Teilnehmer/innen vor einem dritten oder weiteren Versuch ein Pause einhalten sollen.';
+$string['configeachattemptbuildsonthelast'] = 'Wenn mehrere Versuche erlaubt sind, dann enthält jeder Versuch die Ergebnisse des vorhergegangenen Versuchs.';
+$string['configgrademethod'] = 'Welche Methode soll zur Berechnung der Note des/der Teilnehmers/in an dem Test herangezogen werden, wenn mehrere Versuche erlaubt sind?';
+$string['configshufflequestions'] = 'Wählen Sie diese Option, wenn Sie möchten, dass die Reihenfolge der Fragen bei jedem Versuch per Zufallsgenerator bestimmt werden soll.';
+$string['configtimelimit'] = 'Standard Zeitlimit für Tests in Minuten. 0 bedeutet \'kein Zeitlimit\'.';
 $string['confirmclose'] = 'Sie möchten diesen Versuch beenden. Wenn Sie den Versuch einmal beenden, können Sie Ihre Antworten nicht mehr bearbeiten.';
 $string['confirmserverdelete'] = 'Sind Sie sicher, dass Sie den Server <b>$a</b> aus der Liste löschen wollen?';
 $string['confirmstartattemptlimit'] = 'Sie können bis zu $a Versuch(e) in diesem Test durchführen. Wollen Sie jetzt einen neuen Versuch starten?';
@@ -230,6 +239,7 @@ $string['event6'] = 'Beenden und bewerten';
 $string['event7'] = 'Abgabe';
 $string['event8'] = 'Schließen';
 $string['event9'] = 'Freitext-Bewertung';
+$string['everythingon'] = 'Alles einschalten';
 $string['examview'] = 'Examview';
 $string['export'] = 'Export';
 $string['exportcategory'] = 'Exportkategorie';
@@ -395,7 +405,9 @@ $string['noquestionsfound'] = 'Keine Fragen gefunden';
 $string['noquestionsinfile'] = 'In der Importdatei sind keine Fragen enthalten.';
 $string['noresponse'] = 'Keine Rückantwort';
 $string['noreview'] = 'Sie dürfen diesen Test nicht überprüfen.';
+$string['noreviewshort'] = 'Nicht erlaubt.';
 $string['noreviewuntil'] = 'Sie dürfen diesen Test bis $a nicht überprüfen.';
+$string['noreviewuntilshort'] = '$a verfügbar';
 $string['noscript'] = 'JavaScript muss zum Fortsetzen aktiviert sein!';
 $string['notavailable'] = 'Entschuldigung, der Test steht zur Zeit nicht zur Verfügung.';
 $string['notavailabletostudents'] = 'Hinweis: Dieser Test steht den Teilnehmer/innen zur Zeit nicht zur Verfügung.';

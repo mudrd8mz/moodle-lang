@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // quiz_grading.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['essayonly'] = 'Die manuelle Bewertung steht nur für Freitext-Fragen zur Verfügung.';
@@ -12,6 +12,7 @@ $string['gradingall'] = 'Alle Bewertungen ($a) für diese Frage';
 $string['gradingattempt'] = 'Versuch $a->attempt von $a->fullname';
 $string['gradingnextungraded'] = 'Nächste $a unbewertete Versuche';
 $string['gradingnotallowed'] = 'Sie sind nicht berechtigt, Antworten in diesem Test manuell zu bewerten.';
+$string['gradingreport'] = 'Freitext-Bewertung-Bericht';
 $string['gradingungraded'] = '$a unbewertete Versuche';
 $string['gradinguser'] = 'Versuche von $a';
 $string['questiontitle'] = 'Frage $a->number : \"$a->name\" ({$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts Versuche {$a->openspan}bewertet{$a->closespan}).';

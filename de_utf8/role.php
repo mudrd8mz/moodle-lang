@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
+      // role.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -25,6 +25,7 @@ $string['category:create'] = 'Kursbereiche anlegen';
 $string['category:delete'] = 'Kursbereiche löschen';
 $string['category:update'] = 'Kursbereiche aktualisieren';
 $string['category:visibility'] = 'Verborgene Kursbereiche sehen';
+$string['context'] = 'Kontext';
 $string['course:activityvisibility'] = 'Aktivitäten anzeigen / verbergen';
 $string['course:bulkmessaging'] = 'Nachrichten an viele Empfänger senden';
 $string['course:create'] = 'Kurse anlegen';
@@ -53,7 +54,7 @@ $string['currentcontext'] = 'Aktueller Kontext';
 $string['currentrole'] = 'Derzeitige Rolle';
 $string['defaultrole'] = 'Standardrolle';
 $string['defineroles'] = 'Rollen verwalten';
-$string['deletecourseoverrides'] = 'Alle Änderungen in course löschen';
+$string['deletecourseoverrides'] = 'Alle Änderungen im Kurs löschen';
 $string['deletelocalroles'] = 'Alle lokalen Rollenzuordnungen löschen';
 $string['deleterolesure'] = 'Sind Sie sicher, dass Sie die Rolle \"$a->name ($a->shortname)\" wirklich löschen möchten?</p>
 <p>Aktuell sind dieser Rolle insgesamt $a->count Nutzer/innen zugewiesen.';
@@ -117,7 +118,7 @@ $string['question:add'] = 'Neue Fragen hinzufügen';
 $string['question:config'] = 'Fragetypen konfigurieren';
 $string['question:editall'] = 'Alle Fragen bearbeiten';
 $string['question:editmine'] = 'Meine eigenen Fragen bearbeiten';
-$string['question:managecategory'] = 'Fragenkategorie verwalten';
+$string['question:managecategory'] = 'Fragenkategorien verwalten';
 $string['question:moveall'] = 'Alle Fragen verschieben';
 $string['question:movemine'] = 'Meine eigenen Fragen verschieben';
 $string['question:useall'] = 'Alle Fragen verwenden';

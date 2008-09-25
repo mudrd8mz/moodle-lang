@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['analysis'] = 'Ergebnisanalyse';
 $string['analysisdownload'] = 'Analyse downloaden';
 $string['analysisoptions'] = 'Auswertungsoptionen';
+$string['analysisreport'] = 'Ergebnisanalyse-Bericht';
 $string['analysistitle'] = 'Statistische Analyse der Ergebnisse';
 $string['attemptsall'] = 'Alle Versuche';
 $string['attemptselection'] = 'Welche Versuche pro Nutzer/in analysieren:';
