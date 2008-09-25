@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080917) (2007101522)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -131,6 +131,7 @@ $string['configfrontpageloggedin'] = 'Prihláseným používateľom budú na tit
 $string['configfullnamedisplay'] = 'Toto definuje, ako sa zobrazujú mená, ak sú uvedené v plnom rozsahu. Pre väčšinu jednojazyčných stránok je najlepšie nastavenie toto: \'Meno a Priezvisko\', ale môžete napríklad aj skryť všetky priezviská alebo to nechať na samotný jazykový balík, nech sa rozhodne (niektoré jazyky majú špecifické zvyklosti).';
 $string['configgdversion'] = 'Označte verziu GD, ktorá je nainštalovaná. Nastavená verzia je tá, ktorá bola automaticky zistená. Nemeňte to, iba ak skutočne viete čo robíte!';
 $string['configgeoipfile'] = 'Umiestnenie GeoIP City binárneho dátového súboru. Tento nie je časťou Moodle distribúcie a musí byť získaný oddelene z <a href=\"http://www.maxmind.com/\">MaxMind</a>. Môžete si alebo kúpiť komerčnú verziu alebo použiť voľnú verziu. <br />Stiahnite súbor <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\" >http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a> a rozbaľte ho do adresára \"$a\" na vašom serveri.';
+$string['configgetremoteaddrconf'] = 'Ak je Váš server za reverzným proxy, môžete použiť toto nastavenie pre určenie HTTP hlavičiek, ktoré môžu byť chápané ako obsahujúce dôveryhodné vzdialené IP adresy. Hlavičky sú čítané v danom poradí a použije sa prvá, ktorá je dostupná.';
 $string['configgooglemapkey'] = 'Potrebujete zadať špeciálny kľúč, aby ste mohli používať Google Maps pre vyhľadávanie a lokalizáciu IP adresu. Kľúč je voľne dostupný na adrese <a href=\"http://code.google.com/apis/maps/signup.html\" >http://code.google.com/apis/maps/signup.html</a>.<br />URL vašeho servera je: $a.';
 $string['configgradebookroles'] = 'Ktorých používateľov zobrazovať v klasifikačnom výpise. Používatelia potrebujú aspoň jednu z týchto rol v danom kurze, aby boli zobrazení v jeho popise.';
 $string['configgradeexport'] = 'Vyberte, ktoré exportné formáty v známkach sú vaše primárne metódy pre export. Vybrané zásuvné moduly nastavia a budú používať pole \"naposledy exportované\" pre každú známku. Napríklad toto môže spôsobiť, že exportované záznamy budú identifikované ako \"nové\" alebo \"aktualizované\". Ak si nie ste istí, nechajte prázdne.';
@@ -378,6 +379,7 @@ $string['fullnamedisplay'] = 'Formát celého mena';
 $string['gdversion'] = 'Verzia GD';
 $string['generalsettings'] = 'Všeobecné nastavenia';
 $string['geoipfile'] = 'GeoIP City dátový súbor';
+$string['getremoteaddrconf'] = 'Zdroj logovanej IPadresy';
 $string['globalsquoteswarning'] = '<p><strong>Bezpečnostné upozornenie</strong>: pre správne fungovanie Moodle je nutné upraviť nastavenie PHP <br />na vašom serveri.<p/><p><em>Musíte</em> nastaviť <code>register_globals=off</code> a/alebo <code>magic_quotes_gpc=on</code>. <br />Nastavenie <code>register_globals=off</code> zvyšuje všeobecné zabezpečenie servera, nastaviť <code>magic_quotes_gpc=on</code> <br />sa doporučuje z rovnakého dôvodu.<p/><p>Nastavenia skontrolujte v súbore <code>php.ini</code>, v konfiguračnom súbore Apache/IIS, alebo v súbore <code>.htaccess</code>.</p>';
 $string['globalswarning'] = '<p><strong>Bezpečnostné upozornenie</strong>: pre správne fungovanie Moodle je nutné upraviť nastavenie PHP <br />na vašom serveri.<p/><p><em>Musíte</em> nastaviť <code>register_globals=off</code>. <p>Nastavenie skontrolujte v súbore <code>php.ini</code>, v konfiguračnom súbore Apache/IIS, alebo v súbore <code>.htaccess</code>.</p>';
 $string['googlemapkey'] = 'Google Maps API kľúč';
@@ -613,6 +615,7 @@ $string['renameerrors'] = 'Chyby pri premenovaní';
 $string['requiredtemplate'] = 'Vyžadované. Môžete tu použiť syntax pomocou šablón (%%l = priezvisko, %%f = krstné meno, %%u = login). Viď nápoveda pre detaily a príklady.';
 $string['restrictbydefault'] = 'Obmedziť ponuku implicitne';
 $string['restrictmodulesfor'] = 'Obmedzenie ponuky dostupných modulov';
+$string['reverseproxy'] = 'Reverzné proxy';
 $string['riskconfig'] = 'Používatelia môžu meniť nastavenia a chovanie stránok (serveru)';
 $string['riskconfigshort'] = 'Riziko zásahu do konfigurácie';
 $string['riskmanagetrust'] = 'Používatelia môžu meniť úroveň dôveryhodnosti iných používateľov';
