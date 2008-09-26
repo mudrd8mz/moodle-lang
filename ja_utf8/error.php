@@ -83,7 +83,7 @@ $string['cannotinsertkey'] = '新しいキーを追加できません。';
 $string['cannotinsertrate'] = '新しい評価 ($a->id = $a->rating) を追加できませんでした。';
 $string['cannotinsertrecord'] = 'レコードID $a のレコードを追加できませんでした。';
 $string['cannotmailconfirm'] = 'パスワード変更の確認メール送信中にエラーが発生しました。';
-$string['cannotmanualctrack'] = '活動が手動完了トラッキングを提供していません。';
+$string['cannotmanualctrack'] = '活動が手動完了トラッキングをサポートしていません。';
 $string['cannotmapfield'] = 'マッピングの衝突が発生しました。2つのフィールドが同じ評定項目 $a にマップされています。';
 $string['cannotmarktopic'] = 'このコースのトピックをマークできませんでした。';
 $string['cannotmetacourse'] = '選択したコースを、このメタコースに追加できません!';
