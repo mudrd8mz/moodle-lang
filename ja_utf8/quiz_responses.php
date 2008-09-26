@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_responses.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
+      // quiz_responses.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
+$string['cannotloadoptions'] = '問題オプションを読み込めませんでした。';
 $string['pagesize'] = '1ページあたりの受験数:';
 $string['reportresponses'] = '解答';
 $string['responses'] = '解答';
