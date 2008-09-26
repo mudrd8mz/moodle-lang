@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080904) (2008090108)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
 
 
 $string['1day'] = '하루';
@@ -90,13 +90,18 @@ $string['cannoteditafterattempts'] = '시도가 있었기 때문에 질문을 �
 $string['cannotfindprevattempt'] = '처리할 이전의 시도가 없습니다.';
 $string['cannotfindquestionregard'] = '재평가를 위한 문항 선제 실패';
 $string['cannotinsert'] = '질문을 삽입할 수 없음';
+$string['cannotinsertrandomquestion'] = '새로운 임의 문항을 삽입할 수 없음';
 $string['cannotloadquestion'] = '문항 옵션을 탑재할 수 없음';
 $string['cannotloadtypeinfo'] = '지정 문항 정보에 따른 문형을 탑재할 수 없음';
 $string['cannotopen'] = '내보내기 파일($a)을 열 수 없음';
 $string['cannotread'] = '가져오기한 파일(비어있거나)을 읽을 수 없음';
 $string['cannotrestore'] = '질문 세션을 복구할 수 없음';
 $string['cannotreviewopen'] = '아직 열려있다고 하더라도, 이 시도를 재검토할 수는 없습니다.';
+$string['cannotsavelayout'] = '양식을 저장할 수 없음';
+$string['cannotsavenumberofquestion'] = '쪽당 문항수를 저장할 수 없음';
 $string['cannotsavequestion'] = '문항 목록을 저장할 수 없음';
+$string['cannotsetgrade'] = '퀴즈의 최대 점수를 새로 설정할 수 없음';
+$string['cannotsetsumgrades'] = '누계점수 산출 실패';
 $string['cannotwrite'] = '내보내기 파일($a)에 쓸 수 없음';
 $string['caseno'] = '아니오, 대소문자는 중요치 않음';
 $string['casesensitive'] = '대소문자 구별';

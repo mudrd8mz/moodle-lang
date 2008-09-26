@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080918) (2008091611)
+      // question.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -9,6 +9,7 @@ $string['byandon'] = '<em>$a->user</em>가 <em>$a->time</em>에';
 $string['cannotcopybackup'] = '백업파일 복사 실패';
 $string['cannotcreate'] = 'question_attempts 테이블에 새 항목을 생성할 수 없음';
 $string['cannotcreatedataset'] = '자료묶음 $a 를 생성할 수 없음';
+$string['cannotcreatepath'] = '$a 디렉토리를 생성할 수 없음';
 $string['cannotcreaterelation'] = '자료묶음 $a[0] $a[1] 의 연계를 할 수 없음';
 $string['cannotdeletecate'] = '이 영역의 기본 범주이기 때문에 지울 수 없습니다.';
 $string['cannotfindcate'] = '범주 기록을 찾을 수 없음';
@@ -26,6 +27,7 @@ $string['cannotloadquestion'] = '문항을 탑재할 수 없음';
 $string['cannotmovecate'] = '범주 $a 를 이동할 수 없음. 이 영역의 마지막 범주임';
 $string['cannotmovefromto'] = '범주 $a[0] 를 $a[1] 로 옮길 수 없음';
 $string['cannotmovequestion'] = '이 스크립트는 다른 영역과 연관되어 있는 문항을 이동시키는 데는 사용할 수 없습니다.';
+$string['cannotopenforwriting'] = '$a 을 써 넣을 수 없음';
 $string['cannotpreview'] = '이 문항들은 미리 볼 수 없음!';
 $string['cannotretrieveqcat'] = '문항 범주를 복구할 수 없음';
 $string['cannotsavequiz'] = '현재의 시도를 저장하는 데 실패!';
@@ -73,6 +75,9 @@ $string['errorfilecannotbemoved'] = '$a 이동 오류';
 $string['errorfileschanged'] = '문제가 제시된 후 문항에 연결된 파일의 링크가 변경된 오류';
 $string['errormanualgradeoutofrange'] = '문항 $a->name 에 대한 점수 $a->grade 는 0과 $a->maxgrade 의 범위를 벗어났습니다. 점수 및 논평은 저장되지 않습니다.';
 $string['errormovingquestions'] = 'id $a 의 문항을 옮기는 중에 오류발생';
+$string['errorpostprocess'] = '후 처리과정 중 오류 발생';
+$string['errorpreprocess'] = '전 처리과정 중 오류 발생';
+$string['errorprocess'] = '처리과정 중 오류 발생';
 $string['errorprocessingresponses'] = '응답 처리 중 오류 발생';
 $string['errorsavingcomment'] = '문항 $a->name 의 논평을 데이터베이스에 저장하던 중 오류발생';
 $string['errorupdatingattempt'] = '시도 $a->id 를 데이터베이스에 갱신하던 중 오류발생';

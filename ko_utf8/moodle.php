@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080913) (2008091000)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -234,6 +234,7 @@ $string['clamquarantinedirfailed'] = '지정된 격리 디렉토리 $a 로 파�
 당신은 감염된 파일을 발견시 삭제하라는 조항으로 고쳐야 합니다.';
 $string['clamunknownerror'] = 'Clam에 확인되지 않은 오류가 있었습니다.';
 $string['cleaningtempdata'] = '임시 데이터 삭제하기';
+$string['clear'] = '정리';
 $string['clickhere'] = '여기를 클릭...';
 $string['clicktochange'] = '고치려면 클릭';
 $string['closewindow'] = '창 닫기';
@@ -295,7 +296,6 @@ $a';
 $string['courserejectreason'] = '강좌 개설이 거절된 이유<br />(이것은 신청자에게 이메일로 통보될 것입니다)';
 $string['courserejectsubject'] = '강좌 개설 신청이 거부됨';
 $string['courserequest'] = '개설 요청';
-$string['courserequestdisabled'] = '죄송하지만, 요청한 강좌는 관리자에 의해 거부당했습니다.';
 $string['courserequestfailed'] = '웬일인지, 강좌 개설 요청을 저장할 수 없습니다.';
 $string['courserequestintro'] = '이 양식을 사용해 원하는 교육과정의 개설을 요청하십시오.<br /> 운영자가 왜 당신이 이 교육과정을 개설하려고 하는지 충분히 알 수 있도록 많은 정보를 써주세요.';
 $string['courserequestreason'] = '강좌 개설을 원하는 이유';
@@ -303,6 +303,7 @@ $string['courserequestsuccess'] = '개설 신청 저장 성공. 며칠안에 그
 $string['courserestore'] = '강좌 복원';
 $string['courses'] = '강좌';
 $string['coursescategory'] = '동일 범주의 강좌';
+$string['coursesettings'] = '강좌 기본 설정';
 $string['coursesmovedout'] = '$a 에서 강좌 옮겨짐';
 $string['coursespending'] = '유보되었던 강좌 승인';
 $string['coursestaught'] = '담당 강좌';
@@ -1608,6 +1609,7 @@ $string['yourlastlogin'] = '마지막 로그인';
 $string['yourself'] = '당신자신';
 $string['yourteacher'] = '당신의 $a';
 $string['zippingbackup'] = '백업 압축하기';
+$string['courserequestdisabled'] = '죄송하지만, 요청한 강좌는 관리자에 의해 거부당했습니다.'; // ORPHANED
 $string['remotemaharauser'] = '원격 Mahara 사용자'; // ORPHANED
 $string['repositoriesmanage'] = '저장소 관리'; // ORPHANED
 $string['nostatstodisplay'] = '사용가능한 데이터가 없습니다. 죄송합니다.'; // ORPHANED

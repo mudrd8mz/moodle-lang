@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080919) (2008091611)
+      // admin.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -262,6 +262,7 @@ $string['configunzip'] = 'unzip 프로그램의 위치(유닉스만,선택사항
 $string['configuseexternalyui'] = '자체 기능을 사용하는 대신 Yahoo&#145; 서버에서 온라인으로 제공하는 기능 사용';
 $string['configusetags'] = '사이트 전반에 걸쳐 태그 기능을 활성화할 필요가 있을까요?';
 $string['configvariables'] = '변수';
+$string['configverifychangedemail'] = '허용 혹은 거부된 도메인을 이용하여 바뀐 이메일 주소를 검증. 이 설정이 비활성화되어 있을 경우 새 사용자에게만 도메인 검증이 이루어짐';
 $string['configvisiblecourses'] = '숨겨진 범주의 강좌 표시';
 $string['configwarning'] = '설정값을 조심해서 변경하시오 - 잘못된 값이 문제를 일으킬 수 있습니다.';
 $string['configxmlstrictheaders'] = '켜짐으로 설정되면 XML http 헤더와 프로로그를 사용하여 각 페이지들이 생성될 것이며 브라우저는 XHTML오류들을 인라인으로 보여줄 것입니다. 개발자에게 유용할 것입니다.';
@@ -789,6 +790,7 @@ $string['usersdeleted'] = '이용자 삭제됨';
 $string['usersrenamed'] = '사용자 ID들이 변경됨';
 $string['usersskipped'] = '이용자 생략됨';
 $string['usersupdated'] = '이용자들이 갱신됨';
+$string['usersweakpassword'] = '사용자가 너무 빈약한 암호를 씀';
 $string['usetags'] = '태그 기능 활성화';
 $string['uubulk'] = '일괄 작업을 위한 선택';
 $string['uubulkall'] = '모든 이용자';
@@ -813,6 +815,7 @@ $string['uuupdatefromfile'] = '파일로 덮어쓰기';
 $string['uuupdatemissing'] = '파일과 기본에서 누락된 것 채우기';
 $string['uuupdatetype'] = '기존 이용자 세부사항';
 $string['validateerror'] = '이 값은 유효하지 않음:';
+$string['verifychangedemail'] = '이메일 변경시 허용 여부 점검';
 $string['warningcurrentsetting'] = '잘못된 값: $a';
 $string['webproxy'] = '웹 프록시';
 $string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없는 경우 다음 옵션을 입력하세요. 환경변수, 언어팩, RSS feed, 타임존등을 다운로드하기 위해 인터넷 접속이 필요합니다. <br/><em> PHP cURL 익스텐션을 설치할 것을 추천합니다. </em>';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080831) (2008082900)
+      // message.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
 
 
 $string['addcontact'] = '연락 추가';
@@ -25,6 +25,7 @@ $string['editmymessage'] = '소식 작성';
 $string['emailmessages'] = '오프라인 상태에서 온 이메일';
 $string['emailtagline'] = '\"$a\"에서 보낸 소식의 사본임';
 $string['emptysearchstring'] = '문자열 필수';
+$string['errorcallingprocessor'] = '규정 처리 오류 호출';
 $string['formorethan'] = '더 많이 보기';
 $string['guestnoeditmessage'] = '손님은 소식 설정을 할 수 없음';
 $string['guestnoeditmessageother'] = '손님은 다른 사용자의 소식 설정을 할 수 없음';
@@ -58,7 +59,6 @@ $string['onlymycourses'] = '내 강좌 소식만';
 $string['onlytome'] = '내게 온 소식만';
 $string['pagerefreshes'] = '이 화면은 $a 초마다 자동 갱신됩니다';
 $string['private_config'] = '개별 소식 설정';
-$string['processor_config'] = '수신처 설정';
 $string['processortag'] = '수신:';
 $string['providers_config'] = '발신처';
 $string['providerstag'] = '발신:';
@@ -83,6 +83,7 @@ $string['unreadmessages'] = '$a 읽지않은 소식';
 $string['userisblockingyou'] = '이 사용자는 소식 수령을 거부했음';
 $string['userisblockingyounoncontact'] = '이 사용자는 자신의 연락처에 있는 사람들의 소식만 받습니다. 당신은 현재 그 목록에 들어 있지 않습니다.';
 $string['userssearchresults'] = '검색 결과: $a 사용자 발견';
+$string['processor_config'] = '수신처 설정'; // ORPHANED
 $string['general_config'] = '일반 설정'; // ORPHANED
 $string['refresh'] = '갱신'; // ORPHANED
 

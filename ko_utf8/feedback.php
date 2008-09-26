@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080623) (2008051203)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
 
 
 $string['add_item'] = '활동에 질문 추가';
@@ -17,7 +17,13 @@ $string['autonumbering'] = '자동 문항 번호';
 $string['average'] = '평균';
 $string['bold'] = '굵게';
 $string['cancel_moving'] = '이동 취소';
+$string['cannotcreatecompletedfeedback'] = '완성된 설문을 만들 수 없음';
+$string['cannotcreatetmpfeedback'] = '임시 설문을 만들 수 없음';
+$string['cannotmapfeedback'] = '데이터베이스의 문제로 강좌에 설문을 배치할 수 없음';
+$string['cannotsavetempl'] = '설문지 저장이 허용되지 않음';
+$string['cannotunmap'] = '데이터베이스의 문제로 설문배치 해제를 할 수 없음';
 $string['captcha'] = '캡차';
+$string['captchanotset'] = '캡차가 설정되지 않음';
 $string['check'] = '선다형-복수답';
 $string['check_values'] = '가능한 응답';
 $string['checkbox'] = '선다형-복수답허용(체크박스)';
@@ -64,6 +70,7 @@ $string['feedback:receivemail'] = '이메일 통지 받기';
 $string['feedback:view'] = '피드백 보기';
 $string['feedback:viewanalysepage'] = '제출 후 분석결과 보기';
 $string['feedback:viewreports'] = '보고서 보기';
+$string['feedback_is_not_for_anonymous'] = '익명사용자는 설문 응답을 못함';
 $string['feedback_is_not_open'] = '피드백이 아직 시작되지 않았음';
 $string['feedback_options'] = '피드백 선택사항';
 $string['feedbackclose'] = '피드백 마감 시간';
@@ -178,6 +185,7 @@ $string['textfield'] = '단답형 답안';
 $string['textfield_maxlength'] = '허용 최대 문자 수';
 $string['textfield_size'] = '입력창의 폭';
 $string['this_feedback_is_already_submitted'] = '당신은 이미 이 활동을 완료하였습니다.';
+$string['typemissing'] = '\"유형\" 누락';
 $string['update_item'] = '변경사항 저장';
 $string['use_one_line_for_each_value'] = '<br />한 줄에 하나씩 답하세요!';
 $string['use_this_template'] = '이 질문지 사용';
