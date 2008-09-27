@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // error.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadministrator kann nicht von anderen bearbeitet werden';
@@ -83,6 +83,7 @@ $string['cannotinsertkey'] = 'Neuer Schlüssel kann nicht eingetragen werden';
 $string['cannotinsertrate'] = 'Eine neue Bewertung konnte nicht eingefügt werden ($a[0] = $a[1])';
 $string['cannotinsertrecord'] = 'Neuer Datensatz ID $a konnte nicht eingetragen werden.';
 $string['cannotmailconfirm'] = 'Fehler beim Versenden der E-Mail zur Bestätigung der Passwortänderung';
+$string['cannotmanualctrack'] = 'Die Aktivität unterstützt keine manuelle Vollständigkeitsverfolgung';
 $string['cannotmapfield'] = 'Problem bei der Zuordnung aufgetreten. Zwei Felder sind der gleichen Bewertung $a zugeordnet.';
 $string['cannotmarktopic'] = 'Dieses Kursfeld konnte nicht markiert werden.';
 $string['cannotmetacourse'] = 'Sie können den ausgewählten Kurs nicht zu diesem Metakurs hinzufügen!';
@@ -159,11 +160,9 @@ $string['cannotviewprofile'] = 'Sie können dieses Nutzerprofil nicht ansehen.';
 $string['cannotwritefile'] = 'In diese Datei kann nicht geschieben werden ($a)';
 $string['cantunenrollfrommetacourse'] = 'Sie können sich als Teilnehmer/in nicht selber aus diesem Metakurs austragen.';
 $string['cantunenrollinthisrole'] = 'Sie können sich in Ihrer derzeitigen Rolle nicht selber aus diesem Kurs austragen.';
-$string['cmunknown'] = 'Das Kursmodul wurde nicht gefunden.';
 $string['commentmisconf'] = 'Kommentar-ID ist falsch konfiguriert';
 $string['componentisuptodate'] = 'Die Komponente ist aktuell.';
 $string['confirmsesskeybad'] = 'Entschuldigung, der \"session key\" für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte überzeugen Sie sich, dass Sie diese Aktion wirklich ausführen wollen.';
-$string['copiedcmnotexist'] = 'Das kopierte Kursmodul ist nicht vorhanden!';
 $string['couldnotassignrole'] = 'Ein ernster, nicht näher bezeichneter Fehler ist aufgetreten, während Sie sich eine Rolle zuweisen wollten.';
 $string['coursegroupunknown'] = 'Es wurde kein Kurs für die Gruppe $a festgelegt';
 $string['coursemisconf'] = 'Kurs ist falsch konfiguriert.';
@@ -226,6 +225,7 @@ $string['headersent'] = 'Header wurde bereits gesendet';
 $string['invalidaccess'] = 'Auf diese Seite wurde nicht richtig zugegriffen';
 $string['invalidaccessparameter'] = 'Ungültiger Zugriffsparameter';
 $string['invalidaction'] = 'Ungültiger Aktionsparameter';
+$string['invalidactivityid'] = 'Ungültige Aktivitäten-ID';
 $string['invalidargorconf'] = 'Keine gültigen Argumente angegeben oder falsche Server-Konfiguration';
 $string['invalidarguments'] = 'Keine gültigen Argumente angegeben';
 $string['invalidblockinstance'] = 'Ungültige Block-Instanz: $a';
@@ -269,7 +269,6 @@ $string['invalidrole'] = 'Ungültige Rolle';
 $string['invalidroleid'] = 'Ungültige Rollen-ID';
 $string['invalidscaleid'] = 'Falsche Skalen-ID';
 $string['invalidsection'] = 'Kursmoduldatensatz enthält ungültigen Abschnitt';
-$string['invalidseeky'] = 'Das Formular wird wegen eines falsch übermittelten Sessionkeys nicht akzeptiert!';
 $string['invalidsesskey'] = 'Falsche sesskey übergeben, Formular nicht akzeptiert!';
 $string['invalidshortname'] = 'Die Kurzbezeichnung für den Kurs ist ungültig';
 $string['invalidurl'] = 'Ungültige URL';
@@ -400,6 +399,7 @@ $string['unknowncourse'] = 'Unbekannter Kursname \"$a\"';
 $string['unknowncourseidnumber'] = 'Unbekannte Kurs-ID \"$a\"';
 $string['unknowngroup'] = 'Unbekannte Gruppe \"$a\"';
 $string['unknownhelp'] = 'Unbekanntes Hilfethema \"$a\"';
+$string['unknownmodulename'] = 'Unbekannter Modulname für das Formular';
 $string['unknownrole'] = 'Unbekannte Rolle \"$a\"';
 $string['unknownuseraction'] = 'Entschuldigung, aber diese Nutzeraktion wurde nicht verstanden.';
 $string['unknoworder'] = 'Unbekannte Anforderung';
@@ -408,6 +408,7 @@ $string['unknowquestiontype'] = 'Nicht unterstützter Fragetyp: $a';
 $string['unknowuploadaction'] = 'Fehler: Unbekannter Uploadvorgang ($a)';
 $string['unspecifycourseid'] = 'Es muss die Kurs-ID, die Kurzbezeichnung oder ID-Nummer angegeben werden.';
 $string['unsupportedevent'] = 'Ereignistyp wird nicht unterstützt';
+$string['unsupportedstate'] = 'Vollständigkeitsstatus wird nicht unterstützt';
 $string['updatersserror'] = 'Bei der Aktualisierung des RSS Feeds mit der folgende id-Nummer ist ein Fehler aufgetreten: $a';
 $string['upgradefail'] = 'Upgrade-Problem: $a';
 $string['upgraderequires19'] = 'Fehler! Es wurde eine neue Moodle-Version auf dem Server installiert. Leider wird das direkte Upgrade auf diese Version nicht unterstützt!<br/>Führen Sie zuerst eine Upgrade auf die letzte Version von 1.9.x durch. Sie haben auch die Möglichkeit, auf die zuvor installierte Version zurückzugreifen wenn Sie die ursprünglichen Dateien wieder reinstallieren.';
@@ -441,6 +442,9 @@ $string['wrongsourcebase'] = 'Falsche URL-Quelle';
 $string['wrongzipfilename'] = 'Falscher ZIP-Dateiname';
 $string['xmldberror'] = 'XMLDB-Fehler!';
 $string['younotteacher'] = 'Sie sind kein/e Trainer/in!';
+$string['cmunknown'] = 'Das Kursmodul wurde nicht gefunden.'; // ORPHANED
+$string['copiedcmnotexist'] = 'Das kopierte Kursmodul ist nicht vorhanden!'; // ORPHANED
+$string['invalidseeky'] = 'Das Formular wird wegen eines falsch übermittelten Sessionkeys nicht akzeptiert!'; // ORPHANED
 $string['cannotinitpage'] = 'Die Seite kann nicht initialisiert werden. Kurs-ID: $a'; // ORPHANED
 $string['cannotmovezip'] = 'Zip konnte nicht verschoben werden.'; // ORPHANED
 

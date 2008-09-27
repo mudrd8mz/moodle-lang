@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20080715) (2008070701)
+      // tag.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['addedotag'] = '\"$a\" wurde als offizielles Schlagwort hinzugefügt.';
@@ -51,6 +51,8 @@ $string['tagsaredisabled'] = 'Schlagworte sind nicht erlaubt';
 $string['tagtype'] = 'Schlagworttyp';
 $string['tagtype_default'] = 'Voreinstellung';
 $string['tagtype_official'] = 'Offiziell';
+$string['thingstaggedwith'] = '$a->count Dinge mit dem Schlagwort \"$a->name\"';
+$string['thingtaggedwith'] = '\"$a->name\" wird bereits benutzt';
 $string['thistaghasnodesc'] = 'Dieses Schlagwort hat bisher keine Beschreibung.';
 $string['timemodified'] = 'Verändert';
 $string['typechanged'] = 'Schlagworttyp geändert';
@@ -58,6 +60,5 @@ $string['updated'] = 'Aktualisiert';
 $string['updatetag'] = 'Aktualisieren';
 $string['userstaggedwith'] = 'Nutzer/innen mit dem Schlagwort \"$a\"';
 $string['withselectedtags'] = 'Mit ausgewählten Schlagworten...';
-$string['thingstaggedwith'] = '$a->count Dinge mit dem Schlagwort \"$a->name\"'; // ORPHANED
 
 ?>

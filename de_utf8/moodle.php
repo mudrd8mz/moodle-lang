@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -11,8 +11,8 @@ $string['activities'] = 'Aktivitäten';
 $string['activity'] = 'Aktivität';
 $string['activityclipboard'] = 'Diese Aktivität verschieben: <b>$a</b>';
 $string['activityiscurrentlyhidden'] = 'Entschuldigung, diese Aktivität ist momentan verborgen';
-$string['activitymodule'] = 'Aktivitäten-Modul';
-$string['activitymodules'] = 'Aktivitäten-Module';
+$string['activitymodule'] = 'Aktivitäten';
+$string['activitymodules'] = 'Aktivitäten';
 $string['activityreport'] = 'Aktivitäten';
 $string['activityreports'] = 'Aktivitäten';
 $string['activityselect'] = 'Wählen Sie eine Aktivität aus, um sie zu verschieben';
@@ -303,6 +303,7 @@ $string['courserequestsuccess'] = 'Ihr Kursantrag wurde erfolgreich gespeichert.
 $string['courserestore'] = 'Kurswiederherstellung';
 $string['courses'] = 'Kurse';
 $string['coursescategory'] = 'Kurse des gleichen Kursbereichs';
+$string['coursesettings'] = 'Standardeinstellungen';
 $string['coursesmovedout'] = 'Kurse aus $a hinaus bewegt';
 $string['coursespending'] = 'Kursanträge bearbeiten';
 $string['coursestaught'] = 'Kurse, in denen ich unterrichtete';
@@ -448,6 +449,7 @@ $string['editorhelptopics'] = 'Hilfethemen zum Editor';
 $string['editorresettodefaults'] = 'Auf Standardwerte zurücksetzen';
 $string['editorsettings'] = 'Einstellungen für den Editor';
 $string['editorshortcutkeys'] = 'Tastatur-Shortcuts für den Editor';
+$string['editremoteprofile'] = 'Profil eines Fernnutzers bearbeiten';
 $string['editsummary'] = 'Bearbeiten';
 $string['editthisactivity'] = 'Diese Aktivität bearbeiten';
 $string['editthiscategory'] = 'Diesen Kursbereich bearbeiten';
@@ -1218,7 +1220,7 @@ $string['registrationsend'] = 'Registrierung an moodle.org senden';
 $string['registrationyes'] = 'Ja, ich möchte wichtige Mitteilungen per E-Mail erhalten';
 $string['reject'] = 'Ablehnen';
 $string['reload'] = 'Aktualisieren';
-$string['remotemaharauser'] = 'Externe Mahara-Nutzer';
+$string['remoteappuser'] = 'Fernnutzer $a';
 $string['remove'] = 'Löschen';
 $string['removeadmin'] = 'Administrator/in löschen';
 $string['removecreator'] = 'Kursverwalter/in löschen';
@@ -1228,6 +1230,7 @@ $string['rename'] = 'Umbenennen';
 $string['renamefileto'] = '<b>$a</b> umbenennen in';
 $string['report'] = 'Bericht';
 $string['reports'] = 'Berichte';
+$string['repositories'] = 'Speicherorte';
 $string['requestcourse'] = 'Kurs beantragen';
 $string['requestedby'] = 'Antrag von';
 $string['requestreason'] = 'Antragsbegründung';
@@ -1652,6 +1655,7 @@ $string['yourlastlogin'] = 'Ihr letztes Login war';
 $string['yourself'] = 'sich selbst';
 $string['yourteacher'] = '$a';
 $string['zippingbackup'] = 'Sicherung komprimieren';
+$string['remotemaharauser'] = 'Externe Mahara-Nutzer'; // ORPHANED
 $string['nostatstodisplay'] = 'Es liegen keine Daten zur Anzeige vor.'; // ORPHANED
 $string['skiptomaincontent'] = 'Vorwärtsspringen zum Hauptthema'; // ORPHANED
 $string['enteryourinterests'] = 'Geben Sie hier Ihre Interessen ein, und zwar jeweils getrennt durch ein Komma'; // ORPHANED

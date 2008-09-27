@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // role.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -118,6 +118,7 @@ $string['question:add'] = 'Neue Fragen hinzufügen';
 $string['question:config'] = 'Fragetypen konfigurieren';
 $string['question:editall'] = 'Alle Fragen bearbeiten';
 $string['question:editmine'] = 'Meine eigenen Fragen bearbeiten';
+$string['question:flag'] = 'Fragen während der Beantwortung markieren';
 $string['question:managecategory'] = 'Fragenkategorien verwalten';
 $string['question:moveall'] = 'Alle Fragen verschieben';
 $string['question:movemine'] = 'Meine eigenen Fragen verschieben';

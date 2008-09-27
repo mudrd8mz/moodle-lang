@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // repository.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['activaterep'] = 'Aktive Repositories';
@@ -21,7 +21,8 @@ $string['cleancache'] = 'Zwischengespeicherte Dateien löschen';
 $string['clicktohide'] = 'Zum Verbergen hier klicken';
 $string['clicktoshow'] = 'Zum Anzeigen hier klicken';
 $string['close'] = 'Schließen';
-$string['configsaved'] = 'Konfigutation gespeichert';
+$string['configcacheexpire'] = 'Zeitdauer in der Dateilisten aus externen Repositories im lokalen Cache zwischen gespeichert werden (in Sekunden).';
+$string['configsaved'] = 'Konfiguration gespeichert';
 $string['confirmdelete'] = 'Sind Sie sicher, dass Sie das Repository $a löschen möchten?';
 $string['confirmremove'] = 'Sind Sie sicher, dass Sie das Repository-Plugin mit seinen Optionen und <strong style=color:red>all seinen Instanzen</string> löschen wollen? -$a';
 $string['copying'] = 'Kopiere';
@@ -34,6 +35,7 @@ $string['deleterepository'] = 'Repository löschen';
 $string['download'] = 'Download';
 $string['downloadsucc'] = 'Download erfolgreich!';
 $string['editrepositoryinstance'] = 'Repository-Instanz ändern';
+$string['emptytype'] = 'Repository-Typ kann nicht erstellt werden - kein Name angegeben';
 $string['error'] = 'Fehler aufgetreten!';
 $string['existingrepository'] = 'Das Repository existiert bereits';
 $string['filename'] = 'Dateiname';
@@ -47,14 +49,17 @@ $string['instances'] = 'Repository-Instanzen';
 $string['invalidjson'] = 'Ungültiger JSON-Text';
 $string['invalidplugin'] = 'Ungültiges Repository-Plugin';
 $string['invalidrepositoryid'] = 'Ungültige Repository-ID';
+$string['keyword'] = 'Schlüsselwort';
 $string['listview'] = 'Listenansicht';
 $string['loading'] = 'Wird geladen...';
+$string['login'] = 'Anmeldung';
 $string['logout'] = 'Abmelden';
 $string['manage'] = 'Repositories verwalten';
 $string['manageurl'] = 'Verwalten';
 $string['manageuserrepository'] = 'Persönliches Repository verwalten';
 $string['noenter'] = 'Nichts eingegeben';
 $string['nopermissiontoaccess'] = 'Kein Zugriffsrecht für dieses Repository';
+$string['noresult'] = 'Keine Suchergebnisse';
 $string['notyourinstances'] = 'Sie können Repository-Instanzen anderer Nutzer/innen nicht einsehen oder ändern.';
 $string['openpicker'] = 'Datei wählen ...';
 $string['operation'] = 'Vorgang';
@@ -62,6 +67,7 @@ $string['personalrepositories'] = 'Persönliche Repositories';
 $string['plugin'] = 'Repository-Plugins';
 $string['popup'] = 'Öffne ein Popup-Fenst zum Anmelden';
 $string['preview'] = 'Vorschau';
+$string['readonlyinstance'] = 'Sie dürfen keinen schreibgeschützten Eintrag bearbeiten oder löschen';
 $string['refresh'] = 'Neu laden';
 $string['removed'] = 'Repository entfernt';
 $string['repositories'] = 'Repositories';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['activeportfolios'] = 'Aktive Portfolios';
@@ -14,7 +14,10 @@ $string['confirmexport'] = 'Bitte bestätigen Sie diesen Export';
 $string['confirmsummary'] = 'Zusammenfassung Ihres Exports';
 $string['continuetoportfolio'] = 'Am Portfolio weiterarbeiten';
 $string['deleteportfolio'] = 'Portfolio-Instanz löschen';
+$string['destination'] = 'Ziel';
 $string['disabled'] = 'Entschuldigung, aber Der Portfolio-Export ist für diese Website nicht aktiviert';
+$string['displayarea'] = 'Export-Bereich';
+$string['displayinfo'] = 'Export-Information';
 $string['dontwait'] = 'Nicht warten';
 $string['enabled'] = 'Portfolios aktivieren';
 $string['err_uniquename'] = 'Der Portfolio-Name muss eindeutig sein (per Plugin)';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // forum.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -22,6 +22,7 @@ $string['allowsdiscussions'] = 'Alle dürfen in diesem Forum ein neues Diskussio
 $string['allsubscribe'] = 'Alle Foren abonnieren';
 $string['allunsubscribe'] = 'Alle Foren abbestellen';
 $string['anyfile'] = 'Jede Datei';
+$string['areaintro'] = 'Einleitung zum Forum';
 $string['attachment'] = 'Anhang';
 $string['attachmentnopost'] = 'Ohne Nachrichten-ID können keine Anhänge exportiert werden';
 $string['attachments'] = 'Anhänge';
@@ -32,6 +33,7 @@ $string['bynameondate'] = 'von  $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Um in diesem Forum mit zu diskutieren, müssen Sie Mitglied der Gruppe sein.';
 $string['cannotadddiscussionall'] = 'Sie haben nicht die Berechtigung, um neue Diskussionsthemen für alle Teilnehmer/innen anzulegen.';
 $string['cannotaddsubscriber'] = 'Abonnent mit der ID $a konnte nicht für das Forum registriert werden!';
+$string['cannotdeleteforummodule'] = 'Sie dürfen das Forenmodul nicht löschen.';
 $string['cannotfindfirstpost'] = 'Die erste Nachricht konnte nicht gefunden werden';
 $string['cannotfindorcreateforum'] = 'Das Nachrichtenforum dieses Kurses wurde nicht gefunden oder konnte nicht angelegt  werden.';
 $string['cannotremovesubscriber'] = 'Abonnent mit id $a konnte nicht aus dem Forum ausgetragen werden!';
@@ -48,6 +50,7 @@ $string['configenabletimedposts'] = 'Wählen Sie die Einstellung \'Ja\', um eine
 $string['configlogblocked'] = 'Der Cron-Job fürdie Forennachrichten kann versuchte Mailversendungen an Nutzer mit gesperrter Mailadresse loggen.';
 $string['configlongpost'] = 'Jeder Beitrag (ohne HTML-Codierung), der länger ist als diese Einstellung, wird als lang eingestuft.';
 $string['configmanydiscussions'] = 'Maximale Anzahl von Forumsthemen pro Seite';
+$string['configmaxattachments'] = 'Maximale Anzahl von Anhängen, die für einen Beitrag erlaubt sind';
 $string['configmaxbytes'] = 'Maximale Größe von Dateianhängen, die zu den Beiträgen dieser Seite hochgeladen werden können (in Abhängigkeit von Kursbegrenzungen und anderen lokalen Einstellungen)';
 $string['configoldpostdays'] = 'Zahl der Tage, die eine neue ungelesene Nachricht  als neu gekennzeichnet wird.';
 $string['configreplytouser'] = 'Wenn ein Forumsbeitrag per E-Mail verschickt wird, soll er die Teilnehmeradresse enthalten, damit der Empfänger persönlich antworten kann (statt über das Forum)? Wenn Sie \"Ja\" auswählen, können die Teilnehmer/innen in ihrem Profil festlegen, ob die E-Mail-Adresse veröffentlicht werden soll oder nicht.';
@@ -152,6 +155,7 @@ $string['markread'] = 'Als gelesen markieren';
 $string['markreadbutton'] = 'Als gelesen<br />markieren';
 $string['markunread'] = 'Als ungelesen markieren';
 $string['markunreadbutton'] = 'Als ungelesen<br /> markieren';
+$string['maxattachments'] = 'Maximale Anhänge';
 $string['maxattachmentsize'] = 'Maximale Dateigröße';
 $string['maxtimehaspassed'] = 'Entschuldigung, aber die Höchstdauer für die Bearbeitung dieses Eintrags ($a) ist überschritten!';
 $string['message'] = 'Mitteilung';

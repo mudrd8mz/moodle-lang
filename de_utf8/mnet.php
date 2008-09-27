@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 Beta + (2007100903)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
@@ -20,6 +20,7 @@ $string['authmnetautoadddisabled'] = 'Moodle-Netzwerk: Die Einstellung <em>Auto-
 $string['authmnetdisabled'] = 'Moodle-Netzwerk: Das <em>Plugin zur Authentifikation</em> ist <strong>ausgeschaltet</strong>.';
 $string['badcert'] = 'Dies ist kein gültiges Zertifikat.';
 $string['certdetails'] = 'Zertifikatsdetails';
+$string['configmnet'] = 'Das Moodle-Netzwerk ermöglicht einen Datenaustausch dieses Servers mit anderen Servern oder Diensten.';
 $string['couldnotgetcert'] = 'Es wurde kein Zertifikat gefunden unter <br />$a. <br />Der Rechner scheint ausgeschaltet oder falsch konfiguriert zu sein.';
 $string['couldnotmatchcert'] = 'Dies stimmt nicht mit dem Zertifikat überein, das aktuell auf dem Webserver veröffentlicht ist.';
 $string['courses'] = 'Kurse';

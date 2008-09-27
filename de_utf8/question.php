@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // question.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
@@ -67,6 +67,7 @@ $string['errordeletingquestionsfromcategory'] = 'Fehler beim Löschen von Fragen
 $string['errorduringpost'] = 'Fehler nach Prozessabschluß';
 $string['errorduringpre'] = 'Fehler vor Prozessbeginn';
 $string['errorduringproc'] = 'Fehler bei Prozessausführung';
+$string['errorduringregrade'] = 'Frage $a->qid konnte nicht neu bewertet werden - Status: $a->stateid';
 $string['errorfilecannotbecopied'] = 'Fehler: Datei $a kann nicht kopiert werden.';
 $string['errorfilecannotbemoved'] = 'Fehler: Datei $a kann nicht verschoben werden.';
 $string['errorfileschanged'] = 'Die von einigen Fragen verlinkten Fehlerdateien wurden geändert, nachdem das Formular gezeigt wurde.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['allattempts'] = 'Alle Versuche anzeigen';
@@ -26,6 +26,7 @@ $string['optonlygradedattempts'] = 'Nur die Versuche der Nutzer, die bewertet we
 $string['optonlyregradedattempts'] = 'die neu bewertet  bzw. dafür markiert wurden';
 $string['overview'] = 'Übersicht';
 $string['overviewdownload'] = 'Download der Übersicht';
+$string['overviewreport'] = 'Bewertungsübersicht';
 $string['overviewreportgraph'] = 'Balkengrafik für die Zahl der Nutzer, die einzelne Bewertungstufen erreicht haben';
 $string['overviewreportgraphgroup'] = 'Anzahl derjenigen in der Gruppe \'$a\', die die Bewertungsgrenzen erreicht haben';
 $string['pagesize'] = 'Seitengröße';
@@ -48,5 +49,6 @@ $string['showdetailedmarks'] = 'Bewertungen für jede Frage anzeigen / downloade
 $string['showinggraded'] = 'Nur die bewerteten Versuche der Nutzer anzeigen';
 $string['showinggradedandungraded'] = 'Bewertete und nicht bewertete Versuche jedes Nutzers anzeigen. Der Versuche, der für die Bewertung genutzt wird ist hervorgehoben. Als Bewertungsmethode wurde gewählt $a.';
 $string['studentingroup'] = '\'$a->coursestudent\' in der Gruppe \'$a->groupname\'';
+$string['studentingrouplong'] = '\'$a->coursestudent\' in dieser Gruppe';
 
 ?>
