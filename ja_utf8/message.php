@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080923) (2008092300)
+      // message.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
@@ -25,6 +25,7 @@ $string['editmymessage'] = 'メッセージング';
 $string['emailmessages'] = 'オフライン時は下記メールアドレス宛にメッセージを転送する。';
 $string['emailtagline'] = 'このメールは $a にあなた宛に送信されたメッセージのコピーです。';
 $string['emptysearchstring'] = 'キーワードを入力してください。';
+$string['errorcallingprocessor'] = '定義されたプロセッサのコールにエラーが発生しました。';
 $string['formorethan'] = '経過後';
 $string['guestnoeditmessage'] = 'ゲストユーザは、メッセージングオプションを編集できません。';
 $string['guestnoeditmessageother'] = 'ゲストユーザは、他のユーザのメッセージングオプションを編集できません。';
