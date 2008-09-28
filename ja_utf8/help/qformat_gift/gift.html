@@ -18,7 +18,7 @@
 
 と同じである必要があります。テスト・クイズのテキストファイルの例は、
 
-<a href="<?php echo $CFG->wwwroot; ?>/question/format/gift/examples.txt">gift/examples.txt</a>
+<a href="<?php echo $CFG-&gt;wwwroot; ?>/question/format/gift/examples.txt">gift/examples.txt</a>
 
 で見ることができます。</p>
 
@@ -100,17 +100,17 @@
 
 <p><u>組み合わせ式問題：</u><br />
 
-    2つの項目を組み合わせるために、まず(=)で始め、それぞれの項目を <b>-></b> の記号で分けます。
+    2つの項目を組み合わせるために、まず(=)で始め、それぞれの項目を <b>-&gt;</b> の記号で分けます。
 
     1つの問題の解答として、少なくとも3つの組み合わせができるようにする必要があります。</p>
 
     <pre>     Matching Question. {
 
-         =subquestion1 -> subanswer1
+         =subquestion1 -&gt; subanswer1
 
-         =subquestion2 -> subanswer2
+         =subquestion2 -&gt; subanswer2
 
-         =subquestion3 -> subanswer3
+         =subquestion3 -&gt; subanswer3
 
          }
 
@@ -118,13 +118,13 @@
 
      Match the following countries with their corresponding capitals. {
 
-         =Canada -> Ottawa
+         =Canada -&gt; Ottawa
 
-         =Italy  -> Rome
+         =Italy  -&gt; Rome
 
-         =Japan  -> Tokyo
+         =Japan  -&gt; Tokyo
 
-         =India  -> New Delhi
+         =India  -&gt; New Delhi
 
          }</pre>
 
@@ -390,31 +390,29 @@
 
 カテゴリを指定するためには、インポート画面で<b>ファイルからインポートする:</b>ボックスをチェックする必要があります。</p>
 
-<p>行にカテゴリ修飾語句を含むには (行の前後に空白を入れて) 下記のように記述してください:
+<p>行にカテゴリ修飾語句を含むには (行の前後に空白を入れて) 下記のように記述してください:</p>
 
 <pre>
 $CATEGORY: tom/dick/harry
 </pre>
 
-またはシンプルに
+<p>またはシンプルに</p>
 
 <pre>
 $CATEGORY: mycategory
 </pre>
 
-... 最初の例は、入れ子のカテゴリを指定しています。この場合、問題は <i>harry</i> に追加されます。
+<p>... 最初の例は、入れ子のカテゴリを指定しています。この場合、問題は <i>harry</i> に追加されます。
 
 指定したカテゴリが存在しない場合、そのカテゴリが作成されます。</p>
 
-<p><u>その他のオプション：</u><br />
+<p>その他のオプション：<br />
 
     記述問題において、大文字、小文字の認識をするように設定することができます。その場合、以下のラインの中で、 0 を 1 に変更することで設定できます。<br />
 
     <tt>$question-&gt;usecase = 0;  // Ignore case</tt></p>
 
     <p>その他のオプションは、<b>gift/format.php</b>のインポートフィルタの編集において入手することができます。</p>
-
-<p></p>
 
 <h3>CREDITS</h3>
 
@@ -432,4 +430,4 @@ $CATEGORY: mycategory
 
     <p><font size="-1">GIFTドキュメンテーションの著者：Paul Tsuchido Shew http://ac.shew.jp. 日本語訳も同著者。<br/>
 
-     この翻訳の最新編集：2007.07.23.</font></p>
+     この翻訳の最新編集：2008.09.28.</font></p>
