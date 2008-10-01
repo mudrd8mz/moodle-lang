@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 2.0 dev (Build: 20080826) (2008082601)
+      // quiz_grading.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
+$string['cannotloadquestioninfo'] = '問題情報を特定する問題タイプを読み込めませんでした。';
 $string['essayonly'] = '以下の問題は手動評定する必要があります。';
 $string['gradeall'] = '$a 件すべての受験を評定する';
 $string['graded'] = '(評定済み)';
@@ -15,6 +16,8 @@ $string['gradingnotallowed'] = 'あなたには、この小テストの解答を
 $string['gradingreport'] = '手動評定レポート';
 $string['gradingungraded'] = '未評定の受験 $a';
 $string['gradinguser'] = '$a の受験';
+$string['invalidattemptid'] = 'そのような受験IDはありません。';
+$string['invalidquestionid'] = '評定できる問題 (ID $a) が見つかりませんでした。';
 $string['questiontitle'] = '問題 $a->number: $a->name (評定済み受験結果 {$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts {$a->openspan}{$a->closespan})';
 
 ?>

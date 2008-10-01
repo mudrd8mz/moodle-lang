@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
 $string['1day'] = '1日';
@@ -89,14 +89,19 @@ $string['cannotcreatepath'] = 'パス ($a) が作成できません。';
 $string['cannoteditafterattempts'] = '小テストが受験されているため、あなたは問題を追加または削除することはできません。';
 $string['cannotfindprevattempt'] = '直近の受験結果を構築するためのデータが見つかりませんでした。';
 $string['cannotfindquestionregard'] = '最評定のための問題を取得できませんでした!';
-$string['cannotinsert'] = '問題を挿入できません。';
+$string['cannotinsert'] = '問題を追加できません。';
+$string['cannotinsertrandomquestion'] = '新しいランダム問題を追加できませんでした!';
 $string['cannotloadquestion'] = '問題オプションを読み込むことができませんでした。';
 $string['cannotloadtypeinfo'] = '問題タイプの問題情報を読み込むことができません。';
 $string['cannotopen'] = 'エクスポートファイル ($a) を開けません。';
 $string['cannotread'] = 'インポートファイル読めません (またはファイルが空です)。';
 $string['cannotrestore'] = '問題セッションをリストアできませんでした。';
 $string['cannotreviewopen'] = '小テスト実施中のため、あなたはこの受験をレビューできません。';
+$string['cannotsavelayout'] = 'レイアウトを保存できませんでした。';
+$string['cannotsavenumberofquestion'] = 'ページごとの問題数を保存できませんでした。';
 $string['cannotsavequestion'] = '問題リストを保存できません。';
+$string['cannotsetgrade'] = '小テストの新たな最大評点を設定できませんでした。';
+$string['cannotsetsumgrades'] = '評点合計を設定できませんでした。';
 $string['cannotwrite'] = 'エクスポートファイル ($a) を書き込めません。';
 $string['caseno'] = 'いいえ、文字の大小は重要ではありません。';
 $string['casesensitive'] = '大文字小文字の区別';

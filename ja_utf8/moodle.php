@@ -233,6 +233,7 @@ $string['clammovedfilebasic'] = 'ファイルが隔離用ディレクトリに�
 $string['clamquarantinedirfailed'] = 'あなたが指定した隔離用ディレクトリ $a にファイルを移動できませんでした。ファイルが感染していることが分かった場合、感染したファイルが削除されるため、そのファイルを回復してください。';
 $string['clamunknownerror'] = 'calmに不明なエラーが発生しました。';
 $string['cleaningtempdata'] = '一時データの消去';
+$string['clear'] = 'クリア';
 $string['clickhere'] = 'ここをクリック ...';
 $string['clicktochange'] = '変更';
 $string['closewindow'] = 'ウィンドウを閉じる';

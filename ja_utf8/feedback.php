@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
 $string['add_item'] = '質問を追加する';
@@ -17,7 +17,13 @@ $string['autonumbering'] = 'それぞれの問題に自動番号付けする';
 $string['average'] = '平均';
 $string['bold'] = '太字';
 $string['cancel_moving'] = '移動をキャンセルする';
-$string['captcha'] = 'キャプチャ';
+$string['cannotcreatecompletedfeedback'] = '完了済みフィードバックを作成できません。';
+$string['cannotcreatetmpfeedback'] = '一時的なフィードバックを作成できません。';
+$string['cannotmapfeedback'] = 'データベーストラブル、フィードバックをコースにマップできません。';
+$string['cannotsavetempl'] = 'テンプレートの保存は、許可されていません。';
+$string['cannotunmap'] = 'データベーストラブル、マップ解除できません。';
+$string['captcha'] = 'Captcha';
+$string['captchanotset'] = 'Captchaが設定されていません。';
 $string['check'] = '多肢選択 - 複数回答';
 $string['check_values'] = '考えられる回答';
 $string['checkbox'] = '多肢選択 - 複数回答 (チェックボックス)';
@@ -69,6 +75,7 @@ $string['feedback:receivemail'] = 'メール通知を受信する';
 $string['feedback:view'] = 'フィードバックを表示する';
 $string['feedback:viewanalysepage'] = '回答送信後、分析ページを表示する';
 $string['feedback:viewreports'] = 'レポートを表示する';
+$string['feedback_is_not_for_anonymous'] = '匿名ユーザは、フィードバックを利用できません。';
 $string['feedback_is_not_open'] = 'フィードバックは利用できません。';
 $string['feedback_options'] = 'フィードバックオプション';
 $string['feedbackclose'] = 'フィードバック終了日時';
@@ -183,19 +190,20 @@ $string['textfield'] = '短文回答';
 $string['textfield_maxlength'] = '最大文字数';
 $string['textfield_size'] = 'テキストフィールド幅';
 $string['this_feedback_is_already_submitted'] = 'あなたは、すでにこのフィードバックを完了しています。';
+$string['typemissing'] = '「type」の値がありません。';
 $string['update_item'] = '質問の変更を保存する';
 $string['use_one_line_for_each_value'] = '<br />1行に1つの回答を入力してください!';
 $string['use_this_template'] = 'このテンプレートを使用する';
 $string['using_templates'] = 'テンプレートの使用';
 $string['vertical'] = '垂直';
-$string['publish_stats_on_students'] = '学生に分析を表示する'; // TBD
-$string['all_old_values_will_be_deleted'] = '現在の質問およびすべてのユーザの回答内容が削除されます。'; // TBD
-$string['all_old_values_will_be_preserved'] = 'すべての古い質問および割り当てられた値は保持されます。'; // TBD
-$string['all_related_values_will_be_deleted'] = 'この質問に関する、すべてのユーザの回答内容も削除されます。'; // TBD
-$string['are_you_sure_to_delete_this_entry'] = '本当にこのエントリを削除してもよろしいですか?'; // TBD
-$string['are_you_sure_to_delete_this_item'] = '本当にこの要素を削除してもよろしいですか?'; // TBD
-$string['are_you_sure_to_delete_this_template'] = '本当にこのテンプレートを削除してもよろしいですか?'; // TBD
-$string['are_you_sure_to_use_this_template'] = '本当にこのテンプレートを使用しますか?'; // TBD
-$string['feedback:deletecompleteds'] = '終了したフィードバックを削除する'; // TBD
+$string['publish_stats_on_students'] = '学生に分析を表示する'; //TBD
+$string['all_old_values_will_be_deleted'] = '現在の質問およびすべてのユーザの回答内容が削除されます。'; //TBD
+$string['all_old_values_will_be_preserved'] = 'すべての古い質問および割り当てられた値は保持されます。'; //TBD
+$string['all_related_values_will_be_deleted'] = 'この質問に関する、すべてのユーザの回答内容も削除されます。'; //TBD
+$string['are_you_sure_to_delete_this_entry'] = '本当にこのエントリを削除してもよろしいですか?'; //TBD
+$string['are_you_sure_to_delete_this_item'] = '本当にこの要素を削除してもよろしいですか?'; //TBD
+$string['are_you_sure_to_delete_this_template'] = '本当にこのテンプレートを削除してもよろしいですか?'; //TBD
+$string['are_you_sure_to_use_this_template'] = '本当にこのテンプレートを使用しますか?'; //TBD
+$string['feedback:deletecompleteds'] = '終了したフィードバックを削除する'; //TBD
 
 ?>
