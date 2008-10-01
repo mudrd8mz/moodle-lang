@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // form.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['addfields'] = 'Veidlapai pievienot $a laukus';
@@ -34,7 +34,7 @@ $string['selectallornone'] = 'Iezīmēt visu/neko';
 $string['showadvanced'] = 'Rādīt papildus';
 $string['somefieldsrequired'] = 'Šajā veidlapā ir nepieciešamie lauki, kas atzīmēti ar $a.';
 $string['timing'] = 'Laika norādīšana';
-$string['unmaskpassword'] = 'Atslēpt';
+$string['unmaskpassword'] = 'Parādīt';
 $string['year'] = 'Gads';
 
 ?>
