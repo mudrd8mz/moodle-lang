@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
+      // question.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -9,6 +9,7 @@ $string['byandon'] = '<em>$a->time</em> (ユーザ: <em>$a->user</em>)';
 $string['cannotcopybackup'] = 'バックアップファイルをコピーできませんでした。';
 $string['cannotcreate'] = 'question_attemptsテーブルに新しいエントリを作成できませんでした。';
 $string['cannotcreatedataset'] = 'データセット $a を作成できません。';
+$string['cannotcreatepath'] = 'パスを作成できません: $a';
 $string['cannotcreaterelation'] = 'データセット $a[0] のリレーション $a[1] を作成できません。';
 $string['cannotdeletecate'] = 'このコンテクストのデフォルトカテゴリのため、あなたはカテゴリを削除できません。';
 $string['cannotfindcate'] = 'カテゴリレコードが見つかりませんでした。';
@@ -26,6 +27,7 @@ $string['cannotloadquestion'] = '問題を読み込めませんでした。';
 $string['cannotmovecate'] = 'このコンテクストの最後にあるため、カテゴリ $a を移動できません。';
 $string['cannotmovefromto'] = 'カテゴリ $a[0] を $a[1] に移動できませんでした。';
 $string['cannotmovequestion'] = 'あなたは、異なる場所のファイルと関連付けてある問題を移動するため、このスクリプトを使用できません。';
+$string['cannotopenforwriting'] = '書き込みオープンできません: $a';
 $string['cannotpreview'] = 'あなたは、これらの問題をプレビューできません。';
 $string['cannotretrieveqcat'] = '問題カテゴリを検索できませんでした。';
 $string['cannotsavequiz'] = '現在の小テスト受験の保存に失敗しました!';
@@ -74,6 +76,9 @@ $string['errorfilecannotbemoved'] = 'エラー: ファイル $a を移動でき�
 $string['errorfileschanged'] = 'エラー: 問題からリンクされているファイルがフォームが表示された後、変更されました。';
 $string['errormanualgradeoutofrange'] = '問題 $a->name の評点 $a->grade が、ゼロおよび $a->maxgrade の範囲にありません。評点およびコメントは、保存されませんでした。';
 $string['errormovingquestions'] = 'ID $a の問題の移動中にエラーが発生しました。';
+$string['errorpostprocess'] = '後処理中にエラーが発生しました!';
+$string['errorpreprocess'] = '前処理中にエラーが発生しました!';
+$string['errorprocess'] = '処理中にエラーが発生しました!';
 $string['errorprocessingresponses'] = 'あなたの解答の処理中にエラーが発生しました。';
 $string['errorsavingcomment'] = '問題 $a->name のコメントをデータベースに保存中にエラーが発生しました。';
 $string['errorupdatingattempt'] = 'データベース内の受験結果 $a->id を更新中にエラーが発生しました。';
