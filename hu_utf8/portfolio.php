@@ -1,12 +1,10 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
-      // local modifications from http://localhost
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20081002) (2008092400)
 
 
 $string['addalltoportfolio'] = 'Az összes hozzáadása a portfolióhoz';
 $string['addnewportfolio'] = 'Új portfolió hozzáadása';
 $string['addtoportfolio'] = 'Hozzáadás a portfolióhoz';
-$string['alreadyexporting'] = 'Ebben a folyamatban már van aktív portfolió-exportálása. Előbb <a href=\"$a->finish\">azt fejezze be</a>, vagy <a href=\"$a->cancel\">ide kattintva</a> érvénytelenítse.';
 $string['availableformats'] = 'Használható exportálási formátumok';
 $string['callercouldnotpackage'] = 'Adatait nem sikerült exportáláshoz összecsomagolni.';
 $string['cannotsetvisible'] = 'Nem állítható láthatóra - téves beállítás miatt a segédprogram ki van iktatva.';
