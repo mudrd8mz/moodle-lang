@@ -784,6 +784,7 @@ $string['usersdeleted'] = 'ユーザが削除されました';
 $string['usersrenamed'] = 'ユーザがリネームされました';
 $string['usersskipped'] = 'ユーザがスキップされました';
 $string['usersupdated'] = 'ユーザが更新されました';
+$string['usersweakpassword'] = '弱いパスワードを持ったユーザ';
 $string['usetags'] = 'タグ機能を有効にする';
 $string['uubulk'] = 'バルク処理の選択';
 $string['uubulkall'] = 'すべてのユーザ';
