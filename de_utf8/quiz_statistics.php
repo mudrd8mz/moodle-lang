@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20081002) (2008092400)
 
 
 $string['allattempts'] = 'Alle Versuche';
@@ -30,7 +30,7 @@ $string['firstattemptsavg'] = 'Durchschnitt bei erstem Versuch';
 $string['firstattemptscount'] = 'Anzahl von ersten Versuchen';
 $string['frequency'] = 'Frequenz';
 $string['kurtosis'] = 'Bewertungsverteilungsgraph (für $a)';
-$string['lastcalculated'] = 'Seit der letzten Berechnung ($a->lastcalculated) gab es $a-> neue Versuche.';
+$string['lastcalculated'] = 'Seit der letzten Berechnung ($a->lastcalculated) gab es $a->count neue Versuche.';
 $string['median'] = 'Median (für $a)';
 $string['nostudentsingroup'] = 'In dieser Gruppe sind bisher keine Teilnehmer/innen';
 $string['position'] = 'Position';
