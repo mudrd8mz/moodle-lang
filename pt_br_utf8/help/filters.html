@@ -1,26 +1,25 @@
-<h1>Administração de filtros</h1>
+<h1>gerenciar de filtros</h1>
 
 <p>A página de administração de filtros permite que você possa especificar quais filtros são
    aplicados em textos exibidos e em qual ordem. Ela também fornece acesso à página
    de configurações disponibilizada por alguns filtros. Filtros são aplicados na maioria
    dos textos do usuário no Moodle antes deles serem exibidos. Eles permitem modificações de
-   "último minuto" no texto.</p>
+   'último minuto' no texto.</p>
 
 <p>Outros filtros podem ser instalados. Os filtros adicionais estão disponíveis no
    <a href="http://moodle.org/mod/data/view.php?id=6009">Banco de dados de módulos e plugins</a>.</p>
 
-<P>Selecione os filtros que você deseja usar exibindo-os, com o ícone "olho".
+<P>Selecione os filtros que você deseja usar exibindo-os, com o ícone olho.
    Se mais do que um filtro for exibido você pode modificar a ordem em que eles são aplicados
-   usando as setas "para cima" e "para baixo".</p>
+   usando as setas para cima e para baixo.</p>
 
 <h2>TeX</h2>
 
 <div class="indent">
-  <p>TeX é usado para gerar uma fórmula matemática inserida em um texto dos recursos do Moodle. Por exemplo, $$ sqrt(a+b) $$ (os $$ são a tag para
-  iniciar e terminar deste formato).</p>
+  <p>TeX é usado para gerar uma fórmula matemática inserida em um texto dos recursos do Moodle. Por exemplo, $$ sqrt(a+b) $$ (os $$ são a tag para iniciar e terminar deste formato).</p>
   <p>O Moodle usa binários externos para renderizar as imagens, que podem precisar de ajustes
   para o seu sistema. Inicialmente o filtro procura um renderizador de LaTeX
-  (Ghostscript também é necessário para esse método) e ,caso não o encontre, usa o binário
+  (Ghostscript também é necessário para esse método) e, caso não o encontre, usa o binário
   <i>mimetex</i> incluído na distribuição do Moodle. LaTeX permite uma grande variedade
   de expressões, enquanto mimetex suporta apenas um sub-sistema matemático.</p>
   <p>Ghostscript está disponível para Windows e há uma implementação de LaTeX chamada MikTeX
@@ -38,8 +37,7 @@
 
 <div class="indent">
   <p>Censura de Palavras procura no texto por palavras censuradas a partir de uma lista e as
-  escurece com um box preto. Você precisa criar uma lista de palavras censuradas nas
-  configurações do filtro.</p>
+  escurece com um box preto. Você precisa criar uma lista de palavras censuradas nas configurações do filtro.</p>
 </div>
 
 <h2>Auto-Link a Nomes de Recursos</h2>
@@ -55,7 +53,7 @@
 <h2>Auto-Link a Nomes de Atividades</h2>
 
 <div class="indent">
-  <p>Auto-Link a Nomes de Atividades procura no texto por títulos de atividades que existam no curso. Onde forem encontrados, eles serão evidenciados e um link será criado. Note que para usar isso efetivamente você deve usar títulos descritivos. Por exemplo, um título "Quiz" não é adequado porque <b>qualquer</b> uso da palavra "Quiz" no texto será linkado sem levar em
+  <p>Auto-Link a Nomes de Atividades procura no texto por títulos de atividades que existam no curso. Onde forem encontrados, eles serão evidenciados e um link será criado. Note que para usar isso efetivamente você deve usar títulos descritivos. Por exemplo, um título 'Quiz' não é adequado porque <b>qualquer</b> uso da palavra 'Quiz' no texto será linkado sem levar em
   consideração a que ela se refere.</p>
 </div>
 
@@ -72,7 +70,7 @@
 
 <div class="indent">
   <p>O filtro Proteção de email procura no texto por quaisquer endereços de email. Onde encontrados,
-  eles são "ofuscados" para evitar a coleção automática de emails feita por aplicativos externos. Isso pode reduzir o risco de spam se partes do site do seu Moodle estiverem
+  eles são ofuscados para evitar a coleção automática de emails feita por aplicativos externos. Isso pode reduzir o risco de spam se partes do site do seu Moodle estiverem
   abertas.</p>
 </div>
 
@@ -80,7 +78,7 @@
 
 <div class="indent">
   <p>Tidy procura no texto por código HTML. Onde encontrado, ele aplica regras que tentam
-  validar o HTML. Note que a funcionalidade do Tidy deve ser construída para a instalação do seu
+  validar o HTML. Note que a funcionalidade do Tidy deve ser presente na instalação do seu
   PHP para que isso funcione.</p>
 </div>
 
