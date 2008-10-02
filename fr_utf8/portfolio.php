@@ -1,31 +1,33 @@
-<?php  // $Id$
+<?PHP // $Id$ 
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20081002) (2008092400)
+
 
 $string['activeportfolios'] = 'Portfolios actifs';
 $string['addalltoportfolio'] = 'Tout ajouter au portfolio';
 $string['addnewportfolio'] = 'Ajouter un portfolio';
 $string['addtoportfolio'] = 'Ajouter au portfolio';
-$string['alreadyexporting'] = 'Vous avez déjà entamé une exportation vers un portfolio durant cette session. Veuillez la <a href=\"$a->finish\">terminer d\'abord</a>, ou <a href=\"$a\">cliquer ici pour</a> l\'annuler.';
+$string['alreadyexporting'] = 'Vous avez déjà entamé une exportation vers un portfolio durant cette session. Veuillez la terminer d\'abord, ou l\'annuler.';
 $string['availableformats'] = 'Formats d\'exportation disponibles';
 $string['callercouldnotpackage'] = 'Échec de la préparation de vos données pour l\'exportation&nbsp;: l\'erreur originale est $a';
 $string['cannotsetvisible'] = 'Impossible de rendre visible ceci. Le plugin a été désactivé en raison d\'un problème de configuration';
 $string['commonsettingsdesc'] = '<p>En indiquant si la durée d\'un transfert doit être considérée comme <i>Modérée</i> ou comme <i>Élevée</i>, vous spécifiez si les utilisateurs pourront attendre la fin du transfert ou non.</p><p>Les transferts jusqu\'à une taille <i>Modérée</i> ont lieu immédiatement sans intervention de l\'utilisateur. Les transferts de taille supérieure sont mis dans la file d\'attente, avec l\'option de commencer, avec un avertissement que le transfert pourra durer un certain temps.</p><p>Il est possible que certains plugins de portfolio ignorent ce réglage et impose la mise en file d\'attente de tous les transferts.</p>';
 $string['configexport'] = 'Configurer les données exportées';
 $string['configplugin'] = 'Configurer le plugin portfolio';
+$string['configure'] = 'Configurer';
 $string['confirmexport'] = 'Veuillez confirmer l\'exportation';
 $string['confirmsummary'] = 'Résumé de votre exportation';
-$string['configure'] = 'Configurer';
 $string['continuetoportfolio'] = 'Continuer vers votre portfolio';
 $string['deleteportfolio'] = 'Supprimer le portfolio';
 $string['disabled'] = 'Désolé, les exportations de portfolio ne sont pas activées sur ce site';
 $string['dontwait'] = 'Ne pas attendre';
-$string['err_uniquename'] = 'Le nom du portfolio doit être unique (par plugin)';
 $string['enabled'] = 'Activer les portfolios';
 $string['enableddesc'] = 'Cette option permet aux administrateurs de configurer les systèmes distants vers lesquels les utilisateurs exportent des contenus';
-$string['exporting'] = 'Exportation vers le portfolio';
-$string['exportingcontentfrom'] = 'Exportation de contenus depuis $a';
+$string['err_uniquename'] = 'Le nom du portfolio doit être unique (par plugin)';
 $string['exportcomplete'] = 'Exportation portfolio terminée&nbsp;!';
 $string['exportedpreviously'] = 'Exportations précédentes';
 $string['exportexceptionnoexporter'] = 'Une exception portfolio_export_exception a été levée lors d\'une session active, mais il n\'a pas d\'objet exporter';
+$string['exporting'] = 'Exportation vers le portfolio';
+$string['exportingcontentfrom'] = 'Exportation de contenus depuis $a';
 $string['exportqueued'] = 'L\'exportation du portfolio a été mise en file d\'attente pour transfert';
 $string['exportqueuedforced'] = 'L\'exportation du portfolio a été mise en file d\'attente pour transfert (le système impose une file d\'attente pour les transferts)';
 $string['failedtopackage'] = 'Impossible de trouver les fichiers à empaqueter';
@@ -45,8 +47,8 @@ $string['highfilesizethreshold'] = 'Taille de transfert élevée';
 $string['highfilesizethresholddesc'] = 'Les fichiers dépassant cette taille seront considérés comme nécessitant un temps de transfert élevé';
 $string['instancedeleted'] = 'Le portfolio a été supprimé';
 $string['instanceismisconfigured'] = 'La configuration du portfolio n\'est pas correcte. Erreur&nbsp;: $a';
-$string['instancenotsaved'] = 'Échec de la sauvegarde du portfolio';
 $string['instancenotdelete'] = 'Échec de la suppression du portfolio';
+$string['instancenotsaved'] = 'Échec de la sauvegarde du portfolio';
 $string['instancesaved'] = 'Le portfolio a été enregistré';
 $string['invalidaddformat'] = 'Format à ajouter non valide envoyé à la fonction portfolio_add_button. $a doit être de la forme PORTFOLIO_ADD_XXX';
 $string['invalidbuttonproperty'] = 'Impossible de trouver cette propriété ($a) de portfolio_button';
@@ -71,27 +73,27 @@ $string['noavailableplugins'] = 'Désolé, il n\'y a aucun portfolio disponible 
 $string['nocallbackclass'] = 'Impossible de trouver la classe de rappel (callback) à utiliser ($a)';
 $string['nocallbackfile'] = 'Un problème est présent dans le module depuis lequel vous essayez d\'exporter des données (callback). Impossible de trouver un fichier requis ($a)';
 $string['nocommonformats'] = 'Aucun format en commun entre les plugins de portfolio et le site appelant $a';
-$string['nopermissions'] = 'Vous n\'avez pas les permissions requises pour exporter des fichiers depuis cette zone';
 $string['nonprimative'] = 'Une valeur incorrecte a été passée comme paramètre à portfolio_add_button. Impossible de continuer. La clef était $a->key et la valeur $a->value';
+$string['nopermissions'] = 'Vous n\'avez pas les permissions requises pour exporter des fichiers depuis cette zone';
 $string['notexportable'] = 'Désolé, le type de contenu que vous essayez d\'exporter n\'est pas exportable';
 $string['notimplemented'] = 'Désolé, vous essayez d\'exporter du contenu dans un format non encore implémenté ($a)';
-$string['nouploaddirectory'] = 'Impossible de créer un dossier temporaire dans lequel préparer vos données';
 $string['notyours'] = 'Vous essayez de reprendre l\'exportation d\'un portfolio ne vous appartenant pas&nbsp;!';
-$string['portfolio'] = 'Portfolio';
-$string['portfolios'] = 'Portfolios';
+$string['nouploaddirectory'] = 'Impossible de créer un dossier temporaire dans lequel préparer vos données';
 $string['plugin'] = 'Plugin de portfolio';
 $string['plugincouldnotpackage'] = 'Échec de la préparation de vos données pour exportation&nbsp;: l\'erreur originale est $a';
+$string['portfolio'] = 'Portfolio';
+$string['portfolios'] = 'Portfolios';
 $string['returntowhereyouwere'] = 'Retour à la page précédente';
 $string['save'] = 'Enregistrer';
 $string['selectedformat'] = 'Format d\'exportation sélectionné';
 $string['selectedwait'] = 'Sélection à attendre&nbsp;?';
 $string['selectplugin'] = 'Sélectionner le plugin de  portfolio vers lequel exporter';
 $string['someinstancesdisabled'] = 'Certaines instances de plugin ont été désactivées, soit parce qu\'elles ne sont pas correctement configurées, soit parce qu\'elles requièrent d\'autres composants, à savoir';
-$string['somepluginsdisabled']  = 'Certains plugins ont été désactivés, soit parce qu\'ils ne sont pas correctement configurés, soit parce qu\'ils requièrent d\'autres composants, à savoir';
+$string['somepluginsdisabled'] = 'Certains plugins ont été désactivés, soit parce qu\'ils ne sont pas correctement configurés, soit parce qu\'ils requièrent d\'autres composants, à savoir';
 $string['sure'] = 'Voulez-vous vraiment supprimer «&nbsp;$a&nbsp;»? L\'action est irrémédiable.';
 $string['thirdpartyexception'] = 'Une exception (logiciel tierce partie) a été levée par durant l\'exportation du portfolio ($a). L\'erreur a pu être récupérée mais ceci doit être corrigé.';
-$string['wanttowait_moderate'] = 'Voulez-vous attendre la fin de ce transfert&nbsp;? Cela pourrait prendre quelques minutes';
-$string['wanttowait_high'] = 'Il n\'est pas recommandé la fin du transfert. Vous pouvez cependant le faire, si vous êtes sûr de ce que vous faites';
 $string['wait'] = 'Attendre';
+$string['wanttowait_high'] = 'Il n\'est pas recommandé la fin du transfert. Vous pouvez cependant le faire, si vous êtes sûr de ce que vous faites';
+$string['wanttowait_moderate'] = 'Voulez-vous attendre la fin de ce transfert&nbsp;? Cela pourrait prendre quelques minutes';
 
 ?>
