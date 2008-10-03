@@ -1,6 +1,6 @@
 Español Internacional (es_utf8)
 
-Versión:  1.8
+Versión:  1.9.2
 
 Coordinadores de traducción:
 
@@ -13,6 +13,7 @@ Archivos HELP y DOCS:
 	Eloy Lafuente (stronk7@moodle.org)
 	Antonio Navarro (anavarro@sextaisla.com)
 	Antonio Vicent (avicent@telefonica.net)
+	Laura E. Gómez (lauraelisabet@usal.es)
 
 Coordinador de traducciones previas: 
 	Claudio Tavares (claudio@enlaceacademico.com)
