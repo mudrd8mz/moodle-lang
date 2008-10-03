@@ -1,21 +1,27 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.7 (2006101007)
+      // blog.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addnewentry'] = 'Agregar una nueva entrada';
-$string['addotags'] = 'Agregar marcas oficiales';
-$string['addptags'] = 'Agregar marcas definidas por el usuario';
+$string['backupblogshelp'] = 'Si se habilita esta opción, los blogs se incluirán en las copias automatizadas del SITIO';
 $string['blockmenutitle'] = 'Menú Blog';
 $string['blocktagstitle'] = 'Marcas Blog';
 $string['blocktitle'] = 'Título de bloque de marcas del blog';
 $string['blog'] = 'Blog';
 $string['blogdeleteconfirm'] = '¿Eliminar este Blog?';
+$string['blogdisable'] = 'El blog está deshabilitado';
 $string['blogpreferences'] = 'Preferencias del Blog';
 $string['blogs'] = 'Blogs';
 $string['blogtags'] = 'Marcas del Blog';
+$string['cannotviewcourseblog'] = 'No tiene permiso para ver los blogs de este curso';
+$string['cannotviewcourseorgroupblog'] = 'No tiene permiso para ver los blogs de este curso/grupo';
+$string['cannotviewsiteblog'] = 'No tiene permiso para ver los blogs de este sitio';
+$string['cannotviewuserblog'] = 'No tiene permiso para leer los blogs de los usuarios';
 $string['courseblog'] = 'Blog del curso: $a';
+$string['courseblogdisable'] = 'Los blogs del curso están deshabilitados';
 $string['courseblogs'] = 'Los usuarios sólo pueden ver los blogs de las personas que comparten un curso';
 $string['deleteotagswarn'] = '¿Está seguro de que quiere eliminar esta(s) marca(s) <br />de todos los mensajes y quitarlas del sistema?';
+$string['deleteposterror'] = 'Ha ocurrido un error al eliminar el mensaje';
 $string['disableblogs'] = 'Deshabilitar por completo el sistema blog';
 $string['emptybody'] = 'El cuerpo de la entrada del blog no puede estar vacío';
 $string['emptytitle'] = 'El título de la entrada del blog no puede estar vacío';
@@ -26,24 +32,27 @@ $string['entrysaved'] = 'Su entrada se ha guardado';
 $string['entrytitle'] = 'Título de la entrada';
 $string['entryupdated'] = 'Entrada del blog actualizada';
 $string['groupblog'] = 'Blog del grupo: $a';
+$string['groupblogdisable'] = 'No está habilitado el blog de grupo';
 $string['groupblogs'] = 'Los usuarios sólo pueden ver los blogs de las personas que comparten un grupo';
+$string['incorrectblogfilter'] = 'Se ha especificado un tipo incorrecto de filtro de blog';
 $string['intro'] = 'Este canal RSS ha sido generado automáticamente a partir de uno o más blogs.';
 $string['noentriesyet'] = 'Entradas no visibles aquí';
 $string['noguestpost'] = 'Los invitados no pueden enviar blogs';
 $string['norighttodeletetag'] = 'Usted no tiene permiso para eliminar esta entrada - $a';
+$string['nosuchentry'] = 'No existe esa entrada de blog';
 $string['notallowedtoedit'] = 'No está autorizado para editar esta entrada';
 $string['numberofentries'] = 'Entradas: $a';
 $string['numberoftags'] = 'Número de marcas a mostrar';
-$string['otags'] = 'Marcas oficiales';
 $string['pagesize'] = 'Número de entradas de blog por página';
+$string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'Los usuarios sólo pueden ver su propio blog';
-$string['ptags'] = 'Marcas definidas por el usuario';
 $string['publishto'] = 'Publicar a';
 $string['publishtonoone'] = 'Usted mismo (borrador)';
 $string['publishtosite'] = 'Todos en este sitio';
 $string['publishtoworld'] = 'Todo el mundo';
 $string['settingsupdatederror'] = 'Se ha producido un error: el ajuste de preferencias del blog no ha podido actualizarse';
 $string['siteblog'] = 'Blog del sitio: $a';
+$string['siteblogdisable'] = 'No está habilitado el blog del sitio';
 $string['siteblogs'] = 'Todos los usuarios pueden ver todas las entradas del blog';
 $string['tagdatelastused'] = 'Fecha última en que se usó la marca';
 $string['tags'] = 'Marcas';
@@ -56,5 +65,10 @@ $string['viewcourseentries'] = 'Ver entradas del curso';
 $string['viewmyentries'] = 'Ver mis entradas';
 $string['viewsiteentries'] = 'Ver entradas del sitio';
 $string['worldblogs'] = 'Cualquiera puede ver las entradas definidas como accesibles a todos';
+$string['wrongpostid'] = 'ID de mensaje de blog erróneo';
+$string['addotags'] = 'Agregar marcas oficiales'; // ORPHANED
+$string['addptags'] = 'Agregar marcas definidas por el usuario'; // ORPHANED
+$string['otags'] = 'Marcas oficiales'; // ORPHANED
+$string['ptags'] = 'Marcas definidas por el usuario'; // ORPHANED
 
 ?>
