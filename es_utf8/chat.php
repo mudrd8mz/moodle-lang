@@ -2,9 +2,15 @@
       // chat.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['ajax'] = 'Versión usando Ajax';
+$string['autoscroll'] = 'Desplazamiento automático';
 $string['beep'] = 'beep';
+$string['cantinsert'] = 'No se pudo insertar un mensaje de chat';
+$string['cantlogin'] = 'No se pudo ingresar en la sala de chat';
 $string['chat:chat'] = 'Charlar';
 $string['chat:deletelog'] = 'Eliminar registros de chat';
+$string['chat:exportparticipatedsession'] = 'Exportar participaciones en sesión de chat';
+$string['chat:exportsession'] = 'Exportar sesión de chat';
 $string['chat:readlog'] = 'Leer registros de chat';
 $string['chatintro'] = 'Texto introductorio';
 $string['chatname'] = 'Nombre de la sala';
@@ -33,6 +39,7 @@ $string['explainmethodnormal'] = 'Estos ajustes actúan <strong>solamente</stron
 $string['generalconfig'] = 'Configuración general';
 $string['helpchatting'] = 'Ayuda del chat';
 $string['idle'] = 'Inactivo';
+$string['invalidid'] = 'No se encontró esa sala de chat';
 $string['messagebeepseveryone'] = '$a envía un beep a todos';
 $string['messagebeepsyou'] = '$a le acaba de enviar un beep';
 $string['messageenter'] = '$a entró a la sala';
@@ -45,11 +52,13 @@ $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chats';
 $string['neverdeletemessages'] = 'Nunca borrar mensajes';
 $string['nextsession'] = 'Próxima sesión programada';
+$string['nochat'] = 'No se encontró chat';
 $string['noguests'] = 'El chat no está abierto a invitados';
 $string['nomessages'] = 'Aún no hay mensajes';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'No hay sesión programada';
+$string['notlogged'] = 'No se ha autentificado';
 $string['oldping'] = 'Desconectar tiempo de espera';
 $string['pastchats'] = 'Sesiones de chat pasadas';
 $string['refreshroom'] = 'Refrescar sala';
@@ -61,6 +70,8 @@ $string['repeattimes'] = 'Repetir sesiones';
 $string['repeatweekly'] = 'A la misma hora todas las semanas';
 $string['savemessages'] = 'Guardar sesiones pasadas';
 $string['seesession'] = 'Ver esta sesión';
+$string['send'] = 'Enviar';
+$string['sending'] = 'Enviando';
 $string['serverhost'] = 'Nombre del servidor';
 $string['serverip'] = 'IP del servidor';
 $string['servermax'] = 'Número máximo de usuarios';
@@ -69,6 +80,7 @@ $string['sessions'] = 'Sesiones';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Todos pueden ver las sesiones pasadas';
 $string['updatemethod'] = 'Actualizar método';
+$string['updaterate'] = 'Tasa de Actualización:';
 $string['viewreport'] = 'Ver las sesiones anteriores';
 
 ?>

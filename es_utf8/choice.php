@@ -5,6 +5,8 @@
 $string['addmorechoices'] = 'Añadir más opciones';
 $string['allowupdate'] = 'Permitir la actualización de la consulta';
 $string['answered'] = 'Contestado';
+$string['cannotsavechoice'] = 'No se pudo guardar su elección';
+$string['cannotupdatechoice'] = 'No se pudo actualizar su elección debido a un error en la base de datos';
 $string['choice'] = 'Opción';
 $string['choice:choose'] = 'Registrar una elección';
 $string['choice:deleteresponses'] = 'Eliminar respuestas';

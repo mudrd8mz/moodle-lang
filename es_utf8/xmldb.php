@@ -2,6 +2,7 @@
       // xmldb.php - created with Moodle 1.8.2+ (2007021520)
 
 
+$string['actual'] = 'Real';
 $string['aftertable'] = 'Después de la tabla:';
 $string['back'] = 'Atrás';
 $string['backtomainview'] = 'Volver al principal';
@@ -10,12 +11,16 @@ $string['cannotuseidfield'] = 'No se puede insertar el campo \"id\". Es una colu
 $string['change'] = 'Cambiar';
 $string['charincorrectlength'] = 'Longitud incorrecta del campo char';
 $string['check_bigints'] = 'Buscar enteros DB incorrectos';
+$string['check_defaults'] = 'Buscar valores por defecto inconsistentes';
 $string['check_indexes'] = 'Buscar índices BD ausentes';
 $string['checkbigints'] = 'Comprobar Bigints';
+$string['checkdefaults'] = 'Comprobar valores por defecto';
 $string['checkindexes'] = 'Comprobar índices';
 $string['completelogbelow'] = '(ver abajo el registro completo de la búsqueda)';
 $string['confirmcheckbigints'] = 'Esta funcionalidad buscará <a href=\"http://tracker.moodle.org/browse/MDL-11038\">potential wrong integer fields</a> en su servidor Moodle, generando (¡pero no ejecutando!) automáticamente las acciones SQL necesarias para tener todos los enteros de su base de datos adecuadamente definidos.<br /><br />
 Una vez generados, puede copiarlas y ejecutarlas con seguridad en su interfaz SQL preferida (no olvide hacer una copia de seguridad de sus datos antes de hacerlo).<br /><br />Se recomienda ejecutar la última (+) versión de Moodle disponible (1.8, 1.9, 2.x ...) antes de llevar a cabo la búsqueda de enteros erróneos.<br /><br />Esta funcionalidad no ejecuta ninguna acción contra la BD (únicamente la lee), de modo que puede ser realizada con seguridad en cualquier momento.';
+$string['confirmcheckdefaults'] = 'Esta funcionalidad buscará valores por defecto inconsistentes en su servidor Moodle, y generará (pero no ejecutará) los comandos SQL necesarios para hacer que todos los valores por defecto se definan apropiadamente.<br /><br />Una vez generados, puede copiar tales comandos y ejecutarlos con seguridad en su interfaz SQL favorita (no olvide hacer una copia de sus datos antes).<br /><br />Es muy recomendable ejecutar la última versión (+version) disponible de Moodle (1.8, 1.9, 2x...) antes de ejecutar la búsqueda de valores por defecto inconsistentes.<br /><br />
+Esta funcionalidad no ejecuta ninguna acción contra la base de datos (simplemente la lee), de modo que puede ejecutarse con seguridad en cualquier momento.';
 $string['confirmcheckindexes'] = 'Esta funcionalidad buscará potenciales índices ausentes en su servidor Moodle, generando (no ejecutando) automáticamente los comandos SQL necesarios para mantener todo actualizado. Una vez generados, puede copiar los comandos y ejecutarlos con seguridad con su interfaz SQL favorita.<br /><br />
 Es muy recomendable ejecutar la última versión disponible de Moodle (1.8, 1.9, 2.x ...) antes de llevar a cabo la búsqueda de los índices ausentes.<br /><br />
 Esta funcionalidad no ejecuta ninguna acción contra la BD (simplemente lee en ella), de modo que puede ejecutarse con seguridad en cualquier momento.';
@@ -51,9 +56,11 @@ $string['edit_statement'] = 'Editar declaración';
 $string['edit_table'] = 'Editar tabla';
 $string['edit_xml_file'] = 'Editar archivo XML';
 $string['enumvaluesincorrect'] = 'Valores incorrectos del campo enum';
+$string['expected'] = 'Esperado';
 $string['field'] = 'Campo';
 $string['fieldnameempty'] = 'Nombre del campo vacío';
 $string['fields'] = 'Campos';
+$string['fieldsusedinkey'] = 'Este campo se usa como clave.';
 $string['filenotwriteable'] = 'Archivo no escribible';
 $string['floatincorrectdecimals'] = 'Número incorrecto de decimales del campo float';
 $string['floatincorrectlength'] = 'Longitud incorrecta del campo float';
@@ -85,6 +92,7 @@ $string['newstatement'] = 'Nueva declaración';
 $string['newtable'] = 'Nueva tabla';
 $string['newtablefrommysql'] = 'Nueva tabla desde MySQL';
 $string['nomissingindexesfound'] = 'No se han encontrado índices ausentes: su BD no requiere acciones adicionales.';
+$string['nowrongdefaultsfound'] = 'No se han encontrado valores por defecto inconsistentes. Su base de datos no necesita acciones adicionales.';
 $string['nowrongintsfound'] = 'No se han encontrado enteros erróneos: su BD no necesita más acciones.';
 $string['numberincorrectdecimals'] = 'Número incorrecto de decimales en el campo numérico';
 $string['numberincorrectlength'] = 'Longitud incorrecta del campo numérico';
@@ -121,11 +129,13 @@ $string['vieworiginal'] = 'Ver original';
 $string['viewphpcode'] = 'Ver código PHP';
 $string['viewsqlcode'] = 'Ver código SQL';
 $string['wrong'] = 'Erróneo';
+$string['wrongdefaults'] = 'Se han encontrado valores por defecto erróneos';
 $string['wrongints'] = 'Se han encontrado enteros erróneos';
 $string['wronglengthforenum'] = 'Longitud incorrecta del campo enum';
 $string['wrongnumberoffieldsorvalues'] = 'Número incorrecto de campos o valores en la frase';
 $string['wrongreservedwords'] = 'Palabras reservadas usadas actualmente<br />(note que los nombres de la tabla no son importantes si se usa $CFG->prefix)';
 $string['yesmissingindexesfound'] = 'En su BD se han encontrado algunos índices ausentes. Aquí puede ver sus detalles, así como los comandos SQL a ejecutar con su interfaz SQL favorita para crearlos.<br /><br /> Una vez que lo haya hecho, es muy recomendable que ejecute de nuevo esta utilidad para comprobar que no se encuentran más índices ausentes.';
+$string['yeswrongdefaultsfound'] = 'En su base de datos se han encontrado algunos valores por defecto inconsistentes. Aquí se presentan sus detalles y las acciones SQL que deben ejecutarse en su interfaz SQL favorita para crearlos (no olvide hacer una copia de seguridad de sus datos).<br /><br />Una vez realizado, se recomienda ejecutar de nuevo esta utilidad para comprobar que no se encuentran más valores por defecto inconsistentes.';
 $string['yeswrongintsfound'] = 'Se han encontrado algunos enteros erróneos en su BD. Aquí se presentan sus detalles y las acciones SQL que deben ejecutarse en su interfaz SQL favorita para crearlos (no olvide hacer una copia de seguridad de sus datos).<br /><br />Una vez realizado, se recomienda ejecutar de nuevo esta utilidad para comprobar que no se encuentran más enteros erróneos.';
 
 ?>
