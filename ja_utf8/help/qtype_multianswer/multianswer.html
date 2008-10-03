@@ -1,0 +1,148 @@
+<h1>穴埋め問題 (Cloze)</h1>
+
+<p>この非常に柔軟な問題タイプは、Clozeフォーマットとして知られている評判の良いフォーマットに似ています。</p>
+<p>テキスト (Moodleフォーマット) で構成される問題には、多肢選択問題、記述問題、数値問題の答えを含む、様々な答えを埋め込むことができます。</p>
+<br>必要であれば、多肢選択問題における標準的なラジオボタン<input type="radio">を垂直または水平に配置することができます。</br>
+<br>しかし、これらのボタンはテキスト内に選択要素として埋め込まれるのではなく、テーブル内に表示されることに注意してください。</br>
+<br>これらの問題を作成するため、現在のところグラフィカルユーザインターフェースはありません - 
+   あなたは、問題フォーマットを指定するため、テキストボックスを使用するか、外部ファイルからインポートする必要があります。</br>
+
+<br>以下、このような問題を指定するためのテキスト入力例です:</br>
+
+<form action="">
+<center>
+<textarea rows="15" cols="60" wrap="virtual">この問題は、テキストと次のような埋め込まれた答え{1:MULTICHOICE:間違った答え#この答えに対するフィードバック~もう1つの間違った答え#この答えに対するフィードバック~=正しい答え#この答えに対するフィードバック~%50%半分正しい答え#この答えに対するフィードバック}、記述問題の入力欄 {1:SHORTANSWER:間違った答え#この答えに対するフィードバック~=正しい答え#この答えに対するフィードバック~%50%半分正しい答え#この答えに対するフィードバック}、そして最後に浮動小数点の入力欄 {2:NUMERICAL:=23.8:0.1#正しい答えに対するフィードバック 23.8~%50%23.8:2#正解に近いので半分の点数を与えられる答えに対するフィードバック}で構成されます。
+<br>多肢選択問題は、Moodleの標準多肢選択問題のように、垂直に表示することもできます。</br>
+<br>{2:MCV:間違った答え#間違った答えのフィードバック~もう1つの間違った答え#もう1つの間違った答えに対するフィードバック~=正しい答え#正しい答えに対するフィードバック~%50%半分正しい答え#半分正しい答えに対するフィードバック}</br>
+<br/>
+<br/>
+<br/>
+<br/> 
+<br>または、以下のようにテーブルに含まれた状態で水平に表示することもできます。</br>
+<br/> 
+<br>
+<table border="1">
+<tbody>
+<tr>
+<td>同じ多肢選択問題を水平モードで表示する</td>
+<td>{2:MCH:間違った答え#間違った答えのフィードバック~もう1つの間違った答え#もう1つの間違った答えに対するフィードバック~=正しい答え#正しい答えに対するフィードバック~%50%半分正しい答え#半分正しい答えに対するフィードバック}</td>
+</tr>
+</tbody>
+</table>
+</br>
+<br/>.<br/>
+このようなアドレス www.moodle.org およびスマイリー :-) はすべて通常どおり動作します:
+a) この考え方に賛成しますか? {:MULTICHOICE:=はい#正解~いいえ#私たちは異なる意見を持っています。}
+b) 何点をつけますか? {3:NUMERICAL:=3:2}
+
+Good luck!
+</textarea>
+</center>
+</form>
+
+<br>この例は、学生に対して次のように表示されます:</br>
+
+<form action="">
+    <div id="middle-column"><div><span id="maincontent"></span><div id="q6" class="que multianswer clearfix">
+  <div class="info">
+    <span class="accesshide">問題 </span>1
+<div class="grade">
+        評点: --/12.00      </div>
+      </div>
+
+<div class="content">
+<div class="ablock clearfix"><label><br> </br><br>この問題は、テキストと次のような埋め込まれた答え <span ><select    name="resp3796_1"><option></option><option value="8919">間違った答え</option><option value="8920">もう1つの間違った答え</option><option value="8921">正しい答え</option><option value="8922">半分正しい答え</option></select></span></label><label>、記述問題の入力欄 <input    name="resp3796_2"  type="text" value="" size="33" /> </label><label>、そして最後に浮動小数点の入力欄 <input    name="resp3796_3"  type="text" value="" size="4" /> </label><label>で構成されます。</br><br>多肢選択問題は、Moodleの標準多肢選択問題のように、垂直に表示することもできます。</br><br><table width="50%"><tbody><tr><td>
+                  <table class="answer">
+                     <tr class="r0">
+                        <td class="c0 control">
+                          <input  id="resp3796_8960" name="resp3796_4"  type="radio" value="8960" />
+                        </td>
+                        <td class="c1 text ">
+                          <label for="resp3796_8960">
+                          <span class="anun">1<span class="anumsep">.</span></span>間違った答え</label>
+                        </td>
+                        <td class="c0 feedback">
+                        </td>
+                      </tr>
+                      <tr class="r1">
+                        <td class="c0 control">
+                          <input  id="resp3796_8961" name="resp3796_4"  type="radio" value="8961" />
+                        </td>
+                        <td class="c1 text ">
+                          <label for="resp3796_8961">
+                          <span class="anun">2<span class="anumsep">.</span></span>もう1つの間違った答え</label>
+                        </td>
+                        <td class="c0 feedback">
+                        </td>
+                      </tr>
+                      <tr class="r0">
+                        <td class="c0 control">
+                          <input  id="resp3796_8962" name="resp3796_4"  type="radio" value="8962" />
+                        </td>
+                        <td class="c1 text ">
+                          <label for="resp3796_8962">
+                          <span class="anun">3<span class="anumsep">.</span></span>正しい答え</label>
+                        </td>
+                        <td class="c0 feedback">
+                        </td>
+                      </tr>
+                      <tr class="r1">
+                        <td class="c0 control">
+                          <input  id="resp3796_8963" name="resp3796_4"  type="radio" value="8963" />
+                        </td>
+                        <td class="c1 text ">
+                          <label for="resp3796_8963">
+                          <span class="anun">4<span class="anumsep">.</span></span>半分正しい答え</label>
+                        </td>
+                        <td class="c0 feedback">
+                        </td>
+                      </tr>
+                  </table>
+                  </label><label>.</td></tr><tr></tr></tbody></table></br><br>または、以下のようにテーブルに含まれた状態で水平に表示することもできます。</br><br> </br><br><table border="1"><tbody><tr><td>同じ多肢選択問題を水平モードで表示する</td><td>                       
+                  <table class="answer">
+
+                      <tr class="r0">
+                        <td class="c0 control">
+                          <input  id="resp3796_8964" name="resp3796_5"  type="radio" value="8964" />
+                        </td>
+                        <td class="c1 text ">
+                          <label for="resp3796_8964">
+                          <span class="anun">1<span class="anumsep">.</span></span>間違った答え</label>
+                        </td>
+                        <td class="c0 feedback">
+                        </td>
+                        <td class="c0 control">
+                          <input  id="resp3796_8965" name="resp3796_5"  type="radio" value="8965" />
+                        </td>
+                        <td class="c1 text ">
+                          <label for="resp3796_8965">
+                          <span class="anun">2<span class="anumsep">.</span></span>もう1つの間違った答え</label>
+                        </td>
+                        <td class="c0 feedback">
+                        </td>
+                        <td class="c0 control">
+                          <input  id="resp3796_8966" name="resp3796_5"  type="radio" value="8966" />
+                        </td>
+                        <td class="c1 text ">
+                          <label for="resp3796_8966">
+                          <span class="anun">3<span class="anumsep">.</span></span>正しい答え</label>
+                        </td>
+                        <td class="c0 feedback">
+                        </td>
+                        <td class="c0 control">
+                          <input  id="resp3796_8967" name="resp3796_5"  type="radio" value="8967" />
+                        </td>
+                        <td class="c1 text ">
+                          <label for="resp3796_8967">
+                          <span class="anun">4<span class="anumsep">.</span></span>半分正しい答え</label>
+                        </td>
+                        <td class="c0 feedback">
+                        </td>
+                      </tr>
+                  </table>
+                  </label><label></td></tr></tbody></table></br><br>.</br><br>このようなアドレス  <a href="http://www.moodle.org" target="_blank">www.moodle.org</a> およびスマイリー <img alt="smile" width="15" height="15" src="http://moodle.org/pix/s/smiley.gif" /> はすべて通常どおり動作します:<br /> a) この考え方に賛成しますか? <span ><select    name="resp3796_6"><option></option><option value="8968">Yes</option><option value="8969">No</option></select></span></label><label><br /> b) 何点をつけますか? <input    name="resp3796_7"  type="text" value="" size="1" /> </label><br /><br />Good luck!<br /></br><input type="submit" name="resp3796_submit" value="Submit" class="submit btn" />
+                  </div>
+                  <div class="grading">
+          </div></div>
+</div>
+</form>
