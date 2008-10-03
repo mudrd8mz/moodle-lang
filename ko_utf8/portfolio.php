@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080921) (2008091611)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20081003) (2008092400)
 
 
 $string['activeexport'] = '내보내기 마무리';
@@ -8,6 +8,7 @@ $string['addalltoportfolio'] = '모두 포트폴리오에 추가';
 $string['addnewportfolio'] = '포트폴리오 작성';
 $string['addtoportfolio'] = '포트폴리오에 추가';
 $string['alreadyalt'] = '이미 내보내는 중 - 현재 전송을 마무리하려면 여기를 누르기 바랍니다.';
+$string['alreadyexporting'] = '이미 본 세션에서 포트폴리오를 내보냈습니다. 계속하기 전에, 본 세션을 완료하거나, 아니면 취소해야 합니다. 계속 하겠습니까?(삭제되지 않음)';
 $string['availableformats'] = '이용가능한 내보내기 형식';
 $string['callercouldnotpackage'] = '내보내기 위한 자료 묶기 실패';
 $string['cannotsetvisible'] = '공개로 설정할 수 없음 - 설정오류로 인해 플러그인이 작동 불가';
