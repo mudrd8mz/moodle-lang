@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // install.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['aborting'] = 'Installation abbrechen';
@@ -71,10 +71,10 @@ $string['databasesettingshead'] = 'Sie müssen nun die Einstellungen für die Da
 $string['databasesettingssub'] = '<b>Typ:</b> mysql oder postgres7<br />
 <b>Host:</b> z.B. localhost oder db.isp.com<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
-<b>Nutzer:</b> Ihr Anmeldename für die Datenbank<br />
-<b>Passwort:</b> Ihr Passwort für die Datenbank<br />
+<b>User:</b> Ihr Anmeldename für die Datenbank<br />
+<b>Password:</b> Ihr Passwort für die Datenbank<br />
 <b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellen';
-$string['databasesettingssub_mssql'] = '<b>Typ:</b> SQL*Server (ohne UTF-8)<br />
+$string['databasesettingssub_mssql'] = '<b>Typ:</b> SQL*Server (ohne UTF-8)<b><strong class=\"errormsg\">Experimentell! (nicht für Produktivumgebungen)</strong></b><br /><br />
 <b>Host:</b> z.B. localhost oder db.isp.com<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
 <b>User:</b> Ihr Anmeldename für die Datenbank<br />
@@ -192,8 +192,8 @@ $string['globalsquoteshelp'] = '<p>Die Kombination von deaktivierten Magic Quote
 <p>Die empfohlene Einstellung ist <b>magic_quotes_gpc = On</b> und <b>register_globals = Off</b> in Ihrer php.ini-Datei</p>
 
 <p>Wenn Sie keinen Zugriff auf die Datei php.ini haben, können Sie die folgende Zeile in der Datei .htaccess im Moodle Verzeichnis einfügen:
-<blockquote>php_value magic_quotes_gpc On</blockquote>
-<blockquote>php_value register_globals Off</blockquote>
+<blockquote><div>php_value magic_quotes_gpc On</div></blockquote>
+<blockquote><div>php_value register_globals Off</div></blockquote>
 </p>';
 $string['inputdatadirectory'] = 'Daten-Verzeichnis :';
 $string['inputwebadress'] = 'Web-Adresse';
@@ -220,7 +220,7 @@ $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Dies sollte ausgeschaltet sein (\'off\')';
 $string['magicquotesruntimehelp'] = '<p>Magic Quotes Runtime sollte abgeschaltet \'off\' sein, damit Moodle richtig läuft.  </p>
 <p>Normalerweise ist dies der Fall. Prüfen Sie die Einstellung <b>magic_quotes_runtime</b> in der Datei php.ini. </p>
-<p>Wenn Sie keinen Zugriff zur Datei php.ini haben sollten Sie die folgende Zeile in eine Datei .htacess in Ihrem Moodle-Verzeichnis einfügen: <blockquote>php_value magic_quotes_runtime Off</blockquote></p>';
+<p>Wenn Sie keinen Zugriff zur Datei php.ini haben sollten Sie die folgende Zeile in eine Datei .htacess in Ihrem Moodle-Verzeichnis einfügen: <blockquote><div>php_value magic_quotes_runtime Off</div></blockquote></p>';
 $string['memorylimit'] = 'Memory Limit';
 $string['memorylimiterror'] = 'Die PHP-Speichereinstellung memory_limit ist zu niedrig. Dies könnte später zu Problemen führen.';
 $string['memorylimithelp'] = '<p>Die PHP-Einstellung memory_limit für Ihren Server ist zur Zeit auf $a eingestellt. </p>
@@ -229,7 +229,7 @@ $string['memorylimithelp'] = '<p>Die PHP-Einstellung memory_limit für Ihren Ser
 <ol>
 <li>Wenn Sie PHP neu kompilieren können, nehmen Sie die Einstellung <i>--enable-memory-limit</i>. Dann kann Moodle die Einstellung selber vornehmen.
 <li>Wenn Sie Zugriff auf die Datei php.ini haben, können Sie die Einstellung <b>memory_limit</b> selber auf z.B. 40M anpassen. Wenn Sie selber keinen Zugriff haben, fragen Sie den Server-Admin, dies für Sie zu tun.
-<li>Auf einigen PHP-Servern können Sie eine .htaccess-Datei im Moodle-Verzeichnis einrichten. Tragen Sie darin die folgende Zeile ein: <p><blockquote>php_value memory_limit 40M</blockquote></p>
+<li>Auf einigen PHP-Servern können Sie eine .htaccess-Datei im Moodle-Verzeichnis einrichten. Tragen Sie darin die folgende Zeile ein: <p><blockquote><div>php_value memory_limit 40M</div></blockquote></p>
 <p>Achtung: auf einigen Servern hindert diese Einstellung <b>alle</b> PHP-Seiten und Sie erhalten Fehlermeldungen. Entfernen Sie dann den Eintrag in der .htaccess-Datei wieder.</p></li>
 </ol>';
 $string['mssql'] = 'SQL*Server (mssql)';

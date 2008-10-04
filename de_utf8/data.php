@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
+      // data.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['action'] = 'Aktion';
@@ -24,18 +24,16 @@ $string['autolinkurl'] = 'Automatische Verlinkung der URL';
 $string['availablefromdate'] = 'Verfügbar ab';
 $string['availabletags'] = 'Verfügbare Elemente';
 $string['availabletodate'] = 'Verfügbar bis';
-$string['blank'] = 'leer';
-$string['buttons'] = 'Buttons';
+$string['blank'] = 'Leer';
+$string['buttons'] = 'Aktionen';
 $string['bynameondate'] = 'von $a->name - $a->date';
 $string['cancel'] = 'Abbrechen';
 $string['cannotaccesspresentsother'] = 'Sie können nicht auf Vorlagen anderer Nutzer zugreifen';
 $string['cannotadd'] = 'Kann keine Einträge hinzufügen!';
 $string['cannotdeletepreset'] = 'Fehler beim Löschen der Vorlage';
 $string['cannotinsertempty'] = 'Leerer Eintrag nicht zulässig';
-$string['cannotinsertrate'] = 'Neue Bewertung konnte  nicht eingetragen werden ($a[0] = $a[1])';
 $string['cannotrate'] = 'Bewertung der Einträge nicht erlaubt!';
 $string['cannotunziptopreset'] = 'Entpacken im Vorlagenordner nicht möglich';
-$string['cannotupdaterate'] = 'Alte Bewertung konnte  aktualisiert werden ($a[0] = $a[1])';
 $string['checkbox'] = 'Mehrfachauswahl';
 $string['chooseexportfields'] = 'Felder für Export auswählen:';
 $string['chooseexportformat'] = 'Exportformat auswählen:';
@@ -92,7 +90,7 @@ $string['editorenable'] = 'Editor einschalten';
 $string['emptyadd'] = 'Eine Vorlage für das Eintragen neuer Daten ist noch nicht vorhanden. Es wird ein Basisformular erstellt...';
 $string['emptyaddform'] = 'Sie haben keine Einträge vorgenommen!';
 $string['entries'] = 'Einträge';
-$string['entrieslefttoadd'] = 'Sie müssen $a weitere Einträge vornehmen, bevor sie die Einträge anderer Teilnehmer/innen sehen können.';
+$string['entrieslefttoadd'] = 'Sie müssen $a->entriesleft (weitere) Einträge vornehmen, bevor sie die Einträge anderer Teilnehmer/innen sehen können.';
 $string['entry'] = 'Eintrag';
 $string['entrysaved'] = 'Ihr Datenbankeintrag wurde abgespeichert';
 $string['errormustbeteacher'] = 'Diese Seite können nur Trainer/in benutzen!';
@@ -277,6 +275,8 @@ $string['usestandard'] = 'Vorlagensatz benutzen';
 $string['viewfromdate'] = 'Sichtbar von';
 $string['viewtodate'] = 'Sichtbar bis';
 $string['wrongdataid'] = 'Falsche Daten-ID bereitgestellt';
+$string['cannotinsertrate'] = 'Neue Bewertung konnte  nicht eingetragen werden ($a[0] = $a[1])'; // ORPHANED
+$string['cannotupdaterate'] = 'Alte Bewertung konnte  aktualisiert werden ($a[0] = $a[1])'; // ORPHANED
 $string['invaliddata'] = 'Falsche Daten'; // ORPHANED
 $string['csvformat'] = 'CSV Format'; // ORPHANED
 $string['excelformat'] = 'Excel Format'; // ORPHANED

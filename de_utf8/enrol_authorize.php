@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080715) (2008070701)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['adminacceptccs'] = 'Welche Kreditkartentypen sollen akzeptiert werden?';
@@ -7,9 +7,9 @@ $string['adminaccepts'] = 'Zulässig Zahlungsverfahren und -typen auswählen';
 $string['adminauthcode'] = 'Wenn die Kreditkarte eines Nutzers nicht direkt über das Internet bestätigt werden kann, kann der Autorisierungscode telefonisch von der Bank des Nutzers erfragt werden.';
 $string['adminauthorizeccapture'] = 'Einstellungen für Zahlungsübersicht und Zahlungsabwicklung';
 $string['adminauthorizeemail'] = 'E-Mail-Einstellungen';
-$string['adminauthorizesettings'] = 'Authorize.net Einstellungen';
+$string['adminauthorizesettings'] = 'Authorize.net Händleraccount Einstellungen';
 $string['adminauthorizewide'] = 'Allgemeine Einstellungen';
-$string['adminavs'] = 'Wählen Sie diese Option aus, wenn Sie das Adress Verification System (AVS) in Ihrer authorize.net Anmeldung aktiviert haben. Damit sind Eintragungen in Adressfeldern wie Straße, Ort, PLZ, Land etc. beim Ausfüllen des Zahlungsformulars erforderlich.';
+$string['adminavs'] = 'Wählen Sie diese Option aus, wenn Sie das Adress Verification System (AVS) in Ihrer authorize.net Händleraccount Anmeldung aktiviert haben. Damit sind Eintragungen in Adressfeldern wie Straße, Ort, PLZ, Land etc. beim Ausfüllen des Zahlungsformulars erforderlich.';
 $string['adminconfighttps'] = 'Bitte stellen Sie sicher, dass Sie die Einstellung \"<a href=\"$a->url\">loginhttps EIN</a>\" gewählt haben, um dieses Plugin zu nutzen.<br />Admin >> Variablen >> Sicherheit >> HTTP-Sicherheit';
 $string['adminconfighttpsgo'] = 'Gehen Sie auf diese <a href=\"$a->url\">sichere Seite</a>, um dieses Plugin zu konfigurieren.';
 $string['admincronsetup'] = 'Die cron.php Datei wurde in den letzten 24 Stunden nicht ausgeführt.<br />Der Cron-Prozess muss richtig konfiguriert sein, um automatische Abwicklung zu nutzen.<br />Konfigurieren Sie den <b>Cron-Prozess</b> richtig oder deaktivieren Sie die Option <b>an_review</b> wieder.<br />Wenn Sie die automatische Abwicklung deaktivieren, werden Transaktionen zurückgewiesen, die Sie nicht innerhalb von 30 Tagen manuell bestätigen.<br />Wählen Sie die Option <b>an_review</b> aus und geben Sie \'0\' im Feld <b>an_capture_day</b>ein, wenn Sie innerhalb von 30 Tagen Zahlungen <b>manuell</b> akzeptieren/zurückweisen wollen.';
@@ -45,7 +45,7 @@ $string['allpendingorders'] = 'Alle offenen Aufträge';
 $string['amount'] = 'Betrag';
 $string['anlogin'] = 'Authorize.net: Anmeldename';
 $string['anpassword'] = 'Authorize.net: Kennwort';
-$string['anreferer'] = 'Tragen Sie hier den URL-Referer ein, wenn Sie dies in Ihrem authorize.net Konto konfiguriert haben. Damit wird eine \"Referer:URL\" in der Webanfrage mitgesendet.';
+$string['anreferer'] = 'Tragen Sie hier den URL-Referer ein, wenn Sie dies in Ihrem authorize.net Händleraccount Konto konfiguriert haben. Damit wird eine \"Referer:URL\" in der Webanfrage mitgesendet.';
 $string['antestmode'] = 'Authorize.net: Transaktionen im Testmodus laufen lassen (es wird kein Geld abgebucht)';
 $string['antrankey'] = 'Authorize.net: Transaktionsschlüssel';
 $string['approvedreview'] = 'Überprüfung erfolgreich';
@@ -195,7 +195,7 @@ $string['unenrolstudent'] = 'Teilnehmer/in aus Kurs löschen?';
 $string['uploadcsv'] = 'Eine CSV-Datei hochladen';
 $string['usingccmethod'] = 'Eintragung verwendet <a href=\"$a->url\"><strong> Kreditkarte</strong></a>';
 $string['usingecheckmethod'] = 'Eintragung verwendet <a href=\"$a->url\"><strong> eCheck</strong></a>';
-$string['verifyaccount'] = 'Ihre Zugangsdaten bei authorize.net werden geprüft';
+$string['verifyaccount'] = 'Ihre Zugangsdaten beim authorize.net Händleraccount werden geprüft';
 $string['verifyaccountresult'] = 'Prüfergebnis: $a';
 $string['void'] = 'Gültig';
 $string['voidyes'] = 'Ihre Transaktion wird abgebrochen. Sind Sie sicher?';

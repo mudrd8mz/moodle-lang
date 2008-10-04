@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // grades.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['activities'] = 'Aktivitäten';
@@ -88,7 +88,7 @@ $string['confighideforcedsettings'] = 'Keine voreingestellten Einträge im Bewer
 $string['configincludescalesinaggregation'] = 'Sie können festlegen, ob alle Bewertungsskalen in Zahlwerte umgerechnet und bei der Berechnung von Zwischen- und Gesamtnoten in allen Bewertungen der Kurse verwendet werden. ACHTUNG: nach dem Ändern dieser Einstellung werden alle Gesamtnoten neu berechnet.';
 $string['configmeanselection'] = 'Wählen Sie bitte aus, welche Bewertungen in den Spaltendurchschnitt einfließen sollen. Zellen ohne Wertung können ignoriert oder als 0 gewertet (Voreinstellung) werden.';
 $string['configprofilereport'] = 'Der Berwertungsbericht wird auf der Seite des Nutzerprofils angezeigt.';
-$string['configquickgrading'] = 'Schnelle Bewertung fügt eine Texteingabe in jedes Bewertungsfeld des Bewertungsberichts ein, so dass die gleichseitige Bearbeitung mehrerer Bewertungen möglich wird. Sie können dann mit dem Update-Button alle Änderungen gleichzeitig speichern, anstatt dies für jedes einzelnen Änderung durchzuführen.';
+$string['configquickgrading'] = 'Schnelle Bewertung fügt eine Texteingabe in jedes Bewertungsfeld des Bewertungsberichts ein, so dass die gleichzeitige Bearbeitung mehrerer Bewertungen möglich wird. Sie können dann mit dem Update-Button alle Änderungen gleichzeitig speichern, anstatt dies für jedes einzelnen Änderung durchzuführen.';
 $string['configrangesdecimalpoints'] = 'Anzahl der Nachkommastellen für die Darstellung jedes Bereichs oberhalb einer Bewertungsspalte. Die Einstellung kann jeweils im Bewertungsaspekt geändert werden.';
 $string['configrangesdisplaytype'] = 'Diese Einstellung gibt an, wie der Bereich jeder Spalte in Bewerterübersicht angezeigt werden soll. Der voreingestellte und empfohlene Wert ist \"Vererben\", was als erstes die Anzeigeart jeder Spalte prüft und auf eine Grundeinstellung setzt, falls nicht ausdrücklich etwas festgelegt wurde. Wenn eine andere Darstellungsart gewählt wird, werden die individuellen Einstellungen ignoriert und es wird ausschließlich die gewählte Art benutzt.';
 $string['configshowactivityicons'] = 'Aktivitätssymbole neben jedem Bewertungsaspekt in der Bewerterübersicht anzeigen, die mit einer Aktivität verlinkt sind.';
@@ -217,14 +217,15 @@ $string['gradeletters'] = 'Notenstufen';
 $string['gradelocked'] = 'Bewertung ist gesperrt';
 $string['gradelong'] = '$a->grade / $a->max';
 $string['grademax'] = 'Maximale Bewertung';
-$string['grademaxhelp'] = 'Der größte erlaubte Wert für diesen Bewertungsaspekt';
+$string['grademaxhelp'] = 'Wenn der Wert Bewertungstyp verwandt wird, kann eine Höchstbewertung eingetragen werden. Dies erfolgt bei Lernaktivitäten auf der Einstellungsseite für die Lernaktivität. 
+Der größte erlaubte Wert für diesen Bewertungsaspekt.';
 $string['grademin'] = 'Minimale Bewertung';
-$string['grademinhelp'] = 'Der kleinste erlaubte Wert für diesen Bewertungsaspekt';
+$string['grademinhelp'] = 'Wenn der Wert Bewertungstyp verwandt wird, kann eine niedrigste Bewertung eingetragen werden.';
 $string['gradeoutcomeitem'] = 'Lernziel bewerten';
 $string['gradeoutcomes'] = 'Lernziele';
 $string['gradeoutcomescourses'] = 'Kurs-Lernziele';
 $string['gradepass'] = 'Bewertung zum Bestehen';
-$string['gradepasshelp'] = 'Welche Bewertung wird zum Bestehen benötigt?';
+$string['gradepasshelp'] = 'Wenn eine Mindest-Bewertung erreicht werden muss, kann dies hier eingestellt werden.';
 $string['gradepreferences'] = 'Bewertungseinstellungen';
 $string['gradepreferenceshelp'] = 'Hilfe für Bewertungseinstellungen';
 $string['gradepublishing'] = 'Veröffentlichen zulassen';
@@ -233,7 +234,7 @@ $string['grades'] = 'Bewertung';
 $string['gradesonly'] = 'Nur Bewertung';
 $string['gradessettings'] = 'Bewertungseinstellungen';
 $string['gradetype'] = 'Bewertungstyp';
-$string['gradetypehelp'] = 'Der Bewertungstyp, den dieser Aspekt benutzt, kann einer von 4 Typen sein: keiner, Wert, Skala und Text. Nur bei den Typen Wert und Skala können Summenwerte gebildet werden.';
+$string['gradetypehelp'] = 'Der Bewertungstyp, den dieser Aspekt benutzt, kann einer von 4 Typen sein: keiner (keine Bewertung möglich), Wert (max. und min. Wert ist einstellbar), Skala (aktiviert die Skaleneinstellung) und Text (nur Feedbacktext). Nur bei den Typen Wert und Skala können Summenwerte gebildet werden. Der Bewertungstyp wird auf der Einstellungsseite der einzelnen Lernaktivität festgelegt.';
 $string['gradeview'] = 'Bewertung ansehen';
 $string['gradeweighthelp'] = 'Hilfe zur Gewichtung der Bewertung';
 $string['groupavg'] = 'Gruppendurchschnitt';
@@ -258,7 +259,8 @@ $string['highgradeascending'] = 'Sortiert nach Höchstbewertung aufsteigend';
 $string['highgradedescending'] = 'Sortiert nach Höchstbewertung absteigend';
 $string['highgradeletter'] = 'Hoch';
 $string['identifier'] = 'Teilnehmer/in identifizieren durch';
-$string['idnumberhelp'] = 'Zufällige ID-Nummern, die vom jeweiligen Modul bereitgestellt werden (müssen definiert und einmalig sein).';
+$string['idnumberhelp'] = 'Die Erfassung einer id-Nummer ermöglicht, eine Rechenoperation mit dem Ergebniswert der Teilnehmer durchzuführen. Wenn die Bewertung nicht für Berechnungen benötigt wird, kann das Feld leer bleiben. Die ID-Nummer für eine Lernaktivität kann auf der Einstellungsseite der Lernaktivität bearbeitet werden.
+Zufällige ID-Nummern, die vom jeweiligen Modul bereitgestellt werden (müssen definiert und einmalig sein).';
 $string['idnumbers'] = 'ID-Nummern';
 $string['import'] = 'Import';
 $string['importcsv'] = 'CSV importieren';
@@ -286,7 +288,7 @@ $string['incorrectminmax'] = 'Der unterste Wert muss niedriger als der höchste 
 $string['inherit'] = 'Vererben';
 $string['item'] = 'Aspekt';
 $string['iteminfo'] = 'Info zum Aspekt';
-$string['iteminfohelp'] = 'Informationen und Anmerkungen zu diesem Aspekt';
+$string['iteminfohelp'] = 'Raum für Informationen zu diesem Wert. Der eingegebene Text erscheint nicht an anderer Stelle.';
 $string['itemname'] = 'Name des Aspekts';
 $string['itemnamehelp'] = 'Name des Aspekts, der vom Modul festgelegt wird.';
 $string['items'] = 'Aspekte';
@@ -423,7 +425,7 @@ $string['rowpreviewnum'] = 'Zeilenvorschau';
 $string['savechanges'] = 'Änderungen speichern';
 $string['savepreferences'] = 'Grundeinstellungen speichern';
 $string['scaledpct'] = 'Berechnete %%';
-$string['scaleidhelp'] = 'Skala, zu der $a verlinkt ist.';
+$string['scaleidhelp'] = 'Wenn der Skalenbewertungstyp verwandt wird, kann eine Skala ausgewählt werden. Dies erfolgt auf der Einstellungsseite der jeweiligen Lernaktivität.';
 $string['scalestandardhelp'] = 'Eine Standard-Skala ist eine Skala, die systemweit in allen Kursen verfügbar ist.';
 $string['seeallcoursegrades'] = 'Alle Kursbewertungen anzeigen';
 $string['selectalloroneuser'] = 'Alle oder einen auswählen';

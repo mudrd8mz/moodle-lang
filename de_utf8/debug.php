@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // debug.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['authpluginnotfound'] = 'Plugin $a zur Authentifierung nicht gefunden';
 $string['blocknotexist'] = 'Der Block $a existiert nicht!';
 $string['cannotbenull'] = '$a darf nicht Null sein!';
 $string['cannotcreateadminuser'] = 'Schwerer Fehler: Der Datensatz für den Admin-Nutzer konnte nicht angelegt werden!';
-$string['cannotdowngrade'] = 'Ein Downgrade von $a[0] nach $a[1] ist nicht möglich.';
+$string['cannotdowngrade'] = 'Ein Downgrade von $a->oldversion nach $a->newversion ist nicht möglich.';
 $string['cannotfindadmin'] = 'Es konnte kein Admin-Nutzer gefunden werden!';
-$string['cannotinitpage'] = 'Die Seite konnte nicht vollständig initialisiert werden. Ungültige $a[0]-ID $a[1]';
+$string['cannotinitpage'] = 'Die Seite konnte nicht vollständig initialisiert werden. Ungültige $a->name ID $a->id';
 $string['cannotsetupsite'] = 'Schwerwiegender Fehler: Die Website konnte nicht eingerichtet werden!';
 $string['cannotsetuptable'] = '$a Tabellen konnten nicht erfolgreich erstellt werden!';
 $string['cannotupdaterelease'] = 'Fehler: Die Release-Version der Datenbank konnte nicht aktualisiert werden!';
@@ -22,7 +22,7 @@ $string['dbnotsupport'] = 'Fehler: Ihre Datenbank ($a) wird nicht vollständig v
 $string['dbnotupdate'] = 'Datenbankfehler - \"$a\" konnte nicht aktualisiert werden.';
 $string['doesnotworkwitholdversion'] = 'Dieses Script arbeitet nicht mit dieser alten Version von Moodle.';
 $string['erroroccur'] = 'Ein Fehler ist während des Vorgangs aufgetreten.';
-$string['fixsetting'] = 'Bitte korrigieren Sie die Einstellungen in der Datei config.php: <p>Aktuell vorhanden: </p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>aber das sollte geändert werden in: </p> <p>$CFG->dirroot = \"$a[1]\"</p>';
+$string['fixsetting'] = 'Bitte korrigieren Sie die Einstellungen in der Datei config.php: <p>Aktuell vorhanden: </p> <p>$CFG->dirroot = \"$a->current\";</p> <p>aber das sollte geändert werden in: </p> <p>$CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = 'Falsche Feldgröße bei den Einstellungen von $a';
 $string['invalideventdata'] = 'Falscher Kalendereintrag übermittelt: $a';
 $string['missingconfigversion'] = 'Entschuldigung, aber der Vorgang wird abgebrochen, weil die Konfigurationstabelle keine Versionsangabe beinhaltet.';
@@ -39,8 +39,8 @@ $string['nomodules'] = 'Keine Module gefunden!';
 $string['nopageclass'] = 'Importierte $a, fand aber keine page classes.';
 $string['noreports'] = 'Kein Zugriff auf Berichte';
 $string['notables'] = 'Keine Tabellen!';
-$string['phpvaroff'] = 'Die PHP Server Variable \'$a[0]\' sollte auf  Off - $a[1] gesetzt werden.';
-$string['phpvaron'] = 'Die PHP Server Variable \'$a[0]\' sollte auf  On - $a[1] gesetzt werden.';
+$string['phpvaroff'] = 'Die PHP Server Variable \'$a->name\' sollte auf  Off - $a->link gesetzt werden.';
+$string['phpvaron'] = 'Die PHP Server Variable \'$a->name\' sollte auf  On - $a->link gesetzt werden.';
 $string['sessionmissing'] = '$a Objekt fehlt für Session';
 $string['siteisnotdefined'] = 'Site ist nicht festgelegt!';
 $string['sqlrelyonobsoletetable'] = 'Dieses SQL beinhaltet fehlerhafte Tabellen: $a! Ein Entwickler muss Ihren Code korrigieren.';

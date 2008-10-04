@@ -3,9 +3,9 @@
 
 
 $string['activeportfolios'] = 'Aktive Portfolios';
-$string['addalltoportfolio'] = 'Alles zum Portfolio hinzufügen';
+$string['addalltoportfolio'] = 'Alle speichern...';
 $string['addnewportfolio'] = 'Neues Portfolio hinzufügen';
-$string['addtoportfolio'] = 'Zum Portfolio hinzufügen';
+$string['addtoportfolio'] = 'Speichern...';
 $string['availableformats'] = 'Mögliche Export-Formate';
 $string['configexport'] = 'Exportierte Daten konfigurieren';
 $string['configplugin'] = 'Portfolio-Plugin konfigurieren';

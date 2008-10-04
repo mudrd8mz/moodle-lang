@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // auth.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -96,7 +96,7 @@ $string['auth_emaildescription'] = 'E-Mail-Bestätigung ist die Standard-Authent
 $string['auth_emailnoemail'] = 'Der Versuch Ihnen eine E-Mail zu senden ist gescheitert!';
 $string['auth_emailnoinsert'] = 'Der Datensatz konnte nicht zur Datenbank hinzugefügt werden!';
 $string['auth_emailnowexists'] = 'Die E-Mail-Adresse, die Sie in Ihrem Nutzerprofil zuweisen wollten, wird bereits von jemand anders verwendet. Der Änderungsvorgang wird hiermit abgebrochen, wobei Sie aber nochmals versuchen können, eine andere Adresse einzugeben.';
-$string['auth_emailrecaptcha'] = 'Die E-Mail-Adresse, die Sie in Ihrem Nutzerprofil zuweisen wollten, wird bereits von jemand anders verwendet. Diese Einstellung fügt dem Anmeldeformular für die E-Mail-Selbstregistierung ein Kontrollelement hinzu. Dabei handelt es sich um ein Bild- oder Audio-Element, um Sie wirksam gegen Spammer zu schützen. Weitere Informationen finden Sie unter http://recaptcha.net/learnmore.html';
+$string['auth_emailrecaptcha'] = 'Die E-Mail-Adresse, die Sie in Ihrem Nutzerprofil zuweisen wollten, wird bereits von jemand anders verwendet. Diese Einstellung fügt dem Anmeldeformular für die E-Mail-Selbstregistierung ein Kontrollelement hinzu. Dabei handelt es sich um ein Bild- oder Audio-Element, um Sie wirksam gegen Spammer zu schützen. Weitere Informationen finden Sie unter http://recaptcha.net/learnmore.html. <br /><em>PHP cURL Erweiterung ist erforderlich.</em>';
 $string['auth_emailrecaptcha_key'] = 'ReCaptcha einschalten';
 $string['auth_emailsettings'] = 'Einstellungen';
 $string['auth_emailtitle'] = 'E-Mail basiert';
@@ -336,7 +336,7 @@ $string['pluginnotinstalled'] = 'Authentifizierungsplugin \'$a\' ist nicht insta
 $string['recaptcha'] = 'ReCaptcha';
 $string['rpc_negotiation_timeout'] = 'RPC negotiation timeout';
 $string['selfregistration'] = 'Selbstregistrierung';
-$string['selfregistration_help'] = 'Wählen Sie das Authentifizierungsplugin für die Selbstregistrierung aus.';
+$string['selfregistration_help'] = 'Wenn Sie ein Authentifizierungs-Plugin aktiviert haben (z. B. E-Mail basiert), dann ermöglicht es Nutzern, sich selbst zu registrieren und einen Account anzulegen. Damit ermöglichen Sie Spammern Accounts anzulegen und Foren- oder Blogbeiträge oder ihr Profil für Werbezwecke zu missbrauchen. Zur Vermeidung dieses Risikos können Sie die Funktion abschalten oder begrenzen auf bestimmte E-Mail-Adressbereiche.';
 $string['sha1'] = 'SHA-1 hash';
 $string['shib_no_attributes_error'] = 'Sie versuchen vermutlich, die Shibboleth Authentifizierung zu verwenden. Moodle hat jedoch keine Attribute für die Nutzer/innen erhalten. Prüfen Sie bitte, ob der Identity Provider die erforderlichen Attribute ($a) dem Moodle-Serviceprovider zur Verfügung stellt oder informieren Sie den Webmaster des Servers.';
 $string['shib_not_all_attributes_error'] = 'Moodle benötigt einige Shibboleth-Attribute, die derzeit nicht bereitgestellt werden. Es handelt sich um die Attribute: $a<br />Benachrichtigen Sie bitte den Webmaster des Servers oder Ihren Identity Provider.';
