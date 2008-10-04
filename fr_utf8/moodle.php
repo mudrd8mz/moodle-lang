@@ -232,6 +232,7 @@ $string['clammovedfilebasic'] = 'Le fichier a été déplacé dans un dossier de
 $string['clamquarantinedirfailed'] = 'Impossible de déplacer le fichier dans le dossier de quarantaine spécifié $a. Il est impératif de corriger ce problème, car sans cela les fichiers contenant des virus seront détruits.';
 $string['clamunknownerror'] = 'Une erreur inconnue est survenue avec clam.';
 $string['cleaningtempdata'] = 'Suppression des données temporaires';
+$string['clear'] = 'Effacer';
 $string['clickhere'] = 'Cliquer ici...';
 $string['clicktochange'] = 'Cliquer pour changer';
 $string['closewindow'] = 'Fermer cette fenêtre';
