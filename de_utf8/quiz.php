@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['1day'] = '1 Tag';
@@ -64,7 +64,7 @@ $string['attemptfirst'] = 'Erster Versuch';
 $string['attemptincomplete'] = 'Dieser Versuch von $a ist noch nicht vollständig abgeschlossen.';
 $string['attemptlast'] = 'Letzter Versuch';
 $string['attemptquiznow'] = 'Test jetzt durchführen';
-$string['attempts'] = 'Versuche';
+$string['attempts'] = 'Versuch e';
 $string['attemptsallowed'] = 'Max. Zahl der Versuche';
 $string['attemptsallowedn'] = 'Erlaubte Versuche: $a';
 $string['attemptsdeleted'] = 'Die Testversuche wurden gelöscht.';
@@ -86,12 +86,12 @@ $string['braceerror'] = 'Es fehlen {...} um die Antworten';
 $string['calculated'] = 'Berechnung';
 $string['calculatedquestion'] = 'Die Berechnungsfrage in Zeile $a wird nicht unterstützt. Die Frage wird ignoriert.';
 $string['cannotcreatepath'] = 'Pfad kann nicht angelegt werden ($a).';
-$string['cannoteditafterattempts'] = 'Sie können keineFrage hinzufügen oder entfernen, da bereits Testversuche registriert sind.';
+$string['cannoteditafterattempts'] = 'Sie können keine Frage(n) hinzufügen oder entfernen, da bereits Testversuche registriert sind.';
 $string['cannotfindprevattempt'] = 'Es wurden keine früheren Versuche gefunden, auf denen aufgebaut werden kann.';
 $string['cannotfindquestionregard'] = 'Fehler beim Holen von Fragen zur Bewertung';
 $string['cannotinsert'] = 'Frage kann nicht eingefügt werden.';
 $string['cannotloadquestion'] = 'Frageoptionen konnten nicht geladen werden';
-$string['cannotloadtypeinfo'] = 'Laden von fragespezifischen Informationen zum Fragetyp ware nicht möglich';
+$string['cannotloadtypeinfo'] = 'Laden von fragespezifischen Informationen zum Fragetyp war nicht möglich';
 $string['cannotopen'] = 'Exportdatei kann nicht geöffnet werden ($a).';
 $string['cannotread'] = 'Importdatei kann nicht geöffnet werden oder ist leer';
 $string['cannotrestore'] = 'Frageabschnitte konnten nicht wiederhergestellt werden';

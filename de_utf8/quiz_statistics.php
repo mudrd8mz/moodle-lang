@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20081002) (2008092400)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['allattempts'] = 'Alle Versuche';

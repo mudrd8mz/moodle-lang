@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['allowdeleting'] = 'Löschen erlauben';
@@ -71,8 +71,9 @@ $string['helpupload'] = '<p>Dieser Aufgabentyp ermöglicht es den Teilnehmenden,
 $string['helpuploadsingle'] = '<p>Diese Aufgabenart ermöglicht allen Teilnehmer/innen den Upload einer einzelnen Datei beliebigen Typs.</p><p>Dies kann eine Text-, Bild-, ZIP- oder eine Datei in jedem anderen Format sein, das Sie in der Aufgabenstellung beschrieben haben.</p>';
 $string['hideintro'] = 'Beschreibung vor dem Veröffentlichungszeitpunkt verbergen';
 $string['invalidassignment'] = 'Falsche Aufgabe';
-$string['invalidid'] = 'Aufgaben-ID war falsch';
+$string['invalidid'] = 'Falsche Aufgaben-ID';
 $string['invalidtype'] = 'Falscher Aufgabentyp';
+$string['invaliduserid'] = 'Ungültige Nutzer-ID';
 $string['itemstocount'] = 'Anzahl';
 $string['late'] = '$a spät';
 $string['maximumgrade'] = 'Höchste Bewertung';
@@ -82,7 +83,7 @@ $string['modulenameplural'] = 'Aufgaben';
 $string['newsubmissions'] = 'Aufgaben eingereicht';
 $string['noassignments'] = 'Es gibt derzeit keine  Aufgaben';
 $string['noattempts'] = 'Bisher wurden keine Arbeiten eingereicht.';
-$string['nofiles'] = 'Keine Dateien wurde abgegeben.';
+$string['nofiles'] = 'Keine Dateien abgegeben';
 $string['nofilesyet'] = 'Bisher wurden keine Dateien abgegeben.';
 $string['nomoresubmissions'] = 'Es sind keine weiteren Einträge mehr möglich.';
 $string['nosubmitusers'] = 'Es wurden keine Nutzer/innen gefunden, die die Berechtigung zur Aufgabenabgabe hätten.';

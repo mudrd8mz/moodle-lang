@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -15,6 +15,7 @@ $string['allowprintview'] = 'Druckfunktion';
 $string['allowratings'] = 'Bewertung von Einträgen';
 $string['answer'] = 'Antwort';
 $string['approve'] = 'Freigeben';
+$string['areaintro'] = 'Einleitung zum Glossar';
 $string['areyousuredelete'] = 'Sind Sie sicher, dass Sie diesen Eintrag löschen wollen?';
 $string['areyousuredeletecomment'] = 'Sind Sie sicher, dass Sie diesen Kommentar löschen wollen?';
 $string['areyousureexport'] = 'Sind Sie sicher, dass Sie diesen Eintrag exportieren wollen?';
