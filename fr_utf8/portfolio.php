@@ -1,6 +1,4 @@
-<?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081002) (2008092400)
-
+<?php // $Id$ 
 
 $string['activeportfolios'] = 'Portfolios actifs';
 $string['addalltoportfolio'] = 'Tout ajouter au portfolio';
@@ -19,6 +17,9 @@ $string['confirmsummary'] = 'Résumé de votre exportation';
 $string['continuetoportfolio'] = 'Continuer vers votre portfolio';
 $string['deleteportfolio'] = 'Supprimer le portfolio';
 $string['disabled'] = 'Désolé, les exportations de portfolio ne sont pas activées sur ce site';
+$string['displayarea'] = 'Zone d\'exportation';
+$string['displayinfo'] = 'Infos d\'exportation';
+$string['displayexpiry'] = 'Durée d\'échéance des transferts';
 $string['dontwait'] = 'Ne pas attendre';
 $string['enabled'] = 'Activer les portfolios';
 $string['enableddesc'] = 'Cette option permet aux administrateurs de configurer les systèmes distants vers lesquels les utilisateurs exportent des contenus';
@@ -60,6 +61,8 @@ $string['invalidinstance'] = 'Impossible de trouver ce portfolio';
 $string['invalidproperty'] = 'Impossible de trouver cette propriété ($a->property de $a->class)';
 $string['invalidtempid'] = 'Identifiant d\'exportation non valide.';
 $string['invaliduserproperty'] = 'Impossible de trouver cette propriété de la configuration de l\'utilisateur ($a->property de $a->class)';
+$string['logs'] = 'Historique de transfert';
+$string['logsummary'] = 'Transferts antérieurs réussis';
 $string['manageportfolios'] = 'Gérer les portfolios';
 $string['manageyourportfolios'] = 'Gérer vos portfolios';
 $string['missingcallbackarg'] = 'Paramètre de rappel (callback) $a->arg manquant pour la classe $a->class';
@@ -83,6 +86,7 @@ $string['plugin'] = 'Plugin de portfolio';
 $string['plugincouldnotpackage'] = 'Échec de la préparation de vos données pour exportation&nbsp;: l\'erreur originale est $a';
 $string['portfolio'] = 'Portfolio';
 $string['portfolios'] = 'Portfolios';
+$string['queuesummary'] = 'Transferts actuellement en attente';
 $string['returntowhereyouwere'] = 'Retour à la page précédente';
 $string['save'] = 'Enregistrer';
 $string['selectedformat'] = 'Format d\'exportation sélectionné';
@@ -92,6 +96,8 @@ $string['someinstancesdisabled'] = 'Certaines instances de plugin ont été dés
 $string['somepluginsdisabled'] = 'Certains plugins ont été désactivés, soit parce qu\'ils ne sont pas correctement configurés, soit parce qu\'ils requièrent d\'autres composants, à savoir';
 $string['sure'] = 'Voulez-vous vraiment supprimer «&nbsp;$a&nbsp;»? L\'action est irrémédiable.';
 $string['thirdpartyexception'] = 'Une exception (logiciel tierce partie) a été levée par durant l\'exportation du portfolio ($a). L\'erreur a pu être récupérée mais ceci doit être corrigé.';
+$string['transfertime'] = 'Durée de transfert';
+$string['unknownplugin'] = 'Inconnu (a été peut-être supprimé par l\'administrateur)';
 $string['wait'] = 'Attendre';
 $string['wanttowait_high'] = 'Il n\'est pas recommandé la fin du transfert. Vous pouvez cependant le faire, si vous êtes sûr de ce que vous faites';
 $string['wanttowait_moderate'] = 'Voulez-vous attendre la fin de ce transfert&nbsp;? Cela pourrait prendre quelques minutes';
