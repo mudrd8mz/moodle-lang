@@ -2,18 +2,18 @@ Español Internacional (es_utf8)
 
 Versión:  1.9.2
 
-Coordinadores de traducción:
+Coordinadores de la traducción:
 
 Interfaz: 
-	Benito Arias (barias@benitoarias.com)
+	Benito Arias (barias@psi.uva.es)
 
 Archivos HELP y DOCS:
-	Benito Arias (barias@benitoarias.com)
+	Benito Arias (barias@psi.uva.es)
 	Fermín Cueva (fcueva@teleline.es)
 	Eloy Lafuente (stronk7@moodle.org)
 	Antonio Navarro (anavarro@sextaisla.com)
 	Antonio Vicent (avicent@telefonica.net)
-	Laura E. Gómez (lauraelisabet@usal.es)
+	Laura Elisabet Gómez (lauraelisabet@usal.es)
 
 Coordinador de traducciones previas: 
 	Claudio Tavares (claudio@enlaceacademico.com)
@@ -34,4 +34,8 @@ Colaboradores:
 
 La traducción de Moodle al español se actualiza prácticamente cada día, inmediatamente después de aparecer los correspondientes cambios en el original en inglés, o cada vez que se advierte cualquier error o expresión incorrectamente traducida. Puede conseguir la última versión en http://download.moodle.org/download.php/lang16/es_utf8.zip
 
-Pretendemos mantener la versión española de Moodle actualizada y con la máxima calidad posible. Si encuentra alguna errata, o si cree que cualquier expresión puede traducirse de otro modo y así mejorar la comprensión del texto, comuníquelo por favor a los coordinadores de la traducción, o envíe un mensaje al foro de Traducción de Moodle al español (http://moodle.org/mod/forum/view.php?f=104). Gracias.
+Si desea descargar la última versión de cada archivo (antes de que aparezca en el sitio oficial de Moodle) puede hacerlo desde la dirección http://cvs.moodle.org/lang/es_utf8/
+
+Pretendemos mantener la versión española de Moodle actualizada y con la máxima calidad posible. Si encuentra alguna errata, o si cree que cualquier expresión puede traducirse de otro modo y así mejorar la comprensión del texto, comuníquelo por favor a los coordinadores de la traducción, o envíe un mensaje al foro de Traducción de Moodle al español (http://moodle.org/mod/forum/view.php?f=104).
+
+Gracias a todos los colaboradores por su esfuerzo desinteresado en favor de la comunidad Moodle de habla española.
