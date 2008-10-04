@@ -782,6 +782,7 @@ $string['usersdeleted'] = 'Utilisateurs supprimés';
 $string['usersrenamed'] = 'Utilisateurs renommés';
 $string['usersskipped'] = 'Utilisateurs ignorés';
 $string['usersupdated'] = 'Utilisateurs modifiés';
+$string['usersweakpassword'] = 'Utilisateurs avec mot de passe faible';
 $string['usetags'] = 'Activer la fonctionnalité de tags';
 $string['uubulk'] = 'Sélectionner pour des opérations en lots';
 $string['uubulkall'] = 'Tous les utilisateurs';
