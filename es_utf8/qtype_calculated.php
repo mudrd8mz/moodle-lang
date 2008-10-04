@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8 + (2007021502)
+      // qtype_calculated.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['addmoreanswerblanks'] = 'Agregar otra respuesta en blanco.';
@@ -23,8 +23,10 @@ $string['nodataset'] = 'nada - no es una \'wild card\'';
 $string['nosharedwildcard'] = 'No \'wild card\' en esta categoría';
 $string['possiblehdr'] = 'Posibles \'wild cards\' presentes sólo en el texto de la pregunta';
 $string['tolerance'] = 'Tolerancia ±';
+$string['trueanswerinsidelimits'] = 'Respuesta correcta: $a->correct dentro de los límites del valor verdadero $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">ERROR Respuesta correcta: $a->correct fuera de los límites del valor verdadero $a->true</span>';
 $string['updatecategory'] = 'Actualizar la categoría';
 $string['usedinquestion'] = 'Usada en Pregunta';
-$string['youmustenteramultiplierhere'] = 'Debe escribir un multiplicador.';
+$string['youmustenteramultiplierhere'] = 'Debe escribir un multiplicador aquí.';
 
 ?>
