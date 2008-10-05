@@ -2,6 +2,7 @@
 
 $string['apikey'] = 'Clef API';
 $string['apikeyhelp'] = 'Vous obtiendrez cette clef en vous inscrivant sur le site enabled.box.net et en ajoutant application. L\' URL de <i>callback</i> doit être votre_wwwroot/portfolio/add.php?postcontrol=1';
+$string['apikeyinlinehelp'] = '<p>Pour configurer Box.net, visitez <a href=\"http://enabled.box.net/my-projects\">enabled.box.net</a> et connectez-vous.</p><p>Pour chaque site Moodle, vous devrez créer un nouveau projet sous l\'onglet My Projects.</p><p>Le seul réglage important est l\'url de rappel (callback), qui doit être $a. Vous pouvez renseigner à votre guise les autres réglages. Il ne vous reste alors qu\'à enregistrer et voilà&nbsp;!';
 $string['err_noapikey'] = 'Aucune clef API n\'est configurée pour ce plugin. Vous pouvez en obtenir une à l\'adresse  http://enabled.box.net';
 $string['existingfolder'] = 'Dossier existant dans lequel placer le(s) fichier(s)';
 $string['folderclash'] = 'Le dossier dont vous avez demandé la création existe déjà&nbsp;!';
