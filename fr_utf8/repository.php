@@ -65,6 +65,7 @@ $string['personalrepositories'] = 'Dépôts personels';
 $string['plugin'] = 'Plugins de dépôt';
 $string['popup'] = 'Ouvre une fenêtre surgissante pour la connexion';
 $string['preview'] = 'Prévisualiser';
+$string['readonlyinstance'] = 'Vous ne pouvez pas modifier ni supprimer une instance en lecture seule';
 $string['refresh'] = 'Actualiser';
 $string['removed'] = 'Dépôt supprimé';
 $string['repositories'] = 'Dépôts';
