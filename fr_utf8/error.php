@@ -147,6 +147,7 @@ $string['cannotupdatesubcate'] = 'Impossible de modifier une catégorie fille&nb
 $string['cannotupdatesubcourse'] = 'Impossible de modifier un cours descendant&nbsp;!';
 $string['cannotupdatesummary'] = 'Impossible de modifier le résumé&nbsp;!';
 $string['cannotupdateuser'] = 'Échec de la modification de l\'utilisateur';
+$string['cannotupdateusermsgpref'] = 'Échec de la modification de l\'utilisateur';
 $string['cannotupdateuseronexauth'] = 'Échec de la modification des données de l\'utilisateur dans la source d\'authentification externe&nbsp;: $a. Consultez les historiques du serveur pour plus de détails';
 $string['cannotupgradeblock'] = 'La mise à jour des blocs système a échoué&nbsp;: impossible de mettre à jour la version dans la table config';
 $string['cannotupgradecaps'] = 'Problèmes lors de la mise à jour des capacités centrales du système des rôles';
