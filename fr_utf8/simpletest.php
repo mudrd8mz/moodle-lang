@@ -1,5 +1,6 @@
 <?php // $Id$
 
+$string['addconfigprefix'] = 'Ajouter le préfixe au fichier de configuration';
 $string['all'] = 'TOUT';
 $string['deletingnoninsertedrecord'] = 'Tentative de suppression d\'un enregistrement n\'ayant pas été inséré par ces tests unitaires (id $a->id dans la table $a->table).';
 $string['deletingnoninsertedrecords'] = 'Tentative de suppression d\'enregistrements n\'ayant pas été insérés par ces tests unitaires (de la table $a->table).';
@@ -12,6 +13,8 @@ $string['notice'] = 'Remarque';
 $string['onlytest'] = 'Ne lancer que les tests unitaires de';
 $string['pass'] = 'Succès';
 $string['pathdoesnotexist'] = 'Le chemin «&nbsp;$a&nbsp;» n\'existe pas.';
+$string['prefix'] = 'Préfixe des tables de tests unitaires';
+$string['prefixnotset'] = 'Le préfixe des tables de tests unitaires n\'est pas renseigné. Veuillez remplir et envoyer ce formulaire pour l\'ajouter à votre fichier config.php.';
 $string['retest'] = 'Relancer les tests';
 $string['retestonlythisfile'] = 'Relancer uniquement ce fichier de test.';
 $string['runall'] = 'Lancer les tests de tous les fichiers de test.';
@@ -25,6 +28,7 @@ $string['showpasses'] = 'Afficher les tests réussis en plus des échecs.';
 $string['showsearch'] = 'Afficher la recherche des fichiers de test.';
 $string['stacktrace'] = 'Trace de la pile&nbsp;:';
 $string['summary'] = '{$a->run}/{$a->total} tests terminés&nbsp;: <strong>{$a->passes}</strong> tests passés, <strong>{$a->fails}</strong> échecs et <strong>{$a->exceptions}</strong> exceptions.';
+$string['tablesnotsetup'] = 'Les tables de tests unitaires ne sont pas présentes. Voulez-vous les créer maintenant&nbsp;?.';
 $string['testtablescsvfileunwritable'] = 'Le fichier CSV des tables de test n\'est pas accessible en écriture ($a->filename)';
 $string['thorough'] = 'Lancer un test exhaustif (peut être lent).';
 $string['unittests'] = 'Tests unitaires';
