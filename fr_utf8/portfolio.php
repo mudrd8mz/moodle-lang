@@ -75,6 +75,7 @@ $string['mustsetcallbackoptions'] = 'Vous devez indiquer les options de rappel (
 $string['noavailableplugins'] = 'Désolé, il n\'y a aucun portfolio disponible vers lequel exporter';
 $string['nocallbackclass'] = 'Impossible de trouver la classe de rappel (callback) à utiliser ($a)';
 $string['nocallbackfile'] = 'Un problème est présent dans le module depuis lequel vous essayez d\'exporter des données (callback). Impossible de trouver un fichier requis ($a)';
+$string['noclassbeforeformats'] = 'Vous devez définir la classe de rappel (callback) avant de faire appel à set_formats dans portfolio_button';
 $string['nocommonformats'] = 'Aucun format en commun entre les plugins de portfolio et le site appelant $a';
 $string['nonprimative'] = 'Une valeur incorrecte a été passée comme paramètre à portfolio_add_button. Impossible de continuer. La clef était $a->key et la valeur $a->value';
 $string['nopermissions'] = 'Vous n\'avez pas les permissions requises pour exporter des fichiers depuis cette zone';
