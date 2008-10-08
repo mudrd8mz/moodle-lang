@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20080706) (2008070500)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081008) (2008100801)
 
 
 $string['activities'] = '활동';
@@ -101,6 +101,7 @@ $string['configshowhiddenitems'] = '이용자가 moodle/grade:viewhidden 권한�
 $string['configshowlocks'] = '각 성적 부근에 잠금/잠금해제 아이콘을 보여줄지 여부';
 $string['configshownumberofgrades'] = '괄호로 각 성적의 옆에 집계될 성적의 수를 표시
 예: 45(34)';
+$string['configshowpercentage'] = '각 채점 항목의 백분율을 보여줄 것인가의 여부';
 $string['configshowquickfeedback'] = '일괄 피드백은 한꺼번에 많은 촌평을 편집할 수 있도록 채점자 보고서의 각 셀에 문서 입력난을 추가한다. 한번에 하나씩 저장하는 대신, 변경사항을 한꺼번에 저장하기 위해 갱신 버튼을 클릭할 수 있다';
 $string['configshowranges'] = '채점자 보고서에서 각 채점 항목에 대해 가능한 범위를 보여주는 행 표시';
 $string['configshowrank'] = '각 항목에 대해 순위 보이기';
@@ -453,6 +454,7 @@ $string['showlocks'] = '잠금 보이기';
 $string['shownohidden'] = '숨김 없음';
 $string['shownooutcomes'] = '학습성과 비공개';
 $string['shownumberofgrades'] = '돗수 보이기';
+$string['showpercentage'] = '백분율 보이기';
 $string['showquickfeedback'] = '일괄 피드백 보이기';
 $string['showranges'] = '범위 보이기';
 $string['showrank'] = '순위 보이기';

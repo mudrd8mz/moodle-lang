@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
+      // question.php - created with Moodle 2.0 dev (Build: 20081008) (2008100801)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -122,6 +122,7 @@ $string['movingquestionsnofiles'] = '정말 {$a->questions} 문항을 <strong>\"
 $string['needtochoosecat'] = '문제를 이동시키려면 범주를 선택하고 그렇지 않으면 \'취소\'를 누르세요.';
 $string['nocate'] = '$a 범주는 없음!';
 $string['nopermissionadd'] = '여기에 문제를 추가시킬 자격이 없습니다.';
+$string['nopermissionmove'] = '문항을 이동시킬 수 있는 권한이 없습니다. 이 범주에 문항을 저장하거나 새 문항으로 저장하십시오.';
 $string['noprobs'] = '문제은행 데이터베이스에는 아무런 문제점도 없습니다.';
 $string['notenoughdatatoeditaquestion'] = '문항 아이디, 범주 아이디 및 문제 유형 등이 지정되지 않았습니다.';
 $string['notenoughdatatomovequestions'] = '문항을 이동시키기 위해서 문제의 id를 넣어야 합니다.';
