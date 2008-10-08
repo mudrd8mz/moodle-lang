@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -243,6 +243,7 @@ $string['configtimezone'] = 'Tu môžete nastaviť východzie časové pásmo. T
 $string['configunzip'] = 'Uveďte umiestnenie Vášho unzip programu (iba Unix, nepovinné). Je to potrebné pre rozbalenie zozipovaných archívov na serveri. Ak túto voľbu nevyplníte, Moodle bude používať vlastný interný postup.';
 $string['configusetags'] = 'Má byť funkcionalita tagov zapnutá na portáli?';
 $string['configvariables'] = 'Všeobecné premenné';
+$string['configverifychangedemail'] = 'Povoliť kontrolu zmeneného mailu pomocou nastavení povolených a zakázaných domén. Ak je toto nastavenie nepovolené, kontrola domén je vykonávaná iba pri vytváraní používateľov.';
 $string['configvisiblecourses'] = 'Zobrazovať kurzy v skrytých kategóriách normálne';
 $string['configwarning'] = 'Postupujte veľmi opatrne pri zmenách týchto nastavení - nesprávne hodnoty môžu spôsobiť problémy.';
 $string['configxmlstrictheaders'] = 'Ak nastavíte, každá stránka bude generovaná pomocou XML http hlavičky a prológu, takže web prehliadače budú zobrazovať chyby priamo cez web. Je to výhodné iba pre vývojových pracovníkov.';
@@ -739,6 +740,7 @@ $string['usersdeleted'] = 'Používatelia vymazaní';
 $string['usersrenamed'] = 'Premenované používateľské účty';
 $string['usersskipped'] = 'Používatelia preskočení';
 $string['usersupdated'] = 'Aktualizované používateľské účty';
+$string['usersweakpassword'] = 'Používatelia s prelomiteľným heslom';
 $string['usetags'] = 'Zapnúť funkcionalitu tagov';
 $string['uubulk'] = 'Vybrať pre hromadné operácie';
 $string['uubulkall'] = 'Všetci používatelia';
@@ -763,6 +765,7 @@ $string['uuupdatefromfile'] = 'Prepísať so súborom';
 $string['uuupdatemissing'] = 'Doplniť chýbajúce zo súboru a východzích nastavení';
 $string['uuupdatetype'] = 'Podrobnosti o existujúcich používateľoch';
 $string['validateerror'] = 'Táto hodnota nie je validná:';
+$string['verifychangedemail'] = 'Obmedziť domény pri zmene mailu';
 $string['warningcurrentsetting'] = 'Nesprávna súčasná hodnota: $a';
 $string['webproxy'] = 'Web proxy';
 $string['webproxyinfo'] = 'Vyplňte nasledujúce nastavenia, ak váš Moodle server nemôže priamo pristupovať na Internet. Internetový prístup je potrebný pre sťahovanie informácií o prostredí, jazykové balíčky, RSS údaje, časové pásma a podobne. <br /><em>Doporučuje sa PHP rozšírenie cURL.</em>';
