@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // question.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['adminreport'] = 'Rapporto su possibili problemi nel tuo database di domande.';
 $string['broken'] = 'Questo è un \"link interrotto\", punta a un file inesistente.';
-$string['byandon'] = 'di <em>$a->user</em> il <em>$a->time</em>';
+$string['byandon'] = 'da <em>$a->user</em> <em>$a->time</em>';
 $string['categorycurrent'] = 'Categoria corrente';
 $string['categorycurrentuse'] = 'Usa questa categoria';
 $string['categorydoesnotexist'] = 'Questa categoria non esiste';
@@ -28,7 +28,11 @@ $string['errordeletingquestionsfromcategory'] = 'Errore nella cancellazione di d
 $string['errorfilecannotbecopied'] = 'Errore: il file $a non può essere copiato.';
 $string['errorfilecannotbemoved'] = 'Errore: il file $a non può essere spostato.';
 $string['errorfileschanged'] = 'Errore: i files linkati dalle domande sono cambiati da quando è iniziata la visualizzazione di questo form.';
+$string['errormanualgradeoutofrange'] = 'La valutazione $a->grade non è compresa tra 0 e $a->maxgrade per la domanda $a->name. Punteggio e commento non sono stati salvati.';
 $string['errormovingquestions'] = 'Errore nello spostamento di domande con ids $a.';
+$string['errorprocessingresponses'] = 'Si è verificato un errore durante l\'elaborazione delle tue risposte.';
+$string['errorsavingcomment'] = 'Errore durante il salvataggio nel database del commento per la domanda $a->name.';
+$string['errorupdatingattempt'] = 'Errore nell\'aggiornamento nel database del tentativo $a->id.';
 $string['exportcategory'] = 'Esporta categoria';
 $string['filesareacourse'] = 'area files del corso';
 $string['filesareasite'] = 'area files del sito';
@@ -60,9 +64,9 @@ $string['nopermissionadd'] = 'Non sei autorizzato ad aggiungere domande qui.';
 $string['noprobs'] = 'Non trovato alcun problema nel tuo database delle domande.';
 $string['notenoughdatatoeditaquestion'] = 'Non è stato specificato un id di domanda, o un id di categoria e il tipo domanda.';
 $string['notenoughdatatomovequestions'] = 'Devi fornire l\'ID delle domande che vuoi spostare.';
-$string['permissionedit'] = 'Modifica questa domanda';
-$string['permissionmove'] = 'Sposta questa domanda';
-$string['permissionsaveasnew'] = 'Salva questa come una nuova domanda';
+$string['permissionedit'] = 'Modificare questa domanda';
+$string['permissionmove'] = 'Spostare questa domanda';
+$string['permissionsaveasnew'] = 'Salvare questa come una nuova domanda';
 $string['permissionto'] = 'Sei autorizzato a:';
 $string['published'] = 'condivise';
 $string['questionaffected'] = '<a href=\"$a->qurl\">La domanda \"$a->name\" ($a->qtype)</a> è in questa categoria ma è anche usata nel <a href=\"$a->qurl\">quiz \"$a->quizname\"</a> nell\'altro corso \"$a->coursename\".';
@@ -80,5 +84,9 @@ $string['tofilecontext'] = 'Scrivi contesto su file';
 $string['unknown'] = 'Sconosciuto';
 $string['unknownquestiontype'] = 'Tipo domanda sconosciuto: <b>$a</b>.';
 $string['unpublished'] = 'non condivise';
+$string['upgradeproblemcategoryloop'] = 'Rilevato un problema nell\'aggiornamento delle categorie di domande. C\'è un circolo nell\'albero delle categorie. Gli id delle categorie interessate sono $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'La categoria di domande $a->name ($a->id) non può essere aggiornata.';
+$string['upgradeproblemunknowncategory'] = 'Rilevato un problema nell\'aggiornamento delle categorie di domande. La categoria $a->id sta sotto alla categoria $a->parent, che non esiste. La categoria superiore è stata cambiata per risolvere il problema.';
+$string['yourfileshoulddownload'] = 'Il download del file di esportazione dovrebbe cominciare tra breve. Altrimenti cliccare <a href=\"$a\">qui</a>.';
 
 ?>

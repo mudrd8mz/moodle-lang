@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // assignment.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['allowdeleting'] = 'Permettere rimozione';
 $string['allowmaxfiles'] = 'Numero massimo di file inviati';
 $string['allownotes'] = 'Permettere note';
-$string['allowresubmit'] = 'Possibilità  di consegnare più volte';
+$string['allowresubmit'] = 'Possibilità di consegnare più volte';
 $string['alreadygraded'] = 'Il tuo compito è già stato valutato e il re-invio non è consentito.';
 $string['assignment:grade'] = 'Valutare compito';
 $string['assignment:submit'] = 'Consegnare compito';
@@ -88,7 +88,7 @@ $string['notsubmittedyet'] = 'Non ancora inviato';
 $string['onceassignmentsent'] = 'Una volta che il compito è consegnato per la valutazione, non sarà più possibile cancellare o allegare files. Vuoi continuare?';
 $string['overwritewarning'] = 'Attenzione: trasferendo ulteriori compiti essi SOSTITUIRANNO quelli attualmente presenti.';
 $string['pagesize'] = 'Consegne mostrate per pagina';
-$string['preventlate'] = 'Previeni consegne in ritardo';
+$string['preventlate'] = 'Impedisci consegne in ritardo';
 $string['quickgrade'] = 'Abilita valutazione rapida';
 $string['responsefiles'] = 'Files di replica';
 $string['reviewed'] = 'Rivisto';

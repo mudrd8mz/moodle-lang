@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // moodle.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -305,7 +305,7 @@ $string['coursesmovedout'] = 'Corsi spostati da $a';
 $string['coursespending'] = 'Corsi in attesa di approvazione';
 $string['coursestaught'] = 'Corsi dove ho insegnato';
 $string['courseupdates'] = 'Aggiornamenti del corso';
-$string['courseuploadlimit'] = 'Dimensione massima file inviati al corso';
+$string['courseuploadlimit'] = 'Dimensione massima file caricabili nel corso';
 $string['create'] = 'Crea';
 $string['createaccount'] = 'Crea il mio nuovo account';
 $string['createfolder'] = 'Crea una cartella dentro $a';
@@ -328,7 +328,7 @@ $string['creatingmetacoursedata'] = 'Creazione informazioni metacorso';
 $string['creatingmodroles'] = 'Assegnazione e sostituzione dei ruoli a livello di modulo';
 $string['creatingnewcourse'] = 'Creazione nuovo corso';
 $string['creatingrolesdefinitions'] = 'Creazione delle definizioni dei ruoli';
-$string['creatingscales'] = 'Creazione graduatorie';
+$string['creatingscales'] = 'Creazione scale di valutazione';
 $string['creatingsections'] = 'Creazione sezioni';
 $string['creatingtemporarystructures'] = 'Creazione strutture temporanee';
 $string['creatinguserroles'] = 'Assegnazione e sostituzione dei ruoli a livello di utente';
@@ -405,7 +405,7 @@ $string['disable'] = 'Disabilita';
 $string['displayingfirst'] = 'Solo il primi $a->count $a->things sono mostrati';
 $string['displayingrecords'] = 'Mostra $a records';
 $string['displayingusers'] = 'Mostra gli iscritti a iniziare da $a->start fino a $a->end';
-$string['displayonpage'] = 'Mostra sulla pagina';
+$string['displayonpage'] = 'Mostra';
 $string['documentation'] = 'Documentazione';
 $string['donotask'] = 'Non chiedere';
 $string['down'] = 'In basso';
@@ -444,6 +444,7 @@ $string['editorhelptopics'] = 'Argomenti di help dell\'editor';
 $string['editorresettodefaults'] = 'Ripristina i valori standard';
 $string['editorsettings'] = 'Impostazioni editor';
 $string['editorshortcutkeys'] = 'Tasti di scelta rapida dell\'editor';
+$string['editremoteprofile'] = 'Modifica profilo remoto';
 $string['editsummary'] = 'Modifica introduzione';
 $string['editthisactivity'] = 'Modifica questa attività';
 $string['editthiscategory'] = 'Modifica questa categoria';
@@ -457,13 +458,13 @@ $string['emailconfirmation'] = 'Salve $a->firstname,
 
 Un nuovo account è stato richiesto a \'$a->sitename\' usando il tuo indirizzo di posta elettronica.
 
-Per confermare il tuo nuovo account, devi cliccare sul seguente link:
+Per confermare questo account, devi cliccare sul seguente link:
 
 $a->link
 
 In molti programmi di posta, questo dovrebbe apparire come un link colorato di blu sul quale è sufficiente cliccare. Se in questo modo non dovesse funzionare, allora taglia e incolla il link nella finestra degli indirizzi in alto nel tuo browser e premi invio.
 
-Se avete bisogno di aiuto, contattare l\'amministratore del sito,
+Se hai bisogno di aiuto, contatta l\'amministratore del sito,
 $a->admin';
 $string['emailconfirmationsubject'] = '$a: conferma iscrizione';
 $string['emailconfirmsent'] = '<p>Una email è stata inviata al tuo indirizzo <b>$a</b></p>
@@ -472,7 +473,7 @@ $string['emailconfirmsent'] = '<p>Una email è stata inviata al tuo indirizzo <b
 $string['emaildigest'] = 'Tipo di raccolta email';
 $string['emaildigestcomplete'] = 'Completa (giornalmente invia i messaggi completi)';
 $string['emaildigestoff'] = 'Nessuna raccolta (ogni messaggio viene spedito via mail)';
-$string['emaildigestsubjects'] = 'Soggetti (giornalmente invia solo i soggetti dei messaggi)';
+$string['emaildigestsubjects'] = 'Oggetti (giornalmente invia solo gli oggetti dei messaggi)';
 $string['emaildisable'] = 'Questo indirizzo email è disabilitato.';
 $string['emaildisableclick'] = 'Clicca qui per disabilitare tutte le email dall\'essere spedite a questo indirizzo';
 $string['emaildisplay'] = 'Mostra Email';
@@ -735,7 +736,7 @@ $string['helpwiki'] = 'Come scrivere del testo Wiki';
 $string['helpwiththis'] = 'Aiuto per questo';
 $string['helpwriting'] = 'Scrivi con attenzione';
 $string['hiddenassign'] = 'Attribuzione nascosta';
-$string['hiddensections'] = 'Argomenti nascosti';
+$string['hiddensections'] = 'Sezioni nascoste';
 $string['hiddensectionscollapsed'] = 'Le sezioni nascoste sono mostrate in modo compatto';
 $string['hiddensectionsinvisible'] = 'Le sezioni nascoste sono completamente invisibili';
 $string['hide'] = 'Nascondi';
@@ -758,8 +759,8 @@ $string['htmleditordisabledbrowser'] = 'L\'editor HTML non è disponibile in qua
 $string['htmlfilesonly'] = 'Solo file HTML';
 $string['htmlformat'] = 'Formato HTML';
 $string['icqnumber'] = 'Numero ICQ';
-$string['idnumber'] = 'Matricola';
-$string['idnumbercourse'] = 'Matricola del corso';
+$string['idnumber'] = 'Codice';
+$string['idnumbercourse'] = 'Codice del corso';
 $string['idnumbermod'] = 'Numero ID';
 $string['idnumbertaken'] = 'Questo numero ID è già usato';
 $string['imagealt'] = 'Descrizione immagine';
@@ -878,14 +879,14 @@ $string['markthistopic'] = 'Contrassegna questo argomento come argomento corrent
 $string['maximumchars'] = 'Massimo $a caratteri';
 $string['maximumgrade'] = 'Valutazione massima';
 $string['maximumshort'] = 'Massimo';
-$string['maximumupload'] = 'Dimensione massima file inviati';
+$string['maximumupload'] = 'Dimensione massima file caricabili';
 $string['maxsize'] = 'Dimensione massima: $a';
 $string['memberincourse'] = 'Persone nel corso';
 $string['messagebody'] = 'Corpo del messaggio';
 $string['messagedselectedusers'] = 'È stato mandato il messaggio agli utenti selezionati e la lista dei destinatari è stata ripulita.';
 $string['messagedselectedusersfailed'] = 'Qualcosa non è andato a buon fine mentre veniva mandato il messaggio agli utenti selezionati. Alcuni utenti potrebbero aver ricevuto la mail.';
 $string['messageselect'] = 'Selezionare questo utente come destinatario di un mail';
-$string['messageselectadd'] = 'Aggiungi/invia messaggio';
+$string['messageselectadd'] = 'Invia messaggio';
 $string['metaaddcourse'] = 'Aggiungi questo corso';
 $string['metaalreadycourses'] = 'Corso già assegnato';
 $string['metaalreadyhascourses'] = 'Questo meta corso possiede già un corso figlio.';
@@ -914,6 +915,7 @@ $string['missinglastname'] = 'Non hai inserito il cognome';
 $string['missingname'] = 'Non hai inserito il nome';
 $string['missingnewpassword'] = 'Nuova password mancante';
 $string['missingpassword'] = 'Non hai inserito la password';
+$string['missingrecaptchachallengefield'] = 'Non hai riempito il campo reCAPTCHA';
 $string['missingreqreason'] = 'Motivazione mancante';
 $string['missingshortname'] = 'Nome breve mancante';
 $string['missingshortsitename'] = 'Nome breve del sito mancante';
@@ -1194,7 +1196,6 @@ $string['registrationsend'] = 'Manda le informazioni di registrazione a moodle.o
 $string['registrationyes'] = 'Si, inviatemi informazioni sulle cose importanti';
 $string['reject'] = 'Rifiuta';
 $string['reload'] = 'Ricarica';
-$string['remotemaharauser'] = 'Utente remoto Mahara';
 $string['remove'] = 'Rimuovi';
 $string['removeadmin'] = 'Rimuovi amministratore';
 $string['removecreator'] = 'Rimuovi creatore di corsi';
@@ -1306,7 +1307,7 @@ $string['showalltopics'] = 'Mostra tutti gli argomenti';
 $string['showallusers'] = 'Mostra tutti gli utenti';
 $string['showallweeks'] = 'Mostra tutte le settimane';
 $string['showblockcourse'] = 'Mostra la lista dei corsi contenenti blocchi';
-$string['showgrades'] = 'Mostra graduatorie';
+$string['showgrades'] = 'Mostra valutazioni';
 $string['showlistofcourses'] = 'Mostra la lista dei corsi';
 $string['showmodulecourse'] = 'Mostra la lista dei corsi contenenti attività';
 $string['showonly'] = 'Mostra solo';
@@ -1491,6 +1492,7 @@ $string['updatinga'] = 'Aggiornamento $a';
 $string['updatingain'] = 'Aggiornamento $a->what in $a->in';
 $string['upload'] = 'Trasferire sul server';
 $string['uploadafile'] = 'Trasferisci un file sul server';
+$string['uploadcantwrite'] = 'Scrittura del file su disco fallita';
 $string['uploadedfile'] = 'File correttamente inviato';
 $string['uploadedfileto'] = 'File $a->file salvato nella directory $a->directory';
 $string['uploadedfiletoobig'] = 'Spiacente, ma questo file è troppo grande (il limite è $a byte)';
@@ -1500,6 +1502,7 @@ $string['uploadformlimit'] = 'Il file inviato eccede la dimensione massima impos
 $string['uploadlabel'] = 'Titolo:';
 $string['uploadnofilefound'] = 'Non è stato trovato alcun file. Sei sicuro di averne selezionato uno per l\'upload?';
 $string['uploadnotallowed'] = 'Invio file non permesso';
+$string['uploadnotempdir'] = 'Manca una cartella temporanea';
 $string['uploadoldfilesdeleted'] = 'Il vecchi(o) file sul server è stato cancellato';
 $string['uploadpartialfile'] = 'Il file era stato solo parzialmente inviato';
 $string['uploadproblem'] = 'Un problema sconosciuto si è verificato salvando il file \'$a\' (può essere troppo grande?)';
@@ -1596,7 +1599,7 @@ $string['writingheader'] = 'Scrittura intestazione';
 $string['writingloginfo'] = 'Scrittura informazioni log';
 $string['writingmessagesinfo'] = 'Scrittura dei messaggi';
 $string['writingmoduleinfo'] = 'Scrittura informazioni moduli';
-$string['writingscalesinfo'] = 'Scrittura informazioni graduatorie';
+$string['writingscalesinfo'] = 'Scrittura informazioni scale di valutazione';
 $string['writinguserinfo'] = 'Scrittura informazioni utenti';
 $string['wrongpassword'] = 'Password non corrispondente con questo username';
 $string['xmldbeditor'] = 'Editor XMLDB';
@@ -1611,6 +1614,7 @@ $string['yourlastlogin'] = 'Il tuo ultimo login è stato:';
 $string['yourself'] = 'te stesso';
 $string['yourteacher'] = 'tuo $a';
 $string['zippingbackup'] = 'Compressione copia di salvataggio';
+$string['remotemaharauser'] = 'Utente remoto Mahara'; // ORPHANED
 $string['skiptomaincontent'] = 'Salta al contenuto principale'; // ORPHANED
 
 ?>

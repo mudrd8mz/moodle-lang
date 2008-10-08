@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // quiz.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['1day'] = '1 giorno';
@@ -97,6 +97,7 @@ $string['categorynamecantbeblank'] = 'Il nome della categoria non può essere vu
 $string['categorynoedit'] = 'Non hai la facoltà  di aggiornare la categoria \'$a\'.';
 $string['categoryupdated'] = 'La categoria è stata aggiornata con successo';
 $string['changessaved'] = 'Modifiche valutazione salvate';
+$string['changessavedwitherrors'] = 'Si sono verificati errori nel salvataggio delle valutazioni cambiate';
 $string['checkanswer'] = 'Controllo';
 $string['choice'] = 'Scelta';
 $string['choices'] = 'Scelte disponibili';
@@ -149,9 +150,9 @@ $string['defaultgrade'] = 'Punteggio di default della domanda';
 $string['defaultinfo'] = 'La categoria di default per le domande.';
 $string['delay1'] = 'Ritardo tra primo e secondo tentativo';
 $string['delay2'] = 'Ritardo tra i successivi tentativi';
-$string['deleteattemptcheck'] = 'Sei assolutamente sicuro di voler cancellare questi tentativi?';
-$string['deletequestioncheck'] = 'Sei assolutamente sicuro di voler cancellare \'$a\'?';
-$string['deletequestionscheck'] = 'Sei assolutamente sicuro di voler cancellare le seguenti domande? <div>$a</div>';
+$string['deleteattemptcheck'] = 'Sei sicuro di voler cancellare questi tentativi?';
+$string['deletequestioncheck'] = 'Sei sicuro di voler cancellare \'$a\'?';
+$string['deletequestionscheck'] = 'Sei sicuro di voler cancellare le seguenti domande? <div>$a</div>';
 $string['deleteselected'] = 'Cancella selezionati';
 $string['deletingquestionattempts'] = 'Cancellazione tentativi di risposta';
 $string['description'] = 'Commento';
@@ -220,7 +221,7 @@ $string['exportname'] = 'Nome del file';
 $string['exportnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['exportquestions'] = 'Esporta domande su file';
 $string['false'] = 'Falso';
-$string['feedback'] = 'Feedback';
+$string['feedback'] = 'Replica';
 $string['feedbackerrorboundaryformat'] = 'Le valutazioni di riferimento per il feedback devono essere o una percentuale o un numero. Il valore immesso in posizione $a non è valido.';
 $string['feedbackerrorboundaryoutofrange'] = 'Le valutazioni di riferimento per il feedback devono essere tra 0%% e 100%%. Il valore immesso in posizione $a è fuori dell\'intervallo.';
 $string['feedbackerrorjunkinboundary'] = 'Devi definire le valutazioni di riferimento senza lasciare alcun vuoto.';
@@ -375,6 +376,8 @@ $string['onlyteachersimport'] = 'Solo i docenti con diritto di modifica possono 
 $string['openclosedatesupdated'] = 'Date apertura e chiusura quiz aggiornate';
 $string['optional'] = 'opzionale';
 $string['outof'] = '$a->grade su un massimo di $a->maxgrade';
+$string['outofpercent'] = '$a->grade su un massimo di $a->maxgrade ($a->percent%%)';
+$string['outofshort'] = '$a->grade/$a->maxgrade';
 $string['overallfeedback'] = 'Feedback complessivo';
 $string['overdue'] = 'In ritardo';
 $string['pagesize'] = 'Tentativi mostrati per pagina:';

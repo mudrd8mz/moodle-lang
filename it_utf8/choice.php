@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // choice.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['addmorechoices'] = 'Aggiungi più scelte';
@@ -10,20 +10,20 @@ $string['choice:choose'] = 'Salvare una scelta';
 $string['choice:deleteresponses'] = 'Rimuovere le risposte';
 $string['choice:downloadresponses'] = 'Scaricare le risposte';
 $string['choice:readresponses'] = 'Leggere le risposte';
-$string['choiceclose'] = 'Fino al';
-$string['choicefull'] = "Questa opzione è completet .";
+$string['choiceclose'] = 'Chiusura';
+$string['choicefull'] = 'Questa opzione è completet .';
 $string['choicename'] = 'Nome della scelta';
-$string['choiceopen'] = 'Aperta';
+$string['choiceopen'] = 'Apertura';
 $string['choicetext'] = 'Testo della domanda';
 $string['displayhorizontal'] = 'Mostra orizzontalmente';
-$string['displaymode'] = 'modalità  di visualizzazione';
+$string['displaymode'] = 'Modalità  di visualizzazione';
 $string['displayvertical'] = 'Mostra verticalmente';
 $string['expired'] = 'Spiacente, questa attività è stata chiusa il $a e non è più disponibile';
 $string['fillinatleastoneoption'] = 'Devi fornire almeno due possibili risposte.';
 $string['full'] = '(Completo)';
 $string['havetologin'] = 'Bisogna effettuare il Login prima di sottomettere la vostra scelta';
 $string['limit'] = 'Limite';
-$string['limitanswers'] = 'Limita il numero delle risposte consentite';
+$string['limitanswers'] = 'Limitazione scelte';
 $string['modulename'] = 'Scelta';
 $string['modulenameplural'] = 'Scelte';
 $string['mustchooseone'] = 'Bisogna scegliere una risposta prima di salvare. Non è stato salvato nulla.';

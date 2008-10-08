@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // block_search.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['blockname'] = 'Ricerca globale';
 $string['bytes'] = 'bytes (0 = nessun limite)';
 $string['configbuttonlabel'] = 'Etichetta del pulsante';
-$string['configenablefileindexing'] = 'Abilita l\'i indicizzazione dei file';
+$string['configenablefileindexing'] = 'Abilita l\'indicizzazione dei file';
 $string['configfiletypes'] = 'Tipi di file gestiti';
 $string['configlimitindexbody'] = 'Limitazione della dimensione area indici';
 $string['configpdftotextcmd'] = 'Percorso per il comando pdftotext';

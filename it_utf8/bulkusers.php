@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.9 Beta 2 (2007101504)
+      // bulkusers.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['addall'] = 'Aggiungi tutti';
@@ -8,7 +8,7 @@ $string['allfilteredusers'] = 'Filtrati ($a->count/$a->total)';
 $string['allselectedusers'] = 'Selezionati ($a->count/$a->total)';
 $string['allusers'] = 'Tutti ($a)';
 $string['available'] = 'Possibili';
-$string['confirmmessage'] = 'Confermi di voler mandare il messaggio sopra a tutti questi utenti?<br />$a';
+$string['confirmmessage'] = 'Confermi di voler mandare il messaggio precedente a tutti questi utenti?<br />$a';
 $string['nofilteredusers'] = 'Nessun utente trovato (0/$a)';
 $string['noselectedusers'] = 'Nessun utente selezionato';
 $string['removeall'] = 'Rimuovi tutti';

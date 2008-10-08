@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // forum.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -277,6 +277,10 @@ $string['unreadposts'] = 'Interventi non letti';
 $string['unreadpostsnumber'] = '$a interventi non letti';
 $string['unreadpostsone'] = '1 intervento non letto';
 $string['unsubscribe'] = 'Cancella la tua iscrizione da questo forum';
+$string['unsubscribeall'] = 'Cancella la tua iscrizione da tutti i forum';
+$string['unsubscribeallconfirm'] = 'Attualmente sei iscritto a $a forum. Vuoi confermare la tua cancellazione da tutti i forum e disabilitare la autoiscrizione ai forum?';
+$string['unsubscribealldone'] = 'Tutte le tue iscrizioni ai forum sono state cancellate, ma puoi ancora ricevere messaggi dai forum che prevedono un\'iscrizione obbligatoria. In caso tu non voglia ricevere più email da questo server vai sul tuo profilo e disabilita l\'indirizzo email.';
+$string['unsubscribeallempty'] = 'Spiacente, non sei iscritto ad alcun forum. In caso tu non voglia ricevere più email da questo server vai sul tuo profilo e disabilita l\'indirizzo email.';
 $string['unsubscribed'] = 'Iscrizione cancellata';
 $string['unsubscribeshort'] = 'Disiscrivi';
 $string['usermarksread'] = 'Marca manualmente intervento letto';

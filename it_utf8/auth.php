@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // auth.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -46,6 +46,7 @@ $string['auth_changepasswordhelp'] = 'Aiuto cambiamento password';
 $string['auth_changepasswordhelp_expl'] = 'Mostra l\'aiuto per le password perse agli utenti che hanno perso la loro $a password. Questo verrà  mostrato insieme a o al posto della <strong>Pagina cambiamento password</strong> o del sistema di cambiamento password interno di Moodle.';
 $string['auth_changepasswordurl'] = 'Pagina cambiamento password';
 $string['auth_changepasswordurl_expl'] = 'Indicare l\'URL in cui indirizzare gli utenti che hanno perso la loro $a password. Impostare <strong>Utilizza la pagina standard per il cambio della password</strong> a <strong>No</strong>';
+$string['auth_changingemailaddress'] = 'Hai richiesto il cambio di indirizzo email da $a->oldemail a $a->newemail. Per motivi di sicurezza ti stiamo mandando un messaggio al nuovo indirizzo per avere conferma che ti appartiene. Il tuo indirizzo email sarà aggiornato appena tu clicchi sul link presente nel messaggio inviato.';
 $string['auth_common_settings'] = 'Impostazioni tipiche';
 $string['auth_data_mapping'] = 'Mappatura dei dati';
 $string['auth_dbcantconnect'] = 'Connessione non possibile al database specificato per l\'autenticazione ...';
@@ -91,10 +92,24 @@ $string['auth_dbuser_key'] = 'Utente DB';
 $string['auth_dbusernotexist'] = 'Non può essere modificato l\'utente non esistente: $a';
 $string['auth_dbuserstoadd'] = 'Records di utente da aggiungere: $a';
 $string['auth_dbuserstoremove'] = 'Records di utente da cancellare: $a';
+$string['auth_emailchangecancel'] = 'Annulla cambio email';
+$string['auth_emailchangepending'] = 'Cambio email in corso. Clicca sul link presente nel messaggio che ti è stato inviato a $a->preference_newemail.';
 $string['auth_emaildescription'] = 'La conferma tramite email è il metodo di autenticazione di default. Quando l\'utente si iscrive, scegliendo il suo nome utente e la password, una email di conferma viene spedita all\'indirizzo di posta elettronica dell\'utente. Questa email contiene un link a una pagina cliccando sulla quale l\'utente può confermare la sua iscrizione. Ai successivi login verranno controllati il nome utente e la password con i valori salvati nel database di Moodle.';
 $string['auth_emailnoemail'] = 'Fallito il tentativo di inviarti una email !';
 $string['auth_emailnoinsert'] = 'Il tuo record non può essere aggiunto al database!';
+$string['auth_emailnowexists'] = 'L\'indirizzo email che hai cercato di assegnare al tuo profilo è stato, nel frattempo, assegnato a qualcun altro, dal momento della tua richiesta. La richiesta di modifica email è stata quindi annullata, ma puoi provare ancora con un indirizzo email differente.';
+$string['auth_emailrecaptcha'] = 'Aggiungi un elemento di input per la conferma audio/visuale nella pagina di autoregistrazione degli utenti. Questo protegge il sito contro gli spammer e contribuisce a una buona causa. Per maggiori dettagli vedi http://recaptcha.net/learnmore.html.<br/><me>E\' richiesta l\'estensione PHP cURL.</em>';
+$string['auth_emailrecaptcha_key'] = 'Abilita elemento reCAPTCHA';
+$string['auth_emailsettings'] = 'Impostazioni';
 $string['auth_emailtitle'] = 'Autenticazione via email';
+$string['auth_emailupdate'] = 'Modifica indirizzo email';
+$string['auth_emailupdatemessage'] = 'Caro $a->fullname,
+
+hai richiesto la modifica dell\'indirizzo email del tuo account sul sito $a->site. Clicca sul link seguente (o aprilo nel tuo browser) per confermare la richiesta.
+
+$a->url';
+$string['auth_emailupdatesuccess'] = 'L\'indirizzo email dell\'utente <em>$a->fullname</em> è stato modificato in <em>$a->email</em>.';
+$string['auth_emailupdatetitle'] = 'Conferma modifica email sul sito $a->site';
 $string['auth_fcchangepasswordurl'] = 'URL per cambio password';
 $string['auth_fcconnfail'] = 'Connessione fallita con Numero errore: $a[0] e Stringa di Errore: $a[1]';
 $string['auth_fccreators'] = 'Elenca i gruppi dei membri abilitati alla creazione di nuovi corsi. Separa gruppi multipli con \';\'. I nomi devo essere scritti esattamente come sul server FirstClass. Il sistema è sensibile alla capitalizzazione.';
@@ -123,7 +138,10 @@ $string['auth_imapport_key'] = 'Porta';
 $string['auth_imaptitle'] = 'Server IMAP';
 $string['auth_imaptype'] = 'Tipo di server IMAP. I server IMAP possono avere modi  differenti di autenticazione e negoziazione.';
 $string['auth_imaptype_key'] = 'Tipo';
+$string['auth_invalidnewemailkey'] = 'Errore: se stai cercando di confermare un cambio di indirizzo email, puoi aver fatto un errore nel copiare il link che ti abbiamo mandato via email. Prova ancora copiando correttamente l\'indirizzo.';
 $string['auth_ldap_ad_create_req'] = 'Non è stato creato l\'account in Active Directory. Controllare di avere tutti i requisiti per poterlo fare (connessione LDAPS, utente di bind con privilegi adeguati, eccetera)';
+$string['auth_ldap_attrcreators'] = 'Lista di gruppi o contesti i cui membri sono autorizzati a creare attributi. Separa gruppi multipli con\';\'. Di solito qualcosa tipo \'cn=teachers,ou=staff,o=myorg\'';
+$string['auth_ldap_attrcreators_key'] = 'Creatori di attributi';
 $string['auth_ldap_auth_user_create_key'] = 'Creare utenti esternamente';
 $string['auth_ldap_bind_dn'] = 'Se desiderate usare un utente Bind per cercare gli utenti, specificatelo qui. Qualcosa come \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Distinguished Name';
@@ -137,7 +155,7 @@ $string['auth_ldap_create_context'] = 'Se attivate la creazione degli utenti con
 .<br /><b>Nota!</b> Dovete modificare la funzione auth_user_create() nel file auth/ldap/lib.php per far funzionare le creazioni dell\'utente.';
 $string['auth_ldap_create_context_key'] = 'Contesto per nuovi utenti';
 $string['auth_ldap_create_error'] = 'Si è verificato un errore durante la creazione dell\'utente in LDAP.';
-$string['auth_ldap_creators'] = 'Lista dei gruppi nei quali i membri possono creare nuovi corsi. Separate i gruppi multipli con \';\'. Normalmente, qualcosa come: \'cn=teachers,ou=staff,o=myorg\'';
+$string['auth_ldap_creators'] = 'Lista di gruppi o contesti i cui membri sono autorizzati a creare nuovi corsi. Separa i gruppi multipli con \';\'. Normalmente, qualcosa tipo \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_creators_key'] = 'Creatori';
 $string['auth_ldap_expiration_desc'] = 'Selezionate No per disabilitare il controllo delle password scadute o la lettura della data di scadenza delle password direttamente da LDAP';
 $string['auth_ldap_expiration_key'] = 'Scadenza';
@@ -149,6 +167,8 @@ $string['auth_ldap_graceattr_desc'] = 'Opzionale: esclude l\'attributo gracelogi
 $string['auth_ldap_gracelogin_key'] = 'Attributo Grace login';
 $string['auth_ldap_gracelogins_desc'] = 'Abilita il supporto del gracelogin di LDAP. Dopo che  la password è scaduta l\'utente può accedere finché il contatore gracelogin non è a 0. Abilitando questa impostazione viene mostrato il messaggio di garanzia d\'accesso se la password è scaduta.';
 $string['auth_ldap_gracelogins_key'] = 'Gracelogins';
+$string['auth_ldap_groupecreators'] = 'Lista di gruppi o contesti i cui membri sono autorizzati a creare gruppi. Separa i gruppi multipli con \';\'. Normalmente, qualcosa tipo \'cn=teachers,ou=staff,o=myorg\'';
+$string['auth_ldap_groupecreators_key'] = 'Creatori di gruppi';
 $string['auth_ldap_host_url'] = 'Specifica il server LDAP con un URL tipo \'ldap://ldap.myorg.com/\' o \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_host_url_key'] = 'URL del host';
 $string['auth_ldap_ldap_encoding'] = 'Specificare la codifica usata dal server LDAP. Molto probabilmente utf-8, MS AD v2 usa la codifica default della piattaforma, come cp1252, cp1250, ecc.';
@@ -219,6 +239,7 @@ $string['auth_ntlmsso_enabled'] = 'Impostare a SI per provare il Single Sign On 
 $string['auth_ntlmsso_enabled_key'] = 'Abilita';
 $string['auth_ntlmsso_subnet'] = 'Se impostato, proverà il SSO solo con clienti in questa sotto-rete. Formato: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Sotto-rete';
+$string['auth_outofnewemailupdateattempts'] = 'Hai superato i tentativi permessi per modificare il tuo indirizzo email. La richiesta di modifica è stata annullata.';
 $string['auth_pamdescription'] = 'Questo metodo utilizza PAM per accedere ai nomi utente originali su questo server. E\' necessario installare <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">la libreria di autenticazione PAM di PHP4</a> per poter utilizzare questo modulo.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'La vostra password è scaduta. Volete cambiarla adesso?';
@@ -256,11 +277,17 @@ $string['auth_shib_convert_data_warning'] = 'Il file non esiste o non è leggibi
 $string['auth_shib_instructions'] = 'Utilizzare <a href=\"$a\">Shibboleth login</a> per avere accesso tramite Shibboleth, se la vostra istituzione lo supporta<br />Altrimenti, utilizzare il modulo di login normale qui mostrato.';
 $string['auth_shib_instructions_help'] = 'Qui dovreste fornire istruzioni su Shibbolet per i vostri utenti. Verranno mostrate nella pagina di login nella sezione delle istruzioni.
 Dovrebbe includere un collegamento a \"<b>$a</b>\"  in modo che gli utenti Shibboleth possano effettuare facilmente il login.';
+$string['auth_shib_no_organizations_warning'] = 'Se vuoi usare il servizio integrato WAYF, devi fornire una lista di elementi separati da virgola comprendenti Identity Provider entityIDs, i loro nomi e eventualmente un iniziatore di sessione.';
 $string['auth_shib_only'] = 'Solo Shibboleth';
 $string['auth_shib_only_description'] = 'Selezionate questa opzione se desiderate forzare l\'autenticazione Shibboleth.';
 $string['auth_shib_username_description'] = 'Nome';
+$string['auth_shibboleth_contact_administrator'] = 'In caso non sei associato con alcuna delle organizzazioni fornite e hai bisogno di accedere a un corso su questo server, contatta';
+$string['auth_shibboleth_errormsg'] = 'Seleziona l\'organizzazione di cui sei membro!';
 $string['auth_shibboleth_login'] = 'Login Shibboleth';
+$string['auth_shibboleth_login_long'] = 'Login a Moodle via Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Login manuale';
+$string['auth_shibboleth_select_member'] = 'Sono un membro di ...';
+$string['auth_shibboleth_select_organization'] = 'Per l\'autenticazione via Shibboleth, seleziona la tua organizzazione dalla lista drop down:';
 $string['auth_shibbolethdescription'] = 'Utilizzando questo metodo gli utenti vengono creati e autenticati utilizzando<a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a>';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Script per sincronizzazione Cron';
@@ -277,8 +304,10 @@ $string['authinstructions'] = 'Qui si possono fornire le istruzioni per i vostri
 $string['auto_add_remote_users'] = 'Aggiunta automatica utenti remoti';
 $string['changepassword'] = 'Cambia URL delle password';
 $string['changepasswordhelp'] = 'Qui si può specificare una collocazione dove i gli utenti possono recuperare o cambiare il loro nome utente/password se li hanno dimenticati. Questo servizio di Help verrà  fornito agli utenti sotto forma di pulsante nella pagina di login e nella loro pagina utente. Se lasciato vuoto, il bottone non verrà  visualizzato.';
-$string['chooseauthmethod'] = 'Scegliete un metodo di autenticazione:';
+$string['chooseauthmethod'] = 'Metodo di autenticazione';
 $string['createpasswordifneeded'] = 'Creare password se necessario';
+$string['enterthenumbersyouhear'] = 'Inserisci i numeri che senti';
+$string['enterthewordsabove'] = 'Inserisci le parole soprastanti';
 $string['errorminpassworddigits'] = 'La password deve avere almeno $a numeri.';
 $string['errorminpasswordlength'] = 'La password deve essere lunga almeno $a caratteri.';
 $string['errorminpasswordlower'] = 'La password deve contenere almeno $a lettere minuscole.';
@@ -290,7 +319,11 @@ $string['forcechangepassword_help'] = 'Forzare gli utenti a cambiare la password
 $string['forcechangepasswordfirst_help'] = 'Forzare gli utenti a cambiare la password al primo accesso a Moodle?';
 $string['forgottenpassword'] = 'Se viene inserita una URL qui, essa sarà usata come pagina di recupero della password perduta per questo sito. Questo serve per quei siti in cui la gestione delle password è effettuata completamente all\'esterno di Moodle. Lasciare lo spazio vuoto per usare il recupero password di default.';
 $string['forgottenpasswordurl'] = 'URL per password dimenticata';
+$string['getanaudiocaptcha'] = 'Chiedi un audio CAPTCHA';
+$string['getanimagecaptcha'] = 'Chiedi un\'immagine CAPTCHA';
+$string['getanothercaptcha'] = 'Chiedi un altro CAPTCHA';
 $string['guestloginbutton'] = 'Pulsante login ospite';
+$string['incorrectpleasetryagain'] = 'Sbagliato. Prova ancora.';
 $string['infilefield'] = 'Campo richiesto nel file';
 $string['instructions'] = 'Istruzioni';
 $string['internal'] = 'Interna';
@@ -305,6 +338,7 @@ $string['passwordhandling'] = 'Gestione del campo password';
 $string['plaintext'] = 'Testo semplice';
 $string['pluginnotenabled'] = 'Il plugin \'$a\' per l\'autenticazione non è abilitato.';
 $string['pluginnotinstalled'] = 'Il plugin \'$a\' per l\'autenticazione non è installato.';
+$string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'Timeout negoziazione RPC';
 $string['selfregistration'] = 'Auto registrazione';
 $string['selfregistration_help'] = 'Scegli quale plugin di autenticazione gestirà l\'auto-registrazione dell\'utente';

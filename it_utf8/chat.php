@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // chat.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
+$string['autoscroll'] = 'Auto-scroll';
 $string['beep'] = 'campanella';
 $string['chat:chat'] = 'Parlare in una chat';
 $string['chat:deletelog'] = 'Rimuovere i log delle chat';
@@ -27,8 +28,8 @@ $string['donotusechattime'] = 'Non pubblicare le ore di discussione';
 $string['enterchat'] = 'Clicca qui per entrare ora';
 $string['errornousers'] = 'Non riesco a trovare utenti!';
 $string['explaingeneralconfig'] = 'Queste impostazioni hanno <strong>sempre</strong> effetto';
-$string['explainmethoddaemon'] = 'Queste impostazioni importano soltanto se avete selezionato \"Server chat\" per chat_method';
-$string['explainmethodnormal'] = 'Queste impostazioni importano soltanto se avete selezionato \"Metodo normale\" per chat_method';
+$string['explainmethoddaemon'] = 'Queste impostazioni interessano soltanto se avete selezionato \"Server chat\" per chat_method';
+$string['explainmethodnormal'] = 'Queste impostazioni interessano soltanto se avete selezionato \"Metodo normale\" per chat_method';
 $string['generalconfig'] = 'Configurazione generale';
 $string['helpchatting'] = 'Aiuto per la chat';
 $string['idle'] = 'Inattivo';
@@ -50,7 +51,7 @@ $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nessuna sessione programmata';
 $string['oldping'] = 'Timeout disconnessione';
-$string['pastchats'] = "Sessioni passate di chat";
+$string['pastchats'] = 'Sessioni passate di chat';
 $string['refreshroom'] = 'Aggiorna stanza';
 $string['refreshuserlist'] = 'Aggiorna lista utenti';
 $string['removemessages'] = 'Rimuovi tutti i messaggi';
@@ -67,7 +68,7 @@ $string['serverport'] = 'Porta server';
 $string['sessions'] = 'Sessioni chat';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Tutti posso vedere le sessioni passate';
-$string['updatemethod'] = 'Medoto aggiornamento';
+$string['updatemethod'] = 'Metodo aggiornamento';
 $string['viewreport'] = 'Guarda le sessioni passate';
 
 ?>

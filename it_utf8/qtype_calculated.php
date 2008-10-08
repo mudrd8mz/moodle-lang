@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_calculated.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['addmoreanswerblanks'] = 'Aggiungi un altro spazio risposta.';
@@ -23,6 +23,8 @@ $string['nodataset'] = 'niente - non è un carattere jolly';
 $string['nosharedwildcard'] = 'Nessun carattere jolly condiviso in questa categoria';
 $string['possiblehdr'] = 'Possibili caratteri jolly solo nel testo della domanda';
 $string['tolerance'] = 'Tolleranza &plusmn;';
+$string['trueanswerinsidelimits'] = 'Risposta corretta: $a->correct dentro i limiti del valore vero $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">ERRORE Risposta corretta: $a->correct fuori dai limiti del valore vero $a->true</span>';
 $string['updatecategory'] = 'Aggiorna la categoria';
 $string['usedinquestion'] = 'Usato nella domanda';
 $string['youmustenteramultiplierhere'] = 'Deve essere inserito un moltiplicatore.';
