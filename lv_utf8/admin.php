@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['accessdenied'] = 'Piekļuve liegta';
@@ -318,6 +318,7 @@ $string['globalswarning'] = '<p><strong>Drošības brīdinājums</strong>: lai M
 $string['gotofirst'] = 'Pāriet pie pirmās trūkstošās frāzes';
 $string['gradebook'] = 'Vērtējumu žurnāls';
 $string['gradebookroles'] = 'Vērtētās lomas';
+$string['gradeexport'] = 'Primārās vērtējumu eksportēšanas metodes';
 $string['guestroleid'] = 'Viesa loma';
 $string['helpadminseesall'] = 'Norādiet, vai administratori redz visus kalendāra notikumus vai tikai tos, kas attiecas uz viņiem.';
 $string['helpcalendarsettings'] = 'Konfigurējiet dažādus ar kalendāru un datumu/laiku saistītos sistēmas Moodle aspektus.';
@@ -399,6 +400,7 @@ $string['messaging'] = 'Iespējot ziņojumapmaiņas sistēmu';
 $string['misc'] = 'Dažādi';
 $string['mnetrestore_extusers'] = '<strong>Piezīme.</strong> Šajā dublējuma failā ir iekļauti attālo Moodle tīkla lietotāju konti, kas šajā procesā tiks atjaunoti.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Piezīme.</strong> Šis dublējuma fails acīmredzot ir nācis no citas sistēmas Moodle instalācijas, un tajā ir iekļauti attālo Moodle tīkla lietotāju konti, kuru atjaunošana var neizdoties. Šī operācija netiek atbalstīta. Ja esat pārliecināts, ka fails ir izveidots šajā Moodle instalācijā vai ja varat nodrošināt visu nepieciešamo Moodle tīkla resursdatoru konfigurēšanu, varat mēģināt veikt šo atjaunošanu.';
+$string['modsettings'] = 'Pārvaldīt aktivitātes';
 $string['modulesecurity'] = 'Moduļu drošība';
 $string['multilangforceold'] = 'Uzspiest veco daudzvalodu sintaksi: &lt;span&gt; bez class=“multilang” un &lt;lang&gt;';
 $string['multilangupgrade'] = 'Daudzvalodu jaunināšana';

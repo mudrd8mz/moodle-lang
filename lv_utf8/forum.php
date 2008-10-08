@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // forum.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
 
 
 $string['addanewdiscussion'] = 'Pievienot jaunu diskusijas tēmu';
@@ -30,6 +30,7 @@ $string['bynameondate'] = 'pēc $a->name — $a->date';
 $string['cannotadddiscussion'] = 'Lai šim forumam pievienotu diskusijas, jābūt iekļautam grupā.';
 $string['cannotadddiscussionall'] = 'Jums nav atļauts pievienot jaunu diskusiju tēmu visiem dalībniekiem.';
 $string['cannotviewpostyet'] = 'Jūs šajā diskusijā vēl nevarat lasīt citu studentu jautājumus, jo neesat neko publicējis.';
+$string['cleanreadtime'] = 'Veco ziņojumu atzīmēšanas kā lasītus stunda';
 $string['configcleanreadtime'] = 'Dienas stunda, kad lasīšanas tabulā notīrīt vecās publicētās ziņas.';
 $string['configdisplaymode'] = 'Noklusējuma diskusiju rādīšanas režīms, ja režīms nav iestatīts.';
 $string['configenablerssfeeds'] = 'Šis slēdzis ļaus visiem forumiem izmantot RSS plūsmas. Tomēr katra foruma iestatījumos plūsmas joprojām būs jāieslēdz manuāli.';

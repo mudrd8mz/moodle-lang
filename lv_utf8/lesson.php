@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.7 beta + (2006101003)
+      // lesson.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+
 
 $string['accesscontrol'] = 'Piekļuves vadība';
 $string['actionaftercorrectanswer'] = 'Darbība pēc pareizi atbildēta jautājuma';
@@ -61,6 +62,7 @@ $string['credit'] = 'Kredītpunkti';
 $string['customscoring'] = 'Pielāgota vērtēšana';
 $string['deadline'] = 'Izpildes termiņš';
 $string['defaultessayresponse'] = 'Jūsu eseju vērtēs kursa instruktors.';
+$string['deleteallattempts'] = 'Dzēst visus nodarbību mēģinājumus';
 $string['deletedefaults'] = 'Izdzēsts nodarbības $a x noklusējuma iestatījums';
 $string['deletedpage'] = 'Izdzēsta lapa';
 $string['deleting'] = 'Notiek dzēšana';
@@ -128,8 +130,10 @@ $string['leftduringtimed'] = 'Esat pārtraucis piedalīšanos ierobežota ilguma
 $string['leftduringtimednoretake'] = 'Esat pārtraucis piedalīšanos ierobežota ilguma nodarbībā,<br />un jums nav atļauts šo nodarbību turpināt vai sākt vēlreiz no sākuma.';
 $string['lesson:edit'] = 'Rediģēt nodarbības aktivitāti';
 $string['lesson:manage'] = 'Pārvaldīt nodarbības aktivitāti';
+$string['lessonattempted'] = 'Nodarbība mēģināta';
 $string['lessonclosed'] = 'Šī nodarbība ir slēgta $a.';
 $string['lessoncloses'] = 'Nodarbība tiek slēgta.';
+$string['lessoncloseson'] = 'Nodarbība tiek slēgta $a';
 $string['lessondefault'] = 'Izmantot šīs nodarbības iestatījumus kā noklusējuma iestatījumus';
 $string['lessonformating'] = 'Nodarbības izveide';
 $string['lessonmenu'] = 'Nodarbības izvēlne';
@@ -175,6 +179,7 @@ $string['nobranchtablefound'] = 'Nav atrasta neviena zarojumtabula.';
 $string['nocommentyet'] = 'Vēl nav iesniegts neviens komentārs.';
 $string['nocoursemods'] = 'Nav atrasta neviena aktivitāte.';
 $string['nocredit'] = 'Nav kredītpunktu';
+$string['nodeadline'] = 'Nav beigu termiņa';
 $string['noessayquestionsfound'] = 'Šajā nodarbībā nav atrasts neviens esejas jautājums.';
 $string['nohighscores'] = 'Nav labāko rezultātu.';
 $string['nolessonattempts'] = 'Šajā nodarbībā nav veikts neviens mēģinājums.';
@@ -201,7 +206,6 @@ $string['or'] = 'VAI';
 $string['ordered'] = 'Sakārtots';
 $string['other'] = 'Cits';
 $string['outof'] = 'No $a';
-$string['outoftime'] = 'Laiks ir beidzies';
 $string['overview'] = 'Pārskats';
 $string['page'] = 'Lapa: $a';
 $string['pagecontents'] = 'Lapas saturs';
@@ -259,7 +263,6 @@ $string['startlesson'] = 'Sākt nodarbību';
 $string['studentattemptlesson'] = 'Lietotāja $a->firstname $a->lastname mēģinājumu skaits: $a->attempt';
 $string['studentname'] = '$a vārds, uzvārds';
 $string['studentoneminwarning'] = 'Brīdinājums. Lai pabeigtu nodarbību, jūsu rīcībā ir pēdējā minūte.';
-$string['studentoutoftime'] = 'Uzmanību! Šai nodarbībai paredzētais laiks ir beidzies. Jūsu atbilde uz pēdējo jautājumu netiek ieskaitīta, jo tika iesniegta pēc noteiktā laika beigām.  Lūdzu, noklikšķiniet uz turpināšanas pogas, lai pabeigtu nodarbību.';
 $string['studentresponse'] = 'Studenta {$a} atbilde';
 $string['submitname'] = 'Reģistrēt vārdu, uzvārdu';
 $string['teacherjumpwarning'] = 'Šajā nodarbībā tiek izmantota pāriešana $a->cluster vai pāriešana $a->unseen.  Tā vietā tiks izmantota pāriešana uz nākamo lapu.  Pieslēdzieties kā students, lai pārbaudītu šīs pāriešanas.';
@@ -291,11 +294,14 @@ $string['whatdofirst'] = 'Ko vēlaties darīt vispirms?';
 $string['wronganswerjump'] = 'Pāriešana pēc nepareizas atbildes';
 $string['wronganswerscore'] = 'Punkti par nepareizu atbildi';
 $string['wrongresponse'] = 'Nepareiza atbilde';
+$string['xattempts'] = '$a mēģinājumi';
 $string['youhaveseen'] = 'Jūs jau esat skatījis vairākas šīs nodarbības lapas.<br />Vai vēlaties sākt ar lapu, kuru skatījāt pēdējo?';
 $string['youmadehighscore'] = 'Jūs to ierakstījāt $a labāko rezultātu sarakstā.';
 $string['youranswer'] = 'Jūsu atbilde';
 $string['yourcurrentgradeis'] = 'Jūsu pašreizējais vērtējums ir $a.';
 $string['yourcurrentgradeisoutof'] = 'Jūsu pašreizējais vērtējums ir $a->grade no $a->total.';
 $string['youshouldview'] = 'Jāatbild vismaz uz šādu skaitu jautājumu: $a';
+$string['outoftime'] = 'Laiks ir beidzies'; // ORPHANED
+$string['studentoutoftime'] = 'Uzmanību! Šai nodarbībai paredzētais laiks ir beidzies. Jūsu atbilde uz pēdējo jautājumu netiek ieskaitīta, jo tika iesniegta pēc noteiktā laika beigām.  Lūdzu, noklikšķiniet uz turpināšanas pogas, lai pabeigtu nodarbību.'; // ORPHANED
 
 ?>
