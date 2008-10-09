@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080923) (2008091611)
+      // repository.php - created with Moodle 2.0 dev (Build: 20081009) (2008100801)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -36,6 +36,8 @@ $string['download'] = '내려받기';
 $string['downloadsucc'] = '내려받기 성공!';
 $string['editrepositoryinstance'] = '인스턴스 수정';
 $string['emptytype'] = '저장소 유형 생성 실패: 형식명이 비었음';
+$string['enablecourseinstances'] = '강좌 저장소 사용 가능';
+$string['enableuserinstances'] = '개인 저장소 사용 가능';
 $string['error'] = '오류 발생!';
 $string['existingrepository'] = '이미 있는 저장소';
 $string['filename'] = '파일명';
