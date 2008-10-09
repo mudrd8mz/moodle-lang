@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
+      // question.php - created with Moodle 2.0 dev (Build: 20081009) (2008100801)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -122,7 +122,8 @@ $string['movingquestionsandfiles'] = '本当に問題 {$a->questions} を<strong
 $string['movingquestionsnofiles'] = '本当に問題 {$a->questions} を<strong>「 {$a->tocontext} 」</strong>のコンテクストに移動してもよろしいですか?<br />{$a->fromareaname} の問題からリンクされているファイルは<strong>ありません</strong>。';
 $string['needtochoosecat'] = 'このカテゴリを移動するにはカテゴリを選択してください。または「キャンセル」をクリックしてください。';
 $string['nocate'] = 'カテゴリがありません  $a !';
-$string['nopermissionadd'] = 'あなたには問題をここに追加するパーミッションがありません。';
+$string['nopermissionadd'] = 'あなたには、ここに問題を追加するパーミッションがありません。';
+$string['nopermissionmove'] = 'あなたには、ここから問題を移動するパーミッションがありません。あなたは、このカテゴリに問題を保存するか、新しい問題として保存する必要があります。';
 $string['noprobs'] = 'あなたの問題データベースに問題は見つかりませんでした。';
 $string['notenoughdatatoeditaquestion'] = '問題ID、カテゴリIDおよび問題タイプが指定されていません。';
 $string['notenoughdatatomovequestions'] = 'あなたが移動したい問題の問題IDを提供してください。';
