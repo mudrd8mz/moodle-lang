@@ -30,6 +30,7 @@ $string['stacktrace'] = 'Trace de la pile&nbsp;:';
 $string['summary'] = '{$a->run}/{$a->total} tests terminés&nbsp;: <strong>{$a->passes}</strong> tests passés, <strong>{$a->fails}</strong> échecs et <strong>{$a->exceptions}</strong> exceptions.';
 $string['tablesnotsetup'] = 'Les tables de tests unitaires ne sont pas présentes. Voulez-vous les créer maintenant&nbsp;?.';
 $string['testtablescsvfileunwritable'] = 'Le fichier CSV des tables de test n\'est pas accessible en écriture ($a->filename)';
+$string['testtablesok'] = 'Les tables de test ont été installées correctement dans la base de données.';
 $string['thorough'] = 'Lancer un test exhaustif (peut être lent).';
 $string['unittests'] = 'Tests unitaires';
 $string['uncaughtexception'] = 'Exception non traitée [{$a->getMessage()}] dans [{$a->getFile()}:{$a->getLine()}]&nbsp;: TESTS INTERROMPUS.';
