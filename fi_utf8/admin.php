@@ -470,5 +470,8 @@ $string['users'] = 'Käyttäjät';
 $string['userscreated'] = 'Käyttäjä luotu';
 $string['usersrenamed'] = 'Käyttäjät nimetty';
 $string['usersupdated'] = 'Käyttäjät päivitetty';
+$string['uuupdatetype'] = 'Olemassa olevat käyttäjätiedot';
 $string['validateerror'] = 'Tämä arvo ei kelvannut:';
+$string['warningcurrentsetting'] = 'Virheellinen nykyinen arvo: $a';
 ?>
+

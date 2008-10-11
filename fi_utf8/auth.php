@@ -24,6 +24,7 @@ $string['auth_casdescription'] = 'Tässä menetelmässä käytetään CAS-palvel
 $string['auth_castitle'] = 'Käytä CAS-palvelinta (SSO)';
 $string['auth_changepasswordhelp'] = 'Salasanan vaihto-ohjeet';
 $string['auth_changepasswordurl'] = 'Salasanan vaihto URL-osoite';
+$string['auth_changingemailaddress'] = 'Olet vaihtamassa sähköpostiosoitettasi osoitteesta $a->oldemail osoitteeseen $a->newemail. Turvallisuuden takia uuteen osoitteeseen lähetetään varmistusviesti, jotta voit osoittaa sen kuuluvan sinulle. Osoitteesi päivitetään heti, kun käyt viestin ilmoittamassa URL-osoitteessa.';
 $string['auth_common_settings'] = 'Yleiset asetukset';
 $string['auth_data_mapping'] = 'Tietojen yhdistäminen';
 $string['auth_dbdescription'] = 'Tämä moduli tarkistaa ulkoisen tietokannan taulusta käyttäjätunnuksen ja salasanan. Jos käyttäjätunnus on uusi, myös muita tietoja voidaan kopioda Moodleen.';
@@ -42,6 +43,11 @@ $string['auth_emaildescription'] = 'Sähköpostivarmistus on oletusarvoinen tunn
 Kun käyttäjä luo itselleen tunnuksen, lähetetään varmistusviesti
 käyttäjälle. Viesti sisältää linkin, minkä avulla käyttäjä voi aktivoida tunnuksensa.';
 $string['auth_emailtitle'] = 'Käytä sähköpostivarmistusta';
+$string['auth_emailupdatemessage'] = '$a->fullname,
+
+Olet pyytänyt sähköpostiosoiteen muutosta moodle sivustolla $a->site. Osoitteesi päivitetään heti, kun käyt web-selaimella seuraavassa osoitteessa.
+
+$a-url';
 $string['auth_fccreators'] = 'Tämän ryhmän(ryhmien) jäsenet saavat luoda uusia kursseja. Erottele useat ryhmänimet \';\'-merkillä. Nimet on oltava täysin samoin kuin FirstClass palvelimella.';
 $string['auth_fcdescription'] = 'Tämä menetelmä käyttää FirstClass palvelinta tarkistaakseen ovatko annetttu käyttäjänimi ja salasana voimassa olevia.';
 $string['auth_fcfppport'] = 'Palvelin portti (3333 on yleisin)';
@@ -160,3 +166,4 @@ $string['update_oncreate'] = 'Luotaessa';
 $string['update_onlogin'] = 'Jokaisella kirjautumisella';
 $string['update_onupdate'] = 'Päivitettäessä';
 ?>
+

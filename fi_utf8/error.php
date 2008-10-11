@@ -2,6 +2,7 @@
       // Modified with langdiff.php
 
 $string['adminprimarynoedit'] = 'Muut eivät voi muokata pääasiallista ylläpitäjää';
+$string['cannotassignrole'] = 'Ei voi antaa roolia';
 $string['cannotcreatelangdir'] = 'Kielihakemistoa ei voitu luoda';
 $string['cannotcreatetempdir'] = 'Temp-hakemistoa ei voitu luoda';
 $string['cannotdownloadcomponents'] = 'Komponentteja ei voitu ladata';
@@ -45,6 +46,7 @@ $string['modulerequirementsnotmet'] = 'Moduulia \"$a->modulename\" ($a->moduleve
 $string['mustbeteacher'] = 'Sinun pitäisi olla opettaja käyttääksi tätä sivua';
 $string['noinstances'] = 'Kurssilla ei ole instasseja \"$a\":sta';
 $string['nonmeaningfulcontent'] = 'Merkityksetön sisältö';
+$string['nopermissions'] = 'Sinulla ei ole oikeutta tehdä kyseistä operaatiota ($a)';
 $string['notavailable'] = 'Ominaisuus ei ole tällä hetkellä käytettävissä.';
 $string['onlyadmins'] = 'Vain ylläpitäjät voivat tehdä tuon';
 $string['onlyeditingteachers'] = 'Vain opettajat voivat tehdä tuon';
@@ -61,3 +63,4 @@ $string['usernotavailable'] = 'Pahus, et voi tarkastella kyseisen käyttäjän t
 $string['wrongdestpath'] = 'Virheellinen kohde kansio';
 $string['wrongzipfilename'] = 'Virheellinen zip-tiedoston nimi';
 ?>
+

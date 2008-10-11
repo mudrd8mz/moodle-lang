@@ -77,6 +77,7 @@ $string['notattempted'] = 'Ei yritetty';
 $string['objectives'] = 'Tavoitteet';
 $string['organization'] = 'Organisaatio';
 $string['organizations'] = 'Organisaatiot';
+$string['package'] = 'Tiedostopaketti';
 $string['packagedir'] = 'Tiedoston luonti virhe: paketin hakemistoa ei voi luoda';
 $string['packagefile'] = 'Pakettitiedostoa ei määritetty';
 $string['passed'] = 'Hyväksytty';
@@ -127,3 +128,4 @@ $string['whatgrade'] = 'Arvioidut yritykset';
 $string['width'] = 'Leveys';
 $string['window'] = 'Ikkuna';
 ?>
+

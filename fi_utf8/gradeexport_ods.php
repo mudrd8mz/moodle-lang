@@ -1,8 +1,6 @@
-<?PHP // $Id$ 
-      // gradeexport_ods.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
-      // local modifications from http://moodle.tkukoulu.fi
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['modulename'] = 'OpenDocument-taulukko';
-
 ?>
+

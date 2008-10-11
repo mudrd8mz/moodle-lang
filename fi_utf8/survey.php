@@ -157,6 +157,9 @@ Ei ole olemassa oikeata tai vääriä vastauksia, tahdomme sinun mielipiteesi as
 
 Vastaamalla huolellisesti ja ajatuksella autat meitä parantamaan tätä kurssia tulevaisuudessa.';
 $string['collespname'] = 'COLLES haluttu (preferred)';
+$string['customintro'] = 'Oma alkuteksti';
+$string['deleteallanswers'] = 'Poista kaikki kyselyn vastaukset';
+$string['deleteanalysis'] = 'Poista vastausten analyysi';
 $string['done'] = 'Tehty';
 $string['download'] = 'Lataa';
 $string['downloadexcel'] = 'Lataa tiedot Excel-taulukkona';
@@ -186,6 +189,7 @@ $string['question'] = 'Kysymys';
 $string['questions'] = 'Kysymykset';
 $string['questionsnotanswered'] = 'Joihinkin monivalintoihin ei ole vastattu.';
 $string['report'] = 'Kyselyn raportti';
+$string['responses'] = 'Vastaukset';
 $string['savednotes'] = 'Muistiinpanosi tallennettiin';
 $string['scaleagree5'] = 'Vahvasti eri mieltä, Jotakuinkin eri mieltä, Ei samaa tai eri mieltä, Jotakuinkin samaa mieltä, Vahvasti samaa mieltä';
 $string['scales'] = 'Asteikot';
@@ -197,6 +201,7 @@ $string['survey:download'] = 'Palautteiden lataaminen';
 $string['survey:participate'] = 'Palautteen antaminen';
 $string['survey:readresponses'] = 'Palautteiden lukeminen';
 $string['surveycompleted'] = 'Olet vastannut tähän kyselyyn. Alla olevasta kuvasta näet yhteenvedon vastauksistasi verrattuna kurssin keskiarvoon.';
+$string['surveygraph'] = 'Kyselyn graafi';
 $string['surveyname'] = 'Kyselyn nimi';
 $string['surveysaved'] = 'Kysely tallennettu';
 $string['surveytype'] = 'Kyselyn tyyppi';
@@ -204,3 +209,4 @@ $string['thanksforanswers'] = 'Kiitos vastauksestasi tähän kyselyyn, $a';
 $string['time'] = 'Aika';
 $string['viewsurveyresponses'] = 'Katso $a kyselyn vastausta';
 ?>
+

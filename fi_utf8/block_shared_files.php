@@ -1,6 +1,5 @@
-<?PHP // $Id$ 
-      // block_shared_files.php - created with Moodle 1.5.2 + (2005060220)
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addcategory'] = 'Lisää kategoria';
 $string['addshared_file'] = 'Lisää tiedosto';
@@ -76,5 +75,5 @@ $string['teachersmaxdir'] = 'Opettajien suurin sallittu hakemistokoko';
 $string['teachersmaxupload'] = 'Opettajien suurin sallittu tiedostokoko';
 $string['uploadsettings'] = 'Asetukset';
 $string['url'] = 'Osoite';
-
 ?>
+

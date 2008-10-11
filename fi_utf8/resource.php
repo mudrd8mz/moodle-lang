@@ -42,10 +42,12 @@ $string['fetcherror'] = 'Tapahtui virhe sivua haettaessa.';
 $string['fetchservererror'] = 'Etäpalvelimella tapahtui virhe haettaessa sivua (ehkä ohjelma virhe)';
 $string['filename'] = 'Tiedoston nimi';
 $string['filtername'] = 'Aineiston automaattilinkitys';
+$string['forcedownload'] = 'Pakota tiedoston lataus';
 $string['frameifpossible'] = 'Pane aineisto kehykseen ja jätä sivuston navigointipainikkeet näkyviin.';
 $string['fulltext'] = 'Teksti';
 $string['htmlfragment'] = 'HTML';
 $string['imspackageloaded'] = 'Paketti ladattu';
+$string['keepnavigationvisible'] = 'Säilytä navigointi samalla sivulla';
 $string['localfile'] = 'Paikallinen tiedosto';
 $string['localfilechoose'] = 'Valitse paikallinen tiedosto (CD-ROM)';
 $string['localfilehelp'] = 'Apua paikallisten tiedostojen näyttämiseen';
@@ -111,8 +113,10 @@ $string['resourcetypetext'] = 'Tee uusi tekstisivu';
 $string['searchweb'] = 'Etsi web-sivua';
 $string['serverurl'] = 'Palvelimen URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Näytä kurssilohkot';
+$string['skipsubmenus'] = 'Ohita alimenusivut';
 $string['tableofcontents'] = 'Sisällysluettelo';
 $string['upbutton'] = 'Ylös';
 $string['variablename'] = 'Muuttujan nimi';
 $string['viewims'] = 'Katso IMS-sisältöpakettia';
 ?>
+

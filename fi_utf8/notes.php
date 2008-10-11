@@ -1,7 +1,5 @@
-<?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
-      // local modifications from http://moodle.tkukoulu.fi
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addnewnote'] = 'Lisää uusi kommentti';
 $string['addnewnoteselect'] = 'Valitse käyttäjät, joita kommentit koskevat';
@@ -26,5 +24,5 @@ $string['publishstate'] = 'Status';
 $string['site'] = 'sivusto';
 $string['sitenotes'] = 'Sivuston kommentit';
 $string['unknown'] = 'tuntematon';
-
 ?>
+

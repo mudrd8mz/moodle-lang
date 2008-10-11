@@ -5,6 +5,13 @@ $string['addanewdiscussion'] = 'Lisää uusi keskustelu';
 $string['addanewquestion'] = 'Lisää uusi kysymys';
 $string['addanewtopic'] = 'Lisää uusi aihe';
 $string['advancedsearch'] = 'Kehittynyt haku';
+$string['aggregateavg'] = 'Arvosanojen keskiarvo';
+$string['aggregatecount'] = 'Arvosanojen lukumäärä';
+$string['aggregatemax'] = 'Maksimi arvosana';
+$string['aggregatemin'] = 'Minimi arvosana';
+$string['aggregatenone'] = 'Ei arvosanaa';
+$string['aggregatesum'] = 'Arvosanojen summa';
+$string['aggregatetype'] = 'Yhdistelmän tyyppi';
 $string['allforums'] = 'Kaikki keskustelualueet';
 $string['allowchoice'] = 'Anna kaikkien valita';
 $string['allowdiscussions'] = 'Voiko $a avata uusia keskusteluja?';
@@ -242,3 +249,4 @@ $string['yournewquestion'] = 'Uusi kysymyksesi';
 $string['yournewtopic'] = 'Uusi keskustelun aihe';
 $string['yourreply'] = 'Vastauksesi';
 ?>
+

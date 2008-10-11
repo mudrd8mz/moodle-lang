@@ -176,7 +176,7 @@ $string['blockdeletefiles'] = 'Kaikki lohkoon \'$a->block\' liittyvä tieto on p
 $string['blocks'] = 'Lohkot';
 $string['blocksaddedit'] = 'Muokkaa lohkoja';
 $string['blockseditoff'] = 'Lohkojen muokkaus pois';
-$string['blocksediton'] = 'Lohkojen muokkaus päällä';
+$string['blocksediton'] = 'Lohkojen muokkaus päälle';
 $string['blocksetup'] = 'Asetetaan lohkojen taulut';
 $string['blocksuccess'] = '$a taulut on asetettu onnistuneesti';
 $string['bycourseorder'] = 'Kurssin mukaan';
@@ -188,8 +188,10 @@ $string['cancelled'] = 'Peruutettu';
 $string['categories'] = 'Kurssikategoriat';
 $string['category'] = 'Kategoria';
 $string['categoryadded'] = 'Kategoria \'$a\' lisätty';
+$string['categorycontents'] = 'Alikategoriat ja kurssit';
 $string['categorydeleted'] = 'Kategoria \'$a\' poistettu';
 $string['categoryduplicate'] = 'Kategoria \'$a\' on jo olemassa';
+$string['categorymodifiedcancel'] = 'Kategoriaa muokattiin! Peruuta ja yritä uudestaan.';
 $string['categoryname'] = 'Kategorian nimi';
 $string['categoryupdated'] = 'Kategoria \'$a\' päivitetty';
 $string['changedpassword'] = 'Salasana vaihdettu';
@@ -1216,6 +1218,7 @@ $string['returningtosite'] = 'Jos sinulla on jo tunnus:';
 $string['revert'] = 'Peruuta';
 $string['role'] = 'Rooli';
 $string['rolemappings'] = 'Roolien jako';
+$string['rolerenaming'] = 'Roolien uudelleennimeäminen';
 $string['roles'] = 'Roolit';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'Viimeisimpien RSS-artikkelien määrä';
@@ -1391,7 +1394,22 @@ $string['strftimemonthyear'] = '%%B %%Y';
 $string['strftimerecent'] = '%%d %%b, %%H:%%M';
 $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
+$string['strgiven'] = 'Alkuperäinen kurssi';
 $string['stringsnotset'] = 'Seuraavat merkkijonot eivät ole määriteltynä tiedostossa $a';
+$string['strinssave'] = 'Anna lukuoikeudet';
+$string['strmovewarning'] = 'Jaettua kansiota ei voi siirtää.';
+$string['strnoshared'] = 'Kansiota ei ole jaettu';
+$string['strshare'] = 'Jaa';
+$string['strshared'] = 'Jaettu';
+$string['strsharedel'] = 'Nämä kurssit voivat käyttää hakemistoa \'$a\'';
+$string['strsharedremote'] = 'Toisen jakama';
+$string['strsharehead'] = 'Jaa hakemisto';
+$string['strshareins'] = 'Nämä kurssit eivät voi käyttää hakemistoa \'$a\'';
+$string['strsharetoall'] = 'Jaa kaikille kursseille';
+$string['strtext'] = 'Jos ruksaat kurssin, hakemisto <b>$a</b> näytetään kyseiselle kurssille mutta ilman hallintaoikeuksia';
+$string['strtextmany'] = 'Jos valitset kursseja vasemmalta puolelta hakemisto <b>$a</b> näytetään kyseisille kursseille mutta ilman hallintaoikeuksia.<br><br>Jos valitset kursseja oikealta puolelta hakemisto <b>$a</b> häviää kyseisten kurssien tiedostonhallinnasta.';
+$string['strunshare'] = 'Muokkaa jakoa';
+$string['strunshareport'] = 'Jako pois';
 $string['studentnotallowed'] = 'Valitettavasti et voi liittyä kurssille tunnuksella \'$a\'';
 $string['students'] = 'Opiskelijat';
 $string['studentsandteachers'] = 'Opiskelijat ja opettajat';
@@ -1526,7 +1544,7 @@ $string['virusfoundlater'] = 'Kurssille $a->course  $a->date lähettämästäsi 
 $a->action
 
 Jos tämä on tehtävän palautus, uudelleenlähetys saattaa olla tarpeen jotta arviointi voidaan suorittaa.';
-$string['virusfoundlateradmin'] = 'Ylläpitäjä huomio! Kurssille $a->user kurssille $a->course  $a->date lähettämästä tiedostosta $a->filename on löytynyt virus. Tiedostolle on tapahtunut seuraavaa:
+$string['virusfoundlateradmin'] = 'Ylläpitäjä huomio! Käyttäjän $a->user kurssille $a->course  $a->date lähettämästä tiedostosta $a->filename on löytynyt virus. Tiedostolle on tapahtunut seuraavaa:
 
 $a->action
 
@@ -1539,7 +1557,7 @@ $a->action';
 $string['virusfoundsubject'] = '$a : Viruksen saastuttama!';
 $string['virusfounduser'] = 'Tiedosto $a, jonka lähetit, on viruksen saastuttama. Tiedoston lähetys ei onnistunut.';
 $string['virusplaceholder'] = 'Lähetetty tiedosto oli viruksen saastuttama ja tiedosto on eristetty tai tuhottu. Käyttäjälle on ilmoitettu asiasta.';
-$string['visible'] = 'Näytetään';
+$string['visible'] = 'Näkyvissä';
 $string['visibletostudents'] = 'Näytetään roolille';
 $string['warningdeleteresource'] = 'Varoitus: Kohteeseen $a on viittauksia aineistossa. Haluatko päivittää aineiston?';
 $string['webpage'] = 'Web-sivu';
@@ -1594,3 +1612,4 @@ $string['yourself'] = 'sinä itse';
 $string['yourteacher'] = '{$a}si';
 $string['zippingbackup'] = 'Pakataan varmuuskopiota';
 ?>
+

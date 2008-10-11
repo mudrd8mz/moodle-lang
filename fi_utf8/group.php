@@ -1,7 +1,5 @@
-<?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
-      // local modifications from http://moodle.tkukoulu.fi
-
+<?PHP // $Id$
+      // Modified with langdiff.php
 
 $string['addgroupstogroupings'] = 'Lisää/poista ryhmiä';
 $string['adduserstogroup'] = 'Lisää/poista käyttäjiä';
@@ -29,5 +27,5 @@ $string['toomanygroups'] = 'Liian vähän käyttäjiä annettuun ryhmämäärä�
 $string['usercount'] = 'Käyttäjien määrä';
 $string['usercounttotal'] = 'Käyttäjien määrä ($a)';
 $string['usergroupmembership'] = 'Valitun käyttäjän jäsenyys:';
-
 ?>
+
