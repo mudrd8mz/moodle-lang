@@ -65,6 +65,7 @@ $string['errordeletingquestionsfromcategory'] = 'Erreur lors de la suppression d
 $string['errorduringpost'] = 'Erreur lors du post-traitement&nbsp;!';
 $string['errorduringpre'] = 'Erreur lors du pré-traitement&nbsp;!';
 $string['errorduringproc'] = 'Erreur lors du traitement&nbsp;!';
+$string['errorduringregrade'] = 'Impossible de renoter la question $a->qid. Retour à l\'état $a->stateid.';
 $string['errorfilecannotbecopied'] = 'Impossible de copier le fichier $a.';
 $string['errorfilecannotbemoved'] = 'Impossible de déplacer le fichier $a.';
 $string['errorfileschanged'] = 'Erreur&nbsp;: certains fichiers liés dans des questions ont été modifiés depuis l\'affichage du formulaire.';
