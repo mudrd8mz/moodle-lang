@@ -1,9 +1,9 @@
 <?php // $Id$ 
 
 $string['activeportfolios'] = 'Portfolios actifs';
-$string['addalltoportfolio'] = 'Tout ajouter au portfolio';
+$string['addalltoportfolio'] = 'Tout enregistrer...';
 $string['addnewportfolio'] = 'Ajouter un portfolio';
-$string['addtoportfolio'] = 'Ajouter au portfolio';
+$string['addtoportfolio'] = 'Enregistrer...';
 $string['alreadyalt'] = 'Exportation en cours. Veuillez cliquer ici.';
 $string['alreadyexporting'] = 'Vous avez déjà entamé une exportation vers un portfolio durant cette session. Veuillez la terminer d\'abord, ou l\'annuler.';
 $string['availableformats'] = 'Formats d\'exportation disponibles';
@@ -17,6 +17,7 @@ $string['confirmexport'] = 'Veuillez confirmer l\'exportation';
 $string['confirmsummary'] = 'Résumé de votre exportation';
 $string['continuetoportfolio'] = 'Continuer vers votre portfolio';
 $string['deleteportfolio'] = 'Supprimer le portfolio';
+$string['destination'] = 'Destination';
 $string['disabled'] = 'Désolé, les exportations de portfolio ne sont pas activées sur ce site';
 $string['displayarea'] = 'Zone d\'exportation';
 $string['displayinfo'] = 'Infos d\'exportation';
@@ -112,7 +113,7 @@ $string['returntowhereyouwere'] = 'Retour à la page précédente';
 $string['save'] = 'Enregistrer';
 $string['selectedformat'] = 'Format d\'exportation sélectionné';
 $string['selectedwait'] = 'Sélection à attendre&nbsp;?';
-$string['selectplugin'] = 'Sélectionner le plugin de portfolio vers lequel exporter';
+$string['selectplugin'] = 'Sélectionner la destination';
 $string['someinstancesdisabled'] = 'Certaines instances de plugin de portfolio ont été désactivées, soit parce qu\'elles ne sont pas correctement configurées, soit parce qu\'elles requièrent d\'autres composants, à savoir';
 $string['somepluginsdisabled'] = 'Certains plugins de portfolio ont été désactivés, soit parce qu\'ils ne sont pas correctement configurés, soit parce qu\'ils requièrent d\'autres composants. Il s\'agit des plugins suivants.';
 $string['sure'] = 'Voulez-vous vraiment supprimer «&nbsp;$a&nbsp;»? L\'action est irrémédiable.';
