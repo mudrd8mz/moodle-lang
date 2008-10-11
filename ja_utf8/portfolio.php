@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20081010) (2008101000)
 
 
 $string['activeexport'] = 'アクティブエクスポートを解決する';
@@ -76,10 +76,12 @@ $string['invalidaddformat'] = '無効な追加フォーマットが「portfolio_
 $string['invalidbuttonproperty'] = 'portfolio_buttonのプロパティ ($a) が見つかりませんでした。';
 $string['invalidconfigproperty'] = '設定プロパティ ($a->property - $a->class) が見つかりませんでした。';
 $string['invalidexportproperty'] = 'エクスポート設定プロパティ ($a->property - $a->class) が見つかりませんでした。';
+$string['invalidfileareaargs'] = '無効なファイルエリア引数が「set_file_and_format_data」を通過しました - 「contextid」「filearea」「itemid」を含む必要があります。';
 $string['invalidfileargument'] = '無効なファイル引数が「portfolio_format_from_file」を通過しました - 「stored_file」オブジェクトを使用してください。';
 $string['invalidformat'] = '無効なフォーマットでエクスポートされています: $a';
 $string['invalidinstance'] = 'ポートフォリオインスタンスが見つかりませんでした。';
 $string['invalidproperty'] = 'プロパティ ($a->property - $a->class) が見つかりませんでした。';
+$string['invalidsha1file'] = 'get_sha1_fileに対する無効なコールです - 単一または複数ファイルをセットする必要があります。';
 $string['invalidtempid'] = '無効なエクスポートIDです。おそらく有効期限が切れています。';
 $string['invaliduserproperty'] = 'ユーザ設定プロパティ ($a->property - $a->class) が見つかりませんでした。';
 $string['logs'] = '転送ログ';
