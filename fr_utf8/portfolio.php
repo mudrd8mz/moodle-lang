@@ -49,6 +49,21 @@ $string['highdbsizethreshold'] = 'Taille de base de donnée élevée';
 $string['highdbsizethresholddesc'] = 'Nombre d\'enregistrements de la base de données au delà duquel le temps de transfert est considéré comme élevé';
 $string['highfilesizethreshold'] = 'Taille de transfert élevée';
 $string['highfilesizethresholddesc'] = 'Les fichiers dépassant cette taille seront considérés comme nécessitant un temps de transfert élevé';
+$string['insanesubject'] = 'Des instances portfolio ont été désactivées automatiquement';
+$string['insanebody'] = 'Bonjour, Vous recevez ce message en tant qu\'administrateur de $a->sitename.
+
+Des instances de plugin de portfolio ont été automatiquement désactivées en raison de problèmes de configuration. Cela signifie que les utilisateurs ne peuvent actuellement exporter de contenus vers ces portfolios.
+
+La liste des instances désactivées est la suivante :
+
+$a->textlist
+
+Veuillez corriger ce problème au plus vite, en vous rendant sur la page $a->fixurl.
+';
+$string['insanebodyhtml'] = '<p>Bonjour, Vous recevez ce message en tant qu\'administrateur de $a->sitename.</p>
+$a->htmllist
+<p>Veuillez corriger ce problème au plus vite, en vous rendant sur <a href=\"$a->fixurl\">les pages de configuration des portfolios</a>.</p>';
+$string['insanebodysmall'] = 'Bonjour, Vous recevez ce message en tant qu\'administrateur de $a->sitename. Des instances de plugin de portfolio ont été automatiquement désactivées en raison de problèmes de configuration. Cela signifie que les utilisateurs ne peuvent actuellement exporter de contenus vers ces portfolios. Veuillez corriger ce problème au plus vite, en vous rendant sur la page $a->fixurl.';
 $string['instancedeleted'] = 'Le portfolio a été supprimé';
 $string['instanceismisconfigured'] = 'La configuration du portfolio n\'est pas correcte. Erreur&nbsp;: $a';
 $string['instancenotdelete'] = 'Échec de la suppression du portfolio';
@@ -84,10 +99,12 @@ $string['nonprimative'] = 'Une valeur incorrecte a été passée comme paramètr
 $string['nopermissions'] = 'Vous n\'avez pas les permissions requises pour exporter des fichiers depuis cette zone';
 $string['notexportable'] = 'Désolé, le type de contenu que vous essayez d\'exporter n\'est pas exportable';
 $string['notimplemented'] = 'Désolé, vous essayez d\'exporter du contenu dans un format non encore implémenté ($a)';
+$string['notyetselected'] = 'Pas encore sélectionné';
 $string['notyours'] = 'Vous essayez de reprendre l\'exportation d\'un portfolio ne vous appartenant pas&nbsp;!';
 $string['nouploaddirectory'] = 'Impossible de créer un dossier temporaire dans lequel préparer vos données';
 $string['plugin'] = 'Plugin de portfolio';
 $string['plugincouldnotpackage'] = 'Échec de la préparation de vos données pour exportation&nbsp;: l\'erreur originale est $a';
+$string['pluginismisconfigured'] = 'Le plugin de portfolio est mal configuré et a été ignoré. L\'erreur était $a';
 $string['portfolio'] = 'Portfolio';
 $string['portfolios'] = 'Portfolios';
 $string['queuesummary'] = 'Transferts actuellement en attente';
@@ -95,9 +112,9 @@ $string['returntowhereyouwere'] = 'Retour à la page précédente';
 $string['save'] = 'Enregistrer';
 $string['selectedformat'] = 'Format d\'exportation sélectionné';
 $string['selectedwait'] = 'Sélection à attendre&nbsp;?';
-$string['selectplugin'] = 'Sélectionner le plugin de  portfolio vers lequel exporter';
-$string['someinstancesdisabled'] = 'Certaines instances de plugin ont été désactivées, soit parce qu\'elles ne sont pas correctement configurées, soit parce qu\'elles requièrent d\'autres composants, à savoir';
-$string['somepluginsdisabled'] = 'Certains plugins ont été désactivés, soit parce qu\'ils ne sont pas correctement configurés, soit parce qu\'ils requièrent d\'autres composants. Il s\'agit des plugins suivants.';
+$string['selectplugin'] = 'Sélectionner le plugin de portfolio vers lequel exporter';
+$string['someinstancesdisabled'] = 'Certaines instances de plugin de portfolio ont été désactivées, soit parce qu\'elles ne sont pas correctement configurées, soit parce qu\'elles requièrent d\'autres composants, à savoir';
+$string['somepluginsdisabled'] = 'Certains plugins de portfolio ont été désactivés, soit parce qu\'ils ne sont pas correctement configurés, soit parce qu\'ils requièrent d\'autres composants. Il s\'agit des plugins suivants.';
 $string['sure'] = 'Voulez-vous vraiment supprimer «&nbsp;$a&nbsp;»? L\'action est irrémédiable.';
 $string['thirdpartyexception'] = 'Une exception (logiciel tierce partie) a été levée par durant l\'exportation du portfolio ($a). L\'erreur a pu être récupérée mais ceci doit être corrigé.';
 $string['transfertime'] = 'Durée de transfert';
