@@ -53,6 +53,7 @@ $string['invalidrepositoryid'] = 'Identifiant de dépôt non valide';
 $string['keyword'] = 'Mot clef';
 $string['listview'] = 'Afficher en liste';
 $string['loading'] = 'Chargement...';
+$string['login'] = 'Connexion';
 $string['logout'] = 'Déconnexion';
 $string['manage'] = 'Gérer les dépôts';
 $string['manageurl'] = 'Gestion';
