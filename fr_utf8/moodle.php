@@ -301,6 +301,7 @@ $string['courserequestsuccess'] = 'Votre requête a été enregistrée. Vous rec
 $string['courserestore'] = 'Restauration du cours';
 $string['courses'] = 'Cours';
 $string['coursescategory'] = 'Cours de la même catégorie';
+$string['coursesettings'] = 'Réglages par défaut des cours';
 $string['coursesmovedout'] = 'Cours déplacés hors de $a';
 $string['coursespending'] = 'Cours en attente d\'approbation';
 $string['coursestaught'] = 'Cours que j\'ai donnés';
