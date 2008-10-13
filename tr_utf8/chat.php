@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // chat.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
 $string['ajax'] = 'Kullanılan ajax sürümü';
@@ -9,6 +9,8 @@ $string['cantinsert'] = 'Sohbet mesajı eklenemedi!';
 $string['cantlogin'] = 'Sohbet odasına giriş yapılamadı!';
 $string['chat:chat'] = 'Sohbette konuş';
 $string['chat:deletelog'] = 'Sohbet kayıtlarını sil';
+$string['chat:exportparticipatedsession'] = 'Katılımcı sohbet oturumlarını dışa ver';
+$string['chat:exportsession'] = 'Sohbet oturumunu dışa ver';
 $string['chat:readlog'] = 'Sohbet kayıtlarına bak';
 $string['chatintro'] = 'Tanıtım metni';
 $string['chatname'] = 'Sohbet odasının adı';

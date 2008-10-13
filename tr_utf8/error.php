@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // error.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
+$string['authorizeerror'] = 'Authorize hatası';
 $string['blockcannotconfig'] = 'Bu blokun genel yapılandırması yok';
 $string['blockcannotinistantiate'] = 'Blok nesnesi başlatılırken sorun oluştu';
 $string['blockdoesnotexist'] = 'Bu blok yok';
@@ -21,7 +22,6 @@ $string['cannotunzipfile'] = 'Dosya arşivi açılamadı.';
 $string['cannotviewprofile'] = 'Bu kullanıcının profiline bakamazsınız.';
 $string['cantunenrollfrommetacourse'] = 'Bu meta kurstan kaydınızı silemezsiniz.';
 $string['cantunenrollinthisrole'] = 'Şimdiki rolünüzle kurstan kaydınızı silemezsiniz.';
-$string['cmunknown'] = 'Bu kurs modülü bulunamadı';
 $string['componentisuptodate'] = 'Bileşen günceldir.';
 $string['confirmsesskeybad'] = 'Üzgünüz, oturum anahtarınız bu eylemi gerçekleştirmek için onaylanamadı. Bu güvenlik özelliği, sizin adınıza yapılacak olan önemli işlevlerin yanlışlıkla ya da kasten kullanılmasını engellemek içindir. Lütfen bu işlevi gerçekten yapmak istediğinizden emin olun.';
 $string['couldnotassignrole'] = 'Size rol atanmaya çalışılırken ciddi ama belirlenemeyen bir hata oluştu';
@@ -86,6 +86,7 @@ $string['pagenotexist'] = 'Nadiren görülen bir hata oluştu (olmayan bir sayfa
 $string['pleasereport'] = 'Zamanınız varsa, lütfen hata oluştuğunda ne yapmaya çalıştığınızı bilmemize izin verin:';
 $string['pluginrequirementsnotmet'] = '\"$a->pluginname\" ($a->pluginversion) eklentisi kurulamadı. Bu eklenti daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
 $string['processingstops'] = 'İşlem burada sona erer. Kalan kayıtlar yoksayılır.';
+$string['refoundto'] = 'Geri ödenebilir: $a';
 $string['remotedownloaderror'] = 'Bileşeni sunucunuza indirirken hata oluştu, lütfen proxy(vekil) ayarlarını kontrol edin. PHP cURL eklentisi şiddetle tavsiye edilir.<br /><br /><a href=\"$a->url\">$a->url</a><br />dosyasını kendiniz indirmeli ve indirdiğiniz dosyayı sunucunuzundaki \"$a->dest\" klasörüne kaydetmeli ve zip arşivini açmalısınız.';
 $string['remotedownloadnotallowed'] = 'Sunucunuza bileşen indirmeye izin verilmiyor. (allow_url_fopen pasif).<br /><br />Arşivlenmiş dosyayı <a href=\"$a->url\">$a->url</a> elle indirip buraya \"$a->dest\" açmalısınız.';
 $string['restricteduser'] = 'Üzgünüz, şu anki \"$a\" hesabınız bunu yapmak için sınırlandırılmıştır.';
@@ -121,5 +122,6 @@ $string['usernotupdatednotexists'] = 'Kullanıcı olmadığından kullanıcı g�
 $string['wrongdestpath'] = 'Hatalı hedef yolu';
 $string['wrongsourcebase'] = 'Hatalı kaynak URL base.';
 $string['wrongzipfilename'] = 'Hatalı ZIP dosya adı.';
+$string['cmunknown'] = 'Bu kurs modülü bulunamadı'; // ORPHANED
 
 ?>

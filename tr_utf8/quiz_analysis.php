@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
 $string['analysis'] = 'Öge analizi';
 $string['analysisdownload'] = 'Analiz indirme';
 $string['analysisoptions'] = 'Analiz seçenekleri';
+$string['analysisreport'] = 'Öge analiz raporu';
 $string['analysistitle'] = 'Öge Analiz Tablosu';
 $string['attemptsall'] = 'tüm uygulamalar';
 $string['attemptselection'] = 'Her bir kullanıcıyı analiz için uygulama';

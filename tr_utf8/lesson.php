@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
 $string['accesscontrol'] = 'Erişim kontrolü';
@@ -34,6 +34,32 @@ $string['averagescore'] = 'Ortalama not';
 $string['averagetime'] = 'Ortalama zaman';
 $string['branchtable'] = 'Konu Anlatım Tablosu';
 $string['cancel'] = 'İptal';
+$string['cannotdeleteanswer'] = 'Güncelleme sayfası: cevap kaydı silinemedi';
+$string['cannotdeleteattempt'] = 'Hata: eski uygulamalar silinemedi';
+$string['cannotdeletebranch'] = 'Hata: eski görülmüş dalları silinemedi';
+$string['cannotfindanswer'] = 'Hata: cevap bulunamadı';
+$string['cannotfindattempt'] = 'Hata: uygulama bulunamadı';
+$string['cannotfindessay'] = 'Hata: yazılı bulunamadı';
+$string['cannotfindfirstgrade'] = 'Hata: notlandırmalar bulunamadı';
+$string['cannotfindfirstpage'] = 'İlk sayfa bulunamadı';
+$string['cannotfindgrade'] = 'Hata: notlandırmalar bulunamadı';
+$string['cannotfindnewestgrade'] = 'Hata: en yüksek notlandırma bulunamadı';
+$string['cannotfindnextpage'] = 'Ders Yedeklemesi: Sonraki sayfa yok!';
+$string['cannotfindpages'] = 'Ders Sayfaları bulunamadı';
+$string['cannotfindpagetitle'] = 'Silme Onayı: sayfa başlığı bulunamadı';
+$string['cannotfindpreattempt'] = 'Önceki uygulama kaydı bulunamadı!';
+$string['cannotfindrecords'] = 'Hata: ders kayıtları bulunamadı';
+$string['cannotfindtimer'] = 'Hata: lesson_timers kayıtları bulunamadı';
+$string['cannotfinduser'] = 'Hata: kullanıcılar bulunamadı';
+$string['cannotinsertanswer'] = 'Yanıt kaydı eklenemedi';
+$string['cannotinsertgrade'] = 'Notlandırma eklenemedi';
+$string['cannotinserthighscore'] = 'Yeni yüksek notu eklerken hata!';
+$string['cannotinsertpage'] = 'Yeni sayfa eklenemedi';
+$string['cannotinserttimer'] = 'Hata: lesson_timer tablosuna yeni bir kayıt eklenemedi';
+$string['cannotupdateessayscore'] = 'Yazılı notu güncellenemedi';
+$string['cannotupdategrade'] = 'Not güncellenemedi';
+$string['cannotupdatelink'] = 'Bağlantı güncellenemedi';
+$string['cannotupdatetimer'] = 'Hata: lesson_timer tablosu güncellenemedi';
 $string['canretake'] = '$a tekrar alabilir';
 $string['casesensitive'] = 'Düzenli İfadeleri Kullan';
 $string['checkbranchtable'] = 'Konu anlatımını kontrol et';
@@ -127,6 +153,8 @@ $string['importcount'] = '$a soru alınıyor';
 $string['importppt'] = 'PowerPoint al';
 $string['importquestions'] = 'Soruları al';
 $string['insertedpage'] = 'Sayfa eklendi';
+$string['invalidlessonid'] = 'Ders ID hatalı';
+$string['invalidpageid'] = 'Geçersiz sayfa ID';
 $string['jump'] = 'Git';
 $string['jumps'] = 'Gider';
 $string['jumpsto'] = 'Gider: <em>$a</em>';

@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
 $string['addcomment'] = 'Yorum ekle';
 $string['addentry'] = 'Yeni kayıt ekle';
 $string['addingcomment'] = 'Yeni yorum ekle';
+$string['alias'] = 'Anahtar sözcük';
 $string['aliases'] = 'Anahtar sözcük(ler)';
 $string['allcategories'] = 'Tüm Kategoriler';
 $string['allentries'] = 'TÜMÜ';
@@ -14,6 +15,7 @@ $string['allowprintview'] = 'Yazıcı görünümü izni';
 $string['allowratings'] = 'Derecelendirme izni';
 $string['answer'] = 'Yanıt';
 $string['approve'] = 'Onayla';
+$string['areaintro'] = 'Sözlük tanıtımı';
 $string['areyousuredelete'] = 'Bu girdiyi silmek istediğinizden emin misiniz?';
 $string['areyousuredeletecomment'] = 'Bu yorumu silmek istediğinizden emin misiniz?';
 $string['areyousureexport'] = 'Bu girdiyi buraya çıkarmak istediğinizden emin misiniz';
@@ -125,6 +127,8 @@ $string['globalglossary'] = 'Genel sözlük';
 $string['glossary:approve'] = 'Onaylanmamış kayıtları onayla';
 $string['glossary:comment'] = 'Yorum yap';
 $string['glossary:export'] = 'Kayıtları dışa çıkart';
+$string['glossary:exportentry'] = 'Tek kaydı dışa çıkart';
+$string['glossary:exportownentry'] = 'Kendisinin tek kaydını dışa çıkart';
 $string['glossary:import'] = 'Kayıtları içe al';
 $string['glossary:managecategories'] = 'Kategorileri yönet';
 $string['glossary:managecomments'] = 'Yorumları yönet';

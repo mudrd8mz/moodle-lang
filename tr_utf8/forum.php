@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // forum.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -22,8 +22,10 @@ $string['allowsdiscussions'] = 'Bu forumda bir kişi bir tartışma konusu başl
 $string['allsubscribe'] = 'Tüm forumlara abone ol';
 $string['allunsubscribe'] = 'Tüm forumlardan aboneliği kaldır';
 $string['anyfile'] = 'Herhangi dosya';
+$string['areaintro'] = 'Forum tanıtımı';
 $string['attachment'] = 'Dosya';
 $string['attachmentnopost'] = 'Mesaj id olmadan ekleri dışa çıkaramazsınız';
+$string['attachments'] = 'Dosyalar';
 $string['blockafter'] = 'Engelleme için mesaj sınırı';
 $string['blockperiod'] = 'Engelleme için süre';
 $string['blockperioddisabled'] = 'Engelleme yok';
@@ -31,14 +33,13 @@ $string['bynameondate'] = 'yazan $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Bu foruma tartışma ekleme, grup üyeliği gerektirir.';
 $string['cannotadddiscussionall'] = 'Tüm katılımcılar için yeni bir tartışma konusu ekleme izniniz yok.';
 $string['cannotaddsubscriber'] = '$a numaralı üye, bu foruma abone yapılamadı!';
+$string['cannotdeleteforummodule'] = 'Forum eklentisini silemezsiniz.';
 $string['cannotfindfirstpost'] = 'Bu forumda ilk mesaj bulunamıyor';
 $string['cannotfindorcreateforum'] = 'Bu site için haber forumu bulunamadı veya oluşturulamadı';
-$string['cannotinsertrate'] = 'Yeni derecelendirme eklenemedi ($a[0] = $a[1])';
 $string['cannotremovesubscriber'] = '$a numaralı üyenin bu forumdan aboneliği kaldırılamadı.';
 $string['cannotsubscribe'] = 'Üzgünüz, abone olmak için grup üyesi olmalısınız.';
 $string['cannottrack'] = 'Bu forumdaki izleme iptal edilemedi';
 $string['cannotunsubscribe'] = 'Bu forumdan aboneliğiniz kaldırılamadı';
-$string['cannotupdaterate'] = 'Eski derecelendirme güncellenemedi ($a[0] = $a[1])';
 $string['cannotviewpostyet'] = 'Bu tartışmaya henüz mesaj göndermediğinizden diğer öğrencilerin sorularını okuyamazsınız';
 $string['cleanreadtime'] = 'Eski mesajların okunmuş olarak işaretleneceği saat';
 $string['completiondiscussions'] = 'Kullanıcı tartışma başlatmalı:';
@@ -55,6 +56,7 @@ $string['configdisplaymode'] = 'Hiç ayarlanmamışsa tartışmalar için görü
 $string['configenablerssfeeds'] = 'Bu seçenek tüm forumlar için RSS içeriklerinin etkinleştirilmesine olanak sağlar. Her bir forum için tek tek ayar yapmanız gerekir.';
 $string['configlogblocked'] = 'Forum cron\'u email almayı kabul etmeyen kullanıcılara gönderilen emaillerin engelleme günlüklerini tutabilir.';
 $string['configmanydiscussions'] = 'Bir forumda her bir sayfada görünen en fazla tartışma sayısı';
+$string['configmaxattachments'] = 'Her mesaj için izin verilen en fazla dosya sayısı';
 $string['configmaxbytes'] = 'Sitedeki forum dosya ekleri için kabul edilecek en fazla dosya yükleme boyutu (kurs sınırlarına ve diğer yerel ayarlara bağımlıdır)';
 $string['configoldpostdays'] = 'Herhangi bir mesajın kaç gün eskiyse okunmuş varsayılacağı';
 $string['configtrackreadposts'] = 'Herbir kullanıcının okunmuş/okunmamış izlemesi yapmasını istiyorsanız Evet\'i seçin.';
@@ -106,6 +108,9 @@ $string['forum:createattachment'] = 'Dosya iliştir';
 $string['forum:deleteanypost'] = 'Mesajları sil (her zaman)';
 $string['forum:deleteownpost'] = 'Mesajları sil (son süreye kadar)';
 $string['forum:editanypost'] = 'Bütün mesajları düzenle';
+$string['forum:exportdiscussion'] = 'Tüm tartışmayı dışa ver';
+$string['forum:exportownpost'] = 'Kendi mesajını dışa ver';
+$string['forum:exportpost'] = 'Mesajı dışa ver';
 $string['forum:initialsubscriptions'] = 'Başlangıç aboneliği';
 $string['forum:managesubscriptions'] = 'Abonelikleri yönet';
 $string['forum:movediscussions'] = 'Tartışmaları taşı';
@@ -154,6 +159,7 @@ $string['markread'] = 'Okundu olarak işaretle';
 $string['markreadbutton'] = 'Okundu olarak<br />işaretle';
 $string['markunread'] = 'Okunmadı olarak işaretle';
 $string['markunreadbutton'] = 'Okunmadı olarak<br />işaretle';
+$string['maxattachments'] = 'En fazla dosya sayısı';
 $string['maxattachmentsize'] = 'Dosya yükleme sınırı';
 $string['maxtimehaspassed'] = '($a) için düzeltme süresi doldu!';
 $string['message'] = 'Mesaj';
@@ -320,5 +326,7 @@ $string['youratedthis'] = 'Derecelendirmeniz';
 $string['yournewquestion'] = 'Yeni sorunuz';
 $string['yournewtopic'] = 'Yeni tartışma konunuz';
 $string['yourreply'] = 'Yanıtınız';
+$string['cannotinsertrate'] = 'Yeni derecelendirme eklenemedi ($a[0] = $a[1])'; // ORPHANED
+$string['cannotupdaterate'] = 'Eski derecelendirme güncellenemedi ($a[0] = $a[1])'; // ORPHANED
 
 ?>

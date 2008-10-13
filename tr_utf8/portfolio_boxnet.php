@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
 $string['apikey'] = 'API anahtarı (Box.net adresinden edinebilirsiniz)';
@@ -13,8 +13,13 @@ $string['noauthtoken'] = 'Bu oturumda kullanılmak için yetkilendirme kodu alı
 $string['notarget'] = 'Dosyaların yerleştirileceği var olan veya yeni klasörü belirtmelisiniz';
 $string['noticket'] = 'Yetkilendirme oturumunu başlatmak için box.net sitesinden kod alınamadı';
 $string['password'] = 'Box.net şifreniz (kaydedilmez)';
+$string['pluginname'] = 'Box.net internet deposu';
+$string['sendfailed'] = 'İçeriği box.net\'e gönderirken hata: $a';
 $string['sharedfolder'] = 'Paylaşılmış';
+$string['sharefile'] = 'Dosya paylaşılsın mı?';
+$string['sharefolder'] = 'Bu yeni klasör paylaşılsın  mı?';
 $string['targetfolder'] = 'Hedef klasör';
+$string['tobecreated'] = 'Oluşturulacak';
 $string['username'] = 'Box.net kullanıcı adınız (kaydedilmez)';
 
 ?>

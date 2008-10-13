@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
 $string['allowdeleting'] = 'Silme izni';
@@ -7,6 +7,8 @@ $string['allowmaxfiles'] = 'Yüklenecek en fazla dosya';
 $string['allownotes'] = 'Notlara izin ver';
 $string['allowresubmit'] = 'Tekrar göndermeye izin ver';
 $string['alreadygraded'] = 'Ödeviniz zaten notlandırılmış ve tekrar gönderilemez.';
+$string['assignment:exportownsubmission'] = 'Kendi gönderilerini dışa ver';
+$string['assignment:exportsubmission'] = 'Gönderileri dışa ver';
 $string['assignment:grade'] = 'Ödevi notlandır';
 $string['assignment:submit'] = 'Ödevi gönder';
 $string['assignment:view'] = 'Ödeve bak';
@@ -64,8 +66,9 @@ $string['helpupload'] = '<p>Bu ödev türü, her bir katılımcının bir veya b
 $string['helpuploadsingle'] = '<p>Bu ödev türü, tüm katılımcıların herhangi bir tipte bir dosya göndermelerine olanak sağlar.</p><p>Word belgesi, resim dosyası, zip veya öğrencilerden ne tür bir dosya göndermelerini istediyseniz.</p>';
 $string['hideintro'] = 'Erişilebilme tarihine kadar açıklamayı gizle';
 $string['invalidassignment'] = 'geçersiz ödev';
-$string['invalidid'] = 'ödev ID geçerli değil';
+$string['invalidid'] = 'Ödev ID geçerli değil';
 $string['invalidtype'] = 'Hatalı ödev türü';
+$string['invaliduserid'] = 'Hatalı kullanıcı ID';
 $string['itemstocount'] = 'Sayaç';
 $string['late'] = '$a sonrası';
 $string['maximumgrade'] = 'En yüksek not';
@@ -82,7 +85,7 @@ $string['nosubmitusers'] = 'Bu ödevi gönderecek izni olan kullanıcı bulunama
 $string['notavailableyet'] = 'Üzgünüz, bu ödeve şu anda ulaşılamaz.<br />Ödev yönergeleri aşağıda gösterilen tarihte burada gösterilecektir.';
 $string['notes'] = 'Notlar';
 $string['notesempty'] = 'Kayıt yok';
-$string['notesupdateerror'] = 'Notu güncellerken hata oluştu';
+$string['notesupdateerror'] = 'Notları güncellerken hata oluştu';
 $string['notgradedyet'] = 'Henüz notlandırılmamış';
 $string['notsubmittedyet'] = 'Henüz gönderilmemiş';
 $string['onceassignmentsent'] = 'Ödev, bitmiş olarak gönderildiğinde, ödevi artık silemez veya ödeve dosya iliştiremezsiniz. Devam etmek istiyor musunuz?';

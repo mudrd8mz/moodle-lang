@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // data.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
 $string['action'] = 'Eylem';
@@ -32,10 +32,8 @@ $string['cannotaccesspresentsother'] = 'Diğer kullanıcıların şablonlarına 
 $string['cannotadd'] = 'Girdiler eklenemedi!';
 $string['cannotdeletepreset'] = 'Şablon silinirken hata!';
 $string['cannotinsertempty'] = 'Boş bir kayıt eklenemedi!';
-$string['cannotinsertrate'] = 'Yeni derecelendirme eklenemedi ($a[0] = $a[1])';
 $string['cannotrate'] = 'Ögelerin derecelendirilmesine izin verilmiyor!';
 $string['cannotunziptopreset'] = 'Şablon klasörüne dosya açılamadı';
-$string['cannotupdaterate'] = 'Eski derecelendirme güncellenemedi ($a[0] = $a[1])';
 $string['checkbox'] = 'Onay kutusu';
 $string['chooseexportfields'] = 'Almak istediğiniz alanları seçiniz:';
 $string['chooseexportformat'] = 'Almak istediğiniz biçimleri seçiniz:';
@@ -56,6 +54,9 @@ $string['csvimport'] = 'CSV dosya alma';
 $string['csvwithselecteddelimiter'] = 'Seçili ayraçlı <acronym title=\"Virgülle Ayrılmış Değerler\">CSV</acronym> metni:';
 $string['data:approve'] = 'Onaylanmamış kayıtları onayla';
 $string['data:comment'] = 'Yorum yaz';
+$string['data:exportallentries'] = 'Tüm veritabanı kayıtlarını dışa ver';
+$string['data:exportentry'] = 'Bir veritabanı kaydını dışa ver';
+$string['data:exportownentry'] = 'Kendi veritabanı kaydını dışa ver';
 $string['data:managecomments'] = 'Yorumları yönet';
 $string['data:manageentries'] = 'Kayıtları yönet';
 $string['data:managetemplates'] = 'Şablonları yönet';
@@ -212,6 +213,7 @@ $string['pagesize'] = 'Her sayfadaki kayıt';
 $string['participants'] = 'Katılımcılar';
 $string['picture'] = 'Resim';
 $string['pleaseaddsome'] = 'Lütfen alttan bir şeyler oluşturun veya başlamak için <a href=\"$a\">öntanımlı bir ayar seçin</a>.';
+$string['portfolionotfile'] = 'Dosya yerine portfolyaya çıkart (sadece csv)';
 $string['presetinfo'] = 'Ayar olarak kaydetme bu şablonu yayınlar. Diğer kullanıcılar bunu kendi veritabanlarında kullanabilirler.';
 $string['presets'] = 'Ayarlar';
 $string['radiobutton'] = 'Çoktan seçmeli';
@@ -273,6 +275,8 @@ $string['usestandard'] = 'Bir ayar kullan';
 $string['viewfromdate'] = 'Görünebilme, başlangıç';
 $string['viewtodate'] = 'Görünebilme, bitiş';
 $string['wrongdataid'] = 'Hatalı veri id girildi';
+$string['cannotinsertrate'] = 'Yeni derecelendirme eklenemedi ($a[0] = $a[1])'; // ORPHANED
+$string['cannotupdaterate'] = 'Eski derecelendirme güncellenemedi ($a[0] = $a[1])'; // ORPHANED
 $string['invaliddata'] = 'Geçersiz veri'; // ORPHANED
 
 ?>

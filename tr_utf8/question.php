@@ -1,14 +1,26 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // question.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
 
 
-$string['adminreport'] = 'Soru veritabanınız için olası srounları bildir.';
+$string['adminreport'] = 'Soru veritabanınız için olası sorunları bildir.';
 $string['broken'] = 'Bu \"bağlantı\" yanlıştır. Olmayan bir dosyayı gösteriyor.';
 $string['byandon'] = '<em>$a->user</em> tarafından <em>$a->time</em> tarihinde';
-$string['categorycurrent'] = 'Şimdiki Kategori';
-$string['categorycurrentuse'] = 'Bu Kategoriyi Kullan';
+$string['cannotcopybackup'] = 'Yedek dosya kopyalanamadı';
+$string['cannotcreate'] = 'question_attempts tablosunda yeni kayıt oluşturulamadı';
+$string['cannotcreatepath'] = 'Yol oluşturulamadı: $a';
+$string['cannotfindcate'] = 'Kategori kaydı bulunamadı';
+$string['cannotfindquestionfile'] = 'Zip dosyasında soru verisi bulunamadı';
+$string['cannothidequestion'] = 'Soru gizlenemedi';
+$string['cannotinsertquestion'] = 'Yeni soru eklenemedi!';
+$string['cannotloadquestion'] = 'Soru yüklenemedi';
+$string['cannotretrieveqcat'] = 'Soru kategorisi alınamadı';
+$string['cannotsavequiz'] = 'Şu anki sınav uygulamasını kaydederken hata';
+$string['cannotunhidequestion'] = 'Soruyu görünür yaparken hata.';
+$string['cannotunzip'] = 'Zipli dosya açılamadı';
+$string['categorycurrent'] = 'Şimdiki kategori';
+$string['categorycurrentuse'] = 'Bu kategoriyi kullan';
 $string['categorydoesnotexist'] = 'Bu kategori yok';
-$string['categorymoveto'] = 'Kategoride Sakla';
+$string['categorymoveto'] = 'Kategoride sakla';
 $string['changepublishstatuscat'] = '\"$a->coursename\" kursundaki <a href=\"$a->caturl\">\"$a->name\" kategorisi</a>nin paylaşım durumu $a->changefrom, <strong>$a->changeto</strong> olarak değiştirildi.';
 $string['copy'] = 'Buradan $a kopyala ve linkleri değiştir.';
 $string['created'] = 'Oluşturma';
@@ -19,6 +31,7 @@ $string['defaultinfofor'] = 'Sorular için varsayılan kategori \'$a\' bağlamı
 $string['donothing'] = 'Dosyaları kopyalama/taşıma veya linkleri değiştirme.';
 $string['editingcategory'] = 'Kategori düzenleniyor';
 $string['editingquestion'] = 'Soru düzenleniyor';
+$string['emptyxml'] = 'Bilinmeyen hata - boş imsmanifest.xml';
 $string['erroraccessingcontext'] = 'Bağlama erişilemedi';
 $string['errorfilecannotbecopied'] = '$a dosyasını kopyalarken hata.';
 $string['errorfilecannotbemoved'] = '$a dosyasını taşırken hata.';
