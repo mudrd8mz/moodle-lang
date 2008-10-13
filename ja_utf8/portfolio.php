@@ -80,6 +80,7 @@ $string['invalidfileareaargs'] = '無効なファイルエリア引数が「set_
 $string['invalidfileargument'] = '無効なファイル引数が「portfolio_format_from_file」を通過しました - 「stored_file」オブジェクトを使用してください。';
 $string['invalidformat'] = '無効なフォーマットでエクスポートされています: $a';
 $string['invalidinstance'] = 'ポートフォリオインスタンスが見つかりませんでした。';
+$string['invalidpreparepackagefile'] = 'prepare_package_fileに対する無効なコールです - 単一または複数ファイルをセットする必要があります。';
 $string['invalidproperty'] = 'プロパティ ($a->property - $a->class) が見つかりませんでした。';
 $string['invalidsha1file'] = 'get_sha1_fileに対する無効なコールです - 単一または複数ファイルをセットする必要があります。';
 $string['invalidtempid'] = '無効なエクスポートIDです。おそらく有効期限が切れています。';

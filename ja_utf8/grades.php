@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081009) (2008100801)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081010) (2008101000)
 
 
 $string['activities'] = '活動';
@@ -518,6 +518,7 @@ $string['weightedascending'] = '加重パーセントの昇順で並び替え';
 $string['weighteddescending'] = '加重パーセントの降順で並び替え';
 $string['weightedpct'] = '加重%%';
 $string['weightedpctcontribution'] = '加重%%内訳';
+$string['weightorextracredit'] = '加重または追加点';
 $string['weights'] = '加重';
 $string['weightsedit'] = '加重および追加点を編集する';
 $string['writinggradebookinfo'] = '評定表設定の書き込み';
