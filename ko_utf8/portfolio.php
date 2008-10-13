@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081003) (2008092400)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20081013) (2008101000)
 
 
 $string['activeexport'] = '내보내기 마무리';
@@ -79,10 +79,12 @@ $string['invalidaddformat'] = 'portfolio_add_button에 잘못된 추가 형식 �
 $string['invalidbuttonproperty'] = 'portfolio_button 의 속성($a)을 찾지 못 함';
 $string['invalidconfigproperty'] = '($a->class 의 $a->property) 설정 항목을 찾을 수 없음';
 $string['invalidexportproperty'] = '내보낼 ($a->class 의 $a->property) 설정 항목을 찾을 수 없음';
+$string['invalidfileareaargs'] = 'set_file_and_format_data에 잘못된 파일 영역 인수 전달. 반드시 영역ID, 파일 영역 및 항목ID를 포함하여야 함';
 $string['invalidfileargument'] = 'portfolio_format_from_file에 잘못된 인수 전달. 반드시 stored_file 객체이어야 함';
 $string['invalidformat'] = '잘못된 형식 $a 로 내보내려 하고 있음';
 $string['invalidinstance'] = '포트폴리오 인스턴스가 없음';
 $string['invalidproperty'] = '($a->class 의 $a->property) 항목을 찾을 수 없음';
+$string['invalidsha1file'] = '잘못된 get_sha1_file 호출. 단수 혹은 복수 파일이 설정되어야 함';
 $string['invalidtempid'] = '잘못된 임시 ID';
 $string['invaliduserproperty'] = '사용자 ($a->class 의 $a->property) 설정 항목을 찾을 수 없음';
 $string['logs'] = '전송 기록';

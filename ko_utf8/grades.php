@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081008) (2008100801)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081013) (2008101000)
 
 
 $string['activities'] = '활동';
@@ -156,6 +156,11 @@ $string['errornocalculationallowed'] = '이 항목에 대한 계산은 허용되
 $string['errornocategorisedid'] = '범주화되지 않은 id는 취할 수 없음!';
 $string['errornocourse'] = '강좌 정보를 얻을 수 없음';
 $string['errorreprintheadersnonnumeric'] = '해당 항목에 바르지 않은 값이 입력됨';
+$string['errorupdatinggradecategoryaggregateonlygraded'] = '성적 범주 ID $a->id 의 \"채점된 항목만 집계\" 설정을 갱신하는 중 오류';
+$string['errorupdatinggradecategoryaggregateoutcomes'] = '성적 범주 ID $a->id 의 \"학습성과 집계\" 설정을 갱신하는 중 오류';
+$string['errorupdatinggradecategoryaggregatesubcats'] = '성적 범주 ID $a->id 의 \"하위 범주 집계\" 설정을 갱신하는 중 오류';
+$string['errorupdatinggradecategoryaggregation'] = '성적 범주 ID $a->id 의 집계 유형을 갱신하는 중 오류';
+$string['errorupdatinggradeitemaggregationcoef'] = '성적 범주 ID $a->id 의 집계 계수(가중치 혹은 부가점)를 갱신하는 중 오류';
 $string['exceptions'] = '예외들';
 $string['excluded'] = '제외';
 $string['excludedhelp'] = '제외 항목에 체크를 해 놓으면, 이 점수는 집계과정에서 제외되게 된다.';
@@ -514,6 +519,8 @@ $string['weightedascending'] = '가중된 백분률로 오름차순 정렬';
 $string['weighteddescending'] = '가중된 백분률로 내림차순 정렬';
 $string['weightedpct'] = '가중된 백분룔';
 $string['weightedpctcontribution'] = '가중된 백분률의 기여도';
+$string['weights'] = '가중치';
+$string['weightsedit'] = '기중치 및 부가점 수정';
 $string['writinggradebookinfo'] = '성적표 쓰기 설정';
 $string['xml'] = 'XML형식';
 $string['yes'] = '예';
