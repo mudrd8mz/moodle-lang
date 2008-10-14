@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081013) (2008101000)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['activeexport'] = '내보내기 마무리';
@@ -83,6 +83,7 @@ $string['invalidfileareaargs'] = 'set_file_and_format_data에 잘못된 파일 �
 $string['invalidfileargument'] = 'portfolio_format_from_file에 잘못된 인수 전달. 반드시 stored_file 객체이어야 함';
 $string['invalidformat'] = '잘못된 형식 $a 로 내보내려 하고 있음';
 $string['invalidinstance'] = '포트폴리오 인스턴스가 없음';
+$string['invalidpreparepackagefile'] = '잘못된 prepare_package_file 호출. 단수 혹은 복수 파일이 설정되어야 함';
 $string['invalidproperty'] = '($a->class 의 $a->property) 항목을 찾을 수 없음';
 $string['invalidsha1file'] = '잘못된 get_sha1_file 호출. 단수 혹은 복수 파일이 설정되어야 함';
 $string['invalidtempid'] = '잘못된 임시 ID';

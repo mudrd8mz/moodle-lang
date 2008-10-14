@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081013) (2008101000)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['activities'] = '활동';
@@ -519,6 +519,7 @@ $string['weightedascending'] = '가중된 백분률로 오름차순 정렬';
 $string['weighteddescending'] = '가중된 백분률로 내림차순 정렬';
 $string['weightedpct'] = '가중된 백분룔';
 $string['weightedpctcontribution'] = '가중된 백분률의 기여도';
+$string['weightorextracredit'] = '기중치 혹은 부가점';
 $string['weights'] = '가중치';
 $string['weightsedit'] = '기중치 및 부가점 수정';
 $string['writinggradebookinfo'] = '성적표 쓰기 설정';
