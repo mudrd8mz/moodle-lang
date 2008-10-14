@@ -120,6 +120,7 @@ $string['movingquestionsnofiles'] =  'Voulez-vous vraiment déplacer la(les) que
 $string['needtochoosecat'] = 'Vous devez choisir une catégorie dans laquelle déplacer cette question ou cliquer sur «&nbsp;Annuler&nbsp;».';
 $string['nocate'] = 'Aucune catégorie $a&nbsp;!';
 $string['nopermissionadd'] = 'Vous n\'avez pas le droit d\'ajouter des questions ici.';
+$string['nopermissionmove'] = 'Vous n\'avez pas le droit de déplacer des questions depuis ici. Vous devez enregistrer la question dans cette catégorie ou l\'enregistrer comme nouvelle question.';
 $string['noprobs'] = 'Aucun problème n\'a été détecté dans votre banque de questions.';
 $string['notenoughdatatoeditaquestion'] = 'L\'identifiant de la question, l\'identifiant de la catégorie et le type de question n\'ont pas été spécifiés.';
 $string['notenoughdatatomovequestions'] = 'Vous devez fournir les identifiants des questions que vous voulez déplacer.';
