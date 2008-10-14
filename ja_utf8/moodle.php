@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1320,7 +1320,7 @@ $string['showalltopics'] = 'すべてのトピックを表示';
 $string['showallusers'] = 'すべてのユーザを表示';
 $string['showallweeks'] = 'すべての週を表示';
 $string['showblockcourse'] = 'ブロックを含むコース一覧を表示する';
-$string['showgrades'] = '評定を表示する';
+$string['showgrades'] = '学生に評定表を表示する';
 $string['showlistofcourses'] = 'コース一覧を表示';
 $string['showmodulecourse'] = '活動を含むコース一覧を表示する';
 $string['showonly'] = '表示限定';
