@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080917) (2007101522)
+      // moodle.php - created with Moodle 1.9.2+ (Build: 20081015) (2007101527)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -1322,7 +1322,7 @@ $string['showalltopics'] = 'Zobraziť všetky témy';
 $string['showallusers'] = 'Zobraziť všetkých používateľov';
 $string['showallweeks'] = 'Zobraziť všetky týždne';
 $string['showblockcourse'] = 'Zobraziť zoznam kurzov s blokmi';
-$string['showgrades'] = 'Zobraziť známky';
+$string['showgrades'] = 'Zobraziť študentom výkaz známok';
 $string['showlistofcourses'] = 'Zobraziť zoznam kurzov';
 $string['showmodulecourse'] = 'Zobraziť zoznam kurzov s aktivitami';
 $string['showonly'] = 'Zobraziť iba';

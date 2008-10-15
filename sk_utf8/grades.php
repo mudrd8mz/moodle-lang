@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
+      // grades.php - created with Moodle 1.9.2+ (Build: 20081015) (2007101527)
 
 
 $string['activities'] = 'Aktivity';
@@ -103,6 +103,7 @@ $string['configshowgroups'] = 'Zobraziť priemer skupiny.';
 $string['configshowhiddenitems'] = 'Určuje, ako sú zobrazené skryté známky. Ak je vybrané Skryť, sú úplne skryté. Ak je vybrané Zobraziť, stĺpec so skrytými položkami známok je zobrazený šedou a známky sú skryté. Ak je vybrané \"Skryté iba do\", položka známky, ktorá má nastavený dátum \"skryť do\", je zobrazená do daného dátumu šedou a známka nie je viditeľná. Po danom dátume je všetko zobrazené.';
 $string['configshowlocks'] = 'Zobraziť ikonu zamknúť/odomknúť pri každej známke.';
 $string['configshownumberofgrades'] = 'Zobraziť počet známok použitých pri výpočte priemeru v zátvorkách, napríklad  45 (34).';
+$string['configshowpercentage'] = 'Zobraziť percentuálnu hodnotu každej položky známkovania.';
 $string['configshowquickfeedback'] = 'Rýchly komentár pridáva formulár do každej bunky hodnotenia v známkovom výkaze. Pomocou neho možno upravovať komentár pre viacero známok naraz. Po ukončení úprav je potrebné kliknúť na tlačidlo Aktualizovať, aby sa všetky zmeny uložili.';
 $string['configshowranges'] = 'Zobraziť rozsah bodov pre každý stĺpec v novom riadku.';
 $string['configshowrank'] = 'Zobraziť pozíciu účastníka vzhľadom k celému kurzu - pre každú položku známkovania.';
@@ -454,6 +455,7 @@ $string['showlocks'] = 'Zobraziť zámky';
 $string['shownohidden'] = 'Žiadne skryté';
 $string['shownooutcomes'] = 'Skryť ciele';
 $string['shownumberofgrades'] = 'Zobraziť počet známok v známkach';
+$string['showpercentage'] = 'Zobraziť percentá';
 $string['showquickfeedback'] = 'Zobraziť rýchly komentár';
 $string['showranges'] = 'Zobraziť rozsahy';
 $string['showrank'] = 'Zobraziť poradie';

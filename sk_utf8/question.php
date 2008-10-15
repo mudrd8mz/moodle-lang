@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // question.php - created with Moodle 1.9.2+ (Build: 20081015) (2007101527)
 
 
 $string['adminreport'] = 'Správa o možných problémoch v databáze Vašich otázok';
@@ -61,6 +61,7 @@ $string['movingquestionsandfiles'] = 'Naozaj chcete presunúť otázky  {$a->que
 $string['movingquestionsnofiles'] = 'Naozaj chcete presunúť otázky  {$a->questions} do kontextu <strong>\"{$a->tocontext}\"</strong>?<br /> Nie sú <strong>žiadne</strong> súbory odkazované z otázok v {$a->fromareaname}.';
 $string['needtochoosecat'] = 'Potrebujete vybrať kategóriu, do ktorej presuniete otázku. Alebo stlačte \'zrušiť\'.';
 $string['nopermissionadd'] = 'Nemáte oprávnenia pridávať otázky';
+$string['nopermissionmove'] = 'Nemáte oprávnenia odtiaľto presúvať otázky. Musíte otázku uložiť v tejto kategórii alebo ako novú otázku.';
 $string['noprobs'] = 'Vo Vašej databáze otázok neboli zistené žiadne problémy.';
 $string['notenoughdatatoeditaquestion'] = 'Nebol špecifikovaný ani ID otázky, ani ID kategórie ani typ otázky.';
 $string['notenoughdatatomovequestions'] = 'Potrebujete zadať ID otázok, ktoré chcete presunúť.';

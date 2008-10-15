@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20081015) (2007101527)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -230,7 +230,9 @@ $string['configstartwday'] = 'Začiatok týždňa';
 $string['configstatscatdepth'] = 'Spracovanie štatistík používa zjednodušenú logiku zápisu do kurzov: prestavenia rol sú ignorované a do úvahy sa berie maximálny počet nadradených kategórií kurzov. Nula znamená detekciu priamych nastavení rol na úrovni portálu a kurzov, 1 znamená detekciu priradenia rol aj v nadradenej kategórii kurzov atď. Vyššie čísla znamenajú viac výpočtov na serveri počas spracovania štatistík.';
 $string['configstatsfirstrun'] = 'Ako ďaleko do minulosti sa majú spracovať štatistiky <b>pri prvom spustení</b> tejto naplánovanej úlohy. Toto prvé spracovanie môže trvať dlho a je dosť náročné na systémové zdroje serveru. Ak je teda na vašich stránkach veľká prevádzka a máte okrem toho Moodle nainštalovaný na zdieľanom hostingovom serveri, nedoporučujeme nastavovať príliš veľkú hodnotu. Pre účely tohto nastavenia sa jedným mesiacom chápe 28 dní. V generovaných grafoch a štatistikách odpovedá jeden mesiac jednému kalendárnemu mesiacu.';
 $string['configstatsmaxruntime'] = 'Spracovanie štatistík môže byť značne náročné. Využite preto toto a nasledujúce pole a nastavte, kedy bude táto úloha spustená a ako dlho pobeží.';
-$string['configstatsmaxruntime2'] = 'Spracovanie štatistík môže byť značne náročné. Maximálny počet spracovaných dní na jedno spustenie úlohy cronu je tri.';
+$string['configstatsmaxruntime2'] = 'Spracovanie štatistík môže byť značne náročné. Maximálny počet spracovaných dní na jedno spustenie úlohy cronu je 31.';
+$string['configstatsmaxruntime3'] = 'Určenie maximálneho časového intervalu pre spracovanie štatistík pre jeden deň. Treba vziať do úvahy, že spracovanie štatistík výrazne zaťažuje server. Nižšie možno definovať maximálny počet dní, ktoré budú spracovávané v jednej úlohe cron.';
+$string['configstatsruntimedays'] = 'Určenie maximálneho počtu dní spracovaných pri spustení štatistík. Ak sú štatistiky aktuálne, bude spracovaný iba posledný deň. Nastavenie tejto premennej závisí od vyťaženia servera. Znížte, ak treba skrátiť dĺžku trvania úlohy cron.';
 $string['configstatsruntimestart'] = 'Kedy sa má <b>spustiť</b> úloha spracúvajúca štatistiky?';
 $string['configstatsuserthreshold'] = 'Pri vyhodnocovaní kurzov budú ignorované tie, v ktorých je zapísaných menej užívateľov (študentov + učiteľov) než uvedená nenulová hodnota.';
 $string['configstripalltitletags'] = 'Vypnite toto nastavenie pre povolenie HTML tagov v názvoch aktivít a zdrojov.';
@@ -666,7 +668,8 @@ $string['smtpuser'] = 'SMTP používateľské meno';
 $string['stats'] = 'Štatistiky';
 $string['statscatdepth'] = 'Maximálny počet nadradených kategórií';
 $string['statsfirstrun'] = 'Maximálny interval spracovania';
-$string['statsmaxruntime'] = 'Maximálny runtime';
+$string['statsmaxruntime'] = 'Maximálny čas spracovania';
+$string['statsruntimedays'] = 'Počet spracovaných dní';
 $string['statsruntimestart'] = 'Spúšťať o';
 $string['statsuserthreshold'] = 'Používateľský prah';
 $string['stickyblocks'] = 'Povinné bloky';
