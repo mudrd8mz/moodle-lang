@@ -1,5 +1,6 @@
 <?php // $Id$ 
 
+$string['activeexport'] = 'Résoudre les exportations actives';
 $string['activeportfolios'] = 'Portfolios actifs';
 $string['addalltoportfolio'] = 'Tout enregistrer...';
 $string['addnewportfolio'] = 'Ajouter un portfolio';
