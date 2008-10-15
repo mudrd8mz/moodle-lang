@@ -532,6 +532,7 @@ $string['weightedpct'] = '%% pondéré';
 $string['weightedpctcontribution'] = 'contribution en %% pondérée';
 $string['weights'] = 'Coefficients';
 $string['weightsedit'] = 'Modifier les coefficients et les bonus';
+$string['weightorextracredit'] = 'Coefficient ou bonus';
 $string['writinggradebookinfo'] = 'Écriture des réglages du carnet de notes';
 $string['xml'] = 'XML';
 $string['yes'] = 'Oui';
