@@ -78,6 +78,7 @@ $string['invalidfileareaargs'] = 'Paramètre de zone de fichier non valide pass�
 $string['invalidfileargument'] = 'Paramètre de fichier non valide passé à la fonction portfolio_format_from_file. Ce paramètre doit être un objet stored_file';
 $string['invalidformat'] = 'L\'exportation a lieu dans un format non valide, $a';
 $string['invalidinstance'] = 'Impossible de trouver ce portfolio';
+$string['invalidpreparepackagefile'] = 'Appel non valide de la fonction prepare_package_file. Il faut spécifier soit un simple fichier, soit plusieurs fichiers';
 $string['invalidproperty'] = 'Impossible de trouver cette propriété ($a->property de $a->class)';
 $string['invalidsha1file'] = 'Appel non valide de la fonction get_sha1_file. Il faut spécifier soit un simple fichier, soit plusieurs fichiers';
 $string['invalidtempid'] = 'Identifiant d\'exportation non valide.';
