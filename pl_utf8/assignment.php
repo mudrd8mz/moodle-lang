@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
+      // assignment.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['allowdeleting'] = 'Zezwalaj na kasowanie przesłanych plików';
@@ -34,7 +34,7 @@ $string['description'] = 'Opis';
 $string['draft'] = 'Wersja robocza';
 $string['duedate'] = 'Termin oddania';
 $string['duedateno'] = 'Brak terminu oddania';
-$string['early'] = '$a wcześnie';
+$string['early'] = '$a wcześniej';
 $string['editmysubmission'] = 'Edytuj moje zadanie';
 $string['emailstudents'] = 'Wyślij powiadomienie do studentów';
 $string['emailteachermail'] = '$a->username uaktualnił oddane zadanie \'$a->assignment\'
@@ -56,7 +56,7 @@ $string['feedbackupdated'] = 'Uaktualnienie informacji zwrotnych do $a oddanych 
 $string['finalize'] = 'Nie ma więcej przesłanych zadań';
 $string['finalizeerror'] = 'Wystąpił błąd. Przesłanie zadania nie mogło zostać zakończone.';
 $string['graded'] = 'Ocenione';
-$string['guestnosubmit'] = 'Goście nie mają uprawnień, by oddawać zadania. Należy zalogować się/ zarejestrować, by oddać zadanie';
+$string['guestnosubmit'] = 'Goście nie mają uprawnień, by oddawać zadania. Należy zalogować się / zarejestrować, by oddać zadanie';
 $string['guestnoupload'] = 'Goście nie mają uprawnień, by przesyłać pliki';
 $string['helpoffline'] = '<p>Ta opcja jest przydatna, gdy zadanie wykonywane jest poza Moodle, w internecie bądź podczas spotkania face-to-face.</p><p>Studenci widzą opis zadania, lecz nie mogą przesłać pliku ani zamieścić tekstu. Jak w innych typach zadania, studenci otrzymują powiadomienie o wystawionych ocenach.</p>';
 $string['helponline'] = '<p>Ten typ zadania wymaga od użytkownika edycji tekstu przy użyciu standardowych narzędzi edycji. Nauczyciele mogą oceniać zadania online, a także dodawać komentarze śródliniowe i wprowadzać zmiany.</p><p>

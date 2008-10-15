@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // grades.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['activities'] = 'Aktywności';
@@ -33,6 +33,9 @@ $string['category'] = 'Kategoria';
 $string['categoryedit'] = 'Edytuj kategorię';
 $string['categoryname'] = 'Nazwa kategorii';
 $string['categorytotal'] = 'Razem w kategorii';
+$string['changedefaults'] = 'Zmień domyślne';
+$string['changereportdefaults'] = 'Zmień domyślne ustawienia raportowania';
+$string['chooseaction'] = 'Wybierz akcję';
 $string['choosecategory'] = 'Wybierz kategorię';
 $string['configcoursegradedisplaytype'] = 'Wybierz domyślny sposób wyświetlania ocen w tym kursie. Możesz także określić domyślną wartość dla całej witryny. Oceny mogą być pokazywane w postaci liczb rzeczywistych, wartości procentowych (w odniesieniu do najmniejszej i największej oceny) lub jako litery (A, B, C itd.). Jeśli chcesz określić swoje własne litery i/lub zakresy, użyj wyświetlania ocen jako litery.';
 $string['configenableajax'] = 'Dodaje do raportu dziennika warstwę funkcjonalności AJAX, upraszczając i przyspieszając częste operacje. Wymaga włączonej obsługi JavaScript w przeglądarce użytkownika.';
@@ -78,13 +81,15 @@ $string['encoding'] = 'Kodowanie';
 $string['errorcalculationnoequal'] = 'Wyrażenie musi rozpoczynać się znakiem równości (=1+2)';
 $string['errorcalculationunknown'] = 'Niepoprawne wyrażenie';
 $string['errorgradevaluenonnumeric'] = 'Otrzymano nienumeryczną wartość dla najniższej i najwyższej oceny';
-$string['errornocategorizedid'] = 'Brak id **uncategorized**';
 $string['errornocourse'] = 'Brak informacji o kursie';
 $string['errorreprintheadersnonnumeric'] = 'Otrzymano nienumeryczną wartość dla powtórzeń nagłówka';
 $string['exceptions'] = 'Wyjątki';
 $string['excluded'] = 'Wykluczony';
+$string['expand'] = 'Rozszerz kategorię';
 $string['export'] = 'Eksportuj';
 $string['exportplugins'] = 'Eksportuj wtyczki';
+$string['exportsettings'] = 'Eksportuj ustawienia';
+$string['exportto'] = 'Eksportuj do';
 $string['extracredit'] = 'Ekstra kredyt';
 $string['extracreditwarning'] = 'Uwaga: ustawienie wszystkich danych jako opcji dodatkowej dla wyszczególnionej kategorii może skutkować niespodziewanymi wynikami. Nie będzie uwzględniony w wyniku ogólnym.';
 $string['feedback'] = 'Informacja zwrotna';
@@ -146,7 +151,10 @@ $string['importcsv'] = 'Importuj CSV';
 $string['importfailed'] = 'Importowanie nie powiodło się';
 $string['importfeedback'] = 'Importuj informację zwrotną';
 $string['importfile'] = 'Importuj pliku';
+$string['importfrom'] = 'Importuj z';
 $string['importplugins'] = 'Importuj wtyczkę (plugin)';
+$string['importpreview'] = 'Importuj podgląd';
+$string['importsettings'] = 'Importuj ustawienia';
 $string['importsuccess'] = 'Import ocen zakończony pomyślnie';
 $string['importxml'] = 'Import XML';
 $string['incorrectcourseid'] = 'ID kursu był niepoprawny';
@@ -179,6 +187,7 @@ $string['mode'] = 'Tryb';
 $string['morethanmax'] = 'Ocena wprowadzona w $a->itemname dla użytkownika $a->username jest większa od największej dopuszczalnej.';
 $string['movingelement'] = 'Przenoszenie $a';
 $string['multfactor'] = 'Mnożnik';
+$string['myreportpreferences'] = 'Preferencje raportowania';
 $string['neverdeletehistory'] = 'Nigdy nie kasuj historii';
 $string['newcategory'] = 'Nowa kategoria';
 $string['newuserkey'] = 'Nowy klucz użytkownika';
@@ -195,6 +204,7 @@ $string['nolettergrade'] = 'Brak nazwy oceny dla';
 $string['nomode'] = 'Bez trybu';
 $string['nonnumericweight'] = 'Otrzymano nienumeryczną wartość';
 $string['nonweightedpct'] = 'Nieważony %%';
+$string['nopublish'] = 'Nie publikuj';
 $string['noselectedcategories'] = 'nie wybrano kategorii';
 $string['noselecteditems'] = 'nie wybrano pozycji';
 $string['notteachererror'] = 'Tej opcji może używać tylko nauczyciel';
@@ -203,7 +213,6 @@ $string['operations'] = 'Operacje';
 $string['options'] = 'Opcje';
 $string['outcomecategorynew'] = 'Nowa kategoria';
 $string['overallaverage'] = 'Ogólna średnia';
-$string['overallavg'] = 'Ogólna średnia';
 $string['overriddennotice'] = 'Twoja ocena końcowa z tej aktywności została ręcznie zmieniona';
 $string['overridesitedefaultgradedisplaytype'] = 'Nadpisz ustawienia domyślne witryny';
 $string['overridesitedefaultgradedisplaytypehelp'] = 'Zaznacz to pole, aby nadpisać ustawienia domyślne związane wyświetlaniem stopni w dzienniku. Uaktywnia to elementy formularza, pozwalające na zdefiniowanie nazw stopni i granic (zakresów).';
@@ -232,8 +241,10 @@ $string['reprintheaders'] = 'Powórzenie nagłówków';
 $string['savechanges'] = 'Zachowaj zmiany';
 $string['savepreferences'] = 'Zachowaj ustawienia';
 $string['scaledpct'] = 'Skala %%';
+$string['seeallcoursegrades'] = 'Zobacz oceny w całym kursie';
 $string['separator'] = 'Separator';
 $string['sepcomma'] = 'Przecinek';
+$string['septab'] = 'Tabulator';
 $string['setcategories'] = 'Ustaw kategorię';
 $string['setcategorieserror'] = 'Najpierw musisz ustawić kategorię, zanim nadasz wagi.';
 $string['setgradeletters'] = 'Ustaw nazwy stopni';
@@ -250,6 +261,8 @@ $string['showfeedback'] = 'Pokaż informacje zwrotne';
 $string['showgroups'] = 'Pokaż grupy';
 $string['showhiddenitems'] = 'Pokaż ukryte pozycje';
 $string['showranges'] = 'Pokaż zakresy';
+$string['showuseridnumber'] = 'Pokaż ID użytkownika';
+$string['showuserimage'] = 'Pokaż zdjęcia użytkowników';
 $string['sort'] = 'Sortuj';
 $string['sortasc'] = 'Sortuj rosnąco';
 $string['sortbyfirstname'] = 'Sortuj wg imienia';
@@ -280,5 +293,7 @@ $string['writinggradebookinfo'] = 'zapisz ustawienia';
 $string['xml'] = 'XML';
 $string['yes'] = 'Tak';
 $string['yourgrade'] = 'Twoja ocena';
+$string['errornocategorizedid'] = 'Brak id **uncategorized**'; // ORPHANED
+$string['overallavg'] = 'Ogólna średnia'; // ORPHANED
 
 ?>

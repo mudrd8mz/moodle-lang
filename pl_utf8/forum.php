@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // forum.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['addanewdiscussion'] = 'Dodaj nowy temat dyskusji';
@@ -142,7 +142,7 @@ $string['noguesttracking'] = 'Niestety goście nie mogą zmienić opcji obserwow
 $string['nomorepostscontaining'] = 'Nie znaleziono więcej postów zawierających \'$a\'';
 $string['nonews'] = 'Nie umieszczono jeszcze żadnych nowości';
 $string['noposts'] = 'Brak wiadomości';
-$string['nopostscontaining'] = 'Nie znaleziono wiadomości zawierających \'$a \'';
+$string['nopostscontaining'] = 'Nie znaleziono wiadomości zawierających \'$a\'';
 $string['noquestions'] = 'Na tym forum nie ma jeszcze postów';
 $string['nosubscribers'] = 'Nikt jeszcze nie zapisał się na to forum';
 $string['nothingnew'] = 'nic nowego dla';
@@ -180,7 +180,7 @@ $string['processingdigest'] = 'Przetwarzanie streszczenia maili użytkownika $a'
 $string['processingpost'] = 'Post $a jest w trakcie przetwarzania';
 $string['prune'] = 'Zerwij';
 $string['prunedpost'] = 'Z tego postu została utworzona nowa dyskusja';
-$string['pruneheading'] = 'Zerwij post i przejdź do nowej dyskusji';
+$string['pruneheading'] = 'Rozdziel tą dyskusję i przenieś ten post do nowej dyskusji';
 $string['qandaforum'] = 'Forum pytań i odpowiedzi';
 $string['qandanotify'] = 'To jest forum Pytań i odpowiedzi. Aby zobaczyć odpowiedzi, musisz najpierw zadać pytanie';
 $string['rate'] = 'Oceń';
@@ -193,7 +193,7 @@ $string['ratingpublicnot'] = '$a może zobaczyć tylko swoje oceny';
 $string['ratings'] = 'Oceny';
 $string['ratingssaved'] = 'Oceny zostały zapisane';
 $string['ratingsuse'] = 'Wykorzystanie ocen';
-$string['ratingtime'] = 'Ogranicz wystawianie ocen do postów w następującym przedziale czasowym :';
+$string['ratingtime'] = 'Ogranicz wystawianie ocen do postów w następującym przedziale czasowym:';
 $string['re'] = 'Odp:';
 $string['readtherest'] = 'Przeczytaj resztę tematu';
 $string['replies'] = 'Odpowiedzi';
@@ -231,7 +231,7 @@ $string['subscribeall'] = 'Zapisz wszystkich do tego forum';
 $string['subscribed'] = 'Zapisany na forum';
 $string['subscribenone'] = 'Wypisz wszystkich z tego forum';
 $string['subscribers'] = 'Zapisani na forum';
-$string['subscribersto'] = 'Zapisani na \'$a \'';
+$string['subscribersto'] = 'Zapisani na \'$a\'';
 $string['subscribestart'] = 'Przesyłaj mi kopie postów z tego forum pocztą elektroniczną';
 $string['subscribestop'] = 'Nie chcę otrzymywać kopii postów z tego forum';
 $string['subscription'] = 'Zapisanie się na forum';
@@ -249,8 +249,10 @@ $string['unreadposts'] = 'Nieprzeczytane posty';
 $string['unreadpostsnumber'] = '$a nieprzeczytanych postów';
 $string['unreadpostsone'] = '1 nieprzeczytany post';
 $string['unsubscribe'] = 'Wypisz się z tego forum';
+$string['unsubscribeall'] = 'Wypisz się ze wszystkich forów';
 $string['unsubscribed'] = 'Wypisany z forum';
 $string['unsubscribeshort'] = 'Wypisz';
+$string['usermarksread'] = 'Ręczne zaznaczanie przeczytanych postów';
 $string['warnafter'] = 'Ostrzeżenie o progu postów';
 $string['yesforever'] = 'Tak, na zawsze';
 $string['yesinitially'] = 'Tak, wstępnie';

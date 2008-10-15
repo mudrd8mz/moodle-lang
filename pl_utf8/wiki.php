@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // wiki.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['action'] = '-- Działanie --';
@@ -94,6 +94,7 @@ $string['linkok'] = 'OK';
 $string['linkschecked'] = 'Sprawdzone linki';
 $string['listall'] = 'Pokaż wszystkie';
 $string['listcandidates'] = 'Pokaż kandydatów';
+$string['lockcancelled'] = 'Twoja blokada przed edycją tej strony została nadpisana. Jeśli chcesz zachować swoje zmiany, zaznacz je, skopiuj przed kliknięciem na Anuluj, a następnie ponownie rozpocznij edycję.';
 $string['meta'] = 'Meta dane';
 $string['moduledirectory'] = 'Folder modułów';
 $string['modulename'] = 'Wiki';
@@ -105,6 +106,7 @@ $string['noadministrationaction'] = 'Brak działania';
 $string['nocandidatestoremove'] = 'Brak stron do usunięcia. Wybierz \'$a\' aby pokazać wszystkie strony.';
 $string['nochangestorevert'] = 'Brak zmian do cofnięcia';
 $string['nohtml'] = 'brakHTML';
+$string['nojslockwarning'] = 'W twojej przeglądarce nie jest włączony Javascript co oznacza, że edycja strony którą w tej chwili wykonujesz nie jest zabezpieczona przed utratą danych. Jeśli ktoś inny rozpocznie w tym samym czasie edycję tej strony nie będziesz mógł zapisać wprowadzonych zmian. Zapisz szybko stronę, włącz Javascript i odsież wyświetlanie strony.';
 $string['nolinksfound'] = 'Nie znaleziono linków na stronie';
 $string['noregexp'] = 'To musi być określony ciąg znaków (nie możesz użyć * lub regex). Co najwyżej możesz wykorzystać IP lub nazwę hosta atakującego, ale nie używaj numeru portu (zwiększa się z każdym dostępem przez http).';
 $string['notadministratewiki'] = 'Nie masz prawa administrowania tym Wiki';
@@ -116,10 +118,13 @@ $string['optional'] = 'Opcjonalny';
 $string['orphanedpage'] = 'Osamotniona strona';
 $string['orphanedpages'] = 'Osamotnione strony';
 $string['otherwikis'] = 'Inne wiki';
+$string['overridebutton'] = 'Omiń blokadę';
+$string['overrideinfo'] = 'Możesz pominąć blokadę edycji ale to może spowodować, że ktoś inny straci możliwość zapisania zmian, które w tej chwili dokonuje.';
 $string['ownerunknown'] = 'nieznany/e';
 $string['pageactions'] = 'Działania stron';
 $string['pageindex'] = 'Indeks stron';
 $string['pageinfo'] = 'Strona informacyjna';
+$string['pagelocked'] = '<p><strong>Ta strona jest teraz edytowana przez $a->name.</strong> Edycja została rozpoczęta  $a->since i wciąż trwa (window open as of $a->seen.)</p><p>Musisz poczekać na zakończenie tej edycji aby rozpocząc kolejną.</p>';
 $string['pagename'] = 'Nazwa strony';
 $string['pagenamechoice'] = '- lub -';
 $string['pageslinkingto'] = 'Strony odwołujące się do tej strony';
@@ -137,14 +142,15 @@ Jeśli jednak wpierw opróżnisz stronę, zostanie ona tutaj wyświetlona. Inne 
 $string['removepagecheck'] = 'Czy na pewno usunąć te strony?';
 $string['removepages'] = 'Usuń strony';
 $string['removeselectedpages'] = 'Usuń zaznaczone strony';
-$string['revertallsince'] = 'Diving wersji. Usuń także późniejsze zmiany';
+$string['revertallsince'] = 'Głębokość zmian wersji - usuń także późniejsze zmiany.';
 $string['revertchanges'] = 'Cofnij zmiany';
 $string['revertlastonly'] = 'Tylko, jeśli to była ostatnia zmiana';
 $string['revertpages'] = 'Cofnij wielokrotne zmiany';
 $string['revertpagescheck'] = 'Czy na pewno cofnąć następujące zmiany:';
-$string['revertthe'] = 'Diving wersji. Usuń tylko określone zmiany';
+$string['revertthe'] = 'Głębokość zmian wersji - usuń tylko określone zmiany.';
 $string['safehtml'] = 'Bezpieczny HTML';
 $string['save'] = 'Zapisz';
+$string['savenolock'] = 'Nie możesz zapisać tej strony ponieważ nie masz tzw. \'editing lock\' . To może się zdarzyć jeśli Twoja przeglądarka ma wyłączony Javascript lub jeśli inny użytkownik nadpisał Twój \'editing lock\' <br></br> Możesz wrócić do poprzedniego ekranu używając przycisku \'wstecz\' twojej przeglądarki i skopiować tekst zmian, które wprowadziłeś i spróbować modyfikacji ponownie.';
 $string['searchwiki'] = 'Przeszukaj Wiki';
 $string['setpageflags'] = 'Ustaw flagi na stronie';
 $string['showversions'] = 'Pokaż wersje';
@@ -172,7 +178,7 @@ $string['uploadedon'] = 'Przesłany:';
 $string['uploadpicturebutton'] = 'Prześlij';
 $string['uplok'] = 'Udało się przesłać Twój plik';
 $string['version'] = 'Wersja';
-$string['versionrangetoobig'] = 'Nie możesz usunąć wszystkich wersji tej strony! Ostatnia wersja powinna zostać.';
+$string['versionrangetoobig'] = 'Nie możesz usunąć wszystkich wersji tej strony! Wersja ostatnia powinna pozostać.';
 $string['versions'] = 'Wersje';
 $string['versionstodelete'] = 'Wersja(e) do usunięcia';
 $string['viewpage'] = 'Zobacz stronę';

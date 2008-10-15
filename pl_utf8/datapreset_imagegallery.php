@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // datapreset_imagegallery.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
+      // datapreset_imagegallery.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
-$string['modulename'] = 'Galeria';
+$string['modulename'] = 'Galeria obrazów';
 
 ?>

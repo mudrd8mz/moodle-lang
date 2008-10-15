@@ -226,5 +226,26 @@ $string['uploadrecords'] = 'Pobierz wpisy z pliku';
 $string['url'] = 'URL';
 $string['viewfromdate'] = 'Podgląd z';
 $string['viewtodate'] = 'Podgląd';
-
+$string['addentries'] = 'Dodaj wpisy';
+$string['advancedsearch'] = 'Wyszukiwanie zaawansowane';
+$string['data:viewentry'] = 'Zobacz wpisy';
+$string['deleteallentries'] = 'Usuń wszystkie wpisy';
+$string['editordisable'] = 'Wyłącz edytor';
+$string['editorenable'] = 'Włącz edytor';
+$string['entry'] = 'Wpis';
+$string['export'] = 'Exportuj';
+$string['exportaszip'] = 'Eksportuj jako zip';
+$string['radiobutton'] = 'Radio przycisk';
+$string['search'] = 'Szukaj';
+$string['addentries'] = 'Dodaj wpisy';
+$string['advancedsearch'] = 'Wyszukiwanie zaawansowane';
+$string['data:viewentry'] = 'Zobacz wpisy';
+$string['deleteallentries'] = 'Usuń wszystkie wpisy';
+$string['editordisable'] = 'Wyłącz edytor';
+$string['editorenable'] = 'Włącz edytor';
+$string['entry'] = 'Wpis';
+$string['export'] = 'Exportuj';
+$string['exportaszip'] = 'Eksportuj jako zip';
+$string['radiobutton'] = 'Radio przycisk';
+$string['search'] = 'Szukaj';
 ?>

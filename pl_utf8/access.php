@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
+      // access.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['access'] = 'Dostępność';
@@ -25,14 +25,14 @@ $string['tocontent'] = 'Przejdź do głównej zawartości';
 $string['tonavigation'] = 'Przejdź do nawigacji';
 $string['youarehere'] = 'Jesteś tutaj';
 $string['showhideblock'] = 'Pokaż lub ukryj blok'; // ORPHANED
-$string['configchars'] = 'Pokaż moje kursy';
-$string['enrol'] = 'Pozostałe kursy';
-$string['hideactivecourses'] = 'Ukryj aktywne kursy';
-$string['hideinactivecourses'] = 'Ukryj nieaktywne kursy';
-$string['hidemycourses'] = 'Ukryj moje kursy';
-$string['mycourses'] = 'Moje kursy';
-$string['showactivecourses'] = 'Pokaż Aktywne Kursy';
-$string['showinactivecourses'] = 'Pokaż Nieaktywne Kursy';
-$string['showmycourses'] = 'Pokaż Moje Kursy';
+$string['configchars'] = 'Pokaż moje kursy'; // ORPHANED
+$string['enrol'] = 'Pozostałe kursy'; // ORPHANED
+$string['hideactivecourses'] = 'Ukryj aktywne kursy'; // ORPHANED
+$string['hideinactivecourses'] = 'Ukryj nieaktywne kursy'; // ORPHANED
+$string['hidemycourses'] = 'Ukryj moje kursy'; // ORPHANED
+$string['mycourses'] = 'Moje kursy'; // ORPHANED
+$string['showactivecourses'] = 'Pokaż Aktywne Kursy'; // ORPHANED
+$string['showinactivecourses'] = 'Pokaż Nieaktywne Kursy'; // ORPHANED
+$string['showmycourses'] = 'Pokaż Moje Kursy'; // ORPHANED
 
 ?>
