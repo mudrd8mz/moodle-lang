@@ -1183,7 +1183,6 @@ $string['registrationyes'] = 'Oui, envoyez-moi les informations importantes';
 $string['reject'] = 'Rejeter';
 $string['reload'] = 'Actualiser';
 $string['remoteappuser'] = 'Utilisateur distant de $a';
-$string['remotemaharauser'] = 'Utilisateur Mahara distant'; // Obsolete in 2.0dev and upwards
 $string['remove'] = 'Supprimer';
 $string['removeadmin'] = 'Supprimer cet administrateur';
 $string['removecreator'] = 'Supprimer ce responsable de cours';
