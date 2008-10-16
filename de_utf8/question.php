@@ -117,6 +117,7 @@ $string['movingquestionsnofiles'] = 'Sind Sie sicher, dass Sie die Frage(n) {$a-
 $string['needtochoosecat'] = 'Sie müssen eine Kategorie auswählen, um diese Frage zu verschieben. Oder Sie drücken \"Abbrechen\".';
 $string['nocate'] = 'Keine solche Kategorie: $a!';
 $string['nopermissionadd'] = 'Sie haben keine Berechtigung, um hier Fragen hinzuzufügen.';
+$string['nopermissionmove'] = 'Sie haben keine Berechtigung die Fragen zu verschieben. Speichern Sie die Frage in dieser Kategorie oder als neue Frage.';
 $string['noprobs'] = 'Es wurden keine Probleme in Ihrer Fragen-Datenbank gefunden.';
 $string['notenoughdatatoeditaquestion'] = 'Weder eine Frage-ID, noch Kategorie-ID oder Fragetyp sind angegeben.';
 $string['notenoughdatatomovequestions'] = 'Sie müssen die Frage-ID der Fragen angeben, die Sie verschieben wollen.';
