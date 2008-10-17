@@ -1612,4 +1612,3 @@ $string['yourself'] = 'sinä itse';
 $string['yourteacher'] = '{$a}si';
 $string['zippingbackup'] = 'Pakataan varmuuskopiota';
 ?>
-
