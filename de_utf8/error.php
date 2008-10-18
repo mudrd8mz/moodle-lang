@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // error.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['adminprimarynoedit'] = 'Der Hauptadministrator kann nicht von anderen bearbeitet werden';
@@ -108,7 +108,7 @@ $string['cannotrestoreadminoredit'] = 'Sie müssen Kurstrainer oder Administrato
 $string['cannotsaveagreement'] = 'Ihre Zustimmung konnte nicht gespeichert werden';
 $string['cannotsaveblock'] = 'Fehler beim Speichern der Block-Einstellungen';
 $string['cannotsavecomment'] = 'Der Kommentar kann nicht gespeichert werden';
-$string['cannotsaveconfig'] = 'Problem beim Speichern der Konfiguration \"$a->name\" als \"$avalue\" für das Plugin \"$a->plugin\"';
+$string['cannotsaveconfig'] = 'Problem beim Speichern der Konfiguration \"$a->name\" als \"$a->value\" für das Plugin \"$a->plugin\"';
 $string['cannotsavedata'] = 'Daten können nicht gespeichert werden.';
 $string['cannotsavefile'] = 'Die Datei \"$a\" kann nicht gespeichert werden.';
 $string['cannotsavemd5file'] = 'Die md5-Datei kann nicht gespeichert werden.';
@@ -388,7 +388,6 @@ $string['tagdisabled'] = 'Schlagworte sind deaktiviert!';
 $string['tagnotfound'] = 'Der verwendete Tag wurde in der Datenbank nicht gefunden.';
 $string['themenotinstall'] = 'Dieses Design ist nicht verfügbar!';
 $string['transactionvoid'] = 'Transaktion konnte nicht geleert werden, da sie bereits leer war.';
-$string['typenotimplement'] = 'TODO: Dieser Typ ist bisher nicht implementiert.';
 $string['unenrolerror'] = 'Beim Austragen der Person ist ein Fehler aufgetreten.';
 $string['unicodeupgradeerror'] = 'Entschuldigung, aber Ihre Datenbank hat kein Unicode-Format. Diese Moodle-Version ist deswegen nicht fähig, Ihre Datenbank nach Unicode umzuwandeln. Bitte aktualisieren Sie zuerst auf Moodle 1.7.x. Anschließend starten Sie die Unicode-Umwandlung auf der Admin-Seite. Anschließend sollte es möglich sein, auf Moodle $a zu aktualisieren.';
 $string['unknowaction'] = 'Unbekannte Aktion!';
@@ -442,6 +441,7 @@ $string['wrongsourcebase'] = 'Falsche URL-Quelle';
 $string['wrongzipfilename'] = 'Falscher ZIP-Dateiname';
 $string['xmldberror'] = 'XMLDB-Fehler!';
 $string['younotteacher'] = 'Sie sind kein/e Trainer/in!';
+$string['typenotimplement'] = 'TODO: Dieser Typ ist bisher nicht implementiert.'; // ORPHANED
 $string['cmunknown'] = 'Das Kursmodul wurde nicht gefunden.'; // ORPHANED
 $string['copiedcmnotexist'] = 'Das kopierte Kursmodul ist nicht vorhanden!'; // ORPHANED
 $string['invalidseeky'] = 'Das Formular wird wegen eines falsch übermittelten Sessionkeys nicht akzeptiert!'; // ORPHANED
