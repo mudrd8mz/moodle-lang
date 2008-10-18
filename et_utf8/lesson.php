@@ -276,7 +276,6 @@ $string['youranswer'] = 'Sinu vastus';
 $string['yourcurrentgradeis'] = 'Sinu praegune hinne on $a';
 $string['yourcurrentgradeisoutof'] = 'Sinu praegune tulemus on $a->grade (maksimum: $a->total)';
 $string['youshouldview'] = 'Sa peaksid vaatama vähemalt: $a';
-$string['topscorestitle'] = '$a->maxhighscores parimat tulemust tunnis $a->name'; // ORPHANED
 $string['backtreeview'] = 'Tagasi puuvaatesse'; // ORPHANED
 $string['commentswithname'] = '$a->firstname {$a->lastname} kommentaarid'; // ORPHANED
 $string['deleteattempts'] = 'Kustuta õppija katsed selles tunnis (kasutaja id)'; // ORPHANED
