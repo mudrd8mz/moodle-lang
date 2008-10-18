@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['abouttobeinstalled'] = 'zostanie za chwilę zainstalowany';
@@ -256,7 +256,7 @@ $string['costdefault'] = 'Domyślny koszt';
 $string['counteditems'] = '$a->count $a->items';
 $string['country'] = 'Kraj';
 $string['course'] = 'Kurs';
-$string['courseapprovedemail'] = 'Zamówienie na kurs $a->nazwa zostało zrealizowane, a Ty zostałeś przypisany jako $a->teacher. Aby uzyskać dostęp do kursu, przejdź do $a->url';
+$string['courseapprovedemail'] = 'Zamówienie na kurs $a->name zostało zrealizowane, a Ty zostałeś przypisany jako $a->teacher. Aby uzyskać dostęp do kursu, przejdź do $a->url';
 $string['courseapprovedfailed'] = 'Nieudana próba zatwierdzenia kursu';
 $string['courseapprovedsubject'] = 'Twój kurs został zatwierdzony';
 $string['courseavailable'] = 'Ten kurs jest dostępny dla studentów';
@@ -288,7 +288,6 @@ $a';
 $string['courserejectreason'] = 'Wytłumaczenie powodów, dla których zamówienie zostało odrzucone<br />(wpisane tutaj uzasadnienie zostanie wysłane e-mailem do wnioskodawcy).';
 $string['courserejectsubject'] = 'Twój kurs został odrzucony';
 $string['courserequest'] = 'Zamawianie kursu';
-$string['courserequestdisabled'] = 'Opcja zamawiania kursów została zablokowana przez administratora';
 $string['courserequestfailed'] = 'Twoje zamówienie nie zostało zapisane';
 $string['courserequestintro'] = 'Użyj formularza, aby zamówić utworzenie kursu. Zamieść jak najwięcej informacji tak, aby administratorzy poznali cel utworzenia tego kursu.';
 $string['courserequestreason'] = 'Kurs potrzebny jest mi do...';
@@ -983,7 +982,6 @@ $string['noreplyname'] = 'Nie odpowiadaj na ten mail';
 $string['noresults'] = 'Brak wyników';
 $string['normal'] = 'Zwykły';
 $string['normalfilter'] = 'Normalny filtr';
-$string['nostatstodisplay'] = 'Brak dostępnych danych do wyświetlenia.';
 $string['nostudentsfound'] = 'Nie znaleziono studenta $a';
 $string['nostudentsingroup'] = 'Studenci nie są przypisani do grup';
 $string['nostudentsyet'] = 'Na ten kurs nie zapisali się studenci';
@@ -1520,5 +1518,7 @@ $string['yourlastlogin'] = 'Ostatnie logowanie';
 $string['yourself'] = 'samodzielnie';
 $string['yourteacher'] = 'twój $a';
 $string['zippingbackup'] = 'Archiwizacja  kopii zapasowej';
+$string['courserequestdisabled'] = 'Opcja zamawiania kursów została zablokowana przez administratora'; // ORPHANED
+$string['nostatstodisplay'] = 'Brak dostępnych danych do wyświetlenia.'; // ORPHANED
 
 ?>
