@@ -1,5 +1,7 @@
+<?PHP // $Id$ 
+      // admin.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
-<?PHP // $Id$
+
 $string['accessdenied'] = 'Pääsy kielletty';
 $string['accounts'] = 'Käyttäjät';
 $string['adminseesall'] = 'Ylläpitäjät näkevät kaiken';
@@ -474,5 +476,5 @@ $string['usersupdated'] = 'Käyttäjät päivitetty';
 $string['uuupdatetype'] = 'Olemassa olevat käyttäjätiedot';
 $string['validateerror'] = 'Tämä arvo ei kelvannut:';
 $string['warningcurrentsetting'] = 'Virheellinen nykyinen arvo: $a';
-?>
 
+?>

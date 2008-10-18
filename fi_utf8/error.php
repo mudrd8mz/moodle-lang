@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // error.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
 
 $string['adminprimarynoedit'] = 'Muut eivät voi muokata pääasiallista ylläpitäjää';
 $string['cannotassignrole'] = 'Ei voi antaa roolia';
@@ -13,7 +14,6 @@ $string['cannotsavezipfile'] = 'Zip-tiedosta ei voitu tallentaa';
 $string['cannotunzipfile'] = 'Zip-tiedostoa ei voitu purkaa';
 $string['cantunenrollfrommetacourse'] = 'Sinua ei voitu poistaa tältä metakurssilta';
 $string['cantunenrollinthisrole'] = 'Et voi poistua kurssilta nykyisessä roolissasi';
-$string['cmunknown'] = 'Kurssi moduulia ei löydy';
 $string['componentisuptodate'] = 'Komponentti on ajan tasalla';
 $string['confirmsesskeybad'] = 'Valitettavasti istuntoavaintasi ei voitu varmistaa toteuttaaksesi tämän toiminnon. Tämä turvaominaisuus ehkäisee vahingossa tapahtuvaa tai tahallista ilkivaltaista tärkeiden toimintojen suoritusta nimelläsi. Varmista, että todella haluat suorittaa tämän toiminnon.';
 $string['couldnotassignrole'] = 'Vakava mutta määrittelemätön virhe tapahtui kun roolia yritettiin liittää tunnukseesi';
@@ -62,5 +62,6 @@ $string['usernotaddedregistered'] = 'Käyttäjää \"$a\" ei lisätty - on jo re
 $string['usernotavailable'] = 'Pahus, et voi tarkastella kyseisen käyttäjän tietoja';
 $string['wrongdestpath'] = 'Virheellinen kohde kansio';
 $string['wrongzipfilename'] = 'Virheellinen zip-tiedoston nimi';
-?>
+$string['cmunknown'] = 'Kurssi moduulia ei löydy'; // ORPHANED
 
+?>

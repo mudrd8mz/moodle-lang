@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // notes.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
 
 $string['addnewnote'] = 'Lisää uusi kommentti';
 $string['addnewnoteselect'] = 'Valitse käyttäjät, joita kommentit koskevat';
@@ -24,5 +25,5 @@ $string['publishstate'] = 'Status';
 $string['site'] = 'sivusto';
 $string['sitenotes'] = 'Sivuston kommentit';
 $string['unknown'] = 'tuntematon';
-?>
 
+?>

@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // lesson.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
 
 $string['accesscontrol'] = 'Saatavuus';
 $string['actionaftercorrectanswer'] = 'Toiminto oikean vastauksen jälkeen';
@@ -124,7 +125,6 @@ $string['lessonstats'] = 'Tunnin tiedot';
 $string['loginfail'] = 'Sisäänkirjautuminen epäonnistui, yritä uudelleen...';
 $string['lowscore'] = 'Matalat pisteet';
 $string['lowtime'] = 'Huono aika';
-$string['mainmenu'] = 'Päävalikko';
 $string['manualgrading'] = 'Arvostele essee vastaukset';
 $string['matchesanswer'] = 'Sopii yhteen vastausten kanssa';
 $string['maxhighscores'] = 'Parhaiden tulosten määrä';
@@ -177,7 +177,6 @@ $string['or'] = 'TAI';
 $string['ordered'] = 'Järjestetty';
 $string['other'] = 'Muu';
 $string['outof'] = 'maksimipisteet $a';
-$string['outoftime'] = 'Aika Loppuu';
 $string['overview'] = 'Yleistä';
 $string['page'] = 'Sivu $a';
 $string['pagecontents'] = 'Sivun sisältö';
@@ -206,7 +205,6 @@ $string['redisplaypage'] = 'Näytä sivu uudelleen';
 $string['report'] = 'Raportti';
 $string['reports'] = 'Raportit';
 $string['response'] = 'Palaute';
-$string['returnmainmenu'] = 'Palaa päävalikkoon';
 $string['returntocourse'] = 'Palaa kurssiin';
 $string['reviewlesson'] = 'Esikatsele tuntia';
 $string['reviewquestionback'] = 'Kyllä, haluaisin yrittää uudelleen';
@@ -229,7 +227,6 @@ $string['startlesson'] = 'Aloita oppitunti';
 $string['studentattemptlesson'] = '$a->lastname, $a->firstname\'s yritys numero $a->attempt';
 $string['studentname'] = '$ Nimi';
 $string['studentoneminwarning'] = 'Varoitus: Sinulla on 1 minuutti tai vähemmän viimeistellä oppitunti.';
-$string['studentoutoftime'] = 'HUOMIO: Aika loppui tämän oppitunnin osalta. Viimeistä vastaustasi ei lasketa, koska se annettiin ajan jo loputtua. Paina jatka painiketta lopettaaksesi oppitunnin.';
 $string['studentresponse'] = '{$a}\'n vastaus';
 $string['submitname'] = 'Lähetä nimi';
 $string['teacherjumpwarning'] = '$a->cluster hyppyä tai $a->unseen hyppyä käytetään tällä oppitunnilla. Seuraava Sivu hyppyä käytetään sen sijaan. Kirjaudu sisään opiskelijana testataksesi näitä hyppyjä.';
@@ -265,5 +262,9 @@ $string['youranswer'] = 'Vastauksesi';
 $string['yourcurrentgradeis'] = 'Nykyinen arvosanasi on $a';
 $string['yourcurrentgradeisoutof'] = 'Nykyinen arvosanasi on $a->grade ja maksimi on $a->total';
 $string['youshouldview'] = 'Sinun pitäisi katsoa ainakin $a sivua';
-?>
+$string['mainmenu'] = 'Päävalikko'; // ORPHANED
+$string['outoftime'] = 'Aika Loppuu'; // ORPHANED
+$string['returnmainmenu'] = 'Palaa päävalikkoon'; // ORPHANED
+$string['studentoutoftime'] = 'HUOMIO: Aika loppui tämän oppitunnin osalta. Viimeistä vastaustasi ei lasketa, koska se annettiin ajan jo loputtua. Paina jatka painiketta lopettaaksesi oppitunnin.'; // ORPHANED
 
+?>

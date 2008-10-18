@@ -1,4 +1,7 @@
-<?PHP // $Id$
+<?PHP // $Id$ 
+      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
+
 $string['addingmultichoice'] = 'Lisätään monivalinta';
 $string['answerhowmany'] = 'Yksi vai useita vastauksia?';
 $string['answernumbering'] = 'Numerointi';
@@ -22,5 +25,5 @@ $string['overallpartiallycorrectfeedback'] = 'Palaute osittain oikeasta vastauks
 $string['partiallycorrectfeedback'] = 'Osittain oikeasta vastauksesta';
 $string['shuffleanswers'] = 'Sekoita vaihtoehdot';
 $string['singleanswer'] = 'Valitse yksi vaihtoehto';
-?>
 
+?>

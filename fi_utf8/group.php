@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // group.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
 
 $string['addgroupstogroupings'] = 'Lisää/poista ryhmiä';
 $string['adduserstogroup'] = 'Lisää/poista käyttäjiä';
@@ -27,5 +28,5 @@ $string['toomanygroups'] = 'Liian vähän käyttäjiä annettuun ryhmämäärä�
 $string['usercount'] = 'Käyttäjien määrä';
 $string['usercounttotal'] = 'Käyttäjien määrä ($a)';
 $string['usergroupmembership'] = 'Valitun käyttäjän jäsenyys:';
-?>
 
+?>

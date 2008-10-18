@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // quiz.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
 
 $string['1day'] = '1 päivä';
 $string['1hour'] = '1 tunti';
@@ -170,9 +171,6 @@ $string['event7'] = 'Lähetä';
 $string['event8'] = 'Sulje';
 $string['event9'] = 'Käsin arviointi';
 $string['examview'] = 'Koenäkymä';
-$string['existingcategory1'] = 'Vakiomerkintä jo olemassa olevasta vakiomerkintä sarjasta, jota käyttää myös muut tämän luokan kysymykset.';
-$string['existingcategory2'] = 'Tiedosto jo olemassa olevasta tiedosto sarjasta, jota käyttää myös muut tämän luokan kysymykset.';
-$string['existingcategory3'] = 'Linkki jo olemassa olevasta linkki sarjasta, jota käyttää myös muut tämän luokan kysymykset.';
 $string['export'] = 'Vie';
 $string['exportfilename'] = 'tentti';
 $string['exportingquestions'] = 'Kysymykset on viety tiedostoon';
@@ -232,12 +230,6 @@ $string['itemanal'] = 'Kysymyskohtainen vastausten tilastointi';
 $string['itemdefinition'] = 'Määrittely';
 $string['itemsource'] = 'Kohteen lähde';
 $string['itemsourceformat'] = 'Kohteen lähteen muoto';
-$string['keptcategory1'] = 'Vakiomerkintä samasta luokasta uudelleen käytettävien vakiomerkintöjen sarjaa kuin aiemminkin';
-$string['keptcategory2'] = 'Tiedosto samasta luokasta uudelleen käytettävien tiedostojen sarjaa kuin aiemminkin';
-$string['keptcategory3'] = 'Linkki samasta luokasta uudelleen käytettävien linkkien sarjaa kuin aiemminkin';
-$string['keptlocal1'] = 'Vakiomerkintä samasta luokasta yksityisten vakiomerkintöjen sarjaa kuin aiemminkin';
-$string['keptlocal2'] = 'Tiedosto samasta luokasta yksityisten tiedostojen sarjaa kuin aiemminkin';
-$string['keptlocal3'] = 'Linkki samasta luokasta yksityisten linkkien sarjaa kuin aiemminkin';
 $string['lastanswer'] = 'Viimeinen vastauksesi oli';
 $string['link'] = 'Linkki';
 $string['listitems'] = 'Tentin kysymykset';
@@ -269,12 +261,6 @@ $string['multipleanswers'] = 'Valitse ainakin yksi vastaus';
 $string['multiplier'] = 'Kerroin';
 $string['name'] = 'Nimi';
 $string['newattemptfail'] = 'Virhe: Ei voitu aloittaa uutta yritystä tenttiin';
-$string['newcategory1'] = 'Vakiomerkintä uudesta vakiomerkintöjen sarjasta, jota saattaa käyttää myös muut kysymykset tässä luokassa.';
-$string['newcategory2'] = 'Tiedosto uudesta tiedostojen sarjasta, jota saattaa käyttää myös muut kysymykset tässä luokassa.';
-$string['newcategory3'] = 'Linkki uudesta linkkien sarjasta, jota saattaa käyttää myös muut kysymykset tässä luokassa.';
-$string['newlocal1'] = 'Vakiomerkintä uudesta vakiomerkintöjen sarjasta, jota käyttää vain tämä kysymys.';
-$string['newlocal2'] = 'Tiedosto uudesta tiedostojen sarjasta, jota käyttää vain tämä kysymys.';
-$string['newlocal3'] = 'Linkki uudesta linkkien sarjasta, jota käyttää vain tämä kysymys.';
 $string['noanswers'] = 'Vastausta ei ole valittu!';
 $string['noattempts'] = 'Kukaan ei ole yrittänyt tätä tenttiä.';
 $string['noattemptstoshow'] = 'Näytettäviä yrityksiä ei ole';
@@ -320,7 +306,6 @@ $string['previous'] = 'Edellinen tila';
 $string['publish'] = 'Julkaise';
 $string['publishedit'] = 'Sinulla pitää olla lisäys ja muokkausoikeudet julkaisevalla kurssilla muokataksesi kysymyksiä tässä kategoriassa.';
 $string['qti'] = 'IMS QTI- muoto';
-$string['qti2'] = 'IMS QTI 2.0- muoto';
 $string['question'] = 'Kysymys';
 $string['questioncats'] = 'Kysymys kategoriat';
 $string['questioninuse'] = 'Kysymys \'$a\' on jo käytössä:';
@@ -483,5 +468,21 @@ $string['xml'] = 'Moodle XML muoto';
 $string['xmltypeunsupported'] = 'xml:n tuonti ei tue kysymystyyppiä $a';
 $string['yourfinalgradeis'] = 'Lopullinen tuloksesi tästä tentistä on: $a';
 $string['zerosignificantfiguresnotallowed'] = 'Oikeassa vastauksessa ei voi olla nollaa merkitsevää lukua!';
-?>
+$string['existingcategory1'] = 'Vakiomerkintä jo olemassa olevasta vakiomerkintä sarjasta, jota käyttää myös muut tämän luokan kysymykset.'; // ORPHANED
+$string['existingcategory2'] = 'Tiedosto jo olemassa olevasta tiedosto sarjasta, jota käyttää myös muut tämän luokan kysymykset.'; // ORPHANED
+$string['existingcategory3'] = 'Linkki jo olemassa olevasta linkki sarjasta, jota käyttää myös muut tämän luokan kysymykset.'; // ORPHANED
+$string['keptcategory1'] = 'Vakiomerkintä samasta luokasta uudelleen käytettävien vakiomerkintöjen sarjaa kuin aiemminkin'; // ORPHANED
+$string['keptcategory2'] = 'Tiedosto samasta luokasta uudelleen käytettävien tiedostojen sarjaa kuin aiemminkin'; // ORPHANED
+$string['keptcategory3'] = 'Linkki samasta luokasta uudelleen käytettävien linkkien sarjaa kuin aiemminkin'; // ORPHANED
+$string['keptlocal1'] = 'Vakiomerkintä samasta luokasta yksityisten vakiomerkintöjen sarjaa kuin aiemminkin'; // ORPHANED
+$string['keptlocal2'] = 'Tiedosto samasta luokasta yksityisten tiedostojen sarjaa kuin aiemminkin'; // ORPHANED
+$string['keptlocal3'] = 'Linkki samasta luokasta yksityisten linkkien sarjaa kuin aiemminkin'; // ORPHANED
+$string['newcategory1'] = 'Vakiomerkintä uudesta vakiomerkintöjen sarjasta, jota saattaa käyttää myös muut kysymykset tässä luokassa.'; // ORPHANED
+$string['newcategory2'] = 'Tiedosto uudesta tiedostojen sarjasta, jota saattaa käyttää myös muut kysymykset tässä luokassa.'; // ORPHANED
+$string['newcategory3'] = 'Linkki uudesta linkkien sarjasta, jota saattaa käyttää myös muut kysymykset tässä luokassa.'; // ORPHANED
+$string['newlocal1'] = 'Vakiomerkintä uudesta vakiomerkintöjen sarjasta, jota käyttää vain tämä kysymys.'; // ORPHANED
+$string['newlocal2'] = 'Tiedosto uudesta tiedostojen sarjasta, jota käyttää vain tämä kysymys.'; // ORPHANED
+$string['newlocal3'] = 'Linkki uudesta linkkien sarjasta, jota käyttää vain tämä kysymys.'; // ORPHANED
+$string['qti2'] = 'IMS QTI 2.0- muoto'; // ORPHANED
 
+?>

@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
 
 $string['abandoned'] = 'jätetty kesken';
 $string['addquizchain'] = 'Lisää kysymysketju';
@@ -74,5 +75,5 @@ $string['thiscourse'] = 'Tämä kurssi';
 $string['updatequizchain'] = 'Päivitä kysymysketju';
 $string['weighting'] = 'Painotus';
 $string['wrong'] = 'Väärin';
-?>
 
+?>

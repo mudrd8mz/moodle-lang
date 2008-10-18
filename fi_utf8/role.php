@@ -1,4 +1,7 @@
-<?PHP // $Id$
+<?PHP // $Id$ 
+      // role.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
+
 $string['addrole'] = 'Lisää rooli';
 $string['allow'] = 'Salli';
 $string['allowassign'] = 'Salli roolien jako';
@@ -106,9 +109,6 @@ $string['question:add'] = 'Lisätä kysymyksiä';
 $string['question:config'] = 'Määritellä kysymystyyppejä';
 $string['question:editall'] = 'Muokata kaikkia kysymyksiä';
 $string['question:editmine'] = 'Muokata omia kysymyksiä';
-$string['question:export'] = 'Kysymysten vienti';
-$string['question:import'] = 'Kysymysten tuonti';
-$string['question:manage'] = 'Kysymysten hallinta';
 $string['question:managecategory'] = 'Kysymyskategorioiden hallinta';
 $string['question:moveall'] = 'Siirtää kaikki kysymykset';
 $string['question:movemine'] = 'Siirtää omat kysymykset';
@@ -170,5 +170,8 @@ $string['user:viewuseractivitiesreport'] = 'Käyttäjän aktiivisuuden katselu';
 $string['user:viewusergrades'] = 'Käyttäjän arvosanojen katselu';
 $string['viewrole'] = 'Roolin tarkastelu';
 $string['xuserswiththerole'] = 'Käyttäjiä roolilla \"$a->role\": $a->number';
-?>
+$string['question:export'] = 'Kysymysten vienti'; // ORPHANED
+$string['question:import'] = 'Kysymysten tuonti'; // ORPHANED
+$string['question:manage'] = 'Kysymysten hallinta'; // ORPHANED
 
+?>

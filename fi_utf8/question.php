@@ -1,6 +1,7 @@
+<?PHP // $Id$ 
+      // question.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
-<?PHP // $Id$
 $string['byandon'] = '<em>$a->user</em> - <em>$a->time</em>';
 $string['categorycurrent'] = 'Nykyinen kategoria';
 $string['categorycurrentuse'] = 'Käytä tätä kategoriaa';
@@ -17,5 +18,5 @@ $string['questionbank'] = 'Kysymyspankki';
 $string['questioncategory'] = 'Kysymyskategoria';
 $string['questioncatsfor'] = 'Kysymyskategoriat osalle \'$a\'';
 $string['unknown'] = 'Tuntematon';
-?>
 
+?>

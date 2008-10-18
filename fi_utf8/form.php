@@ -1,10 +1,10 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // form.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
 
 $string['addfields'] = 'Lisää $a kentät lomakkeeseen';
 $string['advancedelement'] = 'Monimutkainen kenttä';
 $string['day'] = 'Päivä';
-$string['denotesreq'] = '$a merkitsee pakollista kenttää';
 $string['display'] = 'Näytä';
 $string['err_alphanumeric'] = 'Syötä vain numeroita ja kirjaimia tähän.';
 $string['err_email'] = 'Syötä toimiva sähköpostiosoite tähän.';
@@ -36,5 +36,6 @@ $string['somefieldsrequired'] = 'Pakolliset kentät on merkitty $a:llä.';
 $string['timing'] = 'Ajoitus';
 $string['unmaskpassword'] = 'Näytä';
 $string['year'] = 'Vuosi';
-?>
+$string['denotesreq'] = '$a merkitsee pakollista kenttää'; // ORPHANED
 
+?>

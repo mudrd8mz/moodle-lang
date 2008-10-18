@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // grades.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+
 
 $string['activities'] = 'Aktiviteetit';
 $string['addcategory'] = 'Lisää kategoria';
@@ -60,7 +61,6 @@ $string['editfeedback'] = 'Muokkaa palautetta';
 $string['edittree'] = 'Kategoriat ja kohteet';
 $string['encoding'] = 'Koodaus';
 $string['errorgradevaluenonnumeric'] = 'Saatiin ei-numeerinen arvo matalalle tai korkealle arvosanalle seuraavaa kohdetta varten:';
-$string['errornocategorizedid'] = 'Ei saatu kategorioimatonta id:tä!';
 $string['errornocourse'] = 'Ei voitu noutaa kurssitietoja';
 $string['exceptions'] = 'Poikkeukset';
 $string['excluded'] = 'Jätetty pois';
@@ -259,5 +259,6 @@ $string['writinggradebookinfo'] = 'Kirjoitetaan arviointikirjan asetuksia';
 $string['xml'] = 'XML';
 $string['yes'] = 'Kyllä';
 $string['yourgrade'] = 'Arvosanasi';
-?>
+$string['errornocategorizedid'] = 'Ei saatu kategorioimatonta id:tä!'; // ORPHANED
 
+?>
