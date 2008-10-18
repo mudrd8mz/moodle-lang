@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081016) (2008101300)
 
 
 $string['activities'] = '활동';
@@ -351,7 +351,9 @@ $string['nonnumericweight'] = '비수치의 값을 받습니다.';
 $string['nonunlockableverbose'] = '$a->itemname 가 해제되기 전까지는 이 성적은 잠금 해제될 수 없음';
 $string['nonweightedpct'] = '가중치 퍼센트가 없습니다.';
 $string['nooutcome'] = '학습성과 없음';
+$string['nooutcomes'] = '학습성과의 항목은 강좌와 연결되어야만 하는데, 본 강좌에는 어떤 학습성과도 없습니다. 학습성과를 추가하시겠습니까?';
 $string['nopublish'] = '비공개';
+$string['noscales'] = '학습성과는 반드시 강좌 혹은 전체의 척도와 연결되어야만 하는데, 현재 아무런 척도도 없습니다. 척도를 추가하시겠습니까?';
 $string['noselectedcategories'] = '범주가 선택되지 않았음';
 $string['noselecteditems'] = '항목이 지정되지 않았음';
 $string['notteachererror'] = '교수자라야 이 기능을 사용할 수 있습니다.';
