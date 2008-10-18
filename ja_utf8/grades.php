@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081010) (2008101000)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['activities'] = '活動';
@@ -350,7 +350,9 @@ $string['nonnumericweight'] = '数値ではありません:';
 $string['nonunlockableverbose'] = '$a->itemname がロック解除されるまで、この評定をロック解除することはできません。';
 $string['nonweightedpct'] = '加重なし%%';
 $string['nooutcome'] = 'アウトカムなし';
+$string['nooutcomes'] = 'アウトカム項目は、コースアウトカムにリンクされる必要がありますが、このコースにアウトカムがありません。アウトカムを追加しますか?';
 $string['nopublish'] = '公開しない';
+$string['noscales'] = 'アウトカムは、コース評価尺度または標準評価尺度にリンクされる必要がありますが、評価尺度が登録されていないようです。評価尺度を追加しますか?';
 $string['noselectedcategories'] = 'カテゴリを選択してください。';
 $string['noselecteditems'] = '項目を選択してください。';
 $string['notteachererror'] = 'この機能は教師のみ使用できます。';
