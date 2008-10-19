@@ -360,6 +360,7 @@ $string['nonnumericweight'] = 'Valeur non numérique reçue pour ';
 $string['nonunlockableverbose'] = 'Cette note ne peut pas être déverrouillée tant que $a->itemname est verrouillé.';
 $string['nonweightedpct'] = '%% non pondéré';
 $string['nooutcome'] = 'Aucun objectif';
+$string['nooutcomes'] = 'Les éléments d\'objectif doivent être liés à un objectif de cours. Il n\'y a cependant aucun objectif défini dans ce cours. Voulez-vous en définir un&nbsp;?';
 $string['nopublish'] = 'Ne pas publier';
 $string['noselectedcategories'] = 'Aucune catégorie sélectionnée.';
 $string['noselecteditems'] = 'Aucun élément sélectionné.';
