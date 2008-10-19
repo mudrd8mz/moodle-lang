@@ -362,6 +362,7 @@ $string['nonweightedpct'] = '%% non pondéré';
 $string['nooutcome'] = 'Aucun objectif';
 $string['nooutcomes'] = 'Les éléments d\'objectif doivent être liés à un objectif de cours. Il n\'y a cependant aucun objectif défini dans ce cours. Voulez-vous en définir un&nbsp;?';
 $string['nopublish'] = 'Ne pas publier';
+$string['noscales'] = 'Les éléments d\'objectif doivent être liés à un barème de cours ou un barême global. Il n\'y a cependant aucun barème. Voulez-vous en définir un&nbsp;?';
 $string['noselectedcategories'] = 'Aucune catégorie sélectionnée.';
 $string['noselecteditems'] = 'Aucun élément sélectionné.';
 $string['notteachererror'] = 'Vous devez être enseignant pour utiliser cette fonctionnalité.';
