@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // moodle.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -445,6 +445,7 @@ $string['editorhelptopics'] = 'Témata nápovědy editoru';
 $string['editorresettodefaults'] = 'Nastavit výchozí hodnoty';
 $string['editorsettings'] = 'Nastavení editoru';
 $string['editorshortcutkeys'] = 'Klávesové zkratky editoru';
+$string['editremoteprofile'] = 'Upravit vzdálený profil';
 $string['editsummary'] = 'Upravit souhrn';
 $string['editthisactivity'] = 'Upravit tuto činnost';
 $string['editthiscategory'] = 'Upravit tuto kategorii';
@@ -1058,7 +1059,7 @@ $string['notifications'] = 'Informace';
 $string['notify'] = 'Oznámit';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Uzivatel: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Tyto protokoly si muzete prohlednout zde: $a/course/report/log/index.php?id=1&amp;chooselog=1&amp;modid=site_errors';
-$string['notifyloginfailuresmessagestart'] = 'Zde je seznam neuspesnych pokusu o prihlaseni na $a od doby zaslani predchoziho upozorneni ';
+$string['notifyloginfailuresmessagestart'] = 'Zde je seznam neuspesnych pokusu o prihlaseni na $a od doby zaslani predchoziho upozorneni';
 $string['notifyloginfailuressubject'] = '$a :: Upozorneni na neuspesna prihlaseni';
 $string['notincluded'] = 'Nezahrnuto';
 $string['notingroup'] = 'Je mi líto, ale pro přístup k této činnosti musíte být členem skupiny.';
@@ -1185,7 +1186,7 @@ $string['registrationsend'] = 'Odeslat údaje o registraci na moodle.org';
 $string['registrationyes'] = 'Ano, chci být upozorňován e-mailem';
 $string['reject'] = 'Odmítnout';
 $string['reload'] = 'Obnovit';
-$string['remotemaharauser'] = 'Vzdálený Mahara uživatel';
+$string['remoteappuser'] = 'Vzdálený uživatel $a';
 $string['remove'] = 'Odstranit';
 $string['removeadmin'] = 'Odstranit správce';
 $string['removecreator'] = 'Odstranit tvůrce kurzů';
@@ -1604,6 +1605,7 @@ $string['yourlastlogin'] = 'Vaše poslední přihlášení';
 $string['yourself'] = 'vy';
 $string['yourteacher'] = 'váš $a';
 $string['zippingbackup'] = 'Komprimuji (ZIP) zálohu';
+$string['remotemaharauser'] = 'Vzdálený Mahara uživatel'; // ORPHANED
 $string['skiptomaincontent'] = 'Přeskočit dopředu na hlavní obsah'; // ORPHANED
 $string['enteryourinterests'] = 'Vložte vaše zájmy oddělené čárkou'; // ORPHANED
 $string['statsreport6'] = 'Veškerá činnost učitelů (prohlížení a příspěvky)'; // ORPHANED

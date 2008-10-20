@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
+      // question.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
 
 
 $string['adminreport'] = 'Přehled možných problémů s vaší databází úloh.';
@@ -61,6 +61,7 @@ $string['movingquestionsandfiles'] = 'Jste si jisti, že chcete přesunout úloh
 $string['movingquestionsnofiles'] = 'Jste si jisti, že chcete přesunout úlohu/-y {$a->questions} do kontextu <strong>\"{$a->tocontext}\"</strong>? <br />Nebyly zjištěny žádné odkazy na soubory umístěné v {$a->fromareaname}.';
 $string['needtochoosecat'] = 'Musíte zvolit kategorii, kam se má úloha přesunout, nebo stisknout \"Zrušit\".';
 $string['nopermissionadd'] = 'Nemáte oprávnění přidávat zde úlohy.';
+$string['nopermissionmove'] = 'Nemáte oprávnění přesouvat úlohy z tohoto umístění. Musíte úlohu uložit buď do této kategorie, nebo ji uložit jako novou úlohu.';
 $string['noprobs'] = 'Nebyly nalezeny žádné problémy ve vaší databázi úloh.';
 $string['notenoughdatatoeditaquestion'] = 'Nebylo specifikováno ani ID otázky, ani ID kategorie a typ otázky.';
 $string['notenoughdatatomovequestions'] = 'Musíte poskytnout identifikátory úloh, které chcete přesunout.';
@@ -84,6 +85,9 @@ $string['tofilecontext'] = 'Zapsat kontext do souboru';
 $string['unknown'] = 'Neznámý';
 $string['unknownquestiontype'] = 'Neznámý typ otázky: $a.';
 $string['unpublished'] = 'nesdílená';
+$string['upgradeproblemcategoryloop'] = 'Byl zjištěn problém při upgrade kategorií úloh. Strom kategorií obsahuje smyčku. Identifikátory postižených kategorií jsou $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Není možno aktualizovat kategorii $a->name ($a->id).';
+$string['upgradeproblemunknowncategory'] = 'Byl zjištěn problém při upgrade kategorií úloh. Kategorie $a->id má spadat pod kategorii $a->parent, ale ta neexistuje. Reference na nadřazenou kategorii byla opravena.';
 $string['yourfileshoulddownload'] = 'Vyexportovaný soubor by se měl začít okamžitě stahovat. Pokud se tak nestane, <a href=\"$a\">klikněte sem</a>.';
 
 ?>

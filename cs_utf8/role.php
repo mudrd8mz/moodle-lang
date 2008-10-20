@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
+      // role.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
 
 
 $string['addrole'] = 'Přidat novou roli';
@@ -27,6 +27,9 @@ $string['category:update'] = 'Aktualizovat kategorie';
 $string['category:visibility'] = 'Vidět skryté kategorie';
 $string['course:activityvisibility'] = 'Skrýt/ukázat činnosti';
 $string['course:bulkmessaging'] = 'Posílat zprávu více lidem';
+$string['course:changefullname'] = 'Měnit celý název kurzu';
+$string['course:changeidnumber'] = 'Měnit identifikátor kurzu';
+$string['course:changeshortname'] = 'Měnit krátký název kurzu';
 $string['course:create'] = 'Vytvářet kurzy';
 $string['course:delete'] = 'Odstraňovat kurzy';
 $string['course:manageactivities'] = 'Spravovat činnosti';
