@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // error.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
 
 
 $string['adminprimarynoedit'] = 'Primární správce nemůže být upravován ostatními uživateli';
@@ -58,6 +58,7 @@ $string['invalidipformat'] = 'Neplatný formát IP adresy';
 $string['invalidmd5'] = 'Neplatný MD5 hash';
 $string['invalidrequest'] = 'Neplatný požadavek';
 $string['invalidrole'] = 'Neplatná role';
+$string['invalidsesskey'] = 'Neplatný klíč sesskey, formulář nebyl přijat!';
 $string['invalidurl'] = 'Neplatná URL';
 $string['invalidxmlfile'] = '\"$a\" není platný XML soubor';
 $string['iplookupfailed'] = 'Nelze najít geografické informace o této IP adrese: $a';

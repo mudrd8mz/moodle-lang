@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // grades.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
 
 
 $string['activities'] = 'Činnosti';
@@ -103,6 +103,7 @@ $string['configshowgroups'] = 'Zda zobrazovat průměr pro každou skupinu.';
 $string['configshowhiddenitems'] = 'Určuje, jak se mají zobrazovat skryté položky hodnocení. Je-li zvoleno \"Skrýt\", nezobrazují se vůbec. Je-li zvoleno \"Ukázat\", je celý řádek pro danou položku zobrazen šedivou barvou a známka se nezobrazuje. Při \"Pouze skryté do\", jsou položky s nastaveným datumem \"skrýt do\" zobrazeny šedivou barvou a jejich známky se až do nastaveného data nezobrazí vůbec.  Poté je celá položka zobrazena normálně.';
 $string['configshowlocks'] = 'Zda zobrazovat ikonu zamknout/odemknout u každé známky.';
 $string['configshownumberofgrades'] = 'Zda zobrazit počet známek, z nichž byl vypočítán průměr v závorkách za tímto průměrem, např. 45 (34).';
+$string['configshowpercentage'] = 'Zda zobrazovat procentuální hodnotu u každé položky hodnocení.';
 $string['configshowquickfeedback'] = 'Rychlý komentář vkládá malé textové pole do všech buněk tabulky v celkovém přehledu hodnocení. Můžete tak najednou vyplnit větší množství komentářů a všechny je uložit najednou pomocí tlačítka Aktualizovat.';
 $string['configshowranges'] = 'Zda přidat řádek pro zobrazení rozsahu známek v každém sloupci.';
 $string['configshowrank'] = 'Zda zobrazovat pro každou položku hodnocení umístění daného uživatele oproti zbytku třídy.';
@@ -347,7 +348,9 @@ $string['nonnumericweight'] = 'Vložena nenumerická hodnota pro';
 $string['nonunlockableverbose'] = 'Tato známka nemůže být odemknuta, dokud nebude odemknuta celá položka \"$a->itemname\"';
 $string['nonweightedpct'] = 'nevážená %%';
 $string['nooutcome'] = 'Bez očekávaných výstupů';
+$string['nooutcomes'] = 'Hodnocené výstupy musí být provázány s očekávanými výstupy kurzu, ale v tomto kurzu nebyly ještě žádné očekávané výstupy nadefinovány. Přejete si je nyní přidat?';
 $string['nopublish'] = 'Nezveřejňovat';
+$string['noscales'] = 'Očekávané výstupy lze hodnotit pomocí některé z vlastních nebo standardních (globálních) škál. V tomto kurzu není žádná škála k dispozici. Přejete si nyní škálu přidat?';
 $string['noselectedcategories'] = 'nebyly vybrány žádné kategorie';
 $string['noselecteditems'] = 'nebyly vybrány žádné položky';
 $string['notteachererror'] = 'Přístup k těmto údajům mají pouze učitelé.';
@@ -454,6 +457,7 @@ $string['showlocks'] = 'Ukázat zámky';
 $string['shownohidden'] = 'Žádné skryté';
 $string['shownooutcomes'] = 'Skrýt výstupy';
 $string['shownumberofgrades'] = 'Zobrazovat počet známek v průměrech';
+$string['showpercentage'] = 'Ukázat procenta';
 $string['showquickfeedback'] = 'Ukázat Rychlý komentář';
 $string['showranges'] = 'Ukázat rozsahy';
 $string['showrank'] = 'Ukázat umístění';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
+      // admin.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -132,6 +132,7 @@ $string['configfrontpageloggedin'] = 'Přihlášeným uživatelům budou na titu
 $string['configfullnamedisplay'] = 'Vyberte způsob zobrazování jmen uživatelů. Nejvýhodnější je obvykle výchozí volba \'Křestní jméno + Příjmení\', můžete ale zobrazování příjmení zcela vypnout, nebo ponechat rozhodnutí na nastavení příslušného jazyka (různé jazyky mají různé konvence).';
 $string['configgdversion'] = 'Verze nainstalované knihovny GD. Implicitně se zobrazuje verze, která byla zjištěna automaticky. Neměňte tuto hodnotu, pokud opravdu nevíte, co děláte.';
 $string['configgeoipfile'] = 'Cesta k binárkám GeoIP City. Tento soubor není součástí distribuce moodle a musí být získán samostatně z <a href=\"http://www.maxmind.com/\">MaxMind</a>. Můžete si zakoupit komerční verzi, nebo použít volně dostupnou verzi. <br />Jednoduše stáhněte z <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\" >http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a> archiv a rozbalte ho do adresáře <b>$a</b> na vašem serveru.';
+$string['configgetremoteaddrconf'] = 'Pokud je váš Moodle umístěný za reverzním proxy serverem, můžete zde určit, které HTTP hlavičky obsahují IP adresu koncového klienta. Hlavičky jsou hledány v uvedeném pořadí a použije se první nalezená.';
 $string['configgooglemapkey'] = 'Na adrese <a href=\"http://code.google.com/apis/maps/signup.html\" >http://code.google.com/apis/maps/signup.html</a> si vygenerujte zvláštní klíč pro použití map na Googlu k vyhledávání IP adres. Využívání této služby je zdarma. <br/> Adresa vašeho serveru je <b> $a</b>.';
 $string['configgradebookroles'] = 'Které uživatele zobrazovat u výpisu klasifikace. Uživatelé potřebují alespoň jednu z těchto rolí v daném kurzu, aby byli zobrazeni u jeho popisu.';
 $string['configgradeexport'] = 'Které z formátů pro export klasifikace chcete používat jako primární. Zvolené moduly nastaví a budou používat pole \"naposledy exportováno\" u každé známky. Toto může mj. vést k tomu, že exportované záznamy budou identifikovány jako \"nové\" nebo \"aktualizované\". Pokud si nejste jisti, nevolte žádnou z nabídek.';
@@ -230,8 +231,10 @@ $string['configstartwday'] = 'Začátek týdne';
 $string['configstatscatdepth'] = 'Kód pro zpracování statistik používá zjednodušenou logiku pro zjištění uživatelů zapsaných v kurzu. Lokální přenastavení rolí je zcela ignorováno a přidělení rolí se kontroluje pouze v jistém počtu nadřazených kategorií. Hodnota 0 zde znamená, že budou detekovány pouze role přidělené přímo na úrovni stránek (globální role) nebo kurzu. Hodnota 1 znamená, že budou detekovány i role přidělené na úrovni nadřazené kategorie. Hodnota 2 detekuje další nadřazenou kategorii atd. Čím je hodnota větší, tím více bude server zatížen v průběhu zpracování statistik.';
 $string['configstatsfirstrun'] = 'Jak daleko do minulosti se mají zpracovat statistiky <b>při prvním spuštění</b> této naplánované úlohy. Toto první zpracování může trvat dlouhou dobu a je docela náročné na systémové prostředky serveru. Jestliže je tedy na vašich stránkách velký provoz a navíc máte Moodle nainstalován na sdíleném hostingovém serveru, nedoporučujeme nastavovat příliš velkou hodnotu. Pro účely tohoto nastavení se jedním měsícem rozumí 28 dní. V generovaných grafech a statistikách odpovídá jeden měsíc jednomu kalendářnímu měsíci.';
 $string['configstatsmaxruntime'] = 'Zpracování statistik může poměrně náročné. Využijte proto tohoto a následujícího pole a nastavte, kdy bude tato úloha spuštěna a jak dlouho poběží.';
-$string['configstatsmaxruntime2'] = 'Zpracování může být poměrně náročné, proto určete maximální povolený čas na shromáždění statistik z jednoho dne. Maximální počet dní zpracovaný při jednom spuštění cronu je 3.';
-$string['configstatsruntimestart'] = 'Kdy se má <b>spustit</b> úloha zpracovávající statistiky?';
+$string['configstatsmaxruntime2'] = 'Zpracování může být poměrně náročné, proto určete maximální povolený čas na shromáždění statistik z jednoho dne. Maximální počet dní, které budou zpracovány při jednom spuštění cronu, je 31.';
+$string['configstatsmaxruntime3'] = 'Kolik času dáte Moodlu na zpracování statistik za jeden den. Mějte na paměti, že zpracování statistik výrazně zatěžuje server. Počet dnů, které budou zpracovány v rámci jednoho spuštění služby cron, lze nastavit níže.';
+$string['configstatsruntimedays'] = 'Kolik dnů může být zpracováno v rámci jednoho sběru statistik. Jsou-li vaše statistiky aktuální, bude zpracován pouze jeden (právě uplynulý) den. Upravte toto nastavení v závislosti na zatížení vašeho serveru. Snižte tuto hodnotu, pokud potřebujete kratší dobu provádění sběru statistik.';
+$string['configstatsruntimestart'] = 'Kdy se má spustit úloha (cron) zpracovávající statistiky? Pokud na jednom stroji provozujete několik Moodle serverů, nastavte pro každý z nich jiný čas.';
 $string['configstatsuserthreshold'] = 'Při vyhodnocování kurzů budou ignorovány kurzy, v nichž je zapsáno méně uživatelů (studentů + učitelů) než uvedená nenulová hodnota.';
 $string['configstripalltitletags'] = 'Zda se mají odstranit HTML značky z názvů studijních materiálů a modulů činností. Používáte-li HTML v názvech modulů, nezaškrtávejte.';
 $string['configsupportemail'] = 'Tato emailová adresa bude zveřejněna uživatelům pro případ obecné podpory na vašich stránkách (např. když si uživatel zakládá nový účet). Ponecháte-li prázdné, nebude tento kontakt na uživatelskou podporu uváděn.';
@@ -243,6 +246,7 @@ $string['configtimezone'] = 'Vyberte časové pásmo, v němž se nachází vá�
 $string['configunzip'] = 'Umístění programu unzip (pouze pro Unix, volitelné). Pokud je zadáno, bude Moodle používat tento program k rozbalování zip archivů na serveru. Jinak bude používat vlastní knihovny.';
 $string['configusetags'] = 'Povolit funkci nálepek na těchto stránkách?';
 $string['configvariables'] = 'Obecné parametry';
+$string['configverifychangedemail'] = 'Povolit kontrolu změněných emailových adres oproti seznamu povolených a zakázaných emailových domén. Pokud toto nastavení není povoleno, pak se emailové adresy kontrolují pouze při zakládání účtu.';
 $string['configvisiblecourses'] = 'Zobrazovat kurzy ve skrytých kategoriích normálně';
 $string['configwarning'] = 'Následující hodnoty upravujte velmi opatrně -- nestandardní hodnoty mohou způsobovat problémy.';
 $string['configxmlstrictheaders'] = 'Toto je nastavení užitečné pouze pro vývojáře. Určuje, zda se má stránka generovat pomocí XML http hlaviček a prologu, takže prohlížeče zobrazují XHTML chyby v těle stránky.';
@@ -379,6 +383,7 @@ $string['fullnamedisplay'] = 'Formát celého jména';
 $string['gdversion'] = 'Verze GD';
 $string['generalsettings'] = 'Obecná nastavení';
 $string['geoipfile'] = 'Datový soubor GeoIP City';
+$string['getremoteaddrconf'] = 'Zdroj IP adresy klienta';
 $string['globalsquoteswarning'] = '<p><b>Bezpečnostní upozornění</b>: pro správné fungování Moodlu je nutné upravit nastavení PHP <br />na vašem serveru.<p/><p><em>Musíte</em> nastavit <code>register_globals=off</code> a/nebo <code>magic_quotes_gpc=on</code>. <br />Nastavení <code>register_globals=off</code> zvyšuje obecné zabezpečení serveru, nastavit <code>magic_quotes_gpc=on</code> <br />se doporučuje ze stejného důvodu.<p/><p>Nastavení se provádějí v souboru <code>php.ini</code>, v konfiguračním souboru Apache/IIS, nebo v souboru <code>.htaccess</code>.</p>';
 $string['globalswarning'] = '<p><strong>Bezpečnostní varování</strong>: Aby Moodle pracoval správně, potřebuje udělat změny v nastavení PHP.<p/><p><em>Musíte</em> nastavit <code>register_globals=off</code>. Tohoto nastavení dosáhnete buď úpravou soubor <code>php.ini</code> (Apache nebo IIS), nebo nastavením pomocí <code>.htaccess</code>.';
 $string['googlemapkey'] = 'API klíč k mapám na Googlu';
@@ -614,6 +619,7 @@ $string['renameerrors'] = 'Chyby při přejmenování';
 $string['requiredtemplate'] = 'Povinné. Můžete zde použít syntaxi šablon (%%l = příjmení, %%f = křestní jméno, %%u = uživatelské jméno). Další informace a příklady najedete v nápovědě.';
 $string['restrictbydefault'] = 'Omezit nabídku implicitně';
 $string['restrictmodulesfor'] = 'Omezení nabídky dostupných modulů';
+$string['reverseproxy'] = 'Reverzní proxy server';
 $string['riskconfig'] = 'Uživatelé mohou měnit nastavení a chování stránek (serveru)';
 $string['riskconfigshort'] = 'Riziko zásahu do konfigurace';
 $string['riskmanagetrust'] = 'Uživatelé mohou měnit úroveň důvěryhodnosti jiných uživatelů';
@@ -664,6 +670,7 @@ $string['stats'] = 'Statistiky';
 $string['statscatdepth'] = 'Maximum rodičovských kategorií';
 $string['statsfirstrun'] = 'Maximální interval zpracování';
 $string['statsmaxruntime'] = 'Maximální runtime';
+$string['statsruntimedays'] = 'Počet dnů ke zpracování';
 $string['statsruntimestart'] = 'Spouštět v';
 $string['statsuserthreshold'] = 'Uživatelský práh';
 $string['stickyblocks'] = 'Povinné bloky';
@@ -737,6 +744,7 @@ $string['usersdeleted'] = 'Odstraněné uživatelské účty';
 $string['usersrenamed'] = 'Přejmenované uživatelské účty';
 $string['usersskipped'] = 'Uživatel přeskočen';
 $string['usersupdated'] = 'Aktualizované uživatelské účty';
+$string['usersweakpassword'] = 'Uživatelé se slabým heslem';
 $string['usetags'] = 'Povolit štítky';
 $string['uubulk'] = 'Vybrat pro hromadné operace';
 $string['uubulkall'] = 'Všichni uživatelé';
@@ -761,6 +769,7 @@ $string['uuupdatefromfile'] = 'Přepsat hodnotami ze souboru';
 $string['uuupdatemissing'] = 'Vyplnit chybějící položky hodnotami ze souboru nebo výchozími';
 $string['uuupdatetype'] = 'Podrobnosti již existujících uživatelů';
 $string['validateerror'] = 'Tato hodnota není validní:';
+$string['verifychangedemail'] = 'Omezit domény při změně emailu';
 $string['warningcurrentsetting'] = 'Neplatná současná hodnota:<b>$a</b>';
 $string['webproxy'] = 'Proxy server';
 $string['webproxyinfo'] = 'Vyplňte následující informace, jestliže tento Moodle nemá přístup k internetu. Přístup k internetu je třeba ke stahování jazykových balíčků, RSS kanálům, časových zón, atd.<br/><em>Velmi doporučená je instalace PHP cURL.</em>';
