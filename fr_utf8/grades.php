@@ -372,6 +372,7 @@ $string['onascaleof'] = ' sur un barème de $a->grademin à $a->grademax';
 $string['operations'] = 'Opérations';
 $string['options'] = 'Options';
 $string['outcome'] = 'Objectif';
+$string['outcomeassigntocourse'] = 'Attribuer un autre objectif à ce cours';
 $string['outcomecategory'] = 'Créer des objectifs dans la catégorie';
 $string['outcomecategorynew'] = 'Nouvelle catégorie';
 $string['outcomeconfirmdelete'] = 'Voulez-vous vraiment supprimer l\'objectif «&nbsp;$a&nbsp;»?';
