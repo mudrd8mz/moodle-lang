@@ -362,6 +362,7 @@ $string['onascaleof'] = '尺度の適用範囲: $a->grademin - $a->grademax';
 $string['operations'] = '操作';
 $string['options'] = 'オプション';
 $string['outcome'] = 'アウトカム';
+$string['outcomeassigntocourse'] = 'このコースに別のアウトカムを割り当てる';
 $string['outcomecategory'] = 'カテゴリ内にアウトカムを作成する';
 $string['outcomecategorynew'] = '新しいカテゴリ';
 $string['outcomeconfirmdelete'] = '本当にアウトカム「 $a 」を削除してもよろしいですか?';
