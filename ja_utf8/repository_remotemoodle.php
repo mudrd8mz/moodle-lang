@@ -3,10 +3,13 @@
 
 
 $string['configplugin'] = 'リモートMoodleファイルリポジトリの設定';
+$string['connectionfailure'] = 'ファイルリストの取得に失敗しました - Moodleのバージョンが2.0より古いか、Moodleリモートリポジトリサービスが有効にされていません。';
 $string['emptyfilelist'] = '表示するファイルはありません';
 $string['notitle'] = 'タイトルなし';
 $string['peer'] = 'ピア';
 $string['remember'] = '次回から入力を省略する';
+$string['remoterep_description'] = 'サービスを発見されるようにします。';
+$string['remoterep_name'] = 'リモートMoodleリポジトリ';
 $string['repositorydesc'] = 'リモートMoodleサーバのリポジトリ';
 $string['repositoryname'] = 'リモートMoodleファイル';
 
