@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20080821) (2008081900)
+      // completion.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['activitycompletion'] = '活動完了';
@@ -46,6 +46,7 @@ $string['help_completionview'] = '完了するには、閲覧を必要とする'
 $string['progress'] = '学生の進捗';
 $string['progress-title'] = '$a->user - $a->activity: $a->state $a->date';
 $string['progresstrackedroles'] = '進捗トラッキングロール';
+$string['reportpage'] = '{$a->total} ユーザの　{$a->from} から {$a->to} を表示しています。';
 $string['restoringcompletiondata'] = '完了データの書き出し';
 $string['saved'] = '保存完了';
 $string['unlockcompletion'] = '完了オプションのロックを解除する';

@@ -5,6 +5,7 @@
 $string['configplugin'] = 'リモートMoodleファイルリポジトリの設定';
 $string['connectionfailure'] = 'ファイルリストの取得に失敗しました - Moodleのバージョンが2.0より古いか、Moodleリモートリポジトリサービスが有効にされていません。';
 $string['emptyfilelist'] = '表示するファイルはありません';
+$string['failtoretrievelist'] = 'リストを取得できなかったか、空です。';
 $string['notitle'] = 'タイトルなし';
 $string['peer'] = 'ピア';
 $string['remember'] = '次回から入力を省略する';

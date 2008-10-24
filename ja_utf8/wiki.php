@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['action'] = '-- アクション --';
@@ -101,7 +101,7 @@ $string['lastmodified'] = '最終更新日時';
 $string['linkdead'] = 'DEAD';
 $string['linkok'] = 'OK';
 $string['linkschecked'] = 'チェック済みリンク';
-$string['listall'] = 'すべてを表示';
+$string['listall'] = 'すべてを表示する';
 $string['listcandidates'] = '候補一覧';
 $string['lockcancelled'] = 'あなたの編集ロックは他の人にオーバーライドされ、現在このページはその人編集されています。あなたの変更内容を保持したい場合、「キャンセル」ボタンをクリックする前に、すべてを選択してコピーしてください。その後、再編集を試みてください。';
 $string['meta'] = 'メタデータ';
