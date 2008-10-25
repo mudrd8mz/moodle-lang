@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081025) (2008101300)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -68,8 +68,8 @@ $string['configallowcategorythemes'] = '이것을 활성화하면, 범주 수준
 $string['configallowcoursethemes'] = '이것을 활성화하면, 각 강좌 나름대로 독특한 테마로 설정될 수 있다. 강좌 테마는 다른 모든 테마(사이트, 이용자, 또는 세션 테마) 선택보다 먼저 적용된다';
 $string['configallowemailaddresses'] = '만약 특정 도메인의 이메일 주소만 허용하고자 한다면, 그 주소를 한 칸씩 띄어 적어 놓아라. 그 외 모든 다른 도메인은 거부된다. ( 예: <strong>sun.ac.kr moodle.org</strong> )';
 $string['configallowobjectembed'] = '기본 보안 규정에 따라, 일반 이용자들은 멀티미디어 파일 (예:플래시,동영상,mp3)을 EMBED, OBJECT 등의 명령어나 태그를 사용해서 올릴 수 없다. (비록 안전한 미디어 파일일지라도) 운영자가 허락 옵션을 켜야만 파일을 올릴 수 있다.';
-$string['configallowoverride'] = '왼쪽의 역할이 각 칼럼의 역할에게 권한을 위임할 수 있도록 허용';
-$string['configallowoverride2'] = '왼쪽 난의 각 역할을 가진사람이 자신의 권한을 위임할 수 있는 역할 선택<br />이 설정은 각 사용자가 moodle/role:override의 권한을 갖거나 moodle/role:safeoverride의 권한을 지닐 때만 적용됨을 유의하라.';
+$string['configallowoverride'] = '왼쪽 난의 역할을 가진 사람에게 기표된 칼럼의 역할을 재설정할 수 있도록 허용';
+$string['configallowoverride2'] = '왼쪽 난의 역할을 가진사람이 재설정할 수 있는 역할들을 선택<br />이 설정은 각 사용자가 moodle/role:override의 권한을 갖거나 moodle/role:safeoverride의 권한을 지닐 때만 적용됨을 유의하라.';
 $string['configallowunenroll'] = '만약 이것을 \"예\"로 설정하면, 학생들은 스스로 수강 여부를 결정할 수 있다. 반면에 \"아니오\"로 설정하면 교수자와 관리자만 학생의 수강 여부를 결정할 수 있게 된다.';
 $string['configallowuserblockhiding'] = '이용자들이 사이트의 블럭을 숨기거나 볼 수 있도록 허용하겠는가? 이 기능은 각각의 분리된 블럭을 기억하기 위해 자바 스크립트와 쿠키를 사용하며, 이용자 화면에만 영향을 미친다.';
 $string['configallowusermailcharset'] = '이 기능을 활성화시키면, 모든 이용자는 이메일에 자신만의 문자 세트를 이용할 수 있다.';
@@ -128,6 +128,7 @@ $string['configenabletrusttext'] = '무들은 기본적으로 이용자가 올�
 $string['configenrolmentplugins'] = '사용하고자 하는 출석 플러그인을 선택하라. 또 원활하게 작동하도록 설정하는 것을 잊지 말아라.<br /><br />어느 플러그인이 활성화되어 있는지 명시하여야 한다.<strong>하나의</strong> 플러그인이 <em>자동(interactive)</em> 등록에 필요한 기본 플로그인으로 설정될 수 있다. 자동 등록을 막으려면 해당 강좌에서 \"등록가능\"을 \"아니오\"로 하면 된다.';
 $string['configerrorlevel'] = '당신이 알고싶은 PHP경고 수준을 선택하라. 대부분 보통(Normal)이 가장 좋은 선택이다.';
 $string['configextendedusernamechars'] = '이 설정을 활성화시켜 놓으면 학생들은 사용자 아이디에 어떤 문자도 쓸 수 있다.(학생들의 실제 이름에는 영향을 주지 않는다) 기본적으로는 비활성화되어 있어 사용자 ID에 영문자와 숫자를 조합한 것만 허용된다.';
+$string['configextrauserselectorfields'] = '이용자에게 역할을 부여하거나 모둠 구성원으로 추가하는 등에서 사용자를 선택할 경우, 여기에서 선택한 필드가 사용자 목록에 제시된다. 보안상 사용자아이디를 선택하는 것은 바람직하지 않음을 유념하라.';
 $string['configfilterall'] = '이 설정은 필터를 통해 머릿말, 제목, 주소창 등에 포함된 모든 문자열을 검색한다. 대개 다국어 여과장치를 쓸 때에 유용하지만, 사이트에 다소 추가적인 부담을 주게 된다.';
 $string['configfiltermatchoneperpage'] = '이 자동 링크 필터는 전체 페이지에서 최초 일치하는 내용에만 단 한번 링크를 걸고 나머지는 무시한다.';
 $string['configfiltermatchonepertext'] = '이 자동 링크 필터는 화면의 각 문서 항목(예: 자원 블럭 등)에서 첫번째 일치하는 항목에 자동 링크를 시키고 나머지 것들은 모두 무시한다. 이 설정은 페이지별 필터 설정이 <i>예</i>이면 무시된다.';
@@ -387,6 +388,7 @@ $string['exceptions'] = '예외';
 $string['experimental'] = '시험적임';
 $string['experimentalsettings'] = '시험적 설정';
 $string['extendedusernamechars'] = '아이디에 확장 문자 허용';
+$string['extrauserselectorfields'] = '사용자 검색시 표시항목';
 $string['filecreated'] = '새 파일 생성됨';
 $string['filestoredin'] = '다음 경로에 저장 :';
 $string['filestoredinhelp'] = '파일이 저장될 곳';

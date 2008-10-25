@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081016) (2008101300)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081025) (2008101300)
 
 
 $string['activities'] = '활동';
@@ -363,6 +363,7 @@ $string['onascaleof'] = '$a->grademin 에서 $a->grademax 까지 척도에서';
 $string['operations'] = '동작';
 $string['options'] = '선택사항';
 $string['outcome'] = '학습성과';
+$string['outcomeassigntocourse'] = '본 강좌에 또 다른 학습성과 부여';
 $string['outcomecategory'] = '범주내 학습성과 생성';
 $string['outcomecategorynew'] = '새 범주';
 $string['outcomeconfirmdelete'] = '정말 \"$a\" 학습성과를 삭제하겠습니까?';
@@ -387,7 +388,7 @@ $string['overallaverage'] = '전체 평균';
 $string['overridden'] = '수정금지';
 $string['overriddenhelp'] = '이 기능을 켜면, 추후 자동적으로 점수를 조정하려는 모든 시도를 차단합니다. 이 수정금지 표식은 대개 성적표에 의해 내부적으로 설정되기도 하지만, 여기 나타난 기능을 이용하여 수동으로 끄거나 켤 수 있습니다.';
 $string['overriddennotice'] = '이 활동에 대한 최종 성적처리가 수동으로 조정되었습니다.';
-$string['overridesitedefaultgradedisplaytype'] = '사이트 기본 재설정';
+$string['overridesitedefaultgradedisplaytype'] = '사이트 기본값 재설정';
 $string['overridesitedefaultgradedisplaytypehelp'] = '채점표에서 성적표시를 위한 사이트 기본을 재설정하기 위해서는 이 체크박스를 표시하라. 이것은 문자성적과 그 경계를 마음대로 재정의 할 수 있도록 양식요소를 활성화 한다.';
 $string['parentcategory'] = '상위 범주';
 $string['pctoftotalgrade'] = '총 성적의 퍼센트';
@@ -493,7 +494,7 @@ $string['typenone'] = '없음';
 $string['typescale'] = '척도';
 $string['typetext'] = '텍스트';
 $string['typevalue'] = '값';
-$string['uncategorised'] = '범주외';
+$string['uncategorised'] = '범주 없음';
 $string['unchangedgrade'] = '성적이 변경되지 않음';
 $string['unenrolledusersinimport'] = '가져온 성적 중 다음 사용자의 것은 아직 이 강좌에 등록되지 않은 사용자의 것임: $a';
 $string['unlock'] = '잠금해제';

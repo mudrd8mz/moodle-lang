@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
+      // group.php - created with Moodle 2.0 dev (Build: 20081025) (2008101300)
 
 
 $string['addgroupstogrouping'] = '모둠을 모둠무리에 추가';
@@ -29,6 +29,7 @@ $string['deleteallgroups'] = '모든 모둠 삭제';
 $string['deletegroupconfirm'] = '정말 모둠 \'$a\'를 삭제하겠습니까?';
 $string['deletegrouping'] = '모둠무리 삭제';
 $string['deletegroupingconfirm'] = '정말 모둠무리 \'$a\'를 삭제하겠습니까? (무리 안에 있는 모둠은 삭제되지 않습니다)';
+$string['deletegroupsconfirm'] = '정말 다음 모둠들을 삭제하겠습니까?';
 $string['deleteselectedgroup'] = '선택한 모둠 삭제';
 $string['editgroupingsettings'] = '모둠무리 설정';
 $string['editgroupsettings'] = '모둠 설정';
@@ -37,6 +38,8 @@ $string['erroraddremoveuser'] = '모둠에 $a 사용자 추가/제거 오류';
 $string['erroreditgroup'] = '$a 모둠 생성/갱신 오류';
 $string['erroreditgrouping'] = '$a 무리 생성/갱신 오류';
 $string['errorinvalidgroup'] = '오류, $a 모둠은 유효하지 않습니다.';
+$string['errorselectone'] = '옵션을 고르기 전에 하나의 모둠을 미리 선택하기 바람';
+$string['errorselectsome'] = '옵션을 고르기 전에 하나 이상의 모둠을 미리 선택하기 바람';
 $string['evenallocation'] = '모둠 할당을 균등히 하기 위해서, 실제 모둠당 구성원 수는 명시한 것과 다를 수 있습니다.';
 $string['existingmembers'] = '실제 회원수 : $a';
 $string['filtergroups'] = '모둠을 다음 조건으로 필터링 :';
