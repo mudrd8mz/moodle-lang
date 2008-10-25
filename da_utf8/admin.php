@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
 
 
 $string['accessdenied'] = 'Adgang afvist';
@@ -29,7 +29,7 @@ $string['backups'] = 'Backups';
 $string['badwordsconfig'] = 'Angiv en liste af uønskede ord adskilt af komma.';
 $string['badwordsdefault'] = 'Hvis denne liste er tom, så benyttes standardlisten fra oversættelsen.';
 $string['badwordslist'] = 'Liste over uønskede ord.';
-$string['blockinstances'] = 'Instanser';
+$string['blockinstances'] = 'Antal i brug';
 $string['blockmultiple'] = 'Flere';
 $string['blocksettings'] = 'Administrer blokke';
 $string['bloglevel'] = 'Blogsynlighed';
@@ -195,6 +195,7 @@ $string['configvariables'] = 'Variable';
 $string['configwarning'] = 'Pas på med at ændre på disse indstillinger - forkerte værdier kan forårsage problemer.';
 $string['configzip'] = 'Her skal stien til zip-programmet angives (kun unix) Hvis den er specificeret kan du oprette zip-filer på serveren. Hvis du lader stien være blank vil Moodle forsøge at benytte PHP\'s interne rutiner hvis de er tilgængelige.';
 $string['confirmation'] = 'Godkendelse';
+$string['confirmed'] = 'Godkendt';
 $string['confirminstall'] = 'Du er ved at installere sprogpakken ($a), er du sikker på at du vil det?';
 $string['country'] = 'Standardvalg for land';
 $string['coursemanager'] = 'Kursusadministratorer';
@@ -362,6 +363,7 @@ $string['mediapluginswfnote'] = 'Som en standard sikkerhedsforanstaltning bør a
 $string['mediapluginwmv'] = 'Aktivér .wmv filter';
 $string['messaging'] = 'Aktivér besked system';
 $string['misc'] = 'Forskelligt';
+$string['modsettings'] = 'Administrer aktiviteter';
 $string['modulesecurity'] = 'Modulsikkerhed';
 $string['mustenablestats'] = 'Statistik er ikke aktiveret for dette site.';
 $string['mymoodle'] = 'Min Moodle';
@@ -402,6 +404,7 @@ $string['performance'] = 'Ydeevne';
 $string['pgcluster'] = 'PostgreSQL Klynge';
 $string['pgclusterdescription'] = 'PostgreSQL version/cluster parameter til brug for kommandolinje operationer, hvis du har mere end en postgresql version på serveren. Hvis du ikke er sikker kan du lade den være blank.';
 $string['php50restricted'] = 'PHP 5.0.x har nogle kendte fejl og problemer. Opgrader venligst til 5.1.x eller nedgradér til 4.3.x eller 4.4.x';
+$string['pleaserefreshregistration'] = 'Din side er registreret hos moodle.org. Overvej venligst at registrere igen, hvis der er sket større ændringer siden sidst, dvs. siden $a';
 $string['pleaseregister'] = 'Registrer venlist for at fjerne denne knap.';
 $string['plugins'] = 'Moduler';
 $string['profilecategory'] = 'Kategori';

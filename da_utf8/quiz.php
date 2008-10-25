@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // quiz.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
 
 
 $string['1day'] = '1 dag';
@@ -61,7 +61,7 @@ $string['attemptsallowed'] = 'Tilladte antal forsøg';
 $string['attemptsdeleted'] = 'Gennemførte forsøg slettet';
 $string['attemptselection'] = 'Vælg hvilke forsøg som skal analyseres for hver bruger';
 $string['attemptsexist'] = 'Denne quiz er allerede blevet brugt';
-$string['attemptsnum'] = 'Forsøg: a$';
+$string['attemptsnum'] = 'Forsøg: $a';
 $string['attemptsnumthisgroup'] = 'Forsøg: $a->total ($a->group fra denne gruppe)';
 $string['attemptsnumyourgroups'] = 'Forsøg: $a->total ($a->group fra dine grupper)';
 $string['attemptsonly'] = 'Vis kun studerende der har forsøgt';
@@ -106,7 +106,7 @@ $string['closebeforeopen'] = 'Quizzen blev ikke opdateret. Du har angivet lukked
 $string['closepreview'] = 'Luk preview';
 $string['closereview'] = 'Luk gennemsyn';
 $string['comment'] = 'Kommentar';
-$string['commentorgrade'] = 'Skriv kommentar eller skift karakter';
+$string['commentorgrade'] = 'Skriv kommentar eller giv karakter';
 $string['comments'] = 'Kommentarer';
 $string['completedon'] = 'Forsøgt den';
 $string['confirmclose'] = 'Du er ved at afslutte din besvarelse. Efter det vil du ikke kunne ændre dine svar igen i dette forsøg.';
@@ -221,7 +221,7 @@ $string['filloutnumericalanswer'] = 'Du skal give mindst et muligt svar og en t�
 $string['filloutoneanswer'] = 'Du skal give mindst et muligt svar. Blanke felter vil ikke blive bedømt. \"*\" kan bruges til at angive et vilkårligt tegn. Det første matchende svar vil blive brugt til at angive scoren og feedback.';
 $string['filloutthreequestions'] = 'Du skal udfylde mindst tre spørgsmål med tilhørende svar. Du kan angive ekstra forkerte svar ved at skrive et svar med et tomt spørgsmålsfelt. Blanke spørgsmål og svar vil ikke blive brugt.';
 $string['fillouttwochoices'] = 'Du skal give mindst to svar.  Blanke felter vil ikke blive bedømt.';
-$string['finishattempt'] = '--== Gem og afslut. ==--';
+$string['finishattempt'] = '--== Gem og aflever ==--';
 $string['forceregeneration'] = 'Gennemtving regenerering';
 $string['formatnotfound'] = 'Import-/eksportformatet $a ikke fundet';
 $string['formatnotimplemented'] = 'Dette importformat er ikke implementeret korrekt, indsend venligst en bug rapport på http://tracker.moodle.org/';
@@ -296,8 +296,8 @@ $string['loguniform'] = 'Cifre, fra en logaritmisk fordeling';
 $string['makecopy'] = 'Gem som nyt spørgsmål';
 $string['managetypes'] = 'Rediger svartyper og servere';
 $string['manualgrading'] = 'Vurdering';
-$string['mark'] = 'Aflever';
-$string['markall'] = 'Aflever side';
+$string['mark'] = 'Tjek';
+$string['markall'] = 'Tjek side';
 $string['marks'] = 'Point';
 $string['match'] = 'Matcher';
 $string['matchanswer'] = 'Matcher svar';
@@ -365,8 +365,8 @@ $string['overallfeedback'] = 'Generel feedback';
 $string['overdue'] = 'For sent';
 $string['pagesize'] = 'Antal forsøg pr. side';
 $string['paragraphquestion'] = '\"Skriv selv\" spørgsmål ikke understøttet på linje $a. Spørgsmål vil blive ignoreret.';
-$string['parent'] = 'Foregående';
-$string['partiallycorrect'] = 'Delvis korrekt';
+$string['parent'] = 'Overordnet kategori';
+$string['partiallycorrect'] = 'Delvist korrekt';
 $string['passworderror'] = 'Adgangskoden var forkert';
 $string['penalty'] = 'Strafpoint';
 $string['penaltyfactor'] = 'Strafkvotient';
@@ -379,7 +379,7 @@ $string['popupnotice'] = 'Elever vil se denne quiz i et beskyttet fuldskærms vi
 $string['preview'] = 'Kontroller';
 $string['previewquestion'] = 'Kontroller spørgsmål';
 $string['previewquiz'] = 'Kontroller  $a';
-$string['previewquiznow'] = 'Gennemse quizzen';
+$string['previewquiznow'] = 'Prøvese quizzen';
 $string['previous'] = 'Forrige tilstand';
 $string['publish'] = 'Publicér';
 $string['publishedit'] = 'Du skal have rettigheder til at tilføje eller rette spørgsmål i denne kategori.';
@@ -483,7 +483,7 @@ $string['saveandedit'] = 'Gem ændringer og ret spørgsmål';
 $string['savedfromdeletedcourse'] = 'Gemt fra det slettede kursus \"$a\"';
 $string['savegrades'] = 'Gem bedømmelser';
 $string['savemyanswers'] = 'Gem og aflever';
-$string['savenosubmit'] = 'Gem uden at aflevere';
+$string['savenosubmit'] = 'Gem';
 $string['savequiz'] = 'Gem hele quizzen';
 $string['score'] = 'Highscore';
 $string['scores'] = 'Points';

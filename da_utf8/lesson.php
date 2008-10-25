@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // lesson.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
 
 
 $string['accesscontrol'] = 'Adgangskontrol';
@@ -7,22 +7,22 @@ $string['actionaftercorrectanswer'] = 'Hændelse efter korrekt svar';
 $string['actions'] = 'Hændelser';
 $string['activitylink'] = 'Link til aktivitet';
 $string['activitylinkname'] = 'Gå til: $a';
-$string['addabranchtable'] = 'Tilføj en forgrening';
-$string['addanendofbranch'] = 'Tilføj en slutning på en forgrening';
-$string['addaquestionpage'] = 'Tilføj en spørgsmålsside';
-$string['addaquestionpagehere'] = 'Tilføj en spørgsmålsside her';
-$string['addcluster'] = 'Tilføj en klynge';
+$string['addabranchtable'] = 'Tilføj forgrening';
+$string['addanendofbranch'] = 'Tilføj slutning på forgrening';
+$string['addaquestionpage'] = 'Tilføj spørgsmålsside';
+$string['addaquestionpagehere'] = 'Tilføj spørgsmålsside her';
+$string['addcluster'] = 'Tilføj klynge';
 $string['addedabranchtable'] = 'Forgreningsside tilføjet';
 $string['addedanendofbranch'] = 'Afslutning på forgrening tilføjet';
 $string['addedaquestionpage'] = 'Spørgsmålsside tilføjet';
 $string['addedcluster'] = 'Klynge tilføjet';
 $string['addedendofcluster'] = 'Slutning på klynge tilføjet';
 $string['addendofcluster'] = 'Tilføj slutning på klynge';
-$string['addpage'] = 'Tilføj en side';
+$string['addpage'] = 'Tilføj';
 $string['anchortitle'] = 'Start på hovedindhold';
 $string['and'] = 'OG';
 $string['answer'] = 'Svar';
-$string['answeredcorrectly'] = 'korrekt besvaret.';
+$string['answeredcorrectly'] = 'Korrekt besvaret.';
 $string['answersfornumerical'] = 'Svar for numeriske spørgsmål skulle være par af maksimum- og minimumsværdier.';
 $string['arrangebuttonshorizontally'] = 'Arranger forgreningsknapper horisontalt under diasshow-visning?';
 $string['attempt'] = 'Forsøg: $a';
@@ -57,7 +57,7 @@ $string['continue'] = 'Fortsæt';
 $string['continuetoanswer'] = 'Fortsæt med at ændre svar.';
 $string['correctanswerjump'] = 'Spring ved korrekt svar';
 $string['correctanswerscore'] = 'Korrekt svar score';
-$string['correctresponse'] = 'Respons, korrekt svar';
+$string['correctresponse'] = 'Respons på korrekt svar';
 $string['credit'] = 'Point';
 $string['customscoring'] = '<acronym title=\"Specificer point for hvert spørgsmål\">Spørgsmålsspecifikke point</acronym>';
 $string['deadline'] = 'Afleveringsfrist';
@@ -291,7 +291,7 @@ $string['welldone'] = 'Fint!';
 $string['whatdofirst'] = 'Hvad vil du gøre først?';
 $string['wronganswerjump'] = 'Spring ved forkert svar';
 $string['wronganswerscore'] = 'Forkert svarscore';
-$string['wrongresponse'] = 'Respons, forkert svar';
+$string['wrongresponse'] = 'Respons på forkert svar';
 $string['xattempts'] = '$a forsøg';
 $string['youhaveseen'] = 'Du har allerede set mere end en side af denne lektion. <br />Ønsker du at starte på den sidste side du så?';
 $string['youmadehighscore'] = 'Tillykke du er kommet på top $a highscorelisten';

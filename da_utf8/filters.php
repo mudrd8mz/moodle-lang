@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // filters.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
 
 
 $string['actfilterhdr'] = 'Aktive filtre';
 $string['addfilter'] = 'Tilføj filter';
+$string['anyvalue'] = 'vilkårlig';
 $string['categoryrole'] = 'Kategorirolle';
 $string['contains'] = 'indeholder';
 $string['courserole'] = 'Kursusrolle';
@@ -15,6 +16,9 @@ $string['datelabelisbetween'] = '$a->label kommer mellem $a->after og $a->before
 $string['doesnotcontain'] = 'indeholder ikke';
 $string['endswith'] = 'ender på';
 $string['globalrolelabel'] = '$a->label er $a->value';
+$string['isanyvalue'] = 'vilkårlig';
+$string['isempty'] = 'ikke udfyldt';
+$string['isequalto'] = 'er';
 $string['isnotdefined'] = 'er ikke defineret';
 $string['isnotequalto'] = 'er ikke det samme som';
 $string['newfilter'] = 'Nyt filter';
