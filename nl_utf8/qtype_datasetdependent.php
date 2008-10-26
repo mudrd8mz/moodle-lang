@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.9 dev (2007070603)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['additem'] = 'Item toevoegen';
+$string['answerstoleranceparam'] = 'Tolerantieparameters antwoorden';
 $string['atleastonerealdataset'] = 'Er moet minstens één dataset in de vraagtekst zijn.';
 $string['atleastonewildcard'] = 'Er moet minstens één jokerteken in de antwoordformule of in de vraagtekst';
 $string['calcdistribution'] = 'Distributie';
@@ -37,6 +38,7 @@ $string['newlocal1'] = 'een jokerteken uit een nieuwe set jokertekens die alleen
 $string['newlocal2'] = 'een bestand uit een nieuwe set bestanden die alleen door deze vraag gebruikt mogen worden';
 $string['newlocal3'] = 'een link uit een nieuwe set links die alleen door deze vraag gebruikt mogen worden';
 $string['nodataset'] = 'niets - is geen jokerteken';
+$string['oneanswertrueansweroutsidelimits'] = 'Minstens één juist antwoord buiten de limieten voor juiste antwoorden.<br />Wijzig de tolerantie-instellingen als Geavanceerde parameters';
 $string['param'] = 'Param {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'Vervang door willekeurige waarde';
 $string['reuseifpossible'] = 'Herbruik vorige waarde indien beschikbaar';
@@ -44,6 +46,7 @@ $string['sharedwildcard'] = 'Gedeeld jokerteken';
 $string['sharedwildcards'] = 'GEdeelde jokertekens';
 $string['uniform'] = 'Uniform';
 $string['updatedatasetparam'] = 'Pas de parameters van de datasets aan';
+$string['updatetolerancesparam'] = 'Update de tolerantieparameters voor antwoorden';
 $string['youmustaddatleastoneitem'] = 'Je moet minstens één dataset item toevoegen voor je deze vraag kan bewaren.';
 
 ?>
