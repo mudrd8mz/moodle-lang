@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (Build: 20080322) (2008030700)
+      // group.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['addgroupstogrouping'] = 'Voeg groepen aan groepering toe.';
@@ -29,6 +29,7 @@ $string['deleteallgroups'] = 'Verwijder alle groepen';
 $string['deletegroupconfirm'] = 'Ben je zeker dat je de groep \'$a\' wil verwijderen?';
 $string['deletegrouping'] = 'Verwijder groepering';
 $string['deletegroupingconfirm'] = 'Ben je zeker dat je de groepering \'$a\' wil verwijderen?(Groepen in de groepering worden niet verwijderd).';
+$string['deletegroupsconfirm'] = 'Ben je er zeker van dat je volgende groepen wil verwijderen?';
 $string['deleteselectedgroup'] = 'Verwijder geselecteerde groep';
 $string['editgroupingsettings'] = 'Bewerk instellingen groepering';
 $string['editgroupsettings'] = 'Bewerk instellingen groep';
@@ -37,6 +38,8 @@ $string['erroraddremoveuser'] = 'Fout bij toevoegen/verwijderen van gebruiker $a
 $string['erroreditgroup'] = 'Fout bij het maken/updaten van groep $a';
 $string['erroreditgrouping'] = 'Fout bij het maken/updaten van groepering $a';
 $string['errorinvalidgroup'] = 'Fout, ongeldige groep $a';
+$string['errorselectone'] = 'Selecteer één groep voor je deze optie kiest';
+$string['errorselectsome'] = 'Selecteer één of meerdere groepen voor je deze optie kiest';
 $string['evenallocation'] = 'Opmerking: Om de toewijzing aan groepen evenwichtig te houden, verschilt het aantal leden per groep van het aantal dat je opgegeven hebt.';
 $string['existingmembers'] = 'Leden: $a';
 $string['filtergroups'] = 'Filter groepeert op:';

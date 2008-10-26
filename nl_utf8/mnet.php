@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (2007101501)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (eigen certificaat)';
@@ -20,6 +20,7 @@ $string['authmnetautoadddisabled'] = '<em>Automatisch gebruikers toevoegen</em> 
 $string['authmnetdisabled'] = 'Moodle Networking <em>Authenticatieplugin</em> is <strong>uitgeschakeld</strong>.';
 $string['badcert'] = 'Dit certificaat is niet geldig.';
 $string['certdetails'] = 'Cert Details';
+$string['configmnet'] = 'Moodle networking maakt communicatie mogelijk tussen deze server en andere servers of services.';
 $string['couldnotgetcert'] = 'Geen certificaat gevonden op <br />$a.<br />De host is misschien onbereikbaar of slecht geconfigureerd.';
 $string['couldnotmatchcert'] = 'Dit komt niet overeen met het certificaat dat door de webserver gepubliceerd wordt.';
 $string['courses'] = 'cursussen';

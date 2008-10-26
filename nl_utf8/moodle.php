@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -12,6 +12,7 @@ $string['activity'] = 'Activiteit';
 $string['activityclipboard'] = 'Verplaats deze activiteit: <b>$a</b>';
 $string['activityiscurrentlyhidden'] = 'Sorry, deze activiteit is nu verborgen';
 $string['activitymodule'] = 'Activiteitenmodule';
+$string['activitymodules'] = 'Activiteitenmodules';
 $string['activityreport'] = 'Activiteitenrapport';
 $string['activityreports'] = 'Activiteitenrapporten';
 $string['activityselect'] = 'Selecteer deze activiteit om ze te verplaatsen';
@@ -233,6 +234,7 @@ $string['clammovedfilebasic'] = 'Het bestand is in de quarantainemap gezet';
 $string['clamquarantinedirfailed'] = 'Het bestand kon niet naar de quarantainemap, $a, verplaatst worden. Je moet dit herstellen want de bestanden die als besmet beschouwdworden, worden verwijderd.';
 $string['clamunknownerror'] = 'Er was een onbekende fout met clam.';
 $string['cleaningtempdata'] = 'Schoon de tijdelijke data op';
+$string['clear'] = 'Wis';
 $string['clickhere'] = 'Klik hier...';
 $string['clicktochange'] = 'Klik om te wijzigen';
 $string['closewindow'] = 'Sluit dit venster';
@@ -295,7 +297,6 @@ $a';
 $string['courserejectreason'] = 'Motiveer hier waarom je deze cursus niet goedkeurt<br />(die tekst zal naar de aanvrager via e-mail verstuurd worden)';
 $string['courserejectsubject'] = 'Je cursus is niet goedgekeurd';
 $string['courserequest'] = 'Nieuwe aanvragen';
-$string['courserequestdisabled'] = 'Sorry, maar het aanvragen van nieuwe cursussen is door de beheerder uitgeschakeld.';
 $string['courserequestfailed'] = 'Door een onbekende fout kon je aanvraag voor een nieuwe cursus niet bewaard worden.';
 $string['courserequestintro'] = 'Gebruik dit formulier om je site-beheerders te vragen een nieuwe cursus te maken.<br />Probeer zo veel mogelijk informatie te geven, zodat de site-beheerders begrijpen waarom je deze nieuwe cursus zou willen.';
 $string['courserequestreason'] = 'Motiveer je aanvraag voor een nieuwe cursus';
@@ -303,6 +304,7 @@ $string['courserequestsuccess'] = 'Je aanvraag voor een nieuwe cursus is bewaard
 $string['courserestore'] = 'Backup cursussen terugzetten';
 $string['courses'] = 'Cursussen';
 $string['coursescategory'] = 'Cursussen in dezelfde categorie';
+$string['coursesettings'] = 'Standaardinstellingen van de cursus';
 $string['coursesmovedout'] = 'Cursussen verplaatst uit $a';
 $string['coursespending'] = 'Cursussen die wachten om goedgekeurd te worden';
 $string['coursestaught'] = 'Cursussen waarin ik les geef';
@@ -447,6 +449,7 @@ $string['editorhelptopics'] = 'Helponderwerpen editor';
 $string['editorresettodefaults'] = 'Terug naar standaardinstellingen';
 $string['editorsettings'] = 'Instellingen editor';
 $string['editorshortcutkeys'] = 'Snelkoppelingen editor';
+$string['editremoteprofile'] = 'Bewerk profiel op andere server';
 $string['editsummary'] = 'Wijzig beschrijving';
 $string['editthisactivity'] = 'Wijzig deze activiteit';
 $string['editthiscategory'] = 'Bewerk deze categorie';
@@ -1194,7 +1197,7 @@ $string['registrationsend'] = 'Stuur de registratie-informatie naar moodle.org';
 $string['registrationyes'] = 'Ja, laat me iets weten als er iets belangrijks gebeurt';
 $string['reject'] = 'Verwerp';
 $string['reload'] = 'Opnieuw laden';
-$string['remotemaharauser'] = 'Maharagebruiker';
+$string['remoteappuser'] = 'Gebruiker $a op andere server';
 $string['remove'] = 'Verwijder';
 $string['removeadmin'] = 'Verwijder beheerder';
 $string['removecreator'] = 'Verwijder cursus-aanmaker';
@@ -1204,6 +1207,7 @@ $string['rename'] = 'Hernoem';
 $string['renamefileto'] = 'Hernoem <b>$a</b> naar';
 $string['report'] = 'Rapport';
 $string['reports'] = 'Logs';
+$string['repositories'] = 'Bibliotheken';
 $string['requestcourse'] = 'Vraag een nieuwe cursus';
 $string['requestedby'] = 'Gevraagd door';
 $string['requestreason'] = 'Motivatie voor de vraag';
@@ -1619,7 +1623,8 @@ $string['yourlastlogin'] = 'Je laatste log in was';
 $string['yourself'] = 'jezelf';
 $string['yourteacher'] = 'Jouw $a';
 $string['zippingbackup'] = 'Backup zippen';
-$string['repositories'] = 'Bibliotheken'; // ORPHANED
+$string['courserequestdisabled'] = 'Sorry, maar het aanvragen van nieuwe cursussen is door de beheerder uitgeschakeld.'; // ORPHANED
+$string['remotemaharauser'] = 'Maharagebruiker'; // ORPHANED
 $string['repositoriesmanage'] = 'Beheer bibliotheken'; // ORPHANED
 $string['nostatstodisplay'] = 'Er zijn geen gegevens om te tonen. Als je de logs net ingeschakeld hebt, dan is het mogelijk dat je een week moet wachten voor er genoeg gegevens zijn om iets te tonen.'; // ORPHANED
 $string['skiptomaincontent'] = 'Sla over en ga naar hoofdinhoud'; // ORPHANED

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // message.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['addcontact'] = 'Voeg contactpersoon toe';
@@ -25,8 +25,8 @@ $string['editmymessage'] = 'Berichten';
 $string['emailmessages'] = 'Stuur berichten door als e-mail wanneer ik offline ben';
 $string['emailtagline'] = 'Deze e-mail is een kopie van een bericht dat naar jou gestuurd is op \"$a\"';
 $string['emptysearchstring'] = 'Je moet iets zoeken';
+$string['errorcallingprocessor'] = 'Fout bij het aanroepen van de opgegeven processor';
 $string['formorethan'] = 'Langer offline dan';
-$string['general_config'] = 'Algemene instellingen';
 $string['guestnoeditmessage'] = 'Gastgebruiker kan berichtopties niet wijzigen';
 $string['guestnoeditmessageother'] = 'Gastgebruiker kan berichtopties van andere gebruikers niet wijzigen';
 $string['includeblockedusers'] = 'Geblokkeerde bezoekers inbegrepen';
@@ -39,6 +39,7 @@ $string['mailsent'] = 'Je bericht is verzonden via e-mail.';
 $string['maxmessages'] = 'Maximum aantal berichten dat in de discussiegeschiedenis getoond mag worden';
 $string['message'] = 'Bericht';
 $string['messagehistory'] = 'Geschiedenis van het bericht';
+$string['messageprovider:instantmessage'] = 'Persoonlijke berichten tussen gebruikers';
 $string['messages'] = 'Berichten';
 $string['messaging'] = 'Berichten sturen';
 $string['messagingdisabled'] = 'Berichten zijn uitgeschakeld op deze site, de boodschap zal per e-mail verstuurd worden.';
@@ -57,7 +58,7 @@ $string['onlyfromme'] = 'Enkel mijn berichten';
 $string['onlymycourses'] = 'Enkel in mijn cursussen';
 $string['onlytome'] = 'Enkel berichten aan mij';
 $string['pagerefreshes'] = 'Deze pagina ververst automatisch om de $a seconden';
-$string['processor_config'] = 'Bestemmingsconfiguratie';
+$string['private_config'] = 'Popup berichtenvenster';
 $string['processortag'] = 'Bestemming:';
 $string['providers_config'] = 'Berichtbronnen';
 $string['providerstag'] = 'Bron:';
@@ -81,5 +82,7 @@ $string['unreadmessages'] = '$a ongelezen berichten';
 $string['userisblockingyou'] = 'Deze gebruiker heeft je geblokkeerd om berichten naar hem te sturen';
 $string['userisblockingyounoncontact'] = 'Deze gebruiker aanvaard alleen berichten van mensen uit zijn lijst met contactpersonen en je staat nu niet op die lijst.';
 $string['userssearchresults'] = 'Zoekresultaten: $a gebruikers gevonden';
+$string['general_config'] = 'Algemene instellingen'; // ORPHANED
+$string['processor_config'] = 'Bestemmingsconfiguratie'; // ORPHANED
 
 ?>

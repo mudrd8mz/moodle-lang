@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // install.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['aborting'] = 'Installatie afbreken';
@@ -125,6 +125,7 @@ $string['databasetype'] = 'Databanktype:';
 $string['databaseuser'] = 'Databank gebruikersnaam:';
 $string['dataroot'] = 'Gegevens';
 $string['datarooterror'] = 'De \'data-map\' die je opgaf kon niet gevonden of gemaakt worden. Verbeter ofwel het pad of maak die map manueel.';
+$string['datarootpublicerror'] = 'De data-map die je geeft is rechtstreeks toegankelijk vanaf het internet. Je moet een andere map kiezen.';
 $string['dbconnectionerror'] = 'We konden geen verbinding maken met de databank die je opgegeven hebt. Controleer je databankinstellingen';
 $string['dbcreationerror'] = 'Probleem met het opbouwen van de databank. De databanknaam kon niet aangemaakt worden met de gegevens die je opgegeven hebt';
 $string['dbhost'] = 'Hostserver';
@@ -239,6 +240,7 @@ $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP is niet goed geconfigureerd met de MySQL-extentie om met MySQL te communiceren. Controleer je php.ini-bestand of hercompileer PHP.';
 $string['mysqli'] = 'Improved MySQL (mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP is niet goed geconfigureerd - het kan niet communiceren met MySQL. Controleer je php.ini bestand of hercompileer PHP. De MySQLi-extentie is niet beschikbaar voor PHP 4.';
+$string['nativemysqli'] = 'Improved MySQL (native/mysqli)';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP is niet juist geconfigureerd met de OCI8-extentie en kan niet communiceren met Oracle. Controleer je php.ini-bestand of hercompileer PHP.';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
