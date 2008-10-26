@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // completion.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['activitycompletion'] = 'Afgewerkte activiteiten';
@@ -26,6 +26,7 @@ $string['completion_none'] = 'Afgewerkte activiteiten niet aanduiden';
 $string['completiondisabled'] = 'Uitgeschakeld, wordt niet getoond in de activiteitsinstellingen';
 $string['completionenabled'] = 'Ingeschakeld, controle via de activiteitsinstellingen';
 $string['completionexpected'] = 'Afwerken verwacht op';
+$string['completionicons'] = 'vooruitgansicoontjes';
 $string['completionreport'] = 'Vooruitgangsrapport afgewerking taken';
 $string['completionusegrade'] = 'Cijfer vereist';
 $string['completionusegrade_text'] = 'De gebruiker moet een cijfer krijgen';
@@ -46,6 +47,7 @@ $string['help_completionview'] = 'bekijken vereist om af te werken';
 $string['progress'] = 'Vooruitgang leerling';
 $string['progress-title'] = '$a->user, $a->activity: $a->state $a->date';
 $string['progresstrackedroles'] = 'Rollen waarvan vooruitgang bijgehouden worden';
+$string['reportpage'] = 'Toon gebruikers {$a->from} tot {$a->to} van {$a->total}.';
 $string['restoringcompletiondata'] = 'Wegschrijven gegevens afwerking activiteit';
 $string['saved'] = 'Bewaard';
 $string['unlockcompletion'] = 'Deblokkeer afwerkingsopties';
