@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -15,6 +15,7 @@ $string['allowprintview'] = 'Afdrukbare versie tonen toelaten';
 $string['allowratings'] = 'Toelaten invoer te beoordelen?';
 $string['answer'] = 'Antwoord';
 $string['approve'] = 'Goedkeuren';
+$string['areaintro'] = 'Woordenlijstintroductie';
 $string['areyousuredelete'] = 'Wil je dit woord echt verwijderen ?';
 $string['areyousuredeletecomment'] = 'Wil je deze commentaar echt verwijderen ?';
 $string['areyousureexport'] = 'Weet je zeker dat je dit item wil exporteren naar';
@@ -127,6 +128,8 @@ $string['globalglossary'] = 'Globale woordenlijst';
 $string['glossary:approve'] = 'Nieuwe items goedkeuren';
 $string['glossary:comment'] = 'Commentaar toevoegen';
 $string['glossary:export'] = 'Items exporteren';
+$string['glossary:exportentry'] = 'Exporteer één item';
+$string['glossary:exportownentry'] = 'Exporteer één item van jouw';
 $string['glossary:import'] = 'Items importeren';
 $string['glossary:managecategories'] = 'Categorieën beheren';
 $string['glossary:managecomments'] = 'Commentaren beheren';

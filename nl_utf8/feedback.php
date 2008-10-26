@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['add_item'] = 'Voeg een vraag toe';
@@ -17,7 +17,13 @@ $string['autonumbering'] = 'Automatische nummering voor elke vraag';
 $string['average'] = 'Gemiddelde';
 $string['bold'] = 'Vet';
 $string['cancel_moving'] = 'Annuleer verplaatsen';
+$string['cannotcreatecompletedfeedback'] = 'Kan afgewerkte feedback niet maken';
+$string['cannotcreatetmpfeedback'] = 'Kan tijdelijke feedback niet maken';
+$string['cannotmapfeedback'] = 'Databankprobleem, kan feedback niet aan cursus koppelen';
+$string['cannotsavetempl'] = 'bewaren van sjablonen is niet toegelaten';
+$string['cannotunmap'] = 'Databankprobleem: unmap niet mogelijk';
 $string['captcha'] = 'Captcha';
+$string['captchanotset'] = 'Captcha is niet ingesteld';
 $string['check'] = 'Meerkeuze - meerdere antwoorden';
 $string['check_values'] = 'Checkbox-waarden';
 $string['checkbox'] = 'Checkbox';
@@ -69,6 +75,7 @@ $string['feedback:receivemail'] = 'E-mailnotifivatie ontvangen';
 $string['feedback:view'] = 'Feedback bekijken';
 $string['feedback:viewanalysepage'] = 'Bekijk de analysepagina na insturen';
 $string['feedback:viewreports'] = 'Rapporten bekijken';
+$string['feedback_is_not_for_anonymous'] = 'feedback is niet anoniem';
 $string['feedback_is_not_open'] = 'De feedback is niet open';
 $string['feedback_options'] = 'Feedbackopties';
 $string['feedbackclose'] = 'Sluit de feedback om';
@@ -183,6 +190,7 @@ $string['textfield'] = 'Kort tekstantwoord';
 $string['textfield_maxlength'] = 'Maximum aantal tekens';
 $string['textfield_size'] = 'Breedte tekstveld';
 $string['this_feedback_is_already_submitted'] = 'Je hebt dit feedbackformulier is al ingestuurd.';
+$string['typemissing'] = 'ontbrekende waarde \"type\"';
 $string['update_item'] = 'Bewaar de wijzigingen';
 $string['use_one_line_for_each_value'] = '<br />Gebruik één regel per antwoord';
 $string['use_this_template'] = 'Gebruik dit sjabloon';

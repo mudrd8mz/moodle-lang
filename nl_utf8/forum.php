@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // forum.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -22,6 +22,7 @@ $string['allowsdiscussions'] = 'In dit forum mag iedereen precies één discussi
 $string['allsubscribe'] = 'Ik wil mail van alle forums';
 $string['allunsubscribe'] = 'Ik wil van geen enkel forum mail';
 $string['anyfile'] = 'Een bestand';
+$string['areaintro'] = 'Forum introductie';
 $string['attachment'] = 'Bijlage';
 $string['attachmentnopost'] = 'Je kunt bijlagen niet exporteren zonder post ID';
 $string['attachments'] = 'Bijlagen';
@@ -32,14 +33,13 @@ $string['bynameondate'] = 'door  $a->name  - $a->date';
 $string['cannotadddiscussion'] = 'Om discussies aan dit forum te kunnen toevoegen, moet je lid zijn van deze groep';
 $string['cannotadddiscussionall'] = 'Je hebt het recht niet om een nieuw discussieonderwerp te starten voor alle deelnemers.';
 $string['cannotaddsubscriber'] = 'Kon gebruiker met ID $a niet inschrijven voor het ontvangen van e-mail van dit forum!';
+$string['cannotdeleteforummodule'] = 'Je kan de forummodule niet verwijderen';
 $string['cannotfindfirstpost'] = 'Kon het eerste bericht van dit forum niet vinden';
 $string['cannotfindorcreateforum'] = 'Kon geen nieuwforum maken of vinden voor deze site';
-$string['cannotinsertrate'] = 'Kon nieuwe beoordeling niet toevoegen ($a[0] = $a[1])';
 $string['cannotremovesubscriber'] = 'Kon gebruiker met ID $a niet uitschrijven voor het ontvangen van e-mail van dit forum!';
 $string['cannotsubscribe'] = 'Je moet lid van een groep zijn om email van dit forum te kunnen ontvangen.';
 $string['cannottrack'] = 'Kon het volgen van dit forum niet stoppen';
 $string['cannotunsubscribe'] = 'Kon er niet voor zorgen dat je van dit forum geen mail meer ontvangt.';
-$string['cannotupdaterate'] = 'Kon een vroegere beoordeling niet updaten ($a[0] = $a[1])';
 $string['cannotviewpostyet'] = 'Je kunt de vragen van andere leerlingen in deze discussie nog niet lezen, omdat je zelf nog niets gepost hebt';
 $string['cleanreadtime'] = 'Markeer oude berichten als gelezen';
 $string['completiondiscussions'] = 'Gebruiker moet discussies starten:';
@@ -58,6 +58,7 @@ $string['configenabletimedposts'] = 'Zet op \'Ja\' als je een tijdvak wil instel
 $string['configlogblocked'] = 'De forum cron kan logs maken van geblokkeerde pogingen om e-mails te sturen naar gebruikers met uitgeschakelde email.';
 $string['configlongpost'] = 'Elk bericht dat langer is dan deze waarde (HTML-code niet inbegrepen) wordt als lang beschouwd.';
 $string['configmanydiscussions'] = 'Maximale aantal discussies van een forum die per pagina getoond worden';
+$string['configmaxattachments'] = 'Standaard maximum aantal bijlagen per bericht';
 $string['configmaxbytes'] = 'Standaard maximumgrootte voor alle forumbijlagen op deze site (afhankelijk van vaklimieten en andere lokale instellingen)';
 $string['configoldpostdays'] = 'Aantal dagen waarna elk bericht als gelezen moet beschouwd worden.';
 $string['configreplytouser'] = 'Wil je dat de e-mail van een bericht op het forum het e-mailadres van de verstuurder bevat, zodat de ontvangers eventueel ook persoonlijk kunnen antwoorden, eerder dan via het forum? Zelfs als je hier \'Ja\' instelt, kunnen gebruikers ervoor kiezen hun e-mailadres privé te houden via hun profielpagina';
@@ -111,6 +112,9 @@ $string['forum:createattachment'] = 'Bijlage toevoegen';
 $string['forum:deleteanypost'] = 'Gelijk welk bericht verwijderen (altijd)';
 $string['forum:deleteownpost'] = 'Eigen berichten verwijderen (binnen bepaalde tijd)';
 $string['forum:editanypost'] = 'Gelijk welk bericht bewerken';
+$string['forum:exportdiscussion'] = 'Exporteer de hele discussie';
+$string['forum:exportownpost'] = 'Exporteer je eigen bericht';
+$string['forum:exportpost'] = 'Exporteer bericht';
 $string['forum:initialsubscriptions'] = 'Initieel e-mail van dit forum ontvangen';
 $string['forum:managesubscriptions'] = 'Beheer het ontvangen van e-mail';
 $string['forum:movediscussions'] = 'Discussies verplaatsen';
@@ -159,6 +163,7 @@ $string['markread'] = 'Markeer als gelezen';
 $string['markreadbutton'] = 'Markeer als<br />gelezen';
 $string['markunread'] = 'Markeer als ongelezen';
 $string['markunreadbutton'] = 'Markeer als<br />ongelezen';
+$string['maxattachments'] = 'Maximum aantal bijlagen';
 $string['maxattachmentsize'] = 'Maximum grootte van bijlagen';
 $string['maxtimehaspassed'] = 'Helaas is de maximale tijd voor het wijzigen van dit bericht ($a) verstreken!';
 $string['message'] = 'Bericht';
@@ -326,5 +331,7 @@ $string['youratedthis'] = 'Je beoordeelde dit';
 $string['yournewquestion'] = 'Je nieuwe vraag';
 $string['yournewtopic'] = 'Je nieuwe discussieonderwerp';
 $string['yourreply'] = 'Jouw antwoord';
+$string['cannotinsertrate'] = 'Kon nieuwe beoordeling niet toevoegen ($a[0] = $a[1])'; // ORPHANED
+$string['cannotupdaterate'] = 'Kon een vroegere beoordeling niet updaten ($a[0] = $a[1])'; // ORPHANED
 
 ?>
