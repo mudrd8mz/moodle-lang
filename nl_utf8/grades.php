@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['activities'] = 'Activiteiten';
@@ -101,6 +101,7 @@ $string['configshowgroups'] = 'Toon gemiddelde, mediaan of modus op het rapport.
 $string['configshowhiddenitems'] = 'Toon verborgen items in een rapport, zelfs waneer de gebruiker de moodle/grade:viewhiddden mogelijkheid niet heeft. De zichtbaarheid van de verborgen cijfers wordt niet gewijzigd door deze instelling.';
 $string['configshowlocks'] = 'Of er een blokkeer/vrijgeven icoontje getoond moet worden naast elke beoordeling.';
 $string['configshownumberofgrades'] = 'Toont het aantal cijfers dat geaggregeerd wordt tussen haakjes naast elk gemiddelde. Voorbeeld 45(34)';
+$string['configshowpercentage'] = 'Het percentage van elk beoordelingsitem moet getoond worden.';
 $string['configshowquickfeedback'] = 'Snelle feedback voegt een element voor tekstinvoer toe aan elke cel op het rapportagescherm, waardoor je snel de feedback kunt wijzigen voor veel cijfers tegelijk. Je kunt dan op de Update-knop klikken om al deze wijzigingen in één keer door te voeren.';
 $string['configshowranges'] = 'Toon een rij met de mogelijke marges voor elk beoordelingsitem in het rapport.';
 $string['configshowrank'] = 'Toon een ranglijst voor elk beoordelingsitem';
@@ -155,6 +156,8 @@ $string['errornocalculationallowed'] = 'Berekeningen zijn voor dit item niet toe
 $string['errornocategorisedid'] = 'Kon geen id zonder categorie vinden';
 $string['errornocourse'] = 'Kon geen informatie over de cursus vinden';
 $string['errorreprintheadersnonnumeric'] = 'Niet-numerieke waarde ontvangen voor koppen herhalen';
+$string['errorupdatinggradecategoryaggregation'] = 'Fout bij het aanpassen van het aggregatietype van cijfercategorie ID $a->id';
+$string['errorupdatinggradeitemaggregationcoef'] = 'Fout bij het updaten van de aggregatiecoëfficiënt (weging of bonus) van beoordelingsitem ID $a->id';
 $string['exceptions'] = 'Uitzonderingen';
 $string['excluded'] = 'Uitgesloten';
 $string['excludedhelp'] = 'Als -Uitgesloten- is ingeschakeld, dan zal deze beoordeling uitgesloten worden van elke aggregatie door gelijk welk bovenliggend beoordelingsitem of categorie.';
@@ -345,7 +348,9 @@ $string['nonnumericweight'] = 'Een niet-numerieke waarde ontvangen voor';
 $string['nonunlockableverbose'] = 'Dit cijfer kan niet gedeblokkeerd worden tot $a->itemname gedeblokkeerd is.';
 $string['nonweightedpct'] = '%% zonder weging';
 $string['nooutcome'] = 'Geen competentie';
+$string['nooutcomes'] = 'Competentie-items moeten gelinkt zijn aan een cursuscompetentie, maar er zijn geen competenties in deze cursus. Wil je er toevoegen?';
 $string['nopublish'] = 'Niet publiceren';
+$string['noscales'] = 'Competenties moeten gelinkt zijn aan een cursusschaal of een globale schaal, maar er zijn er geen. Wil je er toevoegen?';
 $string['noselectedcategories'] = 'Je hebt geen categorieën geselecteerd';
 $string['noselecteditems'] = 'Je hebt geen items geselecteerd';
 $string['notteachererror'] = 'Je moet leraar zijn om deze functie te gebruiken';
@@ -355,6 +360,7 @@ $string['onascaleof'] = 'op een schaal van $a-grademin tot $a->grademax';
 $string['operations'] = 'Operatie';
 $string['options'] = 'Opties';
 $string['outcome'] = 'Competentie';
+$string['outcomeassigntocourse'] = 'Wijs nog een competentie toe aan deze cursus';
 $string['outcomecategory'] = 'Maak competenties in categorie';
 $string['outcomecategorynew'] = 'Nieuwe categorie';
 $string['outcomeconfirmdelete'] = 'Ben je zeker dat je competentie \"$a\" wil verwijderen?';
@@ -453,6 +459,7 @@ $string['showlocks'] = 'Toon blokkeringen';
 $string['shownohidden'] = 'Verborgen niet tonen';
 $string['shownooutcomes'] = 'Verberg competenties';
 $string['shownumberofgrades'] = 'Toon het aantal cijfers in gemiddelden';
+$string['showpercentage'] = 'Toon percentage';
 $string['showquickfeedback'] = 'Toon formulier voor snelle feedback';
 $string['showranges'] = 'Toon marges';
 $string['showrank'] = 'Toon ranglijst';
@@ -513,6 +520,9 @@ $string['weightedascending'] = 'Sorteer oplopend gewogen procent';
 $string['weighteddescending'] = 'Sorteer aflopend gewogen procent';
 $string['weightedpct'] = 'gewogen %%';
 $string['weightedpctcontribution'] = 'gewogen %% bijdrage';
+$string['weightorextracredit'] = 'Weging of bonus';
+$string['weights'] = 'Wegingen';
+$string['weightsedit'] = 'Bewerk weging en bonus';
 $string['writinggradebookinfo'] = 'Instelling cijferlijst wegschrijven';
 $string['xml'] = 'XML';
 $string['yes'] = 'Ja';
