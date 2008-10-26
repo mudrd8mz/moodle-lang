@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // chat.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['ajax'] = 'Versie met Ajax';
@@ -9,10 +9,12 @@ $string['cantinsert'] = 'Kon chatbericht niet toevoegen!';
 $string['cantlogin'] = 'Kon niet in de chatroom!';
 $string['chat:chat'] = 'Gebruik chat';
 $string['chat:deletelog'] = 'Verwijder chat logs';
-$string['chat:readlog'] = 'Bekijk chat logs';
+$string['chat:exportparticipatedsession'] = 'Exporteer je chatdeelname';
+$string['chat:exportsession'] = 'Exporteer chatsessie';
+$string['chat:readlog'] = 'Bekijk chatlogs';
 $string['chatintro'] = 'Inleidende tekst';
 $string['chatname'] = 'Naam van deze chatroom';
-$string['chatreport'] = 'Chatsessies';
+$string['chatreport'] = 'Chat-sessies';
 $string['chattime'] = 'Volgende chattijd';
 $string['configmethod'] = 'De gewone chatmethode laat de clients regelmatig contact opnemen met de server voor updates. Deze methode vraagt geen configuratie en werkt op alle servers, maar kan een zware belasting op de server veroorzaken wanneer er veel chatters tegelijk online zijn. Om een serverdaemon te kunnen gebruiken heb je  shell-toegang tot Unix nodig, maar je krijgt er een snelle, schaalbare chatomgeving mee.';
 $string['confignormalupdatemode'] = 'Chatrooms worden normaal gezien heel eficient geupdatet met de <em>Keep-Alive</em> functie van het HTTP 1.1 protocol, maar het geeft een grote belasting voor de server. Een meer geavanceerde methode is gebruik te maken van <em>Stream</em> om de updates tot bij de gebruikers te krijgen. Het gebruik van <em>Stream</em> geeft betere resultaten (gelijkwaardig met de chatd methode), maar het is mogelijk dat je server dat niet ondersteunt.';

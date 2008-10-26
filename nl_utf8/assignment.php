@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['allowdeleting'] = 'Verwijderen toestaan';
@@ -8,6 +8,7 @@ $string['allownotes'] = 'Notities toestaan';
 $string['allowresubmit'] = 'Sta herhaald insturen toe';
 $string['alreadygraded'] = 'Jouw opdracht is al beoordeeld en opnieuw insturen is niet toegelaten.';
 $string['assignment:exportownsubmission'] = 'Exporteer je opdracht';
+$string['assignment:exportsubmission'] = 'Exporteer inzending';
 $string['assignment:grade'] = 'Beoordeel opdracht';
 $string['assignment:submit'] = 'Stuur opdracht in';
 $string['assignment:view'] = 'Bekijk opdracht';
@@ -71,6 +72,7 @@ $string['hideintro'] = 'Verberg beschrijving voor de startdatum';
 $string['invalidassignment'] = 'opdracht fout';
 $string['invalidid'] = 'Opdracht ID was fout';
 $string['invalidtype'] = 'Fout opdrachttype';
+$string['invaliduserid'] = 'Ongeldig gebruiker ID';
 $string['itemstocount'] = 'Aantal';
 $string['late'] = '$a laat';
 $string['maximumgrade'] = 'Maximale cijfer';
