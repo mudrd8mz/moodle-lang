@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -28,6 +28,7 @@ $string['authsettings'] = 'Beheer authenticatie';
 $string['autolang'] = 'Taal automatisch detecteren';
 $string['autologinguests'] = 'Gasten automatisch inloggen';
 $string['availablelangs'] = 'Beschikbare taalpakketten';
+$string['availableto'] = 'Beschikbaar voor';
 $string['backgroundcolour'] = 'Transparant';
 $string['backups'] = 'Backups';
 $string['badwordsconfig'] = 'Geef je lijst te censureren woorden in, gescheiden door komma\'s';
@@ -46,6 +47,9 @@ $string['cachetext'] = 'Hoelang mag tekst in cache blijven';
 $string['cachetype'] = 'Cache type';
 $string['calendar_weekend'] = 'Weekend';
 $string['calendarsettings'] = 'Kalender';
+$string['cannotdeletemissingqtype'] = 'Je kunt het ontbrekende vraagtype niet verwijderen. Het is nodig voor het systeem.';
+$string['cannotdeleteqtypeinuse'] = 'Je kunt vraagtype \'$a\' niet verwijderen. Er zijn vragen van dit type in de vragenpool.';
+$string['cannotdeleteqtypeneeded'] = 'Je kunt vraagtype \'$a\' niet verwijderen. Er zijn andere vraagtypes geïnstalleerd die dit type nodig hebben.';
 $string['cfgwwwrootslashwarning'] = 'Je hebt &#36;CFG->wwwroot fout ingesteld in het bestand config.php. Je hebt een \'/\' aan het einde van je pad gezet. Verwijder dit. Je kunt er vreemde bugs mee ondervinden, zoals  <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>';
 $string['cfgwwwrootwarning'] = 'Je hebt &#36;CFG->wwwroot fout ingesteld in het bestand config.php. Het pad komt niet overeen met de URL die je bebruikt om toegang te krijgen tot deze pagina  Pas dit aan. Je kunt er vreemde bugs mee ondervinden, zoals  <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>';
 $string['change'] = 'wijzig';
@@ -139,6 +143,7 @@ $string['configfrontpageloggedin'] = 'De hierboven gekozen items zullen op de st
 $string['configfullnamedisplay'] = 'Deze instelling bepaalt hoe de volledige namen getoond worden. Voor de meeste eentalige sites is de beste instelling de standaardinstelling, nl \"voornaam + achternaam\", maar je kunt ervoor kiezen de achternaam te verbergen of de gekozen taalinstelling te volgen (sommige talen gebruiken een andere volgorde).';
 $string['configgdversion'] = 'Geef aan welke versie van GD geïnstalleerd is. De versie die standaard getoond wordt is automatisch gevonden. Verander dit niet tenzij je echt weet wat je doet.';
 $string['configgeoipfile'] = 'Plaats van het GeoIP City binair data bestan. Dit bestand is geen deel van de Moodledistributie en moet apart bekomen worden van  <a href=\"http://www.maxmind.com/\">MaxMind</a>. Je kunt ofwel een commerciële versie bekomen of de gratis versie gebruiken.<br />Download <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a> en unzip het in de map \"$a\" op je server.';
+$string['configgetremoteaddrconf'] = 'Als je server zich achter een reverse proxy bevindt, dan kun je deze instelling gebruiken om te specifiëren welke HTTP headers vertrouwd kunnen worden dat ze het IP-adres van de client bevatten. De headers worden in volgorde gelezen. De eerste die gevonden wordt, word gebruikt.';
 $string['configgooglemapkey'] = 'Je moet een speciale sleutel ingeven om Google Maps voor IP-adreslocalisatie te kunnen gebruiken. Die kun je gratis bekomen op <a href=\"http://code.google.com/apis/maps/signup.html\">http://code.google.com/apis/maps/signup.html</a>.<br />Jouw web site URL is: $a';
 $string['configgradebookroles'] = 'Deze instelling bepaalt wie er in de cijferlijsten verschijnt. Gebruikers moeten minstens één van deze rollen hebben om in de cijferlijsten voor die cursus te verschijnen.';
 $string['configgradeexport'] = 'Kies welke formaten je wil om je punten te exporteren. De gekozen plugins worden dan ingesteld en gebruiken een \"laatst geëxporteerd veld\" voor elk cijfer. Dit kan er bijvoorbeeld voor zorgen dat geëxporteerde records geïdentificeerd worden als nieuw of aangepast. Als je niet zeker bent van deze instelling, laat dan alles staan zonder vinkje.';
@@ -240,6 +245,8 @@ $string['configstatscatdepth'] = 'De statistiekencode gebruikt een vereenvoudigd
 $string['configstatsfirstrun'] = 'Hiermee stel je in hoever terug in de tijd dat de logs moeten herwerkt worden tijdens de <b>eerste keer</b> dat de crontaak de statistieken probeert te verwerken. Als je wel wat verkeer hebt en je server is een shared host, dan is het waarschijnlijk geen goed idee om te ver terug te gaan. Het erg zware proces zou wel eens lang kunnen lopen. (merk op voor deze instelling: 1 maand is 28 dagen. Op de grafieken en in de rapporten is een maand een kalendermaand.)';
 $string['configstatsmaxruntime'] = 'Het verwerken van statistieken is een erg belastende taak. Gebruik dus de combinatie van dit veld en het volgende om aan te geven wanneer en hoe lang het proces zal lopen.';
 $string['configstatsmaxruntime2'] = 'Het berekenen van statistieken kan voor je server een zeer belastende taak zijn. Specifiëer een maximum tijd dat de server mag werken aan de statistieken van één dag. Het maximum aantal verwerkte dagen per cron cyclus is 3.';
+$string['configstatsmaxruntime3'] = 'Specifiëer de maximum toegelaten tijd om de statistieken voor één dag te berekenen. Hou er rekening mee dat het verwerken van de statistieken een grote belasting voor je server kan betekenen. Het maximum aantal dagen, berekend in één cron, kun je met de volgende instelling kiezen.';
+$string['configstatsruntimedays'] = 'Specifiëer het maximum aantal dagen die verwerkt mogen worden in één statistiek-berekeningscyclus. Wanneer de statistieken up-to-date zijn, zal er slechts één dag verwerkt worden. Pas deze waarde aan, rekening houdend met de belasting van je server. Maak ze kleiner als de cron-taak korter moet.';
 $string['configstatsruntimestart'] = 'Op welk tijdstip moet de crontaak die de statistieken verwerk <b>starten</b>?';
 $string['configstatsuserthreshold'] = 'Als je een getal anders dan nul of een niet-nummerieke waarde ingeeft voor het rangschikken van cursussen, dan zullen de cursussen met minder dan dat aantal aangemelde gebruikers (leerlingen + leraren) genegeerd worden.';
 $string['configstripalltitletags'] = 'Schakel deze optie uit om HTML-tags to te laten in activiteits- en bronnamen.';
@@ -253,11 +260,13 @@ $string['configunzip'] = 'Geef de locatie van je UNZIP-programma (alleen voor UN
 $string['configuseexternalyui'] = 'In de plaats van gebruik te maken va lokale bestanden, gebruik de bestanden van  de Yahoo servers. WAARSCHUWING: hiervoor moet je server een verbinding met het internet hebben of AJAX zal niet werken.';
 $string['configusetags'] = 'Tags functionaliteit over de hele site inschakelen?';
 $string['configvariables'] = 'Configureer variabelen';
+$string['configverifychangedemail'] = 'Schakelt verificatie in van gewijzigde email-adressen wanneer je toegelaten en verboden domeinen gebruikt. Als deze instelling is uitgeschakeld, dan worden de domeinen enkel opgelegd voor het aanmaken van nieuwe gebruikers.';
 $string['configvisiblecourses'] = 'Toon cursussen in verborgen categorieën';
 $string['configwarning'] = 'Wees voorzichtig met het veranderen van deze instellingen. Vreemde waarden kunnen problemen opleveren.';
 $string['configxmlstrictheaders'] = 'Wanneer dit ingeschakeld is, zal elke pagina gegenereerd worden met XML http headers en prolog, zodat browsers XHTML-fouten inline tonen. Dit is enkel nuttig voor ontwikkelaars';
 $string['configzip'] = 'Geef de locatie van je ZIP-programma (alleen voor UNIX). Dit is nodig om ZIP-archieven op de server te maken.';
 $string['confirmation'] = 'Bevestiging';
+$string['confirmed'] = 'Bevestigd';
 $string['confirminstall'] = 'Je gaat het taalpakket ($a) installeren. Verder gaan?';
 $string['cookiehttponly'] = 'Enkel http cookies';
 $string['cookiesecure'] = 'Enkel secure cookies';
@@ -280,6 +289,8 @@ $string['ctyperequired'] = 'De ctype PHP-extentie is nu vereist in Moodle om de 
 $string['curlrecommended'] = 'Het installeren van de optionele Curl bibliotheek wordt ten zeerste aangeraden om de netwerkmogelijkheden van Moodle in te schakelen';
 $string['curlrequired'] = 'De cURL PHP-extentie is nu vereist in Moodle om te kunnen communiceren met Moodle bewaarplaats';
 $string['customcheck'] = 'Andere controles';
+$string['datarootsecurityerror'] = '<p><strong>BEVEILIGINGSWAARSCHUWING!</strong></p><p>Je dataroot map staat op de verkeerde plaats en is bereikbaar vanop het internet. Dit betekent dat al je bestanden voor iedereen beschikbaar zijn en dat sommige bestanden kunnen gebruikt worden door een cracker om toegang tot je site te krijgen als beheerder!</p>
+<p>Je <em>moet</em> de dataroot map ($a) verplaatsen naar een andere plaats die buiten je publieke webmap is en de <code>$CFG->dataroot</code>-instelling in je config.php aanpassen.</p>';
 $string['datarootsecuritywarning'] = 'De configuratie van je site zou onveilig kunnen zijn. Zorg er voor dat je dataroot map ($a) niet toegankelijk is vanaf het internet.';
 $string['dbmigrate'] = 'Migratie van de Moodle databank naar UTF8';
 $string['dbmigrateconnecerror'] = 'Kon niet met de opgegeven databank verbinden';
@@ -290,6 +301,7 @@ $string['dbmigratewarning2'] = '<b>Waarschuwing: zodadelijk ga je het databank m
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Deze databank is gemigreerd naar een nieuwe UTF8 databank en is buiten werking gesteld. Bewerk je config.php om de nieuwe databank te gebruiken voor deze Moodle-installatie.</font>';
 $string['dbmigrationdupfailed'] = 'Databankduplicatie mislukt met als mogelijke fout: <font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['dbsessions'] = 'Gebruik databank voor sessie-informatie';
+$string['dbtest'] = 'Functionele DB-testen';
 $string['debug'] = 'Foutopsporingsmeldingen';
 $string['debugall'] = 'E_ALL: toon alle zinnige feedback';
 $string['debugdeveloper'] = 'ONTWIKKELAAR: extra Moodle debugberichten voor ontwikkelaars';
@@ -308,8 +320,10 @@ $string['defaultuserroleid'] = 'Standaardrol voor alle gebruikers';
 $string['defaultvalues'] = 'Standaardwaarden';
 $string['deleteerrors'] = 'Verwijder fouten';
 $string['deleteincompleteusers'] = 'Verwijder onvolledig ingestelde accounts na';
+$string['deleteqtypeareyousure'] = 'Ben je er zeker van dat je vraagtype \'$a\' wil wissen';
 $string['deleteunconfirmed'] = 'Verwijder niet-bevestigde gebruikers na';
 $string['deleteuser'] = 'Verwijder gebruiker';
+$string['deletingqtype'] = 'Vraagtype \'$a\' aan het verwijderen';
 $string['density'] = 'Dichtheid';
 $string['denyemailaddresses'] = 'Verboden e-maildomeinen';
 $string['digestmailtime'] = 'Uur om e-mail met verzamelde berichten te versturen';
