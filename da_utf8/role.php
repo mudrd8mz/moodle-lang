@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // role.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['addrole'] = 'Tilføj ny rolle';
@@ -51,11 +51,11 @@ $string['course:visibility'] = 'Vise / skjule kurser';
 $string['currentcontext'] = 'Nuværende indhold';
 $string['currentrole'] = 'Nuværende rolle';
 $string['defaultrole'] = 'Standardrolle';
-$string['defineroles'] = 'Administrer roller';
+$string['defineroles'] = 'Definer roller';
 $string['deletecourseoverrides'] = 'Slet alle tilsidesættelser af roller i kurset';
 $string['deletelocalroles'] = 'Slet alle rolletildelinger';
 $string['deleterolesure'] = 'Er du sikker på at du vil slette rollen \"$a->name ($a->shortname)\"?</p><p>Denne rolle er på nuværende tidspunkt tildelt til $a->count brugere.';
-$string['duplicaterole'] = 'Duplikere rolle';
+$string['duplicaterole'] = 'Kopier rolle';
 $string['duplicaterolesure'] = 'Bekræft at du vil duplikere rollen \"$a->name ($a->shortname)\".';
 $string['editrole'] = 'Ret rolle';
 $string['errorbadrolename'] = 'Ugyldigt rollenavn';
