@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // moodle.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['abouttobeinstalled'] = 'zostanie za chwilę zainstalowany';
@@ -236,6 +236,7 @@ $string['complete'] = 'Pełna wersja';
 $string['completereport'] = 'Pełny raport';
 $string['configuration'] = 'Konfiguracja';
 $string['confirm'] = 'Potwierdź';
+$string['confirmcheckfull'] = 'Czy masz absolutną pewność, że chcesz potwierdzić $a ?';
 $string['confirmed'] = 'Twoja rejestracja została potwierdzona';
 $string['confirmednot'] = 'Twoja rejestracja nie została jeszcze potwierdzona';
 $string['continue'] = 'Kontynuuj';
@@ -288,6 +289,7 @@ $a';
 $string['courserejectreason'] = 'Wytłumaczenie powodów, dla których zamówienie zostało odrzucone<br />(wpisane tutaj uzasadnienie zostanie wysłane e-mailem do wnioskodawcy).';
 $string['courserejectsubject'] = 'Twój kurs został odrzucony';
 $string['courserequest'] = 'Zamawianie kursu';
+$string['courserequestdisabled'] = 'Opcja zamawiania kursów została zablokowana przez administratora';
 $string['courserequestfailed'] = 'Twoje zamówienie nie zostało zapisane';
 $string['courserequestintro'] = 'Użyj formularza, aby zamówić utworzenie kursu. Zamieść jak najwięcej informacji tak, aby administratorzy poznali cel utworzenia tego kursu.';
 $string['courserequestreason'] = 'Kurs potrzebny jest mi do...';
@@ -365,6 +367,7 @@ $string['deleteall'] = 'Usuń wszystko';
 $string['deleteallcomments'] = 'Usuń wszystkie komentarze';
 $string['deletecategory'] = 'Usuń kategorię $a';
 $string['deletecategorycheck'] = 'Czy na pewno chcesz usunąć kategorię <b>\'$a\'</b>?<br/>Spowoduje to przesunięcie wszystkich kursów do kategorii nadrzędnej lub kategorii \"Inne\".';
+$string['deletecategorycheck2'] = 'Gdy usuwasz tą kategorię, musisz wybrać co zrobić z kursami i podkategoriami które zawiera.';
 $string['deletecheck'] = 'Usunąć $a ?';
 $string['deletecheckfiles'] = 'Czy na pewno chcesz usunąć te pliki?';
 $string['deletecheckfull'] = 'Czy na pewno chcesz usunąć $a ?';
@@ -467,7 +470,7 @@ $string['emaildisplayyes'] = 'Pokaż wszystkim mój adres e-mail';
 $string['emailenable'] = 'Ten mail jest uaktywniony';
 $string['emailenableclick'] = 'Kliknij tutaj, aby uaktywnić wysyłanie maili na ten adres';
 $string['emailexists'] = 'Ten adres e-mail jest już zarejestrowany';
-$string['emailformat'] = 'Format adresu e-mail';
+$string['emailformat'] = 'Format e-mail';
 $string['emailmustbereal'] = 'Uwaga: Twój adres e-mail musi być prawdziwy';
 $string['emailnotallowed'] = 'Niedozwolona domena adresu e-mail ($a)';
 $string['emailnotfound'] = 'Adres e-mail nie został znaleziony w bazie danych';
@@ -535,7 +538,7 @@ $string['enrolmentnotyet'] = 'Przykro mi, nie możesz wejść do tego kursu prze
 $string['enrolmentplugins'] = 'Metody zapisywania się na kurs';
 $string['enrolments'] = 'Zapisy';
 $string['enrolmentstart'] = 'Początek rejestracji';
-$string['enrolperiod'] = 'Okres zapisów';
+$string['enrolperiod'] = 'Okres uczestnictwa';
 $string['enrolstartdate'] = 'Data początkowa';
 $string['entercourse'] = 'Kliknij, aby wejść do kursu';
 $string['enteremailaddress'] = 'Wprowadź swój adres e-mail, aby wykasować twoje hasło i otrzymać pocztą elektroniczną nowe.';
@@ -554,11 +557,11 @@ $string['existingcreators'] = 'Istniejący autorzy kursów';
 $string['existingstudents'] = 'Zapisani studenci';
 $string['existingteachers'] = 'Istniejący nauczyciele';
 $string['expirynotify'] = 'Zgłoszenie o wygaśnięciu powiadomienia';
-$string['expirynotifyemail'] = 'Następujący uczniowie na tym kursie zostaną wydaleni po więcej  niż $a->threshold dniach:
+$string['expirynotifyemail'] = 'Następujący studenci w tym kursie zostaną wydaleni po więcej  niż $a->threshold dniach:
 
 $a->current
 
-Następujący uczniowie na tym kursie zostaną wydaleni pomniej niż $a->threshold dniach:
+Następujący studenci na tym kursie zostaną wydaleni po mniej niż $a->threshold dniach:
 
 $a->past
 
@@ -567,7 +570,7 @@ $a->extendurl';
 $string['expirynotifystudents'] = 'Zawiadom studentów';
 $string['expirynotifystudentsemail'] = 'Drogi Studencie:
 
-To jest zawiadomienie o wygaśnięciu Twojego zgłoszeni na kurs $a->course za $a->threshold dni.
+To jest zawiadomienie o wygaśnięciu Twojego zgłoszenia na kurs $a->course za $a->threshold dni.
 
 W celu otrzymania dalszych informacji proszę skontaktować się ze swoim korepetytorem.';
 $string['expirythreshold'] = 'Próg';
@@ -743,6 +746,7 @@ $string['includemodules'] = 'Uwzględnij moduły';
 $string['includemoduleuserdata'] = 'Uwzględnij dane użytkowników modułu';
 $string['includeneededusers'] = 'Uwzględnij potrzebnych użytkowników';
 $string['includenoneusers'] = 'Nie uwzględniaj żadnych użytkowników';
+$string['includeroleassignments'] = 'Uwzględnij przypisania ról';
 $string['includesitefiles'] = 'Dołącz pliki strony głównej użyte w tym kursie';
 $string['includeuserfiles'] = 'Uwzględnij pliki użytkowników';
 $string['info'] = 'Informacja';
@@ -982,6 +986,7 @@ $string['noreplyname'] = 'Nie odpowiadaj na ten mail';
 $string['noresults'] = 'Brak wyników';
 $string['normal'] = 'Zwykły';
 $string['normalfilter'] = 'Normalny filtr';
+$string['nostatstodisplay'] = 'Brak dostępnych danych do wyświetlenia.';
 $string['nostudentsfound'] = 'Nie znaleziono studenta $a';
 $string['nostudentsingroup'] = 'Studenci nie są przypisani do grup';
 $string['nostudentsyet'] = 'Na ten kurs nie zapisali się studenci';
@@ -1063,6 +1068,7 @@ $string['periodending'] = 'Koniec okresu';
 $string['personal'] = 'Osobisty';
 $string['personalprofile'] = 'Profil osobisty';
 $string['phone'] = 'Telefon';
+$string['phone2'] = 'Komórka';
 $string['phpinfo'] = 'Informacje o PHP';
 $string['pictureof'] = 'Obraz $a';
 $string['pleaseclose'] = 'Proszę zamknij teraz to okno';
@@ -1518,7 +1524,5 @@ $string['yourlastlogin'] = 'Ostatnie logowanie';
 $string['yourself'] = 'samodzielnie';
 $string['yourteacher'] = 'twój $a';
 $string['zippingbackup'] = 'Archiwizacja  kopii zapasowej';
-$string['courserequestdisabled'] = 'Opcja zamawiania kursów została zablokowana przez administratora'; // ORPHANED
-$string['nostatstodisplay'] = 'Brak dostępnych danych do wyświetlenia.'; // ORPHANED
 
 ?>

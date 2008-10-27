@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.5.2 + (2005072200)
+      // survey.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['actual'] = 'Aktualne';
@@ -120,7 +120,7 @@ $string['colles9'] = 'Wyjaśniam swoje pomysły innym studentom';
 $string['colles9short'] = 'Wyjaśniam swoje pomysły';
 $string['collesaintro'] = 'Ankieta ta ma na celu pomóc nam zrozumieć w jakim stopniu dostępność tego modułu w trybie on-line pomogła Ci w uczeniu się.<br />Każde z poniższych 24 stwierdzeń dotyczy Twoich doświadczeń w tym module. Nie ma odpowiedzi \"poprawnych\" lub \"niepoprawnych\", interesuje nas wyłącznie Twoja opinia. Zapewniamy, że wszelkie odpowiedzi będą traktowane jako poufne i nie wpłyną na Twoją ocenę. <br />Twoje przemyślane odpowiedzi pomogą nam w przyszłości udoskonalić sposób prezentacji tego modułu w trybie on-line. Bardzo dziękujemy.';
 $string['collesaname'] = 'COLLES (rzeczywiste)';
-$string['collesapintro'] = 'Ankieta ta ma na celu pomóc nam zrozumieć w jakim stopniu dostępność tego modułu w trybie on-line pomogła Ci w uczeniu się. <br />Każde z poniższych 24 stwierdzeń dotyczy porównania Twoich <b>preferowanych</b> (idealnych)i <b>rzeczywistych</b>  doświadczeń w tym module. Nie ma odpowiedzi \"poprawnych\" lub \"niepoprawnych\"; interesuje nas wyłącznie Twoja opinia. Zapewniamy, że wszelkie odpowiedzi będą traktowane jako poufne i nie wpłyną na Twoją ocenę. <br />Twoje przemyślane odpowiedzi pomogą nam w przyszłości udoskonalić sposób prezentacji tego modułu w trybie on-line. Bardzo dziękujemy.';
+$string['collesapintro'] = 'Ankieta ta ma na celu pomóc nam zrozumieć w jakim stopniu dostępność tego modułu w trybie on-line pomogła Ci w uczeniu się. <br />Każde z poniższych 24 stwierdzeń dotyczy porównania Twoich <b>preferowanych</b> (idealnych) i <b>rzeczywistych</b>  doświadczeń w tym module. Nie ma odpowiedzi \"poprawnych\" lub \"niepoprawnych\"; interesuje nas wyłącznie Twoja opinia. Zapewniamy, że wszelkie odpowiedzi będą traktowane jako poufne i nie wpłyną na Twoją ocenę. <br />Twoje przemyślane odpowiedzi pomogą nam w przyszłości udoskonalić sposób prezentacji tego modułu w trybie on-line. Bardzo dziękujemy.';
 $string['collesapname'] = 'COLLES (preferowane i rzeczywiste)';
 $string['collesm1'] = 'Znaczenie';
 $string['collesm1short'] = 'Znaczenie';
@@ -137,6 +137,9 @@ $string['collesm6short'] = 'Interpretacja';
 $string['collesmintro'] = 'W tym module on-line...';
 $string['collespintro'] = 'Ankieta ta ma na celu pomóc nam zrozumieć co cenisz w procesie uczenia się on-line. <br />Każde z poniższych 24 stwierdzeń dotyczy porównania Twoich <b>preferowanych</b> (idealnych) doświadczeń w tym module. Nie ma odpowiedzi \"poprawnych\" lub \"niepoprawnych\"; interesuje nas wyłącznie Twoja opinia. Zapewniamy, że wszelkie odpowiedzi będą traktowane jako poufne i nie wpłyną na Twoją ocenę. <br />Twoje przemyślane odpowiedzi pomogą nam w przyszłości udoskonalić sposób prezentacji tego modułu w trybie on-line. Bardzo dziękujemy.';
 $string['collespname'] = 'COLLES (preferowane)';
+$string['customintro'] = 'Twoje wprowadzenie do ankiety';
+$string['deleteallanswers'] = 'Wyczyść ankietę ze wszystkich odpowiedzi';
+$string['deleteanalysis'] = 'Usuń analizę odpowiedzi';
 $string['done'] = 'Wykonane';
 $string['download'] = 'Ściągnij';
 $string['downloadexcel'] = 'Ściągnij dane jako arkusz kalkulacyjny Excel';
@@ -145,7 +148,7 @@ $string['downloadtext'] = 'Ściągnij dane w formie pliku tekstu zwykłego';
 $string['editingasurvey'] = 'Edycja ankiety';
 $string['guestsnotallowed'] = 'Goście nie mogą brać udziału w ankietach';
 $string['helpsurveys'] = 'Pomoc na temat różnych rodzajów ankiet';
-$string['howlong'] = 'Ile czasu zajęło Ci wypełnienie tej ankiety>';
+$string['howlong'] = 'Ile czasu zajęło Ci wypełnienie tej ankiety?';
 $string['howlongoptions'] = 'mniej niż 1 min, 1-2 min, 2-3 min,3-4 min,4-5-min,5-10 min, więcej niż 10 min';
 $string['ifoundthat'] = 'Stwierdziłem, że';
 $string['introtext'] = 'Tekst wprowadzający';
@@ -166,6 +169,7 @@ $string['question'] = 'Pytanie';
 $string['questions'] = 'Pytania';
 $string['questionsnotanswered'] = 'Nie udzielono odpowiedzi na niektóre pytania wielokrotnego wyboru';
 $string['report'] = 'Raport dotyczący ankiety';
+$string['responses'] = 'Odpowiedzi';
 $string['savednotes'] = 'Twoje notatki zostały zapisane';
 $string['scaleagree5'] = 'Zupełnie się nie zgadzam, Częściowo się nie zgadzam, Nie mam zdania, Częściowo się zgadzam, Zupełnie się zgadzam';
 $string['scales'] = 'Skale';
@@ -173,7 +177,11 @@ $string['scaletimes5'] = 'Prawie nigdy, rzadko, czasami, często, prawie zawsze'
 $string['seemoredetail'] = 'Kliknij aby zobaczyć więcej szczegółów';
 $string['selectedquestions'] = 'Wybrane pytania ze skali, wszyscy studenci';
 $string['summary'] = 'Podsumowanie';
-$string['surveycompleted'] = 'Wypełniłeś niniejszą ankietę. Poniższy wykres przedstawia podsumowanie Twoich wyników w porównaniu ze średnimi wartościami dla grupy';
+$string['survey:download'] = 'Pobierz odpowiedzi';
+$string['survey:participate'] = 'odpowiedzi do ankiety';
+$string['survey:readresponses'] = 'Zobacz odpowiedzi';
+$string['surveycompleted'] = 'Wypełniłeś niniejszą ankietę. Poniższy wykres przedstawia podsumowanie Twoich wyników w porównaniu ze średnimi wartościami dla grupy.';
+$string['surveygraph'] = 'Wykres ankiety';
 $string['surveyname'] = 'Nazwa ankiety';
 $string['surveysaved'] = 'Ankieta zapisana';
 $string['surveytype'] = 'Rodzaj ankiety';

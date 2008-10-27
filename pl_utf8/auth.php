@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // auth.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['alternatelogin'] = 'Jeżeli wprowadzisz tutaj adres URL, to będzie używany jako strona logowania do tego serwisu. Strona powinna zawierać formularz o właściwości action ustawionej na <strong>\'$a\'</strong> i zwracać pola <strong>username</strong> i <strong>password</strong>.
@@ -25,6 +25,7 @@ $string['auth_changepasswordhelp'] = 'Zmień help nt. hasła';
 $string['auth_changepasswordhelp_expl'] = '***Wyświetl help nt. straconego hasła użytkownikom, którzy stracili swoje $a hasło. To będzie wyświetlone wraz z, lub zamiast <strong>URL Zmiany Hasła</strong> lub zmianą hasła Internal Moodle ***';
 $string['auth_changepasswordurl'] = '***URL zmiany hasła***';
 $string['auth_changepasswordurl_expl'] = 'Określ url do przesłania użytkownikom, którzy stracili swoje $a hasło. Ustaw <strong>Użyj standardowej strony Zmiany Hasła</strong> na <strong>Nie</strong>.';
+$string['auth_changingemailaddress'] = 'Zażądano zamiany adresu e-mail z $a->oldemail na $a->newemail. Ze względów bezpieczeństwa wysłaliśmy do Ciebie wiadomość pocztową na nowy adres, aby upewnić się, że należy on do Ciebie. Twój adres zostanie zaktualizowany jak tylko klikniesz link przesłany w wiadomości.';
 $string['auth_common_settings'] = 'Ustawienia wspólne';
 $string['auth_data_mapping'] = 'Mapuj dane';
 $string['auth_dbdeleteusererror'] = 'Wystąpił błąd podczas usuwania użytkownika $a';
@@ -44,9 +45,15 @@ $string['auth_dbtitle'] = 'Korzystaj z zewnętrznej bazy danych';
 $string['auth_dbtype'] = 'Rodzaj bazy danych (szczegółowe informacje: <a href\"=../lib/adodb/readme.htm#drivers\">ADOdb documentation</a>';
 $string['auth_dbtype_key'] = 'Baza danych';
 $string['auth_dbuser'] = 'Nazwa użytkownika mającego prawo dostępu do odczytu z bazy';
+$string['auth_emailchangecancel'] = 'Porzuć zmianę adresu e-mail';
 $string['auth_emaildescription'] = 'Potwierdzenie e-mailem jest domyślną metodą uwierzytelniania. Użytkownik rejestruje się wybierając własną, nową nazwę użytkownika oraz hasło, a następnie wysyłane jest potwierdzenie na adres jego konta pocztowego. E-mail ten zawiera bezpieczny odnośnik do strony, na której użytkownik może potwierdzić zarejestrowanie swojego konta. Przy kolejnych logowaniach dokonywane jest tylko porównanie nazwy użytkownika i hasła z wartościami zapisanymi w bazie danych Moodle.';
 $string['auth_emailnoemail'] = 'Nie udało się wysłać maila do ciebie.';
 $string['auth_emailtitle'] = 'Uwierzytelnienie z wykorzystaniem poczty elektronicznej';
+$string['auth_emailupdatemessage'] = 'Witaj $a->fullname,
+
+Zażądano zmiany Twojego adresu e-mail w Twoim koncie na $a->site. Otwórz poniższy link aby potwierdzić tą zmianę.
+
+$a->url';
 $string['auth_fccreators'] = 'Lista grup, których członkowie są upoważnieni do tworzenia nowych kursów. Oddziel kolejne grupy za pomocą średnika \';\'. Nazwy muszą być identyczne jak na serwerze FirstClass. Wielkość liter ma znaczenie.';
 $string['auth_fcdescription'] = 'Ta metoda używa serwera FirstClass aby sprawdzić czy podana nazwa użytkownika i hasło są poprawne.';
 $string['auth_fcfppport'] = 'Port serwera (zwykle jest to 3333)';
