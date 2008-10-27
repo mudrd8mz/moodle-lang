@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // role.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['addrole'] = 'Rola gehitu';
@@ -94,11 +94,11 @@ $string['listallroles'] = 'Rol guztiak zerrendatu';
 $string['localroles'] = 'Jarduera honi esleitutako rolak';
 $string['manageroles'] = 'Rolak kudeatu';
 $string['metaassignerror'] = 'Ezin zaio \"$a\" erabiltzaileari rol hau ezarri horretarako metaikastaroak kudeatzeko baimena izan behar baitu.';
-$string['metaunassignerror'] = '\"$a\" erabiltzailearen rola automatikoki berrezarri da; mesedez, kendu bere ordez rola ikastaro-';
+$string['metaunassignerror'] = '\"$a\" erabiltzailearen rola automatikoki berrezarri da; mesedez, kendu rola azpiko ikastaroetan.';
 $string['morethan'] = '$a baino gehiago';
 $string['multipleroles'] = 'Esleipen anitza';
 $string['my:manageblocks'] = 'Nire Moodle orriaren blokeak kudeatu';
-$string['nocapabilitiesincontext'] = 'Ez duzu horretarako gaitasunik kontestu honetan';
+$string['nocapabilitiesincontext'] = 'Ez duzu horretarako baimenik testuinguru honetan';
 $string['notes:manage'] = 'Oharrak kudeatu';
 $string['notes:view'] = 'Oharrak ikusi';
 $string['notset'] = 'Ezarri gabea';
@@ -114,7 +114,7 @@ $string['prohibit'] = 'Ukatu';
 $string['question:add'] = 'Beste galdera bat gehitu';
 $string['question:config'] = 'Galdera-motak konfiguratu';
 $string['question:editall'] = 'Galdera guztiak editatu';
-$string['question:editmine'] = 'Norberaren falderak editatu';
+$string['question:editmine'] = 'Norberaren galderak editatu';
 $string['question:managecategory'] = 'Galdera-kategoriak kudeatu';
 $string['question:moveall'] = 'Galderak guztiak mugitu';
 $string['question:movemine'] = 'Zure galderak mugitu';
@@ -130,6 +130,7 @@ $string['risks'] = 'Arriskuak';
 $string['role:assign'] = 'Erabiltzaileei rolak ezarri';
 $string['role:manage'] = 'Rolak sortu eta kudeatu';
 $string['role:override'] = 'Besteentzako baimenak kendu';
+$string['role:safeoverride'] = 'Besteentzako baimen seguruak kendu';
 $string['role:switchroles'] = 'Beste rol bat hartu';
 $string['role:unassignself'] = 'Berezko rolak kendu';
 $string['role:viewhiddenassigns'] = 'Ezkutuko rol-ezarpenak ikusi';
@@ -137,6 +138,7 @@ $string['roleassignments'] = 'Rol ezarpenak';
 $string['roles'] = 'Rolak';
 $string['roletoassign'] = 'Ezartzeko rola';
 $string['roletooverride'] = 'Kentzeko rola';
+$string['safeoverridenotice'] = 'Oharra: Arrisku gehien dituzten gaitasunak blokeatuta daude zeuk baino ezin baitituzu baimen seguruak kendu';
 $string['selectrole'] = 'Rola aukeratu';
 $string['showallroles'] = 'Rol guztiak erakutsi';
 $string['site:accessallgroups'] = 'Talde guztietarako sarbidea';
@@ -179,7 +181,7 @@ $string['user:viewusergrades'] = 'Erabiltzaileen kalifikazioak ikusi';
 $string['userhashiddenassignments'] = 'Erabiltzaile honek ikastaro honetan ezkutuko rol-esleipen bat baino gehiago du';
 $string['userswithrole'] = 'Rol hau duten erabiltzaile guztiak';
 $string['viewrole'] = 'Rolaren xehetasunak ikusi';
-$string['xuserswiththerole'] = '\"$a->role\"a duten ikasleak: $a->number';
+$string['xuserswiththerole'] = '\"$a->role\" rola duten erabiltzaileak: $a->number';
 $string['question:export'] = 'Galderak esportatu'; // ORPHANED
 $string['question:import'] = 'Galderak inportatu'; // ORPHANED
 $string['question:manage'] = 'Galderak kudeatu'; // ORPHANED
