@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // qtype_calculated.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['addmoreanswerblanks'] = 'Beste erantzun zuri bat gehitu';
@@ -23,6 +23,8 @@ $string['nodataset'] = 'Ezer ez - ez da wild card bat';
 $string['nosharedwildcard'] = 'Ez dago wild card-ik kategoria honetan';
 $string['possiblehdr'] = 'Galderaren testuan baino ez dauden  wild card posibleak';
 $string['tolerance'] = 'Tolerantzia &plusmn;';
+$string['trueanswerinsidelimits'] = 'Erantzun zuzena : $a->correct. Benetako balorearen mugen barruan: $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"errorea\">ERROREA Erantzun zuzena : $a->correct. Benetako balorearen mugetatik kanpo: $a->true</span>';
 $string['updatecategory'] = 'Kategoria eguneratu';
 $string['usedinquestion'] = 'Galderan erabilia';
 $string['youmustenteramultiplierhere'] = 'Biderkatzaile bat idatzi behar duzu';

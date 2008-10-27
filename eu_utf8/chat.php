@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // chat.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
+$string['autoscroll'] = 'Korritze automatikoa';
 $string['beep'] = 'Abisatu';
 $string['chat:chat'] = 'Hitz egin';
 $string['chat:deletelog'] = 'Txataren agerraldiak ezabatu';
@@ -15,7 +16,7 @@ $string['confignormalupdatemode'] = 'HTTP 1.1ren <em>Keep-Alive</em> ezaugarria 
 $string['configoldping'] = 'Jarduerarik gabe zenbat denbora (segundutan) igarota pentsatu behar da erabiltzaileak utzi egin duela?';
 $string['configrefreshroom'] = 'Zenbat segunduro eguneratu behar da txataren orria? Balore baxuak elkarrizketa arinagoa ahalbidetuko du baina zerbitzariarentzat karga handia izan daiteke gelan lagun asko dagoenean.';
 $string['configrefreshuserlist'] = 'Zenbat segunduro eguneratu behar da txatean dauden erabiltzaileen zerrenda?';
-$string['configserverhost'] = 'Zerbitzariaren \'daemnon\'a (egikaritza prozesu independientea) dagoen ordenagailuaren \'Hostame\'a (etxekoaren izena)';
+$string['configserverhost'] = 'Zerbitzariaren \'daemnon\'a (egikaritza prozesu independentea) dagoen ordenagailuaren \'Hostame\'a (etxekoaren izena)';
 $string['configserverip'] = '\'hostame\'aren (etxekoaren izena) baliokidea den IP zenbakizko helbidea';
 $string['configservermax'] = 'Gehinenezko erabiltzaile kopurua';
 $string['configserverport'] = 'Zerbitzariaren \'daemon\'ak erabiltzen duen portua';

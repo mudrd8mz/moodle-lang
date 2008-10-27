@@ -1,6 +1,10 @@
-Basque
+Basque - Euskara estandarra (eu_utf8)
 ======
 
-Santurtziko Udal Euskaltegiak koordinatutako itzulpena.
+Bertsioa:  1.9.2
 
-Translator: Santurtziko Udal Euskaltegia (moodle@santurtzieus.com)
+Translators:
+
+Abel Camacho (didaktika@santurtzieus.com)
+Pedro Lonbid (zuzen@santurtzieus.com)
+

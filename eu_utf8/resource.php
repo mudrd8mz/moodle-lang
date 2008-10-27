@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8.4+ (2007021541)
+      // resource.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['addresource'] = 'Baliabidea gehitu';
 $string['affectedresources'] = 'Eragindako baliabideak';
 $string['allowlocalfiles'] = 'Fitxategi lokalak baimendu';
+$string['autofilerename'] = 'Eguneratu esteka fitxategiari izena aldatu bazaio.';
 $string['back'] = 'Atzera';
+$string['blockdeletingfile'] = 'Blokea zehaztutako fitxategiak ezabatzen';
 $string['browserepository'] = 'Biltegia arakatu';
 $string['choose'] = 'Aukeratu';
 $string['chooseafile'] = 'Aukeratu edo igo fitxategi bat';
@@ -13,9 +15,9 @@ $string['chooseparameter'] = 'Aukeratu parametroa';
 $string['clicktoopen'] = 'Dokumentu hau zabaltzeko, sakatu estekari';
 $string['configallowlocalfiles'] = 'Fitxategi-baliabidea sortzean, baimendu estekak sistema lokaleko fitxategietara; adibidez, CD edo disko gogorra. Hau lagungarri gerta daiteke ikasle guztiek intranet edo sare lokala izanez gero. Kasu horretan, agian, erabiltzaileak arakatzailearen segurtasun-arauak aldatu beharko ditu.';
 $string['configautofilerenamesettings'] = 'Fitxategien antolatzailean fitxategi edo direktorio  baten izena aldatuz gero, automatikoki eguneratu berari dagozkion erreferentziak.';
-$string['configblockdeletingfilesettings'] = 'Baliabideek erreferentziatutako fitxategi eta direktorien blokeko ezabaketa. Ohar zaitez html bidez lotutako fitxategi eta irudiak ez daudela babestuta.';
+$string['configblockdeletingfilesettings'] = 'Baliabideek erreferentziatutako fitxategi eta direktorioen blokeko ezabaketa. Ohar zaitez html bidez lotutako fitxategi eta irudiak ez daudela babestuta.';
 $string['configdefaulturl'] = 'URLn oinarritutako baliabideak sortzean aurrez osatuko den balioa da hau.';
-$string['configfilterexternalpages'] = 'Ezarpen honen bidez kanpoko baliabideak (web orrialdeak, igotako fitxategiak)lekuko iragazkien bidez prozesatuak izango dira (adibidez, glosategiko autoestekak). Aukera hau indarrean jarriz gero, zure ikastaroko orrialdeak nabarmen mantsoago ibil daitezke, kontuz erabili eta soilik beharrezkoa bada.';
+$string['configfilterexternalpages'] = 'Ezarpen honen bidez kanpoko baliabideak (web orriak, igotako fitxategiak)lekuko iragazkien bidez prozesatuak izango dira (adibidez, glosategiko autoestekak). Aukera hau indarrean jarriz gero, zure ikastaroko orrialdeak nabarmen mantsoago ibil daitezke, kontuz erabili eta soilik beharrezkoa bada.';
 $string['configframesize'] = 'Web orrialde edo fitxategiren bat marko baten barruan azalduz gero, balio hau (pixeletan)  nabigazio-markoaren neurria da.';
 $string['configparametersettings'] = 'Honek baliabide berriak eransteko formularioko ezarpen panelaren lehenespenak ezartzen ditu. Behin egin ondoren, erabiltzailearen hobespen bihurtzen da.';
 $string['configpopup'] = 'Baliabide berria eranstean eta hau popup leiho baten ager baliteke, aukera hau lehenetsi behar da?';
@@ -26,11 +28,11 @@ $string['configpopupmenubar'] = 'Popup leihoek menu-barra erakustea lehenetsi be
 $string['configpopupresizable'] = 'Popup leihoek tamaina aldatzea baimendu behar al da?';
 $string['configpopupscrollbars'] = 'Popup leihoek korritze-barra erakustea lehenetsi behar al da?';
 $string['configpopupstatus'] = 'Popup leihoek egoera-barra erakustea lehenetsi behar al da?';
-$string['configpopuptoolbar'] = 'Lehenetsi behar al da Popup leihoek tresna-barra erakustea?';
+$string['configpopuptoolbar'] = 'Lehenetsi behar al da popup leihoek tresna-barra erakustea?';
 $string['configpopupwidth'] = 'Popup leihoei zein zabalera lehenetsi behar zaie?';
-$string['configsecretphrase'] = 'Esaldi ezkutu hau enkriptatutako kodea sortzeko erabiltzen da. Kode hau hainbat baliabideren parametroa izango da. Kode enkriptatua sortzeko erabiltzailearen IP helbidearen md5 balio bat zure esaldi ezkutuarekin lotzen da. Adib. kodea=md5(erabiltzaileIP.esaldi ezkutua). Honen bidez hartzaileak egiazta dezake konexioa segurtasun handiagoz.';
+$string['configsecretphrase'] = 'Esaldi ezkutu hau enkriptatutako kodea sortzeko erabiltzen da. Kode hau hainbat baliabideren parametroa izango da. Kode enkriptatua sortzeko erabiltzailearen IP helbidearen md5 balio bat zure esaldi ezkutuarekin lotzen da. Adib. kodea=md5(erabiltzaile IP.esaldi ezkutua). Honen bidez hartzaileak egiazta dezake konexioa segurtasun handiagoz.';
 $string['configwebsearch'] = 'URL bat web orri edo web esteka gisa jartzean, leku hau eskaintzen da erabiltzaileari bilatzen laguntzeko.';
-$string['configwindowsettings'] = 'Honek baliabide berriak eransteko formularioko leiho-ezarpenaren lehenespenak ezartzen ditu. Behin egin ondoren, erabiltzailearen hobespen bihurtzen da.';
+$string['configwindowsettings'] = 'Honek baliabide berriak eransteko formularioko leiho-ezarpenaren berezko baloreak ezartzen ditu. Behin egin ondoren, erabiltzailearen hobespen bihurtzen da.';
 $string['deploy'] = 'Zabaldu';
 $string['deployall'] = 'Zabaldu guztiak';
 $string['directlink'] = 'Esteka zuzena fitxategi honetara';
@@ -43,10 +45,12 @@ $string['example'] = 'Adibidea';
 $string['exampleurl'] = 'http://www.adibidea.com/direktorioa/fitxategia.html';
 $string['fetchclienterror'] = 'Web orria eskuratzerakoan, errore bat izan da zure web bezeroan (agian URL okerra).';
 $string['fetcherror'] = 'Errore bat izan da web orria eskuratzerakoan.';
-$string['fetchservererror'] = 'Web orria eskuatzerakoan, errore bat izan da zerbitzarian (programazio-akatsa agian)';
+$string['fetchservererror'] = 'Web orria ezkutatzean, errore bat izan da zerbitzarian (programazio-akatsa agian)';
 $string['filename'] = 'Fitxategiaren izena';
 $string['filtername'] = 'Automatikoki lotutako baliabideak';
+$string['forcedownload'] = 'Jaistera behartu';
 $string['frameifpossible'] = 'Jarri baliabidea marko batean, web gunean nabigatzeko aukera emateko';
+$string['framesize'] = 'Leihoaren tamaina';
 $string['fulltext'] = 'Testu osoa';
 $string['htmlfragment'] = 'HTML zatia';
 $string['imspackageloaded'] = 'Paketea kargatua';
@@ -97,6 +101,7 @@ $string['previous'] = 'Aurrekoa';
 $string['redeploy'] = 'Berriro zabaldu';
 $string['repository'] = 'IMS biltegia';
 $string['resource:view'] = 'Ikusi baliabidea';
+$string['resourcedefaulturl'] = 'Lehenetsitako URLa';
 $string['resourcetype'] = 'Baliabide-mota';
 $string['resourcetype1'] = 'Erreferentzia';
 $string['resourcetype2'] = 'Web-orria';
@@ -118,12 +123,14 @@ $string['searchweb'] = 'Web orri bat bilatu';
 $string['serverurl'] = 'Zerbitzariaren URLa ($a->wwwroot)';
 $string['showcourseblocks'] = 'ikastaro-blokeak erakutsi';
 $string['skipsubmenus'] = 'Jauzi egin azpimenu orriak';
-$string['tableofcontents'] = 'Eduki-taula';
+$string['tableofcontents'] = 'Aurkibidea';
+$string['tableofcontentsabbrev'] = 'Aurk';
 $string['upbutton'] = 'Gora';
 $string['variablename'] = 'Aldagaiaren izena';
 $string['viewims'] = 'IMS Eduki Paketea ikusi';
 $string['vol'] = 'Bolumena';
-$string['warningblockingdelete'] = 'Kontuz! Indarrean dagoen baliabide batek ezabatze ekintza galerazten du. Lehenik eguneratu baliabidea edo esan administrariari babes mekanismoa hau desgaitzeko Baliabideen konfigurazio orokorrean.';
+$string['warningblockingdelete'] = 'Kontuz! Indarrean dagoen baliabide batek ezabatze ekintza galarazten du. Lehenik eguneratu baliabidea edo esan administrariari babes mekanismoa hau desgaitzeko Baliabideen konfigurazio orokorrean.';
 $string['warningdisabledrename'] = 'Kontuz! Baliabideen berrizendatze automatikoa ez dago gaituta. Mesedez, eguneratu eskuz eragindako baliabidea, behar izanez gero. Administrariak Baliabideen konfigurazio orokorrean berrizendatze automatikoa gaitu dezake.';
+$string['websearchdefault'] = 'Lehenetsitako web bilaketa';
 
 ?>
