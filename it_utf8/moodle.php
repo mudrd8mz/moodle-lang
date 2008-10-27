@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // moodle.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -655,10 +655,10 @@ $string['frontpageformatloggedin'] = 'Formato pagina principale dopo il login';
 $string['frontpagenews'] = 'Mostra le news';
 $string['frontpagetopiconly'] = 'Mostra una sezione con contenuto HTML libero';
 $string['fulllistofcourses'] = 'Tutti i corsi';
-$string['fullname'] = 'Nome integrale';
+$string['fullname'] = 'Nome completo';
 $string['fullnamedisplay'] = '$a->firstname $a->lastname';
-$string['fullprofile'] = 'Descrizione integrale';
-$string['fullsitename'] = 'Nome integrale del sito';
+$string['fullprofile'] = 'Descrizione completa';
+$string['fullsitename'] = 'Nome completo del sito';
 $string['functiondisabled'] = 'Funzionalità al momento non abilitata';
 $string['gd1'] = 'GD 1.x è installato';
 $string['gd2'] = 'GD 2.x è installato';

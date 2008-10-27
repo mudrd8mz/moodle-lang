@@ -1,4 +1,4 @@
-<p align="center"><b>Autorizzazioni</b></p>
+<h1>Autorizzazioni</h1>
 
 <p>
 Le Autorizzazioni sono le impostazioni che vengono date per specifiche possibilità.
@@ -11,7 +11,7 @@ Per esempio, una possibilità è "Iniziare una nuova discussione" (nei forums).
 <p>
 In ogni ruolo, si può scegliere di impostare le autorizzazioni per tali possibilità a uno di quattro valori:
 <dl>
-<dt>EREDITA</dt>
+<dt>NON IMPOSTATO</dt>
 <dd>Questa, di solito, è l'impostazione di default. E' un'impostazione neutra che significa "usa qualunque impostazione che l'utente già ha". Se un ruolo viene assegnato a qualcuno (per es. in un corso) che già ha la stessa autorizzazione per una certa possibilità, allora la nuova autorizzazione sarà la stessa che già aveva a contesti di livello gerarchico più alto (per es. categorie o sito). 
 Se un'autorizzazione non è mai concessa ad alcun livello, per l'utente non sarà possibile avere quella possibilità. 
 </dd>
@@ -33,7 +33,7 @@ In questo caso si può creare un ruolo con quella possibilità impostata a "Proi
 </dl>
 </p>
 
-<p align="center"><b>Soluzione di conflitti di autorizzazioni</b></p>
+<h1>Soluzione di conflitti di autorizzazioni</h1>
 
 <p> Autorizzazioni in un contesto "inferiore" generalmente ignoreranno quanto definito in un contesto "superiore" (questo si applica a ruoli modificati e a ruoli assegnati). L'eccezione è il valore Proibisci che non può essere ignorato a un livello inferiore.
 </p>
@@ -43,7 +43,7 @@ In questo caso si può creare un ruolo con quella possibilità impostata a "Proi
 <p> Per esempio, uno studente ha due ruoli in un corso, uno che gli permette di iniziare nuove discussioni, uno che glielo impedisce. In questo caso controlliamo le categorie e i contesti del sito, cercando un'altra autorizzazione che ci aiuta a decidere. Se non ne troviamo, allora l'autorizzazione è per default Impedisci (perché le due impostazioni si sono annullate a vicenda, e quindi non ci sono autorizzazioni). 
 </p>
 
-<p align="center"><b>Eccezioni speciali</b></p>
+<h1>Eccezioni speciali</h1>
 
 <p>Da notare che all'utente ospite normalmente è impedito di inviare contenuti (per es. nei forum, nel calendario, nei blog) anche se gli è stata data esplicitamente tale possibilità.
 </p>

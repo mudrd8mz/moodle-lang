@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // grades.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['activities'] = 'Attività';
@@ -103,6 +103,7 @@ $string['configshowgroups'] = 'Mostra medie di gruppo e medie complessive nel ra
 $string['configshowhiddenitems'] = 'Mostra elementi nascosti nel rapporto anche quando l\'utente non ha la possibilità moodle/grade:viewhidden. La visibilità delle valutazioni nascoste non è affetta da questa impostazione.';
 $string['configshowlocks'] = 'Mostra l\'icona proteggi/sproteggi vicino ad ogni valutazione.';
 $string['configshownumberofgrades'] = 'Mostra il numero di valutazioni aggregate vicino ad ogni media, tra parentesi. Esempio: 45(34).';
+$string['configshowpercentage'] = 'Mostra il valore percentuale per ogni elemento di valutazione.';
 $string['configshowquickfeedback'] = 'L\'opzione feedback rapido aggiunge una casella di input di testo per ogni elemento di valutazione sul rapporto del valutatore, consentendo di modificare il feedback di molte valutazioni tutte insieme. Si può quindi cliccare sul pulsante Aggiorna per effettuare tute queste modifiche in una sola volta invece che una per volta.';
 $string['configshowranges'] = 'Mostra una riga con gli intervalli dei valori possibili per ogni elemento di valutazione nel rapporto del valutatore.';
 $string['configshowrank'] = 'Mostra graduatoria per ogni elemento di valutazione.';
@@ -289,6 +290,7 @@ $string['item'] = 'Elemento';
 $string['iteminfo'] = 'Info elemento';
 $string['iteminfohelp'] = 'Informazioni e note su questo elemento';
 $string['itemname'] = 'Nome elemento';
+$string['itemnamehelp'] = 'Il nome di questo elemento, preso dal modulo.';
 $string['items'] = 'Elementi';
 $string['itemsedit'] = 'Modifica elemento valutazione';
 $string['keephigh'] = 'Tieni le più alte';
@@ -447,6 +449,7 @@ $string['showlocks'] = 'Mostra protezioni';
 $string['shownohidden'] = 'Nessuna nascosta';
 $string['shownooutcomes'] = 'Nascondi obiettivi';
 $string['shownumberofgrades'] = 'Mostra numero valutazioni nelle medie';
+$string['showpercentage'] = 'Mostra percentuale';
 $string['showquickfeedback'] = 'Mostra feedback rapido';
 $string['showranges'] = 'Mostra intervalli';
 $string['showrank'] = 'Mostra graduatoria';

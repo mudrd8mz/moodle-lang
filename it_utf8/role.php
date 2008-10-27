@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // role.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['addrole'] = 'Aggiungi un nuovo ruolo';
@@ -19,14 +19,17 @@ $string['blog:view'] = 'Visualizzare interventi nei blog';
 $string['calendar:manageentries'] = 'Gestire qualsiasi elemento in calendario';
 $string['calendar:managegroupentries'] = 'Gestire elementi di gruppo in calendario';
 $string['calendar:manageownentries'] = 'Gestire elementi propri in calendario';
-$string['capabilities'] = 'Possibilità';
-$string['capability'] = 'Possibilità';
+$string['capabilities'] = 'Privilegi';
+$string['capability'] = 'Privilegio';
 $string['category:create'] = 'Creare categorie';
 $string['category:delete'] = 'Cancellare categorie';
 $string['category:update'] = 'Modificare categorie';
 $string['category:visibility'] = 'Visualizzare categorie nascoste';
 $string['course:activityvisibility'] = 'Nascondere/Mostrare attività';
 $string['course:bulkmessaging'] = 'Inviare un messaggio a più persone';
+$string['course:changefullname'] = 'Cambiare il nome completo del corso';
+$string['course:changeidnumber'] = 'Cambiare il codice del corso';
+$string['course:changeshortname'] = 'Cambiare il nome breve del corso';
 $string['course:create'] = 'Creare corsi';
 $string['course:delete'] = 'Cancellare corsi';
 $string['course:manageactivities'] = 'Gestisci attività';
@@ -93,12 +96,12 @@ $string['legacytype'] = 'Tipo di ruolo originario';
 $string['listallroles'] = 'Elenca tutti i ruoli';
 $string['localroles'] = 'Ruoli assegnati localmente';
 $string['manageroles'] = 'Gestione ruoli';
-$string['metaassignerror'] = 'Non puoi attribuire questo ruolo all\'utente \"$a\" perché è necessaria la possibilità di gestione dei metacorsi.';
+$string['metaassignerror'] = 'Non puoi attribuire questo ruolo all\'utente \"$a\" perché è necessario il privilegio di gestione dei metacorsi.';
 $string['metaunassignerror'] = 'Il ruolo dell\'utente \"$a\" è stato riassegnato automaticamente. Se necessario disassegnare questo ruolo dai corsi dipendenti.';
 $string['morethan'] = 'Più di $a';
 $string['multipleroles'] = 'Ruoli multipli';
 $string['my:manageblocks'] = 'Gestire blocchi della pagina \'Il mio Moodle\'';
-$string['nocapabilitiesincontext'] = 'Nessuna possibilità disponibile in questo contesto';
+$string['nocapabilitiesincontext'] = 'Nessun privilegio disponibile in questo contesto';
 $string['notes:manage'] = 'Gestire note';
 $string['notes:view'] = 'Visualizzare note';
 $string['notset'] = 'Non impostato';
@@ -124,19 +127,21 @@ $string['question:viewall'] = 'Visualizzare tutte le domande';
 $string['question:viewmine'] = 'Visualizzare solo le proprie domande';
 $string['resetrole'] = 'Ripristina il default';
 $string['resetrolenolegacy'] = 'Annulla le autorizzazioni';
-$string['resetrolesure'] = 'Sei sicuro di voler ripristinare i defaults del ruolo \"<b>$a->name ($a->shortname)</b>\"?<p></p>I defaults sono presi dalle possibilità del tipo di ruolo originario selezionato (<b>$a->legacytype</b>).';
+$string['resetrolesure'] = 'Sei sicuro di voler ripristinare i defaults del ruolo \"<b>$a->name ($a->shortname)</b>\"?<p></p>I defaults sono presi dai privilegi del tipo di ruolo originario selezionato (<b>$a->legacytype</b>).';
 $string['resetrolesurenolegacy'] = 'Sei sicuro di voler azzerare tutte le autorizzazioni definite in questo ruolo  \"<b>$a->name ($a->shortname)</b>\"?';
 $string['risks'] = 'Rischi';
 $string['role:assign'] = 'Attribuire ruoli agli utenti';
 $string['role:manage'] = 'Creare e gestire ruoli';
 $string['role:override'] = 'Modificare autorizzazioni altri utenti';
+$string['role:safeoverride'] = 'Modificare autorizzazioni sicure altri utenti';
 $string['role:switchroles'] = 'Utilizzare altri ruoli';
-$string['role:unassignself'] = 'Rimuovere attribuizione dei propri ruoli';
+$string['role:unassignself'] = 'Rimuovere attribuzione dei propri ruoli';
 $string['role:viewhiddenassigns'] = 'Visualizzare attribuzioni dei ruoli nascosti';
 $string['roleassignments'] = 'Attribuzioni di ruolo';
 $string['roles'] = 'Ruoli';
 $string['roletoassign'] = 'Ruolo da attribuire';
 $string['roletooverride'] = 'Ruolo da modificare';
+$string['safeoverridenotice'] = 'Nota: I privilegi con rischi più alti sono bloccati perché si ha solo il permesso di modificare i privilegi sicuri.';
 $string['selectrole'] = 'Scegliere un ruolo';
 $string['showallroles'] = 'Mostrare tutti i ruoli';
 $string['site:accessallgroups'] = 'Accedere a qualsiasi gruppo';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // group.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['addgroupstogrouping'] = 'Aggiungi gruppo a raggruppamento';
@@ -56,7 +56,7 @@ $string['groupingsonly'] = 'Solo raggruppamenti';
 $string['groupmember'] = 'Membro del gruppo';
 $string['groupmemberdesc'] = 'Ruolo standard per un membro di un gruppo';
 $string['groupmembers'] = 'Membri del gruppo';
-$string['groupmembersonly'] = 'Disponibile solo per i membri del gruppo';
+$string['groupmembersonly'] = 'Disponibile solo per membri di gruppo';
 $string['groupmembersonlyerror'] = 'Spiacente, devi essere membro di almeno un gruppo coinvolto in questa attività.';
 $string['groupmemberssee'] = 'Visualizza membri del gruppo';
 $string['groupmembersselected'] = 'Membri del gruppo selezionato';

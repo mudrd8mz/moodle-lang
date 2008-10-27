@@ -1,4 +1,4 @@
-<h1>Caricamento dei gruppi</h1>
+<h1>Caricamento di gruppi</h1>
 
 <p>Questa funzione permette il caricamento batch di gruppi di utenti in Moodle.</p>
 
@@ -9,12 +9,12 @@
     <blockquote>
       <p><strong>Nomi campi obbligatori:</strong> questi campi devono essere inclusi nel primo record, e definiti per ogni gruppo</p>
       <p></p>
-      <font color="#990000" face="Courier New, Courier, mono">groupname</font></p>
-</p>
+      <code class="example1">groupname</code>
       <p><strong>Nomi campi default:</strong> questi sono opzionali - se non sono inclusi, i valori corrispondenti sono presi dalla lingua e dal corso correnti</p>
-      <p><font color="#990000" face="Courier New, Courier, mono">idnumber, coursename, lang</font> </p>
+      <p><code class="example1">idnumber, coursename, lang</code> </p>
       <p><strong>Nomi campi opzionali: </strong>tutti i seguenti sono completamente opzionali. </p>
-      <p> <font color="#990000" face="Courier New, Courier, mono">description, picture, hidepicture</font></p>
+      <p> <code class="example1">description, enrolmentkey, picture, hidepicture</code></p>
+
     </blockquote>
     </li>
   <li>Le virgole tra i dati devono essere codificate come &amp;#44 - lo script automaticamente decodificherà questi come virgole. </li>
@@ -25,7 +25,7 @@
 </ul>
    
 <p>Esempio di un file corretto per il caricamento di gruppi:</p>
-<p><font size="-1" face="Courier New, Courier, mono"></font>groupname,idnumber,lang,description,picture <br />
+<p><code>groupname,idnumber,lang,description,picture <br />
 group1, Phil101, en, questo gruppo richiede particolare attenzione!, 0 <br />
 group2, Math243, , ,
-</font></p>
+</code></p>
