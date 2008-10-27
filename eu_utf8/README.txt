@@ -6,5 +6,5 @@ Bertsioa:  1.9.2
 Translators:
 
 Abel Camacho (didaktika@santurtzieus.com)
-Pedro Lonbid (zuzen@santurtzieus.com)
+Pedro Lonbide (zuzen@santurtzieus.com)
 
