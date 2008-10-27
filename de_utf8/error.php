@@ -11,7 +11,6 @@ $string['blockcannotinistantiate'] = 'Problem beim Anlegen des Blocks';
 $string['blockcannotread'] = 'Die Daten für die Block-ID $a konnten nicht gelesen werden';
 $string['blockdoesnotexist'] = 'Dieser Block existiert nicht';
 $string['blocknameconflict'] = 'Namenskonflikt: Block $a->name hat den gleichen Titel wie ein existierender Block $a->conflict!';
-$string['boundsyntaxnotsupport'] = 'Pg $1, $2 - die benutzte Syntax wird bisher nicht unterstützt :-(';
 $string['cannofindgradeitem'] = 'Der Bewertungsaspekt kann nicht gefunden werden';
 $string['cannotaddblock'] = 'Block $a konnte nicht zur Blockliste hinzugefügt werden!';
 $string['cannotaddcmtosection'] = 'Das neue Kursmodul konnte in diesem Bereich nicht hinzugefügt werden';

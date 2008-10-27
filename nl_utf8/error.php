@@ -11,7 +11,6 @@ $string['blockcannotinistantiate'] = 'Probleem met het inistialiseren van het bl
 $string['blockcannotread'] = 'Kon gegevens voor blokid=$a niet lezen';
 $string['blockdoesnotexist'] = 'Dit blok bestaat niet';
 $string['blocknameconflict'] = 'Naamconflikt: blok $a->name heeft dezelfde titel als een ander blok: $a->conflict!';
-$string['boundsyntaxnotsupport'] = 'Pg $1, $2 bound syntax nog niet ondersteund :-(';
 $string['cannofindgradeitem'] = 'Kan grade_item niet vinden';
 $string['cannotaddblock'] = 'Blok $a kon niet toegevoegd worden aan de blokkenlijst!';
 $string['cannotaddcmtosection'] = 'Kon geen nieuwe cursusmodule toevoegen in die sectie';

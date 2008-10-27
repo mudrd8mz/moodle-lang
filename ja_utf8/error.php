@@ -11,7 +11,6 @@ $string['blockcannotinistantiate'] = 'ブロックオブジェクトのインス
 $string['blockcannotread'] = 'ブロックID= $a のデータを読み込めませんでした。';
 $string['blockdoesnotexist'] = 'このブロックはありません。';
 $string['blocknameconflict'] = 'ネーミングコンフリクト: ブロック $a->name には、既存のブロック $a->conflict と同じタイトルが設定されています!';
-$string['boundsyntaxnotsupport'] = 'Pg \$1、\$2 バウンドシンタックスは、まだサポートされていません :-(';
 $string['cannofindgradeitem'] = '評定項目が見つかりません。';
 $string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!';
 $string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。';

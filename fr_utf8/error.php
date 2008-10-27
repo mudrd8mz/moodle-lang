@@ -9,7 +9,6 @@ $string['blockcannotinistantiate'] = 'Problème lors de l\'instantiation de l\'o
 $string['blockcannotread'] = 'Impossible de lire les données pour l\'identifiant de bloc $a';
 $string['blockdoesnotexist'] = 'Ce bloc n\'existe pas';
 $string['blocknameconflict'] = 'Conflit de nom&nbsp;: le bloc $a->name a le même titre qu\'un bloc existant&nbsp;: $a->conflict!';
-$string['boundsyntaxnotsupport'] = 'La syntaxe liée de Postgresql \$1, \$2 n\'est pas encore supportée :-(';
 $string['cannofindgradeitem'] = 'Élément d\'évaluation introuvable';
 $string['cannotaddblock'] = 'Le bloc $a  n\'a pas pu être ajouté à la liste des blocs&nbsp;!';
 $string['cannotaddcmtosection'] = 'Impossible d\'ajouter le module de cours à cette section';

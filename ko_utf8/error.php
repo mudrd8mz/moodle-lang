@@ -11,7 +11,6 @@ $string['blockcannotinistantiate'] = '블록 객체의 초기화 문제';
 $string['blockcannotread'] = '블록ID $a 에 대한 자료를 읽을 수 없음';
 $string['blockdoesnotexist'] = '블록이 존재하지 않음';
 $string['blocknameconflict'] = '명칭 중복: $a->name 블록은 기존의 $a->conflict 블록과 동일한 명칭을 지님!';
-$string['boundsyntaxnotsupport'] = '아직 Pg $1, $2 bound syntax 는 지원하지 않음 :-(';
 $string['cannofindgradeitem'] = '채점 항목이 없음';
 $string['cannotaddblock'] = '$a 블록은 블록 목록에 추가할 수 없음!';
 $string['cannotaddcmtosection'] = '영역에 새로운 강좌 모듈을 추가할 수 없음';

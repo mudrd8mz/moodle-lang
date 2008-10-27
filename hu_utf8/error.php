@@ -2,7 +2,6 @@
       // error.php - created with Moodle 1.7 beta + (2006101003)
 
 
-$string['boundsyntaxnotsupport'] = 'A $1, $2 szintaxist a rendszer még nem támogatja! :-(';
 $string['cannofindgradeitem'] = 'Nem található a grade_item';
 $string['cannotupdatepasswordonextauth'] = 'Nem sikerült frissíteni a jelszót a külső auth: $a esetén. További részleteket talál a szervernaplkókban.';
 $string['cannotupdateplugincap'] = 'A(z) $a képességek frissítése nem sikerült!';
