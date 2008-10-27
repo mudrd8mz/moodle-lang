@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081027) (2008101300)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1019,6 +1019,7 @@ $string['nofilesyet'] = '아직 업로드할 파일이 없습니다.';
 $string['nograde'] = '등급 없음';
 $string['noimagesyet'] = '등록된 이미지 없음';
 $string['nologsfound'] = '기록이 발견되지 않았습니다.';
+$string['nomatchingusers'] = '일치하는 사용자 없음';
 $string['nomorecourses'] = '검색된 결과가 없습니다.';
 $string['nomoreidnumber'] = '충돌을 피하기 위해 id 번호를 사용하지 마십시오.';
 $string['none'] = '없음';
@@ -1150,6 +1151,7 @@ $string['preview'] = '미리보기';
 $string['previewhtml'] = 'HTML 형식 미리보기';
 $string['previeworchoose'] = '테마 선택/미리보기';
 $string['previous'] = '이전으로';
+$string['previouslyselectedusers'] = '이미 선택된 사용자';
 $string['previoussection'] = '이전 섹션';
 $string['primaryadminsetup'] = '관리자 계정 설정';
 $string['profile'] = '개인정보';

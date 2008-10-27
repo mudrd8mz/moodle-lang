@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20081025) (2008101300)
+      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20081027) (2008101300)
 
 
 $string['configplugin'] = '원격 무들 파일 저장소 설정';
@@ -13,5 +13,6 @@ $string['remoterep_description'] = '서비스 개방 허용';
 $string['remoterep_name'] = '원격 무들 저장소';
 $string['repositorydesc'] = '원격 무들 서버에 있는 저장소';
 $string['repositoryname'] = '무들 외부저장소 파일';
+$string['usernotfound'] = '원격 무들에 사용자  $a 가 등록되어 있지 않음';
 
 ?>
