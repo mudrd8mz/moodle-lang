@@ -13,6 +13,7 @@ $string['remoterep_description'] = 'サービスを発見されるようにし�
 $string['remoterep_name'] = 'リモートMoodleリポジトリ';
 $string['repositorydesc'] = 'リモートMoodleサーバのリポジトリ';
 $string['repositoryname'] = 'リモートMoodleファイル';
+$string['usercannotaccess'] = 'あなたは、このファイル ($a) にアクセスできません。';
 $string['usernotfound'] = 'ユーザ $a は、リモートMoodleにユーザ登録されていません。';
 
 ?>

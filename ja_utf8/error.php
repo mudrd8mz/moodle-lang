@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
+      // error.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -311,6 +311,7 @@ $string['moduleinstancedoesnotexist'] = 'このモジュールのインスタン
 $string['modulemissingcode'] = 'この機能を実行するためのコードがモジュール $a にありません。';
 $string['modulerequirementsnotmet'] = 'モジュール「 $a->modulename 」 ($a->moduleversion) をインストールできませんでした。このモジュールをインストールするためには新しいバージョンのMoodleをインストールする必要があります。(現在、あなたは $a->currentmoodle を使用しています。 $a->requiremoodle が必要です。)';
 $string['multiplerestorenotallow'] = '複数のリストア実行は許可されていません!';
+$string['mustbeloggedin'] = 'この処理を実行するには、あなたはログインする必要があります。';
 $string['mustbeteacher'] = 'このページは、教師のみ閲覧可能です。';
 $string['needcopy'] = 'あなたは最初に何かコピーする必要があります!';
 $string['needcoursecategroyid'] = 'コースIDまたはカテゴリを入力してください。';
@@ -405,6 +406,7 @@ $string['unknownhelp'] = '不明なヘルプトピック「 $a 」です。';
 $string['unknownmodulename'] = 'フォームに対する不明なモジュール名です。';
 $string['unknownrole'] = '不明なロール「 $a 」です。';
 $string['unknownuseraction'] = '申し訳ございません、このユーザアクションが理解できません。';
+$string['unknownuserselector'] = '不明なユーザセレクタです。';
 $string['unknoworder'] = '不明な順序付けです。';
 $string['unknowparamtype'] = '不明なパラメータタイプ「 $a 」です。';
 $string['unknowquestiontype'] = 'サポートされていない問題タイプ「 $a 」です。';

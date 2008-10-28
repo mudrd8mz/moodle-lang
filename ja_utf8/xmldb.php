@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['actual'] = '実値';
@@ -12,14 +12,18 @@ $string['change'] = '変更';
 $string['charincorrectlength'] = 'charフィールドの長さが正しくありません。';
 $string['check_bigints'] = '不正なDBインテジャを調査中';
 $string['check_defaults'] = '矛盾したデフォルト値を調査中';
+$string['check_foreign_keys'] = '外部キー違反を調査中';
 $string['check_indexes'] = '不明なDBインデックスを調査中';
 $string['checkbigints'] = 'Bigintのチェック';
 $string['checkdefaults'] = 'デフォルトのチェック';
+$string['checkforeignkeys'] = '外部キーのチェック';
 $string['checkindexes'] = 'インデックスのチェック';
 $string['completelogbelow'] = '(検索結果に関する下記の完全なログをご覧ください。)';
 $string['confirmcheckbigints'] = 'この機能は、あなたのMoodleサーバで<a href=\"http://tracker.moodle.org/browse/MDL-11038\">潜在的に不正なインテジャフィールド</a>を調査し、DB内のインテジャを適切に定義するためのSQL文を自動的に生成します (実行ではありません!)。<br /><br />SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />不正なインテジャの調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
 この機能は、DBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
 $string['confirmcheckdefaults'] = 'この機能は、あなたのMoodleサーバで矛盾したデフォルト値を調査し、DB内のすべてのデフォルト値を適切に定義するためのSQL文を自動的に生成します (実行ではありません!)。<br /><br />SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />矛盾したデフォルト値の調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
+この機能は、DBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
+$string['confirmcheckforeignkeys'] = 'この機能は、install.xml定義で定義された外部キーに関して、潜在的な違反を調査します (現在、Moodleはデータベースに制約された外部キーを生成しないため、無効なデータが存在する可能性があります)。<br /><br />不明なインデックス調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
 この機能は、DBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
 $string['confirmcheckindexes'] = 'この機能は、あなたのMoodleサーバで潜在的に不明なインデックスを調査し、すべてを最新の状態にするためのSQL文を自動的に生成します (実行ではありません!)。SQL文の生成後、あなたはSQL文をコピーして、自分の好きなSQLインターフェースで安全に実行することができます (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />不明なインデックス調査を実行する前に、あなたのMoodleリリース (1.8, 1.9, 2.x ...) を最新のもの (+ バージョン)  にバージョンアップすることを強くお勧めします。<br /><br />
 この機能は、DBに対していかなる処理も実行しません (読むだけです)。ですから、いつでも安全に実行することが可能です。';
@@ -61,6 +65,7 @@ $string['fieldnameempty'] = 'フィールド名が空です。';
 $string['fields'] = 'フィールド';
 $string['fieldsusedinkey'] = 'このフィールドは、キーとして使用されています。';
 $string['filenotwriteable'] = 'ファイルに書き込み権がありません。';
+$string['fkviolationdetails'] = 'テーブル $a->tablename の外部キー $a->keyname に関して、$a->numrows 行中 $a->numviolations 行が違反しています。';
 $string['floatincorrectdecimals'] = 'floatフィールドの小数点以下桁数が正しくありません。';
 $string['floatincorrectlength'] = 'floatフィールドの長さが正しくありません。';
 $string['gotolastused'] = '最後に使用されたファイルへ移動する';
@@ -91,6 +96,7 @@ $string['newstatement'] = '新しいステートメント';
 $string['newtable'] = '新しいテーブル';
 $string['newtablefrommysql'] = 'MySQLから新しいテーブル';
 $string['nomissingindexesfound'] = '不明なインデックスは見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
+$string['noviolatedforeignkeysfound'] = '外部キー違反は見つかりませんでした。';
 $string['nowrongdefaultsfound'] = '矛盾したデフォルト値は見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
 $string['nowrongintsfound'] = '間違ったインテジャは見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
 $string['numberincorrectdecimals'] = 'numberフィールドの小数点以下桁数が正しくありません。';
@@ -127,6 +133,9 @@ $string['viewedited'] = '編集済みの表示';
 $string['vieworiginal'] = 'オリジナルの表示';
 $string['viewphpcode'] = 'PHPコードの表示';
 $string['viewsqlcode'] = 'SQLコードの表示';
+$string['violatedforeignkeys'] = '外部キー違反';
+$string['violatedforeignkeysfound'] = '外部キー違反が見つかりました。';
+$string['violations'] = '違反';
 $string['wrong'] = '不正';
 $string['wrongdefaults'] = '不正なデフォルトが見つかりました';
 $string['wrongints'] = '不正なインテジャが見つかりました';
@@ -136,7 +145,7 @@ $string['wrongreservedwords'] = '現在使用されている予約語<br />($CFG
 $string['yesmissingindexesfound'] = 'あなたのDBに不明なインデックスが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上不明なインデックスが見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
 $string['yeswrongdefaultsfound'] = 'あなたのDBに矛盾したデフォルト値が見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上矛盾したデフォルト値が見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
 $string['yeswrongintsfound'] = 'あなたのDBに不正なインテジャが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインテジャ作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上不正なインテジャが見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
-$string['butis'] = '現在の値:'; // TBD
-$string['shouldbe'] = '適切な値:'; // TBD
+$string['butis'] = '現在の値:'; //TBD
+$string['shouldbe'] = '適切な値:'; //TBD
 
 ?>
