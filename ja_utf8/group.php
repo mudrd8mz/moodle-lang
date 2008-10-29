@@ -99,6 +99,7 @@ $string['numgroups'] = 'グループ数';
 $string['nummembers'] = 'グループあたりのメンバー数';
 $string['overview'] = '概要';
 $string['potentialmembers'] = '潜在的メンバー: $a';
+$string['potentialmembs'] = '潜在的メンバー';
 $string['printerfriendly'] = 'グルーピングのプリンタフレンドリ表示';
 $string['random'] = 'ランダム';
 $string['removegroupfromselectedgrouping'] = '選択したグルーピングからグループを削除する';

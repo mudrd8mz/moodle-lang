@@ -267,6 +267,7 @@ $string['invalidnumkey'] = '\$conditions 配列には、数字キーを含むこ
 $string['invalidoutcome'] = '無効なアウトカムIDです。';
 $string['invalidpagesize'] = '無効なページサイズです。';
 $string['invalidpaymentmethod'] = '無効な支払方法: $a';
+$string['invalidqueryparam'] = 'エラー: クエリパラメータ数が正しくありません。期待されたパラメータ数 Expected $a->expected 件に対して、$a->actual 件が渡されています。';
 $string['invalidrequest'] = '無効なリクエストです。';
 $string['invalidrole'] = '無効なロールです。';
 $string['invalidroleid'] = '無効なロールIDです。';

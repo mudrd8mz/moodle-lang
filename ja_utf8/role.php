@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081009) (2008100801)
+      // role.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -8,6 +8,7 @@ $string['allowassign'] = 'ロールの割り当て許可';
 $string['allowoverride'] = 'ロールのオーバーライド許可';
 $string['allsiteusers'] = 'すべてのサイトユーザ';
 $string['assignglobalroles'] = 'システムロールの割り当て';
+$string['assignmentcontext'] = '割り当てコンテクスト';
 $string['assignroles'] = 'ロールの割り当て';
 $string['assignrolesin'] = '$a ロールの割り当て';
 $string['block:view'] = 'ブロックを表示する';
@@ -68,6 +69,10 @@ $string['errorbadroleshortname'] = 'ロール名が正しくありません。';
 $string['errorexistsrolename'] = 'ロール名がすでに登録されています。';
 $string['errorexistsroleshortname'] = 'ロール名がすでに登録されています。';
 $string['existingusers'] = '割り当て済みユーザ: $a';
+$string['explainpermissions'] = 'パーミッション説明';
+$string['explainpermissionsdetails'] = '$a->fullname としてログイン時、コンテクスト「 $a->context 」のケイパビリティ「 $a->capability 」です。';
+$string['explainpermissionsdoanything'] = 'このユーザは、ケイパビリティ「moodle/site:doanything」を持っているため、上記テーブルで「has_capability」に関して「false」が返されたとしても、実際には、ほとんどの環境でケイパビリティ「 $a 」を持っていると見なされます。';
+$string['explainpermissionsinfo'] = '<p>このテーブルを使用するには:</p><ol><li>まず、禁止になっている箇所があるかどうか確認します。禁止がある場合、「has_capability」は「false」を返します。</li><li>そして、行全体を左から右、上から下へと確認しながら、「抑制」および「許可」の数が異なる部分を探してください。セルの中で「抑制」より「許可」が多い場合、「then has_capability」は「true」を返します。そうでない場合、「false」を返します。</li><li>「抑制」および「許可」の数に関して、異なるセルがない場合、「has_capability」は「false」を返します。</li></ol>';
 $string['globalrole'] = 'グローバルロール';
 $string['globalroleswarning'] = '警告! あなたがこのページで割り当てたロールは、フロントページおよびすべてのコースを含む、システム全体の登録ユーザに適用されます。';
 $string['grade:edit'] = '評定を編集する';
@@ -106,6 +111,7 @@ $string['nocapabilitiesincontext'] = 'このコンテクストで利用できる
 $string['notes:manage'] = 'ノートを管理する';
 $string['notes:view'] = 'ノートを表示する';
 $string['notset'] = '設定なし';
+$string['overridecontext'] = 'コンテクストのオーバーライド';
 $string['overridepermissions'] = 'パーミッションのオーバーライド';
 $string['overridepermissionsin'] = '$a におけるパーミッションのオーバーライド';
 $string['overrideroles'] = 'ロールのオーバーライド';
