@@ -22,6 +22,7 @@ $string['cannotaddnewmodule'] = '$a の新しいモジュールを追加でき�
 $string['cannotaddrss'] = 'あなたには、RSSフィードを追加するパーミッションがありません。';
 $string['cannotassignanthing'] = 'moodle/site:doanythingを割り当てることができません。';
 $string['cannotassignrole'] = 'コース内でロールを割り当てることができません。';
+$string['cannotassignrolehere'] = 'あなたは、このコンテクスト ($a->context) において、このロール (id = $a->roleid) の割り当てを許可されていません。';
 $string['cannotassignselfasparent'] = '自分自身を親カテゴリに割り当てることはできません!';
 $string['cannotcallscript'] = 'このスクリプトを、そのように使うことはできません。';
 $string['cannotcreatebackupdir'] = 'バックアップデータフォルダを作成できませんでした。サイト管理者がファイルパーミッションを変更する必要があります。';

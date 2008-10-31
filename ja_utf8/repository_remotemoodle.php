@@ -6,6 +6,7 @@ $string['configplugin'] = 'リモートMoodleファイルリポジトリの設�
 $string['connectionfailure'] = 'ファイルリストの取得に失敗しました - Moodleのバージョンが2.0より古いか、Moodleリモートリポジトリサービスが有効にされていません。';
 $string['emptyfilelist'] = '表示するファイルはありません';
 $string['failtoretrievelist'] = 'リストを取得できなかったか、空です。';
+$string['hostnotfound'] = 'データベース内にリモートMoodleが見つかりませんでした - あなたのシステム管理者にご連絡ください。';
 $string['nopeer'] = 'あなたのMoodleサイトのために<div style=\"font-size:0.8em\">Please setup some <a href=\"http://docs.moodle.org/en/admin/mnet/peers#Peer_to_Peer_Network\">Moodleピア</a>を設定してください。</div>';
 $string['notitle'] = 'タイトルなし';
 $string['peer'] = 'ピア';
