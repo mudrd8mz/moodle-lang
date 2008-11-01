@@ -21,5 +21,6 @@ $string['screenshot'] = 'スクリーンショット';
 $string['set'] = 'セット';
 $string['sharedsecret'] = 'あなたの共有秘密文字列 (あなたの生成APIキーと共に提供されます)';
 $string['title'] = 'タイトル';
+$string['uploadfailed'] = 'flickr.comへのイメージのアップロードに失敗しました: $a';
 
 ?>
