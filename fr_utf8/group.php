@@ -97,6 +97,7 @@ $string['numgroups'] = 'Nombre de groupes';
 $string['nummembers'] = 'Membres par groupe';
 $string['overview'] = 'Vue d\'ensemble';
 $string['potentialmembers'] = 'Membres potentiels&nbsp;: $a';
+$string['potentialmembs'] = 'Membres potentiels';
 $string['printerfriendly'] = 'Affichage pour impression'; // du groupement
 $string['random'] = 'Aléatoirement';
 $string['removegroupfromselectedgrouping'] = 'Retirer le groupe du groupement'; // sélectionné
