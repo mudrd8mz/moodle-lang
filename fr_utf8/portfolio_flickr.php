@@ -19,5 +19,6 @@ $string['screenshot'] = 'Copies d\'écran';
 $string['set'] = 'Fixer';
 $string['sharedsecret'] = 'Votre chaîne partagée secrète (sera fournie avec la clef API)';
 $string['title'] = 'Titre';
+$string['uploadfailed'] = 'Échec du dépôt des images vers flickr.com&nbsp;: $a';
 
 ?>
