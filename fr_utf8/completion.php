@@ -44,6 +44,7 @@ $string['help_completionview'] = 'requiert la consultation pour être marquée c
 $string['progress'] = 'Progression';
 $string['progress-title'] = '$a->user, $a->activity&nbsp;: $a->state $a->date';
 $string['progresstrackedroles'] = 'Rôles avec suivi des progrès activé';
+$string['reportpage'] = 'Affichage des utilisateurs {$a->from} à {$a->to} sur {$a->total}.';
 $string['restoringcompletiondata'] = 'Écriture des données de progression';
 $string['saved'] = 'Enregistré';
 $string['unlockcompletion'] = 'Déverrouiller les options de suivi des progrès';
