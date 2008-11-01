@@ -459,6 +459,7 @@ $string['lang16notify'] = 'Les versions de Moodle 1.6 et suivantes vous permette
 $string['langcache'] = 'Cache du menu des langues';
 $string['langedit'] = 'Modification langue';
 $string['langimport'] = 'Utilitaire d\'importation de langues';
+$string['langimportdisabled'] = 'L\'utilitaire d\'importation de langues a été désactivé. Veuillez effectuer la mise à jour de vos paquetages de langue manuellement au niveau du système de fichiers de votre serveur.';
 $string['langimportsuccess'] = 'Le paquetage de langue a été correctement mis à jour';
 $string['langlist'] = 'Langues du menu des langues';
 $string['langmasterpackage'] = 'Paquetage de langue principal';
