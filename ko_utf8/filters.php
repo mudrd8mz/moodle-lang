@@ -1,26 +1,26 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
+      // filters.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
 
 
 $string['actfilterhdr'] = '활성화된 필터';
 $string['addfilter'] = '필터 추가';
 $string['anycategory'] = '모든 범주';
 $string['anycourse'] = '모든 강좌';
-$string['anyfield'] = '모든 항목';
+$string['anyfield'] = '모든 필드';
 $string['anyrole'] = '모든 역할';
 $string['anyvalue'] = '모든 값';
 $string['categoryrole'] = '범주관리 역활';
 $string['contains'] = '포함';
 $string['courserole'] = '강좌 역할';
-$string['courserolelabel'] = '$a->label 은 $a->categoryname 범주의 $a->coursename 강좌에서 $a->rolename 입니다.';
-$string['courserolelabelerror'] = '$a->label 오류: 강좌 $a->coursename 가 존재하지 않습니다';
-$string['datelabelisafter'] = '$a->label 은 $a->after 다음에 있습니다.';
-$string['datelabelisbefore'] = '$a->label 은 $a->before 이전에 있습니다.';
-$string['datelabelisbetween'] = '$a->label 은 $a->after 와 $a->before 사이에 있습니다.';
+$string['courserolelabel'] = '$a->label 은 $a->categoryname 범주의 $a->coursename 강좌에서 $a->rolename 임';
+$string['courserolelabelerror'] = '$a->label 오류: 강좌 $a->coursename 가 존재하지 않음';
+$string['datelabelisafter'] = '$a->label 은 $a->after 다음에 있음';
+$string['datelabelisbefore'] = '$a->label 은 $a->before 이전에 있음';
+$string['datelabelisbetween'] = '$a->label 은 $a->after 와 $a->before 사이에 있음';
 $string['doesnotcontain'] = '제외';
 $string['endswith'] = '끝말';
 $string['firstaccess'] = '첫번째 접속';
-$string['globalrolelabel'] = '$a->label 은 $a->value 입니다.';
+$string['globalrolelabel'] = '$a->label 은 $a->value 임';
 $string['isafter'] = '$a 이후';
 $string['isanyvalue'] = '모두';
 $string['isbefore'] = '$a 이전';
@@ -36,7 +36,7 @@ $string['removeall'] = '모두 제거';
 $string['removeselected'] = '선택사항 제거';
 $string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = '시작';
-$string['tablenosave'] = '위 테이블에 대한 변경사항은 자동으로 저장되었습니다.';
+$string['tablenosave'] = '위 테이블에 대한 변경사항은 자동으로 저장됩니다.';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
 $string['isbetween'] = '$a[0] 와 $a[1] 사이'; // ORPHANED

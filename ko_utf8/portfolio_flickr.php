@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio_flickr.php - created with Moodle 2.0 dev (Build: 20081025) (2008101300)
+      // portfolio_flickr.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
 
 
 $string['apikey'] = 'API 키(http://flickr.com/services/api/keys/apply 에서 얻어야 함)';
@@ -21,5 +21,6 @@ $string['screenshot'] = '스크린샷';
 $string['set'] = '세트';
 $string['sharedsecret'] = '공유 암호(생성된 API 키에 제공됨)';
 $string['title'] = '제목';
+$string['uploadfailed'] = 'flickr.com으로 $a 올리기 실패';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081027) (2008101300)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -136,6 +136,7 @@ $string['autosubscribeyes'] = '예: 내가 글을 올린 포럼은 구독하겠�
 $string['availability'] = '이용가능 상태';
 $string['availablecourses'] = '이용할 수 있는 강좌';
 $string['back'] = '뒤로';
+$string['backto'] = '$a 로 돌아가기';
 $string['backtoparticipants'] = '참여자 목록으로 돌아가기';
 $string['backup'] = '백업';
 $string['backupactivehelp'] = '자동 백업을 할 것인지의 여부를 선택합니다.';
@@ -867,6 +868,7 @@ $string['managemodules'] = '모듈';
 $string['manageroles'] = '역할과 권한';
 $string['markedthistopic'] = '이 주제는 현재의 주제로서 강조됩니다.';
 $string['markthistopic'] = '이 주제를 현재의 주제로 강조하기';
+$string['matchingsearchandrole'] = '\'$a->search\' $a->role 찾은 내용';
 $string['maximumchars'] = '$a 문자의 최대치';
 $string['maximumgrade'] = '최대 등급';
 $string['maximumshort'] = '최대';

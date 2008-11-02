@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // debug.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
 
 
 $string['authpluginnotfound'] = '인증 플러그인 $a 없음';
@@ -15,6 +15,7 @@ $string['cannotupdaterelease'] = '오류: 새 판의 데이터베이스 갱신�
 $string['cannotupdateversion'] = '업그레이드 실패! (새 판의 설정 테이블을 갱신할 수 없음)';
 $string['cannotupgradecapabilities'] = '역할 시스템에 대한 핵심 권한 갱신을 할 수 없음';
 $string['cannotupgradedbcustom'] = '데이터베이스 최적화 실패! (config 테이블의 판 갱신을 할 수 없음)';
+$string['codingerror'] = '프로그램 오류 발견. 프로그램 제작자 $a 에 의해 수정되야 합니다.';
 $string['configmoodle'] = '아직 무들이 설정되지 않았음. 우선 config.php를 수정할 필요가 있음';
 $string['dbnotinsert'] = '데이터베이스 오류 - ($a)를 삽입할 수 없음';
 $string['dbnotsetup'] = '오류: 주 데이터베이스가 바르게 설정되지 않음';

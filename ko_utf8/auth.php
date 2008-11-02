@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080706) (2008070500)
+      // auth.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
 
 
 $string['CASform'] = '인증 선택';
 $string['accesCAS'] = 'CAS 사용자';
 $string['accesNOCAS'] = '기타 사용자';
 $string['actauthhdr'] = '활성화된 인증 플러그인';
-$string['alternatelogin'] = '이 사이트를 위한 로그인 페이지로 사용할 URL을 입력. <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>와  <strong>비밀번호</strong>를 리턴할 수 있는 필드를 포함하여야 한다. 
+$string['alternatelogin'] = '로그인 페이지로 사용할 URL을 입력. <strong>\'$a\'</strong> 처럼 실행문을 가진 형태여야 하고 <strong>사용자ID</strong>와  <strong>비밀번호</strong>를 리턴할 수 있는 필드를 포함하여야 한다. 
 <br />정확한 URL을 입력하도록 주의하지 않으면 이 사이트에 갇혀 버릴 수도 있다.<br />
 기본 로그인 페이지를 사용하려면 이 칸을 빈칸으로 남겨두어라.';
 $string['alternateloginurl'] = '대체 로그인 URL';
