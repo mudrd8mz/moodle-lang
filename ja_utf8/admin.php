@@ -459,6 +459,7 @@ $string['lang16notify'] = 'Moodle1.6以上のバージョンでは、下記の�
 $string['langcache'] = '言語メニューをキャッシュする';
 $string['langedit'] = '言語の編集';
 $string['langimport'] = '言語インポートユーティリティ';
+$string['langimportdisabled'] = '言語インポート機能は、無効にされています。あなたは、ファイルシステムレベルで、言語パックを手動更新する必要があります。';
 $string['langimportsuccess'] = '言語パックが正常に更新されました。';
 $string['langlist'] = '言語メニューの言語';
 $string['langlocalpackage'] = 'ローカル修正';
