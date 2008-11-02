@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20080602) (2008051202)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
 
 
 $string['actual'] = '실제';
@@ -12,13 +12,16 @@ $string['change'] = '변경';
 $string['charincorrectlength'] = '문자 필드의 길이가 바르지 않음';
 $string['check_bigints'] = '잘못된 DB 정수 찾기';
 $string['check_defaults'] = '일관성이 결여된 기본값 찾기';
+$string['check_foreign_keys'] = '외래키 위반 조사';
 $string['check_indexes'] = '누락된 DB 인덱스 찾기';
 $string['checkbigints'] = 'Bigints 체크';
 $string['checkdefaults'] = '기본사항 점검';
+$string['checkforeignkeys'] = '외래키 점검';
 $string['checkindexes'] = '인덱스 확인';
 $string['completelogbelow'] = '(검색에 대한 전체 로그는 하단 참조)';
 $string['confirmcheckbigints'] = '이 기능은 무들 서버에서 <a href=\"http://tracker.moodle.org/browse/MDL-11038\">가망성있는 잘못된 정수</a>를 검색해서 DB에서 모든 정수들이 적절히 정의되도록 필요한 SQL 문장을 자동적으로 만들어 줍니다. 일단 만들어진 문장을 복사해서 사용자의 SQL 인터페이스를 사용하여 실행합니다(데이터백업권장). 잘못된 정수를 검색하기 전에 가능한 최신 무들판을 사용하기를 권장합니다.<br /><br /> 이 기능은 DB에 어떤 조치도 취하지 않으므로 아무때나 안전하게 실행할 수 있습니다';
 $string['confirmcheckdefaults'] = '이 기능은 서버의 일관성 없는 초기값을 검색하여, 이들이 제대로 정의될 수 있게끔 필요한 SQL질의를 자동적으로 생성(실행은 하지 않음!)해 낼 것입니다.<br /><br />일단 만들어진 문장을 복사해서 사용자의 SQL 인터페이스를 사용하여 실행할 수 있습니다(데이터 백업권장).<br /><br />잘못된 초기값을 검색하기 전에 되도록 무들의 최신판(+판)을 사용하기 바랍니다.<br /><br /> 이 기능은 DB에 어떤 조치도 취하지 않으므로 아무때나 안전하게 실행할 수 있습니다.';
+$string['confirmcheckforeignkeys'] = '이 기능은 install.xml에 정의되어 있는 외래키의 잠재적인 규정위반을 찾아낼 것입니다. (무들은 아직 데이터베이스에 혹시 있을지도 모르는 잘못된 자료 때문에 외래키 규약을 생성하지 않았습니다.)<br /><br />누락된 인덱스를 검색하기 전에 되도록 무들의 최신판(+판)을 사용하기 바랍니다.<br /><br />이 기능은 DB에 어떤 조치도 취하지 않으므로 아무때나 안전하게 실행할 수 있습니다.';
 $string['confirmcheckindexes'] = '이 기능은 서버에 있을지도 모르는 누락된 인덱스를 검색해서, 빠짐없이 갱신되는데 필요한 SQL질의를 자동적으로 생성(실행은 하지 않음!)해 낼 것입니다..<br /><br />일단 만들어진 문장을 복사해서 사용자의 SQL 인터페이스를 사용하여 실행할 수 있습니다(데이터 백업권장). 누락된 인덱스를 검색하기 전에 되도록 무들의 최신판(+판)을 사용하기 바랍니다.<br /><br />이 기능은 DB에 어떤 조치도 취하지 않으므로 아무때나 안전하게 실행할 수 있습니다.';
 $string['confirmdeletefield'] = '필드 삭제 확인 :';
 $string['confirmdeleteindex'] = '인덱스 삭제 확인 :';
@@ -58,6 +61,7 @@ $string['fieldnameempty'] = '필드명 없음';
 $string['fields'] = '필드들';
 $string['fieldsusedinkey'] = '[[/var/www/moodle/lang/en_utf8/xmldb.php의 67번째 줄에 불완전한 문자열]]';
 $string['filenotwriteable'] = '기록할 수 없는 파일';
+$string['fkviolationdetails'] = '$a->tablename 테이블에 있는 외래키 $a->keyname 는 $a->numrows 열에서 $a->numviolations 위반입니다.';
 $string['floatincorrectdecimals'] = '부동소숫점 필드에 적합하지 않는 십진수';
 $string['floatincorrectlength'] = '부동소숫점 필드에 적합하지 않은 길이';
 $string['gotolastused'] = '마지막 사용했던 파일로 되돌아 감';
@@ -88,6 +92,7 @@ $string['newstatement'] = '새 선언문';
 $string['newtable'] = '새 테이블';
 $string['newtablefrommysql'] = 'MySQL의 새 테이블';
 $string['nomissingindexesfound'] = '누락된 인덱스가 발견되지 않았으므로, DB는 추가 조치가 필요하지 않습니다.';
+$string['noviolatedforeignkeysfound'] = '외래키 위반사항 없음';
 $string['nowrongdefaultsfound'] = '잘못된 초기값이 발견되지 않았으므로, DB는 추가 조치가 필요하지 않습니다.';
 $string['nowrongintsfound'] = '잘못된 정수가 발견되지 않았으므로, DB는 추가 조치가 필요하지 않습니다.';
 $string['numberincorrectdecimals'] = '숫자 필드에 적합하지 않은 십진수';
@@ -124,6 +129,9 @@ $string['viewedited'] = '고친 내용 보기';
 $string['vieworiginal'] = '원본 보기';
 $string['viewphpcode'] = 'PHP 코드 보기';
 $string['viewsqlcode'] = 'SQL 코드 보기';
+$string['violatedforeignkeys'] = '위반한 외래키';
+$string['violatedforeignkeysfound'] = '외래키 위반 사항 발견';
+$string['violations'] = '위반사항';
 $string['wrong'] = '틀림';
 $string['wrongdefaults'] = '잘못된 기본값 발견';
 $string['wrongints'] = '잘못된 인수 발견';
