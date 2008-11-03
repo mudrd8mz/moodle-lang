@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
+      // error.php - created with Moodle 2.0 dev (Build: 20081103) (2008101300)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -22,6 +22,7 @@ $string['cannotaddnewmodule'] = '$a 의 새 모듈을 추가할 수 없음';
 $string['cannotaddrss'] = 'rss 송출을 추가할 수 있는 권한이 없음';
 $string['cannotassignanthing'] = 'site:doanything 권한을 부여할 수 없음';
 $string['cannotassignrole'] = '강좌의 역할을 지명할 수 없음';
+$string['cannotassignrolehere'] = '이 영역 ($a->context) 에서 본 역할 (id = $a->roleid) 을 부여받을 수 없음';
 $string['cannotassignselfasparent'] = '자신을 더 상위로 지명할 수 없음!';
 $string['cannotcallscript'] = '그런 방법으로는 이 스크립트를 호출할 수 없음';
 $string['cannotcreatebackupdir'] = '백업 경로를 생성할 수 없음. 사이트 관리자가 파일 권한을 조정할 필요가 있음';
@@ -201,6 +202,7 @@ $string['errorcreatingdirectory'] = '\"$a\" 디렉토리 생성 오류';
 $string['errorcreatingfile'] = '\"$a\" 파일 생성 오류';
 $string['erroronline'] = '\"$a\" 번째 줄 오류';
 $string['errorreadingfile'] = '\"$a\" 파일 읽기 오류';
+$string['errorsettinguserpref'] = '개인 설정 오류';
 $string['errorunzippingfiles'] = '파일 압축풀기 오류';
 $string['expiredkey'] = '폐기된 키';
 $string['failtoloadblocks'] = '데이터베이스에 하나 이상의 블록이 등록되어 있지만 모두 탑재에 실패함!';
@@ -267,6 +269,7 @@ $string['invalidnumkey'] = '$conditions 행열에는 숫자키를 포함할 수 
 $string['invalidoutcome'] = '잘못된 학습성과 id';
 $string['invalidpagesize'] = '잘못된 화면 크기';
 $string['invalidpaymentmethod'] = '잘못된 지불 방법: $a';
+$string['invalidqueryparam'] = '오류: 쿼리 파라메터 갯수. $a->expected 필요, 입력된 수 $a->actual';
 $string['invalidrequest'] = '잘못된 요청';
 $string['invalidrole'] = '잘못된 역할';
 $string['invalidroleid'] = '잘못된 역할 ID';
@@ -311,6 +314,7 @@ $string['moduleinstancedoesnotexist'] = '본 모듈의 인스턴스가 존재하
 $string['modulemissingcode'] = '모듈 $a가 이 기능을 수행하는데 필요한 코드를 가지고 있지 않음';
 $string['modulerequirementsnotmet'] = '모듈 \"$a->modulename\" ($a->moduleversion) 이 설치될수 없습니다. (현재 쓰고 있는 것은 $a->currentmoodle 입니다만 필요한 것은 $a->requiremoodle 입니다)';
 $string['multiplerestorenotallow'] = '재차 복구하는 것은 허용되지 않음!';
+$string['mustbeloggedin'] = '이를 통해 로그인 해야만 함';
 $string['mustbeteacher'] = '교수자만 이 페이지를 볼 수 있음';
 $string['needcopy'] = '먼저 복사를 해야 합니다!';
 $string['needcoursecategroyid'] = '강좌 id나 범주가 반드시 지정되어야 함';
@@ -346,6 +350,7 @@ $string['nopermissiontoviewpage'] = '이 화면을 보도록 허용되지 않음
 $string['nosite'] = '사이트 없음';
 $string['nositeid'] = '사이트 ID 누락';
 $string['nostatstodisplay'] = '표시할 데이터가 없음';
+$string['notallowedtoupdateprefremotely'] = '원격으로는 개인설정을 갱신할 수 없음';
 $string['notavailable'] = '현재는 사용할 수 없음';
 $string['notlocalisederrormessage'] = '$a';
 $string['notmemberofgroup'] = '이 강좌의 모둠 구성원이 아님';
@@ -405,6 +410,7 @@ $string['unknownhelp'] = '알 수 없는 도움말 $a';
 $string['unknownmodulename'] = '양식의 모듈명을 알 수 없음';
 $string['unknownrole'] = '알 수 없는 역할 \"$a\"';
 $string['unknownuseraction'] = '죄송합니다만, 이 사용자 활동을 이해할 수 없음';
+$string['unknownuserselector'] = '알수없는 사용자 선택 프로그램';
 $string['unknoworder'] = '미확인 주문';
 $string['unknowparamtype'] = '알 수 없는 변수 유형 : $a';
 $string['unknowquestiontype'] = '지원되지 않는 문제 유형 $a';

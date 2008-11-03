@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081025) (2008101300)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081103) (2008101300)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -465,6 +465,7 @@ $string['lang16notify'] = '무들 1.6과 그 이후의 판은 아래에 연결�
 $string['langcache'] = '언어팩의 캐쉬';
 $string['langedit'] = '언어팩 편집';
 $string['langimport'] = '언어팩 가져오기';
+$string['langimportdisabled'] = '언어팩 가져오기 기능이 비활성화 되었음. 수동으로 언어팩을 갱신해야만 함.';
 $string['langimportsuccess'] = '언어팩 갱신 성공';
 $string['langlist'] = '선택목록의 언어';
 $string['langlocalpackage'] = '맞춤 설정';
