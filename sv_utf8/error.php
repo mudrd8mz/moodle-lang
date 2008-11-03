@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta + (2007090600)
+      // error.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['adminprimarynoedit'] = 'Ingen kan redigera huvudadministratören';
@@ -8,6 +8,7 @@ $string['cannotcreatelangdir'] = 'Det går inte att skapa en lang-katalog';
 $string['cannotcreatetempdir'] = 'Det går inte att skapa en temp-katalog';
 $string['cannotcustomizelocallang'] = 'Du har inte tillstånd att modifiera översättningen av textsträngarna. Tillståndet kontrolleras av kapaciteten  \"moodle/site:langeditlocal\". Ställ in den  här kapaciteten så att den tillåter Dig att redigera lokala språkpaket om Du vill kunna modifiera översättningar för Din webbplats.';
 $string['cannotdownloadcomponents'] = 'Det går inte att ladda ner komponenter';
+$string['cannotdownloadlanguageupdatelist'] = 'Det går inte att ladda ner en lista över uppdateringar av språk från moodle.org';
 $string['cannotdownloadzipfile'] = 'Det går inte att ladda ner ZIP-fil.';
 $string['cannoteditmasterlang'] = 'Du har inte tillstånd att redigera standardpaketet för språk. Detta tillstånd kontrolleras av kapaciteten \"moodle/site:langeditmaster\".  Ställ in den här kapaciteten för att få detta tillstånd om det är Du som underhåller översättningen.';
 $string['cannotfindcomponent'] = 'Det går inte att hitta komponent';
@@ -22,6 +23,11 @@ $string['componentisuptodate'] = 'Komponenten är av en aktuell version';
 $string['confirmsesskeybad'] = 'Beklagar, men det gick inte att bekräfta Din nyckel för sessionen vilket är nödvändigt för att fullfölja den här handlingen. Det här är en säkerhetsåtgärd för att förebygga att viktiga funktioner utförs på felaktiga eller illasinnade sätt i Ditt namn. Var snäll och kontrollera noga att Du verkligen vill fullfölja detta.';
 $string['couldnotassignrole'] = 'Ett allvarligt men odefinierat fel inträffade när en roll skulle tilldelas till Dig.';
 $string['coursegroupunknown'] = 'Den kurs som hör till grupp $a har inte angivits';
+$string['csvcolumnduplicates'] = 'Vi har upptäckt dubbletter av kolumner';
+$string['csvemptyfile'] = 'CSV-filen är tom';
+$string['csvfewcolumns'] = 'Det finns inte tillräckligt med kolumner, var snäll och verifiera inställningen för begränsningar.';
+$string['csvweirdcolumns'] = 'Ogiltigt format för CSV-fil - antalet kolumner är inte konstant.';
+$string['dbupdatefailed'] = 'Uppdatering av databasen misslyckades';
 $string['downloadedfilecheckfailed'] = 'Det gick inte att kontrollera den nedladdade filen';
 $string['duplicateusername'] = 'Dubblerat användarnamn - hoppar över posten';
 $string['errorcleaningdirectory'] = 'Fel i samband med rensning av katalogen \"$a\"';
@@ -43,11 +49,14 @@ $string['guestnoeditprofileother'] = 'Gästanvändarens profil går inte att red
 $string['invalidcourse'] = 'Ogiltig kurs';
 $string['invalidfieldname'] = '\'$a\' är inte ett giltigt fältnamn';
 $string['invalidfiletype'] = '\'$a\' är inte en giltig filtyp';
+$string['invalidipformat'] = 'Ogiltigt format för IP-adress';
 $string['invalidmd5'] = 'Ogiltig md5';
 $string['invalidrequest'] = 'Ogiltig förfågan';
 $string['invalidrole'] = 'Ogiltig roll';
 $string['invalidurl'] = 'Ogiltig url';
 $string['invalidxmlfile'] = '\'$a\' är inte en giltig XML-fil';
+$string['iplookupfailed'] = 'Det går inte att hitta någon information om den här IP-adressen $a.';
+$string['iplookupprivate'] = 'Det går inte att visa sökning av privat IP-adress.';
 $string['listcantmovedown'] = 'Det gick inte att flytta ner komponenten, den är den sista av sina jämlikar på samma nivå.';
 $string['listcantmoveleft'] = 'Det gick inte att flytta komponenten åt vänster, den har ingen förälder.';
 $string['listcantmoveright'] = 'Det gick inte att flytta ner komponenten åt höger, det finns ingen jämlike på samma nivå att göra om till ett barn. Flytta det nedanför en annan jämlik på samma nivå - sedan kan du flytta den åt höger.';
@@ -77,6 +86,7 @@ $string['pagenotexist'] = 'Ett ovanligt fel inträffade (försök att nå en sid
 $string['pleasereport'] = 'Om Du har tid, var då snäll och låt oss få veta när felet uppträdde.';
 $string['pluginrequirementsnotmet'] = 'Det gick inte att installera \"$a->pluginname\" ($a->pluginversion). Den kräver en nyare version av Moodle. Du använder f.n. $a->currentmoodle och Du behöver $a->requiremoodle .';
 $string['processingstops'] = 'Processandet upphör här.  De återstående posterna har inte ändrats.';
+$string['remotedownloaderror'] = 'Nedladdningen av en komponent till din server misslyckades, var snäll och verifiera inställningar för proxy. <br /><br />Du måste ladda ner <a href=\"$a->url\">$a->url</a> filen manuellt, kopiera den till \"$a->dest\" på din server och packa upp den där.';
 $string['remotedownloadnotallowed'] = 'De är inte tillåtet att ladda upp komponenter till Din server (allow_url_fopen är avaktiverad). Du måste ladda ner filen <a href=\"$a->url\">$a->url</a> manuellt, kopiera den till \"$a->dest\" på Din server och packa upp den där.';
 $string['restricteduser'] = 'Ditt nuvarande konto \"$a\" tillåter tyvärr inte detta.';
 $string['scheduledbackupsdisabled'] = 'Schemalagda säkerhetskopieringar har avaktiverats av den administrerar servern,';
@@ -85,18 +95,30 @@ $string['sessionerroruser'] = 'Tiden för Din session har tagit slut eller stöt
 $string['sessionerroruser2'] = 'Ett fel på servernivå som påverkar Din session för inloggning har upptäckts. Var snäll och logga in igen och starta om Din webbläsare.';
 $string['sessionipnomatch'] = 'Beklagar, men Ditt IP-nummer tycks ha ändrats sedan Du först loggade in. Det här är en säkerhetsåtgärd för att förebygga att \'crackers\' stjäl Din identitet medan Du är inloggad på den här webbplatsen. Vanliga användare bör inte få se detta meddelande - var snäll och be administratören för Din webbplats om hjälp.';
 $string['statscatchupmode'] = 'Statistiken håller f.n på att uppdateras. Hittills har $a->daysdone dagar behandlats och  $a->dayspending återstår att behandla. Du kan snart komma tillbaka och kontrollera detta igen!';
+$string['tagnotfound'] = 'Den specificerade etiketten gick inte att hitta i databasen.';
 $string['unicodeupgradeerror'] = 'Din databas är tyvärr ännu inte i Unicode och den här versionen av Moodle kan inte överföra Din databas till Unicode. Var snäll och uppgradera till Moodle 1.7.x först och genomför övergången till Unicode  via sidan för administration. Därefter bör Du kunna överföra databasen till Moodle $a.';
 $string['unknowncourse'] = 'Okänd kurs som kallas \"$a\"';
 $string['unknowncourseidnumber'] = 'Okänt kurs-id \"$a\"';
+$string['unknowngroup'] = 'Okänd grupp \"$a\"';
+$string['unknownrole'] = 'Okänd roll \"$a\"';
 $string['unknownuseraction'] = 'Jag förstår tyvärr inte denna handling från användarens sida.';
+$string['userautherror'] = 'Okänd plugin för autenticering';
+$string['userauthunsupported'] = 'Denna plugin för autenticering stödjs inte här.';
+$string['useremailduplicate'] = 'Dublett av adress';
+$string['usernotaddedadmin'] = 'Det går inte att ta bort konton för administratörer';
 $string['usernotaddederror'] = 'Användaren \"$a\" har inte lagts till, detta p.g. a. ett okänt fel.';
 $string['usernotaddedregistered'] = 'Användaren \"$a\" har inte lagts till eftersom denne/a redan är registrerad';
 $string['usernotavailable'] = 'Detaljerna kring denne användare är inte tillgängliga för Dig.';
 $string['usernotdeletederror'] = 'Användaren togs inte bort - okänt fel';
 $string['usernotdeletedmissing'] = 'Användaren togs inte bort - det gick inte att hitta användarnamnet.';
+$string['usernotdeletedoff'] = 'Användaren har inte tagits bort - det är inte tillåtet att ta bort';
+$string['usernotrenamedadmin'] = 'Det går inte att byta namn på ett konto för administratörer';
 $string['usernotrenamedexists'] = 'Användarnamnet har inte ändrats eftersom det angivna namnet redan används.';
 $string['usernotrenamedmissing'] = 'Användarnamnet har inte ändrats eftersom det inte gick att hitta det gamla namnet.';
+$string['usernotrenamedoff'] = 'Användarens namn har inte bytts ut - det är inte tillåtet att ta byta namn.';
+$string['usernotupdatedadmin'] = 'Det går inte att uppdatera ett konto för administratörer';
 $string['usernotupdatederror'] = 'Användaren har inte uppdaterats - okänt fel';
+$string['usernotupdatednotexists'] = 'Användare har inte uppdaterats - den finns inte';
 $string['wrongdestpath'] = 'Fel sökväg';
 $string['wrongsourcebase'] = 'Fel bas-URL till källan';
 $string['wrongzipfilename'] = 'Fel namn på ZIP-filen';

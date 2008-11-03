@@ -1,45 +1,33 @@
 <h1>Roller</h1>
 
 <p> 
-En roll är en samling tillstånd (rättigheter)  som 
-är definierad för hela webbplatsen och som Du kan 
-tilldela specifika användare i specifika sammanhang. 
+En roll är en samling tillstånd som har definierats för hela systemet.
+Du kan tilldela en viss roll till specifika användare i specifika sammanhang.  
+
 </p>
 
 <p>
-Du kan t.ex. ha en roll som kallas för 'Lärare'
-som är inställd så att lärare ska kunna göra vissa 
-saker, men inte andra. När denna roll väl finns så 
-kan Du tilldela  den till någon i en kurs och göra
-honom/henne till 'Lärare' i den kursen. Du skulle också
-kunna tilldela den rollen till en användare i en kurskategori
-och göra honom/henne till 'Lärare' i alla kurser som finns
-i den kategorin. Du kan också tilldela en roll till en användare
-som är giltig i ett enstaka forum med tillstånd (rättigheter) 
-som bara går att tillämpa i just det forumet. 
+Du kan t.ex. ha en roll som kallas för "(Distans)lärare" som är inställd så att den ger (distans)lärare tillstånd att göra vissa saker och andra inte. När en sådan roll väl finns
+så kan du tilldela den till någon i en kurs för att göra dem till "(distans)lärare.  Du skulle även kunna tilldela rollen till användare som kan utöva den i en kurskategori så att de kan undervisa på alla kurser i den kategorin. Du kan också tilldela någon rollen i ett mycket avgränsat och specifikt sammanhang som t.ex. bara i ett visst forum. 
 </p>
   
 <p>
-En roll måste ha ett <strong>namn</strong>.  Om du behöver ange denna rolls
-namn på flera olika språk då kan Du använda multilang syntaxen för det om 
-Du vill som t.ex.: <pre>
-  &lt;span lang="en">Teacher&lt;/span> 
-  &lt;span lang="sv">Lärare/span> 
-  </pre>Om Du gör detta så bör Du aktivera inställningen 'Filtrera strängar' i Din Moodle-installation.
+En roll måste ha ett <strong>namn</strong>.  Om du behöver ett namn för rollen på ett flertal språk så kan du använda multilang syntax som t.ex. <pre>
+  &lt;span lang="en"&gt;Teacher&lt;/span&gt; 
+  &lt;span lang="es_es"&gt;Profesor&lt;/span&gt; 
+  </pre>Om du gör detta så måste du se till att inställningen "filtrera strängar" är aktiverad i din  installation.
+</p>
+
+<p><strong>Kortnamnet</strong> är nödvändigt för andra plugin-program i Moodle som kan behöva referera till dina roller (t.ex. när du laddar upp användare från en fil eller när du gör inställningar för registrering via ett plugin-program för det).
 </p>
 
 <p>
-<strong>Kortnamnet</strong> är nödvändigt för andra plugin-program i Moodle som kan tänkas behöva
-referera till Dina roller (t.ex. i samband med uppladdning av användare från en fil eller när Du vill ställa in registreringar via en sådan plugin).
+<strong>Beskrivningen</strong> är helt enkelt till för att du ska kunna beskriva din roll med
+egna ord så att var och en kan förstå syftet med den rollen.
 </p>
 
 <p>
-<strong>Beskrivningen </strong> är helt enkelt till för att Du ska kunna beskriva rollen med Dina egna ord så att alla kan uppfatta rollen på samma sätt. 
-
-</p>
-
-<p>
-Se även
+Se även  
 <a href="help.php?file=contexts.html">Sammanhang</a>,
 <a href="help.php?file=permissions.html">Tillstånd</a>,
 <a href="help.php?file=assignroles.html">Tilldela roller</a> and

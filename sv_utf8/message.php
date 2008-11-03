@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 Beta + (2007090600)
+      // message.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['addcontact'] = 'Lägg till kontakt';
@@ -33,6 +33,7 @@ $string['message'] = 'Meddelande';
 $string['messagehistory'] = 'Historik för meddelanden';
 $string['messages'] = 'Meddelanden';
 $string['messaging'] = 'Skickar meddelanden';
+$string['messagingdisabled'] = 'Funktionen för meddelanden är avaktiverad på den här webbplatsen, det kommer att skickas ut e-post istället.';
 $string['mycontacts'] = 'Mina kontakter';
 $string['newonlymsg'] = 'Visa bara nya';
 $string['newsearch'] = 'Ny sökning';

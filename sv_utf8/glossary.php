@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta + (2007090600)
+      // glossary.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['addcomment'] = 'Lägg till kommentarer';
@@ -29,6 +29,7 @@ $string['categories'] = 'Kategorier';
 $string['category'] = 'Kategori';
 $string['categorydeleted'] = 'Borttagen kategori';
 $string['categoryview'] = 'Efter kategori';
+$string['changeto'] = 'ändra till $a';
 $string['cnfallowcomments'] = 'Ange huruvida en ord- och begreppslista som standardval ska acceptera kommentarer på bidrag';
 $string['cnfallowdupentries'] = 'Ange huruvida en ord- och begreppslista som standardval ska tillåta att man bidrar med dubbletter';
 $string['cnfapprovalstatus'] = 'Ange huruvida ett bidrag av studenter/elever/deltagare/lärande som standardval ska accepteras eller ej.';
@@ -51,12 +52,14 @@ $string['commentupdated'] = 'Kommentaren har uppdaterats';
 $string['concept'] = 'Begrepp';
 $string['concepts'] = 'Begrepp';
 $string['configenablerssfeeds'] = 'Den här omkopplaren kommer att aktivera RSS-inmatning för alla ord- och begreppslistor. Du  måste fortfarande aktivera inmatningarna manuellt i inställningarna för varje enskild ord- och begreppslista.';
+$string['current'] = 'För närvarande sorterad $a';
 $string['currentglossary'] = 'Aktuell ord- och begreppslista';
 $string['dateview'] = 'Bläddra enligt datum';
 $string['defaultapproval'] = 'Standardval för godkännande';
 $string['definition'] = 'Definition';
 $string['definitions'] = 'Definitioner';
 $string['deleteentry'] = 'Ta bort bidrag';
+$string['deletenotenrolled'] = 'Ta bort bidrag gjorda av användare som inte är registrerade';
 $string['deletingcomment'] = 'Tar bort kommentar';
 $string['deletingnoneemptycategory'] = 'Om Du tar bort den här kaegorin så bidragen i den inte att tas bort - istället kommer de att markeras som inte-kategoriserade.';
 $string['descending'] = '(fallande)';
@@ -160,6 +163,8 @@ $string['ratingsuse'] = 'Använd bedömningar/värderingar';
 $string['ratingtime'] = 'Begränsa bedömningar/värderingar till bidrag inom följande tidsperiod:';
 $string['rejectedentries'] = 'Bidrag som inte antagits';
 $string['rejectionrpt'] = 'Rapport över icke antagna bidrag';
+$string['resetglossaries'] = 'Ta bort bidrag från';
+$string['resetglossariesall'] = 'Ta bort bidrag från alla ord- och begreppslistor';
 $string['rsssubscriberss'] = 'Visa RSS-inmatningen för  \'$a\' koncept';
 $string['searchindefinition'] = 'Sök i begrepp OCH definitioner?';
 $string['secondaryglossary'] = 'sekundär ord- och begreppslista';

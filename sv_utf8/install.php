@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9 Beta + (2007090600)
+      // install.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['admindirerror'] = 'Den katalog för administration som är angiven är felaktig';
@@ -92,6 +92,7 @@ $string['databasesettingssub_postgres7'] = '<b>Type (typ):</b>PostgreSQL<br />
 <b>User (användare):</b> Ditt användarnamn för tillgång till databasen<br />
 <b>Password (lösenord):</b> Ditt lösenord för tillgång till databasen<br />
 <b>Tables Prefix (prefix för tabeller):</b> ett obligatoriskt prefix som kopplas till alla namn på tabeller';
+$string['databasesettingswillbecreated'] = '<b>OBS!</b> Installeraren kommer att försöka att skapa databasen automatiskt om den inte existerar.';
 $string['dataroot'] = 'katalog för data';
 $string['datarooterror'] = 'Den \"katalog för data\" som Du har angivit gick inte att hitta eller skapa. Du får antingen korrigera sökvägen eller skapa katalogen manuellt.';
 $string['dbconnectionerror'] = 'Det gick inte att ansluta till den databas som Du har angivit. Var snäll och kontrollera inställningarna till Din databas.';

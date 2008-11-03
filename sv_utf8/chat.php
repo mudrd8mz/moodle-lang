@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 Beta + (2007090600)
+      // chat.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['beep'] = 'pipsignal';
@@ -37,6 +37,7 @@ $string['messagebeepsyou'] = '$a har just skickat en pipsignal till Dig';
 $string['messageenter'] = '$a har precis kommit in i detta direktsamtal';
 $string['messageexit'] = '$a har lämnat det här direktsamtalet';
 $string['messages'] = 'Meddelanden';
+$string['method'] = 'Metod för direktsamtal';
 $string['methoddaemon'] = 'Serverdemon för  direktsamtal';
 $string['methodnormal'] = 'Normal metod';
 $string['modulename'] = 'Direktsamtal';
@@ -48,15 +49,25 @@ $string['nomessages'] = 'Inga meddelanden än';
 $string['normalkeepalive'] = 'Håll_Liv_I';
 $string['normalstream'] = 'Strömma';
 $string['noscheduledsession'] = 'Ingen schemalagd session';
+$string['oldping'] = 'Koppla bort timeout';
+$string['pastchats'] = 'Tidigare sessioner för direktsamtal';
+$string['refreshroom'] = 'Utrymme för uppdatering';
+$string['refreshuserlist'] = 'Uppdatera listan över användare';
+$string['removemessages'] = 'Ta bort alla meddelanden';
 $string['repeatdaily'] = 'Vid samma tid varje dag';
 $string['repeatnone'] = 'Inga upprepade visningar - visa bara den specificerade tiden';
 $string['repeattimes'] = 'Upprepade sessioner';
 $string['repeatweekly'] = 'Vid samma tid varje vecka';
 $string['savemessages'] = 'Spara de sessioner som varit';
 $string['seesession'] = 'Se den här sessionen';
+$string['serverhost'] = 'Namn på servern';
+$string['serverip'] = 'IP för server';
+$string['servermax'] = 'Max antal användare';
+$string['serverport'] = 'Serverport';
 $string['sessions'] = 'sessioner för direktsamtal';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Alla kan se de sessioner som har varit';
+$string['updatemethod'] = 'Metod för uppdatering';
 $string['viewreport'] = 'Visa  de senaste sessionerna för direktsamtal';
 
 ?>

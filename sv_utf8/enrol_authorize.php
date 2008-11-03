@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 (2007021501)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['adminacceptccs'] = 'Vilka typer av kredit/betalkort kommer att accepteras?';
@@ -239,7 +239,9 @@ $string['usingccmethod'] = 'Registrera med hjälp av <a href=\"$a->url\"><strong
 $string['usingecheckmethod'] = 'Registrera med hjälp av <a href=\"$a->url\"><strong>e-check</strong></a>';
 $string['void'] = 'Void';
 $string['voidyes'] = 'Transaktionen kommer att avbrytas. Är Du säker?';
-$string['welcometocoursesemail'] = 'Tack för Din betalning. Du har registrerat Dig på den här kurserna:
+$string['welcometocoursesemail'] = '$a->name,
+
+Tack för Din betalning. Du har registrerat Dig på den här kurserna:
 
 $a->courses
 
@@ -248,7 +250,7 @@ $a->profileurl
 
 Du kan se information om ditt konto här:
 $a->paymenturl
-Du kan inte göra detta: $a->name';
+$a->profileurl';
 $string['youcantdo'] = 'Du kan inte genomföra det här: $a->action';
 $string['zipcode'] = 'Postkod, t.ex . postnummer';
 

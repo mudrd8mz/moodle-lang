@@ -5,8 +5,8 @@ det i regel inte &auml;r n&ouml;dv&auml;ndigt att importera anv&auml;ndare i klu
 f&ouml;rst unders&ouml;ka olika former av autenticering som inte kr&auml;ver manuellt 
 underh&aring;ll, s&aring;som att koppla upp sig till befintliga externa databaser
 eller att l&aring;ta anv&auml;ndarna skapa sina egna konton. Se sektionen f&ouml;r Autenticering
-p&aring; administrationsmenyn.</p>
-<p>Om Du &auml;r s&auml;ker p&aring; att Du vill importera anv&auml;ndarkonton i m&auml;ngd fr&aring;n en textfil s&aring; beh&ouml;ver Du formattera Dintextfil enligt f&ouml;ljande:</p>
+p&aring; menyn för administration.</p>
+<p>Om Du &auml;r s&auml;ker p&aring; att Du vill importera anv&auml;ndarkonton i m&auml;ngd fr&aring;n en textfil s&aring; beh&ouml;ver Du formatera Din textfil enligt f&ouml;ljande:</p>
 <ul>
   <li>Varje rad i filen inneh&aring;ller en post</li>
   <li>Varje post &auml;r en serie data som &auml;r separerade med komman</li>
@@ -36,3 +36,15 @@ p&aring; vilken som helst av de angivna kurserna UTAN att uppdatera de &ouml;vri
 jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1<br />
 reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3</font></p>
 reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3</font></p>
+
+<h2>Att uppdatera befintliga konton</h2>
+
+<p>Som förvald standardinställning kommer Moodle att anta att du kommer att 
+skapa nya användarkonton och hoppar över poster där användarnamnet matchar ett 
+befintligt konto. Trots detta så kan du ställa in "Uppdatera befintliga konton" till <b>Ja</b>
+och det befintliga användarkontot kommer att uppdateras. </p>
+
+<p>När du uppdaterar befintliga konton kan du även ändra användarnamnen. Markera "Tillåt byten av namn" till <b>Ja</b> och ta med ett fält i din fil som kallas <code class="example1">oldusername</code>.</p>
+
+<p><b>OBS!</b> Alla fel som uppstår i samband med att du uppdaterar befintliga konton kan vara menligt för  användarna. Var därför försiktig när du använder alternativen för 
+updatering. </p>

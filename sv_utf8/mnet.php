@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 Beta + (2007090600)
+      // mnet.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (själv-signerad)';
@@ -42,6 +42,12 @@ $string['enrolcourses_desc'] = 'Kurser som denna värd erbjuder fjärr-registeri
 $string['enrollingincourse'] = 'Registrerar på kurs $a[0] hos värd $a[1]<br />';
 $string['enrolments'] = 'Registreringar';
 $string['enterausername'] = 'Var snäll och mata in ett användarnamn, eller en lista över användarnamn separerade med komman.';
+$string['error7020'] = 'Det felet inträffar normalt sett fjärrwebbplatsen har skapat en registrering för dig med felaktig wwwroot, t.ex. http://dinwebbplats.com istället för http://www.dinwebbplats.com. Du bör då kontakta administratören av fjärrwebbplatsen med din wwwroot (så som den har angivits i config.php) och be henne/honom uppdatera registreringen hos din värd.';
+$string['error7022'] = 'Det meddelande som du skickade till fjärrwebbplatsen krypterades korrekt med signerades inte. Detta var mycket oväntat; du bör förmodligen rapportera en bug om detta uppträder (glöm inte att lämna så mycket information som möjligt om den aktuella versionen av Moodle osv).';
+$string['error7023'] = 'Fjärrwebbplatsen har försökt att avläsa ditt krypterade meddelande med alla de nycklar som den har registrerat angående din webbplats. Ingen av nycklarna har fungerat. Du kanske kan ordna till detta genom att manuellt redigera nycklarna hos fjärrwebbplatsen. Det är osannolikt att detta ska hända om det inte är så att du inte har kommunicerat med webbplatsen på några månader.';
+$string['error7024'] = 'Du kan skicka ett okrypterat meddelande till fjärrwebbplatsen med den accepterar inte okrypterad kommunikation från din webbplats. Detta är mycket oväntat; du borde antagligen rapportera en bug om detta inträffar. (glöm inte att lämna så mycket information som möjligt om den aktuella versionen av Moodle osv).';
+$string['error7026'] = 'Den nyckel som du har signerat ditt meddelande med skiljer sig ifrån den nyckel som fjärrvärden har registrerat på en fil för din server. Dessutom så har fjärvärden försökt att hämta din aktuella nyckel men misslyckats med detta. Var snäll och skriv in nyckeln manuellt hos fjärrvärden och försök igen.';
+$string['error709'] = 'Fjärrwebbplatsen har misslyckats med att få en SSL-nyckel från dig.';
 $string['expired'] = 'Giltighetstiden för den här nyckeln gick ut';
 $string['expires'] = 'Giltig t.o.m.';
 $string['expireyourkey'] = 'Ta bort den här nyckeln';
@@ -94,6 +100,7 @@ $string['mnetlog'] = 'Loggar';
 $string['mnetpeers'] = '\'Peers\' jämbördiga partners';
 $string['mnetservices'] = 'Tjänster';
 $string['mnetsettings'] = 'Inställningar för nätverkande instanser av Moodle';
+$string['mnetthemes'] = 'Teman';
 $string['moodle_home_help'] = 'Sökvägen till ingångssidan (hem/första) för Moodle hos fjärrvärden, t.ex. /moodle/.';
 $string['moodleloc'] = 'Placering av Moodle';
 $string['net'] = 'Nätverkande';
@@ -161,6 +168,7 @@ $string['subscribe'] = 'Prenumerera';
 $string['system'] = 'System';
 $string['testtrustedhosts'] = 'Testa en adress';
 $string['testtrustedhostsexplain'] = 'Mata in en IP-adress för att kontrollera om det är en tillförlitlig värd.';
+$string['themesavederror'] = 'Et fel inträffade: Temat sparades inte';
 $string['transport_help'] = 'De här alternativen är reciproka (ömsesidiga) så Du kan bara tvinga en fjärrvärd att använda ett signerat SSL-certifikat om Din egen server också har ett signerat SSL-certifikat';
 $string['trustedhosts'] = 'XML-RPC värdar';
 $string['trustedhostsexplain'] = '<p>Mekanismen för tillförlitliga värdar tillåter specifika maskiner att genomföra anrop via XML-RPC till valfri del av API för Moodle. Detta är tillgängligt för skript som kan kontrollera Moodles beteende och det kan vara mycket risktfyllt att aktivera detta alternativ. Om Du är tveksam, använd inte alternativet</p><p>Det är <strong>inte</strong> nödvändigt för användning av nätverk för Moodle.</p><p>För att aktivera alternativet så ska Du mata in en lista över IP-adresser, en på varje rad. Några exempel: </p> Din \'localhost\': <br />127.0.0.1<br /> Din \'localhost\'(med ett block för nätverk):<br />127.0.0.1/32<br />Endast värden med IP-adressen 192.168.0.7:<br />192.168.0.7/32<br />Vilken värd som helst med en IP-adress mellan 192.168.0.1 och 192.168.0.255:<br />192.168.0.0/24<br />Vilken värd som helst:<br />192.168.0.0/0<br />Det senaste exemplet rekommenderas givetvis <strong>inte</strong> som konfiguration.';

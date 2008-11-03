@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 Beta + (2007090600)
+      // hotpot.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['abandoned'] = 'Avbruten';
@@ -37,6 +37,7 @@ $string['error_nofeedbackurlwebpage'] = 'Var snäll och skriv in en URL för web
 $string['error_nofilename'] = 'Var snäll och skriv in ett namn på filen';
 $string['error_noquizzesfound'] = 'Det gick inte att hitta några Hot Potatoes test';
 $string['error_notfileorfolder'] = '\"$a\" är varken en fil eller en mapp';
+$string['excelencodings'] = 'Inkodningar för Excel';
 $string['feedbackformmail'] = 'Formulär för återkoppling';
 $string['feedbackmoodleforum'] = 'Forum i Moodle';
 $string['feedbackmoodlemessaging'] = 'Meddelande i Moodle';
@@ -138,6 +139,7 @@ $string['resultssaved'] = 'Testresultaten har sparats';
 $string['score'] = 'Resultat';
 $string['showhtmlsource'] = 'Visa HTML-källan';
 $string['shownextquiz'] = 'Visa nästa test?';
+$string['showtimes'] = 'Visa processtiderna';
 $string['showxmlsource'] = 'Visa XML-källa';
 $string['showxmltree'] = 'Visa XML-träd';
 $string['specifictime'] = 'Specifik tid';

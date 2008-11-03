@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 Beta + (2007090600)
+      // notes.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['addnewnote'] = 'Lägg till en ny anteckning';
@@ -10,6 +10,7 @@ $string['course'] = 'kurs';
 $string['coursenotes'] = 'Anteckningar för kurs';
 $string['created'] = 'skapad';
 $string['deleteconfirm'] = 'Vill Du ta bort den här anteckningen?';
+$string['deletenotes'] = 'Ta bort alla anteckningar';
 $string['editnote'] = 'Redigera anteckning';
 $string['groupaddnewnote'] = 'Lägg till en ny anteckning för alla';
 $string['nocontent'] = 'Innehållet i en anteckning kan inte vara tomt';

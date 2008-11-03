@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 Beta + (2007090600)
+      // form.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['addfields'] = 'Lägg till $a fält till formuläret';
@@ -30,6 +30,7 @@ $string['othersettings'] = 'Andra inställningar';
 $string['requiredelement'] = 'Obligatoriskt fält';
 $string['revealpassword'] = 'Avslöja';
 $string['security'] = 'Säkerhet';
+$string['selectallornone'] = 'Välj alla/ingen';
 $string['showadvanced'] = 'Visa avancerad';
 $string['somefieldsrequired'] = 'Det finns obligatoriska fält i det här formuläret marked$a.';
 $string['timing'] = 'Tidsanpassning';

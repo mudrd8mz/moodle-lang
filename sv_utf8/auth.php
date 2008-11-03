@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 Beta + (2007090600)
+      // auth.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['CASform'] = 'Val angående autenticering';
 $string['accesCAS'] = 'CAS-användare';
 $string['accesNOCAS'] = 'andra användare';
+$string['actauthhdr'] = 'Aktiva plugins för autenticering';
 $string['alternatelogin'] = 'Om Du skriver in en URL här så kommer den att användas som sida för inloggning på den här webbplatsen. Sidan bör innehålla ett formulär som har egenskapen för händelse inställd till <strong>\'$a\'</strong><br />Var försiktig så att Du inte skriver in en felaktig URL eftersom Du då kan stänga Dig själv ute från webbplatsen. <br />Låt den här inställningen vara tom om Du vill använda standardsidan för inloggning.';
 $string['alternateloginurl'] = 'Alternativ URL för inloggning';
 $string['auth_cas_auth_user_create'] = 'Skapa användare med externa metoder';
@@ -91,6 +92,9 @@ $string['auth_dbuserstoremove'] = 'Inmatningar från användare som ska tas bort
 $string['auth_emaildescription'] = 'E-postbekräftelse är standardvalet som autenticeringsmetod.  När användaren registrerar sig, väljer eget nytt användarnamn och lösenord, kommer en bekräftelse via e-post sändas till användarens e-postadress.  Detta e-postbrev innehåller en säker länk till en sida där användaren kan bekräfta sitt konto. Framtida inlogging kontrollerar bara användarnamn och lösenord mot de lagrade värdena i Moodles databas.';
 $string['auth_emailnoemail'] = 'Vi försökte att skicka e-post till Dig men det misslyckades!';
 $string['auth_emailnoinsert'] = 'Det gick inte att lägga till Din post i databasen!';
+$string['auth_emailrecaptcha'] = 'Lägger till ett audio/visuellt formulärelement till sidan där användare kan registrera sig själva med hjälp av e-post. Det här skyddar din webbplats mot de som skickar ut skräppost och bidrar till något som är värt att ta vara på. Se http://recaptcha.net/learnmore.html för mer detaljer.';
+$string['auth_emailrecaptcha_key'] = 'Aktivera reCAPTCHA-elementet';
+$string['auth_emailsettings'] = 'Inställningar';
 $string['auth_emailtitle'] = 'E-postbaserad autenticering';
 $string['auth_fcchangepasswordurl'] = 'URL för att byta lösenord';
 $string['auth_fcconnfail'] = 'Det gick inte att ansluta med felnummer $a[0] felaktig sträng: $a[1]';
@@ -121,6 +125,8 @@ $string['auth_imaptitle'] = 'Använd en IMAP-server';
 $string['auth_imaptype'] = 'IMAP servertyp.  IMAP-servrar kan ha olika typer av autenticering och förhandlingar.';
 $string['auth_imaptype_key'] = 'Typ';
 $string['auth_ldap_ad_create_req'] = 'Det går inte att skapa ett nytt konto i den aktiva katalogen. Se till att Du uppfyller alla krav för att detta ska fungera (LDAPS connection, bind user med de rättigheter som krävs etc.)';
+$string['auth_ldap_attrcreators'] = 'Lista över grupper eller sammanhang vars medlemmar har tillstånd att skapa attribut. Separera grupper med \':\'. Vanligen något i stil med \'cn=lärare,ou=personal,o=minorg\'';
+$string['auth_ldap_attrcreators_key'] = 'Attribut för skapare';
 $string['auth_ldap_auth_user_create_key'] = 'Skapa användare externt';
 $string['auth_ldap_bind_dn'] = 'Om Du vill bruka \'bind\'-användare för att söka användare, så ska Du specificera det här. Något som \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Urskiljt namn';
@@ -145,6 +151,8 @@ $string['auth_ldap_graceattr_desc'] = 'Valfritt: Överskrider LDAP-attributet  \
 $string['auth_ldap_gracelogin_key'] = 'Attribut för \'grace\' inloggning';
 $string['auth_ldap_gracelogins_desc'] = 'Aktivera stöd för LDAP \'gracelogin\'. När tiden för ett lösenord har gått ut så kan användaren logga in tills räknaren för \'gracelogin\' är 0. Att aktivera denna inställning visar ett \'grace login\'-meddelande om lösenordet har gått ut.';
 $string['auth_ldap_gracelogins_key'] = '\'Grace\' inloggningar';
+$string['auth_ldap_groupecreators'] = 'Lista över grupper eller sammanhang vars medlemmar har tillstånd att skapa grupper. Separera multipla grupper med \';\'. Vanligen något i stil med \'cn=lärare,ou=personal,o=minorg\'';
+$string['auth_ldap_groupecreators_key'] = 'Gruppera skapare';
 $string['auth_ldap_host_url'] = 'Specificera en LDAP-värd i URL-form som \'ldap://ldap.myorg.com/\' eller \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_host_url_key'] = 'URL till värd';
 $string['auth_ldap_ldap_encoding'] = 'Specificera den teckenuppsättning som används av LDAP-servern. Det är mest sannolikt utf-8 men MS AD v2 använder förvald standard för teckenuppsättning som t.ex. cp1252, cp1250 etc.';
@@ -207,6 +215,11 @@ $string['auth_nologindescription'] = 'Hjälp-plugin som hindrar användare från
 $string['auth_nologintitle'] = 'Ingen inloggning';
 $string['auth_nonedescription'] = 'Användare kan logga in och skapa giltiga konton omedelbart, utan autenticering mot extern server och heller ingen bekräftelse via e-post.  Var försiktig med användning av detta val - tänk på säkerheten och de administrativa problem som detta kan orsaka.';
 $string['auth_nonetitle'] = 'Ingen autenticering';
+$string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'Ställ in detta till Ja för att försöka Enkel inloggning med hjälp av domänen NTLM. <strong>OBS!</strong>Detta kräver en kompletterande inställning på webbservern för att det ska fungera, se <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
+$string['auth_ntlmsso_enabled_key'] = 'Aktivera';
+$string['auth_ntlmsso_subnet'] = 'Om detta är inställt så kommer det bara att försöka med SSO med klienter i det här undernätet. Format: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet_key'] = 'Undernät';
 $string['auth_pamdescription'] = 'Den här metoden använder PAM för att få tillgång till \'native\' användarnamn på den här servern. Du måste installera <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> för att kunna använda den här modulen.';
 $string['auth_pamtitle'] = 'PAM (inpluggningsbara moduler för autenticering)';
 $string['auth_passwordisexpired'] = 'Ditt lösenord gäller inte längre. Vill Du ändra Ditt lösenord nu?';
@@ -244,11 +257,17 @@ $string['auth_shib_convert_data_warning'] = 'Filen finns inte eller så kan den 
 $string['auth_shib_instructions'] = 'Använd <a href=\"$a\">logga in med Shibboleth</a>
  för att få tillgång via Shibboleth om Din institution stödjer det.<br />Annars får Du använda det vanliga formuläret(som visas här) för att logga in';
 $string['auth_shib_instructions_help'] = 'Här bör Du tillhandahålla instruktioner för hur man använder Shibboleth. Detta kommer att visas på sektionen för instruktioner på sidan för att logga in. Detta bör innehålla en länk till \"<b>$a</b>\" så att Shibboleth-användare kan logga in på ett enkelt sätt. Om Du lämnar detta tomt så kommer standardinstruktioner (som inte är Shibboleth-specifika) att användas.';
+$string['auth_shib_no_organizations_warning'] = 'Om du vill använda den integrerade WAYF-tjänsten så måste du tillhandahålla en kommaseparerad lista över Identity Provider entityIDs, deras namn och alternativt en initierare för sessioner.';
 $string['auth_shib_only'] = 'Endast Shibboleth';
 $string['auth_shib_only_description'] = 'Markera det här alternativet om Du vill aktivera autenticering med Shibboleth.';
 $string['auth_shib_username_description'] = 'Namnet på den webbserver miljövariabel för Shibboleth som ska användas som användarnamn för Moodle.';
+$string['auth_shibboleth_contact_administrator'] = 'Om du inte har kopplingar till den aktuella organisationen och om du behöver tillgång till en kurs på den här servern, var då snäll och kontakta';
+$string['auth_shibboleth_errormsg'] = 'Var snäll och markera vilken organisation du tillhör!';
 $string['auth_shibboleth_login'] = 'Logga in med Shibboleth';
+$string['auth_shibboleth_login_long'] = 'Logga in på Moodle med Shibboleth';
 $string['auth_shibboleth_manual_login'] = 'Logga in manuellt';
+$string['auth_shibboleth_select_member'] = 'Jag är medlem av...';
+$string['auth_shibboleth_select_organization'] = 'För autenticering med Shibboleth, var snäll och markera i nedrullningamenyn den organisation du tillhör:';
 $string['auth_shibbolethdescription'] = 'Genom att använda den här metoden kan Du ansluta till en befintlig Shibboleth-server för att kontrollera och skapa nya konton.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Skript för synkronisering av cron';
@@ -267,6 +286,8 @@ $string['changepassword'] = 'URL   till sida för att ändra lösenord';
 $string['changepasswordhelp'] = 'Här kan Du specificera en plats där Dina användare kan återställa eller ändra sina användarnamn/lösenord om de har glömt det. Detta kommer att visas för användarna som en knapp på sidan för inloggning och på deras användarsidor. Om Du lämnar detta tomt kommer inte knappen att visas.';
 $string['chooseauthmethod'] = 'Välj en metod för autenticering:';
 $string['createpasswordifneeded'] = 'Skapa  ett lösenord om så behövs';
+$string['enterthenumbersyouhear'] = 'Mat a in de tal du hör';
+$string['enterthewordsabove'] = 'Mata in de ovanstående orden';
 $string['errorminpassworddigits'] = 'Lösenord måste innehålla minst $a siff/ror';
 $string['errorminpasswordlength'] = 'Lösenord måste innehålla minst $a tecken';
 $string['errorminpasswordlower'] = 'Lösenord måste innehålla minst $a små bokstäver';
@@ -276,7 +297,13 @@ $string['errorpasswordupdate'] = 'Det uppstod ett fel i samband med uppdatering 
 $string['forcechangepassword'] = 'Tvinga fram ändring av lösenord';
 $string['forcechangepassword_help'] = 'Tvinga användare att byta lösenord nästa gång de loggar in på Moodle.';
 $string['forcechangepasswordfirst_help'] = 'Tvinga användare att byta lösenord första gången som de loggar in på Moodle.';
+$string['forgottenpassword'] = 'Om du matar in en URL här så kommer den att användas som sidan för att återvinna förlorade lösenord på den här webbplatsen. Detta är avsett för webbplatser där lösenord hanteras helt och hållet utanför Moodle. Låt detta vara tomt om du vill använda den förvalda standardmetoden för att återvinna lösenord.';
+$string['forgottenpasswordurl'] = 'URL för förlorade lösenord';
+$string['getanaudiocaptcha'] = 'Skaffa en  CAPTCHA i audioformat';
+$string['getanimagecaptcha'] = 'Skaffa en  CAPTCHA i bildformat';
+$string['getanothercaptcha'] = 'Skaffa en  CAPTCHA till';
 $string['guestloginbutton'] = 'Knapp för inlgoggning för gäster';
+$string['incorrectpleasetryagain'] = 'Felaktigt. Var snäll och försök igen.';
 $string['infilefield'] = 'Det måste finnas ett fält i filen';
 $string['instructions'] = 'Instruktioner';
 $string['internal'] = 'Intern';
@@ -284,10 +311,14 @@ $string['locked'] = 'Låst';
 $string['md5'] = 'MD5-kryptering';
 $string['nopasswordchange'] = 'Det går inte att ändra lösenordet';
 $string['nopasswordchangeforced'] = 'Du kan inte gå vidare utan att ändra Ditt lösenord, men det finns inte någon sida tillgänglig för att ändra det. Var snäll och kontakta Din administratör för Moodle.';
+$string['ntlmsso_attempting'] = 'Försöker med enkel inloggning via NTLM...';
+$string['ntlmsso_failed'] = 'Det fungerade inte med automatisk inloggning, försök med den vanliga sidan för inloggning...';
+$string['ntlmsso_isdisabled'] = 'NTLM SSO är avaktiverat';
 $string['passwordhandling'] = 'Administration av fält för lösenord';
 $string['plaintext'] = 'Ren text';
 $string['pluginnotenabled'] = 'Plugin-programmet för autenticering \'$a\' är inte aktiverat.';
 $string['pluginnotinstalled'] = 'Plugin-programmet för autenticering \'$a\' är inte installerat.';
+$string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'Tiden för RPC-förhandling har gått ut';
 $string['selfregistration'] = 'Själv-registrering';
 $string['selfregistration_help'] = 'Välj vilket plugin-program för autenticering som ska hantera själv-registrering.';

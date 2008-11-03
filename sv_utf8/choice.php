@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 Beta + (2007090600)
+      // choice.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['addmorechoices'] = 'Lägg till fler opinionsundersökningar';
@@ -11,12 +11,14 @@ $string['choice:deleteresponses'] = 'Ta bort responser';
 $string['choice:downloadresponses'] = 'Ladda ner responser';
 $string['choice:readresponses'] = 'Läs responser';
 $string['choiceclose'] = 'Till';
+$string['choicefull'] = 'Den här opinonsundersökningen är full och det finns inga tillgängliga platser.';
 $string['choicename'] = 'Opinionsundersökningens namn';
 $string['choiceopen'] = 'Öppna';
 $string['choicetext'] = 'Opinionsundersökningens text';
 $string['displayhorizontal'] = 'Visa horisontellt';
 $string['displaymode'] = 'Visningsläge';
 $string['displayvertical'] = 'Visa vertikalt';
+$string['expired'] = 'Den här aktiviteten är stängd på $a och den är inte längre tillgänglig.';
 $string['fillinatleastoneoption'] = 'Du måste lämna åtminstone två möjliga svar.';
 $string['full'] = '(Full)';
 $string['havetologin'] = 'Du måste logga in innan Du kan skicka Ditt/Dina svar';
@@ -38,6 +40,7 @@ $string['publishanonymous'] = 'Publicera anonyma resultat, visa inte studenterna
 $string['publishnames'] = 'Publicera hela resultat, inklusive studenternas/elevernas/deltagarnas/de lärandes namn och val.';
 $string['publishnot'] = 'Publicera inte resultaten för  studenterna/eleverna/deltagarna/de lärande.';
 $string['removemychoice'] = 'Ta bort mitt val';
+$string['removeresponses'] = 'Ta bort alla svar';
 $string['responses'] = 'Svar';
 $string['responsesto'] = 'Svar till $a';
 $string['savemychoice'] = 'Spara min opinionsundersökning';

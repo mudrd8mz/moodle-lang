@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 Beta + (2007090600)
+      // scorm.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['activation'] = 'Aktivering';
@@ -26,6 +26,7 @@ $string['contents'] = 'Innehåll';
 $string['coursepacket'] = 'Kurspaket';
 $string['coursestruct'] = 'Struktur på kurs';
 $string['datadir'] = 'Fel i filsystemet: det går inte att skapa en datakatalog för kursen';
+$string['deleteallattempts'] = 'Ta bort alla fösök på SCORM';
 $string['details'] = 'Detaljerad SCO spårning';
 $string['directories'] = 'Visa katalogens länkar';
 $string['display'] = 'Visa';
@@ -147,10 +148,11 @@ $string['unziperror'] = 'Ett fel inträffade i samband med att paketet skulle pa
 $string['updatefreq'] = 'Intervall då automatisk uppdatering ska ske';
 $string['validateascorm'] = 'Validera ett SCORM-paket';
 $string['validation'] = 'Resultat av validering';
-$string['validationtype'] = 'Det här preferenssetet använder DOMXML-biblioteket för att validera SCORM Mansifestet om Du inte överger det markerade valet.';
+$string['validationtype'] = 'Den här inställningen innebär att  DOMXML-biblioteket används för att validera SCORM-manifesten. Om Du inte vet hur du ska göra så behåll det markerade valet.';
 $string['value'] = 'Värde';
 $string['versionwarning'] = 'Den här versionen av manifestet är äldre än 1.3, varning vid $a->tag taggen';
 $string['viewallreports'] = 'Visa rapporter för $a försök';
+$string['viewalluserreports'] = 'Visa rapporter för $a användare';
 $string['whatgrade'] = 'Bedömning/betygssättning av försök';
 $string['width'] = 'Bredd';
 $string['window'] = 'ram/fönster';

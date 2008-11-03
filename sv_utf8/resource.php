@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta + (2007090600)
+      // resource.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['addresource'] = 'Lägg till resurs';
 $string['affectedresources'] = 'Påverkade resurser';
+$string['allowlocalfiles'] = 'Tillåt lokala filer';
+$string['autofilerename'] = 'Uppdatera länken om filen har döpts om';
 $string['back'] = 'Tillbaka';
+$string['blockdeletingfile'] = 'Blockera borttagandet av de refererade filerna';
 $string['browserepository'] = 'Bläddra i arkivet';
 $string['choose'] = 'Välj';
 $string['chooseafile'] = 'Välj eller ladda upp en fil';
@@ -47,6 +50,7 @@ $string['filename'] = 'Filnamn';
 $string['filtername'] = 'Automatisk länkning av resurs';
 $string['frameifpossible'] = 'Placera en resurs i en ram för att webbplatsens
 navigation ska fortsätta att vara synlig';
+$string['framesize'] = 'Storlek på ram';
 $string['fulltext'] = 'Full text';
 $string['htmlfragment'] = 'HTML-fragment';
 $string['imspackageloaded'] = 'Paketet har laddats upp';
@@ -96,6 +100,7 @@ $string['previous'] = 'Föregående';
 $string['redeploy'] = 'Lägg ut igen';
 $string['repository'] = 'IMS arkiv';
 $string['resource:view'] = 'Visa resurs';
+$string['resourcedefaulturl'] = 'Standard-URL';
 $string['resourcetype'] = 'Typ av resurs';
 $string['resourcetype1'] = 'Referens';
 $string['resourcetype2'] = 'Webbsida';
@@ -118,11 +123,13 @@ $string['serverurl'] = 'URL till servern ($a->wwwroot)';
 $string['showcourseblocks'] = 'Visa kursblocken';
 $string['skipsubmenus'] = 'Hoppa över sidor i undermenyer';
 $string['tableofcontents'] = 'Innehållsförteckning';
+$string['tableofcontentsabbrev'] = 'Innehåll';
 $string['upbutton'] = 'Upp';
 $string['variablename'] = 'Namn på variabel';
 $string['viewims'] = 'Visa IMS-paket med innehåll';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'Varning! Operationen att \'ta bort\' är blockerad av en befintlig resurs. Du måste antingen uppdatera Dina resurser först eller fråga administratören att avaktivera den här säkerhetsfunktionen i den globala konfigurationen av resurser.';
 $string['warningdisabledrename'] = 'Varning! Den automatiska funktionen för byte av namn på resurser är avaktiverad. Var snäll och uppdatera de berörda resurserna manuellt om det behövs. Administratören kan också aktivera automatiskt byte av namn i den globala konfigurationen av resurser.';
+$string['websearchdefault'] = 'Standard för webbsök';
 
 ?>

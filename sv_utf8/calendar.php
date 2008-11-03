@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 Beta + (2007090600)
+      // calendar.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['advancedoptions'] = 'Avancerade inställningar';
@@ -18,6 +18,7 @@ $string['dayview'] = 'Vy över dag';
 $string['daywithnoevents'] = 'Det finns inga händelser för den här dagen';
 $string['default'] = 'Aktuell';
 $string['deleteevent'] = 'Ta bort händelse';
+$string['deleteevents'] = 'Ta bort händelser';
 $string['detailedmonthview'] = 'Detaljerad vy över månad';
 $string['durationminutes'] = 'Varaktighet i minuter';
 $string['durationnone'] = 'Utan varaktighet';

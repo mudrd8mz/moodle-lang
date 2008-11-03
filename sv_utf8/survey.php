@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 (2007021501)
+      // survey.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['actual'] = 'Faktisk';
@@ -150,6 +150,8 @@ Dina väl genomtänkta svar kommer att hjälpa oss förbättra funktionerna i de
 Tack så mycket för Din medverkan.';
 $string['collespname'] = 'Konstruktivistiskt inriktad enkät angående en nätbaserad läromiljö (Önskad)';
 $string['customintro'] = 'Introduktion i standardformat';
+$string['deleteallanswers'] = 'Ta bort alla svar på enkäten';
+$string['deleteanalysis'] = 'Ta bort analyserna av svar';
 $string['done'] = 'Färdig';
 $string['download'] = 'Ladda ner';
 $string['downloadexcel'] = 'Ladda ner data som kalkylark i Excel';
@@ -179,6 +181,7 @@ $string['question'] = 'Fråga';
 $string['questions'] = 'Frågor';
 $string['questionsnotanswered'] = 'Några av flervalsfrågorna har inte besvarats.';
 $string['report'] = 'Enkätrapport';
+$string['responses'] = 'Svar';
 $string['savednotes'] = 'Dina anteckningar sparades';
 $string['scaleagree5'] = 'Håller inte alls med,Har en något avvikande uppfattning,Håller varken med eller inte (neutral),Håller med något,Håller med fullständigt';
 $string['scales'] = 'Skalor';

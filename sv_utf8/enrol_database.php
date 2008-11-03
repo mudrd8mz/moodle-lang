@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.9 Beta + (2007090600)
+      // enrol_database.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['autocreate'] = 'Det går att skapa kurser automatiskt om det finns registreringar på en kurs som ännu inte finns i Moodle.';
@@ -17,6 +17,7 @@ $string['dbtype'] = 'Typ av databas';
 $string['dbuser'] = 'Serveranvändare';
 $string['defaultcourseroleid'] = 'Den här rollen kommer att tilldelas om ingen annan roll anges.';
 $string['description'] = 'Du kan använda en extern databas (nästan vilken som helst) för att ha kontroll på registreringarna till Dina kurser. Utgångspunkten är att Din externa databas innehåller ett fält med kursens ID och ett fält med användarens ID, Dessa används för att jämföra med de fält som Du väljer i den lokala kursen och i användartabellerna,';
+$string['disableunenrol'] = 'Om detta är inställt till Ja som kommer användare som tidigare har varit registrerade via ett plugin-program för den externa databasen INTE att avregistreras av samma plugin, oavsett vilket innehåll databasen har.';
 $string['enrol_database_autocreation_settings'] = 'Automatiskt skapande av nya kurser';
 $string['enrolname'] = 'Extern databas';
 $string['general_options'] = 'Allmänna alternativ';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 Beta + (2007090600)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
 
 
 $string['accesscontrol'] = 'Styrning av tillgänglighet';
@@ -62,6 +62,7 @@ $string['credit'] = 'Tillgodoräknande';
 $string['customscoring'] = 'Egen utformning av resultat';
 $string['deadline'] = 'Stoppdatum/tid';
 $string['defaultessayresponse'] = 'Din essä kommer att få ett betyg/omdöme av kursens distanslärare.';
+$string['deleteallattempts'] = 'Ta bot alla försök att genomföra lektionen';
 $string['deletedefaults'] = 'Tog bort $a x lektion standardinställning';
 $string['deletedpage'] = 'Borttagen sida';
 $string['deleting'] = 'Tar bort';
@@ -180,6 +181,7 @@ $string['nobranchtablefound'] = 'Det gick inte att hitta någon förgreningstabe
 $string['nocommentyet'] = 'Ingen kommentar ännu.';
 $string['nocoursemods'] = 'Det gick inte att hitta några aktiviteter';
 $string['nocredit'] = 'Inget tillgodoräknande';
+$string['nodeadline'] = 'Ingen tidsbegränsning';
 $string['noessayquestionsfound'] = 'Det gick inte att hitta några essäfrågor i den här lektionen.';
 $string['nohighscores'] = 'Inga höga resultat';
 $string['nolessonattempts'] = 'Det har inte gjorts några försök att genomföra den här lektionen.';
@@ -200,13 +202,12 @@ $string['numberofpagestoshow'] = 'Antal sidor (kort) att visa:  $a';
 $string['numberofpagesviewed'] = 'Antal sidor som har visats:  $a';
 $string['numberofpagesviewednotice'] = 'Antal besvarade frågor: $a->nquestions; (Du bör besvara åtminstone: $a->minquestions)';
 $string['ongoing'] = 'Visa pågående resultat';
-$string['ongoingcustom'] = 'Det här är en lektion som kan ge $a->score poäng. Du har uppnått $a->score poäng av $a->currenthigh poäng så hä långt.';
+$string['ongoingcustom'] = 'Du har uppnått $a->score poäng av $a->currenthigh poäng så hä långt.';
 $string['ongoingnormal'] = 'Du har lämnat korrekt/a svar på $a->correct fråga/or av $a->viewed fråga/or.';
 $string['or'] = 'ELLER';
 $string['ordered'] = 'Ordnad';
 $string['other'] = 'Övrigt';
 $string['outof'] = 'Av  $a';
-$string['outoftime'] = 'Tiden är ute';
 $string['overview'] = 'Överblick';
 $string['page'] = 'Sida:  $a';
 $string['pagecontents'] = 'Innehåll på sidor';
@@ -264,7 +265,6 @@ $string['startlesson'] = 'Påbörja lektion';
 $string['studentattemptlesson'] = '$a->lastname, $a->firstname\'s försök nummer $a->attempt';
 $string['studentname'] = '$a Namn';
 $string['studentoneminwarning'] = 'Varning! Du har 1 minut eller mindre på Dig att avsluta lektionen.';
-$string['studentoutoftime'] = 'OBS! Tiden har gått ut för den här lektionen. Ditt sista svar kommer inte att registreras eftersom Du lämnade det efter det att tiden hade gått ut. Var snäll och avsluta lektionen med hjälp av knappen \"Fortsätt\".';
 $string['studentresponse'] = '{$a}s svar';
 $string['submitname'] = 'Skicka in namn';
 $string['teacherjumpwarning'] = 'Det finns ett $a->cluster hopp eller ett $a->unseen hopp med i den här lektionen. Hoppet \"Nästa sida\" kommer att användas istället. Logga in som en student/elev/deltagare/lärande för att testa dessa hopp.';
@@ -279,7 +279,7 @@ $string['timeremaining'] = 'Återstående tid';
 $string['timespenterror'] = 'Lägg ner åtminstone $a minuter på den här lektionen';
 $string['timespentminutes'] = 'Använd tid (minuter)';
 $string['timetaken'] = 'Använd tid';
-$string['topscorestitle'] = 'De högsta $a resultaten för lektionen.';
+$string['topscorestitle'] = 'De högsta $a resultaten';
 $string['unseenpageinbranch'] = 'Ej visad fråga inom en förgrening';
 $string['unsupportedqtype'] = 'Frågetyp ($a som inte stödjs!';
 $string['updatedpage'] = 'Uppdaterad sida';
@@ -303,6 +303,8 @@ $string['youranswer'] = 'Ditt svar';
 $string['yourcurrentgradeis'] = 'Ditt nuvarande betyg/omdöme är $a';
 $string['yourcurrentgradeisoutof'] = 'Ditt aktuella betyg/omdöme är $a->grade av $a->total';
 $string['youshouldview'] = 'Du bör åtminstone titta på: $a';
+$string['outoftime'] = 'Tiden är ute'; // ORPHANED
+$string['studentoutoftime'] = 'OBS! Tiden har gått ut för den här lektionen. Ditt sista svar kommer inte att registreras eftersom Du lämnade det efter det att tiden hade gått ut. Var snäll och avsluta lektionen med hjälp av knappen \"Fortsätt\".'; // ORPHANED
 $string['commentswithname'] = '$a->firstname {$a->lastname}\'s kommentarer'; // ORPHANED
 $string['editlesson'] = 'Redigera $a'; // ORPHANED
 $string['jumptsto'] = 'hoppa till'; // ORPHANED

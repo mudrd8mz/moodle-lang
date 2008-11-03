@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8 (2007021501)
+      // block_rss_client.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['addfeed'] = 'Lägg till en URL för inmatning av nyheter:';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'Nyhetsinmatning har uppdaterats';
 $string['findmorefeeds'] = 'Hitta fler rss-inmatningar';
 $string['managefeeds'] = 'Hantera alla mina inmatningar';
 $string['nofeeds'] = 'Det finns inga RSS-inmatningar som har definierats för den hör webbplatsen.';
+$string['numentries'] = 'Bidrag per matning';
 $string['pickfeed'] = 'Välj en nyhetsinmatning';
 $string['remotenewsfeed'] = 'Fjärrinmatning av nyheter';
 $string['rss_client:createprivatefeeds'] = 'Skapa privata RSS-matningar';
@@ -40,7 +41,9 @@ $string['seeallfeeds'] = 'Visa alla inmatningar';
 $string['sharedfeed'] = 'Gemensam inmatning';
 $string['shownumentrieslabel'] = 'Maximalt antal bidrag att visa per block.';
 $string['submitters'] = 'Vem ska behörighet att definiera nya rss-inmatningar? Definierade inmatningar finns tillgängliga för vilken sida som helst på Din webbplats.';
+$string['submitters2'] = 'Inskickare';
 $string['timeout'] = 'blockrsstimeout';
+$string['timeout2'] = 'Timeout';
 $string['timeoutdesc'] = 'Tid räknat i minuter som en RSS-inmatning finns kvar i cache.';
 $string['updatefeed'] = 'Uppdatera en URL för nyhetsinmatning:';
 $string['validatefeed'] = 'Validera inmatning';

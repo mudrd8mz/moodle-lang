@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 Beta + (2007090600)
+      // data.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
 
 
 $string['action'] = 'Handling';
@@ -58,9 +58,11 @@ $string['defaultfielddelimiter'] = '(standard är kommatecknet)';
 $string['defaultfieldenclosure'] = '(standard är ingen)';
 $string['defaultsortfield'] = 'Standardfält för sortering';
 $string['delete'] = 'Ta bort';
+$string['deleteallentries'] = 'Ta bort alla bidrag';
 $string['deletecomment'] = 'Är Du säker på att Du vill ta bort den här kommentaren?';
 $string['deleted'] = 'Borttaget';
 $string['deletefield'] = 'Ta bort ett befintligt fält';
+$string['deletenotenrolled'] = 'Ta bort bidrag som kommer från användare som inte är registrerade';
 $string['deletewarning'] = 'Är Du säker på att Du vill ta bort den här förinställningen?';
 $string['descending'] = 'Fallande';
 $string['directorynotapreset'] = '$a->directory Inte en förinställning: saknade filer: $a->missing_files';
@@ -73,6 +75,7 @@ $string['editorenable'] = 'Aktivera redigerare';
 $string['emptyadd'] = 'Mallen Lägg till är tom, skapar ett standardformulär...';
 $string['emptyaddform'] = 'Du fyllde inte i alla fält!';
 $string['entries'] = 'Bidrag';
+$string['entrieslefttoadd'] = 'Du måste lägga till $a fler bidrag innan du får se andra deltagares bidrag.';
 $string['entry'] = 'Bidrag';
 $string['entrysaved'] = 'Ditt bidrag har sparats';
 $string['errormustbeteacher'] = 'Du måste vara lärare för att få använda den här sidan!';
@@ -210,6 +213,7 @@ $string['saveaspreset'] = 'Spara som en förinställd mall';
 $string['savesettings'] = 'Spara inställningar';
 $string['savesuccess'] = 'Detta sparades framgångsrikt. Din förinställda mall kommer nu att vara tillgänglig på hela webbplatsen.';
 $string['savetemplate'] = 'Spara mall';
+$string['search'] = 'Sök';
 $string['sendinratings'] = 'Sänd in mina senaste bedömningar/värderingar';
 $string['showall'] = 'Visa alla bidrag';
 $string['single'] = 'Visa enskilt bidrag';
