@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20081028) (2008101300)
 
 
 $string['addingmultichoice'] = 'Creazione domanda a Risposta multipla';
@@ -24,6 +24,7 @@ $string['fillouttwochoices'] = 'Devi riempire almeno due alternative. Quelle las
 $string['fractionsaddwrong'] = 'La somma dei voti positivi definiti <br/>non è uguale a 100%%, ma è uguale a $a%%. <br/>Vuoi tornare indietro e correggere l\'errore?';
 $string['fractionsnomax'] = 'Una delle alternative dovrebbe essere valutata 100%%, in modo da avere <br/>una valutazione corretta di questa domanda. <br/>Vuoi tornare indietro e correggere l\'errore?';
 $string['incorrectfeedback'] = 'Per ogni risposta errata';
+$string['multichoice'] = 'Risposta multipla';
 $string['notenoughanswers'] = 'Questo tipo di domanda richiede almeno $a alternative';
 $string['overallcorrectfeedback'] = 'Feedback per ogni risposta corretta';
 $string['overallfeedback'] = 'Feedback';

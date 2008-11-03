@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081028) (2008101300)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -12,6 +12,7 @@ $string['activity'] = 'Attività';
 $string['activityclipboard'] = 'Stai spostando questa attività :<b>$a</b>';
 $string['activityiscurrentlyhidden'] = 'Spiacente, al momento questa attività è disattivata';
 $string['activitymodule'] = 'Modulo attività';
+$string['activitymodules'] = 'Attività';
 $string['activityreport'] = 'Rapporto delle attività';
 $string['activityreports'] = 'Rapporti delle attività';
 $string['activityselect'] = 'Seleziona questa attività per spostarla altrove';
@@ -293,7 +294,6 @@ $a';
 $string['courserejectreason'] = 'Sintetizzare la motivazione per il rifiuto della creazione di questo corso<br /> (questa verrà  spedita al richiedente)';
 $string['courserejectsubject'] = 'La richiesta del corso è stata rifiutata';
 $string['courserequest'] = 'Richiesta corsi';
-$string['courserequestdisabled'] = 'Spiacente, ma la richiesta dei corsi è stata disabilitata dall\'amministratore';
 $string['courserequestfailed'] = 'Per qualche motivo, non è stato possibile salvare la richiesta del corso';
 $string['courserequestintro'] = 'Utilizzare questo modulo per richiedere la creazione di un corso.<br /> Fornire più informazioni possibili per permettere agli amministratori di capire la motivazione della richiesta di questo corso.';
 $string['courserequestreason'] = 'Motivazione per la richiesta del corso';
@@ -301,6 +301,7 @@ $string['courserequestsuccess'] = 'Richiesta del corso correttamente salvata. At
 $string['courserestore'] = 'Recupera corso';
 $string['courses'] = 'Corsi';
 $string['coursescategory'] = 'Corsi nella stessa categoria';
+$string['coursesettings'] = 'Impostazioni default';
 $string['coursesmovedout'] = 'Corsi spostati da $a';
 $string['coursespending'] = 'Corsi in attesa di approvazione';
 $string['coursestaught'] = 'Corsi dove ho insegnato';
@@ -1050,7 +1051,6 @@ $string['noresults'] = 'Nessun risultato';
 $string['normal'] = 'Normale';
 $string['normalfilter'] = 'Filtro normale';
 $string['nosite'] = 'Non si trova corso a livello di sito';
-$string['nostatstodisplay'] = 'Spiacente, non ci sono dati disponibili da mostrare.';
 $string['nostudentsfound'] = 'Nessun $a trovato';
 $string['nostudentsingroup'] = 'In questo gruppo non ci sono ancora studenti';
 $string['nostudentsyet'] = 'Non ci sono ancora studenti iscritti in questo corso';
@@ -1614,6 +1614,8 @@ $string['yourlastlogin'] = 'Il tuo ultimo login è stato:';
 $string['yourself'] = 'te stesso';
 $string['yourteacher'] = 'tuo $a';
 $string['zippingbackup'] = 'Compressione copia di salvataggio';
+$string['courserequestdisabled'] = 'Spiacente, ma la richiesta dei corsi è stata disabilitata dall\'amministratore'; // ORPHANED
+$string['nostatstodisplay'] = 'Spiacente, non ci sono dati disponibili da mostrare.'; // ORPHANED
 $string['remotemaharauser'] = 'Utente remoto Mahara'; // ORPHANED
 $string['skiptomaincontent'] = 'Salta al contenuto principale'; // ORPHANED
 

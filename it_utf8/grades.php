@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081028) (2008101300)
 
 
 $string['activities'] = 'Attività';
@@ -30,11 +30,8 @@ $string['aggregateweightedmean2'] = 'Semplice media pesata delle valutazioni';
 $string['aggregation'] = 'Aggregazione';
 $string['aggregationcoef'] = 'Coefficiente di aggregazione';
 $string['aggregationcoefextra'] = 'Credito extra';
-$string['aggregationcoefextrahelp'] = 'Extra credito per questo elemento di valutazione durante l\'aggregazione.';
 $string['aggregationcoefextrasum'] = 'Credito extra';
-$string['aggregationcoefextrasumhelp'] = 'Credito extra per questo elemento di valutazione durante l\'aggregazione.';
 $string['aggregationcoefweight'] = 'Peso elemento';
-$string['aggregationcoefweighthelp'] = 'Peso applicato a tutte le valutazioni di questo elemento di valutazione durante l\'aggregazione con altri elementi.';
 $string['aggregationhelp'] = 'Strategia usata per aggregare le valutazioni per tutti gli studenti di un corso.';
 $string['aggregationposition'] = 'Posizione aggregazione';
 $string['aggregationview'] = 'Vista aggregazione';
@@ -512,6 +509,9 @@ $string['writinggradebookinfo'] = 'Impostazioni per la scrittura del registro';
 $string['xml'] = 'XML';
 $string['yes'] = 'Si';
 $string['yourgrade'] = 'La tua valutazione';
+$string['aggregationcoefextrahelp'] = 'Extra credito per questo elemento di valutazione durante l\'aggregazione.'; // ORPHANED
+$string['aggregationcoefextrasumhelp'] = 'Credito extra per questo elemento di valutazione durante l\'aggregazione.'; // ORPHANED
+$string['aggregationcoefweighthelp'] = 'Peso applicato a tutte le valutazioni di questo elemento di valutazione durante l\'aggregazione con altri elementi.'; // ORPHANED
 $string['configbulkcheckboxes'] = 'Checkboxes accanto a ogni valutazione per operazioni in blocco.'; // ORPHANED
 $string['configquickfeedback'] = 'Questa opzione comporta l\'aggiunta di un testo di input ad ogni riga del rapporto di valutazione, permettendo di modificare più feedback insieme. Cliccando su Aggiorna queste modifiche sono fatte tutte insieme, invece che una alla volta.'; // ORPHANED
 $string['errornocategorizedid'] = 'Non ci può essere un id Senza categoria!'; // ORPHANED

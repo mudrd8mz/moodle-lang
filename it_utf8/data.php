@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.1+ (Build: 20080625) (2007101514)
+      // data.php - created with Moodle 2.0 dev (Build: 20081028) (2008101300)
 
 
 $string['action'] = 'Azione';
@@ -29,8 +29,8 @@ $string['buttons'] = 'Pulsanti';
 $string['bynameondate'] = 'di <strong>$a->name - $a->date</strong>';
 $string['cancel'] = 'Annulla';
 $string['checkbox'] = 'Casella Spunta';
-$string['chooseexportfields'] = 'Scegli i record da esportare';
-$string['chooseexportformat'] = 'Scegli il formato di esportazione';
+$string['chooseexportfields'] = 'Scegli i campi da esportare:';
+$string['chooseexportformat'] = 'Scegli il formato di esportazione:';
 $string['chooseorupload'] = 'Scegli un file';
 $string['columns'] = 'colonne';
 $string['comment'] = 'Commento';
@@ -48,6 +48,8 @@ $string['csvimport'] = 'Importa un file CSV';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym> testo delimitato da:';
 $string['data:approve'] = 'Approvare tutti i record in attesa';
 $string['data:comment'] = 'Scrivere i commenti';
+$string['data:exportallentries'] = 'Esporta tutti i record del database';
+$string['data:exportentry'] = 'Esporta un record del database';
 $string['data:managecomments'] = 'Gestire i commenti';
 $string['data:manageentries'] = 'Gestire i record inseriti';
 $string['data:managetemplates'] = 'Gestire i Modelli di visualizzazione';
@@ -93,7 +95,7 @@ $string['exportdatabaserecords'] = 'Esporta i record del Database';
 $string['exportedtozip'] = 'Preimpostazione esportata su un file .zip temporaneo';
 $string['failedpresetdelete'] = 'Errore nella cancellazione di una preimpostazione!';
 $string['fieldadded'] = 'Il campo è stato aggiunto.';
-$string['fieldallowautolink'] = 'Permetti che il campi sia collegato automaticamente';
+$string['fieldallowautolink'] = 'Permetti che il campo sia collegato automaticamente';
 $string['fielddeleted'] = 'Campo eliminato';
 $string['fielddelimiter'] = 'Delimitatore di campo:';
 $string['fielddescription'] = 'Descrizione';
@@ -118,6 +120,7 @@ $string['forcelinkname'] = 'Nome';
 $string['foundnorecords'] = 'Non trovato alcun record (<a href=\"$a->reseturl\">Reset filtri</a>)';
 $string['foundrecords'] = 'Record trovati: $a->num/$a->max (<a href=\"$a->reseturl\">Reset filtri</a>)';
 $string['fromfile'] = 'da un file .zip';
+$string['guestrate'] = 'Agli ospiti non è consentito valutare i record.';
 $string['header'] = 'Intestazione';
 $string['headeraddtemplate'] = 'Imposta come apparirà il form di inserimento o modifica dei record.';
 $string['headerasearchtemplate'] = 'Definisce l\'interfaccia per Ricerche avanzate';
