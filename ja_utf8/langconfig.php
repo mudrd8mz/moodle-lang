@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // langconfig.php - created with Moodle 2.0 dev (Build: 20080508) (2008050700)
+      // langconfig.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
 
 
 $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
@@ -12,6 +12,7 @@ $string['localewin'] = 'Japanese_Japan.932';
 $string['localewincharset'] = 'CP932';
 $string['oldcharset'] = 'EUC-JP';
 $string['strftimedate'] = '%%Y年 %%m月 %%d日 ';
+$string['strftimedatefullshort'] = '%%y/%%m/%%d';
 $string['strftimedateshort'] = '%%m/%%d';
 $string['strftimedatetime'] = '%%Y年 %%m月 %%d日 %%H:%%M';
 $string['strftimedatetimeshort'] = '%%y年 %%m月 %%d日 %%H:%%M';
