@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081103) (2008101300)
+      // error.php - created with Moodle 2.0 dev (Build: 20081105) (2008101300)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -11,11 +11,11 @@ $string['blockcannotinistantiate'] = '블록 객체의 초기화 문제';
 $string['blockcannotread'] = '블록ID $a 에 대한 자료를 읽을 수 없음';
 $string['blockdoesnotexist'] = '블록이 존재하지 않음';
 $string['blocknameconflict'] = '명칭 중복: $a->name 블록은 기존의 $a->conflict 블록과 동일한 명칭을 지님!';
-$string['cannofindgradeitem'] = '채점 항목이 없음';
-$string['cannotaddblock'] = '$a 블록은 블록 목록에 추가할 수 없음!';
-$string['cannotaddcmtosection'] = '영역에 새로운 강좌 모듈을 추가할 수 없음';
-$string['cannotaddcoursemodule'] = '새로운 강좌 모듈을 추가할 수 없음';
-$string['cannotaddcoursemoduletosection'] = '영역에 새로운 강좌 모듈을 추가할 수 없음';
+$string['cannoffindgradeitem'] = '채점항목을 찾을 수 없음';
+$string['cannotaddblock'] = '$a 블록을 목록에 추가할 수 없음!';
+$string['cannotaddcmtosection'] = '그 영역에 새 강좌 모듈을 추가할 수 없음';
+$string['cannotaddcoursemodule'] = '새 강좌 모듈을 추가할 수 없음';
+$string['cannotaddcoursemoduletosection'] = '그 영역에 새 강좌 모듈을 추가할 수 없음';
 $string['cannotaddmodule'] = '$a 모듈을 추가할 수 없음!';
 $string['cannotaddnewinstance'] = '$a 의 새 인스턴스를 추가할 수 없음';
 $string['cannotaddnewmodule'] = '$a 의 새 모듈을 추가할 수 없음';
@@ -96,6 +96,7 @@ $string['cannotopenfile'] = '($a) 파일을 열 수 없음';
 $string['cannotopenforwrit'] = '$a 를 작성해 넣을 수 없음';
 $string['cannotopentemplate'] = '($a) 템플릿 파일을 열 수 없음';
 $string['cannotoverridebaserole'] = '기본 역할 권한은 재설정할 수 없음';
+$string['cannotoverriderolehere'] = '영역 ($a->context) 의 역할 (id = $a->roleid) 을 재설정할 수 없음';
 $string['cannotreadfile'] = '파일을 읽을 수 없음';
 $string['cannotreadtmpfile'] = '임시 파일 읽기 오류';
 $string['cannotreaduploadfile'] = '올려진 파일을 읽을 수 없음';
@@ -189,6 +190,8 @@ $string['ddltablenotexist'] = '테이블 \"$a\"가 없음';
 $string['ddlunknownerror'] = '알수없는 DDL 라이브러리 오류';
 $string['ddlxmlfileerror'] = 'XML 데이터베이스 파일 오류 발견';
 $string['destinationcmnotexit'] = '대상 강좌의 모듈이 서버에 존재하지 않음!';
+$string['dmlreadexception'] = '데이터베이스 읽기 오류';
+$string['dmlwriteexception'] = '데이터베이스 쓰기 오류';
 $string['downloadedfilecheckfailed'] = '내려받은 파일 점검 실패';
 $string['duplicateparaminsql'] = '오류: 중복된 매개 변수명 요청';
 $string['duplicaterolename'] = '이 이름을 가진 역할이 이미 존재함!';
@@ -451,6 +454,7 @@ $string['wrongsourcebase'] = '잘못된 소스 URL  베이스';
 $string['wrongzipfilename'] = '잘못된 ZIP 파일명';
 $string['xmldberror'] = 'XMLDB 오류!';
 $string['younotteacher'] = '교수자가 아닙니다!';
+$string['cannofindgradeitem'] = '채점 항목이 없음'; // ORPHANED
 $string['errortoomanylogins'] = '오류-로그인 과다'; // ORPHANED
 $string['invalidseeky'] = 'sesskey가 틀렸기 때문에 서식이 접수되지 않음!'; // ORPHANED
 $string['typenotimplement'] = 'TODO: 형식 미지정'; // ORPHANED
