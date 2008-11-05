@@ -33,6 +33,7 @@ $string['security'] = 'Защита';
 $string['showadvanced'] = 'Показать дополнительные';
 $string['somefieldsrequired'] = 'Обязательные для заполнения поля в этой форме помечены $a.';
 $string['timing'] = 'Ограничения по времени';
+$string['unmaskpassword'] = 'Отобразить';
 $string['year'] = 'Год';
 
 ?>
