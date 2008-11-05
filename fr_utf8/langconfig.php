@@ -21,6 +21,7 @@ $string['strftimemonthyear'] = '%%B %%Y';
 $string['strftimerecent'] = '%%d %%b, %%H:%%M';
 $string['strftimerecentfull'] = '%%a %%d %%b %%Y, %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
+$string['thousandssep'] = ' '; // thousands separator, for some languages it is '.' or '\''
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = 'Français';
