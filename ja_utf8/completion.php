@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // completion.php - created with Moodle 2.0 dev (Build: 20081106) (2008110603)
 
 
 $string['activitycompletion'] = '活動完了';
@@ -15,8 +15,8 @@ $string['completion-alt-auto-n'] = '未完了';
 $string['completion-alt-auto-pass'] = '完了 (合格点到達)';
 $string['completion-alt-auto-y'] = '完了';
 $string['completion-alt-manual-enabled'] = 'ユーザは、このアイテムに対して、手動で完了をマークできます。';
-$string['completion-alt-manual-n'] = '未完了';
-$string['completion-alt-manual-y'] = '完了';
+$string['completion-alt-manual-n'] = '未完了、未完了をマークするには選択してください。';
+$string['completion-alt-manual-y'] = '完了、未完了をマークするには選択してください。';
 $string['completion-title-manual-n'] = '完了をマークする';
 $string['completion-title-manual-y'] = '未完了をマークする';
 $string['completion_automatic'] = '条件を満たした場合、活動完了を表示する';

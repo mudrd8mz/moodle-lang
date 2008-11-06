@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081106) (2008110603)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -400,6 +400,7 @@ $string['frontpage'] = 'フロントページ';
 $string['frontpagebackup'] = 'フロントページバックアップ';
 $string['frontpagedefaultrole'] = 'デフォルトのフロントページロール';
 $string['frontpageloggedin'] = 'ログイン時のフロントページアイテム';
+$string['frontpageoverrides'] = 'フロントページパーミッションのオーバーライド';
 $string['frontpagequestions'] = 'フロントページ問題';
 $string['frontpagerestore'] = 'フロントページリストア';
 $string['frontpageroles'] = 'フロントページロール';
@@ -409,7 +410,7 @@ $string['gdversion'] = 'GDバージョン';
 $string['generalsettings'] = '一般設定';
 $string['geoipfile'] = 'GeoIP Cityデータファイル';
 $string['getremoteaddrconf'] = '記録されるIPアドレスのソース';
-$string['globalsquoteswarning'] = '<p><strong>セキュリティ警告</strong>: Moodleを適切に動作させるため、<br />現在のPHP設定を変更する必要があります。<p/><p><code>register_globals=off</code> および/または <code>magic_quotes_gpc=on</code> の<em>設定を行って</em>ください。<br />可能でしたら、一般的なサーバセキュリティを改善するため、<code>register_globals=off</code> の設定を行ってください。<br />また、<code>magic_quotes_gpc=on</code> の設定も推奨いたします。<p/><p>これらの設定は、<code>php.ini</code>、Apache/IIS <br />設定、または <code>.htaccess</code> ファイルの編集により管理することができます。</p>';
+$string['globalsquoteswarning'] = '<p><strong>セキュリティ警告</strong>: Moodleを適切に動作させるため、<br />現在のPHP設定を変更する必要があります。<p/><p><code>register_globals=off</code> および/または <code>magic_quotes_gpc=on</code> の<em>設定を行って</em>ください。<br />可能でしたら、一般的なサーバセキュリティを改善するため、<code>register_globals=off</code> の設定を行ってください。<br />また、<code>magic_quotes_gpc=on</code> の設定も推奨します。<p/><p>これらの設定は、<code>php.ini</code>、Apache/IIS <br />設定、または <code>.htaccess</code> ファイルの編集により管理することができます。</p>';
 $string['globalswarning'] = '<p><strong>セキュリティ警告</strong>: Moodleを適切に動作させるため、<br />現在のPHP設定を変更する必要があります。<p/><p><code>register_globals=off</code>  の<em>設定を行って</em>ください。<p>この設定は、<code>php.ini</code>、Apache/IIS <br />設定、または <code>.htaccess</code> ファイルの編集により管理することができます。</p>';
 $string['googlemapkey'] = 'Google Maps API キー';
 $string['gotofirst'] = '最初の未翻訳ストリングに移動する';
@@ -660,6 +661,8 @@ $string['restrictmodulesfor'] = 'モジュールの制限';
 $string['reverseproxy'] = 'リバースプロクシ';
 $string['riskconfig'] = 'ユーザは、サイトの設定および動作を変更することができます。';
 $string['riskconfigshort'] = '設定リスク';
+$string['riskdataloss'] = 'ユーザは、大量のコンテンツまたは情報を破壊することができます。';
+$string['riskdatalossshort'] = 'データロスリスク';
 $string['riskmanagetrust'] = 'ユーザは、他のユーザの信頼度設定を変更することができます。';
 $string['riskmanagetrustshort'] = '信頼度管理';
 $string['riskpersonal'] = 'ユーザは、他のユーザの個人情報にアクセスすることができます。';

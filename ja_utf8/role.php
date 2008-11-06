@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // role.php - created with Moodle 2.0 dev (Build: 20081106) (2008110603)
 
 
 $string['addrole'] = '新しいロールを追加する';
@@ -7,7 +7,7 @@ $string['allow'] = '許可';
 $string['allowassign'] = 'ロールの割り当て許可';
 $string['allowoverride'] = 'ロールのオーバーライド許可';
 $string['allsiteusers'] = 'すべてのサイトユーザ';
-$string['assignanotherrole'] = '別のロールの割り当て';
+$string['assignanotherrole'] = '別のロールを割り当てる';
 $string['assignerror'] = 'ユーザ $a->user へのロール a->role 割り当て中にエラーが発生しました。';
 $string['assignglobalroles'] = 'システムロールの割り当て';
 $string['assignmentcontext'] = '割り当てコンテクスト';
@@ -112,17 +112,22 @@ $string['legacytype'] = 'レガシーロールタイプ';
 $string['listallroles'] = 'すべてのロールを一覧表示する';
 $string['localroles'] = 'ローカルに割り当てられたロール';
 $string['manageroles'] = 'ロールの管理';
+$string['maybeassignedin'] = 'このロールが割り当てられるコンテクストタイプ';
 $string['metaassignerror'] = 'メタコースを管理するケイパビリティが必要なため、このロールをユーザ「 $a 」に割り当てられませんでした。';
 $string['metaunassignerror'] = 'ユーザ「 $a 」のロールは自動的に再割り当てされました。代わりに、子コースのロールを解除してください。';
 $string['morethan'] = '$a 以上';
 $string['multipleroles'] = 'マルチロール';
 $string['my:manageblocks'] = 'マイ Moodleページブロックを管理する';
 $string['nocapabilitiesincontext'] = 'このコンテクストで利用できるケイパビリティはありません。';
+$string['notabletoassignroleshere'] = 'あなたは、ここでロールを割り当てることはできません。';
+$string['notabletooverrideroleshere'] = 'あなたは、ここでロールのパーミッションをオーバーライドすることはできません。';
 $string['notes:manage'] = 'ノートを管理する';
 $string['notes:view'] = 'ノートを表示する';
 $string['notset'] = '設定なし';
+$string['overrideanotherrole'] = '別のロールをオーバーライドする';
 $string['overridecontext'] = 'コンテクストのオーバーライド';
 $string['overridepermissions'] = 'パーミッションのオーバーライド';
+$string['overridepermissionsforrole'] = '$a->context のロール「 $a->role 」におけるパーミッションをオーバーライドする';
 $string['overridepermissionsin'] = '$a におけるパーミッションのオーバーライド';
 $string['overrideroles'] = 'ロールのオーバーライド';
 $string['overriderolesin'] = '$a ロールのオーバーライド';
