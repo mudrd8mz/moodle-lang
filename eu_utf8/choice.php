@@ -1,12 +1,10 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // choice.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['addmorechoices'] = 'Aukera gehiago gehitu';
 $string['allowupdate'] = 'Baimendu inkestaren eguneratzea';
 $string['answered'] = 'Erantzunda';
-$string['cannotsavechoice'] = 'Ezin izan da zure aukera gorde';
-$string['cannotupdatechoice'] = 'Ezin da zure aukera eguneratu datu-basean errorea gertatu baita';
 $string['choice'] = '$a aukera';
 $string['choice:choose'] = 'Inkestari erantzun';
 $string['choice:deleteresponses'] = 'Erantzunak ezabatu';
@@ -25,7 +23,7 @@ $string['fillinatleastoneoption'] = 'Gutxienez bi erantzun eman behar dituzu.';
 $string['full'] = '(Beteta)';
 $string['havetologin'] = 'Saioa hasi behar duzu erantzuna bidali ahal izateko.';
 $string['limit'] = 'Muga';
-$string['limitanswers'] = 'Onar daitekeen erantzunen kopurua mugatu';
+$string['limitanswers'] = 'Onar daitezkeen erantzunen kopurua mugatu';
 $string['modulename'] = 'Inkesta xumea';
 $string['modulenameplural'] = 'Inkesta xumeak';
 $string['mustchooseone'] = 'Erantzunen bat aukeratu behar duzu gorde aurretik. Ezer ez da gorde orain arte.';
@@ -44,7 +42,7 @@ $string['publishnot'] = 'Ez argitaratu emaitzak ikasleei';
 $string['removemychoice'] = 'Ezabatu nire aukera';
 $string['removeresponses'] = 'Erantzun guztiak ezabatu';
 $string['responses'] = 'Erantzunak';
-$string['responsesto'] = 'Erantzunak $a-rentzat';
+$string['responsesto'] = 'Erantzunak $a-(r)entzat';
 $string['savemychoice'] = 'Nire inkesta gorde';
 $string['showunanswered'] = 'Erakutsi erantzun gabekoen zutabea';
 $string['spaceleft'] = 'espazio erabilgarria';
@@ -53,5 +51,7 @@ $string['taken'] = 'Hartuta';
 $string['timerestrict'] = 'Mugatu erantzuteko denbora';
 $string['viewallresponses'] = 'Ikusi $a erantzun';
 $string['yourselection'] = 'Zure aukera';
+$string['cannotsavechoice'] = 'Ezin izan da zure aukera gorde'; // ORPHANED
+$string['cannotupdatechoice'] = 'Ezin da zure aukera eguneratu datu-basean errorea gertatu baita'; // ORPHANED
 
 ?>
