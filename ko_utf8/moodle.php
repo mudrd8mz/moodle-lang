@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081103) (2008101300)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081107) (2008110603)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1266,6 +1266,7 @@ $string['searchhelp'] = '여러 개의 단어로 검색할 수 있습니다.<br 
 word : 텍스트안에 이 단어와 관련된 어떤 것이라도 검색<br />
 +word : 정확히 일치하는 것만 검색<br />
 -word : 이 단어를 포함하지 않는 것만 보여주기';
+$string['searchoptions'] = '검색 조건';
 $string['searchresults'] = '검색 결과';
 $string['sec'] = '초';
 $string['secondstotime172800'] = '2 일';
@@ -1535,11 +1536,15 @@ $string['usernotconfirmed'] = '$a 를 확인 할 수 없습니다.';
 $string['userpic'] = '이용자 사진';
 $string['userprofilefor'] = '$a 에 대한 개인정보';
 $string['users'] = '사용자';
+$string['userselectorautoselectunique'] = '사용자가 검색되면 자동으로 선택';
+$string['userselectorpreserveselected'] = '검색에서 더 이상 일치하지 않더라도 선택된 사용자 유지';
+$string['userselectorsearchanywhere'] = '사용자명 검색 내용 일치';
 $string['usersnew'] = '새로운 사용자';
 $string['usersnoaccesssince'] = '비활동인 이용자 보기';
 $string['userzones'] = '이용자 영역';
 $string['usethiscourse'] = '이 강좌 사용하기';
 $string['usingexistingcourse'] = '개설된 강좌 사용하기';
+$string['valuealreadyused'] = '이미 이용된 값';
 $string['version'] = '버전';
 $string['view'] = '보기';
 $string['viewfileinpopup'] = '팝업창으로 보기';

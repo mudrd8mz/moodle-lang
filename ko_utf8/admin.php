@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081103) (2008101300)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081107) (2008110603)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -406,6 +406,7 @@ $string['frontpage'] = '초기화면';
 $string['frontpagebackup'] = '초기화면 백업';
 $string['frontpagedefaultrole'] = '기본 초기화면 역할';
 $string['frontpageloggedin'] = '로그인 후 초기화면 항목';
+$string['frontpageoverrides'] = '초기화면 권한 재설정';
 $string['frontpagequestions'] = '초기화면 퀴즈';
 $string['frontpagerestore'] = '초기화면 복원';
 $string['frontpageroles'] = '초기화면 역할';
@@ -667,6 +668,8 @@ $string['restrictmodulesfor'] = '다음에 대하여 모듈 제한';
 $string['reverseproxy'] = '리버스 프록시';
 $string['riskconfig'] = '이용자가 사이트의 설정과 작동을 변경할 수 있음';
 $string['riskconfigshort'] = '위험한 설정';
+$string['riskdataloss'] = '사용자가 다량의 정보나 내용을 파괴할 수 있음';
+$string['riskdatalossshort'] = '자료 소실 위험';
 $string['riskmanagetrust'] = '이용자가 다른 이용자의 인증 설정을 변경할 수 있음';
 $string['riskmanagetrustshort'] = '인증 관리';
 $string['riskpersonal'] = '이용자가 다른 이용자의 개인 정보에 접근할 수 있음';

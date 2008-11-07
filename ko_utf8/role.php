@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
+      // role.php - created with Moodle 2.0 dev (Build: 20081107) (2008110603)
 
 
 $string['addrole'] = '역할 추가';
@@ -11,6 +11,8 @@ $string['assignanotherrole'] = '다른 역할 부여';
 $string['assignerror'] = '사용자 $a->user 에게  $a->role 역할을 부여하는 중 오류';
 $string['assignglobalroles'] = '총괄 역할';
 $string['assignmentcontext'] = '부여 영역';
+$string['assignmentoptions'] = '부여 조건';
+$string['assignrolenameincontext'] = '$a->context 에서 \'$a->role\' 역할 부여';
 $string['assignroles'] = '역할 부여';
 $string['assignrolesin'] = '$a 에서 역할 부여';
 $string['backtoallroles'] = '역할 목록으로 되돌아 가기';
@@ -76,6 +78,8 @@ $string['errorexistsroleshortname'] = '단축역할명이 이미 존재합니다
 $string['existingusers'] = '$a 기존 사용자';
 $string['explainpermissions'] = '권한 설명';
 $string['explainpermissionsdetails'] = '영역 $a->context 에 $a->fullname 로 로그인 할 때 줄  $a->capability 권한';
+$string['explainpermissionsdoanything'] = '이 사용자가 moodle/site:doanything 권한을 가지고 있기 때문에 위의 표에서 has_capability 값이 false라도 이 사용자는 실제 거의 모든 상황에서 $a 권한을 가졌다고 간주될 것임을 유념하라.';
+$string['explainpermissionsinfo'] = '<p>표 사용법</p><ol><li>우선 어떠한 금지가 있는지를 찾는다. 만일 금지가 있다면, has_capability 는 false를 회신할 것이다.</li><li>그렇지 않다면, 왼쪽에서 오른쪽 그리고 위에서 아래로 읽어가면서 금지 및 허용의 수가 있는 첫 칸을 찾는다. 만일 그 칸에 금지보다 허용의 수가 많다면 has_capability는 true를 회신할 것이며 그렇지 않다면 false를 회신할 것이다.</li><li>만일 금지와 허용의 수가 동일하다면 has_capability는 false 값을 회신할 것이다.</li></ol>';
 $string['extusers'] = '기존 사용자들';
 $string['extusersmatching'] = '\'$a\' 와 일치하는 기존 사용자';
 $string['globalrole'] = '총괄 역할';
@@ -108,17 +112,22 @@ $string['legacytype'] = '규정된 역할 유형';
 $string['listallroles'] = '역할 목록';
 $string['localroles'] = '영역 역할';
 $string['manageroles'] = '역할 관리';
+$string['maybeassignedin'] = '이 역할을 부여받을 수 있는 영역 유형';
 $string['metaassignerror'] = '메타코스의 관리능력이 주어지지 않았기 때문에 사용자 \"$a\" 에게 이 역할을 부여할 수 없습니다.';
 $string['metaunassignerror'] = '사용자 \"$a\"의 역할이 자동적으로 재부여되었기 때문에 그 하위 강좌에 있는 역할은 해임해주기 바랍니다.';
 $string['morethan'] = '$a 보다 많이';
 $string['multipleroles'] = '복수 역할';
 $string['my:manageblocks'] = '내 공부방블럭 관리';
 $string['nocapabilitiesincontext'] = '이 영역에서는 아무 권한이 없음';
+$string['notabletoassignroleshere'] = '여기에서는 어떤 역할도 부여할 수 없음';
+$string['notabletooverrideroleshere'] = '여기에서는 어떤 역할의 권한도 재설정할 수 없음';
 $string['notes:manage'] = '알림 관리';
 $string['notes:view'] = '알림 보기';
 $string['notset'] = '상속';
+$string['overrideanotherrole'] = '다른 역할 재설정';
 $string['overridecontext'] = '영역 재설정';
 $string['overridepermissions'] = '권한 재설정';
+$string['overridepermissionsforrole'] = '$a->context 의 \'$a->role\' 역할에 대한 권한 재설정';
 $string['overridepermissionsin'] = '$a 에서 권한 재설정';
 $string['overrideroles'] = '역할 재설정';
 $string['overriderolesin'] = '$a 에서 역할 재설정';
