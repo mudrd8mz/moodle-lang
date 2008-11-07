@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081106) (2008110603)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1563,6 +1563,7 @@ $string['usersnoaccesssince'] = '次の期間以上活動していない';
 $string['userzones'] = 'ユーザゾーン';
 $string['usethiscourse'] = 'このコースを使用する';
 $string['usingexistingcourse'] = '既存のコースを使用する';
+$string['valuealreadyused'] = 'この設定値は、すでに使用されています。';
 $string['version'] = 'バージョン';
 $string['view'] = '表示';
 $string['viewfileinpopup'] = 'ポップアップウィンドウにファイルを表示する';
