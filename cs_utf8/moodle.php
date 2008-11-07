@@ -840,7 +840,7 @@ $string['loginstepsnone'] = '<p>Zdravíčko!</p>
 <p>K plnému přístupu do kurzů si budete muset vytvořit uživatelský účet.</p>
 <p>Stačí vám pouze vymyslet si uživatelské jméno a heslo a zadat jej do formuláře na této stránce!</p>
 <p>Pokud vás někdo předběhl a vaše uživatelské jméno si již zaregistroval, budete to muset zkusit znovu s jiným jménem.</p>';
-$string['loginto'] = 'Přihlásit se k $a';
+$string['loginto'] = 'Zapsat se do $a';
 $string['loginusing'] = 'Přihlaste se zde pomocí svého uživatelského jména a hesla';
 $string['logout'] = 'Odhlásit se';
 $string['logoutconfirm'] = 'Opravdu se chcete odhlásit?';
