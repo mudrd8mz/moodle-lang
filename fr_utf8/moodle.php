@@ -844,7 +844,7 @@ Chaque cours peut également nécessiter une clef d\'inscription à usage unique
    <li>Vous aurez alors un accès au cours complet. À votre prochaine visite il vous suffira d\'entrer votre nom d\'utilisateur et mot de passe (dans le formulaire ci-contre) afin de vous connecter et d\'accéder à tous les cours auxquels vous serez inscrit.</li>
    </ol>';
 $string['loginstepsnone'] = '<p>Bonjour !</p><p>Pour un accès complet aux cours vous devez vous créer un compte.</p><p>Pour cela, vous avez seulement besoin de choisir un nom d\'utilisateur et un mot de passe à entrer dans le formulaire de cette page.</p><p>Si ce nom d\'utilisateur est déjà utilisé, il vous sera demandé d\'en choisir un autre.</p>';
-$string['loginto'] = 'Se connecter sur $a';
+$string['loginto'] = 'S\'inscrire à $a';
 $string['loginusing'] = 'Connectez-vous ici en utilisant votre nom d\'utilisateur<br />et mot de passe';
 $string['logout'] = 'Déconnexion';
 $string['logoutconfirm'] = 'Voulez-vous vraiment vous déconnecter&nbsp;?';
