@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // gradeexport_ods.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // gradeexport_ods.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
 
 
-$string['modulename'] = 'Foglio elettronico OpenOffice';
-$string['ods:publish'] = 'Pubblicare file ODS valutazioni';
-$string['ods:view'] = 'Usare file ODS valutazioni';
+$string['modulename'] = 'Formato OpenDocument';
+$string['ods:publish'] = 'Pubblica le valutazioni in formato ODS';
+$string['ods:view'] = 'Usa l\'esportazione delle valutazioni in formato OpenDocument';
 
 ?>
