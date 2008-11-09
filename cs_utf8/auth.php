@@ -43,7 +43,7 @@ $string['auth_changepasswordhelp'] = 'Pokyny ke změně hesla';
 $string['auth_changepasswordhelp_expl'] = 'Zobrazit pokyny ke změně $a hesla. Tento text se buď a) zobrazí současně s <strong>URL pro změnu hesla</strong> či s interní stránkou Moodlu pro změnu hesla, nebo se b) zobrazí namísto <strong>URL pro změnu hesla</strong> či interní stránky Moodlu pro změnu hesla.';
 $string['auth_changepasswordurl'] = 'URL pro změnu hesla';
 $string['auth_changepasswordurl_expl'] = 'Zadejte URL, kam mají být přesměrováni uživatelé požadující změnu svého $a hesla. U volby <strong>Použij standardní stránku \'Změna hesla\'</strong> výše vyberte <strong>Ne</strong>.';
-$string['auth_changingemailaddress'] = 'Požádali jste o změnu emailové adresy z \"$a->oldemail\" na \"$a->newemail\". Z bezpečnostních důvodů zasíláme na novou adresu email, pomocí kterého potvrdíte, že nová adresa patří skutečně vám. Vaše emailová adresa bude změněna hned poté, co ji potvrdíte pomocí odkazu v zaslaném emailu.';
+$string['auth_changingemailaddress'] = 'Požádali jste o změnu e-mailové adresy z \"$a->oldemail\" na \"$a->newemail\". Z bezpečnostních důvodů zasíláme na novou adresu zprávu, jejímž prostřednictvím potvrdíte, že nová adresa patří skutečně vám. Vaše e-mailová adresa bude změněna hned poté, co ji potvrdíte pomocí odkazu v zaslané zprávě.';
 $string['auth_common_settings'] = 'Společná nastavení';
 $string['auth_data_mapping'] = 'Mapování dat';
 $string['auth_dbcantconnect'] = 'Nelze se připojit ke specifikované ověřovací databázi.';
@@ -89,24 +89,24 @@ $string['auth_dbuser_key'] = 'Uživatel DB';
 $string['auth_dbusernotexist'] = 'Nelze aktualizovat neexistujícího uživatele: $a';
 $string['auth_dbuserstoadd'] = 'Uživatelské položky k přidání: $a';
 $string['auth_dbuserstoremove'] = 'Uživatelské položky ke smazání: $a';
-$string['auth_emailchangecancel'] = 'Zrušit změnu emailu';
+$string['auth_emailchangecancel'] = 'Zrušit změnu e-mailu';
 $string['auth_emailchangepending'] = 'Změna čeká na potvrzení. Otevřete odkaz, který vám byl zaslán na adresu $a->preference_newemail.';
 $string['auth_emaildescription'] = 'Registrace na základě e-mailu je výchozí metoda ověřování. Při registraci si uživatel vybere vlastní uživatelské jméno a heslo. Poté je na jeho adresu odeslán e-mail obsahující zabezpečený odkaz na stránku, kde potvrdí zadané údaje. Při dalším přihlášení se již ověřuje pouze zadané uživatelské jméno a heslo proti údajům uloženým v databázi Moodlu.';
-$string['auth_emailnoemail'] = 'Nebylo možno Vám poslat email.';
+$string['auth_emailnoemail'] = 'Nebylo možno Vám poslat e-mail.';
 $string['auth_emailnoinsert'] = 'Nelze přidat Váš záznam do databáze!';
-$string['auth_emailnowexists'] = 'Nová emailová adresa, kterou jste zadali do vašeho profilu, je nyní používána jiným uživatelem. Vaše žádost o změnu emailové adresy byla z tohoto důvodu zrušena. Pokud na změně trváte, musíte opět požádat o změnu emailové adresy a uvést jinou novou adresu.';
-$string['auth_emailrecaptcha'] = 'Přidat ověřovací audiovizuální prvek na stránku pro registraci uživatelů, kteří se přihlašují emailem. Tímto ochráníte vaší stránku proti spammerů a pomůžete i dobré věci. Více podrobností najdete na <a href = \"http://recaptcha.net/learnmore.html\"> http://recaptcha.net/learnmore.html</a>';
+$string['auth_emailnowexists'] = 'Nová e-mailová adresa, kterou jste zadali do svého profilu, je nyní používána jiným uživatelem. Vaše žádost o změnu e-mailové adresy byla z tohoto důvodu zrušena. Pokud na změně trváte, musíte opět požádat o změnu e-mailové adresy a uvést jinou novou adresu.';
+$string['auth_emailrecaptcha'] = 'Přidat ověřovací audiovizuální prvek na stránku pro registraci uživatelů, kteří se přihlašují e-mailem. Ochráníte tak své stránky proti spammerům, a navíc pomůžete dobré věci. Více podrobností najdete na <a href = \"http://recaptcha.net/learnmore.html\"> http://recaptcha.net/learnmore.html</a>.';
 $string['auth_emailrecaptcha_key'] = 'Aktivovat reCAPTCHA';
 $string['auth_emailsettings'] = 'Nastavení';
 $string['auth_emailtitle'] = 'Registrace na základě e-mailu';
-$string['auth_emailupdate'] = 'Změna emailové adresy';
+$string['auth_emailupdate'] = 'Změna e-mailové adresy';
 $string['auth_emailupdatemessage'] = 'Zdravíčko, vy budete asi $a->fullname, že?
 
 Požádali jste o změnu emailové adresy vašeho účtu na stránkách $a->site. Prosíme, potvrďte tuto změnu na stránce uvedené níže:
 
 $a->url';
-$string['auth_emailupdatesuccess'] = 'Emailová adresa uživatele <em>$a->fullname</em> byla úspěšně změněna na <em>$a->email</em>.';
-$string['auth_emailupdatetitle'] = 'Potvrzení změny emailu na $a->site';
+$string['auth_emailupdatesuccess'] = 'E-mailová adresa uživatele <em>$a->fullname</em> byla úspěšně změněna na <em>$a->email</em>.';
+$string['auth_emailupdatetitle'] = 'Potvrzení změny e-mailu na $a->site';
 $string['auth_fcchangepasswordurl'] = 'Heslo - změna URL';
 $string['auth_fcconnfail'] = 'Připojení se nezdařilo s Errno: $a[0] a Error String: $a[1]';
 $string['auth_fccreators'] = 'Seznam skupin, jejichž členové jsou oprávněni vytvářet nové kurzy. Skupiny oddělujte středníkem. Názvy musejí být zadány přesně jako na serveru FirstClass, rozlišují se malá/VELKÁ písmena.';
@@ -135,7 +135,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'Používat server IMAP';
 $string['auth_imaptype'] = 'Typ serveru IMAP. Servery IMAP mohou používat různé typy ověřování a komunikace (IMAP authentication and negotiation).';
 $string['auth_imaptype_key'] = 'Typ';
-$string['auth_invalidnewemailkey'] = 'Chyba! Pokud se pokoušíte potvrdit změnu vaší emailové adresy, pravděpodobně jste nezkopírovali celou adresu (URL) stránky pro potvrzení této změny. Prosíme, zkopírujte zaslanou URL adresu a pokuste se potvrdit změnu znovu.';
+$string['auth_invalidnewemailkey'] = 'Chyba! Pokud se pokoušíte potvrdit změnu vaší e-mailové adresy, pravděpodobně jste nezkopírovali celou adresu (URL) stránky pro potvrzení této změny. Prosíme, zkopírujte zaslanou URL adresu a pokuste se potvrdit změnu znovu.';
 $string['auth_ldap_ad_create_req'] = 'Nelze vytvořit nový účet ve službě Active Directory. Ujistěte se, že jsou splněny všechny požadavky (LDAPS spojení, bind user má dostatečná práva apod.)';
 $string['auth_ldap_attrcreators'] = 'Seznam skupin a kontextů, jejichž členové mají oprávnění vytvářet atributy. Více skupin oddělte \';\'. Obvykle něco jako \'cn=teachers,ou=staff,o=myorg\'.';
 $string['auth_ldap_attrcreators_key'] = 'Tvůrce atributů';
@@ -223,7 +223,7 @@ $string['auth_nntpnotinstalled'] = 'Nelze použít ověření NNTP. PHP IMAP mod
 $string['auth_nntpport'] = 'Číslo portu serveru NNTP (většinou 119)';
 $string['auth_nntpport_key'] = 'Port';
 $string['auth_nntptitle'] = 'Používat server NNTP';
-$string['auth_nologindescription'] = 'Pomocný zásuvný modul, který brání uživateli v přihlášení do systému a vyřazuje všechny emaily, posílané tomuto uživateli. Lze používat pro <em>suspendování</em> uživatelských účtů.';
+$string['auth_nologindescription'] = 'Pomocný zásuvný modul, který brání uživateli v přihlášení do systému a vyřazuje všechny e-maily posílané tomuto uživateli. Lze používat pro <em>suspendování</em> uživatelských účtů.';
 $string['auth_nologintitle'] = 'Nepřihlašovat';
 $string['auth_nonedescription'] = 'Uživatelé si mohou vytvářet nová konta přímo bez ověření vůči externímu serveru nebo potvrzení přes e-mail. S touto volbou buďte opatrní - zvažte možné problémy se zabezpečením a správou uživatelů, které vám tato volba může způsobit.';
 $string['auth_nonetitle'] = 'Bez ověření';
@@ -232,7 +232,7 @@ $string['auth_ntlmsso_enabled'] = 'Zda se má povolit SSO přihlašování pomoc
 $string['auth_ntlmsso_enabled_key'] = 'Povolit';
 $string['auth_ntlmsso_subnet'] = 'Je-li nastaveno, dojde k ověření pomocí NTLM SSO pouze u klientů v dané podsíti. Formát: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Podsíť';
-$string['auth_outofnewemailupdateattempts'] = 'Vyčerpali jste všechny možné pokusy o změnu vaší emailové adresy. Vaše žádost o změnu byla zrušena.';
+$string['auth_outofnewemailupdateattempts'] = 'Vyčerpali jste všechny možné pokusy o změnu vaší e-mailové adresy. Vaše žádost o změnu byla zrušena.';
 $string['auth_pamdescription'] = 'Tato metoda využívá pro přístup k nativním uživatelským jménům na tomto serveru modul PAM.  Chcete-li tuto metodu používat, musíte si nainstalovat <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a>.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'Vaše heslo vypršelo. Chcete si je teď změnit?';
@@ -333,7 +333,7 @@ $string['pluginnotinstalled'] = 'Metoda ověřování uživatelů \'$a\' není n
 $string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'RPC vyjednávání překročilo časový limit';
 $string['selfregistration'] = 'Uživatelé se sami registrují pomocí';
-$string['selfregistration_help'] = 'Pokud zde vyberete nějaký způsob (typicky registraci na základě emailu), umožníte návštěvníkům vašich stránek založit si na vašem serveru svůj účet. Toto může vést k útoku spammerů formou hromadnému zakládání fiktivních účtů, které jsou poté využívány k publikování nevhodného obsahu (reklama, porno) ve fórech, blogu, uživatelských profilech apod. Pokud můžete, zkuste se této možnosti vyhnout, případně alespoň použijte nastavení povolených emailových domén.';
+$string['selfregistration_help'] = 'Pokud zde vyberete nějaký způsob (typicky registraci na základě e-mailu), umožníte návštěvníkům vašich stránek založit si na vašem serveru svůj účet. Toto může vést k útoku spammerů formou hromadnému zakládání fiktivních účtů, které jsou poté využívány k publikování nevhodného obsahu (reklama, porno) ve fórech, blogu, uživatelských profilech apod. Pokud můžete, zkuste se této možnosti vyhnout, případně alespoň použijte nastavení povolených e-mailových domén.';
 $string['sha1'] = 'SHA-1 hash';
 $string['shib_no_attributes_error'] = 'Vaše ověření prostřednictvím systému Shibboleth proběhlo zřejmě úspěšně, Moodle však neobdržel žádné údaje o uživateli. Ověřte prosím, zda váš poskytovatel identity (Identity Provider) předává potřebné údaje ($a) poskytovateli služeb (Service Provider), od něhož je přebírá Moodle, nebo informujte administrátora těchto stránek.';
 $string['shib_not_all_attributes_error'] = 'Moodle potřebuje znát některé údaje systému Shibboleth, které ovšem nejsou ve vašem případě k dispozici. Jedná se o následující údaje: $a<br />Obraťte se na administrátora těchto stránek nebo na vašeho poskytovatele identity.';
