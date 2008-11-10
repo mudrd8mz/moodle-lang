@@ -102,7 +102,7 @@ $string['auth_emailtitle'] = 'Registrace na základě e-mailu';
 $string['auth_emailupdate'] = 'Změna e-mailové adresy';
 $string['auth_emailupdatemessage'] = 'Zdravíčko, vy budete asi $a->fullname, že?
 
-Požádali jste o změnu emailové adresy vašeho účtu na stránkách $a->site. Prosíme, potvrďte tuto změnu na stránce uvedené níže:
+Požádali jste o změnu e-mailové adresy u svého účtu na stránkách $a->site. Potvrďte prosím tuto změnu na stránce uvedené níže:
 
 $a->url';
 $string['auth_emailupdatesuccess'] = 'E-mailová adresa uživatele <em>$a->fullname</em> byla úspěšně změněna na <em>$a->email</em>.';
