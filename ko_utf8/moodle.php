@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081107) (2008110603)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081110) (2008110603)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1161,6 +1161,7 @@ $string['previouslyselectedusers'] = '이미 선택된 사용자';
 $string['previoussection'] = '이전 섹션';
 $string['primaryadminsetup'] = '관리자 계정 설정';
 $string['profile'] = '개인정보';
+$string['profilenotshown'] = '이 개인정보 사항은 적어도 이 사람이 어느 한 강좌에 등록할 때까지 제시되지 않을 것입니다.';
 $string['publicdirectory'] = '공유 디렉토리';
 $string['publicdirectory0'] = '이 사이트를 공개하지 마세요.';
 $string['publicdirectory1'] = '이 사이트의 이름만 공개하세요.';

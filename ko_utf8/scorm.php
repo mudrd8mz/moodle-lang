@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20081110) (2008110603)
 
 
 $string['activation'] = '활성화';
@@ -188,5 +188,6 @@ $string['viewalluserreports'] = '$a 사용자 보고서 보기';
 $string['whatgrade'] = '시도 점수 주기';
 $string['width'] = '폭';
 $string['window'] = '프레임/윈도우창';
+$string['zlibwarning'] = '경고: 본 사이트에서는 PHP Zlib 압축이 가능하므로, 어떤 사용자는 다른 웹브라우저로 스콤 객체를 이미 실행해본 경험이 있을 수 있습니다.';
 
 ?>

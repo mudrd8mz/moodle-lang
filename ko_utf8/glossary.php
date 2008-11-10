@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080908) (2008090800)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20081110) (2008110603)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -117,7 +117,8 @@ $string['explainimport'] = '가져오기 할 파일을 구체적으로 적고, �
 $string['explainspecial'] = '문자로 시작하지 않는 항목 보기';
 $string['exportedentry'] = '내보낸 항목';
 $string['exportentries'] = '항목 내보내기';
-$string['exportfile'] = '게시물을 파일로 내보내기';
+$string['exportentriestoxml'] = '항목을  XML파일로 내보내기';
+$string['exportfile'] = '항목을 파일로 내보내기';
 $string['exportglossary'] = '용어집 내보내기';
 $string['exporttomainglossary'] = '주 용어집으로 내보내기';
 $string['filetoimport'] = '가져올 파일';
