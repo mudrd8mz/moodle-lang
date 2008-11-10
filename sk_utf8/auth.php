@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // auth.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['CASform'] = 'Voľba overovania';
@@ -102,7 +102,11 @@ $string['auth_emailrecaptcha_key'] = 'Povoliť prvok reCAPTCHA';
 $string['auth_emailsettings'] = 'Nastavenia';
 $string['auth_emailtitle'] = 'Emailové overovanie';
 $string['auth_emailupdate'] = 'Aktualizácia emailovej adresy';
-$string['auth_emailupdatemessage'] = 'Vyžiadali ste si zmenu Vašej emailovej adresy vo Vašom konte na portáli $a->site. Prosím kliknite na nasledovný odkaz vo vašom prehliadači na potvrdenie tejto zmeny.';
+$string['auth_emailupdatemessage'] = 'Dobrý deň $a->fullname,
+
+Vyžiadali ste si zmenu Vašej emailovej adresy vo Vašom konte na portáli $a->site. Prosím kliknite na nasledovný odkaz vo vašom prehliadači na potvrdenie tejto zmeny.
+
+$a->url';
 $string['auth_emailupdatesuccess'] = 'Emailová adresa používateľa <em>$a->fullname</em> bola úspešne aktualizovaná na <em>$a->email</em>.';
 $string['auth_emailupdatetitle'] = 'Potvrdenie emailovej aktualizácie na portáli $a->site';
 $string['auth_fcchangepasswordurl'] = 'Heslo - zmena URL';
