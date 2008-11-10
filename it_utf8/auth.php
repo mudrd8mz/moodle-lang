@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // auth.php - created with Moodle 2.0 dev (Build: 20081104) (2008101300)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -124,9 +124,9 @@ $string['auth_fcpasswd_key'] = 'Password';
 $string['auth_fctitle'] = 'Server FirstClass';
 $string['auth_fcuserid'] = 'Nome utente di FirstClass con privilegi di \'Subadministrator\'.';
 $string['auth_fcuserid_key'] = 'ID utente';
-$string['auth_fieldlock'] = 'Blocca valore';
+$string['auth_fieldlock'] = 'Campi bloccati nel profilo utente';
 $string['auth_fieldlock_expl'] = '<p><b>Blocca valore:</b>Se abilitato, impedirà  agli utenti e agli amministratori di Moodle di modificare il campo direttamente. Utilizzare questa opzione se si sta gestendo questi dati in un sistema di autenticazione esterno.</p>';
-$string['auth_fieldlocks'] = 'Campi bloccati nel profilo utente';
+$string['auth_fieldlocks'] = 'Blocca campi utente';
 $string['auth_fieldlocks_help'] = '<p>È possibile bloccare i campi relativi ai dati degli utenti. Questo può risultare utile per i siti dove i dati utente sono gestiti manualmente dagli amministratori, che possono modificare i record degli utenti o caricarli utilizzando la funzione \'Importa utenti\'. Se si bloccano campi richiesti da Moodle, accertarsi di fornire tali dati quando vengono registrati gli utenti, altrimenti la registrazione non sarà utilizzabile.</p><p>Prendete in considerazione l\'utilizzo dell\'opzione \'Libero se vuoto\' per evitare questo problema.</p>';
 $string['auth_imapchangepasswordurl_key'] = 'URL per cambio password';
 $string['auth_imapdescription'] = 'Questo metodo usa un server IMAP per controllare se il nome utente e la password dati sono validi.';
@@ -220,11 +220,11 @@ $string['auth_mnet_roamin'] = 'Gli utenti di questi host possono essere instrada
 $string['auth_mnet_roamout'] = 'I propri utenti possono essere instradati su questi host';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'Timeout in secondi per l\'autenticazione sul trasporto sul XMLRPC';
 $string['auth_mnetdescription'] = 'Gli utenti sono autenticati secondo la rete di diritti definita nelle impostazioni del Moodle Network';
-$string['auth_mnettitle'] = 'Modle Network';
+$string['auth_mnettitle'] = 'Moodle Network';
 $string['auth_multiplehosts'] = 'Possono essere elencate più macchine remote (es. host1.com;host2.com;host3.com)';
 $string['auth_nntpchangepasswordurl_key'] = 'URL per cambio password';
 $string['auth_nntpdescription'] = 'Questo metodo utilizza un server NNTP per controllare se il nome utente e la password dati sono validi.';
-$string['auth_nntphost'] = 'Indirizzo del server NNTP. Usa il numero IP, non il nome DNS.';
+$string['auth_nntphost'] = 'Indirizzo del server NNTP. Usa l\'indirizzo IP, non il nome DNS.';
 $string['auth_nntphost_key'] = 'Host';
 $string['auth_nntpnotinstalled'] = 'L\'autenticazione NNTP non può essere usata. Il modulo PHP IMAP non è installato.';
 $string['auth_nntpport'] = 'Porta server (119 è la più comune)';
