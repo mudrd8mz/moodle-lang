@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // tex.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
+      // tex.php - created with Moodle 1.9 (2007101509)
 
 
-$string['filtername'] = 'TeX  yozuvlar';
+$string['filtername'] = 'TeX  yozuvlar(shartli belgilar)';
 
 ?>

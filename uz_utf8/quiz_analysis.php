@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
+      // quiz_analysis.php - created with Moodle 1.9 (2007101509)
 
 
 $string['analysis'] = 'Savollar tahlili';
+$string['analysisdownload'] = 'Tahlilni yuklash';
 $string['analysisoptions'] = 'Tahlil parametrlarini o\'rnatish';
 $string['analysistitle'] = 'Savollar tahlili jadvali';
 $string['attemptsall'] = 'Barcha urinishlar';

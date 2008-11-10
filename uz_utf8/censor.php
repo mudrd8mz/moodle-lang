@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // censor.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
+      // censor.php - created with Moodle 1.9 (2007101509)
 
 
-$string['filtername'] = 'Syenzura uchun so\'z';
+$string['badwords'] = 'shit,fucked,fucker,fuck,dickhead, dick,cockhead,cock,cunt,asshole,arsehole,prick,bitch, jism,whore,slut,wanker, wank,bastard,dildo,masturbate, orgasm,penis,nigger, pussy,vagina';
+$string['filtername'] = 'Senzura uchun so\'z';
 
 ?>

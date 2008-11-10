@@ -1,10 +1,13 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
+      // block_course_list.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
-$string['allcourses'] = 'Ma\'murga barcha kurslar qulay';
+$string['adminview'] = 'Administrator ko\'rinishi(ko\'rishi)';
+$string['allcourses'] = 'Administratorga barcha kurslar qulay';
 $string['blockname'] = 'Kurslar ro\'yhati';
-$string['configadminview'] = 'Ma\'murga qulaylikni sozlash';
-$string['owncourses'] = 'Ma\'murga faqat uzining kurslari qulay';
+$string['configadminview'] = 'Administrator(Ma\'mur)ga qulaylikni sozlash';
+$string['confighideallcourseslink'] = 'Berkitish \"Hamma kurslar\" blokning pastki qismidagi yo\'l(link).Yo\'l(Link)ni berkitish administrator ko\'rishi( ko\'rinishi)ga ta\'sir etmaydi';
+$string['hideallcourseslink'] = 'Hamma kurslarga yo\'l(link)larni berkitish';
+$string['owncourses'] = 'Administratorga faqat uzining kurslari qulay';
 
 ?>

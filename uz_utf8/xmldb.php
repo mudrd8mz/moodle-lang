@@ -1,0 +1,133 @@
+<?PHP // $Id$ 
+      // xmldb.php - created with Moodle 1.9 (2007101509)
+
+
+$string['aftertable'] = 'Keyingi jadval';
+$string['back'] = 'Orqaga';
+$string['backtomainview'] = 'Asosiyga qaytish';
+$string['binaryincorrectlength'] = 'Ikki yoqlamali maydon uchun noto\'g\'ri uzunlik';
+$string['cannotuseidfield'] = '\"id\" maydonni kiritib bo\'lmayapti. Bu avtomatik tarzda raqamlanuvchi ustun.';
+$string['change'] = 'O\'zgartirish';
+$string['charincorrectlength'] = 'Vaqtinchalik maydon uchun noto\'g\'ri uzunlik';
+$string['check_bigints'] = 'Noto\'g\'ri DB integerlarini qidirish';
+$string['check_indexes'] = 'Tushirib qoldirilgan DB indekslarni qidirish';
+$string['checkbigints'] = 'Bigintlarni tekshirish';
+$string['checkindexes'] = 'Indexlarni tekshirish';
+$string['completelogbelow'] = 'Quyidagi qidiruvning tamomlangan loglarni ko\'ring';
+$string['confirmcheckbigints'] = 'Bu amal <a href=\"http://tracker.moodle.org/browse/MDL-11038\">bunda sizning Mudl serveringizdagi potentsial xato integer maydonlarni</a>, chaqiriladigan(shakllantirilayotgan)(ammo ishga tushurilmaydigan!) automatik tarzda kerakli SQL jumlalar MO da barcha aniqlangan integerlar qidiruvnini bajaradi, .<br /><br />
+Bir marta chaqirilganni nusxasini olishingiz va ozingizni SQL serveringizda ishga tushirishingiz mumkin(avval ma\'lumotlaringizni zahiralab qo\'yishni unutmang).<br /><br />
+Xato integerlarni topishga berishda Mudlni so\'nggi variantini(1.8, 1.9, 2.x ...)ishlatish tavsiya etiladi.<br /><br />
+Bu MO qarshi hech qanday amalni bajarmaydi(faqatgina uni o\'qiydi),shunday ekan siz istagan vaqtda uni ishga tushirishingiz mumkin.';
+$string['confirmcheckindexes'] = 'Bu amal <a href=\"http://tracker.moodle.org/browse/MDL-11038\">,bunda sizning Mudl serveringizdagi potentsial xato indexlarni</a>, chaqiriladigan(shakllantirilayotgan)(ammo ishga tushurilmaydigan!) automatik tarzda kerakli SQL jumlalarni hamma narsalarni yangi holatda saqlash uchun qidiruvni bajaradi<br /><br />
+Bir marta chaqirilganni nusxasini olishingiz va ozingizni SQL serveringizda ishga tushirishingiz mumkin(avval ma\'lumotlaringizni zahiralab qo\'yishni unutmang).<br /><br />
+Tushirib qoldirilgan indekslarni topishga berishda Mudlni so\'nggi variantini(1.8, 1.9, 2.x ...)ishlatish tavsiya etiladi.<br /><br />
+Bu MO qarshi hech qanday amalni bajarmaydi(faqatgina uni o\'qiydi),shunday ekan siz istagan vaqtda uni ishga tushirishingiz mumkin.';
+$string['confirmdeletefield'] = 'Maydonni haqiqatdan ham o\'chirib tashlamoqchimisiz';
+$string['confirmdeleteindex'] = 'Siz haqiqatdan ham indeksni o\'chirishingizga ishonchingiz komilmi?';
+$string['confirmdeletekey'] = 'Siz haqiqatdan ham kalitni o\'chirishingizga ishonchingiz komilmi?';
+$string['confirmdeletesentence'] = 'Siz haqiqatdan ham ushbu jumlani o\'chirishingizga ishonchingiz komilmi?';
+$string['confirmdeletestatement'] = 'Jumla va hamma gaplarni haqiqatdan ham o\'chirib tashlamoqchimisiz';
+$string['confirmdeletetable'] = 'Jadvalni haqiqatdan ham o\'chirib tashlamoqchimisiz';
+$string['confirmdeletexmlfile'] = 'Siz haqiqatdan ham faylni o\'chirishingizga ishonchingiz komilmi?';
+$string['confirmrevertchanges'] = 'Siz haqiqatdan ham o\'zgartirishlarni avvalgi holatiga qaytarmoqchimisiz';
+$string['create'] = 'Yaratish';
+$string['createtable'] = 'Jadval yaratish';
+$string['defaultincorrect'] = 'Noto\'g\'ri dastlabki berilgan (default)';
+$string['delete'] = 'O\'chirish';
+$string['delete_field'] = 'Maydonni o\'chirish';
+$string['delete_index'] = 'Indeksni o\'chirish';
+$string['delete_key'] = 'Kalitni o\'chirish';
+$string['delete_sentence'] = 'Gapni o\'chirish';
+$string['delete_statement'] = 'Jumlani(holatni) o\'chirish';
+$string['delete_table'] = 'Jadvalni o\'chirish';
+$string['delete_xml_file'] = 'XML faylini o\'chirish';
+$string['down'] = 'Pastga';
+$string['duplicate'] = 'Duplikat';
+$string['duplicatefieldname'] = 'Nomi mavjud boshqa maydon';
+$string['edit'] = 'Tahrirlash';
+$string['edit_field'] = 'Maydonni tahrirlash';
+$string['edit_index'] = 'Index(ko\'rsatkichni) tahrirlash';
+$string['edit_key'] = 'Kalitni tahrirlash';
+$string['edit_sentence'] = 'Gapni tahrirlash';
+$string['edit_statement'] = 'Jumlani(holatni) tahrirlash';
+$string['edit_table'] = 'Jadvalni tahrirlash';
+$string['edit_xml_file'] = 'XML faylni tahrirlash';
+$string['enumvaluesincorrect'] = 'Enum(hisob) maydoni tushunchalari noto\'g\'ri';
+$string['field'] = 'Maydon';
+$string['fieldnameempty'] = 'Maydon nomi bo\'sh';
+$string['fields'] = 'Maydonlar';
+$string['filenotwriteable'] = 'Yozilmaydigan fayl';
+$string['floatincorrectdecimals'] = 'Float maydon uchun decimal(o\'nlik)lar soni noto\'g\'ri';
+$string['floatincorrectlength'] = 'Float maydon uchun uzunlik noto\'g\'ri';
+$string['gotolastused'] = 'Oxirgi ishlatilgan fayl';
+$string['incorrectfieldname'] = 'Noto\'g\'ri nom';
+$string['index'] = 'Indeks(ko\'rsatkich)';
+$string['indexes'] = 'Indekslar';
+$string['integerincorrectlength'] = 'integer(butun) maydon uchun uzunlik noto\'g\'ri';
+$string['key'] = 'Kalit';
+$string['keys'] = 'Kalitlar';
+$string['listreservedwords'] = 'Zahira qilingan so\'zlar ro\'yxati<br/>(saqlash uchun ishlatilib <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> yangilangan)';
+$string['load'] = 'Yuklash';
+$string['main_view'] = 'Asosiy ko\'rinish';
+$string['missing'] = 'Tushirib qoldirish';
+$string['missingfieldsinsentence'] = 'Gapda maydonlarni tushirib qoldirish';
+$string['missingindexes'] = 'Tushirib qoldirilgan indekslar topildi';
+$string['missingvaluesinsentence'] = 'Gapda tushirib qoldirilgan tushunchalar(values)';
+$string['mustselectonefield'] = 'Siz maydon bilan bog\'liq amallar maydonini ko\'rish uchun bitta maydonni tanlashingiz kerak!';
+$string['mustselectoneindex'] = 'Siz indeks bilan bog\'liq amallar maydonini ko\'rish uchun bitta indeksni tanlashingiz kerak!';
+$string['mustselectonekey'] = 'Siz kalit bilan bog\'liq amallar maydonini ko\'rish uchun bitta kalitni tanlashingiz kerak!';
+$string['mysqlextracheckbigints'] = 'MySQL da bigintlar noto\'g\'ri belgilangan, talab etilgan SQLni ishga tuchirib hammasini tuzatish uchun chaqirish.';
+$string['new_statement'] = 'Yangi jumla(holat)';
+$string['new_table_from_mysql'] = 'MSQL dan yangi jadval';
+$string['newfield'] = 'Yangi maydon';
+$string['newindex'] = 'Yangi indeks';
+$string['newkey'] = 'Yangi kalit';
+$string['newsentence'] = 'Yangi gap';
+$string['newstatement'] = 'Yangi jumla(holat)';
+$string['newtable'] = 'Yangi jadval';
+$string['newtablefrommysql'] = 'MSQL dan yangi jadval';
+$string['nomissingindexesfound'] = 'Tushirib qoldirilgan indekslar topilmadi, sizning Ma\'lumotlar omboringiz(MO)boshqa amallar talab etmaydi';
+$string['nowrongintsfound'] = 'Xato integer(butun)lar topilmadi,sizning Ma\'lumotlar Omboringiz(MO)boshqa amallar talab etmaydi';
+$string['numberincorrectdecimals'] = 'Son maydoni uchun decimal(o\'nliklar)ni soni noto\'g\'ri';
+$string['numberincorrectlength'] = 'Son maydonining uzunligi noto\'g\'ri';
+$string['reserved'] = 'Zahiralangan';
+$string['reservedwords'] = 'Zahiralangan so\'zlar';
+$string['revert'] = 'Avvalgi holatiga qaytarish';
+$string['revert_changes'] = 'O\'zgartirishlarni avvalgi holatiga qaytarish';
+$string['save'] = 'Saqlash';
+$string['searchresults'] = 'Qidiruv natijalari';
+$string['selectaction'] = 'Amalmi tanlang';
+$string['selectdb'] = 'Ma\'lumotlar omborini tanlang';
+$string['selectfieldkeyindex'] = 'Maydonni/Kalitni/Indeksni tanlash';
+$string['selectonecommand'] = 'Iltimos,PHP kodni ko\'rish uchun ro\'yxatdan amalni tanlang';
+$string['selectonefieldkeyindex'] = 'Iltimos,PHP kodni ko\'rish uchun bitta Maydon/Kalit/indeksni ro\'yxatdan tanlang';
+$string['selecttable'] = 'Jadvalni tanlang:';
+$string['sentences'] = 'Gaplar';
+$string['statements'] = 'Jumlalar(holatlar)';
+$string['statementtable'] = 'Jumla(holat) jadvali';
+$string['statementtype'] = 'Jumla(holat) jadvali';
+$string['table'] = 'Jadval';
+$string['tables'] = 'Jadvallar';
+$string['test'] = 'Test(Sinov)';
+$string['textincorrectlength'] = 'Matn maydoni uchun uzunlik noto\'g\'ri';
+$string['unload'] = 'Yuklash';
+$string['up'] = 'Tepaga';
+$string['view'] = 'Ko\'rish';
+$string['view_reserved_words'] = 'Zahiralangan so\'zlarni ko\'rish';
+$string['view_structure_php'] = 'PHP tuzilmasini ko\'rish';
+$string['view_structure_sql'] = 'SQL tuzilmasini ko\'rish';
+$string['view_table_php'] = 'PHP jadvalini ko\'rish';
+$string['view_table_sql'] = 'SQL jadvalini ko\'rish';
+$string['viewedited'] = 'Tahrirlanganni ko\'rish';
+$string['vieworiginal'] = 'Originalni ko\'rish';
+$string['viewphpcode'] = 'PHP kodni ko\'rish';
+$string['viewsqlcode'] = 'SQL kodni ko\'rish';
+$string['wrong'] = 'Not\'g\'ri(Xato)';
+$string['wrongints'] = 'Xato integer(butun)lar topildi';
+$string['wronglengthforenum'] = 'Enum(hisob) maydoni uchun uzunlik noto\'g\'ri';
+$string['wrongnumberoffieldsorvalues'] = 'Gapda noto\'g\'ri tushuncha yoki maydonlar soni';
+$string['wrongreservedwords'] = 'Ishlatilayorgan zahiralangan so\'zlar<br>(agarda $CFG->prefix ishlatilayotgan bo\'lsa jadvallar nomi muhimligiga izoh bering)';
+$string['yesmissingindexesfound'] = 'MO da tushirib qoldirilgan bazi indekslar topildi.Bu erda ular haqida batafsil ma\'lumot va SQL serverda ishga tushirilagin kerakli SQL jumlalar(avval ma\'lumotlaringizni zahiralab qo\'yishni unutmang).<br/></br>. So\'ng bu utilitni boshqa tushirib qoldirilgan indekslarni tekshirishda ishga tushirish tavsiya etiladi.';
+$string['yeswrongintsfound'] = 'MO da tushirib qoldirilgan bazi integerlar topildi.Bu erda ular haqida batafsil ma\'lumot va SQL serverda ishga tushirilagin kerakli SQL jumlalar(avval ma\'lumotlaringizni zahiralab qo\'yishni unutmang).<br/></br>. So\'ng bu utilitni boshqa xato integerlar tekshirishda ishga tushirish tavsiya etiladi.';
+
+?>

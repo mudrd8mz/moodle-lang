@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
+      // message.php - created with Moodle 1.9 (2007101509)
 
 
 $string['addcontact'] = 'Suhbatdosh qo\'shish';
@@ -9,7 +9,8 @@ $string['ago'] = '$a orqaga';
 $string['allmine'] = 'Menga kelgan va mendan ketgan xabarlarda';
 $string['allstudents'] = 'Kurs o\'quvchilari orasidagi xabarlarda';
 $string['allusers'] = 'Barcha foydalanuvchilarning barcha xabaralarida';
-$string['beepnewmessage'] = 'YAngi xabar kelganda tovush chiqarish (brauzer imkoniyati bo\'lsa). Tovush chiqarish uchun QuickTime turdagi plagin o\'rnatish zarurati paydo bo\'lishi mumkin';
+$string['backupmessageshelp'] = 'Agarga ruxsat etilsa(yoqilgan bo\'lsa),keyin ma\'lumotlar sayt avtomatik tiklanishiga qo\'shiladi';
+$string['beepnewmessage'] = 'Yangi xabar kelganda tovush chiqarish (brauzer imkoniyati bo\'lsa). Tovush chiqarish uchun QuickTime turdagi plagin o\'rnatish zarurati paydo bo\'lishi mumkin';
 $string['blockcontact'] = 'Bu odamdan kelgan xabarlarni ta\'qiqlash';
 $string['blockedmessages'] = 'Ta\'qiqlangan foydalanuvchilardan/ga  $a xabarlar';
 $string['blocknoncontacts'] = 'Suhbatdoshlar ro\'yxatimda bo\'lmagan odamlardan xabarlar olinmasin';
@@ -23,17 +24,21 @@ $string['emailtagline'] = 'Ushbu xat – Sizga \"$a\" jo\'natgan xabar nushasi';
 $string['emptysearchstring'] = 'Nimani qidirayotganingizni ko\'rsatmadingiz';
 $string['formorethan'] = '... ohirgilar davomida';
 $string['includeblockedusers'] = 'Ta\'qiqlangan suhbatdoshlar xabarlari bilan';
-$string['incomingcontacts'] = 'xabar yuborgan odamlar ro\'yxati ($a odam)';
+$string['incomingcontacts'] = 'Xabar yuborgan odamlar ro\'yxati ($a odam)';
 $string['keywords'] = 'So\'zlar';
 $string['keywordssearchresults'] = 'Topilgan xabarlar: $a';
+$string['mailsent'] = 'Sizning ma\'lumotingiz elektron pochta orqali jo\'natildi';
 $string['maxmessages'] = 'Munozakara tarixida aks ettiriladigan xabarlar maksimal (mumkin bo\'lgan eng katta) soni';
 $string['message'] = 'Xabar';
 $string['messagehistory'] = 'Xabarlar tarixi';
 $string['messages'] = 'Xabarlar almashuvi';
 $string['messaging'] = 'Xabarlar almashuvi';
+$string['messagingdisabled'] = 'Ma\'lumotlar bu saytda jo\'natilish o\'chirilgan,ular o\'rniga elektron hatlar yuboriladi';
 $string['mycontacts'] = 'Suhbatdoshlarim';
-$string['newsearch'] = 'YAngidan qidirish';
-$string['nomessages'] = 'YAngi xabarlar yo\'q';
+$string['newonlymsg'] = 'Faqat yangisini ko\'rsat';
+$string['newsearch'] = 'Yangidan qidirish';
+$string['noframesjs'] = 'Fremlar(Aloqada – uzatilayotgan axborot paketi) va JavaScriptlarsiz versiyasi';
+$string['nomessages'] = 'Yangi xabarlar yo\'q';
 $string['nomessagesfound'] = 'Xabarlar topilmadi';
 $string['nosearchresults'] = 'Qidiruv natija bermadi';
 $string['offline'] = 'Saytda emas';
@@ -44,6 +49,7 @@ $string['onlyfromme'] = 'Men jo\'natgan xabarlarda';
 $string['onlymycourses'] = 'Mening kurslarim doirasida';
 $string['onlytome'] = 'Menga kelgan xabarlarda';
 $string['pagerefreshes'] = 'Ushbu sahifa har $a soniyada avtomatik ravishda yangilanadi';
+$string['readmessages'] = '$a ma\'lumotlarni o\'qish';
 $string['removecontact'] = 'Suhbatdosh ro\'yxatimdan o\'chirilsin';
 $string['savemysettings'] = 'Sozlashlarni saqlab qo\'yish';
 $string['search'] = 'Qidirish';
@@ -51,10 +57,13 @@ $string['searchforperson'] = 'Odamni qidirish';
 $string['searchmessages'] = 'Xabarlarni qidirish';
 $string['sendmessage'] = 'Xabar jo\'natish';
 $string['sendmessageto'] = '$a\'ga xabar jo\'natish';
+$string['sendmessagetopopup'] = '$a -ga yangi oynada ma\'lumot jo\'natish';
 $string['settings'] = 'Sozlashlar';
 $string['settingssaved'] = 'Sozlashlaringiz saqlanib qo\'yildi';
 $string['showmessagewindow'] = 'YAngi xabar olinganda avtomatik ravishda xabarlar darchasini aks ettirish (brauzerning imkoniyati bo\'lsa)';
-$string['timesent'] = 'Sana/vaqt';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'Internatda so\'nggi marotaba ko\'ringan daqiqalarim';
+$string['timesent'] = 'Sana/vaqt(jo\'natish)';
 $string['unblockcontact'] = 'Ushbu suhbatdoshdan olingan xabarlarni Razblokirovat soobsheniya ot etogo sobesednika';
 $string['unreadmessages'] = 'Uqilmagan xabarlar: $a';
 $string['userisblockingyou'] = 'Foydalanuvchi sizning xabarlaringizni olishni ta\'qiqlab qo\'ygan';

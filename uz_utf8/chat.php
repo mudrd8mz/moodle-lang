@@ -1,48 +1,73 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
+      // chat.php - created with Moodle 1.9 (2007101509)
 
 
 $string['beep'] = 'Signal';
+$string['chat:chat'] = 'Chatda suhbatlashish';
+$string['chat:deletelog'] = 'Chat loglarini o\'chirish';
+$string['chat:readlog'] = 'Chat loglarini o\'qish';
 $string['chatintro'] = 'Muqaddima';
-$string['chatname'] = 'CHat nomi';
-$string['chatreport'] = 'CHat-sessiya';
-$string['chattime'] = 'CHatning navbatdagi vaqti';
+$string['chatname'] = 'Chat nomi';
+$string['chatreport'] = 'Chat-sessiya';
+$string['chattime'] = 'Chatning navbatdagi vaqti';
+$string['configmethod'] = 'Normal shakldagi chat(suhbat) uslubi buyurtmachilarni doimiy serverga yangilashlar uchun aloqasini o\'z ichiga oladi.Bu hech qanday sozlovlar, moslashtiruvlar talab qilmaydi,lekin u serverda ko\'p suhbat qiluvchilar yuklanishini yaratishi mumkin.';
+$string['confignormalupdatemode'] = 'Chatxonasi yangilanishlari HTTP 1.1 ning tarkibiy qismidagi<em>Keep-Alive(Chatda qolish)</em> dan foydalangan holda hizmat ko\'rsatiladi, ammo bu hanuz bu server uchun og\'ir bo\'lib qoladi. Yana boshqa keng qamrovli uslub bu <em>Stream(Oqim)</em> strategiyasidir, bunda foydalanuvchilarga yangilanishlarni taqdim etish.<em>Stream(Oqim)</em>dan foydalanish nisbatan yaxshi qamrovlidir(chatd uslubiga o\'xshash) ammo sizning serveringiz tomonidan qo\'llab quvvatlanmasligi mumkin.';
 $string['configoldping'] = 'Foydalanuvchidan uzoq vaqt darak bo\'lmaganidan keyin, chatdan chiqib ketgan deb hisoblaymizmi?';
-$string['configrefreshroom'] = 'CHatning yangilanish vaqti? (soniyalarda).  Kichik qiymat – tezlik illyuziyasini beradi, lekin chat-rejimda ko\'p foydalanuvchilar bo\'lganda veb-serverni o\'ta yuklab qo\'yadi.';
+$string['configrefreshroom'] = 'Chatning yangilanish vaqti? (soniyalarda).  Kichik qiymat – tezlik illyuziyasini beradi,lekin chat-rejimda ko\'p foydalanuvchilar bo\'lganda veb-serverni o\'ta yuklab qo\'yadi.Agar siz <em>Stream(Oqim)</em> yangilanishidan foydalanishda siz yuqori chastotali yangilashni tanlashingiz mumkin. 2 ni sinab ko\'ring.';
 $string['configrefreshuserlist'] = 'Foydalanuvchilar ro\'yxatining yangilanish vaqti? (soniyalarda).';
+$string['configserverhost'] = 'Server daemon xizmati bo\'lgan host kompyuter nomi';
+$string['configserverip'] = 'Yuqoridagi hostnomga mos keluvchi raqamli IP manzilash';
 $string['configservermax'] = 'Mijozlarning maksimal ruxsat etilgan soni';
+$string['configserverport'] = 'daemon uchun serverda foydalanish porti';
 $string['currentchats'] = 'Hozirgi paytda ishlayotgan chatlar';
 $string['currentusers'] = 'Joriy foydalanuvchilar';
 $string['deletesession'] = 'Ushbu sessiyani o\'chirib tashlash';
 $string['deletesessionsure'] = 'Ushbu sessiyani chindan ham o\'chirib tashlamoqchimisiz?';
-$string['donotusechattime'] = 'CHatning ishlash vaqtini ko\'rsatmaslik';
-$string['enterchat'] = 'CHatga kirish';
+$string['donotusechattime'] = 'Chatning ishlash vaqtini ko\'rsatmaslik';
+$string['enterchat'] = 'Chatga kirish';
 $string['errornousers'] = 'Bironta ham foydalanuvchi yo\'q!';
+$string['explaingeneralconfig'] = 'Bu setlar   <kuchli>har doim</kuchli> foydalaniladi';
+$string['explainmethoddaemon'] = 'Bu sozlovlar kuchga ega<strong>faqat</strong> agar siz \"Chat server daemon\" ni  chat_method(suhbat uslubi) uchun tanlagan bo\'lsangiz';
+$string['explainmethodnormal'] = 'Bu sozlovlar kuchga ega<strong>faqat</strong> agar siz \"Normal method\" ni  chat_method(suhbat uslubi) uchun tanlagan bo\'lsangiz';
 $string['generalconfig'] = 'Asosiy konfiguratsiya';
-$string['helpchatting'] = 'CHatda muloqot olib borish uchun yordam';
+$string['helpchatting'] = 'Chatda muloqot olib borish uchun yordam';
 $string['idle'] = 'Fonom (Fon bilan, orqali)';
 $string['messagebeepseveryone'] = '$a hammaga signal jo\'natdi!';
 $string['messagebeepsyou'] = '$a Sizga signal jo\'natdi!';
 $string['messageenter'] = '$a chatga kirdi';
 $string['messageexit'] = '$a chatdan chiqib ketdi';
 $string['messages'] = 'Xabarlar';
+$string['method'] = 'chat uslubi';
 $string['methoddaemon'] = 'CHat serveri dyemoni';
 $string['methodnormal'] = 'Oddiy usul';
-$string['modulename'] = 'CHat';
-$string['modulenameplural'] = 'CHatlar';
+$string['modulename'] = 'Chat';
+$string['modulenameplural'] = 'Chatlar';
 $string['neverdeletemessages'] = 'Xabarlar sira o\'chirilmasin';
 $string['nextsession'] = 'Kyeyingi rejalashtirilgan sessiya';
 $string['noguests'] = 'Ushbu chat myehmonlar uchun ruxsat etilmagan';
 $string['nomessages'] = 'Bironta ham xabar yo\'q';
+$string['normalkeepalive'] = 'Qoldirilsin';
+$string['normalstream'] = 'Oqim';
+$string['noscheduledsession'] = 'Jadvalga olinmagan yig\'ilish';
+$string['oldping'] = 'Aloqa uzildi vaqt tugadi';
+$string['pastchats'] = 'O\'tgan safargi chat yig\'ilishlari';
+$string['refreshroom'] = 'Xonani yangilash';
+$string['refreshuserlist'] = 'Foydalanuvchi ro\'yxatini yangilash';
+$string['removemessages'] = 'Barcha xabarlani olib tashlash';
 $string['repeatdaily'] = 'Har kuni ushbu paytda';
 $string['repeatnone'] = 'Sessiyalarni takror etmaslik';
 $string['repeattimes'] = 'Sessiyalarni takrorlash';
 $string['repeatweekly'] = 'Har hafta ushbu paytda';
 $string['savemessages'] = 'Xotirada saqlanib turiladigan xabarlar soni';
 $string['seesession'] = 'Sessiyani ko\'rib chiqish';
-$string['sessions'] = 'CHat-sessiyalar';
-$string['strftimemessage'] = '%%H:%%M';
+$string['serverhost'] = 'Server nomi';
+$string['serverip'] = 'Server ip';
+$string['servermax'] = 'Maksimum foydalanuvchilar';
+$string['serverport'] = 'Server porti';
+$string['sessions'] = 'Chat-sessiyalar';
+$string['strftimemessage'] = '%%S:%%M';
 $string['studentseereports'] = 'Sessiyalarni hamma ko\'rishi mumkin';
+$string['updatemethod'] = 'Taftish qilish uslubi';
 $string['viewreport'] = 'Oldingi chat-sessiyalarni ko\'rish';
 
 ?>

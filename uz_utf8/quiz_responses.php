@@ -1,7 +1,11 @@
 <?PHP // $Id$ 
-      // quiz_responses.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
+      // quiz_responses.php - created with Moodle 1.9 (2007101509)
 
 
 $string['pagesize'] = 'Bitta sahifadagi urinishlar soni:';
+$string['reportresponses'] = 'Detallashtirilgan javoblar';
+$string['responses'] = 'Detallashtirilgan javoblar';
+$string['responsesoptions'] = 'Javob variantlari';
+$string['responsestitle'] = 'Detallashtirilgan javoblar';
 
 ?>

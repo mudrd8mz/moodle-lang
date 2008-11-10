@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
+      // forum.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['addanewdiscussion'] = 'Ushbu mavzuni muhokama uchun qo\'shish';
@@ -44,6 +44,7 @@ $string['forcesubscribeq'] = 'Zaruriy a\'zolik';
 $string['forum'] = 'Forum';
 $string['forumintro'] = 'Forumda chiqish qilish';
 $string['forumname'] = 'Forum nomi';
+$string['forumposts'] = 'Forum jo\'natmalari';
 $string['forums'] = 'Forumlar';
 $string['forumtype'] = 'Forum tipi';
 $string['generalforum'] = 'Umumiy muhokama uchun standart forum';
@@ -81,6 +82,7 @@ $string['nownotsubscribed'] = '$a->name endi e-mail ga \'$a->forum\' forumning x
 $string['nowsubscribed'] = '$a->name e-mail ga \'$a->forum\' forumning xabarlari nusxasini qabul qiladi.';
 $string['numposts'] = '$a - xabarlar';
 $string['olderdiscussions'] = 'Eski muhokamalar';
+$string['oldertopics'] = 'Eski mavzular';
 $string['openmode0'] = 'So\'rash va javob berish mumkin emas';
 $string['openmode1'] = 'So\'rash mumkin emas, javob berish mumkin';
 $string['openmode2'] = 'Ham so\'rash, ham javob berish mumkin';

@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080501) (2008030700)
+      // auth.php - created with Moodle 1.9 (2007101509)
 
 
-$string['auth_dbdescription'] = 'Bu uslubda login/parol juftligini tyekshirish uchun tashqi ma\'lumotlar bazasi qo\'llaniladi.  YAngi ro\'yxat yozuvi yaratish jarayonida maydonchalardagi ma\'lumotlar tizimga ko\'chirilishi mumkin.';
+$string['auth_dbdescription'] = 'Bu uslubda login/parol juftligini tyekshirish uchun tashqi ma\'lumotlar bazasi qo\'llaniladi.  Yangi ro\'yxat yozuvi yaratish jarayonida maydonchalardagi ma\'lumotlar tizimga ko\'chirilishi mumkin.';
 $string['auth_dbextrafields'] = '<p> Bu qo\'shimcha maydonchalar.  Bu yerda ko\'rsatilgan tashqi ma\'lumotlar bazasi maydonchalaridan olingan ma\'lumotlar bilan ba\'zi foydalanuvchi maydonchalarining dastlabki to\'ldirilishini tanlashingiz mumkin. </p><p> sukunat bo\'yicha sozlashlarda, maydonchalar to\'ldirilmaydi.</p><p> Har qanday holda, foydalanuvchi tizimga kirgandan so\'ng barcha maydonchalarni tahrir qilishi mumkin.</p>';
 $string['auth_dbfieldpass'] = 'Parolni o\'z ichiga olgan maydoncha nomi';
 $string['auth_dbfielduser'] = 'Loginni o\'z ichiga olgan maydoncha nomi';
@@ -41,14 +41,22 @@ $string['auth_multiplehosts'] = 'Xostlar bir nyechta bo\'lganda ular quyidagicha
 $string['auth_nntpdescription'] = 'Ushbu uslub login va parol mosligini aniqlash uchun NNTP-serverdan foydalanadi.';
 $string['auth_nntphost'] = 'NNTP-server manzili. IP-manzildan foydalaning, DNS-nomdan emas.';
 $string['auth_nntpport'] = 'Server porti raqami (odatda, 119)';
+$string['auth_nntpport_key'] = 'Port';
 $string['auth_nntptitle'] = 'NNTP-serverdan foydalanish';
+$string['auth_nologintitle'] = 'Kirish yo\'q';
 $string['auth_nonedescription'] = 'Foydalanuvchilar darhol, tashqi serverdan identifiktsiyasiz va elyektron pochta orqali tasdiqlashsiz, ruxsatdan o\'tib hisob yozuvlarini yaratishlari mumkin. E\'tibor byering, ushbu opsiyadan foydalanishda havfsizlik va paydo bo\'lishi mumkin boshqarish muammolari to\'g\'risida unutmang.';
 $string['auth_nonetitle'] = 'autentifiktsiyadan foydalanmaslik';
 $string['auth_pop3description'] = 'Ushbu uslub login/parol juftligi mosligi va to\'g\'riligini tyekshirish uchun POP3-serverdan foydalanadi.';
 $string['auth_pop3host'] = 'POP3-server manzili. IP-manzildan foydalaning, DNS-nomdan emas.';
+$string['auth_pop3host_key'] = 'Host';
+$string['auth_pop3mailbox_key'] = 'Pochta qutisi';
 $string['auth_pop3port'] = 'Server porti raqami (odatda, 110)';
 $string['auth_pop3title'] = 'POP3-serverdan foydalanish';
 $string['auth_pop3type'] = 'Server turi. Agar serveringiz syertifikatlarga asoslangan himoyadan foydalansa, pop3cert dan foydalaning.';
+$string['auth_pop3type_key'] = 'Turi';
+$string['auth_radiusnasport_key'] = 'Port';
+$string['auth_remove_delete'] = 'Ichki to\'liq o\'chirish';
+$string['auth_shibboleth_select_member'] = 'Men ... ni a\'zosiman';
 $string['auth_user_create'] = 'Foydalanuvchilar yaratishga ruxsat byerish';
 $string['auth_user_creation'] = 'YAngi (anonim) foydalanuvchilar hisob yozuvlarini autentifiktsiyaning tashqi manbasida yaratib elyektron pochta orqali tasdiqlashlari mumkin. Agar bunga ruxsat byersangiz, foydalanuvchini kiritish uchun modul aniqlagan opsiyalarni konfigurtsiyalashni unutmang.';
 $string['auth_usernameexists'] = 'Tanlangan login mavjud. Boshqasini tanlang.';
