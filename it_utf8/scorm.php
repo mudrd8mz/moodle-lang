@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // scorm.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
 
 
 $string['activation'] = 'Attivazione';
+$string['activityloading'] = 'L\'attività partirà in';
+$string['activitypleasewait'] = 'Caricamento in corso...';
 $string['advanced'] = 'Avanzate';
 $string['asset'] = 'Asset';
 $string['assetlaunched'] = 'Asset - Visualizzato';
@@ -17,11 +19,11 @@ $string['badmanifest'] = 'Trovati alcuni errori nel manifest: controlla l\'elenc
 $string['badpackage'] = 'Sono stati riscontrati alcuni problemi con il pacchetto selezionato. Si prega di controllarlo e riprovare.';
 $string['browse'] = 'Visita';
 $string['browsed'] = 'Visitato';
-$string['browsemode'] = 'Modalità di visita';
+$string['browsemode'] = 'Modalità visita';
 $string['browserepository'] = 'Naviga archivio';
 $string['chooseapacket'] = 'Scegli o aggiorna un pacchetto';
 $string['completed'] = 'Completato';
-$string['confirmloosetracks'] = 'ATTENZIONE: Il pacchetto sembra essere cambiato o modificato. Se la struttura del pacchetto è cambiata, alcuni tracciamenti degli utenti potrebbero essere persi durante il processo di aggiornamento.';
+$string['confirmloosetracks'] = 'ATTENZIONE: Il pacchetto sembra essere stato cambiato o modificato. Se la struttura del pacchetto è cambiata, alcuni tracciamenti degli utenti potrebbero essere persi durante il processo di aggiornamento.';
 $string['contents'] = 'Contenuti';
 $string['coursepacket'] = 'Pacchetto del corso';
 $string['coursestruct'] = 'Struttura del corso';
@@ -34,7 +36,7 @@ $string['domxml'] = 'Libreria esterna DOMXML';
 $string['element'] = 'Elemento';
 $string['enter'] = 'Entra';
 $string['entercourse'] = 'Entra nel corso';
-$string['errorlogs'] = 'Errori';
+$string['errorlogs'] = 'Log degli errori';
 $string['everyday'] = 'Ogni giorno';
 $string['everytime'] = 'Ogni volta che è usato';
 $string['exit'] = 'Esci dal corso';
@@ -125,9 +127,12 @@ $string['scorm:skipview'] = 'Saltare pagina introduttiva';
 $string['scorm:viewreport'] = 'Visualizzare risultati';
 $string['scorm:viewscores'] = 'Visualizzare punteggi';
 $string['scormcourse'] = 'Corso';
+$string['scormloggingoff'] = 'API Logging: Off';
+$string['scormloggingon'] = 'API Logging: On';
 $string['scrollbars'] = 'Permettere lo scorrimento della finestra';
 $string['sided'] = 'Sul lato sinistro della pagina';
 $string['skipview'] = 'Agli studenti non viene mostrata la pagina della struttura del pacchetto';
+$string['slashargs'] = 'ATTENZIONE: l\'opzione slash arguments non è abilitata, alcune funzioni potrebbero non comportarsi correttamente.';
 $string['stagesize'] = 'Dimensione Frame/Finestra';
 $string['started'] = 'Iniziato il';
 $string['status'] = 'Stato';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // auth.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -126,7 +126,7 @@ $string['auth_fcuserid'] = 'Nome utente di FirstClass con privilegi di \'Subadmi
 $string['auth_fcuserid_key'] = 'ID utente';
 $string['auth_fieldlock'] = 'Blocca valore';
 $string['auth_fieldlock_expl'] = '<p><b>Blocca valore:</b>Se abilitato, impedirà  agli utenti e agli amministratori di Moodle di modificare il campo direttamente. Utilizzare questa opzione se si sta gestendo questi dati in un sistema di autenticazione esterno.</p>';
-$string['auth_fieldlocks'] = 'Blocca campi utente';
+$string['auth_fieldlocks'] = 'Campi bloccati nel profilo utente';
 $string['auth_fieldlocks_help'] = '<p>È possibile bloccare i campi relativi ai dati degli utenti. Questo può risultare utile per i siti dove i dati utente sono gestiti manualmente dagli amministratori, che possono modificare i record degli utenti o caricarli utilizzando la funzione \'Importa utenti\'. Se si bloccano campi richiesti da Moodle, accertarsi di fornire tali dati quando vengono registrati gli utenti, altrimenti la registrazione non sarà utilizzabile.</p><p>Prendete in considerazione l\'utilizzo dell\'opzione \'Libero se vuoto\' per evitare questo problema.</p>';
 $string['auth_imapchangepasswordurl_key'] = 'URL per cambio password';
 $string['auth_imapdescription'] = 'Questo metodo usa un server IMAP per controllare se il nome utente e la password dati sono validi.';

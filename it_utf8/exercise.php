@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.5 ALPHA (2005050600)
+      // exercise.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
 
 
 $string['absent'] = 'Assente';
@@ -47,6 +47,7 @@ $string['enterpassword'] = 'Inserisci Password';
 $string['entriessaved'] = 'Termine salvato';
 $string['errorbanded'] = 'Errore legato';
 $string['excellent'] = 'Eccellente';
+$string['exercise:assess'] = 'Valuta gli esercizi';
 $string['exerciseassessments'] = 'Valutazioni esercizio';
 $string['exercisefeedback'] = 'Feedback esercizio';
 $string['exercisesubmissions'] = 'Invii esercizio';
@@ -55,7 +56,7 @@ $string['generalcomment'] = 'Commento generale';
 $string['good'] = 'Buono';
 $string['gradeassessment'] = 'Voto della valutazione';
 $string['gradeforassessment'] = 'Voto per la valutazione';
-$string['gradeforstudentsassessment'] = 'Voto per $a valutazione ';
+$string['gradeforstudentsassessment'] = 'Voto per $a valutazione';
 $string['gradeforsubmission'] = 'Voto per l\'invio';
 $string['gradetable'] = 'Tabella voto';
 $string['gradinggrade'] = 'Voto di classificazione';
@@ -86,8 +87,8 @@ $string['noexercisedescriptionssubmitted'] = 'Non sono stata inviate le descrizi
 $string['nosubmissions'] = 'Nessun invio';
 $string['notassessedyet'] = 'Non ancora valutato';
 $string['notavailable'] = 'Non disponibile';
-$string['noteonassessmentelements'] = 'Notare che la votazione &egrave; spezzettata in un numero di \' elementi di votazione\'.<br/> Questo rende il porcesso di votazione pi&ugrave; facile e pi&ugrave; consistente. In qualit&agrave;  di docente, bisdogna aggiungere questi <br/> Elementi prima di rendere disponibile  agli studenti la votazione.
-Per farlo, <br/> cliccate sull\'esercizio nel corso, se non ci fossero elementi vi verr&agrave;  chiesto <br /> di aggiungerli. Potete cambiare il numero di elementi utilizzando il pannello Modifica esercizio, <br/> gli elementi stessi possono essere modificati dal pannello \"Gestire l\'Esercizio\".';
+$string['noteonassessmentelements'] = 'Notare che la votazione &egrave; spezzettata in un numero di \' elementi di votazione\'.<br/> Questo rende il porcesso di votazione pi&ugrave; facile e pi&ugrave; consistente. In qualit&agrave;  di docente, bisdogna aggiungere questi <br/> Elementi prima di rendere disponibile  agli studenti la votazione.
+Per farlo, <br/> cliccate sull\'esercizio nel corso, se non ci fossero elementi vi verr&agrave;  chiesto <br /> di aggiungerli. Potete cambiare il numero di elementi utilizzando il pannello Modifica esercizio, <br/> gli elementi stessi possono essere modificati dal pannello \"Gestire l\'Esercizio\".';
 $string['noteongradinggrade'] = 'Questo voto &egrave; una misura di quanto bene concordi la vostra votazione con la votazione del <br/> vostro lavoro da parte del $a. Pi&ugrave; &egrave; alto il voto e pi&ugrave; &egrave; alto l\'accordo.';
 $string['noteonstudentassessments'] = '{Grade from student / Grading Grade for assessment}';
 $string['notgraded'] = 'Non valutato';
@@ -158,7 +159,7 @@ $string['teacherscomment'] = 'Commento del docente';
 $string['theexercise'] = 'Esercizio';
 $string['theexerciseandthesubmissionby'] = 'L\'Esercizio e l\'Invio da parte di $a';
 $string['thegradeis'] = 'Il voto &egrave; $a';
-$string['thereisfeedbackfromthe'] = 'C\'&egrave; un feedback da parte del $a ';
+$string['thereisfeedbackfromthe'] = 'C\'&egrave; un feedback da parte del $a';
 $string['thisisaresubmission'] = 'Questo &egrave; un Reinvio da parte di $a. <br/> La vostra valutazione dei loro invii precedenti &egrave; mostrata. <br/> Dopo aver controllato il nuovo invio, si prega di correggere questa valutazione<br/> e di cliccare su uno dei pulsanti a fondo pagina.';
 $string['title'] = 'Titolo';
 $string['typeofscale'] = 'tipo di scala';
