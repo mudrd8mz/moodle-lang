@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20081111) (2008110603)
 
 
 $string['allattempts'] = 'すべての受験';
@@ -36,8 +36,9 @@ $string['firstattemptscount'] = '最初の受験数';
 $string['frequency'] = '頻度';
 $string['intended_weight'] = '意図された問題加重';
 $string['kurtosis'] = '評点分布の尖度 ($a)';
-$string['lastcalculated'] = '最終計算日時 $a->lastcalculated より $a->count attempts 件の受験がありました。';
+$string['lastcalculated'] = '最終計算 $a->lastcalculated 前より $a->count 件の受験がありました。';
 $string['median'] = '評点の中央値 ($a)';
+$string['negcovar'] = '受験評点総計における評点の負の共分散';
 $string['nostudentsingroup'] = 'このグループには、まだ学生が登録されていません。';
 $string['optiongrade'] = '部分点';
 $string['position'] = 'ポジション';

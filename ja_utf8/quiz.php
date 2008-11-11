@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20081111) (2008110603)
 
 
 $string['1day'] = '1日';
@@ -596,7 +596,7 @@ $string['servers'] = 'サーバ';
 $string['serverurl'] = 'サーバURI';
 $string['shortanswer'] = '記述問題';
 $string['show'] = '表示';
-$string['showall'] = 'すべての問題を1ページに表示する。';
+$string['showall'] = 'すべての問題を1ページに表示する';
 $string['showbreaks'] = '改ページ (Page break) を表示する';
 $string['showcorrectanswer'] = 'フィードバックの中に正解を表示しますか?';
 $string['showdetailedmarks'] = '評点の詳細を表示する';
