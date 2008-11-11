@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // qtype_multichoice.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['addingmultichoice'] = 'Tilføj et multiple choice spørgsmål';
@@ -19,8 +19,8 @@ $string['editingmultichoice'] = 'Redigere et Multiple Choice spørgsmål';
 $string['errfractionsaddwrong'] = 'De positive point du har valgt giver ikke 100%%<br />I stedet giver de $a%%';
 $string['feedback'] = 'Tilbagemelding';
 $string['fillouttwochoices'] = 'Der skal minimum være to svarmuligheder. Svar der er tomme vil ikke blive brugt.';
-$string['fractionsaddwrong'] = 'Den samlede procentsum er ikke 100%%<br/>Den samlede procentsum er $a%%<br/>Ønsker du at vende tilbage ot rette det?';
-$string['fractionsnomax'] = 'Et af svarene bør give 100%% så det er<br/>muligt at få fuld point for dette spørgsmål.<br/>Ønsker du at vende tilbage og rette det?';
+$string['fractionsaddwrong'] = 'Den samlede procentsum er ikke 100%%<br />Den samlede procentsum er $a%%<br />Ønsker du at vende tilbage ot rette det?';
+$string['fractionsnomax'] = 'Et af svarene bør give 100%% så det er<br />muligt at få fuld point for dette spørgsmål.<br />Ønsker du at vende tilbage og rette det?';
 $string['incorrectfeedback'] = 'Respons på forkert svar';
 $string['notenoughanswers'] = 'Denne type spørgsmål kræver mindst $a svar.';
 $string['overallcorrectfeedback'] = 'Tilbagemelding for alle korrekte svar.';

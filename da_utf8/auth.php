@@ -78,7 +78,7 @@ $string['auth_emailnoemail'] = 'Forsøgte forgæves at sende en e-mail!';
 $string['auth_emailnowexists'] = 'Den e-mail-adresse du prøvede at angive i din profil er taget af en anden efter at du skrev den. Dit forsøg på at ændre adressen er derfor annulleret, men du kan prøve igen med en anden adresse.';
 $string['auth_emailtitle'] = 'Email-baseret godkendelse';
 $string['auth_emailupdatemessage'] = 'Kære $a->fullname, Du har bedt om ændring af din e-mail-adresse i din profil på $a->site. Ændringen gennemføres når du har åbnet dette link i din browser: $a->url';
-$string['auth_emailupdatesuccess'] = '<em>$a->fullname</em>\'s e-mail-adresse er ændret til <em>$a->email</em>.Næste';
+$string['auth_emailupdatesuccess'] = '<em>$a->fullname</em>\'s e-mail-adresse er ændret til <em>$a->email</em>.';
 $string['auth_emailupdatetitle'] = 'Bekræftelse på ændring af e-mail-adresse på $a->site';
 $string['auth_fcchangepasswordurl'] = 'URL til ændring af adgangskode';
 $string['auth_fccreators'] = 'Liste af grupper hvis medlemmer kan oprette nye kurser. Adskil flere grupper med \';\'. Navne skal staves nøjagtig som på FirstClass serveren. Systemet er case-sensitivt.';
@@ -105,7 +105,7 @@ $string['auth_imapport_key'] = 'Port';
 $string['auth_imaptitle'] = 'Brug en IMAP server';
 $string['auth_imaptype'] = 'IMAP server typen. IMAP servere kan have forskellige typer godkendelser.';
 $string['auth_imaptype_key'] = 'Type';
-$string['auth_invalidnewemailkey'] = 'Fejl: Hvis du prøver at bekræfte en ny e-mail-adresse er der sket en fejl. Prøv igen at gå ind på den internetadresse du har fået tilsendt.Næste';
+$string['auth_invalidnewemailkey'] = 'Fejl: Hvis du prøver at bekræfte en ny e-mail-adresse er der sket en fejl. Prøv igen at gå ind på den internetadresse du har fået tilsendt.';
 $string['auth_ldap_auth_user_create_key'] = 'Opret brugere eksternt';
 $string['auth_ldap_bind_dn'] = 'Hvis du bruger bind-user til søgning, skal det angives her. Noget  med \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_pw'] = 'Password for bind-user.';
@@ -188,8 +188,7 @@ $string['auth_shib_only_description'] = 'Benyt denne mulighed hvis Shibboleth-go
 $string['auth_shib_username_description'] = 'Navnet på Shibboleth webserverens environment variabel der skal benyttes som Moodles brugernavn.';
 $string['auth_shibboleth_login'] = 'Shibboleth Login';
 $string['auth_shibboleth_manual_login'] = 'Manuelt login';
-$string['auth_shibboleth_select_member'] = 'Jeg er medlem af..';
-$string['auth_shibbolethdescription'] = 'Ved at benytte denne metode kan man forbinde Moodle til en eksisterende Shibboleth server for at checke og oprette nye brugerkonti.';
+$string['auth_shibboleth_select_member'] = 'Jeg er medlem af...';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Opdater lokale data';
 $string['auth_updatelocal_expl'] = '<p><b>Opdater lokale data:</b> Hvis aktiveret vil felter blive opdateret (fra extern godkendelse) hver gang brugeren logger ind eller der er en brugersynkronisering. Felter der er sat til lokal opdatering bør ikke låses. </p>';
@@ -218,7 +217,7 @@ $string['md5'] = 'MD5 kryptering';
 $string['passwordhandling'] = 'Behandling af passwordfelter';
 $string['plaintext'] = 'Alm. tekst';
 $string['shib_no_attributes_error'] = 'Du er blevet godkendt af Shibboleth men Moodle har ikke modtaget nogen brugeroplysninger. Kontroller venligst at din Identity Provider frigiver de nødvendige attributter ($a) til den Service Provider som Moodle kører på eller fortæl det til administratoren af webserveren.';
-$string['shib_not_all_attributes_error'] = 'Moodle kræver bestemte Shibboleth oplysninger som ikke er tilgængelige i dit tilfælde. Oplysningerne er: $a<br/>Kontakt venligst Moodles administrator eller identifikationssystemets administrator.';
+$string['shib_not_all_attributes_error'] = 'Moodle kræver bestemte Shibboleth oplysninger som ikke er tilgængelige i dit tilfælde. Oplysningerne er: $a<br />Kontakt venligst Moodles administrator eller identifikationssystemets administrator.';
 $string['shib_not_set_up_error'] = 'Shibboleth-godkendelsen lader ikke til at være sat korrekt op. Se venligst a href=\"README.txt\">README</a> for yderlige instruktioner om hvordan Shibboleth-godkendelse konfigureres.';
 $string['showguestlogin'] = 'Du kan vise eller gemme gæste login knappen på login-siden.';
 $string['stdchangepassword'] = 'Brug standardsiden til skift af passwords';
@@ -230,5 +229,6 @@ $string['update_never'] = 'Aldrig';
 $string['update_oncreate'] = 'Ved oprettelse';
 $string['update_onlogin'] = 'Ved hvert login';
 $string['update_onupdate'] = 'Ved opdatering';
+$string['auth_shibbolethdescription'] = 'Ved at benytte denne metode kan man forbinde Moodle til en eksisterende Shibboleth server for at checke og oprette nye brugerkonti.'; // ORPHANED
 
 ?>

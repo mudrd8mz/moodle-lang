@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
+      // quiz.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['1day'] = '1 dag';
@@ -527,7 +527,7 @@ $string['stoponerror'] = 'Stop ved fejl';
 $string['subneterror'] = 'Problem! Der er kun adgang til denne quiz fra bestemte netværk (IP-adresser), og din IP-adresse er ikke inden for det tilladte område.';
 $string['subnetnotice'] = 'Denne quiz er begrænset så der er kun adgang fra bestemte lokationer (IP-adresser). Din computer er ikke tilsluttet et netværk (subnet) der er tilladt i quizzen. Som underviser kan du dog godt få adgang til den.';
 $string['substitutedby'] = 'vil blive erstattet med';
-$string['temporaryblocked'] = 'Du kan ikke forsøge igen lige nu. <br/>Du kan forsøge igen:';
+$string['temporaryblocked'] = 'Du kan ikke forsøge igen lige nu. <br />Du kan forsøge igen:';
 $string['time'] = 'Tid';
 $string['timecompleted'] = 'Færdig';
 $string['timedelay'] = 'Du kan ikke begynde på quizzen nu, da der skal gå et stykke tid, før du kan begynde en anden quiz.';
