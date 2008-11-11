@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081106) (2008110603)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081111) (2008110603)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -194,6 +194,10 @@ $string['configpasswordpolicy'] = 'この設定を有効にすることで、Moo
 $string['configpathtoclam'] = 'clam AVのパスを指定してください。おそらく /usr/bin/clamscan または /usr/bin/clamdscan のようになります。clam AVを正常に動作させるため、clam AVのパスを設定してください。';
 $string['configpathtodu'] = 'duのパスを指定してください。おそらく /usr/bin/du のようになります。duのパスを設定した場合、多くのファイルを含んだディレクトリに関して、ディレクトリコンテンツを表示するページの表示速度が、はるかに速くなります。';
 $string['configperfdebug'] = 'この設定を有効にした場合、パフォーマンス情報がスタンダードテーマのフッタに表示されます。';
+$string['configprofilesforenrolledusersonly'] = '<ul>
+<li>プロファイルページの表示に関して、「コースIDが定義されていない (これはパブリックビューです)」「ユーザがコースに登録されていない」「この設定が有効にされている」場合、プロファイル詳細を表示しないようにします。</li>
+<li>プロファイルページの編集に関して、「自己紹介欄が空白」「ユーザがコースに登録されていない」「この設定が有効にされている」場合、編集ページより完全に自己紹介欄を隠します。</li>
+</ul>';
 $string['configprotectusernames'] = 'この設定を有効にした場合、forget_password.phpはユーザ名またはメールアドレスを推測できるヒントを表示しません。';
 $string['configproxybypass'] = 'プロクシをバイパスする、ホスト名 (一部) またはIPアドレスのカンマ区切り一覧です (例 192.168., .mydomain.com)。';
 $string['configproxyhost'] = '<b>サーバ</b>のインターネットアクセスにプロクシ (例 ファイアーウォール) が必要な場合、プロクシのホスト名を入力してください。必要でない場合、空白にしてください。';
@@ -623,6 +627,7 @@ $string['profilemenutoofewoptions'] = '少なくとも2つのオプションを�
 $string['profilename'] = '名称';
 $string['profilenofieldsdefined'] = 'フィールドは定義されていません。';
 $string['profilerequired'] = 'このフィールドは必須入力ですか?';
+$string['profilesforenrolledusersonly'] = 'プロファイルを登録ユーザのみに表示する';
 $string['profileshortname'] = '省略名 (ユニークにしてください)';
 $string['profileshortnamenotunique'] = 'すでにこの省略名は使用されています。';
 $string['profilesignup'] = 'サインアップページに表示しますか?';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081106) (2008110603)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081111) (2008110603)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1185,6 +1185,7 @@ $string['previouslyselectedusers'] = '検索条件に合致せずに選択され
 $string['previoussection'] = '前のセクション';
 $string['primaryadminsetup'] = '管理者アカウントの設定';
 $string['profile'] = 'プロファイル';
+$string['profilenotshown'] = 'このプロファイルの自己紹介欄は、このユーザが少なくとも1つのコースに登録されるまで表示されません。';
 $string['publicdirectory'] = 'パブリックディレクトリ';
 $string['publicdirectory0'] = 'このサイトを公開しないでください';
 $string['publicdirectory1'] = 'サイト名のみ公開します';
