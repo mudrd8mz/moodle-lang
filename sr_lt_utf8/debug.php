@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // debug.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['authpluginnotfound'] = 'Dodatak za proveru identiteta $a nije pronađen.';
-$string['blocknotexist'] = 'Blok $a ne postoji';
+$string['blocknotexist'] = '$a blok ne postoji';
 $string['cannotbenull'] = '$a ne može biti prazno (null)!';
 $string['cannotcreateadminuser'] = 'OZBILJNA GREŠKA: Nije moguće kreirati zapis o administratorskom korisniku!!!';
-$string['cannotdowngrade'] = 'Ne može se preći na stariju verziju sa $a->oldversion na $a->newversion.';
+$string['cannotdowngrade'] = 'Ne može se preći na stariju verziju sa $a[0] na $a[1].';
 $string['cannotfindadmin'] = 'Ne može se pronaći administratorski korisnik!';
-$string['cannotinitpage'] = 'Ne može se potpuno pokrenuti stranica: neispravan $a->name id $a->id';
+$string['cannotinitpage'] = 'Ne može se potpuno pokrenuti stranica: neispravan $a[0] id $a[1]';
 $string['cannotsetupsite'] = 'Ozbiljna greška! Ne može se postaviti sajt!';
 $string['cannotsetuptable'] = '$a tabele se NE mogu uspešno postaviti!';
 $string['cannotupdaterelease'] = 'GREŠKA: Ne može se ažurirati verzija u bazi podataka!!';
@@ -22,10 +22,10 @@ $string['dbnotsupport'] = 'Greška: Vaša baza podataka ($a) još uvek nije potp
 $string['dbnotupdate'] = 'Greška u bazi podataka - ažuriranje nije moguće ($a)';
 $string['doesnotworkwitholdversion'] = 'Ovaj skript ne radi sa ovom starijom verzijom Moodle-a';
 $string['erroroccur'] = 'Došlo je do greške u toku ovog procesa';
-$string['fixsetting'] = 'Molimo da ispravite podešavanja u config.php: <p>Vi imate:</p> <p>$CFG->dirroot = \"$a->current\";</p> <p>a treba da bude:</p> <p>$CFG->dirroot = \"$a->found\"</p>';
+$string['fixsetting'] = 'Molimo da ispravite podešavanja u config.php: <p>Vi imate:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>a treba da bude:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
 $string['invalidarraysize'] = 'Neispravna veličina nizova u parametrima $a';
 $string['invalideventdata'] = 'Prosleđeni su neispravni podaci o događanju: $a';
-$string['missingconfigversion'] = 'Tabela config ne sadrži podatke o verziji, pa nažalost nije moguće nastaviti.';
+$string['missingconfigversion'] = 'Konfiguraciona tabela ne sadrži podatak o verziji, nije moguće nasataviti.';
 $string['modulenotexist'] = 'Modul $a ne postoji';
 $string['morethanonerecordinfetch'] = 'Pronađeno više od jednog zapisa u fetch() !';
 $string['mustbeoveride'] = 'Apstraktni metod $a mora biti zamenjen.';
@@ -39,13 +39,15 @@ $string['nomodules'] = 'Nije pronađen nijedan modul!';
 $string['nopageclass'] = 'Uveženo $a, ali nisu pronađene klase stranice.';
 $string['noreports'] = 'Nema izveštaja kome se može pristupiti';
 $string['notables'] = 'Nema tabela!';
-$string['phpvaroff'] = 'PHP promenljiva servera \'$a->name\' treba da bude Off - $a->link';
-$string['phpvaron'] = 'PHP promenljiva servera \'$a->name\' nije uključeno On - $a->link';
+$string['phpvaroff'] = 'PHP promenljiva servera \'$a[0]\' treba da bude Off - $a[1]';
+$string['phpvaron'] = 'PHP promenljiva servera \'$a[0]\' nije uključeno On - $a[1]';
 $string['sessionmissing'] = 'Objekat $a nedostaje u sesiji';
 $string['siteisnotdefined'] = 'Sajt nije definisan!';
 $string['sqlrelyonobsoletetable'] = 'Ovaj SQL se zasniva na zastareloj(im) tabeli(ama)! Vaš kôd mora popraviti programer.';
 $string['upgradefail'] = 'Ažuriranje nije uspelo! videti: $a';
 $string['withoutversion'] = 'Glavna datoteka version.php nije čitljiva ili nije navedena';
 $string['xmlizeunavailable'] = 'xmlize funkcije nisu na raspolaganju';
+$string['prefixcannotbeempty'] = 'Prefiks imena tabele \"$a[0]\" ne sme biti prazan za Vašu odredišnu bazu podataka ($a[1])'; // ORPHANED
+$string['prefixlimit'] = 'Maksimalna dozvoljena dužina prefiksa imena tabele \"$a\" za Oracle baze podataka je 2cc.'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['accessdenied'] = 'Pristup je odbijen';
@@ -28,6 +28,7 @@ $string['authsettings'] = 'Upravljanje proverom identiteta';
 $string['autolang'] = 'Automatsko detektovanje jezika';
 $string['autologinguests'] = 'Automatsko prijavljivanje gostiju';
 $string['availablelangs'] = 'Dostupni jezički paketi';
+$string['availableto'] = 'Dostupno';
 $string['backgroundcolour'] = 'Transparentna boja';
 $string['backups'] = 'Rezervne kopije';
 $string['badwordsconfig'] = 'Unesite svoju listu ružnih reči odvojenih zarezima.';
@@ -255,6 +256,7 @@ $string['configwarning'] = 'Budite oprezni pri menjanju ovih podešavanja - čud
 $string['configxmlstrictheaders'] = 'Ako je uključeno, svaka stranica će biti generisana koristeći XML http zaglavlja, tako da će čitači direktno prikazivati XHTML greške. Ovo je korisno samo za programere.';
 $string['configzip'] = 'Navedite adresu na kojoj se nalazi Vaš program za pakovanje arhiviranih datoteka (ova opcija je moguća samo na serverima pod Unix-om). Ukoliko je adresa specificirana, ona će biti korišćena za pakovanje arhiva na serveru. Ukoliko ostavite polje prazno onda će Moodle koristiti interne rutine.';
 $string['confirmation'] = 'Potvrda';
+$string['confirmed'] = 'Potvrđeno';
 $string['confirminstall'] = 'Upravo ćete instalirati jezički paket ($a). Da li ste sigurni da želite da nastavite?';
 $string['cookiehttponly'] = 'Samo http kolačići';
 $string['cookiesecure'] = 'Samo bezbedni kolačići';
@@ -277,6 +279,8 @@ $string['ctyperequired'] = 'PHP ekstenzije ctype je sada obavezna za Moodle, da 
 $string['curlrecommended'] = 'Instaliranje opcione Curl biblioteke je vrlo preporučljivo, jer je ona neophodna za uspešno korišćenje funkcija za umrežavanje.';
 $string['curlrequired'] = 'PHP ekstenziju cURL sada je obavezna za Moodle da bi se komuniciralo sa Moodle repozitorijumima';
 $string['customcheck'] = 'Druge provere';
+$string['datarootsecurityerror'] = '<p><strong>BEZBEDNOSNO UPOZORENJE!</strong></p><p>Vaš direktorijum sa podacima je na pogrešnom mestu i moguće mu je pristupiti sa Weba. To znači da su sve Vaše privatne datoteke raspoložive svakome ko ima pristup Internetu, pa neke od njih mogu iskoristiti zlonamerni korisnici Weba da bi dobili neautorizovan administratorski pristup Vašem sajtu!</p>
+<p><em>Morate</em> premestiti direktorijum sa podacima ($a) na novu lokaciju koja nije u okviru Vašeg javnog Web direktorijuma, a potom ažurirati <code>$CFG->dataroot</code> podešavanje u datoteci config.php u skladu sa načinjenim promenama.</p>';
 $string['datarootsecuritywarning'] = 'Konfiguracija Vašeg sajta možda nije bezbedna. Molimo proverite da se Vašem direktorijumu podataka ($a) ne može direktno pristupiti preko Weba.';
 $string['dbmigrate'] = 'Migracija Moodle baze podataka';
 $string['dbmigrateconnecerror'] = 'Nije moguće uspostaviti vezu sa specificiranom bazom podataka.';
@@ -287,6 +291,7 @@ $string['dbmigratewarning2'] = '<b>Upozorenje: Upravo ćete započeti proces mig
 $string['dbmigrationdeprecateddb'] = '<font color=\"#ff0000\">Ova baza podataka migrirana je na novu UTF8 bazu, te se smatra zastarelom. Molimo podesite Vašu config.php datoteku i koristite novu bazu podataka za ovu Moodle verziju.</font>';
 $string['dbmigrationdupfailed'] = 'Dupliranje baze podataka nije uspelo. Moguća greška  do koje je došlo je:<font color=\"#ff0000\"><pre>$a</pre></font>';
 $string['dbsessions'] = 'Korišćenje baze podataka za informacije o sesijama';
+$string['dbtest'] = 'Funkcionalni testovi baze podataka';
 $string['debug'] = 'Otklanjanje grešaka u porukama';
 $string['debugall'] = 'SVE: Prikaz svih razumljivih PHP poruka o greškama';
 $string['debugdeveloper'] = 'RAZVOJNE: Prikaz dodatnih Moodle poruka o greškama i njihovom otklanjanju, namenjenih samo onima koji razvijaju ovaj softver.';
@@ -309,6 +314,7 @@ $string['deleteunconfirmed'] = 'Obrisati nepotvrđene korisnike nakon';
 $string['deleteuser'] = 'Brisanje korisnika';
 $string['density'] = 'Gustina';
 $string['denyemailaddresses'] = 'Nedozvoljeni domeni e-pošte';
+$string['development'] = 'Razvoj';
 $string['digestmailtime'] = 'Vreme za slanje e-pošte sa skraćenim izveštajima';
 $string['disablecourseajax'] = 'Isključi AJAX uređivanje kursa';
 $string['disableuserimages'] = 'Isključi slike u korisničkom profilu';
@@ -359,7 +365,9 @@ $string['environmentxmlerror'] = 'Greška u čitanju podataka okruženja ($a->er
 $string['errors'] = 'Greške';
 $string['errorsetting'] = 'Nije moguće sačuvati podešavanje';
 $string['errorwithsettings'] = 'Neka podešavanja nisu sačuvana usled pojave greške.';
+$string['exceptions'] = 'izuzeci';
 $string['experimental'] = 'Eksperimentalno';
+$string['experimentalsettings'] = 'Eksšerimentalna podešavanja';
 $string['extendedusernamechars'] = 'Dozvoliti prošireni izbor karaktera u korisničkim imenima';
 $string['filecreated'] = 'Kreirana je nova datoteka';
 $string['filestoredin'] = 'Snimi datoteku u direktorijum:';
@@ -473,6 +481,7 @@ $string['maintenancemode'] = 'U režimu održavanja';
 $string['maintfileopenerror'] = 'Greška pri otvaranju datoteka za održavanje!';
 $string['maintinprogress'] = 'Održavanje je u toku...';
 $string['managelang'] = '<b>Upravljanje</b>';
+$string['manageqtypes'] = 'Upravljanje tipovima pitanja';
 $string['maxbytes'] = 'Maksimalna veličina postavljene datoteke';
 $string['maxeditingtime'] = 'Maksimalno vreme za uređivanje poruka';
 $string['mbstringrecommended'] = 'Instaliranje opcione MBSTRING biblioteke je vrlo preporučljivo u cilju unapređivanja performansi sajta, pogotovo ako Vaš sajt podržava jezike koji ne koriste latinično pismo.';
@@ -512,6 +521,7 @@ $string['mysql416bypassed'] = 'Međutim, ako Vaš sajt koristi iso-8859-1 (latin
 $string['mysql416required'] = 'MySQL 4.1.16 je minimalna verzija potrebna za Moodle 1.6 da bi se garantovalo dalje konvertovanje svih podataka u UTF-8.';
 $string['nobookmarksforuser'] = 'Nemate postavljenih obeleživača.';
 $string['nochanges'] = 'Nema promena';
+$string['nodatabase'] = 'Nema baze podataka';
 $string['nodefaultuserrolelists'] = 'Ne vraćati korisnicima sve podrazumevane uloge';
 $string['nolangupdateneeded'] = 'Svi Vaši jezički paketi su ažurni, nema potrebe za nadogradnjama';
 $string['nomissingstrings'] = 'Nema nedostajućih izraza';
@@ -520,15 +530,19 @@ $string['nonexistentbookmark'] = 'Traženi obeleživač ne postoji.';
 $string['nonmetacoursesyncroleids'] = 'Uloge koje nisu sinhronizovane za metakurseve';
 $string['noreplyaddress'] = 'Adresa na koju se ne mogu slati odgovori';
 $string['noresults'] = 'Nema rezultata';
+$string['noroles'] = 'Nema uloga';
 $string['notifications'] = 'Obaveštenja';
 $string['notifyloginfailures'] = 'Poslati izveštaj o neuspešnim pristupima sistemu korisniku';
 $string['notifyloginthreshold'] = 'Granična vrednost za obaveštenja e-poštom';
 $string['notloggedinroleid'] = 'Uloga za posetioce';
 $string['numberofmissingstrings'] = 'Broj nedostajućih izraza: $a';
 $string['numberofstrings'] = 'Ukupan broj izraza: $a->strings<br />Nedostaje: $a->missing ($a->missingpercent&nbsp;%%)';
+$string['numquestions'] = 'Broj pitanja';
+$string['numquestionsandhidden'] = '$a->numquestions (+$a->numhidden skriven)';
 $string['opensslrecommended'] = 'Instaliranje opcione OpenSSL biblioteke je vrlo preporučljivo -- ona omogućava korišćenje funkcija za umrežavanje.';
 $string['opentogoogle'] = 'Otvoren za Google';
 $string['optionalmaintenancemessage'] = 'Opciona poruka u toku održavanja sistema';
+$string['optionalsubsystems'] = 'Opcioni podsistemi';
 $string['order1'] = 'Prvi';
 $string['order2'] = 'Drugi';
 $string['order3'] = 'Treći';
@@ -615,6 +629,8 @@ $string['quarantinedir'] = 'Karantinski direktorijum';
 $string['question'] = 'Pitanje';
 $string['questioncwqpfscheck'] = 'Jedno ili više \'nasumično izabranih\' pitanja u testu podešeno je da vrši odabir pitanja i iz kategorija deljenih i iz kategorija nedeljenih pitanja. Detaljniji izveštaj pogledajte <a href=\"$a->reporturl\">ovde</a>, ili potražite dodatne informacije u okviru stranica Moodle <a href=\"$a->docsurl\">dokumentacije</a>.';
 $string['questioncwqpfsok'] = 'U redu. Nema \'nasumično izabranih\' pitanja u Vašim testovima koja su podešena tako da vrše odabir pitanja i iz kategorija deljenih i iz kategorija nedeljenih pitanja.';
+$string['questiontype'] = 'Tip pitanja';
+$string['questiontypes'] = 'Tipovi pitanja';
 $string['rcache'] = 'Keš za zapis podataka';
 $string['rcachettl'] = 'TTL Keš za zapis podataka';
 $string['recaptchaprivatekey'] = 'ReCAPTCHA privatni';
@@ -622,7 +638,8 @@ $string['recaptchapublickey'] = 'ReCAPTCHA javni ključ';
 $string['releasenoteslink'] = 'Za informacije o ovoj Moodle verziji, molimo pogledajte online <a target=\"_new\" href=\"$a\">Beleške o izdanju</a>';
 $string['remotelangnotavailable'] = 'Pošto Moodle ne može da uspostavi vezu sa download.moodle.org, nije moguća automatska instalacija jezičkog paketa. Molimo preuzmite odgovarajuće arhive sa spiska ispod, kopirajte ih u Vaš $a direktorijum i ručno ih raspakujte.';
 $string['renameerrors'] = 'Greška pri preimenovanju';
-$string['requiredtemplate'] = 'Neophodno. Možete ovde da koristiti sintaksu šablona(%%l = prezime, %%f = ime, %%u = korisničko ime). Pogledajte pomoć za više detanja i primere.';
+$string['requiredtemplate'] = 'Neophodno. Možete ovde da koristiti sintaksu šablona(%%l = prezime, %%f = ime, %%u = korisničko ime). Pogledajte pomoć za više detalja i primere.';
+$string['requires'] = 'Neophodno';
 $string['restrictbydefault'] = 'Podrazumevano ograničavanje modula';
 $string['restrictmodulesfor'] = 'Ograničavanje modula za';
 $string['riskconfig'] = 'Korisnici bi mogli promeniti konfiguraciju i ponašanje sajta';
@@ -654,6 +671,7 @@ $string['sessioncookiepath'] = 'Putanja kolačića';
 $string['sessionhandling'] = 'Upravljanje sesijama';
 $string['sessiontimeout'] = 'Vreme isteka sesije';
 $string['showblocksonmodpages'] = 'Prikaz blokova na stranicama modula';
+$string['showdetails'] = 'Prikaži detalje';
 $string['simpletest'] = 'Testiranje celine';
 $string['sitelangchanged'] = 'Uspešno je promenjeno podešavanje jezika sajta';
 $string['sitemailcharset'] = 'Skup karaktera';
@@ -721,6 +739,7 @@ $string['upgradesure'] = 'Vaše Moodle datoteke su izmenjene, i možete automats
 <strong>$a</strong> <br /><br />
 Jednom kada ovo uradite ne možete se vratiti nazad. <br /><br />
 Da li ste sigurni da želite da nadogradite server na ovu verziju?';
+$string['upgradetimedout'] = 'Isteklo je vreme za ažuriranje, molimo započnite proces ažuriranja iznova.';
 $string['upgradingdata'] = 'Ažuriranje podataka je u toku';
 $string['upgradinglogs'] = 'Ažuriranje izveštaja o aktivnostima je u toku';
 $string['uploadpicture_baduserfield'] = 'Navedena osobina korisnika nije ispravna. Molimo pokušajte ponovo.';

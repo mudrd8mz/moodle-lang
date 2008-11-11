@@ -39,7 +39,3 @@ URL:    http://perun.im.ns.ac.yu/komlenov/
  - Bojan Milosavljević, Higher Education School of Professional Studies in Business & Industrial Management, Kruševac
 
    for help in fine-tuning and maintaining this language pack, as well as resolving grammar sensitivity issues.
-
- - Marija Ćućuz, Department of Psychology, Faculty of Philosophy, Belgrade
- 
-   for translation of Questionnaire module.

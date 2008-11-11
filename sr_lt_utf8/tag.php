@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // tag.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['addedotag'] = '\"$a\" je dodato kao zvanična oznaka';
@@ -51,6 +51,8 @@ $string['tagsaredisabled'] = 'Oznake nisu dostupne';
 $string['tagtype'] = 'Tip oznake';
 $string['tagtype_default'] = 'Početno';
 $string['tagtype_official'] = 'Oficijalno';
+$string['thingstaggedwith'] = 'Broj stvari označenih sa \"$a->name\": $a->count';
+$string['thingtaggedwith'] = '\"$a->name\" se koristi jednom';
 $string['thistaghasnodesc'] = 'Ova oznaka trenutno nema opis.';
 $string['timemodified'] = 'Izmenjeno';
 $string['typechanged'] = 'Promenjen tip oznake';
@@ -58,6 +60,5 @@ $string['updated'] = 'Ažurirano';
 $string['updatetag'] = 'Ažuriraj';
 $string['userstaggedwith'] = 'Korisnici označeni sa \"$a\"';
 $string['withselectedtags'] = 'Sa odabranim oznakama...';
-$string['thingstaggedwith'] = 'Broj stvari označenih sa \"$a->name\": $a->count'; // ORPHANED
 
 ?>
