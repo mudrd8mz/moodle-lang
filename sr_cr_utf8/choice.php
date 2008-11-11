@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // choice.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['addmorechoices'] = 'Додавање још избора';
@@ -47,8 +47,8 @@ $string['responses'] = 'Одговори';
 $string['responsesto'] = 'Одговори за $a';
 $string['savemychoice'] = 'Сачувај мој избор';
 $string['showunanswered'] = 'Приказ колоне за оне који још нису одговорили';
-$string['spaceleft'] = 'размак је дозвољен';
-$string['spacesleft'] = 'размаци су дозвољени';
+$string['spaceleft'] = 'слободно место';
+$string['spacesleft'] = 'слободних места';
 $string['taken'] = 'Заузето';
 $string['timerestrict'] = 'Ограничавање могућности одговарања на овај временски период';
 $string['viewallresponses'] = 'Број датих одговора: $a';

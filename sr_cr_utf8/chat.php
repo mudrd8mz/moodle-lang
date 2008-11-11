@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
+      // chat.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['ajax'] = 'Верзија која користи Ajax';
@@ -9,6 +9,8 @@ $string['cantinsert'] = 'Није било могуће унети поруку 
 $string['cantlogin'] = 'Није било могуће пријавити се у причаоницу!!';
 $string['chat:chat'] = 'Учествуј у разговору';
 $string['chat:deletelog'] = 'Обриши записе разговора';
+$string['chat:exportparticipatedsession'] = 'Извези листу учесника сесије';
+$string['chat:exportsession'] = 'Извези сесију';
 $string['chat:readlog'] = 'Прочитај записе разговора';
 $string['chatintro'] = 'Уводни текст';
 $string['chatname'] = 'Назив ове причаонице';

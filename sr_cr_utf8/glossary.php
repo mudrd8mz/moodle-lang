@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
+      // glossary.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['addcomment'] = 'Додаj коментар';
@@ -15,6 +15,7 @@ $string['allowprintview'] = 'Дозволити приказ верзије за
 $string['allowratings'] = 'Дозволити оцењивање појмова?';
 $string['answer'] = 'Одговор';
 $string['approve'] = 'Одобри';
+$string['areaintro'] = 'Увод у речник';
 $string['areyousuredelete'] = 'Јесте ли сигурни да желите да обришете овај појам?';
 $string['areyousuredeletecomment'] = 'Јесте ли сигурни да желите да обришете овај коментар?';
 $string['areyousureexport'] = 'Јесте ли сигурни да желите да извезете овај појам у';
@@ -127,6 +128,8 @@ $string['globalglossary'] = 'Општи речник';
 $string['glossary:approve'] = 'Одобравање неодобрених појмова';
 $string['glossary:comment'] = 'Креирање коментара';
 $string['glossary:export'] = 'Извоз појмова';
+$string['glossary:exportentry'] = 'Извоз једног појма';
+$string['glossary:exportownentry'] = 'Извоз једног сопственог појма';
 $string['glossary:import'] = 'Увоз појмова';
 $string['glossary:managecategories'] = 'Управљање категоријама';
 $string['glossary:managecomments'] = 'Управљање коментарима';
