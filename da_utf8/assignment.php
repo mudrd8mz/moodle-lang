@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // assignment.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['allowdeleting'] = 'Tillad sletning';
@@ -25,7 +25,7 @@ $string['cannotdeletefiles'] = 'Der opstod en fejl, filerne blev ikke slettet';
 $string['comment'] = 'Kommentar';
 $string['commentinline'] = 'Indlejret kommentar';
 $string['configitemstocount'] = 'Type af poster, der skal tælles med som afleveringer (ved online opgaver).';
-$string['configmaxbytes'] = 'Generel maksimum filstørrelse for alle afleveringsopgaver på sitet (Underlagt kursus begrænsninger og andre lokale indstillinger)';
+$string['configmaxbytes'] = 'Generel maksimal filstørrelse for alle afleveringsopgaver på sitet (Underlagt kursusbegrænsninger og andre lokale indstillinger)';
 $string['configshowrecentsubmissions'] = 'Alle kan se notifikationer på afleveringer i seneste aktivitetsrapporter.';
 $string['confirmdeletefile'] = 'Er du helt sikker på, at du vil slette denne fil?<br /><strong>$a</strong>';
 $string['deleteallsubmissions'] = 'Slet alle afleveringer';
@@ -46,7 +46,7 @@ $string['emailteachers'] = 'E-mail-notifikation til lærere';
 $string['emptysubmission'] = 'Du har endnu ikke afleveret noget';
 $string['enableemailnotification'] = 'Send notifikations-mails';
 $string['existingfiledeleted'] = 'Eksisterende fil er blevet slettet: $a';
-$string['failedupdatefeedback'] = 'Mislykkedes at opdatere feedback på aflevering for bruger $a';
+$string['failedupdatefeedback'] = 'Det mislykkedes at opdatere feedbacken på aflevering for $a';
 $string['feedback'] = 'Feedback';
 $string['feedbackfromteacher'] = 'Feedback fra $a';
 $string['feedbackupdated'] = 'Feedback på aflevering opdateret for $a';
@@ -105,6 +105,7 @@ $string['submitedformarking'] = 'Opgaven er allerede afleveret til korrektur og 
 $string['submitformarking'] = 'Endelig aflevering til korrektur.';
 $string['submitted'] = 'Afleveret';
 $string['submittedfiles'] = 'Afleverede filer';
+$string['trackdrafts'] = 'Brug speciel knap til aflevering';
 $string['typeoffline'] = 'Offline aktivitet';
 $string['typeonline'] = 'Online tekst';
 $string['typeupload'] = 'Avanceret aflevering af filer';

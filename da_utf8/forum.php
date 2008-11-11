@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // forum.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['addanewdiscussion'] = 'Tilføj en ny tråd';
@@ -175,7 +175,7 @@ $string['postadded'] = '<p>Dit indlæg er tilføjet.</p><p>Du har $a til at redi
 $string['postincontext'] = 'Se dette indlægs indhold';
 $string['postmailinfo'] = 'Dette er en kopi af en meddelelse fra $a websted.
 For at give et svar via webstedet, klik på følgende link:';
-$string['postmailnow'] = '<p>Dette indlæg vil blive mailet med det samme til alle der abbonnerer på forummet.</p>';
+$string['postmailnow'] = '<p>Dette indlæg vil blive mailet med det samme til alle der abonnerer på forummet.</p>';
 $string['postrating1'] = 'Viser som regel INDIVIDUEL viden';
 $string['postrating2'] = 'Hver individuel og sammenhængende';
 $string['postrating3'] = 'Viser som regel sammenhængende viden';
@@ -211,7 +211,7 @@ $string['replyforum'] = 'Svar til forum';
 $string['replytouser'] = 'Brug e-mail-adresse i svaret';
 $string['resetforums'] = 'Fjern indlæg fra';
 $string['resetforumsall'] = 'Slet alle poster';
-$string['resetsubscriptions'] = 'Fjern forum abonneringer';
+$string['resetsubscriptions'] = 'Fjern abonnementer';
 $string['rsssubscriberssdiscussions'] = 'Vis RSS feed for \"$a\" tråde';
 $string['rsssubscriberssposts'] = 'Vis RSS feed for \"$a\" indlæg';
 $string['search'] = 'Søg';
@@ -248,7 +248,7 @@ $string['subscription'] = 'Abonnering';
 $string['subscriptions'] = 'Abonnementer';
 $string['thisforumisthrottled'] = 'Dette forum har en begrænsning på hvor mange indlæg du kan skrive indenfor en vis periode. Denne begrænsning er pt. sat til at tillade  $a->blockafter indlæg på $a->blockperiod';
 $string['timestartenderror'] = 'Afslutningen på visningen kan ikke være tidligere end starten af visningen.';
-$string['trackforum'] = 'Markér ulæste indlæg';
+$string['trackforum'] = 'Oplyser om ulæste indlæg';
 $string['tracking'] = 'Markering';
 $string['trackingoff'] = 'Nej';
 $string['trackingon'] = 'Ja';

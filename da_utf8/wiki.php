@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
+      // wiki.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['action'] = '-- Handling --';
@@ -80,7 +80,7 @@ $string['groups'] = 'Grupper';
 $string['hits'] = '$a hits';
 $string['howtooperate'] = 'Hvordan det bruges';
 $string['howtowiki'] = 'How to wiki';
-$string['html'] = 'HTML-Format';
+$string['html'] = 'HTML-format';
 $string['htmlmode'] = 'HTML-tilstand';
 $string['htmlonly'] = 'kun HTML';
 $string['index'] = 'Indeks';
@@ -149,7 +149,7 @@ $string['revertpagescheck'] = 'Ønsker du at fortryde disse ændringer:';
 $string['revertthe'] = 'Versions dykning, men slet kun den påvirkede.';
 $string['safehtml'] = 'Sikker HTML';
 $string['save'] = 'Gem';
-$string['savenolock'] = 'Du kan ikke gemme denne side da den ikke er låst for skrivning. Dette kan ske hvis javascript er slået fra i browseren, eller hvis der er en  anden bruger der har ophævet låsen på siden. <br/><br/>Du kan vende tilbage til forrige side ved at bruge browserens tilbage knap og kopiere teksten eller de ændringer du har lavet og forsige at rette siden igen og paste dine ændringer ind igen.';
+$string['savenolock'] = 'Du kan ikke gemme denne side da du ikke har en redigeringslås. Dette kan ske hvis javascript er slået fra i browseren, eller hvis der er en anden bruger der har ophævet låsen på siden. <br/><br/>Du kan vende tilbage til forrige side ved at bruge browserens tilbageknap og kopiere teksten eller de ændringer du har lavet og forsøge indsætte dine rettelser igen.';
 $string['searchwiki'] = 'Søg i Wiki';
 $string['setpageflags'] = 'Angiv sideattributter';
 $string['showversions'] = 'Vis versioner:';

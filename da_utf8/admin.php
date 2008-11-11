@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['accessdenied'] = 'Adgang afvist';
@@ -85,10 +85,13 @@ $string['configdefaultuserroleid'] = 'Alle, der er logget ind, vil få denne rol
 $string['configdeleteunconfirmed'] = 'Hvis du bruger e-mail-autorisering er dette den periode som siden venter på svar fra en bruger. Hvis der ikke er modtaget svar inden for den fastlagte periode vil uautoriserede brugere blive slettet.';
 $string['configdenyemailaddresses'] = 'For at forbyde e-mail-adresser fra visse domæner kan de skrives her. Alle andre domæner er således OK. For at forbyde hotmail og yahoo adresser kan f.eks. skrives <strong>hotmail.com yahoo.com</strong>';
 $string['configdigestmailtime'] = 'Folk som har valgt at få tilsendt e-mail-sammendrag, vil højst få én e-mail om dagen. Denne indstilling sætter på hvilket tidspunkt af dagen den vil blive sendt (Mailen vil blive sendt ved næste cronjob efter dette tidspunkt).';
+$string['configdisablecourseajax'] = 'Brug ikke AJAX ved redigering af kursers forsider.';
+$string['configdisableuserimages'] = 'Stop brugernes tilladelse til at ændre billede i deres profil.';
 $string['configdisplayloginfailures'] = 'Dette vil vise information til udvalgte brugere om mislykkede forsøg på login.';
 $string['configdocroot'] = 'Sætter stien til Moodle Docs. Du kan ændre denne hvis du ønsker en lokal onlinedokumentation. I så fald skal du sikre dig at du bruger samme format som  http://docs.moodle.org.';
 $string['configdoctonewwindow'] = 'Hvis du aktiverer dette, vil links til Moodle Docs blive vist i et nyt vindue.';
 $string['configeditorfontlist'] = 'Vælg de skrifttyper der skal vises i HTML-editorens drop-down liste.';
+$string['configemailchangeconfirmation'] = 'Kræver en e-mail-godkendelse når brugerne ændrer e-mail-adressen i deres profil.';
 $string['configenableajax'] = 'Denne indstilling tillader brugen af AJAX (avanceret asynkron client/server interface vha. Javascript og XML) på hele sitet. Hvis denne indstilling er aktiveret kan brugere stadig fravælge brugen af AJAX, men AJAX vil som standard være aktiv.';
 $string['configenablecourserequests'] = 'Dette vil tillade at alle brugere kan anmode om at et kursus bliver oprettet.';
 $string['configenableglobalsearch'] = 'Denne indstilling tillader global tekstsøgning i ressourcer og aktiviteter. Denne indstilling er ikke kompatibel med PHP4.';
@@ -135,7 +138,7 @@ $string['configmaxbytes'] = 'Dette angiver hvor store filer der generelt kan upl
 $string['configmaxeditingtime'] = 'Angiver hvor lang tid brugerne har til rette deres indlæg i et forum, logbog mv. Normalt er 30 minutter en god værdi.';
 $string['configmaxevents'] = 'Begivenheder til Lookahead';
 $string['configmessaging'] = 'Skal beskedsystemet mellem brugere aktiveres?';
-$string['configminpassworddigits'] = 'Kodeord skal mindst have dette antal decimaler.';
+$string['configminpassworddigits'] = 'Kodeord skal have mindst dette antal tal.';
 $string['configminpasswordlength'] = 'Kodeord skal mindst have dette antal tegn.';
 $string['configminpasswordlower'] = 'Kodeord skal mindst have dette antal små bogstaver.';
 $string['configminpasswordnonalphanum'] = 'Kodeord skal have mindst dette antal ikke alfanumeriske tegn.';
@@ -234,6 +237,7 @@ $string['deleteuser'] = 'Slet bruger';
 $string['density'] = 'Tæthed';
 $string['denyemailaddresses'] = 'Ulovlige e-mail-domæner';
 $string['digestmailtime'] = 'Time hvor der skal sendes opsamlingsmail';
+$string['disableuserimages'] = 'Deaktiver ændring af billede';
 $string['displayloginfailures'] = 'Vis forkerte loginforsøg til';
 $string['docroot'] = 'Moodle Docs dokumentbibliotek';
 $string['doctonewwindow'] = 'Åben i nyt vindue';
@@ -247,6 +251,7 @@ $string['editorfontsize'] = 'Skrifttypestørrelse';
 $string['editorhidebuttons'] = 'Skjulte knapper';
 $string['editorkillword'] = 'Wordformat filter';
 $string['editstrings'] = 'Ret tekst';
+$string['emailchangeconfirmation'] = 'Bekræftelse på ændring af e-mail-adresse';
 $string['enableajax'] = 'Aktivér AJAX';
 $string['enablecourserequests'] = 'Aktivér kursusanmodninger';
 $string['enableglobalsearch'] = 'Aktivér global søgning';
@@ -362,6 +367,11 @@ $string['mediapluginswf'] = 'Aktivér .swf filter';
 $string['mediapluginswfnote'] = 'Som en standard sikkerhedsforanstaltning bør almindelige brugere ikke have mulighed for at indlejre swf flash filer.';
 $string['mediapluginwmv'] = 'Aktivér .wmv filter';
 $string['messaging'] = 'Aktivér besked system';
+$string['minpassworddigits'] = 'Tal';
+$string['minpasswordlength'] = 'Adgangskodelængde';
+$string['minpasswordlower'] = 'Små bogstaver';
+$string['minpasswordnonalphanum'] = 'Ikke-alfanumeriske tegn';
+$string['minpasswordupper'] = 'Store bogstaver';
 $string['misc'] = 'Forskelligt';
 $string['modsettings'] = 'Administrer aktiviteter';
 $string['modulesecurity'] = 'Modulsikkerhed';

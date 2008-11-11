@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // data.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['action'] = 'Handling';
@@ -74,6 +74,7 @@ $string['editorenable'] = 'Aktiver editoren';
 $string['emptyadd'] = 'Skabelonen er tom, der bliver genereret et standardlayout...';
 $string['emptyaddform'] = 'Du udfyldte ingen felter!';
 $string['entries'] = 'Poster';
+$string['entrieslefttoadd'] = 'Du skal tilføje $a->entriesleft flere poster før du kan se andre deltageres poster.';
 $string['entry'] = 'Post';
 $string['entrysaved'] = 'Posten er gemt';
 $string['errormustbeteacher'] = 'Denne side er kun for lærere!';

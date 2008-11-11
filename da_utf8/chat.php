@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // chat.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['beep'] = 'bip';
@@ -50,6 +50,7 @@ $string['nomessages'] = 'Ingen beskeder endnu';
 $string['normalkeepalive'] = 'Polling';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Ingen planlagte chatsessioner';
+$string['pastchats'] = 'Seneste chatsessioner';
 $string['refreshroom'] = 'Genindlæs';
 $string['refreshuserlist'] = 'Genindlæs brugerliste';
 $string['removemessages'] = 'Slet alle beskeder';

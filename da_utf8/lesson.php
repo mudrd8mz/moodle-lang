@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
+      // lesson.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['accesscontrol'] = 'Adgangskontrol';
@@ -75,7 +75,7 @@ $string['didnotreceivecredit'] = 'Fik ikke points';
 $string['displaydefaultfeedback'] = 'Vis standard-feedback';
 $string['displayhighscores'] = 'Vis highscore';
 $string['displayinleftmenu'] = 'Vis i venstre menu?';
-$string['displayleftif'] = 'og vis kun hvis $a har opnået en højere karakter end:';
+$string['displayleftif'] = 'og vis kun hvis den opnåede karakter er højere end:';
 $string['displayleftmenu'] = 'Vis link til forgrening som en menu til venstre';
 $string['displayofgrade'] = 'Vis bedømmelse (for elev)';
 $string['displayreview'] = 'Vis knap til at prøve igen';

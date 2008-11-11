@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20081008) (2007101523)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['action'] = 'Hændelse';
@@ -581,7 +581,7 @@ $string['forceno'] = 'Gennemtving ikke';
 $string['forcepasswordchange'] = 'Gennemtving skift af kodeord';
 $string['forcepasswordchangehelp'] = 'Bed bruger om at ændre det ved næste login';
 $string['forcepasswordchangenotice'] = 'Du skal ændre din kode inden du kan fortsætte';
-$string['forcetheme'] = 'Bestem tema';
+$string['forcetheme'] = 'Bestem layouttema';
 $string['forgotaccount'] = 'Glemt adgangskode?';
 $string['forgotten'] = 'Har du glemt dit brugernavn og kodeord?';
 $string['forgottenduplicate'] = 'Der er andre brugere der har denne e-mail-adresse, skriv dit brugernavn i stedet';
@@ -1227,6 +1227,7 @@ $string['showallcourses'] = 'Vis alle kurser';
 $string['showalltopics'] = 'Vis alle emner';
 $string['showallusers'] = 'Vis alle brugere';
 $string['showallweeks'] = 'Vis alle uger';
+$string['showblockcourse'] = 'Vis hvilke kurser, der bruger blokken';
 $string['showgrades'] = 'Vis karakterer';
 $string['showlistofcourses'] = 'Vis en kursusliste';
 $string['showonly'] = 'Vis kun';
@@ -1327,7 +1328,7 @@ $string['strftimemonthyear'] = '%%B %%Y';
 $string['strftimerecent'] = '%%d %%b, %%H:%%M';
 $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
-$string['stringsnotset'] = 'De følgende linjer er ikke definerede i $a';
+$string['stringsnotset'] = 'De følgende linjer er ikke oversat i $a';
 $string['studentnotallowed'] = 'Beklager, du kan ikke deltage i dette kursus som \"$a\"';
 $string['students'] = 'Elever';
 $string['studentsandteachers'] = 'Studerende og lærere';

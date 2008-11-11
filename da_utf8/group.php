@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // group.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['addgroupstogrouping'] = 'Tilføj';
 $string['addgroupstogroupings'] = 'Tilføj/fjern grupper';
-$string['adduserstogroup'] = 'Tilføj brugere til gruppe';
+$string['adduserstogroup'] = 'Tilføj/fjern gruppemedlemmer';
 $string['autocreategroups'] = 'Auto-opret grupper';
 $string['backtogroupings'] = 'Tilbage til storgrupper';
 $string['backtogroups'] = 'Tilbage til gruppeoversigten';
@@ -72,7 +72,7 @@ $string['grouptemplate'] = 'Gruppe @';
 $string['hidepicture'] = 'Skjul billede';
 $string['javascriptrequired'] = 'Denne side kræver tilladelse til Javascript.';
 $string['members'] = 'Medlemmer per gruppe';
-$string['membersofselectedgroup'] = 'Medlem af';
+$string['membersofselectedgroup'] = 'Gruppemedlemmer';
 $string['namingschemehelp'] = 'Brug @ tegn til at repræsentere gruppebogstavet (A-Z) eller # til at repræsentere gruppenummeret.';
 $string['newgrouping'] = 'Ny storgruppe';
 $string['newpicture'] = 'Nyt billede';

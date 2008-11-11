@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // hotpot.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
-$string['abandoned'] = 'Efterladte';
+$string['abandoned'] = 'Uafsluttet';
 $string['addquizchain'] = 'Tilføj kæde af quizzer';
 $string['allmycourses'] = 'Alle mine kurser';
 $string['allusers'] = 'Alle brugere';
