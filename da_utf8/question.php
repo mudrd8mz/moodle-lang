@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // question.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
+$string['adminreport'] = 'Rapport om eventuelle problemer i din spørgsmålsdatabase.';
 $string['broken'] = 'Linket virker ikke, det peger på en fil der ikke eksisterer.';
 $string['byandon'] = 'af <em>$a->user</em> <em>$a->time</em>';
 $string['categorycurrent'] = 'Denne kategori';
@@ -14,12 +15,19 @@ $string['createdmodifiedheader'] = 'Oprettet / Senest ændrets';
 $string['cwrqpfsinfo'] = '<p>Under opgradering til Moodle 1.9 vil vi opdele spørgsmålskategorierne i forskellige kontekster. Nogle spørgsmålskategorier på dit site vil få deres status ændret for hvordan/om de må deles. Dette er nødvendigt i de sjældne tilfælde hvor et eller flere \"tilfældige\" spørgsmål i en quiz er sat op til at vælge fra et mix af delte og ikke delte kategorier (som på dette site). Dette sker når et tilfældigt spørgsmål skal vælge fra underkategorier og et eller flere underkategorier har forskellige delingsstatus i forhold til den overordnede kategori hvori det tilfældige spørgsmål er oprettet.</p> <p>De følgende spørgsmålskategorier, hvorfra tilfældige spørgsmål i overordnede kategorier vælger spørgsmål, vil få deres delingsstatus ændret til det samme som kategorien med det tilfældige spørgsmål i under opgraderingen til Moodle 1.9. De følgende kategorier vil få deres delingsstatus ændret. Spørgsmål som påvirkes vil fortsætte med at virke i alle eksisterende quizzer indtil du fjerner dem fra disse quizzer.</p>';
 $string['defaultfor'] = 'Standard for $a';
 $string['defaultinfofor'] = 'Standardkategorien for delte spørgsmål i konteksten \"$a\".';
+$string['deletecoursecategorywithquestions'] = 'Der er spørgsmål i spørgsmålsbanken der er assosieret med denne kursuskategori. Fortsætter du bliver de slettet. Du kan gå ind i spørgsmålsbanken og flytte dem først.';
 $string['donothing'] = 'Kopier eller flyt ikke filer eller lav ændringer i links.';
 $string['editingcategory'] = 'Rediger en kategori';
 $string['editingquestion'] = 'Redigerer et spørgsmål';
 $string['errorfilecannotbecopied'] = 'Fejl, kan ikke kopiere filen $a.';
 $string['errorfilecannotbemoved'] = 'Fejl, kan ikke flytte filen $a.';
+$string['errormovingquestions'] = 'Fejl under flytning af spørgsmål med id\'er $a.';
+$string['errorprocessingresponses'] = 'En fejl opstod under behandling af din respons.';
+$string['errorsavingcomment'] = 'En fejl opstod under forsøg på at gemme spørgsmålet $a->name i databasen';
+$string['errorupdatingattempt'] = 'Der opstod en fejl ved opdatering af $a->id i databasen.';
 $string['exportcategory'] = 'Eksporter kategori';
+$string['filesareacourse'] = 'kursusfilområdet';
+$string['filesareasite'] = 'sitefilområdet';
 $string['filestomove'] = 'Flyt/kopier filer til $a?';
 $string['fractionsnomax'] = 'Et af svarene skal have en score på 100%%.';
 $string['getcategoryfromfile'] = 'Hent kategorien fra filen';
@@ -31,6 +39,7 @@ $string['missingimportantcode'] = 'Denne spørgsmålstype mangler en vigtig kode
 $string['modified'] = 'Senest gemt';
 $string['move'] = 'Flyt fra $a og ret links.';
 $string['movecategory'] = 'Flyt kategori';
+$string['movedquestionsandcategories'] = 'Spørgsmål og spørgsmålkategorier blev flyttet fra $a->oldplace til $a->newplace.';
 $string['movelinksonly'] = 'Ret kun hvor link peger hen, flyt eller kopier ikke filer.';
 $string['moveq'] = 'Flyt spørgsmål';
 $string['moveqtoanothercontext'] = 'Flyt spørgsmål til en anden kontekst.';
@@ -42,8 +51,10 @@ $string['movingquestionsandfiles'] = 'Er du sikker på at du vil flytte spørgsm
 $string['movingquestionsnofiles'] = 'Er du sikker på at du vil flytte spørgsmål(ene) {$a->questions} til konteksten <strong>\"{$a->tocontext}\"</strong>?<br /> Der er <strong>ingen filer</strong> der linkes til fra disse spørgsmål i {$a->fromareaname}.';
 $string['needtochoosecat'] = 'Du skal vælge en kategori at flytte spørgsmålet til eller klik på \"annuller\".';
 $string['nopermissionadd'] = 'Du har ikke tilladelse til at tilføje spørgsmål her.';
+$string['nopermissionmove'] = 'Du har ikke tilladelse til at flytte spørgsmål herfra. Du kan gemme spørgsmålet i denne kategori eller gemme det som et nyt spørgsmål.';
 $string['noprobs'] = 'Der er ikke fundet nogen problemer i din database med spørgsmål.';
 $string['notenoughdatatoeditaquestion'] = 'Der var hverken angivet spørgsmåls-id, kategori-id eller spørgsmålstype.';
+$string['notenoughdatatomovequestions'] = 'Du skal angive spørgsmåls-id på de spørgsmål du vil flytte.';
 $string['permissionedit'] = 'Rediger dette spørgsmål';
 $string['permissionmove'] = 'Flyt dette spørgsmål';
 $string['permissionsaveasnew'] = 'Gem som et nyt spørgsmål';
@@ -51,9 +62,19 @@ $string['permissionto'] = 'Du har tilladelse til:';
 $string['published'] = 'delt';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Spørgsmålet \"$a->name\" ($a->qtype)</a> er i denne kategori, men det bruges også i <a href=\"$a->qurl\">quizzen \"$a->quizname\"</a> på et andet kursus \"$a->coursename\".';
 $string['questionbank'] = 'Spørgsmålsbank';
+$string['questioncategory'] = 'Spørgsmålskategori';
 $string['questioncatsfor'] = 'Spørgsmålskategorier for \"$a\"';
 $string['questiondoesnotexist'] = 'Spørgsmålet eksisterer ikke';
+$string['questionsmovedto'] = 'Spørgsmål der stadig er i brug er flyttet til \"$a\" i kategorien ovenover.';
+$string['questionsrescuedfrom'] = 'Spørgsmål er gemt fra konteksten $a.';
+$string['questionsrescuedfrominfo'] = 'Disse spørgsmål (hvoraf nogle kan være skjult) blev gemt da konteksten $a blev slettet fordi de stadig bliver brugt i quizzer eller andre aktiviteter.';
+$string['questionuse'] = 'Brug spørgsmål i denne aktivitet';
+$string['unknown'] = 'Ukendt';
 $string['unknownquestiontype'] = 'Ukendt spørgsmålstype: $a';
 $string['unpublished'] = 'Ikke delt';
+$string['upgradeproblemcategoryloop'] = 'Et problem blev fundet under opgradering af spørgsmålskategorier. Der er en loop i kategoritræet. Det drejer sig om kategorien(erne) $a';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Det kunne ikke lade sig gøre at opdatere kategorien $a->name ($a->id).';
+$string['upgradeproblemunknowncategory'] = 'Et problem blev fundet under opgradering af spørgsmålskategorier. Kategorien $a->id refererer til en overkategori $a->parent, som ikke eksisterer. Den overordnede kategori er ændret for at klare problemet.';
+$string['yourfileshoulddownload'] = 'Eksport af din fil vil starte om et øjeblik. Gør den ikke det så <a href=\"$a\">klik her</a>. Parent changed to fix problem.';
 
 ?>

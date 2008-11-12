@@ -70,6 +70,12 @@ $string['databasesettingssub_mysql'] = '<b>Type:</b> MySQL<br />
 <b>Bruger:</b> brugernavnet til din database<br />
 <b>Password:</b> din databases adgangskode<br />
 <b>Tabelprefix:</b> prefix for alle tabelnavne (mandatory)';
+$string['databasesettingssub_mysqli'] = '<b>Type:</b> Forbedret MySQL<br />
+<b>Vært:</b> ex localhost eller db.isp.com<br />
+<b>Navn:</b> databasenavn, ex moodle<br />
+<b>Bruger:</b> dit brugernavn til databasen<br />
+<b>Adgangskode:</b> din adgangskode til databasen<br />
+<b>Tabelprefix:</b> prefix til alle navne i tabellen (valgfri)';
 $string['databasesettingssub_oci8po'] = '<b>Type:</b> Oracle<br />
 <b>Vært:</b> ikke brugt, skal være blank<br />
 <b>Navn:</b> navnet på forbindelsen fra tnsnames.ora <br />
@@ -91,6 +97,7 @@ $string['databasesettingssub_postgres7'] = '<b>Type:</b> PostgreSQL<br />
 $string['databasesettingswillbecreated'] = '<b>Note:</b> Installationsprocessen vil søge at oprette en database hvis ikke den findes allerede.';
 $string['dataroot'] = 'Databibliotek';
 $string['datarooterror'] = 'Data-biblioteket du specificerede kan ikke findes eller oprettes. Ret stien til biblioteket eller opret det manuelt.';
+$string['datarootpublicerror'] = 'Den datamappe du har angivet har direkte adgang fra internettet, du skal bruge en anden mappe.';
 $string['dbconnectionerror'] = 'Den angive database kunne ikke kontaktes. Kontroller eller ret venligst databaseinformationerne.';
 $string['dbcreationerror'] = 'Fejl ved oprettelse af databasen. Kan ikke oprette den givne database med de angivne indstillinger.';
 $string['dbhost'] = 'Værtsserver';
@@ -196,6 +203,8 @@ $string['mssql_n'] = 'SQL*Server med UTF-8 support (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP er ikke konfigureret ordentligt med MSSQL-extensionen så den kan kommunikere med SQL*Serveren. Vær venlig at tjekke din php.ini-fil eller genkompiler PHP.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP er ikke blevet ordentligt konfigureret med MySQL  udvidelsen så den kan kommunikere med MySQL. Det kan skyldes at MySQL extension/dll ikke er loadet. Kontroller venlist phpinfo() og php.ini filen eller rekompiler PHP.';
+$string['mysqli'] = 'Forbedret MySql (mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP er ikke konfigureret korrekt med MySqli extensionen så den kan kommunikere med MySql. Tjek php.ini eller rekompiler PHP, MySqli extensionen er ikke tilgængelig for PHP 4';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP er ikke konfigureret ordentligt med OCI8-extensionen så den kan kommunikere med Oracle. Vær venlig at tjekke din php.ini-fil eller genkompiler PHP.';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';

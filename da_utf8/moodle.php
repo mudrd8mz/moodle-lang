@@ -10,7 +10,7 @@ $string['activities'] = 'Aktiviteter';
 $string['activity'] = 'Aktivitet';
 $string['activityclipboard'] = 'Flytter aktiviteten <b>$a</b>';
 $string['activityiscurrentlyhidden'] = 'Desværre, denne aktivitet er skjult';
-$string['activitymodule'] = 'Aktivitets modul';
+$string['activitymodule'] = 'Aktivitetsmodul';
 $string['activityreport'] = 'Aktivitetsrapport';
 $string['activityreports'] = 'Aktivitetsrapporter';
 $string['activityselect'] = 'Vælg den aktivitet, der skal flyttes';
@@ -88,7 +88,7 @@ $string['again'] = 'igen';
 $string['aimid'] = 'AIM ID';
 $string['ajaxno'] = 'Nej: benyt basale html funktioner';
 $string['ajaxuse'] = 'AJAX og Javascript';
-$string['ajaxyes'] = 'Ja: benyt advancerede html funktioner';
+$string['ajaxyes'] = 'Ja: benyt avancerede html-funktioner';
 $string['all'] = 'All';
 $string['allactions'] = 'Alle hændelser';
 $string['allactivities'] = 'Alle aktiviteter';
@@ -124,8 +124,10 @@ $string['assignstudents'] = 'Tilmeld studerende';
 $string['assignstudentsnote'] = 'Note: Det er måske ikke nødvendigt at bruge denne side, da det er muligt for studerende selv at tilmelde sig dette kursus.';
 $string['assignstudentspass'] = 'Alt du behøver at gøre er, at fortælle dine elever om adgangskoden til kurset, som i øvrigt er: \"$a\"';
 $string['assignteachers'] = 'Tilføj lærere';
+$string['authenticateduser'] = 'Godkendt bruger';
 $string['authenticateduserdescription'] = 'Alle, der er logget ind';
 $string['authentication'] = 'Validering';
+$string['authenticationplugins'] = 'Godkendelsesplugins';
 $string['autosubscribe'] = 'Forum auto-abonner';
 $string['autosubscribeno'] = 'Nej: Jeg ønsker ikke automatisk at abonnere på forummer';
 $string['autosubscribeyes'] = 'Ja: Opret automatisk abonnement når jeg har skrevet et indlæg i et forum';
@@ -159,6 +161,7 @@ $string['backupnonisowarning'] = 'Advarsel: Denne backup er fra en non-unicode v
 $string['backuporiginalname'] = 'Backup navn';
 $string['backupsavetohelp'] = 'Angiv den fulde sti til det bibliotek backup-filerne skal gemmes i.<br />(Lad feltet være blankt hvis du vil bruge standard-stien)';
 $string['backupschedulehelp'] = 'Vælg hvilke dage i ugen at der skal foretages automatisk backup.';
+$string['backupsitefileshelp'] = 'Aktiver du denne indstilling vil site-filer der bruges i kurser, blive inkluderet i den automatiske backup';
 $string['backuptakealook'] = 'Kontroller venligst din backuplog i: $a';
 $string['backupuserfileshelp'] = 'Vælg hvis du ønsker at inkludere brugerfiler (avatars) i backuppen';
 $string['backupusershelp'] = 'Vælg hvis du ønsker at inkludere alle brugere på serveren eller kun de nødvendige brugere i kurset i backup\'en';
@@ -184,8 +187,11 @@ $string['cancelled'] = 'Annulleret';
 $string['categories'] = 'Kursuskategorier';
 $string['category'] = 'Kategori';
 $string['categoryadded'] = 'Kategorien \"$a\" blev tilføjet';
+$string['categorycontents'] = 'Underkategorier og kurser';
+$string['categorycurrentcontents'] = 'Indhold i $a';
 $string['categorydeleted'] = 'Kategorien \"$a\" blev slettet';
 $string['categoryduplicate'] = 'Kategorien \"$a\" eksisterer allerede';
+$string['categorymodifiedcancel'] = 'Kategorien var ændret! Annuller og prøv igen';
 $string['categoryname'] = 'Kategorinavn';
 $string['categoryupdated'] = 'Kategorien \"$a\" blev opdateret';
 $string['changedpassword'] = 'Koden er ændret';
@@ -203,6 +209,7 @@ $string['checknone'] = 'Kontroller intet';
 $string['childcoursenotfound'] = 'Delkursus ikke fundet';
 $string['childcourses'] = 'Delkurser';
 $string['choose'] = 'Vælg';
+$string['chooseauthmethod'] = 'Vælg godkendelsesplugin';
 $string['choosecourse'] = 'Vælg et kursus';
 $string['chooseenrolmethod'] = 'Primær metode for tilmeldinger';
 $string['chooselivelogs'] = 'Eller se igangværende aktivitet';
@@ -260,8 +267,10 @@ $string['courseavailablenot'] = 'Dette kursus er ikke tilgængeligt for elever';
 $string['coursebackup'] = 'Kursusbackup';
 $string['coursecategories'] = 'Kursuskategorier';
 $string['coursecategory'] = 'Kursuskategori';
+$string['coursecategorydeleted'] = 'Kategorien $a er slettet';
 $string['coursecreators'] = 'Kursusadministratorer';
 $string['coursecreatorsdescription'] = 'Kursusadministratorer kan oprette nye kurser og undervise i dem.';
+$string['coursedeleted'] = 'Kurset $a er slettet';
 $string['courseenrolenddate'] = 'Slutdato for tilmeldinger';
 $string['courseenrolstartdate'] = 'Startdato for tilmeldinger';
 $string['coursefiles'] = 'Kursusfiler';
@@ -291,6 +300,7 @@ $string['courserequestsuccess'] = 'Din kursusanmodning er blevet gemt. Du vil mo
 $string['courserestore'] = 'Kursusgendannelse';
 $string['courses'] = 'Kurser';
 $string['coursescategory'] = 'Kurser i samme kategori';
+$string['coursesmovedout'] = 'Kurser blev flyttet fra $a';
 $string['coursespending'] = 'Kurser der afventer godkendelse';
 $string['coursestaught'] = 'Kurser jeg har undervist i';
 $string['courseupdates'] = 'Kursusopdateringer';
@@ -308,6 +318,7 @@ $string['creatingcourseroles'] = 'Opretter rolletildelinger og særrettigheder p
 $string['creatingevents'] = 'Opretter begivenheder';
 $string['creatinggradebook'] = 'Opretter karakterbog';
 $string['creatinggroupings'] = 'Opretter grupperinger';
+$string['creatinggroupingsgroups'] = 'Tilføj grupper til grupperinger';
 $string['creatinggroups'] = 'Opretter grupper';
 $string['creatinglogentries'] = 'Opretter logindføringer';
 $string['creatingmessagesinfo'] = 'Opretter besked info';
@@ -359,7 +370,9 @@ $string['defaultcourseteachers'] = 'Lærere';
 $string['delete'] = 'Slet';
 $string['deleteall'] = 'Slet alt';
 $string['deleteallcomments'] = 'Slet alle kommentarer';
+$string['deletecategory'] = 'Slet kategorien: $a';
 $string['deletecategorycheck'] = 'Er du helt sikker på at du vil slette denne kategori<b>\"$a\"</b>?<br />Det vil forårsage at evt. kurser i kategorien vil blive flyttet til den overordnede kategori eller til kategorien Blandet.';
+$string['deletecategorycheck2'] = 'Hvis du sletter denne kategori må du tage stilling til hvad der skal ske med dens underkategorier og kurser.';
 $string['deletecheck'] = 'Slet $a ?';
 $string['deletecheckfiles'] = 'Er du helt sikker på at du vil slette disse filer?';
 $string['deletecheckfull'] = 'Er du helt sikker på at du vil slette $a ?';
@@ -373,6 +386,7 @@ $string['deletedcourse'] = '$a er nu væk!';
 $string['deletednot'] = 'Kunne ikke slette $a !';
 $string['deletelogs'] = 'Slet logs';
 $string['deleteselected'] = 'Slet valgte';
+$string['deleteselectedkey'] = 'Slet den valgte nøgle';
 $string['deletingcourse'] = 'Sletter $a';
 $string['deletingexistingcoursedata'] = 'Slet eksisterende kursusdata';
 $string['deletingolddata'] = 'Sletter gamle data';
@@ -410,7 +424,7 @@ $string['edit'] = 'Rediger $a';
 $string['editcategorysettings'] = 'Rediger kategoriindstillinger';
 $string['editcategorythis'] = 'Rediger denne kategori';
 $string['editcoursesettings'] = 'Rediger kursusindstillinger';
-$string['editfiles'] = 'Ret filer';
+$string['editfiles'] = 'Administrer filer';
 $string['editgroupprofile'] = 'Ret gruppeprofil';
 $string['editinga'] = 'Redigerer $a';
 $string['editingteachershort'] = 'Editor';
@@ -427,6 +441,7 @@ $string['editorhelptopics'] = 'Hjælpeemner til editoren';
 $string['editorresettodefaults'] = 'Gendan standardværdier';
 $string['editorsettings'] = 'Editorindstillinger';
 $string['editorshortcutkeys'] = 'Genvejstaster til editoren';
+$string['editremoteprofile'] = 'Rediger fjernprofil';
 $string['editsummary'] = 'Rediger tekst';
 $string['editthisactivity'] = 'Rediger denne aktivitet';
 $string['editthiscategory'] = 'Ret denne kategori';
@@ -472,6 +487,30 @@ $string['emailmustbereal'] = 'OBS: Din e-mail-adresse bliver verificeret';
 $string['emailnotallowed'] = 'E-mail-adresser til disse domæner er ikke tilladt.';
 $string['emailnotfound'] = 'E-mail-adressen findes ikke i databasen';
 $string['emailonlyallowed'] = 'Dette e-mail-domæne er ikke et af de tilladte.';
+$string['emailpasswordchangeinfo'] = 'Hej $a->firstname,
+
+Nogen (sikkert dig selv) har bestilt en ny adgangskode til \'$a->sitename\'.
+
+For at ændre koden skal du gå ind på denne web-adresse:
+
+$a->link
+
+I de fleste mailprogrammer vises linket med blå skrift som du bare kan klikke på. Hvis det ikke virker så kopier adressen over i adressefeltet i toppen af dit browservindue.
+
+Skal du have hjælp, kan du kontakte administrator, 
+$a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'Hej $a->firstname,
+
+Nogen (sikkert dig selv) har bestilt en ny adgangskode til \'$a->sitename\'.
+
+Desværre er din konto til siden deaktiveret og kan ikke genetableres, kontakt administrator,
+$a->admin';
+$string['emailpasswordchangeinfofail'] = 'Hej $a->firstname,
+
+Nogen (sikkert dig selv) har bestilt en ny adgangskode til \'$a->sitename\'.
+
+Desværre kan adgangskoden ikke ændres på denne side, kontakt administrator,
+$a->admin';
 $string['emailpasswordconfirmation'] = 'Hej $a->firstname,
 
 En ny konto er oprettet på\'$a->sitename\'
@@ -504,6 +543,7 @@ $string['enrolenddaterror'] = 'Tilmeldingsdatoen kan ikke være før end startda
 $string['enrollable'] = 'Tilmelding mulig';
 $string['enrolledincourse'] = 'Tilmeldt kurset \"$a\"';
 $string['enrolledincoursenot'] = 'Ikke tilmeldt kurset \"$a\"';
+$string['enrolledincoursenotrole'] = 'Fejl ved tilmelding til \"$a->course\" som \"$a->role\"';
 $string['enrolledincourserole'] = 'Tilmeldt \"$a->course\" som \"$a->role\"';
 $string['enrollfirst'] = 'Du skal være tilmeldt kurset for at kunne bruge kursusaktiviteterne';
 $string['enrolme'] = 'Tilmeld mig dette kursus';
@@ -622,6 +662,7 @@ $string['gdnot'] = 'GD er ikke installeret';
 $string['general'] = 'Generelt';
 $string['gettheselogs'] = 'Hent disse logs';
 $string['go'] = 'Start';
+$string['gotoyourserver'] = '(Linker tilbage til din server)';
 $string['gpl'] = 'Copyright (C) 2001-2002  Martin Dougiamas  (http://dougiamas.com)
 
 This program is free software; you can redistribute it and/or modify
@@ -670,6 +711,7 @@ $string['guestsyes'] = 'Tillad gæster uden nøgle';
 $string['guestuser'] = 'Gæst';
 $string['guestuserinfo'] = 'Denne bruger tillades kun læseadgang til visse kurser.';
 $string['healthcenter'] = 'System check';
+$string['healthnoproblemsfound'] = 'Ingen helbredsproblemer her!';
 $string['healthproblemsdetected'] = 'Systemproblem opdaget';
 $string['healthproblemsolution'] = 'Løsning på systemproblem';
 $string['healthreturntomain'] = 'Fortsæt';
@@ -740,6 +782,8 @@ $string['includemodules'] = 'Inkluder moduler';
 $string['includemoduleuserdata'] = 'Inkluder brugerdata fra moduler';
 $string['includeneededusers'] = 'Indkluder nødvendige brugere';
 $string['includenoneusers'] = 'Inkluder ikke brugere';
+$string['includeroleassignments'] = 'Inkluder tildelte roller';
+$string['includesitefiles'] = 'Inkluder side-filer brugt på kurset';
 $string['includeuserfiles'] = 'Inkluder brugerfiler';
 $string['info'] = 'Information';
 $string['institution'] = 'Institution';
@@ -773,6 +817,7 @@ $string['list'] = 'Liste';
 $string['listfiles'] = 'Liste over filer i $a';
 $string['listofallpeople'] = 'Liste over alle';
 $string['livelogs'] = 'Live logs fra den sidste time';
+$string['local'] = 'Lokal';
 $string['locale'] = 'da_DK.UTF-8';
 $string['location'] = 'Sted';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
@@ -871,8 +916,10 @@ $string['moodledocslink'] = 'Moodle Docs for denne side';
 $string['moodleversion'] = 'Moodle version';
 $string['more'] = 'mere';
 $string['moreinformation'] = 'Mere information om denne fejl';
+$string['moreprofileinfoneeded'] = 'Vær venlig at fortælle lidt mere om dig selv';
 $string['mostrecently'] = 'sidste';
 $string['move'] = 'Flyt';
+$string['movecategorycontentto'] = 'Flyt info';
 $string['movecategoryto'] = 'Flyt kategori til:';
 $string['movecourseto'] = 'Flyt kurset til:';
 $string['movedown'] = 'Flyt ned';
@@ -976,6 +1023,7 @@ $string['noreplyname'] = 'Svar ikke på denne e-mail';
 $string['noresults'] = 'Ingen resultater';
 $string['normal'] = 'Normal';
 $string['normalfilter'] = 'Normal søgning';
+$string['nosite'] = 'Kunne ikke finde forsidekursus';
 $string['nostatstodisplay'] = 'Der er desværre ingen data at vise.';
 $string['nostudentsfound'] = '$a ikke fundet';
 $string['nostudentsingroup'] = 'Der er ingen elever i denne gruppe endnu';
@@ -992,6 +1040,7 @@ $string['nothingtodisplay'] = 'Ingenting at vise';
 $string['notice'] = 'Bemærk';
 $string['noticenewerbackup'] = 'Denne backupfil er lavet med Moodle $a->backuprelease ($a->backupversion). Den er nyere end den nuværende installation af Moodle  $a->serverrelease ($a->serverversion). Dette kunne medføre nogle fejl da backupfilerne ikke med garanti er bagudkompatible.';
 $string['notifications'] = 'Beskeder';
+$string['notify'] = 'Notificer';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Bruger: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Du kan se loggen på  $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Her er en liste over forkerte loginforsøg for $a  siden du sidst blev gjort opmærksom på det.';
@@ -1018,6 +1067,7 @@ $string['numwords'] = '$a ord';
 $string['numyears'] = '$a år';
 $string['ok'] = 'OK';
 $string['oldpassword'] = 'Nuværende adgangskode';
+$string['olduserdirectory'] = 'Dette er det GAMLE brugerbibliotek og det bruges ikke længere. Du kan roligt slette det. Filerne er kopieret til det NYE brugerbibliotek.';
 $string['opentoguests'] = 'Gæsteadgang';
 $string['optional'] = 'valgfrit';
 $string['order'] = 'Rækkefølge';
@@ -1062,6 +1112,7 @@ $string['periodending'] = 'Perioden slutter ($a)';
 $string['personal'] = 'Personlig';
 $string['personalprofile'] = 'Personlig profil';
 $string['phone'] = 'Telefon nr.';
+$string['phone2'] = 'Mobil nr.';
 $string['phpinfo'] = 'PHP info';
 $string['pictureof'] = 'Billede af $a';
 $string['pleaseclose'] = 'Luk venligst dette vindue nu.';
@@ -1230,6 +1281,7 @@ $string['showallweeks'] = 'Vis alle uger';
 $string['showblockcourse'] = 'Vis hvilke kurser, der bruger blokken';
 $string['showgrades'] = 'Vis karakterer';
 $string['showlistofcourses'] = 'Vis en kursusliste';
+$string['showmodulecourse'] = 'Vis en lister over kurser der bruger aktiviteten';
 $string['showonly'] = 'Vis kun';
 $string['showonlytopic'] = 'Vis kun emne $a';
 $string['showonlyweek'] = 'Vis kun uge $a';
@@ -1244,6 +1296,7 @@ $string['site'] = 'Site';
 $string['sitedefault'] = 'Site standarder';
 $string['siteerrors'] = 'Site fejl';
 $string['sitefiles'] = 'Site filer';
+$string['sitefilesused'] = 'Se de filer der bruges i dette kursus';
 $string['sitelogs'] = 'Site logs';
 $string['sitenews'] = 'Site nyheder';
 $string['sitepartlist'] = 'Du har ikke de nødvendige rettigheder til at se deltagerlisten.';
@@ -1419,6 +1472,7 @@ $string['uploadformlimit'] = 'Den uploadede fil overskrider den for formen beste
 $string['uploadlabel'] = 'Titel:';
 $string['uploadnofilefound'] = 'Ingen fil fundet - er du sikker på at du har uploadet én? (måske var den for stor i forhold til en begrænsning?)';
 $string['uploadnotallowed'] = 'Upload er ikke tilladt';
+$string['uploadnotempdir'] = 'Mangler en temporær mappe';
 $string['uploadoldfilesdeleted'] = 'De gamle filer i dit upload-område er blevet slettet';
 $string['uploadpartialfile'] = 'Filen blev kun delvist uploadet.';
 $string['uploadproblem'] = 'En ukendt fejl opstod mens filen \"$a\" blev uploadet (måske var den for stor?)';
