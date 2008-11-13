@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // error.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -25,6 +25,7 @@ $string['cannotassignrole'] = 'コース内でロールを割り当てること�
 $string['cannotassignrolehere'] = 'あなたは、このコンテクスト ($a->context) において、このロール (id = $a->roleid) の割り当てを許可されていません。';
 $string['cannotassignselfasparent'] = '自分自身を親カテゴリに割り当てることはできません!';
 $string['cannotcallscript'] = 'このスクリプトを、そのように使うことはできません。';
+$string['cannotcallusgetselecteduser'] = 'multiselectがtrueの場合、あなたはuser_selector::get_selected_userをコールできません。';
 $string['cannotcreatebackupdir'] = 'バックアップデータフォルダを作成できませんでした。サイト管理者がファイルパーミッションを変更する必要があります。';
 $string['cannotcreatecategory'] = 'カテゴリは追加されませんでした。';
 $string['cannotcreatedefaultcat'] = 'コンテクスト $a のデフォルトカテゴリ作成中にエラーが発生しました。';
@@ -446,6 +447,7 @@ $string['usernotrenamedoff'] = 'ユーザはリネームされませんでした
 $string['usernotupdatedadmin'] = '管理者アカウントを更新できませんでした。';
 $string['usernotupdatederror'] = 'ユーザは更新されませんでした - エラー。';
 $string['usernotupdatednotexists'] = 'ユーザは更新されませんでした - 登録されていません。';
+$string['userselectortoomany'] = 'multiselectがfalseにもかかわらず、user_selectorが1名以上のユーザを選択しています。';
 $string['wrongcall'] = 'このスクリプトは正常にコールされていません。';
 $string['wrongcontextid'] = 'コンテクストIDが正しくありません (見つけることができません)。';
 $string['wrongdestpath'] = '宛先パスが正しくありません。';
