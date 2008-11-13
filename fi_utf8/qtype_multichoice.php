@@ -1,15 +1,17 @@
-<?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
+<?PHP // $Id$
 $string['addingmultichoice'] = 'Lisätään monivalinta';
-$string['answerhowmany'] = 'Yksi vai useita vastauksia?';
-$string['answernumbering'] = 'Numerointi';
+$string['addmorechoiceblanks'] = 'Lisää kenttiä {no} vaihtoehdolle';
+$string['answerhowmany'] = 'Yksi vai useita vaihtoehtoja?';
+$string['answernumbering'] = 'Vaihtoehtojen numerointi';
+$string['answernumbering123'] = '1., 2., 3., ...';
+$string['answernumberingABCD'] = 'A., B., C., ...';
+$string['answernumberingabc'] = 'a., b., c., ...';
 $string['answernumberingnone'] = 'Ei numerointia';
-$string['answersingleno'] = 'Useat vastaukset sallitaan';
-$string['answersingleyes'] = 'Vain yksi vastaus';
+$string['answersingleno'] = 'Salli useampi vaihtoehto';
+$string['answersingleyes'] = 'Vain yksi vaihtoehto';
 $string['choiceno'] = 'Vaihtoehto';
 $string['choices'] = 'Vaihtoehdot';
+$string['clozeaid'] = 'Syötä puuttuva sana';
 $string['correctfeedback'] = 'Oikeasta vastauksesta';
 $string['editingmultichoice'] = 'Muokataan monivalintaa';
 $string['feedback'] = 'Palaute';
@@ -19,11 +21,10 @@ $string['fractionsnomax'] = 'Yhden vaihtoehdon arvon pitäisi olla 100%%, jotta 
 $string['incorrectfeedback'] = 'Väärästä vastauksesta';
 $string['notenoughanswers'] = 'Kysymyksen tyyppi tarvitsee vähintään $a vaihtoehtoa';
 $string['overallcorrectfeedback'] = 'Palaute oikeasta vastauksesta';
-$string['overallfeedback'] = 'Kokonaispalaute';
+$string['overallfeedback'] = 'Vaihtuva palaute';
 $string['overallincorrectfeedback'] = 'Palaute väärästä vastauksesta';
 $string['overallpartiallycorrectfeedback'] = 'Palaute osittain oikeasta vastauksesta';
 $string['partiallycorrectfeedback'] = 'Osittain oikeasta vastauksesta';
 $string['shuffleanswers'] = 'Sekoita vaihtoehdot';
 $string['singleanswer'] = 'Valitse yksi vaihtoehto';
-
 ?>

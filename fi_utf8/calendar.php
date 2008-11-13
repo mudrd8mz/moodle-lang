@@ -38,6 +38,7 @@ $string['eventnone'] = 'Ei tapahtumia';
 $string['eventrepeat'] = 'Toistot';
 $string['eventsall'] = 'Kaikki tapahtumat';
 $string['eventsfor'] = '$a tapahtumat';
+$string['eventskey'] = 'Tapahtumien selitteet';
 $string['eventsrelatedtocourses'] = 'Kurssiin liittyvät tapahtumat';
 $string['eventstarttime'] = 'Tapahtuman alkamisaika';
 $string['eventtime'] = 'kello';

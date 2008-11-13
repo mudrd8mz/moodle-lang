@@ -1,5 +1,6 @@
 <?PHP // $Id$
 $string['addresource'] = 'Lisää aineisto';
+$string['affectedresources'] = 'Muutetut aineistot';
 $string['back'] = 'Takaisin';
 $string['browserepository'] = 'Selaa varastoa';
 $string['choose'] = 'Valitse';
@@ -40,7 +41,7 @@ $string['fetcherror'] = 'Tapahtui virhe sivua haettaessa.';
 $string['fetchservererror'] = 'Etäpalvelimella tapahtui virhe haettaessa sivua (ehkä ohjelmavirhe)';
 $string['filename'] = 'Tiedoston nimi';
 $string['filtername'] = 'Aineiston automaattilinkitys';
-$string['forcedownload'] = 'Pakota tiedoston lataus';
+$string['forcedownload'] = 'Pakotettu lataaminen';
 $string['frameifpossible'] = 'Pane aineisto kehykseen ja jätä sivuston navigointipainikkeet näkyviin.';
 $string['fulltext'] = 'Teksti';
 $string['htmlfragment'] = 'HTML';

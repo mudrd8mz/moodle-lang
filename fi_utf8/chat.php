@@ -1,4 +1,5 @@
 <?PHP // $Id$
+$string['autoscroll'] = 'Automaattinen vieritys';
 $string['beep'] = 'kutsu';
 $string['chat:chat'] = 'Chatissa keskustelu';
 $string['chat:deletelog'] = 'Chatin lokien poisto';

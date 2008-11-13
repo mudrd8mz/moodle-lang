@@ -1,11 +1,9 @@
-<?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
+<?PHP // $Id$
 $string['addrole'] = 'Lisää rooli';
 $string['allow'] = 'Salli';
 $string['allowassign'] = 'Salli roolien jako';
 $string['allowoverride'] = 'Salli roolien kumoaminen';
+$string['allsiteusers'] = 'Kaikki sivuston käyttäjät';
 $string['assignglobalroles'] = 'Jaa järjestelmäroolit';
 $string['assignroles'] = 'Jaa rooleja';
 $string['assignrolesin'] = 'Jaetaan rooleja kohteessa $a';
@@ -54,17 +52,17 @@ $string['defaultrole'] = 'Oletusrooli';
 $string['defineroles'] = 'Määritä roolit';
 $string['deletecourseoverrides'] = 'Poista kaikki roolien kumoukset kurssilta';
 $string['deletelocalroles'] = 'Poista kaikki paikallisesti jaetut rolit';
-$string['deleterolesure'] = 'Oletko varma, että haluat poistaa roolin  \"$a->name ($a->shortname)\"?</p><p> Rooli on jaettuna $a->count käyttäjälle.';
+$string['deleterolesure'] = 'Oletko varma että haluat poistaa roolin  \"$a->name ($a->shortname)\"?</p><p> Rooli on jaettuna $a->count käyttäjälle.';
 $string['duplicaterole'] = 'Monista rooli';
-$string['duplicaterolesure'] = 'Oletko varma, että haluat monistaa roolin $a->name ($a->shortname)\"?</p>';
+$string['duplicaterolesure'] = 'Oletko varma että haluat monistaa roolin \"$a->name ($a->shortname)\"?</p>';
 $string['editrole'] = 'Muokkaa roolia';
-$string['errorbadrolename'] = 'Kelvoton roolin nimi';
-$string['errorbadroleshortname'] = 'Kelvoton roolin nimi';
+$string['errorbadrolename'] = 'Roolin nimi ei kelpaa';
+$string['errorbadroleshortname'] = 'Roolin nimi ei kelpaa';
 $string['errorexistsrolename'] = 'Roolin nimi on jo olemassa';
 $string['errorexistsroleshortname'] = 'Roolin nimi on jo olemassa';
 $string['existingusers'] = '$a käyttäjää';
 $string['globalrole'] = 'Järjestelmärooli';
-$string['globalroleswarning'] = 'VAROITUS: Täällä määritellyt roolit jaetaan koskemaan koko järjestelmään, mukaan luettuna sivuston etusivu ja kaikki kurssit.';
+$string['globalroleswarning'] = 'VAROITUS: Täällä määritellyt roolit jaetaan koskemaan koko järjestelmää, mukaan luettuna sivuston etusivu ja kaikki kurssit.';
 $string['grade:edit'] = 'Muokkaa arviointeja';
 $string['grade:export'] = 'Viedä arviointeja';
 $string['grade:hide'] = 'Piilottaa/nayttää arviointeja tai kohteita';
@@ -76,6 +74,9 @@ $string['grade:override'] = 'Kumoa arviointeja';
 $string['grade:unlock'] = 'Avata arviointeja tai kohteita';
 $string['grade:view'] = 'Nähdä omat arvioinnit';
 $string['grade:viewall'] = 'Nähdä muiden käyttäjien arvioinnit';
+$string['grade:viewhidden'] = 'Nähdä omat piilotetut arvioinnit';
+$string['inactiveformorethan'] = 'käyttämätön pidempään kuin $a->timeperiod';
+$string['ingroup'] = 'ryhmässä \"$a->group\"';
 $string['inherit'] = 'Peri';
 $string['legacy:admin'] = 'PERINTEINEN ROOLI: Ylläpitäjä';
 $string['legacy:coursecreator'] = 'PERINTEINEN ROOLI: Kurssiylläpitäjä';
@@ -88,7 +89,7 @@ $string['legacytype'] = 'Perinteisen roolin tyyppi';
 $string['listallroles'] = 'Listaa kaikki roolit';
 $string['localroles'] = 'Paikallisesti jaetut roolit';
 $string['manageroles'] = 'Roolien hallinta';
-$string['metaassignerror'] = 'Et voi jakaa tätä roolia käyttäjälle \"$a\", koska sinulla ei ole \"Metakurssin hallinta\"-kykyä.';
+$string['metaassignerror'] = 'Et voi jakaa tätä roolia käyttäjälle \"$a\", koska sinulla ei ole \"Metakurssin hallinta\" -kykyä.';
 $string['morethan'] = 'Enemmän kuin $a';
 $string['multipleroles'] = 'Useita rooleja';
 $string['my:manageblocks'] = 'Hallita Minun Moodleni sivun lohkoja';
@@ -109,6 +110,9 @@ $string['question:add'] = 'Lisätä kysymyksiä';
 $string['question:config'] = 'Määritellä kysymystyyppejä';
 $string['question:editall'] = 'Muokata kaikkia kysymyksiä';
 $string['question:editmine'] = 'Muokata omia kysymyksiä';
+$string['question:export'] = 'Kysymysten vienti';
+$string['question:import'] = 'Kysymysten tuonti';
+$string['question:manage'] = 'Kysymysten hallinta';
 $string['question:managecategory'] = 'Kysymyskategorioiden hallinta';
 $string['question:moveall'] = 'Siirtää kaikki kysymykset';
 $string['question:movemine'] = 'Siirtää omat kysymykset';
@@ -118,6 +122,8 @@ $string['question:viewall'] = 'Katsoa kaikkia kysymyksiä';
 $string['question:viewmine'] = 'Katsoa omia kysymyksiä';
 $string['resetrole'] = 'Palauttaa oletukset';
 $string['resetrolenolegacy'] = 'Poistaa oikeudet';
+$string['resetrolesure'] = 'Oletko varma, että haluat palauttaa roolin \"$a->name ($a->shortname)\" oletusasetuksiinsa?<p></p>Oletusasetukset määritellään perinteisen kyvyn ($a->legacytype) mukaan.';
+$string['resetrolesurenolegacy'] = 'Oletko varma, että haluat poistaa kaikki roolin \"$a->name ($a->shortname)\" kykyjen määritykset?';
 $string['risks'] = 'Riskit';
 $string['role:assign'] = 'Roolien jako';
 $string['role:manage'] = 'Roolien hallinta';
@@ -170,8 +176,4 @@ $string['user:viewuseractivitiesreport'] = 'Käyttäjän aktiivisuuden katselu';
 $string['user:viewusergrades'] = 'Käyttäjän arvosanojen katselu';
 $string['viewrole'] = 'Roolin tarkastelu';
 $string['xuserswiththerole'] = 'Käyttäjiä roolilla \"$a->role\": $a->number';
-$string['question:export'] = 'Kysymysten vienti'; // ORPHANED
-$string['question:import'] = 'Kysymysten tuonti'; // ORPHANED
-$string['question:manage'] = 'Kysymysten hallinta'; // ORPHANED
-
 ?>

@@ -1,41 +1,37 @@
-<?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
-$string['addfields'] = 'Lisää $a kentät lomakkeeseen';
-$string['advancedelement'] = 'Monimutkainen kenttä';
-$string['day'] = 'Päivä';
-$string['display'] = 'Näytä';
-$string['err_alphanumeric'] = 'Syötä vain numeroita ja kirjaimia tähän.';
-$string['err_email'] = 'Syötä toimiva sähköpostiosoite tähän.';
-$string['err_lettersonly'] = 'Syötä vain kirjaimia tähän.';
-$string['err_maxlength'] = 'Voit syöttää enintään $a->format merkkiä tähän.';
-$string['err_minlength'] = 'Sinun pitää syöttää vähintäin $a->format merkkiä tähän.';
-$string['err_nonzero'] = 'Syötä numero, joka ei ala 0:lla.';
-$string['err_nopunctuation'] = 'Et voi käyttää välimerkkejä tässä.';
-$string['err_numeric'] = 'Syötä numero tähän.';
-$string['err_rangelength'] = 'Syötä merkki väliltä {$a->format[0]} ja {$a->format[1]} tähän.';
-$string['err_required'] = 'Pakollinen kenttä.';
-$string['general'] = 'Yleinen';
-$string['hideadvanced'] = 'Piilota edistyneet';
-$string['hour'] = 'Tunti';
-$string['minute'] = 'Minutti';
-$string['miscellaneoussettings'] = 'Sekalaiset asetukset';
-$string['modstandardels'] = 'Yleiset modulin asetukset';
-$string['month'] = 'Kuukausi';
+<?PHP // $Id$
+$string['addfields'] = 'Lisää lomakkeeseen $a kenttää';
+$string['advancedelement'] = 'Lisätietokenttä';
+$string['day'] = 'Päivää';
+$string['denotesreq'] = '$a merkitsee pakollista kenttää';
+$string['display'] = 'Näyttö';
+$string['err_alphanumeric'] = 'Kenttä saa sisältää vain kirjaimia ja numeroita.';
+$string['err_email'] = 'Kentän on sisällettävä kelvollinen sähköpostiosoite.';
+$string['err_lettersonly'] = 'Kenttä saa sisältää vain kirjaimia.';
+$string['err_maxlength'] = 'Kenttä saa olla enintään $a->format merkkiä pitkä.';
+$string['err_minlength'] = 'Kentän on oltava vähintään $a->format merkkiä pitkä.';
+$string['err_nonzero'] = 'Kentän on oltava luku, joka ei saa alkaa numerolla 0.';
+$string['err_nopunctuation'] = 'Kenttä ei saa sisältää välimerkkejä.';
+$string['err_numeric'] = 'Kentän on oltava luku.';
+$string['err_rangelength'] = 'Kentän on sisällettävä vähintään {$a->format[0]} ja enintään {$a->format[1]} merkkiä.';
+$string['err_required'] = 'Pakollinen kenttä puuttuu.';
+$string['general'] = 'Yleiset';
+$string['hideadvanced'] = 'Piilota lisäkentät';
+$string['hour'] = 'Tuntia';
+$string['minute'] = 'Minuuttia';
+$string['miscellaneoussettings'] = 'Muut asetukset';
+$string['modstandardels'] = 'Moduulien yleiset asetukset';
+$string['month'] = 'Kuukautta';
 $string['nomethodforaddinghelpbutton'] = 'Ohjepainiketta ei pysty lisäämään lomakkeen kenttään $a->name (class $a->classname)';
 $string['nonexistentformelements'] = 'Yritys lisätä ohjepainike olemattomiin lomakkeen kenttiin : $a';
-$string['optional'] = 'Valinnainen';
+$string['optional'] = 'Valinnainen kenttä';
 $string['othersettings'] = 'Muut asetukset';
 $string['requiredelement'] = 'Pakollinen kenttä.';
 $string['revealpassword'] = 'Näytä';
 $string['security'] = 'Suojaus';
 $string['selectallornone'] = 'Valitse kaikki/ei mitään';
-$string['showadvanced'] = 'Näytä edistyneet';
-$string['somefieldsrequired'] = 'Pakolliset kentät on merkitty $a:llä.';
-$string['timing'] = 'Ajoitus';
+$string['showadvanced'] = 'Näytä lisäkentät';
+$string['somefieldsrequired'] = 'Pakolliset kentät on merkitty symbolilla $a.';
+$string['timing'] = 'Ajastus';
 $string['unmaskpassword'] = 'Näytä';
-$string['year'] = 'Vuosi';
-$string['denotesreq'] = '$a merkitsee pakollista kenttää'; // ORPHANED
-
+$string['year'] = 'Vuotta';
 ?>
