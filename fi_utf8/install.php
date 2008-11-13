@@ -1,11 +1,9 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['admindirerror'] = 'Ylläpitohakemisto on määritetty väärin';
 $string['admindirname'] = 'Ylläpitohakemisto';
-$string['admindirsetting'] = 'Jotkut webpalvelut käyttävät /admin hakemistoa ylläpitotarkoituksiin tms. Valitettavasti tämä on ristiriidassa Moodlen ylläpitosivujen normaalin paikan kanssa. Voit korjata tämän nimeämällä asennuksesi ylläpitohakemiston uudelleen, ja laittamalla uuden nimen tähän. Esimerkiksi: 
+$string['admindirsetting'] = 'Jotkut web-palvelut käyttävät /admin hakemistoa ylläpitotarkoituksiin tms. Valitettavasti tämä on ristiriidassa Moodlen ylläpitosivujen normaalin paikan kanssa. Voit korjata tämän nimeämällä asennuksesi ylläpitohakemiston uudelleen ja laittamalla uuden nimen tähän. Esimerkiksi: 
 <br /> <br /><b>moodleadmin</b><br /> <br />
-Tämä korjaa ylläpito linkit Moodlessa.';
+Tämä korjaa ylläpitolinkit Moodlessa.';
 $string['admindirsettinghead'] = 'Asetetaan ylläpitohakemisto';
 $string['admindirsettingsub'] = 'Jotkut sivustot käyttävät /admin-hakemistoa omiin tarkoituksiinsa. Tämä on ristiriidassa moodlen /admin-kansion kanssa.
 Voit korjata tämän nimeämällä moodlen admin-kansion uudelleen antamalla nimen tähän <br />
@@ -17,7 +15,7 @@ $string['chooselanguagesub'] = 'Valitse kieli asennusohjelmaa varten. Voit valit
 $string['compatibilitysettings'] = 'Tarkistetaan PHP:n asetukset';
 $string['compatibilitysettingshead'] = 'Tarkistetaan PHP:n asetukset';
 $string['compatibilitysettingssub'] = 'Palvelimesi pitää läpäistä kaikki testit jotta moodle toimisi oikein.';
-$string['configfilenotwritten'] = 'Asennus ei pystynyt luomaan automaattisesti config.php tiedostoa, joka olisi sisältänyt valitsemasi asetukset. Todennäköisesti koska Moodlen hakemisto on kirjoitussuojattu. Voit  kopioida seuraavan koodin tiedostoon nimeltä config.php  ja tallentaa tiedostin Moodlen päähakemiston sisälle.';
+$string['configfilenotwritten'] = 'Asennus ei pystynyt luomaan automaattisesti config.php -tiedostoa, joka olisi sisältänyt valitsemasi asetukset, todennäköisesti koska Moodlen hakemisto on kirjoitussuojattu. Voit manuaalisesti kopioida seuraavan koodin tiedostoon nimeltä config.php Moodlen päähakemiston sisällä.';
 $string['configfilewritten'] = 'config.php on luotu.';
 $string['configurationcomplete'] = 'Asetukset suoritettu';
 $string['configurationcompletehead'] = 'Asetukset suoritettu';
@@ -85,7 +83,7 @@ $string['databasesettingssub_postgres7'] = '<b>Tyyppi:</b> PostgreSQL <br />
 <b>Taulukon etuliite:</b> pakollinen etuliite jota käytetään kaikissa taulukoissa';
 $string['dataroot'] = 'Datahakemisto';
 $string['datarooterror'] = '\"Datahakemistoa\", jonka määrittelit, ei voitu löytää, eikä luoda. Joko korjaa polku, tai luo hakemisto manuaalisesti.';
-$string['dbconnectionerror'] = 'Emme pystyneet kytkeytymään tietokantaan, jonka määrittelit. Tarkista tietokanta asetuksesi.';
+$string['dbconnectionerror'] = 'Emme pystyneet kytkeytymään tietokantaan, jonka määrittelit. Tarkista tietokanta-asetuksesi.';
 $string['dbcreationerror'] = 'Tietokannan luomisvirhe. Ei pystytty luomaan annettua tietokannan nimeä tarjotuilla asetuksilla.';
 $string['dbhost'] = 'Palvelin';
 $string['dbpass'] = 'Salasana';
@@ -128,9 +126,9 @@ $string['fileuploads'] = 'Tiedostojen lähettäminen';
 $string['fileuploadserror'] = 'Tämän pitäisi olla päällä';
 $string['fileuploadshelp'] = '<p>Tiedostojen lähettäminen ei näyttäisi olevan käytössä palvelimellasi.</p>
 
-<p>Moodle voidaan silti asentaa, mutta ilman tätä et pysty lataamaan kurssitiedostoja tai vaihtamaan käyttäjän kuvaa.</p>
+<p>Moodle voidaan silti asentaa, mutta ilman tätä ominaisuutta et pysty lataamaan kurssitiedostoja tai uuden käyttäjän profiilikuvia.</p>
 
-<p>Mahdollistaaksesi tiedostojen latauksen sinun (tai systeemisi ylläpitäjän) täytyy muokata varusohjelmien php.ini tiedosto systeemiisi ja muuttaa asetus <b>file_uploads</b> to \'1\'.</p>';
+<p>Mahdollistaaksesi tiedostojen latauksen sinun (tai systeemisi ylläpitäjän) täytyy muokata varusohjelmien php.ini -tiedosto systeemiisi ja muuttaa asetus <b>file_uploads</b> to \'1\'.</p>';
 $string['gdversion'] = 'GD versio';
 $string['gdversionerror'] = 'GD kirjaston pitäisi olla päällä, että voidaan käsitellä ja luoda kuvia.';
 $string['gdversionhelp'] = '<p>Palvelimellasi ei näyttäisi olevan GD:tä asennettuna.</p>
@@ -157,17 +155,17 @@ $string['memorylimithelp'] = '<p>PHP muistiraja palvelimellesi on tällä hetkel
 
 <p>Tämä saattaa aiheuttaa Moodlelle muistiongelmia myöhemmin, varsinkin jos sinulla on paljon mahdollisia moduuleita ja/tai paljon käyttäjiä.</p>
 
-<p>Suosittelemme, että valitset asetuksiksi PHP:n korkeimmalla mahdollisella raja-arvolla, esimerkiksi 40M.
+<p>Suosittelemme, että valitset asetuksiksi PHP:n korkeimmalla mahdollisella raja-arvolla, esimerkiksi 16M.
 On olemassa monia tapoja joilla voit yrittää tehdä tämän:</p>
 <ol>
-<li>Jos pystyt, uudelleen käännä PHP <i>--enable-memory-limit</i>. :llä.
+<li>Jos pystyt, uudelleenkäännä PHP <i>--enable-memory-limit</i>. :llä.
 Tämä sallii Moodlen asettaa muistirajan itse.</li>
-<li>Jos sinulla on pääsy php.ini tiedostoosi, voit muuttaa <b>memory_limit</b> setuksen siellä johonkin kuten 40M. Jos sinulla ei ole pääsyoikeutta, voit kenties pyytää ylläpitäjää tekemään tämän puolestasi.</li>
+<li>Jos sinulla on pääsy php.ini tiedostoosi, voit muuttaa <b>memory_limit</b> asetuksen siellä johonkin kuten 16M. Jos sinulla ei ole pääsyoikeutta, voit kenties pyytää ylläpitäjää tekemään tämän puolestasi.</li>
 <li>Joillain PHP palvelimilla voit luoda a .htaccess tiedoston Moodle hakemistossa, sisältäen tämän rivin:
-<p><blockquote>php_value memory_limit 40M</blockquote></p>
+<p><blockquote>php_value memory_limit 16M</blockquote></p>
 <p>Kuitenkin, joillain palvelimilla tämä estää  <b>kaikkia</b> PHP sivuja toimimasta (näet virheet, kun katsot sivuja), joten sinun täytyy poistaa .htaccess tiedosto.</p></li>
 </ol>';
-$string['mysqlextensionisnotpresentinphp'] = 'PHP:tä ei ole asennettu MySQL laajennuksen kanssa, jotta se voisi kommunikoida MySQL:n kanssa. Tarkista php.ini tiedostosi tai käännä PHP uudelleen.';
+$string['mysqlextensionisnotpresentinphp'] = 'PHP:tä ei ole kunnolla valittu asetukseksi MySQL -laajennuksen kanssa, jotta se voisi kommunikoida MySQL:n kanssa. Tarkista php.ini -tiedostosi tai käännä PHP uudelleen.';
 $string['pass'] = 'Tarkastettu';
 $string['phpversion'] = 'PHP versio';
 $string['phpversionerror'] = 'PHP version täytyy olla vähintään 4.1.0';

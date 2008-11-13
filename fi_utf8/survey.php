@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
+<?PHP // $Id$
 $string['actual'] = 'Toteutunut';
 $string['actualclass'] = 'Toteutunut';
 $string['actualstudent'] = '$a toteutunut';
@@ -10,24 +7,24 @@ $string['allscales'] = 'Kaikki asteikot, kaikki opiskelijat';
 $string['alreadysubmitted'] = 'Olet jo palauttanut tämän kyselyn';
 $string['analysisof'] = 'Analyysi $a';
 $string['answers'] = 'Vastaukset';
-$string['attls1'] = 'Kun arvioin, mitä joku sanoo, keskityn argumenttien laatuun, en henkilöön, joka esittää asian.';
-$string['attls10'] = 'Minulle on tärkeää pysyä mahdollisimman objektiivisena, kun arvion jotain.';
+$string['attls1'] = 'Kun arvioin mitä joku sanoo, keskityn argumenttien laatuun, en henkilöön, joka esittää asian.';
+$string['attls10'] = 'Minulle on tärkeää pysyä mahdollisimman objektiivisena, kun arvioin jotain.';
 $string['attls10short'] = 'pysy objektiivisena';
-$string['attls11'] = 'Yritän ajatella yhdessä ihmisten kanssa, enkä heitä vastaan.';
+$string['attls11'] = 'Yritän ajatella yhdessä ihmisten kanssa enkä heitä vastaan.';
 $string['attls11short'] = 'ajattele yhdessä ihmisten kanssa';
 $string['attls12'] = 'Käytän tiettyjä kriteerejä arvioidessani perusteluja.';
 $string['attls12short'] = 'käytä kriteerejä arviointiin';
-$string['attls13'] = 'Mieluummin yritän ymmärtää toisen mielipiteen, kuin arvioida sitä.';
+$string['attls13'] = 'Mieluummin yritän ymmärtää toisen mielipiteen kuin arvioida sitä.';
 $string['attls13short'] = 'yritä ymmärtää';
 $string['attls14'] = 'Yritän osoittaa heikot kohdat muiden ajattelussa auttaakseni heitä selventämään perustelunsa.';
 $string['attls14short'] = 'osoita heikkoudet';
-$string['attls15'] = 'Yritän ajatella itseni toisen asemaan ristiriitatilanteissa nähdäkseni miksi he ajattelevat niin kuin ajattelevat.';
+$string['attls15'] = 'Yritän ajatella itseni toisten asemaan ristiriitatilanteissa nähdäkseni, miksi he ajattelevat niin kuin ajattelevat.';
 $string['attls15short'] = 'asetu toisen asemaan';
 $string['attls16'] = 'Pyrin vertaamaan huolellisesti kaikki asiaan liittyvät näkökohdat ja faktat.';
 $string['attls16short'] = 'vertaa faktoja';
 $string['attls17'] = 'Arvostan loogisuutta yli assosioivan tietojen yhdistämisen ratkoessani ongelmia.';
 $string['attls17short'] = 'arvostan loogisuutta';
-$string['attls18'] = 'Kykenen empatian avulla oivaltamaan mielipiteitä, joka eroavat omistani.';
+$string['attls18'] = 'Kykenen empatian avulla oivaltamaan mielipiteitä, jotka eroavat omistani.';
 $string['attls18short'] = 'oivalla empaattisesti';
 $string['attls19'] = 'Kun henkilön mielipiteet ovat outoja minulle, pyrin laajentamaan ajatteluani ja ymmärtämään, miten hän voi ajatella niin.';
 $string['attls19short'] = 'laajenna ajattelua';
@@ -41,18 +38,18 @@ $string['attls3short'] = 'Ihmisten taustat';
 $string['attls4'] = 'Tärkein osa koulutustani on ollut oppia ymmärtämään toisenlaisia ihmisiä.';
 $string['attls4short'] = 'ymmärrä toisenlaisia ihmisiä';
 $string['attls5'] = 'Uskon löytäväni oman identiteettini paremmin keskustelemalla erilaisten ihmisten kanssa.';
-$string['attls5short'] = 'keskustele useiden ihmisten kanssa';
-$string['attls6'] = 'Nautin taustoiltaan erilaisten ihmisten mielipiteiden kuulumisesta, se auttaa minua ymmärtämään, miten sama asian voi nähdä eritavoin.';
+$string['attls5short'] = 'keskustele erilaisten ihmisten kanssa';
+$string['attls6'] = 'Nautin taustoiltaan erilaisten ihmisten mielipiteiden kuulemisesta - se auttaa minua ymmärtämään, miten saman asian voi nähdä eri tavoin.';
 $string['attls6short'] = 'nauti mielipiteiden kuulemisesta';
 $string['attls7'] = 'Olen huomannut, että voin vahvistaa asemaani väittelemällä, jos joku on eri mieltä kuin minä.';
 $string['attls7short'] = 'vahvistu väittelemällä';
 $string['attls8'] = 'Olen aina kiinnostunut, miksi ihmiset sanovat ja uskovat niin kuin tekevät.';
 $string['attls8short'] = 'tiedä miksi ihmiset tekevät';
-$string['attls9'] = 'Lukiessani kirjaa löydän itseni usein väittelemästä kirjoittajan kanssa löytääkseni kohdat, missä he ovat väärässä.';
-$string['attls9short'] = 'kyseenalasta kirjoittajat';
+$string['attls9'] = 'Lukiessani kirjoja löydän itseni usein väittelemästä kirjoittajien kanssa löytääkseni kohdat, joissa he ovat väärässä.';
+$string['attls9short'] = 'kyseenalaista kirjoittajat';
 $string['attlsintro'] = 'Tämän kyselyn tarkoituksena on kartoittaa suhtautumistasi ajatteluun ja oppimiseen.
 
-Kyselyyn ei ole olemassa oikeita tai vääriä vastuksia, vain sinun mielipiteesi on kiinnostava. Muista, että vastaukset käsitellään luottamuksellisesti, eivätkä ne vaikuta arvosteluun.';
+Kyselyyn ei ole olemassa oikeita tai vääriä vastauksia, vain sinun mielipiteesi on kiinnostava. Muista, että vastaukset käsitellään luottamuksellisesti eivätkä ne vaikuta arviointiin.';
 $string['attlsm1'] = 'Asenne ajatteluun ja oppimiseen';
 $string['attlsm2'] = 'Sosiaalinen oppiminen';
 $string['attlsm3'] = 'Eristyvä oppiminen';
@@ -72,14 +69,14 @@ $string['ciqintro'] = 'Mieti kurssin aikana sattuneita tapahtumia ja vastaa alla
 $string['ciqname'] = 'Kriittiset tapahtumat';
 $string['clicktocontinue'] = 'Napsauta tästä jatkaaksesi';
 $string['clicktocontinuecheck'] = 'Napsauta tästä jatkaaksesi';
-$string['colles1'] = 'oppiseni keskittyy asioihin, jotka kiinnostavat minua';
+$string['colles1'] = 'oppimiseni keskittyy asioihin, jotka kiinnostavat minua';
 $string['colles10'] = 'kyselen muiden opiskelijoiden ajatuksia ja ideoita';
 $string['colles10short'] = 'kysyn lisätietoja';
 $string['colles11'] = 'muut opiskelijat kysyvät ajatuksiani ja ideoitani';
 $string['colles11short'] = 'muut kysyvät minulta';
 $string['colles12'] = 'muut opiskelijat vastaavat ideoihini';
 $string['colles12short'] = 'opiskelijat vastaavat minulle';
-$string['colles13'] = 'ohjaaja lisää omaan ajatteluani';
+$string['colles13'] = 'ohjaaja lisää omaa ajatteluani';
 $string['colles13short'] = 'ohjaaja lisää ajattelua';
 $string['colles14'] = 'ohjaaja rohkaisee minua ottamaan osaa';
 $string['colles14short'] = 'ohjaaja rohkaisee minua';
@@ -87,8 +84,8 @@ $string['colles15'] = 'ohjaaja pitää hyviä esitelmiä';
 $string['colles15short'] = 'ohjaaja pitää esitelmiä';
 $string['colles16'] = 'ohjaaja tukee kriittistä itsearviointia';
 $string['colles16short'] = 'ohjaaja tukee itsearviointia';
-$string['colles17'] = 'toisen opiskelijat rohkaisevat minua osallistumaan';
-$string['colles17short'] = 'opiskelija rohkaisevat minua';
+$string['colles17'] = 'toiset opiskelijat rohkaisevat minua osallistumaan';
+$string['colles17short'] = 'opiskelijat rohkaisevat minua';
 $string['colles18'] = 'toiset opiskelijat kehuvat osallistumistani';
 $string['colles18short'] = 'opiskelijat kehuvat minua';
 $string['colles19'] = 'toiset opiskelijat arvostavat osallistumistani';
@@ -124,17 +121,17 @@ $string['collesaintro'] = 'Tämän kyselyn tarkoituksena on selvittää, kuinka 
 
 Jokainen seuraavista 24 kysymyksestä koskee sinun kokemuksiasi tällä kurssilla.
 
-Ei ole olemassa oikeata tai vääriä vastauksia, tahdomme sinun mielipiteesi asioista. Muista että vastaukset käsitellään luottamuksellisesti, eivätkä ne vaikuta arvosteluun.
+Ei ole olemassa oikeita tai vääriä vastauksia, sinun mielipiteesi asioista on kiinnostava. Muista, että vastaukset käsitellään luottamuksellisesti eivätkä ne vaikuta arviointiin.
 
 Vastaamalla huolellisesti ja ajatuksella autat meitä parantamaan tätä kurssia tulevaisuudessa.
 
 Kiitokset avustasi.';
 $string['collesaname'] = 'COLLES toteutunut (actual)';
-$string['collesapintro'] = 'Tämän kyselyn tarkoituksena on selvittää kuinka hyvin tämä online-kurssi on auttanut sinua oppimaan.
+$string['collesapintro'] = 'Tämän kyselyn tarkoituksena on selvittää, kuinka hyvin tämä online-kurssi on auttanut sinua oppimaan.
 
 Jokainen seuraavista 24 kysymyksestä pyytää sinua vertaamaan <i>ideaalia</i> ja <i>toteutunutta</i> tilannetta kurssilla.
 
-Ei ole olemassa oikeata tai vääriä vastauksia, tahdomme sinun mielipiteesi asioista. Muista, että vastaukset käsitellään luottamuksellisesti, eivätkä ne vaikuta arvosteluun.
+Ei ole olemassa oikeita tai vääriä vastauksia, sinun mielipiteesi asioista on kiinnostava. Muista, että vastaukset käsitellään luottamuksellisesti eivätkä ne vaikuta arviointiin.
 
 Vastaamalla huolellisesti ja ajatuksella autat meitä parantamaan tätä kurssia tulevaisuudessa.';
 $string['collesapname'] = 'COLLES (Haluttu ja Toteutunut)';
@@ -150,11 +147,10 @@ $string['collesm5'] = 'Vertaistuki';
 $string['collesm5short'] = 'Vertaistuki';
 $string['collesm6'] = 'Tulkinta';
 $string['collesm6short'] = 'Tulkinta';
-$string['collesmintro'] = 'Tällä kurssilla ...';
+$string['collesmintro'] = 'Tällä kurssilla...';
 $string['collespintro'] = 'Tämän kyselyn tarkoituksena on selvittää, mitä asioita arvostat online-oppimisympäristössä.
 
-Jokainen seuraavasta 24 kysymyksestä kysyy sinun  odotuksistasi tältä kurssilta.
-Ei ole olemassa oikeata tai vääriä vastauksia, tahdomme sinun mielipiteesi asioista. Muista että vastaukset käsitellään luottamuksellisesti, eivätkä ne vaikuta arvosteluun.
+Ei ole olemassa oikeita tai vääriä vastauksia, sinun mielipiteesi asioista on kiinnostava. Muista, että vastaukset käsitellään luottamuksellisesti eivätkä ne vaikuta arviointiin.
 
 Vastaamalla huolellisesti ja ajatuksella autat meitä parantamaan tätä kurssia tulevaisuudessa.';
 $string['collespname'] = 'COLLES haluttu (preferred)';
@@ -164,10 +160,10 @@ $string['deleteanalysis'] = 'Poista vastausten analyysi';
 $string['done'] = 'Tehty';
 $string['download'] = 'Lataa';
 $string['downloadexcel'] = 'Lataa tiedot Excel-taulukkona';
-$string['downloadinfo'] = 'Voit ladata kaikki kyselyn tiedot analysointia varten. Voit käyttää tietoja Excel-, SPPS- tai muussa ohjelmissa.';
-$string['downloadtext'] = 'Lataa tiedot tekstitiedostona.';
+$string['downloadinfo'] = 'Voit ladata kaikki kyselyn tiedot analysointia varten. Voit käyttää tietoja Excel-, SPSS- tai muissa ohjelmissa.';
+$string['downloadtext'] = 'Lataa tiedot tekstitiedostona';
 $string['editingasurvey'] = 'Kyselyn muokkaus';
-$string['guestsnotallowed'] = 'Kysely ei ole tarkoitettu vieraille';
+$string['guestsnotallowed'] = 'Kyselyä ei ole tarkoitettu vieraille';
 $string['helpsurveys'] = 'Opastus eri kyselytyyppeihin';
 $string['howlong'] = 'Kauanko sinulta meni aikaa kyselyyn vastaamiseen?';
 $string['howlongoptions'] = 'alle 1 min,1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,yli 10 min';
@@ -180,7 +176,7 @@ $string['name'] = 'Nimi';
 $string['newsurveyresponses'] = 'Uudet kyselyn vastaukset';
 $string['nobodyyet'] = 'Kukaan ei ole vielä vastannut kyselyyn';
 $string['notdone'] = 'Suorittamatta';
-$string['notes'] = 'Oma (henkilökohtainen) analyysisi ja muistiinpanosi.';
+$string['notes'] = 'Oma henkilökohtainen analyysisi ja muistiinpanosi.';
 $string['othercomments'] = 'Onko sinulla muita kommentteja?';
 $string['peoplecompleted'] = '$a henkilöä on suorittanut tämän kyselyn';
 $string['preferred'] = 'Haluttu';
@@ -209,5 +205,4 @@ $string['surveytype'] = 'Kyselyn tyyppi';
 $string['thanksforanswers'] = 'Kiitos vastauksestasi tähän kyselyyn, $a';
 $string['time'] = 'Aika';
 $string['viewsurveyresponses'] = 'Katso $a kyselyn vastausta';
-
 ?>

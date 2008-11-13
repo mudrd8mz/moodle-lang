@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['absentlong'] = 'Puuttuva';
 $string['absentshort'] = 'P';
 $string['addingmultiple'] = 'Läsnäololistojen lisääminen';
@@ -25,7 +23,7 @@ $string['downloadtexttotals'] = 'Lataa yhteenveto tekstinä';
 $string['dynamicsection'] = 'Siirrä läsnäololista viikoittain päivämäärän mukaan';
 $string['dynamicsectionmulti'] = 'Sijoita listat viikolle automaattisesti';
 $string['dynsectionshort'] = 'Siirtyy dynaamisesti osioon';
-$string['endbeforestart'] = 'Päättymispäivä on ennen lopetus päivää';
+$string['endbeforestart'] = 'Päättymispäivä on ennen aloituspäivää';
 $string['endmulti'] = 'Päiväys viimeiselle läsnäololistalle';
 $string['for'] = '--';
 $string['friday'] = 'Pe';

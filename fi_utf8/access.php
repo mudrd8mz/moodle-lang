@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['access'] = 'Esteettömyys';
 $string['accesshelp'] = 'Esteettömyysohje';
 $string['accesskey'] = 'Näppäinkomento, $a';

@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['addcomment'] = 'Lisää kommentti';
 $string['addentry'] = 'Lisää uusi tietue';
 $string['addingcomment'] = 'Lisää kommentti';
@@ -44,7 +42,7 @@ $string['cnfsortorder'] = 'Valitse oletuslajittelujärjestys.';
 $string['cnfstudentcanpost'] = 'Voiko opiskelija lisätä tietueita oletuksena?';
 $string['comment'] = 'Kommentti';
 $string['commentdeleted'] = 'Kommentti poistettu';
-$string['comments'] = 'kommentit';
+$string['comments'] = 'Kommentit';
 $string['commentson'] = 'Kommentit tähän';
 $string['commentupdated'] = 'Kommentti on päivitetty.';
 $string['concept'] = 'Käsite';
@@ -87,7 +85,7 @@ $string['entryishidden'] = '(tämä tietue on tällä hetkellä piilotettuna)';
 $string['entryleveldefaultsettings'] = 'Tietueiden oletusasetukset';
 $string['entrysaved'] = 'Tietue on tallennettu';
 $string['entryupdated'] = 'Tietue on päivitetty';
-$string['entryusedynalink'] = 'Tämä tietue pitäisi linkittyä automaattisesti';
+$string['entryusedynalink'] = 'Tämän tietueen pitäisi linkittyä automaattisesti';
 $string['explainaddentry'] = 'Lisää uusi tietue sanastoon.<br />Käsite ja määritelmä ovat pakollisia kenttiä.';
 $string['explainall'] = 'Näytä kaikki tietueet yhdellä sivulla';
 $string['explainalphabet'] = 'Selaa sanastoa tämän hakemiston avulla.';
@@ -134,7 +132,7 @@ $string['newglossaryentries'] = 'Uudet sanaston tietueet:';
 $string['nocomment'] = 'Kommentteja ei löytynyt';
 $string['nocomments'] = '(Kommentteja ei löytynyt tälle tietueelle)';
 $string['noconceptfound'] = 'Käsitettä tai määritelmää ei löytynyt.';
-$string['noentries'] = 'Tästä osiossa ei löytynyt tietueita';
+$string['noentries'] = 'Tästä osiosta ei löytynyt tietueita';
 $string['noentry'] = 'Hakusanoja ei löytynyt.';
 $string['notcategorised'] = 'Kategorisoimaton';
 $string['numberofentries'] = 'Hakusanojen lukumäärä';
@@ -142,7 +140,7 @@ $string['onebyline'] = '(yksi riviä kohden)';
 $string['printerfriendly'] = 'Tulostukseen soveltuva versio';
 $string['printviewnotallowed'] = 'Tulostusnäkymä ei ole sallittu';
 $string['question'] = 'Kysymys';
-$string['rate'] = 'Arvo';
+$string['rate'] = 'Arvio';
 $string['rating'] = 'Arvio';
 $string['ratingeveryone'] = 'Kaikki voivat arvioida tietueita';
 $string['ratingno'] = 'Ei arvioita';

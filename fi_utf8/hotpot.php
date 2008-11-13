@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
+<?PHP // $Id$
 $string['abandoned'] = 'jätetty kesken';
 $string['addquizchain'] = 'Lisää kysymysketju';
 $string['allmycourses'] = 'Kaikki kurssini';
@@ -25,8 +22,9 @@ $string['displaycoursenext'] = 'Näytä kurssin sivu seuraavaksi';
 $string['enterafilename'] = 'Kirjoita tiedoston nimi';
 $string['error_notfileorfolder'] = '&quot;$a&quot; ei ole tiedosto tai kansio';
 $string['feedbackformmail'] = 'Palautelomake';
-$string['feedbackmoodleforum'] = 'Moodle keskustelualue';
-$string['feedbacknone'] = 'Ei ole';
+$string['feedbackmoodleforum'] = 'Moodle-keskustelu';
+$string['feedbackmoodlemessaging'] = 'Moodle-viestit';
+$string['feedbacknone'] = 'Ei mitään';
 $string['feedbackwebpage'] = 'Web-sivu';
 $string['filetype'] = 'Tiedoston tyyppi';
 $string['forceplugins'] = 'Käytä medialaajennuksia';
@@ -35,8 +33,8 @@ $string['hints'] = 'Vihjeet';
 $string['ignored'] = 'Jätä huomiotta';
 $string['inprogress'] = 'kesken';
 $string['location'] = 'Tiedoston sijainti';
-$string['modulename'] = 'Hot Potatoes kysely';
-$string['modulenameplural'] = 'Hot Potatoes kyselyt';
+$string['modulename'] = 'Hot Potatoes -kysely';
+$string['modulenameplural'] = 'Hot Potatoes -kyselyt';
 $string['navigation'] = 'Navigointi';
 $string['navigation_bar'] = 'Moodlen navigointipalkki';
 $string['navigation_buttons'] = 'Hot Potatoes kyselyn painikkeet';
@@ -44,6 +42,7 @@ $string['navigation_frame'] = 'Moodlen navigointikehys';
 $string['navigation_give_up'] = 'Yksittäinen \"Luovuta\"-nappula';
 $string['navigation_iframe'] = 'Sisällytetty IFRAME';
 $string['navigation_none'] = 'Ei mitään';
+$string['neverclosed'] = 'Ei suljettu koskaan';
 $string['noactivity'] = 'Ei toimintoja';
 $string['noresponses'] = 'Ei löydetty tietoa yksittäisistä kysymyksistä ja vastauksista.';
 $string['outputformat'] = 'Näyttömuoto';
@@ -59,6 +58,22 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = 'Pistevähennykset';
 $string['questionshort'] = 'Q-$a';
 $string['quiztype'] = 'Kyselyn tyyppi';
+$string['regrade'] = 'Arvioi uudelleen';
+$string['regradecheck'] = 'Haluatko todella arvioida \"$a\":n uudelleen?';
+$string['reportbutton'] = 'Tee raportti';
+$string['reportchanges'] = 'Muutokset';
+$string['reportchecks'] = 'Tarkistukset';
+$string['reportcontent'] = 'Sisältö';
+$string['reportcoursename'] = 'Kurssin nimi';
+$string['reportencoding'] = 'Merkkikoodaus';
+$string['reportevents'] = 'Tapahtumat';
+$string['reportformattext'] = 'Teksti';
+$string['reporthints'] = 'Vihjeet';
+$string['reportlogindate'] = 'Kirjautumispäivä';
+$string['reportlogintime'] = 'Kirjautumisaika';
+$string['reportlogofftime'] = 'Uloskirjautumisaika';
+$string['reportmaxscore'] = 'Maksimipisteet';
+$string['reportnottried'] = 'Ei yritetty';
 $string['reportwrong'] = 'Väärin';
 $string['resultssaved'] = 'Kyselyn tulokset tallennettiin';
 $string['score'] = 'Pisteet';
@@ -70,10 +85,10 @@ $string['studentfeedback'] = 'Oppilaspalaute';
 $string['textsourcefilename'] = 'Käytä tiedoston nimeä';
 $string['textsourcefilepath'] = 'Käytä tiedoston polkua';
 $string['textsourcequiz'] = 'Ota kyselystä';
-$string['textsourcespecific'] = 'Erillinen teksti';
+$string['textsourcespecific'] = 'Määritelty teksti';
 $string['thiscourse'] = 'Tämä kurssi';
+$string['timedout'] = 'Aika loppui';
 $string['updatequizchain'] = 'Päivitä kysymysketju';
 $string['weighting'] = 'Painotus';
 $string['wrong'] = 'Väärin';
-
 ?>

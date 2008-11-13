@@ -1,36 +1,34 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['addfeed'] = 'Lisää uutislähteen osoite:';
-$string['addheadlineblock'] = 'Lisää RSS otsikko lohko';
+$string['addheadlineblock'] = 'Lisää RSS-otsikkolohko';
 $string['addnew'] = 'Lisää uusi';
 $string['blockname'] = 'RSS-asiakas';
-$string['choosefeedlabel'] = 'Valitse syötteet jotka haluat tähän lohkoon';
+$string['choosefeedlabel'] = 'Valitse syötteet, jotka haluat tähän lohkoon:';
 $string['clientchannellink'] = 'Lähdesivusto...';
-$string['clientnumentries'] = 'Oletus määrä uutisia per syöte';
+$string['clientnumentries'] = 'Syötteessä näytettävien uutisten lukumäärä oletusarvoisesti';
 $string['clientshowchannellinklabel'] = 'Näytetäänkö uutisen sisältämä linkki alkuperäiselle sivustolle?';
 $string['clientshowimagelabel'] = 'Näytä kuvat jos saatavilla';
 $string['configblock'] = 'Määritä lohkon asetukset';
 $string['couldnotfindfeed'] = 'Tällä tunnuksella ei löytynyt syötettä';
-$string['customtitlelabel'] = 'Oma otsikko (Jätä tyhjäksi käyttääksesi syötteen omaa otsikkoa)';
+$string['customtitlelabel'] = 'Oma otsikko (jätä tyhjäksi käyttääksesi syötteen omaa otsikkoa)';
 $string['deletefeedconfirm'] = 'Oletko varma että haluat poistaa tämän syötteen?';
 $string['displaydescriptionlabel'] = 'Näytä jokaisen linkin kuvaus?';
-$string['editfeeds'] = 'Muokkaa, tilaa tai peru tilaus RSS-syötteitä.';
+$string['editfeeds'] = 'Muokkaa, tilaa tai peru RSS-syötteitä.';
 $string['editnewsfeeds'] = 'Muokkaa RSS-syötteitä';
-$string['editrssblock'] = 'Muokkaa RSS-otsikko lohkoa';
+$string['editrssblock'] = 'Muokkaa RSS-otsikkolohkoa';
 $string['feed'] = 'Syöte';
 $string['feedadded'] = 'Syöte lisätty';
 $string['feeddeleted'] = 'Syöte poistettu';
 $string['feeds'] = 'Uutissyötteet';
 $string['feedsaddedit'] = 'Lisää/poista syötteitä';
-$string['feedsconfigurenewinstance'] = 'Määritä tästä tämän lohkon RSS-syötteet.';
-$string['feedstitle'] = 'Ulkoiset RSS-syötteet';
+$string['feedsconfigurenewinstance'] = 'Napsauta tästä määritelläksesi tämän lohkon näyttämään RSS-syötteitä.';
+$string['feedstitle'] = 'Etä-RSS-syötteet';
 $string['feedupdated'] = 'Syöte päivitetty';
 $string['findmorefeeds'] = 'Etsi lisää syötteitä';
 $string['managefeeds'] = 'Omien syötteiden hallinta';
 $string['nofeeds'] = 'Sivustolle ei ole määriteltynä syötteitä';
 $string['pickfeed'] = 'Valitse syöte';
-$string['remotenewsfeed'] = 'Ulkoiset syötteet';
+$string['remotenewsfeed'] = 'Etä-RSS-syötteet';
 $string['rss_client:createprivatefeeds'] = 'Luo yksityinen RSS-syöte';
 $string['rss_client:createsharedfeeds'] = 'Luo jaettu RSS-syöte';
 $string['rss_client:manageanyfeeds'] = 'RRS-syötteiden hallinta';
@@ -39,7 +37,7 @@ $string['seeallfeeds'] = 'Kaikki syötteet';
 $string['sharedfeed'] = 'Jaettu syöte';
 $string['shownumentrieslabel'] = 'Uutisten lukumäärä lohkoa kohden';
 $string['submitters'] = 'Kuka voi määritellä uusia RSS-syötteitä? Syötteet ovat käytettävissä sivuston kaikilla sivuilla.';
-$string['timeoutdesc'] = 'Kauanko RSS-syötettä pidetään välimuistissa';
+$string['timeoutdesc'] = 'Montako minuuttia RSS-syöte säilyy välimuistissa';
 $string['updatefeed'] = 'Päivitä uutislähteen osoite:';
 $string['validatefeed'] = 'Tarkista syöte';
 ?>

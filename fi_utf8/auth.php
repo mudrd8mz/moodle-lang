@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
+<?PHP // $Id$
 $string['alternatelogin'] = 'Jos kirjoitat tähän URL:n, sitä käytetään kirjautumissivuna tälle sivustolle. Sivun pitäisi sisältää lomake, jonak ominaisuudet on asetettu <strong>\'$a\'</strong> ja joko antaa paluukentät <strong>käyttäjänimi</strong> and <strong>salasana</strong>.<br />
 
 Ole varovainen, ettet syötä virheellistä URL:ää, koska siten voit lukita itsesi ulos sivustoltasi.<br />
@@ -28,7 +25,7 @@ $string['auth_changepasswordurl'] = 'Salasanan vaihto URL-osoite';
 $string['auth_changingemailaddress'] = 'Olet vaihtamassa sähköpostiosoitettasi osoitteesta $a->oldemail osoitteeseen $a->newemail. Turvallisuuden takia uuteen osoitteeseen lähetetään varmistusviesti, jotta voit osoittaa sen kuuluvan sinulle. Osoitteesi päivitetään heti, kun käyt viestin ilmoittamassa URL-osoitteessa.';
 $string['auth_common_settings'] = 'Yleiset asetukset';
 $string['auth_data_mapping'] = 'Tietojen yhdistäminen';
-$string['auth_dbdescription'] = 'Tämä moduli tarkistaa ulkoisen tietokannan taulusta käyttäjätunnuksen ja salasanan. Jos käyttäjätunnus on uusi, myös muita tietoja voidaan kopioda Moodleen.';
+$string['auth_dbdescription'] = 'Tämä moduli tarkistaa ulkoisen tietokannan taulusta käyttäjätunnuksen ja salasanan. Jos käyttäjätunnus on uusi, myös muita tietoja voidaan kopioida Moodleen.';
 $string['auth_dbextrafields'] = 'Nämä kentät ovat valinnaisia. Voit asettaa Moodlen hakemaan valmiiksi joitakin käyttäjätietoja <b>ulkoisesta tietokannasta</b>.<p>Jos jätät nämä kentät tyhjiksi, käytetään oletusasetusarvoja.</p> <p>Käyttäjä voi joka tapauksessa muuttaa omia henkilötietojaan myöhemmin.</p>';
 $string['auth_dbfieldpass'] = 'Salasanakentän nimi';
 $string['auth_dbfielduser'] = 'Käyttäjätunnuskentän nimi';
@@ -42,20 +39,20 @@ $string['auth_dbtype'] = 'Tietokannan tyyppi (Katso <a href=\"../lib/adodb/readm
 $string['auth_dbuser'] = 'Käyttäjätunnus tietokantaan lukuoikeuksin';
 $string['auth_emaildescription'] = 'Sähköpostivarmistus on oletusarvoinen tunnistusmetodi käyttäjälle.
 Kun käyttäjä luo itselleen tunnuksen, lähetetään varmistusviesti
-käyttäjälle. Viesti sisältää linkin, minkä avulla käyttäjä voi aktivoida tunnuksensa.';
+käyttäjälle. Viesti sisältää linkin, jonka avulla käyttäjä voi aktivoida tunnuksensa.';
 $string['auth_emailtitle'] = 'Käytä sähköpostivarmistusta';
 $string['auth_emailupdatemessage'] = '$a->fullname,
 
 Olet pyytänyt sähköpostiosoiteen muutosta moodle sivustolla $a->site. Osoitteesi päivitetään heti, kun käyt web-selaimella seuraavassa osoitteessa.
 
 $a-url';
-$string['auth_fccreators'] = 'Tämän ryhmän(ryhmien) jäsenet saavat luoda uusia kursseja. Erottele useat ryhmänimet \';\'-merkillä. Nimet on oltava täysin samoin kuin FirstClass palvelimella.';
-$string['auth_fcdescription'] = 'Tämä menetelmä käyttää FirstClass palvelinta tarkistaakseen ovatko annetttu käyttäjänimi ja salasana voimassa olevia.';
-$string['auth_fcfppport'] = 'Palvelin portti (3333 on yleisin)';
-$string['auth_fchost'] = 'FisrtClass palvelimen osoite. Käytä IP numeroa tai DNS nimeä.';
+$string['auth_fccreators'] = 'Tämän ryhmän (ryhmien) jäsenet saavat luoda uusia kursseja. Erottele useat ryhmänimet \';\'-merkillä. Nimet on oltava täysin samoin kuin FirstClass -palvelimella.';
+$string['auth_fcdescription'] = 'Tämä menetelmä käyttää FirstClass -palvelinta tarkistaakseen, ovatko annettu käyttäjänimi ja salasana voimassaolevia.';
+$string['auth_fcfppport'] = 'Palvelinportti (3333 on yleisin)';
+$string['auth_fchost'] = 'FirstClass -palvelimen osoite. Käytä IP-numeroa tai DNS-nimeä.';
 $string['auth_fcpasswd'] = 'Salasana yllä olevalle tilille';
-$string['auth_fctitle'] = 'Käytä FirstClass palvelinta';
-$string['auth_fcuserid'] = 'Käyttäjätunnus FirstClass tilille etuoikeutetulla \"alaylläpitäjä\" asetuksella.';
+$string['auth_fctitle'] = 'Käytä FirstClass -palvelinta';
+$string['auth_fcuserid'] = 'Käyttäjätunnus FirstClass -tilille etuoikeutetulla \"alaylläpitäjä\" -asetuksella.';
 $string['auth_fieldlock'] = 'Lukitse arvo';
 $string['auth_fieldlock_expl'] = '<p><b>Lukitse arvo:</b>Päällä ollessaan tämä asetus estää Moodlen käyttäjiä ja ylläpitäjiä muokkaamasta kenttää suoraan. Käytä täta asetusta, jos hallinnoit tätä tietoa ulkoisesta järjestelmästä.</p>';
 $string['auth_fieldlocks'] = 'Lukitse käyttäjien kentät';
@@ -70,30 +67,30 @@ $string['auth_ldap_bind_dn'] = 'Jos haluat käyttää välityskäyttäjää yhte
 $string['auth_ldap_bind_pw'] = 'Salasana välityskäyttäjälle.';
 $string['auth_ldap_bind_settings'] = 'Sidosasetukset';
 $string['auth_ldap_contexts'] = 'Lista konteksteista, missä käyttäjät sijaitsevat. Erota kontekstit toisistaan \';\'-merkillä. Esim: \'ou=users,o=org; ou=others,o=org\'';
-$string['auth_ldap_create_context'] = 'Jos sähköpostiviestillä tunnuksensa varmentaneet käyttäjät luodaan automaattisesti ldap-hakemistoon, määritä tässä konteksti, minne käyttäjät luodaan. On hyvä käyttää jotain eritystä kontekstia, jotta vältyt tietoturvariskeiltä. Tätä kontekstia ei tarvitse erikseen lisätä yllä olevaan muuttujaan.';
-$string['auth_ldap_creators'] = 'Lista ryhmistä, minkä jäsenet voivat luoda uusia kursseja Moodleen. Erota useat ryhmät toisistaan \';\'-merkillä. Esimerkiksi \'cn=teachers,ou=staff,o=myorg;\'';
+$string['auth_ldap_create_context'] = 'Jos sähköpostiviestillä tunnuksensa varmentaneet käyttäjät luodaan automaattisesti ldap-hakemistoon, määritä tässä konteksti, minne käyttäjät luodaan. On hyvä käyttää jotain erityistä kontekstia, jotta vältyt tietoturvariskeiltä. Tätä kontekstia ei tarvitse erikseen lisätä yllä olevaan muuttujaan.';
+$string['auth_ldap_creators'] = 'Lista ryhmistä, joiden jäsenet voivat luoda uusia kursseja Moodleen. Erota useat ryhmät toisistaan \';\'-merkillä. Esimerkiksi \'cn=teachers,ou=staff,o=myorg;\'';
 $string['auth_ldap_expiration_desc'] = 'Valitse \"Ei\" poistaaksesi vanhentuneiden salasanojen seurannan. Tai \"LDAP\" jos haluat näyttää käyttäjille viestin kun heidän salasanansa on vanhenemassa.';
 $string['auth_ldap_expiration_warning_desc'] = 'päivien määrä ennen salasanan voimassaolon loppumista on asetettu.';
 $string['auth_ldap_expireattr_desc'] = 'Valinnainen: ylimääritä haluamasi';
 $string['auth_ldap_graceattr_desc'] = 'Valinnainen: ohita graceLogin atribuutti';
-$string['auth_ldap_gracelogins_desc'] = 'Käytä LDAP graceLogin ominaisuutta. Esim. Edirectory voidaan konfiguroida kirjaamaan käyttäjä sisään  vielä muutaman kerran salasanan vanhenemisen jälkeen, jotta salana voidaan vaihtaa. Jos haluat antaa ilmoituksen kun käyttäjä käyttää grace-logineja valise \"Kyllä\".';
+$string['auth_ldap_gracelogins_desc'] = 'Käytä LDAP graceLogin -ominaisuutta. Esim. Edirectory voidaan konfiguroida kirjaamaan käyttäjä sisään vielä muutaman kerran salasanan vanhenemisen jälkeen, jotta salasana voidaan vaihtaa. Jos haluat antaa ilmoituksen, kun käyttäjä käyttää grace-logineja, valitse \"Kyllä\".';
 $string['auth_ldap_host_url'] = 'Määritä LDAP-palvelin URL-muodossa. Esim. \'ldap://ldap.myorg.com/\' tai \'ldaps://ldap.myorg.com/\'';
-$string['auth_ldap_login_settings'] = 'Kirjaantumisasetukset';
+$string['auth_ldap_login_settings'] = 'Kirjautumisasetukset';
 $string['auth_ldap_memberattribute'] = 'Valinnainen: ylimääritä käyttäjän ryhmäjäsenyysattribuutti. Yleensä \'member\' tai \'groupMembership\'';
-$string['auth_ldap_objectclass'] = 'Valinnainen: ylimääritä objectClass jota käytetää käyttäjien hakuun.';
-$string['auth_ldap_opt_deref'] = 'määrittä kuinka aliakset käsitellään haun aikana. Valitse yksi seuraavista vaihtoehdoista: \"Ei\" (LDAP_DEREF_NEVER) tai \"Kyllä\" (LDAP_DEREF_ALWAYS)';
-$string['auth_ldap_passwdexpire_settings'] = 'LDAP salasanojen vanheneminen';
+$string['auth_ldap_objectclass'] = 'Valinnainen: ylimääritä objectClass, jota käytetään käyttäjien hakuun.';
+$string['auth_ldap_opt_deref'] = 'määrittää, kuinka aliakset käsitellään haun aikana. Valitse yksi seuraavista vaihtoehdoista: \"Ei\" (LDAP_DEREF_NEVER) tai \"Kyllä\" (LDAP_DEREF_ALWAYS)';
+$string['auth_ldap_passwdexpire_settings'] = 'LDAP -salasanojen vanheneminen';
 $string['auth_ldap_preventpassindb'] = 'Valitse kyllä, jos haluat estää salasanojen tallentamisen Moodlen tietokantaa.';
 $string['auth_ldap_search_sub'] = 'Aseta arvo <> 0, jos haluat hakea käyttäjiä myös alikonteksteista.';
-$string['auth_ldap_server_settings'] = 'LDAP palvelimen asetukset';
+$string['auth_ldap_server_settings'] = 'LDAP -palvelimen asetukset';
 $string['auth_ldap_update_userinfo'] = 'Päivitä käyttäjätiedot LDAP:ista Moodleen (etunimi, sukunimi, osoite..). Katso <a href=\"/auth/ldap/attr_mappings.php\">/auth/ldap/attr_mappings.php</a> tarkempia määrittelytietoja.';
 $string['auth_ldap_user_attribute'] = 'Valinnainen: ylimäärittele attribuutti käyttäjänimille. Yleensä \'cn\'.';
 $string['auth_ldap_user_settings'] = 'Käyttäjien etsintä';
 $string['auth_ldap_user_type'] = 'Valitse kuinka käyttäjät tallennetaan LDAP:iin. Tämä asetus myös määrittää kuinka sisäänkirjautumisen voimassaolo, vapaat sisäänkirjautumiset ja käyttäjien luominen toimii';
-$string['auth_ldap_version'] = 'Palvelimella käytettävä LDAP protokolla versio';
+$string['auth_ldap_version'] = 'Palvelimella käytettävä LDAP -protokollaversio';
 $string['auth_ldapdescription'] = 'Tämä tapa tarjoaa käyttäjätunnistuksen LDAP-palvelimelta. Jos salasana ja tunnus täsmäävät, Moodle luo uuden käyttäjän  tietokantaansa. 
 
-Seuraavilla kerroilla ainostaan tunnus ja salasana tarkistetaan.';
+Seuraavilla kerroilla ainoastaan tunnus ja salasana tarkistetaan.';
 $string['auth_ldapextrafields'] = 'Nämä kentät ovat valinnaisia. Voit asettaa Moodlen hakemaan käyttäjätietoja tässä määritellyistä <b>LDAP-kentistä</b>. Mikäli jätät nämä tyhjiksi, mitään tietoja ei haeta LDAP-palvelimelta ja käytetään Moodlen oletusarvoja.
 <p>Käyttäjä voi joka tapauksessa muuttaa omia henkilötietojaan jälkeenpäin.</p>';
 $string['auth_ldaptitle'] = 'Käytä LDAP-palvelinta';
@@ -108,7 +105,7 @@ $string['auth_nonedescription'] = 'Käyttäjät voivat luoda vapaasti uuden tunn
 Jos käytät tätä tapaa, mieti, mitä tietoturva- tai ylläpito-ongelmia tämä voi aiheuttaa.';
 $string['auth_nonetitle'] = 'Ei tunnistusta';
 $string['auth_pamdescription'] = 'Tämä menetelmä käyttää PAM:ia päästäkseen käsiksi tämän palvelimen alkuperäisiin käyttäjänimiin. Sinun täytyy asentaa <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> päästäksesi käyttämään tätä moduulia.';
-$string['auth_pamtitle'] = 'PAM (  kytkettävät oikeuksien tarkistamis moduulit)';
+$string['auth_pamtitle'] = 'PAM (kytkettävät oikeuksientarkistamismoduulit)';
 $string['auth_passwordisexpired'] = 'Salasanasi on vanhentunut. Haluatko vaihtaa salasanasi nyt?';
 $string['auth_passwordwillexpire'] = 'Salasanasi vanhentuu $a päivässä. Haluatko vaihtaa salasanasi nyt?';
 $string['auth_pop3description'] = 'Tämä tapa käyttää POP3-palvelinta käyttäjän tunnistukseen.';
@@ -117,6 +114,10 @@ $string['auth_pop3mailbox'] = 'Postilaatikon nimi jonka kanssa yritetään yhtey
 $string['auth_pop3port'] = 'POP3-palvelimen portti (yleensä 110 )';
 $string['auth_pop3title'] = 'Käytä POP3-palvelinta';
 $string['auth_pop3type'] = 'Palvelimen tyyppi. Jos käytätte salattua yhteyttä, valitse pop3cert.';
+$string['auth_radiushost'] = 'RADIUS-palvelimen osoite';
+$string['auth_radiusnasport'] = 'Palvelimen portti';
+$string['auth_radiussecret'] = 'jaettu salainen sana';
+$string['auth_radiustitle'] = 'Käytä RADIUS-palvelinta';
 $string['auth_shib_convert_data'] = 'Tiedon muokaamisen API';
 $string['auth_shib_convert_data_description'] = 'Voit käyttää tätä APIa muokataksesi edelleen tietoja, joita Shibboleth tarjoaa. Lue  <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README (englanniksi)</a> saadakseis lisää tietoa.';
 $string['auth_shib_convert_data_warning'] = 'Tiedosto ei ole olemassa tai se ei ole verkkopalvelinprosessin luettavissa!';
@@ -133,9 +134,9 @@ $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Päivitä sisäinen arvo';
 $string['auth_updatelocal_expl'] = '<p><b>Päivitä sisäinen arvo:</b> Jos ei onnistu, kenttä päivittyy joka kerta käyttäjän kirjautuessa tai käyttäjäsynkronoinnin yhteydessä. Kentät jotka on asetettu päivittymään paikallisesti tulisi lukita.</p>';
 $string['auth_updateremote'] = 'Päivitä ulkoinen arvo';
-$string['auth_updateremote_expl'] = '<p><b>Päivitä ulkoinen tieto:</b> Jos tämä ei onnistu, ulkoinen tieto päivitetään samalla kun käyttäjä rekisteri päivitetään. Kenttien pitäisi olla lukitsemattomia, jotta editointi sallitaan.</p>';
-$string['auth_updateremote_ldap'] = '<p><b>Huomautus:</b> Ulkoisen LDAP tiedon päivitys vaatii, että asetetaan binddn ja bindpw
-kaikilla sidoskäyttäjille muotoiluoikeus kaikkiin käyttäjärekistereihin. Se ei tällä hetkellä säilytä moniarvoisia määreitä, eikä poista ylimääräisiä arvoja päivityksessä. </p>';
+$string['auth_updateremote_expl'] = '<p><b>Päivitä ulkoinen tieto:</b> Jos tämä ei onnistu, ulkoinen tieto päivitetään samalla kun käyttäjärekisteri päivitetään. Kenttien pitäisi olla lukitsemattomia, jotta editointi sallitaan.</p>';
+$string['auth_updateremote_ldap'] = '<p><b>Huomautus:</b> Ulkoisen LDAP -tiedon päivitys vaatii, että asetetaan binddn ja bindpw
+kaikille sidoskäyttäjille muotoiluoikeus kaikkiin käyttäjärekistereihin. Se ei tällä hetkellä säilytä moniarvoisia määreitä, eikä poista ylimääräisiä arvoja päivityksessä. </p>';
 $string['auth_user_create'] = 'Käyttäjän luonti';
 $string['auth_user_creation'] = 'Käyttäjät voivat itse luoda tunnuksensa. Käyttäjätiedot tarkistetaan sähköpostin avulla. Jos aktivoit tämän vaihtoehdon, muista myös määritellä kayttäjäntunnistuksen muut tähän liittyvät asetukset.';
 $string['auth_usernameexists'] = 'Käyttäjätunnus on jo käytössä. Valitse joku toinen.';
@@ -157,14 +158,13 @@ $string['md5'] = 'MD5-salaus';
 $string['passwordhandling'] = 'Salasanakentän käsittely';
 $string['plaintext'] = 'Selväkielinen teksti';
 $string['showguestlogin'] = 'Voit näyttää tai piilottaa Kirjaudu vieraana-painikkeen kirjautumissivulla.';
-$string['stdchangepassword'] = 'Käytä tavalllista Vaihda salasana sivua';
+$string['stdchangepassword'] = 'Käytä norminmukaista Vaihda salasana -sivua';
 $string['stdchangepassword_expl'] = 'Jos ulkoinen oikeuksien tarkistaminen sallii salasanojen vaihdot Moodlen kautta, vaihda tämä muotoon kyllä. Tämä asetus syrjäyttää \"Vaihda salasana URL\".';
-$string['stdchangepassword_explldap'] = 'HUOMAUTUS: On suositeltavaa, että käytetään ennemmin LDAP kuin SSL salakirjoitettua tunnelia (ldaps://)jos LDAP palvelin on etäkäytössä.';
+$string['stdchangepassword_explldap'] = 'HUOMAUTUS: On suositeltavaa, että käytetään ennemmin LDAP- kuin SSL-salakirjoitettua tunnelia (ldaps://), jos LDAP-palvelin on etäkäytössä.';
 $string['unlocked'] = 'Lukitsematon';
 $string['unlockedifempty'] = 'Lukitsematon, jos tyhjä';
 $string['update_never'] = 'Ei koskaan';
 $string['update_oncreate'] = 'Luotaessa';
 $string['update_onlogin'] = 'Jokaisella kirjautumisella';
 $string['update_onupdate'] = 'Päivitettäessä';
-
 ?>

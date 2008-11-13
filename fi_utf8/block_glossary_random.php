@@ -1,17 +1,15 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
-$string['addentry'] = 'Lisää suosikki sanontasi!';
-$string['askaddentry'] = 'Kun käyttäjät voivat lisätä tietueita sanastoon, näytä linkkitestinä';
-$string['askinvisible'] = 'Kun käyttäjät eivät voi lisätä tai katsella sanaston tietueita , näytä tämä testi';
-$string['askviewglossary'] = 'Kun käyttäjät eivät voi lisätä tai katsella sanaston tietueita , näytä linkkitekstinä';
+$string['addentry'] = 'Lisää uusi sana.';
+$string['askaddentry'] = 'Kun käyttäjät voivat lisätä tietueita sanastoon, näytä linkin yhteydessä tämä teksti';
+$string['askinvisible'] = 'Kun käyttäjät eivät voi muokata tai katsella sanastoa, näytä tämä teksti';
+$string['askviewglossary'] = 'Kun käyttäjät voivat katsella sanastoa mutta eivät voi lisätä tietueita, näytä linkin yhteydessä tämä teksti';
 $string['blockname'] = 'Satunnainen sana sanastosta';
-$string['intro'] = 'Varmista että kurssilla ainakin yksi sanasto ja siinä ainakin yksi tietue. Sitten voit muokata seuraavia asetuksia';
+$string['intro'] = 'Varmista, että kurssilla on ainakin yksi sanasto ja siinä ainakin yksi tietue. Sitten voit muokata seuraavia asetuksia';
 $string['invisible'] = '(Jatkuu)';
-$string['lastmodified'] = 'Viimeiseksi muokattu tietue';
+$string['lastmodified'] = 'Viimeksi muokattu tietue';
 $string['nextone'] = 'Seuraava tietue';
-$string['noentriesyet'] = 'Sanastossa ei ole vielä tietueita';
-$string['notyetconfigured'] = 'Ole hyvä ja aseta tämän lohkon asetukset';
+$string['noentriesyet'] = 'Valitussa sanastossa ei ole vielä tietueita';
+$string['notyetconfigured'] = 'Määritä lohkon asetukset muokkausikonia käyttäen.';
 $string['notyetglossary'] = 'Sanastossa pitää olla ainakin yksi tietue mistä valita';
 $string['random'] = 'Satunnainen tietue';
 $string['refresh'] = 'Päivää ennen kuin uusi tietue valitaan';
@@ -19,7 +17,7 @@ $string['select_glossary'] = 'Ota tietueet seuraavasta sanastosta';
 $string['showconcept'] = 'Näytä jokaisen tietueen otsikko';
 $string['title'] = 'Otsikko';
 $string['type'] = 'Miten uusi tietue valitaan';
-$string['typehelp'] = '<b>Viimeiseksi muokattu tietue</b> näyttää aina viimeiseksi muokatun tietueen, and <b>Satunnainen tietue</b> valitsee tietueen aina satunnaisesti.<b>Seuraava tietue </b> valitsee aina seuraavan tietueen järjestyksessä. Voit käyttää tätä vaikkapa \"Päivän vihje\"-tyyppisiin toimintoihin.';
-$string['viewglossary'] = 'Lisää ...';
+$string['typehelp'] = '<b>Viimeisin muokattu tietue</b> näyttää aina viimeksi muokatun tietueen ja <b>Arvottu tietue</b> valitsee satunnaisen tietueen joka kerta. <b>Seuraava tietue</b> näyttää kaikki tietueet järjestyksessä. Viimeisimmän vaihtoehdon kanssa voit tehdä <i>Viikon sitaatteja</i> tai <i>Päivän vinkkejä</i>.';
+$string['viewglossary'] = 'Lisää sanoja...';
 $string['whichfooter'] = 'Voit näyttää linkit niihin sanaston toimintoihin jotka ovat aktiivisena lohkoon liitetyssä sanastossa.';
 ?>

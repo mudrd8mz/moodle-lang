@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
+<?PHP // $Id$
 $string['accessdenied'] = 'Pääsy kielletty';
 $string['accounts'] = 'Käyttäjät';
 $string['adminseesall'] = 'Ylläpitäjät näkevät kaiken';
@@ -58,7 +55,7 @@ $string['configallowcoursethemes'] = 'Tämä asetus sallii kurssien käyttää o
 $string['configallowemailaddresses'] = 'Jos haluat rajoittaa uudet sallitut sähköpostiosoitteet tiettyihin verkkoalueisiin, niin kirjoita niistä lista välilyönnein erotettuna. Kaikki muut verkkoalueet hylätään. Esim: <strong>meidan.koulu.fi joku.muu.com .fi .org</strong>';
 $string['configallowobjectembed'] = 'Turvallisuuden tähden eivät tavalliset käyttäjät oletusarvoisesti saa sisällyttää HTML-teksteihinsä multimediaa (kuten Flash-animaatioita) käyttämällä  EMBED- ja OBJECT-merkintöjä (vaikka näin voidaan tehdä turvallisesti, jos käytetään medialaajennus-suodatinta). Laita tämä asetus päälle , jos haluat sallia näiden merkintöjen käytön.';
 $string['configallowoverride'] = 'Salli vasemmalla olevien roolien  ohittaa roolit kussakin sarakkeessa';
-$string['configallowunenroll'] = 'Tämä sallii opiskelijoiden poistua kursseilta koska tahansa. Jos asetus ei ole päällä opettajien tai ylläpitäjien pitää poistaa opiskelijat kursseilta.';
+$string['configallowunenroll'] = 'Tämä sallii opiskelijoiden poistua kursseilta koska tahansa. Jos asetus ei ole päällä, opettajien tai ylläpitäjien pitää poistaa opiskelijat kursseilta.';
 $string['configallowuserblockhiding'] = 'Voivatko käyttäjät piilottaa lohkoja?';
 $string['configallowusermailcharset'] = 'Voivatko käyttäjät määrittää oman merkistönsä sähköpostia varten?';
 $string['configallowuserthemes'] = 'Voivatko käyttäjät valita omia teemojaan?';
@@ -452,15 +449,15 @@ $string['updatetimezones'] = 'Päivitä aikavyöhykkeet';
 $string['upgradeforumread'] = 'Moodle 1.5een on lisätty uusi ominaisuus, jolla voidaan seurata luettuja ja lukemattomia viestejä keskustelupalstoilla. .<br />Käyttääksesi tätä ominaisuutta sinun pitää <a href=\"$a\">päivittää taulukkosi</a>.';
 $string['upgradeforumreadinfo'] = 'Moodle 1.5een on lisätty uusi ominaisuus, jolla voidaan seurata luettuja ja lukemattomia viestejä keskustelupalstoilla. Käyttääksesi tätä ominaisuutta sinun pitää päivittää taulukkosi kaikella seurantatiedolla, joka liittyy olemassa oleviin viesteihin. Riippuen sivustosi koosta tähän voi mennä kauan (tunteja) ja olla varsin vaativaa tietokannallesi, joten päivittäminen on parasta tehdä hiljaisena aikana. Päivitys ei kuitenkaan vaikuta sivustosi toimintaan, eikä sillä ole vaikutuksia käyttäjiisi. Kun aloitat päivityksen, anna sen tulla valmiiksi, äläkä siis sulje selaimen ikkunaa. Jos kuitenkin pysäytät päivityksen sulkemalla selainikkunan, älä huolehdi, päivityksen voi aloittaa uudelleen. <br /><br />Haluatko aloittaa päivityksen nyt?';
 $string['upgradelogs'] = 'Tapahtumalokien sisällöt pitää päivittää uuteen muotoon. <a href=\"$a\">Lisätietoja</a>';
-$string['upgradelogsinfo'] = 'Tapahtumalokien tallennuksessa on tapahtunut muutoksia. Jotta voisit tarkastella lokeja uudella tavalla, vanhat lokimerkinnät pitää päivittää uuteen muotoon. Tämä tapahtuu automaattisesti eikä häiritse sivustosi muuta käyttöä. Riippuen sivustosi koosta tähän saattaa kuitenkin mennä aikaa jopa useita tunteja. Kun aloitat päivityksen, pitää se antaa mennä loppuun asti keskeyttämättä.
+$string['upgradelogsinfo'] = 'Tapahtumalokien tallennuksessa on tapahtunut muutoksia. Jotta voisit tarkastella lokeja uudella tavalla, vanhat lokimerkinnät pitää päivittää uuteen muotoon. Tämä tapahtuu automaattisesti eikä häiritse sivustosi muuta käyttöä. Riippuen sivustosi koosta tähän saattaa kuitenkin mennä aikaa jopa useita tunteja. Kun aloitat päivityksen, pitää sen antaa mennä loppuun asti keskeyttämättä.
 <br /><br />
 Haluatko päivittää lokit nyt?';
 $string['upgradesettings'] = 'Uudet asetukset';
 $string['upgradesettingsintro'] = 'Alla olevat asetukset lisättiin Moodlen päivityksen aikana. Tee haluamasi muutokset oletusarvoihin  ja tallenna tekemäsi muutokset.';
 $string['upgradesure'] = 'Moodlen asennustiedostot ovat muuttuneet, järjestelmä tullaan päivittämään uuteen versioon automaattisesti. Uusi versio on:
  <p><b>$a</b></p>
-<p>Kun aloitat päivittämisen et voi enää palata takaisin aiempaan versioon.</p>
-<p>Oletko varma että haluat päivittää palvelimen?</p>';
+<p>Kun aloitat päivittämisen, et voi enää palata takaisin aiempaan versioon.</p>
+<p>Oletko varma, että haluat päivittää palvelimen?</p>';
 $string['upgradingdata'] = 'Päivitetään tietoja';
 $string['upgradinglogs'] = 'Päivitetään tapahtumalokeja';
 $string['upwards'] = 'ylöspäin';
@@ -476,5 +473,4 @@ $string['usersupdated'] = 'Käyttäjät päivitetty';
 $string['uuupdatetype'] = 'Olemassa olevat käyttäjätiedot';
 $string['validateerror'] = 'Tämä arvo ei kelvannut:';
 $string['warningcurrentsetting'] = 'Virheellinen nykyinen arvo: $a';
-
 ?>

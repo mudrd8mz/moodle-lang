@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
+<?PHP // $Id$
 $string['adminprimarynoedit'] = 'Muut eivät voi muokata pääasiallista ylläpitäjää';
 $string['cannotassignrole'] = 'Ei voi antaa roolia';
 $string['cannotcreatelangdir'] = 'Kielihakemistoa ei voitu luoda';
@@ -14,8 +11,9 @@ $string['cannotsavezipfile'] = 'Zip-tiedosta ei voitu tallentaa';
 $string['cannotunzipfile'] = 'Zip-tiedostoa ei voitu purkaa';
 $string['cantunenrollfrommetacourse'] = 'Sinua ei voitu poistaa tältä metakurssilta';
 $string['cantunenrollinthisrole'] = 'Et voi poistua kurssilta nykyisessä roolissasi';
+$string['cmunknown'] = 'Kurssi moduulia ei löydy';
 $string['componentisuptodate'] = 'Komponentti on ajan tasalla';
-$string['confirmsesskeybad'] = 'Valitettavasti istuntoavaintasi ei voitu varmistaa toteuttaaksesi tämän toiminnon. Tämä turvaominaisuus ehkäisee vahingossa tapahtuvaa tai tahallista ilkivaltaista tärkeiden toimintojen suoritusta nimelläsi. Varmista, että todella haluat suorittaa tämän toiminnon.';
+$string['confirmsesskeybad'] = 'Valitettavasti istuntoavaintasi ei voitu varmistaa tämän toiminnon toteuttamiseksi. Tämä turvaominaisuus ehkäisee vahingossa tapahtuvaa tai tahallista ilkivaltaista tärkeiden toimintojen suoritusta nimelläsi. Varmista, että todella haluat suorittaa tämän toiminnon.';
 $string['couldnotassignrole'] = 'Vakava mutta määrittelemätön virhe tapahtui kun roolia yritettiin liittää tunnukseesi';
 $string['coursegroupunknown'] = 'Ryhmää $a vastaavaa kurssia  ei ole määritetty.';
 $string['downloadedfilecheckfailed'] = 'Ladatun tiedoston tarkistus epäonnistui';
@@ -27,7 +25,7 @@ $string['erroronline'] = 'Virhe rivillä $a';
 $string['errorreadingfile'] = 'Tiedoston lukemisessa tapahtui virhe: $a';
 $string['errorunzippingfiles'] = 'Virhe tiedoston purkamisessa';
 $string['fieldrequired'] = 'Kenttä \"$a\" vaaditaan';
-$string['filenotfound'] = 'Pahus, pyydettyä tiedosta ei löydy';
+$string['filenotfound'] = 'Valitettavasti pyydettyä tiedostoa ei löydy';
 $string['forumblockingtoomanyposts'] = 'Olet ylittänyt postitusrajan tällä keskustelualueella.';
 $string['groupalready'] = 'Käyttäjä kuuluu jo ryhmään $a';
 $string['groupunknown'] = 'Ryhmä $a ei kuulu  kurssille';
@@ -51,17 +49,17 @@ $string['notavailable'] = 'Ominaisuus ei ole tällä hetkellä käytettävissä.
 $string['onlyadmins'] = 'Vain ylläpitäjät voivat tehdä tuon';
 $string['onlyeditingteachers'] = 'Vain opettajat voivat tehdä tuon';
 $string['onlyeditown'] = 'Voit muokata vain omia tietojasi.';
+$string['pagenotexist'] = 'Odottamaton virhe (haluttua sivua ei löydy)';
 $string['processingstops'] = 'Käsittely loppuu tähän. Jäljelle jääneet merkinnät jätetään huomiotta.';
 $string['restricteduser'] = 'Käyttäjätiliäsi \"$a\" on rajoitettu toiminnon osalta.';
 $string['sendmessage'] = 'Lähetä viesti';
-$string['sessionerroruser'] = 'Istuntosi on suljettu aikarajan takia. Ole hyvä ja kirjaudu uudestaan.';
-$string['sessionipnomatch'] = 'Valitettavasti IP numerosi näyttää muuttuneen siitä, kun aluksi kirjauduit sisään. Tämä turvatoiminto estää hakkereita varastamasta identiteettiäsi sillä välin kun olet rekisteröityneenä tällä sivulla. Normaalien käyttäjien ei pitäisi nähdä tätä viestiä - pyydä sivuston hallinnolta apua.';
+$string['sessionerroruser'] = 'Olet kirjautunut ulos tai istuntosi on suljettu aikarajan takia.<br />Ole hyvä ja kirjaudu uudestaan.';
+$string['sessionerroruser2'] = 'Palvelimella on tapahtunut virhe, joka vaikuttaa istuntoosi. Kirjaudu uudestaan tai käynnistä selaimesi uudelleen.';
+$string['sessionipnomatch'] = 'Valitettavasti IP-numerosi näyttää muuttuneen siitä, kun aluksi kirjauduit sisään. Tämä turvatoiminto estää hakkereita varastamasta identiteettiäsi sillä välin kun olet rekisteröityneenä tällä sivulla. Normaalien käyttäjien ei pitäisi nähdä tätä viestiä - pyydä sivuston hallinnolta apua.';
 $string['unknowncourse'] = 'Tuntematon kurssi nimeltään \"$a\"';
 $string['usernotaddederror'] = 'Käyttäjää \"$a\" ei lisätty - tuntematon virhe';
 $string['usernotaddedregistered'] = 'Käyttäjää \"$a\" ei lisätty - on jo rekisteröity';
-$string['usernotavailable'] = 'Pahus, et voi tarkastella kyseisen käyttäjän tietoja';
-$string['wrongdestpath'] = 'Virheellinen kohde kansio';
+$string['usernotavailable'] = 'Et voi tarkastella kyseisen käyttäjän tietoja';
+$string['wrongdestpath'] = 'Virheellinen kohdekansio';
 $string['wrongzipfilename'] = 'Virheellinen zip-tiedoston nimi';
-$string['cmunknown'] = 'Kurssi moduulia ei löydy'; // ORPHANED
-
 ?>

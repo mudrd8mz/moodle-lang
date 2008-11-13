@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['about'] = 'Tietoja editorista';
 $string['absbottom'] = 'Absbottom';
 $string['address'] = 'Osoite';
@@ -22,15 +20,15 @@ $string['choosechar'] = 'Valitse merkki';
 $string['chooseicon'] = 'Valitse liitettävä hymiö';
 $string['close'] = 'Sulje';
 $string['closeafterreplace'] = 'Sulje korvaamisen jälkeen';
-$string['cols'] = 'Solut';
+$string['cols'] = 'Sarakkeet';
 $string['copy'] = 'Kopioi';
 $string['createanchor'] = 'Luo ankkuri';
 $string['createfolder'] = 'Luo kansio';
 $string['createlink'] = 'Lisää linkki';
 $string['cut'] = 'Leikkaa';
-$string['cutpastemozilla'] = 'Valitettavasti et voi käyttää tavallisia pikanäppäinyhdistelmiä (tai edes Liitä-painiketta) liittääksesi tekstiä editoriin. Tämä johtuu joihinkin Mozilla- ja Firefox-selaimiin tehdyistä turvallisuusominaisuudesta.
+$string['cutpastemozilla'] = 'Valitettavasti et voi käyttää tavallisia pikanäppäinyhdistelmiä (tai edes Liitä-painiketta) liittääksesi tekstiä editoriin. Tämä johtuu joihinkin Mozilla- ja Firefox-selaimiin tehdystä turvallisuusominaisuudesta.
 <br /><br />
-Tämä ominaisuus voidaan haluttaessa kiertää (muuta muista, kyse on turvallisuudesta!):<br />
+Tämä ominaisuus voidaan haluttaessa kiertää (mutta muista, kyse on turvallisuudesta!):<br />
 (1) Kokeile yhdistelmää Shift+v Ctrl+v:n sijaan<br />
 (2) Käytä selaimesi Muokkaa -> Liitä-valikkoa <br />
 (3) Vaihda selaimesi asetuksia muokkaamalla user.js -tiedostoa.<br />

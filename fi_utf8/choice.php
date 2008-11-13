@@ -1,7 +1,5 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
-$string['addmorechoices'] = 'Lisää lisää vaihtoehtoja';
+$string['addmorechoices'] = 'Lisää uusia vaihtoehtoja';
 $string['allowupdate'] = 'Salli valinnan päivitys';
 $string['answered'] = 'Vastattu';
 $string['choice'] = 'Vaihtoehto $a';
@@ -19,7 +17,7 @@ $string['displayvertical'] = 'Näytä pystysuunnassa';
 $string['expired'] = 'Pahus, tämä aktiviteeti on suljettu $a eikä ole enää käytettävissä.';
 $string['fillinatleastoneoption'] = 'Anna vähintään kaksi vastausvaihtoehtoa.';
 $string['full'] = '(Täysi)';
-$string['havetologin'] = 'Sinun pitää kirjautua ennen kun voit ottaa osaa monivalintaan';
+$string['havetologin'] = 'Sinun pitää kirjautua ennen kuin voit ottaa osaa valintaan';
 $string['limit'] = 'Raja';
 $string['limitanswers'] = 'Rajoita vastausten määrää';
 $string['modulename'] = 'Valinta';
@@ -28,12 +26,12 @@ $string['mustchooseone'] = 'Sinun pitää valita vaihtoehto ennen tallennusta. T
 $string['noguestchoose'] = 'Vieraat eivät voi vastata kyselyihin';
 $string['noresultsviewable'] = 'Tulokset eivät ole juuri nyt nähtävillä';
 $string['notanswered'] = 'Vastaamatta';
-$string['notopenyet'] = 'Pahus, tämä aktiviteetti ei ole saatavilla ennen kuin $a';
+$string['notopenyet'] = 'Tämä aktiviteetti ei ole saatavilla ennen kuin $a';
 $string['privacy'] = 'Tulosten suojaus';
 $string['publish'] = 'Julkaise tulokset';
-$string['publishafteranswer'] = 'Näytä tulokset oppilaalle vastaamisen jälkeen';
-$string['publishafterclose'] = 'Näytä tulokset oppilaalle kun monivalinta on sulkeutunut';
-$string['publishalways'] = 'Näytä tulokset aina oppilaalle';
+$string['publishafteranswer'] = 'Näytä tulokset opiskelijalle vastaamisen jälkeen';
+$string['publishafterclose'] = 'Näytä tulokset opiskelijalle kun valinta on sulkeutunut';
+$string['publishalways'] = 'Näytä tulokset aina opiskelijalle';
 $string['publishanonymous'] = 'Julkaise tulokset nimettömästi, piilota vastaajien nimet';
 $string['publishnames'] = 'Julkaise tulokset, näytä nimet ja vastaukset.';
 $string['publishnot'] = 'Älä julkaise tuloksia';

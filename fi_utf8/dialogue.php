@@ -1,10 +1,8 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['addmynewentries'] = 'Lisää viestini';
 $string['addmynewentry'] = 'Lisää viestini';
 $string['addsubject'] = 'Lisää aihe';
-$string['allowmultiple'] = 'Salli useita dialogi samalle henkilölle';
+$string['allowmultiple'] = 'Salli useita dialogeja samalle henkilölle';
 $string['allowstudentdialogues'] = 'Salli dialogit opiskelijoiden välillä';
 $string['close'] = 'Sulje';
 $string['closed'] = 'Suljettu';
@@ -49,6 +47,7 @@ $string['open'] = 'Avaa';
 $string['openadialoguewith'] = 'Avaa dialogi';
 $string['opendialogue'] = 'Avaa dialogi';
 $string['opendialogueentries'] = 'Avaa dialogin viestit';
+$string['opendialogues'] = 'Avaa dialogit';
 $string['pane0'] = 'Avaa dialogi';
 $string['pane1'] = '$a dialogia odottaa vastauksiasi';
 $string['pane1one'] = '1 dialogi odottaa vastaustasi';

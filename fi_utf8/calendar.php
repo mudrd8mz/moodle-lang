@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['advancedoptions'] = 'Lisäasetukset';
 $string['allday'] = 'Koko päivä';
 $string['calendar'] = 'Kalenteri';
@@ -45,7 +43,7 @@ $string['eventstarttime'] = 'Tapahtuman alkamisaika';
 $string['eventtime'] = 'kello';
 $string['eventview'] = 'Tapahtumanäkymä';
 $string['expired'] = 'Tapahtuma on jo mennyt';
-$string['explain_lookahead'] = 'Tämä oletusasetus määrittää, kuinka monen päivän päässä tulevaisuudessa tapahtuman pitää olla, jotta se näytettäisiin \"tulevana tapahtumana\". Tapahtumia, jotka alkavat myöhemmin, ei näytetä koskaan tulevien tapahtumien listassa. Huomaa, että <strong>ei ole mitään takeita</strong> siitä, että kaikki tämän ajan sisällä olevat tapahtumat näytettäisiin tulevien listassa; mikäli niitä on paljon (enemmän kuin asetus \"Tulevien tapahtumien listan maksimikoko\", kaukaisimmat tulevista tapahtumista eivät näy listassa.';
+$string['explain_lookahead'] = 'Tämä oletusasetus määrittää, kuinka monen päivän päässä tulevaisuudessa tapahtuman pitää olla, jotta se näytettäisiin \"tulevana tapahtumana\". Tapahtumia, jotka alkavat myöhemmin, ei näytetä koskaan tulevien tapahtumien listassa. Huomaa, että <strong>ei ole mitään takeita</strong> siitä, että kaikki tämän ajan sisällä olevat tapahtumat näytettäisiin tulevien listassa; mikäli niitä on paljon (enemmän kuin asetus \"Tulevien tapahtumien listan maksimikoko\"), kaukaisimmat tulevista tapahtumista eivät näy listassa.';
 $string['explain_maxevents'] = 'Tämä asetus määrittää tulevien tapahtumien listan maksimikoon. Mikäli valitset tähän suuren luvun, saattaa tulevien tapahtumien lista viedä huomattavan paljon tilaa ruudultasi.';
 $string['explain_persistflt'] = 'Jos tämä asetus on päällä, Moodle muistaa kalenterista valitsemiesi tapahtumien piilotuksen ja näyttämisen asetukset myös kirjautumiskertojen välillä.';
 $string['explain_site_timeformat'] = 'Voit määrittää sivuston käyttämän kellon joko 12 tai 24 tunnin muotoon. Jos valitset \"oletus\", valinta suoritetaan sivuston kieliasetuksen perusteella. Käyttäjät voivat ohittaa tämän määrityksen oman profiilinsa asetuksilla.';

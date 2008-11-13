@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['blockname'] = 'Osiolinkit';
 $string['jumptocurrenttopic'] = 'Siirry nykyiseen aiheeseen';
 $string['jumptocurrentweek'] = 'Siirry nykyiseen viikkoon';

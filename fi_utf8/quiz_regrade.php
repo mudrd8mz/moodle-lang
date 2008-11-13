@@ -1,5 +1,3 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
-$string['regrade'] = 'Uudelleen arvioi';
+$string['regrade'] = 'Arvioi uudelleen';
 ?>

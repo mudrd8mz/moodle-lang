@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['beep'] = 'kutsu';
 $string['chat:chat'] = 'Chatissa keskustelu';
 $string['chat:deletelog'] = 'Chatin lokien poisto';
@@ -9,13 +7,13 @@ $string['chatintro'] = 'Johdanto';
 $string['chatname'] = 'Chat-huoneen nimi';
 $string['chatreport'] = 'Chat-istunnot';
 $string['chattime'] = 'Seuraavan chat-istunnon aika';
-$string['configmethod'] = 'Normaalisti chatin toiminta vaatii selaimen ottavan yhteyttä säännöllisesti palvelimeen. Tämä toimii kaikkialla ja eikä vaadi asetuksia, mutta saattaa samalla aiheuttaa kuormitusta palvelimelle. Chat-palvelu vaatii unix-komentorivin käyttömahdollisuuden mutta skaalautuu paremmin laajempaan käyttöön.';
+$string['configmethod'] = 'Normaalisti chatin toiminta vaatii selaimen ottavan yhteyttä säännöllisesti palvelimeen. Tämä toimii kaikkialla eikä vaadi asetuksia, mutta saattaa samalla aiheuttaa kuormitusta palvelimelle. Chat-palvelu vaatii unix-komentorivin käyttömahdollisuuden, mutta skaalautuu paremmin laajempaan käyttöön.';
 $string['configoldping'] = 'Kuinka pitkän ajan kuluttua käyttäjä katsotaan poistuneeksi siitä, kun hänestä ei ole kuulunut mitään?';
 $string['configrefreshroom'] = 'Kuinka usein chat-huone päivitetään (sekunteina)? Mitä lyhyempi aika, sen \"nopeampi\" huone on, mutta serverin kuormitus on silloin suurempi, kun monta käyttäjää on huoneessa samaan aikaan.';
 $string['configrefreshuserlist'] = 'Kuinka nopeasti käyttäjälista päivitetään (sekunteina)';
 $string['configserverhost'] = 'Palvelimen nimi jolla chat-palvelu sijaitsee';
 $string['configserverip'] = 'Chat-palvelun ip-osoite joka vastaa palvelimen nimeä';
-$string['configservermax'] = 'Suurin asiakkaiden määrä';
+$string['configservermax'] = 'Asiakkaiden maksimimäärä';
 $string['configserverport'] = 'Chat-palvelun portti';
 $string['currentchats'] = 'Aktiiviset chat-istunnot';
 $string['currentusers'] = 'Tämänhetkiset käyttäjät';
@@ -47,7 +45,7 @@ $string['nomessages'] = 'Ei viestejä';
 $string['normalstream'] = 'Virta';
 $string['noscheduledsession'] = 'Seuraavaa istuntoa ei määritelty';
 $string['repeatdaily'] = 'Joka päivä samaan aikaan';
-$string['repeatnone'] = 'Ei toistoja - julkaise vain määritetyllä  ajalla';
+$string['repeatnone'] = 'Ei toistoja - julkaise vain määritetyllä ajalla';
 $string['repeattimes'] = 'Toista istunnot';
 $string['repeatweekly'] = 'Joka viikko samaan aikaan';
 $string['savemessages'] = 'Säästä vanhat istunnot';

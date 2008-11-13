@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['allowresubmit'] = 'Salli uudelleenlähetys';
 $string['appointmentdetails'] = 'Tapaamisen tiedot';
 $string['appointmentlocation'] = 'Tapaamispaikka';
@@ -13,7 +11,7 @@ $string['feedback'] = 'Palaute';
 $string['feedbackupdated'] = 'Palaute päivitetty $a henkilölle';
 $string['late'] = '$a myöhässä';
 $string['maximumgrade'] = 'Suurin arvo';
-$string['maximumsize'] = 'Pienin koko';
+$string['maximumsize'] = 'Suurin koko';
 $string['modulename'] = 'Tapaaminen';
 $string['modulenameplural'] = 'Tapaamiset';
 $string['newsubmissions'] = 'Tapaamiset lähetetty';
@@ -27,17 +25,17 @@ $string['submitappointment'] = 'Lähetä tapaamiset tällä lomakkeella';
 $string['submitted'] = 'Lähetetty';
 $string['timeend'] = 'Tapaamisen loppu';
 $string['timestart'] = 'Tapaamisen alku';
-$string['typeoffline'] = 'Offline aktiviteetti';
+$string['typeoffline'] = 'Offline -aktiviteetti';
 $string['typeuploadsingle'] = 'Lähetä yksi tiedosto';
 $string['uploadbadname'] = 'Tiedostonimi sisältää outoja merkkejä eikä sitä voitu vastaanottaa';
 $string['uploadedfiles'] = 'lähetetyt tiedostot';
 $string['uploaderror'] = 'Tiedoston tallentamisessa tapahtui virhe';
 $string['uploadfailnoupdate'] = 'Tiedosto vastaanotettiin mutta lähetyksen kirjaaminen ei onnistunut!';
-$string['uploadfiletoobig'] = 'Pahus, tiedosto on liian suuri (Raja on $a tavua).';
+$string['uploadfiletoobig'] = 'Tiedosto on liian suuri (raja on $a tavua).';
 $string['uploadnofilefound'] = 'Tiedostoa ei löydy - valitsitko tiedoston lähetettäväksi?';
 $string['uploadnotregistered'] = 'Tiedosto vastaanotettiin mutta lähetyksen kirjaaminen ei onnistunut!';
 $string['uploadsuccess'] = 'Tiedosto \'$a\' vastaanotettu';
 $string['viewfeedback'] = 'Tarkastele tapaamisten arviointeja ja palautteita';
-$string['viewsubmissions'] = 'Katso $a lähettyä tapaamista';
+$string['viewsubmissions'] = 'Katso $a lähetettyä tapaamista';
 $string['yoursubmission'] = 'Vastauksesi';
 ?>
