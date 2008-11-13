@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080913) (2008091000)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20081113) (2008111100)
 
 
 $string['allattempts'] = '모든 시도에 대해';
@@ -38,6 +38,7 @@ $string['intended_weight'] = '추정 문항 가중치';
 $string['kurtosis'] = '($a)득점분포 첨도';
 $string['lastcalculated'] = '마지막 집계가 된 것이 $a->lastcalculated 전인데, 그 후 $a->count  회의 시도가 이루어 졌음';
 $string['median'] = '($a)중앙값';
+$string['negcovar'] = '전체 시도 점수에 대한 음의 공분산';
 $string['nostudentsingroup'] = '이 모둠에는 아직 학생이 없음';
 $string['optiongrade'] = '부분 득점';
 $string['position'] = '위치';
