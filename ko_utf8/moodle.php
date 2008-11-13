@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081110) (2008110603)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081113) (2008111100)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1134,6 +1134,8 @@ $string['phone2'] = '휴대 전화';
 $string['phpinfo'] = 'PHP 정보';
 $string['pictureof'] = '$a 사진';
 $string['pleaseclose'] = '이제 이 창을 닫기 바랍니다.';
+$string['pleasesearchmore'] = '좀 더 검색하기 바랍니다';
+$string['pleaseusesearch'] = '검색 기능을 사용하세요';
 $string['plugincheck'] = '플러그인 점검';
 $string['pluginchecknotice'] = '다음 표에는 현재 무들에 설치되어 있다고 인식된 모듈, 블럭 그리고 필터가 나타나 있습니다. 여기에는 어느 것이 표준이고 어느 것이 비표준인지도 나타나 있습니다. 무들의 갱신 과정을 계속하기 전에 모든 비표준 플러그인은 가장 최신판으로 갱신되어야 하고 제대로 작동되는지 점검해야 합니다.';
 $string['pluginsetup'] = '플러그인 테이블 설정';
@@ -1454,6 +1456,8 @@ $string['todaylogs'] = '오늘의 로그';
 $string['toeveryone'] = '모든 이에게';
 $string['toomanybounces'] = '그 메일 주소는 너무 많이 반송되었습니다. 계속하려면 이메일을 <b>바꿔야만</b> 합니다.';
 $string['toomanytoshow'] = '보여줄 이용자가 너무 많습니다.';
+$string['toomanyusersmatchsearch'] = '너무 많은 사용자 ($a->count) 가  \'$a->search\' 와 일치함';
+$string['toomanyuserstoshow'] = '보여줄 사용자 ($a) 가 너무 많음';
 $string['toonly'] = '오직 $a 에 넣기';
 $string['top'] = '맨 위';
 $string['topic'] = '토픽';

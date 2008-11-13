@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20081113) (2008111100)
 
 
 $string['activeexport'] = '내보내기 마무리';
@@ -45,9 +45,10 @@ $string['failedtosendpackage'] = '지정된 포트폴리오 시스템에 자료 
 $string['filedenied'] = '접속이 허용되지 않음';
 $string['filenotfound'] = '파일 없음';
 $string['format_file'] = '파일';
-$string['format_html'] = 'HTML';
 $string['format_image'] = '이미지';
 $string['format_mbkp'] = '무들 백업';
+$string['format_plainhtml'] = 'HTML';
+$string['format_richhtml'] = '첨부물이 있는 HTML';
 $string['format_text'] = '일반 문서';
 $string['format_video'] = '비디오';
 $string['hidden'] = '비공개';
@@ -131,6 +132,7 @@ $string['unknownplugin'] = '알 수 없음(관리자에 의해 제거된 듯 함
 $string['wait'] = '대기';
 $string['wanttowait_high'] = '완료되기까지 대기하는 것을 권장하지는 않습니다만, 확실하게 그 결과를 알고 싶다면 대기하실 수 있습니다.';
 $string['wanttowait_moderate'] = '전송을 위해 대기하길 원하십니까? 수분 정도 걸립니다.';
+$string['format_html'] = 'HTML'; // ORPHANED
 $string['portfolionotfile'] = '파일대신 포트폴리오로 내보냄'; // ORPHANED
 
 ?>
