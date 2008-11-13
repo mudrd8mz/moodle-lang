@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -133,6 +133,11 @@ $string['essayemailmessage'] = '<p>作文問題:<blockquote>$a->question</blockq
 <p>$a->teacher のコメント:<blockquote><em>$a->comment</em></blockquote></p>
 <p>この作文問題の評点は $a->earned /$a->outof です。</p>
 <p>あなたのレッスンの評点は $a->newgrade&#37; に変更されました。</p>';
+$string['essayemailmessage2'] = '<p>作文問題:<blockquote>$a->question</blockquote></p>
+<p>あなたの解答:<blockquote><em>$a->response</em></blockquote></p>
+<p>評価者のコメント:<blockquote><em>$a->comment</em></blockquote></p>
+<p>この作文問題の評点は $a->earned /$a->outof です。</p>
+<p>あなたのレッスンの評点は $a->newgrade&#37; に変更されました。</p>';
 $string['essayemailsubject'] = '$a 問題に対するあなたの評点';
 $string['essays'] = '作文問題';
 $string['essayscore'] = '作文問題の評点';
@@ -176,6 +181,7 @@ $string['lessondefault'] = 'この設定をデフォルトにする';
 $string['lessonformating'] = 'レッスンフォーマット';
 $string['lessonmenu'] = 'レッスンメニュー';
 $string['lessonnotready'] = 'このレッスンは、まだ受験することができません。あなたの $a に連絡してください。';
+$string['lessonnotready2'] = 'このレッスンは、まだ受験することができません';
 $string['lessonopen'] = 'このレッスンは $a に開始されます。';
 $string['lessonopens'] = 'レッスン開始';
 $string['lessonpagelinkingbroken'] = '最初のページが見つかりません。レッスンページのリンクが壊れているようです。管理者に連絡してください。';
@@ -267,6 +273,7 @@ $string['previouspage'] = '前のページ';
 $string['processerror'] = '処理中にエラーが発生しました!';
 $string['progressbar'] = 'プログレスバー';
 $string['progressbarteacherwarning'] = 'プログレスバーは $a に表示されません。';
+$string['progressbarteacherwarning2'] = 'あなたは、このレッスンを編集できるため、プログレスバーは表示されません。';
 $string['qtype'] = 'ページタイプ';
 $string['question'] = '問題';
 $string['questionoption'] = '問題';
@@ -280,6 +287,7 @@ $string['redisplaypage'] = '再表示';
 $string['report'] = 'レポート';
 $string['reports'] = 'レポート';
 $string['response'] = 'レスポンス';
+$string['retakesallowed'] = '学生の再受験を許可する';
 $string['returnto'] = '$a に戻る';
 $string['returntocourse'] = 'コースに戻る';
 $string['review'] = 'レビュー';
@@ -331,6 +339,7 @@ $string['usepassword'] = 'レッスンをパスワードで保護する';
 $string['viewgrades'] = '評点を表示する';
 $string['viewhighscores'] = 'ハイスコアリストを表示';
 $string['viewreports'] = '$a->student の $a->attempts 件の受験を表示';
+$string['viewreports2'] = '$a 件の受験を表示';
 $string['welldone'] = 'よくできました!';
 $string['whatdofirst'] = '最初に何をしますか?';
 $string['wronganswerjump'] = '不正解のジャンプ先';
@@ -343,8 +352,8 @@ $string['youranswer'] = 'あなたの答え';
 $string['yourcurrentgradeis'] = 'あなたの現在の評点は $a です。';
 $string['yourcurrentgradeisoutof'] = 'あなたの現在の評点は $a->total 点中 $a->grade 点です。';
 $string['youshouldview'] = '少なくとも $a 回解答してください。';
-$string['outoftime'] = '時間切れ'; // TBD
-$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。'; // TBD
-$string['editlesson'] = '$a の編集'; // TBD
+$string['outoftime'] = '時間切れ'; //TBD
+$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。'; //TBD
+$string['editlesson'] = '$a の編集'; //TBD
 
 ?>

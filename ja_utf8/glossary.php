@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20081106) (2008110603)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -181,6 +181,7 @@ $string['rating'] = '評価';
 $string['ratingeveryone'] = '誰でもエントリを評価できる';
 $string['ratingno'] = '評価なし';
 $string['ratingonlyteachers'] = '$a のみエントリを評価できる';
+$string['ratingonlywithpermissions'] = 'パーミッションのあるユーザのみエントリを評価できる';
 $string['ratings'] = '評価';
 $string['ratingssaved'] = '評価が保存されました。';
 $string['ratingsuse'] = '評価を使用する';
