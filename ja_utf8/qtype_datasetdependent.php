@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
 
 
 $string['additem'] = 'アイテムを追加する';
@@ -20,7 +20,7 @@ $string['forceregeneration'] = 'データを再生成する';
 $string['getnextnow'] = '追加するアイテムを今から取得する';
 $string['item(s)'] = 'アイテム';
 $string['itemno'] = 'アイテム $a';
-$string['itemscount'] = 'アイテム<br/>カウント';
+$string['itemscount'] = 'アイテム<br />カウント';
 $string['itemtoadd'] = '追加するアイテム';
 $string['keptcategory1'] = '文字 - 同一カテゴリ内の再利用可能文字セットより';
 $string['keptcategory2'] = 'ファイル - 同一カテゴリ内の再利用可能ファイルセットより';

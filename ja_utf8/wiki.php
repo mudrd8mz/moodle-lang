@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
 
 
 $string['action'] = '-- アクション --';
@@ -159,7 +159,7 @@ $string['revertpagescheck'] = '本当に次の変更を元に戻してもよろ�
 $string['revertthe'] = 'バージョンを戻す、影響のあるページだけ削除';
 $string['safehtml'] = 'セーフHTML';
 $string['save'] = '保存';
-$string['savenolock'] = '編集ロックされていないため、あなたはこのページを保存することはできません。これは、ブラウザのJavaスクリプトが無効にされている、または他のユーザがあなたのロックをオーバーライドした場合に発生します。<br/><br/>ブラウザの戻るボタンをクリックして前のページに戻った後、変更したテキストをコピーして、編集を再度試みてください。';
+$string['savenolock'] = '編集ロックされていないため、あなたはこのページを保存することはできません。これは、ブラウザのJavaスクリプトが無効にされている、または他のユーザがあなたのロックをオーバーライドした場合に発生します。<br />ブラウザの戻るボタンをクリックして前のページに戻った後、変更したテキストをコピーして、編集を再度試みてください。';
 $string['searchwiki'] = 'Wikiの検索';
 $string['setpageflags'] = 'ページフラグの設定';
 $string['showversions'] = 'バージョンを表示:';

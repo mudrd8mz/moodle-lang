@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // install.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
 
 
 $string['aborting'] = 'インストール異常終了';
@@ -258,7 +258,7 @@ $string['php52versionhelp'] = '<p>Moodleでは、少なくとも5.2.4以上のPH
 $string['phpversion'] = 'PHPバージョン';
 $string['phpversionhelp'] = '<p>Moodleには、少なくとも 4.3.0 または 5.1.0 のPHPバージョンが必要です (5.0.x には既知の多数の問題があります)。</p>
 <p>現在、バージョン $a が動作しています。</p>
-<p>PHPをアップグレードするか、新しいバージョンがインストールされているホストに移動してください!<br/>
+<p>PHPをアップグレードするか、新しいバージョンがインストールされているホストに移動してください!<br />
 (5.0.x の場合、バージョン 4.4.x にダウングレードすることもできます。)</p>';
 $string['postgres7'] = 'PostgreSQL (postgres7)';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する情報は、$a のリリースノートをご覧ください。';

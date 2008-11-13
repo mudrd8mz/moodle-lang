@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -91,7 +91,7 @@ $string['keymismatch'] = 'このホストのために保有されている公開
 $string['last_connect_time'] = '最終接続日時';
 $string['last_connect_time_help'] = 'あなたが最後にこのホストに接続した日時です。';
 $string['last_transport_help'] = 'あたなが最後にこのホストの接続に使用したトランスポートです。';
-$string['loginlinkmnetuser'] = '<br/>あなたがMoodleリモートネットワークユーザで、<a href=\"$a\">ここであなたのメールアドレスを確認できる場合</a>、ログインページへリダイレクトされます。<br />';
+$string['loginlinkmnetuser'] = '<br />あなたがMoodleリモートネットワークユーザで、<a href=\"$a\">ここであなたのメールアドレスを確認できる場合</a>、ログインページへリダイレクトされます。<br />';
 $string['logs'] = 'ログ';
 $string['mnet'] = 'Moodleネットワーキング';
 $string['mnet_concatenate_strings'] = '最大3個のストリングを連結して結果を戻す';

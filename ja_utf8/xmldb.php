@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
 
 
 $string['actual'] = '実値';
@@ -75,7 +75,7 @@ $string['indexes'] = 'インデックス';
 $string['integerincorrectlength'] = 'integerフィールドの長さが正しくありません。';
 $string['key'] = 'キー';
 $string['keys'] = 'キー';
-$string['listreservedwords'] = '予約語一覧<br/>(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> を更新するため使用されます。)';
+$string['listreservedwords'] = '予約語一覧<br />(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> を更新するため使用されます。)';
 $string['load'] = 'ロード';
 $string['main_view'] = 'メインビュー';
 $string['missing'] = '不明';
