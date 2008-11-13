@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081105) (2008101300)
+      // error.php - created with Moodle 2.0 dev (Build: 20081113) (2008111100)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -25,6 +25,7 @@ $string['cannotassignrole'] = '강좌의 역할을 지명할 수 없음';
 $string['cannotassignrolehere'] = '이 영역 ($a->context) 에서 본 역할 (id = $a->roleid) 을 부여받을 수 없음';
 $string['cannotassignselfasparent'] = '자신을 더 상위로 지명할 수 없음!';
 $string['cannotcallscript'] = '그런 방법으로는 이 스크립트를 호출할 수 없음';
+$string['cannotcallusgetselecteduser'] = '복수 선택이 True 값이라면 user_selector::get_selected_user 를 호출할 수 없음';
 $string['cannotcreatebackupdir'] = '백업 경로를 생성할 수 없음. 사이트 관리자가 파일 권한을 조정할 필요가 있음';
 $string['cannotcreatecategory'] = '범주 삽입되지 않음';
 $string['cannotcreatedefaultcat'] = '컨텍스트 $a 기본 범주 생성중 오류';
@@ -446,6 +447,7 @@ $string['usernotrenamedoff'] = '사용자 아이디 변경 못함 - 아이다변
 $string['usernotupdatedadmin'] = '관리자 계정을 갱신할 수 없음';
 $string['usernotupdatederror'] = '사용자 갱신 안됨 - 오류';
 $string['usernotupdatednotexists'] = '사용자 갱신 안됨 - 존재하지 않음';
+$string['userselectortoomany'] = '복수선택 값이 false 라 할지라도 user_selector는 하나 이상의 선택된 사용자를 처리할 수 없음';
 $string['wrongcall'] = '이 스크립트는 잘 못 호출되었음';
 $string['wrongcontextid'] = '컨텍스트 ID 부정확(찾을 수 없음)';
 $string['wrongdestpath'] = '잘못된 목적 경로';
