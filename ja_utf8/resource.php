@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080915) (2008091500)
+      // resource.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -12,6 +12,7 @@ $string['browserepository'] = 'リポジトリの表示';
 $string['cannotupdate'] = 'リソースを更新できません。';
 $string['choose'] = '選択';
 $string['chooseafile'] = 'ファイルを選択またはアップロードする';
+$string['chooseaparameter'] = 'パラメータを選択する ...';
 $string['chooseparameter'] = 'パラメータを選択';
 $string['clicktoopen'] = 'ドキュメントを開くには、このリンクをクリックしてください:';
 $string['configallowlocalfiles'] = '新しいリソースを登録する場合、CDドライブやハードディスクのようなローカルファイルシステムへのリンクを許可します。この設定は、教室ですべての学生が共通のネットワークドライブやCDに保存されているファイルにアクセスするときに便利です。この機能を使用するには、ブラウザのセキュリティ設定の変更が必要な場合もあります。';
@@ -63,7 +64,7 @@ $string['localfilechoose'] = 'ローカルファイルの選択 (CD-ROM)';
 $string['localfilehelp'] = 'ローカルファイル表示に関するヘルプ';
 $string['localfileinfo'] = 'p>あなたのコンピュータからローカルファイルを選択してください。 ファイルはウェブサイトにアップロードされませんが、Moodleはこのリソースと同じファイル名のファイルをコンピュータ上から探します。</p><p>これは、すべての参加者に、CD-ROMに保存されている大容量メディアを配布した場合に最も便利です。それぞれの参加者は、このようなファイルのために、<a href=\"$a\" target=\"_blank\">ユーザプロファイルを編集</a>することで、独自のローカルパスを選択することができます。.</p>';
 $string['localfilepath'] = 'このリソースに独自のローカルパスを設定するには、リソースが存在するあなたのコンピュータのドライブ (通常はCD_ROM) からファイルを選択してください。ファイルはアップロードされませんが、ドライブ情報は保存されます。この情報はローカルリソースの参照に使用されます。';
-$string['localfileselect'] = 'このファイルパスを選択';
+$string['localfileselect'] = 'このファイルパスを選択する';
 $string['maindirectory'] = 'メインファイルディレクトリ';
 $string['modulename'] = 'リソース';
 $string['modulenameplural'] = 'リソース';
@@ -116,13 +117,13 @@ $string['resourcetype6'] = 'HTMLテキスト';
 $string['resourcetype7'] = 'プログラム';
 $string['resourcetype8'] = 'Wikiライクテキスト';
 $string['resourcetype9'] = 'ディレクトリ';
-$string['resourcetypedirectory'] = 'ディレクトリの表示';
-$string['resourcetypefile'] = 'ファイルまたはウェブサイトにリンク';
-$string['resourcetypehtml'] = 'ウェブページの作成';
-$string['resourcetypeims'] = 'IMSコンテンツパッケージの追加';
-$string['resourcetypelabel'] = 'ラベルの挿入';
-$string['resourcetyperepository'] = 'リポジトリオブジェクトにリンク';
-$string['resourcetypetext'] = 'テキストページの作成';
+$string['resourcetypedirectory'] = 'ディレクトリを表示する';
+$string['resourcetypefile'] = 'ファイルまたはウェブサイトにリンクする';
+$string['resourcetypehtml'] = 'ウェブページを作成する';
+$string['resourcetypeims'] = 'IMSコンテンツパッケージを追加する';
+$string['resourcetypelabel'] = 'ラベルを挿入する';
+$string['resourcetyperepository'] = 'リポジトリオブジェクトにリンクする';
+$string['resourcetypetext'] = 'テキストページを作成する';
 $string['searchweb'] = 'ウェブページを検索する';
 $string['serverurl'] = 'サーバURI ($a->wwwroot)';
 $string['showcourseblocks'] = 'コースブロックを表示する';
@@ -131,7 +132,7 @@ $string['tableofcontents'] = '目次';
 $string['tableofcontentsabbrev'] = 'TOC';
 $string['upbutton'] = 'UP';
 $string['variablename'] = '変数名';
-$string['viewims'] = 'IMSコンテンツパッケージの表示';
+$string['viewims'] = 'IMSコンテンツパッケージを表示する';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = '警告: 削除処理は既存のリソースによりブロックされています。あなたのリソースを最初に更新するか、管理者に依頼して、リソースモジュールの管理画面で、このセーフティーメカニズムを無効にしてください。';
 $string['warningdisabledrename'] = '警告: リソースにおける参照の自動リネームは無効にされています。必要に応じて、影響を受けるリソースを手動で更新してください。自動リネームは、管理者がリソースモジュールの管理画面で有効にすることもできます。';
