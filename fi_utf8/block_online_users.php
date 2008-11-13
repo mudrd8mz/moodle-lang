@@ -1,7 +1,7 @@
 <?PHP // $Id$
       // Modified with langdiff.php
 
-$string['blockname'] = 'Online käyttäjät';
-$string['configtimetosee'] = 'Montako minuuttia käyttäjän näytetään olevan online tilassa';
-$string['periodnminutes'] = 'viimeinen $a minuuttia';
+$string['blockname'] = 'Kirjautuneet käyttäjät';
+$string['configtimetosee'] = 'Montako minuuttia käyttäjän näytetään olevan kirjautuneena';
+$string['periodnminutes'] = 'Viimeisten $a minuutin aikana';
 ?>
