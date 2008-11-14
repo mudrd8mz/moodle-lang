@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20081110) (2008110603)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -181,6 +181,7 @@ $string['rating'] = '추천하기';
 $string['ratingeveryone'] = '누구나 추천 가능';
 $string['ratingno'] = '추천 없음';
 $string['ratingonlyteachers'] = '오직 $a 만이 추천할 수 있음';
+$string['ratingonlywithpermissions'] = '추천권이 있는 사람만';
 $string['ratings'] = '추천';
 $string['ratingssaved'] = '추천 저장';
 $string['ratingsuse'] = '추천 가능';
