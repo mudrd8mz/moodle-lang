@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20081104) (2008101300)
+      // auth.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
 
 
 $string['CASform'] = 'Scelta autenticazione';
 $string['accesCAS'] = 'Utenti CAS';
 $string['accesNOCAS'] = 'altri utenti';
 $string['actauthhdr'] = 'Plugin di autenticazione disponibili';
-$string['alternatelogin'] = 'Se viene inserito un URL, la pagina indirizzata verrà utilizzata come pagina di login del sito. La pagina deve contenere un form con la \"action property\" impostata a <strong>\'$a\'</strong> e con i campi di ritorno <strong>username</strong> e <strong>password</strong>.<br/> Fate attenzione a non inserire un URL errato perché potreste \"chiudervi fuori\" dal sito. <br/>
-Lasciate in bianco questa impostazione se volete utilizzare la pagina di login predefinita.';
-$string['alternateloginurl'] = 'URL della pagina di login alternativa';
+$string['alternatelogin'] = 'Se viene inserito un URL, la pagina specificata verrà utilizzata come pagina di login del sito. La pagina deve contenere un form con la \"action property\" impostata a <strong>\'$a\'</strong> e con i campi <strong>username</strong> e <strong>password</strong>.<br/> Fate attenzione a non inserire un URL errato perché potreste \"chiudervi fuori\" dal sito. <br/>
+Lasciate vuota questa impostazione se volete utilizzare la pagina di login standard.';
+$string['alternateloginurl'] = 'URL per la pagina di login sostitutiva';
 $string['auth_cas_auth_user_create'] = 'Creare utenti esternamente';
 $string['auth_cas_baseuri'] = 'URI del server (lasciare vuoto se non è definito baseURI)<br/>Per esempio, se il server CAS risponde a host.dominio.it/CAS/ <br/>allora, utilizzare: cas_baseuri=CAS/';
 $string['auth_cas_baseuri_key'] = 'Base URI';
@@ -101,7 +101,7 @@ $string['auth_emailnowexists'] = 'L\'indirizzo email che hai cercato di assegnar
 $string['auth_emailrecaptcha'] = 'Aggiungi un elemento di input per la conferma audio/visuale nella pagina di autoregistrazione degli utenti. Questo protegge il sito contro gli spammer e contribuisce a una buona causa. Per maggiori dettagli vedi http://recaptcha.net/learnmore.html.<br/><me>E\' richiesta l\'estensione PHP cURL.</em>';
 $string['auth_emailrecaptcha_key'] = 'Abilita elemento reCAPTCHA';
 $string['auth_emailsettings'] = 'Impostazioni';
-$string['auth_emailtitle'] = 'Autenticazione via email';
+$string['auth_emailtitle'] = 'Account via email';
 $string['auth_emailupdate'] = 'Modifica indirizzo email';
 $string['auth_emailupdatemessage'] = 'Caro $a->fullname,
 
@@ -214,7 +214,7 @@ $string['auth_ldapextrafields'] = 'Questi campi sono opzionali. Potete scegliere
 $string['auth_ldapnotinstalled'] = 'L\'autenticazione LDAP non può essere usata. Il modulo PHP LDAP non è installato.';
 $string['auth_ldaptitle'] = 'Server LDAP';
 $string['auth_manualdescription'] = 'Questo metodo non consente agli utenti di creare un proprio account in autonomia. Gli account degli utenti devono essere creati a mano da un amministratore.';
-$string['auth_manualtitle'] = 'Registrazioni manuali';
+$string['auth_manualtitle'] = 'Account manuali';
 $string['auth_mnet_auto_add_remote_users'] = 'Se impostato a SI, un record utente locale è creato quando un utente remoto fa login per la prima volta.';
 $string['auth_mnet_roamin'] = 'Gli utenti di questi host possono essere instradati sul proprio sito';
 $string['auth_mnet_roamout'] = 'I propri utenti possono essere instradati su questi host';
@@ -231,27 +231,27 @@ $string['auth_nntpport'] = 'Porta server (119 è la più comune)';
 $string['auth_nntpport_key'] = 'Porta';
 $string['auth_nntptitle'] = 'Server NNTP';
 $string['auth_nologindescription'] = 'Plugin ausiliario che impedisce a un utente di fare login nel sistema e annulla ogni email inviata allo stesso. Può essere usato per <em>sospendere</em> la registrazione di uno o più utenti.';
-$string['auth_nologintitle'] = 'Login disabilitato';
+$string['auth_nologintitle'] = 'Account disabilitato';
 $string['auth_nonedescription'] = 'Gli utenti possono registrarsi e creare iscrizioni valide immediatamente, senza autenticazione di un server esterno e senza conferma tramite email. Fare attenzione ad usare questa opzione - riflettete sulla sicurezza e ai problemi di amministrazione che questa scelta può causare.';
 $string['auth_nonetitle'] = 'Senza autenticazione';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'Impostare a SI per provare il Single Sign On con il dominio NTLM. <strong>Nota:</strong> per funzionare, questo richiede impostazioni aggiuntive sul webserver, vedere <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Abilita';
-$string['auth_ntlmsso_subnet'] = 'Se impostato, proverà il SSO solo con clienti in questa sotto-rete. Formato: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet'] = 'Se impostato, l\'SSO sarà consentito solamente dai client appartenenti alla subnet. Formato: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Sotto-rete';
 $string['auth_outofnewemailupdateattempts'] = 'Hai superato i tentativi permessi per modificare il tuo indirizzo email. La richiesta di modifica è stata annullata.';
 $string['auth_pamdescription'] = 'Questo metodo utilizza PAM per accedere ai nomi utente originali su questo server. E\' necessario installare <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">la libreria di autenticazione PAM di PHP4</a> per poter utilizzare questo modulo.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'La vostra password è scaduta. Volete cambiarla adesso?';
-$string['auth_passwordwillexpire'] = 'La vostra password scadrà  tra $a giorni. Volete cambiarla adesso?';
+$string['auth_passwordwillexpire'] = 'La vostra password scadrà tra $a giorni. Volete cambiarla adesso?';
 $string['auth_pop3changepasswordurl_key'] = 'URL per cambio password';
 $string['auth_pop3description'] = 'Questo metodo utilizza un server POP3 per controllare se il nome utente e la password dati sono validi.';
-$string['auth_pop3host'] = 'L\'indirizzo del server POP3. Usa il numero IP, non il nome DNS.';
+$string['auth_pop3host'] = 'L\'indirizzo del server POP3. Devi specificare l\'indirizzo IP, non il nome a dominio.';
 $string['auth_pop3host_key'] = 'Host';
 $string['auth_pop3mailbox'] = 'Nome della casella di posta con cui tentale la connessione. (normalmente INBOX)';
-$string['auth_pop3mailbox_key'] = 'Mailbox';
+$string['auth_pop3mailbox_key'] = 'Casella di posta';
 $string['auth_pop3notinstalled'] = 'L\'autenticazione POP3 non può essere usata. Il modulo PHP IMAP non è installato.';
-$string['auth_pop3port'] = 'Porta del server (110 è la più tipica, 995 è standard per SSL)';
+$string['auth_pop3port'] = 'Porta del server (110 è la più tipica, 995 è la porta standard per SSL)';
 $string['auth_pop3port_key'] = 'Porta';
 $string['auth_pop3title'] = 'Server POP3';
 $string['auth_pop3type'] = 'Tipo di server. Se il vostro server usa i certificati per sicurezza, scegli pop3cert.';
@@ -318,7 +318,7 @@ $string['forcechangepassword'] = 'Forza il cambiamento della password';
 $string['forcechangepassword_help'] = 'Forzare gli utenti a cambiare la password al successivo accesso a Moodle?';
 $string['forcechangepasswordfirst_help'] = 'Forzare gli utenti a cambiare la password al primo accesso a Moodle?';
 $string['forgottenpassword'] = 'Se viene inserita una URL qui, essa sarà usata come pagina di recupero della password perduta per questo sito. Questo serve per quei siti in cui la gestione delle password è effettuata completamente all\'esterno di Moodle. Lasciare lo spazio vuoto per usare il recupero password di default.';
-$string['forgottenpasswordurl'] = 'URL per password dimenticata';
+$string['forgottenpasswordurl'] = 'URL per il recupero password';
 $string['getanaudiocaptcha'] = 'Chiedi un audio CAPTCHA';
 $string['getanimagecaptcha'] = 'Chiedi un\'immagine CAPTCHA';
 $string['getanothercaptcha'] = 'Chiedi un altro CAPTCHA';
