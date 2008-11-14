@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080812) (2008080701)
+      // resource.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
 
 
 $string['addresource'] = '자료 추가';
@@ -12,6 +12,7 @@ $string['browserepository'] = '저장소 검색';
 $string['cannotupdate'] = '자료 갱신 불가';
 $string['choose'] = '선택';
 $string['chooseafile'] = '업로드 파일 선택';
+$string['chooseaparameter'] = '조건 선택 ...';
 $string['chooseparameter'] = '조건 선택';
 $string['clicktoopen'] = '문서를 열려면 이 링크를 클릭하세요:';
 $string['configallowlocalfiles'] = '새로운 파일 자료를 만들 때, CD 드라이브 또는 하드 드라이브와 같은 지역 파일 시스템의 파일 링크를 허락합니다.이것은 모든 학생들이 공통의 네트워크 드라이브에 접속하거나 CD 파일의 접속을 필요로 하는 강의실에서 유용할 것입니다. 이 기능을 사용하려면 브라우저의 보안 설정을 변경해야 할 것입니다.';

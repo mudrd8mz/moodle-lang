@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081113) (2008111100)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -267,6 +267,7 @@ $string['counteditems'] = '$a->count $a->items';
 $string['country'] = '국가';
 $string['course'] = '강좌';
 $string['courseapprovedemail'] = '요청한 $a->name 강좌는 개설할 수 있도록 승인되었으며 $a->teacher 가 되었습니다. 강좌로 접속하려면 $a->url 로 가십시오.';
+$string['courseapprovedemail2'] = '요청한 $a->name 강좌가 승인되었습니다. 강좌에 접속하려면 $a->url 로 가십시오.';
 $string['courseapprovedfailed'] = '승인사항 저장에 실패하였습니다!';
 $string['courseapprovedsubject'] = '강좌가 승인되었습니다!';
 $string['courseavailable'] = '학생 이용 가능';
@@ -745,6 +746,8 @@ $string['hideadvancedsettings'] = '고급 설정 숨기기';
 $string['hidepicture'] = '그림 감추기';
 $string['hidesection'] = '섹션 $a 숨기기';
 $string['hidesettings'] = '설정 숨기기';
+$string['hidetopicfromothers'] = '타인에게 주제 비공개';
+$string['hideweekfromothers'] = '타인에게 주 비공개';
 $string['hits'] = '접속수';
 $string['hitsoncourse'] = '$a->username 의 $a->coursename 접속수';
 $string['hitsoncoursetoday'] = '오늘 $a->username 가 $a->coursename 에 접속한 횟수';
@@ -1324,6 +1327,8 @@ $string['showrecent'] = '최근 활동 보기';
 $string['showreports'] = '활동 보고서 보기';
 $string['showsettings'] = '설정 보기';
 $string['showtheselogs'] = '로그 보기';
+$string['showtopicfromothers'] = '타인에게 주제 공개';
+$string['showweekfromothers'] = '타인에게 주 공개';
 $string['since'] = '이래로';
 $string['sincelast'] = '마지막 로그인 이후로';
 $string['site'] = '사이트';
@@ -1626,6 +1631,7 @@ $string['youneedtoenrol'] = '그 활동을 하려면 이 강좌에 등록해야 
 $string['yourlastlogin'] = '마지막 로그인';
 $string['yourself'] = '당신자신';
 $string['yourteacher'] = '당신의 $a';
+$string['yourwordforx'] = '\'$a\'에 대한 언급';
 $string['zippingbackup'] = '백업 압축하기';
 $string['courserequestdisabled'] = '죄송하지만, 요청한 강좌는 관리자에 의해 거부당했습니다.'; // ORPHANED
 $string['remotemaharauser'] = '원격 Mahara 사용자'; // ORPHANED
