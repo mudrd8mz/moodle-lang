@@ -15,6 +15,7 @@ $string['cannotupdaterelease'] = 'Erreur&nbsp;: impossible de mettre à jour la 
 $string['cannotupdateversion'] = 'Échec de la mise à jour&nbsp;! (Impossible de mettre à jour la version dans la table config)';
 $string['cannotupgradecapabilities'] = 'Problèmes lors de la mise à jour des capacités centrales du systèmes des rôles';
 $string['cannotupgradedbcustom'] = 'Échec de la mise à jour des particularités locales de la base de données&nbsp;! (Impossible de mettre à jour la version dans la table config)';
+$string['codingerror'] = 'Erreur de programmation détectée. Ceci doit être corrigé par un programmeur&nbsp;: $a';
 $string['configmoodle'] = 'Moodle n\'a pas encore été configuré. Vous devez avant tout écrire le fichier config.php.';
 $string['dbnotinsert'] = 'Erreur de base de données - Insertion impossible ($a)';
 $string['dbnotsetup'] = 'Erreur&nbsp;: la base de données principale <b>n\'a pas été mise en place</b> correctement';
