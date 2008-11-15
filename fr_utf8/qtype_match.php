@@ -1,7 +1,9 @@
 <?php // $Id$
 
 $string['addmoreqblanks'] = '{no} emplacements supplémentaires vides';
-$string['notenoughquestions'] = 'Vous devez fournir au moins $a paires de questions et réponses.';
+$string['filloutthreeqsandtwoas'] = 'Vous devez fournir au moins deux questions et trois réponses. Vous pouvez donner d\'autres réponses fausses en indiquant une réponse à une question vide. Les entrées avec une question et une réponse toutes deux vides seront ignorées.';
 $string['nomatchinganswerforq'] = 'Vous devez indiquez une réponse pour cette question.';
-
+$string['notenoughquestions'] = 'Vous devez fournir au moins $a paires de questions et réponses.';
+$string['notenoughqsandas'] = 'Vous devez fournir au moins $a->q questions et $a->a réponses.';
+7 	 ?> 	 ?>
 ?>
