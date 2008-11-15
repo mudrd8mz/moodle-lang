@@ -5,5 +5,5 @@ $string['filloutthreeqsandtwoas'] = 'Vous devez fournir au moins deux questions 
 $string['nomatchinganswerforq'] = 'Vous devez indiquez une réponse pour cette question.';
 $string['notenoughquestions'] = 'Vous devez fournir au moins $a paires de questions et réponses.';
 $string['notenoughqsandas'] = 'Vous devez fournir au moins $a->q questions et $a->a réponses.';
-7 	 ?> 	 ?>
+
 ?>
