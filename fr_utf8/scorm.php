@@ -206,5 +206,6 @@ $string['whatgrade'] = 'Évaluation des tentatives';
 $string['whatgradedesc'] = 'Ce réglage détermine le mode d\'évaluation par défaut des tentatives';
 $string['width'] = 'Largeur';
 $string['window'] = 'Fenêtre';
+$string['zlibwarning'] ='Attention&nbsp;!: La compression PHP Zlib a été activée sur ce site. Certains utilisateurs pourraient avoir des problèmes de téléchargement d\'objets SCORM avec certains navigateurs.'; 
 
 ?>
