@@ -22,6 +22,7 @@ $string['cannotassignrole'] = 'Attribution du rôle dans le cours impossible';
 $string['cannotassignrolehere'] = 'Il n\'est pas possible d\'attribuer ce rôle (id = $a->roleid) dans ce contexte ($a->context)';
 $string['cannotassignselfasparent'] = 'Impossible de se désigner soi-même comme parent&nbsp;!';
 $string['cannotcallscript'] = 'Ce script ne peut pas être appelé ainsi';
+$string['cannotcallusgetselecteduser'] = 'Vous ne pouvez pas appeler user_selector::get_selected_user si multiselect est vrai.';
 $string['cannotcreatebackupdir'] = 'Impossible de créer le dossier backupdata. Veuillez demander à l\'administrateur du site de corriger les permissions des fichiers';
 $string['cannotcreatecategory'] = 'Erreur lors de la création de la catégorie';
 $string['cannotcreatedefaultcat'] = 'Erreur lors de la création d\'une catégorie par défaut pour le contexte $a';
@@ -443,6 +444,7 @@ $string['usernotrenamedoff'] = 'Le nom d\'utilisateur n\'a pas été modifié&nb
 $string['usernotupdatedadmin'] = 'Impossible de mettre à jour les comptes administrateur';
 $string['usernotupdatederror'] = 'Utilisateur pas mis à jour&nbsp;: erreur inconnue';
 $string['usernotupdatednotexists'] = 'Utilisateur pas mis à jour&nbsp;: le compte n\'existe pas';
+$string['userselectortoomany'] = 'Le script user_selector a reçu plus d\'un utilisateur sélectionné, alors que multiselect est FAUX.';
 $string['wrongcall'] = 'L\'appel de ce script n\'est pas correct';
 $string['wrongcontextid'] = 'Identifiant du contexte incorrect (impossible de le trouver)';
 $string['wrongdestpath'] = 'Chemin de destination incorrect';
