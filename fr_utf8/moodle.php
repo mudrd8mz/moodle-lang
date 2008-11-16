@@ -236,6 +236,7 @@ $string['cleaningtempdata'] = 'Suppression des données temporaires';
 $string['clear'] = 'Effacer';
 $string['clickhere'] = 'Cliquer ici...';
 $string['clicktochange'] = 'Cliquer pour changer';
+$string['clicktohideshow'] = 'Cliquer pour développer ou réduire';
 $string['closewindow'] = 'Fermer cette fenêtre';
 $string['comparelanguage'] = 'Comparer et modifier la langue active';
 $string['complete'] = 'Complet';
