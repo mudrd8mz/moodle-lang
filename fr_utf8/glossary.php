@@ -115,6 +115,7 @@ $string['explainimport'] = '<p>Vous devez indiquer le fichier à importer et sé
 $string['explainspecial'] = 'Afficher les articles ne commençant pas par une lettre';
 $string['exportedentry'] = 'Article exporté';
 $string['exportentries'] = 'Exporter des articles';
+$string['exportentriestoxml'] = 'Exporter des articles vers un ficher XML';
 $string['exportfile'] = 'Exporter les articles vers un fichier';
 $string['exportglossary'] = 'Exporter le glossaire';
 $string['exporttomainglossary'] = 'Exporter vers le glossaire principal';
