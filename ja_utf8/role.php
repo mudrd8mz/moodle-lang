@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // role.php - created with Moodle 2.0 dev (Build: 20081115) (2008111200)
 
 
+$string['addinganewrole'] = '新しいロールを追加する';
 $string['addrole'] = '新しいロールを追加する';
 $string['allow'] = '許可';
 $string['allowassign'] = 'ロールの割り当て許可';
@@ -74,6 +75,7 @@ $string['deletelocalroles'] = 'すべてのローカルロール割り当てを�
 $string['deleterolesure'] = '<p>本当にロール「 $a->name ($a->shortname) 」を削除してもよろしいですか?</p><p>現在、このロールは $a->count 名のユーザに割り当てられています。</p>';
 $string['duplicaterole'] = 'ロールを複製する';
 $string['duplicaterolesure'] = '本当にロール「 $a->name ($a->shortname) 」を複製してもよろしいですか?</p>';
+$string['editingrolex'] = 'ロール「 $a 」を編集する';
 $string['editrole'] = 'ロールの編集';
 $string['errorbadrolename'] = 'ロール名が正しくありません。';
 $string['errorbadroleshortname'] = 'ロール名が正しくありません。';
@@ -102,6 +104,8 @@ $string['grade:view'] = '自分の評定を表示する';
 $string['grade:viewall'] = '他のユーザの評定を表示する';
 $string['grade:viewhidden'] = '自分の非表示の評定を表示する';
 $string['hidden'] = '非表示';
+$string['highlightedcellshowsdefault'] = '下記ハイライトされたセルは、このタイプのロールのデフォルトパーミッションを示してしています。';
+$string['highlightedcellshowsinherit'] = '下記ハイライトされたセルは、継承されるパーミッションを示してしています。あなたが実際に変更したいパーミッションとは別にして、すべてを継承のままにしてください。';
 $string['inactiveformorethan'] = '$a->timeperiod 以上活動していない';
 $string['ingroup'] = 'グループ「 $a->group 」に属している';
 $string['inherit'] = '継承';
@@ -137,6 +141,7 @@ $string['overrideroles'] = 'ロールのオーバーライド';
 $string['overriderolesin'] = '$a ロールのオーバーライド';
 $string['overrides'] = 'オーバーライド';
 $string['overridesbycontext'] = 'オーバーライド (コンテクストによる)';
+$string['permission'] = 'パーミッション';
 $string['permissions'] = 'パーミッション';
 $string['permissionsforuser'] = 'ユーザ $a のパーミッション';
 $string['portfolio:export'] = 'ポートフォリオにエクスポートする';
@@ -223,6 +228,8 @@ $string['user:viewusergrades'] = 'ユーザの評定を表示する';
 $string['userhashiddenassignments'] = 'このユーザには、このコースで1つまたはそれ以上の非表示ロールが割り当てられています。';
 $string['userswithrole'] = 'ロールのすべてのユーザ';
 $string['userswiththisrole'] = 'ロールのユーザ';
+$string['useshowadvancedtochange'] = '変更するには「拡張要素を表示する」を使用してください。';
+$string['viewingdefinitionofrolex'] = 'ロール「 $a 」の定義を表示する';
 $string['viewrole'] = 'ロール詳細の表示';
 $string['whydoesuserhavecap'] = 'なぜ $a->fullname は、コンテクスト $a->context でケイパビリティ $a->capability を持っていますか?';
 $string['whydoesusernothavecap'] = 'なぜ $a->fullname は、コンテクスト $a->context でケイパビリティ $a->capability を持っていませんか?';
