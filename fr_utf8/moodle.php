@@ -1546,6 +1546,7 @@ $string['usersnoaccesssince'] = 'Inactifs depuis plus de';
 $string['userzones'] = 'Zones de l\'utilisateur';
 $string['usethiscourse'] = 'Utiliser ce cours';
 $string['usingexistingcourse'] = 'Avec un cours existant';
+$string['valuealreadyused'] = 'Cette valeur est déjà utilisée.';
 $string['version'] = 'Version';
 $string['view'] = 'Affichage';
 $string['viewfileinpopup'] = 'Afficher dans une fenêtre surgissante';
