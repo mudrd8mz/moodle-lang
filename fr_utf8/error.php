@@ -20,6 +20,7 @@ $string['cannotaddnewmodule'] = 'Impossible d\'ajouter un nouveau module $a';
 $string['cannotaddrss'] = 'Vous n\'avez pas le droits d\'ajouter des fils RSS';
 $string['cannotassignanthing'] = 'Impossible d\'attribuer la capacité moodle/site:doanything';
 $string['cannotassignrole'] = 'Attribution du rôle dans le cours impossible';
+$string['cannotassignrolehere'] = 'Il n\'est pas possible d\'attribuer ce rôle (id = $a->roleid) dans ce contexte ($a->context)';
 $string['cannotassignselfasparent'] = 'Impossible de se désigner soi-même comme parent&nbsp;!';
 $string['cannotcallscript'] = 'Ce script ne peut pas être appelé ainsi';
 $string['cannotcreatebackupdir'] = 'Impossible de créer le dossier backupdata. Veuillez demander à l\'administrateur du site de corriger les permissions des fichiers';
