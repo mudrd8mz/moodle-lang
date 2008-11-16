@@ -94,6 +94,7 @@ $string['cannotopenfile'] = 'Impossible d\'ouvrir le fichier ($a)';
 $string['cannotopenforwrit'] = 'Impossible d\'ouvrir en écriture&nbsp;: $a';
 $string['cannotopentemplate'] = 'Impossible d\'ouvrir le fichier de modèle ($a)';
 $string['cannotoverridebaserole'] = 'Impossible de définir des dérogations sur les capacités des rôles de base';
+$string['cannotoverriderolehere'] = 'Vous n\'êtes pas autorisé à définir des dérogations au rôle (id = $a->roleid) dans ce contexte ($a->context)';
 $string['cannotreadfile'] = 'Impossible de lire le fichier ($a)';
 $string['cannotreadtmpfile'] = 'Erreur de lecture du fichier temporaire';
 $string['cannotreaduploadfile'] = 'Impossible de lire le fichier déposé';
