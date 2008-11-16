@@ -10,6 +10,7 @@ $string['localewin'] = 'French_France.1252';
 $string['localewincharset'] = 'WINDOWS-1252';
 $string['oldcharset'] = 'ISO-8859-1';
 $string['strftimedate'] = '%%d %%B %%Y';
+$string['strftimedatefullshort'] = '%%d %%b %%y';
 $string['strftimedateshort'] = '%%d %%B';
 $string['strftimedatetime'] = '%%d %%B %%Y, %%H:%%M';
 $string['strftimedatetimeshort'] = '%%d %%b %%y, %%H:%%M';
