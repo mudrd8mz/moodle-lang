@@ -36,6 +36,7 @@ $string['intended_weight'] = 'Pondération désirée';
 $string['kurtosis'] = 'Aplatissement de la distribution des notes pour $a';
 $string['lastcalculated'] = 'Dernier calcul il y a $a->lastcalculated. $a->count tentatives depuis.';
 $string['median'] = 'Note médiane pour $a';
+$string['negcovar'] ='Covariance négative de la note de cette question avec la note de la totalité de la tentative';
 $string['nostudentsingroup'] = 'Il n\'y a pas encore d\'étudiant dans ce groupe';
 $string['optiongrade'] = 'Crédit partiel';
 $string['position'] = 'Position';
