@@ -1164,6 +1164,7 @@ $string['previouslyselectedusers'] = 'Utilisateurs sélectionnés précédemment
 $string['previoussection'] = 'Section précédente';
 $string['primaryadminsetup'] = 'Mise en place du compte de l\'administrateur';
 $string['profile'] = 'Profil';
+$string['profilenotshown'] = 'La description de ce profil ne s\'affichera que lorsque cet utilisateur sera inscrit dans au moins un cours.';
 $string['publicdirectory'] = 'Publication sur le site Moodle';
 $string['publicdirectory0'] = 'Ne pas publier ce site';
 $string['publicdirectory1'] = 'Publier uniquement le nom de ce site';
