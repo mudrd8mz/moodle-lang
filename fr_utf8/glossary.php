@@ -179,6 +179,7 @@ $string['rating'] = 'Note';
 $string['ratingeveryone'] = 'Tout le monde peut évaluer les articles';
 $string['ratingno'] = 'Pas de note';
 $string['ratingonlyteachers'] = 'Seuls les $a peuvent évaluer les articles';
+$string['ratingonlywithpermissions'] = 'Seuls les utilisateurs autorisés peuvent évaluer les articles';
 $string['ratings'] = 'Notes';
 $string['ratingssaved'] = 'Notes enregistrées';
 $string['ratingsuse'] = 'Utiliser les notes';
