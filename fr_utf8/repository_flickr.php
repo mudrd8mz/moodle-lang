@@ -2,7 +2,7 @@
 
 $string['apikey'] = 'Clef API';
 $string['callbackurl'] = 'URL de rappel';
-$string['callbackurltext'] = '<div style=\"font-size:0.8em\">1. Obtenez une <a href=\"http://www.flickr.com/services/api/keys/\">clef API et un secret Flickr</a> pour votre site Moodle.<br/>2. Votre URL de rappel (callback) est <strong>$a</strong><br/>3. Complétez les détails de votre clef <a href=\"http://www.flickr.com/services/api/keys/\">Flickr</a> et renseignez l\'URL de rappel (callback).</div>';
+$string['callbackurltext'] = '<div style=\"font-size:0.8em\">1. Obtenez une <a href=\"http://www.flickr.com/services/api/keys/\">clef API et un secret Flickr</a> pour votre site Moodle.<br />2. Votre URL de rappel (callback) est <strong>$a</strong><br />3. Complétez les détails de votre clef <a href=\"http://www.flickr.com/services/api/keys/\">Flickr</a> et renseignez l\'URL de rappel (callback).</div>';
 $string['callbackwarning'] = 'Vous devez copier l\'URL de rappel dans Flickr. Cette URL sera générée une fois ces informations enregistrées. Veuillez cliquer sur le bouton Enregistrer, puis sur Réglages, afin de vérifier l\'URL de rappel générée';
 $string['configplugin'] = 'Configuration Flickr';
 $string['emailaddress'] = 'Adresse de courriel';
