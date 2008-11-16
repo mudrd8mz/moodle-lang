@@ -1,5 +1,6 @@
 <?php // $Id$ 
 
+$string['addinganewrole'] = 'Ajout d\'un nouveau rôle';
 $string['addrole'] = 'Ajouter un nouveau rôle';
 $string['allow'] = 'Autoriser';
 $string['allowassign'] = 'Autoriser l\'attribution des rôles';
@@ -76,6 +77,7 @@ $string['deletelocalroles'] = 'Supprimer toutes les attributions de rôles local
 $string['deleterolesure'] = '<p>Voulez-vous vraiment supprimer le rôle «&nbsp;$a->name ($a->shortname)&nbsp;»&nbsp;?</p><p>Ce rôle est actuellement attribué à $a->count utilisateurs.</p>';
 $string['duplicaterole'] = 'Dupliquer le rôle';
 $string['duplicaterolesure'] = 'Voulez-vous vraiment dupliquer le rôle «&nbsp;$a->name ($a->shortname)&nbsp;»&nbsp;?';
+$string['editingrolex'] = 'Modification du rôle «&nbsp;$a&nbsp;»';
 $string['editrole'] = 'Modifier rôle';
 $string['errorbadrolename'] = 'Nom de rôle incorrect';
 $string['errorbadroleshortname'] = 'Nom de rôle abrégé incorrect';
@@ -229,6 +231,7 @@ $string['userhashiddenassignments'] = 'Cet utilisateur a dans ce cours une ou pl
 $string['userswithrole'] = 'Tous les utilisateurs avec un rôle';
 $string['userswiththisrole'] = 'Utilisateurs avec le rôle';
 $string['useshowadvancedtochange'] = 'Utiliser «&nbsp;Afficher éléments supplémentaires&nbsp;» pour effectuer des modifications';
+$string['viewingdefinitionofrolex'] = 'Affichage de la définition du rôle «&nbsp;$a&nbsp;»';
 $string['viewrole'] = 'Afficher les détails du rôle';
 $string['whydoesuserhavecap'] = 'Pourquoi $a->fullname a la capacité $a->capability dans le context $a->context&nbsp;?';
 $string['whydoesusernothavecap'] = 'Pourquoi $a->fullname n\'a pas la capacité $a->capability dans le contexte $a->context&nbsp;?';
