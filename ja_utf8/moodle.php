@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081117) (2008111200)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -286,6 +286,21 @@ $string['coursefiles'] = 'コースファイル';
 $string['courseformatdata'] = 'コースフォーマットデータ';
 $string['courseformats'] = 'コースフォーマット';
 $string['coursegrades'] = 'コース評定';
+$string['coursehelpcategory'] = 'コース一覧上にコースを配置して、学生が探しやすくします。';
+$string['coursehelpenrollable'] = '学生はデフォルトの受講登録プラグインを使用して自分自身で受講登録することができますか?';
+$string['coursehelpenrolmentkey'] = '設定した場合、ユーザがコースに受講登録するには、このキーが必要となります。';
+$string['coursehelpenrolmentplugins'] = 'デフォルトのユーザ登録プラグインです。';
+$string['coursehelpexpirynotifystudents'] = '利用有効期間が設定された場合、ここでは、コースから受講登録解除される前に、学生が通知メールを受信するかどうか設定します。';
+$string['coursehelpexpirythreshold'] = '利用有効期間が設定された場合、ここでは、学生がコースから受講登録解除される何日前に、通知メールが送信されるか設定します。';
+$string['coursehelpforce'] = 'コース内のすべての活動でグループモードを強制します。';
+$string['coursehelpformat'] = 'このフォーマットでコースメインページが表示されます。';
+$string['coursehelphiddensections'] = 'コース内の非表示セクションを学生に対して、どのように表示するか設定します。';
+$string['coursehelpmaximumupload'] = 'このコースで学生がアップロードできる最大サイズを定義します。サイト全体の設定に制限されます。';
+$string['coursehelpmetacourse'] = 'コースをメタコースに設定します。メタコースは、「子」コースから受講登録情報 (および他に割り当てられたロール) を取得します。';
+$string['coursehelpnewsitemsnumber'] = 'コースホームページに表示する最新ニュースアイテム数です。ニュースボックスは、右側に表示されます <br/>(0 => ニュースボックスは、表示されません)。';
+$string['coursehelpnotify'] = '利用有効期間が設定された場合、ここでは、学生がコースから受講登録解除される前に、教師が通知メールを受信するかどうか設定します。';
+$string['coursehelpnumberweeks'] = 'コースメインページに表示される週/トピックの数です。';
+$string['coursehelpshowgrades'] = '評定表の表示を有効にします。個々の活動に関する、評定表の表示を抑制するものではありません。';
 $string['coursehidden'] = '現在、学生はこのコースを利用できません。';
 $string['courseimportnotaught'] = 'あなたは他のどのコースでも編集権限のある教師ではないようです。インポートできるコースはありません。';
 $string['courseinfo'] = 'コース情報';
