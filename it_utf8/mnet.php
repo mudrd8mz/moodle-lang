@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -19,6 +19,8 @@ $string['authfail_usermismatch'] = 'Autorizzazione fallita: l\'utente non corris
 $string['authmnetautoadddisabled'] = 'L\'<em>auto inserimento utenti</em> nel plugin di autenticazione del Moodle Networking è <strong>disabilitato</strong>.';
 $string['authmnetdisabled'] = 'Il <em>plugin di autenticazione </em>Moodle Networking è <strong>disabilitato</strong>.';
 $string['badcert'] = 'Questo non è un certificato valido.';
+$string['certdetails'] = 'Dettagli del certificato';
+$string['configmnet'] = 'Il Moodle Networking permette a questo server di comunicare con altri server o altri servizi.';
 $string['couldnotgetcert'] = 'Non è stato trovato nessun certificato su <br />$a. <br />. L\'host può essere spento o non configurato correttamente.';
 $string['couldnotmatchcert'] = 'Questo non corrisponde al certificato attualmente pubblicato dal webserver.';
 $string['courses'] = 'corsi';
@@ -51,10 +53,10 @@ $string['error709'] = 'Il sito remoto non è riuscito ad ottenere una chiave SSL
 $string['expired'] = 'Questa chiave è scaduta il';
 $string['expires'] = 'Valido fino al';
 $string['expireyourkey'] = 'Elimina questa chiave';
-$string['expireyourkeyexplain'] = 'Moodle automaticamente ruota le tue chiavi ogni 28 giorni (per default), ma c\'è l\'opzione far scadere la chiave attuale <em>manualmente</em> in qualunque momento. Questo può essere utile se si ritiene che la chiave attuale sia stata compromessa. Una sostituzione automatica sarà prodotta immediatamente.<br/>Elimianre la chiave attuale impedirà a tutti gli altri Moodle di comunicare con te, finché non contatterai ogni amministratore e gli comunicherai la nuova chiave.';
-$string['failedaclwrite'] = 'Scrittura fallita sulla lista di controllo degli accessi MNET per l\'utente \'$a\'.';
+$string['expireyourkeyexplain'] = 'Moodle per default ruota automaticamente le tue chiavi ogni 28 giorni, ma c\'è l\'opzione far scadere la chiave attuale <em>manualmente</em> in qualunque momento. Questo può essere utile se si ritiene che la chiave attuale sia stata compromessa. Una sostituzione automatica sarà prodotta immediatamente.<br/>Elimianre la chiave attuale impedirà a tutti gli altri Moodle di comunicare con te, finché non contatterai ogni amministratore e gli comunicherai la nuova chiave.';
+$string['failedaclwrite'] = 'Scrittura non riuscita sulla access control list MNET per l\'utente \'$a\'.';
 $string['forbidden-function'] = 'Tale funzione non è stata abilitata per RPC.';
-$string['forbidden-transport'] = 'Il metodo di trasporto che stai cercando di usare non è permesso.';
+$string['forbidden-transport'] = 'Il metodo di trasporto che stai cercando di usare non è consentito.';
 $string['forcesavechanges'] = 'Forza salvataggio modifiche';
 $string['helpnetworksettings'] = 'Configura comunicazione inter-Moodle';
 $string['hidelocal'] = 'Nascondi utenti locali';
@@ -174,10 +176,10 @@ $string['trustedhosts'] = 'Host XML-RPC';
 $string['trustedhostsexplain'] = '<p>Il meccanismo di abilitazione degli host permette a specifiche macchine di effettuare chiamate via XML-RPC a qualunque API di Moodle. Grazie a questa <b>opzione molto pericolosa</b> da abilitare, script esterni possono controllare il comportamento di Moodle. Se hai qualche dubbio, tienila disattivata.</p>
 <p><strong>Non è</strong> necessaria per il funzionamento di Moodle Networking.</p>
 <p>Per abilitarla, inserisci una lista di indirizzi IP o reti, uno per ogni riga. Alcuni esempi:</p>Il tuo host locale:<br/>127.0.0.1<br/>Il tuo host locale (con un blocco di rete):<br/>127.0.0.1/32<br/>Solo l\'host con l\'indirizzo IP 192.168.0.7:<br/>192.168.0.7/32<br/>Ogni host con indirizzo IP compreso tra 192.168.0.1 e 192.168.0.255:<br/>192.168.0.0/24<br/>Qualunque host:<br/>192.168.0.0/0<br/>Ovviamente l\'ultimo esempio <b>non é</b> una configurazione raccomandata.';
-$string['unknownerror'] = 'Si è verificato un errore non noto durante la negoziazione.';
+$string['unknownerror'] = 'Si è verificato un errore sconosciuto durante la negoziazione.';
 $string['usercannotchangepassword'] = 'Non puoi cambiare la tua password qui poiché sei un utente remoto.';
 $string['userchangepasswordlink'] = '</br>Puoi cambiare la tua password presso il tuo provider <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>.';
-$string['usersareonline'] = 'Attenzione: $a utenti da tale server sono attualmente loggati sul tuo sito.';
+$string['usersareonline'] = 'Attenzione: $a utenti da quel server sono attualmente collegati nel tuo sito.';
 $string['validated_by'] = 'E\' convalidato dal network: &nbsp;<code>$a</code>';
 $string['verifysignature-error'] = 'La verifica della firma non ha funzionato. Si è verificato un errore.';
 $string['verifysignature-invalid'] = 'La verifica della firma non ha funzionato. Sembra che questo oggetto non non sia stato firmato da te.';
