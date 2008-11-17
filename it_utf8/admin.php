@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081117) (2008111200)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -412,7 +412,7 @@ $string['frontpagebackup'] = 'Backup';
 $string['frontpagedefaultrole'] = 'Ruolo default pagina principale';
 $string['frontpageloggedin'] = 'Elementi della pagina principale dopo il login';
 $string['frontpagequestions'] = 'Domande';
-$string['frontpagerestore'] = 'Ripristino';
+$string['frontpagerestore'] = 'Ripristina';
 $string['frontpageroles'] = 'Ruoli';
 $string['frontpagesettings'] = 'Impostazioni';
 $string['fullnamedisplay'] = 'Formato del nome completo';

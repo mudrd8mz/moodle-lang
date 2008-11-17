@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081117) (2008111200)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1227,7 +1227,7 @@ $string['resettodefaults'] = 'Reimposta i valori standard';
 $string['resortcoursesbyname'] = 'Riordina corsi per nome';
 $string['resource'] = 'Risorsa';
 $string['resources'] = 'Risorse';
-$string['restore'] = 'Ripristino';
+$string['restore'] = 'Ripristina';
 $string['restorecancelled'] = 'Recupero annullato';
 $string['restorecoursenow'] = 'Recupera questo corso ora!';
 $string['restorefinished'] = 'Recupero completato con successo';
