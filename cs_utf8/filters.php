@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // filters.php - created with Moodle 1.9.3+ (Build: 20081117) (2007101531)
 
 
-$string['actfilterhdr'] = 'Aktivní filtry (spojeny dohromady pomocí NEBO)';
+$string['actfilterhdr'] = 'Aktivní filtry';
 $string['addfilter'] = 'Přidat filtr';
 $string['anycategory'] = 'libovolná kategorie';
 $string['anycourse'] = 'libovolný kurz';
