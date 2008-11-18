@@ -11,7 +11,7 @@ $string['assignment:grade'] = 'Bedøm opgaven';
 $string['assignment:submit'] = 'Aflever opgaven';
 $string['assignment:view'] = 'Vis opgaven';
 $string['assignmentdetails'] = 'Opgavedetaljer';
-$string['assignmentmail'] = '$a->teacher har kikket det du har afleveret igennem og kommenteret det \'$a->assignment\'
+$string['assignmentmail'] = '$a->teacher har kikket det, du har afleveret, igennem og kommenteret det \'$a->assignment\'
 
 Du kan se evt. kommentarer i slutningen af det du har afleveret på
 
@@ -24,7 +24,7 @@ $string['availabledate'] = 'Tilgængelig fra';
 $string['cannotdeletefiles'] = 'Der opstod en fejl, filerne blev ikke slettet';
 $string['comment'] = 'Kommentar';
 $string['commentinline'] = 'Indlejret kommentar';
-$string['configitemstocount'] = 'Type af poster, der skal tælles med som afleveringer (ved online opgaver).';
+$string['configitemstocount'] = 'Type poster, der skal tælles med som afleveringer (ved online opgaver).';
 $string['configmaxbytes'] = 'Generel maksimal filstørrelse for alle afleveringsopgaver på sitet (Underlagt kursusbegrænsninger og andre lokale indstillinger)';
 $string['configshowrecentsubmissions'] = 'Alle kan se notifikationer på afleveringer i seneste aktivitetsrapporter.';
 $string['confirmdeletefile'] = 'Er du helt sikker på, at du vil slette denne fil?<br /><strong>$a</strong>';

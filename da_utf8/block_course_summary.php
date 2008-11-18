@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_course_summary.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005033100)
+      // block_course_summary.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
-$string['coursesummary'] = 'Kursus resume';
-$string['pagedescription'] = 'Kursus/Site beskrivelse';
+$string['coursesummary'] = 'Kursusresume';
+$string['pagedescription'] = 'Kursus/Site-beskrivelse';
 
 ?>

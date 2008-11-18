@@ -1,12 +1,17 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7+ (2006101007)
+      // scorm.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
+$string['activation'] = 'Aktivering';
+$string['activityloading'] = 'Du føres automatisk til aktiviteten i';
+$string['activitypleasewait'] = 'Aktiviteten indlæses, et øjeblik...';
 $string['advanced'] = 'Parametre';
 $string['asset'] = 'Materiale';
 $string['assetlaunched'] = 'Materiale - vist';
 $string['attempt'] = 'Forsøg';
+$string['attempt1'] = '1 forsøg';
 $string['attempts'] = 'Forsøg';
+$string['attemptsx'] = '$a forsøg';
 $string['attr_error'] = 'Forkert værdi for attribut ($a->attr) i tag $a->tag.';
 $string['autocontinue'] = 'Auto-fortsæt';
 $string['averageattempt'] = 'Gennemsnitlige forsøg';
@@ -19,9 +24,11 @@ $string['browserepository'] = 'Gennemse samling';
 $string['chooseapacket'] = 'Vis eller opdater en SCORM pakke';
 $string['completed'] = 'Færdigt';
 $string['confirmloosetracks'] = 'ADVARSEL: Det ser ud til at pakken er ændret eller modificeret. Hvis pakkens struktur er ændret kan det hænde at nogle af brugernes sporvalg er gået tabt under opdateringen.';
+$string['contents'] = 'Indhold';
 $string['coursepacket'] = 'Kursuspakke';
 $string['coursestruct'] = 'Kursusstruktur';
 $string['datadir'] = 'Filsystemfejl: Kan ikke oprette et bibliotek til kursusdata.';
+$string['deleteallattempts'] = 'Slet alle SCORM-forsøg';
 $string['details'] = 'Følg detaljer';
 $string['directories'] = 'Vis bibliotekslinks';
 $string['display'] = 'Display';
@@ -29,7 +36,10 @@ $string['domxml'] = 'Eksternt DOMXML library';
 $string['element'] = 'Element';
 $string['entercourse'] = 'Skriv SCORM kursus';
 $string['errorlogs'] = 'Fejl log';
+$string['everyday'] = 'Hver dag';
+$string['everytime'] = 'Hver gang den er i brug';
 $string['exit'] = 'Forlad SCORM kursus';
+$string['exitactivity'] = 'Afslut aktiviteten';
 $string['expcoll'] = 'Udvis / Kollaps';
 $string['failed'] = 'Dumpet';
 $string['firstaccess'] = 'Første adgang';
@@ -86,7 +96,9 @@ $string['notattempted'] = 'Ikke forsøgt';
 $string['objectives'] = 'Mål';
 $string['organization'] = 'Organisation';
 $string['organizations'] = 'Organisationer';
+$string['othersettings'] = 'Flere indstillinger';
 $string['othertracks'] = 'Andre spor';
+$string['package'] = 'Filpakke';
 $string['packagedir'] = 'Filsystemfejl: Kan ikke lave bibliotek til pakken.';
 $string['packagefile'] = 'Der er ikke angivet pakke-fil';
 $string['passed'] = 'Godkendt';
@@ -129,12 +141,14 @@ $string['toolbar'] = 'Vis værktøjslinien';
 $string['totaltime'] = 'Tid ialt';
 $string['trackingloose'] = 'ADVARSEL: Data fra denne SCORM pakke vil gå tabt';
 $string['type'] = 'Type';
+$string['unziperror'] = 'Der opstod en fejl under udpakningen';
 $string['validateascorm'] = 'Validér en SCORMpakke';
 $string['validation'] = 'Validerings resultat';
 $string['validationtype'] = 'Disse indstillinger kontroller DOMXML biblioteket, det bruges til at validere SCORM Manifestet. Hvis du ikke er helt sikker er det bedst at lade dem være.';
 $string['value'] = 'Værdi';
 $string['versionwarning'] = 'Manifestversionen er ældre end version 1.3. Advarsel ved $a->tag tagget.';
 $string['viewallreports'] = 'Vis rapport for $a forsøg';
+$string['viewalluserreports'] = 'Vis rapporter for $a brugere';
 $string['whatgrade'] = 'Forsøgsvurdering';
 $string['width'] = 'Bredde';
 $string['window'] = 'Vindue';

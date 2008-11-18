@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // glossary.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['addcomment'] = 'Tilføj kommentar';
@@ -95,7 +95,7 @@ $string['errconceptalreadyexists'] = 'Der kan ikke være to ens opslag og dette 
 $string['erredittimeexpired'] = 'Redigeringstiden er udløbet.';
 $string['explainaddentry'] = 'Tilføj et nyt opslagsord til opslagsværket. <br />Opslagsord og definition skal altid udfyldes!';
 $string['explainall'] = 'Vis ALLE opslagsord på en side';
-$string['explainalphabet'] = 'Vælg kronologi og filtrer efter første bogstav i forfatterens efternavn';
+$string['explainalphabet'] = 'Vælg kronologi og filtrer efter første bogstav i forfatterens navn';
 $string['explainexport'] = 'Der er genereret en fil<br>Download den og gem den sikkert. Du kan importere den når som helst du ønsker til dette eller andre kurser';
 $string['explainimport'] = 'Angiv hvilken fil der skal importeres og definer kriterierne for processen.';
 $string['explainspecial'] = 'Vis opslagsord der ikke begynder med et bogstav';
@@ -162,7 +162,7 @@ $string['rejectionrpt'] = 'Afvisningsårsag';
 $string['resetglossaries'] = 'Slet indlæg fra';
 $string['resetglossariesall'] = 'Slet indlæg fra alle opslagsværker';
 $string['rsssubscriberss'] = 'Vis RSS feed for \"$a\" opslagsord';
-$string['searchindefinition'] = 'Søg efter hele teksten';
+$string['searchindefinition'] = 'Søg i <acronym title=\"og ikke kun i opslags- og nøgleord\">hele teksten</acronym>';
 $string['secondaryglossary'] = 'Sekundær opslagsværk';
 $string['sendinratings'] = 'Send min seneste vurdering';
 $string['showall'] = 'Vis \'ALLE\' links';

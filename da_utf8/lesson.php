@@ -177,6 +177,7 @@ $string['nobranchtablefound'] = 'Ingen forgreningsside fundet';
 $string['nocommentyet'] = 'Ingen kommentarer endnu.';
 $string['nocoursemods'] = 'Ingen aktiviteter er fundet';
 $string['nocredit'] = 'Ingen point';
+$string['nodeadline'] = 'Ingen deadline';
 $string['noessayquestionsfound'] = 'Der er ikke fundet essayspørgsmål i denne lektion';
 $string['nohighscores'] = 'Ingen highscore';
 $string['nolessonattempts'] = 'Ingen har prøvet denne lektion';
