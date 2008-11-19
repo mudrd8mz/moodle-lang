@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
+      // message.php - created with Moodle 2.0 dev (Build: 20081118) (2008111801)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
 $string['addsomecontacts'] = '誰かにメッセージを送信する場合や、このページにショートカットを作成する場合は、上にある<a href=\"$a\">検索タブ</a>を使用してください。';
 $string['addsomecontactsincoming'] = 'これらのメッセージは、あなたのコンタクトリストに登録されていない人から送信されています。コンタクトリストに人を追加したい場合、名前の隣にある「コンタクトリストに追加する」アイコンをクリックしてください。';
 $string['ago'] = '$a 前';
+$string['ajax_gui'] = 'AJAXチャットルーム';
 $string['allmine'] = 'すべての送受信メッセージ';
 $string['allstudents'] = 'コースの学生間のすべてのメッセージ';
 $string['allusers'] = 'すべてのユーザのすべてのメッセージ';
