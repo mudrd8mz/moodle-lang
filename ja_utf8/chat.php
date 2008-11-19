@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080818) (2008081600)
+      // chat.php - created with Moodle 2.0 dev (Build: 20081118) (2008111801)
 
 
 $string['ajax'] = 'Ajaxバージョン';
@@ -30,7 +30,7 @@ $string['currentusers'] = '現在のユーザ';
 $string['deletesession'] = 'セッションを削除する';
 $string['deletesessionsure'] = '本当にこのセッションを削除してもよろしいですか?';
 $string['donotusechattime'] = 'チャット時間を公開しない';
-$string['enterchat'] = 'チャットルームに入室';
+$string['enterchat'] = 'チャットルームに入室するには、ここをクリックしてください。';
 $string['errornousers'] = 'ユーザが見つかりませんでした!';
 $string['explaingeneralconfig'] = 'これらの設定は、<strong>常に</strong>使用されます。';
 $string['explainmethoddaemon'] = 'これらの設定は、chat_methodに「Chatサーバデーモン」を選択した場合<strong>のみ</strong>影響します。';
@@ -38,6 +38,7 @@ $string['explainmethodnormal'] = 'これらの設定は、chat_methodに「ノ�
 $string['generalconfig'] = '一般設定';
 $string['helpchatting'] = 'チャットヘルプ';
 $string['idle'] = 'アイドル';
+$string['inputarea'] = '入力エリア';
 $string['invalidid'] = 'チャットルームが見つかりませんでした!';
 $string['messagebeepseveryone'] = '$a が全員にビープします!';
 $string['messagebeepsyou'] = '$a があなたにビープしました!';
@@ -64,9 +65,10 @@ $string['refreshroom'] = 'チャットルームをリフレッシュする';
 $string['refreshuserlist'] = 'ユーザ一覧をリフレッシュする';
 $string['removemessages'] = 'すべてのメッセージを削除する';
 $string['repeatdaily'] = '毎日同じ時間に';
-$string['repeatnone'] = '繰り返しなし - 指定した時間にのみ公開';
+$string['repeatnone'] = '繰り返しなし - 指定した時間にのみ公開する';
 $string['repeattimes'] = 'セッションの繰り返し';
 $string['repeatweekly'] = '毎週同じ時間に';
+$string['saidto'] = '<b>&gt;</b>';
 $string['savemessages'] = 'セッションの保存期間';
 $string['seesession'] = 'このセッションを見る';
 $string['send'] = '送信';
@@ -80,6 +82,7 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'すべての人が過去のセッションを見ることができる';
 $string['updatemethod'] = '更新方法';
 $string['updaterate'] = '更新レート:';
-$string['viewreport'] = '過去のチャットセッションを表示';
+$string['userlist'] = 'ユーザリスト';
+$string['viewreport'] = '過去のチャットセッションを表示する';
 
 ?>
