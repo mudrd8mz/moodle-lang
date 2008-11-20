@@ -18,6 +18,6 @@ $string['qtexttitle'] = 'Kysymys';
 $string['rcounttitle'] = 'Vast.';
 $string['responsestitle'] = 'Vastaus';
 $string['rfractiontitle'] = 'Arviointi';
-$string['rpercenttitle'] = 'Vast. (%%%%)';
+$string['rpercenttitle'] = 'Vast. (%%)';
 $string['stddevtitle'] = 'Keski-<br />hajonta';
 ?>
