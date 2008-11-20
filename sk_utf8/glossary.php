@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // glossary.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+
 
 $string['addcomment'] = 'Pridať komentár';
 $string['addentry'] = 'Pridať novú položku';
@@ -18,14 +19,12 @@ $string['areyousuredeletecomment'] = 'Ste si naozaj istý, že chcete odstráni�
 $string['areyousureexport'] = 'Ste si naozaj istý, že chcete exportovať túto položku do';
 $string['ascending'] = '(vzostupne)';
 $string['attachment'] = 'Príloha';
-$string['author'] = 'autor';
 $string['authorview'] = 'Prechádzať podľa autora';
 $string['back'] = 'Späť';
 $string['cantinsertcat'] = 'Nemožno vložiť kategóriu';
 $string['cantinsertrec'] = 'Nemožno vložiť záznam';
 $string['cantinsertrel'] = 'Nemožno vložiť prepojenie kategória-položka';
 $string['casesensitive'] = 'Táto položka rozlišuje používanie veľkých a malých písmen';
-$string['cat'] = 'kategória';
 $string['categories'] = 'Kategórie';
 $string['category'] = 'Kategória';
 $string['categorydeleted'] = 'Kategória bola odstránená';
@@ -55,13 +54,8 @@ $string['concepts'] = 'Pojmy';
 $string['configenablerssfeeds'] = 'Týmto povolíte funkciu RSS kanálov pre všetky slovníky. Budete však musieť ešte manuálne zapnúť túto funkciu v nastaveniach jednotlivých slovníkov.';
 $string['current'] = 'Súčasné triedenie $a';
 $string['currentglossary'] = 'Aktuálny slovník';
-$string['date'] = 'dátum';
 $string['dateview'] = 'Prechádzať podľa dátumu';
 $string['defaultapproval'] = 'Implicitný stav schvaľovania';
-$string['defaulthook'] = 'Štandardné zobrazenie';
-$string['defaultmode'] = 'Štandardný mód';
-$string['defaultsortkey'] = 'Štandardný kľúč triedenia';
-$string['defaultsortorder'] = 'Štandardný spôsob triedenia';
 $string['definition'] = 'Definícia';
 $string['definitions'] = 'Definície';
 $string['deleteentry'] = 'Odstrániť položku';
@@ -113,6 +107,7 @@ $string['explainimport'] = 'Musíte určiť súbor, ktorý sa má importovať a 
 $string['explainspecial'] = 'Ukazuje položky, ktoré nezačínajú písmenom';
 $string['exportedentry'] = 'Exportované položky';
 $string['exportentries'] = 'Exportovať položky';
+$string['exportentriestoxml'] = 'Exportovať položky do XML súboru';
 $string['exportfile'] = 'Exportovať položky do súboru';
 $string['exportglossary'] = 'Exportovať slovník';
 $string['exporttomainglossary'] = 'Exportovať do hlavného slovníka';
@@ -139,9 +134,7 @@ $string['importedcategories'] = 'Importované kategórie';
 $string['importedentries'] = 'Importované položky';
 $string['importentries'] = 'Importovať položky';
 $string['importentriesfromxml'] = 'Import položiek z XML súboru';
-$string['includegroupbreaks'] = 'Zahrnúť predely medzi skupinami';
 $string['isglobal'] = 'Je tento slovník globálny?';
-$string['letter'] = 'list';
 $string['linkcategory'] = 'Automaticky prepájať túto kategóriu';
 $string['linking'] = 'Automatické prepojovanie';
 $string['mainglossary'] = 'Hlavný slovník';
@@ -160,7 +153,6 @@ $string['noentry'] = 'Bez položiek';
 $string['notcategorised'] = 'Nezaradené';
 $string['numberofentries'] = 'Počet položiek';
 $string['onebyline'] = '(jedna na jednom riadku)';
-$string['popupformat'] = 'Popup formát';
 $string['printerfriendly'] = 'Verzia vhodná k tlači';
 $string['printviewnotallowed'] = 'Náhľad tlače nie je povolený';
 $string['question'] = 'Otázka';
@@ -199,4 +191,15 @@ $string['withauthor'] = 'Pojmy s autorom';
 $string['withoutauthor'] = 'Pojmy bez autora';
 $string['writtenby'] = 'autor';
 $string['youarenottheauthor'] = 'Prepáčte, ale tento komentár nemôžete upravovať, pretože nie ste jeho autorom.';
+$string['author'] = 'autor'; // ORPHANED
+$string['cat'] = 'kategória'; // ORPHANED
+$string['date'] = 'dátum'; // ORPHANED
+$string['defaulthook'] = 'Štandardné zobrazenie'; // ORPHANED
+$string['defaultmode'] = 'Štandardný mód'; // ORPHANED
+$string['defaultsortkey'] = 'Štandardný kľúč triedenia'; // ORPHANED
+$string['defaultsortorder'] = 'Štandardný spôsob triedenia'; // ORPHANED
+$string['includegroupbreaks'] = 'Zahrnúť predely medzi skupinami'; // ORPHANED
+$string['letter'] = 'list'; // ORPHANED
+$string['popupformat'] = 'Popup formát'; // ORPHANED
+
 ?>

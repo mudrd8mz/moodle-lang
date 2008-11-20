@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.2+ (Build: 20081015) (2007101527)
+      // grades.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 
 
 $string['activities'] = 'Aktivity';
@@ -348,7 +348,9 @@ $string['nonnumericweight'] = 'Prijatá hodnota nečíselného typu pre';
 $string['nonunlockableverbose'] = 'Táto známka nemôže byť odomknutá, kým nebude odomknutá položka $a->itemname';
 $string['nonweightedpct'] = 'nevážené %%';
 $string['nooutcome'] = 'Neexistuje cieľ';
+$string['nooutcomes'] = 'Položky cieľov musia byť viazané k cieľom kurzu. V tomto kurze však nie sú definované žiadne ciele. Chceli by ste nejaký cieľ pridať?';
 $string['nopublish'] = 'Nepublikovať';
+$string['noscales'] = 'Ciele musia byť viazané na stupnice v kurze alebo na portáli. Žiadne však neexistujú- Chceli by ste nejakú stupnicu pridať?';
 $string['noselectedcategories'] = 'neboli vybrané kategórie';
 $string['noselecteditems'] = 'neboli vybrané položky';
 $string['notteachererror'] = 'Prístup k týmto údajom majú iba učitelia';
@@ -357,6 +359,7 @@ $string['onascaleof'] = 'na stupnici od $a->grademin do $a->grademax';
 $string['operations'] = 'Operácie';
 $string['options'] = 'Voľby';
 $string['outcome'] = 'Cieľ';
+$string['outcomeassigntocourse'] = 'Pridať k kurzu ďalší cieľ';
 $string['outcomecategory'] = 'Vytvoriť ciele v kategórii';
 $string['outcomecategorynew'] = 'Nová kategória';
 $string['outcomeconfirmdelete'] = 'Naozaj chcete vymazať cieľ \"$a\"?';

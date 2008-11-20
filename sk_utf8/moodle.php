@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20081015) (2007101527)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -1177,6 +1177,7 @@ $string['previous'] = 'Predchádzajúci';
 $string['previoussection'] = 'Predchádzajúca sekcia';
 $string['primaryadminsetup'] = 'Nastavenie účtu administrátora';
 $string['profile'] = 'Profil';
+$string['profilenotshown'] = 'Tento profil nebude zobrazený dovtedy, kým nebude tento používateľ zapísaný minimálne do jedného kurzu.';
 $string['publicdirectory'] = 'Všeobecne dostupný adresár';
 $string['publicdirectory0'] = 'Nepublikovať túto www stránku';
 $string['publicdirectory1'] = 'Publikovať len meno www stránky';
@@ -1555,6 +1556,7 @@ $string['usersnoaccesssince'] = 'Zobraziť používateľov, ktorí neboli aktív
 $string['userzones'] = 'Používateľské zóny';
 $string['usethiscourse'] = 'Použiť tento kurz';
 $string['usingexistingcourse'] = 'Použiť existujúci kurz';
+$string['valuealreadyused'] = 'Táto hodnota už bola použitá.';
 $string['version'] = 'Verzia';
 $string['view'] = 'Náhľad';
 $string['views'] = 'Náhľady';

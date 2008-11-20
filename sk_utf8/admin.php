@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.2+ (Build: 20081015) (2007101527)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -183,6 +183,7 @@ $string['configpasswordpolicy'] = 'Ak toto zapnete, Moodle bude kontrolovať hes
 $string['configpathtoclam'] = 'Cesta do Clam AV. Pravdepodobne niečo ako usr/bin/clamscan alebo /usr/bin/clamdscan. Túto cestu potrebujete, aby Clam AV fungoval správne.';
 $string['configpathtodu'] = 'Cesta k programu du (disk usage). Pravdepodobne niečo ako /usr/bin/du. Zadaním tejto cesty sa urýchli generovanie stránok, ktoré zobrazujú obsah adresára s mnohými súbormi.';
 $string['configperfdebug'] = 'Vypisovanie údajov o výkone vášho servera v zápätí štandardnej témy stránok.';
+$string['configprofilesforenrolledusersonly'] = 'Z dôvodu zabránenia zneužitia spamermi sú skryté profily používateľov, ktorí ešte nie sú zapísaní do žiadneho kurzu. Noví používatelia sa musia najprv zapísať do nejakého kurzu a až potom si môžu zmeniť informácie vo svojom profile.';
 $string['configprotectusernames'] = 'Štandardne forget_password.php nevypisuje žiadnu nápovedu, ktorá by dovolila uhádnuť užívateľské mená či adresy.';
 $string['configproxyhost'] = 'Ak tento <b>server</b> potrebuje používať server proxy (napríklad bránu firewall) pri prístupe na Internet, tak tu uveďte hostiteľské meno a port. V opačnom prípade to nechajte prázdne.';
 $string['configproxypassword'] = 'Heslo potrebné na prístup k internetu cez proxy (ak ho je treba). Ak nie je žiadne, nezadajte nič (je potrebné PHP rozšírenie cURL).';
@@ -432,6 +433,7 @@ $string['lang16notify'] = 'Moodle verzie 1.6 a vyššia umožňuje inštalovať 
 $string['langcache'] = 'Zoznam jazykov vo vyrovnávacej pamäti';
 $string['langedit'] = 'Úprava prekladu';
 $string['langimport'] = 'Správa jazykových balíčkov';
+$string['langimportdisabled'] = 'Aktualizácia jazykových balíčkov nie je povolená. Musíte vaše jazykové balíčky aktualizovať na súborovej úrovni manuálne.';
 $string['langimportsuccess'] = 'Jazykový balíček bol úspešne aktualizovaný.';
 $string['langlist'] = 'Ktoré jazyky zobrazovať v ponuke';
 $string['langlocalpackage'] = 'Lokálne úpravy';
@@ -588,6 +590,7 @@ $string['profilemenutoofewoptions'] = 'je treba vložiť aspoň dve možnosti';
 $string['profilename'] = 'Názov';
 $string['profilenofieldsdefined'] = 'Neboli definované žiadne polia';
 $string['profilerequired'] = 'Je vyplnenie poľa povinné?';
+$string['profilesforenrolledusersonly'] = 'Profily iba pre učastníkov kurzu';
 $string['profileshortname'] = 'Krátky názov (jedinečný)';
 $string['profileshortnamenotunique'] = 'Tento krátky názov je už používaný';
 $string['profilesignup'] = 'Zobraziť stránku pre vytváranie konta?';

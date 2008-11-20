@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.8.2+ (2007021520)
+      // wiki.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 
 
 $string['action'] = '-- Akcia --';
@@ -149,7 +149,7 @@ $string['revertpagescheck'] = 'Naozaj chcete vrátiť nasledujúce zmeny:';
 $string['revertthe'] = 'Aj ďalšie verzie ale odstráň iba ovplyvnené stránky';
 $string['safehtml'] = 'Bezpečné HTML';
 $string['save'] = 'Uložiť';
-$string['savenolock'] = 'Nemôžete uložiť stránku, pretože nemáte zámku na úpravy. To sa môže stať v prípade, že Váš prehliadač má vypnutý Javascript alebo iný používateľ prepísal Vašu zámku.<br/><br/> Vráťte sa na predchádzajúcu obrazovku pomocou spätného tlačidla prehliadača, skopírujte si text Vašich zmien a potom opäť skúste upravovať.';
+$string['savenolock'] = 'Nemôžete uložiť stránku, pretože nemáte zámku na úpravy. To sa môže stať v prípade, že Váš prehliadač má vypnutý Javascript alebo iný používateľ prepísal Vašu zámku.<br />Vráťte sa na predchádzajúcu obrazovku pomocou spätného tlačidla prehliadača, skopírujte si text Vašich zmien a potom opäť skúste upravovať.';
 $string['searchwiki'] = 'Prehľadať wiki';
 $string['setpageflags'] = 'Nastaviť príznaky';
 $string['showversions'] = 'Ukázať verzie:';

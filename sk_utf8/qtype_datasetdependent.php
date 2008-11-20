@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_datasetdependent.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 
 
 $string['additem'] = 'Pridať položku';
@@ -19,7 +19,7 @@ $string['forceregeneration'] = 'vynútiť regeneráciu';
 $string['getnextnow'] = 'Dostať ďalšiu \'Položku k pridaniu\'';
 $string['item(s)'] = 'Položka(y)';
 $string['itemno'] = 'Položka $a';
-$string['itemscount'] = 'Položky<br/>Počet';
+$string['itemscount'] = 'Položky<br />Počet';
 $string['itemtoadd'] = 'Položka k pridaniu';
 $string['keptcategory1'] = 'literál z rovnakej kategórie opakovane použiteľných sád literálov ako predtým';
 $string['keptcategory2'] = 'súbor z rovnakej kategórie opakovane použiteľných sád súborov ako predtým';

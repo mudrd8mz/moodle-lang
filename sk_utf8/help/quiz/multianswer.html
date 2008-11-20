@@ -1,41 +1,148 @@
 <h1>Otázka s vloženými odpoveďami</h1>
 
-<p>Tento veľmi flexibilný typ otázky je podobný obľúbenému formátu testu známeho ako "cloze test". </p>
+<p>Tento veľmi flexibilný typ otázky je podobný obľúbenému formátu testu známeho ako "cloze test".</p>
 
-<p>Otázky pozostávajú z časti textu (v Moodle formáte), do ktorého sú vložené otázky s rôznymi typmi odpovedí.</p>
+<p>Otázky pozostávajú z časti textu (v Moodle formáte), do ktorého sú vložené otázky s rôznymi typmi odpovedí týchto typov:</p>
+<ul>
+  <li>krátke odpovede&nbsp;(SHORTANSWER alebo SA alebo MW),</li>
+  <li>rozsahové (NUMERICAL alebo NM),</li>
+  <li>viaceré odpovede (MULTICHOICE alebo MC), reprezentovaná ako rozbaľovacie menu v texte</li>
+  <li>viaceré odpovede (MULTICHOICE_V alebo MCV), reprezentovaná ako zvislý stĺpec radio tlačidiel, alebo</li>
+  <li>viaceré odpovede (MULTICHOICE_H alebo MCH), reprezentovaná ako vodorovný stĺpec radio tlačidiel.</li>
+</ul>
 
-<p>Pre tvorbu týchto úloh momentálne nie je k dispozícii grafické rozhranie - potrebujete upresniť formát otázky použitím textového editora alebo vložením do externých súborov.</p>
+<p>Pre tvorbu týchto úloh momentálne nie je k dispozícii grafické rozhranie - potrebujete upresniť formát otázky použitím textového editora alebo vložením z externých súborov.</p>
 
 <p>Príklad vloženia textu na upresnenie otázky:</p>
 
-<form action="">
-<center>
-<textarea rows="15" cols="60" wrap="virtual">Táto otázka pozostáva z nejakého textu z tu vloženou odpoveďou {1:MULTICHOICE:Zlá odpoveď#Spätná väzba pre zlú odpoveď~Ďalšia zlá odpoveď#Spätná väzba pre ďalšiu zlú odpoveď~=Správna odpoveď#Spätná väzba pre správnu odpoveď ~%50%Odpovede za polovicu bodov#Spätná väzba pre odpoveď za polovicu bodov} a hneď potom nasleduje otázka s krátkou odpoveďou {1:SHORTANSWER:Zlá odpoveď#Spätná väzba pre zlú odpoveď~=Správna odpoveď#Spätná väzba pre správnu odpoveď ~%50%Odpovede za polovicu bodov#Spätná väzba pre odpoveď za polovicu bodov} a nakoniec numerická úloha{2:NUMERICAL:=23.8:0.1#Spätná väzba pre správnu odpoveď 23.8~%50%23.8:2#Spätná väzba pre odpoveď za polovicu bodov}.
+<p><textarea rows="15" cols="60" wrap="virtual">Táto otázka pozostáva z nejakého textu s tu vloženou odpoveďou {1:MULTICHOICE:Zlá odpoveď#Spätná väzba pre zlú odpoveď~Ďalšia zlá odpoveď#Spätná väzba pre ďalšiu zlú odpoveď~=Správna odpoveď#Spätná väzba pre správnu odpoveď ~%50%Odpoveď za polovicu bodov#Spätná väzba pre odpoveď za polovicu bodov} a hneď potom nasleduje otázka s krátkou odpoveďou {1:SHORTANSWER:Zlá odpoveď#Spätná väzba pre zlú odpoveď~=Správna odpoveď#Spätná väzba pre správnu odpoveď ~%50%Odpovede za polovicu bodov#Spätná väzba pre odpoveď za polovicu bodov} a nakoniec rozsahová úloha{2:NUMERICAL:=23.8:0.1#Spätná väzba pre správnu odpoveď 23.8~%50%23.8:2#Spätná väzba pre odpoveď za polovicu bodov}.&lt;br /&gt;
+&lt;br /&gt;
 
+Otázka s viacerými možnosťami môže byť zobrazená tiež zvislo ako takáto štandardná Moodle otázka.&lt;br /&gt;
+&lt;br /&gt;
+{2:MCV:Nesprávna odpoveď#Spätná väzba pre túto nesprávnu odpoveď~Iná nesprávna odpoveď#Spätná väzba pre inú nesprávnu odpoveď~=Správna odpoveď#Spätná väzba pre správnu odpoveď~%50%Odpoveď správna na polovicu#Spätná väzba pre polovične správnu odpoveď}&lt;br /&gt;
+Alebo horizontálne zobrazená tu v tabuľke&lt;br /&gt;
+&lt;br /&gt; 
+{2:MCH:Nesprávna odpoveď#Spätná väzba pre túto nesprávnu odpoveď~Iná nesprávna odpoveď#Spätná väzba pre inú nesprávnu odpoveď~=Správna odpoveď#Spätná väzba pre správnu odpoveď~%50%Odpoveď správna na polovicu#Spätná väzba pre polovične správnu odpoveď}&lt;br /&gt;
 Adresy typu www.moodle.org a smajlíci :-) fungujú normálne:
  a) Je to dobre? {:MULTICHOICE:=Áno#Správne~Nie#Máme iný názor}
- b) Ako by ste to obodovali? {3:NUMERICAL:=3:2}
-
+ b) Ako by ste to obodovali? {3:NUMERICAL:=3:2}&lt;br /&gt;
+&lt;br /&gt;
 Veľa šťastia!
-</textarea>
-</center>
-</form>
+</textarea></p>
 
 <p>Tento príklad sa zobrazí študentom nasledovne:</p>
 
-<form action="">
-<table align="center" width="90%" class="generalbox" border="0" cellpadding="5" cellspacing="0"><tr><td bgcolor="#FFFFFF" class="generalboxcontent"><table width="100%" cellspacing="10"><tr><td nowrap="nowrap" width="100" valign="top"><h1>3</h1><p align="center"><font size="1">8 Marks</font></p><img height="1" width="100" src="pix/spacer.gif" alt="" /><br />
-</td><td valign="top"><p>Táto otázka pozostáva z nejakého textu z tu vloženou odpoveďou <select   name="q4ma1" ><option>&nbsp;</option><option value="4" >Zlá odpoveď</option><option value="5" >Ďalšia zlá odpoveď</option><option value="6" >Správna odpoveď</option><option value="7" >Odpoveď za polovicu bodov</option></select>  a hneď potom nasleduje otázka s krátkou odpoveďou  <input   name="q4ma2"  value="" type="text" size="8"/>  a nakoniec numerická úloha <input   name="q4ma3"  value="" type="text" size="8"/> .<br />
+<div id="middle-column"><div><span id="maincontent"></span><div id="q6" class="que multianswer clearfix">
+  <div class="info">
+    <span class="accesshide">Question </span>1      
+    <div class="grade">
+      Marks: --/12.00</div>
+    </div>
+    <div class="content">
+      <div class="ablock clearfix"><label>Táto otázka pozostáva z nejakého textu s tu vloženou odpoveďou <span ><select name="resp3796_1"><option 
+  selected></option><option value="8919">Zlá odpoveď</option><option value="8920">Ďalšia zlá odpoveď</option><option value="8921">Správna odpoveď</option><option value="8922">Odpoveď za polovicu bodov</option></select></span></label><label>a hneď potom nasleduje otázka s krátkou odpoveďou <input name="resp3796_2" size="33" /> </label><label> a nakoniec rozsahová úloha <input name="resp3796_3" size="4" /> </label><label>.<br /><br />Otázka s viacerými možnosťami môže byť zobrazená tiež zvislo ako takáto štandardná Moodle otázka<br /><br />
+        <table width="50%"><tbody><tr><td>
+          <table class="answer">
+            <tr class="r0">
+              <td class="c0 control">
+                <input id="resp3796_8960" name="resp3796_4"  type="radio" value="8960" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8960">
+                  <span class="anun">1<span class="anumsep">.</span></span> Nesprávna odpoveď
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r1">
+              <td class="c0 control">
+                <input id="resp3796_8961" name="resp3796_4"  type="radio" value="8961" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8961">
+                  <span class="anun">2<span class="anumsep">.</span></span> Iná nesprávna odpoveď
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r0">
+              <td class="c0 control">
+                <input id="resp3796_8962" name="resp3796_4"  type="radio" value="8962" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8962">
+                  <span class="anun">3<span class="anumsep">.</span></span> Správna odpoveď
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r1">
+              <td class="c0 control">
+                <input id="resp3796_8963" name="resp3796_4"  type="radio" value="8963" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8963">
+                  <span class="anun">4<span class="anumsep">.</span></span> Odpoveď správna na polovicu
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+          </table>
+        </td></tr></tbody></table>
+      <br />Alebo horizontálne zobrazená tu v tabuľke<br /><br />
+        <table class="answer">
+          <tr class="r0">
+            <td class="c0 control">
+              <input id="resp3796_8964" name="resp3796_5"  type="radio" value="8964" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8964">
+                <span class="anun">1<span class="anumsep">.</span></span> Nesprávna odpoveď
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input id="resp3796_8965" name="resp3796_5"  type="radio" value="8965" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8965">
+                <span class="anun">2<span class="anumsep">.</span></span> Iná nesprávna odpoveď
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input  id="resp3796_8966" name="resp3796_5"  type="radio" value="8966" >
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8966">
+                <span class="anun">3<span class="anumsep">.</span></span> Správna odpoveď
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input  id="resp3796_8967" name="resp3796_5"  type="radio" value="8967" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8967">
+                <span class="anun">4<span class="anumsep">.</span></span> Odpoveď správna na polovicu
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+          </tr>
+        </table>
+      <br />Adresy typu <a href="http://www.moodle.org" target="_blank">www.moodle.org</a> a smajlíci <img alt="smile" width="15" height="15" src="http://132.208.141.198/moodle_head/pix/s/smiley.gif" /> fungujú normálne::<br /> a) Je to dobre? <span><select name="resp3796_6"><option selected></option><option value="8968">Áno</option><option value="8969">Nie</option></select></span></label><label><br /> b) Ako by ste to obodovali? <input name="resp3796_7" size="1" > </label><br /><br />Veľa šťastia!
+    </div>
+    <div class="grading">
+    </div>
+  </div>
+</div></div></div>
 
-<br />
-
-Adresy typu <a href="http://www.moodle.org" target="_blank">www.moodle.org</a> a smajlíci<img alt=""  border="0" src="pix/s/smiley.gif" width="15" height="15" />fungujú normálne  :<br />
-
-a) Je to dobre? <select   name="q4ma4" ><option>&nbsp;</option><option value="13" >Áno</option><option value="14" >Nie</option></select> <br />
-
-b) Ako by ste to obodovali?   <input   name="q4ma5"  value="" type="text" size="8"/> <br />
-
-<br />
-
-Veľa šťastia!</p></td></tr></table></td></tr></table>
-</form>
