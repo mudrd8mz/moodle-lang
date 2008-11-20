@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080819) (2008081600)
+      // chat.php - created with Moodle 2.0 dev (Build: 20081120) (2008111801)
 
 
 $string['ajax'] = 'Ajax 사용판';
@@ -38,6 +38,7 @@ $string['explainmethodnormal'] = 'chat_method로 \"일반 방법\"을 선택하�
 $string['generalconfig'] = '일반 설정';
 $string['helpchatting'] = '대화방 도움말';
 $string['idle'] = '쉼';
+$string['inputarea'] = '입력창';
 $string['invalidid'] = '대화방을 찾을 수 없음!';
 $string['messagebeepseveryone'] = '$a가 모든 사람을 호출했음!';
 $string['messagebeepsyou'] = '$a가 나를 호출했음!';
@@ -67,6 +68,7 @@ $string['repeatdaily'] = '매일 같은 시간에';
 $string['repeatnone'] = '반복 없이 지정된 시간에만 공개';
 $string['repeattimes'] = '반복 대화방';
 $string['repeatweekly'] = '매주 같은 시간에';
+$string['saidto'] = '<b>전언</b>';
 $string['savemessages'] = '종료된 대화 저장';
 $string['seesession'] = '내용 보기';
 $string['send'] = '전송';
@@ -80,6 +82,7 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = '종료된 대화 공개 여부';
 $string['updatemethod'] = '갱신 방법';
 $string['updaterate'] = '갱신율:';
+$string['userlist'] = '사용자 목록';
 $string['viewreport'] = '지난 대화 보기';
 
 ?>

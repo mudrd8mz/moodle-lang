@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
+      // message.php - created with Moodle 2.0 dev (Build: 20081120) (2008111801)
 
 
 $string['addcontact'] = '연락 추가';
 $string['addsomecontacts'] = '다른 사람에게 소식을 보내거나 그들의 목록을 추가해 놓으려면 위의 <a href=\"$a\">찾기 탭</a>을 이용하세요';
 $string['addsomecontactsincoming'] = '이 소식들은 연락처에 없는 사람에게서 온 것입니다. 이들을 연락처에 추가하려면 이름 옆 \"연락추가\"아이콘을 누르세요';
 $string['ago'] = '$a 이전';
+$string['ajax_gui'] = 'Ajax 대화방';
 $string['allmine'] = '내 소식';
 $string['allstudents'] = '수강생 간의 모든 소식';
 $string['allusers'] = '모든 소식';
