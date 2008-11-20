@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // gradereport_user.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // gradereport_user.php - created with Moodle 2.0 dev (Build: 20081119) (2008111801)
 
 
-$string['modulename'] = 'Scheda utente';
-$string['user:view'] = 'Visualizza le tue valutazioni';
+$string['modulename'] = 'Scheda individuale';
+$string['user:view'] = 'Visualizza la tua scheda individuale';
 
 ?>
