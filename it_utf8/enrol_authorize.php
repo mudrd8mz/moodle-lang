@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.8 dev (2006101001)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20081119) (2008111801)
 
 
 $string['adminacceptccs'] = 'Quali tipi di carte di credito saranno accettate?';
@@ -42,8 +42,8 @@ $string['adminteachermanagepay'] = 'I docenti possono gestire il pagamento del c
 $string['amount'] = 'Spesa';
 $string['anlogin'] = 'Authorize.net: Nome Login';
 $string['anpassword'] = 'Authorize.net: Password';
-$string['anreferer'] = 'Definite l\'indirizzo del chiamante se lo avete impostato nell\'account di Authorize.net. Questo invierà  una linea \"Referer: URL\" inglobato nella richiesta web.';
-$string['antestmode'] = 'Eseguire le transazioni in modalità  di test (non verrà  trasferito denaro)';
+$string['anreferer'] = 'Definite l\'indirizzo del chiamante se lo avete impostato nell\'account di Authorize.net. Questo invierà  una linea \"Referer: URL\" inglobato nella richiesta web.';
+$string['antestmode'] = 'Eseguire le transazioni in modalità  di test (non verrà  trasferito denaro)';
 $string['antrankey'] = 'Authorize.net: Chiave di transizione';
 $string['approvedreview'] = 'Revisione approvata';
 $string['authcaptured'] = 'Autorizzato/Catturato';
@@ -80,20 +80,20 @@ $string['choosemethod'] = 'Se conoscete la chiave d\'accesso del corso, potete a
 $string['chooseone'] = 'Compilare uno o entrambi i campi seguenti';
 $string['costdefaultdesc'] = '<strong>Nelle impostazioni del corso, imposta -1</strong> per utilizzare questo costo standard per il campo costo del corso.';
 $string['delete'] = 'Distruggi';
-$string['description'] = 'Il modulo Authorize.net permette di impostare un costo per i corso. Se il costo del corso è zero, non verrà  chiesto agli studenti di pagare per accedervi. C\'è un costo per tutto il sito che può essere impostato per tutto il sito e poi un impostazione del corso che può essere scelta per ogni singolo corso. Il costo del corso sovrascrive quello del sito.';
-$string['echeckabacode'] = 'Numero ABI banca';
-$string['echeckaccnum'] = 'Numero conto corrente banca';
-$string['echeckacctype'] = 'Tipo conto corrente banca';
+$string['description'] = 'Il modulo Authorize.net permette di impostare un costo per i corso. Se il costo del corso è zero, non verrà  chiesto agli studenti di pagare per accedervi. C\'è un costo per tutto il sito che può essere impostato per tutto il sito e poi un impostazione del corso che può essere scelta per ogni singolo corso. Il costo del corso sovrascrive quello del sito.';
+$string['echeckabacode'] = 'Numero ABI';
+$string['echeckaccnum'] = 'Numero conto corrente';
+$string['echeckacctype'] = 'Tipo conto corrente';
 $string['echeckbankname'] = 'Nome banca';
-$string['echeckfirslasttname'] = 'Intestatario conto corrente banca';
-$string['enrolname'] = 'Portale per la carta di credito Authorize.net';
+$string['echeckfirslasttname'] = 'Intestatario conto corrente';
+$string['enrolname'] = 'Gateway di pagamento Authorize.net';
 $string['expired'] = 'Scaduta';
 $string['howmuch'] = 'Quanto?';
 $string['httpsrequired'] = 'Siamo spiacenti di informarvi che la vostra richiesta non può essere attualmente evasa. Le impostazioni di questo sito potrebbero non essere corrette.<br /><br /> Siete pregati di non inserire il vostro numero di carta di credito se non vedete un lucchetto (giallo) in basso nella finestra del browser. Questo significa, che i tutti dati inviati tra client e server sono criptati. In questo modo le informazioni durante la transazione tra 2 computer sono protette e il vostro numero di carta di credito non può essere catturato attraverso internet.';
 $string['invalidaba'] = 'Numero ABI non valido';
 $string['invalidaccnum'] = 'Numero conto corrente non valido';
 $string['invalidacctype'] = 'Tipo conto corrente no valiso';
-$string['logindesc'] = 'Questa opzione deve essere ON.<br /><br /> È possibile impostare l\'opzione <a href=\"$a->url\">loginhttps</a> nella sezione Variabili.<br /><br /> Mettedola a on si farà  utilizzare a Moodle una connessione sicura (https) per l\'accesso e per le pagine di pagamento.';
+$string['logindesc'] = 'Questa opzione deve essere ON.<br /><br /> È possibile impostare l\'opzione <a href=\"$a->url\">loginhttps</a> nella sezione Variabili.<br /><br /> Mettedola a on si farà  utilizzare a Moodle una connessione sicura (https) per l\'accesso e per le pagine di pagamento.';
 $string['methodcc'] = 'Carta di credito';
 $string['methodecheck'] = 'eCheck (ACH)';
 $string['missingaba'] = 'Numero ABI mancante';
@@ -137,7 +137,7 @@ $string['refunded'] = 'Restituito';
 $string['returns'] = 'Ritorni';
 $string['reviewday'] = 'Accettare la carta di credito automaticamente senza il controllo dell\'ordine da parte di un docente o dell\'amministratore in <b>$a</b> giorni. Il CRON deve essere ABILITATO.<br />(0 giorni = disabilita l\'autoaccettazione = docente o amministratore la controllano manualmente. La transazione viene annullata se l\'autoaccettazione è disabilitata e non viene controllata entro 30 giorni.)';
 $string['reviewfailed'] = 'Revisione fallita';
-$string['reviewnotify'] = 'Il pagamento verrà  controllato. Aspettatevi una mail in pochi giorni dal vostro docente.';
+$string['reviewnotify'] = 'Il pagamento verrà  controllato. Aspettatevi una mail in pochi giorni dal vostro docente.';
 $string['sendpaymentbutton'] = 'Invia Pagamento';
 $string['settled'] = 'Pagato';
 $string['settlementdate'] = 'Data Pagamento';

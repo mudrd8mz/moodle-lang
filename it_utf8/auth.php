@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
+      // auth.php - created with Moodle 2.0 dev (Build: 20081119) (2008111801)
 
 
 $string['CASform'] = 'Scelta autenticazione';
 $string['accesCAS'] = 'Utenti CAS';
 $string['accesNOCAS'] = 'altri utenti';
-$string['actauthhdr'] = 'Plugin di autenticazione disponibili';
-$string['alternatelogin'] = 'Se viene inserito un URL, la pagina specificata verrà utilizzata come pagina di login del sito. La pagina deve contenere un form con la \"action property\" impostata a <strong>\'$a\'</strong> e con i campi <strong>username</strong> e <strong>password</strong>.<br/> Fate attenzione a non inserire un URL errato perché potreste \"chiudervi fuori\" dal sito. <br/>
-Lasciate vuota questa impostazione se volete utilizzare la pagina di login standard.';
-$string['alternateloginurl'] = 'URL per la pagina di login sostitutiva';
+$string['actauthhdr'] = 'Plugin di autenticazione installate';
+$string['alternatelogin'] = 'Se specificate una URL come Pagina di login sostitutiva, Moodle la utilizzerà al posto della pagina di login standard. La pagina di login sostitutiva deve contenere un form con la \"action property\" impostata a <strong>\'$a\'</strong> e deve contenere i campi <strong>username</strong> e <strong>password</strong>.<br/> Fate attenzione a non inserire un URL errato  perché potreste \"chiudervi fuori\" dal sito. <br/>
+Non compilate questo campo se preferite utilizzare la pagina di login standard.';
+$string['alternateloginurl'] = 'URL pagina sostitutiva per il login';
 $string['auth_cas_auth_user_create'] = 'Creare utenti esternamente';
 $string['auth_cas_baseuri'] = 'URI del server (lasciare vuoto se non è definito baseURI)<br/>Per esempio, se il server CAS risponde a host.dominio.it/CAS/ <br/>allora, utilizzare: cas_baseuri=CAS/';
 $string['auth_cas_baseuri_key'] = 'Base URI';
@@ -99,7 +99,7 @@ $string['auth_emailnoemail'] = 'Fallito il tentativo di inviarti una email !';
 $string['auth_emailnoinsert'] = 'Il tuo record non può essere aggiunto al database!';
 $string['auth_emailnowexists'] = 'L\'indirizzo email che hai cercato di assegnare al tuo profilo è stato, nel frattempo, assegnato a qualcun altro, dal momento della tua richiesta. La richiesta di modifica email è stata quindi annullata, ma puoi provare ancora con un indirizzo email differente.';
 $string['auth_emailrecaptcha'] = 'Aggiungi un elemento di input per la conferma audio/visuale nella pagina di autoregistrazione degli utenti. Questo protegge il sito contro gli spammer e contribuisce a una buona causa. Per maggiori dettagli vedi http://recaptcha.net/learnmore.html.<br/><me>E\' richiesta l\'estensione PHP cURL.</em>';
-$string['auth_emailrecaptcha_key'] = 'Abilita elemento reCAPTCHA';
+$string['auth_emailrecaptcha_key'] = 'Abilita reCAPTCHA';
 $string['auth_emailsettings'] = 'Impostazioni';
 $string['auth_emailtitle'] = 'Account via email';
 $string['auth_emailupdate'] = 'Modifica indirizzo email';
@@ -318,7 +318,7 @@ $string['forcechangepassword'] = 'Forza il cambiamento della password';
 $string['forcechangepassword_help'] = 'Forzare gli utenti a cambiare la password al successivo accesso a Moodle?';
 $string['forcechangepasswordfirst_help'] = 'Forzare gli utenti a cambiare la password al primo accesso a Moodle?';
 $string['forgottenpassword'] = 'Se viene inserita una URL qui, essa sarà usata come pagina di recupero della password perduta per questo sito. Questo serve per quei siti in cui la gestione delle password è effettuata completamente all\'esterno di Moodle. Lasciare lo spazio vuoto per usare il recupero password di default.';
-$string['forgottenpasswordurl'] = 'URL per il recupero password';
+$string['forgottenpasswordurl'] = 'URL pagina recupero password';
 $string['getanaudiocaptcha'] = 'Chiedi un audio CAPTCHA';
 $string['getanimagecaptcha'] = 'Chiedi un\'immagine CAPTCHA';
 $string['getanothercaptcha'] = 'Chiedi un altro CAPTCHA';
@@ -340,13 +340,13 @@ $string['pluginnotenabled'] = 'Il plugin \'$a\' per l\'autenticazione non è abi
 $string['pluginnotinstalled'] = 'Il plugin \'$a\' per l\'autenticazione non è installato.';
 $string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'Timeout negoziazione RPC';
-$string['selfregistration'] = 'Auto registrazione';
-$string['selfregistration_help'] = 'Scegli quale plugin di autenticazione gestirà l\'auto-registrazione dell\'utente';
+$string['selfregistration'] = 'Auto creazione account';
+$string['selfregistration_help'] = 'Se impostate un plugin per l\'auto creazione di account, come ad esempio il plugin per la creazione di account via email, allora qualsiasi visitatore del vostro sito potrà crearsi un account. Tale funzione espone il sito al rischio che spammer possano creare account per inviare post indesiderati attraverso forum, blog od altre funzioni. Per evitare questo rischio è bene disabilitare l\' Auto creazione di account  oppure limitarla attraverso l\'impostazione <em>Domini di posta autorizzati</em> oppure ancora attivando il reCAPTCHA.';
 $string['sha1'] = 'Hash SHA-1';
 $string['shib_no_attributes_error'] = 'Sembra che dobbiate essere autenticati da Shibboleth ma Moodle non ha ricevuto gli attributi dell\'utente. Vi preghiamo di controllare che il vostro Identity Provider rilasci gli attributi necessari ($a) al Service Provider dove funziona Moodle o informate il webmaster di questo server.';
 $string['shib_not_all_attributes_error'] = 'Moodle richiede alcuni attributi Shibboleth che, nel vostro caso, non sono presenti. Gli attributi sono: $a<br />Vi preghiamo di contattare il webmaster di questo server o il vostro Identity Provider.';
 $string['shib_not_set_up_error'] = 'L\'autenticazione Shibboleth non sembra essere impostata correttamente perché nessuna variabile Shibboleth è presente in questa pagina. Si prega di consultare il file <a href=\"README.txt\">README</a> per ulteriori istruzioni sulla configurazione della autenticazione Shibbleth o contattare il webmaster di questa installazione di Moodle.';
-$string['showguestlogin'] = 'Nascondere o mostrare il pulsante \'login come ospite\' nella pagina di login?';
+$string['showguestlogin'] = 'E\' possibile visualizzare o nascondere  il pulsante \'login come ospite\' nella pagina di login standard';
 $string['stdchangepassword'] = 'Utilizzare la pagina standard per il cambiamento della password?';
 $string['stdchangepassword_expl'] = 'Se il sistema di autenticazione esterna permette il cambiamento delle password attraverso Moodle, cambiate questo su Si. Questa impostazione esclude l\'URL per cambiare la password.';
 $string['stdchangepassword_explldap'] = 'Nota: Si raccomanda di utilizzare LDAP su una connessione criptata con SSL (ldaps://) se il server è remoto.';

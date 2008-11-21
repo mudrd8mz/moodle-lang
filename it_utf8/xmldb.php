@@ -1,14 +1,17 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7.1+ (2006101010)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20081119) (2008111801)
 
 
 $string['aftertable'] = 'Dopo Tabella:';
 $string['back'] = 'Indietro';
-$string['backtomainview'] = 'Indietro alla vista pricipale';
+$string['backtomainview'] = 'Torna alla vista principale';
 $string['binaryincorrectlength'] = 'Lunghezza incorretta per un campo binario';
 $string['cannotuseidfield'] = 'Non è possibile inserire il campo \"id\" è una colonna automatica';
 $string['change'] = 'Modifica';
 $string['charincorrectlength'] = 'Lunghezza incorretta per un campo carattere';
+$string['check_bigints'] = 'Cerca \'DB integer\' errati';
+$string['check_indexes'] = 'Cerca gli indici del DB mancanti';
+$string['checkindexes'] = 'Controlla gli indici';
 $string['confirmdeletefield'] = 'Sei assolutamente sicuro di voler rimuovere il campo:';
 $string['confirmdeleteindex'] = 'Sei assolutamente sicuro di voler rimuovere l\'indice:';
 $string['confirmdeletekey'] = 'Sei assolutamente sicuro di voler rimuovere la chiave:';
@@ -76,7 +79,7 @@ $string['revert'] = 'Ripristina';
 $string['revert_changes'] = 'Ripristina modifiche';
 $string['save'] = 'Salva';
 $string['selectaction'] = 'Selezionare Azione:';
-$string['selectdb'] = 'Selezionare Base di dati:';
+$string['selectdb'] = 'Seleziona database:';
 $string['selectfieldkeyindex'] = 'Selezionare Campo/Chiave/Indice:';
 $string['selectonecommand'] = 'Si prega di selezionare una Azione dalla lista per visualizzare il codice PHP';
 $string['selectonefieldkeyindex'] = 'Si prega di selezionare un Campo/Chiave/Indice dalla lista per visualizzare il codice PHP';

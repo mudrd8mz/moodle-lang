@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // filters.php - created with Moodle 2.0 dev (Build: 20081119) (2008111801)
 
 
 $string['actfilterhdr'] = 'Filtri attivi';
@@ -36,7 +36,7 @@ $string['removeall'] = 'Rimuovi tutti i filtri';
 $string['removeselected'] = 'Rimuovi i selezionati';
 $string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = 'inizia con';
-$string['tablenosave'] = 'Modifiche nella tabella sono salvate automaticamente.';
+$string['tablenosave'] = 'Le modifiche apportate nella tabella saranno salvate automaticamente.';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
 
