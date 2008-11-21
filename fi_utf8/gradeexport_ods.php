@@ -1,7 +1,5 @@
-<?PHP // $Id$ 
-      // gradeexport_ods.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
-$string['modulename'] = 'OpenDocument-taulukko';
-
+<?PHP // $Id$
+$string['modulename'] = 'OpenDocument-talukko';
+$string['ods:publish'] = 'Julkaise ODS arvosanojen vienti';
+$string['ods:view'] = 'Käytä OpenDocument arvosanojen vientiä';
 ?>

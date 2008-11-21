@@ -1,8 +1,4 @@
-<?PHP // $Id$ 
-      // gradeimport_csv.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
-$string['csv:view'] = 'Tuo arvosanat CSV tiedostona';
+<?PHP // $Id$
+$string['csv:view'] = 'Tuo arvosanoja CSV-tiedostosta';
 $string['modulename'] = 'CSV-tiedosto';
-
 ?>

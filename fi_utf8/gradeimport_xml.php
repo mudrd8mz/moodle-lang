@@ -1,8 +1,12 @@
-<?PHP // $Id$ 
-      // gradeimport_xml.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
+<?PHP // $Id$
+$string['errbadxmlformat'] = 'Virhe - väärä XML-formaatti';
+$string['errduplicategradeidnumber'] = 'Virhe - tällä kurssilla on kaksi arviointikohdetta id-numerolla \'$a\'. Tämän ei pitäisi olla mahdollista.';
+$string['errduplicateidnumber'] = 'Virhe - päällekkäiset id-numerot.';
+$string['errincorrectgradeidnumber'] = 'Virhe - tuontitiedoston id-numero \'$a\' ei vastaa mitään arviointikohdetta.';
+$string['errincorrectidnumber'] = 'Virhe - väärä id-numero';
+$string['errincorrectuseridnumber'] = 'Virhe - tuontitiedoston id-numero \'$a\' ei vastaa yhtään käyttäjää.';
+$string['fileurl'] = 'Ulkoisen tiedoston URL';
 $string['modulename'] = 'XML-tiedosto';
-$string['xml:view'] = 'Tuo arvosanat XML tiedostona';
-
+$string['xml:publish'] = 'Julkaise XML-tiedostosta tuodut arvosanat';
+$string['xml:view'] = 'Tuo arvosanoja XML-tiedostosta';
 ?>

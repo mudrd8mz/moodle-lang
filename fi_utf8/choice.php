@@ -8,6 +8,7 @@ $string['choice:deleteresponses'] = 'Vastausten poisto';
 $string['choice:downloadresponses'] = 'Vastausten lataus';
 $string['choice:readresponses'] = 'Vastusten tarkastelu';
 $string['choiceclose'] = 'Saakka';
+$string['choicefull'] = 'Tämä valinta on jo täynnä.';
 $string['choicename'] = 'Valinnan nimi';
 $string['choiceopen'] = 'Avoinna';
 $string['choicetext'] = 'Valinnan teksti';

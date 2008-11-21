@@ -2,6 +2,7 @@
 $string['addnewentry'] = 'Lisää uusi merkintä';
 $string['addotags'] = 'Lisää virallinen tunniste';
 $string['addptags'] = 'Lisää oma tunniste';
+$string['backupblogshelp'] = 'Jos päällä, blogit sisällytetään sivuston automaattisiin varmuuskopiointeihin.';
 $string['blockmenutitle'] = 'Blogivalikko';
 $string['blocktagstitle'] = 'Blogitunnisteet';
 $string['blocktitle'] = 'Blogitunnisteet-lohkon otsikko';
@@ -12,6 +13,7 @@ $string['blogs'] = 'Blogit';
 $string['blogtags'] = 'Blogitunnisteet';
 $string['courseblog'] = 'Kurssiblogi: $a';
 $string['courseblogs'] = 'Käyttäjät voivat nähdä vain kurssikavereidensa blogit';
+$string['deleteotagswarn'] = 'Oletko varma, että haluat poistaa tämän tagin/nämä tagit kaikista blogiviesteistä ja poistaa tagin järjestelmästä?';
 $string['disableblogs'] = 'Poista blogit kokonaan käytöstä';
 $string['emptybody'] = 'Blogimerkinnän teksti ei voi olla tyhjä';
 $string['emptytitle'] = 'Blogimerkinnän otsikko ei voi olla tyhjä';

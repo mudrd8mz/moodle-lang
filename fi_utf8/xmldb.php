@@ -1,10 +1,9 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['aftertable'] = 'Taulun jälkeen:';
 $string['back'] = 'Takaisin';
 $string['backtomainview'] = 'Takaisin päävalikkoon';
 $string['binaryincorrectlength'] = 'Virheellinen pituus binäärisarakkeelle';
+$string['butis'] = 'mutta on';
 $string['cannotuseidfield'] = 'Id-kenttää ei voitu lisätä. Se on automaattisesti numeroitu sarake.';
 $string['change'] = 'Muuta';
 $string['charincorrectlength'] = 'Virheellinen pituus merkkisarakkeelle';

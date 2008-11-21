@@ -1,10 +1,10 @@
 <?PHP // $Id$
 $string['addentry'] = 'Lisää uusi sana.';
-$string['askaddentry'] = 'Kun käyttäjät voivat lisätä tietueita sanastoon, näytä linkin yhteydessä tämä teksti';
-$string['askinvisible'] = 'Kun käyttäjät eivät voi muokata tai katsella sanastoa, näytä tämä teksti';
-$string['askviewglossary'] = 'Kun käyttäjät voivat katsella sanastoa mutta eivät voi lisätä tietueita, näytä linkin yhteydessä tämä teksti';
+$string['askaddentry'] = 'Kun käyttäjät voivat lisätä tietueita sanastoon, näytä linkki tekstinä';
+$string['askinvisible'] = 'Kun käyttäjät eivät voi lisätä tai katsella sanaston tietueita , näytä tämä teksti';
+$string['askviewglossary'] = 'Kun käyttäjät eivät voi lisätä tai katsella sanaston tietueita, näytä linkki tekstinä';
 $string['blockname'] = 'Satunnainen sana sanastosta';
-$string['intro'] = 'Varmista, että kurssilla on ainakin yksi sanasto ja siinä ainakin yksi tietue. Sitten voit muokata seuraavia asetuksia';
+$string['intro'] = 'Varmista, että kurssilla ainakin yksi sanasto ja siinä ainakin yksi tietue. Sitten voit muokata seuraavia asetuksia';
 $string['invisible'] = '(Jatkuu)';
 $string['lastmodified'] = 'Viimeksi muokattu tietue';
 $string['nextone'] = 'Seuraava tietue';
@@ -19,5 +19,5 @@ $string['title'] = 'Otsikko';
 $string['type'] = 'Miten uusi tietue valitaan';
 $string['typehelp'] = '<b>Viimeisin muokattu tietue</b> näyttää aina viimeksi muokatun tietueen ja <b>Arvottu tietue</b> valitsee satunnaisen tietueen joka kerta. <b>Seuraava tietue</b> näyttää kaikki tietueet järjestyksessä. Viimeisimmän vaihtoehdon kanssa voit tehdä <i>Viikon sitaatteja</i> tai <i>Päivän vinkkejä</i>.';
 $string['viewglossary'] = 'Lisää sanoja...';
-$string['whichfooter'] = 'Voit näyttää linkit niihin sanaston toimintoihin jotka ovat aktiivisena lohkoon liitetyssä sanastossa.';
+$string['whichfooter'] = 'Voit näyttää linkit niihin sanaston toimintoihin, jotka ovat aktiivisena lohkoon liitetyssä sanastossa.';
 ?>

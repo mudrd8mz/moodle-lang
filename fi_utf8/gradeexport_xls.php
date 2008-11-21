@@ -1,8 +1,5 @@
-<?PHP // $Id$ 
-      // gradeexport_xls.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
+<?PHP // $Id$
 $string['modulename'] = 'Excel-taulukko';
-$string['xls:view'] = 'Käytä arvosanojen vientiä Excel:iin';
-
+$string['xls:publish'] = 'Julkaise XLS arvosanojen vienti';
+$string['xls:view'] = 'Käytä arvosanojen vientiä Excel:iinSeuraava';
 ?>

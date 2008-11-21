@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['alwaysopen'] = 'Aina avoinna';
 $string['blankentry'] = 'Tyhjä osa';
 $string['daysavailable'] = 'Päivää avoinna';

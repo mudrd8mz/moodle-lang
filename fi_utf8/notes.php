@@ -1,29 +1,25 @@
-<?PHP // $Id$ 
-      // notes.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
-
-
-$string['addnewnote'] = 'Lisää uusi kommentti';
-$string['addnewnoteselect'] = 'Valitse käyttäjät, joita kommentit koskevat';
-$string['bynameondate'] = 'tekijä $a->name - $a->date';
+<?PHP // $Id$
+$string['addnewnote'] = 'Lisää uusi huomautus';
+$string['addnewnoteselect'] = 'Valitse käyttäjät, joista haluat kirjoittaa huomautuksen';
+$string['bynameondate'] = 'kirjoittanut $a->name - $a->date';
 $string['content'] = 'Sisältö';
 $string['course'] = 'kurssi';
-$string['coursenotes'] = 'Kurssin kommentit';
-$string['created'] = 'perustettu';
-$string['deleteconfirm'] = 'Poista tämä kommentti?';
-$string['deletenotes'] = 'Poista kaikki kommentit';
-$string['editnote'] = 'Muokkaa kommenttia';
-$string['groupaddnewnote'] = 'Lisää julkinen kommentti';
-$string['nocontent'] = 'Kommentti ei voi olla tyhjä';
-$string['nonotes'] = 'Tämän tyyppisiä kommentteja ei vielä ole';
-$string['note'] = 'Kommentti';
-$string['notes'] = 'Kommentit';
-$string['notesnotvisible'] = 'Sinulla ei ole oikeuksia nähdä kommentteja';
-$string['nouser'] = 'Käyttäjä pitää valita';
+$string['coursenotes'] = 'Kurssin huomautukset';
+$string['created'] = 'luotu';
+$string['deleteconfirm'] = 'Poista tämä huomautus?';
+$string['deletenotes'] = 'Poista kaikki huomautukset';
+$string['editnote'] = 'Muokkaa huomautusta';
+$string['groupaddnewnote'] = 'Lisää yhteinen huomautus';
+$string['nocontent'] = 'Huomautuksen sisältö ei voi olla tyhjä';
+$string['nonotes'] = 'Tämän tyyppisiä huomautuksia ei ole';
+$string['note'] = 'Huomautus';
+$string['notes'] = 'Huomautukset';
+$string['notesnotvisible'] = 'Sinulla ei ole oikeuksia katsoa huomautuksia';
+$string['nouser'] = 'Sinun pitää valita käyttäjä';
 $string['personal'] = 'henkilökohtainen';
-$string['personalnotes'] = 'Henkilökohtaiset kommentit';
-$string['publishstate'] = 'Status';
+$string['personalnotes'] = 'Henkilökohtaiset huomautukset';
+$string['publishstate'] = 'Tila';
 $string['site'] = 'sivusto';
-$string['sitenotes'] = 'Sivuston kommentit';
+$string['sitenotes'] = 'Sivuston huomautukset';
 $string['unknown'] = 'tuntematon';
-
 ?>

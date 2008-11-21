@@ -1,6 +1,4 @@
 <?PHP // $Id$
-      // Modified with langdiff.php
-
 $string['createSequence'] = 'Luo uusi jakso';
 $string['editSequence'] = 'Muokkaa valittua jaksoa';
 $string['error'] = 'Pahus, sattui virhe';
@@ -9,6 +7,8 @@ $string['lams:manage'] = 'LAMS aktiviteettien hallinta';
 $string['lams:participate'] = 'Osallistu LAMS aktiviteetteihin';
 $string['lamsoutline'] = 'LAMS Yhteenveto';
 $string['lesson'] = 'oppitunti';
+$string['modulename'] = 'LAMS';
+$string['modulenameplural'] = 'LAMS';
 $string['notsetup'] = 'EI_MÄÄRITELTY';
 $string['openauthor'] = 'Avaa LAMS Hallinta';
 $string['openlearner'] = 'Avaa LAMS Opiskelija';
@@ -16,6 +16,9 @@ $string['openmonitor'] = 'Avaa LAMS Monitori';
 $string['refreshSequenceList'] = 'Päivitä jaksolista';
 $string['selectExistingSequence'] = 'Valitse jakso tai luo uusi jakso';
 $string['sequence'] = 'Valitse jakso';
+$string['server_id'] = 'Palvelin ID';
+$string['server_key'] = 'Palvelin avain';
+$string['server_url'] = 'Palvelin URL';
 $string['serverid'] = 'Anna palvelintunnus joka on saatu <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverkey'] = 'Anna palvelinavain joka on saatu <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverurl'] = 'Anna LAMS-palvelimen osoite esim. http://localhost:8080/lams';
