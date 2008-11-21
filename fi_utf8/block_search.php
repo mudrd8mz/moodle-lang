@@ -1,4 +1,20 @@
+<?PHP // $Id$ 
+      // block_search.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
+      // local modifications from https://www.moodle.fi/demo/moodle
 
-Warning: require(../fi_utf8/block_search.php): failed to open stream: No such file or directory in /home/samulik/kaannos/langdiff.php on line 105
 
-Fatal error: require(): Failed opening required '../fi_utf8/block_search.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/samulik/kaannos/langdiff.php on line 105
+$string['blockname'] = 'Global Search';
+$string['bytes'] = 'bittiä (0 on rajoittamaton)';
+$string['configbuttonlabel'] = 'Painikkeen teksti';
+$string['configenablefileindexing'] = 'Käytä tiedostojen indeksointia';
+$string['configfiletypes'] = 'Käsiteltävät tiedostotyypit';
+$string['configlimitindexbody'] = 'Indeksoidun sisällön kokorajoitus';
+$string['configpdftotextcmd'] = 'Polku pdf-teksti-muuntimeen';
+$string['configsearchtext'] = 'Hakuteksti';
+$string['configwordtotextcmd'] = 'Polku doc-teksti-muuntimeen';
+$string['configwordtotextenv'] = 'Parametrit MSWord-muuntimelle';
+$string['go'] = 'Hae!';
+$string['searchmoodle'] = 'Hae Moodlesta';
+$string['usemoodleroot'] = 'Käytä Moodlen juurihakemistoa ulkopuolisille muuntimille';
+
+?>

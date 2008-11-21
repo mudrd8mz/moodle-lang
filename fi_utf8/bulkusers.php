@@ -1,4 +1,23 @@
+<?PHP // $Id$ 
+      // bulkusers.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
+      // local modifications from https://www.moodle.fi/demo/moodle
 
-Warning: require(../fi_utf8/bulkusers.php): failed to open stream: No such file or directory in /home/samulik/kaannos/langdiff.php on line 105
 
-Fatal error: require(): Failed opening required '../fi_utf8/bulkusers.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/samulik/kaannos/langdiff.php on line 105
+$string['addall'] = 'Lisää kaikki';
+$string['addsel'] = 'Lisää valittuihin';
+$string['allfilteredusers'] = 'Kaikki suodatetut ($a->count/$a->total)';
+$string['allselectedusers'] = 'Kaikki valitut ($a->count/$a->total)';
+$string['allusers'] = 'Kaikki käyttäjät ($a)';
+$string['available'] = 'Valittavissa';
+$string['confirmmessage'] = 'Haluatko varmasti lähettää ylläolevan viestin kaikille näille käyttäjille?<br />$a';
+$string['nofilteredusers'] = 'Käyttäjiä ei löytynyt (0/$a)';
+$string['noselectedusers'] = 'Ei valittuja käyttäjiä';
+$string['removeall'] = 'Poista kaikki';
+$string['removesel'] = 'Poista valituista';
+$string['selected'] = 'Valitut';
+$string['selectedlist'] = 'Toiminto valituille käyttäjille';
+$string['usersfound'] = 'Löytyi $a käyttäjä(ä).';
+$string['usersinlist'] = 'Käyttäjiä listassa';
+$string['usersselected'] = '$a käyttäjä(ä) valittu.';
+
+?>

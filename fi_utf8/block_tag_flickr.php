@@ -1,4 +1,21 @@
+<?PHP // $Id$ 
+      // block_tag_flickr.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
+      // local modifications from https://www.moodle.fi/demo/moodle
 
-Warning: require(../fi_utf8/block_tag_flickr.php): failed to open stream: No such file or directory in /home/samulik/kaannos/langdiff.php on line 105
 
-Fatal error: require(): Failed opening required '../fi_utf8/block_tag_flickr.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/samulik/kaannos/langdiff.php on line 105
+$string['blockname'] = 'Flickr';
+$string['configtitle'] = 'Otsikko';
+$string['date-posted-asc'] = 'Lisäyspäivä (nouseva)';
+$string['date-posted-desc'] = 'Lisäyspäivä (laskeva)';
+$string['date-taken-asc'] = 'Kuvauspäivä (nouseva)';
+$string['date-taken-desc'] = 'Kuvauspäivä (laskeva)';
+$string['defaulttile'] = 'Flickr';
+$string['getfromphotoset'] = 'Hae kuvia kokoelmasta id:llä';
+$string['includerelatedtags'] = 'Sisällytä samankaltaiset tagit hakuun';
+$string['interestingness-asc'] = 'Mielenkiintoisuus (nouseva)';
+$string['interestingness-desc'] = 'Mielenkiintoisuus (laskeva)';
+$string['numberofphotos'] = 'Kuvien määrä';
+$string['relevance'] = 'Asiaankuuluvuus';
+$string['sortby'] = 'Järjestä';
+
+?>

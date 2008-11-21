@@ -1,4 +1,10 @@
+<?PHP // $Id$ 
+      // qtype_match.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
+      // local modifications from https://www.moodle.fi/demo/moodle
 
-Warning: require(../fi_utf8/qtype_match.php): failed to open stream: No such file or directory in /home/samulik/kaannos/langdiff.php on line 105
 
-Fatal error: require(): Failed opening required '../fi_utf8/qtype_match.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/samulik/kaannos/langdiff.php on line 105
+$string['addmoreqblanks'] = 'Lisää {no} kysymyskenttää';
+$string['nomatchinganswerforq'] = 'Tälle kysymykselle pitää antaa vastaus.';
+$string['notenoughquestions'] = 'Anna vähintään $a kysymys-vastaus-paria.';
+
+?>

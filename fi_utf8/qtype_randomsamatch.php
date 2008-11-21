@@ -1,4 +1,9 @@
+<?PHP // $Id$ 
+      // qtype_randomsamatch.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
+      // local modifications from https://www.moodle.fi/demo/moodle
 
-Warning: require(../fi_utf8/qtype_randomsamatch.php): failed to open stream: No such file or directory in /home/samulik/kaannos/langdiff.php on line 105
 
-Fatal error: require(): Failed opening required '../fi_utf8/qtype_randomsamatch.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/samulik/kaannos/langdiff.php on line 105
+$string['nosaincategory'] = 'Valitsemassasi kategoriassa \'$a->catname\' ei ole yhtään lyhytvastausta. Valitse toinen kategoria tai tee kysymyksiä tähän kategoriaan.';
+$string['notenoughsaincategory'] = 'Valitsemassasi kategoriassa \'$a->catname\' on vain $a->nosaquestions lyhytvastaus kysymystä. Valitse toinen kategoria, tee uusia kysymyksiä tähän kategoriaan tai pienennä valitsemiesi kysymysten määrää.';
+
+?>
