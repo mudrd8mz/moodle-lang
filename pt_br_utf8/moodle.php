@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081121) (2008112101)
 
 
 $string['abouttobeinstalled'] = 'será instalado';
@@ -293,7 +293,6 @@ $a';
 $string['courserejectreason'] = 'Descreva as razões para rejeitar este curso<br />(uma cópia será mandada por email ao autor do pedido)';
 $string['courserejectsubject'] = 'O seu curso não foi aceito';
 $string['courserequest'] = 'Pedido de curso';
-$string['courserequestdisabled'] = 'Infelizmente o pedido de criação de novos cursos foi desativado pelo administrador do servidor';
 $string['courserequestfailed'] = 'O seu pedido não foi enviado em razão de problema desconhecido';
 $string['courserequestintro'] = 'Use este formulário para pedir a criação de um novo curso.<br /> Forneça o maior número de informações possível<br />para que os administradores possam entender e aceitar o seu pedido.';
 $string['courserequestreason'] = 'Razões para abrir este curso';
@@ -622,7 +621,7 @@ $string['filloutallfields'] = 'Por favor, preencha todos os campos do formulári
 $string['findmorecourses'] = 'Encontrar mais cursos...';
 $string['firstdayofweek'] = '0';
 $string['firstname'] = 'Nome';
-$string['firsttime'] = 'Esta é a primeira vez que você aqui?';
+$string['firsttime'] = 'esta é a sua primeira vez aqui?';
 $string['folder'] = 'Pasta';
 $string['folderclosed'] = 'Pasta fechada';
 $string['folderopened'] = 'Pasta aberta';
@@ -1059,7 +1058,6 @@ $string['noresults'] = 'Nenhum resultado';
 $string['normal'] = 'Normal';
 $string['normalfilter'] = 'Busca normal';
 $string['nosite'] = 'Não foi encontrado o curso a nível de site';
-$string['nostatstodisplay'] = 'Sinto muito, nenhum dado disponível para ser mostrado.';
 $string['nostudentsfound'] = 'Nenhum $a encontrado';
 $string['nostudentsingroup'] = 'Nenhum estudante neste grupo ainda';
 $string['nostudentsyet'] = 'Nenhum estudante inscrito neste curso ainda';
@@ -1206,7 +1204,6 @@ $string['registrationsend'] = 'Mande a informação de registro para moodle.org'
 $string['registrationyes'] = 'Sim, por favor me avise quando houver assuntos importantes';
 $string['reject'] = 'Rejeitar';
 $string['reload'] = 'Recarregar';
-$string['remotemaharauser'] = 'Usuário remoto de Mahara';
 $string['remove'] = 'Remover';
 $string['removeadmin'] = 'Remover administrador';
 $string['removecreator'] = 'Remover autor de curso';
@@ -1626,6 +1623,9 @@ $string['yourlastlogin'] = 'Seu último acesso foi em';
 $string['yourself'] = 'Você Mesmo';
 $string['yourteacher'] = 'seu $a';
 $string['zippingbackup'] = 'Compactando o backup';
+$string['courserequestdisabled'] = 'Infelizmente o pedido de criação de novos cursos foi desativado pelo administrador do servidor'; // ORPHANED
+$string['nostatstodisplay'] = 'Sinto muito, nenhum dado disponível para ser mostrado.'; // ORPHANED
+$string['remotemaharauser'] = 'Usuário remoto de Mahara'; // ORPHANED
 $string['skiptomaincontent'] = 'Saltar para conteúdo principal'; // ORPHANED
 $string['statsreport6'] = 'Todas as atividades dos docentes (acessos e mensagens)'; // ORPHANED
 $string['statsreportstudentactivity'] = 'Todas as atividades do aluno (acessos e mensagens)'; // ORPHANED
