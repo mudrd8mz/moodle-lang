@@ -659,7 +659,7 @@ $string['remotelangnotavailable'] = 'Moodle ne peut pas se connecter au site dow
 $string['renameerrors'] = 'Erreurs lors de changements de nom';
 $string['requiredtemplate'] = 'Requis. Vous pouvez utiliser ici la syntaxe de modèle (%%l = nom, %%f = prénom, %%u = nom d\'utilisateur). Voir l\'aide pour des détails et des exemples help for details and examples.';
 $string['requires'] = 'Requiert';
-$string['restrictbydefault'] = 'Restreindre les modules par défaut';
+$string['restrictbydefault'] = 'Restreindre par défaut les modules';
 $string['restrictmodulesfor'] = 'Restreindre les modules pour';
 $string['reverseproxy'] = 'Proxy inverse';
 $string['riskconfig'] = 'Les utilisateurs pourraient modifier la configuration et le comportement du site';
