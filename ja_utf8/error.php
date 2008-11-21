@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // error.php - created with Moodle 2.0 dev (Build: 20081118) (2008111801)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -49,6 +49,7 @@ $string['cannotdeletedir'] = '$a を削除できませんでした。';
 $string['cannotdeletelangcache'] = '言語キャッシュを削除できません。dataroot/cache/languagesのパーミッションを修正してください!';
 $string['cannotdeleterole'] = '次の理由で削除できません: $a';
 $string['cannotdeleterolewithid'] = 'ID $a のロールを削除できませんでした。';
+$string['cannotdeletethisrole'] = 'システムで使用されている、または管理者ケイパビリティの最後のロールのため、あなたは、このロールを削除することができません。';
 $string['cannotdownloadcomponents'] = 'コンポーネットをダウンロードできません。';
 $string['cannotdownloadlanguageupdatelist'] = 'download.moodle.orgから言語の更新リストをダウンロードできません。';
 $string['cannotdownloadzipfile'] = 'ZIPファイルをダウンロードできません。';
@@ -104,6 +105,7 @@ $string['cannotreaduploadfile'] = 'アップロードファイルを読み込め
 $string['cannotremovefrommeta'] = 'このメタコースから、選択したコースを削除できませんでした!';
 $string['cannotresetguestpwd'] = 'あなたは、ゲストのパスワードをリセットできません。';
 $string['cannotresetmail'] = 'パスワードのリセットおよびメール送信中にエラーが発生しました。';
+$string['cannotresetthisrole'] = 'このロールをリセットできません。';
 $string['cannotrestore'] = 'エラーが発生したため、正常にリストアできませんでした!';
 $string['cannotrestoreadminorcreator'] = '新しいコースにリストアするには、あなたはコース作成者または管理者である必要があります!';
 $string['cannotrestoreadminoredit'] = '選択されたコースにリストアするには、あなたは編集権限のある教師または管理者である必要があります!';
@@ -204,6 +206,7 @@ $string['errorcleaningdirectory'] = 'ディレクトリ「 $a 」のクリーニ
 $string['errorcopyingfiles'] = 'ファイルのコピー中にエラーが発生しました。';
 $string['errorcreatingdirectory'] = 'ディレクトリ「 $a 」の作成中にエラーが発生しました。';
 $string['errorcreatingfile'] = 'ファイル「 $a 」の作成中にエラーが発生しました。';
+$string['errorcreatingrole'] = 'ロールの作成中にエラーが発生しました。';
 $string['erroronline'] = '$a 行目にエラーがあります。';
 $string['errorreadingfile'] = 'ファイル「 $a 」の読み取り中にエラーが発生しました。';
 $string['errorsettinguserpref'] = 'ユーザプリファレンスの設定中にエラーが発生しました。';

@@ -1,13 +1,16 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081115) (2008111200)
+      // role.php - created with Moodle 2.0 dev (Build: 20081118) (2008111801)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
+$string['addingrolebycopying'] = '$a をベースに新しいロールを追加する';
 $string['addrole'] = '新しいロールを追加する';
 $string['allow'] = '許可';
 $string['allowassign'] = 'ロールの割り当て許可';
 $string['allowed'] = '許可済み';
 $string['allowoverride'] = 'ロールのオーバーライド許可';
+$string['allowroletoassign'] = 'ロール $a->fromrole のユーザに対して、ロール $a->targetrole の割り当てを許可する';
+$string['allowroletooverride'] = 'ロール $a->fromrole のユーザに対して、ロール $a->targetrole のオーバーライドを許可する';
 $string['allsiteusers'] = 'すべてのサイトユーザ';
 $string['assignanotherrole'] = '別のロールを割り当てる';
 $string['assignerror'] = 'ユーザ $a->user へのロール a->role 割り当て中にエラーが発生しました。';
@@ -66,19 +69,25 @@ $string['course:viewparticipants'] = '参加者を表示する';
 $string['course:viewscales'] = '尺度を表示する';
 $string['course:visibility'] = 'コースを表示/非表示する';
 $string['createhiddenassign'] = '非表示ロール割り当てを作成する';
+$string['createrolebycopying'] = '$a をコピーして新しいロールを作成する';
+$string['createthisrole'] = 'このロールを作成する';
 $string['currentcontext'] = '現在のコンテクスト';
 $string['currentrole'] = '現在のロール';
 $string['defaultrole'] = 'デフォルトロール';
+$string['defaultx'] = 'デフォルト $a';
 $string['defineroles'] = 'ロールの定義';
 $string['deletecourseoverrides'] = 'コース内のすべてのオーバーライドを削除する';
 $string['deletelocalroles'] = 'すべてのローカルロール割り当てを削除する';
 $string['deleterolesure'] = '<p>本当にロール「 $a->name ($a->shortname) 」を削除してもよろしいですか?</p><p>現在、このロールは $a->count 名のユーザに割り当てられています。</p>';
+$string['deletexrole'] = '$a ロールを削除する';
 $string['duplicaterole'] = 'ロールを複製する';
 $string['duplicaterolesure'] = '本当にロール「 $a->name ($a->shortname) 」を複製してもよろしいですか?</p>';
 $string['editingrolex'] = 'ロール「 $a 」を編集する';
 $string['editrole'] = 'ロールの編集';
+$string['editxrole'] = '$a ロールを編集する';
+$string['enrolmentoptions'] = '登録オプション';
 $string['errorbadrolename'] = 'ロール名が正しくありません。';
-$string['errorbadroleshortname'] = 'ロール名が正しくありません。';
+$string['errorbadroleshortname'] = 'ロール省略名が正しくありません。';
 $string['errorexistsrolename'] = 'ロール名がすでに登録されています。';
 $string['errorexistsroleshortname'] = 'ロール名がすでに登録されています。';
 $string['existingusers'] = '割り当て済みユーザ: $a';
@@ -104,8 +113,8 @@ $string['grade:view'] = '自分の評定を表示する';
 $string['grade:viewall'] = '他のユーザの評定を表示する';
 $string['grade:viewhidden'] = '自分の非表示の評定を表示する';
 $string['hidden'] = '非表示';
-$string['highlightedcellshowsdefault'] = '下記ハイライトされたセルは、このタイプのロールのデフォルトパーミッションを示してしています。';
-$string['highlightedcellshowsinherit'] = '下記ハイライトされたセルは、継承されるパーミッションを示してしています。あなたが実際に変更したいパーミッションとは別にして、すべてを継承のままにしてください。';
+$string['highlightedcellsshowdefault'] = '下記ハイライトされたセルは、上記「レガシーロールタイプ」をベースに、このタイプのロールのデフォルトパーミッションを示してしています。';
+$string['highlightedcellsshowinherit'] = '下記ハイライトされたセルは、継承されるパーミッションを示してしています。あなたが実際に変更したいパーミッションとは別にして、すべてを継承のままにしてください。';
 $string['inactiveformorethan'] = '$a->timeperiod 以上活動していない';
 $string['ingroup'] = 'グループ「 $a->group 」に属している';
 $string['inherit'] = '継承';

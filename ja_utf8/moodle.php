@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081117) (2008111200)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081118) (2008111801)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -631,6 +631,7 @@ $string['filemissing'] = '$a が見つかりません。';
 $string['files'] = 'ファイル';
 $string['filesfolders'] = 'ファイル/フォルダ';
 $string['filloutallfields'] = 'すべての欄に入力してください。';
+$string['filter'] = 'フィルタ';
 $string['findmorecourses'] = 'さらにコースを探す ...';
 $string['firstdayofweek'] = '0';
 $string['firstname'] = '名';
