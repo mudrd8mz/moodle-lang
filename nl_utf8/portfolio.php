@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20081121) (2008112101)
 
 
 $string['activeportfolios'] = 'Actieve portfolio\'s';
@@ -40,7 +40,6 @@ $string['failedtosendpackage'] = 'Gegevens sturen naar het geselecteerde portfol
 $string['filedenied'] = 'Toegang tot dit bestand geweigerd';
 $string['filenotfound'] = 'Bestand niet gevonden';
 $string['format_file'] = 'Bestand';
-$string['format_html'] = 'HTML';
 $string['format_image'] = 'Afbeelding';
 $string['format_mbkp'] = 'Moodle backup';
 $string['format_text'] = 'Platte tekst';
@@ -62,13 +61,7 @@ $a->textlist
 Dit zou zo snel mogelijk gecorrigeerd moeten worden op $a->fixurl.';
 $string['insanebodyhtml'] = '<p>Hallo,
 Je krijgt dit bericht als beheerder van $a->sitename.</p>
-
-<p>Sommige portfolio plugins zijn automatisch uitgeschakeld omdat ze fout geconfigureerd zijn. Dat betekent dat gebruikers hun inhoud niet naar deze portfolio\'s kunnen exporteren.</p>
-
-<p>De lijst van uitgeschakelde portfolio plugins is:</p>
-
-$a->textlist
-
+$a->htmllist
 <p>Dit zou zo snel mogelijk gecorrigeerd moeten worden op <a href=\"$a->fixurl\">de portfolio configuratiepagina\'s</a></p>.';
 $string['insanebodysmall'] = 'Hallo,
 Je krijgt dit bericht als beheerder van $a->sitename. Sommige portfolio plugins zijn automatisch uitgeschakeld omdat ze fout geconfigureerd zijn. Dat betekent dat gebruikers hun inhoud niet naar deze portfolio\'s kunnen exporteren. Dit zou zo snel mogelijk gecorrigeerd moeten worden op $a->fixurl.';
@@ -134,6 +127,7 @@ $string['unknownplugin'] = 'Onbekend (kan verwijderd zijn door de beheerder)';
 $string['wait'] = 'Wacht';
 $string['wanttowait_high'] = 'Het wordt niet aangeraden te wachten om deze transfer af te ronden, maar je kunt wachten als je zeker weet wat je doet.';
 $string['wanttowait_moderate'] = 'Wil je op deze transfer wachten? Het kan een aantal minuten duren';
+$string['format_html'] = 'HTML'; // ORPHANED
 $string['portfolionotfile'] = 'Exporteer naar een portfolio, eerder dan naar een bestand'; // ORPHANED
 
 ?>
