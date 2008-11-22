@@ -1102,7 +1102,6 @@ $string['parentcategory'] = 'Isäntäkategoria';
 $string['parentcoursenotfound'] = 'Isäntäkurssia ei löytynyt!';
 $string['parentcoursenotmetacourse'] = 'Isäntäkurssi ei ole metakurssi!';
 $string['parentfolder'] = 'Yläkansio';
-$string['parentlanguage'] = 'fi_alkup';
 $string['participants'] = 'Osallistujat';
 $string['participationratio'] = 'Osallistumissuhde';
 $string['participationreport'] = 'Osallistumisraportti';
