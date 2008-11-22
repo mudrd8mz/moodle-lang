@@ -58,7 +58,7 @@ $string['disallowsubscribe'] = 'Tilauksia ei sallita';
 $string['disallowsubscribeteacher'] = 'Tilauksia ei sallita (muuta kuin opettajille)';
 $string['discussion'] = 'Keskustelu';
 $string['discussionmoved'] = 'Tämä keskustelu on siirretty paikkaan \'$a\'';
-$string['discussionmovedpost'] = 'Tämä keskustelu on siirretty <a href=\"$a->discusshref\">tänne</a> keskustelualueella <a href=\"$a->forumref\">$a->forumname</a>';
+$string['discussionmovedpost'] = 'Tämä keskustelu on siirretty <a href=\"$a->discusshref\">tänne</a> keskustelualueella <a href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'Keskustelun nimi';
 $string['discussions'] = 'Keskustelut';
 $string['discussionsstartedby'] = 'Keskustelun on aloittanut $a';

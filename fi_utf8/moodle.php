@@ -1119,7 +1119,7 @@ $string['passwordsent'] = 'Salasana on lähetetty';
 $string['passwordsenttext'] = '<p>Viesti on lähetetty osoitteeseen: $a->email.</p>
    <p><b>Tarkista viestistä uusi salasanasi.</b></p>
    <p>Uusi salasana on automaattisesti generoitu, joten haluat luultavasti
-   <a href=\"$a\"->link>vaihtaa sen joksikin helpommin muistettavaksi</a>.</p>';
+   <a href=\"$a->link\">vaihtaa sen joksikin helpommin muistettavaksi</a>.</p>';
 $string['pathnotexists'] = 'Polkua ei löydy palvelimelta';
 $string['pathslasherror'] = 'Polku ei voi päättyä kauttaviivaan \"/\"!';
 $string['paymentinstant'] = 'Klikkaa painiketta maksaaksesi kurssista ja rekisteröityäksesi kurssille.';
