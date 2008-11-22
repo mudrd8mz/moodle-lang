@@ -1119,7 +1119,7 @@ $string['passwordextlink'] = 'Le lien ci-dessous a été mis en place pour vous 
 $string['passwordforgotten'] = 'Mot de passe oublié';
 $string['passwordforgotteninstructions'] = 'Les informations vous concernant doivent d\'abord être trouvées dans la base de données. Veuillez saisir <strong>soit</strong> votre nom d\'utilisateur, soit votre adresse de courriel dans le champ adéquat. Il n\'est pas nécessaire de saisir les deux.';
 $string['passwordnohelp'] = 'Aucune aide n\'est disponible pour retrouver votre mot de passe perdu. Veuillez contacter l\'administrateur de ce Moodle.';
-$string['passwordrecovery'] = 'Oui, j\'ai besoin d\'aide pour me connecter';
+$string['passwordrecovery'] = 'Récupérer mon mot de passe';
 $string['passwordsdiffer'] = 'Les mots de passe ne correspondent pas';
 $string['passwordsent'] = 'Le mot de passe a été envoyé';
 $string['passwordsenttext'] = '<p>Un message vous a été envoyé à cette adresse&nbsp;: $a->email.</p><p><strong>Merci de lire ce message afin de connaître votre nouveau mot de passe</strong></p><p>Ce nouveau mot de passe a été généré automatiquement. Vous voudrez sans doute le <a href=\"$a->link\">modifier</a> afin qu\'il vous soit plus facile de vous en souvenir.</p>';
@@ -1232,7 +1232,7 @@ $string['restorefinished'] = 'Restauration réussie';
 $string['restoreto'] = 'Restaurer vers';
 $string['restricted'] = 'Interdit';
 $string['restrictmodules'] = 'Restreindre des modules&nbsp;?';
-$string['returningtosite'] = 'Déjà inscrit ?';
+$string['returningtosite'] = 'Vous possédez déjà un compte&nbsp;?';
 $string['revert'] = 'Version précédente';
 $string['role'] = 'Rôle';
 $string['rolemappings'] = 'Application des rôles';
