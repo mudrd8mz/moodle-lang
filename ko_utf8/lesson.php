@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20081122) (2008112101)
 
 
 $string['accesscontrol'] = '접근 제한';
@@ -135,6 +135,7 @@ $string['essayemailmessage'] = '<p>서술형 문항:<blockquote>$a->question</bl
 <p>$a->teacher 의 평:<blockquote><em>$a->comment</em></blockquote></p>
 <p>이 논술에서 $a->outof 중 $a->earned 을 얻었습니다.</p>
 <p>학습에 대한 성적은 $a->newgrade%% 로 변경되었습니다.</p>';
+$string['essayemailmessage2'] = '<p>서술형 문항:<blockquote>$a->question</blockquote></p> <p>여러분의 답:<blockquote><em>$a->response</em></blockquote></p> <p>채점자의 평:<blockquote><em>$a->comment</em></blockquote></p> <p>이 논술에서 $a->outof 중 $a->earned 을 얻었습니다.</p> <p>학습에 대한 성적은 $a->newgrade%% 로 변경되었습니다.</p>';
 $string['essayemailsubject'] = '$a 질문에 대한 성적';
 $string['essays'] = '서술내용';
 $string['essayscore'] = '서술문항 점수';
@@ -179,6 +180,7 @@ $string['lessondefault'] = '이 환경 설정을 기본틀로 씀';
 $string['lessonformating'] = '완전 학습 형태';
 $string['lessonmenu'] = '완전 학습 메뉴';
 $string['lessonnotready'] = '이 학습은 진행할 수 없습니다. $a 에게 연락하기 바랍니다.';
+$string['lessonnotready2'] = '이 학습은 진행할 수 없습니다.';
 $string['lessonopen'] = '이 학습과정은 $a 에 열릴 것입니다.';
 $string['lessonopens'] = '완전 학습 시작';
 $string['lessonpagelinkingbroken'] = '학습의 시작 페이지가 발견되지 않습니다. 학습의 연결 고리가 끊어졌을 수 있습니다. 관리자에게 연락하십시요.';
@@ -270,6 +272,7 @@ $string['previouspage'] = '앞 페이지';
 $string['processerror'] = '처리 과정에서 오류 발생!';
 $string['progressbar'] = '진척상황막대';
 $string['progressbarteacherwarning'] = '$a 에 대해서는 진척상황막대가 보이지 않음';
+$string['progressbarteacherwarning2'] = '본 학습을 편집할 수 있으므로 진척상황막대는 볼 수 없음';
 $string['qtype'] = '문항 유형';
 $string['question'] = '질문';
 $string['questionoption'] = '질문 옵션';
@@ -283,6 +286,7 @@ $string['redisplaypage'] = '페이지 다시 보기';
 $string['report'] = '보고';
 $string['reports'] = '보고서';
 $string['response'] = '반응';
+$string['retakesallowed'] = '재시도 허용됨';
 $string['returnto'] = '$a로 돌아가기';
 $string['returntocourse'] = '강좌로 돌아가기';
 $string['review'] = '검토';
@@ -334,6 +338,7 @@ $string['usepassword'] = '암호로 보호된 학습';
 $string['viewgrades'] = '점수 보기';
 $string['viewhighscores'] = '고득점 목록 보기';
 $string['viewreports'] = '$a->attempts 회 마친 $a->student 의 결과 보기';
+$string['viewreports2'] = '완료된 $a 시도 보기';
 $string['welldone'] = '잘했어요!';
 $string['whatdofirst'] = '처음에 무엇을 하길 원합니까?';
 $string['wronganswerjump'] = '오답의 경우 이동할 곳';
