@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20081009) (2008100801)
+      // repository.php - created with Moodle 2.0 dev (Build: 20081121) (2008112101)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -80,7 +80,7 @@ $string['saveas'] = '名前を付けて保存する';
 $string['saved'] = '保存されました。';
 $string['saving'] = '保存';
 $string['search'] = '検索';
-$string['searching'] = '何を検索していますか?';
+$string['searching'] = '検索:';
 $string['settings'] = '設定';
 $string['siteinstances'] = 'サイトのリポジトリインスタンス';
 $string['size'] = 'サイズ';

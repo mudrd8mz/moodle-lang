@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081121) (2008112101)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -656,6 +656,7 @@ $string['recaptchapublickey'] = 'reCAPTCHAパブリックキー';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_blank\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、言語パックを自動的にインストールできません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
+$string['requiredentrieschanged'] = '<strong>重要- お読みください</strong><br/>バグ修正のため、「必須エントリ数」および「閲覧前に必要な入力エントリ数」設定は変更されます。この変更に関する詳細は、<a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\">データベースモジュールフォーラム</a> および <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\">Moodle Docs</a>でご覧いただけます。この変更は、あなたのシステムの以下のデータベースに影響があります: (このリストを保存して、アップグレード後、教師が意図するように動作するのか確認してください)<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = '必須です。あなたはここでテンプレート構文 (%%l = 姓、%%f = 名、%%u = ユーザ名) を使用することができます。詳細および例に関して、ヘルプをご覧ください。';
 $string['requires'] = '必要条件';
 $string['restrictbydefault'] = 'モジュールをデフォルトで制限する';
