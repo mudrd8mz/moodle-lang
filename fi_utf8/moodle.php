@@ -463,7 +463,7 @@ Vahvistaaksesi käyttäjätunnuksen itsellesi mene selaimellasi osoitteeseen
 
   $a->link
 
-Useimmissa postiohjelmissa sinun tarvitsee vain klikata ylläolevaa linkkiä.
+Useimmissa postiohjelmissa sinun tarvitsee vain napsauttaa ylläolevaa linkkiä.
 Jos tämä ei toimi, kopioi ja liitä osoite selaimen osoitekenttään.
 
 Terveisin \'$a->sitename\' pääkäyttäjä,
@@ -995,7 +995,7 @@ Uusi tunnuksesi ja salasanasi ovat seuraavat:
 Käytä alla olevaa linkkiä vaihtaaksesi salasanasi:
    $a->link
 
-Useimmissa postiohjelmissa sinun tarvitsee vain klikata ylläolevaa linkkiä.
+Useimmissa postiohjelmissa sinun tarvitsee vain napsauttaa ylläolevaa linkkiä.
 Jos tämä ei toimi, kopioi ja liitä osoite selaimen osoitekenttään.
 
 Terveisin \'$a->sitename\' pääkäyttäjä,
@@ -1121,7 +1121,7 @@ $string['passwordsenttext'] = '<p>Viesti on lähetetty osoitteeseen: $a->email.<
    <a href=\"$a->link\">vaihtaa sen joksikin helpommin muistettavaksi</a>.</p>';
 $string['pathnotexists'] = 'Polkua ei löydy palvelimelta';
 $string['pathslasherror'] = 'Polku ei voi päättyä kauttaviivaan \"/\"!';
-$string['paymentinstant'] = 'Klikkaa painiketta maksaaksesi kurssista ja rekisteröityäksesi kurssille.';
+$string['paymentinstant'] = 'Napsauta painiketta maksaaksesi kurssista ja rekisteröityäksesi kurssille.';
 $string['paymentpending'] = '(<small><b><u>$a</u></b> odottaa</small>)';
 $string['paymentrequired'] = 'Tämä kurssi vaatii osallistumismaksun.';
 $string['payments'] = 'Maksut';

@@ -1,7 +1,7 @@
 <?PHP // $Id$
 $string['addcontact'] = 'Lisää kontakti';
 $string['addsomecontacts'] = 'Käytä <a href=\"$a\">hakutoimintoa</a> lähettääksesi viestin jollekin, tai lisätäksesi heidät tälle sivulle.';
-$string['addsomecontactsincoming'] = 'Nämä viestit ovat henkilöiltä, jotka eivät ole kontaktilistallasi. Lisätäksesi heidät kontakteihin klikkaa \"Lisää kontakti\" -kuvaketta nimen perässä.';
+$string['addsomecontactsincoming'] = 'Nämä viestit ovat henkilöiltä, jotka eivät ole kontaktilistallasi. Lisätäksesi heidät kontakteihin napsauta \"Lisää kontakti\" -kuvaketta nimen perässä.';
 $string['ago'] = '$a sitten';
 $string['allmine'] = 'Kaikki viestit minulta tai minulle';
 $string['allstudents'] = 'Kaikki viestit kurssin opiskelijoiden kesken';
