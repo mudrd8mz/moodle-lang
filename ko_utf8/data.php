@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080814) (2008081200)
+      // data.php - created with Moodle 2.0 dev (Build: 20081125) (2008112400)
 
 
 $string['action'] = '실행';
@@ -32,10 +32,8 @@ $string['cannotaccesspresentsother'] = '다른 사용자가 설정사항 접근�
 $string['cannotadd'] = '입력내용을 추가할 수 없음!';
 $string['cannotdeletepreset'] = '설정사항 삭제 오류!';
 $string['cannotinsertempty'] = '빈 자료를 만들 수 없음!';
-$string['cannotinsertrate'] = '새 등수 ($a[0] = $a[1])를 기입할 수 없음';
 $string['cannotrate'] = '항목에 등위를 매길 수 없음!';
 $string['cannotunziptopreset'] = '지정된 경로에 풀어넣을 수 없음';
-$string['cannotupdaterate'] = '예전 등위 ($a[0] = $a[1])를 갱신할 수 없음';
 $string['checkbox'] = '체크박스';
 $string['chooseexportfields'] = '내보낼 필드 선택:';
 $string['chooseexportformat'] = '내보낼 형식 선택:';
@@ -93,6 +91,7 @@ $string['emptyadd'] = '이 추가 템플릿은 비어 있습니다. 기본 템�
 $string['emptyaddform'] = '어떤 항목도 기입하지 않았습니다!';
 $string['entries'] = '입력 내용';
 $string['entrieslefttoadd'] = '다른 참석자의 입력 내용을 살펴보려면, 그 전에 $a 항목 이상을 입력해야만 합니다.';
+$string['entrieslefttoaddtoview'] = '다른 참여자의 내용을 보기 전에 $a->entrieslefttoview 항목을 더 추가해야만 합니다.';
 $string['entry'] = '입력 내용';
 $string['entrysaved'] = '입력 내용이 저장되었습니다.';
 $string['errormustbeteacher'] = '교수자만 이 페이지를 사용할 수 있습니다.';
@@ -277,6 +276,8 @@ $string['usestandard'] = '초기설정 사용';
 $string['viewfromdate'] = '이후 볼 수 있음';
 $string['viewtodate'] = '까지 볼 수 있음';
 $string['wrongdataid'] = '잘못된 데이터 아이디가 제공되었음';
+$string['cannotinsertrate'] = '새 등수 ($a[0] = $a[1])를 기입할 수 없음'; // ORPHANED
+$string['cannotupdaterate'] = '예전 등위 ($a[0] = $a[1])를 갱신할 수 없음'; // ORPHANED
 $string['invaliddata'] = '틀린 자료'; // ORPHANED
 
 ?>
