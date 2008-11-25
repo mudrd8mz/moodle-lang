@@ -512,6 +512,7 @@ $string['mediapluginrpm'] = '.rpmフィルタを有効にする';
 $string['mediapluginswf'] = '.swfフィルタを有効にする';
 $string['mediapluginswfnote'] = 'デフォルトのセキュリティ対策として、通常のユーザがswfフラッシュファイルを埋め込むことは許可されていません。';
 $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
+$string['mediapluginyoutube'] = 'YouTubeリンクフィルタを有効にする';
 $string['memcachedhosts'] = 'memcachedホスト';
 $string['memcachedpconn'] = 'memcachedが持続的接続を使用する';
 $string['messaging'] = 'メッセージングシステムを有効にする';
