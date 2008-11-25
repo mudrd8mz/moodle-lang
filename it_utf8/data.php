@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20081028) (2008101300)
+      // data.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
 
 
 $string['action'] = 'Azione';
@@ -200,7 +200,7 @@ $string['radiobutton'] = 'Pulsante radio';
 $string['rate'] = 'Valuta';
 $string['rating'] = 'Valutazione';
 $string['ratingeveryone'] = 'Tutti possono valutare gli inserimenti di record';
-$string['ratingno'] = 'Nessuna valutazione';
+$string['ratingno'] = 'Senza valutazione';
 $string['ratingonlyteachers'] = 'Solo <strong>$a</strong> può valutare gli inserimenti di record';
 $string['ratingpublic'] = '<strong>$a</strong> può visualizzare le valutazioni di tutti gli altri';
 $string['ratingpublicnot'] = '<strong>$a</strong> può visualizzare solo le proprie valutazioni';

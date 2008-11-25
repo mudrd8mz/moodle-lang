@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20081117) (2008111200)
+      // completion.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
 
 
 $string['activitycompletion'] = 'Stato di avanzamento attività';
@@ -10,9 +10,9 @@ $string['completedwarning'] = 'Opzioni di completamento bloccate';
 $string['completedwarningtext'] = 'Uno o più utenti ($a) hanno già indicato questa attività come completata. La modifica delle opzioni di completamento eliminerà il loro stato e potrà creare confusione. Le opzioni sono state bloccate e raccomandiamo di non sbloccarle se non strettamente necessario.';
 $string['completion'] = 'Traccia stato di avanzamento';
 $string['completion-alt-auto-enabled'] = 'Il sistema indica automaticamente questa attività come completata secondo le condizioni specificate';
-$string['completion-alt-auto-fail'] = 'Completato senza superare la valutazione minima prevista';
+$string['completion-alt-auto-fail'] = 'Completato senza raggiungere la sufficienza';
 $string['completion-alt-auto-n'] = 'Non completato';
-$string['completion-alt-auto-pass'] = 'Completato superando la valutazione minima prevista';
+$string['completion-alt-auto-pass'] = 'Completato superando la sufficienza';
 $string['completion-alt-auto-y'] = 'Completato';
 $string['completion-alt-manual-enabled'] = 'Gli utenti possono spuntare manualmente l\'elemento per indicarlo come completato';
 $string['completion-alt-manual-n'] = 'Non completato; seleziona per indicare come completato';
@@ -21,7 +21,7 @@ $string['completion-title-manual-n'] = 'Segna come completato';
 $string['completion-title-manual-y'] = 'Segna come non completato';
 $string['completion_automatic'] = 'Mostra l\'attività come completata se sono soddisfatte le condizioni seguenti';
 $string['completion_manual'] = 'Gli utenti possono spuntare manualmente l\'attività per indicarla come completata';
-$string['completion_none'] = 'Non mostrare lo stato di avanzamento';
+$string['completion_none'] = 'Non tracciare lo stato di avanzamento';
 $string['completiondisabled'] = 'Disabilitato, non mostrato nelle impostazioni attività';
 $string['completionenabled'] = 'Abilitato, controllato nelle impostazioni attività';
 $string['completionexpected'] = 'Completamento atteso entro il';

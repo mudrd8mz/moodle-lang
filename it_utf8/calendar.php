@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // calendar.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
 
 
 $string['advancedoptions'] = 'Opzioni avanzate';
@@ -9,16 +9,16 @@ $string['calendarheading'] = '$a Calendario';
 $string['clickhide'] = 'clicca per nascondere';
 $string['clickshow'] = 'clicca per mostrare';
 $string['commontasks'] = 'Opzioni';
-$string['confirmeventdelete'] = 'Sei sicuro di voler cancellare questo evento?';
+$string['confirmeventdelete'] = 'Sei sicuro di voler eliminare questo evento?';
 $string['course'] = 'Corso';
 $string['courseevent'] = 'Evento di corso';
-$string['courseevents'] = 'Eventi del corso';
+$string['courseevents'] = 'Eventi di corso';
 $string['courses'] = 'Corsi';
 $string['dayview'] = 'Vista gionaliera';
 $string['daywithnoevents'] = 'Non ci sono eventi questo giorno';
-$string['default'] = 'Impostazione base';
-$string['deleteevent'] = 'Cancella evento';
-$string['deleteevents'] = 'Cancella eventi';
+$string['default'] = 'Default';
+$string['deleteevent'] = 'Elimina evento';
+$string['deleteevents'] = 'Elimina eventi';
 $string['detailedmonthview'] = 'Vista mensile dettagliata';
 $string['durationminutes'] = 'Durata in minuti';
 $string['durationnone'] = 'Senza durata';
@@ -41,7 +41,7 @@ $string['eventnone'] = 'Nessun evento';
 $string['eventrepeat'] = 'Ripetizioni';
 $string['eventsall'] = 'Tutti gli eventi';
 $string['eventsfor'] = 'Eventi di $a';
-$string['eventskey'] = 'Eventi';
+$string['eventskey'] = 'Filtra Eventi';
 $string['eventsrelatedtocourses'] = 'Eventi relativi al corso';
 $string['eventstarttime'] = 'Ora d\'inizio';
 $string['eventtime'] = 'Ora';
@@ -62,7 +62,7 @@ $string['friday'] = 'Venerdì';
 $string['generateurlbutton'] = 'URL del calendario';
 $string['global'] = 'Globali';
 $string['globalevent'] = 'Evento globale';
-$string['globalevents'] = 'Eventi generali';
+$string['globalevents'] = 'Eventi globali';
 $string['gotocalendar'] = 'Vai al calendario';
 $string['group'] = 'Gruppo';
 $string['groupevent'] = 'Evento di gruppo';
@@ -91,7 +91,7 @@ $string['recentupcoming'] = 'Recenti e dei prossimi 60 giorni';
 $string['repeateditall'] = 'Applica cambiamenti a tutti gli $a eventi in queste serie ripetute';
 $string['repeateditthis'] = 'Applica cambiamenti solo per questo evento';
 $string['repeatnone'] = 'Senza ripetizioni';
-$string['repeatweeksl'] = 'Ripeti settimanalmente, creandoli tutti insieme';
+$string['repeatweeksl'] = 'Ripeti settimanalmente, creando';
 $string['repeatweeksr'] = 'eventi';
 $string['sat'] = 'Sab';
 $string['saturday'] = 'Sabato';
@@ -105,7 +105,7 @@ $string['timeformat_12'] = '12 ore (am/pm)';
 $string['timeformat_24'] = '24 ore';
 $string['today'] = 'Oggi';
 $string['tomorrow'] = 'Domani';
-$string['tt_deleteevent'] = 'Cancella evento';
+$string['tt_deleteevent'] = 'Elimina evento';
 $string['tt_editevent'] = 'Modifica evento';
 $string['tt_hidecourse'] = 'Eventi corso mostrati (clicca per nascondere)';
 $string['tt_hideglobal'] = 'Eventi generali mostrati (clicca per nascondere)';
@@ -117,9 +117,9 @@ $string['tt_showgroups'] = 'Eventi gruppo nascosti (clicca per mostrare)';
 $string['tt_showuser'] = 'Eventi utente nascosti (clicca per mostrare)';
 $string['tue'] = 'Mar';
 $string['tuesday'] = 'Martedì';
-$string['typecourse'] = 'Evento del corso';
+$string['typecourse'] = 'Evento di corso';
 $string['typegroup'] = 'Evento di gruppo';
-$string['typesite'] = 'Evento del sito';
+$string['typesite'] = 'Evento globale';
 $string['typeuser'] = 'Evento dell\'utente';
 $string['upcomingevents'] = 'Prossimi eventi';
 $string['urlforical'] = 'URL di esportazione di iCalendar, per l\'iscrizione al calendario';
@@ -131,6 +131,6 @@ $string['wednesday'] = 'Mercoledì';
 $string['weeknext'] = 'Prossima settimana';
 $string['weekthis'] = 'Questa settimana';
 $string['yesterday'] = 'Ieri';
-$string['youcandeleteallrepeats'] = 'Questo evento è parte di una serie di eventi ripetuti. Potete cancellare solo questo evento, oppure tutti gli $a eventi in questa serie in un colpo solo.';
+$string['youcandeleteallrepeats'] = 'Questo evento è parte di una serie di eventi ripetuti. Potete eliminare solo questo evento, oppure tutti gli $a eventi in questa serie in un colpo solo.';
 
 ?>

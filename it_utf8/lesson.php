@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
 
 
 $string['accesscontrol'] = 'Controllo accesso';
@@ -157,8 +157,8 @@ $string['maxtimewarning'] = 'Hai $a minuto(i) per terminare la lezione.';
 $string['mediaclose'] = 'Mostra il pulsante chiudi:';
 $string['mediafile'] = 'Pop-up per file o pagina web';
 $string['mediafilepopup'] = 'Clicca qui per vedere i media file di questa lezione.';
-$string['mediaheight'] = 'Altezza finestra:';
-$string['mediawidth'] = 'larghezza:';
+$string['mediaheight'] = 'Altezza finestra';
+$string['mediawidth'] = 'Larghezza';
 $string['minimumnumberofquestions'] = 'Numero minimo di domande';
 $string['missingname'] = 'Inserisci uno pseudonimo';
 $string['modattempts'] = 'Possibilità  di revisione della lezione';

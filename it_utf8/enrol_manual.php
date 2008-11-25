@@ -1,15 +1,15 @@
 <?PHP // $Id$ 
-      // enrol_manual.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // enrol_manual.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
 
 
-$string['description'] = 'Questo è il metodo di iscrizione di default. Ci sono due modalità di base attraverso cui uno studente può essere iscritto ad un dato corso.
+$string['description'] = 'L\'Iscrizione interna è il metodo di iscrizione di default. Questo metodo abilita le due modalità di base per iscrivere gli studenti ai corsi.
 <ul>
 <li>Un docente o un amministratore può iscrivere manualmente uno studente utilizzando il link Ruoli presente nel menu di Amministrazione del corso.</li>
-<li>In un corso è possibile impostare una password detta \"chiave di iscrizione\". Tutti coloro che sono a conoscenza della chiave di iscrizione possono iscriversi al corso.</li>
+<li>Un corso può avere una \"chiave di iscrizione\". Tutti coloro che sono a conoscenza della chiave di iscrizione possono iscriversi autonomamente al corso.</li>
 </ul>';
-$string['enrol_manual_showhint'] = 'Abilita questa impostazione per mostrare come suggerimento il primo carattere della chiave di iscrizione a coloro che inseriscono una chiave errata.';
-$string['enrolmentkeyerror'] = 'La chiave di iscrizione non è corretta, per favore provate di nuovo.';
+$string['enrol_manual_showhint'] = 'Abilitando questa impostazione, allo studente che tentando di iscriversi ad un corso abbia inserito una chiave di iscrizione errata, sarà mostrato il primo carattere della chiave di iscrizione corretta.';
+$string['enrolmentkeyerror'] = 'La chiave di iscrizione è errata, per favore inseritela di nuovo.';
 $string['enrolname'] = 'Iscrizione interna';
-$string['keyholderrole'] = 'Ruolo dell\'utente che detiene la chiave di iscrizione del corso. Tale ruolo viene mostrato agli studenti che desiderano iscriversi al corso.';
+$string['keyholderrole'] = 'Ruolo dell\'utente che gestisce la chiave di iscrizione al corso. Il nominativo dell\'utente che ricopre questo ruolo sarà mostrato agli studenti che desiderano iscriversi al corso.';
 
 ?>

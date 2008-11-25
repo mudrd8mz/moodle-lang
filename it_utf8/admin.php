@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081119) (2008111801)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -249,7 +249,7 @@ $string['configshowblocksonmodpages'] = 'Alcuni moduli supportano l\'inserimento
 $string['configshowsiteparticipantslist'] = 'Tutti gli studenti di questo sito e i docenti del sito saranno mostrati nella lista dei partecipanti. Chi è abilitato a visualizzare la lista dei partecipanti di questo sito?';
 $string['configsitemailcharset'] = 'Tutte le email generate dal vostro sito saranno inviate utilizzando il set di caratteri impostato qui. Comunque ogni utente può personalizzarlo se è abilitata la prossima impostazione.';
 $string['configsitepolicy'] = 'Se si dispone di una politica del sito (modalità  di utilizzo) che tutti gli utenti devono leggere e sottoscrivere prima di utilizzare il sito, specificarne qui l\'indirizzo (URL), altrimenti lasciare in bianco. L\'URL può puntare ad un indirizzo qualsiasi, ma si consiglia di riferirlo ad un file presente sul sito. Per esempio, http://tuosito/file.php/1/policy.html';
-$string['configslasharguments'] = 'I files (immagini, uploads ecc) vengono distribuiti mediante uno script che utilizza gli \'slash arguments\' (la seconda opzione a fianco). 
+$string['configslasharguments'] = 'I file (immagini, upload, ecc) vengono distribuiti mediante uno script che utilizza gli \'slash arguments\' (la seconda opzione a fianco). 
 Questo metodo permette una migliore gestione dei files nella cache del browser o del proxy server.
 Sfortunatamente alcuni server PHP non autorizzano questo metodo, perciò se avete problemi nel visualizzare files e/o immagini trasferiti (ad esempio le immagini del profilo utente), impostate la variabile con la prima opzione.';
 $string['configsmartpix'] = 'Con questa impostazione, le icone sono gestite tramite uno script PHP che le cerca prima nel tema grafico corrente, poi in tutti i temi a livello superiore i quindi nella cartella di Moodle /pix. Questo riduce il bisogno di duplicare le immagini all\'interno dei temi, anche se con un piccolo costo di performance.';
@@ -548,7 +548,7 @@ $string['mysql416required'] = 'MySQL 4.1.16 è la versione minima richiesta per 
 $string['nobookmarksforuser'] = 'Non hai alcun segnalibro';
 $string['nochanges'] = 'Nessun cambiamento';
 $string['nodatabase'] = 'Nessun database';
-$string['nolangupdateneeded'] = 'Tutti i language pack sono aggiornati, non sono necessari aggiornamenti';
+$string['nolangupdateneeded'] = 'Tutti i language pack sono aggiornati, non sono necessari ulteriori aggiornamenti';
 $string['nomissingstrings'] = 'Nessuna stringa mancante';
 $string['nonewsettings'] = 'Non sono state aggiunte nuove impostazioni in questo aggiornamento';
 $string['nonexistentbookmark'] = 'Il segnalibro richiesto non esiste';
@@ -596,32 +596,32 @@ $string['profilecategory'] = 'Categoria';
 $string['profilecategoryname'] = 'Nome categoria (deve essere unico)';
 $string['profilecategorynamenotunique'] = 'Nome categoria già in uso';
 $string['profilecommonsettings'] = 'Impostazioni comuni';
-$string['profileconfirmcategorydeletion'] = 'Ci sono $a campi in questa categoria che saranno spostati nella categoria superiore (o inferiore se nella categoria top).<br/>Vuoi proprio elimianre questa categoria?';
-$string['profileconfirmfielddeletion'] = 'Ci sono $a record utente per questo campo che saranno eliminati.<br/>Vuoi proprio eliminare questo campo?';
-$string['profilecreatecategory'] = 'Crea una nuova categoria profilo';
-$string['profilecreatefield'] = 'Crea un nuovo campo profilo:';
-$string['profilecreatenewcategory'] = 'Creazione di una nuova categoria';
-$string['profilecreatenewfield'] = 'Creazione di un nuovo campo profilo \"$a\"';
+$string['profileconfirmcategorydeletion'] = 'Questa categoria contiene $a campo/i. Eliminando la categoria, i campi saranno spostati nella categoria immediatamente superiore (oppure in quella immediatamente inferiore se state eliminando la categoria nella posizione più alta).<br/>Siete certi di voler eliminare questa categoria?';
+$string['profileconfirmfielddeletion'] = 'Sono presenti $a record che contengono valori per questo campo. Eliminando il campo questi i valori saranno perduti.<br/>Siete certi di voler eliminare questo campo?';
+$string['profilecreatecategory'] = 'Crea una categoria per i campi personalizzati';
+$string['profilecreatefield'] = 'Crea un campo personalizzato:';
+$string['profilecreatenewcategory'] = 'Creazione di una categoria per i campi personalizzati';
+$string['profilecreatenewfield'] = 'Creazione di un nuovo campo personalizzato \"$a\"';
 $string['profiledefaultcategory'] = 'Altri campi';
-$string['profiledefaultchecked'] = 'Selezionato per default';
+$string['profiledefaultchecked'] = 'Questo campo Checkbox per default è spuntato';
 $string['profiledefaultdata'] = 'Valore di default';
 $string['profiledeletecategory'] = 'Eliminazione di una categoria';
 $string['profiledeletefield'] = 'Eliminazione di un campo';
 $string['profiledescription'] = 'Descrizione del campo';
 $string['profileeditcategory'] = 'Modifica categoria: $a';
-$string['profileeditfield'] = 'Modifica campo profilo: $a';
-$string['profilefield'] = 'Campo profilo';
+$string['profileeditfield'] = 'Modifica campo personalizzato: $a';
+$string['profilefield'] = 'Campo personalizzato';
 $string['profilefieldcolumns'] = 'Colonne';
 $string['profilefieldispassword'] = 'E\' un campo password?';
-$string['profilefieldmaxlength'] = 'Lunghezza massima';
+$string['profilefieldmaxlength'] = 'Numero massimo caratteri';
 $string['profilefieldrows'] = 'Righe';
 $string['profilefields'] = 'Campi personalizzati';
-$string['profilefieldsize'] = 'Dimensione display';
+$string['profilefieldsize'] = 'Numero caratteri visualizzati';
 $string['profilefieldtypecheckbox'] = 'Checkbox';
-$string['profilefieldtypemenu'] = 'Menu di scelte';
-$string['profilefieldtypetext'] = 'Testo';
-$string['profilefieldtypetextarea'] = 'Area testo';
-$string['profileforceunique'] = 'I dati devono essere unici?';
+$string['profilefieldtypemenu'] = 'Menu a discesa';
+$string['profilefieldtypetext'] = 'Riga di testo';
+$string['profilefieldtypetextarea'] = 'Area di testo';
+$string['profileforceunique'] = 'I dati devono essere univoci?';
 $string['profileinvaliddata'] = 'Valore non valido';
 $string['profilelocked'] = 'Campo bloccato?';
 $string['profilemenudefaultnotinoptions'] = 'Il valore default non è una delle opzioni';
@@ -629,11 +629,11 @@ $string['profilemenunooptions'] = 'Nessuna opzione menu inserita';
 $string['profilemenuoptions'] = 'Opzioni menu (una per riga)';
 $string['profilemenutoofewoptions'] = 'Devi inserire almeno 2 opzioni';
 $string['profilename'] = 'Nome';
-$string['profilenofieldsdefined'] = 'Nessun campo è stato definito';
+$string['profilenofieldsdefined'] = 'Non ci sono campi personalizzati';
 $string['profilerequired'] = 'Campo obbligatorio?';
 $string['profileshortname'] = 'Nome breve (deve essere unico)';
 $string['profileshortnamenotunique'] = 'Nome breve già in uso';
-$string['profilesignup'] = 'Mostra sulla pagina di signup?';
+$string['profilesignup'] = 'Da compilare nella pagina di creazione account?';
 $string['profilespecificsettings'] = 'Impostazioni specifiche';
 $string['profilevisible'] = 'A chi è visibile il campo?';
 $string['profilevisibleall'] = 'Visibile a tutti';
@@ -763,6 +763,7 @@ $string['upgradesure'] = 'I file di Moodle sono modificati, e si sta per aggiorn
 <p><b>$a</b></p>
 <p>Una volta effettuato questo non è possibile tornare indietro.</p>
 <p>Siete sicuri di voler aggiornare questo server a questa versione?</p>';
+$string['upgradetimedout'] = 'L\'upgrade è andato in timeout. Per favore riavviate l\'upgrade.';
 $string['upgradingdata'] = 'Aggiornamento dei dati';
 $string['upgradinglogs'] = 'Aggiornamento dei log';
 $string['uploadpicture_baduserfield'] = 'L\'attributo utente specificato non è valido. Provare ancora.';
@@ -776,7 +777,7 @@ $string['uploadpicture_userfield'] = 'Identificativo utente da utilizzare per fa
 $string['uploadpicture_usernotfound'] = 'Utente con un valore di \'$a->uservalue\' per \'$a->userfield\' non esiste. Saltato.';
 $string['uploadpicture_userskipped'] = 'Saltato utente $a (ha già un\'immagine).';
 $string['uploadpicture_userupdated'] = 'Immagine per l\'utente $a caricata.';
-$string['uploadpictures'] = 'Immagini utente';
+$string['uploadpictures'] = 'Importa immagini utenti';
 $string['uploaduserspreview'] = 'Anteprima caricamento utenti';
 $string['uploadusersresult'] = 'Risultati caricamento utenti';
 $string['upwards'] = 'ed oltre';

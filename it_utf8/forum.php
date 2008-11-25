@@ -1,18 +1,18 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20081117) (2008111200)
+      // forum.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
 $string['addanewquestion'] = 'Aggiungi nuova domanda';
 $string['addanewtopic'] = 'Aggiungi nuovo argomento';
 $string['advancedsearch'] = 'Ricerca avanzata';
-$string['aggregateavg'] = 'Media dei punteggi';
-$string['aggregatecount'] = 'Numero di punteggi';
-$string['aggregatemax'] = 'Punteggio massimo';
-$string['aggregatemin'] = 'Punteggio minimo';
-$string['aggregatenone'] = 'Nessun punteggio';
-$string['aggregatesum'] = 'Somma dei punteggi';
-$string['aggregatetype'] = 'Tipo di aggregazione';
+$string['aggregateavg'] = 'Media dei voti';
+$string['aggregatecount'] = 'Numero di voti';
+$string['aggregatemax'] = 'Voto massimo';
+$string['aggregatemin'] = 'Voto minimo';
+$string['aggregatenone'] = 'Non aggregare i voti';
+$string['aggregatesum'] = 'Somma dei voti';
+$string['aggregatetype'] = 'Aggregazione dei voti';
 $string['allforums'] = 'Tutti i forum';
 $string['allowchoice'] = 'Permetti a ognuno di scegliere';
 $string['allowdiscussions'] = 'Possibilità di un(o) $a di scrivere in questo forum';
@@ -164,7 +164,7 @@ $string['markreadbutton'] = 'Segna come <br/> letto';
 $string['markunread'] = 'Segna come non letto';
 $string['markunreadbutton'] = 'Segna come <br/> non letto';
 $string['maxattachments'] = 'Numero massimo allegati';
-$string['maxattachmentsize'] = 'Dimensione massima dell\'allegato';
+$string['maxattachmentsize'] = 'Dimensione massima degli allegati';
 $string['maxtimehaspassed'] = 'Spiacenti ma il tempo massimo concesso per modificare questo intervento ($a) è trascorso!';
 $string['message'] = 'Messaggio';
 $string['missingsearchterms'] = 'I seguenti termini di ricerca si presentano soltanto nel marcatore HTML di questo messaggio:';
@@ -177,6 +177,7 @@ $string['modulenameplural'] = 'Forum';
 $string['more'] = 'leggi';
 $string['movedmarker'] = 'Spostato';
 $string['movethisdiscussionto'] = 'Sposta la discussione in...';
+$string['mustprovidediscussionorpost'] = 'Per esportare un argomento di discussione devi indicare l\'id della discussione o dell\'intervento.';
 $string['namenews'] = 'Forum News';
 $string['namesocial'] = 'Forum Relazionale';
 $string['nameteacher'] = 'Forum Insegnanti';
@@ -245,7 +246,7 @@ $string['qandanotify'] = 'Questo è un forum Domande e Risposte. Per poter veder
 $string['rate'] = 'Valuta';
 $string['rating'] = 'Valutazione';
 $string['ratingeveryone'] = 'Tutti possono valutare gli interventi';
-$string['ratingno'] = 'Nessuna valutazione';
+$string['ratingno'] = 'Senza valutazione';
 $string['ratingonlyteachers'] = 'Solo $a può valutare gli interventi';
 $string['ratingpublic'] = '$a può vedere le valutazioni di tutti';
 $string['ratingpublicnot'] = '$a può vedere solo le sue valutazioni';
@@ -307,7 +308,7 @@ $string['tracking'] = 'Traccia';
 $string['trackingoff'] = 'Disabilitato';
 $string['trackingon'] = 'Abilitato';
 $string['trackingoptional'] = 'Opzionale';
-$string['trackingtype'] = 'Visualizzazione messaggi non letti';
+$string['trackingtype'] = 'Evidenzia messaggi non letti';
 $string['unread'] = 'Non letto';
 $string['unreadposts'] = 'Interventi non letti';
 $string['unreadpostsnumber'] = '$a interventi non letti';
