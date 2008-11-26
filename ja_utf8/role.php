@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081121) (2008112101)
+      // role.php - created with Moodle 2.0 dev (Build: 20081125) (2008112400)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -245,9 +245,9 @@ $string['user:viewuseractivitiesreport'] = 'ユーザの活動レポートを表
 $string['user:viewusergrades'] = 'ユーザの評定を表示する';
 $string['userhashiddenassignments'] = 'このユーザには、このコースで1つまたはそれ以上の非表示ロールが割り当てられています。';
 $string['usersfrom'] = '$a からのユーザ';
-$string['usersfrommatching'] = '「 $a->searchUsers 」に合致する $a->contextname からのユーザ';
+$string['usersfrommatching'] = '「 $a->search 」に合致する $a->contextname からのユーザ';
 $string['usersinthisx'] = 'この $a 内のユーザ';
-$string['usersinthisxmatching'] = '「 $a->searchUsers 」に合致する $a->contextname 内のユーザ';
+$string['usersinthisxmatching'] = '「 $a->search 」に合致する $a->contexttype 内のユーザ';
 $string['userswithrole'] = 'ロールのすべてのユーザ';
 $string['userswiththisrole'] = 'ロールのユーザ';
 $string['useshowadvancedtochange'] = '変更するには「拡張要素を表示する」を使用してください。';
