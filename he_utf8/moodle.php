@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 
 
 $string['abouttobeinstalled'] = 'על סף התקנה';
@@ -311,8 +311,8 @@ $string['creatingcoursemodules'] = 'יצירת המודולים של הקורס'
 $string['creatingcourseroles'] = 'יצירת תפקיד למטלות ויכולת עקיפה לרמת הקורס';
 $string['creatingevents'] = 'יצירת אירועים';
 $string['creatinggradebook'] = 'יוצר ספר ציונים';
-$string['creatinggroupings'] = 'יצירת הקבצות';
-$string['creatinggroupingsgroups'] = 'הוספת קבוצות לקיבוצים';
+$string['creatinggroupings'] = 'יצירת אוספי קבוצות';
+$string['creatinggroupingsgroups'] = 'הוספת קבוצות לאוספי קבוצות';
 $string['creatinggroups'] = 'יצירת קבוצות';
 $string['creatinglogentries'] = 'יצירת רשימות יומן מעקב';
 $string['creatingmessagesinfo'] = 'יוצר מידע הודעות';
@@ -1094,7 +1094,6 @@ $string['registrationsend'] = 'שלח נתוני הרשמה ל moodle.org';
 $string['registrationyes'] = 'כן, אנא הודע על נושאים חשובים';
 $string['reject'] = 'דחייה';
 $string['reload'] = 'טען מחדש';
-$string['remotemaharauser'] = 'משתמש Mahra מרוחק';
 $string['remove'] = 'הסרה';
 $string['removeadmin'] = 'הסר מנהל';
 $string['removecreator'] = 'הסר יוצר קורס';
@@ -1475,8 +1474,8 @@ $string['writingcoursedata'] = 'כתיבת נתוני קורס';
 $string['writingeventsinfo'] = 'כתיבת מידע אירועים';
 $string['writinggeneralinfo'] = 'כתיבת מידע כללי';
 $string['writinggradebookinfo'] = 'כתיבת מידע על ספר ציונים';
-$string['writinggroupingsgroupsinfo'] = 'כתיבת מידע על אוסף קבוצות';
-$string['writinggroupingsinfo'] = 'כתיבת מידע הקבצות';
+$string['writinggroupingsgroupsinfo'] = 'כתיבת מידע על קבוצות - אוסף קבוצות';
+$string['writinggroupingsinfo'] = 'כתיבת מידע עבור אוסף הקבוצות';
 $string['writinggroupsinfo'] = 'כתיבת מידע קבוצות';
 $string['writingheader'] = 'כתיבת כותרת';
 $string['writingloginfo'] = 'כתיבת מידע דוחות';
@@ -1497,6 +1496,7 @@ $string['yourlastlogin'] = 'התחברותך האחרונה היתה';
 $string['yourself'] = 'עצמך';
 $string['yourteacher'] = '$a שלך';
 $string['zippingbackup'] = 'מכווץ את הגיבוי לארכיב';
+$string['remotemaharauser'] = 'משתמש Mahra מרוחק'; // ORPHANED
 $string['enteryourinterests'] = 'הכנס את תחומי הענין שלך מופרדים על ידי פסיקים'; // ORPHANED
 $string['skiptomaincontent'] = 'דלג קדימה לתוכן הראשי'; // ORPHANED
 
