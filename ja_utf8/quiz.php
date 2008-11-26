@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20081121) (2008112101)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20081126) (2008112400)
 
 
 $string['1day'] = '1日';
@@ -28,7 +28,7 @@ $string['addingshortanswer'] = '記述問題の追加';
 $string['addingtruefalse'] = '○/×問題の追加';
 $string['addmoreoverallfeedbacks'] = 'さらに {no} 個のフィードバックフィールドを追加する';
 $string['addnewpagesafterselected'] = '選択した問題の後に新しいページを追加する';
-$string['addnewquestionsqbank'] = '「問題バンクコンテンツ」ツール内のカテゴリ $a に問題を追加する';
+$string['addnewquestionsqbank'] = '「問題バンクコンテンツ」ツール内のカテゴリ $a->catname に問題を追加する $a->arrow';
 $string['addpagehere'] = 'ここにページを追加する';
 $string['addquestion'] = '問題を追加する';
 $string['addquestions'] = '問題を追加する';
@@ -259,6 +259,7 @@ URI: $a->quizurl
 $string['emailnotifysubject'] = '$a->studentname が小テスト「 $a->quizname 」を完了しました。';
 $string['empty'] = '空';
 $string['endtest'] = 'テスト終了 ...';
+$string['erroraccessingreport'] = 'あなたは、このレポートにアクセスできません。';
 $string['errorinquestion'] = '問題のエラー';
 $string['errormissingquestion'] = 'エラー: id $a の問題はありません。';
 $string['errornotnumbers'] = 'エラー - 答えは数字を使用してください。';
@@ -524,6 +525,7 @@ $string['quiz:grade'] = '小テストを評定する';
 $string['quiz:ignoretimelimits'] = '制限時間のある小テストを無視する';
 $string['quiz:manage'] = '小テストを管理する';
 $string['quiz:preview'] = '小テストをプレビューする';
+$string['quiz:regrade'] = '小テストの受験を再評定する';
 $string['quiz:view'] = '小テスト情報を表示する';
 $string['quiz:viewreports'] = '小テストレポートを表示する';
 $string['quizavailable'] = '小テストは $a まで利用できます。';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20081126) (2008112400)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -106,7 +106,7 @@ $string['didnotreceivecredit'] = '承認なし';
 $string['displaydefaultfeedback'] = 'デフォルトフィードバックを表示する';
 $string['displayhighscores'] = 'ハイスコアを表示する';
 $string['displayinleftmenu'] = '左メニューに表示しますか?';
-$string['displayleftif'] = '$a の評点が次の評点より高い場合のみ左メニューを表示する:';
+$string['displayleftif'] = '評点が次の評点より高い場合のみ左メニューを表示する:';
 $string['displayleftmenu'] = '左メニューを表示する';
 $string['displayofgrade'] = '評点を表示する (学生のみ)';
 $string['displayreview'] = 'レビューボタンを表示する';
