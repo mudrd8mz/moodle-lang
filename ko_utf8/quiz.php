@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20081122) (2008112101)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20081126) (2008112400)
 
 
 $string['1day'] = '하루';
@@ -250,6 +250,7 @@ $a->studentname 학생이  강좌 \'$a->coursename\' 에서 \'$a->quizname\' ($a
 $string['emailnotifysubject'] = '$a->studentname 은  $a->quizname 퀴즈를 완결하였습니다.';
 $string['empty'] = '비었음';
 $string['endtest'] = '시험 종료 ...';
+$string['erroraccessingreport'] = '이 보고서에는 접근할 수 없음';
 $string['errorinquestion'] = '문항 오류';
 $string['errormissingquestion'] = '오류 : 아이디 $a 의 질문이 사라짐';
 $string['errornotnumbers'] = '오류 - 답은 숫자라야 함';
@@ -516,6 +517,7 @@ $string['quiz:grade'] = '퀴즈 미리보기';
 $string['quiz:ignoretimelimits'] = '시간 제한 무시';
 $string['quiz:manage'] = '퀴즈 관리';
 $string['quiz:preview'] = '퀴즈 미리보기';
+$string['quiz:regrade'] = '시도한 퀴즈 재채점';
 $string['quiz:view'] = '퀴즈 정보 보기';
 $string['quiz:viewreports'] = '퀴즈 보고서 보기';
 $string['quizavailable'] = '$a까지 퀴즈를 이용할 수 있음';
@@ -677,7 +679,7 @@ $string['tolerancetype'] = '허용오차 유형';
 $string['toomanyrandom'] = '범주에 저장되어 있는 질문보다 요구한 질문 수가 더 많습니다!';
 $string['top'] = '위';
 $string['totalpoints'] = '총점';
-$string['totalquestionsinrandomqcategory'] = '범주내 $a 문항의 총계';
+$string['totalquestionsinrandomqcategory'] = '범주 내 $a 문항의 총계';
 $string['true'] = '진실';
 $string['truefalse'] = 'OX문제';
 $string['truefalseimporterror'] = '<b>경고</b>: 진위형문항 \'$a->questiontext\'는 제대로 가져올 수 없었습니다. 어느 답안이 참이고 거짓인지를 명확히 알 수 없습니다. 일단 \'$a->answer\'을 정답으로 가정하고 가져오기는 했지만 이것이 바르지 않다면 문항을 다시 수정해야 할 필요가 있을 것입니다.';

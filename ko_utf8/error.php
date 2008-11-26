@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081113) (2008111100)
+      // error.php - created with Moodle 2.0 dev (Build: 20081126) (2008112400)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -49,6 +49,7 @@ $string['cannotdeletedir'] = '삭제할 수 없음 ($a)';
 $string['cannotdeletelangcache'] = '언어팩의 캐시를 삭제할 수 없으므로 dataroot/cache/languages의 허가권을 수정해야 합니다!';
 $string['cannotdeleterole'] = '$a 때문에 삭제할 수 없음';
 $string['cannotdeleterolewithid'] = 'ID $a 의 역할을 삭제할 수 없음';
+$string['cannotdeletethisrole'] = '시스템에서 사용되거나 관리자의 최종 역할이기 때문에 이 역할은 삭제할 수 없습니다.';
 $string['cannotdownloadcomponents'] = '구성요소를 내려받을 수 없음';
 $string['cannotdownloadlanguageupdatelist'] = 'download.moodle.org에서 갱신 언어 목록을 내려받을 수 없음';
 $string['cannotdownloadzipfile'] = 'ZIP파일을 내려받을 수 없음';
@@ -104,6 +105,7 @@ $string['cannotreaduploadfile'] = '올려진 파일을 읽을 수 없음';
 $string['cannotremovefrommeta'] = '선택한 강좌를 이 메타 강좌에서 제거할 수 없음!';
 $string['cannotresetguestpwd'] = '손님의 암호는 재설정할 수 없음';
 $string['cannotresetmail'] = '암호 재설정 및 발송 오류';
+$string['cannotresetthisrole'] = '이 역할은 재설정할 수 없음';
 $string['cannotrestore'] = '오류가 발생하여 복구를 완료할 수 없음!';
 $string['cannotrestoreadminorcreator'] = '강좌 생성자나 관리자만 새 강좌를 복구할 수 있습니다!';
 $string['cannotrestoreadminoredit'] = '선택한 강좌를 복구하려면 편집 가능한 교수자거나 관리자라야 합니다!';
@@ -204,6 +206,7 @@ $string['errorcleaningdirectory'] = '\"$a\" 디렉토리 정리 오류';
 $string['errorcopyingfiles'] = '파일 복사 오류';
 $string['errorcreatingdirectory'] = '\"$a\" 디렉토리 생성 오류';
 $string['errorcreatingfile'] = '\"$a\" 파일 생성 오류';
+$string['errorcreatingrole'] = '역할 생성 오류';
 $string['erroronline'] = '\"$a\" 번째 줄 오류';
 $string['errorreadingfile'] = '\"$a\" 파일 읽기 오류';
 $string['errorsettinguserpref'] = '개인 설정 오류';
