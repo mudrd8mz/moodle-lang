@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // group.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
 
 
 $string['addgroupstogrouping'] = 'Afegeix grups a l\'agrupament';
 $string['addgroupstogroupings'] = 'Afegeix/suprimeix grups';
-$string['adduserstogroup'] = 'Afegeix usuaris al grup';
+$string['adduserstogroup'] = 'Afegeix/suprimeix usuaris';
 $string['allocateby'] = 'Assigna membres';
 $string['anygrouping'] = '[Qualsevol agrupament]';
 $string['autocreategroups'] = 'Crea grups automàticament';
@@ -71,6 +71,7 @@ $string['groupscount'] = 'Grups ($a)';
 $string['groupsgroupings'] = 'Grups i agrupaments';
 $string['groupsinselectedgrouping'] = 'Grups de l\'agrupament seleccionat';
 $string['groupsnone'] = 'Sense grups';
+$string['groupsonly'] = 'Només grups';
 $string['groupspreview'] = 'Previsualització de grups';
 $string['groupsseparate'] = 'Grups separats';
 $string['groupsvisible'] = 'Grups visibles';
