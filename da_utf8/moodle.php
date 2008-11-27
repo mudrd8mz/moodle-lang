@@ -2,6 +2,7 @@
       // moodle.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
+$string['abouttobeinstalled'] = 'lige ved at blive installeret';
 $string['action'] = 'Hændelse';
 $string['actions'] = 'Hændelser';
 $string['active'] = 'Aktiv';
@@ -313,6 +314,7 @@ $string['createuserandpass'] = 'Ny profil:';
 $string['createziparchive'] = 'Opret zip arkiv';
 $string['creatingblocks'] = 'Opretter blokke';
 $string['creatingblocksroles'] = 'Opretter rolletildelinger og særrettigheder på blokniveau';
+$string['creatingblogsinfo'] = 'Opretter blogs-info';
 $string['creatingcategoriesandquestions'] = 'Opretter kursuskategorier og spørgsmål';
 $string['creatingcoursemodules'] = 'Opretter kursusmoduler';
 $string['creatingcourseroles'] = 'Opretter rolletildelinger og særrettigheder på kursusniveau';
@@ -570,7 +572,7 @@ $string['error'] = 'Fejl';
 $string['errortoomanylogins'] = 'Beklager, du har oversteget antallet af gange, hvor du kan prøve at logge ind. Genstart din browser';
 $string['errorwhenconfirming'] = 'Du er ikke godkendt da der er sket en fejl. Hvis du har klikket på et link der er sendt til dig pr. e-mail, så undersøg om web-adressen er i orden og ikke delt over flere linjer. Hvis den er så prøv at føje den sammen med kopier og sæt ind (cut\'n paste) så det bliver en lang linje.';
 $string['everybody'] = 'Alle';
-$string['executeat'] = 'Eksekver når';
+$string['executeat'] = 'Eksekver klokken';
 $string['existing'] = 'Eksisterende';
 $string['existingadmins'] = 'Oprettede administratorer';
 $string['existingcourse'] = 'Eksisterende kursus';
@@ -1090,7 +1092,7 @@ $string['passwordconfirmchange'] = 'Godkend ændring af adgangskode';
 $string['passwordextlink'] = 'Det følgende link er beregnet til at generere et nyt password, hvis du har glemt det gamle. Da autorisationssystemet er eksternt vil linket være eksternt.';
 $string['passwordforgotten'] = 'Glemt adgangskode';
 $string['passwordforgotteninstructions'] = 'Din profil skal først findes i brugerdatabasen.
-Skriv <strong>enten</strong> dit brugernavn eller din e-mail-adresse i det rigtige felt.
+Skriv <strong>enten</strong> dit brugernavn <strong>eller</strong> din e-mail-adresse i det rigtige felt.
 Du behøver ikke skrive dem begge.';
 $string['passwordnohelp'] = 'Der er ingen hjælp til at generere et nyt kodeord eller hente det gamle. Kontakt venligst din underviser eller administrator.';
 $string['passwordrecovery'] = 'Ja, hjælp mig med at logge ind';
@@ -1390,7 +1392,7 @@ $string['studentviewoff'] = 'Slå elevvisning fra';
 $string['studentviewon'] = 'Slå elevvisning til';
 $string['subcategories'] = 'Underkategorier';
 $string['success'] = 'Succes';
-$string['summary'] = 'Referat';
+$string['summary'] = 'Kort beskrivelse';
 $string['summaryof'] = 'Referat af $a';
 $string['supplyinfo'] = 'Profiloplysninger';
 $string['switchrolereturn'] = 'Skift til min almindelige rolle';
