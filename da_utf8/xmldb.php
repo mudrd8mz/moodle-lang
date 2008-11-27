@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // xmldb.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['aftertable'] = 'Efter tabel:';
@@ -48,12 +48,15 @@ $string['floatincorrectdecimals'] = 'Forkert antal decimaler for decimalfelt';
 $string['floatincorrectlength'] = 'Forkert længdefor decimalfelt';
 $string['gotolastused'] = 'Gå til sidst brugte fil';
 $string['incorrectfieldname'] = 'Forkert navn';
+$string['index'] = 'Indeks';
 $string['indexes'] = 'Indekser';
 $string['integerincorrectlength'] = 'Forkert længde for heltalsfelt';
+$string['key'] = 'Nøgle';
 $string['keys'] = 'Nøgler';
 $string['listreservedwords'] = 'Liste af reserverede ord <br />(brugt til at holde <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> opdateret)';
 $string['load'] = 'Hent';
 $string['main_view'] = 'Hovedvisning';
+$string['missing'] = 'Mangler';
 $string['missingfieldsinsentence'] = 'Manglende felt i sætning';
 $string['missingvaluesinsentence'] = 'Manglende værdi i sætning';
 $string['mustselectonefield'] = 'Du skal vælge et felt for at se felt-relaterede handlinger!';
@@ -75,6 +78,7 @@ $string['reservedwords'] = 'Reserverede ord';
 $string['revert'] = 'Vend tilbage';
 $string['revert_changes'] = 'Annuller ændringer';
 $string['save'] = 'Gem';
+$string['searchresults'] = 'Søgeresultater';
 $string['selectaction'] = 'Vælg handling:';
 $string['selectdb'] = 'Vælg database:';
 $string['selectfieldkeyindex'] = 'Vælg felt/nøgle/indeks:';
@@ -101,6 +105,7 @@ $string['viewedited'] = 'Vis rettet';
 $string['vieworiginal'] = 'Vis original';
 $string['viewphpcode'] = 'Vis PHPkode';
 $string['viewsqlcode'] = 'Vis SQLkode';
+$string['wrong'] = 'Forkert';
 $string['wronglengthforenum'] = 'Forkert længde for enum felt';
 $string['wrongnumberoffieldsorvalues'] = 'Forkert antal af felter eller værdier i sætningen';
 $string['wrongreservedwords'] = 'Nuværende brugte reserverede ord<br />(bemærk at tabelnavne ikke er væsentlige hvis man bruger $CFG_prefix)';
