@@ -306,6 +306,7 @@ $string['createuserandpass'] = 'צור שם משתמש וסיסמה חדשה ל�
 $string['createziparchive'] = 'צור ארכיון זיפ';
 $string['creatingblocks'] = 'יצירת בלוקים';
 $string['creatingblocksroles'] = 'יצירת תפקיד למטלות ויכולת עקיפה לרמת הבלוק';
+$string['creatingblogsinfo'] = 'יצירת יצירת המידע של הבלוגים';
 $string['creatingcategoriesandquestions'] = 'יצירת קטגוריות ושאלות';
 $string['creatingcoursemodules'] = 'יצירת המודולים של הקורס';
 $string['creatingcourseroles'] = 'יצירת תפקיד למטלות ויכולת עקיפה לרמת הקורס';
