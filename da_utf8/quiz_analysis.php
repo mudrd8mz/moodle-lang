@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // quiz_analysis.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['analysis'] = 'Emneanalyse';
@@ -25,7 +25,7 @@ $string['qtypetitle'] = 'Spm. type';
 $string['quizreportdir'] = 'quiz_rapporter';
 $string['rcounttitle'] = 'R.<br />Antal';
 $string['reportanalysis'] = 'Rapport med Emneanalyse';
-$string['responsestitle'] = 'Detaljerede svar';
+$string['responsestitle'] = 'Svar';
 $string['rfractiontitle'] = 'Fraktions<br />titel';
 $string['rpercenttitle'] = 'R.%%';
 $string['stddevtitle'] = 'Std.dev.';
