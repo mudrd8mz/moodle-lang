@@ -864,7 +864,7 @@ $string['loginstepsnone'] = '<p>Hei!</p>
 <p>Jotta voisit käyttää kursseja, sinun pitää luoda itsellesi
 käyttäjätunnus. Luot vain itsellesi käyttäjätunnuksen ja salasanan, sitten käytät niitä tällä sivulla. Jos käyttäjätunnus on jo varattu, sinun pitää valita toinen käyttäjätunnus.</p>';
 $string['loginto'] = 'Kirjaudu $a';
-$string['loginusing'] = 'Kirjaudu tästä käyttäen Tampereen yliopiston peruspalvelutunnusta ja salasanaasi tai sinulle toimitettua erillistä Moodle-tunnusta';
+$string['loginusing'] = 'Kirjaudu tästä käyttäen tunnusta ja salasanaasi';
 $string['logout'] = 'Kirjaudu ulos';
 $string['logoutconfirm'] = 'Haluatko todella kirjautua ulos?';
 $string['logs'] = 'Tapahtumat';
