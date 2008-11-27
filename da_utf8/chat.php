@@ -2,6 +2,7 @@
       // chat.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
+$string['autoscroll'] = 'Auto Scroll';
 $string['beep'] = 'bip';
 $string['chat:chat'] = 'Chat';
 $string['chat:deletelog'] = 'Slet chatlogs';
@@ -50,6 +51,7 @@ $string['nomessages'] = 'Ingen beskeder endnu';
 $string['normalkeepalive'] = 'Polling';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Ingen planlagte chatsessioner';
+$string['oldping'] = 'Timeout til afbrydelse af session';
 $string['pastchats'] = 'Seneste chatsessioner';
 $string['refreshroom'] = 'Genindlæs';
 $string['refreshuserlist'] = 'Genindlæs brugerliste';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // calendar.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['advancedoptions'] = 'Avanceret...';
@@ -8,6 +8,7 @@ $string['calendar'] = 'Kalender';
 $string['calendarheading'] = '$a Kalender';
 $string['clickhide'] = 'klik for at skjule';
 $string['clickshow'] = 'klik for at vise';
+$string['commontasks'] = 'Indstillinger';
 $string['confirmeventdelete'] = 'Er du sikker på at du vil slette denne begivenhed?';
 $string['course'] = 'Kursus';
 $string['courseevent'] = 'Begivenhed for kursus';
@@ -53,7 +54,7 @@ $string['explain_site_timeformat'] = 'Du kan vælge mellem 12 og 24 timers forma
 $string['explain_startwday'] = 'Denne indstilling konfigurerer hvordan alle månedskalendere skal vises. Brug det til at vise kalenderen på den måde du er vant til.';
 $string['explain_timeformat'] = 'Denne indstilling kontrollerer hvordan tiden vises i kalenderen. Du kan vælge at se tiden enten i 12 timers format eller 24 timers format. Hvis du vælger \"standard\", så vil formatet automatisk blive valgt i henhold til det sprog der er valgt på sitet.';
 $string['export'] = 'Eksport';
-$string['exportbutton'] = 'Eksportknap';
+$string['exportbutton'] = 'Eksporter';
 $string['exportcalendar'] = 'Eksporter kalender';
 $string['for'] = 'for';
 $string['fri'] = 'Fre';
@@ -121,6 +122,7 @@ $string['typegroup'] = 'Gruppe';
 $string['typesite'] = 'Fælles';
 $string['typeuser'] = 'Personlig';
 $string['upcomingevents'] = 'Kommende begivenheder';
+$string['urlforical'] = 'URL til eksport af og abonnement på kalender';
 $string['user'] = 'Bruger';
 $string['userevent'] = 'Brugerbegivenhed';
 $string['userevents'] = 'Personlig kalender';

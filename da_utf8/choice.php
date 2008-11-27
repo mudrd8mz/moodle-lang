@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // choice.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['addmorechoices'] = 'Tilføj flere valgmuligheder';
@@ -11,6 +11,7 @@ $string['choice:deleteresponses'] = 'Slet svar';
 $string['choice:downloadresponses'] = 'Download svar';
 $string['choice:readresponses'] = 'Læs svar';
 $string['choiceclose'] = 'Indtil';
+$string['choicefull'] = 'Alle ledige valgmuligheder er taget.';
 $string['choicename'] = 'Afstemningens titel';
 $string['choiceopen'] = 'Åben';
 $string['choicetext'] = 'Beskrivelse af afstemningen';
