@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // gradereport_outcomes.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // gradereport_outcomes.php - created with Moodle 2.0 dev (Build: 20081127) (2008112600)
 
 
 $string['addoutcome'] = 'Aggiungi un obiettivo';

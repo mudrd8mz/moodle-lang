@@ -1,18 +1,18 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081127) (2008112600)
 
 
 $string['accessdenied'] = 'Accesso negato';
 $string['accounts'] = 'Profili';
 $string['adminseesall'] = 'Gli amministratori visualizzano tutto';
-$string['adminseesallevents'] = 'Gli amministratori  visualizzano tutti gli eventi';
+$string['adminseesallevents'] = 'Gli amministratori visualizzano tutti gli eventi';
 $string['adminseesownevents'] = 'Gli amministratori sono come tutti gli altri utenti';
-$string['allowbeforeblock'] = 'L\'elenco degli indirizzi ammessi sarà elaborata per prima';
-$string['allowbeforeblockdesc'] = 'Per default l\'elenco degli IP bloccati viene elaborata per prima. Se abilitate questa opzione, allora sarà elaborata per primo l\'elenco degli IP ammessi';
+$string['allowbeforeblock'] = 'L\'elenco degli indirizzi autorizzati sarà elaborata per prima';
+$string['allowbeforeblockdesc'] = 'Per default l\'elenco degli IP bloccati viene elaborata per prima. Se abilitate questa opzione, allora sarà elaborata per primo l\'elenco degli IP autorizzati.';
 $string['allowcategorythemes'] = 'Consenti la scelta dei temi per le categorie';
-$string['allowcoursethemes'] = 'Consenti la scelta dei temi all\'interno dei corsi';
+$string['allowcoursethemes'] = 'Consenti la scelta dei temi per i corsi';
 $string['allowdeletes'] = 'Consenti eliminazioni';
-$string['allowediplist'] = 'Elenco degli IP ammessi';
+$string['allowediplist'] = 'Elenco degli IP autorizzati';
 $string['allowemailaddresses'] = 'Domini di posta autorizzati';
 $string['allowobjectembed'] = 'Consenti i tag EMBED e OBJECT';
 $string['allowrenames'] = 'Consenti di rinominare';
@@ -22,7 +22,7 @@ $string['allowuserthemes'] = 'Consenti agli utenti di scegliere il tema';
 $string['allowvisiblecoursesinhiddencategories'] = 'Consenti l\'accesso ai corsi presenti nelle categorie nascoste';
 $string['antivirus'] = 'Antivirus';
 $string['appearance'] = 'Aspetto';
-$string['aspellpath'] = 'Percorso d\'accesso ad aspell';
+$string['aspellpath'] = 'Percorso per aspell';
 $string['authentication'] = 'Autenticazione';
 $string['authsettings'] = 'Gestione autenticazione';
 $string['autolang'] = 'Autorilevazione lingua';
@@ -64,7 +64,7 @@ $string['computedfromlogs'] = 'Calcolato da log a partire da $a';
 $string['confeditorhidebuttons'] = 'Seleziona i pulsanti che non vanno mostrati nell\'editor HTML';
 $string['configallowassign'] = 'Tramite la matrice sottostante potete autorizzare i ruoli elencati nella colonna verticale a sinistra ad assegnare ad altri utenti uno o più tra i ruoli presenti sulla riga di intestazione';
 $string['configallowcategorythemes'] = 'Abilitando questa opzione, i temi possono essere impostati a livello di categoria. Questo influenzerà tutte le categorie dipendenti e i relativi corsi a meno che gli stessi non abbiamo in modo specifico impostato il proprio tema. ATTENZIONE: L\'abilitazione dei temi di categoria può influenzare le prestazioni.';
-$string['configallowcoursethemes'] = 'Se abilitato, sarà  possibile impostare un tema personalizzato in ogni corso. Il tema del corso sovrascriverà  ogni altra scelta (sito, utenti, sessioni di sistema).';
+$string['configallowcoursethemes'] = 'Se abilitato, sarà  possibile impostare un tema personalizzato diverso per ogni corso. Il tema del corso avrà precedenza su ogni altra preferenza (tema di sito, tema dell\'utente, tema di sessione).';
 $string['configallowemailaddresses'] = 'Se si desidera limitare la provenienza delle email degli utenti solo da determinati domini, è possibile elencare i domini autorizzati in questa impostazione, avendo cura di separare i domini tra loro con uno spazio. Le email che non appartengono ai domini elencati non saranno accettate. Per autorizzare anche i sotto domini, elencare il dominio precedendolo con \'.\'. Ad esempio  <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'Come misura di sicurezza standard, agli utenti normali non è permesso includere oggetti multimediali (come Flash) utilizzando esplicitamente i tag EMBED e OBJECT nei testi HTML (rimane la possibilità  per loro di utilizzare il filtro mediaplugins). Se si vuole permettere l\'utilizzo di questi tag allora abilitare questa opzione.';
 $string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di modificare i ruoli di ogni colonna';
@@ -82,12 +82,12 @@ $string['configcachetext'] = 'Per siti molto ampi o siti che utilizzano filtri d
 $string['configcachetype'] = 'Scegli il tipo di cache che Moodle utilizzerà. Questo configurerà solamente la cache, ma ricorda di abilitare rcache affinché la cache sia usata per qualcosa. Usa questa impostazione <strong>solamente</strong> se è necessario ridurre il carico sul database - altrimenti Moodle girerà più lentamente. I siti a medio traffico possono vedere benefici usando \"internal\". Un singolo webserver con installati eAccelerator o Turckmmcache, <em>con abilitate le opzioni \"shared memory\" </em>, dovrebbe provare \"eaccelerator\". Se avete una installazione multiple-server, e avete uno o più demon memcached in esecuzione e l\'estensione PHP-memcached, selezionate \"memcached\" e configurate le sottostanti opzioni memcached. <br /><strong>Nota:</strong> assicuratevi di testare le performance sotto carico e regolate i parametri di conseguenza - la cache può rendere il vostro sito più lento. In situazioni di elevato traffico, eAccelerator e memcached possono produrre i benefici maggiori, ma hanno i costi più alti in termini di uso della CPU sul webserver.';
 $string['configclamactlikevirus'] = 'Considera i file infetti';
 $string['configclamdonothing'] = 'Considera OK i file';
-$string['configclamfailureonupload'] = 'Se avete configurato Clam antivirus per esaminare i files trasferiti, ma la configurazione non è corretta o non riesce a funzionare per un certo motivo sconosciuto, come dovrebbe comportarsi?  Se scegliete \'Tratta i files come virus\', i files saranno spostati nell\'area di quarantena o eliminati. Se scegliete \'Tratta i files come OK\', i files verranno trasferiti nella directory di destinazione e trattati come normali.
-In ogni caso, gli Amministratori verranno avvisati se Clam antivirus dovesse fallire.
+$string['configclamfailureonupload'] = 'Se avete configurato Clam antivirus per esaminare i file trasferiti, ma la configurazione non è corretta o non riesce a funzionare per un certo motivo sconosciuto, come dovrebbe comportarsi?  Se scegliete \'Considera i file infetti\', i file saranno spostati nell\'area di quarantena o eliminati. Se scegliete \'Considera OK i file\', i file verranno trasferiti nel folder di destinazione.
+In ogni caso, gli Amministratori verranno avvisati se Clam antivirus dovesse andare in errore.
 
-Se scegliete \'Tratta i files come virus\' e per qualche motivo Clam antivirus dovesse fallire (solitamente perché lo avete inserito in un pathtoclam non valido), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o eliminati. Si consiglia di impostare questa variabile con molta attenzione!';
+Se scegliete \'Considera i file infetti\' e per qualche motivo Clam antivirus dovesse andare in errore (spesso avviene se il valore di pathtoclam è errato), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o eliminati. Si consiglia di impostare questa variabile con molta attenzione!';
 $string['configcookiehttponly'] = 'Abilita le caratteristiche del PHP 5.2.0. I browser verranno obbligati ad inviare cookie solo tramite protocollo http, in modo da non consentire l\'accesso ai cookie da linguaggi di scripting. Non tutti i browser supportano questa caratteristica che potrebbe non essere compatibile con l\'attuale codice. Questa impostazione aiuta a prevenire alcuni tipi di attacchi XSS.';
-$string['configcookiesecure'] = 'Se il server accetta solamente connessioni https, allora è opportuno abilitare l\'invio di cookie sicuri. Se abilitate questa impostazione, accertatevi che il server web non accetti connessioni http://, oppure impostate un reindirizzamento permanente al protocollo https://. Nel caso in cui l\'indirizzo specificato per <em>wwwroot</em> nelal config.php non contenga https://, questa impostazione sarà automaticamente disabilitata.';
+$string['configcookiesecure'] = 'Se il server accetta solamente connessioni https, allora è opportuno abilitare l\'invio di cookie sicuri. Se abilitate questa impostazione, accertatevi che il server web non accetti connessioni http://, oppure impostate un reindirizzamento permanente al protocollo https://. Nel caso in cui l\'indirizzo specificato per <em>wwwroot</em> nella config.php non contenga https://, questa impostazione sarà automaticamente disabilitata.';
 $string['configcountry'] = 'Se scegliete uno Stato qui, questo verrà  proposto di default. Per obbligare un utente a scegliere il proprio stato, lasciatelo in bianco.';
 $string['configcoursemanager'] = 'Questa impostazione permette di controllare chi appare nella descrizione del corso. Gli utenti devono avere almeno uno di questi ruoli in un corso per essere mostrati nella descrizione di quel corso.';
 $string['configcoursesperpage'] = 'Numero di corsi da mostrare per pagina in un elenco dei corsi';
@@ -103,7 +103,7 @@ $string['configdebugsmtp'] = 'Abilita una maggiore quantità di informazioni per
 $string['configdefaultallowedmodules'] = 'Per i corsi che ricadono nella categoria sovrastante, quali moduli si vuole che vengano permessi <b>quando il corso è creato</b>?';
 $string['configdefaultcourseroleid'] = 'Gli utenti che si iscrivono a un corso avranno automaticamente questo ruolo.';
 $string['configdefaultrequestcategory'] = 'I corsi a richiesta approvati saranno automaticamente inseriti nella categoria specificata.';
-$string['configdefaultrequestedcategory'] = 'Categoria in cui mettere i corsi che sono stato richiesti, se vengono approvati.';
+$string['configdefaultrequestedcategory'] = 'Categoria in cui inserire i corsi a richiesta, una volta approvati.';
 $string['configdefaultuserroleid'] = 'A tutti gli utenti che hanno fatto il login saranno dati i permessi del ruolo qui specificato, a livello di sito, OLTRE ad ogni altro ruolo che possono aver ricevuto. Il ruolo default è quello di Ospite. Da notare che questo non è in conflitto con altri ruoli già posseduti, ma serve solo ad assicurare che tutti gli utenti possono fare qualche cosa di utile a livello di sito (per es. leggere le discussioni dei forum, le risorse, ecc.).';
 $string['configdeleteincompleteusers'] = 'Dopo questo periodo, i vecchi account non completati saranno eliminati.';
 $string['configdeleteunconfirmed'] = 'Se state usando l\'autenticazione e-mail, questo parametro imposta il periodo in cui sarà  accettata la risposta dagli utenti. Dopo questo periodo, gli utenti non confermati vengono eliminati.';
@@ -630,7 +630,7 @@ $string['profilemenuoptions'] = 'Opzioni menu (una per riga)';
 $string['profilemenutoofewoptions'] = 'Devi inserire almeno 2 opzioni';
 $string['profilename'] = 'Nome';
 $string['profilenofieldsdefined'] = 'Non ci sono campi personalizzati';
-$string['profilerequired'] = 'Campo obbligatorio?';
+$string['profilerequired'] = 'Compilazione obbligatoria?';
 $string['profileshortname'] = 'Nome breve (deve essere unico)';
 $string['profileshortnamenotunique'] = 'Nome breve già in uso';
 $string['profilesignup'] = 'Da compilare nella pagina di creazione account?';
@@ -664,11 +664,14 @@ $string['requiredtemplate'] = 'Richiesto. Si può usare il modello di sintassi (
 $string['requires'] = 'Richiede';
 $string['restrictbydefault'] = 'Limitare i moduli per default';
 $string['restrictmodulesfor'] = 'Limitare i moduli per';
+$string['reverseproxy'] = 'Reverse proxy';
 $string['riskconfig'] = 'Gli utenti possono modificare la configurazione e il comportamento del sito';
 $string['riskconfigshort'] = 'Configurazione';
+$string['riskdataloss'] = 'L\'utente potrebbe essere in grado di distruggere grandi quantità di dati';
+$string['riskdatalossshort'] = 'Rischio di perdita di dati';
 $string['riskmanagetrust'] = 'Gli utenti possono modificare le impostazioni di affidabilità di altri utenti';
 $string['riskmanagetrustshort'] = 'Gestione rischi';
-$string['riskpersonal'] = 'Gli utenti possono avere accesso alle informazioni private di altri utenti';
+$string['riskpersonal'] = 'Gli utenti possono avere accesso alle informazioni personali di altri utenti';
 $string['riskpersonalshort'] = 'Privacy';
 $string['riskspam'] = 'Gli utenti possono inviare spam agli utenti del sito o ad altri';
 $string['riskspamshort'] = 'Spam';

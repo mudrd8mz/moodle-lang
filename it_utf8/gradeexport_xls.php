@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // gradeexport_xls.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // gradeexport_xls.php - created with Moodle 2.0 dev (Build: 20081127) (2008112600)
 
 
 $string['modulename'] = 'Formato Excel';
-$string['xls:publish'] = 'Pubblica le valutazioni in formato Excel';
-$string['xls:view'] = 'Usa l\'esportazione delle valutazioni in formato Excel';
+$string['xls:publish'] = 'Pubblicare le valutazioni in formato Excel';
+$string['xls:view'] = 'Usare l\'esportazione delle valutazioni in formato Excel';
 
 ?>

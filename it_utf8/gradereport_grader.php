@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // gradereport_grader.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // gradereport_grader.php - created with Moodle 2.0 dev (Build: 20081127) (2008112600)
 
 
-$string['grader:manage'] = 'Gestisci il registro del valutatore';
-$string['grader:view'] = 'Visualizza il registro del valutatore';
+$string['grader:manage'] = 'Gestire il registro valutatore';
+$string['grader:view'] = 'Visualizzare il registro valutatore';
 $string['modulename'] = 'Registro valutatore';
 
 ?>
