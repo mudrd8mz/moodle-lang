@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7+ (2006101007)
+      // block_rss_client.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['addfeed'] = 'Tilføj RSS service';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'Nyhedsservice opdateret';
 $string['findmorefeeds'] = 'Find flere RSS services';
 $string['managefeeds'] = 'Kontroller alle mine RSS services';
 $string['nofeeds'] = 'Der er ikke defineret nogle RSS services for dette site';
+$string['numentries'] = 'Antal nyheder pr. feed';
 $string['pickfeed'] = 'Vælg en nyhedsservice';
 $string['remotenewsfeed'] = 'Andre nyhedsservices';
 $string['rss_client:createprivatefeeds'] = 'Opret privat RSS service';
@@ -41,6 +42,7 @@ $string['sharedfeed'] = 'Delte nyhedsservices';
 $string['shownumentrieslabel'] = 'Højeste antal nyheder vist i hver blok';
 $string['submitters'] = 'Hvem skal kunne tilføje nye RSS services? Der kan vises RSS nyheder på alle sider på sitet.';
 $string['timeout'] = 'RSS timeout';
+$string['timeout2'] = 'Timeout';
 $string['timeoutdesc'] = 'Tid i minutter som RSS nyheder kan caches i';
 $string['updatefeed'] = 'Opdater en nyhedsservice';
 $string['validatefeed'] = 'Valider service';

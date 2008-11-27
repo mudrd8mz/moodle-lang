@@ -1,10 +1,9 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // blog.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['addnewentry'] = 'Weblog - nyt indlæg';
-$string['addotags'] = 'Tilføj officielle nøgleord';
-$string['addptags'] = 'Tilføj brugerdefinerede nøgleord';
+$string['backupblogshelp'] = 'Aktiveret vil blogs blive taget med i den automatiske backup';
 $string['blockmenutitle'] = 'Weblogmenu';
 $string['blocktagstitle'] = 'Weblog-nøgleord';
 $string['blocktitle'] = 'Weblog nøgleord blok titel';
@@ -34,10 +33,9 @@ $string['norighttodeletetag'] = 'Du har ikke rettigheder til at slette dette nø
 $string['notallowedtoedit'] = 'Du har ikke tilladelse til at rette dette indlæg';
 $string['numberofentries'] = 'Logindlæg: $a';
 $string['numberoftags'] = 'Antal nøgleord der vises';
-$string['otags'] = 'Officielle nøgleord';
 $string['pagesize'] = 'Antal logindlæg pr. side';
+$string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'Brugere kan kun se deres egen weblog';
-$string['ptags'] = 'Brugeroprettede nøgleord';
 $string['publishto'] = 'Tilgængelig for';
 $string['publishtonoone'] = 'Dig selv (kladde)';
 $string['publishtosite'] = 'Alle her på sitet';
@@ -56,5 +54,9 @@ $string['viewcourseentries'] = 'Vis kursusindlæg';
 $string['viewmyentries'] = 'Vis mine weblog';
 $string['viewsiteentries'] = 'Vis andres weblog';
 $string['worldblogs'] = 'Alle kan læse indlæg der er markeret til at være offentlige.';
+$string['addotags'] = 'Tilføj officielle nøgleord'; // ORPHANED
+$string['addptags'] = 'Tilføj brugerdefinerede nøgleord'; // ORPHANED
+$string['otags'] = 'Officielle nøgleord'; // ORPHANED
+$string['ptags'] = 'Brugeroprettede nøgleord'; // ORPHANED
 
 ?>

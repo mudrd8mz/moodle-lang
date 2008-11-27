@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // bulkusers.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
 
 
 $string['addall'] = 'Tilføj alle';
@@ -15,6 +15,7 @@ $string['removesel'] = 'Fjern fra udvalg';
 $string['selected'] = 'Valgte';
 $string['selectedlist'] = 'Liste over valgte brugere...';
 $string['usersfound'] = '$a bruger(e) fundet.';
+$string['usersinlist'] = 'Brugere på listen';
 $string['usersselected'] = '$a bruger(e) valgt.';
 
 ?>
