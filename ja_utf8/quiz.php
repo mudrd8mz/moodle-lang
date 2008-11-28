@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20081126) (2008112400)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
 
 
 $string['1day'] = '1日';
@@ -28,7 +28,7 @@ $string['addingshortanswer'] = '記述問題の追加';
 $string['addingtruefalse'] = '○/×問題の追加';
 $string['addmoreoverallfeedbacks'] = 'さらに {no} 個のフィードバックフィールドを追加する';
 $string['addnewpagesafterselected'] = '選択した問題の後に新しいページを追加する';
-$string['addnewquestionsqbank'] = '「問題バンクコンテンツ」ツール内のカテゴリ $a->catname に問題を追加する $a->arrow';
+$string['addnewquestionsqbank'] = '「問題バンクコンテンツ」ツール内のカテゴリ $a->catname に問題を追加する: $a->link';
 $string['addpagehere'] = 'ここにページを追加する';
 $string['addquestion'] = '問題を追加する';
 $string['addquestions'] = '問題を追加する';
@@ -160,6 +160,7 @@ $string['configreviewoptions'] = 'これらのオプションでは、ユーザ�
 $string['configshufflequestions'] = 'あなたがこのオプションを有効にした場合、学生の小テスト受験ごとに、小テストの問題順はランダムにシャッフルされます。';
 $string['configshufflewithin'] = 'あなたがこのオプションを有効にした場合、学生の小テスト受験開始ごとに、個々の問題を構成している部品がランダムにシャッフルされます。';
 $string['configtimelimit'] = '小テストのデフォルトの制限時間 (分) です。ゼロは、制限時間なしを意味します。';
+$string['configurerandomquestion'] = '問題の設定';
 $string['confirmclose'] = 'あなたは、この小テストを終了しようとしています。小テストを終了すると、これ以上答えを変更することができません。';
 $string['confirmserverdelete'] = '本当にサーバ <b>$a</b> をリストから削除してもよろしいですか?';
 $string['confirmstartattemptlimit'] = 'この小テストの受験回数は、$a 回に制限されています。あなたは新しい受験を開始しようとしています。本当に続けてもよろしいですか?';
@@ -562,6 +563,7 @@ $string['regradingquiz'] = '問題「 $a 」の再評定';
 $string['relative'] = '相対度数';
 $string['remove'] = '削除';
 $string['removeallquizattempts'] = 'すべての小テストの受験結果を削除する';
+$string['removeemptypage'] = '空のページを削除する';
 $string['rename'] = 'リネーム';
 $string['renderingserverconnectfailed'] = 'サーバ $a がRQPリクエストの処理に失敗しました。URIが正しいか確認してください。';
 $string['reorderquestions'] = '再度問題を並び替える';
@@ -632,6 +634,7 @@ $string['shortanswer'] = '記述問題';
 $string['show'] = '表示';
 $string['showall'] = 'すべての問題を1ページに表示する';
 $string['showbreaks'] = '改ページ (Page break) を表示する';
+$string['showcategorycontents'] = 'カテゴリコンテンツを表示する $a->arrow';
 $string['showcorrectanswer'] = 'フィードバックの中に正解を表示しますか?';
 $string['showdetailedmarks'] = '評点の詳細を表示する';
 $string['showfeedback'] = '解答後にフィードバックを表示しますか?';
