@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081119) (2008111801)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
 
 
 $string['activities'] = 'Attività';
@@ -258,14 +258,14 @@ $string['hidequickfeedback'] = 'Nascondi Feedback rapido';
 $string['hideranges'] = 'Nascondi intervalli';
 $string['hideverbose'] = 'Nascondi $a->category$a->itemmodule $a->itemname';
 $string['highgradeascending'] = 'Ordina per voti alti crescenti';
-$string['highgradedescending'] = 'Ordina per voti alti decrescenti';
+$string['highgradedescending'] = 'Ordinamento decrescente dei voti migliori';
 $string['highgradeletter'] = 'Max';
 $string['identifier'] = 'Identifica utente con';
 $string['idnumberhelp'] = 'L\'impostazione di un numero ID offre un modo di identificare l\'attività in caso di calcolo della valutazione. Se l\'attività non è inclusa in alcun calcolo allora tale campo può essere lasciato vuoto. Il numero ID per un elemento di valutazione basato su una attività può anche essere definito nella pagina di modifica dell\'attività.';
 $string['idnumbers'] = 'Numeri id';
 $string['import'] = 'Importazione';
 $string['importcsv'] = 'Importazione CSV';
-$string['importcustom'] = 'Importa come obiettivi solo di questo corso';
+$string['importcustom'] = 'Importa come obiettivi di questo corso';
 $string['importerror'] = 'Si è verificato un errore, questo script non è stato attivato con i giusti parametri.';
 $string['importfailed'] = 'Importazione non riuscita';
 $string['importfeedback'] = 'Importazione feedback';
@@ -366,13 +366,13 @@ $string['outcomeitemsedit'] = 'Modifica elemento obiettivo';
 $string['outcomename'] = 'Nome obiettivo';
 $string['outcomereport'] = 'Rapporto obiettivi';
 $string['outcomes'] = 'Obiettivi';
-$string['outcomescourse'] = 'Obiettivi usati nel corso';
+$string['outcomescourse'] = 'Obiettivi in uso nel corso';
 $string['outcomescoursecustom'] = 'Personalizzati (non rimuovere)';
 $string['outcomescoursenotused'] = 'Standard non usati';
 $string['outcomescourseused'] = 'Standard (non rimuovere)';
 $string['outcomescustom'] = 'Obiettivi personalizzati';
 $string['outcomesstandard'] = 'Obiettivi standard';
-$string['outcomesstandardavailable'] = 'Obiettivi standard utilizzabili';
+$string['outcomesstandardavailable'] = 'Obiettivi standard disponibili';
 $string['outcomestandard'] = 'Obiettivo standard';
 $string['outcomestandardhelp'] = 'Un obiettivo standard è utilizzabile in tutto il sito, per tutti i corsi.';
 $string['overallaverage'] = 'Media generale';

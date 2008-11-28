@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081127) (2008112600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -88,7 +88,7 @@ In ogni caso, gli Amministratori verranno avvisati se Clam antivirus dovesse and
 Se scegliete \'Considera i file infetti\' e per qualche motivo Clam antivirus dovesse andare in errore (spesso avviene se il valore di pathtoclam è errato), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o eliminati. Si consiglia di impostare questa variabile con molta attenzione!';
 $string['configcookiehttponly'] = 'Abilita le caratteristiche del PHP 5.2.0. I browser verranno obbligati ad inviare cookie solo tramite protocollo http, in modo da non consentire l\'accesso ai cookie da linguaggi di scripting. Non tutti i browser supportano questa caratteristica che potrebbe non essere compatibile con l\'attuale codice. Questa impostazione aiuta a prevenire alcuni tipi di attacchi XSS.';
 $string['configcookiesecure'] = 'Se il server accetta solamente connessioni https, allora è opportuno abilitare l\'invio di cookie sicuri. Se abilitate questa impostazione, accertatevi che il server web non accetti connessioni http://, oppure impostate un reindirizzamento permanente al protocollo https://. Nel caso in cui l\'indirizzo specificato per <em>wwwroot</em> nella config.php non contenga https://, questa impostazione sarà automaticamente disabilitata.';
-$string['configcountry'] = 'Se scegliete uno Stato qui, questo verrà  proposto di default. Per obbligare un utente a scegliere il proprio stato, lasciatelo in bianco.';
+$string['configcountry'] = 'Il Paese da utilizzare di default nella pagine di creazione di un nuovo account utente. Se non impostate un Paese di default, il campo diventerà a a compilazione obbligatoria.';
 $string['configcoursemanager'] = 'Questa impostazione permette di controllare chi appare nella descrizione del corso. Gli utenti devono avere almeno uno di questi ruoli in un corso per essere mostrati nella descrizione di quel corso.';
 $string['configcoursesperpage'] = 'Numero di corsi da mostrare per pagina in un elenco dei corsi';
 $string['configcreatornewroleid'] = 'Questo ruolo è automaticamente assegnato ai creatori nei nuovi corsi dagli stessi creati. Tale ruolo non viene assegnato se il creatore già possiede possibilità obbligate in un contesto superiore.';
@@ -128,7 +128,7 @@ $string['configenablerssfeedsdisabled'] = 'Non è attiva poiché l\'generatore R
 $string['configenablerssfeedsdisabled2'] = 'I feed RSS sono disabilitati a livello di server. Devono prima essere abilitati in Server/RSS.';
 $string['configenablestats'] = 'Se scegliete \'Si\', all\'esecuzione del cron Moodle elaborerà  i log e genererà  alcune statistiche. La durata di questa operazione dipende dal traffico del vostro sito. Tramite questa impostazione sarete in grado di visualizzare alcuni grafici interessanti relativi ai corsi ed al sito.';
 $string['configenabletrusttext'] = 'Per default Moodle pulisce sempre attentamente testi che provengono dagli utenti e rimuove ogni possibile script malevolo, e altro che potrebbe mettere a rischio la sicurezza. Il sistema di Contenuto Affidabile è un modo per dare a utenti particolari, degni di fiducia, la possibilità di includere qualche possibilità avanzata nei loro contenuti senza alcuna interferenza. Per attivare tale sistema, bisogna prima abilitare questa impostazione, e poi attribuire il permesso di Contenuto Affidabile a un ruolo specifico di Moodle. I testi creati o caricati da tali utenti saranno marcati come \"affidabili\" e non saranno alterati prima della visualizzazione.';
-$string['configenrolmentplugins'] = 'In questa pagina è possibile attivare una o più plugin per regolare le iscrizioni ai corsi. E\' importante curare di impostare i plugin in modo corretto.<br /><br />Potete selezionare i plugin da attivare ma ricordatevi che <strong>dovete necessariamente indicare il plugin che Moodle userà di default per le iscrizioni interattive</strong>, ossia le iscrizioni ai corsi che gli utenti autenticati possono effettuare spontaneamente. Se non desiderate che gli utenti possano iscriversi spontaneamente a determinati corsi, nelle impostazioni di questi corsi impostate a \"No\" la proprietà \"E\' possibile iscriversi al corso?\".';
+$string['configenrolmentplugins'] = 'In questa pagina è possibile attivare una o più plugin per regolare le iscrizioni ai corsi. E\' importante curare di impostare i plugin in modo corretto.<br /><br />Potete selezionare i plugin da attivare ma ricordatevi che <strong>dovete necessariamente indicare il plugin che Moodle userà di default per le iscrizioni interattive</strong>, ossia le iscrizioni ai corsi che gli utenti autenticati possono effettuare spontaneamente. Se non desiderate che gli utenti possano iscriversi spontaneamente a determinati corsi, nelle impostazioni di questi corsi impostate a \"No\" la proprietà \"Iscrizione spontanea\".';
 $string['configerrorlevel'] = 'Scegliete il numero di messaggi di errore di PHP che si desidera visualizzare. \'Normale\' è solitamente l\'opzione migliore.';
 $string['configextendedusernamechars'] = 'Attivate questa opzione per permettere agli studenti di utilizzare qualsiasi carattere nel loro nome utente (da notare che questo non influisce sui loro nomi attuali).
 L\'impostazione predefinita limita l\'uso dei caratteri ai soli alfanumerici (esclude quindi caratteri speciali, caratteri accentati, ecc).';
@@ -165,8 +165,8 @@ $string['configintroadmin'] = 'In questa pagina si dovrebbe configurare l\'accou
 Potrete creare altri account di tipo Amministratore più tardi.';
 $string['configintrosite'] = 'Questa pagina vi permette di configurare la pagina principale e il nome di questo nuovo sito.
 Potrete tornare in un secondo momento su questa pagina per modificare queste impostazioni, seguendo il collegamento \'Impostazioni del sito\' dalla Home Page del sito.Questa pagina';
-$string['configintrotimezones'] = 'Questa pagina cercherà  nuove informazioni sulle impostazioni del fuso orario (incluse le impostazioni sul passaggio all\'ora legale) e aggiornerà  il vostro database locale con queste informazioni.
-Queste località  verranno controllate, in ordine. $a Questa procedura è generalmente molto sicura e non può interrompere una normale installazione. Desiderate aggiornare le impostazioni dell\'ora locale?';
+$string['configintrotimezones'] = 'In questa pagina è possibile aggiornare l\'elenco dei fusi orari e le impostazioni sul passaggio all\'ora legale.  
+L\'elenco dei fusi orari aggiornati sarà cercata in sequenza nei seguenti percorsi di sistema o URL: $a Questa procedura di aggiornamento è priva di rischi e non può pregiudicare il buon funzionamento della vostra attuale installazione. Desiderate aggiornare l\'elenco dei fusi orari?';
 $string['configiplookup'] = 'Quando si clicca su un indirizzo IP (come per es. 34.12.222.93), come riportato nei log, viene visualizzata una mappa con la localizzazione più probabile di quel IP. Ci sono diversi plugin che si possono scegliere per ottenere questo, ciascuno con i suoi pro e contro.';
 $string['configkeeptagnamecase'] = 'Spunta gquesta opzione se vuoi che i nomi delle Tag mantengano i caratteri maiuscoli/minuscoli come definiti dall\'utente che li ha creati.';
 $string['configlang'] = 'Scegliete una lingua predefinita. Gli utenti potranno modificare più tardi queste impostazioni.';
@@ -241,7 +241,7 @@ $string['configsectionsecurity'] = 'Sicurezza';
 $string['configsectionstats'] = 'Statistiche';
 $string['configsectionuser'] = 'Utente';
 $string['configsecureforms'] = 'Moodle può utilizzare un livello aggiuntivo di sicurezza nell\'accettazione di dati provenienti da moduli web. Se attivata, la variabile HTTP_REFERER del browser è confrontata con l\'indirizzo del form attuale. In alcuni rari casi questo può causare problemi se l\'utente sta utilizzando un firewall (ad esempio Zonealarm) configurato per rimuovere HTTP_REFERER dal suo traffico web. Uno dei sintomi è rimanere \'bloccato\' su di un form. Se i vostri utenti dovessero avere problemi con la pagina di login (per esempio), potreste disabilitare questa impostazione, anche se questo può esporre il  sito ad attacchi con forzature di password. Se siete in dubbio, lasciate l\'impostazione su \'Si\'.';
-$string['configsendcoursewelcomemessage'] = 'Se abilitato, gli utenti ricevono un messaggio di benvenuto via email quando si iscrivono spontaneamente in un corso.';
+$string['configsendcoursewelcomemessage'] = 'Se abilitato, gli utenti che si iscrivono spontaneamente in un corso riceveranno un messaggio di benvenuto via email.';
 $string['configsessioncookie'] = 'Questa impostazione personalizza il nome del cookie usato per le sessioni di Moodle. Questa impostazione è opzionale ed è utile solo se più di una copia di Moodle viene eseguita sullo stesso sito web.';
 $string['configsessioncookiepath'] = 'Se è necessario modificare dove i browser inviano i cookie di Moodle, si può modificare questa impostazione specificando la sottodirectory del vostro server web. Altrimenti lo standard \'/\' può andare bene.';
 $string['configsessiontimeout'] = 'Se le persone loggate in questo sito sono inattive da molto tempo (senza caricare pagine) viene automaticamente terminata la loro sessione. Questa variabile specifica la durata della sessione.';
@@ -268,8 +268,8 @@ $string['configsupportemail'] = 'Questo indirizzo email, per gli utenti di quest
 $string['configsupportname'] = 'Questo è il nome della persona o altra entità in grado di offrire assistenza generale tramite la email o il sito web di supporto.';
 $string['configsupportpage'] = 'Questo indirizzo web, per gli utenti di questo sito, sarà quello da linkare se si ha bisogno di assistenza (per esempio, quando nuovi utenti creano il proprio account). Se tale indirizzo è lasciato vuoto, non sarà fornito alcun link.';
 $string['configteacherassignteachers'] = 'Possono i docenti assegnare altri docenti ai corsi in cui insegnano? Se \'No\', gli unici che possono assegnare docenti sono i creatori di corsi e gli amministratori.';
-$string['configthemelist'] = 'Lasciate in bianco se volete permettere l\'utilizzo di un qualunque tema valido. Se desiderate invece abbreviare il menu dei temi, specificate un elenco di temi disponibili, separato da virgole. Per esempio: standard, orangewhite.';
-$string['configtimezone'] = 'Qui potete impostare il fuso orario standard. Questo è l\'unico fuso orario standard per la visualizzazione delle date - ogni utente può scegliere la propria impostazione nel suo profilo. Impostando \"Server time\", si farà  coincidere l\'ora con quella impostata nel sistema operativo del server, mentre impostandolo nel profilo utente corrisponderà  a impostarlo a questo valore.';
+$string['configthemelist'] = 'Lasciate in bianco se volete permettere l\'utilizzo di uno qualunque tema installato. Se desiderate invece accorciare il menu di selezione dei temi, specificate un elenco di temi disponibili, separato da virgole. Per esempio: standard, orangewhite.';
+$string['configtimezone'] = 'Questo è il fuso orario di default. E\' l\'unico fuso orario standard per la visualizzazione delle date - ogni utente nel profilo può scegliere il proprio fuso orario. Scegliendo \"Ora locale del server\", il fuso orario di default coinciderà con il fuso orario del sistema operativo che ospita il sito e tale impostazione sarà usata anche come valore di default nel profilo degli utenti. Anche l\'esecuzione del cron per svolgere alcune operazioni pianificate terrà conto del fuso orario di default.';
 $string['configunzip'] = 'Indica il percorso del programma Unzip di decompressione dati (Solo per Unix). Se specificato, questo programma si occuperà  di spacchettare i files compressi lato server. Se lasciato in bianco, Moodle utilizzerà le proprie routine interne.';
 $string['configusetags'] = 'Abilita la funzionalità Tag nel sito.';
 $string['configvariables'] = 'Variabili';
@@ -430,7 +430,7 @@ $string['gradeexport'] = 'Formati preferiti per l\'esportazione delle valutazion
 $string['guestroleid'] = 'Ruolo per gli ospiti';
 $string['helpadminseesall'] = 'Gli amministratori visualizzano tutti gli eventi calendario o solo quelli a loro stessi collegati?';
 $string['helpcalendarsettings'] = 'Configura vari aspetti in Moodle relativi al calendario, alle date, alle durate.';
-$string['helpforcetimezone'] = 'Potete autorizzare gli utenti a selezionare individualmente il fuso orario, oppure imporre un fuso orario a tutti gli utenti.';
+$string['helpforcetimezone'] = 'Potete autorizzare gli utenti a selezionare il proprio fuso orario, oppure imporre a tutti gli utenti l\'uso dello stesso fuso orario.';
 $string['helpsitemaintenance'] = 'Per aggiornamenti e altro lavoro.';
 $string['helpstartofweek'] = 'Da quale giorno inizia la settimana nel calendario?';
 $string['helpupcominglookahead'] = 'Valore predefinito del numero di giorni futuri che il calendario controlla per gli eventi imminenti.';
@@ -448,9 +448,9 @@ $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Sicurezza HTTP';
 $string['iconvrecommended'] = 'Installare la libreria opzionale ICONV è caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
 $string['importlangreminder'] = 'Il processo di migrazione della base di dati sta per iniziare. Sarà necessario effettuare <b>nuovamente il login</b> perché l\'aggiornamento faccia effetto. Siete pregati di installare i language pack unicode il più presto possibile attraverso Amministrazione->Lingua->Utilità di Importazione Lingue <b>dopo</b> che il processo sia completato.';
-$string['importtimezones'] = 'Aggiorna la lista completa dei fusi orari';
-$string['importtimezonescount'] = '$a->count entries importate da $a->source';
-$string['importtimezonesfailed'] = 'Non è stata trovata sorgente! (brutte notizie)';
+$string['importtimezones'] = 'Aggiorna l\'elenco dei fusi orari';
+$string['importtimezonescount'] = '$a->count fusi orari aggiornati da $a->source';
+$string['importtimezonesfailed'] = 'Non è stata trovata nessuna sorgente! (Brutta notizia)';
 $string['includemoduleuserdata'] = 'Includi i dati utente di modulo';
 $string['incompatibleblocks'] = 'Blocchi non compatibili';
 $string['install'] = 'Installa i Language Pack selezionati';
@@ -739,9 +739,9 @@ $string['themeselector'] = 'Selezione tema';
 $string['themesettings'] = 'Impostazioni tema';
 $string['therewereerrors'] = 'Si sono verificati errori nei vostri dati';
 $string['timezone'] = 'Fuso orario di default';
-$string['timezoneforced'] = 'Questa viene resa obbligatoria dall\'amministratore?';
+$string['timezoneforced'] = 'L\'amministratore può scegliere di non permettere agli utenti di scegliere il proprio fuso orario.';
 $string['timezoneisforcedto'] = 'Obbligare tutti gli utenti all\'utilizzo';
-$string['timezonenotforced'] = 'Gli utenti possono scegliere il loro fuso orario';
+$string['timezonenotforced'] = 'Gli utenti possono scegliere il proprio fuso orario';
 $string['tokenizerrecommended'] = 'E\' raccomandata l\'installazione di Tokenizer - estensione opzionale del PHP - per migliorare la funzionalità del Moodle Networking.';
 $string['unattendedoperation'] = 'Operazione non assistita';
 $string['unbookmarkthispage'] = 'Togli questa pagina dai segnalibri';
@@ -755,7 +755,7 @@ $string['unsupported'] = 'Non supportato';
 $string['updateaccounts'] = 'Aggiornare registrazioni esistenti';
 $string['updatecomponent'] = 'Aggiornare componenti';
 $string['updatelangs'] = 'Aggiorna tutti i Language Pack installati';
-$string['updatetimezones'] = 'Fusi orari';
+$string['updatetimezones'] = 'Aggiorna fusi orari';
 $string['upgradeforumread'] = 'Una nuova caratteristica è stata aggiunta a Moodle 1.5 per tracciare gli interventi letti/non letti di un forum.<br />Per utilizzarla, bisogna<a href=\"$a\">aggiornare le vostre tabelle</a>.';
 $string['upgradeforumreadinfo'] = 'Una nuova caratteristica è stata aggiunta da Moodle 1.5 per tracciare i messaggi letti/non letti di un forum. Per utilizzarla, bisogna aggiornare le vostre tabelle con tutte le informazioni di tracciamento dei messaggi pre-esistenti. Il tempo di esecuzione dipende dalle dimensioni del vostro sito e potrebbe durare anche ore, sottoponendo il server ad un lavoro gravoso. E\' dunque consigliabile farlo in un momento tranquillo. In ogni caso, il sito continuerà  a funzionare durante questa operazione e gli utenti non ne saranno interessati. Una volta lanciato, il processo non dovrebbe essere interrotto, lasciando aperta la finestra del browser. Se si fermasse il processo, chiudendo la finestra del browser, niente paura: si può sempre ricominciare. < br /><br />Si desidera iniziare adesso il processo di aggiornamento?';
 $string['upgradelogs'] = 'Per la piena funzionalità, i vostri vecchi log devono essere aggiornati. <a href=\"$a\">Ulteriori informazioni</a>';

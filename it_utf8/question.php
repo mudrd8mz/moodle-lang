@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // question.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
 
 
 $string['adminreport'] = 'Rapporto su possibili problemi nel tuo database di domande.';
@@ -44,12 +44,12 @@ $string['ignorebroken'] = 'Ignora link interrotti';
 $string['invalidcontextinhasanyquestions'] = 'Contesto non valido passato a question_context_has_any_questions.';
 $string['linkedfiledoesntexist'] = 'Il file linkato $a non esiste';
 $string['makechildof'] = 'Fai un discendente di \'$a\'';
-$string['maketoplevelitem'] = 'Muovi a livello Top';
+$string['maketoplevelitem'] = 'Muovi al primo livello';
 $string['missingimportantcode'] = 'In questo tipo di domanda manca una parte importante: <b>$a</b>.';
 $string['modified'] = 'Ultimo salvataggio';
 $string['move'] = 'Sposta da $a e modifica i link.';
 $string['movecategory'] = 'Sposta Categoria';
-$string['movedquestionsandcategories'] = 'Spostate domande e categorie di domande da $a->oldplace a $a->newplace.';
+$string['movedquestionsandcategories'] = 'Le domande e le categorie di domande sono state spostate da $a->oldplace a $a->newplace.';
 $string['movelinksonly'] = 'Cambia solamente l\'indirizzamento dei link, non spostare o copiare i files.';
 $string['moveq'] = 'Sposta domande';
 $string['moveqtoanothercontext'] = 'Sposta domanda in un altro contesto';
