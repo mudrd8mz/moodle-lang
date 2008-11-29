@@ -36,6 +36,7 @@ $string['explainmethodnormal'] = 'Ces réglages sont effectifs <strong>uniquemen
 $string['generalconfig'] = 'Configuration générale';
 $string['helpchatting'] = 'Aide pour le chat';
 $string['idle'] = 'En attente';
+$string['inputarea'] = 'Zone de saisie';
 $string['invalidid'] = 'Salon de chat introuvable&nbsp;!';
 $string['messagebeepseveryone'] = '$a appelle tout le monde !';
 $string['messagebeepsyou'] = '$a vient de vous appeler!';
@@ -65,6 +66,7 @@ $string['repeatdaily'] = 'Chaque jour à la même heure';
 $string['repeatnone'] = 'Pas de répétition - ne publier que la date spécifiée';
 $string['repeattimes'] = 'Répéter les sessions';
 $string['repeatweekly'] = 'Chaque semaine à la même heure';
+$string['saidto'] = '<b>a dit à</b>';
 $string['savemessages'] = 'Enregistrer les sessions précédentes';
 $string['seesession'] = 'Consulter cette session';
 $string['send'] = 'Envoyer';
@@ -78,6 +80,7 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Tout le monde peut consulter les sessions précédentes';
 $string['updatemethod'] = 'Méthode d\'actualisation';
 $string['updaterate'] = 'Modifier la vitesse&nbsp;: ';
+$string['userlist'] = 'Liste d\'utilisateurs';
 $string['viewreport'] = 'Afficher les sessions précédentes';
 
 ?>
