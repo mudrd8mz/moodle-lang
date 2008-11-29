@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -287,6 +287,21 @@ $string['coursefiles'] = '강좌 파일';
 $string['courseformatdata'] = '강좌 유형 자료';
 $string['courseformats'] = '강좌 유형';
 $string['coursegrades'] = '강좌 성적';
+$string['coursehelpcategory'] = '학생들이 강좌를 쉽게 찾을 수 있도록 제시할 기본 범주';
+$string['coursehelpenrollable'] = '자동 등록 기능을 이용하여 학생 스스로 등록할 수 있게 할 것인가';
+$string['coursehelpenrolmentkey'] = '설정해 놓으면 사용자는 강좌에 등록하려면 이 키를 입력해야 함';
+$string['coursehelpenrolmentplugins'] = '기본적인 자동 등록 플러그인';
+$string['coursehelpexpirynotifystudents'] = '재적 기간을 지정해 놓은 경우, 사용자의 제명 이전에 통지할 것인지 말 것인지를 설정';
+$string['coursehelpexpirythreshold'] = '재적 기간을 지정해 놓은 경우, 사용자를 제명하기 며칠 전에 통지할 것인지를 설정';
+$string['coursehelpforce'] = '강좌 내 모든 활동을 강제 모둠으로 지정';
+$string['coursehelpformat'] = '강좌의 주 화면이 지정된 형식으로 제시됨';
+$string['coursehelphiddensections'] = '학생들에게 강좌내 비 공개 영역이 어떻게 제시될 것인가를 설정';
+$string['coursehelpmaximumupload'] = '사이트 설정을 한계로, 본 강좌의 학생들이 올릴 수 있는 최대 파일 크기를 정의';
+$string['coursehelpmetacourse'] = '하위 강좌 설정. 메타코스는 등록자 및 기타 역할 등을 그 \'하위\' 강좌에서 가져온다.';
+$string['coursehelpnewsitemsnumber'] = '강좌 대문 화면의 오른쪽 새소식난에 게시될 새소식 항목 수<br/>(0 은 새소식난이 나타나지 않음)';
+$string['coursehelpnotify'] = '재적 기간을 지정해 놓은 경우, 참여자를 강좌에서 제명하려고 할 때 교수자에게 통지할 것인지를 설정';
+$string['coursehelpnumberweeks'] = '강좌의 대문 화면에 표시할 학습 주간/주제의 갯수';
+$string['coursehelpshowgrades'] = '성적표 제시 활성화. 개별 활동 영역에서 성적이 표시되도록 한다.';
 $string['coursehidden'] = '아직 학생들이 강좌를 이용할 수 없음';
 $string['courseimportnotaught'] = '당신은 다른 어떤 강좌에 대해서도 편집권한을 갖지 못한 듯 하여 다른 곳에서 학습 내용을 가져올 수 없습니다.';
 $string['courseinfo'] = '강좌 정보';
@@ -613,6 +628,7 @@ $string['filemissing'] = '$a 이 빠짐.';
 $string['files'] = '파일';
 $string['filesfolders'] = '파일/폴더';
 $string['filloutallfields'] = '이 서식의 모든 항목을 채워주세요.';
+$string['filter'] = '필터';
 $string['findmorecourses'] = '더 많은 강좌 보기...';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = '성';
