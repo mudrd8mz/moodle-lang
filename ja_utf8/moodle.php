@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081126) (2008112400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081128) (2008112900)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -315,6 +315,7 @@ $string['courserejectemail'] = '申し訳ございません、あなたがリク
 $a';
 $string['courserejectreason'] = 'あなたが、このコースを拒否する理由のアウトライン<br />(この内容は申請者にメール送信されます。)';
 $string['courserejectsubject'] = 'あなたのコースは拒否されました。';
+$string['coursereports'] = 'コースレポート';
 $string['courserequest'] = 'コースリクエスト';
 $string['courserequestfailed'] = '何らかの理由で、あなたのコースリクエストは保存できませんでした。';
 $string['courserequestintro'] = 'あなたのコース作成をリクエストをするには、このフォームを利用してください。<br />コース開設の理由を管理者が理解し、承認されるために可能な限り多くの情報を<br />入力してください。';

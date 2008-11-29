@@ -3,5 +3,7 @@
 
 
 $string['log:view'] = 'コースログを表示する';
+$string['log:viewlive'] = 'ライブログを表示する';
+$string['loglive'] = 'ライブログ';
 
 ?>
