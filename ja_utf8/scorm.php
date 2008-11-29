@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20081115) (2008111200)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20081128) (2008112900)
 
 
 $string['activation'] = 'アクティベーション';
@@ -58,6 +58,7 @@ $string['exceededmaxattempts'] = 'あなたは、最大受験数に到達しま�
 $string['exit'] = 'コースから抜ける';
 $string['exitactivity'] = '活動から抜ける';
 $string['expcoll'] = '展開する/折りたたむ';
+$string['expired'] = '申し訳ございません、この活動は $a に終了して、これ以上、利用することはできません。';
 $string['external'] = '外部パッケージを更新するタイミング';
 $string['failed'] = '失敗';
 $string['firstaccess'] = '最初のアクセス';
@@ -128,6 +129,7 @@ $string['normal'] = 'ノーマル';
 $string['noscriptnoscorm'] = 'あなたのブラウザがJava スクリプトをサポートしていないか、Java スクリプトサポートが無効にされています。SCORMパッケージが実行されないか、データが正常に保存されません。';
 $string['not_corr_type'] = 'タグ $a->tag のタイプが合致しません。';
 $string['notattempted'] = '未受験';
+$string['notopenyet'] = '申し訳ございません、この活動は $a まで利用することができません。';
 $string['objectives'] = '学習目標';
 $string['onchanges'] = '変更時いつでも';
 $string['options'] = 'オプション';
@@ -160,9 +162,11 @@ $string['scorm:savetrack'] = 'トラックを保存する';
 $string['scorm:skipview'] = '概要をスキップする';
 $string['scorm:viewreport'] = 'レポートを表示する';
 $string['scorm:viewscores'] = '評点を表示する';
+$string['scormclose'] = '終了日時';
 $string['scormcourse'] = '学習コース';
 $string['scormloggingoff'] = 'APIログイン: OFF';
 $string['scormloggingon'] = 'APIログイン: ON';
+$string['scormopen'] = '開始日時';
 $string['scormtype'] = 'タイプ';
 $string['scrollbars'] = 'ウィンドウのスクロールを許可する';
 $string['sided'] = '左側';
@@ -178,6 +182,7 @@ $string['suspended'] = '停止';
 $string['syntax'] = '構文エラー';
 $string['tag_error'] = 'コンテンツに不明なタグ ($a->tag) があります:  $a->value';
 $string['time'] = '時間';
+$string['timerestrict'] = '解答期間を制限する';
 $string['title'] = 'タイトル';
 $string['too_many_attributes'] = 'タグ $a->tag のアトリビュートが多すぎます。';
 $string['too_many_children'] = 'タグ $a->tag の子タグが多すぎます。';
