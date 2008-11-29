@@ -1,6 +1,7 @@
 <?php // $Id$ 
 
 $string['addinganewrole'] = 'Ajout d\'un nouveau rôle';
+$string['addingrolebycopying'] = 'Ajout d\'un nouveau rôle basé sur $a';
 $string['addrole'] = 'Ajouter un nouveau rôle';
 $string['allow'] = 'Autoriser';
 $string['allowassign'] = 'Autoriser l\'attribution des rôles';
@@ -68,17 +69,21 @@ $string['course:viewparticipants'] = 'Voir les participants';
 $string['course:viewscales'] = 'Voir les barêmes';
 $string['course:visibility'] = 'Cacher/afficher les cours';
 $string['createhiddenassign'] = 'Créer des attributions de rôle cachées';
+$string['createrolebycopying'] = 'Créer un rôle en copiant $a';
 $string['currentcontext'] = 'Contexte actuel';
 $string['currentrole'] = 'Rôle actuel';
 $string['defaultrole'] = 'Rôle par défaut';
+$string['defaultx'] = 'Default&nbsp;: $a';
 $string['defineroles'] = 'Définition des rôles';
 $string['deletecourseoverrides'] = 'Supprimer toutes les dérogations du cours';
 $string['deletelocalroles'] = 'Supprimer toutes les attributions de rôles locales';
 $string['deleterolesure'] = '<p>Voulez-vous vraiment supprimer le rôle «&nbsp;$a->name ($a->shortname)&nbsp;»&nbsp;?</p><p>Ce rôle est actuellement attribué à $a->count utilisateurs.</p>';
+$string['deletexrole'] = 'Supprimer le rôle $a';
 $string['duplicaterole'] = 'Dupliquer le rôle';
 $string['duplicaterolesure'] = 'Voulez-vous vraiment dupliquer le rôle «&nbsp;$a->name ($a->shortname)&nbsp;»&nbsp;?';
 $string['editingrolex'] = 'Modification du rôle «&nbsp;$a&nbsp;»';
 $string['editrole'] = 'Modifier rôle';
+$string['editxrole'] = 'Modifier le rôle $a';
 $string['errorbadrolename'] = 'Nom de rôle incorrect';
 $string['errorbadroleshortname'] = 'Nom de rôle abrégé incorrect';
 $string['errorexistsrolename'] = 'Ce nom de rôle existe déjà';
