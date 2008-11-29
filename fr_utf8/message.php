@@ -4,6 +4,7 @@ $string['addcontact'] = 'Ajouter ce contact';
 $string['addsomecontacts'] = 'Pour envoyer un message à quelqu\'un ou ajouter ses coordonnées à cette liste, utilisez <a href=\"$a\">l\'onglet Recherche</a> ci-dessus.';
 $string['addsomecontactsincoming'] = 'Ces messages proviennent de personnes n\'apparaissant pas dans vos contacts. Pour ajouter un nom à vos contacts, cliquez sur l\'icône «&nbsp;Ajouter ce contact&nbsp;» correspondante.';
 $string['ago'] = 'Il y a $a';
+$string['ajax_gui'] = 'Salon de chat Ajax';
 $string['allmine'] = 'Tous mes messages reçus ou envoyés';
 $string['allstudents'] = 'Tous les messages des participants au cours';
 $string['allusers'] = 'Tous les messages de tous les utilisateurs';
