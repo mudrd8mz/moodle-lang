@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20081126) (2008112400)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20081128) (2008112902)
 
 
 $string['1day'] = '하루';
@@ -160,6 +160,7 @@ $string['configreviewoptions'] = '시험을 검토할 때 혹은 시험 보고�
 $string['configshufflequestions'] = '이 기능을 켜면, 시험지의 문항 순서가 학생들이 시도할 때마다 매번 임의로 바뀌게 될 것임';
 $string['configshufflewithin'] = '이 기능을 켜면, 개개 문항을 구성하는 부분들이 매번 무작위로 섞이게 되며, 문항 설정을 다시 할 수 있도록 제공된다.';
 $string['configtimelimit'] = '기본 응시 시간. 0은 무제한';
+$string['configurerandomquestion'] = '문항 설정';
 $string['confirmclose'] = '당신은 이 시도를 끝내려고 합니다. 일단 시도를 종료하면 더 이상 답을 고칠 수 없습니다.';
 $string['confirmserverdelete'] = '당신은 정말 서버 <b>$a</b>를 목록에서 삭제하겠습니까?';
 $string['confirmstartattemptlimit'] = '이 퀴즈는 $a 회의 시도만 허용됩니다. 퀴즈에 들어가면 1회의 기회를 쓰게 됩니다. 계속 하시겠습니까?';
@@ -558,6 +559,7 @@ $string['regradingquiz'] = '퀴즈 \"$a\" 재채점';
 $string['relative'] = '비교';
 $string['remove'] = '삭제';
 $string['removeallquizattempts'] = '모든 퀴즈 시도를 제거';
+$string['removeemptypage'] = '빈 페이지 삭제';
 $string['rename'] = '새이름';
 $string['renderingserverconnectfailed'] = '$a 서버는 RQP 요청을 처리하는데 실패하였습니다. URL이 정확한지 확인하십시오';
 $string['reorderquestions'] = '문항 재정렬';
@@ -628,8 +630,9 @@ $string['shortanswer'] = '주관식 단답형';
 $string['show'] = '보기';
 $string['showall'] = '한 페이지에 모든 문항 보기';
 $string['showbreaks'] = '페이지 중단 표시 보기';
+$string['showcategorycontents'] = '범주 목록 $a->arrow 보기';
 $string['showcorrectanswer'] = '피드백에서 정답을 보여줄까요?';
-$string['showdetailedmarks'] = '점수 세부사항 보기';
+$string['showdetailedmarks'] = '점수 세부사항 보이기';
 $string['showfeedback'] = '답변 후에 피드백을 볼건가요?';
 $string['showhidden'] = '다른 오래된 질문 보기';
 $string['shownoattempts'] = '시도하지 않은 학생들 보기';
