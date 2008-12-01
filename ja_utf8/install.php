@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // install.php - created with Moodle 2.0 dev (Build: 20081128) (2008113001)
 
 
 $string['aborting'] = 'インストール異常終了';
@@ -48,6 +48,12 @@ $string['databasecreationsettings'] = 'ほとんどのMoodleデータが保存�
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用される任意の接頭辞です。';
 $string['databasecreationsettingshead'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行ってください。このデータベースはインストーラーにより、下記の設定が指定された形で自動的に作成されます。';
 $string['databasecreationsettingssub'] = '<b>タイプ:</b> インストーラーにより「mysql」に修正されました。<br />
+<b>ホスト:</b> インストーラーにより「localhost」に修正されました。<br />
+<b>データベース名:</b> 例 moodle<br />
+<b>ユーザ名:</b> インストーラーにより「root」に修正されました。<br />
+<b>パスワード:</b> あなたのデータベースパスワードです。<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用される任意の接頭辞です。';
+$string['databasecreationsettingssub2'] = '<b>タイプ:</b> インストーラーにより「mysqli」に修正されました。<br />
 <b>ホスト:</b> インストーラーにより「localhost」に修正されました。<br />
 <b>データベース名:</b> 例 moodle<br />
 <b>ユーザ名:</b> インストーラーにより「root」に修正されました。<br />

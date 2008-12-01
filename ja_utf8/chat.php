@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20081118) (2008111801)
+      // chat.php - created with Moodle 2.0 dev (Build: 20081128) (2008113001)
 
 
 $string['ajax'] = 'Ajaxバージョン';
@@ -20,7 +20,7 @@ $string['configmethod'] = 'ノーマルチャットメソッドでは、クラ�
 $string['confignormalupdatemode'] = 'チャットルームは、通常HTTP 1.1の<em>Keep-Alive</em>機能を使用して効果的に更新されます。 しかし、この方法はサーバに対して非常に負荷がかかります。さらに進歩した方法は、チャットルームの更新に<em>Stream</em>を使用するものです。<em>Stream</em>を使用する方法 (chatdメソッドに似ています) は、 <em>Keep-Alive</em>機能の使用より優れていますが、あなたのサーバではサポートされていない場合があります。';
 $string['configoldping'] = 'ユーザの応答がなくなってから、どのくらいの時間 (秒数) で退室したとみなしますか? これは単に上限であり、通常の退室は非常に速く検出されます。小さな値を設定する場合、さらにサーバに対して負荷がかかります。ノーマルメソッドを使用している場合、2* chat_refresh_room より小さな値を<strong>設定しないでください</strong>。';
 $string['configrefreshroom'] = 'どのくらいのタイミング (秒数) でチャットルームをリフレッシュしますか? この値を小さくすれば、チャットルームはレスポンスが良いように見えますが、多くの人がチャットをする場合、サーバにかかる負荷が高くなります。あなたが<em>Stream</em>更新を使用している場合、高いリフレッシュ頻度を設定することができます -- 2を試してみてください。';
-$string['configrefreshuserlist'] = 'どのくらいのタイミング (秒数) でユーザ一覧をリフレッシュしますか?';
+$string['configrefreshuserlist'] = 'どのくらいのタイミング (秒数) でユーザリストをリフレッシュしますか?';
 $string['configserverhost'] = 'サーバデーモンが稼動しているホスト名';
 $string['configserverip'] = '上記ホスト名のIPアドレス';
 $string['configservermax'] = '最大クライアント数';
@@ -62,7 +62,7 @@ $string['notlogged'] = 'ログインしていません!';
 $string['oldping'] = '切断タイムアウト';
 $string['pastchats'] = '過去のチャットセッション';
 $string['refreshroom'] = 'チャットルームをリフレッシュする';
-$string['refreshuserlist'] = 'ユーザ一覧をリフレッシュする';
+$string['refreshuserlist'] = 'ユーザリストをリフレッシュする';
 $string['removemessages'] = 'すべてのメッセージを削除する';
 $string['repeatdaily'] = '毎日同じ時間に';
 $string['repeatnone'] = '繰り返しなし - 指定した時間にのみ公開する';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081128) (2008112900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081128) (2008113001)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1571,7 +1571,7 @@ $string['userdeleted'] = 'このユーザのアカウントは削除されまし
 $string['userdescription'] = '自己紹介';
 $string['userdetails'] = 'ユーザ詳細';
 $string['userfiles'] = 'ユーザファイル';
-$string['userlist'] = 'ユーザ一覧';
+$string['userlist'] = 'ユーザリスト';
 $string['username'] = 'ユーザ名';
 $string['usernameemailmatch'] = 'ユーザ名とメールアドレスが同じユーザに関連していません。';
 $string['usernameexists'] = 'このユーザ名はすでに使用されています。他のユーザ名を入力してください。';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081127) (2008112600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081128) (2008113001)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -788,7 +788,7 @@ $string['usehtmleditor'] = 'HTMLエディタを使用する';
 $string['useraccountupdated'] = 'ユーザが更新されました。';
 $string['userbulk'] = 'バルクユーザ処理';
 $string['userdeleted'] = 'ユーザが削除されました。';
-$string['userlist'] = 'ユーザ一覧の表示';
+$string['userlist'] = 'ユーザリストの表示';
 $string['userpolicies'] = 'ユーザポリシー';
 $string['userrenamed'] = 'ユーザがリネームされました。';
 $string['users'] = 'ユーザ';

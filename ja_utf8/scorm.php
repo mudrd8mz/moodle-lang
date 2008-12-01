@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20081128) (2008112900)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20081128) (2008113001)
 
 
 $string['activation'] = 'アクティベーション';
@@ -77,6 +77,7 @@ $string['gradeforattempt'] = '受験の評点';
 $string['gradehighest'] = '最高評点';
 $string['grademethod'] = '評定方法';
 $string['grademethoddesc'] = 'ここでは、活動に対するデフォルト評定方法を設定します。';
+$string['gradereported'] = '記録済み評点';
 $string['gradescoes'] = '学習オブジェクト';
 $string['gradesum'] = '評点の合計';
 $string['height'] = '高さ';
@@ -167,6 +168,7 @@ $string['scormcourse'] = '学習コース';
 $string['scormloggingoff'] = 'APIログイン: OFF';
 $string['scormloggingon'] = 'APIログイン: ON';
 $string['scormopen'] = '開始日時';
+$string['scormresponsedeleted'] = 'ユーザ受験が削除されました。';
 $string['scormtype'] = 'タイプ';
 $string['scrollbars'] = 'ウィンドウのスクロールを許可する';
 $string['sided'] = '左側';
@@ -211,6 +213,5 @@ $string['whatgradedesc'] = 'ここでは、複数回受験時の評点に関す�
 $string['width'] = '幅';
 $string['window'] = 'ウィンドウ設定';
 $string['zlibwarning'] = '警告: このサイトでは、PHP Zlib圧縮が有効にされています。一部のユーザが特定のブラウザでのSCORMオブジェクトのローディングに関して問題を経験することがあります。';
-$string['gradereported'] = '記録済み評点'; //TBD
 
 ?>
