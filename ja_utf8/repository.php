@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20081121) (2008112101)
+      // repository.php - created with Moodle 2.0 dev (Build: 20081128) (2008120100)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -24,6 +24,7 @@ $string['close'] = '閉じる';
 $string['configcacheexpire'] = '外部リポジトリの閲覧時、ファイルリストがローカルにキャッシュされる時間 (秒) です。';
 $string['configsaved'] = '設定が保存されました!';
 $string['confirmdelete'] = '本当にこのリポジトリ「 $a 」を削除してもよろしいですか?';
+$string['confirmdeletefile'] = '本当にこのファイルを削除してもよろしいですか?';
 $string['confirmremove'] = '本当にこのリポジトリプラグイン、オプションおよび<strong style=color:red>すべてのインスタンス</strong>を削除してもよろしいですか - $a?';
 $string['copying'] = 'コピー';
 $string['create'] = '作成';
