@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['abouttobeinstalled'] = 'על סף התקנה';
@@ -73,7 +73,7 @@ $string['adminhelpstickyblocks'] = 'הגדר בלוקים דביקיים בכל 
 $string['adminhelpthemes'] = 'בחר כיצד האתר נראה (צבעים, גופנים וכו\')';
 $string['adminhelpuploadusers'] = 'יבא חשבונות משתמשים חדשים מקובץ טקסט';
 $string['adminhelpusers'] = 'הגדר את המשתמשים שלך והגדר שיטות אימות';
-$string['adminhelpxmldbeditor'] = 'ממשק עבור עריכת קבצי XMLDB. מיועד רק למפתחים';
+$string['adminhelpxmldbeditor'] = 'ממשק עבור עריכת קבצי XMLDB. מיועד רק למפתחים.';
 $string['administration'] = 'ניהול';
 $string['administrationsite'] = 'ניהול האתר';
 $string['administrator'] = 'מנהל';
