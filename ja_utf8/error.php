@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081118) (2008111801)
+      // error.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -126,6 +126,7 @@ $string['cannotsetupcapformod'] = '$a のケイパビリティを設定できま
 $string['cannotsetupcapforplugin'] = '$a のケイパビリティを設定できませんでした。';
 $string['cannotsetupcategory'] = '重大なエラー! デフォルトのコースカテゴリを作成できませんでした!';
 $string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!';
+$string['cannotshowhidecoursesincategory'] = 'カテゴリ $a 内のコースを表示/非表示できません。';
 $string['cannotunassigncap'] = '廃止予定のケイパビリティ $a->cap をロール $a->role から割り当て解除できませんでした。';
 $string['cannotunassignrolefrom'] = 'このユーザをロールID $a から割り当て解除できませんでした。';
 $string['cannotunzipfile'] = 'ZIPファイルを解凍できません。';
@@ -211,6 +212,7 @@ $string['erroronline'] = '$a 行目にエラーがあります。';
 $string['errorreadingfile'] = 'ファイル「 $a 」の読み取り中にエラーが発生しました。';
 $string['errorsettinguserpref'] = 'ユーザプリファレンスの設定中にエラーが発生しました。';
 $string['errorunzippingfiles'] = 'ファイルの解凍処理中にエラーが発生しました。';
+$string['errorupdatingcoursevisibility'] = 'コース可視性の更新中にエラーが発生しました。';
 $string['expiredkey'] = 'キーの有効期限が切れています。';
 $string['failtoloadblocks'] = '1つまたはそれ以上のブロックがデータベースに登録されていますが、すべて読み込みに失敗しました!';
 $string['fieldrequired'] = '「 $a 」 は必須項目です。';

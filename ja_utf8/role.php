@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081125) (2008112400)
+      // role.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -35,7 +35,9 @@ $string['capabilities'] = 'ケイパビリティ';
 $string['capability'] = 'ケイパビリティ';
 $string['category:create'] = 'カテゴリを作成する';
 $string['category:delete'] = 'カテゴリを削除する';
+$string['category:manage'] = 'カテゴリを管理する';
 $string['category:update'] = 'カテゴリを更新する';
+$string['category:viewhiddencategories'] = '非表示のカテゴリを表示する';
 $string['category:visibility'] = '非表示のカテゴリを表示する';
 $string['checkglobalpermissions'] = 'システムパーミッションのチェック';
 $string['checkpermissions'] = 'パーミッションをチェックする';
