@@ -913,6 +913,7 @@ $string['markthistopic'] = 'このトピックを最新トピックとして強�
 $string['matchingsearchandrole'] = '「 $a->search 」および「 $a->role 」に合致';
 $string['maximumchars'] = '$a の最大文字数';
 $string['maximumgrade'] = '最大評点';
+$string['maximumgradex'] = '最大評点: $a';
 $string['maximumshort'] = '最大';
 $string['maximumupload'] = '最大アップロードサイズ';
 $string['maxsize'] = '最大サイズ: $a';
