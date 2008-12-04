@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -315,6 +315,7 @@ $string['courserejectemail'] = '죄송합니다만 당신의 강좌개설 요청
 $a';
 $string['courserejectreason'] = '강좌 개설이 거절된 이유<br />(이것은 신청자에게 이메일로 통보될 것입니다)';
 $string['courserejectsubject'] = '강좌 개설 신청이 거부됨';
+$string['coursereports'] = '강좌 보고서';
 $string['courserequest'] = '개설 요청';
 $string['courserequestfailed'] = '웬일인지, 강좌 개설 요청을 저장할 수 없습니다.';
 $string['courserequestintro'] = '이 양식을 사용해 원하는 교육과정의 개설을 요청하십시오.<br /> 운영자가 왜 당신이 이 교육과정을 개설하려고 하는지 충분히 알 수 있도록 많은 정보를 써주세요.';
@@ -332,6 +333,7 @@ $string['courseupdates'] = '강좌 갱신';
 $string['courseuploadlimit'] = '강좌 업로드 한계';
 $string['create'] = '새로 만들기';
 $string['createaccount'] = '새 계정 만들기';
+$string['createcategory'] = '범주 생성';
 $string['createfolder'] = '$a 에 새 폴더 만들기';
 $string['createuserandpass'] = '아이디와 비밀번호 생성';
 $string['createziparchive'] = '압축 파일 만들기';

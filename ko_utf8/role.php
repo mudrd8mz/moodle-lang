@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081125) (2008112400)
+      // role.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
 
 
 $string['addinganewrole'] = '역할 추가하기';
@@ -35,8 +35,10 @@ $string['capabilities'] = '권한';
 $string['capability'] = '권한';
 $string['category:create'] = '범주 만들기';
 $string['category:delete'] = '범주 삭제';
+$string['category:manage'] = '범주 관리';
 $string['category:update'] = '범주 갱신';
-$string['category:visibility'] = '숨겨진 범주 보기';
+$string['category:viewhiddencategories'] = '비공개 범주 보기';
+$string['category:visibility'] = '비공개 범주 보기';
 $string['checkglobalpermissions'] = '시스템 권한 점검';
 $string['checkpermissions'] = '권한 점검';
 $string['checkpermissionsin'] = '$a 의 권한 점검';

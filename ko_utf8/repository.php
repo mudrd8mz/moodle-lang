@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20081009) (2008100801)
+      // repository.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -24,6 +24,7 @@ $string['close'] = '닫기';
 $string['configcacheexpire'] = '캐쉬 기한 설정';
 $string['configsaved'] = '설정 저장됨!';
 $string['confirmdelete'] = '정말 $a 저장소를 삭제하렵니까?';
+$string['confirmdeletefile'] = '이 파일을 정말 지우겠습니까?';
 $string['confirmremove'] = '정말 $a 저장 플러그인의 <strong style=color:red>모든 인스턴스와 옵션</strong>을 삭제하렵니까?';
 $string['copying'] = '복사 중';
 $string['create'] = '생성';

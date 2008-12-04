@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081126) (2008112400)
+      // error.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -126,6 +126,7 @@ $string['cannotsetupcapformod'] = '$a 에 대한 권한을 설정할 수 없음'
 $string['cannotsetupcapforplugin'] = '$a 에 대한 권한을 설정할 수 없음';
 $string['cannotsetupcategory'] = '심각한 오류! 기본 강좌 범주를 설정할 수 없음!';
 $string['cannotsetupsite'] = '심각한 오류! 사이트를 설정할 수 없음!';
+$string['cannotshowhidecoursesincategory'] = '범주 $a 의 강좌는 공개/비공개할 수 없음';
 $string['cannotunassigncap'] = '업무를 $a->role에서 $a->cap 로 이관할 수 없음';
 $string['cannotunassignrolefrom'] = '이용자를 역할 id: $a 에서 해임할 수 없음';
 $string['cannotunzipfile'] = '압축된 파일을 풀 수 없음';
@@ -211,6 +212,7 @@ $string['erroronline'] = '\"$a\" 번째 줄 오류';
 $string['errorreadingfile'] = '\"$a\" 파일 읽기 오류';
 $string['errorsettinguserpref'] = '개인 설정 오류';
 $string['errorunzippingfiles'] = '파일 압축풀기 오류';
+$string['errorupdatingcoursevisibility'] = '강좌의 공개여부 갱신 오류';
 $string['expiredkey'] = '폐기된 키';
 $string['failtoloadblocks'] = '데이터베이스에 하나 이상의 블록이 등록되어 있지만 모두 탑재에 실패함!';
 $string['fieldrequired'] = '\"$a\"는 필수 항목';
