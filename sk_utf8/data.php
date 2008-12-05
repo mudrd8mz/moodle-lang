@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.1+ (Build: 20080625) (2007101514)
+      // data.php - created with Moodle 1.9.3+ (Build: 20081204) (2007101532.08)
 
 
 $string['action'] = 'Akcia';
@@ -82,6 +82,7 @@ $string['emptyadd'] = 'Pridaná šablóna je prázdna, generujem štandardný fo
 $string['emptyaddform'] = 'Nevyplnili ste žiadne polia!';
 $string['entries'] = 'Záznamy';
 $string['entrieslefttoadd'] = 'Predtým, ako si budete môcť pozrieť ostatné záznamy, musíte pridať $a záznam/záznamy.';
+$string['entrieslefttoaddtoview'] = 'Musíte pridať ešte $a->entrieslefttoview položku/y predtým, ako budete môcť prezerať záznamy od iných účastníkov kurzu.';
 $string['entry'] = 'Záznam';
 $string['entrysaved'] = 'Váš záznam bol uložený';
 $string['errormustbeteacher'] = 'Musíte byť učiteľ pre používanie tejto strany!';

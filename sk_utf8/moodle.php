@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081204) (2007101532.08)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -295,6 +295,7 @@ $string['courserejectemail'] = 'Žiaľ, Vaša žiadosť o kurz bola zamietnutá 
 $a';
 $string['courserejectreason'] = 'Vysvetlite svoje dôvody na zamietnutie žiadosti o kurz<br />(toto bude mailované žiadateľovi)';
 $string['courserejectsubject'] = 'Váš kurz bol zamietnutý';
+$string['coursereports'] = 'Výkazy kurzu';
 $string['courserequest'] = 'Žiadosť o kurz';
 $string['courserequestdisabled'] = 'Ľutujem, ale žiadosti o kurzy nie sú administrátorom aktivovaná.';
 $string['courserequestfailed'] = 'Z nejakého dôvodu nemohla byť vaša žiadosť o kurz uložená.';

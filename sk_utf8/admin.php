@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081204) (2007101532.08)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -618,6 +618,8 @@ $string['recaptchapublickey'] = 'ReCAPTCHA verejný kľúč';
 $string['releasenoteslink'] = 'Informácie o tejto verzii Moodle nájdete v <a target=\"_new\" href=\"$a\">Poznámkach k verzii</a>';
 $string['remotelangnotavailable'] = 'Nepodarilo sa pripojiť k serveru download.moodle.org, automatickú inštaláciu jazykových balíčkov preto nie je možné uskutočniť. Stiahnite prosím príslušné súbory ZIP zo zoznamu nižšie, skopírujte ich do adresára $a a ručne ich dekomprimujte.';
 $string['renameerrors'] = 'Chyby pri premenovaní';
+$string['requiredentrieschanged'] = '<strong>DÔLEŽITÉ - PROSÍM ČÍTAJTE<br/>(Toto upozornenie je zobrazované iba počas tejto aktualizácie)</strong><br/>Vzhľadom k oprave chyby sa zmenilo správanie aktivity databáza, konkrétne nastavení \'Required entries\' a \'Required entries before viewing settings\'. Viac informácií sa dozviete na <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">fóre o databázovom module</a>. Očakávané správanie týchto nastavení je vysvetlené aj na <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
+<br/><br/>Táto zmena ovplyvní nasledovné databázy vo vašom systéme: (Tento zoznam si uložte a po aktualizácii skontrolujte, či sú nastavené tak, ako učitelia očakávajú.)<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Vyžadované. Môžete tu použiť syntax pomocou šablón (%%l = priezvisko, %%f = krstné meno, %%u = login). Viď nápoveda pre detaily a príklady.';
 $string['restrictbydefault'] = 'Obmedziť ponuku implicitne';
 $string['restrictmodulesfor'] = 'Obmedzenie ponuky dostupných modulov';
