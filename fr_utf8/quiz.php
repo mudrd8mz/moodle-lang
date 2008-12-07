@@ -160,6 +160,7 @@ $string['configreviewoptions'] = 'Ces options déterminent les informations que 
 $string['configshufflequestions'] = 'Si cette option est activée, l\'ordre des questions des tests sera déterminé aléatoirement lors de chaque tentative de chaque participant.';
 $string['configshufflewithin'] = 'Si cette option est activée, les parties des questions seront mélangées aléatoirement lors de chaque tentative de chaque participant, pour autant que l\'option soit également définie dans les réglages de la question.';
 $string['configtimelimit'] = 'Le temps imparti aux participants pour effectuer les tests, en minutes. Le nombre 0 indique qu\'il n\'y a pas de limite de temps.';
+$string['configurerandomquestion'] = 'Configurer la question';
 $string['confirmclose'] = 'Vous êtes sur le point d\'arrêter cette tentative. Une fois la tentative arrêtée, vous n\'aurez plus la possibilité de modifier vos réponses.';
 $string['confirmserverdelete'] = 'Voulez-vous vraiment supprimer le serveur <b>$a</b> de la liste&nbsp;?';
 $string['confirmstartattemptlimit'] = 'Ce test est limité à $a tentative(s). Vous êtes sur le point de commencer une nouvelle tentative. Voulez-vous continuer&nbsp;?';
