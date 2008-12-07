@@ -512,6 +512,7 @@ $string['mediapluginrpm'] = 'Activer le filtre .rpm';
 $string['mediapluginswf'] = 'Activer le filtre .swf';
 $string['mediapluginswfnote'] = 'Par mesure de sécurité, les utilisateurs normaux ne devraient pas avoir la permission d\'incorporer des fichiers flash au format swf.';
 $string['mediapluginwmv'] = 'Activer le filtre .wmv';
+$string['mediapluginyoutube'] = 'Activer le filtre YouTube';
 $string['memcachedhosts'] = 'Serveurs memcached';
 $string['memcachedpconn'] = 'Utiliser des connexions memcached persistantes';
 $string['messaging'] = 'Activer la messagerie';
