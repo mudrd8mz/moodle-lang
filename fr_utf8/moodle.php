@@ -312,6 +312,7 @@ $string['courserejected'] = 'La demande de cours a été rejetée et le requéra
 $string['courserejectemail'] = 'Désolé, le cours que vous avez demandé n\'a pas été créé. Voici la raison pour laquelle votre demande a été rejetée :'."\n\n".'$a';
 $string['courserejectreason'] = 'Résumez vos raisons de rejeter ce cours<br />(ce message sera envoyé au requérant)';
 $string['courserejectsubject'] = 'Votre demande d\'ouverture de cours a été rejetée';
+$string['coursereports'] = 'Rapports du cours';
 $string['courserequest'] = 'Demande de cours';
 $string['courserequestdisabled'] = 'Désolé, la demande d\'ouverture de cours a été désactivée par l\'administrateur'; // Moved to error.php for 2.0dev and later
 $string['courserequestfailed'] = 'Votre demande n\'a pas pu être enregistrée pour une raison inconnue';
