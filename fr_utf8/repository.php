@@ -25,6 +25,7 @@ $string['close'] = 'Fermer';
 $string['configcacheexpire'] = 'Durée (en secondes) pendant laquelle les listes de fichiers sont mises localement en cache lors de la consultation de dépôts externes.';
 $string['configsaved'] = 'Configuration enregistrée&nbsp;!';
 $string['confirmdelete'] = 'Voulez-vous vraiment supprimer le dépôt $a&nbsp;?';
+$string['confirmdeletefile'] = 'Voulez-vous vraiment supprimer ce fichier&nbsp;?';
 $string['confirmremove'] = 'Voulez-vous vraiment supprimer le plugin de dépôt $a, ses réglages et <strong style=color:red>toutes ces instances</strong>&nbsp;?';
 $string['copying'] = 'Copie en cours';
 $string['create'] = 'Créer';
