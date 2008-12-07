@@ -48,6 +48,12 @@ $string['databasecreationsettingssub'] = '<b>Type&nbsp;:</b> réglé sur «&nbsp
 <b>Utilisateur&nbsp;:</b> réglé sur «&nbsp;root&nbsp;» par l\'installeur<br />
 <b>Mot de passe&nbsp;:</b> le mot de passe de la base de données<br />
 <b>Préfixe des tables&nbsp;:</b> le préfixe à utiliser pour les noms de toutes les tables (facultatif)';
+$string['databasecreationsettingssub2'] = '<b>Type&nbsp;:</b> réglé sur «&nbsp;mysqli&nbsp;» par l\'installeur<br />
+<b>Serveur&nbsp;:</b> réglé sur «&nbsp;localhost&nbsp;» par l\'installeur<br />
+<b>Nom&nbsp;:</b> nom de la base de données, par exemple «&nbsp;moodle&nbsp;»<br />
+<b>Utilisateur&nbsp;:</b> réglé sur «&nbsp;root&nbsp;» par l\'installeur<br />
+<b>Mot de passe&nbsp;:</b> le mot de passe de la base de données<br />
+<b>Préfixe des tables&nbsp;:</b> le préfixe à utiliser pour les noms de toutes les tables (facultatif)';
 $string['databasehost'] = 'Serveur de base de données :';
 $string['databasename'] = 'Nom de la base de données :';
 $string['databasepass'] = 'Mot de passe de la base de données :';
