@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20081128) (2008112902)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20081206) (2008120400)
 
 
 $string['1day'] = '하루';
@@ -299,7 +299,6 @@ $string['formatnotimplemented'] = '이 형식은 정확하게 구현되지 않�
 $string['formulaerror'] = '수식 오류!';
 $string['fractionsaddwrong'] = '당신이 선택한 점수 총계는 100%% 가 아닙니다.<br /> 현재 합계가 $a %% 입니다. <br />문제를 수정하기 위해 되돌아가겠습니까?';
 $string['fractionsnomax'] = '정답은 100%%가 되어야 합니다.<br /> 그래야 이문제에 대한 등급 처리가 가능합니다.<br /> 이문제를 수정하기 위해 되돌아 가겠습니까?';
-$string['fromcategory'] = '범주로부터';
 $string['fromfile'] = '파일에서 :';
 $string['functiontakesatleasttwo'] = '수식 $a 는 최소 두 개의 인수를 포함해야 함';
 $string['functiontakesnoargs'] = '수식 $a 는 인수를 가지고 있지 않음';
@@ -450,6 +449,7 @@ $string['numattempts'] = '$a->studentnum $a->studentstring 가 $a->attemptnum �
 $string['numattemptsmade'] = '이 퀴즈에 대해 $a 시도가 있었음';
 $string['numberabbr'] = '#';
 $string['numerical'] = '수치형';
+$string['numquestionsx'] = '문항: $a';
 $string['onlyteachersexport'] = '교수자만이 질문을 내보내기 할 수 있음';
 $string['onlyteachersimport'] = '편집 권한이 있는 사람만 질문 가져오기를 할 수 있음';
 $string['open'] = '시작했음';
@@ -506,6 +506,7 @@ $string['questionsinthisquiz'] = '퀴즈의 문항';
 $string['questionsinuse'] = '(별표가 표시된 질문들은 이미 몇몇 퀴즈에서 쓰였습니다. 이 질문들은 범주내에서만 지워지고 퀴즈에서는 지워지지 않을 것입니다.)';
 $string['questionsperpage'] = '한 화면당 질문';
 $string['questionsperpageselected'] = '한 쪽당 문항수가 정해져 있습니다. 따라서 쪽 재배치 기능은 작동하지 않습니다. $a 에서 이를 변경할 수 있습니다.';
+$string['questionsperpagex'] = '화면당 문항 수: $a';
 $string['questiontext'] = '질문 내용';
 $string['questiontextisempty'] = '[빈 문항]';
 $string['questiontype'] = '$a 유형의 질문';
@@ -643,6 +644,7 @@ $string['shuffle'] = '섞기';
 $string['shuffleanswers'] = '답안 섞기';
 $string['shufflequestions'] = '질문 섞기';
 $string['shufflequestionsselected'] = '* 문항 뒤섞음이 무작위로 설정되어 있습니다. 따라서 문항 재배열 버튼은 작동하지 않습니다. 이는 $a 에서 변경할 수 있습니다.';
+$string['shufflequestionsx'] = '문항 뒤섞임: $a';
 $string['shufflewithin'] = '질문내 뒤섞기';
 $string['significantfigures'] = '유효숫자 $a';
 $string['significantfiguresformat'] = '유효 숫자';
@@ -681,7 +683,7 @@ $string['tolerance'] = '허용오차';
 $string['tolerancetype'] = '허용오차 유형';
 $string['toomanyrandom'] = '범주에 저장되어 있는 질문보다 요구한 질문 수가 더 많습니다!';
 $string['top'] = '위';
-$string['totalpoints'] = '총점';
+$string['totalpointsx'] = '총점: $a';
 $string['totalquestionsinrandomqcategory'] = '범주 내 $a 문항의 총계';
 $string['true'] = '진실';
 $string['truefalse'] = 'OX문제';
@@ -711,6 +713,7 @@ $string['withselected'] = '선택한 것을';
 $string['withsummary'] = '요약된 통계와 함께';
 $string['wronggrade'] = '잘못된 점수($a 줄 이후)';
 $string['wronguse'] = '이 페이지를 사용할 수 없음';
+$string['xfromcategory'] = '범주 $a';
 $string['xhtml'] = 'XHTML 형식';
 $string['xml'] = 'XML 형식';
 $string['xmlimportnoname'] = 'xml파일에 문항 제목이 없음';
@@ -721,6 +724,8 @@ $string['youmustwait'] = '이 문제를 다시 시도하려면 잠시 기다려�
 $string['youneedtoenrol'] = '강좌에 등록을 마쳐야 이 퀴즈에 도전할 수 있음';
 $string['yourfinalgradeis'] = '이번 퀴즈의 최종 점수는 $a 입니다.';
 $string['zerosignificantfiguresnotallowed'] = '정답에 0점을 줄 수는 없습니다!';
+$string['fromcategory'] = '범주로부터'; // ORPHANED
+$string['totalpoints'] = '총점'; // ORPHANED
 $string['reviewnotallowed'] = '이 시험에서 다른 사람의 시도를 검토해 볼 수는 없습니다.'; // ORPHANED
 $string['qti2'] = 'IMS OTI 2.0 형식'; // ORPHANED
 $string['blackboard_6'] = 'Blackboard 6.0버전 이상'; // ORPHANED

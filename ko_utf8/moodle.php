@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081206) (2008120400)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -137,6 +137,7 @@ $string['availability'] = '이용가능 상태';
 $string['availablecourses'] = '이용할 수 있는 강좌';
 $string['back'] = '뒤로';
 $string['backto'] = '$a 로 돌아가기';
+$string['backtocourselisting'] = '강좌 목록으로 돌아가기';
 $string['backtoparticipants'] = '참여자 목록으로 돌아가기';
 $string['backup'] = '백업';
 $string['backupactivehelp'] = '자동 백업을 할 것인지의 여부를 선택합니다.';
@@ -309,6 +310,8 @@ $string['coursemessage'] = '강좌 이용자 메세지';
 $string['coursenotaccessible'] = '공개적 접속을 허용하지 않음';
 $string['courseoverview'] = '강좌 개요';
 $string['courseoverviewgraph'] = '강좌 개요표';
+$string['coursereasonforrejecting'] = '요청이 기각된 이유';
+$string['coursereasonforrejectingemail'] = '요청자에게 이메일로 발송될 것임';
 $string['coursereject'] = '개설 요청 거부';
 $string['courserejected'] = '강좌개설이 거부되었고 신청자에게 통보되었습니다.';
 $string['courserejectemail'] = '죄송합니다만 당신의 강좌개설 요청이 거부되었습니다. 다음은 거부 이유입니다:
@@ -317,10 +320,12 @@ $string['courserejectreason'] = '강좌 개설이 거절된 이유<br />(이것�
 $string['courserejectsubject'] = '강좌 개설 신청이 거부됨';
 $string['coursereports'] = '강좌 보고서';
 $string['courserequest'] = '개설 요청';
+$string['courserequestdetails'] = '요청한 강좌의 내역';
 $string['courserequestfailed'] = '웬일인지, 강좌 개설 요청을 저장할 수 없습니다.';
 $string['courserequestintro'] = '이 양식을 사용해 원하는 교육과정의 개설을 요청하십시오.<br /> 운영자가 왜 당신이 이 교육과정을 개설하려고 하는지 충분히 알 수 있도록 많은 정보를 써주세요.';
 $string['courserequestreason'] = '강좌 개설을 원하는 이유';
 $string['courserequestsuccess'] = '개설 신청 저장 성공. 며칠안에 그 결과가 이메일로 통지될 것입니다.';
+$string['courserequestsupport'] = '관리자가 검토할 때 도움이 될 정보';
 $string['courserestore'] = '강좌 복원';
 $string['courses'] = '강좌';
 $string['coursescategory'] = '동일 범주의 강좌';
@@ -896,6 +901,7 @@ $string['markthistopic'] = '이 주제를 현재의 주제로 강조하기';
 $string['matchingsearchandrole'] = '\'$a->search\' $a->role 찾은 내용';
 $string['maximumchars'] = '$a 문자의 최대치';
 $string['maximumgrade'] = '최대 등급';
+$string['maximumgradex'] = '최고 점수: $a';
 $string['maximumshort'] = '최대';
 $string['maximumupload'] = '업로드 제한 용량';
 $string['maxsize'] = '제한 용량: $a';
@@ -1146,6 +1152,7 @@ $string['paymentrequired'] = '이 강좌는 수강하기 위해 등록금이 필
 $string['payments'] = '지불';
 $string['paymentsorry'] = '납입해 주셔서 감사합니다! 하지만 안타깝게도 아직 수납과정이 완료되지 않았으며 강좌에 \"$a->fullname\" 로 완전히 등록되지 않았습니다. 몇 초 후에 계속 강좌 진입을 시도해 보시길 바랍니다. 만일 지속적으로 문제가 있다면 사이트 관리자나 $a->teacher 에게 연락하시기 바랍니다.';
 $string['paymentthanks'] = '납입해 주셔서 감사합니다!<br />강좌 $a 에 정상적으로 등록되었습니다.';
+$string['pendingrequests'] = '보류중인 요청';
 $string['people'] = '수강생';
 $string['periodending'] = '기간 종료 ($a)';
 $string['personal'] = '개인적인';
@@ -1214,6 +1221,7 @@ $string['registrationno'] = '아니오, 이메일을 받지 않겠습니다.';
 $string['registrationsend'] = 'moodle.org에 등록 정보 보내기';
 $string['registrationyes'] = '예, 중요한 사항을 나에게 알려주세요.';
 $string['reject'] = '거절';
+$string['rejectdots'] = '기각...';
 $string['reload'] = '다시 로딩';
 $string['remoteappuser'] = '원격 $a 사용자';
 $string['remove'] = '삭제';

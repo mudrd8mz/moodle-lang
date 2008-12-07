@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
+      // error.php - created with Moodle 2.0 dev (Build: 20081206) (2008120400)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -210,6 +210,7 @@ $string['errorcreatingfile'] = '\"$a\" 파일 생성 오류';
 $string['errorcreatingrole'] = '역할 생성 오류';
 $string['erroronline'] = '\"$a\" 번째 줄 오류';
 $string['errorreadingfile'] = '\"$a\" 파일 읽기 오류';
+$string['errorsavingrequest'] = '요청을 저장하는 중에 오류 발생';
 $string['errorsettinguserpref'] = '개인 설정 오류';
 $string['errorunzippingfiles'] = '파일 압축풀기 오류';
 $string['errorupdatingcoursevisibility'] = '강좌의 공개여부 갱신 오류';
@@ -232,6 +233,7 @@ $string['guestnocomment'] = '손님은 게시물의 논평을 할 수 없음!';
 $string['guestnoeditprofile'] = '손님은 개인정보를 수정할 수 없음';
 $string['guestnoeditprofileother'] = '손님의 개인정보는 수정될 수 없음';
 $string['guestnorate'] = '손님은 게시물의 평가를 할 수 없음';
+$string['guestsarenotallowed'] = '이 작업은 손님에게는 허용되지 않음';
 $string['hackdetected'] = '해커 침입이 탐지됨!';
 $string['hashpoolproblem'] = '$a 에 잘못된 지정 파일';
 $string['headersent'] = '이미 헤더는 전송되었음';
@@ -414,6 +416,7 @@ $string['unknowcontext'] = 'get_child_contexts에 없는 컨텍스트 ($a)';
 $string['unknowformat'] = '알수없는 형식 ($a)';
 $string['unknowncourse'] = '\"$a\"라는 알려지지 않은 강좌';
 $string['unknowncourseidnumber'] = '\"$a\" 강좌는 없습니다.';
+$string['unknowncourserequest'] = '알 수 없는 강좌 요청';
 $string['unknowngroup'] = '알 수 없는 모둠 \"$a\"';
 $string['unknownhelp'] = '알 수 없는 도움말 $a';
 $string['unknownmodulename'] = '양식의 모듈명을 알 수 없음';
