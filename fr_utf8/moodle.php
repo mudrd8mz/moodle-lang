@@ -897,6 +897,7 @@ $string['markthistopic'] = 'Marquer ce thème comme thème en cours';
 $string['matchingsearchandrole'] = 'Correspondant à «&nbsp;$a->search&nbsp;» et $a->role';
 $string['maximumchars'] = '$a caractères maximum';
 $string['maximumgrade'] = 'Note maximale';
+$string['maximumgradex'] = 'Note maximale&nbsp;: $a';
 $string['maximumshort'] = 'Max';
 $string['maximumupload'] = 'Taille maximale des fichiers déposés';
 $string['maxsize'] = 'Taille maximale&nbsp;: $a';
