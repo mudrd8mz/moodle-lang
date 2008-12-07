@@ -564,6 +564,7 @@ $string['regradingquiz'] = 'Nouveau calcul des notes du test «&nbsp;$a&nbsp;»'
 $string['relative'] = 'Relatif';
 $string['remove'] = 'Supprimer';
 $string['removeallquizattempts'] = 'Supprimer toutes les tentatives des tests';
+$string['removeemptypage'] = 'Supprimer page vide';
 $string['rename'] = 'Renommer';
 $string['renderingserverconnectfailed'] = 'Le serveur $a n\'a pas pu traiter une requête RQP. Vérifiez que l\'URL est correcte.';
 $string['reorderquestions'] = 'Réordonner les questions';
