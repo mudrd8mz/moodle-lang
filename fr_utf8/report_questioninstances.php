@@ -9,6 +9,7 @@ $string['reportformissingqtypes'] = 'Rapport pour les questions de type inconnu'
 $string['reportforqtype'] = 'Rapport pour les questions de type «&nbsp;$a&nbsp»';
 $string['reportsettings'] = 'Réglages du rapport';
 $string['questioninstances'] = 'Instances de question';
+$string['questioninstances:view'] = 'Consulter le rapport des instances de question';
 $string['totalquestions'] = 'Total';
 $string['visiblequestions'] = 'Visible';
 
