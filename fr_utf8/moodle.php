@@ -618,6 +618,7 @@ $string['filemissing'] = '$a n\'existe pas';
 $string['files'] = 'Fichiers';
 $string['filesfolders'] = 'Fichiers/dossiers';
 $string['filloutallfields'] = 'Merci de remplir tous les champs de ce formulaire';
+$string['filter'] = 'Filtre';
 $string['findmorecourses'] = 'Rechercher d\'autres cours...';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Prénom';
