@@ -331,6 +331,7 @@ $string['courseupdates'] = 'Modifications du cours';
 $string['courseuploadlimit'] = 'Taille maximale des fichiers déposés dans le cours';
 $string['create'] = 'Créer';
 $string['createaccount'] = 'Créer mon compte';
+$string['createcategory'] = 'Créer catégorie';
 $string['createfolder'] = 'Créer un dossier dans $a';
 $string['createuserandpass'] = 'Créer un compte';
 $string['createziparchive'] = 'Créer une archive compactée zip';
