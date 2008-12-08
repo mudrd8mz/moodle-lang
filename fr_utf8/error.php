@@ -460,6 +460,7 @@ $string['wrongroleid'] = 'Identifiant de rôle incorrect';
 $string['wrongsourcebase'] = 'Adresse URL de base de la source incorrect';
 $string['wrongzipfilename'] = 'Nom de fichier ZIP incorrect';
 $string['xmldberror'] = 'Erreur XMLDB&nbsp;!';
+$string['youcannotdeletecategory'] = 'Vous ne pouvez pas supprimer la catégorie «&nbsp;$a&nbsp;», parce que vous ne pouvez ni supprimer son contenu, ni le déplacer ailleurs.';
 $string['younotteacher'] = 'Vous n\'êtes pas enseignant&nbsp;!';
 
 ?>
