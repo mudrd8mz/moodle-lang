@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
+      // error.php - created with Moodle 2.0 dev (Build: 20081208) (2008120801)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -463,6 +463,7 @@ $string['wrongroleid'] = 'ロールIDが正しくありません!';
 $string['wrongsourcebase'] = 'ソースURIベースが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['xmldberror'] = 'XMLDBエラー!';
+$string['youcannotdeletecategory'] = 'コンテンツを削除または移動できないため、あなたはカテゴリ「 $a 」を削除することはできません。';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
 $string['cannofindgradeitem'] = '評定項目が見つかりません。'; //TBD
 $string['typenotimplement'] = 'TODO: タイプが実装されていません。'; //TBD

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081208) (2008120801)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -402,11 +402,13 @@ $string['defaultcourseteacherdescription'] = '教師は、コース内で活動�
 $string['defaultcourseteachers'] = '教師';
 $string['delete'] = '削除';
 $string['deleteall'] = 'すべてを削除する';
+$string['deleteallcannotundo'] = 'すべてを削除する - 元に戻すことはできません。';
 $string['deleteallcomments'] = 'すべてのコメントを削除する';
 $string['deleteallratings'] = 'すべての評価を削除する';
 $string['deletecategory'] = 'カテゴリの削除: $a';
 $string['deletecategorycheck'] = '本当にこのカテゴリ<b>「 $a 」</b>を完全に削除してもよろしいですか? 親カテゴリがある場合、このカテゴリ内のすべてのコースが親カテゴリに移動されます。親カテゴリが無い場合、その他のカテゴリに移動されます。';
 $string['deletecategorycheck2'] = 'このカテゴリを削除した場合、カテゴリが含んでいるコースおよびサブカテゴリをどのようにするか選択する必要があります。';
+$string['deletecategoryempty'] = 'このカテゴリは空です。';
 $string['deletecheck'] = '$a を削除してもよろしいですか?';
 $string['deletecheckfiles'] = '本当にこれらのファイルを削除してもよろしいですか?';
 $string['deletecheckfull'] = '本当に $a を完全に削除してもよろしいですか?';
@@ -985,6 +987,7 @@ $string['mostrecently'] = '直近の';
 $string['move'] = '移動';
 $string['movecategorycontentto'] = '移動先';
 $string['movecategoryto'] = 'カテゴリの移動:';
+$string['movecontentstoanothercategory'] = 'コンテンツを別のカテゴリに移動する';
 $string['movecourseto'] = 'コースの移動:';
 $string['movedown'] = '下へ';
 $string['movefilestohere'] = 'ファイルをここに移動する';
@@ -1223,6 +1226,7 @@ $string['publicdirectory2'] = 'リンクとともにサイト名を公開しま�
 $string['publicdirectorytitle'] = '現在のサイト一覧を表示する';
 $string['publicsitefileswarning'] = '注意: ここに置いたファイルは誰でもアクセスすることができます。';
 $string['question'] = '質問';
+$string['questionsinthequestionbank'] = '問題バンクの問題';
 $string['readinginfofrombackup'] = 'バックアップより情報を読取り中';
 $string['readme'] = 'READMEファイル';
 $string['recentactivity'] = '最近の活動';
@@ -1495,6 +1499,7 @@ $string['theme'] = 'テーマ';
 $string['themes'] = 'テーマ';
 $string['themesaved'] = '新しいテーマが保存されました。';
 $string['thereareno'] = 'このコースには $a がありません。';
+$string['thiscategorycontains'] = 'このカテゴリは、以下のコンテンツを含みます。';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = '日本語';
@@ -1639,6 +1644,7 @@ $string['welcometocoursetext'] = '$a->coursename へようこそ!
 
  $a->profileurl';
 $string['whattocallzip'] = 'Zipファイルの名称は?';
+$string['whattodo'] = '処理';
 $string['withchosenfiles'] = '選択したものを';
 $string['withoutuserdata'] = 'ユーザデータを除く';
 $string['withselectedusers'] = '選択したユーザに対して ...';
