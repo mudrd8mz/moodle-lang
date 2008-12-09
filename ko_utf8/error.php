@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081206) (2008120400)
+      // error.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
@@ -463,6 +463,7 @@ $string['wrongroleid'] = '부정확한 역할 ID!';
 $string['wrongsourcebase'] = '잘못된 소스 URL  베이스';
 $string['wrongzipfilename'] = '잘못된 ZIP 파일명';
 $string['xmldberror'] = 'XMLDB 오류!';
+$string['youcannotdeletecategory'] = '내용을 옮기거나 삭제할 수 있는 권한이 없기 때문에 \'$a\' 범주를 삭제할 수 없습니다.';
 $string['younotteacher'] = '교수자가 아닙니다!';
 $string['cannofindgradeitem'] = '채점 항목이 없음'; // ORPHANED
 $string['errortoomanylogins'] = '오류-로그인 과다'; // ORPHANED

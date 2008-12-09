@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081206) (2008120400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -403,11 +403,13 @@ $string['defaultcourseteacherdescription'] = '강좌 안에서 교수자는 학�
 $string['defaultcourseteachers'] = '교수자';
 $string['delete'] = '삭제';
 $string['deleteall'] = '전부 삭제';
+$string['deleteallcannotundo'] = '완전 삭제 - 되돌릴 수 없음';
 $string['deleteallcomments'] = '모든 코멘트를 삭제';
 $string['deleteallratings'] = '모든 등급을 삭제';
 $string['deletecategory'] = '$a 범주 삭제';
 $string['deletecategorycheck'] = '<b>\'$a\'<b/> 범주를 완전히 삭제하시겠습니까? 상위 범주로 모든 코스가 이동하거나 다른 장소로 이동됩니다.';
 $string['deletecategorycheck2'] = '이 범주를 삭제하려면, 그 속에 있는 강좌와 범주를 어떻게 할 것인가를 선택해야 합니다.';
+$string['deletecategoryempty'] = '범주가 비었습니다.';
 $string['deletecheck'] = '$a 를 지울까요?';
 $string['deletecheckfiles'] = '이 파일을 지우는 것이 확실합니까?';
 $string['deletecheckfull'] = '$a 파일을 지우는 것이 확실합니까?';
@@ -970,6 +972,7 @@ $string['mostrecently'] = '가장 최근';
 $string['move'] = '옮기기';
 $string['movecategorycontentto'] = '옮겨감';
 $string['movecategoryto'] = '범주를 다음으로 옮김 :';
+$string['movecontentstoanothercategory'] = '다른 범주로 내용 옮기기';
 $string['movecourseto'] = '강좌를 다음으로 옮김 :';
 $string['movedown'] = '아래로 옮김';
 $string['movefilestohere'] = '파일을 여기로 옮김';
@@ -1199,6 +1202,7 @@ $string['publicdirectory2'] = '링크된 사이트 이름을 공개하세요.';
 $string['publicdirectorytitle'] = '사이트의 현재 목록 보기';
 $string['publicsitefileswarning'] = '경고: 이곳의 파일은 누구나 접근할 수 있습니다.';
 $string['question'] = '질문';
+$string['questionsinthequestionbank'] = '문제은행의 문항들';
 $string['readinginfofrombackup'] = '백업된 정보 읽기';
 $string['readme'] = 'README';
 $string['recentactivity'] = '최근 활동';
@@ -1476,6 +1480,7 @@ $string['theme'] = '테마';
 $string['themes'] = '테마';
 $string['themesaved'] = '새로 저장된 테마';
 $string['thereareno'] = '이 강좌에는 $a가 없습니다.';
+$string['thiscategorycontains'] = '본 범주에 포함된 내용들';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = '한국어';
@@ -1618,6 +1623,7 @@ $string['welcometocourse'] = '$a 에 오신 것을 환영합니다.';
 $string['welcometocoursetext'] = '$a->coursename 에 오신 것을 환영합니다.<br />
 $a->profileurl 를 누르면 개인정보를 수정할 수 있습니다.';
 $string['whattocallzip'] = 'zip 파일 이름은?';
+$string['whattodo'] = '실행목록';
 $string['withchosenfiles'] = '선택된 파일(들)을..';
 $string['withoutuserdata'] = '사용자 데이터 제외';
 $string['withselectedusers'] = '선택된 사용자를';
