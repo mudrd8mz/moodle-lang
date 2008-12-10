@@ -59,6 +59,7 @@ $string['course:managegroups'] = 'Gérer les groupes';
 $string['course:managemetacourse'] = 'Gérer les méta-cours';
 $string['course:managequestions'] = 'Gérer les questions';
 $string['course:managescales'] = 'Gérer les barêmes';
+$string['course:request'] = 'Demander de nouveaux cours';
 $string['course:reset'] = 'Réinitialiser les cours';
 $string['course:sectionvisibility'] = 'Contrôler la visibilité des sections';
 $string['course:setcurrentsection'] = 'Fixer la section actuelle';
