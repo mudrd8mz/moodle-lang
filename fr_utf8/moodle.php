@@ -1629,6 +1629,7 @@ $a->profileurl
 Bon travail dans ce cours !';
 $string['whattocallzip'] = 'Quel nom voulez-vous donner au fichier compacté (zip) ?';
 $string['whattodo'] = 'Action à effectuer';
+$string['windowclosing'] = 'Cette fenêtre se fermera automatiquement. Sinon, fermez-la maintenant.';
 $string['withchosenfiles'] = 'Avec les fichiers choisis';
 $string['withoutuserdata'] = 'sans les données des utilisateurs';
 $string['withselectedusers'] = 'Pour les utilisateurs sélectionnés...';
