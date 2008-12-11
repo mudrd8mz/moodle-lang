@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081211) (2008121000)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1624,6 +1624,7 @@ $string['welcometocoursetext'] = '$a->coursename 에 오신 것을 환영합니�
 $a->profileurl 를 누르면 개인정보를 수정할 수 있습니다.';
 $string['whattocallzip'] = 'zip 파일 이름은?';
 $string['whattodo'] = '실행목록';
+$string['windowclosing'] = '이 창은 자동으로 닫혀야 합니다만 아직 닫히지 않았으면 지금 닫아주기 바랍니다.';
 $string['withchosenfiles'] = '선택된 파일(들)을..';
 $string['withoutuserdata'] = '사용자 데이터 제외';
 $string['withselectedusers'] = '선택된 사용자를';

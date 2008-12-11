@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
+      // role.php - created with Moodle 2.0 dev (Build: 20081211) (2008121000)
 
 
 $string['addinganewrole'] = '역할 추가하기';
@@ -59,6 +59,7 @@ $string['course:managegrades'] = '성적 관리';
 $string['course:managegroups'] = '모둠 관리';
 $string['course:managemetacourse'] = '메타코스 관리';
 $string['course:managescales'] = '척도 관리';
+$string['course:request'] = '강좌 개설 요청';
 $string['course:reset'] = '강좌 초기화';
 $string['course:sectionvisibility'] = '영역 보기 조정';
 $string['course:setcurrentsection'] = '현재 영역 설정';

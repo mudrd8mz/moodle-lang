@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -7,6 +7,7 @@ $string['accounts'] = '계정';
 $string['adminseesall'] = '관리자에게 모두 공개';
 $string['adminseesallevents'] = '관리자에게 일정 공개';
 $string['adminseesownevents'] = '관리자는 일반 이용자와 동일';
+$string['advancedfeatures'] = '추가기능 설정';
 $string['allowbeforeblock'] = '허용 IP 우선 처리';
 $string['allowbeforeblockdesc'] = '일반적으로 차단 IP 목록이 우선 적용되지만, 이 기능을 켜 놓으면 허용된 IP 목록을 먼저 처리합니다.';
 $string['allowcategorythemes'] = '범주별 테마 허용';
@@ -88,6 +89,7 @@ $string['configcookiehttponly'] = 'PHP 5.2.0기능 활성화 - 브라우저가 �
 $string['configcookiesecure'] = '만일 서버가 https 접속만 허용한다면 보안 쿠키 제공 활성화를 권장한다. 만일 이를 활성화 해 놓았다면 웹서버는 http://나 https:// 주소로 우회시킨 설정에 대해서는 접속을 허용하지 않을 것이다. <em>wwwroot</em> 가 https:// 로 시작하지 않는  주소에 대해서는 이 설정은 자동적으로 꺼진다.';
 $string['configcountry'] = '만약 여기에 국가를 지정한다면, 지정된 국가는 새로운 이용자계정의 기본값으로 설정된다. 이용자 스스로 국가(언어)를 선택하게 하고 싶으면, 지정하지 말고 그냥 놓아 두어라.';
 $string['configcoursemanager'] = '여기에서는 강좌 소개에 표시하고 싶은 사람을 설정할 수 있게 한다. 기표된 역할이 주어진 이용자는 강좌 설명에 이름이 제시된다.';
+$string['configcourserequestnotify'] = '강좌 요청이 있을 경우 이를 처리해야 할 관리자 아이디 지정';
 $string['configcoursesperpage'] = '강좌 목록에서 페이지당 표시될 강좌의 수를 입력하세요.';
 $string['configcreatornewroleid'] = '강좌를 생성한 사람에게 자동적으로 주어지는 역할. 만일 이미 상위 강좌의 권한을 상속받을 경우에는 역할이 다시 주어지지 않는다.';
 $string['configcronclionly'] = '이것이 설정되면 크론 스크립트는 웹 대신 명령어 줄에서만 실행될 수 있다. 이것은 아래의 크론 암호설정과 연관되어 있다.';
@@ -280,7 +282,10 @@ $string['country'] = '기본 국가';
 $string['coursemanager'] = '강좌 관리자';
 $string['coursemgmt'] = '추가/편집';
 $string['courseoverview'] = '강좌 개요';
+$string['courserequestnotify'] = '개설 요청 알림';
+$string['courserequestnotifyemail'] = '$a->link 에서 $a->user 가 새 강좌 개설 요청';
 $string['courserequests'] = '강좌 개설 요청';
+$string['courserequestspending'] = '강좌 개설 보류중';
 $string['courses'] = '강좌';
 $string['coursesperpage'] = '한 화면당 강좌 수';
 $string['creatornewroleid'] = '새 강좌 생성자의 역할';
@@ -518,6 +523,7 @@ $string['mediapluginrpm'] = 'rpm 필터 사용';
 $string['mediapluginswf'] = 'swf 필터 사용';
 $string['mediapluginswfnote'] = '보안 문제 때문에 일반 이용자의 swf플래시 파일 전송은 허용되지 않습니다.';
 $string['mediapluginwmv'] = 'wmv 필터 사용';
+$string['mediapluginyoutube'] = '유튜브 연결 활성화';
 $string['memcachedhosts'] = '메모리 캐쉬 호스트';
 $string['memcachedpconn'] = '메모리 캐쉬 상시 연결';
 $string['messaging'] = '내부 메시지 발송 가능';
@@ -565,7 +571,6 @@ $string['numquestionsandhidden'] = '$a->numquestions (+$a->numhidden 비공개)'
 $string['opensslrecommended'] = '추가적인 OpenSSL 라이브러리를 설치할 것을 강력히 권고함 -- 무들 네트웍 기능을 이용할 수 있게 됨';
 $string['opentogoogle'] = 'Google에 개방';
 $string['optionalmaintenancemessage'] = '추가 유지보수 알림글';
-$string['optionalsubsystems'] = '부가기능 설정';
 $string['order1'] = '첫번째';
 $string['order2'] = '두번째';
 $string['order3'] = '세번째';
@@ -660,6 +665,7 @@ $string['rcache'] = '기록 캐쉬';
 $string['rcachettl'] = '기록 캐쉬 TTL';
 $string['recaptchaprivatekey'] = 'ReCAPTCHA 비밀키';
 $string['recaptchapublickey'] = 'ReCAPTCHA 공개키';
+$string['registration'] = '시스템등록';
 $string['releasenoteslink'] = '무들 버전에 대한 정보를 얻기 위해서는 온라인 <a target=\"_new\" href=\"$a\">릴리즈 노트</a> 를 보십시요.';
 $string['remotelangnotavailable'] = '무들이 download.moodle.org에 접속하지 못했기 때문에 언어팩을 자동으로 설치하지 못하였습니다. 수동으로 아래에 제시된 목록에서 적절한 zip파일을 내려받아 여러분의 $a 디랙토리에 풀어넣기 바랍니다.';
 $string['renameerrors'] = '이름변경 오류';
@@ -833,6 +839,7 @@ $string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없
 $string['xmlrpcrecommended'] = '추가적인 xmlrpc 확장 설치는 무들 네트웍이 제대로 작동하는 데 쓸모가 있습니다.';
 $string['xmlstrictheaders'] = 'XML 정규 헤더';
 $string['ziprequired'] = '더 이상  info-ZIP 이나 PclZip 라이브러리가 사용되지 않으므로 Zip PHP확장자가 필요합니다.';
+$string['optionalsubsystems'] = '부가기능 설정'; // ORPHANED
 $string['repsettings'] = '저장소 관리'; // ORPHANED
 $string['repsettingsgeneral'] = '일반 저장소 설정'; // ORPHANED
 $string['enableallowedip'] = 'IP 접속 제한 사용'; // ORPHANED
