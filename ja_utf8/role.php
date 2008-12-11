@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
+      // role.php - created with Moodle 2.0 dev (Build: 20081208) (2008121000)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -59,6 +59,7 @@ $string['course:managegrades'] = '評定を管理する';
 $string['course:managegroups'] = 'グループを管理する';
 $string['course:managemetacourse'] = 'メタコースを管理する';
 $string['course:managescales'] = '評価尺度を管理する';
+$string['course:request'] = '新しいコースをリクエストする';
 $string['course:reset'] = 'コースをリセットする';
 $string['course:sectionvisibility'] = 'セクションの視認性をコントロールする';
 $string['course:setcurrentsection'] = '現在のセクションを設定する';

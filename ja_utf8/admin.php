@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081208) (2008121000)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -7,6 +7,7 @@ $string['accounts'] = 'アカウント';
 $string['adminseesall'] = '管理者がすべてを閲覧する';
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示する';
 $string['adminseesownevents'] = '管理者は他のユーザと同じ';
+$string['advancedfeatures'] = '拡張機能';
 $string['allowbeforeblock'] = '最初に「許可されたIPアドレスリスト」を参照する';
 $string['allowbeforeblockdesc'] = 'デフォルトでは、「ブロックIPアドレスリスト」が最初に参照されます。このオプションが有効にされた場合、「ブロックIPアドレスリスト」の前に「許可されたIPアドレスリスト」が参照されます。';
 $string['allowcategorythemes'] = 'カテゴリテーマを許可する';
@@ -88,6 +89,7 @@ $string['configcookiehttponly'] = 'ブラウザが実際のHTTPリクエスト�
 $string['configcookiesecure'] = 'サーバがhttps接続のみ受け付ける場合、セキュアクッキーを有効にすることをお勧めします。有効にした場合、ウェブサーバが http:// を受け付けないこと、または https:// アドレスにパーマネントにリダイレクトされていることを確認してください。<em>wwwroot</em> アドレスが https:// で始まらない場合、この設定は自動的に無効にされます。';
 $string['configcountry'] = 'ここで国を設定した場合、新規ユーザアカウントの国のデフォルトとして選択されます。ユーザに自分で国を選ばせる場合、設定しないままにしてください。';
 $string['configcoursemanager'] = 'ここでは、誰がコース説明に表示されるか設定することができます。ユーザがコースのコース説明に表示されるためには、これらの中から少なくとも１つのロールを割り当ててください。';
+$string['configcourserequestnotify'] = '新しいコースがリクエストされた場合、通知されるユーザのユーザ名を入力してください。';
 $string['configcoursesperpage'] = 'コース一覧の1ページあたりに表示するコース数を入力してください。';
 $string['configcreatornewroleid'] = 'このロールは、新しいコースを作成したコース作成者に自動的に割り当てられます。親コンテクストで必要なケイパビリティを持っている場合、このロールはコース作成者に割り当てられません。';
 $string['configcronclionly'] = 'この設定を有効にした場合、ウェブ経由の代わりに、コマンドラインのみでcronスクリプトを実行することができます。この設定は、下記のcronパスワード設定をオーバーライドします。';
@@ -274,7 +276,10 @@ $string['country'] = 'デフォルトの国';
 $string['coursemanager'] = 'コース管理者';
 $string['coursemgmt'] = 'コースの追加/編集';
 $string['courseoverview'] = 'コース概要';
+$string['courserequestnotify'] = 'コースリクエスト通知';
+$string['courserequestnotifyemail'] = 'ユーザ $a->user が $a->link に新しいコースをリクエストしました。';
 $string['courserequests'] = 'コースリクエスト';
+$string['courserequestspending'] = '保留中のコースリクエスト';
 $string['courses'] = 'コース';
 $string['coursesperpage'] = '1ページあたりのコース数';
 $string['creatornewroleid'] = '新しいコースにおけるコース作成者のロール';
@@ -559,7 +564,6 @@ $string['numquestionsandhidden'] = '$a->numquestions (+$a->numhidden 非表示)'
 $string['opensslrecommended'] = 'Moodleネットワーキング機能を有効にするため、OpenSSLライブラリのインストールを強くお勧めします。';
 $string['opentogoogle'] = 'Googleに公開する';
 $string['optionalmaintenancemessage'] = '任意のメンテナンスメッセージ';
-$string['optionalsubsystems'] = 'オプションサブシステム';
 $string['order1'] = '1番目';
 $string['order2'] = '2番目';
 $string['order3'] = '3番目';
@@ -654,6 +658,7 @@ $string['rcache'] = 'レコードキャッシュ';
 $string['rcachettl'] = 'レコードキャッシュTTL';
 $string['recaptchaprivatekey'] = 'reCAPTCHAプライベートキー';
 $string['recaptchapublickey'] = 'reCAPTCHAパブリックキー';
+$string['registration'] = '登録';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_blank\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、言語パックを自動的にインストールできません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
@@ -829,6 +834,7 @@ $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネ�
 $string['xmlrpcrecommended'] = '任意のxmlrpc拡張モジュールのインストールは、Moodleネットワーキング機能に有用です。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
 $string['ziprequired'] = 'MoodleではPHP Zip拡張モジュールが必須です。info-ZIPバイナリまたはPclZipライブラリは、今後使用されません。';
+$string['optionalsubsystems'] = 'オプションサブシステム'; //TBD
 $string['enableallowedip'] = 'これらのIPアドレスからのクライアントを許可する'; //TBD
 $string['enableallowedipdesc'] = 'このオプションを有効にした場合、「許可されたIPアドレスリスト」のIPアドレスのみアクセスを許可されます。同時に「ブロックIPアドレスリスト」のIPアドレスがブロックされます。'; //TBD
 $string['ipinblockedlist'] = '現在、このサイトは利用できません。'; //TBD

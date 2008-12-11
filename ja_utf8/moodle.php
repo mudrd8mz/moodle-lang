@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081208) (2008120801)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081208) (2008121000)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1244,7 +1244,7 @@ $string['registrationinfo'] = '<p>このページではあなたのMoodleサイ�
 <p>あなたの情報はデフォルトでは公開されません。また、他の人に販売・転送されることはありません。情報を収集する唯一の理由はサポートを目的とするものであり、Moodleコミュニティーの統計的全体像を構築することにあります。<p>登録する場合、あなたのサイト名、国、URIがMoodleサイトの公開リストに登録されます。</p>
 <p>すべての登録内容は公開リストに登録される前に手作業で確認されますが、一旦登録されるといつでも登録内容 (および公開リストの内容) をこのフォームで再登録することができます。</p>';
 $string['registrationno'] = 'いいえ、メールは送信しないでください。';
-$string['registrationsend'] = 'moodle.orgに登録情報を送信する。';
+$string['registrationsend'] = 'moodle.orgに登録情報を送信する';
 $string['registrationyes'] = 'はい、重要事項を知らせてください。';
 $string['reject'] = '拒否';
 $string['rejectdots'] = '拒否 ...';
@@ -1645,6 +1645,7 @@ $string['welcometocoursetext'] = '$a->coursename へようこそ!
  $a->profileurl';
 $string['whattocallzip'] = 'Zipファイルの名称は?';
 $string['whattodo'] = '処理';
+$string['windowclosing'] = 'このウィンドウは、自動的に閉じます。自動的に閉じない場合、ウィンドウを閉じてください。';
 $string['withchosenfiles'] = '選択したものを';
 $string['withoutuserdata'] = 'ユーザデータを除く';
 $string['withselectedusers'] = '選択したユーザに対して ...';
