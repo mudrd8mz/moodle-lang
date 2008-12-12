@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
 $string['add_item'] = '質問を追加する';
@@ -127,6 +127,7 @@ $string['non_anonymous'] = 'ユーザ名を記録し、回答とともに表示�
 $string['non_anonymous_entries'] = '非匿名エントリ';
 $string['not_completed_yet'] = 'まだ完了していません。';
 $string['not_selected'] = '選択されていません。';
+$string['notavailable'] = 'このフィードバックは、利用できません。';
 $string['numeric'] = '数値回答';
 $string['numeric_range_from'] = '開始数値';
 $string['numeric_range_to'] = '終了数値';
