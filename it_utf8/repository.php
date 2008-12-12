@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20081117) (2008111200)
+      // repository.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
 
 
 $string['activaterep'] = 'Repository attivi';
@@ -16,12 +16,12 @@ $string['areauserprofile'] = 'Profilo';
 $string['attachment'] = 'Allegato';
 $string['back'] = '&lt; Indietro';
 $string['cachecleared'] = 'I file in cache sono eliminati';
-$string['cacheexpire'] = 'Durata cache';
+$string['cacheexpire'] = 'Permanenza in cache';
 $string['cleancache'] = 'Elimina i miei file dalla cache';
 $string['clicktohide'] = 'Click qui per nascondere';
 $string['clicktoshow'] = 'Click qui per mostrare';
 $string['close'] = 'Chiudi';
-$string['configcacheexpire'] = 'La durata nella cache (in secondi) degli elenchi di file ottenuti dai repository esterni.';
+$string['configcacheexpire'] = 'La permanenza in cache, espressa in secondi, degli elenchi di file ottenuti dai repository esterni.';
 $string['configsaved'] = 'Configurazione salvata!';
 $string['confirmdelete'] = 'Sei sicuro di voler cancellare il repository $a ?';
 $string['confirmremove'] = 'Sei sicuro di voler eliminare questa repository plugin, le sue opzioni e <strong style=color:red>tutte le sue istanze</strong> - $a?';

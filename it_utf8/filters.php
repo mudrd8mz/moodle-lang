@@ -1,28 +1,28 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20081119) (2008111801)
+      // filters.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
 
 
 $string['actfilterhdr'] = 'Filtri attivi';
 $string['addfilter'] = 'Aggiungi filtro';
-$string['anycategory'] = 'qualunque categoria';
-$string['anycourse'] = 'qualunque corso';
-$string['anyfield'] = 'qualunque campo';
-$string['anyrole'] = 'qualunque ruolo';
-$string['anyvalue'] = 'qualunque valore';
-$string['categoryrole'] = 'Ruolo nella categoria';
+$string['anycategory'] = 'qualsiasi categoria';
+$string['anycourse'] = 'qualsiasi corso';
+$string['anyfield'] = 'qualsiasi campo';
+$string['anyrole'] = 'qualsiasi ruolo';
+$string['anyvalue'] = 'qualsiasi valore';
+$string['categoryrole'] = 'Ruolo di categoria';
 $string['contains'] = 'contiene';
-$string['courserole'] = 'Ruolo nel corso';
+$string['courserole'] = 'Ruolo di corso';
 $string['courserolelabel'] = '$a->label è $a->rolename in $a->coursename da $a->categoryname';
 $string['courserolelabelerror'] = '$a->label errore: il corso $a->coursename non esiste';
 $string['datelabelisafter'] = '$a->label è dopo di $a->after';
 $string['datelabelisbefore'] = '$a->label è prima di $a->before';
 $string['datelabelisbetween'] = '$a->label è tra $a->after e $a->before';
 $string['doesnotcontain'] = 'non contiene';
-$string['endswith'] = 'finisce con';
+$string['endswith'] = 'termina con';
 $string['firstaccess'] = 'Primo accesso';
 $string['globalrolelabel'] = '$a->label è $a->value';
-$string['isafter'] = 'successivo al';
-$string['isanyvalue'] = 'qualunque valore';
+$string['isafter'] = 'dopo il';
+$string['isanyvalue'] = 'qualsiasi valore';
 $string['isbefore'] = 'prima del';
 $string['isdefined'] = 'è definito';
 $string['isempty'] = 'è vuoto';

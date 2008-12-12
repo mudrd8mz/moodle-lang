@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -137,7 +137,7 @@ $string['postrequired'] = 'La funzione di eliminazione richiede una richiesta PO
 $string['promiscuous'] = 'Promiscuo';
 $string['publickey'] = 'Chiave pubblica';
 $string['publickey_help'] = 'La chiave pubblica viene ottenuta automaticamente dal server remoto.';
-$string['publish'] = 'Pubblica';
+$string['publish'] = 'Offri il servizio';
 $string['reallydeleteserver'] = 'Sei sicuro di voler eliminare il server';
 $string['receivedwarnings'] = 'Sono stati ricevuti i seguenti messaggi di attenzione';
 $string['recordnoexists'] = 'Il record non esiste.';
@@ -166,7 +166,7 @@ $string['ssoaccesscontrol'] = 'Controllo accessi SSO';
 $string['ssoacldescr'] = 'Utilizza queste impostazioni per conferire/negare il privilegio di accesso a specifici utenti provenienti da host remoti Moodle Network. Questo è utile quando si offrono servizi SSO a utenti remoti. Se volete gestire il privilegio degli utenti <em>locali</em> ad accedere ad altri host remoti Moodle Network, dovete modificare il ruoli di sistema alterando il privilegio <em>mnetcanroam</em>.';
 $string['ssoaclneeds'] = 'Per questa funzionalità, è necessario che il Moodle Network sia attivato e inoltre che sia abilitato il plugin di autenticazione Moodle Network con abilitata la possibilità di auto-inserimento degli utenti.';
 $string['strict'] = 'Strict';
-$string['subscribe'] = 'Iscriviti';
+$string['subscribe'] = 'Accetta il servizio';
 $string['system'] = 'Sistema';
 $string['testtrustedhosts'] = 'Prova un indirizzo';
 $string['testtrustedhostsexplain'] = 'Inserisci un indirizzo IP per vedere se è un host abilitato.';

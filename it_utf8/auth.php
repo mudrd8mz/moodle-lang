@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
+      // auth.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -215,13 +215,13 @@ $string['auth_ldapnotinstalled'] = 'L\'autenticazione LDAP non può essere usata
 $string['auth_ldaptitle'] = 'Server LDAP';
 $string['auth_manualdescription'] = 'Questo metodo non consente agli utenti di creare un proprio account in autonomia. Gli account degli utenti devono essere creati a mano da un amministratore.';
 $string['auth_manualtitle'] = 'Account manuali';
-$string['auth_mnet_auto_add_remote_users'] = 'Se impostato a SI, un record utente locale è creato quando un utente remoto fa login per la prima volta.';
-$string['auth_mnet_roamin'] = 'Gli utenti di questi host possono essere instradati sul proprio sito';
-$string['auth_mnet_roamout'] = 'I propri utenti possono essere instradati su questi host';
-$string['auth_mnet_rpc_negotiation_timeout'] = 'Timeout in secondi per l\'autenticazione sul trasporto sul XMLRPC';
-$string['auth_mnetdescription'] = 'Gli utenti sono autenticati secondo la rete di diritti definita nelle impostazioni del Moodle Network';
+$string['auth_mnet_auto_add_remote_users'] = 'E\' possibile creare un record nella tabella utenti di questo sito quando un utente si autentica per la prima volta tramite Moodle Netowrk.';
+$string['auth_mnet_roamin'] = 'Gli utenti degli host elencati di seguito possono essere instradati su questo sito';
+$string['auth_mnet_roamout'] = 'I propri utenti possono essere instradati sugli host elencati di seguito';
+$string['auth_mnet_rpc_negotiation_timeout'] = 'Timeout in secondi per l\'autenticazione basata su XMLRPC';
+$string['auth_mnetdescription'] = 'L\'autenticazione Moodle Network permette di autenticare i vostri utenti su altri siti Moodle e viceversa. Gli host autorizzati a ricevere ed instradare utenti sono definiti nelle impostazioni  \"Networking\".';
 $string['auth_mnettitle'] = 'Moodle Network';
-$string['auth_multiplehosts'] = 'Possono essere elencate più macchine remote (es. host1.com;host2.com;host3.com)';
+$string['auth_multiplehosts'] = 'Possono essere elencati più macchine remote (es. host1.com;host2.com;host3.com)';
 $string['auth_nntpchangepasswordurl_key'] = 'URL per cambiare password';
 $string['auth_nntpdescription'] = 'Questo metodo utilizza un server NNTP per controllare se il nome utente e la password dati sono validi.';
 $string['auth_nntphost'] = 'Indirizzo del server NNTP. Usa l\'indirizzo IP, non il nome DNS.';
@@ -301,11 +301,11 @@ $string['auth_user_creation'] = 'I nuovi utenti (anonimi) possono iscriversi all
 $string['auth_usernameexists'] = 'Il nome utente scelto è già  utilizzato. Sceglierne uno nuovo.';
 $string['authenticationoptions'] = 'Opzioni di autenticazione';
 $string['authinstructions'] = 'Qui si possono fornire le istruzioni per i vostri utenti, così potranno sapere quale nome utente e password dovranno usare. Il testo che inserite qui apparirà  nella pagina di login. Se lo lasciate vuoto, non saranno fornite istruzioni.';
-$string['auto_add_remote_users'] = 'Aggiunta automatica utenti remoti';
+$string['auto_add_remote_users'] = 'Aggiungi automaticamente utenti remoti';
 $string['changepassword'] = 'Cambia URL delle password';
 $string['changepasswordhelp'] = 'L\'indirizzo della pagina dove gli utenti possono recarsi per cambiare o recuperare la propria password. L\'indirizzo specificato sarà visualizzato sotto forma di un pulsante nella pagina di login e nel profilo utente. Se l\'indirizzo è lasciato vuoto, il pulsante non verrà  visualizzato.';
 $string['chooseauthmethod'] = 'Metodo di autenticazione';
-$string['createpasswordifneeded'] = 'Creare password se necessario';
+$string['createpasswordifneeded'] = 'Genera le password se necessario';
 $string['enterthenumbersyouhear'] = 'Inserisci i numeri che senti';
 $string['enterthewordsabove'] = 'Inserisci le parole soprastanti';
 $string['errorminpassworddigits'] = 'La password deve avere almeno $a numeri.';
@@ -324,7 +324,7 @@ $string['getanimagecaptcha'] = 'Chiedi un\'immagine CAPTCHA';
 $string['getanothercaptcha'] = 'Chiedi un altro CAPTCHA';
 $string['guestloginbutton'] = 'Pulsante login ospite';
 $string['incorrectpleasetryagain'] = 'Sbagliato. Prova ancora.';
-$string['infilefield'] = 'Campo richiesto nel file';
+$string['infilefield'] = 'Il campo è presente nel file';
 $string['instructions'] = 'Istruzioni';
 $string['internal'] = 'Interna';
 $string['locked'] = 'Bloccato';

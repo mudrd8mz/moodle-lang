@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081117) (2008111200)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
 
 
 $string['activeportfolios'] = 'Portfolio attivi';
@@ -25,6 +25,7 @@ $string['format_text'] = 'Testo';
 $string['format_video'] = 'Video';
 $string['hidden'] = 'Nascosto';
 $string['instancedeleted'] = 'Portfolio eliminato';
+$string['manageportfolios'] = 'Gestione Portfolio';
 $string['portfolio'] = 'Portfolio';
 $string['portfolios'] = 'Portfolio';
 $string['save'] = 'Salva';

@@ -130,7 +130,7 @@ $string['authenticateduser'] = 'Utente autenticato';
 $string['authenticateduserdescription'] = 'Tutti gli utenti loggati.';
 $string['authentication'] = 'Autenticazione';
 $string['authenticationplugins'] = 'Plugin di autenticazione';
-$string['autosubscribe'] = 'Auto scrizione al forum';
+$string['autosubscribe'] = 'Auto iscrizione al forum';
 $string['autosubscribeno'] = 'No: non iscrivermi automaticamente ai forum';
 $string['autosubscribeyes'] = 'Si: quando invio post, iscrivimi a quel forum';
 $string['availability'] = 'Disponibilità';
@@ -610,13 +610,13 @@ $a->past
 
 È possibile andare alla pagina seguente per estendere la durata della loro iscrizione:
 $a->extendurl';
-$string['expirynotifystudents'] = 'Avvertire gli studenti';
+$string['expirynotifystudents'] = 'Avverti gli studenti';
 $string['expirynotifystudentsemail'] = 'Caro studente:
 
 Questo è un avviso per segnalare che l\'iscrizione al corso $a->course scadrà tra $a->threshold giorni.
 
 Sei pregato di contattare il tuo docente per ulteriori chiarimenti.';
-$string['expirythreshold'] = 'Limite';
+$string['expirythreshold'] = 'Soglia';
 $string['explanation'] = 'Spiegazione';
 $string['extendenrol'] = 'Estendi iscrizione';
 $string['extendperiod'] = 'Estendi periodo';
@@ -1188,7 +1188,7 @@ $string['previeworchoose'] = 'Anteprima o scegli tema';
 $string['previous'] = 'Precedente';
 $string['previoussection'] = 'Sezione precedente';
 $string['primaryadminsetup'] = 'Imposta account amministratore';
-$string['profile'] = 'Profilo';
+$string['profile'] = 'Campo personalizzato';
 $string['publicdirectory'] = 'Directory pubblica';
 $string['publicdirectory0'] = 'Non pubbilcare questo sito';
 $string['publicdirectory1'] = 'Pubblica solo il nome del sito';
