@@ -59,7 +59,7 @@ $string['localfile'] = 'Lokalizacja pliku';
 $string['localfilechoose'] = 'Wybierz plik';
 $string['localfilehelp'] = 'Pokaż lokalne pliki';
 $string['localfileinfo'] = '<p>Wybierz lokalny plik na swoim komputerze.
-Plik nie zostanie załadowany na serwer, ale Moodle poszuka tego pliku na komputerze wszystkich użytkowników korzystających z tego zasobu.</p><p>  Ta opcja jest szczególnie użyteczna kiedy udostępniasz wszystkim uczestnikom duże pliki z CD-ROMu. Każdy uczestnik może wówczas, poprzez a href=\"$a\" target=\"_blank\">edycję swojego profilu użytkownika</a>, określić własną lokalną ścieżkę dla takich plików .</p>';
+Plik nie zostanie załadowany na serwer, ale Moodle poszuka tego pliku na komputerze wszystkich użytkowników korzystających z tego zasobu.</p><p>  Ta opcja jest szczególnie użyteczna kiedy udostępniasz wszystkim uczestnikom duże pliki z CD-romu. Każdy uczestnik może wówczas, poprzez <a href=\"$a\" target=\"_blank\">edycję swojego profilu użytkownika</a>, określić własną lokalną ścieżkę dla takich plików.</p>';
 $string['localfilepath'] = 'Ustaw ścieżkę do Twojego lokalnego zasobu, wybierz plik z napędu (przeważnie CD-ROM) na Twoim komputerze, gdzie zasób się znajduje. Plik nie będzie przesyłany ale informacja o napędzie będzie przechowywana i użyta dla lokalnych plików (zasobów).';
 $string['localfileselect'] = 'Wybierz';
 $string['maindirectory'] = 'Folder z głównymi plikami';
@@ -67,7 +67,7 @@ $string['modulename'] = 'Zasób';
 $string['modulenameplural'] = 'Zasoby';
 $string['navigationbuttons'] = 'Przycisk nawigacji';
 $string['navigationmenu'] = 'Menu nawigacji strony';
-$string['navigationup'] = 'Przycisk do góry';
+$string['navigationup'] = 'przycisk do Góry';
 $string['neverseen'] = 'Nigdy nie widziany';
 $string['newdirectories'] = 'Pokazuj Ulubione';
 $string['newfullscreen'] = 'Zapełnij cały ekran';

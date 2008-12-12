@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // message.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['addcontact'] = 'Dodaj kontakt';
-$string['addsomecontacts'] = 'Aby wysłać wiadomość lub dodać skrót do użytkowników na tej stronie, użyj <a href=\"$a\">szukaj tab</a> powyżej.';
+$string['addsomecontacts'] = 'Aby wysłać wiadomość lub dodać skrót do użytkowników na tej stronie, użyj <a href=\"$a\">zakładki szukaj</a> powyżej.';
 $string['addsomecontactsincoming'] = 'Te wiadomości są od użytkowników spoza listy kontaktów. Aby dodać ich do listy, kliknij \"Dodaj kontakt\" obok nazwy użytkownika.';
 $string['ago'] = '$a temu';
 $string['allmine'] = 'Wszystkie moje wiadomości wysłane i otrzymane';

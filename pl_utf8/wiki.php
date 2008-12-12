@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // wiki.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['action'] = '-- Działanie --';
@@ -106,7 +106,7 @@ $string['noadministrationaction'] = 'Brak działania';
 $string['nocandidatestoremove'] = 'Brak stron do usunięcia. Wybierz \'$a\' aby pokazać wszystkie strony.';
 $string['nochangestorevert'] = 'Brak zmian do cofnięcia';
 $string['nohtml'] = 'brakHTML';
-$string['nojslockwarning'] = 'W twojej przeglądarce nie jest włączony Javascript co oznacza, że edycja strony którą w tej chwili wykonujesz nie jest zabezpieczona przed utratą danych. Jeśli ktoś inny rozpocznie w tym samym czasie edycję tej strony nie będziesz mógł zapisać wprowadzonych zmian. Zapisz szybko stronę, włącz Javascript i odsież wyświetlanie strony.';
+$string['nojslockwarning'] = 'W twojej przeglądarce nie jest włączony Javascript co oznacza, że edycja strony którą w tej chwili wykonujesz nie jest zabezpieczona przed utratą danych. Jeśli ktoś inny rozpocznie w tym samym czasie edycję tej strony nie będziesz mógł zapisać wprowadzonych zmian. Zapisz szybko stronę, włącz Javascript i odśwież wyświetlanie strony.';
 $string['nolinksfound'] = 'Nie znaleziono linków na stronie';
 $string['noregexp'] = 'To musi być określony ciąg znaków (nie możesz użyć * lub regex). Co najwyżej możesz wykorzystać IP lub nazwę hosta atakującego, ale nie używaj numeru portu (zwiększa się z każdym dostępem przez http).';
 $string['notadministratewiki'] = 'Nie masz prawa administrowania tym Wiki';
@@ -124,7 +124,7 @@ $string['ownerunknown'] = 'nieznany/e';
 $string['pageactions'] = 'Działania stron';
 $string['pageindex'] = 'Indeks stron';
 $string['pageinfo'] = 'Strona informacyjna';
-$string['pagelocked'] = '<p><strong>Ta strona jest teraz edytowana przez $a->name.</strong> Edycja została rozpoczęta  $a->since i wciąż trwa (window open as of $a->seen.)</p><p>Musisz poczekać na zakończenie tej edycji aby rozpocząc kolejną.</p>';
+$string['pagelocked'] = '<p><strong>Ta strona jest teraz edytowana przez $a->name.</strong> Edycja została rozpoczęta  $a->since i wciąż trwa (window open as of $a->seen.)</p><p>Musisz poczekać na zakończenie tej edycji aby rozpocząć kolejną.</p>';
 $string['pagename'] = 'Nazwa strony';
 $string['pagenamechoice'] = '- lub -';
 $string['pageslinkingto'] = 'Strony odwołujące się do tej strony';
@@ -150,7 +150,7 @@ $string['revertpagescheck'] = 'Czy na pewno cofnąć następujące zmiany:';
 $string['revertthe'] = 'Głębokość zmian wersji - usuń tylko określone zmiany.';
 $string['safehtml'] = 'Bezpieczny HTML';
 $string['save'] = 'Zapisz';
-$string['savenolock'] = 'Nie możesz zapisać tej strony ponieważ nie masz tzw. \'editing lock\' . To może się zdarzyć jeśli Twoja przeglądarka ma wyłączony Javascript lub jeśli inny użytkownik nadpisał Twój \'editing lock\' <br></br> Możesz wrócić do poprzedniego ekranu używając przycisku \'wstecz\' twojej przeglądarki i skopiować tekst zmian, które wprowadziłeś i spróbować modyfikacji ponownie.';
+$string['savenolock'] = 'Nie możesz zapisać tej strony ponieważ nie masz tzw. \'editing lock\'. To może się zdarzyć jeśli Twoja przeglądarka ma wyłączony Javascript lub jeśli inny użytkownik nadpisał Twój \'editing lock\' <br></br> Możesz wrócić do poprzedniego ekranu używając przycisku \'wstecz\' twojej przeglądarki i skopiować tekst zmian, które wprowadziłeś i spróbować modyfikacji ponownie.';
 $string['searchwiki'] = 'Przeszukaj Wiki';
 $string['setpageflags'] = 'Ustaw flagi na stronie';
 $string['showversions'] = 'Pokaż wersje';

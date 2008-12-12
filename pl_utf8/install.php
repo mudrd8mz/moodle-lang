@@ -169,8 +169,8 @@ $string['safemodehelp'] = '“<p> Moodle może mieć wiele zróżnicowanych prob
 <p> Można kontynuować instalacje, lecz należy spodziewać się pewnych problemów w przyszłości.</p>';
 $string['sessionautostart'] = 'Automatyczny start sesji';
 $string['sessionautostarterror'] = 'To powinno być wyłączone';
-$string['sessionautostarthelp'] = '<p>Moodle wymaga obsługi sesjii nie będzie bez niego funkcjonować.</p>
-<p>Sesja może być zainicjowana w pliku php.ini  poszukaj parametrów session.auto_start sesji </p>';
+$string['sessionautostarthelp'] = '<p>Moodle wymaga obsługi sesji i nie będzie bez tego funkcjonować.</p>
+<p>Sesja może być zainicjowana w pliku php.ini poszukaj w nim parametrów session.auto_start sesji </p>';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = 'Widzisz tę stronę, ponieważ z powodzeniem zainstalowałeś i uruchomiłeś <strong>$a->packname $a->packversion</strong>  na swoim komputerze.';
 $string['welcomep30'] = 'Ten instalator <strong>$a->installername</strong> zawiera aplikacje, by stworzyć środowisko, w którym będzie działać <strong>Moodle</strong>, czyli';

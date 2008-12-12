@@ -3,6 +3,7 @@
 
 
 $string['activation'] = 'Aktywacja';
+$string['activityloading'] = 'Automatycznie zostaniesz przeniesiony do aktywności w';
 $string['activitypleasewait'] = 'Ładowanie, proszę czekać...';
 $string['advanced'] = 'Zaawansowane';
 $string['asset'] = 'Kapitał';
@@ -20,6 +21,7 @@ $string['browsed'] = 'Przeglądane';
 $string['browsemode'] = 'Tryb przeglądania';
 $string['chooseapacket'] = 'Wybierz lub uaktualnij pakiet SCORMa';
 $string['completed'] = 'Zakończone';
+$string['confirmloosetracks'] = 'UWAGA: Ten pakiet wydaje się być zmienionym lub zmodyfikowanym. Jeśli struktura tego pakietu uległa zmianie, niektóre informacje o użyciu pakietu przez użytkowników mogą zostać utracone.';
 $string['contents'] = 'Zawartość';
 $string['coursepacket'] = 'Pakiet kursu';
 $string['coursestruct'] = 'Struktura kursu';
@@ -76,8 +78,8 @@ $string['missing_attribute'] = 'Brakuje atrybutu $a->attr w tagu $a->tag';
 $string['missing_tag'] = 'Brakuje tagu $a->tag';
 $string['missingparam'] = 'Wymagane jest pominięte lub brakuje';
 $string['mode'] = 'Tryb';
-$string['modulename'] = 'Scorm';
-$string['modulenameplural'] = 'Scormy';
+$string['modulename'] = 'SCORM/AICC';
+$string['modulenameplural'] = 'SCORMy';
 $string['newattempt'] = 'Rozpocznij nową próbę';
 $string['next'] = 'Kontynuuj';
 $string['no_attributes'] = 'Tag $a->tag musi mieć atrybuty';
@@ -97,6 +99,7 @@ $string['organization'] = 'Organizacja';
 $string['organizations'] = 'Organizacje';
 $string['othersettings'] = 'Dodatkowe ustawienia';
 $string['othertracks'] = 'Inne drogi';
+$string['package'] = 'Plik pakietu';
 $string['packagedir'] = 'Błąd systemu plików: Nie można utworzyć folderu dla pakietu';
 $string['packagefile'] = 'Nie wskazano pliku';
 $string['passed'] = 'Udane';
@@ -149,5 +152,7 @@ $string['whatgrade'] = 'Oceń próby';
 $string['width'] = 'Szerokość';
 $string['window'] = 'Okno';
 $string['popupblockedlinkname'] = 'tutaj'; // ORPHANED
+$string['autocontinuedesc'] = 'To ustawienie włącza aktywność automatycznej kontynuacji'; // ORPHANED
+$string['displaydesc'] = 'To ustawienie włącza pokazywanie pakietu dla aktywności'; // ORPHANED
 
 ?>
