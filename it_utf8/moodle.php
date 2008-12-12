@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -31,8 +31,8 @@ $string['addedtogroupnotenrolled'] = 'Non aggiunto al gruppo $a, perché non isc
 $string['addinganew'] = 'Creazione $a';
 $string['addinganewto'] = 'Aggiungi $a->what a $a->to';
 $string['addingdatatoexisting'] = 'Aggiungi a dati esistenti';
-$string['addnewcategory'] = 'Crea una nuova categoria';
-$string['addnewcourse'] = 'Crea un nuovo corso';
+$string['addnewcategory'] = 'Aggiungi una nuova categoria';
+$string['addnewcourse'] = 'Aggiungi un nuovo corso';
 $string['addnewuser'] = 'Nuovo utente';
 $string['addnousersrecip'] = 'Aggiungere gli utenti che non hanno mai esaminato questa $a alla lista dei destinatari';
 $string['addresource'] = 'Aggiungi una risorsa...';
@@ -70,7 +70,7 @@ $string['adminhelpmymoodle'] = 'Configura i blocchi di MyMoodle per gli utenti';
 $string['adminhelpreports'] = 'Report per l\'intero sito';
 $string['adminhelpsitefiles'] = 'Pubblica file generici e carica copie di salvataggio esterne';
 $string['adminhelpsitesettings'] = 'Definisci come la pagina principale deve essere visualizzata';
-$string['adminhelpstickyblocks'] = 'Impostare i blocchi \"pinzati\" per tutto Moodle';
+$string['adminhelpstickyblocks'] = 'Imposta blocchi \"permanenti\" per tutto il sito Moodle';
 $string['adminhelpthemes'] = 'Scelta del tema del sito (colori, caratteri, ecc)';
 $string['adminhelpuploadusers'] = 'Importa registrazioni di nuovi utenti da un file di testo';
 $string['adminhelpusers'] = 'Definisci e configura il metodo di autenticazione degli utenti';
@@ -447,7 +447,7 @@ $string['edhelpfontsize'] = 'font-size imposta la dimensione standard per i font
 $string['edit'] = 'Modifica $a';
 $string['editcategorysettings'] = 'Modifica impostazioni categoria';
 $string['editcategorythis'] = 'Modifica questa categoria';
-$string['editcoursesettings'] = 'Modifica impostazioni del corso';
+$string['editcoursesettings'] = 'Impostazioni del corso';
 $string['editfiles'] = 'Modifica i file';
 $string['editgroupprofile'] = 'Modifica profilo del gruppo';
 $string['editinga'] = 'Modifica di $a';
@@ -892,7 +892,7 @@ $string['manageblocks'] = 'Blocchi';
 $string['managecourses'] = 'Gestisci i corsi';
 $string['managedatabase'] = 'Gestione database';
 $string['managefilters'] = 'Filtri';
-$string['managemeta'] = 'Questo è un meta corso?';
+$string['managemeta'] = 'Meta corso';
 $string['managemetadisabled'] = 'Disabilitato in quanto questo corso fa già parte di un meta corso';
 $string['managemetaexplan'] = '(Questo significa che le iscrizioni sono ereditate da altri corsi)';
 $string['managemodules'] = 'Moduli';
@@ -1319,7 +1319,7 @@ $string['setcategorytheme'] = 'Imposta Tema di categoria';
 $string['settings'] = 'Impostazioni';
 $string['shortname'] = 'Nome breve';
 $string['shortnamecollisionwarning'] = '[*] = Questo nome breve è già utilizzato da un corso e sarà necessario modificarlo all\'approvazione';
-$string['shortnamecourse'] = 'Titolo breve del corso';
+$string['shortnamecourse'] = 'Titolo abbreviato';
 $string['shortnametaken'] = 'Nome breve già utilizzato da un altro corso ($a)';
 $string['shortsitename'] = 'Nome breve per il sito (es. singola parola)';
 $string['show'] = 'Mostra';
@@ -1442,7 +1442,7 @@ $string['studentviewon'] = 'Attiva vista studente';
 $string['subcategories'] = 'Sottocategorie';
 $string['submit'] = 'Invia';
 $string['success'] = 'Operazione eseguita con successo';
-$string['summary'] = 'Riassunto';
+$string['summary'] = 'Introduzione';
 $string['summaryof'] = 'Riassunto di $a';
 $string['supplyinfo'] = 'Compilare con le tue informazioni';
 $string['switchrolereturn'] = 'Ritorna al mio ruolo normale';

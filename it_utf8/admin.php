@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -565,7 +565,6 @@ $string['numquestions'] = 'Num. domande';
 $string['opensslrecommended'] = 'E\' fortemente raccomandata l\'installazione della libreria opzionale OpenSSL -- questa abilita la funzionalità Moodle Networking.';
 $string['opentogoogle'] = 'Aperto a Google';
 $string['optionalmaintenancemessage'] = 'Messaggio di modalità manutenzione opzionale';
-$string['optionalsubsystems'] = 'Sottosistemi opzionali';
 $string['order1'] = 'Primo';
 $string['order2'] = 'Secondo';
 $string['order3'] = 'Terzo';
@@ -723,8 +722,8 @@ $string['statsruntimestart'] = 'Eseguire alle';
 $string['statsuserthreshold'] = 'Soglia utenti';
 $string['stickyblocks'] = 'Blocchi permanenti';
 $string['stickyblockscourseview'] = 'Pagina del Corso';
-$string['stickyblocksduplicatenotice'] = 'Se un blocco aggiunto qui esiste già  in una particolare pagina, risulterà  duplicato.<br />Solo i blocchi \"pinzati\" non saranno modificabili, il duplicato continuerà  ad essere modificabile.';
-$string['stickyblocksmymoodle'] = 'Mio Moodle';
+$string['stickyblocksduplicatenotice'] = 'Se aggiungete blocchi permanenti che sono già presenti in una data pagina, tali blocchi risulteranno duplicati.<br />Se riscontrate questa situazione, tenete presente che solo i blocchi permanenti non potranno essere modificati, mentre i blocchi duplicati potranno essere spostati o eliminati.';
+$string['stickyblocksmymoodle'] = 'Il mio Moodle';
 $string['stickyblockspagetype'] = 'Tipo di pagina da configurare';
 $string['stripalltitletags'] = 'Rimuovi le tag HTML da tutti i nomi attività';
 $string['supportemail'] = 'Email assistenza';
@@ -829,6 +828,7 @@ $string['webproxyinfo'] = 'Definire i seguenti parametri se il proprio server Mo
 $string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlrpc è utile per le funzionalità del Moodle Networking.';
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
 $string['ziprequired'] = 'Ora Moodle richiede l\'estensione Zip PHP. Gli esguibili info-ZIP o la libreria PclZip non è più usata.';
+$string['optionalsubsystems'] = 'Sottosistemi opzionali'; // ORPHANED
 $string['configenablerecordcache'] = 'Se si abilita questa impostazione, sarà effettuato del caching in memoria durante la ricerca di informazioni da un database. Questo significa che la velocità di funzionamento del database sarà maggiore, ma nello stesso tempo, i requisiti di memoria del web server aumenteranno leggermente. Generalmente si consiglia di abilitare questa impostazione salvo nel caso in cui il server abbia poca memoria. Alcuni processi possono decidere di non tener conto di questa impostazione quando il programmatore è sicuro di un miglioramento delle prestazioni.'; // ORPHANED
 
 ?>
