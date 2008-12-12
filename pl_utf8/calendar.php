@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // calendar.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['advancedoptions'] = 'Opcje zaawansowane';
@@ -81,7 +81,7 @@ $string['noupcomingevents'] = 'Brak nadchodzących spotkań';
 $string['oneevent'] = '1 termin';
 $string['pref_lookahead'] = 'Nadchodzące spotkania';
 $string['pref_maxevents'] = 'Maximum nadchodzących spotkań';
-$string['pref_persistflt'] = 'Pamiętaj ustawienia filtra';
+$string['pref_persistflt'] = 'Zapamiętaj ustawienia filtra';
 $string['pref_startwday'] = 'Pierwszy dzień tygodnia';
 $string['pref_timeformat'] = 'Format wyświetlenia czasu';
 $string['preferences'] = 'Preferencje';
@@ -109,7 +109,7 @@ $string['tt_deleteevent'] = 'Usuń';
 $string['tt_editevent'] = 'Edytuj';
 $string['tt_hidecourse'] = 'Terminy kursu (kliknij, aby ukryć)';
 $string['tt_hideglobal'] = 'Terminy globalne (kliknij, aby ukryć)';
-$string['tt_hidegroups'] = 'Terminy grupowe(kliknij, aby ukryć)';
+$string['tt_hidegroups'] = 'Terminy grupowe (kliknij, aby ukryć)';
 $string['tt_hideuser'] = 'Terminy użytkownika (kliknij, aby ukryć)';
 $string['tt_showcourse'] = 'Terminy kursu (kliknij aby pokazać)';
 $string['tt_showglobal'] = 'Terminy globalne (kliknij aby pokazać)';

@@ -1,9 +1,8 @@
 <?PHP // $Id$ 
-      // gradeimport_csv.php - created with Moodle 1.9 Beta 4 (2007101508)
-      // local modifications from http://localhost/moodle
+      // gradeimport_csv.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['csv:view'] = 'Importuj oceny z pliku CSV';
-$string['modulename'] = 'Plik CSV';
+$string['modulename'] = 'plik CSV';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // forum.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['addanewdiscussion'] = 'Dodaj nowy temat dyskusji';
@@ -49,7 +49,7 @@ $string['delete'] = 'Usuń';
 $string['deleteddiscussion'] = 'Usunięto temat dyskusji';
 $string['deletedpost'] = 'Post został usunięty';
 $string['deletedposts'] = 'Posty zostały usunięte';
-$string['deletesure'] = 'Czy masz pewność, że chcesz usunąć te post?';
+$string['deletesure'] = 'Czy masz pewność, że chcesz usunąć ten post?';
 $string['deletesureplural'] = 'Czy na pewno chcesz usunąć ten post i wszystkie odpowiedzi? ($a postów)';
 $string['digestmailheader'] = 'To jest twoje dzienne streszczenie postów z forum $a->sitename. Aby zmienić emailowe preferencje forum, idź do $a->userprefs.';
 $string['digestmailprefs'] = 'profil użytkownika';
@@ -75,7 +75,7 @@ $string['editedby'] = 'Edytowany przez $a->name - $a->date';
 $string['editing'] = 'Edycja';
 $string['emptymessage'] = 'Coś nie tak z twoim postem. Być może był  pusty lub załącznik był zbyt duży. Twoje zmiany nie zostały zapisane';
 $string['everyonecanchoose'] = 'Każdy może się zapisać na forum';
-$string['everyonecannowchoose'] = 'Każdy może teraz wybrać subskrybcję';
+$string['everyonecannowchoose'] = 'Każdy może teraz wybrać subskrypcję';
 $string['everyoneisnowsubscribed'] = 'Wszyscy subskrybują to forum';
 $string['everyoneissubscribed'] = 'Każdy jest zapisany na to forum';
 $string['existingsubscribers'] = 'Istniejący subskrybenci';
@@ -95,7 +95,7 @@ $string['forum:rate'] = 'Ocenić wiadomości';
 $string['forum:replynews'] = 'Odpowiedzieć na aktualności';
 $string['forum:replypost'] = 'Odpowiedzieć na wiadomość';
 $string['forum:splitdiscussions'] = 'Podzielić dyskusje';
-$string['forum:startdiscussion'] = 'Ropocząć nową dyskusję';
+$string['forum:startdiscussion'] = 'Rozpocząć nową dyskusję';
 $string['forum:viewanyrating'] = 'przeglądać dowolne oceny';
 $string['forum:viewdiscussion'] = 'Przeglądać dyskusje';
 $string['forum:viewqandawithoutposting'] = 'Pokazuj pytania i odpowiedzi również osobom które nie odpowiedziały';
@@ -148,7 +148,7 @@ $string['namesocial'] = 'Forum towarzyskie';
 $string['nameteacher'] = 'Forum nauczycielskie';
 $string['newforumposts'] = 'Nowe wiadomości na forum';
 $string['nodiscussions'] = 'Nie ma żadnych tematów na tym forum';
-$string['nodiscussionsstartedby'] = 'Brak dyskusji ropoczętych przez tego użytkonika';
+$string['nodiscussionsstartedby'] = 'Brak dyskusji rozpoczętych przez tego użytkownika';
 $string['noguestpost'] = 'Niestety goście nie mogą zabierać głosu na tym forum';
 $string['noguestsubscribe'] = 'Niestety goście nie mogą ustawić przysyłania postów na e-mail';
 $string['noguesttracking'] = 'Niestety goście nie mogą zmienić opcji obserwowania postów.';
@@ -181,6 +181,7 @@ $string['parent'] = 'Przejdź do wiadomości wyżej („parent”)';
 $string['parentofthispost'] = 'Wiadomość nadrzędna';
 $string['postadded'] = 'Twój post został dodany. <br />Jeżeli chcesz coś jeszcze zmienić masz $a na edycję.';
 $string['postaddedsuccess'] = 'Twój post został dodany.';
+$string['postaddedtimeleft'] = 'Masz $a, aby go edytować, jeśli chcesz wprowadzić jakieś zmiany.';
 $string['postincontext'] = 'Zobacz ten post w kontekście';
 $string['postmailinfo'] = 'To jest kopia wiadomości wysłanej przez serwis  $a. Aby dodać odpowiedź poprzez stronę WWW kliknij poniższy link:';
 $string['postmailnow'] = '<p>Ten post zostanie natychmiast wysłany do wszystkich użytkowników forum</p>';
@@ -188,7 +189,7 @@ $string['postrating1'] = 'Demonstruje głównie poznawanie odrębne';
 $string['postrating2'] = 'Demonstruje w równym stopniu poznawanie odrębne i powiązane';
 $string['postrating3'] = 'Demonstruje głównie poznawanie powiązane';
 $string['posts'] = 'Posty';
-$string['posttoforum'] = 'Post do forum';
+$string['posttoforum'] = 'Wyślij post na forum';
 $string['postupdated'] = 'Twój post został zaktualizowany';
 $string['potentialsubscribers'] = 'Potencjalni subskrybenci';
 $string['processingdigest'] = 'Przetwarzanie streszczenia maili użytkownika $a';

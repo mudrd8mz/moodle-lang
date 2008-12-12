@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // access.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['access'] = 'Dostępność';
 $string['accesshelp'] = 'Pomoc nt. dostępności';
 $string['accesskey'] = 'Klucz dostępu, $a';
-$string['accessstatement'] = 'Orzeczenie dostępności';
+$string['accessstatement'] = 'Status dostępności';
 $string['activitynext'] = 'Następna aktywność';
 $string['activityprev'] = 'Poprzednia aktywność';
 $string['breadcrumb'] = 'Ślad';
@@ -20,7 +20,7 @@ $string['skipa'] = 'Pomiń $a';
 $string['skipblock'] = 'Pomiń blok';
 $string['skipnavigation'] = 'Pomiń nawigację';
 $string['tabledata'] = 'Tabela danych, $a';
-$string['tablelayout'] = 'Tabela układu';
+$string['tablelayout'] = 'Tabela układu, $a';
 $string['tocontent'] = 'Przejdź do głównej zawartości';
 $string['tonavigation'] = 'Przejdź do nawigacji';
 $string['youarehere'] = 'Jesteś tutaj';

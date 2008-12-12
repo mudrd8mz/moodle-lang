@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
-      // local modifications from http://www.translation.e-wsb.pl
+      // tag.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['addedotag'] = '\"$a\" został dodany do oficjalnych tagów.';
@@ -26,7 +25,7 @@ $string['noresultsfor'] = 'Brak wyników dla \"$a\"';
 $string['officialtag'] = 'Oficjalny tag';
 $string['otags'] = 'Oficjalne tagi';
 $string['owner'] = 'właściciel';
-$string['ptags'] = 'Tagi użytkownika (oddzielone spacjami)';
+$string['ptags'] = 'Tagi użytkownika (oddzielone przecinkami)';
 $string['relatedblogs'] = 'Wpisy bloga oznaczone tym tagiem';
 $string['relatedtags'] = 'Tagi podobne i zbliżone';
 $string['removetagfrommyinterests'] = 'Usuń tag \"$a\" z moich zainteresowań';

@@ -1533,5 +1533,35 @@ $string['yourlastlogin'] = 'Ostatnie logowanie';
 $string['yourself'] = 'samodzielnie';
 $string['yourteacher'] = 'twój $a';
 $string['zippingbackup'] = 'Archiwizacja kopii zapasowej';
-
+$string['backuproleassignments'] = 'Archiwizuj przydzielone role dla tych ról';
+$string['coursesmovedout'] = 'Kurs przeniesiony z $a';
+$string['creatingblogsinfo'] = 'Tworzenie informacji o blogach';
+$string['creatinggroupingsgroups'] = 'Dodawanie grup do grup nadrzędnych';
+$string['editremoteprofile'] = 'Edytuj profil zdalny';
+$string['gotoyourserver'] = '(Link zwrotny do twojego serwera)';
+$string['migratinggrades'] = 'Przenoszenie ocen';
+$string['missingfromdisk'] = 'Pominięto plik z dysku';
+$string['moreprofileinfoneeded'] = 'Proszę, napisz coś więcej o sobie.';
+$string['nonstandard'] = 'Niestandardowe';
+$string['nousersfound'] = 'Nie znaleziono użytkowników';
+$string['olduserdirectory'] = 'To jest stary katalog użytkowników i nie jest już potrzebny. Możesz go usunąć. Pliki które zawiera będą skopiowane do nowego katalogu.';
+$string['plugincheck'] = 'Sprawdzanie wtyczek';
+$string['pluginchecknotice'] = 'Ta tablica pokazuje moduły, bloki i filtry które zostały wykryty w twojej bieżącej instalacji Moodle.
+Zaznaczone jest które wtyczki są standardowe, a które nie. Wszystkie niestandardowe wtyczki i rozszerzenia powinny zostać sprawdzone i uaktualnione do bieżącej wersji przed rozpoczęciem uaktualniania Moodle.';
+$string['popup'] = 'popup';
+$string['popupwindowname'] = 'Okienko popup';
+$string['primaryadminsetup'] = 'Ustawienia konta administratora';
+$string['profilenotshown'] = 'Opis w profilu nie będzie pokazany dopóki ta osoba nie zapisze się do co najmniej jednego kursu.';
+$string['remoteappuser'] = 'Zdalny użytkownik $a';
+$string['resetnotimplemented'] = 'Resetowanie nie zaimplementowane';
+$string['resetstatus'] = 'Status';
+$string['rolemappings'] = 'Mapowanie ról';
+$string['rolerenaming'] = 'Zmiana nazwy ról';
+$string['scheduledbackupsinactive'] = 'Archiwizowanie cykliczne nie zostało włączone przez administratora serwisu';
+$string['selectdefault'] = 'Wybierz domyślne';
+$string['uploadextension'] = 'Przesyłanie plików przerwane z powodu rozszerzenia';
+$string['valuealreadyused'] = 'Ta wartość jest już w użyciu.';
+$string['writingblogsinfo'] = 'Zapis informacji o blogach';
+$string['writinggroupingsgroupsinfo'] = 'Zapis informacji o grupach nadrzędnych';
+$string['writinggroupingsinfo'] = 'Zapis informacji o grupowaniu';
 ?>

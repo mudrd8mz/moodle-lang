@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // resource.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['addresource'] = 'Dodaj zasób';
+$string['affectedresources'] = 'Zmienione zasoby';
 $string['allowlocalfiles'] = 'Dopuść lokalne pliki';
 $string['autofilerename'] = 'Zaktualizuj łącza do plików, których nazwa została zmieniona';
 $string['back'] = 'Wróć';
+$string['blockdeletingfile'] = 'Blokuj usuwanie plików, do których istnieją linki.';
 $string['browserepository'] = 'Przeglądaj repozytorium';
 $string['choose'] = 'Wybierz';
 $string['chooseafile'] = 'Prześlij plik';
@@ -46,16 +48,18 @@ $string['fetcherror'] = 'Błąd podczas ładowania strony internetowej';
 $string['fetchservererror'] = 'Błąd zareportowany przez serwer, podczas ładowania strony internetowej (prawdopodobnie błąd programu).';
 $string['filename'] = 'Nazwa pliku';
 $string['filtername'] = 'Automatyczne linkowanie zasobów';
+$string['forcedownload'] = 'Wymuś pobranie pliku';
 $string['frameifpossible'] = 'Umieść zasób w ramce aby nawigacja była widoczna';
 $string['framesize'] = 'Rozmiar ramki';
 $string['fulltext'] = 'Pełna treść';
 $string['htmlfragment'] = 'Fragment HTML';
 $string['imspackageloaded'] = 'Pakiet załadowany';
+$string['keepnavigationvisible'] = 'Włącz pasek nawigacyjny ponad stroną';
 $string['localfile'] = 'Lokalizacja pliku';
 $string['localfilechoose'] = 'Wybierz plik';
 $string['localfilehelp'] = 'Pokaż lokalne pliki';
 $string['localfileinfo'] = '<p>Wybierz lokalny plik na swoim komputerze.
-Plik nie zostanie załadowany na serwer, ale Moodle poszuka tego pliku na komputerze wszystkich użytkowników korzystających z tego zasobu.</p><p>  Ta opcja jest szczególnie użyteczna kiedy udostępniasz wszystkim uczestnikom duze pliki z CD-romu. Każdy uczestnik może wówczas, poprzez a href=\"$a\" target=\"_blank\">edycję swojego profilu użytkownika</a>, określić własną lokalną ścieżkę dla takich plików .</p>';
+Plik nie zostanie załadowany na serwer, ale Moodle poszuka tego pliku na komputerze wszystkich użytkowników korzystających z tego zasobu.</p><p>  Ta opcja jest szczególnie użyteczna kiedy udostępniasz wszystkim uczestnikom duże pliki z CD-ROMu. Każdy uczestnik może wówczas, poprzez a href=\"$a\" target=\"_blank\">edycję swojego profilu użytkownika</a>, określić własną lokalną ścieżkę dla takich plików .</p>';
 $string['localfilepath'] = 'Ustaw ścieżkę do Twojego lokalnego zasobu, wybierz plik z napędu (przeważnie CD-ROM) na Twoim komputerze, gdzie zasób się znajduje. Plik nie będzie przesyłany ale informacja o napędzie będzie przechowywana i użyta dla lokalnych plików (zasobów).';
 $string['localfileselect'] = 'Wybierz';
 $string['maindirectory'] = 'Folder z głównymi plikami';
@@ -63,7 +67,7 @@ $string['modulename'] = 'Zasób';
 $string['modulenameplural'] = 'Zasoby';
 $string['navigationbuttons'] = 'Przycisk nawigacji';
 $string['navigationmenu'] = 'Menu nawigacji strony';
-$string['navigationup'] = 'przcisk';
+$string['navigationup'] = 'Przycisk do góry';
 $string['neverseen'] = 'Nigdy nie widziany';
 $string['newdirectories'] = 'Pokazuj Ulubione';
 $string['newfullscreen'] = 'Zapełnij cały ekran';
@@ -77,14 +81,14 @@ $string['newtoolbar'] = 'Pokazuj pasek narzędzi';
 $string['newwidth'] = 'Domyślna szerokość okna (w pikselach)';
 $string['newwindow'] = 'Nowe okno';
 $string['newwindowopen'] = 'Pokazuj zasoby w nowym oknie';
-$string['next'] = 'następny';
+$string['next'] = 'Następny';
 $string['notallowedlocalfileaccess'] = 'Dostęp do lokalnych plików jest w tej chwili nie możliwy, ten zasób nie jest dostępny.';
-$string['notdeployed'] = 'nie rozwinięty';
+$string['notdeployed'] = 'Nie rozwinięty';
 $string['note'] = 'Uwaga';
 $string['notefile'] = 'Aby przesłać więcej plików (tak, by pojawiły się na tej liście) użyj <a href=\"$a\"> menadżera plików</a>.';
 $string['notypechosen'] = 'Musisz wybrać typ. Skorzystaj z przycisku cofania i spróbuj ponownie';
-$string['packagechanged'] = 'pakiet IMS  został zmieniony';
-$string['packagenotdeplyed'] = 'pakiet IMS został nie rozwinięty';
+$string['packagechanged'] = 'Pakiet IMS  został zmieniony';
+$string['packagenotdeplyed'] = 'Pakiet IMS został nie rozwinięty';
 $string['pagedisplay'] = 'Wyświetl zasób w obecny oknie';
 $string['pagewindow'] = 'To samo okno';
 $string['pan'] = 'Pan';
@@ -92,9 +96,9 @@ $string['parameter'] = 'Parametr';
 $string['parameters'] = 'Parametry';
 $string['popupresource'] = 'Ten zasób powinien się pojawić w osobnym okienku';
 $string['popupresourcelink'] = 'Jeśli tak się nie stało, kliknij tutaj: $a';
-$string['preview'] = 'następny';
-$string['previous'] = 'poprzedni';
-$string['redeploy'] = 'rozwiń znowu';
+$string['preview'] = 'Podgląd';
+$string['previous'] = 'Poprzedni';
+$string['redeploy'] = 'Rozwiń znowu';
 $string['repository'] = 'Repozytorium IMS';
 $string['resource:view'] = 'Pokaż zasób';
 $string['resourcedefaulturl'] = 'Domyślny URL';
@@ -111,9 +115,9 @@ $string['resourcetype9'] = 'Folder';
 $string['resourcetypedirectory'] = 'Wyświetl katalog plików';
 $string['resourcetypefile'] = 'Link do pliku lub strony www';
 $string['resourcetypehtml'] = 'Stwórz stronę HTML';
-$string['resourcetypeims'] = 'Dadaj pakiet IMS';
+$string['resourcetypeims'] = 'Dodaj pakiet IMS';
 $string['resourcetypelabel'] = 'Wstaw etykietę';
-$string['resourcetyperepository'] = 'łącze do obiektu w repozytorium';
+$string['resourcetyperepository'] = 'Łącze do obiektu w repozytorium';
 $string['resourcetypetext'] = 'Stwórz stronę tekstową';
 $string['searchweb'] = 'Szukaj strony www';
 $string['serverurl'] = 'URL serwera ($a->wwwroot)';
@@ -124,7 +128,8 @@ $string['tableofcontentsabbrev'] = 'Spis treści';
 $string['upbutton'] = 'Góra';
 $string['variablename'] = 'Nazwa zmiennej';
 $string['viewims'] = 'Pokaż pakiet IMS';
-$string['vol'] = 'dysk';
+$string['vol'] = 'Dysk';
 $string['warningblockingdelete'] = 'Ostrzeżenie: Operacja usuwania jest blokowany przez istniejący zasób. Zaktualizuj swoje zasoby lub poproś administratora o wyłączenie tego mechanizmu bezpieczeństwa w globalnej konfiguracji zasobów.';
+$string['warningdisabledrename'] = 'Ostrzeżenie: Automatyczne zmienianie nazw do zasobów jest wyłączone. Proszę zaktualizuj swoje zasoby ręcznie lub poproś administratora aby włączył globalnie automatyczne zmienianie nazw do zasobów w konfiguracji zasobów.';
 
 ?>

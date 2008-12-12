@@ -1,11 +1,14 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // auth.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['alternatelogin'] = 'Jeżeli wprowadzisz tutaj adres URL, to będzie używany jako strona logowania do tego serwisu. Strona powinna zawierać formularz o właściwości action ustawionej na <strong>\'$a\'</strong> i zwracać pola <strong>username</strong> i <strong>password</strong>.
 <br /> Bądź ostrożny nie wprowadzaj niepoprawnego URL bo możesz zablokować sobie wejście do tej strony. <br/>Pozostaw pole puste żeby używać domyślnej strony logowania.';
 $string['alternateloginurl'] = 'Alternatywny adres URL strony logowania';
+$string['auth_cas_auth_user_create'] = 'Utwórz użytkowników zewnętrznie';
 $string['auth_cas_baseuri'] = 'Adres URI serwer (nic jeżeli nie basuje na URI) Np, jeżeli CAS serwer odpowiada pod adresem: host.domaine.fr/CAS/ to<br />cas_baseuri = CAS/';
+$string['auth_cas_casversion'] = 'Wersja';
+$string['auth_cas_changepasswordurl'] = 'URL strony do zmiany hasła użytkownika.';
 $string['auth_cas_create_user'] = 'Włącz to, jeżeli chcesz użytkowników uwierzytelnianych przez serwer CAS wstawić do bazy danych Moodle. Jeżeli nie włączysz to tylko użytkownicy istniejący w bazie Moodle będą mogli się logować.';
 $string['auth_cas_create_user_key'] = 'Utwórz użytkownika';
 $string['auth_cas_enabled'] = 'Włącz to, jeżeli chcesz wykorzystywać autoryzacje serwer CAS';
@@ -16,10 +19,11 @@ $string['auth_cas_language_key'] = 'Język';
 $string['auth_cas_logincas'] = 'Dostęp przez połączenie bezpieczne';
 $string['auth_cas_port'] = 'Na którym porcie nasłuchuje serwer CAS';
 $string['auth_cas_port_key'] = 'Port';
-$string['auth_cas_server_settings'] = 'Konfiguracja serwera cAS';
+$string['auth_cas_server_settings'] = 'Konfiguracja serwera CAS';
 $string['auth_cas_text'] = 'Bezpieczne połączenie';
+$string['auth_cas_use_cas'] = 'Użyj CAS';
 $string['auth_cas_version'] = 'Wersja CAS';
-$string['auth_casdescription'] = 'Metoda używa serwea CAS (Central Authentication Service) do uwierzytelnienia użytkowników w środowisku Single Sign On (SSO). Możesz też użyć uwierzytelniania LDAP. Jeżeli podana nazwa użytkownika i hasło są zgodne z CAS, Moodle utworzy nowego użytkownika w swojej bazie danych, pobierając wymagane atrybuty użytkownika z LDAP. Przy następnych logowaniach tylko nazwa użytkownika i hasło będą sprawdzane.';
+$string['auth_casdescription'] = 'Metoda używa serwera CAS (Central Authentication Service) do uwierzytelnienia użytkowników w środowisku Single Sign On (SSO). Możesz też użyć uwierzytelniania LDAP. Jeżeli podana nazwa użytkownika i hasło są zgodne z CAS, Moodle utworzy nowego użytkownika w swojej bazie danych, pobierając wymagane atrybuty użytkownika z LDAP. Przy następnych logowaniach tylko nazwa użytkownika i hasło będą sprawdzane.';
 $string['auth_castitle'] = 'Użyj serwera CAS (SSO)';
 $string['auth_changepasswordhelp'] = 'Zmień help nt. hasła';
 $string['auth_changepasswordhelp_expl'] = '***Wyświetl help nt. straconego hasła użytkownikom, którzy stracili swoje $a hasło. To będzie wyświetlone wraz z, lub zamiast <strong>URL Zmiany Hasła</strong> lub zmianą hasła Internal Moodle ***';
@@ -28,6 +32,8 @@ $string['auth_changepasswordurl_expl'] = 'Określ url do przesłania użytkownik
 $string['auth_changingemailaddress'] = 'Zażądano zamiany adresu e-mail z $a->oldemail na $a->newemail. Ze względów bezpieczeństwa wysłaliśmy do Ciebie wiadomość pocztową na nowy adres, aby upewnić się, że należy on do Ciebie. Twój adres zostanie zaktualizowany jak tylko klikniesz link przesłany w wiadomości.';
 $string['auth_common_settings'] = 'Ustawienia wspólne';
 $string['auth_data_mapping'] = 'Mapuj dane';
+$string['auth_dbcantconnect'] = 'Nie można połączyć się z podaną bazą danych';
+$string['auth_dbchangepasswordurl_key'] = 'URL strony do zmiany hasła użytkownika.';
 $string['auth_dbdeleteusererror'] = 'Wystąpił błąd podczas usuwania użytkownika $a';
 $string['auth_dbdescription'] = 'Metoda ta wykorzystuje tabelę zewnętrznej bazy danych dla sprawdzenia czy podana nazwa użytkownika i hasło są poprawne. W przypadku nowego konta, informacje z innych pól również mogą zostać skopiowane do Moodle.';
 $string['auth_dbextrafields'] = 'Te pola są opcjonalne. Możesz wstępnie wypełnić niektóre pola dotyczące użytkownika informacją z <b>pól zewnętrznej bazy danych</b>, które tutaj określasz. <br />Jeżeli nic w tym miejscu nie wpiszesz, użyte zostaną wartości domyślne. <br /> W obu przypadkach, użytkownik będzie mógł dokonać edycji tych pól po zalogowaniu';
@@ -48,12 +54,15 @@ $string['auth_dbuser'] = 'Nazwa użytkownika mającego prawo dostępu do odczytu
 $string['auth_emailchangecancel'] = 'Porzuć zmianę adresu e-mail';
 $string['auth_emaildescription'] = 'Potwierdzenie e-mailem jest domyślną metodą uwierzytelniania. Użytkownik rejestruje się wybierając własną, nową nazwę użytkownika oraz hasło, a następnie wysyłane jest potwierdzenie na adres jego konta pocztowego. E-mail ten zawiera bezpieczny odnośnik do strony, na której użytkownik może potwierdzić zarejestrowanie swojego konta. Przy kolejnych logowaniach dokonywane jest tylko porównanie nazwy użytkownika i hasła z wartościami zapisanymi w bazie danych Moodle.';
 $string['auth_emailnoemail'] = 'Nie udało się wysłać maila do ciebie.';
+$string['auth_emailnoinsert'] = 'Nie można dodać rekordów do bazy danych.';
+$string['auth_emailsettings'] = 'Ustawienia';
 $string['auth_emailtitle'] = 'Uwierzytelnienie z wykorzystaniem poczty elektronicznej';
 $string['auth_emailupdatemessage'] = 'Witaj $a->fullname,
 
 Zażądano zmiany Twojego adresu e-mail w Twoim koncie na $a->site. Otwórz poniższy link aby potwierdzić tą zmianę.
 
 $a->url';
+$string['auth_fcchangepasswordurl'] = 'URL do zmiany hasła użytkownika';
 $string['auth_fccreators'] = 'Lista grup, których członkowie są upoważnieni do tworzenia nowych kursów. Oddziel kolejne grupy za pomocą średnika \';\'. Nazwy muszą być identyczne jak na serwerze FirstClass. Wielkość liter ma znaczenie.';
 $string['auth_fcdescription'] = 'Ta metoda używa serwera FirstClass aby sprawdzić czy podana nazwa użytkownika i hasło są poprawne.';
 $string['auth_fcfppport'] = 'Port serwera (zwykle jest to 3333)';
@@ -64,9 +73,9 @@ $string['auth_fctitle'] = 'Używaj serwera FirstClass';
 $string['auth_fcuserid'] = 'ID użytkownika dla konta FirstClass z prawami Subadministratora.';
 $string['auth_fcuserid_key'] = 'ID użytkownika';
 $string['auth_fieldlock'] = 'Zablokowane wartość';
-$string['auth_fieldlock_expl'] = '<p><b>Zablokowana wartość:</b>Jeżeli włączona, to będzie zapobiegać użytkownikom Moodla i administratorom edycje bespośrednio tego pola. Używaj tej opcji jeżeli zachowujecsz te dane w zewnętrznym systemie autoryzacji.';
+$string['auth_fieldlock_expl'] = '<p><b>Zablokowana wartość:</b>Jeżeli włączona, to będzie zapobiegać użytkownikom Moodla i administratorom edycje bezpośrednio tego pola. Używaj tej opcji jeżeli zachowujesz te dane w zewnętrznym systemie autoryzacji.';
 $string['auth_fieldlocks'] = 'Zablokuj dane użytkownika';
-$string['auth_fieldlocks_help'] = '<p>Możesz zablokować pola z danymi użytkownika. Jest to użyteczne, gdy dane są utrzymywane ręcznie przez administratora przez edycje profila użytkownika lub uaktualniane/przesyłane przez użycie funkcjonalości\"prześlij użytkowników\". Jeżeli zablokujesz pola wymagane prze Moodle, upewnij się że dostarczasz tych danych podczas tworzenia konta użytkownika ; albo konta będą nie zdatne do użytku.</p><p>Uważaj ustawiając blokady, \'zablokowanie pustych\' może powodować problemy.';
+$string['auth_fieldlocks_help'] = '<p>Możesz zablokować pola z danymi użytkownika. Jest to użyteczne, gdy dane są utrzymywane ręcznie przez administratora przez edycje profilu użytkownika lub uaktualniane/przesyłane przez użycie funkcjonalności \"prześlij użytkowników\". Jeżeli zablokujesz pola wymagane przez Moodle, upewnij się że dostarczasz tych danych podczas tworzenia konta użytkownika ; albo konta będą nie zdatne do użytku.</p><p>Uważaj ustawiając blokady, \'zablokowanie pustych\' może powodować problemy.';
 $string['auth_imapdescription'] = 'Metoda ta korzysta z serwera IMAP w celu sprawdzenia czy podana nazwa użytkownika i hasło są poprawne.';
 $string['auth_imaphost'] = 'Adres serwera IMAP. Należy stosować adres IP, a nie nazwę DNS.';
 $string['auth_imapport'] = 'Numer portu serwera IMAP, zwykle 142 lub 993.';
@@ -75,11 +84,11 @@ $string['auth_imaptype'] = 'Typ serwera IMAP. Serwery IMAP mogą stosować róż
 $string['auth_ldap_bind_dn'] = 'Określ tutaj czy chcesz skorzystać z funkcji bind-user do szukania użytkowników, np. \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_pw'] = 'Hasło dla funkcji bind-user';
 $string['auth_ldap_bind_pw_key'] = 'Hasło';
-$string['auth_ldap_bind_settings'] = 'utawienia BIND';
+$string['auth_ldap_bind_settings'] = 'ustawienia BIND';
 $string['auth_ldap_contexts'] = 'Lista kontekstów, w których znajdują się użytkownicy. Oddzielaj różne konteksty symbolem \';\', np. \'ou=users,o=org; ou=others,o=org\'';
 $string['auth_ldap_create_context'] = 'Jeżeli włączysz opcję tworzenia użytkowników z potwierdzeniem pocztą elektroniczną, zdefiniuj kontekst, w którym tworzeni są tacy użytkownicy. Powinien być różnić się od kontekstu innych użytkowników w celu uniknięcia problemów związanych z bezpieczeństwem. Nie musisz dodawać tego kontekstu do zmiennej ldap_context-variable - Moodle automatycznie wyszuka użytkowników w tym kontekście.';
 $string['auth_ldap_creators'] = 'Lista grup, których członkowie mogą tworzyć nowe kursy. Oddziel kolejne grupy symbolem \';\'. Przykładowa lista: \'cn=teachers,ou=staff,o=myorg\'';
-$string['auth_ldap_expiration_desc'] = 'Wybierz NIE do wyłączenia sprawdzania ważności hasła lub czytania przez LDAP (passwordexpiration time) czasu ważności hasła';
+$string['auth_ldap_expiration_desc'] = 'Wybierz NIE do wyłączenia sprawdzania ważności hasła lub czytania przez LDAP (passwordExpiration time) czasu ważności hasła';
 $string['auth_ldap_expiration_warning_desc'] = 'Liczba dni przed wygaśnięciem hasła kiedy jest wyświetlane ostrzeżenie.';
 $string['auth_ldap_expireattr_desc'] = 'Opcjonalnie: Unieważnia atrybut LDAP (passwordExpiration Time) który przechowuje czas ważności hasła,';
 $string['auth_ldap_graceattr_desc'] = 'Opcjonalnie: Unieważnij atrybut gracelogin (jak często uzytkownik może odmawiać zmiany wygasłego hasła)';
@@ -93,7 +102,7 @@ Wybierz jedną z następujących wartości:
 \"Nie\" (LDAP_DEREF_NEVER) lub
 \"Tak\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_passwdexpire_settings'] = 'Ustawienia ważności hasła w LDAP';
-$string['auth_ldap_preventpassindb'] = 'Wybierz tak aby uniknąć przechowywania haseł w bazie danych Moodle\'a';
+$string['auth_ldap_preventpassindb'] = 'Wybierz tak aby uniknąć przechowywania haseł w bazie danych Moodla';
 $string['auth_ldap_search_sub'] = 'Wpisz wartość <> 0 jeżeli chcesz szukać użytkowników z podkontekstów';
 $string['auth_ldap_server_settings'] = 'Ustawienia serwer LDAP';
 $string['auth_ldap_update_userinfo'] = 'Uaktualnij informacje o użytkowniku (imię, nazwisko, adres...) z LDAP do Moodle. Informacje na temat mapowania: /auth/ldap/attr_mappings.php';
@@ -101,12 +110,14 @@ $string['auth_ldap_user_attribute'] = 'Atrybut używany do nazywania/szukania u�
 $string['auth_ldap_user_settings'] = 'Ustawienia wyszukiwania użytkownika';
 $string['auth_ldap_user_type'] = '***Wybierz sposób w jaki użytkownicy są przechowywani w LDAP. To ustawienie określa również jak będą działać:  ??? ***';
 $string['auth_ldap_version'] = 'Wersja protokołu LDAP używana przez serwer.';
+$string['auth_ldap_version_key'] = 'Wersja';
 $string['auth_ldapdescription'] = 'Metoda ta zapewnia uwierzytelnienie względem zewnętrznego serwera LDAP.<br /> Jeżeli podana nazwa użytkownika i hasło są poprawne, Moodle dokonuje wpisu nowego użytkownika do swojej bazy danych. Moduł ten może odczytywać atrybuty użytkownika z LDAP i wstępnie wypełnić odpowiednie pola w Moodle. Przy kolejnych logowaniach sprawdzane są tylko nazwa użytkownika i hasło.';
 $string['auth_ldapextrafields'] = 'Te pola są opcjonalne. Możesz wstępnie wypełnić niektóre pola dotyczące użytkowników Moodle informacjami z określonych tutaj <b>pól LDAP</b>. <br /> Jeżeli pola te pozostawisz puste, żadne informacje nie zostaną przeniesione z LDAP i wykorzystane zostaną wartości domyślne Moodle. <br /> W obu przypadkach, użytkownik będzie mógł dokonać edycji tych pól po zalogowaniu.';
 $string['auth_ldaptitle'] = 'Użyj serwera LDAP';
 $string['auth_manualdescription'] = 'Metoda ta uniemożliwia użytkownikom tworzenie własnych kont. Wszystkie konta muszą być ręcznie utworzone przez administratora (Admin User).';
 $string['auth_manualtitle'] = 'Tylko konta utworzone ręcznie';
 $string['auth_multiplehosts'] = 'Można wskazać więcej komputerów-hostów np. host1.com; host2.com; host3.com';
+$string['auth_nntpchangepasswordurl_key'] = 'URL do zmiany hasła';
 $string['auth_nntpdescription'] = 'Metoda ta wykorzystuje serwer NNTP w celu sprawdzenia czy podana nazwa użytkownika i hasło są poprawne.';
 $string['auth_nntphost'] = 'Adres serwera NNTP. Należy stosować adres IP, a nie nazwę DNS.';
 $string['auth_nntpport'] = 'Port serwera (najczęściej 119)';
@@ -117,22 +128,25 @@ $string['auth_pamdescription'] = 'Ta metoda używa PAM-u w celu dostępu do ojcz
 $string['auth_pamtitle'] = 'PAM (Dołączalne Moduły Uwierzytelniania)';
 $string['auth_passwordisexpired'] = 'Twoje hasło traci ważność. Chcesz teraz zmienić hasło?';
 $string['auth_passwordwillexpire'] = 'Twoje hasło traci ważność za $a dni. Chcesz teraz zmienić hasło?';
+$string['auth_pop3changepasswordurl_key'] = 'URL do zmiany hasła';
 $string['auth_pop3description'] = 'Metoda ta wykorzystuje serwer POP3 w celu sprawdzenia czy podana nazwa użytkownika i hasło są poprawne.';
 $string['auth_pop3host'] = 'Adres serwera POP3. Należy stosować adres IP, a nie nazwę DNS.';
 $string['auth_pop3mailbox'] = 'Nazwa skrzynki pocztowej, z którą mam próbować się łączyć (zwykle INBOX).';
 $string['auth_pop3port'] = 'Port serwera (najczęściej 110)';
 $string['auth_pop3title'] = 'Użyj serwera POP3';
 $string['auth_pop3type'] = 'Typ serwera. Jeżeli Twój serwer wykorzystuje certyfikaty bezpieczeństwa, wybierz pop3cert.';
+$string['auth_radiuschangepasswordurl_key'] = 'URL do zmiany hasła użytkownika';
 $string['auth_radiusdescription'] = 'Ta metoda używa serwera <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a>  aby sprawdzić, czy podana nazwa użytkownika I hasło są poprawne';
 $string['auth_radiushost'] = 'Adres serwera RADIUS';
-$string['auth_radiusnasport'] = 'Port użwany do połączenia';
+$string['auth_radiusnasport'] = 'Port używany do połączenia';
 $string['auth_radiussecret'] = 'Wspólny sekret';
 $string['auth_radiustitle'] = 'Użyj serwera RADIUS';
+$string['auth_shib_changepasswordurl'] = 'URL do zmiany hasła użytkownika';
 $string['auth_shib_convert_data'] = 'Modyfikacja danych API';
 $string['auth_shib_convert_data_description'] = 'Możesz używać tego API aby dalej modyfikować dane dostarczone przez Shibboleth. <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">Przeczytaj</a>  w którym są dalsze instrukcje';
 $string['auth_shib_convert_data_warning'] = 'Ten plik nie istnieje albo serwer sieci nie może go odczytać';
-$string['auth_shib_instructions'] = 'Użyj aby dostać się przez Shibboleth, jeśli twoja instytucja go używa. Jeśli nie, uzyj normalnego pokazanego tu loginu.';
-$string['auth_shib_instructions_help'] = 'Tutaj nalezy zamieścić odpowidnie instrukcje dla użytkowników, tłumaczące Shibboleth. Zostaną one zamieszczone na stronie logowania w sekcji instrukcje. Instrukcja musi zawierać link do\"<b>$a</b>\", na który użytkownicy klikają, gdy chcą się zalogować';
+$string['auth_shib_instructions'] = 'Użyj aby dostać się przez Shibboleth, jeśli twoja instytucja go używa. Jeśli nie, użyj normalnego pokazanego tu loginu.';
+$string['auth_shib_instructions_help'] = 'Tutaj należy zamieścić odpowiednie instrukcje dla użytkowników, tłumaczące Shibboleth. Zostaną one zamieszczone na stronie logowania w sekcji instrukcje. Instrukcja musi zawierać link do\"<b>$a</b>\", na który użytkownicy klikają, gdy chcą się zalogować';
 $string['auth_shib_only'] = 'Tylko Shibboleth';
 $string['auth_shib_only_description'] = 'Sprawdź tę opcję, jeśli należy wprowadzić potwierdzenie Shibboleth';
 $string['auth_shib_username_description'] = 'Nazwa serwera sieci w  środowisku Shibboleth, który będzie używany jako nazwa Moodle';
@@ -144,20 +158,22 @@ $string['auth_updatelocal'] = 'Lokalne uaktualnienie.';
 $string['auth_updatelocal_expl'] = '<p><b>Lokalne uaktualnienie:</b> Jeśli zostanie włączone, pole będzie się uaktualniać (z wejścia zewnętrznego) za każdym razem, kiedy użytkownik się zaloguje albo kiedy się synchronizuje. Pola wybrane do uaktualnień lokalnych powinny być zamknięte.';
 $string['auth_updateremote'] = 'Uaktualnienie zewnętrzne';
 $string['auth_updateremote_expl'] = '<p><b>Uaktualnienie zewnętrzne: </b>Jeśli zostanie włączone, autoryzacja zewnętrzna będzie uaktualniania kiedy uaktualnia się konto użytkownika. Aby to umożliwić, pola powinny być otwarte.';
-$string['auth_updateremote_ldap'] = '<p><b>Uwaga: </b>uaktualnienie zewnetrznętrznych danych LDAP wymaga, byś przypisał binddn I bindpw do użytkownika bind, który ma przywileje poprawiania kont użytkowników. Na razie nie zachowuje atrybutów wielowartościowych i podczas uaktualnienia będzie usuwał dodatkowe wartości </p>';
+$string['auth_updateremote_ldap'] = '<p><b>Uwaga: </b>uaktualnienie zewnętrznych danych LDAP wymaga, byś przypisał binddn I bindpw do użytkownika bind, który ma przywileje poprawiania kont użytkowników. Na razie nie zachowuje atrybutów wielowartościowych i podczas uaktualnienia będzie usuwał dodatkowe wartości </p>';
 $string['auth_user_create'] = 'Włącz opcję tworzenia użytkowników';
 $string['auth_user_creation'] = 'Nowi (anonimowi) użytkownicy mogą tworzyć konta użytkownika używając zewnętrznego źródła uwierzytelniania z potwierdzeniem pocztą elektroniczną. Jeżeli włączysz tę opcję, pamiętaj również o skonfigurowaniu związanych z modułami opcji tworzenia użytkowników.';
 $string['auth_usernameexists'] = 'Wybrana nazwa użytkownika już istnieje - proszę wybrać inną.';
 $string['authenticationoptions'] = 'Opcje uwierzytelniania';
 $string['authinstructions'] = 'Możesz tutaj wprowadzić instrukcje dla Twoich użytkowników dotyczące nazwy użytkownika i hasła, których powinni używać. Tekst wpisany w tym miejscu pojawi się na stronie logowania. Jeżeli nic nie wpiszesz, nie zostaną wyświetlone żadne instrukcje.';
+$string['auto_add_remote_users'] = 'Automatycznie dodawaj zdalnych użytkowników';
 $string['changepassword'] = 'Adres URL gdzie można zmiany hasła';
 $string['changepasswordhelp'] = 'Możesz tutaj określić miejsce, w którym Twoi użytkownicy mogą odzyskać lub zmienić swoja nazwę użytkownika/hasło, jeżeli ich zapomną. Wybranie tej opcji spowoduje wyświetlenie przycisku na stronie logowania i stronach użytkownika. Jeżeli nic nie wpiszesz, przycisk nie zostanie wyświetlony.';
 $string['chooseauthmethod'] = 'Wybierz sposób uwierzytelniania';
-$string['createpasswordifneeded'] = 'Utworzyhasło jeśli potrzebne';
+$string['createpasswordifneeded'] = 'Utworzy hasło jeśli potrzebne';
 $string['forcechangepassword'] = 'Wymuś zmianę hasła';
 $string['forcechangepassword_help'] = 'Wymuś zmianę hasła przy następnym logowaniu do systemu Moodle.';
 $string['forcechangepasswordfirst_help'] = 'Wymuś zmianę hasła przy pierwszym logowaniu do systemu Moodle.';
 $string['guestloginbutton'] = 'Przycisk logowania jako gość';
+$string['incorrectpleasetryagain'] = 'Niewłaściwe. Spróbuj jeszcze raz.';
 $string['infilefield'] = 'Pole wymagane w pliku';
 $string['instructions'] = 'Instrukcje';
 $string['internal'] = 'Wewnętrzny';

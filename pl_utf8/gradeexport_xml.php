@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // gradeexport_xml.php - created with Moodle 1.9 Beta 4 (2007101508)
-      // local modifications from http://localhost/moodle
+      // gradeexport_xml.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['modulename'] = 'Plik XML';
