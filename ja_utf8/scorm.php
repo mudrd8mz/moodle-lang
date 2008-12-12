@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20081128) (2008113001)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
 $string['activation'] = 'アクティベーション';
@@ -144,8 +144,8 @@ $string['packagefile'] = 'パッケージファイルが指定されていませ
 $string['passed'] = 'パス';
 $string['php5'] = 'PHP 5 (DOMXMLネイティブライブラリ)';
 $string['popup'] = '新しいウィンドウ';
-$string['popupblocked'] = '新しいウィンドウが表示されない場合、活動を起動するため $a をクリックしてください。';
-$string['popupblockedlinkname'] = 'ここ';
+$string['popupblocked'] = '新しいウィンドウが表示されない場合、$a';
+$string['popupblockedlinkname'] = '活動を実行するには、ここをクリックしてください。';
 $string['popupmenu'] = 'ドロップダウンメニュー';
 $string['popupopen'] = 'パッケージを新しいウィンドウで開く';
 $string['position_error'] = '$a->tag タグは $a->parent タグの子タグになりません';
