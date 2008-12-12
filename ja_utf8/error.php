@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081208) (2008120801)
+      // error.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
@@ -358,7 +358,7 @@ $string['nopermissiontounlock'] = 'ロック解除するパーミッションは
 $string['nopermissiontoupdateblock'] = '$a を更新するパーミッションがありません!';
 $string['nopermissiontoviewletergrade'] = '評定文字を閲覧するパーミッションがありません。';
 $string['nopermissiontoviewpage'] = 'あなたは、このページを閲覧できません。';
-$string['nosite'] = 'サイトがありません。';
+$string['nosite'] = 'トップレベルのコースが見つかりませんでした!';
 $string['nositeid'] = 'サイトIDがありません。';
 $string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。';
 $string['notallowedtoupdateprefremotely'] = 'あなたは、このユーザのプリファレンスをリモートで更新することを許可されていません。';
