@@ -1,41 +1,48 @@
-<h1>Analiza przedmiotów</h1>
+<h1>Analiza pytań</h1>
 <p>
-Tabela pokazuje dane użyte do tworzenia quizu w sposób możliwy do analizy i oceny każdego z pytań podczas procesu oceniania. Użyte parametry statystyczne są przeliczane i prezentowane jak w przypadku klasycznych testów.(ref.1)</p>
+Tabela przedstawia zestawienie odpowiedzi uczestników na poszczególne pytania quizu w formie przydatnej do analizy i oceny przydatności pytań w procesie oceniania. Użyto tu parametrów statystycznych znanych z klasycznej teorii testów.(ref.1)</p>
 
-<p><b>Indeks możliwości (% poprawności)</b></p>
+<p><b>Częstość</b></p>
+Częstość jest licznikiem oznaczającym, ile razy dany wariant odpowiedzi był wybrany.
+Po podzieleniu przez ilość wszystkich udzielonych odpowiedzi na pytanie daje nam to częstość względną, wyrażoną w [%]
 
-<p>Jest on miarą trudności pytania dla uczestników quizu, jest obliczany jako:
+<p><b>Łatwość (czyli % poprawnych)</b></p>
 
-<br>FI=(X<sub>(średnie)</sub>/X<sub>max</sub> <br>
-gdzie X<sub>(średnie)</sub> jest średnią zaliczeń uzyskanych przez wszystkich użytkowników odpowiadających na dane pytanie a X<sub>max</sub> jest maksimum zaliczeń możliwych dla tego pytania.
-<br>Jeśli pytania mogą zostać zaliczone dicotonically(równocześnie) do kategorii prawidłowe/nieprawidłowe, lecz parametr odpowiadać będzie procentowi użytkowników którzy odpowiedzieli na pytanie prawidłowo.</p>
+<p>Jest on miarą trudności pytania dla uczestników quizu. Jest obliczany jako:
+
+<br>FI=X<sub>średnie</sub>/X<sub>max</sub> <br>
+gdzie X<sub>średnie</sub> jest średnią punktacji otrzymanej przez wszystkich użytkowników odpowiadających na dane pytanie, a X<sub>max</sub> jest maksymalna punktacji możliwa dla tego pytania.
+<br>Jeśli pytanie ma tylko dwie możliwości odpowiedzi (prawidłowo/nieprawidłowo), parametr odpowiadać będzie procentowi użytkowników, którzy odpowiedzieli na pytanie prawidłowo.</p>
 </p>
-<p><b>Odchylenia standardowe (SD)</b</p>
+<p><b>Odchylenie standardowe (SD)</b</p>
 
-Ten parametr ukazuje rozkład odpowiedzi w całej populacji. Jeśli wszyscy użytkownicy odpowiedzą tak samo, wówczas SD=0. SD jest obliczane jako standardowe odchylenie statystyczne dla wyrywkowych lub ułamkowych wyników (osiągnięte/maksymalne)dla każdego poszczególnego pytania.
+Ten parametr ukazuje rozkład odpowiedzi udzielonych przez użytkowników. Jeśli wszyscy użytkownicy odpowiedzą tak samo, wówczas SD=0. SD jest obliczane jako standardowe odchylenie zbioru względnych punktacji (czyli otrzymane/maksymalne) poszczególnych użytkowników dla danego pytania.
 </p>
 
 <p><b>Wskaźnik dyskryminacji (DI)</b></p>
 <p>
-Ukazuje przybliżony wskaźnik wyniku każdego pytania dla poszczególnego użytkownika uwzględniając stosunek poprawności jego odpowiedzi do odpowiedzi mniej poprawnych. Ten parametr jest liczony jako stosunek 1/3-ich odpowiedzi zawartych w całościowym wyniku dla danego quizu. Następnie przeciętny wynik dla analizowanych przedmiotów jest przeliczany dla grup wyników najlepszych i najgorszych natomiast wyniki przeciętne są odrzucane. Matematyczne wyjaśnienie jest następujące:
+Ten wskaźnik ma na celu oszacowanie, na ile precyzyjnie dane pytanie rozróżnia uczestników na dobrze i źle przygotowanych. Ten parametr jest liczony następująco: uczestnicy quizu dzieleni są na 3 grupy: najlepszych, średnich i najgorszych, wg wyników <i>całego</i> quizu. Następnie obliczane są średnie punktacje otrzymane za to pytanie przez grupę najlepszych i najgorszych (wyniki środkowych nie są istotne) i liczona jest różnica średnich. Matematyczna formuła jest następująca:
 
 <br/>DI=(X<sub>najlepszych</sub>-X<sub>najgorszych</sub>)/N
-<br>Gdzie X<sub>najlepszych</sub> jest sumą ułamkowych zaliczeń (osiągnięte/maksymalne) uzyskanych na tym przedmiocie przez 1/3 użytkowników mających najwyższe wyniki w całym quizie (np. liczba poprawnych odpowiedzi w tej grupie) a X<sub>najgorszych</sub> jest analogiczną sumą dla użytkowników z 1/3 najniższych wyników w całym quizie.
+<br>gdzie X<sub>najlepszych</sub> jest sumą względnych punktacji (otrzymane/maksymalne) uzyskanych za to pytanie przez "górną" 1/3 użytkowników - mających najwyższe wyniki w całym quizie (np. liczba poprawnych odpowiedzi w tej grupie), a X<sub>najgorszych</sub> jest analogiczną sumą dla użytkowników z "dolnej" 1/3 w całym quizie.
 </p><p>
-Wartość tego parametru mieści się pomiędzy +1 i &#8211;1. jeśli wskaźnik spada poniżej 0,0 oznacza to, że większość słabszych uczniów odpowiada poprawniej niżeli lepsi uczniowie. Takie wyniki powinny zostać uznane za bezwartościowe. W rzeczywistości obniża to dokładność całościowego wyniku w quizie.
+Wartość tego parametru mieści się pomiędzy +1 i &#8211;1. jeśli wskaźnik spada poniżej 0.0 oznacza to, że słabi uczestnicy lepiej odpowiadają na to pytanie, niż lepsi uczestnicy. Takie pytania powinny zostać uznane za bezwartościowe. W rzeczywistości obniżają one dokładność całościowego wyniku quizu.
 </p>
 <p><b>Współczynnik dyskryminacji (DC)</b></p>
 <p>
 Jest to kolejna miara dla rozróżnienia uczniów zdolnych od słabszych.<br/>
-Współczynnik dyskryminacji jest współczynnikiem korelacji pomiędzy wynikami z danego przedmiotu w stosunku do całego quizu. Oto jak jest on liczony:
+Współczynnik dyskryminacji jest obliczany jako korelacja pomiędzy punktacją za dane pytanie, a wynikiem całego quizu. Oto formuła:
 <br/>
-DC=Sum(xy)/(N*S<sub>x</sub>*S<sub>y</sub>)
+DC=Suma(xy)/(N*S<sub>x</sub>*S<sub>y</sub>)
 <br/>
-Gdzie Sum(xy) jest sumą iloczynów odchylenia dla wyniku dla danego przedmiotu oraz wyników dla całego quizu.<br/>
+gdzie Suma(xy) jest sumą iloczynów odchyleń wyniku dla danego pytania i wyników całego quizu.<br/>
 N jest liczbą odpowiedzi udzielonych na dane pytanie.<br/>
-S<sub>x</sub> jest odchyleniem standardowym wyników ułamkowych dla danego pytania.<br/>
-S<sub>y</sub> jest odchyleniem standardowym wyników dla quizu jako całości.</p>
+S<sub>x</sub> jest odchyleniem standardowym względnej punktacji dla danego pytania.<br/>
+S<sub>y</sub> jest odchyleniem standardowym wyników quizu jako całości.</p>
 <p>
-Wartość tego parametru mieści się pomiędzy +1 i &#8211;1. wartości dodatnie wskazują przedmioty na które najlepiej odpowiadają zdolni uczniowie, podczas gdy ujemne wskazują przedmioty na które najlepiej odpowiadają uczniowie z najgorszymi wynikami. Przedmioty z ujemnymi DC nie zostają zaliczane przez doświadczonych uczniów i w ten sposób mogą w rzeczywistości szkodzić najzdolniejszym. Powinni oni unikać takich przedmiotów.<br/>
-Przewaga współczynnika dyskryminacji nad wskaźnikiem dyskryminacji jest taka, że ten pierwszy przedstawia informacje na temat całej grupy uczącej się, a nie tylko grupy jednej trzeciej najzdolniejszych i jednej trzeciej najmniej zdolnych. Dlatego też ten parametr jest znacznie bardziej bezpieczny dla określenia jakości przedmiotu.
+Wartość tego parametru również mieści się pomiędzy +1 i &#8211;1. Wartości dodatnie wskazują pytania, na które najlepiej odpowiadali uczniowie dobrze przygotowani, podczas gdy ujemne wskazują pytania, na które najlepiej odpowiadali uczniowie z najgorszymi wynikami. Pytania z ujemnymi DC stanowią trudność właśnie dla najzdolniejszych - zatem coś tu nie jest w porządku.
+Takie pytania pogarszają wyniki najlepszym i zaciemniają obraz wyników nauki. Należy usuwać takie pytania.<br/>
+Zauważmy, że jeśli wszyscy uczestnicy odpowiedzą na pytanie identycznie, s<sub>x</sub> wyniesie 0 i współczynnika nie da się wyliczyć. Wtedy DC przyjmuje specjalną wartość -999.00
+<br/>
+Przewaga współczynnika dyskryminacji nad wskaźnikiem dyskryminacji jest taka, że DC zależy od wyników <i>całej</i> grupy uczącej się, a nie tylko jednej trzeciej grupy najzdolniejszych i jednej trzeciej najmniej zdolnych. Dlatego też ten parametr lepiej określa przydatność pytania.
 </p>
