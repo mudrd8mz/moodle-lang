@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080926) (2008092400)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
 
 
 $string['add_item'] = '활동에 질문 추가';
@@ -122,6 +122,7 @@ $string['non_anonymous'] = '기명, 응답내용 공개';
 $string['non_anonymous_entries'] = '익명 기록 없음';
 $string['not_completed_yet'] = '아직 완료되지 않았음';
 $string['not_selected'] = '선택되지 않았음';
+$string['notavailable'] = '피드백을 사용할 수 없음';
 $string['numeric'] = '숫자 답';
 $string['numeric_range_from'] = '에서';
 $string['numeric_range_to'] = '까지';

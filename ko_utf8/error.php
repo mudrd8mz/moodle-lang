@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // error.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
 
 
+$string['TODO'] = '실행목록';
 $string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
 $string['authorizeerror'] = '인증 오류';
 $string['backupcontainexternal'] = '백업 파일에 제대로 설정되지 않은 외부 무들네트웍 호스트가 포함되어 있음';
@@ -97,6 +98,7 @@ $string['cannotopencsv'] = 'csv파일을 열 수 없음';
 $string['cannotopenfile'] = '($a) 파일을 열 수 없음';
 $string['cannotopenforwrit'] = '$a 를 작성해 넣을 수 없음';
 $string['cannotopentemplate'] = '($a) 템플릿 파일을 열 수 없음';
+$string['cannotopenzip'] = '64비트 운영체제의 zip 확장자 버그로 인하여 압축파일을 열 수 없는 것으로 여겨짐';
 $string['cannotoverridebaserole'] = '기본 역할 권한은 재설정할 수 없음';
 $string['cannotoverriderolehere'] = '영역 ($a->context) 의 역할 (id = $a->roleid) 을 재설정할 수 없음';
 $string['cannotreadfile'] = '파일을 읽을 수 없음';
@@ -238,6 +240,7 @@ $string['hackdetected'] = '해커 침입이 탐지됨!';
 $string['hashpoolproblem'] = '$a 에 잘못된 지정 파일';
 $string['headersent'] = '이미 헤더는 전송되었음';
 $string['importformatnotimplement'] = '아직 이 형식의 가져오기는 적용되지 않음!';
+$string['incorrectext'] = '바르지 않은 확장자';
 $string['invalidaccess'] = '본 화면은 정상적으로 접속되지 않음';
 $string['invalidaccessparameter'] = '유효하지 않은 접속 매개 변수';
 $string['invalidaction'] = '유효하지 않은 작동 매개 변수';
@@ -335,6 +338,7 @@ $string['noblocks'] = '블록이 없음!';
 $string['nocategorydelete'] = '\'$a\' 범주를 삭제할 수 없음!';
 $string['nocontext'] = '죄송하지만, 그 강좌는 제대로된 컨텍스트가 아닙니다.';
 $string['nodata'] = '자료없음';
+$string['nofile'] = '파일이 지정되지 않음';
 $string['nofolder'] = '요청한 경로 없음';
 $string['noformdesc'] = '이 활동에 대한 formslib 양식 설명서가 존재하지 않음';
 $string['noguest'] = '손님은 안됩니다!';
@@ -414,9 +418,11 @@ $string['unknowaction'] = '알 수 없는 활동!';
 $string['unknowcategory'] = '범주를 알 수 없음!';
 $string['unknowcontext'] = 'get_child_contexts에 없는 컨텍스트 ($a)';
 $string['unknowformat'] = '알수없는 형식 ($a)';
+$string['unknowncontext'] = '알 수 없는 영역';
 $string['unknowncourse'] = '\"$a\"라는 알려지지 않은 강좌';
 $string['unknowncourseidnumber'] = '\"$a\" 강좌는 없습니다.';
 $string['unknowncourserequest'] = '알 수 없는 강좌 요청';
+$string['unknownfiletype'] = '알 수 없는 필터유형';
 $string['unknowngroup'] = '알 수 없는 모둠 \"$a\"';
 $string['unknownhelp'] = '알 수 없는 도움말 $a';
 $string['unknownmodulename'] = '양식의 모듈명을 알 수 없음';

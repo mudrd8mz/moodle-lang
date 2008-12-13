@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -148,6 +148,7 @@ $string['importedentries'] = '가져온 항목';
 $string['importentries'] = '항목 가져오기';
 $string['importentriesfromxml'] = 'XML파일에서 내용 가져옴';
 $string['includegroupbreaks'] = '모둠 해체 포함';
+$string['invalidglossaryformat'] = '쓸 수 없는 용어집 형식';
 $string['invalidid'] = '바르지 않은 용어집 ID';
 $string['isglobal'] = '공용 용어집?';
 $string['letter'] = '문자';

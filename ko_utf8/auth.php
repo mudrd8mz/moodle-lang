@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
+      // auth.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
 
 
 $string['CASform'] = '인증 선택';
@@ -268,6 +268,12 @@ $string['auth_radiusnasport_key'] = '포트';
 $string['auth_radiussecret'] = '공유된 암호';
 $string['auth_radiussecret_key'] = '보안키';
 $string['auth_radiustitle'] = 'RADIUS 서버 사용';
+$string['auth_radiustype'] = 'RADIUS 서버에서 사용할 인증 정책을 선택하시오.';
+$string['auth_radiustype_key'] = '인증키';
+$string['auth_radiustypechapmd5'] = 'CHAP MD5';
+$string['auth_radiustypemschapv1'] = '마이크로소프트 CHAP V1';
+$string['auth_radiustypemschapv2'] = '마이크로소프트 CHAP V2';
+$string['auth_radiustypepap'] = 'PAP';
 $string['auth_remove_delete'] = '내부적으로 완전 삭제';
 $string['auth_remove_keep'] = '내부적으로 유지';
 $string['auth_remove_suspend'] = '내부적으로 유보';
@@ -360,6 +366,8 @@ $string['update_never'] = '불가';
 $string['update_oncreate'] = '생성 중';
 $string['update_onlogin'] = '모든 접속';
 $string['update_onupdate'] = '갱신 중';
+$string['user_activatenotsupportusertype'] = '인증:  ldap user_activate()는 $a 사용자 형식을 지원하지 않음';
+$string['user_disablenotsupportusertype'] = '인증:  ldap user_activate()는 아직까지 선택된 사용자 형식을 지원하지 않음';
 $string['auth_dbrevive'] = '되살린 사용자 $a[0] id $a[1]'; // ORPHANED
 
 ?>

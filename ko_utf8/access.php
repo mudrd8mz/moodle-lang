@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 2.0 dev (2007101506)
+      // access.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
 
 
 $string['access'] = '접근 가능성';
@@ -9,6 +9,7 @@ $string['accessstatement'] = '접근 가능성 선언';
 $string['activitynext'] = '다음 활동';
 $string['activityprev'] = '이전 활동';
 $string['breadcrumb'] = '방문 경로';
+$string['cannotdeleterolenoadmin'] = '사용자에게 부여된 또 다른 관리자 역할이 없기 때문에 이 역할을 삭제할 수 없음';
 $string['currenttopic'] = '이 주제';
 $string['currentweek'] = '이번 주';
 $string['hideblocka'] = '$a 블럭 감추기';
