@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.2+ (Build: 20081015) (2007101527)
+      // role.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
 
 
 $string['addrole'] = 'Pridať novú rolu';
@@ -23,7 +23,9 @@ $string['capabilities'] = 'Schopnosti';
 $string['capability'] = 'Schopnosť';
 $string['category:create'] = 'Vytvoriť kategórie';
 $string['category:delete'] = 'Vymazať kategórie';
+$string['category:manage'] = 'Spravovať kategórie';
 $string['category:update'] = 'Aktualizovať kategórie';
+$string['category:viewhiddencategories'] = 'Vidieť skryté kategórie';
 $string['category:visibility'] = 'Prezerať skryté kategórie';
 $string['course:activityvisibility'] = 'Skryť/zobraziť aktivity';
 $string['course:bulkmessaging'] = 'Poslať správu viacerým účastníkom';

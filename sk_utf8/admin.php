@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081204) (2007101532.08)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -155,7 +155,7 @@ $string['configlangmenu'] = 'Vyberte si, či chcete zobraziť menu pre voľbu ja
 $string['configlatinexcelexport'] = 'Zvoľte kódovanie pre exporty Excelu';
 $string['configlocale'] = 'Vyberte si miestne jazykové nastavenie - toto ovplyvní formát a jazyk údajov. Tieto miestne údaje musíte mať nainštalované vo Vašom operačnom systéme (napríklad en_US alebo es_ES). Ak neviete, čo si vybrať, nechajte toto prázdne.';
 $string['configloginhttps'] = 'Aktivovanie tejto voľby bude znamenať, že Moodle bude používať bezpečné https spojenie len pri autorizačnej stránke (pri prihlasovaní do systému) uvedením bezpečného prihlasovacieho mena. Následne sa vráti k normálnemu http protokolu URL pre všeobecnú rýchlosť. UPOZORNENIE: Toto nastavenie VYŽADUJE, aby https protokol bol aktivovaný na web serveri - ak nie je, MOHLI BY STE ZAMKNÚŤ VAŠU STRÁNKU.';
-$string['configloglifetime'] = 'Táto voľba špecifikuje dĺžku časového intervalu, počas ktorého si chcete uchovať záznamy o používateľských aktivitách. Záznamy, ktoré sú staršie, sa automaticky vymažú. Je dobré uchovávať si záznamy tak dlho, ako je to možné, ale ak máte veľmi zaneprázdnený server a máte problémy s jeho rýchlosťou, potom si vyberte kratší čas pre uchovávanie záznamov.';
+$string['configloglifetime'] = 'Táto voľba špecifikuje dĺžku časového intervalu, počas ktorého si chcete uchovať záznamy o používateľských aktivitách. Záznamy, ktoré sú staršie, sa automaticky vymažú. Je dobré uchovávať si záznamy tak dlho, ako je to možné, ale ak máte veľmi zaneprázdnený server a máte problémy s jeho rýchlosťou, potom si vyberte kratší čas pre uchovávanie záznamov. Hodnoty nižšie ako 30 nie sú doporučené, pretože štatistiky nemusia fungovať správne.';
 $string['configlongtimenosee'] = 'Ak sa študenti dlhý čas neprihlásia, sú automaticky vyradení z kurzov. Tento parameter stanovuje tento časový limit.';
 $string['configlookahead'] = 'Výhľad';
 $string['configmailnewline'] = 'Znaky pre nový riadok použité v mailoch. CRLF je vyžadované podľa RFC 822bis, ale niektoré mailové servery automaticky konvertujú z LF na CRLF, iné mailové servery nesprávne konvertujú z CRLF na CRCRLF a iné odmietnu maily s LF (napr. qmail). Skúste zmeniť toto nastavenie ak máte problémy s nedoručenými mailami alebo dvojitými prázdnymi riadkami.';

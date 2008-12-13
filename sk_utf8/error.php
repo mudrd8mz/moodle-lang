@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // error.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
 
 
 $string['adminprimarynoedit'] = 'Ostatní administrátori nemôžu upravovať údaje hlavného administrátora';
@@ -38,6 +38,7 @@ $string['errorcreatingdirectory'] = 'Chyba pri vytváraní adresára \"$a\"';
 $string['errorcreatingfile'] = 'Chyba pri vytváraní súboru \"$a\"';
 $string['erroronline'] = 'Chyba na riadku $a';
 $string['errorreadingfile'] = 'Chyba pri čítaní súboru\"$a\"';
+$string['errorsavingrequest'] = 'Pri ukladaní vašej žiadosti sa vyskytla chyba.';
 $string['errorunzippingfiles'] = 'Chyba pri odzipovaní súborov';
 $string['fieldrequired'] = '\"$a\" je povinné pole';
 $string['filenotfound'] = 'Ľutujeme, požadovaný súbor sa nenašiel';
@@ -48,6 +49,7 @@ $string['groupnotaddederror'] = 'Skupina \"$a\" nebola pridaná';
 $string['groupunknown'] = 'Skupina $a nebola priradená k určenému kurzu';
 $string['guestnoeditprofile'] = 'Používateľ \"host\" nemôže upravovať svoj profil';
 $string['guestnoeditprofileother'] = 'Profil používateľa \"host\" nie je možné upravovať';
+$string['guestsarenotallowed'] = 'Hosťovský používateľ nemá oprávnenie na túto činnosť';
 $string['invalidcontext'] = 'Neplatný kontext';
 $string['invalidcourse'] = 'Neplatný kurz';
 $string['invalidcourseid'] = 'Pokúšate sa použiť neplatný identifikátor kurzu ($a)';
@@ -108,6 +110,7 @@ $string['tagnotfound'] = 'Hľadaný tag nebol nájdený v databáze.';
 $string['unicodeupgradeerror'] = 'Ľutujeme. Vaša databáza zatiaľ nepoužíva kódovanie Unicode a táto verzia Moodle nie je schopná migráciu na Unicode vykonať. Prosím, urobte najprv upgrade na verziu 1.7.x a spusťte proces migrácie na Unicode zo stránky Administratíve. Potom budete môcť migrovať na Moodle $a';
 $string['unknowncourse'] = 'Neznámy kurz s názvom \"$a\"';
 $string['unknowncourseidnumber'] = 'Neznámy kurz ID \"$a\"';
+$string['unknowncourserequest'] = 'Požiadavka na neznámy kurz';
 $string['unknowngroup'] = 'Neznáma skupina \"$a\".';
 $string['unknownrole'] = 'Neznáma rola \"$a\".';
 $string['unknownuseraction'] = 'Nerozumiem tejto inštrukcii';
@@ -125,11 +128,12 @@ $string['usernotrenamedadmin'] = 'Nie je možné premenovať administrátorské 
 $string['usernotrenamedexists'] = 'Používateľ nebol premenovaný -- nové užívateľské meno už používa niekto iný.';
 $string['usernotrenamedmissing'] = 'Používateľ nebol premenovaný -- pôvodné užívateľské meno nebolo nájdené.';
 $string['usernotrenamedoff'] = 'Používateľ nebol premenovaný - premenovanie nie je povolené.';
-$string['usernotupdatedadmin'] = 'Nie je možné aktualizovať administátorské kontá.';
+$string['usernotupdatedadmin'] = 'Nie je možné aktualizovať administrátorské kontá.';
 $string['usernotupdatederror'] = 'Používateľ nebol aktualizovaný - chyba.';
 $string['usernotupdatednotexists'] = 'Používateľ nebol aktualizovaný - neexistuje.';
 $string['wrongdestpath'] = 'Chybné cieľové umiestnenie';
 $string['wrongsourcebase'] = 'Chybné URL zdrojového serveru';
 $string['wrongzipfilename'] = 'Chybné meno súboru ZIP';
+$string['youcannotdeletecategory'] = 'Nemôžete vymazať kategóriu \'$a\', pretože alebo nemôžete vymazať jej obsah alebo ho nemôžete presunúť inam.';
 
 ?>
