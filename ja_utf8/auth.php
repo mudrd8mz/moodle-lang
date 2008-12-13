@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080924) (2008092400)
+      // auth.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
 $string['CASform'] = '認証選択';
@@ -258,6 +258,12 @@ $string['auth_radiusnasport_key'] = 'ポート';
 $string['auth_radiussecret'] = '共有鍵';
 $string['auth_radiussecret_key'] = '鍵';
 $string['auth_radiustitle'] = 'RADIUSサーバ';
+$string['auth_radiustype'] = 'RADIUSサーバで使用する認証スキームを選択してください。';
+$string['auth_radiustype_key'] = '認証';
+$string['auth_radiustypechapmd5'] = 'CHAP MD5';
+$string['auth_radiustypemschapv1'] = 'Microsoft CHAP version 1';
+$string['auth_radiustypemschapv2'] = 'Microsoft CHAP version 2';
+$string['auth_radiustypepap'] = 'PAP';
 $string['auth_remove_delete'] = '内部を完全に削除する';
 $string['auth_remove_keep'] = '内部に保持する';
 $string['auth_remove_suspend'] = '内部を一時停止する';
@@ -348,6 +354,8 @@ $string['update_never'] = 'しない';
 $string['update_oncreate'] = '作成時';
 $string['update_onlogin'] = '毎回ログイン時';
 $string['update_onupdate'] = '更新時';
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() は、選択したユーザタイプをサポートしていません: $a';
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable()  は、まだ選択したユーザタイプをサポートしていません。';
 $string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]'; //TBD
 
 ?>
