@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080806) (2008080600)
-
-
+      // question.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 $string['adminreport'] = 'Rapport over mulige problemer i din spørsmålsdatabase.';
 $string['broken'] = 'Dette er en råtten lenke, filen den peker til finnes ikke.';
 $string['byandon'] = 'av <em>$a->user</em> på <em>$a->time</em>';
@@ -30,6 +28,7 @@ $string['errorfilecannotbemoved'] = 'Feil - kan ikke flytte $a.';
 $string['errorfileschanged'] = 'Feil -  filer det er lenket til fra spørsmål er endret etter skjemaet ble vist.';
 $string['errormanualgradeoutofrange'] = 'Karakteren $a->grade er ikke mellom 0 og $a->maxgrade for spørsmålet $a->name. Poeng og kommentar er ikke blitt lagret.';
 $string['errormovingquestions'] = 'Feil ved flytting av spørsmål med id\'er $a.';
+$string['errorprocessingresponses'] = 'Det oppstod en feil under behandlingen av dine svar.';
 $string['errorsavingcomment'] = 'Feil ved lagring av kommentarer for spørsmål $a->name i databasen.';
 $string['errorupdatingattempt'] = 'Feil ved oppdatering av forsøk $a->id i databasen.';
 $string['exportcategory'] = 'Eksportkategori';
@@ -60,6 +59,7 @@ $string['movingquestionsandfiles'] = 'Er du sikker på at du vil flytte spørsm�
 $string['movingquestionsnofiles'] = 'Er du sikker på at du vil flytte spørsmålene {$a->questions} til konteksten for <strong>\"{$a->tocontext}\"</strong>?<br /> Vi ikke oppdaget <strong>noen filer</strong> lenket fra disse spørsmålene i {$a->fromareaname}.';
 $string['needtochoosecat'] = 'Du må velge en kategori å flytte spørsmålene til eller klikke \'Avbryt\'.';
 $string['nopermissionadd'] = 'Du har ikke tillatelse til å legge til spørsmål her.';
+$string['nopermissionmove'] = 'Du har ikke tillatelse til å flytte spørsmål herfra. Du må lagre spørsmålene her i denne kategorien eller lagre det som et nytt spørsmål.';
 $string['noprobs'] = 'Fant ingen problemer i spørsmålsdatabasen.';
 $string['notenoughdatatoeditaquestion'] = 'Hverken spørsmålsid, eller kategori-id og spørsmålstype eller blitt angitt.';
 $string['notenoughdatatomovequestions'] = 'Du må ta med spørsmålsID på spørsmål du ønsker å flytte.';
@@ -83,5 +83,8 @@ $string['tofilecontext'] = 'Skriv konteksten til fil';
 $string['unknown'] = 'Ukjent';
 $string['unknownquestiontype'] = 'Ukjent spørsmålstype: $a.';
 $string['unpublished'] = 'privat';
-
+$string['upgradeproblemcategoryloop'] = 'Problem oppdaget ved oppgradering av spørsmålskategorier. Det er en loop i kategoritreet. De berørte kategori ID-ene er $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Kunne ikke oppdatere spørsmålskategorien  $a->name ($a->id).';
+$string['upgradeproblemunknowncategory'] = 'Problem oppdaget ved oppgradering av spørsmålskategorier. Kategorien $a->id peker til overordnet $a->parent, som ikke eksisterer. Overordnet kategori er endret for å fikse problemet.';
+$string['yourfileshoulddownload'] = 'Eksportfilen din blir nå lastet ned. Dersom intet skjer, vennligst <a href=\"$a\">klikk her</a>. Overordnet kategori er endret for å fikse problemet.';
 ?>

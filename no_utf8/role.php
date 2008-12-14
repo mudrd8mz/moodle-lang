@@ -1,7 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
-
-
+      // role.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 $string['addrole'] = 'Legg til ny rolle';
 $string['allow'] = 'Tillat';
 $string['allowassign'] = 'Tillat å gi roller';
@@ -27,6 +25,9 @@ $string['category:update'] = 'Oppdater kategorier';
 $string['category:visibility'] = 'Se skjulte kategorier';
 $string['course:activityvisibility'] = 'Skjul/vis aktiviteter';
 $string['course:bulkmessaging'] = 'Send melding til mange brukere';
+$string['course:changefullname'] = 'Endre kursets navn';
+$string['course:changeidnumber'] = 'Endre kursets ID-nummer';
+$string['course:changeshortname'] = 'Endre kursets kortnavn';
 $string['course:create'] = 'Lag kurs';
 $string['course:delete'] = 'Slett kurs';
 $string['course:manageactivities'] = 'Administrer aktiviteter';
@@ -130,6 +131,7 @@ $string['risks'] = 'Risiko';
 $string['role:assign'] = 'Tildel roller til brukere';
 $string['role:manage'] = 'Lag og administrer roller';
 $string['role:override'] = 'Overstyr tillatelser til andre';
+$string['role:safeoverride'] = 'Overstyr sikre tillatelser for andre';
 $string['role:switchroles'] = 'Bytt til andre roller';
 $string['role:unassignself'] = 'Fradel egne roller';
 $string['role:viewhiddenassigns'] = 'Se skjulte rolletildelinger';
@@ -137,6 +139,7 @@ $string['roleassignments'] = 'Rolletildelinger';
 $string['roles'] = 'Roller';
 $string['roletoassign'] = 'Rolle å tildele';
 $string['roletooverride'] = 'Rolle å overstyre';
+$string['safeoverridenotice'] = 'OBS: Opsjoner med høyere risiko er låst fordi du ikke har tillatelse til å overstyre sikre opsjoner.';
 $string['selectrole'] = 'Velg en rolle';
 $string['showallroles'] = 'Vis alle roller';
 $string['site:accessallgroups'] = 'Tilgang til alle grupper';
@@ -187,5 +190,4 @@ $string['grade:editlocked'] = 'Rediger låste karakterer'; // ORPHANED
 $string['question:export'] = 'Eksporter spørsmål'; // ORPHANED
 $string['question:import'] = 'Importer spørsmål'; // ORPHANED
 $string['question:manage'] = 'Administrer spørsmål'; // ORPHANED
-
 ?>

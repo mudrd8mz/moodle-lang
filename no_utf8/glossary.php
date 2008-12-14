@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // glossary.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 $string['addcomment'] = 'Legg til kommentar';
 $string['addentry'] = 'Legg til ny oppføring';
 $string['addingcomment'] = 'Legg til en kommentar';
@@ -103,6 +103,7 @@ $string['explainimport'] = '<b>Du må velge:</b><li>Hvilken fil du vil importere
 $string['explainspecial'] = 'Vis oppføringer som starter med andre tegn enn bokstaver';
 $string['exportedentry'] = 'Eksportert oppføring';
 $string['exportentries'] = 'Eksporter oppføringer';
+$string['exportentriestoxml'] = 'Eksporter oppføringer til en XML-fil';
 $string['exportfile'] = 'Eksporter oppføringer til fil';
 $string['exportglossary'] = 'Eksporter ordbok';
 $string['exporttomainglossary'] = 'Eksporter til hovedordbok';

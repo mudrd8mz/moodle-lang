@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
+      // error.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
 $string['cannotassignrole'] = 'Kan ikke tildele rolle i kurset';
 $string['cannotcreatelangdir'] = 'Kan ikke opprette mappen \'lang\'.';
@@ -56,6 +56,7 @@ $string['invalidipformat'] = 'Ugyldig IP-adresseformat';
 $string['invalidmd5'] = 'Ugyldig md5';
 $string['invalidrequest'] = 'Ugyldig forespørsel';
 $string['invalidrole'] = 'Ugyldig rolle';
+$string['invalidsesskey'] = 'Feil i sesjonsnøkkelen, skjemaet ble ikke akseptert!';
 $string['invalidurl'] = 'Ugyldig URL';
 $string['invalidxmlfile'] = '\"$a\" er ikke en gyldig XML-fil';
 $string['iplookupfailed'] = 'Finner ingen GEO informasjon om denne IP-adressen $a.';
