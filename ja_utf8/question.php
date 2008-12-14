@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20081009) (2008100801)
+      // question.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -104,7 +104,8 @@ $string['invalidwizardpage'] = 'ウィザードページが正しくないか、
 $string['linkedfiledoesntexist'] = 'リンクファイル $a がありません。';
 $string['makechildof'] = '「 $a 」の子にする';
 $string['maketoplevelitem'] = 'トップレベルに移動する';
-$string['missingcourseorcmid'] = '問題を表示するには、コースIDまたはコースモジュールIDを提供する必要があります。';
+$string['missingcourseorcmid'] = 'print_questionに対して、コースIDまたはコースモジュールIDを提供する必要があります。';
+$string['missingcourseorcmidtolink'] = 'get_question_edit_linkに対して、コースIDまたはコースモジュールIDを提供する必要があります。';
 $string['missingimportantcode'] = 'この問題タイプには、重要なコードがありません: $a';
 $string['missingoption'] = '穴埋め問題 (Cloze) $a のオプションがありません。';
 $string['modified'] = '最終更新日時';

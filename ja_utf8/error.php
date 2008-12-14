@@ -2,13 +2,14 @@
       // error.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
+$string['TODO'] = 'TODO';
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
 $string['authorizeerror'] = '認証エラー';
 $string['backupcontainexternal'] = 'このバックアップファイルには、ローカルに設定されていない外部Moodleネットワークホストが含まれています。';
 $string['backuptablefail'] = 'バックアップテーブルが正常に設定されていません!';
 $string['blockcannotconfig'] = 'このブロックは、グローバル設定をサポートしません。';
 $string['blockcannotinistantiate'] = 'ブロックオブジェクトのインストール中に問題が発生しました。';
-$string['blockcannotread'] = 'ブロックID= $a のデータを読み込めませんでした。';
+$string['blockcannotread'] = 'ブロックID = $a のデータを読み込めませんでした。';
 $string['blockdoesnotexist'] = 'このブロックはありません。';
 $string['blocknameconflict'] = 'ネーミングコンフリクト: ブロック $a->name には、既存のブロック $a->conflict と同じタイトルが設定されています!';
 $string['cannoffindgradeitem'] = '評定項目が見つかりません';
@@ -97,6 +98,7 @@ $string['cannotopencsv'] = 'CSVファイルをオープンできません。';
 $string['cannotopenfile'] = 'ファイル「 $a 」をオープンできません。';
 $string['cannotopenforwrit'] = '書き込みのため「 $a 」をオープンできません。';
 $string['cannotopentemplate'] = 'テンプレートファイル「 $a 」をオープンできません。';
+$string['cannotopenzip'] = 'ZIPファイルを開くことができません。恐らく、64ビットOSのZIP拡張子に関するバグだと考えられます。';
 $string['cannotoverridebaserole'] = 'ベースロールのケイパビリティをオーバーライドできません。';
 $string['cannotoverriderolehere'] = 'あなたは、このコンテクスト ($a->context) のロール (id = $a->roleid) をオーバーライドできません。';
 $string['cannotreadfile'] = 'ファイルを読み込めません。';
