@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // group.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 $string['addgroupstogrouping'] = 'Legg til gruppe i hovedgruppe';
 $string['addgroupstogroupings'] = 'Legg til / fjern grupper';
 $string['adduserstogroup'] = 'Legg til / fjern brukere';
@@ -27,6 +27,7 @@ $string['deleteallgroups'] = 'Slett alle grupper';
 $string['deletegroupconfirm'] = 'Er du sikker på at du vil slette gruppe \'$a\'?';
 $string['deletegrouping'] = 'Slett hovedgruppe';
 $string['deletegroupingconfirm'] = 'Er du sikker på at du vil slette hovedgruppen \'$a\'? (Grupper i hovedgruppen blir ikke slettet.)';
+$string['deletegroupsconfirm'] = 'Er du sikker på at du vil slette følgende grupper?';
 $string['deleteselectedgroup'] = 'Slett valgte gruppe';
 $string['editgroupingsettings'] = 'Endre innstillinger for hovedgruppe';
 $string['editgroupsettings'] = 'Endre innstillinger for gruppe';
@@ -35,6 +36,8 @@ $string['erroraddremoveuser'] = 'Feil ved legg til / fjern bruker $a i gruppen';
 $string['erroreditgroup'] = 'Feil ved legg til / oppdatering av gruppe $a';
 $string['erroreditgrouping'] = 'Feil ved legg til / oppdatering av hovedgruppe $a';
 $string['errorinvalidgroup'] = 'Feil, ugyldig gruppe $a';
+$string['errorselectone'] = 'Vennligst merk en enkelt gruppe før du velger denne opsjonen.';
+$string['errorselectsome'] = 'Vennligst merk en eller flere grupper før du velger denne opsjonen.';
 $string['evenallocation'] = 'MERK: For å fordele likt på grupper, må du bruke et antall medlemmer pr. gruppe enn du oppga.';
 $string['existingmembers'] = 'Eksisterende medlemmer: $a';
 $string['filtergroups'] = 'Filtrer grupper ved:';

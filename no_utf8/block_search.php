@@ -1,19 +1,16 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
-
-
+      // block_search.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 $string['blockname'] = 'Globalt søk';
-$string['bytes'] = 'bytes (0 står for ingen grense)';
-$string['configbuttonlabel'] = 'Knappetittel';
-$string['configenablefileindexing'] = 'Slå på filindeksering';
-$string['configfiletypes'] = 'Filtyper en kan bruke';
-$string['configlimitindexbody'] = 'Hvor stor kan indeksen være';
+$string['bytes'] = 'Bytes (0 står for ingen grense)';
+$string['configbuttonlabel'] = 'Knappetekst';
+$string['configenablefileindexing'] = 'Aktiver filindeksering';
+$string['configfiletypes'] = 'Filtyper som behandles';
+$string['configlimitindexbody'] = 'Maks indeks-størrelse';
 $string['configpdftotextcmd'] = 'Sti til kommandoen pdftotext';
-$string['configsearchtext'] = 'Søketekst';
+$string['configsearchtext'] = 'Søkestreng';
 $string['configwordtotextcmd'] = 'Sti til kommandoen doctotext';
-$string['configwordtotextenv'] = 'Innstillinger for MSWord konverteringsmodulen';
+$string['configwordtotextenv'] = 'Variabelinnstilling for MSWord konvertering';
 $string['go'] = 'Kjør!';
-$string['searchmoodle'] = 'Søk Moodle';
-$string['usemoodleroot'] = 'Bruk Moodlerota for eksterne konvertere';
-
+$string['searchmoodle'] = 'Søk i Moodle';
+$string['usemoodleroot'] = 'Bruk moodle rotkatalog til eksterne konverteringsprogram';
 ?>
