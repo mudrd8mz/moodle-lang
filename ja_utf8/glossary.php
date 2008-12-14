@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -148,6 +148,7 @@ $string['importedentries'] = 'インポートされたエントリ';
 $string['importentries'] = 'エントリのインポート';
 $string['importentriesfromxml'] = 'エントリをXMLファイルからインポートする';
 $string['includegroupbreaks'] = 'グループ区切りを含む';
+$string['invalidglossaryformat'] = '用語集フォーマットが有効ではありません。';
 $string['invalidid'] = '用語集IDが正しくありません。';
 $string['isglobal'] = 'これはグローバル用語集ですか?';
 $string['letter'] = 'アルファベット';

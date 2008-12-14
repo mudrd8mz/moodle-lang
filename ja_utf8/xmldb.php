@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
 $string['actual'] = '実値';
@@ -7,6 +7,7 @@ $string['aftertable'] = '次のテーブルの後:';
 $string['back'] = '戻る';
 $string['backtomainview'] = 'メインに戻る';
 $string['binaryincorrectlength'] = 'binaryフィールドの長さが正しくありません。';
+$string['cannotinstantiateclass'] = 'エラー: クラス (actions/$a->action/$a->actionclass) をインスタンス化できません。';
 $string['cannotuseidfield'] = '「id」フィールドは追加できません。自動作成されるカラムです。';
 $string['change'] = '変更';
 $string['charincorrectlength'] = 'charフィールドの長さが正しくありません。';

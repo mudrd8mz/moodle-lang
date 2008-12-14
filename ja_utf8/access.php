@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 2.0 dev (Build: 20080417) (2008030700)
+      // access.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
 $string['access'] = 'アクセシビリティ';
@@ -9,6 +9,7 @@ $string['accessstatement'] = 'アクセシビリティ説明';
 $string['activitynext'] = '次の活動';
 $string['activityprev'] = '前の活動';
 $string['breadcrumb'] = 'ブレッドクラムトレイル';
+$string['cannotdeleterolenoadmin'] = '他に管理者ロールが割り当てられたユーザがいないため、あなたはこのロールを削除することができません。';
 $string['currenttopic'] = 'このトピック';
 $string['currentweek'] = 'この週';
 $string['hideblocka'] = 'ブロック $a を隠す';
@@ -24,6 +25,6 @@ $string['tablelayout'] = 'レイアウトテーブル $a';
 $string['tocontent'] = 'メインコンテンツへスキップする';
 $string['tonavigation'] = 'ナビゲーションへ移動する';
 $string['youarehere'] = 'あなたの現在地';
-$string['showhideblock'] = 'ブロックの表示または非表示'; // TBD
+$string['showhideblock'] = 'ブロックの表示または非表示'; //TBD
 
 ?>

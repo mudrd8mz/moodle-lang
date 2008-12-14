@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081208) (2008121000)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -452,6 +452,7 @@ $string['incompatibleblocks'] = '互換性がないブロック';
 $string['install'] = 'インストール';
 $string['installedlangs'] = 'インストール済み言語パック';
 $string['intcachemax'] = '内部キャッシュ最大値';
+$string['invalidlangpack'] = 'この言語パックを編集するには、あなたは言語パックを言語フォルダに置く必要があります。';
 $string['invalidsection'] = 'セクションが正しくありません。';
 $string['invaliduserchangeme'] = 'ユーザ名「changeme」は予約されています -- このユーザ名のアカウントは作成することができません。';
 $string['ipblocked'] = '現在、このサイトは利用できません。';
