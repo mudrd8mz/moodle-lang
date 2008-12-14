@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 $string['abouttobeinstalled'] = 'vil bli installert';
 $string['action'] = 'Handling';
 $string['actions'] = 'Handlinger';
@@ -440,6 +440,7 @@ $string['editorhelptopics'] = 'Editor Hjelp-emner';
 $string['editorresettodefaults'] = 'Bruk standardverdiene';
 $string['editorsettings'] = 'Redigering';
 $string['editorshortcutkeys'] = 'Editor snarveier';
+$string['editremoteprofile'] = 'Endre ekstern profil';
 $string['editsummary'] = 'Rediger overskrift';
 $string['editthisactivity'] = 'Rediger denne aktiviteten';
 $string['editthiscategory'] = 'Rediger denne kategorien';
@@ -874,6 +875,7 @@ $string['missinglastname'] = 'Mangler etternavn';
 $string['missingname'] = 'Mangler navn';
 $string['missingnewpassword'] = 'Mangler nytt passord';
 $string['missingpassword'] = 'Mangler passord';
+$string['missingrecaptchachallengefield'] = 'Mangler reCAPTCHA utfyllingsfelt';
 $string['missingreqreason'] = 'Mangler grunn';
 $string['missingshortname'] = 'Mangler kort navn';
 $string['missingshortsitename'] = 'Mangler kort kursnavn';
@@ -1114,6 +1116,7 @@ $string['previous'] = 'Forrige';
 $string['previoussection'] = 'Forrige seksjon';
 $string['primaryadminsetup'] = 'Setup administrator konto';
 $string['profile'] = 'Profil';
+$string['profilenotshown'] = 'Denne profilbeskrivelsen vil ikke vises før en bruker er påmeldt i minst ett kurs.';
 $string['publicdirectory'] = 'Publiser nettstedet';
 $string['publicdirectory0'] = 'Vennligst ikke publiser dette nettstedet';
 $string['publicdirectory1'] = 'Publiser bare navnet på nettstedet';
@@ -1140,7 +1143,7 @@ $string['registrationsend'] = 'Send informasjon til moodle.org';
 $string['registrationyes'] = 'Ja, gi meg beskjed om viktige tema';
 $string['reject'] = 'Avvis';
 $string['reload'] = 'Last på nytt';
-$string['remotemaharauser'] = 'Fjern Maharabruker';
+$string['remoteappuser'] = 'Ekstern $a Bruker';
 $string['remove'] = 'Fjern';
 $string['removeadmin'] = 'Fjern admin';
 $string['removecreator'] = 'Fjern kursprodusent';
@@ -1482,6 +1485,7 @@ $string['usersnoaccesssince'] = 'Vis brukere som har vært inaktive i mer enn';
 $string['userzones'] = 'Brukersoner';
 $string['usethiscourse'] = 'Bruk dette kurset';
 $string['usingexistingcourse'] = 'Bruker eksisterende kurs';
+$string['valuealreadyused'] = 'Denne verdien er allerede i bruk';
 $string['version'] = 'Versjon';
 $string['view'] = 'Visning';
 $string['views'] = 'Visninger';
@@ -1552,5 +1556,6 @@ $string['yourlastlogin'] = 'Du var sist innlogget';
 $string['yourself'] = 'deg selv';
 $string['yourteacher'] = 'din $a';
 $string['zippingbackup'] = 'Pakker sikkerhetskopi';
+$string['remotemaharauser'] = 'Fjern Maharabruker'; // ORPHANED
 $string['skiptomaincontent'] = 'Dropp viderekobling til hovedinnholdet'; // ORPHANED
 ?>

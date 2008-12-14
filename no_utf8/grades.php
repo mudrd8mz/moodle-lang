@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
+      // grades.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
 $string['activities'] = 'Aktiviteter';
 $string['addcategory'] = 'Legg til kategori';
 $string['addcategoryerror'] = 'Kunne ikke legge til kategorien.';
@@ -101,6 +101,7 @@ $string['configshowgroups'] = 'Om en skal vise middleverdien for hver gruppe.';
 $string['configshowhiddenitems'] = 'Angir hvordan skjulte karakterenheter vises. Hvis Skjul er valgt, er fullstendig skjult. Hvis Vis er valgt, vil den skjulte karakteren vises i grått med karakteren skjult fullstendig. Hvis \"Bare skjult til\" er valgt, vil karakteren skjules til datoen som vises i grått med karakteren skjult fullstendig til angitt dato, hvor hele karakterenheten vises.';
 $string['configshowlocks'] = 'Om en skal vise et lås/lås-opp ikon nær karakteren';
 $string['configshownumberofgrades'] = 'Om en skal vise antall karakter som brukes for å regne ut middelverdien i parantes etter hvert gjennomsnitt, for eksempel 45 (34).';
+$string['configshowpercentage'] = 'Om det skal vises en ‰-verdi av hvert karakterelement.';
 $string['configshowquickfeedback'] = 'Hurtig tilbakemelding legger til et tekstelement i hver karaktercelle i karakter-rapporten, og gjør at du kan redigere tilbakemelding for mange karakterer på en gang. Du kan så klikke på Oppdaterknappen for å gjennomføre alle disse endringene med en gang, istedet for en om gangen.';
 $string['configshowranges'] = 'Om en skal vise utvalget av karakterer for hver kolonne i en ekstra rekke';
 $string['configshowrank'] = 'Om en skal vise brukerens rangering i forhold til resten av klassen, for hver karakterenhet.';
@@ -345,7 +346,9 @@ $string['nonnumericweight'] = 'Received non-numeric value for';
 $string['nonunlockableverbose'] = 'Karakteren kan ikke låses opp før $a->itemname er låst opp.';
 $string['nonweightedpct'] = 'ikke-vekted %%';
 $string['nooutcome'] = 'Ikke noe resultat';
+$string['nooutcomes'] = 'Elementets læringsutbytte må lenkes til kursets læringsmål, men det er ingen læringsmål for dette kurset. Vil du legge til et læringsmål nå?';
 $string['nopublish'] = 'Ikke publiser';
+$string['noscales'] = 'Læringsmål må lenkes til en vurderingsskala globalt eller i kurset, men det finnes ingen her. Vil du legge til en skala nå?';
 $string['noselectedcategories'] = 'ingen kategorier ble valgt';
 $string['noselecteditems'] = 'ingen enheter ble valgt';
 $string['notteachererror'] = 'Du må være lærer for å bruke denne aktiviteten.';
@@ -354,6 +357,7 @@ $string['onascaleof'] = 'på en skala fra $a->grademin til $a->grademax';
 $string['operations'] = 'Handlinger';
 $string['options'] = 'Valg';
 $string['outcome'] = 'Læringsutbytte';
+$string['outcomeassigntocourse'] = 'Legg til et ekstra læringsmål til dette kurset.';
 $string['outcomecategory'] = 'Lag læringsutbytte i kategori';
 $string['outcomecategorynew'] = 'Ny kategori';
 $string['outcomeconfirmdelete'] = 'Er du sikker på at du vil slette læringsutbytte \"$a\"?';
@@ -452,6 +456,7 @@ $string['showlocks'] = 'Vis låser';
 $string['shownohidden'] = 'Ingen skjult';
 $string['shownooutcomes'] = 'Skjul læringsutbytte';
 $string['shownumberofgrades'] = 'Vis antall karakterer i gjennomsnitt';
+$string['showpercentage'] = 'Vis prosent';
 $string['showquickfeedback'] = 'Vis Hurtigtilbakemelding';
 $string['showranges'] = 'Vis områder';
 $string['showrank'] = 'Vis rangering';
