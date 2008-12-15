@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+
+
 $string['accessdenied'] = 'Ingen tilgang';
 $string['accounts'] = 'Kontoer';
 $string['adminseesall'] = 'Administratorer ser alt';
@@ -620,6 +622,7 @@ $string['recaptchapublickey'] = 'ReCAPTCHA offentlig nøkkel';
 $string['releasenoteslink'] = 'For mer informasjon om denne versjonen av Moodle, sjekk online via  <a target=\"_new\" href=\"$a\">Release Notes</a>';
 $string['remotelangnotavailable'] = 'Moodle får ikke kontakt med download.moodle.org og kan derfor ikke laste ned og installere språkpakker automatisk. Last i stedet ned språkpakkene manuelt og kopier dem til ditt $a katalog og pakk ut der.';
 $string['renameerrors'] = 'Feil ved endring av navn';
+$string['requiredentrieschanged'] = '<strong>VIKTIG - VÆR VENNLIG LES<br/>(Denne advarselen vil kun vises ved denne oppgraderingen)</strong><br/>På grunn av en feilreting, vil aktiviteter ved bruk av \'Nødvendige tilføyelser\' og \'Nødvendige tilføyelser før en kan se innstillinger\' endres. En mer detaljert forklaring på endringene kan en lese (på engelsk) på <a href=\"http://moodle.org/mod/forum/discuss.php?110928\" target=\"_blank\">databaseforumet</a>. <br/><br/>Denne endringen påvirker følgende databaser i systemet ditt: (Vær vennlig å lagre denne listen nå, og etter at oppgraderingen er ferdig, sjekk at disse aktivitetene fremdeles virker slik lærerne ønsker).<br/><strong style?\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Nødvendig. Du kan bruke malsyntaks her (%%l = etternavn, %%f = fornavn, %%u = brukernavn).';
 $string['restrictbydefault'] = 'Begrens som standard tilgang til modulene';
 $string['restrictmodulesfor'] = 'Begrens tilgang til moduler for';
@@ -784,4 +787,5 @@ $string['xmlrpcrecommended'] = 'Å installere det valgfrie xmlrpc-tillegget er n
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['ziprequired'] = 'ZIP PHP-tillegget kreves nå av Moodle. Info-ZIP eller PclZIP biblioteket er ikke lenger i bruk.';
 $string['configenablerecordcache'] = 'Dersom du aktiverer denne, vil systemet lagre i hurtigminnet når det mottar data fra databasen. Dette betyr at databasen blir raskere i bruk, men på  den annen side vil minnekravet på serveren øke. Generelt anbefaler vi at innstillingen aktiviseres, så sant du ikke har lite minne på serveren. Noen prosesser vil likevel overstyre denne innstillingen (når utvikleren er sikker på at det er lurt).'; // ORPHANED
+
 ?>
