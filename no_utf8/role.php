@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // role.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+
+
 $string['addrole'] = 'Legg til ny rolle';
 $string['allow'] = 'Tillat';
 $string['allowassign'] = 'Tillat å gi roller';
@@ -21,7 +23,9 @@ $string['capabilities'] = 'Capabilities';
 $string['capability'] = 'Capability';
 $string['category:create'] = 'Lag kategorier';
 $string['category:delete'] = 'Slett kategorier';
+$string['category:manage'] = 'Administrer kategorier';
 $string['category:update'] = 'Oppdater kategorier';
+$string['category:viewhiddencategories'] = 'Se skjulte kategorier';
 $string['category:visibility'] = 'Se skjulte kategorier';
 $string['course:activityvisibility'] = 'Skjul/vis aktiviteter';
 $string['course:bulkmessaging'] = 'Send melding til mange brukere';
@@ -190,4 +194,5 @@ $string['grade:editlocked'] = 'Rediger låste karakterer'; // ORPHANED
 $string['question:export'] = 'Eksporter spørsmål'; // ORPHANED
 $string['question:import'] = 'Importer spørsmål'; // ORPHANED
 $string['question:manage'] = 'Administrer spørsmål'; // ORPHANED
+
 ?>

@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // error.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+
+
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
 $string['cannotassignrole'] = 'Kan ikke tildele rolle i kurset';
 $string['cannotcreatelangdir'] = 'Kan ikke opprette mappen \'lang\'.';
@@ -36,6 +38,7 @@ $string['errorcreatingdirectory'] = 'Feil ved oppretting av mappen \"$a\"';
 $string['errorcreatingfile'] = 'Feil ved oppretting av filen \"$a\".';
 $string['erroronline'] = 'Feil på linje $a';
 $string['errorreadingfile'] = 'Feil under lesning av fil \"$a\"';
+$string['errorsavingrequest'] = 'En feil oppsto da du prøvde å lagre henvendelsen.';
 $string['errorunzippingfiles'] = 'Feil ved utpakking av filer';
 $string['fieldrequired'] = '\"$a\" er et obligatorisk felt';
 $string['filenotfound'] = 'Beklager, det var ikke mulig å finne filen';
@@ -46,6 +49,7 @@ $string['groupnotaddederror'] = 'Gruppe \"$a\" ble ikke lagt til';
 $string['groupunknown'] = 'Gruppe $a er ikke tilordnet spesifisert klasse';
 $string['guestnoeditprofile'] = 'En gjest kan ikke editere profilen sin';
 $string['guestnoeditprofileother'] = 'Gjesteprofilen kan ikke editeres';
+$string['guestsarenotallowed'] = 'Gjestebrukere har ikke lov til å gjøre dette';
 $string['invalidcontext'] = 'Ugyldig kontekst';
 $string['invalidcourse'] = 'Ugyldig kurs';
 $string['invalidcourseid'] = 'Du prøver å bruke en ugyldig kurs-ID ($a)';
@@ -107,6 +111,7 @@ $string['tagnotfound'] = 'Fant ikke oppgitt tag i databasen';
 $string['unicodeupgradeerror'] = 'Beklager, men databasen du bruker er ikke i Unicode, og denne versjonen av Moodle kan ikke migrere til Unicode. Vennligst oppgrader til Moodle 1.7.x først og utfør Unicode migreringen fra Admin-siden. Etter dette kan Moodle migreres til Moodle $a';
 $string['unknowncourse'] = 'Ingen klasse med navnet \"$a\"';
 $string['unknowncourseidnumber'] = 'Ukjent kurs ID \"$a\"';
+$string['unknowncourserequest'] = 'Ukjent kursforespørsel';
 $string['unknowngroup'] = 'Ukjent gruppe \"$a\"';
 $string['unknownrole'] = 'Ukjent rolle \"$a\"';
 $string['unknownuseraction'] = 'Beklager men jeg forsto ikke denne brukerhandlingen.';
@@ -130,4 +135,6 @@ $string['usernotupdatednotexists'] = 'Brukeren ble ikke oppdatert - eksisterer i
 $string['wrongdestpath'] = 'Gal resultatmappe';
 $string['wrongsourcebase'] = 'Galt ZIP-filnavn.';
 $string['wrongzipfilename'] = 'Galt ZIP-filnavn.';
+$string['youcannotdeletecategory'] = 'Du kan ikke slette kategorien \'$a\' fordi du hverken kan slette innholdet eller flytte det andre steder.';
+
 ?>
