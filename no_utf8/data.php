@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // data.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
 
 
 $string['action'] = 'Handling';
@@ -82,6 +82,7 @@ $string['emptyadd'] = 'Malen for Legg til... er tom, genererer et standard skjem
 $string['emptyaddform'] = 'Du har ikke fylt ut noen felter!';
 $string['entries'] = 'Oppføringer';
 $string['entrieslefttoadd'] = 'Du må legge til $a flere oppføringer før du kan se andre deltakeres oppføringer';
+$string['entrieslefttoaddtoview'] = 'Du må legge til $a->entrieslefttoview flere poster/innlegg før du kan se andre deltakeres innlegg.';
 $string['entry'] = 'Oppføring';
 $string['entrysaved'] = 'Din oppføring er lagret';
 $string['errormustbeteacher'] = 'Du må være Lærer for å bruke denne siden!';
