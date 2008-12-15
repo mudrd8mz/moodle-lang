@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+
+
 $string['abouttobeinstalled'] = 'vil bli installert';
 $string['action'] = 'Handling';
 $string['actions'] = 'Handlinger';
@@ -133,6 +135,7 @@ $string['autosubscribeyes'] = 'Ja, når jeg skriver innlegg, kan jeg føres opp 
 $string['availability'] = 'Tilgjengelighet';
 $string['availablecourses'] = 'Tilgjengelige kurs';
 $string['back'] = 'Tilbake';
+$string['backtocourselisting'] = 'Tilbake til kurslisten';
 $string['backtoparticipants'] = 'Tilbake til deltakerlisten';
 $string['backup'] = 'Sikkerhetskopiering';
 $string['backupactivehelp'] = 'Velg om automatisk sikkerhetskopiering skal kjøre';
@@ -283,17 +286,22 @@ $string['coursemessage'] = 'Melding til kursbrukere';
 $string['coursenotaccessible'] = 'Dette kurset er ikke åpent for allmenheten';
 $string['courseoverview'] = 'Kursoversikt';
 $string['courseoverviewgraph'] = 'Kursoversikt graf';
+$string['coursereasonforrejecting'] = 'Hva er årsaken til at du ikke godtar dette';
+$string['coursereasonforrejectingemail'] = 'Dette vil bli sendt på mail til den som har foreslått det';
 $string['coursereject'] = 'Avslå søknad om ny kurs';
 $string['courserejected'] = 'Søknad om ny kurs ble avslått og søkeren har fått beskjed.';
 $string['courserejectemail'] = 'Beklager, men søknaden om å opprette et nytt kurs ble ikke innvilget. Begrunnelsen for avslaget er som følger: $a';
 $string['courserejectreason'] = 'Skisser opp hovedgrunnene til at kurset ble avvist<br />(Dette blir sendt til søkeren)';
 $string['courserejectsubject'] = 'Søknaden om å få opprette et kurs bla avsått';
+$string['coursereports'] = 'Kursrapporter';
 $string['courserequest'] = 'Kurssøknad';
+$string['courserequestdetails'] = 'Detaljer for kurset du vil melde deg på';
 $string['courserequestdisabled'] = 'Beklager, men administrator har skrudd av funksjonen for å søke om opprettelse av nye kurs.';
 $string['courserequestfailed'] = 'Av en eller annen grunn ble ikke kurssøknaden lagret';
 $string['courserequestintro'] = 'Bruk dette skjemaet for å søke om å få opprettet et kurs. <br /> Fyll inn så mye informasjon som mulig, <br /> slik at administratorene kan forstå hvorfor du ønsker dette kurset.';
 $string['courserequestreason'] = 'Grunner til å ha et slikt kurs';
 $string['courserequestsuccess'] = 'Kurssøknaden ble lagret uten feil. Du vil få svar på e-post i løpet av et par dager.';
+$string['courserequestsupport'] = 'Utfyllende informasjon for å hjelpe administratoren å vurdere søknaden.';
 $string['courserestore'] = 'Gjenopprett kurs';
 $string['courses'] = 'Kurs';
 $string['coursescategory'] = 'Kurs i samme kategori';
@@ -304,6 +312,7 @@ $string['courseupdates'] = 'Oppdateringer i kurset';
 $string['courseuploadlimit'] = 'Kursets øvre grense for størrelse på opplastede filer';
 $string['create'] = 'Lag';
 $string['createaccount'] = 'Lag en ny brukerkonto';
+$string['createcategory'] = 'Lag kategori';
 $string['createfolder'] = 'Lag en mappe i $a';
 $string['createuserandpass'] = 'Lag et nytt brukernavn og passord for innlogging';
 $string['createziparchive'] = 'Lag ziparkiv';
@@ -367,11 +376,13 @@ $string['defaultcourseteacherdescription'] = 'Lærere kan gjøre hva som helst i
 $string['defaultcourseteachers'] = 'Lærere';
 $string['delete'] = 'Slett';
 $string['deleteall'] = 'Slett alle';
+$string['deleteallcannotundo'] = 'Slette alle - kan ikke angres';
 $string['deleteallcomments'] = 'Slett alle kommentarer';
 $string['deleteallratings'] = 'Slett alle vurderinger';
 $string['deletecategory'] = 'Slett kategori: $a';
 $string['deletecategorycheck'] = 'Er du helt sikker på at du vil slette denne kategorien, <b>\'$a\'</b>?<br /> Dette vil flytte alle alle kurs til kategorien over hvis det er noen, eller til kategorien \"Diverse\".';
 $string['deletecategorycheck2'] = 'Hvis du sletter denne kategorien, må du bestemme hva du vil gjøre med underkategorier og kurs den inneholder.';
+$string['deletecategoryempty'] = 'Denne kategorien er tom.';
 $string['deletecheck'] = 'Slett $a ?';
 $string['deletecheckfiles'] = 'Er du helt sikker på at du vil slette disse filene?';
 $string['deletecheckfull'] = 'Er du sikker på at du vil slette $a ?';
@@ -902,6 +913,7 @@ $string['mostrecently'] = 'siste';
 $string['move'] = 'Flytt';
 $string['movecategorycontentto'] = 'Flytt til';
 $string['movecategoryto'] = 'Flytt kategori til:';
+$string['movecontentstoanothercategory'] = 'Flytt innholdet til en annen kategori';
 $string['movecourseto'] = 'Flytt kurs til:';
 $string['movedown'] = 'Flytt ned';
 $string['movefilestohere'] = 'Flytt filer hit';
@@ -1081,6 +1093,7 @@ $string['payments'] = 'Innbetalinger';
 $string['paymentsorry'] = 'Takk for betalingen! Dessverre er ikke innbetalingen ferdigbehandlet, så du har ennå ikke blitt registrert som student på kurset \"$a->fullname\". 
 Prøv å gå videre til kurset om noen sekunder. Hvis problemene fortsetter kan du ta kontakt med $a->teacher eller nettstedets administrator.';
 $string['paymentthanks'] = 'Takk for betalingen! Du er nå påmeldt kurset: >br/> \"$a\"';
+$string['pendingrequests'] = 'Forespørselen er under vurdering';
 $string['people'] = 'Deltakere';
 $string['periodending'] = 'Peridoen slutter ($a)';
 $string['personal'] = 'Personlig';
@@ -1124,6 +1137,7 @@ $string['publicdirectory2'] = 'Publiser navnet på nettstedet med lenke til det'
 $string['publicdirectorytitle'] = 'Vis gjeldende liste av siter';
 $string['publicsitefileswarning'] = 'Merk: Filer plassert her vil hvem som helst ha tilgang til';
 $string['question'] = 'Spørsmål';
+$string['questionsinthequestionbank'] = 'Spørrmål i spørsmålsbanken';
 $string['readinginfofrombackup'] = 'Leser informasjon fra sikkerhetskopi';
 $string['readme'] = 'LES MEG';
 $string['recentactivity'] = 'Siste aktivitet';
@@ -1142,6 +1156,7 @@ $string['registrationno'] = 'Nei, jeg vil ikke motta e-post';
 $string['registrationsend'] = 'Send informasjon til moodle.org';
 $string['registrationyes'] = 'Ja, gi meg beskjed om viktige tema';
 $string['reject'] = 'Avvis';
+$string['rejectdots'] = 'Avvis...';
 $string['reload'] = 'Last på nytt';
 $string['remoteappuser'] = 'Ekstern $a Bruker';
 $string['remove'] = 'Fjern';
@@ -1387,6 +1402,7 @@ $string['theme'] = 'Tema';
 $string['themes'] = 'Tema';
 $string['themesaved'] = 'Nytt tema lagret';
 $string['thereareno'] = 'Det er ingen $a i dette kurset.';
+$string['thiscategorycontains'] = 'Denne kategorien inneholder';
 $string['thischarset'] = '<< OVERSETTERE: Spesifiser karaktersettet til språket ditt her. Merk at all tekst som er skrevet mens dette språket er aktivt vil vill lagres med dette karaktersettet, så ikke forandr det når du har slått det på Eksempel: iso-8859-1 >>';
 $string['thisdirection'] = '<< OVERSETTERE: Denne strengen spesifiserer retningen på teksten din, enten fra venstre-til-høyre eller høyre-til-venstre. Sett inn enten \'ltr\' eller \'rtl\' her. >>';
 $string['thislanguage'] = '<< OVERSETTERE: Spesifiser navnet på språket her. Hvis mulig, bruk Unicode Numeric Character References >>';
@@ -1516,6 +1532,7 @@ $string['welcometocoursetext'] = 'Velkommen til $a->coursename!
 Hvis du ikke har gjort det enda bør du redigere profilen din (informasjon om deg selv) slik at vi kan bli bedre kjent med deg:
   $a->profileurl';
 $string['whattocallzip'] = 'Hva vil du kalle zip-fila?';
+$string['whattodo'] = 'Hva skal du gjøre';
 $string['withchosenfiles'] = 'Med valgte filer';
 $string['withoutuserdata'] = 'uten brukerdata';
 $string['withselectedusers'] = 'Med valgte brukere';
@@ -1558,4 +1575,5 @@ $string['yourteacher'] = 'din $a';
 $string['zippingbackup'] = 'Pakker sikkerhetskopi';
 $string['remotemaharauser'] = 'Fjern Maharabruker'; // ORPHANED
 $string['skiptomaincontent'] = 'Dropp viderekobling til hovedinnholdet'; // ORPHANED
+
 ?>
