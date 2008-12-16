@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080710) (2008070701)
+      // auth.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
@@ -260,6 +260,12 @@ $string['auth_radiusnasport_key'] = 'Poort';
 $string['auth_radiussecret'] = 'Gedeeld geheim';
 $string['auth_radiussecret_key'] = 'Geheim';
 $string['auth_radiustitle'] = 'RADIUS server';
+$string['auth_radiustype'] = 'Kies een authenticatieschema om te gebruiken met RADIUS';
+$string['auth_radiustype_key'] = 'Authenticatie';
+$string['auth_radiustypechapmd5'] = 'CHAP_MD5';
+$string['auth_radiustypemschapv1'] = 'Microsoft CHAP versie 1';
+$string['auth_radiustypemschapv2'] = 'Microsoft CHAP versie 2';
+$string['auth_radiustypepap'] = 'PAP';
 $string['auth_remove_delete'] = 'Verwijder interne gegevens volledig';
 $string['auth_remove_keep'] = 'Behoud interne gegevens';
 $string['auth_remove_suspend'] = 'Blokkeer interne gegevens';
@@ -351,6 +357,8 @@ $string['update_never'] = 'Nooit';
 $string['update_oncreate'] = 'Bij het  aanmaken';
 $string['update_onlogin'] = 'Bij elke aanmelding';
 $string['update_onupdate'] = 'Bij het updaten';
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() ondersteunt het geselecteerde gebruikerstype niet: $a';
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() ondersteunt het geselecteerde gebruikerstype (nog) niet';
 $string['auth_dbrevive'] = 'Ontvangen gebruiker $a[0] id $a[1]'; // ORPHANED
 
 ?>

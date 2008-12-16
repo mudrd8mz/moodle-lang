@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 2.0 dev (2007101505)
+      // access.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['access'] = 'Toegankelijkheid';
@@ -9,6 +9,7 @@ $string['accessstatement'] = 'Toegankelijkheidsverklaring';
 $string['activitynext'] = 'Volgende activiteit';
 $string['activityprev'] = 'Vorige activiteit';
 $string['breadcrumb'] = 'Broodkruimelpad';
+$string['cannotdeleterolenoadmin'] = 'Je kunt deze rol niet verwijderen omdat er geen andere beheerdersrollen met toegewezen gebruikers ijn.';
 $string['currenttopic'] = 'Dit onderwerp';
 $string['currentweek'] = 'Deze week';
 $string['hideblocka'] = 'Verberg $a blok';
