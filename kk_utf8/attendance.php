@@ -1,0 +1,73 @@
+<?PHP // $Id$
+      // attendance.php - created with Moodle 1.3.1 + (2004052501)
+
+
+$string['absentlong'] = 'Жоқ болу';
+$string['absentshort'] = ' туралы';
+$string['addingmultiple'] = 'Қатысу туралы жиындық ақпартізімдер қосу';
+$string['addmultiple'] = 'Қатысулар жайлы жиындық ақпартізімдер қосу';
+$string['allmodulename'] = 'Қатысудың барлық ақпартізімдері';
+$string['auto'] = 'авто';
+$string['autoattend'] = 'Пайдаланушылардың белсенділігін талдау негізінде қатысуды автоматты түрде тіркеу (user activity logs)';
+$string['autoattendmulti'] = 'Барлық пайдаланушылардың белсенділігін талдау негізінде қатысуды автоматты түрде тіркеу (user activity logs)';
+$string['autoattendshort'] = 'Жүйелік ақпараттан автоматты түрде (logs) ';
+$string['choosedays'] = 'Әр апата күніне қатысуды анықтау';
+$string['dayofroll'] = 'Күн ақпартізіміндегі уақыт';
+$string['defaultautoattend'] = 'Пайдаланушылардың белсенділігін  (user activity logs) талдау негізінде алынған қатысуды әдепкі ретінде алу керек пе? ';
+$string['defaultdynamicsection'] = 'Қатысудың ақпартізімін өздігінен дұрыс аптаға орналастыру керек пе';
+$string['defaultgrade'] = 'Бағалауды өздігінен қатысу ақпартізімінен жүргізу керек пе';
+$string['defaulthoursinclass'] = 'Әдетте қатысу ақпартізімінде болуы керек сағат саны';
+$string['defaultmaxgrade'] = 'Толық қатысу үшін әдетте, қойылуы керек ең жоғарғы баға ';
+$string['defaultstudentstatus'] = 'Жаңа ақпартізім үшін әдеттегі студенттің қатысу мәртебесі';
+$string['downloadexcelfull'] = 'Excel пішімінде толық электронды кестелерді жүктеу';
+$string['downloadexceltotals'] = 'Excel пішіміндегі нәтижелік электронды кестелерді жүктеу ';
+$string['downloadtextfull'] = 'Толық мәтіндік есепті жүктеу';
+$string['downloadtexttotals'] = 'Нәтижелік мәтіндік есепті жүктеу';
+$string['dynamicsection'] = 'Осы күнге негізделген, қатысу аптасын анықтаңыз';
+$string['dynamicsectionmulti'] = 'Апталық бөлімдегі ақпартізімнің автоматты орны';
+$string['dynsectionshort'] = 'Бөлімдегі динамикалық орын ауыстыру';
+$string['endbeforestart'] = 'Бастапқы мерзім алдындағы соңғы мерзім';
+$string['endmulti'] = 'Қатысудың соңғы ақпартізімінің мерзімі';
+$string['for'] = ' үшін';
+$string['friday'] = ' жұма';
+$string['gradeshort'] = 'Өсу ретімен орналастыру';
+$string['gradevalue'] = 'Бұл ақпартізімді бағалау ақпартізімі ету';
+$string['gradevaluemulti'] = ' Бұл ақпартізімдерді бағалау ақпартізімдері ету';
+$string['hoursinclass'] = 'Сыныптағы сағат саны';
+$string['hoursineachclass'] = 'Әр сыныптағы сағат саны';
+$string['hoursinfullreport'] = 'Есептің бір бетінде көрсетілетін қатысу сағаттарының ең көп саны';
+$string['maxgradeshort'] = 'Ең жоғарғы баға';
+$string['maxgradevalue'] = 'Толық қатысқандағы бағаның ең жоғарғы мәні';
+$string['modulename'] = 'Қатысу';
+$string['modulenameplural'] = 'Қатысу ақпартізімі';
+$string['monday'] = 'Дс';
+$string['norolls'] = 'Бұл курста қатысу ақпартізімі жоқ';
+$string['notes'] = 'Ерекше ақпарат';
+$string['notesfor'] = 'Күннің ерекше ақпараты';
+$string['noviews'] = 'Кешіріңіз, бірақ бұл Сіздің аккаунтыңыздың мәліметі емес';
+$string['of'] = ' үшін';
+$string['pages'] = 'беттер';
+$string['presentlong'] = 'Қатысу';
+$string['presentshort'] = 'Қ';
+$string['saturday'] = 'Сб';
+$string['showdefaults'] = 'Әдепкі мәндерді көрсету';
+$string['startafterend'] = 'Курсты аяқтағаннан кейінгі бастапқы мерзім';
+$string['startmulti'] = 'Бірінші қатысу ақпартізімінің мерзімі';
+$string['sunday'] = 'Жс';
+$string['takeroll'] = 'Ақпартізімде бұл күнді ескереміз бе?';
+$string['tardiesperabsence'] = 'Бір жоқ болуды неше кешігумен теңестіреміз?';
+$string['tardylong'] = 'Кешігу';
+$string['tardyshort'] = 'К';
+$string['teacheredit'] = 'Қатысуды алу';
+$string['thursday'] = 'Бс';
+$string['tuesday'] = 'Сс';
+$string['viewall'] = 'Барлық қатысу ақпартізімдерін қарау';
+$string['viewmulti'] = 'Көп беттік есептерді қарау';
+$string['viewone'] = 'Есептің барлық бетін қарау';
+$string['viewsection'] = 'Берілген бөлімдегі барлық қатысу ақпартізімдерін қарау';
+$string['viewtable'] = 'Есепті бір бет ретінде қарау';
+$string['viewweek'] = 'Күнтізбелік аптадан барлық қатысу ақпаратын қарау';
+$string['wednesday'] = 'Ср';
+$string['weekmodulename'] = 'Соңғы аптадағы қатысу ақпатізімдері';
+
+?>
