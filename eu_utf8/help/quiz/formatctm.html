@@ -1,26 +1,19 @@
-<p align="center"><b>Course Test Manager software-paketetik fitxategiak inportatu</b></p>
+<h1>"Course Test Manager" software-paketetik fitxategiak inportatu</h1>
 
 <p>Course Test Manager (ikastaroetako galdeketen administratzailea) Course Technology delakoaren
 &quot;End of Lifetime&quot; software-pakete bat da. Gaur egun dagoeneko ez du Course Technologyk garatzen&nbsp;; haren ordez beste galdeketa-administratzaile bat jarri da&nbsp;: ExamView. Dena den, sekula ez dute migraziorik egin, formatu hori CTMtik beste galdeketa-formatu ezagun batera esportatzeko. Horregatik idatzi dugu modulu hau.</p>
 
 <p>CTMko galderak inportatzeko, aurrena ordenagailuan instalatuta eduki behar duzu (ordenagailuak Windows eduki behar du) eta ordenagailu horretan MS Accesseko datu-artxiboetan sartzeko aukera izan behar duzu. CTM datuetara sartzeko bi datu-fitxategi behar dira:</p>
 
-<ul type=disc>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><span lang=EU>System.mda.
-     Artxibo hori CTMren instalazioaren direktorio nagusian dago; Access
-     lengoaian �Sistemaren datu-basea� esaten zaio. </span></li>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l1 level1 lfo1;tab-stops:list 36.0pt'><span lang=EU>ctm.mdb.
-     Datu-base honetan galdeketa-bankuko galderak daude. CTM instalatutako
+<ul><li>System.mda - Fitxategi hori CTMren instalazioaren direktorio nagusian dago; Access
+     lengoaian "Sistemaren datu-basea" esaten zaio. </li>
+<li>ctm.mdb - Datu-base honetan galdeketa-bankuko galderak daude. CTM instalatutako
      ikastaro bakoitzak bere datu-basea dauka, maila baxuagoko direktorioetan,
-     CTMren instalazio-direktorioaren azpian. </span></li>
+     CTMren instalazio-direktorioaren azpian.</li>
 </ul>
 
-<p class=MsoNormal><span lang=EU>Moodle programaren inportazio-prozesua
-desberdina da Linuxen eta Windowsen. Plataforma dena delakoa ere, Moodle dagoen
-sarean Windows sistema beharko duzu (Windows 2000 edo Windows XP), Accesseko
-datu-baseak zuzenean inportatzeko. </span></p>
+<p>Inportazio-prozesua desberdina da Linuxen eta Windowsen. Plataforma dena delakoa ere, Moodle dagoen sarean Windows sistema beharko duzu (Windows 2000 edo Windows XP), Accesseko
+datu-baseak zuzenean inportatzeko.</p>
 
 <p style='margin:0pt;margin-bottom:.0001pt'><span lang=EU style='mso-ansi-language:
 EU'>Prozesua errazagoa da Moodle <b>Windowsen badago.</b> CTM inportazioa
@@ -28,13 +21,11 @@ erabiltzeko hau besterik ez duzu egin behar:<o:p></o:p></span></p>
 
 <ol start=1 type=1>
  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo2;tab-stops:list 36.0pt'><span lang=EU>System.mda
+     mso-list:l2 level1 lfo2;tab-stops:list 36.0pt'>System.mda
      datu-basea Moodle programara kargatu, artxiboen administratzailea medio.
      Ez dio axola sistem.mda ze ikastarotara kargatu, Moodle programak
      aurkituko du. </span></li>
- <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l2 level1 lfo2;tab-stops:list 36.0pt'><span lang=EU>Galdeketa
-     sortu eta �artxiboko galderak inportatu� prozesuan sartu. Aukeratu duzun
+ <li>Galdeketa  sortu eta "fitxategiaren galderak inportatu"prozesuan sartu. Aukeratu duzun
      cmt.mdb artxiboa inportatzeko artxibo gisa kargatu. Hori behar bezala egin
      baduzu, beste pantaila bat agertuko zaizu, datu-basetik inportatzeko
      galderen azpikategoria aukeratzeko. Izan ere, CTM ebaluazio-bankuek
@@ -42,22 +33,13 @@ erabiltzeko hau besterik ez duzu egin behar:<o:p></o:p></span></p>
      ikastaroko ataletan oinarrituak. </span></li>
 </ol>
 
-<p style='margin:0pt;margin-bottom:.0001pt'><span lang=EU style='mso-ansi-language:
-EU'>Moodle <b>Linuxen </b>erabiltzen bada, <a
+<p style='margin:0pt;margin-bottom:.0001pt'>Moodle <b>Linuxen </b>erabiltzen bada, <a
 href="http://odbcsock.sourceforge.net/" target="_new"><b><span
 style='color:windowtext'>ODBC Socket Server</span></b></a> software-osagaia
-behar da.</span><span lang=EU style='mso-ansi-language:EN-GB'> </span><span
-lang=EU style='mso-ansi-language:EU'>Linuxen CTM datu-baseak inportatzeko,
+behar da. Linuxen CTM datu-baseak inportatzeko,
 aurrena sare-programa txiki hori instalatu behar duzu CTM datu-baseak dauden
-ordenagailuan (ordenagailu horrek Windows eduki behar du).</span><span lang=EU
-style='mso-ansi-language:EN-GB'> </span><b><span lang=EU style='mso-ansi-language:
-EU'>Ez jarraitu </span></b><span lang=EU style='mso-ansi-language:EU'>ODBC
-Socket Server delako horren instalazioan aipatzen diren jarraibideak.</span><span
-lang=EU style='mso-ansi-language:EN-GB'> </span><span lang=EU style='mso-ansi-language:
-EU'>Lan honetarako behar baino konplikatuegiak dira.</span><span lang=EU
-style='mso-ansi-language:EN-GB'> </span><span lang=EU style='mso-ansi-language:
-EU'>Hobe duzu pauso hauek jarraitzea:</span><span lang=FR style='mso-ansi-language:
-FR'><o:p></o:p></span></p>
+ordenagailuan (ordenagailu horrek Windows eduki behar du). Ez jarraitu </span></b> ODBC
+Socket Server delako horren instalazioan aipatzen diren jarraibideak. Lan honetarako behar baino konplikatuegiak dira. Hobe duzu pauso hauek jarraitzea:</p>
 
 <ol start=1 type=1>
  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
@@ -65,12 +47,12 @@ FR'><o:p></o:p></span></p>
      ordenagailura joan eta deskonprimitu gune horretatik jaitsitako
      instalazio-artxiboa. </span></li>
  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span lang=EU>ODBCSocketServer.exe
+     mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'>ODBCSocketServer.exe
      artxibo bitarra kokapen iraunkor batean kopiatu; hemen, adibidez:
      c:\windows\ o c:\WINNT\ (zure programa-artxiboen karpeta ere izan
      daiteke). </span></li>
  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span lang=EU>ODBC Socket
+     mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'>ODBC Socket
      Server zerbitzu gisa instalatu sisteman, agindu honekin:<br>
      <b>&lt;aurreko pausoan artxiboa kopiatutako direktorio
      osoa&gt;ODBCSocketServer.exe /Service</b><br>
@@ -86,18 +68,18 @@ FR'><o:p></o:p></span></p>
      zaitezke, baita ere, Hasiera-&gt;Exekutatu elkarrizketa-koadroan <b>services.msc
      </b>idatzita. </span></li>
  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span lang=EU>Zerbitzuen
+     mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'>Zerbitzuen
      administratzailean egin klik saguaren eskuineko botoiarekin ODBC Socket
-     Server itemean eta aukeratu <b>Hasi.</b> Hori egindakoan egoera �Hasita�
+     Server itemean eta aukeratu <b>Hasi.</b> Hori egindakoan egoera "Hasita"
      izango da. Inportazio-prozesua gelditu edota erabat desaktibatu dezakezu,
      prozesua amaitutakoan. </span></li>
  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
-     mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span lang=EU>Ziurtatu
+     mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'>Ziurtatu
      system.mda eta ctm.mdb artxiboak ordenagailuan daudela eta MS Accessen
      ODBC kontrolatzailea presente dagoela (normalean Windowsen instalazio
      estandarrean instalatzen da). Instalatuta dagoela ziurta dezakezu
-     �Kontrolatzaileak� atalean �Administrazio-tresnak� sakatu eta
-     �datu-iturriak� itema irekita. CTM non instalatuta dagoen zehaztu behar
+     "Kontrolatzaileak" atalean "Kudeaketa-tresnak" sakatu eta
+     "datu-iturriak" itema irekita. CTM non instalatuta dagoen zehaztu behar
      duzu eta system.mda eta ctm.mdb datu-baseak (edo inportatu nahi dituzun
      datu-baseak) kokatu. Datu-baseen kokapen zehatza eta Windows
      zerbitzariaren Hostaren IP helbidea edo izena gogoan hartu behar dituzu.
@@ -105,8 +87,8 @@ FR'><o:p></o:p></span></p>
  <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
      mso-list:l0 level1 lfo3;tab-stops:list 36.0pt'><span lang=EU>Orain inporta
      ditzakezu ebaluazio-bankuak Moodle programara. Galdeketa sortu eta
-     �artxiboko galderak inportatu� prozesuan sartu. <b>LINUXEN DESBERDIN EGIN
-     BEHAR DA � </b>IGO EREMUAN IRUDIZKO ARTXIBO BAT ZEHAZTU,
+     "fitxategiaren galderak inportatu" prozesuan sartu. <b>LINUXEN DESBERDIN EGIN
+     BEHAR DA � </b>IGO EREMUAN IRUDIZKO FITXATEGI BAT ZEHAZTU,
      INPORTAZIO-PROZESUA HASTEKO. ARTXIBO HORI EZ DA PROZESATUKO,
      INPORTAZIO-FORMULARIORAKO IZENA BESTERIK EZ DA. WINDOWS ZERBITZARIAREN
      INFORMAZIOA AURRERAGO ZEHAZTU BEHARKO DUZU. Ondoren, pantaila bat agertuko
