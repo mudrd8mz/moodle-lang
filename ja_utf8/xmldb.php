@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['actual'] = '実値';
@@ -7,7 +7,6 @@ $string['aftertable'] = '次のテーブルの後:';
 $string['back'] = '戻る';
 $string['backtomainview'] = 'メインに戻る';
 $string['binaryincorrectlength'] = 'binaryフィールドの長さが正しくありません。';
-$string['cannotinstantiateclass'] = 'エラー: クラス (actions/$a->action/$a->actionclass) をインスタンス化できません。';
 $string['cannotuseidfield'] = '「id」フィールドは追加できません。自動作成されるカラムです。';
 $string['change'] = '変更';
 $string['charincorrectlength'] = 'charフィールドの長さが正しくありません。';
@@ -47,6 +46,7 @@ $string['delete_sentence'] = 'センテンスの削除';
 $string['delete_statement'] = 'ステートメントの削除';
 $string['delete_table'] = 'テーブルの削除';
 $string['delete_xml_file'] = 'XMLファイルの削除';
+$string['doc'] = 'Doc';
 $string['down'] = '下へ';
 $string['duplicate'] = '複製';
 $string['duplicatefieldname'] = '同じ名称のフィールドが登録されています。';
@@ -69,6 +69,7 @@ $string['filenotwriteable'] = 'ファイルに書き込み権がありません�
 $string['fkviolationdetails'] = 'テーブル $a->tablename の外部キー $a->keyname に関して、$a->numrows 行中 $a->numviolations 行が違反しています。';
 $string['floatincorrectdecimals'] = 'floatフィールドの小数点以下桁数が正しくありません。';
 $string['floatincorrectlength'] = 'floatフィールドの長さが正しくありません。';
+$string['generate_documentation'] = 'ドキュメンテーション';
 $string['gotolastused'] = '最後に使用されたファイルへ移動する';
 $string['incorrectfieldname'] = 'フィールド名が正しくありません。';
 $string['index'] = 'インデックス';
@@ -146,6 +147,7 @@ $string['wrongreservedwords'] = '現在使用されている予約語<br />($CFG
 $string['yesmissingindexesfound'] = 'あなたのDBに不明なインデックスが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上不明なインデックスが見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
 $string['yeswrongdefaultsfound'] = 'あなたのDBに矛盾したデフォルト値が見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上矛盾したデフォルト値が見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
 $string['yeswrongintsfound'] = 'あなたのDBに不正なインテジャが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインテジャ作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上不正なインテジャが見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
+$string['cannotinstantiateclass'] = 'エラー: クラス (actions/$a->action/$a->actionclass) をインスタンス化できません。'; //TBD
 $string['butis'] = '現在の値:'; //TBD
 $string['shouldbe'] = '適切な値:'; //TBD
 
