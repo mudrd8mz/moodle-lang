@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -230,6 +230,7 @@ $string['configsectionuser'] = 'ユーザ';
 $string['configsecureforms'] = 'Moodleでは、フォームデータを受入れる場合の追加的なレベルのセキュリティーを使用することができます。この設定を有効にした場合、ブラウザのHTTP_REFERER変数とフォーム設置のアドレスが照合されます。 ユーザがファイアーウォールソフト (例 Zonealarm) を使用してトラフィックからHTTP_REFERERを取除く設定をしている場合、まれに問題が発生する場合があります。 これは、フォーム使用時に画面が「固まる」現象です。例えば、ユーザがログインページで問題を抱えている場合はこの設定をNoにしてください。しかしこの設定ではブルートフォース・パスワードアタックに対して無防備な状態になります。分からない場合は、この設定を「Yes」のままにしてください。';
 $string['configsendcoursewelcomemessage'] = 'この設定を有効にした場合、コースへの自己受講登録後、ユーザにウェルカムメッセージがメール送信されます。';
 $string['configsessioncookie'] = 'ここでは、Moodleセッションで使用されるクッキーの名称をカスタマイズします。1つ以上のMoodleが同じウェブサイトで稼動している場合、クッキーが混乱するのを防ぐためだけに、この設定を任意でお使いください。';
+$string['configsessioncookiedomain'] = 'ここでは、Moodleクッキーが利用できるドメインを変更します。これは、別のサブドメインのウェブアプリケーションとModoleセッションを共有する必要のある特別なMoodle (例 認証または登録プラグイン) に有用です。<strong>警告: この設定をデフォルト (空) のままにすることを強くお勧めします - 正しくない値を設定することで、すべてのユーザがサイトにログインできなくなります。</strong>';
 $string['configsessioncookiepath'] = 'ブラウザが送信するMoodleクッキーの場所を変更したい場合、ここでウェブサイトのサブディレクトリを指定することができます。変更しない場合、デフォルトの「/」をお使いください。';
 $string['configsessiontimeout'] = 'このサイトにログインして長時間何もしない (ページを更新しない) 場合、ユーザを自動的にログアウト (セッションを終了) させます。この変数には、ログアウトさせるまでの時間を設定します。';
 $string['configshowblocksonmodpages'] = 'いくつかの活動モジュールでは、ページにブロックを表示することができます。この設定を有効にした場合、教師はサイドブロックをページに追加することができます。そうでない場合、この機能は表示されません。';
@@ -697,6 +698,7 @@ $string['server'] = 'サーバ';
 $string['serverchecks'] = 'サーバチェック';
 $string['serverlimit'] = 'サーバリミット';
 $string['sessioncookie'] = 'クッキー接頭辞';
+$string['sessioncookiedomain'] = 'クッキードメイン';
 $string['sessioncookiepath'] = 'クッキーパス';
 $string['sessionhandling'] = 'セッションハンドリング';
 $string['sessiontimeout'] = 'タイムアウト';
