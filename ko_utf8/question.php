@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20081008) (2008100801)
+      // question.php - created with Moodle 2.0 dev (Build: 20081217) (2008121000)
 
 
 $string['adminreport'] = '문제은행 데이터베이스의 잠재적 문제 보고서';
@@ -104,6 +104,7 @@ $string['linkedfiledoesntexist'] = '연결된 $a 파일 없음';
 $string['makechildof'] = '\'$a\'의 하위 생성';
 $string['maketoplevelitem'] = '최 상위 단계로 이동';
 $string['missingcourseorcmid'] = '문항을 인쇄하기 위해서는 courseid나 cmid가 필요함';
+$string['missingcourseorcmidtolink'] = '문항편집 링크를 걸기 위해서는 courseid나 cmid가 필요함';
 $string['missingimportantcode'] = '본 문항 유형은 다음의 주요 코드가 없습니다: $a';
 $string['missingoption'] = '괄호넣기 문항 $a 에 옵션 누락';
 $string['modified'] = '수정됨';

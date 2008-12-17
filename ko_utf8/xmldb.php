@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20081217) (2008121000)
 
 
 $string['actual'] = '실제';
@@ -42,6 +42,7 @@ $string['delete_sentence'] = '문장 삭제';
 $string['delete_statement'] = '선언문 삭제';
 $string['delete_table'] = '테이블 삭제';
 $string['delete_xml_file'] = 'XML 파일 삭제';
+$string['doc'] = '문서';
 $string['down'] = '아래';
 $string['duplicate'] = '복제';
 $string['duplicatefieldname'] = '동일한 이름을 가진 다른 필드가 존재함';
@@ -64,6 +65,7 @@ $string['filenotwriteable'] = '기록할 수 없는 파일';
 $string['fkviolationdetails'] = '$a->tablename 테이블에 있는 외래키 $a->keyname 는 $a->numrows 열에서 $a->numviolations 위반입니다.';
 $string['floatincorrectdecimals'] = '부동소숫점 필드에 적합하지 않는 십진수';
 $string['floatincorrectlength'] = '부동소숫점 필드에 적합하지 않은 길이';
+$string['generate_documentation'] = '문서작성';
 $string['gotolastused'] = '마지막 사용했던 파일로 되돌아 감';
 $string['incorrectfieldname'] = '적절하지 않은 명칭';
 $string['index'] = '인덱스';

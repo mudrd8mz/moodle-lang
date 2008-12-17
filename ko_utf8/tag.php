@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20080906) (2008090108)
+      // tag.php - created with Moodle 2.0 dev (Build: 20081217) (2008121000)
 
 
 $string['addedotag'] = '공식 태그로 \"$a\"가 추가되었읍니다.';
@@ -41,11 +41,11 @@ $string['rsstitle'] = '이용자 $a 의 강좌 태그 RSS 송출';
 $string['search'] = '검색';
 $string['searchresultsfor'] = '\"$a\"에 대한 검색 결과';
 $string['searchtags'] = '태그 검색';
-$string['seeallblogs'] = '이 태그를 사용한 모든 블로그 보기';
+$string['seeallblogs'] = '\"$a\" 태그를 사용한 모든 블로그 보기';
 $string['select'] = '선택';
 $string['tag'] = '태그';
 $string['tagdescription'] = '태그 설명';
-$string['tagindex_coursetitle'] = '\"$a\" 로 강좌 태그됨';
+$string['taggedwith'] = '\"$a\" 태그';
 $string['tags'] = '태그';
 $string['tagsaredisabled'] = '태그를 사용할 수 없음';
 $string['tagtype'] = '태그 형식';
@@ -58,7 +58,8 @@ $string['timemodified'] = '수정됨';
 $string['typechanged'] = '태그 형식이 변경됨';
 $string['updated'] = '갱신됨';
 $string['updatetag'] = '갱신';
-$string['userstaggedwith'] = '사용자가 \"$a\" 로 덧붙임';
 $string['withselectedtags'] = '선택한 태그';
+$string['tagindex_coursetitle'] = '\"$a\" 로 강좌 태그됨'; // ORPHANED
+$string['userstaggedwith'] = '사용자가 \"$a\" 로 덧붙임'; // ORPHANED
 
 ?>
