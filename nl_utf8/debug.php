@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080817) (2008081600)
+      // debug.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['authpluginnotfound'] = 'Authenticatieplugin $a niet gevonden.';
@@ -15,6 +15,7 @@ $string['cannotupdaterelease'] = 'Fout: kon de versie niet updaten in de databan
 $string['cannotupdateversion'] = 'Upgrade mislukt! (Kon de versie niet upgraden in de config tabel)';
 $string['cannotupgradecapabilities'] = 'Problemen met het upgraden van de hoofdmogelijkheden van het rollensysteem';
 $string['cannotupgradedbcustom'] = 'Upgrade van de locale databankaanpassingen mislukt! (kon de versie niet aanpasssen in de config tabel)';
+$string['codingerror'] = 'Fout in de programmeercode gevonden. Dit moet door een programmeur hersteld worden. $a';
 $string['configmoodle'] = 'Moodle is nog niet geconfigureerd. Je moet eerst config.php bewerken.';
 $string['dbnotinsert'] = 'Databank fout - kan $a niet invoegen';
 $string['dbnotsetup'] = 'Fout. Hoofddatabank niet correct geïnstalleerd';

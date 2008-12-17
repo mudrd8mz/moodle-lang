@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
+      // data.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['action'] = 'Actie';
@@ -32,10 +32,8 @@ $string['cannotaccesspresentsother'] = 'Je mag de sjablonen van andere gebruiker
 $string['cannotadd'] = 'Kan geen items toevoegen!';
 $string['cannotdeletepreset'] = 'Fout bij het verwijderen van een sjabloon';
 $string['cannotinsertempty'] = 'Kon geen lege record maken!';
-$string['cannotinsertrate'] = 'Kon geen nieuwe beoordeling invoegen ($a[0] = $a[1])';
 $string['cannotrate'] = 'Beoordelen van items niet toegelaten';
 $string['cannotunziptopreset'] = 'Kan het sjabloon niet unzippen in de map';
-$string['cannotupdaterate'] = 'Kon een vroegere beoordeling niet aanpassen';
 $string['checkbox'] = 'Keuzevakjes';
 $string['chooseexportfields'] = 'Kies de velden die je wil exporteren';
 $string['chooseexportformat'] = 'Kies het formaat waarnaar je wil exporteren';
@@ -94,6 +92,7 @@ $string['emptyadd'] = 'Het sjabloon voor toevoegen is leeg. Standaard formulier 
 $string['emptyaddform'] = 'Je hebt geen velden ingevuld!';
 $string['entries'] = 'Items';
 $string['entrieslefttoadd'] = 'Je moet $a meer item(s) ingeven voor je de items van anderen kunt zien.';
+$string['entrieslefttoaddtoview'] = 'je moet $a->entrieslefttoview items meer toevoegen voor je de items van anderen kan zien.';
 $string['entry'] = 'Item';
 $string['entrysaved'] = 'Gegevens bewaard.';
 $string['errormustbeteacher'] = 'Je moet leraar zijn om deze pagina te kunnen gebruiken';
@@ -278,6 +277,8 @@ $string['usestandard'] = 'gebruik een sjabloonset';
 $string['viewfromdate'] = 'Zichtbaar vanaf';
 $string['viewtodate'] = 'Zichtbaar voor';
 $string['wrongdataid'] = 'Verkeerd data-ID opgegeven';
+$string['cannotinsertrate'] = 'Kon geen nieuwe beoordeling invoegen ($a[0] = $a[1])'; // ORPHANED
+$string['cannotupdaterate'] = 'Kon een vroegere beoordeling niet aanpassen'; // ORPHANED
 $string['invaliddata'] = 'Gegevensfout'; // ORPHANED
 
 ?>
