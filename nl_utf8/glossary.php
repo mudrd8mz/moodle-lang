@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['addcomment'] = 'Voeg commentaar toe';
@@ -117,6 +117,7 @@ $string['explainimport'] = 'Specifieer het te importeren bestand en bepaal de cr
 $string['explainspecial'] = 'Toon items die niet met een letter beginnen';
 $string['exportedentry'] = 'Geëxporteerd item';
 $string['exportentries'] = 'Exporteer inhoud';
+$string['exportentriestoxml'] = 'Exporteer items naar XML-bestand';
 $string['exportfile'] = 'Exporteer invoer naar bestand';
 $string['exportglossary'] = 'Exporteer de woordenlijst';
 $string['exporttomainglossary'] = 'Exporteer naar hoofdwoordenlijst';
@@ -147,6 +148,7 @@ $string['importedentries'] = 'Geïmporteerde invoer';
 $string['importentries'] = 'Importeer inhoud';
 $string['importentriesfromxml'] = 'Items importeren uit XML-bestand';
 $string['includegroupbreaks'] = 'Scheiding invoegen';
+$string['invalidglossaryformat'] = 'Ongeldige woordenlijstopmaak';
 $string['invalidid'] = 'Foute woordenlijst ID';
 $string['isglobal'] = 'Is dit een globale woordenlijst?';
 $string['letter'] = 'letter';
@@ -180,6 +182,7 @@ $string['rating'] = 'Beoordeling';
 $string['ratingeveryone'] = 'Iedereen kan de invoer beoordelen';
 $string['ratingno'] = 'Geen beoordelingen';
 $string['ratingonlyteachers'] = 'Alleen $a kunnen invoer beoordelen';
+$string['ratingonlywithpermissions'] = 'Enkel mensen met het recht om items te beoordelen';
 $string['ratings'] = 'Beoordelingen';
 $string['ratingssaved'] = 'Beoordelingen bewaard';
 $string['ratingsuse'] = 'Gebruik beoordelingen';
