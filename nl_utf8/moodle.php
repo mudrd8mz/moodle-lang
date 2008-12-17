@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -136,6 +136,8 @@ $string['autosubscribeyes'] = 'Ja: schrijf me automatisch in op forums wanneer i
 $string['availability'] = 'Beschikbaarheid';
 $string['availablecourses'] = 'Beschikbare cursussen';
 $string['back'] = 'Terug';
+$string['backto'] = 'Terug naar $a';
+$string['backtocourselisting'] = 'Terug naar cursuslijst';
 $string['backtoparticipants'] = 'Terug naar deelnemerslijst';
 $string['backup'] = 'Backup';
 $string['backupactivehelp'] = 'Automatische backups gebruiken?';
@@ -150,6 +152,7 @@ $string['backupexecuteathelp'] = 'Starttijd automatische backups';
 $string['backupfailed'] = 'Sommige cursussen zijn niet bewaard!';
 $string['backupfilename'] = 'backup';
 $string['backupfinished'] = 'De backup is succesvol afgerond';
+$string['backupgradebookhistoryhelp'] = 'Indien ingeschakeld zal de historiek van het cijferboek meegenomen worden in de automatische backups. Merk op dat cijfergeschiedenis niet mag uitgeschakeld zijn in de serverinstellingen om dit te laten werken';
 $string['backupincludemoduleshelp'] = 'Selecteer als je cursusmodules met of zonder gebruikersgegevens in de backup wil';
 $string['backupincludemoduleuserdatahelp'] = 'Gebruikersdata aan automatische backups toevoegen?';
 $string['backupkeephelp'] = 'Hoeveel recente backups wil je houden voor elke cursus? (oudere zullen automatisch verwijderd worden)';
@@ -237,6 +240,7 @@ $string['cleaningtempdata'] = 'Schoon de tijdelijke data op';
 $string['clear'] = 'Wis';
 $string['clickhere'] = 'Klik hier...';
 $string['clicktochange'] = 'Klik om te wijzigen';
+$string['clicktohideshow'] = 'Klik om te vergroten of te verkleinen';
 $string['closewindow'] = 'Sluit dit venster';
 $string['comparelanguage'] = 'Vergelijk en bewerk huidige taal';
 $string['complete'] = 'Voltooid';
@@ -265,6 +269,7 @@ $string['counteditems'] = '$a->count $a->items';
 $string['country'] = 'Land';
 $string['course'] = 'Cursus';
 $string['courseapprovedemail'] = 'De cursus $a->name die je vroeg, is goedgekeurd en je bent er als $a->teacher aangewezen. Om je nieuwe cursus te openen, ga je naar $a->url';
+$string['courseapprovedemail2'] = 'Je aangevraagde cursus, $a->name, is goedgekeurd. Volg de link $a->url om je cursus binnen te gaan';
 $string['courseapprovedfailed'] = 'Het goedkeuren van deze cursus is mislukt!';
 $string['courseapprovedsubject'] = 'Je cursus is goedgekeurd';
 $string['courseavailable'] = 'Deze cursus is zichtbaar';
