@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['add_item'] = 'Voeg een vraag toe';
@@ -127,6 +127,7 @@ $string['non_anonymous'] = 'De gebruikersnamen zullen bewaard worden en samen me
 $string['non_anonymous_entries'] = 'niet-anonieme items';
 $string['not_completed_yet'] = 'Nog niet ingevuld';
 $string['not_selected'] = 'Niet geselecteerd';
+$string['notavailable'] = 'deze feedback is niet beschikbaar';
 $string['numeric'] = 'Numeriek antwoord';
 $string['numeric_range_from'] = 'Bereik van';
 $string['numeric_range_to'] = 'Bereik tot';
