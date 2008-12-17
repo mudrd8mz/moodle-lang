@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // chat.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['ajax'] = 'Versie met Ajax';
@@ -12,6 +12,7 @@ $string['chat:deletelog'] = 'Verwijder chat logs';
 $string['chat:exportparticipatedsession'] = 'Exporteer je chatdeelname';
 $string['chat:exportsession'] = 'Exporteer chatsessie';
 $string['chat:readlog'] = 'Bekijk chatlogs';
+$string['chat:talk'] = 'Praat in een chat';
 $string['chatintro'] = 'Inleidende tekst';
 $string['chatname'] = 'Naam van deze chatroom';
 $string['chatreport'] = 'Chat-sessies';
@@ -38,6 +39,7 @@ $string['explainmethodnormal'] = 'Deze instellingen worden <strong>alleen maar</
 $string['generalconfig'] = 'Algemene instellingen';
 $string['helpchatting'] = 'Help met chatten';
 $string['idle'] = 'Wachtend';
+$string['inputarea'] = 'Inputvenster';
 $string['invalidid'] = 'Kon chatroom niet vinden!';
 $string['messagebeepseveryone'] = '$a piept iedereen!';
 $string['messagebeepsyou'] = '$a heeft je net gepiept!';
@@ -67,6 +69,7 @@ $string['repeatdaily'] = 'Elke dag om dezelfde tijd';
 $string['repeatnone'] = 'Geen herhalingen - alleen publiceren op de aangegeven tijd';
 $string['repeattimes'] = 'Herhaal sessies';
 $string['repeatweekly'] = 'Elke week om dezelfde tijd';
+$string['saidto'] = '<b>zei tegen</b>';
 $string['savemessages'] = 'Bewaar voorbije chatsessies';
 $string['seesession'] = 'Bekijk deze sessie';
 $string['send'] = 'Stuur';
@@ -80,6 +83,7 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Iedereen kan voorbije chatsessies bekijken';
 $string['updatemethod'] = 'Update methode';
 $string['updaterate'] = 'Updatesnelheid';
+$string['userlist'] = 'Gebruikerslijst';
 $string['viewreport'] = 'Bekijk voorbije chatsessies';
 
 ?>
