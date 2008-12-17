@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['activities'] = 'Activiteiten';
@@ -156,6 +156,9 @@ $string['errornocalculationallowed'] = 'Berekeningen zijn voor dit item niet toe
 $string['errornocategorisedid'] = 'Kon geen id zonder categorie vinden';
 $string['errornocourse'] = 'Kon geen informatie over de cursus vinden';
 $string['errorreprintheadersnonnumeric'] = 'Niet-numerieke waarde ontvangen voor koppen herhalen';
+$string['errorupdatinggradecategoryaggregateonlygraded'] = 'Fout bij het updaten van de \"Aggregeer alleen beoordeelde items\"-instelling van cijfercategorie ID $a->id';
+$string['errorupdatinggradecategoryaggregateoutcomes'] = 'Fout bij het updaten van de \"Aggregeer competenties\"-instelling van de cijfercategorie ID $a->id';
+$string['errorupdatinggradecategoryaggregatesubcats'] = 'Fout bij het updaten van de \"Aggregeer sub-categorieën\"-instelling van cijfercategorie ID $a->id';
 $string['errorupdatinggradecategoryaggregation'] = 'Fout bij het aanpassen van het aggregatietype van cijfercategorie ID $a->id';
 $string['errorupdatinggradeitemaggregationcoef'] = 'Fout bij het updaten van de aggregatiecoëfficiënt (weging of bonus) van beoordelingsitem ID $a->id';
 $string['exceptions'] = 'Uitzonderingen';
@@ -350,6 +353,7 @@ $string['nonweightedpct'] = '%% zonder weging';
 $string['nooutcome'] = 'Geen competentie';
 $string['nooutcomes'] = 'Competentie-items moeten gelinkt zijn aan een cursuscompetentie, maar er zijn geen competenties in deze cursus. Wil je er toevoegen?';
 $string['nopublish'] = 'Niet publiceren';
+$string['norolesdefined'] = 'Geen rollen gedefiniëerd in Beheer -> Uitzicht -> graderoles';
 $string['noscales'] = 'Competenties moeten gelinkt zijn aan een cursusschaal of een globale schaal, maar er zijn er geen. Wil je er toevoegen?';
 $string['noselectedcategories'] = 'Je hebt geen categorieën geselecteerd';
 $string['noselecteditems'] = 'Je hebt geen items geselecteerd';
