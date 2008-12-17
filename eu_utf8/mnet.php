@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // mnet.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (auto-sinatua)';
 $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (sinatua)';
+$string['RPC_HTTP_PLAINTEXT'] = 'HTTP enkriptatu gabea';
 $string['RPC_HTTP_SELF_SIGNED'] = 'HTTP (auto-sinatua)';
 $string['RPC_HTTP_VERIFIED'] = 'HTTP (sinatua)';
+$string['aboutyourhost'] = 'Zure zerbitzariari buruz';
 $string['accesslevel'] = 'Sarbide-maila';
 $string['addhost'] = 'Ostalaria gehitu';
 $string['addnewhost'] = 'ostalari berria gehitu';
@@ -13,11 +15,15 @@ $string['addtoacl'] = 'Sarbide-kontrola gehitu';
 $string['allow'] = 'Baimendu';
 $string['courses'] = 'Ikastaroak';
 $string['courseson'] = 'Aktibatutako ikastaroak';
+$string['current_transport'] = 'Oraingo garraioa';
+$string['currentkey'] = 'Oraingo giltza publikoa';
 $string['deleteaserver'] = 'Zerbitzaria ezabatzen';
 $string['deletehost'] = 'Ostalaria ezabatu';
+$string['deleteuserrecord'] = 'SSO ACL: \'$a[0]\' erabiltzailearen erregistroa ezabatu $a[1]-tik.';
 $string['deny'] = 'Ukatu';
 $string['description'] = 'Deskribapena';
 $string['editenrolments'] = 'Matrikulazioa';
+$string['enrollingincourse'] = '$a[0]ikastaroan matrikulatzen $a[1] ostalarian<br />';
 $string['enrolments'] = 'Matrikulazioak';
 $string['enterausername'] = 'Mesedez,  idatzi erabiltzaile-izena, edo erabiltzaile-izenen zerrenda bat komaz bereizita.';
 $string['expireyourkey'] = 'Gako hau ezabatu';
@@ -25,10 +31,12 @@ $string['forcesavechanges'] = 'Behartu aldaketak gordetzera';
 $string['hidelocal'] = 'Erabiltzaile lokalak ezkutatu';
 $string['hideremote'] = 'Urrutiko erabiltzaileak erabili';
 $string['host'] = 'ostalaria';
+$string['hostcoursenotfound'] = 'Ez dira ostalaria edo ikastaroa aurkitu';
 $string['hostdeleted'] = 'Ondo - ostalaria ezabatuta';
 $string['hostname'] = 'Ostalari-izena';
 $string['hostsettings'] = 'Ostalariaren ezarpenak';
 $string['id'] = 'ID';
+$string['invalidurl'] = 'URL parametroa ez da baliozkoa';
 $string['ipaddress'] = 'IP helbidea';
 $string['last_connect_time'] = 'Azken konexioa';
 $string['logs'] = 'Agerraldiak';
@@ -44,6 +52,7 @@ $string['net'] = 'Sarea';
 $string['networksettings'] = 'Sarearen ezarpenak';
 $string['never'] = 'Inoiz ez';
 $string['noaclentries'] = 'Ez dago sarrerarik SSO sarbidearen kontrol-zerrendan';
+$string['nosite'] = 'Ezin izan da ikastarorik aurkitu gunearen mailan';
 $string['off'] = 'Off';
 $string['on'] = 'On';
 $string['publickey'] = 'Giltza publikoa';
@@ -56,13 +65,15 @@ $string['restore'] = 'Berreskuratu';
 $string['settings'] = 'Ezarpenak';
 $string['showlocal'] = 'Erabiltzaile lokalak erakutsi';
 $string['showremote'] = 'Urrutiko erabiltzaileak erakutsi';
+$string['ssl_acl_allow'] = 'SSO ACL: $a[0] erabiltzailea baimendu $a[1]-tik';
+$string['ssl_acl_deny'] = 'SSO ACL: $a[0] erabiltzailea ukatu $a[1]-tik';
 $string['ssoaccesscontrol'] = 'SSO Sarbide-kontrola';
 $string['subscribe'] = 'Harpidetu';
 $string['system'] = 'Sistema';
 $string['trustedhosts'] = 'XML-RPC ostalariak';
 $string['version'] = 'bertsioa';
 $string['warning'] = 'Kontuz!';
-$string['yourhost'] = 'Zure host-a';
+$string['yourhost'] = 'Zure ostalaria';
 $string['yourpeers'] = 'Zure berdinak';
 
 ?>

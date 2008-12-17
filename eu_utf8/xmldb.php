@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // xmldb.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['aftertable'] = 'Taularen ondoren:';
@@ -41,7 +41,7 @@ $string['edit_table'] = 'Taula editatu';
 $string['edit_xml_file'] = 'XML fitxategia editatu';
 $string['enumvaluesincorrect'] = 'Enum eremuaren balio ezegokiak';
 $string['field'] = 'Eremua';
-$string['fieldnameempty'] = 'Hutsik dagoen eremuaren izena';
+$string['fieldnameempty'] = 'Eremuaren izena hutsik';
 $string['fields'] = 'Eremuak';
 $string['filenotwriteable'] = 'Idatzi ezineko fitxategia';
 $string['floatincorrectdecimals'] = 'Float eremuaren hamartarren kopuru ezegokia';
@@ -50,7 +50,7 @@ $string['gotolastused'] = 'Erabilitako azken fitxategira joan';
 $string['incorrectfieldname'] = 'Izen desegokia';
 $string['index'] = 'Aurkibidea';
 $string['indexes'] = 'Aurkibideak';
-$string['integerincorrectlength'] = 'Integer eremuaren luzera ez da zuzena';
+$string['integerincorrectlength'] = 'Integer eremuaren luzera ezegokia';
 $string['key'] = 'Gakoa';
 $string['keys'] = 'Gakoak';
 $string['listreservedwords'] = 'Erreserbatutako Hitzen Zerrenda<br/>(used to keep <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> updated)';
@@ -63,14 +63,14 @@ $string['mustselectonefield'] = 'Eremu bat aukeratu behar duzu horrekin lotutako
 $string['mustselectoneindex'] = 'Aurkibide bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko.';
 $string['mustselectonekey'] = 'Gako bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko.';
 $string['new_statement'] = 'Sententzia berria';
-$string['new_table_from_mysql'] = 'Taula berria MySQLetik';
+$string['new_table_from_mysql'] = 'Taula berria MySQL-etik';
 $string['newfield'] = 'Eremu berria';
 $string['newindex'] = 'Aurkibide berria';
 $string['newkey'] = 'Gako berria';
 $string['newsentence'] = 'Esaldi berria';
 $string['newstatement'] = 'Sententzia berria';
 $string['newtable'] = 'Taula berria';
-$string['newtablefrommysql'] = 'Taula berria MySQLetik';
+$string['newtablefrommysql'] = 'Taula berria MySQL-etik';
 $string['numberincorrectdecimals'] = 'Hamartarren kopuru ezegokia zenbakizko eremuan';
 $string['numberincorrectlength'] = 'Zenbakizko eremuaren luzera ezegokia';
 $string['reserved'] = 'Erreserbatua';

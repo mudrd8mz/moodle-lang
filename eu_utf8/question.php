@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // question.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['adminreport'] = 'Zure galderen datu-basean izan daitezkeen arazoei buruzko txostena';
@@ -22,7 +22,8 @@ $string['defaultinfofor'] = '\'$a\' testuinguruan partekatutako galderetarako be
 $string['donothing'] = 'Ez kopiatu, ez mugitu fitxategirik eta ez aldatu estekarik.';
 $string['editingcategory'] = 'Kategoria editatzen';
 $string['editingquestion'] = 'Galdera editatzen';
-$string['erroraccessingcontext'] = 'Ezin da kontestura iritsi';
+$string['erroraccessingcontext'] = 'Ezin da testuingurura iritsi';
+$string['errordeletingquestionsfromcategory'] = 'Errorea gertatu da $a kategoriatik galderak ezabatzean.';
 $string['errorfilecannotbecopied'] = 'Errorea: ezin da $a fitxategia kopiatu.';
 $string['errorfilecannotbemoved'] = 'Errorea: ezin da $a fitxategia mugitu.';
 $string['errorfileschanged'] = 'Galderetatik estekatutako errore-fitxategiak aldatu egin dira formularioa erakutsi denetik';
@@ -32,7 +33,7 @@ $string['filesareasite'] = 'gunearen fitxategi-eremua';
 $string['filestomove'] = 'Fitxategiak $a-ra mugitu/kopiatu?';
 $string['fractionsnomax'] = 'Erantzunetako batek %%100 izan behar du galdera honetako gehienezko puntuazioa lortu ahal izateko.';
 $string['getcategoryfromfile'] = 'Kategoria fitxategitik lortu';
-$string['getcontextfromfile'] = 'Kontestua lortu fitxategitik';
+$string['getcontextfromfile'] = 'Testuingurua fitxategitik lortu';
 $string['ignorebroken'] = 'Apurtutako estekei jaramonik ez egin';
 $string['linkedfiledoesntexist'] = 'Ez dago $a lotutako fitxategia';
 $string['makechildof'] = 'Bihurtu $a-ren ondorengo';
@@ -43,7 +44,7 @@ $string['move'] = 'Mugitu $a-tik eta aldatu estekak';
 $string['movecategory'] = 'Mugitu kategoria';
 $string['movelinksonly'] = 'Esteken helmuga bakarrik aldatu, fitxategiak ez mugitu eta ez kopiatu.';
 $string['moveq'] = 'Mugitu galdera(k)';
-$string['moveqtoanothercontext'] = 'Mugitu galdera beste kontestu batera';
+$string['moveqtoanothercontext'] = 'Mugitu galdera beste testuinguru batera';
 $string['movingcategory'] = 'Kategoria mugitzen';
 $string['movingcategoryandfiles'] = 'Ziur al zaude {$a->name} eta bere azpiko kategoria guztiak \"{$a->contextto}\" testuingurura aldatu nahi dituzula?<br />Galderetatik lotutako {$a->urlcount} fitxategi aurkitu dugu {$a->fromareaname}-n, kopiatu edo {$a->toareaname}-ra mugitu nahi al dituzu?';
 $string['movingcategorynofiles'] = 'Ziur al zaude \"{$a->name}\" kategoria eta bere azpiko kategoria guztiak \"{$a->contextto}\" testuingurura mugitu nahi dituzula?';
@@ -62,10 +63,12 @@ $string['permissionto'] = 'Honetarako baimena duzu:';
 $string['published'] = 'Argitaratuta';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Ondoko galdera \"$a->name\" ($a->qtype)</a> kategoria honetan dago baina <a href=\"$a->qurl\">galdetegi honetan ere erabilita dago \"$a->quizname\"</a> beste ikastaro batean: \"$a->coursename\".';
 $string['questionbank'] = 'Galdera-bankua';
-$string['questioncatsfor'] = 'Galdera-kategoriak  \'$a\'-rako';
+$string['questioncategory'] = 'Galdera-kategoria';
+$string['questioncatsfor'] = 'Galdera-kategoriak \'$a\'-rako';
 $string['questiondoesnotexist'] = 'Ez dago galdera hau';
+$string['questionsrescuedfrom'] = 'Galderak gordeta $a testuingurutik';
 $string['questionuse'] = 'Galdera erabili jarduera honetan';
-$string['shareincontext'] = 'Testuinguruan partekatu $a-(r)entzat';
+$string['shareincontext'] = '$a testuingururako partekatu';
 $string['tofilecategory'] = 'Fitxategiari kategoria idatzi';
 $string['tofilecontext'] = 'Fitxategiari testuingurua idatzi';
 $string['unknown'] = 'Ezezaguna';
