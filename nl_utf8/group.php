@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // group.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['addgroupstogrouping'] = 'Voeg groepen aan groepering toe.';
@@ -99,6 +99,7 @@ $string['numgroups'] = 'Aantal groepen';
 $string['nummembers'] = 'Aantal leden per groep';
 $string['overview'] = 'Overzicht';
 $string['potentialmembers'] = 'Mogelijke groepsleden: $a';
+$string['potentialmembs'] = 'Mogelijke leden';
 $string['printerfriendly'] = 'Printervriendelijke overzichtspagina groeperingen';
 $string['random'] = 'willekeurig';
 $string['removegroupfromselectedgrouping'] = 'Verwijder groep van geselecteeerde groepering';
