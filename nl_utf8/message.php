@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // message.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['addcontact'] = 'Voeg contactpersoon toe';
 $string['addsomecontacts'] = 'Gebruik het tabblad <a href=\"$a\">Zoek</a> om iemand een berichtje te sturen of om op deze pagina een snelkoppeling naar iemand te maken.';
 $string['addsomecontactsincoming'] = 'Deze berichten zijn van mensen die niet in je contactenlijst zitten. Om ze toe te voegen klik je op het pictogram \"Voeg contactpersoon toe\" naast hun naam.';
 $string['ago'] = '$a geleden';
+$string['ajax_gui'] = 'Ajax chatroom';
 $string['allmine'] = 'Alle berichten aan mij of van mij';
 $string['allstudents'] = 'Alle berichten tussen leerlingen binnen een cursus';
 $string['allusers'] = 'Alle berichten van alle gebruikers';

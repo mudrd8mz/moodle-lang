@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // install.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['aborting'] = 'Installatie afbreken';
@@ -49,6 +49,12 @@ $string['databasecreationsettingssub'] = '<b>Type:</b> \"mysql\" gekozen door he
 <b>Host:</b> \"localhost\" gekozen door het installatiescript<br />
 <b>Naam:</b> database naam, bv moodle<br />
 <b>Gebruiker:</b> \"root\" gekozen door het installatiescript<br />
+<b>Wachtwoord:</b> het wachtwoord van jouw databank<br />
+<b>Tabelvoorvoegsel:</b> een voorvoegsel dat je wil gebruiken voor alle tabelnamen.';
+$string['databasecreationsettingssub2'] = '<b>Type:</b> ingesteld als \"mysqli\" door het installatiescript<br />
+<b>Host:</b> ingesteld als \"localhost\"  door het installatiescript<br />
+<b>Naam:</b> database naam, bv moodle<br />
+<b>Gebruiker:</b> ingesteld als \"root\"  door het installatiescript<br />
 <b>Wachtwoord:</b> het wachtwoord van jouw databank<br />
 <b>Tabelvoorvoegsel:</b> een voorvoegsel dat je wil gebruiken voor alle tabelnamen.';
 $string['databasehost'] = 'Databank host:';

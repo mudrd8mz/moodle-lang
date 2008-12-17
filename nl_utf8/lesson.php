@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['accesscontrol'] = 'Toegangscontrole';
@@ -129,6 +129,8 @@ $string['eolstudentoutoftime'] = 'Opgelet: je tijd voor deze les is helemaal op.
 $string['eolstudentoutoftimenoanswers'] = 'Je hebt geen enkele vraag beantwoord. Je hebt een 0 voor deze les';
 $string['essay'] = 'Open vraag';
 $string['essayemailmessage'] = '<p>Open vraag: <blockquote>$a->question</blockquote></p><p>Je antwoord: <blockquote><em>$a->response</em></blockquote></p><p>$a->teacher\'s comments:<blockquote><em>$a->comment</em></blockquote></p><p>Je hebt $a->earned punten gekregen op $a->outof voor deze open vraag.</p><p>Je cijfer voor deze les is gewijzigd naar $a->newgrade%%.</p>';
+$string['essayemailmessage2'] = '<p>Open vraag prompt:
+<blockquote>$a->question</blockquote></p><p>Jouw antwoord:<blockquote><em>$a->response</em></blockquote></p><p>Commentaar van de beoordeler:<blockquote><em>$a->comment</em></blockquote></p><p>Je hebt $a->earned op $a->outof gekregen voor deze open vraag.</p><p>Je cijfer voor deze les is gewijzigd naar $a->newgrade&#37;.</p>';
 $string['essayemailsubject'] = 'Jouw cijfer voor $a vraag';
 $string['essays'] = 'Open vragen';
 $string['essayscore'] = 'Cijfer voor de open vragen';
@@ -172,6 +174,7 @@ $string['lessondefault'] = 'Gebruik de instellingen van deze les als standaard';
 $string['lessonformating'] = 'Opmaken van de les';
 $string['lessonmenu'] = 'Lesmenu';
 $string['lessonnotready'] = 'Deze les is nog niet klaar. Contacteer aub je $a';
+$string['lessonnotready2'] = 'Deze les is niet klaar om te starten';
 $string['lessonopen'] = 'Deze les zal openen op $a.';
 $string['lessonopens'] = 'Les opent';
 $string['lessonpagelinkingbroken'] = 'Eerste pagina niet gevonden. Waarschijnlijk is de link naar de lespagina gebroken. Contacteer een beheerder';
@@ -263,6 +266,7 @@ $string['previouspage'] = 'Vorige pagina';
 $string['processerror'] = 'Fout opgetreden tijdens de verwerking!';
 $string['progressbar'] = 'Vorderingsbalk';
 $string['progressbarteacherwarning'] = 'Vorderingsbalk niet tonen voor $a';
+$string['progressbarteacherwarning2'] = 'Je zult de progressiebalk niet zien omdat je deze les kunt bewerken';
 $string['qtype'] = 'Paginatype';
 $string['question'] = 'Vraag';
 $string['questionoption'] = 'Vraagoptie';
@@ -276,6 +280,7 @@ $string['redisplaypage'] = 'Toon pagina opnieuw';
 $string['report'] = 'Rapport';
 $string['reports'] = 'Rapporten';
 $string['response'] = 'Respons';
+$string['retakesallowed'] = 'Opnieuw doen toegelaten';
 $string['returnto'] = 'Keer terug naar $a';
 $string['returntocourse'] = 'Keer terug naar de cursuspagina';
 $string['review'] = 'Nalezen';
@@ -327,6 +332,7 @@ $string['usepassword'] = 'Les beschermd met wachtwoord';
 $string['viewgrades'] = 'Bekijk de cijfers';
 $string['viewhighscores'] = 'Bekijk de lijst met de hoogste cijfers';
 $string['viewreports'] = 'Bekijk $a->attempts afgewerkte pogingen van $a->student';
+$string['viewreports2'] = 'Bekijk $a volledige pogingen';
 $string['welldone'] = 'Goed gedaan!';
 $string['whatdofirst'] = 'Wat wil je eerst doen?';
 $string['wronganswerjump'] = 'Verkeerde antwoordsprong';
