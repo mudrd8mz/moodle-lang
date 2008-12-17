@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20080901) (2008090108)
+      // tag.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
 
 
 $string['addedotag'] = '「 $a 」がオフィシャルタグとして追加されました。';
@@ -30,7 +30,7 @@ $string['officialtag'] = 'オフィシャルタグ';
 $string['otags'] = 'オフィシャルタグ';
 $string['owner'] = 'オーナー';
 $string['ptags'] = 'ユーザ定義タグ (カンマ区切り)';
-$string['relatedblogs'] = 'このタグに関連する最新ブログ';
+$string['relatedblogs'] = '最新のブログエントリ';
 $string['relatedtags'] = '関連タグ';
 $string['removetagfrommyinterests'] = '「 $a 」を私の「興味があること」から削除する';
 $string['reset'] = 'リセット';
@@ -45,7 +45,7 @@ $string['seeallblogs'] = 'このタグに関連するブログをすべて表示
 $string['select'] = '選択';
 $string['tag'] = 'タグ';
 $string['tagdescription'] = 'タグ説明';
-$string['tagindex_coursetitle'] = 'コースタグ「 $a 」';
+$string['taggedwith'] = '- タグ「 $a 」';
 $string['tags'] = 'タグ';
 $string['tagsaredisabled'] = 'タグが無効にされています。';
 $string['tagtype'] = 'タグタイプ';
@@ -58,7 +58,8 @@ $string['timemodified'] = '修正日時';
 $string['typechanged'] = 'タグタイプが変更されました。';
 $string['updated'] = '更新されました。';
 $string['updatetag'] = '更新';
-$string['userstaggedwith'] = 'ユーザタグ「 $a 」';
 $string['withselectedtags'] = '選択したタグを ...';
+$string['tagindex_coursetitle'] = 'コースタグ「 $a 」'; //TBD
+$string['userstaggedwith'] = 'ユーザタグ「 $a 」'; //TBD
 
 ?>
