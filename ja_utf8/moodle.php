@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1110,7 +1110,7 @@ $string['noteachersyet'] = 'このコースにはまだ教師が登録されて�
 $string['notenrollable'] = '現在このコースには登録できません。';
 $string['notenrolled'] = '$a はこのコースに登録されていません。';
 $string['notenrolledprofile'] = 'コースに登録されていないため、このユーザのプロファイルは閲覧できません。';
-$string['noteuserschangednonetocourse'] = '注意:ユーザデータをリストアする場合、コースユーザをリストアする必要があります。あなたの設定が変更されました。';
+$string['noteuserschangednonetocourse'] = '<strong>注意:</strong> ユーザデータをリストアする場合、コースユーザをリストアする必要があります。あなたの設定が変更されました。';
 $string['nothingnew'] = '最終ログインより更新されたものはありません。';
 $string['nothingtodisplay'] = '表示するデータはありません。';
 $string['notice'] = '警告';
