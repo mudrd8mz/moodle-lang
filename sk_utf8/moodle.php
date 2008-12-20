@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -150,6 +150,7 @@ $string['backupexecuteathelp'] = 'Zvoľte si čas spustenia automatizovaných z�
 $string['backupfailed'] = 'Niektoré z Vašich kurzov neboli uložené!';
 $string['backupfilename'] = 'záloha';
 $string['backupfinished'] = 'Záloha prebehla úspešne';
+$string['backupgradebookhistoryhelp'] = 'Ak je povolené, bude zaznamenávaná história úprav výkazu známok v automatizovaných zálohách. Poznámka: pre správnu funkcionalitu nesmie byť na serveri zakázaná história známok (disablegradehistory).';
 $string['backupincludemoduleshelp'] = 'Vyberte, či chcete zahrnúť moduly kurzov, s alebo bez údajov používateľa, v automatických zálohách';
 $string['backupincludemoduleuserdatahelp'] = 'Vyberte si, či chcete zahrnúť údaje používateľov v automatizovaných zálohovaniach';
 $string['backupkeephelp'] = 'Koľko posledných záloh z každého kurzu si chcete ponechať? (staršie budú automaticky vymazané)';

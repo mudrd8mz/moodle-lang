@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.3+ (Build: 20081204) (2007101532.08)
+      // scorm.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
 
 $string['activation'] = 'Aktivácia';
@@ -117,11 +117,11 @@ $string['packagefile'] = 'Nebol určený súbor s balíkom SCORM/AICC.';
 $string['passed'] = 'Splnený';
 $string['php5'] = 'PHP 5 (DOMXML natívna knižnica)';
 $string['popup'] = 'Nové okno';
-$string['popupblocked'] = 'Ak sa neobjaví nové okno, kliknite $a pre spustenie aktivity';
-$string['popupblockedlinkname'] = 'tu';
+$string['popupblocked'] = 'Ak sa neobjaví nové okno, $a';
+$string['popupblockedlinkname'] = 'kliknite sem pre spustenie aktivity';
 $string['popupmenu'] = 'Rozbaľovacia ponuka';
 $string['popupopen'] = 'Otvoriť balík v novom okne';
-$string['position_error'] = 'Tag $a->tag nemôže byť dieťaťom tagu $a->parent';
+$string['position_error'] = 'Tag $a->tag nemôže byť potomkom tagu $a->parent';
 $string['prev'] = 'Predchádzajúci';
 $string['raw'] = 'Hrubé skóre';
 $string['regular'] = 'Regulárny manifest';

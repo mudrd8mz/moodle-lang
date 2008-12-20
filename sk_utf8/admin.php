@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -80,6 +80,7 @@ $string['configcookiehttponly'] = 'Povoľuje novú vlastnosť PHP 5.2.0 - web pr
 $string['configcookiesecure'] = 'Ak server prijíma iba https spojenia, doporučuje sa povoliť posielanie bezpečných cookie. Ak povolíte, ubezpečte sa, že server neakceptuje http:// alebo zabezpečte trvalé presmerovanie na https:// adresu. Ak adresa <em>wwwroot</em> nezačína na https://, je toto nastavenie automaticky vypnuté.';
 $string['configcountry'] = 'Ak si tu vyberiete krajinu, tak bude táto krajina nastavená aj pre nové používateľské kontá. Ak chcete, aby si používatelia sami vybrali krajinu, nenastavujte ju tu.';
 $string['configcoursemanager'] = 'Ktorých používateľov zobrazovať pri popise kurzu. Používatelia potrebujú aspoň jednu z týchto rol v danom kurze, aby boli zobrazení pri jeho popise.';
+$string['configcourserequestnotify'] = 'Zadajte login používateľa, ktorý bude upozornený pri žiadosti o nový kurz';
 $string['configcoursesperpage'] = 'Počet kurzov na stránke pri zobrazovaní zoznamu kurzov.';
 $string['configcreatornewroleid'] = 'Táto rola je automaticky priraďovaná tvorcom v nových kurzoch, ktoré vytvorí. Táto rola nie je priraďovaná v prípade, že tvorca už má potrebné oprávnenia v nadradenom kontexte.';
 $string['configcronclionly'] = 'Ak je toto nastavené, môže byť skript cron.php spustený iba z príkazového riadku a nie cez webové rozhranie. Týmto sa zároveň ignoruje nastavenie hesla k cronu (viď ďalej).';
@@ -216,6 +217,7 @@ $string['configsectionuser'] = 'Používateľ';
 $string['configsecureforms'] = 'Moodle môže použiť dodatočné bezpečnostné opatrenia pri akceptovaní vstupov z web formulárov. Ak to umožníte, potom sa bude overovať premenná HTTP_REFERER, ktorú pošle prehliadač a porovná sa s aktuálnou adresou formulára. Toto môže spôsobiť (vo veľmi zriedkavých prípadoch) problémy, napr. ak je používateľ používa firewall, ktorý je konfigurovaný tak, že odstráni premennú HTTP_REFERER. Vtedy sa môže stať, že formulár Vám \'zmrzne\'. Ak sa na to používatelia sťažujú, môžete deaktivovať toto nastavenie. V tomto prípade sa však vystavujete väčším útokom zvonku (brute force password attacks).Ak si nie ste istý, nechajte túto voľbu nastavenú na \'Áno\'.';
 $string['configsendcoursewelcomemessage'] = 'Ak je povolené, používateľom bude zaslaná správa na privítanie mailom, keď sa zapíšu do kurzu.';
 $string['configsessioncookie'] = 'Toto nastavenie upravuje meno cookie používaného v Moodle sedeniach (sessions). Táto možnosť je voliteľná a užitočná v tom prípade, ak je spustená viac ako jedna kópia Moodle v rámci tej istej www stránky (aby ste sa vyhli popleteniu cookies).';
+$string['configsessioncookiedomain'] = 'Toto nastavenie umožňuje nastaviť zmenu domény, z ktorej sú dostupné Moodle cookies. Je to výhodné pre zmeny v  Moodle (napríklad autentifikačné alebo zapisovacie zásuvné moduly), ktoré potrebujú zdieľať informáciu o Moodle session s inými web aplikáciami na inej poddoméne. <strong>UPOZORNENIE: je doporučované ponechať toto nastavenie vo východzom stave (prázdne) - nesprávne nastavenie zabráni všetkým sa prihlásiť na portál.</strong>';
 $string['configsessioncookiepath'] = 'Podadresár vašich webových stránok, kam prehliadače odosielajú súbory cookie vašej inštalácie Moodle. Pravdepodobne vám bude vyhovovať východzie nastavenie \'/\' .';
 $string['configsessiontimeout'] = 'Ak sú ľudia pripojení na túto stránku dlho nečinní (bez \"prechádzania\" stránok), sú automaticky odpojení (ich sedenie je ukončené). Táto premenná určuje, aký dlhý by mal byť ten časový interval nečinnosti.';
 $string['configshowblocksonmodpages'] = 'Niektoré moduly aktivít podporujú možnosť zobrazovania blokov na Vašich stránkach. Pokiaľ túto voľbu zapnete, môžu učitelia pridávať nové bloky na okraj svojich stránok, inak rozhranie nebude zobrazovať túto možnosť.';
@@ -260,7 +262,10 @@ $string['country'] = 'Východzia krajina';
 $string['coursemanager'] = 'Vedúci kurzov';
 $string['coursemgmt'] = 'Pridať/upravovať kurzy';
 $string['courseoverview'] = 'Prehľad kurzov';
+$string['courserequestnotify'] = 'Upozornenie o žiadosti o kurz';
+$string['courserequestnotifyemail'] = 'Používateľ $a->user požiadal o nový kurz na $a->link';
 $string['courserequests'] = 'Požadované kurzy';
+$string['courserequestspending'] = 'Nevybavené žiadosti o kurz';
 $string['courses'] = 'Kurzy';
 $string['coursesperpage'] = 'Počet kurzov na stránke';
 $string['creatornewroleid'] = 'Rola tvorcov v nových kurzoch';
@@ -649,6 +654,7 @@ $string['server'] = 'Server';
 $string['serverchecks'] = 'Kontroly servera';
 $string['serverlimit'] = 'Limit servera';
 $string['sessioncookie'] = 'Predpona názvu cookie';
+$string['sessioncookiedomain'] = 'Doména cookie';
 $string['sessioncookiepath'] = 'Cesta platnosti cookie';
 $string['sessionhandling'] = 'Správa sedenia (sessions)';
 $string['sessiontimeout'] = 'Časový limit';

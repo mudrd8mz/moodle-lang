@@ -1,11 +1,13 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // chat.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+
 
 $string['autoscroll'] = 'Automatický posun';
 $string['beep'] = 'prezvoniť';
-$string['chat:chat'] = 'Prispievať do chatovania';
+$string['chat:chat'] = 'Vstúpiť do chatovacej miestnosti';
 $string['chat:deletelog'] = 'Odstrániť históriu chatovania';
 $string['chat:readlog'] = 'Čítať históriu chatovania';
+$string['chat:talk'] = 'Chatovať';
 $string['chatintro'] = 'Úvodný text';
 $string['chatname'] = 'Názov tejto miestnosti';
 $string['chatreport'] = 'Chatovanie';
@@ -69,4 +71,5 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Každý si môže prezrieť prebehnuté chatovanie';
 $string['updatemethod'] = 'Metóda aktualizácie';
 $string['viewreport'] = 'Ukázať prebehnuté chatovanie';
+
 ?>
