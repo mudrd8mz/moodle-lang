@@ -770,6 +770,7 @@ $string['helpwiki'] = 'Wikiのようなテキストの書き方';
 $string['helpwiththis'] = 'この内容に関するヘルプ';
 $string['helpwriting'] = '慎重に書く';
 $string['hiddenassign'] = '割り当て非表示';
+$string['hiddenfromstudents'] = '学生から非表示';
 $string['hiddensections'] = 'コースセクションの非表示';
 $string['hiddensectionscollapsed'] = '非表示のコースセクションを折りたたんで表示する';
 $string['hiddensectionsinvisible'] = '非表示のコースセクションを完全に見えなくする';
