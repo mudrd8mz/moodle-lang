@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20081106) (2008110603)
+      // completion.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
 
 
 $string['activitycompletion'] = '活動完了';
@@ -31,7 +31,7 @@ $string['completionusegrade'] = '評定を必要とする';
 $string['completionusegrade_text'] = 'ユーザは活動を評定される必要があります。';
 $string['completionview'] = '閲覧を必要とする';
 $string['completionview_text'] = 'ユーザは活動を閲覧する必要があります。';
-$string['configenablecompletion'] = '有効にした場合、あなたはコースレベルで完了 (進捗) トラッキングすることができます。';
+$string['configenablecompletion'] = 'この設定を有効にした場合、あなたはコースレベルで完了 (進捗) トラッキングすることができます。';
 $string['configprogresstrackedroles'] = '進捗トラッキング画面に表示されるロールです (通常、学生および同等のロールを含みます)。';
 $string['csvdownload'] = 'スプレッドシートフォーマットでダウンロードする (UTF-8 .csv)';
 $string['enablecompletion'] = '完了トラッキングを有効にする';
