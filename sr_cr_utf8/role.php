@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.1+ (Build: 20080611) (2007101513)
+      // role.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
 
 $string['addrole'] = 'Додај нову улогу';
@@ -27,6 +27,9 @@ $string['category:update'] = 'Ажурирај категорије';
 $string['category:visibility'] = 'Погледај скривене категорије';
 $string['course:activityvisibility'] = 'Сакриј/прикажи активности';
 $string['course:bulkmessaging'] = 'Пошаљи поруку већем броју људи';
+$string['course:changefullname'] = 'Измени пун назив курса';
+$string['course:changeidnumber'] = 'Измени ID број курса';
+$string['course:changeshortname'] = 'Измени краћи назив курса';
 $string['course:create'] = 'Креирај курсеве';
 $string['course:delete'] = 'Обриши курсеве';
 $string['course:manageactivities'] = 'Управљање активностима';
@@ -130,6 +133,7 @@ $string['risks'] = 'Ризици';
 $string['role:assign'] = 'Додељивање улога корисницима';
 $string['role:manage'] = 'Креирање и управљање улогама';
 $string['role:override'] = 'Измени овлашћења за друге';
+$string['role:safeoverride'] = 'Преправи безбедне дозволе за остале';
 $string['role:switchroles'] = 'Пребацивање на друге улоге';
 $string['role:unassignself'] = 'Поништавање сопствених улога';
 $string['role:viewhiddenassigns'] = 'Преглед додељених улоге које су скривене';
@@ -137,6 +141,7 @@ $string['roleassignments'] = 'Додељивање улога';
 $string['roles'] = 'Улоге';
 $string['roletoassign'] = 'Улога која се додељује';
 $string['roletooverride'] = 'Улога која се мења';
+$string['safeoverridenotice'] = 'Напомена: Могућности са више ризика су закључане јер Вам је допуштено да преправљате једино безбедне могућности овлашћења.';
 $string['selectrole'] = 'Изаберите улогу';
 $string['showallroles'] = 'Приказ свих улога';
 $string['site:accessallgroups'] = 'Приступ свим групама';
