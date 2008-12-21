@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
+      // forum.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -42,7 +42,7 @@ $string['cannotcreateinstanceforteacher'] = '教師用フォーラムに対し�
 $string['cannotdeleteforummodule'] = 'あなたは、フォーラムモジュールを削除できません。';
 $string['cannotdeletepost'] = 'あなたは、この投稿を削除できません!';
 $string['cannoteditposts'] = 'あなたは、他のユーザの投稿を編集できません!';
-$string['cannotfinddisscussion'] = 'このフォーラムのディスカッションが見つかりませんでした。';
+$string['cannotfinddiscussion'] = 'このフォーラムのディスカッションが見つかりませんでした。';
 $string['cannotfindfirstpost'] = 'このフォーラムの最初の投稿が見つかりませんでした。';
 $string['cannotfindorcreateforum'] = 'サイトのメインニュースフォーラムが見つからないか、作成できません。';
 $string['cannotfindparentpost'] = '記事 $a の先頭親記事が見つかりませんでした。';
@@ -360,6 +360,7 @@ $string['youratedthis'] = 'あなたの評価';
 $string['yournewquestion'] = 'あなたの新しい質問';
 $string['yournewtopic'] = 'あなたの新しいディスカッショントピック';
 $string['yourreply'] = 'あなたの返信';
+$string['cannotfinddisscussion'] = 'このフォーラムのディスカッションが見つかりませんでした。'; //TBD
 $string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD
 $string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD
 
