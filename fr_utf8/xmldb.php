@@ -6,6 +6,7 @@ $string['back'] = 'Retour';
 $string['backtomainview'] = 'Retour à la vue d\'ensemble';
 $string['binaryincorrectlength'] = 'Longueur du champ binaire incorrecte';
 $string['butis'] = 'mais est';
+$string['cannotinstantiateclass'] = 'Erreur&nbsp;: impossible d\'instancier la classe (actions/$a->action/$a->actionclass)';
 $string['cannotuseidfield'] = 'Impossible d\'insérer le champ «&nbsp;id&nbsp;». Il s\'agit d\'une colonne numérique automatique';
 $string['change'] = 'Modifier';
 $string['charincorrectlength'] = 'Longueur du champ caractère incorrecte';

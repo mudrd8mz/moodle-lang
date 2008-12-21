@@ -146,6 +146,7 @@ $string['importedentries'] = 'Articles importés';
 $string['importentries'] = 'Importer des articles';
 $string['importentriesfromxml'] = 'Importer des articles d\'un fichier XML';
 $string['includegroupbreaks'] = 'Inclure les séparations entre groupes';
+$string['invalidglossaryformat'] = 'Format de glossaire incorrect';
 $string['invalidid'] = 'Identifiant de glossaire incorrect';
 $string['isglobal'] = 'Glossaire global';
 $string['letter'] = 'lettre';

@@ -452,6 +452,7 @@ $string['incompatibleblocks'] = 'Blocs incompatibles';
 $string['install'] = 'Installer les langues sélectionnées';
 $string['installedlangs'] = 'Langues installées';
 $string['intcachemax'] = 'Int. cache max';
+$string['invalidlangpack'] = 'Pour pouvoir modifier ce paquetage de langue, veuillez le placer dans le dossier des langues de votre dossier de données.';
 $string['invalidsection'] = 'Section non valide.';
 $string['invaliduserchangeme'] = 'Le nom d\'utilisateur «&nbsp;changeme&nbsp;» est réservé. Il n\'est pas permis de créer un compte de ce nom.';
 $string['ipblocked'] = 'Ce site n\'est actuellement pas accessible.';

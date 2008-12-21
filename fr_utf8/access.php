@@ -7,6 +7,7 @@ $string['accessstatement'] = 'Déclaration d\'accessibilité';
 $string['activitynext'] = 'Activité suivante';
 $string['activityprev'] = 'Activité précédente';
 $string['breadcrumb'] = 'Barre de navigation';
+$string['cannotdeleterolenoadmin'] = 'Vous ne pouvez pas supprimer ce rôle, car il n\'y a pas d\'autre rôle d\'aministrateur attribué à des utilisateurs';
 $string['currentweek'] = 'Cette semaine';
 $string['currenttopic'] = 'Ce thème';
 $string['hideblocka'] = 'Cacher bloc $a';

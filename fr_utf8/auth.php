@@ -351,5 +351,7 @@ $string['update_never']    = 'Jamais';
 $string['update_oncreate'] = 'À la création';
 $string['update_onlogin']  = 'À chaque connexion';
 $string['update_onupdate']  = 'Lors de la mise à jour';
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() ne supporte pas le type d\'utilisateur sélectionné $a';
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() ne supporte pas (encore) le type d\'utilisateur sélectionné';
 
 ?>
