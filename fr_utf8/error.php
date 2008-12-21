@@ -95,6 +95,7 @@ $string['cannotopencsv'] = 'Impossible d\'ouvrir le fichier CSV';
 $string['cannotopenfile'] = 'Impossible d\'ouvrir le fichier ($a)';
 $string['cannotopenforwrit'] = 'Impossible d\'ouvrir en écriture&nbsp;: $a';
 $string['cannotopentemplate'] = 'Impossible d\'ouvrir le fichier de modèle ($a)';
+$string['cannotopenzip'] = 'Impossible d\'ouvrir le fichier zip. Il s\'agit probablement d\'un bogue d\'extension zip sur un système d\'exploitation 64 bits';
 $string['cannotoverridebaserole'] = 'Impossible de définir des dérogations sur les capacités des rôles de base';
 $string['cannotoverriderolehere'] = 'Vous n\'êtes pas autorisé à définir des dérogations au rôle (id = $a->roleid) dans ce contexte ($a->context)';
 $string['cannotreadfile'] = 'Impossible de lire le fichier ($a)';
@@ -404,6 +405,7 @@ $string['storedfileproblem'] = 'Exception inconnue en rapport avec les fichiers 
 $string['tagdisabled'] = 'Les tags sont désactivés&nbsp;!';
 $string['tagnotfound'] = 'Le tag indiqué n\'a pas été trouvé dans la base de données';
 $string['themenotinstall'] = 'Ce thème n\'est pas installé&nbsp;!';
+$string['TODO'] = 'TODO';
 $string['transactionvoid'] = 'La transaction ne peut pas être annulée, car cela a déjà été fait';
 $string['unenrolerror'] = 'Une erreur est survenue lors de la tentative de désinscription de cet utilisateur';
 $string['unicodeupgradeerror'] = 'Désolé, votre base de données n\'est pas encore en Unicode, et cette version de Moodle n\'est pas capable d\'effectuer la migration de la base de données vers Unicode. Veuillez effectuer d\'abord la mise à jour à Moodle 1.7.x, puis la migration Unicode sur la page d\'administration. Ensuite seulement, vous pourrez effectuer la mise à jour à Moodle $a';

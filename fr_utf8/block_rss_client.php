@@ -4,6 +4,7 @@ $string['addfeed'] = 'Ajouter l\'URL d\'un fil RSS&nbsp;: ';
 $string['addheadlineblock'] = 'Ajouter un bloc manchette RSS';
 $string['addnew'] = 'Ajouter nouveau';
 $string['blockname'] = 'Client RSS';
+$string['cannotmakemodification'] = 'Vous n\'êtes actuellement pas autorisé à faire des modifications à ce flux RSS.';
 $string['choosefeedlabel'] = 'Choisir les fils RSS que vous désirez rendre disponibles dans ce bloc&nbsp;:';
 $string['clientchannellink'] = 'Site d\'origine...';
 $string['clientnumentries'] = 'Nombre par défaut d\'articles RSS à afficher par bloc';

@@ -102,6 +102,7 @@ $string['linkedfiledoesntexist'] = 'Le fichier lié $a n\'existe pas';
 $string['makechildof'] = 'Déplacer comme descendant de $a';
 $string['maketoplevelitem'] = 'Déplacer au plus haut niveau';
 $string['missingcourseorcmid'] = 'Vous devez fournir l\'identifiant de cours ou le numéro de cours pour imprimer la question.';
+$string['missingcourseorcmidtolink'] = 'Vous devez fournir l\'identifiant de cours ou le numéro de cours à get_question_edit_link.';
 $string['missingimportantcode'] = 'Il manque à ce type de question un code important&nbsp;: $a.';
 $string['missingoption'] = 'Les options de la question cloze $a manquent';
 $string['modified'] = 'Enregistré';
