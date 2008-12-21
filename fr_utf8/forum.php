@@ -43,6 +43,7 @@ $string['cannoteditposts'] = 'Vous ne pouvez pas modifier les messages d\'autres
 $string['cannotfinddisscussion'] = 'Impossible de trouver cette discussion dans ce forum';
 $string['cannotfindfirstpost'] = 'Impossible de trouver le premier message de ce forum';
 $string['cannotfindorcreateforum'] = 'Impossible de trouver ou de créer le forum de nouvelles principal pour ce site';
+$string['cannotfindparentpost'] = 'Impossible de trouver le parent ultime du message $a';
 $string['cannotmovefromsingleforum'] = 'Impossible de déplacer une discussion depuis un forum avec une seule discussion';
 $string['cannotmovetonotexist'] = 'Vous ne pouvez pas déplacer vers ce forum, qui n\'existe pas&nbsp;!';
 $string['cannotmovetonotfound'] = 'Le forum de destination n\'a pas été trouvé dans ce cours.';
