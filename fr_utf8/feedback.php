@@ -125,6 +125,7 @@ $string['non_anonymous_entries'] = 'Saisies non anonymes';
 $string['non_anonymous'] = 'Le nom du participant sera enregistré et affiché avec ses réponses';
 $string['not_completed_yet'] = 'Pas encore terminé';
 $string['not_selected'] = 'Non sélectionné';
+$string['notavailable'] = 'Ce feedback n\'est pas disponible';
 $string['numeric_range_from'] = 'Intervalle de';
 $string['numeric_range_to'] = 'Intervalle jusqu\'à';
 $string['numeric'] = 'Réponse numérique';
