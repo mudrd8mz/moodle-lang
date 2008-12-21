@@ -2,8 +2,8 @@
       // condition.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
 
 
-$string['addcompletions'] = 'フォームに  {no} 件の活動状況を追加する';
-$string['addgrades'] = 'フォームに  {no} 件の評定状況を追加する';
+$string['addcompletions'] = 'フォームに  {no} 件の活動コンディションを追加する';
+$string['addgrades'] = 'フォームに  {no} 件の評定コンディションを追加する';
 $string['availabilityconditions'] = '利用制限';
 $string['availablefrom'] = '利用可能開始日';
 $string['availableuntil'] = '利用可能終了日';
@@ -12,7 +12,7 @@ $string['completion_fail'] = '不合格で完了する必要あり';
 $string['completion_incomplete'] = '完了マークされない必要あり';
 $string['completion_pass'] = '合格で完了する必要あり';
 $string['completioncondition'] = '活動完了コンディション';
-$string['configenableavailability'] = 'この設定を有効にした場合、あなたは活動が利用可能かどうか (日付、評点、完了に基づく) コントロールする条件を付けることができます。';
+$string['configenableavailability'] = 'この設定を有効にした場合、あなたは活動が利用可能かどうかコントロールする条件 (日付、評点、完了に基づく) を付けることができます。';
 $string['enableavailability'] = '条件付き利用を有効にする';
 $string['grade_atleast'] = '次の評点以上:';
 $string['grade_upto'] = '次の評点未満:';
