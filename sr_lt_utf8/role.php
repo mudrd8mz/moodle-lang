@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // role.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['addrole'] = 'Dodaj novu ulogu';
@@ -27,6 +27,9 @@ $string['category:update'] = 'Ažuriraj kategorije';
 $string['category:visibility'] = 'Pogledaj skrivene kategorije';
 $string['course:activityvisibility'] = 'Sakrij/prikaži aktivnosti';
 $string['course:bulkmessaging'] = 'Pošalji poruku većem broju ljudi';
+$string['course:changefullname'] = 'Izmeni pun naziv kursa';
+$string['course:changeidnumber'] = 'Izmeni ID broj kursa';
+$string['course:changeshortname'] = 'Izmeni kraći naziv kursa';
 $string['course:create'] = 'Kreiraj kurseve';
 $string['course:delete'] = 'Obriši kurseve';
 $string['course:manageactivities'] = 'Upravljanje aktivnostima';
@@ -130,6 +133,7 @@ $string['risks'] = 'Rizici';
 $string['role:assign'] = 'Dodeljivanje uloga korisnicima';
 $string['role:manage'] = 'Kreiranje i upravljanje ulogama';
 $string['role:override'] = 'Izmeni ovlašćenja za druge';
+$string['role:safeoverride'] = 'Prepravi bezbedne dozvole za ostale';
 $string['role:switchroles'] = 'Prebacivanje na druge uloge';
 $string['role:unassignself'] = 'Poništavanje sopstvenih uloga';
 $string['role:viewhiddenassigns'] = 'Pregled dodeljenih uloge koje su skrivene';
@@ -137,6 +141,7 @@ $string['roleassignments'] = 'Dodeljivanje uloga';
 $string['roles'] = 'Uloge';
 $string['roletoassign'] = 'Uloga koja se dodeljuje';
 $string['roletooverride'] = 'Uloga koja se menja';
+$string['safeoverridenotice'] = 'Napomena: Mogućnosti sa više rizika su zaključane jer Vam je dopušteno da prepravljate jedino bezbedne mogućnosti ovlašćenja.';
 $string['selectrole'] = 'Izaberite ulogu';
 $string['showallroles'] = 'Prikaz svih uloga';
 $string['site:accessallgroups'] = 'Pristup svim grupama';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // error.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['adminprimarynoedit'] = 'Podaci primarnog administratora ne mogu biti menjani od strane drugih korisnika';
@@ -12,13 +12,14 @@ $string['cannotdownloadlanguageupdatelist'] = 'Nije moguće preuzeti spisak ažu
 $string['cannotdownloadzipfile'] = 'Nije moguće preuzimanje arhive.';
 $string['cannoteditmasterlang'] = 'Nemate odobrenje da menjate izraze iz glavnog jezičkog paketa. Ovim odobrenjem upravlja se posedovanjem privilegije \"moodle/site:langeditlocal\". Postavite ovu privilegiju da bi Vam bila omogućena izmena glavnih jezičkih paketa u slučaju da ste Vi nadležni za paket.';
 $string['cannotfindcomponent'] = 'Nije moguće pronalaženje komponenti.';
+$string['cannotinsertrecord'] = 'Nije moguć unos ID za novi zapis: $a';
 $string['cannotsavemd5file'] = 'Nije moguće čuvanje md5 datoteke.';
 $string['cannotsavezipfile'] = 'Nije moguće čuvanje arhive.';
 $string['cannotunzipfile'] = 'Nije moguće raspakivanje datoteke.';
+$string['cannotupdaterecord'] = 'Nije moguće ažuriranje zapisa sa ID $a';
 $string['cannotviewprofile'] = 'Ne možete videti profil ovog korisnika';
 $string['cantunenrollfrommetacourse'] = 'Ne možete se ispisati sa ovog meta kursa.';
 $string['cantunenrollinthisrole'] = 'Ne možete se ispisati sa ovog kursa dok ste u trenutnoj ulozi.';
-$string['cmunknown'] = 'Nije pronađen taj modul kursa';
 $string['componentisuptodate'] = 'Komponenta je dostupna u svojoj najnovijoj verziji.';
 $string['confirmsesskeybad'] = 'Nažalost, ali ključ Vaše sesije ne može biti potvrđen da bi se izvršila ova akcija. Ova sigurnosna opcija sprečava slučajno ili zlonamerno izvršavanje važnih funkcija u Vaše ime. Molimo budite sigurni da stvarno želite da izvršite ovu funkciju.';
 $string['couldnotassignrole'] = 'Došlo je do ozbiljne, ali neodređene greške prilikom pokušaja dodele Vaše nove uloge';
@@ -46,13 +47,17 @@ $string['groupnotaddederror'] = 'Grupa \"$a\" nije dodata';
 $string['groupunknown'] = 'Grupa $a ne pripada datom kursu';
 $string['guestnoeditprofile'] = 'Gost ne može da uređuje svoj profil';
 $string['guestnoeditprofileother'] = 'Ne može se uređivati profil gosta';
+$string['invalidcontext'] = 'Neispravan kontekst';
 $string['invalidcourse'] = 'Neispravan kurs';
+$string['invalidcourseid'] = 'Pokušavate da koristite neispravan ID kursa ($a)';
+$string['invalidcoursemodule'] = 'Neispravan ID modula kursa';
 $string['invalidfieldname'] = '\"$a\" nije ispravno ime polja';
 $string['invalidfiletype'] = '\"$a\" nije ispravan tip datoteke';
 $string['invalidipformat'] = 'Neispravan format IP adrese';
 $string['invalidmd5'] = 'Neispravna md5 datoteka';
 $string['invalidrequest'] = 'Neispravan zahtev';
 $string['invalidrole'] = 'Neispravna uloga';
+$string['invalidsesskey'] = 'Netačan kod sesije je prosleđen, forma nije prihvaćena!';
 $string['invalidurl'] = 'Neispravan url';
 $string['invalidxmlfile'] = '\"$a\" nije ispravna XML datoteka';
 $string['iplookupfailed'] = 'Nije moguće pronaći geografske podatke o ovoj IP adresi $a.';
@@ -72,12 +77,14 @@ $string['missingrequiredfield'] = 'Nedostaje neko obavezno polje';
 $string['modulemissingcode'] = 'Modulu $a nedostaje kod potreban za izvođenje ove funkcije';
 $string['modulerequirementsnotmet'] = 'Modul \"$a->modulename\" ($a->moduleversion) nije mogao biti instaliran. Navedeni modul zahteva noviju verziju sistema Moodle (Vi trenutno imate $a->currentmoodle, a potrebna Vam je verzija $a->requiremoodle).';
 $string['mustbeteacher'] = 'Morate biti predavač da biste videli ovu stranicu';
+$string['nocategorydelete'] = 'Kategorija \'$a\' se ne može obrisati!';
 $string['nocontext'] = 'Žao nam je, ali taj kurs nije validan kontekst';
 $string['noinstances'] = 'Nema instanci $a u ovom kursu!';
 $string['nologinas'] = 'Nije ti dozvoljeno da se prijaviš kao taj korisnik';
 $string['nonmeaningfulcontent'] = 'Besmislen sadržaj';
 $string['noparticipatorycms'] = 'Nažalost nemate učestvujućih modula kursa o kojima bi se mogao podneti izveštaj.';
 $string['nopermissions'] = 'Žao nam je, ali trenutno nemate dozvolu da to radite ($a)';
+$string['nostatstodisplay'] = 'Izvinite, nema raspoloživih podataka za prikaz';
 $string['notavailable'] = 'Trenutno nije na raspolaganju.';
 $string['onlyadmins'] = 'Samo administratori mogu to da rade.';
 $string['onlyeditingteachers'] = 'Samo predavači mogu to da rade.';
@@ -94,6 +101,7 @@ $string['sendmessage'] = 'Slanje poruke';
 $string['sessionerroruser'] = 'Vaša sesija je istekla. Molimo da prijavite se na sistem ponovo.';
 $string['sessionerroruser2'] = 'Došlo je do greške koja utiče na Vašu tekuću sesiju. Molimo pristupite sistemu ponovo ili ponovo pokrenite svoj web čitač.';
 $string['sessionipnomatch'] = 'Nažalost, ali izgleda da se Vaš IP broj promenio od kada ste se prijavili na sistem. Ova sigurnosna opcija sprečava krakere da ukradu Vaš indentitet dok ste prijavljeni na ovaj sajt. Normalni korisnici ne bi trebalo da vide ovu poruku - molimo Vas da tražite pomoć od administratora sajta.';
+$string['socksnotsupported'] = 'SOCKS5 proksi nije podržan u PHP4';
 $string['statscatchupmode'] = 'Statistika je trenutno u modu za sustizanje obrade padataka. Do sada je procesirano $a->daysdone dan(a), a još $a->dayspending dana čeka na obradu. Vratite se nešto kasnije!';
 $string['tagnotfound'] = 'Navedena oznaka (tag) nije pronađena u bazi podataka';
 $string['unicodeupgradeerror'] = 'Žao nam je, ali Vaša baza podataka nije u Unicode formatu, a ova vezija Moodlea ne može da je prebaci u Unicode bazu podataka. Molimo prvo uradite nadogradnju sistema do Moodle 1.7.x verzije i uradite Unicode migraciju sa administratorske stranice. Nakon što to uradite moći ćete da pređete na Moodle $a';
@@ -122,5 +130,6 @@ $string['usernotupdatednotexists'] = 'Nisu izmenjeni podaci o korisniku - ne pos
 $string['wrongdestpath'] = 'Pogrešna odredišna putanja.';
 $string['wrongsourcebase'] = 'Pogrešan izvorni URL baze.';
 $string['wrongzipfilename'] = 'Pogrešan naziv arhive.';
+$string['cmunknown'] = 'Nije pronađen taj modul kursa'; // ORPHANED
 
 ?>

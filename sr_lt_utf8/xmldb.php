@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // xmldb.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['actual'] = 'Važeće';
@@ -141,5 +141,7 @@ $string['wrongreservedwords'] = 'Trenutno korišćene rezervisane reči<br />(pr
 $string['yesmissingindexesfound'] = 'Nađeni su neki indeksi koji nedostaju u Vašoj bazi podataka. Evo detalja o njima i SQL naredbi koje treba izvršiti u okviru Vašeg omiljenog SQL interfejsa.<br /><br />Nakon toga, vrlo je preporučljivo da ponovo pokrenete ovu pretragu da biste proverili da li ima još indeksa koji nedostaju.';
 $string['yeswrongdefaultsfound'] = 'Pronađeno je nekoliko nelogičnih podrazumevanih vrednosti u Vašoj bazi podataka. Evo njihovih detalja i potrebnih SQL iskaza koje treba izvršiti u Vašem omiljenom SQL okruženju da biste ih sve popravili (ne zaboravite da kreirate rezervnu kopiju Vaših podataka pre toga).<br /><br />Posle toga, strogo se preporučuje da izvršite ponovo ovu proceduru da biste utvrdili da više nema nelogičnih podrazumevanih vrednosti.';
 $string['yeswrongintsfound'] = 'Neke pogrešne celobrojne (integer) vrednosti su pronađene u Vašoj bazi podataka. Evo nekih detaljnijih informacija i potrebnih SQL iskaza koje treba izvršiti u Vama najpogodnijem SQL interfejsu da biste ih sve kreirali (ne zaboravite da napravite rezervnu kopiju podataka pre toga).<br /><br />Kada to uradite, strogo se preporučuje da pokrenete ovu alatku ponovo da proverite da li neće biti pronađeno još pogrešnih integera.';
+$string['butis'] = 'ali je'; // ORPHANED
+$string['shouldbe'] = 'treba da bude'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // grades.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['activities'] = 'Aktivnosti';
@@ -101,6 +101,7 @@ $string['configshowhiddenitems'] = 'Prikaži skrivene stavke čak i kada korisni
 $string['configshowlocks'] = 'Da li prikazati ikonicu zaključaj/otključaj pored svake ocene.';
 $string['configshownumberofgrades'] = 'Prikazuje broj ocena koje su sumirane pored svakog proseka, iѕmeđu zagrada.
 Primer: 45 (34).';
+$string['configshowpercentage'] = 'Da li prikazati procentualnu vrednost svake stavke u ocenjivanju';
 $string['configshowquickfeedback'] = 'Brza povratna informacija dodaje element za unos teksta u svaku ćeliju za ocenu u izveštaj ocenjivača, omogućavajući Vam da obavljate izmene povratnih informacija za mnogo ocena odjednom. Možete tada klinuti na dugme Ažuriraj da biste odradili ove promene odjednom, umesto jednu po jednu.';
 $string['configshowranges'] = 'Prikaži red sa opsegom mogućih ocena za svaku od stavki u izveštaju ocenjivača.';
 $string['configshowrank'] = 'Prikaži rang za svaku stavku';
@@ -139,7 +140,7 @@ $string['dropxlowestwarning'] = 'Napomena: Ako odbacite X najnižih ocena biće 
 $string['duplicatescale'] = 'Duplirajte skalu';
 $string['edit'] = 'Izmeni';
 $string['editcalculation'] = 'Izmeni proračun';
-$string['editcalculationverbose'] = 'Uredi izračunvanje za $a->category$a->itemmodule $a->itemname';
+$string['editcalculationverbose'] = 'Uredi izračunavanje za $a->category$a->itemmodule $a->itemname';
 $string['editfeedback'] = 'Izmeni povratnu informaciju';
 $string['editgrade'] = 'Izmeni ocenu';
 $string['editoutcomes'] = 'Uredi ishode';
@@ -453,7 +454,8 @@ $string['showlocks'] = 'Prikaži zaključavanja';
 $string['shownohidden'] = 'Bez skrivenih';
 $string['shownooutcomes'] = 'Sakrij ishode';
 $string['shownumberofgrades'] = 'Prikaži broj ocena u proseku';
-$string['showquickfeedback'] = 'Prikaži Brzu povratnnu informaciju';
+$string['showpercentage'] = 'Prikaži procenat';
+$string['showquickfeedback'] = 'Prikaži Brzu povratnu informaciju';
 $string['showranges'] = 'Prikaži opsege';
 $string['showrank'] = 'Prikaži rang';
 $string['showuseridnumber'] = 'Prikaži id broje korisnika';
@@ -503,6 +505,7 @@ $string['usergrade'] = 'Korisnik $a->fullname ($a->useridnumber) na stavci $a->g
 $string['userkeyhelp'] = 'Izaberite sačuvani ključ koji će korisnicima dati pristup podacima objavljenim pomoću ovog dodatka za izvoženje, bez obaveznog prijavljivanja na Moodle. Izaberite \'Napravi novi korisnički ključ\' da bi se generisao novi ključ kada se proslede podaci sa ovog obrasca';
 $string['userpreferences'] = 'Korisničke preferencije';
 $string['useweighted'] = 'Koristi ponderisane vrednosti';
+$string['verbosescales'] = 'Detaljne skale';
 $string['viewbygroup'] = 'Grupa';
 $string['viewgrades'] = 'Pogledaj ocene';
 $string['weight'] = 'težinska vrednost';
@@ -515,7 +518,8 @@ $string['writinggradebookinfo'] = 'Zapisivanje podešavanja knjige sa ocenama';
 $string['xml'] = 'XML';
 $string['yes'] = 'Da';
 $string['yourgrade'] = 'Vaša ocena';
-$string['aggregationcoefextrahelp'] = 'Dodatni bodovi za ovu stavku ocenjivanje tokom sumiranja podataka'; // ORPHANED
+$string['aggregationcoefextrahelp'] = 'Dodatni bodovi za ovu stavku u ocenjivanju tokom sumiranja podataka'; // ORPHANED
+$string['aggregationcoefextrasumhelp'] = 'Dodatni bodovi za ovu stavku u ocenjivanju tokom sumiranja podataka'; // ORPHANED
 $string['aggregationcoefweighthelp'] = 'Težinska vrednost primenjena na sve ocene u okviru ove stavke ocenjivanja tokom sumiranja podataka sa ostalim stavkama ocenjivanja'; // ORPHANED
 $string['configbulkcheckboxes'] = 'Polja za potvrdu pored svake ocene za obimne operacije sa ocenama.'; // ORPHANED
 $string['configquickfeedback'] = 'Brza Povratna Informacija dodaje polje za unos teksta uz svaku ocenu na izveštaju ocenjivača, čime omogućuje uređivanje više ocena odjednom. Klikom na duge Ažuriraj primenjujete sve promene odjednom, umesto jednu po jednu.'; // ORPHANED

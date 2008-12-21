@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // scorm.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['activation'] = 'Aktivacija';
+$string['activityloading'] = 'Bićete automatski preusmereni na ovu aktivnost za';
+$string['activitypleasewait'] = 'Aktivnost se učitava, molimo sačekajte';
 $string['advanced'] = 'Parametri';
 $string['asset'] = 'Element';
 $string['assetlaunched'] = 'Element - Pregledano';
@@ -125,9 +127,12 @@ $string['scorm:skipview'] = 'Preskakanje pregleda';
 $string['scorm:viewreport'] = 'Pregled izveštaja';
 $string['scorm:viewscores'] = 'Pregled rezultata';
 $string['scormcourse'] = 'SCORM kurs';
+$string['scormloggingoff'] = 'API izveštavanje je isključeno';
+$string['scormloggingon'] = 'API izveštavanje je uključeno';
 $string['scrollbars'] = 'Dozvoli izlistavanje prozora';
 $string['sided'] = 'Sa leve strane';
 $string['skipview'] = 'Student preskače stranicu sa strukturom sadržaja';
+$string['slashargs'] = 'UPOZORENJE: sleš argumenti nisu dozvoljeni na ovom sajtu i objekti možda neće funkcionisati kako se očekuje!';
 $string['stagesize'] = 'Veličina nivoa';
 $string['started'] = 'Započeto dana';
 $string['status'] = 'Status';

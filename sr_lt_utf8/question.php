@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.8.1+ (2007021510)
+      // question.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
 
 
 $string['adminreport'] = 'Izveštaj o mogućim problemima u vašoj bazi podataka sa pitanjima';
@@ -19,13 +19,20 @@ $string['cwrqpfsinfo'] = '<p>Tokom nadogradnje do Moodle verzije 1.9 kategorije 
 $string['cwrqpfsnoprob'] = 'Nema kategorija pitanja na Vašem sajtu na koje bi mogao uticati problem \'Nasumično izabranih pitanja biranih iz potkategorija\'.';
 $string['defaultfor'] = 'Podrazumevano za $a';
 $string['defaultinfofor'] = 'Podrazumevana kategorija za pitanja deljena u kontekstu \'$a\'.';
+$string['deletecoursecategorywithquestions'] = 'Postoje pitanja u bazi pitanja pridruženoj ovoj kategoriji kurseva. Ako nastavite, ona će biti obrisana. Možda biste želeli da ih prvo premestite, koristeći interfejs za baze pitanja.';
 $string['donothing'] = 'Nemojte kopirati/premeštati datoteke, niti menjati linkove.';
 $string['editingcategory'] = 'Editovanje kategorije';
 $string['editingquestion'] = 'Uređivanje pitanja';
 $string['erroraccessingcontext'] = 'Ne može se pristupiti kontekstu';
+$string['errordeletingquestionsfromcategory'] = 'Greška pri brisanju pitanja iz kategorije $a.';
 $string['errorfilecannotbecopied'] = 'Greška, ne može se kopirati fajl $a.';
 $string['errorfilecannotbemoved'] = 'Greška, ne može se premestiti fajl $a.';
 $string['errorfileschanged'] = 'Datoteke grešaka povezane s pitanjima su izmenjene od kad je forma prikazana.';
+$string['errormanualgradeoutofrange'] = 'Ocena $a->grade nije između 0 i $a->maxgrade za pitanje $a->name. Rezultat i komentar nisu sačuvani.';
+$string['errormovingquestions'] = 'Greška pri premeštanju pitanja sa id vrednostima $a.';
+$string['errorprocessingresponses'] = 'Nastala je greška pri obradi Vaših odziva.';
+$string['errorsavingcomment'] = 'Greška pri čuvanju komentara za pitanje $a->name u bazi podataka.';
+$string['errorupdatingattempt'] = 'Greška pri pokušaju ažuriranja $a->id u bazi podataka.';
 $string['exportcategory'] = 'Izvezi kategoriju';
 $string['filesareacourse'] = 'Oblast fajlova sa kursa';
 $string['filesareasite'] = 'Oblast fajlova sa sajta';
@@ -34,6 +41,7 @@ $string['fractionsnomax'] = 'Jedan od odgovora bi trebao nositi 100%% rezultata 
 $string['getcategoryfromfile'] = 'Preuzmi kategoriju iz datoteke';
 $string['getcontextfromfile'] = 'Preuzmi kontekst iz datoteke';
 $string['ignorebroken'] = 'Ignoriši neispravne linkove';
+$string['invalidcontextinhasanyquestions'] = 'Neispravan kontekst prosleđen u question_context_has_any_questions.';
 $string['linkedfiledoesntexist'] = 'Datoteka $a do koje vodi link ne postoji';
 $string['makechildof'] = 'Napravi potomka od \'$a\'';
 $string['maketoplevelitem'] = 'Pomeri na najviši nivo';
@@ -41,6 +49,7 @@ $string['missingimportantcode'] = 'Ovom tipu pitanja nedostaje važan kod: $a.';
 $string['modified'] = 'Menjan';
 $string['move'] = 'Premesti iz $a i promeni linkove.';
 $string['movecategory'] = 'Premesti kategoriju';
+$string['movedquestionsandcategories'] = 'Premeštena su pitanja i kategorije pitanja sa $a->oldplace na $a->newplace.';
 $string['movelinksonly'] = 'Samo promenite destinacije linkova, nemojte premeštati niti kopirati datoteke.';
 $string['moveq'] = 'Premesti pitanje(a)';
 $string['moveqtoanothercontext'] = 'Premesti pitanje u drugi kontekst.';
@@ -52,6 +61,7 @@ $string['movingquestionsandfiles'] = 'Da li ste sigurni da želite da premestite
 $string['movingquestionsnofiles'] = 'Da li ste sigurni da želite da premestite pitanje(a) {$a->questions} u kontekst za <strong>\"{$a->tocontext}\"</strong>?<br /> <strong>Nema datoteka</strong> povezanih sa njim(a) u {$a->fromareaname}.';
 $string['needtochoosecat'] = 'Morate odabrati kategoriju u koju želite da premestite ovo pitanje ili pritisnuti \'otkaži\'.';
 $string['nopermissionadd'] = 'Nemate odobrenje da dodate pitanje ovde.';
+$string['nopermissionmove'] = 'Nemate dozvole da premeštate pitanja odavde. Morate sačuvati pitanje u ovoj kategoriji ili ga sačuvati kao novo pitanje.';
 $string['noprobs'] = 'Nije nađen ni jedan problem u vašoj bazi podataka sa pitanjima.';
 $string['notenoughdatatoeditaquestion'] = 'Nisu specificirani ni identifikator pitanja, ni identifikator kategorije sa tipom pitanja.';
 $string['notenoughdatatomovequestions'] = 'Morate navecti identifikatore pitanja koja želite da premestite.';
@@ -62,8 +72,12 @@ $string['permissionto'] = 'Imate dozvolu da:';
 $string['published'] = 'objavljeno';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Pitanje \"$a->name\" ($a->qtype)</a> je u ovoj kategoriji pitanja ali se koristi i u <a href=\"$a->qurl\">testu \"$a->quizname\"</a> koji pripada drugom kursu \"$a->coursename\".';
 $string['questionbank'] = 'Baza pitanja';
+$string['questioncategory'] = 'Kategorija pitanja';
 $string['questioncatsfor'] = 'Kategorije pitanja za \'$a\'';
 $string['questiondoesnotexist'] = 'Ovo pitanje ne postoji';
+$string['questionsmovedto'] = 'Pitanje koje se još uvek koristi je premešteno u \"$a\" u okviru nadređene kategorije.';
+$string['questionsrescuedfrom'] = 'Pitanje sačuvano iz konteksta $a.';
+$string['questionsrescuedfrominfo'] = 'Ova pitanja (od kojih neka mogu biti skrivena) sačuvana su kada je kontekst $a bio obrisan, zato što se još uvek koriste u nekim testovima ili drugim aktivnostima.';
 $string['questionuse'] = 'Koristi pitanje u ovoj aktivnosti';
 $string['shareincontext'] = 'Deli u kontekstu za $a';
 $string['tofilecategory'] = 'Upiši kategoriju u datoteku';
@@ -71,5 +85,9 @@ $string['tofilecontext'] = 'Upiši kontekst u datoteku';
 $string['unknown'] = 'Nepoznato';
 $string['unknownquestiontype'] = 'Nepoznat tip pitanja: $a.';
 $string['unpublished'] = 'neobjavljeno';
+$string['upgradeproblemcategoryloop'] = 'Otkriven je problem pri pokušaju ažuriranja kategorija pitanja. Postoji petlja u stablu kategorija. Pogođene su time kategorije sa id vrednostima $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Nije moguće ažurirati kategoriju pitanja $a->name ($a->id).';
+$string['upgradeproblemunknowncategory'] = 'Otkriven je problem pri pokušaju ažuriranja kategorija pitanja. Kategorija $a->id ukazuje na nadređenu kategoriju $a->parent, koja ne postoji. Promenjena je nadređena kategorija da bi se rešio problem.';
+$string['yourfileshoulddownload'] = 'Vaša datoteka za izvoz - trebalo bi da uskoro započne preuzimanje. U suprotnom, molimo <a href=\"$a\">kliknite ovde</a>. Promenjena je nadređena kategorija da bi se rešio problem.';
 
 ?>
