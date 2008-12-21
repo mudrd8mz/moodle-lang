@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio_flickr.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // portfolio_flickr.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
 
 
 $string['apikey'] = 'APIキー (http://flickr.com/services/api/keys/apply から取得してください)';
@@ -19,7 +19,7 @@ $string['safe'] = 'セーフ';
 $string['safetylevel'] = 'セーフティレベル';
 $string['screenshot'] = 'スクリーンショット';
 $string['set'] = 'セット';
-$string['sharedsecret'] = 'あなたの共有秘密文字列 (あなたの生成APIキーと共に提供されます)';
+$string['sharedsecret'] = 'あなたの共有秘密文字列 (あなたの生成APIキーとともに提供されます)';
 $string['title'] = 'タイトル';
 $string['uploadfailed'] = 'flickr.comへのイメージのアップロードに失敗しました: $a';
 
