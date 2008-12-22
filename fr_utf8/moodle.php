@@ -150,6 +150,7 @@ $string['backupexecuteathelp'] = 'Choisissez l\'heure à laquelle les sauvegarde
 $string['backupfailed'] = 'Certains de vos cours n\'ont pas été sauvegardés !';
 $string['backupfilename'] = 'backup';
 $string['backupfinished'] = 'La sauvegarde s\'est déroulée sans erreur';
+$string['backupgradebookhistoryhelp'] = 'Ce réglage indique si l\'historique du carnet de notes sera inclus dans les sauvegardes automatiques. Veuillez noter que l\'historique des notes ne doit pas être désactivé dans les réglages serveur (disablegradehistory) pour que ceci fonctionne';
 $string['backupincludemoduleshelp'] = 'Choisissez si vous désirez inclure dans les sauvegardes automatiques les modules de cours, avec ou sans les données des utilisateurs';
 $string['backupincludemoduleuserdatahelp'] = 'Choisissez si vous désirez inclure dans les sauvegardes automatiques les données utilisateur des modules.';
 $string['backupkeephelp'] = 'Combien de sauvegardes de chaque cours désirez-vous conserver (les anciennes seront effacées automatiquement) ?';
