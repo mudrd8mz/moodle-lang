@@ -3,13 +3,14 @@
 $string['ajax'] = 'Version Ajax';
 $string['autoscroll'] = 'Défilement automatique';
 $string['beep'] = 'bip';
-$string['cantlogin'] = 'Connexion iau salon de chat impossible&nbsp;!';
+$string['cantlogin'] = 'Connexion au salon de chat impossible&nbsp;!';
 $string['cantinsert'] = 'Impossible d\'ajouter un message dans le chat&nbsp;!';
-$string['chat:chat'] = 'Participer à un chat';
+$string['chat:chat'] = 'Accéder à un salon de chat';
 $string['chat:deletelog'] = 'Supprimer les historiques des chats';
 $string['chat:exportsession'] = 'Exporter des sessions de chat';
 $string['chat:exportparticipatedsession'] = 'Exporter ses propres sessions de chat';
 $string['chat:readlog'] = 'Lire les historiques des chats';
+$string['chat:talk'] = 'Participer à un chat';
 $string['chatintro'] = 'Texte d\'introduction';
 $string['chatname'] = 'Nom de ce salon';
 $string['chatreport'] = 'Sessions de chat';
