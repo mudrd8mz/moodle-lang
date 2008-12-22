@@ -255,6 +255,7 @@ $string['auth_radiusnasport'] = 'Port utilisé pour la connexion';
 $string['auth_radiussecret_key'] = 'Secret';
 $string['auth_radiussecret'] = 'Secret partagé';
 $string['auth_radiustitle'] = 'Serveur RADIUS';
+$string['auth_radiustype_key'] = 'Authentification';
 $string['auth_radiustype'] = 'Choisissez un schéma d\'authentification à utiliser avec le serveur RADIUS.';
 $string['auth_radiustypepap'] = 'PAP';
 $string['auth_radiustypechapmd5'] = 'CHAP MD5';
