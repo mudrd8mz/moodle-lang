@@ -1670,7 +1670,7 @@ $string['youneedtoenrol'] = 'Vous devez vous inscrire à ce cours pour effectuer
 $string['yourlastlogin'] = 'Votre dernière connexion';
 $string['yourself'] = 'vous';
 $string['yourteacher'] = 'votre $a';
-$string['yourwordforx'] = 'Votre mot pour «&nbsp;$a&nbsp;»';
+$string['yourwordforx'] = 'Votre terme pour «&nbsp;$a&nbsp;»';
 $string['zippingbackup'] = 'Compactage (zip) de la sauvegarde';
 
 ?>
