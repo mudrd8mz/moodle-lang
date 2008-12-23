@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // question.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['adminreport'] = 'דווח על בעיות אפשריות במסד הנתונים של שאלותיך';
@@ -48,7 +48,7 @@ $string['movelinksonly'] = 'שנה את ההצבעה של הקישורים, אל
 $string['moveq'] = 'שאלות נוספות';
 $string['moveqtoanothercontext'] = 'הזז השאלה להקשר';
 $string['movingcategory'] = 'קטגורית הזזה';
-$string['movingcategoryandfiles'] = 'האם אתה בטוח שאתה רוצה להעביר את הקטגוריה {a$->name} וכל צאצאי הקטגוריה לקונטקסט עבור \"{$a->contextto}\"?<br/> הבחנו {$a->urlcount} בקבצים המקושרים משאלות ב{$a-fromareaname}, האם תרצה להעתיק או להעביר אותם ל{$a->toareaname?';
+$string['movingcategoryandfiles'] = 'האם אתה בטוח שאתה רוצה להעביר את הקטגוריה  {$a->name} וכל צאצאי הקטגוריה לקונטקסט עבור \"{$a->contextto}\"?<br/> הבחנו {$a->urlcount} בקבצים המקושרים משאלות ב{$a-fromareaname}, האם תרצה להעתיק או להעביר אותם ל{$a->toareaname?';
 $string['movingcategorynofiles'] = 'האם אתה בטוח שאתה רוצה להזיז את קטגוריה \"{$a->name}\" וכל קטגוריות הצאצאים להקשר עבור \"{$a->contextto}?';
 $string['movingquestions'] = 'הזזת שאלות וכל קובץ שהוא';
 $string['movingquestionsandfiles'] = 'האם אתה בטוח שאתה רוצה להעביר שאלות {$a->questions} לקונטקסט עבור <strong>\"{$a->tocontext}\"</strong>?<br /> הבחנו <strong>{$a->urlcount} בקבצים </strong> המקושרים משאלות אלו ב{$a->fromareaname}, האם תרצה להעתיק רו להעביר אותם ל{$a->toareaname}?';

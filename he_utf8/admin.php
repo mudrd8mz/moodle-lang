@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['accessdenied'] = 'הגישה נדחתה';
@@ -44,6 +44,8 @@ $string['calendar_weekend'] = 'סוף השבוע';
 $string['calendarsettings'] = 'לוח שנה';
 $string['change'] = 'שינוי';
 $string['changesitelang'] = 'שנה את שפת האתר';
+$string['checkboxno'] = 'לא';
+$string['checkboxyes'] = 'כן';
 $string['choosefiletoedit'] = 'בחר קובץ לעריכה מהתיבה למעלה';
 $string['clamfailureonupload'] = 'בכישלון של סריקת תוכנת האנטי-וירוס calm';
 $string['cleanup'] = 'ניקוי';

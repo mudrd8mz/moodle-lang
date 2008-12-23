@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+      // forum.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addanewdiscussion'] = 'הוסף נושא חדש לדיון';
@@ -28,6 +28,7 @@ $string['blockperiod'] = 'תקופת זמן עד לחסימה';
 $string['blockperioddisabled'] = 'אל תחסום';
 $string['bynameondate'] = 'על ידי $a->name בתאריך $a->date';
 $string['cannotadddiscussion'] = 'על מנת שתוכל להוסיף דיונים לפורום עלייך להיות חבר בקבוצה.';
+$string['cannotadddiscussionall'] = 'אין לך הרשאה להוסיף נושא דיון חדש עבור כל המשתתפים.';
 $string['cannotviewpostyet'] = 'עדיין אינך יכול לקרוא את השאלות של הסטודנטים האחרים בדיון זה, וזאת בגלל שעדיין לא פירסמת הודעה משלך.';
 $string['configcleanreadtime'] = 'השעה ביום בה יש למחוק הודעות ישנות מטבלת \"לקרוא\".';
 $string['configdisplaymode'] = 'תצוגת הדיונים במצב ברירת המחדל, במידה שלא נקבעה דרך תצוגה אחרת.';
@@ -275,6 +276,11 @@ $string['unreadposts'] = 'הודעות שלא נקראו';
 $string['unreadpostsnumber'] = '$a הודעות שלא נקראו';
 $string['unreadpostsone'] = 'הודעה אחת שלא נקראה';
 $string['unsubscribe'] = 'בטל את המנוי לפורום זה';
+$string['unsubscribeall'] = 'בטל את המנוי לכל הפורומים';
+$string['unsubscribeallconfirm'] = 'אתה מנוי ל $a פורומים כעת.
+האם אתה אכן רוצה לבטל את המנויים מכל הפורומים ולנטרל את מנוי האוטומטי?';
+$string['unsubscribealldone'] = 'כל מנויי הפורומים שלך הוסרו, אתה עשוי לקבל הודעות מפורומים עם מנוי ש\"נכפה\". אם אין ברצונך לקבל כל דוא\"לים משרת זה, גש לעריכת הפרופיל שלך ונטרל את כתובת הדוא\"ל שלך.';
+$string['unsubscribeallempty'] = 'מצטערים, אינך מנוי לאף פורום. אם אינך רוצה לקבל כלל דוא\"לים משרת זה, גש לעריכת הפרופיל שלך ונטרל את כתובת הדוא\"ל שלך.';
 $string['unsubscribed'] = 'המנוי בוטל';
 $string['unsubscribeshort'] = 'בטל מנוי';
 $string['warnafter'] = 'סף פירסומי ההודעות לשליחת אזהרה';
