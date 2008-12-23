@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
+      // error.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
 
 
 $string['TODO'] = 'TODO';
@@ -12,7 +12,6 @@ $string['blockcannotinistantiate'] = 'ブロックオブジェクトのインス
 $string['blockcannotread'] = 'ブロックID = $a のデータを読み込めませんでした。';
 $string['blockdoesnotexist'] = 'このブロックはありません。';
 $string['blocknameconflict'] = 'ネーミングコンフリクト: ブロック $a->name には、既存のブロック $a->conflict と同じタイトルが設定されています!';
-$string['cannoffindgradeitem'] = '評定項目が見つかりません';
 $string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!';
 $string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。';
 $string['cannotaddcoursemodule'] = '新しいコースモジュールを追加できませんでした。';
@@ -64,6 +63,7 @@ $string['cannotfindcategory'] = 'データベースからID「 $a 」でカテ�
 $string['cannotfindcomponent'] = 'コンポーネントを見つけることができません。';
 $string['cannotfindcontext'] = 'コンテクストを見つけることができませんでした。';
 $string['cannotfinddocs'] = '言語docsファイル「 $a 」を見つけることができません。';
+$string['cannotfindgradeitem'] = 'grade_itemが見つかりません';
 $string['cannotfindgroup'] = 'グループを見つけることができません。';
 $string['cannotfindhelp'] = '言語helpファイル「 $a 」を見つけることができません。';
 $string['cannotfindinfo'] = '次の情報が見つかりません: 「 $a 」';
