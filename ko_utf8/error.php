@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
+      // error.php - created with Moodle 2.0 dev (Build: 20081224) (2008121701)
 
 
 $string['TODO'] = '실행목록';
@@ -12,7 +12,6 @@ $string['blockcannotinistantiate'] = '블록 객체의 초기화 문제';
 $string['blockcannotread'] = '블록ID $a 에 대한 자료를 읽을 수 없음';
 $string['blockdoesnotexist'] = '블록이 존재하지 않음';
 $string['blocknameconflict'] = '명칭 중복: $a->name 블록은 기존의 $a->conflict 블록과 동일한 명칭을 지님!';
-$string['cannoffindgradeitem'] = '채점항목을 찾을 수 없음';
 $string['cannotaddblock'] = '$a 블록을 목록에 추가할 수 없음!';
 $string['cannotaddcmtosection'] = '그 영역에 새 강좌 모듈을 추가할 수 없음';
 $string['cannotaddcoursemodule'] = '새 강좌 모듈을 추가할 수 없음';
@@ -64,6 +63,7 @@ $string['cannotfindcategory'] = '데이테베이스에서 ID - $a 로 범주 자
 $string['cannotfindcomponent'] = '구성요소를 찾을 수 없음';
 $string['cannotfindcontext'] = '영역을 찾을 수 없음';
 $string['cannotfinddocs'] = '\"$a\" 언어팩의 문서 파일을 찾을 수 없음';
+$string['cannotfindgradeitem'] = '점수항목을 찾을 수 없음';
 $string['cannotfindgroup'] = '모둠을 찾을 수 없음';
 $string['cannotfindhelp'] = '\"$a\" 언어팩의 도움말 파일을 찾을 수 없음';
 $string['cannotfindinfo'] = '\"$a\"에 대한 정보를 찾을 수 없음';
@@ -471,6 +471,7 @@ $string['wrongzipfilename'] = '잘못된 ZIP 파일명';
 $string['xmldberror'] = 'XMLDB 오류!';
 $string['youcannotdeletecategory'] = '내용을 옮기거나 삭제할 수 있는 권한이 없기 때문에 \'$a\' 범주를 삭제할 수 없습니다.';
 $string['younotteacher'] = '교수자가 아닙니다!';
+$string['cannoffindgradeitem'] = '채점항목을 찾을 수 없음'; // ORPHANED
 $string['cannofindgradeitem'] = '채점 항목이 없음'; // ORPHANED
 $string['errortoomanylogins'] = '오류-로그인 과다'; // ORPHANED
 $string['invalidseeky'] = 'sesskey가 틀렸기 때문에 서식이 접수되지 않음!'; // ORPHANED

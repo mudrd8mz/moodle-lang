@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20080725) (2008072403)
+      // blog.php - created with Moodle 2.0 dev (Build: 20081224) (2008121701)
 
 
 $string['addnewentry'] = '새 게시물 추가';
@@ -23,6 +23,7 @@ $string['courseblogs'] = '강좌를 공유한 사람에게만 블로그가 보�
 $string['deleteotagswarn'] = '정말로 이 모든 태그를 블로그와 시스템에서 삭제하겠습니까?';
 $string['deleteposterror'] = '게시물 삭제 중 오류 발생';
 $string['disableblogs'] = '블로그 시스템 비 활성화';
+$string['donothaveblog'] = '블로그를 개설하지 않았습니다.';
 $string['emptybody'] = '블로그 게시 내용은 비어있을 수 없음';
 $string['emptytitle'] = '블로그의 제목은 비어있을 수 없음';
 $string['entrybody'] = '블로그 게시물 내용';
