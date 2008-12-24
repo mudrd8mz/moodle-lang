@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // quiz_responses.php - created with Moodle 1.7 beta (2006101000)
+      // quiz_responses.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['pagesize'] = 'Tentativi mostrati per pagina:';
-$string['reportresponses'] = 'Repliche dettagliate';
-$string['responses'] = 'Repliche dettagliate';
+$string['reportresponses'] = 'Risposte dettagliate';
+$string['responses'] = 'Risposte dettagliate';
+$string['responsesdownload'] = 'Download risposte';
 $string['responsesoptions'] = 'Opzioni repliche';
-$string['responsestitle'] = 'Repliche dettagliate';
+$string['responsesreport'] = 'Rapporto risposte';
+$string['responsestitle'] = 'Risposte dettagliate';
 
 ?>

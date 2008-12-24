@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
+      // question.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
 
 
 $string['adminreport'] = 'Rapporto su possibili problemi nel tuo database di domande.';
@@ -10,6 +10,8 @@ $string['categorycurrentuse'] = 'Usa questa categoria';
 $string['categorydoesnotexist'] = 'Questa categoria non esiste';
 $string['categorymoveto'] = 'Salva nella Categoria';
 $string['changepublishstatuscat'] = '<a href=\"$a->caturl\">La categoria \"$a->name\"</a> nel corso \"$a->coursename\" avrà il suo stato di condivisione cambiato da <strong>$a->changefrom a $a->changeto</strong>.';
+$string['clicktoflag'] = 'Clicca per marcare questa domanda';
+$string['clicktounflag'] = 'Clicca per smarcare questa domanda';
 $string['copy'] = 'Copia da $a e cambia i link.';
 $string['created'] = 'Creazione';
 $string['createdmodifiedheader'] = 'Creazione/Ultimo salvataggio';
