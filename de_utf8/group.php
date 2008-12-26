@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 + (Build: 20080315) (2007101509)
+      // group.php - created with Moodle 2.0 dev (Build: 20081110) (2008110603)
 
 
 $string['addgroupstogrouping'] = 'Gruppe zur Gruppierung hinzufügen';
@@ -29,6 +29,7 @@ $string['deleteallgroups'] = 'Alle Gruppen löschen';
 $string['deletegroupconfirm'] = 'Sind Sie sicher, dass Sie die Gruppe \'$a\' löschen möchten?';
 $string['deletegrouping'] = 'Gruppierung löschen';
 $string['deletegroupingconfirm'] = 'Sind Sie sicher, dass Sie die Gruppierung \'$a\' löschen möchten? (Die Gruppen innerhalb der Gruppierung werden nicht gelöscht.)';
+$string['deletegroupsconfirm'] = 'Sind Sie sicher, dass Sie die folgenden Gruppen löschen möchten?';
 $string['deleteselectedgroup'] = 'Markierte Gruppe löschen';
 $string['editgroupingsettings'] = 'Gruppierungseinstellungen bearbeiten';
 $string['editgroupsettings'] = 'Gruppeneinstellungen bearbeiten';
@@ -37,6 +38,8 @@ $string['erroraddremoveuser'] = 'Fehler beim Hinzufügen/Entfernen von $a in der
 $string['erroreditgroup'] = 'Fehler beim Bearbeiten der Gruppe $a';
 $string['erroreditgrouping'] = 'Fehler beim Bearbeiten der Gruppierung $a';
 $string['errorinvalidgroup'] = 'Fehler: Ungültige Gruppe $a';
+$string['errorselectone'] = 'Bitte wählen Sie eine einzelne Gruppe, bevor Sie diese Option wählen.';
+$string['errorselectsome'] = 'Bitte wählen Sie eine oder mehrere Gruppen, bevor Sie diese Option wählen.';
 $string['evenallocation'] = 'Anmerkung: Um die Verteilung der Gruppen gleichmässig zu erteilen, kann die Zahl der Mitglieder je Gruppe von der angegeben Zahl abweichen.';
 $string['existingmembers'] = 'Vorhandene Mitglieder: $a';
 $string['filtergroups'] = 'Gruppen filtern nach:';
@@ -96,6 +99,7 @@ $string['numgroups'] = 'Anzahl von Gruppen';
 $string['nummembers'] = 'Mitgliedern pro Gruppe';
 $string['overview'] = 'Überblick';
 $string['potentialmembers'] = 'Mögliche Mitglieder: $a';
+$string['potentialmembs'] = 'Mögliche Mitglieder';
 $string['printerfriendly'] = 'Druckansicht';
 $string['random'] = 'zufällig';
 $string['removegroupfromselectedgrouping'] = 'Gruppe aus der Gruppierung entfernen';

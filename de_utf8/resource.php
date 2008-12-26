@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // resource.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -12,6 +12,7 @@ $string['browserepository'] = 'Repository durchsuchen';
 $string['cannotupdate'] = 'Arbeitsmaterial kann nicht aktualisiert werden';
 $string['choose'] = 'Auswählen';
 $string['chooseafile'] = 'Datei wählen oder neu hochladen';
+$string['chooseaparameter'] = 'Parameter auswählen...';
 $string['chooseparameter'] = 'Parameter auswählen';
 $string['clicktoopen'] = 'Klicken Sie auf diesen Link, um das Dokument zur öffnen.';
 $string['configallowlocalfiles'] = 'Beim Erstellen neuer Arbeitsmaterialien können  Verlinkungen zu lokalen Dateisystemen, Festplatten oder CD-Laufwerken angelegt werden. Das ist sinnvoll, wenn in einem Schulungsraum alle Nutzer/innen Zugriff auf gemeinsame Netzwerkverzeichnisse oder CD-Laufwerke haben. <b>Diese Funktion wird nur von wenigen älteren Browsern unterstützt.</b> Evtl. müssen Sie dafür aber Sicherheitseinstellungen des Browsers anpassen.';

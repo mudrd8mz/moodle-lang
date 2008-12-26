@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // access.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['access'] = 'Barrierefreiheit';
@@ -9,6 +9,7 @@ $string['accessstatement'] = 'Aussagen zur Barrierefreiheit';
 $string['activitynext'] = 'Nächste Aktivität';
 $string['activityprev'] = 'Vorherige Aktivität';
 $string['breadcrumb'] = 'Navigationspfad';
+$string['cannotdeleterolenoadmin'] = 'Sie können diese Rolle nicht löschen, da keiner anderen Rolle Administrationsrechte zugewiesen sind.';
 $string['currenttopic'] = 'Dieses Thema';
 $string['currentweek'] = 'Diese Woche';
 $string['hideblocka'] = 'Block $a verbergen';

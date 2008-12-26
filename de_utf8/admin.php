@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -132,6 +132,7 @@ $string['configenabletrusttext'] = 'Normalerweise bereinigt Moodle grundsätzlic
 $string['configenrolmentplugins'] = 'Wählen Sie die Kurs-Anmeldeverfahren, die Sie verwenden wollen. Achten Sie darauf, die Einstellungen sorgfältig und richtig zu vorzunehmen.<br /><br />Legen Sie fest, welche Anmeldeverfahren (Plugins) verwendet werden sollen. <strong>Ein</strong> Plugin kann als <em>interaktives</em> Plugin vordefiniert werden.<br /><br />Um die interaktive Anmeldung (Einschreibung in den Kurs durch die Teilnehmer/innen) abzuschalten, setzen Sie \"Einschreiben in den Kurs ist möglich\" im jeweiligen Kurs auf \"Nein\".</p>';
 $string['configerrorlevel'] = 'Wählen Sie die Menge der PHP-Warnungen, die angezeigt werden sollen. \'Normal\' ist meist eine gute Wahl.';
 $string['configextendedusernamechars'] = 'Aktivieren Sie diese Einstellung, damit beliebige Zeichen im Nutzernamen zulässig werden (Anmerkung: Dies beeinflusst nicht bereits vorhandene Namen). In der Grundeinstellung (\"Nein\") sind nur alphanumerische Zeichen erlaubt. Falls Sie \'Ja\' auswählen, könnten bestimmte Sonderzeichen (z.B. deutsche Umlaute) Probleme verursachen!';
+$string['configextrauserselectorfields'] = 'Bei der Nutzerauswahl, z.B. bei einer Rollen- oder Gruppenzuweisung, werden diese Felder in der Nutzerliste durchsuchbar angezeigt. Vom Sicherheitsaspekt her ist die Auswahl des Nutzernamens an dieser Stelle eine schlechte Idee.';
 $string['configfilterall'] = 'Filter über alle Begriffe (inkl. aller Überschriften, Titel, Navigationselemente usw.). Dies kann im Zusammenhang mit dem Filter \"Mehrsprachiger Inhalt\" nützlich sein. Es belastet den Server jedoch stark und kann zu einer Reduzierung der Arbeitsgeschwindigkeit führen.';
 $string['configfiltermatchoneperpage'] = 'Der Filter für die automatische Verlinkung soll nur das erste Vorkommen eines Begriffes auf einer Seite verlinken. Wiederholt auf einer Seite auftretende Begriffe werden nur einmal verlinkt.';
 $string['configfiltermatchonepertext'] = 'Der Filter für die automatische Verlinkung soll nur das erste Vorkommen eines Begriffes in jedem Abschnitt auf einer Seite (z.B. Block) verlinken. Wiederholt auftretende Begriffe werden nur einmal verlinkt. Diese Einstellung wird ignoriert, wenn die Einstellung \'configfiltermatchoneperpage\' aktiv ist.';
@@ -197,6 +198,7 @@ $string['configpasswordpolicy'] = 'Wenn diese Einstellung aktiviert ist, dann wi
 $string['configpathtoclam'] = 'Pfad für ClamAV, meistens /usr/bin/clamscan oder user/bin/clamdscan. Die Einstellung ist erforderlich, damit ClamAV starten kann.';
 $string['configpathtodu'] = 'Pfad für du, meistens /usr/bin/du. Mit dieser Option werden Seiten mit Verzeichnissen und vielen Dateien schneller angezeigt.';
 $string['configperfdebug'] = 'Nach der Aktivierung der Option wird eine Performance-Information in der Fußzeile des Standardthemes angezeigt.';
+$string['configprofilesforenrolledusersonly'] = 'Um eine unerwünschte Nutzung durch Spammer zu vermeiden, sind die Profilbeschreibungen von Nutzer/innen ohne vorhandene Kurseinschreibung gesperrt. Neue Nutzer/innen müssen sich in mindestens einem Kurs eingeschrieben haben, um eine Profilbeschreibung hinzufügen zu können.';
 $string['configprotectusernames'] = 'Standardmäßig werden keine Hinweise für vergessene Benutzernamen und Passwörter angezeigt.';
 $string['configproxybypass'] = 'Komma getrennte Liste von Servernamen oder IP-Adressen (auch Teile davon), die ohne den Proxy geladen werden (z.B. 192.168., .meineseite.de)';
 $string['configproxyhost'] = 'Wenn dieser <b>Moodle-Server</b> einen Proxy für den Internetzugriff (z.B. eine Firewall) benötigt, dann tragen Sie hier den Namen und den Port des Proxys ein. Andernfalls lassen Sie das Feld leer.';
@@ -387,6 +389,7 @@ $string['exceptions'] = 'Ausnahmen';
 $string['experimental'] = 'Experimentell';
 $string['experimentalsettings'] = 'Experimentelle Einstellungen';
 $string['extendedusernamechars'] = 'Sonderzeichen in Anmeldenamen';
+$string['extrauserselectorfields'] = 'Zur Nutzerauswahl suchen und anzeigen';
 $string['filecreated'] = 'Neue Datei angelegt';
 $string['filestoredin'] = 'Verzeichnis zum Speichern der Sprachdateien :';
 $string['filestoredinhelp'] = 'Wo soll die Datei gespeichert werden';
@@ -404,6 +407,7 @@ $string['frontpage'] = 'Startseite';
 $string['frontpagebackup'] = 'Sicherung';
 $string['frontpagedefaultrole'] = 'Standardrolle für Startseite';
 $string['frontpageloggedin'] = 'Startseite nach der Anmeldung';
+$string['frontpageoverrides'] = 'Rechteänderungen für Startseite';
 $string['frontpagequestions'] = 'Testfragen';
 $string['frontpagerestore'] = 'Wiederherstellung';
 $string['frontpageroles'] = 'Rollen für Startseite';
@@ -464,6 +468,7 @@ $string['lang16notify'] = 'Moodle 1.6 und alle späteren Versionen erlauben die 
 $string['langcache'] = 'Sprachmenü speichern';
 $string['langedit'] = 'Texte bearbeiten';
 $string['langimport'] = 'Verwaltung der Sprachpakete';
+$string['langimportdisabled'] = 'Der Import von Sprachpaketen wurde deaktiviert. Sie müssen die Sprachpakete manuell über FTP aktualisieren.';
 $string['langimportsuccess'] = 'Das Sprachpaket wurde erfolgreich aktualisiert.';
 $string['langlist'] = 'Einträge im Sprachmenü';
 $string['langlocalpackage'] = 'Lokale Anpassungen';
@@ -514,6 +519,7 @@ $string['mediapluginrpm'] = '.rpm Filter aktivieren';
 $string['mediapluginswf'] = '.swf  Filter aktivieren';
 $string['mediapluginswfnote'] = 'Sicherheitswarnung: Standardmäßig dürfen normale Nutzer/innen keine SWF-Flashdateien einbetten.';
 $string['mediapluginwmv'] = '.wmv Filter aktivieren';
+$string['mediapluginyoutube'] = 'YouTube Link-Filter aktivieren';
 $string['memcachedhosts'] = 'Memcached Hosts';
 $string['memcachedpconn'] = 'Memcached verwendet persistente Verbindungen';
 $string['messaging'] = 'Message-System freischalten';
@@ -627,6 +633,7 @@ $string['profilemenutoofewoptions'] = 'Sie müssen mindestens 2 Optionen angeben
 $string['profilename'] = 'Name';
 $string['profilenofieldsdefined'] = 'Es wurden keine Felder definiert';
 $string['profilerequired'] = 'Ist dieses Feld notwendig?';
+$string['profilesforenrolledusersonly'] = 'Profilzugriff nur für eingetragene Nutzer/innen';
 $string['profileshortname'] = 'Kurzname (muss eindeutig sein)';
 $string['profileshortnamenotunique'] = 'Dieser Kurzname wird bereits benutzt';
 $string['profilesignup'] = 'Auf der Anmeldeseite zeigen?';
@@ -661,6 +668,11 @@ $string['recaptchapublickey'] = 'ReCaptcha: Public Key';
 $string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target=\"_blank\" href=\"$a\">Versionsinformation</a>';
 $string['remotelangnotavailable'] = 'Moodle kann keine Verbindung zu download.moodle.org herstellen, um die Sprachpakete automatisch zu installieren. Stattdessen laden Sie bitte die  ausgewählten Sprachpakete herunter, kopieren sie in das Verzeichnis $a und entpacken sie dort manuell.';
 $string['renameerrors'] = 'Fehler beim Umbenennen';
+$string['requiredentrieschanged'] = '<strong>WICHTIG - UNBEDINGT LESEN<br />Die Warnung wird ausschließlich bei dieser Aktualisierung gezeigt!</strong><br />
+Infolge einer Fehlerkorrektur wird sich das Verhalten von Datenbankaktivitäten ändern, die die Einstellungen \'Required entries\' und \'Required entries before viewing settings\' nutzen.
+
+Weitere Erklärungen entnehmen Sie bitte den  <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
+<br/><br/>Diese Änderung betrifft die folgenden Daten in Ihrem System . Bitte sichern Sie die nachfolgende Liste und prüfen Sie nach der Aktualisierung, ob alle Aktivitäten noch wie beabsichtigt funktionieren.<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Erforderlich. Geben Sie hier die Vorlagestruktur ein (%%l = Nachname, %%f = Vorname, %%u = Nutzername). In der Hilfedatei finden Sie weitere Details und Beispiele.';
 $string['requires'] = 'Erfordernisse';
 $string['restrictbydefault'] = 'Module standardmäßig einschränken';
@@ -668,6 +680,8 @@ $string['restrictmodulesfor'] = 'Module einschränken für';
 $string['reverseproxy'] = 'Reverse Proxy';
 $string['riskconfig'] = 'Nutzer/innen könnten Einstellungen für die Website und das Erscheinungsbild verändern.';
 $string['riskconfigshort'] = 'Gefahr für die Konfiguration';
+$string['riskdataloss'] = 'Nutzer/innen könnten große Mengen von Inhalten und Informationen zerstören';
+$string['riskdatalossshort'] = 'Risiko des Datenverlusts';
 $string['riskmanagetrust'] = 'Nutzer/innen könnten die Vertrauenseinstellungen anderer Nutzer/innen verändern.';
 $string['riskmanagetrustshort'] = 'Vertrauenseinstellungen verwalten';
 $string['riskpersonal'] = 'Nutzer/innen könnten Zugang zu persönlichen Informationen anderer Nutzer/innen erhalten.';

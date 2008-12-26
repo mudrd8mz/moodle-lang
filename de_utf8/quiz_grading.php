@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // quiz_grading.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
+$string['cannotloadquestioninfo'] = 'Die Fragetyp spezifischen Informationen konnten nicht geladen werden.';
 $string['essayonly'] = 'Die manuelle Bewertung steht nur für Freitext-Fragen zur Verfügung.';
 $string['gradeall'] = 'Alle Versuche ($a) bewerten';
 $string['graded'] = '(bewertet)';
@@ -15,6 +16,8 @@ $string['gradingnotallowed'] = 'Sie sind nicht berechtigt, Antworten in diesem T
 $string['gradingreport'] = 'Freitext-Bewertung-Bericht';
 $string['gradingungraded'] = '$a unbewertete Versuche';
 $string['gradinguser'] = 'Versuche von $a';
+$string['invalidattemptid'] = 'Es existieren keine passenden Versuchs-IDs';
+$string['invalidquestionid'] = 'Bewertbare Fragen mit id $a wurden nicht gefunden.';
 $string['questiontitle'] = 'Frage $a->number : \"$a->name\" ({$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts Versuche {$a->openspan}bewertet{$a->closespan}).';
 
 ?>

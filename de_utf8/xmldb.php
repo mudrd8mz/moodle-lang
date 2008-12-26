@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['actual'] = 'Aktuell';
@@ -12,9 +12,11 @@ $string['change'] = 'Ändern';
 $string['charincorrectlength'] = 'Falsche Feldlänge (char)';
 $string['check_bigints'] = 'Ungültige DB-Werten suchen';
 $string['check_defaults'] = 'Inkonsistente Defaultwerte suchen';
+$string['check_foreign_keys'] = 'Suche nach Zerstörungen an Fremdschlüsseln';
 $string['check_indexes'] = 'Fehlende Datenbank-Indizes suchen';
 $string['checkbigints'] = 'Zahlen prüfen';
 $string['checkdefaults'] = 'Defaults prüfen';
+$string['checkforeignkeys'] = 'Fremdschlüssel prüfen';
 $string['checkindexes'] = 'Indizes prüfen';
 $string['completelogbelow'] = '(das vollständige Suchprotokoll folgt)';
 $string['confirmcheckbigints'] = 'Diese Funktion sucht nach <a href=\"http://tracker.moodle.org/browse/MDL-11038\"> möglicherweise ungültigen Zahlenwerten</a> in Ihrem Moodle-Server und erzeugt automatisch die notwendigen SQL-Anweisungen, um die Werte in der Datenbank zu korrigieren (die SQL-Anweisungen werden erzeugt, aber nicht ausgeführt!). <br /><br />
@@ -25,6 +27,9 @@ $string['confirmcheckdefaults'] = 'Diese Funktion sucht nach inkonsistenten Defa
 Wenn die Prüfung ausgeführt und das SQL Statement erstellt wurde können Sie mit dieses mit dem Werkzeug Ihrer Wahl in der Datenbank ausführen. Vorher unbedingt ein Backup der Datenbank erstellen. <br/><br/>
 Es ist sehr wichtig zuvor die letzte (+Version) des Moodle Releases (1.8;1.9;2.x...) zu installieren, um nicht falsch integer-Werte zu verwenden. <br/><br/>
 Diese Prüfung verändert keine Einstellungen und Inhalte in Ihrer Datenbank. Es werden nur bestehende Einstellungen gelesen. Die Prüfung kann also jederzeit ausgeführt werden.';
+$string['confirmcheckforeignkeys'] = 'Diese Funktion sucht nach möglicherweise zerstörten Fremdschlüsseln, die in der install.xml definiert wurden. (Moodle generiert zur Zeit keine Fremdschlüssel in der Datenbank, da ungültige Daten verfügbar sein könnten.)<br /><br />
+Es wird dringend empfohlen, die neueste verfügbare (+Version) zu Ihrem Moodle-Release (1.8, 1.9, 2.x ...) zu installieren, bevor Sie die Suche nach fehlenden Indizes starten.<br /><br />
+Die Funktion führt keine SQL-Anweisungen auf Ihrer Datenbank aus (außer dass sie lesend zugreift), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
 $string['confirmcheckindexes'] = 'Diese Funktion sucht nach möglicherweise fehlenden Indizes in Ihrem Moodle-Server, wobei die nötigen SQL-Anweisungen für ein Update automatisch erzeugt (aber nicht ausgeführt) werden. Nachdem die Anweisungen erzeugt sind, können Sie sie kopieren und in Ihrem bevorzugten SQL-Zugang ausführen.<br /><br />
 Es wird dringend empfohlen, die neueste verfügbare +Version zu Ihrem Moodle-Release (1.8, 1.9, 2.x ...) zu installieren, bevor Sie die Suche nach fehlenden Indizes starten.<br /><br />
 Die Funktion führt keine SQL-Anweisungen auf Ihrer Datenbank aus (außer dass sie lesend zugreift), so dass die Funktion zu jedem Zeitpunkt sicher ausgeführt werden kann.';
@@ -47,6 +52,7 @@ $string['delete_sentence'] = 'Satz löschen';
 $string['delete_statement'] = 'Anweisung löschen';
 $string['delete_table'] = 'Tabelle löschen';
 $string['delete_xml_file'] = 'XML-Datei löschen';
+$string['doc'] = 'Doc';
 $string['down'] = 'Nach unten';
 $string['duplicate'] = 'Kopieren';
 $string['duplicatefieldname'] = 'Es existiert bereits ein anderes Feld mit diesem Namen';
@@ -66,8 +72,10 @@ $string['fieldnameempty'] = 'Feldname ist leer';
 $string['fields'] = 'Felder';
 $string['fieldsusedinkey'] = 'Das Feld wird als Key genutzt.';
 $string['filenotwriteable'] = 'Datei ist schreibgeschützt';
+$string['fkviolationdetails'] = 'Fremdschlüssel $a->keyname in der Tabelle $a->tablename ist zerstört in $a->numviolations von $a->numrows Zeilen.';
 $string['floatincorrectdecimals'] = 'Falsche Anzahl von Nachkommazahlen (float)';
 $string['floatincorrectlength'] = 'Falsche Feldlänge (float)';
+$string['generate_documentation'] = 'Dokumentation';
 $string['gotolastused'] = 'Zur zuletzt genutzten Datei';
 $string['incorrectfieldname'] = 'Falscher Name';
 $string['index'] = 'Index';
@@ -96,6 +104,7 @@ $string['newstatement'] = 'Neue Anweisung';
 $string['newtable'] = 'Neue Tabelle';
 $string['newtablefrommysql'] = 'Neue Tabelle aus MySQL';
 $string['nomissingindexesfound'] = 'Es wurden keine fehlenden Indizes gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
+$string['noviolatedforeignkeysfound'] = 'Keine zerstörten Fremdschlüssel gefunden.';
 $string['nowrongdefaultsfound'] = 'Es wurden keine inkonsistenten Defaultwerte gefunden. die Datenbank benötigt keine weiter Bearbeitung.';
 $string['nowrongintsfound'] = 'Es wurden keine ungültigen Zahlenwerte (integer) gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
 $string['numberincorrectdecimals'] = 'Falsche Anzahl von Stellen (number)';
@@ -132,6 +141,9 @@ $string['viewedited'] = 'Bearbeitete anzeigen';
 $string['vieworiginal'] = 'Original anzeigen';
 $string['viewphpcode'] = 'PHP-Code anzeigen';
 $string['viewsqlcode'] = 'SQL-Code anzeigen';
+$string['violatedforeignkeys'] = 'Zerstörte Fremdschlüssel';
+$string['violatedforeignkeysfound'] = 'Zerstörte Fremdschlüssel gefunden';
+$string['violations'] = 'Zerstörungen';
 $string['wrong'] = 'Falsch';
 $string['wrongdefaults'] = 'Falsche Defaults gefunden';
 $string['wrongints'] = 'Falsche Zahlen gefunden';

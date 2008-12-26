@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['allowdeleting'] = 'Löschen erlauben';
@@ -114,7 +114,7 @@ $string['submitedformarking'] = 'Die Lösung der Aufgabe wurde jetzt zur Bewertu
 $string['submitformarking'] = 'Aufgabe zur Bewertung abgeben';
 $string['submitted'] = 'Eingereicht';
 $string['submittedfiles'] = 'Eingereichte Dateien';
-$string['trackdrafts'] = 'Aktiviere \"Benachrichtigt\" Markierung';
+$string['trackdrafts'] = 'Button \"Zur Bewertung freigeben\" aktivieren';
 $string['typeoffline'] = 'Offline - Aktivität';
 $string['typeonline'] = 'Online - Texteingabe';
 $string['typeupload'] = 'Online - mehrere Dateien hochladen';

@@ -1,21 +1,22 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // message.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['addcontact'] = 'Kontakt hinzufügen';
 $string['addsomecontacts'] = 'Verwenden Sie die <a href=\"$a\">Suchoption </a> oben, um eine Mitteilung an jemanden zu versenden oder einen Eintrag im Verzeichnis zu erstellen.';
 $string['addsomecontactsincoming'] = 'Diese Mitteilungen stammen von Personen, die nicht in Ihrer Kontaktliste aufgeführt sind. Um sie in Ihre Kontaktliste einzufügen, klicken Sie auf den Button \"Kontakt hinzufügen\" neben dem Namen.';
 $string['ago'] = '$a beendet';
+$string['ajax_gui'] = 'AJAX Chat';
 $string['allmine'] = 'Alle Mitteilungen an mich oder von mir';
 $string['allstudents'] = 'Alle Mitteilungen der Teilnehmer/innen untereinander';
 $string['allusers'] = 'Alle Mitteilungen (Teilnehmer/innen und Trainer/innen)';
-$string['backupmessageshelp'] = 'Wenn die Option aktiviert ist, werden die Mitteilungen im Backup eingebunden.';
-$string['beepnewmessage'] = 'Akustisches Signal beim Eingang neuer Nachrichten';
+$string['backupmessageshelp'] = 'Falls diese Option aktiviert ist, werden die Mitteilungen im Backup gespeichert';
+$string['beepnewmessage'] = 'Akustisches Signal bei neuer Nachricht';
 $string['blockcontact'] = 'Kontakt sperren';
 $string['blockedmessages'] = '$a Mitteilung(en) an/von gesperrten Nutzer/innen';
-$string['blocknoncontacts'] = 'Alle Nachrichten von Personen, die nicht in meiner Kontaktliste aufgeführt sind, sollen blockiert werden.';
+$string['blocknoncontacts'] = 'Alle Nachrichten von unbekannten Personen blockieren';
 $string['cannotsavemessageprefs'] = 'Ihre Nutzereinstellungen konnten nicht gespeichert werden';
-$string['contactlistempty'] = 'Ihre Kontaktliste ist zur Zeit noch leer.';
+$string['contactlistempty'] = 'Ihre Kontaktliste ist zur Zeit noch leer';
 $string['contacts'] = 'Kontakte';
 $string['context'] = 'Kontext';
 $string['deletemessagesdays'] = 'Dauer (in Tagen), bis alte Mitteilungen automatisch gelöscht werden';
@@ -23,10 +24,11 @@ $string['disabled'] = 'Bei dieser Website sind die Mitteilungen deaktiviert';
 $string['discussion'] = 'Diskussion';
 $string['editmymessage'] = 'Mitteilungssystem';
 $string['emailmessages'] = 'Mitteilungen per E-Mail versenden, wenn ich offline bin';
-$string['emailtagline'] = 'Diese E-Mail ist eine Kopie der Mitteilungen, die Sie an \"$a\" geschickt haben';
+$string['emailtagline'] = 'Diese E-Mail ist eine Kopie einer Mitteilung, die an Sie als Nutzer/in von \"$a\" geschickt wurde';
 $string['emptysearchstring'] = 'Sie müssen einen Suchbegriff eingeben';
+$string['errorcallingprocessor'] = 'Fehler beim Aufruf des definierten Prozesses';
 $string['formorethan'] = 'Für mehr als';
-$string['guestnoeditmessage'] = 'Gäste dürfen keine Einstellungen für  Mitteilungen ändern';
+$string['guestnoeditmessage'] = 'Gäste dürfen keine Einstellungen ändern';
 $string['guestnoeditmessageother'] = 'Gäste dürfen keine Nutzereinstellungen ändern';
 $string['includeblockedusers'] = 'Gesperrte Nutzer/innen einschließen';
 $string['incomingcontacts'] = 'Eingehende Kontakte ($a)';
@@ -72,7 +74,7 @@ $string['sendmessageto'] = 'Mitteilung an $a senden';
 $string['sendmessagetopopup'] = 'Mitteilung an $a senden - neues Fenster';
 $string['settings'] = 'Einstellungen';
 $string['settingssaved'] = 'Ihre Einstellungen wurden gespeichert';
-$string['showmessagewindow'] = 'Mitteilungsfenster automatisch öffnen, wenn eine neue Mitteilung ankommt (Popup-Fenster dürfen für diese Funktion nicht geblockt werden).';
+$string['showmessagewindow'] = 'Popup-Fenster öffnen, wenn eine neue Mitteilung ankommt';
 $string['strftimedaydatetime'] = '%%A, %%d. %%B %%Y, %%I:%%M %%p';
 $string['timenosee'] = 'Minuten seit ich zuletzt online war';
 $string['timesent'] = 'Sendezeitpunkt';

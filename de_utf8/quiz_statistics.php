@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['allattempts'] = 'Alle Versuche';
@@ -12,27 +12,35 @@ $string['attemptsall'] = 'Alle Versuche';
 $string['attemptsfirst'] = 'Erster Versuch';
 $string['backtoquizreport'] = 'Zurück zur Hauptseite Statistik';
 $string['calculatefrom'] = 'Statistik berechnen aus';
+$string['cic'] = 'Koeffizient interner Konsistenz (für $a)';
 $string['count'] = 'Zählen';
 $string['coursename'] = 'Kursname';
 $string['detailedanalysis'] = 'Mehr Details zu den Antworten dieser Frage';
+$string['discrimination_index'] = 'Unterscheidungs-Index';
+$string['discriminative_efficiency'] = 'unterschiedliche Effizienz';
 $string['downloadeverything'] = 'Bericht herunterladen als';
 $string['duration'] = 'Geöffnet für';
 $string['effective_weight'] = 'Effektive Gewichtung';
 $string['errordeleting'] = 'Fehler beim Löschen von $a Datensätzen.';
 $string['erroritemappearsmorethanoncewithdifferentweight'] = 'Frage ($a) erscheint mehrfach im Test mit unterschiedlichen Gewichtungen. Dies wird bei der Erstellung der Statistik nicht unterstützt und kann zu unzuverlässigen Auswertungen führen.';
-$string['errormedian'] = 'Fehler beim Ermitteln der Durchschnitts';
+$string['errormedian'] = 'Fehler beim Ermitteln des Durchschnitts';
 $string['errorpowerquestions'] = 'Fehler beim Ermitteln von Daten zur Berechnung der Varianz für Fragebewertungen';
 $string['errorpowers'] = 'Fehler beim Ermitteln von Daten zur Berechnung der Varianz für Testbewertungen';
+$string['errorrandom'] = 'Es ist ein Fehler bei den Daten des Unterthemas aufgetreten.';
 $string['errorratio'] = 'Fehlerquotient (für $a)';
 $string['errorstatisticsquestions'] = 'Fehler beim Ermitteln von Daten zur Berechnung der Statistiken für Fragebewertungen';
+$string['facility'] = 'Möglichkeitsindex';
 $string['firstattempts'] = 'Erste Versuche';
 $string['firstattemptsavg'] = 'Durchschnitt bei erstem Versuch';
 $string['firstattemptscount'] = 'Anzahl von ersten Versuchen';
 $string['frequency'] = 'Frequenz';
+$string['intended_weight'] = 'Beabsichtigte Gewichtung';
 $string['kurtosis'] = 'Bewertungsverteilungsgraph (für $a)';
 $string['lastcalculated'] = 'Seit der letzten Berechnung ($a->lastcalculated) gab es $a->count neue Versuche.';
 $string['median'] = 'Median (für $a)';
+$string['negcovar'] = 'Negative Kovarianz der Bewertung mit der Bewertung aller Versuche';
 $string['nostudentsingroup'] = 'In dieser Gruppe sind bisher keine Teilnehmer/innen';
+$string['optiongrade'] = 'Teilweise Wertung';
 $string['position'] = 'Position';
 $string['positions'] = 'Position(en)';
 $string['questioninformation'] = 'Information zur Frage';
@@ -44,12 +52,18 @@ $string['quizinformation'] = 'Test-Information';
 $string['quizname'] = 'Test-Name';
 $string['quizoverallstatistics'] = 'Test Gesamtsatistik';
 $string['quizstructureanalysis'] = 'Test-Strukturanalyse';
+$string['random_guess_score'] = 'Zufällig angenommene Punktezahl';
 $string['recalculatenow'] = 'Jetzt neu berechnen';
 $string['response'] = 'Antwort';
+$string['skewness'] = 'Schiefe der Punkteverteilung (für $a)';
 $string['standarddeviation'] = 'Standardabweichung (für $a)';
+$string['standarddeviationq'] = 'Standardabweichung';
 $string['standarderror'] = 'Standardfehler';
 $string['statistics'] = 'Statistik';
-$string['statisticsreport'] = 'Standardabweichung';
+$string['statistics:componentname'] = 'Teststatistik-Report';
+$string['statistics:view'] = 'Ansehen des Statistik-Reports';
+$string['statisticsreport'] = 'Statistik-Report';
+$string['statisticsreportgraph'] = 'Statistik für Fragenpositionen';
 $string['statsfor'] = 'Statistik (für $a)';
 $string['noofallattempts'] = 'Gesamtzahl von Versuchen'; // ORPHANED
 $string['nooffirstattempts'] = 'Zahl von ersten Versuchen'; // ORPHANED

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // tag.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['addedotag'] = '\"$a\" wurde als offizielles Schlagwort hinzugefügt.';
@@ -45,7 +45,7 @@ $string['seeallblogs'] = 'Alle Blogs zu diesem Schlagwort anzeigen';
 $string['select'] = 'Auswählen';
 $string['tag'] = 'Schlagwort';
 $string['tagdescription'] = 'Beschreibung des Schlagworts';
-$string['tagindex_coursetitle'] = 'Kurse mit den Schlagworten \"$a\"';
+$string['taggedwith'] = 'tagged mit \"$a\"';
 $string['tags'] = 'Schlagworte';
 $string['tagsaredisabled'] = 'Schlagworte sind nicht erlaubt';
 $string['tagtype'] = 'Schlagworttyp';
@@ -58,7 +58,8 @@ $string['timemodified'] = 'Verändert';
 $string['typechanged'] = 'Schlagworttyp geändert';
 $string['updated'] = 'Aktualisiert';
 $string['updatetag'] = 'Aktualisieren';
-$string['userstaggedwith'] = 'Nutzer/innen mit dem Schlagwort \"$a\"';
 $string['withselectedtags'] = 'Mit ausgewählten Schlagworten...';
+$string['tagindex_coursetitle'] = 'Kurse mit den Schlagworten \"$a\"'; // ORPHANED
+$string['userstaggedwith'] = 'Nutzer/innen mit dem Schlagwort \"$a\"'; // ORPHANED
 
 ?>

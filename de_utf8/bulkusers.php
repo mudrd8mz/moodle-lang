@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.9 Beta + (2007100903)
+      // bulkusers.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
 $string['addall'] = 'Alle verfügbaren Nutzer/innen hinzufügen';
@@ -11,8 +11,8 @@ $string['available'] = 'Verfügbar';
 $string['confirmmessage'] = 'Möchten Sie wirklich einen Nachricht an alle diese Nutzer/innen senden?<br />$a';
 $string['nofilteredusers'] = 'Keine Nutzer/innen gefunden (0/$a)';
 $string['noselectedusers'] = 'Keine Nutzer/innen ausgewählt';
-$string['removeall'] = 'Alle Nutzer/innen löschen';
-$string['removesel'] = 'Ausgewählte Nutzer/innen löschen';
+$string['removeall'] = 'Alle Nutzer/innen entfernen';
+$string['removesel'] = 'Ausgewählte Nutzer/innen entfernen';
 $string['selected'] = 'Ausgewählt';
 $string['selectedlist'] = 'Liste ausgewählter Nutzer/innen...';
 $string['usersfound'] = 'Gefundene Nutzer/innen: $a.';

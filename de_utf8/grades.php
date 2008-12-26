@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // grades.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['activities'] = 'Aktivitäten';
@@ -46,7 +46,7 @@ $string['averagesdisplaytype'] = 'Spaltendurchschnittsanzeige';
 $string['backupwithoutgradebook'] = 'Die Sicherung enthält keine Konfiguration der Bewertungen';
 $string['badgrade'] = 'Ungültige Bewertung';
 $string['baduser'] = 'Ungültige/r Teilnehmer/in';
-$string['bonuspoints'] = 'Bonuspunkte';
+$string['bonuspoints'] = 'Extrapunkte';
 $string['bulkcheckboxes'] = 'Checkboxes';
 $string['calculation'] = 'Berechnung';
 $string['calculationadd'] = 'Berechnung hinzufügen';
@@ -155,6 +155,11 @@ $string['errornocalculationallowed'] = 'Für diesen Wert sind keine Berechnungen
 $string['errornocategorisedid'] = 'Keine nicht kategorisierte id!';
 $string['errornocourse'] = 'Keine Kursinformation!';
 $string['errorreprintheadersnonnumeric'] = 'Nicht-numerischer Wert für Kopfzeile!';
+$string['errorupdatinggradecategoryaggregateonlygraded'] = 'Es ist ein Fehler beim Aktualisieren der Einstellungen \"Zusammenfassung nur bewerteter Elemente\" in der Bewertungskategorie mit der ID $a->id aufgetreten.';
+$string['errorupdatinggradecategoryaggregateoutcomes'] = 'Es ist ein Fehler beim Aktualisieren der Einstellungen \"Zusammenfassen der Ergebnisse\" in der Bewertungskategorie mit der ID $a->id aufgetreten.';
+$string['errorupdatinggradecategoryaggregatesubcats'] = 'Es ist ein Fehler beim Aktualisieren der Einstellungen \"Zusammenfassung der Unter-Kategorien\" in der Bewertungskategorie mit der ID $a->id aufgetreten.';
+$string['errorupdatinggradecategoryaggregation'] = 'Es ist ein Fehler beim Aktualisieren des Typs der Zusammenfassung in der Bewertungskategorie mit der ID $a->id aufgetreten.';
+$string['errorupdatinggradeitemaggregationcoef'] = 'Es ist ein Fehler beim Aktualisieren des Summenkoeffizients (Gewichtung oder Zusatzpunkte) des Bewertungselements mit der ID $a->id aufgetreten.';
 $string['exceptions'] = 'Ausnahmen';
 $string['excluded'] = 'Unberücksichtigt';
 $string['excludedhelp'] = 'Wenn \'unberücksichtigt\' aktiviert wurde, wird die Bewertung bei jeder Notenberechnung ausgelassen.';
@@ -347,7 +352,9 @@ $string['nonnumericweight'] = 'Nicht-numerischen Wert erhalten für';
 $string['nonunlockableverbose'] = 'Die Bewertung kann nicht entsperrt werden bevor $a->itemname entsperrt wurde.';
 $string['nonweightedpct'] = 'nicht gewichtet %%';
 $string['nooutcome'] = 'Kein Lernziel';
+$string['nooutcomes'] = 'Einzelne Lernziel-Aspekte müssen zu einem Lernziel eines Kurses verlinkt werden, aber in diesem Kurs gibt es keine Lernziele. Möchten Sie eines hinzufügen?';
 $string['nopublish'] = 'Nicht veröffentlichen';
+$string['noscales'] = 'Lernziele müssen zu einer Bewertungsskala eines Kurses oder einer globalen Skala zu gewiesen werden, aber es existiert keine. Möchten Sie eine hinzufügen?';
 $string['noselectedcategories'] = 'Keine Kategorie wurde ausgewählt.';
 $string['noselecteditems'] = 'keine Werte ausgewählt.';
 $string['notteachererror'] = 'Diese Funktionen können nur Trainer/innen nutzen';
@@ -357,6 +364,7 @@ $string['onascaleof'] = 'auf einer Skala von $a->grademin bis $a->grademax';
 $string['operations'] = 'Vorgänge';
 $string['options'] = 'Einstellungen';
 $string['outcome'] = 'Lernziel';
+$string['outcomeassigntocourse'] = 'Ein anderes Lernziel diesem Kurs zuweisen';
 $string['outcomecategory'] = 'Lernziele in der Kategorie erstellen';
 $string['outcomecategorynew'] = 'Neue Kategorie';
 $string['outcomeconfirmdelete'] = 'Sind Sie sicher, dass Lernziel \"$a\" gelöscht werden soll?';
@@ -515,6 +523,9 @@ $string['weightedascending'] = 'Sortierung nach %% gewichtet, aufsteigend';
 $string['weighteddescending'] = 'Sortierung nach %% gewichtet, absteigend';
 $string['weightedpct'] = 'Gewichtung in %%';
 $string['weightedpctcontribution'] = 'Gewichtung in %% der Zugaben';
+$string['weightorextracredit'] = 'Gewichtung oder Zusatzspunkte';
+$string['weights'] = 'Gewichtungen';
+$string['weightsedit'] = 'Ändere Gewichtungen oder Zusatzpunkte';
 $string['writinggradebookinfo'] = 'Einstellungen festhalten';
 $string['xml'] = 'XML';
 $string['yes'] = 'Ja';

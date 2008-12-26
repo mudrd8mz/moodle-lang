@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -101,8 +101,8 @@ $string['entrydeleted'] = 'Eintrag gelöscht';
 $string['entryexported'] = 'Der Eintrag wurde erfolgreich exportiert.';
 $string['entryishidden'] = '( Dieser Eintrag ist derzeit nicht sichtbar)';
 $string['entryleveldefaultsettings'] = 'Grundeinstellungen für Einträge';
-$string['entrysaved'] = 'Der Eintrag wurde gespeichert.';
-$string['entryupdated'] = 'Der Eintrag wurde geändert.';
+$string['entrysaved'] = 'Der Eintrag wurde gespeichert';
+$string['entryupdated'] = 'Der Eintrag wurde geändert';
 $string['entryusedynalink'] = 'Eintrag automatisch verlinken';
 $string['errcannoteditothers'] = 'Sie dürfen keine fremden Einträge bearbeiten.';
 $string['errconceptalreadyexists'] = 'Diesen Begriff gibt es bereits. In diesem Glossar sind keine Doppeleinträge möglich.';
@@ -116,7 +116,8 @@ $string['explainexport'] = 'Klicken Sie auf den untenstehenden Button, um das Gl
 $string['explainimport'] = 'Wählen Sie die zu importierende Datei aus und legen Sie die Kriterien des weiteren Vorgehens fest.';
 $string['explainspecial'] = 'Zeigt alle Einträge, die nicht mit einem Buchstaben beginnen';
 $string['exportedentry'] = 'Exportierte Einträge';
-$string['exportentries'] = 'Einträge exportieren';
+$string['exportentries'] = 'Glossar exportieren';
+$string['exportentriestoxml'] = 'Glossar als XML-Datei exportieren';
 $string['exportfile'] = 'Glossar in Datei exportieren';
 $string['exportglossary'] = 'Glossar exportieren';
 $string['exporttomainglossary'] = 'Ins Hauptglossar exportieren';
@@ -147,6 +148,7 @@ $string['importedentries'] = 'Importierte Einträge';
 $string['importentries'] = 'Einträge importieren';
 $string['importentriesfromxml'] = 'Einträge aus XML-Datei importieren';
 $string['includegroupbreaks'] = 'Gruppentrennung einbeziehen';
+$string['invalidglossaryformat'] = 'Unzulässiges Glossar-Format';
 $string['invalidid'] = 'Falsche Glossar-ID';
 $string['isglobal'] = 'Globales Glossar';
 $string['letter'] = 'Buchstabe';
@@ -180,6 +182,7 @@ $string['rating'] = 'Bewertung';
 $string['ratingeveryone'] = 'Jeder kann Einträge bewerten';
 $string['ratingno'] = 'Keine Bewertungen';
 $string['ratingonlyteachers'] = 'Nur $a kann Einträge bewerten';
+$string['ratingonlywithpermissions'] = 'Nur Berechtigte dürfen Einträge bewerten';
 $string['ratings'] = 'Bewertungen';
 $string['ratingssaved'] = 'Bewertungen wurden gesichert';
 $string['ratingsuse'] = 'Bewertungen verwenden';

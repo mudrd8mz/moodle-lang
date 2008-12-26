@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // question.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
@@ -9,6 +9,7 @@ $string['byandon'] = 'von <em>$a->user</em> - <em>$a->time</em>';
 $string['cannotcopybackup'] = 'Die Sicherungsdatei konnte nicht kopiert werden';
 $string['cannotcreate'] = 'Es konnte kein Eintrag in der Datenbanktabelle für Testversuche (question_attempts) angelegt werden.';
 $string['cannotcreatedataset'] = 'Der Datensatz $a kann nicht angelegt werden';
+$string['cannotcreatepath'] = 'Pfad $a konnte nicht erstellt werden';
 $string['cannotcreaterelation'] = 'Eine Verbindung zum den Datensatz $a[0] $a[1] kann nicht angelegt werden';
 $string['cannotdeletecate'] = 'Kategorie konnte nicht gelöscht werden, weil sie für diesen Kontext die Standardkategorie darstellt.';
 $string['cannotfindcate'] = 'Kategoriedaten konnten nicht gefunden werden';
@@ -26,6 +27,7 @@ $string['cannotloadquestion'] = 'Frage konnte nicht geladen werden';
 $string['cannotmovecate'] = 'Kategorie $a nicht verschiebbar. Es ist die einzige in diesem Kontext.';
 $string['cannotmovefromto'] = 'Kategorie $a[0] konnte nicht nach $a[1] verschoben werden.';
 $string['cannotmovequestion'] = 'Mit dieser Funktionen können Sie keine Fragen verschieben in denen Dateien (Bilder) aus verschiedenen Bereichen eingebunden sind.';
+$string['cannotopenforwriting'] = 'Öffnen zum Schreiben von $a nicht möglich.';
 $string['cannotpreview'] = 'Keine Vorschau für diese Fragen möglich!';
 $string['cannotretrieveqcat'] = 'Fragekategorie konnte nicht aufgerufen werden';
 $string['cannotsavequiz'] = 'Der letzte Testversuch konnte nicht gespeichert werden!';
@@ -73,6 +75,9 @@ $string['errorfilecannotbemoved'] = 'Fehler: Datei $a kann nicht verschoben werd
 $string['errorfileschanged'] = 'Die von einigen Fragen verlinkten Fehlerdateien wurden geändert, nachdem das Formular gezeigt wurde.';
 $string['errormanualgradeoutofrange'] = 'Die Bewertung $a->grade für die Frage $a->name liegt nicht zwischen \'0\' und $a->maxgrade. Punkte und Kommentare wurde nicht gespeichert.';
 $string['errormovingquestions'] = 'Fehler beim Verschieben von Fragen mit Ids $a.';
+$string['errorpostprocess'] = 'Fehler beim Post-Processing';
+$string['errorpreprocess'] = 'Fehler beim Pre-Processing';
+$string['errorprocess'] = 'Fehler beim Processing';
 $string['errorprocessingresponses'] = 'Während der Verarbeitung Ihrer Antworten ist ein Fehler aufgetreten.';
 $string['errorsavingcomment'] = 'Fehler beim Speichern des Kommentars für Frage $a->name.';
 $string['errorupdatingattempt'] = 'Fehler beim Speichern des Kommentars zu Frage $a->id in der Datenbank.';
@@ -99,6 +104,7 @@ $string['linkedfiledoesntexist'] = 'Verbundene Datei $a existiert nicht';
 $string['makechildof'] = 'Unterkategorie  von \'$a\' erzeugen';
 $string['maketoplevelitem'] = 'Nach ganz oben bewegen';
 $string['missingcourseorcmid'] = 'courseid oder cmid muss für print_question  angegeben werden';
+$string['missingcourseorcmidtolink'] = 'courseid oder cmid erforderlich, um get_question_edit_link anzuzeigen.';
 $string['missingimportantcode'] = 'Für diesem Fragentyp fehlt wichtiger Code: $a.';
 $string['missingoption'] = 'In der Lückentextfrage $a fehlen Optionen.';
 $string['modified'] = 'Verändert';

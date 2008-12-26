@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // install.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['aborting'] = 'Installation abbrechen';
@@ -42,19 +42,25 @@ $string['database'] = 'Datenbank';
 $string['databasecreationsettings'] = 'Sie müssen die Datenbankeinstellungen für die Speicherung der Moodle-Daten konfigurieren. Die Datenbank wird automatisch vom Moodle4Windows-Installationsprozess mit den unten festgelegten Einstellungen angelegt:
 <br />
 <br /> <br />
-<b>Typ:</b> \"mysql\" vom Installer festgelegt<br />
-<b>Host:</b> \"localhost\" vom Installer festgelegt<br />
+<b>Typ:</b> vom Installer festgelegt auf  \"mysql\"<br />
+<b>Host:</b> vom Installer festgelegt auf  \"localhost\"<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
-<b>User:</b> \"root\" vom Installer festgelegt<br />
-<b>Password:</b> Ihr Datenbankpasswort<br />
-<b>Tables Prefix:</b> optionaler Prefix für alle Tabellennamen';
+<b>Nutzer:</b> vom Installer festgelegt auf  \"root\"<br />
+<b>Passwort:</b> Ihr Datenbankpasswort<br />
+<b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellennamen';
 $string['databasecreationsettingshead'] = 'Sie müssen Einstellungen für die Datenbank konfigurieren, in der die meisten Moodle-Daten abgelegt werden. Der Installationsprozess erstellt die Datenbanktabellen automatisch auf der Grundlage der Einstellungen.';
-$string['databasecreationsettingssub'] = '<b>Typ:</b> \"mysql\" vom Installer festgelegt<br />
-<b>Host:</b> \"localhost\" vom Installer festgelegt<br />
+$string['databasecreationsettingssub'] = '<b>Typ:</b> vom Installer festgelegt auf  \"mysql\" <br />
+<b>Host:</b> vom Installer festgelegt auf  \"localhost\"<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
-<b>User:</b> \"root\" vom Installer festgelegt<br />
-<b>Password:</b> Ihr Datenbankpasswort<br />
-<b>Tables Prefix:</b> optionaler Prefix für alle Tabellennamen';
+<b>Nutzer:</b> vom Installer festgelegt auf  \"root\"<br />
+<b>Passwort:</b> Ihr Datenbankpasswort<br />
+<b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellennamen';
+$string['databasecreationsettingssub2'] = '<b>Typ:</b> vom Installer festgelegt auf \"mysqli\"<br />
+<b>Host:</b> vom Installer festgelegt auf  \"localhost\"<br />
+<b>Name:</b> Datenbankname, z.B. moodle<br />
+<b>Nutzer:</b> vom Installer festgelegt auf \"root\"<br />
+<b>Passwort:</b> Ihr Datenbankpasswort<br />
+<b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellennamen';
 $string['databasehost'] = 'Datenbank-Server :';
 $string['databasename'] = 'Datenbank-Name :';
 $string['databasepass'] = 'Datenbank-Passwort :';
@@ -65,62 +71,62 @@ $string['databasesettings'] = 'Jetzt wird die Datenbank erstellt, in der die mei
 <b>Name:</b> Datenbankname, z.B. moodle<br />
 <b>Nutzer:</b> Ihr Benutzername für die Datenbank<br />
 <b>Passwort:</b> Ihr Passwort für die Datenbank<br />
-<b>Tabellen Prefix:</b> optionaler Prefix, der für alle Tabellen genutzt wird';
+<b>Tabellen Prefix:</b> optionaler Prefix für alle Tabellennamen';
 $string['databasesettingsformoodle'] = 'Datenbank-Einstellungen für Moodle';
 $string['databasesettingshead'] = 'Sie müssen nun die Einstellungen für die Datenbank konfigurieren, in der die meisten Moodle-Daten abgelegt werden. Diese Datenbank muss bereits vorher angelegt und mit Nutzernamen und Passwort versehen worden sein, um auf sie zugreifen zu können.';
 $string['databasesettingssub'] = '<b>Typ:</b> mysql oder postgres7<br />
 <b>Host:</b> z.B. localhost oder db.isp.com<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
-<b>User:</b> Ihr Anmeldename für die Datenbank<br />
-<b>Password:</b> Ihr Passwort für die Datenbank<br />
-<b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellen';
+<b>Nutzer:</b> Ihr Benutzername für die Datenbank<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank<br />
+<b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellennamen';
 $string['databasesettingssub_mssql'] = '<b>Typ:</b> SQL*Server (ohne UTF-8)<b><strong class=\"errormsg\">Experimentell! (nicht für Produktivumgebungen)</strong></b><br /><br />
 <b>Host:</b> z.B. localhost oder db.isp.com<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
-<b>User:</b> Ihr Anmeldename für die Datenbank<br />
-<b>Password:</b> Ihr Passwort für die Datenbank<br />
-<b>Tabellen-Prefix:</b> Prefix für alle Tabellen (notwendig)';
+<b>Nutzer:</b> Ihr Benutzername für die Datenbank<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank<br />
+<b>Tabellen-Prefix:</b> Prefix für alle Tabellennamen (notwendig)';
 $string['databasesettingssub_mssql_n'] = '<b>Typ:</b> SQL*Server (mit UTF-8)<br />
 <b>Host:</b> z.B. localhost oder db.isp.com<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
-<b>User:</b> Ihr Anmeldename für die Datenbank<br />
-<b>Password:</b> Ihr Passwort für die Datenbank<br />
+<b>Nutzer:</b> Ihr Anmeldename für die Datenbank<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank<br />
 <b>Tabellen-Prefix:</b> Prefix für alle Tabellen (notwendig)';
 $string['databasesettingssub_mysql'] = '<b>Typ:</b> MySQL<br />
 <b>Host:</b> z.B. localhost oder db.isp.com<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
-<b>User:</b> Ihr Anmeldename für die Datenbank<br />
-<b>Password:</b> Ihr Passwort für die Datenbank<br />
+<b>Nutzer:</b> Ihr Benutzername für die Datenbank<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank<br />
 <b>Tabellen-Prefix:</b> Prefix für alle Tabellen (optional)';
 $string['databasesettingssub_mysqli'] = '<b>Typ:</b> Improved MySQL<br />
 <b>Host:</b> z.B. localhost oder db.domain.com<br />
 <b>Name:</b> Datenbank-Name, z.B moodle<br />
-<b>User:</b> Ihr Datenbank-Anmeldename<br />
-<b>Passwort:</b> Ihr Datenbank-Passwort<br />
+<b>Nutzer:</b> Ihr Benutzername für die Datenbank<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank<br />
 <b>Tabellen-Prefix:</b> Prefix für alle Tabellen (optional)';
 $string['databasesettingssub_oci8po'] = '<b>Typ:</b> Oracle<br />
 <b>Host:</b> unbenutzt - muss leer bleiben!<br />
 <b>Name:</b> vorgegebener Verbindungname zu tnsnames.ora<br />
-<b>User:</b> Ihr Anmeldename für die Datenbank<br />
-<b>Password:</b> Ihr Passwort für die Datenbank<br />
+<b>Nutzer:</b> Ihr Benutzername für die Datenbank<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank<br />
 <b>Tabellen-Prefix:</b> Prefix für alle Tabellen (notwendig, 2cc. max)';
 $string['databasesettingssub_odbc_mssql'] = '<b>Typ:</b> SQL*Server (over ODBC) <b><font color=\"red\">Experimentell! (nicht für den produktiven Einsatz)</font></b><br />
 <b>Host:</b> vorgegebener DSN-Name im ODBC-Kontrolldialog<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
-<b>User:</b> Ihr Anmeldename für die Datenbank<br />
-<b>Password:</b> Ihr Passwort für die Datenbank<br />
+<b>Nutzer:</b> Ihr Benutzername für die Datenbank<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank<br />
 <b>Tabellen-Prefix:</b> Prefix für alle Tabellen (notwendig)';
 $string['databasesettingssub_postgres7'] = '<b>Typ:</b> PostgreSQL<br />
 <b>Host:</b> z.B. localhost oder db.isp.com<br />
 <b>Name:</b> Datenbankname, z.B. moodle<br />
-<b>User:</b> Ihr Anmeldename für die Datenbank<br />
-<b>Password:</b> Ihr Passwort für die Datenbank<br />
+<b>Nutzer:</b> Ihr Benutzername für die Datenbank<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank<br />
 <b>Tabellen-Prefix:</b> Prefix für alle Tabellen (notwendig)';
 $string['databasesettingssub_sqlite3_pdo'] = '<b>Typ:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimentell! (nicht für produktive Server benutzen!!)</strong></b><br />
 <b>Host:</b> Pfad zum Verzeichnis, in dem die Datenbankdatei gespeichert werden soll (vollständiger Pfad); mit localhost oder einem leeren Feld wird dasdas Moodle Datenverzeichnis verwendet<br />
 <b>Name:</b> Datenbankname, z.B. moodle (optional)<br />
-<b>User:</b> Ihr Anmeldename für die Datenbank (optional)<br />
-<b>Password:</b> Ihr Passwort für die Datenbank (optional)<br />
+<b>Nutzer:</b> Ihr Benutzername für die Datenbank (optional)<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank (optional)<br />
 <b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellen<br />
 Der Name der Datenbankdatei wird über den Nutzernamen erkannt, der Datenbankname und das Passwort sind oben angegeben.';
 $string['databasesettingswillbecreated'] = '<b>Hinweis: </b> Das Installationsprogramm wird versuchen, automatisch eine Datenbank anzulegen, sofern diese noch nicht besteht.';
@@ -239,6 +245,7 @@ $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die MySQL-Erweiterung mit MySQL zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
 $string['mysqli'] = 'Improved MySQL (mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP wurde nicht ordnungsgemäß für die MySQLi-Erweiterung konfiguriert, um mit MySQL zu kommunizieren. Bitte überprüfen Sie die Datei php.ini oder übersetzen Sie PHP neu. Die MySQLi-Erweiterung ist nicht für PHP4 verfügbar.';
+$string['nativemysqli'] = 'Verbessertes MySQL (nativ/mysqli)';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die OCI8-Erweiterung mit Oracle zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
 $string['odbc_mssql'] = 'SQL*Server über ODBC (odbc_mssql)';

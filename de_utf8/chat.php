@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20080822) (2008081900)
+      // chat.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['ajax'] = 'Version benutzt Ajax';
@@ -12,6 +12,7 @@ $string['chat:deletelog'] = 'Logdaten eines Chats löschen';
 $string['chat:exportparticipatedsession'] = 'Teilgenommene Chat-Sitzung exportieren';
 $string['chat:exportsession'] = 'Chat-Sitzung exportieren';
 $string['chat:readlog'] = 'Logdaten eines Chats sehen';
+$string['chat:talk'] = 'Im Chat unterhalten';
 $string['chatintro'] = 'Einleitungstext';
 $string['chatname'] = 'Name dieses Chat-Raums';
 $string['chatreport'] = 'Chat-Protokolle';
@@ -38,6 +39,7 @@ $string['explainmethodnormal'] = 'Diese Einstellungen sind <strong>nur erforderl
 $string['generalconfig'] = 'Grundeinstellungen';
 $string['helpchatting'] = 'Hilfe beim Chatten';
 $string['idle'] = 'Leerlauf';
+$string['inputarea'] = 'Eingabefeld';
 $string['invalidid'] = 'Dieser Chat-Raum konnte nicht gefunden werden!';
 $string['messagebeepseveryone'] = '$a piepst jeden an!';
 $string['messagebeepsyou'] = '$a hat Sie angepiepst!';
@@ -67,6 +69,7 @@ $string['repeatdaily'] = 'Jeden Tag zur gleichen Zeit';
 $string['repeatnone'] = 'Keine Antworten - nur festgelegte Zeiten veröffentlichen';
 $string['repeattimes'] = 'Sitzungen wiederholen';
 $string['repeatweekly'] = 'Jede Woche zur gleichen Zeit';
+$string['saidto'] = '<b>sagte zu</b>';
 $string['savemessages'] = 'Speicherung der Chat-Protokolle (Dauer)';
 $string['seesession'] = 'Die Sitzung einsehen';
 $string['send'] = 'Senden';
@@ -80,6 +83,7 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Teilnehmer/innen können Chat-Protokolle sehen';
 $string['updatemethod'] = 'Aktualisierungsmethode';
 $string['updaterate'] = 'Aktualisierungsrate:';
-$string['viewreport'] = 'Vorherige Chat-Protokolle einsehen';
+$string['userlist'] = 'Nutzerliste';
+$string['viewreport'] = 'Vorherige Chat-Protokolle ansehen';
 
 ?>

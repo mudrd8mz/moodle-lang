@@ -2,6 +2,13 @@
       // portfolio_mahara.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
 
 
+$string['err_invalidhost'] = 'Dieses Plugin ist falsch konfiguriert. Es verweist auf einen ungültigen (oder gelöschten) mnet Host. Dieses Plugin verwendet Moodle Network Peers mit SSO IDP Veröffentlichung und Portfolio und SSO_SP Eintrag.';
+$string['err_networkingoff'] = 'Vor der Konfiguration dieses Plugin, muss Moodle Network aktiviert werden. Moodle Network ist zur Zeit komplett abgeschaltet. Die Instanzen dieses Plugin werden auf unsichtbar gesetzt bis dies korrigiert wurde. Danach müssen sSe sie manuell sichtbar setzen. Vorher können sie nicht genutzt werden.';
+$string['err_nomnetauth'] = 'Mnet Authenifizierung ist deaktiviert. Sie wird für diesen Service jedoch benötigt.';
+$string['err_nomnethosts'] = 'Dieses pligin basiert auf Moodle Network Peers mit SSO IDP Veröffentlichung und Portfolio sowie SSO SP Eintrag und zusätzlich Mnet Authentifizierung. Die Instanzen dieses Plugin werden auf unsichtbar gesetzt bis dies korrigiert wurde. Danach müssen sSe sie manuell sichtbar setzen. Vorher können sie nicht genutzt werden.';
+$string['failedtojump'] = 'Die Kommunikation mit dem externen Server konnte nicht gestartet werden.';
+$string['failedtoping'] = 'Die Kommunikation mit dem externen Server ($a) konnte nicht gestartet werden.';
+$string['mnet_nofile'] = 'Datei zum Transfer konnte nicht gefunden werden.';
 $string['mnethost'] = 'Moodle Netzwerk-Server';
 $string['pf_name'] = 'Portfolio-Dienste';
 $string['pluginname'] = 'Mahara ePortfolio';

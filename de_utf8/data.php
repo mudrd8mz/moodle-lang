@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // data.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['action'] = 'Aktion';
@@ -90,10 +90,11 @@ $string['editorenable'] = 'Editor einschalten';
 $string['emptyadd'] = 'Eine Vorlage für das Eintragen neuer Daten ist noch nicht vorhanden. Es wird ein Basisformular erstellt...';
 $string['emptyaddform'] = 'Sie haben keine Einträge vorgenommen!';
 $string['entries'] = 'Einträge';
-$string['entrieslefttoadd'] = 'Sie müssen $a->entriesleft (weitere) Einträge vornehmen, bevor sie die Einträge anderer Teilnehmer/innen sehen können.';
+$string['entrieslefttoadd'] = 'Sie müssen $a->entriesleft (weitere) Einträge vornehmen, um diese Aktivität zu beenden.';
+$string['entrieslefttoaddtoview'] = 'Sie müssen $a->entrieslefttoview (weitere) Einträge vornehmen, bevor Sie andere Teilnehmerbeiträge anschauen dürfen.';
 $string['entry'] = 'Eintrag';
-$string['entrysaved'] = 'Ihr Datenbankeintrag wurde abgespeichert';
-$string['errormustbeteacher'] = 'Diese Seite können nur Trainer/in benutzen!';
+$string['entrysaved'] = 'Ihr Eintrag wurde gespeichert';
+$string['errormustbeteacher'] = 'Diese Seite können nur Trainer/innen benutzen!';
 $string['example'] = 'Datenbankmodul-Beispiel';
 $string['excel'] = 'Excel';
 $string['export'] = 'Export';

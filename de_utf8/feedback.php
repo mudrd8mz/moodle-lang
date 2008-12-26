@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['add_item'] = 'Element hinzufügen';
@@ -13,11 +13,17 @@ $string['anonymous_edit'] = 'Anonym ausfüllen';
 $string['anonymous_entries'] = 'Anonyme Einträge';
 $string['anonymous_user'] = 'Anonymer Benutzer';
 $string['append_new_items'] = 'Neue Elemente anfügen';
-$string['autonumbering'] = 'automatischeNummerierung der Fragen';
+$string['autonumbering'] = 'automatische Nummerierung der Fragen';
 $string['average'] = 'Mittelwert';
 $string['bold'] = 'Fett';
 $string['cancel_moving'] = 'Bewegen abbrechen';
+$string['cannotcreatecompletedfeedback'] = 'Beendetes Feedback kann nicht erstellt werden';
+$string['cannotcreatetmpfeedback'] = 'Temporäres Feedback kann nicht erstellt werden';
+$string['cannotmapfeedback'] = 'Datenbank-Problem, eine Zuordnung des Feedbacks zum Kurs ist nicht möglich';
+$string['cannotsavetempl'] = 'Vorlagen speichern ist nicht gestattet';
+$string['cannotunmap'] = 'Datenbank-Problem, Aufhebung der Zuordnung ist nicht möglich';
 $string['captcha'] = 'Captcha';
+$string['captchanotset'] = 'Captcha wurde nicht gewählt';
 $string['check'] = 'Multiple Choice - mehrere Antworten';
 $string['check_values'] = 'Werte für Checkboxen';
 $string['checkbox'] = 'Multiple Choice - mehrere Antworten erlaubt (Checkboxen)';
@@ -69,6 +75,7 @@ $string['feedback:receivemail'] = 'E-Mailbenachrichtigung empfangen';
 $string['feedback:view'] = 'Ein Feedback anzeigen';
 $string['feedback:viewanalysepage'] = 'Analyseseite nach der Übertragung anzeigen';
 $string['feedback:viewreports'] = 'Auswertungen anzeigen';
+$string['feedback_is_not_for_anonymous'] = 'Ein Feedback ist für anonyme Teilnehmer nicht möglich';
 $string['feedback_is_not_open'] = 'Ein Feedback ist zu diesem Zeitpunkt nicht möglich';
 $string['feedback_options'] = 'Feedback-Einstellungen';
 $string['feedbackclose'] = 'Feedback beenden ab';
@@ -120,6 +127,7 @@ $string['non_anonymous'] = 'Nicht anonym';
 $string['non_anonymous_entries'] = 'keine anonymen Einträge';
 $string['not_completed_yet'] = 'Noch nicht ausgefüllt';
 $string['not_selected'] = 'Nicht ausgewählt';
+$string['notavailable'] = 'dieses Feedback ist nicht verfügbar.';
 $string['numeric'] = 'Numerische Antwort';
 $string['numeric_range_from'] = 'Bereich von';
 $string['numeric_range_to'] = 'Bereich bis';
@@ -157,7 +165,7 @@ $string['save_as_new_template'] = 'Als neue Vorlage speichern';
 $string['save_entries'] = 'Einträge speichern';
 $string['save_item'] = 'Element speichern';
 $string['saving_failed'] = 'Fehler beim Speichern';
-$string['saving_failed_because_missing_or_false_values'] = 'Fehler beim Speichern, da nicht alle notwendigen Felder bzw. einige Felder unkorrekt ausgefüllt wurden';
+$string['saving_failed_because_missing_or_false_values'] = 'Fehler beim Speichern, da notwendige Felder nicht oder unkorrekt ausgefüllt wurden';
 $string['search_course'] = 'Kurs suchen';
 $string['selected_dump'] = 'Dump der ausgewählten Indexe der $SESSION variable:';
 $string['separator_decimal'] = ',';
@@ -182,7 +190,8 @@ $string['textarea_width'] = 'Breite des Textbereiches';
 $string['textfield'] = 'Eingabezeile';
 $string['textfield_maxlength'] = 'Maximale Zeichenzahl';
 $string['textfield_size'] = 'Breite des Textfeldes';
-$string['this_feedback_is_already_submitted'] = 'Sie haben diese Aktivität bereits beenden.';
+$string['this_feedback_is_already_submitted'] = 'Sie haben diese Aktivität bereits beendet.';
+$string['typemissing'] = 'Fehlender Wert \"type\"';
 $string['update_item'] = 'Element aktualisieren';
 $string['use_one_line_for_each_value'] = '<br />Benutzen Sie für jeden Wert eine neue Zeile!';
 $string['use_this_template'] = 'Diese Vorlage verwenden';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // repository.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['activaterep'] = 'Aktive Repositories';
@@ -24,6 +24,7 @@ $string['close'] = 'Schließen';
 $string['configcacheexpire'] = 'Zeitdauer in der Dateilisten aus externen Repositories im lokalen Cache zwischen gespeichert werden (in Sekunden).';
 $string['configsaved'] = 'Konfiguration gespeichert';
 $string['confirmdelete'] = 'Sind Sie sicher, dass Sie das Repository $a löschen möchten?';
+$string['confirmdeletefile'] = 'Sind Sie sicher, dass Sie diese Datei löschen möchten?';
 $string['confirmremove'] = 'Sind Sie sicher, dass Sie das Repository-Plugin mit seinen Optionen und <strong style=color:red>all seinen Instanzen</string> löschen wollen? -$a';
 $string['copying'] = 'Kopiere';
 $string['create'] = 'Erzeugen';
@@ -36,6 +37,8 @@ $string['download'] = 'Download';
 $string['downloadsucc'] = 'Download erfolgreich!';
 $string['editrepositoryinstance'] = 'Repository-Instanz ändern';
 $string['emptytype'] = 'Repository-Typ kann nicht erstellt werden - kein Name angegeben';
+$string['enablecourseinstances'] = 'Kursrepositories aktivieren';
+$string['enableuserinstances'] = 'Nutzerrepositories aktivieren';
 $string['error'] = 'Fehler aufgetreten!';
 $string['existingrepository'] = 'Das Repository existiert bereits';
 $string['filename'] = 'Dateiname';

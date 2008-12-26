@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // debug.php - created with Moodle 2.0 dev (Build: 20081110) (2008110603)
 
 
 $string['authpluginnotfound'] = 'Plugin $a zur Authentifierung nicht gefunden';
@@ -15,6 +15,7 @@ $string['cannotupdaterelease'] = 'Fehler: Die Release-Version der Datenbank konn
 $string['cannotupdateversion'] = 'Die Aktualisierung ist fehlgeschlagen! In der Konfigurationstabelle konnte die Version nicht aktualisiert werden.';
 $string['cannotupgradecapabilities'] = 'Es sind Schwierigkeiten bei der Aktualisierung der Kernregeln für das Rollensystem aufgetreten.';
 $string['cannotupgradedbcustom'] = 'Anpassung der Einträge in der lokalen Datenbank beim Upgrade konnte nicht durchgeführt werden. (Versionseintrag in config-Tabelle)';
+$string['codingerror'] = 'Fehler in der Kodierung gefunden, den nur ein Programmierer korrigieren kann: $a';
 $string['configmoodle'] = 'Moodle ist bisher noch nicht konfiguriert. Sie müssen zuerst die Datei config.php bearbeiten.';
 $string['dbnotinsert'] = 'Datenbankfehler - \"$a\" konnte nicht eingefügt werden.';
 $string['dbnotsetup'] = 'Fehler: Die Datenbank wurde nicht erfolgreich angelegt.';
