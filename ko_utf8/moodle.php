@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081211) (2008121000)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081231) (2008121701)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -152,6 +152,7 @@ $string['backupexecuteathelp'] = '자동백업 시작시각 선택';
 $string['backupfailed'] = '강좌 중 일부가 저장되지 않았습니다!';
 $string['backupfilename'] = 'backup';
 $string['backupfinished'] = '성공적으로 백업 완료';
+$string['backupgradebookhistoryhelp'] = '이를 활성화하면 성적 누가기록이 자동 백업에 포함될 것입니다. 단, 이 기능을 원할하게 작동시키기 위해서는 시스템 설정에서 성적 누가기록을 비활성(disablegradehistory)시키지 말아야 합니다.';
 $string['backupincludemoduleshelp'] = '자동 백업에 강좌 모듈, 이용자 데이터 등을 포함시킬지 여부 선택';
 $string['backupincludemoduleuserdatahelp'] = '자동 백업에 모듈의 이용자 데이터를 포함시킬지 여부 선택';
 $string['backupkeephelp'] = '백업할 때 예전 백업파일을 몇 개까지 서버에 보관할까요? (더 오래된 것은 자동으로 삭제됨)';
@@ -763,6 +764,7 @@ $string['helpwiki'] = 'Wiki 문서를 쓰는 요령';
 $string['helpwiththis'] = '이것에 대한 도움말';
 $string['helpwriting'] = '주의깊게 쓰세요';
 $string['hiddenassign'] = '비공개 과제';
+$string['hiddenfromstudents'] = '학생에게 비공개';
 $string['hiddensections'] = '비공개 영역';
 $string['hiddensectionscollapsed'] = '비공개 영역은 제목만 보여짐';
 $string['hiddensectionsinvisible'] = '비공개 영역은 완전히 볼수 없음';

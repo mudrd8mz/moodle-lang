@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20081217) (2008121000)
+      // forum.php - created with Moodle 2.0 dev (Build: 20081231) (2008121701)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -42,7 +42,7 @@ $string['cannotcreateinstanceforteacher'] = '교수자 포럼을 위한 새 강�
 $string['cannotdeleteforummodule'] = '포럼 모듈을 삭제할 수 없습니다.';
 $string['cannotdeletepost'] = '게시물을 삭제할 수 없음!';
 $string['cannoteditposts'] = '다른 사람의 게시물을 수정할 수 없음!';
-$string['cannotfinddisscussion'] = '포럼에 토론이 없음';
+$string['cannotfinddiscussion'] = '이 포럼의 토론내용을 찾을 수 없음';
 $string['cannotfindfirstpost'] = '이 포럼의 첫 게시물을 찾을 수 없음';
 $string['cannotfindorcreateforum'] = '사이트의 주 뉴스 포럼을 만들거나 찾을 수 없음';
 $string['cannotfindparentpost'] = '$a 게시물의 최상위 게시판이 없음';
@@ -358,6 +358,7 @@ $string['youratedthis'] = '당신의 추천';
 $string['yournewquestion'] = '새로운 질문';
 $string['yournewtopic'] = '새로운 토론 주제';
 $string['yourreply'] = '당신의 답글';
+$string['cannotfinddisscussion'] = '포럼에 토론이 없음'; // ORPHANED
 $string['cannotinsertrate'] = '새로운 순위($a[0] = $a[1])를 삽입할 수 없음'; // ORPHANED
 $string['cannotupdaterate'] = '예전 순위($a[0] = $a[1])를 갱신할 수 없음'; // ORPHANED
 

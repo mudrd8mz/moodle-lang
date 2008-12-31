@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081231) (2008121701)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -233,6 +233,8 @@ $string['configsectionuser'] = '사용자';
 $string['configsecureforms'] = '무들은 웹 폼에서 데이터를 받을 때 추가적인 보안 레벨을 사용할 수 있다. 만약 이것을 활성화하면, 브라우저의 HTTP_REFERER 변수는 현재의 form adress와 교차로 확인된다. 매우 드믄 경우이지만, 만약 이용자가 웹 트래픽으로부터 벗어나기 위해 HTTP_REFERER를 제거하도록 설정한 방화벽을 사용할 경우 문제를 야기할 수 있다. 그 증상은 폼에 갇혀 버리는 것이다. 예를들어 만약 당신의 유저들이 로그인하는데 문제를 가지고 있다면, 사이트를 brute-force password 공격에 더 노출 시킬지라도, 이 설정을 꺼 둘 수 있다. 자신이 없으면, \'예\'로 놓아라.';
 $string['configsendcoursewelcomemessage'] = '이를 활성화해 놓으면 사용자가 강좌에 등록하면 환영메세지를 보여 줍니다.';
 $string['configsessioncookie'] = '이 설정은 무들세션을 위해 사용하는 쿠기의 이름을 지정하는 것이다. 이것은 선택적이고, 같은 웹사이트에서 하나 이상의 무들 프로그램이 구동되어 쿠키의 혼동이 생길 우려가 있을 때만 유용하다.';
+$string['configsessioncookiedomain'] = '이는 무들 쿠키를 활용할 수 있는 도메인을 변경할 수 있게 한다. 이것은 여타 서브도메인의 웹 응용프로그램과 무들 세션의 정보를 공유해야 할 무들의 최적화(예를들어 인증 혹은 등록 플러그인)에 유용하게 활용될 수 있다.
+<strong>경고: 기본설정(비어있음)으로 놓아둘 것을 강력히 권고한다 - 잘못된 설정은 사이트 접속을 차단하는 결과를 낳는다.</strong>';
 $string['configsessioncookiepath'] = '브라우저가 무들 쿠키를 전송하는 위치를 변경하려면 이 곳에 특정 디렉토리를 설정하면 된다. 그냥 두면 기본값인 \'/\'로 설정된다.';
 $string['configsessiontimeout'] = '사이트에 로그인한 사람이 오랫동안 아무 일도 안하고 시간을 허비한다면, 일정 시간 후에 자동적으로 로그아웃 된다(세션 종료). 이 변수는 이 시간의 길이를 규정한다.';
 $string['configshowblocksonmodpages'] = '어떤 활동 모듈은 화면에 블럭이 생성될 수 있도록 지원한다. 만약 이 설정을 \"예\"로 놓으면, 교수자들은 사이드 블럭을 추가시킬 수 있을 것이다. \"아니오\"로 놓으면, 아예 사이드 블럭 설정 기능을 보여주지 않는다.';
@@ -458,6 +460,7 @@ $string['incompatibleblocks'] = '호환되지 않는 블럭';
 $string['install'] = '선택한 언어팩 설치';
 $string['installedlangs'] = '설치된 언어팩';
 $string['intcachemax'] = '최대 내부 캐쉬';
+$string['invalidlangpack'] = '본 언어팩을 편집하려면, 이를 언어 폴더에 먼저 저장할 필요가 있다.';
 $string['invalidsection'] = '잘못된 영역';
 $string['invaliduserchangeme'] = '\"changeme\"는 예약된 이용자 아이디입니다. 이 이름으로는 계정을 만들 수 없습니다.';
 $string['ipblocked'] = '현재 이 사이트는 사용할 수 없습니다.';
@@ -535,7 +538,10 @@ $string['minpasswordupper'] = '대문자';
 $string['misc'] = '기타';
 $string['missinglangparent'] = '<em>$a->lang</em>의 바탕언어팩인 <em>$a->parent</em>이 없습니다.';
 $string['mnetrestore_extusers'] = '<strong>참고:</strong>이 백업파일에는 진행과정 중 복원될 수 있는 무들네트웍의 원격 이용자 계정 정보가 포함되어 있습니다.';
+$string['mnetrestore_extusers_admin'] = '<strong>주의:</strong> 본 백업 파일은 다른 곳의 무들에서 작성되었으며, 원격 무들네트웍 사용자 계정이 포함되어 있습니다. 복원과정에서 생성되어 있는 사용자에 대한 무들네트웍을 점검할 것입니다. 이상이 있는 사용자에 대해서는 (무들네트웍 대신) 자동적으로 내부 인증을 거치도록 할 것입니다. 이에 대한 사항은 복원 기록에 남길 것입니다.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>참고:</strong> 이 백업파일은 현재와는 다른 무들 설정을 기반으로 작성되었고 복구에 실패할 지도 모르는 무들네트웍의 원격 이용자 계정 정보가 들어 있습니다. 만일 이것이 현재의 무들 설정을 기반으로 작성되었다고 확신하거나, 필요한 무들네트웍 설정이 완벽하다고 믿는다면, 복구를 시도할 수도 있을 것입니다.';
+$string['mnetrestore_extusers_noadmin'] = '<strong>주의:</strong> 본 백업 파일은 다른 곳의 무들에서 작성되었으며, 원격 무들네트웍 사용자 계정이 포함되어 있습니다. 당신은 이러한 유형의 복원 처리를 할 권한이 없습니다. 사이트 관려자에게 문의하거나, 사용자 정보 (모듈, 파일 등)을 제외하고 강좌를 복원하십시오.';
+$string['mnetrestore_extusers_switchuserauth'] = '원격( $a->mnethosturl )무들네트웍의 사용자 $a->username 를 본 사이트의 인증된 사용자 $a->auth 로 전환';
 $string['modsettings'] = '활동 관리';
 $string['modulesecurity'] = '모듈 보안';
 $string['multilangforceold'] = '강제로 예전의 다중언어 문법 사용: &lt;span&gt; without the class=\"multilang\" and &lt;lang&gt;';
@@ -702,6 +708,7 @@ $string['server'] = '서버';
 $string['serverchecks'] = '서버 점검';
 $string['serverlimit'] = '서버 한계';
 $string['sessioncookie'] = '쿠키 접두어';
+$string['sessioncookiedomain'] = '쿠키 도메인';
 $string['sessioncookiepath'] = '쿠키 경로';
 $string['sessionhandling'] = '세션 처리';
 $string['sessiontimeout'] = '시간 종료';
