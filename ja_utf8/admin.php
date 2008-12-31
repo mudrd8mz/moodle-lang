@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20081231) (2008123102)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -47,6 +47,7 @@ $string['bookmarkthispage'] = 'このページをブックマークする';
 $string['cachetext'] = 'テキストキャッシュ保存時間';
 $string['cachetype'] = 'キャッシュタイプ';
 $string['calendar_weekend'] = '週末日';
+$string['calendarexportsalt'] = 'カレンダーエクスポートsalt';
 $string['calendarsettings'] = 'カレンダー';
 $string['cannotdeletemissingqtype'] = 'システムで必要なため、あなたは不明な問題タイプを削除することはできません。';
 $string['cannotdeleteqtypeinuse'] = 'あなたは、問題タイプ「 $a 」を削除することはできません。このタイプの問題が問題バンクに登録されています。';
@@ -82,6 +83,7 @@ $string['configautologinguests'] = '利用者がコースにゲストアクセ�
 $string['configbloglevel'] = 'ここでは、どのユーザブログをこのサイトで閲覧できるか、アクセスレベルを制限することができます。ここで設定するのは、閲覧者に関する最大のコンテクストであり、投稿者やブログ投稿のタイプではないことに注意してください。不要な場合、ブログを完全に無効にすることもできます。';
 $string['configcachetext'] = '規模の大きなサイト、またはテキストフィルタを使用しているサイトでは、この設定で処理速度を上げることができます。ここに指定した期間、処理に適した形でテキストのコピーが保持されます。この値を小さくしすぎると、処理速度を若干落とすことになります。しかし、大きすぎると、(例えば新しいリンクを) リフレッシュするまでのテキスト保持期間が長くなります。';
 $string['configcachetype'] = 'Moodleが使用するキャッシュのタイプを選択してください。ここではキャッシュのみ設定します。キャッシュが使用されるためには、忘れずにレコードキャッシュ (rcache) 設定を有効にしてください。あなたがデータベースシステムのロードを減らしたい場合<strong>のみ</strong>使用してください -- そうでない場合、Moodleの動作が実際に遅くなります。中トラフィックのサイトでは「internal」の選択でメリットがあります。eAcceleratorまたはTurckmmcacheがインストールされ、「shared memoryオプションが有効にされた」単体のウェブサーバでは、「eaccelerator」を選択してください。複数のサーバを使用し、1つまたはそれ以上のmemcachedデーモンが動作およびPHP-memcached拡張モジュールが設定されている場合、「memcached」を選択して、下記のmemachedオプションを設定してください。<br /><strong>注意:</strong> ワークロード下でパフォーマンスを確認し、それに応じて調整してください -- キャッシュは、あなたのサイトを遅くする場合があります。高トラフィックの場合、eAcceleratorおよびmemcachedの使用に大きなメリットがありますが、ウェブサーバのCPU使用に関して、高いコストがかかります。';
+$string['configcalendarexportsalt'] = 'このランダムテキストは、カレンダーのエクスポート時に使用される認証トークンのセキュリティを改善するため使用されます。あなたが、このハッシュsaltを変更する場合、現在のすべてのトークンが無効にされますので注意してください。';
 $string['configclamactlikevirus'] = 'ファイルをウイルスとして扱う';
 $string['configclamdonothing'] = 'ファイルをウイルス感染なしとして扱う';
 $string['configclamfailureonupload'] = 'アップロードファイルをclamがスキャンするよう設定しても間違って設定されている、または不明な理由で動作しない場合、どのように処理しますか? 「ファイルをウイルスとして扱う」を選択した場合、感染ファイルは隔離用エリアに移動されるか、削除されます。「ファイルをウイルス感染なしとして扱う」を選択した場合、通常のファイルと同じように、指定したディレクトリに移動されます。どちらの場合でも、管理者にはclamに問題がある旨が通知されます。「ファイルをウイルスとして扱う」を選択してもclamが正常に動作しない場合 (一般的にclamに間違ったパスを指定)、アップロードされたすべてのファイルは、指定された隔離用エリアに移動されるか、削除されます。この設定は注意して行ってください。';
@@ -119,6 +121,7 @@ $string['configeditorfontlist'] = 'エディタのドロップダウンリスト
 $string['configemailchangeconfirmation'] = 'ユーザがプロファイルでメールアドレスを変更した場合、メール確認を求めます。';
 $string['configemoticons'] = '右側のエモーティコンの名称に関わる左側のコードを変更してください。新しいエモーティコンを追加するには、コードおよび名称を追加した後、名称.gifのイメージを「/pix/s」ディレクトリに入れてください。';
 $string['configenableajax'] = 'ここでは、サイト全体におけるAJAX (Javaスクリプトを使用した高度なクライアント/サーバインターフェース) の使用をコントロールできます。この設定を有効にした場合、ユーザはプロファイルページでAJAXの使用を選択できます。この設定を無効にした場合、すべてのユーザでAJAXの使用が無効にされます。';
+$string['configenablecalendarexport'] = 'カレンダーのエクスポートまたは購読を有効にします。';
 $string['configenablecourserequests'] = 'すべてのユーザにコース作成のリクエストを許可します。';
 $string['configenableglobalsearch'] = 'ここでは、リソースおよび活動のグローバルテキストサーチを有効にします。この設定は、PHP4に互換性がありません。';
 $string['configenablegroupings'] = 'ここでは、グループのグルーピングを有効にします。';
@@ -360,6 +363,7 @@ $string['emailchangeconfirmation'] = 'メール変更確認';
 $string['emoticons'] = 'エモーティコン';
 $string['emptysettingvalue'] = '空';
 $string['enableajax'] = 'AJAXを有効にする';
+$string['enablecalendarexport'] = 'カレンダーエクスポートを有効にする';
 $string['enablecourserequests'] = 'コースリクエストを有効にする';
 $string['enableglobalsearch'] = 'グローバルサーチを有効にする';
 $string['enablegroupings'] = 'グルーピングを有効にする';

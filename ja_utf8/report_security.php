@@ -1,9 +1,16 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20081231) (2008123102)
 
 
+$string['check_courserole_name'] = 'コースデフォルトロール';
+$string['check_defaultcourserole_ok'] = 'サイトデフォルトロールの定義は、OKです。';
 $string['check_frontpagerole_name'] = 'フロントページロール';
+$string['check_frontpagerole_notset'] = 'フロントページロールが設定されていません。';
 $string['check_guestrole_name'] = 'ゲストロール';
+$string['check_guestrole_notset'] = 'ゲストロールが設定されていません。';
+$string['check_guestrole_ok'] = 'ゲストロール定義は、OKです。';
+$string['check_mediafilterswf_ok'] = 'Flashメディアフィルタが有効にされていません。';
+$string['check_passwordpolicy_error'] = 'パスワードポリシーが設定されていません。';
 $string['check_passwordpolicy_name'] = 'パスワードポリシー';
 $string['check_riskadmin_name'] = '管理者';
 $string['configuration'] = '設定';
