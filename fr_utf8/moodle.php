@@ -440,6 +440,7 @@ $string['displayingusers'] = 'Affichage des utilisateurs de $a->start à $a->end
 $string['displayonpage'] = 'Affichage sur la page';
 $string['documentation'] = 'Documentation de Moodle';
 $string['donotask'] = 'Ne pas demander';
+$string['donotclickcontinue'] = 'Ne cliquer pas sur le lien Continuer suivant ;-)';
 $string['down'] = 'Vers le bas';
 $string['downloadexcel'] = 'Télécharger en format Excel';
 $string['downloadfile'] = 'Télécharger le fichier';
