@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081231) (2007101533)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -302,7 +302,7 @@ $string['courserejectsubject'] = 'Váš kurz bol zamietnutý';
 $string['coursereports'] = 'Výkazy kurzu';
 $string['courserequest'] = 'Žiadosť o vytvorenie nového kurzu';
 $string['courserequestdetails'] = 'Podrobnosti o kurze, ktorý žiadate vytvoriť';
-$string['courserequestdisabled'] = 'Ľutujem, ale žiadosti o vytvorenie kurzov nie sú administrátorom aktivovaná.';
+$string['courserequestdisabled'] = 'Ľutujem, ale žiadosti o vytvorenie kurzov nie sú administrátorom aktivované.';
 $string['courserequestfailed'] = 'Z nejakého dôvodu nemohla byť vaša žiadosť o vytvorenie kurzu uložená.';
 $string['courserequestintro'] = 'Použite tento formulár na žiadosť o vytvorenie kurzu <br />Pokúste sa uviesť maximum informácií,<br />aby administrátor pochopil vašu žiadosť.';
 $string['courserequestreason'] = 'Dôvody pre žiadosť o vytvorenie kurzu';
@@ -1082,11 +1082,11 @@ $string['noteachersyet'] = 'Zatiaľ žiadni učitelia v tomto kurze';
 $string['notenrollable'] = 'Do tohto kurzu sa v súčasnosti nedá zapísať';
 $string['notenrolled'] = '$a nie je prihlásený do tohto kurzu.';
 $string['notenrolledprofile'] = 'Tento profil nie je dostupný, pretože používateľ nie je zapísaný do tohto kurzu.';
-$string['noteuserschangednonetocourse'] = 'Poznámka: Používatelia kurzu musia byť obnovení, ak  sa obnovujú používateľské údaje. Toto nastavenie to bude meniť za Vás.';
+$string['noteuserschangednonetocourse'] = '<strong>Poznámka:</strong> Používatelia kurzu musia byť obnovení, ak sa obnovujú používateľské údaje. Toto nastavenie bolo zmenené pre Vás.';
 $string['nothingnew'] = 'Od Vášho posledného prihlásenia sa nič nezmenilo';
 $string['nothingtodisplay'] = 'Nič na zobrazenie';
 $string['notice'] = 'Oznámenie';
-$string['noticenewerbackup'] = 'Táto záloha súboru bola vytvorená Moodlom $a->backuprelease ($a->backupversion) a je vyššia, ako aktuálna verzia Moodle $a->serverrelease ($a->serverversion). Toto môže spôsobiť niektoré problémy, pretože spätná kompatibilita zálohovaných súborov nemôže byť garantovaná.';
+$string['noticenewerbackup'] = 'Táto záloha súboru bola vytvorená s Moodle $a->backuprelease ($a->backupversion) a je vyššia, ako aktuálna verzia Moodle $a->serverrelease ($a->serverversion). Toto môže spôsobiť niektoré problémy, pretože spätná kompatibilita zálohovaných súborov nemôže byť garantovaná.';
 $string['notifications'] = 'Oznámenia';
 $string['notify'] = 'Oznámiť';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Používateľ: $a->info';

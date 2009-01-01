@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081231) (2007101533)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -499,7 +499,10 @@ $string['minpasswordupper'] = 'Veľké písmená';
 $string['misc'] = 'Rôzne';
 $string['missinglangparent'] = 'Chýbajúci nadradený jazyk <em>$a->parent</em> pre jazyk <em>$a->lang</em>.';
 $string['mnetrestore_extusers'] = '<strong>Poznámka:</strong> Táto záloha obsahuje vzdialených používateľov siete Moodle Network. Vzdialené účty budú v priebehu tohto procesu obnovené.';
+$string['mnetrestore_extusers_admin'] = '<strong>Upozornenie:</strong> Tento súbor zálohy je zrejme z iného Moodle servera a obsahuje informácie o kontách vzdialených používateľov. Proces obnovy zo zálohy sa pokúsi o ich správne priradenie. Tým, ktorí nebudú správne identifikovaní, budú vytvorené kontá s vnútornou autentifikáciou (a nie mnet autentifikáciou). Zápis z obnovy v súbore restore.log bude obsahovať podrobné informácie.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Poznámka:</strong> Táto záloha evidentne pochádza z odlišnej inštalácie Moodle a obsahuje vzdialené používateľské účty. Obnova týchto účtov sa nemusí podariť, táto operácia nie je podporovaná. Ak ste si istí, že záloha pochádza z tejto inštalácie, alebo môžete zaistiť, že sú správne nastavené všetky hostiteľské počítače v sieti Moodle Network, môžete sa aj napriek tomu pokúsiť o obnovu.';
+$string['mnetrestore_extusers_noadmin'] = '<strong>Upozornenie:</strong> Tento súbor zálohy je zrejme z iného Moodle servera a obsahuje informácie o kontách vzdialených používateľov. Na jeho obnovenie nemáte oprávnenie. Môžete alebo informovať administrátora alebo vykonať obnovu bez informácií o používateľoch (moduly, súbory,...)';
+$string['mnetrestore_extusers_switchuserauth'] = 'Vzdialený Moodle Network používateľ $a->username (zo servera $a->mnethosturl) bol prepnutý na lokálne autentifikovaného používateľa ($a->auth).';
 $string['modsettings'] = 'Spravovať aktivity';
 $string['modulesecurity'] = 'Zabezpečenie modulov';
 $string['multilangforceold'] = 'Vnútiť starú syntax viacjazyčného obsahu pomocí tagu <lang>';
