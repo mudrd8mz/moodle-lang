@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // glossary.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['addcomment'] = 'Přidat komentář';
@@ -104,6 +104,7 @@ $string['explainimport'] = 'Vyberte importovaný soubor a kritéria importu.<p>O
 $string['explainspecial'] = 'Zobrazuje položky, které nezačínají písmenem.';
 $string['exportedentry'] = 'Exportované položky';
 $string['exportentries'] = 'Exportovat položky';
+$string['exportentriestoxml'] = 'Exportovat položky do XML souboru';
 $string['exportfile'] = 'Exportovat položky do souboru';
 $string['exportglossary'] = 'Exportovat slovník';
 $string['exporttomainglossary'] = 'Exportovat do hlavního slovníku';

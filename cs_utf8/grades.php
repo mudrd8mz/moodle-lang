@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
+      // grades.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['activities'] = 'Činnosti';
@@ -359,6 +359,7 @@ $string['onascaleof'] = 'na škále od $a->grademin do $a->grademax';
 $string['operations'] = 'Úkony';
 $string['options'] = 'Možnosti';
 $string['outcome'] = 'Očekávaný výstup';
+$string['outcomeassigntocourse'] = 'Přidat další očekávaný výstup kurzu';
 $string['outcomecategory'] = 'Vytvořit očekávané výstupy v kategorii';
 $string['outcomecategorynew'] = 'Nová kategorie';
 $string['outcomeconfirmdelete'] = 'Jste si jistí, že chcete odstranit očekávaný výstup \"$a\"?';

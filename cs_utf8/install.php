@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
+      // install.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['admindirerror'] = 'Adresář pro správu (admin) není zadán správně.';
@@ -214,6 +214,9 @@ $string['phpversionhelp'] = '<p>Moodle vyžaduje PHP alespoň verze 4.3.0 nebo 5
 <p>Musíte PHP upgradovat, nebo přejít k hostiteli s vyšší verzí!<br />
 (U PHP 5.0.x můžete také přejít na nižší verzi 4.4.x či 4.3.x.)</p>';
 $string['postgres7'] = 'PostgreSQL (postgres7)';
+$string['postgresqlwarning'] = '<strong>Poznámka:</strong> Pokud máte problém s konektivitou k databázi, zkuste nastavit pole \"Hostitelský server\" na hodnotu
+host=\'postgresql_hostitel\' port=\'5432\' dbname=\'nazev_postgresql_databaze\' user=\'uzivatel_postgresql\' password=\'heslo_uzivatele_postgresql\' a 
+ponechte pole Databáze, Uživatel a Heslo prázdné. Více informací najdete v <a href=\"http://docs.moodle.org/en/Installing_Postgres_for_PHP\">dokumentaci</a>';
 $string['safemode'] = 'Bezpečný režim (Safe Mode)';
 $string['safemodeerror'] = 'Se zapnutým bezpečným režimem (Safe Mode) může mít Moodle problémy.';
 $string['safemodehelp'] = '<p>Při zapnutém bezpečném režimu PHP (tzv. Safe Mode) může Moodle narazit na řadu problémů. Jedním z nich je, že pravděpodobně nebude moci vytvářet nové soubory.</p>

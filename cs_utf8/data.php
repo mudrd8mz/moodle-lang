@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // data.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['action'] = 'Akce';
@@ -81,7 +81,8 @@ $string['editorenable'] = 'Povolit editor';
 $string['emptyadd'] = 'Šablona pro přidání záznamu je prázdná, generuji výchozí formulář...';
 $string['emptyaddform'] = 'Nevyplnili jste žádná pole!';
 $string['entries'] = 'Záznamy';
-$string['entrieslefttoadd'] = 'Ještě musíte vložit $a->entriesleft záznamů(-y), než budete moci vidět záznamy ostatních účastníků.';
+$string['entrieslefttoadd'] = 'Ještě musíte vložit $a->entriesleft záznamů(-y), abyste dokončili tuto činnost';
+$string['entrieslefttoaddtoview'] = 'Ještě musíte vložit $a->entrieslefttoview záznamů(-y), než budete moci vidět záznamy ostatních účastníků.';
 $string['entry'] = 'Záznam';
 $string['entrysaved'] = 'Záznam byl uložen';
 $string['errormustbeteacher'] = 'K této stránce mají přístup pouze učitelé!';

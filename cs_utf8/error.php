@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
+      // error.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['adminprimarynoedit'] = 'Primární správce nemůže být upravován ostatními uživateli';
@@ -38,6 +38,7 @@ $string['errorcreatingdirectory'] = 'Chyba při vytváření adresáře \"$a\"';
 $string['errorcreatingfile'] = 'Chyba při vytváření souboru \"$a\"';
 $string['erroronline'] = 'Chyba na řádku $a';
 $string['errorreadingfile'] = 'Chyba při čtení souboru \"$a\"';
+$string['errorsavingrequest'] = 'Při pokusu o uložení vašeho požadavku došlo k chybě.';
 $string['errorunzippingfiles'] = 'Chyba při rozbalování souborů ZIP';
 $string['fieldrequired'] = '\"$a\" je povinné pole';
 $string['filenotfound'] = 'Je mi líto, požadovaný soubor nebyl nalezen';
@@ -48,6 +49,7 @@ $string['groupnotaddederror'] = 'Skupina \"$a\" nebyla přidána';
 $string['groupunknown'] = 'Skupina $a nebyla přidružena k určenému kurzu';
 $string['guestnoeditprofile'] = 'Uživatel \"host\" nemůže upravovat svůj profil';
 $string['guestnoeditprofileother'] = 'Profil uživatele \"host\" nelze upravovat';
+$string['guestsarenotallowed'] = 'Toto není dovoleno hostům';
 $string['invalidcontext'] = 'Neplatný kontext';
 $string['invalidcourse'] = 'Neplatný kurz';
 $string['invalidcourseid'] = 'Pokoušíte se použít neplatný identifikátor kurzu ($a)';
@@ -108,6 +110,7 @@ $string['tagnotfound'] = 'Daný štítek nebyl v databázi nalezen';
 $string['unicodeupgradeerror'] = 'Je mi líto. Vaše databáze dosud nepoužívá kódování Unicode a tato verze Moodlu není schopná migraci na Unicode provést. Prosím, proveďte nejprve upgrade na verzi 1.7.x a spusťte proces migrace na Unicode ze stránky Správy. Potom budete moci migrovat na Moodle $a';
 $string['unknowncourse'] = 'Neznámý kurz s názvem \"$a\"';
 $string['unknowncourseidnumber'] = 'Neznámý identifikátor kurzu \"$a\"';
+$string['unknowncourserequest'] = 'Požadavek na schválení neexistujícího kurzu';
 $string['unknowngroup'] = 'Neznámá skupina \"$a\"';
 $string['unknownrole'] = 'Neznámá role \"$a\"';
 $string['unknownuseraction'] = 'Této instrukci nerozumím';
@@ -131,5 +134,6 @@ $string['usernotupdatednotexists'] = 'Uživatel nebyl upraven - neexistuje';
 $string['wrongdestpath'] = 'Chybné cílové umístění';
 $string['wrongsourcebase'] = 'Chybné URL zdrojového serveru';
 $string['wrongzipfilename'] = 'Chybné jméno souboru ZIP';
+$string['youcannotdeletecategory'] = 'Nemůžete odstranit kategorii \"$a\", protože nemáte oprávnění ani odstranit ani přesunout její obsah.';
 
 ?>

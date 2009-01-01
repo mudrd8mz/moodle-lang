@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -135,7 +135,8 @@ $string['autosubscribeyes'] = 'Ano: pokud pošlu příspěvek, chci fórum odeb�
 $string['availability'] = 'Dostupnost';
 $string['availablecourses'] = 'Dostupné kurzy';
 $string['back'] = 'Zpět';
-$string['backtoparticipants'] = 'Zpět k seznamu účastníků';
+$string['backtocourselisting'] = 'Zpět na seznam kurzů';
+$string['backtoparticipants'] = 'Zpět na seznam účastníků';
 $string['backup'] = 'Záloha';
 $string['backupactivehelp'] = 'Zvolte, zda provádět automatické zálohování';
 $string['backupcancelled'] = 'Zálohování přerušeno';

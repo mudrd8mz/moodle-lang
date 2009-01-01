@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // group.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['addgroupstogrouping'] = 'Přidat skupiny do seskupení';
@@ -29,6 +29,7 @@ $string['deleteallgroups'] = 'Odstranit všechny skupiny';
 $string['deletegroupconfirm'] = 'Jste si jisti, že chcete odstranit skupinu \'$a\'?';
 $string['deletegrouping'] = 'Odstranit seskupení';
 $string['deletegroupingconfirm'] = 'Jste si jisti, že chcete odstranit seskupení \'$a\'? (Skupiny v tomto seskupení nebudou odstraněny)';
+$string['deletegroupsconfirm'] = 'Opravdu chcete odstranit následující skupiny?';
 $string['deleteselectedgroup'] = 'Odstranit vybranou skupinu';
 $string['editgroupingsettings'] = 'Upravit nastavení seskupení';
 $string['editgroupsettings'] = 'Upravit nastavení skupiny';
@@ -37,6 +38,8 @@ $string['erroraddremoveuser'] = 'Chyba při přidávání/odstraňování uživa
 $string['erroreditgroup'] = 'Chyba při vytváření/úpravě skupiny $a';
 $string['erroreditgrouping'] = 'Chyba při vytváření/úpravě seskupení $a';
 $string['errorinvalidgroup'] = 'Chyba - neplatná skupina $a';
+$string['errorselectone'] = 'Nejprve označte jednu jedinou skupinu';
+$string['errorselectsome'] = 'Nejprve označte jednu nebo více skupin';
 $string['evenallocation'] = 'Poznámka: aby bylo možno zachovat vyrovnaný počet uživatelů ve skupinách, liší se stávající počet členů na jednu skupinu od vámi určeného čísla';
 $string['existingmembers'] = 'Stávající členové: $a';
 $string['filtergroups'] = 'Filtrovat skupiny podle:';
