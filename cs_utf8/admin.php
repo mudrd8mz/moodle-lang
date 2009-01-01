@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -80,6 +80,7 @@ $string['configcookiehttponly'] = 'Zapíná novou funkci z PHP 5.2.0, která na�
 $string['configcookiesecure'] = 'Jestliže server přijímá pouze https připojení, pak se doporučuje zapnout zasílání zabezpečených cookies. Jestliže je zapnuto, ujistěte se prosím, že webový server neakceptuje i http://, nebo nastavte permanentní přesměrování na https://. Jestliže nebude hodnota <em>wwwroot</em> začínat na https://, pak se toto nastavené automaticky vypne.';
 $string['configcountry'] = 'Výchozí nastavení země při vytváření nových uživatelů. Nezadáte-li nic, budou uživatelé nuceni vybrat si zemi sami.';
 $string['configcoursemanager'] = 'Které uživatele zobrazovat u popisu kurzu. Uživatelé potřebují alespoň jednu z těchto rolí v daném kurzu, aby byli zobrazeni u jeho popisu.';
+$string['configcourserequestnotify'] = 'Zadejte uživatelské jméno uživatele, kterému bude zasíláno upozornění na novou žádost o založení kurzu.';
 $string['configcoursesperpage'] = 'Počet kurzů na stránce při zobrazování seznamu kurzů.';
 $string['configcreatornewroleid'] = 'Tato role je automaticky přiřazována tvůrcům v nových kurzech, které vytvoří. Tato role není přiřazována v případě, že tvůrce již má potřebné pravomoce v nadřazeném kontextu.';
 $string['configcronclionly'] = 'Je-li nastaveno, může být skript cron.php spouštěn pouze z příkazové řádky a nikoliv přes webové rozhraní. Tímto se zároveň ignoruje nastavení hesla  ke cronu (viz dále).';
@@ -184,6 +185,7 @@ $string['configpasswordpolicy'] = 'Zda má Moodle kontrolovat platnost hesla vů
 $string['configpathtoclam'] = 'Cesta ke Clam AV. Pravděpodobně /usr/bin/clamscan nebo /usr/bin/clamdscan. Jestliže chcete provádět antivirovou kontrolou, je nutné tento údaj zadat.';
 $string['configpathtodu'] = 'Cesta k programu du (disk usage). Pravděpodobně něco jako /usr/bin/du. Zadáním této cesty se urychlí generování stránek, které zobrazují obsah adresáře s mnoha soubory.';
 $string['configperfdebug'] = 'Vypisování údajů o výkonu vašeho serveru v zápatí standardního motivu stránek.';
+$string['configprofilesforenrolledusersonly'] = 'Aby se zabránilo zneužití vašich stránek, je automaticky skrýváno pole s popisem v profilu uživatelů, kteří nejsou zapsáni v žádném kurzu. Noví uživatelé se proto musejí zapsat alespoň do jednoho kurzu předtím, než si mohou upravit svůj popis v uživatelském profilu.';
 $string['configprotectusernames'] = 'Ve výchozím nastavení skript forget_password.php nezobrazuje žádnou nápovědu, která by usnadnila uhodnutí uživatelských jmen nebo adres.';
 $string['configproxyhost'] = 'Nastavení proxy serveru -- jestliže <b>server</b> nemá přímý přístup do internetu, zadejte adresu a port proxy serveru. (Přístup k internetu je potřeba pouze pro funkci IP-Atlas.)';
 $string['configproxypassword'] = 'Pokud je pro přístup na internet přes proxy vyžadováno heslo, napište ho sem. V opačném případě nevyplňujte (je vyžadováno PHP cURL).';
@@ -216,6 +218,7 @@ $string['configsectionuser'] = 'Uživatel';
 $string['configsecureforms'] = 'Používat vyšší úroveň zabezpečení při přijímání údajů z webových formulářů? Je-li tato volba povolena, pak je proměnná prohlížeče HTTP_REFERER ověřována proti aktuální adrese formuláře. V ojedinělých případech může toto nastavení způsobovat problémy, zejména používá-li uživatel firewall (např. Zonealarm nebo Kerio Personal Firewall) nastavený tak, aby hodnotu proměnné HTTP_REFERER blokoval. K příznakům patří problémy s formuláři, například na přihlašovací stránce. Jste-li na pochybách, ponechejte zde hodnotu \'Ano\'.';
 $string['configsendcoursewelcomemessage'] = 'Zda bude uživatelům zaslán uvítací email poté, co se sami zapíší do kurzu.';
 $string['configsessioncookie'] = 'Název souboru cookie používaného těmito stránkami. Jde o volitelné nastavení, které je užitečné pouze  v případě, že provozujete více instalací Moodlu na jednom serveru.';
+$string['configsessioncookiedomain'] = 'Zde můžete změnit doménu, ze které jsou dostupné Moodlovské cookies. To se vám může hodit, pokud např. používáte vlastní autentizační moduly a/nebo potřebujete sdílet informace o aktuální session s jinou webovou aplikací na jiné subdoméně. <strong>UPOZORNĚNÍ: silně doporučujeme ponechat výchozí (tj. prázdnou) hodnotu. Chybné nastavení může způsobit, že se na vaše stránky nebude možno vůbec přihlásit.</strong>';
 $string['configsessioncookiepath'] = 'Podadresář vašich webových stránek, kam prohlížeče odesílají soubory cookie vaší instalace Moodlu. Pravděpodobně vám bude vyhovovat výchozí \'/\'.';
 $string['configsessiontimeout'] = 'Délka nečinnosti, po níž jsou uživatelé automaticky odhlášeni.';
 $string['configshowblocksonmodpages'] = 'Některé moduly podporují na svých stránkách použití bloků. Zapnete-li tuto volbu, budou mít uživatelé na takových stránkách možnost přidávat  postranní bloky. V opačném případě se rozhraní pro vložení bloků nezobrazuje.';
@@ -260,7 +263,10 @@ $string['country'] = 'Výchozí země';
 $string['coursemanager'] = 'Vedoucí kurzů';
 $string['coursemgmt'] = 'Přidat/upravovat kurzy';
 $string['courseoverview'] = 'Přehled kurzu';
+$string['courserequestnotify'] = 'Upozornění na žádost o kurz';
+$string['courserequestnotifyemail'] = '$a->user žádá o založení nového kurzu na $a->link';
 $string['courserequests'] = 'Požadované kurzy';
+$string['courserequestspending'] = 'Čekající žádosti o nový kurz';
 $string['courses'] = 'Kurzy';
 $string['coursesperpage'] = 'Počet kurzů na stránku';
 $string['creatornewroleid'] = 'Role tvůrců v nových kurzech';
@@ -431,6 +437,7 @@ $string['lang16notify'] = 'Moodle verze 1.6 a vyšší umožňuje instalovat a a
 $string['langcache'] = 'Seznam jazyků ve vyrovnávací paměti';
 $string['langedit'] = 'Úprava překladu';
 $string['langimport'] = 'Správa jazykových balíčků';
+$string['langimportdisabled'] = 'Možnost automatické aktualizace jazykového balíčku máte na vašem serveru zakázánu. Aktualizujte jazykový balíček manuálně na úrovni souborového systému.';
 $string['langimportsuccess'] = 'Jazykový balíček byl úspěšně aktualizován.';
 $string['langlist'] = 'Které jazyky zobrazovat v nabídce';
 $string['langlocalpackage'] = 'Lokální úpravy';
@@ -491,7 +498,10 @@ $string['minpasswordupper'] = 'Velkých písmen';
 $string['misc'] = 'Různé';
 $string['missinglangparent'] = 'Chybí nadřazený jazyk <em>$a->parent</em> jazyka <em>$a->lang</em>.';
 $string['mnetrestore_extusers'] = '<strong>Poznámka:</strong> Tato záloha obsahuje vzdálené uživatele sítě Moodle Network. Vzdálené účty budou v průběhu tohoto procesu obnoveny.';
-$string['mnetrestore_extusers_mismatch'] = '<strong>Poznámka:</strong> Tato záloha evidentně pochází z odlišné instalace Moodlu a obsahuje vzdálené uživatelské účty. Obnova těchto účtů může selhat, tato operace není podporovaná. Pokud jste si jistí, že záloha pochází z této instalace, nebo můžete zajistit, že jsou správně nastaveny všechny hostitelské počítače v síti Moodle Network, můžete se přesto pokusit o obnovu.';
+$string['mnetrestore_extusers_admin'] = '<strong>Poznámka:</strong> Tato záloha pravděpodobně pochází z jiné instalace Moodlu a obsahuje vzdálené uživatelské účty ze serverů sítě MNet. Moodle se v průběhu obnovy pokusí vytvořit vzdálené uživatelské účty odpovídající vašim hostitelům sítě MNet. Uživatelské účty, pro které nebude nalezen vzdálený MNet hostitel, budou převedeny do režimu interní autentizace (namísto mnet). Bližší informace naleznete v protokolu.';
+$string['mnetrestore_extusers_mismatch'] = '<strong>Poznámka:</strong> Tato záloha evidentně pochází z odlišné instalace Moodlu a obsahuje vzdálené uživatelské účty ze serverů sítě MNet. Obnova těchto účtů může selhat, tato operace není podporovaná. Pokud jste si jistí, že záloha pochází z této instalace, nebo můžete zajistit, že jsou správně nastaveny všechny hostitelské počítače v síti MNet, můžete se přesto pokusit o obnovu.';
+$string['mnetrestore_extusers_noadmin'] = '<strong>Poznámka:</strong> Tato záloha pravděpodobně pochází z jiné instalace Moodlu a obsahuje vzdálené uživatelské účty ze serverů sítě MNet. Nemáte oprávnění provést tento typ obnovy. Spojte se se správcem vašeho serveru, případně tento kurz obnovte bez jakýchkoliv uživatelských dat.';
+$string['mnetrestore_extusers_switchuserauth'] = 'Vzdálený uživatel $a->username (pocházející z $a->mnethosturl) obnoven jako místní uživatel ověřován pomocí $a->auth';
 $string['modsettings'] = 'Správa činností';
 $string['modulesecurity'] = 'Zabezpečení modulů';
 $string['multilangforceold'] = 'Vnutit starou syntaxi vícejazyčného obsahu: značka &lt;lang&gt; a značka &lt;span&gt; bez parametru class=\"multilang\"';
@@ -589,6 +599,7 @@ $string['profilemenutoofewoptions'] = 'je potřeba vložit alespoň dvě možnos
 $string['profilename'] = 'Název';
 $string['profilenofieldsdefined'] = 'Nebyla definována žádná pole';
 $string['profilerequired'] = 'Je vyplnění pole povinné?';
+$string['profilesforenrolledusersonly'] = 'Profily pouze pro zapsané uživatele';
 $string['profileshortname'] = 'Krátký název (jedinečný)';
 $string['profileshortnamenotunique'] = 'Tento krátký název je již používán';
 $string['profilesignup'] = 'Zobrazit v registračním formuláři?';
@@ -616,6 +627,9 @@ $string['recaptchapublickey'] = 'ReCAPTCHA veřejný klíč';
 $string['releasenoteslink'] = 'Informace o této verzi Moodlu najdete v <a target=\"_new\" href=\"$a\">Poznámkách k verzi</a>';
 $string['remotelangnotavailable'] = 'Nepodařilo se připojit k serveru download.moodle.org, automatickou instalaci jazykových balíčků proto nelze provést. Stáhněte prosím příslušné soubory ZIP ze seznamu níže, zkopírujte je do adresáře $a a ručně je dekomprimujte.';
 $string['renameerrors'] = 'Chyby při přejmenování';
+$string['requiredentrieschanged'] = '<strong>ČTĚTE - DŮLEŽITÉ UPOZORNĚNÍ<br/>(tato zpráva se zobrazuje pouze jednou při tomto upgrade)</strong>
+<br />Vzhledem k provedené opravě chyby se mění chování modulů Databáze, které používají nastavení \'Počet požadovaných záznamů\' a \'Počet záznamů požadovaných před zpřístupněním databáze\'. Podrobnější vysvětlení změn najdete <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">v diskusním fóru k modulu Databáze</a>. Očekávané chování tohoto nastavení je popsáno <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">v anglické dokumentaci</a>.
+<br/><br/>Tato změna ovlivní následující Databáze ve vašich kurzech. Tento seznam si uložte a po skončení upgrade ověřte, že tyto moduly stále pracují dle záměru vyučujících:<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Povinné. Můžete zde použít syntaxi šablon (%%l = příjmení, %%f = křestní jméno, %%u = uživatelské jméno). Další informace a příklady najedete v nápovědě.';
 $string['restrictbydefault'] = 'Omezit nabídku implicitně';
 $string['restrictmodulesfor'] = 'Omezení nabídky dostupných modulů';
@@ -645,6 +659,7 @@ $string['server'] = 'Server';
 $string['serverchecks'] = 'Kontroly serveru';
 $string['serverlimit'] = 'Omezení na straně serveru';
 $string['sessioncookie'] = 'Předpona názvu cookie';
+$string['sessioncookiedomain'] = 'Doména platnosti cookie';
 $string['sessioncookiepath'] = 'Cesta platnosti cookie';
 $string['sessionhandling'] = 'Session';
 $string['sessiontimeout'] = 'Časový limit';
