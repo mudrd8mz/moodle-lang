@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // auth.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['CASform'] = 'Volba ověřování';
@@ -258,6 +258,12 @@ $string['auth_radiusnasport_key'] = 'Port';
 $string['auth_radiussecret'] = 'Sdílený klíč';
 $string['auth_radiussecret_key'] = 'Tajný klíč';
 $string['auth_radiustitle'] = 'Používat server RADIUS';
+$string['auth_radiustype'] = 'Zvolte autentizační schéma pro tento server RADIUS';
+$string['auth_radiustype_key'] = 'Autentizace';
+$string['auth_radiustypechapmd5'] = 'CHAP MD5';
+$string['auth_radiustypemschapv1'] = 'Microsoft CHAP verze 1';
+$string['auth_radiustypemschapv2'] = 'Microsoft CHAP verze 2';
+$string['auth_radiustypepap'] = 'PAP';
 $string['auth_remove_delete'] = 'Zcela smazat interní';
 $string['auth_remove_keep'] = 'Uchovat interní';
 $string['auth_remove_suspend'] = 'Suspendovat interní';
