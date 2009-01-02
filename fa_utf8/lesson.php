@@ -196,7 +196,6 @@ $string['numberofcorrectanswers'] = 'تعداد پاسخ‌های صحیح: $a';
 $string['numberofcorrectmatches'] = 'تعداد رابطه‌های صحیح: $a';
 $string['numberofpagestoshow'] = 'تعداد صفحه‌ها (کارت‌ها) جهت نمایش';
 $string['numberofpagesviewed'] = 'تعداد سؤال‌هایی که پاسخ داده‌اید: $a';
-$string['numberofpagesviewednotice'] = 'تعداد سؤال‌هایی که پاسخ داده‌اید: {$a}؛ (حداقل باید به $a->minquestions سؤال پاسخ دهید)';
 $string['ongoing'] = 'نمایش نمره درحال شرکت';
 $string['ongoingcustom'] = 'تا الان $a->score نمره از $a->currenthigh بدست آورده‌اید.';
 $string['ongoingnormal'] = 'به $a->correct سؤال از $a->viewed سؤال پاسخ صحیح داده‌اید.';
