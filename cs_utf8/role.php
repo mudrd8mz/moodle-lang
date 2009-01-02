@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
+      // role.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
 
 
 $string['addrole'] = 'Přidat novou roli';
@@ -23,7 +23,9 @@ $string['capabilities'] = 'Pravomoci';
 $string['capability'] = 'Pravomoc';
 $string['category:create'] = 'Vytvářet kategorie';
 $string['category:delete'] = 'Odstraňovat kategorie';
+$string['category:manage'] = 'Spravovat kategorie';
 $string['category:update'] = 'Aktualizovat kategorie';
+$string['category:viewhiddencategories'] = 'Vidět skryté kategorie';
 $string['category:visibility'] = 'Vidět skryté kategorie';
 $string['course:activityvisibility'] = 'Skrýt/ukázat činnosti';
 $string['course:bulkmessaging'] = 'Posílat zprávu více lidem';
@@ -38,6 +40,7 @@ $string['course:managegrades'] = 'Spravovat známkování';
 $string['course:managegroups'] = 'Spravovat skupiny';
 $string['course:managemetacourse'] = 'Spravovat metakurzy';
 $string['course:managescales'] = 'Spravovat škály';
+$string['course:request'] = 'Požadovat založení nových kurzů';
 $string['course:reset'] = 'Resetovat kurz';
 $string['course:sectionvisibility'] = 'Nastavovat viditelnost sekce';
 $string['course:setcurrentsection'] = 'Nastavovat aktuální sekci';
