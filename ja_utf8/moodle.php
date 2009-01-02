@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20081231) (2008123102)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -442,6 +442,7 @@ $string['displayingusers'] = 'ユーザを $a->start から $a->end まで表示
 $string['displayonpage'] = 'ページに表示する';
 $string['documentation'] = 'Moodleドキュメンテーション';
 $string['donotask'] = '問合せしない';
+$string['donotclickcontinue'] = '次の「続ける」リンクをクリックしないでください ;-)';
 $string['down'] = '下へ';
 $string['downloadexcel'] = 'Excelフォーマットでダウンロードする';
 $string['downloadfile'] = 'ファイルをダウンロードする';
