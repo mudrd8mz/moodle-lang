@@ -1,7 +1,51 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 1.9.2+ (Build: 20080730) (2007101520.03)
-      // local modifications from http://127.1.1.0
+      // repository.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['activerepository'] = 'Aktív adattár-segédprogramok';
+$string['addplugin'] = 'Adattár-segédprogram hozzáadása';
+$string['areabackup'] = 'Biztonsági mentések';
+$string['areacategoryintro'] = 'Kategória bevezetője';
+$string['areacourseintro'] = 'Kurzus bevezetője';
+$string['arearoot'] = 'Rendszer';
+$string['areauserdraft'] = 'Vázlatok';
+$string['areauserpersonal'] = 'Személyes';
+$string['areauserprofile'] = 'Profil';
+$string['cachecleared'] = 'A gyorsítótárba helyezett állományok törlődtek';
+$string['cacheexpire'] = 'A gyorsítótár lejárata';
+$string['cleancache'] = 'A gyorsítótárba helyezett állományaim törlése';
+$string['clicktohide'] = 'Az elrejtéshez kattintson ide';
+$string['clicktoshow'] = 'A megjelenítéshez kattintson ide';
+$string['configcacheexpire'] = 'Az állománylistázás helyi gyorsítótárba helyezésének időtartama (másodpercben) külső adattárak böngészése közben.';
+$string['confirmdeletefile'] = 'Biztosan törli ezt az állományt?';
+$string['confirmremove'] = 'Biztosan törli ezt az adattár-segédprogramot, annak beállításait és <strong style=color:red>összes példányát</strong> - $a?';
+$string['copying'] = 'Másolás';
+$string['createinstance'] = 'Adattárpéldány létrehozása';
+$string['deleted'] = 'Adattár törölve';
+$string['editrepositoryinstance'] = 'Adattárpéldány szerkesztése';
+$string['emptytype'] = 'Az adattártípus nem hozható létre: a típus neve üres.';
+$string['enablecourseinstances'] = 'Kurzusadattárak bekapcsolása';
+$string['enableuserinstances'] = 'Felhasználói adattárak bekapcsolása';
+$string['existingrepository'] = 'Az adattár már létezik.';
+$string['filenotnull'] = 'Válasszon ki egy feltöltendő állományt.';
+$string['hiddenshow'] = 'Elrejtés/Megjelenítés';
+$string['instancedeleted'] = 'Példány törölve';
+$string['instances'] = 'Adattárpéldányok';
+$string['keyword'] = 'Kulcsszó';
+$string['login'] = 'Bejelentkezés';
+$string['nopermissiontoaccess'] = 'Nincs engedély az adattárhoz';
+$string['noresult'] = 'Nincs ilyen eredmény';
+$string['notyourinstances'] = 'Más adattárpéldányait nem tekintheti meg/szerkesztheti.';
+$string['openpicker'] = 'Állományválasztó megnyitása';
+$string['personalrepositories'] = 'Személyes adattárak';
+$string['popup'] = 'Előbukkanó ablak megnyitása a bejelentkezéshez';
+$string['readonlyinstance'] = 'Csak olvasható példányt nem szerkeszthet/törölhet';
+$string['refresh'] = 'Frissítés';
+$string['removed'] = 'Az adattár törölve.';
+$string['repositorycourse'] = 'Kurzusadattárak';
+$string['siteinstances'] = 'A portál adattárpéldányai';
+$string['typenotvisible'] = 'A típus nem látható.';
+$string['updown'] = 'Megjelenítés sorrendje';
+$string['wrongcontext'] = 'A környezethez nem férhet hozzá.';
 
 $string['activaterep'] = 'Aktív adattárak';
 $string['add'] = 'Hozzáadás';

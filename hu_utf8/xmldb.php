@@ -1,5 +1,16 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.7 beta + (2006101003)
+      // xmldb.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+
+$string['cannotinstantiateclass'] = 'Hiba: nem hozható létre osztálypéldány (actions/$a->action/$a->actionclass)';
+$string['check_foreign_keys'] = 'Külső kulcs miatti hiba keresése';
+$string['checkforeignkeys'] = 'Külső kulcsok ellenőrzése';
+$string['confirmcheckforeignkeys'] = 'Ezzel az install.xml meghatározásaiban lévő külső kulcsok esetleges érvénytelenségére kereshet rá. (A Moodle jelenleg nem állít elő az adatábzisban idegen kulcsokra vonatkozó megszorításokat, ezért fordulhatnak elő érvénytelen adatok.)<br /><br />
+Mindenképpen ajánlott a legfrissebb Moodle-változatot (1.8, 1.9, 2.x ...) használni a hiányzó indexekre való keresés előtt.<br /><br />Ennek során az adatbázison nem hajtódnak végre műveletek (csak beolvasás történik), így bármikor biztonságosan végrehajtható.';
+$string['fkviolationdetails'] = 'A(z) $a->tablename táblában a(z) $a->keyname külső kulcs hibája $a->numrows közül $a->numviolations alkalommal.';
+$string['noviolatedforeignkeysfound'] = 'Nincs külső kulcshoz kapcsolódó hiba';
+$string['violatedforeignkeys'] = 'Hibás külső kulcs';
+$string['violatedforeignkeysfound'] = 'Hibás külső kulcsok';
+$string['violations'] = 'Hibák';
 
 $string['butis'] = 'viszont';
 $string['shouldbe'] = 'legyen';

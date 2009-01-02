@@ -1,6 +1,21 @@
-<?PHP // $Id$
+<?PHP // $Id$ 
+      // grades.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['errorupdatinggradecategoryaggregateonlygraded'] = 'Hiba a(z) $a->id pontozási kategóriaazonosító \"Csak a nem üres pontok összegzése\" beállításának frissítése közben';
+$string['errorupdatinggradecategoryaggregateoutcomes'] = 'Hiba a(z) $a->id pontozási kategóriaazonosító \"Eredmények összegzése\" beállításának frissítése közben';
+$string['errorupdatinggradecategoryaggregatesubcats'] = 'Hiba a(z) $a->id pontozási kategóriaazonosító \"Alkategóriák összegzése\" beállításának frissítése közben';
+$string['errorupdatinggradecategoryaggregation'] = 'Hiba a(z) $a->id pontozási kategóriaazonosító összegzési típusának frissítése közben';
+$string['errorupdatinggradeitemaggregationcoef'] = 'Hiba a(z) $a->id pontozási kategóriaazonosító összegzési együtthatójának (súly vagy külön kreditpont) frissítése közben';
+$string['nooutcomes'] = 'Az eredménytételeket kurzuseredményhez kell kötni, de a kurzusban nincsenek eredmények. Hozzáad egyet?';
+$string['norolesdefined'] = 'nincs szerep megadva a rendszergazda->megjelenítés->pontozói szerepek (admin->appearance->graderoles) esetén';
+$string['noscales'] = 'Az eredményeket kurzusskálához vagy globális skálához kell kötni, de a kurzusban nincsenek ilyenek. Hozzáad egyet?';
+$string['outcomeassigntocourse'] = 'Másik eredmény hozzárendelése a kurzushoz';
+$string['weightorextracredit'] = 'Súly vagy külön kreditpont';
+$string['weights'] = 'Súlyok';
+$string['weightsedit'] = 'Súlyok és külön kreditpontok szerkesztése';
 
+$string['configshowpercentage'] = 'Megjelenjen-e az egyes pontozási tételek százalékos értéke?';
+$string['showpercentage'] = 'Százalék megjelenítése';
 $string['aggregationcoefextrasumhelp'] = 'Külön kreditpont ezért a pontozási tételért összegzés közben.';
 $string['activities'] = 'Tevékenységek';
 $string['addcategory'] = 'Kategória hozzáadása';

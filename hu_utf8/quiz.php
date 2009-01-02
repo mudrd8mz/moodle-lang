@@ -1,4 +1,64 @@
-<?PHP // $Id$
+<?PHP // $Id$ 
+      // quiz.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+
+$string['configurerandomquestion'] = 'Kérdés beállítása';
+$string['createcategoryfornewrandomquestion'] = 'Kérdéskategória létrehozása az új véletlenszerű kérdéshez';
+$string['empty'] = 'Üres';
+$string['erroraccessingreport'] = 'A jelentéshez nem férhet hozzá.';
+$string['moveselectedonpage'] = 'A kiválasztott kérdések áthelyezése a(z) $a oldalra';
+$string['noquestionsinquiz'] = 'A teszt nem tartalmaz kérdéseket.';
+$string['noquestionsnotinuse'] = 'Ez a véletlenszerű kérdés nem használatos, mert üres a kategóriája.';
+$string['noquestionsonpage'] = 'Üres oldal';
+$string['noreviewshort'] = 'Nincs engedélyezve';
+$string['noreviewuntilshort'] = 'Elérhető $a';
+$string['numquestionsx'] = 'Kérdés: $a';
+$string['orderandpaging'] = 'Sorrend és oldalszám';
+$string['orderingquiz'] = 'Sorrend és oldalszám';
+$string['parentcategory'] = 'Fölső kategória';
+$string['qname'] = 'név';
+$string['qtypename'] = 'típus, név';
+$string['questionbankcontents'] = 'A kérdésbank tartalma';
+$string['questionbankmanagement'] = 'A kérdésbank kezelése';
+$string['questionsperpageselected'] = 'Az oldalankénti kérdésszám be van állítva, így az oldalakra törés jelenleg rögzített. Ezért az oldaltörés kezelőszervei ki vannak kapcsolva. Módosíthatja itt: $a.';
+$string['questionsperpagex'] = 'Oldalankénti kérdésszám: $a';
+$string['questiontextisempty'] = '[Üres kérdésszöveg]';
+$string['quiz:regrade'] = 'Próbálkozások újrapontozása';
+$string['quizopened'] = 'A teszt elérhető.';
+$string['quizopenwillclose'] = 'A teszt elérhető, lezárásának időpontja: $a';
+$string['quizordernotrandom'] = 'A teszt sorrendje nincs összekeverve';
+$string['quizorderrandom'] = '* A teszt sorrendje össze van keverve';
+$string['quizwillopen'] = 'A teszt elérhető lesz ekkor: $a.';
+$string['removeemptypage'] = 'Üres oldal eltávolítása';
+$string['reorderquestions'] = 'Kérdések átrendezése';
+$string['repaginatecommand'] = 'Újratördelés';
+$string['reviewthisattempt'] = 'Ellenőrizze az ezen próbálkozásra adott válaszait.';
+$string['selectcategory'] = 'Kategória kiválasztása';
+$string['selectquestiontype'] = '-- Kérdéstípus kiválasztása --';
+$string['showcategorycontents'] = 'A(z)  $a->arrow kategória tartalmának kijelzése';
+$string['shufflequestionsselected'] = '* A kérdések összekeverése be van állítva, így sorrendjük véletlenszerű. Ezért a Kérdések átrendezése ki van kapcsolva. Módosíthatja itt: $a.';
+$string['shufflequestionsx'] = 'Kérdések összekeverése: $a.';
+$string['sortquestionsbyx'] = 'Kérdések rendezése $a szerint';
+$string['totalpointsx'] = 'Összes pontszám: $a.';
+$string['totalquestionsinrandomqcategory'] = 'A kategória összes $a kérdése.';
+$string['xfromcategory'] = '$a ebből a kategóriából:';
+
+
+$string['adddescriptionlabel'] = 'Leírás/címke hozzáadása';
+$string['addnewpagesafterselected'] = 'Új oldalak hozzáadása a kiválaszott kérdések után';
+$string['addnewquestionsqbank'] = 'Kérdések hozzáadása a(z)  $a->catname: $a->link kategóriához';
+$string['addpagehere'] = 'Oldal hozzáadása ide';
+$string['addquestion'] = 'Kérdés hozzáadása';
+$string['addrandomfromcategory'] = 'Véletlenszerű kérdések hozzáadása ebből a kategóriából:';
+$string['addrandomquestion'] = 'Véletlenszerű kérdés hozzáadása';
+$string['addrandomquestiontoquiz'] = 'Véletlenszerű kérdés hozzáadása a(z) $a teszthez';
+$string['age'] = 'kor';
+$string['areyousuredeleteselected'] = 'Biztosan törli a kiválasztott kérdéseket?';
+$string['basicideasofquiz'] = 'A tesztkészítés alapelvei';
+$string['cannotinsertrandomquestion'] = 'Nem sikerült az új véletlenszerű kérdés hozzáadása';
+$string['cannotsavelayout'] = 'Az elrendezést nem sikerült elmenteni.';
+$string['cannotsavenumberofquestion'] = 'Nem sikerült elmenteni az oldalankénti kérdésszámot.';
+$string['cannotsetgrade'] = 'Nem sikerült elmenteni a teszt új maximális pontszámát.';
+$string['cannotsetsumgrades'] = 'A sumgrades elmentése nem sikerült.';
 
 $string['aftereachquestion'] = 'Az egyes kérdések hozzáadása után';
 $string['afternquestions'] = '$a kérdés hozzáadása után';

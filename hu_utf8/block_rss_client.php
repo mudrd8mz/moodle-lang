@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.7 beta + (2006101003) 
+      // block_rss_client.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+
+$string['cannotmakemodification'] = 'Most ezt az RSS-hírt nem módosíthatja.';
 
 $string['addfeed'] = 'Hírfórum URL-jének hozzáadása';
 $string['addheadlineblock'] = 'RSS-szalagcímblokk hozzáadása';

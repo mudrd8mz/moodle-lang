@@ -1,6 +1,56 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.7 beta + (2006101003)
+      // scorm.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['allowapidebug'] = 'API hibaszűrésének és nyomon követésének bekapcsolása (az elemzési maszkot állítsa be az apidebugmask segítségével)';
+$string['allowtypeexternal'] = 'Külső csomagtípus bekapcsolása';
+$string['allowtypeimsrepository'] = 'IMS csomagtípus bekapcsolása';
+$string['allowtypelocalsync'] = 'Letöltött csomagtípus bekapcsolása';
+$string['apidebugmask'] = 'API hibaszűrésének elemzési maszkja (egyszerű regex a &lt;username&gt;:&lt;activityname&gt; esetén)';
+$string['areacontent'] = 'Tartalomfájlok';
+$string['areaintro'] = 'Bevezető állományok';
+$string['areapackage'] = 'Csomagfájlok';
+$string['autocontinuedesc'] = 'Ez állítja be a tevékenységhez az alapbeállítás szerinti automatikus folytatást.';
+$string['displayattemptstatus'] = 'Próbálkozás állapotának megjelenítése';
+$string['displayattemptstatusdesc'] = 'Ezzel állítja be a próbálkozás állapotának megjelenítéséhez az alapértéket.';
+$string['displaycoursestructure'] = 'Kurzusstruktúra megjelenítése';
+$string['displaycoursestructuredesc'] = 'Ezzel állítja be a kurzusszerkezet megjelenítéséhez az alapértéket.';
+$string['displaydesc'] = 'Ezzel állítja be, hogy egy tevékenységhez a csomag megjelenjen-e.';
+$string['exceededmaxattempts'] = 'Elérte a próbálkozások maximális számát.';
+$string['expired'] = 'Ez a tevékenység $a időpontban lezárult és már nem érhető el.';
+$string['forcecompleted'] = 'Befejezés előírása';
+$string['forcecompleteddesc'] = 'Ezzel állítja be a befejezés előírásához az alapértéket.';
+$string['forcenewattempt'] = 'Új próbálkozás előírása';
+$string['forcenewattemptdesc'] = 'Ezzel állítja be a új próbálkozás előírásához az alapértéket.';
+$string['gradeforattempt'] = 'Próbálkozásra adott pont';
+$string['grademethoddesc'] = 'Ezzel állítja be egy tevékenység alapvető pontozási módszerét.';
+$string['gradereported'] = 'Jelentett pontszám';
+$string['hidebrowsedesc'] = 'Ezzel állítja be, hogy az előzetes megtekintés alaphelyzetben bekapcsolt vagy kikapcsolt állapotban legyen-e.';
+$string['hidenavdesc'] = 'Ezzel állítja be, hogy a navigációs gombok alaphelyzetben látsszanak-e, vagy rejtve legyenek.';
+$string['hidetocdesc'] = 'Ezzel állítja be, hogy a kurzusszerkezet (tartalomjegyzék) alaphelyzetben látsszonak-e, vagy rejtve legyen.';
+$string['lastattemptlock'] = 'Lezárás az utolsó próbálkozás után';
+$string['lastattemptlockdesc'] = 'Ezzel állítja be az utolsó próbálkozás utáni lezárás alapértékét.';
+$string['maximumattemptsdesc'] = 'Ezzel állítja be egy tevékenység próbálkozásainak alapértelmezett maximális számát.';
+$string['maximumgradedesc'] = 'Ezzel állítja be egy tevékenység pontjainak alapértelmezett maximális számát.';
+$string['noattemptsallowed'] = 'Engedélyezett próbálkozások száma';
+$string['noattemptsmade'] = 'Próbálkozásainak száma';
+$string['notopenyet'] = 'A tevékenység $a időpontig nem érhető el.';
+$string['popupblocked'] = 'Ha nem jelenik meg új ablak, $a';
+$string['popupblockedlinkname'] = 'kattintson ide a tevékenység elindításához.';
+$string['scormclose'] = 'Eddig';
+$string['scormopen'] = 'Nyitva';
+$string['scormresponsedeleted'] = 'Törölt felhasználói próbálkozások';
+$string['scormtype'] = 'Típus';
+$string['skipviewdesc'] = 'Ezzel állítja be, hogy egy oldalon mikor maradjon ki a tartalomszerkezet';
+$string['timerestrict'] = 'Válaszadás korlátozása ezen időtartamra';
+$string['typeexternal'] = 'Külső SCORM-jegyzékfájl';
+$string['typeimsrepository'] = 'Helyi IMS tartalomtára';
+$string['typelocal'] = 'Feltöltött csomag';
+$string['typelocalsync'] = 'Letöltött csomag';
+$string['updatefreqdesc'] = 'Ezzel állítja be egy tevékenység alapértelmezett automatikus frissítését.';
+$string['updatetime'] = 'Szinkronizációs idő';
+$string['url'] = 'URL';
+$string['whatgradedesc'] = 'Ezzel állítja be a próbálkozások alapértelmezett pontozását.';
+$string['zlibwarning'] = 'Figyelmeztetés: a portálon be van kapcsolva a PHP Zlib tömörítés, egyes felhasználóknak gondot okozhat a SCORM-objektumok betöltése egyes böngészők esetén.';
 
 $string['activityloading'] = 'Automatikusan átkerül ehhez a tevékenységhez:';
 $string['activitypleasewait'] = 'Tevékenység betöltése folyamatban, várjon...';

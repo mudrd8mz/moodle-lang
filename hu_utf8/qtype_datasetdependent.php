@@ -1,4 +1,10 @@
-<?php
+<?PHP // $Id$ 
+      // qtype_datasetdependent.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+
+$string['answerstoleranceparam'] = 'Válasz toleranciaparaméterei';
+$string['oneanswertrueansweroutsidelimits'] = 'Legalább egy helyes válasz kívül esik az igaz értékhatáron.<br />Módosítsa a választolerancia beállításait, melyek További paraméterekkként érhetők el.';
+$string['updatetolerancesparam'] = 'Válasz toleranciaparamétereinek frissítése';
+
 $string['additem'] = 'Tétel hozzáadása';
 $string['atleastonerealdataset'] = 'A kérdés szövegében legalább egy valós adatkészletnek kell lenni';
 $string['atleastonewildcard'] = 'A kérdés szövegében vagy a válaszképletben legalább egy helyettesítőnek kell lenni';

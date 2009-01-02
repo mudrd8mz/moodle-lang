@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.7 beta + (2006101003)
+      // resource.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+
+$string['chooseaparameter'] = 'Válasszon ki egy paramétert...';
 
 $string['portfolionotimplemented'] = 'Olyan tananyagfajtából kíván tartalmat exportálni, amely nem támogatja azt!';
 $string['resource:exportresource'] = 'Tananyag exportálása';

@@ -1,14 +1,76 @@
-<?PHP // $Id$
-      // moodle.php - created with Moodle 1.7 beta + (2006101003)
+<?PHP // $Id$ 
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['backto'] = 'Vissza ide: $a';
+$string['backtocourselisting'] = 'Vissza a kurzuslistához';
+$string['clear'] = 'Töröl';
+$string['clicktohideshow'] = 'Kattintson a kibontáshoz vagy a becsukáshoz.';
+$string['courseapprovedemail2'] = 'Kért $a->name kurzusát jóváhagytuk. Eléréséhez látogasson el ide: $a->url.';
+$string['courseenrolend'] = 'Kurzusfelvétel vége';
+$string['courseenrolenddate'] = 'Kurzusfelvétel utolsó időpontja';
+$string['courseenrolstart'] = 'Kurzusfelvétel kezdete';
+$string['courseenrolstartdate'] = 'Kurzusfelvétel kezdési időpontja';
+$string['coursehelpcategory'] = 'Helyezze el a kurzust a kurzuslistában, hogy a tanulók könnyebben megtalálhassák.';
+$string['coursehelpenrollable'] = 'A tanulók az alapértelmezett interaktív beiratkozási segédprogrammal önmaguk beiratkozhatnak?';
+$string['coursehelpenrolmentkey'] = 'Beállítása esetén a tanulóknak erre a kulcsra lesz szüksége a kurzus felvételéhez.';
+$string['coursehelpenrolmentplugins'] = 'Alapértelmezett interaktív beiratkozási segédprogram';
+$string['coursehelpexpirynotifystudents'] = 'Ha van megadva kurzusfelvételi időtartam, akkor ez a beállítás szabja meg, hogy a tanulók a kurzusból való kiiratkoztatás táján kapjanak-e értesítést e-mailben.';
+$string['coursehelpexpirythreshold'] = 'Ha van megadva kurzusfelvételi időtartam, akkor ez a beállítás szabja meg, hogy a tanulók a kurzusból való kiiratkoztatást megelőzően hány nappal kapjanak értesítést.';
+$string['coursehelpforce'] = 'A kurzus minden tevékenységégez kurzuscsoportos mód előírása.';
+$string['coursehelpformat'] = 'A kurzus fő oldala ebben a formában jelenik meg.';
+$string['coursehelphiddensections'] = 'Hogyan jelennek meg a kurzus rejtett részei a tanulók számára.';
+$string['coursehelpmaximumupload'] = 'A kurzus során a tanulók által feltölthető maximális fájlméret az egész portálra érvényes korlátoknak megfelelően';
+$string['coursehelpmetacourse'] = 'A kurzus metakurzusként való beállítása. A metakurzus a beiratkozásokat (és más cszerephozzárendeléseket) az \"alkurzustól\" veszi át.';
+$string['coursehelpnewsitemsnumber'] = 'A kurzus honlapján hírdobozban jobbra megjelenő legújabb tételek száma<br/>(0 esetén a hírdoboz meg sem jelenik).';
+$string['coursehelpnotify'] = 'Ha van megadva kurzusfelvételi időtartam, akkor ez a beállítás szabja meg, hogy a tanárok egy tanuló kurzusból való kiiratkoztatásakor kapjanak-e értesítést e-mailben.';
+$string['coursehelpnumberweeks'] = 'A kurzus fő oldalán megjelenő hetek/témák száma.';
+$string['coursereasonforrejecting'] = 'Indokai a kurzuskérés elutasítására';
+$string['coursereasonforrejectingemail'] = 'Ezt a kérelmező e-mailben megkapja';
+$string['coursereports'] = 'Kurzusjelentések';
+$string['courserequestdetails'] = 'A kért kurzus adatai';
+$string['coursehelpshowgrades'] = 'Osztályozó napló megjelenítésének bekapcsolása. Ettől az egyes tevékenységekben még látszani fognak a pontok.';
+$string['courserequestsupport'] = 'A kérés rendszergazda általi értékelését elősegítő információk';
+$string['coursesettings'] = 'A kurzus alapbeállításai';
+$string['coursestart'] = 'A kurzus kezdete';
+$string['createcategory'] = 'Kategória létrehozása';
+$string['deleteallcannotundo'] = 'Az összes törlése - visszaállítás nem lehetséges';
+$string['deletecategoryempty'] = 'A kategória üres.';
+$string['filter'] = 'Szűrő';
+$string['hidetopicfromothers'] = 'A téma elrejtése mások elől';
+$string['hideweekfromothers'] = 'A hét elrejtése mások elől';
+$string['matchingsearchandrole'] = '\'$a->search\' és $a->role egyeztetése';
+$string['maximumgradex'] = 'Maximális pont: $a';
+$string['movecontentstoanothercategory'] = 'Tartalom áthelyezése egy másik kategóriába';
+$string['nomatchingusers'] = 'Nincs $a szerint megfelelő felhasználó';
+$string['pendingrequests'] = 'Folyamatban lévő kérések';
+$string['pleasesearchmore'] = 'Keressen még';
+$string['pleaseusesearch'] = 'Használja fel a keresést';
+$string['previouslyselectedusers'] = 'A korábban kiválasztott felhasználók $a szerint nem felelnek meg.';
+$string['profilenotshown'] = 'A profilleírás mindaddig nem jelenik meg, amíg az adott személy legalább egy kurzust fel nem vesz.';
+$string['questionsinthequestionbank'] = 'Kérdés a kérdésbankban';
+$string['rejectdots'] = 'Elutasít...';
+$string['repositories'] = 'Tárhelyek';
+$string['searchoptions'] = 'Keresés beállításai';
+$string['showtopicfromothers'] = 'Mások témáinak megjelenítése';
+$string['showweekfromothers'] = 'Mások hetének megjelenítése';
+$string['thiscategorycontains'] = 'A kategória tartalma';
+$string['toomanyusersmatchsearch'] = 'Túl sok ($a->count) felhasználó felel meg \'$a->search\' szerint';
+$string['toomanyuserstoshow'] = 'Túl sok ($a) megjelenítendő felhasználó';
+$string['userselectorautoselectunique'] = 'Ha csak egy felhasználó felel meg a keresésnek, legyen automatikusan kiválasztva';
+$string['userselectorpreserveselected'] = 'A kiválasztott felhasználók megtartása akkor is, ha már nem felelnek meg a keresésnek';
+$string['userselectorsearchanywhere'] = 'A keresett szöveg a felhasználó nevében bárhol előfordulhat.';
+$string['valuealreadyused'] = 'Az érték már használatban van.';
+$string['whattodo'] = 'Mi a teendő';
+$string['windowclosing'] = 'Az ablak automatikusan becsukódik. Ha mégsem, csukja be most.';
+$string['yourwordforx'] = 'Az Ön szava $a esetén';
+$string['editremoteprofile'] = 'Távoli profil szerkesztése';
+$string['remoteappuser'] = 'Távoli $a felhasználó';
 $string['activitymodules'] = 'Tevékenységmodulok';
 $string['downloadfile'] = 'Állomány letöltése';
 $string['messageprovider:errors'] = 'A portálon komoly hibák észlelhetők';
 $string['messageprovider:notices'] = 'Értesítések kisebb problémákról';
 $string['missingrecaptchachallengefield'] = 'Hiányzik a reCAPTCHA-feladathoz tartozó mező';
 $string['viewfileinpopup'] = 'Állomány megtekintése előugró ablakban';
-
-
 $string['nostatstodisplay'] = 'Nincs megjeleníthető adat.';
 $string['uploadcantwrite'] = 'Az állományt nem sikerült lemezre írni.';
 $string['uploadextension'] = 'Az állomány feltöltését a programbővítés leállította.';

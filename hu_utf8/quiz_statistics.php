@@ -1,7 +1,18 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 1.9.2+ (Build: 20080730) (2007101520.03)
-      // local modifications from http://127.1.1.0
+      // quiz_statistics.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['allattemptscount'] = 'Összes próbálkozás száma';
+$string['analysisofresponsesfor'] = '$a válaszainak elemzése';
+$string['backtoquizreport'] = 'Vissza a fő statisztikai jelentés oldalára.';
+$string['count'] = 'Darabszám';
+$string['downloadeverything'] = 'A teljes jelentés letöltése mint';
+$string['errordeleting'] = 'Hiba a régi $a rekordok törlése közben.';
+$string['frequency'] = 'Gyakoriság';
+$string['negcovar'] = 'A pont negatív kovarianciája az összes próbálkozás pontjával.';
+$string['optiongrade'] = 'Részkredit';
+$string['response'] = 'Felelet';
+$string['statistics:componentname'] = 'Statisztikai jelentés a tesztről';
+$string['statistics:view'] = 'Statisztikai jelentés megtekintése';
 
 $string['allattempts'] = 'az összes próbálkozás';
 $string['allattemptsavg'] = 'Az összes próbálkozás átlagos pontszáma';

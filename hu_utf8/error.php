@@ -1,7 +1,55 @@
-<?PHP // $Id$
-      // error.php - created with Moodle 1.7 beta + (2006101003)
+<?PHP // $Id$ 
+      // error.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['TODO'] = 'TEENDŐ';
+$string['cannoffindgradeitem'] = 'A grade_item nem található.';
+$string['cannotassignrolehere'] = 'Ezt a szerepet (id = $a->roleid) ebben a környezetben ($a->context) nem rendelheti hozzá.';
+$string['cannotcallusgetselecteduser'] = 'Ha a multiselect igaz, a user_selector::get_selected_user eljárást nem hívhatja meg.';
+$string['cannotdeletethisrole'] = 'Nem törölheti a szerepet, mert azt a rendszer használja, illetve mert ez az utolsó rendszergazdai szerep.';
+$string['cannotmanualctrack'] = 'A tevékenységgel nem lehet kézi teljesítés-ellenőrzést végezni.';
+$string['cannotopenzip'] = 'A tömörített állomány nem nyitható meg, feltehetőleg 64 bites rendszeren fellépő kiterjesztési hiba miatt.';
+$string['cannotoverriderolehere'] = 'Ezt a szerepet (id = $a->roleid) ebben a környezetben ($a->context) nem írhatja felül.';
+$string['cannotresetthisrole'] = 'A szerepet nem lehet visszaállítani.';
+$string['cannotshowhidecoursesincategory'] = 'A(z) $a kategóriában lévő kurzusok nem jeleníthetők meg/rejthetők el.';
+$string['cannotupdateusermsgpref'] = 'A felhasználói üzenetbeállítások frissítése nem sikerült.';
+$string['courserequestdisabled'] = 'A kurzuskérést a rendszergazda kikapcsolta.';
+$string['dmlreadexception'] = 'Hiba az adatbázis olvasása közben.';
+$string['dmlwriteexception'] = 'Hiba az adatbázis írása közben.';
+$string['error'] = 'Hiba történt.';
+$string['errorcreatingrole'] = 'Hiba a szerep létrehozása közben.';
+$string['errorsavingrequest'] = 'Kérésének mentése közben hiba történt.';
+$string['errorsettinguserpref'] = 'A felhasználói beállítás közben hiba történt.';
+$string['errorupdatingcoursevisibility'] = 'A kurzus láthatóságának frissítése közben hiba történt.';
+$string['filenotreadable'] = 'Az állomány nem olvasható.';
+$string['guestsarenotallowed'] = 'Vendégeknek erre nincs lehetőségük.';
+$string['importformatnotimplement'] = 'Ezen formátum importálása még nem készült el!';
+$string['incorrectext'] = 'Az állomány kiterjesztése hibás.';
+$string['invalidactivityid'] = 'Érvénytelen tevékenységazonosító';
+$string['invalidqueryparam'] = 'HIBA: hibás számú lekérdezési paraméter. A(z) $a->expected helyett $a->actual.';
+$string['mustbeloggedin'] = 'Ehhez be kell jelentkeznie.';
+$string['nodata'] = 'Nincs adat.';
+$string['nofile'] = 'Nincs megadva állomány.';
+$string['notallowedtoupdateprefremotely'] = 'Ezt a felhasználói beállítást távolról nem frissítheti.';
+$string['unknowncontext'] = 'Ismeretlen környezet.';
+$string['unknowncourserequest'] = 'Ismeretlen kurzuskérés.';
+$string['unknownfiletype'] = 'Ismeretlen szűrőtípus.';
+$string['unknowngroup'] = 'Ismeretlen \"$a\" csoport.';
+$string['unknownhelp'] = 'Ismeretlen $a súgótéma.';
+$string['unknownmodulename'] = 'Ismeretlen modulnév az űrlaphoz.';
+$string['unknownrole'] = 'Ismeretlen \"$a\" szerep.';
+$string['unknownuserselector'] = 'Ismeretlen felhasználóválasztó.';
+$string['unknoworder'] = 'Ismeretlen sorrend.';
+$string['unknowquestiontype'] = 'Nem támogatott $a kérdéstípus.';
+$string['unknowuploadaction'] = 'Hiba: ismeretlen feltöltési lépés ($a).';
+$string['unspecifycourseid'] = 'Kurzusazonosítót, rövid nevet vagy azonosítószámot kell megadnia.';
+$string['unsupportedevent'] = 'Nem támogatott eseménytípus.';
+$string['unsupportedstate'] = 'Nem támogatott befejezési állapot.';
+$string['updatersserror'] = 'Hiba történt a(z) $a azonosítójú RSS-hírek frissítése közben.';
+$string['upgradefail'] = 'A változatra váltás sikertelen! $a.';
+$string['userselectortoomany'] = 'A user_selector-hoz több felhasználó tartozik, jóllehet, a multiselect értéke hamis.';
+$string['youcannotdeletecategory'] = 'A(z) \'$a\' kategóriát nem törölheti, mert a tartalmat nem törölheti, és nem is helyezheti át.';
 
+$string['boundsyntaxnotsupport'] = 'A $1, $2 szintaxist a rendszer még nem támogatja! :-(';
 $string['cannofindgradeitem'] = 'Nem található a grade_item';
 $string['cannotupdatepasswordonextauth'] = 'Nem sikerült frissíteni a jelszót a külső auth: $a esetén. További részleteket talál a szervernaplkókban.';
 $string['cannotupdateplugincap'] = 'A(z) $a képességek frissítése nem sikerült!';

@@ -1,7 +1,11 @@
 <?PHP // $Id$ 
+      // lesson.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
-      // lesson.php - created with Moodle 1.7 beta + (2006101003)
-
+$string['essayemailmessage2'] = '<p>Esszéüzenet:<blockquote>$a->question</blockquote></p><p>Az Ön válasza:<blockquote><em>$a->response</em></blockquote></p><p>A pontozó megjegyzései:<blockquote><em>$a->comment</em></blockquote></p><p>Ezen essszékérdésre a lehetséges $a->outof pontból $a->earned pontot kapott.</p><p>A leckével kapcsolatos pontszáma $a->newgrade&#37; pontra módosult.</p>';
+$string['lessonnotready2'] = 'A lecke még nem végezhető el.';
+$string['progressbarteacherwarning2'] = 'A folyamatjelzőt nem fogja látni, mert Ön szerkesztheti ezt a leckét.';
+$string['retakesallowed'] = 'Újbóli próbálkozások engedélyezve';
+$string['viewreports2'] = '$a befejezett próbálkozás megtekintése';
 
 $string['accesscontrol'] = 'Hozzáférés szabályozása';
 $string['actionaftercorrectanswer'] = 'Helyes válasz utáni lépés';

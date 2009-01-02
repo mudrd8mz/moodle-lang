@@ -1,6 +1,40 @@
-<?PHP // $Id$
-      // forum.php - created with Moodle 1.7 beta + (2006101003)
+<?PHP // $Id$ 
+      // forum.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['alreadyfirstpost'] = 'Ez már az első hozzászólás a vitához.';
+$string['areaintro'] = 'Bevezető a fórumhoz';
+$string['cannotadd'] = 'A fórumhoz a vitát nem lehetett hozzáadni.';
+$string['cannotaddteacherforumto'] = 'A kurzus 0. szakaszához nem lehetett hozzáadni az átalakított tanári fórumot.';
+$string['cannotconvertteachertogeneral'] = 'A fórumot nem lehetett tanáriról általánosra módosítani.';
+$string['cannotcreatediscussion'] = 'Nem sikerült új vitát létrehozni.';
+$string['cannotcreateinstanceforteacher'] = 'Nem sikerült új kurzusmodult létrehozni a tanári fórumhoz.';
+$string['cannotdeleteforummodule'] = 'Nem törölheti ezt a fórummodult.';
+$string['cannotdeletepost'] = 'Nem törölheti ezt a hozzászólást.';
+$string['cannoteditposts'] = 'Nem szerkesztheti mások hozzászólását!';
+$string['cannotfinddisscussion'] = 'A fórumban nem található a vita.';
+$string['cannotfindfirstpost'] = 'Nincs meg a fórum első hozzászólása.';
+$string['cannotfindorcreateforum'] = 'A portálhoz nem található vagy nem hozható létre fő hírfórum.';
+$string['cannotfindparentpost'] = 'A(z) $a hozzászólás legfölső eleme nem található.';
+$string['cannotmovefromsingleforum'] = 'A vita egyetlen egyszerű vitafórumból nem helyezhető át.';
+$string['cannotmovenotvisible'] = 'A fórum nem látható.';
+$string['cannotmovetonotexist'] = 'A fórumot nem helyezheti át, mert nem létezik!';
+$string['cannotmovetonotfound'] = 'A célfórum nem található ebben a kurzusban.';
+$string['cannotpurgecachedrss'] = 'A gyorsítótárba helyezett RSS-hírek a forrásfórumból és/vagy a célfórumból nem törölhető - ellenőrizze a permissionsforums állományt.';
+$string['cannotreply'] = 'Erre a hozzászólásra nem válaszolhat.';
+$string['cannotsplit'] = 'A fórum vitái nem oszthatók föl.';
+$string['cannotupdatecoursemoudle'] = 'A kurzusmodul szakaszazonosítóval való frissítése nem sikerült.';
+$string['cannotupdatediscussion'] = 'A vita frissítése nem sikerült.';
+$string['cannotupdatefirstpost'] = 'Az első hozzászólás frissítése nem sikerült.';
+$string['cannotupdateforum'] = 'A fórum frissítése nem sikerült.';
+$string['cannotupdatepost'] = 'A hozzászólást nem frissítheti.';
+$string['configmaxattachments'] = 'A hozzászólásonként megengedett csatolt állományok alapbeállítás szerinti maximális száma';
+$string['errorwhiledelete'] = 'Hiba a rekord törlése közben.';
+$string['invalidparentpostid'] = 'A fölső hozzászólás-azonosító hibás volt.';
+$string['maxattachments'] = 'Maximális csatolt állomány';
+$string['nopermissiontoview'] = 'Ezt a hozzászólást nem tekintheti meg.';
+$string['notexists'] = 'A vita már nem létezik.';
+$string['notinstalled'] = 'A fórummodul nincs telepítve.';
+$string['notpartofdiscussion'] = 'A hozzászólás egy vitának sem része.';
 
 $string['addanewdiscussion'] = 'Új vitatéma hozzáadása';
 $string['addanewquestion'] = 'Új kérdés hozzáadása';

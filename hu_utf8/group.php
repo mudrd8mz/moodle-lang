@@ -1,6 +1,10 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.4+ (2007021540)
+      // group.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['deletegroupsconfirm'] = 'Biztosan törli az alábbi csoportokat?';
+$string['errorselectone'] = 'Ennek kiválasztása előtt válasszon ki egy csoportot.';
+$string['errorselectsome'] = 'Ennek kiválasztása előtt válasszon ki egy vagy több csoportot.';
+$string['potentialmembs'] = 'Lehetséges tagok';
 
 $string['addgroupstogrouping'] = 'Csoport hozzáadása a csoportosításhoz';
 $string['addgroupstogroupings'] = 'Csoportok hozzáadása/törlése';

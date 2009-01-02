@@ -1,6 +1,17 @@
-<?php // $Id$
-// question.php - created with Moodle 1.8 dev
+<?PHP // $Id$ 
+      // question.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+
+$string['cannotcreatepath'] = 'Nem hozható létre a(z) $a útvonal';
+$string['cannotopenforwriting'] = 'Nem nyitható meg írásra a(z) $a';
+$string['errorduringregrade'] = 'Nem pontozható újra a(z) $a->qid, áttérés $a->stateid állapotba.';
+$string['errorpostprocess'] = 'Utófeldolgozás közben hiba történt!';
+$string['errorpreprocess'] = 'Előfeldolgozás közben hiba történt!';
+$string['errorprocess'] = 'Feldolgozás közben hiba történt!';
+$string['missingcourseorcmidtolink'] = 'A get_question_edit_link-hez courseid vagy cmid megadása szükséges.';
+$string['saveflags'] = 'A jelölők állapotának mentése';
+
+$string['nopermissionmove'] = 'Nincs engedélye kérdések áthelyezésére. Mentse el a kérdést ezen kategória alá, vagy mentse el új kérdésként.';
 $string['cannotdeletecate'] = 'A kategóriát nem törölheti, mert az az adott környezetben az alapkategória.';
 $string['cannotfindcate'] = 'Nincs meg a kategóriarekord.';
 $string['cannotfindquestionfile'] = 'Nincs meg a tömörített állományban a kérdés adatállománya.';
@@ -21,8 +32,6 @@ $string['notflagged'] = 'Nincs megjelölve';
 $string['upgradeproblemcategoryloop'] = 'Gond volt a kérdéskategóriák frissítésével. A kategóriafa hurkot tartalmaz. Az érintett kategóriaazonosítók: $a.';
 $string['upgradeproblemcouldnotupdatecategory'] = 'A(z) $a->name ($a->id) kérdéskategória frissítése nem sikerült.';
 $string['upgradeproblemunknowncategory'] = 'Gond volt a kérdéskategóriák frissítésével. A(z) $a->id kategória nem létező $a->parent felettes kategóriára hivatkozik. A hiba kijavításához módosult a felettes kategória.';
-
-
 $string['errormanualgradeoutofrange'] = 'A(z) $a->grade pontszám  $a->name kérdés esetén nem esik 0 és $a->maxgrade közé. A pontszám és a megjegyzés mentésére nem került sor.';
 $string['adminreport'] = 'Jelentés a kérdéseinek adatbázisával kapcsolatos esetleges probklémákról.';
 $string['badbase'] = 'Hibás alap a **: $a** előtt';

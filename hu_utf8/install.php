@@ -1,7 +1,14 @@
 <?PHP // $Id$ 
+      // install.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
-      // install.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['databasecreationsettingssub2'] = '<b>Típus:</b> a telepítő \"mysqli\"-re állítja<br />
+<b>Gazdagép:</b> a telepítő \"localhost\"-ra állítja <br />
+<b>Név:</b> az adatbázis neve, pl. moodle<br />
+<b>Felhasználó:</b> a telepítő \"root\"-ra állítja<br />
+<b>Jelszó:</b> az Ön jelszava az adatbázishoz<br />
+<b>Táblák előtagja:</b> választható előtag az összes táblanévhez';
+$string['nativemysqli'] = 'Tökéletesített MySQL (native/mysqli)';
 
 $string['aborting'] = 'Telepítés abbahagyása';
 $string['admindirerror'] = 'A megadott rendszergazdakönyvtár hibás';

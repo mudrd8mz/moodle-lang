@@ -1,10 +1,12 @@
 <?PHP // $Id$ 
+      // data.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['entrieslefttoaddtoview'] = 'Még $a->entrieslefttoview bejegyzést kell hozzáadnia, mielőtt megtekintheti más résztvevők bejegyzéseit.';
+	  
 $string['data:exportallentries'] = 'Minden adatbázis-bejegyzés exportálása';
 $string['data:exportentry'] = 'Egy adatbázis-bejegyzés exportálása';
 $string['data:exportownentry'] = 'Egy saját adatbázis-bejegyzés exportálása';
 $string['portfolionotfile'] = 'Állomány helyett portfolióba való exportálás (csakis csv)';
-
 
 $string['action'] = 'Művelet';
 $string['add'] = 'Bejegyzés hozzáadása';

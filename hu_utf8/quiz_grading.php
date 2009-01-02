@@ -1,4 +1,9 @@
 <?PHP // $Id$ 
+      // quiz_grading.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+
+	  $string['cannotloadquestioninfo'] = 'Nem lehet betölteni a kérdéstípusra vonatkozó leírást.';
+$string['invalidattemptid'] = 'Nincs ilyen próbálkozásazonosító.';
+$string['invalidquestionid'] = 'Nincs $a azonosítójú osztályozható kérdés.';
 
 $string['gradingnotallowed'] = 'Nincs engedélye ezen teszt válaszainak kézi pontozására';
 $string['gradingreport'] = 'Kézi osztályozó jelentés';

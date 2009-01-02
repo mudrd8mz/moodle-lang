@@ -1,6 +1,13 @@
 <?PHP // $Id:
       // qtype_multichoice.php - created with Moodle 1.7 beta + (2006101003)
 
+
+$string['incorrectfeedback'] = 'Bármely helytelen válasz esetén';
+$string['multichoice'] = 'Feleletválasztós';
+$string['overallpartiallycorrectfeedback'] = 'Visszajelzés részben helyes válasz esetén';
+$string['partiallycorrectfeedback'] = 'Bármely, részben helyes válasz esetén';
+
+
 $string['addingmultichoice'] = 'Feleletválasztós kérdés hozzáadása';
 $string['answerhowmany'] = 'Egy vagy több válasz?';
 $string['addmorechoiceblanks'] = 'Hely további {no} választáshoz';

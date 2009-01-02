@@ -1,5 +1,8 @@
 <?php
 
+$string['thingtaggedwith'] = 'A(z) \"$a->name\" egyszer szerepel';
+
+
 $string['thingstaggedwith'] = '$a->count dolog kapott \"$a->name\" címkét.';
 $string['addedotag'] = 'A(z) \"$a\" hivatalos címkeként való hozzáadása megtörtént.';
 $string['addotags'] = 'Hivatalos címkék hozzáadása';

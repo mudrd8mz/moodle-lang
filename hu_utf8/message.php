@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
+      // message.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
-      // message.php - created with Moodle 1.7 beta + (2006101003)
-
+$string['ajax_gui'] = 'Ajax csevegőszoba';
+$string['errorcallingprocessor'] = 'Hiba a megadott feldolgozó hívása során';
 
 $string['addcontact'] = 'Kapcsolat hozzáadása';
 $string['addsomecontacts'] =  'Üzenet küldéséhez vagy ezen az oldalon egy mutató létrehozásához használja a fenti <a href=\"$a\">keresés fület</a>.';

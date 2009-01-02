@@ -1,6 +1,55 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081002) (2008092400)
+      // portfolio.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+
+$string['activeexport'] = 'Aktív exportálás feloldása';
+$string['activeportfolios'] = 'Aktív portfoliók';
+$string['alreadyalt'] = 'Az exportálás már folyamatban van - kattintson ide az átvitel feloldásához.';
+$string['commonsettingsdesc'] = '<p>Az, hogy az átvitel \'mérsékelt\' vagy \'hosszú\' időt vesz-e igénybe, attól függ, hogy a felhasználó ki tudja-e várni, amíg az befejeződik.</p><p>A \'mérsékelt\' küszöbérték alatti átvitel a felhasználó megkérdezése nélkül végrehajtódik, \'mérsékelt\' és \'hosszú\' esetén lehetőségük van az átvitelre, de figyelmeztetést kapnak annak esetleg elhúzódó jellegéről.</p><p>Emellett egyes portfoli-segédprogramok figyelmen kívül hagyhatják a választási lehetőséget és előírhatják az összes átvitel beütemezését.</p>';
+$string['destination'] = 'Cél';
+$string['displayarea'] = 'Az exportálás területe';
+$string['displayexpiry'] = 'Átvitel lejárata';
+$string['displayinfo'] = 'Exportálási adatok';
+$string['exportexpired'] = 'A portfolió exportálása lejárt.';
+$string['exportexpireddesc'] = 'Valamilyen adatok exportálásának megismétlésével vagy üres exportálással próbálkozott. Ennek helyes végrehajtásához térjen vissza az eredeti helyre és kezdjen neki újból. Ilyesmi előfordul, ha egy exportálás után a Vissza gombot használja, vagy ha érvénytelen URL-t jelöl meg könyvjelzőnek.';
+$string['exportqueuedforced'] = 'A portfolió exportálása átvitelhez sikeresen beütemezve (a távoli rendszer elindította a beütemezett átviteleket).';
+$string['failedtopackage'] = 'Nincs csomagolandó állomány.';
+$string['format_plainhtml'] = 'HTML';
+$string['format_richhtml'] = 'HTML csatolt melléklettel';
+$string['format_text'] = 'Egyszerű szöveg';
+$string['format_video'] = 'Videó';
+$string['highdbsizethreshold'] = 'Hosszú adatbázis-átvitel';
+$string['highdbsizethresholddesc'] = 'Azon adatbázisrekordok száma, mely fölött az átvitel hosszúnak minősül';
+$string['highfilesizethreshold'] = 'Hosszú állományátvitel';
+$string['highfilesizethresholddesc'] = 'Azon állomány,éret, mely fölött az átvitel hosszúnak minősül';
+$string['insanebody'] = 'Jó napot! Ezt az üzenetet a(z) $a->sitename rendszergazdájaként kapja.
+Hibás beállítás miatt néhány portfolió-segédprogram automatikusan ki lett kapcsolva. Ezekbe a portfoliókba a felhasználók most nem exportálhatnak tartalmat. A kikapcsolt portfolió-segédprogramok:
+$a->textlist
+Ezt mielőbb ki kell javítani, ehhez látogasson el ide: $a->fixurl.';
+$string['insanebodyhtml'] = '<p>Jó napot! Ezt az üzenetet a(z) $a->sitename rendszergazdájaként kapja.</p>
+$a->htmllist
+<p>Ezt mielőbb ki kell javítani, ehhez látogasson el <a href=\"$a->fixurl\">a portfolióbeállítási oldalakra</a>.</p>';
+$string['insanesubject'] = 'Néhány portfolió-segédprogram automatikusan ki lett kapcsolva.';
+$string['invalidbuttonproperty'] = 'Nincs meg a portfolio_button tulajdonsága ($a)';
+$string['invalidfileareaargs'] = 'Érvénytelen állományterületre vonatkozó argumentumokat kapott a set_file_and_format_data - elengedhetetlen részei a contextid, a filearea és az itemid.';
+$string['invalidfileargument'] = 'Érvénytelen állományargumentumot kapott a portfolio_format_from_file - ennek stored_file objektumnak kell lenni.';
+$string['invalidpreparepackagefile'] = 'Érvénytelen eljáráshívás prepare_package_file esetén: vagy egy, vagy több állományt kell beállítani.';
+$string['invalidsha1file'] = 'Érvénytelen eljáráshívás get_sha1_file : vagy egy, vagy több állományt kell beállítani.';
+$string['logs'] = 'Átviteli naplók';
+$string['logsummary'] = 'Korábbi sikeres átvitelek';
+$string['missingcallbackarg'] = 'Hiányzó visszahívási $a->arg argumentum $a->class osztály esetén';
+$string['moderatedbsizethreshold'] = 'Mérsékelt méretű átviteli adatbázis';
+$string['moderatedbsizethresholddesc'] = 'Azon adatbázisrekordok száma, mely fölött az átvitel mérsékelten hosszúnak minősül';
+$string['moderatefilesizethreshold'] = 'Mérsékelt méretű átviteli állomány';
+$string['moderatefilesizethresholddesc'] = 'Azon állományméret, amely fölött az átvitel mérsékelten hosszúnak minősül';
+$string['mustsetcallbackoptions'] = 'A visszahívási opciókat be kell állítania a portfolio_add_button konstruktorban, vagy használnia kell a set_callback_options metódust.';
+$string['nocallbackclass'] = 'Nincs meg a használandó visszahívási osztály ($a)';
+$string['noclassbeforeformats'] = 'Állítsa be a visszahívási osztályt, mielőtt meghívja a portfolio_button alatt a set_formats eljárást.';
+$string['notyetselected'] = 'Még nincs kiválasztva';
+$string['pluginismisconfigured'] = 'A portfolió segédprogramja hibásan van beállítva, kihagyva. A hiba: $a.';
+$string['queuesummary'] = 'Jelenleg beütemezett átvitelek';
+$string['transfertime'] = 'Átviteli idő';
+$string['unknownplugin'] = 'Ismeretlen (esetleg a rendszergazda idő közben eltávolította)';
 
 $string['addalltoportfolio'] = 'Az összes hozzáadása a portfolióhoz';
 $string['addnewportfolio'] = 'Új portfolió hozzáadása';

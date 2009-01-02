@@ -1,7 +1,14 @@
 <?PHP // $Id$ 
-      // portfolio_boxnet.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
-      // local modifications from http://localhost
+      // portfolio_boxnet.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+
+$string['apikeyhelp'] = 'Erre van szüksége az enabled.box.net-re való bejelentkezéssel és egy alkalmazás hozzáadásával. A visszahívási url értéke: yourwwwroot/portfolio/add.php?postcontrol=1.';
+$string['apikeyinlinehelp'] = '<p>A Box.net beállításához látogasson el az <a href=\"http://enabled.box.net/my-projects\">enabled.box.net</a> portálra és jelentkezzen be.</p><p>A My Projects (Projektjeim) alatt hozzon létre egy-egy új projektet minden egyes Moodle-portálhoz.</p><p>Az egyetlen lényeges beállítás a visszahívási url, mely a kövekező: $a. A többi beállítás lehet bármi. Mentse el, és már kész is van!';
+$string['pluginname'] = 'Box.net internetes tárhely';
+$string['sendfailed'] = 'Nem sikerült a tartalom elküldése  a box.net-hez: $a';
+$string['sharefile'] = 'Megosztja az állományt?';
+$string['sharefolder'] = 'Megosztja az új mappát?';
+$string['tobecreated'] = 'Létrehozandó';
 
 $string['apikey'] = 'API-kulcs (a Box.nettől szerezze be)';
 $string['err_noapikey'] = 'A segédprogramhoz nincs beállítva API-kulcs. Szerezzen be egyet a http://enabled.box.net címről.';

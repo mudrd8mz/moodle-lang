@@ -1,4 +1,15 @@
-<?PHP //   $Id$
+<?PHP // $Id$ 
+      // feedback.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+
+$string['cannotcreatecompletedfeedback'] = 'A kitöltött visszajelzés nem hozható létre.';
+$string['cannotcreatetmpfeedback'] = 'Az ideiglenes visszajelzés nem hozható létre.';
+$string['cannotmapfeedback'] = 'Hiba az adatbázisban, a visszajelzés nem kapcsolható hozzá a kurzushoz.';
+$string['cannotsavetempl'] = 'sablonok mentése nem engedélyezett';
+$string['cannotunmap'] = 'Hiba az adatbázisban, a kapcsolat bontása nem lehetséges.';
+$string['captchanotset'] = 'Nincs beállítva vizuális kód.';
+$string['feedback_is_not_for_anonymous'] = 'A visszajelzés nem lehetséges névtelen felhasználó esetén.';
+$string['notavailable'] = 'a visszajelzés nem érhető el';
+$string['typemissing'] = 'hiányzik a \"típus\" érték';
 
 $string['add_item'] = 'Kérdés hozzáadása tevékenységhez';
 $string['add_items'] = 'Kérdés hozzáadása tevékenységhez';

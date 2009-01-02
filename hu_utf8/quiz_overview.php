@@ -1,5 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.7 beta + (2006101003)
+      // quiz_overview.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      
+
+$string['studentingrouplong'] = '\'$a->coursestudent\' a csoportban';
 
 $string['overviewreport'] = 'Osztályozó jelentések';
 $string['overviewreportgraphgroup'] = 'Ponthatárt elérő tanulók száma a(z) \'$a\' csoportban';

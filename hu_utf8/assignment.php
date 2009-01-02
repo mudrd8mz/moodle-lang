@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7 beta + (2006101003)
+      // assignment.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+
+$string['invaliduserid'] = 'Érvénytelen felhasználói azonosító';
 
 $string['assignment:exportownsubmission'] = 'Saját leadás exportálása';
 $string['assignment:exportsubmission'] = 'Leadás exportálása';

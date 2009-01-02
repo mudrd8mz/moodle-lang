@@ -1,7 +1,10 @@
-<?PHP // $Id$
+<?PHP // $Id$ 
+      // glossary.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
-      // glossary.php - created with Moodle 1.7 beta + (2006101003)
-
+$string['areaintro'] = 'Bevezető a szójegyzékhez';
+$string['exportentriestoxml'] = 'Fogalmak exportálása XML-állományba';
+$string['invalidglossaryformat'] = 'Érvénytelen szójegyzékforma';
+$string['ratingonlywithpermissions'] = 'Csak a fogalmak értékelésére jogosultak';
 
 $string['addcomment'] = 'Megjegyzés hozzáadása';
 $string['addentry'] = 'Új fogalom hozzáadása';

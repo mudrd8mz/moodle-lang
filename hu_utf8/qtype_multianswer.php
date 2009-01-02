@@ -1,4 +1,16 @@
-<?php
+<?PHP // $Id$ 
+      // qtype_multianswer.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+
+$string['layout'] = 'Elrendezés';
+$string['layouthorizontal'] = 'Választógombok két sorban';
+$string['layoutselectinline'] = 'Szövegből lenyíló menü';
+$string['layoutundefined'] = 'Meghatározatlan elrendezés';
+$string['layoutvertical'] = 'Választógombok két oszlopban';
+$string['questiondefinition'] = 'Kérdés meghatározása';
+
+$string['addingmultianswer'] = 'Beépített válaszos (kitöltő) hozzáadása';
+$string['editingmultianswer'] = 'Beépített válaszos (kitöltő) szerkesztése';
+$string['multianswer'] = 'Beépített válaszos (kitöltő)';
 
 $string['correctanswer'] = 'Helyes válasz';
 $string['correctanswerandfeedback'] = 'Helyes válasz és visszajelzés';

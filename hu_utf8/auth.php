@@ -1,6 +1,15 @@
-<?php // $Id$
-      // auth.php - created with Moodle 1.5 UNSTABLE DEVELOPMENT (2005010100)
+<?PHP // $Id$ 
+      // auth.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+
+$string['auth_radiustype'] = 'Válassza ki a RADIUS-szerverrel használandó hitelesítési sémát.';
+$string['auth_radiustype_key'] = 'Hitelesítés';
+$string['auth_radiustypechapmd5'] = 'CHAP MD5';
+$string['auth_radiustypemschapv1'] = 'Microsoft CHAP, 1. verzió';
+$string['auth_radiustypemschapv2'] = 'Microsoft CHAP, 2. verzió';
+$string['auth_radiustypepap'] = 'PAP';
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() nem támogatja a kiválasztott $a felhasználótípust.';
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() (még...) nem támogatja a kiválasztott felhasználótípust.';
 
 $string['CASform'] = 'Hitelesítési választási lehetőség';
 $string['accesCAS'] = 'CAS-felhasználók';

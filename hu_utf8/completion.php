@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 1.9.2+ (Build: 20080730) (2007101520.03)
-      // local modifications from http://127.1.1.0
+      // completion.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['reportpage'] = '{$a->total} közül {$a->from} - {$a->to} felhasználó megjelenítése.';
 
 $string['activitycompletion'] = 'Tevékenység befejezése';
 $string['badautocompletion'] = 'Automatikus befejezés kiválasztásakor legalább egy követelményt (lásd alább) is meg kell adnia.';

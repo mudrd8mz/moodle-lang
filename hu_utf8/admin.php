@@ -1,5 +1,59 @@
-<?php
+<?PHP // $Id$ 
+      // admin.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['advancedfeatures'] = 'További jellemzők';
+$string['availableto'] = 'Elérheti';
+$string['cannotdeletemissingqtype'] = 'A hiányzó kérdéstípus nem törölhető. A rendszernek szüksége van rá.';
+$string['cannotdeleteqtypeinuse'] = 'A \'$a\' kérdéstípus nem törölhető. A kérdésbankban vannak ilyen típusú kérdések.';
+$string['cannotdeleteqtypeneeded'] = 'A \'$a\' kérdéstípus nem törölhető. Léteznek egyéb, ezzel összefüggő telepített kérdéstípusok.';
+$string['configcourserequestnotify'] = 'Adja meg az új kurzus kérésekor értesítendő felhasználó felhasználói nevét.';
+$string['configextrauserselectorfields'] = 'Felhasználók kiválasztása során, például szerepek hozzárendelése vagy felhasználók csoporthoz való hozzáadása közben ezek a mezők a teljes néven túl szintén megjelennek, és belekerülnek a keresésekbe. Biztonsági okokból nem ajánlatos a felhaszálók nevének megjelenítése.';
+$string['configprofilesforenrolledusersonly'] = 'A levélszemétküldők támadásának megelőzésére a még be nem iratkozott felhasználók profiljának leírása rejtve marad. Az új felhasználóknak legalább egy kurzust fel kell venni ahhoz, hogy hozzáadhassák profiljuk leírását.';
+$string['configsessioncookiedomain'] = 'Ezzel módosíthatja azt a domént, ahonnan a Moodle-sütik elérhetők. Ez hasznos a Moodle olyan testre szabása esetén (pl. hitelesítés vagy beiratkozási segédprogramok), amely során a Moodle egy internetes alkalmazással vagy egy másik aldoménnel információkat kényszerül megosztani. <strong>VIGYÁZAT: kifejeztten ajánlott megtartani az alapbeállítást (üres), mert hibás érték esetén senki nem jelentkezhet be a portálra.</strong>';
+$string['courserequestnotify'] = 'Értesítés kurzuskérésről';
+$string['courserequestnotifyemail'] = '$a->user felhasználó $a->link címen új kurzust igényelt.';
+$string['courserequestspending'] = 'Függőben lévő kurzuskérések';
+$string['dbtest'] = 'Funkcionális adatbázistesztek';
+$string['deleteqtypeareyousure'] = 'Biztosan törli a(z)\'$a\' kérdéstípust?';
+$string['deleteqtypeareyousuremessage'] = 'Teljesen törölni fogja a(z)\'$a\' kérdéstípust. Biztosan eltávolítja?';
+$string['deletingqtype'] = 'A(z)\'$a\' kérdéstípus törlése';
+$string['development'] = 'Fejlesztés';
+$string['errordeletingconfig'] = 'Hiba történt a(z)\'$a\' segédprogram beállítási rekordjainak törlése közben.';
+$string['exceptions'] = 'kivételek';
+$string['experimentalsettings'] = 'Kísérleti beállítások';
+$string['extrauserselectorfields'] = 'Felhasználók kiválasztása során keresés és megjelenítés';
+$string['frontpageoverrides'] = 'A címoldalra vonatkozó engedélyek felülírása';
+$string['invalidlangpack'] = 'a nyelvi csomag szerkesztéséhez át kell helyeznie a nyelvi mappába.';
+$string['langimportdisabled'] = 'A nyelvimportálás ki van kapcsolva. Nyelvi csomagjait álományonként kézzel kell frissítenie.';
+$string['manageqtypes'] = 'Kérdéstípusok kezelése';
+$string['mediapluginyoutube'] = 'A YouTube ugrópontszűrőjének bekapcsolása';
+$string['nodatabase'] = 'Nincs adatbázis';
+$string['noroles'] = 'Nincs szerep.';
+$string['numquestions'] = 'Kérdésszám';
+$string['numquestionsandhidden'] = '$a->numquestions (+$a->numhidden rejtett)';
+$string['profilesforenrolledusersonly'] = 'Profil csak beiratkozott felhasználó esetén';
+$string['qtypedeletefiles'] = 'A(z) \'$a->qtype\' kérdéstípushoz kapcsolódó összes adat törlődött az adatbázisból. A törlés befejezéséhez (és a kérdéstípus visszatelepülésének megakadályozásához) szerveréről törölnie kell ezt a könyvtárat: $a->directory.';
+$string['questiontype'] = 'Kérdéstípus';
+$string['questiontypes'] = 'Kérdéstípusok';
+$string['registration'] = 'Regisztráció';
+$string['requiredentrieschanged'] = '<strong>FONTOS - OLVASSA EL!<br/>(Ez a figyelmeztetés csak ezen frissítés alkalmával jelenik meg)</strong><br/>Hibajavítás miatt a \'Kitöltendő bejegyzések\' és a \'Megtekintés beállítása előtti kitöltendő bejegyzések\' beállításokat használó adatbázis-tevékenységek viselkedése módosulni fog. Részletesebben lásd az <a href="http://moodle.org/mod/forum/discuss.php?d=110928" target="_blank">adatbázismodul fórumát</a>. Az elvárt viselkedésről olvashat itt is: <a href="http://docs.moodle.org/en/Adding/editing_a_database#Required_entries" target="_blank">Moodle Docs</a>. <br/><br/>A változás rendszerében az alábbi adatbázisokat fogja érinteni: (a listát most és frissítés után is mentse el, és ellenőrizze, hogy a tevékenységek továbbra is a tanár szándékainak megfelelően működnek-e.)<br/><strong style="color:red">$a->text</strong><br/>';
+$string['requires'] = 'Kitöltendő.';
+$string['riskdataloss'] = 'A felhasználók terjedelmes tartalmat és információkat tehetnek tönkre.';
+$string['riskdatalossshort'] = 'Adatvesztés kockázata';
+$string['roleswithexceptions'] = '$a->roles, $a->exceptions kivétellel';
+$string['sessioncookiedomain'] = 'Süti doménje';
+$string['showdetails'] = 'Részletek megtekintése';
+$string['uninstallqtype'] = 'A kérdéstípus eltávolítása.';
+
+$string['configgetremoteaddrconf'] = 'Ha szervere egy fordított gyorsítótár mögött van, ezzel a beállítással megadhatja, mely HTTP-fejlécek tartalmazhatják a megbízható távoli IP-címet. A fejlécek beolvasása sorrendben történik, kezdve az első elérhetővel.';
+$string['configstatsmaxruntime3'] = 'Adja meg az egy napra statisztika kiszámítására fordítható maximális időt, figyelembe véve azt, hogy ez a feldolgozás erősen megterheli a szervert. Alább adhatja meg az egy cron alatt feldolgozható napok maximális számát.';
+$string['configstatsruntimedays'] = 'Adja meg az egyes statisztikákban feldolgozott napok maximális számát. Naprakész statisztika esetén csak egy napot dolgoz föl a rendszer, ezért ezt az értéket a szerver leterheltsége szerint állítsa be; ha rövidebb cronra van szüksélge, rövidítse az időtartamot.';
+$string['configverifychangedemail'] = 'Bekapcsolja a módosított e-mail címek ellenőrzését az engedélyezett és a tiltott e-mail doménbeállítások alapján. Kikapcsolása esetén a domének használatára csak új felhasználók létrehozása esetén kerül sor.';
+$string['getremoteaddrconf'] = 'Naplózott IP-cím forrása';
+$string['reverseproxy'] = 'Fordított proxy';
+$string['statsruntimedays'] = 'Földolgozandó napok';
+$string['usersweakpassword'] = 'Gyenge jelszóval rendelkező felhasználók';
+$string['verifychangedemail'] = 'Domének korlátozása e-mail módosításakor';
 $string['allowbeforeblock'] = 'Először az engedélyezett lista feldolgozására kerül sor.';
 $string['allowbeforeblockdesc'] = 'Alaphelyzetben ha be van kapcsolva, a blokkolt lista feldolgozása történik először, az engedélyezett IP-lista feldolgozása a blokkolt lista előtt történik.';
 $string['allowediplist'] = 'Engedélyezett IP-lista';
