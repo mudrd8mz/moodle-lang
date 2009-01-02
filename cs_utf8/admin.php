@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20090102) (2007101533.01)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -41,6 +41,7 @@ $string['bookmarkthispage'] = 'přidat záložku';
 $string['cachetext'] = 'Udržet text ve vyrovnávací paměti po dobu';
 $string['cachetype'] = 'Typ vyrovnávací paměti';
 $string['calendar_weekend'] = 'Víkend';
+$string['calendarexportsalt'] = 'Náhodný řetězec (salt) pro export kalendáře';
 $string['calendarsettings'] = 'Kalendář';
 $string['cfgwwwrootslashwarning'] = 'Máte špatně nastavenu hodnotu proměnné &#36;CFG->wwwroot ve vašem souboru config.php. Máte na konci cesty navíc znak \'/\'. Odstraňte ho prosím, nebo se i nadále bude setkávat si chybami jako je <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>tato</a>';
 $string['cfgwwwrootwarning'] = 'Máte špatně nastavenou hodnotu proměnné &#36;CFG->wwwroot ve vašem souboru config.php. Hodnota nesouhlasí s URL, kterou používáte pro přístup na tuto stránku. Hodnotu prosím opravte, nebo se budete potýkat s chybami, jako je <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>tato</a>.';
@@ -73,6 +74,7 @@ $string['configautologinguests'] = 'Mají být návštěvníci vašich stránek 
 $string['configbloglevel'] = 'Touto volbou nastavujete úroveň přístupu k blogům na vašich stránkách. Nastavení se týká ČTENÁŘŮ, nikoliv autorů či typů blogů. Pokud blogy nechcete používat, můžete je vypnout úplně.';
 $string['configcachetext'] = 'U rozsáhlejších instalací používajících textové filtry může toto nastavení vést k výraznému nárůstu výkonu. Zpracovaný text zůstává po určenou dobu ve vyrovnávací paměti a není generován opakovaně při každém požadavku. Nastavení příliš nízké hodnoty může výkon mírně snížit, vysoké hodnoty mohou způsobovat opožděnou aktualizaci obsahu (např. nebudou okamžitě zobrazeny nově přidané odkazy).';
 $string['configcachetype'] = 'Zvolte typ vyrovnávací paměti, kterou bude Moodle používat. Tímto si volíte pouze typ vyrovnávací paměti - nezapomeňte vyrovnávací paměť povolit v nastavení rcache. Vyrovnávací paměť použijte <strong>pouze v případě</strong>, kdy potřebujete snížit zatížení databázového systému. Její použití může ve finále běh Moodlu zpomalit. Stránky se středně náročným zatížením mohou profitovat z nastavení \"internal\". Na webovém serveru s nainstalovanými akcelerátory eAccelerator nebo Turckmmcache s <em>povoleným použitím sdílené paměti</em> můžete vyzkoušet \"eaccelerator\". Máte-li multiserverovou instalaci a používáte jeden nebo několik  běžících démonů memcached spolu s rozšířením PHP-memcached, zvolte volbu \"memcached\" a nastavte potřebné parametry uvedené dále.<br /><strong>Poznámka:</strong> pro efektivní využití vyrovnávací paměti je potřeba provést řadu testů a dolaďování. Akcelerátory eAccelerator a memcached patří mezi nejvýkonnější, ale zároveň mají velké nároky na využití procesorového času.';
+$string['configcalendarexportsalt'] = 'Tento náhodný řetězec zvyšuje zabezpečení autentizačních zámků, které se používání při exportu kalendářů. Při změně této hodnoty se všechny stávající autentizační zámky zneplatní.';
 $string['configclamactlikevirus'] = 'Považuj soubory za viry';
 $string['configclamdonothing'] = 'Považuj soubory za neškodné';
 $string['configclamfailureonupload'] = 'Jak se má Moodle zachovat při chybě v konfiguraci nebo v případě jiného problému s Clam AV. Při volbě \'Považuj soubory za viry\' budou soubory umístěny do karantény, nebo budou odstraněny. Při volbě \'Považuj soubory za neškodné\' budou soubory normálně uloženy do cílového umístění. Správci serveru budou v obou přpadech upozorněni, že se Clam AV nepodařilo spustit. Zvolíte-li \'Považuj soubory za viry\' a Clam AV se z nějakého důvodu nepodaří spustit (většinou proto, že zadáte neplatnou pathtoclam), budou VŠECHNY nahrávané soubory přesunuty do karantény nebo odstraněny! Zacházejte proto s tímto nastavením opatrně.';
@@ -109,6 +111,7 @@ $string['configeditorfontlist'] = 'Seznam fontů, které budou zobrazovány v na
 $string['configemailchangeconfirmation'] = 'Znovu vyžadovat potvrzení nové emailové adresy, pokud si ji uživatelé změní ve svém profilu.';
 $string['configemoticons'] = 'Změňte znaky na levé straně reprezentující smajlík na pravé straně. Pro přidání nové emotikony přidejte její kód na levou stanu a jméno emotikony na pravou, pak nahrajte soubor nazvaný jmeno_emotikonu.gif do adresáře /pix/s.';
 $string['configenableajax'] = 'Tímto povolujete technologii AJAX na úrovni celého serveru. Jedná se o pokročilé rozhraní mezi prohlížečem a webovým serverem, které využívá Javascript. I když je zde AJAX povolen, uživatelé si jeho použití mohou vypnout ve svých profilech.';
+$string['configenablecalendarexport'] = 'Povolit export kalendářů nebo odebírání jejich položek';
 $string['configenablecourserequests'] = 'Povolit uživatelům žádat o založení kurzu?';
 $string['configenableglobalsearch'] = 'Tímto lze povolit globální vyhledávání textu ve studijních materiálech a činnostech. Není kompatibilní s PHP 4.';
 $string['configenablegroupings'] = 'Povolit seskupování skupiny (dosud není plně implementováno).';
@@ -339,6 +342,7 @@ $string['emailchangeconfirmation'] = 'Potvrzovat změnu emailu';
 $string['emoticons'] = 'Emotikony';
 $string['emptysettingvalue'] = 'Prázdný';
 $string['enableajax'] = 'Povolit AJAX';
+$string['enablecalendarexport'] = 'Povolit export kalendáře';
 $string['enablecourserequests'] = 'Povolit požadování kurzů';
 $string['enableglobalsearch'] = 'Povolit globální vyhledávání';
 $string['enablegroupings'] = 'Povolit seskupování';
