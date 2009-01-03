@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
+      // error.php - created with Moodle 2.0 dev (Build: 20081231) (2008123102)
 
 
 $string['TODO'] = 'TODO';
@@ -399,6 +399,7 @@ $string['sessioncookiesdisable'] = 'require_key_login() の使用が正しくあ
 $string['sessionerroruser'] = 'セッションがタイムアウトしました。再度ログインしてください。';
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検知されました。再度ログインするかブラウザを再起動してください。';
 $string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。通常のユーザは、このメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
+$string['sessionipnomatch2'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。あなたがワイヤレスネットワークまたは異なるネットワーク間のローミングを使用している場合、このエラーが表示されます。詳細はサイト管理者にお問合せください。<br /><br />続ける場合、このページをリフレッシュするため、F5キーを押してください。';
 $string['socksnotsupported'] = 'PHP4では、SOCKS5プロクシがサポートされていません。';
 $string['spellcheckernotconf'] = 'スペルチェッカが設定されていません。';
 $string['statscatchupmode'] = '現在、統計はキャッチアップモードです。今までのところ $a->daysdone 日分が処理され、$a->dayspending 日分が未処理です。すぐに確認してください!';
