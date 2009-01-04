@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081224) (2008121701)
+      // error.php - created with Moodle 2.0 dev (Build: 20090104) (2008123102)
 
 
 $string['TODO'] = '실행목록';
@@ -399,6 +399,7 @@ $string['sessioncookiesdisable'] = 'require_key_login()의 사용이 바르지 �
 $string['sessionerroruser'] = '세션이 종료 되었습니다. 다시 로그인 하십시오.';
 $string['sessionerroruser2'] = '로그인 세션에 영향을 줄만한 서버 오류가 발생했습니다. 다시 로그인 하시거나 인터넷 창을 다시 켜주십시오.';
 $string['sessionipnomatch'] = '죄송합니다 당신의 아이피 주소가 처음 로그인 했을 때와 다릅니다. 이 보안 기능은 해커가 아이디를 도용해 이 사이트에 접속하는 것을 방지합니다. 정상적인 사용자들에게는 이 메시지가 나타나지 않을 것입니다. 도움을 원한다면 이 사이트의 운영자에게 문의하시기 바랍니다.';
+$string['sessionipnomatch2'] = '죄송합니다. 당신의 아이피 주소가 처음 로그인 했을 때와 다릅니다. 이 보안 기능은 해커가 아이디를 도용해 이 사이트에 접속하는 것을 방지합니다. 이 메시지는 무선네트웍을 이용하거나 로밍 서비스를 이용할 때에도 나타날 수 있습니다. 좀 더 자세한 사항은 사이트 관리자에게 문의하기 바랍니다.<br /><br />계속 진행하고 싶으시면 F5키를 눌러 화면을 갱신하십시오.';
 $string['socksnotsupported'] = 'PHP4는 SOCKS5 프록시를 지원하지 않음';
 $string['spellcheckernotconf'] = '철자검색기가 설정되지 않음';
 $string['statscatchupmode'] = '현재 통계 수집중에 있습니다. 현재 $a->daysdone 일간의 자료가 처리되었고 $a->dayspending 가 처리 대기중에 있습니다. 잠시후 다시 확인해 주시기 바랍니다!';
