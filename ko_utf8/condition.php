@@ -3,10 +3,10 @@
 
 
 $string['addcompletions'] = '양식에 활동 조건 추가';
-$string['addgrades'] = '양식에 채점 조건 추가';
+$string['addgrades'] = '양식에 성적 조건 추가';
 $string['availabilityconditions'] = '이용 조건';
-$string['availablefrom'] = '시작 조건부';
-$string['availableuntil'] = '종료 조건부';
+$string['availablefrom'] = '공개 개시';
+$string['availableuntil'] = '종료 날짜';
 $string['completion_complete'] = '완료 표시';
 $string['completion_fail'] = '낙제 점수로 완료';
 $string['completion_incomplete'] = '미완료';
@@ -14,9 +14,9 @@ $string['completion_pass'] = '통과 점수로 완료';
 $string['completioncondition'] = '활동 완료 조건';
 $string['configenableavailability'] = '켜져 있으면, 어떤 활동 수행에 대한 (날짜, 성적 혹은 완료 상태에 기반한) 조건을 설정할 수 있게 된다.';
 $string['enableavailability'] = '수행 조건 활성';
-$string['grade_atleast'] = 'must be &ge;';
-$string['grade_upto'] = 'and &lt;';
-$string['gradecondition'] = '성적 조건';
+$string['grade_atleast'] = '득점 &ge;';
+$string['grade_upto'] = '그리고 &lt;';
+$string['gradecondition'] = '성적 요건';
 $string['help_conditiondates'] = '이용 날짜';
 $string['help_showavailability'] = '이용할 수 없음 제시';
 $string['none'] = '(없음)';
