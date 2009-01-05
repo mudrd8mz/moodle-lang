@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081231) (2008121701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090104) (2008123102)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -47,6 +47,7 @@ $string['bookmarkthispage'] = '이 주소를 갈무리함';
 $string['cachetext'] = '문서 캐쉬 한계';
 $string['cachetype'] = '캐쉬 유형';
 $string['calendar_weekend'] = '주말';
+$string['calendarexportsalt'] = '일정표 내보내기 암호';
 $string['calendarsettings'] = '일정표';
 $string['cannotdeletemissingqtype'] = '없는 문제 유형은 삭제할 수 없습니다.';
 $string['cannotdeleteqtypeinuse'] = '\'$a\' 문제 유형은 삭제할 수 없습니다. 문제 은행에 이 형식의 문제들이 있습니다.';
@@ -82,6 +83,7 @@ $string['configautologinguests'] = '어떤 강좌에 방문객이 접속했을 �
 $string['configbloglevel'] = '본 설정은 이 사이트에 있는 이용자 블로그를 어느 수준까지 보게 할 것인가를 지정하는 것이다. 블로그에 게제된 유형 혹은 내용을 지정하는 것이 아니라 Viewer의 최대 영역을 지정한다는 점에 유의하기 바란다. 여러분이 블로그 사용을 꺼려하면 이를 비활성화 시킬 수 있다.';
 $string['configcachetext'] = '큰 사이트나 문서 필터를 사용하는 사이트라면 이 설정값을 적절히 줌으로서 처리 속도를 빠르게 할 수 있다. 문서는 여기에 지정된 시간 동안 메모리에 저장된다. 실제로 이 값을 너무 작게 설정하면 다소 처리 속도가 늦게 되며, 또 너무 큰 값을 설정해도 입력된 내용(예를 들어, 새로운 링크)을 갱신하는데 시간이 오래 걸릴 것이다.';
 $string['configcachetype'] = '무들이 사용할 캐쉬 유형을 고르라. 이것은 단지 캐쉬만 설정하는 것이고 이를 실제로 사용하기 위해서는 rcache를 활성화해야 한다는 것을 기억하기 바란다. 데이터베이스 시스템의 부하를 줄일 필요가 있을 때만 사용하라. 그렇지 않다면 무들은 더 느리게 작동할 것이다. 접속 수가 그리 많지 않은 사이트에서는 \'내부\' 캐쉬를 사용할 경우 이득을 볼 수도 있다. <em>여분 메모리가 활성화 된</em> eAccelerator 혹은 Turckmmcache 가 구동되는 단일 웹서버에서는 \'eaccelerator\'를 시도해 봄직도 하다. 만일 다중 서버로 구성되어 있고 하나 이상의 memcached 데몬이 구동되고 있으며 PHP-memcached 확장을 이용하고 있다면, \'memcached\'를 선택하고 아래에 있는 선택사항을 설정하기 바란다. <br /><strong>주의:</strong> 부하가 걸린 상태에서 성능 점검을 해 보고 적당히 조정해야 함을 명심하라. 매우 접속 수가 많은 경우에는 eAccelerator 와 memcached 는 최대의 잇점을 보장할 수 있지만, 웹서버의 CPU에 부담을 줄 수도 있다.';
+$string['configcalendarexportsalt'] = '본 휘뚜루마뚜루 문서는 일정표를 내보내는 데 인증 토큰의 보안성을 증가시키기 위해 사용된 것입니다. 만일 현재의 내용을 변경하게 되면 현재 쓰고 있는 모든 토큰이 무효화됨을 상기하기 바랍니다.';
 $string['configclamactlikevirus'] = '바이러스 파일로 처리';
 $string['configclamdonothing'] = '정상적인 파일로 처리';
 $string['configclamfailureonupload'] = '만약 업로드 된 파일을 검사하도록 지정했는데, 잘 못 설정되거나 알려지지 않은 이유 때문에 오류가 발생한다면, 어떻게 될까? 이 때 만약 \'바이러스 파일로 처리하기\'를 선택한다면 그들은 격리 구역으로 가거나 삭제될 것이다. 만약 \'정상적인 파일로 처리\'를 선택하면 그 파일은 일반적인 저장고로 이동할 것이다. 어쨌든 관리자는 이에 대한 경고를 받게 된다. 만약 당신이 \'바이러스 파일로 처리\'를 선택했는데, 어떤 이유에서건 실행 오류를 만나게 된다면(대개는 불가능한 경로를 설정했기 때문에 생긴다)업로드 된 모든 파일은 격리된 구역으로 옮겨지거나 삭제 된다. 이 설정을 할 때는 매우 조심하라.';
@@ -118,6 +120,7 @@ $string['configeditorfontlist'] = '편집기의 펼침 목록에 나타날 글�
 $string['configemailchangeconfirmation'] = '사용자가 개인 정보에서 메일 주소를 변경하면 이메일 주소 확인 절차를 요구';
 $string['configemoticons'] = '오른편에 있는 이모티콘의 이름과 관계된 왼편의 코드를 변경하세요. 새로운 이모티콘을 추가하기 위해서는 코드와 이름, 그리고 /pix/s 에  이름.gif 형식으로 이미지를 추가하세요.';
 $string['configenableajax'] = '만일 AJAX 기능을 활성화하면 이용자는 자신들의 개인정보에서 이를 비활성화 할 수 있으나, 여기에서 비활성화하면 모든 사람이 AJAX 기능을 쓸 수 없게 된다.';
+$string['configenablecalendarexport'] = '일정표로 내보냄/작성 활성화';
 $string['configenablecourserequests'] = '이 기능을 켜 놓으면 어느 누구던 강좌를 요청하여 만들 수 있다.';
 $string['configenableglobalsearch'] = '이 설정은 전체 자료와 활동에서 문서를 찾을 수 있게 해 준다. 이는 PHP4와는 호환되지 않는다.';
 $string['configenablegroupings'] = '이 설정은 모둠을 무리지을 수 있게 한다.';
@@ -367,6 +370,7 @@ $string['emailchangeconfirmation'] = '이메일 주소 검증';
 $string['emoticons'] = '이모티콘';
 $string['emptysettingvalue'] = '비어있음';
 $string['enableajax'] = 'AJAX 활성화';
+$string['enablecalendarexport'] = '일정표로 내보내기 활성화';
 $string['enablecourserequests'] = '강좌 요청 가능';
 $string['enableglobalsearch'] = '전역 검색 활성화';
 $string['enablegroupings'] = '모둠 무리 활성화';
@@ -675,6 +679,8 @@ $string['registration'] = '시스템등록';
 $string['releasenoteslink'] = '무들 버전에 대한 정보를 얻기 위해서는 온라인 <a target=\"_new\" href=\"$a\">릴리즈 노트</a> 를 보십시요.';
 $string['remotelangnotavailable'] = '무들이 download.moodle.org에 접속하지 못했기 때문에 언어팩을 자동으로 설치하지 못하였습니다. 수동으로 아래에 제시된 목록에서 적절한 zip파일을 내려받아 여러분의 $a 디랙토리에 풀어넣기 바랍니다.';
 $string['renameerrors'] = '이름변경 오류';
+$string['requiredentrieschanged'] = '<strong>중요 - 필히 읽어볼 것<br/>(본 경고문은 이 판의 판올림 과정에서만 보이게 될 것입니다.)</strong><br/>버그 수정 때문에, \'항목 필수\' 및 \'설정 보기전 항목 필수\'설정을 이용하는 데이터베이스 활동에 대한 작동이 변경될 것입니다. 좀 더 자세한 변경 내용은 <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">데이터베이스 모듈 포럼</a>을 참고하면 됩니다. 이러한 설정이 어떻게 작동할 것인가는 <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">무들 문서 창고</a>에서 역시 찾아볼 수 있습니다.
+<br/><br/>본 변경은 여러분의 시스템의 다음과 같은 데이터베이스에 영향을 줄 것입니다.(바라옵건데 지금 즉시 이 목록을 저장하여 두고, 판올림 이후에 활동들이 교수자들의 의도한 대로 온전히 구동되는지를 점검해 보기 바랍니다.)<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = '필수사항. 여기에 템플릿 문법을 사용할 수 있습니다 (%%l = 성, %%f = 이름, %%u = 사용자 ID). 세부사항과 예제는 도움말을 보세요.';
 $string['requires'] = '필수';
 $string['restrictbydefault'] = '초기 설정으로 모듈 제한';

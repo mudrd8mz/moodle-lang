@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081231) (2008121701)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090104) (2008123102)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -443,6 +443,7 @@ $string['displayingusers'] = '$a->start 에서 $a->end 까지 이용자 보기';
 $string['displayonpage'] = '한 화면으로 보기';
 $string['documentation'] = '무들 문서';
 $string['donotask'] = '요청하지 말 것';
+$string['donotclickcontinue'] = '다음의 계속 연결고리를 누르지 마세요 ;-)';
 $string['down'] = '아래';
 $string['downloadexcel'] = '엑셀 양식으로 내려받기';
 $string['downloadfile'] = '파일 내려받기';
