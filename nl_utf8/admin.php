@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -7,7 +7,7 @@ $string['accounts'] = 'Gebruikers';
 $string['adminseesall'] = 'Beheerders zien alles';
 $string['adminseesallevents'] = 'Beheerders zien alle gebeurtenissen';
 $string['adminseesownevents'] = 'Beheerders zien niet alle gebeurtenissen';
-$string['advancedfeatures'] = 'Geavanceerde mogelijkheden';
+$string['advancedfeatures'] = 'Geavanceerd';
 $string['allowbeforeblock'] = 'Lijst met toegelaten adressen zal eerst verwerkt worden';
 $string['allowbeforeblockdesc'] = 'Standaard zal de lijst met geblokkeerde adressen eerst verwerkt worden. Als deze ooptie is ingeschakeld, dan zullen de toegelaten adressen verwerkt worden voor de lijst met geblokkeerde adressen.';
 $string['allowcategorythemes'] = 'Categoriethema\'s toestaan';
@@ -47,6 +47,7 @@ $string['bookmarkthispage'] = 'Bladwijzer maken';
 $string['cachetext'] = 'Hoelang mag tekst in cache blijven';
 $string['cachetype'] = 'Cache type';
 $string['calendar_weekend'] = 'Weekend';
+$string['calendarexportsalt'] = 'Kalender export beveiliging';
 $string['calendarsettings'] = 'Kalender';
 $string['cannotdeletemissingqtype'] = 'Je kunt het ontbrekende vraagtype niet verwijderen. Het is nodig voor het systeem.';
 $string['cannotdeleteqtypeinuse'] = 'Je kunt vraagtype \'$a\' niet verwijderen. Er zijn vragen van dit type in de vragenpool.';
@@ -83,6 +84,7 @@ $string['configautologinguests'] = 'Moeten bezoekers automatisch als gast aangem
 $string['configbloglevel'] = 'Met deze instelling kun je het niveau beperken waarop gebruikers blogs op deze site kunnen zien. Merk op dat ze een maximum zetten voor wie KIJKT, niet voor wie berichten post of de mogelijke types berichten die gepost kunnen worden. Blogs kunnen ook uitgeschakeld worden als je ze niet wil.';
 $string['configcachetext'] = 'Deze instelling kan de snelheid vergroten voor grotere sites of voor sites die tekstfilters gebruiken. kopieën van teksten zullen in hun gecompileerde vorm bewaard worden voor de tijd die je hier instelt. Als je deze tijd te kort instelt, zou je zelfs een kleine vertraging kunnen krijgen, maar de tijd te lang instellen kan ervoor zorgen dat het te lang duurt voor teksten vernieuwd worden (met nieuwe links bijvoorbeeld).';
 $string['configcachetype'] = 'Kies een Cache type voor Moodle. Deze instelling zal enkel de cache configureren. Denk er aan rcache in te schakelen, zodat de cache ook gebruikt wordt. Gebruik cache <strong>alleen</strong> als je de belasting op je database moet verlagen -- anders kan Moodle trager lopen. Sites met matig verkeer, kunnen hun voordeel halen door \'intern\' in te schakelen. Als je een enkelvoudige webserver met eAccelerator of Turckmmcache geïnstalleerd hebt, <em>met de shared memory opties ingeschakeld</em>, probeer dan \'eaccelerator\'. Als je een installatie op meerdere servers hebt en je hebt één of meerdere memcache daemons lopen met de PHP-memcached extentie, kies dan \'memcached\' en configureer onderstaande opties. <br /><strong>Opmerking:</strong> test de performantie onder zware belasting en regel dan bij - de cache kan je site trager maken. In situaties met veel verkeer haal je het beste resultaat met eAccelerator en memcached, maar het geeft je een hogere kost in CPU-gebruik op je webserver.';
+$string['configcalendarexportsalt'] = 'Deze willekeurige tekst wordt gebruikt om de beveiliging van authenticatie-tokens te verbeteren. Deze tokens worden gebruikt bij het exporteren van kalenders. Alle huidige tokens worden ongeldig als je deze tekst wijzigt.';
 $string['configclamactlikevirus'] = 'Behandel bestanden als virussen';
 $string['configclamdonothing'] = 'Behandel bestanden als OK';
 $string['configclamfailureonupload'] = 'Als je clam geconfigureerd hebt om geüploade bestanden op virussen te scannen, maar het is slecht geconfigureerd of loopt niet om één of andere reden, hoe moet Moodle zich dan gedragen? Als je kiest voor \"Behandel alle bestanden als virussen\", dan zullen alle bestanden naar de quarantainezone  verplaatst worden of verwijderd worden. Als je kiest voor \"Behandel bestanden als OK\", dan zullen de bestanden naar de bedoelde map verplaatst worden zoals normaal. In beide gevallen wordt de beheerder op de hoogte gebracht van het slecht werken van clam. Als je kiest voor \"Behandel bestanden als virussen\" en om één of andere reden werkt clam niet (gewoonlijk omdat je een verkeerd pad naar clam gegeven hebt), dan zullen ALLE geüploade bestanden naar de quarantainezone verplaatst worden of verwijderd worden. Wees voorzichtig met deze instelling.';
@@ -121,6 +123,7 @@ $string['configeditorfontlist'] = 'Kies de lettertypes die in het dropdownmenu v
 $string['configemailchangeconfirmation'] = 'Als een gebruiker zijn e-mailadres wil wijzigen, moet die dat dan bevestigen via een bevestigingsmail? Deze optie inschakelen is nuttig op sites waar gebruikers zelf accounts kunnen aanmaken en wijzigen en waarbij die accounts gebruikt kunnen worden voor het versturen van spam.';
 $string['configemoticons'] = 'Wijzig de code (links) die gekoppeld is aan de naam van het emoticon (rechts). Om nieuwe emoticons toe te voegen, voeg je naam en code toe en voeg je een afbeelding toe in de map /pix/s met naam.gif als naam.';
 $string['configenableajax'] = 'Met deze instelling kun je het gebruik van AJAX (een geavanceerde op Javascript gebaseerde client/serverinterface) controleren voor de hele site. Met deze instelling aan kunnen gebruikers nog steeds kiezen via hun profiel of ze AJAX willen gebruiken, anders is AJAX voor iedereen uitgeschakeld';
+$string['configenablecalendarexport'] = 'Exporteren of abonneren op kalenders inschakelen';
 $string['configenablecourserequests'] = 'Hiermee kan elke gebruiker aanvragen om een nieuwe cursus aan te maken.';
 $string['configenableglobalsearch'] = 'Deze instelling maakt het globaal zoeken van tekst mogelijk in bronnen en activiteiten. Deze functie is niet compatibel met PHP4';
 $string['configenablegroupings'] = 'Deze instelling schakeld groepering van groepen in (Nog niet volledig geïmplementeerd)';
@@ -363,6 +366,7 @@ $string['emailchangeconfirmation'] = 'Bevestiging van wijziging e-mailadres';
 $string['emoticons'] = 'Emoticons';
 $string['emptysettingvalue'] = 'Leeg';
 $string['enableajax'] = 'AJAX inschakelen';
+$string['enablecalendarexport'] = 'Kalenderexport inschakelen';
 $string['enablecourserequests'] = 'Cursusaanvragen inschakelen';
 $string['enableglobalsearch'] = 'Globaal zoeken inschakelen';
 $string['enablegroupings'] = 'Groeperingen inschakelen';
@@ -538,7 +542,10 @@ $string['minpasswordupper'] = 'Hoofdletters';
 $string['misc'] = 'Andere';
 $string['missinglangparent'] = 'Ontbrekende parent language <em>$a->parent</em> voor <em>$a->lang</em>.';
 $string['mnetrestore_extusers'] = '<strong>Opmerking:</strong> Dit backupbestand bevat Moodle Netwerk accounts, die zullen teruggezet worden als deel van dit proces';
+$string['mnetrestore_extusers_admin'] = '<strong>Opmerking:</strong> Dit backup-bestand komt blijkbaar van een andere Moodle-installatie en bevat Moodle Network accounts. Tijdens het terugzetten ervan zal Moodle proberen om die gebruikers aan de juiste Moodle Netwerk server te koppelen. Diegene die niet gekoppeld kunnen worden, zullen met interne aanmelding in plaats van mnet aangemaakt worden. Het logscherm van het terugzetten zal je hierover informeren.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Opmerking:</strong> Dit backupbestand komt blijkbaar van een andere Moodle-installatie en bevat Moodle Netwerk accounts die mogelijk niet teruggezet kunnen worden. Deze operatie wordt niet ondersteund. Als je er zeker van bent dat dit bestand op deze Moodle installatie werd gemaakt of je kunt er zeker van zijn dat alle nodige Moodle Netwerk Hosts geconfigureerd zijn, dan kun je toch proberen deze backup terug te zetten.';
+$string['mnetrestore_extusers_noadmin'] = '<strong>Opmerking:</strong> Dit backup-bestand komt blijkbaar van een andere Moodle-installatie en bevat Moodle Network accounts. Je hebt niet het recht om zo een backup terug te zetten. Contacteer je site-beheerder of zet deze cursus terug zonder gebruikersgegevens.';
+$string['mnetrestore_extusers_switchuserauth'] = 'Moodle Netwerkgebruiker  $a->username (komt van $a->mnethosturl) is ombeschakeld naar een lokale  $a->auth geauthenticeerde gebruiker.';
 $string['modsettings'] = 'Beheer activiteiten';
 $string['modulesecurity'] = 'Module security';
 $string['multilangforceold'] = 'Forceer oude multilang syntax: <span> zonder de class=\"multilang\" en <lang>';

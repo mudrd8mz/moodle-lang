@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -42,7 +42,7 @@ $string['cannotcreateinstanceforteacher'] = 'Kon geen nieuwe cursusmodule maken 
 $string['cannotdeleteforummodule'] = 'Je kan de forummodule niet verwijderen';
 $string['cannotdeletepost'] = 'Je kunt dit bericht niet verwijderen!';
 $string['cannoteditposts'] = 'Je kunt een bericht van andere gebruikers niet wijzigen!';
-$string['cannotfinddisscussion'] = 'Kon de discussie niet vinden in dit forum';
+$string['cannotfinddiscussion'] = 'Kon die discussie in dit forum niet vinden';
 $string['cannotfindfirstpost'] = 'Kon het eerste bericht van dit forum niet vinden';
 $string['cannotfindorcreateforum'] = 'Kon geen nieuwforum maken of vinden voor deze site';
 $string['cannotfindparentpost'] = 'Kon top ouder van bericht $a niet vinden';
@@ -359,6 +359,7 @@ $string['youratedthis'] = 'Je beoordeelde dit';
 $string['yournewquestion'] = 'Je nieuwe vraag';
 $string['yournewtopic'] = 'Je nieuwe discussieonderwerp';
 $string['yourreply'] = 'Jouw antwoord';
+$string['cannotfinddisscussion'] = 'Kon de discussie niet vinden in dit forum'; // ORPHANED
 $string['cannotinsertrate'] = 'Kon nieuwe beoordeling niet toevoegen ($a[0] = $a[1])'; // ORPHANED
 $string['cannotupdaterate'] = 'Kon een vroegere beoordeling niet updaten ($a[0] = $a[1])'; // ORPHANED
 
