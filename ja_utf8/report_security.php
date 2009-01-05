@@ -45,7 +45,7 @@ $string['check_passwordpolicy_error'] = 'パスワードポリシーが設定さ
 $string['check_passwordpolicy_name'] = 'パスワードポリシー';
 $string['check_passwordpolicy_ok'] = 'パスワードポリシーが有効にされています。';
 $string['check_riskadmin_detailsok'] = '<p>以下の管理者リストを確認してください。<br />$a</p>';
-$string['check_riskadmin_detailswarning'] = '<p>以下の管理者リストを確認してください。<br />$a</p>
+$string['check_riskadmin_detailswarning'] = '<p>以下の管理者リストを確認してください。<br />$a->admins</p>
 <p>システムコンテクストのみへの管理者ロール割り当てをお勧めします。以下のユーザは、サポートされない管理者ロールが割り当てられています:<br />$a->unsupported</p>';
 $string['check_riskadmin_name'] = '管理者';
 $string['check_riskadmin_ok'] = '$a 名のサーバ管理者が登録されています。';

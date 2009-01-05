@@ -75,7 +75,7 @@ $string['check_passwordpolicy_error'] = '비밀번호 정책이 설정되지 않
 $string['check_passwordpolicy_name'] = '비밀번호 정책';
 $string['check_passwordpolicy_ok'] = '비밀번호 정책 활성화';
 $string['check_riskadmin_detailsok'] = '<p>다음의 관리자 목록을 확인하기 바람<br />$a</p>';
-$string['check_riskadmin_detailswarning'] = '<p>다음의 관리자 목록을 확인하기 바람<br />$a->admins</p>
+$string['check_riskadmin_detailswarning'] = '<p>다음의 관리자 목록을 확인하기 바람<br />$a->admin</p>
 <p>단지 시스템 영역의 관리자 역할만을 부여할 것을 권장함. 다음의 사용자들은 지원되지 않는 관리자 역할을 부여받았음 <br />$a->unsupported</p>';
 $string['check_riskadmin_name'] = '관리자';
 $string['check_riskadmin_ok'] = '$a 서버 관리자 발견';
