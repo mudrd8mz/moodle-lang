@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // error.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
 
 
 $string['TODO'] = 'TE DOEN';
@@ -12,7 +12,6 @@ $string['blockcannotinistantiate'] = 'Probleem met het inistialiseren van het bl
 $string['blockcannotread'] = 'Kon gegevens voor blokid=$a niet lezen';
 $string['blockdoesnotexist'] = 'Dit blok bestaat niet';
 $string['blocknameconflict'] = 'Naamconflikt: blok $a->name heeft dezelfde titel als een ander blok: $a->conflict!';
-$string['cannoffindgradeitem'] = 'Kan beoordelingsitem niet vinden';
 $string['cannotaddblock'] = 'Blok $a kon niet toegevoegd worden aan de blokkenlijst!';
 $string['cannotaddcmtosection'] = 'Kon geen nieuwe cursusmodule toevoegen in die sectie';
 $string['cannotaddcoursemodule'] = 'Kon geen nieuwe cursusmodule toevoegen';
@@ -64,6 +63,7 @@ $string['cannotfindcategory'] = 'Kan geen categorierecord vinden voor databank m
 $string['cannotfindcomponent'] = 'Kan component niet vinden.';
 $string['cannotfindcontext'] = 'Kon context niet vinden';
 $string['cannotfinddocs'] = 'Kan \"$a\" taal documentatie bestanden niet vinden';
+$string['cannotfindgradeitem'] = 'Kan beoordelingsitem niet vinden';
 $string['cannotfindgroup'] = 'Kon groep niet vinden';
 $string['cannotfindhelp'] = 'Kan \"$a\" taal help bestanden niet vinden';
 $string['cannotfindinfo'] = 'Kan geen informatie voor \"$a\" vinden';
@@ -399,6 +399,7 @@ $string['sessioncookiesdisable'] = 'Fout gebruik van require_key_login() - sessi
 $string['sessionerroruser'] = 'Je sessie bleef te lang zonder activiteit. Je moet opnieuw inloggen.';
 $string['sessionerroruser2'] = 'Je loginsessie is verknoeid. Meld je opnieuw aan of herstart je browser.';
 $string['sessionipnomatch'] = 'Sorry, maar je IP-adres is gewijzigd sinds je aangemeld bent. Deze beveiligingsmethode voorkomt dat crackers je identiteit stelen terwijl je aangemeld bent op deze site. Gewone gebruikers zouden deze melding niet mogen zien - vraag je sitebeheerder om hulp.';
+$string['sessionipnomatch2'] = 'Je IP-nummer is blijkbaar gewijzigd sinds je login. Deze beveiligingsfunctie verhindert dat crackers je identiteit stelen terwijl je aangemeld bent bij deze site. Je kunt deze melding zien als je draadloze netwerken gebruikt of als je schakelt tussen verschillende netwerken. Vraag de sitebeheerder om hulp.<br /><br />Als je wil verder gaan, klik dan op F5 om deze pagina te verversen.';
 $string['socksnotsupported'] = 'SOCKS5-proxy wordt niet ondersteund in PHP4';
 $string['spellcheckernotconf'] = 'Spellingscontrole niet geconfigureerd';
 $string['statscatchupmode'] = 'De statistiekfunctie is nu wat achterstand aan het inhalen. Tot nu zijn al $a->daysdone dagen verwerkt en zijn er nog $a->dayspending dagen te doen. Kom later eens terug kijken!';
@@ -472,6 +473,7 @@ $string['wrongzipfilename'] = 'Foute ZIP-bestandsnaam';
 $string['xmldberror'] = 'XMLDB fout!';
 $string['youcannotdeletecategory'] = 'Je kunt categorie \'$a\' niet verwijderen omdat je de inhoud niet kunt verwijderen, noch verplaatsen';
 $string['younotteacher'] = 'Jij bent geen leraar!';
+$string['cannoffindgradeitem'] = 'Kan beoordelingsitem niet vinden'; // ORPHANED
 $string['cannofindgradeitem'] = 'Kan grade_item niet vinden'; // ORPHANED
 $string['cmunknown'] = 'Kan deze cursusmodule niet vinden'; // ORPHANED
 $string['copiedcmnotexist'] = 'De gekopiëerde cursusmodule bestaat niet!'; // ORPHANED
