@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20080811) (2008080701)
+      // question.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
 
 
 $string['adminreport'] = 'Rapport over mogelijke problemen in je vragendatabank';
@@ -9,6 +9,7 @@ $string['byandon'] = 'door <em>$a->user</em> op <em>$a->time</em>';
 $string['cannotcopybackup'] = 'Kon backupbestand niet kopieëren';
 $string['cannotcreate'] = 'Kon geen nieuw item maken in de question_attemptstabel';
 $string['cannotcreatedataset'] = 'Kon dataset $a niet maken';
+$string['cannotcreatepath'] = 'Kon pad niet maken: $a';
 $string['cannotcreaterelation'] = 'Kon relatie met dataset $a[0] $a[1] niet maken';
 $string['cannotdeletecate'] = 'Je kunt die categorie niet verwijderen. Het is de standaardcategorie voor deze context.';
 $string['cannotfindcate'] = 'Kon categorierecord niet vinden';
@@ -26,6 +27,7 @@ $string['cannotloadquestion'] = 'Kon vraag niet laden';
 $string['cannotmovecate'] = 'Kan de categorie $a niet verplaatsen. Het is de laatste in deze context.';
 $string['cannotmovefromto'] = 'Kon de categorie $a[0] niet verplaatsen naar $a[1]';
 $string['cannotmovequestion'] = 'Je kan dit script niet gebruiken om vragen te verplaatsen waaraan bestanden geassocieerd zijn vanuit andere plaatsen';
+$string['cannotopenforwriting'] = 'Kan niet openen om te schrijven:  $a';
 $string['cannotpreview'] = 'Je kunt geen voorbeeld van deze vragen zien';
 $string['cannotretrieveqcat'] = 'Kon vraagcategorie niet ophalen';
 $string['cannotsavequiz'] = 'Bewaren van deze poging mislukt!';
@@ -44,6 +46,8 @@ $string['categorycurrentuse'] = 'Gebruik deze categorie';
 $string['categorydoesnotexist'] = 'Deze categorie bestaat niet';
 $string['categorymoveto'] = 'Bewaar in categorie';
 $string['changepublishstatuscat'] = 'De instelling voor het delen van <a href=\"$a->caturl\">categorie \"$a->name\"</a> in cursus \"$a->coursename\" zal gewijzigd worden van <strong>$a->changefrom naar $a->changeto</strong>.';
+$string['clicktoflag'] = 'Klik om deze vraag te markeren';
+$string['clicktounflag'] = 'Klik om markering van deze vraag te verwijderen';
 $string['contexterror'] = 'Je zou alleen op deze pagina moeten zijn als je een categorie verplaatst naar een andere context';
 $string['copy'] = 'Kopiëer van $a en wijzig de links.';
 $string['created'] = 'Aangemaakt';
@@ -65,11 +69,15 @@ $string['errordeletingquestionsfromcategory'] = 'Fout bij het verwijderen van vr
 $string['errorduringpost'] = 'Fout tijdens verwerking!';
 $string['errorduringpre'] = 'Fout tijdens voorbereiding!';
 $string['errorduringproc'] = 'Fout tijdens verwerking!';
+$string['errorduringregrade'] = 'Kon vraag $a->qid niet herwaarderen, ga naar toestand $a->stateid';
 $string['errorfilecannotbecopied'] = 'Fout: kan bestand $a niet kopieëren.';
 $string['errorfilecannotbemoved'] = 'Fout: kan bestand $a niet verplaatsen.';
 $string['errorfileschanged'] = 'Fout: bestanden gelinkt aan vragen zijn gewijzigd sinds het tonen van dit formulier.';
 $string['errormanualgradeoutofrange'] = 'Het cijfer $a->grade is niet tussen 0 en  $a->maxgrade voor vraag $a->name. De score en commentaar zijn niet bewaard.';
 $string['errormovingquestions'] = 'Fout tijdens het verplaatsen van vragen met ID $a';
+$string['errorpostprocess'] = 'Fout opgetreden tijdens naverwerking';
+$string['errorpreprocess'] = 'Fout opgetreden tijdens voorbereiding';
+$string['errorprocess'] = 'Fout opgetreden tijdens verwerking';
 $string['errorprocessingresponses'] = 'Er is een fout opgetreden tijdens het verwerken van je antwoorden.';
 $string['errorsavingcomment'] = 'Fout bij het bewaren van de commentaar voor vraag $a->name in de databank.';
 $string['errorupdatingattempt'] = 'Fout bij het updaten van poging $a->id in de databank.';
@@ -78,6 +86,8 @@ $string['exporterror'] = 'Fouten opgetreden tijdens exporteren!';
 $string['filesareacourse'] = 'de plaats voor cursusbestanden';
 $string['filesareasite'] = 'de plaats voor sitebestanden';
 $string['filestomove'] = 'Verplaats / kopieëer bestanden naar $a?';
+$string['flagged'] = 'Gemarkeerd';
+$string['flagthisquestion'] = 'Markeer deze vraag';
 $string['formquestionnotinids'] = 'Formulier bevat vraag die niet bij de vraag ID\'s staat';
 $string['fractionsnomax'] = 'Eén van de vragen moet een score van 100%% hebben, zodat het mogelijk is om alle punten voor deze vraag te behalen.';
 $string['getcategoryfromfile'] = 'Haal categorie uit bestand';
@@ -94,6 +104,7 @@ $string['linkedfiledoesntexist'] = 'Het gelinkte bestand $a bestaat niet';
 $string['makechildof'] = 'Maak ondergeschikt aan \'$a\'';
 $string['maketoplevelitem'] = 'Verplaats naar top';
 $string['missingcourseorcmid'] = 'Moet courseid of cmid opgeven voor print_question';
+$string['missingcourseorcmidtolink'] = 'Moet cursusid of cmid geven voor get_question_edit_link';
 $string['missingimportantcode'] = 'Dit vraagtype mist belangrijke code: $a';
 $string['missingoption'] = 'De ingebedde vraag $a mist de opties';
 $string['modified'] = 'Gewijzigd';
@@ -112,9 +123,11 @@ $string['movingquestionsnofiles'] = 'Ben je er zeker van dat je deze vraag / vra
 $string['needtochoosecat'] = 'Je moet een categorie kiezen om deze vragen naartoe te verplaatsen of klik op \'annuleer\'.';
 $string['nocate'] = 'Geen categorie $a!';
 $string['nopermissionadd'] = 'Je hebt het recht niet om hier vragen toe te voegen.';
+$string['nopermissionmove'] = 'Je hebt het recht niet om vragen van hieruit te verplaatsen. Je moet de vraag in deze categorie bewaren of ze bewaren als nieuwe vraag.';
 $string['noprobs'] = 'Er zijn geen problemen gevonden in je vragendatabank.';
 $string['notenoughdatatoeditaquestion'] = 'Noch een vraad ID, een categorie ID of een vraagtype is opgegeven.';
 $string['notenoughdatatomovequestions'] = 'Je moet de vraag id\'s opgeven van de vragen die je wil verplaatsen.';
+$string['notflagged'] = 'Niet gemarkeerd';
 $string['novirtualquestiontype'] = 'Geen virtueel vraagtype voor vraagtype $a';
 $string['parenthesisinproperclose'] = 'De haakjes voor ** zijn niet goed gesloten in $a**';
 $string['parenthesisinproperstart'] = 'De haakjes voor ** zijn niet geopend in $a**';
@@ -133,6 +146,7 @@ $string['questionsmovedto'] = 'De nog gebruikte vragen zijn verplaatst naar \"$a
 $string['questionsrescuedfrom'] = 'Vragen bewaard vanuit context $a.';
 $string['questionsrescuedfrominfo'] = 'Deze vragen (waarvan sommigen verborgen kunnen zijn) werden bewaard wanneer context $a is verwijderd omdat ze nog gebruikt worden door sommige testen of andere activiteiten.';
 $string['questionuse'] = 'Gebruik vraag in deze activiteit';
+$string['saveflags'] = 'Bewaar de status van deze markeringen';
 $string['shareincontext'] = 'Deel in context voor $a';
 $string['tofilecategory'] = 'Bewaar categorie in bestand';
 $string['tofilecontext'] = 'Bewaar context in bestand';
@@ -140,6 +154,10 @@ $string['unknown'] = 'Onbekend';
 $string['unknownquestiontype'] = 'Onbekend vraagtype: $a.';
 $string['unknowntolerance'] = 'Onbekend tolerantietype $a';
 $string['unpublished'] = 'Niet gepubliceerd';
+$string['upgradeproblemcategoryloop'] = 'Probleem gevonden tijdens de upgrade van de vragencategorieën. Er is een lus in de categorieënboom. De betreffende categorie-id\'s zijn $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Kon vragencategorie $a->name($a->id) niet updaten.';
+$string['upgradeproblemunknowncategory'] = 'Probleem gevonden tijdens het upgraden van vragencategorieën.
+Categorie $a->id refereert naar bovenliggende categorie $a->parent, die niet bestaat. Bovenliggende categorie gewijzigd om het probleem op te lossen';
 $string['wrongprefix'] = 'Fout geformateerde naamprefix $a';
 $string['yourfileshoulddownload'] = 'De download van je exportbestand begint zodadelijk. Indien niet, <a href=\"$a\">klik hier</a>.';
 
