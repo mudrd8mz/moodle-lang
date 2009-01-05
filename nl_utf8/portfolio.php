@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081121) (2008112101)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
 
 
 $string['activeportfolios'] = 'Actieve portfolio\'s';
 $string['addalltoportfolio'] = 'Bewaar alles ...';
 $string['addnewportfolio'] = 'Voeg een nieuw portfolio toe';
 $string['addtoportfolio'] = 'Voeg toe aan portfolio';
-$string['alreadyexporting'] = 'Je hebt al een actieve portfolioexport in deze sessie. Werk deze eerst af';
+$string['alreadyexporting'] = 'Je hebt al een actieve portfolio-export in deze sessie. Voor je verder doet, moet je ofwel deze eerst afwerken of annuleren. Wil je verder doen? (Nee zal annuleren)';
 $string['availableformats'] = 'Beschikbare exportformats';
 $string['callercouldnotpackage'] = 'Inpakken van je gegevens voor export mislukt';
 $string['cannotsetvisible'] = 'Kan dit niet zichtbaar zetten - de plugin is volledig uitgeschakeld door een foute configuratie';
@@ -42,6 +42,8 @@ $string['filenotfound'] = 'Bestand niet gevonden';
 $string['format_file'] = 'Bestand';
 $string['format_image'] = 'Afbeelding';
 $string['format_mbkp'] = 'Moodle backup';
+$string['format_plainhtml'] = 'HTML';
+$string['format_richhtml'] = 'HTML met bijlagen';
 $string['format_text'] = 'Platte tekst';
 $string['format_video'] = 'Video';
 $string['hidden'] = 'Verborgen';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio_flickr.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // portfolio_flickr.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
 
 
 $string['apikey'] = 'API key (deze moet je halen op http://flickr.com/services/api/keys/apply)';
@@ -21,5 +21,6 @@ $string['screenshot'] = 'Schermafdrukken';
 $string['set'] = 'Ingesteld';
 $string['sharedsecret'] = 'Je gedeelde veilige string (zal meegegeven worden met je API Key)';
 $string['title'] = 'Titel';
+$string['uploadfailed'] = 'Uploaden van afbeelding(en) naar flickr.com mislukt: $a';
 
 ?>
