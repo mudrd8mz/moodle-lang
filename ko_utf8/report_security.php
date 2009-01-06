@@ -79,7 +79,7 @@ $string['check_riskadmin_detailswarning'] = '<p>다음의 관리자 목록을 �
 <p>단지 시스템 영역의 관리자 역할만을 부여할 것을 권장함. 다음의 사용자들은 지원되지 않는 관리자 역할을 부여받았음 <br />$a->unsupported</p>';
 $string['check_riskadmin_name'] = '관리자';
 $string['check_riskadmin_ok'] = '$a 서버 관리자 발견';
-$string['check_riskadmin_warning'] = '$a 서버 관리자 및  $a->unsupcount 의 지원되지 않는 관리자 역할 부여 발견';
+$string['check_riskadmin_warning'] = '$a->admincount 서버 관리자 및  $a->unsupcount 의 지원되지 않는 관리자 역할 부여 발견';
 $string['check_riskxss_name'] = 'XSS 인증된 사용자';
 $string['check_unsecuredataroot_details'] = '<p>데이터 경로는 웹으로 접속되어서는 안됨. 최선의 방법은 웹 디렉토리 외부에 있는 웹접속이 차단된 경로에 만들어 두는 것임</p>
 <p>경로를 옮긴 후, <code>config.php</code>의 <code>$CFG->dataroot</code>의 값도 변경해 주어야 함을 잊지 말 것</p>';
