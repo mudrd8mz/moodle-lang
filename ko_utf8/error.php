@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090104) (2008123102)
+      // error.php - created with Moodle 2.0 dev (Build: 20090106) (2009010500)
 
 
 $string['TODO'] = '실행목록';
@@ -402,6 +402,7 @@ $string['sessionipnomatch'] = '죄송합니다 당신의 아이피 주소가 처
 $string['sessionipnomatch2'] = '죄송합니다. 당신의 아이피 주소가 처음 로그인 했을 때와 다릅니다. 이 보안 기능은 해커가 아이디를 도용해 이 사이트에 접속하는 것을 방지합니다. 이 메시지는 무선네트웍을 이용하거나 로밍 서비스를 이용할 때에도 나타날 수 있습니다. 좀 더 자세한 사항은 사이트 관리자에게 문의하기 바랍니다.<br /><br />계속 진행하고 싶으시면 F5키를 눌러 화면을 갱신하십시오.';
 $string['socksnotsupported'] = 'PHP4는 SOCKS5 프록시를 지원하지 않음';
 $string['spellcheckernotconf'] = '철자검색기가 설정되지 않음';
+$string['sslonlyaccess'] = '죄송합니다만, 보안상 이유로 https 접속만 허용됩니다.';
 $string['statscatchupmode'] = '현재 통계 수집중에 있습니다. 현재 $a->daysdone 일간의 자료가 처리되었고 $a->dayspending 가 처리 대기중에 있습니다. 잠시후 다시 확인해 주시기 바랍니다!';
 $string['statsdisable'] = '통계가 활성화되어 있지 않음';
 $string['statsnodata'] = '강좌 및 시한의 조합 조건에 맞는 자료가 없음';
@@ -463,12 +464,14 @@ $string['usernotupdatedadmin'] = '관리자 계정을 갱신할 수 없음';
 $string['usernotupdatederror'] = '사용자 갱신 안됨 - 오류';
 $string['usernotupdatednotexists'] = '사용자 갱신 안됨 - 존재하지 않음';
 $string['userselectortoomany'] = '복수선택 값이 false 라 할지라도 user_selector는 하나 이상의 선택된 사용자를 처리할 수 없음';
+$string['usupportedwebserver'] = '죄송합니다만, 웹서버 어플리케이션 ($a) 는 지원하지 않습니다.';
 $string['wrongcall'] = '이 스크립트는 잘 못 호출되었음';
 $string['wrongcontextid'] = '컨텍스트 ID 부정확(찾을 수 없음)';
 $string['wrongdestpath'] = '잘못된 목적 경로';
 $string['wrongroleid'] = '부정확한 역할 ID!';
 $string['wrongsourcebase'] = '잘못된 소스 URL  베이스';
 $string['wrongzipfilename'] = '잘못된 ZIP 파일명';
+$string['wwwrootmismatch'] = '잘못된 접속 발견, 본 서버는 \"$a\" 주소를 경유한 접속한 허용됩니다.<br />서버 관리자에게 문의하여 주시기 바랍니다.';
 $string['xmldberror'] = 'XMLDB 오류!';
 $string['youcannotdeletecategory'] = '내용을 옮기거나 삭제할 수 있는 권한이 없기 때문에 \'$a\' 범주를 삭제할 수 없습니다.';
 $string['younotteacher'] = '교수자가 아닙니다!';
