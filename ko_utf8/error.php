@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090106) (2009010500)
+      // error.php - created with Moodle 2.0 dev (Build: 20090107) (2009010606)
 
 
 $string['TODO'] = '실행목록';
@@ -390,7 +390,8 @@ $string['remotedownloaderror'] = '서버로 구성요소를 다운로드하는�
 $string['remotedownloadnotallowed'] = '서버로 구성요소를 내려받는 것이 허용되지 않습니다. (allow_url_fopen 이 비활성화 됨).<br /><br /> 수동으로 <a href=\"$a->url\">$a->url</a> 파일을 다운로드 하고, 서버의 \"$a->dest\"에 복사한 다음 거기서 압축을 해제하십시요.';
 $string['reportnotavailable'] = '사이트 수준의 강좌에서만 이 유형의 보고서를 쓸 수 있음';
 $string['restricteduser'] = '죄송합니다. 현재 당신의 \"$a\" 계정으로는 그 일을 할 수 없습니다.';
-$string['rpcerror'] = 'RPC enrol/mnet/available_courses:<br/> ($a)';
+$string['reverseproxyabused'] = '죄송합니다만 역 프록시가 활성화되어 있기 때문에 서버가 직접 접속할 수 없습니다.<br />서버 관리자에게 연락하시기 바랍니다.';
+$string['rpcerror'] = 'RPC enrol/mnet/available_courses: ($a)';
 $string['scheduledbackupsdisabled'] = '자동 백업이 서버관리자에 의해 비활성화 되었음';
 $string['secretalreadyused'] = '암호 변경 확인 링크가 이미 쓰였으므로 암호는 변경되지 않습니다.';
 $string['sectionnotexist'] = '영역이 존재하지 않음';

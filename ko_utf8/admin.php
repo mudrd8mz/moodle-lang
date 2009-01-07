@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090104) (2008123102)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090107) (2009010606)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -439,6 +439,7 @@ $string['guestroleid'] = '손님계정 역할';
 $string['helpadminseesall'] = '관리자가 모든 일정을 볼 수 있거나 그 이벤트들 스스로 적용됩니까?';
 $string['helpcalendarsettings'] = '다양한 일정 목록과 날짜/시간과 관련된 내용을 설정합니다.';
 $string['helpforcetimezone'] = '모든 이용자에게 각자 자신의 표준시간대를 선택할 수 있게 하거나, 지정한 시간대를 쓰도록 강요할 수 있습니다.';
+$string['helpprofilefieldlink'] = '사용자 데이터에서 링크 생성';
 $string['helpsitemaintenance'] = '업그레이드 및 기타 작업';
 $string['helpstartofweek'] = '달력에서 한 주는 무슨 요일에 시작됩니까?';
 $string['helpupcominglookahead'] = '일정표에서 다가오는 행사를 며칠 전부터 보여지게 할까요?';
@@ -628,6 +629,8 @@ $string['profileeditfield'] = '$a 항목 편집';
 $string['profilefield'] = '개인정보 항목';
 $string['profilefieldcolumns'] = '열';
 $string['profilefieldispassword'] = '암호 필드 입니까?';
+$string['profilefieldlink'] = '연결';
+$string['profilefieldlinktarget'] = '목적지';
 $string['profilefieldmaxlength'] = '최대 길이';
 $string['profilefieldrows'] = '행';
 $string['profilefields'] = '추가항목 설정';
@@ -728,6 +731,8 @@ $string['sitemaintenancemode'] = '유지 보수';
 $string['sitemaintenanceoff'] = '점검이 끝나고, 다시 일반적인 작동 상태가 되었습니다.';
 $string['sitemaintenanceon'] = '이 사이트는 현재 점검중입니다(관리자만 이 사이트를 사용하거나 로그인 할 수 있습니다).';
 $string['sitemaintenancewarning'] = '현재 유지 점검 상태에 있습니다(관리자만 로그인 할 수 있습니다.) 일반 작업으로 되돌리시려면 <a href=\"maintenance.php\">정상 작동</a>모드를 사용하십사오.';
+$string['sitemaxcategorydepth'] = '최대 범주 깊이';
+$string['sitemaxcategorydepthhelp'] = '볼 수 있는 하위 범주의 최대 수를 지정';
 $string['sitepolicies'] = '사이트 정책';
 $string['sitepolicy'] = '사이트 정책 URL';
 $string['sitesectionhelp'] = '이것을 켜 놓으면, 토픽 영역이 사이트 초기화면에 보일 것입니다.';
