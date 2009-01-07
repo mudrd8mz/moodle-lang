@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20081231) (2008123102)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090107) (2009010606)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -432,6 +432,7 @@ $string['guestroleid'] = 'ゲストのロール';
 $string['helpadminseesall'] = '管理者はすべてのカレンダーイベントを閲覧または自分自身のイベントとすることができますか?';
 $string['helpcalendarsettings'] = 'Moodleのカレンダーおよび日付/時間に関する様々な設定を行います。';
 $string['helpforcetimezone'] = 'ここでは、ユーザに独自のタイムゾーンを選択させることができます。または、すべてのユーザに対してタイムゾーンを強制します。';
+$string['helpprofilefieldlink'] = 'ユーザデータからリンクを作成する';
 $string['helpsitemaintenance'] = 'アップグレードやその他の作業時に使用します。';
 $string['helpstartofweek'] = '週の始めは何曜日ですか?';
 $string['helpupcominglookahead'] = '何日前のイベントをデフォルトで直近イベントとして表示しますか?';
@@ -620,6 +621,8 @@ $string['profileeditfield'] = 'プロファイルフィールドの編集: $a';
 $string['profilefield'] = 'プロファイルフィールド';
 $string['profilefieldcolumns'] = '列';
 $string['profilefieldispassword'] = 'これはパスワードフィールドですか?';
+$string['profilefieldlink'] = 'リンク';
+$string['profilefieldlinktarget'] = 'リンクターゲット';
 $string['profilefieldmaxlength'] = '最大長';
 $string['profilefieldrows'] = '行';
 $string['profilefields'] = 'ユーザプロファイルフィールド';
@@ -719,6 +722,8 @@ $string['sitemaintenancemode'] = 'メンテナンスモード';
 $string['sitemaintenanceoff'] = 'メンテナンスモードが解除されました。サイトは正常に動作しています。';
 $string['sitemaintenanceon'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインまたはサイトを利用することができます)。';
 $string['sitemaintenancewarning'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインできます)。通常運用に戻すには、<a href=\"maintenance.php\">メンテナンスモードを解除してください</a>。';
+$string['sitemaxcategorydepth'] = '最大カテゴリ深度';
+$string['sitemaxcategorydepthhelp'] = 'ここでは、表示される子カテゴリの最大数を設定します。';
 $string['sitepolicies'] = 'サイトポリシー';
 $string['sitepolicy'] = 'サイトポリシーURI';
 $string['sitesectionhelp'] = '選択した場合、トピックセクションがサイトフロントページに表示されます。';

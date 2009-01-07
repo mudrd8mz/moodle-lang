@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081231) (2008123102)
+      // error.php - created with Moodle 2.0 dev (Build: 20090107) (2009010606)
 
 
 $string['TODO'] = 'TODO';
@@ -390,6 +390,7 @@ $string['remotedownloaderror'] = 'あなたのサーバへのコンポーネン�
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['reportnotavailable'] = 'このタイプのレポートは、サイトコースのみで利用できます。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を実行できません。';
+$string['reverseproxyabused'] = '申し訳ございません、リバースプロクシが有効にされているため、サーバに直接アクセスできません。<br />サーバ管理者にご連絡ください。';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses:<br/> ($a)';
 $string['scheduledbackupsdisabled'] = 'スケジュールバックアップは、サーバ管理者により無効にされています。';
 $string['secretalreadyused'] = 'パスワード変更の確認リンクは、すでに使用されています。パスワードは、変更されませんでした。';
@@ -402,6 +403,7 @@ $string['sessionipnomatch'] = '申し訳ございません、あなたのIPア�
 $string['sessionipnomatch2'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。あなたがワイヤレスネットワークまたは異なるネットワーク間のローミングを使用している場合、このエラーが表示されます。詳細はサイト管理者にお問合せください。<br /><br />続ける場合、このページをリフレッシュするため、F5キーを押してください。';
 $string['socksnotsupported'] = 'PHP4では、SOCKS5プロクシがサポートされていません。';
 $string['spellcheckernotconf'] = 'スペルチェッカが設定されていません。';
+$string['sslonlyaccess'] = '申し訳ございません、セキュリティ上の理由から、httpsアクセスのみ許可されています。';
 $string['statscatchupmode'] = '現在、統計はキャッチアップモードです。今までのところ $a->daysdone 日分が処理され、$a->dayspending 日分が未処理です。すぐに確認してください!';
 $string['statsdisable'] = '統計が有効にされていません。';
 $string['statsnodata'] = 'このコースおよび期間の組み合わせデータはありません。';
@@ -463,12 +465,14 @@ $string['usernotupdatedadmin'] = '管理者アカウントを更新できませ�
 $string['usernotupdatederror'] = 'ユーザは更新されませんでした - エラー。';
 $string['usernotupdatednotexists'] = 'ユーザは更新されませんでした - 登録されていません。';
 $string['userselectortoomany'] = 'multiselectがfalseにもかかわらず、user_selectorが1名以上のユーザを選択しています。';
+$string['usupportedwebserver'] = '申し訳ございません、ウェブサーバソフトウェア ($a) は、サポートされていません。';
 $string['wrongcall'] = 'このスクリプトは正常にコールされていません。';
 $string['wrongcontextid'] = 'コンテクストIDが正しくありません (見つけることができません)。';
 $string['wrongdestpath'] = '宛先パスが正しくありません。';
 $string['wrongroleid'] = 'ロールIDが正しくありません!';
 $string['wrongsourcebase'] = 'ソースURIベースが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
+$string['wwwrootmismatch'] = '申し訳ございません、不正なアクセスが検知されたため、「 $a 」アドレスからのみサーバにアクセスできます。<br />サーバ管理者にご連絡くください。';
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['youcannotdeletecategory'] = 'コンテンツを削除または移動できないため、あなたはカテゴリ「 $a 」を削除することはできません。';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
