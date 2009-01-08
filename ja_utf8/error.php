@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090107) (2009010606)
+      // error.php - created with Moodle 2.0 dev (Build: 20090108) (2009010606)
 
 
 $string['TODO'] = 'TODO';
@@ -473,6 +473,7 @@ $string['wrongroleid'] = 'ロールIDが正しくありません!';
 $string['wrongsourcebase'] = 'ソースURIベースが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['wwwrootmismatch'] = '申し訳ございません、不正なアクセスが検知されたため、「 $a 」アドレスからのみサーバにアクセスできます。<br />サーバ管理者にご連絡くください。';
+$string['wwwrootslash'] = 'config.phpに正しくない \$CFG->wwwroot が検知されました。\$CFG->wwwrootでは、末尾にスラッシュを付ける必要があります。<br />サーバ管理者にご連絡くください。';
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['youcannotdeletecategory'] = 'コンテンツを削除または移動できないため、あなたはカテゴリ「 $a 」を削除することはできません。';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
