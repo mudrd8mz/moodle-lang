@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090107) (2009010606)
+      // error.php - created with Moodle 2.0 dev (Build: 20090108) (2009010606)
 
 
 $string['TODO'] = '실행목록';
@@ -473,6 +473,7 @@ $string['wrongroleid'] = '부정확한 역할 ID!';
 $string['wrongsourcebase'] = '잘못된 소스 URL  베이스';
 $string['wrongzipfilename'] = '잘못된 ZIP 파일명';
 $string['wwwrootmismatch'] = '잘못된 접속 발견, 본 서버는 \"$a\" 주소를 경유한 접속한 허용됩니다.<br />서버 관리자에게 문의하여 주시기 바랍니다.';
+$string['wwwrootslash'] = 'config.php의 $CFG->wwwroot 에 마지막 슬래시가 포함되서는 안되는 데, 오류 발견. <br />서버 관리자에게 문의하여 주시기 바랍니다.';
 $string['xmldberror'] = 'XMLDB 오류!';
 $string['youcannotdeletecategory'] = '내용을 옮기거나 삭제할 수 있는 권한이 없기 때문에 \'$a\' 범주를 삭제할 수 없습니다.';
 $string['younotteacher'] = '교수자가 아닙니다!';

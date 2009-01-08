@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20081206) (2008120400)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090108) (2009010606)
 
 
 $string['1day'] = '하루';
@@ -157,6 +157,7 @@ $string['configpopup'] = '시험 중, 자바스크림트를 이용한 복사 및
 $string['configrequirepassword'] = '시험을 보기위해 반드시 암호를 입력해야 함';
 $string['configrequiresubnet'] = '학생들이 특정 컴퓨터로만 응시할 수 있게 함';
 $string['configreviewoptions'] = '시험을 검토할 때 혹은 시험 보고서를 살펴볼 때 사용자들이 볼 수 있는 정보를 조정';
+$string['configshowuserpicture'] = '시도 중 화면에 사용자 사진 보임';
 $string['configshufflequestions'] = '이 기능을 켜면, 시험지의 문항 순서가 학생들이 시도할 때마다 매번 임의로 바뀌게 될 것임';
 $string['configshufflewithin'] = '이 기능을 켜면, 개개 문항을 구성하는 부분들이 매번 무작위로 섞이게 되며, 문항 설정을 다시 할 수 있도록 제공된다.';
 $string['configtimelimit'] = '기본 응시 시간. 0은 무제한';
@@ -640,6 +641,7 @@ $string['shownoattempts'] = '시도하지 않은 학생들 보기';
 $string['shownoattemptsonly'] = '시도하지 않은 학생들만 보기';
 $string['showquestiontext'] = '내용도 함께 나타냄';
 $string['showteacherattempts'] = '교수자 시도 보기';
+$string['showuserpicture'] = '사용자 사진 제시';
 $string['shuffle'] = '섞기';
 $string['shuffleanswers'] = '답안 섞기';
 $string['shufflequestions'] = '질문 섞기';
