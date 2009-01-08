@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 Beta + (2007100903)
+      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
 
 
 $string['addingmultichoice'] = 'Een meerkeuzevraag toevoegen';
@@ -24,6 +24,7 @@ $string['fillouttwochoices'] = 'Je moet minstens twee keuzes opgeven. Niet ingev
 $string['fractionsaddwrong'] = 'Het totaal van de positieve cijfers is geen 100%%,<br />maar $a%%<br />. Wil je terug gaan om deze vraag aan te passen?';
 $string['fractionsnomax'] = 'Een van de antwoorden moet 100%% zijn, zodat het mogelijk alle punten op deze vraag te scoren. <br /> Wil je terug gaan om dit te herstellen?';
 $string['incorrectfeedback'] = 'Voor elk fout antwoord';
+$string['multichoice'] = 'Meerkeuze';
 $string['notenoughanswers'] = 'Dit vraagtype vereist minstens $a antwoorden';
 $string['overallcorrectfeedback'] = 'Feedback voor elk juist antwoord';
 $string['overallfeedback'] = 'Algemene feedback';
