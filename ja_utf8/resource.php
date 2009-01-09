@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -59,6 +59,9 @@ $string['imspackageloaded'] = 'パッケージがロードされました。';
 $string['invalidassignment'] = '割り当てが正しくありません。';
 $string['invalidid'] = 'リソースIDが正しくありません。';
 $string['keepnavigationvisible'] = '同じページにページナビゲーションを表示したままにする';
+$string['keepnavigationvisibleno'] = 'No';
+$string['keepnavigationvisibleyesframe'] = 'Yes (フレームあり)';
+$string['keepnavigationvisibleyesobject'] = 'Yes (フレームなし)';
 $string['localfile'] = 'ローカルファイル';
 $string['localfilechoose'] = 'ローカルファイルの選択 (CD-ROM)';
 $string['localfilehelp'] = 'ローカルファイル表示に関するヘルプ';
