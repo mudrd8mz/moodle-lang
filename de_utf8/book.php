@@ -1,29 +1,38 @@
 <?PHP // $Id$ 
-      // book.php - created with Moodle 1.8 (2007021501)
+      // book.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
-$string['addafter'] = 'Ein neues Kapitel hinzufügen';
+$string['addafter'] = 'Neues Kapitel hinzufügen';
+$string['book:edit'] = 'Kapitel bearbeiten';
+$string['book:exportimscp'] = 'Buch als IMS Content-Paket exportieren';
+$string['book:import'] = 'Kapitel importieren';
+$string['book:print'] = 'Buch drucken';
+$string['book:read'] = 'Buch lesen';
+$string['book:viewhiddenchapters'] = 'Verborgene Kapitel ansehen';
+$string['book_tocwidth'] = 'Breite der Inhaltsübersicht';
 $string['chapterscount'] = 'Kapitel';
 $string['chaptertitle'] = 'Titel des Kapitels';
 $string['confchapterdelete'] = 'Wollen Sie dieses Kapitel wirklich löschen?';
 $string['confchapterdeleteall'] = 'Wollen Sie dieses Kapitel mit allen Unterkapiteln wirklich löschen?';
 $string['content'] = 'Inhalt';
 $string['customtitles'] = 'Eigene Titel der Unterkapitel';
-$string['disableprinting'] = 'Druckoption abschalten';
+$string['disableprinting'] = 'Druckoption ausschalten';
+$string['doexport'] = 'Export';
 $string['doimport'] = 'Import';
 $string['editingchapter'] = 'Kapitel bearbeiten';
-$string['faq'] = 'Buch FAQ';
+$string['faq'] = 'FAQ zum Buch';
 $string['fileordir'] = 'Datei oder Verzeichnis';
+$string['generateimscp'] = 'IMS Content-Paket erzeugen';
 $string['import'] = 'Import';
-$string['importinfo'] = 'Import ausgewählter HTML-Dateien oder Verzeichnisinhalte. Die Kapitel werden alphabetisch nach den Dateinamen sortiert.';
+$string['importinfo'] = 'Import ausgewählter HTML-Dateien oder Verzeichnisinhalte<br />Die Kapitel werden alphabetisch nach Dateinamen sortiert. Dateien der Form \'sub_*.*\' werden als Unterkapitel importiert.';
 $string['importing'] = 'Importieren';
 $string['importingchapters'] = 'Kapitel in das Buch importieren';
 $string['maindirectory'] = 'Hauptverzeichnis';
 $string['modulename'] = 'Buch';
 $string['modulenameplural'] = 'Bücher';
 $string['navexit'] = 'Buch beenden';
-$string['navnext'] = 'Nächste';
-$string['navprev'] = 'Vorherige';
+$string['navnext'] = 'Weiter';
+$string['navprev'] = 'Zurück';
 $string['numbering'] = 'Kapitelnummerierung';
 $string['numbering0'] = 'Keine';
 $string['numbering1'] = 'Nummern';
@@ -36,7 +45,7 @@ $string['printedby'] = 'Gedruckt von';
 $string['relinking'] = 'Verlinkung';
 $string['subchapter'] = 'Unterkapitel';
 $string['toc'] = 'Inhaltsverzeichnis';
-$string['tocwidth'] = 'Wählen Sie die Breite des Inhaltsverzeichnisses für alle Bücher aus.';
+$string['tocwidth'] = 'Mit dieser Einstellung verändern Sie die Breite der Inhaltsübersicht für alle Bücher in dieser Moodle-Instanz.';
 $string['top'] = 'Oben';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
 
 
 $string['action'] = '-- Aktion --';
@@ -33,7 +33,7 @@ $string['checklinkscheck'] = 'Sind Sie sicher, dass Sie die Links auf dieser Sei
 $string['checklinksnotice'] = 'Haben Sie bitte etwas Geduld  bei diesem Vorgang.';
 $string['chooseadministration'] = '-- Administration --';
 $string['chooseafile'] = 'Startseite  auswählen/hochladen';
-$string['choosewikilinks'] = '-- Wiki-Links auswählen --';
+$string['choosewikilinks'] = '-- Spezialseiten --';
 $string['comment'] = 'Bemerkung';
 $string['contentsize'] = 'Größe';
 $string['created'] = 'Erstellt';
