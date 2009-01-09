@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090104) (2008123102)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['activities'] = '활동';
@@ -31,7 +31,9 @@ $string['aggregation'] = '집계 전략';
 $string['aggregationcoef'] = '집계 상수';
 $string['aggregationcoefextra'] = '가산 점수';
 $string['aggregationcoefextrasum'] = '가산 점수';
+$string['aggregationcoefextrasumhelp'] = '집계중 이 성적항목에 대한 가산점수';
 $string['aggregationcoefweight'] = '항목 가중치';
+$string['aggregationcoefweighthelp'] = '타 성적항목의 집계가 이루어지는 동안 가중치는 성적항목의 모든 점수에 적용된다.';
 $string['aggregationhelp'] = '강좌에서 모든 학습자의 성적을 집계하는데 사용되는 전략';
 $string['aggregationposition'] = '총계의 위치';
 $string['aggregationview'] = '총계 보기';
@@ -305,6 +307,8 @@ $string['lessthanmin'] = '$a->itemname 에 대하여 $a->username 에게 입력�
 $string['letter'] = '문자';
 $string['lettergrade'] = '문자등급';
 $string['lettergradenonnumber'] = '비수치 성적의 높고 낮음';
+$string['letterpercentage'] = '문자등급(백분률)';
+$string['letterreal'] = '문자등급(실점수)';
 $string['letters'] = '문자등급';
 $string['linkedactivity'] = '연결된 활동';
 $string['linkedactivityhelp'] = '이 학습성과 항목과 관련된 선택 활동';
@@ -395,6 +399,8 @@ $string['parentcategory'] = '상위 범주';
 $string['pctoftotalgrade'] = '총 성적의 퍼센트';
 $string['percent'] = '퍼센트';
 $string['percentage'] = '백분율';
+$string['percentageletter'] = '백분률(문자등급)';
+$string['percentagereal'] = '백분률(실점수)';
 $string['percentascending'] = '백분률로 오름차순 정렬';
 $string['percentdescending'] = '백분률로 내림차순 정렬';
 $string['percentshort'] = '%%';
@@ -421,6 +427,8 @@ $string['rangesdisplaytype'] = '범위 표시 형식';
 $string['rank'] = '등위';
 $string['rawpct'] = '원 %%';
 $string['real'] = '실점수';
+$string['realletter'] = '실점수(문자등급)';
+$string['realpercentage'] = '실점수(백분률)';
 $string['regradeanyway'] = '무조건 재채점';
 $string['removeallcoursegrades'] = '모든 성적 삭제';
 $string['removeallcourseitems'] = '모든 항목 및 범주 삭제';
@@ -531,8 +539,6 @@ $string['xml'] = 'XML형식';
 $string['yes'] = '예';
 $string['yourgrade'] = '당신의 성적';
 $string['aggregationcoefextrahelp'] = '집계중 이 성적항목에 대한 가산점수'; // ORPHANED
-$string['aggregationcoefextrasumhelp'] = '집계중 이 성적항목에 대한 가산점수'; // ORPHANED
-$string['aggregationcoefweighthelp'] = '타 성적항목의 집계가 이루어지는 동안 가중치는 성적항목의 모든 점수에 적용된다.'; // ORPHANED
 $string['configbulkcheckboxes'] = '일괄 채점 동작을 위한 각 성적 부근의 체크박스들'; // ORPHANED
 $string['configquickfeedback'] = '일괄 피드백은 한꺼번에 많은 피드백을 편집할 수 있도록 채점자 보고서의 각 셀에 텍스트 입력난을 추가한다. 한번에 하나씩 저장하는 대신, 변경사항을 한꺼번에 저장하기 위해 갱신 버튼을 클릭할 수 있다.'; // ORPHANED
 $string['errornocategorizedid'] = '범주화 되지않은 아이디는 취할 수 없음'; // ORPHANED

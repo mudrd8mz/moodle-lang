@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['addresource'] = '자료 추가';
@@ -59,6 +59,9 @@ $string['imspackageloaded'] = '팩키지 불러오기';
 $string['invalidassignment'] = '잘못된 과제';
 $string['invalidid'] = '자료 ID 잘못됨';
 $string['keepnavigationvisible'] = '진행경로 보이기';
+$string['keepnavigationvisibleno'] = '아니오';
+$string['keepnavigationvisibleyesframe'] = '예, 프레임과 함께';
+$string['keepnavigationvisibleyesobject'] = '예, 프레임 없이';
 $string['localfile'] = '지역 파일';
 $string['localfilechoose'] = '지역 파일 선택(CD-ROM)';
 $string['localfilehelp'] = '지역 파일 표시 도움말';
