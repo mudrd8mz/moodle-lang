@@ -25,7 +25,6 @@ $string['retest'] = '점검 재 시도';
 $string['retestonlythisfile'] = '이 파일만 재 점검';
 $string['runall'] = '모든 파일에 대해 점검';
 $string['runat'] = '$a 에서 실행';
-$string['rundbtests'] = '데이터베이스 점검도 같이 실행함';
 $string['runonlyfile'] = '이 파일에 대해서만 점검 실행';
 $string['runonlyfolder'] = '본 폴더에 대해서만 점검 실행';
 $string['runtests'] = '점검 실행';

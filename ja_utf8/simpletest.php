@@ -26,7 +26,6 @@ $string['retest'] = 'テストの再実行';
 $string['retestonlythisfile'] = 'このテスト対象ファイルのテストのみ実行';
 $string['runall'] = 'すべてのテスト対象ファイルのテストを実行';
 $string['runat'] = '$a に実行';
-$string['rundbtests'] = 'データベーステストも実行する。';
 $string['runonlyfile'] = 'このファイル内のみテストを実行する';
 $string['runonlyfolder'] = 'このフォルダ内のみテストを実行する';
 $string['runtests'] = 'テストを実行する';

@@ -27,7 +27,6 @@ $string['retest'] = 'Tests wiederholen';
 $string['retestonlythisfile'] = 'Nur diese Testdatei wiederholen';
 $string['runall'] = 'Tests aus allen Testdateien wiederholen';
 $string['runat'] = 'Durchlauf $a';
-$string['rundbtests'] = 'Auch die Datenbanktests ausführen';
 $string['runonlyfile'] = 'Nur Tests aus dieser Datei durchführen';
 $string['runonlyfolder'] = 'Nur Tests aus diesem Ordner durchführen';
 $string['runtests'] = 'Tests durchführen';

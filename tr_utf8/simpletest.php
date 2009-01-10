@@ -20,7 +20,6 @@ $string['retest'] = 'Testleri tekrar çalıştır';
 $string['retestonlythisfile'] = 'Sadece bu test dosyasında tekrar çalıştır';
 $string['runall'] = 'Testleri bütün dosyalarda çalıştır';
 $string['runat'] = 'Çalıştı: $a';
-$string['rundbtests'] = 'Veritabanı testlerini de çalıştır.';
 $string['runonlyfile'] = 'Testleri sadece bu dosyada çalıştır';
 $string['runonlyfolder'] = 'Testleri sadece bu klasörde çalıştır';
 $string['runtests'] = 'Testleri çalıştır';
