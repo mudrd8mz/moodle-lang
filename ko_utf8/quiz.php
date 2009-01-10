@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090108) (2009010606)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090110) (2009010801)
 
 
 $string['1day'] = '하루';
@@ -21,7 +21,7 @@ $string['addingmultianswer'] = '내장형 문항(Cloze) 추가';
 $string['addingmultichoice'] = '선다형 문항 추가';
 $string['addingnumerical'] = '수치형 문항 추가';
 $string['addingquestion'] = '질문 추가';
-$string['addingquestions'] = '이곳에서 질문에 관계된 데이터베이스를 관리할 수 있습니다. 질문은 손쉽게 관리할 수 있게끔 범주별로 저장되고, 또한 \'공개\'한다면 선택한 강좌 혹은 다른 강좌에서도 이를 사용할 수 있습니다.<br /><br />범주를 선택하거나 생성한 후 질문을 편집할 수 있습니다. 어떠한 질문이라도 다른 문제은행의 범주에 추가될 수 있습니다.';
+$string['addingquestions'] = '이곳에서 질문에 관계된 데이터베이스를 관리할 수 있습니다. 질문은 손쉽게 관리할 수 있게끔 범주별로 저장되고, 또한 \'개방\'한다면 선택한 강좌 혹은 다른 강좌에서도 이를 사용할 수 있습니다.<br /><br />범주를 선택하거나 생성한 후 질문을 편집할 수 있습니다. 어떠한 질문이라도 다른 문제은행의 범주에 추가될 수 있습니다.';
 $string['addingrandom'] = '임의 질문 추가';
 $string['addingrandomsamatch'] = '단답형 임의질문 추가';
 $string['addingshortanswer'] = '주관식 단답형 문항 추가';
@@ -136,8 +136,10 @@ $string['choosedatasetproperties'] = '자료묶음 속성 선택';
 $string['choosefile'] = '파일 선택';
 $string['close'] = '미리보기창 닫기';
 $string['closebeforeopen'] = '퀴즈를 갱신할 수 없음. 퀴즈 여는 날을 마감날짜보다 이르게 지정해야 합니다.';
+$string['closedat'] = '닫힘: $a';
 $string['closepreview'] = '미리보기 닫기';
 $string['closereview'] = '다시보기 닫기';
+$string['closesat'] = '종료: $a';
 $string['comment'] = '덧글';
 $string['commentorgrade'] = '덧글 혹은 점수 덮어쓰기';
 $string['comments'] = '덧글';
@@ -455,6 +457,8 @@ $string['onlyteachersexport'] = '교수자만이 질문을 내보내기 할 수 
 $string['onlyteachersimport'] = '편집 권한이 있는 사람만 질문 가져오기를 할 수 있음';
 $string['open'] = '시작했음';
 $string['openclosedatesupdated'] = '퀴즈 시작 및 종료일이 변경되었음';
+$string['openedat'] = '공개됨: $a';
+$string['opensat'] = '공개: $a';
 $string['optional'] = '선택사항';
 $string['orderandpaging'] = '정렬 및 화면 나누기';
 $string['orderingquiz'] = '퀴즈 정렬 및 화면 나누기';
@@ -484,7 +488,7 @@ $string['previewquestion'] = '문제 미리보기';
 $string['previewquiz'] = '$a 퀴즈 미리보기';
 $string['previewquiznow'] = '지금 퀴즈 미리보기';
 $string['previous'] = '이전의 상태';
-$string['publish'] = '공개';
+$string['publish'] = '개방';
 $string['publishedit'] = '이 범주의 질문을 수정하거나 추가하기 위해서는 강좌에서 출판할 수 있는 권한이 있어야 함';
 $string['qname'] = '퀴즈명';
 $string['qti'] = 'IMS QTI 형식';
@@ -528,6 +532,8 @@ $string['quizclose'] = '퀴즈 종료';
 $string['quizclosed'] = '$a 에 퀴즈 끝남';
 $string['quizcloses'] = '퀴즈그만하기';
 $string['quizcloseson'] = '$a 에 퀴즈가 종료될 예정임';
+$string['quizisclosed'] = '본 퀴즈는 ($a) 에 닫힘';
+$string['quizisopen'] = '본 퀴즈는 ($a) 에 공개됨';
 $string['quiznavigation'] = '퀴즈 진행';
 $string['quiznotavailable'] = '$a 까지는 퀴즈를 이용할 수 없음';
 $string['quizopen'] = '퀴즈시작';
@@ -701,11 +707,11 @@ $string['unusedcategorydeleted'] = '강좌가 삭제된 이후, 쓰였던 문항
 $string['updatesettings'] = '퀴즈 설정 갱신';
 $string['upgradesure'] = '<div style=\"color:red;\">특정한 범위에서 그 퀴즈 모듈은 퀴즈 목록의 넓은 범위의 변화를 실행 할 것이며, 이 업로드는 아직 충분히 시험되지 않을 것이다. 당신은 실행 되기 전에 당신의 데이터 베이스 목록을 백업하기 위해 매우 강력하게 일을 추진한다.</div>';
 $string['url'] = 'URL';
-$string['usedcategorymoved'] = '이 범주의 질문들은 원래 있던 강좌의 범주가 삭제됨으로써 사이트 안에 다른 범주로 이동되었습니다.';
+$string['usedcategorymoved'] = '이 범주의 질문들은 원래 있던 강좌 범주가 삭제되어서 사이트 내의 다른 범주로 이동되었습니다.';
 $string['validate'] = '유효한지 확인';
 $string['viewallanswers'] = '$a 퀴즈 답안 보기';
 $string['viewallreports'] = '$a시도에 대한 결과 보기';
-$string['warningmissingtype'] = '<p><b> 이 질문은 무들에 아직 설치되지 않은 형식입니다.<br /> 무들 관리자에게 알려주십시요.</b></p>';
+$string['warningmissingtype'] = '<b>이 문형은 아직 시스템에 설치되지 않은 형식입니다.<br /> 무들 관리자에게 지적하여 주십시요.</b>';
 $string['warningsdetected'] = '$a 경고 검출';
 $string['webct'] = 'WebCT 형식';
 $string['wheregrade'] = '내 점수가 어디 있습니까?';

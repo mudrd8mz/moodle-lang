@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090104) (2008123102)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090110) (2009010801)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -15,7 +15,7 @@ $string['activitymodule'] = '활동 모듈';
 $string['activitymodules'] = '활동 모듈들';
 $string['activityreport'] = '활동 보고';
 $string['activityreports'] = '활동 보고서';
-$string['activityselect'] = '다른 곳으로 옮기기 위한 활동 선택';
+$string['activityselect'] = '다른 곳으로 옮기려면 선택';
 $string['activitysince'] = '$a 이후 활동';
 $string['activityweighted'] = '개인별 활동';
 $string['add'] = '추가';
@@ -28,7 +28,7 @@ $string['addedrecips'] = '$a 들이 새 수령인으로 추가됨';
 $string['addedtogroup'] = '$a 모둠에 추가됨';
 $string['addedtogroupnot'] = '$a 모둠에 추가되지 않음';
 $string['addedtogroupnotenrolled'] = '강좌 등록생이 아니므로, $a 모둠에 추가되지 못함';
-$string['addinganew'] = '새로운 $a 추가하기';
+$string['addinganew'] = '새 $a 추가하기';
 $string['addinganewto'] = '새 $a->what 를 $a->to 에 추가하기';
 $string['addingdatatoexisting'] = '기존의 데이터에 추가하기';
 $string['addnewcategory'] = '범주 추가';
@@ -52,13 +52,13 @@ $string['adminhelpauthentication'] = '외부 데이터베이스나 내부 이용
 $string['adminhelpbackup'] = '자동 백업 일정 설정';
 $string['adminhelpconfiguration'] = '사이트의 꾸미기와 기능 설정';
 $string['adminhelpconfigvariables'] = '사이트의 일반적 작동에 영향을 미치는 변수 설정';
-$string['adminhelpcourses'] = '강좌와 범주를 설정하고 사람들을 배치하며 유보된 과정을 고침';
-$string['adminhelpeditorsettings'] = 'HTML 편집기를 위한 기본설정';
+$string['adminhelpcourses'] = '강좌와 범주를 설정하고 사람들을 배치하며 유보된 과정을 개설';
+$string['adminhelpeditorsettings'] = 'HTML 편집기의 기본설정 정의';
 $string['adminhelpedituser'] = '이용자 계정 목록을 열고, 수정할 수 있음';
 $string['adminhelpenrolments'] = '등록관리 방법선택';
 $string['adminhelpenvironment'] = '서버가 추후 운영 환경에 적합한지 점검';
-$string['adminhelpfailurelogs'] = '로그인 실패 기록 열기';
-$string['adminhelphealthcenter'] = '사이트 문제점 자동 감지';
+$string['adminhelpfailurelogs'] = '로그인 실패 기록 검색';
+$string['adminhelphealthcenter'] = '사이트 문제점 자동 점검';
 $string['adminhelplanguage'] = '현재의 언어 팩을 점검하고 편집';
 $string['adminhelplogs'] = '사이트의 모든 활동기록 검색';
 $string['adminhelpmanageblocks'] = '설치된 블럭과 이들의 설정 관리';
@@ -96,7 +96,7 @@ $string['allactions'] = '모든 조치';
 $string['allactivities'] = '모든 활동';
 $string['allchanges'] = '모든 변경';
 $string['alldays'] = '모든 날';
-$string['allfieldsrequired'] = '모든 필드가 요구됨';
+$string['allfieldsrequired'] = '모든 필드가 필수';
 $string['allfiles'] = '모든 파일';
 $string['allgroups'] = '모든 모둠';
 $string['alllogs'] = '전체 기록';
@@ -1667,7 +1667,7 @@ $string['youneedtoenrol'] = '그 활동을 하려면 이 강좌에 등록해야 
 $string['yourlastlogin'] = '마지막 로그인';
 $string['yourself'] = '당신자신';
 $string['yourteacher'] = '당신의 $a';
-$string['yourwordforx'] = '\'$a\'에 대한 언급';
+$string['yourwordforx'] = '\'$a\'에 대한 호칭';
 $string['zippingbackup'] = '백업 압축하기';
 $string['courserequestdisabled'] = '죄송하지만, 요청한 강좌는 관리자에 의해 거부당했습니다.'; // ORPHANED
 $string['remotemaharauser'] = '원격 Mahara 사용자'; // ORPHANED

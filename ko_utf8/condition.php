@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // condition.php - created with Moodle 2.0 dev (Build: 20090104) (2008123102)
+      // condition.php - created with Moodle 2.0 dev (Build: 20090110) (2009010801)
 
 
 $string['addcompletions'] = '양식에 활동 조건 추가';
@@ -14,8 +14,8 @@ $string['completion_pass'] = '통과 점수로 완료';
 $string['completioncondition'] = '활동 완료 조건';
 $string['configenableavailability'] = '켜져 있으면, 어떤 활동 수행에 대한 (날짜, 성적 혹은 완료 상태에 기반한) 조건을 설정할 수 있게 된다.';
 $string['enableavailability'] = '수행 조건 활성';
-$string['grade_atleast'] = '득점 &ge;';
-$string['grade_upto'] = '그리고 &lt;';
+$string['grade_atleast'] = '최소 &ge;';
+$string['grade_upto'] = '최대 &lt;';
 $string['gradecondition'] = '성적 요건';
 $string['help_conditiondates'] = '이용 날짜';
 $string['help_showavailability'] = '이용할 수 없음 제시';
