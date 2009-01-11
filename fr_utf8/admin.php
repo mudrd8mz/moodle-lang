@@ -720,6 +720,8 @@ $string['sitemaintenancemode'] = 'Mode de maintenance';
 $string['sitemaintenanceoff'] = 'Le mode de maintenance a été désactivé et le site fonctionne à nouveau normalement';
 $string['sitemaintenanceon'] = 'Votre site est actuellement en mode maintenance (seuls les administrateurs peuvent se connecter et utiliser le site).';
 $string['sitemaintenancewarning'] = 'Votre site est actuellement en mode de maintenance (seuls les administrateurs peuvent s\'y connecter). Pour revenir à un fonctionnement normal du site, veuillez <a href=\"maintenance.php\">désactiver le mode de maintenance</a>.';
+$string['sitemaxcategorydepth'] = 'Nombre maximum de niveaux de catégories';
+$string['sitemaxcategorydepthhelp'] = 'Indique le nombre maximum de niveaux de catégories affichés';
 $string['sitepolicies'] = 'Règles site';
 $string['sitepolicy'] = 'URL du réglement de site';
 $string['sitesectionhelp'] = 'Si cette option est activée, une section sera affichée sur la page d\'accueil du site.';
