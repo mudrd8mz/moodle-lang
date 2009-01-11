@@ -470,6 +470,7 @@ $string['wrongroleid'] = 'Identifiant de rôle incorrect';
 $string['wrongsourcebase'] = 'Adresse URL de base de la source incorrect';
 $string['wrongzipfilename'] = 'Nom de fichier ZIP incorrect';
 $string['wwwrootmismatch'] = 'Accès incorrect détecté. Ce serveur ne peut être contacté que via l\'adresse «&nbsp;$a&nbsp;».<br />Veuillez informer l\'administrateur du serveur.';
+$string['wwwrootslash'] = 'La variable \$CFG->wwwroot est définie incorrectement dans config.php. Elle ne doit pas comprendre de barre oblique finale.<br />Veuillez informer l\'administrateur du serveur.';
 $string['xmldberror'] = 'Erreur XMLDB&nbsp;!';
 $string['youcannotdeletecategory'] = 'Vous ne pouvez pas supprimer la catégorie «&nbsp;$a&nbsp;», parce que vous ne pouvez ni supprimer son contenu, ni le déplacer ailleurs.';
 $string['younotteacher'] = 'Vous n\'êtes pas enseignant&nbsp;!';
