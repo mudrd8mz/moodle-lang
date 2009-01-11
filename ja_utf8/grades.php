@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090111) (2009011000)
 
 
 $string['activities'] = '活動';
@@ -31,7 +31,9 @@ $string['aggregation'] = '総計';
 $string['aggregationcoef'] = '総計係数';
 $string['aggregationcoefextra'] = '追加点係数';
 $string['aggregationcoefextrasum'] = '追加点として処理する';
+$string['aggregationcoefextrasumhelp'] = 'この評定項目に対する総計時の追加点です。';
 $string['aggregationcoefweight'] = '評定項目の加重';
+$string['aggregationcoefweighthelp'] = '他の評定項目との総計時、この評定項目のすべての評点に適用される加重です。';
 $string['aggregationhelp'] = 'コース内のすべての学生の評定を総計する手法です。';
 $string['aggregationposition'] = '総計の位置';
 $string['aggregationview'] = '総計の表示';
@@ -304,6 +306,8 @@ $string['lessthanmin'] = '$a->itemname に入力された $a->username の評点
 $string['letter'] = '文字';
 $string['lettergrade'] = '評定文字';
 $string['lettergradenonnumber'] = '上限または下限の評点が数値ではありません:';
+$string['letterpercentage'] = '文字 (パーセンテージ)';
+$string['letterreal'] = '文字 (実データ)';
 $string['letters'] = '文字';
 $string['linkedactivity'] = 'リンクされた活動';
 $string['linkedactivityhelp'] = 'このアウトカム項目がリンクされる任意の活動を指定してください。これは、活動評定により評定されないクライテリアにおける、学生のパフォーマンスを測定するため使用されます。';
@@ -394,6 +398,8 @@ $string['parentcategory'] = '親カテゴリ';
 $string['pctoftotalgrade'] = '評点合計の%%';
 $string['percent'] = 'パーセント';
 $string['percentage'] = 'パーセンテージ';
+$string['percentageletter'] = 'パーセンテージ (文字)';
+$string['percentagereal'] = 'パーセンテージ (実データ)';
 $string['percentascending'] = 'パーセントの昇順で並び替え';
 $string['percentdescending'] = 'パーセントの降順で並び替え';
 $string['percentshort'] = '%%';
@@ -420,6 +426,8 @@ $string['rangesdisplaytype'] = '範囲表示タイプ';
 $string['rank'] = 'ランク';
 $string['rawpct'] = '実%%';
 $string['real'] = '実データ';
+$string['realletter'] = '実データ (文字)';
+$string['realpercentage'] = '実データ (パーセンテージ)';
 $string['regradeanyway'] = 'とにかく再評定する';
 $string['removeallcoursegrades'] = 'すべての評定を削除する';
 $string['removeallcourseitems'] = 'すべての評定項目およびカテゴリを削除する';
@@ -530,8 +538,6 @@ $string['xml'] = 'XML';
 $string['yes'] = 'Yes';
 $string['yourgrade'] = 'あなたの評定';
 $string['aggregationcoefextrahelp'] = 'この評定項目に対する総計時の追加点です。'; //TBD
-$string['aggregationcoefextrasumhelp'] = 'この評定項目に対する総計時の追加点です。'; //TBD
-$string['aggregationcoefweighthelp'] = '他の評定項目との総計時、この評定項目のすべての評点に適用される加重です。'; //TBD
 $string['configbulkcheckboxes'] = 'バルク評定処理のため、評点の近くにチェックボックスを表示します。'; //TBD
 $string['configquickfeedback'] = '多くの評定のフィードバックを1度に編集できるようにするため、クイックフィードバックは評定レポートのそれぞれの評定セルにテキスト入力欄を追加します。1つずつ変更する代わりに、更新ボタンをクリックすることで、すべての変更を1度に実行することができます。'; //TBD
 $string['errornocategorizedid'] = 'カテゴリなしIDを取得できませんでした!'; //TBD
