@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -93,6 +93,7 @@ $string['configcookiesecure'] = 'Als de server alleen https-verbindingen aanvaar
 $string['configcountry'] = 'Als je hier een land invult, wordt dit land als standaard geselecteerd bij nieuwe gebruikersaccounts. Laat dit veld gewoon leeg om gebruikers te dwingen een land te kiezen.';
 $string['configcoursemanager'] = 'Deze instelling maakt het mogelijk te controleren wie je toont in de cursusbeschrijving. Gebruikers moeten minstens één van deze rollen in een cursus hebben om getoond te worden in de cursusbeschrijving van een bepaalde cursus.';
 $string['configcourserequestnotify'] = 'Geef de gebruikersnaam van de gebruiker die verwittigd moet worden als er een nieuwe cursus aangevraagd wordt.';
+$string['configcourserequestnotify2'] = 'Gebruikers die verwittigd zullen worden als er een nieuwe cursus wordt aangevraagd. Alleen gebruikers die een cursus kunnen goedkeuren, worden hier getoond.';
 $string['configcoursesperpage'] = 'Geef het maximum aantal cursussen per pagina in een cursuslijst';
 $string['configcreatornewroleid'] = 'Deze rol wordt automatisch toegekend aan cursusaanmakers in cursussen die ze zelf gemaakt hebben. De rol wordt niet toegekend als de cursusaanmaker de nodige mogelijkheden al erft van een hoger niveau';
 $string['configcronclionly'] = 'Als dit is ingesteld, dan kan cron alleen vanaf de command prompt gestart worden en niet via het web. Dit gaat voor op de wachtwoordinstelling van cron hieronder.';
@@ -392,6 +393,7 @@ $string['errordeletingconfig'] = 'Er is een fout opgetreden bij het verwijderen 
 $string['errors'] = 'Fouten';
 $string['errorsetting'] = 'Kon instelling niet bewaren';
 $string['errorwithsettings'] = 'Sommige instellingen zijn door een fout niet gewijzigd.';
+$string['everyonewhocan'] = 'Iedereen die kan \'$a\'';
 $string['exceptions'] = 'uitzonderingen';
 $string['experimental'] = 'Experimenteel';
 $string['experimentalsettings'] = 'Experimentele instellingen';
@@ -436,6 +438,7 @@ $string['guestroleid'] = 'Rol voor gasten';
 $string['helpadminseesall'] = 'Zien beheerders alle gebeurtenissen in de kalender of alleen diegene die ze zelf nodig hebben?';
 $string['helpcalendarsettings'] = 'Configureer de kalender en datum/tijd-gerelateerde instellingen van Moodle';
 $string['helpforcetimezone'] = 'Je kunt je gebruikers elk hun eigen tijdzone laten kiezen of een tijdzone opleggen voor iedereen.';
+$string['helpprofilefieldlink'] = 'Maak een link van de gebruikersgegevens';
 $string['helpsitemaintenance'] = 'Voor upgrades en ander onderhoud';
 $string['helpstartofweek'] = 'Welke dag start de week in de kalender?';
 $string['helpupcominglookahead'] = 'Hoeveel dagen is de standaardinstelling om kalender vooruit te laten kijken naar aankomende activiteiten?';
@@ -628,6 +631,8 @@ $string['profileeditfield'] = 'Bewerk profielveld: $a';
 $string['profilefield'] = 'Profielveld';
 $string['profilefieldcolumns'] = 'Kolommen';
 $string['profilefieldispassword'] = 'Is dit een wachtwoordveld?';
+$string['profilefieldlink'] = 'Link';
+$string['profilefieldlinktarget'] = 'Link doel';
 $string['profilefieldmaxlength'] = 'Maximumlengte';
 $string['profilefieldrows'] = 'Rijen';
 $string['profilefields'] = 'Profielvelden';
@@ -728,6 +733,8 @@ $string['sitemaintenancemode'] = 'Onderhoudsmodus';
 $string['sitemaintenanceoff'] = 'De onderhoudsmodus is uitgeschakeld en de site loopt nu terug normaal';
 $string['sitemaintenanceon'] = 'Je site is nu in onderhoudsmodus (alleen beheerders kunnen inloggen of gebruik maken van de site)';
 $string['sitemaintenancewarning'] = 'Je site is nu in onderhoudsmodus (alleen beheerders kunnen inloggen of gebruik maken van de site). Om terug te keren naar normale werking: <a href=\"maintenance.php\">onderhoudsmodus uitschakelen</a>';
+$string['sitemaxcategorydepth'] = 'Maximum diepte categorieën';
+$string['sitemaxcategorydepthhelp'] = 'Dit specifieert het maximum aantal onderliggende categorieën';
 $string['sitepolicies'] = 'Site reglement';
 $string['sitepolicy'] = 'URL voor site afspraken';
 $string['sitesectionhelp'] = 'Indien gekozen wordt er een onderwerpsectie getoond op de startpagina van de site';
