@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // messageprocessor_jabber.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+      // messageprocessor_jabber.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
 
-$string['jabberid'] = 'Jabber azonosító';
-$string['jabber'] = 'Jabber Im';
+
+$string['jabber'] = 'Jabber-üzenet';
+$string['jabberid'] = 'Jabber-azonosító';
 
 ?>

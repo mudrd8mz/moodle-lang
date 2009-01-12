@@ -29,6 +29,8 @@ Ezt mielőbb ki kell javítani, ehhez látogasson el ide: $a->fixurl.';
 $string['insanebodyhtml'] = '<p>Jó napot! Ezt az üzenetet a(z) $a->sitename rendszergazdájaként kapja.</p>
 $a->htmllist
 <p>Ezt mielőbb ki kell javítani, ehhez látogasson el <a href=\"$a->fixurl\">a portfolióbeállítási oldalakra</a>.</p>';
+$string['insanebodysmall'] = 'Jó napot! Ezt az üzenetet a(z) $a->sitename rendszergazdájaként kapja.
+Hibás beállítás miatt néhány portfolió-segédprogram automatikusan ki lett kapcsolva. Ezekbe a portfoliókba a felhasználók most nem exportálhatnak tartalmat. Ezt mielőbb ki kell javítani, ehhez látogasson el ide: $a->fixurl.';
 $string['insanesubject'] = 'Néhány portfolió-segédprogram automatikusan ki lett kapcsolva.';
 $string['invalidbuttonproperty'] = 'Nincs meg a portfolio_button tulajdonsága ($a)';
 $string['invalidfileareaargs'] = 'Érvénytelen állományterületre vonatkozó argumentumokat kapott a set_file_and_format_data - elengedhetetlen részei a contextid, a filearea és az itemid.';
@@ -54,6 +56,7 @@ $string['unknownplugin'] = 'Ismeretlen (esetleg a rendszergazda idő közben elt
 $string['addalltoportfolio'] = 'Az összes hozzáadása a portfolióhoz';
 $string['addnewportfolio'] = 'Új portfolió hozzáadása';
 $string['addtoportfolio'] = 'Hozzáadás a portfolióhoz';
+$string['alreadyexporting'] = 'Ebben a folyamatban már van aktív portfolió-exportálása. Előbb fejezze be vagy érvénytelenítse. Folytatja? (A Nem érvényteleníti).';
 $string['availableformats'] = 'Használható exportálási formátumok';
 $string['callercouldnotpackage'] = 'Adatait nem sikerült exportáláshoz összecsomagolni.';
 $string['cannotsetvisible'] = 'Nem állítható láthatóra - téves beállítás miatt a segédprogram ki van iktatva.';
