@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
+      // error.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
 
 
 $string['TODO'] = 'TE DOEN';
@@ -390,6 +390,7 @@ $string['remotedownloaderror'] = 'De download van de component naar jouw server 
 $string['remotedownloadnotallowed'] = 'Het downloaden van componenten naar je server is niet toegelaten (allow_url_fopen is uitgeschakeld)<br /><br />Je moet het <a href=\"$a->url\">$a->url</a>bestand manueel downloaden en het kopiëren naar \"$a->dest\" op je server en het daar unzippen.';
 $string['reportnotavailable'] = 'Dit type rapport is alleen maar beschikbaar voor de site-cursus';
 $string['restricteduser'] = 'Sorry, maar je hebt onvoldoende rechten om dat te doen.';
+$string['reverseproxyabused'] = 'Reverse proxy ingeschakeld. Er is geen rechtstreekse toegang tot de server mogelijlk. Contacteer de systeembeheerder.';
 $string['rpcerror'] = 'RPC aanmelding/mnet/beschikbare cursussen:($a)';
 $string['scheduledbackupsdisabled'] = 'Automatische backups zijn uitgeschakeld door de site-beheerder';
 $string['secretalreadyused'] = '\"Wijzig wachtwoord bevestigingslink\" is al gebruikt, het wachtwoord is niet gewijzigd';
@@ -402,6 +403,7 @@ $string['sessionipnomatch'] = 'Sorry, maar je IP-adres is gewijzigd sinds je aan
 $string['sessionipnomatch2'] = 'Je IP-nummer is blijkbaar gewijzigd sinds je login. Deze beveiligingsfunctie verhindert dat crackers je identiteit stelen terwijl je aangemeld bent bij deze site. Je kunt deze melding zien als je draadloze netwerken gebruikt of als je schakelt tussen verschillende netwerken. Vraag de sitebeheerder om hulp.<br /><br />Als je wil verder gaan, klik dan op F5 om deze pagina te verversen.';
 $string['socksnotsupported'] = 'SOCKS5-proxy wordt niet ondersteund in PHP4';
 $string['spellcheckernotconf'] = 'Spellingscontrole niet geconfigureerd';
+$string['sslonlyaccess'] = 'Voor veiligheidsredenen zijn enkel https-connecties toegelaten.';
 $string['statscatchupmode'] = 'De statistiekfunctie is nu wat achterstand aan het inhalen. Tot nu zijn al $a->daysdone dagen verwerkt en zijn er nog $a->dayspending dagen te doen. Kom later eens terug kijken!';
 $string['statsdisable'] = 'Statistieken niet ingeschakeld.';
 $string['statsnodata'] = 'Er zijn geen gegevens beschikbaar voor die combinatie van cursus en periode';
@@ -438,6 +440,7 @@ $string['unknowuploadaction'] = 'Fout: onbekende uploadactie ($a).';
 $string['unspecifycourseid'] = 'Je moet cursus ID, korte naam of ID nummer specifiëren';
 $string['unsupportedevent'] = 'Gebeurtenistype niet ondersteund';
 $string['unsupportedstate'] = 'afwerkingsstatus niet ondersteund';
+$string['unsupportedwebserver'] = 'De webserver software ($a) wordt niet ondersteund.';
 $string['updatersserror'] = 'Er is een fout opgetreden bij het updaten van een rss feed met id: $a';
 $string['upgradefail'] = 'Upgrade mislukt! $a';
 $string['upgraderequires19'] = 'FOUT: er is een nieuwe Moodle versie geïnstalleerd op je server, maar upgrade vanaf je vorige versie is niet ondersteund.<br />Upgrade eerst naar de laatste 1.9.x-versie. Je kunt ook terug naar je vorige versie door de Moodle-bestanden van die versie terug te plaatsen.';
@@ -470,6 +473,8 @@ $string['wrongdestpath'] = 'Fout pad voor bestemming';
 $string['wrongroleid'] = 'Foute rol ID';
 $string['wrongsourcebase'] = 'Foute URL voor de bron';
 $string['wrongzipfilename'] = 'Foute ZIP-bestandsnaam';
+$string['wwwrootmismatch'] = 'Foute toegang gedetecteerd. Deze server is enkel toegankelijk via het adres \"$a\". <br />Verwittig je systeembeheerder.';
+$string['wwwrootslash'] = 'Verkeerde $CFG->wwwroot in config.php gevonden. Er mag geen schuine streep aan het einde van de regel staan.<br /> Verwittig je systeembeheerder.';
 $string['xmldberror'] = 'XMLDB fout!';
 $string['youcannotdeletecategory'] = 'Je kunt categorie \'$a\' niet verwijderen omdat je de inhoud niet kunt verwijderen, noch verplaatsen';
 $string['younotteacher'] = 'Jij bent geen leraar!';

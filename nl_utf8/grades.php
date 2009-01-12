@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
 
 
 $string['activities'] = 'Activiteiten';
@@ -31,7 +31,9 @@ $string['aggregation'] = 'Aggregatie';
 $string['aggregationcoef'] = 'Aggregatiecoëfficiënt';
 $string['aggregationcoefextra'] = 'Bonus';
 $string['aggregationcoefextrasum'] = 'Bonus';
+$string['aggregationcoefextrasumhelp'] = 'Bonus voor dit beoordelingsitem tijdens aggregatie';
 $string['aggregationcoefweight'] = 'Weging beoordelingsitem';
+$string['aggregationcoefweighthelp'] = 'Weging, toegepast op alle cijfers in dit beoordelingsitem tijdens een aggregatie met andere beoordelingsitems';
 $string['aggregationhelp'] = 'Gebruikte strategie voor het aggregeren (samenvoegen) van cijfers voor alle leerlingen in een cursus.';
 $string['aggregationposition'] = 'Aggregatiepositie';
 $string['aggregationview'] = 'Aggregatieopmaak';
@@ -305,6 +307,8 @@ $string['lessthanmin'] = 'Het cijfer, ingegeven voor $a->itemname voor $a->usern
 $string['letter'] = 'Letter';
 $string['lettergrade'] = 'Letterbeoordeling';
 $string['lettergradenonnumber'] = 'Laagste en/of hoogste cijfer was geen cijfer';
+$string['letterpercentage'] = 'Letter (percentage)';
+$string['letterreal'] = 'Letter (reëel)';
 $string['letters'] = 'Letters';
 $string['linkedactivity'] = 'Gelinkte activiteit';
 $string['linkedactivityhelp'] = 'Een optionele activiteit waaran dit item gelinkt is.';
@@ -395,6 +399,8 @@ $string['parentcategory'] = 'Bovenliggende categorie';
 $string['pctoftotalgrade'] = '%% van totaalcijfer';
 $string['percent'] = 'Procent';
 $string['percentage'] = 'Percentage';
+$string['percentageletter'] = 'Percentage (letter)';
+$string['percentagereal'] = 'Percentage (Reëel)';
 $string['percentascending'] = 'Sorteer procent oplopend';
 $string['percentdescending'] = 'Sorteer procent aflopend';
 $string['percentshort'] = '%%';
@@ -421,6 +427,8 @@ $string['rangesdisplaytype'] = 'Hoe marges tonen';
 $string['rank'] = 'Ranglijst';
 $string['rawpct'] = 'Ruw %%';
 $string['real'] = 'Echt';
+$string['realletter'] = 'Reëel (letter)';
+$string['realpercentage'] = 'Reëel (percentage)';
 $string['regradeanyway'] = 'Cijfers toch opnieuw berekenen';
 $string['removeallcoursegrades'] = 'Verwijder alle cijfers';
 $string['removeallcourseitems'] = 'Verwijder alle items en categorieën';
@@ -532,8 +540,6 @@ $string['xml'] = 'XML';
 $string['yes'] = 'Ja';
 $string['yourgrade'] = 'Jouw cijfer';
 $string['aggregationcoefextrahelp'] = 'Bonus voor dit beoordelingsitem tijdens aggregatie'; // ORPHANED
-$string['aggregationcoefextrasumhelp'] = 'Bonus voor dit beoordelingsitem tijdens aggregatie'; // ORPHANED
-$string['aggregationcoefweighthelp'] = 'Weging, toegepast op alle cijfers in dit beoordelingsitem tijdens een aggregatie met andere beoordelingsitems'; // ORPHANED
 $string['configbulkcheckboxes'] = 'Selectievakjes naast elk cijfer voor bulkoperaties'; // ORPHANED
 $string['configquickfeedback'] = 'Snelle feedback voegt een tekstveld in elke beoordelingscel toe op het rapport, waarmee je tegelijk de cijfers kunt wijzigen. Je kunt dan op de Aanpassen-knop klikken om al deze wijzigingen in één keer door te voeren i.p.v. één voor één.'; // ORPHANED
 $string['errornocategorizedid'] = 'Kon geen id zonder categorie vinden!'; // ORPHANED
