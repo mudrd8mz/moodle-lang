@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // quiz_grading.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
 
 
+$string['cannotloadquestioninfo'] = 'Kon vraagspecifieke vraaginformatie niet laden';
 $string['essayonly'] = 'Volgende vragen moeten manueel beoordeeld worden';
 $string['gradeall'] = 'Beoordeel alle $a pogingen';
 $string['graded'] = '(beoordeeld)';
@@ -12,8 +13,11 @@ $string['gradingall'] = 'Alle $a pogingen voor deze vraag.';
 $string['gradingattempt'] = 'Pogingnummer $a->attempt voor $a->fullname.';
 $string['gradingnextungraded'] = 'Volgende $a onbeoordeelde pogingen';
 $string['gradingnotallowed'] = 'Je hebt het recht niet om in deze test de antwoorden manueel te beoordelen';
+$string['gradingreport'] = 'Manueel beoordelingsrapport';
 $string['gradingungraded'] = '$a onbeoordeelde pogingen';
 $string['gradinguser'] = 'Pogingen voor $a';
+$string['invalidattemptid'] = 'Er bestaat geen poging met dit ID';
+$string['invalidquestionid'] = 'Geen beoordeelbare vraag met id $a gevonden';
 $string['questiontitle'] = 'Vraag $a->number : \"$a->name\" ({$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts pogingen {$a->openspan}beoordeeld{$a->closespan}).';
 
 ?>

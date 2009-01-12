@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080815) (2008081506)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
 
 
 $string['allattempts'] = 'Toon alle pogingen';
@@ -26,6 +26,7 @@ $string['optonlygradedattempts'] = 'Enkel de beoordeelde poging voor elke gebrui
 $string['optonlyregradedattempts'] = 'zijn herberekend / gemarkeerd om te herberekenen';
 $string['overview'] = 'Overzicht';
 $string['overviewdownload'] = 'Download overzicht';
+$string['overviewreport'] = 'Cijferrapport';
 $string['overviewreportgraph'] = 'Staafdiagram met aantal leerlingen dat het gemiddelde haalt.';
 $string['overviewreportgraphgroup'] = 'Aantal leerlingen in groep \'$a\'die het cijferbereik halen';
 $string['pagesize'] = 'Paginagrootte';
@@ -48,5 +49,6 @@ $string['showdetailedmarks'] = 'Toon / download cijfers voor elke vraag';
 $string['showinggraded'] = 'Toon alleen de beoordeelde poging voor elke gebruiker.';
 $string['showinggradedandungraded'] = 'De beoordeelde en onbeoordeelde pogingen voor elke gebruiker worden getoond. De beoordeelde poging voor elke gebruiker is gemarkeerd. De beoordelingsmethode voor deze test is $a.';
 $string['studentingroup'] = '\'$a->coursestudent\' in groep \'$a->groupname\'';
+$string['studentingrouplong'] = '\'$a->coursestudent\' in deze groep';
 
 ?>
