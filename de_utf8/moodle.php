@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -473,7 +473,7 @@ $string['emailactive'] = 'E-Mail-Adresse aktivieren';
 $string['emailagain'] = 'E-Mail (wiederholen)';
 $string['emailcharset'] = 'E-Mail-Zeichensatz';
 $string['emailconfirm'] = 'Bestätigen Sie Ihren Zugang.';
-$string['emailconfirmation'] = 'Guten Tag $a->firstname $a->lastname,
+$string['emailconfirmation'] = 'Guten Tag $a->firstname,
 
 unter Verwendung Ihrer E-Mail-Adresse ist ein neuer Zugang zum Lernmanagementsystem Moodle unter \'$a->sitename\' angemeldet worden. Wenn dies richtig ist, bestätigen Sie bitte die Anmeldung über den folgenden Link:
 
