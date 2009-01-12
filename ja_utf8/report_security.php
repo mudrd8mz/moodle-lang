@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20081231) (2008123102)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090112) (2009011101)
 
 
 $string['check_configrw_name'] = '書き込み可能なconfig.php';
@@ -8,11 +8,14 @@ $string['check_configrw_warning'] = 'PHPスクリプトは、config.phpを修正
 $string['check_cookiesecure_error'] = 'セキュアクッキーを有効にしてください。';
 $string['check_cookiesecure_name'] = 'セキュアクッキー';
 $string['check_cookiesecure_ok'] = 'セキュアクッキーは、有効にされています。';
+$string['check_courserole_error'] = '正しくないコースデフォルトロールの定義が検出されました!';
+$string['check_courserole_legacy'] = 'サポートされていないレガシータイプが<a href=\"$a\">ロール</a>で検出されました。';
 $string['check_courserole_name'] = 'コースデフォルトロール';
 $string['check_courserole_notyet'] = 'デフォルトのコースロールのみ使用されています。';
 $string['check_courserole_ok'] = 'コースデフォルトロール定義は、OKです。';
 $string['check_courserole_risky'] = '<a href=\"$a\">コンテクスト</a>に危険なケイパビリティが検出されました。';
 $string['check_defaultcourserole_error'] = '正しくないデフォルトコースロール「 $a 」の割り当てが検出されました!';
+$string['check_defaultcourserole_legacy'] = 'サポートされていないレガシータイプが検出されました。';
 $string['check_defaultcourserole_name'] = 'デフォルトコースロールを設定する';
 $string['check_defaultcourserole_notset'] = 'デフォルトロールが設定されていません。';
 $string['check_defaultcourserole_ok'] = 'サイトデフォルトロールの定義は、OKです。';
@@ -21,26 +24,39 @@ $string['check_defaultuserrole_error'] = '正しくないユーザロール「 $
 $string['check_defaultuserrole_name'] = '登録ユーザのロール';
 $string['check_defaultuserrole_notset'] = 'デフォルトロールが設定されていません。';
 $string['check_defaultuserrole_ok'] = '登録ユーザのロール定義は、OKです。';
+$string['check_displayerrors_details'] = '<p>いくつかのエラーメッセージは、あなたのサーバに関する機密情報を漏洩する可能性があるため、PHP設定 <code>display_errors</code>の有効化はお勧めできません。</p>';
+$string['check_displayerrors_error'] = 'PHPエラーの表示が有効にされています。PHP設定でエラー表示を無効にすることをお勧めします。';
 $string['check_displayerrors_name'] = 'PHPエラーの表示';
 $string['check_displayerrors_ok'] = 'PHPエラーの表示は、無効にされています。';
+$string['check_emailchangeconfirmation_error'] = 'ユーザは、どのようなメールアドレスでも入力することができます。';
+$string['check_emailchangeconfirmation_name'] = 'メール変更確認';
+$string['check_emailchangeconfirmation_ok'] = 'メールの変更は、確認されるべきです。';
+$string['check_embed_error'] = '無制限のオブジェクト埋め込みが許可されています - これは、大部分のサーバで非常に危険な設定です。';
 $string['check_embed_name'] = 'EMBEDおよびOBJECTを許可する';
-$string['check_embed_ok'] = '無制限のオブジェクト埋め込みは許可されていません。';
+$string['check_embed_ok'] = '無制限のオブジェクト埋め込みは、許可されていません。';
 $string['check_frontpagerole_error'] = '正しくないフロントページロール「 $a 」の割り当てが検出されました!';
 $string['check_frontpagerole_name'] = 'フロントページロール';
 $string['check_frontpagerole_notset'] = 'フロントページロールが設定されていません。';
 $string['check_frontpagerole_ok'] = 'フロントページロールは、OKです。';
+$string['check_globals_error'] = 'Register globalsは、無効にされるべきです。すぐにPHP設定を修正してください!';
 $string['check_globals_name'] = 'Register globals';
 $string['check_globals_ok'] = 'Register globalsが無効にされています。';
+$string['check_google_error'] = 'サーチエンジンによるゲストアクセスは許可されていますが、ゲストアクセスは無効にされています。';
 $string['check_google_info'] = 'サーチエンジンは、ゲストとして入ることができます。';
 $string['check_google_name'] = 'Googleに公開する';
+$string['check_google_ok'] = 'サーチエンジンによるゲストアクセスは、有効にされていません。';
+$string['check_guestrole_error'] = '正しくないゲストロール「 $a 」の定義が検出されました!';
 $string['check_guestrole_name'] = 'ゲストロール';
 $string['check_guestrole_notset'] = 'ゲストロールが設定されていません。';
 $string['check_guestrole_ok'] = 'ゲストロール定義は、OKです。';
+$string['check_mediafilterswf_error'] = 'Flashメディアフィルタが許可されています - これは、大部分のサーバで非常に危険な設定です。';
 $string['check_mediafilterswf_name'] = '.swfメディアフィルタを有効にする';
 $string['check_mediafilterswf_ok'] = 'Flashメディアフィルタが有効にされていません。';
 $string['check_noauth_name'] = '認証なし';
 $string['check_noauth_ok'] = '無効にされた認証プラグインはありません。';
+$string['check_openprofiles_error'] = 'ログインなしで誰でもユーザプロファイルを閲覧できます。';
 $string['check_openprofiles_name'] = 'ユーザプロファイルを公開する';
+$string['check_openprofiles_ok'] = 'ユーザプロファイルを閲覧するには、ログインが必要です。';
 $string['check_passwordpolicy_error'] = 'パスワードポリシーが設定されていません。';
 $string['check_passwordpolicy_name'] = 'パスワードポリシー';
 $string['check_passwordpolicy_ok'] = 'パスワードポリシーが有効にされています。';
