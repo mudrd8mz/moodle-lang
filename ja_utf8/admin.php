@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090107) (2009010606)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090112) (2009011101)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -92,6 +92,7 @@ $string['configcookiesecure'] = 'サーバがhttps接続のみ受け付ける場
 $string['configcountry'] = 'ここで国を設定した場合、新規ユーザアカウントの国のデフォルトとして選択されます。ユーザに自分で国を選ばせる場合、設定しないままにしてください。';
 $string['configcoursemanager'] = 'ここでは、誰がコース説明に表示されるか設定することができます。ユーザがコースのコース説明に表示されるためには、これらの中から少なくとも１つのロールを割り当ててください。';
 $string['configcourserequestnotify'] = '新しいコースがリクエストされた場合、通知されるユーザのユーザ名を入力してください。';
+$string['configcourserequestnotify2'] = '新しいコースがリクエストされた場合、通知されるユーザです。コースリクエストを承認できるユーザのみ、ここに一覧表示されます。';
 $string['configcoursesperpage'] = 'コース一覧の1ページあたりに表示するコース数を入力してください。';
 $string['configcreatornewroleid'] = 'このロールは、新しいコースを作成したコース作成者に自動的に割り当てられます。親コンテクストで必要なケイパビリティを持っている場合、このロールはコース作成者に割り当てられません。';
 $string['configcronclionly'] = 'この設定を有効にした場合、ウェブ経由の代わりに、コマンドラインのみでcronスクリプトを実行することができます。この設定は、下記のcronパスワード設定をオーバーライドします。';
@@ -389,6 +390,7 @@ $string['errordeletingconfig'] = 'プラグイン「 $a 」の設定レコード
 $string['errors'] = 'エラー';
 $string['errorsetting'] = '設定を保存できませんでした:';
 $string['errorwithsettings'] = 'エラーが発生したため、いくつかの設定は変更されませんでした:';
+$string['everyonewhocan'] = '「 $a 」ことができるユーザすべて';
 $string['exceptions'] = '例外';
 $string['experimental'] = '実験用';
 $string['experimentalsettings'] = '実験用設定';

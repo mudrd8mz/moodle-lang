@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090108) (2009010606)
+      // error.php - created with Moodle 2.0 dev (Build: 20090112) (2009011101)
 
 
 $string['TODO'] = 'TODO';
@@ -439,6 +439,7 @@ $string['unknowuploadaction'] = '不明なアップロード処理「 $a 」で�
 $string['unspecifycourseid'] = 'コースID、省略名またはIDナンバーを指定してください。';
 $string['unsupportedevent'] = 'サポートされていないイベントタイプです。';
 $string['unsupportedstate'] = 'サポートされていない完了状況です。';
+$string['unsupportedwebserver'] = '申し訳ございません、ウェブサーバソフトウェア ($a) は、サポートされていません。';
 $string['updatersserror'] = 'ID $a のRSSフィードの更新中にエラーが発生しました。';
 $string['upgradefail'] = 'アップグレードに失敗しました! $a';
 $string['upgraderequires19'] = 'エラー: このサーバに新しいMoodleバージョンがインストールされました。残念ですが、前のバージョンからのアップグレードがサポートされていません。<br />最初に、最新の1.9.xリリースにアップグレードしてください。オリジナルファイルを再インストールすることで、あなたは元のバージョンに戻ることができます。';
@@ -465,7 +466,6 @@ $string['usernotupdatedadmin'] = '管理者アカウントを更新できませ�
 $string['usernotupdatederror'] = 'ユーザは更新されませんでした - エラー。';
 $string['usernotupdatednotexists'] = 'ユーザは更新されませんでした - 登録されていません。';
 $string['userselectortoomany'] = 'multiselectがfalseにもかかわらず、user_selectorが1名以上のユーザを選択しています。';
-$string['usupportedwebserver'] = '申し訳ございません、ウェブサーバソフトウェア ($a) は、サポートされていません。';
 $string['wrongcall'] = 'このスクリプトは正常にコールされていません。';
 $string['wrongcontextid'] = 'コンテクストIDが正しくありません (見つけることができません)。';
 $string['wrongdestpath'] = '宛先パスが正しくありません。';
