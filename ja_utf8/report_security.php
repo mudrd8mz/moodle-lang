@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090112) (2009011101)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090113) (2009011301)
 
 
 $string['check_configrw_name'] = '書き込み可能なconfig.php';
@@ -8,9 +8,9 @@ $string['check_configrw_warning'] = 'PHPスクリプトは、config.phpを修正
 $string['check_cookiesecure_error'] = 'セキュアクッキーを有効にしてください。';
 $string['check_cookiesecure_name'] = 'セキュアクッキー';
 $string['check_cookiesecure_ok'] = 'セキュアクッキーは、有効にされています。';
-$string['check_courserole_error'] = '正しくないコースデフォルトロールの定義が検出されました!';
+$string['check_courserole_error'] = '正しくないデフォルトコースロールの定義が検出されました!';
 $string['check_courserole_legacy'] = 'サポートされていないレガシータイプが<a href=\"$a\">ロール</a>で検出されました。';
-$string['check_courserole_name'] = 'コースデフォルトロール';
+$string['check_courserole_name'] = 'デフォルトコースロール';
 $string['check_courserole_notyet'] = 'デフォルトのコースロールのみ使用されています。';
 $string['check_courserole_ok'] = 'コースデフォルトロール定義は、OKです。';
 $string['check_courserole_risky'] = '<a href=\"$a\">コンテクスト</a>に危険なケイパビリティが検出されました。';
@@ -24,7 +24,7 @@ $string['check_defaultuserrole_error'] = '正しくないユーザロール「 $
 $string['check_defaultuserrole_name'] = '登録ユーザのロール';
 $string['check_defaultuserrole_notset'] = 'デフォルトロールが設定されていません。';
 $string['check_defaultuserrole_ok'] = '登録ユーザのロール定義は、OKです。';
-$string['check_displayerrors_details'] = '<p>いくつかのエラーメッセージは、あなたのサーバに関する機密情報を漏洩する可能性があるため、PHP設定 <code>display_errors</code>の有効化はお勧めできません。</p>';
+$string['check_displayerrors_details'] = '<p>いくつかのエラーメッセージは、あなたのサーバに関する機密情報を漏洩する可能性があるため、PHP設定 <code>display_errors</code>の有効化は、実稼動サイトではお勧めできません。</p>';
 $string['check_displayerrors_error'] = 'PHPエラーの表示が有効にされています。PHP設定でエラー表示を無効にすることをお勧めします。';
 $string['check_displayerrors_name'] = 'PHPエラーの表示';
 $string['check_displayerrors_ok'] = 'PHPエラーの表示は、無効にされています。';
