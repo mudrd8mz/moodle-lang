@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
+      // grades.php - created with Moodle 1.9.3+ (Build: 20090115) (2007101533.01)
 
 
 $string['activities'] = 'Činnosti';
@@ -302,6 +302,8 @@ $string['lessthanmin'] = 'Známka z položky hodnocení \"$a->itemname\" u uživ
 $string['letter'] = 'Slovní známka';
 $string['lettergrade'] = 'Slovní známka';
 $string['lettergradenonnumber'] = 'Nenumerická hodnota v Od a/nebo Do';
+$string['letterpercentage'] = 'Slovní známka (procenta)';
+$string['letterreal'] = 'Slovní známka (skutečná hodnota)';
 $string['letters'] = 'Slovní známky';
 $string['linkedactivity'] = 'Propojená činnost';
 $string['linkedactivityhelp'] = 'Volitelné nastavení. Propojuje tuto položku hodnocení s některým z modulů činností. Tímto způsobem můžete měřit výkon studenta podle kritérií neuvažovaných ve známce za danou činnost.';
@@ -390,6 +392,8 @@ $string['parentcategory'] = 'Nadřazená kategorie';
 $string['pctoftotalgrade'] = '%% celkové známky';
 $string['percent'] = 'Procenta';
 $string['percentage'] = 'Procentuální hodnota';
+$string['percentageletter'] = 'Procenta (slovní známka)';
+$string['percentagereal'] = 'Procenta (skutečná hodnota)';
 $string['percentascending'] = 'Třídit podle procent vzestupně';
 $string['percentdescending'] = 'Třídit podle procent sestupně';
 $string['percentshort'] = '%%';
@@ -416,6 +420,8 @@ $string['rangesdisplaytype'] = 'Typ zobrazení rozsahu';
 $string['rank'] = 'Umístění';
 $string['rawpct'] = 'Hrubých %%';
 $string['real'] = 'Skutečná hodnota';
+$string['realletter'] = 'Skutečná hodnota (slovní známka)';
+$string['realpercentage'] = 'Skutečná hodnota (procenta)';
 $string['regradeanyway'] = 'Přesto přeznámkovat';
 $string['removeallcoursegrades'] = 'Odstranit všechny známky';
 $string['removeallcourseitems'] = 'Odstranit všechny položky a kategorie';
