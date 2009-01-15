@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090110) (2009010801)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090115) (2009011400)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -12,7 +12,7 @@ $string['activity'] = '활동';
 $string['activityclipboard'] = '이 활동을 옮기기: <b>$a</b>';
 $string['activityiscurrentlyhidden'] = '공개되지 않은 활동임';
 $string['activitymodule'] = '활동 모듈';
-$string['activitymodules'] = '활동 모듈들';
+$string['activitymodules'] = '활동 모듈';
 $string['activityreport'] = '활동 보고';
 $string['activityreports'] = '활동 보고서';
 $string['activityselect'] = '다른 곳으로 옮기려면 선택';
@@ -1211,7 +1211,7 @@ $string['readme'] = 'README';
 $string['recentactivity'] = '최근 활동';
 $string['recentactivityreport'] = '최근활동 상세보고';
 $string['recipientslist'] = '수신자 목록';
-$string['recreatedcategory'] = '다시 만들어진 범주 $a';
+$string['recreatedcategory'] = '재생성된 범주 $a';
 $string['refresh'] = '갱신';
 $string['refreshingevents'] = '일정 갱신';
 $string['registration'] = '무들 등록하기';

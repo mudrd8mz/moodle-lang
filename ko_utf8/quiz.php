@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090110) (2009010801)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090115) (2009011400)
 
 
 $string['1day'] = '하루';
@@ -136,10 +136,8 @@ $string['choosedatasetproperties'] = '자료묶음 속성 선택';
 $string['choosefile'] = '파일 선택';
 $string['close'] = '미리보기창 닫기';
 $string['closebeforeopen'] = '퀴즈를 갱신할 수 없음. 퀴즈 여는 날을 마감날짜보다 이르게 지정해야 합니다.';
-$string['closedat'] = '닫힘: $a';
 $string['closepreview'] = '미리보기 닫기';
 $string['closereview'] = '다시보기 닫기';
-$string['closesat'] = '종료: $a';
 $string['comment'] = '덧글';
 $string['commentorgrade'] = '덧글 혹은 점수 덮어쓰기';
 $string['comments'] = '덧글';
@@ -457,8 +455,6 @@ $string['onlyteachersexport'] = '교수자만이 질문을 내보내기 할 수 
 $string['onlyteachersimport'] = '편집 권한이 있는 사람만 질문 가져오기를 할 수 있음';
 $string['open'] = '시작했음';
 $string['openclosedatesupdated'] = '퀴즈 시작 및 종료일이 변경되었음';
-$string['openedat'] = '공개됨: $a';
-$string['opensat'] = '공개: $a';
 $string['optional'] = '선택사항';
 $string['orderandpaging'] = '정렬 및 화면 나누기';
 $string['orderingquiz'] = '퀴즈 정렬 및 화면 나누기';
@@ -525,6 +521,7 @@ $string['quiz:ignoretimelimits'] = '시간 제한 무시';
 $string['quiz:manage'] = '퀴즈 관리';
 $string['quiz:preview'] = '퀴즈 미리보기';
 $string['quiz:regrade'] = '시도한 퀴즈 재채점';
+$string['quiz:reviewmyattempts'] = '시도 검토';
 $string['quiz:view'] = '퀴즈 정보 보기';
 $string['quiz:viewreports'] = '퀴즈 보고서 보기';
 $string['quizavailable'] = '$a까지 퀴즈를 이용할 수 있음';
@@ -732,6 +729,10 @@ $string['youmustwait'] = '이 문제를 다시 시도하려면 잠시 기다려�
 $string['youneedtoenrol'] = '강좌에 등록을 마쳐야 이 퀴즈에 도전할 수 있음';
 $string['yourfinalgradeis'] = '이번 퀴즈의 최종 점수는 $a 입니다.';
 $string['zerosignificantfiguresnotallowed'] = '정답에 0점을 줄 수는 없습니다!';
+$string['closedat'] = '닫힘: $a'; // ORPHANED
+$string['closesat'] = '종료: $a'; // ORPHANED
+$string['openedat'] = '공개됨: $a'; // ORPHANED
+$string['opensat'] = '공개: $a'; // ORPHANED
 $string['fromcategory'] = '범주로부터'; // ORPHANED
 $string['totalpoints'] = '총점'; // ORPHANED
 $string['reviewnotallowed'] = '이 시험에서 다른 사람의 시도를 검토해 볼 수는 없습니다.'; // ORPHANED

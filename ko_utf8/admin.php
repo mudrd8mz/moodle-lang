@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090115) (2009011400)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -131,6 +131,7 @@ $string['configenablerssfeedsdisabled'] = '만일 사이트 전체 RSS 송출기
 $string['configenablerssfeedsdisabled2'] = 'RSS 송출이 서버 수준에서 비활성화 되어 있습니다. 우선 서버/RSS에서 활성화 할 필요가 있습니다.';
 $string['configenablestats'] = '여기를 체크해 놓으면 무들의 일정관리 기능은 여러 기록과 통계를 수합할 것이다. 사이트의 부하에 따라 다소 시간이 걸릴 수도 있다. 이 기능을 활성화할 경우, 여러분의 강좌는 물론 사이트 전체에 관련된 여러 그래프와 통계를 볼 수 있다.';
 $string['configenabletrusttext'] = '무들은 기본적으로 이용자가 올리는 문서를 철저하게 검색하여 혹시 있을지 모르는 보안에 위해가 되는 악성코드 혹은 동영상 등을 제거한다. 내용 검증 체계는 신임하는 이용자들이 올리는 내용에 대해서는 간섭하지 않고 향상된 기능을 포함시킬 수 있는 권한을 부여하는 형태로 이루어진다. 이러한 체계를 가능하게 하려면, 우선 이 설정을 켜고, 내용신임 인증에 대한 특별한 무들 역할을 부여해야 한다. 이러한 이용자들에 의해 올려지거나 생성되는 문서는 따로 인증표식이 붙어 화면에 표시되기 전에 특정 코드가 삭제되지 않을 것이다.';
+$string['configenablewebservices'] = '이것은 무들의 웹서비스를 가능하게 함';
 $string['configenrolmentplugins'] = '사용하고자 하는 출석 플러그인을 선택하라. 또 원활하게 작동하도록 설정하는 것을 잊지 말아라.<br /><br />어느 플러그인이 활성화되어 있는지 명시하여야 한다.<strong>하나의</strong> 플러그인이 <em>자동(interactive)</em> 등록에 필요한 기본 플로그인으로 설정될 수 있다. 자동 등록을 막으려면 해당 강좌에서 \"등록가능\"을 \"아니오\"로 하면 된다.';
 $string['configerrorlevel'] = '당신이 알고싶은 PHP경고 수준을 선택하라. 대부분 보통(Normal)이 가장 좋은 선택이다.';
 $string['configextendedusernamechars'] = '이 설정을 활성화시켜 놓으면 학생들은 사용자 아이디에 어떤 문자도 쓸 수 있다.(학생들의 실제 이름에는 영향을 주지 않는다) 기본적으로는 비활성화되어 있어 사용자 ID에 영문자와 숫자를 조합한 것만 허용된다.';
@@ -244,6 +245,8 @@ $string['configsessiontimeout'] = '사이트에 로그인한 사람이 오랫동
 $string['configshowblocksonmodpages'] = '어떤 활동 모듈은 화면에 블럭이 생성될 수 있도록 지원한다. 만약 이 설정을 \"예\"로 놓으면, 교수자들은 사이드 블럭을 추가시킬 수 있을 것이다. \"아니오\"로 놓으면, 아예 사이드 블럭 설정 기능을 보여주지 않는다.';
 $string['configshowsiteparticipantslist'] = '사이트 참여자 목록에는 사이트의 모든 학생과 교수자 명단이 표시된다. 이 사이트 참여자의 목록을 볼 수 있도록 허용될 사람은 누구인가?';
 $string['configsitemailcharset'] = '사이트에서 생성되는 모든 이메일은 여기에서 지정하는 문자세트로 보내질 것이다. 하지만 아래의 설정을 \"예\"로 해 놓으면 이용자 개개인이 문자세트를 선택하여 사용할 수도 있다.';
+$string['configsitemaxcategorydepth'] = '최대 범주의 깊이';
+$string['configsitemaxcategorydepthhelp'] = '볼 수 있는 하위 범주의 최대 깊이를 지정';
 $string['configsitepolicy'] = '만약 모든 이용자가 사이트를 이용하기 전에 반드시 봐야되고 동의 해야하는 규약이 있다면 이곳에 그 주소를 적어라. 필요 없으면, 이 공간을 비워둬라. 사이트 정책의 URL은 어떠한 곳도 지정할 수 있다. - 대개는 사이트 파일 중 하나를 지정하면 된다. 
  예: http://yoursite/file.php/1/policy.html';
 $string['configslasharguments'] = '파일들은 슬래쉬 아규먼트를 사용하는 스크립트를 통해서 제공된다. 이 방법은 파일들이 웹 브라우저나 프록시 서버등에서 훨씬 쉽게 저장되도록 한다. 가끔 어떤 PHP서버들은 이 방법을 허용하지 않는다. 만약 업로드된 파일이나 이미지를 보는데 문제가 있다면, 이 변수를 처음 옵션으로 설정하라.';
@@ -380,6 +383,7 @@ $string['enablerecordcache'] = '기록 기억 활성화';
 $string['enablerssfeeds'] = 'RSS 송출 활성화';
 $string['enablestats'] = '통계 활성화';
 $string['enabletrusttext'] = '내용인증 활성화';
+$string['enablewebservices'] = '웹서비스 활성화';
 $string['encoding'] = '엔코딩';
 $string['enrolmultipleusers'] = '이용자 등록';
 $string['environment'] = '환경';
@@ -512,7 +516,7 @@ $string['loginhttps'] = '로그인을 위해 HTTPS 사용';
 $string['loglifetime'] = '기록 보유 시간';
 $string['longtimenosee'] = '출석 유예 기간';
 $string['longtimewarning'] = '<b>이 과정은 꽤 시간이 소요됨을 염두에 두시기 바랍니다.</b>';
-$string['mail'] = '전자우편';
+$string['mail'] = '전자 우편';
 $string['mailnewline'] = '메일의 라인 개행문자';
 $string['maintenancemode'] = '유지관리 모드';
 $string['maintfileopenerror'] = '유지 관리 파일 열기 오류';
@@ -607,6 +611,7 @@ $string['performance'] = '성능';
 $string['pgcluster'] = 'PostgreSQL 클러스터';
 $string['pgclusterdescription'] = '명령어 라인 실행을 위한 PostgreSQL 버전/클러스터 파라메터. 만일 한개의 postgresql만이 설치되어 있다거나 잘 모를 경우에는 공백으로 남겨놓으십시요.';
 $string['php50restricted'] = 'PHP 5.0.x 는 약간의 버그가 보고되었습니다. 5.1.x로 판올림 하던가, 아니면 4.3.x 혹은 4.4.x로 바꿔주기 바랍니다.';
+$string['phpfloatproblem'] = '예상밖의 PHP 부동소숫점 처리 문제 검출 - $a';
 $string['pleaserefreshregistration'] = '이 사이트는 moodle.org에 등록되어 있습니다. $a 에 갱신이후 상당한 변화가 있었다면 등록 갱신을 고려해 보기 바랍니다.';
 $string['pleaseregister'] = '이 버튼을 제거하고 싶으면 당신의 사이트를 등록해 주세요.';
 $string['plugins'] = '모듈';
@@ -733,8 +738,6 @@ $string['sitemaintenancemode'] = '유지 보수';
 $string['sitemaintenanceoff'] = '점검이 끝나고, 다시 일반적인 작동 상태가 되었습니다.';
 $string['sitemaintenanceon'] = '이 사이트는 현재 점검중입니다(관리자만 이 사이트를 사용하거나 로그인 할 수 있습니다).';
 $string['sitemaintenancewarning'] = '현재 유지 점검 상태에 있습니다(관리자만 로그인 할 수 있습니다.) 일반 작업으로 되돌리시려면 <a href=\"maintenance.php\">정상 작동</a>모드를 사용하십사오.';
-$string['sitemaxcategorydepth'] = '최대 범주 깊이';
-$string['sitemaxcategorydepthhelp'] = '볼 수 있는 하위 범주의 최대 수를 지정';
 $string['sitepolicies'] = '사이트 정책';
 $string['sitepolicy'] = '사이트 정책 URL';
 $string['sitesectionhelp'] = '이것을 켜 놓으면, 토픽 영역이 사이트 초기화면에 보일 것입니다.';
@@ -798,6 +801,7 @@ $string['upgradesure'] = '무들의 파일이 갱신되었고  당신의 서버�
 $string['upgradetimedout'] = '판올림 제한 시간이 초과되었습니다. 다시 시작해 보기 바랍니다.';
 $string['upgradingdata'] = '데이터 갱신';
 $string['upgradinglogs'] = '경과기록(로그) 갱신';
+$string['upgradingversion'] = '새 판으로 판올림 중';
 $string['uploadpicture_baduserfield'] = '사용자 속성 지정이 잘못되었습니다. 다시 시도하기 바랍니다.';
 $string['uploadpicture_cannotmovezip'] = '임시 경로로 zip 파일을 옮길 수 없습니다.';
 $string['uploadpicture_cannotprocessdir'] = 'zip 파일을 풀지 못합니다.';
@@ -859,6 +863,8 @@ $string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없
 $string['xmlrpcrecommended'] = '추가적인 xmlrpc 확장 설치는 무들 네트웍이 제대로 작동하는 데 쓸모가 있습니다.';
 $string['xmlstrictheaders'] = 'XML 정규 헤더';
 $string['ziprequired'] = '더 이상  info-ZIP 이나 PclZip 라이브러리가 사용되지 않으므로 Zip PHP확장자가 필요합니다.';
+$string['sitemaxcategorydepth'] = '최대 범주 깊이'; // ORPHANED
+$string['sitemaxcategorydepthhelp'] = '볼 수 있는 하위 범주의 최대 수를 지정'; // ORPHANED
 $string['optionalsubsystems'] = '부가기능 설정'; // ORPHANED
 $string['repsettings'] = '저장소 관리'; // ORPHANED
 $string['repsettingsgeneral'] = '일반 저장소 설정'; // ORPHANED
