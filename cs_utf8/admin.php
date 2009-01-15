@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20090102) (2007101533.01)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20090115) (2007101533.01)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -83,6 +83,7 @@ $string['configcookiesecure'] = 'Jestliže server přijímá pouze https připoj
 $string['configcountry'] = 'Výchozí nastavení země při vytváření nových uživatelů. Nezadáte-li nic, budou uživatelé nuceni vybrat si zemi sami.';
 $string['configcoursemanager'] = 'Které uživatele zobrazovat u popisu kurzu. Uživatelé potřebují alespoň jednu z těchto rolí v daném kurzu, aby byli zobrazeni u jeho popisu.';
 $string['configcourserequestnotify'] = 'Zadejte uživatelské jméno uživatele, kterému bude zasíláno upozornění na novou žádost o založení kurzu.';
+$string['configcourserequestnotify2'] = 'Kteří uživatelé budou upozorněni na novou žádost o založení kurzu. Zobrazují se pouze uživatelé, kteří mají oprávnění schvalovat žádosti o založení kurzu.';
 $string['configcoursesperpage'] = 'Počet kurzů na stránce při zobrazování seznamu kurzů.';
 $string['configcreatornewroleid'] = 'Tato role je automaticky přiřazována tvůrcům v nových kurzech, které vytvoří. Tato role není přiřazována v případě, že tvůrce již má potřebné pravomoce v nadřazeném kontextu.';
 $string['configcronclionly'] = 'Je-li nastaveno, může být skript cron.php spouštěn pouze z příkazové řádky a nikoliv přes webové rozhraní. Tímto se zároveň ignoruje nastavení hesla  ke cronu (viz dále).';
@@ -227,6 +228,8 @@ $string['configsessiontimeout'] = 'Délka nečinnosti, po níž jsou uživatelé
 $string['configshowblocksonmodpages'] = 'Některé moduly podporují na svých stránkách použití bloků. Zapnete-li tuto volbu, budou mít uživatelé na takových stránkách možnost přidávat  postranní bloky. V opačném případě se rozhraní pro vložení bloků nezobrazuje.';
 $string['configshowsiteparticipantslist'] = 'Kdo má mít přístup k seznamu všech uživatelů stránek. Seznam obsahuje všechny studenty a učitele.';
 $string['configsitemailcharset'] = 'Výchozí znaková sada pro e-maily generované vašimi stránkami. Povolíte-li následující možnost, každý uživatel si může tuto znakovou sadu změnit.';
+$string['configsitemaxcategorydepth'] = 'Maximální počet podkategorií';
+$string['configsitemaxcategorydepthhelp'] = 'Do jaké hloubky se má zobrazovat hierarchie kategorií';
 $string['configsitepolicy'] = 'Máte-li vytvořen text pravidel pro používání stránek, s nímž musejí všichni uživatelé souhlasit, uveďte zde jeho URL. Jinak nechte toto pole prázdné. URL může ukazovat kamkoliv -- jedním z vhodných míst je soubor vložený mezi soubory Moodlu na hlavní stránce, např. http://vas.moodleserver.cz/file.php/1/policy.html';
 $string['configslasharguments'] = 'Vyberte způsob uvádění parametrů PHP souborů. Způsob \'file.php/pic.jpg\' je efektivnější vzhledem ke snadnějšímu ukládání obrázků ve vyrovnávací paměti proxy serverů a prohlážečů. Bohužel, některé PHP servery tuto možnost nepodporují, takže pokud narazíte na problémy se zobrazováním připojených souborů nebo obrázků (např. fotografií uživatelů), vyberte \'file.php?file=/pic.jpg\'.';
 $string['configsmartpix'] = 'Je-li zapnuto, vyhledávají se ikony pomocí PHP skriptu nejprve v daném motivu, pak ve všech nadřazených motivech a nakonec ve složce /pix. Tím odpadá potřeba kopií obrázků napříč tématy, ale mírně se zvyšuje zátěž.';
@@ -366,6 +369,7 @@ $string['environmentxmlerror'] = 'Chyba při zjišťování údajů o programov�
 $string['errors'] = 'Chyby';
 $string['errorsetting'] = 'Nelze uložit nastavení:';
 $string['errorwithsettings'] = 'Některá nastavení nebyla změněna kvůli chybě:';
+$string['everyonewhocan'] = 'Každý kdo může \'$a\'';
 $string['experimental'] = 'Experimentální';
 $string['extendedusernamechars'] = 'Povolit nestandardní znaky v uživatelských jménech';
 $string['filecreated'] = 'Vytvořen nový soubor';
@@ -561,6 +565,7 @@ $string['performance'] = 'Výkonnost';
 $string['pgcluster'] = 'PostgreSQL cluster';
 $string['pgclusterdescription'] = 'Parametry PostgreSQL version/cluster pro operace prováděné z příkazové řádky. Pokud provozujete pouze jednu instanci PostgreSQL, nebo pokud si nejste jisti, ponechte pole prázdné.';
 $string['php50restricted'] = 'V PHP 5.0.x bylo nalezeno množství chyb; přejděte buď na vyšší verzi 5.1.x, nebo na nižší verzi 4.3.x či 4.4.x.';
+$string['phpfloatproblem'] = 'Byl zjištěn neočekávaný problém ve způsobu zpracování čísel s plovoucí desetinnou čárkou ve vašem PHP - $a';
 $string['pleaserefreshregistration'] = 'Vaše stránka byla zaregistrována na moodle.org. Zvažte prosím aktualizaci vaší registrace, jestliže na vašich stránkách dojde k významnějším změnám. Vaše registrace byla naposledy aktualizována: $a';
 $string['pleaseregister'] = 'Chcete-li se zbavit tohoto tlačítka, zaregistrujte svou instalaci Moodlu';
 $string['plugins'] = 'Moduly';
@@ -631,9 +636,6 @@ $string['recaptchapublickey'] = 'ReCAPTCHA veřejný klíč';
 $string['releasenoteslink'] = 'Informace o této verzi Moodlu najdete v <a target=\"_new\" href=\"$a\">Poznámkách k verzi</a>';
 $string['remotelangnotavailable'] = 'Nepodařilo se připojit k serveru download.moodle.org, automatickou instalaci jazykových balíčků proto nelze provést. Stáhněte prosím příslušné soubory ZIP ze seznamu níže, zkopírujte je do adresáře $a a ručně je dekomprimujte.';
 $string['renameerrors'] = 'Chyby při přejmenování';
-$string['requiredentrieschanged'] = '<strong>ČTĚTE - DŮLEŽITÉ UPOZORNĚNÍ<br/>(tato zpráva se zobrazuje pouze jednou při tomto upgrade)</strong>
-<br />Vzhledem k provedené opravě chyby se mění chování modulů Databáze, které používají nastavení \'Počet požadovaných záznamů\' a \'Počet záznamů požadovaných před zpřístupněním databáze\'. Podrobnější vysvětlení změn najdete <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">v diskusním fóru k modulu Databáze</a>. Očekávané chování tohoto nastavení je popsáno <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">v anglické dokumentaci</a>.
-<br/><br/>Tato změna ovlivní následující Databáze ve vašich kurzech. Tento seznam si uložte a po skončení upgrade ověřte, že tyto moduly stále pracují dle záměru vyučujících:<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Povinné. Můžete zde použít syntaxi šablon (%%l = příjmení, %%f = křestní jméno, %%u = uživatelské jméno). Další informace a příklady najedete v nápovědě.';
 $string['restrictbydefault'] = 'Omezit nabídku implicitně';
 $string['restrictmodulesfor'] = 'Omezení nabídky dostupných modulů';
