@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.1+ (Build: 20080531) (2007101513)
+      // quiz.php - created with Moodle 1.9.3+ (Build: 20090115) (2007101533.01)
 
 
 $string['1day'] = '1 den';
@@ -428,6 +428,7 @@ $string['quiz:grade'] = 'Známkovat testy ručně';
 $string['quiz:ignoretimelimits'] = 'Ignorovat časové limity v testech';
 $string['quiz:manage'] = 'Spravovat testy';
 $string['quiz:preview'] = 'Nahlížet testy';
+$string['quiz:reviewmyattempts'] = 'Znovu si prohlížet vlastní pokusy';
 $string['quiz:view'] = 'Vidět informace o testech';
 $string['quiz:viewreports'] = 'Vidět zprávy o testech';
 $string['quizavailable'] = 'Test je přístupný až do: $a';
