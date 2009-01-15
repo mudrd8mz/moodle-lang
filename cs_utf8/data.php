@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
+      // data.php - created with Moodle 1.9.3+ (Build: 20090115) (2007101533.01)
 
 
 $string['action'] = 'Akce';
@@ -211,6 +211,9 @@ $string['recordsnotsaved'] = 'Nebyly vloženy žádné záznamy. Zkontrolujte pr
 $string['recordssaved'] = 'vložených záznamů';
 $string['requireapproval'] = 'Vyžadovat schválení';
 $string['requiredentries'] = 'Počet požadovaných záznamů';
+$string['requiredentrieschanged'] = '<strong>ČTĚTE - DŮLEŽITÉ UPOZORNĚNÍ<br/>(tato zpráva se zobrazuje pouze jednou při tomto upgrade)</strong>
+<br />Vzhledem k provedené opravě chyby se mění chování modulů Databáze, které používají nastavení \'Počet požadovaných záznamů\' a \'Počet záznamů požadovaných před zpřístupněním databáze\'. Podrobnější vysvětlení změn najdete <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">v diskusním fóru k modulu Databáze</a>. Očekávané chování tohoto nastavení je popsáno <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">v anglické dokumentaci</a>.
+<br/><br/>Tato změna ovlivní následující Databáze ve vašich kurzech. Tento seznam si uložte a po skončení upgrade ověřte, že tyto moduly stále pracují dle záměru vyučujících:<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredentriestoview'] = 'Počet záznamů požadovaných před zpřístupněním databáze';
 $string['resetsettings'] = 'Generovat výchozí pole';
 $string['resettemplate'] = 'Generovat výchozí šablonu';
