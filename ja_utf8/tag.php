@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
+      // tag.php - created with Moodle 2.0 dev (Build: 20090115) (2009011400)
 
 
 $string['addedotag'] = '「 $a 」がオフィシャルタグとして追加されました。';
@@ -21,6 +21,7 @@ $string['flag'] = 'フラグ';
 $string['flagasinappropriate'] = '不適切としてフラグする';
 $string['helprelatedtags'] = 'カンマ区切りの関連タグ';
 $string['id'] = 'id';
+$string['manageofficialtags'] = 'オフィシャルタグの管理';
 $string['managetags'] = 'タグの管理';
 $string['name'] = 'タグ名';
 $string['namesalreadybeeingused'] = 'タグ名がすでに使用されています。';
@@ -28,6 +29,7 @@ $string['newname'] = '新しいタグ名';
 $string['noresultsfor'] = '「 $a 」の検索結果なし';
 $string['officialtag'] = 'オフィシャルタグ';
 $string['otags'] = 'オフィシャルタグ';
+$string['othertags'] = '他のタグ (カンマ区切りでタグを入力してください)';
 $string['owner'] = 'オーナー';
 $string['ptags'] = 'ユーザ定義タグ (カンマ区切り)';
 $string['relatedblogs'] = '最新のブログエントリ';
@@ -58,7 +60,7 @@ $string['timemodified'] = '修正日時';
 $string['typechanged'] = 'タグタイプが変更されました。';
 $string['updated'] = '更新されました。';
 $string['updatetag'] = '更新';
-$string['withselectedtags'] = '選択したタグを ...';
+$string['withselectedtags'] = '選択したタグの ...';
 $string['tagindex_coursetitle'] = 'コースタグ「 $a 」'; //TBD
 $string['userstaggedwith'] = 'ユーザタグ「 $a 」'; //TBD
 
