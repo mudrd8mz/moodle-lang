@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
+      // resource.php - created with Moodle 1.9.3+ (Build: 20090115) (2007101533.01)
 
 
 $string['addresource'] = 'Přidat studijní materiál';
@@ -55,6 +55,9 @@ $string['fulltext'] = 'Full text';
 $string['htmlfragment'] = 'HTML fragment';
 $string['imspackageloaded'] = 'Balíček aktivován';
 $string['keepnavigationvisible'] = 'Zachovat na stránce horní navigační pruh';
+$string['keepnavigationvisibleno'] = 'Ne';
+$string['keepnavigationvisibleyesframe'] = 'Ano - s použitím rámců';
+$string['keepnavigationvisibleyesobject'] = 'Ano - bez použití rámců';
 $string['localfile'] = 'Lokální soubor';
 $string['localfilechoose'] = 'Vyberte lokální soubor (CD-ROM)';
 $string['localfilehelp'] = 'Nápověda k zobrazování lokálních souborů';
