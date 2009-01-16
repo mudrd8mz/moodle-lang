@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20090102) (2007101533.01)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20090115) (2007101533.01)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -555,7 +555,7 @@ $string['enrolme'] = 'Zapsat se do tohoto kurzu';
 $string['enrolmentconfirmation'] = 'Chystáte se zapsat mezi účastníky tohoto kurzu.<br />Jste si jisti, že to opravdu chcete?';
 $string['enrolmentend'] = 'Zápis končí';
 $string['enrolmentkey'] = 'Klíč k zápisu';
-$string['enrolmentkeyfrom'] = 'Tento kurz vyžaduje \'klíč k zápisu\' - jednorázové vstupní<br />heslo, které by vám měl(a) sdělit $a.';
+$string['enrolmentkeyfrom'] = 'Tento kurz vyžaduje \'klíč k zápisu\' - jednorázové vstupní heslo,<br />které by vám měl(a) sdělit $a.';
 $string['enrolmentkeyfromguest'] = 'Tento kurz vyžaduje \'klíč k zápisu\' - jako host<br />jej musíte zadávat při každém vstupu do kurzu.<br />Klíč vám může sdělit sdělit $a.';
 $string['enrolmentkeyhint'] = 'Zadaný klíč k zápisu nebyl správný, zkuste to ještě jednou.<br />(Napovím vám - klíč začíná na \'$a\'.)';
 $string['enrolmentnew'] = 'Nový zápis v $a';
