@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // editor.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['about'] = 'Editore honi buruz';
@@ -42,11 +42,11 @@ $string['formatblock'] = 'Formatua';
 $string['fullscreen'] = 'Pantaila osoko editorea';
 $string['heading'] = 'Izenburua';
 $string['height'] = 'Garaiera';
-$string['hilitecolor'] = 'Atzealdeko kolorea';
+$string['hilitecolor'] = 'Atzeko kolorea';
 $string['horizontal'] = 'Horizontala';
 $string['horizontalrule'] = 'Marra horizontala';
 $string['htmlmode'] = 'Aldatu HTML iturrira';
-$string['imageurl'] = 'Irudiaren URL';
+$string['imageurl'] = 'Irudiaren URLa';
 $string['indent'] = 'Handitu koska';
 $string['insertchar'] = 'Txertatu karaktere berezia';
 $string['insertimage'] = 'Txertatu irudia';
