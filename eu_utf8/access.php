@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.8.4+ (2007021541)
+      // access.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['access'] = 'Eskuragarritasuna';
@@ -9,6 +9,7 @@ $string['accessstatement'] = 'Eskuragarritasun-aldarrikapena';
 $string['activitynext'] = 'Hurrengo jarduera';
 $string['activityprev'] = 'Aurreko jarduera';
 $string['breadcrumb'] = 'Breadcrumb-aren arrastoa';
+$string['cannotdeleterolenoadmin'] = 'Ezin duzu rol hau ezabatu ez baitago kudeatzaile-rola esleituta daukan beste erabiltzailerik';
 $string['currenttopic'] = 'Gai hau';
 $string['currentweek'] = 'Aste hau';
 $string['hideblocka'] = '$a blokea ezkutatu';
