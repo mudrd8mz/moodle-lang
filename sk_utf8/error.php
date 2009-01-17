@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+      // error.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['adminprimarynoedit'] = 'Ostatní administrátori nemôžu upravovať údaje hlavného administrátora';
@@ -24,6 +24,7 @@ $string['cmunknown'] = 'Tento modul kurzu nebol nájdený';
 $string['componentisuptodate'] = 'Komponent je aktuálny.';
 $string['confirmsesskeybad'] = 'Ľutujeme, ale kľúču Vášho sedenia (session) nebolo povolené vykonať túto akciu. Toto bezpečnostné opatrenie zabraňuje náhodnému alebo zákernému spúšťaniu dôležitých funkcií pod Vašim menom. Prosím, uistite sa, že skutočne chcete spustiť túto funkciu.';
 $string['couldnotassignrole'] = 'V priebehu priraďovania vašej roly sa objavila vážna, ale bližšie neurčená chyba.';
+$string['countriesphpempty'] = 'Chyba: Súbor countries.php v jazykovom balíčku $a chýba alebo je prázdny.';
 $string['coursegroupunknown'] = 'Nebol určený kurz zodpovedajúci skupine $a';
 $string['csvcolumnduplicates'] = 'Boli zistené duplicitné stĺpce';
 $string['csvemptyfile'] = 'CSV súbor je prázdny';

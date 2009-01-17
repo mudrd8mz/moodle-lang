@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // resource.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+
 
 $string['addresource'] = 'Pridať zdroj';
 $string['affectedresources'] = 'Ovplyvnené zdroje';
@@ -54,6 +55,9 @@ $string['fulltext'] = 'Plný text';
 $string['htmlfragment'] = 'HTML fragment';
 $string['imspackageloaded'] = 'Balík nahraný';
 $string['keepnavigationvisible'] = 'Ponechať navigáciu stránky viditeľnú na rovnakej stránke.';
+$string['keepnavigationvisibleno'] = 'Nie';
+$string['keepnavigationvisibleyesframe'] = 'Áno, s rámom';
+$string['keepnavigationvisibleyesobject'] = 'Áno, bez rámu';
 $string['localfile'] = 'Lokálny súbor';
 $string['localfilechoose'] = 'Vyber lokálny súbor (CD-ROM)';
 $string['localfilehelp'] = 'Pomoc so zobrazovaním lokálnych súborov';
@@ -133,4 +137,5 @@ $string['vol'] = 'Zv.';
 $string['warningblockingdelete'] = 'Upozornenie: Operácia vymazania je blokovaná existujúcim zdrojom. Alebo aktualizujte zdroje alebo požiadajte administrátora na zablokovanie tohto bezpečnostného mechanizmu v celkovej konfigurácii zdrojov.';
 $string['warningdisabledrename'] = 'Upozornenie: Automatické premenovanie zdrojov je zakázané. Prosím aktualizujte ovplyvnené zdroje manuálne, ak treba. Administrátor tiež môže povoliť automatické premenovanie v celkovej konfigurácii zdrojov.';
 $string['websearchdefault'] = 'Východzie web vyhľadávanie';
+
 ?>

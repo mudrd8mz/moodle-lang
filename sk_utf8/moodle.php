@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20081231) (2007101533)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -422,6 +422,7 @@ $string['displayingusers'] = 'Zobrazuje používateľov $a->start do $a->end';
 $string['displayonpage'] = 'Zobraziť na stránke';
 $string['documentation'] = 'Moodle dokumentácia';
 $string['donotask'] = 'Nepýtať sa';
+$string['donotclickcontinue'] = 'Nekliknite na nasledujúci odkaz na pokračovanie ;-)';
 $string['down'] = 'Dolu';
 $string['downloadexcel'] = 'Stiahnuť vo formáte Excel';
 $string['downloadods'] = 'Stiahnuť vo formáte ODS';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081231) (2007101533)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -33,7 +33,7 @@ $string['badwordslist'] = 'Zoznam zakázaných slov';
 $string['blockinstances'] = 'Výskyty';
 $string['blockmultiple'] = 'Viacnásobný';
 $string['blocksettings'] = 'Spravovať bloky';
-$string['bloglevel'] = 'Viditelnosť Blogu';
+$string['bloglevel'] = 'Viditeľnosť Blogu';
 $string['bookmarkadded'] = 'Záložka pridaná';
 $string['bookmarkalreadyexists'] = 'Tato stránka už obsahuje vašu záložku';
 $string['bookmarkdeleted'] = 'Záložka odstránená';
@@ -41,6 +41,7 @@ $string['bookmarkthispage'] = 'pridať záložku';
 $string['cachetext'] = 'Doba existencie textovej vyrovnávacej pamäte';
 $string['cachetype'] = 'Typ vyrovnávacej pamäte';
 $string['calendar_weekend'] = 'Víkend';
+$string['calendarexportsalt'] = 'Salt (náhodný reťazec) pre export kalendára';
 $string['calendarsettings'] = 'Kalendár';
 $string['cfgwwwrootslashwarning'] = 'V súbore config.php ste nesprávne definovali &#36;CFG->wwwroot. Na jeho konci je znak \'/\'. Ak ho nevymažete, môže dôjsť k neobvyklým chybám, ako napr <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['cfgwwwrootwarning'] = 'V súbore config.php ste nesprávne definovali &#36;CFG->wwwroot. Nesúhlasí s URL, ktorú používate na prístup k tejto stránke. Ak ho neupravíte, môže dôjsť k neobvyklým chybám, ako napr <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
@@ -73,6 +74,7 @@ $string['configautologinguests'] = 'Mali by byť návštevníci automaticky prih
 $string['configbloglevel'] = 'Touto voľbou nastavujete úroveň prístupu k blogom na vašich stránkach. Nastavenie sa týka ČITATEĽOV, nie autorov či typov blogov. Ak blogy nechcete používať, môžete ich vypnúť úplne.';
 $string['configcachetext'] = 'Toto nastavenie môže zrýchliť prevádzku systému predovšetkým pre tie stránky, ktoré sú obsahovo rozsiahlejšie alebo používajú textové filtre. Kópie textov sa tu budú uchovávať v pôvodnej forme počas vopred stanoveného časového rozpätia. Ak sa tu nastavia nízke hodnoty parametrov, môže to spomaliť všetky činnosti, ale ak sa tu nastavia pomerne vysoké hodnoty parametrov, bude obnova textov (napr. pri pridaní nových odkazov) trvať veľmi dlho.';
 $string['configcachetype'] = 'Zvoľte typ vyrovnávacej pamäte, ktorú bude Moodle používať. Týmto si volíte iba typ vyrovnávacej pamäte - nezabudnite vyrovnávaciu pamäť povoliť v nastavení rcache. Vyrovnávaciu pamäť použite <strong>iba v prípade</strong>, keď potrebujete znížiť zaťaženie databázového systému. Jej použitie môže celkovo Moodle spomaliť. Stránky so stredne náročným zaťažením môžu profitovať z nastavenia \"internal\". Na webovom serveri s nainštalovanými akcelerátormi eAccelerator alebo Turckmmcache s <em>povoleným použitím zdieľanej pamäte</em> môžete vyskúšať \"eaccelerator\". Ak máte multiserverovú inštaláciu a používate jeden alebo niekoľko  bežiacich démonov memcached spolu s rozšírením PHP-memcached, zvoľte voľbu \"memcached\" a nastavte potrebné parametre uvedené ďalej.<br /><strong>Poznámka:</strong> pre efektívne využitie vyrovnávacej pamäte je treba uskutočniť testy a nastavenia. Akcelerátory eAccelerator a memcached patria medzi najvýkonnejšie, ale zároveň majú veľké nároky na využitie procesorového času.';
+$string['configcalendarexportsalt'] = 'Tento náhodný text sa používa na zvýšenie bezpečnosti autentifikácie pri exporte kalendárov. Upozorňujeme, že všetky súčasné exporty budú neplatné, ak text zmeníte.';
 $string['configclamactlikevirus'] = 'Považovať súbory za napadnuté vírusom';
 $string['configclamdonothing'] = 'Považovať súbory za normálne';
 $string['configclamfailureonupload'] = 'Ak ste nastavili clam, aby skenoval prenášané súbory, ale nie je správne nastavený alebo z neznámych dôvodov nereaguje tak, ako má, ako sa má systém správať? Ak si vyberiete \'Považovať súbory za napadnuté vírusom\', budú súbory presunuté do karanténnej oblasti alebo vymazané. Ak si vyberiete \'Považovať súbory za normálne\', budú súbory presunuté na to miesto, ktoré si Vy určíte bez problémov. Samozrejme, administrátori budú upozornení, ak clam nebude fungovať. Ak si vyberiete \'Považovať súbory za napadnuté vírusom\' a z neznámych dôvodov clam nebude reagovať správne (väčšinou je nesprávne nastavená cesta ku clam), všetky prenášané súbory budú presunuté do zadanej karanténnej oblasti alebo vymazané. Buďte opatrní pri tomto nastavení.';
@@ -81,6 +83,7 @@ $string['configcookiesecure'] = 'Ak server prijíma iba https spojenia, doporuč
 $string['configcountry'] = 'Ak si tu vyberiete krajinu, tak bude táto krajina nastavená aj pre nové používateľské kontá. Ak chcete, aby si používatelia sami vybrali krajinu, nenastavujte ju tu.';
 $string['configcoursemanager'] = 'Ktorých používateľov zobrazovať pri popise kurzu. Používatelia potrebujú aspoň jednu z týchto rol v danom kurze, aby boli zobrazení pri jeho popise.';
 $string['configcourserequestnotify'] = 'Zadajte login používateľa, ktorý bude upozornený pri žiadosti o nový kurz';
+$string['configcourserequestnotify2'] = 'Používatelia, ktorí budú upozornení pri žiadosti o vytvorenie kurzu. V tomto zozname sa nachádzajú iba používatelia, ktorí môžu odsúhlasiť žiadosti o vytvorenie nového kurzu.';
 $string['configcoursesperpage'] = 'Počet kurzov na stránke pri zobrazovaní zoznamu kurzov.';
 $string['configcreatornewroleid'] = 'Táto rola je automaticky priraďovaná tvorcom v nových kurzoch, ktoré vytvorí. Táto rola nie je priraďovaná v prípade, že tvorca už má potrebné oprávnenia v nadradenom kontexte.';
 $string['configcronclionly'] = 'Ak je toto nastavené, môže byť skript cron.php spustený iba z príkazového riadku a nie cez webové rozhranie. Týmto sa zároveň ignoruje nastavenie hesla k cronu (viď ďalej).';
@@ -108,6 +111,7 @@ $string['configeditorfontlist'] = 'Zoznam fontov, ktoré budú zobrazované v po
 $string['configemailchangeconfirmation'] = 'Vyžadovať následné emailové potvrdenie, ak si používatelia zmenia svoju mailovú adresu.';
 $string['configemoticons'] = 'Zmeňte kód naľavo, ktorý súvisí s menom emotikonu napravo. Ak chcete pridať emotikony, pridajte kód a meno. Potom pridajte obrázok ako meno.gif v adresári /pix/s.';
 $string['configenableajax'] = 'Týmto povoľujete technológiu AJAX na úrovni celého serveru. Jedná sa o pokročilé rozhranie medzi prehliadačom a webovým serverom, ktoré využíva Javascript. Aj keď je tu AJAX povolený, používatelia si jeho použitie môžu vypnúť vo svojich profiloch.';
+$string['configenablecalendarexport'] = 'Umožniť exportovanie alebo odoberanie kalendárov.';
 $string['configenablecourserequests'] = 'Povoliť užívateľom žiadať o založenie kurzu?';
 $string['configenableglobalsearch'] = 'Týmto je možné povoliť globálne vyhľadávanie textu v študijných materiáloch a činnostiach. Nie je kompatibilné s PHP 4.';
 $string['configenablegroupings'] = 'Toto nastavenie povoľuje zoskupenia skupín.';
@@ -338,6 +342,7 @@ $string['emailchangeconfirmation'] = 'Potvrdenie zmeny emailu';
 $string['emoticons'] = 'Emotikony (smajlíky)';
 $string['emptysettingvalue'] = 'Prázdny';
 $string['enableajax'] = 'Povoliť AJAX';
+$string['enablecalendarexport'] = 'Povoliť export kalendárov';
 $string['enablecourserequests'] = 'Povoliť žiadanie kurzov';
 $string['enableglobalsearch'] = 'Povoliť globálne vyhľadávanie';
 $string['enablegroupings'] = 'Povoliť zoskupenia';
@@ -361,6 +366,7 @@ $string['environmentxmlerror'] = 'Chyba pri zisťovaní údajov o programovom pr
 $string['errors'] = 'Chyby';
 $string['errorsetting'] = 'Nie je možné uložiť nastavenie:';
 $string['errorwithsettings'] = 'Niektoré nastavenia neboli zmenené kvôli chybe:';
+$string['everyonewhocan'] = 'Každý s oprávnením \'$a\'';
 $string['experimental'] = 'Experimentálne';
 $string['extendedusernamechars'] = 'Povoliť neštandardné znaky v používateľských menách';
 $string['filecreated'] = 'Vytvorený nový súbor';
@@ -556,6 +562,7 @@ $string['performance'] = 'Výkonnosť';
 $string['pgcluster'] = 'Cluster PostgreSQL';
 $string['pgclusterdescription'] = 'Parametre PostgreSQL version/cluster pre operácie z príkazového riadku. Ak prevádzkujete iba jednu verziu PostgreSQL, alebo ak si nie ste istý, nechajte pole prázdne.';
 $string['php50restricted'] = 'V PHP 5.0.x bolo nájdených množstvo chýb; prejdite buď na vyššiu verziu 5.1.x, alebo na nižšiu verziu 4.3.x či 4.4.x.';
+$string['phpfloatproblem'] = 'Bol zistený neočakávaný problém so spracovaním desatinných čísel - $a';
 $string['pleaserefreshregistration'] = 'Váš portál bol registrovaný na moodle.org. Prosím urobte tak znova, ak sa od poslednej aktualizácie udiali významné zmeny.';
 $string['pleaseregister'] = 'Prosím, zaregistrujte si Vašu stránku, aby ste odstránili toto tlačidlo';
 $string['plugins'] = 'Moduly';
@@ -626,8 +633,6 @@ $string['recaptchapublickey'] = 'ReCAPTCHA verejný kľúč';
 $string['releasenoteslink'] = 'Informácie o tejto verzii Moodle nájdete v <a target=\"_new\" href=\"$a\">Poznámkach k verzii</a>';
 $string['remotelangnotavailable'] = 'Nepodarilo sa pripojiť k serveru download.moodle.org, automatickú inštaláciu jazykových balíčkov preto nie je možné uskutočniť. Stiahnite prosím príslušné súbory ZIP zo zoznamu nižšie, skopírujte ich do adresára $a a ručne ich dekomprimujte.';
 $string['renameerrors'] = 'Chyby pri premenovaní';
-$string['requiredentrieschanged'] = '<strong>DÔLEŽITÉ - PROSÍM ČÍTAJTE<br/>(Toto upozornenie je zobrazované iba počas tejto aktualizácie)</strong><br/>Vzhľadom k oprave chyby sa zmenilo správanie aktivity databáza, konkrétne nastavení \'Required entries\' a \'Required entries before viewing settings\'. Viac informácií sa dozviete na <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">fóre o databázovom module</a>. Očakávané správanie týchto nastavení je vysvetlené aj na <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
-<br/><br/>Táto zmena ovplyvní nasledovné databázy vo vašom systéme: (Tento zoznam si uložte a po aktualizácii skontrolujte, či sú nastavené tak, ako učitelia očakávajú.)<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Vyžadované. Môžete tu použiť syntax pomocou šablón (%%l = priezvisko, %%f = krstné meno, %%u = login). Viď nápoveda pre detaily a príklady.';
 $string['restrictbydefault'] = 'Obmedziť ponuku implicitne';
 $string['restrictmodulesfor'] = 'Obmedzenie ponuky dostupných modulov';
@@ -670,6 +675,8 @@ $string['sitemaintenancemode'] = 'Režim údržby';
 $string['sitemaintenanceoff'] = 'Režim údržby bol deaktivovaný a táto stránka bude ďalej bežať normálne';
 $string['sitemaintenanceon'] = 'Vaša stránka je momentálne v režime údržby (prihlásiť sa a používať stránku môžu iba administrátori).';
 $string['sitemaintenancewarning'] = 'Vaša stránka je momentálne v režime údržby (prihlásiť sa a používať stránku môžu iba administrátori). Pre návrat k normálnej prevádzke stránky <a href=\"maintenance.php\">deaktivujte režim údržby</a>.';
+$string['sitemaxcategorydepth'] = 'Maximálna hĺbka kategórií';
+$string['sitemaxcategorydepthhelp'] = 'Určenie maximálnej zobraziteľnej hĺbky podriadených kategórií';
 $string['sitepolicies'] = 'Pravidlá prevádzky stránok';
 $string['sitepolicy'] = 'URL k pravidlám prevádzky stránok';
 $string['sitesectionhelp'] = 'Ak je vybrané, zobrazuje sa na hlavnej stránke portálu tématická sekcia.';
@@ -789,5 +796,7 @@ $string['webproxyinfo'] = 'Vyplňte nasledujúce nastavenia, ak váš Moodle ser
 $string['xmlrpcrecommended'] = 'Pre beh sieťových funkcionalít (\"Moodle Networking\") je treba nainštalovať voliteľnú knižnicu xlmrpc.';
 $string['xmlstrictheaders'] = 'XML striktné hlavičky';
 $string['ziprequired'] = 'Moodle v súčasnosti vyžaduje PHP zásuvný modul ZIP. Knižnice info-ZIP alebo PclZip už nie sú používané.';
+$string['requiredentrieschanged'] = '<strong>DÔLEŽITÉ - PROSÍM ČÍTAJTE<br/>(Toto upozornenie je zobrazované iba počas tejto aktualizácie)</strong><br/>Vzhľadom k oprave chyby sa zmenilo správanie aktivity databáza, konkrétne nastavení \'Required entries\' a \'Required entries before viewing settings\'. Viac informácií sa dozviete na <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">fóre o databázovom module</a>. Očakávané správanie týchto nastavení je vysvetlené aj na <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
+<br/><br/>Táto zmena ovplyvní nasledovné databázy vo vašom systéme: (Tento zoznam si uložte a po aktualizácii skontrolujte, či sú nastavené tak, ako učitelia očakávajú.)<br/><strong style=\"color:red\">$a->text</strong><br/>'; // ORPHANED
 
 ?>

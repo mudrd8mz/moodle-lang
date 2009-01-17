@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // grades.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['activities'] = 'Aktivity';
@@ -302,6 +302,8 @@ $string['lessthanmin'] = 'Známka vložená pre $a->itemname pre $a->username je
 $string['letter'] = 'Slovná známka';
 $string['lettergrade'] = 'Slovná známka';
 $string['lettergradenonnumber'] = 'Nenumerická hodnota v Od a/alebo Do';
+$string['letterpercentage'] = 'Slovná známka (percentuálna hodnota)';
+$string['letterreal'] = 'Slovná známka (skutočná hodnota)';
 $string['letters'] = 'Slovné známky';
 $string['linkedactivity'] = 'Odkazovaná aktivita';
 $string['linkedactivityhelp'] = 'Určuje voliteľnú aktivitu, ku ktorej je viazaný cieľ. Používa sa na určenie výkonnosti študenta vzhľadom k kritériu nehodnoteného známkou z aktivity.';
@@ -390,6 +392,8 @@ $string['parentcategory'] = 'Rodičovská kategória';
 $string['pctoftotalgrade'] = '%% z celkovej známky';
 $string['percent'] = 'Percento';
 $string['percentage'] = 'Percentuálna hodnota';
+$string['percentageletter'] = 'Percentuálna hodnota (slovná známka)';
+$string['percentagereal'] = 'Percentuálna hodnota (skutočná hodnota)';
 $string['percentascending'] = 'Triediť podľa percent vzostupne';
 $string['percentdescending'] = 'Triediť podľa percent zostupne';
 $string['percentshort'] = '%%';
@@ -416,7 +420,9 @@ $string['rangesdisplaytype'] = 'Typ zobrazenia rozsahu';
 $string['rank'] = 'Poradie';
 $string['rawpct'] = 'Hrubé  %%';
 $string['real'] = 'Skutočná hodnota';
-$string['regradeanyway'] = 'Preznámkovať v každom pípade';
+$string['realletter'] = 'Skutočná hodnota (slovná známka)';
+$string['realpercentage'] = 'Skutočná hodnota (percentuálna hodnota)';
+$string['regradeanyway'] = 'Preznámkovať v každom prípade';
 $string['removeallcoursegrades'] = 'Vymazať všetky známky';
 $string['removeallcourseitems'] = 'Vymazať všetky položky a kategórie';
 $string['report'] = 'Výkaz';
@@ -428,7 +434,7 @@ $string['respectingcurrentdata'] = 'ponechanie súčasnej konfigurácie nezmenen
 $string['rowpreviewnum'] = 'Náhľad riadkov';
 $string['savechanges'] = 'Uložiť zmeny';
 $string['savepreferences'] = 'Uložiť preferencie';
-$string['scaledpct'] = 'Škálované  %%';
+$string['scaledpct'] = 'Škálované %%';
 $string['scaleidhelp'] = 'Pri použití hodnotenia typu stupnice je potrebné vybrať stupnicu. Ak je stupnica viazaná k hodnoteniu viazaného na aktivitu, je vyberaná na stránke aktivity.';
 $string['scalestandardhelp'] = 'Štandardná stupnica je dostupná vo všetkých kurzoch na portáli';
 $string['seeallcoursegrades'] = 'Vidieť všetky známky v kurze';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.3+ (Build: 20081204) (2007101532.08)
+      // data.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['action'] = 'Akcia';
@@ -211,6 +211,8 @@ $string['recordsnotsaved'] = 'Žiaden záznam nebol uložený. Prosím skontrolu
 $string['recordssaved'] = 'záznam(y) uložené';
 $string['requireapproval'] = 'Žiadať povolenie?';
 $string['requiredentries'] = 'Požadované záznamy';
+$string['requiredentrieschanged'] = '<p><strong>DÔLEŽITÉ - PROSÍM PREČÍTAJTE </strong></p><p>Z dôvodu opravy chyby bude zmenené správanie aktivít Databáza a ich nastavenia \'Vyžadované položky\' a \'Vyžadované položky pred umožnením prezerania\' sa zmenia. Viac sa možno dozvedieť v <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">diskusnom fóre k aktivite Databáza</a>. Očakávané správanie týchto nastavení možno nájsť tiež na <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
+</p><p>Táto zmena ovplyvní nasledovné inštancie aktivity Databáza na vašom serveri: (Uložte si teraz tento zoznam a po aktualizácii si skontrolujte, či tieto aktivity sú nastavené tak, ako to ich učitelia zamýšľali.)</p><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredentriestoview'] = 'Záznamy požadované pred prezeraním';
 $string['resetsettings'] = 'Reset filtrov';
 $string['resettemplate'] = 'Reset šablóny';
