@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20081217) (2008121000)
+      // tag.php - created with Moodle 2.0 dev (Build: 20090117) (2009011600)
 
 
 $string['addedotag'] = '공식 태그로 \"$a\"가 추가되었읍니다.';
@@ -14,6 +14,7 @@ $string['deleted'] = '삭제됨';
 $string['deletedcoursetags'] = '삭제됨 - 강좌 태그';
 $string['description'] = '설명';
 $string['edittag'] = '태그 편집';
+$string['entertags'] = '태그는 쉼표로 구분하여 입력';
 $string['errordeleting'] = 'id $a 태그 삭제 오류. 시스템 관리자에게 보고하기 바랍니다.';
 $string['errortagfrontpage'] = '사이트 초기 화면을 태그할 수는 없습니다.';
 $string['errorupdatingrecord'] = '태그 기록 갱신 오류';
@@ -21,6 +22,7 @@ $string['flag'] = '표식';
 $string['flagasinappropriate'] = '부적절 표시';
 $string['helprelatedtags'] = '관련 태그를 컴마로 분리';
 $string['id'] = 'id';
+$string['manageofficialtags'] = '공식 태그 관리';
 $string['managetags'] = '태그 관리';
 $string['name'] = '태그 명칭';
 $string['namesalreadybeeingused'] = '이미 있는 태그명칭';
@@ -28,6 +30,7 @@ $string['newname'] = '새 태그명칭';
 $string['noresultsfor'] = '\"$a\"에 대한 결과 없음';
 $string['officialtag'] = '공식 태그';
 $string['otags'] = '공식 태그';
+$string['othertags'] = '기타 태그(태그는 쉼표로 구분하여 입력)';
 $string['owner'] = '소유자';
 $string['ptags'] = '사용자 정의 태그';
 $string['relatedblogs'] = '이 태그를 사용한 최신 블로그 항목';

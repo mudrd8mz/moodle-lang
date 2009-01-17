@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090115) (2009011400)
+      // error.php - created with Moodle 2.0 dev (Build: 20090117) (2009011600)
 
 
 $string['TODO'] = '실행목록';
@@ -188,6 +188,8 @@ $string['dbconnectionfailed'] = '<p>오류: 데이터베이스 연결 실패</p>
 <p>사이트 관리자가 config.php를 분석해 데이터베이스가 제대로 지정이 되었는지 등의 자세한 내용을 점검해야 합니다.</p>$a';
 $string['dbdriverproblem'] = '<p>오류: 데이터베이스의 드라이버 문제 발견됨</p>
 <p>사이트 관리자가 서버의 설정을 검토해야 합니다.</p><p>$a</p>';
+$string['dbsessionbroken'] = '심각한 데이터베이스 세션 문제 발견<br /><br />서버 관리자에게 알려주기 바람';
+$string['dbsessionhandlerproblem'] = '데이터베이스 세션 설정 실패<br /><br />서버 관리자에게 알려주기 바람';
 $string['dbupdatefailed'] = '데이터베이스 갱신 실패';
 $string['ddlexecuteerror'] = 'DDL 쿼리 실행 오류';
 $string['ddlfieldalreadyexists'] = '\"$a\" 필드가 없음';

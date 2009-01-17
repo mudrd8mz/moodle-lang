@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // condition.php - created with Moodle 2.0 dev (Build: 20090110) (2009010801)
+      // condition.php - created with Moodle 2.0 dev (Build: 20090117) (2009011600)
 
 
 $string['addcompletions'] = '양식에 활동 조건 추가';
@@ -7,6 +7,7 @@ $string['addgrades'] = '양식에 성적 조건 추가';
 $string['availabilityconditions'] = '이용 조건';
 $string['availablefrom'] = '공개 개시';
 $string['availableuntil'] = '종료 날짜';
+$string['badavailabledates'] = '날짜 오류. 공개 개시와 종료 날짜를 함께 입력할 경우, 종료 날짜가 공개 개시일보다 이를 수 없음';
 $string['completion_complete'] = '완료 표시';
 $string['completion_fail'] = '낙제 점수로 완료';
 $string['completion_incomplete'] = '미완료';
