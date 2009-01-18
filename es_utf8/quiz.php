@@ -621,5 +621,8 @@ $string['newcategory3'] = 'un enlace de un nuevo conjunto de enlaces que puede s
 $string['newlocal1'] = 'un literal de un nuevo conjunto de literales que puede ser usado solamente por esta pregunta'; // ORPHANED
 $string['newlocal2'] = 'un archivo de un nuevo conjunto de archivos que puede ser usado solamente por esta pregunta'; // ORPHANED
 $string['newlocal3'] = 'un enlace de un nuevo conjunto de enlaces que puede ser usado solamente por esta pregunta'; // ORPHANED
+$string['changessavedwitherrors'] = 'Han ocurrido algunos errores mientras se guardaban los cambios de calificación';
+$string['outofpercent'] = '$a->grade de un máximo de $a->maxgrade ($a->percent%%)';
+$string['outofshort'] = '$a->grade/$a->maxgrade';
 
 ?>

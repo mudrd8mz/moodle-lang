@@ -1657,5 +1657,7 @@ $string['zippingbackup'] = 'Comprimiendo la copia de seguridad';
 $string['nostatstodisplay'] = 'Lo sentimos, no hay datos disponibles que mostrar.'; // ORPHANED
 $string['skiptomaincontent'] = 'Saltar al contenido principal'; // ORPHANED
 $string['enteryourinterests'] = 'Escriba sus intereses separados por comas'; // ORPHANED
+$string['editremoteprofile'] = 'Editar perfil remoto';
+$string['remoteappuser'] = 'Usuario $a remoto';
 
 ?>

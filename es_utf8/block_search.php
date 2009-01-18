@@ -15,5 +15,6 @@ $string['configwordtotextcmd'] = 'Ruta al comando doctotext';
 $string['configwordtotextenv'] = 'Ajuste de entorno para el convertidor MSWord';
 $string['go'] = '¡Ir!';
 $string['searchmoodle'] = 'Buscar en Moodle';
+$string['usemoodleroot'] = 'Utilizar la \'root\' de Moodle para convertidores externos';
 
 ?>

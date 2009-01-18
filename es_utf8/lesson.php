@@ -303,5 +303,6 @@ $string['youshouldview'] = 'Usted debería ver como mínimo: $a';
 $string['outoftime'] = 'Fuera de tiempo'; // ORPHANED
 $string['studentoutoftime'] = 'Atención: Ha sobrepasado el límite de esta lección. Su última respuesta no cuenta porque ha sido dada fuera de tiempo. Por favor, pulse en el botón Continuar para terminar la lección.'; // ORPHANED
 $string['editlesson'] = 'Editar $a'; // ORPHANED
+$string['nodeadline'] = 'No fecha límite';
 
 ?>

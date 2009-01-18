@@ -46,5 +46,11 @@ $string['updated'] = 'Actualizado';
 $string['updatetag'] = 'Actualizar';
 $string['userstaggedwith'] = 'Usuarios marcados con \"$a\"';
 $string['withselectedtags'] = 'Con las marcas seleccionadas...';
+$string['addedotag'] = 'Se ha añadido \"$a\" como marca oficial.';
+$string['addotags'] = 'Añadir marcas oficiales.';
+$string['officialtag'] = 'Marca oficial';
+$string['otags'] = 'Marcas oficiales';
+$string['ptags'] = 'Marcas definidas por el usuario (separadas por comas)';
+$string['removetagfrommyinterests'] = 'Eliminar \"$a\" de mis intereses';
 
 ?>

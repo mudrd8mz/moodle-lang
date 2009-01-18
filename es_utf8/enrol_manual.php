@@ -9,5 +9,7 @@ $string['description'] = 'Este es el formulario por defecto de matriculación. E
 </ul>';
 $string['enrolname'] = 'Matriculación interna';
 $string['keyholderrole'] = 'Rol del usuario que dispone de la clave de matriculación en un curso. Se muestra a los estudiantes que pretenden matricularse en el curso.';
+$string['enrol_manual_showhint'] = 'Active esta opción para revelar el primer carácter de la clave de matriculación como ayuda para quien introduzca una clave incorrecta.';
+$string['enrolmentkeyerror'] = 'Esa clave de matriculación es incorrecta; por favor, inténtelo de njuevo.';
 
 ?>

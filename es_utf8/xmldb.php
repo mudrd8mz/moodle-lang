@@ -137,5 +137,7 @@ $string['wrongreservedwords'] = 'Palabras reservadas usadas actualmente<br />(no
 $string['yesmissingindexesfound'] = 'En su BD se han encontrado algunos índices ausentes. Aquí puede ver sus detalles, así como los comandos SQL a ejecutar con su interfaz SQL favorita para crearlos.<br /><br /> Una vez que lo haya hecho, es muy recomendable que ejecute de nuevo esta utilidad para comprobar que no se encuentran más índices ausentes.';
 $string['yeswrongdefaultsfound'] = 'En su base de datos se han encontrado algunos valores por defecto inconsistentes. Aquí se presentan sus detalles y las acciones SQL que deben ejecutarse en su interfaz SQL favorita para crearlos (no olvide hacer una copia de seguridad de sus datos).<br /><br />Una vez realizado, se recomienda ejecutar de nuevo esta utilidad para comprobar que no se encuentran más valores por defecto inconsistentes.';
 $string['yeswrongintsfound'] = 'Se han encontrado algunos enteros erróneos en su BD. Aquí se presentan sus detalles y las acciones SQL que deben ejecutarse en su interfaz SQL favorita para crearlos (no olvide hacer una copia de seguridad de sus datos).<br /><br />Una vez realizado, se recomienda ejecutar de nuevo esta utilidad para comprobar que no se encuentran más enteros erróneos.';
+$string['butis'] = 'pero es';
+$string['shouldbe'] = 'debería ser';
 
 ?>

@@ -193,5 +193,8 @@ $string['course:downloadallgrades'] = 'Descargar todas las calificaciones'; // O
 $string['course:viewallgrades'] = 'Ver todas las calificaciones'; // ORPHANED
 $string['course:viewowngrades'] = 'Ver las calificaciones propias'; // ORPHANED
 $string['grade:editlocked'] = 'Editar calificaciones bloqueadas'; // ORPHANED
+$string['course:changefullname'] = 'Cambiar el nombre completo del curso';
+$string['course:changeidnumber'] = 'Cambiar el número ID del curso';
+$string['course:changeshortname'] = 'Cambiar el nombre corto del curso';
 
 ?>

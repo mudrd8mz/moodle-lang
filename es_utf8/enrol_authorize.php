@@ -204,5 +204,6 @@ $string['welcometocoursesemail'] = 'Estimado estudiante,
 Gracias por enviar su pago. Está matriculado en los siguientes cursos:';
 $string['youcantdo'] = 'No puede realizar esta acción: $a->action';
 $string['zipcode'] = 'Código postal';
+$string['dataentered'] = 'Datos introducidos';
 
 ?>
