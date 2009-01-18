@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20081231) (2008121701)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090118) (2009011600)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -13,6 +13,7 @@ $string['aggregatemin'] = '최하위';
 $string['aggregatenone'] = '순위없음';
 $string['aggregatesum'] = '누계';
 $string['aggregatetype'] = '집계 유형';
+$string['ajaxrating'] = 'AJAX 추천기능 활성화';
 $string['allforums'] = '모든 포럼';
 $string['allowchoice'] = '모든 사람이 선택할 수 있도록 허용';
 $string['allowdiscussions'] = '$a 가 이 포럼에 게시할 수 있도록 할까요?';
@@ -73,6 +74,7 @@ $string['completionpostshelp'] = '이수하기 위해 토론이나 응답이 필
 $string['completionreplies'] = '게시글에 응답 필수';
 $string['completionrepliesgroup'] = '필수 응답';
 $string['completionreplieshelp'] = '이수하기 위해 응답이 필수 사항임';
+$string['configajaxrating'] = '켜져 있으면 포럼에서 모듈의 AJAX 추천기능을 이용할 수 있게 됨(사이트 및 사용자의 개별 AJAX 기능이 활성화되어 있어야만 함)';
 $string['configcleanreadtime'] = '하루 중 \'읽음\'표에서 지난 게시 내용을 정리하는 시각';
 $string['configdisplaymode'] = '만약 설정되지 않았다면 기본 설정이 보여집니다.';
 $string['configenablerssfeeds'] = '이 스위치는 모든 포럼이 RSS를 이용할 수 있게 합니다. 또 각 포럼에서 기사를 전달하기 위해서는 수동으로 RSS를 지원하도록 옵션을 켜야 합니다.';
