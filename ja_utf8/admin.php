@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090112) (2009011101)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090117) (2009011600)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -240,6 +240,8 @@ $string['configsessiontimeout'] = 'このサイトにログインして長時間
 $string['configshowblocksonmodpages'] = 'いくつかの活動モジュールでは、ページにブロックを表示することができます。この設定を有効にした場合、教師はサイドブロックをページに追加することができます。そうでない場合、この機能は表示されません。';
 $string['configshowsiteparticipantslist'] = 'すべての学生および教師が参加者リストに表示されます。誰がこの参加者リストを閲覧することができますか?';
 $string['configsitemailcharset'] = 'あなたのサイトで生成されたすべてのメールは、ここで指定した文字コードで送信されます。次の設定が有効にされた場合、ユーザは自分の文字コードを指定することができます。';
+$string['configsitemaxcategorydepth'] = '最大カテゴリ深度';
+$string['configsitemaxcategorydepthhelp'] = 'ここでは、表示される子カテゴリの最大数を設定します。';
 $string['configsitepolicy'] = 'このサイトを使用する前に、すべてのユーザがサイト使用許諾に同意する必要がある場合、サイト使用許諾ページのURIを指定してください。同意する必要が無い場合、空白のままにしてください。URIは自由に指定することができます - 便利な場所は、サイトファイルの中です。<br />
 例 http://yoursite/file.php/1/policy.html';
 $string['configslasharguments'] = 'ファイル (イメージ、アップロード等) は、スラッシュを使ってプログラムに受け渡されます。この方法により、簡単にブラウザ内やプロクシにイメージを一時保存させることが可能です。いくつかのPHPサーバではこの方法が取れない場合があります。もし、アップロードされたファイルやイメージ (例 ユーザ画像) の表示に問題がある場合、この設定を無効にしてください。';
@@ -599,6 +601,7 @@ $string['performance'] = 'パフォーマンス';
 $string['pgcluster'] = 'PostgreSQLクラスタ';
 $string['pgclusterdescription'] = 'コマンドライン処理のためのPostgreSQLバージョン/クラスタパラメータです。あなたのシステムに1つのPostgreSQLのみある場合、またはこの設定が分からない場合は、空白にしてください。';
 $string['php50restricted'] = 'PHP 5.0.x には数多くの既知の問題があります。5.1.x にアップグレードするか、4.3.x または 4.4.x にダウングレードしてください。';
+$string['phpfloatproblem'] = 'PHP不動数の処理に予想外の問題が発見されました - $a';
 $string['pleaserefreshregistration'] = 'あなたのサイトがmoodle.orgに登録されました。最終更新日 $a 以降、サイトに大幅な変更があった場合、登録内容の更新をお考えください。';
 $string['pleaseregister'] = 'このボタンを消すには、あなたのサイトを登録してください。';
 $string['plugins'] = 'プラグイン';
@@ -724,8 +727,6 @@ $string['sitemaintenancemode'] = 'メンテナンスモード';
 $string['sitemaintenanceoff'] = 'メンテナンスモードが解除されました。サイトは正常に動作しています。';
 $string['sitemaintenanceon'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインまたはサイトを利用することができます)。';
 $string['sitemaintenancewarning'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインできます)。通常運用に戻すには、<a href=\"maintenance.php\">メンテナンスモードを解除してください</a>。';
-$string['sitemaxcategorydepth'] = '最大カテゴリ深度';
-$string['sitemaxcategorydepthhelp'] = 'ここでは、表示される子カテゴリの最大数を設定します。';
 $string['sitepolicies'] = 'サイトポリシー';
 $string['sitepolicy'] = 'サイトポリシーURI';
 $string['sitesectionhelp'] = '選択した場合、トピックセクションがサイトフロントページに表示されます。';
@@ -790,6 +791,7 @@ $string['upgradesure'] = 'あなたのMoodleファイルが更新されました
 $string['upgradetimedout'] = 'アップグレードがタイムアウトしました。アップグレードをリスタートしてください。';
 $string['upgradingdata'] = 'データのアップグレード';
 $string['upgradinglogs'] = 'ログのアップグレード';
+$string['upgradingversion'] = '新しいバージョンにアップグレードする';
 $string['uploadpicture_baduserfield'] = '指定されたユーザ属性は有効ではありません。もう一度お試しください。';
 $string['uploadpicture_cannotmovezip'] = '一時ディレクトリにZIPファイルを移動できません。';
 $string['uploadpicture_cannotprocessdir'] = 'ZIP解凍されたファイルを処理できません。';
