@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // condition.php - created with Moodle 2.0 dev (Build: 20081217) (2008121701)
+      // condition.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
 
 
 $string['addcompletions'] = 'フォームに  {no} 件の活動コンディションを追加する';
@@ -7,6 +7,7 @@ $string['addgrades'] = 'フォームに  {no} 件の評定コンディション�
 $string['availabilityconditions'] = '利用制限';
 $string['availablefrom'] = '利用可能開始日';
 $string['availableuntil'] = '利用可能終了日';
+$string['badavailabledates'] = '日付が正しくありません。あなたが両方の日付を設定する場合、「利用可能開始日」は「利用可能終了日」より前に設定してください。';
 $string['completion_complete'] = '完了マークされる必要あり';
 $string['completion_fail'] = '不合格で完了する必要あり';
 $string['completion_incomplete'] = '完了マークされない必要あり';

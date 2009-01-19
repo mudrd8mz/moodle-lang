@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090117) (2009011600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -132,6 +132,7 @@ $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいてRSSフ�
 $string['configenablerssfeedsdisabled2'] = 'RSSフィードは、サーバレベルで無効にされています。最初に、サーバ > RSSで有効にしてください。';
 $string['configenablestats'] = 'この設定を有効にした場合、Moodleのcronジョブはログを処理し、統計情報を集めます。あなたのサイトのトラフィックにより、しばらく時間がかかる場合があります。このオプションを有効にした場合、あなたの各コースまたはサイト全体に関する面白いグラフおよび統計を見ることができます。';
 $string['configenabletrusttext'] = 'Moodleは、デフォルトでユーザによりアップロードされたセキュリティ上のリスクのがある悪意を持ったスクリプト、メディア等をテキストから完全にクリーニングしています。コンテンツ信頼システムでは、特定のユーザによるコンテンツに対して干渉しない拡張機能を適用することができます。このシステムを動作させるには、最初にこの設定を有効にして、個別のMoodleロールにコンテンツ信頼パーミッションを与える必要があります。このようなユーザにより作成またはアップロードされたテキストには、信頼されている旨のマークが付けられ、表示前にクリーニングされることはありません。';
+$string['configenablewebservices'] = 'ウェブサービスでは、他のシステムがこのMoodleにログインして、操作できるようにします。セキュリティのため、あなたが本当に使用したい場合以外、この機能を無効にしてください。';
 $string['configenrolmentplugins'] = 'あなたが使用したいプラグインを選択してください。また、忘れずに適切に設定してください。<br /><br />ここでは、どのプラグインを有効にするのか指定する必要があります。<strong>1つ</strong>のプラグインを<em>インタラクティブ</em>なユーザ登録方法としてデフォルトに設定することができます。インタラクティブなユーザ登録方法を無効にするには、該当するコースの設定画面で「コース登録可能」を「No」にしてください。';
 $string['configerrorlevel'] = '表示したいPHPの警告数を選択してください。通常は、Normalが最適です。';
 $string['configextendedusernamechars'] = 'この設定を有効にした場合、学生はユーザ名にどのような文字でも使用することができます (実際の名前には影響しません)。ユーザ名を英数字に制限する「無効」がデフォルトです。';
@@ -375,6 +376,7 @@ $string['enablerecordcache'] = 'レコードキャッシュを有効にする';
 $string['enablerssfeeds'] = 'RSSフィードを有効にする';
 $string['enablestats'] = '統計を有効にする';
 $string['enabletrusttext'] = 'コンテンツ信頼を有効にする';
+$string['enablewebservices'] = 'ウェブサービスを有効にする';
 $string['encoding'] = 'エンコーディング';
 $string['enrolmultipleusers'] = 'ユーザを受講登録する';
 $string['environment'] = '動作環境';
