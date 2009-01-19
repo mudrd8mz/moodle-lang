@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20081219) (2008121701)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090116) (2009011400)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1041,8 +1041,8 @@ Saluti dall\'amministratore del sito \'$a->sitename\',
 $a->signoff';
 $string['newusers'] = 'Nuovi utenti';
 $string['newwindow'] = 'nuova finestra';
-$string['next'] = 'Prossimo';
-$string['nextsection'] = 'Prossima sezione';
+$string['next'] = 'Successivo';
+$string['nextsection'] = 'Sezione successiva';
 $string['no'] = 'No';
 $string['nobody'] = 'Nessuno';
 $string['nochange'] = 'Nessun cambiamento';
