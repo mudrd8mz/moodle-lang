@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // question.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['adminreport'] = 'Rapporto su possibili problemi nel tuo database di domande.';
@@ -21,7 +21,7 @@ $string['cwrqpfsinfo'] = '<p>Nell\'aggiornamento a Moodle 1.9 separeremo le cate
 $string['cwrqpfsnoprob'] = 'Nessuna categoria del tuo sito è affetta dal problema \'Domande a caso che pescano domande da sotto-categorie\'.';
 $string['defaultfor'] = 'Default per $a';
 $string['defaultinfofor'] = 'La categoria default per le domande condivise nel contesto \'$a\'.';
-$string['deletecoursecategorywithquestions'] = 'Ci sono domande nel banco delle domande associate con questa categoria di corso. Se procedi, queste saranno cancellate. Puoi comunque spostarle prima, usando l\'interfaccia del banco delle domande.';
+$string['deletecoursecategorywithquestions'] = 'Ci sono domande nel deposito delle domande associate con questa categoria di corso. Se procedi, queste saranno cancellate. Puoi comunque spostarle prima, usando l\'interfaccia del deposito delle domande.';
 $string['donothing'] = 'Non copiare o spostare files o cambiare links.';
 $string['editingcategory'] = 'Modifica una categoria';
 $string['editingquestion'] = 'Modifica una domanda';
@@ -73,7 +73,7 @@ $string['permissionsaveasnew'] = 'Salvare questa come una nuova domanda';
 $string['permissionto'] = 'Sei autorizzato a:';
 $string['published'] = 'condivise';
 $string['questionaffected'] = '<a href=\"$a->qurl\">La domanda \"$a->name\" ($a->qtype)</a> è in questa categoria ma è anche usata nel <a href=\"$a->qurl\">quiz \"$a->quizname\"</a> nell\'altro corso \"$a->coursename\".';
-$string['questionbank'] = 'Banco delle domande';
+$string['questionbank'] = 'Deposito delle domande';
 $string['questioncategory'] = 'Categoria di domande';
 $string['questioncatsfor'] = 'Categorie di domande per \'$a\'';
 $string['questiondoesnotexist'] = 'Questa domanda non esiste';
