@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090115) (2009011400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -297,13 +297,13 @@ $string['coursehelpexpirynotifystudents'] = '재적 기간을 지정해 놓은 �
 $string['coursehelpexpirythreshold'] = '재적 기간을 지정해 놓은 경우, 사용자를 제명하기 며칠 전에 통지할 것인지를 설정';
 $string['coursehelpforce'] = '강좌 내 모든 활동을 강제 모둠으로 지정';
 $string['coursehelpformat'] = '강좌의 주 화면이 지정된 형식으로 제시됨';
-$string['coursehelphiddensections'] = '학생들에게 강좌내 비 공개 영역이 어떻게 제시될 것인가를 설정';
-$string['coursehelpmaximumupload'] = '사이트 설정을 한계로, 본 강좌의 학생들이 올릴 수 있는 최대 파일 크기를 정의';
-$string['coursehelpmetacourse'] = '하위 강좌 설정. 메타코스는 등록자 및 기타 역할 등을 그 \'하위\' 강좌에서 가져온다.';
-$string['coursehelpnewsitemsnumber'] = '강좌 대문 화면의 오른쪽 새소식난에 게시될 새소식 항목 수<br/>(0 은 새소식난이 나타나지 않음)';
+$string['coursehelphiddensections'] = '학생들에게 강좌내 비공개 영역을 어떻게 제시할 것인가를 설정';
+$string['coursehelpmaximumupload'] = '사이트 설정값 내에서, 수강생들이 올릴 수 있는 파일의 최대 크기를 정의';
+$string['coursehelpmetacourse'] = '메타코스 설정. 메타코스는 등록자 및 기타 역할 등을 그 \'하위\' 강좌에서 가져온다.';
+$string['coursehelpnewsitemsnumber'] = '강좌의 오른쪽 새소식난에 게시될 새소식 항목 수<br/>(0 은 새소식난이 나타나지 않음)';
 $string['coursehelpnotify'] = '재적 기간을 지정해 놓은 경우, 참여자를 강좌에서 제명하려고 할 때 교수자에게 통지할 것인지를 설정';
-$string['coursehelpnumberweeks'] = '강좌의 대문 화면에 표시할 학습 주간/주제의 갯수';
-$string['coursehelpshowgrades'] = '성적표 제시 활성화. 개별 활동 영역에서 성적이 표시되도록 한다.';
+$string['coursehelpnumberweeks'] = '강좌의 주 화면에 표시될 학습의 주간/주제의 갯수';
+$string['coursehelpshowgrades'] = '성적표를 보여줌. 개별 활동 영역에서 성적이 표시되도록 한다.';
 $string['coursehidden'] = '아직 학생들이 강좌를 이용할 수 없음';
 $string['courseimportnotaught'] = '당신은 다른 어떤 강좌에 대해서도 편집권한을 갖지 못한 듯 하여 다른 곳에서 학습 내용을 가져올 수 없습니다.';
 $string['courseinfo'] = '강좌 정보';
@@ -574,7 +574,7 @@ $string['enroldate'] = '등록기간';
 $string['enroldetails'] = '등록 세부사항';
 $string['enrolenddate'] = '등록 마감 날짜';
 $string['enrolenddaterror'] = '등록기간의 마감날짜는 시작날짜보다 먼저일 수 없음';
-$string['enrollable'] = '강좌 등록 가능';
+$string['enrollable'] = '개별 등록 가능';
 $string['enrolledincourse'] = '강좌 \"$a\" 에  등록함';
 $string['enrolledincoursenot'] = '강좌 \"$a\" 에  등록하지 않음';
 $string['enrolledincoursenotrole'] = '\"$a->course\" 강좌에 \"$a->role\" 로 등록하는데 오류';
@@ -1349,7 +1349,7 @@ $string['showalltopics'] = '전체보기: 주제';
 $string['showallusers'] = '전체보기: 이용자';
 $string['showallweeks'] = '전체보기: 주';
 $string['showblockcourse'] = '블럭이 있는 강좌 목록보기';
-$string['showgrades'] = '등급 보기';
+$string['showgrades'] = '성적 표시';
 $string['showlistofcourses'] = '강좌 목록보기';
 $string['showmodulecourse'] = '활동이 있는 강좌 목록보기';
 $string['showonly'] = '보기만';

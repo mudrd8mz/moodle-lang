@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081211) (2008121000)
+      // role.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
 
 
 $string['addinganewrole'] = '역할 추가하기';
-$string['addingrolebycopying'] = '$a 에 근거하여 새 역할 추가하기';
+$string['addingrolebycopying'] = '$a 를 기반으로 새 역할 추가하기';
 $string['addrole'] = '역할 추가';
 $string['allow'] = '허용';
 $string['allowassign'] = '역할 부여 허용';
@@ -13,7 +13,7 @@ $string['allowroletoassign'] = '$a->fromrole 역할을 지닌 사용자에게 $a
 $string['allowroletooverride'] = '$a->fromrole 역할을 지닌 사용자에게 $a->targetrole 역할 재설정 허용';
 $string['allsiteusers'] = '사이트의 모든 사용자';
 $string['assignanotherrole'] = '다른 역할 부여';
-$string['assignerror'] = '사용자 $a->user 에게  $a->role 역할을 부여하는 중 오류';
+$string['assignerror'] = '사용자 $a->user 에게  $a->role 역할을 부여하던 중 오류';
 $string['assignglobalroles'] = '총괄 역할';
 $string['assignmentcontext'] = '부여 영역';
 $string['assignmentoptions'] = '부여 조건';
@@ -121,19 +121,19 @@ $string['grade:view'] = '내 성적 보기';
 $string['grade:viewall'] = '다른 사람 성적 보기';
 $string['grade:viewhidden'] = '숨겨진 성적 보기';
 $string['hidden'] = '비공개';
-$string['highlightedcellsshowdefault'] = '아래 표의 강조된 칸은 \'Legacy role type above\'에 기반한 표준 권한을 보여줍니다.';
+$string['highlightedcellsshowdefault'] = '아래 표의 강조된 칸은 \'정규 역할 유형\'에 기반한 표준 권한을 보여줍니다.';
 $string['highlightedcellsshowinherit'] = '아래 표의 강조된 칸은 상속될 수 있는 권한을 보여줍니다. 실제 변경하고자 하는 권한과는 별개로, 모든 것을 상속가능하게 두어야 합니다.';
 $string['inactiveformorethan'] = '$a->timeperiod 이상 비활동';
 $string['ingroup'] = '모둠 \"$a->group\" 속';
 $string['inherit'] = '따름';
-$string['legacy:admin'] = '규정된 역할 : 관리자';
-$string['legacy:coursecreator'] = '규정된 역할 : 강좌 생성자';
-$string['legacy:editingteacher'] = '규정된 역할 : 교수자(편집가능)';
-$string['legacy:guest'] = '규정된 역할 : 손님';
-$string['legacy:student'] = '규정된 역할 : 학생';
-$string['legacy:teacher'] = '규정된 역할 : 교수자(편집기능 없음)';
-$string['legacy:user'] = '규정된 역할 : 인증된 사용자';
-$string['legacytype'] = '규정된 역할 유형';
+$string['legacy:admin'] = '정규 역할 : 관리자';
+$string['legacy:coursecreator'] = '정규 역할 : 강좌 생성자';
+$string['legacy:editingteacher'] = '정규 역할 : 교수자(편집가능)';
+$string['legacy:guest'] = '정규 역할 : 손님';
+$string['legacy:student'] = '정규 역할 : 학생';
+$string['legacy:teacher'] = '정규 역할 : 교수자(편집기능 없음)';
+$string['legacy:user'] = '정규 역할 : 인증된 사용자';
+$string['legacytype'] = '정규 역할 유형';
 $string['listallroles'] = '역할 목록';
 $string['localroles'] = '영역 역할';
 $string['manageroles'] = '역할 관리';
@@ -184,7 +184,7 @@ $string['question:viewall'] = '모든 문항 보기';
 $string['question:viewmine'] = '자신의 문항 보기';
 $string['resetrole'] = '역할 초기화';
 $string['resetrolenolegacy'] = '권한 취소';
-$string['resetrolesure'] = '정말 \"$a->name ($a->shortname)\" 역할을 초기화하겠습니까?<p></p>기본 역할은 규정된 능력($a->legacytype)에서 선택됩니다.';
+$string['resetrolesure'] = '정말 \"$a->name ($a->shortname)\" 역할을 초기화하겠습니까?<p></p>기본 역할은 정규 권한($a->legacytype)에서 가져옵니다.';
 $string['resetrolesurenolegacy'] = '정말 \"$a->name ($a->shortname)\" 역할의 모든 권한을 제거하겠습니까?';
 $string['risks'] = '위험부담';
 $string['role:assign'] = '사용자에게 역할 부여';

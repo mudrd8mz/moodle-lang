@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090115) (2009011400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -91,8 +91,8 @@ $string['configcookiehttponly'] = 'PHP 5.2.0기능 활성화 - 브라우저가 �
 $string['configcookiesecure'] = '만일 서버가 https 접속만 허용한다면 보안 쿠키 제공 활성화를 권장한다. 만일 이를 활성화 해 놓았다면 웹서버는 http://나 https:// 주소로 우회시킨 설정에 대해서는 접속을 허용하지 않을 것이다. <em>wwwroot</em> 가 https:// 로 시작하지 않는  주소에 대해서는 이 설정은 자동적으로 꺼진다.';
 $string['configcountry'] = '만약 여기에 국가를 지정한다면, 지정된 국가는 새로운 이용자계정의 기본값으로 설정된다. 이용자 스스로 국가(언어)를 선택하게 하고 싶으면, 지정하지 말고 그냥 놓아 두어라.';
 $string['configcoursemanager'] = '여기에서는 강좌 소개에 표시하고 싶은 사람을 설정할 수 있게 한다. 기표된 역할이 주어진 이용자는 강좌 설명에 이름이 제시된다.';
-$string['configcourserequestnotify'] = '강좌 요청이 있을 경우 이를 처리해야 할 관리자 아이디 지정';
-$string['configcourserequestnotify2'] = '강좌 개설 신청이 들어왔을 때 이를 처리해야 할 사용자. 강좌 개설을 허용할 수 있는 사용자만 여기에 나열됨.';
+$string['configcourserequestnotify'] = '강좌개설 요청이 있을 경우 이를 처리해야 할 관리자 아이디 지정';
+$string['configcourserequestnotify2'] = '강좌개설 요청이 있을 경우 이를 처리해야 할 사용자. 강좌 개설을 허용할 수 있는 사용자만 여기에 나열됨.';
 $string['configcoursesperpage'] = '강좌 목록에서 페이지당 표시될 강좌의 수를 입력하세요.';
 $string['configcreatornewroleid'] = '강좌를 생성한 사람에게 자동적으로 주어지는 역할. 만일 이미 상위 강좌의 권한을 상속받을 경우에는 역할이 다시 주어지지 않는다.';
 $string['configcronclionly'] = '이것이 설정되면 크론 스크립트는 웹 대신 명령어 줄에서만 실행될 수 있다. 이것은 아래의 크론 암호설정과 연관되어 있다.';
@@ -132,7 +132,7 @@ $string['configenablerssfeedsdisabled2'] = 'RSS 송출이 서버 수준에서 �
 $string['configenablestats'] = '여기를 체크해 놓으면 무들의 일정관리 기능은 여러 기록과 통계를 수합할 것이다. 사이트의 부하에 따라 다소 시간이 걸릴 수도 있다. 이 기능을 활성화할 경우, 여러분의 강좌는 물론 사이트 전체에 관련된 여러 그래프와 통계를 볼 수 있다.';
 $string['configenabletrusttext'] = '무들은 기본적으로 이용자가 올리는 문서를 철저하게 검색하여 혹시 있을지 모르는 보안에 위해가 되는 악성코드 혹은 동영상 등을 제거한다. 내용 검증 체계는 신임하는 이용자들이 올리는 내용에 대해서는 간섭하지 않고 향상된 기능을 포함시킬 수 있는 권한을 부여하는 형태로 이루어진다. 이러한 체계를 가능하게 하려면, 우선 이 설정을 켜고, 내용신임 인증에 대한 특별한 무들 역할을 부여해야 한다. 이러한 이용자들에 의해 올려지거나 생성되는 문서는 따로 인증표식이 붙어 화면에 표시되기 전에 특정 코드가 삭제되지 않을 것이다.';
 $string['configenablewebservices'] = '이것은 무들의 웹서비스를 가능하게 함';
-$string['configenrolmentplugins'] = '사용하고자 하는 출석 플러그인을 선택하라. 또 원활하게 작동하도록 설정하는 것을 잊지 말아라.<br /><br />어느 플러그인이 활성화되어 있는지 명시하여야 한다.<strong>하나의</strong> 플러그인이 <em>자동(interactive)</em> 등록에 필요한 기본 플로그인으로 설정될 수 있다. 자동 등록을 막으려면 해당 강좌에서 \"등록가능\"을 \"아니오\"로 하면 된다.';
+$string['configenrolmentplugins'] = '사용하고자 하는 등록 플러그인을 선택하라. 또 원활하게 작동하도록 설정하는 것을 잊지 말아라.<br /><br />활성화된 플러그인이 명시되어야 하며, <em>자동(interactive)</em> 등록에 필요한 기본 플로그인 <strong>하나</strong>를 설정할 수 있다. 자동 등록을 막으려면 해당 강좌에서 \"등록가능\"을 \"아니오\"로 하면 된다.';
 $string['configerrorlevel'] = '당신이 알고싶은 PHP경고 수준을 선택하라. 대부분 보통(Normal)이 가장 좋은 선택이다.';
 $string['configextendedusernamechars'] = '이 설정을 활성화시켜 놓으면 학생들은 사용자 아이디에 어떤 문자도 쓸 수 있다.(학생들의 실제 이름에는 영향을 주지 않는다) 기본적으로는 비활성화되어 있어 사용자 ID에 영문자와 숫자를 조합한 것만 허용된다.';
 $string['configextrauserselectorfields'] = '이용자에게 역할을 부여하거나 모둠 구성원으로 추가하는 등에서 사용자를 선택할 경우, 여기에서 선택한 필드가 사용자 목록에 제시된다. 보안상 사용자아이디를 선택하는 것은 바람직하지 않음을 유념하라.';
@@ -150,7 +150,7 @@ $string['configgdversion'] = '설치된 GD 버전을 보여준다. 여기에 표
 $string['configgeoipfile'] = 'GeoIP City의 이진 데이터가 있는 위치. 이 파일은 무들 배포본에 포함된 것이 아니며 <a href=\"http://www.maxmind.com/\">MaxMind</a>에서 개별적으로 얻어야만 하는 것이다. 상용 정식판을 구매할 수도 있고 공개판을 이용할 수도 있다. 간단히 <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>을 내려받아 서버의 \"$a\" 경로에 풀어 넣으면 된다.';
 $string['configgetremoteaddrconf'] = '리버스 프록시 뒤에 서버가 있으면, 어떤 HTTP 헤더가 원격 IP 주소를 신임해야 할 것인지 지정하기 위해 이 설정을 사용할 수 있다. 헤더는 순서대로 읽혀지며, 우선적으로 사용 가능한 것을 이용한다.';
 $string['configgooglemapkey'] = 'IP주소의 위치를 찾기 위해 구글맵을 이용하려면 특별한 암호가 필요하다. 이는 <a href=\"http://code.google.com/apis/maps/signup.html\" >http://code.google.com/apis/maps/signup.html</a> 에서 무료로 얻을 수 있다. <br />현재 이 곳의 웹주소는 $a 로 되어 있다.';
-$string['configgradebookroles'] = '이 설정은 성적표에 표시될 사람을 조정할 수 있게 한다. 강좌의 성적표에 표시되려면 이용자는 최소한 이들 중 하나의 역할이 되어야 한다.';
+$string['configgradebookroles'] = '이 설정은 성적표에 표시될 사람을 조정할 수 있게 한다. 이용자는 최소한 이들 중 하나의 역할이 되어야만 그 강좌의 성적표에 등재될 수 있다.';
 $string['configgradeexport'] = '성적을 내보낼 때 우선적으로 사용할 성적표 형식을 선택하라. 선택된 플러그인이 설정된 후에는 추후 모든 성적의 \"최근 내보냄\" 항목으로 이용될 것이다. 예를 들면 내보내기 한 레코드들은 \"새로운\" 혹은 \"새로고침\"된 것으로 간주될 것이다. 확신이 들지 않으면 모든 것을 비워 두어라.';
 $string['configguestroleid'] = '이 역할은 손님계정에 자동으로 부여되는 것이다. 방문이 허용된 강좌에 참여한 비등록 이용자에게도 한시적으로 적용된다. moodle/legacy:guest 및 moodle/course:view 권한이 부여되어 있는지 확인하라.';
 $string['confighiddenuserfields'] = '교수자와 관리자 이외의 사람들에게는 공개하지 않을 이용자 정보를 선택하라. 이렇게 하면 학생들의 프라이버시를 증진시킬 수 있다. 여러 항목을 선택할 때는 CTRL키를 누른채 항목들을 선택하면 된다.';
@@ -334,7 +334,7 @@ $string['debugsmtp'] = '이메일 발송 디버그';
 $string['defaultallowedmodules'] = '허용되는 기본 모듈';
 $string['defaultcourseroleid'] = '수강자 기본 역활';
 $string['defaulthtmleditor'] = '기본 HTML 편집기';
-$string['defaultrequestcategory'] = '강좌 요청시 기본 범주';
+$string['defaultrequestcategory'] = '개설할 강좌의 기본 범주';
 $string['defaultsettinginfo'] = '기본: $a';
 $string['defaultuserroleid'] = '이용자 기본 역할';
 $string['defaultvalues'] = '기본값';
@@ -375,7 +375,7 @@ $string['emoticons'] = '이모티콘';
 $string['emptysettingvalue'] = '비어있음';
 $string['enableajax'] = 'AJAX 활성화';
 $string['enablecalendarexport'] = '일정표로 내보내기 활성화';
-$string['enablecourserequests'] = '강좌 요청 가능';
+$string['enablecourserequests'] = '강좌 개설 가능';
 $string['enableglobalsearch'] = '전역 검색 활성화';
 $string['enablegroupings'] = '모둠 무리 활성화';
 $string['enablehtmlpurifier'] = 'HTML 거르개 활성화';
@@ -439,7 +439,7 @@ $string['globalswarning'] = '<p><strong>보안 경고</strong>  : 무들이 바�
 $string['googlemapkey'] = '구글맵 API 암호';
 $string['gotofirst'] = '빠진 첫번째 문자열로 가기';
 $string['gradebook'] = '성적 기록부';
-$string['gradebookroles'] = '성적 관리 대상';
+$string['gradebookroles'] = '성적 처리 대상';
 $string['gradeexport'] = '1차 성적 전송 방법';
 $string['guestroleid'] = '손님계정 역할';
 $string['helpadminseesall'] = '관리자가 모든 일정을 볼 수 있거나 그 이벤트들 스스로 적용됩니까?';
