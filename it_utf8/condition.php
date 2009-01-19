@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // condition.php - created with Moodle 2.0 dev (Build: 20090107) (2009010606)
+      // condition.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
 
 
 $string['addcompletions'] = 'Aggiungi {no} condizioni sulle attività';
@@ -7,6 +7,7 @@ $string['addgrades'] = 'Aggiungi {no} condizioni sulle valutazioni';
 $string['availabilityconditions'] = 'Condizioni per l\'accesso';
 $string['availablefrom'] = 'Disponibile dal';
 $string['availableuntil'] = 'Disponibile fino al';
+$string['badavailabledates'] = 'Date non valide. Se impostate entrambe le date, la data \"Disponibile dal\" deve essere anteriore alla data \"Disponibile fino al\".';
 $string['completion_complete'] = 'deve risultare completata';
 $string['completion_fail'] = 'deve risultare completata senza la sufficienza';
 $string['completion_incomplete'] = 'non deve risultare completata';

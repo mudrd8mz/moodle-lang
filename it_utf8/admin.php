@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090116) (2009011400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -689,6 +689,7 @@ $string['riskspam'] = 'Gli utenti possono inviare spam agli utenti del sito o ad
 $string['riskspamshort'] = 'Spam';
 $string['riskxss'] = 'Gli utenti possono aggiungere files e testi che permettono il cross-site scripting (XSS)';
 $string['riskxssshort'] = 'XSS';
+$string['roleswithexceptions'] = '$a->roles, con $a->exceptions';
 $string['rowpreviewnum'] = 'Anteprima righe';
 $string['rssglobaldisabled'] = 'Disabilitato a livello server';
 $string['runclamavonupload'] = 'Usa clam AV sui files caricati';
@@ -704,6 +705,7 @@ $string['server'] = 'Server';
 $string['serverchecks'] = 'Controlli Server';
 $string['serverlimit'] = 'Limite server';
 $string['sessioncookie'] = 'Prefisso cookie';
+$string['sessioncookiedomain'] = 'Dominio cookie';
 $string['sessioncookiepath'] = 'Percorso cookie';
 $string['sessionhandling'] = 'Gestione sessione';
 $string['sessiontimeout'] = 'Tempo massimo';

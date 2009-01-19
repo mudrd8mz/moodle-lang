@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090116) (2009011400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1064,7 +1064,7 @@ $string['none'] = 'Nessuno';
 $string['noneditingteacher'] = 'Docente non editor';
 $string['noneditingteacherdescription'] = 'I docenti non editor possono insegnare nei corsi e valutare gli studenti, ma non possono modificare le attività.';
 $string['nonstandard'] = 'Non standard';
-$string['nopendingcourses'] = 'Non ci sono corsi che attendono approvazione';
+$string['nopendingcourses'] = 'Non ci sono corsi in attesa di approvazione';
 $string['nopotentialadmins'] = 'Non ci sono possibili amministratori';
 $string['nopotentialcreators'] = 'Non ci sono possibili creatori di corsi';
 $string['nopotentialstudents'] = 'Non ci sono possibili studenti';
@@ -1159,6 +1159,7 @@ $string['paymentrequired'] = 'Questo corso richiede un pagamento per l\'accesso.
 $string['payments'] = 'Pagamenti';
 $string['paymentsorry'] = 'Grazie per il pagamento! Sfortunatamente il pagamento non è stato completamente elaborato, e l\'iscrizione al corso \"$a->fullname\" non è stata completata. Per favore prova a cliccare su continua tra alcuni secondi, ma se incontri problemi allora avverti il $a->teacher o l\'amministratore del sito.';
 $string['paymentthanks'] = 'Grazie per il pagamento! Ora sei iscritto nel tuo corso:<br />\"$a\"';
+$string['pendingrequests'] = 'Corsi da approvare';
 $string['people'] = 'Persone';
 $string['periodending'] = 'Termine periodo ($a)';
 $string['personal'] = 'Personale';

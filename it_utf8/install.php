@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20090116) (2009011400)
+      // install.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
 
 
 $string['aborting'] = 'Interruzione della installazione';
 $string['admindirerror'] = 'La cartella Admin specificata non è corretta';
 $string['admindirname'] = 'Cartella Admin';
-$string['admindirsetting'] = 'Alcuni web host utilizzano la cartella /admin come URL di accesso a pannelli di controllo od altre funzioni particolari. Tuttavia, se il nome di questa cartella è /admin, allora coincide con il nome della cartella che Moodle utilizza per i propri file di amministrazione. Per evitare conflitti, è possibile specificare un nome alternativo per la cartella Admin di Moodle. Ad esempio:<p><b>moodleadmin</b></p>
+$string['admindirsetting'] = 'Alcuni web host utilizzano la cartella /admin come URL di accesso a pannelli di controllo od altre funzioni particolari. Tuttavia questo nome coincide con il nome della cartella che Moodle utilizza per i propri file di amministrazione. Per evitare conflitti, è possibile specificare un nome alternativo per la cartella Admin di Moodle. Ad esempio:<p><b>moodleadmin</b></p>
 Tutti i link che puntano ai file di amministrazione di Moodle terranno conto di questa variazione.';
 $string['admindirsettinghead'] = 'Impostazione della cartella Admin...';
-$string['admindirsettingsub'] = 'Alcuni web host utilizzano la cartella /admin come URL di accesso a pannelli di controllo od altre funzioni particolari. Tuttavia, se il nome di questa cartella è /admin, allora coincide con il nome della cartella che Moodle utilizza per i propri file di amministrazione. Per evitare conflitti, è possibile specificare un nome alternativo per la cartella Admin di Moodle. Ad esempio:<p><b>moodleadmin</b></p>
+$string['admindirsettingsub'] = 'Alcuni web host utilizzano la cartella /admin come URL di accesso a pannelli di controllo od altre funzioni particolari. Tuttavia questo nome coincide con il nome della cartella che Moodle utilizza per i propri file di amministrazione. Per evitare conflitti, è possibile specificare un nome alternativo per la cartella Admin di Moodle. Ad esempio:<p><b>moodleadmin</b></p>
 Tutti i link che puntano ai file di amministrazione di Moodle terranno conto di questa variazione.';
 $string['adminemail'] = 'Email:';
 $string['adminfirstname'] = 'Nome:';
