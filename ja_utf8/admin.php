@@ -681,7 +681,7 @@ $string['registration'] = '登録';
 $string['releasenoteslink'] = 'このバージョンのMoodleに関する詳細情報は、<a target=\"_blank\" href=\"$a\">オンラインリリースノート</a>をご覧ください。';
 $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないため、言語パックを自動的にインストールできません。適切なzipファイルを下記のリンクより手動でダウンロードして、$a ディレクトリにコピーおよびunzipしてください。';
 $string['renameerrors'] = 'リネームのエラー';
-$string['requiredentrieschanged'] = '<strong>重要 - お読みください<br/>(この警告メッセージは、このアップグレード中のみ表示されます。)</strong><br/>バグ修正のため、「必須エントリ数」および「閲覧前に必要な入力エントリ数」を使用しているデータベース活動の設定は変更されます。この変更に関する詳細は、<a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">データベースモジュールフォーラム</a>でご覧いただけます。また、これらの設定に関する詳細は、<a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">でご覧いただけます。<br/><br/>この変更は、あなたのシステムの以下のデータベースに影響があります: (このリストを保存して、アップグレード後、教師が意図するよう動作するか確認してください)<br/><strong style=\"color:red\">$a->text</strong><br/>';
+$string['requiredentrieschanged'] = '<strong>重要 - お読みください<br/>(この警告メッセージは、このアップグレード中のみ表示されます。)</strong><br/>バグ修正のため、「必須エントリ数」および「閲覧前に必要な入力エントリ数」を使用しているデータベース活動の設定は変更されます。この変更に関する詳細は、<a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">データベースモジュールフォーラム</a>でご覧いただけます。また、これらの設定に関する詳細は、<a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">でご覧いただけます。<br/><br/>この変更は、あなたのシステムの以下のデータベースに影響があります: (このリストを保存して、アップグレード後、教師が意図するよう動作するか確認してください)<br/><strong>$a->text</strong><br/>';
 $string['requiredtemplate'] = '必須です。あなたはここでテンプレート構文 (%%l = 姓、%%f = 名、%%u = ユーザ名) を使用することができます。詳細および例に関して、ヘルプをご覧ください。';
 $string['requires'] = '必要条件';
 $string['restrictbydefault'] = 'モジュールをデフォルトで制限する';

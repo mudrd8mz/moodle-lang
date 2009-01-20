@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // repository_boxnet.php - created with Moodle 2.0 dev (Build: 20080917) (2008091611)
+      // repository_boxnet.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
 
 
 $string['apikey'] = 'APIキー';
 $string['configplugin'] = 'Box.net設定';
-$string['information'] = '<div style=\"font-size:0.8em\">あなたのMoodleサイトに<a href=\"http://enabled.box.net/\">Box.net APIキー</a>を取得します。</div>';
+$string['information'] = 'あなたのMoodleサイトに<a href=\"http://enabled.box.net/\">Box.net APIキー</a>を取得します。';
 $string['invalidpassword'] = '無効なパスワードです。';
 $string['nullfilelist'] = 'このリポジトリにファイルはありません。';
 $string['password'] = 'あなたのパスワード';

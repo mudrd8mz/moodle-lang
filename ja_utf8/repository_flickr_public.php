@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20081128) (2008120100)
+      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
 
 
 $string['apikey'] = 'APIキー';
@@ -7,7 +7,7 @@ $string['callbackurl'] = 'コールバックURI';
 $string['configplugin'] = 'Flickrパブリック設定';
 $string['emailaddress'] = 'メールアドレス';
 $string['fulltext'] = 'フルテキスト';
-$string['information'] = '<div style=\"font-size:0.8em\">1. あなたのMoodleサイトに<a href=\"http://www.flickr.com/services/api/keys/\">Flickr APIキー</a>を取得します。';
+$string['information'] = 'あなたのMoodleサイトに<a href=\"http://www.flickr.com/services/api/keys/\">Flickr APIキー</a>を取得してください。';
 $string['invalidemail'] = '無効なFlickrメールアドレスです。';
 $string['notitle'] = 'タイトルなし';
 $string['nullphotolist'] = 'このアカウントに関連する写真はありません。';
