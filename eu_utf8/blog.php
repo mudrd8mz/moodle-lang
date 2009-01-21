@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // blog.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['addnewentry'] = 'Sarrera berria gehitu';
@@ -10,7 +10,7 @@ $string['blocktitle'] = 'Blog-etiketen bloke izenburua';
 $string['blog'] = 'Bloga';
 $string['blogdeleteconfirm'] = 'Blog hau ezabatu?';
 $string['blogdisable'] = 'Blogak desgaituta daude!';
-$string['blogpreferences'] = 'Blog aukerak';
+$string['blogpreferences'] = 'Blog-aukerak';
 $string['blogs'] = 'Blogak';
 $string['blogtags'] = 'Blogaren etiketak';
 $string['cannotviewcourseblog'] = 'Ez duzu baimenik ikastaro honetako blogak ikusteko';
@@ -23,6 +23,7 @@ $string['courseblogs'] = 'Erabiltzaileek beren ikastaro bereko pertsonen blogak 
 $string['deleteotagswarn'] = 'Ziur al zaude etiketa hau(ek) <br /> mezu guztietatik ezabatu nahi d(it)uzula eta sistematik kendu?';
 $string['deleteposterror'] = 'Errorea gertatu da mezuak ezabatzean';
 $string['disableblogs'] = 'Blog-sistema desgaitu';
+$string['donothaveblog'] = 'Zeuk ez duzu blogik, barkatu';
 $string['emptybody'] = 'Blog-sarreraren gorputza ezin da hutsik egon';
 $string['emptytitle'] = 'Blog-sarreraren izenburua ezin da hutsik egon';
 $string['entrybody'] = 'Blog-sarreraren gorputza';
@@ -39,6 +40,7 @@ $string['intro'] = 'RSS jario hau automatikoki sortu da blog batetik edo batzuet
 $string['noentriesyet'] = 'Sarrerak ez daude ikusgai hemen';
 $string['noguestpost'] = 'Gonbidatuek ezin dute sarrerarik egin';
 $string['norighttodeletetag'] = 'Zuk ez duzu etiketa hau ezabatzeko baimenik';
+$string['nosuchentry'] = 'Ez dago blog-sarrerarik';
 $string['notallowedtoedit'] = 'Zuk ez duzu sarrera hau editatzeko baimenik';
 $string['numberofentries'] = 'Sarrerak: $a';
 $string['numberoftags'] = 'Erakutsi beharreko etiketen kopurua';
