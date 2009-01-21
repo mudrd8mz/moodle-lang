@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // quiz_analysis.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
-$string['analysis'] = 'Itemen analisia';
+$string['analysis'] = 'Elementuen analisia';
 $string['analysisdownload'] = 'Analisia jaitsi';
 $string['analysisoptions'] = 'Analisi-aukerak';
-$string['analysistitle'] = 'Itemen analisi-taula';
+$string['analysisreport'] = 'Elementuen analisiaren txostena';
+$string['analysistitle'] = 'Elementuen analisi-taula';
 $string['attemptsall'] = 'saiakera guztiak';
 $string['attemptselection'] = 'Erabiltzaileak aztertu beharreko saiakerak';
 $string['attemptsfirst'] = 'Lehenbiziko saiakera';
@@ -17,7 +18,7 @@ $string['downloadhtml'] = 'Taula osoa HTML formatuan jaitsi';
 $string['downloadooo'] = 'OpenOffice formatuan deskargatu';
 $string['facilitytitle'] = '<br/> %% zuzena. Erraz.';
 $string['lowmarkslimit'] = 'Ez aztertu puntuazioa hau baino txikiagoa bada:';
-$string['pagesize'] = 'Galderak  orrialdeko';
+$string['pagesize'] = 'Galderak orriko';
 $string['qcounttitle'] = 'Pr. Zkia.';
 $string['qidtitle'] = 'Q#';
 $string['qnametitle'] = 'Galderaren izena';
@@ -25,7 +26,7 @@ $string['qtexttitle'] = 'Galderaren testua';
 $string['qtypetitle'] = 'Galdera-mota';
 $string['quizreportdir'] = 'Galdetegiaren txostenak';
 $string['rcounttitle'] = 'R. <br/>Zkia.';
-$string['reportanalysis'] = 'Itemen analisiaren txostena';
+$string['reportanalysis'] = 'Elementuen Analisiaren Txostena';
 $string['responsestitle'] = 'Erantzunaren testua';
 $string['rfractiontitle'] = '<br/>tarteko kreditua';
 $string['rpercenttitle'] = '%%R.';
