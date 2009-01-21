@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090121) (2009011900)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -152,6 +152,7 @@ $string['backupexecuteathelp'] = '자동백업 시작시각 선택';
 $string['backupfailed'] = '강좌 중 일부가 저장되지 않았습니다!';
 $string['backupfilename'] = 'backup';
 $string['backupfinished'] = '성공적으로 백업 완료';
+$string['backupfromthissite'] = '이 사이트에 대해 백업을 했습니까?';
 $string['backupgradebookhistoryhelp'] = '이를 활성화하면 성적 누가기록이 자동 백업에 포함될 것입니다. 단, 이 기능을 원할하게 작동시키기 위해서는 시스템 설정에서 성적 누가기록을 비활성(disablegradehistory)시키지 말아야 합니다.';
 $string['backupincludemoduleshelp'] = '자동 백업에 강좌 모듈, 이용자 데이터 등을 포함시킬지 여부 선택';
 $string['backupincludemoduleuserdatahelp'] = '자동 백업에 모듈의 이용자 데이터를 포함시킬지 여부 선택';
