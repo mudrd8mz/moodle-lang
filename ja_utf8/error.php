@@ -188,6 +188,9 @@ $string['dbconnectionfailed'] = '<p>エラー: データベースの接続に失
 <p>サイト管理者は、config.phpでデータベース詳細が正しく設定されているか確認してください。</p><p>$a</p>';
 $string['dbdriverproblem'] = '<p>エラー: データベースドライバに問題が見つかりました。</p>
 <p>サイト管理者は、サーバ設定を確認してください。</p><p>$a</p>';
+$string['dbsessionbroken'] = '深刻なデータベースセッション問題が見つかりました。<br /><br />サイト管理者にご連絡ください。';
+$string['dbsessionhandlerproblem'] = 'データベースセッションのセットアップに失敗しました。<br /><br />サイト管理者にご連絡ください。';
+$string['dbsessionmysqlpacketsize'] = '深刻なデータベースセッション問題が見つかりました。<br /><br />サイト管理者にご連絡ください。多くの場合、この問題は、MySQL設定「max_allowed_packet」の設定値が小さいことで発生します。';
 $string['dbupdatefailed'] = 'データベースの更新が失敗しました。';
 $string['ddlexecuteerror'] = 'DDL sql実行エラーが発生しました。';
 $string['ddlfieldalreadyexists'] = 'フィールド「 $a 」がありません。';
@@ -432,6 +435,7 @@ $string['unknowngroup'] = '不明なグループ「 $a 」です。';
 $string['unknownhelp'] = '不明なヘルプトピック「 $a 」です。';
 $string['unknownmodulename'] = 'フォームに対する不明なモジュール名です。';
 $string['unknownrole'] = '不明なロール「 $a 」です。';
+$string['unknownsortcolumn'] = '不明なソートカラム「 $a 」です。';
 $string['unknownuseraction'] = '申し訳ございません、このユーザアクションが理解できません。';
 $string['unknownuserselector'] = '不明なユーザセレクタです。';
 $string['unknoworder'] = '不明な順序付けです。';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20090115) (2009011400)
+      // tag.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
 
 
 $string['addedotag'] = '「 $a 」がオフィシャルタグとして追加されました。';
@@ -14,6 +14,7 @@ $string['deleted'] = '削除';
 $string['deletedcoursetags'] = 'コースタグが削除されました。';
 $string['description'] = '説明';
 $string['edittag'] = 'このタグを編集する';
+$string['entertags'] = 'タグをカンマで区切って入力してください。';
 $string['errordeleting'] = 'ID $a のタグを削除中にエラーが発生しました。あなたのシステム管理者に報告してください。';
 $string['errortagfrontpage'] = 'サイトメインページへのタグ付けは許可されていません。';
 $string['errorupdatingrecord'] = 'タグレコードの更新中にエラーが発生しました。';

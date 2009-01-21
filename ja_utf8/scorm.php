@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
 
 
 $string['activation'] = 'アクティベーション';
@@ -159,6 +159,7 @@ $string['review'] = 'レビュー';
 $string['reviewmode'] = 'レビューモード';
 $string['scoes'] = '学習オブジェクト';
 $string['score'] = '評点';
+$string['scorm:deleteresponses'] = 'SCORM受験を削除する';
 $string['scorm:savetrack'] = 'トラックを保存する';
 $string['scorm:skipview'] = '概要をスキップする';
 $string['scorm:viewreport'] = 'レポートを表示する';
