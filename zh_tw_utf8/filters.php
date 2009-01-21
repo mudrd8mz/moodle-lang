@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20080806) (2008080600)
+      // filters.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['actfilterhdr'] = '使用中的篩選條件';
@@ -15,7 +15,7 @@ $string['courserole'] = '課程角色';
 $string['courserolelabel'] = '課程類別：$a->categoryname 課程名稱：$a->coursename 角色名：$a->rolename 名字：$a->label';
 $string['courserolelabelerror'] = '$a->label 錯誤，課程：$a->coursename 不存在';
 $string['datelabelisafter'] = '{$a->label} 晚於 {$a->after}';
-$string['datelabelisbefore'] = '{$a->label} 早於 {$a->before}';
+$string['datelabelisbefore'] = '{$a->label} 早於 {$a->after}';
 $string['datelabelisbetween'] = '{$a->label} 在 {$a->after} 與 {$a->before} 之間';
 $string['doesnotcontain'] = '不包含';
 $string['endswith'] = '結尾是';

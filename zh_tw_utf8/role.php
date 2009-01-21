@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // role.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['addrole'] = '增加一個新角色';
 $string['allow'] = '允許';
 $string['allowassign'] = '允許指派角色';
 $string['allowoverride'] = '允許覆蓋角色';
+$string['allsiteusers'] = '網站全部用戶';
 $string['assignglobalroles'] = '指派全網站角色';
 $string['assignroles'] = '指派角色';
 $string['assignrolesin'] = '指派在{$a}的角色';
@@ -176,6 +177,7 @@ $string['user:viewhiddendetails'] = '檢視使用者隱藏的資料';
 $string['user:viewuseractivitiesreport'] = '檢視使用者活動報告';
 $string['user:viewusergrades'] = '檢視使用者成績';
 $string['userhashiddenassignments'] = '課程中，這用戶有一個或以上的隱藏角色的指派';
+$string['userswithrole'] = '所有用戶加以一個角色';
 $string['viewrole'] = '檢視角色詳細資訊';
 $string['xuserswiththerole'] = '具有\"{$a->role}\"角色權限的人數：{$a->number}';
 $string['question:export'] = '匯出題目'; // ORPHANED

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20080806) (2008080600)
+      // moodle.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['abouttobeinstalled'] = '即將安裝';
@@ -591,7 +591,7 @@ $string['explanation'] = '說明';
 $string['extendenrol'] = '延長修課期限';
 $string['extendperiod'] = '延長修課期限';
 $string['failedloginattempts'] = '自從您上次登入後，$a->attempts登入失敗';
-$string['failedloginattemptsall'] = '{$a->accounts}帳號{$a->attempts}登入失敗';
+$string['failedloginattemptsall'] = '{$a->account}帳號{$a->attempts}登入失敗';
 $string['feedback'] = '回饋';
 $string['file'] = '檔案';
 $string['filemissing'] = '缺少了 {$a}';
@@ -928,6 +928,7 @@ $string['moreinformation'] = '關於這個錯誤的詳細資料';
 $string['moreprofileinfoneeded'] = '請告訴我們更多關於您自己的資料';
 $string['mostrecently'] = '最近';
 $string['move'] = '搬移';
+$string['movecategorycontentto'] = '搬入';
 $string['movecategoryto'] = '搬移類別到：';
 $string['movecourseto'] = '搬移課程到：';
 $string['movedown'] = '往下移';
@@ -1035,6 +1036,7 @@ $string['noresults'] = '沒有結果';
 $string['normal'] = '標準的';
 $string['normalfilter'] = '標準搜尋';
 $string['nosite'] = '找不到網站層級的課程';
+$string['nostatstodisplay'] = '抱歉，沒有資料可以顯示。';
 $string['nostudentsfound'] = '$a 未被找到';
 $string['nostudentsingroup'] = '在這個組中尚未有學生';
 $string['nostudentsyet'] = '本課程還沒有學生登入';
@@ -1216,6 +1218,7 @@ $string['returningtosite'] = '返回這個網站嗎？';
 $string['revert'] = '重設';
 $string['role'] = '角色';
 $string['rolemappings'] = '角色對應';
+$string['rolerenaming'] = '角色更名';
 $string['roles'] = '角色';
 $string['rss'] = 'RSS';
 $string['rssarticles'] = 'RSS連結文章數設定';
@@ -1521,7 +1524,7 @@ $string['view'] = '檢視';
 $string['views'] = '檢視';
 $string['viewsolution'] = '看解答';
 $string['virusfound'] = '管理員請注意!Clam AV發現$a->course課程的$a->user使用者上傳的檔案有病毒。以下是clamscan的報告:';
-$string['virusfoundlater'] = '您在$a->course課程，於$a->date所上傳的$a->filename發現含有病毒。這裡是對您檔案所做的處理動作:
+$string['virusfoundlater'] = '您在$a->課程，於$a->date所上傳的$a->filename發現含有病毒。這裡是對您檔案所做的處理動作:
 $a->action
 
 如果這是繳交的作業，您可重新繳交，
@@ -1565,7 +1568,8 @@ $string['wordforteacher'] = '教師的稱謂';
 $string['wordforteachereg'] = '例如 老師, 助教等';
 $string['wordforteachers'] = '教師們的稱謂';
 $string['wordforteacherseg'] = '例如 老師們, 助教們等';
-$string['writingcategoriesandquestions'] = '寫入類別和問題資訊';
+$string['writingblogsinfo'] = '寫入部落格資訊';
+$string['writingcategoriesandquestions'] = '寫入類別和試題資訊';
 $string['writingcoursedata'] = '寫入課程資料';
 $string['writingeventsinfo'] = '寫入事件資訊';
 $string['writinggeneralinfo'] = '寫入一般資訊';
@@ -1592,7 +1596,6 @@ $string['yourlastlogin'] = '您最後登入的時間';
 $string['yourself'] = '您自己';
 $string['yourteacher'] = '您的教師 $a';
 $string['zippingbackup'] = '壓縮備份資料中';
-$string['nostatstodisplay'] = '抱歉，沒有資料可以顯示。'; // ORPHANED
 $string['skiptomaincontent'] = '跳到主要內容'; // ORPHANED
 
 ?>

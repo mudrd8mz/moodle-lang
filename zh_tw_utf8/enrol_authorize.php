@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080806) (2008080600)
+      // enrol_authorize.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
 
 
 $string['adminacceptccs'] = '接受哪些信用卡?';
@@ -113,6 +113,7 @@ $string['missingzip'] = '缺少郵遞區號';
 $string['mypaymentsonly'] = '只顯示我的付款';
 $string['nameoncard'] = '信用卡所屬人姓名';
 $string['new'] = '新的';
+$string['noreturns'] = '沒有返回訊息！';
 $string['notsettled'] = '未結帳';
 $string['orderid'] = '訂單編號';
 $string['paymentmanagement'] = '付款管理';
@@ -121,11 +122,12 @@ $string['paymentpending'] = '您在這個課程的付款等待中，訂單編號
 $string['pendingecheckemail'] = '親愛的管理員， 現在有{$a->count} 張等待中的數位支票（echecks），您需要上傳一個 csv 檔案來加選使用者。 點選連結後閱讀頁面上的說明檔案： {$a->url}';
 $string['pendingordersemail'] = '親愛的管理員， 您需要在{$a->days}天內接受支付否則{$a->pending}交易將過期 這是一個警告資訊，因為您沒能預定獲取。這意味著您需要手動的接受或者拒絕。 接受/拒絕制服在{$a->url} 在{$a->enrolurl}開啟預定獲取，這意味著您將不會再收到警告郵件';
 $string['pendingordersemailteacher'] = '親愛的老師， $a->pending 交易花費$a->currency $a->sumcost 課程的 \"$a->course\" 將期滿除非您可以在$a->days天內支付。';
-$string['pendingorderssubject'] = '警告：$a->course, $a->pending 定制將在$a->days天內期滿。';
+$string['pendingorderssubject'] = '$a->url 警告：$a->course, $a->pending 定制將在$a->days天內期滿。';
 $string['reason11'] = '一個交易副本已經送交出去';
 $string['reason13'] = '可能商業登入ID無效或是帳號未啟用';
 $string['reason16'] = '找不到這個交易。';
 $string['reason17'] = '不接受這類型的信用卡';
+$string['reason245'] = '當使用付款閘道管理付款形式時，此數位支票(eCheck)不能接受。';
 $string['reason246'] = '不接受這個類型的 eCheck。';
 $string['reason27'] = '交易結果出現AVS錯誤。提供的地址與持卡人的地址不能吻合。';
 $string['reason28'] = '不接受這種類型的信用卡';

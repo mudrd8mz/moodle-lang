@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // blog.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['addnewentry'] = '新增文章';
@@ -34,6 +34,7 @@ $string['notallowedtoedit'] = '您沒有編輯這篇文章的權限';
 $string['numberofentries'] = '文章數量： $a';
 $string['numberoftags'] = '要顯示的標籤數量';
 $string['pagesize'] = '每頁顯示部落格文章數量';
+$string['permalink'] = '永久連結';
 $string['personalblogs'] = '使用者只能夠檢視自己的部落格';
 $string['publishto'] = '發佈到';
 $string['publishtonoone'] = '您自己（草稿）';

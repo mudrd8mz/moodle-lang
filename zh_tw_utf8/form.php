@@ -7,7 +7,7 @@ $string['advancedelement'] = '進階要項';
 $string['day'] = '日';
 $string['display'] = '顯示';
 $string['err_alphanumeric'] = '在此只可以輸入字母或數字。';
-$string['err_email'] = '必須在此輸入合法的email地址。';
+$string['err_email'] = '您必須鍵入一個有效的email地址。';
 $string['err_lettersonly'] = '在此只可以輸入字母。';
 $string['err_maxlength'] = '在此不可以輸入長度大於{$a->format}的字元。';
 $string['err_minlength'] = '在此至少要填入{$a->format}個字元。';
@@ -34,7 +34,7 @@ $string['selectallornone'] = '選擇全部/或不選';
 $string['showadvanced'] = '顯示進階設定';
 $string['somefieldsrequired'] = '表單中有($a)標記的欄位是一定要選填輸入的.';
 $string['timing'] = '定時';
-$string['unmaskpassword'] = '顯示';
+$string['unmaskpassword'] = '顯示密碼';
 $string['year'] = '年';
 
 ?>

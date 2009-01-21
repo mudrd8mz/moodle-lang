@@ -1,19 +1,20 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // assignment.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
-$string['allowdeleting'] = '允許刪除';
-$string['allowmaxfiles'] = '上傳檔案的最大數量';
-$string['allownotes'] = '允許加註釋';
-$string['allowresubmit'] = '允許重新繳交';
-$string['alreadygraded'] = '您的作業已經評分完畢,不允許再繳交!';
+$string['allowdeleting'] = '是否允許學生刪除作業';
+$string['allowmaxfiles'] = '允許上傳檔案的最大數目';
+$string['allownotes'] = '是否允許加註釋';
+$string['allowresubmit'] = '是否允許重新繳交';
+$string['alreadygraded'] = '您的作業已經評分完畢，不允許重新繳交！';
 $string['assignment:grade'] = '作業評分';
 $string['assignment:submit'] = '繳交作業';
 $string['assignment:view'] = '檢視作業';
 $string['assignmentdetails'] = '作業詳細說明';
-$string['assignmentmail'] = '$a->teacher 對您的作業 $a->assignment 給了意見回饋。
-您可以在作業：$a->url 後面看到它。';
-$string['assignmentmailhtml'] = '$a->teacher 對您的作業 \'<i>$a->assignment</i>\' 給了意見回饋。<br /><br />　您可以在　<a href=\"$a->url\">您的作業</a>　後面看到這些回饋。';
+$string['assignmentmail'] = '{$a->teacher} 老師對您的作業 {$a->assignment} 給了意見回饋。
+您可以在作業後面看到它。網址如下： 
+$a->url';
+$string['assignmentmailhtml'] = '{$a->teacher}老師對您的作業 \'<i>$a->assignment</i>\' 給了意見回饋。<br /><br />　您可以在　<a href=\"$a->url\">您的作業</a>　後面看到這些回饋。';
 $string['assignmentname'] = '作業名稱';
 $string['assignmenttype'] = '作業類型';
 $string['availabledate'] = '開始日期';
@@ -33,12 +34,11 @@ $string['duedateno'] = '未過期';
 $string['early'] = '$a 之前';
 $string['editmysubmission'] = '修改繳交的作業';
 $string['emailstudents'] = '用電子郵件提醒學生';
-$string['emailteachermail'] = '$a->username已經更新他們繳交的\'$a->assignment\'作業
+$string['emailteachermail'] = '{$a->username}已經更新他繳交的\'{$a->assignment}\'作業
 
-可以在這裡看到:
+可以在點按下列網址查閱：
 $a->url';
-$string['emailteachermailhtml'] = '$a->username已經更新他們繳交的<i>\'$a->assignment\'</i>作業
-它可在網站的<a href=\"$a->url\">此處</a>看到:';
+$string['emailteachermailhtml'] = '{$a->username}已經更新<i>\'{$a->assignment}\'</i>作業。新的內容可以 <a href=\"$a->url\">點按此處</a> 查閱。';
 $string['emailteachers'] = '電子郵件通知教師';
 $string['emptysubmission'] = '您尚未繳交任何作業';
 $string['enableemailnotification'] = '寄發通知郵件';
@@ -59,7 +59,7 @@ $string['helpupload'] = '<p>這種類型的作業允許每個參與者上傳任�
 $string['helpuploadsingle'] = '<p>這個作業型態允許每個參與者上傳任何檔案類型的單一檔案。</p> <p>也許是一份Word文書處理文件，或者一張圖，一個壓縮成的網站，或您要求他們繳交的任何資料。</p>';
 $string['hideintro'] = '在開始日期前隱藏作業說明';
 $string['itemstocount'] = '計算';
-$string['late'] = '$a 之後';
+$string['late'] = '{$a}之後';
 $string['maximumgrade'] = '最高得分';
 $string['maximumsize'] = '檔案大小限制';
 $string['modulename'] = '作業';
@@ -104,17 +104,17 @@ $string['typeonline'] = '線上文字';
 $string['typeupload'] = '進階檔案上傳';
 $string['typeuploadsingle'] = '上傳一個檔案';
 $string['unfinalize'] = '還原為草稿';
-$string['unfinalizeerror'] = '發生錯誤，此作業無法回復為草稿';
+$string['unfinalizeerror'] = '發生錯誤！此作業無法回復為草稿';
 $string['uploadbadname'] = '檔案名稱包含奇怪的字元，無法上傳';
 $string['uploadedfiles'] = '已上傳的檔案';
 $string['uploaderror'] = '在伺服器儲存檔案時發生錯誤';
 $string['uploadfailnoupdate'] = '檔案上傳成功，但是無法更新作業繳交資料！';
-$string['uploadfiletoobig'] = '抱歉，檔案太大（不能超過 $a 位元組）';
+$string['uploadfiletoobig'] = '抱歉，檔案太大（不能超過 {$a} 位元組）';
 $string['uploadnofilefound'] = '沒有發現任何檔案―您能確定已選取了一個檔案來上傳嗎?';
-$string['uploadnotregistered'] = '$a 上傳成功，但是尚未登記！';
-$string['uploadsuccess'] = '上傳 $a 成功';
+$string['uploadnotregistered'] = '{$a} 上傳成功，但是尚未登記！';
+$string['uploadsuccess'] = '上傳 {$a} 成功';
 $string['viewfeedback'] = '檢視作業成績和回饋';
-$string['viewsubmissions'] = '檢視 $a 份已繳交的作業';
+$string['viewsubmissions'] = '檢視 {$a} 份已繳交的作業';
 $string['yoursubmission'] = '個人已繳交的作業';
 $string['allowmultiple'] = '允許多個檔案'; // ORPHANED
 $string['attachfile'] = '附加檔案'; // ORPHANED
