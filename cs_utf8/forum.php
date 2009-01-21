@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // forum.php - created with Moodle 1.9.3+ (Build: 20090121) (2007101533.02)
 
 
 $string['addanewdiscussion'] = 'Přidat nové téma diskuse';
@@ -13,6 +13,7 @@ $string['aggregatemin'] = 'Nejnižší hodnocení';
 $string['aggregatenone'] = 'Bez hodnocení';
 $string['aggregatesum'] = 'Součet hodnocení';
 $string['aggregatetype'] = 'Typ souhrnného hodnocení';
+$string['ajaxrating'] = 'Povolit hodnocení pomocí AJAX';
 $string['allforums'] = 'Všechna fóra';
 $string['allowchoice'] = 'Umožnit každému vlastní volbu';
 $string['allowdiscussions'] = 'Může $a přispívat do tohoto fóra?';
@@ -31,6 +32,7 @@ $string['cannotadddiscussion'] = 'Abyste mohli přidávat diskuse do tohoto fór
 $string['cannotadddiscussionall'] = 'Nemáte oprávnění vkládat téma diskuse pro všechny účastníky.';
 $string['cannotviewpostyet'] = 'Nemůžete si prohlédnout otázky jiných studentů, protože jste ještě nevložili svůj příspěvek.';
 $string['cleanreadtime'] = 'Hodina označování přečtených příspěvků';
+$string['configajaxrating'] = 'Pokud povolíte hodnocení příspěvků pomocí AJAX, mohou uživatelé hodnotit příspěvky okamžitě bez nutnosti rolovat oknem, odesílat hodnocení pomocí tlačítka \"Uložit má poslední hodnocení\" a znovu načítat celou stránku. Tato funkce vyžaduje, aby byl na serveru povolen AJAX a aby jej měli ve svých profilech povolen i uživatelé, kteří chtějí tento způsob využít.';
 $string['configcleanreadtime'] = 'V kterou denní hodinu se mají staré příspěvky označit jako přečtené, tj. v kolik hodin se má čistit tabulka \'read\' od starých příspěvků';
 $string['configdisplaymode'] = 'Výchozí způsob zobrazování diskuse, není-li uživateli nastaveno jinak.';
 $string['configenablerssfeeds'] = 'Povolit funkci RSS kanálů pro všechna diskusní fóra. Budete ještě muset zapnout RSS kanály v nastavení jednotlivých fór.';
