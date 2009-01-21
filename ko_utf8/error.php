@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090117) (2009011600)
+      // error.php - created with Moodle 2.0 dev (Build: 20090121) (2009011900)
 
 
 $string['TODO'] = '실행목록';
-$string['adminprimarynoedit'] = '주 관리자는 타인에 의해 수정될 수 없음';
+$string['adminprimarynoedit'] = '수석 관리자는 타인이 수정할 수 없음';
 $string['authorizeerror'] = '인증 오류';
-$string['backupcontainexternal'] = '백업 파일에 제대로 설정되지 않은 외부 무들네트웍 호스트가 포함되어 있음';
+$string['backupcontainexternal'] = '백업 파일에 이곳에 맞게 설정되지 않은 외부 무들네트웍 호스트가 포함되어 있음';
 $string['backuptablefail'] = '백업 테이블을 제대로 설정할 수 없습니다!';
 $string['blockcannotconfig'] = '이 블록은 전역 설정을 지원하지 않음';
 $string['blockcannotinistantiate'] = '블록 객체의 초기화 문제';
@@ -21,16 +21,16 @@ $string['cannotaddnewinstance'] = '$a 의 새 인스턴스를 추가할 수 없�
 $string['cannotaddnewmodule'] = '$a 의 새 모듈을 추가할 수 없음';
 $string['cannotaddrss'] = 'rss 송출을 추가할 수 있는 권한이 없음';
 $string['cannotassignanthing'] = 'site:doanything 권한을 부여할 수 없음';
-$string['cannotassignrole'] = '강좌의 역할을 지명할 수 없음';
-$string['cannotassignrolehere'] = '이 영역 ($a->context) 에서 본 역할 (id = $a->roleid) 을 부여받을 수 없음';
+$string['cannotassignrole'] = '강좌에서 역할을 부여할 수 없음';
+$string['cannotassignrolehere'] = '이 영역 ($a->context) 에서 역할 (id = $a->roleid) 을 부여받을 수 없음';
 $string['cannotassignselfasparent'] = '자신을 더 상위로 지명할 수 없음!';
 $string['cannotcallscript'] = '그런 방법으로는 이 스크립트를 호출할 수 없음';
 $string['cannotcallusgetselecteduser'] = '복수 선택이 True 값이라면 user_selector::get_selected_user 를 호출할 수 없음';
 $string['cannotcreatebackupdir'] = '백업 경로를 생성할 수 없음. 사이트 관리자가 파일 권한을 조정할 필요가 있음';
-$string['cannotcreatecategory'] = '범주 삽입되지 않음';
-$string['cannotcreatedefaultcat'] = '컨텍스트 $a 기본 범주 생성중 오류';
+$string['cannotcreatecategory'] = '범주가 삽입되지 못함';
+$string['cannotcreatedefaultcat'] = '영역 $a 의 기본 범주 생성중 오류';
 $string['cannotcreatefield'] = '새 필드 생성중 오류';
-$string['cannotcreategroup'] = '모듬 생성중 오류';
+$string['cannotcreategroup'] = '모둠 생성중 오류';
 $string['cannotcreatelangbase'] = '오류: 기본 언어팩 경로 생성 실패';
 $string['cannotcreatelangdir'] = '언어팩 경로를 생성할 수 없음';
 $string['cannotcreateorfindstructs'] = '강좌의 하부 얼개를 만들거나 찾는데 오류 발생';
@@ -190,6 +190,7 @@ $string['dbdriverproblem'] = '<p>오류: 데이터베이스의 드라이버 문�
 <p>사이트 관리자가 서버의 설정을 검토해야 합니다.</p><p>$a</p>';
 $string['dbsessionbroken'] = '심각한 데이터베이스 세션 문제 발견<br /><br />서버 관리자에게 알려주기 바람';
 $string['dbsessionhandlerproblem'] = '데이터베이스 세션 설정 실패<br /><br />서버 관리자에게 알려주기 바람';
+$string['dbsessionmysqlpacketsize'] = '심각한 세션 오류 발견<br /><br />본 문제는 MySQL의 max_allowed_packet 값을 너무 작게 주어서 생겼을 것임. 서버 관리자에게 알려주기 바람';
 $string['dbupdatefailed'] = '데이터베이스 갱신 실패';
 $string['ddlexecuteerror'] = 'DDL 쿼리 실행 오류';
 $string['ddlfieldalreadyexists'] = '\"$a\" 필드가 없음';
