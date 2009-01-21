@@ -150,6 +150,7 @@ $string['backupexecuteathelp'] = 'Zvoľte si čas spustenia automatizovaných z�
 $string['backupfailed'] = 'Niektoré z Vašich kurzov neboli uložené!';
 $string['backupfilename'] = 'záloha';
 $string['backupfinished'] = 'Záloha prebehla úspešne';
+$string['backupfromthissite'] = 'Bola záloha vytvorená v tomto portáli?';
 $string['backupgradebookhistoryhelp'] = 'Ak je povolené, bude zaznamenávaná história úprav výkazu známok v automatizovaných zálohách. Poznámka: pre správnu funkcionalitu nesmie byť na serveri zakázaná história známok (disablegradehistory).';
 $string['backupincludemoduleshelp'] = 'Vyberte, či chcete zahrnúť moduly kurzov, s alebo bez údajov používateľa, v automatických zálohách';
 $string['backupincludemoduleuserdatahelp'] = 'Vyberte si, či chcete zahrnúť údaje používateľov v automatizovaných zálohovaniach';

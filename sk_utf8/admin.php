@@ -227,6 +227,8 @@ $string['configsessiontimeout'] = 'Ak sú ľudia pripojení na túto stránku dl
 $string['configshowblocksonmodpages'] = 'Niektoré moduly aktivít podporujú možnosť zobrazovania blokov na Vašich stránkach. Pokiaľ túto voľbu zapnete, môžu učitelia pridávať nové bloky na okraj svojich stránok, inak rozhranie nebude zobrazovať túto možnosť.';
 $string['configshowsiteparticipantslist'] = 'Všetci títo používatelia stránky a učitelia budú v zozname účastníkov stránky. Komu by malo byť povolené prezeranie tohto zoznamu?';
 $string['configsitemailcharset'] = 'Východzia znaková sada pre e-maily generované vašimi stránkami. Ak povolíte nasledujúcu možnosť, každý užívateľ si môže túto znakovú sadu zmeniť.';
+$string['configsitemaxcategorydepth'] = 'Maximálna hĺbka kategórií';
+$string['configsitemaxcategorydepthhelp'] = 'Určenie maximálnej zobraziteľnej hĺbky podriadených kategórií';
 $string['configsitepolicy'] = 'Ak máte definované pravidlá, ktoré všetci používatelia musia vidieť a s nimi súhlasiť pred používaním tejto stránky, potom sem vložte danú URL adresu; v opačnom prípade túto voľbu nevypĺňajte. URL adresa môže byť nastavená v ktoromkoľvek mieste - jedno z najvhodnejších miest by bol súbor v súboroch stránky, napr. http://yoursite/file.php/1/policy.html';
 $string['configslasharguments'] = 'Súbory (obrázky atď.) sú prenášané prostredníctvom skriptu používajúceho značku \'lomítko\' (druhá možnosť vo výbere). Táto metóda umožňuje, aby boli súbory ľahšie zachytené na webových prehliadačoch, proxy serveroch atď. Bohužiaľ, niektoré PHP servery  túto metódu nepodporujú. Ak máte problémy pri zobrazovaní stiahnutých súborov alebo obrázkov (napr. obrázky používateľa), nastavte tu prvú možnosť vo výbere.';
 $string['configsmartpix'] = 'Ak je zapnuté, vyhľadávajú sa ikony pomocou PHP skriptu najprv v danej téme, potom vo všetkých nadradených témach a nakoniec v adresári /pix. Tým odpadá nutnosť kópií obrázkov vo všetkých témach, ale mierne sa zvyšuje záťaž.';
@@ -675,8 +677,6 @@ $string['sitemaintenancemode'] = 'Režim údržby';
 $string['sitemaintenanceoff'] = 'Režim údržby bol deaktivovaný a táto stránka bude ďalej bežať normálne';
 $string['sitemaintenanceon'] = 'Vaša stránka je momentálne v režime údržby (prihlásiť sa a používať stránku môžu iba administrátori).';
 $string['sitemaintenancewarning'] = 'Vaša stránka je momentálne v režime údržby (prihlásiť sa a používať stránku môžu iba administrátori). Pre návrat k normálnej prevádzke stránky <a href=\"maintenance.php\">deaktivujte režim údržby</a>.';
-$string['sitemaxcategorydepth'] = 'Maximálna hĺbka kategórií';
-$string['sitemaxcategorydepthhelp'] = 'Určenie maximálnej zobraziteľnej hĺbky podriadených kategórií';
 $string['sitepolicies'] = 'Pravidlá prevádzky stránok';
 $string['sitepolicy'] = 'URL k pravidlám prevádzky stránok';
 $string['sitesectionhelp'] = 'Ak je vybrané, zobrazuje sa na hlavnej stránke portálu tématická sekcia.';

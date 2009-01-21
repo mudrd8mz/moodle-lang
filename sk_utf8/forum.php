@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // forum.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['addanewdiscussion'] = 'Pridať novú diskusnú tému';
@@ -13,6 +13,7 @@ $string['aggregatemin'] = 'Minimálne hodnotenie';
 $string['aggregatenone'] = 'Žiadne hodnotenia';
 $string['aggregatesum'] = 'Súčet hodnotení';
 $string['aggregatetype'] = 'Výpočtový typ';
+$string['ajaxrating'] = 'Povoliť AJAX hodnotenie';
 $string['allforums'] = 'Všetky fóra';
 $string['allowchoice'] = 'Povoliť výber všetkým';
 $string['allowdiscussions'] = 'Môže $a prispievať do tohto fóra?';
@@ -31,6 +32,7 @@ $string['cannotadddiscussion'] = 'Aby ste mohli pridávať diskusie do tohto fó
 $string['cannotadddiscussionall'] = 'Nemáte oprávnenia pridať novú tému diskusie pre všetkých účastníkov.';
 $string['cannotviewpostyet'] = 'Nemôžete si prezrieť otázky iných študentov, pretože ste ešte nevložili svoj príspevok.';
 $string['cleanreadtime'] = 'Čas kedy označiť staré príspevky ako prečítané.';
+$string['configajaxrating'] = 'Hodnotenie AJAX predstavuje zlepšenie použiteľnosti diskusných fór. Ak je povolené, používatelia môžu hodnotiť príspevky skoro okamžite bez nutnosti sa posunúť na koniec stránky a kliknúť na tlačidlo \'Odoslať moje hodnotenie\'. Toto nastavenie vyžaduje zapnutie technológie AJAX na portáli a v používateľských profiloch.';
 $string['configcleanreadtime'] = 'Hodina, kedy sa budú staré príspevky odstraňovať z tabuľky prečítaných príspevkov.';
 $string['configdisplaymode'] = 'Predvolený režim zobrazenia diskusie, ak nebol nastavený inak.';
 $string['configenablerssfeeds'] = 'Týmto povolíte funkciu RSS kanálov pre všetky diskusné fóra. Budete ešte musieť zapnúť RSS kanály v nastaveniach jednotlivých fór.';
