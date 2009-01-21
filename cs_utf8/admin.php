@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20090115) (2007101533.01)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20090121) (2007101533.02)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -68,7 +68,7 @@ $string['configallowuserblockhiding'] = 'Povolit uživatelům zasouvání/vysouv
 $string['configallowusermailcharset'] = 'Povolit všem uživatelům nastavení vlastní znakové sady pro e-maily.';
 $string['configallowuserthemes'] = 'Umožnit uživatelům vlastní výběr motivu stránek. Uživatelské nastavaní má přednost před globálním motivem, nikoliv však před nastavením kurzu.';
 $string['configallusersaresitestudents'] = 'Považovat pro činnosti na hlavní stránce VŠECHNY uživatele za studenty? Pokud ANO, bude se moci činností na hlavní stránce účastnit jako student každý uživatel přihlášený k potvrzenému uživatelskému účtu. Pokud NE, budou mít tuto možnost pouze uživatelé zapsaní alespoň v jednom kurzu. Pouze administrátoři a zvlášť určení učitelé mohou na hlavní stránce vystupovat v roli učitele.';
-$string['configauthenticationplugins'] = 'Zvolte způsoby ověřování uživatelů a pořadí, v jakém budou použity. Pokud se uživatelé registrují sami, bude použit způsob uvedený v poli \"Registrace uživatelů\" níže (většinou se používá ověření na základě emailu).';
+$string['configauthenticationplugins'] = 'Aktivujte autentizační metody a pořadí, v jakém budou použity.';
 $string['configautolang'] = 'Zjistí preferovaný jazyk z prohlížeče. Jestliže je tato volba vypnutá, použije se výchozí jazyk.';
 $string['configautologinguests'] = 'Mají být návštěvníci vašich stránek automaticky přihlášeni jako hosté, jestliže vstupují do kurzů, které vstup hostů umožňují?';
 $string['configbloglevel'] = 'Touto volbou nastavujete úroveň přístupu k blogům na vašich stránkách. Nastavení se týká ČTENÁŘŮ, nikoliv autorů či typů blogů. Pokud blogy nechcete používat, můžete je vypnout úplně.';
