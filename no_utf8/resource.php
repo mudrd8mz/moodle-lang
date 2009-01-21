@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+      // resource.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['addresource'] = 'Ny ressurs';
@@ -55,6 +55,9 @@ $string['fulltext'] = 'Full tekst';
 $string['htmlfragment'] = 'Teksten som skal vises';
 $string['imspackageloaded'] = 'Pakken er lastet inn';
 $string['keepnavigationvisible'] = 'Vis sidenavigasjonen på samme side';
+$string['keepnavigationvisibleno'] = 'Nei';
+$string['keepnavigationvisibleyesframe'] = 'Ja, med rammer';
+$string['keepnavigationvisibleyesobject'] = 'Ja, uten rammer';
 $string['localfile'] = 'Lokal fil';
 $string['localfilechoose'] = 'Velg ei lokal fil';
 $string['localfilehelp'] = 'hjelp til å vise lokale filer';

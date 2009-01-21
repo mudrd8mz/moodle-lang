@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -41,6 +41,7 @@ $string['bookmarkthispage'] = 'bokmerk denne siden';
 $string['cachetext'] = 'Levetid for tekstkopier';
 $string['cachetype'] = 'Cache type';
 $string['calendar_weekend'] = 'Helgedager';
+$string['calendarexportsalt'] = 'SALT kalendereksport';
 $string['calendarsettings'] = 'Kalender';
 $string['cfgwwwrootslashwarning'] = 'Du har definert &#36;CFG->wwwroot feil i config.php fila. Du har inkluder et \'/\' tegn på slutten. Vær vennlig å fjern det ellers kan du oppleve merkelige feil som f.eks. <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['cfgwwwrootwarning'] = 'Du har definert &#36;CFG->wwwroot feil i config.php fila. Den stemmer ikke med URL\'en du bruker for å nå siden. Vær vennlig å fjern det ellers kan du oppleve merkelige feil som f.eks. <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
@@ -73,6 +74,7 @@ $string['configautologinguests'] = 'Skal besøkende automatisk logges inn som gj
 $string['configbloglevel'] = 'Denne settingen tillater deg å begrense på hvilket nivå brukerblogger kan leses på dette nettstedet. Merk at de spesifiserer maksimum nivå til den som leser ikke den som skriver eller typene bloggmeldinger. Blogger kan også kobles ut fullstendig hvis du overhodet ikke ønsker dem.';
 $string['configcachetext'] = 'For større nettsteder eller steder som bruker tekstfiltre, kan denne settingen virkelig gjøre ting raskere. Tekstkopier vil beholdes i sin prosesserte form så lenge som det spesifiseres her. Hvis den settes for lavt kan ting bli langsommere, men hvis den settes for høyt kan det bety at det tar for lang tid å oppfriske tekst (dette gjelder f.eks. nye lenker).';
 $string['configcachetype'] = 'Velg en type cache som Moodle skal bruke. Dette vil bare konfigurere cachen, husk å slå på rcache slik at cachen blir brukt til noe. Bruk<strong>bare</strong> dette hvis du trenger å redusere belastning på databasen din -- ellers vil Moodle faktisk gå tregere. Nettsteder med medium trafikk kan ha nytte av å bruke \'intern\'. En enkeltstående webserver med eAccelator eller Turckmmcache installert <em> med delt minne slått på</em> bør prøve \'eaccelator\'. Hvis du har flerserveroppsett, og har en eller flere memcachedservere som kjører og PHP-memcashed-tillegget, velg \'memcached\' og konfigurer memcached valgene under.<br/><strong>Merk:</strong> pass på at du tester ytelsen ved kjøring og justerer etter den -- cachen kan gjøre nettstedet ditt tregere. Når det er høy trafikk, kan eAccelator og memcashed benytte seg av flest fordeler, men til gjengjeld bruke mer av prosessorkraft på webserveren.';
+$string['configcalendarexportsalt'] = 'Denne tilfeldige teksten brukes for å sikre autentisering av tokens ved kalendereksport. Alle gjeldende tokens blir ugyldige om du endrer denne teksten!';
 $string['configclamactlikevirus'] = 'Filer behandles som virus';
 $string['configclamdonothing'] = 'Filer behandles som friske';
 $string['configclamfailureonupload'] = 'Hvis du har konfigurert <i>clam</i> til å scanne opplastede filer, men den er konfigurert feil eller ikke klarer å kjøre av en eller annen ukjent grunn, hvordan ønsker du at den skal oppføre seg? Hvis du har valgt \'Filer behandles som virus\', vil de flyttes til et karanteneområde eller slettes. Hvis du har valgt \'Filer behandles som friske\', vil filene flyttes til sitt destinasjonsområde som normalt. Uansett vil administratorer bli varslet om at <i>clam</i> har feilet. Hvis du valgte \'Filer behandles som virus\' og <i>clam</i> av en eller annen grunn feiler (som regel pga. du har lagt inn en feil sti til clam), vil ALLE filer som har blitt lastet opp flyttes til det angitt karanteneområdet eller slettes. Vær forsiktig med denne settingen.';
@@ -80,6 +82,8 @@ $string['configcookiehttponly'] = 'Slår på ny PHP 5.2.0 egenskaper - nettleser
 $string['configcookiesecure'] = 'Hvis serveren bare aksepterer https forbindelser er det anbefalt å slå på at du kan sende sikre cookies. Hvis dette er slått på pass på at webserveren ikke aksepterer http:// eller sett opp permanent viderekopling til en https:// adresse. Når <em>wwwroot<em> adressen ikke starter med https:// blir denne innstillingen automatisk slått av.';
 $string['configcountry'] = 'Hvis du velger et land her, vil dette landet brukes som standard for nye brukerkonti. For å tvinge brukere til å velge land, lar du denne stå usatt.';
 $string['configcoursemanager'] = 'Denne innstillingen lar deg bestemme hvilke(n) roller som skal vises i kursbeskrivelsen. Du må MINST velge EN rolle.';
+$string['configcourserequestnotify'] = 'Skriv inn brukernavnet på den som skal varsles okm kursønsker.';
+$string['configcourserequestnotify2'] = 'Brukere som skal varsles om kursønsker. Det listes kun opp brukere med rett til å godkjenne kursønsker.';
 $string['configcoursesperpage'] = 'Skriv inn antall kurs som skal vises på hver side i en kursoversikt.';
 $string['configcreatornewroleid'] = 'Denne rollen blir automatisk tildelt kursoppretteren. Rollen blir ikke tildelt hvis kursoppretteren allerede har høyere rettigheter på systemet.';
 $string['configcronclionly'] = 'Dersom du aktiverer denne vil cron bare kunne kjøres fra kommandolinjen, ikke fra adressefeltet i nettleseren. Denne innstillingen overstyrer innstillingen under.';
@@ -110,6 +114,7 @@ $string['configeditorfontlist'] = 'Velg de fontene som skal være tilgjengelige 
 $string['configemailchangeconfirmation'] = 'Tving brukeren til å gjenta e-postadressen når den endres.';
 $string['configemoticons'] = 'Endre koden på venstre side som hører til navnet på emoticon til høyre. For å legge til nye emoticons, legg til en kode og et navn og legg til et bilde som heter navn.gif i /pix/s.';
 $string['configenableajax'] = 'Denne innstillingen lar deg kontrollere bruken av AJAX (avansert klient/server teknologi via javascript) på hele siten. Med denne innstillingen aktivert kan fortsatt den enkelte bruker slå av AJAX i egen profil. Som standard er AJAX inaktiv for alle.';
+$string['configenablecalendarexport'] = 'Aktiver eksport eller abbonnement på kalendre.';
 $string['configenablecourserequests'] = 'Dette vil tillate at alle brukere kan be om at et kurs skal opprettes.';
 $string['configenableglobalsearch'] = 'Denne innstillingen aktiverer globalt tekstsøk i ressurser og aktiviteter. Den er ikke kompatibel med PHP 4.';
 $string['configenablegroupings'] = 'Denne innstillingen slår på gruppering av grupper.';
@@ -220,6 +225,7 @@ $string['configsectionuser'] = 'Buker';
 $string['configsecureforms'] = 'Moodle kan bruke et ekstra sikkerhetsnivå når det aksepteres data fra nettskjema. Hvis dette er slått på, vil nettleserens HTTP_REFERER variabel sjekkes opp mot det aktuelle skjemaets adresse. I noen få tilfeller kan dette medføre problemer hvis brukeren bruker en brannmur (f.eks. Zonealarm) som er konfigurert for å fjerne HTTP_REFERER fra sin nettrafikk. Symptomer er at en sitter \'fast\' i et skjema. Hvis dine brukere f.eks. har problemer med innloggingssiden, bør du vurdere å slå av denne innstillingen, selv om det kan gjøre nettstedet ditt mer åpent for direkte angrep på passord. Hvis du er i tvil, la det stå \'ja\' her.';
 $string['configsendcoursewelcomemessage'] = 'Dersom påslått vil brukere få en velkomstmelding via e-post når de selv melder seg på et kurs.';
 $string['configsessioncookie'] = 'Denne innstillingen tilpasser navn på cookien som brukes for Moodle-innstillinger. Den er valgfri, og er bare nyttig for å unngå at cookies blir forvirret når det er flere enn en versjon av Moodle som kjører på den samme nettjeneren.';
+$string['configsessioncookiedomain'] = 'Denne innstillingen lar deg bestemme hvilket domene Moodle cookies skal være tilgjengelige fra. Dette er nyttig ved Moodle-tilpasninger (ved  autentiserings- eller påmeldingsplugin) som trenger å dele informasjon med en webapplikasjon på et annet subdomene. <strong>ADVARSEL: Det anbefales på det sterkeste at du lar feltet være tomt. En gal verdi her vil stoppe alle pålogginger til portalen.</strong>';
 $string['configsessioncookiepath'] = 'Hvis du har behov for å endre hvor nettlesere sender sine Moodle-cookies, kan du forandre denne innstillingen for å spesifiere en underkatalog på nettserveren. Hvis ikke, er standardinnstillingen \'/\' helt fin.';
 $string['configsessiontimeout'] = 'Hvis folk som er logget inn på dette nettstedet er passive i lang tid (uten å laste sider) vil de automatisk logges ut (sesjonene deres vil termineres). Denne variabelen spesifiserer hvor lang tid som skal gå før dette skjer.';
 $string['configshowblocksonmodpages'] = 'Noen aktivitetsmoduler støtter bokser på sidene sine. Hvis du slår på denne, vil lærerne kunne legge til sidebokser på disse sidene, ellers viser ikke grensesnittet denne muligheten.';
@@ -265,7 +271,10 @@ $string['country'] = 'Standard land';
 $string['coursemanager'] = 'Kursadministratorer';
 $string['coursemgmt'] = 'Legg til/Endre kurs';
 $string['courseoverview'] = 'Kursoversikt';
+$string['courserequestnotify'] = 'Varsel om kursønsker';
+$string['courserequestnotifyemail'] = 'Brukeren $a->user har bedt om et nytt kurs på Sa -> link';
 $string['courserequests'] = 'Kursønsker';
+$string['courserequestspending'] = 'Ventende kursønsker';
 $string['courses'] = 'Kurs';
 $string['coursesperpage'] = 'Kurs pr.side';
 $string['creatornewroleid'] = 'Kursoppretters rolle i nye kurs';
@@ -338,6 +347,7 @@ $string['emailchangeconfirmation'] = 'E-postbekreftelse';
 $string['emoticons'] = 'Emoticons';
 $string['emptysettingvalue'] = 'Tom';
 $string['enableajax'] = 'Aktiver AJAX';
+$string['enablecalendarexport'] = 'Aktiver kalendereksport';
 $string['enablecourserequests'] = 'Aktiviser kursønsker';
 $string['enableglobalsearch'] = 'Aktiviser globale søk';
 $string['enablegroupings'] = 'Slå på grupperinger';
@@ -361,6 +371,7 @@ $string['environmentxmlerror'] = 'En feil oppsto under lesing av omgivelsesdata 
 $string['errors'] = 'Feil';
 $string['errorsetting'] = 'Kunne ikke lagre innstillingene';
 $string['errorwithsettings'] = 'Noen innstillinger kunne ikke lagres pga en feil';
+$string['everyonewhocan'] = 'Alle som kan \'$a\'';
 $string['experimental'] = 'Eksperimentell';
 $string['extendedusernamechars'] = 'Tillat utvidet karaktersett i brukernavn';
 $string['filecreated'] = 'Ny fil opprettet';
@@ -498,7 +509,10 @@ $string['minpasswordupper'] = 'Store bokstaver';
 $string['misc'] = 'Forskjellig';
 $string['missinglangparent'] = 'Mangler overordnet språk <em>$a->parent</em> of <em>$a->lang</em>.';
 $string['mnetrestore_extusers'] = '<strong>OBS:</strong> Denne sikkerhetskopien inneholder brukere fra andre Moodle Network-installasjoner som vil bli tilbakeført som en del av gjenopprettingsprosessen.';
+$string['mnetrestore_extusers_admin'] = '<strong>MERK:</strong> Denne sikkerhetskopien kommer fra en annen Moodle-installasjon og inneholder Moodle Nettverk brukerkontoer. Gjenopprettingsprosessen vil forsøke å koble Moodle Nettverk Verter for alle opprettede brukere. De som ikke lykkes vil automatisk bli konvertert til intern autentisering (i stedet for mnet). Sjekk gjenopprettingsloggen for mer informasjon.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>OBS:</strong> Denne sikkerhetskopien ser ut til å komme fra en annen Moodle-installasjon og inneholder brukerkontoer fra Moodle Network. Dette kan føre til feil, og funksjonen er ikke støttet. Er du sikker på at denne sikkerhetskopien er opprettet her, eller at nødvendige Moodle Network Host er satt opp, kan du jo forsøke en gjenoppretting.';
+$string['mnetrestore_extusers_noadmin'] = '<strong>MERK: </strong>Denne sikkerhetskopien ser ut til å komme fra en annen Moodle installasjon og inneholder Moodle Nettverk brukere. Du har ikke tillatelse til å utføre en slik gjenoppretting. Kontakt administratoren eller alternativt: Gjenopprett kurset uten brukerinformasjonen. (Bare moduler og filer)';
+$string['mnetrestore_extusers_switchuserauth'] = 'Moodle Nettverk-brukeren $a->username (som kommer fra $a ->mnethosturl) er konvertert til en lokal $a->auth autentisert bruker.';
 $string['modsettings'] = 'Administrer aktiviteter';
 $string['modulesecurity'] = 'Sikkerhet for moduler';
 $string['multilangforceold'] = 'Tving gammel multilangsyntaks: &lt;span&gt; uten klassen=\"multilang\" og &lt;lang&gt;';
@@ -552,6 +566,7 @@ $string['performance'] = 'Ytelse';
 $string['pgcluster'] = 'PostgreSQL klynge';
 $string['pgclusterdescription'] = 'PostgreSQL versjons/cluster parametre for bruk ved kommandolinjen. Dersom du har bare en PostgreSQL på systemet ditt, eller ikke er helt sikker på hva dette er, la feltet stå tomt.';
 $string['php50restricted'] = 'PHP 5.0.x har en rekke kjente feil. Vennligst oppgrader til versjon 5.1 eller nedgrader til 4.3.x eller 4.4.x';
+$string['phpfloatproblem'] = 'Har oppdaget uventede problemer i behandlingen av PHP flyttall - $a';
 $string['pleaserefreshregistration'] = 'Nettstedet ditt er registrert hos moodle.org, vær vennlig å oppdater registreringen hvis det har vært store endringer i antall brukere, kurs e.l lignende. Siste oppdatering ble gjort $a';
 $string['pleaseregister'] = 'Registrer nettstedet ditt for å fjerne denne knappen';
 $string['plugins'] = 'Moduler';
@@ -622,7 +637,6 @@ $string['recaptchapublickey'] = 'ReCAPTCHA offentlig nøkkel';
 $string['releasenoteslink'] = 'For mer informasjon om denne versjonen av Moodle, sjekk online via  <a target=\"_new\" href=\"$a\">Release Notes</a>';
 $string['remotelangnotavailable'] = 'Moodle får ikke kontakt med download.moodle.org og kan derfor ikke laste ned og installere språkpakker automatisk. Last i stedet ned språkpakkene manuelt og kopier dem til ditt $a katalog og pakk ut der.';
 $string['renameerrors'] = 'Feil ved endring av navn';
-$string['requiredentrieschanged'] = '<strong>VIKTIG - VÆR VENNLIG LES<br/>(Denne advarselen vil kun vises ved denne oppgraderingen)</strong><br/>På grunn av en feilreting, vil aktiviteter ved bruk av \'Nødvendige tilføyelser\' og \'Nødvendige tilføyelser før en kan se innstillinger\' endres. En mer detaljert forklaring på endringene kan en lese (på engelsk) på <a href=\"http://moodle.org/mod/forum/discuss.php?110928\" target=\"_blank\">databaseforumet</a>. <br/><br/>Denne endringen påvirker følgende databaser i systemet ditt: (Vær vennlig å lagre denne listen nå, og etter at oppgraderingen er ferdig, sjekk at disse aktivitetene fremdeles virker slik lærerne ønsker).<br/><strong style?\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Nødvendig. Du kan bruke malsyntaks her (%%l = etternavn, %%f = fornavn, %%u = brukernavn).';
 $string['restrictbydefault'] = 'Begrens som standard tilgang til modulene';
 $string['restrictmodulesfor'] = 'Begrens tilgang til moduler for';
@@ -652,6 +666,7 @@ $string['server'] = 'Server';
 $string['serverchecks'] = 'Serveren sjekker';
 $string['serverlimit'] = 'Serverbegrensing';
 $string['sessioncookie'] = 'Cookie prefix';
+$string['sessioncookiedomain'] = 'Cookie domene';
 $string['sessioncookiepath'] = 'Cookie sti';
 $string['sessionhandling'] = 'Sesjonshåndtering';
 $string['sessiontimeout'] = 'Tiden utløper';
@@ -664,6 +679,8 @@ $string['sitemaintenancemode'] = 'Vedlikeholdsmodus';
 $string['sitemaintenanceoff'] = 'Vedlikeholsmodus er slått av, og nettstedet fungerer normalt igjen';
 $string['sitemaintenanceon'] = 'Nettstedet er i vedlikeholdsmodus(bare administratorer kan logge inn eller bruke nettstedet)';
 $string['sitemaintenancewarning'] = 'Dette nettstedet er i vedlikeholdsmodus for øyeblikket (kun administratorer kan logge inn). For å kunne returnere til normal operasjon, må du <a href=\"maintenance.php\">slå av vedlikeholdsmodus</a>.';
+$string['sitemaxcategorydepth'] = 'Maks antall kategorinivåer';
+$string['sitemaxcategorydepthhelp'] = 'Denne innstillingen setter maks antall kategorinivåer som skal vises';
 $string['sitepolicies'] = 'Site regler';
 $string['sitepolicy'] = 'Site regler URL';
 $string['sitesectionhelp'] = 'Dersom valgt, vil en emneseksjon vises på førstesiden til siten.';
@@ -786,6 +803,7 @@ $string['webproxyinfo'] = 'Fyll inn følgende valg hvis ikke Moodle-serveren din
 $string['xmlrpcrecommended'] = 'Å installere det valgfrie xmlrpc-tillegget er nyttig for Moodle Networking funksjonaliteten.';
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['ziprequired'] = 'ZIP PHP-tillegget kreves nå av Moodle. Info-ZIP eller PclZIP biblioteket er ikke lenger i bruk.';
+$string['requiredentrieschanged'] = '<strong>VIKTIG - VÆR VENNLIG LES<br/>(Denne advarselen vil kun vises ved denne oppgraderingen)</strong><br/>På grunn av en feilreting, vil aktiviteter ved bruk av \'Nødvendige tilføyelser\' og \'Nødvendige tilføyelser før en kan se innstillinger\' endres. En mer detaljert forklaring på endringene kan en lese (på engelsk) på <a href=\"http://moodle.org/mod/forum/discuss.php?110928\" target=\"_blank\">databaseforumet</a>. <br/><br/>Denne endringen påvirker følgende databaser i systemet ditt: (Vær vennlig å lagre denne listen nå, og etter at oppgraderingen er ferdig, sjekk at disse aktivitetene fremdeles virker slik lærerne ønsker).<br/><strong style?\"color:red\">$a->text</strong><br/>'; // ORPHANED
 $string['configenablerecordcache'] = 'Dersom du aktiverer denne, vil systemet lagre i hurtigminnet når det mottar data fra databasen. Dette betyr at databasen blir raskere i bruk, men på  den annen side vil minnekravet på serveren øke. Generelt anbefaler vi at innstillingen aktiviseres, så sant du ikke har lite minne på serveren. Noen prosesser vil likevel overstyre denne innstillingen (når utvikleren er sikker på at det er lurt).'; // ORPHANED
 
 ?>

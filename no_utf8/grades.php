@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // grades.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+
+
 $string['activities'] = 'Aktiviteter';
 $string['addcategory'] = 'Legg til kategori';
 $string['addcategoryerror'] = 'Kunne ikke legge til kategorien.';
@@ -300,6 +302,8 @@ $string['lessthanmin'] = 'Karakteren for $a->itemname til $a->username er mindre
 $string['letter'] = 'Bokstav';
 $string['lettergrade'] = 'Bokstavkarakter';
 $string['lettergradenonnumber'] = 'Low and/or High grade were non-numeric for';
+$string['letterpercentage'] = 'Bokstav (prosent)';
+$string['letterreal'] = 'Bokstav (virkelig)';
 $string['letters'] = 'Bokstaver';
 $string['linkedactivity'] = 'Linket aktivitet';
 $string['linkedactivityhelp'] = 'Angir en valgfri aktivitet som er knyttet til denne læringsutbytteenheten. Dette brukes for å måle studentytelse i forhold til kriterier som ikke vurderes av aktivitetsnivået.';
@@ -388,6 +392,8 @@ $string['parentcategory'] = 'Overordnet kategori';
 $string['pctoftotalgrade'] = '%% av total karakter';
 $string['percent'] = 'Prosent';
 $string['percentage'] = 'Prosentandel';
+$string['percentageletter'] = 'Prosent (Bokstav)';
+$string['percentagereal'] = 'Prosent (Virkelig)';
 $string['percentascending'] = 'Sorter etter prosent stigende';
 $string['percentdescending'] = 'Sorter etter prosent synkende';
 $string['percentshort'] = '%%';
@@ -414,6 +420,8 @@ $string['rangesdisplaytype'] = 'Ranger visningstype';
 $string['rank'] = 'Rank';
 $string['rawpct'] = 'Rå %%';
 $string['real'] = 'Virkelig';
+$string['realletter'] = 'Virkelig (Bokstav)';
+$string['realpercentage'] = 'Virkelig (Prosent)';
 $string['regradeanyway'] = 'Gi nye karakterer likevel';
 $string['removeallcoursegrades'] = 'Slett alle karakterer';
 $string['removeallcourseitems'] = 'Slett alle enheter og kategorier';
@@ -521,4 +529,5 @@ $string['xml'] = 'XML';
 $string['yes'] = 'Ja';
 $string['yourgrade'] = 'Din karakter';
 $string['errornocategorizedid'] = 'Could not get an uncategorized id!'; // ORPHANED
+
 ?>

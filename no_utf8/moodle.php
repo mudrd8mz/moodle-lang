@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -150,6 +150,7 @@ $string['backupexecuteathelp'] = 'Angi når automatisk sikkerhetskopiering skal 
 $string['backupfailed'] = 'Noen av kursene dine ble ikke lagret.';
 $string['backupfilename'] = 'Sikkerhetskopi';
 $string['backupfinished'] = 'Sikkerhetskopiering fullført';
+$string['backupgradebookhistoryhelp'] = 'Dersom aktivert vil karakterhistorien tas med i automatiske sikkerhetskopier. Merk at karakterhistorie må være aktivert i serverinnstillingene for at dette skal fungere.';
 $string['backupincludemoduleshelp'] = 'Velg om du vil inkludere kursmoduler (med eller uten brukerdata) i automatiske sikkerhetskopier';
 $string['backupincludemoduleuserdatahelp'] = 'Velg om du ønsker at modulenes brukerdata skal være med i sikkerhetskopiene.';
 $string['backupkeephelp'] = 'Hvor mange av de siste sikkerhetskopiene for hvert kurs vil du beholde? (Eldre sikkerhetskopier slettes automatisk)';
@@ -415,6 +416,7 @@ $string['displayingusers'] = 'Viser brukere $a->start til $a->end';
 $string['displayonpage'] = 'Vis på siden';
 $string['documentation'] = 'Moodledokumentasjon';
 $string['donotask'] = 'Ikke spør';
+$string['donotclickcontinue'] = 'Ikke klikk på neste Fortsett-lenke ;-)';
 $string['down'] = 'Ned';
 $string['downloadexcel'] = 'Last ned i MS Excel-format';
 $string['downloadods'] = 'Last ned i ODS format';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+      // error.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
@@ -24,6 +24,7 @@ $string['cmunknown'] = 'Kan ikke finne denne kursmodulen.';
 $string['componentisuptodate'] = 'Komponenten er ajourført.';
 $string['confirmsesskeybad'] = 'Beklager, sesjonsnøkkelen din kunne ikke aksepteres for utførelse av denne handlingen. Denne sikkerhetssperren forhindrer tilfeldig eller ondsinnet utførelse av viktige funksjoner i ditt navn. Forsikr deg om at du virkelig ønsker å utføre denne funksjonen.';
 $string['couldnotassignrole'] = 'En alvorlig uspesifisert feil oppsto da du skulle tildeles en rolle';
+$string['countriesphpempty'] = 'FEIL: Filen countries.php i språkpakken $a er tom eller mangler.';
 $string['coursegroupunknown'] = 'Kurs som korresponderer til gruppe $a er ikke spesifisert';
 $string['csvcolumnduplicates'] = 'Oppdaget duplikate kolonner';
 $string['csvemptyfile'] = 'CSV-fila er tom.';

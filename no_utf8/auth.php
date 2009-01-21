@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
+      // auth.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -256,6 +256,12 @@ $string['auth_radiusnasport_key'] = 'Port';
 $string['auth_radiussecret'] = 'Radius shared secret';
 $string['auth_radiussecret_key'] = 'Secret';
 $string['auth_radiustitle'] = 'RADIUS-server';
+$string['auth_radiustype'] = 'Velg et autentiseringsskjema som skal brukes mot RADIUS-serveren.';
+$string['auth_radiustype_key'] = 'Autentisering';
+$string['auth_radiustypechapmd5'] = 'CHAP MD5';
+$string['auth_radiustypemschapv1'] = 'Microsoft CHAP ver.1';
+$string['auth_radiustypemschapv2'] = 'Microsoft CHAP ver.2';
+$string['auth_radiustypepap'] = 'PAP';
 $string['auth_remove_delete'] = 'Full sletting internt';
 $string['auth_remove_keep'] = 'Behold internt';
 $string['auth_remove_suspend'] = 'Fjern internt';

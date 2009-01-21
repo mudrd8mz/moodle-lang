@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+      // role.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['addrole'] = 'Legg til ny rolle';
@@ -40,6 +40,7 @@ $string['course:managegrades'] = 'Administrer karakterer';
 $string['course:managegroups'] = 'Administrer grupper';
 $string['course:managemetacourse'] = 'Administrer metakurs';
 $string['course:managescales'] = 'Administrer skalaer';
+$string['course:request'] = 'Send inn et kursønske';
 $string['course:reset'] = 'Nullstill kurs';
 $string['course:sectionvisibility'] = 'Kontroller seksjonens synlighet';
 $string['course:setcurrentsection'] = 'Sett aktiv seksjon';

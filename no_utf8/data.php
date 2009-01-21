@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+      // data.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['action'] = 'Handling';
@@ -211,6 +211,8 @@ $string['recordsnotsaved'] = 'Ingen oppføring ble lagret. Vennligst sjekk forma
 $string['recordssaved'] = 'oppføringen lagret';
 $string['requireapproval'] = 'Kreve godkjenning?';
 $string['requiredentries'] = 'Obligatoriske oppføringer';
+$string['requiredentrieschanged'] = '<p><strong>VIKTIG - VENNLIGST LES DETTE</strong></p><p>På grunn av en bug-fix, vil oppførselen til databaseaktivieter som bruker innstillingene for \'Required entries\' og  \'Required entries before viewing settings\' endres. En mer detaljert beskrivelse kan leses på <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">databasemodul forumet</a>.  Forventet oppførsel på disse innstillingene kan også leses på <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.</p><p>
+Denne endringen berører følgende databaser på systemet ditt: (Vennligs lagre denne listen NÅ, og sjekk etter oppgraderingen om databasene fortsatt virker som de skal.)</p><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredentriestoview'] = 'Oppføring kreves før visning';
 $string['resetsettings'] = 'Nullstill felter';
 $string['resettemplate'] = 'Tilbakestill mal';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080519) (2008051202)
+      // enrol_authorize.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['adminacceptccs'] = 'Hvilke typer kredittkort vil bli akseptert?';
@@ -80,6 +80,7 @@ $string['choosemethod'] = 'Dersom du vet sikkerhetsnøkkel for dette kurset, kan
 $string['chooseone'] = 'Fyll inn ett eller begge av to følgende felter. Passordet vises ikke.';
 $string['costdefaultdesc'] = '<strong>I kursinnstillngene, skriv inn -1</strong> for å benytte denne standardprisen på dette kurset.';
 $string['cutofftime'] = 'Transaksjonsavbrudd. Når skal siste transaksjon fullføres?';
+$string['dataentered'] = 'Innskrevne data';
 $string['delete'] = 'Ødelegg';
 $string['description'] = 'Authorize.net modulen lar deg sette opp betalingskurs via tilbydere for kredittkortbetaling. Dersom prisen for et kurs er null, blir ikke studenten spurt om betaling. Du kan enten sette en standardpris for alle kurs, eller overstyre dette ved å legge inn en egen kurspris for hvert kurs.<br /><br /><b>OBS: <br />Dersom du også bruker sikkerhetsnøkkel, kan studentene også bruke denne. Dette er svært nyttig når du samtidig tilbyr kurs til  betalende og ikke-betalende studenter.';
 $string['echeckabacode'] = 'Bankens ABA nummer';
