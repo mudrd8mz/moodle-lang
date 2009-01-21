@@ -162,7 +162,7 @@ $string['rejectionrpt'] = 'Afvisningsårsag';
 $string['resetglossaries'] = 'Slet indlæg fra';
 $string['resetglossariesall'] = 'Slet indlæg fra alle opslagsværker';
 $string['rsssubscriberss'] = 'Vis RSS feed for \"$a\" opslagsord';
-$string['searchindefinition'] = 'Søg i <acronym title=\"og ikke kun i opslags- og nøgleord\">hele teksten</acronym>';
+$string['searchindefinition'] = 'Søg i <acronym title=\"både opslagsord, nøgleord og tekstindhold\">hele teksten</acronym>';
 $string['secondaryglossary'] = 'Sekundær opslagsværk';
 $string['sendinratings'] = 'Send min seneste vurdering';
 $string['showall'] = 'Vis \'ALLE\' links';
