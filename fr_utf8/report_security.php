@@ -118,7 +118,7 @@ $string['check_riskxss_warning'] = 'RISK_XSS, $a utilisateurs dont vous devez ê
 $string['check_unsecuredataroot_details'] = '<p>Le dossier de données ne doit pas être accessible via le web. La meilleure façon de s\'assurer que ce dossier n\'est pas accessible est de le placer en dehors du dossier web public.</p><p>Si vous déplacez ce dossier, vous devrez modifier en conséquence la variable <code>\$CFG->dataroot</code> dans votre fichier <code>config.php</code>.</p>';
 $string['check_unsecuredataroot_error'] = 'Votre dossier de données <code>$a</code> est dans un emplacement où il est accessible directement via le web&nbsp;!';
 $string['check_unsecuredataroot_name'] = 'Dossier de données non sûr';
-$string['check_unsecuredataroot_ok'] = 'Le dossier de données ne doit pas être accessible via le web.';
+$string['check_unsecuredataroot_ok'] = 'Le dossier de données n\'est pas accessible via le web.';
 $string['check_unsecuredataroot_warning'] = 'Votre dossier de données <code>$a</code> est dans un emplacement où il pourrait être accessible directement via le web.';
 
 ?>
