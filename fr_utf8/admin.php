@@ -789,6 +789,7 @@ $string['upgradesure'] = 'Certains fichiers de votre Moodle ont été modifiés,
 $string['upgradetimedout'] = 'La mise à jour a dépassé le temps imparti. Veuillez recommencer la mise à jour.';
 $string['upgradingdata'] = 'Mise à jour des données';
 $string['upgradinglogs'] = 'Mise à jour des fichiers d\'historique (logs)';
+$string['upgradingversion'] = 'Mise à jour à une nouvelle version';
 $string['uploadpictures'] = 'Déposer des avatars';
 $string['uploadpicture_baduserfield'] = 'L\'attribut indiqué n\'est pas valide. Veuillez essayer à nouveau.';
 $string['uploadpicture_cannotmovezip'] = 'Impossible de déplacer le fichier zip vers un dossier temporaire.';
