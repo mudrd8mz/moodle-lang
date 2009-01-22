@@ -172,6 +172,7 @@ $string['commentmisconf'] = 'L\'identifiant du commentaire est mal configuré';
 $string['componentisuptodate'] = 'Le composant est à jour';
 $string['confirmsesskeybad'] = 'Désolé, votre identifiant de session n\'a pas pu être confirmé pour exécuter cette action. Cette sécurité vous protège contre l\'exécution accidentelle ou malfaisante en votre nom de fonctions essentielles. Veuillez vérifier que vous avez vraiment voulu effectuer cette action';
 $string['couldnotassignrole'] = 'Une erreur inconnue, mais sérieuse, est survenue lors de l\'attribution d\'un rôle à vous-même';
+$string['countriesphpempty'] = 'Erreur&nbsp;: le fichier countries.php du paquetage de langue $a est vide ou manquant.';
 $string['coursegroupunknown'] = 'Cours correspondant au groupe $a non indiqué';
 $string['coursemisconf'] = 'Le cours est mal configuré';
 $string['courserequestdisabled'] = 'Désolé, la demande d\'ouverture de cours a été désactivée par l\'administrateur';
