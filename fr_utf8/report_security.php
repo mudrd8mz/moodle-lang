@@ -25,10 +25,10 @@ $string['check_cookiesecure_ok'] = 'Cookies sécurisés activés.';
 
 $string['check_courserole_anything'] = 'La capacité «&nbsp;doanything&nbsp;» ne doit pas être accordée dans ce <a href=\"$a\">contexte</a>.';
 $string['check_courserole_details'] = '<p>Chaque cours possède son propre rôle par défaut attribué aux nouveaux participants inscrits. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Étudiant</em>.</p>';
-$string['check_courserole_error'] = 'Rôle par défaut du cours défini de façon incorrecte&nbsp;!';
+$string['check_courserole_error'] = 'Rôle par défaut des cours défini de façon incorrecte&nbsp;!';
 $string['check_courserole_legacy'] = 'Type de rôle historique non supporté détecté pour le <a href=\"$a\">rôle</a>.';
 $string['check_courserole_name'] = 'Rôles par défaut des cours';
-$string['check_courserole_notyet'] = 'Seul le rôle par défaut du cours est utilisé.';
+$string['check_courserole_notyet'] = 'Seul le rôle par défaut des cours est utilisé.';
 $string['check_courserole_ok'] = 'Définition correcte des rôles par défaut des cours.';
 $string['check_courserole_risky'] = 'Capacité comportant des risques détectée dans le <a href=\"$a\">contexte</a>.';
 
