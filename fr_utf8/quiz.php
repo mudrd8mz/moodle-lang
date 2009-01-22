@@ -527,6 +527,7 @@ $string['quiz:ignoretimelimits'] = 'Ignorer les limites de temps des tests';
 $string['quiz:manage'] = 'Gérer les tests';
 $string['quiz:preview'] = 'Prévisualiser les tests';
 $string['quiz:regrade'] = 'Renoter les tentatives des tests';
+$string['quiz:reviewmyattempts'] = 'Relire ses propres tentatives';
 $string['quiz:view'] = 'Voir les informations des tests';
 $string['quiz:viewreports'] = 'Voir les rapports des tests';
 $string['quizavailable'] = 'Le test est disponible jusqu\'au $a';
