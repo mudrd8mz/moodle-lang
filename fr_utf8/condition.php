@@ -5,6 +5,7 @@ $string['addcompletions'] = 'Ajouter au formulaire {no} conditions d\'activité'
 $string['availabilityconditions'] = 'Restreindre la disponibilité';
 $string['availablefrom'] = 'Seulement disponible à partir du';
 $string['availableuntil'] = 'Seulement disponible jusqu\'au';
+$string['badavailabledates'] = 'Dates non valables. Si vous définissez les deux dates, assurez-vous que la date de début de disponibilité soit antérieure à celle de fin.';
 $string['completion_complete'] = ' doit être marqué comme terminé';
 $string['completion_incomplete'] = ' ne doit pas être marqué comme terminé';
 $string['completion_pass'] = ' doit être terminé avec une note de réussite';
