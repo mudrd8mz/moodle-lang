@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090121) (2009011900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -10,7 +10,7 @@ $string['activeusers'] = '실제 이용자들';
 $string['activities'] = '학습활동';
 $string['activity'] = '활동';
 $string['activityclipboard'] = '이 활동을 옮기기: <b>$a</b>';
-$string['activityiscurrentlyhidden'] = '공개되지 않은 활동임';
+$string['activityiscurrentlyhidden'] = '아직 공개되지 않은 활동임';
 $string['activitymodule'] = '활동 모듈';
 $string['activitymodules'] = '활동 모듈';
 $string['activityreport'] = '활동 보고';
@@ -1390,8 +1390,10 @@ $string['socialheadline'] = '사회적 포럼-최근의 글들';
 $string['someallowguest'] = '어떤 강좌는 손님의 접속을 허용할 수 있습니다.';
 $string['someerrorswerefound'] = '정보가 없거나 부정확합니다. 자세한 내용은 다음을 보세요.';
 $string['sortby'] = '정렬';
+$string['sortbyx'] = '$a 올림차순으로 정렬';
+$string['sortbyxreverse'] = '$a 내림차순으로 정렬';
 $string['sourcerole'] = '원래 역할';
-$string['specifyname'] = '반드시 이름을 기입해야 합니다.';
+$string['specifyname'] = '이름은 반드시 기입해야 합니다.';
 $string['standard'] = '표준';
 $string['starpending'] = '([*] = 승인 대기중인 교육과정.)';
 $string['startdate'] = '강좌 시작일';
