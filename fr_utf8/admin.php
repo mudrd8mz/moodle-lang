@@ -242,6 +242,8 @@ $string['configsessiontimeout'] = 'Les utilisateurs connectés seront automatiqu
 $string['configshowblocksonmodpages'] = 'Certains modules d\'activité offrent la possibilité d\'utiliser des blocs sur leurs pages. Si vous activez ce réglage, les enseignants pourront alors ajouter des blocs latéraux sur ces pages. Dans le cas contraire l\'interface ne permettra pas cette fonctionnalité.';
 $string['configshowsiteparticipantslist'] = 'Tous les étudiants et les enseignants de la page d\'accueil de ce site seront affichés dans la liste des participants du site. Qui doit avoir l\'autorisation de voir cette liste des participants de la page d\'accueil&nbsp;?'; // Legacy, to delete for 1.7
 $string['configsitemailcharset'] = 'Tous les courriels générés par votre site seront envoyés dans l\'encodage de caractères spécifié ici. Toutefois, chaque utilisateur pourra ajuster son encodage si la variable suivante est activée.';
+$string['configsitemaxcategorydepth'] = 'Nombre maximum de niveaux de catégories';
+$string['configsitemaxcategorydepthhelp'] = 'Indique le nombre maximum de niveaux de catégories affichés';
 $string['configsitepolicy'] = 'Si votre site a un règlement que tous les utilisateurs doivent lire et accepter avant d\'utiliser le site, indiquez ici l\'URL de ce règlement. Dans le cas contraire, laissez le champ vide. L\'URL peut pointer n\'importe où. Un endroit pratique serait un fichier dans les fichiers du site, par exemple http://monsite/file.php/1/reglement.html';
 $string['configslasharguments'] = 'Les fichiers (images, fichiers téléchargés, etc.) sont transmis via un script qui utilise les «&nbsp;slash arguments&nbsp;». Cette méthode permet à ces fichiers d\'être plus facilement pris en compte par le système de cache des navigateurs web, les proxy, etc. Cependant certains serveurs PHP n\'autorisent pas cette méthode. Par conséquent veuillez désactiver ce réglage si des problèmes d\'affichage des fichiers ou images téléchargés sont rencontrés.';
 $string['configsmartpix'] = 'Lorsque ce réglage est activé, les icônes sont affichées via un script PHP, qui les cherche dans le thème actuel, puis dans tous les thèmes parents, et finalement dans le dossier /pix de Moodle. Ainsi il n\'est plus nécessaire de dupliquer les images dans les thèmes, pour un léger coût de performance.';
@@ -725,8 +727,6 @@ $string['sitemaintenancemode'] = 'Mode de maintenance';
 $string['sitemaintenanceoff'] = 'Le mode de maintenance a été désactivé et le site fonctionne à nouveau normalement';
 $string['sitemaintenanceon'] = 'Votre site est actuellement en mode maintenance (seuls les administrateurs peuvent se connecter et utiliser le site).';
 $string['sitemaintenancewarning'] = 'Votre site est actuellement en mode de maintenance (seuls les administrateurs peuvent s\'y connecter). Pour revenir à un fonctionnement normal du site, veuillez <a href=\"maintenance.php\">désactiver le mode de maintenance</a>.';
-$string['sitemaxcategorydepth'] = 'Nombre maximum de niveaux de catégories';
-$string['sitemaxcategorydepthhelp'] = 'Indique le nombre maximum de niveaux de catégories affichés';
 $string['sitepolicies'] = 'Règles site';
 $string['sitepolicy'] = 'URL du réglement de site';
 $string['sitesectionhelp'] = 'Si cette option est activée, une section sera affichée sur la page d\'accueil du site.';
