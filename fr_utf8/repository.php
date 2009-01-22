@@ -26,7 +26,7 @@ $string['configcacheexpire'] = 'Durée (en secondes) pendant laquelle les listes
 $string['configsaved'] = 'Configuration enregistrée&nbsp;!';
 $string['confirmdelete'] = 'Voulez-vous vraiment supprimer le dépôt $a&nbsp;?';
 $string['confirmdeletefile'] = 'Voulez-vous vraiment supprimer ce fichier&nbsp;?';
-$string['confirmremove'] = 'Voulez-vous vraiment supprimer le plugin de dépôt $a, ses réglages et <strong style=color:red>toutes ces instances</strong>&nbsp;?';
+$string['confirmremove'] = 'Voulez-vous vraiment supprimer le plugin de dépôt $a, ses réglages et <strong>toutes ces instances</strong>&nbsp;?';
 $string['copying'] = 'Copie en cours';
 $string['create'] = 'Créer';
 $string['createinstance'] = 'Créer une instance de dépôt';

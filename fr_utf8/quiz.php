@@ -708,7 +708,7 @@ $string['unknowntype'] = 'Type de question non supporté à la ligne $a. La ques
 $string['unsupportedformulafunction'] = 'La fonction $a n\'est pas supportée';
 $string['unusedcategorydeleted'] = 'Cette catégorie à été supprimée, car après la suppression du cours, les questions qui y étaient classées ne sont plus utilisées nulle part.';
 $string['updatesettings'] = 'Modifier les réglages du test';
-$string['upgradesure'] = '<div style=\"color: red;\">ATTENTION&nbsp;! Les tables du module Test seront considérablement modifiées, et cette mise à jour n\'a pas encore été suffisamment testée. Nous vous recommandons instamment de faire une copie de sauvegarde de votre base de données avant de continuer&nbsp;!</div>';
+$string['upgradesure'] = '<div>ATTENTION&nbsp;! Les tables du module Test seront considérablement modifiées, et cette mise à jour n\'a pas encore été suffisamment testée. Nous vous recommandons instamment de faire une copie de sauvegarde de votre base de données avant de continuer&nbsp;!</div>';
 $string['url'] = 'URL';
 $string['usedcategorymoved'] = 'Cette catégorie à été déplacée au niveau du site, car elle est publiée et certaines de ses questions sont utilisées dans d\'autres cours.';
 $string['validate'] = 'Valider';
