@@ -2,6 +2,7 @@
 
 // Trouver un meilleur terme que 'balise' pour 'tag': Done
 // On utilise Tag, qui est passé dans les habitudes francophones
+
 $string['addedotag'] = '«&nbsp;$a&nbsp;» a été ajouté comme tag officiel.';
 $string['addotags'] = 'Ajouter des tags officiels';
 $string['addtagtomyinterests'] =  'Ajouter «&nbsp;$a&nbsp;» à mes centres d\'intérêts';
@@ -14,7 +15,7 @@ $string['delete'] = 'Supprimer';
 $string['deleted'] = 'Supprimé';
 $string['deletedcoursetags'] = 'Supprimé - tags de cours';
 $string['edittag'] = 'Modifier ce tag';
-$string['entertags'] = 'Taper des tags séparés par des virgules';
+$string['entertags'] = 'Taper les tags séparés par des virgules';
 $string['errordeleting'] = 'Erreur lors de la suppression du tag d\'identifiant $a. Veuillez informer votre administrateur système.';
 $string['errortagfrontpage'] = 'Il n\'est pas permis de placer des tags sur la page principale du site';
 $string['errorupdatingrecord'] = 'Erreur lors de la modification de l\'enregistrement du tag';
