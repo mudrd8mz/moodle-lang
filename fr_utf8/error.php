@@ -398,6 +398,7 @@ $string['sessionerroruser'] = 'Votre session est échue. Veuillez vous connecter
 $string['sessionerroruser2'] = 'Une erreur du serveur affectant votre session de connexion a été détectée. Veuillez vous connecter à nouveau ou relancer votre navigateur';
 $string['sessionipnomatch'] = 'Votre adresse IP semble avoir changé depuis votre connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Les utilisateurs ne devraient en principe pas rencontrer ce message. Veuillez demander de l\'aide à l\'administrateur de ce site';
 $string['sessionipnomatch2'] = 'Votre adresse IP semble avoir changé depuis votre connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Cette erreur peut survenir lors de l\'utilisation de réseaux sans fils ou si vous passez d\'un réseau à un autre (itinérance). Pour plus d\'informations, veuillez contacter votre administrateur.<br /><br />Si vous voulez continuer, veuillez actualiser l\'affichage de cette page.';
+$string['sessionnotwritable'] = 'Un problème de permission d\'écriture a été détecté dans le dossier de session.<br /><br />Veuillez en informer l\'administrateur.';
 $string['socksnotsupported'] = 'Le proxy SOCKS5 n\'est pas supporté en PHP4';
 $string['spellcheckernotconf'] = 'Le correcteur orthographique n\'est pas configuré';
 $string['sslonlyaccess'] = 'Pour des raisons de sécurité, seules les connexions sécurisées https sont autorisées.';
