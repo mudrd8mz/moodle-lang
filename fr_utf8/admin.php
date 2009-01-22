@@ -599,6 +599,7 @@ $string['performance'] = 'Performance';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = 'Paramètre de version/cluster de PostgreSQL pour les opérations en ligne de commande. Si vous n\'avez qu\'un seul postgresql sur votre serveur ou n\'êtes pas sûr de ce dont il s\'agit, laissez ce champ vide.';
 $string['php50restricted'] = 'Les versions 5.0.x de PHP ont plusieurs problèmes connus. Veuillez mettre à jour PHP à la version 5.1.x ou revenir à une version 4.3.x ou 4.4.x';
+$string['phpfloatproblem'] = 'Un problème a été détecté dans le traitement des nombres par PHP&nbsp;: $a';
 $string['pleaserefreshregistration'] = 'Votre site a été enregistré sur moodle.org. Veuillez envisager de mettre à jour cet enregistrement si des modifications importantes sont survenues depuis votre dernière mise à jour, le $a';
 $string['pleaseregister'] = 'Pour enlever ce bouton, veuillez enregistrer votre site';
 $string['plugins'] = 'Plugins';
