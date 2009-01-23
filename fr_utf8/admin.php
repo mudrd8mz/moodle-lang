@@ -438,6 +438,7 @@ $string['guestroleid'] = 'Rôle pour utilisateur invité';
 $string['helpadminseesall'] = 'Les administrateurs voient-ils tous les événements du calendrier ou seulement leurs propres événements&nbsp;?';
 $string['helpcalendarsettings'] = 'Configurer le calendrier de Moodle';
 $string['helpforcetimezone'] = 'Vous pouvez autoriser les utilisateurs à choisir leur fuseau horaire ou imposer le même fuseau horaire pour tous.';
+$string['helpprofilefieldlink'] = 'Créer un lien depuis les données utilisateur';
 $string['helpsitemaintenance'] = 'Activer le mode de maintenance';
 $string['helpstartofweek'] = 'Quel est le premier jour de la semaine dans le calendrier&nbsp;?';
 $string['helpupcominglookahead'] = 'Par défaut, combien de jours dans le futur le calendrier considère-t-il les événements à venir&nbsp;?';
