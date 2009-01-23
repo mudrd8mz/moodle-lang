@@ -434,6 +434,7 @@ $string['unknownhelp'] = 'Thème $a de l\'aide inconnu';
 $string['unknownrole'] = 'Rôle «&nbsp;$a&nbsp;» inconnu';
 $string['unknownuseraction'] = 'Désolé, je ne comprends pas ce que vous voulez faire';
 $string['unknownuserselector'] = 'Sélecteur d\'utilisateur inconnu';
+$string['unknownsortcolumn'] = 'Colonne de tri $a inconnue';
 $string['unknoworder'] = 'Ordre de tri inconnu';
 $string['unknowparamtype'] = 'Type de paramètre inconnu&nbsp;: $a';
 $string['unknowquestiontype'] = 'Type de question inconnu&nbsp; $a';
