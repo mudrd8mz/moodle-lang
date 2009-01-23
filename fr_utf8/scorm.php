@@ -160,6 +160,7 @@ $string['review'] = 'Relecture';
 $string['reviewmode'] = 'Mode relecture';
 $string['scoes'] = 'Objets d\'apprentissage';
 $string['score'] = 'Résultat';
+$string['scorm:deleteresponses'] = 'Supprimer les tentatives SCORM';
 $string['scorm:savetrack'] = 'Enregistrer les traces';
 $string['scorm:skipview'] = 'Sauter la vue d\'ensemble';
 $string['scorm:viewreport'] = 'Voir les rapports';
