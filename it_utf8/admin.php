@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -335,7 +335,7 @@ $string['debugnone'] = 'NESSUNO: Non mostrare alcun errore o segnalazione';
 $string['debugnormal'] = 'NORMALE: Mostra errori, segnalazioni e avvisi';
 $string['debugsmtp'] = 'Invio email per debug';
 $string['defaultallowedmodules'] = 'Moduli autorizzati per default';
-$string['defaultcourseroleid'] = 'Ruolo di default degli utenti di un corso';
+$string['defaultcourseroleid'] = 'Ruolo di default per gli utenti nei corsi';
 $string['defaulthtmleditor'] = 'Editor HTML di default';
 $string['defaultrequestcategory'] = 'Categoria per i corsi a richiesta';
 $string['defaultsettinginfo'] = 'Default: $a';
@@ -422,7 +422,7 @@ $string['forcetimezone'] = 'Forza il fuso orario di default';
 $string['framename'] = 'Nome del frame';
 $string['frontpage'] = 'Pagina principale';
 $string['frontpagebackup'] = 'Backup';
-$string['frontpagedefaultrole'] = 'Ruolo default pagina principale';
+$string['frontpagedefaultrole'] = 'Ruolo di default per la pagina principale';
 $string['frontpageloggedin'] = 'Elementi della pagina principale dopo il login';
 $string['frontpagequestions'] = 'Domande';
 $string['frontpagerestore'] = 'Ripristina';

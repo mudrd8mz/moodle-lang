@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081128) (2008112600)
+      // role.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
 $string['addrole'] = 'Aggiungi un nuovo ruolo';
@@ -15,7 +15,7 @@ $string['assignmentcontext'] = 'Contesto di attribuzione';
 $string['assignmentoptions'] = 'Opzioni di attribuzione';
 $string['assignrolenameincontext'] = 'Attribuisci ruolo \'$a->role\' in $a->context';
 $string['assignroles'] = 'Ruoli';
-$string['assignrolesin'] = 'Attribuire ruoli nel contesto $a';
+$string['assignrolesin'] = 'Attribuzione di ruoli nel contesto $a';
 $string['backtoallroles'] = 'Torna all\'elenco di tutti i ruoli';
 $string['block:view'] = 'Visualizza blocco';
 $string['blog:create'] = 'Creare nuovi interventi nei blog';
@@ -69,7 +69,7 @@ $string['currentcontext'] = 'Contesto attuale';
 $string['currentrole'] = 'Ruolo attuale';
 $string['defaultrole'] = 'Ruolo di default';
 $string['defaultx'] = 'Default: $a';
-$string['defineroles'] = 'Ruoli';
+$string['defineroles'] = 'Gestione ruoli';
 $string['deletecourseoverrides'] = 'Cancellare tutte le modifiche di ruolo nel corso';
 $string['deletelocalroles'] = 'Cancellare tutte le assegnazioni locali di ruolo';
 $string['deleterolesure'] = '<p> Sei sicuro di voler cancellare \"$a->name ($a->shortname)\"?</p><p>Attualmente questo ruolo è assegnato a $a->count utenti.</p>';
@@ -106,14 +106,14 @@ $string['hidden'] = 'Ruolo nascosto';
 $string['inactiveformorethan'] = 'non attivo per più di $a->timeperiod';
 $string['ingroup'] = 'nel gruppo \"$a->group\"';
 $string['inherit'] = 'Eredita';
-$string['legacy:admin'] = 'RUOLO ORIGINARIO: Amministratore';
-$string['legacy:coursecreator'] = 'RUOLO ORIGINARIO: Creatore corsi';
-$string['legacy:editingteacher'] = 'RUOLO ORIGINARIO: Docente (editor)';
-$string['legacy:guest'] = 'RUOLO ORIGINARIO: Ospite';
-$string['legacy:student'] = 'RUOLO ORIGINARIO: Studente';
-$string['legacy:teacher'] = 'RUOLO ORIGINARIO: Docente (non editor)';
-$string['legacy:user'] = 'RUOLO ORIGINARIO: Utente registrato';
-$string['legacytype'] = 'Tipo di ruolo originario';
+$string['legacy:admin'] = 'RUOLO ORIGINE: Amministratore';
+$string['legacy:coursecreator'] = 'RUOLO ORIGINE: Creatore corsi';
+$string['legacy:editingteacher'] = 'RUOLO ORIGINE: Docente (editor)';
+$string['legacy:guest'] = 'RUOLO ORIGINE: Ospite';
+$string['legacy:student'] = 'RUOLO ORIGINE: Studente';
+$string['legacy:teacher'] = 'RUOLO ORIGINE: Docente (non editor)';
+$string['legacy:user'] = 'RUOLO ORIGINE: Utente registrato';
+$string['legacytype'] = 'Tipo di ruolo origine';
 $string['listallroles'] = 'Elenco di tutti i ruoli';
 $string['localroles'] = 'Ruoli assegnati localmente';
 $string['manageroles'] = 'Gestione ruoli';
@@ -161,7 +161,7 @@ $string['question:viewall'] = 'Visualizzare tutte le domande';
 $string['question:viewmine'] = 'Visualizzare solo le proprie domande';
 $string['resetrole'] = 'Ripristina il default';
 $string['resetrolenolegacy'] = 'Annulla le autorizzazioni';
-$string['resetrolesure'] = 'Sei sicuro di voler ripristinare i defaults del ruolo \"<b>$a->name ($a->shortname)</b>\"?<p></p>I defaults sono presi dai privilegi del tipo di ruolo originario selezionato (<b>$a->legacytype</b>).';
+$string['resetrolesure'] = 'Sei sicuro di voler ripristinare i defaults del ruolo \"<b>$a->name ($a->shortname)</b>\"?<p></p>I defaults sono presi dai privilegi del tipo di ruolo origine selezionato (<b>$a->legacytype</b>).';
 $string['resetrolesurenolegacy'] = 'Sei sicuro di voler azzerare tutte le autorizzazioni definite in questo ruolo  \"<b>$a->name ($a->shortname)</b>\"?';
 $string['risks'] = 'Rischi';
 $string['role:assign'] = 'Attribuire ruoli agli utenti';
