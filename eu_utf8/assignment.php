@@ -7,6 +7,8 @@ $string['allowmaxfiles'] = 'Igotzeko gehienezko fitxategi-kopurua';
 $string['allownotes'] = 'Oharrak idazten utzi';
 $string['allowresubmit'] = 'Berbidalketa baimendu';
 $string['alreadygraded'] = 'Zure zeregina dagoeneko kalifikatu egin da eta berbidalketa ez dago gaituta';
+$string['assignment:exportownsubmission'] = 'Esportatu gure bidalketa';
+$string['assignment:exportsubmission'] = 'Esportatu bidalketa';
 $string['assignment:grade'] = 'Zeregina kalifikatu';
 $string['assignment:submit'] = 'Zeregina bidali';
 $string['assignment:view'] = 'Zeregina ikusi';
@@ -21,6 +23,8 @@ $string['assignmentname'] = 'Zereginaren izena';
 $string['assignmenttype'] = 'Zeregin-mota';
 $string['availabledate'] = 'Noiztik aurrera eskuragarri';
 $string['cannotdeletefiles'] = 'Errorea gertatu da eta fitxategiak ezin dira ezabatu';
+$string['cannotinsertempty'] = 'Ezin da txertatu beste bidalketa huts bat';
+$string['cannotviewassignment'] = 'Ein duzu zeregin hau ikusi';
 $string['comment'] = 'Iruzkina';
 $string['commentinline'] = 'Lerro arteko iruzkina';
 $string['configitemstocount'] = 'Ikasleek on-line eginkizunetako bidalketetan kontuan hartu behar diren itemen izaera';
@@ -62,6 +66,10 @@ $string['helpupload'] = '<p>Zeregin mota honek edozein motatako fitxategi bat ed
 <p>Zeuk ere edozein motatako hainbat erantzun-fitxategi igo dezakezu.</p>';
 $string['helpuploadsingle'] = '<p>Eginkizun-mota honetan partaideek edozein motatako fitxategi bakarra igo beharko dute.</p><p>Word-en egindako dokumentua, irudia, web gune konprimitua izan daiteke edo bidaltzeko esaten zaien beste edozer.</p>';
 $string['hideintro'] = 'Deskribapena eskura dagoen data baino lehen ezkutatu';
+$string['invalidassignment'] = 'Zeregina ez da zuzena';
+$string['invalidid'] = 'Zereginaren IDa ez da zuzena';
+$string['invalidtype'] = 'Zeregin-mota ez da zuzena';
+$string['invaliduserid'] = 'Erabiltzailearen IDak ez du balio';
 $string['itemstocount'] = 'Zenbakia';
 $string['late'] = '$a berandu';
 $string['maximumgrade'] = 'Gehienezko kalifikazioa';
@@ -120,8 +128,5 @@ $string['uploadsuccess'] = '\'$a\' ongi igo da';
 $string['viewfeedback'] = 'Zereginen kalifikazioak eta erantzunak ikusi';
 $string['viewsubmissions'] = 'Bidalitako $a zeregin ikusi';
 $string['yoursubmission'] = 'Zure bidalketa';
-$string['invalidassignment'] = 'Zeregina ez da zuzena'; // ORPHANED
-$string['invalidid'] = 'Zereginaren IDa ez da zuzena'; // ORPHANED
-$string['invalidtype'] = 'Zeregin-mota ez da zuzena'; // ORPHANED
 
 ?>

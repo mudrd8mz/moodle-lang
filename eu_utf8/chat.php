@@ -2,11 +2,17 @@
       // chat.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
+$string['ajax'] = 'Ajax erabiltzen duen bertsioa';
 $string['autoscroll'] = 'Korritze automatikoa';
 $string['beep'] = 'Abisatu';
+$string['cantinsert'] = 'Ezin da txat-mezurik txertatu!';
+$string['cantlogin'] = 'Ezin da sartu txat-gelan!!!';
 $string['chat:chat'] = 'Hitz egin';
 $string['chat:deletelog'] = 'Txataren agerraldiak ezabatu';
+$string['chat:exportparticipatedsession'] = 'Esportatu txat-saioan parte hartutakoak';
+$string['chat:exportsession'] = 'Esportatu txat-saioetako txostenak';
 $string['chat:readlog'] = 'Txataren agerraldiak irakurri';
+$string['chat:talk'] = 'Hitz egin txatean';
 $string['chatintro'] = 'Sarrera-testua';
 $string['chatname'] = 'Txat-gela honen izena';
 $string['chatreport'] = 'Txat-saioetako txostenak';
@@ -33,6 +39,8 @@ $string['explainmethodnormal'] = 'Egokitzapen hauek chat_method -en \"Metodo arr
 $string['generalconfig'] = 'Ezarpen orokorrak';
 $string['helpchatting'] = 'Txateatzeko laguntza';
 $string['idle'] = 'Abian jarri gabe';
+$string['inputarea'] = 'Input gunea';
+$string['invalidid'] = 'Ezin da bilatu txat-gela hau';
 $string['messagebeepseveryone'] = '$a-(e)k dio: Aizue! Hemen nago!';
 $string['messagebeepsyou'] = '$a-(e)k dio: Aizu! Hemen nago!';
 $string['messageenter'] = '$a oraintxe sartu da gelan';
@@ -45,11 +53,13 @@ $string['modulename'] = 'Txat-gela';
 $string['modulenameplural'] = 'Txat-gelak';
 $string['neverdeletemessages'] = 'Ez ezabatu mezuak';
 $string['nextsession'] = 'Programatutako hurrengo txat-saioa';
+$string['nochat'] = 'Ez dago txatik';
 $string['noguests'] = 'Txat-gela honetan ezin bisitariak sartu';
 $string['nomessages'] = 'Ez dago mezurik oraindik';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Ez dago programatuta txat-saiorik';
+$string['notlogged'] = 'Identifikatu gabe!';
 $string['oldping'] = 'Itxaroteko epea deskonektatu';
 $string['pastchats'] = 'Izandako txat-saioak';
 $string['refreshroom'] = 'Gela freskatu';
@@ -59,8 +69,11 @@ $string['repeatdaily'] = 'Egunero ordu berean';
 $string['repeatnone'] = 'Ez errepikatu - zehaztutako ordua bakarrik argitaratu';
 $string['repeattimes'] = 'Errepikatu saioak';
 $string['repeatweekly'] = 'Astero ordu berean';
+$string['saidto'] = '<b>zera dio</b>';
 $string['savemessages'] = 'Izan diren txat-saioak gorde';
 $string['seesession'] = 'Ikusi saio honetako txostena';
+$string['send'] = 'Bidali';
+$string['sending'] = 'Bidaltzen';
 $string['serverhost'] = 'Zerbitzariaren izena';
 $string['serverip'] = 'Zerbitzariaren IPa';
 $string['servermax'] = 'Gehienezko erabiltzaileak';
@@ -69,6 +82,8 @@ $string['sessions'] = 'Txat-saioetako txostenak';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Denek ikus ditzakete izandako saioetako txostenak';
 $string['updatemethod'] = 'Metodoa eguneratu';
+$string['updaterate'] = 'Eguneratu kalifikazioa:';
+$string['userlist'] = 'Erabiltzaile-zerrenda';
 $string['viewreport'] = 'Izan diren txat-saioak ikusi';
 
 ?>
