@@ -9,8 +9,8 @@ $string['description'] = '<p>あなたのユーザ登録をコントロールす
 <p>このプラグインでは、新しいグループがLDAP内に作成された場合、自動的に新しいコースを作成することもできます。</p>';
 $string['enrol_ldap_autocreate'] = 'Moodle内に存在しないコースにユーザが登録された場合、自動的にコースを作成することができます。';
 $string['enrol_ldap_autocreation_settings'] = 'コース自動作成設定';
-$string['enrol_ldap_bind_dn'] = 'あなたがbindユーザをユーザ検索に使用したい場合、ここで指定してください。「cn=ldapuser,ou=public,o=org」のような設定となります。';
-$string['enrol_ldap_bind_pw'] = 'bindユーザのパスワードです。';
+$string['enrol_ldap_bind_dn'] = 'あなたがバインドユーザをユーザ検索に使用したい場合、ここで指定してください。「cn=ldapuser,ou=public,o=org」のような設定となります。';
+$string['enrol_ldap_bind_pw'] = 'ユーザバインドのパスワードです。';
 $string['enrol_ldap_category'] = '自動的に作成されるコースのカテゴリです。';
 $string['enrol_ldap_contexts'] = 'LDAPコンテクスト';
 $string['enrol_ldap_course_fullname'] = '任意:「名称」を取得するLDAPフィールドです。';
