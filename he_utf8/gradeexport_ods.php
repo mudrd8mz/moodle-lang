@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // gradeexport_ods.php - created with Moodle 1.8 + (2007021503)
+      // gradeexport_ods.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['modulename'] = 'ייצא לגליון האלקטרוני של  OpenOffice';
+$string['ods:publish'] = 'פרסם יצוא ציונים ODS';
+$string['ods:view'] = 'השתמש ביצוא ציונים OpenDocument';
 
 ?>

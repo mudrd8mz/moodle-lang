@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta 4 (2007101507)
+      // glossary.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addcomment'] = 'הוסף הערה';
@@ -104,6 +104,7 @@ $string['explainimport'] = 'עליך לציין את הקובץ שיש לייב�
 $string['explainspecial'] = 'מציג מונחים שלא מתחילים עם אות.';
 $string['exportedentry'] = 'מונח מיוצא';
 $string['exportentries'] = 'ייצא מונחים';
+$string['exportentriestoxml'] = 'ייצא מונחים לקובץ XML';
 $string['exportfile'] = 'ייצא מונחים לקובץ';
 $string['exportglossary'] = 'ייצא אגרון מונחים';
 $string['exporttomainglossary'] = 'ייצא לאגרון המונחים הראשי';
