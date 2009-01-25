@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -134,6 +134,7 @@ $string['configenablerssfeedsdisabled'] = 'Dit is niet beschikbaar omdat RSS voo
 $string['configenablerssfeedsdisabled2'] = 'RSS-feeds zijn uitgeschakeld op serverniveau. Je moet ze inschakelen in Server/RSS.';
 $string['configenablestats'] = 'Als je hier \'ja\' kiest, zal de cron van Moodle de logbestanden verwerken en statistieken aanmaken. Afhankelijk van de hoeveelheid verkeer op je site, kan dit wel even duren. Als je dit inschakelt kun je interessante grafieken en statistieken zien over elke cursus of over de hele site.';
 $string['configenabletrusttext'] = 'Moodle zal altijd tekst, afkomstig van gebruikers, grondig opschonen. Zo worden gevaarlijke scripts, media enz., die een beveiligingsrisico kunnen zijn, verwijderd. Het vertrouwde inhoudsysteem is een manier om het voor bepaalde gebruikers toch mogelijk te maken om geavanceerde functies in hun cursusmateriaal te gebruiken. Om dit systeem in te schakelen, moet je eerst hier de instelling inschakelen en dan het Vertrouwde Inhoud-recht toekennen aan een specifieke Moodle rol. Teksten die gemaakt of geüpload worden door gebruikers met die rol, zullen als vertrouwd gemarkeerd worden en zullen niet opgeschoond worden voor ze getoond worden.';
+$string['configenablewebservices'] = 'Webservices maken het mogelijk dat andere systemen aanmelden in deze Moodle-installatie en acties uitvoeren. Voor extra veiligheid moet dit uitgeschakeld worden tenzij je het echt gebruikt.';
 $string['configenrolmentplugins'] = 'Kies de aanmeldingsplugins die je wil gebruiken. Vergeet niet om de instellingen er van behoorlijk te configureren.<br /><br />Je moet aangeven welke plugins ingeschakeld zijn, en <strong>één</strong> plugin kan als standaard plugin voor <em>interactieve</em> aanmelding gekozen worden. Om deze interactieve aanmelding uit te schakelen, zet je \"Aanmelden in de cursus mogelijk\" op \"Nee\" in de bedoelde cursus.';
 $string['configerrorlevel'] = 'Kies hoeveel PHP-waarschuwingen je wilt dat Moodle laat zien. \'Normaal\' is meestal de beste keuze.';
 $string['configextendedusernamechars'] = 'Schakel deze optie in om het mogelijk te maken dat gelijk welke karakters in de gebruikersnaam gebruikt kunnen worden (merk op dat deze instelling geen invloed heeft op de voornaam of achternaam). De standaardinstelling is \"false\", wat ervoor zorgt dat alleen alfanumerieke tekens gebruikt kunnen worden.';
@@ -244,6 +245,8 @@ $string['configsessiontimeout'] = 'Als mensen die ingelogd zijn op deze site voo
 $string['configshowblocksonmodpages'] = 'Sommige modules ondersteunen blokken op hun pagina\'s. Als je dit inschakelt, dan kunnen leraren blokken aan de zijkant van deze pagina\'s zetten, anders toont de interface deze functie niet.';
 $string['configshowsiteparticipantslist'] = 'Al deze site leerlingen en site leraren zullen op de site deelnemerslijst getoond worden. Wie heeft het recht om deze lijs te zien?';
 $string['configsitemailcharset'] = 'Alle e-mails die door je site gegenereerd worden, zullen in de tekenset die je hier specifieerd verstuurd worden. Elke gebruiker kan deze instelling wijzigen als voor de volgende instelling ja gekozen wordt.';
+$string['configsitemaxcategorydepth'] = 'Maximum Categoriediepte';
+$string['configsitemaxcategorydepthhelp'] = 'Dit specificeert de maximumdiepte van getoonde onderliggende categorieën';
 $string['configsitepolicy'] = 'Als je een overeenkomst hebt voor het gebruik van de site die alle gebruikers moeten zien voor ze deze site gebruiken, geef dan hier een de URL naar die pagina op, anders laat je dit veld leeg. De URL kan naar gelijk waar verwijzen - een voor de hand liggende plaats zou een bestand tussen de sitebestanden zijn, bijvoorbeeld http://jouwsite/file.php/1/overeenkomst.html';
 $string['configslasharguments'] = 'Bestanden (afbeeldingen, uploads en dergelijke) worden via een script aangeleverd dat gebruik maakt van \'slash arguments\' (hier de tweede optie). Deze methode zorgt ervoor dat bestanden makkelijker in webbrowsers, proxyservers en dergelijke kunnen worden gecachet. Helaas staan sommige PHP-servers deze methode niet toe. Dus kies de eerste optie als je problemen hebt met het bekijken van geüploade bestanden of afbeeldingen (bijvoorbeeld afbeeldingen van gebruikers).';
 $string['configsmartpix'] = 'Met deze optie ingeschakeld worden icoontjes opgehaald door een PHP-script dat eerst het huidige thema doorzoekt, dan alle bovenliggende thema\'s en dan de Moodle/pix map. Hierdoor is het niet nodig de afbeeldingsbestanden te dupliceren over de verschillende thema\'s. Het heeft wel een kleine performantiekost.';
@@ -376,6 +379,7 @@ $string['enablerecordcache'] = 'Record cache inschakelen';
 $string['enablerssfeeds'] = 'RSS-feeds inschakelen';
 $string['enablestats'] = 'Statistieken inschakelen';
 $string['enabletrusttext'] = 'Vertrouwde Inhoud inschakelen';
+$string['enablewebservices'] = 'Webservices inschakelen';
 $string['encoding'] = 'Codering';
 $string['enrolmultipleusers'] = 'Gebruikers aanmelden';
 $string['environment'] = 'Omgeving';
@@ -607,6 +611,7 @@ $string['performance'] = 'Prestaties';
 $string['pgcluster'] = 'PostgreSQL Cluster';
 $string['pgclusterdescription'] = '<pre>PostgeSQL versie/cluster parameter voor operaties via commandprompt. Als je slechts één PostgreSQL op je systeem hebt of je weet niet wat dit is, laat dit veld dan leeg.</pre>';
 $string['php50restricted'] = 'PHP 5.0.x heeft een heel aantal bekende problemen. Upgrade naar 5.1.x of downgrade naar 4.3.x of 4.4.x';
+$string['phpfloatproblem'] = 'Onverwacht probleem gevonden bij het behandelen van PHP float numbers - $a';
 $string['pleaserefreshregistration'] = 'Je site is geregistreerd bij moodle.org. Update je registratie als er grote wijzigingen aan je site zijn sinds je laatste registratie.';
 $string['pleaseregister'] = 'Registreer aub je site.  Op die manier kun je deze knop verwijderen.';
 $string['plugins'] = 'Modules';
@@ -733,8 +738,6 @@ $string['sitemaintenancemode'] = 'Onderhoudsmodus';
 $string['sitemaintenanceoff'] = 'De onderhoudsmodus is uitgeschakeld en de site loopt nu terug normaal';
 $string['sitemaintenanceon'] = 'Je site is nu in onderhoudsmodus (alleen beheerders kunnen inloggen of gebruik maken van de site)';
 $string['sitemaintenancewarning'] = 'Je site is nu in onderhoudsmodus (alleen beheerders kunnen inloggen of gebruik maken van de site). Om terug te keren naar normale werking: <a href=\"maintenance.php\">onderhoudsmodus uitschakelen</a>';
-$string['sitemaxcategorydepth'] = 'Maximum diepte categorieën';
-$string['sitemaxcategorydepthhelp'] = 'Dit specifieert het maximum aantal onderliggende categorieën';
 $string['sitepolicies'] = 'Site reglement';
 $string['sitepolicy'] = 'URL voor site afspraken';
 $string['sitesectionhelp'] = 'Indien gekozen wordt er een onderwerpsectie getoond op de startpagina van de site';
@@ -798,7 +801,8 @@ $string['upgradesure'] = 'De bestanden op je Moodleserver zijn gewijzigd en je g
 $string['upgradetimedout'] = 'Er is een time-out opgetreden. Herstart de upgrade.';
 $string['upgradingdata'] = 'Bezig met het upgraden van de gegevens';
 $string['upgradinglogs'] = 'Bezig met upgraden van logs';
-$string['uploadpicture_baduserfield'] = 'Het gespecifiëerde gebruikersattribuut is niet geldig. Probeer opnieuw.';
+$string['upgradingversion'] = 'Upgraden naar nieuwe versie';
+$string['uploadpicture_baduserfield'] = 'Het gespecificeerde gebruikersattribuut is niet geldig. Probeer opnieuw.';
 $string['uploadpicture_cannotmovezip'] = 'Kan zip-bestand niet naar tijdelijke map verplaatsten.';
 $string['uploadpicture_cannotprocessdir'] = 'Kan uitgepakte bestanden niet verwerken';
 $string['uploadpicture_cannotsave'] = 'Kan afbeelding voor gebruiker $a niet bewaren. Controleer het originele afbeeldingsbestand.';
@@ -859,6 +863,8 @@ $string['webproxyinfo'] = 'Vul onderstaande opties in als je Moodle server niet 
 $string['xmlrpcrecommended'] = 'Het installeren van de optionele XMLRPC-extentie is nuttig voor de werking van Moodle Netwerk';
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['ziprequired'] = 'De ZIP-PHP-extentie is nu vereist voor Moodle. Info-ZIP en PclZip worden niet meer gebruikt.';
+$string['sitemaxcategorydepth'] = 'Maximum diepte categorieën'; // ORPHANED
+$string['sitemaxcategorydepthhelp'] = 'Dit specifieert het maximum aantal onderliggende categorieën'; // ORPHANED
 $string['optionalsubsystems'] = 'Optionele subsystemen'; // ORPHANED
 $string['repsettings'] = 'Beheer bibliotheken'; // ORPHANED
 $string['repsettingsgeneral'] = 'Algemene bibliotheekinstellingen'; // ORPHANED
