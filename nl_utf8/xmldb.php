@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
 
 
 $string['actual'] = 'Actueel';
@@ -12,9 +12,11 @@ $string['change'] = 'Wijzig';
 $string['charincorrectlength'] = 'Foute lengte voor char veld';
 $string['check_bigints'] = 'Zoek foute DB integers';
 $string['check_defaults'] = 'Zoek naar onconsistente standaardwaarden';
+$string['check_foreign_keys'] = 'Zoek foreign key schendingen';
 $string['check_indexes'] = 'Zoek ontbrekende DB indexen';
 $string['checkbigints'] = 'Controleer Bigints';
 $string['checkdefaults'] = 'Controleer standaardwaarden';
+$string['checkforeignkeys'] = 'Controleer foreign keys';
 $string['checkindexes'] = 'Controleer indexen';
 $string['completelogbelow'] = '(complete log van zoeken onderaan)';
 $string['confirmcheckbigints'] = 'Deze functie zal zoeken naar <a href=\"http://tracker.moodle.org/browse/MDL-11038\"> mogelijk foute integer velden op je Moodle server, en hierbij automatisch de nodige SQL-statements genereren (maar niet uitvoeren!) om alle integer velden in je DB juist te zetten. Eens gegenereerd kun je die statements kopiëren en veilig uitvoeren in je favoriete SQL-interface<br /><br />
@@ -46,6 +48,7 @@ $string['delete_sentence'] = 'Verwijder zin';
 $string['delete_statement'] = 'Verwijder stelling';
 $string['delete_table'] = 'Verwijder tabel';
 $string['delete_xml_file'] = 'Verwijder XML-bestand';
+$string['doc'] = 'Doc';
 $string['down'] = 'Omlaag';
 $string['duplicate'] = 'Dupliceer';
 $string['duplicatefieldname'] = 'Er bestaat al een veld met die naam';
@@ -67,6 +70,7 @@ $string['fieldsusedinkey'] = '[[Onvolledige taalstring op lijn \' . __LINE__ . \
 $string['filenotwriteable'] = 'Bestand niet beschrijfbaar';
 $string['floatincorrectdecimals'] = 'Fout aantal decimalen voor float veld';
 $string['floatincorrectlength'] = 'Foute lengte voor float veld';
+$string['generate_documentation'] = 'Documentatie';
 $string['gotolastused'] = 'Laatst gebruikte bestand';
 $string['incorrectfieldname'] = 'Foute naam';
 $string['index'] = 'Index';
@@ -95,6 +99,7 @@ $string['newstatement'] = 'Nieuwe stelling';
 $string['newtable'] = 'Nieuwe tabel';
 $string['newtablefrommysql'] = 'Nieuwe tabel van MySQL';
 $string['nomissingindexesfound'] = 'Er zijn geen ontbrekende indexen gevonden, er moet niets aan je databank gewijzigd worden.';
+$string['noviolatedforeignkeysfound'] = 'Geen foute foreign keys gevonden';
 $string['nowrongdefaultsfound'] = 'Er werden geen inconsistente standaardwaarden gevonden; Je databank is in orde.';
 $string['nowrongintsfound'] = 'Geen foute integers gevonden - er is verder geen actie nodig.';
 $string['numberincorrectdecimals'] = 'Fout aantal deximalen voor numeriek veld';
@@ -131,6 +136,9 @@ $string['viewedited'] = 'Bekijk bewerkt';
 $string['vieworiginal'] = 'Bekijk origineel';
 $string['viewphpcode'] = 'Bekijk PHP code';
 $string['viewsqlcode'] = 'Bekijk SQL code';
+$string['violatedforeignkeys'] = 'Geschonden foreign keys';
+$string['violatedforeignkeysfound'] = 'Geschonden foreign keys gevonden';
+$string['violations'] = 'Schendingen';
 $string['wrong'] = 'Fout';
 $string['wrongdefaults'] = 'Verkeerde standaardwaarden gevonden';
 $string['wrongints'] = 'Foute integers gevonden';
