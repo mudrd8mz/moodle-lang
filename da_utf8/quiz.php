@@ -11,6 +11,7 @@ $string['acceptederror'] = 'Accepteret fejl';
 $string['action'] = 'Handling';
 $string['adaptive'] = 'Adaptiv tilstand';
 $string['addcategory'] = 'Tilføj kategori';
+$string['addingcalculated'] = 'Tilføjer beregningsspørgsmål';
 $string['addingdescription'] = 'Tilføjer beskrivelse';
 $string['addingessay'] = 'Tilføjer tekstsvar';
 $string['addingmatch'] = 'Tilføjer match-spørgsmål';
@@ -96,6 +97,7 @@ $string['categorynamecantbeblank'] = 'Kategorinavnet må ikke være tomt';
 $string['categorynoedit'] = 'Du har ikke tilladelse til at ændre kategorien \"$a\".';
 $string['categoryupdated'] = 'Kategorien blev opdateret';
 $string['changessaved'] = 'Gradueringsændringer gemt';
+$string['changessavedwitherrors'] = 'Der opstod nogle fejl under lagring af de ændrede karakterer';
 $string['checkanswer'] = 'Kontroller';
 $string['choice'] = 'Valg';
 $string['choices'] = 'Mulige valg';
@@ -182,7 +184,23 @@ $string['editqcats'] = 'Rediger svarkategorier';
 $string['editquestions'] = 'Rediger spørgsmål';
 $string['editquiz'] = 'Rediger quiz';
 $string['editquizquestions'] = 'Rediger quizspørgsmål';
+$string['emailconfirmbody'] = 'Kære $a->username,
+
+Tak for din aflevering af 
+\'$a->quizname\'
+i kurset \'$a->coursename\',  $a->submissiontime.
+
+Denne e-mail bekræfter at vi har modtaget dine svar.
+
+Du kan se quizzen her: $a->quizurl.';
 $string['emailconfirmsubject'] = 'Afleveret quizzen: $a->quizname';
+$string['emailnotifybody'] = 'Kære $a->username,
+
+$a->studentname har afsluttet quizzen
+\'$a->quizname\' ($a->quizurl)
+på kurset \'$a->coursename\'
+
+Du kan gennemse quizzen her: $a->quizreviewurl.';
 $string['emailnotifysubject'] = '$a->studentname har fuldført quizzen $a->quizname';
 $string['errorinquestion'] = 'Fejl i spørgsmålet';
 $string['errormissingquestion'] = 'Fejl: Systemet kan ikke finde spørgsmålet med id\'en $a';
@@ -242,6 +260,7 @@ $string['geometric'] = 'Geometrisk';
 $string['gift'] = 'GIFT format';
 $string['giftleftbraceerror'] = 'Manglende {';
 $string['giftmatchingformat'] = 'Match svar er ikke formatteret korrekt';
+$string['giftnonumericalanswers'] = 'Der blev ikke fundet nogen svar på numerisk spørgsmål';
 $string['giftqtypenotset'] = 'Mangler type på spørgsmål';
 $string['giftrightbraceerror'] = 'Manglende }';
 $string['grade'] = 'Vurdering';
@@ -251,6 +270,7 @@ $string['gradeboundary'] = 'Pointgrænse';
 $string['gradeessays'] = 'Vurder tekstsvar';
 $string['gradehighest'] = 'Højeste vurdering';
 $string['grademethod'] = 'Vurdering ved gentagne forsøg';
+$string['gradesdeleted'] = 'Karakterer på quiz slettet';
 $string['gradesofar'] = '$a->method: $a->mygrade / $a->quizgrade.';
 $string['gradingdetails'] = 'Vurdering: $a->raw af $a->max point.';
 $string['gradingdetailsadjustment'] = 'Fratrukket tidligere strafpoints bliver resultatet <strong>$a->cur/$a->max</strong>';
@@ -371,7 +391,7 @@ $string['partiallycorrect'] = 'Delvist korrekt';
 $string['passworderror'] = 'Adgangskoden var forkert';
 $string['penalty'] = 'Strafpoint';
 $string['penaltyfactor'] = 'Strafkvotient';
-$string['penaltyscheme'] = 'Fastsæt strafpoint';
+$string['penaltyscheme'] = 'Fastsæt <acronym title=\"kun for adaptiv tilstand\">strafpoint</acronym>';
 $string['percentcorrect'] = 'Procent korrekt';
 $string['pleaseclose'] = 'Din forespørgsel er blevet behandlet. Du kan nu lukke dette vindue';
 $string['popup'] = 'Vis quizzen i et beskyttet vindue';
@@ -417,7 +437,7 @@ $string['quizclosed'] = 'Quizzen lukkede $a';
 $string['quizcloses'] = 'Quizzen lukker';
 $string['quizcloseson'] = 'Quizzen lukker $a';
 $string['quiznotavailable'] = 'Quizzen er ikke tilgængelig førend: $a';
-$string['quizopen'] = 'Åben fra:';
+$string['quizopen'] = 'Åben fra';
 $string['quizopens'] = 'Quizzen åbner';
 $string['quizsettings'] = 'Quizindstillinger';
 $string['quiztimelimit'] = 'Tidsbegrænsning: $a';
@@ -574,6 +594,8 @@ $string['wronggrade'] = 'Forkert karakter (efter linje $a ) :';
 $string['wronguse'] = 'Du kan ikke anvende siden på denne måde';
 $string['xhtml'] = 'XHTML format';
 $string['xml'] = 'Moodle XML format';
+$string['xmlimportnoname'] = 'Manglende spørgsmålsnavn i xml-fil';
+$string['xmlimportnoquestion'] = 'Manglende spørgsmålstekst i xml-fil';
 $string['xmltypeunsupported'] = 'Svartypen $a er ikke understøttet af XML-importen';
 $string['youneedtoenrol'] = 'Du skal tilmeldes kurset før du kan gennemføre quizzen';
 $string['yourfinalgradeis'] = 'Den endelige vurdering af denne quiz er $a';
