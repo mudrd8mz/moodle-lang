@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
 
 
 $string['1day'] = '1 dag';
@@ -138,10 +138,8 @@ $string['choosedatasetproperties'] = 'Kies de eigenschappen van de gegevensset';
 $string['choosefile'] = 'Kies een bestand';
 $string['close'] = 'Sluit weergave test';
 $string['closebeforeopen'] = 'Kon de test niet aanpassen. De datum die je ingegeven hebt om de test te sluiten is voor de datum om de test te openen.';
-$string['closedat'] = 'gesloten: $a';
 $string['closepreview'] = 'Sluit voorbeeld';
 $string['closereview'] = 'Sluit nalezen';
-$string['closesat'] = 'sluit: $a';
 $string['comment'] = 'Commentaar';
 $string['commentorgrade'] = 'Geef commentaar of verander cijfer';
 $string['comments'] = 'Commentaren';
@@ -468,8 +466,6 @@ $string['onlyteachersexport'] = 'Enkel leraren kunnen vragen exporteren';
 $string['onlyteachersimport'] = 'Enkel leraren met bewerkrechten kunnen vragen importeren';
 $string['open'] = 'Begonnen';
 $string['openclosedatesupdated'] = 'Open- en sluittijden aangepast';
-$string['openedat'] = 'geopend: $a';
-$string['opensat'] = 'opent: $a';
 $string['optional'] = 'optioneel';
 $string['orderandpaging'] = 'Volgorde en paginering';
 $string['orderingquiz'] = 'Volgorde en paginering';
@@ -536,6 +532,7 @@ $string['quiz:ignoretimelimits'] = 'Negeert tijdslimiet op testen';
 $string['quiz:manage'] = 'Testen beheren';
 $string['quiz:preview'] = 'Testen bekijken';
 $string['quiz:regrade'] = 'Testpogingen opnieuw nakijken';
+$string['quiz:reviewmyattempts'] = 'Herlees je eigen pogingen';
 $string['quiz:view'] = 'Testinformatie bekijken';
 $string['quiz:viewreports'] = 'Testresultaten bekijken';
 $string['quizavailable'] = 'De test is beschikbaar tot: $a';
@@ -743,6 +740,10 @@ $string['youmustwait'] = 'Je moet wachten voor je de test opnieuw mag doen. Je m
 $string['youneedtoenrol'] = 'Je moet aangemeld zijn bij deze cursus voor je deze test kunt maken.';
 $string['yourfinalgradeis'] = 'Je eindcijfer voor deze test is $a';
 $string['zerosignificantfiguresnotallowed'] = 'Het juiste antwoord kan geen nul beduidende cijfers hebben!';
+$string['closedat'] = 'gesloten: $a'; // ORPHANED
+$string['closesat'] = 'sluit: $a'; // ORPHANED
+$string['openedat'] = 'geopend: $a'; // ORPHANED
+$string['opensat'] = 'opent: $a'; // ORPHANED
 $string['blackboard_6'] = 'Blackboard V6+'; // ORPHANED
 $string['qti2'] = 'IMS QTI 2.0-opmaak'; // ORPHANED
 $string['reviewnotallowed'] = 'Je hebt voor deze test het recht niet om de testpogingen van andere gebruikers te bekijken.'; // ORPHANED

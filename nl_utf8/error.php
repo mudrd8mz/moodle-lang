@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090111) (2009011100)
+      // error.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
 
 
 $string['TODO'] = 'TE DOEN';
@@ -172,6 +172,7 @@ $string['commentmisconf'] = 'Commentaar ID is slecht geconfigureerd';
 $string['componentisuptodate'] = 'Component niet up-to-date';
 $string['confirmsesskeybad'] = 'Je sessiesleutel om deze actie uit te voeren kon niet bevestigd worden. Deze beveiligingsfunctie verhindert dat er per ongeluk of met verkeerde bedoelingen belangrijke functies in jouw naam uitgevoerd kunnen worden. Bedenk goed of je deze opdracht wel echt wou uitvoeren.';
 $string['couldnotassignrole'] = 'Er gebeurde een ernstige maar niet gespecifieerde fout tijdens het proberen toewijzen van een rol aan jou.';
+$string['countriesphpempty'] = 'Fout: Het bestand countries.php in taalpakket $a is leeg of ontbreekt.';
 $string['coursegroupunknown'] = 'De cursus die met groep $a overeenkomt is niet gespecifieerd';
 $string['coursemisconf'] = 'Cursus isslecht geconfigureerd';
 $string['courserequestdisabled'] = 'Het aanvragen van nieuwe cursussen is uitgeschakeld door de beheerder';
@@ -187,6 +188,9 @@ $string['dbconnectionfailed'] = '<p>Fout: Databank connectie mislukt.</p>
 <p>De site-beheerder zou ook moeten controleren of de databankgegevens correct staan ingevuld in config.php</p>$a';
 $string['dbdriverproblem'] = '<p>Fout: een databank driver probleem detecteerd</p>
 <p>De site beheerder zou de serverconfiguratie moeten controleren</p><p>$a</p>';
+$string['dbsessionbroken'] = 'Ernstig databank sessieprobleem gevonden.<br /><br />Verwittig de serverbeheerder.';
+$string['dbsessionhandlerproblem'] = 'Het opzetten van je databanksessie is mislukt.<br /><br />Verwittig de serverbeheerder';
+$string['dbsessionmysqlpacketsize'] = 'Ernstigge sessiefout gedetecteerd.<br /><br />Verwittig de beheerder. Dit probleem wordt waarschijnlijk veroorzaakt door een te kleine waarde in de max_allowed_packet MySQL-instelling.';
 $string['dbupdatefailed'] = 'Update van de databank mislukt';
 $string['ddlexecuteerror'] = 'DDL sql uitvoeringsfout';
 $string['ddlfieldalreadyexists'] = 'Veld \"$a\" bestaat niet';
@@ -401,6 +405,7 @@ $string['sessionerroruser'] = 'Je sessie bleef te lang zonder activiteit. Je moe
 $string['sessionerroruser2'] = 'Je loginsessie is verknoeid. Meld je opnieuw aan of herstart je browser.';
 $string['sessionipnomatch'] = 'Sorry, maar je IP-adres is gewijzigd sinds je aangemeld bent. Deze beveiligingsmethode voorkomt dat crackers je identiteit stelen terwijl je aangemeld bent op deze site. Gewone gebruikers zouden deze melding niet mogen zien - vraag je sitebeheerder om hulp.';
 $string['sessionipnomatch2'] = 'Je IP-nummer is blijkbaar gewijzigd sinds je login. Deze beveiligingsfunctie verhindert dat crackers je identiteit stelen terwijl je aangemeld bent bij deze site. Je kunt deze melding zien als je draadloze netwerken gebruikt of als je schakelt tussen verschillende netwerken. Vraag de sitebeheerder om hulp.<br /><br />Als je wil verder gaan, klik dan op F5 om deze pagina te verversen.';
+$string['sessionnotwritable'] = 'Schrijfprobleem ontdekt in de sessie-map.<br /><br />Verwittig de serverbeheerder.';
 $string['socksnotsupported'] = 'SOCKS5-proxy wordt niet ondersteund in PHP4';
 $string['spellcheckernotconf'] = 'Spellingscontrole niet geconfigureerd';
 $string['sslonlyaccess'] = 'Voor veiligheidsredenen zijn enkel https-connecties toegelaten.';
@@ -431,6 +436,7 @@ $string['unknowngroup'] = 'Onbekende groep \"$a\"';
 $string['unknownhelp'] = 'Onbekend helponderwerp $a';
 $string['unknownmodulename'] = 'Onbekende modulenaam voor formulier';
 $string['unknownrole'] = 'Onbekende rol \"$a\"';
+$string['unknownsortcolumn'] = 'Onbekende sorteerkolom $a';
 $string['unknownuseraction'] = 'Sorry, Moodle begrijpt niet wat je wil';
 $string['unknownuserselector'] = 'Onbekende gebruikersselector';
 $string['unknoworder'] = 'Onbekende volgorde';

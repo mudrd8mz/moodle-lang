@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
+      // question.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
 
 
 $string['adminreport'] = 'Rapport over mogelijke problemen in je vragendatabank';
@@ -51,6 +51,7 @@ $string['clicktounflag'] = 'Klik om markering van deze vraag te verwijderen';
 $string['contexterror'] = 'Je zou alleen op deze pagina moeten zijn als je een categorie verplaatst naar een andere context';
 $string['copy'] = 'Kopiëer van $a en wijzig de links.';
 $string['created'] = 'Aangemaakt';
+$string['createdby'] = 'Gemaakt door';
 $string['createdmodifiedheader'] = 'Aangemaakt / gewijzigd';
 $string['cwrqpfs'] = 'Willekeurige vragen kiezen vragen uit subcategorieën';
 $string['cwrqpfsinfo'] = '<p>Gedurende de upgrade naar Moodle 1.9 zullen we vragencategorieën opsplitsen in verschillende contexten. Van sommige vragencategorieën en vragen op je site zal de status van het delen gewijzigd worden. Dit is nodig in het zeldzame geval dat één of meer \'willekeurige vragen\' van een test ingesteld zijn om uit een mix van gedeelde en niet gedeelde categorieën vragen te kiezen (zoals het geval is op deze site). Dit gebeurt wanneer een \'willekeurige vraag\' is ingesteld om te kiezen uit subcategorieën en bij één of meer subcategorieën is het delen anders ingesteld dan de bovenliggende categorie waarin de willekeurige vraag is gecreëerd.</p>
@@ -100,6 +101,7 @@ $string['invalidcategoryidtomove'] = 'Ongeldig categorie ID om te verplaatsen';
 $string['invalidconfirm'] = 'Bevestigingsstring was fout';
 $string['invalidcontextinhasanyquestions'] = 'Ongeldige context doorgegeven aan question_context_has_any_questions.';
 $string['invalidwizardpage'] = 'Ongeldige of geen pagina opgegeven!';
+$string['lastmodifiedby'] = 'Laatst gewijzigd door';
 $string['linkedfiledoesntexist'] = 'Het gelinkte bestand $a bestaat niet';
 $string['makechildof'] = 'Maak ondergeschikt aan \'$a\'';
 $string['maketoplevelitem'] = 'Verplaats naar top';
@@ -136,17 +138,21 @@ $string['permissionmove'] = 'Verplaats deze vraag';
 $string['permissionsaveasnew'] = 'Bewaar dit als een nieuwe vraag';
 $string['permissionto'] = 'Je hebt het recht om:';
 $string['published'] = 'gepubliceerd';
+$string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Vraag \"$a->name\" ($a->qtype)</a> is in deze vragencategorie, maar is ook gebruikt in <a href=\"$a->qurl\">de test \"$a->quizname\"</a> in een andere cursus: \"$a->coursename\".';
 $string['questionbank'] = 'Vragenpool';
 $string['questioncategory'] = 'Vraagcategorie';
 $string['questioncatsfor'] = 'Vragencategorieën voor \'$a\'';
 $string['questiondoesnotexist'] = 'Deze vraag bestaat niet.';
+$string['questionname'] = 'Vraagnaam';
 $string['questionsaveerror'] = 'Fouten opgetreden tijdens het bewaren van de vraag - ($a)';
 $string['questionsmovedto'] = 'De nog gebruikte vragen zijn verplaatst naar \"$a\" in de bovenliggende cursuscategorie.';
 $string['questionsrescuedfrom'] = 'Vragen bewaard vanuit context $a.';
 $string['questionsrescuedfrominfo'] = 'Deze vragen (waarvan sommigen verborgen kunnen zijn) werden bewaard wanneer context $a is verwijderd omdat ze nog gebruikt worden door sommige testen of andere activiteiten.';
+$string['questiontype'] = 'Vraagtype';
 $string['questionuse'] = 'Gebruik vraag in deze activiteit';
 $string['saveflags'] = 'Bewaar de status van deze markeringen';
+$string['selectquestionsforbulk'] = 'Selecteer vragen voor bulkoperaties';
 $string['shareincontext'] = 'Deel in context voor $a';
 $string['tofilecategory'] = 'Bewaar categorie in bestand';
 $string['tofilecontext'] = 'Bewaar context in bestand';

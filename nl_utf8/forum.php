@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -13,6 +13,7 @@ $string['aggregatemin'] = 'Laagste beoordeling';
 $string['aggregatenone'] = 'Geen beoordelingen';
 $string['aggregatesum'] = 'Som van de beoordelingen';
 $string['aggregatetype'] = 'Aggregatietype';
+$string['ajaxrating'] = 'AJAX beoordeling inschakelen';
 $string['allforums'] = 'Alle forums';
 $string['allowchoice'] = 'Sta iedereen toe om te kiezen';
 $string['allowdiscussions'] = 'Mag een $a berichten posten?';
@@ -73,6 +74,7 @@ $string['completionpostshelp'] = 'discussies of antwoorden vereist voor afwerken
 $string['completionreplies'] = 'Gebruiker moet antwoorden posten:';
 $string['completionrepliesgroup'] = 'Antwoorden vereist';
 $string['completionreplieshelp'] = 'antwoorden vereist voor afwerken';
+$string['configajaxrating'] = 'AJAX beoordeling is een verbetering voor het beoordelen van forums. Indien ingeschakeld kunnen gebruikers de forumberichten onmiddellijk beoordelen zonder onderaan de pagina op \'Verstuur mijn beoordelingen\' te moeten klikken. Deze instelling vereist ook datAJAX ingeschakeld is op site-niveau en in de gebruikersprofielen.';
 $string['configcleanreadtime'] = 'Het uur van de dag waarop oude berichten van de \'gelezen\'-tabel moeten verwijderd worden.';
 $string['configdisplaymode'] = 'De standaardmanier voor het weergeven van discussies als er geen methode is ingesteld.';
 $string['configenablerssfeeds'] = 'Met deze instelling kun je de mogelijkheid voor het maken van RSS-feeds inschakelen voor alle forums. Je zult wel nog voor elk forum afzonderlijk het maken van de RSS-feeds moeten  inschakelen.';

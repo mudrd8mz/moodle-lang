@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -152,6 +152,7 @@ $string['backupexecuteathelp'] = 'Starttijd automatische backups';
 $string['backupfailed'] = 'Sommige cursussen zijn niet bewaard!';
 $string['backupfilename'] = 'backup';
 $string['backupfinished'] = 'De backup is succesvol afgerond';
+$string['backupfromthissite'] = 'Was de backup op deze site gemaakt?';
 $string['backupgradebookhistoryhelp'] = 'Indien ingeschakeld zal de historiek van het cijferboek meegenomen worden in de automatische backups. Merk op dat cijfergeschiedenis niet mag uitgeschakeld zijn in de serverinstellingen om dit te laten werken';
 $string['backupincludemoduleshelp'] = 'Selecteer als je cursusmodules met of zonder gebruikersgegevens in de backup wil';
 $string['backupincludemoduleuserdatahelp'] = 'Gebruikersdata aan automatische backups toevoegen?';
@@ -1401,6 +1402,8 @@ $string['socialheadline'] = 'Sociale forum - meest recente onderwerpen';
 $string['someallowguest'] = 'Gasten hebben toegang tot sommige cursussen';
 $string['someerrorswerefound'] = 'Bepaalde informatie ontbrak of was fout. Kijk hieronder voor de details.';
 $string['sortby'] = 'Sorteer volgens';
+$string['sortbyx'] = 'Sorteer volgens $a oplopend';
+$string['sortbyxreverse'] = 'Sorteer volgens $a aflopend';
 $string['sourcerole'] = 'Bron rol';
 $string['specifyname'] = 'Je moet een naam geven';
 $string['standard'] = 'Standaard';
