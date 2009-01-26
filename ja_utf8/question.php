@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
+      // question.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -51,6 +51,7 @@ $string['clicktounflag'] = 'この問題のフラグを解除するには、こ�
 $string['contexterror'] = 'あなたがカテゴリを他のコンテクストに移動する場合、ここには移動できません。';
 $string['copy'] = '$a からコピーおよびリンクを変更する。';
 $string['created'] = '作成日時';
+$string['createdby'] = '作成者';
 $string['createdmodifiedheader'] = '作成日時/最終更新日時';
 $string['cwrqpfs'] = 'ランダム問題がサブカテゴリより問題を選択しています。';
 $string['cwrqpfsinfo'] = '<p>Moodle 1.9へのアップグレード中、問題カテゴリは異なるコンテクストに移動されます。あなたのサイトのいくつかの問題カテゴリおよび問題では、共有ステータスを変更する必要があります。これは、(このサイトに関して) 小テストの1つまたはそれ以上の「ランダム」問題が共有および未共有のカテゴリ内から混在して問題を選択するよう設定されている場合に生じる、まれなケースに対処するため必要です。「ランダム」問題がサブカテゴリ群より問題を選択し、ランダム問題が作成される1またはそれ以上のサブカテゴリが親カテゴリに対して異なる共有ステータスを持っている場合、この問題が生じます。</P>
@@ -101,6 +102,7 @@ $string['invalidcategoryidtomove'] = '移動するカテゴリIDが無効です!
 $string['invalidconfirm'] = '確認ストリングが正しくありません。';
 $string['invalidcontextinhasanyquestions'] = '無効なコンテクストが「question_context_has_any_questions」に移動しました。';
 $string['invalidwizardpage'] = 'ウィザードページが正しくないか、指定されていません!';
+$string['lastmodifiedby'] = '最終日時';
 $string['linkedfiledoesntexist'] = 'リンクファイル $a がありません。';
 $string['makechildof'] = '「 $a 」の子にする';
 $string['maketoplevelitem'] = 'トップレベルに移動する';
@@ -137,15 +139,18 @@ $string['permissionmove'] = 'この問題を移動する';
 $string['permissionsaveasnew'] = 'この問題を新しい問題として保存する';
 $string['permissionto'] = 'あなたのパーミッションは下記のとおりです:';
 $string['published'] = '共有';
+$string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href=\"$a->qurl\">問題「 $a->name」($a->qtype)</a> は、この問題カテゴリ内にありますが、別のコース「 $a->coursename 」の <a href=\"$a->qurl\">小テスト「 $a->quizname 」</a> でも使用されています。';
 $string['questionbank'] = '問題バンク';
 $string['questioncategory'] = '問題カテゴリ';
 $string['questioncatsfor'] = '「 $a 」の問題カテゴリ';
 $string['questiondoesnotexist'] = 'この問題は存在しません。';
+$string['questionname'] = '問題名';
 $string['questionsaveerror'] = '問題の保存中にエラーが発生しました - ($a)';
 $string['questionsmovedto'] = '使用中の問題が、親コースカテゴリの「 $a 」に移動されました。';
 $string['questionsrescuedfrom'] = '問題がコンテクスト $a より保存されました。';
 $string['questionsrescuedfrominfo'] = 'いくつかの小テストまたは他の活動で使用されているため、これらの問題 (いくつかは非表示) は、コンテクスト $a の削除時に保存されました。';
+$string['questiontype'] = '問題タイプ';
 $string['questionuse'] = 'この活動で問題を使用する';
 $string['saveflags'] = 'フラグの状態を保存する';
 $string['shareincontext'] = '$a でコンテクストを共有する';
