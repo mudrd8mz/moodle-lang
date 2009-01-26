@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20081219) (2008121701)
+      // completion.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
 $string['activitycompletion'] = 'Completamento attività';
@@ -26,13 +26,13 @@ $string['completiondisabled'] = 'Disabilitato, non mostrato nelle impostazioni a
 $string['completionenabled'] = 'Abilitato, controllato nelle impostazioni attività';
 $string['completionexpected'] = 'Completamento atteso entro il';
 $string['completionicons'] = 'Icone delle attività completate';
-$string['completionreport'] = 'Rapporto delle attività completate';
+$string['completionreport'] = 'Report delle attività completate';
 $string['completionusegrade'] = 'Valutazione';
 $string['completionusegrade_text'] = 'L\'utente deve ricevere una valutazione';
 $string['completionview'] = 'Visualizzazione';
 $string['completionview_text'] = 'L\'utente deve vedere l\'attività';
 $string['configenablecompletion'] = 'Se abilitato, permette di attivare il tracciamento del completamento delle attività all\'interno dei corsi.';
-$string['configprogresstrackedroles'] = 'Ruoli visualizzati nel rapporto delle attività completate. (In genere sono visualizzati gli studenti o ruoli equivalenti)';
+$string['configprogresstrackedroles'] = 'Ruoli visualizzati nel report delle attività completate. (In genere sono visualizzati gli studenti o ruoli equivalenti)';
 $string['csvdownload'] = 'Scarica nel formato per foglio elettronico (UTF-8 .csv)';
 $string['enablecompletion'] = 'Traccia il completamento delle attività';
 $string['err_noactivities'] = 'Il tracciamento delle attività completate non è attivo per nessuna attività e pertanto non ci sono dati da visualizzare. E\' possibile abilitare il Il tracciamento delle attività completate nelle impostazioni delle singole attività.';
@@ -43,7 +43,9 @@ $string['progress'] = 'Situazione dello studente';
 $string['progress-title'] = '$a->user, $a->activity: $a->state $a->date';
 $string['progresstrackedroles'] = 'Ruoli inclusi nel tracciamento';
 $string['reportpage'] = 'Utenti da {$a->from} a {$a->to} su  {$a->total} in totale.';
+$string['restoringcompletiondata'] = 'Lettura dello stato di completamento';
 $string['saved'] = 'Salvato';
 $string['unlockcompletion'] = 'Sblocca opzioni di completamento';
+$string['writingcompletiondata'] = 'Scrittura dello stato di completamento';
 
 ?>

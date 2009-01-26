@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20081125) (2008112400)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
 $string['add_item'] = 'Aggiungi domanda';
@@ -17,6 +17,8 @@ $string['autonumbering'] = 'Domande numerate automaticamente';
 $string['average'] = 'Media';
 $string['bold'] = 'Grassetto';
 $string['cancel_moving'] = 'Annulla lo spostamento';
+$string['cannotcreatecompletedfeedback'] = 'Non è stato possibile cerare il feedback completo';
+$string['cannotcreatetmpfeedback'] = 'Non è stato possibile cerare il feedback temporaneo';
 $string['cannotmapfeedback'] = 'Problema nel database, impossibile associare il feedback al corso';
 $string['cannotsavetempl'] = 'il salvataggio dei modelli non è consentito';
 $string['cannotunmap'] = 'Problema nel database, impossibile eliminare l\'associazione';
@@ -72,7 +74,7 @@ $string['feedback:mapcourse'] = 'Associare corsi con feedback globali';
 $string['feedback:receivemail'] = 'Ricevere notifiche via email';
 $string['feedback:view'] = 'Vedere un feedback';
 $string['feedback:viewanalysepage'] = 'Vedere la pagina di analisi dopo l\'invio';
-$string['feedback:viewreports'] = 'Vedere i rapporti';
+$string['feedback:viewreports'] = 'Vedere i report';
 $string['feedback_is_not_for_anonymous'] = 'feedback non disponibile ad anonimi';
 $string['feedback_is_not_open'] = 'Il feedback non è attivo';
 $string['feedback_options'] = 'Opzioni';
@@ -125,6 +127,7 @@ $string['non_anonymous'] = 'Il nominativo dell\'utente sarà registrato e mostra
 $string['non_anonymous_entries'] = 'non anonime';
 $string['not_completed_yet'] = 'Non ancora completato';
 $string['not_selected'] = 'Nessuna scelta';
+$string['notavailable'] = 'questo feedback non è disponibile';
 $string['numeric'] = 'Numerica';
 $string['numeric_range_from'] = 'Valori ammessi da';
 $string['numeric_range_to'] = 'a';
@@ -157,6 +160,7 @@ $string['resetting_data'] = 'Reset delle risposte del feedback';
 $string['resetting_feedbacks'] = 'Reset dei feedback';
 $string['response_nr'] = 'Risposta n.';
 $string['responses'] = 'Risposte';
+$string['responsetime'] = 'Ora delle risposte';
 $string['save_as_new_template'] = 'Salva come nuovo modello';
 $string['save_entries'] = 'Salva le risposte';
 $string['save_item'] = 'Salva';
@@ -187,6 +191,7 @@ $string['textfield'] = 'Testo breve';
 $string['textfield_maxlength'] = 'Massimo numero caratteri';
 $string['textfield_size'] = 'Larghezza testo';
 $string['this_feedback_is_already_submitted'] = 'Hai già completato questa attività.';
+$string['typemissing'] = 'il \"tipo\" è mancante';
 $string['update_item'] = 'Salva modifiche';
 $string['use_one_line_for_each_value'] = '<br/>Una riga per ogni risposta!';
 $string['use_this_template'] = 'Usa questo modello';

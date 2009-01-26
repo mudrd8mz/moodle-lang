@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
 $string['activities'] = 'Attività';
@@ -63,7 +63,7 @@ $string['categoryedit'] = 'Modifica categoria';
 $string['categoryname'] = 'Nome categoria';
 $string['categorytotal'] = 'Totale categoria';
 $string['changedefaults'] = 'Cambia default';
-$string['changereportdefaults'] = 'Cambia default dei rapporti';
+$string['changereportdefaults'] = 'Cambia default dei report';
 $string['chooseaction'] = 'Scegli un\'azione ...';
 $string['choosecategory'] = 'Scegli categoria';
 $string['compact'] = 'Compatto';
@@ -91,7 +91,7 @@ $string['confighiddenasdate'] = 'Se l\'utente non è autorizzato a vedere i voti
 $string['confighideforcedsettings'] = 'Le impostazioni indicate come \'forzate\' non saranno mostrate nelle pagine delle impostazioni delle valutazioni.';
 $string['configincludescalesinaggregation'] = 'Le scale possono essere incluse nelle aggregazioni dei voti equiparandole a valori numerici. L\'impostazione influenza tutte le aggregazioni di voti. ATTENZIONE: la modifica di questa impostazione avvierà il ricalcolo di tutte le aggregazioni di voti.';
 $string['configmeanselection'] = 'E\' possibile scegliere come calcolare le medie di colonna, includendo oppure escludendo i voti non ancora presenti nel registro del valutatore.';
-$string['configprofilereport'] = 'Il tipo di rapporto da mostrare nella pagina del profilo utente';
+$string['configprofilereport'] = 'Il tipo di report da mostrare nella pagina del profilo utente';
 $string['configquickgrading'] = 'La Valutazione rapida aggiunge una casella di input di testo per ogni elemento presente nel registro valutatore, consentendo di inserire più velocemente le valutazioni. Cliccando sul pulsante Aggiorna tutte le modiche saranno salvate contemporaneamente.';
 $string['configrangesdecimalpoints'] = 'Il numero di cifre decimali da mostrare negli intervalli di voti. Scegliendo \'Eredita\' sarà usata la stessa visualizzazione della colonna di appartenenza dell\'intervallo di voti.';
 $string['configrangesdisplaytype'] = 'Specifica come mostrare gli intervalli di voti. Scegliendo \'Eredita\' sarà usata la stessa visualizzazione della colonna di appartenenza dell\'intervallo di voti.';
@@ -380,7 +380,7 @@ $string['outcomeidhelp'] = 'L\'obiettivo che questo elemento di valutazione rapp
 $string['outcomeitem'] = 'Elemento obiettivo';
 $string['outcomeitemsedit'] = 'Modifica elemento obiettivo';
 $string['outcomename'] = 'Nome obiettivo';
-$string['outcomereport'] = 'Rapporto obiettivi';
+$string['outcomereport'] = 'Scheda obiettivi';
 $string['outcomes'] = 'Obiettivi';
 $string['outcomescourse'] = 'Obiettivi in uso nel corso';
 $string['outcomescoursecustom'] = 'Personalizzati (non rimuovere)';
@@ -419,7 +419,7 @@ $string['prefletters'] = 'Graduatorie letterali e limiti';
 $string['prefrows'] = 'Righe speciali';
 $string['prefshow'] = 'Parametri di visualizzazione';
 $string['previewrows'] = 'Righe anteprima';
-$string['profilereport'] = 'Rapporto nel profilo utente';
+$string['profilereport'] = 'Report nel profilo utente';
 $string['publishing'] = 'Pubblicazione';
 $string['quickfeedback'] = 'Feedback rapido';
 $string['quickgrading'] = 'Valutazione rapida';
@@ -434,10 +434,10 @@ $string['realpercentage'] = 'Punteggio (percentuale)';
 $string['regradeanyway'] = 'Rivaluta comunque';
 $string['removeallcoursegrades'] = 'Elimina tutte le valutazioni';
 $string['removeallcourseitems'] = 'Elimina tutti gli elementi e le categorie';
-$string['report'] = 'Rapporto';
-$string['reportdefault'] = 'Default rapporto ($a)';
-$string['reportplugins'] = 'Plugin Rapporti';
-$string['reportsettings'] = 'Impostazioni rapporti';
+$string['report'] = 'Report';
+$string['reportdefault'] = 'Default report ($a)';
+$string['reportplugins'] = 'Report plugin';
+$string['reportsettings'] = 'Impostazioni report';
 $string['reprintheaders'] = 'Ristampa intestazioni';
 $string['respectingcurrentdata'] = 'configurazione corrente inalterata';
 $string['rowpreviewnum'] = 'Anteprima righe';
@@ -540,10 +540,5 @@ $string['writinggradebookinfo'] = 'Impostazioni per la scrittura del registro';
 $string['xml'] = 'XML';
 $string['yes'] = 'Si';
 $string['yourgrade'] = 'La tua valutazione';
-$string['aggregationcoefextrahelp'] = 'Extra credito per questo elemento di valutazione durante l\'aggregazione.'; // ORPHANED
-$string['configbulkcheckboxes'] = 'Checkboxes accanto a ogni valutazione per operazioni in blocco.'; // ORPHANED
-$string['configquickfeedback'] = 'Questa opzione comporta l\'aggiunta di un testo di input ad ogni riga del rapporto di valutazione, permettendo di modificare più feedback insieme. Cliccando su Aggiorna queste modifiche sono fatte tutte insieme, invece che una alla volta.'; // ORPHANED
-$string['errornocategorizedid'] = 'Non ci può essere un id Senza categoria!'; // ORPHANED
-$string['overallavg'] = 'Media generale'; // ORPHANED
 
 ?>

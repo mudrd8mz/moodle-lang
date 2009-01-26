@@ -22,6 +22,5 @@ $string['title'] = 'Titolo';
 $string['type'] = 'Metodo di scelta di una nuova voce';
 $string['viewglossary'] = 'Più citazioni...';
 $string['whichfooter'] = 'Potete mostrare i collegamenti alle azioni di glossario collegate a questo blocco. Il blocco mostrerà  solo i collegamenti ad azioni attivate per quel glossario.';
-$string['typehelp'] = '<b>Ultima voce modificata</b> mostrerà  sempre l\'ultima voce modificata, mentre <b>voce casuale</b> ne sceglierà  ogni volta una diversa a caso. L\'opzione <b>Prossima voce</b> proporrà  le voci in un ciclo, una dopo l\'altra. Questa ultima opzione è particolarmente utile quando viene scelto anche un numero di giorni, poiché vi consente di fare una<i>Citazione della settimana</i> o un <i>Consiglio quotidiano</i> visibile da tutti.'; // ORPHANED
 
 ?>

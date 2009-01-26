@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
 $string['allattempts'] = 'tutti i tentativi';
@@ -13,7 +13,7 @@ $string['calculatefrom'] = 'Calcolo statistiche da';
 $string['coursename'] = 'Nome corso';
 $string['discrimination_index'] = 'Indice di Discriminazione';
 $string['discriminative_efficiency'] = 'Efficienza discriminativa';
-$string['downloadeverything'] = 'Download intero rapporto come';
+$string['downloadeverything'] = 'Download report completo come';
 $string['effective_weight'] = 'Peso effettivo';
 $string['facility'] = 'Indice di Facilità';
 $string['firstattempts'] = 'primi tentativi';

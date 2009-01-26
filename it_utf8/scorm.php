@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
 $string['activation'] = 'Attivazione';
@@ -21,6 +21,7 @@ $string['browse'] = 'Visita';
 $string['browsed'] = 'Visitato';
 $string['browsemode'] = 'Modalità visita';
 $string['browserepository'] = 'Naviga archivio';
+$string['cannotfindsco'] = 'SCO non trovata';
 $string['chooseapacket'] = 'Scegli o aggiorna un pacchetto';
 $string['completed'] = 'Completato';
 $string['confirmloosetracks'] = 'ATTENZIONE: Il pacchetto sembra essere stato cambiato o modificato. Se la struttura del pacchetto è cambiata, alcuni tracciamenti degli utenti potrebbero essere persi durante il processo di aggiornamento.';
@@ -32,6 +33,7 @@ $string['deleteallattempts'] = 'Cancella tutti i tentativi SCORM';
 $string['details'] = 'Dettagli tracciamento';
 $string['directories'] = 'Mostra collegamenti';
 $string['display'] = 'Visualizzazione pacchetto';
+$string['displayattemptstatus'] = 'Mostra lo stato dei tentativi';
 $string['domxml'] = 'Libreria esterna DOMXML';
 $string['element'] = 'Elemento';
 $string['enter'] = 'Entra';
@@ -39,6 +41,7 @@ $string['entercourse'] = 'Entra nel corso';
 $string['errorlogs'] = 'Log degli errori';
 $string['everyday'] = 'Ogni giorno';
 $string['everytime'] = 'Ogni volta che è usato';
+$string['exceededmaxattempts'] = 'Hai raggiunto il numero di tentativi massimo consentito.';
 $string['exit'] = 'Esci dal corso';
 $string['exitactivity'] = 'Esci dall\'attività';
 $string['expcoll'] = 'Espandi/Collidi';
@@ -69,6 +72,7 @@ $string['iframe'] = 'Finestra corrente';
 $string['iframedisplay'] = 'Aprire il pacchetto nella finestra corrente';
 $string['incomplete'] = 'Incompleto';
 $string['interactions'] = 'Interazioni';
+$string['invalidactivity'] = 'L\'attività SCORM è errata';
 $string['last'] = 'Ultimo accesso il';
 $string['lastaccess'] = 'Ultimo accesso';
 $string['lastattempt'] = 'Ultimo tentativo';
@@ -87,7 +91,9 @@ $string['newattempt'] = 'Inizia un nuovo tentativo';
 $string['next'] = 'Continua';
 $string['no_attributes'] = 'Il tag $a->tag deve avere degli attributi';
 $string['no_children'] = 'Il tag $a->tag deve avere dei figli';
-$string['noactivity'] = 'Nessun rapporto';
+$string['noactivity'] = 'Nessun report';
+$string['noattemptsallowed'] = 'Numero di tentativi consentito';
+$string['noattemptsmade'] = 'Numero di tentativi effettuati';
 $string['nolimit'] = 'Tentativi illimitati';
 $string['nomanifest'] = 'Manifest non trovato';
 $string['noprerequisites'] = 'Spiacente ma non è sono stati completati abbastanza prerequisiti per accedere a questo learning object';

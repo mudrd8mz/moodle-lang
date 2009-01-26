@@ -25,6 +25,5 @@ $string['tablelayout'] = 'Tabella layout, $a';
 $string['tocontent'] = 'Vai al contenuto principale';
 $string['tonavigation'] = 'Vai alla navigazione';
 $string['youarehere'] = 'Voi siete qui';
-$string['showhideblock'] = 'Mostra o nascondi blocco'; // ORPHANED
 
 ?>

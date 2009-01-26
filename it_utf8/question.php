@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // question.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
-$string['adminreport'] = 'Rapporto su possibili problemi nel tuo database di domande.';
+$string['adminreport'] = 'Report su possibili problemi nel tuo database di domande.';
 $string['broken'] = 'Questo è un \"link interrotto\", punta a un file inesistente.';
 $string['byandon'] = 'da <em>$a->user</em> <em>$a->time</em>';
 $string['categorycurrent'] = 'Categoria corrente';
@@ -14,6 +14,7 @@ $string['clicktoflag'] = 'Clicca per marcare questa domanda';
 $string['clicktounflag'] = 'Clicca per smarcare questa domanda';
 $string['copy'] = 'Copia da $a e cambia i link.';
 $string['created'] = 'Creazione';
+$string['createdby'] = 'Creata da';
 $string['createdmodifiedheader'] = 'Creazione/Ultimo salvataggio';
 $string['cwrqpfs'] = 'Domande prese \'a caso\' da domande delle sotto-categorie.';
 $string['cwrqpfsinfo'] = '<p>Nell\'aggiornamento a Moodle 1.9 separeremo le categorie di domande in differenti contesti. Alcune categorie di domande e domande del tuo sito dovranno modificare il loro stato di condivisione. Questo sarà necessario nel raro caso che una o più domande \'a caso\' di un quiz sono definite in modo da pescare domande da un misto di categorie condivise e non (come nel caso di questo sito). Questo può succedere quando una domanda \'a caso\' è impostata per pescare domande da sotto-categorie e una o più sotto-categorie hanno uno stato di condivisione diverso da quello della categoria in cui la domanda \'a caso\' è creata.</p>
@@ -44,6 +45,7 @@ $string['getcategoryfromfile'] = 'Categoria da file';
 $string['getcontextfromfile'] = 'Contesto da file';
 $string['ignorebroken'] = 'Ignora link interrotti';
 $string['invalidcontextinhasanyquestions'] = 'Contesto non valido passato a question_context_has_any_questions.';
+$string['lastmodifiedby'] = 'Ultima modifica di';
 $string['linkedfiledoesntexist'] = 'Il file linkato $a non esiste';
 $string['makechildof'] = 'Fai un discendente di \'$a\'';
 $string['maketoplevelitem'] = 'Muovi al primo livello';
@@ -72,14 +74,17 @@ $string['permissionmove'] = 'Spostare questa domanda';
 $string['permissionsaveasnew'] = 'Salvare questa come una nuova domanda';
 $string['permissionto'] = 'Sei autorizzato a:';
 $string['published'] = 'condivise';
+$string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href=\"$a->qurl\">La domanda \"$a->name\" ($a->qtype)</a> è in questa categoria ma è anche usata nel <a href=\"$a->qurl\">quiz \"$a->quizname\"</a> nell\'altro corso \"$a->coursename\".';
 $string['questionbank'] = 'Deposito delle domande';
 $string['questioncategory'] = 'Categoria di domande';
 $string['questioncatsfor'] = 'Categorie di domande per \'$a\'';
 $string['questiondoesnotexist'] = 'Questa domanda non esiste';
+$string['questionname'] = 'Nome della domanda';
 $string['questionsmovedto'] = 'Domande ancora in uso spostate a \"$a\" nella categoria superiore di corso.';
 $string['questionsrescuedfrom'] = 'Domande salvate dal contesto $a.';
 $string['questionsrescuedfrominfo'] = 'Queste domande (alcune delle quali possono essere nascoste) sono state salvate quando il contesto $a è stato cancellato, perché sono ancora utilizzate da qualche quiz o da altre attività.';
+$string['questiontype'] = 'Tipo di domanda';
 $string['questionuse'] = 'Usa domanda in questa attività';
 $string['shareincontext'] = 'Condividi in contesto per $a';
 $string['tofilecategory'] = 'Scrivi categoria su file';

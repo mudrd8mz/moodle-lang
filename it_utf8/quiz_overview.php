@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
 $string['allattempts'] = 'Mostra tutti tentativi';
@@ -24,11 +24,12 @@ $string['optonlygradedattempts'] = 'tentativo che è valutato per ogni utente ($
 $string['optonlyregradedattempts'] = 'tentativi che sono stati rivalutati/sono evidenziati da rivalutare';
 $string['overview'] = 'Riepilogo';
 $string['overviewdownload'] = 'Download riepilogo';
+$string['overviewreport'] = 'Report dei voti';
 $string['overviewreportgraph'] = 'Grafico del Numero di Studenti che hanno raggiunto varie valutazioni';
 $string['pagesize'] = 'Tentativi per pagina';
 $string['preferencespage'] = 'Preferenze solo per questa pagina';
 $string['preferencessave'] = 'Salva preferenze';
-$string['preferencesuser'] = 'Le tue preferenze per questo rapporto';
+$string['preferencesuser'] = 'Le tue preferenze per questo report';
 $string['qprogress'] = 'Domanda $a->done di $a->todo';
 $string['regrade'] = 'Rivaluta';
 $string['regradeall'] = 'Rivaluta tutto';

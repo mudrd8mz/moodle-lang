@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
 $string['1day'] = '1 giorno';
@@ -494,13 +494,17 @@ $string['quiz:grade'] = 'Valutare i quiz manualmente';
 $string['quiz:ignoretimelimits'] = 'Ignorare tempo massimo sui quiz';
 $string['quiz:manage'] = 'Gestire quiz';
 $string['quiz:preview'] = 'Vedere anteprima quiz';
+$string['quiz:regrade'] = 'Rivalutare i tentativi dei quiz';
+$string['quiz:reviewmyattempts'] = 'Vedere i propri tentativi';
 $string['quiz:view'] = 'Vedere informazioni sui quiz';
-$string['quiz:viewreports'] = 'Vedere rapporti sui quiz';
+$string['quiz:viewreports'] = 'Vedere report sui quiz';
 $string['quizavailable'] = 'Il quiz è disponibile fino a: $a';
 $string['quizclose'] = 'Chiusura';
 $string['quizclosed'] = 'Il quiz è stato chiuso il $a';
 $string['quizcloses'] = 'Chiusura';
 $string['quizcloseson'] = 'Questo quiz chiuderà alle $a';
+$string['quizisclosed'] = 'Questo quiz è chiuso';
+$string['quizisopen'] = 'Questo quiz è aperto';
 $string['quiznavigation'] = 'Navigazione quiz';
 $string['quiznotavailable'] = 'Il quiz non sarà  disponibile fino a: $a';
 $string['quizopen'] = 'Apertura';

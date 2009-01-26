@@ -1,9 +1,19 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // error.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
 
 
+$string['TODO'] = 'TODO';
 $string['adminprimarynoedit'] = 'L\'amministratore principale non può essere modificato dagli altri';
+$string['blockdoesnotexist'] = 'Questo blocco non esiste';
+$string['cannotaddblock'] = 'Non è stato possibile aggiungere il blocco $a all\'elenco dei blocchi!';
+$string['cannotaddcmtosection'] = 'Non è stato possibile aggiungere un nuovo modulo in questa sezione';
+$string['cannotaddcoursemodule'] = 'Non è stato possibile aggiungere un nuovo modulo al corso';
+$string['cannotaddcoursemoduletosection'] = 'Non è stato possibile aggiungere un nuovo modulo in questa sezione';
+$string['cannotaddnewinstance'] = 'Non è stato possibile aggiungere una nuova istanza di $a';
+$string['cannotaddnewmodule'] = 'Non è stato possibile aggiungere un nuovo modulo $a';
+$string['cannotaddrss'] = 'Non siete autorizzati ad aggiungere feed RSS';
 $string['cannotassignrole'] = 'Non è possibile assegnare ruoli nel corso';
+$string['cannotcallscript'] = 'Non è possibile invocare in quel modo questo script!';
 $string['cannotcreatelangdir'] = 'Non è possibile creare la cartella delle lingue.';
 $string['cannotcreatetempdir'] = 'Non è possibile creare la cartella temporanea.';
 $string['cannotdownloadcomponents'] = 'Non è possibile scaricare componenti.';
@@ -16,7 +26,6 @@ $string['cannotunzipfile'] = 'Non è possibile decomprimere il file.';
 $string['cannotviewprofile'] = 'Non puoi vedere il profilo di questo utente.';
 $string['cantunenrollfrommetacourse'] = 'Non è possibile disiscrivervi da questo meta corso.';
 $string['cantunenrollinthisrole'] = 'Non è possibile disiscrivervi da questo corso con il vostro attuale ruolo.';
-$string['cmunknown'] = 'Non è possibile trovare questo modulo.';
 $string['componentisuptodate'] = 'Il componente è aggiornato.';
 $string['confirmsesskeybad'] = 'Spiacente, ma la vostra chiave di sessione non può essere confermata per completare questa operazione. Questa caratteristica di sicurezza previene l\'esecuzione accidentale o maligna di funzioni importanti effettuate a vostro nome. Assicuratevi di voler eseguire realmente questa funzione.';
 $string['couldnotassignrole'] = 'Si è verificato un problema non specificato ma serio mentre si tentava di assegnarvi un ruolo';
@@ -66,7 +75,7 @@ $string['nocontext'] = 'Spiacente, ma quel corso non è un contesto valido';
 $string['noinstances'] = 'Non ci sono istanze di $a in questo corso!';
 $string['nologinas'] = 'Non ti è permesso l\'accesso come tale utente';
 $string['nonmeaningfulcontent'] = 'Contenuto senza significato';
-$string['noparticipatorycms'] = 'Spiacente, ma il rapporto di partecipazione dei moduli del corso non è attivato.';
+$string['noparticipatorycms'] = 'Spiacente, ma il report di partecipazione dei moduli del corso non è attivato.';
 $string['nopermissions'] = 'Spiacente, ma attualmente non avete il permesso per fare questo ($a)';
 $string['notavailable'] = 'Non è attualmente disponibile';
 $string['onlyadmins'] = 'Solo gli amministratori possono farlo.';
@@ -102,5 +111,6 @@ $string['usernotupdatednotexists'] = 'Utente non aggiornato - non esiste.';
 $string['wrongdestpath'] = 'Percorso della destinazione errato.';
 $string['wrongsourcebase'] = 'Indirizzo (URL) base errato.';
 $string['wrongzipfilename'] = 'Il nome del file ZIP è sbagliato.';
+$string['cmunknown'] = 'Non è possibile trovare questo modulo.'; // ORPHANED
 
 ?>
