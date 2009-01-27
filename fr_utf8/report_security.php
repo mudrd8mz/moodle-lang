@@ -12,6 +12,7 @@ $string['statusinfo'] = 'Information';
 $string['statusok'] = 'OK';
 $string['statusserious'] = 'Sérieux';
 $string['statuswarning'] = 'Avertissement';
+$string['timewarning'] = 'Le traitement des données peut prendre beaucoup de temps. Veuillez prendre patience...';
 
 $string['check_configrw_details'] = '<p>Il est recommandé de modifier les permissions du fichier config.php après installation, afin qu\'il ne soit pas modifié par le serveur web. Veuillez noter que cette mesure n\'améliore pas de façon significative la sécurité du serveur, bien qu\'elle puisse ralentir ou limiter des attaques générales.</p>';
 $string['check_configrw_name'] = 'Fichier config.php accessible en écriture';
