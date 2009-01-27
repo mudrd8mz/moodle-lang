@@ -5,7 +5,7 @@
 $string['addmorechoices'] = 'Tilføj flere valgmuligheder';
 $string['allowupdate'] = 'Tillad at ændre stemmeafgivelsen';
 $string['answered'] = 'Besvaret';
-$string['choice'] = 'Afstemning';
+$string['choice'] = 'Valgmulighed';
 $string['choice:choose'] = 'Vælg et svar';
 $string['choice:deleteresponses'] = 'Slet svar';
 $string['choice:downloadresponses'] = 'Download svar';
@@ -23,7 +23,7 @@ $string['fillinatleastoneoption'] = 'Du skal mindst give 2 svarmuligheder';
 $string['full'] = '(Fuld)';
 $string['havetologin'] = 'Du bliver nødt til at logge på før du kan afgive din stemme.';
 $string['limit'] = 'Begrænset';
-$string['limitanswers'] = 'Begræns antallet af svar';
+$string['limitanswers'] = 'Begræns antallet af stemmer på hver valgmulighed';
 $string['modulename'] = 'Afstemning';
 $string['modulenameplural'] = 'Afstemninger';
 $string['mustchooseone'] = 'Du skal foretage et valg før du gemmer. Der blev ikke gemt noget.';
