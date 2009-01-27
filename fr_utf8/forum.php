@@ -175,6 +175,7 @@ $string['invaliddiscussionid'] = 'Identifiant de discussion incorrect ou inexist
 $string['invalidforumid'] = 'L\'identifiant de forum est incorrect';
 $string['invalidparentpostid'] = 'Identifiant du message parent incorrect';
 $string['invalidpostid'] = 'Identifiant de message incorrect&nbsp: $a';
+$string['invalidrate'] = 'Évaluation non valide ($a)';
 $string['lastpost'] = 'Dernier message';
 $string['learningforums'] = 'Forums d\'apprentissage';
 $string['logblocked'] = 'Enregistrer dans les historiques les courriels bloqués';
