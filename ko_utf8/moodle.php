@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090127) (2009011900)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -321,7 +321,7 @@ $a';
 $string['courserejectreason'] = '강좌 개설이 거절된 이유<br />(이것은 신청자에게 이메일로 통보될 것입니다)';
 $string['courserejectsubject'] = '강좌 개설 신청이 거부됨';
 $string['coursereports'] = '강좌 보고서';
-$string['courserequest'] = '개설 요청';
+$string['courserequest'] = '개설 관리';
 $string['courserequestdetails'] = '요청한 강좌의 내역';
 $string['courserequestfailed'] = '웬일인지, 강좌 개설 요청을 저장할 수 없습니다.';
 $string['courserequestintro'] = '이 양식을 사용해 원하는 교육과정의 개설을 요청하십시오.<br /> 운영자가 왜 당신이 이 교육과정을 개설하려고 하는지 충분히 알 수 있도록 많은 정보를 써주세요.';
@@ -331,7 +331,7 @@ $string['courserequestsupport'] = '관리자가 검토할 때 도움이 될 정�
 $string['courserestore'] = '강좌 복원';
 $string['courses'] = '강좌';
 $string['coursescategory'] = '동일 범주의 강좌';
-$string['coursesettings'] = '강좌 기본 설정';
+$string['coursesettings'] = '표준강좌 설정';
 $string['coursesmovedout'] = '$a 에서 강좌 옮겨짐';
 $string['coursespending'] = '유보되었던 강좌 승인';
 $string['coursestart'] = '개강';
@@ -594,7 +594,7 @@ $string['enrolmentnewuser'] = '$a->user 가 강좌 \"$a->course\"에 등록됨';
 $string['enrolmentnointernal'] = '아직은 수동 등록이 가능하지 않음';
 $string['enrolmentnotyet'] = '미안합니다, $a 까지는 들어갈 수 없습니다.';
 $string['enrolmentplugins'] = '등록 플러그인';
-$string['enrolments'] = '등록 설정';
+$string['enrolments'] = '등록 방법';
 $string['enrolmentstart'] = '등록 시작';
 $string['enrolperiod'] = '재적 기한';
 $string['enrolstartdate'] = '등록 시작 날짜';
@@ -700,7 +700,7 @@ $string['gd1'] = 'GD 1.x 가 설치됨';
 $string['gd2'] = 'GD 2.x 가 설치됨';
 $string['gdneed'] = '그래프를 보려면 GD 프로그램이 설치되어야 합니다.';
 $string['gdnot'] = 'GD 프로그램이 설치되지 않음';
-$string['general'] = '일반적';
+$string['general'] = '기본';
 $string['gettheselogs'] = '기록 보기';
 $string['go'] = '다음';
 $string['gotoyourserver'] = '(서버로 연결)';
@@ -1066,7 +1066,7 @@ $string['none'] = '없음';
 $string['noneditingteacher'] = '편집권한이 없는 교수자';
 $string['noneditingteacherdescription'] = '편집권한을 가지지 못한 교수자는 강좌에서 평가를 하거나 가르칠 수는 있지만 활동을 고치지는 못합니다.';
 $string['nonstandard'] = '비 표준';
-$string['nopendingcourses'] = '승인된 교육과정이 없습니다.';
+$string['nopendingcourses'] = '승인 대기중인 강좌가 없습니다.';
 $string['nopotentialadmins'] = '잠재적 관리자 없음';
 $string['nopotentialcreators'] = '잠재적 강좌 생성자 없음';
 $string['nopotentialstudents'] = '잠재적 학생 없음';
@@ -1159,7 +1159,7 @@ $string['paymentrequired'] = '이 강좌는 수강하기 위해 등록금이 필
 $string['payments'] = '지불';
 $string['paymentsorry'] = '납입해 주셔서 감사합니다! 하지만 안타깝게도 아직 수납과정이 완료되지 않았으며 강좌에 \"$a->fullname\" 로 완전히 등록되지 않았습니다. 몇 초 후에 계속 강좌 진입을 시도해 보시길 바랍니다. 만일 지속적으로 문제가 있다면 사이트 관리자나 $a->teacher 에게 연락하시기 바랍니다.';
 $string['paymentthanks'] = '납입해 주셔서 감사합니다!<br />강좌 $a 에 정상적으로 등록되었습니다.';
-$string['pendingrequests'] = '보류중인 요청';
+$string['pendingrequests'] = '승인대기 강좌';
 $string['people'] = '수강생';
 $string['periodending'] = '기간 종료 ($a)';
 $string['personal'] = '개인적인';

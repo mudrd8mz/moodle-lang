@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090127) (2009011900)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -127,8 +127,8 @@ $string['configenableglobalsearch'] = '이 설정은 전체 자료와 활동에�
 $string['configenablegroupings'] = '이 설정은 모둠을 무리지을 수 있게 한다.';
 $string['configenablehtmlpurifier'] = '신뢰할 수 없는 문서의 악성코드를 제거하기 위해서는 KSES 대신에 HTML Purifier를 사용하라. 이것은 심혈을 기울여 개발되었고 상당한 신뢰도를 가지지만 자원 집약적인 측면이 있다. 최종 결과물은 다소 원안과 다르게 보일 수도 있다. embed 및 object 태그는 처리할 수 없으며 MathML과 오래된 lang 태그는 지원하지 않음을 유념하기 바란다.';
 $string['configenablerssfeeds'] = '이 스위치는 무들에서 자료를 RSS 방식으로 내보낼 수 있게 한다. 각 모듈에서 RSS로 내보내려 한다면, 현재 어떤 상황인지를 살펴보고 안되면 관리자 환경설정 아래에 있는 모듈 설정에서 조정하라.';
-$string['configenablerssfeedsdisabled'] = '만일 사이트 전체 RSS 송출기능을 막아놓았다면, 이 기능은 이용할 수 없다. 이를 가능하게 하려면 우선 관리자 환경설정 아래에 있는 변수 설정으로 가서 사이트 전체의 설정을 바꾸어야 한다.';
-$string['configenablerssfeedsdisabled2'] = 'RSS 송출이 서버 수준에서 비활성화 되어 있습니다. 우선 서버/RSS에서 활성화 할 필요가 있습니다.';
+$string['configenablerssfeedsdisabled'] = '만일 사이트 전체 RSS 피드기능을 막아놓았다면, 이 기능은 이용할 수 없다. 이를 가능하게 하려면 우선 관리자 환경설정 아래에 있는 변수 설정으로 가서 사이트 전체의 설정을 바꾸어야 한다.';
+$string['configenablerssfeedsdisabled2'] = 'RSS 피드가 서버 수준에서 비활성화 되어 있습니다. 우선 서버/RSS에서 활성화 할 필요가 있습니다.';
 $string['configenablestats'] = '여기를 체크해 놓으면 무들의 일정관리 기능은 여러 기록과 통계를 수합할 것이다. 사이트의 부하에 따라 다소 시간이 걸릴 수도 있다. 이 기능을 활성화할 경우, 여러분의 강좌는 물론 사이트 전체에 관련된 여러 그래프와 통계를 볼 수 있다.';
 $string['configenabletrusttext'] = '무들은 기본적으로 이용자가 올리는 문서를 철저하게 검색하여 혹시 있을지 모르는 보안에 위해가 되는 악성코드 혹은 동영상 등을 제거한다. 내용 검증 체계는 신임하는 이용자들이 올리는 내용에 대해서는 간섭하지 않고 향상된 기능을 포함시킬 수 있는 권한을 부여하는 형태로 이루어진다. 이러한 체계를 가능하게 하려면, 우선 이 설정을 켜고, 내용신임 인증에 대한 특별한 무들 역할을 부여해야 한다. 이러한 이용자들에 의해 올려지거나 생성되는 문서는 따로 인증표식이 붙어 화면에 표시되기 전에 특정 코드가 삭제되지 않을 것이다.';
 $string['configenablewebservices'] = '이것은 무들의 웹서비스를 가능하게 함';
@@ -270,7 +270,7 @@ $string['configsupportname'] = '이는 보조 이메일이나 웹주소를 통�
 $string['configsupportpage'] = '이 웹 주소는 새 계정을 신청한 이용자가 일반적인 도움말이 필요할 경우 접속 주소로 공개될 것입니다. 이 웹 주소를 입력하지 않은 경우에는 접속할 수 있는 링크가 제공되지 않습니다.';
 $string['configteacherassignteachers'] = '강좌의 교수자가 강좌 내 다른 사람을 (보조)교수자로 지명할 수 있게 할까? 만약 \"아니오\"로 설정하면, 과정 생성자나 관리자만 교수자를 지명할 수 있다.';
 $string['configthemelist'] = '다양한 테마를 사용하게 하려면 이 부분을 빈칸을 남겨두어라. 만약 테마 메뉴를 단축하길 원한다면, 여기에다 콤마로 분리해서 목록 이름을 지정할 수 있다. (예: standard,orangewhite)';
-$string['configtimezone'] = '여기에서 표준시간대를 선택한다. 이것은 단지 기본값으로 쓸 표준시간대이며, 각 이용자는 개인정보 난에서 그들 자신에 맞는 설정을 따로 할 수가 있다. 이곳의 \"서버 로칼 시간대\"는 서버 전반에 적용되는 기준 시간으로 무들의 기본값인데, 이용자 개인정보에 있는 시간대와는 별도이다. Cronjob은 이 시간을 기준으로 작동한다.';
+$string['configtimezone'] = '여기에서 표준시간대를 선택한다. 이것은 단지 기본값으로 쓸 표준시간대이며, 각 이용자는 개인정보 난에서 그들 자신에 맞는 설정을 따로 할 수가 있다. 이곳의 \"서버 지역시간대\"는 서버 전반에 적용되는 기준 시간으로 무들의 기본값인데, 이용자 개인정보에 있는 시간대와는 별도이다. Cronjob은 이 시간을 기준으로 작동한다.';
 $string['configunzip'] = 'unzip 프로그램의 위치(유닉스만,선택사항)를 적어라. 
 만약 여기에 그 경로를 적어넣으면 서버상에서 압축된 zip 문서를 푸는데 사용된다.
 만약 여기를 비워둔다면, 무들은 내부 루틴을 사용할 것이다.';
@@ -380,7 +380,7 @@ $string['enableglobalsearch'] = '전역 검색 활성화';
 $string['enablegroupings'] = '모둠 무리 활성화';
 $string['enablehtmlpurifier'] = 'HTML 거르개 활성화';
 $string['enablerecordcache'] = '기록 기억 활성화';
-$string['enablerssfeeds'] = 'RSS 송출 활성화';
+$string['enablerssfeeds'] = 'RSS 피드 활성화';
 $string['enablestats'] = '통계 활성화';
 $string['enabletrusttext'] = '내용인증 활성화';
 $string['enablewebservices'] = '웹서비스 활성화';
@@ -418,7 +418,7 @@ $string['filtersettingsgeneral'] = '일반적인 필터 설정';
 $string['filteruploadedfiles'] = '업로드된 파일 필터링';
 $string['forcelogin'] = '강제로 로그인하게 함';
 $string['forceloginforprofiles'] = '개인정보 열람시 로그인';
-$string['forcetimezone'] = '지정 시간대 강요';
+$string['forcetimezone'] = '특정 표준시 강요';
 $string['framename'] = '프레임 이름';
 $string['frontpage'] = '초기화면';
 $string['frontpagebackup'] = '초기화면 백업';
@@ -510,9 +510,9 @@ $string['latinexcelexport'] = '엑셀 인코딩';
 $string['localetext'] = '전역 로케일';
 $string['localstringcustomization'] = '맞춤 문자열';
 $string['location'] = '지역';
-$string['locationsettings'] = '지역 설정';
+$string['locationsettings'] = '표준시 설정';
 $string['log'] = '접속 기록';
-$string['loginhttps'] = '로그인을 위해 HTTPS 사용';
+$string['loginhttps'] = 'HTTPS 로그인 사용';
 $string['loglifetime'] = '기록 보유 시간';
 $string['longtimenosee'] = '출석 유예 기간';
 $string['longtimewarning'] = '<b>이 과정은 꽤 시간이 소요됨을 염두에 두시기 바랍니다.</b>';
@@ -859,7 +859,7 @@ $string['validateerror'] = '이 값은 유효하지 않음:';
 $string['verifychangedemail'] = '이메일 변경시 허용 여부 점검';
 $string['warningcurrentsetting'] = '잘못된 값: $a';
 $string['webproxy'] = '웹 프록시';
-$string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없는 경우 다음 옵션을 입력하세요. 환경변수, 언어팩, RSS feed, 타임존등을 다운로드하기 위해 인터넷 접속이 필요합니다. <br/><em> PHP cURL 익스텐션을 설치할 것을 추천합니다. </em>';
+$string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없는 경우 다음 옵션을 입력하세요. 환경변수, 언어팩, RSS 피드, 타임존등을 다운로드하기 위해 인터넷 접속이 필요합니다. <br/><em> PHP cURL 익스텐션을 설치할 것을 추천합니다. </em>';
 $string['xmlrpcrecommended'] = '추가적인 xmlrpc 확장 설치는 무들 네트웍이 제대로 작동하는 데 쓸모가 있습니다.';
 $string['xmlstrictheaders'] = 'XML 정규 헤더';
 $string['ziprequired'] = '더 이상  info-ZIP 이나 PclZip 라이브러리가 사용되지 않으므로 Zip PHP확장자가 필요합니다.';

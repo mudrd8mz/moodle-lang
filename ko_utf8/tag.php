@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20090117) (2009011600)
+      // tag.php - created with Moodle 2.0 dev (Build: 20090127) (2009011900)
 
 
 $string['addedotag'] = '공식 태그로 \"$a\"가 추가되었읍니다.';
@@ -39,8 +39,8 @@ $string['removetagfrommyinterests'] = '관심 분야에서 \"$a\" 삭제';
 $string['reset'] = '초기화';
 $string['resetflag'] = '표식 초기화';
 $string['responsiblewillbenotified'] = '책임있는 사람에게는 통보됨';
-$string['rssdesc'] = '본 RSS 송출은 무들에 의해 자동 생성되었고, 강좌내 사용자 생성 태그도 포함합니다.';
-$string['rsstitle'] = '이용자 $a 의 강좌 태그 RSS 송출';
+$string['rssdesc'] = '본 RSS 피드는 무들에 의해 자동 생성되었고, 강좌내 사용자 생성 태그도 포함합니다.';
+$string['rsstitle'] = '이용자 $a 의 강좌 태그 RSS 피드';
 $string['search'] = '검색';
 $string['searchresultsfor'] = '\"$a\"에 대한 검색 결과';
 $string['searchtags'] = '태그 검색';
