@@ -27,6 +27,7 @@ $string['copytoclipboard'] = 'Copier dans le presse-papier';
 $string['correct'] = 'Correct';
 $string['deleteabandoned'] = 'Supprimer les abandons';
 $string['deleteabandonedcheck'] = 'Voulez-vous vraiment supprimer les $a tentatives abandonnées&nbsp;?';
+$string['deleteallattempts'] = 'Supprimer toutes les tentatives';
 //$string['deletedattempts'] = '$a tentatives ont été supprimées';
 //$string['deletedresponses'] = '$a réponses ont été supprimées';
 $string['displaycoursenext'] = 'Afficher la page du cours ensuite';
