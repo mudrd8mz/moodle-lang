@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090127) (2009011900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1291,7 +1291,8 @@ $string['scalescustomcreate'] = '새로운 척도 추가';
 $string['scalescustomno'] = '맞춤 척도가 만들어지지 않았습니다.';
 $string['scalesstandard'] = '표준 척도';
 $string['scalestandard'] = '표준 척도';
-$string['scalestip'] = '맞춤 척도를 만들기 위해서는 강좌 관리자 메뉴에 있는 \'척도\'링크를 사용하세요.';
+$string['scalestip'] = '맞춤 척도를 만들려면 강좌 관리자 메뉴에 있는 \'척도\'링크를 사용하세요.';
+$string['scalestip2'] = '맞춤 척도를 만들려면 강좌 관리자 메뉴에 있는 성적 링크를 클릭한 후, 척도 편집기능을 이용하세요.';
 $string['schedule'] = '일정';
 $string['scheduledbackupsinactive'] = '사이트 관리자가 자동 백업을 활성화하지 않았음';
 $string['scheduledbackupstatus'] = '백업 일정 현황';

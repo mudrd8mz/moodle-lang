@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
 
 
 $string['abandoned'] = '실패';
@@ -28,6 +28,7 @@ $string['copytoclipboard'] = '클립보드에 복사';
 $string['correct'] = '정답';
 $string['deleteabandoned'] = '실패한 것 지우기';
 $string['deleteabandonedcheck'] = '$a의 취소한 시도들을 지우기 원합니까?';
+$string['deleteallattempts'] = '모든 시도 삭제';
 $string['displaycoursenext'] = '교육과정의 다음 페이지 보이기';
 $string['displayhotpotnext'] = '다음 핫포테이토 퀴즈 보이기';
 $string['displayindexnext'] = '다음 핫포테이토 색인 보이기';
