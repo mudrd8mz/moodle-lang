@@ -15,7 +15,7 @@ $string['check_courserole_details'] = '<p>それぞれのコースでは、デ�
 <p>デフォルトコースロールでサポートされているレガシータイプのロールは「学生」のみです。</p>';
 $string['check_courserole_error'] = '正しくないデフォルトコースロールの定義が検出されました!';
 $string['check_courserole_legacy'] = 'サポートされていないレガシータイプが<a href=\"$a\">ロール</a>で検出されました。';
-$string['check_courserole_name'] = 'デフォルトコースロール';
+$string['check_courserole_name'] = 'デフォルトロール (コース)';
 $string['check_courserole_notyet'] = 'デフォルトのコースロールのみ使用されています。';
 $string['check_courserole_ok'] = 'コースデフォルトロール定義は、OKです。';
 $string['check_courserole_risky'] = '<a href=\"$a\">コンテクスト</a>に危険なケイパビリティが検出されました。';
@@ -24,7 +24,7 @@ $string['check_defaultcourserole_details'] = '<p>コース登録のデフォル�
 <p>デフォルトロールでサポートされているレガシータイプのロールは「学生」のみです。</p>';
 $string['check_defaultcourserole_error'] = '正しくないデフォルトコースロール「 $a 」の割り当てが検出されました!';
 $string['check_defaultcourserole_legacy'] = 'サポートされていないレガシータイプが検出されました。';
-$string['check_defaultcourserole_name'] = 'デフォルトコースロールを設定する';
+$string['check_defaultcourserole_name'] = 'デフォルトコースロール (グローバル)';
 $string['check_defaultcourserole_notset'] = 'デフォルトロールが設定されていません。';
 $string['check_defaultcourserole_ok'] = 'サイトデフォルトロールの定義は、OKです。';
 $string['check_defaultcourserole_risky'] = '<a href=\"$a\">コンテクスト</a>に危険なケイパビリティが検出されました。';
