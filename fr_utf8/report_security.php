@@ -78,7 +78,7 @@ $string['check_google_details'] = '<p>L\'activation du réglage «&nbsp;Ouvert �
 $string['check_google_error'] = 'L\'accès invité est autorisé pour les moteurs de recherche alors que l\'accès invité est désactivé.';
 $string['check_google_info'] = 'Les moteurs de recherche peuvent accéder en tant qu\'invités.';
 $string['check_google_name'] = 'Ouvert à Google';
-$string['check_google_ok'] = 'L\'accès invité pour les moteurs de recherche est désactivé.';
+$string['check_google_ok'] = 'L\'accès des moteurs de recherche est désactivé.';
 
 $string['check_guestrole_details'] = '<p>Le rôle invité est utilisé pour l\'accès aux cours temporaire d\'utilisateurs non connectés. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Invité</em>.</p>';
 $string['check_guestrole_error'] = 'Rôle invité «&nbsp;$a&nbsp;» incorrectement défini&nbsp;!';
@@ -106,13 +106,13 @@ $string['check_passwordpolicy_error'] = 'Règles pour les mots de passe non déf
 $string['check_passwordpolicy_name'] = 'Règles pour les mots de passe';
 $string['check_passwordpolicy_ok'] = 'Des règles sont définies pour les mots de passe.';
 
-$string['check_riskadmin_detailsok'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs&nbsp;:<br />$a</p>';
-$string['check_riskadmin_detailswarning'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs&nbsp;:<br />$a->admins</p><p>Il est recommandé de n\'attribuer le rôle d\'administrateur que dans le contexte Système. Les utilisateurs ci-dessous ont des attributions non supportées du rôle d\'administrateur&nbsp;:<br />$a->unsupported</p>';
+$string['check_riskadmin_detailsok'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs&nbsp;:</p><p>$a</p>';
+$string['check_riskadmin_detailswarning'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs&nbsp;:</p><p>$a->admins</p><p>Il est recommandé de n\'attribuer le rôle d\'administrateur que dans le contexte Système. Les utilisateurs ci-dessous ont des attributions non supportées du rôle d\'administrateur&nbsp;:</p><p>$a->unsupported</p>';
 $string['check_riskadmin_name'] = 'Administrateurs';
 $string['check_riskadmin_ok'] = '$a administrateur(s) Moodle trouvés.';
 $string['check_riskadmin_warning'] = '$a->admincount administrateurs et $a->unsupcount attributions du rôle d\'administrateurs trouvés.';
 
-$string['check_riskxss_details'] = '<p>Le terme RISK_XSS assortit toutes les capacités dangereuses qui ne devraient être autorisées que par des utilisateurs fiables.</p><p>Veuillez vérifier la liste d\'utilisateurs ci-dessous et vous assurer que vous leur faites totalement confiance sur ce site&nbsp;:<br />$a</p>';
+$string['check_riskxss_details'] = '<p>Le terme RISK_XSS assortit toutes les capacités dangereuses qui ne devraient être autorisées que par des utilisateurs fiables.</p><p>Veuillez vérifier la liste d\'utilisateurs ci-dessous et vous assurer que vous leur faites totalement confiance sur ce site&nbsp;:</p><p>$a</p>';
 $string['check_riskxss_name'] = 'Utilisateurs XSS fiables';
 $string['check_riskxss_warning'] = 'RISK_XSS, $a utilisateurs dont vous devez être sûr.';
 
