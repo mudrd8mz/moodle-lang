@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090117) (2009011600)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
 
 
 $string['check_configrw_details'] = '<p>ウェブサーバからファイルが修正されないよう、インストール後、config.phpのファイルパーミッションを変更することをお勧めします。この方法は、サーバのセキュリティを著しく向上させるものではありませんが、一般的なセキュリティ上の弱点 (exploits) をスローダウンしたり、制限することはできます。</p>';
@@ -112,5 +112,6 @@ $string['statusinfo'] = '情報';
 $string['statusok'] = 'OK';
 $string['statusserious'] = 'シリアス';
 $string['statuswarning'] = '警告';
+$string['timewarning'] = 'データ処理には長時間を要します、しばらくお待ちください ...';
 
 ?>

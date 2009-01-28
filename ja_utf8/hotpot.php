@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
 
 
 $string['abandoned'] = '放棄';
@@ -28,6 +28,7 @@ $string['copytoclipboard'] = 'クリップボードにコピーする';
 $string['correct'] = '正解';
 $string['deleteabandoned'] = '放棄を削除する';
 $string['deleteabandonedcheck'] = '本当にすべての $a の放棄された受験を削除してもよろしいですか?';
+$string['deleteallattempts'] = 'すべての受験を削除する';
 $string['displaycoursenext'] = '次にコースページを表示する';
 $string['displayhotpotnext'] = '次にHot Potatoesクイズを表示する';
 $string['displayindexnext'] = '次にHotPotインデックスを表示する';

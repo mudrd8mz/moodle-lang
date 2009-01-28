@@ -1314,6 +1314,7 @@ $string['scalescustomno'] = 'カスタム評価尺度はまだ作成されてい
 $string['scalesstandard'] = '標準評価尺度';
 $string['scalestandard'] = '標準評価尺度';
 $string['scalestip'] = 'カスタム評価尺度を作成するためには、コース管理メニューにある「評価尺度..」を使用してください。';
+$string['scalestip2'] = 'カスタム評価尺度を作成するには、コース管理メニューにある「評価」リンクをクリックした後、「処理の選択 ... > 編集 > 評価尺度」を選択してください。';
 $string['schedule'] = 'スケジュール';
 $string['scheduledbackupsinactive'] = 'スケジュールバックアップは、サイト管理者により有効にされていません。';
 $string['scheduledbackupstatus'] = 'スケジュールバックアップ状況';
