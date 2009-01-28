@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+      // scorm.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
 
 
 $string['activation'] = 'Aktivácia';
@@ -132,6 +132,7 @@ $string['review'] = 'Opakovaný náhľad';
 $string['reviewmode'] = 'Režim opakovaného náhľadu';
 $string['scoes'] = 'Vzdelávacie objekty';
 $string['score'] = 'Skóre';
+$string['scorm:deleteresponses'] = 'Vymazať pokusy SCORM';
 $string['scorm:savetrack'] = 'Uložiť postup činnosti';
 $string['scorm:skipview'] = 'Preskočiť prehľad';
 $string['scorm:viewreport'] = 'Prezerať výsledky';

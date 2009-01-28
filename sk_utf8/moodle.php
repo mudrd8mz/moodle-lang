@@ -1284,6 +1284,7 @@ $string['scalescustomno'] = 'Zatiaľ nebola vytvorená žiadna vlastná stupnica
 $string['scalesstandard'] = 'Štandardná stupnica';
 $string['scalestandard'] = 'Štandardná stupnica';
 $string['scalestip'] = 'Na vytvorenie vlastnej stupnice, použite odkaz \'Stupnice...\' vo Vašom administrátorskom menu kurzu.';
+$string['scalestip2'] = 'Ak chcete vytvoriť vlastné stupnice, kliknite na odkaz Známky v bloku Administratíva a zvoľte si v menu príkaz Upraviť, Stupnice.';
 $string['schedule'] = 'Zoznam';
 $string['scheduledbackupsinactive'] = 'Automatické zálohy neboli administrátorom  povolené';
 $string['scheduledbackupstatus'] = 'Zoznam o stave zálohovania';

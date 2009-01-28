@@ -125,6 +125,7 @@ $string['inforum'] = 'v $a';
 $string['intronews'] = 'Všeobecné správy a oznamy';
 $string['introsocial'] = 'Otvorené fórum pre rozhovory na ľubovoľnú tému';
 $string['introteacher'] = 'Uzavreté fórum vyhradené len pre diskusiu učiteľov';
+$string['invalidrate'] = 'Nesprávne hodnotenie ($a)';
 $string['lastpost'] = 'Posledný príspevok';
 $string['learningforums'] = 'Vzdelávacie fóra';
 $string['logblocked'] = 'Logovať blokované maily';
