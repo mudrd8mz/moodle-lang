@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090106) (2009010500)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090129) (2009011900)
 
 
 $string['check_configrw_details'] = '<p>웹 서버에 의해 config.php 파일이 변조되는 것을 막기 위해 설치 후 이 파일의 읽고쓰기 권한을 변경시켜 둘 것을 권장. 다만 이러한 조치가 특별히 서버의 보안을 증진시킨다는 것이 아니라, 외부의 침탈 의도를 저하시키거나 부분적으로 제한할 수 있다는 사실을 주목하기 바랍니다.</p>';
@@ -112,5 +112,6 @@ $string['statusinfo'] = '알림';
 $string['statusok'] = '통과';
 $string['statusserious'] = '심각';
 $string['statuswarning'] = '경고';
+$string['timewarning'] = '자료처리에 시간이 좀 걸립니다. 기다려 주십시오...';
 
 ?>
