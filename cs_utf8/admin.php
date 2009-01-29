@@ -439,7 +439,7 @@ $string['iplookup'] = 'Hledat IP adresu pomocí';
 $string['iplookupinfo'] = 'Ve výchozím nastavení Moodle používá volně dostupnou službu NatGeo (The Internet Geograpic Database) k vyhledávání IP adres. Bohužel tato databáze již není udržována a může poskytovat <em>velmi nepřesné</em> údaje. Doporučujeme nainstalovat lokální kopii zdarma dostupné databáze GeoLite City od MaxMind.</br> Umístění IP adresy se zobrazí na jednoduché mapě nebo na Google Maps. Pamatujte prosím, že budete potřebovat účet u Googlu, aby jste získali API klíč k spuštění interaktivních map';
 $string['iplookupmaxmindnote'] = 'Tento produkt zahrnuje GeoLite vytvořený společností <a href = \"http://www.maxmind.com/\">MAxMind</a>.';
 $string['iplookupnetgeonote'] = 'V současné době je k získávání geografických informací využíván server NetGeo. Pro získání přesnějších informací, doporučujeme nainstalovat lokální kopii GeoLite databáze od společnosti MaxMind.';
-$string['keeptagnamecase'] = 'Zachovat velikost písmen v názvech nálepek';
+$string['keeptagnamecase'] = 'Zachovat velikost písmen v názvech štítků';
 $string['lang'] = 'Výchozí jazyk';
 $string['lang16notify'] = 'Moodle verze 1.6 a vyšší umožňuje instalovat a aktualizovat jazykové balíčky přímo ze serveru download.moodle.org -- klikněte na odkaz níže.';
 $string['langcache'] = 'Seznam jazyků ve vyrovnávací paměti';
