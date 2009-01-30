@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['check_configrw_details'] = '<p>ウェブサーバからファイルが修正されないよう、インストール後、config.phpのファイルパーミッションを変更することをお勧めします。この方法は、サーバのセキュリティを著しく向上させるものではありませんが、一般的なセキュリティ上の弱点 (exploits) をスローダウンしたり、制限することはできます。</p>';
@@ -10,7 +10,7 @@ $string['check_cookiesecure_details'] = 'p>あなたが、https通信を有効�
 $string['check_cookiesecure_error'] = 'セキュアクッキーを有効にしてください。';
 $string['check_cookiesecure_name'] = 'セキュアクッキー';
 $string['check_cookiesecure_ok'] = 'セキュアクッキーは、有効にされています。';
-$string['check_courserole_anything'] = 'この<a href=\"$a\">コンテクスト</a>で、何でも出来るケイパビリティを許可しないでください。';
+$string['check_courserole_anything'] = 'この<a href=\"$a\">コンテクスト</a>で、「doanything」ケイパビリティを許可しないでください。';
 $string['check_courserole_details'] = '<p>それぞれのコースでは、デフォルトの登録ロールが設定されています。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p>
 <p>デフォルトコースロールでサポートされているレガシータイプのロールは「学生」のみです。</p>';
 $string['check_courserole_error'] = '正しくないデフォルトコースロールの定義が検出されました!';
@@ -19,7 +19,7 @@ $string['check_courserole_name'] = 'デフォルトロール (コース)';
 $string['check_courserole_notyet'] = 'デフォルトのコースロールのみ使用されています。';
 $string['check_courserole_ok'] = 'コースデフォルトロール定義は、OKです。';
 $string['check_courserole_risky'] = '<a href=\"$a\">コンテクスト</a>に危険なケイパビリティが検出されました。';
-$string['check_defaultcourserole_anything'] = 'この<a href=\"$a\">コンテクスト</a>で、何でも出来るケイパビリティを許可しないでください。';
+$string['check_defaultcourserole_anything'] = 'この<a href=\"$a\">コンテクスト</a>で、「doanything」ケイパビリティを許可しないでください。';
 $string['check_defaultcourserole_details'] = '<p>コース登録のデフォルト学生ロールは、コースのデフォルトロールに指定されます。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p>
 <p>デフォルトロールでサポートされているレガシータイプのロールは「学生」のみです。</p>';
 $string['check_defaultcourserole_error'] = '正しくないデフォルトコースロール「 $a 」の割り当てが検出されました!';
@@ -30,7 +30,7 @@ $string['check_defaultcourserole_ok'] = 'サイトデフォルトロールの定
 $string['check_defaultcourserole_risky'] = '<a href=\"$a\">コンテクスト</a>に危険なケイパビリティが検出されました。';
 $string['check_defaultuserrole_details'] = '<p>すべてのログインユーザには、デフォルトのユーザロールのケイパビリティが割り当てられます。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p>
 <p>デフォルトのユーザロールでサポートされているレガシータイプのロールは「認証ユーザ」のみです。コース閲覧ケイパビリティは、有効にしないでください。</p>';
-$string['check_defaultuserrole_error'] = '正しくないユーザロール「 $a 」の割り当てが見つかりました!';
+$string['check_defaultuserrole_error'] = 'デフォルトユーザロール「 $a 」は、正しくない定義です!';
 $string['check_defaultuserrole_name'] = '登録ユーザのロール';
 $string['check_defaultuserrole_notset'] = 'デフォルトロールが設定されていません。';
 $string['check_defaultuserrole_ok'] = '登録ユーザのロール定義は、OKです。';
@@ -38,7 +38,7 @@ $string['check_displayerrors_details'] = '<p>いくつかのエラーメッセ�
 $string['check_displayerrors_error'] = 'PHPエラーの表示が有効にされています。PHP設定でエラー表示を無効にすることをお勧めします。';
 $string['check_displayerrors_name'] = 'PHPエラーを表示する';
 $string['check_displayerrors_ok'] = 'PHPエラーの表示は、無効にされています。';
-$string['check_emailchangeconfirmation_details'] = '<p>ユーザがプロファイルでメールアドレスを変更する場合、メール確認ステップが推奨されています。無効にされている場合、スパム送信者がサーバをスパムの再送信に悪用する恐れがあります。</p>';
+$string['check_emailchangeconfirmation_details'] = '<p>ユーザがプロファイルでメールアドレスを変更する場合、メール確認ステップが推奨されています。無効にされている場合、スパム送信者がサーバをスパムの送信に悪用する恐れがあります。</p>';
 $string['check_emailchangeconfirmation_error'] = 'ユーザは、どのようなメールアドレスでも入力することができます。';
 $string['check_emailchangeconfirmation_name'] = 'メール変更確認';
 $string['check_emailchangeconfirmation_ok'] = 'メールの変更は、確認されるべきです。';
@@ -61,10 +61,10 @@ $string['check_google_details'] = '<p>Googleに公開する設定では、サー
 $string['check_google_error'] = 'サーチエンジンによるゲストアクセスは許可されていますが、ゲストアクセスは無効にされています。';
 $string['check_google_info'] = 'サーチエンジンは、ゲストとして入ることができます。';
 $string['check_google_name'] = 'Googleに公開する';
-$string['check_google_ok'] = 'サーチエンジンによるゲストアクセスは、有効にされていません。';
+$string['check_google_ok'] = 'サーチエンジンによるアクセスは、有効にされていません。';
 $string['check_guestrole_details'] = '<p>ゲストロールはゲストに使用され、ログインユーザおよび一時的なゲストコースアクセスには使用されません。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p>
 <p>ゲストロールでサポートされているレガシータイプのロールは「ゲスト」のみです</p>';
-$string['check_guestrole_error'] = '正しくないゲストロール「 $a 」の定義が検出されました!';
+$string['check_guestrole_error'] = 'ゲストロール「 $a 」の定義は正しくありません!';
 $string['check_guestrole_name'] = 'ゲストロール';
 $string['check_guestrole_notset'] = 'ゲストロールが設定されていません。';
 $string['check_guestrole_ok'] = 'ゲストロール定義は、OKです。';
@@ -84,14 +84,14 @@ $string['check_passwordpolicy_details'] = '<p>非常に多くの場合、不正�
 $string['check_passwordpolicy_error'] = 'パスワードポリシーが設定されていません。';
 $string['check_passwordpolicy_name'] = 'パスワードポリシー';
 $string['check_passwordpolicy_ok'] = 'パスワードポリシーが有効にされています。';
-$string['check_riskadmin_detailsok'] = '<p>以下の管理者リストを確認してください。<br />$a</p>';
-$string['check_riskadmin_detailswarning'] = '<p>以下の管理者リストを確認してください。<br />$a->admins</p>
-<p>システムコンテクストのみへの管理者ロール割り当てをお勧めします。以下のユーザは、サポートされない管理者ロールが割り当てられています:<br />$a->unsupported</p>';
+$string['check_riskadmin_detailsok'] = '<p>以下の管理者リストを確認してください:</p><p>$a</p>';
+$string['check_riskadmin_detailswarning'] = '<p>以下の管理者リストを確認してください。:</p><p>$a->admins</p>
+<p>システムコンテクストのみへの管理者ロール割り当てをお勧めします。以下のユーザは、サポートされない管理者ロールが割り当てられています:</p><p>$a->unsupported</p>';
 $string['check_riskadmin_name'] = '管理者';
 $string['check_riskadmin_ok'] = '$a 名のサーバ管理者が登録されています。';
 $string['check_riskadmin_warning'] = '$a->admincount 名のサーバ管理者および $a->unsupcount 名のサポートされない管理者ロールの割り当てが見つかりました。';
 $string['check_riskxss_details'] = '<p>RISK_XSSは、信頼されるユーザのみ使用できる、すべての危険なケイパビリティを意味します。</p>
-<p>以下のユーザ一覧を閲覧して、このサーバにおいて、あなたがこれらのユーザを完全に信頼できることを確認してください:<br />$a</p>';
+<p>以下のユーザ一覧を閲覧して、このサーバにおいて、あなたがこれらのユーザを完全に信頼できることを確認してください:</p><p>$a</p>';
 $string['check_riskxss_name'] = 'XSS信頼ユーザ';
 $string['check_riskxss_warning'] = 'RISK_XSS - $a 名のユーザが信頼されています。';
 $string['check_unsecuredataroot_details'] = '<p>datarootディレクトリは、ウェブからアクセスできないようにしてください。ウェブからアクセスできないディレクトリを使用する最良の方法は、パブリックウェブディレクトリ外のディレクトリを使用することです。</p>

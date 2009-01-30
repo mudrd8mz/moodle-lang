@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -8,6 +8,7 @@ $string['addanewtopic'] = '新しいトピックを追加する';
 $string['advancedsearch'] = '検索オプション';
 $string['aggregateavg'] = '評点の平均';
 $string['aggregatecount'] = '評定数';
+$string['aggregatecountformat'] = '$a->count (評定: $a->grade)';
 $string['aggregatemax'] = '最高評点';
 $string['aggregatemin'] = '最小評点';
 $string['aggregatenone'] = '評点なし';
@@ -227,6 +228,7 @@ $string['noposts'] = '投稿していません。';
 $string['nopostscontaining'] = '「 $a 」 が含まれる投稿は見つかりませんでした。';
 $string['noquestions'] = 'このフォーラムにはまだ質問がありません。';
 $string['norate'] = 'アイテムの評価は許可されていません!';
+$string['noratinggiven'] = '未評価';
 $string['noresult'] = 'この投稿に関する評価はありません: $a';
 $string['nosubscribers'] = 'このフォーラムにはまだメール購読ユーザはいません。';
 $string['notexists'] = 'ディスカッションは、すでに存在しません。';

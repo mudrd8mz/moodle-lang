@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -463,6 +463,8 @@ $string['includemoduleuserdata'] = 'モジュールユーザデータを含む';
 $string['incompatibleblocks'] = '互換性がないブロック';
 $string['install'] = 'インストール';
 $string['installedlangs'] = 'インストール済み言語パック';
+$string['installhijacked'] = '申し訳ございません、インストールはオリジナルのIPアドレスから完了する必要があります。';
+$string['installsessionerror'] = 'PHPセッションを初期化できません、あなたのブラウザがクッキーを受け付けるかどうか確認してください。';
 $string['intcachemax'] = '内部キャッシュ最大値';
 $string['invalidlangpack'] = 'この言語パックを編集するには、言語パックを言語フォルダに置く必要があります。';
 $string['invalidsection'] = 'セクションが正しくありません。';
