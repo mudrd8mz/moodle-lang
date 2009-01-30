@@ -1,73 +1,83 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
 
 
-$string['allowdeleting'] = 'Permettere rimozione';
-$string['allowmaxfiles'] = 'Numero massimo di file inviati';
-$string['allownotes'] = 'Permettere note';
-$string['allowresubmit'] = 'Possibilità di consegnare più volte';
-$string['alreadygraded'] = 'Il tuo compito è già stato valutato e il re-invio non è consentito.';
+$string['allowdeleting'] = 'Consenti eliminazioni';
+$string['allowmaxfiles'] = 'Numero massimo di file da inviare';
+$string['allownotes'] = 'Consenti annotazioni';
+$string['allowresubmit'] = 'Consenti consegne ripetute';
+$string['alreadygraded'] = 'Il tuo compito è già stato valutato e non è prevista la riconsegna.';
+$string['assignment:exportownsubmission'] = 'Esportare la propria consegna';
+$string['assignment:exportsubmission'] = 'Esportare consegna';
 $string['assignment:grade'] = 'Valutare compito';
 $string['assignment:submit'] = 'Consegnare compito';
 $string['assignment:view'] = 'Visualizzare compito';
-$string['assignmentdetails'] = 'Dettaglio compiti';
-$string['assignmentmail'] = '$a->teacher ha corretto il tuo compito per l\'esercizio \'$a->assignment\'.
+$string['assignmentdetails'] = 'Dettaglio compito';
+$string['assignmentmail'] = '$a->teacher ha commentato/valutato il tuo compito \'<i>$a->assignment</i>\'.
 
-Puoi vedere la valutazione associata al tuo compito:
+Per visualizzare il commento/voto al tuo compito:
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->teacher ha corretto il tuo compito per l\'esercizio \'<i>$a->assignment\'</i>.<br /><br />
-Puoi vedere la valutazione associata al tuo <a href=\"$a->url\">compito</a>';
+$string['assignmentmailhtml'] = '$a->teacher ha commentato/valutato il tuo compito \'<i>$a->assignment</i>\'.<br />
+<br /><a href=\"$a->url\">Visualizza il commento/voto al tuo compito</a>';
 $string['assignmentname'] = 'Titolo del compito';
 $string['assignmenttype'] = 'Tipo di compito';
-$string['availabledate'] = 'Disponibile da';
-$string['cannotdeletefiles'] = 'Si è verificato un errore e i files non possono essere cancellati';
+$string['availabledate'] = 'Inizio consegne';
+$string['cannotdeletefiles'] = 'Si è verificato un errore e i file non possono essere eliminati';
+$string['cannotinsertempty'] = 'La consegna non può essere vuota';
+$string['cannotviewassignment'] = 'Non puoi visualizzare questo compito';
 $string['comment'] = 'Commento';
 $string['commentinline'] = 'Commento in linea';
-$string['configitemstocount'] = 'Natura degli item da contare per le consegne degli studenti nei compiti on-line.';
-$string['configmaxbytes'] = 'Dimensione massima del compito inviato per tutti i compiti del sito (modificabile da limiti del corso e altre impostazioni locali)';
-$string['configshowrecentsubmissions'] = 'Chiunque può vedere le nuove consegne nei report attività recente.';
-$string['confirmdeletefile'] = 'Sei assolutamente sicuro di voler rimuovere questo file?<br/><strong>$a</strong>';
-$string['deleteallsubmissions'] = 'Cancella tutte le consegne';
-$string['deletefilefailed'] = 'Rimozione del file fallita';
+$string['configitemstocount'] = 'Natura degli elementi da considerare per le consegne degli studenti nei compiti online.';
+$string['configmaxbytes'] = 'Dimensione massima per tutti i compiti del sito (soggetta a limiti del corso e ad altre impostazioni locali)';
+$string['configshowrecentsubmissions'] = 'Chiunque può vedere la notifica delle consegne nei report dell\'attività recente.';
+$string['confirmdeletefile'] = 'Sei sicuro di voler eliminare questo file?<br/><strong>$a</strong>';
+$string['coursemisconf'] = 'Il corso è mal configurato';
+$string['deleteallsubmissions'] = 'Elimina tutte le consegne';
+$string['deletefilefailed'] = 'Eliminazione del file non riuscita.';
 $string['description'] = 'Descrizione';
 $string['draft'] = 'Bozza';
-$string['duedate'] = 'Data di scadenza';
+$string['duedate'] = 'Termine consegne';
 $string['duedateno'] = 'Senza scadenza';
-$string['early'] = '$a anticipo';
+$string['early'] = '$a in anticipo';
 $string['editmysubmission'] = 'Modifica il mio compito';
-$string['emailstudents'] = 'Notifica avvisi agli studenti';
-$string['emailteachermail'] = '$a->username ha consegnato il suo compito per \'$a->assignment\'
+$string['emailstudents'] = 'Avvisi via email agli studenti';
+$string['emailteachermail'] = '$a->username ha modificato la sua consegna di \'$a->assignment\'
 
 Il compito è disponibile al link:
 
 $a->url';
-$string['emailteachermailhtml'] = '$a->username ha consegnato il suo compito per <i>\'$a->assignment\'</i><br /><br />Il compito è <a href=\"$a->url\">disponibile sul sito web</a>.';
+$string['emailteachermailhtml'] = '$a->username ha modificato la sua consegna di <i>\'$a->assignment</i>\'<br />
+<br />Il compito è disponibile a <a href=\"$a->url\">questo link</a>.';
 $string['emailteachers'] = 'Avvisi ai docenti via email';
-$string['emptysubmission'] = 'Non avete ancora inviato niente';
+$string['emptysubmission'] = 'Non hai effettuato consegne';
 $string['enableemailnotification'] = 'Invia email di notifica';
-$string['existingfiledeleted'] = 'Il file esistente è stato cancellato: $a';
-$string['failedupdatefeedback'] = 'Aggiornamento delle risposte alle consegne dell\'utente $a non riuscito';
-$string['feedback'] = 'Risposte';
-$string['feedbackfromteacher'] = 'Risposte dal';
-$string['feedbackupdated'] = 'Risposte alle consegne aggiornate per $a utenti';
-$string['finalize'] = 'Non ci sono altre consegne';
+$string['existingfiledeleted'] = 'Il file esistente è stato eliminato: $a';
+$string['failedupdatefeedback'] = 'L\'aggiornamento del commento per la cosnegna dell\'utente $a non è riuscito';
+$string['feedback'] = 'Commento';
+$string['feedbackfromteacher'] = 'Commento da parte di $a';
+$string['feedbackupdated'] = 'Commenti aggiornati per $a utenti';
+$string['finalize'] = 'Non ci sono ulteriori consegne';
 $string['finalizeerror'] = 'Si è verificato un errore e la consegna non può essere completata';
 $string['graded'] = 'Valutato';
-$string['guestnosubmit'] = 'Spiacente, ma agli ospiti non è permesso inviare compiti.
-Dovete autenticarvi/registrarvi prima di poter inviare la risposta';
-$string['guestnoupload'] = 'Spiacente, agli ospiti non è permesso inviare file.';
-$string['helpoffline'] = '<p>Questo è utile quando il compito è compilato al di fuori di Moodle. Potrebbe essere da qualche altra parte sul web o un\'attività  in presenza/aula.</p><p>Gli studenti possono vedere una descrizione del compito ma non possono inviare file o altro. La valutazione funziona normalmente, e gli studenti riceveranno la notifica delle loro valutazioni.</p>';
-$string['helponline'] = '<p>Questo tipo di compito chiede agli utenti di redigere un testo, utilizzando i normali strumenti di modifica. I docenti possono valutarli online, e anche aggiungere dei commenti in linea o modifiche.</p>
-<p>(Se hai familiarità  con le vecchie versioni di Moodle, questo tipo di compito permette di fare le stesse cose del vecchio modulo Diario).</p>';
-$string['helpupload'] = '<p>Questo tipo di compito permette ai partecipanti di caricare uno o più files di qualunque formato. Possono essere documenti Word, immagini, siti web zippati, o qualunque cosa il docente ha chiesto di inviare.</p>
-<p>Con questo compito anche il docente può inviare più files come replica. Tali files possono essere caricati anche prima delle risposte degli studenti nel caso che si voglia dare a ogni partecipante un file diverso su cui lavorare.</p>
-<p>I partecipanti possono anche inserire note che descrivono i files inviati, lo stato di avanzamento o altre informazioni testuali.</p>
-<p>I compiti inviati, di questo tipo, devono essere manualmente dichiarati \"terminati\" dai partecipanti. Il docente può controllare in ogni momento lo stato corrente. I compiti non terminati sono marcati come Bozze. Il docente può riportare allo stato di Bozza qualunque compito non ancora valutato.</p>';
-$string['helpuploadsingle'] = '<p>Questo tipo di compito permette a tutti i partecipanti di inviare un file, di qualunque tipo.</p><p>Questo potrebbe essere un documento di testo, o un\'immagine, un sito web compresso, o qualunque cosa venga richiesto loro di consegnare.</p>';
-$string['hideintro'] = 'Nascondere la descrizione prima della data di apertura';
+$string['guestnosubmit'] = 'Spiacente, gli ospiti non possono consegnare compiti.
+Dovete autenticarvi/registrarvi prima di poter effettuare consegne';
+$string['guestnoupload'] = 'Spiacente, gli ospiti non possono caricare file.';
+$string['helpoffline'] = '<p>Questo tipo di compito è utile quando il compito va svolto al di fuori di Moodle. Ad esempio, potrebbe essere svolto da qualche altra parte sul web oppure essere frutto di un\'attività in presenza.</p><p>Gli studenti possono vedere la descrizione del compito da svolgere ma non possono consegnare file. La valutazione comunque funziona normalmente e gli studenti riceveranno la notifica dei voti ottenuti.</p>';
+$string['helponline'] = '<p>Questo tipo di compito online prevede che gli utenti redigano un testo utilizzando i normali strumenti di editing online. I docenti possono valutarli online ed  aggiungere commenti in linea o modifiche.</p>
+<p>(Se hai familiarità  con le vecchie versioni di Moodle, questo tipo di compito permette di svolgere le stesse cose del vecchio modulo Diario).</p>';
+$string['helpupload'] = '<p>Questo tipo di compito permette ai partecipanti di caricare uno o più file di qualunque formato. Possono essere documenti Word, immagini, siti web zippati, o qualunque cosa il docente ha chiesto di inviare.</p>
+<p>Con questo compito anche il docente può inviare più file come replica. Tali file possono essere caricati anche prima delle consegne degli studenti, funzione utile se si desidera dare ad ogni partecipante uno o più file su cui lavorare.</p>
+<p>I partecipanti possono anche inserire annotazioni per descrivere le consegne, lo stato di avanzamento ed altre informazioni.</p>
+<p>Le consegne di compiti di questo tipo, devono essere esplicitamente dichiarate \"completate\" dai partecipanti. Il docente può controllare in ogni momento lo stato delle consegne. I compiti non completati sono indicati come Bozze. Il docente può inoltre riportare allo stato di Bozza qualsiasi compito che non sia stato ancora valutato.</p>';
+$string['helpuploadsingle'] = '<p>Questo tipo di compito permette ai partecipanti di consegnare un file, in qualunque formato.</p><p>Il file può essere un documento di testo, un\'immagine, un sito web compresso, o qualunque cosa venga richiesto loro di consegnare.</p>';
+$string['hideintro'] = 'Nascondi la descrizione fino alla data di Inizio consegne';
+$string['invalidassignment'] = 'compito non valido';
+$string['invalidid'] = 'ID compito non valido';
+$string['invalidtype'] = 'Tipo di compito non valido';
+$string['invaliduserid'] = 'ID utente non valido';
 $string['itemstocount'] = 'Numero';
-$string['late'] = '$a ritardo';
+$string['late'] = '$a in ritardo';
 $string['maximumgrade'] = 'Voto massimo';
 $string['maximumsize'] = 'Dimensione massima';
 $string['modulename'] = 'Compito';
@@ -78,50 +88,51 @@ $string['noattempts'] = 'Ancora nessuna consegna per questo compito';
 $string['nofiles'] = 'Nessun file consegnato';
 $string['nofilesyet'] = 'Nessun file ancora consegnato';
 $string['nomoresubmissions'] = 'Non sono consentite ulteriori consegne.';
-$string['nosubmitusers'] = 'Non sono stati trovati utenti con privilegi sufficienti per consegnare questo compito.';
-$string['notavailableyet'] = 'Spiacente, questo compito non è ancora disponibile.<br/>Istruzioni sul compito saranno qui riportate alla data sotto specificata.';
-$string['notes'] = 'Note';
+$string['nosubmitusers'] = 'Non sono stati trovati utenti con privilegi idonei per consegnare questo compito.';
+$string['notavailableyet'] = 'Spiacente, questo compito non è ancora disponibile.<br/>Le istruzioni sullo svolgimento del compito saranno disponibili a partire dalla data sotto riportata.';
+$string['notes'] = 'Annotazioni';
 $string['notesempty'] = 'Nessun elemento';
-$string['notesupdateerror'] = 'Errore nell\'aggiornamento delle note';
+$string['notesupdateerror'] = 'Errore nell\'aggiornamento delle annotazioni';
 $string['notgradedyet'] = 'Non ancora valutato';
 $string['notsubmittedyet'] = 'Non ancora inviato';
-$string['onceassignmentsent'] = 'Una volta che il compito è consegnato per la valutazione, non sarà più possibile cancellare o allegare files. Vuoi continuare?';
-$string['overwritewarning'] = 'Attenzione: trasferendo ulteriori compiti essi SOSTITUIRANNO quelli attualmente presenti.';
-$string['pagesize'] = 'Consegne mostrate per pagina';
-$string['preventlate'] = 'Impedisci consegne in ritardo';
+$string['onceassignmentsent'] = 'Dopo aver segnalato la consegna come completata, non sarà più possibile eliminare o consegnare altri file. Vuoi continuare?';
+$string['overwritewarning'] = 'Attenzione: consegnando altri file, quelli già presenti saranno SOSTITUITI.';
+$string['pagesize'] = 'Consegne visualizzate per pagina';
+$string['preventlate'] = 'Rifiuta consegne in ritardo';
 $string['quickgrade'] = 'Abilita valutazione rapida';
-$string['responsefiles'] = 'Files di replica';
+$string['responsefiles'] = 'File di replica';
 $string['reviewed'] = 'Rivisto';
 $string['saveallfeedback'] = 'Salva tutte le mie risposte';
-$string['sendformarking'] = 'Consegna per valutazione';
-$string['showrecentsubmissions'] = 'Mostra le nuove consegne';
+$string['sendformarking'] = 'Segnala il completamento della consegna';
+$string['showrecentsubmissions'] = 'Visualizza consegne recenti';
 $string['submission'] = 'Consegna';
 $string['submissiondraft'] = 'Consegna bozza';
-$string['submissionfeedback'] = 'Risposte alla consegna';
+$string['submissionfeedback'] = 'Commento alla consegna';
 $string['submissions'] = 'Consegne';
-$string['submissionsaved'] = 'Consegne salvate';
+$string['submissionsaved'] = 'Modifiche salvate';
 $string['submissionsnotgraded'] = '$a consegne non valutate';
 $string['submitassignment'] = 'Consegna il tuo compito usando questo form';
-$string['submitedformarking'] = 'Il compito è stato già consegnato per la valutazione e non può essere modificato';
-$string['submitformarking'] = 'Consegna finale per valutazione compito';
+$string['submitedformarking'] = 'E\' stato segnalato il completamento della consegna. Il compito non può più essere modificato';
+$string['submitformarking'] = 'Consegna finale per valutazione';
 $string['submitted'] = 'Consegnato';
-$string['submittedfiles'] = 'Files consegnati';
-$string['trackdrafts'] = 'Abilita consegna per valutazione';
-$string['typeoffline'] = 'Attività  in aula';
-$string['typeonline'] = 'Testo online';
-$string['typeupload'] = 'Trasferimento file avanzato';
-$string['typeuploadsingle'] = 'Trasferimento file';
+$string['submittedfiles'] = 'File consegnati';
+$string['trackdrafts'] = 'Abilita Segnalazione consegna completata';
+$string['typeoffline'] = 'Compito Offline';
+$string['typeonline'] = 'Compito Online';
+$string['typeupload'] = 'Consegna multipla';
+$string['typeuploadsingle'] = 'Consegna singola';
 $string['unfinalize'] = 'Riporta a bozza';
-$string['unfinalizeerror'] = 'Si è verificato un errore e la consegna non può essere riconvertita in bozza';
-$string['uploadbadname'] = 'Questo file contiene caratteri non conformi e non può essere trasferito.';
-$string['uploadedfiles'] = 'files trasferiti';
-$string['uploaderror'] = 'Si è verificato un errore durante il salvataggio del file sul server.';
-$string['uploadfailnoupdate'] = 'Il file è stato trasferito con successo ma non è stato possibile aggiornarlo!';
-$string['uploadfiletoobig'] = 'Spiacenti, ma il file è troppo grande (il limite è  $a bytes)';
-$string['uploadnofilefound'] = 'Nessun file risulta disponibile - sei sicuro che ne hai selezionato uno per effettuare il trasferimento sul server?';
-$string['uploadnotregistered'] = '\'$a\' è stato trasferito ma la registrazione non è avvenuta!';
-$string['uploadsuccess'] = 'Trasferimento di \'$a\' avvenuto con successo';
-$string['viewfeedback'] = 'Vedi valutazioni del compito e commento';
+$string['unfinalizeerror'] = 'Si è verificato un errore e la consegna non può essere riportata a bozza';
+$string['uploadbadname'] = 'Questo file contiene caratteri non conformi e non può essere caricato';
+$string['uploadedfiles'] = 'file caricati';
+$string['uploaderror'] = 'Si è verificato un errore durante il salvataggio del file sul server';
+$string['uploadfailnoupdate'] = 'Il file è stato trasferito con successo ma non è stato possibile aggiornare la tua consegna!';
+$string['uploadfiletoobig'] = 'Attenzione, il file è troppo grande (il limite è $a byte)';
+$string['uploadnofilefound'] = 'Non è stato trovato nessun file - sei sicuro di averne selezionato da caricare sul server?';
+$string['uploadnotregistered'] = '\'$a\' è stato trasferito ma la registrazione della consegna non è avvenuta!';
+$string['uploadsuccess'] = 'Caricamento di \'$a\' avvenuto con successo';
+$string['usermisconf'] = 'L\'utente è mal configurato';
+$string['viewfeedback'] = 'Vedi valutazioni del compito e relativo commento';
 $string['viewsubmissions'] = 'Vedi $a compiti consegnati';
 $string['yoursubmission'] = 'La tua consegna';
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.3+ (Build: 20081029) (2007101530)
+      // group.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
 
 
 $string['addgroupstogrouping'] = 'Aggiungi gruppo a raggruppamento';
@@ -7,8 +7,8 @@ $string['addgroupstogroupings'] = 'Aggiungi/rimuovi gruppi';
 $string['adduserstogroup'] = 'Aggiungi/rimuovi utenti';
 $string['allocateby'] = 'Assegna membri';
 $string['anygrouping'] = '[Nessun raggruppamento]';
-$string['autocreategroups'] = 'Auto-crea gruppi';
-$string['backtogroupings'] = 'Ritorna a Raggruppamenti';
+$string['autocreategroups'] = 'Crea gruppi automaticamente';
+$string['backtogroupings'] = 'Ritorna ai Raggruppamenti';
 $string['backtogroups'] = 'Ritorna ai Gruppi';
 $string['badnamingscheme'] = 'Deve contenere esattamente un carattere \'@\' o un carattere \'#\'';
 $string['byfirstname'] = 'Alfabetico per nome, cognome';
@@ -53,13 +53,13 @@ $string['groupinfopeople'] = 'Informazioni sulle persone selezionate';
 $string['grouping'] = 'Raggruppamento';
 $string['groupingdescription'] = 'Descrizione raggruppamento';
 $string['groupingname'] = 'Nome raggruppamento';
-$string['groupingnameexists'] = 'Il raggruppamento di nome \'$a\' già esiste in questo corso, scegliere un altro nome.';
+$string['groupingnameexists'] = 'Il raggruppamento di nome \'$a\' già esiste in questo corso, scegliete un nome diverso.';
 $string['groupings'] = 'Raggruppamenti';
 $string['groupingsonly'] = 'Solo raggruppamenti';
 $string['groupmember'] = 'Membro del gruppo';
 $string['groupmemberdesc'] = 'Ruolo standard per un membro di un gruppo';
 $string['groupmembers'] = 'Membri del gruppo';
-$string['groupmembersonly'] = 'Disponibile solo per membri di gruppo';
+$string['groupmembersonly'] = 'Disponibile solo per gli appartenenti al raggruppamento';
 $string['groupmembersonlyerror'] = 'Spiacente, devi essere membro di almeno un gruppo coinvolto in questa attività.';
 $string['groupmemberssee'] = 'Visualizza membri del gruppo';
 $string['groupmembersselected'] = 'Membri del gruppo selezionato';
@@ -73,7 +73,7 @@ $string['groups'] = 'Gruppi';
 $string['groupscount'] = 'Gruppi ($a)';
 $string['groupsgroupings'] = 'Gruppi &amp; raggruppamenti';
 $string['groupsinselectedgrouping'] = 'Gruppi nel raggruppamento';
-$string['groupsnone'] = 'Nessun gruppo';
+$string['groupsnone'] = 'Senza gruppi';
 $string['groupsonly'] = 'Solo gruppi';
 $string['groupspreview'] = 'Anteprima gruppi';
 $string['groupsseparate'] = 'Gruppi separati';
@@ -99,6 +99,7 @@ $string['numgroups'] = 'Numero di gruppi';
 $string['nummembers'] = 'Membri per gruppo';
 $string['overview'] = 'Riepilogo';
 $string['potentialmembers'] = 'Membri potenziali: <b>$a</b>';
+$string['potentialmembs'] = 'Membri possibili';
 $string['printerfriendly'] = 'Versione stampabile';
 $string['random'] = 'Casualmente';
 $string['removegroupfromselectedgrouping'] = 'Rimuovi gruppo dal raggruppamento';
