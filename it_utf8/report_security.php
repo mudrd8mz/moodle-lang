@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
 
 
 $string['check_configrw_details'] = '<p>Si raccomanda di modificare i permessi del file config.php subito dopo l\'installazione per evitare che il file possa essere modificato da processi del web server.
@@ -112,5 +112,6 @@ $string['statusinfo'] = 'Info';
 $string['statusok'] = 'OK';
 $string['statusserious'] = 'Serio';
 $string['statuswarning'] = 'Attenzione';
+$string['timewarning'] = 'L\'elaborazione può richiedere molto tempo, vi preghiamo di attendere...';
 
 ?>

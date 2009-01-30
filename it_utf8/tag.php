@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20081104) (2008101300)
+      // tag.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
 
 
 $string['addedotag'] = '\"$a\" è stata aggiunta come una tag ufficiale.';
@@ -14,6 +14,7 @@ $string['deleted'] = 'Cancellato';
 $string['deletedcoursetags'] = 'Cancellate - tag di corso';
 $string['description'] = 'Descrizione';
 $string['edittag'] = 'Modifica questa tag';
+$string['entertags'] = 'Inserite i tag separati da virgole';
 $string['errordeleting'] = 'Errore in cancellazione tag con id $a, avvertire l\'amministratore di sistema.';
 $string['errortagfrontpage'] = 'Tag non sono consentite sulla pagina principale del sito';
 $string['errorupdatingrecord'] = 'Errore in aggiornamento record tag';
@@ -21,6 +22,7 @@ $string['flag'] = 'Flag';
 $string['flagasinappropriate'] = 'Marca come non appropriata';
 $string['helprelatedtags'] = 'Tag correlate separate da virgola';
 $string['id'] = 'id';
+$string['manageofficialtags'] = 'Gestisci tag ufficiali';
 $string['managetags'] = 'Gestisci tag';
 $string['name'] = 'Nome tag';
 $string['namesalreadybeeingused'] = 'Nomi tag già usati';
@@ -28,6 +30,7 @@ $string['newname'] = 'Nuovo nome tag';
 $string['noresultsfor'] = 'Nessun risultato per \"$a\"';
 $string['officialtag'] = 'Tag ufficiale';
 $string['otags'] = 'Tag ufficiali';
+$string['othertags'] = 'Altri tag (inserite i tag separati da virgole)';
 $string['owner'] = 'Proprietario';
 $string['ptags'] = 'Tag definite dall\'utente (separate da virgole)';
 $string['relatedblogs'] = 'Interventi blog recenti con questa tag';
@@ -45,7 +48,7 @@ $string['seeallblogs'] = 'Vedi tutti i blog con questa tag';
 $string['select'] = 'Seleziona';
 $string['tag'] = 'Tag';
 $string['tagdescription'] = 'Descrizione tag';
-$string['tagindex_coursetitle'] = 'Corsi con tag \"$a\"';
+$string['taggedwith'] = 'con il tag \"$a\"';
 $string['tags'] = 'Tag';
 $string['tagsaredisabled'] = 'Le tag sono disabilitate';
 $string['tagtype'] = 'Tipo tag';
@@ -58,7 +61,8 @@ $string['timemodified'] = 'Modificata';
 $string['typechanged'] = 'Tipo tag modificato';
 $string['updated'] = 'Aggiornato';
 $string['updatetag'] = 'Aggiorna';
-$string['userstaggedwith'] = 'Utenti con tag \"$a\"';
 $string['withselectedtags'] = 'Per le tag scelte ...';
+$string['tagindex_coursetitle'] = 'Corsi con tag \"$a\"'; // ORPHANED
+$string['userstaggedwith'] = 'Utenti con tag \"$a\"'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -265,6 +265,12 @@ $string['auth_radiusnasport_key'] = 'Porta';
 $string['auth_radiussecret'] = 'Segreto condiviso';
 $string['auth_radiussecret_key'] = 'Segreto';
 $string['auth_radiustitle'] = 'Server RADIUS';
+$string['auth_radiustype'] = 'Scegliete uno schema di autenticazione da usare con il server RADIUS';
+$string['auth_radiustype_key'] = 'Autenticazione';
+$string['auth_radiustypechapmd5'] = 'CHAP MD5';
+$string['auth_radiustypemschapv1'] = 'Microsoft CHAP version 1';
+$string['auth_radiustypemschapv2'] = 'Microsoft CHAP version 2';
+$string['auth_radiustypepap'] = 'PAP';
 $string['auth_remove_delete'] = 'Cancella interna';
 $string['auth_remove_keep'] = 'Mantieni interna';
 $string['auth_remove_suspend'] = 'Sospendi interna';
@@ -356,5 +362,7 @@ $string['update_never'] = 'Mai';
 $string['update_oncreate'] = 'Solo al primo accesso';
 $string['update_onlogin'] = 'Ad ogni accesso';
 $string['update_onupdate'] = 'In caso di modifica';
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate()non supporta il tipo di utente selezionato: $a';
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_activate()ancora non supporta il tipo di utente selezionato';
 
 ?>

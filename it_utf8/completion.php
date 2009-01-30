@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
+      // completion.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
 
 
 $string['activitycompletion'] = 'Completamento attività';
@@ -36,9 +36,13 @@ $string['configprogresstrackedroles'] = 'Ruoli visualizzati nel report delle att
 $string['csvdownload'] = 'Scarica nel formato per foglio elettronico (UTF-8 .csv)';
 $string['enablecompletion'] = 'Traccia il completamento delle attività';
 $string['err_noactivities'] = 'Il tracciamento delle attività completate non è attivo per nessuna attività e pertanto non ci sono dati da visualizzare. E\' possibile abilitare il Il tracciamento delle attività completate nelle impostazioni delle singole attività.';
+$string['err_nousers'] = 'Non ci sono utenti nel corso o nel gruppo che abbiano dati relativi alle attività completate. (Per default il Report delle attività completate viene visualizzato per gli studenti, se il corso non ha studenti allora vedrete questo messaggio. Gli amministratori possono modificare le impostazioni di visualizzazione.)';
 $string['err_system'] = 'Si è verificato un errore nel sottosistema di tracciamento delle attività completate. (L\'Amministratore può abilitare il debug per approfondire il problema)';
 $string['excelcsvdownload'] = 'Scarica in formato compatibile con Excel (.csv)';
 $string['help_completion'] = 'tracciamento attività completate';
+$string['help_completionexpected'] = 'Data attesa di completamento';
+$string['help_completionlocked'] = 'opzioni di completamento bloccate';
+$string['help_completionview'] = 'il completamento prevede la visione obbligatoria';
 $string['progress'] = 'Situazione dello studente';
 $string['progress-title'] = '$a->user, $a->activity: $a->state $a->date';
 $string['progresstrackedroles'] = 'Ruoli inclusi nel tracciamento';

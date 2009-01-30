@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
 
 
 $string['activaterep'] = 'Repository attivi';
@@ -24,6 +24,7 @@ $string['close'] = 'Chiudi';
 $string['configcacheexpire'] = 'La permanenza in cache, espressa in secondi, degli elenchi di file ottenuti dai repository esterni.';
 $string['configsaved'] = 'Configurazione salvata!';
 $string['confirmdelete'] = 'Sei sicuro di voler cancellare il repository $a ?';
+$string['confirmdeletefile'] = 'Siete certi di voler eliminare questo file?';
 $string['confirmremove'] = 'Sei sicuro di voler eliminare questa repository plugin, le sue opzioni e <strong style=color:red>tutte le sue istanze</strong> - $a?';
 $string['copying'] = 'Copia in corso';
 $string['create'] = 'Aggiungi';
