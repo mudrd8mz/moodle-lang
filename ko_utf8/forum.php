@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -227,7 +227,8 @@ $string['noposts'] = '게시물 없음';
 $string['nopostscontaining'] = '\'$a\'를 포함하는 게시물이 없음';
 $string['noquestions'] = '포럼에 아직 질문이 없음';
 $string['norate'] = '항목 순위 매기기가 허용되지 않음!';
-$string['noresult'] = '게시물 $a 에 대한 추천 사항 없음';
+$string['noratinggiven'] = '추천되지 않음';
+$string['noresult'] = '게시물 $a 는 추천되지 않음';
 $string['nosubscribers'] = '아직 이 포럼의 구독자는 없음';
 $string['notexists'] = '더 이상 존재하지 않는 토론임';
 $string['nothingnew'] = '$a 에 새 게시물 없음';
