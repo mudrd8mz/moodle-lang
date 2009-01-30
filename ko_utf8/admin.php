@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090127) (2009011900)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -470,6 +470,8 @@ $string['includemoduleuserdata'] = '모듈이용자 데이터 포함';
 $string['incompatibleblocks'] = '호환되지 않는 블럭';
 $string['install'] = '선택한 언어팩 설치';
 $string['installedlangs'] = '설치된 언어팩';
+$string['installhijacked'] = '설치과정은 원래의 IP 주소에서 마칠 수 있어야만 합니다.';
+$string['installsessionerror'] = 'PHP 세션을 시작할 수 없습니다. 브라우저가 쿠키를 허용하는지 확인하기 바랍니다.';
 $string['intcachemax'] = '최대 내부 캐쉬';
 $string['invalidlangpack'] = '본 언어팩을 편집하려면, 이를 언어 폴더에 먼저 저장할 필요가 있다.';
 $string['invalidsection'] = '잘못된 영역';
@@ -756,7 +758,7 @@ $string['statsruntimestart'] = '실행 시각';
 $string['statsuserthreshold'] = '한계 인원';
 $string['stickyblocks'] = '기본 블럭';
 $string['stickyblockscourseview'] = '기본 강좌';
-$string['stickyblocksduplicatenotice'] = '만일 여기에 블럭을 첨가했는데 그것이 이미 어떤 페이지에 표시되어 있다면, 두 개가 겹쳐질 것입니다.<br />이때 원래의 블럭은 편집을 하지 못하게 되나 복사된 블럭은 여전히 편집할 수 있습니다.';
+$string['stickyblocksduplicatenotice'] = '만일 추가한 블럭이 이미 특정 페이지에 존재하고 있다면, 두 개가 겹쳐질 것입니다.<br />이때 원래의 고정 블럭은 편집하지 못하게 되나 복사된 블럭은 여전히 편집할 수 있습니다.';
 $string['stickyblocksmymoodle'] = '내 공부방';
 $string['stickyblockspagetype'] = '환경설정 페이지 양식';
 $string['stripalltitletags'] = '제목의 HTML 태그 제거';
@@ -770,7 +772,7 @@ $string['tabselectedtofronttext'] = '선택된 탭 행을 앞으로 가져오기
 $string['themelist'] = '테마 목록';
 $string['themeselector'] = '테마 선택';
 $string['themesettings'] = '테마 설정';
-$string['therewereerrors'] = '데이터에 오류가 있었습니다.';
+$string['therewereerrors'] = '데이터 오류';
 $string['timezone'] = '기본 표준시';
 $string['timezoneforced'] = '사이트 관리자에 의해 지정';
 $string['timezoneisforcedto'] = '모든 이용자가 강제로 사용';
@@ -789,13 +791,14 @@ $string['updateaccounts'] = '기존 계정 갱신';
 $string['updatecomponent'] = '구성요소 갱신';
 $string['updatelangs'] = '언어팩의 갱신';
 $string['updatetimezones'] = '시간대역 갱신';
-$string['upgradeforumread'] = '포럼의 게시물을 찾기 위해 Moodle 1.5에 \"읽음/안읽은 게시물\" 기능이 추가 되었습니다. <br />이 기능을 사용하기 위해 <a href=\"$a\">이 곳을 클릭하여</a> 당신의 목록을 업데이트 하세요.';
-$string['upgradeforumreadinfo'] = '읽거나 읽지 않은 포럼의 게시물을 찾기 위해 Moodle 1.5에 새로운 게시물이 추가 되었습니다. 당신이 필요로 하는 이 기능을 사용하기 위해 트래킹 정보를 이용하여 현존하고 있는 게시물에 있는 당신의 목록을 업데이트 하세요.<br /><br />업그레이드 과정을 시작할까요?';
-$string['upgradelogs'] = '원활한 작동을 위해서 당신의 오래된 로그(경과기록)은 업그레이드가 되어야 합니다. <a href=\"$a\">추가 정보</a>';
-$string['upgradelogsinfo'] = '최근에 바뀐 로그 기록이 저장되었습니다. 이전의 활동 기록을 보려면, 오래된 기록들은 갱신되어야 합니다. 사이트에 따라 시간이 길어질 수 있으며(몇시간이 걸릴 수도 있습니다.) 데이터베이스의 규모에 따라 좀 더 시간이 걸릴 수도 있습니다. 일단 이것을 진행시키면 꼭 끝을 보아야 합니다.(윈도우 브라우저 창을 유지시키는 것 만으로 할 수 있습니다.) 걱정마십시오 - 당신의 사이트는 로그를 업그레이드 하는 동안 다른사람이 이용하는데 불편없이 잘 운영이 될 것입니다.<br /><br />이제부터 경과기록(로그)를 갱신할까요?';
+$string['upgradeforumread'] = '포럼의 게시물을 찾기 위해 Moodle 1.5에 \"읽음/안읽은 게시물\" 기능이 추가 되었습니다. <br />이 기능을 사용하려면 <a href=\"$a\">이 곳을 클릭하여</a> 테이블을 갱신하세요.';
+$string['upgradeforumreadinfo'] = '읽거나 읽지 않은 포럼의 게시물을 찾기 위해 Moodle 1.5에 새로운 기능이 추가되었습니다. 이 기능을 사용하기 위해 추적 정보를 이용하기 위해서는 현존하고 있는 게시물에 있는 목록을 갱신할 필요가 있습니다.  사이트에 따라 시간이 길어질 수 있으며(수 시간) 데이터베이스의 규모에 따라 좀 더 시간이 걸릴 수도 있습니다. 일단 이것을 진행시키면 꼭 끝을 보아야 합니다.(윈도우 브라우저 창을 유지시키는 것 만으로 할 수 있습니다.) 걱정마십시오 - 당신의 사이트는 로그를 업그레이드 하는 동안 다른사람이 이용하는데 불편없이 잘 운영이 될 것입니다.
+<br /><br />업그레이드 과정을 시작할까요?';
+$string['upgradelogs'] = '원활한 작동을 위해서 오래된 로그(경과기록)는 갱신할 필요가 있습니다. <a href=\"$a\">추가 정보</a>';
+$string['upgradelogsinfo'] = '최근에 바뀐 로그 기록이 저장되었습니다. 이전의 활동 기록을 보려면, 오래된 기록들은 갱신되어야 합니다. 사이트에 따라 시간이 길어질 수 있으며(수 시간) 데이터베이스의 규모에 따라 좀 더 시간이 걸릴 수도 있습니다. 일단 이것을 진행시키면 꼭 끝을 보아야 합니다.(윈도우 브라우저 창을 유지시키는 것 만으로 할 수 있습니다.) 걱정마십시오 - 당신의 사이트는 로그를 업그레이드 하는 동안 다른사람이 이용하는데 불편없이 잘 운영이 될 것입니다.<br /><br />이제부터 경과기록(로그)를 갱신할까요?';
 $string['upgradesettings'] = '새로운 설정';
-$string['upgradesettingsintro'] = '아래의 설정이 지난 무들 판올림과정 동안 추가되었습니다. 기본 설정에 필요한 변경을 한 다음, 이 페이지 하단에 있는 \"설정저장\"을 클릭하시오.';
-$string['upgradesure'] = '무들의 파일이 갱신되었고  당신의 서버를<br /><br />
+$string['upgradesettingsintro'] = '앞서의 판올림과정 동안 아래의 설정이 추가되었습니다. 기본 설정에서 필요한 내용을 바꾼 다음, 화면 하단에 있는 \"변경사항 저장\"을 클릭하시오.';
+$string['upgradesure'] = '무들 파일들이 변경완료되었고  서버를<br /><br />
  <strong>$a</strong> <br /><br />
 버전으로 자동 업그레이드할 준비가 되었습니다. 일단 이 과정을 시작하면 되돌이킬 수 없습니다.<br /><br />확실히 이 서버를 새 버전으로 업그레이드 하시겠습니까?';
 $string['upgradetimedout'] = '판올림 제한 시간이 초과되었습니다. 다시 시작해 보기 바랍니다.';
@@ -817,7 +820,7 @@ $string['uploadpictures'] = '사진 올려주기';
 $string['uploaduserspreview'] = '올린 이용자 미리보기';
 $string['uploadusersresult'] = '이용자 업로드 결과';
 $string['upwards'] = '위로';
-$string['useexternalyui'] = '야후 사용자 인터페이스 기능 사용';
+$string['useexternalyui'] = '야후 UI 라이브러리 사용';
 $string['usehtmleditor'] = 'HTML편집기 사용';
 $string['useraccountupdated'] = '이용자가 갱신됨';
 $string['userbulk'] = '일괄이용자처리';
@@ -831,7 +834,7 @@ $string['usersdeleted'] = '이용자 삭제됨';
 $string['usersrenamed'] = '사용자 ID들이 변경됨';
 $string['usersskipped'] = '이용자 생략됨';
 $string['usersupdated'] = '이용자들이 갱신됨';
-$string['usersweakpassword'] = '사용자가 너무 빈약한 암호를 씀';
+$string['usersweakpassword'] = '사용자가 너무 취약한 암호를 씀';
 $string['usetags'] = '태그 기능 활성화';
 $string['uubulk'] = '일괄 작업을 위한 선택';
 $string['uubulkall'] = '모든 이용자';
@@ -839,9 +842,9 @@ $string['uubulknew'] = '새 사용자';
 $string['uubulkupdated'] = '갱신된 이용자';
 $string['uucoursedefaultrole'] = '기본 강좌 역할';
 $string['uucsvline'] = 'CSV 라인';
-$string['uulegacy1role'] = '(원래 학생) 형태 N=1';
-$string['uulegacy2role'] = '(원래 선생) 형태 N=2';
-$string['uulegacy3role'] = '(원래 편집능력이 없는 선생) 형태 N=3';
+$string['uulegacy1role'] = '(정규 학생) 유형번호=1';
+$string['uulegacy2role'] = '(정규 교수자) 유형번호=2';
+$string['uulegacy3role'] = '(정규 편집능력이 없는 교수자) 유형번호=3';
 $string['uunoemailduplicates'] = '이메일 중복을 방지';
 $string['uuoptype'] = '올리기 형식';
 $string['uuoptype_addinc'] = '모두 추가, 필요한 경우 이용자 이름에 계수기 추가';
@@ -850,17 +853,17 @@ $string['uuoptype_addupdate'] = '새 사용자 추가 및 기존 이용자 갱�
 $string['uuoptype_update'] = '기존 이용자만';
 $string['uupasswordnew'] = '새 사용자 암호';
 $string['uupasswordold'] = '기존 이용자 암호';
-$string['uupreprocessedcount'] = '전처리된 기록들의 수: $a';
-$string['uuupdateall'] = '파일과 기본으로 덮어쓰기';
+$string['uupreprocessedcount'] = '전처리된 기록의 수: $a';
+$string['uuupdateall'] = '초기값 및 파일로 덮어쓰기';
 $string['uuupdatefromfile'] = '파일로 덮어쓰기';
-$string['uuupdatemissing'] = '파일과 기본에서 누락된 것 채우기';
+$string['uuupdatemissing'] = '초기값 및 파일에서 누락사항 채우기';
 $string['uuupdatetype'] = '기존 이용자 세부사항';
 $string['validateerror'] = '이 값은 유효하지 않음:';
-$string['verifychangedemail'] = '이메일 변경시 허용 여부 점검';
+$string['verifychangedemail'] = '이메일 변경시 도메인 점검';
 $string['warningcurrentsetting'] = '잘못된 값: $a';
 $string['webproxy'] = '웹 프록시';
-$string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없는 경우 다음 옵션을 입력하세요. 환경변수, 언어팩, RSS 피드, 타임존등을 다운로드하기 위해 인터넷 접속이 필요합니다. <br/><em> PHP cURL 익스텐션을 설치할 것을 추천합니다. </em>';
-$string['xmlrpcrecommended'] = '추가적인 xmlrpc 확장 설치는 무들 네트웍이 제대로 작동하는 데 쓸모가 있습니다.';
+$string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없는 경우 다음 옵션을 입력하세요. 환경변수, 언어팩, RSS 피드, 표준시 등을 내려받기 위해서는 인터넷 접속이 이루어져야 합니다. <br/><em> PHP cURL 확장자를 설치할 것을 권고합니다. </em>';
+$string['xmlrpcrecommended'] = '무들 네트웍이 제대로 작동하려면 추가적인 xmlrpc 확장 설치가 유용합니다.';
 $string['xmlstrictheaders'] = 'XML 정규 헤더';
 $string['ziprequired'] = '더 이상  info-ZIP 이나 PclZip 라이브러리가 사용되지 않으므로 Zip PHP확장자가 필요합니다.';
 $string['sitemaxcategorydepth'] = '최대 범주 깊이'; // ORPHANED
