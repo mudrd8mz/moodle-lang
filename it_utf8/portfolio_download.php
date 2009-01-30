@@ -4,6 +4,6 @@
 
 $string['downloadfile'] = 'Scarica il tuo file di esportazione portfolio';
 $string['downloading'] = 'Scaricamento in corso...';
-$string['pluginname'] = 'Download file';
+$string['pluginname'] = 'Scaricamento file';
 
 ?>
