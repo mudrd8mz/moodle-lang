@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // data.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['action'] = 'Aktion';
@@ -175,15 +175,15 @@ $string['movezipfailed'] = 'Kann ZIP nicht bewegen';
 $string['multientry'] = 'Wiederholter Eintrag';
 $string['multimenu'] = 'Menü (Mehrfachauswahl)';
 $string['multipletags'] = 'Elemente mehrfach gefunden! Keine Vorlage gespeichert.';
-$string['namecheckbox'] = 'Feld für Mehrfachauswahl';
+$string['namecheckbox'] = 'Feld für Mehrfachauswahl (Checkboxen)';
 $string['namedate'] = 'Datumsfeld';
 $string['namefile'] = 'Dateifeld';
 $string['namelatlong'] = 'Feld für Längen- und Breitengrad';
-$string['namemenu'] = 'Pulldown-Menüfeld';
+$string['namemenu'] = 'Feld für einfaches Menü';
 $string['namemultimenu'] = 'Feld für Menü mit Mehrfachauswahl';
 $string['namenumber'] = 'Zahlenfeld';
 $string['namepicture'] = 'Bildfeld';
-$string['nameradiobutton'] = 'Radiobutton (Einfachauswahl)';
+$string['nameradiobutton'] = 'Einfachauswahl (Radiobutton)';
 $string['nametext'] = 'Textzeilenfeld';
 $string['nametextarea'] = 'Textbereichsfeld';
 $string['nameurl'] = 'URL-Feld';
@@ -217,7 +217,7 @@ $string['pleaseaddsome'] = 'Bitte tragen Sie etwas ein oder <a href=\"$a\">wähl
 $string['portfolionotfile'] = 'In ein Portfolio und nicht als Datei exportieren';
 $string['presetinfo'] = 'Durch das Sichern als Vorlagensatz wird Ihre Datenbank-Gestaltung für die gesamte Moodle-Installation veröffentlicht. Andere Nutzer/innen können dann diesen Vorlagensatz für ihre Datenbank nutzen.';
 $string['presets'] = 'Vorlagensätze';
-$string['radiobutton'] = 'Radiobuttons';
+$string['radiobutton'] = 'Einfachauswahl';
 $string['rate'] = 'Bewerten';
 $string['rating'] = 'Bewertung';
 $string['ratingeveryone'] = 'Jede/r kann Beiträge bewerten';
@@ -234,7 +234,7 @@ $string['recordsnotsaved'] = 'Kein Datensatz wurde gespeichert. Prüfen Sie bitt
 $string['recordssaved'] = 'Datensätze gespeichert';
 $string['requireapproval'] = 'Freigabe erforderlich?';
 $string['requiredentries'] = 'Erforderliche Einträge';
-$string['requiredentriestoview'] = 'Einträge erforderlich, bevor Ansicht aller Daten möglich.';
+$string['requiredentriestoview'] = 'Erforderliche Einträge, bevor Ansicht aller Daten möglich';
 $string['resetsettings'] = 'Felder zurücksetzen';
 $string['resettemplate'] = 'Vorlage zurücksetzen';
 $string['resizingimages'] = 'Größe für Vorschaubilder ...';

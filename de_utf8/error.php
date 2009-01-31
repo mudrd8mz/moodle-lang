@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // error.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['TODO'] = 'Zu erledigen';
@@ -172,6 +172,7 @@ $string['commentmisconf'] = 'Kommentar-ID ist falsch konfiguriert';
 $string['componentisuptodate'] = 'Die Komponente ist aktuell.';
 $string['confirmsesskeybad'] = 'Entschuldigung, der \"session key\" für diese Aktion konnte nicht bestätigt werden. Dieses Sicherheitsfeature schützt Sie vor der nicht beabsichtigten Ausführung wichtiger Funktionen oder der Ausführung von Aktionen durch Dritte in Ihrem Namen. Bitte überzeugen Sie sich, dass Sie diese Aktion wirklich ausführen wollen.';
 $string['couldnotassignrole'] = 'Ein ernster, nicht näher bezeichneter Fehler ist aufgetreten, während Sie sich eine Rolle zuweisen wollten.';
+$string['countriesphpempty'] = 'Fehler: Die Datei countries.php im Sprachpaket $a ist leer oder fehlt';
 $string['coursegroupunknown'] = 'Es wurde kein Kurs für die Gruppe $a festgelegt';
 $string['coursemisconf'] = 'Kurs ist falsch konfiguriert.';
 $string['courserequestdisabled'] = 'Entschuldigung, die aufgerufenen Kurse wurden vom Administrator deaktiviert.';
@@ -188,6 +189,9 @@ $string['dbconnectionfailed'] = '<p>Fehler: Datenbankverbindung fehlgeschlagen</
 $string['dbdriverproblem'] = '<p>Fehler: Datenbanktreiber-Problem aufgetreten</a>
 <p>Der Server-Administrator sollte die Server-Einstellungen prüfen.</p>
 <p>$a</p>';
+$string['dbsessionbroken'] = 'Ein schwerwiegendes Problem mit der Datenbank-Session wurde erkannt<br /><br />Bitte benachrichtigen Sie den Administrator des Servers';
+$string['dbsessionhandlerproblem'] = 'Das Einrichten der Datenbank-Session ist fehlgeschlagen<br /><br />Bitte benachrichtigen Sie den Administrator des Servers';
+$string['dbsessionmysqlpacketsize'] = 'Ein scherwiegender Session-Fehler wurde erkannt<br /><br />Bitte informieren Sie den Administrator des Servers, dass dieses Problem auftreten kann, wenn der Wert max_allowed_packet in den MySQL-Einstellungen zu klein festgelegt wurde';
 $string['dbupdatefailed'] = 'Datenbankaktualisierung fehlgeschlagen';
 $string['ddlexecuteerror'] = 'Fehler: DDL sql execution';
 $string['ddlfieldalreadyexists'] = 'Feld \"$a\" existiert nicht';
@@ -391,6 +395,7 @@ $string['remotedownloaderror'] = 'Der Download auf Ihren Server konnte nicht aus
 $string['remotedownloadnotallowed'] = 'Der Download von Komponenten auf Ihren Server ist nicht erlaubt (allow_url_fopen ist deaktiviert). <br /><br /> Die Datei <a href=\"$a->url\">$a->url</a> muss manuell heruntergeladen werden. Kopieren Sie die Datei nach \"$a->dest\" auf Ihren Server und entpacken Sie sie dort.';
 $string['reportnotavailable'] = 'Dieser Berichtstyp ist nur für die Startseite verfügbar';
 $string['restricteduser'] = 'Entschuldigung, Sie sind gegenwärtig nicht zu dieser Aktion berechtigt.';
+$string['reverseproxyabused'] = 'Die Einstellung Reverse Proxy wurde aktiviert. Entschuldigung, aber Sie können nicht direkt auf einen anderen Server zugreifen.<br />Bitte nehmen Sie Kontakt mit Ihrem Administrator auf.';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses: ($a)';
 $string['scheduledbackupsdisabled'] = 'Automatisch terminierte Backups wurden vom  Admin des Servers deaktiviert.';
 $string['secretalreadyused'] = 'Der Link zur Passwortbestätigung wurde bereits verwendet. Das Passwort bleibt unverändert.';
@@ -400,9 +405,12 @@ $string['sessioncookiesdisable'] = 'Fehlerhafte Verwendung von  require_key_logi
 $string['sessionerroruser'] = 'Die Zeitdauer für Ihre Sitzung wurde überschritten oder ein anderer Fehler ist eingetreten. Loggen Sie sich bitte neu ein.';
 $string['sessionerroruser2'] = 'Ein Serverfehler ist aufgetreten. Er betrifft Ihre Login-Session. Loggen Sie sich bitte neu ein oder starten Sie Ihren Browser noch einmal.';
 $string['sessionipnomatch'] = 'Entschuldigung, Ihre IP-Adresse scheint sich seit Ihrem letzten Login geändert zu haben. Dieses Sicherheitsfeature schützt Sie vor dem Diebstahl Ihrer Identität durch Hacker, während Sie auf der Seite arbeiten. Normale Nutzer sollten diese Mitteilung nicht sehen - bitten Sie den Administrator um Hilfe.';
+$string['sessionipnomatch2'] = 'Entschuldigung, aber Ihre IP-Adresse hat sich geändert, seit Sie sich eingeloggt haben. Diese Sicherheitsoption schützt davor, dass Ihre Identität gestohlen werden kann, während Sie eingeloggt sind. Sie könnten diese Fehlermeldung auch erhalten, wenn Sie ein Funknetzwerk benutzen oder zwischen unterschiedlichen Netzwerken pendeln (roaming). Bitte fragen Sie für weitere Hilfe den Administrator Ihrer Website. <br /><br />Falls Sie weitermachen möchten, aktualisieren Sie bitte die Seite.';
+$string['sessionnotwritable'] = 'Ein Problem mit dem Schreibrecht im Verzeichnis sessions ist aufgetreten<br /><br />Bitte benachrichtigen Sie den Administrator des Servers';
 $string['socksnotsupported'] = 'SOCKS5 Proxy wird in PHP4 nicht unterstützt';
 $string['spellcheckernotconf'] = 'Rechtschreibhilfe ist nicht eingerichtet';
-$string['statscatchupmode'] = 'Die Statistiken befinden sich im sog. Catchup-Modus. Bisher sind $a->daysdone Tage verarbeitet und $a->dayspending Tage werden noch bearbeitet. Prüfen Sie es später noch einmal.';
+$string['sslonlyaccess'] = 'Entschuldigung, aber aus Sicherheitsgründen sind ausschließlich Verbindungen über HTTPS erlaubt';
+$string['statscatchupmode'] = 'Die Statistiken befinden sich im sogenannten Catchup-Modus. Bisher sind $a->daysdone Tage verarbeitet und $a->dayspending Tage werden noch bearbeitet. Prüfen Sie es später noch einmal.';
 $string['statsdisable'] = 'Statistik ist nicht aktiviert.';
 $string['statsnodata'] = 'Für die Kombination aus Kurs und Zeitraum liegen keine Daten vor.';
 $string['storedfilecannotcreatefiledirs'] = 'Beim Anlegen von lokalen Basisverzeichnissen gab es Probleme. Bitte prüfen Sie die Dateirechte im Verzeichnis dataroot.';
@@ -428,6 +436,7 @@ $string['unknowngroup'] = 'Unbekannte Gruppe \"$a\"';
 $string['unknownhelp'] = 'Unbekanntes Hilfethema \"$a\"';
 $string['unknownmodulename'] = 'Unbekannter Modulname für das Formular';
 $string['unknownrole'] = 'Unbekannte Rolle \"$a\"';
+$string['unknownsortcolumn'] = 'Unbekannte Sortierungsspalte $a';
 $string['unknownuseraction'] = 'Entschuldigung, aber diese Nutzeraktion wurde nicht verstanden.';
 $string['unknownuserselector'] = 'Unbekannter Nutzerauswähler';
 $string['unknoworder'] = 'Unbekannte Anforderung';
@@ -437,6 +446,7 @@ $string['unknowuploadaction'] = 'Fehler: Unbekannter Uploadvorgang ($a)';
 $string['unspecifycourseid'] = 'Es muss die Kurs-ID, die Kurzbezeichnung oder ID-Nummer angegeben werden.';
 $string['unsupportedevent'] = 'Ereignistyp wird nicht unterstützt';
 $string['unsupportedstate'] = 'Vollständigkeitsstatus wird nicht unterstützt';
+$string['unsupportedwebserver'] = 'Entschuldigung, aber die Webserver-Software ($a) wird nicht unterstützt';
 $string['updatersserror'] = 'Bei der Aktualisierung des RSS Feeds mit der folgende id-Nummer ist ein Fehler aufgetreten: $a';
 $string['upgradefail'] = 'Upgrade-Problem: $a';
 $string['upgraderequires19'] = 'Fehler! Es wurde eine neue Moodle-Version auf dem Server installiert. Leider wird das direkte Upgrade auf diese Version nicht unterstützt!<br/>Führen Sie zuerst eine Upgrade auf die letzte Version von 1.9.x durch. Sie haben auch die Möglichkeit, auf die zuvor installierte Version zurückzugreifen wenn Sie die ursprünglichen Dateien wieder reinstallieren.';
@@ -462,16 +472,18 @@ $string['usernotrenamedoff'] = 'Nutzer/in nicht umbenannt - Umbenennen ist nicht
 $string['usernotupdatedadmin'] = 'Administrator-Accounts können nicht aktualisiert werden.';
 $string['usernotupdatederror'] = 'Nutzer/in nicht aktualisiert - unbekannter Fehler';
 $string['usernotupdatednotexists'] = 'Nutzer/in nicht aktualisiert - der Account existiert nicht.';
-$string['userselectortoomany'] = 'user_selector erhielt mehr als eine/n ausgewählten Nutzer/in, obwohl die Mehrfachauswahl (multiselect) deaktiviert ist.';
+$string['userselectortoomany'] = 'Die Auswahl user_selector erhielt mehr als eine/n ausgewählten Nutzer/in, obwohl die Mehrfachauswahl (multiselect) deaktiviert ist.';
 $string['wrongcall'] = 'Das Skript wurde falsch aufgerufen';
-$string['wrongcontextid'] = 'Kontext ID war falsch (konnte nicht gefunden werden)';
+$string['wrongcontextid'] = 'Kontext-ID war falsch (konnte nicht gefunden werden)';
 $string['wrongdestpath'] = 'Falscher Pfad';
-$string['wrongroleid'] = 'Falsche Rollen ID';
+$string['wrongroleid'] = 'Falsche Rollen-ID';
 $string['wrongsourcebase'] = 'Falsche URL-Quelle';
 $string['wrongzipfilename'] = 'Falscher ZIP-Dateiname';
+$string['wwwrootmismatch'] = 'Ein falscher Zugriff wurde festgestellt. Entschuldigung, aber auf dieser Server sollte ausschließlich über die Adresse \"$a\" zugegriffen werden. Bitte benachrichtigen Sie den Administrator Ihres Servers.';
+$string['wwwrootslash'] = 'In der Datei config.php wurde eine falsche Einstellung für $CFG->wwwroot festgestellt. Es darf kein abschließender Slash \'/\' gesetzt sein.<br />Bitte benachrichtigen Sie den Administrator Ihres Servers.';
 $string['xmldberror'] = 'XMLDB-Fehler!';
 $string['youcannotdeletecategory'] = 'Sie können die Kategorie \"$a\" nicht löschen, da Sie deren Inhalt weder löschen noch verschieben können.';
-$string['younotteacher'] = 'Sie sind kein/e Trainer/in!';
+$string['younotteacher'] = 'Sie haben keine Trainerrechte!';
 $string['cannoffindgradeitem'] = 'Bewertung nicht gefunden!'; // ORPHANED
 $string['boundsyntaxnotsupport'] = 'Pg $1, $2 - die benutzte Syntax wird bisher nicht unterstützt :-('; // ORPHANED
 $string['cannofindgradeitem'] = 'Der Bewertungsaspekt kann nicht gefunden werden'; // ORPHANED

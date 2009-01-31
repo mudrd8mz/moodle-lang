@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // blog.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['addnewentry'] = 'Neuen Eintrag hinzufügen';
@@ -12,7 +12,7 @@ $string['blogdeleteconfirm'] = 'Diesen Blog löschen?';
 $string['blogdisable'] = 'Blogfunktion ist deaktiviert!';
 $string['blogpreferences'] = 'Blog-Voreinstellungen';
 $string['blogs'] = 'Blogs';
-$string['blogtags'] = 'Blog-Schlagwörter';
+$string['blogtags'] = 'Blog-Schlagworte';
 $string['cannotviewcourseblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, Blogs in diesem Kurs zu sehen';
 $string['cannotviewcourseorgroupblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, Blogs in diesem Kurs/Gruppe zu sehen';
 $string['cannotviewsiteblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, alle Blogs dieser Site zu sehen';
