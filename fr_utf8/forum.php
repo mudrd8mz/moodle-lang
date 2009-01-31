@@ -226,6 +226,7 @@ $string['nopostforum'] = 'Désolé, vous ne pouvez pas écrire dans ce forum';
 $string['noposts'] = 'Aucun message';
 $string['nopostscontaining'] = 'Aucun message contenant «&nbsp;$a&nbsp;» n\'a été trouvé';
 $string['norate'] = 'L\'évaluation des messages n\'est pas autorisée&nbsp;!';
+$string['noratinggiven'] = 'Aucune évaluation donnée';
 $string['noresult'] = 'Aucune évaluation pour ce message $a';
 $string['nosubscribers'] = 'Personne n\'est abonné à ce forum';
 $string['notexists'] = 'La discussion n\'existe plus';
