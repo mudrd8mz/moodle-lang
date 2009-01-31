@@ -6,6 +6,7 @@ $string['addanewtopic'] = 'Ajouter un nouveau sujet';
 $string['advancedsearch'] = 'Recherche avancée';
 $string['aggregateavg'] = 'Moyenne des évaluations';
 $string['aggregatecount'] = 'Nombre d\'évaluations';
+$string['aggregatecountformat'] = '$a->count (note&nbsp;: $a->grade)';
 $string['aggregatemax'] = 'Évaluation maximale';
 $string['aggregatemin'] = 'Évaluation minimale';
 $string['aggregatenone'] = 'Aucune évaluation';
