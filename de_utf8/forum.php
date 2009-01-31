@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['addanewdiscussion'] = 'Neues Diskussionsthema hinzufügen';
@@ -13,6 +13,7 @@ $string['aggregatemin'] = 'Niedrigste Bewertung';
 $string['aggregatenone'] = 'Keine Bewertungen';
 $string['aggregatesum'] = 'Summe der Bewertungen';
 $string['aggregatetype'] = 'Berechnung der Bewertungen';
+$string['ajaxrating'] = 'Ajax-Bewertungen aktivieren';
 $string['allforums'] = 'Alle Foren';
 $string['allowchoice'] = 'Ändern zu: Alle dürfen auswählen';
 $string['allowdiscussions'] = 'Teilnehmerrechte';
@@ -73,6 +74,7 @@ $string['completionpostshelp'] = 'Zum Beenden sind Diskussionen oder Antworten e
 $string['completionreplies'] = 'Teilnehmer/in muss Antworten verfassen';
 $string['completionrepliesgroup'] = 'Antworten erforderlich';
 $string['completionreplieshelp'] = 'Zum Beenden sind Antworten erforderlich';
+$string['configajaxrating'] = 'Ajax-Bewertung ist eine Weiterentwicklung der Foren-Bewertung. Wenn diese Einstellung aktiviert ist, dann dürfen Nutzer/innen alle Forenbeiträge spontan bewerten, und zwar ohne erst bis zum Seitenende zu Scrollen und den Knopf \"Meine letzte Bewertung senden\" zu drücken. Es ist notwendig, dass Ajax für die Website und alle Nutzerprofile aktiviert ist.';
 $string['configcleanreadtime'] = 'Zeitpunkt des Tages (Stunde), zu dem alte Beiträge von der \'read\'-Tabelle gelöscht werden.';
 $string['configdisplaymode'] = 'Standard-Anzeigemodus für Diskussionen, falls nichts eingestellt wurde.';
 $string['configenablerssfeeds'] = 'Diese Einstellung ermöglicht die Nutzung der RSS-Feeds für alle Foren. Jedes Forum muss einzeln für den RSS-Feed aktiviert werden.';

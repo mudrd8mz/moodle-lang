@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['1day'] = '1 Tag';
@@ -157,6 +157,7 @@ $string['configpopup'] = 'Mit Hilfe von JavaScript-Tricks wird versucht \"Copy a
 $string['configrequirepassword'] = 'Teilnehmer/innen müssen ein Kennwort eingeben, bevor sie den Test durchführen können.';
 $string['configrequiresubnet'] = 'Teilnehmer/innen können den Test nur von diesen Computern durchführen.';
 $string['configreviewoptions'] = 'Diese Einstellungen geben an, welche Informationen Nutzer/innen angezeigt werden, wenn sie einen Versuch des Tests einsehen oder einen Blick auf den Testreport werfen.';
+$string['configshowuserpicture'] = 'Nutzerbild anzeigen, während ein Versuch läuft';
 $string['configshufflequestions'] = 'Wählen Sie diese Option, wenn Sie möchten, dass die Reihenfolge der Fragen bei jedem Versuch per Zufallsgenerator bestimmt werden soll.';
 $string['configshufflewithin'] = 'Wenn Sie diese Option aktivieren, dann werden die Teile, die die individuellen Fragen darstellen, jedes Mal zufällig gewählt, wenn ein/e Teilnehmer/in einen Versuch dieses Tests startet, vorausgesetzt, dass die Auswahl auch in den Frage-Einstellungen ermöglicht wird.';
 $string['configtimelimit'] = 'Standard Zeitlimit für Tests in Minuten. 0 bedeutet \'kein Zeitlimit\'.';
@@ -524,6 +525,7 @@ $string['quiz:ignoretimelimits'] = 'Zeitgrenzen für Tests ignorieren';
 $string['quiz:manage'] = 'Tests verwalten';
 $string['quiz:preview'] = 'Test-Vorschau';
 $string['quiz:regrade'] = 'Neubewertung der Testversuche';
+$string['quiz:reviewmyattempts'] = 'Eigene Testversuche erneut ansehen';
 $string['quiz:view'] = 'Test-Informationen sehen';
 $string['quiz:viewreports'] = 'Test-Berichte sehen';
 $string['quizavailable'] = 'Dieser Test ist verfügbar bis: $a';
@@ -531,6 +533,8 @@ $string['quizclose'] = 'Testschließung';
 $string['quizclosed'] = 'Dieser Test schließt am $a';
 $string['quizcloses'] = 'Testschließung';
 $string['quizcloseson'] = 'Dieser Test läuft nur bis $a';
+$string['quizisclosed'] = 'Dieser Test wurde bereits beendet';
+$string['quizisopen'] = 'Aktuell läuft dieser Test';
 $string['quiznavigation'] = 'Test-Navigation';
 $string['quiznotavailable'] = 'Dieser Test ist erst verfügbar ab: $a';
 $string['quizopen'] = 'Testöffnung';
@@ -644,6 +648,7 @@ $string['shownoattempts'] = 'Teilnehmer/innen anzeigen, die keine Versuche durch
 $string['shownoattemptsonly'] = 'Nur Teilnehmer/innen anzeigen, die keine Versuche durchgeführt haben';
 $string['showquestiontext'] = 'Fragentext in der Frageliste mit anzeigen';
 $string['showteacherattempts'] = 'Versuche der Trainer/innen anzeigen';
+$string['showuserpicture'] = 'Nutzerbild anzeigen';
 $string['shuffle'] = 'Mischen';
 $string['shuffleanswers'] = 'Antworten mischen';
 $string['shufflequestions'] = 'Fragen mischen';

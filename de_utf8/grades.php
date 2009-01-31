@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['activities'] = 'Aktivitäten';
@@ -31,7 +31,9 @@ $string['aggregation'] = 'Gesamtergebnis';
 $string['aggregationcoef'] = 'Summenkoeffizient';
 $string['aggregationcoefextra'] = 'Zusatzwertung';
 $string['aggregationcoefextrasum'] = 'Zusatzpunkte';
+$string['aggregationcoefextrasumhelp'] = 'Die Zusatzpunkte werden bei der Zusammenfassung der Bewertung hinzu gerechnet.';
 $string['aggregationcoefweight'] = 'Gewichtung der Aspekte';
+$string['aggregationcoefweighthelp'] = 'Gewichtung für diese Bewertung, die bei der Berechnung einer Gesamtnote mit anderen Bewertungen verwandt wird.';
 $string['aggregationhelp'] = 'Strategie bei der Berechnung der Gesamtnote für alle Teilnehmer/innen im Kurs.';
 $string['aggregationposition'] = 'Anzeige des Gesamtergebnisses';
 $string['aggregationview'] = 'Gesamtergebnisansicht';
@@ -306,6 +308,8 @@ $string['lessthanmin'] = 'Die eingegeben Bewertung für $a->itemname für $a->us
 $string['letter'] = 'Note';
 $string['lettergrade'] = 'Notenstufenbewertung';
 $string['lettergradenonnumber'] = 'Niedriger und/oder hoher Wert waren nicht-numerisch für';
+$string['letterpercentage'] = 'Noten (Prozent)';
+$string['letterreal'] = 'Noten (real)';
 $string['letters'] = 'Notenstufen';
 $string['linkedactivity'] = 'Verknüpfte Aktivität';
 $string['linkedactivityhelp'] = 'Eine optionale Aktivität, die mit dem Lernziel verbunden ist.';
@@ -354,6 +358,7 @@ $string['nonweightedpct'] = 'nicht gewichtet %%';
 $string['nooutcome'] = 'Kein Lernziel';
 $string['nooutcomes'] = 'Einzelne Lernziel-Aspekte müssen zu einem Lernziel eines Kurses verlinkt werden, aber in diesem Kurs gibt es keine Lernziele. Möchten Sie eines hinzufügen?';
 $string['nopublish'] = 'Nicht veröffentlichen';
+$string['norolesdefined'] = 'Es wurden keine Rollen definiert unter Website Administration -> Bewertungen -> Einstellungen -> Bewertete Rollen';
 $string['noscales'] = 'Lernziele müssen zu einer Bewertungsskala eines Kurses oder einer globalen Skala zu gewiesen werden, aber es existiert keine. Möchten Sie eine hinzufügen?';
 $string['noselectedcategories'] = 'Keine Kategorie wurde ausgewählt.';
 $string['noselecteditems'] = 'keine Werte ausgewählt.';
@@ -395,6 +400,8 @@ $string['parentcategory'] = 'Übergeordnete Kategorie';
 $string['pctoftotalgrade'] = '%% der Gesamtbewertung';
 $string['percent'] = 'Prozent';
 $string['percentage'] = 'Prozentsatz';
+$string['percentageletter'] = 'Prozent (Note)';
+$string['percentagereal'] = 'Prozent (real)';
 $string['percentascending'] = '%% aufsteigend sortieren';
 $string['percentdescending'] = '%% absteigend sortieren';
 $string['percentshort'] = '%%';
@@ -421,6 +428,8 @@ $string['rangesdisplaytype'] = 'Bereichsanzeige';
 $string['rank'] = 'Rang';
 $string['rawpct'] = 'Rohwert %%';
 $string['real'] = 'Punkte';
+$string['realletter'] = 'Real (Noten)';
+$string['realpercentage'] = 'Real (Prozent)';
 $string['regradeanyway'] = 'Auf jeden Fall neu bewerten';
 $string['removeallcoursegrades'] = 'Alle Bewertungen löschen';
 $string['removeallcourseitems'] = 'Alle Werte und Kategorien löschen';
@@ -531,8 +540,6 @@ $string['xml'] = 'XML';
 $string['yes'] = 'Ja';
 $string['yourgrade'] = 'Ihre Bewertung';
 $string['aggregationcoefextrahelp'] = 'Zusatzwertung für diesen Bewertungsaspekt während der Summierung'; // ORPHANED
-$string['aggregationcoefextrasumhelp'] = 'Die Zusatzpunkte werden bei der Zusammenfassung der Bewertung hinzu gerechnet.'; // ORPHANED
-$string['aggregationcoefweighthelp'] = 'Gewichtung für diese Bewertung, die bei der Berechnung einer Gesamtnote mit anderen Bewertungen verwandt wird.'; // ORPHANED
 $string['configbulkcheckboxes'] = 'Checkboxes neben jeder Bewertung anzeigen, um Bewertungen schnell in großer Menge durchführen zu können.'; // ORPHANED
 $string['configquickfeedback'] = 'Schnelles Feedback fügt eine Texteingabe in jedes Bewertungsfeld des Bewertungsberichts ein, so dass die gleichseitige Bearbeitung mehrerer Bewertungen möglich wird. Sie können dann mit dem Update-Button alle Änderungen gleichzeitig speichern, anstatt dies für jedes einzelnen Änderung durchzuführen.'; // ORPHANED
 $string['errornocategorizedid'] = 'Keine ID für nicht-kategorisierte Aktivitäten!'; // ORPHANED

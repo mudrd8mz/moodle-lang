@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['activation'] = 'Aktivierung';
@@ -159,6 +159,7 @@ $string['review'] = 'Rückblick';
 $string['reviewmode'] = 'Rückblick-Modus';
 $string['scoes'] = 'Lernobjekte';
 $string['score'] = 'Bewertung';
+$string['scorm:deleteresponses'] = 'Versuche im Lernpaket löschen';
 $string['scorm:savetrack'] = 'Trackingdaten speichern';
 $string['scorm:skipview'] = 'Übersicht überspringen';
 $string['scorm:viewreport'] = 'Berichte sehen';

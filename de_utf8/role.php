@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // role.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['addinganewrole'] = 'Neue Rolle wird hinzugefügt';
@@ -59,6 +59,7 @@ $string['course:managegrades'] = 'Bewertungen verwalten';
 $string['course:managegroups'] = 'Gruppen verwalten';
 $string['course:managemetacourse'] = 'Metakurse verwalten';
 $string['course:managescales'] = 'Bewertungskalen verwalten';
+$string['course:request'] = 'Neue Kurse beantragen';
 $string['course:reset'] = 'Kurs zurücksetzen';
 $string['course:sectionvisibility'] = 'Abschnitte anzeigen / verbergen';
 $string['course:setcurrentsection'] = 'Aktuellen Kursabschnitt setzen';
@@ -105,6 +106,8 @@ $string['extusers'] = 'Existierende Nutzer/innen';
 $string['extusersmatching'] = 'Existierende Nutzer/innen, die zu \'$a\' passen';
 $string['globalrole'] = 'Systemweite Rolle';
 $string['globalroleswarning'] = 'ACHTUNG! Jede von dieser Seite aus zugewiesene Rolle wird für die gesamte Website angelegt. Die jeweiligen Nutzer/innen besitzen ihre Rollerechte dann wirklich für alle Kurse und auch für die Startseite.';
+$string['gotoassignroles'] = 'Gehe zu Rollen zuweisen für $a->contextlevel';
+$string['gotoassignsystemroles'] = 'Gehe zu Globale Rollen zuweisen';
 $string['grade:edit'] = 'Bewertungen bearbeiten';
 $string['grade:export'] = 'Bewertungen exportieren';
 $string['grade:hide'] = 'Bewertungen oder Aspekte anzeigen / verbergen';
@@ -119,6 +122,8 @@ $string['grade:view'] = 'Eigene Bewertungen ansehen';
 $string['grade:viewall'] = 'Fremde Bewertungen ansehen';
 $string['grade:viewhidden'] = 'Verborgene Bewertungen sehen';
 $string['hidden'] = 'Versteckt';
+$string['highlightedcellsshowdefault'] = 'Die hervorgehobenen Zellen in der Tabelle unten zeigen die Default-Einstellungen der Berechtigungen für diese Rolle. Grundlage ist die Basis-Rolle.';
+$string['highlightedcellsshowinherit'] = 'Die hervorgehobenen Zellen in der Tabelle unten zeigen die Berechtigungen (sofern vorhanden), die vererbt werden. Mit Ausnahme der Berechtigungen, die sie anpassen wollen, sollten alle Einstellungen auf \'vererben\' bleiben.';
 $string['inactiveformorethan'] = 'länger als $a->timeperiod inaktiv';
 $string['ingroup'] = 'in der Gruppe \"$a->group\"';
 $string['inherit'] = 'Vererben';
@@ -140,6 +145,9 @@ $string['morethan'] = 'Mehr als $a';
 $string['multipleroles'] = 'Mehrfach-Rollen';
 $string['my:manageblocks'] = 'Blöcke auf der myMoodle-Seite verwalten';
 $string['nocapabilitiesincontext'] = 'In diesem Kontext sind keine Fähigkeiten verfügbar';
+$string['noneinthisx'] = 'Nichts in dieser $a';
+$string['noneinthisxmatching'] = 'Keine Nutzer für die Suche nach \'$a->search\' im Kontext $a->contexttype\' gefunden';
+$string['noroleassignments'] = 'Diesem Nutzer sind an keiner Stelle dieses Systems Rollen zugeordnet worden.';
 $string['notabletoassignroleshere'] = 'Es ist Ihnen hier nicht möglich Rollen zuzuweisen.';
 $string['notabletooverrideroleshere'] = 'Es ist Ihnen hier nicht möglich die Berechtigungen einer Rolle zu überschreiben.';
 $string['notes:manage'] = 'Anmerkungen verwalten';
@@ -240,9 +248,18 @@ $string['user:viewhiddendetails'] = 'Verborgene Nutzerdetails sehen';
 $string['user:viewuseractivitiesreport'] = 'Nutzerberichte sehen';
 $string['user:viewusergrades'] = 'Nutzerbewertungen sehen';
 $string['userhashiddenassignments'] = 'Dies/er Nutzer/in hat eine oder mehrere nicht sichtbare Rollenzuordnungen in diesem Kurs.';
+$string['usersfrom'] = 'Nutzer von $a';
+$string['usersfrommatching'] = 'Nutzer im Kontext $a->contextname passen zur Suche \'$a->search\'';
+$string['usersinthisx'] = 'Nutzer in diesem §a';
+$string['usersinthisxmatching'] = 'Nutzer in diesem $a->contexttype passen zur Suche \'$a->serach\'.';
 $string['userswithrole'] = 'Alle Nutzer/innen mit Rollenzuordnung';
 $string['userswiththisrole'] = 'Nutzer/innen mit einer Rolle';
+$string['useshowadvancedtochange'] = 'Verwenden der erweiterten Suche für Änderungen';
+$string['viewingdefinitionofrolex'] = 'Definition der Rolle \'$a\' anzeigen';
 $string['viewrole'] = 'Rollendetails sehen';
+$string['whydoesuserhavecap'] = 'Warum hat $a->fullname Berechtigung $a->capability im Kontext $a->context ?';
+$string['whydoesusernothavecap'] = 'Warum hat $a->fullname keine Berechtigung $a->capability im Kontext $a->context ?';
+$string['xroleassignments'] = '$a\'s Rollenzuweisungen';
 $string['xuserswiththerole'] = 'Nutzer/innen mit der Rolle \"$a->role\"';
 $string['explainpermissions'] = 'Erläutert die Berechtigungen'; // ORPHANED
 $string['explainpermissionsdetails'] = 'Für die Fähigkeit $a->capability im Kontext $a->context, wenn Sie angemeldet sind als $a->fullname.'; // ORPHANED

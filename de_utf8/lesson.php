@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['accesscontrol'] = 'Zugriffskontrolle';
@@ -106,7 +106,7 @@ $string['didnotreceivecredit'] = 'Hat keine Bewertung erhalten';
 $string['displaydefaultfeedback'] = 'Standardfeedback anzeigen';
 $string['displayhighscores'] = 'Bestenliste';
 $string['displayinleftmenu'] = 'Anzeige im Seitenmenü?';
-$string['displayleftif'] = 'und nur anzeigen, wenn $a eine höhere Bewertung hat als:';
+$string['displayleftif'] = 'und nur anzeigen, wenn $a eine höhere Bewertung hat als';
 $string['displayleftmenu'] = 'Seitenmenü';
 $string['displayofgrade'] = 'Anzeige der Bewertungen (für Teilnehmer/innen)';
 $string['displayreview'] = 'Wiederholung bei falscher Antwort';
@@ -133,6 +133,7 @@ $string['essayemailmessage'] = '<p>Freitext-Frage: <blockquote>$a->question</blo
 <p>Feedback von $a->teacher: <blockquote><em>$a->comment</em></blockquote></p>
 <p>Sie haben $a->earned Punkte von $a->outof Punkten für Ihre Freitext-Antwort erhalten.</p>
 <p>Ihre aktuelle Bewertung für diese Lektion ist nun $a->newgrade.</p>';
+$string['essayemailmessage2'] = '<p>Freitextfrage:<blockquote>$a->question</blockquote></p><p>Ihre Antwort:<blockquote><em>$a->response</em></blockquote></p><p>Feedback von Trainer/in:<blockquote><em>$a->comment</em></blockquote></p><p>Sie haben $a->earned Punkte von $a->outof möglichen Punkten für diese Frage erhalten.</p><p>Ihre aktuelle Bewertung für diese Frage ist nun $a->newgrade&#37;.</p>';
 $string['essayemailsubject'] = 'Freitext-Bewertung für $a';
 $string['essays'] = 'Freitexte';
 $string['essayscore'] = 'Freitext-Bewertung';
@@ -176,6 +177,7 @@ $string['lessondefault'] = 'Einstellungen speichern';
 $string['lessonformating'] = 'Formatierung';
 $string['lessonmenu'] = 'Seitenmenü';
 $string['lessonnotready'] = 'Diese Lektion ist noch nicht verfügbar. Nehmen Sie bitte mit $a Kontakt auf.';
+$string['lessonnotready2'] = 'Diese Lektion kann noch nicht bearbeitet werden.';
 $string['lessonopen'] = 'Diese Lektion ist ab $a verfügbar.';
 $string['lessonopens'] = 'Lektion verfügbar';
 $string['lessonpagelinkingbroken'] = 'Die erste Seite wurde nicht gefunden. Die Verlinkung der Seite weist einen Fehler auf. Nehmen Sie mit dem Admin Kontakt auf.';
@@ -267,6 +269,7 @@ $string['previouspage'] = 'Vorherige Seite';
 $string['processerror'] = 'Fehler während der Verarbeitung aufgetreten!';
 $string['progressbar'] = 'Fortschrittsbalken';
 $string['progressbarteacherwarning'] = 'Fortschrittsbalken für $a nicht anzeigen';
+$string['progressbarteacherwarning2'] = 'Die Fortschrittsanzeige wird Ihnen nicht angezeigt, da Sie diese Lektion als Trainer/in bearbeiten können.';
 $string['qtype'] = 'Seitentyp';
 $string['question'] = 'Frage';
 $string['questionoption'] = 'Zusatzoption';
@@ -280,6 +283,7 @@ $string['redisplaypage'] = 'Seite erneut anzeigen';
 $string['report'] = 'Bericht';
 $string['reports'] = 'Ergebnisse';
 $string['response'] = 'Feedback';
+$string['retakesallowed'] = 'Wiederholungen zulässig';
 $string['returnto'] = 'Zurückkehren zu $a';
 $string['returntocourse'] = 'Zurück zur Kursseite';
 $string['review'] = 'Rückschau';
@@ -331,6 +335,7 @@ $string['usepassword'] = 'Erfordert Kennwort';
 $string['viewgrades'] = 'Bewertungen anzeigen';
 $string['viewhighscores'] = 'Bestenliste anzeigen';
 $string['viewreports'] = '$a->attempts abgeschlossene von $a->student Versuchen anzeigen';
+$string['viewreports2'] = 'Zeige $a komplette Versuche';
 $string['welldone'] = 'Gut gemacht!';
 $string['whatdofirst'] = 'Was wollen Sie zuerst tun?';
 $string['wronganswerjump'] = 'Sprung bei falscher Antwort';

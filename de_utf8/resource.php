@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -59,6 +59,9 @@ $string['imspackageloaded'] = 'Paket geladen';
 $string['invalidassignment'] = 'Falsche Zuordnung';
 $string['invalidid'] = 'Falsche Material-ID';
 $string['keepnavigationvisible'] = 'Seitennavigation auf der gleichen Seite sichtbar lassen.';
+$string['keepnavigationvisibleno'] = 'Nein';
+$string['keepnavigationvisibleyesframe'] = 'Ja, mit Frames';
+$string['keepnavigationvisibleyesobject'] = 'Ja, ohne Frames';
 $string['localfile'] = 'Lokale Datei';
 $string['localfilechoose'] = 'Wählen Sie eine lokale Datei aus (z.B. CD-ROM Laufwerk)';
 $string['localfilehelp'] = 'Hilfe zur Anzeige lokaler Dateien';

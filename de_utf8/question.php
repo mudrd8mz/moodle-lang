@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // question.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
@@ -51,6 +51,7 @@ $string['clicktounflag'] = 'Klicken um die Frage nicht zu markieren';
 $string['contexterror'] = 'Diese Seite sollte nur angezeigt werden, wenn eine Kategorie in einen anderen Kontext verschoben wird.';
 $string['copy'] = 'Aus $a kopieren und Links ändern.';
 $string['created'] = 'Erstellt';
+$string['createdby'] = 'Erstellt von';
 $string['createdmodifiedheader'] = 'Erstellt / Verändert';
 $string['cwrqpfs'] = 'Zufallsfragen, die Fragen aus der Unterkategorie auswählen.';
 $string['cwrqpfsinfo'] = '<p>Beim Update auf Moodle 1.9 werden Kategorien, in denen Fragen abgelegt wurden, unterschiedlichen Kontexten zugeordnet. Bei einigen Kategorien kann es vorkommen, dass der Status der Freigabe dabei angepasst werden muss. Dies ist in dem seltenen Fall erforderlich, dass Sie die Funktion zufällig ausgewählte Fragen verwenden und die Kategorien, in denen die Fragen liegen, auf unterschiedlichen Hierarchieebenen unterschiedliche Freigabewerte haben.</p>
@@ -100,6 +101,7 @@ $string['invalidcategoryidtomove'] = 'Ungültige Kategorien ID beim Verschieben'
 $string['invalidconfirm'] = 'Falscher Bestätigungstext';
 $string['invalidcontextinhasanyquestions'] = 'Ungültiger Kontext für question_context_has_any_questions.';
 $string['invalidwizardpage'] = 'Falsche oder keine Seite festgelegt!';
+$string['lastmodifiedby'] = 'Zuletzt verändert von';
 $string['linkedfiledoesntexist'] = 'Verbundene Datei $a existiert nicht';
 $string['makechildof'] = 'Unterkategorie  von \'$a\' erzeugen';
 $string['maketoplevelitem'] = 'Nach ganz oben bewegen';
@@ -136,6 +138,7 @@ $string['permissionmove'] = 'Diese Frage verschieben';
 $string['permissionsaveasnew'] = 'Diese Frage  als neue Frage speichern';
 $string['permissionto'] = 'Sie besitzen Berechtigungen für :';
 $string['published'] = 'Freigegeben';
+$string['qtypeveryshort'] = 'T';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Die Frage \"$a->name\" ($a->qtype)</a> gehört zu dieser Fragenkategorie. Sie wird aber auch im <a href=\"$a->qurl\">Test \"$a->quizname\"</a> innerhalb des Kurses \"$a->coursename\" benutzt.';
 $string['questionbank'] = 'Fragenliste';
 $string['questioncategory'] = 'Fragenkategorie';
