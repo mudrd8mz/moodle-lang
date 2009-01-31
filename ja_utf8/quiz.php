@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['1day'] = '1日';
@@ -447,7 +447,7 @@ $string['noreviewshort'] = '許可なし';
 $string['noreviewuntil'] = 'あなたは、$a までこの小テストのレビューはできません。';
 $string['noreviewuntilshort'] = '利用可能 $a';
 $string['noscript'] = '続けるにはJavaスクリプトを有効にしてください!';
-$string['notavailable'] = '申し訳ございません、このクイズはまだ利用できません。';
+$string['notavailable'] = '申し訳ございません、この小テストはまだ利用できません。';
 $string['notavailabletostudents'] = '注意: 現在あなたの学生は、この小テストを利用できません。';
 $string['notenoughanswers'] = 'このタイプの質問には少なくとも $a の解答が必要です。';
 $string['notenoughsubquestions'] = '十分な副質問が定義されていません！<br />この質問を修正しますか？';
@@ -529,6 +529,7 @@ $string['quiz:ignoretimelimits'] = '制限時間のある小テストを無視�
 $string['quiz:manage'] = '小テストを管理する';
 $string['quiz:preview'] = '小テストをプレビューする';
 $string['quiz:regrade'] = '小テストの受験を再評定する';
+$string['quiz:reviewmyattempts'] = 'あなたの受験をレビューする';
 $string['quiz:view'] = '小テスト情報を表示する';
 $string['quiz:viewreports'] = '小テストレポートを表示する';
 $string['quizavailable'] = '小テストは $a まで利用できます。';
@@ -536,6 +537,8 @@ $string['quizclose'] = '小テスト終了日時';
 $string['quizclosed'] = 'この小テストは $a に終了しました。';
 $string['quizcloses'] = '終了日時';
 $string['quizcloseson'] = 'この小テストは $a に終了します。';
+$string['quizisclosed'] = 'この小テストは終了しています。';
+$string['quizisopen'] = 'この小テストは公開されています。';
 $string['quiznavigation'] = '小テストナビゲーション';
 $string['quiznotavailable'] = '小テストは  $a まで利用できません。';
 $string['quizopen'] = '小テスト公開日時';
@@ -545,6 +548,7 @@ $string['quizopens'] = '公開日時';
 $string['quizsettings'] = '小テスト設定';
 $string['quiztimelimit'] = '制限時間: $a';
 $string['quiztimer'] = '小テストタイマー';
+$string['quizwillopen'] = 'この小テストは $a に公開されます。';
 $string['random'] = 'ランダム問題';
 $string['randomcreate'] = 'ランダム問題の作成';
 $string['randomsamatch'] = 'ランダム記述組み合わせ問題';

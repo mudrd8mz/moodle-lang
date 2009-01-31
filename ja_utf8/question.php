@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // question.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -153,6 +153,7 @@ $string['questionsrescuedfrominfo'] = 'いくつかの小テストまたは他�
 $string['questiontype'] = '問題タイプ';
 $string['questionuse'] = 'この活動で問題を使用する';
 $string['saveflags'] = 'フラグの状態を保存する';
+$string['selectquestionsforbulk'] = 'バルク処理の問題を選択する';
 $string['shareincontext'] = '$a でコンテクストを共有する';
 $string['tofilecategory'] = 'カテゴリをファイルに書く';
 $string['tofilecontext'] = 'コンテクストをファイルに書く';
