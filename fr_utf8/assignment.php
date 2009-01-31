@@ -17,7 +17,7 @@ $string['attachfiletoassignment'] = 'Joindre un(des) fichier(s) au devoir'; // L
 $string['backtoassignment'] = 'Retour au devoir'; // Legacy, to delete in 1.7dev
 $string['backtofeedback'] = 'Retour au feedback'; // Legacy, to delete in 1.7dev
 $string['choosereviewfile'] = 'Choisir un fichier à déposer comme retour du devoir&nbsp;:'; // Legacy, to delete in 1.7dev
-$string['assignmentmail'] = '$a->teacher a écrit un feedback concernant votre devoir «&nbsp;$a->assignment&nbsp;»
+$string['assignmentmail'] = '$a->teacher a écrit un feedback concernant votre devoir « $a->assignment »
 
 Vous pouvez le consulter en annexe à votre devoir :
 
@@ -98,10 +98,10 @@ $string['notavailableyet'] = 'Ce devoir n\'est pas encore disponible.<br />Les t
 $string['notes'] = 'Remarques';
 $string['notesempty'] = 'Aucune remarque';
 $string['notesupdateerror'] = 'Erreur lors de la modification des remarques';
-$string['notgradedyet'] = 'Pas encore noté';
+$string['notgradedyet'] = 'Pas encore évalué';
 $string['notsubmittedyet'] = 'Pas encore rendu';
 $string['onceassignmentsent'] = 'Une fois le devoir validé pour être noté, vous ne pourrez plus ni supprimer, ni joindre aucun fichier. Voulez-vous continuer&nbsp;?';
-$string['overwritewarning'] = 'Attention ! un nouvel envoi remplacera votre devoir déjà remis';
+$string['overwritewarning'] = 'Attention&nbsp;! un nouvel envoi remplacera votre devoir déjà remis';
 $string['pagesize'] = 'Documents affichés par page';
 $string['preventlate'] = 'Empêcher les remises en retard';
 $string['quickgrade'] = 'Permettre évaluation rapide';
@@ -142,9 +142,9 @@ $string['unfinalizeerror'] = 'Une erreur est survenue, qui a empêché le retour
 $string['uploadbadname'] = 'Ce nom de fichier contient d\'étranges caractères. Il ne peut être déposé';
 $string['uploadedfiles'] = 'fichiers déposés';
 $string['uploaderror'] = 'Une erreur est survenue lors de l\'enregistrement du fichier sur le serveur';
-$string['uploadfailnoupdate'] = 'Le fichier a été correctement déposé, mais il n\'a pas été possible de mettre à jour votre devoir !';
+$string['uploadfailnoupdate'] = 'Le fichier a été correctement déposé, mais il n\'a pas été possible de mettre à jour votre devoir&nbsp;!';
 $string['uploadfiletoobig'] = 'Désolé, la taille de ce fichier est trop grande (taille maximale&nbsp;: $a octets)';
-$string['uploadnofilefound'] = 'Aucun fichier n\'a été trouvé. En avez-vous vraiment choisi un à déposer ?';
+$string['uploadnofilefound'] = 'Aucun fichier n\'a été trouvé. En avez-vous vraiment choisi un à déposer&nbsp;?';
 $string['uploadnotregistered'] = '«&nbsp;$a&nbsp;» a été correctement déposé, mais votre devoir n\'a pu être enregistré !';
 $string['uploadsuccess'] = '«&nbsp;$a&nbsp;» a été correctement déposé';
 $string['uploadsuccessresponse'] = 'Le fichier en retour a été déposé avec succès.'; // Legacy, to delete in 1.7dev
