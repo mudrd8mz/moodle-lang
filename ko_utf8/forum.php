@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090131) (2009012901)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -8,6 +8,7 @@ $string['addanewtopic'] = '새로운 주제 추가';
 $string['advancedsearch'] = '상세 검색';
 $string['aggregateavg'] = '평균';
 $string['aggregatecount'] = '추천 수';
+$string['aggregatecountformat'] = '$a->count (득점: $a->grade)';
 $string['aggregatemax'] = '최상위';
 $string['aggregatemin'] = '최하위';
 $string['aggregatenone'] = '추천없음';
@@ -28,13 +29,13 @@ $string['areaintro'] = '포럼 소개';
 $string['attachment'] = '첨부';
 $string['attachmentnopost'] = '게시 ID 없이 첨부물을 내보낼 수 없음';
 $string['attachments'] = '첨부물';
-$string['blockafter'] = '차단을 위한 게시 한계';
+$string['blockafter'] = '차단하기 전 게시 한도';
 $string['blockperiod'] = '차단 시간';
 $string['blockperioddisabled'] = '차단하지 않음';
 $string['bynameondate'] = '$a->date 에 $a->name 씀';
 $string['cannotadd'] = '포럼에 토론을 추가할 수 없음';
 $string['cannotadddiscussion'] = '포럼에 의견을 제시하려면 모둠의 구성원이어야 합니다.';
-$string['cannotadddiscussionall'] = '참여자를 위한 토론 주제 추가 권한이 없습니다.';
+$string['cannotadddiscussionall'] = '공동의 토론 주제 추가 권한이 없습니다.';
 $string['cannotaddsubscriber'] = '이 포럼에 id $a 인 구독자를 추가할 수 없음!';
 $string['cannotaddteacherforumto'] = '본 강좌의 소개난에 보조교사의 포럼은 추가할 수 없음';
 $string['cannotconvertteachertogeneral'] = '교수자의 포럼을 일반 포럼으로 전환할 수 없음';
@@ -71,16 +72,16 @@ $string['completiondiscussionshelp'] = '토론 이수 필수';
 $string['completionposts'] = '토론이나 응답을 게시해야 함';
 $string['completionpostsgroup'] = '게시 필수';
 $string['completionpostshelp'] = '이수하기 위해 토론이나 응답이 필수 사항임';
-$string['completionreplies'] = '게시글에 응답 필수';
+$string['completionreplies'] = '게시글에 응답 필수 :';
 $string['completionrepliesgroup'] = '응답 필수';
-$string['completionreplieshelp'] = '이수하기 위해 응답이 필수 사항임';
+$string['completionreplieshelp'] = '완료하려면 필히 응답해야 함';
 $string['configajaxrating'] = 'AJAX 추천기능은 일반적으로 포럼의 추천기능을 향상시킴. 이것이 켜져 있으면 하단의 \'최근 추천 보냄\'을 클릭하지 않고도 즉시 포럼 게시물에 대한 추천을 할 수 있게 됨. 단, 사이트 및 사용자의 개별 AJAX 기능이 활성화되어 있어야만 함';
 $string['configcleanreadtime'] = '\'읽었음\'표에서 지난 게시물을 정리하는 시각';
 $string['configdisplaymode'] = '아무 것도 설정되지 않았을 경우 기본적으로 보여지는 제시 형태';
-$string['configenablerssfeeds'] = '이 스위치는 모든 포럼이 RSS 피드를 이용할 수 있게 합니다. 하지만 각 포럼에서 기사를 전달하기 위해서는 피드를 지원하도록 수동으로 옵션을 켜야 합니다.';
-$string['configenabletimedposts'] = '새 포럼의 토론을 게시할 때 게시 기간을 설정할 수 있게 허용하려면 \"예\"로 설정하라.(아직 완전히 검증되지 않은 시험적 기능임)';
+$string['configenablerssfeeds'] = '이 스위치는 모든 포럼이 RSS 피드를 이용할 수 있게 합니다. 하지만 각 포럼에서도 피드를 지원할 수 있도록 설정을 켜야만 할 것입니다.';
+$string['configenabletimedposts'] = '포럼의 토론을 게시할 때 게시 기간을 설정할 수 있게 허용하려면 \"예\"로 설정하라.(아직 완전히 검증되지 않은 시험적 기능임)';
 $string['configlogblocked'] = '포럼의 크론은 이메일을 막아놓은 이용자에게 시도한 메일 발송내역을 기록으로 남길 수 있다.';
-$string['configlongpost'] = '이 길이를 초과한 게시물(HTML코드 제외)은 긴 것으로 여겨집니다. 사이트의 초기화면, 사회적 형식의 강좌 화면 또는 사용자 개인정보의 화면은 forum_shortpost와 forum_longpost에서 지정된 길이로 조절됩니다.';
+$string['configlongpost'] = '제시된 길이를 초과한 게시물(HTML코드 제외)은 긴 것으로 여겨집니다. 사이트의 초기화면, 사회적 형식의 강좌 화면 또는 사용자 개인정보의 화면은 forum_shortpost와 forum_longpost에서 지정된 길이로 조절됩니다.';
 $string['configmanydiscussions'] = '한 포럼 화면에서 수용할 수 있는 최대 토론의 수';
 $string['configmaxattachments'] = '각 게시글에 추가할 수 있는 최대 첨부물 수';
 $string['configmaxbytes'] = '이 사이트 모든 포럼 첨부물의 기본 최대 크기(강좌 및 기타 사이트 설정에 따라 다름)';
@@ -99,7 +100,7 @@ $string['deletedpost'] = '그 게시물은 삭제되었음';
 $string['deletedposts'] = '그 게시물들은 삭제되었음';
 $string['deletesure'] = '정말 이 게시물을 삭제하겠습니까?';
 $string['deletesureplural'] = '($a 게시글)이 게시물과 모든 답글을 삭제하는 것이 확실합니까?';
-$string['digestmailheader'] = '이것은 $a->sitename 포럼의 새로 게시된 글들의 요약문이다. 포럼의 이메일 선택을 바꾸려면 $a->userprefs 로 가시오.';
+$string['digestmailheader'] = '이것은 $a->sitename 포럼의 새로 게시된 글들의 요약문이다. 포럼의 구독여부를 변경하려면 $a->userprefs 로 가시오.';
 $string['digestmailprefs'] = '사용자 개인정보';
 $string['digestmailsubject'] = '$a: 포럼 요약';
 $string['digestsentusers'] = '메일 요약문이 $a 사용자에게 성공적으로 보내졌습니다.';
