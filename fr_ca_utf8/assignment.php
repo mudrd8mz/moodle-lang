@@ -1,6 +1,5 @@
 <?php // $Id$ 
 
-$string['allowresubmit'] = 'Permettre plusieurs remises d\'un devoir';
 $string['assignmentmail'] = '$a->teacher a fait des remarques sur votre devoir « $a->assignment ». 
 
 Vous pouvez les consulter en annexe à votre devoir :
