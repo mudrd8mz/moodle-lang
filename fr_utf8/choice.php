@@ -1,7 +1,7 @@
 <?php // $Id$ 
 
 $string['addmorechoices'] = 'Ajouter d\'autres propositions';
-$string['allowupdate'] = 'Permettre la mise à jour du sondage';
+$string['allowupdate'] = 'Permettre la modification du choix';
 $string['answered'] = 'Répondu';
 $string['cannotupdatechoice'] = 'Impossible de modifier votre choix en raison d\'une erreur de base de données';
 $string['cannotsavechoice'] = 'Impossible d\'enregistrer votre choix';
@@ -30,7 +30,7 @@ $string['mustchooseone'] = 'Vous devez sélectionner une réponse avant d\'enreg
 $string['noguestchoose'] = 'Désolé, les invités ne peuvent pas participer aux sondages.';
 $string['noresultsviewable'] = 'Les résultats ne sont actuellement pas visibles.';
 $string['notanswered'] = 'Pas encore répondu';
-$string['notopenyet'] = 'Désolé, cette activité sera disponible dès le $a';
+$string['notopenyet'] = 'Désolé, cette activité ne sera disponible que le $a';
 $string['privacy'] = 'Confidentialité des résultats';
 $string['publish'] = 'Publication des résultats';
 $string['publishafteranswer'] = 'Afficher les résultats aux étudiants après leur réponse';
@@ -43,7 +43,7 @@ $string['removemychoice'] = 'Retirer mon vote';
 $string['removeresponses'] = 'Supprimer toutes les réponses';
 $string['responses'] = 'Réponses';
 $string['responsesto'] = 'Réponses à $a';
-$string['savemychoice'] = 'Enregistrer mon vote';
+$string['savemychoice'] = 'Enregistrer mon choix';
 $string['showunanswered'] = 'Afficher la colonne des «&nbsp;sans réponse&nbsp;»';
 $string['spaceleft'] = 'espace disponible';
 $string['spacesleft'] = 'espaces disponibles';
