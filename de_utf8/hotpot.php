@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['abandoned'] = 'Abgebrochen';
@@ -28,6 +28,7 @@ $string['copytoclipboard'] = 'In Zwischenablage kopieren';
 $string['correct'] = 'Richtig';
 $string['deleteabandoned'] = 'Abgebrochene Versuche löschen';
 $string['deleteabandonedcheck'] = 'Wollen Sie wirklich alle $a abgebrochenen Versuche löschen?';
+$string['deleteallattempts'] = 'Alle Versuche löschen';
 $string['displaycoursenext'] = 'Nach dem Speichern Kursseite anzeigen';
 $string['displayhotpotnext'] = 'Nach dem Speichern HotPot-Test anzeigen';
 $string['displayindexnext'] = 'Nach dem Speichern HotPot-Index anzeigen';
