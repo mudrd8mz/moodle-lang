@@ -3,7 +3,7 @@
 $string['about'] = 'À propos de cet éditeur';
 $string['absbottom'] = 'Bas (absolu)';
 $string['address'] = 'Adresse';
-$string['alertnoselectedtext'] = 'Veuillez d\'abord sélectionner du texte!';
+$string['alertnoselectedtext'] = 'Veuillez d\'abord sélectionner du texte&nbsp;!';
 $string['alignment'] = 'Alignement';
 $string['alternatetext'] = 'Texte alt';
 $string['anchorhelp'] = 'Ceci ne fait que créer un ancrage. Vous devrez encore créer le lien manuellement.';
@@ -23,7 +23,7 @@ $string['close'] = 'Fermer';
 $string['closeafterreplace'] = 'Fermer après remplacement';
 $string['cols'] = 'Colonnes';
 $string['copy'] = 'Copier la sélection';
-$string['createanchor'] = 'Créer un ancrage';
+$string['createanchor'] = 'Nouvel ancrage';
 $string['createfolder'] = 'Nouveau dossier';
 $string['createlink'] = 'Insérer un lien web';
 $string['cut'] = 'Couper la sélection';
