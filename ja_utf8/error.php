@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // error.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['TODO'] = 'TODO';
@@ -127,12 +127,10 @@ $string['cannotsetupblock'] = 'ブロックテーブルが正常に設定され�
 $string['cannotsetupcapformod'] = '$a のケイパビリティを設定できませんでした。';
 $string['cannotsetupcapforplugin'] = '$a のケイパビリティを設定できませんでした。';
 $string['cannotsetupcategory'] = '重大なエラー! デフォルトのコースカテゴリを作成できませんでした!';
-$string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!';
 $string['cannotshowhidecoursesincategory'] = 'カテゴリ $a 内のコースを表示/非表示できません。';
 $string['cannotunassigncap'] = '廃止予定のケイパビリティ $a->cap をロール $a->role から割り当て解除できませんでした。';
 $string['cannotunassignrolefrom'] = 'このユーザをロールID $a から割り当て解除できませんでした。';
 $string['cannotunzipfile'] = 'ZIPファイルを解凍できません。';
-$string['cannotupdateblock'] = 'ブロックテーブルのブロック $a レコードを更新できませんでした!';
 $string['cannotupdatecategory'] = 'カテゴリ ($a) を更新できませんでした。';
 $string['cannotupdatecm'] = 'コースモジュールを正しいセクションに更新できませんでした。';
 $string['cannotupdatecomment'] = 'コメントを更新できませんでした。';
@@ -200,6 +198,7 @@ $string['ddltablenotexist'] = 'テーブル「 $a 」がありません。';
 $string['ddlunknownerror'] = '不明なDDLライブラリエラーが発生しました。';
 $string['ddlxmlfileerror'] = 'XMLデータベースファイルにエラーが見つかりました。';
 $string['destinationcmnotexit'] = '目的のコースモジュールがありません。';
+$string['detectedbrokenplugin'] = '申し訳ございません、プラグイン「 $a 」に問題があるため、継続できません。';
 $string['dmlreadexception'] = 'データベースからの読み込み中にエラーが発生しました。';
 $string['dmlwriteexception'] = 'データベースへの書き込み中にエラーが発生しました。';
 $string['downloadedfilecheckfailed'] = 'ダウンロードファイルのチェックに失敗しました。';
@@ -330,7 +329,6 @@ $string['moduledisable'] = 'このコースに対して、モジュール ($a) �
 $string['moduledoesnotexist'] = 'このモジュールはありません。';
 $string['moduleinstancedoesnotexist'] = 'このモジュールのインスタンスがありません。';
 $string['modulemissingcode'] = 'この機能を実行するためのコードがモジュール $a にありません。';
-$string['modulerequirementsnotmet'] = 'モジュール「 $a->modulename 」 ($a->moduleversion) をインストールできませんでした。このモジュールをインストールするためには新しいバージョンのMoodleをインストールする必要があります。(現在、あなたは $a->currentmoodle を使用しています。 $a->requiremoodle が必要です。)';
 $string['multiplerestorenotallow'] = '複数のリストア実行は許可されていません!';
 $string['mustbeloggedin'] = 'この処理を実行するには、あなたはログインする必要があります。';
 $string['mustbeteacher'] = 'このページは、教師のみ閲覧可能です。';
@@ -363,7 +361,6 @@ $string['nopermissiontomkdir'] = 'フォルダを作成できません。サイ�
 $string['nopermissiontorate'] = 'アイテムの評価はできません!';
 $string['nopermissiontoshow'] = '閲覧するパーミッションがありません!';
 $string['nopermissiontounlock'] = 'ロック解除するパーミッションはありません!';
-$string['nopermissiontoupdateblock'] = '$a を更新するパーミッションがありません!';
 $string['nopermissiontoviewletergrade'] = '評定文字を閲覧するパーミッションがありません。';
 $string['nopermissiontoviewpage'] = 'あなたは、このページを閲覧できません。';
 $string['nosite'] = 'トップレベルのコースが見つかりませんでした!';
@@ -447,10 +444,8 @@ $string['unsupportedevent'] = 'サポートされていないイベントタイ�
 $string['unsupportedstate'] = 'サポートされていない完了状況です。';
 $string['unsupportedwebserver'] = '申し訳ございません、ウェブサーバソフトウェア ($a) は、サポートされていません。';
 $string['updatersserror'] = 'ID $a のRSSフィードの更新中にエラーが発生しました。';
-$string['upgradefail'] = 'アップグレードに失敗しました! $a';
 $string['upgraderequires19'] = 'エラー: このサーバに新しいMoodleバージョンがインストールされました。残念ですが、前のバージョンからのアップグレードがサポートされていません。<br />最初に、最新の1.9.xリリースにアップグレードしてください。オリジナルファイルを再インストールすることで、あなたは元のバージョンに戻ることができます。';
 $string['upgraderunning'] = 'サイトはアップグレード中です。後ほどお試しください。';
-$string['upgradeversionfail'] = 'バックアップシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)';
 $string['urlnotdefinerss'] = 'RSSフィードのURIが定義されていません。';
 $string['userautherror'] = '不明な認証プラグイン「 $a 」';
 $string['userauthunsupported'] = 'ここでは認証プラグインがサポートされていません。';
@@ -483,6 +478,12 @@ $string['wwwrootslash'] = 'config.phpに正しくない \$CFG->wwwroot が検知
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['youcannotdeletecategory'] = 'コンテンツを削除または移動できないため、あなたはカテゴリ「 $a 」を削除することはできません。';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
+$string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!'; //TBD
+$string['cannotupdateblock'] = 'ブロックテーブルのブロック $a レコードを更新できませんでした!'; //TBD
+$string['modulerequirementsnotmet'] = 'モジュール「 $a->modulename 」 ($a->moduleversion) をインストールできませんでした。このモジュールをインストールするためには新しいバージョンのMoodleをインストールする必要があります。(現在、あなたは $a->currentmoodle を使用しています。 $a->requiremoodle が必要です。)'; //TBD
+$string['nopermissiontoupdateblock'] = '$a を更新するパーミッションがありません!'; //TBD
+$string['upgradefail'] = 'アップグレードに失敗しました! $a'; //TBD
+$string['upgradeversionfail'] = 'バックアップシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)'; //TBD
 $string['cannofindgradeitem'] = '評定項目が見つかりません。'; //TBD
 $string['typenotimplement'] = 'TODO: タイプが実装されていません。'; //TBD
 $string['cmunknown'] = 'このコースモジュールを見つけることができません。'; //TBD
