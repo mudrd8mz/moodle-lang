@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090201) (2009012901)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -780,17 +780,18 @@ $string['timezonenotforced'] = '개인별 표준시 선택 허용';
 $string['tokenizerrecommended'] = '추가적인 PHP Tokenizer 확장 설치가 요구됩니다. -- 이는 무들 네트웍의 기능을 향상시킵니다.';
 $string['unattendedoperation'] = '부재 작동';
 $string['unbookmarkthispage'] = '갈무리 지정 해제';
-$string['unicoderecommended'] = '모든 자료를 유니코드(UTF-8)로 저장해야 합니다. 새 설정은 기본 문자코드가 유니코드로 저장되어 있다고 가정하고 작동이 됩니다. 만일 업그레이드 중이라면 반드시 UTF-8 변환과정을 수행하여야만 합니다.(관리화면 참조)';
-$string['unicoderequired'] = '모든 자료가 유니코드(UTF-8)로 저장되야 합니다. 새 설정은 기본 문자코드가 유니코드로 저장되어 있다고 가정하고 작동이 됩니다. 만일 업그레이드 중이라면 반드시 UTF-8 변환과정을 수행하여야만 합니다.(관리화면 참조)';
+$string['unicoderecommended'] = '모든 자료를 유니코드(UTF-8)로 저장해야 합니다. 새로운 설치 과정에서는 기본 문자코드가 유니코드로 저장되어 있다고 가정하고 작동이 됩니다. 만일 업그레이드 중이라면 반드시 UTF-8 변환과정을 수행하여야만 합니다.(관리화면 참조)';
+$string['unicoderequired'] = '모든 자료가 유니코드(UTF-8)로 저장되야 합니다. 새로운 설치 과정에서는 기본 문자코드가 유니코드로 저장되어 있다고 가정하고 작동이 됩니다. 만일 업그레이드 중이라면 반드시 UTF-8 변환과정을 수행하여야만 합니다.(관리화면 참조)';
 $string['unicodeupgradenotice'] = '무들 1.6에서는 모든 언어가 유니코드로 바뀌었습니다. 이 사이트의 업그레이드를 마치기 위해서는 다음의 변환 스크립트를 사용하여 데이터베이스의 모든 데이터를 변환하여야 합니다.  <a href=\"utfdbmigrate.php\">변환스크립트를 사용하기 위해서는 여기를 클릭하세요</a>';
 $string['uninstall'] = '선택된 언어팩의 제거';
-$string['uninstallconfirm'] = '언어팩 $a 삭제 요청을 하였습니다. 제거하시겠습니까?';
+$string['uninstallconfirm'] = '$a 언어팩을 완전히 제거할 예정입니다. 확실합니까?';
 $string['uninstallqtype'] = '이 문제 유형 제거';
 $string['unsupported'] = '지원되지 않음';
 $string['updateaccounts'] = '기존 계정 갱신';
 $string['updatecomponent'] = '구성요소 갱신';
 $string['updatelangs'] = '언어팩의 갱신';
 $string['updatetimezones'] = '시간대역 갱신';
+$string['upgradeerror'] = '$a->plugin 를 $a->version 판으로 갱신하던 중, 알 수 없는 오류로 인해 중지되었습니다.';
 $string['upgradeforumread'] = '포럼의 게시물을 찾기 위해 Moodle 1.5에 \"읽음/안읽은 게시물\" 기능이 추가 되었습니다. <br />이 기능을 사용하려면 <a href=\"$a\">이 곳을 클릭하여</a> 테이블을 갱신하세요.';
 $string['upgradeforumreadinfo'] = '읽거나 읽지 않은 포럼의 게시물을 찾기 위해 Moodle 1.5에 새로운 기능이 추가되었습니다. 이 기능을 사용하기 위해 추적 정보를 이용하기 위해서는 현존하고 있는 게시물에 있는 목록을 갱신할 필요가 있습니다.  사이트에 따라 시간이 길어질 수 있으며(수 시간) 데이터베이스의 규모에 따라 좀 더 시간이 걸릴 수도 있습니다. 일단 이것을 진행시키면 꼭 끝을 보아야 합니다.(윈도우 브라우저 창을 유지시키는 것 만으로 할 수 있습니다.) 걱정마십시오 - 당신의 사이트는 로그를 업그레이드 하는 동안 다른사람이 이용하는데 불편없이 잘 운영이 될 것입니다.
 <br /><br />업그레이드 과정을 시작할까요?';
@@ -815,7 +816,7 @@ $string['uploadpicture_overwrite'] = '기존 사진에 덮어 쓰겠습니까?';
 $string['uploadpicture_userfield'] = '사진에 상응하는 사용자 속성:';
 $string['uploadpicture_usernotfound'] = '\'$a->uservalue\'가 \'$a->userfield\'인 이용자는 존재하지 않습니다. 생략합니다.';
 $string['uploadpicture_userskipped'] = '$a 는 이미 사진이 있으므로 생략합니다.';
-$string['uploadpicture_userupdated'] = '$a 사진 갱신';
+$string['uploadpicture_userupdated'] = '$a 사진 갱신됨';
 $string['uploadpictures'] = '사진 올려주기';
 $string['uploaduserspreview'] = '올린 이용자 미리보기';
 $string['uploadusersresult'] = '이용자 업로드 결과';
@@ -840,7 +841,7 @@ $string['uubulk'] = '일괄 작업을 위한 선택';
 $string['uubulkall'] = '모든 이용자';
 $string['uubulknew'] = '새 사용자';
 $string['uubulkupdated'] = '갱신된 이용자';
-$string['uucoursedefaultrole'] = '기본 강좌 역할';
+$string['uucoursedefaultrole'] = '기본 강좌역할';
 $string['uucsvline'] = 'CSV 라인';
 $string['uulegacy1role'] = '(정규 학생) 유형번호=1';
 $string['uulegacy2role'] = '(정규 교수자) 유형번호=2';
