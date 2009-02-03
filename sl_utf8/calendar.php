@@ -1,5 +1,7 @@
-<?php // $Id:
-      // calendar.php
+<?PHP // $Id$ 
+      // calendar.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['advancedoptions'] = 'Napredne možnosti';
 $string['allday'] = 'Cel dan';
 $string['calendar'] = 'Koledar';
@@ -45,8 +47,8 @@ $string['eventstarttime'] = 'Čas začetka';
 $string['eventtime'] = 'Čas';
 $string['eventview'] = 'Podrobnosti dogodka';
 $string['expired'] = 'Pretečeno';
-$string['explain_lookahead'] = 'Določitev največjega število dni v prihodnosti, ko se mora dogodek pričeti, da bo prikazan kot prihajajoč dogodek. Dogodki, ki se pričnejo po tem, se ne bodo nikoli prikazali kot prihajajoči. Pozor: <strong>ni jamstva</strong>, da bodo prikazani vsi dogodki, ki se pričnejo v tem časovnem okviru. Če jih je preveč (več kot v nastavitvi \"Največje število prihajajočih dogodkov\"), potem časovno najbolj odmaknjeni dogodki ne bodo prikazani.';
-$string['explain_maxevents'] = 'Nastavitev največjega števila prihajajočih dogodkov za prikaz. Če izberete veliko številko, lahko prihodnji dogodki zavzamejo veliko prostora na zaslonu.';
+$string['explain_lookahead'] = 'Določitev največjega števila dni v prihodnosti, v katerih se mora dogodek pričeti, da bo prikazan kot prihajajoč dogodek. Dogodki, ki se pričnejo po tem, se ne bodo nikoli prikazali kot prihajajoči. Pozor: <strong>ni jamstva</strong>, da bodo prikazani vsi dogodki, ki se pričnejo v tem časovnem okviru. Če jih je preveč (več kot v nastavitvi \"Največje število prihajajočih dogodkov\"), potem časovno najbolj odmaknjeni dogodki ne bodo prikazani.';
+$string['explain_maxevents'] = 'Nastavitev največjega števila prihajajočih dogodkov za prikaz. Če izberete veliko številko, lahko prihajajoči dogodki zavzamejo veliko prostora na zaslonu.';
 $string['explain_persistflt'] = 'Če je to omogočeno, si bo Moodle zapomnil vaše zadnje nastavitve filtra dogodkov in jih samodejno obnovil ob vsaki prijavi.';
 $string['explain_site_timeformat'] = 'Lahko izberete prikaz časa v formatu 12 ali 24, ki velja za vse spletne strani. Če izberete \"privzeto\", bo format izbran glede na jezik. Uporabnikove nastavitve imajo prednost pred to nastavitvijo.';
 $string['explain_startwday'] = 'Tedni koledarja se bodo prikazali z izbranim dnevom.';
@@ -57,7 +59,7 @@ $string['exportcalendar'] = 'Izvoz koledarja';
 $string['for'] = 'za';
 $string['fri'] = 'pet';
 $string['friday'] = 'petek';
-$string['generateurlbutton'] = 'Dobi URL koledarja';
+$string['generateurlbutton'] = 'Pridobi URL koledarja';
 $string['global'] = 'Globalno';
 $string['globalevent'] = 'Globalni dogodek';
 $string['globalevents'] = 'Globalni dogodki';
@@ -77,20 +79,20 @@ $string['monththis'] = 'Ta mesec';
 $string['newevent'] = 'Nov dogodek';
 $string['noupcomingevents'] = 'Ni prihajajočih dogodkov';
 $string['oneevent'] = '1 dogodek';
-$string['preferences'] = 'Nastavitve';
-$string['preferences_available'] = 'Vaše osebne nastavitve';
 $string['pref_lookahead'] = 'Prihajajoči dogodki pogled v naprej';
 $string['pref_maxevents'] = 'Največje število prihodnjih dogodkov';
 $string['pref_persistflt'] = 'Zapomni si nastavitve filtra';
 $string['pref_startwday'] = 'Prvi dan tedna';
 $string['pref_timeformat'] = 'Oblika prikaza časa';
-$string['quickdownloadcalendar'] = 'Hiter download/naroči koledar';
+$string['preferences'] = 'Nastavitve';
+$string['preferences_available'] = 'Vaše osebne nastavitve';
+$string['quickdownloadcalendar'] = 'Hiter prenos/naročanje na koledar';
 $string['recentupcoming'] = 'preteklih in naslednjih 60 dni';
 $string['repeateditall'] = 'Uporabi spremembe za vse ($a) dogodke v tem nizu ponovitev';
 $string['repeateditthis'] = 'Uporabi spremembe samo za ta dogodek';
 $string['repeatnone'] = 'Brez ponovitev';
-$string['repeatweeksl'] = 'Ponovi tedensko, ustvarjanje vseh skupaj';
-$string['repeatweeksr'] = 'dogodki';
+$string['repeatweeksl'] = 'Ponovi tedensko, v celoti ustvari';
+$string['repeatweeksr'] = 'dogodkov';
 $string['sat'] = 'sob';
 $string['saturday'] = 'sobota';
 $string['shown'] = 'prikazano';
@@ -119,15 +121,16 @@ $string['typecourse'] = 'Dogodek predmeta';
 $string['typegroup'] = 'Dogodek skupine';
 $string['typesite'] = 'Dogodek strani';
 $string['typeuser'] = 'Dogodek uporabnika';
-$string['upcomingevents'] = 'Prihodnji dogodki';
+$string['upcomingevents'] = 'Prihajajoči dogodki';
 $string['urlforical'] = 'URL za izvoz iCalendar in naročanje na koledar';
 $string['user'] = 'Uporabnik';
 $string['userevent'] = 'Dogodek uporabnika';
 $string['userevents'] = 'Dogodki uporabnika';
 $string['wed'] = 'sre';
 $string['wednesday'] = 'sreda';
-$string['weeknext'] = 'Nasledni teden';
+$string['weeknext'] = 'Naslednji teden';
 $string['weekthis'] = 'Trenutni teden';
 $string['yesterday'] = 'Včeraj';
 $string['youcandeleteallrepeats'] = 'Ta dogodek je del ponavljajočega se niza dogodkov. Izbrišete lahko samo ta dogodek ali vse ($a)dogodke v nizu hkrati.';
+
 ?>

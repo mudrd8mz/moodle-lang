@@ -1,5 +1,7 @@
-<?php // $Id:
-      // chat.php
+<?PHP // $Id$ 
+      // chat.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['autoscroll'] = 'Avtomatski pomik';
 $string['beep'] = 'zvočni signal';
 $string['chat:chat'] = 'Govori v klepetalnici';
@@ -15,7 +17,7 @@ $string['configoldping'] = 'Najdaljši interval, ki sme preteči preden zaznamo,
 $string['configrefreshroom'] = 'Kako pogosto naj se osveži sama klepetalnica? (v sekundah).  Z nizko nastavitvijo te vrednosti bo videti klepetalnica hitrejša, a lahko povzroči višjo obremenitev vašega spletnega strežnika, ko bo sodelovalo več uporabnikov. Če uporabljate posodobitve <em>Stream</em>, lahko izberete višje frekvence osvežitve - poskusite z 2.';
 $string['configrefreshuserlist'] = 'Kako pogosto naj se osveži seznam uporabnikov? (v sekundah)';
 $string['configserverhost'] = 'Ime strežnika, na katerem je strežniški demon';
-$string['configserverip'] = 'Številčni IP naslov, ki se ujema z gornjim imenom gostitelja';
+$string['configserverip'] = 'Številčni naslov IP, ki se ujema z gornjim imenom gostitelja';
 $string['configservermax'] = 'Največje dovoljeno število odjemalcev';
 $string['configserverport'] = 'Vrata strežnika za demona';
 $string['currentchats'] = 'Aktivne seje klepeta';
@@ -26,8 +28,8 @@ $string['donotusechattime'] = 'Ne objavi časov klepeta';
 $string['enterchat'] = 'Kliknite za vstop v klepet';
 $string['errornousers'] = 'Ni uporabnikov!';
 $string['explaingeneralconfig'] = 'Te nastavitve so <strong>vedno</strong>  veljavne';
-$string['explainmethoddaemon'] = 'Te nastavitve veljajo <strong>izklučno</strong>, če ste izbrali \"Strežniški demon klepeta\" za chat_method';
-$string['explainmethodnormal'] = 'Te nastavitve veljajo <strong>izključno</strong>, če ste izbrali \"Navaden način\" za chat_method';
+$string['explainmethoddaemon'] = 'Te nastavitve veljajo <strong>izklučno</strong>, če ste izbrali za chat_method \"Strežniški demon klepeta\"';
+$string['explainmethodnormal'] = 'Te nastavitve veljajo <strong>izključno</strong>, če ste izbrali za chat_method \"Navaden način\"';
 $string['generalconfig'] = 'Splošna konfiguracija';
 $string['helpchatting'] = 'Pomoč pri klepetu';
 $string['idle'] = 'Nedejaven';
@@ -55,18 +57,18 @@ $string['refreshuserlist'] = 'Osvežitev seznama uporabnikov';
 $string['removemessages'] = 'Odstranitev vseh sporočil';
 $string['repeatdaily'] = 'Vsak dan ob istem času';
 $string['repeatnone'] = 'Brez ponovitev - objavi samo določen čas';
-$string['repeattimes'] = 'Ponovi klepet';
+$string['repeattimes'] = 'Ponovni klepet';
 $string['repeatweekly'] = 'Vsak teden ob istem času';
 $string['savemessages'] = 'Shrani minule klepetalnice';
 $string['seesession'] = 'Poglej klepet';
 $string['serverhost'] = 'Ime strežnika';
-$string['serverip'] = 'IP strežnika';
-$string['servermax'] = 'Maks. uporabnikov';
+$string['serverip'] = 'Strežnik IP';
+$string['servermax'] = 'Največ uporabnikov';
 $string['serverport'] = 'Vrata strežnika';
 $string['sessions'] = 'Seje klepeta';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Vsi lahko vidijo prejšnje klepetalnice';
 $string['updatemethod'] = 'Metode posodobitve';
 $string['viewreport'] = 'Ogled prejšnjih klepetalnic';
-$string['viewreport'] = 'Ogled prejšnjihklepetalnic';
+
 ?>

@@ -1,5 +1,7 @@
-<?php // $Id:
-      // block_rss_client.php
+<?PHP // $Id$ 
+      // block_rss_client.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['addfeed'] = 'Dodaj URL vira novic:';
 $string['addheadlineblock'] = 'Dodaj blok RSS novic';
 $string['addnew'] = 'Dodaj nov';
@@ -31,18 +33,19 @@ $string['nofeeds'] = 'Za to stran ni določenih virov RSS.';
 $string['numentries'] = 'Zapisov na vir';
 $string['pickfeed'] = 'Izberi vir novic';
 $string['remotenewsfeed'] = 'Oddaljen vir novic';
-$string['rss_client:createprivatefeeds'] = 'Ustvari zasebni RSS vir';
-$string['rss_client:createsharedfeeds'] = 'Ustvari skupni RSS vir';
-$string['rss_client:manageanyfeeds'] = 'Upravljaj z katerikoli RSS virom';
-$string['rss_client:manageownfeeds'] = 'Upravljaj s svojim RRS virom';
+$string['rss_client:createprivatefeeds'] = 'Ustvari zasebni vir RSS';
+$string['rss_client:createsharedfeeds'] = 'Ustvari skupni vir RSS';
+$string['rss_client:manageanyfeeds'] = 'Upravljaj z katerikoli virom RSS';
+$string['rss_client:manageownfeeds'] = 'Upravljaj s svojim virom RRS';
 $string['seeallfeeds'] = 'Poglej vse vire';
 $string['sharedfeed'] = 'Skupni vir';
 $string['shownumentrieslabel'] = 'Največje število vnosov za prikaz v bloku.';
 $string['submitters'] = 'Kdo bo smel določati nove vire RSS? Določeni viri so na voljo za vse strani na vašem spletnem mestu.';
 $string['submitters2'] = 'Oddajalci vlog';
-$string['timeout'] = 'blockrsstimeout';
+$string['timeout'] = 'Čas v minutah, preden se vir RSS izteče v predpomnilniku. To definira le minimalen čas; vir bo osvežen, ko se bo naslednjič zagnal cron. Priporočene vrednosti so 30 min ali več.';
 $string['timeout2'] = 'Prekinitev';
 $string['timeoutdesc'] = 'Čas v minutah za hranjenje vira RSS v predpomnilniku.';
 $string['updatefeed'] = 'Posodobi URL vira novic:';
 $string['validatefeed'] = 'Preveri vir';
+
 ?>

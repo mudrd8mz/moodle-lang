@@ -1,5 +1,7 @@
-<?php // $Id:
-      // tag.php
+<?PHP // $Id$ 
+      // tag.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['addedotag'] = '\"$a\" je dodan uradni oznaki';
 $string['addotags'] = 'Dodaj uradne oznake';
 $string['addtagtomyinterests'] = 'Dodaj \"$a\" k mojim interesom';
@@ -19,7 +21,7 @@ $string['managetags'] = 'Uredi oznake';
 $string['name'] = 'Naziv oznake';
 $string['namesalreadybeeingused'] = 'Naziv oznake je že uporabljeno';
 $string['newname'] = 'Naziv nove oznake';
-$string['noresultsfor'] = 'Ni rezultatot o \"$a\"';
+$string['noresultsfor'] = 'Ni rezultatov o \"$a\"';
 $string['officialtag'] = 'Uradna oznaka';
 $string['otags'] = 'Uradne oznake';
 $string['owner'] = 'Lastnik';
@@ -27,8 +29,8 @@ $string['ptags'] = 'Uporabniške oznake (ločene z vejico)';
 $string['relatedblogs'] = 'Nedavni vnosi v blogu s to oznako';
 $string['relatedtags'] = 'Sorodne oznake';
 $string['removetagfrommyinterests'] = 'Brisanje \"$a\" iz mojih interesov';
-$string['reset'] = 'Reset';
-$string['resetflag'] = 'Reset zastavice';
+$string['reset'] = 'Ponovno nastavi';
+$string['resetflag'] = 'Ponovno nastavi zastavice';
 $string['responsiblewillbenotified'] = 'Odgovorna oseba bo obveščena';
 $string['search'] = 'Išči';
 $string['searchresultsfor'] = 'Išči rezultate za  \"$a\"';
@@ -50,4 +52,5 @@ $string['updated'] = 'Spremenjeno';
 $string['updatetag'] = 'Spremeni';
 $string['userstaggedwith'] = 'Uporabniki, označeni kot \"$a\"';
 $string['withselectedtags'] = 'Z izbranimi oznakami ...';
+
 ?>

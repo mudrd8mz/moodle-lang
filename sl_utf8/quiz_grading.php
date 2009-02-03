@@ -1,10 +1,12 @@
-<?php // $Id:
-      // quiz_grading.php
+<?PHP // $Id$ 
+      // quiz_grading.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['essayonly'] = 'Naslednja vprašanja je potrebno oceniti ročno';
 $string['gradeall'] = 'Oceni vse $a poskuse';
 $string['graded'] = '(ocenjeno)';
 $string['gradenextungraded'] = 'Oceni naslednji $a obnovljeni poskus';
-$string['gradeungraded'] = 'Oceni vse $ neocenjene poiskuse';
+$string['gradeungraded'] = 'Oceni vse $a neocenjene poskuse';
 $string['grading'] = 'Ročno ocenjevanje';
 $string['gradingall'] = 'Vsi $a poskusi pri tem vprašanju.';
 $string['gradingattempt'] = 'Poskus številka $a->attempt za $a->fullname.';
@@ -13,4 +15,5 @@ $string['gradingnotallowed'] = 'Nimate dovoljenja za ročno ocenjevanje odgovoro
 $string['gradingungraded'] = '$a neocenjenih poskusov';
 $string['gradinguser'] = 'Poskusov za $a';
 $string['questiontitle'] = 'Vprašanje $a->number : \"$a->name\" ({$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts poskusov {$a->openspan}ocenjeno{$a->closespan}).';
+
 ?>

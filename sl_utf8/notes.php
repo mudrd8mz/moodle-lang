@@ -1,13 +1,15 @@
-<?php // $Id:
-      // notes.php
-$string['addnewnote'] = 'Dadaj nov zapis';
+<?PHP // $Id$ 
+      // notes.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
+$string['addnewnote'] = 'Dodaj nov zapis';
 $string['addnewnoteselect'] = 'Izberi uporabnike o katerih boste pisali zapiske';
 $string['bynameondate'] = 'po $a->name - $a->date';
 $string['content'] = 'Vsebina';
 $string['course'] = 'Smer';
 $string['coursenotes'] = 'Zapiski smeri';
 $string['created'] = 'Ustvarjeno';
-$string['deleteconfirm'] = 'IIzbriši ta zapis';
+$string['deleteconfirm'] = 'Izbriši ta zapis';
 $string['deletenotes'] = 'Izbriši vse zapise';
 $string['editnote'] = 'Uredi zapis';
 $string['groupaddnewnote'] = 'Dodaj nov zapis za vse';
@@ -23,4 +25,5 @@ $string['publishstate'] = 'Status';
 $string['site'] = 'stran';
 $string['sitenotes'] = 'Zapisi strani';
 $string['unknown'] = 'neznano';
+
 ?>

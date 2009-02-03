@@ -1,5 +1,7 @@
-<?php // $Id:
-      // enrol_authorize.php
+<?PHP // $Id$ 
+      // enrol_authorize.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['adminacceptccs'] = 'Katere vrste kreditnih kartic bodo sprejete?';
 $string['adminaccepts'] = 'Izberi način in vrsto plačila';
 $string['adminauthcode'] = 'Če uporabnikova kreditna kartica ni sprejeta preko interneta, si preko telefona priskrbite avtorizacijsko kodo od vaše banke.';
@@ -19,22 +21,22 @@ $string['adminemailexpiredteacher'] = 'Če ste omogočili ročen zajem (glej zgo
 $string['adminemailexpsetting'] = '(0=onemogoči pošiljanja e-pošte, privzeto=2, največ=5)<br />(Nastavitve ročnega zajemanja za pošiljanje e-pošte: cron=omogočeno, an_review=označeno, an_capture_day=0, an_emailexpired=1-5)';
 $string['adminhelpcapturetitle'] = 'Dan razporejenega zajemanja';
 $string['adminhelpreviewtitle'] = 'Pregled naročila';
-$string['adminneworder'] = 'Spoštovani administrator,
+$string['adminneworder'] = 'Spoštovani skrbnik,
 
-  Prejeli ste novo naročilo:
+Prejeli ste novo naročilo:
 
-   ID naročila: $a->orderid
-   ID transakcije: $a->transid
-   Uporabnik: $a->user
-   Predmet: $a->course
-   Znesek: $a->amount
+ID naročila: $a->orderid
+ID transakcije: $a->transid
+Uporabnik: $a->user
+Predmet: $a->course
+Znesek: $a->amount
 
-   Omogočen vpis do določenega datuma?: $a->acstatus
+Omogočen vpis do določenega datuma?: $a->acstatus
 
-  Če je omogočena ta nastavitev, bo kreditna kartica obremenjena dne $a->captureon. Uporabnik bo vpisan v predmet. Če ni omogočena ta nastavitev bo vpis potekel dne $a->expireon. Po tem dnevu obremenitev kartice ne bo izvedena.
+Če je omogočena ta nastavitev, bo kreditna kartica obremenjena dne $a->captureon. Uporabnik bo vpisan v predmet. Če ni omogočena ta nastavitev bo vpis potekel dne $a->expireon. Po tem dnevu obremenitev kartice ne bo izvedena.
 
-  Plačilo udeleženca (vpisnino) sprejmete/zavrnete na povezavi:
-  $a->url';
+Plačilo udeleženca (vpisnino) sprejmete/zavrnete na povezavi:
+$a->url';
 $string['adminnewordersubject'] = '$a->course; Novo čakajoče naročilo ($a->orderid)';
 $string['adminpendingorders'] = 'Možnost razporejenega zajema ste onemogočili.<br />Skupno $a->count transakcij v stanju &#039;Avtorizirano / Čaka na zajem&#039; bo preklicanih, če jih ne preverite.<br />Za sprejem ali zavrnitev plačil pojdite na stran <a href=&#039;$a->url&#039;>upravljanja plačil</a>.';
 $string['adminreview'] = 'Preglej naročilo pred obdelavo kreditne kartice.';
@@ -67,6 +69,7 @@ $string['avsx'] = 'Naslov (ulica) in 9 mestna poštna številka se ujemata';
 $string['avsy'] = 'Naslov (ulica) in 5 mestna poštna številka se ujemata';
 $string['avsz'] = '5 mesta poštna številka se ujema, naslov (ulica) pa ne';
 $string['canbecredit'] = 'Je lahko povrnjeno do $a->upto';
+$string['cancelled'] = 'Preklicano';
 $string['capture'] = 'Zajem';
 $string['capturedpendingsettle'] = 'Zajeto / Čaka na poravnavo';
 $string['capturedsettled'] = 'Zajeto / Poravnano';
@@ -82,6 +85,9 @@ $string['choosemethod'] = 'Če poznate ključ za vpis v predmet, ga vnesite, sic
 $string['chooseone'] = 'Izpolnite eno ali obe sledeči polji';
 $string['costdefaultdesc'] = '<strong>V predmetu nastavitve, vnesite -1</strong> za uporabo privzetih cen predmeta za ceno polja.';
 $string['cutofftime'] = 'Presečni datum transakcije. Kdaj je pobrana zadnja transakcija za poravnavo?';
+$string['dataentered'] = 'Vneseni podatki';
+$string['delete'] = 'Uniči';
+$string['description'] = 'Modul Authorize.net vam omogoča vzpostavitev plačljivih predmetov. Če je cena kakšnega od predmetov nič, udeležencem ni potrebno plačati za vpis v predmet. Načina za nastavitev plačljivih predmetov sta: (1) nastavitev privzete vrednosti na celotnem portalu ali (2) vrednost nastavite v vsakem predmetu posebej. Cena predmeta ima prednost pred ceno portala.<br /><br /><b>Opomba:</b> Če v predmetu določite ključ za vpis, se učenci lahko prijavijo tudi s pomočjo ključa. S tem je mogoče imeti tako plačljive kot brezplačne uporabnike predmeta.';
 $string['echeckabacode'] = 'ABA Številka banke';
 $string['echeckaccnum'] = 'Številka bančnega računa';
 $string['echeckacctype'] = 'Vrsta bančnega računa';
@@ -90,6 +96,8 @@ $string['echeckbusinesschecking'] = 'Preverjanje prometa';
 $string['echeckchecking'] = 'Preverjanje';
 $string['echeckfirslasttname'] = 'Lastnik bančnega računa';
 $string['echecksavings'] = 'Prihranki';
+$string['enrolname'] = 'Plačilna pot Authorize.net';
+$string['expired'] = 'Zapadlo';
 $string['haveauthcode'] = 'Že imam avtorizacijsko kodo';
 $string['howmuch'] = 'Koliko?';
 $string['httpsrequired'] = 'Žal vas moramo obvestiti, da vaše zahteve zdaj ni možno obdelati. Konfiguracije strani ni bilo možno pravilno nastaviti.<br /><br />Ne vnašajte številke vaše kreditne kartice, če ne vidite rumene ključavnice na dnu brskalnika. Če se simbol pojavi, pomeni, da je stran šifrira vse podatke, ki se izmenjujejo med odjemalcem in strežnikom. Tako so informacije med transakcijo med dvema računalnikoma zaščitene, tako da številka vaše kreditne kartice ne more biti prestrežena prek interneta.';
@@ -118,11 +126,11 @@ $string['orderid'] = 'ID naročila';
 $string['paymentmanagement'] = 'Upravljanje plačil';
 $string['paymentmethod'] = 'Metoda plačila';
 $string['paymentpending'] = 'Vaše plačilo za ta predmet čaka s to številko naročila $a->orderid.  Oglejte si <a href=&#039;$a->url&#039;>Podrobnosti naročila</a>.';
-$string['pendingecheckemail'] = 'Tu so $a->count nerešena echecks zato morate naložiti csv datoteko za pridobitev uporabniške dokumetacije za regiatracijo.
+$string['pendingecheckemail'] = 'Tu je $a->count nerešenih echecks, zato morate naložiti csv datoteko za pridobitev uporabniške dokumetacije za vpis.
 
 Kliknite na povezavo in preberite datoteko za pomoč in navedene strani: 
 $a->url';
-$string['pendingechecksubject'] = '$a->course: Nerešena eChecks($a->count)';
+$string['pendingechecksubject'] = '$a->course: Nerešeni eChecks($a->count)';
 $string['pendingordersemail'] = 'Spoštovani skrbnik,
 
 $a->pending transakcij za predmet \"$a->course\" bo poteklo, če ne sprejmete plačila v $a->days dneh.
@@ -138,8 +146,7 @@ Za omogočanje razporejenega zajemanja, kar pomeni, da opozorilnih sporočil ne 
 $a->enrolurl';
 $string['pendingordersemailteacher'] = 'Spoštovani izvajalec,
 
-$a->pending transakcij vrednih $a->sumcost $a->currency za predmet \"$a->course\"
-bo poteklo, če ne sprejmete plačila v $a->days dneh.
+$a->pending transakcij vrednih $a->sumcost $a->currency za predmet \"$a->course\" bo poteklo, če ne sprejmete plačila v $a->days dneh.
 
 Plačila morate sprejeti ali zavrniti ročno, ker skrbnik ni omogočil razporejenega zajemanja.
 
@@ -171,6 +178,7 @@ $string['returns'] = 'Vrnitve';
 $string['reviewday'] = 'Zajemi kreditno kartico samodejno, če izvajalec ali skrbnik ne pregledata naročila v <b>$a</b> dneh. CRON MORA BITI OMOGOČEN.<br />(0 dni pomeni, da bo razporejeno zajemanje onemogočeno in bosta izvajalec ter skrbnik pregledovala naročila ročno. Transakcija bo preklicana, če onemogočite samodejno zajemanje ali v primeru, da ne bo pregledana v 30-ih dneh.)';
 $string['reviewfailed'] = 'Pregled ni uspel';
 $string['reviewnotify'] = 'Vaše plačilo bo pregledano. V nekaj dneh pričakujte elektronsko sporočilo od vašega izvajalca.';
+$string['sendpaymentbutton'] = 'Pošlji plačilo';
 $string['settled'] = 'Poravnano';
 $string['settlementdate'] = 'Datum poravnave';
 $string['subvoidyes'] = 'Povrnjena transakcija $a->transid bo preklicana in bo izvedla dobropis v vrednosti $a->amount na vaš račun. Ste prepričani?';
@@ -198,4 +206,5 @@ Ogledate si lahko podrobnosti plačila:
  $a->paymenturl';
 $string['youcantdo'] = 'Tega dejanja ne morete izvesti: $a->action';
 $string['zipcode'] = 'Poštna številka';
+
 ?>

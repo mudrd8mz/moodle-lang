@@ -1,11 +1,13 @@
-<?php // $Id:
-      // message.php
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['addcontact'] = 'Dodaj stik';
 $string['addsomecontacts'] = 'Za pošiljanje sporočila nekomu ali dodajanje bližnjice zanj, na tej strani uporabite <a href=\"$a\">zavihek Iskanje</a> zgoraj.';
 $string['addsomecontactsincoming'] = 'Ta sporočila so od oseb, ki niso na vašem seznamu stikov. Za njihovo dodajanje med vaše stike, kliknite ikono poleg njihovega imena \"Dodaj stik\".';
 $string['ago'] = 'pred $a';
 $string['allmine'] = 'Vsa sporočila zame ali od mene';
-$string['allstudents'] = 'Vsa sporočila med študenti v predmetu';
+$string['allstudents'] = 'Vsa sporočila med udeleženci v predmetu';
 $string['allusers'] = 'Vsa sporočila od vseh uporabnikov';
 $string['backupmessageshelp'] = 'Če je omogočeno, bodo takojšnja sporočila vključena v samodejno varnostno kopijo spletnega mesta';
 $string['beepnewmessage'] = 'Zvočno opomni, ko prispe novo sporočilo (lahko zahteva vtičnik za brskalnik, ki zna predvajati zvoke, kot je Quicktime)';
@@ -16,7 +18,7 @@ $string['contactlistempty'] = 'Vaš seznam stikov je trenutno prazen';
 $string['contacts'] = 'Stiki';
 $string['context'] = 'kontekst';
 $string['deletemessagesdays'] = 'Število dni preden se stara sporočila samodejno izbrišejo';
-$string['discussion'] = 'Diskusija';
+$string['discussion'] = 'Razprava';
 $string['emailmessages'] = 'Pošlji sporočila na e-pošto, ko nisem prijavljen(a)';
 $string['emailtagline'] = 'To e-poštno sporočilo je kopija sporočila, ki vam je bilo poslano na \"$a\"';
 $string['emptysearchstring'] = 'Nekaj morate iskati';
@@ -59,7 +61,7 @@ $string['sendmessagetopopup'] = 'Pošli sporočilo v $a - novo okno';
 $string['settings'] = 'Nastavitve';
 $string['settingssaved'] = 'Vaše nastavitve so bile shranjene';
 $string['showmessagewindow'] = 'Samodejno prikaži sporočilno okno, ko prejmem nova sporočila (vaš brskalnik mora biti nastavljen tako, da ne preprečuje pojavnih oken za to spletno mesto)';
-$string['strftimedaydatetime'] = '%%d %%B %%Y, %%I:%%M %%p';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%H:%%M';
 $string['timenosee'] = 'Minut od kar sem bil na zadnje prijavljen';
 $string['timesent'] = 'Čas pošiljanja';
 $string['unblockcontact'] = 'Odblokiraj stik';
@@ -67,4 +69,5 @@ $string['unreadmessages'] = '$a neprebranih sporočil';
 $string['userisblockingyou'] = 'Ta uporabnik je blokiral prejemanje vaših sporočil';
 $string['userisblockingyounoncontact'] = 'Ta uporabnik sprejema sporočila samo od oseb na svojem seznamu stikov in vi trenutno niste na tem seznamu.';
 $string['userssearchresults'] = 'Rezultati iskanja: najdenih $a uporabnikov';
+
 ?>

@@ -1,11 +1,13 @@
-<?php // $Id:
-      // access.php
+<?PHP // $Id$ 
+      // access.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['access'] = 'Dostop';
 $string['accesshelp'] = 'Pomoč pri dostopu';
 $string['accesskey'] = 'Ključ za dostop, $a';
 $string['accessstatement'] = 'Izjava o dostopnosti';
-$string['activitynext'] = 'Naslednja aktivnost';
-$string['activityprev'] = 'Predhodna aktivnost';
+$string['activitynext'] = 'Naslednja dejavnost';
+$string['activityprev'] = 'Predhodna dejavnost';
 $string['breadcrumb'] = 'Drobtinice';
 $string['currenttopic'] = 'Trenutna tema';
 $string['currentweek'] = 'Trenutni teden';
@@ -22,4 +24,5 @@ $string['tablelayout'] = 'Tabela postavitve, $a';
 $string['tocontent'] = 'Pojdi na glavno vsebino';
 $string['tonavigation'] = 'Pojdi na navigacijo';
 $string['youarehere'] = 'Vi ste tu';
+
 ?>

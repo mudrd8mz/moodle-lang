@@ -9,7 +9,10 @@
 
 <li><a href="#linebreaks">Prelomi vrstic</a></li>
 <li><a href="#hr">Vodoravna ravnila</a></li>
-<li><a href="#image_links">Povezane slike</a></li>
+<li><a href="#image_links">Slike s hiperpovezavo</a></li>
+<li><a href="#tables">Tabele</a></li>
+<li><a href="#definition">Seznami definicij</a></li>
+<li><a href="#footnotes">Zaznamki na koncu dokumenta</a></li>
 <li><a href="#embedded">Vključevanje HTML</a></li>
 <li><a href="#preformatted">Že oblikovana koda</a></li>
 <li><a href="#special_char">Uporaba posebnih znakov</a></li>
@@ -18,17 +21,17 @@
 
 <h2><a id="linebreaks">Prelomi vrstic</a></h2>
 
-<p>V nekaterih besedilih, na primer v poeziji in verzih, je pogosto potrebno vstaviti prelom vrstice. Če to poskušate doseči s tipko "Enter" ne boste dosegli nameravanega učinka, saj bodo kot privzeto wrstice povezane skupaj v odstavek.</p>
+<p>V nekaterih besedilih, na primer v poeziji in verzih, je pogosto potrebno vstaviti prelom vrstice. Če to poskušate doseči s tipko "Enter" ne boste dosegli nameravanega učinka, saj bodo kot privzeto vrstice povezale skupaj v odstavek.</p>
 
-<p><strong><code>Od nekdaj lepe so Ljubljanke slovele<br /> al’ lepše od Urš’ ke bilo ni nobene<br /> nobene očem bilo bolj zaželene<br /> ob času nje cvetja, dekleta ne žene...</code></strong></p>
+<p><strong><code>Od nekdaj lepe so Ljubljanke slovele<br /> al’ lepše od Urš’ke bilo ni nobene<br /> nobene očem bilo bolj zaželene<br /> ob času nje cvetja, dekleta ne žene...</code></strong></p>
 
 <p>Zgornji vnos z uporabo tipke "Enter" za vnos preloma vrstic bo dal sledeč rezultat, saj so takšni prelomi prezrti:</p>
 
-<p>Od nekdaj lepe so Ljubljanke slovele al’ lepše od Urš’ ke bilo ni nobene nobene očem bilo bolj zaželene ob času nje cvetja, dekleta ne žene...</p>
+<p>Od nekdaj lepe so Ljubljanke slovele al’ lepše od Urš’ke bilo ni nobene nobene očem bilo bolj zaželene ob času nje cvetja, dekleta ne žene...</p>
 
 <p>Z zaključevanjem vsake vrstice z dvema presledkoma, lahko vsilite prelom vrstice kot sledi:</p>
 
-<p>Od nekdaj lepe so Ljubljanke slovele<br /> al’ lepše od Urš’ ke bilo ni nobene<br /> nobene očem bilo bolj zaželene<br /> ob času nje cvetja, dekleta ne žene...  </p>
+<p>Od nekdaj lepe so Ljubljanke slovele<br /> al’ lepše od Urš’ke bilo ni nobene<br /> nobene očem bilo bolj zaželene<br /> ob času nje cvetja, dekleta ne žene...  </p>
 
 <h2><a id="hr">Vodoravna ravnila</a></h2>
 
@@ -58,7 +61,7 @@
 
 <p><strong><code>![logo google][logo]</code></strong></p>
 
-<p>Zgoraj sta prikazana standardna spletna povezava in slika. Z vmeščanjem slike v prostor, kjer bi bilo besedilo povezave, dobite tole:</p>
+<p>Zgoraj sta prikazana standardna spletna povezava in slika. Z umeščanjem slike v prostor, kjer bi bilo besedilo povezave, dobite tole:</p>
 
 <p><strong><code>[![logo google][logo]][google]</code></strong></p>
 
@@ -71,6 +74,79 @@
 <p><a href="http://www.google.com/" title="kliknite za obisk Google.com"><img src="http://www.google.com/images/logo.gif" alt="logo google" /></a></p>
 
 <p>Primer, kje bi ta tehnika lahko bila priročna je povezovanje malih 'sličic' za prenos večjih slik.</p>
+
+<h2><a id="tables">Tabele</a></h2>
+
+<p>S pomočjo oblike Markdown lahko izdelujete preproste HTML tabele. Oglejte si primer:</p>
+
+<pre>
+Ime    | Starost
+-------|--------
+Franci |   29
+Janez  |   47
+Hinko  |   32
+</pre>
+
+<table>
+<thead>
+<tr>
+  <th>Ime</th>
+  <th>Starost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Franci</td>
+  <td>29</td>
+
+</tr>
+<tr>
+  <td>Janez</td>
+  <td>47</td>
+</tr>
+<tr>
+  <td>Hinko</td>
+  <td>32</td>
+</tr>
+
+</tbody>
+</table>
+
+<p>Obliko lahko definirate tudi posameznim celicam tabele. Stolpci so lahko levo ali desno poravnani z dodatkom dvopičje na levi ali desni strani navpične črte (oglejte si dodatna navodila na koncu besedila).</p>
+
+<h2><a id="definition">Seznami definicij</a></h2>
+
+<p>Seznami se sestojijo iz pojmov, ki jim sledijo njihove definicije - podobno kot v slovarju. Na primer:</p>
+
+<pre>
+Moodle
+:   Znano spletno učno okolje
+
+PHP
+:   Skriptni jezik.
+    Večinoma se uporablja za izdelavo interaktivnih spletnih aplikacij.
+</pre>
+
+<dl>
+<dt>Moodle</dt>
+<dd>Znano spletno učno okolje</dd>
+
+<dt>PHP</dt>
+<dd>Skriptni jezik.
+Večinoma se uporablja za izdelavo interaktivnih spletnih aplikacij.</dd>
+</dl>
+
+<h2><a id="footnotes">Zaznamki na koncu dokumenta</a></h2>
+
+<p>Vsak zaznamek ima dva elementa: oznako v besedilu, ki postane nadpisana, ter vsebino, ki se bo prikazala na koncu dokumenta. Tu je preprost primer:</p>
+
+<pre>
+To si preberite v moji knjigi.[^1]
+
+[^1]: Vse o moji knjigi.
+</pre>
+
+<p>Zaznamke lahko postavljate na poljubna mesta. Vrstni red prikaza njihove vsebine na koncu dokumenta pa je odvisen od njihovega položaja v besedilu. Posamezen zaznamek ima lahko le eno vsebino.</p>
 
 <h2><a id="embedded">Vključevanje HTML</a></h2>
 
@@ -127,4 +203,7 @@
 <h2><a id="further">Dodatno branje</a></h2>
 
 <p>Sistem Markdown ni značilen samo za Moodle in ga uporablja vse večje število orodij za spletno založništvo. O tem lahko zveste več na naslovu <a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a></p>
+
+<p>Moodle uporablja obliko Markdown, ki vsebuje nekatere dodatke in se zato "Markdown Extra". Več informacij o tem najdete na naslovu <a href="http://www.michelf.com/projects/php-markdown/extra/">http://www.michelf.com/projects/php-markdown/extra/ </a>.</p>
+
 </div></div>

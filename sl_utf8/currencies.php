@@ -1,10 +1,13 @@
-<?php // $Id:
-      // currencies.php
+<?PHP // $Id$ 
+      // currencies.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['AED'] = 'Dirham (Združeni arabski emirati)';
 $string['AFA'] = 'Afgan (Afganistan)';
 $string['ALL'] = 'Albanski lek';
 $string['ANG'] = 'Nizozemsko-antilski gulden';
-$string['AON'] = 'Angolski  novi kvanza';
+$string['AON'] = 'Angolski 
+ novi kvanza';
 $string['ARA'] = 'Argentinski novi peso';
 $string['AUD'] = 'Avstralski dolar';
 $string['AWG'] = 'Arubski florin';
@@ -141,4 +144,5 @@ $string['YER'] = 'Jemenski rial';
 $string['ZAR'] = 'Južnoafriški rand';
 $string['ZMK'] = 'Kvača (Zambija)';
 $string['ZWD'] = 'Zimbabvejski dolar';
+
 ?>

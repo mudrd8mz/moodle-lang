@@ -3,7 +3,6 @@
 
 <p>Morda boste želeli prebrati <a href="./enrol/imsenterprise/entv1p1_conformance_summary.html">povzetek združljivosti</a>, ki opisuje, katere podatkovne elemente IMS lahko obdeluje ta vtičnik.</p>
 
-
 <h1>Osnovni vodič za zapis datoteke EMS Enterprise</h1>
 
 <p>Za vsak vpis v slogu IMS potrebujete oznako <group>, ki določa predmet, oznako <person>, ki določa uporabniški račun in oznako<membership>, ki vsebuje oznako <member>, ki določa vloge osebe v podanem predmetu.</p><p>
@@ -18,7 +17,15 @@ Običajno ima predmet referenčno kodo in tudi ime, zato si predstavljajmo, da j
 </p>
 
 <p>
-  <group><br />     <sourcedid><br />       <source>MojPodatkovniSistem</source><br />       <id>MOODLE101</id><br />     </sourcedid><br />     <description><br />       <short>Moodle 101</short><br />     </description><br />   </group><br />
+&nbsp; &lt;group&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;description&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;short&gt;Moodle 101&lt;/short&gt;<br />
+&nbsp; &nbsp; &lt;/description&gt;<br />
+&nbsp; &lt;/group&gt;<br />
 </p>
 
 <p>
@@ -26,25 +33,51 @@ Skripta za vpisovanje bo poiskala predmet s kodo MOODLE101 in (kot možnost) ga 
 </p>
 
 <p>
-  <person><br />     <sourcedid><br />       <source>MojPodatkovniSistem</source><br />       <id>jmoodle</id><br />     </sourcedid><br />     <userid>jmoodle</userid><br />     <name><br />       <fn>Janez Moodle</fn><br />       <n><br />         <family>MOODLE</family><br />         <given>JANEZ</given><br />       </n><br />     </name><br />   </person><br />
+&nbsp; &lt;person&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;userid&gt;jmoodle&lt;/userid&gt;<br />
+&nbsp; &nbsp; &lt;name&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;fn&gt;Joe Moodle&lt;/fn&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;n&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;family&gt;MOODLE&lt;/family&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;given&gt;JOE&lt;/given&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/n&gt;<br />
+&nbsp; &nbsp; &lt;/name&gt;<br />
+&nbsp; &lt;/person&gt;<br />
 </p>
 
 <p>
 Če Janez še nima računa, lahko (kot možnost) skripta ustvari račun zanj.</p>
-
 
 <p>
 Oglejmo si zdaj članstvo, dodajanje osebe v predmet:</p><p>
 </p>
 
 <p>
-  <membership><br />     <sourcedid><br />       <source>MojPodatkovniSistem</source><br />       <id>MOODLE101</id><br />     </sourcedid><br />     <member><br />       <sourcedid><br />         <source>MojPodatkovniSistem</source><br />         <id>jmoodle</id><br />       </sourcedid><br />       <role roletype="01"><br />         <status>1</status><br />         <extension><cohort>unit 2</cohort></extension><br />       </role><br />     </member><br />   </membership><br />
+&nbsp; &lt;membership&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;member&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;role roletype=&quot;01&quot;&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;status&gt;1&lt;/status&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;extension&gt;&lt;cohort&gt;unit 2&lt;/cohort&gt;&lt;/extension&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/role&gt;<br />
+&nbsp; &nbsp; &lt;/member&gt;<br />
+&nbsp; &lt;/membership&gt;<br />
 </p>
 
 <p>
-Specifikacija IMS Enterprise ponuja možnost določanja začetnih in končnih datumov za vpise, tako jih je možno po potrebi vključiti z uporabo oznake <timeframe>.</p><p>
+Specifikacija IMS Enterprise ponuja možnost določanja začetnih in končnih datumov za vpise, tako jih je možno po potrebi vključiti z uporabo oznake &lt;timeframe&gt;.</p><p>
 </p>
 
 <p>
-Če je oseba že dodana v skupino v predmetu, tega skripta ne bo dejansko spreminjala. Če niso v skupinah, bo uveljavljeno določeno razvrščanje po skupinah.</p><p>
-
+Če je oseba že dodana v skupino v predmetu, tega skripta ne bo dejansko spreminjala. Če niso v skupinah, bo uveljavljeno določeno razvrščanje po skupinah.</p>

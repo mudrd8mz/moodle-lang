@@ -1,14 +1,16 @@
-<?php // $Id:
-      // wiki.php
+<?PHP // $Id$ 
+      // wiki.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['action'] = '--Dejanje--';
 $string['administration'] = 'Administracija';
-$string['allowremovepages'] = 'Dovoli &#039;odstranjevanje strani&#039;';
-$string['allowrevertchanges'] = 'Dovoli &#039;povrnitev masovnih sprememb&#039;';
-$string['allowsetpage'] = 'Dovoli &#039;nastavitev oznak strani&#039;';
-$string['allowstrippages'] = 'Dovoli &#039;luščenje strani&#039;';
+$string['allowremovepages'] = 'Dovoli \'odstranjevanje strani\'';
+$string['allowrevertchanges'] = 'Dovoli \'povrnitev masovnih sprememb\'';
+$string['allowsetpage'] = 'Dovoli \'nastavitev oznak strani\'';
+$string['allowstrippages'] = 'Dovoli \'luščenje strani\'';
 $string['attachments'] = 'Ta stran ima priloge';
 $string['author'] = 'Avtor';
-$string['authorfieldpattern'] = 'Vzorec polja avtorja';
+$string['authorfieldpattern'] = 'Vzorec avtorja';
 $string['authorfieldpatternerror'] = 'Vnesite avtorja.';
 $string['backlinks'] = 'Sklicujoče povezave';
 $string['binimgtoolarge'] = 'Slikovna datoteka je prevelika!';
@@ -35,7 +37,7 @@ $string['deleteversions'] = 'Koliko zadnjih različic naj se izbriše';
 $string['deleteversionserror'] = 'Vnesite pravilno število različic.';
 $string['diff'] = 'Razlika';
 $string['differences'] = 'Razlike med različico $a->new_ver in $a->old_ver strani $a->pagename.';
-$string['disablecamel'] = 'Onemogoči CamelCase povezovanje';
+$string['disablecamel'] = 'Onemogoči povezovanje KameljeZačetnice';
 $string['disabledpage'] = 'Ta stran trenutno ni na voljo.';
 $string['doesnotexist'] = 'Ta stran še ne obstaja, prosimo kliknite gumb Uredi, če jo želite ustvariti.';
 $string['downloadaszip'] = 'Arhiv Zip primeren za prenos';
@@ -47,7 +49,7 @@ $string['editform2'] = 'Pišite smiselno in vedite, da se vsa urejanja beležijo
 $string['editthispage'] = 'Uredi to stran';
 $string['emptypage'] = 'Prazna stran';
 $string['errorbinandtxt'] = 'Oznaka napake: Stran vrste BIN in TXT';
-$string['errorhtml'] = 'Stran vrste HTML';
+$string['errorhtml'] = 'Stran HTML';
 $string['errornotype'] = 'Oznaka napake: Niti BIN niti TXT';
 $string['errororreason'] = 'Napaka ali vzrok';
 $string['errorroandwr'] = 'Oznaka napake: Stran je Zapisljiva in Samo za branje';
@@ -77,9 +79,9 @@ $string['forbidden'] = 'Nimate pooblastil za dostop do te strani.';
 $string['groups'] = 'Skupine';
 $string['hits'] = '$a zadetkov';
 $string['howtooperate'] = 'Kako upravljati';
-$string['howtowiki'] = 'Kako uporabljati Wiki';
-$string['html'] = 'HTML format';
-$string['htmlmode'] = 'HTML način';
+$string['howtowiki'] = 'Kako uporabljati wiki';
+$string['html'] = 'Format HTML';
+$string['htmlmode'] = 'Način HTML';
 $string['htmlonly'] = 'Samo HTML';
 $string['index'] = 'Indeks';
 $string['infoaboutpage'] = 'Zgodovina za:';
@@ -94,7 +96,7 @@ $string['listall'] = 'Seznam vseh';
 $string['listcandidates'] = 'Seznam kandidatov';
 $string['lockcancelled'] = 'Vaše zaklepanje je nekdo obšel in sedaj ureja stran. Če hočete shraniti vaše spremembe, jih označite in kopirajte pred zavrnitvijo. Nato poskusite ponovno spremeniti.';
 $string['meta'] = 'Meta podatki';
-$string['moduledirectory'] = 'Imenik modula';
+$string['moduledirectory'] = 'Mapa modulov';
 $string['modulename'] = 'Wiki';
 $string['modulenameplural'] = 'Wikiji';
 $string['mostoftenchangedpages'] = 'Najpogosteje spreminjane strani';
@@ -107,10 +109,11 @@ $string['nohtml'] = 'Brez HTML';
 $string['nojslockwarning'] = 'Ker je Javasript v brskalniku onemogočen, je možno, da nekdo drug ureja to stran. Če je to, potem ne boste mogli shraniti sprememb. Poskusite hitro urediti stran ali pa vključite Javascript ter osvežite stran.';
 $string['nolinksfound'] = 'Na strani ni najdenih povezav.';
 $string['noregexp'] = 'To mora biti fiksen niz (ne morete uporabiti * ali regex), najbolje je uporabiti napadalčev IP naslov ali ime strežnika, a ne vključite številke vrat (ker se povečuje z vsakim http dostopom).';
-$string['notadministratewiki'] = 'Administracija tega Wikija vam ni dovoljeno !';
+$string['notadministratewiki'] = 'Administracija tega wikija vam ni dovoljeno !';
 $string['nothingtostrip'] = 'Ni strani z več kot eno različico.';
-$string['nowikicreated'] = 'Za ta Wiki ni bilo ustvarjenih vnosov.';
+$string['nowikicreated'] = 'Za ta wiki ni bilo ustvarjenih vnosov.';
 $string['of'] = 'od';
+$string['offline'] = 'NEDOSEGLJIVO';
 $string['optional'] = 'Neobvezno';
 $string['orphanedpage'] = 'Osirotela stran';
 $string['orphanedpages'] = 'Osirotele strani';
@@ -134,7 +137,8 @@ $string['readonly'] = 'Strani samo za branje';
 $string['refs'] = 'Sklicevanja';
 $string['reloadlinkdescription'] = 'Ponovno naloži to stran, da se bodo pokazale spremembe';
 $string['reloadlinktext'] = 'Ponovno naloži to stran';
-$string['removenotice'] = 'Vedite, da bodo tu naštete samo strani brez sklicevanja. Ker sam mehanizem ewiki zagotavlja zgolj omejeno preverjanje, če se na stran kakšna stran sklicuje, lahko tu nekatere zgrešite.<br />Če stran pred tem izpraznite, se bo tudi znašla na tem seznamu. Izvedle se bodo tudi razne druge diagnostike podatkovne zbirke.';
+$string['removenotice'] = 'Vedite, da bodo tu naštete samo strani brez sklicevanja. Ker sam mehanizem ewiki zagotavlja zgolj omejeno preverjanje, se lahko na seznamu pojavi tudi stran, ki se sklicuje, a je sistem to spregledal.<br>
+Če ste prej stran izpraznili, se bo tudi ta stran znašla na tem seznamu. Izvedle se bodo tudi razne druge diagnostike podatkovne zbirke.';
 $string['removepagecheck'] = 'Ste prepričani, da želite izbrisati te strani?';
 $string['removepages'] = 'Odstrani strani';
 $string['removeselectedpages'] = 'Odstrani izbrane strani';
@@ -185,7 +189,7 @@ $string['wiki:overridelock'] = 'Ne upoštevaj zaklenjenih strani';
 $string['wiki:participate'] = 'Uredi Wiki strani';
 $string['wikidefaultpagename'] = 'KazaloWiki';
 $string['wikiexport'] = 'Izvoz strani';
-$string['wikiexportcomment'] = 'Tu lahko konfigurirate izvoz glede na vaše potrebe.';
+$string['wikiexportcomment'] = 'Tu lahko določite izvoz glede na vaše potrebe.';
 $string['wikilinkoptions'] = 'Možnosti samodejnega povezovanja Wiki';
 $string['wikilinks'] = 'Wiki povezave';
 $string['wikiname'] = 'Ime strani';
@@ -195,4 +199,5 @@ $string['wikiusage'] = 'Uporaba Wiki';
 $string['withbinaries'] = 'Vključi binarno vsebino';
 $string['withvirtualpages'] = 'Vključi Wiki povezave';
 $string['wrongversionrange'] = '$a ni v pravilnem razponu!';
+
 ?>

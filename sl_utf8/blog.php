@@ -1,5 +1,7 @@
-<?php // $Id:
-      // blog.php
+<?PHP // $Id$ 
+      // blog.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['addnewentry'] = 'Dodaj nov vnos';
 $string['backupblogshelp'] = 'Če je omogočeno, bodo blogi vključeni v avtomatizirane varnostne kopije strani.';
 $string['blockmenutitle'] = 'Meni bloga';
@@ -52,4 +54,5 @@ $string['viewcourseentries'] = 'Ogled vnosov predmeta';
 $string['viewmyentries'] = 'Ogled mojih vnosov';
 $string['viewsiteentries'] = 'Ogled vnosov strani';
 $string['worldblogs'] = 'Svet lahko bere vnose, ki so nastavljeni kot dostopni svetu';
+
 ?>

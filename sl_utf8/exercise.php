@@ -1,5 +1,7 @@
-<?php // $Id:
-      // exercise.php
+<?PHP // $Id$ 
+      // exercise.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['absent'] = 'Odsoten';
 $string['accumulative'] = 'Zbirno';
 $string['action'] = 'Dejanje';
@@ -12,7 +14,7 @@ $string['assess'] = 'Ovrednoti';
 $string['assessed'] = 'Ovrednoteno';
 $string['assessment'] = 'Vrednotenje';
 $string['assessmentby'] = 'Ovrednotil $a';
-$string['assessmentform'] = 'Obrezec za vrednotenje';
+$string['assessmentform'] = 'Obrazec za vrednotenje';
 $string['assessmentmadebythe'] = 'Vrednotenje opravil $a';
 $string['assessmentofthissubmission'] = 'Vrednotenje te oddaje';
 $string['assessments'] = 'Vrednotenja';
@@ -29,7 +31,7 @@ $string['deadline'] = 'Skrajni rok';
 $string['deadlineis'] = 'Skrajni rok je $a';
 $string['delete'] = 'Izbriši';
 $string['deletesubmissionwarning'] = 'Opozorilo: obstaja $a vrednotenj povezanih s to oddajo.<br />
-    Zelo priporočljivo je, da te oddaje NE izbrišete.';
+Zelo priporočljivo je, da te oddaje NE izbrišete.';
 $string['deleting'] = 'Brisanje';
 $string['description'] = 'Opis';
 $string['descriptionofexercise'] = 'V Nalogi vaje je opis vaje ali opravila, ki ga mora opraviti $a, v dokumentu Word ali datoteki HTML. To datoteko se naloži v vajo preden se naloga odpre za $a. Možno je tudi ustvariti nabor različic iste vaje ali opravila, znova kot dokumente Word ali HTML datoteke in jih naložiti v vajo preden se vaja odpre za $a.';
@@ -59,7 +61,7 @@ $string['gradeforsubmission'] = 'Ocena za oddajo';
 $string['gradetable'] = 'Preglednica ocen';
 $string['gradinggrade'] = 'Ocena ocenjevanja';
 $string['gradingstrategy'] = 'Strategija ocenjevanja';
-$string['handlingofmultiplesubmissions'] = 'Rokovanje z večimi oddajami';
+$string['handlingofmultiplesubmissions'] = 'Rokovanje z več oddajami';
 $string['hidenamesfromstudents'] = 'Skrij imena pred udeleženci';
 $string['incorrect'] = 'Napačno';
 $string['late'] = 'Pozno';
@@ -104,7 +106,7 @@ $string['numberofnegativeresponses'] = 'Število negativnih odzivov';
 $string['onesubmission'] = 'Ena oddaja';
 $string['optionaladjustment'] = 'Dodatna prilagoditev';
 $string['overallgrade'] = 'Celotna ocena';
-$string['passwordprotectedexercise'] = 'Vaja zaščitena z geslom';
+$string['passwordprotectedexercise'] = 'Vaja, zaščitena z geslom';
 $string['phase'] = 'Faza';
 $string['phase1'] = 'Nastavitev vaje';
 $string['phase1short'] = 'Nastavitev';
@@ -119,7 +121,7 @@ $string['pleaseusethisform'] = 'Prosimo, izpolnite za obrazec, ko <br />zaključ
 $string['pleaseviewtheexercise'] = 'Prosimo, oglejte si spodnjo vajo s klikom na njeno ime.<br /.Sledite navodilom v tej vaji. <br />Ko boste mnenja, da ste  uspešno zaključili vajo<br />, kliknite na povezavo Ovrednoti (ali Ponovno ovrednoti) v<br />spodnjem okvirju. Ko boste opravili to vrednotenje, boste<br /> dobili nadaljnja navodila o oddaji vašega dela.';
 $string['poor'] = 'Slabo';
 $string['present'] = 'Prisoten';
-$string['reasonforadjustment'] = 'Splošni komentar / Razlog za prilagoditev';
+$string['reasonforadjustment'] = 'Splošen komentar / Razlog za prilagoditev';
 $string['reassess'] = 'Ponovno ovrednoti';
 $string['regradestudentassessments'] = 'Ponovna ocena vrednotenja udeleženca';
 $string['resubmissionfor'] = 'Ponovna oddaja za $a';
@@ -129,9 +131,9 @@ $string['savedok'] = 'Shranjeno v redu';
 $string['saveentries'] = 'Shrani vnose';
 $string['savemyassessment'] = 'Shrani moje vrednotenje';
 $string['saveweights'] = 'Shrani uteži';
-$string['scale10'] = 'Rezultat do 10';
-$string['scale100'] = 'Rezultat do 100';
-$string['scale20'] = 'Rezultat do 20';
+$string['scale10'] = 'Rezultat od možnih  10';
+$string['scale100'] = 'Rezultat od možnih 100';
+$string['scale20'] = 'Rezultat od možnih 20';
 $string['scalecorrect'] = '2 točkovna lestvica Pravilno / Napačno';
 $string['scaleexcellent4'] = '4 točkovna lestvica Izvrstno / Zelo slabo';
 $string['scaleexcellent5'] = '5 točkovna lestvica Izvrstno / Zelo slabo';
@@ -185,4 +187,5 @@ $string['wrongpassword'] = 'Napačno geslo za to vajo';
 $string['yourassessment'] = 'Vaše vrednotenje';
 $string['yourfeedbackgoeshere'] = 'Tu vpišite vaš odziv';
 $string['yoursubmission'] = 'Vaša oddaja';
+
 ?>

@@ -1,5 +1,7 @@
-<?php // $Id:
-      // countries.php
+<?PHP // $Id$ 
+      // countries.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['AD'] = 'Andora';
 $string['AE'] = 'Združeni arabski emirati';
 $string['AF'] = 'Afganistan';
@@ -22,7 +24,7 @@ $string['BB'] = 'Barbados';
 $string['BD'] = 'Bangladeš';
 $string['BE'] = 'Belgija';
 $string['BF'] = 'Burkina Faso';
-$string['BG'] = 'Bulgarija';
+$string['BG'] = 'Bolgarija';
 $string['BH'] = 'Bahrajn';
 $string['BI'] = 'Burundi';
 $string['BJ'] = 'Benin';
@@ -127,7 +129,7 @@ $string['KZ'] = 'Kazahstan';
 $string['LA'] = 'Laos';
 $string['LB'] = 'Libanon';
 $string['LC'] = 'Saint Lucia';
-$string['LI'] = 'Lihtenštajn';
+$string['LI'] = 'Liechtenstein';
 $string['LK'] = 'Šrilanka';
 $string['LR'] = 'Liberija';
 $string['LS'] = 'Lesoto';
@@ -142,7 +144,7 @@ $string['ME'] = 'Črna gora';
 $string['MF'] = 'Saint Martin';
 $string['MG'] = 'Madagaskar';
 $string['MH'] = 'Marshallovi otoki';
-$string['MK'] = 'Makedonija, Nekdanja jugoslovanska republika';
+$string['MK'] = 'Makedonija, Republika';
 $string['ML'] = 'Mali';
 $string['MM'] = 'Mjanmar';
 $string['MN'] = 'Mongolija';
@@ -191,13 +193,13 @@ $string['RO'] = 'Romunija';
 $string['RS'] = 'Srbija';
 $string['RU'] = 'Ruska federacija';
 $string['RW'] = 'Ruanda';
-$string['SA'] = 'Saudova Arabija';
+$string['SA'] = 'Saudska Arabija';
 $string['SB'] = 'Salomonovi otoki';
 $string['SC'] = 'Sejšeli';
 $string['SD'] = 'Sudan';
 $string['SE'] = 'Švedska';
 $string['SG'] = 'Singapur';
-$string['SH'] = 'St. Helena';
+$string['SH'] = 'Sveta Helena';
 $string['SI'] = 'Slovenija';
 $string['SJ'] = 'Svalbard in otočje Jan Mayen';
 $string['SK'] = 'Slovaška (Slovaška republika)';
@@ -228,7 +230,7 @@ $string['TW'] = 'Tajvan';
 $string['TZ'] = 'Tanzanija, Združena republika';
 $string['UA'] = 'Ukrajina';
 $string['UG'] = 'Uganda';
-$string['UM'] = 'United States Minor Outlying Islands';
+$string['UM'] = 'Združene države Amerike brez zunanjih otočij';
 $string['US'] = 'Združene države Amerike';
 $string['UY'] = 'Urugvaj';
 $string['UZ'] = 'Uzbekistan';
@@ -246,4 +248,5 @@ $string['YT'] = 'Mayotte';
 $string['ZA'] = 'Južna Afrika';
 $string['ZM'] = 'Zambija';
 $string['ZW'] = 'Zimbabve';
+
 ?>

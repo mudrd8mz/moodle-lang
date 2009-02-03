@@ -1,9 +1,11 @@
-<?php // $Id:
-      // choice.php
+<?PHP // $Id$ 
+      // choice.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['addmorechoices'] = 'Dodaj več možnosti';
 $string['allowupdate'] = 'Dovoli posodobitev možnosti';
 $string['answered'] = 'Odgovorjeno';
-$string['choice'] = 'Možnost';
+$string['choice'] = 'Možnost izbire';
 $string['choice:choose'] = 'Zabeleži izbiro';
 $string['choice:deleteresponses'] = 'Zbriši odgovore';
 $string['choice:downloadresponses'] = 'Naloži odgovore';
@@ -21,7 +23,7 @@ $string['fillinatleastoneoption'] = 'Izbrati morate najmanj dva možna odgovora.
 $string['full'] = '(Polno)';
 $string['havetologin'] = 'Pred oddajo svojega izbora se morate prijaviti';
 $string['limit'] = 'Omejitev';
-$string['limitanswers'] = 'Omeji število možnih odgovorov';
+$string['limitanswers'] = 'Število izborov posamezne možnosti';
 $string['modulename'] = 'Izbira';
 $string['modulenameplural'] = 'Izbire';
 $string['mustchooseone'] = 'Za odgovor se morate odločiti pred shranjevanjem. Nič ni bilo shranjeno.';
@@ -46,7 +48,8 @@ $string['showunanswered'] = 'Prikaži stolpec za neodgovorjeno';
 $string['spaceleft'] = 'prostor na voljo';
 $string['spacesleft'] = 'prostorov na voljo';
 $string['taken'] = 'Zasedeno';
-$string['timerestrict'] = 'Omeji odgovarjanje na to časovno obdobje';
+$string['timerestrict'] = 'Časovna omejitev';
 $string['viewallresponses'] = 'Poglej $a odgovore';
 $string['yourselection'] = 'Vaš izbor';
+
 ?>

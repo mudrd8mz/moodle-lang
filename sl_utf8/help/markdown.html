@@ -36,7 +36,7 @@
 
 <p>Markdown omogoča razdelitev besedila z naslovi. Na voljo je šest različnih ravni, čeprav je nenavadno, da bi navadno besedilo uporabljalo več kot tri. V besedilu, ki ga trenutno berete so na primer uporabljene tri ravni naslovov.</p>
 
-<p>Naslov lahko ustvarite tako, da začnete vrstico z enim ali večimi znaki #.  En znak # je največji in najpomembnejši naslov, šest znakov # pomeni najmanj pomemben oziroma najmanjši naslov.</p>
+<p>Naslov lahko ustvarite tako, da začnete vrstico z enim ali več znaki #.  En znak # je največji in najpomembnejši naslov, šest znakov # pomeni najmanj pomemben oziroma najmanjši naslov.</p>
 
 <p><strong><code># naslov poglavja</code></strong> <br /> <strong><code>## naslov podpoglavja</code></strong> <br /> <strong><code>### podnaslov podpoglavja</code></strong> <br /> ipd.</p>
 
@@ -78,7 +78,7 @@
 
 <h3>Zamaknjeni seznami</h3>
 
-<p>Označene ali oštevilčene sezname lahko vgnezdite ali zamaknete in celo mešate označene in oštevilčene sezname v skupno strukturo: <b></p>
+<p>Označene ali oštevilčene sezname lahko ugnezdite ali zamaknete in celo mešate označene in oštevilčene sezname v skupno strukturo: <b></p>
 
 <pre>
     * vrhnja raven oznaka ena
@@ -112,27 +112,30 @@
 
 <p>Citiran odsek besedila lahko označite, če začnete vrstico s kotnim zaklepajem (>). Ta znak je bil izbran, ker ga uporabljajo mnogi e-poštni programi za označevanje citiranih odsekov. Izpis bo praviloma zamaknil citiran odsek na obeh robovih.</p>
 
-<p><strong><code>> To je citiran odstavek</code> <br /> <code>> v dveh vrsticah</code></strong>  </p>
+<p><strong><code>&gt; To je citiran odstavek</code> <br /> <code>&gt; v dveh vrsticah</code></strong>  </p>
 
 <p>postane</p>
 
 <blockquote>
-  <p>To je citiran odstavek v dveh vrsticah</p>
+  <p>To je citiran odstavek
+  v dveh vrsticah</p>
 </blockquote>
 
 <p>Nekaj tipkanja si lahko prihranite, če uporabite samo en kotni zaklepaj na začetku prve vrstice odstavka</p>
 
-<p><strong><code>> to je vse en sam citiran</code> <br /> <code>odstavek, čeprav se nadaljuje</code> <br /> <code>prek večih vrstic.</code></strong></p>
+<p><strong><code>&gt; to je vse en sam citiran</code> <br /> <code>odstavek, čeprav se nadaljuje</code> <br /> <code>prek več vrstic.</code></strong></p>
 
 <p>postane</p>
 
 <blockquote>
-  <p>to je vse en sam citiran odstavek, čeprav se nadaljuje prek večih vrstic.</p>
+  <p>to je vse en sam citiran 
+  odstavek, čeprav se nadaljuje prek 
+  več vrstic.</p>
 </blockquote>
 
 <h2><a id="links">Spletne povezave</a></h2>
 
-<p>Obstajata dva načina za ustvarjanje povezav na spletne vire: Prvi je vključevanje povezave v besedilu, s postavitvijo besedila, na katerega naj bralci kliknejo v oglate oklepaje in URL naslova strani, na katero naj kaže povezave neposredno za tem v oklepaje brez presledkov ali lukenj med dvema paroma oklepajev. Dodate lahko tudi ime za povezavo v narekovarjih za URL naslovom.</p>
+<p>Obstajata dva načina za ustvarjanje povezav na spletne vire: Prvi je vključevanje povezave v besedilu, s postavitvijo besedila, na katerega naj bralci kliknejo v oglate oklepaje in URL naslova strani, na katero naj kaže povezave neposredno za tem v oklepaje brez presledkov ali lukenj med dvema paroma oklepajev. Dodate lahko tudi ime za povezavo v narekovajih za URL naslovom.</p>
 
 <p><strong><code>To je [primer povezave](http://example.com/ "Dodatno ime") v stavku.</code></strong></p>
 
@@ -154,7 +157,7 @@
 
 <p>Končna bljižnjica, če želite, da je povezano besedilo enako kot URL naslov, je postavitev URL naslova v kotne oklepaje takole:</p>
 
-<p><strong><code><http://moodle.org/></code></strong></p>
+<p><strong><code>&lt;http://moodle.org/&gt;</code></strong></p>
 
 <p>kar postane</p>
 
@@ -193,6 +196,6 @@
 <h2><a id="advanced">Dodatne teme</a></h2>
 
 <p>Ta kratek uvod pokriva možnosti Markdown, ki so uporabljane v veliki večini primerov. Možno je doseči veliko bolj kompleksne rezultate, še posebej, če že veste, kako pisati HTML, vendar je to obravnavano v ločenem dokumentu o Napredni rabi Markdown</p>
-<p align="right"><a href="help.php?file=advanced_markdown.html">Več o napredni rabi Markdown</a></p>
+<p class="moreinfo"><a href="help.php?file=advanced_markdown.html">Več o napredni rabi oblike Markdown</a></p>
 </div>
 </div>

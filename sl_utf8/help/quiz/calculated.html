@@ -1,46 +1,88 @@
-<h1>Izračunana vprašanja</h1>
-Izračunana vprašanja ponujajo način za ustvarjanje posameznih številčnih vprašanj z uporabo nadomestnih znakov, ki so nadomeščeni s posameznimi vrednostmi ob izvajanju kviza. <br />Spodaj je skrčen pogled na glavno stran urejanja z nekaj vnosi za primer:<br />
+<h1>Vprašanje tipa Izračunano</h1>
+
+<p>Ta tip vprašanja omogoča izdelavo računskih nalog, kjer lahko uporabite parametre. Te navedete v besedilu vprašanja med zavitimi oklepaji, npr. <b>{ime}</b>. Ko bo vprašanje zastavljeno, bo udeleženec namesto parametrov videl ustrezna števila. Za vsak parameter morate določiti zalogo vrednosti (nabor podatkov), iz katere se izbere njegova vrednost. Če je teh vrednosti več, bo udeleženec pri različnih poskusih lahko videl različna vprašanja.</p>
+
+<p>V polju <b>Besedilo vprašanja</b> napišete poljubno besedilo. V besedilu lahko uporabite tudi izraze, v katerih nastopajo ustrezni parametri. Če želite npr. zastaviti vprašanje, ki bo preverjalo, če znajo udeleženci izračunati izraz oblike a + b (npr. 2 + 3), potem za besedilo vprašanja napišete Koliko je {a}+{b}?.<br>
+V besedilu vprašanja lahko med izrazi uporabljate sledeče operatorje: <br>
+<ul>
+ + seštevanje, <br>
+ - odštevanje, <br>
+ * množenje, <br>
+ / deljenje in <br>
+ % ostanek pri celoštevilskem deljenju. <p>
+</ul>
+
+<p> Poleg tega lahko v izrazih uporabljate cel kup drugih matematičnih funkcij, ki jih podpira jezik PHP. Med njimi so: abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sqrt, tan, tanh, atan2, pow, min, max... Pogosto bi prav prišla tudi konstanta pi. V jeziku PHP te konstante sicer ni, je pa na voljo funkcija pi(), ki vrne ustrezno vrednost.</p>
+
+<p> V polje <b>Pravilna formula odgovora </b> vnesete ustrezno vrednost, ki pomeni pravilen odgovor. Pri tem je zelo priročno, da tudi tu napišete izraz kot je {a}+{b}. Pri tem se morate držati določenih pravil: <br>
+
+<ul>
+<li> v formulo ne smete vključiti znaka enakosti (=), <br>
+<li> argumente funkcij morate dati v oklepaje, npr. sin({a}), sin(3/{x}) in <br>
+<li> znak za množenje (*) morate obvezno zapisati (torej 2 * a in ne kar 2a). </p>
+</ul>
+
+<p> Vneseni odgovor se od pravilnega lahko razlikuje za določeno toleranco (odstopanje). Polje <b>Vrsta odstopanja</b> vam na izbiro nudi tri vrste: relativno, absolutno in geometrično odstopanje. S pomočjo vrstnega reda odgovorov lahko različno natančne odgovore različno ocenite. Tako npr. lahko določite, da 100% točk dobi le odgovor, ki je povsem pravilen (toleranco nastavi na 0), 90% tisti, ki bo natančen na 1 decimalko ...  Dodatna polja za odgovore dobite s klikom na gumb <b>Dodaj prazen odgovor</b>. <br> <br>
+
+Pomen odstopanj: <br>
+<ul> Pri tem upoštevajte naslednje oznake:<br>
+<ul>
+t - toleranca <br>
+x - pravilen odgovor<br> 
+dx - absoltutna vrednost razlike med udeleženčevem ter pravilnim odgovorom<br>
+</ul></ul>
+
+<ul>
+<li> <b>Relativno odstopanje</b> <br>
+Kot pravilni bodo šteti tisti odgovori, kjer bo veljalo, da je dx/x ≤ t.<br>
+<li> <b> Absolutno odstopanje</b><br>
+Pri absolutnem odstopanju bo odgovor štet kot pravilen, če bo veljalo, da je dx ≤ t. Če boste torej želel, da je rezultat prav na eno decimalko, bo uporabil odstopanje 0.09999. <br>
+<li><b> Geometrično odstopanje</b><br>
+Tu so pravilni tisti odgovori, pri katerih  velja, da je (dx)2/x2 ≤ t2.<br></ul></p>
+
+<p> Polje <b> Pravilni odgovor se prikaže</b> označuje število decimalnih mest, ki se uporabijo ob prikazu pravilnega odgovora. Polje <b>Format</b> določa, na koliko decimalnih mest naj se zaokroži odgovor pri prikazu na zaslon. <br>
+Če želite, da so v odgovoru vnesene enote, potem v tem polju namesto izbire <b>decimalke</b> izberite nastavitev <b>pomembne lastnosti</b>. Potem morate izpolniti tudi polje Enota 1.<p>
+
+<p> Spodaj je skrčen pogled na stran urejanja z nekaj vnosi za primer:<br/>
 
 <table><tbody>
 <tr valign="top">
-    <td align="right"><p><b>Vprašanje:</b></p>
+    <td align="right"><p><b>Besedilo vprašanja &nbsp;</b></p>
     </td>
     <td>
-        <textarea id="questiontext" name="questiontext" rows="5" cols="40" wrap="virtual">Koliko je {a} + {b} ?</textarea>
+        <textarea id="questiontext" name="questiontext" rows="5" cols="20" wrap="virtual">Koliko je {a} + {b} ?</textarea>
 </td>
 </tr>
 <tr valign="top">
-    <td align="right"><p><b>Slika za prikaz:</b></p></td>
+    <td align="right"><p><b>Slika za prikaz &nbsp;</b></p></td>
     <td>
     <select name="image"><option value="" selected="selected">Brez</option><option value="grevture.gif">grevture.gif</option></select>
     </td>
 </tr>
 
 <tr valign="top">
-<td align="right"><p><b>Pravilna formula odgovora:</b></p></td>
+<td align="right"><p><b>Pravilna formula odgovora = &nbsp;</b></p></td>
     <td>
     <input align="left" type="text" id="formula0" name="answer[]" size="20" value="{a} + {b}">&nbsp;&nbsp;
     <input type="hidden" name="fraction[]" value="1.0">
     </td>
 </tr>
 <tr valign="top">
-    <td align="right"><p><b>Dovoljeno odstopanje:</b></p></td>
+    <td align="right"><p><b>Odstopanje &plusmn; &nbsp;</b></p></td>
     <td>
-    <input align="left" type="text" id="tolerance0&quot;" name="tolerance[]" size="15" value="0.01">&plusmn;
+    <input align="left" type="text" id="tolerance0&quot;" name="tolerance[]" size="15" value="0.01">
     </td>
 </tr>
 <tr valign="top">
-<td align="right"><p><b>Vrsta odstopanja:</b></p></td>
+<td align="right"><p><b>Vrsta odstopanja &nbsp;</b></p></td>
     <td>
     <select name="tolerancetype[]"><option value="1" selected="selected">Relativno</option><option value="2">Nominalno</option><option value="3">Geometrično</option></select>
     </td>
 </tr>
 <tr valign="top">
-<td align="right"><p><b>Pomembna dejstva:</b></p></td>
+<td align="right"><p><b>Pravilni odgovor se prikaže &nbsp;</b></p></td>
     <td>
     <select name="correctanswerlength[]"><option value="1">1</option><option value="2" selected="selected">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
     </td>
 </tr>
-</tbody></table>
-
-<br /> V besedilu vprašanja in &quot;Pravilna formula odgovora&quot; vidite {a} in {b}. To in poljubno drugo {ime} lahko uporabite kot nadomestne znake, ki so nadomeščen ob izvajanju kviza. Tudi pravilen odgovor je izračunan, ko je kviz oddan z izrazom v &quot;Pravilni formuli odgovora&quot;, ki se izračuna kot številčen izraz po nadomestitvi nadomestnih znakov. Možne vrednosti nadomestnih znakov se nastavijo ali generirajo na naslednji strani v &quot;čarovniku urejanja&quot; za izračunana vprašanja... <br/>Formula v primeru uporablja operator +. Drugi sprejemljivi operatorji so -*/ in %, kjer % pomeni operator modula. Možno je tudi uporabiti nekatere matematične funkcije v slogu PHP. Med njimi je 24 funkcij z enim argumentom:<br /><b>abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sprt, tan, tanh</b><br /> in dve fukciji z dvema argumentoma<br /><b>atan2, pow</b><br />ter funkciji <b>min</b> in <b>max</b>, ki sprejmeta dva ali več argumentov. Možno je tudi uporabiti funkcijo <b>pi</b> brez argumenta, a ne pozabite na oklepaja - pravilna raba je <b>pi()</b>. Podobno morajo druge funkcije imeti argument v oklepajih. Primer možne rabe je <b>sin({a}) + cos({b}) * 2</b>. Ne bi smelo predstavljati težave ugnezdenje funkcij eno v drugi kot na primer <b>cos(deg2rad({a} + 90))</b> in podobno. <br />Več podrobnosti o tem kako uporabiti te funkcije v slogu PHP lahko najdete v <a target="phpmathdoc" href="http://www.php.net/manual/en/ref.math.php">dokumentaciji na spletni strani PHP</a>.<br /><br /> Kot za številčna vprašanja je tudi tu možno dovoliti meje v okviru katerih vsi odgovori štejejo kot pravilni. Polje &quot;Odstopanje&quot; je uporabljeno v ta namen. Obstajajo tri različne vrste odstopanja. To so <b>Relativno, Nominalno in Geometrično</b>. Če je recimo pravilen odgovor v kvizu izračunan kot 200 in je odstopanje nastavljeno na 0,5 potem različne vrste odstopanja delujejo tako: <br /><br /><b>Relativno:</b> Interval odstopanja je izračunan z množenjem pravilnega odgovora z 0,5 npr. v našem primeru dobimo 100, tako ob tem odstopanju kot pravilen odgovor štejejo vrednosti med 100 in 300 (200 &plusmn; 100)<br /> To je uporabno, če se lahko razpon pravilnega odgovora bistveno razlikuje ob različnih nadomestnih vrednostih. <br /><br /><b>Nominalno:</b>  To je najpreprostejše odstopanje, a ni zelo učinkovito. Pravilen odgovor mora biti med 199,5 in 200,5 (200 &plusmn; 0,5)<br /> Ta vrsta odstopanja je lahko uporabna, če so razlike med različnimi pravilnimi odgovori majhne. <br /><br /><b>Geometrično:</b> Zgornja meja intervala odstopanja se izračuna kot 200 + 0,5*200 in je enaka kot pri relativnem primeru. Spodnja meja se izračuna kot 200/(1 + 0,5). Pravilen odgovor mora tako biti med 133,33 in 300.<br /> To je uporabno za kompleksne izračune, ki morajo imeti velika odstopanja in bi relativna odstopanja 1 ali več bila uporabljena za zgornjo mejo in bila popolnoma nesprejemljiva za spodnjo mejo saj bi bil 0 pravilen odgovor v vsakem primeru. <br /><br /> Polje <b>Pomembna dejstva</b> se nanaša zgolj na to, kako naj bo pravilen odgovor predstavljen ob pregledu ali v poročilih. Primeri: Če je nastavljen na 3, bi bil pravilen odgovor 13,333 predstavljen kot 13,3; 1236 bi bilo predstavljeno kot 1240; 23 bi bilo predstavljeno kot 23,0 itn. <br /><br /> Polje povratne informacije in enote delujeta tako kot pri številčnih vprašanjih. <br />
+</tbody></table></p>

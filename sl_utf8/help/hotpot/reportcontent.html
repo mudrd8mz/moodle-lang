@@ -1,55 +1,54 @@
 <h1>Vsebina poročila</h1>
-<p>Določite lahko različne vsebine za poročila Hot Potatoes.</p>
+<p>Sami lahko določate vsebino poročila Hot Potatoes.</p>
 
 <p><b>Izbiranje vrste poročila</b></p>
 <div class="indent">
 	<p>	
-		<b>Pregled</b><br /> Poročilo je seznam vseh poskusov tega kviza. "opuščeni" poskusi so vključeni, toda poskusi, ki "potekajo" niso prikazani.
+		<b>Pregled</b><br /> Poročilo prikazuje seznam vseh poskusov tega kviza.
 
-		Prikaže sliko in ime vsakega uporabnika, skupaj z njihovo oceno za kviz in rezultat, čas ter trajanje vsakega poskusa. 
+		V poročilu so prikazani slika vsakega uporabnika, njegovo ime, ocena kviza, dosežene točke pri kvizu, čas vsakega poskusa in trajanje vsakega poskusa. 
 
-		Poskusi so lahko izbrani ter nato izbrisani, če je potrebno.
+		Če je potrebno, lahko poskuse tudi izbrišete.
 	</p>
 	<p>
 		<b>Preprosta statistika</b></br />
-		Poročilo je seznam vseh zaključenih poskusov tega kviza.
+		Poročilo prikazuje seznam vseh poskusov tega kviza, razen tistih, ki potekajo v tistem trenutku.
 
-		Poskusi označeni kot "opuščeni" in tisti, ki "potekajo" niso vključeni.
+		V poročilu so prikazani slika vsakega uporabnika, njegovo ime, ocena kviza in dosežene točke pri vsakem vprašanju v vsakem poskusu.
 
-		Prikaže sliko in ime vsakega uporabnika, skupaj z njihovo oceno za kviz in rezultat vsakega vprašanja v vsakem poskusu.
-
-		Prav tako poda povprečne rezultate posameznih vprašanj in kviza kot celote.
+		Ogledate si lahko tudi povprečne rezultate za posamezna vprašanja in za celotni kviz.
 	</p>
 	<p>	
-		<b>Podrobna statistika</b><br /> To poročilo prikazuje polne podrobnosti vseh dokončanih poskusov tega kviza,
-
-		Poskusi označeni kot "opuščeni" in tisti, ki "potekajo" niso vključeni.
+		<b>Podrobna statistika</b><br /> To poročilo prikazuje vse podrobnosti vseh poskusov tega kviza, razen tistih, ki potekajo v tistem trenutku.
 
 		Poročilo vsebuje sledeči tabeli:
 	</p>
 	<ul>
-		<li><a href="help.php?module=hotpot&file=responsestable.html">tabela odgovorov</a>, ki prikazuje kako je vsak uporabnik odgovoril na vsako vprašanje v vsakem izmed svojih poskusov kviza.</li>
+		<li><a href="help.php?module=hotpot&file=responsestable.html">tabela odgovorov</a>, ki prikazuje, kako je uporabnik odgovoril na posamezno vprašanje v posameznem poskusu kviza.</li>
 
-		<li><a href="help.php?module=hotpot&file=analysistable.html">tabela analize elementov</a>, ki našteva odgovore za vsako vprašanje in frekvenco za vsak odgovor.</li>
+		<li><a href="help.php?module=hotpot&file=analysistable.html">tabela analize elementov</a>, v kateri so navedeni odgovori na posamezno vprašanje in frekvenca posameznega odgovora.</li>
 	</ul>
-	<p>	
-		<b>Poročilo sledi klikov</b><br /> To poročilo prikazuje podrobnosti vsakega klika vsakega udeleženca med zaključenimi poskusi v kvizu Hot Potatoes.
+<p>
+<b>Sledenje klikom</b><br/>
+    Poročilo prikazuje podrobnosti vsakega klika, ki ga je udeleženec naredil med poskusom reševanja določenega kviza. Upoštevajo se samo poskusi, pri katerih je udeleženec reševanje zaključil, ne opustil.<br/>
 
-		Poročilo je lahko zelo dolgo in je namenjeno prenosu in ogledu v programu preglednice, kot je Microsoft Excel.
+Prosimo, zavedajte se, da je to poročilo zelo obsežno in zato lahko zelo dolgo. Zato naj bi to poročilo prenesli na svoj računalnik in ga pregledovali v programu za delo s preglednicami, kot je na primer Microsoft Excel.<br/>
 
-		Podrobnosti o stolpcih v tem poročilu so na voljo v datoteki pomoči <a href="help.php?module=hotpot&file=clickreporttable.html">tabele sledi klikov</a>.
-	</p>
+Podrobnejše informacije o stolpcih tega poročila so na voljo na <a href="help.php?module=hotpot&amp;file=clickreporttable.html">Sledenje klikom</a>.<br/>
+
+Poročilo "Sledenje klikov" lahko izberete samo, če je v nastavitvah tega kviza izbrana možnost<a href="help.php?module=hotpot&amp;file=clickreporting.html">Omogoči shranjevanje poročil ob klikih</a>.
+</p>
 </div>
 
 <p><b>Izbiranje predmeta</b></p>
 <div class="indent">
 	<p>	
-		<b>Ta predmet</b><br /> Poročilo bo prikazalo odgovore po sodelujočih v trenutnem predmetu
+		<b>Ta predmet</b><br /> Poročilo bo prikazalo odgovore po sodelujočih v trenutnem predmetu.
 	</p>
 	<p>	
 		<b>Vsi moji predmeti</b><br /> Poročilo bo prikazalo odgovore vseh sodelujočih za vse predmete, ki uporabljajo kviz in v katerih ste vi izvajalec. 
 
-		Da bi bil uporabljen v večih predmetih, mora biti kviz lociran v imeniku datotek spletnega mesta.
+		Kviz, ki ga nameravate uporabiti v več predmetih, mora biti nameščen v mapi datotek spletnega mesta.
 
 		<b><i>Ta možnost je na voljo samo skrbnikom strani.</i></b>
 	</p>
@@ -57,29 +56,37 @@
 
 <p><b>Izbiranje uporabnikov</b></p>
 <div class="indent">
-	<p>	
-		<b>Vsi sodelujoči</b><br /> Poročilo bo prikazalo odgovore udeležencev, izvajalcev, ustvarjalcev predmeta in skrbnikov. Odgovori "gostujočih" uporabnikov, če obstajajo, bodo prav tako prikazani.
+        <p>	
+		<b>Vsi uporabniki</b><br /> Poročilo bo prikazalo odgovore vseh uporabnikov, ki so reševali ta kviz. To vključuje tudi uporabnike, ki trenutno niso vpisani v predmet (gostujoče uporabnike), ustvarjalce predmetov in skrbnike Moodla.
 	</p>
 	<p>	
-		<b>Udeleženci</b><br /> Poročilo bo prikazalo odgovore po udeležencih tega predmeta. Odgovori izvajalca ne bodo vključeni v poročilu
+		<b>Vsi sodelujoči</b><br /> Poročilo bo prikazalo odgovore vseh udeležencev predmeta (tudi izvajalcev), ki so trenutno vpisani v predmet. Prikazani bodo tudi odgovori gostujočih uporabnikov, ustvarjalcev predmetov in skrbnikov Moodla.
+	</p>
+<p>
+        <b>Skupina: ime skupine</b><br />
+        Poročilo bo prikazalo odgovore vseh udeležencev, ki so člani izbrane skupine.
+        Če v tem predmetu ni definirane nobene skupine, se ta možnost ne bo prikazala na spustnem seznamu.
+    </p>
+	<p>	
+		<b>Udeleženci</b><br /> Poročilo bo prikazalo odgovore udeležencev tega predmeta. Odgovori izvajalca ne bodo vključeni v poročilo.
 	</p>
 	<p>	
-		<b>Posamezen udeleženec</b><br /> Poročilo bo prikazalo odgovore posameznega udeleženca izbranega iz spustnega seznama imen udeležencev
+		<b>Posamezen udeleženec</b><br /> Poročilo bo prikazalo odgovore posameznega udeleženca, izbranega s spustnega seznama imen udeležencev.
 	</p>
 </div>
 
 <p><b>Izbiranje ocen</b></p>
 <div class="indent">
 	<p>	
-		<b>Vsi poskusi</b><br /> Poročilo bo vključevalo odgovore za vse poskuse vseh uporabnikov
+		<b>Vsi poskusi</b><br /> Poročilo bo vključevalo odgovore za vse poskuse posameznega uporabnika.
 	</p>
 	<p>	
-		<b>Najboljši poskus</b><br /> Poročilo bo vključevalo samo odgovore poskusov z najboljšim rezultatom vsakega uporabnika
+		<b>Najboljši poskus</b><br /> Poročilo bo vključevalo samo odgovore poskusa z najboljšim rezultatom posameznega uporabnika.
 	</p>
 	<p>	
-		<b>Prvi poskus</b><br /> Poročilo bo vključevalo samo odgovore prvega poskusa vsakega uporabnika
+		<b>Prvi poskus</b><br /> Poročilo bo vključevalo samo odgovore prvega poskusa posameznega uporabnika.
 	</p>
 	<p>	
-		<b>Zadnji poskus</b><br /> Poročilo bo vključevalo samo odgovore zadnjega poskusa vsakega uporabnika
+		<b>Zadnji poskus</b><br /> Poročilo bo vključevalo samo odgovore zadnjega poskusa posameznega uporabnika.
 	</p>
 </div>

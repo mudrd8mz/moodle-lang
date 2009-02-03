@@ -1,11 +1,13 @@
-<?php // $Id:
-      // simpletest.php
+<?PHP // $Id$ 
+      // simpletest.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
 $string['all'] = 'VSE';
 $string['exception'] = 'Izjema';
 $string['fail'] = 'Pasti';
 $string['ignorefile'] = 'Ne upoštevaj teste v datoteki';
 $string['ignorethisfile'] = 'Ponovno zaženi teste, ne upoštevaj te testne datoteke.';
-$string['moodleunittests'] = 'Moodlovi testi enot: $a';
+$string['moodleunittests'] = 'Moodle-ovi testi enot: $a';
 $string['notice'] = 'Obvestilo';
 $string['onlytest'] = 'Testiraj samo v';
 $string['pass'] = 'Opraviti';
@@ -19,11 +21,12 @@ $string['runonlyfolder'] = 'Zaženi testiranje samo v tej mapi';
 $string['runtests'] = 'Zaženi testiranje';
 $string['rununittests'] = 'Zaženi testiranje enot';
 $string['showpasses'] = 'Pokaži uspešne in neuspešne teste.';
-$string['showsearch'] = 'Iskanje testnih datotek.';
+$string['showsearch'] = 'Prikaži iskanje testnih datotek';
 $string['stacktrace'] = 'Zaznamek napake:';
 $string['summary'] = '{$a->run}/{$a->total} testiranje zaključeno: <strong>{$a->passes}</strong> uspešne, <strong>{$a->fails}</strong> neuspešne in <strong>{$a->exceptions}</strong> izjeme.';
 $string['thorough'] = 'Zaženi testiranje (lahko traja nekaj časa).';
 $string['uncaughtexception'] = 'Nezabeležena izjema [{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}] TESTIRANJE JE PREKINJENO.';
 $string['unittests'] = 'Testne enote';
-$string['version'] = 'Uporablja <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> različica $a.';
+$string['version'] = 'Uporablja <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> različico $a.';
+
 ?>

@@ -1,40 +1,154 @@
 <h1>Ugnezdeni odgovori (izpolnjevanje)</h1>
 
-<p>Ta zelo prilagodljiva vrsta vprašanja in je podobna priljubljeni obliki izpolnjevanja (imenovana tudi Cloze).  </p>
+<p>To je zelo prilagodljiv tip vprašanja, ki je zelo podoben priljubljeni obliki izpolnjevanja.</p>
 
-<p>Vprašanja so sestavljena iz tekočega besedila (v zapisu Moodle), ki vsebuje razne ugnezdene odgovore, vključno z vprašanji z večimi izbirami, kratkimi odgovori in številčnimi odgovori.</p>
+<p>Vprašanja so sestavljena iz tekočega besedila (v zapisu Moodle), ki vsebuje ugnezdene odgovore tipa</p>
+<ul>
+  <li>Kratek odgovor (oznaki SA ali MW),</li>
+  <li>Številčno (NM),</li>
+  <li>Več izbir kot padajoči meni (MC),</li>
+  <li>Več izbir kot navpični gumbi (MCV),</li>
+  <li>Več izbir kot vodoravni gumbi (MCH).</li>
+</ul>
 
 <p>Trenutno ni grafičnega vmesnika za ustvarjanje teh vprašanj - obliko vprašanja morate določiti v vnosnem polju besedila ali z uvozom iz zunanjih datotek.</p>
 
-<p>Tu je primer vnesenega besedila, ki določa tako vprašanje:</p>
+<p>Primer: v polje za besedilo vprašanja vnesete: </p>
 
-<form action="">
-<center>
-<textarea rows="15" cols="60" wrap="virtual">To vprašanje je sestavljeno iz besedila in ugnezdenih vprašanj prav tu {1:MULTICHOICE:Napačen odgovor#Povratna informacija za ta napačen odgovor~Še en napačen odgovor#Povratna informacija za drug napačen odgovor~=Pravilen odgovor#Povratna informacija za pravilen odgovor~%50%Odgovor, ki da polovico točk#Povratna informacija za odgovor vreden pol točk} in takoj za tem se boste morali lotiti tega vprašanja s kratkim odgovorom {1:SHORTANSWER:Napačen odgovor#Povratna informacija za ta napačen odgovor~=Pravilen odgovor#Povratna informacija za pravilen odgovor~%50%Odgovor, ki da polovico točk#Povratna informacija za odgovor vreden pol točk} in na koncu imamo še necelo število {2:NUMERICAL:=23.8:0.1#Povratna informacija za pravilen odgovor23.8~%50%23.8:2#Povratna informacija za odgovor vreden pol točk v območju blizu pravilnega odgovora}.
+<p><textarea rows="25" wrap="virtual" cols="60">
+To vprašanje je sestavljeno iz besedila in ugnezdenih vprašanj prav tu {1:MULTICHOICE:Napačen odgovor# Povratna informacija za ta napačen odgovor~ Še en napačen odgovor#Povratna informacija za drug napačen odgovor~=Pravilen odgovor#Povratna informacija za pravilen odgovor~%50%Odgovor, ki da polovico točk#Povratna informacija za odgovor vreden pol točk} in takoj za tem se boste morali lotiti tega vprašanja s kratkim odgovorom {1:SHORTANSWER:Napačen odgovor#Povratna informacija za ta napačen odgovor~=Pravilen odgovor#Povratna informacija za pravilen odgovor~%50%Odgovor, ki da polovico točk#Povratna informacija za odgovor vreden pol točk} in na koncu imamo še necelo število {2:NUMERICAL:=23.8:0.1#Povratna informacija za pravilen odgovor23.8~%50%23.8:2#Povratna informacija za odgovor vreden pol točk v območju blizu pravilnega odgovora}.&lt;br /&gt;&lt;br /&gt;
 
-Vedite, da naslovi kot je www.moodle.org in smeški :-) delujejo običajno. a) Je to dobro? {:MULTICHOICE:=Da#Pravilno~Ne#Mi menimo drugače} b) Kako bi to ocenili? {3:NUMERICAL:=3:2}
+Vprašanje z več izbirami lahko prikažemo tudi navpično.&lt;br /&gt;
+&lt;br /&gt;
+{2:MCV:Napačen odgovor#Odziv za ta napačen odgovor~Še en napačen odgovor#Odziv za drugi napačen odgovor~=Pravilen odgovor#Odziv za pravilen odgovor~%50%Odgovor, ki daje polovico točk#Odziv za odgovor s polovico točk}&lt;br /&gt;
+Ali pa ga prikažemo vodoravno, kot je storjeno tukaj v tabeli.&lt;br /&gt;
+&lt;br /&gt; 
+{2:MCH:Napačen odgovor#Odziv za ta napačen odgovor~Še en napačen odgovor#Odziv za drugi napačen odgovor~=Pravilen odgovor#Odziv za pravilen odgovor~%50%Odgovor, ki daje polovico točk#Odziv za odgovor s polovico točk}&lt;br /&gt;
 
+Vedite, da naslovi kot je www.moodle.org in smeški :-) delujejo običajno.
+a) Je to dobro? {:MULTICHOICE:=Da#Pravilno~Ne#Mi menimo drugače}
+b) Kako bi to ocenili? {3:NUMERICAL:=3:2}&lt;br /&gt;
+&lt;br /&gt;
 Veliko sreče!
 </textarea>
-</center>
-</form>
+</p>
 
-<p>Ta primer bodo udeleženci videl kot sledi:</p>
+<p>Udeleženci bodo vprašanje videli tako:</p>
 
-
-<form action="">
-<table align="center" width="90%" class="generalbox" border="0" cellpadding="5" cellspacing="0"><tr><td bgcolor="#FFFFFF" class="generalboxcontent"><table width="100%" cellspacing="10"><tr><td nowrap="nowrap" width="100" valign="top"><h1>3</h1><p align="center"><font size="1">8 točk</font></p><img height="1" width="100" src="pix/spacer.gif" alt="" /><br />
-</td><td valign="top"><p>To vprašanje je sestavljeno iz besedila in ugnezdenih vprašanj prav tu  <select   name="q4ma1" ><option> </option><option value="4" >Napačen odgovor</option><option value="5" >Še en napačen odgovor</option><option value="6" >Pravilen odgovor</option><option value="7" >Odgovor, ki da polovico točk</option></select>  in takoj za tem se boste morali lotiti tega vprašanja s kratkim odgovorom  <input   name="q4ma2"  value="" type="text" size="8"/>  in na koncu imamo še necelo število  <input   name="q4ma3"  value="" type="text" size="8"/> .<br />
-
+<div id="middle-column"><div><span id="maincontent"></span><div id="q6" class="que multianswer clearfix">
+  <div class="info">
+    <span class="accesshide">Vprašanje </span>1      
+    <div class="grade">
+      Ocena: --/12.00</div>
+    </div>
+    <div class="content">
+      <div class="ablock clearfix"><label>To vprašanje je sestavljeno iz besedila in ugnezdenih vprašanj prav tu <span ><select name="resp3796_1"><option 
+  selected></option><option value="8919">Napačen odgovor</option><option value="8920">Še en napačen odgovor</option><option value="8921">Pravilen odgovor</option><option value="8922">Odgovor, ki da polovico točk</option></select></span></label><label>in takoj za tem se boste morali lotiti tega vprašanja s kratkim odgovorom <input name="resp3796_2" size="33" /> </label><label> in na koncu imamo še necelo število <input name="resp3796_3" size="4" /> </label><label>.<br /><br />Vprašanje z več izbirami lahko prikažemo tudi navpično<br /><br />
+        <table width="50%"><tbody><tr><td>
+          <table class="answer">
+            <tr class="r0">
+              <td class="c0 control">
+                <input id="resp3796_8960" name="resp3796_4"  type="radio" value="8960" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8960">
+                  <span class="anun">1<span class="anumsep">.</span></span> Napačen odgovor
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r1">
+              <td class="c0 control">
+                <input id="resp3796_8961" name="resp3796_4"  type="radio" value="8961" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8961">
+                  <span class="anun">2<span class="anumsep">.</span></span> Še en napačen odgovor
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r0">
+              <td class="c0 control">
+                <input id="resp3796_8962" name="resp3796_4"  type="radio" value="8962" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8962">
+                  <span class="anun">3<span class="anumsep">.</span></span> Pravilen odgovor
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r1">
+              <td class="c0 control">
+                <input id="resp3796_8963" name="resp3796_4"  type="radio" value="8963" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8963">
+                  <span class="anun">4<span class="anumsep">.</span></span> Odgovor, ki da polovico točk
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+          </table>
+        </td></tr></tbody></table>
+      <br />Ali pa ga prikažemo vodoravno, kot je storjeno tukaj v tabeli<br /><br />
+        <table class="answer">
+          <tr class="r0">
+            <td class="c0 control">
+              <input id="resp3796_8964" name="resp3796_5"  type="radio" value="8964" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8964">
+                <span class="anun">1<span class="anumsep">.</span></span> Napačen odgovor
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input id="resp3796_8965" name="resp3796_5"  type="radio" value="8965" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8965">
+                <span class="anun">2<span class="anumsep">.</span></span> Še en napačen odgovor
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input  id="resp3796_8966" name="resp3796_5"  type="radio" value="8966" >
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8966">
+                <span class="anun">3<span class="anumsep">.</span></span> Pravilen odgovor
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input  id="resp3796_8967" name="resp3796_5"  type="radio" value="8967" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8967">
+                <span class="anun">4<span class="anumsep">.</span></span> Odgovor, ki da polovico točk
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+          </tr>
+        </table>
 <br />
-
 Vedite, da naslovi kot je <a href="http://www.moodle.org" target="_blank">www.moodle.org</a> in smeški <img alt=""  border="0" src="pix/s/smiley.gif" width="15" height="15" /> delujejo običajno.<br />
 
-a) Je to dobro?  <select   name="q4ma4" ><option> </option><option value="13" >Da</option><option value="14" >Ne</option></select> <br />
+a) Je to dobro?  <span><select name="resp3796_6"><option selected></option><option value="8968">Da</option><option value="8969">Ne</option></select></span></label><label><br />
 
-b) Kako bi to ocenili?  <input   name="q4ma5"  value="" type="text" size="8"/> <br />
-
-<br />
-
-Veliko sreče!</p></td></tr></table></td></tr></table>
-</form>
+b) Kako bi to ocenili?  <input name="resp3796_7" size="1" > </label><br /><br />
+Veliko sreče!</div>
+    <div class="grading">
+    </div>
+  </div>
+</div></div></div>

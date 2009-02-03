@@ -1,10 +1,10 @@
-<h1>Uvažanje novih vprašanj</h1>
+<h1>Uvoz novih vprašanj</h1>
 
-<p>Ta funkcija omogoča uvoz vprašanj iz prek obrazca naloženih zunanjih besedilnih datotek ali z izborom ustrezne datoteke, ki je že v področju datotek predmeta.  </p>
+<p>Ta funkcija omogoča uvoz vprašanj prek obrazca naloženih zunanjih besedilnih datotek ali z izborom ustrezne datoteke, ki je že v področju datotek predmeta.</p>
 
 <p><b>Opomba glede kodnih tabel</b></p>
 
-<p>Če vaša datoteka uporablja znake, ki niso ASCII, mora uporabljati kodiranje UTF-8. Morda boste lahko nastavili ali pretvorili v UTF-8 z uporabo vašega priljubljenega urejevalnika, ali obstaja možnost v programsku iz katerega vprašanja izvažate. Če vaš strežnik Moodle teče na PHP 5, bo uvoz datotek zapisanih na osnovi XML-a, obdelan samodejno.</p> 
+<p>Če vaša datoteka uporablja znake, ki niso ASCII, mora uporabljati kodiranje UTF-8. Morda boste lahko nastavili ali pretvorili v UTF-8 z uporabo vašega priljubljenega urejevalnika, ali obstaja možnost v programu iz katerega vprašanja izvažate. Če vaš strežnik Moodle teče na PHP 5, bo uvoz datotek zapisanih na osnovi XML-a, obdelan samodejno.</p> 
 
 <p>Podprta je vrsta zapisov:</p>
 
@@ -28,7 +28,7 @@ Kdaj je bil Ulysses S. Grant rojen?{#1822}
 
 <p><b>Aiken zapis</b></p>
 <ul>
-<p>Zapis Aiken je zelo preprost način ustvarjanja vprašanj z večimi možnimi odgovori, ki uporablja jasen in berljiv zapis. Tu je primer zapisa:</p>
+<p>Zapis Aiken je zelo preprost način ustvarjanja vprašanj z več možnimi odgovori, ki uporablja jasen in berljiv zapis. Tu je primer zapisa:</p>
 <pre>
 Kaj je namen prve pomoči?
 A. Rešiti življenje, preprečiti dodatne poškodbe, ohraniti zdravje
@@ -41,10 +41,9 @@ ANSWER: O
 <p align="right"><a href="help.php?file=formataiken.html&module=quiz">Več informacij o zapisu &quot;Aiken&quot;</a></p>
 </ul>
 
-
 <p><b>Manjkajoča beseda</b></p>
 <ul>
-<p>Ta oblika zapisa podpira samo vprašanja z večimi izbori in vprašanja s kratkimi odgovori, odvisno od števila odgovorov. En odgovor ustvari vprašanje s kratkim odgovorom, dva ali več odgovorov ustvari vprašanje z večimi izbori. Vsak odgovor je ločen s tildo (~) in pravilni odgovor ima predpono znak enakosti (=).   Tu je primer vprašanja z večimi izbori:</p>
+<p>Ta oblika zapisa podpira samo vprašanja z več izbirami in vprašanja s kratkimi odgovori, odvisno od števila odgovorov. En odgovor ustvari vprašanje s kratkim odgovorom, dva ali več odgovorov ustvari vprašanje z več izbirami. Vsak odgovor je ločen s tildo (~) in pravilni odgovor ima predpono znak enakosti (=). Tu je primer vprašanja z več izbirami:</p>
 
 <blockquote>Kakor hitro začnemo kot dojenčki raziskovati dele svojega telesa postanemo študenti {=anatomije in psihologije ~refleksologije ~znanosti ~eksperimenta} in na nek način to ostanemo celo življenje.
 </blockquote>
@@ -57,14 +56,12 @@ ANSWER: O
 <p align="right"><a href="help.php?file=formatmissingword.html&module=quiz">Več informacij o zapisu &quot;Manjkajoče besede&quot;</a></p>
 </ul>
 
-
 <p><b>AON</b></p>
 <ul>
 <p>Ta zapis je enak zapisu manjkajoče besede s to razliko, da se po uvozu vprašanj vsa vprašanja kratkih odgovorov pretvorijo v vprašanja z ujemanjem po štiri hkrati.</p>
-<p>Dodatno se odgovori vprašanj z večimi izbirami naključno premešajo po uvozu.</p>
+<p>Dodatno se odgovori vprašanj z več izbirami naključno premešajo po uvozu.</p>
 <p>Imenuje se po organizaciji, ki je podprla razvoj mnogih možnosti kviza</p>
 </ul>
-
 
 <p><b>Blackboard</b></p>
 <ul>
@@ -78,14 +75,12 @@ ANSWER: O
 <p>Ta modul zna uvažati vprašanja shranjena v izvoznem zapisu programa Blackboard. Ponuja omejeno podporo za različice Blackoard 6 in 7. Zanaša se na funkcije XML, prevedene v vašem PHP-ju. Naložiti morate datoteko ZIP, ki ste jo izvozili iz programa Blackoard.</p>
 </ul>
 
-
 <p><b>WebCT</b></p>
 <ul>
 <p>Ta modul zna uvoziti vprašanja shranjena v besedilni obliki zapisa WebCT.</p>
 
 <p align="right"><a href="help.php?file=formatwebct.html&module=quiz">Več informacij o zapisu &quot;WebCT&quot;</a></p>
 </ul>
-
 
 <p><b>Course Test Manager</b></p>
 <ul>
@@ -94,11 +89,8 @@ ANSWER: O
 <p>V okolju Linux morate vzpostaviti Windows računalnik v istem omrežju kot je podatkovna zbirka Course Test Manager in programsko opremo z imenom ODBC Socket Server, ki uporablja XML za prenos podatkov v Moodle na strežniku Linux.</p>  
 <p>Prosimo, preberite celotno spodnjo datoteko s pomočjo preden uporabite ta razred za uvoz.</p>
 
-
 <p align="right"><a href="help.php?file=formatctm.html&module=quiz">Več informacij o zapisu &quot;CTM&quot;</a></p>
 </ul>
-
-
 
 <p><b>Ugnezdeni odgovori (izpolnjevanje)</b></p>
 <ul>
@@ -124,4 +116,4 @@ ANSWER: O
 </p>
 </ul>
 
-<p>Več zapisov bo še sledilo, vključno z WebCT, IMS QTI in karkoli drugega bodo lahko prispevali uporabniki Moodle! </p>
+<p>Več zapisov bo še sledilo, vključno z IMS QTI in karkoli drugega bodo lahko prispevali uporabniki Moodle! </p>

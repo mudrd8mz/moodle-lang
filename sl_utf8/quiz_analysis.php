@@ -1,30 +1,33 @@
-<?php // $Id:
-      // quiz_analysis.php
-$string['analysis'] = 'Analiza elementa';
+<?PHP // $Id$ 
+      // quiz_analysis.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+
+
+$string['analysis'] = 'Analiza odgovorov';
 $string['analysisdownload'] = 'Prenos analize';
 $string['analysisoptions'] = 'Možnosti analize';
-$string['analysistitle'] = 'Preglednica analize elementov';
+$string['analysistitle'] = 'Preglednica analize odgovorov';
 $string['attemptsall'] = 'vsi poskusi';
-$string['attemptselection'] = 'Poskusi za analizo na uporabnika';
+$string['attemptselection'] = 'Za posameznika analiziraj';
 $string['attemptsfirst'] = 'prvi poskus';
-$string['attemptshighest'] = 'najvišja ocena';
+$string['attemptshighest'] = 'poskus z najvišjo oceno';
 $string['attemptslast'] = 'zadnji poskus';
-$string['dicsindextitle'] = 'Disc.<br />indeks';
-$string['disccoefftitle'] = 'Disc.<br />koefi.';
-$string['downloadooo'] = 'Prenesi v obliki zapisa OpenOffice';
-$string['facilitytitle'] = '%% Pravilno<br />Možnost';
+$string['dicsindextitle'] = 'Razmejitveni<br>indeks';
+$string['disccoefftitle'] = 'Razmejitvena<br>učinkovitost';
+$string['downloadooo'] = 'Prenesi v formatu OpenOffice';
+$string['facilitytitle'] = 'Doseženi %%';
 $string['lowmarkslimit'] = 'Ne analiziraj, če je rezultat nižji od:';
-$string['pagesize'] = 'Vprašanj na stran:';
+$string['pagesize'] = 'Število vprašanj na stran:';
 $string['qcounttitle'] = 'Število vprašanj';
 $string['qidtitle'] = 'V#';
 $string['qnametitle'] = 'Ime vprašanja';
 $string['qtexttitle'] = 'Besedilo vprašanja';
 $string['qtypetitle'] = 'Vrsta vprašanja';
 $string['quizreportdir'] = 'quiz_reports';
-$string['rcounttitle'] = 'Število<br />odgovorov';
-$string['reportanalysis'] = 'Poročilo analize elementa';
+$string['rcounttitle'] = 'Število<br>odgovorov';
+$string['reportanalysis'] = 'Poročilo analize odgovorov';
 $string['responsestitle'] = 'Besedilo odgovora';
-$string['rfractiontitle'] = 'delni<br />odgovor';
+$string['rfractiontitle'] = 'Delni<br>odgovori';
 $string['rpercenttitle'] = 'O.%%';
 $string['stddevtitle'] = 'SO';
+
 ?>
