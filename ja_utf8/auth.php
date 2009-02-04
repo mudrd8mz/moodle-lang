@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['CASform'] = '認証選択';
@@ -305,7 +305,7 @@ $string['changepasswordhelp'] = 'ここでは、あなたのユーザがパス�
 $string['chooseauthmethod'] = '認証方法の選択:';
 $string['createpasswordifneeded'] = '必要に応じてパスワードを作成する';
 $string['enterthenumbersyouhear'] = 'あなたに聞こえる数字を入力してください';
-$string['enterthewordsabove'] = '上記ワードを入力してください';
+$string['enterthewordsabove'] = '上記の言葉を入力してください。';
 $string['errorminpassworddigits'] = 'パスワードには、少なくとも半角 $a 文字の数字を使用する必要があります。';
 $string['errorminpasswordlength'] = 'パスワードには、少なくとも半角 $a 文字使用する必要があります。';
 $string['errorminpasswordlower'] = 'パスワードには、少なくとも半角 $a 文字の小文字を使用する必要があります。';
