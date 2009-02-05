@@ -248,6 +248,7 @@ $string['invalidaccess'] = 'L\'accès à cette page n\'est pas correct';
 $string['invalidaccessparameter'] = 'Paramètre d\'accès non valide';
 $string['invalidaction'] = 'Paramètre d\'action non valide';
 $string['invalidactivityid'] = 'Indentifiant d\'activité non valide';
+$string['invalidadminsettingname'] = 'Réglage d\'administration non valide ($a)';
 $string['invalidargorconf'] = 'Aucun paramètre valide fourni ou configuration serveur défectueuse';
 $string['invalidarguments'] = 'Aucun paramètre valide fourni';
 $string['invalidblockinstance'] = 'Instance de bloc non valide pour $a';
