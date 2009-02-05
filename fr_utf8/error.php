@@ -197,6 +197,7 @@ $string['ddltablenotexist'] = 'La table «&nbsp;$a&nbsp;» n\'existe pas';
 $string['ddlunknownerror'] = 'Erreur inconnue de bibliothèque DDL';
 $string['ddlxmlfileerror'] = 'XML database file errors found';
 $string['destinationcmnotexit'] = 'Le module de cours de destination n\'existe pas';
+$string['detectedbrokenplugin'] = 'Le plugin «&nbsp;$a&nbsp;» est défectueux. Impossible de continuer.';
 $string['dmlreadexception'] = 'Erreur de lecture de la base de données';
 $string['dmlwriteexception'] = 'Erreur d\'écriture vers la base de données';
 $string['downloadedfilecheckfailed'] = 'La vérification du fichier téléchargé à échoué';
