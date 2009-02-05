@@ -248,6 +248,7 @@ $string['invalidaccess'] = 'このページは正しくアクセスされてい�
 $string['invalidaccessparameter'] = '無効なアクセスパラメータです。';
 $string['invalidaction'] = '無効なアクションパラメータです。';
 $string['invalidactivityid'] = '無効な活動IDです。';
+$string['invalidadminsettingname'] = '無効なadmin設定 ($a) です。';
 $string['invalidargorconf'] = '有効な引数が提供されていないか、サーバ設定が正しくありません。';
 $string['invalidarguments'] = '有効な引数が提供されていません。';
 $string['invalidblockinstance'] = '$a のブロックインスタンスが無効です。';
