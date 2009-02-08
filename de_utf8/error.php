@@ -249,6 +249,7 @@ $string['invalidaccess'] = 'Auf diese Seite wurde nicht richtig zugegriffen';
 $string['invalidaccessparameter'] = 'Ungültiger Zugriffsparameter';
 $string['invalidaction'] = 'Ungültiger Aktionsparameter';
 $string['invalidactivityid'] = 'Ungültige Aktivitäten-ID';
+$string['invalidadminsettingname'] = 'Ungültige Admin Einstellungen (§a)';
 $string['invalidargorconf'] = 'Keine gültigen Argumente angegeben oder falsche Server-Konfiguration';
 $string['invalidarguments'] = 'Keine gültigen Argumente angegeben';
 $string['invalidblockinstance'] = 'Ungültige Block-Instanz: $a';

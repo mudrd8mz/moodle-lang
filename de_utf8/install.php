@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // install.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['aborting'] = 'Installation abbrechen';
@@ -61,6 +61,7 @@ $string['databasecreationsettingssub2'] = '<b>Typ:</b> vom Installer festgelegt 
 <b>Nutzer:</b> vom Installer festgelegt auf \"root\"<br />
 <b>Passwort:</b> Ihr Datenbankpasswort<br />
 <b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellennamen';
+$string['databasehead'] = 'Datenbank-Einstellungen';
 $string['databasehost'] = 'Datenbank-Server :';
 $string['databasename'] = 'Datenbank-Name :';
 $string['databasepass'] = 'Datenbank-Passwort :';
@@ -122,15 +123,11 @@ $string['databasesettingssub_postgres7'] = '<b>Typ:</b> PostgreSQL<br />
 <b>Nutzer:</b> Ihr Benutzername für die Datenbank<br />
 <b>Passwort:</b> Ihr Passwort für die Datenbank<br />
 <b>Tabellen-Prefix:</b> Prefix für alle Tabellen (notwendig)';
-$string['databasesettingssub_sqlite3_pdo'] = '<b>Typ:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimentell! (nicht für produktive Server benutzen!!)</strong></b><br />
-<b>Host:</b> Pfad zum Verzeichnis, in dem die Datenbankdatei gespeichert werden soll (vollständiger Pfad); mit localhost oder einem leeren Feld wird dasdas Moodle Datenverzeichnis verwendet<br />
-<b>Name:</b> Datenbankname, z.B. moodle (optional)<br />
-<b>Nutzer:</b> Ihr Benutzername für die Datenbank (optional)<br />
-<b>Passwort:</b> Ihr Passwort für die Datenbank (optional)<br />
-<b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellen<br />
-Der Name der Datenbankdatei wird über den Nutzernamen erkannt, der Datenbankname und das Passwort sind oben angegeben.';
 $string['databasesettingswillbecreated'] = '<b>Hinweis: </b> Das Installationsprogramm wird versuchen, automatisch eine Datenbank anzulegen, sofern diese noch nicht besteht.';
+$string['databasesocket'] = 'Unix Socket';
 $string['databasetype'] = 'Datenbank-Typ :';
+$string['databasetypehead'] = 'Datenbank-Treiber wählen';
+$string['databasetypesub'] = 'Moodle unterstützt mehrere Typen von Datenbank-Servern. Bitte fragen Sie Ihren Server-Administrator, welchen Typ Sie benutzen können.';
 $string['databaseuser'] = 'Datenbank-Nutzer :';
 $string['dataroot'] = 'Daten-Verzeichnis';
 $string['datarooterror'] = 'Das angegebene Datenverzeichnis ist nicht vorhanden und kann nicht angelegt werden. Korrigieren Sie die Pfad-Eingabe oder legen Sie das Verzeichnis manuell an.';
@@ -180,6 +177,7 @@ $string['downloadsuccess'] = 'Sprachpaket erfolgreich heruntergeladen';
 $string['doyouagree'] = 'Stimmen Sie zu ? (ja/nein)';
 $string['environmenthead'] = 'Prüfung der Installationsvoraussetzungen';
 $string['environmentsub'] = 'Es wird geprüft, ob die verschiedenen Komponenten Ihres Systems die Installationsanforderungen erfüllen.';
+$string['environmentsub2'] = 'Jedes Moodle-Release hat Mindestvoraussetzungen bezüglich der PHP-Version und einigen verbindlichen PHP-Extensions. Vor allen Installationen und Aktualisierungen wird eine vollständige Prüfung der Serverausstattung durchgeführt. Bitte fragen Sie Ihren Server-Administrator, wenn Sie mit der Installation einer neuen Version oder mit der Aktivierung von PHP-Extensions nicht weiterkommen.';
 $string['errorsinenvironment'] = 'Fehler bei den Anforderungen!';
 $string['fail'] = 'Fehlgeschlagen';
 $string['fileuploads'] = 'Dateien hochladen';
@@ -246,16 +244,34 @@ $string['mysqlextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfigurie
 $string['mysqli'] = 'Improved MySQL (mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP wurde nicht ordnungsgemäß für die MySQLi-Erweiterung konfiguriert, um mit MySQL zu kommunizieren. Bitte überprüfen Sie die Datei php.ini oder übersetzen Sie PHP neu. Die MySQLi-Erweiterung ist nicht für PHP4 verfügbar.';
 $string['nativemysqli'] = 'Verbessertes MySQL (nativ/mysqli)';
+$string['nativemysqlihelp'] = 'Jetzt müssen Sie die Einstellungen für die Datenbank vornehmen, wo die meisten Moodle-Daten gespeichert werden.
+Die Datenbank wird angelegt, wenn der angegebene Datenbank-Nutzer die dafür nötigen Rechte besitzt. Ein Nutzername und das zugehörige Passwort für den Datenbank-Zugriff müssen bereits existieren. Das Tabellen-Prefix ist optional.';
+$string['nativeoci'] = 'Oracle (native/oci)';
+$string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
+$string['nativepgsqlhelp'] = 'Jetzt müssen Sie die Einstellungen für die Datenbank vornehmen, wo die meisten Moodle-Daten gespeichert werden.
+Die Datenbank muss bereits angelegt sein. Ein Nutzername und das zugehörige Passwort  für den Datenbank-Zugriff müssen bereits existieren. Das Tabellen-Prefix ist verbindlich.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die OCI8-Erweiterung mit Oracle zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
 $string['odbc_mssql'] = 'SQL*Server über ODBC (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die ODBC-Erweiterung mit SQL*Server zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
 $string['pass'] = 'Durchgang';
+$string['paths'] = 'Pfade';
+$string['pathshead'] = 'Pfade bestätigen';
+$string['pathsrodataroot'] = 'Das Verzeichnis dataroot ist schreibgeschützt.';
+$string['pathssubadmindir'] = 'Einige Webserver benutzen /admin als speziellen Link, um auf Einstellungsseiten oder Ähnliches zu verweisen. Unglücklicherweise kollidiert dies mit dem standardmäßigen Verzeichnis für die Moodle-Administration. Sie können dieses Problem beheben, indem Sie das Verzeichnis admin in Ihrer Moodle-Installation umbenennen und den neuen Namen hier eingeben (z.B. <em>moodleadmin</em>). Mit dieser Änderung werden alle Admin-Links korrigiert.';
+$string['pathssubdataroot'] = 'Sie benötigen einen Speicherplatz, wo Moodle hochgeladene Dateien abspeichern kann. Dieses Verzeichnis muss mit den Rechten des Webservers (üblicherweise \'nobody\' oder \'apache\') lesbar und beschreibbar sein. Dieses Verzeichnis sollte allerdings nicht direkt über das Internet erreicht werden können.';
+$string['pathssubdirroot'] = 'Vollständiger Pfad der Moodle-Installation. Bitte ändern Sie diese Einstellung nur bei der Bunutzung symbolischer Links.';
+$string['pathssubwwwroot'] = 'Vollständige Internetadresse für den Zugriff auf Moodle. Es ist nicht möglich, über mehrere unterschiedliche Adressen auf Moodle zuzugreifen. Sollten Sie für Ihre Website mehrere öffentliche Adressen verwenden, so müssen Sie eine Adresse auswählen und für die übrigen Adressen dauerhafte Weiterleitungen einrichten. Falls Ihre Website gleichzeitig aus einem Intranet und aus dem Internet erreichbar ist, so tragen Sie hier die öffentliche Adresse ein. Sorgen Sie in diesem Fall zusätzlich dafür, dass über einen DNS-Eintrag für alle Intranet-Nutzer ebenfalls die öffentliche Adresse nutzbar ist.';
+$string['pathsunsecuredataroot'] = 'Der Speicherort des Verzeichnisses dataroot ist unsicher';
+$string['pathswrongadmindir'] = 'Das Verzeichnis admin existiert nicht';
+$string['pathswrongdirroot'] = 'Falscher Pfad zum Verzeichnis dirroot';
+$string['pdosqlite3'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimentell! (nicht nutzbar in produktiven Umgebungen)</strong></b>';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP wurde nicht richtig konfiguriert, um über die PGSQL-Erweiterung mit PostgreSQL zu kommunizieren. Bitte prüfen Sie die Datei php.ini oder kompilieren Sie PHP neu.';
 $string['php52versionerror'] = 'PHP-Version muss mindestens 5.2.4 sein.';
 $string['php52versionhelp'] = '<p>Moodle benötigt mindestens PHP Version 5.2.4</p>
 <p>Sie nutzen zur Zeit Version $a.</p>
 <p>Ihre PHP-Version muss aktualisiert oder ein anderer Host genutzt werden.</p>';
+$string['phpextension'] = 'PHP-Extension $a';
 $string['phpversion'] = 'PHP-Version';
 $string['phpversionhelp'] = '<p>Moodle erwartet PHP mindestens in der Version 4.3.0/4.4.0 oder 5.1.0 (5.0.x weist eine Reihe bekannter Fehler auf).</p>
 <p>Sie nutzen zur Zeit die Version $a.</p>
@@ -279,7 +295,6 @@ $string['sitenewsitems'] = 'Anzahl neuer Nachrichten :';
 $string['siteshortname'] = 'Kurzname der Website :';
 $string['sitesummary'] = 'Beschreibung der Website :';
 $string['skipdbencodingtest'] = 'Prüfung der Datenbank-Verschlüsselung überspringen';
-$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimentell! (nicht für produktive Server benutzen!!)</strong></b>';
 $string['sqliteextensionisnotpresentinphp'] = 'PHP ist für die Erweiterung SQLite nicht richtig konfiguriert. Bitte prüfen Sie Ihre php.ini oder übersetzen Sie PHP neu.';
 $string['tableprefix'] = 'Tabellen-Prefix :';
 $string['upgradingactivitymodule'] = 'Aktivitäten-Module aktualisieren';
@@ -340,6 +355,14 @@ $string['writetoconfigfilefaild'] = 'Fehler beim Schreiben der Konfigurationsdat
 $string['wwwroot'] = 'Web-Adresse';
 $string['wwwrooterror'] = 'Diese Web-Adresse scheint nicht gültig zu sein. Moodle ist nicht unter dieser Adresse installiert.';
 $string['yourchoice'] = 'Ihre Wahl :';
+$string['databasesettingssub_sqlite3_pdo'] = '<b>Typ:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimentell! (nicht für produktive Server benutzen!!)</strong></b><br />
+<b>Host:</b> Pfad zum Verzeichnis, in dem die Datenbankdatei gespeichert werden soll (vollständiger Pfad); mit localhost oder einem leeren Feld wird dasdas Moodle Datenverzeichnis verwendet<br />
+<b>Name:</b> Datenbankname, z.B. moodle (optional)<br />
+<b>Nutzer:</b> Ihr Benutzername für die Datenbank (optional)<br />
+<b>Passwort:</b> Ihr Passwort für die Datenbank (optional)<br />
+<b>Tabellen-Prefix:</b> optionaler Prefix für alle Tabellen<br />
+Der Name der Datenbankdatei wird über den Nutzernamen erkannt, der Datenbankname und das Passwort sind oben angegeben.'; // ORPHANED
+$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimentell! (nicht für produktive Server benutzen!!)</strong></b>'; // ORPHANED
 $string['phpversionerror'] = 'PHP muss mindestens in der Version 4.3.0 oder 5.1.0 installiert sein (5.0.x weist eine Reihe bekannter Fehler auf).'; // ORPHANED
 
 ?>
