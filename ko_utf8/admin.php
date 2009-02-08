@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090201) (2009012901)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090208) (2009012901)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -386,11 +386,10 @@ $string['enabletrusttext'] = '내용인증 활성화';
 $string['enablewebservices'] = '웹서비스 활성화';
 $string['encoding'] = '엔코딩';
 $string['enrolmultipleusers'] = '이용자 등록';
-$string['environmenmustfixsetting'] = 'PHP 설정을 변경해야만 합니다.';
-$string['environmenshouldfixsetting'] = 'PHP 설정을 변경했어야 합니다.';
 $string['environment'] = '환경';
 $string['environmenterrortodo'] = '이 무들버전을 설치하기 전에 앞에서 발견된 모든 환경설정 문제(오류)를 해결해야 합니다!';
 $string['environmenterrorupgrade'] = '경고: 이 무들판의 갱신을 계속하기 전에 위에 제시된 모든 환경 문제(오류)를 해결해야만 합니다. 이러한 요구사항을 수정하지 않은 채로 판올림을 하게되면 자료를 잃게 되는 등의 문제에 봉착하게 됩니다. 그래도 판올림을 계속 하겠습니까?';
+$string['environmentmustfixsetting'] = 'PHP 설정을 바꾸어야만 함';
 $string['environmentok'] = '서버 환경이 모든 최소한의 요구사항을 충족시킴';
 $string['environmentrecommendcustomcheck'] = '만일 이 검사에 실패한다면 잠재적인 문제를 지니고 있는 것임';
 $string['environmentrecommendinstall'] = '설치하거나 활성화할 것을 권고함';
@@ -399,6 +398,7 @@ $string['environmentrequirecustomcheck'] = '반드시 통과해야 함';
 $string['environmentrequireinstall'] = '설치하거나 활성화해야만 함';
 $string['environmentrequireversion'] = '$a->needed 버전이 요구되는 데, 현재 $a->current 이 구동되고 있음';
 $string['environmentsettingok'] = '필수설정 점검통과';
+$string['environmentshouldfixsetting'] = 'PHP 설정이 변경되어야만 함';
 $string['environmentxmlerror'] = '환경 설정 데이터 불러들이기 오류 ($a->error_code)';
 $string['errordeletingconfig'] = '플러그인 \'$a\' 설정기록 삭제 중 오류 발생';
 $string['errors'] = '오류들';
@@ -876,6 +876,8 @@ $string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없
 $string['xmlrpcrecommended'] = '무들 네트웍이 제대로 작동하려면 추가적인 xmlrpc 확장 설치가 유용합니다.';
 $string['xmlstrictheaders'] = 'XML 정규 헤더';
 $string['ziprequired'] = '더 이상  info-ZIP 이나 PclZip 라이브러리가 사용되지 않으므로 Zip PHP확장자가 필요합니다.';
+$string['environmenmustfixsetting'] = 'PHP 설정을 변경해야만 합니다.'; // ORPHANED
+$string['environmenshouldfixsetting'] = 'PHP 설정을 변경했어야 합니다.'; // ORPHANED
 $string['sitemaxcategorydepth'] = '최대 범주 깊이'; // ORPHANED
 $string['sitemaxcategorydepthhelp'] = '볼 수 있는 하위 범주의 최대 수를 지정'; // ORPHANED
 $string['optionalsubsystems'] = '부가기능 설정'; // ORPHANED
