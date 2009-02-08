@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // forum.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
 
 
 $string['addanewdiscussion'] = 'Pridať novú diskusnú tému';
@@ -8,6 +8,7 @@ $string['addanewtopic'] = 'Pridať novú tému';
 $string['advancedsearch'] = 'Rozšírené vyhľadávanie';
 $string['aggregateavg'] = 'Priemer hodnotení';
 $string['aggregatecount'] = 'Počet hodnotení';
+$string['aggregatecountformat'] = '$a->count (známka: $a->grade)';
 $string['aggregatemax'] = 'Maximálne hodnotenie';
 $string['aggregatemin'] = 'Minimálne hodnotenie';
 $string['aggregatenone'] = 'Žiadne hodnotenia';
@@ -166,6 +167,7 @@ $string['nopostforum'] = 'V tomto fóre nemôžete prispievať';
 $string['noposts'] = 'Bez príspevkov';
 $string['nopostscontaining'] = 'Neboli nájdené žiadne príspevky obsahujúce \'$a\'';
 $string['noquestions'] = 'Do tohto fóra zatiaľ nebola vložená žiadna otázka.';
+$string['noratinggiven'] = 'Hodnotenie nebolo zadané';
 $string['nosubscribers'] = 'V tomto fóre zatiaľ nikto neodoberá nové príspevky emailom';
 $string['nothingnew'] = 'Žiadne nové správy';
 $string['notingroup'] = 'Prepáčte, ale na prehliadanie tohto fóra musíte byť členom skupiny.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // admin.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -393,6 +393,7 @@ $string['frontpagerestore'] = 'Obnova titulnej stránky';
 $string['frontpageroles'] = 'Rola na titulnej stránke';
 $string['frontpagesettings'] = 'Nastavenie titulnej stránky';
 $string['fullnamedisplay'] = 'Formát celého mena';
+$string['gdrecommended'] = 'Rozšírenie GD sa používa na konverziu obrázkov. Ak chýba, niektoré črty nebudú fungovať, napríklad obrázky používateľských profilov.';
 $string['gdversion'] = 'Verzia GD';
 $string['generalsettings'] = 'Všeobecné nastavenia';
 $string['geoipfile'] = 'GeoIP City dátový súbor';
