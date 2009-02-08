@@ -24,7 +24,7 @@ $string['caution'] = '警告';
 $string['checkingphpsettings'] = 'PHP設定の確認';
 $string['chooselanguage'] = '言語を選択してください。';
 $string['chooselanguagehead'] = '言語を選択してください。';
-$string['chooselanguagesub'] = 'インストールのみに使用する言語を選択してください。後に表示される画面で、サイトおよびユーザの言語を選択することができます。';
+$string['chooselanguagesub'] = 'インストールのみに使用する言語を選択してください。この言語は、サイトのデフォルト言語としても使用されます。サイト言語は、後で変更することが可能です。';
 $string['compatibilitysettings'] = 'PHP設定を確認しています ...';
 $string['compatibilitysettingshead'] = 'PHP設定を確認しています ...';
 $string['compatibilitysettingssub'] = 'Moodleを適切に動作させるためには、あなたのサーバがこれらすべてのテストに通る必要があります。';
@@ -59,6 +59,7 @@ $string['databasecreationsettingssub2'] = '<b>タイプ:</b> インストーラ�
 <b>ユーザ名:</b> インストーラーにより「root」に修正されました。<br />
 <b>パスワード:</b> あなたのデータベースパスワードです。<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用される任意の接頭辞です。';
+$string['databasehead'] = 'データベース設定';
 $string['databasehost'] = 'データベースホスト :';
 $string['databasename'] = 'データベース名 :';
 $string['databasepass'] = 'データベースパスワード :';
@@ -121,7 +122,10 @@ $string['databasesettingssub_postgres7'] = '<b>タイプ:</b> PostgreSQL<br />
 <b>パスワード:</b> データベースのパスワード<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (必須)';
 $string['databasesettingswillbecreated'] = '<b>メモ:</b> データベースが存在していない場合、インストーラーはデータベースの自動作成を試みます。';
+$string['databasesocket'] = 'Unixソケット';
 $string['databasetype'] = 'データベースタイプ :';
+$string['databasetypehead'] = 'データベースドライバを選択する';
+$string['databasetypesub'] = 'Moodeでは、いくつかのデータベースサーバのタイプをサポートします。どのタイプを使用するか分からない場合、サーバ管理者に連絡してください。';
 $string['databaseuser'] = 'データベースユーザ :';
 $string['dataroot'] = 'データディレクトリ';
 $string['datarooterror'] = 'あなたが指定した「データディレクトリ」が見つからないか、作成されませんでした。パスを訂正するか、ディレクトリを手動で作成してください。';
@@ -170,6 +174,7 @@ $string['downloadsuccess'] = '言語パックが正常にダウンロードさ�
 $string['doyouagree'] = '同意しますか ? (yes/no):';
 $string['environmenthead'] = 'あなたの環境を確認しています ...';
 $string['environmentsub'] = 'あなたのシステムに関する様々な要素が、システム要件に合致するか確認しています。';
+$string['environmentsub2'] = 'それぞれのMoodleリリースには、PHPバージョンの最小必要条件および多くの必須PHP拡張モジュールがあります。完全な環境チェックは、インストールおよびアップグレードごとに実行されます。新しいPHPバージョンのインストールまたはPHP拡張モジュールの有効化に関して分からない場合、あなたのサーバ管理者に連絡してください。';
 $string['errorsinenvironment'] = '環境エラー!';
 $string['fail'] = '失敗';
 $string['fileuploads'] = 'ファイルアップロード';
@@ -245,16 +250,32 @@ $string['mysqlextensionisnotpresentinphp'] = 'PHPのMySQL拡張モジュール�
 $string['mysqli'] = 'Improved MySQL (mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHPのMySQLi拡張モジュールが適切に設定されていないため、MySQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。MySQLi拡張モジュールは、PHP4では使用できません。';
 $string['nativemysqli'] = 'Improved MySQL (ネイティブ/mysqli)';
+$string['nativemysqlihelp'] = 'あなたは、ほとんどのMoodleデータが保存されるデータベースを設定する必要があります。すでにデータベースユーザに必要なパーミッション、ユーザ名およびパスワードがある場合、データベースが作成されます。テーブル接頭辞は、任意です。';
+$string['nativeoci'] = 'Oracle (ネイティブ/oci)';
+$string['nativepgsql'] = 'PostgreSQL (ネイティブ/pgsql)';
+$string['nativepgsqlhelp'] = 'あなたは、ほとんどのMoodleデータが保存されるデータベースを設定する必要があります。このデータベースは、すでに作成されている必要があります。また、データベースにアクセスするため、ユーザ名およびパスワードも作成されている必要があります。テーブル接頭辞は、任意です。';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHPのOCI8拡張モジュールが適切に設定されていないため、Oracleと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHPのODBC拡張モジュールが適切に設定されていないため、SQL*Serverと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['pass'] = 'パス';
+$string['paths'] = 'パス';
+$string['pathshead'] = 'パスを確認する';
+$string['pathsrodataroot'] = 'datarootディレクトリに書き込み権がありません。';
+$string['pathssubadmindir'] = '極わずかですが、あなたがコントロールパネル等にアクセスするため、特別なURIとして/adminを使用するウェブホストがあります。残念なことに、これはMoodle管理ページの標準的なローケーションと競合してしまいます。ここに新しいディレクトリ名を入力することで、あなたのMoodleのadminディレクトリを修正することができます。例えば、<em>moodleadmin</em>です。これにより、Moodleのadminリンクが修正されます。';
+$string['pathssubdataroot'] = 'あなたには、Moodleがファイルをアップロードすることのできる場所が必要です。このディレクトリは、ウェブサーバユーザ (通常「nobody」または「apache」) から読み込みおよび「書き込み」できる必要があります。しかし、ウェブからは直接アクセスできないようにしてください。';
+$string['pathssubdirroot'] = 'Moodleインストールに関するフルディレクトリパスです。あなたがシンボリックリンクを使用する必要がある場合のみ変更してください。';
+$string['pathssubwwwroot'] = 'Moodleにアクセスすることのできるフルウェブアドレスです。複数アドレスを使用して、Moodleにアクセスすることはできません。あなたのサイトに複数のパブリックアドレスがある場合、このアドレスを除く、すべてのアドレスにパーマネントリダイレクトを設定してください。あなたのサイトにイントラネットおよびインターネットからアクセスできる場合、ここにはパブリックアドレスを入力してください。また、イントラネットユーザもパブリックアドレスを利用できるよう、DNSを設定してください。';
+$string['pathsunsecuredataroot'] = 'dirrootロケーションが安全ではありません。';
+$string['pathswrongadmindir'] = 'adminディレクトリがありません。';
+$string['pathswrongdirroot'] = 'dirrootロケーションが正しくありません。';
+$string['pdosqlite3'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用です! (実稼動サイト用ではありません)</strong></b>';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHPのPGSQL拡張モジュールが適切に設定されていないため、PostgreSQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['php52versionerror'] = '少なくとも5.2.4以上のPHPバージョンを使用してください。';
 $string['php52versionhelp'] = '<p>Moodleでは、少なくとも5.2.4以上のPHPバージョンを必要とします。</p>
 <p>現在、あなたはPHPバージョン $a を使用しています。</p>
 <p>あなたは、PHPをアップグレードするか、新しいバージョンのPHPを使用しているホストに移動する必要があります!</p>';
+$string['phpextension'] = '$a PHP拡張モジュール';
 $string['phpversion'] = 'PHPバージョン';
 $string['phpversionhelp'] = '<p>Moodleには、少なくとも 4.3.0 または 5.1.0 のPHPバージョンが必要です (5.0.x には既知の多数の問題があります)。</p>
 <p>現在、バージョン $a が動作しています。</p>
