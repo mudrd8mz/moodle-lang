@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -300,7 +300,7 @@ $string['coursehelpformat'] = 'このフォーマットでコースメインペ�
 $string['coursehelphiddensections'] = 'コース内の非表示セクションを学生に対して、どのように表示するか設定します。';
 $string['coursehelpmaximumupload'] = 'このコースで学生がアップロードできる最大サイズを定義します。サイト全体の設定に制限されます。';
 $string['coursehelpmetacourse'] = 'コースをメタコースに設定します。メタコースは、「子」コースから受講登録情報 (および他に割り当てられたロール) を取得します。';
-$string['coursehelpnewsitemsnumber'] = 'コースホームページに表示する最新ニュースアイテム数です。ニュースボックスは、右側に表示されます <br/>ゼロは、ニュースボックスが表示されないことを意味します)。';
+$string['coursehelpnewsitemsnumber'] = 'コースホームページに表示する最新ニュースアイテム数です。ニュースボックスは、右側に表示されます <br />ゼロは、ニュースボックスが表示されないことを意味します)。';
 $string['coursehelpnotify'] = '利用有効期間が設定された場合、ここでは、学生がコースから受講登録解除される前に、教師が通知メールを受信するかどうか設定します。';
 $string['coursehelpnumberweeks'] = 'コースメインページに表示される週/トピックの数です。';
 $string['coursehelpshowgrades'] = '評定表の表示を有効にします。個々の活動に関する、評定表の表示を抑制するものではありません。';

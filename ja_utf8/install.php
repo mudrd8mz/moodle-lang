@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20081128) (2008113001)
+      // install.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['aborting'] = 'インストール異常終了';
 $string['admindirerror'] = '指定されたadminディレクトリが正しくありません。';
 $string['admindirname'] = 'Adminディレクトリ';
-$string['admindirsetting'] = 'まれに、コントロールパネルまたはその他の管理ツールにアクセスするためのURIとして/adminディレクトリを使用しているウェブホストがあります。残念ながら、これはMoodle管理ページの標準的なロケーションと衝突します。インストールするときにadminディレクトリをリネームすることが可能です。ここに新しいディレクトリ名を入力してください。例: <br/> <br /><b>moodleadmin</b><br /> <br />
+$string['admindirsetting'] = 'まれに、コントロールパネルまたはその他の管理ツールにアクセスするためのURIとして/adminディレクトリを使用しているウェブホストがあります。残念ながら、これはMoodle管理ページの標準的なロケーションと衝突します。インストールするときにadminディレクトリをリネームすることが可能です。ここに新しいディレクトリ名を入力してください。例: <br /> <br /><b>moodleadmin</b><br /> <br />
 これはMoodleのadminリンクを変更します。';
 $string['admindirsettinghead'] = '管理ディレクトリの設定中 ...';
 $string['admindirsettingsub'] = 'まれなケースですが /admin をコントロールパネルまたはその他のページにアクセスするための特別なURIとして使用しているウェブホストがあります。残念ですが、これは標準的なMoodle管理ページのロケーションと衝突します。あなたのインストールに関するadminディレクトリをリネームすることで、この衝突を回避できます。例えば: <br /> <br /><b>moodleadmin</b><br /> <br />
@@ -62,7 +62,7 @@ $string['databasecreationsettingssub2'] = '<b>タイプ:</b> インストーラ�
 $string['databasehost'] = 'データベースホスト :';
 $string['databasename'] = 'データベース名 :';
 $string['databasepass'] = 'データベースパスワード :';
-$string['databasesettings'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードとともにすでに作成されている必要があります。<br/>
+$string['databasesettings'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードとともにすでに作成されている必要があります。<br />
 <br /> <br />
 <b>タイプ:</b> mysql または postgres7<br />
 <b>ホスト:</b> 例 localhost または db.isp.com<br />
@@ -120,12 +120,6 @@ $string['databasesettingssub_postgres7'] = '<b>タイプ:</b> PostgreSQL<br />
 <b>ユーザ名:</b> データベースのユーザ名<br />
 <b>パスワード:</b> データベースのパスワード<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (必須)';
-$string['databasesettingssub_sqlite3_pdo'] = '<b>タイプ:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用! (実稼動サイトには使用しないでください。)</strong></b><br />
-<b>ホスト:</b> データベースファイルが保存されるディレクトリのパス (フルパス) 例 localhost または 空白 (Moodleデータディレクトリを使用する場合)<br />
-<b>データベース名:</b> 例 moodle (任意)<br />
-<b>ユーザ名:</b> データベースのユーザ名 (任意)<br />
-<b>パスワード:</b> データベースのパスワード (任意)<br />
-<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (任意)<br />データベースファイル名は、上記ユーザ名、データベース名、パスワードにより決定されます。';
 $string['databasesettingswillbecreated'] = '<b>メモ:</b> データベースが存在していない場合、インストーラーはデータベースの自動作成を試みます。';
 $string['databasetype'] = 'データベースタイプ :';
 $string['databaseuser'] = 'データベースユーザ :';
@@ -284,7 +278,6 @@ $string['sitenewsitems'] = 'ニュースアイテムの表示件数 :';
 $string['siteshortname'] = 'サイト省略名 :';
 $string['sitesummary'] = 'フロントページの説明 :';
 $string['skipdbencodingtest'] = 'DBエンコーディングテストをスキップ';
-$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用! (実稼動サイトには使用しないでください。)</strong></b>';
 $string['sqliteextensionisnotpresentinphp'] = 'PHPのSQLite拡張モジュールが適切に設定されていません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['tableprefix'] = 'テーブル接頭辞 :';
 $string['upgradingactivitymodule'] = '活動モジュールのアップグレード';
@@ -342,6 +335,13 @@ $string['writetoconfigfilefaild'] = 'エラー: config.phpファイルの書き�
 $string['wwwroot'] = 'ウェブアドレス';
 $string['wwwrooterror'] = '「ウェブアドレス」が正しくありません - インストール済みMoodleはそこに表示されません。下記の値はリセットされました。';
 $string['yourchoice'] = 'あなたの選択 :';
+$string['databasesettingssub_sqlite3_pdo'] = '<b>タイプ:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用! (実稼動サイトには使用しないでください。)</strong></b><br />
+<b>ホスト:</b> データベースファイルが保存されるディレクトリのパス (フルパス) 例 localhost または 空白 (Moodleデータディレクトリを使用する場合)<br />
+<b>データベース名:</b> 例 moodle (任意)<br />
+<b>ユーザ名:</b> データベースのユーザ名 (任意)<br />
+<b>パスワード:</b> データベースのパスワード (任意)<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (任意)<br />データベースファイル名は、上記ユーザ名、データベース名、パスワードにより決定されます。'; //TBD
+$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用! (実稼動サイトには使用しないでください。)</strong></b>'; //TBD
 $string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください (5.0.x には既知の多数の問題があります)。'; //TBD
 $string['unsafedirname'] = 'エラー: ディレクトリ名に安全でない文字が含まれています。有効な文字は、「a-zA-Z0-9_」です。'; //TBD
 

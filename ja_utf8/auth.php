@@ -342,7 +342,7 @@ $string['selfregistration'] = '自己登録';
 $string['selfregistration_help'] = '「Eメールによる自己登録」のような認証プラグインが選択された場合、潜在的なユーザに対して、自分自身での登録およびユーザアカウント作成を許可します。この場合、フォーラム投稿、ブログエントリ等でスパムを発信するスパム発信者に対して、アカウントを作成させてしまうことになります。このリスクを避けるには、自己登録を無効にするか、「許可されたメールアドレスのドメイン」設定で使用できるメールアドレスを制限してください。';
 $string['sha1'] = 'SHA-1暗号化';
 $string['shib_no_attributes_error'] = 'あなたはShibbolethによりユーザ認証したようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているサービスプロバイダに対して必要な属性 ($a) をアイデンティティ・プロバイダが発行しているか確認、またはこのサーバの管理者に連絡してください。';
-$string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleが必要としているようです。属性は次のとおりです: $a<br/>このサーバの管理者またはアイデンティティ・プロバイダにご連絡ください。';
+$string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleが必要としているようです。属性は次のとおりです: $a<br />このサーバの管理者またはアイデンティティ・プロバイダにご連絡ください。';
 $string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関する更なる情報は、<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。';
 $string['showguestlogin'] = 'あなたは、ログインページのゲストログインボタンを表示または非表示にできます。';
 $string['stdchangepassword'] = '標準パスワード変更ページを使用する';
