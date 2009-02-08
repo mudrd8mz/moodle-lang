@@ -275,6 +275,14 @@ $string['auth_shib_instructions'] = 'Utilisez la <a href=\"$a\">connexion Shibbo
 $string['auth_shib_no_organizations_warning'] = 'Si vous voulez utiliser le service intégré WAYF, vous devez fournir une liste des identifiants (entityIDs) Fournisseurs d\'Identité, de leurs noms et optionnellement d\'un initiateur de session, séparés par des virgules (CSV).';
 $string['auth_shib_only_description'] = 'Cocher cette option pour imposer l\'authentification Shibboleth';
 $string['auth_shib_only'] = 'Seulement Shibboleth';
+$string['auth_shib_integrated_wayf'] = 'Service Moodle WAYF';
+$string['auth_shib_integrated_wayf_description'] = 'Si vous cochez cette option, Moodle utilisera son propre service WAYF au lieu de celui configuré pour Shibboleth. Moodle affichera sur cette page de connexion alternative un menu déroulant dans lequel l\'utilisateur devra choisir son fournisseur d\'identité.';
+$string['auth_shib_idp_list'] = 'Fournisseurs d\'identité';
+$string['auth_shib_idp_list_description'] = 'Veuillez fournir une liste des entityIDs des fournisseurs d\'identité parmi lesquels l\'utilisateur devra choisir sur la page de connexion.<br />Sur chaque ligne doit être indiqués l\'identifiant entityID du fournisseur d\'identité (voir le fichier de métadonnées Shibboleth) et son nom, séparés par une virgule.<br />Vous pouvez également ajouter comme troisième paramètre l\'emplacement d\'un initiateur de session Shibboleth devant être utilisé au cas où votre installation de Moodle installation fait partie d\'une fédération.';
+$string['auth_shib_logout_url'] = 'URL du gestionnaire de déconnexion du fournisseur de service Shibboleth';
+$string['auth_shib_logout_url_description'] = 'Indiquez l\'URL du gestionnaire de déconnexion du fournisseur de service Shibboleth. Par exemple, <tt>/Shibboleth.sso/Logout</tt>';
+$string['auth_shib_auth_method'] = 'Nom de la méthode d\'authentification';
+$string['auth_shib_auth_method_description'] = 'Indiquez un nom familier pour vos utilisateurs pour la méthode d\'authentification Shibboleth. Ceci peut être le nom de votre fédération Shibboleth, par exemple <tt>SWITCHaai Login</tt> ou <tt>InCommon Login</tt>.';
 $string['auth_shib_username_description'] = 'Nom de la variable d\'environnement du serveur web Shibboleth à utiliser comme nom d\'utilisateur Moodle';
 $string['auth_shibboleth_contact_administrator'] = 'Si vous n\'êtes pas associé avec les organisations mentionnées et avez besoin d\'accéder à un cours sur ce serveur, veuillez contacter';
 $string['auth_shibboleth_errormsg'] = 'Veuillez choisir l\'organisation dont vous êtes membre';
