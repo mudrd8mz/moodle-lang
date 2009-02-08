@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
 $string['accesCAS'] = 'CAS-Nutzer/innen';
 $string['accesNOCAS'] = 'Weitere Nutzer/innen';
 $string['actauthhdr'] = 'Aktive Plugins zur Authentifizierung';
-$string['alternatelogin'] = 'Bei der Eingabe einer URL wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button) auf <strong>\'$a\'</strong> enthalten, außerdem Eingabefelder für den <strong> Anmeldenamen </strong> und das <strong> Passwort </strong>.<br />Seien Sie sorgfältig bei der Eingabe der URL. Mit einer falschen URL schließen Sie sich selber vom Zugriff zur Seite aus.<br />Lassen Sie das Feld leer, um die Standard-Anmeldeseite zu verwenden.';
+$string['alternatelogin'] = 'Bei der Eingabe einer URL wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button) auf <strong>\'$a\'</strong> enthalten, außerdem Eingabefelder für den <strong> Anmeldenamen </strong> und das <strong> Passwort </strong>.<br />Seien Sie sehr sorgfältig bei der Eingabe der URL, denn mit einer falschen URL schließen Sie sich selber vom Zugriff zur Website aus.<br />Lassen Sie das Feld leer, um die standardmäßige Anmeldeseite zu verwenden.';
 $string['alternateloginurl'] = 'Alternative Login-URL';
 $string['auth_cas_auth_user_create'] = 'Nutzer/innen extern anlegen';
 $string['auth_cas_baseuri'] = 'URI des Servers (kein Eintrag, falls es keine baseUri gibt)<br />z.B., wenn der CAS Server an host.domaine.fr/CAS/ dann<br />cas_baseuri = CAS/';
@@ -294,8 +294,8 @@ $string['auth_sync_script'] = 'Cron-Synchronisierungsskript';
 $string['auth_updatelocal'] = 'Update lokaler Daten';
 $string['auth_updatelocal_expl'] = '<p><b>Update lokaler Daten:</b> Wenn dieses Feld aktiviert wird, wird das Feld (aus externer Quelle (external auth)) jedes Mal aktualisiert wenn der Teilnehmer sich einloggt oder eine Nutzersynchronisation erfolgt. Dateneinträge, die lokal aktualisiert werden, sollten geschützt werden.</p>';
 $string['auth_updateremote'] = 'Update externer Daten';
-$string['auth_updateremote_expl'] = '<p><b>Update externer Daten:</b> Wenn aktiviert wird die externe Authentifizierung aktualisiert wennn der Nutzerdatzensatz aktualisiert wird. Felder sollten offen bleiben, um Dateneinträge zuzulassen.</p>';
-$string['auth_updateremote_ldap'] = '<p><b>Anmerkung:</b> Das Update externer LDAP-Daten erfordert die Einstellung binddn und bindpw für einen Bind-user mit Schreibrechten für alle Nutzerdatensätze. It currently does not preserve multi-valued attributes, and will remove extra values on update. </p>';
+$string['auth_updateremote_expl'] = '<p><b>Update externer Daten:</b> Wenn diese Einstellung aktiviert ist, dann wird die externe Authentifizierung aktualisiert, sobald der Nutzerdatzensatz aktualisiert wird. Die Felder sollten bearbeitbar bleiben, um Dateneinträge zuzulassen.</p>';
+$string['auth_updateremote_ldap'] = '<p><b>Anmerkung:</b> Das Update externer LDAP-Daten erfordert die Einstellung binddn und bindpw für einen Bind-Nutzer mit Schreibrechten für alle Nutzerdatensätze. Aktuell werden mehrfach gesetzte Eigenschaften nicht unterstützt und die zusätzlichen Werte bei einem Update entfernt.</p>';
 $string['auth_user_create'] = 'Nutzer-Erstellung aktivieren';
 $string['auth_user_creation'] = 'Neue (anonyme) Nutzer können Nutzer-Accounts erstellen außerhalb der Authentifizierungsquelle und per E-Mail bestätigen. Sofern Sie dies aktivieren, achten Sie darauf, ebenso modulspezifische Optionen für die Modulerstellung zu konfigurieren.';
 $string['auth_usernameexists'] = 'Der ausgewählte Anwendername existiert bereits - bitte wählen Sie einen anderen.';
