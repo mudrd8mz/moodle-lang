@@ -31,6 +31,7 @@ $string['noguestchoose'] = 'Désolé, les invités ne peuvent pas participer aux
 $string['noresultsviewable'] = 'Les résultats ne sont actuellement pas visibles.';
 $string['notanswered'] = 'Pas encore répondu';
 $string['notopenyet'] = 'Désolé, cette activité ne sera disponible que le $a';
+$string['option'] = 'Option';
 $string['privacy'] = 'Confidentialité des résultats';
 $string['publish'] = 'Publication des résultats';
 $string['publishafteranswer'] = 'Afficher les résultats aux étudiants après leur réponse';
