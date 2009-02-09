@@ -14,6 +14,7 @@ $string['choiceclose'] = 'Jusqu\'au';
 $string['choicefull'] = 'Ce sondage est complet&nbsp;: il n\'y a plus de réponse disponible.';
 $string['choicename'] = 'Nom du sondage';
 $string['choiceopen'] = 'Ouvert le';
+$string['choicesaved'] = 'Votre sondage a été enregistré';
 $string['choicetext'] = 'Texte de la question';
 $string['displayhorizontal'] = 'Afficher horizontalement';
 $string['displaymode'] = 'Mode d\'affichage';
