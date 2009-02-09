@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20081128) (2008112900)
+      // choice.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['addmorechoices'] = '選択肢の追加';
@@ -16,6 +16,7 @@ $string['choiceclose'] = '終了日時';
 $string['choicefull'] = 'この投票は投票可能数の上限に達しているため、投票できません。';
 $string['choicename'] = '投票名';
 $string['choiceopen'] = '開始日時';
+$string['choicesaved'] = 'あなたの投票が保存されました。';
 $string['choicetext'] = '説明文';
 $string['displayhorizontal'] = '水平に表示する';
 $string['displaymode'] = '表示モード';
@@ -33,6 +34,7 @@ $string['noguestchoose'] = '申し訳ございません、ゲストは投票で�
 $string['noresultsviewable'] = '現在、投票結果は閲覧できません。';
 $string['notanswered'] = '未投票';
 $string['notopenyet'] = '申し訳ございません、この活動は $a まで利用することができません。';
+$string['option'] = 'オプション';
 $string['privacy'] = '投票結果のプライバシー';
 $string['publish'] = '投票結果の公開';
 $string['publishafteranswer'] = '投票した後、学生に投票結果を表示する';
