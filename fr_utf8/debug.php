@@ -23,7 +23,7 @@ $string['dbnotsupport'] = 'Erreur&nbsp;: votre base de données ($a) n\'est pas 
 $string['dbnotupdate'] = 'Erreur de base de données - Modification impossible ($a)';
 $string['doesnotworkwitholdversion'] = 'Ce script ne fonctionne pas avec cette ancienne version de Moodle';
 $string['erroroccur'] = 'Une erreur est survenue durant cette procédure';
-$string['fixsetting'] = 'Veuillez corriger vos réglages dans le fichier config.php. <p>Vous avez&nbsp;:</p> <p>\$CFG->dirroot = \"$a->current\";</p> <p>alors qu\'il devrait y avoir</p> <p>\$CFG->dirroot = \"$a->found\"</p>';
+$string['fixsetting'] = 'Veuillez corriger ces réglages dans votre fichier config.php. <p>Il y est indiqué</p> <p>\$CFG->dirroot = \'$a->current\';</p> <p>alors qu\'il devrait y avoir</p> <p>\$CFG->dirroot = \'$a->found\';</p>';
 $string['invalidarraysize'] = 'Taille incorrecte des tableaux dans les paramètres de $a';
 $string['invalideventdata'] = 'Données d\'événement incorrecte&nbsp;: $a';
 $string['missingconfigversion'] = 'La table Config ne contient pas la version. Impossible de continuer.';
