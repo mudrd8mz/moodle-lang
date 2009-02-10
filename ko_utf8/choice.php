@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20080523) (2008051202)
+      // choice.php - created with Moodle 2.0 dev (Build: 20090209) (2009012901)
 
 
 $string['addmorechoices'] = '선택사항을 더 추가하시오';
@@ -16,6 +16,7 @@ $string['choiceclose'] = '까지';
 $string['choicefull'] = '더 이상 이 항목을 선택할 수 없습니다.';
 $string['choicename'] = '설문 명칭';
 $string['choiceopen'] = '부터';
+$string['choicesaved'] = '저장됨';
 $string['choicetext'] = '설문 내용';
 $string['displayhorizontal'] = '수평으로 배치';
 $string['displaymode'] = '화면 배치';
@@ -33,6 +34,7 @@ $string['noguestchoose'] = '죄송합니다. 손님계정으로는 설문에 응
 $string['noresultsviewable'] = '지금은 결과를 볼 수 없습니다.';
 $string['notanswered'] = '아직 응답하지 않았습니다';
 $string['notopenyet'] = '죄송합니다만, $a 까지는 이용할 수 없습니다.';
+$string['option'] = '선택사항';
 $string['privacy'] = '결과의 정보보호';
 $string['publish'] = '결과 공개';
 $string['publishafteranswer'] = '응답한 학생들에게만 결과 공개';
