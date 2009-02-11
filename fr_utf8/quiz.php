@@ -533,6 +533,7 @@ $string['quizcloses'] = 'Test est fermé';
 $string['quizcloseson'] = 'Ce test sera fermé le $a';
 $string['quizisclosed'] = 'Ce test est fermé';
 $string['quizisopen'] = 'Ce test est ouvert';
+$string['quizisopenwillclose'] = 'Test ouvert (fermera le $a)';
 $string['quiznavigation'] = 'Navigation du test';
 $string['quiznotavailable'] = 'Ce test ne sera pas disponible avant le $a';
 $string['quizopen'] = 'Ouvrir ce test';
