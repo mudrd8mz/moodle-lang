@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20090208) (2009012901)
+      // install.php - created with Moodle 2.0 dev (Build: 20090212) (2009012901)
 
 
 $string['aborting'] = '설치 취소';
@@ -252,8 +252,10 @@ $string['odbc_mssql'] = 'ODBC를 통한 SQL*Server (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'ODBC 익스텐션으로 PHP가 SQL*서버와 통신하도록 적절히 설정되지 않았습니다. php.ini 파일을 점검하거나 PHP를 다시 컴파일 하십시오.';
 $string['pass'] = '통과';
 $string['paths'] = '경로';
+$string['pathserrcreatedataroot'] = '설치 스크립트가 자료 디렉토리 ($a->dataroot) 를 생성할 수 없습니다.';
 $string['pathshead'] = '경로 확인';
 $string['pathsrodataroot'] = 'Dataroot 디렉토리의 쓰기허가권이 없습니다.';
+$string['pathsroparentdataroot'] = '상위 경로 ($a->parent) 에 쓰기허가권이 없습니다. 설치 스크립트가 자료 디렉토리 ($a->dataroot) 를 생성할 수 없습니다.';
 $string['pathssubadmindir'] = '간혹 어떤 웹호스트 업체는 제어판 등을 제공하는 특별한 URL으로서 /admin을 사용합니다. 불행하게도 이것은 무들 관리페이지를 위한 표준 위치와 충돌을 일으킵니다. 설치과정에서 관리 디렉토리의 이름을 바꿈으로서 이 문제를 고칠수 있는 데, 다음의 예와 같이 새이름을 여기에 넣으면 됩니다. 예: <em>moodleadmin</em> 이렇게 하면 무들에서 관리자 링크문제가 해결됩니다.';
 $string['pathssubdataroot'] = '무들로 업로드된 파일을 저장할 수 있는 장소가 필요합니다. 이 디렉토리는 웹 서버의 사용자(보통 \"none\" 또는 \"apache\" )에 의해서 \'읽고쓰기 가능\' 권한을 보유하여야 합니다. 그러나 직접적으로 웹을 경유해서 접근할 수 있어서는 안됩니다.';
 $string['pathssubdirroot'] = '무들 설치를 위한 완전한 디렉토리 경로. 심볼릭 링크를 사용하기 위해 꼭 필요한 경우 변경';

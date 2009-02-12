@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090208) (2009012901)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090212) (2009012901)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -693,7 +693,7 @@ $string['rcache'] = '기록 캐쉬';
 $string['rcachettl'] = '기록 캐쉬 TTL';
 $string['recaptchaprivatekey'] = 'ReCAPTCHA 비밀키';
 $string['recaptchapublickey'] = 'ReCAPTCHA 공개키';
-$string['registration'] = '시스템등록';
+$string['registration'] = '사이트등록';
 $string['releasenoteslink'] = '무들 버전에 대한 정보를 얻기 위해서는 온라인 <a target=\"_new\" href=\"$a\">릴리즈 노트</a> 를 보십시요.';
 $string['remotelangnotavailable'] = '무들이 download.moodle.org에 접속하지 못했기 때문에 언어팩을 자동으로 설치하지 못하였습니다. 수동으로 아래에 제시된 목록에서 적절한 zip파일을 내려받아 여러분의 $a 디랙토리에 풀어넣기 바랍니다.';
 $string['renameerrors'] = '이름변경 오류';

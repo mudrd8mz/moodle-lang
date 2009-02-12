@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090115) (2009011400)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090212) (2009012901)
 
 
 $string['1day'] = '하루';
@@ -531,6 +531,7 @@ $string['quizcloses'] = '퀴즈그만하기';
 $string['quizcloseson'] = '$a 에 퀴즈가 종료될 예정임';
 $string['quizisclosed'] = '본 퀴즈는 ($a) 에 닫힘';
 $string['quizisopen'] = '본 퀴즈는 ($a) 에 공개됨';
+$string['quizisopenwillclose'] = '퀴즈시작($a 에 종료)';
 $string['quiznavigation'] = '퀴즈 진행';
 $string['quiznotavailable'] = '$a 까지는 퀴즈를 이용할 수 없음';
 $string['quizopen'] = '퀴즈시작';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090201) (2009012901)
+      // error.php - created with Moodle 2.0 dev (Build: 20090212) (2009012901)
 
 
 $string['TODO'] = '실행목록';
@@ -248,6 +248,7 @@ $string['invalidaccess'] = '본 화면은 정상적으로 접속되지 않음';
 $string['invalidaccessparameter'] = '유효하지 않은 접속 매개 변수';
 $string['invalidaction'] = '유효하지 않은 작동 매개 변수';
 $string['invalidactivityid'] = '잘못된 활동 ID';
+$string['invalidadminsettingname'] = '잘못된 관리 설정 ($a)';
 $string['invalidargorconf'] = '적절한 인수가 제공되지 않았거나 서버 설정이 잘못 되었음';
 $string['invalidarguments'] = '적절한 인수가 제공되지 않음';
 $string['invalidblockinstance'] = '$a 에 대한 잘못된 블록 인스턴스';
