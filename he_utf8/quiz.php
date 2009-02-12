@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+      // quiz.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['1day'] = 'יום 1';
@@ -97,6 +97,7 @@ $string['categorynamecantbeblank'] = 'אסור ששם הקטגוריה יהיה 
 $string['categorynoedit'] = 'אין לך הרשאות עריכה בקטגוריה \'$a\'.';
 $string['categoryupdated'] = 'הקטגוריה עודכנה בהצלחה';
 $string['changessaved'] = 'נשמרו השינויים במתן הציונים.';
+$string['changessavedwitherrors'] = 'כמה שגיאות התרחשו כאשר נשמרו שינויי מתן הציונים.';
 $string['checkanswer'] = 'בדוק';
 $string['choice'] = 'בחירה';
 $string['choices'] = 'אפשרויות זמינות';

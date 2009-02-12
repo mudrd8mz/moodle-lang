@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9 Beta + (2007081600)
+      // qtype_multichoice.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addingmultichoice'] = 'הוספת שאלה מסוג בחירה מרובה';
@@ -7,7 +7,7 @@ $string['addmorechoiceblanks'] = 'מרווחים עבור {no} בחירות נו
 $string['answerhowmany'] = 'תשובה אחת או תשובות מרובות?';
 $string['answernumbering'] = 'למספר את האפשרויות?';
 $string['answernumbering123'] = '1, 2, 3, ...';
-$string['answernumberingABC'] = 'A, B, C, ...';
+$string['answernumberingABCD'] = 'A, B, C,...';
 $string['answernumberingabc'] = 'a, b, c, ...';
 $string['answernumberingnone'] = 'ללא מספור';
 $string['answersingleno'] = 'ניתן לענות תשובות מרובות';
@@ -32,5 +32,6 @@ $string['overallpartiallycorrectfeedback'] = 'משוב על כל תשובה נכ
 $string['partiallycorrectfeedback'] = 'עבור כל תשובה נכונה חלקית';
 $string['shuffleanswers'] = 'ערבב את התשובות';
 $string['singleanswer'] = 'בחר בתשובה אחת.';
+$string['answernumberingABC'] = 'A, B, C, ...'; // ORPHANED
 
 ?>

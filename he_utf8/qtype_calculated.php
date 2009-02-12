@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8 + (2007021503)
+      // qtype_calculated.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addmoreanswerblanks'] = 'הוסף מרוח נוסף לתשובה.';
@@ -23,6 +23,7 @@ $string['nodataset'] = 'כלום - זהו איננו תו כללי';
 $string['nosharedwildcard'] = 'בקטגוריה זו אין תווים כלליים משותפים';
 $string['possiblehdr'] = 'תווים כללים אפשריים נמצאים רק בטקסט של השאלה';
 $string['tolerance'] = 'מרווח סובלנות &plusmn;';
+$string['trueanswerinsidelimits'] = 'תשובה נכונה: $a->correct בטווח ערכי אמת $a->true';
 $string['updatecategory'] = 'עדכן את הקטגוריה';
 $string['usedinquestion'] = 'משמש בשאלה';
 $string['youmustenteramultiplierhere'] = 'כאן חובה עלייך להכניס מכפיל';

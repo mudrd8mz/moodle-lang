@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9 + (Build: 20080402) (2007101509)
+      // role.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
 $string['allow'] = 'אפשר';
 $string['allowassign'] = 'אפשר מתן תפקיד';
 $string['allowoverride'] = 'אפשר עקיפת תפקיד';
+$string['allsiteusers'] = 'כל משתמשי האתר';
 $string['assignglobalroles'] = 'מנה תפקידים חובקי-כל';
 $string['assignroles'] = 'מנה תפקידים';
 $string['assignrolesin'] = 'הקצה תפקידים ב $a';
@@ -26,6 +27,9 @@ $string['category:update'] = 'עדכן קטגוריות';
 $string['category:visibility'] = 'ראה קטגוריות מוסתרות';
 $string['course:activityvisibility'] = 'הסתר או הראה פעילויות';
 $string['course:bulkmessaging'] = 'שלח הודעה לאנשים רבים';
+$string['course:changefullname'] = 'שנה את השם המלא של הקורס';
+$string['course:changeidnumber'] = 'שנה את מספר הזיהוי של הקורס';
+$string['course:changeshortname'] = 'שנה את השם המקוצר של הקורס';
 $string['course:create'] = 'צור קורסים';
 $string['course:delete'] = 'מחק קורסים';
 $string['course:manageactivities'] = 'נהל פעילויות';
@@ -129,6 +133,7 @@ $string['risks'] = 'סיכונים';
 $string['role:assign'] = 'מנה תפקידים למשתמשים';
 $string['role:manage'] = 'צור ונהל תפקידים';
 $string['role:override'] = 'עקוף את הרשאות המשתמשים';
+$string['role:safeoverride'] = 'עקוף הרשאות מוגנות עבור אחרים';
 $string['role:switchroles'] = 'החלף לתפקידים אחרים';
 $string['role:unassignself'] = 'בטל אותי ממינוי מכל תפקידי';
 $string['role:viewhiddenassigns'] = 'ראה את מינוי התפקידים המוסתרים';
@@ -136,6 +141,7 @@ $string['roleassignments'] = 'מינוי התפקידים';
 $string['roles'] = 'תפקידים';
 $string['roletoassign'] = 'תפקיד שיש למנות אליו';
 $string['roletooverride'] = 'תפקיד שיש לעקוף אותו';
+$string['safeoverridenotice'] = 'הערה: יכולות עם סיכונים גבוהים נעולים מיכוון שאתה רשאי לעקוף רק יכולות מוגנות.';
 $string['selectrole'] = 'בחר בתפקיד';
 $string['showallroles'] = 'הראה את כל התפקידים';
 $string['site:accessallgroups'] = 'גש לכל הקבוצות';
@@ -176,6 +182,7 @@ $string['user:viewhiddendetails'] = 'ראה פרטי משתמשים מוסתרי
 $string['user:viewuseractivitiesreport'] = 'ראה את דוחות פעילות המשתמשים';
 $string['user:viewusergrades'] = 'ראה את ציוני המשתמשים';
 $string['userhashiddenassignments'] = 'למשתמש זה תפקיד מוסתר אחד או יותר בקורס זה';
+$string['userswithrole'] = 'כל המשתמשים עם תפקיד';
 $string['viewrole'] = 'ראה את פרטי התפקיד';
 $string['xuserswiththerole'] = 'משתמשים שממונים לתפקיד \"$a->role\": $a->number';
 $string['question:export'] = 'ייצא שאלות'; // ORPHANED

@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.8 + (2007021503)
+      // auth.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['CASform'] = 'בחירת אימות';
 $string['accesCAS'] = 'משתמשי CAS';
 $string['accesNOCAS'] = 'משתמשים אחרים';
+$string['actauthhdr'] = 'התקני תקע מאומתים אקטיבית';
 $string['alternatelogin'] = 'אם תכניסו כאן כתובת URL, היא תשמש כעמוד ההתחברות לאתר שלכם. על עמוד זה להכיל טופס בו תכונת הבעלות מכוונת ל <strong>\'$a\'</strong> ושדות חזרה <strong>שם משתמש</strong> ו<strong>סיסמה</strong>.<br />
 היזהרו שלא להקליד כתובת URL שגויה, מכיוון שאתם עלולים לנעול את עצמכם מחוץ לאתר. <br />
 כדי להשתמש בדף ההתחברות שמשמש כברירת מחדל, השאירו את הגדרה זו ריקה.';
@@ -47,6 +48,7 @@ $string['auth_changepasswordhelp_expl'] = 'עזרת \'הצג סיסמה אובד
 <strong>כתובת ה-URL: שנה סיסמה</strong> או  שינוי סיסמה למוודל באינטרנט (Internal Moodle password change).';
 $string['auth_changepasswordurl'] = 'כתובת URL לשינוי סיסמה';
 $string['auth_changepasswordurl_expl'] = 'ציינו את כתובת ה-URL אליה יישלחו משתמשים שאיבדו את ה$a סיסמה שלהם. קיבעו את <strong>השתמש בעמוד שינוי הסיסמה הסטנדרטי</strong> ל<strong>לא</strong>.';
+$string['auth_changingemailaddress'] = 'ביקשת לשנות את כתובת הדוא\"ל מ-$a->oldemail ל-$a->newemail. מסיבות אבטחה נשלח לך הודעת דוא\"ל לכתובת החדשה בכדי שתאשר אותה. כתובת הדוא\"ל החדשה תעודכן כאשר תלחץ על הקישור בהודעה שנשלחה אליך.';
 $string['auth_common_settings'] = 'הגדרות מצויות';
 $string['auth_data_mapping'] = 'מיפוי מידע';
 $string['auth_dbcantconnect'] = 'לא ניתן היה להתחבר לשם אימות לבסיס הנתונים המצוין';
@@ -92,13 +94,28 @@ $string['auth_dbuser_key'] = 'משתמש DB';
 $string['auth_dbusernotexist'] = 'לא ניתן לעדכן משתמש שאינו קיים: $a';
 $string['auth_dbuserstoadd'] = 'רשומות משתמשים שיש להוסיף: $a';
 $string['auth_dbuserstoremove'] = 'רשומות משתמשים שיש להסיר: $a';
+$string['auth_emailchangecancel'] = 'בטל את שינוי הדוא\"ל';
+$string['auth_emailchangepending'] = 'השינוי עומד להתרחש. פתח את הקישור שנשלח אליך ב-$a->preference_newemail';
 $string['auth_emaildescription'] = 'אימות דואר אלקטרוני הוא שיטת האימות המשמשת כברירת מחדל. כאשר המשתמש נרשם, ובוחר שם משתמש וסיסמה משלו, לכתובת הדואר האלקטרוני שלו נשלחת הודעת אישור. דואר אלקטרוני זה מכיל קישור מאובטח לעמוד בו המשתמש יכול לאשר את החשבון שלו. התחברויות עתידיות רק בודקות את שם המשתמש והסיסמה כנגד הערכים השמורים בבסיס הנתונים של Moodle.';
 $string['auth_emailnoemail'] = 'נכשל ניסיון לשלוח לך הודעת דואר אלקטרוני!';
 $string['auth_emailnoinsert'] = 'לא ניתן היה להוסיף את הרשומה שלך לבסיס הנתונים!';
+$string['auth_emailnowexists'] = 'כתובת הדוא\"ל שניסיתי להקצות לפרופיל שלך מוקצה למשתמש אחר, לכן לא ניתן לבצע את בקשתך לשינוי כתובת הדוא\"ל. תוכל לנסות שוב ע\"י כתובת דוא\"ל אחרת מזאת שניסית.';
+$string['auth_emailrecaptcha'] = 'מוסיף אישור וידאושמע עבור אלמנט לרישום עמוד למשתמשי רישום עצמי בדוא\"ל. הדבר מגן על האתר שלך מפני שליחת דוא\"ל זבל ותורם לסיבה כדאית. ראה  http://recaptcha.net/learnmore.html
+לפרטים נוספים.
+<br /><em>PHP cURL extension is required.</em>';
+$string['auth_emailrecaptcha_key'] = 'אפשר אלמנט reCAPTCHA';
+$string['auth_emailsettings'] = 'הגדרות';
 $string['auth_emailtitle'] = 'אימות על בסיס דואר אלקטרוני';
+$string['auth_emailupdate'] = 'עדכון כתובת דוא\"ל';
+$string['auth_emailupdatemessage'] = '$a->fullname היקר,
+לאחר בקשתך לשינוי כתובת דוא\"ל עבור חשבון המשתמש שלך באתר $a->site, אנא פתח את הקישור הבא בדפדפן שלך לצורך אישור שינוי זה.  
+$a->url';
+$string['auth_emailupdatesuccess'] = 'כתובת דוא\"ל של משתמש  <em>$a->fullname</em>
+עודכנה בהצלחה ל-<em>$a->email</em>.';
+$string['auth_emailupdatetitle'] = 'אישור עבור עדכון הדוא\"ל ב-$a->site';
 $string['auth_fcchangepasswordurl'] = 'כתובת URL המשמשת לשינוי סיסמה';
 $string['auth_fcconnfail'] = 'החיבור עם Errno נכשל: $a[0] ומחרוזת שגיאה: $a[1]';
-$string['auth_fccreators'] = 'רשימת קבוצות שחברים בהן רשאים ליצור קורסים חדשים. אנא הפרד קבוצות מרובות בעזרת \';\'. יש להגדיר את השמות באופן זהה לאופן שבו הם מוגדרים על שרת FirsClass. המערכת רגישה לאותיות רישיות.';
+$string['auth_fccreators'] = 'רשימת קבוצות שחבריהם רשאים ליצור קורסים חדשים. אנא הפרד קבוצות מרובות בעזרת \';\'. יש להגדיר את השמות באופן זהה לאופן שבו הם מוגדרים על שרת FirsClass. המערכת רגישה לאותיות רישיות.';
 $string['auth_fccreators_key'] = 'יוצרים';
 $string['auth_fcdescription'] = 'שיטה זו משתמשת בשרת FirstClass לבדיקה האם שם משתמש וסיסמה תקפים.';
 $string['auth_fcfppport'] = 'יציאת השרת (3333 הוא הנפוץ ביותר)';
@@ -125,7 +142,10 @@ $string['auth_imapport_key'] = 'יציאה';
 $string['auth_imaptitle'] = 'השתמש בשרת IMAP';
 $string['auth_imaptype'] = 'סוג שרת ה IMAP. שרתי IMAP יכולים לתמוך בסוגי אימות ודו-שיח שונים.';
 $string['auth_imaptype_key'] = 'סוג';
+$string['auth_invalidnewemailkey'] = 'שגיאה: אם אתה מנסה לאשר שינוי בכתובת הדוא\"ל, חלה טעות בהעתקת הקישור ה-URL ששלחנו לך בדוא\"ל. אנא העתק שוב את הכתובת ונסה שוב.';
 $string['auth_ldap_ad_create_req'] = 'לא ניתן ליצור את החשבון החדש ב-Active Directory. וודא כי כל הדרישות לשם הפעלה זו נכונות. (חיבור LDAPS, משתמש קשור (bind) עם זכויות מתאימות וכד\'.';
+$string['auth_ldap_attrcreators'] = 'רשימת קבוצות קונטקסטים אשר חבריהם רשאים ליצור תכונות. הפרד קבוצות רבות עם הסימן \';\'. בדר\"כ יראה למשל כך \'cn=teachers,ou=staff,o=myorg\'';
+$string['auth_ldap_attrcreators_key'] = 'יוצרי תכונות';
 $string['auth_ldap_auth_user_create_key'] = 'צור משתמשים באופן חיצוני';
 $string['auth_ldap_bind_dn'] = 'אם ברצונך להשתמש במנגנון bind-user לחיפוש משתמשים, עליך להגדיר זאת כאן. למשל \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'שם מכובד';
@@ -138,7 +158,7 @@ $string['auth_ldap_contexts_key'] = 'הקשרים';
 $string['auth_ldap_create_context'] = 'אם תאפשר יצירת משתמשים עם אימות דואר אלקטרוני,  פרט את ההקשר בו ייווצרו המשתמשים. הקשר זה צריך להיות שונה ממשתמשים אחרים כדי למנוע בעיות אבטחה. אתה לא צריך להוסיף את הקשר זה לldap_context-variable, Moodle ייחפש משתמשים מהקשר זה באופן אוטומטי.';
 $string['auth_ldap_create_context_key'] = 'הקשרים עבור משתמשים חדשים';
 $string['auth_ldap_create_error'] = 'שגיאה ביצירת משתמש ב-LDAP';
-$string['auth_ldap_creators'] = 'רשימה של קבוצות שהמשתמשים בהם רשאים ליצור קורסים חדשים. הפרד קבוצות מרובות באמצעות \';\'. בדרך כלל משהו כגון \'cn=teachers,ou=staff,o=myorg\'';
+$string['auth_ldap_creators'] = 'רשימת קבוצות או קונטקסטים אשר חבריהם רשאים ליצור קורסים חדשים. הפרד קבוצות מרובות באמצעות \';\'. בדרך כלל משהו כגון \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_creators_key'] = 'יוצרים';
 $string['auth_ldap_expiration_desc'] = 'בחר ב\'לא\' כדי לנטרל בדיקת סיסמאות שפג תוקפן או כדי למנוע מה-LDAP לקרוא את זמן תפוגת התפוקה ישירות מה-LDAP';
 $string['auth_ldap_expiration_key'] = 'תאריך תפוגה';
@@ -150,6 +170,8 @@ $string['auth_ldap_graceattr_desc'] = 'לבחירתכם: עוקף מאפיין L
 $string['auth_ldap_gracelogin_key'] = 'תכונת התחברות Grace';
 $string['auth_ldap_gracelogins_desc'] = 'אפשר תמיכת gracelogin ב-LDAP. לאחר שפג תוקפה של הסיסמה, המשתמש עדיין יכול להתחבר עד שהמונה ב-gracelogin מתאפס. אפשר את ההגדרה הזו על מנת להציג הודעה של gracelogin שפג תוקף הסיסמה.';
 $string['auth_ldap_gracelogins_key'] = 'התחברויות דרך Grace';
+$string['auth_ldap_groupecreators'] = 'רשימת קבוצות או קונטקסטים אשר חבריהם רשאים ליצור קבוצות חדשים. הפרד קבוצות מרובות באמצעות \';\'. בדרך כלל משהו כגון \'cn=teachers,ou=staff,o=myorg\'';
+$string['auth_ldap_groupecreators_key'] = 'יוצרי קבוצות';
 $string['auth_ldap_host_url'] = 'פרט מארח LDAP בצורת URL כמו \'ldap://ldap.myorg.com/\' או \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_host_url_key'] = 'כתובת ה-URL של המחשב המארח';
 $string['auth_ldap_ldap_encoding'] = 'ציין את הקידוד בו משתמש שרת ה-LDAP. רוב הסיכויים ש-utf-8, MS AD v2 משתמש בקידוד ברירת מחדל כמו cp1252, cp1250 וכו\'.';
@@ -216,6 +238,9 @@ $string['auth_nologindescription'] = 'התקן תקן מסייע שמונע ממ
 $string['auth_nologintitle'] = 'אין התחברות';
 $string['auth_nonedescription'] = 'משתמשים יכולים להתחבר וליצור חשבונות תקפים מידית, ללא כל ואימות כנגד שרת חיצוני וללא אימות דרך דואר אלקטרוני. היה זהיר כאשר אתה משתמש באפשרות זו - חשוב על בעיות האבטחה וההנהלה שזה יכול לגרום.';
 $string['auth_nonetitle'] = 'ללא אימות';
+$string['auth_ntlmsso_enabled_key'] = 'אפשר';
+$string['auth_ntlmsso_subnet'] = 'אם מאופשר, הדבר ינסה SSO עם לקוחות ב-subnet הבא. תבנית: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_outofnewemailupdateattempts'] = 'תמו מספרי הנסיונות בהם היית רשאי לעדכן את כתובת הדוא\"ל שלך. בקשת עדכון כתובת הדוא\"ל שלך בוטלה.';
 $string['auth_pamdescription'] = 'שיטה זה משתמשת ב-PAM כדי לגשת לשמות המשתמשים המקומיים על שרת זה. עליכם להתקין <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">אימות PHP4 PAM </a> על מנת שתוכלו להשתמש במודול זה.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
 $string['auth_passwordisexpired'] = 'תוקף הסיסמה שלך פג. האם ברצונך לשנות את סיסמתך כעת?';
@@ -253,11 +278,17 @@ $string['auth_shib_convert_data_warning'] = 'הקובץ אינו קיים, או 
 $string['auth_shib_instructions'] = 'השתמשו <a href=\"$a\">התחברות שיבולת</a> כדי להתחבר דרך שיבולת, אם המוסד שלכם תומך בזה. <br />
 אחרת השתמשו בטופס ההתחברות הרגיל שמוצג פה.';
 $string['auth_shib_instructions_help'] = 'כאן עליכם לספק למשתמשים שלכם הוראות הפעלה שהתאמתם אישית כדי להסביר את שיבולת. הוראות אלה יופיעו בעמוד ההתחברות, בקטע ההוראות. על ההוראות להכיל קישור ל\"<b>$a</b>\" עליו ילחצו המשתמשים כשהם ירצו להתחבר.';
+$string['auth_shib_no_organizations_warning'] = 'אם תרצה להשתמש בשרות WAYF משולב, תצטרך לספק רשימת ספקי זהוי entityIDs המופרדים בפסיק, שמותיהם ובתור אופציה מושב התחלה.';
 $string['auth_shib_only'] = 'שיבולת בלבד';
 $string['auth_shib_only_description'] = 'ביחרו באפשרות זו אם אתם מעוניינים לאכוף אימות של שיבולת.';
 $string['auth_shib_username_description'] = 'שם משתנה סביבת שיבולת בשרת רשת בו שישמש כשם משתמש במוודל.';
+$string['auth_shibboleth_contact_administrator'] = 'במקרה ואינך שותף עם הארגונים שניתנו והינך זקוק לגישה לקורס בשרות זה, אנא צור קשר עם';
+$string['auth_shibboleth_errormsg'] = 'אנא בחר את הארגון שאתה חבר בו!';
 $string['auth_shibboleth_login'] = 'התחברות דרך שיבולת';
+$string['auth_shibboleth_login_long'] = 'התחברות ל-Moodle דרך שיבולת';
 $string['auth_shibboleth_manual_login'] = 'התחברות ידנית';
+$string['auth_shibboleth_select_member'] = 'אני חבר ב...';
+$string['auth_shibboleth_select_organization'] = 'לאימות דרך שיבולת אנא בחר את הארגון לו אתה שייך מהרשימה הגולשת.';
 $string['auth_shibbolethdescription'] = 'באמצעות שיטה זו משתמשים נוצרים ומאומתים על ידי שימוש ב<a ref=\"http://shibboleth.internet2.edu/\" target=\"_blank\">שיבולת</a>.<br>קיראו את קובץ ה<a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> של שיבולת, שמסביר כיצד עליכם להגדיר את המוודל שלכם עם שיבולת.';
 $string['auth_shibbolethtitle'] = 'שיבולת';
 $string['auth_sync_script'] = 'סקריפט סנכרון ה-corn';
@@ -279,6 +310,8 @@ $string['changepassword'] = 'כתובת URL לשינוי סיסמה';
 $string['changepasswordhelp'] = 'כאן אתה מפרט מקום בו המשתמשים שלך יכולים להשתמש כדי למצוא או לשנות את שם המשתמש או הסיסמה שלהם אם הם שכחו אותם. זה יסופק למשתמשים ככפתור בעמוד ההתחברות ובעמוד המשתמש שלהם. אם תשאיר ריק, כפתור זה לא יופיע.';
 $string['chooseauthmethod'] = 'בחר צורת אימות:';
 $string['createpasswordifneeded'] = 'צור סיסמה, אם היא נדרשת';
+$string['enterthenumbersyouhear'] = 'הכנס את המספרים שאתה שומע';
+$string['enterthewordsabove'] = 'הכנס את מילים מלמעלה';
 $string['errorminpassworddigits'] = 'סיסמאות מחייבות לפחות $a ספרהות.';
 $string['errorminpasswordlength'] = 'סיסמאות מחייבות אורך של לפחות $a תווים.';
 $string['errorminpasswordlower'] = 'סיסמאות מחייבות לפחות $a אותיות קטנות.';
@@ -288,7 +321,13 @@ $string['errorpasswordupdate'] = 'חלה שגיאה במהלך עדכון הסי
 $string['forcechangepassword'] = 'אלץ שינוי סיסמה';
 $string['forcechangepassword_help'] = 'אלץ משתמשים לשנות את הסיסמה שלהם בנסיון ההתחברות הבא ל-Moodle.';
 $string['forcechangepasswordfirst_help'] = 'אלץ משתמשים לשנות את הסיסמה שלהם בנסיון ההתחברות הראשון ל-Moodle.';
+$string['forgottenpassword'] = 'אם תכניס כתובת URL כאן, הדבר ישמש כעמוד שחזור סיסמה אבודה עבור אתר זה. הדבר מעניין לאתרים בהם הסיסמאות מנוהלות לגמרי מחוץ לאתר של ה-Moodle. השאר ריק בכדי להשתמש בשחזור הסיסמה של ברירת המחדל.';
+$string['forgottenpasswordurl'] = 'ה-URL של הסיסמה שנשכחה';
+$string['getanaudiocaptcha'] = 'קבל את CAPTCHA השמע';
+$string['getanimagecaptcha'] = 'קבל את תמונת ה-CAPTCHA';
+$string['getanothercaptcha'] = 'קבל CAPTCHA אחר';
 $string['guestloginbutton'] = 'כפתור התחברות לאורחים';
+$string['incorrectpleasetryagain'] = 'שגיאה. אנא נסה שוב';
 $string['infilefield'] = 'שדה נדרש בקובץ';
 $string['instructions'] = 'הוראות';
 $string['internal'] = 'פנימי';
@@ -296,10 +335,14 @@ $string['locked'] = 'נעול';
 $string['md5'] = 'הצפנת MD5';
 $string['nopasswordchange'] = 'לא ניתן היה לשנות את הסיסמה';
 $string['nopasswordchangeforced'] = 'אינך יכול להמשיך ללא שינוי הסיסמה שלך. אך נכון לעכשיו אין דף זמין בו ניתן לשנותה. אנא צור קשר עם מנהל המוודל שלך.';
+$string['ntlmsso_attempting'] = 'נסיון Single Sign On דרך NTLM...';
+$string['ntlmsso_failed'] = 'התחברות אוטומטית נכשלה, נסה את עמוד ההתחברות הרגיל...';
+$string['ntlmsso_isdisabled'] = 'NTLM SSO מנוטרל.';
 $string['passwordhandling'] = 'טיפול בשדה סיסמה';
 $string['plaintext'] = 'טקסט פשוט';
 $string['pluginnotenabled'] = 'התקן התקע שמשמש לאימות \'$a\' איננו מופעל';
 $string['pluginnotinstalled'] = 'התקן התקע שמשמש לאימות \'$a\' איננו מותקן';
+$string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'פסק זמן דו השיח של ה-RPC';
 $string['selfregistration'] = 'הרשמה עצמית';
 $string['selfregistration_help'] = 'בחר איזה התקן תקע auth יטפל בהרשמה עצמית של משתמשים';

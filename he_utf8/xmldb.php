@@ -1,15 +1,20 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.8 + (2007021503)
+      // xmldb.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['aftertable'] = 'לאחר טבלה:';
 $string['back'] = 'חזרה';
 $string['backtomainview'] = 'חזרה לראשי';
 $string['binaryincorrectlength'] = 'אורך שגוי לשדה בינארי';
-$string['cannotuseidfield'] = 'לא ניתן להכניס את זדה \'מספר הזיהוי\'. זוהי עמודה הממספרת את עצמה.';
+$string['butis'] = 'אך הוא';
+$string['cannotuseidfield'] = 'לא ניתן להכניס את שדה \'מספר הזיהוי\'. זוהי עמודה הממספרת את עצמה.';
 $string['change'] = 'שנה';
 $string['charincorrectlength'] = 'אורך שגוי לשדה תווים';
+$string['check_bigints'] = 'חפש מספרים שלמים שגויים ממסד הנתונים';
+$string['check_defaults'] = 'חפש ערכי ברירת מחדל לא עקביים';
 $string['check_indexes'] = 'חפש אינדקסים חסרים במסד הנתונים';
+$string['checkbigints'] = 'בדוק Bigints';
+$string['checkdefaults'] = 'בדוק ברירות מחדל';
 $string['checkindexes'] = 'בדוק אינדקסים';
 $string['completelogbelow'] = '(ראה את בדוח המלא של החיפוש להלן)';
 $string['confirmcheckindexes'] = 'יחידה זאת תחפש אינדקסים אפשריים חסרים בשרת ה-Moodle כאשר היא יוצרת, אל לא מבצעת!, באופן אוטומטי את משפטי ה-SQL הדרושים לעידכון מלא. לאחר היווצרם אתה יכול להעתיק משפטים אלו ולבצע אותם בבטחה עם מנשק ה-SQL שאתה מעדיף.
@@ -82,6 +87,8 @@ $string['newstatement'] = 'הצהרה חדשה';
 $string['newtable'] = 'טבלה חדשה';
 $string['newtablefrommysql'] = 'טבלה חדשה מ-MySQL';
 $string['nomissingindexesfound'] = 'לא נמצאו אינדקסים חסרים, מסד הנתונים שלך איננו דורש כל פעילות נוספת.';
+$string['nowrongdefaultsfound'] = 'לא נמצאו ערכי ברירת מחדל לא עקביים, מסד הנתונים שלך לא מצריך פעולות נוספות.';
+$string['nowrongintsfound'] = 'לא נמצאו ערכים שלמים שגויים, מסד הנתונים שלך לא מצריך פעולות נוספות.';
 $string['numberincorrectdecimals'] = 'מספק שגוי של ספרות לשדה מספרי';
 $string['numberincorrectlength'] = 'אורך שגוי לשדה מספרי';
 $string['reserved'] = 'שמור';
@@ -97,6 +104,7 @@ $string['selectonecommand'] = 'אנא בחר בפעולה אחת מתוך הרש
 $string['selectonefieldkeyindex'] = 'אנא בחר בשדהמפתחאינדקס מהרשימה כדי לראות קוד PHP:';
 $string['selecttable'] = 'בחר טבלה';
 $string['sentences'] = 'משפטים';
+$string['shouldbe'] = 'עליו להיות';
 $string['statements'] = 'הצהרות';
 $string['statementtable'] = 'טבלת הצהרות:';
 $string['statementtype'] = 'סוג הצהרות:';
@@ -116,6 +124,9 @@ $string['viewedited'] = 'ראה ערוך';
 $string['vieworiginal'] = 'ראה מקור';
 $string['viewphpcode'] = 'ראה קוד PHP';
 $string['viewsqlcode'] = 'ראה קוד SQL';
+$string['wrong'] = 'שגוי';
+$string['wrongdefaults'] = 'ברירות מחדל שגויות נמצאו';
+$string['wrongints'] = 'מספרים שלמים שגויים נמצאו';
 $string['wronglengthforenum'] = 'אורך שגוי לשדה enum';
 $string['wrongnumberoffieldsorvalues'] = 'מספר שגוי של שדות או ערכים במשפט';
 $string['wrongreservedwords'] = 'שימוש במילים שמורות נכון להיום <br/>(דע כי שמות טבלאות לא חשובות אם משתמשים ב-$CFG->prefix';
@@ -123,5 +134,9 @@ $string['yesmissingindexesfound'] = 'נמצאו מספר אינדקסים חסר
 <br />
 <br />
 ךאחר זאת, מאוד מומלץ לבצע שגרה זאת שוב בכדי לוודא שאין יותר אינדקסים חסרים.';
+$string['yeswrongdefaultsfound'] = 'נמצאו ערכי ברירת מחדל לא עקביים במסד הנתונים שלך. להלן פרטיהם ומשפטי ה-SQL שצריכים להריץ עם ממשק הSQL שלך בכדי לתקן אותם (אל תשכח לגבות את המידע שלך לפני פעולה זו). <br /><br />
+לאחר פעולות אלו מומלץ להריץ את תועלת זו שוב בכדי לוודא כי לא נמצאו עוד ערכי ברירת מחדל לא עקביים.';
+$string['yeswrongintsfound'] = 'נמצאו מספרים שלמים שגויים במסד הנתונים שלך.  להלן פרטיהם ומשפטי ה-SQL שצריכים להריץ עם ממשק הSQL שלך בכדי לתקן אותם (אל תשכח לגבות את המידע שלך לפני פעולה זו). <br /><br />
+לאחר פעולות אלו מומלץ להריץ את תועלת זו שוב בכדי לוודא כי לא נמצאו עוד מספים שלמים שגויים.';
 
 ?>

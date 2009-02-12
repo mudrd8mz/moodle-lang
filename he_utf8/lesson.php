@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.8 + (2007021503)
+      // lesson.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['accesscontrol'] = 'בקרת גישה';
@@ -62,6 +62,7 @@ $string['credit'] = 'ניקוד';
 $string['customscoring'] = 'ניקוד מותאם אישית';
 $string['deadline'] = 'מועד סופי להגשה';
 $string['defaultessayresponse'] = 'המאמר שלך ייבדק על ידי המדריך של הקורס.';
+$string['deleteallattempts'] = 'מוחק את כל נסיונות המענה';
 $string['deletedefaults'] = '$a מחוקים x ברירת המחדל של השיעור';
 $string['deletedpage'] = 'עמוד מחוק';
 $string['deleting'] = 'מוחק';
@@ -181,6 +182,7 @@ $string['nobranchtablefound'] = 'לא נמצאה טבלת ענפים';
 $string['nocommentyet'] = 'עדיין אין הערות.';
 $string['nocoursemods'] = 'לא נמצאו פעילויות';
 $string['nocredit'] = 'אין נקודות.';
+$string['nodeadline'] = 'אין מועד סופי';
 $string['noessayquestionsfound'] = 'לא נמצאו שאלות מאמר בשיעור זה.';
 $string['nohighscores'] = 'אין תוצאות גבוהות.';
 $string['nolessonattempts'] = 'לא נעשו נסיונות מענה לשיעור זה.';
@@ -207,7 +209,6 @@ $string['or'] = 'או';
 $string['ordered'] = 'הוזמן';
 $string['other'] = 'אחר';
 $string['outof'] = 'מתוך $a';
-$string['outoftime'] = 'חלף הזמן';
 $string['overview'] = 'סקירה כללית';
 $string['page'] = 'עמוד: $a';
 $string['pagecontents'] = 'תכולת העמוד';
@@ -265,7 +266,6 @@ $string['startlesson'] = 'התחל את השיעור';
 $string['studentattemptlesson'] = 'ניסיון מספר $a->attempt, של $a->lastname, $a->firstname';
 $string['studentname'] = '$a שם';
 $string['studentoneminwarning'] = 'אזהרה: יש לך דקה אחת או פחות כדי לסיים את השיעור.';
-$string['studentoutoftime'] = 'שים לב: נגמר לך הזמן המוקצב לשיעור זה. התשובה האחרונה שלך לא נספרת, משום שנתת אותה לאחר שהזמן נגמר. אנא לחץ על כפתור ה\'המשך\' כדי לסיים את השיעור.';
 $string['studentresponse'] = 'התגובות של {$a}';
 $string['submitname'] = 'הגש שם';
 $string['teacherjumpwarning'] = 'שיעור זה משתמש בקפיצת $a->cluster או בקפיצת $a->unseen. במקום זה, יעשה שימוש בקפיצת \'העמוד הבא\'. התחבר כסטודנט על מנת לבחון את הקפיצות הללו.';
@@ -304,6 +304,8 @@ $string['youranswer'] = 'התשובה שלך';
 $string['yourcurrentgradeis'] = 'הציון הנוכחי שלך הוא $a';
 $string['yourcurrentgradeisoutof'] = 'הציון הנוכחי שלך הוא $a->grade מתוך $a->total.';
 $string['youshouldview'] = 'על התשובה שלך להיות לפחות: $a';
+$string['outoftime'] = 'חלף הזמן'; // ORPHANED
+$string['studentoutoftime'] = 'שים לב: נגמר לך הזמן המוקצב לשיעור זה. התשובה האחרונה שלך לא נספרת, משום שנתת אותה לאחר שהזמן נגמר. אנא לחץ על כפתור ה\'המשך\' כדי לסיים את השיעור.'; // ORPHANED
 $string['editlesson'] = 'ערוך $a'; // ORPHANED
 $string['mainmenu'] = 'תפריט הקורס'; // ORPHANED
 $string['returnmainmenu'] = 'חזור לתפריט הראשי'; // ORPHANED
