@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // form.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
 $string['addfields'] = 'Gehitu $a eremu formularioari';
@@ -23,6 +23,7 @@ $string['minute'] = 'Minutua';
 $string['miscellaneoussettings'] = 'Beste hainbat ezarpen';
 $string['modstandardels'] = 'Moduluaren ezarpen bateratuak';
 $string['month'] = 'Hila';
+$string['mustbeoverriden'] = '$a klaseko Abstract form_definition() metodoak baimenduta egon behar du; mesedez, konpondu kodea.';
 $string['nomethodforaddinghelpbutton'] = '$a->name (class $a->classname) formularioaren elementuari laguntza botoia gehitzeko metodorik ez dago';
 $string['nonexistentformelements'] = '$a formularioaren elementua ez dago eta ezin zaio laguntza botoirik gehitu';
 $string['optional'] = 'Aukerakoa';

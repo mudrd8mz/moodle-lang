@@ -5,6 +5,8 @@
 $string['addmorechoices'] = 'Aukera gehiago gehitu';
 $string['allowupdate'] = 'Baimendu inkestaren eguneratzea';
 $string['answered'] = 'Erantzunda';
+$string['cannotsavechoice'] = 'Ezin izan da zure aukera gorde';
+$string['cannotupdatechoice'] = 'Ezin da zure aukera eguneratu datu-basean errorea gertatu baita';
 $string['choice'] = '$a aukera';
 $string['choice:choose'] = 'Inkestari erantzun';
 $string['choice:deleteresponses'] = 'Erantzunak ezabatu';
@@ -14,6 +16,7 @@ $string['choiceclose'] = 'Noiz arte';
 $string['choicefull'] = 'Inkesta hau beteta dago eta ez dago erantzun posible gehiagorik';
 $string['choicename'] = 'Inkestaren izena';
 $string['choiceopen'] = 'Zabaldu';
+$string['choicesaved'] = 'Zure aukera ondo gorde da';
 $string['choicetext'] = 'Inkesta-testua';
 $string['displayhorizontal'] = 'Horizontalean erakutsi';
 $string['displaymode'] = 'Erakusteko modua';
@@ -31,6 +34,7 @@ $string['noguestchoose'] = 'Barkatu, bisitariek ezin diete inkestei erantzun';
 $string['noresultsviewable'] = 'Emaitzak ezin dira orain ikusi';
 $string['notanswered'] = 'Oraindik erantzun gabe';
 $string['notopenyet'] = 'Barkatu, baina jarduera hau ez dago erabiltzeko moduan $a arte.';
+$string['option'] = 'Aukera';
 $string['privacy'] = 'Emaitzen pribatutasuna';
 $string['publish'] = 'Emaitzak argitaratu';
 $string['publishafteranswer'] = 'Erakutsi emaitzak ikasleari erantzun ondoren';
@@ -51,7 +55,5 @@ $string['taken'] = 'Hartuta';
 $string['timerestrict'] = 'Mugatu erantzuteko denbora';
 $string['viewallresponses'] = 'Ikusi $a erantzun';
 $string['yourselection'] = 'Zure aukera';
-$string['cannotsavechoice'] = 'Ezin izan da zure aukera gorde'; // ORPHANED
-$string['cannotupdatechoice'] = 'Ezin da zure aukera eguneratu datu-basean errorea gertatu baita'; // ORPHANED
 
 ?>

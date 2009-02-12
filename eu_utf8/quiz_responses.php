@@ -1,11 +1,14 @@
 <?PHP // $Id$ 
-      // quiz_responses.php - created with Moodle 1.6 (2006050506)
+      // quiz_responses.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
 
-$string['pagesize'] = 'Saiakerak orrialdeko';
-$string['reportresponses'] = 'Erantzun xeheak';
-$string['responses'] = 'Erantzun xeheak';
-$string['responsesoptions'] = 'Erantzun-aukerak';
-$string['responsestitle'] = 'Erantzun xeheak';
+$string['cannotloadoptions'] = 'Ezin dira galdera-aukeraj kargatu';
+$string['pagesize'] = 'Saiakerak orriko';
+$string['reportresponses'] = 'Ebazpenak';
+$string['responses'] = 'Ebazpenak';
+$string['responsesdownload'] = 'Jaitsi ebazpenak';
+$string['responsesoptions'] = 'Ebazpenen aukerak';
+$string['responsesreport'] = 'Ebazpenen txostena';
+$string['responsestitle'] = 'Ebazpenen xehetasunak';
 
 ?>
