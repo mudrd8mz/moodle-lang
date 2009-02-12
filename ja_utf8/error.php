@@ -416,6 +416,7 @@ $string['storedfilenotcreated'] = 'ファイル「 $a->contextid/$a->filearea/$a
 $string['storedfileproblem'] = 'ローカルファイル ($a) に関して、不明な例外が発生しました。';
 $string['tagdisabled'] = 'タグが無効にされています!';
 $string['tagnotfound'] = '指定されたタグは、データベースで見つかりませんでした。';
+$string['targetdatabasenotempty'] = 'ターゲットデータベースが空ではありません。安全上の理由から、転送は中止されました。';
 $string['themenotinstall'] = 'このテーマは、インストールされていません。';
 $string['transactionvoid'] = 'すでに取り消されているため、トランザクションを取り消すことはできません。';
 $string['unenrolerror'] = 'ユーザの登録抹消中にエラーが発生しました。';
