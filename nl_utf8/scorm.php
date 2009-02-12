@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['activation'] = 'Activatie';
@@ -174,6 +174,8 @@ $string['scormtype'] = 'Type';
 $string['scrollbars'] = 'Laat rollen door het venster toe';
 $string['sided'] = 'Aan de linkerkant';
 $string['skipview'] = 'Leerlingen slaan inhoudspagina over';
+$string['skipviewdesc'] = 'Deze instelling bepaalt de standaard voor wanneer inhoudsstructuur van een pagina moet overgeslagen worden';
+$string['slashargs'] = 'WAARSCHUWING: slash arguments is uitgeschakeld op deze site. Daardoor kunnen sommige objecten niet werken zoals verwacht!';
 $string['stagesize'] = 'Frame- / venstergrootte';
 $string['started'] = 'Gestart op';
 $string['status'] = 'Status';
@@ -183,6 +185,7 @@ $string['suspended'] = 'Onderbroken';
 $string['syntax'] = 'Syntaxisfout';
 $string['tag_error'] = 'Onbekende tag ($a->tag) met deze inhoud: $a->value';
 $string['time'] = 'Tijd';
+$string['timerestrict'] = 'Beperk antwoorden tot deze periode';
 $string['title'] = 'Titel';
 $string['too_many_attributes'] = 'Tag $a->tag heeft te veel attributen';
 $string['too_many_children'] = 'Tag $a->tag heeft teveel children';
@@ -190,8 +193,15 @@ $string['toolbar'] = 'Toon knoppenbalk';
 $string['totaltime'] = 'Totale tijd';
 $string['trackingloose'] = 'WAARSCHUWING: de gegevens voor opvolging van dit SCORM/AICC-pakket zullen verloren gaan';
 $string['type'] = 'Type';
+$string['typeexternal'] = 'Extern SCORM manifest';
+$string['typeimsrepository'] = 'Lokale IMS opslagruimte';
+$string['typelocal'] = 'Geüpload pakket';
+$string['typelocalsync'] = 'Gedownload pakket';
 $string['unziperror'] = 'Er is een fout opgetreden bij het uitpakken van het pakket';
 $string['updatefreq'] = 'Frequentie automatisch updaten';
+$string['updatefreqdesc'] = 'Dze instelling bepaalt de standaard auto-updatefrequentie van een activiteit';
+$string['updatetime'] = 'Synchronistatietijd';
+$string['url'] = 'URL';
 $string['validateascorm'] = 'Valideer een SCORM-pakket';
 $string['validation'] = 'Bevestigingsresultaat';
 $string['validationtype'] = 'Deze instelling maakt dat de DOMXML-bibliotheek gebruikt wordt voor de validatie van het SCORM MAnifest. Als je twijfelt laat dan de geselecteerde keuze staan.';
@@ -200,7 +210,9 @@ $string['versionwarning'] = 'De versie van het Manifest is ouder dan 1.3, waarsc
 $string['viewallreports'] = 'Bekijk de rapporten voor $a pogingen';
 $string['viewalluserreports'] = 'Bekijk de rapporten voor $a gebruikers';
 $string['whatgrade'] = 'Te beoordelen pogingen';
+$string['whatgradedesc'] = 'Deze instelling bepaalt de standaardbeoordeling van pogingen';
 $string['width'] = 'Breedte';
 $string['window'] = 'Frame/venster';
+$string['zlibwarning'] = 'Waarschuwing: PHP Zlib-compressie is ingeschakeld op deze site. Sommige gebruikers kunnen problemen ondervinden bij het laden van SCORM-objecten in bepaalde browsers.';
 
 ?>

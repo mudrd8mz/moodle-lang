@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -1307,6 +1307,7 @@ $string['scalesstandard'] = 'Standaardschalen';
 $string['scalestandard'] = 'Standaardschaal';
 $string['scalestip'] = 'Om aangepaste schalen te maken, gebruik je de link
 \'Schalen...\'in het beheermenu van je cursus';
+$string['scalestip2'] = 'Om aangepaste beoordelingsschalen te maken klik je op Cijfers in het beheermenu van de cursus, kies dan Bewerk, Schalen.';
 $string['schedule'] = 'Planning';
 $string['scheduledbackupsinactive'] = 'Automatische backups zijn niet ingeschakeled door de site-beheerder.';
 $string['scheduledbackupstatus'] = 'Status van geplande backup';

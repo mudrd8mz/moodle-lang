@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['check_configrw_details'] = '<p>We raden aan om de rechten op het bestand config.php te wijzigen na installatie, zodat het bestand niet door de webserver gewijzigd kan worden.
@@ -113,5 +113,6 @@ $string['statusinfo'] = 'Informatie';
 $string['statusok'] = 'OK';
 $string['statusserious'] = 'Ernstig';
 $string['statuswarning'] = 'Waarschuwing';
+$string['timewarning'] = 'Deze bewerking kan lang duren, wees geduldig.';
 
 ?>

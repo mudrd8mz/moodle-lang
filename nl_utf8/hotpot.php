@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['abandoned'] = 'verlaten';
@@ -28,6 +28,7 @@ $string['copytoclipboard'] = 'Kopieer naar klembord';
 $string['correct'] = 'juist';
 $string['deleteabandoned'] = 'Verwijder verlaten';
 $string['deleteabandonedcheck'] = 'Wil je echt alle $a verlaten pogingen verwijderen?';
+$string['deleteallattempts'] = 'Verwijder alle pogingen';
 $string['displaycoursenext'] = 'Toon hierna de cursuspagina';
 $string['displayhotpotnext'] = 'Toon hierna de Hot Potatoes-test';
 $string['displayindexnext'] = 'Toon hierna de Hot Potoes indexpagina';

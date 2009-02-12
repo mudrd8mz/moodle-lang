@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -8,6 +8,7 @@ $string['addanewtopic'] = 'Voeg een nieuw onderwerp toe';
 $string['advancedsearch'] = 'Uitgebreid zoeken';
 $string['aggregateavg'] = 'Gemiddelde van de beoordelingen';
 $string['aggregatecount'] = 'Aantal beoordelingen';
+$string['aggregatecountformat'] = '$a->count (cijfer: $a->grade)';
 $string['aggregatemax'] = 'Hoogste beoordeling';
 $string['aggregatemin'] = 'Laagste beoordeling';
 $string['aggregatenone'] = 'Geen beoordelingen';
@@ -177,6 +178,7 @@ $string['invaliddiscussionid'] = 'Discussie ID was fout';
 $string['invalidforumid'] = 'Forum ID was fout';
 $string['invalidparentpostid'] = 'Ouder bericht ID was fout';
 $string['invalidpostid'] = 'Post ID $a was fout';
+$string['invalidrate'] = 'Ongeldige beoordeling ($a)';
 $string['lastpost'] = 'Laatste bericht';
 $string['learningforums'] = 'Leerforums';
 $string['logblocked'] = 'Log geblokkeerde e-mails';
@@ -226,6 +228,7 @@ $string['noposts'] = 'Geen berichten';
 $string['nopostscontaining'] = 'Er zijn geen berichten met \'$a\' gevonden';
 $string['noquestions'] = 'Er zijn nog geen vragen in dit forum';
 $string['norate'] = 'Beoordelen van berichten niet toegelaten!';
+$string['noratinggiven'] = 'Niet beoordeeld';
 $string['noresult'] = 'Geen beoordelingen voor dit bericht: $a';
 $string['nosubscribers'] = 'Niemand krijgt e-mail van dit forum';
 $string['notexists'] = 'Discussie bestaat niet meer';

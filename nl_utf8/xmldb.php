@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['actual'] = 'Actueel';
@@ -66,7 +66,7 @@ $string['expected'] = 'Verwacht';
 $string['field'] = 'Veld';
 $string['fieldnameempty'] = 'Naam veld leeg';
 $string['fields'] = 'Velden';
-$string['fieldsusedinkey'] = '[[Onvolledige taalstring op lijn \' . __LINE__ . \' in bestand \' . __FILE__ . \']]';
+$string['fieldsusedinkey'] = 'Dit veld wordt als sleutel gebruikt.';
 $string['filenotwriteable'] = 'Bestand niet beschrijfbaar';
 $string['floatincorrectdecimals'] = 'Fout aantal decimalen voor float veld';
 $string['floatincorrectlength'] = 'Foute lengte voor float veld';

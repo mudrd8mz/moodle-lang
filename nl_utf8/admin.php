@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -385,6 +385,7 @@ $string['enrolmultipleusers'] = 'Gebruikers aanmelden';
 $string['environment'] = 'Omgeving';
 $string['environmenterrortodo'] = 'Je moet all de problemen over de installatie-omgeving die hierboven gevonden zijn, oplossen. Ga pas dan verder met het installeren van deze Moodleversie.';
 $string['environmenterrorupgrade'] = 'Waarschuwing: je moet eerst alle hierboven gemelde omgevingsproblemen oplossen voor je verder gaat met de upgrade van Moodle! Upgraden zonder deze vereiste omgeving kan problemen zoals gegevensverlies veroorzaken. Ben je er zeker van dat je verder wil doen met deze upgrade?';
+$string['environmentmustfixsetting'] = 'PHP-instelling moet gewijzigd worden';
 $string['environmentok'] = 'Je server voldoet aan alle minimumeisen';
 $string['environmentrecommendcustomcheck'] = 'Als deze test faalt, dan wijst dat op een mogelijk probleem';
 $string['environmentrecommendinstall'] = 'wordt aangeraden om te installeren of in te schakelen';
@@ -392,6 +393,8 @@ $string['environmentrecommendversion'] = 'je kunt betere versie $a->needed gebru
 $string['environmentrequirecustomcheck'] = 'Deze test moet OK zijn';
 $string['environmentrequireinstall'] = 'moet geïnstalleerd/ingeschakeld zijn';
 $string['environmentrequireversion'] = 'versie $a->needed is vereist en je gebruikt nu versie $a->current';
+$string['environmentsettingok'] = 'aanbevolen instelling gedetecteerd';
+$string['environmentshouldfixsetting'] = 'PHP-instelling zou gewijzigd moeten worden.';
 $string['environmentxmlerror'] = 'Fout bij het lezen van de omgevingsdata ($&->error_code)';
 $string['errordeletingconfig'] = 'Er is een fout opgetreden bij het verwijderen van de configuratierecords voor plugin \'$a\'';
 $string['errors'] = 'Fouten';
@@ -403,6 +406,8 @@ $string['experimental'] = 'Experimenteel';
 $string['experimentalsettings'] = 'Experimentele instellingen';
 $string['extendedusernamechars'] = 'Uitgebreide tekenset in gebruikersnamen toestaan';
 $string['extrauserselectorfields'] = 'Wanneer je gebruikers selecteert, zoekt en toont.';
+$string['fatalmagicquotesruntime'] = '<p>Ernstige configuratiefout gevonden. Verwittig je serverbeheerder.</p><p>Om goed te functioneren moet de beheerder de PHP-instellingen aanpassen.</p><p><code>magic_quotes_runtime</code> moet op<code>off</code> gezet worden.</p><p>Deze instelling kan gewijzigd worden door het bestand <code>php.ini</code>, Apache/IIS <br />-configuratie of het bestand <code>.htaccess</code> op de server aan te passen.</p>';
+$string['fatalsessionautostart'] = '<p>Ernstige configuratiefout gevonden. Verwittig je serverbeheerder.</p><p>Om goed te functioneren moet de beheerder de PHP-instellingen aanpassen.</p><p><code>session.auto_start</code> moet op<code>off</code> gezet worden.</p><p>Deze instelling kan gewijzigd worden door het bestand <code>php.ini</code>, Apache/IIS <br />-configuratie of het bestand <code>.htaccess</code> op de server aan te passen.</p>';
 $string['filecreated'] = 'Nieuw bestand aangemaakt';
 $string['filestoredin'] = 'Bewaar bestand in map';
 $string['filestoredinhelp'] = 'Bestandslocatie';
@@ -426,6 +431,7 @@ $string['frontpagerestore'] = 'Restore startpagina';
 $string['frontpageroles'] = 'Rollen startpagina';
 $string['frontpagesettings'] = 'Instellingen startpagina';
 $string['fullnamedisplay'] = 'Volledige naam opmaak';
+$string['gdrecommended'] = 'De GD-extentie wordt gebruikt voor de conversie van afbeeldingen. Sommige mogelijkeden, zoals afbeeldingen in gebruikersprofielen zullen zonder GD niet werken.';
 $string['gdversion'] = 'GD-versie';
 $string['generalsettings'] = 'Algemene instellingen';
 $string['geoipfile'] = 'GeoIP City databestand';
@@ -468,6 +474,8 @@ $string['includemoduleuserdata'] = 'Ook gebruikersdata van modules';
 $string['incompatibleblocks'] = 'Niet-compatibele blokken';
 $string['install'] = 'Installeer het geselecteerde taalpakket';
 $string['installedlangs'] = 'Geïnstalleerde taalpakketten';
+$string['installhijacked'] = 'De installatie moet afgewerkt worden vanaf het oorspronkelijk IP-adres';
+$string['installsessionerror'] = 'Kan geen PHP-sessie initialiseren. Controleer of je browser cookies accepteerd.';
 $string['intcachemax'] = 'Int. cache max';
 $string['invalidlangpack'] = 'om dit taalpakket te bewerken moet je het in de lang-map zetten';
 $string['invalidsection'] = 'Ongeldige sectie';
@@ -728,6 +736,9 @@ $string['sessioncookiedomain'] = 'Cookie domein';
 $string['sessioncookiepath'] = 'Cookie pad';
 $string['sessionhandling'] = 'Sessie afhandeling';
 $string['sessiontimeout'] = 'Timeout';
+$string['settingfileuploads'] = 'Het uploaden van bestanden is vereist voor het normaal functioneren van Moodle. Schakel het in in je PHP-configuratie.';
+$string['settingmemorylimit'] = 'Onvoldoende geheugen gedetecteerd. Zet de geheugenlimiet hoger in je PHP-instellingen.';
+$string['settingsafemode'] = 'Moodle is niet volledig compatibel met safe mode. Vraag je serverbeheerder om het uit te schakelen. Moodle draaien met safe mode ingeschakeld wordt niet ondersteund - je kunt je aan verschillende problemen verwachten.';
 $string['showblocksonmodpages'] = 'Toon blokken op pagina\'s van modules';
 $string['showdetails'] = 'Toon details';
 $string['simpletest'] = 'Unit testen';
@@ -789,6 +800,7 @@ $string['updateaccounts'] = 'Update bestaande accounts';
 $string['updatecomponent'] = 'Update component';
 $string['updatelangs'] = 'Update taalpakketten';
 $string['updatetimezones'] = 'Update tijdzones';
+$string['upgradeerror'] = 'Onbekende fout bij het upgraden van $a->plugin naar versie $a->version. Kan niet verder doen.';
 $string['upgradeforumread'] = 'Vanaf Moodle 1.5 kun je bijhouden of forumberichten al gelezen zijn of niet.<br /> Om deze functie te kunnen gebruiken moet je <a href=\"$a\">je tabellen upgraden</a>.';
 $string['upgradeforumreadinfo'] = 'Vanaf Moodle 1.5 kun je bijhouden of forumberichten al gelezen zijn of niet.<br /> Om deze functie te kunnen gebruiken moet je je tabellen upgraden met alle niet gelezen/gelezen informatie voor de bestaande berichten. Afhankelijk van de grootte van je site kan dit lang duren (uren) en kan je databank behoorlijk belasten. Het is dus aangeraden dit te doen tijdens een rustige periode. Je site zal blijven werken tijdens deze upgrade en je gebruikers zullen er weinig hinder van ondervinden. Als je dit proces start moet je het laten aflopen (laat je browser-venster open). Geen paniek als je het proces toch zou stoppen door je venster te sluiten: je kunt terug opnieuw beginnen .<br /><br />Wil je het upgrade-proces nu starten?';
 $string['upgradelogs'] = 'Om volledige functionaliteit te verkrijgen, moeten je oude logbestanden geüpgraded worden. <a href=\"$a\">Meer informatie</a>';

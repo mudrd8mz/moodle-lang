@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // install.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['aborting'] = 'Installatie afbreken';
@@ -57,6 +57,7 @@ $string['databasecreationsettingssub2'] = '<b>Type:</b> ingesteld als \"mysqli\"
 <b>Gebruiker:</b> ingesteld als \"root\"  door het installatiescript<br />
 <b>Wachtwoord:</b> het wachtwoord van jouw databank<br />
 <b>Tabelvoorvoegsel:</b> een voorvoegsel dat je wil gebruiken voor alle tabelnamen.';
+$string['databasehead'] = 'Databankinstellingen';
 $string['databasehost'] = 'Databank host:';
 $string['databasename'] = 'Datanbanknaam:';
 $string['databasepass'] = 'Databank wachtwoord:';
@@ -119,15 +120,11 @@ $string['databasesettingssub_postgres7'] = '<b>Type:</b> PostgreSQL<br />
 <b>Gebruiker:</b> de gebruikersnaam voor jouw database<br />
 <b>Wachtwoord:</b> het wachtwoord voor je databank<br />
 <b>Tabelvoorvoegsel:</b>voorvoegsel voor alle tabelnamen (verplicht)';
-$string['databasesettingssub_sqlite3_pdo'] = '<b>Type:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimenteel! (niet voor productieomgeving)</strong></b><br />
-<b>Host:</b> pad naar de map waar het databankbestand bewaard zal worden (gebruik volledig pad); gebruik localhost of laat leeg om de datamap van Moodle te gebruiken<br />
-<b>Naam:</b> databank naam, vb moodle (optioneel)<br />
-<b>Gebruiker:</b> de gebruikersnaam voor jouw databank (optioneel)<br />
-<b>Wachtwoord:</b> het wachtwoord voor jouw databank (optioneel)<br />
-<b>Tabelvoorvoegsel:</b> optioneel voorvoegsel voor alle tabelnamen<br />
-De naam van de databank zal bepaald worden door de gebruikersnaam, databanknaam en het wachtwoord dat je net ingegeven hebt.';
 $string['databasesettingswillbecreated'] = '<b>Opmerking:</b> het installatieprogramma zal proberen een databank te maken als die nog niet bestaat.';
+$string['databasesocket'] = 'Unix socket';
 $string['databasetype'] = 'Databanktype:';
+$string['databasetypehead'] = 'Kies databankdriver';
+$string['databasetypesub'] = 'Moodle ondersteunt verschillende types databankservers. Contacteer je serverbeheerder als je niet weet welk type je moet gebruiken.';
 $string['databaseuser'] = 'Databank gebruikersnaam:';
 $string['dataroot'] = 'Gegevens';
 $string['datarooterror'] = 'De \'data-map\' die je opgaf kon niet gevonden of gemaakt worden. Verbeter ofwel het pad of maak die map manueel.';
@@ -176,6 +173,8 @@ $string['downloadsuccess'] = 'Taalpakket met succes gedownload';
 $string['doyouagree'] = 'Ben je akkoord? (ja/nee):';
 $string['environmenthead'] = 'Omgeving controleren ...';
 $string['environmentsub'] = 'We controleren nu of de versies van verschillende componenten van je server voldoen aan de systeemvereisten van Moodle';
+$string['environmentsub2'] = 'Elke Moodleversie vraagt een minimum PHP-versie en een aantal vereiste PHP-extenties.
+De volledige installatie-omgeving wordt gecontroleerd voor elke installatie en upgrade. Contacteer je server beheerder als je niet weet hoe je de juiste PHP-versie moet installeren of PHP-extenties moet inschakelen.';
 $string['errorsinenvironment'] = 'Fouten in je omgeving!';
 $string['fail'] = 'Mislukt';
 $string['fileuploads'] = 'Bestanden uploaden';
@@ -247,19 +246,39 @@ $string['mysqlextensionisnotpresentinphp'] = 'PHP is niet goed geconfigureerd me
 $string['mysqli'] = 'Improved MySQL (mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP is niet goed geconfigureerd - het kan niet communiceren met MySQL. Controleer je php.ini bestand of hercompileer PHP. De MySQLi-extentie is niet beschikbaar voor PHP 4.';
 $string['nativemysqli'] = 'Improved MySQL (native/mysqli)';
+$string['nativemysqlihelp'] = 'Nu moet je de databank configureren waar de meeste Moodlegegevens bewaard zullen worden.
+De databank kan aangemaakt worden als de databankgebruiker en wachtwoord bestaat en de juiste rechten heeft.
+Een tabelvoorvoegsel is optioneel.';
+$string['nativeoci'] = 'Oracle(native/oci)';
+$string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
+$string['nativepgsqlhelp'] = 'Nu moet je de databank configureren waar de meeste Moodlegegevens bewaard zullen worden.
+Deze databank moet al aangemaakt zijn en er moet een gebruikersnaam en wachtwoord aangemaakt zijn met rechten om de databank te gebruiken. 
+Een tabelvoorvoegsel is optioneel.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP is niet juist geconfigureerd met de OCI8-extentie en kan niet communiceren met Oracle. Controleer je php.ini-bestand of hercompileer PHP.';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHP is niet juist geïnstalleerd met de ODBC-extentie en kan niet communiceren met SQL*Server. Controleer je php.ini-bestand of hercompileer PHP.';
 $string['pass'] = 'OK';
+$string['paths'] = 'Paden';
+$string['pathshead'] = 'Bevestig paden';
+$string['pathsrodataroot'] = 'De dataroot map is niet beschrijfbaar.';
+$string['pathssubadmindir'] = 'Sommige webhosts gebruiken /admin als een speciale url om toegang tot bijvoorbeeld een controlepaneel te krijgen. Dit kan conflicten veroorzaken met de standaardlocatie van de Moodle admin scripts. Je kunt dit oplossen door de admin map van Moodle te hernoemen en de nieuwe naam hier te zetten. Bijvoorbeeld <em>moodleadmin</em>. Dat zal de admin links in Moodle herstellen.';
+$string['pathssubdataroot'] = 'Je hebt een plaats nodig waar Moodle geüploade bestanden kan bewaren. Deze map moet leesbaar en BESCHRIJFBAAR zijn door de webserver gebruiker (gewoonlijk \'nobody\', \'apache\' of www-data\') en mag niet rechtstreeks toegankelijk zijn vanaf het internet.';
+$string['pathssubdirroot'] = 'Volledig pad naar de Moodle-installatie. Wijzig dit alleen als je symbolische links moet gebruiken.';
+$string['pathssubwwwroot'] = 'Volledig webadres waarlangs de toegang naar Moodle zal gebeuren. Het is niet mogelijk toegang tot Moodle te krijgen via meerdere adressen. Als je site meerdere publieke adressen heeft, dan zul je permanente verwijzingen moeten opzetten voor al die adressen, behalve voor wat je hier invult. Als je site zowel van het internet als van een intranet toegankelijk is, zet dat het internetadres hier en wijzig je DNS-instellingen zodanig dat intranetgebruikers dit publieke adres ook gebruiken.';
+$string['pathsunsecuredataroot'] = 'De plaats van de datamap is niet veilig.';
+$string['pathswrongadmindir'] = 'De adminmap bestaat niet';
+$string['pathswrongdirroot'] = 'Foute Moodle root locatie';
+$string['pdosqlite3'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimenteel! (niet voor productie-omgeving)</strong></b>';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP is niet juist geïnstalleerd met de PGSQL-extentie en kan niet communiceren met PostgreSQL. Controleer je php.ini-bestand of hercompileer PHP.';
 $string['php52versionerror'] = 'PHP versie moet minstens 5.2.4 zijn';
 $string['php52versionhelp'] = '<p>Moodle vereist minstens PHP versie 5.2.4.</p>
 <p>Op dit moment heb je versie $a geïnstalleerd</p>
 <p>Je moet PHP upgraden of verhuizen naar een host met een nieuwere PHP-versie!</p>';
+$string['phpextension'] = '$a PHP-extentie';
 $string['phpversion'] = 'PHP-versie';
-$string['phpversionhelp'] = '<p>Moodle heeft minstens PHP-versie 4.1.0 nodig.</p> <p>De huidige versie op je server is $a</p>
-<p>Je moet PHP upgraden of verhuizen naar een host met een nieuwere versie van PHP!</p>';
+$string['phpversionhelp'] = '<p>Moodle heeft minstens PHP-versie 4.3.0 of 5.1.0 nodig (5.0.x heeft veel bekende problemen).</p> <p>De huidige versie op je server is $a</p>
+<p>Je moet PHP upgraden of verhuizen naar een host met een nieuwere versie van PHP!<br />(Als je 5.0.x draait, kun je ook downgraden naar versie 4.4.x)</p>';
 $string['postgres7'] = 'PostgreSQL (postgres 7)';
 $string['releasenoteslink'] = 'Informatie over deze Moodleversie kun je vinden in de Release Notes op $a';
 $string['safemode'] = 'Safe Mode';
@@ -278,7 +297,6 @@ $string['sitenewsitems'] = 'Nieuwsitems:';
 $string['siteshortname'] = 'Verkorte naam voor de site:';
 $string['sitesummary'] = 'Site samenvatting:';
 $string['skipdbencodingtest'] = 'Negeer DB-encodingtest';
-$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimenteel! (niet gebruiken in productieomgeving)</strong></b>';
 $string['sqliteextensionisnotpresentinphp'] = 'PHP is niet juist geconfigureerd met de SQLite extentie. Controleer je php.ini-bestand of hercompileer PHP.';
 $string['tableprefix'] = 'Tabelvoorvoegsel:';
 $string['upgradingactivitymodule'] = 'Upgraden module';
@@ -340,6 +358,14 @@ $string['writetoconfigfilefaild'] = 'Fout: schrijven naar config.php-bestand mis
 $string['wwwroot'] = 'Web adres';
 $string['wwwrooterror'] = 'Het webadres lijkt niet geldig te zijn - deze Moodle-installatie is blijkbaar niet op die plaats.';
 $string['yourchoice'] = 'Jouw keuze:';
+$string['databasesettingssub_sqlite3_pdo'] = '<b>Type:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimenteel! (niet voor productieomgeving)</strong></b><br />
+<b>Host:</b> pad naar de map waar het databankbestand bewaard zal worden (gebruik volledig pad); gebruik localhost of laat leeg om de datamap van Moodle te gebruiken<br />
+<b>Naam:</b> databank naam, vb moodle (optioneel)<br />
+<b>Gebruiker:</b> de gebruikersnaam voor jouw databank (optioneel)<br />
+<b>Wachtwoord:</b> het wachtwoord voor jouw databank (optioneel)<br />
+<b>Tabelvoorvoegsel:</b> optioneel voorvoegsel voor alle tabelnamen<br />
+De naam van de databank zal bepaald worden door de gebruikersnaam, databanknaam en het wachtwoord dat je net ingegeven hebt.'; // ORPHANED
+$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimenteel! (niet gebruiken in productieomgeving)</strong></b>'; // ORPHANED
 $string['phpversionerror'] = 'PHP-versie moet minstens 4.1.0 zijn'; // ORPHANED
 $string['unsafedirname'] = 'Fout: onveilige tekens in de mapnaam. Geldige tekens zijn a-zA-Z0-9_-'; // ORPHANED
 

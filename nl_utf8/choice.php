@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // choice.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['addmorechoices'] = 'Voeg meer keuzes toe';
@@ -16,6 +16,7 @@ $string['choiceclose'] = 'Tot';
 $string['choicefull'] = 'Deze keuze is vol - er zijn geen beschikbare plaatsen meer.';
 $string['choicename'] = 'Naam keuze';
 $string['choiceopen'] = 'Open';
+$string['choicesaved'] = 'Je keuze is bewaard';
 $string['choicetext'] = 'Keuzetekst';
 $string['displayhorizontal'] = 'Toon horizontaal';
 $string['displaymode'] = 'Hoe tonen?';
@@ -33,6 +34,7 @@ $string['noguestchoose'] = 'Sorry, gasten mogen geen keuze ingeven.';
 $string['noresultsviewable'] = 'De resultaten zijn nu niet zichtbaar.';
 $string['notanswered'] = 'Nog niet beantwoord';
 $string['notopenyet'] = 'Deze activiteit is niet beschikbaar tot $a';
+$string['option'] = 'Optie';
 $string['privacy'] = 'Privacy van de resultaten';
 $string['publish'] = 'Publiceer de resultaten';
 $string['publishafteranswer'] = 'Toon de resultaten aan de leerling nadat die geantwoord heeft';
