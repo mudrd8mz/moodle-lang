@@ -230,6 +230,8 @@ $string['auth_nonetitle'] = '認証なし';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = '「Yes」にした場合、NTLMドメインでシングルサインオンを試みます。<strong>注意:</strong> 動作させるには、ウェブサーバに対して追加のセットアップが必要です。詳細は、 <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>をご覧ください。';
 $string['auth_ntlmsso_enabled_key'] = '有効';
+$string['auth_ntlmsso_ie_fastpath'] = '「Yes」にした場合、NTLM SSO高速経路 (fast path) が有効にされます (特定のステップをバイパスします。クライアントブラウザがMS Internet Explorerの場合のみ動作します)。';
+$string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE fast path?';
 $string['auth_ntlmsso_subnet'] = '設定した場合、このサブネットの中のクライアントのみSSOを試みます。フォーマット: xxx.xxx.xxx.xxx/ビットマスク';
 $string['auth_ntlmsso_subnet_key'] = 'サブネット';
 $string['auth_outofnewemailupdateattempts'] = 'あなたは、メールアドレスの変更許容回数を超えました。あなたのメール変更リクエストは、キャンセルされました。';
