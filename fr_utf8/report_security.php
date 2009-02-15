@@ -53,7 +53,7 @@ $string['check_displayerrors_error'] = 'Le réglage PHP permettant l\'affichage 
 $string['check_displayerrors_name'] = 'Affichage des erreurs PHP';
 $string['check_displayerrors_ok'] = 'Affichage des erreurs PHP désactivé.';
 
-$string['check_emailchangeconfirmation_details'] = '<p>Il est recommandé qu\'un courriel de confirmation soit requis lorsque les utilisateurs modifient leur adresse de courriel dans leur profil. Si cette vérification est désactivée, des spammeurs pourraient utiliser votre serveur pour l\'envoi de pourriels.</p>';
+$string['check_emailchangeconfirmation_details'] = '<p>Il est recommandé qu\'un courriel de confirmation soit requis lorsque les utilisateurs modifient leur adresse de courriel dans leur profil. Si cette vérification est désactivée, des spammeurs pourraient utiliser votre serveur pour l\'envoi de pourriels.</p><p>Le champ du courriel peut par ailleurs être verrouillé par les plugins d\'authentification. Cette possibilité n\'est pas considérée ici.</p>';
 $string['check_emailchangeconfirmation_error'] = 'Les utilisateurs peuvent saisir n\'importe quelle adresse.';
 $string['check_emailchangeconfirmation_info'] = 'Les utilisateurs peuvent saisir que des adresses de courriel des domaines autorisés.';
 $string['check_emailchangeconfirmation_name'] = 'Confirmation de modification d\'adresse de courriel';
