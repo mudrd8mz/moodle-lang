@@ -416,6 +416,7 @@ $string['storedfilenotcreated'] = 'Impossible de créer le fichier «&nbsp;$a->c
 $string['storedfileproblem'] = 'Exception inconnue en rapport avec les fichiers locaux ($a)';
 $string['tagdisabled'] = 'Les tags sont désactivés&nbsp;!';
 $string['tagnotfound'] = 'Le tag indiqué n\'a pas été trouvé dans la base de données';
+$string['targetdatabasenotempty'] = 'La base de données choisie n\'est pas vide. Le transfert a été interrompu par sécurité.';
 $string['themenotinstall'] = 'Ce thème n\'est pas installé&nbsp;!';
 $string['TODO'] = 'TODO';
 $string['transactionvoid'] = 'La transaction ne peut pas être annulée, car cela a déjà été fait';
