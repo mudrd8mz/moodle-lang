@@ -38,8 +38,10 @@ $string['check_displayerrors_details'] = '<p>いくつかのエラーメッセ�
 $string['check_displayerrors_error'] = 'PHPエラーの表示が有効にされています。PHP設定でエラー表示を無効にすることをお勧めします。';
 $string['check_displayerrors_name'] = 'PHPエラーを表示する';
 $string['check_displayerrors_ok'] = 'PHPエラーの表示は、無効にされています。';
-$string['check_emailchangeconfirmation_details'] = '<p>ユーザがプロファイルでメールアドレスを変更する場合、メール確認ステップが推奨されています。無効にされている場合、スパム送信者がサーバをスパムの送信に悪用する恐れがあります。</p>';
+$string['check_emailchangeconfirmation_details'] = '<p>ユーザがプロファイルでメールアドレスを変更する場合、メール確認ステップが推奨されています。無効にされている場合、スパム送信者がサーバをスパム送信に悪用する恐れがあります。</p>
+<p>認証プラグインからロックされたメールアドレスフィールドに関して、この可能性を考える必要はありません。</p>';
 $string['check_emailchangeconfirmation_error'] = 'ユーザは、どのようなメールアドレスでも入力することができます。';
+$string['check_emailchangeconfirmation_info'] = 'ユーザは、許可されたドメインからのみメールアドレスを入力することができます。';
 $string['check_emailchangeconfirmation_name'] = 'メール変更確認';
 $string['check_emailchangeconfirmation_ok'] = 'メールの変更は、確認されるべきです。';
 $string['check_embed_details'] = '<p>無制限のオブジェクト埋め込みは、非常に危険です - すべての登録ユーザは、他のサーバに対してXSSアタックを開始することができます。この設定は、実稼動サーバで無効にされるべきです。</p>';
@@ -84,9 +86,9 @@ $string['check_passwordpolicy_details'] = '<p>非常に多くの場合、不正�
 $string['check_passwordpolicy_error'] = 'パスワードポリシーが設定されていません。';
 $string['check_passwordpolicy_name'] = 'パスワードポリシー';
 $string['check_passwordpolicy_ok'] = 'パスワードポリシーが有効にされています。';
-$string['check_riskadmin_detailsok'] = '<p>以下の管理者リストを確認してください:</p><p>$a</p>';
-$string['check_riskadmin_detailswarning'] = '<p>以下の管理者リストを確認してください。:</p><p>$a->admins</p>
-<p>システムコンテクストのみへの管理者ロール割り当てをお勧めします。以下のユーザは、サポートされない管理者ロールが割り当てられています:</p><p>$a->unsupported</p>';
+$string['check_riskadmin_detailsok'] = '<p>以下の管理者リストを確認してください:</p>$a';
+$string['check_riskadmin_detailswarning'] = '<p>以下の管理者リストを確認してください。:</p>$a->admins
+<p>システムコンテクストのみへの管理者ロール割り当てをお勧めします。以下のユーザは、サポートされない管理者ロールが割り当てられています:</p>$a->unsupported';
 $string['check_riskadmin_name'] = '管理者';
 $string['check_riskadmin_ok'] = '$a 名のサーバ管理者が登録されています。';
 $string['check_riskadmin_warning'] = '$a->admincount 名のサーバ管理者および $a->unsupcount 名のサポートされない管理者ロールの割り当てが見つかりました。';
