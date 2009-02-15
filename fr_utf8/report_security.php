@@ -27,7 +27,7 @@ $string['check_cookiesecure_ok'] = 'Cookies sécurisés activés.';
 $string['check_courserole_anything'] = 'La capacité «&nbsp;doanything&nbsp;» ne doit pas être accordée dans ce <a href=\"$a\">contexte</a>.';
 $string['check_courserole_details'] = '<p>Chaque cours possède son propre rôle par défaut attribué aux nouveaux participants inscrits. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Étudiant</em>.</p>';
 $string['check_courserole_error'] = 'Rôle par défaut des cours défini de façon incorrecte&nbsp;!';
-$string['check_courserole_legacy'] = 'Type de rôle historique non supporté détecté pour le <a href=\"$a\">rôle</a>.';
+$string['check_courserole_riskylegacy'] = 'Type de rôle historique avec risque détecté dans <a href=\"$a->url\">$a->shortname</a>.';
 $string['check_courserole_name'] = 'Rôles par défaut (cours)';
 $string['check_courserole_notyet'] = 'Seul le rôle par défaut des cours est utilisé.';
 $string['check_courserole_ok'] = 'Définition correcte des rôles par défaut des cours.';
@@ -36,7 +36,7 @@ $string['check_courserole_risky'] = 'Capacité comportant des risques détectée
 $string['check_defaultcourserole_anything'] = 'La capacité «&nbsp;doanything&nbsp;» ne doit pas être accordée dans ce <a href=\"$a\">contexte</a>.';
 $string['check_defaultcourserole_details'] = '<p>Le rôle de participant par défaut pour l\'inscription aux cours indique le rôle attribué par défaut lors de l\'inscription. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Étudiant</em>.</p>';
 $string['check_defaultcourserole_error'] = 'Rôle par défaut du cours «&nbsp;$a&nbsp;» incorrectement défini&nbsp;!';
-$string['check_defaultcourserole_legacy'] = 'Type historique non supporté.';
+$string['check_defaultcourserole_legacy'] = 'Type historique avec risque.';
 $string['check_defaultcourserole_name'] = 'Rôle par défaut des cours (global)';
 $string['check_defaultcourserole_notset'] = 'Le rôle par défaut n\'est pas défini.';
 $string['check_defaultcourserole_ok'] = 'Définition correcte du rôle par défaut du site.';
