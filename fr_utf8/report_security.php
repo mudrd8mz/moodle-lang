@@ -55,6 +55,7 @@ $string['check_displayerrors_ok'] = 'Affichage des erreurs PHP désactivé.';
 
 $string['check_emailchangeconfirmation_details'] = '<p>Il est recommandé qu\'un courriel de confirmation soit requis lorsque les utilisateurs modifient leur adresse de courriel dans leur profil. Si cette vérification est désactivée, des spammeurs pourraient utiliser votre serveur pour l\'envoi de pourriels.</p>';
 $string['check_emailchangeconfirmation_error'] = 'Les utilisateurs peuvent saisir n\'importe quelle adresse.';
+$string['check_emailchangeconfirmation_info'] = 'Les utilisateurs peuvent saisir que des adresses de courriel des domaines autorisés.';
 $string['check_emailchangeconfirmation_name'] = 'Confirmation de modification d\'adresse de courriel';
 $string['check_emailchangeconfirmation_ok'] = 'Confirmation lors du changement de l\'adresse de courriel dans le profil utilisateur.';
 
