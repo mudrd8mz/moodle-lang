@@ -15,11 +15,11 @@ $string['check_courserole_anything'] = 'De doe alles-mogelijkheid mag in deze <a
 $string['check_courserole_details'] = '<a>Voor elke cursus wordt er één standaard rol gespecifiëerd. Zorg er voor dat er geen riskante mogelijkheden voor deze rol ingeschakeld zijn.</p>
 <p>De enige standaardrol die ondersteund wordt als standaard cursus rol is <em>Leerling</em>.</p>';
 $string['check_courserole_error'] = 'Fout gedefinieerde standaard cursus rollen gedetecteerd!';
-$string['check_courserole_legacy'] = 'Niet-ondersteund standaard type gedetecteerd in de  <a href=\"$a\">rol</a>.';
 $string['check_courserole_name'] = 'Standaard cursusrollen';
 $string['check_courserole_notyet'] = 'Gebruikt enkel standaard cursusrol.';
 $string['check_courserole_ok'] = 'Standaard cursusroldefinities OK.';
 $string['check_courserole_risky'] = 'Risicomogelijkheden gedetecteerd in <a href=\"$a\">context</a>.';
+$string['check_courserole_riskylegacy'] = 'Risico standaardtype gedetecteerd in <a href=\"$a->url\">$a->shortname</a>.';
 $string['check_defaultcourserole_anything'] = 'De doe alles mogelijkheid mag niet toegelaten worden in deze <a href=\"$a\">context</a>.';
 $string['check_defaultcourserole_details'] = '<p>De standaard rol voor aanmeldingen specifieerd de standaardrol voor leerlingen in cursussen. Zorg ervoor dat er geen risicomogelijkheden toegelaten zijn in deze rol.</p>
 <p>De enige standaardrol die ondersteund wordt als standaard cursus rol is <em>Leerling</em>.</p>';
@@ -41,6 +41,7 @@ $string['check_displayerrors_name'] = 'Tonen van PHP-fouten';
 $string['check_displayerrors_ok'] = 'Tonen van PHP-fouten uitgeschakeld';
 $string['check_emailchangeconfirmation_details'] = '<p>Er wordt aangeraden gebruikers hun e-mailadres te laten bevestigen wanneer ze dat wijzigen in hun profiel. Indien uitgeschakeld kunnen spammers proberen de server te misbruiken om spam te versturen.</p>';
 $string['check_emailchangeconfirmation_error'] = 'Gebruikers kunnen gelijk welk e-mailadres ingeven';
+$string['check_emailchangeconfirmation_info'] = 'Gebruikers kunnen alleen e-mailadressen gebruiken van toegelaten domeinen.';
 $string['check_emailchangeconfirmation_name'] = 'Wijzig e-mailadres bevestiging';
 $string['check_emailchangeconfirmation_ok'] = 'Bevestiging van de wijziging van het e-mailadres in het gebruikersprofiel.';
 $string['check_embed_details'] = '<p>Het onbeperkt embedden van objecten is erg gevaarlijk - elke geregistreerde gebruiker kan een XSS-aanval starten tegen andere servergebruikers. Deze instelling moet uitgeschakeld worden op productieservers.</p>';
@@ -114,5 +115,6 @@ $string['statusok'] = 'OK';
 $string['statusserious'] = 'Ernstig';
 $string['statuswarning'] = 'Waarschuwing';
 $string['timewarning'] = 'Deze bewerking kan lang duren, wees geduldig.';
+$string['check_courserole_legacy'] = 'Niet-ondersteund standaard type gedetecteerd in de  <a href=\"$a\">rol</a>.'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['1day'] = '1 dag';
@@ -65,7 +65,7 @@ $string['answersingleyes'] = 'Slechts één antwoord';
 $string['answerswithacceptederrormarginmustbenumeric'] = 'Antwoorden met een geaccepteerde fout moeten numeriek zijn';
 $string['answertoolong'] = 'Antwoord is te lang na lijn $a (maximum 255 tekens)';
 $string['aon'] = 'AON-opmaak';
-$string['areyousuredeleteselected'] = 'Ben je er zeker van dat je de geselecteerde vragen wil verwijderen?';
+$string['areyousureremoveselected'] = 'Ben je zeker dat je alle geselecteerde vragen wil verwijderen?';
 $string['attempt'] = 'Poging $a';
 $string['attemptalreadyclosed'] = 'Deze poging is al beëindigd.';
 $string['attemptclosed'] = 'Poging is nog niet gesloten';
@@ -542,6 +542,7 @@ $string['quizcloses'] = 'Test gaat dicht';
 $string['quizcloseson'] = 'Deze test sluit op $a';
 $string['quizisclosed'] = 'Deze test is gesloten ($a)';
 $string['quizisopen'] = 'Deze test is open ($a)';
+$string['quizisopenwillclose'] = 'Test open (sluit $a)';
 $string['quiznavigation'] = 'Testnavigatie';
 $string['quiznotavailable'] = 'De test zal nog niet beschikbaar zijn tot :  $a';
 $string['quizopen'] = 'Open de test';
@@ -576,6 +577,7 @@ $string['relative'] = 'Relatief';
 $string['remove'] = 'Verwijder';
 $string['removeallquizattempts'] = 'Verwijder alle pogingen van de test';
 $string['removeemptypage'] = 'Verwijder lege pagina';
+$string['removeselected'] = 'Verwijder selectie';
 $string['rename'] = 'Hernoem';
 $string['renderingserverconnectfailed'] = 'De server $a slaagde er niet in een RQP aanvraag te verwerken. Controleer of de URL juist is.';
 $string['reorderquestions'] = 'Verander de vraagvolgorde';
@@ -740,6 +742,7 @@ $string['youmustwait'] = 'Je moet wachten voor je de test opnieuw mag doen. Je m
 $string['youneedtoenrol'] = 'Je moet aangemeld zijn bij deze cursus voor je deze test kunt maken.';
 $string['yourfinalgradeis'] = 'Je eindcijfer voor deze test is $a';
 $string['zerosignificantfiguresnotallowed'] = 'Het juiste antwoord kan geen nul beduidende cijfers hebben!';
+$string['areyousuredeleteselected'] = 'Ben je er zeker van dat je de geselecteerde vragen wil verwijderen?'; // ORPHANED
 $string['closedat'] = 'gesloten: $a'; // ORPHANED
 $string['closesat'] = 'sluit: $a'; // ORPHANED
 $string['openedat'] = 'geopend: $a'; // ORPHANED
