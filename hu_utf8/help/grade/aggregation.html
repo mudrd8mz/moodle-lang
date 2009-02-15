@@ -1,0 +1,51 @@
+<h1>Kategória összegzése</h1>
+<p>Ezzel a menüvel kiválaszthatja az ezen kategória esetén az egyes résztvevők globális pontjának kiszámításához használandó összegzési stratégiát. A különféle lehetőségek leírását l. alább.</p>
+
+<p>Először a pontok átalakulnak százalékokká (0-tól 1-ig terjedő intervallum, ezt normalizálásnak nevezik), majd az alábbi függvények valamelyikével összegződnek, végül átalakulnak a kapcsolódó kategóriatétel tartományává (a <em>Minimális pont</em> és a <em>Maximális pont</em> között).</p>
+
+<p><strong>Fontos</strong>: Az üres pont mindössze az osztályozó naplóból hiányzó bejegyzésnek minősül, s mint ilyen, különféle dolgokat jelenthet. Utalhat például egy olyan résztvevőre, aki még nem adta le a feladatát, egy leadott feladatra, amelyet a tanár még nem pontozott, vagy egy olyan pontra, amelyet az osztályozó naplót vezető kézzel kitörölt. Ezért az ilyen "üres pontok" értelmezésénél ajánlott óvatosan eljárni.</p>
+
+<dl id="grade-aggregation-help">
+    <dt>Pontok átlaga</dt>        
+    <dd>Az összes pont összege a pontok számával elosztva.</dd>
+    <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategória max. 100:<br />
+                     <code>(0,7 + 0,25 + 1,0)/3 = 0,65 --> 65/100</code></dd>
+                     
+    <dt>Súlyozott átlag</dt>
+        <dd>Az egyes pontokhoz súly rendelhető, mely a számtani közép kiszámítása során a globális átlagban befolyásolja az egyes tételek jelentőségét.</dd>
+        <dd class="example">A1 70/100 súly 10, A2 20/80 súly 5, A3
+                         10/10 súly 3, kategória max. 100:<br /><code>(0,7*10 + 0,25*5 + 1,0*3)/18 = 0,625 --> 62,5/100</code></dd>
+    
+    <dt>Egyszerű súlyozott átlag</dt>
+        <dd>Annyiban tér el a <em>Súlyozott átlag</em>-tól, hogy a súlyszámítás alapja a <em>Maximális pont</em> - <em>Minimális pont</em> minden egyes tétel esetén. Egy 100 pontos feladat súlya 100, a 10 pontos feladaté pedig 10.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategória max. 100:<br />
+                         <code>(0,7*100 + 0,25*80 + 1,0*10)/190 = 0,526 --> 52,6/100</code></dd>
+    
+    <dt>Pontok átlaga (külön kreditpontokkal)</dt>
+        <dd>Számtani átlag ferdítéssel. Régi, ma már nem támogatott összegzési stratégia, amely itt a régi tevékenységekkel való visszamenőleges kompatibilitást szolgálja.</dd>
+    
+    <dt>Pontok mediánja</dt>
+        <dd>A középső pont (vagy két középső pont átlaga), amikor a pontok nagyságrendben vannak elrendezve. Előnye az átlaggal szemben, hogy nem befolyásolják a kiugróan eltérő adatok (az átlagtól szokatlanul távol eső pontok).</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategória max.  100:<br />
+                         <code>0,7 + 0,25 + 1,0 --> 0,25 --> 25/100</code></dd>
+    
+    <dt>Legalacsonyabb pont</dt>
+        <dd>Eredménye a normalizálás utáni legalacsonyabb pont. Rendszerint együtt használatos a <em>Csak nem üres pontok összegzésével</em>.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategória max.  100:<br />
+                         <code>min(0,7 + 0,25 + 1,0) = 0,25 --> 25/100</code></dd>
+                         
+    <dt>Legmagasabb pont</dt>
+        <dd>Eredménye a normalizálás utáni legmagasabb pont.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategória max.  100:<br />
+                         <code>max(0,7 + 0,25 + 1,0) = 1,0 --> 100/100</code></dd>
+    
+    <dt>Pontok módusza</dt>
+        <dd>A módusz a leggyakrabban előforduló pont. Gyakrabban használatos nem számjegyes pontok esetén. Előnye az átlaggal szemben, hogy nem befolyásolják a kiugróan eltérő adatok (az átlagtól szokatlanul távol eső pontok). Ugyanakkor értelmét veszti, ha egynél több a leggyakrabban előforduló pont (közülük csak egy marad meg), vagy ha minden pont eltér a többitől.</dd>
+        <dd class="example">A1 70/100, A2 35/50, A3 20/80, A4 10/10, A5 7/10 kategória max.  100:<br />
+                         <code>mode(0,7; 0,7; 0,25; 1,0; 0,7) = 0,7 --> 70/100</code></dd>
+    
+    <dt>Pontok összege</dt>
+        <dd>Az összes pontérték összege. A skálapontokat a rendszer figyelmen kívül hagyja. Ez az egyetlen típus, amely a pontokat belsőleg nem alakítja át százalékokká (normalizálás). A kapcsolódó kategóriatétel <em>maximális pontjának</em> kiszámítása automatikusan, az összes összegzett tételből megállapított maximumok összegeként történik.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10:<br />
+                         <code>70 + 20 + 10 = 100/190</code></dd>
+</dl>   

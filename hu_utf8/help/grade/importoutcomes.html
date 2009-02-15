@@ -1,0 +1,15 @@
+﻿<h1>Az eredmények importálása</h1>
+<p>Az eredményeket importálhatja .csv fájlok formájában. Ezek formátuma a következő:</p>
+<table class="generaltable" cellpadding="4">
+    <tr> <th class="header">Mező neve</th> <th class="header">Leírás</th> <th class="header">Kötelező</th> <th class="header">Formátum</th> </tr>
+    <tr> <td class="cell">outcome_name</td> <td class="cell">Az eredmény teljes megnevezése </td> <td class="cell">Igen</td><td class="cell">Szöveg</td> </tr>
+    <tr> <td class="cell">outcome_shortname</td><td class="cell">Az eredmény rövid megnevezése</td> <td class="cell">Igen</td> <td class="cell">Szöveg</td> </tr>
+    <tr> <td class="cell">outcome_description</td><td class="cell">Az eredmény leírása </td> <td class="cell">Nem</td> <td class="cell">Szöveg</td> </tr>
+    <tr> <td class="cell">scale_name</td><td class="cell">Az alkalmazott skála neve</td> <td class="cell">Igen</td> <td class="cell">Szöveg</td> </tr>
+    <tr> <td class="cell">scale_items</td><td class="cell">A skálaelemek vesszővel elválasztott felsorolása</td> <td class="cell">Igen</td> <td class="cell">Szöveg</td> </tr>
+    <tr> <td class="cell">scale_description</td><td class="cell">A skála leírása </td> <td class="cell">Nem</td> <td class="cell">Szöveg</td> </tr>
+</table>
+
+<p>Íme egy példa:</p>
+<pre>outcome_name;outcome_shortname;outcome_description;scale_name;scale_items;scale_description
+Részvétel;részvétel;;Részvétel skálája;"Csekély részvétel vagy hiányzás, Kielégítő részvétel, Teljes körű részvétel";</pre>
