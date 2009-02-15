@@ -416,6 +416,7 @@ $string['storedfilenotcreated'] = 'Kon bestand \"$a->contextid/$a->filearea/$a->
 $string['storedfileproblem'] = 'Onbekende uitzondering opgetreden in verband met lokale bestanden ($a)';
 $string['tagdisabled'] = 'Tags zijn uitgeschakeld!';
 $string['tagnotfound'] = 'Die tag kon niet in de databank gevonden worden';
+$string['targetdatabasenotempty'] = 'De doeldatabank is niet leeg. Transfer afgebroken om veiligheidsredenen.';
 $string['themenotinstall'] = 'Dit thema is niet geïnstalleerd';
 $string['transactionvoid'] = 'Transactie kan niet geannuleerd worden omdat ze al geannuleerd is.';
 $string['unenrolerror'] = 'Er is een fout opgetreden bij het afmelden van die gebruiker.';
