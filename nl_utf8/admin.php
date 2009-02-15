@@ -488,6 +488,8 @@ Het is dan ook aangeraden om een lokale kopie van de gratis GeoLite City databas
 IP-adreslocatie wordt dan getoond op een eenvoudige kaart of op een kaart van Google Maps. Merk op dat je hiervoor een Google account nodig hebt en een gratis Google Maps API sleutel moet aanvragen om de interactieve kaarten in te schakelen.';
 $string['iplookupmaxmindnote'] = 'Dit product bevat GeoLite data gemaakt door  <a href=\"http://www.maxmind.com/\">http://www.maxmind.com/</a>.';
 $string['iplookupnetgeonote'] = 'Nu wordt de NetGeo server gebruikt om geografische informatie op te zoeken. Als je meer accurate informatie nodig hebt, raden we aan om een lokale kopie van de MaxMind GeoLite database te installeren.';
+$string['ipwhitelist'] = 'IP whitelist';
+$string['ipwhitelistdesc'] = 'Waneer deze lijst niet leeg is, dan zullen alleen IP-adressen in deze lijst het recht hebben om de webservice te gebruiker met gebruikersnaam: <strong>$a->username</strong>';
 $string['keeptagnamecase'] = 'Hoofdletters tag-namen behouden';
 $string['lang'] = 'Standaardtaal';
 $string['lang16notify'] = 'Vanaf Moodle 1.6 kun je rechtstreeks van download.moodle.org taalpakketten installeren en updaten door op onderstaande link te klikken';
@@ -531,6 +533,7 @@ $string['maintfileopenerror'] = 'Fout bij het openen van de onderhoudsbestanden!
 $string['maintinprogress'] = 'Onderhoud bezig...';
 $string['managelang'] = '<b>Beheer</b>';
 $string['manageqtypes'] = 'Beheer vraagtypes';
+$string['managews'] = 'Beheer webservices';
 $string['maxbytes'] = 'Maximum bestandsgrootte upload';
 $string['maxeditingtime'] = 'Maximumtijd om berichten te bewerken';
 $string['mbstringrecommended'] = 'Als je site andere talen dan die uit de Latin1 tekenset gebruikt, dan is het installeren van de optionele MBSTRING library ten zeerste aangeraden om de performantie van de site te verhogen.';
@@ -872,6 +875,10 @@ $string['verifychangedemail'] = 'Beperk toegelaten domeinen bij het wijzigen van
 $string['warningcurrentsetting'] = 'Foute waarde: $a';
 $string['webproxy'] = 'Web proxy';
 $string['webproxyinfo'] = 'Vul onderstaande opties in als je Moodle server niet rechtstreeks op internet kan. Internettoegang is nodig voor de download van geografische informatie, taalpakketten, RSS-feeds, tijdzones enz.<br /><em>Je kunt best de PHP cURL extentie installeren.</em>';
+$string['webserviceprotocols'] = 'Webservice servers';
+$string['webservices'] = 'Webservices';
+$string['webservicesystemsettings'] = 'instellingen';
+$string['webserviceusersettings'] = 'Webservice gebruikersinstellingen';
 $string['xmlrpcrecommended'] = 'Het installeren van de optionele XMLRPC-extentie is nuttig voor de werking van Moodle Netwerk';
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['ziprequired'] = 'De ZIP-PHP-extentie is nu vereist voor Moodle. Info-ZIP en PclZip worden niet meer gebruikt.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
@@ -232,6 +232,8 @@ $string['auth_nonetitle'] = 'Geen authenticatie';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'Zet dit op Ja om Single-sign-on met het NTLM-domein te bekomen.<strong>Opmerking</strong>dit vereist bijkomende instellingen op de webserver. Zie <a href=\"http://docs.moodle.org/nl/NTLM_authenticatie\">http://docs.moodle.org/nl/NTLM_authenticatie</a';
 $string['auth_ntlmsso_enabled_key'] = 'Inschakelen';
+$string['auth_ntlmsso_ie_fastpath'] = 'Zet op ja om NTLM SSO fast path in in te schakelen (slaat sommige stappen over en werkt alleen als de browser MS Internet Explorer is)';
+$string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE fast path?';
 $string['auth_ntlmsso_subnet'] = 'Indien ingeschakeld, zal alleen SSO geprobeerd worden met clients in dit subnet. Opmaak: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Subnet';
 $string['auth_outofnewemailupdateattempts'] = 'Je hebt het maximum aantal pogingen om je wijziging van e-mailadres te bevestigen bereikt. Je wijzigingsaanvraag is geannuleerd.';
