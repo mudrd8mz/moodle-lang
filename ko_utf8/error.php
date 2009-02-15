@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090212) (2009012901)
+      // error.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
 
 
 $string['TODO'] = '실행목록';
@@ -416,6 +416,7 @@ $string['storedfilenotcreated'] = '\"$a->contextid/$a->filearea/$a->itemid/$a->f
 $string['storedfileproblem'] = '파일 ($a)에 알 수 없는 예외 규정이 적용되어 있음';
 $string['tagdisabled'] = '태그 사용 불가!';
 $string['tagnotfound'] = '지정한 태그가 데이터베이스에 없음';
+$string['targetdatabasenotempty'] = '대상 데이터베이스가 비어있지 않음. 안전성을 이유로 전송 취소';
 $string['themenotinstall'] = '테마가 설치되지 않았음!';
 $string['transactionvoid'] = '이미 취소되었기 때문에 거래를 취소할 수 없음';
 $string['unenrolerror'] = '그 사람을 제명시키려 하는 중에 오류 발생';

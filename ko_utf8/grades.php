@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090209) (2009012901)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
 
 
 $string['activities'] = '활동';
@@ -70,6 +70,7 @@ $string['changedefaults'] = '초기값 변경';
 $string['changereportdefaults'] = '보고서 기본설정 변경';
 $string['chooseaction'] = '활동 선택';
 $string['choosecategory'] = '범주 선택';
+$string['combo'] = '탭 및 펼침메뉴';
 $string['compact'] = '간결한';
 $string['configaggregationposition'] = '실점수를 참조한 채점자 보고서에서 총 합계 열의 위치';
 $string['configaggregationview'] = '총 합계가 표시되는 방식: 실제 점수옆에 혹은 실제 성적 혹은 총합계 성적 중 한번에 한 형식만 테이블에 보이는 간결한 형식';
@@ -140,6 +141,7 @@ $string['displaylettergrade'] = '문자 등급 표시';
 $string['displaypercent'] = '퍼센트 표시';
 $string['displaypoints'] = '점수 표시';
 $string['displayweighted'] = '가중 점수 표시';
+$string['dropdown'] = '펼침메뉴';
 $string['droplow'] = '최하위 낙제';
 $string['droplowhelp'] = '이를 설정해 놓으면 최하위 X를 기준으로 그 이하는 탈락시킨다.';
 $string['dropped'] = '낙제';
@@ -349,6 +351,7 @@ $string['movingelement'] = '$a 이동';
 $string['multfactor'] = '가중치';
 $string['multfactorhelp'] = '전체 항목에 대해 이 항목이 차지하는 비중';
 $string['myreportpreferences'] = '내 보고서 선택사항';
+$string['navmethod'] = '진행표시 방법';
 $string['neverdeletehistory'] = '이력을 삭제하지 마시오';
 $string['newcategory'] = '새 범주';
 $string['newitem'] = '새 점수 항목';
@@ -510,6 +513,7 @@ $string['submittedon'] = '제출됨: $a';
 $string['switchtofullview'] = '모두 보기로 전환';
 $string['switchtosimpleview'] = '간딘히 보기로 전환';
 $string['synclegacygrades'] = '기준 성적과 동기화';
+$string['tabs'] = '탭';
 $string['topcategory'] = '상위 범주';
 $string['total'] = '종합';
 $string['totalweight100'] = '가중치의 합이 100입니다.';

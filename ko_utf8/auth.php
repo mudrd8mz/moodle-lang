@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
 
 
 $string['CASform'] = '인증 선택';
@@ -238,6 +238,8 @@ $string['auth_nonetitle'] = '인증절차 생략';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'NTLM 도메인에서 싱글사인온을 하려면 예로 설정. <strong>노트:</strong> 웹서버에 추가작업이 필요합니다. <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a> 를 참조하십시요.';
 $string['auth_ntlmsso_enabled_key'] = '활성화';
+$string['auth_ntlmsso_ie_fastpath'] = 'NTLM SSO fast path를 활성화하려면 예로 설정(MS 익스플로어를 브라우저로 사용할 경우에만 약간의 과정 건너 뜀)';
+$string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE fast path?';
 $string['auth_ntlmsso_subnet'] = '설정되면 이 서브넷에 있는 클라이언트에 대해 SSO를 시도합니다.  포맷: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = '서브넷';
 $string['auth_outofnewemailupdateattempts'] = '허용된 이메일 주소 변경의 갱신 시도 횟수를 넘겼습니다. 요청이 기각되었습니다.';
