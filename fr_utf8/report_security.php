@@ -107,8 +107,8 @@ $string['check_passwordpolicy_error'] = 'Règles pour les mots de passe non déf
 $string['check_passwordpolicy_name'] = 'Règles pour les mots de passe';
 $string['check_passwordpolicy_ok'] = 'Des règles sont définies pour les mots de passe.';
 
-$string['check_riskadmin_detailsok'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs&nbsp;:</p><p>$a</p>';
-$string['check_riskadmin_detailswarning'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs&nbsp;:</p><p>$a->admins</p><p>Il est recommandé de n\'attribuer le rôle d\'administrateur que dans le contexte Système. Les utilisateurs ci-dessous ont des attributions non supportées du rôle d\'administrateur&nbsp;:</p><p>$a->unsupported</p>';
+$string['check_riskadmin_detailsok'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système&nbsp;:</p>$a';
+$string['check_riskadmin_detailswarning'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système&nbsp;:</p>$a->admins<p>Il est recommandé de n\'attribuer le rôle d\'administrateur que dans le contexte Système. Les utilisateurs ci-dessous ont des attributions non supportées du rôle d\'administrateur&nbsp;:</p><p>$a->unsupported</p>';
 $string['check_riskadmin_name'] = 'Administrateurs';
 $string['check_riskadmin_ok'] = '$a administrateur(s) Moodle trouvés.';
 $string['check_riskadmin_warning'] = '$a->admincount administrateurs et $a->unsupcount attributions du rôle d\'administrateurs trouvés.';
