@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090212) (2009012901)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090216) (2009012901)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -488,6 +488,8 @@ $string['iplookup'] = 'IP 주소 열람';
 $string['iplookupinfo'] = '기본적으로 무들은 IP 주소의 위치를 찾기위해 무료 NetGeo (The Internet Geographic Database) 서버를 이용하지만, 안타깝게도 더이상 정상적으로 유지되지 않고 <em>대제적으로 부정확한</em> 자료를 회신합니다. 따라서 MaxMind의 공개 GeoLite City 데이터베이스 사본을 설치할 것을 권합니다.<br />IP 주소의 위치는 단순한 지도나 구글맵을 이용하여 표시될 수 있습니다. 이를 이용하기 위해서는 구글 계정과 구글맵에 제대로 표시하기 위한 공개 구글맵 API 암호를 적용해 주어야 합니다.';
 $string['iplookupmaxmindnote'] = '이 제품은 MaxMind(<a href=\"http://www.maxmind.com/\">http://www.maxmind.com/</a>)의 의해 제작된 GeoLite의 자료를 포함하고 있습니다.';
 $string['iplookupnetgeonote'] = 'NetGeo서버는 지리적인 정보를 검색하기 위해 사용되고 있습니다. 좀 더 자세한 결과를 원한다면 MaxMind GeoLite database의 지역 사본을 설치하기 바랍니다.';
+$string['ipwhitelist'] = 'IP 추천 목록';
+$string['ipwhitelistdesc'] = '비어있지 않으면, 여기에 수록된 IP만이 사용자아이디( <strong>$a->username</strong> )의 웹 서비스로 허용된다.';
 $string['keeptagnamecase'] = '태그 명칭 유지';
 $string['lang'] = '초기 설정 언어';
 $string['lang16notify'] = '무들 1.6과 그 이후의 판은 아래에 연결된 download.moodle.org를 통해 직접 언어팩을 설치하고 업데이트 할 수 있습니다.';
@@ -531,6 +533,7 @@ $string['maintfileopenerror'] = '유지 관리 파일 열기 오류';
 $string['maintinprogress'] = '유지 관리 진행 중...';
 $string['managelang'] = '<b>언어팩 관리</b>';
 $string['manageqtypes'] = '문제 유형 관리';
+$string['managews'] = '웹서비스 관리';
 $string['maxbytes'] = '올릴 파일의 최대 크기';
 $string['maxeditingtime'] = '게시물 수정 최대 시한';
 $string['mbstringrecommended'] = '당신의 사이트가 라틴언어계열이 아닌 언어를 지원하는 경우, 사이트의 성능을 향상시키기 위해서 MBSTRING 라이브러리 설치를 권장합니다.';
@@ -873,6 +876,10 @@ $string['verifychangedemail'] = '이메일 변경시 도메인 점검';
 $string['warningcurrentsetting'] = '잘못된 값: $a';
 $string['webproxy'] = '웹 프록시';
 $string['webproxyinfo'] = '무들서버가 인터넷을 직접 접속할 수 없는 경우 다음 옵션을 입력하세요. 환경변수, 언어팩, RSS 피드, 표준시 등을 내려받기 위해서는 인터넷 접속이 이루어져야 합니다. <br/><em> PHP cURL 확장자를 설치할 것을 권고합니다. </em>';
+$string['webserviceprotocols'] = '웹 서비스 서버';
+$string['webservices'] = '웹 서비스';
+$string['webservicesystemsettings'] = '일반 설정';
+$string['webserviceusersettings'] = '웹 서비스 사용자 설정';
 $string['xmlrpcrecommended'] = '무들 네트웍이 제대로 작동하려면 추가적인 xmlrpc 확장 설치가 유용합니다.';
 $string['xmlstrictheaders'] = 'XML 정규 헤더';
 $string['ziprequired'] = '더 이상  info-ZIP 이나 PclZip 라이브러리가 사용되지 않으므로 Zip PHP확장자가 필요합니다.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090129) (2009011900)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090216) (2009012901)
 
 
 $string['check_configrw_details'] = '<p>웹 서버에 의해 config.php 파일이 변조되는 것을 막기 위해 설치 후 이 파일의 읽고쓰기 권한을 변경시켜 둘 것을 권장. 다만 이러한 조치가 특별히 서버의 보안을 증진시킨다는 것이 아니라, 외부의 침탈 의도를 저하시키거나 부분적으로 제한할 수 있다는 사실을 주목하기 바랍니다.</p>';
@@ -14,11 +14,11 @@ $string['check_courserole_anything'] = '본 <a href=\"$a\">영역</a>에서는 �
 $string['check_courserole_details'] = '<p>각 강좌별로 하나의 기본 등록 역할을 지정해야 함. 이 역할에 위험부담이 있는 권한이 주어지지 않도록 주의 요망</p>
 <p>강좌의 기본 역할에 통상적으로 지원되는 유형은 <em>학생</em>임.</p>';
 $string['check_courserole_error'] = '잘못 정의된 강좌의 기본 역할이 발견되었음!';
-$string['check_courserole_legacy'] = '지원하지 않는 형식이 <a href=\"$a\">역할</a>에서 발견됨';
 $string['check_courserole_name'] = '강좌의 기본 역할';
 $string['check_courserole_notyet'] = '사용된 기본강좌 역할';
 $string['check_courserole_ok'] = '강좌의 기본 역할 점검 통과';
 $string['check_courserole_risky'] = '<a href=\"$a\">영역</a>에서 위험한 권한 부여 발견';
+$string['check_courserole_riskylegacy'] = '<a href=\"$a->url\">$a->shortname</a>에서 위험성이 있는 정규 역할 유형이 검출됨';
 $string['check_defaultcourserole_anything'] = '이 <a href=\"$a\">영역</a>에서는 사이트의 전권을 부여할 수 없음';
 $string['check_defaultcourserole_details'] = '<p>강좌 등록 후 학생의 역할은 강좌의 기본으로 지정되어 있음. 따라서 이 역할에 위험 소지가 있는 권한을 부여하지 않토록 하기 바람.</p>
 <p>지원하는 정규 기본 역할은 <em>학생</em>임</p>';
@@ -40,6 +40,7 @@ $string['check_displayerrors_name'] = 'PHP 오류 표시';
 $string['check_displayerrors_ok'] = 'PHP 오류 표시 않함';
 $string['check_emailchangeconfirmation_details'] = '<p>사용자 신상 명세에서 자신의 e-mail 주소를 변경할 경우 이메일 검증을 요구하는 것은 바람직함. 만약 이를 하지않을 경우 스패머가 이를 악용할 소지가 있음</p>';
 $string['check_emailchangeconfirmation_error'] = '사용자는 어떤 이메일 주소라도 입력할 수 있음';
+$string['check_emailchangeconfirmation_info'] = '사용자는 허용된 도메인의 이메일 주소만 입력할 수 있음';
 $string['check_emailchangeconfirmation_name'] = '이메일 변경 확인';
 $string['check_emailchangeconfirmation_ok'] = '이메일 변경은 반드시 인증을 받아야 함';
 $string['check_embed_details'] = '<p>무제한 객체 탑재를 허용하는 것은 매우 위험 - 등록한 어떤 사용자라도 서버내 타 사용자를 공격할 수 있는 XSS를 올릴 수 있기 때문이다. 상용 서버에서는 이를 꺼 두기 바란다.</p>';
@@ -113,5 +114,6 @@ $string['statusok'] = '통과';
 $string['statusserious'] = '심각';
 $string['statuswarning'] = '경고';
 $string['timewarning'] = '자료처리에 시간이 좀 걸립니다. 기다려 주십시오...';
+$string['check_courserole_legacy'] = '지원하지 않는 형식이 <a href=\"$a\">역할</a>에서 발견됨'; // ORPHANED
 
 ?>

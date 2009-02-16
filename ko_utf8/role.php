@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
+      // role.php - created with Moodle 2.0 dev (Build: 20090216) (2009012901)
 
 
 $string['addinganewrole'] = '역할 추가하기';
@@ -222,6 +222,7 @@ $string['site:restore'] = '강좌 복구';
 $string['site:sendmessage'] = '어떤 사용자에게든 메세지 보냄';
 $string['site:trustcontent'] = '내용 안전성 인증';
 $string['site:uploadusers'] = '파일로 새 사용자 올림';
+$string['site:usewebservices'] = '사용자는 무들 웹 서비스를 사용할 수 있음';
 $string['site:viewfullnames'] = '언제나 사용자의 성명을 볼 수 있음';
 $string['site:viewparticipants'] = '참여자 보기';
 $string['site:viewreports'] = '보고서 보기';
