@@ -14,16 +14,16 @@ $string['check_courserole_anything'] = 'この<a href=\"$a\">コンテクスト<
 $string['check_courserole_details'] = '<p>それぞれのコースでは、デフォルトの登録ロールが設定されています。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p>
 <p>デフォルトコースロールでサポートされているレガシータイプのロールは「学生」のみです。</p>';
 $string['check_courserole_error'] = '正しくないデフォルトコースロールの定義が検出されました!';
-$string['check_courserole_legacy'] = 'サポートされていないレガシータイプが<a href=\"$a\">ロール</a>で検出されました。';
 $string['check_courserole_name'] = 'デフォルトロール (コース)';
 $string['check_courserole_notyet'] = 'デフォルトのコースロールのみ使用されています。';
 $string['check_courserole_ok'] = 'コースデフォルトロール定義は、OKです。';
 $string['check_courserole_risky'] = '<a href=\"$a\">コンテクスト</a>に危険なケイパビリティが検出されました。';
+$string['check_courserole_riskylegacy'] = '<a href=\"$a->url\">$a->shortname</a>に危険なレガシータイプが検出されました。';
 $string['check_defaultcourserole_anything'] = 'この<a href=\"$a\">コンテクスト</a>で、「doanything」ケイパビリティを許可しないでください。';
 $string['check_defaultcourserole_details'] = '<p>コース登録のデフォルト学生ロールは、コースのデフォルトロールに指定されます。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p>
 <p>デフォルトロールでサポートされているレガシータイプのロールは「学生」のみです。</p>';
 $string['check_defaultcourserole_error'] = '正しくないデフォルトコースロール「 $a 」の割り当てが検出されました!';
-$string['check_defaultcourserole_legacy'] = 'サポートされていないレガシータイプが検出されました。';
+$string['check_defaultcourserole_legacy'] = '危険なレガシータイプが検出されました。';
 $string['check_defaultcourserole_name'] = 'デフォルトコースロール (グローバル)';
 $string['check_defaultcourserole_notset'] = 'デフォルトロールが設定されていません。';
 $string['check_defaultcourserole_ok'] = 'サイトデフォルトロールの定義は、OKです。';
@@ -115,5 +115,6 @@ $string['statusok'] = 'OK';
 $string['statusserious'] = 'シリアス';
 $string['statuswarning'] = '警告';
 $string['timewarning'] = 'データ処理には長時間を要します、しばらくお待ちください ...';
+$string['check_courserole_legacy'] = 'サポートされていないレガシータイプが<a href=\"$a\">ロール</a>で検出されました。'; //TBD
 
 ?>
