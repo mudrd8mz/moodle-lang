@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090217) (2009012901)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -398,11 +398,13 @@ $string['defaultcourseteacherdescription'] = 'I docenti possono fare tutto all\'
 $string['defaultcourseteachers'] = 'Docenti';
 $string['delete'] = 'Elimina';
 $string['deleteall'] = 'Elimina tutto';
+$string['deleteallcannotundo'] = 'Elimina tutto - non sarà possibile tornare ndietro';
 $string['deleteallcomments'] = 'Elimina tutti i commenti';
 $string['deleteallratings'] = 'Elimina tutte le valutazioni';
 $string['deletecategory'] = 'Elimina categoria: $a';
 $string['deletecategorycheck'] = 'Sei proprio sicuro di voler eliminare questa categoria <b>\'$a\'</b>?<br />Questa operazione sposterà tutti i corsi nella categoria padre, se esiste, o in quella Generale.';
 $string['deletecategorycheck2'] = 'Prima di eliminare questa categoria, è necessario decidere cosa fare dei corsi e delle sotto categorie che contiene.';
+$string['deletecategoryempty'] = 'Questa categoria è vuota.';
 $string['deletecheck'] = 'Elimino $a ?';
 $string['deletecheckfiles'] = 'Se assolutamente sicuro di voler eliminare questi file?';
 $string['deletecheckfull'] = 'Sei assolutamente sicuro di voler eliminare $a ?';
@@ -563,6 +565,7 @@ $string['emailpasswordsent'] = 'Grazie per aver confermato il cambiamento di pas
 $string['enable'] = 'Abilita';
 $string['encryptedcode'] = 'Codice criptato';
 $string['enroldate'] = 'Periodo di tempo';
+$string['enroldetails'] = 'Dettagli iscrizione';
 $string['enrolenddate'] = 'Data di fine';
 $string['enrolenddaterror'] = 'La data di fine delle iscrizioni non può essere antecedente la data di inizio';
 $string['enrollable'] = 'Iscrizione spontanea';
@@ -1301,6 +1304,7 @@ $string['search'] = 'Cerca';
 $string['searchagain'] = 'Cerca ancora';
 $string['searchcourses'] = 'Cerca corsi';
 $string['searchhelp'] = 'Puoi ricercare con più chiavi.<br />chiave : trova ogni occorrenza di questa chiave nel testo.</br>+chiave : solo le esatte corrispondenze della chiave verranno trovate.</br>-chiave : non include i risultati che contengono questa chiave.';
+$string['searchoptions'] = 'Opzioni di ricerca';
 $string['searchresults'] = 'Risultati della ricerca';
 $string['sec'] = 'secondo';
 $string['secondstotime172800'] = '2 giorni';
@@ -1508,7 +1512,7 @@ $string['unenrolroleusers'] = 'Disiscrivi utenti';
 $string['unenrolsure'] = 'Sei sicuro di volerti disinscrivere $a da questo corso?';
 $string['unfinished'] = 'Non terminato';
 $string['unknowncategory'] = 'Categoria sconosciuta';
-$string['unlimited'] = 'Illimitata';
+$string['unlimited'] = 'Nessun limite';
 $string['unpacking'] = 'Decompressione $a';
 $string['unsafepassword'] = 'Password insicura - provarne un\'altra';
 $string['untilcomplete'] = 'Fino al completamento';
