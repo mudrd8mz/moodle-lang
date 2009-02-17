@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
 
 
 $string['actual'] = '実値';
@@ -61,6 +61,7 @@ $string['edit_table'] = 'テーブルの編集';
 $string['edit_xml_file'] = 'XMLファイルの編集';
 $string['enumvaluesincorrect'] = 'enumフィールドが正しくありません。';
 $string['expected'] = '期待値';
+$string['extensionrequired'] = '申し訳ございません - この処理を実行するためには、PHP拡張モジュール「 $a 」が必要です。あなたがこの機能を使用したい場合、この拡張モジュールをインストールしてください。';
 $string['field'] = 'フィールド';
 $string['fieldnameempty'] = 'フィールド名が空です。';
 $string['fields'] = 'フィールド';
