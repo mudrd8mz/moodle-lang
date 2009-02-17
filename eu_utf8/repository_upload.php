@@ -3,7 +3,7 @@
 
 
 $string['configplugin'] = 'Igotzeko pluginerako ezarpenak';
-$string['repositorydesc'] = 'Fitxategia igo Moodle-ra';
-$string['repositoryname'] = 'Fitxategia igo';
+$string['repositorydesc'] = 'Igo fitxategia Moodle-ra';
+$string['repositoryname'] = 'Igo fitxategia';
 
 ?>
