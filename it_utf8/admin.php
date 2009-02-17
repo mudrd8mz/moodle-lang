@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -58,7 +58,7 @@ $string['changesitelang'] = 'Cambia la lingua del sito';
 $string['checkboxno'] = 'No';
 $string['checkboxyes'] = 'Si';
 $string['choosefiletoedit'] = 'File da modificare';
-$string['clamfailureonupload'] = 'In caso di errore di clam AV';
+$string['clamfailureonupload'] = 'In caso di errore di Clam AV';
 $string['cleanup'] = 'Pulizia';
 $string['commonsettings'] = 'Impostazioni comuni';
 $string['componentinstalled'] = 'Componente installato';
@@ -101,7 +101,7 @@ $string['configcronclionly'] = 'Se è marcata questa opzione, lo script cron.php
 $string['configcronremotepassword'] = 'Questo significa che lo script cron.php non può essere eseguito da un browser web senza fornire la password usando il seguente formato di URL:<pre>
 http://site.example.com/admin/cron.php?password=opensesame
 </pre> Se l\'impostazione è lasciata vuota, non è richiesta alcuna password.';
-$string['configdbsessions'] = 'Se attivata, questa opzione utilizzerà  il database per memorizzare le informazioni sulle sessioni correnti. Ciò è particolarmente utile per siti molto grandi o con molto traffico o per siti costruiti su cluster di servers. Per la maggior parte dei siti questa impostazione dovrebbe probabilmente essere lasciata su disabled in modo da utilizzare il disco del server. Attenzione: cambiare questa impostazione provocherà  il log-out dal sito di tutti gli utenti collegati, voi compresi.';
+$string['configdbsessions'] = 'E\' possibile memorizzare le informazioni delle sessioni nel database. L\'impostazione è particolarmente utile  per siti molto grandi, con molto traffico o per siti in cluster. Per la maggior parte dei siti questa impostazione può essere lasciata al suo default, in modo da memorizzare i dati di sessione nel file system. Attenzione: cambiare questa impostazione provoca il logout dal sito di tutti gli utenti collegati, voi compresi.';
 $string['configdebug'] = 'Attivando questa opzione, verrà  incrementata la reportistica di errore di PHP, aumentando i messaggi di errore. Questa opzione è utile solo per gli sviluppatori.';
 $string['configdebugdisplay'] = 'Marcando questa opzione, il report degli errori andrà alla pagina HTML. Questo è comodo, ma in generale altera XHTML, JS, i cookies e gli header HTTP. Senza questa opzione, l\'output sarà inviato sui log del vostro server, permettendo un miglior debugging. L\'impostazione PHP error_log controlla su quale log finirà suddetto output.';
 $string['configdebugsmtp'] = 'Abilita una maggiore quantità di informazioni per il debug, nell\'invio dei messaggi al server di posta SMTP.';
@@ -124,6 +124,7 @@ $string['configeditorfontlist'] = 'Scegli i font di caratteri che devono apparir
 $string['configemailchangeconfirmation'] = 'Richiede un passo di conferma email quando gli utenti cambiano l\'indirizzo email nel proprio profilo.';
 $string['configemoticons'] = 'Modifica il codice a sinistra in corrispondenza al nome dell\'emoticon. Per aggiungere nuovi emoticon, aggiungere un codice e un nome, poi aggiungere un\'immagine come nome.gif in /pix/s.';
 $string['configenableajax'] = 'Questa impostazione permette di controllare l\'uso di AJAX (interfacce avanzate client/server che utilizzano Javascript) in tutto il sito. Con questa impostazione abilitata gli utenti possono decidere di scegliere AJAX nel loro profilo, altrimenti AJAX è disabilitato per tutti.';
+$string['configenablecalendarexport'] = 'Abilita l\'esportazione o la sottoscrizione ai calendari.';
 $string['configenablecourserequests'] = 'Questa impostazione consente agli utenti di richiedere corsi.';
 $string['configenableglobalsearch'] = 'Questa impostazione abilita la ricerca globale di testo nelle risorse e nelle attività. Non è compatibile con PHP 4.';
 $string['configenablegroupings'] = 'Questa impostazione consente di creare raggruppamenti di gruppi all\'interno dei corsi.';
@@ -154,6 +155,7 @@ $string['configfullnamedisplay'] = 'Definisce la modalità  di piena visualizzaz
 $string['configgdversion'] = 'Indica quale versione della libreria grafica GD (GD library) è installata. La versione mostrata è quella che è stata riconosciuta automaticamente dal sistema. Non modificare questo valore fino a quando non sapete davvero cosa state facendo!';
 $string['configgeoipfile'] = 'Path del GeoIP City binary data file. Questo file non fa parte della distribuzione di Moodle e deve essere scaricato separatamente da <a href=\"http://www.maxmind.com/\">MaxMind</a>. Si può acquistare la versione commerciale o utilizzare la versione gratuita.<br/>
 Semplicemente fare il download di <a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\">http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a> ed estrarlo nella cartella \"$a\" sul proprio server.';
+$string['configgetremoteaddrconf'] = 'Se il vostro server è dietro un reverse proxy, potete usare questa impostazione per indicare quali header HTTP possono ritenersi affidabili per gli indirizzi IP remoti. Gli header vengono letti sequenzialmente a partire dal primo disponibile.';
 $string['configgooglemapkey'] = 'E\' necessario inserire una chiave speciale per usare Google Maps per vedere le località corrispondenti agli indirizzi IP. Questa chiave può essere ottenuta gratuitamente a <a href=\"http://code.google.com/apis/maps/signup.html\">http://code.google.com/apis/maps/signup.html</a>.<br />La URL del tuo sito web è: $a';
 $string['configgradebookroles'] = 'Questa impostazione permette di specificare i ruoli che figureranno nel Registro Valutazioni. E\' necessario che un utente possegga almeno uno di questi ruoli per figurare nel Registro Valutazioni di un corso.';
 $string['configgradeexport'] = 'E\' possibile scegliere i formati preferiti  da usare per l\'esportazione delle valutazioni. I formati scelti durante l\'esportazione imposteranno il campo \"Formati utilizzati recentemente\" per ciascun Registro valutazioni. Questo aspetto potrebbe far apparire le valutazioni esportate come \"nuove\" oppure come \"aggiornate\". Se non siete più che sicuri di come impostare i formati, allora non selezionate nulla.';
@@ -219,12 +221,14 @@ $string['configpathtoclam'] = 'Percorso a Clam antivirus. Probabilmente, sarà  
 Questo percorso consente a Clam di funzionare.';
 $string['configpathtodu'] = 'Percorso a du. Probabilmente sarà  usr/bin/du. Se questo campo viene definito, le pagine che mostrano il contenuto delle cartelle con molti file verranno elaborate più velocemente.';
 $string['configperfdebug'] = 'Se questo viene attivato, le informazioni sulle prestazioni saranno stampate a pie\' di pagina del tema standard';
+$string['configprofilesforenrolledusersonly'] = 'Per evitare abusi da parte degli spammer, vengono nascoste le descrizioni nei profili degli utenti che non sono ancora iscritti a corsi. I nuovi utenti potranno aggiungere la  descrizione nel profilo solo dopo essere stati iscritti ad almeno un corso-';
 $string['configprotectusernames'] = 'Per default la routine forget_password.php non mostra alcun elemento che potrebbe permettere di indovinare gli username o gli indirizzi email.';
-$string['configproxyhost'] = 'Se questo <b>server</b> necessita di un proxy (ad esempio un firewall) per accedere a Internet, allora indicare qui il nome del server (hostname) e il numero della porta di accesso. In caso contrario, lasciate vuoto questo campo.';
-$string['configproxypassword'] = 'Password necessaria per accedere a internet attraverso il proxy se richiesto, lasciare vuoto se non richiesto (estensione PHP cURL richiesta).';
-$string['configproxyport'] = 'Se questo server deve usare un computer proxy, allora inserisci qui la porta proxy.';
-$string['configproxytype'] = 'Tipo di web proxy (PHP5 ed estensione cURL richiesti per il supporto SOCKS5).';
-$string['configproxyuser'] = 'Username necessario per accedere a internet attraverso il proxy se richiesto, lasciare vuoto se non richiesto (estensione PHP cURL richiesta).';
+$string['configproxybypass'] = 'Elenco separato da virgole dei nomi degli host o degli IP (anche parziali) che possono evitare il proxy (ad esempio, 192.168., .mydomain.com)';
+$string['configproxyhost'] = 'Se questo <b>server</b> ha bisogno di un  di un proxy (o di un firewall) per accedere a Internet, specificate il nome del proxy. Se non usate proxy, non compilate questo campo.';
+$string['configproxypassword'] = 'Password per accedere a internet attraverso il proxy, lasciare vuoto se non utilizzata (è necessaria l\'estensione PHP cURL).';
+$string['configproxyport'] = 'Specificate la porta usata dal proxy per accedere ad Internet';
+$string['configproxytype'] = 'Tipo di proxy (per il supporto SOCKS5 sono necessari il PHP5 e l\'estensione cURL ).';
+$string['configproxyuser'] = 'Username abilitato ad accedere ad internet attraverso il proxy, lasciare vuoto se non utilizzato (è necessaria l\'estensione PHP cURL).';
 $string['configquarantinedir'] = 'Se desiderate che Clam antivirus sposti eventuali file infetti in una cartella di quarantena, inseritene il percorso qui. La cartella deve avere i permessi di scrittura da parte del server web. Se lasciate in bianco, o se configurate una directory inesistente o senza i permessi di scrittura necessari, i files infetti saranno eliminati. Non inserite slash di percorso.';
 $string['configrcache'] = 'Utilizza la cache per memorizzare i record di database. Ricordarsi di impostare anche il tipo di cache!';
 $string['configrcachettl'] = 'Time-To-Live (tempo di esistenza) dei record in cache. Usare un valore basso (&lt;15).';
@@ -250,9 +254,10 @@ $string['configsectionstats'] = 'Statistiche';
 $string['configsectionuser'] = 'Utente';
 $string['configsecureforms'] = 'Moodle può utilizzare un livello aggiuntivo di sicurezza nell\'accettazione di dati provenienti da moduli web. Se attivata, la variabile HTTP_REFERER del browser è confrontata con l\'indirizzo del form attuale. In alcuni rari casi questo può causare problemi se l\'utente sta utilizzando un firewall (ad esempio Zonealarm) configurato per rimuovere HTTP_REFERER dal suo traffico web. Uno dei sintomi è rimanere \'bloccato\' su di un form. Se i vostri utenti dovessero avere problemi con la pagina di login (per esempio), potreste disabilitare questa impostazione, anche se questo può esporre il  sito ad attacchi con forzature di password. Se siete in dubbio, lasciate l\'impostazione su \'Si\'.';
 $string['configsendcoursewelcomemessage'] = 'Se abilitato, gli utenti che si iscrivono spontaneamente in un corso riceveranno un messaggio di benvenuto via email.';
-$string['configsessioncookie'] = 'Questa impostazione personalizza il nome del cookie usato per le sessioni di Moodle. Questa impostazione è opzionale ed è utile solo se più di una copia di Moodle viene eseguita sullo stesso sito web.';
-$string['configsessioncookiepath'] = 'Se è necessario modificare dove i browser inviano i cookie di Moodle, si può modificare questa impostazione specificando la sottodirectory del vostro server web. Altrimenti lo standard \'/\' può andare bene.';
-$string['configsessiontimeout'] = 'Se le persone loggate in questo sito sono inattive da molto tempo (senza caricare pagine) viene automaticamente terminata la loro sessione. Questa variabile specifica la durata della sessione.';
+$string['configsessioncookie'] = 'E\' possibile personalizzare il prefisso del cookie usato per identificare le sessioni di Moodle. Questa impostazione è opzionale ma è indispensabile se più istanze di Moodle girano sul medesimo sito web.';
+$string['configsessioncookiedomain'] = 'Consente di cambiare il dominio dal quale provengono i cookie di Moodle. E\' utile per alcune personalizzazioni di Moodle (ad esempio plugin di autenticazione o di iscrizione) per le quali si rende necessario scambiare le informazioni di sessione con applicazioni web o con sotto domini. <strong>ATTENZIONE: si consiglia di lasciare l\'impostazione al suo default (vuoto) - valori errati potrebbero impedire qualsiasi login nel sito.<strong>';
+$string['configsessioncookiepath'] = 'E\' possibile personalizzare dove i browser inviano i cookie di Moodle. Potete specificare un sub folder del vostro sito web. In genere il default \'/\' dovrebbe andare bene.';
+$string['configsessiontimeout'] = 'la sessione degli utenti autenticati che non svolgono attività per un dato periodo di tempo (ad esempio caricare pagine), viene conclusa automaticamente. Questa variabile specifica il tempo massimo di inattività oltre la quale la sessione sarà considerata conclusa.';
 $string['configshowblocksonmodpages'] = 'Alcuni moduli supportano l\'inserimento di blocchi sulle loro pagine. Se l\'opzione viene attivata darete la possibilità  ai docenti di attivare i blocchi; in caso contrario, l\'opzione non verrà  visualizzata.';
 $string['configshowsiteparticipantslist'] = 'Tutti gli studenti di questo sito e i docenti del sito saranno mostrati nella lista dei partecipanti. Chi è abilitato a visualizzare la lista dei partecipanti di questo sito?';
 $string['configsitemailcharset'] = 'Tutte le email generate dal vostro sito saranno inviate utilizzando il set di caratteri impostato qui. Comunque ogni utente può personalizzarlo se è abilitata la prossima impostazione.';
@@ -271,7 +276,7 @@ $string['configstatscatdepth'] = 'Il software delle statistiche usa la logica se
 $string['configstatsfirstrun'] = 'Questa impostazione definisce, per la <b>prima elaborazione</b> delle statistiche dei log, da quanto indietro nel tempo devono essere elaborati i log. Se avete molto traffico e non avete un server dedicato, probabilmente non è una buona idea tornare troppo indietro nel tempo, l\'elaborazione potrebbe essere abbastanza lunga ed esosa in termini di risorse necessarie. (Notare che nell\'impostazione , 1 mese = 28 giorni. Nei grafici e nei report generati, 1 mese = 1 mese del calendario.)';
 $string['configstatsmaxruntime'] = 'L\'elaborazione delle statistiche può essere abbastanza lunga. Utilizzate una combinazione di questo e del prossimo campo per definire quando farla partire e per quanto tempo.';
 $string['configstatsmaxruntime2'] = 'L\'elaborazione delle statistiche può essere molto pesante. Specificare il massimo tempo consentito per raccogliere un giorno di statistiche. Il numero massimo di giorni elaborati nell\'esecuzione di un cron è 3.';
-$string['configstatsruntimestart'] = 'A che ora il cron deve far <b>iniziare</b> l\'elaborazione delle statistiche?';
+$string['configstatsruntimestart'] = 'A che ora il cron deve <b>iniziare</b> l\'elaborazione delle statistiche?';
 $string['configstatsuserthreshold'] = 'Se inserite un valore, numerico, diverso da zero qui, per la classifica dei corsi, i corsi con meno di questo numero di utenti iscritti (studenti+docenti) saranno ignorati';
 $string['configstripalltitletags'] = 'Non marcare questa impostazione per permettere l\'uso delle tag HTML nei nomi delle risorse e delle attività.';
 $string['configsupportemail'] = 'Questo indirizzo email, per gli utenti di questo sito, sarà quello da utilizzare se si ha bisogno di assistenza (per esempio, quando nuovi utenti creano il proprio account). Se tale indirizzo è lasciato vuoto, non sarà fornita alcuna email di supporto.';
@@ -486,6 +491,8 @@ $string['iplookupinfo'] = 'Per default Moodle usa il server online gratuito NetG
 Le località degli indirizzi IP sono mostrate su una semplice mappa o usando Google Maps. Notare che bisogna avere un Google account e richiedere una Google Maps API key gratuita per abilitare le mappe interattive.';
 $string['iplookupmaxmindnote'] = 'Questo prodotto include dati GeoLite creati da MaxMind, disponibili su <a href=\"http://www.maxmind.com/\">http://www.maxmind.com/</a>.';
 $string['iplookupnetgeonote'] = 'Al momento è utilizzato il server NetGeo per la ricerca delle informazioni geografiche. Per ottenere risultati più accurati si raccomanda l\'installazione locale di una copia del MaxMind GeoLite database.';
+$string['ipwhitelist'] = 'IP whitelist';
+$string['ipwhitelistdesc'] = 'Se compilato, solo gli IP qui specificati saranno autorizzati ad usare i Web service con lo username: <strong>$a->username</strong>';
 $string['keeptagnamecase'] = 'Caratteri nomi Tag originali';
 $string['lang'] = 'Lingua di default';
 $string['lang16notify'] = 'Moodle 1.6 e le versioni successive permettono di installare e aggiornare i language pack direttamente da download.moodle.org seguendo il collegamento qui sotto.';
@@ -529,6 +536,7 @@ $string['maintfileopenerror'] = 'Errore aprendo i file di manutenzione!';
 $string['maintinprogress'] = 'Manutenzione in corso...';
 $string['managelang'] = 'Gestione';
 $string['manageqtypes'] = 'Gestione tipi domande';
+$string['managews'] = 'Gestisci i web service';
 $string['maxbytes'] = 'Dimensione massima files di upload';
 $string['maxeditingtime'] = 'Tempo massimo per l\'editing dei messaggi';
 $string['mbstringrecommended'] = 'Installare la libreria opzionale MBSTRING è caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
@@ -668,12 +676,12 @@ $string['profilevisibleall'] = 'Visibile a tutti';
 $string['profilevisiblenone'] = 'Non visibile';
 $string['profilevisibleprivate'] = 'Visibile all\'utente';
 $string['protectusernames'] = 'Proteggere gli username';
-$string['proxybypass'] = 'Proxy bypass hosts';
-$string['proxyhost'] = 'Host proxy';
-$string['proxypassword'] = 'Password proxy';
+$string['proxybypass'] = 'Proxy bypass host';
+$string['proxyhost'] = 'Proxy host';
+$string['proxypassword'] = 'Proxy password';
 $string['proxyport'] = 'Porta proxy';
 $string['proxytype'] = 'Tipo proxy';
-$string['proxyuser'] = 'Username proxy';
+$string['proxyuser'] = 'Proxy username';
 $string['qtyperqpwillberemoved'] = 'Durante l\'aggiornamento, il tipo di domanda RQP sarà rimosso. Il sito non ha utilizzato tale tipo di domanda, per cui non si dovrebbe manifestare alcun problema.';
 $string['qtyperqpwillberemovedanyway'] = 'Durante l\'aggiornamento, il tipo di domanda RQP sarà rimosso. Il sito ha alcune domande RPQ nel database e queste non funzioneranno più a meno di reinstallare il codice da http://moodle.org/mod/data/view.php?d=13&amp;rid=797 prima di continuare con l\'aggiornamento.';
 $string['quarantinedir'] = 'Cartella per quarantena';
@@ -726,7 +734,7 @@ $string['sessioncookie'] = 'Prefisso cookie';
 $string['sessioncookiedomain'] = 'Dominio cookie';
 $string['sessioncookiepath'] = 'Percorso cookie';
 $string['sessionhandling'] = 'Gestione sessione';
-$string['sessiontimeout'] = 'Tempo massimo';
+$string['sessiontimeout'] = 'Timeout di sessione';
 $string['showblocksonmodpages'] = 'Mostra i blocchi sulle pagine di modulo';
 $string['showdetails'] = 'Mostra dettagli';
 $string['simpletest'] = 'Test';
@@ -788,6 +796,7 @@ $string['updateaccounts'] = 'Aggiornare registrazioni esistenti';
 $string['updatecomponent'] = 'Aggiornare componenti';
 $string['updatelangs'] = 'Aggiorna tutti i Language Pack installati';
 $string['updatetimezones'] = 'Aggiorna fusi orari';
+$string['upgradeerror'] = 'Si è verificato un errore sconosciuto durante l\'aggiornamento del plugin $a->plugin alla versione $a->version, non è possibile proseguire.';
 $string['upgradeforumread'] = 'Una nuova caratteristica è stata aggiunta a Moodle 1.5 per tracciare gli interventi letti/non letti di un forum.<br />Per utilizzarla, bisogna<a href=\"$a\">aggiornare le vostre tabelle</a>.';
 $string['upgradeforumreadinfo'] = 'Una nuova caratteristica è stata aggiunta da Moodle 1.5 per tracciare i messaggi letti/non letti di un forum. Per utilizzarla, bisogna aggiornare le vostre tabelle con tutte le informazioni di tracciamento dei messaggi pre-esistenti. Il tempo di esecuzione dipende dalle dimensioni del vostro sito e potrebbe durare anche ore, sottoponendo il server ad un lavoro gravoso. E\' dunque consigliabile farlo in un momento tranquillo. In ogni caso, il sito continuerà  a funzionare durante questa operazione e gli utenti non ne saranno interessati. Una volta lanciato, il processo non dovrebbe essere interrotto, lasciando aperta la finestra del browser. Se si fermasse il processo, chiudendo la finestra del browser, niente paura: si può sempre ricominciare. < br /><br />Si desidera iniziare adesso il processo di aggiornamento?';
 $string['upgradelogs'] = 'Per la piena funzionalità, i vostri vecchi log devono essere aggiornati. <a href=\"$a\">Ulteriori informazioni</a>';
@@ -859,7 +868,11 @@ $string['validateerror'] = 'Questo valore non era valido:';
 $string['verifychangedemail'] = 'Controlla i domini quando si cambia l\'email';
 $string['warningcurrentsetting'] = 'Valore corrente non valido: $a';
 $string['webproxy'] = 'Proxy web';
-$string['webproxyinfo'] = 'Definire i seguenti parametri se il proprio server Moodle non può accedere a internet direttamente. L\'accesso a internet è richiesto per scaricare dati di ambiente, language packs, feed RSS, timezones, ecc.<br /><em>L\'estensione PHP cURL è fortemente raccomandata.</em>';
+$string['webproxyinfo'] = 'Usate le impostazioni seguenti se il vostro server Moodle non può accedere direttamente ad Internet. L\'accesso ad Internet è necessario per scaricare dati di ambiente, language pack, feed RSS, timezone, eccetera.<br /><em>L\'estensione PHP cURL è fortemente raccomandata.</em>';
+$string['webserviceprotocols'] = 'Server dei web service';
+$string['webservices'] = 'Web service';
+$string['webservicesystemsettings'] = 'impostazioni comuni';
+$string['webserviceusersettings'] = 'Impostazioni web service degli utenti';
 $string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlrpc è utile per le funzionalità del Moodle Networking.';
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
 $string['ziprequired'] = 'Ora Moodle richiede l\'estensione Zip PHP. Gli esguibili info-ZIP o la libreria PclZip non è più usata.';

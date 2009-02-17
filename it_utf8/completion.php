@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // completion.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
 
 
 $string['activitycompletion'] = 'Completamento attività';
@@ -7,7 +7,7 @@ $string['badautocompletion'] = 'Se selezionate il completamento automatico, dove
 $string['completedunlocked'] = 'Opzioni di completamento sbloccate';
 $string['completedunlockedtext'] = 'Salvando le modifiche, lo stato di completamento delle attività di tutti gli utenti saranno eliminate. Se cambiate idea, non salvate questo form.';
 $string['completedwarning'] = 'Opzioni di completamento bloccate';
-$string['completedwarningtext'] = 'Uno o più utenti ($a) hanno già tracciato questa attività come completata. La modifica delle opzioni di completamento eliminerà il loro stato e potrà creare confusione. Le opzioni sono state bloccate e raccomandiamo di non sbloccarle se non strettamente necessario.';
+$string['completedwarningtext'] = 'Uno o più utenti ($a) hanno già indicato questa attività come completata. La modifica delle opzioni di completamento eliminerà il loro stato e potrà creare confusione. Le opzioni sono state bloccate e raccomandiamo di non sbloccarle se non strettamente necessario.';
 $string['completion'] = 'Traccia completamento';
 $string['completion-alt-auto-enabled'] = 'Il sistema traccia automaticamente questa attività come completata in base alle condizioni specificate';
 $string['completion-alt-auto-fail'] = 'Completata senza raggiungere la sufficienza';

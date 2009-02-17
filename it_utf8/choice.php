@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // choice.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
 
 
 $string['addmorechoices'] = 'Aggiungi più scelte';
@@ -16,6 +16,7 @@ $string['choiceclose'] = 'Chiusura';
 $string['choicefull'] = 'Questa opzione è completet .';
 $string['choicename'] = 'Nome della scelta';
 $string['choiceopen'] = 'Apertura';
+$string['choicesaved'] = 'la tua scelta è stata salvata';
 $string['choicetext'] = 'Testo della domanda';
 $string['displayhorizontal'] = 'Mostra orizzontalmente';
 $string['displaymode'] = 'Modalità  di visualizzazione';
@@ -33,6 +34,7 @@ $string['noguestchoose'] = 'Spiacenti, gli ospiti non possono effettuare le Scel
 $string['noresultsviewable'] = 'I risultati non sono attualmente visualizzabili.';
 $string['notanswered'] = 'Ancora nessuna risposta';
 $string['notopenyet'] = 'Spiacente, questa attività  non è disponibile fino al $a';
+$string['option'] = 'Opzione';
 $string['privacy'] = 'Privacy dei risultati';
 $string['publish'] = 'Rendi pubblici i risultati';
 $string['publishafteranswer'] = 'Mostra i risultati agli studenti dopo che hanno risposto';
