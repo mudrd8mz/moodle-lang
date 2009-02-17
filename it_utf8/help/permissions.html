@@ -1,32 +1,32 @@
 <h1>Autorizzazioni</h1>
 
 <p>
-Le Autorizzazioni sono le impostazioni che vengono date per specifici privilegi.
+Le Autorizzazioni sono le impostazioni che vengono definite per specifici privilegi.
 </p>
 
 <p>
-Per esempio, un privilegio è "Iniziare una nuova discussione" (nei forums).
+Un privilegio è, per esempio, "Iniziare una nuova discussione" (nei forum).
 </p>
 
 <p>
-In ogni ruolo, si può scegliere di impostare le autorizzazioni per tali privilegi a uno di quattro valori:
+In ogni ruolo, si può scegliere di impostare l'autorizzazione per tale privilegi a uno dei seguenti quattro valori:
 <dl>
 <dt>NON IMPOSTATO</dt>
-<dd>Questa, di solito, è l'impostazione di default. E' un'impostazione neutra che significa "usa qualunque impostazione che l'utente già ha". Se un ruolo viene assegnato a qualcuno (per es. in un corso) che già ha la stessa autorizzazione per un certo privilegio, allora la nuova autorizzazione sarà la stessa che già aveva a contesti di livello gerarchico più alto (per es. categorie o sito). 
-Se un'autorizzazione non è mai concessa ad alcun livello, per l'utente non sarà possibile avere quel privilegio. 
+<dd>Questa, di solito, è l'impostazione di default. E' un'impostazione neutra che significa "usa qualunque impostazione che l'utente già ha". Se un ruolo viene assegnato a qualcuno (per es. in un corso) che già ha questa autorizzazione per un certo privilegio, allora la nuova autorizzazione sarà la stessa che già ha in contesti di livello gerarchico più alto (per es. categorie o sito). 
+Se un'autorizzazione non è mai stata concessa in nessun contesto, l'utente non avrà quel privilegio. 
 </dd>
 
-<dt>PERMETTI</dt>
-<dd>Scegliendo questo valore viene data l'autorizzazione per il privilegio cui si riferisce, alle persone cui è assegnato il ruolo. Questa autorizzazione si applica nel contesto nel quale questo ruolo è stato assegnato e anche a tutti i contesti "sottostanti".
-Per esempio, se parliamo del ruolo Studente assegnato a un corso, allora gli studenti avranno il privilegio di "iniziare nuove discussioni" in tutti i forum di quel corso, AMMENOCHE' alcuni forum contengano una sovrapposizione o una nuova assegnazione con i valori Impedisci o Proibisci per questo privilegio.</dd>
+<dt>CONSENTI</dt>
+<dd>Scegliendo questo valore si concede l'autorizzazione ad avere un dato privilegio alle persone alle quali è assegnato il ruolo. Questa autorizzazione si applica nel contesto nel quale il ruolo è stato assegnato e in tutti i contesti "sottostanti".
+Per esempio, se parliamo del ruolo Studente assegnato a un corso, allora gli studenti avranno il privilegio di "iniziare nuove discussioni" in tutti i forum di quel corso, AMMENOCHE' alcuni forum contengano una sovrapposizione o una nuova assegnazione con i valori Previeni o Nega questo privilegio.</dd>
 
-<dt>IMPEDISCI</dt>
-<dd>Questo valore serve per rimuovere l'autorizzazione per questo privilegio, anche se gli utenti con questo ruolo avevano ricevuto tale autorizzazione a un contesto più alto.
+<dt>PREVIENI</dt>
+<dd>Questo valore serve per rimuovere l'autorizzazione per questo privilegio, anche se gli utenti con questo ruolo hanno tale autorizzazione in un contesto più alto.
 </dd>
 
-<dt>PROIBISCI</dt>
-<dd>Questo è raramente necessario, ma occasionalmente si può volere negare completamente certe autorizzazioni a un ruolo, in modo che NON possa essere "modificato" in alcuno dei contesti sottostanti. Un buon esempio di quando ciò può essere necessario è quando un amministratore vuole proibire a una persona di iniziare nuove discussioni in tutti i forum di un intero sito. 
-In questo caso si può creare un ruolo con quel privilegio impostato a "Proibisci" e quindi assegnare il ruolo a quella persone nel contesto sito.
+<dt>NEGA</dt>
+<dd>Questo è raramente necessario, ma occasionalmente si può volere negare completamente certe autorizzazioni a un ruolo, in modo che NON possa essere "modificato" in alcuno dei contesti sottostanti. Un buon esempio di quando questo può essere necessario è quando un amministratore vuole proibire a una persona di iniziare nuove discussioni in tutti i forum di un intero sito. 
+In questo caso si può creare un ruolo con quel privilegio impostato a "Nega" e quindi assegnare il ruolo a quella persone nel contesto sito.
 </dd>
 
 </dl>
@@ -34,17 +34,17 @@ In questo caso si può creare un ruolo con quel privilegio impostato a "Proibisc
 
 <h1>Soluzione di conflitti di autorizzazioni</h1>
 
-<p> Autorizzazioni in un contesto "inferiore" generalmente ignoreranno quanto definito in un contesto "superiore" (questo si applica a ruoli modificati e a ruoli assegnati). L'eccezione è il valore Proibisci che non può essere ignorato a un livello inferiore.
+<p>Autorizzazioni in un contesto "inferiore" generalmente sostituiscono quanto definito in un contesto "superiore" (questo succede quando si modificano i ruoli assegnati). L'eccezione è il valore Nega che non può essere ignorato a un livello inferiore.
 </p>
 
-<p> Se a una persona sono assegnati due ruoli nello steso contesto, uno con Permetti e uno con Impedisci, chi vince? In questo caso, Moodle cercherà un "decisore" nella gerarchia dei contesti.</p>
+<p> Se a una persona sono assegnati due ruoli nello steso contesto, uno con Consenti e uno con Previeni, quale autorizzazione è dominante? In questo caso, Moodle cercherà un "decisore" nella gerarchia dei contesti.</p>
     
-<p> Per esempio, uno studente ha due ruoli in un corso, uno che gli permette di iniziare nuove discussioni, uno che glielo impedisce. In questo caso controlliamo le categorie e i contesti del sito, cercando un'altra autorizzazione che ci aiuta a decidere. Se non ne troviamo, allora l'autorizzazione è per default Impedisci (perché le due impostazioni si sono annullate a vicenda, e quindi non ci sono autorizzazioni). 
+<p> Per esempio, uno studente ha due ruoli in un corso, uno che gli consente di iniziare nuove discussioni, uno che glielo previene. In questo caso controlliamo le categorie e i contesti del sito, cercando un'altra autorizzazione che ci aiuta a decidere. Se non ne troviamo, allora l'autorizzazione è per default Previeni (perché le due impostazioni si sono annullate a vicenda, e quindi non ci sono autorizzazioni). 
 </p>
 
 <h1>Eccezioni speciali</h1>
 
-<p>Da notare che all'utente ospite normalmente è impedito di inviare contenuti (per es. nei forum, nel calendario, nei blog) anche se gli è stato dato esplicitamente tale privilegio.
+<p>Da notare che all'utente ospite normalmente non può effettuare interventi (per es. nei forum, nel calendario, nei blog) anche se gli è dato esplicitamente il privilegio di farlo.
 </p>
 
 <p>
