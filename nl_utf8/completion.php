@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // completion.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
 $string['activitycompletion'] = 'Afgewerkte activiteiten';
@@ -41,7 +41,7 @@ $string['err_nousers'] = 'Er zijn geen gebruikers in deze cursus of groep van wi
 $string['err_system'] = 'Er is een interne fout opgetreden in het systeem om afgewerkte activiteiten bij te houden. (Systeembeheerders kunnen foutopsporing inschakelen om meer details over de fout te krijgen.)';
 $string['excelcsvdownload'] = 'Download in Excel-compatibel formaat (.csv)';
 $string['help_completion'] = 'Bijhouden afgewerkte activiteiten';
-$string['help_completionexpected'] = 'De datum voor afwerken is vereist';
+$string['help_completionexpected'] = 'Afwerken verwacht';
 $string['help_completionlocked'] = 'Geblokkeerde afwerkingsopties';
 $string['help_completionview'] = 'bekijken vereist om af te werken';
 $string['progress'] = 'Vooruitgang leerling';
