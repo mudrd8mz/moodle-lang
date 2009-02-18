@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // role.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
 $string['addinganewrole'] = 'Nieuwe rol toevoegen';
@@ -222,6 +222,7 @@ $string['site:restore'] = 'Cursussen terugzetten';
 $string['site:sendmessage'] = 'Stuur berichten naar gelijk welke gebruiker';
 $string['site:trustcontent'] = 'Inhoud als veilig beschouwen';
 $string['site:uploadusers'] = 'Nieuwe gebruikers uploaden van een bestand';
+$string['site:usewebservices'] = 'Gebruikers kunnen diesten van Moodle web services gebruiken';
 $string['site:viewfullnames'] = 'Altijd volledige namen van gebruikers zien';
 $string['site:viewparticipants'] = 'Deelnemers bekijken';
 $string['site:viewreports'] = 'Rapporten bekijken';
