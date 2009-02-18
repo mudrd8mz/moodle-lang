@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+      // choice.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['addmorechoices'] = 'הוסף אפשרויות נוספות';
@@ -14,6 +14,7 @@ $string['choiceclose'] = 'עד';
 $string['choicefull'] = 'בחירה זו מלאה ולא קיימים מקומות נוספים';
 $string['choicename'] = 'שם בחירה';
 $string['choiceopen'] = 'פתח';
+$string['choicesaved'] = 'הבחירה שלך נשמרה';
 $string['choicetext'] = 'טקסט בחירה';
 $string['displayhorizontal'] = 'הצג במאוזן';
 $string['displaymode'] = 'אופן הצגה';

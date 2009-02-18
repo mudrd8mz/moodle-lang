@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // role.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
@@ -23,7 +23,9 @@ $string['capabilities'] = 'יכולות';
 $string['capability'] = 'יכולת:';
 $string['category:create'] = 'צור קטגוריות';
 $string['category:delete'] = 'מחק קטגוריות';
+$string['category:manage'] = 'נהל קטגוריות';
 $string['category:update'] = 'עדכן קטגוריות';
+$string['category:viewhiddencategories'] = 'הראה קטגוריות נסתרות';
 $string['category:visibility'] = 'ראה קטגוריות מוסתרות';
 $string['course:activityvisibility'] = 'הסתר או הראה פעילויות';
 $string['course:bulkmessaging'] = 'שלח הודעה לאנשים רבים';
@@ -38,6 +40,7 @@ $string['course:managegrades'] = 'נהל ציונים';
 $string['course:managegroups'] = 'נהל קבוצות';
 $string['course:managemetacourse'] = 'נהל מטה-קורס';
 $string['course:managescales'] = 'נהל את סולמות הציונים';
+$string['course:request'] = 'בקש קורסים חדשים';
 $string['course:reset'] = 'אפס קורס';
 $string['course:sectionvisibility'] = 'ראות של קטע בקרה';
 $string['course:setcurrentsection'] = 'קבע את הקטע הנוכחי';

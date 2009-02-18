@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 Beta 4 (2007101507)
+      // mnet.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -104,6 +104,7 @@ $string['mnetlog'] = 'יומני מעקב';
 $string['mnetpeers'] = 'שווי מעמד';
 $string['mnetservices'] = 'שירותים';
 $string['mnetsettings'] = 'הגדרות Moodle Network';
+$string['mnetthemes'] = 'ערכות נושא';
 $string['moodle_home_help'] = 'הנתיב לדף הבית של Moodle במחשב המארח המרוחק לדוגמא /moodel/';
 $string['moodleloc'] = 'מיקום Moodle';
 $string['net'] = 'תקשורת';
@@ -173,6 +174,7 @@ $string['subscribe'] = 'הירשם';
 $string['system'] = 'מערכת';
 $string['testtrustedhosts'] = 'בדוק כתובת';
 $string['testtrustedhostsexplain'] = 'הכנס כתובת IP כדי לראות אם מחשב המארח בר אמון.';
+$string['themesavederror'] = 'תקלה אירעה: שינוי ערכת הנושא לא נשמר';
 $string['transport_help'] = 'אפשרויות אלו הופכיות, כך שתוכל להכריח את המחשב המארח המרוחק להשתמש באימות signed SSL אם לשרת שלך קיים אימות signed SSL.';
 $string['trustedhosts'] = 'מארחי XML-RPC';
 $string['trustedhostsexplain'] = '<p> מנגנון מערכת מחשב המארח המהימנה מאפשרת למחשבים מסויימים לבצע שיחות דרך XML-RPC לכל חלק של Moodle API. דבר זה זמין לסקיפטים בכדי לשלוט בהתנהגות Moodle ואם תאפשר זאת  הדבר עלול להיות מאוד מסוכן. אם אתה בספק השאר אפשרות זאת כבויה.</p>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
+      // install.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['admindirerror'] = 'ספריית מנהל המערכת המצויינת שגויה';
@@ -91,8 +91,10 @@ $string['databasesettingssub_postgres7'] = '<b>סוג:</b> PostgreSQL<br />
 <b>שם משתמש:</b> שם משתמש מסד הנתונים שלך<br />
 <b>סיסמה:</b> סיסמת מסד הנתונים שלך<br />
 <b>תחילית הטבלאות:</b> תחילית רשות לכל שמות הטבלאות (אפשרי)';
+$string['databasesettingswillbecreated'] = '<b>הערה: </b> ההתקנה תנסה ליצור את מסד הנתונים אוטומטית אם הוא לא קיים.';
 $string['dataroot'] = 'ספריית הנתנים';
 $string['datarooterror'] = 'ספריית \"נתוני Moodle\" שציינת לא נמצאה או יכלה להיווצר. אנא תקן את נתיב זה או צור את ספרייה זו באופן ידני.';
+$string['datarootpublicerror'] = 'ספריית ה-\'Data Directory\' שציינת ניתנת לגישה ישירות מהרשת. אתה מוכרח להשתמש בספרייה אחרת.';
 $string['dbconnectionerror'] = 'לא הצלחנו להתחבר למסד הנתונים שציינת. אנא בדוק את הגדרות מסד הנתונים שלך.';
 $string['dbcreationerror'] = 'חלה שגיאה ביצירת מסד הנתונים. המערכת לא הצליחה ליצור את שם מסד הנתונים שציינת עם ההגדרות שסופקו.';
 $string['dbhost'] = 'שרת מארח';
@@ -203,6 +205,7 @@ $string['mssql_n'] = 'SQL*Server with UTF-8 support (mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP לא הוגדר כהלכה עם הרחבת MSSQL בכדי שהוא יוכל לתקשר עם SQL*SERVER. אנא בדוק את קובץ הגדרות הPHP שלך- php.ini או הדר את ה-PHP שלך.';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP לא הוגדר כהלכה עם הרחבת MySQL בכדי שהוא יוכל לתקשר עם MySQL. אנא בדוק את קובץ הגדרות הPHP שלך- php.ini או הדר את ה-PHP שלך.';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP לא הוגדר נכון עם הרחבת ה-MYSQLi כך שהוא יוכל להתקשר עם MYSQL. אנא בדוק את הגדרות ה-php.ini שלך או הרץ את תוכנת ה-PHP שוב. MYSQLi לא זמינה עבור PHP4.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP לא הוגדר כהלכה עם הרחבת OCI8 בכדי שהוא יוכל לתקשר עם Oracle. אנא בדוק את קובץ הגדרות הPHP שלך- php.ini או הדר את ה-PHP שלך.';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
@@ -217,6 +220,12 @@ $string['phpversionhelp'] = '<p>גירסת PHP חייבת להיות לפחות 
 (במקרים של גרסת 5.0.x תוכל גם לרדת בגירסה ל- 4.4.x)
 </p>';
 $string['postgres7'] = 'PostgreSQL (postgres7';
+$string['postgresqlwarning'] = '<strong> הערה: </strong> 
+אם נתקלת בבעיות חיבור, תוכל להגדיר את שדה ה-Host Server כך:
+host=\'postgresql_host\' port=\'5432\' dbname=\'postgresql_database_name\' user=\'postgresql_user\' password=\'postgresql_user_password\'
+
+והשאר ריק את מסד הנתונים, המשתמש, והסיסמה. מידע נוסף ניתן לצפות כאן
+ <a href=\"http://docs.moodle.org/en/Installing_Postgres_for_PHP\">Moodle Docs</a>';
 $string['safemode'] = 'מצב בטוח (Safe Mode)';
 $string['safemodeerror'] = 'ל-Moodle קיימת בעיה עם איפשור מצב הבטוח (safe mode)';
 $string['safemodehelp'] = '<p>

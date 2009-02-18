@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // hotpot.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['abandoned'] = 'נטוש';
@@ -23,6 +23,7 @@ $string['copytoclipboard'] = 'העתק ללוח עריכה';
 $string['correct'] = 'נכון';
 $string['deleteabandoned'] = 'מחק את שנזנחו';
 $string['deleteabandonedcheck'] = 'האם אתה באמת מעונין למחוק את כל $a הנסיונות שנזנחו?';
+$string['deleteallattempts'] = 'מחק את כל הניסיונות';
 $string['displaycoursenext'] = 'עכשיו הצג עמוד של קורס.';
 $string['displayhotpotnext'] = 'עכשיו הצג בוחן של תוכנת Hot Potatoes';
 $string['displayindexnext'] = 'עכשיו הצג אינדקס של תוכנת Hot Potatoes';

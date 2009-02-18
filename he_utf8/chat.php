@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // chat.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['autoscroll'] = 'גלילה אוטומטית';
@@ -7,6 +7,7 @@ $string['beep'] = 'ציפצוף';
 $string['chat:chat'] = 'דבר בצ\'אט';
 $string['chat:deletelog'] = 'מחק את יומני המעקב של הצ\'אט';
 $string['chat:readlog'] = 'קרא את יומני המעקב של הצ\'אט';
+$string['chat:talk'] = 'דבר בצ\'אט';
 $string['chatintro'] = 'טקסט היכרות';
 $string['chatname'] = 'שמו של חדר צ\'אט זה';
 $string['chatreport'] = 'מושה הצ\'אט';

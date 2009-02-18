@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // data.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['action'] = 'פעולה';
@@ -185,6 +185,7 @@ $string['optionaldescription'] = 'תיאור קצר (לבחירתכם)';
 $string['optionalfilename'] = 'שם הקובץ (לבחירתכם)';
 $string['other'] = 'אחר';
 $string['overwrite'] = 'לכתוב על הכתוב תוך כדי מחיקת הקיים';
+$string['overwritesettings'] = 'כתוב שוב את ההגדרות';
 $string['pagesize'] = 'מספר הרשומות בכל עמוד';
 $string['participants'] = 'משתתפים';
 $string['picture'] = 'תמונה';

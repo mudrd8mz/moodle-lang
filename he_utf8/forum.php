@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // forum.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['addanewdiscussion'] = 'הוסף נושא חדש לדיון';
@@ -13,6 +13,7 @@ $string['aggregatemin'] = 'הדירוג המינימלי';
 $string['aggregatenone'] = 'ללא דירוגים';
 $string['aggregatesum'] = 'סכום הדירוגים';
 $string['aggregatetype'] = 'סוג הצבירה';
+$string['ajaxrating'] = 'אפשר דירוגי AJAX';
 $string['allforums'] = 'כל הפורומים';
 $string['allowchoice'] = 'אפשר לכולם לבחור';
 $string['allowdiscussions'] = 'האם $a יכול לפרסם הודעות בפורום זה?';
@@ -30,6 +31,7 @@ $string['bynameondate'] = 'על ידי $a->name בתאריך $a->date';
 $string['cannotadddiscussion'] = 'על מנת שתוכל להוסיף דיונים לפורום עלייך להיות חבר בקבוצה.';
 $string['cannotadddiscussionall'] = 'אין לך הרשאה להוסיף נושא דיון חדש עבור כל המשתתפים.';
 $string['cannotviewpostyet'] = 'עדיין אינך יכול לקרוא את השאלות של הסטודנטים האחרים בדיון זה, וזאת בגלל שעדיין לא פירסמת הודעה משלך.';
+$string['configajaxrating'] = 'דירוגי AJAX זהו שיפור לשימוש דירוגים בפורום. אם מאופשר, משתמשים יכולים לדרג פרסומים באופן כמעט אינטואיטיבי ללא צורך לגלול לתחתית הדף וללחוץ על לחצן \"שלח את הדירוג האחרון שלי\". הגדרה זו מאלצת AJAX להיות מאופשר עבור האתר ובפרופיל המשתמשים.';
 $string['configcleanreadtime'] = 'השעה ביום בה יש למחוק הודעות ישנות מטבלת \"לקרוא\".';
 $string['configdisplaymode'] = 'תצוגת הדיונים במצב ברירת המחדל, במידה שלא נקבעה דרך תצוגה אחרת.';
 $string['configenablerssfeeds'] = 'דגל זה יפעיל את האפשרות של הזנות RSS לכל הפורומים. עדיין תצטרך להפעיל את ההזנות באופן ידני בהגדרות של כל פורום בנפרד.';
@@ -122,6 +124,7 @@ $string['inforum'] = 'ב-$a';
 $string['intronews'] = 'חדשות כלליות והודעות';
 $string['introsocial'] = 'פורום פתוח, לניהול דיונים על כל דבר שתרצה.';
 $string['introteacher'] = 'פורום לדיונים והערות בין מורים בלבד';
+$string['invalidrate'] = 'דירוג לא תקין ($a)';
 $string['lastpost'] = 'הודעה אחרונה';
 $string['learningforums'] = 'פורומי למידה';
 $string['longpost'] = 'פרסום הודעה ארוך';
@@ -161,6 +164,7 @@ $string['nopostforum'] = 'מצטערים, אינך רשאי לפרסם בפור�
 $string['noposts'] = 'אין הודעות';
 $string['nopostscontaining'] = 'לא נמצאו הודעות המכילות את \'$a\'';
 $string['noquestions'] = 'עדיין אין שאלות בפורום זה';
+$string['noratinggiven'] = 'לא ניתנו דירוגים';
 $string['nosubscribers'] = 'עדיין אין מנויים לפורום זה';
 $string['nothingnew'] = 'שום דבר חדש ל-$a';
 $string['notingroup'] = 'צר לי, אך עליך להיות חלק מקבוצה כדי לצפות בפורום זה.';

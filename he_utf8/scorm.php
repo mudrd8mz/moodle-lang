@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // scorm.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['activation'] = 'הפעלה';
@@ -132,6 +132,7 @@ $string['review'] = 'עיין בתשובות';
 $string['reviewmode'] = 'מצב עיון בתשובות';
 $string['scoes'] = 'אובייקטי למידה';
 $string['score'] = 'תוצאה';
+$string['scorm:deleteresponses'] = 'מחק נסיונות SCORM';
 $string['scorm:savetrack'] = 'שמור עקבות';
 $string['scorm:skipview'] = 'פסח על הסקירה הכללית';
 $string['scorm:viewreport'] = 'צפה בדוחות';
@@ -139,6 +140,7 @@ $string['scorm:viewscores'] = 'צפה בתוצאות';
 $string['scormcourse'] = 'קורס למידה';
 $string['scormloggingoff'] = 'כניסת API כבויה';
 $string['scormloggingon'] = 'כניסת API דלוקה';
+$string['scormresponsedeleted'] = 'מחק נסיונות משתמש';
 $string['scrollbars'] = 'אפשר לגלול את החלון';
 $string['sided'] = 'בצד השמאלי';
 $string['skipview'] = 'סטודנטים פוסחים על עמוד מבנה התוכן';
