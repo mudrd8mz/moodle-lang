@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -332,6 +332,7 @@ $string['courserequestsupport'] = 'Meer informatie die de beheerder helpt met he
 $string['courserestore'] = 'Backup cursussen terugzetten';
 $string['courses'] = 'Cursussen';
 $string['coursescategory'] = 'Cursussen in dezelfde categorie';
+$string['coursesectionsummaries'] = 'Cursus sectiesamenvattingen';
 $string['coursesettings'] = 'Standaardinstellingen van de cursus';
 $string['coursesmovedout'] = 'Cursussen verplaatst uit $a';
 $string['coursespending'] = 'Cursussen die wachten om goedgekeurd te worden';

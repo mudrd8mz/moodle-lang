@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
 $string['activities'] = 'Activiteiten';
@@ -125,6 +125,7 @@ $string['coursegradedisplayupdated'] = 'De opmaak van beoordelingen voor deze cu
 $string['coursename'] = 'Cursusnaam';
 $string['coursescales'] = 'Cursusschalen';
 $string['coursesettings'] = 'Cursusinstellingen';
+$string['coursesettingsexplanation'] = 'Cursusinstellingen bepalen hoe het cijferboek er zal uitzien voor alle deelnemers van de cursus';
 $string['coursetotal'] = 'Cursustotaal';
 $string['createcategory'] = 'Maak categorie';
 $string['createcategoryerror'] = 'Kon geen nieuwe categorie maken';
@@ -350,6 +351,7 @@ $string['moveselectedto'] = 'Verplaats geselecteerde items naar:';
 $string['movingelement'] = '$a aan het verplaatsen';
 $string['multfactor'] = 'Multiplicator';
 $string['multfactorhelp'] = 'Factor waarmee alle beoordelingen voor dit item zullen vermenigvuldigd worden.';
+$string['mypreferences'] = 'Mijn voorkeuren';
 $string['myreportpreferences'] = 'Mijn rapport voorkeuren';
 $string['navmethod'] = 'Navigatiemethode';
 $string['neverdeletehistory'] = 'Cijfergeschiedenis nooit verwijderen';

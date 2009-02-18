@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -19,6 +19,7 @@ $string['allowobjectembed'] = 'EMBED en OBJECT tags toestaan';
 $string['allowrenames'] = 'Gebruikersnamen bijwerken toestaan';
 $string['allowuserblockhiding'] = 'Gebruikers mogen blokken verbergen';
 $string['allowusermailcharset'] = 'Gebruikers mogen tekenset kiezen';
+$string['allowuserswitchrolestheycantassign'] = 'Gebruikers zonder het recht om rollen toe te wijzen toelaten om de rol wijzigen schakelaar op de cursuspagina te gebruiken';
 $string['allowuserthemes'] = 'Gebruikersthema\'s toestaan';
 $string['allowvisiblecoursesinhiddencategories'] = 'Zichtbare cursussen in verborgen categorieën toestaan';
 $string['antivirus'] = 'Anti-virus';
@@ -75,6 +76,8 @@ $string['configallowoverride2'] = 'Kies welke rol(len) overschreven kan worden d
 $string['configallowunenroll'] = 'Als dit op \'ja\' staat, dan mogen leerlingen zichzelf uit cursussen uitschrijven wanneer ze willen. Anders mogen zij dat niet en dan wordt dit proces uitsluitend door leraren en beheerders gecontroleerd.';
 $string['configallowuserblockhiding'] = 'Wil je gebruikers toelaten om blokken te verbergen of te tonen? Deze functie gebruikt Javascript en cookies om de status van elk samenklapbaar blok te bewaren en heeft enkel gevolg voor het beeld van de individuele gebruiker.';
 $string['configallowusermailcharset'] = 'Door dit in te schakelen, kan elke gebruiker van de site zijn eigen tekenset kiezen voor het e-mailen.';
+$string['configallowuserswitchrolestheycantassign'] = 'Standaard is moodle/role:assign vereist om gebruikers toe te laten de schakelaar om van rol te wisselen te gebruiken. Deze instelling inschakelen verwijdert deze vereiste, waardoor de mogelijke rollen in het rolmenu alleen nog bepaald worden door de instellingen in de \"Toewijzen van rollen toestaan\"-tabel.
+Het is aangewezen in dde \"Toewijzen van rollen toestaan\"-tabel gebruikers niet het recht te geven rollen toe te wijzen met meer mogelijkheden dan hun eigen rol.';
 $string['configallowuserthemes'] = 'Als je dit inschakelt, dan kunnen gebruikers hun eigen thema kiezen. Gebruikersthema\'s gaan boven site-thema\'s (maar niet boven cursusthema\'s)';
 $string['configallusersaresitestudents'] = 'Moeten ALLE gebruikers als leerlingen beschouwd worden voor activiteiten op de startpagina van de site? Als je hier \"Ja\" kiest, dan zullen alle bevestigde accounts hier als leerling kunnen meedoen aan alle activiteiten. Als je hier \"Nee\" kiest, dan zullen alleen gebruikers die minstens van één cursus lid zijn kunnen meedoen aan die startpagina-activiteiten.';
 $string['configauthenticationplugins'] = 'Kies de authenticatieplugins die je wenst te gebruiken en rangschik ze in volgorde, zodat diegene met het meeste kans op succes heeft, bovenaan staat.
@@ -465,6 +468,7 @@ $string['htmlsettings'] = 'HTML-instellingen';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP Security';
 $string['iconvrecommended'] = 'Als je site andere talen dan die uit de Latin1 tekenset gebruikt, dan is het installeren van de optionele ICONV library ten zeerste aangeraden om de performantie van de site te verhogen.';
+$string['ignore'] = 'Negeer';
 $string['importlangreminder'] = 'Het migratieproces van de databank is begonnen. Nadien zul je opnieuw moeten <b>aanmelden</b> om de upgrade af te ronden. 
 Installeer onmiddellijk <b>na</b> de migratie nieuwe taalpakketten via Beheer->Taal->Taalpaketten importeren.';
 $string['importtimezones'] = 'Update de volledige lijst van tijdzones';
@@ -834,6 +838,7 @@ $string['uploadusersresult'] = 'Resultaat uploaden gebruikers';
 $string['upwards'] = 'hoger';
 $string['useexternalyui'] = 'Gebruik online YUI-libraries';
 $string['usehtmleditor'] = 'Gebruik HTML-editor';
+$string['user'] = 'Gebruiker';
 $string['useraccountupdated'] = 'Gebruiker geüpdatet';
 $string['userbulk'] = 'Gebruikers in bulk beheren';
 $string['userdeleted'] = 'Gebruiker verwijderd';
