@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090218) (2009012901)
 
 
 $string['activities'] = '활동';
@@ -125,6 +125,7 @@ $string['coursegradedisplayupdated'] = '강좌의 성적 표시 형식이 갱신
 $string['coursename'] = '강좌 이름';
 $string['coursescales'] = '강좌 척도';
 $string['coursesettings'] = '강좌 설정';
+$string['coursesettingsexplanation'] = '강좌의 모든 참여자에게 성적표를 어떻게 제시할지를 설정';
 $string['coursetotal'] = '강좌 합계';
 $string['createcategory'] = '범주 생성';
 $string['createcategoryerror'] = '새 범주를 생성할 수 없음';
@@ -350,7 +351,8 @@ $string['moveselectedto'] = '다음으로 선택항목 옮김 :';
 $string['movingelement'] = '$a 이동';
 $string['multfactor'] = '가중치';
 $string['multfactorhelp'] = '전체 항목에 대해 이 항목이 차지하는 비중';
-$string['myreportpreferences'] = '내 보고서 선택사항';
+$string['mypreferences'] = '개인 설정';
+$string['myreportpreferences'] = '내 보고서 설정';
 $string['navmethod'] = '진행표시 방법';
 $string['neverdeletehistory'] = '이력을 삭제하지 마시오';
 $string['newcategory'] = '새 범주';

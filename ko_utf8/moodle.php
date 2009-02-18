@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090218) (2009012901)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -331,6 +331,7 @@ $string['courserequestsupport'] = '관리자가 검토할 때 도움이 될 정�
 $string['courserestore'] = '강좌 복원';
 $string['courses'] = '강좌';
 $string['coursescategory'] = '동일 범주의 강좌';
+$string['coursesectionsummaries'] = '강좌의 영역 개요';
 $string['coursesettings'] = '표준강좌 설정';
 $string['coursesmovedout'] = '$a 에서 강좌 옮겨짐';
 $string['coursespending'] = '유보되었던 강좌 승인';
