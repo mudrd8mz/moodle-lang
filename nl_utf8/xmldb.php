@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
 $string['actual'] = 'Actueel';
@@ -26,6 +26,9 @@ $string['confirmcheckdefaults'] = 'Deze functie zoekt naar inconsistente standaa
 Als die gegenereerd zijn, kun je ze uitvoeren in je favoriete SQL-interface (vergeet niet je databank te backuppen voor je dat doet).<br /><br />
 Het is ten zeerste aangeraden om de laatste beschikbare +-versie van je Moodleversie te gebruiken voor je gaatzoeken naar inconsistente standaardwaarden.<br /><br />
 Deze actie leest alleen je databank en kan dus altijd veilig uitgevoerd worden.';
+$string['confirmcheckforeignkeys'] = 'Deze functie zoekt naar mogelijke schendingen van foreign keys, gedefinieerd in de install.xml-definities. (Moodle genereert op dit ogenblik geen foreign key beperkingen in de databank - hierdoor kan er ongeldige data voorkomen.)<br /><br />
+Je kunt best de laatste Moodleversie gebruiken (+-versie) die voor jouw Moodle 51.8, 1.9, 2.x ...) beschikbaar is voor je op zoek gaat naar ontbrekende indexen.<br /><br />
+Deze functie wijzigt niets aan de databank (enkel lezen). Je kunt dit dus op elk moment veilig uitvoeren.';
 $string['confirmcheckindexes'] = 'Deze functie zal zoeken naar mogelijk ontbrekende indexen op je Moodle server, en hierbij automatisch de nodige SQL-statements genereren (maar niet uitvoeren!) om alles up to date te houden. Eens gegenereerd kun je die statements kopiëren en veilig uitvoeren in je favoriete SQL-interface<br /><br />
 Het is ten zeerste aangeraden de laatst beschikbare (+ versie) Moodleversie te gebruiken voor je zoekt naar ontbrekende indexen.<br /><br />
 Deze functie schrijft niets weg in de databank (enkel lezen), en kan dus veilig uitgevoerd worden op elk moment.';
@@ -63,11 +66,13 @@ $string['edit_table'] = 'Bewerk tabel';
 $string['edit_xml_file'] = 'Bewerk XML-bestand';
 $string['enumvaluesincorrect'] = 'Foute waarden voor enum veld';
 $string['expected'] = 'Verwacht';
+$string['extensionrequired'] = 'Sorry - the PHP-extentie \'$a\' is vereist voor deze actie. Installeer de extentie als je deze functie wil gebruiken.';
 $string['field'] = 'Veld';
 $string['fieldnameempty'] = 'Naam veld leeg';
 $string['fields'] = 'Velden';
 $string['fieldsusedinkey'] = 'Dit veld wordt als sleutel gebruikt.';
 $string['filenotwriteable'] = 'Bestand niet beschrijfbaar';
+$string['fkviolationdetails'] = 'Foreign key $a->keyname op tabel $a->tablename is geschonden door $a->numviolations van $a->numrows rijen.';
 $string['floatincorrectdecimals'] = 'Fout aantal decimalen voor float veld';
 $string['floatincorrectlength'] = 'Foute lengte voor float veld';
 $string['generate_documentation'] = 'Documentatie';
