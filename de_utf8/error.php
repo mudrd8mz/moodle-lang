@@ -417,6 +417,7 @@ $string['storedfilenotcreated'] = 'Datei \"$a->contextid/$a->filearea/$a->itemid
 $string['storedfileproblem'] = 'Unbekannter Fehler mit lokalen Dateien ($a)';
 $string['tagdisabled'] = 'Schlagworte sind deaktiviert!';
 $string['tagnotfound'] = 'Der verwendete Tag wurde in der Datenbank nicht gefunden.';
+$string['targetdatabasenotempty'] = 'Die Zieldatenbank ist nicht leer. Aus Sicherheitsgründen wurde die Übertragung abgebrochen.';
 $string['themenotinstall'] = 'Dieses Design ist nicht verfügbar!';
 $string['transactionvoid'] = 'Transaktion konnte nicht geleert werden, da sie bereits leer war.';
 $string['unenrolerror'] = 'Beim Austragen der Person ist ein Fehler aufgetreten.';

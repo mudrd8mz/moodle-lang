@@ -223,6 +223,7 @@ $string['site:restore'] = 'Kurse wiederherstellen';
 $string['site:sendmessage'] = 'Nachrichten an alle versenden';
 $string['site:trustcontent'] = 'Übermittelten Inhalten vertrauen';
 $string['site:uploadusers'] = 'Neue Nutzer/innen mittels Datei importieren';
+$string['site:usewebservices'] = 'Nutzer/innen können über Moodle-Webservices angebunden werden';
 $string['site:viewfullnames'] = 'Immer vollständige Nutzernamen sehen';
 $string['site:viewparticipants'] = 'Alle Nutzer/innen sehen';
 $string['site:viewreports'] = 'Berichte sehen';

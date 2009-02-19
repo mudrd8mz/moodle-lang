@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // choice.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['addmorechoices'] = 'Weitere Auswahloptionen hinzufügen';
@@ -16,6 +16,7 @@ $string['choiceclose'] = 'bis (Datum, Uhrzeit)';
 $string['choicefull'] = 'Diese Abstimmung ist voll und es gibt keine verfügbaren Plätze mehr.';
 $string['choicename'] = 'Name der Abstimmung';
 $string['choiceopen'] = 'von (Datum, Uhrzeit)';
+$string['choicesaved'] = 'Ihre Abstimmung wurde gespeichert';
 $string['choicetext'] = 'Fragestellung';
 $string['displayhorizontal'] = 'Horizontal anzeigen';
 $string['displaymode'] = 'Anzeigemodus';
@@ -33,6 +34,7 @@ $string['noguestchoose'] = 'Entschuldigung, aber Gäste dürfen nicht an Abstimm
 $string['noresultsviewable'] = 'Die Ergebnisse sind aktuell nicht sichtbar.';
 $string['notanswered'] = 'Noch nicht abgestimmt';
 $string['notopenyet'] = 'Entschuldigung, diese Aktivität ist erst ab $a verfügbar.';
+$string['option'] = 'Option';
 $string['privacy'] = 'Anonymität';
 $string['publish'] = 'Ergebnisse veröffentlichen';
 $string['publishafteranswer'] = 'Nach der eigenen Stimmabgabe';

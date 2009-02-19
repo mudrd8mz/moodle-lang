@@ -14,11 +14,11 @@ $string['check_courserole_anything'] = 'Die \'alles dürfen\' (do anything) Bere
 $string['check_courserole_details'] = '<p>Jeder Kurs hat eine Standardrolle für Nutzer (meist Teilnehmer/in) definiert. Achten Sie darauf, dass für diese Rolle keine unsicheren Berechtigungen erlaubt sind.</p>
 <p>Die einzige Rolle auf diedas zutrifft ist die <em>Standard-Teilnehmerrolle</em>.</p>';
 $string['check_courserole_error'] = 'Fehlerhaft definierte Basisrolle für Kurse entdeckt!';
-$string['check_courserole_legacy'] = 'Nicht unterstützter Legacy-Typ entdeckt in a href=\"$a\">role</a>.';
 $string['check_courserole_name'] = 'Standardrollen (für Kurse)';
 $string['check_courserole_notyet'] = 'In Kursen werden nur Standardrollen verwendet';
 $string['check_courserole_ok'] = 'Die Standardrollendefinitionen sind ok';
 $string['check_courserole_risky'] = 'Bedenkliche Berechtigungen wurden entdeckt! <a href=\"$a\">Zusammenhang anzeigen</a>';
+$string['check_courserole_riskylegacy'] = 'Bedenkliche Vererbung wurde entdeckt! <a href=\"$a->url\">$a->shortname</a>';
 $string['check_defaultcourserole_anything'] = 'Die Berechtigung \'alles erlaubt\' sollte nicht zugelassen werden! <a href=\"$a\">Zusammenhang anzeigen</a>';
 $string['check_defaultcourserole_details'] = '<p>Die standardmäßige Teilnehmerrolle bei der Kurseinschreibung bestimmt die Standardrolle für alle Kurse. Bitte stellen Sie sicher, dass keine bedenklichen Fähigkeiten für diese Rolle erlaubt sind!</p>
 <p>Der einzig unterstützte Standardtyp für diese Rolle ist <em>Teilnehmer/in (=Student)</em>';
@@ -40,6 +40,7 @@ $string['check_displayerrors_name'] = 'Anzeige von PHP-Fehlern';
 $string['check_displayerrors_ok'] = 'Die Anzeige von PHP-Fehlern ist deaktiviert';
 $string['check_emailchangeconfirmation_details'] = '<p>Es wird empfohlen, eine E-Mail-Bestätigung einzufordern, wenn Nutzer/innen ihre E-Mail-Adresse im Nutzerprofil ändern. Falls diese Einstellung deaktiviert ist, könnten Spammer versuchen, den Webserver zum Versenden von Spam zu missbrauchen.</p>';
 $string['check_emailchangeconfirmation_error'] = 'Es dürfen beliebige E-Mail-Adressen eintragen werden';
+$string['check_emailchangeconfirmation_info'] = 'Es dürfen ausschließlich E-Mail-Adressen von zugelassenen Domains eingetragen werden';
 $string['check_emailchangeconfirmation_name'] = 'E-Mail-Adressänderungen';
 $string['check_emailchangeconfirmation_ok'] = 'Änderungen von E-Mail-Adressen müssen bestätigt werden';
 $string['check_embed_details'] = '<p>Die uneingeschränkte Nutzung von EMBED/OBJECT ist äußerst gefährlich, weil alle registrierten Nutzer/innen einen XSS-Angriff gegen andere Server-Nutzer starten könnten. Diese Einstellung sollte auf produktiven Servern deaktiviert sein.</p>';
@@ -89,6 +90,7 @@ $string['check_riskadmin_detailswarning'] = '<p>Bitte prüfen Sie die folgende L
 <p>Es wird empfohlen, die Administratorenrolle nur auf Systemebene zu vergeben. Die folgenden Nutzer verfügen über nicht unterstützte Zuweisungen zur Administratorrolle:</p><p><b>$a->unsupported</b></p>';
 $string['check_riskadmin_name'] = 'Administratoren';
 $string['check_riskadmin_ok'] = '$a Serveradministrator(en) gefunden';
+$string['check_riskadmin_unassign'] = 'Rollenzuweisung überprüfen bei <a href=\"$a->url\">$a->fullname ($a->email)</a>';
 $string['check_riskadmin_warning'] = '$a->admincount Serveradministrator(en) und $a->unsupcount nicht unterstützte Zuweisung(en) zur Administratorrolle gefunden';
 $string['check_riskxss_details'] = '<p>RISK_XSS bezeichnet alle bedenklichen Berechtigungen, die ausschließlich vertrauensvolle Nutzer ausführen dürfen.</p>
 <p>Bitte prüfen Sie die folgende Nutzerliste und überlegen Sie sich, ob Sie ihnen völlig trauen können:</p><p><b>$a</b></p>';
@@ -113,5 +115,6 @@ $string['statusok'] = 'OK';
 $string['statusserious'] = 'Schwerwiegend';
 $string['statuswarning'] = 'Warnung';
 $string['timewarning'] = 'Die Bearbeitung kann etwas länger dauern. Haben Sie bitte Geduld....';
+$string['check_courserole_legacy'] = 'Nicht unterstützter Legacy-Typ entdeckt in a href=\"$a\">role</a>.'; // ORPHANED
 
 ?>
