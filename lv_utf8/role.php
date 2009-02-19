@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // role.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
 
 
 $string['addrole'] = 'Pievienot jaunu lomu';
@@ -23,10 +23,15 @@ $string['capabilities'] = 'Atļaujas';
 $string['capability'] = 'Atļauja';
 $string['category:create'] = 'Izveidot kategorijas';
 $string['category:delete'] = 'Dzēst kategorijas';
+$string['category:manage'] = 'Pārvaldīt kategorijas';
 $string['category:update'] = 'Atjaunināt kategorijas';
+$string['category:viewhiddencategories'] = 'Skatīt slēptās kategorijas';
 $string['category:visibility'] = 'Skatīt slēptās kategorijas';
 $string['course:activityvisibility'] = 'Paslēpt/rādīt aktivitātes';
 $string['course:bulkmessaging'] = 'Nosūtīt ziņu vairākiem adresātiem';
+$string['course:changefullname'] = 'Nomainīt kursa pilno nosaukumu';
+$string['course:changeidnumber'] = 'Nomainīt kursa ID numuru';
+$string['course:changeshortname'] = 'Nomainīt kursa īso nosaukumu';
 $string['course:create'] = 'Izveidot kursus';
 $string['course:delete'] = 'Dzēst kursus';
 $string['course:manageactivities'] = 'Pārvaldīt aktivitātes';
@@ -35,6 +40,7 @@ $string['course:managegrades'] = 'Pārvaldīt vērtējumus';
 $string['course:managegroups'] = 'Pārvaldīt grupas';
 $string['course:managemetacourse'] = 'Pārvaldīt metakursu';
 $string['course:managescales'] = 'Pārvaldīt vērtību skalas';
+$string['course:request'] = 'Pieprasīt jaunus kursus';
 $string['course:reset'] = 'Atiestatīt kursu';
 $string['course:sectionvisibility'] = 'Noteikt sadaļas redzamību';
 $string['course:setcurrentsection'] = 'Iestatīt pašreizējo sadaļu';
