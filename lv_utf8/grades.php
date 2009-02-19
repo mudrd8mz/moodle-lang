@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // grades.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
 
 
 $string['activities'] = 'Aktivitātes';
@@ -103,6 +103,7 @@ $string['configshowgroups'] = 'Vai rādīt katras grupas apkopojuma vērtību.';
 $string['configshowhiddenitems'] = 'Norāda, kā slēptās vērtējumu vienības tiek parādītas. Ja ir iezīmēts \"Paslēpt\", tās tiek pilnībā paslēptas. Ja ir iezīmēts \"Parādīt\", slēptā vērtējuma rinda tiek rādīta pelēkā krāsā ar pilnīgi slēptu vērtējumu. Ja ir iezīmēts \"Paslēpt līdz\", vērtējumu vienības ar \"paslēpt līdz\" datumu tiek rādītas pelēkā krāsā ar pilnīgi paslēptiem vērtējumiem līdz iestatītajam laikam, pēc kura visa vērtējumu vienība tiek parādīta.';
 $string['configshowlocks'] = 'Vai rādīt slēgšanas/atslēgšanas ikonu katra vērtējuma tuvumā.';
 $string['configshownumberofgrades'] = 'Vai iekavās pēc katra vērtējuma rādīt vidējās vērtības aprēķinā izmantoto vērtējumu skaitu, piemēram, 45 (34).';
+$string['configshowpercentage'] = 'Vai rādīt katras vērtējumu vienības procentus.';
 $string['configshowquickfeedback'] = 'Ja ir iespējotas ātrās atsauksmes, vērtētāja atskaitē katra vērtējuma šūnā tiek pievienots teksta ievades elements, kas ļauj rediģēt atsauksmes daudziem vērtējumiem vienlaicīgi. Tā vietā, lai izmaiņas veiktu pa vienai, noklikšķinot Atjaunināšanas pogu, ir iespējams veikt visas šīs izmaiņas vienā reizā.';
 $string['configshowranges'] = 'Vai atsevišķā rindā rādīt katras kolonnas vērtējumu diapazonu.';
 $string['configshowrank'] = 'Vai katrā vērtējumu vienībā rādīt lietotāja pozīciju attiecībā pret pārējiem dalībniekiem.';
@@ -301,6 +302,8 @@ $string['lessthanmin'] = '$a->itemname ievadītais lietotāja $a->username vērt
 $string['letter'] = 'Burts';
 $string['lettergrade'] = 'Burtu atzīme';
 $string['lettergradenonnumber'] = 'Augsts un/vai zems vērtējums nav sniegts skaitliskā formātā lietotājam';
+$string['letterpercentage'] = 'Burti (procenti)';
+$string['letterreal'] = 'Burti (reāli)';
 $string['letters'] = 'Burti';
 $string['linkedactivity'] = 'Saistītā aktivitāte';
 $string['linkedactivityhelp'] = 'Norāda neobligāto aktivitāti, ar kuru šis rezultāts ir saistīts. Tas tiek izmantots, lai vērtētu studentu sniegumu pēc kritērijiem, kas netiek novērtēti ar aktivitātes vērtējumu.';
@@ -347,7 +350,9 @@ $string['nonnumericweight'] = 'Saņemta neskaitliska vērtība par';
 $string['nonunlockableverbose'] = 'Šis vērtējums nevar tikt atslēgts, kamēr $a->itemname ir slēgts.';
 $string['nonweightedpct'] = 'nav noteikta svarīguma vērtība %%';
 $string['nooutcome'] = 'Nav rezultāta';
+$string['nooutcomes'] = 'Rezultātu vienībām ir jābūt piesaistītām kursa rezultātam, bet šim kursam nav neviena rezultāta. Vai jūs vēlaties vienu pievienot?';
 $string['nopublish'] = 'Nepublicēt';
+$string['noscales'] = 'Rezultātiem ir jābūt piesaistītiem kursa skalai vai globālai skalai, bet nav nevienas skalas. Vai jūs vēlaties vienu pievienot?';
 $string['noselectedcategories'] = 'netika izvēlēta neviena kategorija.';
 $string['noselecteditems'] = 'netika izvēlēta neviena vienība.';
 $string['notteachererror'] = 'Lai izmantotu šo līdzekli, jums jābūt pasniedzējam.';
@@ -356,6 +361,7 @@ $string['onascaleof'] = 'skalā $a->grademin līdz $a->grademax';
 $string['operations'] = 'Operācijas';
 $string['options'] = 'Opcijas';
 $string['outcome'] = 'Rezultāts';
+$string['outcomeassigntocourse'] = 'Piešķirt šim kursam citu rezultātu';
 $string['outcomecategory'] = 'Izveidot reultātus kategorijā';
 $string['outcomecategorynew'] = 'Jauna kategorija';
 $string['outcomeconfirmdelete'] = 'Vai esat pārliecināts, ka vēlaties izdzēst rezultātu \"$a\"?';
@@ -386,6 +392,8 @@ $string['parentcategory'] = 'Vecākkategorija';
 $string['pctoftotalgrade'] = '%% no kopējā vērtējuma';
 $string['percent'] = 'Procenti';
 $string['percentage'] = 'Procenti';
+$string['percentageletter'] = 'Procenti (burti)';
+$string['percentagereal'] = 'Procenti (reāli)';
 $string['percentascending'] = 'Kārtot augošā secībā pēc procentuālās vērtības';
 $string['percentdescending'] = 'Kārtot dilstošā secībā pēc procentuālās vērtības';
 $string['percentshort'] = '%%';
@@ -412,6 +420,8 @@ $string['rangesdisplaytype'] = 'Diapazonu parādīšanas tips';
 $string['rank'] = 'Rangs';
 $string['rawpct'] = 'Aptuveni %%';
 $string['real'] = 'Reāls skaitlis';
+$string['realletter'] = 'Reāli (burti)';
+$string['realpercentage'] = 'Reāli (procenti)';
 $string['regradeanyway'] = 'Atkārtoti novērtēt tik un tā';
 $string['removeallcoursegrades'] = 'Dzēst visus vērtējumus';
 $string['removeallcourseitems'] = 'Dzēst visas vērtējumu vienības un kategorijas';
@@ -454,6 +464,7 @@ $string['showlocks'] = 'Parādīt slēgšanas';
 $string['shownohidden'] = 'Nav paslēpts';
 $string['shownooutcomes'] = 'Paslēpt rezultātus';
 $string['shownumberofgrades'] = 'Parādīt vērtējumu skaitu apkopojumos';
+$string['showpercentage'] = 'Rādīt procentus';
 $string['showquickfeedback'] = 'Parādīt ātrās atsauksmes';
 $string['showranges'] = 'Parādīt diapazonus';
 $string['showrank'] = 'Parādīt rangus';

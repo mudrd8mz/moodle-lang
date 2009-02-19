@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // assignment.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
 
 
 $string['allowdeleting'] = 'Atļaut dzēšanu';
@@ -34,7 +34,7 @@ $string['description'] = 'Apraksts';
 $string['draft'] = 'Melnraksts';
 $string['duedate'] = 'Izpildes termiņš';
 $string['duedateno'] = 'Bez izpildes termiņa';
-$string['early'] = '$a katru gadu';
+$string['early'] = '$a agrāk';
 $string['editmysubmission'] = 'Rediģēt savu iesniegto materiālu';
 $string['emailstudents'] = 'Nosūtīt e-pasta brīdinājumus studentiem';
 $string['emailteachermail'] = 'Lietotājs $a->username ir atjauninājis savu iesniegto uzdevumu “{$a->assignment}”.
