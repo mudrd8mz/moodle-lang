@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // glossary.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
 
 
 $string['addcomment'] = 'Komentāru pievienošana';
@@ -104,6 +104,7 @@ $string['explainimport'] = 'Lai importētu un definētu apstrādes kritērijus, 
 $string['explainspecial'] = 'Rādīt šķirkļus, kas nesākas ar burtu';
 $string['exportedentry'] = 'Eksportēts šķirklis';
 $string['exportentries'] = 'Eksportēt šķirkļus';
+$string['exportentriestoxml'] = 'Eksportēt šķirkļus uz XML failu';
 $string['exportfile'] = 'Eksportēt šķirkļus uz failu';
 $string['exportglossary'] = 'Eksportēt šķirkli';
 $string['exporttomainglossary'] = 'Eksportēt uz pamatvārdnīcu';
