@@ -1,12 +1,18 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // chat.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
 
 
+$string['ajax'] = 'Versione Ajax';
 $string['autoscroll'] = 'Auto-scroll';
 $string['beep'] = 'campanella';
+$string['cantinsert'] = 'Non è stato possibile inviare il messaggio nella chat!';
+$string['cantlogin'] = 'Non è stato possibile collegarsi alla chat!';
 $string['chat:chat'] = 'Parlare in una chat';
 $string['chat:deletelog'] = 'Rimuovere i log delle chat';
+$string['chat:exportparticipatedsession'] = 'Esportare partecipanti alla chat';
+$string['chat:exportsession'] = 'Esportare sessioni chat';
 $string['chat:readlog'] = 'Leggere i log delle chat';
+$string['chat:talk'] = 'Parlare in chat';
 $string['chatintro'] = 'Testo di introduzione';
 $string['chatname'] = 'Nome di questa stanza di chat';
 $string['chatreport'] = 'Sessioni discussione';
@@ -33,6 +39,8 @@ $string['explainmethodnormal'] = 'Queste impostazioni interessano soltanto se av
 $string['generalconfig'] = 'Configurazione generale';
 $string['helpchatting'] = 'Aiuto per la chat';
 $string['idle'] = 'Inattivo';
+$string['inputarea'] = 'Area di input';
+$string['invalidid'] = 'Non è stato possibile trovare quella chat!';
 $string['messagebeepseveryone'] = '$a richiama tutti!';
 $string['messagebeepsyou'] = '$a ti ha appena richiamato!';
 $string['messageenter'] = '$a è entrato nella chat';
@@ -45,11 +53,13 @@ $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chat';
 $string['neverdeletemessages'] = 'Non cancellare i messaggi';
 $string['nextsession'] = 'Prossima sessione programmata';
+$string['nochat'] = 'Non sono state trovate chat';
 $string['noguests'] = 'La chat non è disponibile agli ospiti';
 $string['nomessages'] = 'Nessun messaggio ancora';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nessuna sessione programmata';
+$string['notlogged'] = 'Non sei collegato!';
 $string['oldping'] = 'Timeout disconnessione';
 $string['pastchats'] = 'Sessioni passate di chat';
 $string['refreshroom'] = 'Aggiorna stanza';
@@ -59,16 +69,21 @@ $string['repeatdaily'] = 'Alla stessa ora tutti i giorni';
 $string['repeatnone'] = 'Nessuna ripetizione - pubblica solo l\'orario specificato';
 $string['repeattimes'] = 'Ripeti sessioni';
 $string['repeatweekly'] = 'Alla stessa ora tutte le settimane';
+$string['saidto'] = '<b>detto a</b>';
 $string['savemessages'] = 'Salva le sessioni passate';
 $string['seesession'] = 'Guarda questa sessione';
+$string['send'] = 'Invia';
+$string['sending'] = 'Invio in corso';
 $string['serverhost'] = 'Nome server';
-$string['serverip'] = 'IP server';
-$string['servermax'] = 'Massimo utenti';
+$string['serverip'] = 'Server IP';
+$string['servermax'] = 'Max. numero utenti';
 $string['serverport'] = 'Porta server';
 $string['sessions'] = 'Sessioni chat';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Tutti posso vedere le sessioni passate';
 $string['updatemethod'] = 'Metodo aggiornamento';
+$string['updaterate'] = 'Velocità di aggiornamento:';
+$string['userlist'] = 'Elenco utenti';
 $string['viewreport'] = 'Guarda le sessioni passate';
 
 ?>

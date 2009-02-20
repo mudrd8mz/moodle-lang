@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
 
 
 $string['activaterep'] = 'Repository attivi';
@@ -41,6 +41,7 @@ $string['enablecourseinstances'] = 'Abilita repository di corso';
 $string['enableuserinstances'] = 'Abilita repository dell\'utente';
 $string['error'] = 'Si è verificato un errore sconosciuto!';
 $string['existingrepository'] = 'Questo repository esiste già';
+$string['federatedsearch'] = 'Ricerca federata';
 $string['filename'] = 'Nome del file';
 $string['filenotnull'] = 'Devi selezionare il file da caricare.';
 $string['filesaved'] = 'Il file è stato slavato';

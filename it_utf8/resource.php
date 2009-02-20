@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -7,15 +7,17 @@ $string['affectedresources'] = 'Risorse coinvolte';
 $string['allowlocalfiles'] = 'Consenti file locali';
 $string['autofilerename'] = 'Aggiorna link se file rinominato';
 $string['back'] = 'Indietro';
-$string['blockdeletingfile'] = 'Cancellazione dei file collegati';
+$string['blockdeletingfile'] = 'Eliminazione dei file collegati';
 $string['browserepository'] = 'Cerca nel repository';
+$string['cannotupdate'] = 'Non è stato possibile aggiornare la risorsa';
 $string['choose'] = 'Scegli';
 $string['chooseafile'] = 'Scegli un file oppure caricane uno dal tuo computer';
+$string['chooseaparameter'] = 'Scegli un parametro...';
 $string['chooseparameter'] = 'Scegli un parametro';
 $string['clicktoopen'] = 'Per aprire il documento, clicca su questo link:';
 $string['configallowlocalfiles'] = 'Quando si crea una risorsa di tipo \"Link a file o sito web\", questa impostazione consente di collegare file presenti sul lettore CD o sul disco fisso del computer dell\'utente. Può essere utile nelle classi dove gli studenti possono accedere ad un disco di rete oppure per accedere a file contenuti in un CD-ROM. L\'impiego di questa caratteristica potrebbe richiedere la modifica di impostazioni di sicurezza nel browser degli utenti.';
 $string['configautofilerenamesettings'] = 'Aggiorna automaticamente i collegamenti ai file ed alle cartelle quando file o cartelle vengono rinominati con il file manager.';
-$string['configblockdeletingfilesettings'] = 'Se desiderate impedire che vengano eliminati file o cartelle che risultino in uso da altre risorse, impostate questo valore a Sì. Tenete comunque presente che questa impostazione non può garantire che possano essere cancellati file e cartelle utilizzati da pagine html.';
+$string['configblockdeletingfilesettings'] = 'Se desiderate impedire che vengano eliminati file o cartelle che risultino in uso da altre risorse, impostate questo valore a Sì. Tenete comunque presente che questa impostazione non può garantire che possano essere eliminati file e cartelle utilizzati da pagine html.';
 $string['configdefaulturl'] = 'E\' possibile predefinire il valore dell\'URL con il quale creare risorse di tipo \"Link a file o sito web\".';
 $string['configfilterexternalpages'] = 'Abilitando questa impostazione tutte le risorse che utilizzano file caricati sul server (pagine web, file HTML) saranno elaborate dai filtri attivi (come i collegamenti automatici al glossario, per esempio). Abilitare questa impostazione potrebbe rallentare il caricamento delle pagine in modo significativo - usalo con attenzione e solo se non ne puoi fare a meno.';
 $string['configframesize'] = 'Se si sceglie di mostrare una risorsa usando i frame, è possibile specificare qui la dimensione in pixel del frame superiore che conterrà l\'intestazione di pagina con l\'interfaccia di navigazione del sito.';
@@ -54,7 +56,12 @@ $string['framesize'] = 'Dimensione frame';
 $string['fulltext'] = 'Testo visualizzato dalla risorsa';
 $string['htmlfragment'] = 'Codice HTML';
 $string['imspackageloaded'] = 'Pacchetto caricato';
+$string['invalidassignment'] = 'Assegnazione errata';
+$string['invalidid'] = 'L\'ID della risorsa è errato';
 $string['keepnavigationvisible'] = 'Mantieni visibile la navigazione sulla stessa pagina';
+$string['keepnavigationvisibleno'] = 'No';
+$string['keepnavigationvisibleyesframe'] = 'Si, con frame';
+$string['keepnavigationvisibleyesobject'] = 'Si, senza frame';
 $string['localfile'] = 'File nel computer dell\'utente';
 $string['localfilechoose'] = 'Scegli un file nel tuo computer (es. CD-ROM)';
 $string['localfilehelp'] = 'Aiuto su come visualizzare file presenti nei computer degli utenti';
@@ -99,10 +106,12 @@ $string['parameter'] = 'Parametro';
 $string['parameters'] = 'Parametri';
 $string['popupresource'] = 'Questa risorsa dovrebbe apparire in una finestra popup';
 $string['popupresourcelink'] = 'Se la popup non è apparsa, fai click qui: $a';
+$string['portfolionotimplemented'] = 'State tentando di esportare contenuti da un tipo di risorsa ($a) che non supporta l\'esportazione!';
 $string['preview'] = 'Anteprima';
 $string['previous'] = 'Precedente';
 $string['redeploy'] = 'Pubblica nuovamente';
 $string['repository'] = 'Repository IMS';
+$string['resource:exportresource'] = 'Esporta risorsa';
 $string['resource:view'] = 'Visualizza la risorsa';
 $string['resourcedefaulturl'] = 'URL default';
 $string['resourcetype'] = 'Tipo di risorsa';
@@ -132,7 +141,7 @@ $string['upbutton'] = 'Torna Su';
 $string['variablename'] = 'Nome della variabile';
 $string['viewims'] = 'Visualizza pacchetto IMS';
 $string['vol'] = 'Volume';
-$string['warningblockingdelete'] = 'Attenzione: la cancellazione è stata interrotta poiché esistono risorse che usano i file da cancellare. E\' necessario eliminare da queste risorse i riferimenti ai file che volete eliminare oppure chiedere all\'Amministratore di disattivare questo meccanismo di controllo nella configurazione del sistema.';
+$string['warningblockingdelete'] = 'Attenzione: l\'eliminazione è stata interrotta poiché esistono risorse che usano i file da eliminare. E\' necessario eliminare da queste risorse i riferimenti ai file che volete eliminare oppure chiedere all\'Amministratore di disattivare questo meccanismo di controllo nella configurazione del sistema.';
 $string['warningdisabledrename'] = 'Attenzione: l\'aggiornamento automatico dei nomi dei file presenti all\'interno delle risorse è disabilitato. Se necessario, aggiornare manualmente le risorse interessate. L\'Amministratore può anche abilitare il l\'aggiornamento automatico dei nomi dei file nella configurazione globale delle Risorse.';
 $string['websearchdefault'] = 'Websearch default';
 

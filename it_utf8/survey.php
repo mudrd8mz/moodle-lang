@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // survey.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
 
 
 $string['actual'] = 'Attuale';
@@ -58,6 +58,10 @@ $string['attlsm2'] = 'Apprendimento Connesso';
 $string['attlsm3'] = 'Apprendimento Separato';
 $string['attlsmintro'] = 'In una discussione ...';
 $string['attlsname'] = 'ATTLS (versione con 20 elementi)';
+$string['cannotfindanswer'] = 'Non ci sono risposte al sondaggio.';
+$string['cannotfindquestion'] = 'la domanda non esiste';
+$string['cannotfindsurveytmpt'] = 'Non sono stati trovati template per il sondaggio';
+$string['cannotinsertanswer'] = 'Si è verificato un problema durante il salvataggio. Siamo spiacenti.';
 $string['ciq1'] = 'In che momento in classe sei più partecipe come studente?';
 $string['ciq1short'] = 'Più partecipe';
 $string['ciq2'] = 'In che momento in classe sei meno partecipe come studente?';
@@ -178,6 +182,8 @@ $string['howlong'] = 'Quanto tempo hai impiegato a completare questo sondaggio?'
 $string['howlongoptions'] = 'meno di 1 min,1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,più di 10 min';
 $string['ifoundthat'] = 'Ho trovato che';
 $string['introtext'] = 'Testo di introduzione';
+$string['invalidsurveyid'] = 'ID Sondaggio errata';
+$string['invalidtmptid'] = 'ID template errata';
 $string['ipreferthat'] = 'Preferisco che';
 $string['modulename'] = 'Sondaggio';
 $string['modulenameplural'] = 'Sondaggi';
