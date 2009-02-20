@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
+      // group.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addgroupstogrouping'] = 'Agregar grupos al agrupamiento';
@@ -29,6 +29,7 @@ $string['deleteallgroups'] = 'Eliminar todos los grupos';
 $string['deletegroupconfirm'] = '¿Está seguro de que desea eliminar el grupo \'$a\'?';
 $string['deletegrouping'] = 'Eliminar agrupamiento';
 $string['deletegroupingconfirm'] = '¿Está seguro de que desea eliminar el conjunto \'$a\'? (Los grupos no se eliminarán).';
+$string['deletegroupsconfirm'] = '¿Está seguro de que quiere eliminar a los grupos siguientes?';
 $string['deleteselectedgroup'] = 'Eliminar grupo seleccionado';
 $string['editgroupingsettings'] = 'Editar ajustes de agrupamiento';
 $string['editgroupsettings'] = 'Editar ajustes de grupo';
@@ -37,6 +38,8 @@ $string['erroraddremoveuser'] = 'Error al agregar/quitar al usuario $a del grupo
 $string['erroreditgroup'] = 'Error al crear o actualizar el grupo $a';
 $string['erroreditgrouping'] = 'Error al crear o actualizar el agrupamiento $a';
 $string['errorinvalidgroup'] = 'Error, grupo $a no válido';
+$string['errorselectone'] = 'Por favor, seleccione un solo grupo antes de elegir esta opción';
+$string['errorselectsome'] = 'Por favor, seleccione uno o más grupos antes de elegir esta opción';
 $string['evenallocation'] = 'Nota: Para conservar constante la asignación de usuarios, el número real de miembros por grupo difiere del número que usted ha especificado.';
 $string['existingmembers'] = 'Miembros existentes: $a';
 $string['filtergroups'] = 'Filtrar grupos por:';
