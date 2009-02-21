@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090216) (2009012901)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['check_configrw_details'] = '<p>웹 서버에 의해 config.php 파일이 변조되는 것을 막기 위해 설치 후 이 파일의 읽고쓰기 권한을 변경시켜 둘 것을 권장. 다만 이러한 조치가 특별히 서버의 보안을 증진시킨다는 것이 아니라, 외부의 침탈 의도를 저하시키거나 부분적으로 제한할 수 있다는 사실을 주목하기 바랍니다.</p>';
@@ -90,6 +90,7 @@ $string['check_riskadmin_detailswarning'] = '<p>다음의 관리자 목록을 �
 <p>단지 시스템 영역의 관리자 역할만을 부여할 것을 권장함. 다음의 사용자들은 지원되지 않는 관리자 역할을 부여받았음 <br />$a->unsupported</p>';
 $string['check_riskadmin_name'] = '관리자';
 $string['check_riskadmin_ok'] = '$a 서버 관리자 발견';
+$string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) 직능 검토</a>';
 $string['check_riskadmin_warning'] = '$a->admincount 서버 관리자 및  $a->unsupcount 의 지원되지 않는 관리자 역할 부여 발견';
 $string['check_riskxss_details'] = '<p>인증된 사용자들에게 부여된 모든 위험성이 있는 권한에 대해서는 RISK_XSS 표식을 함. </p>
 <p>다음 사용자에 대해서는 본 서버에서 완벽하게 신뢰할 수 있는지 검증해 보기 바람:<br />$a </p>';

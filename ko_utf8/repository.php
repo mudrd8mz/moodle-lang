@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20081204) (2008120400)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -41,6 +41,7 @@ $string['enablecourseinstances'] = '강좌 저장소 사용 가능';
 $string['enableuserinstances'] = '개인 저장소 사용 가능';
 $string['error'] = '오류 발생!';
 $string['existingrepository'] = '이미 있는 저장소';
+$string['federatedsearch'] = '통합 검색';
 $string['filename'] = '파일명';
 $string['filenotnull'] = '올릴 파일을 선택해야 함';
 $string['filesaved'] = '저장완료!';
