@@ -2,11 +2,16 @@
       // portfolio.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
+$string['activeexport'] = 'Aktiven Export abbrechen';
 $string['activeportfolios'] = 'Aktive Portfolios';
 $string['addalltoportfolio'] = 'Alle speichern...';
 $string['addnewportfolio'] = 'Neues Portfolio hinzufügen';
 $string['addtoportfolio'] = 'Speichern...';
+$string['alreadyalt'] = 'Export läuft gerade - anklicken, um abzubrechen';
+$string['alreadyexporting'] = 'Derzeit wird eine Portfolioexport ausgeführt. Bevor Sie fortsetzen, muss dieser abgeschlossen oder abgebrochen werden. Sol er fortgesetzt werden? (Nein, bricht ihn ab)';
 $string['availableformats'] = 'Mögliche Export-Formate';
+$string['callercouldnotpackage'] = 'Fehler beim Packen der Daten für den Export. Fehler: $a';
+$string['cannotsetvisible'] = 'Kann nicht auf sichtbar gesetzt werden. Plugin wurde vollständig deaktiviert, da eine Fehlkonfiguration entdeckt wurde.';
 $string['configexport'] = 'Exportierte Daten konfigurieren';
 $string['configplugin'] = 'Portfolio-Plugin konfigurieren';
 $string['configure'] = 'Konfigurieren';
@@ -20,6 +25,7 @@ $string['displayarea'] = 'Export-Bereich';
 $string['displayinfo'] = 'Export-Information';
 $string['dontwait'] = 'Nicht warten';
 $string['enabled'] = 'Portfolios aktivieren';
+$string['enableddesc'] = 'Erlaubt Admins die Konfiguration des Remote-Systems für den Export von Content durch Nutzer nach';
 $string['err_uniquename'] = 'Der Portfolio-Name muss eindeutig sein (per Plugin)';
 $string['exportcomplete'] = 'Portfolio-Export beendet!';
 $string['exportedpreviously'] = 'Vorherige Exporte';
@@ -61,18 +67,25 @@ $string['noavailableplugins'] = 'Entschuldigung, aber es gibt keine verfügbaren
 $string['nopermissions'] = 'Entschuldigung, aber Sie besitzen nicht die nötigen Rechte, um Dateien aus diesem Bereich zu exportieren.';
 $string['notexportable'] = 'Entschuldigung, aber der Datentyp, den Sie gerade versuchen zu exportieren, lässt dies nicht zu';
 $string['notimplemented'] = 'Entschuldigung, aber Sie versuchen Daten in einem Format zu exportieren, das bisher noch nicht implementiert ist ($a)';
+$string['notyetselected'] = 'Nichts ausgewählt';
+$string['notyours'] = 'Sie versuchen einen Portfolioexpoprt fortzusetzen, der Ihnen nicht gehört.';
 $string['nouploaddirectory'] = 'Das temporäre Verzeichnis zum Sammeln Ihrer Daten konnte nicht angelegt werden.';
 $string['plugin'] = 'Portfolio-Plugin';
 $string['plugincouldnotpackage'] = 'Fehler beim Packen Ihrer Exportdaten: $a';
+$string['pluginismisconfigured'] = 'Portfolio-Plugin ist falsch konfiguriert und wird übersprungen. Fehler: $a';
 $string['portfolio'] = 'Portfolio';
 $string['portfolios'] = 'Portfolios';
+$string['queuesummary'] = 'Aktuell wartende Transfers';
 $string['returntowhereyouwere'] = 'Zur vorherigen Seite zurück';
 $string['save'] = 'Speichern';
 $string['selectedformat'] = 'Gewähltes Exportformat';
+$string['selectedwait'] = 'Gewählt für Warteschlange?';
+$string['selectplugin'] = 'Ziel auswählen';
 $string['sure'] = 'Sind Sie sicher, dass Sie \'$a\' löschen möchten? Dies kann nicht rückgängig gemacht werden!';
 $string['transfertime'] = 'Übertragungszeit';
 $string['unknownplugin'] = 'Unbekannt (u.U. von Admin inzwischen entfernt)';
 $string['wait'] = 'Warten';
+$string['wanttowait_high'] = 'Es ist nicht empfehlenswert abzuwarten, bis der Transfer angeschlossen ist. Sie können es jedoch tun, wenn Sie wissen was Sie tun.';
 $string['wanttowait_moderate'] = 'Möchten Sie auf diese Übertragung warten? Es könnte ein paar Minuten dauern';
 $string['format_html'] = 'HTML'; // ORPHANED
 
