@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['activeportfolios'] = 'Aktive Portfolios';
@@ -32,13 +32,16 @@ $string['failedtosendpackage'] = 'Fehler beim Senden Ihrer Daten an das gewählt
 $string['filedenied'] = 'Kein Zugriff zu dieser Datei';
 $string['filenotfound'] = 'Datei nicht gefunden';
 $string['format_file'] = 'Datei';
-$string['format_html'] = 'HTML';
 $string['format_image'] = 'Bild';
 $string['format_mbkp'] = 'Moodle-Sicherung';
+$string['format_plainhtml'] = 'HTML';
+$string['format_richhtml'] = 'HTML mit Anhängen';
 $string['format_text'] = 'Unformatierter Text';
 $string['format_video'] = 'Video';
 $string['hidden'] = 'Verborgen';
+$string['insanesubject'] = 'Einige Portfolio-Instanzen automatisch deaktiviert.';
 $string['instancedeleted'] = 'Portfolio erfolgreich gelöscht';
+$string['instanceismisconfigured'] = 'Portfolioinstanz fehlkonfiguriert. Übersprungen. Fehler: $a';
 $string['instancenotdelete'] = 'Löschen des Portfolios fehlgeschlagen';
 $string['instancenotsaved'] = 'Speichern des Portfolios fehlgeschlagen';
 $string['instancesaved'] = 'Portfolio erfolgreich gespeichert';
@@ -50,6 +53,8 @@ $string['invalidinstance'] = 'Diese Portfolio-Instanz konnte nicht gefunden werd
 $string['invalidproperty'] = 'Dieses Merkmal konnte nicht gefunden werden ($a->property in $a->class)';
 $string['invalidtempid'] = 'Ungültige Export-ID. Sie könnte auch zu alt sein.';
 $string['invaliduserproperty'] = 'Dieses Konfigurationsmerkmal für Nutzer konnte nicht gefunden werden ($a->property in $a->class)';
+$string['logs'] = 'Transfer Logs';
+$string['logsummary'] = 'Frühere erfolgreiche Transfers';
 $string['manageportfolios'] = 'Portfolios verwalten';
 $string['manageyourportfolios'] = 'Ihre Portfolios verwalten';
 $string['noavailableplugins'] = 'Entschuldigung, aber es gibt keine verfügbaren Portfolios, in die Sie exportieren könnten';
@@ -65,7 +70,10 @@ $string['returntowhereyouwere'] = 'Zur vorherigen Seite zurück';
 $string['save'] = 'Speichern';
 $string['selectedformat'] = 'Gewähltes Exportformat';
 $string['sure'] = 'Sind Sie sicher, dass Sie \'$a\' löschen möchten? Dies kann nicht rückgängig gemacht werden!';
+$string['transfertime'] = 'Übertragungszeit';
+$string['unknownplugin'] = 'Unbekannt (u.U. von Admin inzwischen entfernt)';
 $string['wait'] = 'Warten';
 $string['wanttowait_moderate'] = 'Möchten Sie auf diese Übertragung warten? Es könnte ein paar Minuten dauern';
+$string['format_html'] = 'HTML'; // ORPHANED
 
 ?>
