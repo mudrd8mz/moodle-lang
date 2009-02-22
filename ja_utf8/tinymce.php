@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tinymce.php - created with Moodle 2.0 dev (Build: 20081014) (2008101300)
+      // tinymce.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['main/advhr:advhr_desc'] = '水平方向の罫線';
@@ -536,7 +536,7 @@ $string['plugins/table_dlg:rules_void'] = 'なし';
 $string['plugins/table_dlg:rules_vsides'] = '左右のみ';
 $string['plugins/table_dlg:scope'] = 'スコープ';
 $string['plugins/table_dlg:style'] = 'スタイル';
-$string['plugins/table_dlg:summary'] = 'サマリー';
+$string['plugins/table_dlg:summary'] = '要約';
 $string['plugins/table_dlg:tbody'] = 'テーブルボディ';
 $string['plugins/table_dlg:td'] = '日付';
 $string['plugins/table_dlg:tfoot'] = 'テーブルフッタ';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -41,6 +41,7 @@ $string['enablecourseinstances'] = 'コースリポジトリを有効にする';
 $string['enableuserinstances'] = 'ユーザリポジトリを有効にする';
 $string['error'] = '不明なエラーが発生しました!';
 $string['existingrepository'] = 'このリポジトリは、すでに登録されています。';
+$string['federatedsearch'] = '横串検索';
 $string['filename'] = 'ファイル名';
 $string['filenotnull'] = 'アップロードするファイルを選択してください。';
 $string['filesaved'] = 'ファイルが保存されました!';

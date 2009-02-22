@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -331,6 +331,7 @@ $string['courserequestsupport'] = '管理者がこのリクエストを判断す
 $string['courserestore'] = 'コースリストア';
 $string['courses'] = 'コース';
 $string['coursescategory'] = '同一カテゴリ内のコース';
+$string['coursesectionsummaries'] = 'コースセクション要約';
 $string['coursesettings'] = 'コースデフォルト設定';
 $string['coursesmovedout'] = '$a からコースを移動しました。';
 $string['coursespending'] = '承認審査中コース';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['check_configrw_details'] = '<p>ウェブサーバからファイルが修正されないよう、インストール後、config.phpのファイルパーミッションを変更することをお勧めします。この方法は、サーバのセキュリティを著しく向上させるものではありませんが、一般的なセキュリティ上の弱点 (exploits) をスローダウンしたり、制限することはできます。</p>';
@@ -91,6 +91,7 @@ $string['check_riskadmin_detailswarning'] = '<p>以下の管理者リストを�
 <p>システムコンテクストのみへの管理者ロール割り当てをお勧めします。以下のユーザは、サポートされない管理者ロールが割り当てられています:</p>$a->unsupported';
 $string['check_riskadmin_name'] = '管理者';
 $string['check_riskadmin_ok'] = '$a 名のサーバ管理者が登録されています。';
+$string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) ロール割り当てのレビュー</a>';
 $string['check_riskadmin_warning'] = '$a->admincount 名のサーバ管理者および $a->unsupcount 名のサポートされない管理者ロールの割り当てが見つかりました。';
 $string['check_riskxss_details'] = '<p>RISK_XSSは、信頼されるユーザのみ使用できる、すべての危険なケイパビリティを意味します。</p>
 <p>以下のユーザ一覧を閲覧して、このサーバにおいて、あなたがこれらのユーザを完全に信頼できることを確認してください:</p><p>$a</p>';
