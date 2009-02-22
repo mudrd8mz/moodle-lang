@@ -31,9 +31,9 @@ $string['check_defaultcourserole_risky'] = '<a href=\"$a\">コンテクスト</a
 $string['check_defaultuserrole_details'] = '<p>すべてのログインユーザには、デフォルトのユーザロールのケイパビリティが割り当てられます。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p>
 <p>デフォルトのユーザロールでサポートされているレガシータイプのロールは「認証ユーザ」のみです。コース閲覧ケイパビリティは、有効にしないでください。</p>';
 $string['check_defaultuserrole_error'] = 'デフォルトユーザロール「 $a 」は、正しくない定義です!';
-$string['check_defaultuserrole_name'] = '登録ユーザのロール';
+$string['check_defaultuserrole_name'] = 'すべてのユーザのデフォルトロール';
 $string['check_defaultuserrole_notset'] = 'デフォルトロールが設定されていません。';
-$string['check_defaultuserrole_ok'] = '登録ユーザのロール定義は、OKです。';
+$string['check_defaultuserrole_ok'] = 'すべてのユーザのデフォルトロール定義は、OKです。';
 $string['check_displayerrors_details'] = '<p>いくつかのエラーメッセージは、あなたのサーバに関する機密情報を漏洩する可能性があるため、PHP設定 <code>display_errors</code>の有効化は、実稼動サイトではお勧めできません。</p>';
 $string['check_displayerrors_error'] = 'PHPエラーの表示が有効にされています。PHP設定でエラー表示を無効にすることをお勧めします。';
 $string['check_displayerrors_name'] = 'PHPエラーを表示する';
