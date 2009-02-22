@@ -3,9 +3,9 @@
 
 
 $string['err_invalidhost'] = 'Dieses Plugin ist falsch konfiguriert. Es verweist auf einen ungültigen (oder gelöschten) mnet Host. Dieses Plugin verwendet Moodle Network Peers mit SSO IDP Veröffentlichung und Portfolio und SSO_SP Eintrag.';
-$string['err_networkingoff'] = 'Vor der Konfiguration dieses Plugin, muss Moodle Network aktiviert werden. Moodle Network ist zur Zeit komplett abgeschaltet. Die Instanzen dieses Plugin werden auf unsichtbar gesetzt bis dies korrigiert wurde. Danach müssen sSe sie manuell sichtbar setzen. Vorher können sie nicht genutzt werden.';
-$string['err_nomnetauth'] = 'Mnet Authenifizierung ist deaktiviert. Sie wird für diesen Service jedoch benötigt.';
-$string['err_nomnethosts'] = 'Dieses pligin basiert auf Moodle Network Peers mit SSO IDP Veröffentlichung und Portfolio sowie SSO SP Eintrag und zusätzlich Mnet Authentifizierung. Die Instanzen dieses Plugin werden auf unsichtbar gesetzt bis dies korrigiert wurde. Danach müssen sSe sie manuell sichtbar setzen. Vorher können sie nicht genutzt werden.';
+$string['err_networkingoff'] = 'Vor der Konfiguration dieses Plugins muss Moodle Network aktiviert werden. Moodle Network ist zur Zeit vollständig ausgeschaltet. Die Instanzen dieses Plugins werden auf unsichtbar gesetzt bis dies korrigiert ist. Danach müssen Sie die Instanzen manuell sichtbar schalten, bevor sie genutzt werden können.';
+$string['err_nomnetauth'] = 'Mnet Authentifizierung ist deaktiviert. Sie wird für diesen Service jedoch benötigt.';
+$string['err_nomnethosts'] = 'Dieses Plugin basiert auf Moodle Network Peers mit SSO IDP Veröffentlichung und Portfolio sowie SSO SP Eintrag und zusätzlich Mnet Authentifizierung. Die Instanzen dieses Plugins werden auf unsichtbar gesetzt bis dies korrigiert ist. Danach müssen Sie die Instanzen manuell sichtbar schalten, bevor sie genutzt werden können.';
 $string['failedtojump'] = 'Die Kommunikation mit dem externen Server konnte nicht gestartet werden.';
 $string['failedtoping'] = 'Die Kommunikation mit dem externen Server ($a) konnte nicht gestartet werden.';
 $string['mnet_nofile'] = 'Datei zum Transfer konnte nicht gefunden werden.';

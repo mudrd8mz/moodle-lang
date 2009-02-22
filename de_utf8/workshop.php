@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // workshop.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['absent'] = 'Abwesend';
@@ -56,7 +56,7 @@ $string['beforedeadline'] = 'Vor dem Stichtag: $a';
 $string['by'] = 'Eingereicht von';
 $string['calculationoffinalgrades'] = 'Berechnung der Endbeurteilung';
 $string['clearlateflag'] = 'Verspätungskennzeichen löschen';
-$string['closeassignment'] = 'Aufgabe schliessen';
+$string['closeassignment'] = 'Aufgabe schließen';
 $string['comment'] = 'Kommentar';
 $string['commentbank'] = 'Kommentarsammlung';
 $string['commentby'] = 'Kommentiert von';
@@ -206,7 +206,7 @@ $string['phase3'] = 'Erlaube $a Arbeiten abzugeben und zu bewerten';
 $string['phase3short'] = 'Beides';
 $string['phase4'] = 'Erlaube $a  Bewertungen  vorzunehmen';
 $string['phase4short'] = 'Bewertungen';
-$string['phase5'] = 'Berechnung des Abschlußbewertung';
+$string['phase5'] = 'Berechnung der Abschlussbewertung';
 $string['phase5short'] = 'Zeige Bewertungen';
 $string['pleaseassesstheseexamplesfromtheteacher'] = 'Bitte bewerten Sie dieses Beispiel von $a';
 $string['pleaseassessthesestudentsubmissions'] = 'Bitte bewerten Sie diese $a Beiträge';

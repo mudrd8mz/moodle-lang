@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['adminacceptccs'] = 'Welche Kreditkartentypen sollen akzeptiert werden?';
@@ -103,12 +103,12 @@ $string['expired'] = 'Abgelaufen';
 $string['haveauthcode'] = 'Ich habe bereits einen Autorisierungscode';
 $string['howmuch'] = 'Wieviel?';
 $string['httpsrequired'] = 'Ihre Anfrage kann leider zur Zeit nicht bearbeitet werden. Die Konfiguration der Seite weist einen Fehler auf. <br /><br />
-Warten Sie mit der Eingabe Ihrer Kreditkartennummer solange, bis Sie ein gelbes Schloß in der Fußzeile des Browsers sehen können. Wenn das Symbol erscheint, werden alle Daten zwischen Ihrem Rechner und dem Server verschlüsselt gesendet. Damit wird die Datenübertragung geschützt und Ihre Kreditkartendaten können nicht in falsche Hände geraten.';
+Warten Sie mit der Eingabe Ihrer Kreditkartennummer solange, bis Sie ein gelbes Schloss in der Fußzeile des Browsers sehen können. Wenn das Symbol erscheint, werden alle Daten zwischen Ihrem Rechner und dem Server verschlüsselt gesendet. Damit wird die Datenübertragung geschützt und Ihre Kreditkartendaten können nicht in falsche Hände geraten.';
 $string['invalidaba'] = 'Ungültige ABA Nummer';
 $string['invalidaccnum'] = 'Ungültige Kontonummer';
 $string['invalidacctype'] = 'Ungültiger Kontentyp';
 $string['isbusinesschecking'] = 'Ist Geschäftsvorgang geprüft?';
-$string['logindesc'] = 'Diese Option MUSS aktiviert sein. Stellen Sie sicher, dass die Einstellung <a href=\"$a->url\">loginhttps</a> unter Administration >> Variablen konfigurieren >> Sicherheit aktiviert ist.
+$string['logindesc'] = 'Diese Option MUSS aktiviert sein. Stellen Sie sicher, dass die Einstellung <a href=\"$a->url\">loginhttps</a> unter Website Administration - Variablen konfigurieren - Sicherheit aktiviert ist.
 <br /><br />
 Wenn diese Option aktiviert ist, verwendet Moodle für die Login- und Zahlungsvorgänge eine sichere HTTPS-Verbindung.';
 $string['logininfo'] = 'Anmeldename, Passwort und Transaktionsschlüssel werden während der Sicherheitsabfrage nicht angezeigt. Es besteht keine Notwendigkeit, die Daten noch einmal einzugeben, wenn Sie diese Felder bereits konfiguriert haben. <br />Sie werden einen grünen Text links von der Box sehen, falls die Felder bereits konfiguriert sind.Wenn Sie zum ersten Mal in diese Felder eintragen, wird der Anmeldename (*) benötigt und Sie müssen <strong>entweder</strong> den Transaktionsschlüssel (#1) <strong>oder</strong> das Passwort in das Bestätigungsfeld eingeben. Wir empfehlen die Eingabe des Transaktionsschlüssel für Sicherheitsabfragen. Falls Sie das aktuelle Passwort löschen möchten, markieren Sie die Checkbox.';

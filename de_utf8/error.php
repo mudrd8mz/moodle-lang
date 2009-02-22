@@ -376,7 +376,7 @@ $string['pluginrequirementsnotmet'] = 'Das Plugin \"$a->pluginname\" ($a->plugin
 $string['prefixcannotbeempty'] = '<p>Fehler: Datenbanktabellen-Prefix kann nicht leer sein.($a)</p>
 <p>Der Administrator muss dieses Problem beseitigen.</p>';
 $string['prefixtoolong'] = '<p>Fehler: Datenbanktabellen-Prefix ist zu lang ($a->dbfamily)</p>
-<p>Der Administrator muss dieses Problem anpassen. Tabellen -Prefixes in $a->dbfamily ist max. $a->maxlength Zeichen lang.</p>';
+<p>Der Administrator muss dieses Problem anpassen. Tabellen- Prefixes in $a->dbfamily sind max. $a->maxlength Zeichen lang.</p>';
 $string['processingstops'] = 'Der Prozess wurde an dieser Stelle gestoppt. Verbleibende Schritte wurden nicht mehr durchgeführt.';
 $string['refoundto'] = 'Kann ersetzt werden durch $a';
 $string['refoundtoorigi'] = 'Ersetzt durch den Originalbetrag: $a';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (Build: 20081110) (2008110603)
+      // group.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
 
 
 $string['addgroupstogrouping'] = 'Gruppe zur Gruppierung hinzufügen';
@@ -40,7 +40,7 @@ $string['erroreditgrouping'] = 'Fehler beim Bearbeiten der Gruppierung $a';
 $string['errorinvalidgroup'] = 'Fehler: Ungültige Gruppe $a';
 $string['errorselectone'] = 'Bitte wählen Sie eine einzelne Gruppe, bevor Sie diese Option wählen.';
 $string['errorselectsome'] = 'Bitte wählen Sie eine oder mehrere Gruppen, bevor Sie diese Option wählen.';
-$string['evenallocation'] = 'Anmerkung: Um die Verteilung der Gruppen gleichmässig zu erteilen, kann die Zahl der Mitglieder je Gruppe von der angegeben Zahl abweichen.';
+$string['evenallocation'] = 'Anmerkung: Um die Verteilung der Gruppen gleichmäßig zu erteilen, kann die Zahl der Mitglieder je Gruppe von der angegeben Zahl abweichen.';
 $string['existingmembers'] = 'Vorhandene Mitglieder: $a';
 $string['filtergroups'] = 'Gruppen filtern nach:';
 $string['group'] = 'Gruppe';
