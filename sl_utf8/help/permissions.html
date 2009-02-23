@@ -1,0 +1,52 @@
+<h1>Dovoljenja</h1>
+
+<p>
+Dovoljenja so nastavitve, kjer garantirate določene sposobnosti.
+</p>
+
+<p>
+Na primer, sposobnost je "Začni novo razpravo" (v forumih).
+</p>
+
+<p>
+V vsaki vlogi lahko nastavite dovoljenje za takšno sposobnost od ene od štirih vrednosti:</p>
+<dl>
+<dt>NE NASTAVI</dt>
+<dd>To je običajno prednastavljena možnost. Je nevtralna možnost, ki pomeni, da "uporabi katerokoli nastavitev, ki jo uporabnik trenutno ima". Če se dodeli vloga (na primer v predmetu) nekomu, ki ima dovoljenje za to sposobnost, potem bo dejansko dovoljenje, ki ga bodo imele te osebe, enako kot so ga že imele na višje nivojskih kontekstih (na primer v kategorijah ali sistemski ravni). Konec koncev, če dovoljenje na nobeni ravni ni dano, potem uporabnik ne bo imel dovoljenja za to sposobnost.   
+    </dd>
+
+<dt>DOVOLI</dt>
+<dd>Z izbiro te možnosti garantirate dovoljenje za to sposobnost osebam, katerim je dodeljena ta vloga. To dovoljenje se nanaša na kontekste, katerim vloga je imenovana plus vsem "nižjim" kontekstom. Na primer, če je ta vloga dodeljena udeležencem predmeta, potem bodo udeleženci lahko "začeli novo razpravo" v vseh forumih v tem predmetu, RAZEN ČE kakšen forum vsebuje preglasitev ali novo dodelitev z onemogoči ali prepovej vrednostjo za to sposobnost. 
+</dd>
+
+<dt>ONEMOGOČI</dt>
+<dd>Če izberete to možnost, s tem odstranite dovoljenja za to sposobnost, čeprav je bilo uporabnikom s to vlogo to dovoljeno v višjem kontekstu.</dd>
+
+<dt>PPREPOVEJ</dt>
+<dd>Ta možnost se ne potrebuje pogostokrat, vendar boste občasno mogoče želeli zavrniti dovoljenja   vlogi na ta način, da ne more biti preglašeno na katerem od nižjih kontekstov. Dober primer, kdaj bi lahko to potrebovali je, ko želi skrbnik prepovedati določeni osebi začetek nove razprave v kateremkoli forumu v celotnem sistemu. V tem primeru lahko ustvarijo vlogo s sposobnostjo "Prepovej" in jo potem dodelijo uporabniku v sistemskem kontekstu.
+  </dd>
+
+</dl>
+
+<h1>Reševanje sporov o dovoljenjih</h1>
+
+<p> Dovoljenja na "nižjem" kontekstu bodo običajno preglasila karkoli na "višjem" kontekstu (to se nanaša na preglasitve in dodeljene vloge). Izjema je PREPOVED, ki ne more biti preglašena na nižjih nivojih.
+</p>
+
+<p> Če sta dve vlogi dodeljeni osebi v istem kontekstu, ena z DOVOLI in ena z ONEMOGOČI, katera zmaga? V tem primeru bo Moodle pogledal kontekstno drevo za "odločitev".</p>
+    
+<p> Na primer, udeleženec ima dve vlogi v enem predmetu, ena, ki mu dovoli začetek novih razprav in ena, ki mu to onemogoča. V tem primeru pogledamo kategorije in sistemske kontekste, kjer iščemo nova definirana dovoljenja, ki se nam pomagajo odločiti. Če jih ne najdemo, potem je dovoljenje ONEMOGOČI po prednastavljenem (ker se dve nastavitvi medsebojno izničita in zato nimate nobenega dovoljenja). 
+</p>
+
+<h1>Posebne izjeme</h1>
+
+<p> Vedite, da bo uporabniku kot gostu v splošnem onemogočen dostop do objavljanja vsebin (na primer forum, koledar, blog), tudi če je dana sposobnost za to.  
+</p>
+
+<p>
+Oglejte si še
+<a href="help.php?file=roles.html">vloge</a>,
+<a href="help.php?file=contexts.html">kontekste</a>,
+<a href="help.php?file=assignroles.html">določanje vlog</a> ter
+<a href="help.php?file=overrides.html">preglasitve</a>.
+</p>

@@ -1,0 +1,11 @@
+<h1>Koeficient dodatnega kredita</h1>
+<p>Vrednost več kot 0 obravnava to oceno postavk ocen kot dodaten kredit med agregacijo. Številka je faktor, prek katerega bo vrednost ocene množena preden bo dodana vsoti vseh ocen, vendar sama postavka ne bo šteta v deljenje. Na primer:</p>
+
+<ul>
+    <li>Postavka 1 je ocenjena 0-100 in njena vrednost "Dodatnega kredita" je nastavljena na 2</li>
+    <li>Postavka 2 je ocenjena 0-100 in njena vrednost "Dodatnega kredita" je puščena na 0.0000</li>
+    <li>Postavka 3 je ocenjena 0-100 in njena vrednost "Dodatnega kredita" je puščena na 0.0000</li>
+    <li>Vse tri postavke pripadajo kategoriji 1, ki ima "Povprečje ocen (z dodatnimi krediti)" kot strategijo agregacije</li>
+    <li>Udeleženec dobi oceno 20 pri postavki 1, 40 pri postavki 2 in 70 pri postavki 3</li>
+    <li>Celotna ocena udeleženca za kategorijo 1 bi bila 95/100, ker je 20*2 + (40 + 70)/2 = 95</li>
+</ul>

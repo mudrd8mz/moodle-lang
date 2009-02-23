@@ -1,0 +1,78 @@
+<h1>Nalaganje uporabnikov</h1>
+
+<p>Najprej opomba, <strong>da običajno ni potrebno množično uvažanje uporabnikov</strong>. Da bi zmanjšali potrebo po lastnem vzdrževanju preučite oblike preverjanja pristnosti, ki ne zahtevajo ročnega vzdrževanja, kot je povezava na obstoječe zunanje podatkovne zbirke ali omogočanje uporabnikom, da ustvarijo lasten uporabniški račun. Glejte poglavje o preverjanju pristnosti v skrbniških menijih.</p>
+<p>Če ste prepričani, da želite uvoziti več uporabniških računov iz datoteke z besedilom, morate oblikovati vaše besedilo, kot sledi:</p>
+
+<ul>
+  <li>Vsaka vrstica datoteke vsebuje en zapis</li>
+  <li>Vsak zapis je vrsta podatkov ločenih z vejicami</li>
+  <li>Prvi zapis datoteke je poseben in vsebuje seznam imen polj. Ta določa obliko drugega dela datoteke.
+    <blockquote>
+      <p><strong>Zahtevana imena polj:</strong> ta polja morajo biti vključena v prvem zapisu in določena za vsakega uporabnika</p>
+      <p><code>firstname, lastname</code> pri vnašanju ali <code>username</code> pri posodabljanju</p>
+      <p><strong>Možna imena polj:</strong> so vsa popolnoma opcijska. če so vrednosti polj prisotne, jih sistem uporabi, sicer pa se uporabi privzeta vrednost za posamezno polje.</p>
+      <p><code>institution, department, city, country, lang, auth, ajax, timezone, idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, emailstop</code></p>
+      <p><strong>Imena polj po meri:</strong> opcijska, xxxxx je resnično polje  po meri uporabniškega profila (t.j. unikatno kratko ime)</p>
+      <p><code>profile_field_xxxxx</code></p>
+      <p><strong>Posebna imena polj:</strong> v uporabi za menjavo uporabniških imen ter brisanje uporabnikov; glejte spodaj</p>
+      <p><code>deleted, oldusername</code></p>
+      <p><strong>Imena polj za vpis (opcijska):</strong> Imena predmetov so "kratka imena" predmetov - če so prisotna bo uporabnik vpisan kot udeleženec v teh predmetih. &quot;Tip&quot; pomeni vrsto vloge, ki se uporabi za vpis v predmet. Vrednost 1 je privzeta vloga v predmetu, 2 je vloga učitelja (zapuščina), 3 pa je učitelj brez možnosti urejanja (zapuščina). Za direktno definiranje vlog lahko uporabite polje vlog - bodisi uporabite kratko ime vloge bodisi številko id (numerična imena vlog niso podprta). Uporabniki so lahko tudi dodeljeni v skupine znotraj predmetov. Skupine so podobno identificirane s pomočjo imen ali številk id (numerična imena skupin niso podprta).</p>
+      <p><code>course1, type1, role1, group1, course2, type2, role2, group2, etc.</code></p>
+    </blockquote>
+    </li>	  
+  <li>Vejice v podatkih morajo biti predstavljene kodirano kot &#44 - program bo samodejno odkodiral to oznako nazaj v vejice. </li>
+  <li>Za logična polja uporabite 0 za "ne" in 1 za "da". </li>
+</ul>
+<p>Tu je primer veljavne datoteke za uvoz:</p>
+<p><code>username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br />
+jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br />
+reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3
+</code></p>
+
+<h2>Predloge</h2>
+<p>Privzete vrednosti so procesirane kot predloge, v katerih je dovoljeno uporabiti naslednje kode:</p>
+<ul>
+<li><code>%l</code> - bo zamenjana z lastname</li>
+<li><code>%f</code> - bo zamenjana z firstname</li>
+<li><code>%u</code> - bo zamenjana z username</li>
+<li><code>%%</code> - bo zamenjana z %</li>
+</ul>
+<p>Med znakom za odstotek (%) in katero od črk (l, f ali u) so dovoljena naslednja določila:</p>
+<ul>
+<li>(-) minus - informacija, ki jo predstavlja zapis v kodi, bo pretvorjena v male črke</li>
+<li>(+) plus - informacija, ki jo predstavlja zapis v kodi, bo pretvorjena v VELIKE črke</li>
+<li>(~) tilda - informacija, ki jo predstavlja zapis v kodi, bo pretvorjena v obliko naslovov</li>
+<li>decimalna številka - informacija, ki jo predstavlja zapis v kodi, bo skrajšana v navedeno število znakov</li>
+</ul>
+
+<p>Na primer, če je firstname enako John in lastname enako Doe, bodo z uporabo predlog dobljene naslednje vrednosti:</p>
+<ul>
+<li>%l%f = DoeJohn</li>
+<li>%l%1f = DoeJ</li>
+<li>%-l%+f = doeJOHN</li>
+<li>%-f_%-l = john_doe</li>
+<li>http://www.example.com/~%u/ = http://www.example.com/~jdoe/ (če je username jdoe ali %-1f%-l)</li>
+</ul>
+
+<p>Procesiranje predlog se izvaja le na privzetih vrednostih in ne na vrednostih, ki so pridobljene iz datoteke CSV.</p>
+<p>Uporabniška imena so vedno spremenjena v male črke, tako da ustrezajo obliki Moodle. Še več, če je možnost &quot;Dovoli dodatne znake v uporabniških imenih&quot; izključena, so znaki, ki niso črke, številke, minus (-) ali pika (.), odstranjeni.
+Če je na primer firstname enak John Jr., lastname enak Doe, bo username %-f_%-l prikazalo john jr._doe kadar je vključena možnost Dovoli dodatne znake v uporabniških imenih ter johnjr.doe kadar ta možnost ni vključena.</p>
+<p>Kadar je možnost &quot;Obravnava podvojenih novih upor. imen&quot; nastavljena na povečanje števca, se bo k podvojenim uporabniškim imenom dodala vrednost povečujočega se števca. Na primer, če datoteka CSV vsebuje uporabnike 
+John Doe, Jane Doe ter Jenny Doe brez uporabniških imen in je privzeto uporabniško ime podano s kodo %-1f%-l, se bodo generirala uporabniška imena  jdoe, jdoe2 and jdoe3.
+</p>
+
+<h2>Posodabljanje obstoječih uporabniških računov</h2>
+
+<p>Kot privzeto Moodle predvideva, da boste ustvarjali nove uporabniške račune in preskoči zapise, kjer se uporabniško ime ujema z obstoječim računom. Vendar bodo v primeru, da nastavite "Posodobi obstoječe uporabniške račune" na <b>Da</b>, obstoječi uporabniški računi posodobljeni. </p>
+
+<p>Ob posodabljanju obstoječih uporabniških računov lahko spremenite tudi uporabniška imena. Nastavite "Dovoli preimenovanja" na <b>Da</b> in vključite v vašo datoteko polje z imenom <code>oldusername</code>.</p>
+
+<p><b>Opozorilo:</b> vse napake ob posodabljanju obstoječih uporabniških računov lahko zelo slabo vplivajo na vaše uporabnike. Bodite previdni, ko uporabljate možnosti posodabljanja.</p>
+
+<h2>Brisanje uporabniških računov</h2>
+<p>Če je prisotno polje <code>deleted</code>, bodo uporabniki, ki imajo vrednost le-tega 1 izbrisani. V tem primeru so lahko izpuščena vsa polja razen <code>username</code>.</p>
+<p>Brisanje in prenašanje uporabniških računov je možno postoriti z eno samo datoteko CSV. Na primer, naslednja datoteka bo dodala uporabnika z imenom Tom Jones ter zbrisala uporabnika z uporabniškim imenom reznort:</p>
+<p><code>username, firstname, lastname, deleted<br />
+jonest, Tom, Jones, 0<br />
+reznort, , , 1
+</code></p>

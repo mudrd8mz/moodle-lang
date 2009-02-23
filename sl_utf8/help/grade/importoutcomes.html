@@ -1,0 +1,15 @@
+<h1>Uvozi rezultate</h1>
+<p>Lahko uvozite rezultate v obliki .csv datotek. Format mora biti naslednji:</p>
+<table class="generaltable" cellpadding="4">
+    <tr> <th class="header">Ime polja</th> <th class="header">Opis</th> <th class="header">Zahtevano</th> <th class="header">Format</th> </tr>
+    <tr> <td class="cell">ime_rezultata</td> <td class="cell">Celotno ime rezultata </td> <td class="cell">Da</td><td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">okrajsava_rezultata</td><td class="cell">Okrajšava za ime rezultata </td> <td class="cell">Da</td> <td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">opis_rezultata</td><td class="cell">Opis rezultata </td> <td class="cell">Ne</td> <td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">ime_lestvice</td><td class="cell">Ime lestvice, ki je uporabljena</td> <td class="cell">Da</td> <td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">vrednosti_lestvice</td><td class="cell">Z vejico ločen seznam vrednosti lestvice</td> <td class="cell">Da</td> <td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">opis_lestvice</td><td class="cell">Opis lestvice </td> <td class="cell">Ne</td> <td class="cell">Niz</td> </tr>
+</table>
+
+<p>Tu je primer:</p>
+<pre>ime_rezultata;okrajsava_rezultata;opis_rezultata;ime_lestvice;vrednosti_lestvice;opis_lestvice
+Sodelovanje;sodelovanje;;Lestvica sodelovanja;"Malo ali nič sodelovanja, Zadovoljivo sodelovanje, Polno sodelovanje";</pre>

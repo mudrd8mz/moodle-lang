@@ -1,0 +1,38 @@
+<h1>Izračuni</h1>
+<!-- PREVAJALCI POZOR!! Znak vejica (,) uporabljen pri računih, je lahko podpičje (;) v vašem jeziku. Prosimo, uporabljajte tistega, ki se uporablja v vaših nastavitvah preglednic. -->
+
+<p>Računi za redovalnico sledijo vzorcu formul/funkcij v popularnih programih s preglednicami. Začnejo se z znakom za enačaj (=) in uporabljajo običajne matematične operatorje in funkcije pri izvedbo številčnega rezultata. Ta rezultat je potem uporabljen kot izračunana vrednost za postavko ocene, ki jo urejate.</p>
+
+<p>Sledi seznam funkcij, podprtih prek računov. Znak vejica (,) je uporabljen za ločevanje argumentov znotraj oklepajov funkcij.</p>
+
+<ul>
+    <li><strong>average</strong>([[postavka1]], [[postavka2]]...): Vrne povprečje vzorca</li>
+    <li><strong>max</strong>([[postavka1]], [[postavka2]]...): Vrne maksimalno vrednost iz seznama argumentov</li>
+    <li><strong>min</strong>([[postavka1]], [[postavka2]]...): Vrne minimalno vrednost iz seznama argumentov</li>
+    <li><strong>mod</strong>(deljenec, delitelj): Izračuna ostanek deljenja</li>
+    <li><strong>pi</strong>(): Vrne vrednost števila Pi</li>
+    <li><strong>power</strong>(osnova, potenca): Množi število samo s seboj tolikokrat, kot je število potence</li>
+    <li><strong>round</strong>(število, count): Zaokroži število na prej definirano natančnost</li>
+    <li><strong>sum</strong>([[postavka1]], [[postavka2]]...): Vrne vsoto vseh argumentov</li>
+</ul>
+
+<p>Podprte so tudi nekatere matematične funkcije:</p>
+<ul>
+    <li>sin</li><li>sinh</li><li>arcsin</li><li>asin</li><li>arcsinh</li><li>asinh</li>
+    <li>cos</li><li>cosh</li><li>arccos</li><li>acos</li><li>arccosh</li><li>acosh</li>
+    <li>tan</li><li>tanh</li><li>arctan</li><li>atan</li><li>arctanh</li><li>atanh</li>
+    <li>sqrt</li><li>abs</li><li>ln</li><li>log</li><li>exp</li>
+</ul>
+
+<p>Vključite lahko vrednosti ostalih postavk ocen s tem, da uporabite njihove id številke kot reference v vaših formulah. Id številka je obkrožena z dvema paroma oglatih oklepajev, da se izognemo zamenjavi razčlenjevalnika računov, ko id številka vsebuje redke znake. Na primer, če imate postavko ocene z Quiz.3 kot id številko, se boste na to postavko nanašali kot [[Quiz.3]] v vašem računu.</p>
+
+<p>Pod poljem za račune je drevo vašega predmeta s svojimi ocenami kategorij in postavkami ocen. Poleg vsake celote postavke ali kategorije je izpisana id številka, ki jo lahko uporabite v vaših računih (že obkrožena z oglatimi oklepaji). Kakorkoli, ker je id številka izbirna, je mogoče nekatere postavke še nimajo. Te postavke brez id številke imajo namesto tega obrazec, ki vam omogoča direkten vpis id številke, tako da jo lahko uporabite v vaših računih, brez da bi morali zapustiti stran. Ta obrazec vam ne dopušča urejanje postavke ocene direktno, če želite to storiti.</p>
+
+<p>Takoj, ko imate dodeljene id številke, ki jih potrebujete, lahko pritisnete "dodaj id številke" in stran se bo ponovno naložila in vam pokazala isto drevo z id številkami, ki ste jih pravkar dodelili. Potem imate prosto pot pri uporabi referenc v vaših računih.</p>
+
+<p>Tu je seznam praktičnih primerov računov, ki jih lahko uporabite v vaši redovalnici:</p>
+
+<ul>
+    <li>=average([[Kviz.1]], [[Kviz.4]], [[Naloga.1]])</li>
+    <li>=average(max([[Kviz.1]], [[Kviz.4]], [[Naloga.1]]), min([[Kviz.1]], [[Kviz.4]], [[Naloga.1]]))</li>
+</ul>

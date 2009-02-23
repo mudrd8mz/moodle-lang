@@ -1,0 +1,51 @@
+<h1>Agregacija kategorij</h1>
+<p>Ta menu vam omogoča izbiro strategije agregacije, ki bo uporabljena za izračunavo končne ocene vsakega udeleženca za to kategorijo. Drugačne možnosti so pojasnjene spodaj.</p>
+
+<p>Ocene so najprej spremenjene v odstotkovne vrednosti (interval od 0 do 1, to se imenuje normalizacija), potem pa so agregirane z uporabo ene od funkcij spodaj in na koncu spremenjene v kategorije, povezane postavke v razponu (med <em>Maksimalno oceno</em> in <em>Minimalno oceno</em>).</p>
+
+<p><strong>Pomembno</strong>: Prazna ocena je le manjkajoči vpis v redovalnici in lahko pomeni več različnih stvari. Na primer, lahko je udeleženec, ki ni še potrdil naloge, lahko izvajalec še ni ocenil naloge ali pa je bila ocena ročno izbrisana prek skrbnika redovalnice. Svetujemo previdnost pri interpretiranju teh "praznih ocen".</p>
+
+<dl id="grade-aggregation-help">
+    <dt>Povprečja ocen</dt>        
+    <dd>Vsota vseh ocen, deljena s številom vseh ocen.</dd>
+    <dd class="example">A1 70/100, A2 20/80, A3 10/10, maksimum kategorije 100:<br />
+                     <code>(0.7 + 0.25 + 1.0)/3 = 0.65 --> 65/100</code></dd>
+                     
+    <dt>Tehtano povprečje</dt>
+        <dd>Vsaki oceni je lahko dana teža, ki je potem uporabljena v agregaciji aritmetičnega povprečja, da vpliva na vsako postavko v celotnem povprečju.</dd>
+        <dd class="example">A1 70/100 teža 10, A2 20/80 teža 5, A3
+                         10/10 teža 3, maksimum kategorije 100:<br /><code>(0.7*10 + 0.25*5 + 1.0*3)/18 = 0.625 --> 62.5/100</code></dd>
+    
+    <dt>Preprosto tehtano povprečje</dt>
+        <dd>Razlika od <em>Tehtano povprečje</em> je, da je teža izračunana kot <em>Maksimalna ocena</em> - <em>Minimalna ocena</em> za vsako postavko. Naloga s 100 točkami ima težo 100, naloga z 10 točkami ima težo 10.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, maksimum kategorije 100:<br />
+                         <code>(0.7*100 + 0.25*80 + 1.0*10)/190 = 0.526 --> 52.6/100</code></dd>
+    
+    <dt>Povprečje ocen (z dodatnimi krediti)</dt>
+        <dd>Aritmetično povprečje z zvijačo. Stara, sedaj nepodprta agregacijska strategija je zagotovljena tu le za prejšnjo kompatibilnost s starimi dejavnostmi.</dd>
+    
+    <dt>Mediana ocen</dt>
+        <dd>Srednja ocena (ali povprečje srednjih dveh ocen), kjer so ocene urejene po velikosti. Prednost pred povprečjem je ta, da nanjo ne vplivajo zunanje ocene (ocene, ki so zelo oddaljene od povprečja ).</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, maksimum kategorije 100:<br />
+                         <code>mediana(0.7 ; 0.25 ; 1.0) = 0.7 --> 70/100</code></dd>
+    
+    <dt>Najmanjša ocena</dt>
+        <dd>Rezultat je najmanjša ocena po normalizaciji. Ponavadi se uporablja v kombinaciji z <em>Agregiraj le neprazne ocene</em>.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, maksimum kategorije 100:<br />
+                         <code>min(0.7 ; 0.25 ; 1.0) = 0.25 --> 25/100</code></dd>
+                         
+    <dt>Najvišja ocena</dt>
+        <dd>Rezultat je najvišja ocena po normalizaciji.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, maksimum kategorije 100:<br />
+                         <code>max(0.7 ; 0.25 ; 1.0) = 1.0 --> 100/100</code></dd>
+    
+    <dt>Modus ocen</dt>
+        <dd>Modus je ocena, ki se pojavi najbolj pogosto. Bolj pogosto je uporabljen za neštevilčne ocene. Prednost pred povprečjem je, da nanj ne vplivajo zunanje ocene (ocene, ki so zelo oddaljene od povprečja). Kakorkoli, ko je več kot ena bolj najbolj pogosta ocena (le eno se obdrži) ali ko so si vse ocene različne med seboj, izgubi svoj pomen.</dd>
+        <dd class="example">A1 70/100, A2 35/50, A3 20/80, A4 10/10, A5 7/10 maksimum kategorije 100:<br />
+                         <code>mode(0.7 ; 0.7 ; 0.25 ; 1.0 ; 0.7) = 0.7 --> 70/100</code></dd>
+    
+    <dt>Vsota ocen</dt>
+        <dd>Vsota vseh številčnih ocen. Lestvice z ocenami se ignorira. To je edini tip, ki se ne pretvori v odstotke notranje (normalizacija). <em>Maksimalna ocena</em> povezane postavke kategorije je izračunana avtomatsko kot maksimum vseh agregiranih postavk.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10:<br />
+                         <code>70 + 20 + 10 = 100/190</code></dd>
+</dl>
