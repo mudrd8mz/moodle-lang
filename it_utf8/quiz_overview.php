@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20090223) (2009021800)
 
 
 $string['allattempts'] = 'Mostra tutti tentativi';
@@ -10,6 +10,8 @@ $string['attemptsonly'] = 'Mostra solo $a con tentativi';
 $string['attemptsprepage'] = 'Tentativi mostrati per pagina';
 $string['deleteselected'] = 'Cancella tentativi selezionati';
 $string['done'] = 'Fatto';
+$string['err_failedtodeleteregrades'] = 'Non è stato possibile eliminare le valutazione calcolate dei tentativi';
+$string['err_failedtorecalculateattemptgrades'] = 'Non è stato possibile ricalcolare le valutazione dei tentativi';
 $string['highlightinggraded'] = 'Il tentativo che contribuisce alla valutazione finale dell\'utente è evidenziato.';
 $string['needed'] = 'Necessario';
 $string['noattemptsonly'] = 'Mostra solo $a senza tentativi';
@@ -26,6 +28,7 @@ $string['overview'] = 'Riepilogo';
 $string['overviewdownload'] = 'Download riepilogo';
 $string['overviewreport'] = 'Report dei voti';
 $string['overviewreportgraph'] = 'Grafico del Numero di Studenti che hanno raggiunto varie valutazioni';
+$string['overviewreportgraphgroup'] = 'Numero di studenti nel gruppo \'$a\' ripartiti per punteggio raggiunto';
 $string['pagesize'] = 'Tentativi per pagina';
 $string['preferencespage'] = 'Preferenze solo per questa pagina';
 $string['preferencessave'] = 'Salva preferenze';

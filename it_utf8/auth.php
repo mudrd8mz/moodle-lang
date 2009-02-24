@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090223) (2009021800)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -237,6 +237,8 @@ $string['auth_nonetitle'] = 'Senza autenticazione';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'Impostare a SI per provare il Single Sign On con il dominio NTLM. <strong>Nota:</strong> per funzionare, questo richiede impostazioni aggiuntive sul webserver, vedere <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Abilita';
+$string['auth_ntlmsso_ie_fastpath'] = 'Impostate a Si per abilitare l\'NTLM SSO fast path. (Evita alcuni passaggi ma lavora solamente con Internet Explorer)';
+$string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE fast path?';
 $string['auth_ntlmsso_subnet'] = 'Se impostato, l\'SSO sarà consentito solamente dai client appartenenti alla subnet. Formato: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Sotto-rete';
 $string['auth_outofnewemailupdateattempts'] = 'Hai superato i tentativi permessi per modificare il tuo indirizzo email. La richiesta di modifica è stata annullata.';
