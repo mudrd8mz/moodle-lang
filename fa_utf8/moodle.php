@@ -1,804 +1,1694 @@
-<?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.3 Beta + (2004051600)
+<?php   // $Id$
+        // moodle.php - created with Moodle 1.7 beta + (2006101003)
+        // author: Shamim Rezaie, http://rezaie.info
 
-
+$string['abouttobeinstalled'] = 'در آستانهٔ نصب';
 $string['action'] = 'عمل';
-$string['activities'] = 'فعال&#1740;تها';
-$string['activity'] = 'فعال&#1740;ت';
-$string['activityclipboard'] = 'انتقال ا&#1740;ن فعال&#1740;ت :$a ';
-$string['activityiscurrentlyhidden'] = 'متاسفانه ا&#1740;ن فعال&#1740;ت در حال حاضر مخف&#1740; است.';
-$string['activitymodule'] = 'ماژول فعال&#1740;ت';
-$string['activityreport'] = 'گزارش فعال&#1740;ت';
-$string['activityselect'] = 'برا&#1740; انتقال ا&#1740;ن فعال&#1740;ت به جا&#1740; د&#1740;گر آن را انتخاب کن&#1740;د';
-$string['activitysince'] = 'فعال&#1740;ت از : $a';
+$string['actions'] = 'اقدامات';
+$string['active'] = 'فعال';
+$string['activeusers'] = 'کاربران فعال';
+$string['activities'] = 'فعالیت‌ها';
+$string['activity'] = 'فعالیت';
+$string['activityclipboard'] = 'انتقال این فعالیت: <b>«{$a}»</b>';
+$string['activityiscurrentlyhidden'] = 'با عرض معذرت، در حال حاضر این فعالیت پنهان است';
+$string['activitymodule'] = 'ماژول فعالیت';
+$string['activityreport'] = 'گزارش فعالیت';
+$string['activityreports'] = 'گزارش‌های فعالیت';
+$string['activityselect'] = 'انتخاب این فعالیت برای انتقال به محلی دیگر';
+$string['activitysince'] = 'فعالیت‌های صورت گرفته از $a';
+$string['activityweighted'] = 'فعالیت برای هر کاربر';
 $string['add'] = 'اضافه کردن';
-$string['addadmin'] = 'اضافه کردن مد&#1740;ر';
-$string['addcreator'] = 'اضافه کردن ا&#1740;جاد کننده درس ';
-$string['added'] = '$a اضافه شد ';
-$string['addinganew'] = 'اضافه کردن $a جد&#1740;د';
-$string['addinganewto'] = 'اضافه کردن $a->what جد&#1740;د به $a->to';
-$string['addingdatatoexisting'] = 'اضافه کردن اطلاعات جد&#1740;د';
-$string['addnewcategory'] = 'اضافه کردن موضوع جد&#1740;د';
-$string['addnewcourse'] = 'اضافه کردن درس جد&#1740;د';
-$string['addnewuser'] = 'اضافه کردن کاربر جد&#1740;د';
+$string['addactivity'] = 'اضافه کردن یک فعالیت...';
+$string['addadmin'] = 'اضافه کردن مدیر';
+$string['addcreator'] = 'اضافه کردن ایجاد کنندهٔ درس';
+$string['added'] = '$a اضافه شد';
+$string['addedrecip'] = '$a دریافت‌کنندهٔ جدید اضافه کرده‌اید';
+$string['addedrecips'] = '$a دریافت‌کنندهٔ جدید اضافه کرده‌اید';
+$string['addedtogroup'] = 'به گروه «{$a}» اضافه شد';
+$string['addedtogroupnot'] = 'به گروه «{$a}» اضافه نشد';
+$string['addedtogroupnotenrolled'] = 'به گروه «{$a}» اضافه نشد، زیرا در درس ثبت‌نام نشده است';
+$string['addinganew'] = 'اضافه کردن یک $a جدید';
+$string['addinganewto'] = 'در حال اضافه کردن یک $a->what به $a->to';
+$string['addingdatatoexisting'] = 'اضافه کردن داده به آنچه از قبل موجود است';
+$string['addnewcategory'] = 'ایجاد طبقهٔ درسی جدید';
+$string['addnewcourse'] = 'ایجاد یک درس جدید';
+$string['addnewuser'] = 'تعریف یک کاربر جدید';
+$string['addnousersrecip'] = 'اضافه کردن کاربرانی که به این $a دسترسی نداشته‌اند به لیست دریافت کنندگان';
+$string['addresource'] = 'اضافه کردن یک منبع...';
 $string['address'] = 'آدرس';
-$string['addstudent'] = 'اضافه کردن دانشجو';
-$string['addteacher'] = 'اضافه کردن بعنوان معلم';
-$string['admin'] = 'مد&#1740;ر';
-$string['adminhelpaddnewuser'] = 'برا&#1740; ا&#1740;جاد &#1740;ک حساب کاربر بصورت دست&#1740;';
-$string['adminhelpassignadmins'] = 'مد&#1740;ران م&#1740; توانند هر کار&#1740; بکنند و هر جا&#1740;&#1740; بروند';
-$string['adminhelpassigncreators'] = 'ا&#1740;جاد کننده ها م&#1740; توانند درس جد&#1740;د ا&#1740;جاد کنند و در آن معلم باشند';
-$string['adminhelpassignstudents'] = 'وارد درس شو&#1740;د و از منو&#1740; مد&#1740;ر دانشجو اضافه کن&#1740;د';
-$string['adminhelpassignteachers'] = '&#1740;ک درس پ&#1740;دا کن&#1740;د و سپس با استفاده از آ&#1740;کون معلم تع&#1740;&#1740;ن کن&#1740;د';
-$string['adminhelpauthentication'] = 'م&#1740; توان&#1740;د از حسابها&#1740; کاربر&#1740; داخل&#1740; و &#1740;ا پا&#1740;گاه داده خارج&#1740; استفاده کن&#1740;د';
-$string['adminhelpconfiguration'] = 'نحوه کار و شکل ظاهر&#1740; سا&#1740;ت را تع&#1740;&#1740;ن کن&#1740;د';
-$string['adminhelpconfigvariables'] = 'موارد&#1740; که رو&#1740; عملکرد عموم&#1740; سا&#1740;ت تاث&#1740;ر م&#1740; گذارند را تنظ&#1740;م کن&#1740;د';
-$string['adminhelpcourses'] = 'درس و موضوعات درس&#1740; تعر&#1740;ف کن&#1740;د و افراد&#1740; را به درسها منسوب کن&#1740;د';
-$string['adminhelpedituser'] = 'ل&#1740;ست حسابها&#1740; کاربر&#1740; را مرور کن&#1740;د و هر کدام از آنها را که م&#1740;خواه&#1740;د و&#1740;را&#1740;ش کن&#1740;د';
-$string['adminhelplanguage'] = 'برا&#1740; بررس&#1740; و و&#1740;را&#1740;ش زبان';
-$string['adminhelplogs'] = 'مرور کردن موارد ثبت شده در مورد تمام فعال&#1740;تها&#1740; سا&#1740;ت';
-$string['adminhelpmanagedatabase'] = 'دسترس&#1740; مستق&#1740;م به پا&#1740;گاه داده ';
-$string['adminhelpmanagemodules'] = 'مد&#1740;ر&#1740;ت ماژولها&#1740; نصب شده و تنظ&#1740;مات آنها';
-$string['adminhelpsitefiles'] = 'برا&#1740; انتشار فا&#1740;لها&#1740; عموم&#1740; و فرستادن پشت&#1740;بانها&#1740; خارج&#1740;';
-$string['adminhelpsitesettings'] = 'تع&#1740;&#1740;ن شکل ظاهر&#1740; صفحه اول سا&#1740;ت';
-$string['adminhelpthemes'] = 'انتخاب شکل ظاهر&#1740; سا&#1740;ت(رنگ،فونت و غ&#1740;ره)';
-$string['adminhelpusers'] = 'کاربران خود را تعر&#1740;ف کن&#1740;د و مکان&#1740;سم مجازساز&#1740; آنها را تع&#1740;&#1740;ن کن&#1740;د';
-$string['administration'] = 'مد&#1740;ر&#1740;ت';
-$string['administrator'] = 'مد&#1740;ر';
-$string['administrators'] = 'مد&#1740;ران';
+$string['addstudent'] = 'اضافه‌کردن شاگرد';
+$string['addsubcategory'] = 'اضافه کردن یک زیرطبقه';
+$string['addteacher'] = 'اضافه‌کردن استاد';
+$string['admin'] = 'مدیر';
+$string['adminbookmarks'] = 'نشانه‌های مدیر';
+$string['adminhelpaddnewuser'] = 'جهت ایجاد یک حساب کاربری جدید به صورت دستی';
+$string['adminhelpassignadmins'] = 'مدیرها می‌توانند در سایت هر کاری انجام دهند و به هر جائی بروند';
+$string['adminhelpassigncreators'] = 'ایجاد کننده‌ها می‌توانند درس‌های جدید ایجاد کرده و در آن‌ها تدریس کنند';
+$string['adminhelpassignsiteroles'] = 'انتساب نقش‌های تعریف شدهٔ سایت به کاربران خاص';
+$string['adminhelpassignstudents'] = 'وارد یک درس شوید و از طریق منوی مدیر شاگردان را اضافه نمائید';
+$string['adminhelpassignteachers'] = 'یک درس را انتخاب کرده و سپس از آیکون برای اضافه کردن اساتید استفاده نمائید';
+$string['adminhelpauthentication'] = 'می‌توانید از حساب‌های کاربری داخلی و یا پایگاه‌های دادهٔ خارجی استفاده کنید';
+$string['adminhelpbackup'] = 'پیکربندی پشتیبان‌گیری خودکار و زمانبندی آن';
+$string['adminhelpconfiguration'] = 'پیکربندی شکل ظاهری و نحوهٔ کار سایت';
+$string['adminhelpconfigvariables'] = 'پیکربندی متغیرهایی که روی عملکرد کلی سایت تأثیر می‌گذارند';
+$string['adminhelpcourses'] = 'تعریف درس‌ها و طبقه‌ها و انتساب افراد به آن‌ها، ویرایش درس‌های معلق';
+$string['adminhelpeditorsettings'] = 'تعریف تنظیمات اولیهٔ ویرایشگر HTML';
+$string['adminhelpedituser'] = 'مرور لیست حساب‌های کاربری و ویرایش هرکدام از آن‌ها';
+$string['adminhelpenrolments'] = 'راه‌های داخلی یا خارجی نظارت بر ثبت‌نام‌ها را انتخاب کنید';
+$string['adminhelpenvironment'] = 'بررسی اینکه تا چه حد کارگزار شما نیازمندی‌های نصب فعلی و آینده را برآورده می‌کند';
+$string['adminhelpfailurelogs'] = 'مرور log های مربوط به تلاش‌های ناموفق برای ورود';
+$string['adminhelphealthcenter'] = 'تشخیص خودکار مشکلات سایت';
+$string['adminhelplanguage'] = 'جهت بررسی و ویرایش بستهٔ زبانی جاری';
+$string['adminhelplogs'] = 'مرور log های مربوط به همهٔ فعالیت‌های سایت';
+$string['adminhelpmanageblocks'] = 'مدیریت بلوک‌های نصب شده و تنظیمات آن‌ها';
+$string['adminhelpmanagedatabase'] = 'دستیابی مستقیم به پایگاه داده (مراقب باشید!)';
+$string['adminhelpmanagefilters'] = 'انتخاب فیلترهای متنی و تنظیمات مربوط';
+$string['adminhelpmanagemodules'] = 'مدیریت ماژول‌های نصب شده و تنظیمات آن‌ها';
+$string['adminhelpmanageroles'] = 'ایجاد و تعریف نقش‌های قابل انتساب به کاربران';
+$string['adminhelpmymoodle'] = 'پیکربندی بلوک‌های صفحهٔ «مودل من» برای کاربران';
+$string['adminhelpreports'] = 'گزارش‌ها در سطح سایت';
+$string['adminhelpsitefiles'] = 'برای منتشر کردن فایل‌های عمومی یا ارسال پشتیبان‌های خارجی';
+$string['adminhelpsitesettings'] = 'تعیین شکل ظاهری صفحهٔ اول سایت';
+$string['adminhelpstickyblocks'] = 'پیکربندی بلوک‌های چسبناک برای کل مودل';
+$string['adminhelpthemes'] = 'انتخاب شکل ظاهری سایت (رنگ‌ها، قلم‌ها و غیره)';
+$string['adminhelpuploadusers'] = 'وارد کردن حساب‌های کاربری جدید از یک فایل متنی';
+$string['adminhelpusers'] = 'کاربران خود را تعریف کرده و نحوهٔ شناسائی را تعیین نمائید';
+$string['adminhelpxmldbeditor'] = 'واسطی برای ویرایش فایل‌های XMLDB. مخصوص توسعه‌دهندگان.';
+$string['administration'] = 'مدیریت';
+$string['administrationsite'] = 'مدیریت سایت';
+$string['administrator'] = 'مدیر';
+$string['administratordescription'] = 'مدیرها به طور معمول قادر به انجام هر کاری در سایت و در همهٔ درس‌ها هستند.';
+$string['administrators'] = 'مدیران';
+$string['administratorsall'] = 'همهٔ مدیران';
+$string['administratorsandteachers'] = 'مدیران و اساتید';
+$string['adminprimarynoedit'] = 'نمی‌توانید رمز ورود مدیر اصلی را تغییر دهید';
+$string['advanced'] = 'تفصیلی';
+$string['advancedfilter'] = 'جستجوی پیشرفته';
+$string['advancedsettings'] = 'مورد تفصیلی';
 $string['again'] = 'دوباره';
+$string['aimid'] = 'شناسهٔ AIM';
+$string['ajaxno'] = 'خیر: از ویژگی‌های بنیادی وب استفاده شود';
+$string['ajaxuse'] = 'AJAX و جاوااسکریپت';
+$string['ajaxyes'] = 'بله: از ویژگی‌های پیشرفتهٔ وب استفاده شود';
 $string['all'] = 'همه';
-$string['alldays'] = 'همه روزها';
-$string['allfieldsrequired'] = 'تمام ف&#1740;لدها لازم است';
-$string['alllogs'] = 'تمام موارد ثبت شده';
-$string['allow'] = 'اجاره داده شود';
-$string['allowguests'] = 'در ا&#1740;ن درس امکان استفاده کاربران مهمان وجود دارد';
-$string['allownot'] = 'اجاره نده&#1740;د';
-$string['allparticipants'] = 'تمام&#1740; شرکت کنندگان';
-$string['alphanumerical'] = 'تنها م&#1740; تواند شامل حروف الفبا و شماره باشد';
-$string['alreadyconfirmed'] = 'ثبت نام قبلا تا&#1740;&#1740;د شده';
-$string['answer'] = 'جواب';
-$string['areyousuretorestorethis'] = 'آ&#1740;ا م&#1740; خواه&#1740;د ادامه ده&#1740;د؟';
-$string['areyousuretorestorethisinfo'] = 'بعدادر ا&#1740;ن پروسه ا&#1740;ن امکان هست که ا&#1740;ن پشت&#1740;بان را به &#1740;ک درس موجود اضافه کن&#1740;د و &#1740;ا &#1740;ک  درس جد&#1740;د ا&#1740;جاد کن&#1740;د ';
-$string['assessment'] = 'برآورد';
-$string['assignadmins'] = 'تع&#1740;&#1740;ن مد&#1740;ر';
-$string['assigncreators'] = 'تع&#1740;&#1740;ن ا&#1740;جاد کننده درس';
-$string['assignstudents'] = 'ثبت نام دانشجو';
-$string['assignstudentsnote'] = 'نکته : ممکن است لازم نباشد از ا&#1740;ن صفحه استفاده کن&#1740;د چون برا&#1740; دانشجو&#1740;ان ا&#1740;ن امکان وجود دارد که در ا&#1740;ن درس ثبت نام کنند';
-$string['assignstudentspass'] = 'تنها کار&#1740; که با&#1740;د انجام ده&#1740;د ا&#1740;نستکه دانشجو&#1740;ان را از کل&#1740;د درس که اکنون \'$a\' است مطلع کن&#1740;د.';
-$string['assignteachers'] = 'تع&#1740;&#1740;ن معلم';
-$string['authentication'] = 'مکان&#1740;سم مجازساز&#1740;';
-$string['autosubscribe'] = 'شرکت در مباحثه بصورت خودکار';
-$string['autosubscribeno'] = 'من را بصورد خودکار در مباحثات شرکت نده&#1740;د';
-$string['autosubscribeyes'] = 'وقت&#1740; اعلام م&#1740; کنم من را در مباحثه شرکت ده&#1740;د';
-$string['availability'] = 'م&#1740;زان در دسترس بودن';
-$string['availablecourses'] = 'درسها&#1740; موجود';
-$string['backup'] = 'پشت&#1740;بانساز&#1740;';
-$string['backupdate'] = 'تار&#1740;خ پشت&#1740;بانساز&#1740;';
-$string['backupdetails'] = 'جزئ&#1740;ات پشت&#1740;بان';
-$string['backupfilename'] = 'backup';
-$string['backupfinished'] = 'پشت&#1740;بانساز&#1740; با موفق&#1740;ت به پا&#1740;ان رس&#1740;د';
+$string['allactions'] = 'همهٔ اقدامات';
+$string['allactivities'] = 'همهٔ فعالیت‌ها';
+$string['allchanges'] = 'همهٔ تغییرات';
+$string['alldays'] = 'همهٔ روزها';
+$string['allfieldsrequired'] = 'وار کردن تمام موارد اجباری است';
+$string['allfiles'] = 'همهٔ فایل‌ها';
+$string['allgroups'] = 'همهٔ گروه‌ها';
+$string['alllogs'] = 'همهٔ logs ها';
+$string['allmods'] = 'همهٔ $a';
+$string['allow'] = 'مجاز';
+$string['allowguests'] = 'ورود کاربران مهمان به این درس مجاز است';
+$string['allowinternal'] = 'روش‌های داخلی هم مجاز باشند';
+$string['allownone'] = 'هیچ‌کدام';
+$string['allownot'] = 'اجازه نده';
+$string['allparticipants'] = 'همهٔ اعضاء';
+$string['allteachers'] = 'همهٔ اساتید';
+$string['alphabet'] = 'آ,ا,ب,پ,ت,ث,ج,چ,ح,خ,د,ذ,ر,ز,ژ,س,ش,ص,ض,ط,ظ,ع,غ,ف,ق,ک,گ,ل,م,ن,و,ه,ی';
+$string['alphanumerical'] = 'تنها می‌تواند شامل حروف الفبا یا اعداد باشد';
+$string['alreadyconfirmed'] = 'عضویت قبلاً تایید شده است';
+$string['always'] = 'همیشه';
+$string['and'] = '$a->one و $a->two';
+$string['answer'] = 'پاسخ';
+$string['approve'] = 'تصویب';
+$string['areyousuretorestorethis'] = 'آیا می‌خواهید ادامه دهید؟';
+$string['areyousuretorestorethisinfo'] = 'در قسمت‌های بعدی این فرآیند، می‌توانید انتخاب کنید که این پشتیبان به یک درس موجود اضافه شود یا اینکه کاملاً یک درس جدید ایجاد شود.';
+$string['asc'] = 'صعودی';
+$string['assessment'] = 'ارزیابی';
+$string['assignadmins'] = 'انتساب مدیرها';
+$string['assigncreators'] = 'انتساب ایجاد کننده‌ها';
+$string['assignsiteroles'] = 'انتساب نقش‌ها در کل سایت';
+$string['assignstudents'] = 'ثبت‌نام شاگردان';
+$string['assignstudentsnote'] = 'ملاحظه: با توجه به این‌که شاگردان قادر به ثبت‌نام کردن خود در این درس می‌باشند، استفاده از این صفحه شاید لازم نباشد.';
+$string['assignstudentspass'] = 'تنها کاری که شاید لازم به انجام باشد مطلع کردن شاگردانتان از کلید ثبت‌نام این درس، که در حال حاضر «{$a}» است، می‌باشد';
+$string['assignteachers'] = 'انتساب اساتید';
+$string['authentication'] = 'شناسائی';
+$string['authenticateduser'] = 'کاربر تصدیق شده';
+$string['authenticateduserdescription'] = 'همهٔ کاربرانی که وارد سایت شده‌اند.';
+$string['autosubscribe'] = 'آبونه شدن خودکار در تالارهای گفتگو';
+$string['autosubscribeno'] = 'خیر: من را به صورت خودکار آبونهٔ تالارهای گفتگو نکن';
+$string['autosubscribeyes'] = 'بله: هرگاه مطلبی نوشتم، من را آبونهٔ آن تالار گفتگو کن';
+$string['availability'] = 'در دسترس بودن';
+$string['availablecourses'] = 'درس‌های موجود';
+$string['backtoparticipants'] = 'بازگشت به لیست شرکت کنندگان';
+$string['back'] = 'بازگشت';
+$string['backtocourselisting'] = 'بازگشت به لیست درس‌ها';
+$string['backup'] = 'پشتیبان‌گیری';
+$string['backupactivehelp'] = 'انتخاب کنید که آیا پشتیبان‌گیری خودکار انجام شود یا خیر.';
+$string['backupcancelled'] = 'پشتیبان‌گیری لغو شد';
+$string['backupcoursefileshelp'] = 'در صورت فعال بودن این گزینه فایل‌های درس‌ها در پشتیبان‌های خودکار شامل می‌شوند';
+$string['backupdate'] = 'تاریخ پشتیبان';
+$string['backupdatenew'] = '&nbsp; $a->TAG برابر با {$a->weekday}، $a->mday $a->month $a->year شد<br />';
+$string['backupdateold'] = '$a->TAG برابر با {$a->weekday}، $a->mday $a->month $a->year بود';
+$string['backupdaterecordtype'] = '<br />$a->recordtype – $a->recordname<br />';
+$string['backupdetails'] = 'جزئیات پشتیبان';
+$string['backupexecuteathelp'] = 'انتخاب کنید که پشتیبان‌گیری خودکار باید در چه ساعتی شروع شود.';
+$string['backupfailed'] = 'بعضی از درس‌های شما ذخیره نشدند!!';
+$string['backupfilename'] = 'poshtiban';
+$string['backupfinished'] = 'پشتیبان‌گیری با موفقیت انجام شد';
+$string['backupfromthissite'] = 'پشتیبان‌گیری روی این سایت انجام شده است؟';
+$string['backupgradebookhistoryhelp'] = 'در صورت فعال بودن، تاریخچهٔ دفتر نمرات در پشتیان‌های خودکار شامل خواهد شد. توجه نمائید که برای کار کردن این قسمت، تاریخچهٔ نمره‌ها در تنظیمات کارگزار (disablegradehistory) نباید غیرفعال باشد.';
+$string['backupincludemoduleshelp'] = 'انتخاب کنید که آیا می‌خواهید پشتیبان‌هایی که به صورت خودکار ساخته می‌شوند شامل ماژول‌های درس، با یا بدون داده‌های کاربران، باشند یا خیر.';
+$string['backupincludemoduleuserdatahelp'] = 'انتخاب کنید که آیا می‌خواهید پشتیبان‌هایی که به صورت خودکار ساخته می‌شوند شامل داده‌های کاربران در ماژول‌ها باشند یا خیر.';
+$string['backupkeephelp'] = 'می‌خواهید تا چند پشتیبان قبلی از هر درس را نگهداری کنید؟ (پشتیبان‌های قدیمی‌تر به صورت خودکار حذف خواهند شد)';
+$string['backuplogdetailed'] = 'Log اجرا به صورت مفصل';
+$string['backuploglaststatus'] = 'Log آخرین اجرا';
+$string['backuplogshelp'] = 'اگر این گزینه انتخاب شده باشد، log های درس‌ها در پشتیبان‌های خودکار شامل خواهند شد';
+$string['backupmetacoursehelp'] = 'اگر این گزینه فعال باشد، اطلاعات فرادرس‌ها (ثبت‌نام‌های به ارث رسیده) در پشتیبان‌های خودکار شامل خواهد شد';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
-$string['backuporiginalname'] = 'نام پشت&#1740;بان';
-$string['backupversion'] = 'نسخه پشت&#1740;بان';
+$string['backupnoneusersinfo'] = 'ملاحظه: شما پشتیبان‌گیری بدون کاربران را انتخاب کرده‌اید، بنابراین پشتیبان‌گیری همهٔ ماژول‌ها به حالت «بدون داده‌های کاربران» تغییر یافته است. لطفاً توجه نمائید که ماژول‌های «تمرین» و «کارگاه» با این نوع پشتیبان‌گیری سازگار نیستند، بنابراین کاملاً بی‌اثر شده‌اند.';
+$string['backupnonisowarning'] = 'هشدار: این پشتیبان متعلق به یک نسخهٔ غیر unicode مودل است (قدیمی‌تر از نسخهٔ ۱.۶). اگر این پشتیبان حاوی هرگونه متن غیر ISO-8859-1 باشد و بخواهید آن را در این نسخهٔ unicodeی مودل بازیابی نمائید، آن متن‌ها ممکن است بهم بریزند. جهت کسب اطلاعات بیشتر در بارهٔ چگونگی ترمیم این پشتیبان به طور صحیح، <a href=\"http://docs.moodle.org/en/Backup_FAQ\">سؤالات متداول در مورد پشتیبان‌گیری</a> را ببینید.';
+$string['backuporiginalname'] = 'نام پشتیبان';
+$string['backuproleassignments'] = 'پشتیبان‌گیری از انتساب نقش‌ها برای این نقش‌ها';
+$string['backupsavetohelp'] = 'مسیر کامل پوشه‌ای که می‌خواهید فایل‌های پشتیبان را در آنجا ذخیره کنید<br />(جهت ذخیره شدن در پوشهٔ پیش‌فرض درس خود، این قسمت را خالی بگذارید)';
+$string['backupschedulehelp'] = 'انتخاب کنید که پشتیبان‌گیری خودکار در چه روزهایی از هفته انجام شود.';
+$string['backupsitefileshelp'] = 'در صورت فعال بودن فایل‌هایی از سایت که در درس‌ها استفاده شده‌اند در پشتیبان‌های خودکار شامل خواهند شد';
+$string['backuptakealook'] = 'لطفاً نگاهی به log های پشتیبان‌گیری خود در این آدرس بیاندازید:
+  $a';
+$string['backupuserfileshelp'] = 'انتخاب کنید که آیا می‌خواهید پشتیبان‌های خودکار شامل فایل‌های کاربران (مثلاً عکس صفحه مشخصات فردی) نیز بشود یا خیر';
+$string['backupusershelp'] = 'انتخاب کنید که آیا می‌خواهید همهٔ کاربران کارگزار شامل شوند یا فقط کاربران لازم برای هر درس';
+$string['backupversion'] = 'نسخهٔ پشتیبان';
+$string['block'] = 'بلوک';
+$string['blockconfiga'] = 'پیکربندی یک بلوک $a';
+$string['blockconfigbad'] = 'این بلوک به طور صحیح پیاده‌سازی نشده است و بنابراین نمی‌تواند واسطی برای پیکربندی فراهم کند.';
+$string['blockdeleteconfirm'] = 'شما در آستانهٔ حذف کامل بلوک «{$a}» هستید. این کار همهٔ اطلاعات مرتبط با این بلوک را به صورت کامل از پایگاه داده حذف می‌کند. آیا مطمئن هستید که می‌خواهید ادامه دهید؟';
+$string['blockdeletefiles'] = 'همهٔ داده‌های مرتبط با بلوک «{$a->block}» از پایگاه داده حذف شدند. جهت تکمیل حذف (و جلوگیری از نصب مجدد)، باید هم‌اکنون این دایرکتوری را از روی کارگزار خود پاک نمائید: $a->directory';
+$string['blocks'] = 'بلوک‌ها';
+$string['blocksaddedit'] = 'اضافه کردن/ویرایش بلوک‌ها';
+$string['blockseditoff'] = 'اتمام ویرایش بلوک‌ها';
+$string['blocksediton'] = 'ویرایش بلوک‌ها';
+$string['blocksetup'] = 'برپائی جدول‌های بلوک';
+$string['blocksuccess'] = 'جدول‌های $a به درستی برپا شدند';
+$string['bycourseorder'] = 'ترتیب قرار داشتن در درس';
+$string['byname'] = 'از $a';
+$string['bypassed'] = 'صرف‌نظر شده';
+$string['cachecontrols'] = 'Cache کردن کنترل‌ها';
 $string['cancel'] = 'انصراف';
-$string['categories'] = 'موضوعات درس&#1740;';
-$string['category'] = 'موضوع';
-$string['categoryadded'] = ' موضوع \'$a\' اضافه شد';
-$string['categorydeleted'] = 'موضوع \'$a\' حذف شد.';
-$string['categoryduplicate'] = 'موضوع \'$a\' وجود دارد';
-$string['changedpassword'] = 'رمز ورود تغ&#1740;&#1740;ر کرد';
-$string['changepassword'] = 'تغ&#1740;&#1740;ر رمز ورود';
-$string['changessaved'] = 'تغ&#1740;&#1740;رات ذخ&#1740;ره شد';
-$string['checkingbackup'] = 'وارس&#1740; پشت&#1740;بان';
-$string['checkingcourse'] = 'وارس&#1740; درس';
-$string['checkinginstances'] = 'وارس&#1740; نمونه ها';
-$string['checkingsections'] = 'وارس&#1740; بخشها';
-$string['checklanguage'] = 'وارس&#1740; زبان';
-$string['choose'] = 'انتخاب کردن';
-$string['choosecourse'] = 'انتخاب &#1740;ک درس';
-$string['chooselivelogs'] = '&#1740;ا فعال&#1740;ت موجود را نگاه کن&#1740;د';
-$string['chooselogs'] = 'موارد ثبت شده ا&#1740; که م&#1740; خواه&#1740;د نگاه کن&#1740;د انتخاب کن&#1740;د';
-$string['choosetheme'] = 'انتخاب شکل ظاهر&#1740;';
-$string['chooseuser'] = 'انتخاب &#1740;ک کاربر';
-$string['city'] = 'شهر';
-$string['cleaningtempdata'] = 'پاک کردن اطلاعات موقت&#1740;';
-$string['closewindow'] = 'ا&#1740;ن پنجره را ببند';
-$string['comparelanguage'] = 'مقا&#1740;سه و و&#1740;را&#1740;ش زبان موجود';
-$string['complete'] = 'کامل شد';
-$string['configcountry'] = 'If you set a country here, then this country will be selected by default on new user accounts.  To force users to choose a country, just leave this unset.';
-$string['configdebug'] = 'If you turn this on, then PHP\'s error_reporting will be increased so that more warnings are printed.  This is only useful for developers.';
-$string['configerrorlevel'] = 'Choose the amount of PHP warnings that you want to be displayed.  Normal is usually the best choice.';
-$string['configframename'] = 'If you are embedding Moodle within a web frame, then put the name of this frame here.  Otherwise this value should remain as \'_top\'';
-$string['configgdversion'] = 'Indicate the version of GD that is installed.  The version shown by default is the one that has been auto-detected.  Don\'t change this unless you really know what you\'re doing.';
-$string['confightmleditor'] = 'Choose whether or not to allow use of the embedded HTML text editor. Even if you choose allow, this editor will only appear when the user is using a compatible browser (IE 5.5 or later).  Users can also choose not to use it.';
-$string['configidnumber'] = 'This option specifies whether (a) Users are not be asked for an ID number at all, (b) Users are asked for an ID number but can leave it blank or (c) Users are asked for an ID Number and cannot leave it blank. If given the User\'s ID number is displayed in their Profile.';
-$string['configintro'] = 'On this page you can specify a number of configuration variables that help make Moodle work properly on your server.  Don\'t worry too much about it - the defaults will usually work fine and you can always come back to this page later and change these settings.';
-$string['configintroadmin'] = 'On this page you should configure your main administrator account which will have complete control over the site. Make sure you give it a secure username and password as well as a valid email address.  You can create more admin accounts later on.';
-$string['configintrosite'] = 'This page allows you to configure the front page and name of this new site.  You can come back here later to change these settings any time using the \'Site Settings\' link on the home page.';
-$string['configlang'] = 'Choose a default language for the whole site.  Users can override this setting later.';
-$string['configlangdir'] = 'Most languages are printed left-to-right, but some, like Arabic and Hebrew, are printed right-to-left.';
-$string['configlanglist'] = 'Leave this blank to allow users to choose from any language you have in this installation of Moodle.  However, you can shorten the language menu by entering a comma-separated list of language codes that you want.  For example:  en,es_es,fr,it';
-$string['configlangmenu'] = 'Choose whether or not you want to display the general-purpose language menu on the home page, login page etc.  This does not affect the user\'s ability to set the preferred language in their own profile.';
-$string['configlocale'] = 'Choose a sitewide locale - this will affect the format and language of dates. You need to have this locale data installed on your operating system.  (eg en_US or es_ES).  If you don\'t know what to choose leave it blank.';
-$string['configloglifetime'] = 'This specifies the length of time you want to keep logs about user activity.  Logs that are older than this age are automatically deleted.  It is best to keep logs as long as possible, in case you need them, but if you have a very busy server and are experiencing performance problems, then you may want to lower the log lifetime.';
-$string['configlongtimenosee'] = 'If students haven\'t logged in for a very long time, then they are automatically unsubscribed from courses.  This parameter specifies that time limit.';
-$string['configmaxeditingtime'] = 'This specifies the amount of time people have to re-edit forum postings, journal feedback etc.  Usually 30 minutes is a good value.';
-$string['configproxyhost'] = 'If this server needs to use a proxy computer (eg a firewall) to access the Internet, then provide the proxy hostname and port here.  Otherwise leave it blank.';
-$string['configsecureforms'] = 'Moodle can use an additional level of security when accepting data from web forms. If this is enabled, then the browser\'s HTTP_REFERER variable is checked against the current form address.  In a very few cases this can cause problems if the user is using a firewall (eg Zonealarm) configured to strip HTTP_REFERER from their web traffic.  Symptoms are getting \'stuck\' on a form. If your users are having problems with the login page (for example) you might want to disable this setting, although it might leave your site more open to brute-force password attacks.  If in doubt, leave this set to \'Yes\'.';
-$string['configsessiontimeout'] = 'If people logged in to this site are idle for a long time (without loading pages) then they are automatically logged out (their session is ended).  This variable specifies how long this time should be.';
-$string['configslasharguments'] = 'Files (images, uploads etc) are provided via a script using \'slash arguments\' (the second option here). This method allows files to be more easily cached in web browsers, proxy servers etc.  Unfortunately, some PHP servers don\'t allow this method, so if you have trouble viewing uploaded files or images (eg user pictures), set this variable to the first option';
-$string['configsmtphosts'] = 'Give the full name of one or more local SMTP servers that Moodle should use to send mail (eg \'mail.a.com\' or \'mail.a.com;mail.b.com\'). If you leave it blank, Moodle will use the PHP default method of sending mail.';
-$string['configsmtpuser'] = 'If you have specified an SMTP server above, and the server requires authentication, then enter the username and password here.';
-$string['configteacherassignteachers'] = 'Should ordinary teachers be allowed to assign other teachers within courses they teach?  If \'No\', then only course creators and admins can assign teachers.';
-$string['configunzip'] = 'Indicate the location of your unzip program (Unix only, optional).  If specified, this will be used to unpack zip archives on the server.  If you leave this blank, then Moodle will use internal routines.';
-$string['configuration'] = 'تنظ&#1740;مات';
-$string['configvariables'] = 'متغ&#1740;رها';
-$string['configwarning'] = 'Be careful modifying these settings - strange values could cause problems.';
-$string['configzip'] = 'Indicate the location of your zip program (Unix only, optional).  If specified, this will be used to create zip archives on the server.  If you leave this blank, then Moodle will use internal routines.';
-$string['confirmed'] = 'ثبت نام شما تا&#1740;&#1740;د شد.';
-$string['confirmednot'] = 'ثبت نام شما تا&#1740;&#1740;د نشده است.';
+$string['cancelled'] = 'لغو شد';
+$string['categories'] = 'طبقه‌های درسی';
+$string['category'] = 'طبقه';
+$string['categoryadded'] = 'طبقهٔ «{$a}» اضافه شد';
+$string['categorycurrentcontents'] = 'محتویات $a';
+$string['categorycontents'] = 'زیرطبقه‌ها و دروس';
+$string['categorydeleted'] = 'طبقهٔ «{$a}» حذف شد';
+$string['categoryduplicate'] = 'طبقه‌ای با نام «{$a}» وجود دارد!';
+$string['categorymodifiedcancel'] = 'طبقه تغییر کرده است! لطفاً فرایند را لغو کرده و مجدداً تلاش نمائید.';
+$string['categoryname'] = 'نام طبقه';
+$string['categoryupdated'] = 'طبقهٔ «{$a}» به‌روز شد';
+$string['changedpassword'] = 'رمز عبور تغییر یافته';
+$string['changepassword'] = 'تغییر رمز ورود';
+$string['changessaved'] = 'تغیرات ذخیره شدند';
+$string['check'] = 'بررسی';
+$string['checkall'] = 'بررسی همه';
+$string['checkingbackup'] = 'در حال بررسی پشتیبان';
+$string['checkingcourse'] = 'بررسی شدن درس';
+$string['checkingforbbexport'] = 'در حال بررسی صدور از BlackBoard';
+$string['checkinginstances'] = 'بررسی نمونه‌های ساخته‌شده';
+$string['checkingsections'] = 'بررسی قسمت‌ها';
+$string['checklanguage'] = 'بررسی زبان';
+$string['checknone'] = 'بررسی هیچ‌کدام';
+$string['childcoursenotfound'] = 'درس زیرمجموعه پیدا نشد!';
+$string['childcourses'] = 'درس‌های زیرمجموعه';
+$string['choose'] = 'انتخاب کنید';
+$string['choosecourse'] = 'درسی را انتخاب کنید';
+$string['chooseenrolmethod'] = 'پلاگین ثبت‌نام را انتخاب نمائید';
+$string['chooselivelogs'] = 'یا فعالیت‌های جاری را نگاه کنید';
+$string['chooselogs'] = 'log هایی که می‌خواهید ببینید را انتخاب کنید';
+$string['choosereportfilter'] = 'فیلتری برای گزارش انتخاب نمائید';
+$string['choosetheme'] = 'انتخاب پوسته';
+$string['chooseuser'] = 'انتخاب یک کاربر';
+$string['city'] = 'شهر/شهرک';
+$string['clambroken'] = 'مدیر شما بررسی ویروس برای فایل‌های ارسالی را فعال کرده است ولیچ چیزهایی را بد پیکربندی کرده است.<br /> ارسال فایل شما موفق نبود. جهت اطلاع مدیرها به آن‌ها پست الکترونیکی ارسال شده است تا بتوانند آن را درست کنند.<br />بعداً اقدام با ارسال نمائید.';
+$string['clamdeletedfile'] = 'فایل حذف شد';
+$string['clamdeletedfilefailed'] = 'فایل قابل حذف نیست';
+$string['clamemailsubject'] = '$a :: اخطار Clam AV';
+$string['clamfailed'] = 'Clam AV موفق به اجرا نشد. پیغام خطای دریافتی $a بود. خروجی Clam بدین شرح است:';
+$string['clamlost'] = 'مودل بنحوی پیکربندی شده است تا clam را روی فایل ارسالی اجرا کند، ولی مسیر فراهم شده برای Clam AV، <span dir=\"ltr\">$a</span>، نامعتبر است.';
+$string['clamlostandactinglikevirus'] = 'بعلاوه، مودل به نحوی پیکربندی شده است که اگر clam موفق به اجرا نشود، با فایل‌ها مانند ویروس برخورد می‌شود. این اساساً به این عنی است که تا زمانی که این مسئله را برطرف ننمائید هیچ شاگردی نمی‌توانید فایلی را با موفقیت ارسال نماید.';
+$string['clammovedfile'] = 'این فایل به دایرکتوری قرنطینهٔ تعیین شده توسط شما منتقل شده است؛ محل جدید <span dir=\"ltr\">$a</span> است';
+$string['clammovedfilebasic'] = 'فایل به یک دایرکتوری قرنطینه منتقل شد.';
+$string['clamquarantinedirfailed'] = 'فایل‌ها قابل انتقال به دایرکتوری قرنطینهٔ تعیین شده توسط شما، <span dor=\"ltr\">$a</span> نبود. با توجه به اینکه اگر فایل‌ها آلوده شناخته شوند حذف خواهند شد، باید این مسئله را برطرف نمائید.';
+$string['clamunknownerror'] = 'خطای ناشناخته‌ای در مورد clam به وجود آمد.';
+$string['cleaningtempdata'] = 'در حال پاک کردن داده‌های موقت';
+$string['clicktochange'] = 'برای انجام تغییرات کلیک کنید';
+$string['clickhere'] = 'کلیک نمائید ...';
+$string['closewindow'] = 'بستن این پنجره';
+$string['comparelanguage'] = 'مقایسه و ویرایش زبان جاری';
+$string['complete'] = 'کامل';
+$string['completereport'] = 'گزارش کامل';
+$string['configuration'] = 'پیکربندی';
+$string['confirm'] = 'تایید';
+$string['confirmcheckfull'] = 'آیا کاملاً مطمئنید که می‌خواهید $a را تایید نمائید؟';
+$string['confirmed'] = 'عضویت شما تایید شد';
+$string['confirmednot'] = 'عضویت شما هنوز تایید نشده است!';
 $string['continue'] = 'ادامه';
-$string['cookiesenabled'] = 'کوک&#1740;ها با&#1740;د در سرور فعال شوند';
-$string['copy'] = 'کپ&#1740;';
-$string['copyingcoursefiles'] = 'کپ&#1740; کردن فا&#1740;لها&#1740; مربوط به درس';
-$string['copyinguserfiles'] = 'کپ&#1740; کردن فا&#1740;لها&#1740; مربوط به کاربر ';
-$string['copyingzipfile'] = 'کپ&#1740; کردن فا&#1740;ل فشرده ';
-$string['copyrightnotice'] = 'آگه&#1740; حق کپ&#1740;';
+$string['continuetocourse'] = 'برای ورود به درس خود اینجا کلیک نمائید';
+$string['convertingwikitomarkdown'] = 'در حال تبدیل ویکی به Markdown';
+$string['cookiesenabled'] = 'کوکی‌ها باید در مرورگر شما فعال باشند';
+$string['cookiesnotenabled'] = 'متآسفانه، در حال حاضر کوکی‌ها در مرورگر شما فعال نیستند';
+$string['copy'] = 'کپی';
+$string['copyasnoun'] = 'رونوشت';
+$string['copyingcoursefiles'] = 'در حال کپی کردن فایل‌های درس';
+$string['copyingsitefiles'] = 'در حال کپی کردن فایل‌های سایت که در درس استفاده شده‌اند.';
+$string['copyinguserfiles'] = 'در حال کپی کردن فایل‌های کاربران';
+$string['copyingzipfile'] = 'در حال کپی کردن فایل فشرده';
+$string['copyrightnotice'] = 'اعلان حق نشر';
+$string['coresystem'] = 'سیستم مرکزی';
+$string['cost'] = 'شهریه';
+$string['costdefault'] = 'شهریهٔ پیش‌فرض';
+$string['counteditems'] = '$a->count $a->items';
 $string['country'] = 'کشور';
 $string['course'] = 'درس';
-$string['courseavailable'] = 'ا&#1740;ن درس برا&#1740; دانشجو&#1740;ان در دسترس است';
-$string['courseavailablenot'] = 'ا&#1740;ن درس برا&#1740; دانشجو&#1740;ان در دسترس ن&#1740;ست';
-$string['coursebackup'] = 'پشت&#1740;بان درس';
-$string['coursecategories'] = 'موضوعات درس&#1740;';
-$string['coursecategory'] = 'موضوع درس';
-$string['coursecreators'] = 'ا&#1740;جاد کننده درس';
-$string['coursefiles'] = 'فا&#1740;لها&#1740; مربوط به درس';
-$string['courseformats'] = 'فرمتها&#1740; درس';
-$string['coursegrades'] = 'نمرات درس';
-$string['courseinfo'] = 'اطلاعات مربوط به درس';
-$string['courserestore'] = 'بحال اول برگرداندن درس';
-$string['courses'] = 'موضوعات درس&#1740;';
-$string['courseupdates'] = 'تغ&#1740;&#1740;رات درسها';
-$string['create'] = 'بوجود آوردن';
-$string['createaccount'] = 'ا&#1740;جاد حساب جد&#1740;د من';
-$string['createfolder'] = 'ا&#1740;جاد پوشه در $a';
-$string['createuserandpass'] = 'ا&#1740;جاد نام کاربر&#1740; و رمز ورود جد&#1740;د برا&#1740; ورود';
-$string['createziparchive'] = 'ا&#1740;جاد آرش&#1740;و بصورت فا&#1740;ل فشرده';
-$string['creatingcategoriesandquestions'] = 'ا&#1740;جاد موضوعات و سئوالات';
-$string['creatingcoursemodules'] = 'ا&#1740;جاد ماژولها&#1740; درس';
-$string['creatinglogentries'] = 'ا&#1740;جاد امکان ثبت موارد';
-$string['creatingnewcourse'] = 'ا&#1740;جاد درس جد&#1740;د';
-$string['creatingscales'] = 'ا&#1740;جاد مق&#1740;اس';
-$string['creatingsections'] = 'ا&#1740;جاد بخش';
-$string['creatingtemporarystructures'] = 'ا&#1740;جاد ساختارها&#1740; موقت';
-$string['creatingusers'] = 'ا&#1740;جاد کاربر';
-$string['creatingxmlfile'] = 'ا&#1740;جاد فا&#1740;ل XML';
-$string['currentcourseadding'] = 'اضافه کردن اطلاعات به درس موجود';
-$string['currentcoursedeleting'] = 'پاک کردن درس موجود';
-$string['currentlanguage'] = 'زبان جار&#1740;';
-$string['currentlocaltime'] = 'زمان محل&#1740; شما';
-$string['currentrelease'] = 'اطلاعات نسخه کنون&#1740;';
-$string['currentversion'] = 'نسخه جار&#1740;';
-$string['databasechecking'] = 'Upgrading Moodle database from version $a->oldversion to $a->newversion...';
-$string['databasesetup'] = 'ا&#1740;جاد پا&#1740;گاه داده';
-$string['databasesuccess'] = 'پا&#1740;گاه داده با موفق&#1740;ت تغ&#1740;&#1740;ر کرد';
-$string['databaseupgradebackups'] = 'نسخه پشت&#1740;بات اکنون $a است';
-$string['databaseupgrades'] = 'ارتقا پا&#1740;گاه داده';
+$string['courseapprovedemail'] = 'درسی که تقاضا کرده بودید، {$a->name}، مورد موافقت قرار گرفت و شما تبدیل به یک $a->teacher شدید. جهت دستیابی به درس جدید خود، به آدرس <span dir=\"ltr\">$a->url</span> بروید';
+$string['courseapprovedfailed'] = 'دخیرهٔ درس بعنوان موافقت شده با شکست مواجه شد!';
+$string['courseapprovedsubject'] = 'درس شما مورد موافقت قرار گرفت!';
+$string['courseavailable'] = 'این درس توسط شاگردان قابل دسترسی است';
+$string['courseavailablenot'] = 'این درس توسط شاگردان قابل دسترسی نیست';
+$string['coursebackup'] = 'پشتیبان‌گیری از درس';
+$string['coursecategories'] = 'طبقه‌های درسی';
+$string['coursecategory'] = 'طبقهٔ درسی';
+$string['coursecategorydeleted'] = 'طبقهٔ درسی $a حذف شد';
+$string['coursecreators'] = 'ایجاد کنندهٔ درس';
+$string['coursecreatorsdescription'] = 'ایجاد کنندگان درس می‌توانند درس‌های جدید ساخته و در آن‌ها تدریس نمایند.';
+$string['coursedeleted'] = 'درس $a حذف شد';
+$string['coursefiles'] = 'فایل‌های درس';
+$string['courseformatdata'] = 'اطلاعات قالب درس';
+$string['courseformats'] = 'قالب‌های درس';
+$string['coursegrades'] = 'نمره‌های درس';
+$string['coursehelpcategory'] = 'درس را در لیست درس‌ها قرار داده و پیدا کردن آن را برای شاگردان را راحت‌تر می‌کند.';
+$string['coursehelpformat'] = 'صفحهٔ اصلی درس با این قالب نمایش داده خواهد شد.';
+$string['coursehelpnumberweeks'] = 'تعداد هفته‌ها/سرفصل‌هایی که در صفحهٔ اصلی درس نمایش داده می‌شود.';
+$string['coursehelphiddensections'] = 'قسمت‌های پنهان درس به چه صورتی به شاگردها نمایش داده شوند.';
+$string['coursehelpnewsitemsnumber'] = 'تعداد موارد جدیدی که در صفحهٔ درس، در بلوکی واقع در سمت چپ، نشان داده می‌شوند<br />(در صورت انتخاب عدد صفر بلوک خبرها نشان داده نخواهد شد)
+.';
+$string['coursehelpshowgrades'] = 'فعال کردن نمایش دفتر نمرات. این گزینه از نمایش داده شدن نمره‌ها در تک تک فعالیت‌ها جلوگیری نمی‌کند.';
+$string['coursehelpmaximumupload'] = 'بزرگ‌ترین اندازهٔ فایل (محدود شده با تنظیمات سراسری سایت) قابل ارسال توسط شاگردها در این درس را تعیین می‌کند.';
+$string['coursehelpmetacourse'] = 'درس به صورت یک فرادرس باشد. یک فرادرس، ثبت‌نام‌ها (و بقیهٔ انتساب‌های نقش‌ها) را از درس یا درس‌های «زیرمجموعه» می‌گیرد.';
+$string['coursehidden'] = 'این درس در حال حاضر در دسترس شاگردان نیست';
+$string['courseimportnotaught'] = 'به نظر می‌رسد که شما در هیچ درس دیگری استاد با حق ویرایش نیستید، درسی که شما بتوانید از آن چیزی وارد نمائید وجود ندارد.';
+$string['courseinfo'] = 'اطلاعات درس';
+$string['coursemessage'] = 'ارسال پیغام به کاربران درس';
+$string['coursenotaccessible'] = 'اجازهٔ دسترسی عمومی به این درس وجود ندارد';
+$string['courseoverview'] = 'مرور اجمالی درس';
+$string['courseoverviewgraph'] = 'نمودار مرور اجمالی درس';
+$string['coursereasonforrejecting'] = 'دلائل شما برای رد کردن این تقاضا';
+$string['coursereasonforrejectingemail'] = 'این متن توسط پست الکترونیک به متقاضی ارسال خواهد شد';
+$string['coursereject'] = 'رد تقاضای یک درس';
+$string['courserejected'] = 'درس پذیرفته نشد و به متقاضی اطلاع داده شد.';
+$string['courserejectemail'] = 'متأسفانه درسی که تقاضا نموده بودید پذیرفته نشد. دلیلی که برای پذیرفته نشدن تقاضا عنوان شده به این شرح است:
+
+$a';
+$string['courserejectreason'] = 'دلایل خود برای نپذیرفتن این درس را به صورت کلی مطرح نمائید<br />(این متن با پست الکترونیک به متقاضی ارسال می‌شود)';
+$string['courserejectsubject'] = 'درس شما پذیرفته نشده است';
+$string['coursereports'] = 'گزارش‌های درس';
+$string['courserequest'] = 'تقاضای درس';
+$string['courserequestdetails'] = 'جزئیات درس مورد تقاضا';
+$string['courserequestdisabled'] = 'با عرض معذرت، قابلیت درخواست درس توسط مدیر غیرفعال شده است';
+$string['courserequestfailed'] = 'به دلایلی، تقاضای درس شما ذخیره نشد';
+$string['courserequestintro'] = 'از این فرم برای تقاضای ایجاد یک درس برای خود استفاده نمائید.<br />هرگونه اطلاعاتی که می‌توانید را شرح دهید تا مدیران<br />بتوانند دلایل شما برای خواستن این درس را متوجه شوند.';
+$string['courserequestreason'] = 'دلائل تقاضای این درس';
+$string['courserequestsuccess'] = 'تقاضای درس شما با موفقیت ذخیره شد. طی چند روز آینده منتظر یک نامهٔ الکترونیکی شامل نتیجه باشید.';
+$string['courserequestsupport'] = 'اطلاعات کمکی برای کمک به مدیر در ارزیابی این تقاضا';
+$string['courserestore'] = 'بازیابی درس';
+$string['courses'] = 'درس‌ها';
+$string['coursescategory'] = 'درس‌های متعلق به همین طبقه';
+$string['coursesettings'] = 'تنظیمات پیش‌فرض درس';
+$string['coursesmovedout'] = 'درس‌ها از طبقهٔ $a بیرون آمدند';
+$string['coursespending'] = 'تصویب درس‌های معلق';
+$string['coursestaught'] = 'درس‌هایی که تدریس کرده‌ام';
+$string['courseupdates'] = 'تغییرات درس';
+$string['courseuploadlimit'] = 'محدودیت تعریف شده برای درس';
+$string['create'] = 'ایجاد';
+$string['createaccount'] = 'ایجاد حساب کاربری من';
+$string['createcategory'] = 'ایجاد طبقه';
+$string['createfolder'] = 'ساخت یک پوشه در <span dir=\"ltr\">$a</span>';
+$string['createuserandpass'] = 'نام کاربری و رمز عبور خود را انتخاب کنید';
+$string['createziparchive'] = 'به صورت یک فایل فشرده آرشیو کن';
+$string['creatingblocks'] = 'ساخته شدن بلوک‌ها';
+$string['creatingblogsinfo'] = 'در حال ایجاد اطلاعات بلاگ‌ها';
+$string['creatingblocksroles'] = 'تعریف انتساب نقش‌ها و بازنویسی مجوزها در سطح بلوک';
+$string['creatingcategoriesandquestions'] = 'ایجاد دسته‌ها و سؤالات';
+$string['creatingcoursemodules'] = 'ایجاد ماژول‌های درسی';
+$string['creatingcourseroles'] = 'تعریف انتساب نقش‌ها و بازنویسی مجوزها در سطح درس';
+$string['creatingevents'] = 'تعریف رویدادها';
+$string['creatinggradebook'] = 'ایجاد دفتر نمره';
+$string['creatinggroups'] = 'ساخته شدن گروه‌ها';
+$string['creatinggroupings'] = 'ساخته شدن ابرگروه‌ها';
+$string['creatinggroupingsgroups'] = 'اضافه شدن گروه‌ها به ابرگروه‌ها';
+$string['creatinglogentries'] = 'در حال ایجاد جزئیات log';
+$string['creatingmessagesinfo'] = 'در حال ایجاد اطلاعات پیغام‌ها';
+$string['creatingmetacoursedata'] = 'در حال ایجاد اطلاعات فرادرس';
+$string['creatingmodroles'] = 'تعریف انتساب نقش‌ها و بازنویسی مجوزها در سطح ماژول';
+$string['creatingnewcourse'] = 'ایجاد درس جدید';
+$string['creatingrolesdefinitions'] = 'تعریف نقش‌های جدید';
+$string['creatingscales'] = 'تعریف مقیاس‌ها';
+$string['creatingsections'] = 'ساخته شدن قسمت‌ها';
+$string['creatingtemporarystructures'] = 'در حال ایجاد ساختارهای موقتی';
+$string['creatinguserroles'] = 'تعریف انتساب نقش‌ها و بازنویسی مجوزها در سطح کاربر';
+$string['creatingusers'] = 'تعریف کاربران';
+$string['creatingxmlfile'] = 'در حال ایجاد فایل XML';
+$string['currency'] = 'پول رایج';
+$string['currentcourseadding'] = 'درس جاری، با اضافه کردن داده‌ها به آن';
+$string['currentcoursedeleting'] = 'درس جاری، با حذف درس و ایجاد مجدد آن';
+$string['currentlanguage'] = 'زبان فعلی';
+$string['currentlocaltime'] = 'زمان محلی شما';
+$string['currentlyselectedusers'] = 'کاربران انتخاب شده';
+$string['currentpicture'] = 'عکس فعلی';
+$string['currentrelease'] = 'اطلاعات انتشار فعلی';
+$string['currentversion'] = 'نسخهٔ مورد استفاده';
+$string['databasechecking'] = 'ارتقای پایگاه دادهٔ مودل از نسخهٔ <span dir=\"ltr\">$a->oldversion</span> به <span dir=\"ltr\">$a->newversion</span>...';
+$string['databaseperformance'] = 'عملکرد پایگاه داده';
+$string['databasesetup'] = 'برپایی پایگاه داده';
+$string['databasesuccess'] = 'پایگاه داده با موفقیت ارتقا یافت';
+$string['databaseupgradebackups'] = 'نسخهٔ پشتیبان هم‌اکنون $a است';
+$string['databaseupgradeblocks'] = 'نسخهٔ بلوک‌ها هم‌اکنون $a است';
+$string['databaseupgradegroups'] = 'نسخهٔ گروه‌ها هم‌اکنون $a است';
+$string['databaseupgradelocal'] = 'Local database customisations version is now $a';
+$string['databaseupgrades'] = 'در حال ارتقای پایگاه داده';
+$string['date'] = 'تاریخ';
+$string['datechanged'] = 'تاریخ تغییر کرد';
+$string['datemostrecentfirst'] = 'تاریخ - جدیدترین در ابتدا';
+$string['datemostrecentlast'] = 'تاریخ - جدیدترین در انتها';
 $string['day'] = 'روز';
 $string['days'] = 'روز';
-$string['defaultcoursefullname'] = 'نام درس...';
-$string['defaultcourseshortname'] = 'نام کوتاه...';
-$string['defaultcoursestudent'] = 'دانشجو';
-$string['defaultcoursestudents'] = 'دانشجوها';
-$string['defaultcoursesummary'] = 'در ا&#1740;نجا &#1740;ک جمله مختصر و جالب برا&#1740; توض&#1740;ح درس بنو&#1740;س&#1740;د';
-$string['defaultcourseteacher'] = 'معلم';
-$string['defaultcourseteachers'] = 'معلمها';
+$string['decodinginternallinks'] = 'رمزگشائی پیوندهای داخلی';
+$string['default'] = 'پیش‌فرض';
+$string['defaultcoursefullname'] = 'نام کامل درس ۱۰۱';
+$string['defaultcourseshortname'] = 'د۱۰۱';
+$string['defaultcoursestudent'] = 'شاگرد';
+$string['defaultcoursestudentdescription'] = 'به طور کلی شاگردان در یک درس حقوق محدودتری دارند.';
+$string['defaultcoursestudents'] = 'شاگردان';
+$string['defaultcoursesummary'] = 'در این قسمت یک پاراگراف مختصر و جالب توجه بنویسید که توضیح دهد این درس در مورد چیست';
+$string['defaultcourseteacher'] = 'استاد';
+$string['defaultcourseteacherdescription'] = 'اساتید می‌توانند در درس خود هر کاری از جمله تغییر فعالیت‌ها و نمره دادن به شاگردان را انجام دهند.';
+$string['defaultcourseteachers'] = 'اساتید';
 $string['delete'] = 'حذف';
-$string['deletecheck'] = 'آ&#1740;ا $a حذف شود؟';
-$string['deletecheckfiles'] = 'آ&#1740;ا مطمئن هست&#1740;د م&#1740; خواه&#1740;د ا&#1740;ن فا&#1740;لها را پاک کن&#1740;د؟';
-$string['deletecheckfull'] = 'آ&#1740;ا مطمئن هست&#1740;د م&#1740; خواه&#1740;د $a را بطور کامل حذف کن&#1740;د؟';
-$string['deletecheckwarning'] = 'شما در حال حذف کردن ا&#1740;ن فا&#1740;لها هست&#1740;د';
-$string['deletecompletely'] = 'آ&#1740;ابطور کامل حذف شود؟';
-$string['deletecourse'] = 'حذف درس';
-$string['deletecoursecheck'] = 'آ&#1740;ا مطمئن هست&#1740;د م&#1740; خواه&#1740;د ا&#1740;ن درس به همراه تمام اطلاعات آنرا حذف کن&#1740;د؟';
+$string['deleteall'] = 'حذف همه';
+$string['deleteallcannotundo'] = 'حذف همه - قابل بازگشت نیست';
+$string['deleteallcomments'] = 'حذف همهٔ نظرها';
+$string['deleteallratings'] = 'حذف همهٔ امتیازها';
+$string['deletecategory'] = 'حذف طبقه: $a';
+$string['deletecategorycheck'] = 'آیا واقعاً مطمئن هستید که می‌خواهید این طبقه (<b>$a</b>) را کاملاً حذف نمائید؟<br />این کار همهٔ درس‌ها را به طبقهٔ بیرونی (در صورت وجود) یا متفرقه منتقل خواهد کرد.';
+$string['deletecategorycheck2'] = 'اگر می‌خواهید این طبقه را حذف کنید، باید مشخص کنید که با درس‌ها و زیرطبقه‌های داخلی چه رفتاری شود.';
+$string['deletecategoryempty'] = 'این طبقه خالی است.';
+$string['deletecheck'] = 'حذف $a ؟';
+$string['deletecheckfiles'] = 'آیا کاملاً مطمئن هستید که می‌خواهید این فایل‌ها را حذف نمائید؟';
+$string['deletecheckfull'] = 'آیا کاملاً مطمئنید که می‌خواهید $a را به طور کامل حذف نمائید؟';
+$string['deletecheckwarning'] = 'شما در آستانهٔ حذف این فایل‌ها هستید';
+$string['deletecompletely'] = 'به طور کامل حذف کن';
+$string['deletecourse'] = 'حذف یک درس';
+$string['deletecoursecheck'] = 'آیا کاملاً مطمئن هستید که می‌خواهید این درس و همهٔ اطلاعاتی که شامل شده است را به طور کامل حذف نمائید؟';
 $string['deleted'] = 'حذف شد';
 $string['deletedactivity'] = '$a حذف شد';
-$string['deletedcourse'] = '$a بطور کامل حذف شد';
-$string['deletednot'] = '$a حذف نشد!';
+$string['deletedcourse'] = '$a به طور کامل حذف شد';
+$string['deletednot'] = '$a قابل حذف نبود !';
+$string['deletelogs'] = 'حذف log ها';
+$string['deleteselected'] = 'حذف موارد انتخاب شده';
+$string['deleteselectedkey'] = 'حذف کلید انتخابی';
 $string['deletingcourse'] = 'در حال حذف $a';
-$string['deletingexistingcoursedata'] = 'در حال حذف اطلاعات موجود درس';
-$string['deletingolddata'] = 'در حال حذف اطلاعات قد&#1740;م&#1740;';
-$string['department'] = 'قسمت';
-$string['description'] = 'توض&#1740;ح';
-$string['displayingfirst'] = 'تنها $a->count $a->things اول نشان داده شده اند';
-$string['displayingrecords'] = 'نما&#1740;ش $a رکورد';
-$string['displayingusers'] = 'نما&#1740;ش کاربران از  $a->start  تا  $a->end   ';
+$string['deletingexistingcoursedata'] = 'حذف داده‌های درس موجود';
+$string['deletingolddata'] = 'در حال حذف داده‌های قدیمی';
+$string['department'] = 'دپارتمان';
+$string['desc'] = 'نزولی';
+$string['description'] = 'توصیف';
+$string['deselectall'] = 'انتخاب هیچ';
+$string['detailedless'] = 'با جزئیات کمتر';
+$string['detailedmore'] = 'با جزئیات بیشتر';
+$string['directory'] = 'دایرکتوری';
+$string['directorypaths'] = 'مسیر دایرکتوری‌ها';
+$string['disable'] = 'غیر فعال';
+$string['displayingfirst'] = 'فقط $a->count $a->things اول نمایش داده شده‌اند';
+$string['displayingrecords'] = 'نمایش $a رکورد';
+$string['displayingusers'] = 'نمایش کاربران از $a->start تا $a->end';
+$string['displayonpage'] = 'نمایش در صفحه';
 $string['documentation'] = 'مستندات مودل';
-$string['donotask'] = 'سئوال نشود';
-$string['downloadexcel'] = 'در&#1740;افت با فرمت اکسل';
-$string['downloadtext'] = 'در&#1740;افت با فرمت متن&#1740;';
-$string['doyouagree'] = 'آ&#1740;ا شرا&#1740;ط را خواند&#1740;د و متوجه شد&#1740;د؟';
-$string['edit'] = 'و&#1740;را&#1740;ش $a';
-$string['editcoursesettings'] = 'و&#1740;را&#1740;ش تنظ&#1740;مات درس';
-$string['editinga'] = 'و&#1740;را&#1740;ش &#1740;ک $a';
-$string['editmyprofile'] = 'و&#1740;را&#1740;ش مشخصات فرد&#1740;';
-$string['editsummary'] = 'و&#1740;را&#1740;ش خلاصه';
-$string['editthisactivity'] = 'و&#1740;را&#1740;ش ا&#1740;ن فعال&#1740;ت';
-$string['editthiscategory'] = 'و&#1740;را&#1740;ش ا&#1740;ن موضوع';
-$string['edituser'] = 'و&#1740;را&#1740;ش حسابها&#1740; کاربر&#1740;';
-$string['email'] = 'آدرس پست الکترون&#1740;ک';
-$string['emailconfirm'] = 'تا&#1740;&#1740;د حساب کاربر&#1740;';
-$string['emailconfirmation'] = 'سلام $a->firstname,
-&#1740;ک حساب کاربر&#1740; با آدرس الکترون&#1740;ک شما در \'$a->sitename\' درخواست شده است.
+$string['donotask'] = 'سؤال نشود';
+$string['donotclickcontinue'] = 'بر روی پیوند ادامهٔ زیر کلیک نکنید ؛-)';
+$string['down'] = 'پائین';
+$string['downloadexcel'] = 'دریافت در قالب فایل اکسل';
+$string['downloadods'] = 'دریافت در قالب فایل ODS';
+$string['downloadtext'] = 'دریافت در قالب فایل متنی';
+$string['doyouagree'] = 'آیا شرایط را خواندید و متوجه شدید؟';
+$string['duplicate'] = 'تکثیر';
+$string['duplicatinga'] = 'تکثیر: $a';
+$string['duplicatingain'] = 'تکثیر $a->what در $a->in';
+$string['edhelpaspellpath'] = 'برای استفاده از بررسی کنندهٔ املا در ویرایشگر، باید <strong>aspell 0.50</strong> یا نسخهٔ جدیدتر نصب باشد، و شما باید مسیر صحیح برای دسترسی به فایل باینری aspell را مشخص کنید. در سیستم‌های یونیکسی/لینوکسی، این مسیر معمولاً <span dir=\"ltr\"><strong>/usr/bin/aspell</strong></span> است، ولی امکان دارد که متفاوت باشد.';
+$string['edhelpbgcolor'] = 'رنگ پس‌زمینهٔ ناحیهٔ ویرایش را تعیین کنید.<br />مقادیر معتبر بعنوان مثال عبارتند از: <span dir=\"ltr\">#FFFFFF</span> یا white';
+$string['edhelpcleanword'] = 'این گزینه پاکسازی قالب‌های Word را فعال یا غیرفعال می‌کند.';
+$string['edhelpenablespelling'] = 'فعال یا غیرفعال کردن بررسی املاء. در صورت فعال بودن، باید <strong>aspell</strong> روی کارگزار نصب شده باشد. مقدار دوم <strong>لغت‌نامهٔ پیش‌فرض</strong> است. این مقدار در صورتی که aspell برای زبان کاربر دارای لغت‌نامه نباشد استفاده خواهد شد.';
+$string['edhelpfontfamily'] = 'ویژگی font-family، لیستی از نام‌های خانوادهٔ قلم و/یا نام‌های خانوادهٔ عمومی است. نام‌های خانواده باید توسط کاما جدا شده باشند.';
+$string['edhelpfontlist'] = 'قلم‌هایی که در منوی ویرایشگر استفاده می‌شوند را تعیین نمائید.';
+$string['edhelpfontsize'] = 'اندازهٔ پیش‌فرض قلم.<br />مقادیر معتبر بعنوان مثال عبارتند از:medium، large، smaller، larger، 10pt، 11px.';
+$string['edit'] = 'ویرایش $a';
+$string['editcategorysettings'] = 'ویرایش تنظیمات طبقه';
+$string['editcategorythis'] = 'ویرایش این طبقه';
+$string['editcoursesettings'] = 'ویرایش تنظیمات درس';
+$string['editfiles'] = 'ویرایش فایل‌ها';
+$string['editgroupprofile'] = 'ویرایش مشخصات گروه';
+$string['editinga'] = 'در حال ویرایش $a';
+$string['editingteachershort'] = 'ویراستار';
+$string['editlock'] = 'این مقدار قابل ویرایش نیست!';
+$string['editmyprofile'] = 'ویرایش مشخصات فردی';
+$string['editorbgcolor'] = 'رنگ پس‌زمینه';
+$string['editorcleanonpaste'] = 'پاک سازی HTMLهای Word هنگام درج از حافظه';
+$string['editorcommonsettings'] = 'تنظیمات عمومی';
+$string['editordefaultfont'] = 'قلم پیش‌فرض';
+$string['editorenablespelling'] = 'فعال کردن بررسی املا';
+$string['editorfontlist'] = 'لیست قلم‌ها';
+$string['editorfontsize'] = 'اندازهٔ پیش‌فرض قلم';
+$string['editorhelptopics'] = 'عناوین راهنمای ویرایشگر.';
+$string['editorresettodefaults'] = 'بازگشت به مقادیر پیش‌فرض';
+$string['editorsettings'] = 'تنظیمات ویرایشگر';
+$string['editorshortcutkeys'] = 'کلیدهای میانبر ویرایشگر';
+$string['editremoteprofile'] = 'ویرایش مشخصات فردی خارجی';
+$string['editsummary'] = 'ویرایش خلاصه';
+$string['editthisactivity'] = 'ویرایش این فعالیت';
+$string['editthiscategory'] = 'ویرایش این طبقه';
+$string['edituser'] = 'ویرایش حساب‌های کاربری';
+$string['email'] = 'آدرس پست الکترونیک';
+$string['emailactive'] = 'فعال بودن پست الکترونیک';
+$string['emailagain'] = 'پست الکترونیک (دوباره)';
+$string['emailcharset'] = 'charset نامه‌های الکترونیکی';
+$string['emailconfirm'] = 'حساب کاربری خود را تایید کنید';
+$string['emailconfirmation'] = 'سلام،
 
-برا&#1740; تا&#1740;&#1740;د درخواست خود به آدرس ز&#1740;ر برو&#1740;د
+یک حساب کاربری جدید در «{$a->sitename}» با استفاده از
+آدرس پست الکترونیکی شما تقاضا شده است.
+
+جهت تایید حساب کاربری جدید، لطفاً به این آدرس اینترنتی بروید:
+
 $a->link
 
-دراکثر برنامه ها&#1740; پست الکترون&#1740;ک ا&#1740;ن ل&#1740;نک بصورت آب&#1740; نشان داده م&#1740; شود.
-اگر ا&#1740;نحالت ن&#1740;ست ا&#1740;ن آدرس را در محل آدرس مرورگر کپ&#1740; کن&#1740;د.
+در اکثر برنامه‌های پست الکترونیک، آدرس فوق باید به صورت یک پیوند آبی رنگ
+نمایش داده شده باشد که می‌توانید بر روی آن کلیک کنید. اگر به این صورت نبود،
+کافیست که آدرس مورد نظر را در نوار آدرس واقع در قسمت بالای پنجرهٔ
+مرورگر خود کپی نمائید.
 
-اگر به کمک احت&#1740;اج دار&#1740;د با مد&#1740;ر سا&#1740;ت تماس بگ&#1740;ر&#1740;د.
+در صورت نیاز به کمک، لطفاً با مدیر سایت تماس بگیرید،
 $a->admin';
-$string['emailconfirmationsubject'] = '$a: تا&#1740;&#1740;د حساب کاربر&#1740;';
-$string['emailconfirmsent'] = 'با&#1740;د نامه ا&#1740; به آدرس شما در $a فرستاده شده باشد.
-که شامل توض&#1740;حات&#1740; درباره اتمام ثبت نام است.
-اگر باز هم مشکل داشت&#1740;د با مد&#1740;ر سا&#1740;ت تماس بگ&#1740;ر&#1740;د.';
-$string['emaildisplay'] = 'نما&#1740;ش پست الکترون&#1740;ک';
-$string['emaildisplaycourse'] = 'تنها سا&#1740;ر هم کلاس&#1740;ها بتوانند پست الکترون&#1740;ک من را بب&#1740;نند';
-$string['emaildisplayno'] = 'پست الکترون&#1740;ک واقع&#1740; من را از همه پنهان کن ';
-$string['emaildisplayyes'] = 'همه امکان د&#1740;دن پست الکترون&#1740;ک من را داشته باشند';
-$string['emailexists'] = 'ا&#1740;ن آدرس الکترون&#1740;ک قبلا ثبت نام کرده است';
-$string['emailformat'] = 'شکل پست الکترون&#1740;ک';
-$string['emailmustbereal'] = 'توجه: آدرس الکترون&#1740;ک شما با&#1740;د واقع&#1740; باشد.';
-$string['emailpasswordconfirmation'] = 'سلام $a->firstname,
+$string['emailconfirmationsubject'] = '$a: تایید حساب کاربری';
+$string['emailconfirmsent'] = '<p>باید نامه‌ای به آدرس شما در <b>$a</b> فرستاده شده باشد</p>
+   <p>این نامه شامل دستورالعمل‌های ساده‌ای برای تکمیل عضویت شما است.</p>
+   <p>در صورت تداوم مواجهه با مشکل، با مدیر سایت تماس بگیرید.</p>';
+$string['emaildigest'] = 'نوع پست الکترونیک خلاصه';
+$string['emaildigestcomplete'] = 'کامل (یک نامهٔ روزانه شامل همهٔ مطالب)';
+$string['emaildigestoff'] = 'غیر فعال (یک نامهٔ مجزا بازای هر ارسال به تالار گفتگو)';
+$string['emaildigestsubjects'] = 'موضوع‌ها (یک نامهٔ روزانه فقط شامل موضوع‌ها)';
+$string['emaildisable'] = 'این آدرس پست الکترونیکی غیر فعال است';
+$string['emaildisableclick'] = 'جهت جلوگیری از ارسال همهٔ نامه‌های الکترونیکی به این آدرس، اینجا را کلیک کنید';
+$string['emaildisplay'] = 'نمایش آدرس پست الکترونیک';
+$string['emaildisplaycourse'] = 'فقط اعضای کلاس اجازه دارند آدرس پست الکترونیک من را ببینند';
+$string['emaildisplayno'] = 'آدرس پست الکترونیک من را به کسی نشان نده';
+$string['emaildisplayyes'] = 'همه بتوانند آدرس پست الکترونیک من را ببینند';
+$string['emailenable'] = 'این آدرس پست الکترونیکی فعال است';
+$string['emailenableclick'] = 'جهت راه‌اندازی مجدد ارسال نامه‌های الکترونیکی به این آدرس، اینجا را کلیک کنید';
+$string['emailexists'] = 'این آدرس پست الکترونیکی قبلاً عضو شده است.';
+$string['emailformat'] = 'قالب پست الکترونیکی';
+$string['emailmustbereal'] = 'توجه: آدرس پست الکترونیکی شما باید واقعی باشد';
+$string['emailnotallowed'] = 'آدرس‌های پست الکترونیکی متعلق به این دامنه‌ها مجاز نیستند ($a)';
+$string['emailnotfound'] = 'این آدرس پست الکترونیکی در پایگاه داده وجود ندارد';
+$string['emailonlyallowed'] = 'این آدرس پست الکترونیک جزء آدرس‌های مجاز ($a) نیست';
+$string['emailpasswordconfirmation'] = 'سلام،
 
-احتمالا شما درخواست&#1740; برا&#1740; تغ&#1740;&#1740;ر رمز ورود حساب کاربر&#1740;تان در
-\'$a->sitename\' داده ا&#1740;د.
+شخصی (احتمالاً خودتان) تقاضای دریافت یک رمز ورود جدید برای حساب کاربری شما
+در «{$a->sitename}» را نموده است.
 
-برا&#1740; تا&#1740;&#1740;د ا&#1740;ن مسئله وارسال رمز ورود جد&#1740;د برا&#1740; شما به ل&#1740;نک ز&#1740;ر برو&#1740;د
-$a->link  
+برای تایید کردن این تقاضا و دریافت یک رمز ورود جدید از طریق پست الکترونیک،
+به آدرس اینترنتی زیر بروید:
 
-دراکثر برنامه ها&#1740; پست الکترون&#1740;ک ا&#1740;ن ل&#1740;نک بصورت آب&#1740; نشان داده م&#1740; شود.
-اگر ا&#1740;نحالت ن&#1740;ست ا&#1740;ن آدرس را در محل آدرس مرورگر کپ&#1740; کن&#1740;د.
+$a->link
 
-اگر به کمک احت&#1740;اج دار&#1740;د با مد&#1740;ر سا&#1740;ت تماس بگ&#1740;ر&#1740;د.
+در اکثر برنامه‌های پست الکترونیک، آدرس فوق باید به صورت یک پیوند آبی رنگ
+نمایش داده شده باشد که می‌توانید بر روی آن کلیک کنید. اگر به این صورت نبود،
+کافیست که آدرس مورد نظر را در نوار آدرس واقع در قسمت بالای پنجرهٔ
+مرورگر خود کپی نمائید.
+
+در صورت نیاز به کمک، لطفاً با مدیر سایت تماس بگیرید،
 $a->admin';
-$string['emailpasswordconfirmationsubject'] = '$a: تا&#1740;&#1740;د تغ&#1740;&#1740;ر رمز ورو';
-$string['emailpasswordconfirmsent'] = '&#1740;ک نامه با&#1740;د به آدرس شما در $a فرستاده شده باشد.
-ا&#1740;ن نامه شامل توض&#1740;حات&#1740; برا&#1740; تا&#1740;&#1740;د تغ&#1740;&#1740;ر رمز ورود است.
-اگر باز هم مشکل داشت&#1740;د با مد&#1740;ر سا&#1740;ت تماس بگ&#1740;ر&#1740;د';
-$string['emailpasswordsent'] = 'برا&#1740; تا&#1740;&#1740;د تغ&#1740;&#1740;ر رمز ورود متشکر&#1740;م.
-&#1740;ک نامه که شامل رمز جد&#1740;د شما است به آدرس شما در$a->email فرستاده شده است.
-ممکن است بخواه&#1740;د رمز ورودتان را
-link>تغ&#1740;&#1740;رده&#1740;د.';
-$string['enrolmentconfirmation'] = 'آ&#1740;ا مطمئن هست&#1740;د م&#1740; خواه&#1740;د در ا&#1740;ن درس ثبت نام کن&#1740;د؟';
-$string['enrolmentkey'] = 'کل&#1740;د';
-$string['enrolmentkeyfrom'] = 'ا&#1740;ن درس دارا&#1740; کل&#1740;د است که با&#1740;د از $a در&#1740;افت کن&#1740;د.';
-$string['enrolmentkeyhint'] = 'کل&#1740;د&#1740; که وارد کرد&#1740;د غلط است. لطفا دوباره وارد کن&#1740;د.';
-$string['entercourse'] = 'کل&#1740;ک کن&#1740;د تا وارد درس شو&#1740;د.';
-$string['enteremailaddress'] = 'آدرس الکترون&#1740;ک خود را وارد کن&#1740;د تا رمز ورود شما دوباره تع&#1740;&#1740;ن شود،
-و از طر&#1740;ق پست الکترون&#1740;ک برا&#1740; شما ارسال شود.';
+$string['emailpasswordconfirmationsubject'] = '$a: تایید تغییر رمز ورود';
+$string['emailpasswordconfirmmaybesent'] = '<p>اگر یک نام کاربری یا آدرس پست الکترونیک صحیح را وراد کرده باشید، یک نامهٔ الکترونیکی باید به شما ارسال شده باشد.</p>
+   <p>این نامه محتوی دستورالعمل‌های ساده‌ای برای تایید و تکمیل تعویض رمز ورود است.
+اگر مشکل شما همچنان برقرار بود، لطفاً با مدیر سایت تماس بگیرید.</p>';
+$string['emailpasswordconfirmsent'] = 'باید نامه‌ای به آدرس شما در <b>$a</b> فرستاده شده باشد.
+<br />این نامه شامل دستورالعمل‌های ساده‌ای برای تایید و تکمیل عوض شدن رمز ورود است.
+اگر همچنان با مشکل مواجه می‌شوید، با مدیر سایت تماس بگیرید.';
+$string['emailpasswordchangeinfo'] = 'سلام،
+
+شخصی (احتمالاً خودتان) تقاضای دریافت یک رمز ورود جدید برای حساب کاربری شما
+در «{$a->sitename}» را نموده است.
+
+برای تغییر رمز ورود خود، لطفاً با آدرس اینترنتی زیر بروید:
+
+$a->link
+
+در اکثر برنامه‌های پست الکترونیک، آدرس فوق باید به صورت یک پیوند آبی رنگ
+نمایش داده شده باشد که می‌توانید بر روی آن کلیک کنید. اگر به این صورت نبود،
+کافیست که آدرس مورد نظر را در نوار آدرس واقع در قسمت بالای پنجرهٔ
+مرورگر خود کپی نمائید.
+
+در صورت نیاز به کمک، لطفاً با مدیر سایت تماس بگیرید،
+$a->admin';
+$string['emailpasswordchangeinfodisabled'] = 'سلام،
+
+شخصی (احتمالاً خودتان) تقاضای دریافت یک رمز ورود جدید برای حساب کاربری شما
+در «{$a->sitename}» را نموده است.
+
+متأسفانه حساب کاربری شما در این سایت غیرفعال است و امکان بازنشانی ندارد.
+لطفاً با مدیر سایت تماس بگیرید،
+$a->admin';
+$string['emailpasswordchangeinfofail'] = 'سلام،
+
+شخصی (احتمالاً خودتان) تقاضای دریافت یک رمز ورود جدید برای حساب کاربری شما
+در «{$a->sitename}» را نموده است.
+
+متأسفانه در این سایت امکان بازنشانی رمزهای ورود وجود ندارد.
+لطفاً با مدیر سایت تماس بگیرید،
+$a->admin';
+$string['emailpasswordchangeinfosubject'] = '$a: اطلاعات مربوط به تغییر رمز ورود';
+$string['emailpasswordsent'] = 'از اینکه تغییر رمز ورود را تایید کرده‌اید متشکریم.
+یک نامهٔ الکترونیکی که شامل رمز ورود جدید شما است به آدرس شما در <b>$a->email</b> فرستاده شده است.<br />
+رمز ورود جدید به صورت خودکار تولید شده است - در صورت تمایل می‌توانید این رمز را
+به عبارت ساده‌تری که راحت‌تر بخاطر سپرده می‌شود <a href=\"$a->link\">تغییر دهید</a>.';
+$string['enable'] = 'فعال‌سازی';
+$string['encryptedcode'] = 'کد رمزگذاری شده';
+$string['enroldate'] = 'محدودهٔ زمانی';
+$string['enrolenddate'] = 'تاریخ پایان';
+$string['enrolenddaterror'] = 'تاریخ انقضای ثبت‌نام نمی‌تواند قبل از شروع آن باشد';
+$string['enrollable'] = 'قابل ثبت‌نام';
+$string['enrolledincourse'] = 'ثبت‌نام در درس «{$a}» صورت گرفت';
+$string['enrolledincourserole'] = 'بعنوان «{$a->role}» در «{$a->course}» ثبت‌نام شد';
+$string['enrolledincoursenot'] = 'در درس «{$a}» ثبت‌نام نشد';
+$string['enrolledincoursenotrole'] = 'ثبت‌نام کردن بعنوان «{$a->role}» در «{$a->course}» با خطا مواجه شد';
+$string['enrollfirst'] = 'قبل از استفاده از فعالیت‌های سایت باید در یکی از درس‌ها ثبت‌نام کرده باشید';
+$string['enrolme'] = 'ثبت‌نام در این درس';
+$string['enrolmentconfirmation'] = 'شما در آستانهٔ ثبت‌نام خود در این درس هستید.<br />آیا مطمئنید که می‌خواهید این کار را انجام دهید؟';
+$string['enrolmentend'] = 'انقضای ثبت‌نام';
+$string['enrolmentkey'] = 'کلید عضویت';
+$string['enrolmentkeyfrom'] = 'این درس یک «کلید ثبت‌نام» لازم دارد - رمزی که فقط یک بار<br />
+از شما پرسیده می‌شود و باید آن را از $a دریافت کرده باشید.';
+$string['enrolmentkeyfromguest'] = 'این درس یک «کلید ثبت‌نام» دارد که بعنوان یک مهمان<br />
+باید هر بار که وارد درس می‌شوید، آن را وارد کنید. این کلید را باید از $a دریافت کرده باشید.';
+$string['enrolmentkeyhint'] = 'کلید ثبت‌نامی که وارد کرده‌اید اشتباه است، لطفاً مجدداً تلاش کنید<br />
+(یک راهنمائی: با «{$a}» شروع می‌شود)';
+$string['enrolmentnew'] = 'ثبت‌نام جدید در $a';
+$string['enrolmentnewuser'] = '«{$a->user}» در درس «{$a->course}» ثبت‌نام شده است';
+$string['enrolmentnointernal'] = 'روش ثبت‌نام دستی در حال حاضر فعال نیست';
+$string['enrolmentnotyet'] = 'متأسفانه امکان دسترسی به این درس تا <br />$a وجود ندارد';
+$string['enrolmentplugins'] = 'پلاگین ثبت‌نام';
+$string['enrolments'] = 'ثبت‌نام ها';
+$string['enrolmentstart'] = 'شروع ثبت‌نام';
+$string['enrolperiod'] = 'مدت ثبت‌نام';
+$string['enrolstartdate'] = 'تاریخ شروع';
+$string['entercourse'] = 'کلیک کنید تا وارد این درس شوید';
+$string['enteremailaddress'] = 'آدرس پست الکترونیک خود را وارد نمائید تا رمز ورود شما بازنشانی شده و 
+و رمز ورود جدید از طریق پست الکترونیک برایتان ارسال شود.   ';
+$string['entries'] = 'ورودی‌ها';
 $string['error'] = 'خطا';
-$string['errortoomanylogins'] = 'ببخش&#1740;د شما از تعداد دفعات مجاز برا&#1740; ورود به سا&#1740;ت گذشته ا&#1740;د لطفا مرورگر خود را درباره باز کن&#1740;د.';
-$string['errorwhenconfirming'] = 'بخاطر وجود خطا&#1740;&#1740; شما هنوز تا&#1740;&#1740;د نشده ا&#1740;د.
-اگر از طر&#1740;ق ل&#1740;نک موجود در پست الکترون&#1740;ک به ا&#1740;نجا آمده ا&#1740;د مطمئن شو&#1740;د 
-مشکل&#1740; ندارد و &#1740;ا آنرا در محل آدرس مرورگر کپ&#1740; کن&#1740;د.';
+$string['errortoomanylogins'] = 'ببخشید، شما از حداکثر دفعات مجاز تلاش برای ورود به سایت تجاوز کردید. مرورگر خود را ببندید و دوباره باز کنید.';
+$string['errorwhenconfirming'] = 'به دلیل وقوع خطائی، هنوز تایید نشده‌اید. اگر با کلیک بر روی پیوندی در یک نامهٔ الکترونیک به اینجا آمده‌اید، اطمینان یابد که خط مربوط به پیوند در نامه شکسته نشده باشد. می‌توانید از کپی کردن و درج آدرس در مرورگر جهت احیای پیوند استفاده نمائید.';
+$string['everybody'] = 'همه';
+$string['executeat'] = 'اجرا در ساعت';
 $string['existing'] = 'موجود';
-$string['existingadmins'] = 'مد&#1740;ران موجود';
+$string['existingadmins'] = 'مدیران موجود';
 $string['existingcourse'] = 'درس موجود';
-$string['existingcourseadding'] = 'اضافه کردن اطلاعات به درس موجود';
-$string['existingcoursedeleting'] = 'حذف کردن درس موجود';
-$string['existingcreators'] = 'ا&#1740;جاد کننده ها&#1740; درس در حال حاضر';
-$string['existingstudents'] = 'دانشجو&#1740;ان&#1740; که ثبت نام کرده اند';
-$string['existingteachers'] = 'معلم ها درحال حاضر';
-$string['feedback'] = 'جواب';
+$string['existingcourseadding'] = 'یکی از درس‌های موجود، با اضافه کردن اطلاعات به آن';
+$string['existingcoursedeleting'] = 'یکی از درس‌های موجود، پس از حذف اولیهٔ آن';
+$string['existingcreators'] = 'ایجاد کننده‌های درس موجود';
+$string['existingstudents'] = 'شاگردان ثبت‌نام شده';
+$string['existingteachers'] = 'اساتید موجود';
+$string['expirynotify'] = 'اخطار خاتمهٔ ثبت‌نام';
+$string['expirynotifyemail'] = 'ثبت‌نام شاگردان زیر دقیقاً بعد از $a->threshold روز منقضی می‌شود:
+
+$a->current
+
+ثبت‌نام شاگردان زیر در کمتر از $a->threshold روز منقضی می‌شود:
+
+$a->past
+
+در صورت تمایل می‌توانید به صفحهٔ زیر بروید و مهلت ثبت‌نام آن‌ها را تمدید نماید:
+$a->extendurl';
+$string['expirynotifystudents'] = 'اخطار به شاگردان';
+$string['expirynotifystudentsemail'] = 'کاربر گرامی، $a->studentstr:
+
+بدین وسیله به اطلاع می‌رسانیم که ثبت‌نام شما در درس $a->course تا $a->threshold روز دیگر منقضی خواهد شد.
+
+جهت کسب هرگونه اطلاعات بیشتر، لطفا با $a->teacherstr تماس بگیرید.';
+$string['expirythreshold'] = 'آستانه';
+$string['explanation'] = 'توضیح';
+$string['extendenrol'] = 'تمدید ثبت‌نام (فردی)';
+$string['groupextendenrol'] = 'تمدید ثبت‌نام (همه)';
+$string['courseenrolstartdate'] = 'تاریخ شروع ثبت‌نام در درس';
+$string['courseenrolenddate'] = 'تاریخ اتمام ثبت‌نام در درس';
+$string['startingfrom'] = 'شروع از';
+$string['extendperiod'] = 'میزان تمدید';
+$string['failedloginattempts'] = '$a->attempts ورود ناموفق از زمان آخرین ورود شما';
+$string['failedloginattemptsall'] = '$a->attempts تلاش ناموفق برای ورود از طریق $a->accounts حساب کاربری';
+$string['feedback'] = 'بازخورد';
+$string['file'] = 'فایل';
 $string['filemissing'] = '$a وجود ندارد';
-$string['files'] = 'فا&#1740;ل';
-$string['filesfolders'] = 'فا&#1740;لها و پوشه ها';
-$string['filloutallfields'] = 'لطفا ف&#1740;لدها&#1740; ا&#1740;ن فرم را پر کن&#1740;د';
-$string['findmorecourses'] = 'پ&#1740;دا کردن درسها&#1740; د&#1740;گر...';
+$string['files'] = 'فایل‌ها';
+$string['filesfolders'] = 'فایل‌ها/فولدرها';
+$string['filloutallfields'] = 'لطفأ همهٔ گزینه‌های این فرم را پر نمائید';
+$string['findmorecourses'] = 'پیدا کردن درس‌های بیشتر...';
+$string['firstdayofweek'] = '6';
 $string['firstname'] = 'نام';
-$string['firsttime'] = 'آ&#1740;ا ا&#1740;ن اول&#1740;ن بار است که ا&#1740;نجا هست&#1740;د؟';
-$string['followingoptional'] = 'ا&#1740;ن موارد اخت&#1740;ار&#1740; هستند';
-$string['followingrequired'] = 'ا&#1740;ن موارد ضرور&#1740; هستند';
-$string['forgotten'] = 'آ&#1740;ا نام کاربر&#1740; &#1740;ا رمز ورود خود را فراموش کرده ا&#1740;د';
-$string['format'] = 'شکل';
-$string['formathtml'] = 'شکل HTML';
-$string['formatplain'] = 'شکل متن&#1740;';
-$string['formatsocial'] = 'شکل اجتماع&#1740;';
-$string['formattext'] = 'شکل مودل';
-$string['formattexttype'] = 'شکلده&#1740;';
-$string['formattopics'] = 'شکل موضوعات';
-$string['formatweeks'] = 'شکل هفتگ&#1740;';
-$string['formatwiki'] = 'شکل و&#1740;ک&#1740;';
+$string['firsttime'] = 'برای اولین بار به این صفحه آمده‌اید؟';
+$string['folder'] = 'پوشه';
+$string['folderclosed'] = 'پوشهٔ بسته';
+$string['folderopened'] = 'پوشهٔ باز';
+$string['followingoptional'] = 'موارد زیر اختیاری هستند';
+$string['followingrequired'] = 'موارد زیر اجباری هستند';
+$string['force'] = 'تحمیل';
+$string['forcedmode'] = 'حالت اجباری';
+$string['forcelanguage'] = 'اجبار زبان';
+$string['forceno'] = 'اجباری نباشد';
+$string['forcepasswordchange'] = 'اجبار به تغییر رمز ورود';
+$string['forcepasswordchangehelp'] = 'هنگام ورود بعدی به کاربر اعلان شود که تغییرش دهد';
+$string['forcepasswordchangenotice'] = 'برای پیش‌روی باید رمز ورود خود را تغییر دهید.';
+$string['forcetheme'] = 'تحمیل پوسته';
+$string['forgotaccount'] = 'رمز ورود را فراموش کرده‌اید؟';
+$string['forgotten'] = 'نام کاربری و یا رمز ورود خود را فراموش کرده‌اید؟';
+$string['forgottenduplicate'] = 'آدرس پست الکترونیک برای چند حساب کاربری مشترک است، در عوض لطفاً نام کاربری را وارد نمائید';
+$string['forgotteninvalidurl'] = 'آدرس اینترنتی بازنشانی رمز ورود نامعتبر است';
+$string['format'] = 'قالب';
+$string['formathtml'] = 'قالب HTML';
+$string['formatlams'] = 'قالب درسی LAMS';
+$string['formatmarkdown'] = 'قالب Markdown';
+$string['formatplain'] = 'قالب متنی ساده';
+$string['formatscorm'] = 'قالب SCORM';
+$string['formatsocial'] = 'قالب اجتماعی';
+$string['formattext'] = 'قالب‌بندی خودکار مودل';
+$string['formattexttype'] = 'قالب‌بندی';
+$string['formattopics'] = 'قالب موضوعی';
+$string['formattopicscss'] = 'قالب موضوعی - CSS/بدون جدول';
+$string['formattopicsajax'] = 'قالب موضوعی - AJAX';
+$string['formatweeks'] = 'قالب هفتگی';
+$string['formatweekscss'] = 'قالب هفتگی - CSS/بدون جدول';
+$string['formatwiki'] = 'قالب Wiki مانند';
+$string['framesetinfo'] = 'This frameset document contains:';
 $string['from'] = 'از';
-$string['frontpagecategorynames'] = 'مجموعه موضوعات را نشان بده';
-$string['frontpagecourselist'] = 'مجموعه درسها را نشان بده';
-$string['frontpagedescription'] = 'توص&#1740;ف صفحه اول';
+$string['frontpagecategorycombo'] = 'لیست فشردهٔ طبقه‌ها و درس‌ها';
+$string['frontpagecategorynames'] = 'لیست طبقه‌ها';
+$string['frontpagecourselist'] = 'لیست درس‌ها';
+$string['frontpagedescription'] = 'توصیف صفحهٔ اول';
+$string['frontpagedescriptionhelp'] = 'این توصیف سایت در صفحهٔ اول نمایش داده خواهد شد.';
 $string['frontpageformat'] = 'شکل صفحه اول';
-$string['frontpagenews'] = 'خبرها را نشان بده';
-$string['fulllistofcourses'] = 'تمام درسها';
+$string['frontpageformatloggedin'] = 'قالب صفحهٔ اول هنگامی که کاربر وارد شده است';
+$string['frontpagenews'] = 'موارد خبری';
+$string['frontpagetopiconly'] = 'قسمت سرفصل';
+$string['fulllistofcourses'] = 'همهٔ درس‌ها';
 $string['fullname'] = 'نام کامل';
-$string['fullprofile'] = 'مشخصات شخص&#1740;';
-$string['fullsitename'] = 'نام کامل سا&#1740;ت';
+$string['fullnamedisplay'] = '$a->firstname $a->lastname';
+$string['fullprofile'] = 'مشخصات فردی کامل';
+$string['fullsitename'] = 'نام کامل سایت';
+$string['functiondisabled'] = 'در حال حاضر این کاربرد غیرفعال است';
 $string['gd1'] = 'GD 1.x نصب است';
 $string['gd2'] = 'GD 2.x نصب است';
-$string['gdneed'] = 'GD با&#1740;د نصب شود تا گراف را بب&#1740;ن&#1740;د';
-$string['gdnot'] = ' نصب ن&#1740;ستGD';
-$string['gpl'] = 'Copyright (C) 2001-2003  Martin Dougiamas  (http://dougiamas.com)
+$string['gdneed'] = 'برای دیدن این نمودار GD باید نصب شود';
+$string['gdnot'] = 'GD نصب نیست';
+$string['general'] = 'عمومی';
+$string['gettheselogs'] = 'تهیهٔ این log ها';
+$string['go'] = 'شروع';
+$string['gotoyourserver'] = '(پیوند بازگشت به کارگزار شما)';
+$string['gpl'] = 'حق کپی (C) ۱۹۹۹ به بعد  مارتین دوگیاماس  (http://moodle.com)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+این برنامه یک نرم‌افزار مجانی است؛ می‌توانید آن را بر اساس شرایط
+اجازه‌نامهٔ عمومی همگانی گنو که توسط بنیاد نرم‌افزار آزاد منتشر
+شده‌است، مجدداً توزیع کنید و/یا تغییر دهید؛ هر کدام از نسخه‌های ۲،
+یا (به دلخواه شما) نسخه‌های جدیدتر.
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details:
+این برنامه با امید به مفید بودن، امّا بدون هیچ‌گونه ضمانتی،
+حتی بدون تعهد ضمنی مبنی بر قابل داد و ستد بودن یا مناسب بودن
+برای یک منظور خاص، توزیع شده است.
 
-http://www.gnu.org/copyleft/gpl.html';
+برای مشاهدهٔ جزئیات کامل صفحهٔ اطلاعات اجازه‌نامهٔ مودل را ببینید:
+http://docs.moodle.org/en/License';
 $string['grade'] = 'نمره';
-$string['grades'] = 'نمره ها';
-$string['guestskey'] = 'به مهمانها&#1740;&#1740; که کل&#1740;د را دارند اجازه ورود داده شود.';
-$string['guestsno'] = 'به مهمانها اجازه ورود داده نشود';
-$string['guestsnotallowed'] = 'ببخش&#1740;د, \'$a\' به مهمانها اجازه ورود نم&#1740; دهد.';
-$string['guestsyes'] = 'به مهمانها اجازه ورود داده شود حت&#1740; بدون کل&#1740;د';
+$string['grades'] = 'نمره‌ها';
+$string['group'] = 'گروه';
+$string['groupadd'] = 'ایجاد گروه جدید';
+$string['groupaddusers'] = 'اضافه شدن انتخاب‌شدگان به گروه';
+$string['groupfor'] = 'برای گروه';
+$string['groupinfo'] = 'اطلاعات در بارهٔ گروه انتخاب شده';
+$string['groupinfoedit'] = 'ویرایش تنظیمات گروه';
+$string['groupinfomembers'] = 'اطلاعات در بارهٔ اعضای انتخاب شده';
+$string['groupinfopeople'] = 'اطلاعات در بارهٔ افراد انتخاب شده';
+$string['groupmembers'] = 'اعضای گروه';
+$string['groupmemberssee'] = 'مشاهدهٔ اعضای گروه';
+$string['groupmembersselected'] = 'اعضای گروه انتخاب شده';
+$string['groupmode'] = 'نحوهٔ گروه‌بندی';
+$string['groupmodeforce'] = 'تحمیل نحوهٔ گروه‌بندی';
+$string['groupmy'] = 'گروه من';
+$string['groupnonmembers'] = 'کسانی که در گروهی نیستند';
+$string['groupnotamember'] = 'ببخشید، شما عضوی از آن گروه نیستید';
+$string['grouprandomassign'] = 'گروه‌بندی همه به صورت شانسی';
+$string['groupremove'] = 'حذف گروه انتخاب شده';
+$string['groupremovemembers'] = 'حذف اعضای انتخاب شده';
+$string['groups'] = 'گروه‌ها';
+$string['groupsnone'] = 'بدون گروه‌بندی';
+$string['groupsseparate'] = 'گروه‌های جداگانه';
+$string['groupsvisible'] = 'گروه‌های مرئی';
+$string['guest'] = 'مهمان';
+$string['guestdescription'] = 'مهمان‌ها دارای کمترین امتیازات هستند و معمولاً نمی‌توانند در هیچ قسمتی متنی ارسال کنند.';
+$string['guestskey'] = 'به مهمان‌هایی که کلید را دارند اجازهٔ ورود داده شود';
+$string['guestsno'] = 'به مهمان‌ها اجازهٔ ورود داده نشود';
+$string['guestsnotallowed'] = 'متأسفانه «{$a}» به مهمانان اجازهٔ ورود نمی‌دهد.';
+$string['guestsyes'] = 'به مهمان‌ها بدون سؤال در مورد کلید اجازهٔ ورود داده شود';
 $string['guestuser'] = 'کاربر مهمان';
-$string['guestuserinfo'] = 'ا&#1740;ن &#1740;ک کاربر مخصوص است که اجازه دسترس&#1740; فقط خواندن&#1740; به برخ&#1740; درسها را دارد.';
-$string['help'] = 'راهنما&#1740;&#1740;';
-$string['helpemoticons'] = 'استفاده از آ&#1740;کونها&#1740; احساس';
-$string['helpformatting'] = 'درباره شکلده&#1740; به متن';
-$string['helphtml'] = ' HTMLنحوه نوشتن';
-$string['helpindex'] = 'فهرست تمام فا&#1740;لها&#1740; راهنما';
-$string['helppicture'] = 'نحوه فرستادن تصو&#1740;ر';
-$string['helpquestions'] = 'سئوالات خوب بپرس&#1740;د';
-$string['helpreading'] = 'با دقت بخوان&#1740;د';
-$string['helprichtext'] = 'درباره و&#1740;را&#1740;شگر متن';
-$string['helpsummaries'] = 'درباره ا&#1740;ن خلاصه ها';
-$string['helptext'] = 'نحوه نوشتن متن';
-$string['helpwiki'] = 'wikiنحوه نوشتن متن';
-$string['helpwriting'] = 'با دقت بنو&#1740;س&#1740;د';
-$string['hide'] = 'پنهان کردن';
-$string['hits'] = 'تعداد کل&#1740;ک';
-$string['hitsoncourse'] = 'تعداد کل&#1740;ک $a->coursename توسط $a->username';
-$string['hitsoncoursetoday'] = 'تعداد کل&#1740;ک امروز $a->coursename توسط $a->username';
+$string['guestuserinfo'] = 'این کاربر یک کاربر ویژه است که اجازهٔ دستیابی فقط خواندنی به بعضی از درس‌ها را فراهم می‌کند.';
+$string['healthcenter'] = 'مرکز سلامتی';
+$string['healthnoproblemsfound'] = 'هیچ مشکلی مربوط به سلامتی پیدا نشد!';
+$string['healthproblemsdetected'] = 'مشکلات مربوط به سلامتی پیدا شد!';
+$string['healthproblemsolution'] = 'راه حل مشکل سلامتی';
+$string['healthreturntomain'] = 'ادامه';
+$string['healthsolution'] = 'راه حل';
+$string['help'] = 'راهنما';
+$string['helpemoticons'] = 'استفاده از خندانک‌ها';
+$string['helpformatting'] = 'چگونگی قالب‌بندی متون';
+$string['helpinterestslist'] = 'علایق خود را به صورت جدا شده توسط کاما (,) وارد نمائید';
+$string['helphtml'] = 'نحوهٔ نوشتن html';
+$string['helpindex'] = 'فهرست همهٔ فایل‌های راهنما';
+$string['helppicture'] = 'چگونگی ارسال عکس';
+$string['helpprefix'] = 'راهنمایی،  $a';
+$string['helpprefix2'] = 'راهنمایی دربارهٔ «{$a}»';
+$string['helpquestions'] = 'سؤال‌های خوبی بپرسید';
+$string['helpreading'] = 'با دقت بخوانید';
+$string['helprichtext'] = 'دربارهٔ ویرایشگر HTML';
+$string['helpsummaries'] = 'دربارهٔ این خلاصه‌ها';
+$string['helptext'] = 'نحوهٔ نوشتن متن';
+$string['helpwiththis'] = 'راهنمایی در این مورد';
+$string['helpwiki'] = 'نحوهٔ نوشتن متن ویکی مانند';
+$string['helpwriting'] = 'با دقت بنویسید';
+$string['hiddenassign'] = 'انتصاب پنهانی';
+$string['hiddensections'] = 'قسمت‌های پنهان';
+$string['hiddensectionscollapsed'] = 'قسمت‌های پنهان به صورت سربسته نمایش داده شوند';
+$string['hiddensectionsinvisible'] = 'قسمت‌های پنهان کاملاً نامرئی باشند';
+$string['hide'] = 'پنهان';
+$string['hideadvancedsettings'] = 'پنهان کردن تنظیمات پیشرفته';
+$string['hidepicture'] = 'پنهان کردن تصویر';
+$string['hidesection'] = 'پنهان کردن قسمت $a';
+$string['hidesettings'] = 'پنهان کردن تنظیمات';
+$string['hits'] = 'مراجعه‌ها';
+$string['hitsoncourse'] = 'دفعات مراجعهٔ $a->username به $a->coursename';
+$string['hitsoncoursetoday'] = 'مراجعه‌های امروز $a->username به $a->coursename';
 $string['home'] = 'خانه';
 $string['hour'] = 'ساعت';
 $string['hours'] = 'ساعت';
-$string['howtomakethemes'] = 'ا&#1740;جاد زم&#1740;نه جد&#1740;د؟';
-$string['htmleditor'] = '(و بعد از آن. IE 5.5 فقط برا&#1740;) HTML استفاده از و&#1740;را&#1740;شگر متن&#1740;  ';
-$string['htmleditoravailable'] = 'و&#1740;را&#1740;شگر Richtext فعال است';
-$string['htmleditordisabled'] = 'شما و&#1740;را&#1740;شگر Richtext را در فرم مشخصات خود غ&#1740;رفعال کرده ا&#1740;د';
-$string['htmleditordisabledadmin'] = 'مد&#1740;ر و&#1740;را&#1740;شگر Richtext را غ&#1740;رفعال کرده است';
-$string['htmleditordisabledbrowser'] = 'و&#1740;را&#1740;شگر Richtext فعال ن&#1740;ست چون از  Internet Explorer 5.5 و &#1740;ا بهتر استفاده نم&#1740; کن&#1740;د';
-$string['htmlformat'] = 'ز&#1740;با HTML شکل';
-$string['icqnumber'] = 'ICQ شماره';
-$string['idnumber'] = 'شماره شناسه';
-$string['include'] = 'اضافه کردن';
-$string['includeallusers'] = 'تمام کاربران را شامل کن&#1740;د.';
-$string['includecoursefiles'] = 'فا&#1740;لها&#1740; درس شامل شوند';
-$string['includecourseusers'] = 'کاربران ا&#1740;ن درس شامل شوند';
-$string['included'] = 'اضافه شد';
-$string['includelogentries'] = 'موارد ثبت شده شامل شوند';
-$string['includeneededusers'] = 'کاربران لازم شامل شوند';
-$string['includeuserfiles'] = 'فا&#1740;لها&#1740; کاربران شامل شوند';
-$string['invalidemail'] = 'آدرس پست الکترون&#1740;ک نامعتبر';
-$string['invalidlogin'] = 'ورود غ&#1740;ر معتبر لطفا دوباره سع&#1740; کن&#1740;د';
-$string['jumpto'] = 'پر&#1740;دن به...';
-$string['langltr'] = 'چپ به راست';
-$string['langrtl'] = 'راست به چپ';
+$string['howtomakethemes'] = 'نحوهٔ ایجاد پوسته‌های جدید';
+$string['htmleditor'] = 'از ویرایشگر HTML استفاده شود (فقط بعضی از مرورگرها)';
+$string['htmleditoravailable'] = 'ویرایشگر HTML فعال است';
+$string['htmleditordisabled'] = 'شما ویرایشگر HTML را در مشخصات فردی خود غیرفعال کرده‌اید';
+$string['htmleditordisabledadmin'] = 'مدیر ویرتیشگر HTML را در این سایت غیرفعال کرده است';
+$string['htmleditordisabledbrowser'] = 'ویرایشگر HTML غیرفعال است زیرا با مرورگر شما سازگار نیست';
+$string['htmlfilesonly'] = 'فقط فایل‌های HTML';
+$string['htmlformat'] = 'قالب آراستهٔ HTML';
+$string['icqnumber'] = 'شمارهٔ ICQ';
+$string['idnumber'] = 'کد شناسائی';
+$string['idnumbermod'] = 'شمارهٔ شناسائی';
+$string['idnumbercourse'] = 'کد درس';
+$string['idnumbertaken'] = 'این کد شناسائی قلباً استفاده شده است';
+$string['imagealt'] = 'توصیف عکس';
+$string['import'] = 'وارد کردن';
+$string['importactivities'] = 'وارد کردن فعالیت‌ها از یک درس دیگر';
+$string['importdata'] = 'ورود داده‌های درس';
+$string['importdataexported'] = 'صدور اطلاعات از درس «مبدأ» با موفقیت انجام شد.<br />در ادامه، اطلاعات در درس «مقصد» وارد می‌شود.';
+$string['importdatafinished'] = 'ورود اطلاعات تمام شد! با ورود به درس خود ادامه دهید';
+$string['importdatafrom'] = 'درسی برای وارد کردن اطلاعات از آن انتخاب کنید:';
+$string['importgroups'] = 'وارد کردن گروه‌ها';
+$string['importmetacoursenote'] = 'از این فرم برای اضافه کردن درس‌هایی به فرادرس خود استفاده کنید (با این کار عضویت‌ها وارد می‌شوند)';
+$string['inactive'] = 'غیرفعال';
+$string['include'] = 'شامل';
+$string['includeallusers'] = 'شامل همهٔ کاربران';
+$string['includecoursefiles'] = 'شامل فایل‌های درس';
+$string['includecourseusers'] = 'شامل کاربران درس';
+$string['included'] = 'شامل شده است';
+$string['includelogentries'] = 'شامل اقلام log';
+$string['includemodules'] = 'شامل ماژول‌ها شوند';
+$string['includemoduleuserdata'] = 'شامل داده‌های کاربران در ماژول‌ها شوند';
+$string['includeneededusers'] = 'شامل کاربران لازم';
+$string['includenoneusers'] = 'شامل هیچ کاربری نشود';
+$string['includeroleassignments'] = 'شامل نقش‌های افراد';
+$string['includesitefiles'] = 'شامل فایل‌های سایت که در این درس استفاده شده‌اند';
+$string['includeuserfiles'] = 'شامل فایل‌های کاربران';
+$string['info'] = 'توضیحات';
+$string['institution'] = 'مؤسسه';
+$string['instudentview'] = 'از دید شاگرد';
+$string['interests'] = 'علایق';
+$string['interestslist'] = 'لیست علایق';
+$string['invalidemail'] = 'آدرس پست الکترونیک نامعتبر';
+$string['invalidlogin'] = 'ورود نامعتبر، لطفاً دوباره سعی کنید.';
+$string['ip_address'] = 'آدرس IP';
+$string['jump'] = 'پرش';
+$string['jumpto'] = 'رفتن به...';
+$string['keep'] = 'نگهداری';
+$string['keepsearching'] = 'به جستجو ادامه دهید';
+$string['langltr'] = 'جهت زبان از چپ به راست';
+$string['langrtl'] = 'جهت زبان از راست به چپ';
 $string['language'] = 'زبان';
-$string['languagegood'] = 'ا&#1740;ن بسته مربوط به زبان بروز است :-)';
-$string['lastaccess'] = 'زمان آخر&#1740;ن دسترس&#1740; ';
-$string['lastedited'] = 'آخر&#1740;ن و&#1740;را&#1740;ش در';
-$string['lastmodified'] = 'آخر&#1740;ن تغ&#1740;&#1740;ر در';
-$string['lastname'] = 'نام خانوادگ&#1740;';
-$string['latestlanguagepack'] = 'جد&#1740;دتر&#1740;ن بسته مربوط به زبان moodle.org';
-$string['latestnews'] = 'آخر&#1740;ن اخبار';
-$string['leavetokeep'] = 'برا&#1740; نگهداشتن رمز ورود کنون&#1740; خال&#1740; بماند';
-$string['license'] = 'GPL License';
-$string['list'] = 'ل&#1740;ست';
-$string['listfiles'] = 'ل&#1740;ست فا&#1740;لها در $a';
-$string['listofallpeople'] = 'ل&#1740;ست تمام افراد';
-$string['livelogs'] = 'موارد ثبت شده در &#1740;ک ساعت اخ&#1740;ر';
-$string['locale'] = 'en.UTF-8';
+$string['languagegood'] = 'بستهٔ زبانی به‌روز است! :-)';
+$string['lastaccess'] = 'زمان آخرین دسترسی';
+$string['lastedited'] = 'آخرین ویرایش';
+$string['lastlogin'] = 'زمان آخرین ورود';
+$string['lastmodified'] = 'آخرین تغییر';
+$string['lastname'] = 'نام خانوادگی';
+$string['lastyear'] = 'سال گذشته';
+$string['latestlanguagepack'] = 'بررسی جدیدترین بستهٔ زبانی در moodle.org';
+$string['latestnews'] = 'جدیدترین خبرها';
+$string['layouttable'] = 'جدول صفحه آرائی';
+$string['leavetokeep'] = 'برای حفظ رمز ورود فعلی، این قسمت را خالی بگذارید';
+$string['license'] = 'اجازه‌نامهٔ عمومی همگانی گنو (GPL)';
+$string['liketologin'] = 'آیا مایلید که هم‌اکنون با یک جساب کاربری کامل وارد شوید؟';
+$string['list'] = 'لیست محتوا';
+$string['listfiles'] = 'لیست فایل‌های داخل $a';
+$string['listofallpeople'] = 'لیست همهٔ افراد';
+$string['livelogs'] = 'نمایش زندهٔ log ها از ساعت قبل';
+$string['local'] = 'محلی';
+$string['locale'] = 'fa_IR.UTF-8';
 $string['location'] = 'مکان';
-$string['loggedinas'] = 'شما بعنوان $a وارد سا&#1740;ت شده ا&#1740;د  ';
-$string['loggedinnot'] = 'هنوز وارد سا&#1740;ت نشده ا&#1740;د';
-$string['login'] = 'ورود به سا&#1740;ت';
+$string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
+$string['loggedinas'] = 'شما بعنوان $a وارد سایت شده‌اید';
+$string['loggedinasguest'] = 'در حال حاضر از دسترسی مهمان استفاده می‌کنید';
+$string['loggedinnot'] = 'هنوز وارد سایت نشده‌اید.';
+$string['login'] = 'ورود به سایت';
+$string['login_failure_logs'] = 'Log های مربوط به عدم موفقیت در ورود';
+$string['loginalready'] = 'در حال حاضر شما وارد سایت هستید';
 $string['loginas'] = 'ورود بعنوان';
-$string['loginguest'] = 'ورود به سا&#1740;ت بعنوان مهمان';
-$string['loginsite'] = 'ورود به سا&#1740;ت';
-$string['loginsteps'] = 'سلام، برا&#1740; دسترس&#1740; کامل به درسها با&#1740;د &#1740;ک حساب کاربر&#1740; ا&#1740;جاد کن&#1740;د.
-درز&#1740;ر مراحل ا&#1740;ن کار توض&#1740;ح داده شده است:
-   
-   فرم حساب جد&#1740;د را با اطلاعات خود کامل کن&#1740;د.
-   &#1740;ک نامه سر&#1740;عا به آدرس الکترون&#1740;ک شما ارسال م&#1740; شود.
-   نامه را بخوان&#1740;د و رو&#1740; ل&#1740;نک کل&#1740;ک کن&#1740;د.
-   حساب شما تا&#1740;&#1740;د شده و م&#1740; توان&#1740;د وارد سا&#1740;ت شو&#1740;د.
-   حالا درس&#1740; که م&#1740; خواه&#1740;د در آن شرکت کن&#1740;د انتخاب کن&#1740;د.
-   اگر از شما \"کل&#1740;د\" خواسته شد، از کل&#1740;د&#1740; که از
-   معلمتان گرفته ا&#1740;د استفاده کن&#1740;د. ا&#1740;ن کل&#1740;د شما را\"وارد\" درس م&#1740; کند.
-   
-   پس از ط&#1740; مراحل فوق شما دسترس&#1740; کامل به درس مورد نظر خواه&#1740;د داشت.
-    پس از ا&#1740;ن هر موقع وارد سا&#1740;ت شد&#1740;د با وارد کردن نام کاربر و رمز ورود در ا&#1740;ن صفحه 
-    وارد سا&#1740;ت شده و در دروس&#1740; که ثبت نام شده ا&#1740;د شرکت م&#1740; کن&#1740;د. 
-   ';
-$string['loginstepsnone'] = 'سلامبرا&#1740; دسترس&#1740; کامل به درسها با&#1740;د 
-&#1740;ک حساب کاربر&#1740; ا&#1740;جاد کن&#1740;د.تنها کار&#1740; که با&#1740;د انجام ده&#1740;د ا&#1740;نستکه &#1740;ک نام کاربر&#1740; و رمز برا&#1740; خود ا&#1740;جاد و آنرا 
-در ا&#1740;ن صفحه استفاده کن&#1740;د.اگر فرد د&#1740;گر&#1740; نام کاربر&#1740; شما را انتخاب کرده باشد 
-با&#1740;د &#1740;ک نام د&#1740;گر برا&#1740; خود انتخاب کن&#1740;د.';
+$string['loginaspasswordexplain'] = '<p>برای استفاده از این ویژگی باید «رمز ورود بعنوان» ویژه را وارد نمائید.<br />اگر آن را نمی‌دانید، از مدیر کارگزار خود بپرسید.</p>';
+$string['loginguest'] = 'ورود به سایت بعنوان مهمان';
+$string['loginsite'] = 'ورود به سایت';
+$string['loginsteps'] = 'سلام! برای داشتن دسترسی کامل به درس‌ها، باید
+برای خود یک حساب کاربری در سایت ایجاد نمائید.   
+بعضی از درس‌ها ممکن است یک «کلید ثبت‌نام» نیز داشته باشند   
+که فعلاً نیازی به آن ندارید. مراحل ایجاد حساب کاربری   
+بدین صورت است:   
+   <ol>
+   <li>مشخصات خود را در فرم <a href=\"$a\">حساب کاربری جدید</a> وارد نمائید.</li>
+   <li>یک نامه به آدرس پست الکترونیک شما ارسال خواهد شد.</li>
+   <li>نامه را بخوانید و بر روی پیوندی که در آن وجود دارد کلیک نمائید.</li>
+   <li>حساب کاربری شما تایید شده و وارد سایت خواهید شد.</li>
+   <li>حال، درسی که مایلید در آن شرکت کنید را انتخاب نمائید.</li>
+   <li>اگر از شما درخواست ورود «کلید ثبت‌نام» شد - کلیدی که
+استادتان به شما داده است را وارد نمائید. با این کار در درس «ثبت‌نام»   
+خواهید شد.</li>   
+   <li>حال می‌توانید به کل درس دسترسی داشته باشید. از این پس فقط کافی است
+   که نام کاربری و رمز ورود خود را (در فرم مربوطه در همین صفحه) وارد کنید   
+   تا وارد سایت شوید و به درس‌هایی که در آن‌ها ثبت‌نام شده‌اید دسترسی داشته باشید.</li>   
+   </ol>';
+$string['loginstepsnone'] = '<p>سلام!</p>
+<p>جهت دستیابی کامل به درس‌ها باید یک حساب کاربری برای خود ایجاد نمائید.</p>
+<p>تنها کاری که باید انجام دهید در نظر گرفتن یک نام کاربری و رمز ورود و استفاده از آن‌ها در فرم این صفحه است!</p>
+<p>اگر شخص دیگری قبلاً نام کاربری دلخواه شما را انتخاب کرده باشد، مجبورید که نام کاربری دیگری را امتحان کنید.</p>';
 $string['loginto'] = 'ورود به $a';
-$string['loginusing'] = 'با استفاده از نام کاربر&#1740; و رمز ورود وارد شو&#1740;د';
-$string['logout'] = 'خروج از سا&#1740;ت';
-$string['logs'] = 'موارد ثبت شده';
-$string['mainmenu'] = 'منو&#1740; اصل&#1740;';
+$string['loginusing'] = 'با استفاده از نام کاربری و رمز ورود خود وارد سایت شوید';
+$string['logout'] = 'خروج از سایت';
+$string['logoutconfirm'] = 'آیا واقعاً می‌خواهید خارج شوید؟';
+$string['logs'] = 'Log ها';
+$string['logtoomanycourses'] = '[ <a href=\"$a->url\">بیشتر</a> ]';
+$string['logtoomanyusers'] = '[ <a href=\"$a->url\">بیشتر</a> ]';
+$string['lookback'] = 'نگاه به گذشته';
+$string['mailadmins'] = 'آگاه سازی مدیرها';
+$string['mailstudents'] = 'آگاه سازی شاگردها';
+$string['mailteachers'] = 'آگاه سازی اساتید';
+$string['mainmenu'] = 'منوی اصلی';
 $string['makeafolder'] = 'ساخت پوشه';
-$string['makeeditable'] = 'If you make \'$a\' editable by the web server process (eg apache) then you could edit this file directly from this page';
-$string['managedatabase'] = 'پا&#1740;گاه داده';
-$string['managemodules'] = 'ماژولها';
-$string['markedthistopic'] = 'ا&#1740;ن موضوع بعنوان موضوع جار&#1740; مشخص شده است';
-$string['markthistopic'] = 'ا&#1740;ن موضوع را بعنوان موضوع جار&#1740; مشخص کن';
-$string['maximumchars'] = 'کاراکتر $a حداکثر';
-$string['maximumgrade'] = 'حداکثر نمره';
+$string['makeeditable'] = 'در صورتی که «{$a}» را قابل ویرایش توسط برنامهٔ کارگزار وب (مثل Apache) نمائید، مستقیماً از طریق این صفحه قادر به ویرایش این فایل خواهید بود';
+$string['manageblocks'] = 'بلوک‌ها';
+$string['managecourses'] = 'مدیریت درس‌ها';
+$string['managedatabase'] = 'پایگاه داده';
+$string['managefilters'] = 'فیلترها';
+$string['managemeta'] = 'آیا این درس یک فرادرس است؟';
+$string['managemetadisabled'] = 'غیر فعال است زیرا این درس هم اکنون در یک فرادرس است';
+$string['managemetaexplan'] = '(یعنی ثبت‌نام‌ها از درس‌های دیگری وارث می‌شوند)';
+$string['managemodules'] = 'ماژول‌ها';
+$string['manageroles'] = 'نقش‌ها و مجوزها';
+$string['markedthistopic'] = 'این موضوع بعنوان موضوع فعلی پررنگ شده است';
+$string['markthistopic'] = 'پررنگ کردن این موضوع بعنوان موضوع فعلی';
+$string['maximumchars'] = 'حداکثر $a حرف';
+$string['maximumgrade'] = 'بالاترین نمره';
 $string['maximumshort'] = 'حداکثر';
-$string['maxsize'] = ' $a حداکثر اندازه:';
-$string['min'] = 'دق&#1740;قه';
-$string['mins'] = 'دق&#1740;قه';
+$string['maximumupload'] = 'حداکثر اندازهٔ فایل ارسالی';
+$string['maxsize'] = 'حداکثر اندازه: $a';
+$string['memberincourse'] = 'افراد موجود در درس';
+$string['messagebody'] = 'متن پیغام';
+$string['messagedselectedusers'] = 'به کاربران انتخاب شده پیغام ارسال شده و لیست دریافت کنندگان بازنشانی شده است.';
+$string['messagedselectedusersfailed'] = 'هنگام ارسال پیغام به کاربران انتخاب شده اشکالی رخ داد. برخی ممکن است نامهٔ الکترونیکی را دریافت کرده باشند.';
+$string['messageselect'] = 'انتخاب این کاربر بعنوان یکی از دریافت کنندگان نامهٔ الکترونیکی';
+$string['messageselectadd'] = 'اضافه کردن / ارسال پیغام';
+$string['metaaddcourse'] = 'اضافه کردن این درس';
+$string['metaalreadycourses'] = 'درس تعیین شده‌است';
+$string['metaalreadyhascourses'] = 'این فرادرس هم‌اکنون دارای درس‌های زیرمجموعه است.';
+$string['metaalreadyhasenrolments'] = 'هم اکنون ثبت‌نام‌های متعارفی در این درس صورت گرفته است.';
+$string['metaalreadyinmeta'] = 'این درس خودش قسمتی از یک فرادرس است.';
+$string['metaassigncourses'] = 'تعیین درس‌ها';
+$string['metacourse'] = 'فرادرس';
+$string['metanoalreadycourses'] = 'هنوز هیچ درسی تعیین نشده است';
+$string['metanopotentialcourses'] = 'هیچ درسی موجود نیست';
+$string['metapotentialcourses'] = 'درس موجود است';
+$string['metaremovecourse'] = 'حذف این درس';
+$string['migratinggrades'] = 'انتقال نمره‌ها';
+$string['min'] = 'دقیقه';
+$string['mins'] = 'دقیقه';
+$string['minutes'] = 'دقیقه';
 $string['miscellaneous'] = 'متفرقه';
-$string['missingcategory'] = 'با&#1740;د &#1740;ک موضوع انتخاب کن&#1740;د';
-$string['missingcity'] = 'شهر را وارد کن&#1740;د';
-$string['missingcountry'] = 'کشور را انتخاب کن&#1740;د';
-$string['missingdescription'] = 'توص&#1740;ف وجود ندارد';
-$string['missingemail'] = 'آدرس الکترون&#1740;ک خود را وارد کن&#1740;د';
-$string['missingfirstname'] = 'نام خود را وارد کن&#1740;د';
-$string['missingfullname'] = 'نام کامل وجود ندارد';
-$string['missinglastname'] = 'نام خانوادگ&#1740; خود را وارد کن&#1740;د';
-$string['missingnewpassword'] = 'رمز جد&#1740;د وجود ندارد';
-$string['missingpassword'] = 'رمز ورود وجود ندارد';
-$string['missingshortname'] = 'نام کوتاه وجود ندارد';
-$string['missingshortsitename'] = 'نام کوتاه سا&#1740;ت وجود ندارد';
-$string['missingsitedescription'] = 'توص&#1740;ف سا&#1740;ت وجود ندارد';
-$string['missingsitename'] = 'نام سا&#1740;ت وجود ندارد';
-$string['missingstrings'] = 'وارس&#1740; برا&#1740; رشته ها&#1740; تعر&#1740;ف نشده';
-$string['missingstudent'] = 'با&#1740;د &#1740;ک مورد انتخاب کن&#1740;د';
-$string['missingsummary'] = 'خلاصه وجود ندارد';
-$string['missingteacher'] = 'با&#1740;د &#1740;ک مورد انتخاب کن&#1740;د';
-$string['missingurl'] = 'URL وجود ندارد';
-$string['missingusername'] = '&#1740;ک نام کاربر&#1740; وجود ندارد';
-$string['modified'] = 'تغ&#1740;&#1740;ر داده شد';
-$string['moduledeleteconfirm'] = 'You are about to completely delete the module \'$a\'.  This will completely delete everything in the database associated with this activity module.  Are you SURE you want to continue?';
-$string['moduledeletefiles'] = 'All data associated with the module \'$a->module\' has been deleted from the database.  To complete the deletion (and prevent the module re-installing itself), you should now delete this directory from your server: $a->directory';
-$string['modulesetup'] = 'تنظ&#1740;م کردن جدولها&#1740; ماژولها';
-$string['modulesuccess'] = '$a جدول بدرست&#1740; تنظ&#1740;م شده اند';
-$string['moodleversion'] = 'نسخه Moodle';
-$string['mostrecently'] = 'اخ&#1740;را';
+$string['missingcategory'] = 'باید یک طبقه انتخاب کنید';
+$string['missingcity'] = 'شهر را وارد کنید';
+$string['missingcountry'] = 'کشور را انتخاب کنید';
+$string['missingdescription'] = 'قسمت توصیف خالی است';
+$string['missingemail'] = 'آدرس پست الکترونیک را وارد کنید';
+$string['missingfirstname'] = 'نام را وارد کنید';
+$string['missingfromdisk'] = 'از روی دیسک پاک شده است';
+$string['missingfullname'] = 'نام کامل وارد نشده است';
+$string['missinglastname'] = 'نام خانوادگی را وارد کنید';
+$string['missingname'] = 'نام وارد نشده است';
+$string['missingnewpassword'] = 'رمز ورود جدید وارد نشده است';
+$string['missingpassword'] = 'رمز ورود را وارد کنید';
+$string['missingrecaptchachallengefield'] = 'مقدار reCAPTCHA وارد نشده است';
+$string['missingreqreason'] = 'دلیلی ارائه نشده است';
+$string['missingshortname'] = 'نام کوتاه وارد نشده است';
+$string['missingshortsitename'] = 'نام کوتاه سایت وارد نشده است';
+$string['missingsitedescription'] = 'توصیف سایت وارد نشده است';
+$string['missingsitename'] = 'نام سایت وارد نشده است';
+$string['missingstrings'] = 'بررسی بمنظور کلمات و عبارات ترجمه نشده';
+$string['missingstudent'] = 'باید چیزی را انتخاب کنید';
+$string['missingsummary'] = 'خلاصه وارد نشده است';
+$string['missingteacher'] = 'باید چیزی را انتخاب کنید';
+$string['missingurl'] = 'آدرس اینترنتی را وارد نکرده‌اید';
+$string['missingusername'] = 'نام کاربری را وارد کنید';
+$string['modified'] = 'آخرین تغییر';
+$string['moduledeleteconfirm'] = 'شما در آستانهٔ حذف کامل ماژول «{$a}» هستید. این کار همهٔ چیزهای مربوط به این ماژول فعالیت را به طور کامل از پایگاه داده پاک می‌کند. آیا مطمئن هستید که می‌خواهد ادامه دهید؟';
+$string['moduledeletefiles'] = 'همهٔ داده‌های مرتبط به ماژول «{$a->module}» از پایگاه داده حذف شدند. جهت تکمیل حذف (و جلوگیری از نصب مجدد)، باید الان این دایرکتوری را از روی کارگزار خود پاک کنید:<br ><span dir=\"ltr\">$a->directory</span>';
+$string['modulesetup'] = 'برپاسازی جدول‌های ماژول';
+$string['modulesuccess'] = 'جدول‌های $a به درستی برپا شدند';
+$string['moodledocs'] = 'اسناد مودل';
+$string['moodledocslink'] = 'اسناد مودل برای این صفحه';
+$string['moodleversion'] = 'نسخهٔ مودل';
+$string['more'] = 'بیشتر';
+$string['moreinformation'] = 'اطلاعات بیشتر در بارهٔ این خطا';
+$string['moreprofileinfoneeded'] = 'لطفاً بیشتر در مورد خودتان برای ما بگویید';
+$string['mostrecently'] = 'آخرین بار در';
 $string['move'] = 'انتقال';
-$string['movecategoryto'] = 'انتقال موضوع به:';
+$string['movecategoryto'] = 'انتقال طبقه به:';
+$string['movecategorycontentto'] = 'انتقال به';
+$string['movecontentstoanothercategory'] = 'انتقال محتویات به یک طبقهٔ دیگر';
 $string['movecourseto'] = 'انتقال درس به:';
-$string['movedown'] = 'انتقال به پا&#1740;&#1740;ن';
-$string['movefilestohere'] = 'انتقال فا&#1740;لها به ا&#1740;نجا';
-$string['movefull'] = 'انتقال $a به ا&#1740;نجا';
-$string['movehere'] = 'انتقال به ا&#1740;نجا';
-$string['moveselectedcoursesto'] = 'انتقال درس انتخاب شده به...';
-$string['movetoanotherfolder'] = 'انتقال به پوشه د&#1740;گر';
+$string['movedown'] = 'انتقال به پائین';
+$string['movefilestohere'] = 'انتقال فایل‌ها به این محل';
+$string['movefull'] = 'انتقال $a به این محل';
+$string['movehere'] = 'انتقال به این محل';
+$string['moveleft'] = 'انتقال به راست';
+$string['moveright'] = 'انتقال به چپ';
+$string['movesection'] = 'انتقال قسمت $a';
+$string['moveselectedcoursesto'] = 'انتقال درس‌های انتخاب شده به...';
+$string['movetoanotherfolder'] = 'به پوشهٔ دیگری منتقل کن';
 $string['moveup'] = 'انتقال به بالا';
-$string['mustconfirm'] = 'با&#1740;د ورود خود را تا&#1740;&#1740;د کن&#1740;د';
-$string['mycourses'] = 'درسها&#1740; من';
+$string['msnid'] = 'شناسهٔ MSN';
+$string['mustchangepassword'] = 'رمز ورود جدید باید نسبت به رمز فعلی متفاوت باشد';
+$string['mustconfirm'] = 'شما نیاز به تایید حساب کاربری خود دارید';
+$string['mycourses'] = 'درس‌های من';
 $string['name'] = 'نام';
+$string['namelams'] = 'LAMS';
+$string['namescorm'] = 'SCORM';
 $string['namesocial'] = 'بخش';
 $string['nametopics'] = 'موضوع';
-$string['nameweeks'] = 'هفته';
-$string['needed'] = 'ن&#1740;از است';
-$string['never'] = 'ه&#1740;چوقت';
-$string['neverdeletelogs'] = 'ه&#1740;چوقت موارد ثبت شده را پاک نکن';
-$string['new'] = 'جد&#1740;د';
-$string['newaccount'] = 'حساب جد&#1740;د';
-$string['newcourse'] = 'درس جد&#1740;د';
-$string['newpassword'] = 'رمز ورود جد&#1740;د';
-$string['newpasswordtext'] = 'سلام $a->firstname,
+$string['nameweeks'] = 'هفتهٔ';
+$string['nameweekscss'] = 'هفتهٔ';
+$string['needed'] = 'لازم';
+$string['never'] = 'هیچوقت';
+$string['neverdeletelogs'] = 'Logها هیچ‌وقت حذف نشوند';
+$string['new'] = 'جدید';
+$string['newaccount'] = 'حساب کاربری جدید';
+$string['newcourse'] = 'یک درس جدید';
+$string['newpassword'] = 'رمز ورود جدید';
+$string['newpasswordfromlost'] = '<strong>توجه:</strong> <strong>رمز ورود فعلی</strong> شما در <strong>دومین</strong> پست الکترونیک از دو پست الکترونیک که بعنوان بخشی از فرآیند بازیابی رمز عبور فراموش‌شده ارسال می‌شوند قرار دارد. قبل از ادامهٔ مراحل، مطمئن شوید که رمز ورود جایگزین را دریافت کرده باشید.';
+$string['newpasswordtext'] = 'سلام،
 
-حساب کاربر&#1740; شما در \'$a->sitename\' بازساز&#1740; شده است
-و &#1740;ک رمز ورود جد&#1740;د موقت&#1740; برا&#1740; شما ا&#1740;جاد شد.
+رمز ورود حساب کاربری شما در «{$a->sitename}» بازنشانی شده
+و یک مقدار جدید موقت برای آن درنظر گرفته شده است.
 
-در حال حاضر اطلاعات شما برا&#1740; ورود به سا&#1740;ت عبارتند از:
-   نام کاربر&#1740;: $a->username
+اطلاعات فعلی مربوط به ورود شما:
+   نام کاربری: $a->username
    رمز ورود: $a->newpassword
 
-برا&#1740; تغ&#1740;&#1740;ر رمز ورود به صفحه ز&#1740;ر برو&#1740;د:
+لطفاً به این صفحه بروید تا رمز ورود خود را تغییر دهید:
    $a->link
 
-دراکثر برنامه ها&#1740; پست الکترون&#1740;ک ا&#1740;ن ل&#1740;نک بصورت آب&#1740; نشان داده م&#1740; شود.
-اگر ا&#1740;نحالت ن&#1740;ست ا&#1740;ن آدرس را در محل آدرس مرورگر کپ&#1740; کن&#1740;د.
+در اکثر برنامه‌های پست الکترونیک، آدرس فوق باید به صورت یک پیوند آبی رنگ
+نمایش داده شده باشد که می‌توانید بر روی آن کلیک کنید. اگر به این صورت نبود،
+کافیست که آدرس مورد نظر را در نوار آدرس واقع در قسمت بالای پنجرهٔ
+مرورگر خود کپی نمائید.
 
-متشکر، از طرف مد&#1740;ر \'$a->sitename\' 
-$a->signoff
-';
-$string['newpicture'] = 'عکس جد&#1740;د';
-$string['newsitem'] = 'مورد خبر&#1740;';
-$string['newsitems'] = 'خبر';
-$string['newsitemsnumber'] = 'تعداد خبر&#1740; که نشان داده شود';
-$string['newuser'] = 'کاربر جد&#1740;د';
-$string['newusers'] = 'کاربران جد&#1740;د';
-$string['next'] = 'سپس';
-$string['no'] = 'خ&#1740;ر';
-$string['nocoursesfound'] = 'ه&#1740;چ درس&#1740; که شامل \'$a\' باشد &#1740;افت نشد.';
-$string['nocoursesyet'] = 'درس&#1740; با ا&#1740;ن موضوع وجود ندارد';
-$string['noexistingadmins'] = 'در حال حاضر مد&#1740;ر&#1740; ن&#1740;ست(ا&#1740;ن &#1740;ک خطا&#1740; جد&#1740; است)';
-$string['noexistingcreators'] = 'در حال حاضر ا&#1740;جاد کننده درس&#1740; ن&#1740;ست';
-$string['noexistingstudents'] = 'در حال حاضر دانشجو&#1740;&#1740; ن&#1740;ست';
-$string['noexistingteachers'] = 'در حال حاضر معلم&#1740; ن&#1740;ست';
-$string['nofilesselected'] = 'فا&#1740;ل&#1740; برا&#1740; باز&#1740;اب&#1740; انتخاب نشده است';
-$string['nofilesyet'] = 'هنوز فا&#1740;ل&#1740; به درس فرستاده نشده';
+با آرزوی سلامتی و موفقیت از طرف مدیر «{$a->sitename}»،
+$a->signoff';
+$string['newpicture'] = 'عکس جدید';
+$string['newsitem'] = 'خبر';
+$string['newsitems'] = 'خبرها';
+$string['newsitemsnumber'] = 'تعداد خبرهایی که نمایش داده می‌شود';
+$string['newuser'] = 'کاربر جدید';
+$string['newusernewpasswordsubj'] = 'حساب کاربری جدید';
+$string['newusernewpasswordtext'] = 'سلام،
+
+یک حساب کاربری جدید در «{$a->sitename}» برای شما ایجاد
+و یک رمز ورود موقت برای آن در نظر گرفته شده است.
+
+اطلاعات مربوط به ورود شما:
+   نام کاربری: $a->username
+   رمز ورود: $a->newpassword
+   (وقتی که برای اولین بار وارد سایت شدید،
+   باید رمز ورود خود را تغییر دهید)
+
+برای شروع استفاده از «{$a->sitename}»، از طریق
+$a->link وارد سایت شوید.
+
+در اکثر برنامه‌های پست الکترونیک، آدرس فوق باید به صورت یک پیوند آبی رنگ
+نمایش داده شده باشد که می‌توانید بر روی آن کلیک کنید. اگر به این صورت نبود،
+کافیست که آدرس مورد نظر را در نوار آدرس واقع در قسمت بالای پنجرهٔ
+مرورگر خود کپی نمائید.
+
+با آرزوی سلامتی و موفقیت از طرف مدیر «{$a->sitename}»،
+$a->signoff';
+$string['newusers'] = 'کاربران جدید';
+$string['newwindow'] = 'پنجرهٔ جدید';
+$string['next'] = 'بعدی';
+$string['nextsection'] = 'قسمت بعد';
+$string['no'] = 'خیر';
+$string['nobody'] = 'هیچ‌کس';
+$string['nochange'] = 'بدون تغییر';
+$string['nocoursesfound'] = 'هیچ درسی که شامل «{$a}» باشد پیدا نشد';
+$string['nocoursesyet'] = 'درسی در این طبقه وجود ندارد';
+$string['nodstpresets'] = 'مدیر سیستم پشتیبانی از تغییر ساعت تابستانی را فعال نکرده است.';
+$string['noexistingadmins'] = 'مدیری وجود ندارد، این یک خطای جدی است و شما هیچوقت نمی‌بایست این پیغام را می‌دید.';
+$string['noexistingcreators'] = 'ایجادکننده‌ای وجود ندارد';
+$string['noexistingstudents'] = 'شاگردی وجود ندارد';
+$string['noexistingteachers'] = 'استادی وجود ندارد';
+$string['nofilesselected'] = 'فایلی بمنظور بازیابی انتخاب نشده است';
+$string['nofilesyet'] = 'هنوز فایلی به درس شما ارسال نشده است';
 $string['nograde'] = 'بدون نمره';
-$string['noimagesyet'] = 'هنوز عکس&#1740; برا&#1740; ا&#1740;ن درس ارسال نشده است';
-$string['nomorecourses'] = 'درس د&#1740;گر&#1740; که تطابق داشته باشد &#1740;افت نشد';
-$string['none'] = 'ه&#1740;چ&#1740;';
-$string['nopotentialadmins'] = 'کس&#1740; که بتواند مد&#1740;ر شود وجود ندارد';
-$string['nopotentialcreators'] = 'کس&#1740; که بتواند درس ا&#1740;جاد کند وجود ندارد';
-$string['nopotentialstudents'] = 'کس&#1740; که بتواند دانشجو شود وجود ندارد';
-$string['nopotentialteachers'] = 'کس&#1740; که بتواند معلم شود وجود ندارد';
-$string['normal'] = 'معمول&#1740;';
-$string['nostudentsyet'] = 'هنوز کس&#1740; در ا&#1740;ن درس ثبت نام نشده است';
-$string['nosuchemail'] = 'چن&#1740;ن آدرس الکترون&#1740;ک&#1740; وجود ندارد';
-$string['notavailable'] = 'در دسترس ن&#1740;ست';
-$string['noteachersyet'] = 'ا&#1740;ن درس هنوز معلم ندارد';
-$string['notenrolled'] = '$a در ا&#1740;ن درس ثبت نام نشده است.';
-$string['noteuserschangednonetocourse'] = 'Note: course users need to be restored when restoring user data. This setting has been changed for you.';
-$string['nothingnew'] = 'از آخر&#1740;ن ورود شما به سا&#1740;ت چ&#1740;ز جد&#1740;د&#1740; ن&#1740;ست';
-$string['notincluded'] = 'اضافه نشده';
-$string['nousersmatching'] = 'No users matching \'$a\' were found';
-$string['nousersyet'] = 'هنوز کاربر&#1740; ن&#1740;ست';
+$string['noimagesyet'] = 'در این درس هیچ عکسی قرار نداده‌اید';
+$string['nologsfound'] = 'هیچ Logی پیدا نشده است';
+$string['nomorecourses'] = 'درس دیگری که تطابق داشته باشد پیدا نشد';
+$string['nomoreidnumber'] = 'به منظور جلوگیری از تلاقی، از idnumber استفاده نمی‌شود';
+$string['none'] = 'هیچ';
+$string['noneditingteacher'] = 'استاد بدون حق ویرایش';
+$string['noneditingteacherdescription'] = 'استادهای بدون حق ویرایش می‌توانند در درس‌ها تدریس کنند و به شاگردان نمره دهند، ولی نمی‌توانند فعالیت‌ها را تغییر دهند.';
+$string['nonstandard'] = 'غیر استاندارد';
+$string['nopendingcourses'] = 'هیچ درسی در انتظار تصویب نیست';
+$string['nopotentialadmins'] = 'کسی که بتواند مدیر باشد وجود ندارد';
+$string['nopotentialcreators'] = 'کسی که بتواند ایجاد کنندهٔ درس باشد وجود ندارد';
+$string['nopotentialstudents'] = 'کسی که بتواند شاگرد باشد وجود ندارد';
+$string['nopotentialteachers'] = 'کسی که بتواند استاد باشد وجود ندارد';
+$string['norecentactivity'] = 'اخیراً فعالیتی انجام نشده است';
+$string['noreplybouncemessage'] = 'شما به یک آدرس پست الکترونیک «no-reply» پاسخ داده‌اید. اگر قصد پاسخ به یکی از مطالب تالارهای گفتگو را داشته‌اید، لطفاً توسط تالارها گفتگوی $a این کار را انجام دهید.
+
+محتوای نامهٔ شما به این صورت است:';
+$string['noreplybouncesubject'] = '$a - نامه‌های الکترونیکی برگشت خورده.';
+$string['noreplyname'] = 'به این نامهٔ الکترونیکی پاسخ ندهید';
+$string['noresults'] = 'بدون نتیجه';
+$string['normal'] = 'عادی';
+$string['normalfilter'] = 'جستجوی معمولی';
+$string['nosite'] = 'درس سایت-تراز پیدا نشد';
+$string['nostatstodisplay'] = 'متأسفانه، داده‌های آماده‌ای برای نمایش وجود ندارد.';
+$string['nostudentsfound'] = '$a پیدا نشد';
+$string['nostudentsingroup'] = 'هنوز شاگردی در این گروه وجود ندارد';
+$string['nostudentsyet'] = 'هنوز شاگردی در این درس ثبت‌نام نشده است';
+$string['nosuchemail'] = 'چنین آدرس الکترونیکی‌ای وجود ندارد';
+$string['notavailable'] = 'قابل دسترسی نیست';
+$string['noteachersyet'] = 'این درس هنوز استاد ندارد';
+$string['notenrollable'] = 'در حال حاضر امکان ثبت‌نام در این درس وجود ندارد.';
+$string['notenrolled'] = '$a در این درس ثبت‌نام نیست.';
+$string['notenrolledprofile'] = 'این مشخصات فردی قابل مشاهده نمی‌باشد زیرا کاربر مورد نظر در این درس ثبت‌نام نیست.';
+$string['noteuserschangednonetocourse'] = '<strong>توجه:</strong> در صورت بازیابی داده‌های کاربر (در فعالیت‌ها، فایل‌ها یا پیغام‌ها) کاربران دری نیز باید بازیابی شوند. این تنظیم برای شما تغییر کرده است.';
+$string['nothingnew'] = 'از آخرین ورود شما به سایت فعالیت جدیدی صورت نگرفته است';
+$string['nothingtodisplay'] = 'چیزی برای نمایش وجود ندارد';
+$string['notice'] = 'اخطار';
+$string['noticenewerbackup'] = 'این فایل پشتیبان توسط مودل $a->backuprelease ($a->backupversion) ایجاد شده است و از مودل مورد استفادهٔ شما که $a->serverrelease ($a->serverversion) می‌باشد جدیدتر است. بازیابی از این فایل ممکن است موجب بی‌ثباتی شود زیرا سازگاری فایل‌های پشتیبان با نسخه‌های قدیمی قابل ضمانت نیست.';
+$string['notifications'] = 'تذکرات';
+$string['notifyloginfailuresmessage'] = '{$a->time}، آدرس IP: {$a->ip}، کاربر: {$a->info}';
+$string['notify'] = 'اخطار';
+$string['notifyloginfailuresmessageend'] = 'این log ها را می‌توانید در $a/course/report/log/index.php?id=1&amp;chooselog=1&amp;modid=site_errors ببینید.';
+$string['notifyloginfailuresmessagestart'] = 'لیست زیر تلاش‌های ناموفقی که از دفعهٔ قبل تا این لحظه برای ورود به $a صورت گرفته است نمایش می‌دهد';
+$string['notifyloginfailuressubject'] = '$a :: اعلان ورودهای ناموفق';
+$string['notincluded'] = 'شامل نشده است';
+$string['notingroup'] = 'متأسفیم، ولی برای دیدن این فعالیت باید جزئی از یک گروه باشید.';
+$string['notpublic'] = 'عمومی نیست!';
+$string['nousersmatching'] = 'کاربری منطبق با «{$a}» پیدا نشد';
+$string['nousersfound'] = 'کاربری پیدا نشد';
+$string['nousersyet'] = 'هنوز کاربری وجود ندارد';
 $string['now'] = 'اکنون';
-$string['numberweeks'] = 'تعداد هفته/موضوعات';
+$string['novalidcourses'] = 'درس معتبری برای نمایش وجود ندارد';
+$string['numattempts'] = '$a تلاش ناموفق برای ورود';
+$string['numberweeks'] = 'تعداد هفته‌ها/سرفصل‌ها';
 $string['numdays'] = '$a روز';
 $string['numhours'] = '$a ساعت';
-$string['numminutes'] = '$a دق&#1740;قه';
-$string['numviews'] = '$a نظر&#1740;ه';
+$string['numletters'] = '$a حرف';
+$string['numminutes'] = '$a دقیقه';
+$string['nummonths'] = '$a ماه';
+$string['numseconds'] = '$a ثانیه';
+$string['numviews'] = '$a بار مطالعه';
 $string['numweeks'] = '$a هفته';
 $string['numwords'] = '$a کلمه';
 $string['numyears'] = '$a سال';
-$string['ok'] = 'تا&#1740;&#1740;د';
-$string['opentoguests'] = 'دسترس&#1740; افراد مهمان';
-$string['optional'] = 'اخت&#1740;ار&#1740;';
-$string['order'] = 'رتبه';
-$string['other'] = 'د&#1740;گر';
-$string['outline'] = 'طرح کل&#1740;';
+$string['ok'] = 'تایید';
+$string['oldpassword'] = 'رمز ورود فعلی';
+$string['olduserdirectory'] = 'این دایرکتوری قدیمی کاربران است و بیش از این مورد نیاز نیست. می‌توانید بدون نگرانی آن را پاک کنید. فایل‌های درون آن به دایرکتوری جدید کاربران کپی شده‌اند.';
+$string['opentoguests'] = 'دسترسی مهمان';
+$string['optional'] = 'اختیاری';
+$string['order'] = 'ترتیب';
+$string['other'] = 'غیره';
+$string['outline'] = 'خلاصه';
+$string['outlinereport'] = 'گزارش اجمالی';
 $string['page'] = 'صفحه';
+$string['pageheaderconfigablock'] = 'پیکربندی یک بلوک در %%fullname%%';
+$string['parentcategory'] = 'ایجاد در طبقهٔ';
+$string['parentcoursenotfound'] = 'درس منشأ پیدا نشد!';
+$string['parentcoursenotmetacourse'] = 'درس منشأ فرادرس نیست!';
+$string['parentfolder'] = 'پوشهٔ مادر';
 $string['participants'] = 'شرکت کنندگان';
+$string['participationratio'] = 'نسبت مشارکت';
+$string['participationreport'] = 'گزارش مشارکت';
 $string['password'] = 'رمز ورود';
-$string['passwordchanged'] = 'رمز ورود تغ&#1740;&#1740;ر کرده است.';
-$string['passwordconfirmchange'] = 'تا&#1740;&#1740;د تغ&#1740;&#1740;ر رمز ورود';
-$string['passwordrecovery'] = 'بله کمک کن&#1740;د من وارد شوم';
-$string['passwordsdiffer'] = 'ا&#1740;ن رمز ورودها با هم فرق دارند';
-$string['passwordsent'] = 'رمز ورود فرستاده شد';
-$string['passwordsenttext'] = '   &#1740;ک نامه به آدرس شما در $a->email فرستاده شد.
-   لطفا نامه را برا&#1740; تغ&#1740;&#1740;ر رمز چک کن&#1740;د
-   شما م&#1740; توان&#1740;د
-   link>رمز ورود را تغ&#1740;&#1740;ر ده&#1740;د.';
+$string['passwordchanged'] = 'رمز ورود تغییر یافته است';
+$string['passwordconfirmchange'] = 'تایید تغییر رمز ورود';
+$string['passwordextlink'] = 'پیوند زیر برای بازیابی رمز ورود فراموش‌شدهٔ شما تهیه شده است. با کلیک بر روی آن از مودل خارج خواهید شد.';
+$string['passwordforgotten'] = 'رمز ورود فراموش شده';
+$string['passwordforgotteninstructions'] = 'ابتدا باید اطلاعات مربوط به شما در پایگاه دادهٔ کاربران پیدا شود. لطفاً نام کاربری <strong>یا</strong> آدرس پست الکترونیک ثبت شدهٔ خود را در محل مناسب وارد نمائید. نیازی به ورود هر دو نیست.';
+$string['passwordnohelp'] = 'کمکی برای پیداکردن رمز ورود فراموش‌شدهٔ شما موجود نیست. لطفاً با مدیر مودل خود تماس بگیرید.';
+$string['passwordrecovery'] = 'بله، کمک کنید وارد سایت شوم';
+$string['passwordsdiffer'] = 'این رمزها با یکدیگر تطابق ندارند';
+$string['passwordsent'] = 'رمز ورود ارسال شده است';
+$string['passwordsenttext'] = '<p>یک نامهٔ الکترونیکی به آدرس شما در «{$a->email} ارسال شده است.</p>
+   <p><b>لطفاً جهت دریافت رمز ورود جدید پست‌های الکترونیک خود را بررسی نمائید.</b></p>
+   <p>رمز ورود جدید به صورت خودکار تولید شده است، در صورت تمایل می‌توانید این رمز را
+به عبارت ساده‌تری که راحت‌تر بخاطر سپرده می‌شود <a href=\"$a->link\">تغییر دهید</a>.</p>   ';
+$string['pathnotexists'] = 'این مسیر در کارگزار شما وجود ندارد!';
+$string['pathslasherror'] = 'مسیر نمی‌تواند با اسلش خاتمه یابد!!';
+$string['paymentinstant'] = 'از دکمهٔ زیر برای پرداخت و ثبت‌نام شدن در درس در ظرف چند دقیقه استفاده نمائید!';
+$string['paymentpending'] = '(<small><b><u>$a</u></b> مورد معلق</small>)';
+$string['paymentrequired'] = 'ثبت‌نام در این درس مستلزم پرداخت شهریه است.';
+$string['payments'] = 'پرداخت‌ها';
+$string['paymentsorry'] = 'از پرداخت شما متشکریم! متأسفانه هنوز پرداخت شما کاملاً پردازش نشده است، و هنوز برای ورود به درس «{$a->fullname}» ثبت‌نام نشده‌اید. لطفاً چند ثانیه بعد برای ورود به درس تلاش نمائید، اما اگر مشکل شما باز هم برقرار بود لطفاً $a->teacher یا مدیر سایت را مطلع نمائید.';
+$string['paymentthanks'] = 'از پرداخت شما متشکریم! هم‌اکنون در درس خود ثبت‌نام شدید:<br />«{$a}»';
 $string['people'] = 'افراد';
-$string['personalprofile'] = 'مشخصات فرد&#1740;';
-$string['phone'] = 'شماره تلفن';
-$string['phpinfo'] = 'PHP info';
-$string['popupwindow'] = 'باز کردن فا&#1740;ل در پنجره جد&#1740;د';
-$string['potentialadmins'] = 'کسان&#1740; که م&#1740; توانند مد&#1740;ر باشند';
-$string['potentialcreators'] = 'کسان&#1740; که م&#1740; توانند درس ا&#1740;جاد کنند';
-$string['potentialstudents'] = 'کسان&#1740; که م&#1740; توانند دانشجو باشند';
-$string['potentialteachers'] = 'کسان&#1740; که م&#1740; توانند معلم شوند';
-$string['preferredlanguage'] = 'زبان';
-$string['preview'] = 'د&#1740;دن';
-$string['previeworchoose'] = 'انتخاب &#1740;ا د&#1740;دن &#1740;ک زم&#1740;نه';
-$string['publicdirectory'] = 'فهرست راهنما&#1740; عموم&#1740;';
-$string['publicdirectory0'] = 'لطفا ا&#1740;ن سا&#1740;ت را منتشر نکن';
-$string['publicdirectory1'] = 'فقط نام سا&#1740;ت را منتشر کن';
-$string['publicdirectory2'] = 'انتشار نام سا&#1740;ت با &#1740;ک ل&#1740;نک';
-$string['publicsitefileswarning'] = 'توجه:فا&#1740;لها&#1740;&#1740; که در ا&#1740;نجا قرار م&#1740; گ&#1740;رند توسط همه قابل دست&#1740;اب&#1740; هستند';
-$string['question'] = 'سئوال';
-$string['readinginfofrombackup'] = 'در حال خواندن اطلاعات پشت&#1740;بان';
+$string['pendingrequests'] = 'تقاضاهای معلق';
+$string['periodending'] = 'خاتمهٔ دوره ($a)';
+$string['personal'] = 'شخصی';
+$string['personalprofile'] = 'مشخصات فردی';
+$string['pictureof'] = 'عکس $a';
+$string['phone'] = 'تلفن';
+$string['phone2'] = 'تلفن همراه';
+$string['phpinfo'] = 'اطلاعات PHP';
+$string['pleaseclose'] = 'لطفاً هم‌اکنون این پنجره را ببندید.';
+$string['plugincheck'] = 'بررسی پلاگین‌ها';
+$string['pluginchecknotice'] = 'جدول‌های زیر ماژول‌ها، بلوک‌ها و فیلترهایی که در مودل فعلی شما تشخیص داده شده‌اند نمایش می‌دهند.
+آن‌ها نشان می‌دهند که کدام پلاگین‌ها استاندارد هستند، و کدام‌ها نیستند. پیش از ادامهٔ ارتقای این مودل، باید همهٔ پلاگین‌های غیر استاندارد بررسی شوند
+و به آخرین نسخه‌های خود ارتقا یابند.';
+$string['pluginsetup'] = 'برپاسازی جدول‌های پلاگین';
+$string['policyaccept'] = 'موافقم و می‌پذیرم';
+$string['policyagree'] = 'برای ادامهٔ استفاده از این سایت باید موافقت خود را با خط مشی آن اعلام کنید. آیا موافقید؟';
+$string['policyagreement'] = 'موافقت با خط مشی سایت';
+$string['policyagreementclick'] = 'مشاهدهٔ موافقت‌نامهٔ خط مشی سایت';
+$string['popup'] = 'واشونده';
+$string['popupwindowname'] = 'پنجرهٔ جدید';
+$string['popupwindow'] = 'باز کردن فایل در پنجرهٔ جدید';
+$string['post'] = 'ارسال';
+$string['posts'] = 'مطالب ارسالی';
+$string['potentialadmins'] = 'کسانی که می‌توانند مدیر باشند';
+$string['potentialcreators'] = 'کسانی که می‌توانند ایجاد کنندهٔ درس باشند';
+$string['potentialstudents'] = 'کسانی که می‌توانند شاگرد باشند';
+$string['potentialteachers'] = 'کسانی که می‌توانند استاد باشند';
+$string['preferences'] = 'ترجیهات';
+$string['preferredcalendar'] = 'تقویم دلخواه';
+$string['preferredlanguage'] = 'زبان دلخواه';
+$string['preferredtheme'] = 'پوستهٔ دلخواه';
+$string['preview'] = 'پیش‌نمایش';
+$string['previewhtml'] = 'پیش‌نمایش قالب HTML';
+$string['previeworchoose'] = 'مشاهدهٔ پیش‌نمایش یا انتخاب کردن یک پوسته';
+$string['previous'] = 'قبلی';
+$string['previoussection'] = 'قسمت قبل';
+$string['primaryadminsetup'] = 'برپاکردن حساب کاربری مدیر';
+$string['profile'] = 'مشخصات فردی';
+$string['profilenotshown'] = 'توصیف شخصی این کاربر تا زمانی که حداقل در یک درس ثبت‌نام شود نمایش داده نخواهد شد.';
+$string['publicdirectory'] = 'فهرست عمومی';
+$string['publicdirectory0'] = 'لطفاً این سایت منتشر نشود';
+$string['publicdirectory1'] = 'فقط نام سایت منتشر شود';
+$string['publicdirectory2'] = 'نام سایت به همراه یک پیوند منتشر شود';
+$string['publicdirectorytitle'] = 'مشاهدهٔ لیست فعلی سایت‌ها';
+$string['publicsitefileswarning'] = 'توجه: فایل‌هایی که اینجا قرار داده می‌شوند، توسط همه قابل دستیابی هستند';
+$string['question'] = 'سؤال';
+$string['questionsinthequestionbank'] = 'سؤال‌هایی در بانک سؤال';
+$string['readinginfofrombackup'] = 'در حال خواندن اطلاعات از پشتیبان';
 $string['readme'] = 'README';
-$string['recentactivity'] = 'فعال&#1740;ت&#1740; که اخ&#1740;را انجام شده';
-$string['registration'] = 'ثبت Moodle';
-$string['registrationemail'] = 'Email notifications';
-$string['registrationinfo'] = 'This page allows you to register your Moodle site with moodle.org.  Registration is free.
-The main benefit of registering is that you will be added to a low-volume mailing list 
-for important notifications such as security alerts and new releases of Moodle.
-By default, your information will be kept private, and will never be sold or passed on to anyone else.  The only 
-   reason for collecting this information is for support purposes, and to help build up a statistical 
-   picture of the Moodle community as a whole.
-If you choose, you can allow your site name, country and URL to be added to the public list of Moodle Sites.
-All new registrations are verified manually before they are added to the list, but once you are added you can update your registration (and your entry on the public list) at any time by resubmitting this form.';
-$string['registrationno'] = 'نه من نم&#1740; خواهم نامه در&#1740;افت کنم.';
-$string['registrationsend'] = 'ارسال اطلاعات ثبت نام به moodle.org';
-$string['registrationyes'] = 'بله، من را از موضوعات مهم مطلع کن';
-$string['removeadmin'] = 'حذف مد&#1740;ر';
-$string['removecreator'] = 'حذف ا&#1740;جاد کننده درس';
-$string['removestudent'] = 'حذف دانشجو';
-$string['removeteacher'] = 'حذف';
-$string['rename'] = 'تغ&#1740;&#1740;ر نام';
-$string['renamefileto'] = 'تغ&#1740;&#1740;ر نام $a به';
+$string['recentactivity'] = 'فعالیت‌های اخیر';
+$string['recentactivityreport'] = 'گزارش کامل فعالیت‌های اخیر...';
+$string['recipientslist'] = 'لیست دریافت کنندگان';
+$string['recreatedcategory'] = 'دستهٔ $a دوباره ایجاد شد';
+$string['refreshingevents'] = 'تازه‌سازی رویدادها';
+$string['refresh'] = 'تازه‌سازی';
+$string['registration'] = 'ثبت مودل';
+$string['registrationcontact'] = 'تماس از عموم';
+$string['registrationcontactno'] = 'خیر، فرمی برای تماس گرفتن با من در لیست سایت نباشد';
+$string['registrationcontactyes'] = 'بله، فرمی به منظور تماس با من برای مودل‌کارهای آینده فراهم شود';
+$string['registrationemail'] = 'اطلاع‌رسانی توسط پست الکترونیک';
+$string['registrationinfo'] = '<p>این صفحه امکان ثبت سایت شما در moodle.org را فراهم می‌کند. مراحل ثبت کاملاً رایگان است.
+مزیت اصلی ثبت کردن، این است که شما به یک لیست پستی کم ترافیک برای اطلاع از ابلاغات مهمی
+مانند خطرهای امنیتی و انتشار نسخه‌های جدید مودل اضافه خواهید شد.</p>
+<p>به صورت پیش‌فرض، اطلاعات شما محرمانه خواهد بود، و هرگز به کسی فروخته یا ارائه نخواهد شد.
+تنها دلیل جمع‌آوری این اطلاعات اهداف پشتیبانی، و کمک به ایجاد   
+یک تصویر آماری از اجتماع مودل به صورت کلی است.</p>
+<p>در صورت تمایل، می‌توانید اجازه دهید که نام سایت، کشور و آدرس آینترنتی سایتتان به لیست عمومی سایت‌های مودل اضافه شود.</p>
+<p>تمام تقاضاهای ثبت جدید قبل از اضافه شدن به لیست، به صورت دستی تایید می‌شوند، ولی وقتی که اضافه شدید هر زمان که بخواهید می‌توانید اطلاعات مربوط به سایت خود را با ارائه مجدد این فرم به‌روز نمائید.</p>';
+$string['registrationno'] = 'خیر، من مایل به دریافت پست الکترونیک نیستم';
+$string['registrationsend'] = 'ارسال اطلاعات ثبت به moodle.org';
+$string['registrationyes'] = 'بله، لطفاً من را از مسائل مهم مطلع کن';
+$string['reject'] = 'رد';
+$string['rejectdots'] = 'رد...';
+$string['reload'] = 'بررسی مجدد';
+$string['remoteappuser'] = 'کاربر $a خارجی';
+$string['remove'] = 'حذف';
+$string['removeadmin'] = 'حذف مدیر';
+$string['removecreator'] = 'حذف ایجاد کنندهٔ درس';
+$string['removestudent'] = 'حذف شاگرد';
+$string['removeteacher'] = 'حذف استاد';
+$string['rename'] = 'تغییر نام';
+$string['renamefileto'] = 'تغییر نام <b>$a</b> به';
+$string['report'] = 'گزارش';
+$string['reports'] = 'گزارش‌ها';
+$string['requestcourse'] = 'درخواست ایجاد یک درس';
+$string['requestedby'] = 'متقاضی';
+$string['requestreason'] = 'دلیل درخواست درس';
 $string['required'] = 'لازم است';
-$string['requireskey'] = 'ا&#1740;ن درس به کل&#1740;د احت&#1740;اج دارد';
-$string['resortcoursesbyname'] = 'مرتب کردن درسها بر اساس نام';
+$string['requireskey'] = 'برای ورود به این درس باید کلید ثبت‌نام را وارد نمائید';
+$string['requirespayment'] = 'دستیابی به این درس مستلزم پرداخت شهریه است';
+$string['reset'] = 'بازنشانی';
+$string['resetcomponent'] = 'مؤلفه';
+$string['resettask'] = 'وظیفه';
+$string['resetnotimplemented'] = 'بازنشانی پیاده‌سازی نشده است';
+$string['resetstatus'] = 'وضعیت';
+$string['resetcourse'] = 'بازنشانی درس';
+$string['resetinfo'] = 'این صفحه به شما امکان خالی کردن یک درس از اطلاعات کاربران، با حفظ فعالیت‌ها و تنظیمات دیگر، را می‌دهد. لطفاً مراقب باشید که با انتخاب موارد زیر و ارسال این صفحه اطلاعات انتخاب شدهٔ مربوط به کاربران را برای همیشه از این درس پاک خواهید کرد!';
+$string['resetstartdate'] = 'تغییر تاریخ شروع';
+$string['resettodefaults'] = 'بازگشت به مقادیر پیش‌فرض';
+$string['resortcoursesbyname'] = 'مرتب‌سازی درس‌ها به ترتیب نام';
+$string['resource'] = 'منبع';
 $string['resources'] = 'منابع';
-$string['restore'] = 'برگشت به حالت اول';
-$string['restorecancelled'] = 'باز&#1740;اب&#1740; لغو شد';
-$string['restorecoursenow'] = 'ا&#1740;ن درس را هم اکنون باز&#1740;اب&#1740; کن';
-$string['restorefinished'] = 'باز&#1740;اب&#1740; با موفق&#1740;ت به اتمام رس&#1740;د';
-$string['restoreto'] = 'باز&#1740;اب&#1740; به';
-$string['returningtosite'] = 'برگشت به سا&#1740;ت';
-$string['revert'] = 'برگشت';
+$string['restore'] = 'بازیابی';
+$string['restorecancelled'] = 'فرآیند بازیابی لغو شد';
+$string['restorecoursenow'] = 'شروع بازیابی این درس';
+$string['restorefinished'] = 'بازیابی با موفقیت انجام شد.';
+$string['restoreto'] = 'بازیابی در';
+$string['restricted'] = 'محدود';
+$string['restrictmodules'] = 'محدود کردن ماژول‌های فعالیت؟';
+$string['returningtosite'] = 'قبلاً در این وب‌سایت بوده‌اید؟';
+$string['revert'] = 'بازگردانی تغییرات';
 $string['role'] = 'نقش';
-$string['savechanges'] = 'تغ&#1740;&#1740;رات ذخ&#1740;ره شود';
-$string['scale'] = 'مق&#1740;اس';
-$string['scales'] = 'مق&#1740;اسها';
-$string['scalescustom'] = 'ساخت مق&#1740;اس';
-$string['scalescustomcreate'] = 'اضافه کردن مق&#1740;اس جد&#1740;د';
-$string['scalescustomno'] = 'هنوز مق&#1740;اس جد&#1740;د&#1740; ا&#1740;جاد نشده است';
-$string['scalesstandard'] = 'مق&#1740;اسها&#1740; استاندارد';
+$string['rolemappings'] = 'نگاشت نقش‌ها';
+$string['rolerenaming'] = 'تغییرنام نقش‌ها';
+$string['roles'] = 'نقش‌ها';
+$string['rss'] = 'RSS';
+$string['rssarticles'] = 'تعداد موارد جدید در RSS';
+$string['rsserror'] = 'خواندن اطلاعات RSS با خطا مواجه شد';
+$string['rsstype'] = 'RSS feed برای این فعالیت';
+$string['saveandnext'] = 'ذخیره و نمایش بعدی';
+$string['savechanges'] = 'ذخیرهٔ تغییرات';
+$string['savechangesanddisplay'] = 'ذخیره و نمایش';
+$string['savechangesandreturntocourse'] = 'ذخیره و بازگشت به درس';
+$string['savedat'] = 'تاریخ ذخیره:';
+$string['savepreferences'] = 'ذخیرهٔ ترجیهات';
+$string['saveto'] = 'ذخیره در';
+$string['scale'] = 'مقیاس';
+$string['scales'] = 'مقیاس‌ها';
+$string['scalescustom'] = 'مقیاس‌های اختصاصی';
+$string['scalescustomcreate'] = 'تعریف یک مقیاس جدید';
+$string['scalescustomno'] = 'هنوز مقیاس اختصاصی‌ای ایجاد نشده است';
+$string['scalesstandard'] = 'مقیاس‌های استاندارد';
+$string['scalestandard'] = 'مقیاس استاندارد';
+$string['scalestip'] = 'جهت تعریف مقیاس‌های اختصاصی، از پیوند «مقیاس‌ها» در منوی مدیریت درس خود استفاده نمائید.';
+$string['scalestip2'] = 'به منظور تعریف مقیاس‌های اختصاصی، بر روی پیوند نمره‌ها واقع در منوی مدیریت درس کلیک نموده، سپس ویرایش -> مقیاس‌ها را انتخاب نمائید.';
+$string['schedule'] = 'زمان‌بندی';
+$string['scheduledbackupsinactive'] = 'پشتیبان‌گیری زمانبندی شده توسط مدیر سایت فعال نشده است';
+$string['scheduledbackupstatus'] = 'وضعیت پشتیبان‌گیری زمانبندی شده';
+$string['screenreaderuse'] = 'صفحه‌خوان';
+$string['screenreaderno'] = 'خیر';
+$string['screenreaderyes'] = 'بله';
+$string['screenshot'] = 'عکس صفحه';
 $string['search'] = 'جستجو';
-$string['searchagain'] = 'جستجو&#1740; دوباره';
-$string['searchcourses'] = 'جستجو در درسها';
-$string['searchhelp'] = 'م&#1740; توانبد در آن واحد چند کلمه را جستجو کن&#1740;د کلمه : هر مورد&#1740; از ا&#1740;ن کلمه را در متن پ&#1740;دا م&#1740; کند.+کلمه : تنها موارد دق&#1740;قا مشابه پ&#1740;دا م&#1740; شوند.-کلمه : ا&#1740;ن کلمه در نتا&#1740;ج نباشد.';
-$string['searchresults'] = 'نتا&#1740;ج جستجو';
-$string['sec'] = 'ثان&#1740;ه';
-$string['secs'] = 'ثان&#1740;ه';
-$string['section'] = 'بخش';
-$string['sections'] = 'بخشها';
+$string['searchagain'] = 'جستجوی مجدد';
+$string['searchcourses'] = 'جستجو بین درس‌ها';
+$string['searchhelp'] = 'می‌توانید در آن واحد چند کلمه را جستجو کنید.<br /><br />کلمه: هر مطابقتی از این کلمه در متن را پیدا می‌کند.<br />+کلمه: فقط کلمات دقیقاً مطابق پیدا در متن می‌شوند.<br />- کلمه: شامل نتایج دربردارندهٔ این کلمه نباشد.';
+$string['searchresults'] = 'نتیجهٔ جستجو';
+$string['sec'] = 'ثانیه';
+$string['secondstotime172800'] = '۲ روز';
+$string['secondstotime259200'] = '۳ روز';
+$string['secondstotime345600'] = '۴ روز';
+$string['secondstotime432000'] = '۵ روز';
+$string['secondstotime518400'] = '۶ روز';
+$string['secondstotime604800'] = '۱ هفته';
+$string['secondstotime86400'] = '۱ روز';
+$string['secretalreadyused'] = 'از پیوند تایید تغییر رمز ورود قبلاً استفاده شده است؛ رمز ورود تغییر نکرد.';
+$string['secs'] = 'ثانیه';
+$string['section'] = 'قسمت';
+$string['sections'] = 'قسمت‌ها';
+$string['seealsostats'] = 'آمار را هم ببینید';
 $string['select'] = 'انتخاب';
 $string['selectacountry'] = 'انتخاب کشور';
-$string['selectednowmove'] = '$a فا&#1740;ل برا&#1740; انتقال انتخاب شدند.حال به مقصد برو&#1740;د و \'انتقال فا&#1740;ل به ا&#1740;نجا\' را انتخاب کن&#1740;د';
-$string['senddetails'] = 'اطلاعات را از طر&#1740;ق پست الکترون&#1740;ک بفرست.';
-$string['separateandconnected'] = '&#1740;ادگ&#1740;ر&#1740; فرد&#1740; و جمع&#1740;';
-$string['serverlocaltime'] = 'زمان سرور';
-$string['settings'] = 'تنظ&#1740;مات';
+$string['selectall'] = 'انتخاب همه';
+$string['selectdefault'] = 'انتخاب گزینه‌های پیش‌فرض';
+$string['selectamodule'] = 'لطفاً یک ماژول فعالیت را انتخاب نمائید';
+$string['selectednowmove'] = '$a فایل برای انتقال انتخاب شده‌است. حال به مسیر مقصد بروید و دکمهٔ «انتقال فایل‌ها به این محل» را فشار دهید';
+$string['selectnos'] = 'انتخاب همهٔ «خیر» ها';
+$string['selectperiod'] = 'انتخاب مدت';
+$string['senddetails'] = 'ارسال جزئیات من از طریق پست الکترونیک';
+$string['separate'] = 'فردی';
+$string['separateandconnected'] = 'یادگیری به صورت‌های فردی و جمعی';
+$string['serverlocaltime'] = 'وقت محلی کارگزار';
+$string['setcategorytheme'] = 'تعیین پوستهٔ طبقه';
+$string['settings'] = 'تنظیمات';
 $string['shortname'] = 'نام کوتاه';
-$string['shortnametaken'] = 'ا&#1740;ن نام کوتاه در حال حاضر برا&#1740; &#1740;ک درس د&#1740;گر استفاده شده است. ($a)';
-$string['shortsitename'] = 'نام کوتاه برا&#1740; سا&#1740;ت (مثلا &#1740;ک کلمه)';
-$string['show'] = 'نشان بده';
-$string['showall'] = 'تمام $a ها را نشان بده';
-$string['showallcourses'] = 'تمام درسها را نشان بده';
-$string['showalltopics'] = 'تمام موضوعات را نشان بده';
-$string['showallusers'] = 'تمام کاربران را نشان بده';
-$string['showallweeks'] = 'تمام هفته ها نما&#1740;ش داده شود';
-$string['showgrades'] = 'نما&#1740;ش نمره ها';
-$string['showlistofcourses'] = 'ل&#1740;ست درسها را نشان بده';
-$string['showonlytopic'] = 'تنها موضوع $a را نشان بده';
-$string['showonlyweek'] = 'تنها هفته $a را نشان بده';
-$string['showrecent'] = 'نشان دادن فعال&#1740;ت اخ&#1740;ر';
-$string['showtheselogs'] = 'ا&#1740;ن موارد ثبت شده را نشان بده';
-$string['site'] = 'سا&#1740;ت';
-$string['sitefiles'] = 'فا&#1740;لها&#1740; سا&#1740;ت';
-$string['sitelogs'] = 'موارد ثبت شده سا&#1740;ت';
-$string['sitenews'] = 'اخبار سا&#1740;ت';
-$string['sites'] = 'سا&#1740;تها';
-$string['sitesettings'] = 'تنظ&#1740;مات سا&#1740;ت';
+$string['shortnamecollisionwarning'] = '[*] = این نام کوتاه هم‌اکنون توسط درسی در حال استفاده است و به محض تصویب شدن نیاز به تغییر خواهد داشت';
+$string['shortnametaken'] = 'این نام کوتاه برای درس دیگری استفاده شده است ($a)';
+$string['shortsitename'] = 'نام کوتاه برای سایت (مثلاً یک کلمه)';
+$string['show'] = 'نمایش';
+$string['showactions'] = 'نمایش اقدامات';
+$string['showadvancedsettings'] = 'نمایش تنظیمات تفصیلی';
+$string['showall'] = 'نمایش همه $a';
+$string['showallcourses'] = 'نمایش همهٔ درس‌ها';
+$string['showalltopics'] = 'نمایش همهٔ موضوع‌ها';
+$string['showallusers'] = 'نمایش همهٔ کاربران';
+$string['showallweeks'] = 'نمایش همهٔ هفته‌ها';
+$string['showblockcourse'] = 'نمایش لیست درس‌هایی که شامل این بلوک هستند';
+$string['showgrades'] = 'نمایش دفتر نمره به شاگردان';
+$string['showlistofcourses'] = 'نمایش لیست درس‌ها';
+$string['showmodulecourse'] = 'نمایش لیست درس‌هایی که شامل این فعالیت هستند';
+$string['showonly'] = 'نمایش فقط';
+$string['showonlytopic'] = 'فقط نمایش موضوع $a';
+$string['showonlyweek'] = 'فقط نمایش هفتهٔ $a';
+$string['showperpage'] = 'نمایش $a مورد در هر صفحه';
+$string['showrecent'] = 'نمایش فعالیت‌های اخیر';
+$string['showreports'] = 'نمایش گزارش فعالیت‌ها';
+$string['showsettings'] = 'نمایش تنظیمات';
+$string['showtheselogs'] = 'نمایش این log ها';
+$string['since'] = 'از';
+$string['sincelast'] = 'از زمان آخرین ورود';
+$string['site'] = 'سایت';
+$string['sitedefault'] = 'پیش‌فرض سایت';
+$string['siteerrors'] = 'خطاهای سایت';
+$string['sitefiles'] = 'فایل‌های سایت';
+$string['sitefilesused'] = 'فایل‌های سایت که در این درس استفاده شده‌اند';
+$string['sitelogs'] = 'log های سایت';
+$string['sitenews'] = 'خبرهای سایت';
+$string['sitepartlist'] = 'شما مجوزهای لازم برای مشاهدهٔ لیست شرکت کنندگان را ندارید';
+$string['sitepartlist0'] = 'برای مشاهدهٔ لیست شرکت کنندگان سایت، باید یک استاد سایت باشید';
+$string['sitepartlist1'] = 'برای مشاهدهٔ لیست شرکت کنندگان سایت، باید یک استاد باشید';
+$string['sites'] = 'سایت‌ها';
+$string['sitesection'] = 'دربرداشتن یک قسمت سرفصل';
+$string['sitesettings'] = 'تنظیمات سایت';
+$string['siteteachers'] = 'اساتید سایت';
 $string['size'] = 'اندازه';
-$string['socialheadline'] = 'جد&#1740;دتر&#1740;ن موضوعات گفتمان اجتماع&#1740;';
-$string['someallowguest'] = 'بعض&#1740; درسها ممکن است به مهمانها اجازه دسترس&#1740; بدهند';
-$string['someerrorswerefound'] = 'بعض&#1740; اطلاعات وجود ندارد &#1740;ا غلط است.';
-$string['startdate'] = 'روز شروع درس';
-$string['startsignup'] = 'هم اکنون با ا&#1740;جاد &#1740;ک حساب کاربر&#1740; جد&#1740;د شروع کن&#1740;د!';
-$string['state'] = 'استان';
-$string['status'] = 'وضع&#1740;ت';
+$string['sizeb'] = 'بایت';
+$string['sizegb'] = ' گیگابایت';
+$string['sizekb'] = ' کیلوبایت';
+$string['sizemb'] = ' مگابایت';
+$string['skipped'] = 'کنار گذاشته شد';
+$string['skypeid'] = 'شناسهٔ Skype';
+$string['socialheadline'] = 'تالار گفتگوی اجتماعی - جدیدترین موضوع‌ها';
+$string['someallowguest'] = 'بعضی از درس‌ها ممکن است به مهمان‌ها اجازهٔ دسترسی بدهند';
+$string['someerrorswerefound'] = 'بعضی از اطلاعات مورد نیاز ارائه نشده یا اشتباه وارد شده‌اند. برای مشاهدهٔ جزئیات قسمت پائین را ملاحظه نمائید.';
+$string['sortby'] = 'مرتب شدن بر اساس';
+$string['sourcerole'] = 'نقش مبدأ';
+$string['specifyname'] = 'باید یک نام در نظر بگیرید.';
+$string['standard'] = 'استاندارد';
+$string['starpending'] = '([*] = در انتظار تصویب درس)';
+$string['startdate'] = 'تاریخ شروع درس';
+$string['startsignup'] = 'ایجاد حساب کاربری جدید';
+$string['state'] = 'ایالت/استان';
+$string['statistics'] = 'آمار';
+$string['statisticsgraph'] = 'نمودار آماری';
+$string['stats'] = 'آمار';
+$string['statslogins'] = 'ورودها';
+$string['statsmodedetailed'] = 'نمای مفصل (کاربر)';
+$string['statsmodegeneral'] = 'نمای عمومی';
+$string['statsnodata'] = 'دادهٔ کافی برای این ترکیب از درس و محدودهٔ زمانی وجود ندارد.';
+$string['statsnodatauser'] = 'دادهٔ کافی برای این ترکیب از درس، کاربر و محدودهٔ زمانی وجود ندارد.';
+$string['statsoff'] = 'آمارگیری در حال حاضر فعال نیست';
+$string['statsreads'] = 'مشاهده‌ها';
+$string['statsreport1'] = 'ورودها';
+$string['statsreport10'] = 'فعالیت کاربر';
+$string['statsreport11'] = 'فعال‌ترین درس‌ها';
+$string['statsreport12'] = 'فعال‌ترین درس‌ها (وزن‌دار)';
+$string['statsreport13'] = 'مشارکتی‌ترین درس‌ها (ثبت‌نام‌ها)';
+$string['statsreport14'] = 'مشارکتی‌ترین درس‌ها (مطالعه‌ها/ارسال‌های مطالب)';
+$string['statsreport2'] = 'مشاهده‌ها (همهٔ نقش‌ها)';
+$string['statsreport3'] = 'ارسال‌ها (همهٔ نقش‌ها)';
+$string['statsreport4'] = 'همهٔ فعالیت‌ها (همهٔ نقش‌ها)';
+$string['statsreport5'] = 'همهٔ فعالیت‌ها (مشاهده‌ها و ارسال‌ها)';
+$string['statsreport7'] = 'فعالیت کاربر (مشاهده‌ها و ارسال‌ها)';
+$string['statsreport8'] = 'همهٔ فعالیت‌های کاربران';
+$string['statsreport9'] = 'ورودها (درس سایت)';
+$string['statsreportactivity'] = 'همهٔ فعالیت‌ها (همهٔ نقش‌ها)';
+$string['statsreportactivitybyrole'] = 'همهٔ فعالیت‌ها (مشاهده‌ها و ارسال‌ها)';
+$string['statsreportforuser'] = 'برای';
+$string['statsreportlogins'] = 'ورودها';
+$string['statsreportreads'] = 'مشاهده‌ها (همهٔ نقش‌ها)';
+$string['statsreporttype'] = 'نوع گزارش';
+$string['statsreportwrites'] = 'ارسال‌ها (همهٔ نقش‌ها)';
+$string['statsstudentactivity'] = 'فعالیت شاگرد';
+$string['statsstudentreads'] = 'مشاهده‌های شاگرد';
+$string['statsstudentwrites'] = 'ارسال‌های شاگرد';
+$string['statsteacheractivity'] = 'فعالیت استاد';
+$string['statsteacherreads'] = 'مشاهده‌های استاد';
+$string['statsteacherwrites'] = 'ارسال‌های استاد';
+$string['statstimeperiod'] = 'محدودهٔ زمانی - آخرین:';
+$string['statsuniquelogins'] = 'ورودهای یکتا';
+$string['statsuseractivity'] = 'همهٔ فعالیت‌ها';
+$string['statsuserlogins'] = 'ورودها';
+$string['statsuserreads'] = 'مشاهده‌ها';
+$string['statsuserwrites'] = 'ارسال‌ها';
+$string['statswrites'] = 'ارسال‌ها';
+$string['status'] = 'وضعیت';
 $string['strftimedate'] = '%%d %%B %%Y';
 $string['strftimedateshort'] = '%%d %%B';
-$string['strftimedatetime'] = '%%d %%B %%Y, %%I:%%M %%p';
-$string['strftimedaydate'] = '%%A, %%d %%B %%Y';
-$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
-$string['strftimerecent'] = '%%d %%b, %%H:%%M';
-$string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%I:%%M %%p';
+$string['strftimedatetime'] = '%%d %%B %%Y، %%I:%%M %%p';
+$string['strftimedatetimeshort'] = '%%y/%%m/%%d، %%H:%%M';
+$string['strftimedaydate'] = '%%A، %%d %%B %%Y';
+$string['strftimedaydatetime'] = '%%A، %%d %%B %%Y، %%I:%%M %%p';
+$string['strftimedayshort'] = '%%A، %%d %%B';
+$string['strftimedaytime'] = '%%a، %%H:%%M';
+$string['strftimemonthyear'] = '%%B %%Y';
+$string['strftimerecent'] = '%%d %%b، %%H:%%M';
+$string['strftimerecentfull'] = '%%a، %%d %%b %%Y، %%I:%%M %%p';
 $string['strftimetime'] = '%%I:%%M %%p';
-$string['stringsnotset'] = 'ا&#1740;ن رشته ها در $a تعر&#1740;ف نشده اند';
-$string['studentnotallowed'] = 'ببخش&#1740;د شما نم&#1740; توان&#1740;د بعنوان \'$a\' وارد درس شو&#1740;د';
-$string['students'] = 'دانشجو&#1740;ان';
-$string['subcategories'] = 'ز&#1740;ر موضوع';
-$string['success'] = 'موفق&#1740;ت';
+$string['stringsnotset'] = 'عبارت‌های زیر در $a تعریف نشده‌اند';
+$string['studentnotallowed'] = 'متأسفانه شما نمی‌توانید بعنوان «{$a}» وارد این درس شوید';
+$string['students'] = 'شاگرد';
+$string['studentsandteachers'] = 'اساتید و شاگردان';
+$string['studentviewoff'] = 'اتمام مشاهدهٔ نمای شاگرد';
+$string['studentviewon'] = 'مشاهدهٔ نمای شاگرد';
+$string['subcategories'] = 'زیرطبقه‌ها';
+$string['submit'] = 'ارسال';
+$string['success'] = 'موفق';
 $string['summary'] = 'خلاصه';
-$string['summaryof'] = 'خلاصه $a';
-$string['supplyinfo'] = 'لطفا درباره خود اطلاعات&#1740; وارد کن&#1740;د';
-$string['teacheronly'] = 'فقط برا&#1740; $a';
-$string['teacherroles'] = '$a نقش';
-$string['teachers'] = 'معلمها';
-$string['textediting'] = 'در موقع و&#1740;را&#1740;ش متن';
-$string['texteditor'] = 'استفاده از شکلها&#1740; استاندارد وب';
-$string['textformat'] = 'شکل متن&#1740; ساده';
-$string['thanks'] = 'متشکرم';
-$string['theme'] = 'زم&#1740;نه';
-$string['themes'] = 'زم&#1740;نه ها';
-$string['themesaved'] = 'زم&#1740;نه جد&#1740;د ذخ&#1740;ره شد';
+$string['summaryof'] = 'خلاصهٔ $a';
+$string['supplyinfo'] = 'جزئیات بیشتر';
+$string['switchrolereturn'] = 'بازگشت به نقش عادی';
+$string['switchroleto'] = 'تغییر نقش به...';
+$string['tag'] = 'برچسب';
+$string['tagalready'] = 'این برچسب وجود دارد';
+$string['tagmanagement'] = 'اضافه کردن/حذف برچسب‌ها ...';
+$string['tags'] = 'tag ها';
+$string['targetrole'] = 'نقش هدف';
+$string['teacheronly'] = 'فقط برای $a';
+$string['teacherroles'] = 'نقش‌های $a';
+$string['teachers'] = 'استاد';
+$string['textediting'] = 'برای ویرایش متن';
+$string['texteditor'] = 'از فرم‌های استاندارد وب استفاده شود';
+$string['textformat'] = 'قالب سادهٔ متنی';
+$string['thanks'] = 'متشکریم';
+$string['theme'] = 'پوسته';
+$string['themes'] = 'پوسته‌ها';
+$string['themesaved'] = 'پوستهٔ جدید ذخیره شد';
+$string['thereareno'] = 'هیچ موردی از $a در این درس وجود ندارد';
+$string['thiscategorycontains'] = 'این طبقه شامل این موارد است:';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'rtl';
-$string['thislanguage'] = '&#1601;&#1575;&#1585;&#1587;&#1740;';
-$string['time'] = 'ساعت';
-$string['timezone'] = 'زمان محل&#1740;';
-$string['to'] = 'تا';
+$string['thislanguage'] = 'فارسی';
+$string['time'] = 'زمان';
+$string['timezone'] = 'منطقهٔ زمانی';
+$string['to'] = 'به';
 $string['today'] = 'امروز';
-$string['todaylogs'] = 'موارد ثبت شده امروز';
-$string['toomanytoshow'] = 'کاربران ز&#1740;اد&#1740; برا&#1740; نما&#1740;ش وجود دارند';
-$string['top'] = 'بالا';
+$string['todaylogs'] = 'Log های امروز';
+$string['toeveryone'] = 'به همه';
+$string['toomanybounces'] = 'نامه‌های زیادی از این آدرس پست الکترونیک برگشت خورده است. برای ادامه دادن <b>باید</b> آن را تغییر دهید.';
+$string['toomanytoshow'] = 'تعداد کاربران برای نمایش خیلی زیاد است.';
+$string['toonly'] = 'فقط به $a';
+$string['top'] = 'مبدأ';
 $string['topic'] = 'موضوع';
-$string['topichide'] = 'ا&#1740;ن موضوع را از $a پنهان کن';
-$string['topicoutline'] = 'شکل موضوع&#1740;';
-$string['topicshow'] = 'ا&#1740;ن موضوع را به $a نشان بده';
+$string['topichide'] = 'پنهان کردن این مبحث از دید $a';
+$string['topicoutline'] = 'طرح موضوعی';
+$string['topicshow'] = 'نمایش این مبحث به $a';
 $string['total'] = 'مجموع';
-$string['turneditingoff'] = 'و&#1740;را&#1740;ش تمام';
-$string['turneditingon'] = 'و&#1740;را&#1740;ش';
+$string['trackforums'] = 'دنبال کردن تالارهای گفتگو';
+$string['trackforumsno'] = 'خیر: حساب مطالبی که دیده‌ام را نگه ندار';
+$string['trackforumsyes'] = 'بله: مطالب جدید را برایم مشخص کن';
+$string['trysearching'] = 'در عوض از جستجو استفاده کنید.';
+$string['turneditingoff'] = 'اتمام ویرایش';
+$string['turneditingon'] = 'شروع ویرایش';
 $string['undecided'] = 'مردد';
-$string['unenrol'] = 'حذف دانشجو';
-$string['unenrolme'] = 'من را از ثبت نام $a ب&#1740;رون ب&#1740;اور';
-$string['unenrolsure'] = 'آ&#1740;ا مطمئن هست&#1740;د م&#1740; خواه&#1740;د $a را از ا&#1740;ن درس حذف کن&#1740;د؟';
-$string['unknowncategory'] = 'موضوع نا شناخته';
-$string['unpacking'] = 'باز کردن $a';
-$string['unsafepassword'] = 'ا&#1740;ن رمز ورود ناامن است لطفا آنرا عوض کن&#1740;د!';
-$string['unusedaccounts'] = 'Accounts unused for more than $a days are automatically unenrolled';
-$string['unzip'] = 'باز کردن فا&#1740;ل فشرده';
-$string['unzippingbackup'] = 'باز کردن پشت&#1740;بان';
-$string['update'] = 'به روز کردن';
-$string['updated'] = '$a بروزرسان&#1740; شد.';
-$string['updatemyprofile'] = 'تغ&#1740;&#1740;ر مشخصات فرد&#1740;';
-$string['updatesevery'] = 'در هر $a ثان&#1740;ه بروزرسان&#1740; کن';
-$string['updatethis'] = 'به روز کردن $a';
-$string['updatethiscourse'] = 'به روز کردن ا&#1740;ن درس';
-$string['updatinga'] = 'و&#1740;را&#1740;ش &#1740;ک $a';
-$string['updatingain'] = 'و&#1740;را&#1740;ش &#1740;ک $a->what در $a->in';
-$string['upload'] = 'فرستادن';
-$string['uploadafile'] = 'فرستادن فا&#1740;ل به سا&#1740;ت';
-$string['uploadedfileto'] = 'فا&#1740;ل $a->file را به $a->directory بفرست';
-$string['uploadnofilefound'] = 'ه&#1740;چ فا&#1740;ل&#1740; پ&#1740;دا نشد.آ&#1740;ا مطمئن هست&#1740;د که فا&#1740;ل&#1740; انتخاب کرد&#1740;د؟';
-$string['uploadproblem'] = 'در ارسال فا&#1740;ل \'$a\' مشکل ناشناخته ا&#1740; پ&#1740;ش آمد(ممکن است اندازه آن بزرگ بوده است)';
-$string['uploadthisfile'] = 'ارسال ا&#1740;ن فا&#1740;ل';
+$string['unenrol'] = 'لغو ثبت‌نام';
+$string['unenrolroleusers'] = 'لغو ثبت‌نام کاربران';
+$string['unenrolallstudents'] = 'لغو ثبت‌نام همهٔ شاگردان';
+$string['unenrolallstudentssure'] = 'آیا مطمئن هستید که می‌خواهید ثبت‌نام همهٔ شاگردان این درس را باطل نمائید؟';
+$string['unenrolme'] = 'لغو ثبت‌نام در «{$a}»';
+$string['unenrolsure'] = 'آیا مطمئن هستید که می‌خواهید ثبت‌نام $a در این درس را باطل نمائید؟';
+$string['unfinished'] = 'ناتمام';
+$string['unknowncategory'] = 'طبقهٔ نامعلوم';
+$string['unlimited'] = 'نامحدود';
+$string['unpacking'] = 'در حال گشودن بستهٔ <span dir=\"ltr\">$a</span>';
+$string['unsafepassword'] = 'این رمز ورود ناامن است - رمز دیگری انتخاب نمائید';
+$string['untilcomplete'] = 'تا تمام شدن کار';
+$string['unusedaccounts'] = 'عضویت کاربرانی که بیش از $a روز به سایت مراجعه نکنند، به صورت خود کار لغو می‌شود.';
+$string['unzip'] = 'خروج از فشردگی';
+$string['unzippingbackup'] = 'خارج کردن پشتیبان از حالت فشرده';
+$string['up'] = 'بالا';
+$string['update'] = 'به‌روزرسانی';
+$string['updated'] = '$a به‌روز شد';
+$string['updatemymoodleoff'] = 'حالت عادی';
+$string['updatemymoodleon'] = 'ویرایش این صفحه';
+$string['updatemyprofile'] = 'به‌روزرسانی مشخصات فردی';
+$string['updatesevery'] = 'هر $a ثانیه به‌روز می‌شود';
+$string['updatethis'] = 'به‌روزرسانی این $a';
+$string['updatethiscourse'] = 'به‌روزرسانی این درس';
+$string['updatinga'] = 'به‌روزرسانی: $a';
+$string['updatingain'] = 'به‌روزرسانی $a->what در $a->in';
+$string['upload'] = 'ارسال فایل';
+$string['uploadafile'] = 'قرار دادن یک فایل در سایت';
+$string['uploadcantwrite'] = 'نوشتن فایل روی دیسک با مشکل مواجه شد';
+$string['uploadedfile'] = 'فایل با موفقیت ارسال شد';
+$string['uploadedfileto'] = '$a->file به $a->directory ارسال شد';
+$string['uploadedfiletoobig'] = 'این فایل خیلی بزرگ است (حداکثر اندازهٔ مجاز $a بایت است)';
+$string['uploadextension'] = 'ارسال فایل با توجه به پسوند متوقف شد';
+$string['uploadfailednotrecovering'] = 'ارسال فایل به دلیل وجود مشکل در یکی از فایل‌ها ($a->name) با موفقیت انجام نشد.<br />log مشکلات بدین صورت است:<br />$a->problem<br />بازیابی نمی‌شود.';
+$string['uploadfilelog'] = 'log ارسال برای فایل $a';
+$string['uploadformlimit'] = 'اندازهٔ فایل ارسالی از حداکثر تعیین شده توسط فرم بیشتر است';
+$string['uploadlabel'] = 'عنوان:';
+$string['uploadnofilefound'] = 'فایلی پیدا نشد. آیا مطمئن هستید که فایلی انتخاب کرده‌اید؟';
+$string['uploadnotallowed'] = 'ارسال فایل مجاز نیست';
+$string['uploadnotempdir'] = 'پوشهٔ موقت وجود ندارد';
+$string['uploadoldfilesdeleted'] = 'فایل‌های قدیمی که در محل ارسال قرار داشتند حذف شدند';
+$string['uploadpartialfile'] = 'فایل به صورت ناقص ارسال شد';
+$string['uploadproblem'] = 'مشکل نامعلومی در حین ارسال فایل «{$a}» پیش آمد (شاید حجم آن خیلی زیاد بود)';
+$string['uploadrenamedchars'] = 'به دلیل وجود حروف غیر مجاز نام فایل از $a->oldname به $a->newname تغییر داده شد.';
+$string['uploadrenamedcollision'] = 'به دلیل وجود تداخل نام فایل از $a->oldname به $a->newname تغییر داده شد.';
+$string['uploadserverlimit'] = 'اندازهٔ فایل ارسالی از حداکثر تعیین شده توسط کارگزار بیشتر است';
+$string['uploadthisfile'] = 'ارسال این فایل';
+$string['uploadusers'] = 'ارسال فایل کاربران';
+$string['used'] = 'استفاده شده';
+$string['usedinnplaces'] = '$a جا استفاده شده';
+$string['usemessageform'] = 'یا از فرم زیر برای ارسال یک پیغام به همهٔ شاگردان انتخاب شده استفاده نمائید';
 $string['user'] = 'کاربر';
-$string['userdeleted'] = 'ا&#1740;ن حساب کاربر&#1740; حذف شده است.';
-$string['userdescription'] = 'توص&#1740;ف';
-$string['userfiles'] = 'فا&#1740;لها&#1740; کاربران';
-$string['username'] = 'نام کاربر';
-$string['usernameexists'] = 'ا&#1740;ن نام کاربر&#1740; وجود دارد &#1740;ک مورد د&#1740;گر انتخاب کن&#1740;د.';
-$string['userprofilefor'] = 'مشخصات فرد&#1740; برا&#1740; $a';
-$string['users'] = 'کاربر';
-$string['userzones'] = 'ناح&#1740;ه ها&#1740; کاربر&#1740;';
-$string['usingexistingcourse'] = 'در حال استفاده از درس موجود';
-$string['view'] = 'د&#1740;دن';
-$string['webpage'] = 'صفحه خانگ&#1740; شما';
-$string['week'] = 'هفته';
-$string['weekhide'] = 'ا&#1740;ن هفته را از $a پنهان کن';
-$string['weeklyoutline'] = 'طرح هفتگ&#1740;';
-$string['weekshow'] = 'ا&#1740;ن هفته را تا $a نشان بده';
-$string['welcometocourse'] = 'به $a خوش آمد&#1740;د';
-$string['welcometocoursetext'] = 'به درس $a->coursename خوش آمد&#1740;د
+$string['userconfirmed'] = '$a تایید شد';
+$string['userdata'] = 'داده‌های کاربران';
+$string['userdeleted'] = 'این حساب کاربری حذف شده است';
+$string['userdescription'] = 'توصیف';
+$string['userfiles'] = 'فایل‌های کاربران';
+$string['userlist'] = 'لیست کاربر';
+$string['username'] = 'نام کاربری';
+$string['usernameemailmatch'] = 'نام کاربری و پست الکترونیک مربوط به یک کاربر یکسان نیستند';
+$string['usernameoremail'] = 'نام کاربری یا آدرس پست الکترونیک را وارد کنید';
+$string['usernameexists'] = 'این نام کاربری هم‌اکنون وجود دارد، یک نام کاربری دیگر انتخاب نمائید';
+$string['usernamelowercase'] = 'فقط حروف کوچک مجاز هستند';
+$string['usernamenotfound'] = 'نام کاربری در پایگاه داده پیدا نشد';
+$string['usernotconfirmed'] = '$a تایید نشد';
+$string['userpic'] = 'عکس کاربر';
+$string['userprofilefor'] = 'مشخصات فردی مربوط به $a';
+$string['users'] = 'کاربران';
+$string['usersnew'] = 'کاربران جدید';
+$string['usersnoaccesssince'] = 'غیرفعال به مدت';
+$string['userzones'] = 'مناطق زمانی کاربران';
+$string['usethiscourse'] = 'از این درس استفاده شود';
+$string['usingexistingcourse'] = 'استفاده از درس موجود';
+$string['valuealreadyused'] = 'این مقدار هم‌اکنون استفاده شده است.';
+$string['version'] = 'نسخه';
+$string['view'] = 'مشاهده';
+$string['views'] = 'مشاهده‌ها';
+$string['viewsolution'] = 'مشاهدهٔ راه حل';
+$string['virusfound'] = 'قابل توجه مدیر! Clam AV در فایل ارسال شده توسط $a->user در درس $a->course یک ویروس پیدا کرده است. خروجی clamscan بدین صورت است:';
+$string['virusfoundlater'] = 'فایل $a->filename که در تاریخ $a->date در درس $a->course ارسال کرده‌اید به عنوان آلوده به ویروس تشخیص داده شده است. خلاصهٔ آن‌چه که بر فایل شما گذشته است بدین صورت است:
 
-برا&#1740; آشنا&#1740;&#1740; ب&#1740;شتر با شما، صفحه مشخصات شخص&#1740; خود را و&#1740;را&#1740;ش کن&#1740;د. ا&#1740;ن صفحه در
- صفحه مشخصات شخص&#1740; درس قابل دسترس&#1740; است.
+$a->action
+
+اگر این فایل مربوط به یک کار یا وظیفهٔ ارسال شده بوده است، ممکن است بخواهید که آن را مجدداً ارسال نمائید تا استاد شما بتواند آن را ببیند.';
+$string['virusfoundlateradmin'] = 'قابل توجه مدیر! فایلی با نام $a->filename که در تاریخ $a->date توسط کاربر $a->user در درس $a->course ارسال شده است به عنوان آلوده به ویروس تشخیص داده شده است. خلاصهٔ آن‌چه که بر فایل شما گذشته است بدین صورت است:
+
+$a->action
+
+به کاربر مورد نظر نیز اطلاع داده شد.';
+$string['virusfoundlateradminnolog'] = 'قابل توجه مدیر! فایلی که با نام $a->filename ارسال شده است به عنوان آلوده به ویروس تشخیص داده شد. مودل نتوانست تشخیص دهد که چه کاربری این فایل را ارسال کرده است.
+
+خلاصهٔ آن‌چه که بر فایل شما گذشته است بدین صورت است:
+
+$a->action';
+$string['virusfoundsubject'] = '$a کشف ویروس!';
+$string['virusfounduser'] = 'فایلی که ارسال کرده‌اید ($a->filename) توسط ویروس‌یاب بررسی و به عنوان آلوده تشخیص داده شد! ارسال فایل موفق نبود.';
+$string['virusplaceholder'] = 'این فایلی که ارسال شده است به عنوان آلوده به ویروس تشخیص داده شد. در نتیجه منتقل یا حذف شد و به کاربر اطلاع داده شد.س';
+$string['visible'] = 'قابل رؤیت؟';
+$string['visibletostudents'] = 'قایل رویت توسط $a';
+$string['warningdeleteresource'] = 'اخطار: در یک منبع به $a ارجاع شده است. آیا مایل به به‌روزرسانی منبع می‌باشید؟';
+$string['webpage'] = 'صفحهٔ وب';
+$string['week'] = 'هفته';
+$string['weekhide'] = 'پنهان کردن این هفته از $a';
+$string['weeklyoutline'] = 'طرح هفتگی';
+$string['weekshow'] = 'نمایش این هفته به $a';
+$string['welcometocourse'] = 'به $a خوش آمدید';
+$string['welcometocoursetext'] = 'به $a->coursename خوش آمدید!
+
+به منظور آشنائی بیشتر با شما، اگر قبلاً این کار را انجام نداده‌اید، باید صفحهٔ مشخصات فردی خود را ویرایش نمائید:
 
   $a->profileurl';
-$string['whattocallzip'] = 'نام ا&#1740;ن فا&#1740;ل فشرده چه باشد؟';
-$string['withchosenfiles'] = 'اعمال با فا&#1740;لها&#1740; انتخاب شده';
-$string['withoutuserdata'] = 'بدون اطلاعات کاربران';
-$string['withuserdata'] = 'به همراه اطلاعات کاربران';
-$string['wordforstudent'] = 'کلمه شما برا&#1740; دانشجو';
-$string['wordforstudenteg'] = 'مثلا دانشجو،شرکت کننده و غ&#1740;ره';
-$string['wordforstudents'] = 'کلمه شما برا&#1740; دانشجوها';
-$string['wordforstudentseg'] = 'مثلا دانشجوها،شرکت کننده ها و غ&#1740;ره';
-$string['wordforteacher'] = 'کلمه شما برا&#1740; معلم';
-$string['wordforteachereg'] = 'مثلا معلم،استاد و غ&#1740;ره';
-$string['wordforteachers'] = 'کلمه شما برا&#1740; معلمها';
-$string['wordforteacherseg'] = 'مثلا معلمها،استادها و غ&#1740;ره';
-$string['writingcategoriesandquestions'] = 'در حال نوشتن موضوعات و سئوالات';
-$string['writingcoursedata'] = 'در حال نوشتن اطلاعات درس';
-$string['writinggeneralinfo'] = 'در حال نوشتن اطلاعات عموم&#1740;';
-$string['writingheader'] = 'در حال نوشتن سردرخت';
-$string['writingloginfo'] = 'در حال نوشتن اطلاعات موارد ثبت شده';
-$string['writingmoduleinfo'] = 'در حال نوشتن اطلاعات ماژولها';
-$string['writingscalesinfo'] = 'در حال نوشتن اطلاعات مق&#1740;اسها';
+$string['whattocallzip'] = 'می‌خواهید نام این فایل فشرده چه باشد؟';
+$string['whattodo'] = 'کاری که باید انجام شود';
+$string['withchosenfiles'] = 'فایل‌های انتخاب‌شده را';
+$string['withoutuserdata'] = 'بدون داده‌های کاربران';
+$string['withselectedusers'] = 'با کاربران انتخاب شده...';
+$string['withuserdata'] = 'به همراه داده‌های کاربران';
+$string['wordforstudent'] = 'لغت شما برای شاگرد';
+$string['wordforstudenteg'] = 'مثلاً شاگرد، دانشجو، شرکت‌کننده، ...';
+$string['wordforstudents'] = 'لغت شما برای شاگردان';
+$string['wordforstudentseg'] = 'مثلاً شاگردان، دانشجویان، شرکت‌کنندگان، ...';
+$string['wordforteacher'] = 'لغت شما برای استاد';
+$string['wordforteachereg'] = 'مثلاً استاد، معلم، کمک‌کننده، ...';
+$string['wordforteachers'] = 'لغت شما برای اساتید';
+$string['wordforteacherseg'] = 'مثلاً اساتید، معلمان، کمک‌کنندگان، ...';
+$string['writingblogsinfo'] = 'نوشتن اطلاعات بلاگ‌ها';
+$string['writingcategoriesandquestions'] = 'در حال نوشتن دسته‌ها و سؤال‌ها';
+$string['writingcoursedata'] = 'در حال نوشتن داده‌های درس';
+$string['writingeventsinfo'] = 'در حال نوشتن اطلاعات رویدادها';
+$string['writinggeneralinfo'] = 'در حال نوشتن اطلاعات عمومی';
+$string['writinggradebookinfo'] = 'در حال نوشتن اطلاعات دفتر نمره';
+$string['writinggroupsinfo'] = 'در حال نوشتن اطلاعات گروه‌ها';
+$string['writinggroupingsinfo'] = 'در حال نوشتن اطلاعات ابرگروه‌ها';
+$string['writinggroupingsgroupsinfo'] = 'در حال نوشتن اطلاعات ابرگروه-گروه ها';
+$string['writingheader'] = 'در حال نوشتن عناوین';
+$string['writingloginfo'] = 'نوشتن اطلاعات log ها';
+$string['writingmessagesinfo'] = 'نوشتن اطلاعات پیغام‌ها';
+$string['writingmoduleinfo'] = 'در حال نوشتن اطلاعات ماژول‌ها';
+$string['writingscalesinfo'] = 'در حال نوشتن اطلاعات مقیاس‌ها';
 $string['writinguserinfo'] = 'در حال نوشتن اطلاعات کاربران';
-$string['wrongpassword'] = 'رمز ورود اشتباه است!';
+$string['wrongpassword'] = 'رمز ورود نادرست برای این نام کاربری';
+$string['xmldbeditor'] = 'ویرایشگر XMLDB';
+$string['yahooid'] = 'شناسهٔ Yahoo';
+$string['year'] = 'سال';
+$string['years'] = 'سال';
 $string['yes'] = 'بله';
-$string['youareabouttocreatezip'] = 'در حال ا&#1740;جاد &#1740;ک فا&#1740;ل فشرده هست&#1740;د که شامل:';
-$string['youaregoingtorestorefrom'] = 'در حال شروع روند باز&#1740;اب&#1740; هست&#1740;د برا&#1740;:';
-$string['yourlastlogin'] = 'آخر&#1740;ن ورود شما به سا&#1740;ت';
-$string['yourself'] = 'شما';
+$string['youareabouttocreatezip'] = 'شما در آستانهٔ ایجاد یک فایل فشرده با محتویات زیر هستید';
+$string['youaregoingtorestorefrom'] = 'شما در آستانهٔ شروع فرآیند بازیابی این فایل هستید';
+$string['youneedtoenrol'] = 'برای انجام دادن این کار باید در این درس ثبت‌نام کنید.';
+$string['yourlastlogin'] = 'آخرین ورود شما به سایت';
+$string['yourself'] = 'خودتان';
 $string['yourteacher'] = '$a شما';
-$string['zippingbackup'] = 'فشرده کردن پشت&#1740;بان';
+$string['zippingbackup'] = 'در حال فشرده‌سازی فایل‌های پشتیبان';
 
+$string['authenticationplugins'] = 'پلاگین‌های شناسائی';
+$string['chooseauthmethod'] = 'پلاگین شناسائی';
 ?>
