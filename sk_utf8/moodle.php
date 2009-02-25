@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // moodle.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -650,7 +650,7 @@ $string['forgotteninvalidurl'] = 'Neplatné heslo - reset URL';
 $string['format'] = 'Formát';
 $string['formathtml'] = 'HTML formát';
 $string['formatlams'] = 'LAMS formát';
-$string['formatmarkdown'] = 'Zúžený formát';
+$string['formatmarkdown'] = 'Markdown formát';
 $string['formatplain'] = 'Textový formát';
 $string['formatscorm'] = 'SCORM formát';
 $string['formatsocial'] = 'Sociálny formát';
