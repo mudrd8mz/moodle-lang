@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // forum.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['addanewdiscussion'] = 'Afegeix un nou tema de debat';
@@ -8,11 +8,13 @@ $string['addanewtopic'] = 'Afegeix un nou tema';
 $string['advancedsearch'] = 'Cerca avançada';
 $string['aggregateavg'] = 'Mitjana de valoracions';
 $string['aggregatecount'] = 'Nombre de valoracions';
+$string['aggregatecountformat'] = '$a->count (qualificació: $a->grade)';
 $string['aggregatemax'] = 'Valoració màxima';
 $string['aggregatemin'] = 'Valoració mínima';
 $string['aggregatenone'] = 'Sense valorar';
 $string['aggregatesum'] = 'Suma de valoracions';
 $string['aggregatetype'] = 'Tipus d\'agregació';
+$string['ajaxrating'] = 'Habilita valoracions AJAX';
 $string['allforums'] = 'Tots els fòrums';
 $string['allowchoice'] = 'Permet triar a tothom';
 $string['allowdiscussions'] = 'Pot un $a enviar un missatge a aquest fòrum?';
@@ -29,13 +31,9 @@ $string['blockperioddisabled'] = 'No bloquis';
 $string['bynameondate'] = 'per $a->name - $a->date';
 $string['cannotadddiscussion'] = 'Afegir debats en aquest fòrum requereix pertànyer al grup.';
 $string['cannotadddiscussionall'] = 'No teniu permís per a afegir un nou tema de debat per a tots els participants.';
-$string['cannotaddsubscriber'] = 'No es pot afegir la subscripció de l\'usuari ID $a en aquest fòrum.';
-$string['cannotfindorcreateforum'] = 'No s\'ha pogut trobar ni crear el fòrum general de notícies del lloc';
-$string['cannotinsertrate'] = 'No s\'ha pogut inserir una nova valoració ($a[0] = $a[1])';
-$string['cannotremovesubscriber'] = 'No s\'ha pogut cancel·lar la subscripció de l\'usuari ID $a en aquest fòrum.';
-$string['cannotupdaterate'] = 'No s\'ha pogut actualitzar una valoració anterior ($a[0] = $a[1])';
 $string['cannotviewpostyet'] = 'Encara no podeu llegir les preguntes d\'altres estudiants en aquest debat perquè no hi heu enviat cap missatge';
 $string['cleanreadtime'] = 'Hora per a marcar els missatges vells com a llegits';
+$string['configajaxrating'] = 'Les valoracions AJAX constitueixen una millora d\'usabilitat del sistema de valoracions dels fòrums. Si habiliteu aquesta opció, els usuaris podran valorar els missatges del fòrum quasi instantàniament, sense necessitat de desplaçar-se al capdavall de la pàgina i fer clic al botó \'Envia les meves darreres valoracions\'. Aquest paràmetre requereix que l\'AJAX estigui habilitat al lloc i en el perfil dels usuaris.';
 $string['configcleanreadtime'] = 'L\'hora del dia per a netejar missatges vells de la taula de missatges llegits.';
 $string['configdisplaymode'] = 'El mode de visualització per defecte dels debats si no se n\'especifica un.';
 $string['configenablerssfeeds'] = 'Aquest commutador habilitarà la possibilitat de tenir RSS en tots els fòrums. Haureu d\'activar l\'RSS en els paràmetres de cada fòrum.';
@@ -128,9 +126,7 @@ $string['inforum'] = 'en $a';
 $string['intronews'] = 'Anuncis i notícies generals';
 $string['introsocial'] = 'Un fòrum obert per xerrar sobre qualsevol cosa que es vulgui';
 $string['introteacher'] = 'Un fòrum per a notes i debats només del professorat';
-$string['invalidaccess'] = 'No s\'ha accedit correctament a aquesta pàgina';
-$string['invalidforumid'] = 'L\'ID del fòrum és incorrecte';
-$string['invalidpostid'] = 'L\'ID del missatge ($a) no és vàlid';
+$string['invalidrate'] = 'Valoració incorrecta ($a)';
 $string['lastpost'] = 'Darrer missatge';
 $string['learningforums'] = 'Fòrums d\'aprenentatge';
 $string['logblocked'] = 'Registra correus blocats';
@@ -163,25 +159,20 @@ $string['newforumposts'] = 'Nous missatges dels fòrums';
 $string['nodiscussions'] = 'Encara no hi ha cap tema de debat en aquest fòrum';
 $string['nodiscussionsstartedby'] = 'No hi ha debats iniciats per aquest usuari';
 $string['noguestpost'] = 'Els visitants no poden enviar missatges.';
-$string['noguestrate'] = 'Els usuaris visitants no poden valorar els missatges';
 $string['noguestsubscribe'] = 'Els visitants no poden subscriure\'s per rebre els missatges del fòrum per correu electrònic.';
 $string['noguesttracking'] = 'Els visitants no poden definir opcions de seguiment.';
 $string['nomorepostscontaining'] = 'No s\'han trobat més missatges que continguin \'$a\'';
 $string['nonews'] = 'Encara no s\'han enviat notícies';
-$string['nopermissiontosubscribe'] = 'No teniu permís per a veure les subscripcions del fòrum';
 $string['nopostforum'] = 'No us és permès d\'escriure en aquest fòrum';
 $string['noposts'] = 'No hi ha missatges';
 $string['nopostscontaining'] = 'No s\'ha trobat cap missatge que contingui \'$a\'';
 $string['noquestions'] = 'Encara no hi ha preguntes en aquest fòrum';
-$string['norate'] = 'No es permet valorar els missatges';
-$string['noresult'] = 'No hi ha valoracions d\'aquest missatge: $a';
+$string['noratinggiven'] = 'Sense valoració';
 $string['nosubscribers'] = 'Encara no hi ha subscriptors d\'aquest fòrum';
 $string['nothingnew'] = 'Res nou per a $a';
 $string['notingroup'] = 'Heu de ser part d\'un grup per veure aquest fòrum.';
 $string['notrackforum'] = 'No facis el seguiment de missatges no llegits';
-$string['noviewanyrate'] = 'Només podeu veure les valoracions dels vostres missatges';
 $string['noviewdiscussionspermission'] = 'No teniu permís per a veure debats en aquest fòrum';
-$string['noviewrate'] = 'No teniu permís per a veure les valoracions dels missatges';
 $string['nowallsubscribed'] = 'Us heu subscrit a tots els fòrums de $a';
 $string['nowallunsubscribed'] = 'Heu cancel·lat la subscripció a tots els fòrums de $a';
 $string['nownotsubscribed'] = '$a->name NO rebrà còpies de \'$a->forum\' per correu electrònic.';
@@ -305,5 +296,19 @@ $string['youratedthis'] = 'La vostra valoració';
 $string['yournewquestion'] = 'La vostra pregunta';
 $string['yournewtopic'] = 'Nou tema de debat';
 $string['yourreply'] = 'La vostra resposta';
+$string['cannotaddsubscriber'] = 'No es pot afegir la subscripció de l\'usuari ID $a en aquest fòrum.'; // ORPHANED
+$string['cannotfindorcreateforum'] = 'No s\'ha pogut trobar ni crear el fòrum general de notícies del lloc'; // ORPHANED
+$string['cannotinsertrate'] = 'No s\'ha pogut inserir una nova valoració ($a[0] = $a[1])'; // ORPHANED
+$string['cannotremovesubscriber'] = 'No s\'ha pogut cancel·lar la subscripció de l\'usuari ID $a en aquest fòrum.'; // ORPHANED
+$string['cannotupdaterate'] = 'No s\'ha pogut actualitzar una valoració anterior ($a[0] = $a[1])'; // ORPHANED
+$string['invalidaccess'] = 'No s\'ha accedit correctament a aquesta pàgina'; // ORPHANED
+$string['invalidforumid'] = 'L\'ID del fòrum és incorrecte'; // ORPHANED
+$string['invalidpostid'] = 'L\'ID del missatge ($a) no és vàlid'; // ORPHANED
+$string['noguestrate'] = 'Els usuaris visitants no poden valorar els missatges'; // ORPHANED
+$string['nopermissiontosubscribe'] = 'No teniu permís per a veure les subscripcions del fòrum'; // ORPHANED
+$string['norate'] = 'No es permet valorar els missatges'; // ORPHANED
+$string['noresult'] = 'No hi ha valoracions d\'aquest missatge: $a'; // ORPHANED
+$string['noviewanyrate'] = 'Només podeu veure les valoracions dels vostres missatges'; // ORPHANED
+$string['noviewrate'] = 'No teniu permís per a veure les valoracions dels missatges'; // ORPHANED
 
 ?>

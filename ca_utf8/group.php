@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // group.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['addgroupstogrouping'] = 'Afegeix grups a l\'agrupament';
@@ -29,6 +29,7 @@ $string['deleteallgroups'] = 'Suprimeix tots els grups';
 $string['deletegroupconfirm'] = 'Segur que voleu suprimir el grup \'$a\'?';
 $string['deletegrouping'] = 'Suprimeix agrupament';
 $string['deletegroupingconfirm'] = 'Segur que voleu suprimir l\'agrupament \'$a\'? (els grups d\'aquest agrupament no se suprimiran)';
+$string['deletegroupsconfirm'] = 'Segur que voleu suprimir els grups següents?';
 $string['deleteselectedgroup'] = 'Suprimeix grup seleccionat';
 $string['editgroupingsettings'] = 'Edita paràmetres d\'agrupament';
 $string['editgroupsettings'] = 'Edita paràmetres del grup';
@@ -37,6 +38,8 @@ $string['erroraddremoveuser'] = 'S\'ha produït un error en afegir l\'usuari $a 
 $string['erroreditgroup'] = 'S\'ha produït un error en crear o actualitzar el grup $a';
 $string['erroreditgrouping'] = 'S\'ha produït un error en crear o actualitzar l\'agrupament $a';
 $string['errorinvalidgroup'] = 'S\'ha produït un error: el grup $a no és vàlid';
+$string['errorselectone'] = 'Seleccioneu un sol grup abans de triar aquesta opció';
+$string['errorselectsome'] = 'Seleccioneu un o més grups abans de triar aquesta opció';
 $string['evenallocation'] = 'Nota: el nombre de membres per grup serà diferent del que havíeu especificat, a fi de distribuir-los més equilibradament.';
 $string['existingmembers'] = 'Membres existents: $a';
 $string['filtergroups'] = 'Filtra grups per:';

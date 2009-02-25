@@ -1,8 +1,7 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // install.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
-$string['aborting'] = 'S\'està interrompent la instal·lació';
 $string['admindirerror'] = 'El directori d\'administració especificat és incorrecte';
 $string['admindirname'] = 'Directori d\'administració';
 $string['admindirsetting'] = 'Alguns servidors web utilitzen un URL especial /admin per accedir a un tauler de control o quelcom semblant. Malauradament aquesta és també la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu arreglar aquest problema canviant el nom del directori d\'administració de Moodle en la vostra instal·lació i posant el nou nom aquí. Per exemple:<br /> <br /><b>moodleadmin</b><br /> <br />
@@ -10,33 +9,18 @@ Això modificarà els enllaços d\'administració de Moodle.';
 $string['admindirsettinghead'] = 'S\'està configurant el directori d\'administració...';
 $string['admindirsettingsub'] = 'Alguns proveïdors d\'espai web utilitzen /admin com una adreça URL especial per accedir a un tauler de control o quelcom semblant. Malauradament això interfereix amb la ubicació estàndard de les pàgines d\'administració de Moodle. Podeu solucionar aquest problema canviant el nom del directori admin en la vostra instal·lació i introduint aquí el nou nom. Per exemple: <br /> <br /><b>moodleadmin</b><br /> <br />
 Això repararà tots els enllaços d\'administració de Moodle.';
-$string['adminemail'] = 'Correu electrònic:';
-$string['adminfirstname'] = 'Nom:';
-$string['admininfo'] = 'Dades de l\'administrador';
-$string['adminlastname'] = 'Cognoms:';
-$string['adminpassword'] = 'Contrasenya:';
-$string['adminusername'] = 'Nom d\'usuari/ària';
-$string['askcontinue'] = 'Continua (sí/no)';
-$string['availabledbtypes'] = 'Tipus de base de dades disponibles';
-$string['availablelangs'] = 'Llista d\'idiomes disponibles';
-$string['cannotconnecttodb'] = 'No es pot obrir la connexió amb la base de dades';
 $string['caution'] = 'Alerta';
-$string['checkingphpsettings'] = 'S\'estan comprovant els paràmetres del PHP';
 $string['chooselanguage'] = 'Trieu un idioma';
 $string['chooselanguagehead'] = 'Trieu un idioma';
 $string['chooselanguagesub'] = 'Trieu un idioma NOMÉS per a la instal·lació. En una pantalla posterior podreu triar idiomes per al lloc i per als usuaris.';
 $string['compatibilitysettings'] = 'S\'estan comprovant els paràmetres del PHP...';
 $string['compatibilitysettingshead'] = 'S\'estan comprovant els paràmetres del PHP...';
 $string['compatibilitysettingssub'] = 'El vostre servidor hauria de passar totes aquestes proves per tal que Moodle funcioni correctament.';
-$string['configfilecreated'] = 'El fitxer de configuració s\'ha creat correctament';
-$string['configfiledoesnotexist'] = 'El fitxer de configuració no existeix';
 $string['configfilenotwritten'] = 'La seqüència d\'instal·lació no ha estat capaç de crear automàticament un fitxer config.php que contingui els paràmetres que heu triat, probablement perquè no pugui escriure al directori de Moodle. Podeu copiar a mà el codi següent en un fitxer anomenat config.php dins del directori arrel de Moodle.';
 $string['configfilewritten'] = 'S\'ha creat correctament el fitxer config.php';
 $string['configurationcomplete'] = 'S\'ha completat la configuració';
 $string['configurationcompletehead'] = 'S\'ha completat la configuració';
 $string['configurationcompletesub'] = 'Moodle ha intentat desar la configuració en un fitxer en l\'arrel de la vostra instal·lació de Moodle.';
-$string['configurationfileexist'] = 'Ja existeix un fitxer de configuració';
-$string['creatingconfigfile'] = 'S\'està  creant el fitxer de configuració...';
 $string['database'] = 'Base de dades';
 $string['databasecreationsettings'] = 'Ara cal configurar els paràmetres de la base de dades on s\'emmagatzemara la majoria de dades de Moodle. L\'instal·lador Moodle4Windows crearà automàticament aquesta base de dades amb els paràmetres que especifiqueu aquí.<br /><br /><br />
 <b>Tipus:</b> mysql (determinat per l\'instal·lador).<br />
@@ -52,9 +36,6 @@ $string['databasecreationsettingssub'] = '<b>Tipus:</b> fixat a \"mysql\" per l\
 <b>Usuari:</b> fixat a \"root\" per l\'instal·lador<br />
 <b>Contrasenya:</b> la contrasenya de l\'usuari \"root\" de la base de dades<br />
 <b>Prefix de les taules:</b> prefix opcional per utilitzar en els noms de totes les taules';
-$string['databasehost'] = 'Servidor de base de dades:';
-$string['databasename'] = 'Nom de la base de dades:';
-$string['databasepass'] = 'Contrasenya de la base de dades:';
 $string['databasesettings'] = 'Ara cal configurar la base de dades on s\'emmagatzemaran la majoria de dades de Moodle. Aquesta base de dades s\'ha d\'haver creat abans i cal tenir un nom d\'usuari i una contrasenya per accedir-hi.<br />
 <br /> <br />
 <b>Tipus:</b> mysql o postgres7<br />
@@ -63,7 +44,6 @@ $string['databasesettings'] = 'Ara cal configurar la base de dades on s\'emmagat
 <b>Usuari:</b> nom de l\'usuari de la base de dades<br />
 <b>Contrasenya:</b> contrasenya de l\'usuari de la base de dades<br />
 <b>Prefix de les taules:</b> prefix opcional per utilitzar en els noms de totes les taules';
-$string['databasesettingsformoodle'] = 'Paràmetres de la base de dades de Moodle';
 $string['databasesettingshead'] = 'Ara cal configurar la base de dades on s\'emmagatzemaran la majoria de dades de Moodle. Aquesta base de dades s\'ha d\'haver creat abans i cal tenir un nom d\'usuari i una contrasenya per accedir-hi.';
 $string['databasesettingssub'] = '<b>Tipus:</b> mysql o postgres7<br />
 <b>Servidor:</b> p. ex. localhost o db.isp.com<br />
@@ -113,18 +93,10 @@ $string['databasesettingssub_postgres7'] = '<b>Tipus:</b> PostgreSQL<br />
 <b>Usuari:</b> el vostre nom d\'usuari de la base de dades<br />
 <b>Contrasenya:</b> la vostra contrasenya de la base de dades<br />
 <b>Prefix de les taules:</b> prefix que cal anteposar als noms de totes les taules (obligatori)';
-$string['databasesettingssub_sqlite3_pdo'] = '<b>Tipus:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimental! (no l\'utilitzeu en producció)</strong></b><br />
-<b>Servidor:</b> camí (complet) del directori on es desarà el fitxer de la base de dades; en blanc o localhost per utilitzar el directori de dades de Moodle<br />
-<b>Nom:</b> nom de la base de dades, p. ex. moodle (opcional)<br />
-<b>Usuari:</b> el vostre nom d\'usuari de la base de dades (opcional)<br />
-<b>Contrasenya:</b> la vostra contrasenya de la base de dades (opcional)<br />
-<b>Prefix de les taules:</b> prefix que cal anteposar als noms de totes les taules (obligatori)<br />
-El nom del fitxer de la base de dades es determinarà mitjançant el nom d\'usuari, el nom de la base de dades i la contrasenya que definiu més amunt.';
 $string['databasesettingswillbecreated'] = '<strong>Nota</strong >: l\'instal·lador intentarà crear automàticament la base de dades si no existeix.';
-$string['databasetype'] = 'Tipus de base de dades:';
-$string['databaseuser'] = 'Usuari de la base de dades:';
 $string['dataroot'] = 'Directori de dades';
 $string['datarooterror'] = 'No s\'ha pogut trobar o crear el directori de dades que heu especificat. Corregiu el camí o creeu el directori a mà.';
+$string['datarootpublicerror'] = 'El directori de dades que heu especificat és accessible directament per web. Utilitzeu una altra ubicació.';
 $string['dbconnectionerror'] = 'No es pot obrir la connexió amb la base de dades que heu especificat. Comproveu els paràmetres de la base de dades.';
 $string['dbcreationerror'] = 'Error en la creació de la base de dades. No s\'ha pogut crear la base de dades amb els paràmetres proporcionats.';
 $string['dbhost'] = 'Ordinador servidor';
@@ -156,18 +128,13 @@ Especifiqueu el camí complet del directori d\'aquesta instal·lació. Assegureu
 Necessiteu un lloc on Moodle pugui desar els fitxers que es pengin. L\'usuari del servidor web (generalment \'nobody\' o \'apache\') ha de tenir permisos de lectura i d\'ESCRIPTURA en aquest directori, però no hauria de ser accessible directament via web.</p>';
 $string['dirroot'] = 'Directori de Moodle';
 $string['dirrooterror'] = 'El paràmetre \'Directori de Moodle\' sembla incorrecte: no s\'hi ha pogut trobat cap instal·lació de Moodle. S\'ha reiniciat el valor del paràmetre.';
-$string['disagreelicense'] = 'No es pot continuar l\'actualització sense acceptar la GPL.';
 $string['download'] = 'Baixa';
 $string['downloadlanguagebutton'] = 'Baixa el paquet d\'idioma \"$a\"';
 $string['downloadlanguagehead'] = 'Baixa paquet d\'idioma';
 $string['downloadlanguagenotneeded'] = 'Podeu continuar el procés d\'instal·lació amb el paquet d\'idioma per defecte \"$a\".';
-$string['downloadlanguagepack'] = 'Voleu baixar ara el paquet d\'idioma (sí/no)?';
 $string['downloadlanguagesub'] = 'Ara teniu l\'opció de baixar un paquet d\'idioma i continuar el procés d\'instal·lació en aquest idioma.<br /><br />Si no podeu baixar el paquet, el procés d\'instal·lació prosseguirà en anglès. (Després que s\'hagi completat la instal·lació, tindreu l\'oportunitat de baixar i instal·lar paquets d\'idioma addicionals.)';
-$string['downloadsuccess'] = 'El paquet d\'idioma s\'ha baixat correctament';
-$string['doyouagree'] = 'Esteu d\'acord (sí/no)?';
 $string['environmenthead'] = 'S\'està comprovant el vostre entorn';
 $string['environmentsub'] = 'S\'està comprovant si els diferents components del vostre sistema satisfan els requeriments';
-$string['errorsinenvironment'] = 'Hi ha errors en l\'entorn.';
 $string['fail'] = 'Error';
 $string['fileuploads'] = 'Càrrega de fitxers';
 $string['fileuploadserror'] = 'Hauria d\'estar habilitada';
@@ -195,27 +162,9 @@ $string['globalsquoteshelp'] = '<p>No s\'aconsella tenir inhabilitat Magic Quote
 <blockquote>php_value magic_quotes_gpc On</blockquote>
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
-$string['inputdatadirectory'] = 'Directori de dades:';
-$string['inputwebadress'] = 'Adreça web:';
-$string['inputwebdirectory'] = 'Directori de Moodle';
 $string['installation'] = 'Instal·lació';
-$string['installationiscomplete'] = 'S\'ha completat la instal·lació';
-$string['invalidargumenthelp'] = 'Error: els arguments no són vàlids.
-Ús: $php cliupgrade.php OPCIONS
-Utilitzeu l\'opció --help per a més informació';
-$string['invalidemail'] = 'L\'adreça de correu no és vàlida';
-$string['invalidhost'] = 'El servidor no és vàlid';
-$string['invalidint'] = 'Error: el valor no és un enter';
-$string['invalidintrange'] = 'Error: el valor és fora dels límits';
-$string['invalidpath'] = 'El camí no és vàlid';
-$string['invalidsetelement'] = 'Error: el valor que heu proporcionat no coincideix amb cap de les opcions permeses';
-$string['invalidtextvalue'] = 'El text no és vàlid';
-$string['invalidurl'] = 'L\'URL no és vàlid';
-$string['invalidvalueforlanguage'] = 'El valor no és vàlid per a l\'opció --lang. Utilitzeu --help per a més informació';
-$string['invalidyesno'] = 'Error: el valor no és un argument vàlid sí/no.';
 $string['langdownloaderror'] = 'Dissortadament l\'idioma \"$a\" no està instal·lat. La instal·lació prosseguirà en anglès.';
 $string['langdownloadok'] = 'L\'dioma \"$a\" s\'ha instal·lat amb èxit. La instal·lació prosseguirà en aquest idioma.';
-$string['locationanddirectories'] = 'Ubicació i directoris';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Hauria d\'estar desactivat';
 $string['magicquotesruntimehelp'] = '<p>Aquest paràmetre hauria d\'estar desactivat per tal que Moodle funcioni correctament.</p>
@@ -252,16 +201,13 @@ $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'El PHP no s\'ha configurat correctament amb l\'extensió ODBC de manera que pugui comunicar-se amb Oracle. Reviseu el fitxer php.ini o recompileu el PHP.';
 $string['pass'] = 'Correcte';
 $string['pgsqlextensionisnotpresentinphp'] = 'El PHP no s\'ha configurat correctament amb l\'extensió PGSQL de manera que pugui comunicar-se amb PostgreSQL. Reviseu el fitxer php.ini o recompileu el PHP.';
-$string['php52versionerror'] = 'La versió de PHP ha de ser 5.2.0 o superior';
-$string['php52versionhelp'] = '<p>Moodle requereix una versió de PHP 5.2.0 o superior.</p>
-<p>A hores d\'ara esteu utilitzant la versió $a.</p>
-<p>Heu d\'actualitzar el PHP o canviar de servidor.</p>';
 $string['phpversion'] = 'Versió PHP';
+$string['phpversionerror'] = 'La versió del PHP ha de ser com a mínim la 4.1.0';
 $string['phpversionhelp'] = '<p>Moodle necessita la versió de PHP 4.1.0 o posterior.</p>
 <p>A hores d\'ara esteu utilitzant la versió $a.</p>
 <p>Us caldrà actualitzar el PHP o traslladar Moodle a un ordinador amb una versió de PHP més recent.</p>';
 $string['postgres7'] = 'PostgreSQL (postgres7)';
-$string['releasenoteslink'] = 'Per a més informació sobre aquesta versió de Moodle, consulteu les Notes de llançament en $a';
+$string['postgresqlwarning'] = '<strong>Nota:</strong> Si experimenteu problemes de connexió, podeu provar a deixar en blanc els camps de base de dades, usuari i contrasenya i definir el camp de servidor així: host=\'postgresql_host\' port=\'5432\' dbname=\'postgresql_database_name\' user=\'postgresql_user\' password=\'postgresql_user_password\'. Més informació en <a href=\"http://docs.moodle.org/en/Installing_Postgres_for_PHP\">Moodle Docs</a>';
 $string['safemode'] = 'Mode segur';
 $string['safemodeerror'] = 'Moodle pot tenir problemes amb el mode segur activat';
 $string['safemodehelp'] = '<p>Moodle pot tenir diversos problemes amb el mode segur activat. Probablement no podrà crear fitxers nous.</p>
@@ -269,35 +215,103 @@ $string['safemodehelp'] = '<p>Moodle pot tenir diversos problemes amb el mode se
 <p>Normalment el mode segur només està habilitat en servidors webs públics una mica paranoics, de manera que és probable que hàgiu de buscar un altre servei d\'allotjament per al vostre Moodle.</p>
 
 <p>Podeu continuar la instal·lació si voleu, però trobareu problemes de funcionament més endavant.</p>';
-$string['selectlanguage'] = 'Selecció d\'idioma per a la instal·lació';
 $string['sessionautostart'] = 'Autoinici de sessió';
 $string['sessionautostarterror'] = 'Hauria d\'estar desactivat';
 $string['sessionautostarthelp'] = '<p>Moodle necessita suport per a sessions i no funcionarà sense.</p>
 
 <p>Les sessions es poden habilitar en el fitxer php.ini. Comproveu el paràmetre session.auto_start.</p>';
-$string['sitefullname'] = 'Nom complet del lloc';
-$string['siteinfo'] = 'Detalls del lloc';
-$string['sitenewsitems'] = 'Titulars de notícies:';
-$string['siteshortname'] = 'Nom curt del lloc:';
-$string['sitesummary'] = 'Resum del lloc:';
 $string['skipdbencodingtest'] = 'Omet la prova de codificació de la base de dades';
-$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimental! (no l\'utilitzeu en producció)</strong></b>';
-$string['sqliteextensionisnotpresentinphp'] = 'El PHP no ha estat configurat correctament amb l\'extensió SQLite. Reviseu el fitxer php.ini o torneu a compilar el PHP.';
-$string['tableprefix'] = 'Prefix de taules:';
-$string['upgradingactivitymodule'] = 'S\'està actualitzant el mòdul d\'activitat';
-$string['upgradingbackupdb'] = 'S\'està actualitzant la base de dades de còpies de seguretat';
-$string['upgradingblocksdb'] = 'S\'està actualitzant la base de dades de blocs';
-$string['upgradingblocksplugin'] = 'S\'està actualitzant el connector de blocs';
-$string['upgradingcompleted'] = 'S\'ha completat l\'actualització...';
-$string['upgradingcourseformatplugin'] = 'S\'està actualitzant el connector de format de curs';
-$string['upgradingenrolplugin'] = 'S\'està actualitzant el connector d\'inscripcions';
-$string['upgradinggradeexportplugin'] = 'S\'està actualitzant el connector d\'exportació de qualificacions';
-$string['upgradinggradeimportplugin'] = 'S\'està actualitzant el connector d\'importació de qualificacions';
-$string['upgradinggradereportplugin'] = 'S\'està actualitzant el connector d\'informes de qualificacions';
-$string['upgradinglocaldb'] = 'S\'està actualitzant la base de dades local';
-$string['upgradingmessageoutputpluggin'] = 'S\'està actualitzant el connector de sortida de missatges';
-$string['upgradingqtypeplugin'] = 'S\'està actualitzant el connector de tipus de preguntes';
-$string['upgradingrpcfunctions'] = 'S\'estan actualitzant les funcions RPC';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
+$string['welcomep20'] = 'Esteu veient aquesta pàgina perquè heu instal·lat amb èxit i heu executat el paquet <strong>$a->packname $a->packversion</strong>. Felicitacions!';
+$string['welcomep30'] = 'Aquesta versió de <strong>$a->installername</strong> inclou les aplicacions necessàries per crear un entorn en el qual funcioni <strong>Moodle</strong>:';
+$string['welcomep40'] = 'El paquet inclou també <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong>.';
+$string['welcomep50'] = 'L\'ús de totes les aplicacions d\'aquest paquet és governat per les seves llicències respectives. El paquet <strong>$a->installername</strong> complet és 
+<a href=\"http://www.opensource.org/docs/definition_plain.html\">codi font obert</a> i es distribueix 
+sota llicència <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a>.';
+$string['welcomep60'] = 'Les pàgines següents us guiaran per una sèrie de passos fàcils de seguir per configurar <strong>Moodle</strong> en el vostre ordinador. Podeu acceptar els paràmetres per defecte o, opcionalment, modificar-los perquè s\'ajustin a les vostres necessitats.';
+$string['welcomep70'] = 'Feu clic en el botó \"Següent\" per continuar la configuració de <strong>Moodle</strong>.';
+$string['wwwroot'] = 'Adreça web';
+$string['wwwrooterror'] = 'L\'adreça web no sembla vàlida. La instal·lació de Moodle no sembla que sigui en aquesta ubicació,';
+$string['aborting'] = 'S\'està interrompent la instal·lació'; // ORPHANED
+$string['adminemail'] = 'Correu electrònic:'; // ORPHANED
+$string['adminfirstname'] = 'Nom:'; // ORPHANED
+$string['admininfo'] = 'Dades de l\'administrador'; // ORPHANED
+$string['adminlastname'] = 'Cognoms:'; // ORPHANED
+$string['adminpassword'] = 'Contrasenya:'; // ORPHANED
+$string['adminusername'] = 'Nom d\'usuari/ària'; // ORPHANED
+$string['askcontinue'] = 'Continua (sí/no)'; // ORPHANED
+$string['availabledbtypes'] = 'Tipus de base de dades disponibles'; // ORPHANED
+$string['availablelangs'] = 'Llista d\'idiomes disponibles'; // ORPHANED
+$string['cannotconnecttodb'] = 'No es pot obrir la connexió amb la base de dades'; // ORPHANED
+$string['checkingphpsettings'] = 'S\'estan comprovant els paràmetres del PHP'; // ORPHANED
+$string['configfilecreated'] = 'El fitxer de configuració s\'ha creat correctament'; // ORPHANED
+$string['configfiledoesnotexist'] = 'El fitxer de configuració no existeix'; // ORPHANED
+$string['configurationfileexist'] = 'Ja existeix un fitxer de configuració'; // ORPHANED
+$string['creatingconfigfile'] = 'S\'està  creant el fitxer de configuració...'; // ORPHANED
+$string['databasehost'] = 'Servidor de base de dades:'; // ORPHANED
+$string['databasename'] = 'Nom de la base de dades:'; // ORPHANED
+$string['databasepass'] = 'Contrasenya de la base de dades:'; // ORPHANED
+$string['databasesettingsformoodle'] = 'Paràmetres de la base de dades de Moodle'; // ORPHANED
+$string['databasesettingssub_sqlite3_pdo'] = '<b>Tipus:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimental! (no l\'utilitzeu en producció)</strong></b><br />
+<b>Servidor:</b> camí (complet) del directori on es desarà el fitxer de la base de dades; en blanc o localhost per utilitzar el directori de dades de Moodle<br />
+<b>Nom:</b> nom de la base de dades, p. ex. moodle (opcional)<br />
+<b>Usuari:</b> el vostre nom d\'usuari de la base de dades (opcional)<br />
+<b>Contrasenya:</b> la vostra contrasenya de la base de dades (opcional)<br />
+<b>Prefix de les taules:</b> prefix que cal anteposar als noms de totes les taules (obligatori)<br />
+El nom del fitxer de la base de dades es determinarà mitjançant el nom d\'usuari, el nom de la base de dades i la contrasenya que definiu més amunt.'; // ORPHANED
+$string['databasetype'] = 'Tipus de base de dades:'; // ORPHANED
+$string['databaseuser'] = 'Usuari de la base de dades:'; // ORPHANED
+$string['disagreelicense'] = 'No es pot continuar l\'actualització sense acceptar la GPL.'; // ORPHANED
+$string['downloadlanguagepack'] = 'Voleu baixar ara el paquet d\'idioma (sí/no)?'; // ORPHANED
+$string['downloadsuccess'] = 'El paquet d\'idioma s\'ha baixat correctament'; // ORPHANED
+$string['doyouagree'] = 'Esteu d\'acord (sí/no)?'; // ORPHANED
+$string['errorsinenvironment'] = 'Hi ha errors en l\'entorn.'; // ORPHANED
+$string['inputdatadirectory'] = 'Directori de dades:'; // ORPHANED
+$string['inputwebadress'] = 'Adreça web:'; // ORPHANED
+$string['inputwebdirectory'] = 'Directori de Moodle'; // ORPHANED
+$string['installationiscomplete'] = 'S\'ha completat la instal·lació'; // ORPHANED
+$string['invalidargumenthelp'] = 'Error: els arguments no són vàlids.
+Ús: $php cliupgrade.php OPCIONS
+Utilitzeu l\'opció --help per a més informació'; // ORPHANED
+$string['invalidemail'] = 'L\'adreça de correu no és vàlida'; // ORPHANED
+$string['invalidhost'] = 'El servidor no és vàlid'; // ORPHANED
+$string['invalidint'] = 'Error: el valor no és un enter'; // ORPHANED
+$string['invalidintrange'] = 'Error: el valor és fora dels límits'; // ORPHANED
+$string['invalidpath'] = 'El camí no és vàlid'; // ORPHANED
+$string['invalidsetelement'] = 'Error: el valor que heu proporcionat no coincideix amb cap de les opcions permeses'; // ORPHANED
+$string['invalidtextvalue'] = 'El text no és vàlid'; // ORPHANED
+$string['invalidurl'] = 'L\'URL no és vàlid'; // ORPHANED
+$string['invalidvalueforlanguage'] = 'El valor no és vàlid per a l\'opció --lang. Utilitzeu --help per a més informació'; // ORPHANED
+$string['invalidyesno'] = 'Error: el valor no és un argument vàlid sí/no.'; // ORPHANED
+$string['locationanddirectories'] = 'Ubicació i directoris'; // ORPHANED
+$string['php52versionerror'] = 'La versió de PHP ha de ser 5.2.0 o superior'; // ORPHANED
+$string['php52versionhelp'] = '<p>Moodle requereix una versió de PHP 5.2.0 o superior.</p>
+<p>A hores d\'ara esteu utilitzant la versió $a.</p>
+<p>Heu d\'actualitzar el PHP o canviar de servidor.</p>'; // ORPHANED
+$string['releasenoteslink'] = 'Per a més informació sobre aquesta versió de Moodle, consulteu les Notes de llançament en $a'; // ORPHANED
+$string['selectlanguage'] = 'Selecció d\'idioma per a la instal·lació'; // ORPHANED
+$string['sitefullname'] = 'Nom complet del lloc'; // ORPHANED
+$string['siteinfo'] = 'Detalls del lloc'; // ORPHANED
+$string['sitenewsitems'] = 'Titulars de notícies:'; // ORPHANED
+$string['siteshortname'] = 'Nom curt del lloc:'; // ORPHANED
+$string['sitesummary'] = 'Resum del lloc:'; // ORPHANED
+$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Experimental! (no l\'utilitzeu en producció)</strong></b>'; // ORPHANED
+$string['sqliteextensionisnotpresentinphp'] = 'El PHP no ha estat configurat correctament amb l\'extensió SQLite. Reviseu el fitxer php.ini o torneu a compilar el PHP.'; // ORPHANED
+$string['tableprefix'] = 'Prefix de taules:'; // ORPHANED
+$string['upgradingactivitymodule'] = 'S\'està actualitzant el mòdul d\'activitat'; // ORPHANED
+$string['upgradingbackupdb'] = 'S\'està actualitzant la base de dades de còpies de seguretat'; // ORPHANED
+$string['upgradingblocksdb'] = 'S\'està actualitzant la base de dades de blocs'; // ORPHANED
+$string['upgradingblocksplugin'] = 'S\'està actualitzant el connector de blocs'; // ORPHANED
+$string['upgradingcompleted'] = 'S\'ha completat l\'actualització...'; // ORPHANED
+$string['upgradingcourseformatplugin'] = 'S\'està actualitzant el connector de format de curs'; // ORPHANED
+$string['upgradingenrolplugin'] = 'S\'està actualitzant el connector d\'inscripcions'; // ORPHANED
+$string['upgradinggradeexportplugin'] = 'S\'està actualitzant el connector d\'exportació de qualificacions'; // ORPHANED
+$string['upgradinggradeimportplugin'] = 'S\'està actualitzant el connector d\'importació de qualificacions'; // ORPHANED
+$string['upgradinggradereportplugin'] = 'S\'està actualitzant el connector d\'informes de qualificacions'; // ORPHANED
+$string['upgradinglocaldb'] = 'S\'està actualitzant la base de dades local'; // ORPHANED
+$string['upgradingmessageoutputpluggin'] = 'S\'està actualitzant el connector de sortida de missatges'; // ORPHANED
+$string['upgradingqtypeplugin'] = 'S\'està actualitzant el connector de tipus de preguntes'; // ORPHANED
+$string['upgradingrpcfunctions'] = 'S\'estan actualitzant les funcions RPC'; // ORPHANED
 $string['usagehelp'] = 'Sinopsi:
 $php cliupgrade.php OPCIONS
 
@@ -327,22 +341,10 @@ OPCIONS
 --help mostra aquesta ajuda
 
 Ús:
-$php cliupgrade.php --lang=en --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Lloc Moodle de mostra\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2';
-$string['versionerror'] = 'L\'usuari ha interromput per un error de versió';
-$string['welcomep10'] = '$a->installername ($a->installerversion)';
-$string['welcomep20'] = 'Esteu veient aquesta pàgina perquè heu instal·lat amb èxit i heu executat el paquet <strong>$a->packname $a->packversion</strong>. Felicitacions!';
-$string['welcomep30'] = 'Aquesta versió de <strong>$a->installername</strong> inclou les aplicacions necessàries per crear un entorn en el qual funcioni <strong>Moodle</strong>:';
-$string['welcomep40'] = 'El paquet inclou també <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong>.';
-$string['welcomep50'] = 'L\'ús de totes les aplicacions d\'aquest paquet és governat per les seves llicències respectives. El paquet <strong>$a->installername</strong> complet és 
-<a href=\"http://www.opensource.org/docs/definition_plain.html\">codi font obert</a> i es distribueix 
-sota llicència <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a>.';
-$string['welcomep60'] = 'Les pàgines següents us guiaran per una sèrie de passos fàcils de seguir per configurar <strong>Moodle</strong> en el vostre ordinador. Podeu acceptar els paràmetres per defecte o, opcionalment, modificar-los perquè s\'ajustin a les vostres necessitats.';
-$string['welcomep70'] = 'Feu clic en el botó \"Següent\" per continuar la configuració de <strong>Moodle</strong>.';
-$string['welcometext'] = '--- Benvinguts a l\'instal·lador de línia d\'ordres de Moodle ---';
-$string['writetoconfigfilefaild'] = 'Error: no s\'ha pogut escriure el fitxer de configuració';
-$string['wwwroot'] = 'Adreça web';
-$string['wwwrooterror'] = 'L\'adreça web no sembla vàlida. La instal·lació de Moodle no sembla que sigui en aquesta ubicació,';
-$string['yourchoice'] = 'La vostra elecció:';
-$string['phpversionerror'] = 'La versió del PHP ha de ser com a mínim la 4.1.0'; // ORPHANED
+$php cliupgrade.php --lang=en --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Lloc Moodle de mostra\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2'; // ORPHANED
+$string['versionerror'] = 'L\'usuari ha interromput per un error de versió'; // ORPHANED
+$string['welcometext'] = '--- Benvinguts a l\'instal·lador de línia d\'ordres de Moodle ---'; // ORPHANED
+$string['writetoconfigfilefaild'] = 'Error: no s\'ha pogut escriure el fitxer de configuració'; // ORPHANED
+$string['yourchoice'] = 'La vostra elecció:'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // glossary.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['addcomment'] = 'Afegeix un comentari';
@@ -19,7 +19,6 @@ $string['areyousuredeletecomment'] = 'Segur que voleu suprimir aquest comentari?
 $string['areyousureexport'] = 'Segur que voleu exportar aquesta entrada a';
 $string['ascending'] = '(ascendent)';
 $string['attachment'] = 'Fitxer adjunt';
-$string['author'] = 'autor/a';
 $string['authorview'] = 'Ordenat per autor';
 $string['back'] = 'Enrere';
 $string['cantinsertcat'] = 'No s\'ha pogut inserir la categoria';
@@ -55,12 +54,8 @@ $string['concepts'] = 'Conceptes';
 $string['configenablerssfeeds'] = 'Aquest commutador habilita la possibilitat de tenir RSS en tots els glossaris. Haureu d\'activar manualment l\'RSS en els paràmetres de cada glossari.';
 $string['current'] = 'Ordenació actual $a';
 $string['currentglossary'] = 'Glossari actual';
-$string['date'] = 'data';
 $string['dateview'] = 'Navega per data';
 $string['defaultapproval'] = 'Estat d\'aprovació per defecte';
-$string['defaultmode'] = 'Mode per defecte';
-$string['defaultsortkey'] = 'Clau d\'ordenació per defecte';
-$string['defaultsortorder'] = 'Ordenació per defecte';
 $string['definition'] = 'Definició';
 $string['definitions'] = 'Definicions';
 $string['deleteentry'] = 'Suprimeix entrada';
@@ -109,6 +104,7 @@ $string['explainimport'] = 'Heu d\'especificar el fitxer que voleu importar i de
 $string['explainspecial'] = 'Visualitzeu totes les entrades que no comencen per una lletra';
 $string['exportedentry'] = 'Entrada exportada';
 $string['exportentries'] = 'Exporta entrades';
+$string['exportentriestoxml'] = 'Exporta entrades a un fitxer XML';
 $string['exportfile'] = 'Exporta entrades a un fitxer';
 $string['exportglossary'] = 'Glossari exportat';
 $string['exporttomainglossary'] = 'Exporta al glossari principal';
@@ -136,7 +132,6 @@ $string['importedentries'] = 'Entrades importades';
 $string['importentries'] = 'Importa entrades';
 $string['importentriesfromxml'] = 'Importa entrades d\'un fitxer XML';
 $string['isglobal'] = 'Aquest glossari és global?';
-$string['letter'] = 'lletra';
 $string['linkcategory'] = 'Enllaça automàticament aquesta categoria';
 $string['linking'] = 'Enllaços automàtics';
 $string['mainglossary'] = 'Glossari principal';
@@ -155,7 +150,6 @@ $string['noentry'] = 'No s\'ha trobat cap entrada.';
 $string['notcategorised'] = 'No categoritzat';
 $string['numberofentries'] = 'Nombre d\'entrades';
 $string['onebyline'] = '(una per línia)';
-$string['popupformat'] = 'Format emergent';
 $string['printerfriendly'] = 'Versió per imprimir';
 $string['printviewnotallowed'] = 'La visualització per a impressora no està autoritzada';
 $string['question'] = 'Qüestió';
@@ -194,5 +188,12 @@ $string['withauthor'] = 'Conceptes amb autor';
 $string['withoutauthor'] = 'Conceptes sense autor';
 $string['writtenby'] = 'Escrit per';
 $string['youarenottheauthor'] = 'No sou l\'autor d\'aquest comentari, de manera que no podeu editar-lo.';
+$string['author'] = 'autor/a'; // ORPHANED
+$string['date'] = 'data'; // ORPHANED
+$string['defaultmode'] = 'Mode per defecte'; // ORPHANED
+$string['defaultsortkey'] = 'Clau d\'ordenació per defecte'; // ORPHANED
+$string['defaultsortorder'] = 'Ordenació per defecte'; // ORPHANED
+$string['letter'] = 'lletra'; // ORPHANED
+$string['popupformat'] = 'Format emergent'; // ORPHANED
 
 ?>

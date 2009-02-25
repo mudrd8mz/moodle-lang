@@ -1,15 +1,13 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // chat.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
-$string['ajax'] = 'Versió Ajax';
 $string['autoscroll'] = 'Desplaçament automàtic';
 $string['beep'] = 'bip';
-$string['cantinsert'] = 'No s\'ha pogut inserir un missatge del xat';
-$string['cantlogin'] = 'No s\'ha pogut entrar a la sala de xat';
 $string['chat:chat'] = 'Parlar en un xat';
 $string['chat:deletelog'] = 'Suprimir registres de xat';
 $string['chat:readlog'] = 'Llegir registres de xat';
+$string['chat:talk'] = 'Participar en un xat';
 $string['chatintro'] = 'Text de presentació';
 $string['chatname'] = 'Nom d\'aquesta sala de xat';
 $string['chatreport'] = 'Sessions de xat';
@@ -36,7 +34,6 @@ $string['explainmethodnormal'] = 'Aquests paràmetres <strong>només</strong> co
 $string['generalconfig'] = 'Configuració normal';
 $string['helpchatting'] = 'Ajuda del xat';
 $string['idle'] = 'Inactiu';
-$string['invalidid'] = 'No s\'ha pogut trobar aquesta sala de xat';
 $string['messagebeepseveryone'] = '$a ha fet bip a tothom!';
 $string['messagebeepsyou'] = '$a t\'acaba de fer bip!';
 $string['messageenter'] = '$a acaba d\'entrar en aquest xat';
@@ -49,13 +46,11 @@ $string['modulename'] = 'Xat';
 $string['modulenameplural'] = 'Xats';
 $string['neverdeletemessages'] = 'No suprimeixis mai els missatges';
 $string['nextsession'] = 'Pròxima sessió programada';
-$string['nochat'] = 'No es troba el xat';
 $string['noguests'] = 'El xat no està obert a visitants';
 $string['nomessages'] = 'No hi ha missatges encara';
 $string['normalkeepalive'] = 'Keep-Alive';
 $string['normalstream'] = 'Corrent de dades';
 $string['noscheduledsession'] = 'No hi ha cap sessió programada';
-$string['notlogged'] = 'No heu entrat';
 $string['oldping'] = 'Temps límit de desconnexió';
 $string['pastchats'] = 'Sessions de xat anteriors';
 $string['refreshroom'] = 'Refresca la cambra';
@@ -67,8 +62,6 @@ $string['repeattimes'] = 'Repeteix sessions';
 $string['repeatweekly'] = 'El mateix dia a la mateixa hora cada setmana';
 $string['savemessages'] = 'Desa les sessions anteriors';
 $string['seesession'] = 'Visualitza aquesta sessió';
-$string['send'] = 'Envia';
-$string['sending'] = 'S\'està enviant';
 $string['serverhost'] = 'Nom del servidor';
 $string['serverip'] = 'Adreça IP del servidor';
 $string['servermax'] = 'Nombre màxim d\'usuaris';
@@ -77,7 +70,15 @@ $string['sessions'] = 'Sessions de xat';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Tothom pot veure les sessions anteriors';
 $string['updatemethod'] = 'Mètode d\'actualització';
-$string['updaterate'] = 'Índex d\'actualització:';
 $string['viewreport'] = 'Visualitza les sessions de xat anteriors';
+$string['ajax'] = 'Versió Ajax'; // ORPHANED
+$string['cantinsert'] = 'No s\'ha pogut inserir un missatge del xat'; // ORPHANED
+$string['cantlogin'] = 'No s\'ha pogut entrar a la sala de xat'; // ORPHANED
+$string['invalidid'] = 'No s\'ha pogut trobar aquesta sala de xat'; // ORPHANED
+$string['nochat'] = 'No es troba el xat'; // ORPHANED
+$string['notlogged'] = 'No heu entrat'; // ORPHANED
+$string['send'] = 'Envia'; // ORPHANED
+$string['sending'] = 'S\'està enviant'; // ORPHANED
+$string['updaterate'] = 'Índex d\'actualització:'; // ORPHANED
 
 ?>
