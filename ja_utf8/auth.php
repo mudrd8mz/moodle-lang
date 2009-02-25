@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['CASform'] = '認証選択';
@@ -243,7 +243,7 @@ $string['auth_pop3changepasswordurl_key'] = 'パスワード変更のURI';
 $string['auth_pop3description'] = 'この方法では、ユーザ名とパスワードを確認するためPOP3サーバを使用します。';
 $string['auth_pop3host'] = 'POP3サーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
 $string['auth_pop3host_key'] = 'ホスト';
-$string['auth_pop3mailbox'] = '接続を試みるメールボックス名 (通常は受信ボックス)';
+$string['auth_pop3mailbox'] = '接続を試みるメールボックス名 (通常「INBOX」です)';
 $string['auth_pop3mailbox_key'] = 'メールボックス';
 $string['auth_pop3notinstalled'] = 'POP3認証を使用できません。PHP IMAPモジュールがインストールされていません。';
 $string['auth_pop3port'] = 'サーバポート (110は最も一般的、995は一般的なSSL用)';
@@ -357,7 +357,7 @@ $string['update_oncreate'] = '作成時';
 $string['update_onlogin'] = '毎回ログイン時';
 $string['update_onupdate'] = '更新時';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() は、選択したユーザタイプをサポートしていません: $a';
-$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable()  は、まだ選択したユーザタイプをサポートしていません。';
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() は、まだ選択したユーザタイプをサポートしていません。';
 $string['auth_dbrevive'] = 'レビューユーザ $a[0] ID $a[1]'; //TBD
 
 ?>
