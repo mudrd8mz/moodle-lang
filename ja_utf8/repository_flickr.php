@@ -1,11 +1,18 @@
 <?PHP // $Id$ 
-      // repository_flickr.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // repository_flickr.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['apikey'] = 'APIキー';
 $string['callbackurl'] = 'コールバックURI';
-$string['callbackurltext'] = '1. あなたのMoodleサイトに<a href=\"http://www.flickr.com/services/api/keys/\">Flickr APIキーおよびSecret</a>を取得します。<br />2. あなたのコールバックURIは、<strong>$a</strong>です。<br />3. あなたの<a href=\"http://www.flickr.com/services/api/keys/\">Flickrキー</a>詳細を編集した後、コールバックURIを設定してください。';
-$string['callbackwarning'] = '1. あなたのMoodleサイトに<a href=\"http://www.flickr.com/services/api/keys/\">Flickr APIキーおよびSecret</a>を取得します。<br />2. 上記情報を保存した後、あなたのコールバックURIが生成されます。生成されたコールバックURIを確認するには、「保存」ボタンをクリックした後、「設定」をクリックしてください。<br />3. あなたの<a href=\"http://www.flickr.com/services/api/keys/\">Flickrキー</a>詳細を編集した後、コールバックURIを設定してください。';
+$string['callbackurltext'] = '<ol>
+<li>再度、<a href=\"http://www.flickr.com/services/api/keys/\">Flickr API Keys</a>にアクセスしてください。</li>
+<li>このFlickr keyにコールバックURI <strong>$a</strong> を設定したかどうか確認してください。</li>
+</ol>';
+$string['callbackwarning'] = '<ol>
+<li>あなたのMoodleサイトに<a href=\"http://www.flickr.com/services/api/keys/\">Flickr APIキーおよびSecret</a>を取得してください。</li>
+<li>これら詳細を入力した後、「保存」ボタンをクリックしてください。そして、「設定」をクリックすることで、このページに戻ることができます。あなたには、Moodleが生成したコールバックURIが表示されます。</li>
+<li>あなたの<a href=\"http://www.flickr.com/services/api/keys/\">Flickrキー</a>詳細を編集した後、コールバックURIを設定してください。</li>
+</ol>';
 $string['configplugin'] = 'Flickr設定';
 $string['emailaddress'] = 'メールアドレス';
 $string['invalidemail'] = '無効なFlickrメールアドレスです。';
