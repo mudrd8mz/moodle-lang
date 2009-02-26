@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta 4 (2007101508)
+      // resource.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['addresource'] = 'Afegeix un recurs';
@@ -34,7 +34,7 @@ $string['configsecretphrase'] = 'Aquesta frase secreta s\'utilitza per produir u
 $string['configwebsearch'] = 'Quan s\'està afegint un URL com a pàgina web o com a enllaç web, aquesta ubicació s\'ofereix a l\'usuari per ajudar-lo a cercar l\'URL que desitgi.';
 $string['configwindowsettings'] = 'Defineix el valor per defecte de la secció de configuració de la Finestra quan s\'afegeixen alguns nous recursos. Després de la primera vegada esdevé una preferència individual de l\'usuari.';
 $string['deploy'] = 'Desplega';
-$string['deployall'] = 'Deplega tot';
+$string['deployall'] = 'Desplega tot';
 $string['directlink'] = 'Enllaç directe a aquest fitxer';
 $string['directoryinfo'] = 'Es visualitzaran tots els fitxers del directori escollit.';
 $string['display'] = 'Finestra';
@@ -48,12 +48,16 @@ $string['fetcherror'] = 'Ha sorgit un error quan s\'intentava recuperar la pàgi
 $string['fetchservererror'] = 'Ha sorgit un error quan s\'intentava recuperar la pàgina web (probablement un error de programa).</p>';
 $string['filename'] = 'Nom del fitxer';
 $string['filtername'] = 'Enllaços automàtics a recursos';
+$string['forcedownload'] = 'Imposa que es baixi';
 $string['frameifpossible'] = 'Posa el recurs en un marc per mantenir visible la navegació local';
 $string['framesize'] = 'Mida del marc';
 $string['fulltext'] = 'Text complet';
 $string['htmlfragment'] = 'Fragment HTML';
 $string['imspackageloaded'] = 'S\'ha carregat el paquet.';
 $string['keepnavigationvisible'] = 'Manté visible la navegació en la mateixa pàgina';
+$string['keepnavigationvisibleno'] = 'No';
+$string['keepnavigationvisibleyesframe'] = 'Sí, dins d\'un marc';
+$string['keepnavigationvisibleyesobject'] = 'Sí, sense marc';
 $string['localfile'] = 'Fitxer local';
 $string['localfilechoose'] = 'Trieu un fitxer local (CD-ROM)';
 $string['localfilehelp'] = 'Ajuda per a la visualització de fitxers locals';

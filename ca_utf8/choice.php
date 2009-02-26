@@ -1,12 +1,10 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // choice.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['addmorechoices'] = 'Afegeix més opcions';
 $string['allowupdate'] = 'Permet canviar la resposta';
 $string['answered'] = 'Contestades';
-$string['cannotsavechoice'] = 'No s\'ha pogut desar la vostra opció';
-$string['cannotupdatechoice'] = 'Un error de la base de dades ha impedit actualitzar la vostra opció';
 $string['choice'] = 'Opció $a';
 $string['choice:choose'] = 'Respondre una consulta';
 $string['choice:deleteresponses'] = 'Suprimir respostes';
@@ -16,6 +14,7 @@ $string['choiceclose'] = 'Fins';
 $string['choicefull'] = 'Aquesta consulta està completa i no queden espais disponibles.';
 $string['choicename'] = 'Títol de la consulta';
 $string['choiceopen'] = 'Oberta';
+$string['choicesaved'] = 'S\'ha desat la consulta';
 $string['choicetext'] = 'Text de la consulta';
 $string['displayhorizontal'] = 'En horitzontal';
 $string['displaymode'] = 'Mode de visualització';
@@ -53,5 +52,7 @@ $string['taken'] = 'Ocupat';
 $string['timerestrict'] = 'Limita les respostes a aquest període de temps';
 $string['viewallresponses'] = 'Visualitza respostes ($a)';
 $string['yourselection'] = 'La vostra selecció';
+$string['cannotsavechoice'] = 'No s\'ha pogut desar la vostra opció'; // ORPHANED
+$string['cannotupdatechoice'] = 'Un error de la base de dades ha impedit actualitzar la vostra opció'; // ORPHANED
 
 ?>

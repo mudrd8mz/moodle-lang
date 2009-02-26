@@ -15,6 +15,7 @@ $string['allowobjectembed'] = 'Permet etiquetes EMBED i OBJECT';
 $string['allowrenames'] = 'Permet canvis de nom';
 $string['allowuserblockhiding'] = 'Permet que els usuaris ocultin blocs';
 $string['allowusermailcharset'] = 'Permet que l\'usuari seleccioni el joc de caràcters';
+$string['allowuserswitchrolestheycantassign'] = 'Permet que els usuaris sense la capacitat d\'assignar rols commutin rols';
 $string['allowuserthemes'] = 'Permet temes d\'usuari';
 $string['allowvisiblecoursesinhiddencategories'] = 'Permet cursos visibles en categories ocultes';
 $string['antivirus'] = 'Antivirus';
