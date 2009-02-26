@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+      // filters.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['actfilterhdr'] = 'מסנים פעילים (מצורפים ביחד)';
@@ -27,6 +27,7 @@ $string['newfilter'] = 'מסנן חדש';
 $string['removeall'] = 'סלק הכל';
 $string['removeselected'] = 'סלק נבחרים';
 $string['startswith'] = 'התחל ב-';
+$string['tablenosave'] = 'השינויים בטבלה למעלה נשמרים אוטומטית.';
 $string['setfilter'] = 'הפעל את המסנן'; // ORPHANED
 
 ?>
