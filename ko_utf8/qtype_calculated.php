@@ -1,13 +1,17 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
+$string['addingcalculated'] = '연산 문항 추가';
 $string['addmoreanswerblanks'] = '답안란 추가';
 $string['addmoreunitblanks'] = '$a 개의 답안란 추가';
 $string['answerhdr'] = '답안';
 $string['atleastoneanswer'] = '적어도 하나 이상의 답안을 제공해야 합니다.';
+$string['calculated'] = '숫자연산';
+$string['calculatedsummary'] = '연산 문항은 수치형 문항과 유사하나 퀴즈가 제시될 때 자료묶음에서 무작위로 추출한 숫자를 사용한다.';
 $string['correctanswershows'] = '정답제시형태';
 $string['correctanswershowsformat'] = '형식';
+$string['editingcalculated'] = '연산 문항 편집';
 $string['existingcategory1'] = '기존의 공유 자료묶음에서 사용';
 $string['keptcategory1'] = '이전처럼 기존의 공유 자료묶음에서 사용';
 $string['keptlocal1'] = '이전처럼 기존의 개인 자료묶음에서 사용';

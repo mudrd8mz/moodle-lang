@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['1day'] = '하루';
@@ -11,6 +11,8 @@ $string['acceptederror'] = '허용 오차';
 $string['accessnoticesheader'] = '이 문제를 미리 볼 수는 있지만, 이게 실제 시험이라면 다음과 같은 이유 때문에 볼 수 없게 됩니다:';
 $string['action'] = '활동';
 $string['adaptive'] = '익힘 유형';
+$string['addaquestion'] = '문항 추가 ...';
+$string['addarandomquestion'] = '무작위 문항 추가 ...';
 $string['addcategory'] = '범주 추가';
 $string['adddescriptionlabel'] = '설명/표지 추가';
 $string['addingcalculated'] = '계산형 문항 추가';
@@ -188,6 +190,7 @@ $string['createcategoryfornewrandomquestion'] = '새로운 임의 문항의 문�
 $string['createfirst'] = '우선 주관식 단답형 문제를 만들어야 합니다.';
 $string['createmultiple'] = '무작위로 문항 추가';
 $string['createnewquestion'] = '새 질문 생성';
+$string['createquestionandadd'] = '문항 작성 및 퀴즈에 추가';
 $string['custom'] = '사용자 포멧';
 $string['dataitemneed'] = '문제가 유효하려면 적어도 한 쌍 이상의 자료항목이 추가되어야 함';
 $string['datasetdefinitions'] = '범주 $a 에 대한 재사용 가능한 자료묶음 정의';
@@ -547,10 +550,13 @@ $string['quiztimer'] = '퀴즈타이머';
 $string['quizwillopen'] = '퀴즈는 $a 에 시작될 것임';
 $string['random'] = '무작위 질문';
 $string['randomcreate'] = '무작위 질문 만들기';
+$string['randomfromcategory'] = '범주내 무작위 문항 :';
+$string['randomnosubcat'] = '하위범주를 배제한 본 범주내 문항들';
 $string['randomsamatch'] = '무작위 단답일치형';
 $string['randomsamatchcreate'] = '무작위 단답일치형문항 만들기';
 $string['randomsamatchintro'] = '각각의 질문에 상응하는 대답을 메뉴에서 골라주시기 바랍니다.';
 $string['randomsamatchnumber'] = '선택할 질문의 수';
+$string['randomwithsubcat'] = '하위범주를 포함한 본 범주내 문항들';
 $string['readytosend'] = '퀴즈의 답을 보내려고 합니다. 계속하시겠습니까?';
 $string['reattemptquiz'] = '퀴즈에 재도전';
 $string['recentlyaddedquestion'] = '최근 추가된 질문';
@@ -720,7 +726,6 @@ $string['withselected'] = '선택한 것을';
 $string['withsummary'] = '요약된 통계와 함께';
 $string['wronggrade'] = '잘못된 점수($a 줄 이후)';
 $string['wronguse'] = '이 페이지를 사용할 수 없음';
-$string['xfromcategory'] = '범주 $a';
 $string['xhtml'] = 'XHTML 형식';
 $string['xml'] = 'XML 형식';
 $string['xmlimportnoname'] = 'xml파일에 문항 제목이 없음';
@@ -731,6 +736,7 @@ $string['youmustwait'] = '이 문제를 다시 시도하려면 잠시 기다려�
 $string['youneedtoenrol'] = '강좌에 등록을 마쳐야 이 퀴즈에 도전할 수 있음';
 $string['yourfinalgradeis'] = '이번 퀴즈의 최종 점수는 $a 입니다.';
 $string['zerosignificantfiguresnotallowed'] = '정답에 0점을 줄 수는 없습니다!';
+$string['xfromcategory'] = '범주 $a'; // ORPHANED
 $string['areyousuredeleteselected'] = '정말 선택한 문항들을 삭제하렵니까?'; // ORPHANED
 $string['closedat'] = '닫힘: $a'; // ORPHANED
 $string['closesat'] = '종료: $a'; // ORPHANED

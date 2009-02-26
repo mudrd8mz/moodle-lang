@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090218) (2009012901)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1590,6 +1590,7 @@ $string['userselectorpreserveselected'] = '검색에서 더 이상 일치하지 
 $string['userselectorsearchanywhere'] = '사용자명 검색 내용 일치';
 $string['usersnew'] = '새로운 사용자';
 $string['usersnoaccesssince'] = '비활동인 이용자 보기';
+$string['userswithfiles'] = '사용자파일 포함';
 $string['userzones'] = '이용자 영역';
 $string['usethiscourse'] = '이 강좌 사용하기';
 $string['usingexistingcourse'] = '개설된 강좌 사용하기';

@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // question.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['adminreport'] = '문항 데이터베이스의 잠재적 문제점 보고서';
+$string['availableq'] = '이용가능?';
 $string['badbase'] = '**: $a** 이전의 잘못된 베이스';
 $string['broken'] = '없는 파일로 연결된 \"깨진 링크\"임';
 $string['byandon'] = '<em>$a->user</em>가 <em>$a->time</em>에';
@@ -12,6 +13,7 @@ $string['cannotcreatedataset'] = '자료묶음 $a 를 생성할 수 없음';
 $string['cannotcreatepath'] = '$a 경로를 생성할 수 없음';
 $string['cannotcreaterelation'] = '자료묶음 $a[0] $a[1] 간의 연결을 할 수 없음';
 $string['cannotdeletecate'] = '이 영역의 기본 범주이기 때문에 지울 수 없음';
+$string['cannotenable'] = '$a 문제유형은 직접 만들 수 없음';
 $string['cannotfindcate'] = '범주 기록을 찾을 수 없음';
 $string['cannotfindquestionfile'] = '압축파일에서 문항 자료를 찾을 수 없음';
 $string['cannotgetdsfordependent'] = '자료묶음이 필요한 문항에서 지정한 내용을 얻을 수 없음!(문항: {$a[0]}, 자료묶음항목: {a[1]})';
@@ -46,6 +48,7 @@ $string['categorycurrentuse'] = '이 범주를 사용';
 $string['categorydoesnotexist'] = '존재하지 않는 범주';
 $string['categorymoveto'] = '범주에 저장';
 $string['changepublishstatuscat'] = '\"$a->coursename\" 강좌의 <a href=\"$a->caturl\">\"$a->name\" 범주</a>는 <strong>$a->changefrom 에서 $a->changeto</strong>로 공유상태가 변경될 것임';
+$string['chooseqtypetoadd'] = '추가할 문형 선택';
 $string['clicktoflag'] = '본 문항을 표시하려면 클릭';
 $string['clicktounflag'] = '본 문항 표지를 해제하려면 클릭';
 $string['contexterror'] = '어떤 범주를 다른 영역으로 옮기지 않는 한, 여기에 들어올 수 없습니다.';
@@ -53,6 +56,7 @@ $string['copy'] = '$a 에서 복사후 연결';
 $string['created'] = '생성됨';
 $string['createdby'] = '만든이';
 $string['createdmodifiedheader'] = '생성/변경됨';
+$string['createnewquestion'] = '새 문항 만들기 ...';
 $string['cwrqpfs'] = '하위 범주에서 추출한 무작위 문항';
 $string['cwrqpfsinfo'] = '<p>무들 1.9판으로 판올림하는 과정에서 문항 범주를 다른 영역으로 구분할 것입니다. 대개의 문항 및 문항 범주는 공유상태가 변해야 할 것입니다. 드문 경우이긴 하겠지만 질문지(퀴즈)에 \'무작위\' 문항이 포함되어 있을 경우, 공유 혹은 비공유 범주 중에서 선택해야 할 필요가 있습니다. 이는 \'무작위\' 문항을 하위 범주에서 선택하게 할 때와, 하나 이상의 하위 범주가, 질문이 생성된 상위 범주와 서로 다른 공유 상태일 때 발생하게 됩니다.</p> 
 <p>다음의 문항 범주들, 즉 \'무작위\' 질문이 선택된 상위 범주들은 무들 1.9판으로 판올림되면서 \'무작위\' 질문과 동일한 공유상태로 변해야 합니다. 따라서 다음의 범주들은 공유상태가 변할 것입니다. 관련된 문항들을 퀴즈에서 삭제하지 않는 한, 기존의 모든 질문지에서 잘 작동할 것입니다.</p>';
@@ -60,11 +64,13 @@ $string['cwrqpfsnoprob'] = '여러분의 사이트에는 소위 \"하위 범주�
 $string['defaultfor'] = '$a 의 기본설정';
 $string['defaultinfofor'] = '문항의 기본 범주는 영역 \'$a\'로 공유되었습니다.';
 $string['deletecoursecategorywithquestions'] = '문제은행에 본 강좌의 범주와 연계된 문항들이 있습니다. 계속 진행하게 되면 이들이 삭제될 것입니다. 이들을 이동시키고 싶으면 문제은행 인터페이스를 사용하기 바랍니다.';
+$string['disabled'] = '불가능';
 $string['disterror'] = '$a 배포판은 문제가 있음';
 $string['donothing'] = '파일을 복사/이동시키거나 링크를 변경시키지 마십시오.';
 $string['editingcategory'] = '범주 편집';
 $string['editingquestion'] = '질문 편집';
 $string['emptyxml'] = '알 수 없는 오류 - 비어있는 imsmanifest.xml';
+$string['enabled'] = '가능';
 $string['erroraccessingcontext'] = '영역에 접근할 수 없음';
 $string['errordeletingquestionsfromcategory'] = '$a 범주에 있는 문항 삭제 중 오류 발생';
 $string['errorduringpost'] = '후처리 과정에서 오류 발생!';
@@ -152,6 +158,8 @@ $string['questionsrescuedfrominfo'] = '이 문항들은 (어떤 것들은 감추
 $string['questiontype'] = '문항유형';
 $string['questionuse'] = '이 활동에 질문 사용';
 $string['saveflags'] = '표식 상태 저장';
+$string['selectacategory'] = '범주 선택 :';
+$string['selectaqtypefordescription'] = '설명을 보기위한 문제유형 선택';
 $string['selectquestionsforbulk'] = '대량 활동에 쓰일 문항 선제';
 $string['shareincontext'] = '하위 범주 $a 와 공유';
 $string['tofilecategory'] = '파일에 범주 기입';

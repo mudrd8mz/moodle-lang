@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090218) (2009012901)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['activities'] = '활동';
@@ -82,6 +82,7 @@ $string['configdisablegradehistory'] = '성적 관련 테이블에서 이력 추
 $string['configenableajax'] = '채점자 보고서에 작동을 단순하고 신속하게 하는 AJAX 기능 레이어 추가. 사용자 브라우저에서 자바스크립트가 켜져 있어야 함.';
 $string['configenableoutcomes'] = '학습성과(신뢰성, 목표, 기준 혹은 표준)를 지원한다는 것은 학습성과 지침에 따른 하나 이상의 척도에 의거하여 성적을 산출한다는 것이다. 학습성과를 활성화하면 그러한 특별한 성적 산출이 사이트 전반에 걸쳐 가능하게 된다.';
 $string['configexportdecimalpoints'] = '내보내기에 표시할 소수점 자리수. 내보내기 도중 변경될 수 있다.';
+$string['configfixedstudents'] = '성적표에서 학생난을 고정함으로서 수평으로 성적이 보이게 함';
 $string['configgradeboundary'] = '(문자 등급 표시 형식을 사용하는 경우) 득점으로 등급 문자를 배정받게 되는 백분율 경계';
 $string['configgradedisplaytype'] = '채점자나 학습자 성적표에 표시될 방법 지정. 성적은 실점수나 (최소 및 최대 성적을 참조한) 백분율 혹은 문자(A,B,C등)로 표시될 수 있다.';
 $string['configgradeexportdisplaytype'] = '내보내기에서 성적은 실점수나 (최소 및 최대 성적을 참조한) 백분율 혹은 문자(A,B,C등)로 표시될 수 있다. 내보내기 도중 변경될 수 있다.';
@@ -195,6 +196,7 @@ $string['feedbacksaved'] = '피드백 저장됨';
 $string['feedbackview'] = '피드백 보기';
 $string['finalgrade'] = '최종 성적';
 $string['finalgradehelp'] = '모든 계산과정을 마친 최종점수';
+$string['fixedstudents'] = '학생난 고정';
 $string['forceoff'] = '강제:꺼짐';
 $string['forceon'] = '강제:켜짐';
 $string['forelementtypes'] = '선택한 $a 의 유형';

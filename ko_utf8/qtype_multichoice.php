@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
+      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['addingmultichoice'] = '선다형 문항 추가';
@@ -25,7 +25,8 @@ $string['fractionsaddwrong'] = '선택한 정답의 점수 합계가 100%%가 �
 $string['fractionsnomax'] = '답안 중 하나는 100%%가 되어야 이 문항에 대해 점수를 매길 수 있습니다.<br />되돌아가서 이를 바로 잡겠습니까?';
 $string['incorrectfeedback'] = '틀린 답에 대해';
 $string['multichoice'] = '선다형';
-$string['notenoughanswers'] = '이러한 유형의 문항은 적어도 $a 개의 답안이 있어야 합니다.';
+$string['multichoicesummary'] = '이미 정의된 목록에서 하나 또는 다수의 응답을 선택할 수 있도록 허용합니다.';
+$string['notenoughanswers'] = '이 유형의 문항은 적어도 $a 개의 답안이 있어야 합니다.';
 $string['overallcorrectfeedback'] = '정답에 대한 반응';
 $string['overallfeedback'] = '총평';
 $string['overallincorrectfeedback'] = '오답에 대한 반응';
