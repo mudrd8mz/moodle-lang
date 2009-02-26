@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // question.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
 $string['adminreport'] = 'Rapport over mogelijke problemen in je vragendatabank';
+$string['availableq'] = 'Beschikbaar?';
 $string['badbase'] = 'Slechte basis voor  **: $a**';
 $string['broken'] = 'Dit is een \"gebroken link\" - verwijst naar een niet-bestaand bestand.';
 $string['byandon'] = 'door <em>$a->user</em> op <em>$a->time</em>';
@@ -12,6 +13,7 @@ $string['cannotcreatedataset'] = 'Kon dataset $a niet maken';
 $string['cannotcreatepath'] = 'Kon pad niet maken: $a';
 $string['cannotcreaterelation'] = 'Kon relatie met dataset $a[0] $a[1] niet maken';
 $string['cannotdeletecate'] = 'Je kunt die categorie niet verwijderen. Het is de standaardcategorie voor deze context.';
+$string['cannotenable'] = 'Vraagtype $a kan niet rechtstreeks gemaakt worden.';
 $string['cannotfindcate'] = 'Kon categorierecord niet vinden';
 $string['cannotfindquestionfile'] = 'kon vraaggegevensbestand niet vinden in zip';
 $string['cannotgetdsfordependent'] = 'Kan de dataset niet vinden voor een vraag die afhankelijk is van een dataset! (vraag: {$a[0]}, datasetitem: {a[1]})';

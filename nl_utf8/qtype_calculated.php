@@ -1,13 +1,17 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20080629) (2008051203)
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
+$string['addingcalculated'] = 'Berekende vraag toevoegen';
 $string['addmoreanswerblanks'] = 'Nog een lijn toevoegen';
 $string['addmoreunitblanks'] = 'Extra lijnen voor $a units';
 $string['answerhdr'] = 'Antwoord';
 $string['atleastoneanswer'] = 'Je moet minstens één antwoord voorzien';
+$string['calculated'] = 'Berekend';
+$string['calculatedsummary'] = 'Berekende vragen zijn als numerieke vragen, maar met de getallen tijdens de test willekeurig gekozen uit een vooraf opgestelde set.';
 $string['correctanswershows'] = 'Juist antwoord toont';
 $string['correctanswershowsformat'] = 'Opmaak';
+$string['editingcalculated'] = 'Berekende vraag bewerken';
 $string['existingcategory1'] = 'zal een bestaande gedeelde dataset gebruiken';
 $string['keptcategory1'] = 'zal dezelfde bestaande gedeelde dataset als hiervoor gebruiken';
 $string['keptlocal1'] = 'zal dezelfde bestaande private dataset als hiervoor gebruiken';

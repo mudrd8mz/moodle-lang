@@ -1602,6 +1602,7 @@ $string['userselectorpreserveselected'] = 'Houd de geselecteerde gebruikers in d
 $string['userselectorsearchanywhere'] = 'Tekst mag om het even waar in de gebruikersnaam voorkomen';
 $string['usersnew'] = 'Nieuwe gebruikers';
 $string['usersnoaccesssince'] = 'Toon de gebruikers die langer inactief waren dan';
+$string['userswithfiles'] = 'Gebruikers met bestanden';
 $string['userzones'] = 'Gebruikerzones';
 $string['usethiscourse'] = 'Gebruik deze cursus';
 $string['usingexistingcourse'] = 'Gebruik bestaande cursus';

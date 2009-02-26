@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
 $string['1day'] = '1 dag';
@@ -11,6 +11,8 @@ $string['acceptederror'] = 'Geaccepteerde fout';
 $string['accessnoticesheader'] = 'Je kunt een voorbeeld zien van deze test, maar als het een echte test was, zou je geblokkeerd zijn omdat:';
 $string['action'] = 'Actie';
 $string['adaptive'] = 'Adaptieve modus';
+$string['addaquestion'] = 'Voeg een vraag toe...';
+$string['addarandomquestion'] = 'Voeg een willekeurige vraag toe...';
 $string['addcategory'] = 'Maak een nieuwe categorie';
 $string['adddescriptionlabel'] = 'Beschrijving/label toevoegen';
 $string['addingcalculated'] = 'Berekende vraag toevoegen';
@@ -190,6 +192,7 @@ $string['createcategoryfornewrandomquestion'] = 'Maak een vraagcategorie voor de
 $string['createfirst'] = 'Je moet eerst enkele kort antwoordvragen maken.';
 $string['createmultiple'] = 'Maak meer vragen';
 $string['createnewquestion'] = 'Maak nieuwe vraag';
+$string['createquestionandadd'] = 'Maak een nieuwe vraag en voeg ze toe aan de test.';
 $string['custom'] = 'Aangepast formaat';
 $string['dataitemneed'] = 'Je moet minstens één set gegevens ingeven om een geldige vraag te bekomen';
 $string['datasetdefinitions'] = 'Herbruikbare datasetdefinities voor categorie $a';
@@ -558,10 +561,13 @@ $string['quiztimer'] = 'Testtimer';
 $string['quizwillopen'] = 'Deze test opent op $a';
 $string['random'] = 'Willekeurige vraag uit categorie';
 $string['randomcreate'] = 'Maak willekeurige vragen';
+$string['randomfromcategory'] = 'Willekeure vraag uit categorie:';
+$string['randomnosubcat'] = 'Enkel vragen uit deze categorie, niet uit de subcategorieën';
 $string['randomsamatch'] = 'Willekeurig korte antwoorden koppelen';
 $string['randomsamatchcreate'] = 'Maak uit willekeurige korte antwoorden koppelvragen aan';
 $string['randomsamatchintro'] = 'Selecteer voor elk van de volgende vragen een passend antwoord uit het menu.';
 $string['randomsamatchnumber'] = 'Aantal te selecteren vragen';
+$string['randomwithsubcat'] = 'Vragen uit deze categorie en uit de subcategorieën ervan.';
 $string['readytosend'] = 'Je staat op het punt om de test in te sturen zodat hij beoordeeld kan worden. Weet je zeker dat je door wilt gaan?';
 $string['reattemptquiz'] = 'Probeer de test opnieuw';
 $string['recentlyaddedquestion'] = 'Recent toegevoegde vraag!';
@@ -731,7 +737,6 @@ $string['withselected'] = 'Met geselecteerde';
 $string['withsummary'] = 'met samenvattende statistieken';
 $string['wronggrade'] = 'Verkeerd cijfer (na lijn $a):';
 $string['wronguse'] = 'Je kunt deze pagina niet op die manier gebruiken';
-$string['xfromcategory'] = '$a uit categorie';
 $string['xhtml'] = 'XHTML-opmaak';
 $string['xml'] = 'Moodle XML-formaat';
 $string['xmlimportnoname'] = 'Vraagnaam ontbreekt in XML-bestand';
@@ -742,6 +747,7 @@ $string['youmustwait'] = 'Je moet wachten voor je de test opnieuw mag doen. Je m
 $string['youneedtoenrol'] = 'Je moet aangemeld zijn bij deze cursus voor je deze test kunt maken.';
 $string['yourfinalgradeis'] = 'Je eindcijfer voor deze test is $a';
 $string['zerosignificantfiguresnotallowed'] = 'Het juiste antwoord kan geen nul beduidende cijfers hebben!';
+$string['xfromcategory'] = '$a uit categorie'; // ORPHANED
 $string['areyousuredeleteselected'] = 'Ben je er zeker van dat je de geselecteerde vragen wil verwijderen?'; // ORPHANED
 $string['closedat'] = 'gesloten: $a'; // ORPHANED
 $string['closesat'] = 'sluit: $a'; // ORPHANED

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
 
 
 $string['check_configrw_details'] = '<p>We raden aan om de rechten op het bestand config.php te wijzigen na installatie, zodat het bestand niet door de webserver gewijzigd kan worden.
@@ -91,6 +91,7 @@ $string['check_riskadmin_detailswarning'] = '<p>Controleer onderstaande lijst be
 <p>Aangeraden wordt om de beheerdersrol enkel toe te wijzen in de systeemcontext. Volgende gebruikers hebben een niet-ondersteunde beheerdersrol:<br />$a->unsupported</p>';
 $string['check_riskadmin_name'] = 'Beheerders';
 $string['check_riskadmin_ok'] = '$a serverbeheerders gevonden';
+$string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) roltoewijzing nakijken</a>';
 $string['check_riskadmin_warning'] = '$a->admincount beheerdersaccounts gevonden en $a->unsupcount niet-ondersteunde beheerdersrollen toegewezen.';
 $string['check_riskxss_details'] = '<p>RISK_XSS wijst alle gevaarlijk mogelijkheden aan die alleen vertrouwde gebruikers zouden mogen krijgen.</p>
 <p>Controleer volgende gebruikerslijst en zorg er voor dat je ze volledig kunt vertrouwen op deze server.<br />$a</p>';
