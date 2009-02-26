@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['check_configrw_details'] = '<p>Si raccomanda di modificare i permessi del file config.php subito dopo l\'installazione per evitare che il file possa essere modificato da processi del web server.
@@ -7,19 +7,19 @@ Questa impostazione non innalza significativamente la sicurezza del vostro sito,
 $string['check_configrw_name'] = 'File config.php modificabile';
 $string['check_configrw_ok'] = 'Il file config.php non è modificabile da script PHP.';
 $string['check_configrw_warning'] = 'Il file config.php può essere modificato da script PHP.';
-$string['check_cookiesecure_details'] = '<p>Se abilitate la comunicazione https, si raccomanda anche di abilitare i cookie sicuri. Si raccomanda di configurare anche il reindirizzamento permanente da http ad https.</p>';
+$string['check_cookiesecure_details'] = '<p>Se abilitate la comunicazione https, si raccomanda anche di abilitare i cookie sicuri. Si raccomanda di configurare anche l\'indirizzamento permanente da http ad https.</p>';
 $string['check_cookiesecure_error'] = 'Per favore abilitate i cookie sicuri';
 $string['check_cookiesecure_name'] = 'Cookie sicuri';
 $string['check_cookiesecure_ok'] = 'Cookie sicuri abilitati.';
 $string['check_courserole_anything'] = 'Il privilegio \"Modificare qualsiasi cosa\" non deve essere consentito in questo <a href=\"$a\">contesto</a>.';
 $string['check_courserole_details'] = '<p>In ciascun corso può essere impostato il Ruolo di default per le iscrizioni spontanee. Accertatevi che tale ruolo non possegga privilegi tali da permettergli di compromettere la sicurezza del sito.</p>
 <p>Il solo Ruolo origine supportato per il Ruolo di default nei corsi è <em>Studente</em>.</p>';
-$string['check_courserole_error'] = 'I Ruoli di default nei corsi non è definito in modo corretto!';
+$string['check_courserole_error'] = 'I Ruoli di default nei corsi non sono definito in modo corretto!';
 $string['check_courserole_name'] = 'Ruoli di default nei corsi';
 $string['check_courserole_notyet'] = 'E\' stato utilizzato solamente il Ruolo di default per gli utenti nei corsi (globale).';
 $string['check_courserole_ok'] = 'Definizione del Ruolo di default per gli utenti nei corsi OK.';
-$string['check_courserole_risky'] = 'Sono stati rilevati privilegi pericolosi in questo <a href=\"$a\">contesto</a>.';
-$string['check_courserole_riskylegacy'] = 'Individuati Ruoli origine pericolosi in <a href=\"$a->url\">$a->shortname</a>.';
+$string['check_courserole_risky'] = 'Sono stati rilevati privilegi rischiosi questo <a href=\"$a\">contesto</a>.';
+$string['check_courserole_riskylegacy'] = 'Individuati Ruoli origine rischiosi in <a href=\"$a->url\">$a->shortname</a>.';
 $string['check_defaultcourserole_anything'] = 'Il privilegio \"Modificare qualsiasi cosa\" non deve essere consentita in questo <a href=\"$a\">contesto</a>.';
 $string['check_defaultcourserole_details'] = '<p>Il Ruolo di default per gli utenti nei corsi definisce il ruolo di default in un corso dove gli utenti si possono iscrivere spontaneamente. Accertatevi che tale ruolo non possegga privilegi tali da permettergli di compromettere la sicurezza del sito.</p>
 <p>Il solo Ruolo origine supportato per il ruolo di default nei corsi è <em>Studente</em>.</p>';
@@ -28,14 +28,14 @@ $string['check_defaultcourserole_legacy'] = 'E\' stato individuato un Ruolo orig
 $string['check_defaultcourserole_name'] = 'Ruolo di default per gli utenti nei corsi (globale)';
 $string['check_defaultcourserole_notset'] = 'Il Ruolo di default default per gli utenti nei corsi (globale) non è impostato.';
 $string['check_defaultcourserole_ok'] = 'Definizione del Ruolo di default per gli utenti nei corsi (globale) OK.';
-$string['check_defaultcourserole_risky'] = 'Sono stati rilevati privilegi pericolosi in questo <a href=\"$a\">contesto</a>.';
+$string['check_defaultcourserole_risky'] = 'Sono stati rilevati privilegi rischiosi in questo <a href=\"$a\">contesto</a>.';
 $string['check_defaultuserrole_details'] = '<p>A tutti gli utenti autenticati vengono conferiti i privilegi del Ruolo di default per tutti gli utenti. Accertatevi che tale ruolo non possegga privilegi tali da permettergli di compromettere la sicurezza del sito.</p>
 <p>Il solo Ruolo origine supportato per il Ruolo di default per tutti gli utenti è <em>Utente autenticato</em>.</p>';
 $string['check_defaultuserrole_error'] = 'Il Ruolo di default per tutti gli utenti, \"$a\", non è definito in modo corretto!';
 $string['check_defaultuserrole_name'] = 'Ruolo di default per tutti gli utenti';
 $string['check_defaultuserrole_notset'] = 'Il ruolo di default non è impostato.';
 $string['check_defaultuserrole_ok'] = 'Definizione del Ruolo di default per tutti gli utenti OK.';
-$string['check_displayerrors_details'] = '<p>Si consiglia vivamente di non abilitare l\'impostazione PHP <code>display_errors</code> nei server in produzione in quanto i messaggi di errore potrebbero fornire informazioni preziose sul il vostro server.</p>';
+$string['check_displayerrors_details'] = '<p>Si consiglia vivamente di non abilitare l\'impostazione PHP <code>display_errors</code> nei server in produzione in quanto i messaggi di errore potrebbero fornire informazioni delicate sul vostro server.</p>';
 $string['check_displayerrors_error'] = 'La visualizzazione degli errori PHP è abilitata. Si raccomanda di disabilitarla.';
 $string['check_displayerrors_name'] = 'Visualizzazione errori PHP';
 $string['check_displayerrors_ok'] = 'La visualizzazione degli errori PHP è disabilitata.';
@@ -44,7 +44,7 @@ $string['check_emailchangeconfirmation_error'] = 'Gli utenti possono inserire qu
 $string['check_emailchangeconfirmation_info'] = 'Gli utenti possono usare indirizzi email provenienti esclusivamente dai domini consentiti.';
 $string['check_emailchangeconfirmation_name'] = 'Conferma del cambio email';
 $string['check_emailchangeconfirmation_ok'] = 'Conferma del cambio dell\'email nel profilo degli utenti';
-$string['check_embed_details'] = '<p>L\'inserimento incondizionato di oggetti nelle pagine è molto pericoloso. Un qualsiasi utente autenticato potrebbe lanciare un attacco XSS contro altri utenti nello stesso server. Questa impostazione deve essere disabilitata nei server in produzione.</p>';
+$string['check_embed_details'] = '<p>L\'inserimento incondizionato di oggetti nelle pagine è molto pericoloso. Un qualsiasi utente autenticato potrebbe lanciare un attacco XSS contro altri utenti dello stesso server. Questa impostazione deve essere disabilitata nei server in produzione.</p>';
 $string['check_embed_error'] = 'L\'inserimento incondizionato di oggetti nelle pagine è abilitato. Questo rappresenta uno dei maggiori rischi per la sicurezza dei server.';
 $string['check_embed_name'] = 'Consenti tag EMBED e OBJECT';
 $string['check_embed_ok'] = 'L\'inserimento incondizionato di oggetti nelle pagine non è consentito.';

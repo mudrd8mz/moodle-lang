@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['activities'] = 'Attività';
@@ -82,6 +82,7 @@ $string['configdisablegradehistory'] = 'Disabilita registrazione storica delle m
 $string['configenableajax'] = 'Abilita AJAX nel registro del valutatore, semplificando e accelerando le operazioni più comuni. E\' necessario che il browser dell\'utente supporti JavaScript.';
 $string['configenableoutcomes'] = 'Abilitando gli Obiettivi (in inglese Outcome, chiamati anche Competenze, Standard, Criteri) sarà possibile valutare il raggiungimento di obiettivi formativi tramite scale di valutazione qualitative. L\'abilitazione degli obiettivi renderà possibile questo tipo di valutazione in tutti i corsi.';
 $string['configexportdecimalpoints'] = 'Numero di cifre decimali da usare nelle esportazioni. Questa impostazione può essere modificata quando si configura l\'esportazione.';
+$string['configfixedstudents'] = 'Blocca la posizione della colonna contenente i nomi degli studenti mentre si scorre orizzontalmente il registro delle valutazioni.';
 $string['configgradeboundary'] = 'Un limite percentuale entro il quale la 
 graduatoria letterale corrisponde alla valutazione (se viene usato questo tipo di visualizzazione).';
 $string['configgradedisplaytype'] = 'i voti possono essere mostrati come punteggio, come percentuali (in riferimento alla valutazione minima e massima) o come 
@@ -197,6 +198,7 @@ $string['feedbacksaved'] = 'Feedback salvato';
 $string['feedbackview'] = 'Vedi feedback';
 $string['finalgrade'] = 'Valutazione finale';
 $string['finalgradehelp'] = 'La valutazione finale (cached) dopo che tutti i calcoli sono stati effettuati.';
+$string['fixedstudents'] = 'Blocca la colonna degli studenti';
 $string['forceoff'] = 'Forza: Disattivo';
 $string['forceon'] = 'Forza: Attivo';
 $string['forelementtypes'] = 'per il $a selezionato';

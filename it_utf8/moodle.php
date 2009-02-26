@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1608,6 +1608,7 @@ $string['userselectorpreserveselected'] = 'Mantieni gli utenti selezionati, anch
 $string['userselectorsearchanywhere'] = 'Cerca corrispondenze dei criteri di ricerca in tutto il nome utente';
 $string['usersnew'] = 'Nuovi utenti';
 $string['usersnoaccesssince'] = 'Visualizza gli utenti che sono stati inattivi per più di';
+$string['userswithfiles'] = 'Utenti con file';
 $string['userzones'] = 'Zone utenti';
 $string['usethiscourse'] = 'Utilizza questo corso';
 $string['usingexistingcourse'] = 'Utilizza un corso già esistente';
