@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.8.2+ (2007021520)
+      // access.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['access'] = 'Accesibilidad';
@@ -9,6 +9,7 @@ $string['accessstatement'] = 'Declaración de accesibilidad';
 $string['activitynext'] = 'Actividad siguiente';
 $string['activityprev'] = 'Actividad anterior';
 $string['breadcrumb'] = 'Rastro de breadcrumb';
+$string['cannotdeleterolenoadmin'] = 'No puede eliminar este rol porque no existe ningún otro rol de administrador asignado a ningún usuario';
 $string['currenttopic'] = 'Este tema';
 $string['currentweek'] = 'Esta semana';
 $string['hideblocka'] = 'Ocultar bloque $a';

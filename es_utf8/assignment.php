@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.8.2+ (2007021520)
+      // assignment.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['allowdeleting'] = 'Permitir eliminar';
@@ -74,6 +74,7 @@ $string['hideintro'] = 'Ocultar descripción antes de la fecha disponible';
 $string['invalidassignment'] = 'tarea incorrecta';
 $string['invalidid'] = 'ID de tarea incorrecto';
 $string['invalidtype'] = 'Tipo de tarea incorrecto';
+$string['invaliduserid'] = 'ID de usuario no válido';
 $string['itemstocount'] = 'Número';
 $string['late'] = '$a después';
 $string['maximumgrade'] = 'Calificación máxima';
