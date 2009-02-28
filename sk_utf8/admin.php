@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
+      // admin.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -15,6 +15,7 @@ $string['allowobjectembed'] = 'Povoliť tagy EMBED a OBJECT';
 $string['allowrenames'] = 'Povoliť premenovanie';
 $string['allowuserblockhiding'] = 'Povoliť používateľom skrývať bloky';
 $string['allowusermailcharset'] = 'Povoliť používateľom výber znakovej sady';
+$string['allowuserswitchrolestheycantassign'] = 'Povoliť používateľom bez schopnosti priradiť roly prepínať medzi rolami';
 $string['allowuserthemes'] = 'Povoliť používateľom zmenu témy';
 $string['allowvisiblecoursesinhiddencategories'] = 'Povoliť viditeľné kurzy v skrytých kategóriách';
 $string['antivirus'] = 'Antivírus';
@@ -66,6 +67,8 @@ $string['configallowoverride2'] = 'Zvoľte rolu(y), ktoré môžu byť prepísan
 $string['configallowunenroll'] = 'Ak je toto nastavené na \'Áno\', potom sa môžu študenti sami kedykoľvek odhlásiť z kurzov. V opačnom prípade im to nie je dovolené a celý proces prihlasovania sa do kurzov bude kontrolovaný iba učiteľmi a administrátormi.';
 $string['configallowuserblockhiding'] = 'Chcete povoliť používateľom skrytie/zobrazenie postranných blokov na všetkých týchto stránkach? Táto vlastnosť používa Javascript a Cookies pre uloženie aktuálneho stavu pre každý blok a ovplyvní iba používateľov pohľad.';
 $string['configallowusermailcharset'] = 'Povoliť všetkým užívateľom nastavenie vlastnej znakovej sady pre e-maily.';
+$string['configallowuserswitchrolestheycantassign'] = 'Vo východzom nastavení je schopnosť moodle/role:assign potrebná na to, aby sa mohli používatelia prepnúť medzi rolami. Ak je toto nastavenie aktívne, tlačidlo \"Prepnúť rolu na...\" zobrazuje všetky roly určené nastavením tabuľky \"Povoliť priradenia rol\" v administrátorskom menu. 
+Je potom doporučené, aby táto tabuľka neobsahovala možnosť prepnúť sa do roly, ktorá je nadradená súčasnej.';
 $string['configallowuserthemes'] = 'Keď zapnete túto voľbu, používateľ si bude môcť nastaviť vlastné témy. Témy používateľa majú vyššiu prioritu, zobrazia sa aj v prípade, keď bude nastavenie témy hlavnej stránky iné (toto neplatí pre témy kurzu).';
 $string['configallusersaresitestudents'] = 'Mali by byť všetci používatelia považovaní za študentov vzhľadom k aktivitám, ktoré sú im dostupné  na hlavnej stránke systému? Ak je Vaša odpoveď \'Áno\', potom každý autorizovaný používateľ sa môže týchto aktivít zúčastniť ako študent. Ak je Vaša odpoveď \'Nie\', potom len tí používatelia, ktorí sú už účastníkmi aspoň jedného kurzu, sa môžu zúčastniť týchto aktivít. Ako učitelia týchto aktivít môžu vystupovať len administrátori a špeciálne na to vymenovaní učitelia.';
 $string['configauthenticationplugins'] = 'Zvoľte spôsoby overovania používateľov a poradia, v akom budú použité. Ak sa používatelia registrujú sami, bude použitý spôsob uvedený v poli \"Registrácia používateľov\" nižšie (väčšinou sa používa overenie na základe emailu).';
@@ -424,6 +427,7 @@ $string['htmlsettings'] = 'HTML nastavenia';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Zabezpečenie HTTP';
 $string['iconvrecommended'] = 'Inštalácia voliteľnej knižnice ICONV je vysoko doporučovaná, pretože zvyšuje výkon stránok, najmä ak používate mäkčeňové jazyky - napr. slovenčinu.';
+$string['ignore'] = 'Ignorovať';
 $string['importlangreminder'] = 'Zahajuje sa proces migrácie databázy. Pre uskutočnenie zmien sa musíte <b>opäť prihlásiť</b>. Čo najskôr <b>po dokončení</b> migrácie nainštalujte unicode jazykové balíčky pomocou \'Administratíva->Nastavenia->Jazyk->Správa jazykových balíčkov\'.';
 $string['importtimezones'] = 'Aktualizovať kompletný zoznam časových pásiem';
 $string['importtimezonescount'] = '$a->count položiek importovaných z $a->source';
@@ -687,6 +691,7 @@ $string['smtphosts'] = 'SMTP hostitelia';
 $string['smtpmaxbulk'] = 'Limit pre SMTP sekciu';
 $string['smtppass'] = 'SMTP heslo';
 $string['smtpuser'] = 'SMTP používateľské meno';
+$string['spamcleaner'] = 'Vyhľadávanie spamu';
 $string['stats'] = 'Štatistiky';
 $string['statscatdepth'] = 'Maximálny počet nadradených kategórií';
 $string['statsfirstrun'] = 'Maximálny interval spracovania';
@@ -753,6 +758,7 @@ $string['uploaduserspreview'] = 'Náhľad na nahranie používateľov';
 $string['uploadusersresult'] = 'Výsledky nahrania používateľov';
 $string['upwards'] = 'a vyšší';
 $string['usehtmleditor'] = 'Použiť HTML editor';
+$string['user'] = 'Používateľ';
 $string['useraccountupdated'] = 'Aktualizovaný používateľský účet';
 $string['userbulk'] = 'Hromadné operácie s používateľmi';
 $string['userdeleted'] = 'Používateľ vymazaný';

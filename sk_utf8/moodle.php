@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
+      // moodle.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -284,6 +284,14 @@ $string['coursefiles'] = 'Súbory kurzu';
 $string['courseformatdata'] = 'Formát dát kurzu';
 $string['courseformats'] = 'Formáty kurzu';
 $string['coursegrades'] = 'Známky v kurze';
+$string['coursehelpcategory'] = 'Umiestnenie kurzu v zozname kurzov pre jeho ľahšie nájdenie študentmi';
+$string['coursehelpformat'] = 'Hlavná stránka kurzu bude zobrazená v tomto formáte';
+$string['coursehelphiddensections'] = 'Spôsob zobrazenia skrytých sekcií kurzu študentom';
+$string['coursehelpmaximumupload'] = 'Určenie najväčšej veľkosti súboru, ktorý môžu študenti nahrať na server. Je to obmedzené nastavením na serveri.';
+$string['coursehelpmetacourse'] = 'Nastavenie kurzu ako metakurzu. Metakurz prijíma zápis do kurzu (a iné nastavenia rol) z podriadených kurzov.';
+$string['coursehelpnewsitemsnumber'] = 'Počet najnovších položiek zobrazených na domovskej stránke kurzu v novinkách na pravej strane <br />(0 znamená, že novinky sa nebudú zjavovať)';
+$string['coursehelpnumberweeks'] = 'Počet týždňov (tém) zobrazených na hlavnej stránke kurzu.';
+$string['coursehelpshowgrades'] = 'Povoliť zobrazenie známok. Nemá ot ale vplyv na zobrazenie hodnotení v jednotlivých aktivitách.';
 $string['coursehidden'] = 'Tento kurz je v súčasnosti pre študentov neprístupný';
 $string['courseimportnotaught'] = 'Zdá sa, že v iných kurzoch nemáte práva upravujúceho učiteľa. Nie je teda možné z nich importovať.';
 $string['courseinfo'] = 'Informácie o kurze';
@@ -312,6 +320,7 @@ $string['courserequestsupport'] = 'Dodatočné informácie, ktoré by mohli pom�
 $string['courserestore'] = 'Obnoviť kurz zo zálohy';
 $string['courses'] = 'Kurzy';
 $string['coursescategory'] = 'Kurzy v tej istej kategórii';
+$string['coursesettings'] = 'ýchodzie nastavenia kurzu';
 $string['coursesmovedout'] = 'Kurzy boli presunuté z $a';
 $string['coursespending'] = 'Kurzy, ktoré čakajú na schválenie';
 $string['coursestaught'] = 'Kurzy, v ktorých som vyučovala';

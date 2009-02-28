@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // choice.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+
 
 $string['addmorechoices'] = 'Pridať viac ankiet';
 $string['allowupdate'] = 'Povoliť zmenu hlasovania';
@@ -13,12 +14,13 @@ $string['choiceclose'] = 'Do';
 $string['choicefull'] = 'Táto anketa je vyplnená a nie sú dostupné miesta.';
 $string['choicename'] = 'Názov ankety';
 $string['choiceopen'] = 'Od';
+$string['choicesaved'] = 'Vaša anketa bola uložená';
 $string['choicetext'] = 'Text ankety';
 $string['displayhorizontal'] = 'Zobraziť horizontálne';
 $string['displaymode'] = 'Režim zobrazenia';
 $string['displayvertical'] = 'Zobraziť vertikálne';
 $string['expired'] = 'Táto aktivita bola uzavrená dňa $a a nie je už dostupná.';
-$string['fillinatleastoneoption'] = 'Musíte nadefinovať aspoň dve možné odpovede';
+$string['fillinatleastoneoption'] = 'Musíte vložiť aspoň dve možné odpovede';
 $string['full'] = '(Obsadené)';
 $string['havetologin'] = 'Predtým, ako odošlete vyplnenú anketu, sa musíte prihlásiť';
 $string['limit'] = 'Limit';
@@ -50,4 +52,5 @@ $string['taken'] = 'Obsadený';
 $string['timerestrict'] = 'Časovo obmedziť odpovedanie na otázky';
 $string['viewallresponses'] = 'Zobraziť  $a  odpovedí';
 $string['yourselection'] = 'Vaša voľba';
+
 ?>

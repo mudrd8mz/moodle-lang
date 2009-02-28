@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // error.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['adminprimarynoedit'] = 'Ostatní administrátori nemôžu upravovať údaje hlavného administrátora';
@@ -51,6 +51,7 @@ $string['groupunknown'] = 'Skupina $a nebola priradená k určenému kurzu';
 $string['guestnoeditprofile'] = 'Používateľ \"host\" nemôže upravovať svoj profil';
 $string['guestnoeditprofileother'] = 'Profil používateľa \"host\" nie je možné upravovať';
 $string['guestsarenotallowed'] = 'Hosťovský používateľ nemá oprávnenie na túto činnosť';
+$string['invalidadminsettingname'] = 'Neplatné administrátorské nastavenie ($a)';
 $string['invalidcontext'] = 'Neplatný kontext';
 $string['invalidcourse'] = 'Neplatný kurz';
 $string['invalidcourseid'] = 'Pokúšate sa použiť neplatný identifikátor kurzu ($a)';

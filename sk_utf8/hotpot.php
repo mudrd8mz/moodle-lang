@@ -1,9 +1,9 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // hotpot.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+
 
 $string['abandoned'] = 'Zrušený';
 $string['addquizchain'] = 'Pridať sadu testov';
-$string['allattempts'] = 'všetky pokusy';
 $string['allmycourses'] = 'Všetky moje kurzy';
 $string['allusers'] = 'Všetci používatelia';
 $string['alwaysopen'] = 'Stále otvorené';
@@ -12,27 +12,25 @@ $string['attemptsbest'] = 'Najlepší pokus';
 $string['attemptsfirst'] = 'Prvý pokus';
 $string['attemptslast'] = 'Posledný pokus';
 $string['average'] = 'Priemer';
-$string['bestattempt'] = 'najlepší pokus';
 $string['checks'] = 'Kontroly';
 $string['clickreporting'] = 'Povoliť protokol o priebehu';
 $string['clues'] = 'Návody';
 $string['completed'] = 'Dokončený';
 $string['configexcelencodings'] = 'Zoznam kódovaní oddelených čiarkami, ktorý môže byť použitý na zápis hodnôt do súboru pre tabuľkový procesor. Napríklad Microsoft Excel vyžaduje &quot;SJIS&quot; kódovanie pre japončinu';
 $string['configshowtimes'] = 'Mali by byť v zoznamoch a správach ukázané údaje o čase potrebnom k ich vygenerovaniu? Je to potrebné iba vtedy, ak sa pokúšate zistiť prečo Váš server beží pomaly.';
-$string['copiedtoclipboard'] = 'Obsah tejto stránky bol skopírovaný do schránky (clipboard)';
+$string['copiedtoclipboard'] = 'Obsah tejto stránky bol skopírovaný do schránky';
 $string['copytoclipboard'] = 'Kopírovať do schránky';
 $string['correct'] = 'Správny';
 $string['deleteabandoned'] = 'Odstrániť nedokončené';
 $string['deleteabandonedcheck'] = 'Naozaj chcete odstrániť všetky $a nedokončené pokusy?';
-$string['deletedattempts'] = '$a pokusy boli vymazané';
-$string['deletedresponses'] = '$a odpovede boli vymazané';
+$string['deleteallattempts'] = 'Vymazať všetky pokusy';
 $string['displaycoursenext'] = 'Ďalej zobraziť stránku kurzov';
 $string['displayhotpotnext'] = 'Ďalej zobraziť stránku testu Hot Potatoes';
 $string['displayindexnext'] = 'Ďalej zobraziť HotPot index';
 $string['enterafilename'] = 'Prosím, uveďte názov súboru';
 $string['error_couldnotopenfolder'] = 'Nepodarilo sa vstúpiť do priečinku &quot;$a&quot;';
 $string['error_couldnotopensourcefile'] = 'Nepodarilo sa otvoriť zdrojový súbor \"$a\"';
-$string['error_couldnotopentemplate'] = 'Nemožno otvoriť šablonu pre &quot;$a&quot; formát';
+$string['error_couldnotopentemplate'] = 'Nemožno otvoriť šablónu pre &quot;$a&quot; formát';
 $string['error_invalidquiztype'] = 'Typ testu chýba alebo je neplatný';
 $string['error_nocourseorfilename'] = 'Nemožno vytvoriť  strom XML: chýba názov kurzu alebo názov súboru';
 $string['error_nofeedbackurlformmail'] = 'Prosím zadajte URL skriptu pre spracovanie dát';
@@ -67,7 +65,7 @@ $string['navigation_bar'] = 'Navigačný riadok Moodle';
 $string['navigation_buttons'] = 'Tlačidlá pre test Hot Potatoes';
 $string['navigation_frame'] = 'Navigačný rámec Moodle';
 $string['navigation_give_up'] = 'Tlačidlo  \"Vzdať sa\"';
-$string['navigation_iframe'] = 'S možnosťou výberu odpovedí IFRAME';
+$string['navigation_iframe'] = 'Vložený IFRAME';
 $string['navigation_none'] = 'Žiaden';
 $string['neverclosed'] = 'Nikdy nezatvorené';
 $string['noactivity'] = 'Žiadna aktivita';
@@ -140,7 +138,6 @@ $string['reportwrong'] = 'Nesprávne';
 $string['reportwrongsymbol'] = 'X';
 $string['resultssaved'] = 'Výsledky testu boli uložené';
 $string['score'] = 'Skóre';
-$string['selectattempt'] = 'Prosím, vyberte si pokus';
 $string['showhtmlsource'] = 'Zobraziť HTML zdroj';
 $string['shownextquiz'] = 'Zobraziť nasledujúci test';
 $string['showtimes'] = 'Zobraziť časy spracovania';
@@ -157,4 +154,10 @@ $string['timedout'] = 'Čas vypršal';
 $string['updatequizchain'] = 'Aktualizovať sadu testov';
 $string['weighting'] = 'Váženie';
 $string['wrong'] = 'Nesprávny';
+$string['allattempts'] = 'všetky pokusy'; // ORPHANED
+$string['bestattempt'] = 'najlepší pokus'; // ORPHANED
+$string['deletedattempts'] = '$a pokusy boli vymazané'; // ORPHANED
+$string['deletedresponses'] = '$a odpovede boli vymazané'; // ORPHANED
+$string['selectattempt'] = 'Prosím, vyberte si pokus'; // ORPHANED
+
 ?>
