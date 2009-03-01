@@ -1609,6 +1609,7 @@ $string['userselectorpreserveselected'] = 'もはや検索に合致しない場�
 $string['userselectorsearchanywhere'] = 'ユーザ名のどの部分に対しても、検索テキストを一致させる';
 $string['usersnew'] = '新しいユーザ';
 $string['usersnoaccesssince'] = '次の期間以上活動していない';
+$string['userswithfiles'] = 'ファイルを含むユーザ';
 $string['userzones'] = 'ユーザゾーン';
 $string['usethiscourse'] = 'このコースを使用する';
 $string['usingexistingcourse'] = '既存のコースを使用する';

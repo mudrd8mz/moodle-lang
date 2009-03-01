@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_truefalse.php - created with Moodle 1.9 dev (2007081001)
+      // qtype_truefalse.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['addingtruefalse'] = '○/×問題の追加';
@@ -10,5 +10,6 @@ $string['feedbackfalse'] = '解答「×」に対するフィードバック';
 $string['feedbacktrue'] = '解答「○」に対するフィードバック';
 $string['true'] = '○';
 $string['truefalse'] = '○/×問題';
+$string['truefalsesummary'] = '2つの選択肢「○」および「×」のみ持った、シンプルな形の多肢選択問題です。';
 
 ?>

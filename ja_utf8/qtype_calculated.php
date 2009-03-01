@@ -1,13 +1,17 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20080615) (2008051203)
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
+$string['addingcalculated'] = '計算問題の追加';
 $string['addmoreanswerblanks'] = 'さらに答え入力欄を追加する';
 $string['addmoreunitblanks'] = 'さらに $a 個の単位を追加する';
 $string['answerhdr'] = '答え';
 $string['atleastoneanswer'] = '少なくとも1つの答えを入力してください。';
+$string['calculated'] = '計算問題';
+$string['calculatedsummary'] = '計算問題は、数値問題に似ていますが、小テスト受験時、設定された数値がランダムに使用されます。';
 $string['correctanswershows'] = '正解の表示';
 $string['correctanswershowsformat'] = 'フォーマット';
+$string['editingcalculated'] = '計算問題の編集';
 $string['existingcategory1'] = '既存の共有データセットを使用する';
 $string['keptcategory1'] = '前と同じ既存の共有データセットを使用する';
 $string['keptlocal1'] = '前と同じ既存のプライベートデータセットを使用する';

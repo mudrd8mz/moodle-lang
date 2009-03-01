@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20080909) (2008090800)
+      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['addingmultichoice'] = '多肢選択問題の追加';
@@ -25,6 +25,7 @@ $string['fractionsaddwrong'] = 'あなたが選択したプラス評点の合計
 $string['fractionsnomax'] = 'この問題で満点を取ることができるよう、<br />答えの1つは、100%%でなければなりません。 <br />前のページに戻ってこの問題を修正しますか?';
 $string['incorrectfeedback'] = '不正解すべてに対するフィードバック';
 $string['multichoice'] = '多肢選択問題';
+$string['multichoicesummary'] = '所定の一覧より単一または複数の解答を選択することができます。';
 $string['notenoughanswers'] = 'このタイプの問題には少なくとも $a の選択肢が必要です。';
 $string['overallcorrectfeedback'] = '正解すべてに対するフィードバック';
 $string['overallfeedback'] = '全体のフィードバック';

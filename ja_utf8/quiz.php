@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['1day'] = '1日';
@@ -11,6 +11,8 @@ $string['acceptederror'] = 'エラー範囲';
 $string['accessnoticesheader'] = 'あなたはこの小テストをプレビューすることができます。しかし、これが本当の受験の場合、あなたは次の理由でブロックされます:';
 $string['action'] = '操作';
 $string['adaptive'] = 'アダプティブモード';
+$string['addaquestion'] = '問題を追加する ...';
+$string['addarandomquestion'] = 'ランダム問題を追加する ...';
 $string['addcategory'] = 'カテゴリの追加';
 $string['adddescriptionlabel'] = '説明/ラベルを追加する';
 $string['addingcalculated'] = '計算問題の追加';
@@ -188,6 +190,7 @@ $string['createcategoryfornewrandomquestion'] = '新しいランダム問題に�
 $string['createfirst'] = '最初に記述問題を作成してください。';
 $string['createmultiple'] = '複数問題の作成';
 $string['createnewquestion'] = '問題の作成';
+$string['createquestionandadd'] = '新しい問題を作成して、小テストに追加する';
 $string['custom'] = 'カスタムフォーマット';
 $string['dataitemneed'] = '有効な問題を作成するには、少なくとも一組のデータアイテムの追加が必要です。';
 $string['datasetdefinitions'] = 'カテゴリ $a の再利用可能なデータセット定義';
@@ -552,6 +555,7 @@ $string['quiztimer'] = '小テストタイマー';
 $string['quizwillopen'] = 'この小テストは $a に公開されます。';
 $string['random'] = 'ランダム問題';
 $string['randomcreate'] = 'ランダム問題の作成';
+$string['randomfromcategory'] = '次のカテゴリからのランダム問題:';
 $string['randomsamatch'] = 'ランダム記述組み合わせ問題';
 $string['randomsamatchcreate'] = 'ランダム記述組み合わせ問題を作成する';
 $string['randomsamatchintro'] = 'それぞれの問題の答えをメニューより選択してください。';
@@ -725,7 +729,6 @@ $string['withselected'] = '選択したものを';
 $string['withsummary'] = '(要約統計量を含む)';
 $string['wronggrade'] = '誤評定 ($a 行目以降):';
 $string['wronguse'] = 'あなたは、このページをそのように使うことはできません。';
-$string['xfromcategory'] = '$a << カテゴリ:';
 $string['xhtml'] = 'XHTMLフォーマット';
 $string['xml'] = 'Moodle XMLフォーマット';
 $string['xmlimportnoname'] = 'xmlファイルに問題名がありません。';
@@ -736,6 +739,7 @@ $string['youmustwait'] = 'この小テストを再受験は、お待ちくださ
 $string['youneedtoenrol'] = 'この小テストを受験する前に、このコースに受講登録する必要があります。';
 $string['yourfinalgradeis'] = 'あなたの最終評点は $a です。';
 $string['zerosignificantfiguresnotallowed'] = '正解の有効数字にはゼロを設定できません!';
+$string['xfromcategory'] = '$a << カテゴリ:'; //TBD
 $string['areyousuredeleteselected'] = '本当に選択した問題を削除してもよろしいですか?'; //TBD
 $string['fromcategory'] = '<< カテゴリ'; //TBD
 $string['totalpoints'] = '合計評点'; //TBD
