@@ -42,6 +42,7 @@ $string['enablecourseinstances'] = 'Activer les dépôts de cours';
 $string['enableuserinstances'] = 'Activer les dépôts des utilisateurs';
 $string['error'] = 'Une erreur inconnue est survenue&nbsp;!';
 $string['existingrepository'] = 'Ce dépôt existe déjà';
+$string['federatedsearch'] = 'Recherche fédérée';
 $string['filename'] = 'Nom de fichier';
 $string['filenotnull'] = 'Vous devez choisir un fichier à déposer.';
 $string['filesaved'] = 'Le fichier a été enregistré';
