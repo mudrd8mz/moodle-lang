@@ -1,6 +1,7 @@
 <?php // $Id$
 
 $string['adminreport'] = 'Rapport sur les problèmes possibles dans votre banque de questions.';
+$string['availableq'] = 'Disponible&nbsp;?';
 $string['badbase'] = 'Mauvaise base avant **: $a**';
 $string['broken'] = 'Ce lien est «&nbsp;cassé&nbsp;», il pointe vers un fichier inexistant.';
 $string['byandon'] = 'par <em>$a->user</em> à <em>$a->time</em>';
@@ -10,6 +11,7 @@ $string['cannotcreatedataset'] = 'Impossible de créer le jeu de données $a';
 $string['cannotcreatepath'] = 'Impossible de créer le chemin $a';
 $string['cannotcreaterelation'] = 'Impossible de créer la relation vers le jeu de données $a[0] $a[1]';
 $string['cannotdeletecate'] = 'Vous ne pouvez pas supprimer cette catégorie, car c\'est la catégorie par défaut de ce contexte.';
+$string['cannotenable'] = 'Le type de question $a ne peut pas être créé directement.';
 $string['cannotfindcate'] = 'Impossible de trouver l\'enregistrement pour la catégorie';
 $string['cannotfindquestionfile'] = 'Impossible de trouver le fichier des données de question dans le fichier compressé';
 $string['cannotgetdsfordependent'] = 'Impossible d\'obtenir le jeu de données indiqué pour une question dépendant d\'un jeu de données&nbsp;! (question&nbsp;: {$a[0]}, élément&nbsp;: {a[1]})';
@@ -60,11 +62,13 @@ $string['cwrqpfsnoprob'] = 'Aucune catégorie de question de votre site n\'est a
 $string['defaultfor'] = 'Défaut pour $a';
 $string['defaultinfofor'] = 'La catégorie par défaut pour les questions partagées dans le contexte «&nbsp;$a&nbsp;».';
 $string['deletecoursecategorywithquestions'] = 'La banque de questions associée à cette catégorie contient des questions. Si vous continuez, ces questions seront supprimées. Si vous voulez les conserver, veuillez d\'abord les déplacer en utilisant l\'interface de la banque de questions.';
+$string['disabled'] = 'Désactivé';
 $string['disterror'] = 'La distribution $a a causé des problèmes';
 $string['donothing'] = 'Ne pas copier ou déplacer les fichiers, ni modifier les liens.';
 $string['editingcategory'] = 'Modifier une catégorie';
 $string['editingquestion'] = 'Modifier une question';
 $string['emptyxml'] = 'Erreur inconnue. Fichier imsmanifest.xml vide';
+$string['enabled'] = 'Activé';
 $string['erroraccessingcontext'] = 'Impossible d\'accéder au contexte';
 $string['errordeletingquestionsfromcategory'] = 'Erreur lors de la suppression de questions de la catégorie $a.';
 $string['errorduringpost'] = 'Erreur lors du post-traitement&nbsp;!';
