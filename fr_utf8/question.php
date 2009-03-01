@@ -45,6 +45,7 @@ $string['categorycurrentuse'] = 'Utiliser cette catégorie';
 $string['categorydoesnotexist'] = 'Cette catégorie n\'existe pas';
 $string['categorymoveto'] = 'Enregistrer dans la catégorie';
 $string['changepublishstatuscat'] = 'La <a href=\"$a->caturl\">catégorie «&nbsp;$a->name&nbsp;»</a> du cours «&nbsp;$a->coursename&nbsp;» verra son état modifié de <strong>$a->changefrom à $a->changeto</strong>.';
+$string['chooseqtypetoadd'] = 'Choisir un type de question à ajouter';
 $string['clicktoflag'] = 'Cliquer pour marquer cette question';
 $string['clicktounflag'] = 'Cliquer ne plus marquer cette question';
 $string['contexterror'] = 'Vous ne devriez pas être arrivé ici si vous ne déplacez pas une catégorie vers un autre contexte.';
