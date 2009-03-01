@@ -111,7 +111,8 @@ $string['check_riskadmin_detailsok'] = '<p>Veuillez vérifier la liste ci-dessou
 $string['check_riskadmin_detailswarning'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système&nbsp;:</p>$a->admins<p>Il est recommandé de n\'attribuer le rôle d\'administrateur que dans le contexte Système. Les utilisateurs ci-dessous ont des attributions non supportées du rôle d\'administrateur&nbsp;:</p><p>$a->unsupported</p>';
 $string['check_riskadmin_name'] = 'Administrateurs';
 $string['check_riskadmin_ok'] = '$a administrateur(s) Moodle trouvés.';
-$string['check_riskadmin_warning'] = '$a->admincount administrateurs et $a->unsupcount attributions du rôle d\'administrateurs trouvés.';
+$string['check_riskadmin_unassign'] = '<a href=\"$a->url\">Vérification de l\'attribution du rôle de $a->fullname ($a->email)</a>';
+$string['check_riskadmin_warning'] = '$a->admincount administrateurs et $a->unsupcount attributions du rôle d\'administrateur trouvés.';
 
 $string['check_riskxss_details'] = '<p>Le terme RISK_XSS assortit toutes les capacités dangereuses qui ne devraient être autorisées que par des utilisateurs fiables.</p><p>Veuillez vérifier la liste d\'utilisateurs ci-dessous et vous assurer que vous leur faites totalement confiance sur ce site&nbsp;:</p><p>$a</p>';
 $string['check_riskxss_name'] = 'Utilisateurs XSS fiables';
