@@ -98,6 +98,7 @@ $string['rawdetails'] = 'Détails bruts de la tentative';
 $string['regrade'] = 'Renoter';
 $string['regradecheck'] = 'Voulez-vous vraiment renoter «&nbsp;$a&nbsp;»&nbsp;?';
 $string['regraderequired'] = 'Il est nécessaire de renoter';
+$string['removegradeitem'] = 'Retirer l\'élément d\'évaluation';
 $string['reportanswers'] = 'Réponses';
 $string['reportattemptfinish'] = 'Fin';
 $string['reportattemptnumber'] = 'Tentative';
