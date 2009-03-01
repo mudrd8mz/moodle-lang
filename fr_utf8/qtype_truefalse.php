@@ -8,5 +8,6 @@ $string['feedbackfalse'] = 'Feedback pour la réponse «&nbsp;Faux&nbsp;»';
 $string['feedbacktrue'] = 'Feedback pour la réponse «&nbsp;Vrai&nbsp;»';
 $string['true'] = 'Vrai';
 $string['truefalse'] = 'Vrai/Faux';
+$string['truefalsesummary'] = 'Une forme simplifiée de choix multiple avec les deux seules options Vrai et Faux.';
 
 ?>

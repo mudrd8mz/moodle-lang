@@ -23,6 +23,7 @@ $string['fractionsaddwrong'] = 'La somme des notes positives que vous avez chois
 $string['fractionsnomax'] = 'Une des réponses doit être à 100%%, de sorte qu\'il soit<br />possible d\'obtenir la note maximale pour cette question.<br />Voulez-vous revenir en arrière pour corriger cette question&nbsp;?';
 $string['incorrectfeedback'] = 'Pour toute réponse incorrecte';
 $string['multichoice'] = 'Choix multiple';
+$string['multichoicesummary'] = 'Permet la sélection d\'une ou plusieurs réponses dans une liste prédéfinie.';
 $string['notenoughanswers'] = 'Ce type de question requiert au moins $a réponses';
 $string['overallcorrectfeedback'] = 'Feedback pour les réponses correctes';
 $string['overallfeedback'] = 'Feedback général';

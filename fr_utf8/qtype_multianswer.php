@@ -11,6 +11,7 @@ $string['layouthorizontal'] = 'Rangée horizontale de boutons radio';
 $string['layoutundefined'] = 'Disposition non définie';
 $string['layoutvertical'] = 'Colonne verticale de boutons radio';
 $string['multianswer'] = 'Question Cloze';
+$string['multianswersummary'] = 'Les questions de ce type sont très flexibles, mais ne peuvent être créées qu\'en tapant du texte suivant un format particulier avec des codes spécifiques qui crééent des questions à choix multiples, des questions à réponses courtes et des questions numériques intégrées.';
 $string['nooptionsforsubquestion'] = 'Impossible d\'obtenir les options de la partie de question no $a->sub (question->id={$a->id})';
 $string['noquestions'] = 'La question Cloze (multianswer) «&nbsp;<strong>$a</strong>&nbsp;» ne contient aucune question';
 $string['qtypenotrecognized'] = 'Le type de question $a est inconnu';
