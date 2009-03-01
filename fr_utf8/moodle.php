@@ -1594,6 +1594,7 @@ $string['userselectorautoselectunique'] = 'Si un seul utilisateur correspond à 
 $string['userselectorsearchanywhere'] = 'Le critère de recherche peut apparaître n\'importe où dans le nom de l\'utilisateur';
 $string['usersnew'] = 'Nouveaux utilisateurs';
 $string['usersnoaccesssince'] = 'Inactifs depuis plus de';
+$string['userswithfiles'] = 'Utilisateurs avec fichiers';
 $string['userzones'] = 'Zones de l\'utilisateur';
 $string['usethiscourse'] = 'Utiliser ce cours';
 $string['usingexistingcourse'] = 'Avec un cours existant';
