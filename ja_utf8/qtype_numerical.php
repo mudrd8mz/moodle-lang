@@ -11,7 +11,7 @@ $string['editingnumerical'] = '数値問題の編集';
 $string['errornomultiplier'] = 'この単位の乗数を指定してください。';
 $string['errorrepeatedunit'] = '同じ名称で2つの単位を設定することはできません。';
 $string['notenoughanswers'] = '少なくとも1つの答えを入力してください。';
-$string['numerical'] = '数値問題';
+$string['numerical'] = '数値';
 $string['numericalsummary'] = '単位を使って数値で解答することができます。また、さまざまな解答モデルに対して、許容範囲を設定して評定することができます。';
 $string['unithdr'] = '単位 $a';
 

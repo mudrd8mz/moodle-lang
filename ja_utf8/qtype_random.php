@@ -3,8 +3,8 @@
 
 
 $string['editingrandom'] = 'ランダム問題の編集';
-$string['random'] = 'ランダム問題';
-$string['randomqname'] = 'ランダム問題 ($a)';
-$string['randomqplusname'] = 'ランダム問題 ($a およびサブカテゴリ)';
+$string['random'] = 'ランダム';
+$string['randomqname'] = 'ランダム ($a)';
+$string['randomqplusname'] = 'ランダム ($a およびサブカテゴリ)';
 
 ?>

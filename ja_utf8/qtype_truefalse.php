@@ -9,7 +9,7 @@ $string['false'] = '×';
 $string['feedbackfalse'] = '解答「×」に対するフィードバック';
 $string['feedbacktrue'] = '解答「○」に対するフィードバック';
 $string['true'] = '○';
-$string['truefalse'] = '○/×問題';
+$string['truefalse'] = '○/×';
 $string['truefalsesummary'] = '2つの選択肢「○」および「×」のみ持った、シンプルな形の多肢選択問題です。';
 
 ?>
