@@ -128,6 +128,7 @@ $string['coursegradedisplayupdated'] = 'Le type d\'affichage des notes du cours 
 $string['coursename'] = 'Nom du cours';
 $string['coursescales'] = 'Barèmes du cours';
 $string['coursesettings'] = 'Réglages du cours';
+$string['coursesettingsexplanation'] = 'Les réglages du cours déterminent la présentation du carnet de notes pour tous les participants du cours.';
 $string['coursetotal'] = 'Total du cours';
 $string['createcategory'] = 'Créer une catégorie';
 $string['createcategoryerror'] = 'Impossible de créer une nouvelle catégorie';
