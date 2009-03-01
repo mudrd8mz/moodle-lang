@@ -329,6 +329,7 @@ $string['courserequestsupport'] = 'Informations supplémentaires pour aider l\'a
 $string['courserestore'] = 'Restauration du cours';
 $string['courses'] = 'Cours';
 $string['coursescategory'] = 'Cours de la même catégorie';
+$string['coursesectionsummaries'] = 'Résumés des sections de cours';
 $string['coursesettings'] = 'Réglages par défaut des cours';
 $string['coursesmovedout'] = 'Cours déplacés hors de $a';
 $string['coursespending'] = 'Cours en attente d\'approbation';
