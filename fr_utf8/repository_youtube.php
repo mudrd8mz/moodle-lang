@@ -1,6 +1,6 @@
 <?php // $Id$
 
-$string['repositoryname'] = 'Dépôt Youtube';
-$string['search'] = 'Recherche';
+$string['repositoryname'] = 'Vidéos Youtube';
+$string['search'] = 'Recherche vidéos';
 
 ?>

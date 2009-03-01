@@ -1,6 +1,6 @@
 <?php // $Id$
 
-$string['repositoryname'] = 'Dépôt SMB';
+$string['repositoryname'] = 'Partages Windows (SMB)';
 $string['smb_server'] = 'Serveur SMB';
 
 ?>
