@@ -357,6 +357,7 @@ $string['moveselectedto'] = 'Déplacer les éléments sélectionnés vers&nbsp;:
 $string['movingelement'] = 'Déplacement de $a';
 $string['multfactor'] = 'Multiplicateur';
 $string['multfactorhelp'] = 'Nombre par lequel toutes les notes de cet élément d\'évaluation seront multipliées.';
+$string['mypreferences'] = 'Mes préférences';
 $string['myreportpreferences'] = 'Mes préférences de rapport';
 $string['navmethod'] = 'Méthode de navigation';
 $string['neverdeletehistory'] = 'Ne jamais supprimer l\'historique';
