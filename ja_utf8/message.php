@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20081118) (2008111801)
+      // message.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
@@ -47,7 +47,7 @@ $string['messagingdisabled'] = 'このサイトでは、メッセージングが
 $string['mycontacts'] = 'マイ コンタクト';
 $string['newonlymsg'] = '新しいメッセージのみ表示する';
 $string['newsearch'] = '新しい検索';
-$string['noframesjs'] = 'さらにアクセス可能なインターフェースを使用する';
+$string['noframesjs'] = 'さらに便利なインターフェースを使用する';
 $string['nomessages'] = '未読メッセージはありません。';
 $string['nomessagesfound'] = 'メッセージが見つかりませんでした。';
 $string['nosearchresults'] = '該当データが見つかりませんでした。';
