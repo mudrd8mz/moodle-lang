@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090220) (2009021800)
+      // question.php - created with Moodle 2.0 dev (Build: 20090302) (2009021800)
 
 
 $string['adminreport'] = 'Report su possibili problemi nel tuo database di domande.';
+$string['availableq'] = 'Disponibile?';
 $string['broken'] = 'Questo è un \"link interrotto\", punta a un file inesistente.';
 $string['byandon'] = 'di <em>$a->user</em> di <em>$a->time</em>';
 $string['cannotcopybackup'] = 'Impossibile copiare il file di backup';
@@ -11,6 +12,11 @@ $string['cannotcreatedataset'] = 'Impossibile creare il dataset $a';
 $string['cannotcreatepath'] = 'Impossibile creare il path: $a';
 $string['cannotcreaterelation'] = 'Impossibile creare la relazione al dataset $a[0] $a[1]';
 $string['cannotdeletecate'] = 'Impossibile cancellare la categoria in quanto è quella default per questo contesto.';
+$string['cannotenable'] = 'Il tipo di domanda $a non può essere creato diretamente.';
+$string['cannotfindcate'] = 'Non è stato possibile trovare nessun record di categoria';
+$string['cannotfindquestionfile'] = 'Non è stato possibile trovare nessuna domanda nel file zip';
+$string['cannotgetdsfordependent'] = 'Non è stato possibile ottenere il dataset specificato per una domanda che dipende dal dal dataset!  (domanda: {$a[0]}, datasetitem: {a[1]})';
+$string['cannotgetdsforquestion'] = 'Non è stato possibile ottenere il dataset specificato per una domanda Calcolata!  (domanda: {$a[0]})';
 $string['cannothidequestion'] = 'Impossibile nascondere la domanda';
 $string['cannotimportformat'] = 'Il software per l\'importazione di questo formato non è ancora stato realizzato!';
 $string['cannotinsert'] = 'Errore: impossibile inserire l\'elemento di dataset';
@@ -24,6 +30,7 @@ $string['cannotmovefromto'] = 'Impossibile spostare la categoria $a[0] in $a[1]'
 $string['cannotmovequestion'] = 'Impossibile usare questo script per spostare domande che hanno file associati da aree differenti.';
 $string['cannotopenforwriting'] = 'Impossibile aprire per scrittura: $a';
 $string['cannotpreview'] = 'Impossibile vedere l\'anteprima di queste domande!';
+$string['cannotretrieveqcat'] = 'Non è stato possibile ottenere la categoria di dimande';
 $string['cannotsavequiz'] = 'Errore nel salvataggio del tentativo del quiz!';
 $string['cannotunhidequestion'] = 'Errore nel mostrare la domanda.';
 $string['cannotunzip'] = 'Impossibile unzippare il file.';
@@ -40,6 +47,7 @@ $string['categorycurrentuse'] = 'Usa questa categoria';
 $string['categorydoesnotexist'] = 'Questa categoria non esiste';
 $string['categorymoveto'] = 'Salva nella Categoria';
 $string['changepublishstatuscat'] = '<a href=\"$a->caturl\">La categoria \"$a->name\"</a> nel corso \"$a->coursename\" avrà il suo stato di condivisione cambiato da <strong>$a->changefrom a $a->changeto</strong>.';
+$string['chooseqtypetoadd'] = 'Scegli un tipo di domanda da aggiungere';
 $string['clicktoflag'] = 'Clicca per marcare questa domanda';
 $string['clicktounflag'] = 'Clicca per smarcare questa domanda';
 $string['contexterror'] = 'Non dovresti essere qui se non stai spostando una categoria in un altro contesto.';
@@ -47,6 +55,7 @@ $string['copy'] = 'Copia da $a e cambia i link.';
 $string['created'] = 'Creazione';
 $string['createdby'] = 'Creata da';
 $string['createdmodifiedheader'] = 'Creazione/Ultimo salvataggio';
+$string['createnewquestion'] = 'Crea una nuova domanda...';
 $string['cwrqpfs'] = 'Domande prese \'a caso\' da domande delle sotto-categorie.';
 $string['cwrqpfsinfo'] = '<p>Nell\'aggiornamento a Moodle 1.9 separeremo le categorie di domande in differenti contesti. Alcune categorie di domande e domande del tuo sito dovranno modificare il loro stato di condivisione. Questo sarà necessario nel raro caso che una o più domande \'a caso\' di un quiz sono definite in modo da pescare domande da un misto di categorie condivise e non (come nel caso di questo sito). Questo può succedere quando una domanda \'a caso\' è impostata per pescare domande da sotto-categorie e una o più sotto-categorie hanno uno stato di condivisione diverso da quello della categoria in cui la domanda \'a caso\' è creata.</p>
 <p>Nell\'aggiornamento a Moodle 1.9, le seguenti categorie di domande, dalle quali domande \'a caso\' pescano domande, avranno il loro stato di condivisione trasformato nello stato di condivisione della categoria di appartenenza della domanda \'a caso\'. Le domande interessate continueranno a funzionare in tutti i quiz in cui sono definite, finché non le rimuovi da tali quiz.</p>';
@@ -54,11 +63,13 @@ $string['cwrqpfsnoprob'] = 'Nessuna categoria del tuo sito è affetta dal proble
 $string['defaultfor'] = 'Default per $a';
 $string['defaultinfofor'] = 'La categoria default per le domande condivise nel contesto \'$a\'.';
 $string['deletecoursecategorywithquestions'] = 'Ci sono domande nel deposito delle domande associate con questa categoria di corso. Se procedi, queste saranno cancellate. Puoi comunque spostarle prima, usando l\'interfaccia del deposito delle domande.';
+$string['disabled'] = 'Disabilitato';
 $string['disterror'] = 'La distribuzione $a ha causato problemi';
 $string['donothing'] = 'Non copiare o spostare files o cambiare links.';
 $string['editingcategory'] = 'Modifica una categoria';
 $string['editingquestion'] = 'Modifica una domanda';
 $string['emptyxml'] = 'Errore sconosciuto - file imsmanifest.xml vuoto';
+$string['enabled'] = 'Abilitato';
 $string['erroraccessingcontext'] = 'Il contesto non può essere acceduto';
 $string['errordeletingquestionsfromcategory'] = 'Errore nella cancellazione di domande dalla categoria $a.';
 $string['errorduringpost'] = 'Si è verificato un errore durante la post-elaborazione!';
@@ -100,6 +111,7 @@ $string['maketoplevelitem'] = 'Muovi al primo livello';
 $string['missingcourseorcmid'] = 'Bisogna fornire courseid o cmid a print_questione.';
 $string['missingcourseorcmidtolink'] = 'Bisogna fornire courseid o cmid a get_question_edit_link.';
 $string['missingimportantcode'] = 'In questo tipo di domanda manca una parte importante: <b>$a</b>.';
+$string['missingoption'] = 'La domanda cloze $a è priva delle sue opzioni';
 $string['modified'] = 'Ultimo salvataggio';
 $string['move'] = 'Sposta da $a e modifica i link.';
 $string['movecategory'] = 'Sposta Categoria';
@@ -124,7 +136,7 @@ $string['parenthesisinproperclose'] = 'La parentesi prima di ** non è chiusa co
 $string['parenthesisinproperstart'] = 'La parentesi prima di ** non è aperta correttamente in $a**';
 $string['permissionedit'] = 'Modificare questa domanda';
 $string['permissionmove'] = 'Spostare questa domanda';
-$string['permissionsaveasnew'] = 'Salvare questa come una nuova domanda';
+$string['permissionsaveasnew'] = 'Salvare questa domanda come nuova domanda';
 $string['permissionto'] = 'Sei autorizzato a:';
 $string['published'] = 'condivise';
 $string['qtypeveryshort'] = 'T';
@@ -140,6 +152,8 @@ $string['questionsrescuedfrom'] = 'Domande salvate dal contesto $a.';
 $string['questionsrescuedfrominfo'] = 'Queste domande (alcune delle quali possono essere nascoste) sono state salvate quando il contesto $a è stato cancellato, perché sono ancora utilizzate da qualche quiz o da altre attività.';
 $string['questiontype'] = 'Tipo di domanda';
 $string['questionuse'] = 'Usa domanda in questa attività';
+$string['selectacategory'] = 'Scegli una categoria:';
+$string['selectaqtypefordescription'] = 'Scegli un tipo di domanda per vederne la descrizione.';
 $string['selectquestionsforbulk'] = 'Seleziona le domande per azioni su elenchi';
 $string['shareincontext'] = 'Condividi in contesto per $a';
 $string['tofilecategory'] = 'Scrivi categoria su file';

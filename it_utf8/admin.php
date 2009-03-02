@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090302) (2009021800)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -19,6 +19,7 @@ $string['allowobjectembed'] = 'Consenti i tag EMBED e OBJECT';
 $string['allowrenames'] = 'Modifica degli username';
 $string['allowuserblockhiding'] = 'Consenti agli utenti di nascondere i blocchi';
 $string['allowusermailcharset'] = 'Consenti agli utenti di scegliere il set di caratteri';
+$string['allowuserswitchrolestheycantassign'] = 'Consenti agli utenti che non possono attribuire ruoli di cambiare ruolo.';
 $string['allowuserthemes'] = 'Consenti agli utenti di scegliere il tema';
 $string['allowvisiblecoursesinhiddencategories'] = 'Consenti l\'accesso ai corsi presenti nelle categorie nascoste';
 $string['antivirus'] = 'Antivirus';
@@ -49,6 +50,7 @@ $string['cachetype'] = 'Tipo di cache';
 $string['calendar_weekend'] = 'Giorni del weekend';
 $string['calendarexportsalt'] = 'Seme per l\'esportazione del calendario';
 $string['calendarsettings'] = 'Calendario';
+$string['cannotdeletemissingqtype'] = 'Non è possibile eliminare il tipo di domanda \'mancante\', è necessaria al sistema.';
 $string['cannotdeleteqtypeinuse'] = 'Il tipo domanda \'$a\' non può essere eliminato. Ci sono domande di questo tipo nel banco delle domande.';
 $string['cannotdeleteqtypeneeded'] = 'Il tipo domanda \'$a\' non può essere eliminato. Ci sono altri tipi domande istallati basati su di esso.';
 $string['cfgwwwrootslashwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. E\' stato incluso un carattere \'/\' alla fine. Deve essere rimosso o si verificheranno errori insoliti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
@@ -74,6 +76,8 @@ $string['configallowoverride2'] = 'Tramite la matrice sottostante potete autoriz
 $string['configallowunenroll'] = 'Se impostato su \"Si\", gli studenti saranno autorizzati a revocarsi autonomamente da un corso in qualunque momento. In caso contrario non verranno autorizzati a farlo, demandando a docenti e amministratori questa possibilità .';
 $string['configallowuserblockhiding'] = 'Si desidera permettere agli utenti di mostrare/nascondere i blocchi laterali di tutto il sito? <br>Questa caratteristica utilizza Javascript e i cookies per ricordare lo stato di ogni blocco, e influenza solo la vista personale dell\'utente.';
 $string['configallowusermailcharset'] = 'Abilitando questa opzione, ogni utente sarà in grado di definire il proprio set di caratteri per le email.';
+$string['configallowuserswitchrolestheycantassign'] = 'Per cambiare ruolo gli utenti devono avere il privilegio moodle/role:assign. Abilitando questa impostazione si rimuove la necessità di avere questo privilegio e i ruoli disponibili nel menù a discesa \"Cambia ruolo in..\" saranno controllati solamente dalle impostazioni della tabella \"Autorizzati ad attribuire ruoli\".
+Si raccomanda che nella tabella \"Autorizzati ad attribuire ruoli\" non ci siano impostazioni tali da permettere agli utenti di cambiare il proprio ruolo con un ruolo che ha maggiori privilegi.';
 $string['configallowuserthemes'] = 'Se abilitato, ogni utente potrà impostare un proprio tema personale. I temi personali dell\'utente sovrascrivono i temi del sito, ma non i temi di un corso.';
 $string['configallusersaresitestudents'] = 'Ai fini delle attività poste sulla pagina principale del sito, tutti gli utenti devono essere considerati studenti? Se si risponde \"Si\" allora ogni account utente confermato sarà  abilitato a partecipare come studente a queste attività . Se si risponde \"No\", allora solo gli utenti che sono anche studenti iscritti almeno ad un corso saranno abilitati a partecipare a queste attività  presenti nella pagina principale. Solo gli amministratori e i docenti speciali assegnati potranno comportarsi come docenti per queste attività  della pagina principale.';
 $string['configauthenticationplugins'] = 'Nella tabella soprastante potete abilitare i plugin di autenticazione ed ordinarli secondo la priorità di esecuzione desiderata.';
@@ -552,7 +556,7 @@ $string['mediapluginswf'] = 'Abilita filtro .swf';
 $string['mediapluginswfnote'] = 'Come una misura di sicurezza standard, ai normali utenti non è permesso includere file flash (.swf)';
 $string['mediapluginwmv'] = 'Abilita filtro .wmv';
 $string['mediapluginyoutube'] = 'Abilita filtro link YouTube';
-$string['memcachedhosts'] = 'memcached hosts';
+$string['memcachedhosts'] = 'memcached host';
 $string['memcachedpconn'] = 'memcached use persistent connections';
 $string['messaging'] = 'Abilita il sistema di messaging';
 $string['minpassworddigits'] = 'Cifre';
@@ -869,7 +873,7 @@ $string['verifychangedemail'] = 'Controlla i domini quando si cambia l\'email';
 $string['warningcurrentsetting'] = 'Valore corrente non valido: $a';
 $string['webproxy'] = 'Proxy web';
 $string['webproxyinfo'] = 'Usate le impostazioni seguenti se il vostro server Moodle non può accedere direttamente ad Internet. L\'accesso ad Internet è necessario per scaricare dati di ambiente, language pack, feed RSS, timezone, eccetera.<br /><em>L\'estensione PHP cURL è fortemente raccomandata.</em>';
-$string['webserviceprotocols'] = 'Server dei web service';
+$string['webserviceprotocols'] = 'Server web service';
 $string['webservices'] = 'Web service';
 $string['webservicesystemsettings'] = 'impostazioni comuni';
 $string['webserviceusersettings'] = 'Impostazioni web service degli utenti';

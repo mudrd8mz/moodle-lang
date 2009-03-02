@@ -1,16 +1,20 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20090302) (2009021800)
 
 
+$string['addingcalculated'] = 'Creazione domanda Calcolata';
 $string['addmoreanswerblanks'] = 'Aggiungi un altro spazio risposta.';
 $string['addmoreunitblanks'] = 'Spazi per altre $a unità';
 $string['answerhdr'] = 'Risposta';
 $string['atleastoneanswer'] = 'E\' necessario fornire almeno una risposta.';
+$string['calculated'] = 'Calcolata';
+$string['calculatedsummary'] = 'Le domande Calcolate sono simili alla domande Numeriche dove però i numeri utilizzati sono scelti a caso durante lo svolgimento del quiz.';
 $string['correctanswershows'] = 'Mostra risposta corretta';
 $string['correctanswershowsformat'] = 'Formato';
-$string['existingcategory1'] = 'userà un dataset condiviso già esistente';
-$string['keptcategory1'] = 'userà lo stesso dataset condiviso esistente di prima';
-$string['keptlocal1'] = 'userà lo stesso dataset privato esistente di prima';
+$string['editingcalculated'] = 'Modifica domanda Calcolata';
+$string['existingcategory1'] = 'userà un dataset condiviso e preesistente';
+$string['keptcategory1'] = 'userà lo stesso dataset condiviso e preesistente di prima';
+$string['keptlocal1'] = 'userà lo stesso dataset privato e preesistente di prima';
 $string['makecopynextpage'] = 'Prossima pagina (nuova domanda)';
 $string['mandatoryhdr'] = 'Carattere jolly obbligatorio nelle risposte';
 $string['mustbenumeric'] = 'Deve essere inserito un numero.';

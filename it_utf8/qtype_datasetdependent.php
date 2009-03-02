@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20090302) (2009021800)
 
 
-$string['additem'] = 'Aggiungi item';
+$string['additem'] = 'Aggiungi elemento';
+$string['answerstoleranceparam'] = 'Tolleranza della risposta';
 $string['atleastonerealdataset'] = 'Ci deve essere almeno un vero dataset nel testo della domanda';
 $string['atleastonewildcard'] = 'Ci deve essere almeno un carattere jolly nella formula di risposta o nel testo della domanda';
 $string['calcdistribution'] = 'Distribuzione';
@@ -37,6 +38,7 @@ $string['newlocal1'] = 'un\'espressione letterale da un nuovo set di espressioni
 $string['newlocal2'] = 'un file da un nuovo set di files che sarà usato solo da questa domanda';
 $string['newlocal3'] = 'un link da un nuovo set di links che sarà usato solo da questa domanda';
 $string['nodataset'] = 'niente - non è un carattere jolly';
+$string['oneanswertrueansweroutsidelimits'] = 'Almeno una risposta corretta è fuori dai limiti.<br />Modificate la tolleranza della risposta (Parametri avanzati).';
 $string['param'] = 'Param {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'Sostituisci con un valore a caso';
 $string['reuseifpossible'] = 'riutilizza valore precedente se disponibile';
@@ -44,6 +46,7 @@ $string['sharedwildcard'] = 'Carattere jolly condiviso';
 $string['sharedwildcards'] = 'Cratteri jolly condivisi';
 $string['uniform'] = 'Uniforme';
 $string['updatedatasetparam'] = 'Aggiorna i parametri dei datasets';
+$string['updatetolerancesparam'] = 'Aggiorna la tolleranza della risposta';
 $string['youmustaddatleastoneitem'] = 'Devi aggiungere almeno un item di dataset prima di salvare questa domanda.';
 
 ?>
