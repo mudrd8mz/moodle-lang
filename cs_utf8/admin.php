@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20090121) (2007101533.02)
+      // admin.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -15,6 +15,7 @@ $string['allowobjectembed'] = 'Povolit značky EMBED a OBJECT';
 $string['allowrenames'] = 'Povolit přejmenování';
 $string['allowuserblockhiding'] = 'Povolit uživatelům skrývat bloky';
 $string['allowusermailcharset'] = 'Povolit uživatelům výběr znakové sady';
+$string['allowuserswitchrolestheycantassign'] = 'Uživatelům bez oprávnění přiřazovat role povolit role přepínat';
 $string['allowuserthemes'] = 'Povolit uživatelům změnu motivu';
 $string['allowvisiblecoursesinhiddencategories'] = 'Povolit viditelné kurzy ve skrytých kategoriích';
 $string['antivirus'] = 'Antivir';
@@ -66,6 +67,7 @@ $string['configallowoverride2'] = 'Role uvedená vlevo (v prvním sloupci) bude 
 $string['configallowunenroll'] = 'Je-li u této volby vybráno \'Ano\', mohou se studenti sami vyškrtávat z kurzů. Jinak je může z kurzu vyškrtnout pouze učitel nebo správce.';
 $string['configallowuserblockhiding'] = 'Povolit uživatelům zasouvání/vysouvání postranních bloků? Tato funkce používá Javascript a soubory cookie. Nastavení se aplikuje vždy pouze na pohled příslušného uživatele.';
 $string['configallowusermailcharset'] = 'Povolit všem uživatelům nastavení vlastní znakové sady pro e-maily.';
+$string['configallowuserswitchrolestheycantassign'] = 'Při výchozím nastavení potřebují uživatelé oprávnění přiřazovat role (moodle/role:assign) i k tomu, aby si mohli role přepínat. Pokud povolíte toto nastavení, bude tato podmínka zrušena a uživatelům bude přístupná rozbalovací nabídka \"Přepnout roli na...\" pouze na základě nastavení matice \"Povolit přidělování rolí\". Doporučuje se, aby nastavení tabulky \"Povolit přidělování rolí\" nedovolovalo přepnout se uživatelům do role, která má větší pravomoce než jejich stávající role.';
 $string['configallowuserthemes'] = 'Umožnit uživatelům vlastní výběr motivu stránek. Uživatelské nastavaní má přednost před globálním motivem, nikoliv však před nastavením kurzu.';
 $string['configallusersaresitestudents'] = 'Považovat pro činnosti na hlavní stránce VŠECHNY uživatele za studenty? Pokud ANO, bude se moci činností na hlavní stránce účastnit jako student každý uživatel přihlášený k potvrzenému uživatelskému účtu. Pokud NE, budou mít tuto možnost pouze uživatelé zapsaní alespoň v jednom kurzu. Pouze administrátoři a zvlášť určení učitelé mohou na hlavní stránce vystupovat v roli učitele.';
 $string['configauthenticationplugins'] = 'Aktivujte autentizační metody a pořadí, v jakém budou použity.';
@@ -394,6 +396,7 @@ $string['frontpagerestore'] = 'Obnova titulní stránky';
 $string['frontpageroles'] = 'Role na titulní stránce';
 $string['frontpagesettings'] = 'Nastavení titulní stránky';
 $string['fullnamedisplay'] = 'Formát celého jména';
+$string['gdrecommended'] = 'Rozšíření GD se používá pro konverzi obrázků. Pokud toto rozšíření chybí, některé funkce (jako např. vkládání obrázků do profilů uživatele) nebudou k dispozici.';
 $string['gdversion'] = 'Verze GD';
 $string['generalsettings'] = 'Obecná nastavení';
 $string['geoipfile'] = 'Datový soubor GeoIP City';
@@ -424,6 +427,7 @@ $string['htmlsettings'] = 'Nastavení HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Zabezpečení HTTP';
 $string['iconvrecommended'] = 'Instalace volitelné knihovny ICONV je silně doporučena, neboť zvyšuje výkon stránek, zejména pokud používáte jazyky nezaložené na latince.';
+$string['ignore'] = 'Ignorovat';
 $string['importlangreminder'] = 'Zahajuje se proces migrace databáze. Pro provedení změn se musíte <b>znovu přihlásit</b>. Co nejdříve <b>po dokončení</b> migrace nainstalujte unicodové jazykové balíčky pomocí \'Správa->Nastavení->Jazyk->Správa jazykových balíčků\'.';
 $string['importtimezones'] = 'Aktualizovat kompletní seznam časových pásem';
 $string['importtimezonescount'] = 'počet položek importových ze zdroje $a->source: $a->count';
@@ -687,6 +691,7 @@ $string['smtphosts'] = 'SMTP hostitelé';
 $string['smtpmaxbulk'] = 'Limit SMTP relace';
 $string['smtppass'] = 'SMTP heslo';
 $string['smtpuser'] = 'SMTP uživatelské jméno';
+$string['spamcleaner'] = 'Čistič spamu';
 $string['stats'] = 'Statistiky';
 $string['statscatdepth'] = 'Maximum rodičovských kategorií';
 $string['statsfirstrun'] = 'Maximální interval zpracování';
@@ -753,6 +758,7 @@ $string['uploaduserspreview'] = 'Náhled nahraných uživatelů';
 $string['uploadusersresult'] = 'Výsledky nahrání uživatelů';
 $string['upwards'] = 'a vyšší';
 $string['usehtmleditor'] = 'Použít HTML editor';
+$string['user'] = 'Uživatel';
 $string['useraccountupdated'] = 'Aktualizovaný uživatelský účet';
 $string['userbulk'] = 'Hromadné operace';
 $string['userdeleted'] = 'Uživatelský účet byl odstraněn';
