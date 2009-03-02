@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multianswer.php - created with Moodle 2.0 dev (Build: 20081111) (2008110603)
+      // qtype_multianswer.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
 
 
 $string['addingmultianswer'] = 'Cloze (穴埋め問題) の追加';
@@ -13,6 +13,7 @@ $string['layoutselectinline'] = 'テキスト内のインラインのドロッ�
 $string['layoutundefined'] = 'レイアウト未定義';
 $string['layoutvertical'] = 'ラジオボタンの垂直カラム';
 $string['multianswer'] = 'Cloze (穴埋め問題)';
+$string['multianswersummary'] = 'このタイプの問題は非常に柔軟性がありますが、埋め込み式の多肢選択問題、記述問題および数値時問題を作成することのできる、特別なコードを含んだテキストを入力する必要があります。';
 $string['nooptionsforsubquestion'] = '問題部分 # $a->sub のオプションを取得できません (question->id={$a->id})。';
 $string['noquestions'] = 'Cloze (穴埋め問題) 「<strong>$a</strong>」に問題が含まれていません。';
 $string['qtypenotrecognized'] = '不明な問題タイプ $a です。';

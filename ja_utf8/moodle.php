@@ -1382,6 +1382,7 @@ $string['showrecent'] = '最新の活動を表示する';
 $string['showreports'] = '活動レポートを表示する';
 $string['showsettings'] = '設定を表示する';
 $string['showtheselogs'] = '選択したログを表示する';
+$string['showthishelpinlanguage'] = 'このヘルプを次の言語で表示する: $a';
 $string['showtopicfromothers'] = '他のユーザにトピックを表示する';
 $string['showweekfromothers'] = '他のユーザに週を表示する';
 $string['since'] = '対象範囲';
