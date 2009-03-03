@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_remotemoodle.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // repository_remotemoodle.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['configplugin'] = 'Urrutiko Moodle-ren fitxategi biltegiaren ezarpenak';
@@ -7,6 +7,7 @@ $string['connectionfailure'] = 'Fitxategien zerrenda bilatzeko arazoak - Moodle-
 $string['emptyfilelist'] = 'Ez dago erakusteko fitxategirik';
 $string['failtoretrievelist'] = 'Ezin da zerrendarik aurkitu edo hutsik dago';
 $string['hostnotfound'] = 'Ezin da aurkitu urrutiko Moodle datu-basean - jarri harremanetan sistemaren kudeatzailearekin';
+$string['nopeer'] = 'Mesedez ezarri <a href=\"http://docs.moodle.org/en/admin/mnet/peers#Peer_to_Peer_Network\">Moodle peers</a> batzuk zure Moodle gunerako.';
 $string['notitle'] = 'Izenbururik gabe';
 $string['peer'] = 'Berdina';
 $string['remember'] = 'Gogoratu';

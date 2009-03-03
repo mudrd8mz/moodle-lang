@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // qtype_random.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // qtype_random.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['configselectmanualquestions'] = 'Ausazko galdera motak aukera al dezake eskuz kalifikatutako galdera bat, kategoriatik galdera ausaz aukeratu behar duela ezarrita dagoenean?';
+$string['randomqname'] = 'Ausazkoa ($a)';
+$string['randomqplusname'] = 'Ausazkoa ($a eta azpikategoriak)';
 $string['selectmanualquestions'] = 'Ausazko galderak eskuz kalifikatutako galderak erabil ditzake';
 
 ?>
