@@ -1,11 +1,11 @@
-<?PHP // $Id$ 
-      // quiz_responses.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+<?PHP // $Id:quiz_responses.php from quiz_responses.xml
+      // Comments: tomaz at zid dot si
 
-
-$string['pagesize'] = 'Poskusov na stran:';
-$string['reportresponses'] = 'Podrobnosti odgovorov';
-$string['responses'] = 'Podrobni odgovori';
 $string['responsesoptions'] = 'Možnosti odgovorov';
-$string['responsestitle'] = 'Podrobni odgovori'; // ORPHANED
+$string['responsestitle'] = 'Podrobnosti odgovorov';
+$string['pagesize'] = 'Poskusov na stran: ';
+$string['reportresponses'] = 'Podrobnosti odgovorov';
+$string['responses'] = 'Podrobnosti odgovorov';
+
 
 ?>

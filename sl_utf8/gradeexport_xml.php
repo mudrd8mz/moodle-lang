@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // gradeexport_xml.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // gradeexport_xml.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
 $string['modulename'] = 'Datoteka XML';
-$string['xml:publish'] = 'Objavi izvoz ocen v XML';
-$string['xml:view'] = 'Izvoz ocen z XML';
+$string['xml:publish'] = 'Objava izvoza ocen XML';
+$string['xml:view'] = 'Uporaba izvoza ocen XML';
 
 ?>

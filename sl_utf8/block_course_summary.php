@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_course_summary.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // block_course_summary.php - created with Moodle 1.8.2 (2007021520)
 
 
 $string['coursesummary'] = 'Povzetek predmeta';

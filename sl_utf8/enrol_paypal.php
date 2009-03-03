@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // enrol_paypal.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // enrol_paypal.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
-$string['business'] = 'Elektronski naslov vašega poslovnega računa Paypal';
+$string['business'] = 'Elektronski naslov vašega poslovnega računa PayPal';
 $string['costorkey'] = 'Prosimo izberite enega izmed naslednjih načinov vpisa.';
-$string['description'] = 'Modul Paypal vam omogoča vzpostavitev plačljivih predmetov. Če je cena kakšnega od predmetov nič, uporabnikom ni potrebno plačati za vpis v predmet. Nastavite lahko privzeto vrednosti na celotnem portalu ter kasneje tudi vrednost v vsakem predmetu posebej. Cena predmeta ima prednost pred ceno portala.';
+$string['description'] = 'Modul PayPal vam omogoča nastavitev plačljivih predmetov. Če je cena kateregakoli tečaja nič, udeleženci niso pozvani k plačilu za vstop. Obstaja cena veljavna za celotno spletno mesto, ki jo nastavite tu kot privzeto vrednost za celotno spletno mesto in nato še nastavitev predmeta, ki jo lahko nastavite za vsak predmet posebej. Cena predmeta preglasi ceno mesta.';
 $string['enrolname'] = 'PayPal';
-$string['paypalaccepted'] = 'Sprejemamo plačila preko PayPal';
-$string['sendpaymentbutton'] = 'Pošlji plačilo preko Paypal';
+$string['paypalaccepted'] = 'PayPal plačila sprejeta';
+$string['sendpaymentbutton'] = 'Pošlji plačilo preko PayPal';
 
 ?>

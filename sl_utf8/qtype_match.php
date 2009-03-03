@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // qtype_match.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // qtype_match.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
-$string['addmoreqblanks'] = 'Dodaj {no} praznih podvprašanj';
-$string['filloutthreeqsandtwoas'] = 'Pri tem vprašanju morate podati vsaj tri podvprašanja. Če želite imeti več napačnih odgovorov potem polje Vprašanje pustite prazno, v polje Odgovor pa vpišete napačen odgovor. Podvprašanje z obema praznima poljema bo prezrto.';
-$string['nomatchinganswerforq'] = 'Podati morate odgovor za to vprašanje';
-$string['notenoughqsandas'] = 'Podati morate vsaj $a->q vprašanj in $a->a odgovorov.';
-$string['notenoughquestions'] = 'Podati morate vsaj $a parov vprašanj in odgovorov';
+$string['addmoreqblanks'] = 'Dodaj {no} množice praznih polj';
+$string['filloutthreeqsandtwoas'] = 'Podati morate vsaj dve vprašanji in tri odgovore. Podate lahko dodaten napačen odgovor z vpisom odgovora s praznim vprašanjem. Vnosi, pri katerih sta tako vprašanje kot odgovor prazna, bodo prezrti.';
+$string['nomatchinganswerforq'] = 'Za to vprašanje morate določiti odgovor.';
+$string['notenoughqsandas'] = 'Določiti morate vsaj $a->q vprašanj in $a->a odgovorov.';
+$string['notenoughquestions'] = 'Določiti morate vsaj $a parov vprašanj in odgovorov.';
 
 ?>

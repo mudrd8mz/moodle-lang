@@ -1,5 +1,8 @@
-<?php // $Id:
-      // gradereport_user.php
-$string['modulename'] = 'Uporabnikovo poročilo';
-$string['user:view'] = 'Pregled lastnega poročila o ocenah';
+<?PHP // $Id$ 
+      // gradereport_user.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
+
+
+$string['modulename'] = 'Poročilo uporabnika';
+$string['user:view'] = 'Ogled lastnega poročila o ocenah';
+
 ?>

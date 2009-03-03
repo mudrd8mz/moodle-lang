@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // exercise.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
 $string['absent'] = 'Odsoten';
@@ -21,24 +21,24 @@ $string['assessments'] = 'Vrednotenja';
 $string['atthisstageyou'] = 'Na tej stopnji ste zaključili vrednotenje.<br />Morda želite znova pregledati svoje delo v luči tega vrednotenja.<br />Če to storite, ne pozabite ponovno pregledati tudi svojega vrednotenja.<br />To lahko storite s klikom na spodnjo povezavo Ponovno ovrednoti.';
 $string['awaitingassessmentbythe'] = 'V pričakovanju vrednotenja $a';
 $string['clearlateflag'] = 'Počisti oznako zamude';
-$string['comment'] = 'komentar';
+$string['comment'] = 'Komentar';
 $string['comparisonofassessments'] = 'Primerjava vrednotenj';
 $string['confirmdeletionofthisitem'] = 'Potrdi brisanje: $a';
 $string['correct'] = 'Pravilno';
-$string['count'] = 'Šteti';
+$string['count'] = 'Število';
 $string['criterion'] = 'Kriterij';
 $string['deadline'] = 'Skrajni rok';
 $string['deadlineis'] = 'Skrajni rok je $a';
 $string['delete'] = 'Izbriši';
 $string['deletesubmissionwarning'] = 'Opozorilo: obstaja $a vrednotenj povezanih s to oddajo.<br />
-Zelo priporočljivo je, da te oddaje NE izbrišete.';
+    Zelo priporočljivo je, da te oddaje NE izbrišete.';
 $string['deleting'] = 'Brisanje';
 $string['description'] = 'Opis';
 $string['descriptionofexercise'] = 'V Nalogi vaje je opis vaje ali opravila, ki ga mora opraviti $a, v dokumentu Word ali datoteki HTML. To datoteko se naloži v vajo preden se naloga odpre za $a. Možno je tudi ustvariti nabor različic iste vaje ali opravila, znova kot dokumente Word ali HTML datoteke in jih naložiti v vajo preden se vaja odpre za $a.';
 $string['detailsofassessment'] = 'Podrobnosti vrednotenja';
 $string['displayoffinalgrades'] = 'Prikaz končnih ocen';
 $string['doubleupload'] = 'Opozorilo: ta oddaja je bila verjetno poslana dvakrat. Pojdite na Skrbniško stran in preverite dve zaporedni oddaji tega uporabnika v kratkem časovnem obdobju. Pred nadaljevanjem izbrišite eno izmed teh dveh oddaj.';
-$string['duedate'] = 'Rok';
+$string['duedate'] = 'Rok za oddajo';
 $string['edit'] = 'Uredi';
 $string['editingassessmentelements'] = 'Urejanje elementov vrednotenja';
 $string['element'] = 'Element';
@@ -47,7 +47,7 @@ $string['enterpassword'] = 'Vnesi geslo';
 $string['entriessaved'] = 'Vnosi shranjeni';
 $string['errorbanded'] = 'Povezana napaka';
 $string['excellent'] = 'Odlično';
-$string['exercise:assess'] = 'Ovrednotenje vaj';
+$string['exercise:assess'] = 'Ovrednoti vaje';
 $string['exerciseassessments'] = 'Vrednotenja vaje';
 $string['exercisefeedback'] = 'Odziv na vajo';
 $string['exercisesubmissions'] = 'Oddaje vaje';
@@ -67,16 +67,16 @@ $string['incorrect'] = 'Napačno';
 $string['late'] = 'Pozno';
 $string['lax'] = 'Površno';
 $string['leaguetable'] = 'Lestvica oddanih del';
-$string['mail1'] = 'Vašo nalogo &#039;$a&#039; je ovrednotil';
-$string['mail2'] = 'Komentarje in oceno lahko vidite v Nalogi vaje &#039;$a&#039;';
+$string['mail1'] = 'Vašo nalogo \'$a\' je ovrednotil';
+$string['mail2'] = 'Komentarje in oceno lahko vidite v Nalogi vaje \'$a\'';
 $string['mail3'] = 'Lahko jo vidite v vaši Nalogi vaje';
-$string['mail6'] = 'Vaše vrednotenje naloge &#039;$a&#039; je bilo pregledano';
+$string['mail6'] = 'Vaše vrednotenje naloge \'$a\' je bilo pregledano';
 $string['mail7'] = 'Komentarje, ki jih je dodal $a lahko vidite v Nalogi vaje';
 $string['managingassignment'] = 'Upravljanje vaje';
 $string['maximum'] = 'Največ';
 $string['maximumgradeforstudentassessments'] = 'Najvišja ocena za vrednotenja udeležencev: $a';
 $string['maximumgradeforsubmissions'] = 'Najvišja ocena za oddaje: $a';
-$string['maximumsize'] = 'Maksimalna velikost';
+$string['maximumsize'] = 'Največja velikost';
 $string['mean'] = 'Povprečje';
 $string['minimum'] = 'Najmanj';
 $string['modulename'] = 'Vaja';
@@ -87,7 +87,7 @@ $string['noexercisedescriptionssubmitted'] = 'Ni oddanih opisov vaj';
 $string['nosubmissions'] = 'Nobene oddaje';
 $string['notassessedyet'] = 'Še ne ovrednoteno';
 $string['notavailable'] = 'Ni na voljo';
-$string['noteonassessmentelements'] = 'Vedite, da je ocenjevanje razdeljeno v več &#039;Elementov vrednotenja&#039;.<br />
+$string['noteonassessmentelements'] = 'Vedite, da je ocenjevanje razdeljeno v več \'Elementov vrednotenja\'.<br />
 	To olajša ocenjevanje in omogoči večjo doslednost. Kot izvajalec morate dodati te <br />
 	elemente, preden omogočite dostop udeležencem. To naredite s<br />
 	klikom na nalogo v predmetu. Če ni trenutnih elementov boste pozvani,<br />
@@ -106,7 +106,7 @@ $string['numberofnegativeresponses'] = 'Število negativnih odzivov';
 $string['onesubmission'] = 'Ena oddaja';
 $string['optionaladjustment'] = 'Dodatna prilagoditev';
 $string['overallgrade'] = 'Celotna ocena';
-$string['passwordprotectedexercise'] = 'Vaja, zaščitena z geslom';
+$string['passwordprotectedexercise'] = 'Vaja zaščitena z geslom';
 $string['phase'] = 'Faza';
 $string['phase1'] = 'Nastavitev vaje';
 $string['phase1short'] = 'Nastavitev';
@@ -121,7 +121,7 @@ $string['pleaseusethisform'] = 'Prosimo, izpolnite za obrazec, ko <br />zaključ
 $string['pleaseviewtheexercise'] = 'Prosimo, oglejte si spodnjo vajo s klikom na njeno ime.<br /.Sledite navodilom v tej vaji. <br />Ko boste mnenja, da ste  uspešno zaključili vajo<br />, kliknite na povezavo Ovrednoti (ali Ponovno ovrednoti) v<br />spodnjem okvirju. Ko boste opravili to vrednotenje, boste<br /> dobili nadaljnja navodila o oddaji vašega dela.';
 $string['poor'] = 'Slabo';
 $string['present'] = 'Prisoten';
-$string['reasonforadjustment'] = 'Splošen komentar / Razlog za prilagoditev';
+$string['reasonforadjustment'] = 'Splošni komentar / Razlog za prilagoditev';
 $string['reassess'] = 'Ponovno ovrednoti';
 $string['regradestudentassessments'] = 'Ponovna ocena vrednotenja udeleženca';
 $string['resubmissionfor'] = 'Ponovna oddaja za $a';
@@ -131,9 +131,9 @@ $string['savedok'] = 'Shranjeno v redu';
 $string['saveentries'] = 'Shrani vnose';
 $string['savemyassessment'] = 'Shrani moje vrednotenje';
 $string['saveweights'] = 'Shrani uteži';
-$string['scale10'] = 'Rezultat od možnih  10';
-$string['scale100'] = 'Rezultat od možnih 100';
-$string['scale20'] = 'Rezultat od možnih 20';
+$string['scale10'] = 'Rezultat do 10';
+$string['scale100'] = 'Rezultat do 100';
+$string['scale20'] = 'Rezultat do 20';
 $string['scalecorrect'] = '2 točkovna lestvica Pravilno / Napačno';
 $string['scaleexcellent4'] = '4 točkovna lestvica Izvrstno / Zelo slabo';
 $string['scaleexcellent5'] = '5 točkovna lestvica Izvrstno / Zelo slabo';
@@ -143,7 +143,7 @@ $string['scalepresent'] = '2 točkovna lestvica Prisoten / Odsoten';
 $string['scaleyes'] = '2 točkovna lestvica Da / Ne';
 $string['specimenassessmentform'] = 'Vzorec obrazca za vrednotenje';
 $string['standarddeviation'] = 'Standardni odklon';
-$string['strict'] = 'Strikten';
+$string['strict'] = 'Dosledno';
 $string['studentallowedtoresubmit'] = '$a SME ponovno oddati';
 $string['studentassessments'] = '$a vrednotenj';
 $string['studentnotallowed'] = '$a NE SME ponovno oddati (ali to ni potrebno)';

@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // message.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
 $string['addcontact'] = 'Dodaj stik';
 $string['addsomecontacts'] = 'Za pošiljanje sporočila nekomu ali dodajanje bližnjice zanj, na tej strani uporabite <a href=\"$a\">zavihek Iskanje</a> zgoraj.';
 $string['addsomecontactsincoming'] = 'Ta sporočila so od oseb, ki niso na vašem seznamu stikov. Za njihovo dodajanje med vaše stike, kliknite ikono poleg njihovega imena \"Dodaj stik\".';
-$string['ago'] = 'pred $a';
+$string['ago'] = '$a nazaj';
 $string['allmine'] = 'Vsa sporočila zame ali od mene';
 $string['allstudents'] = 'Vsa sporočila med udeleženci v predmetu';
-$string['allusers'] = 'Vsa sporočila od vseh uporabnikov';
+$string['allusers'] = 'Vsa sporočila vseh uporabnikov';
 $string['backupmessageshelp'] = 'Če je omogočeno, bodo takojšnja sporočila vključena v samodejno varnostno kopijo spletnega mesta';
 $string['beepnewmessage'] = 'Zvočno opomni, ko prispe novo sporočilo (lahko zahteva vtičnik za brskalnik, ki zna predvajati zvoke, kot je Quicktime)';
 $string['blockcontact'] = 'Blokiraj stik';
@@ -27,17 +27,17 @@ $string['includeblockedusers'] = 'Vključi blokirane uporabnike';
 $string['incomingcontacts'] = 'Dohodni stiki ($a)';
 $string['keywords'] = 'Ključne besede';
 $string['keywordssearchresults'] = 'Rezultati iskanja: $a najdenih sporočil';
-$string['mailsent'] = 'Vaše sporočilo je bilo poslano preko elektronske pošte.';
+$string['mailsent'] = 'Vaše sporočilo je bilo poslano preko e-pošte.';
 $string['maxmessages'] = 'Največje število sporočil za prikaz v zgodovini razprave';
 $string['message'] = 'Sporočilo';
-$string['messagehistory'] = 'Zgodovina sporočila';
+$string['messagehistory'] = 'Zgodovina sporočil';
 $string['messages'] = 'Sporočila';
 $string['messaging'] = 'Sporočanje';
-$string['messagingdisabled'] = 'Na tej strani je onemogočeno pošiljanje sporočil, poslana bo elektronska pošta.';
+$string['messagingdisabled'] = 'Sporočanje na tej strani je onemogočeno; namesto tega bodo poslana e-poštna sporočila';
 $string['mycontacts'] = 'Moji stiki';
 $string['newonlymsg'] = 'Prikaži samo nove';
 $string['newsearch'] = 'Novo iskanje';
-$string['noframesjs'] = 'Različice brez okvirjev in JavaScript-e';
+$string['noframesjs'] = 'Različica brez okvirjev in JavaScript-a';
 $string['nomessages'] = 'Ni čakajočih sporočil';
 $string['nomessagesfound'] = 'Nobeno sporočilo ni bilo najdeno';
 $string['nosearchresults'] = 'Ni bilo rezultatov za vaše iskanje';
@@ -52,17 +52,17 @@ $string['pagerefreshes'] = 'Ta stran se osveži vsakih $a sekund';
 $string['readmessages'] = '$a prebranih sporočil';
 $string['removecontact'] = 'Odstrani stik';
 $string['savemysettings'] = 'Shrani moje nastavitve';
-$string['search'] = 'Išči';
+$string['search'] = 'Iskanje';
 $string['searchforperson'] = 'Iskanje osebe';
 $string['searchmessages'] = 'Iskanje sporočil';
 $string['sendmessage'] = 'Pošlji sporočilo';
 $string['sendmessageto'] = 'Pošlji sporočilo za $a';
-$string['sendmessagetopopup'] = 'Pošli sporočilo v $a - novo okno';
+$string['sendmessagetopopup'] = 'Pošlji sporočilo za $a - novo okno';
 $string['settings'] = 'Nastavitve';
 $string['settingssaved'] = 'Vaše nastavitve so bile shranjene';
 $string['showmessagewindow'] = 'Samodejno prikaži sporočilno okno, ko prejmem nova sporočila (vaš brskalnik mora biti nastavljen tako, da ne preprečuje pojavnih oken za to spletno mesto)';
-$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%H:%%M';
-$string['timenosee'] = 'Minut od kar sem bil na zadnje prijavljen';
+$string['strftimedaydatetime'] = '%%A, %%d. %%B %%Y, %%H:%%M';
+$string['timenosee'] = 'Minut od kar sem bil/a na zadnje prijavljen/a';
 $string['timesent'] = 'Čas pošiljanja';
 $string['unblockcontact'] = 'Odblokiraj stik';
 $string['unreadmessages'] = '$a neprebranih sporočil';

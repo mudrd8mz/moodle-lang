@@ -1,5 +1,6 @@
-<?php // $Id:
-      // timezones.php
+<?PHP // $Id:timezones.php from timezones.xml
+      // Comments: tomaz at zid dot si
+
 $string['africa/abidjan'] = 'Afrika/Abidžan';
 $string['africa/accra'] = 'Afrika/Akra';
 $string['africa/addis_ababa'] = 'Afrika/Adis_Abeba';
@@ -147,8 +148,8 @@ $string['america/pangnirtung'] = 'Amerika/Pangnirtung';
 $string['america/paramaribo'] = 'Amerika/Paramaribo';
 $string['america/phoenix'] = 'Amerika/Phoenix';
 $string['america/port-au-prince'] = 'Amerika/Port-au-Prince';
-$string['america/porto_velho'] = 'Amerika/Porto_Velho';
 $string['america/port_of_spain'] = 'Amerika/Port_of_Spain';
+$string['america/porto_velho'] = 'Amerika/Porto_Velho';
 $string['america/puerto_rico'] = 'Amerika/Portoriko';
 $string['america/rainy_river'] = 'Amerika/Rainy_River';
 $string['america/rankin_inlet'] = 'Amerika/Rankin_Inlet';
@@ -267,8 +268,8 @@ $string['atlantic/faeroe'] = 'Atlantik/Ferski_otoki';
 $string['atlantic/madeira'] = 'Atlantik/Madeira';
 $string['atlantic/reykjavik'] = 'Atlantik/Reykjavik';
 $string['atlantic/south_georgia'] = 'Atlantik/Južna_Georgia';
-$string['atlantic/stanley'] = 'Atlantik/Stanley';
 $string['atlantic/st_helena'] = 'Atlantik/Otok_svete_Helene';
+$string['atlantic/stanley'] = 'Atlantik/Stanley';
 $string['australia/adelaide'] = 'Avstralija/Adelaide';
 $string['australia/brisbane'] = 'Avstralija/Brisbane';
 $string['australia/broken_hill'] = 'Avstralija/Broken_Hill';
@@ -370,4 +371,6 @@ $string['pacific/truk'] = 'Pacifik/Truk';
 $string['pacific/wake'] = 'Pacifik/Wake';
 $string['pacific/wallis'] = 'Pacifik/Wallis';
 $string['pacific/yap'] = 'Pacifik/Yap';
+
+
 ?>

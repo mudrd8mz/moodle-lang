@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // lams.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
 $string['createSequence'] = 'Ustvari novo zaporedje';
@@ -7,8 +7,8 @@ $string['editSequence'] = 'Uredi izbrano zaporedje';
 $string['error'] = 'Žal je prišlo do neznane napake.';
 $string['introduction'] = 'Uvod';
 $string['lams'] = '-- LAMS - Learning Activity Management System (Sistem upravljanja izobraževalnih dejavnosti) --';
-$string['lams:manage'] = 'Uredi dejavnosti LAMS';
-$string['lams:participate'] = 'Udeležitev v dejavnosti LAMS';
+$string['lams:manage'] = 'Urejanje LAMS dejavnosti';
+$string['lams:participate'] = 'Udeležba v LAMS dejavnostih';
 $string['lamsoutline'] = 'Pregled LAMS';
 $string['lesson'] = 'učna seja';
 $string['modulename'] = 'LAMS';
@@ -30,6 +30,6 @@ $string['useSequence'] = 'Uporabi izbrano zaporedje';
 $string['visibletostudents'] = 'Pokaži dejavnost udeležencem';
 $string['wikistartederror'] = 'Wiki že ima vnose - ni možno spremeniti.';
 $string['workspace'] = 'Izberite delovni prostor';
-$string['wrongversionrange'] = '$a ni veljaven obseg!';
+$string['wrongversionrange'] = '$a ni veljaven razpon!';
 
 ?>

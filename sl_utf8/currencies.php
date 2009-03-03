@@ -1,13 +1,12 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // currencies.php - created with Moodle 1.8.2+ (2007021520)
 
 
 $string['AED'] = 'Dirham (Združeni arabski emirati)';
 $string['AFA'] = 'Afgan (Afganistan)';
-$string['ALL'] = 'Albanski lek';
+$string['ALL'] = 'Lek (Albanija)';
 $string['ANG'] = 'Nizozemsko-antilski gulden';
-$string['AON'] = 'Angolski 
- novi kvanza';
+$string['AON'] = 'Nova kwanza (Angola)';
 $string['ARA'] = 'Argentinski novi peso';
 $string['AUD'] = 'Avstralski dolar';
 $string['AWG'] = 'Arubski florin';
@@ -19,14 +18,14 @@ $string['BIF'] = 'Burundski frank';
 $string['BMD'] = 'Bermudski dolar';
 $string['BND'] = 'Brunejski dolar';
 $string['BOB'] = 'Bolivijski boliviano';
-$string['BRR'] = 'Brazilski kruzeiro real';
+$string['BRR'] = 'Cruzeiro Real (Brazilija)';
 $string['BSD'] = 'Bahamski dolar';
 $string['BTN'] = 'Butanska Ngutrum';
 $string['BUK'] = 'Burma Kyat';
 $string['BWP'] = 'Bocvanska Pula';
 $string['BZD'] = 'Beliški dolar';
 $string['CAD'] = 'Kanadski dolar';
-$string['CDZ'] = 'Zairski novi Zaire';
+$string['CDZ'] = 'Zairski novi zaire';
 $string['CHF'] = 'Švicarski frank';
 $string['CLF'] = 'Chilean Unidades de Fomento';
 $string['CLP'] = 'Čilski peso';
@@ -90,17 +89,17 @@ $string['MTL'] = 'Malteška lira';
 $string['MUR'] = 'Mavricijska rupija';
 $string['MVR'] = 'Rufija (Maldivski otoki)';
 $string['MWK'] = 'Malavijska kvača';
-$string['MXN'] = 'Mehiški peso';
+$string['MXN'] = 'Mehiški novi peso';
 $string['MYR'] = 'Ringit (Malezija)';
 $string['MZM'] = 'Metikal (Mozambik)';
 $string['NGN'] = 'Naira (Nigerija)';
-$string['NIO'] = 'Nikaraška kordoba';
+$string['NIO'] = 'Kordoba (Nikaragva)';
 $string['NOK'] = 'Norveška krona';
 $string['NPR'] = 'Nepalska rupija';
 $string['NZD'] = 'Novozelandski dolar';
 $string['OMR'] = 'Omanski rial';
 $string['PAB'] = 'Balboa (Panama)';
-$string['PEN'] = 'Nuevo Sol';
+$string['PEN'] = 'Purujski novi sol';
 $string['PGK'] = 'Kina (Papua Nova Gvineja)';
 $string['PHP'] = 'Filipinski peso';
 $string['PKR'] = 'Pakistanska rupija';
@@ -135,7 +134,7 @@ $string['TWD'] = 'Novi tajvanski dolar';
 $string['TZS'] = 'Tanzanski šiling';
 $string['UGS'] = 'Ugandski šiling';
 $string['USD'] = 'Ameriški dolar';
-$string['UYU'] = 'Urugvajski novi pesos';
+$string['UYU'] = 'Urugvajski novi peso';
 $string['VEB'] = 'Bolivar (Venezuela)';
 $string['VND'] = 'Dong (Vietnam)';
 $string['VUV'] = 'Vatu (Vanuatu)';
@@ -144,5 +143,32 @@ $string['YER'] = 'Jemenski rial';
 $string['ZAR'] = 'Južnoafriški rand';
 $string['ZMK'] = 'Kvača (Zambija)';
 $string['ZWD'] = 'Zimbabvejski dolar';
+$string['ADP'] = 'Andorska Peseta'; // ORPHANED
+$string['AOK'] = 'Kvanza (Angola)'; // ORPHANED
+$string['ATS'] = 'Avstrijski šiling'; // ORPHANED
+$string['BEF'] = 'Belgijski frank'; // ORPHANED
+$string['BRC'] = 'Brazilski real'; // ORPHANED
+$string['CSK'] = 'Krona (Češka)'; // ORPHANED
+$string['DDM'] = 'Vzhodnonemška marka (DDR)'; // ORPHANED
+$string['DEM'] = 'Nemška marka'; // ORPHANED
+$string['ECS'] = 'Sukre (Ekvador)'; // ORPHANED
+$string['ESP'] = 'Španska pezeta'; // ORPHANED
+$string['FIM'] = 'Finska marka'; // ORPHANED
+$string['FRF'] = 'Francoski frank'; // ORPHANED
+$string['GRD'] = 'Grška drahma'; // ORPHANED
+$string['IEP'] = 'Irsku funt'; // ORPHANED
+$string['ITL'] = 'Italijanska lira'; // ORPHANED
+$string['LUF'] = 'Luksemburški frank'; // ORPHANED
+$string['MXP'] = 'Mehiški peso'; // ORPHANED
+$string['NIC'] = 'Kordoba (Nikaragva)'; // ORPHANED
+$string['NLG'] = 'Nizozemski gulden'; // ORPHANED
+$string['PEI'] = 'Inti (Peru)'; // ORPHANED
+$string['PLZ'] = 'Zlot (Poljska)'; // ORPHANED
+$string['PTE'] = 'Eskudo (Portugalska)'; // ORPHANED
+$string['TRY'] = 'Turška lira'; // ORPHANED
+$string['UYP'] = 'Peso (Urugvaj)'; // ORPHANED
+$string['YDD'] = 'Dinar (Jemen)'; // ORPHANED
+$string['YUD'] = 'Jugoslovanski dinar'; // ORPHANED
+$string['ZRZ'] = 'Zair (Zair)'; // ORPHANED
 
 ?>

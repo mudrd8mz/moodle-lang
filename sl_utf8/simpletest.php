@@ -1,32 +1,32 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // simpletest.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['all'] = 'VSE';
+$string['all'] = 'VSI';
 $string['exception'] = 'Izjema';
-$string['fail'] = 'Pasti';
-$string['ignorefile'] = 'Ne upoštevaj teste v datoteki';
-$string['ignorethisfile'] = 'Ponovno zaženi teste, ne upoštevaj te testne datoteke.';
-$string['moodleunittests'] = 'Moodle-ovi testi enot: $a';
+$string['fail'] = 'Neuspeh';
+$string['ignorefile'] = 'Zanemari teste v datoteki';
+$string['ignorethisfile'] = 'Zanemari to testno datoteko in ponovno poženi teste';
+$string['moodleunittests'] = 'Testiranje Moodle enote: $a';
 $string['notice'] = 'Obvestilo';
-$string['onlytest'] = 'Testiraj samo v';
-$string['pass'] = 'Opraviti';
-$string['pathdoesnotexist'] = 'Pot &#039;$a&#039; ne obstaja.';
-$string['retest'] = 'Ponovno zaženi testiranje';
-$string['retestonlythisfile'] = 'Ponovno zaženi to testno datoteko.';
-$string['runall'] = 'Zaženi testiranje v vseh testnih datotekah.';
-$string['runat'] = 'Zaženi pri $a.';
-$string['runonlyfile'] = 'Zaženi testiranje samo v tej datoteki';
-$string['runonlyfolder'] = 'Zaženi testiranje samo v tej mapi';
-$string['runtests'] = 'Zaženi testiranje';
-$string['rununittests'] = 'Zaženi testiranje enot';
-$string['showpasses'] = 'Pokaži uspešne in neuspešne teste.';
-$string['showsearch'] = 'Prikaži iskanje testnih datotek';
-$string['stacktrace'] = 'Zaznamek napake:';
-$string['summary'] = '{$a->run}/{$a->total} testiranje zaključeno: <strong>{$a->passes}</strong> uspešne, <strong>{$a->fails}</strong> neuspešne in <strong>{$a->exceptions}</strong> izjeme.';
-$string['thorough'] = 'Zaženi testiranje (lahko traja nekaj časa).';
-$string['uncaughtexception'] = 'Nezabeležena izjema [{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}] TESTIRANJE JE PREKINJENO.';
-$string['unittests'] = 'Testne enote';
-$string['version'] = 'Uporablja <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> različico $a.';
+$string['onlytest'] = 'Poženi teste samo na';
+$string['pass'] = 'Uspeh';
+$string['pathdoesnotexist'] = 'Pot \'$a\' ne obstaja.';
+$string['retest'] = 'Ponovno poženi teste';
+$string['retestonlythisfile'] = 'Ponovno poženi teste iz te datoteke';
+$string['runall'] = 'Ponovno poženi teste iz vseh testnih datotek';
+$string['runat'] = 'Poženi od $a.';
+$string['runonlyfile'] = 'Poženi samo teste v tej datoteki';
+$string['runonlyfolder'] = 'Poženi samo teste iz tega imenika';
+$string['runtests'] = 'Poženi teste';
+$string['rununittests'] = 'Poženi teste enot';
+$string['showpasses'] = 'Prikaži uspehe in neuspehe.';
+$string['showsearch'] = 'Išči po testnih datotekah';
+$string['stacktrace'] = 'Sledenje skladu:';
+$string['summary'] = '{$a->run}/{$a->total} testov opravljenih: <strong>{$a->passes}</strong> uspešno, <strong>{$a->fails}</strong> neuspešno in <strong>{$a->exceptions}</strong> izjem.';
+$string['thorough'] = 'Poženi temeljit test (lahko traja dalj časa)';
+$string['uncaughtexception'] = 'Neujeta izjema [{$a->getMessage()}] v [{$a->getFile()}:{$a->getLine()}] TESTIRANJE PREKINJENO.';
+$string['unittests'] = 'Testi enot';
+$string['version'] = 'Uporabljam <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a>,  verzija $a.';
 
 ?>

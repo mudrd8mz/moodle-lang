@@ -1,24 +1,24 @@
 <?PHP // $Id$ 
-      // qtype_multianswer.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // qtype_multianswer.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
-$string['addingmultianswer'] = 'Dodajanje vprašanja tipa Ugnezdeni odgovor (izpolnjevanje)';
-$string['correctanswer'] = 'Pravilen odgovor';
-$string['correctanswerandfeedback'] = 'Pravilen odgovor in povratna informacija';
-$string['decodeverifyquestiontext'] = 'Dešifriraj in preveri besedilo vprašanja';
-$string['editingmultianswer'] = 'Urejanje vprašanja tipa Ugnezdeni odgovor (izpolnjevanje)';
-$string['layout'] = 'Načrt';
-$string['layouthorizontal'] = 'Radio gumbi horizontalno';
-$string['layoutselectinline'] = 'Spustni meni v besedilu';
-$string['layoutundefined'] = 'Nenačrtovano';
-$string['layoutvertical'] = 'Radio gumbi vertikalno';
-$string['multianswer'] = 'Ugnezdeni odgovor (izpolnjevanje)';
-$string['nooptionsforsubquestion'] = 'Ni bilo možno dobiti informacij za del vprašanja # $a->sub (question->id={$a->id})';
-$string['noquestions'] = 'Vprašanje tipa Ugnezdeni odgovor (izpolnjevanje) \"<strong>$a</strong> ne vsebuje nobenega vprašanja.';
-$string['qtypenotrecognized'] = 'Neprepoznaven tip vprašanja $a';
+$string['addingmultianswer'] = 'Dodajanje Ugnezdenih odgovorov (Cloze)';
+$string['correctanswer'] = 'Pravilni odgovor';
+$string['correctanswerandfeedback'] = 'Pravilni odgovor in odziv';
+$string['decodeverifyquestiontext'] = 'Dekodiraj in preveri besedilo vprašanja';
+$string['editingmultianswer'] = 'Urejanje Ugnezdenih odgovorov (Cloze)';
+$string['layout'] = 'Postavitev';
+$string['layouthorizontal'] = 'Vodoravna vrstica z izbirnimi gumbi';
+$string['layoutselectinline'] = 'Padajoči meni znotraj vrstic besedila';
+$string['layoutundefined'] = 'Nedoločena postavitev';
+$string['layoutvertical'] = 'Navpični stolpec z izbirnimi gumbi';
+$string['multianswer'] = 'Ugnezdeni odgovori (izpolnjevanje, Cloze)';
+$string['nooptionsforsubquestion'] = 'Ni bilo moč pridobiti možnosti za del vprašanja # $a->sub';
+$string['noquestions'] = 'Cloze vprašanje (z več odgovori) \"<strong>$a</strong>\" ne vsebuje nobenega vprašanja';
+$string['qtypenotrecognized'] = 'vrsta vprašanja $a ni prepoznan';
 $string['questiondefinition'] = 'Definicija vprašanja';
-$string['questionnotfound'] = 'Ni bilo možno dobiti vprašanja ali del vprašanja #$a';
-$string['questionsmissing'] = 'Ni vprašanj. Ustvari vsaj eno.';
-$string['unknownquestiontypeofsubquestion'] = 'Neprepoznaven tip vprašanja: $a->type od dela vprašanj # $a->sub';
+$string['questionnotfound'] = 'Ni bilo moč najti vprašanja za del vprašanja  #$a';
+$string['questionsmissing'] = 'Ni veljavnih vprašanj, ustvarite vsaj eno vprašanje';
+$string['unknownquestiontypeofsubquestion'] = 'Neznana vrsta vprašanja: $a->type za del vprašanja # $a->sub';
 
 ?>

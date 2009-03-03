@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // mediaplugin.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // mediaplugin.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['filtername'] = 'Multimedijski dodatki';
+$string['filtername'] = 'Večpredstavni vtičniki';
 $string['flashanimation'] = 'Flash animacija';
 $string['flashvideo'] = 'Flash video';
-$string['mp3audio'] = 'MP3 zvok';
+$string['mp3audio'] = 'MP3 avdio';
 
 ?>

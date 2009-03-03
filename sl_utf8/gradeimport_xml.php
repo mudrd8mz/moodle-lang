@@ -1,16 +1,16 @@
 <?PHP // $Id$ 
-      // gradeimport_xml.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // gradeimport_xml.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
-$string['errbadxmlformat'] = 'Napaka - slab XML format';
-$string['errduplicategradeidnumber'] = 'Napaka - obstajata dva ocenjena izdelka z idštevilko $a v tem predmetu. To naj bi bilo nemogoče.';
-$string['errduplicateidnumber'] = 'Napaka - podovojena IDštevilka';
-$string['errincorrectgradeidnumber'] = 'Napaka - idštevilka $a iz uvožene datoteke se ne ujema z nobenim ocenjenim izdelkom.';
-$string['errincorrectidnumber'] = 'Napaka - nepravilna Idštevilka';
-$string['errincorrectuseridnumber'] = 'Napaka - Id številka $a iz uvožene datoteke se ne ujema z nobenim uporabnikom';
-$string['fileurl'] = 'Oddaljena datoteka URL';
-$string['modulename'] = 'XML datoteka';
-$string['xml:publish'] = 'Objavi uvožene ocene iz XMLja';
-$string['xml:view'] = 'Uvozi ocene iz XML';
+$string['errbadxmlformat'] = 'Napaka v formatu XML';
+$string['errduplicategradeidnumber'] = 'Napaka - za ta predmet sta definirani dve postavki ocen z ID številko \'$a\'. To se ne bi smelo zgoditi.';
+$string['errduplicateidnumber'] = 'Napaka - podvojena ID številka';
+$string['errincorrectgradeidnumber'] = 'Napaka - ID številka \'$a\' iz datoteke za uvoz se ne ujema z nobeno postavko ocen.';
+$string['errincorrectidnumber'] = 'Napaka - napačna ID številka';
+$string['errincorrectuseridnumber'] = 'Napaka - ID številka \'$a\' iz datoteke za uvoz se ne ujema z nobenim uporabnikom';
+$string['fileurl'] = 'URL naslov oddaljene datoteke';
+$string['modulename'] = 'Datoteka XML';
+$string['xml:publish'] = 'Objava uvoženih ocen iz XML';
+$string['xml:view'] = 'Uvažanje ocen iz datotek XML';
 
 ?>

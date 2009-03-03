@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // journal.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
 $string['alwaysopen'] = 'Vedno odprto';
@@ -9,14 +9,14 @@ $string['editingended'] = 'Obdobje urejanja je zaključeno';
 $string['editingends'] = 'Obdobje urejanje se konča';
 $string['entries'] = 'Vnosi';
 $string['feedbackupdated'] = 'Posodobljen odziv za $a vnosov';
-$string['journalmail'] = '$a->teacher je objavil odziv na vaš
-dnevniški vnos za &#039;$a->journal&#039;
+$string['journalmail'] = '$a->teacher je objavil odziv na vašo
+dnevniški vnos za \'$a->journal\'
 
 Vidite ga lahko pripetega k vašemu dnevniškem vnosu:
 
     $a->url';
-$string['journalmailhtml'] = '$a->teacher je objavil odziv na vaš
-dnevniški vnos za &#039;<i>$a->journal</i>&#039;<br /><br />
+$string['journalmailhtml'] = '$a->teacher je objavil odziv na vašo
+dnevniški vnos za \'<i>$a->journal</i>\'<br /><br />
 Vidite ga lahko pripetega k vašemu <a href=\"$a->url\">dnevniškemu vnosu</a>.';
 $string['journalname'] = 'Ime dnevnika';
 $string['journalquestion'] = 'Vprašanje dnevnika';
@@ -28,13 +28,13 @@ $string['modulename'] = 'Dnevnik';
 $string['modulenameplural'] = 'Dnevniki';
 $string['newjournalentries'] = 'Novi dnevniški vnosi';
 $string['noentry'] = 'Ni vnosa';
-$string['noratinggiven'] = 'Ni dane ocene';
+$string['noratinggiven'] = 'Ni podane ocene';
 $string['notopenuntil'] = 'Ta dnevnik ne bo odprt do';
-$string['notstarted'] = 'Tega dnevnika še niste pričeli';
+$string['notstarted'] = 'Tega dnevnika še niste začeli';
 $string['overallrating'] = 'Skupna ocena';
 $string['rate'] = 'Ocena';
 $string['saveallfeedback'] = 'Shrani vse moje odzive';
 $string['startoredit'] = 'Začni ali uredi moj dnevniški vnos';
-$string['viewallentries'] = 'Prikaži $a dnevniških vnosov';
+$string['viewallentries'] = 'Ogled $a dnevniških vnosov';
 
 ?>

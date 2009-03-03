@@ -1,31 +1,31 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // quiz_overview.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
-$string['allattempts'] = 'Prikaži vse poskuse';
-$string['allattemptscontributetograde'] = 'Vsi poskusi prispevajo k končni oceni za uporabnika.';
-$string['allstudents'] = 'Prikaži vse $a';
-$string['attemptsonly'] = 'Prikaži $a z samo poskusi';
-$string['attemptsprepage'] = 'Poskusi prikazani na strani';
+$string['allattempts'] = 'Pokaži vse poskuse';
+$string['allattemptscontributetograde'] = 'Vsi poskusi prispevajo h končni oceni uporabnika.';
+$string['allstudents'] = 'Pokaži vse $a';
+$string['attemptsonly'] = 'Pokaži samo $a s poskusi';
+$string['attemptsprepage'] = 'Prikazani poskusi na stran';
 $string['deleteselected'] = 'Izbriši izbrane poskuse';
-$string['highlightinggraded'] = 'Uporabnikov poskus, ki prispeva k končni oceni, je označen.';
+$string['highlightinggraded'] = 'Poskus uporabnika, ki prispeva h končni oceni je poudarjen.';
 $string['noattemptsonly'] = 'Pokaži samo $a brez poskusov';
-$string['onlyoneattemptallowed'] = 'Samo en poskus na uporabnika je dovoljen pri tem kvizu.';
+$string['onlyoneattemptallowed'] = 'Vsak uporabnik ima na voljo le en poskus v tem kvizu.';
 $string['optallattempts'] = 'vsi poskusi';
 $string['optallstudents'] = 'vsi \'$a\'';
-$string['optattemptsonly'] = 'samo \'$a\' s poskusi';
-$string['optnoattemptsonly'] = 'samo \'$a\' brez poskusov';
-$string['optonlygradedattempts'] = 'samo ocenjen poskus za udeleženca ($a)';
+$string['optattemptsonly'] = 'Samo \'$a\' s poskusi';
+$string['optnoattemptsonly'] = 'Samo \'$a\' brez poskusov';
+$string['optonlygradedattempts'] = 'samo poskus, ki je ocenjen za vsakega uporabnika ($a)';
 $string['overview'] = 'Pregled';
 $string['overviewdownload'] = 'Prenos pregleda';
-$string['overviewreportgraph'] = 'Graf prikazuje razpon ocen glede na število udeležencev';
+$string['overviewreportgraph'] = 'Stolpčni graf števila študentov, ki dosegajo razpon ocen';
 $string['pagesize'] = 'Velikost strani';
-$string['preferencespage'] = 'Nastavitve za to stran';
+$string['preferencespage'] = 'Nastavitve samo za to stran';
 $string['preferencessave'] = 'Shrani nastavitve';
-$string['preferencesuser'] = 'Vaše nastavitve';
-$string['show'] = 'Prikaži / naloži';
-$string['showdetailedmarks'] = 'Prikaži / naloži oznake za vsako vprašanje';
-$string['showinggraded'] = 'Prikaži samo uporabnikove ocenjene poskuse';
-$string['showinggradedandungraded'] = 'Prikazani so vsi poskusi za vsakega udeleženca (ocenjeni in neocenjeni). Ocenjevalna metoda za ta kviz je $a.';
+$string['preferencesuser'] = 'Vaše nastavitve za to poročilo';
+$string['show'] = 'Prikaži / prenesi';
+$string['showdetailedmarks'] = 'Prikaži / prenesi ocene za vsako vprašanje';
+$string['showinggraded'] = 'Prikazovanje samo ocenjenega poskusa za vsakega uporabnika.';
+$string['showinggradedandungraded'] = 'Prikazovanje ocenjenih in neocenjenih poskusov za vsakega uporabnika. En ocenjen poskus pri vsakem uporabniku je poudarjen. Metoda ocenjevanja za ta kviz je $a.';
 
 ?>

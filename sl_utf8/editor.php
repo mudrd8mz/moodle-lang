@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // editor.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
 $string['about'] = 'O tem urejevalniku';
@@ -24,12 +24,12 @@ $string['chooseicon'] = 'Izberi ikono za vstavljanje';
 $string['close'] = 'Zapri';
 $string['closeafterreplace'] = 'Zapri po zamenjavi';
 $string['cols'] = 'Stolpci';
-$string['copy'] = 'Kopiraj izbor';
+$string['copy'] = 'Kopiraj označeno';
 $string['createanchor'] = 'Ustvari sidro';
 $string['createfolder'] = 'Ustvari mapo';
 $string['createlink'] = 'Vstavi spletno povezavo';
 $string['cut'] = 'Izreži označeno';
-$string['cutpastemozilla'] = 'Žal trenutno ne morete uporabljati običajnih bližnjic tipkovnice (ali celo gumba Prilepi) za lepljenje besedila v ta spletni urejevalnik. Tako je zaradi varnostnih nastavitev, vključene v nekatere različice brskalnikov Mozilla in Firefox.<br /><br />Obstajajo tri znane rešitve, ki jih lahko poskusite: <br /> (1) Namesto CTRL-v uporabite SHIFT-Insert <br /> (2) Uporabite Uredi->Prilepi meni v vašem brskalniku. <br /> (3) Spremenite nastavitve v vašem brskalniku z urejanjem datoteke user.js. <br /><br />Kliknite spodnji gumb V redu za več pomoči ali Prekliči za vrnitev v urejevalnik';
+$string['cutpastemozilla'] = 'Žal trenutno ne morete uporabljati običajnih bližnjic tipkovnice (ali celo gumba Prilepi) za lepljenje besedila v ta spletni urejevalnik. To je zaradi varnostne možnosti vključene v nekatere različice brskalnikov Mozilla in Firefox.<br /><br />Obstajajo tri znane rešitve, ki jih lahko poskusite: <br /> (1) Namesto CTRL-v uporabite SHIFT-Insert <br /> (2) Uporabite Uredi->Prilepi meni v vašem brskalniku. <br /> (3) Spremenite nastavitve v vašem brskalniku z urejanjem datoteke user.js. <br /><br />Kliknite spodnji gumb V redu za več pomoči ali Prekliči za vrnitev v urejevalnik';
 $string['delete'] = 'Izbriši';
 $string['enterurlfirst'] = 'Najprej morate vnesti URL';
 $string['filebrowser'] = 'Iskanje datoteke';
@@ -54,7 +54,7 @@ $string['insertsmile'] = 'Vstavi smeška';
 $string['inserttable'] = 'Vstavi tabelo';
 $string['italic'] = 'Ležeče';
 $string['itemsreplaced'] = 'elementov zamenjanih!';
-$string['justifycenter'] = 'Sredinska poravnava';
+$string['justifycenter'] = 'Na sredino';
 $string['justifyfull'] = 'Obojestranska poravnava';
 $string['justifyleft'] = 'Leva poravnava';
 $string['justifyright'] = 'Desna poravnava';
@@ -76,7 +76,7 @@ $string['middle'] = 'Sredina';
 $string['minimize'] = 'Minimiziraj urejevalnik';
 $string['move'] = 'Premakni';
 $string['multi'] = 'Več';
-$string['mustenterurl'] = 'Morate vnesti URL';
+$string['mustenterurl'] = 'Vnesti morate URL';
 $string['nolink'] = 'Prepreči samodejno povezovanje';
 $string['normal'] = 'Navadno';
 $string['notimage'] = 'Izbrana datoteka ni slika. Izberite sliko!';
@@ -89,7 +89,7 @@ $string['paste'] = 'Prilepi iz odložišča';
 $string['path'] = 'Pot';
 $string['percent'] = 'Odstotek';
 $string['pixels'] = 'Pik';
-$string['pleaseenteralt'] = 'Morate vnesti alternativno besedilo';
+$string['pleaseenteralt'] = 'Vnesite spremno besedilo';
 $string['popupeditor'] = 'Povečaj urejevalnik';
 $string['preformatted'] = 'Predoblikovano';
 $string['preview'] = 'Predogled';
@@ -114,13 +114,13 @@ $string['strikethrough'] = 'Prečrtano';
 $string['subscript'] = 'Podpisano';
 $string['superscript'] = 'Nadpisano';
 $string['textindicator'] = 'Trenutni slog';
-$string['textmode'] = 'Ste v BESEDILNEM NAČINU. Uporabite gumb [<>] za vrnitev v NAČIN WYSIWYG.';
+$string['textmode'] = 'Ste v BESEDILNEM NAČINU.  Uporabite gumb [<>] za vrnitev v NAČIN WYSIWYG.';
 $string['texttop'] = 'Na vrh besedila';
 $string['top'] = 'Vrh';
-$string['type'] = 'Tip';
+$string['type'] = 'Vrsta';
 $string['underline'] = 'Podčrtano';
 $string['undo'] = 'Razveljavi zadnje dejanje';
-$string['unorderedlist'] = 'Neurejen seznam';
+$string['unorderedlist'] = 'Označen seznam';
 $string['upload'] = 'Naloži';
 $string['vertical'] = 'Navpično';
 $string['width'] = 'Širina';

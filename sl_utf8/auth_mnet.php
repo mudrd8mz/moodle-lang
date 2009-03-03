@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // auth_mnet.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // auth_mnet.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['sso_idp_description'] = 'Aktiviraj to storitev, da bo uporabnikom omogočen dostop do strani $a Moodle brez ponovne prijave. <ul><li><em>Pogoj</em>: Prav tako se morate <strong>registrirati</strong> v SSO (Storitveni Ponudnik) storitev na $a.</li></ul><br />S to storitvijo omogoči avtenticiranim uporabnikom iz $a dostop do vaše strani, ne da bi se morali ponovno prijaviti.<ul><li><em>Pogoj</em>:Prav tako morate <strong>objaviti</strong> SSO (Storitveni Ponudnik) storitev $a.</li></ul><br />';
-$string['sso_idp_name'] = 'SSO (Ponudnik identitete)';
-$string['sso_mnet_login_refused'] = 'Uporabnik $a[0] nima dovoljenja za prijavo iz $a[1].';
-$string['sso_sp_description'] = 'S to storitvijo dovoli avtenticiranim uporabnikom iz $a dostop do vaše strani, brez da bi se morali ponovno prijaviti. <ul><li><em>Odvisnost</em>: Prav tako se moraš <strong>prijaviti</strong> na SSO (Ponudnik Identitete) storitev na $a.</li></ul><br />Aktiviraj to storitev, da bo uporabnikom omogočen dostop do strani $a Moodle brez ponovne prijave.<ul><li><em>Odvisnost</em>: Prav tako moraš <strong>objaviti</strong> storitev SSO (Ponudnika Identitete) $a.</li></ul><br />';
-$string['sso_sp_name'] = 'SSO (Ponudnik storitve)';
+$string['sso_idp_description'] = 'Objavite to storitev, da omogočite vašim uporabnikom uporabo Moodle strežnika $a, ne da bi si morali na njem ustvariti ločen uporabniški račun.
+<ul><li><em>Odvisnost</em>: <strong>Naročiti</strong> se morate na storitev SSO (Service provider) na $a.</li></ul><br />Naročite se na to storitev za omogočanje avtenticiranim uporabnikom s strežnika $a uporabljanje storitev vašega strežnika brez potrebe po tvorjenju uporabniškega računa. <ul><li><em>Odvisnost</em>: Za uporabo morate tudi <strong>objaviti</strong> storitev SSO (Service Provider) strežniku $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (strežnik identitet)';
+$string['sso_mnet_login_refused'] = 'Prijava uporabnika $a[0] s strežnika  $a[1] ni dovoljena.';
+$string['sso_sp_description'] = 'Objavite to storitev, da omogočite avtenticiranim uporabnikom s strežnika $a uporabo vašega Moodle strežnika $a, ne da bi si morali na njem ustvariti ločen uporabniški račun.
+<ul><li><em>Odvisnost</em>: <strong>Naročiti</strong> se morate na storitev SSO (Service provider) na $a.</li></ul><br />Naročite se na to storitev za omogočanje uporabnikom vašega strežnika uporabljanje storitev Moodle strežnika $a brez potrebe po tvorjenju uporabniškega računa. <ul><li><em>Odvisnost</em>: Za uporabo morate tudi <strong>objaviti</strong> storitev SSO (Service Provider) strežniku $a.</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (strežnik storitev)';
 
 ?>

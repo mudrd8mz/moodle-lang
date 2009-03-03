@@ -1,29 +1,35 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // notes.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
-$string['addnewnote'] = 'Dodaj nov zapis';
-$string['addnewnoteselect'] = 'Izberi uporabnike o katerih boste pisali zapiske';
-$string['bynameondate'] = 'po $a->name - $a->date';
+$string['addnewnote'] = 'Dodaj novo opombo';
+$string['addnewnoteselect'] = 'Izberite uporabnike, za katere želite zapisati opombe';
+$string['bynameondate'] = 'od $a->name - $a->date';
+$string['cannotdeletepost'] = 'Prišlo je do napake med brisanjem objave';
+$string['configenablenotes'] = 'Omogoči shranjevanje opomb za posamezne uporabnike';
 $string['content'] = 'Vsebina';
-$string['course'] = 'Smer';
-$string['coursenotes'] = 'Zapiski smeri';
-$string['created'] = 'Ustvarjeno';
-$string['deleteconfirm'] = 'Izbriši ta zapis';
-$string['deletenotes'] = 'Izbriši vse zapise';
-$string['editnote'] = 'Uredi zapis';
-$string['groupaddnewnote'] = 'Dodaj nov zapis za vse';
-$string['nocontent'] = 'Vsebina zapisa ne more biti prazna';
-$string['nonotes'] = 'Zapisov takega tipa še ni';
-$string['note'] = 'Zapis';
-$string['notes'] = 'Zapisi';
-$string['notesnotvisible'] = 'Ogled teh zapisov vam ni dovoljen';
-$string['nouser'] = 'Izberite uporabnika';
+$string['course'] = 'predmet';
+$string['coursenotes'] = 'Opombe predmeta';
+$string['created'] = 'ustvarjeno';
+$string['deleteconfirm'] = 'Izbriši to opombo?';
+$string['deletenotes'] = 'Izbriši vse opombe';
+$string['editnote'] = 'Uredi opombo';
+$string['enablenotes'] = 'Omogoči opombe';
+$string['groupaddnewnote'] = 'Dodaj skupno opombo';
+$string['invalidid'] = 'Določen je neveljaven ID opombe';
+$string['nocontent'] = 'Vsebina opombe ne sme biti prazna';
+$string['nonotes'] = 'Ni še opomb te vrste';
+$string['nopermissiontodelete'] = 'Te opombe ne morete izbrisati';
+$string['note'] = 'Opomba';
+$string['notes'] = 'Opombe';
+$string['notesdisabled'] = 'Žal so opombe onemogočene.';
+$string['notesnotvisible'] = 'Nimate dovoljenja za ogled opomb.';
+$string['nouser'] = 'Izbrati morate uporabnika';
 $string['personal'] = 'osebno';
-$string['personalnotes'] = 'Osebni zapisi';
+$string['personalnotes'] = 'Osebne opombe';
 $string['publishstate'] = 'Status';
 $string['site'] = 'stran';
-$string['sitenotes'] = 'Zapisi strani';
+$string['sitenotes'] = 'Opombe strani';
 $string['unknown'] = 'neznano';
 
 ?>

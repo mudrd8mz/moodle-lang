@@ -1,19 +1,19 @@
 <?PHP // $Id$ 
-      // quiz_grading.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // quiz_grading.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
 $string['essayonly'] = 'Naslednja vprašanja je potrebno oceniti ročno';
-$string['gradeall'] = 'Oceni vse $a poskuse';
+$string['gradeall'] = 'Oceni vseh $a poskusov';
 $string['graded'] = '(ocenjeno)';
-$string['gradenextungraded'] = 'Oceni naslednji $a obnovljeni poskus';
-$string['gradeungraded'] = 'Oceni vse $a neocenjene poskuse';
+$string['gradenextungraded'] = 'Oceni naslednjih $a neocenjenih poskusov';
+$string['gradeungraded'] = 'Oceni vseh $a neocenjenih poskusov';
 $string['grading'] = 'Ročno ocenjevanje';
-$string['gradingall'] = 'Vsi $a poskusi pri tem vprašanju.';
+$string['gradingall'] = 'Vseh $a poskusov tega vprašanja.';
 $string['gradingattempt'] = 'Poskus številka $a->attempt za $a->fullname.';
-$string['gradingnextungraded'] = 'Naslednji $a neocenjen poskus';
+$string['gradingnextungraded'] = 'Naslednjih $a neocenjenih poskusov';
 $string['gradingnotallowed'] = 'Nimate dovoljenja za ročno ocenjevanje odgovorov v tem kvizu';
 $string['gradingungraded'] = '$a neocenjenih poskusov';
-$string['gradinguser'] = 'Poskusov za $a';
-$string['questiontitle'] = 'Vprašanje $a->number : \"$a->name\" ({$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts poskusov {$a->openspan}ocenjeno{$a->closespan}).';
+$string['gradinguser'] = 'Poskusi za $a';
+$string['questiontitle'] = 'Vprašanje $a->number : \"$a->name\" ({$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts poskusov {$a->openspan}ocenjenih{$a->closespan}).';
 
 ?>

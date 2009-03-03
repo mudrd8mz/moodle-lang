@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_mnet_hosts.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // block_mnet_hosts.php - created with Moodle 1.8.2 (2007021520)
 
 
-$string['mnet_hosts'] = 'Omrežni strežniki';
+$string['mnet_hosts'] = 'Mrežni Strežniki';
 $string['server'] = 'Strežnik';
 
 ?>

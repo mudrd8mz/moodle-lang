@@ -1,19 +1,24 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // enrol_mnet.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
-$string['allcategories'] = '$a potencialnih kategorij';
-$string['allcourses'] = '$a potencialnih predmetov';
+$string['allcategories'] = '$a možnih kategorij';
+$string['allcourses'] = '$a možnih predmetov';
 $string['allow_allcourses'] = 'Dovoli vpis v vse oddaljene predmete';
 $string['allowedcategories'] = '$a dovoljenih kategorij';
 $string['allowedcourses'] = '$a dovoljenih predmetov';
-$string['allowedcourseslinktext'] = 'Urejanje dovoljenih predmetov in kategorij';
-$string['description'] = 'Opis vpisovanja prek omrežja Moodle';
-$string['enrolname'] = 'Omrežje Moodle';
-$string['mnet_enrol_description'] = 'Objava te storitve omogoča skrbnikom mesta $a vpisovanje njihovih uporabnikov v predmete, ki ste jih kreirali na tem strežniku. <br/><ul><li><em>Odvisnost</em>: To storitev SSO (Service Provider) <strong>morate objaviti </strong> $a.</li><li><em>Odvisnost</em>: To storitev SSO (Identity Provider)<strong>morate naročiti</strong> na $a.</li></ul><br/>Naročnina na to storitev omogoča vašim uporabnikom vpis v predmete na $a. <br/><ul><li><em>Odvisnost</em>: Storitev SSO (Service Provider) <strong>morate naročiti</strong> na $a. </li><li><em>Odvisnost</em>: Storitev SSO (Identity Provider) <strong>morate objaviti</strong> na $a.</li></ul><br/>';
-$string['mnet_enrol_name'] = 'Vpisovanje z omrežjem Moodle';
+$string['allowedcourseslinktext'] = 'Uredite predmete in kategorije.';
+$string['description'] = 'Opis vpisovanja preko Moodle omrežja';
+$string['enrolname'] = 'Moodle omrežje';
+$string['mnet_enrol_description'] = 'Objavite to storitev, da omogočite administratorjem strežnika $a vpis svojih študentov v tečaje na vašem strežniku.<br/><ul><li><em>Odvisnost</em>: Strežniku $a morate tudi <strong>objaviti</strong> storitev SSO (Service provider).</li>
+<li><em>Odvisnost</em>: Morate se tudi <strong>naročiti</strong> na storitev SSO (Identity Provider) na $a.</li></ul><br/>
+
+Naročite se na to storitev, da omogočite svojim študentom vpis v predmete na $a.<br/>
+<ul><li><em>Odvisnost</em>: Morate se tudi  <strong>naročiti</strong> na storitev SSO (Service Provider) na $a.</li>
+<li><em>Odvisnost</em>: Morate tudi <strong>objaviti</strong> storitev SSO (Identity Provider) strežniku $a.</li></ul><br/>';
+$string['mnet_enrol_name'] = 'Moodle omrežni vpis';
 $string['mnetlocalforexternal'] = 'Lokalni predmeti za zunanje uporabnike';
-$string['nocategoriesdefined'] = 'Kategorije predmetov ne obstajajo. Definirajte nove kategorije <a href=\"$a\">tukaj</a>';
-$string['nocoursesdefined'] = 'Predmeti ne obstajajo. Definirajte nove predmete <a href=\"$a\">tukaj</a>';
+$string['nocategoriesdefined'] = 'Ni bilo najdenih kategorij predmetov. <a href=\"$a\">Tukaj</a> določite nove kategorije.';
+$string['nocoursesdefined'] = 'Ni bilo najdenih predmetov. <a href=\"$a\">Tukaj</a> določite nove predmete.';
 
 ?>

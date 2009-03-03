@@ -1,39 +1,39 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // form.php - created with Moodle 1.9.4+ (Build: 20090204) (2007101540)
 
 
-$string['addfields'] = 'Dodaj $a polja v  obrazec';
-$string['advancedelement'] = 'Napredna nastavitev';
+$string['addfields'] = 'Obrazcu dodaj $a polj';
+$string['advancedelement'] = 'Napreden element';
 $string['day'] = 'Dan';
-$string['display'] = 'Prikaz';
-$string['err_alphanumeric'] = 'Tukaj morate vpisati le črke ali številke.';
-$string['err_email'] = 'Tukaj morate vnesti veljaven elektronski naslov.';
-$string['err_lettersonly'] = 'Tukaj morate vnesti le črke.';
-$string['err_maxlength'] = 'Tukaj ne smete vnesti več znakov kot je $a->format.';
-$string['err_minlength'] = 'Tukaj morate vnesti vsaj toliko znakov kot je $a->format.';
-$string['err_nonzero'] = 'Tukaj morate vnesti številko, ki se ne sme začeti z 0.';
-$string['err_nopunctuation'] = 'Tukaj ne smete vpisati razločnih znakov od črk ter številk.';
-$string['err_numeric'] = 'Tukaj morate vnesti številko.';
-$string['err_rangelength'] = 'Tukaj morate vnesti znake, ki so med formatoma {$a->format[0]} in {$a->format[1]}.';
-$string['err_required'] = 'Vnesite vrednost';
-$string['general'] = 'Splošne nastavitve';
-$string['hideadvanced'] = 'Skrij napredne nastavitve';
+$string['display'] = 'Prikaži';
+$string['err_alphanumeric'] = 'Tu morate vnesti samo črke ali številke.';
+$string['err_email'] = 'Tu morate vnesti veljavni naslov e-pošte.';
+$string['err_lettersonly'] = 'Tu morate vnesti samo črke.';
+$string['err_maxlength'] = 'Tu ne smete vnesti več kot $a->format znakov.';
+$string['err_minlength'] = 'Tu ne smete vnesti manj kot $a->format  znakov.';
+$string['err_nonzero'] = 'Tu morate vnesti številko, ki se ne začne z 0.';
+$string['err_nopunctuation'] = 'Tu ne smeti vnesti nobenih ločil.';
+$string['err_numeric'] = 'Tu morate vnesti številko.';
+$string['err_rangelength'] = 'Tu morate vnesti med {$a->format[0]} in {$a->format[1]} znakov.';
+$string['err_required'] = 'Tu morate vnesti vrednost.';
+$string['general'] = 'Splošno';
+$string['hideadvanced'] = 'Skrij napredno';
 $string['hour'] = 'Ura';
 $string['minute'] = 'Minuta';
-$string['miscellaneoussettings'] = 'Različne nastavitve';
-$string['modstandardels'] = 'Splošne nastavitve modula';
+$string['miscellaneoussettings'] = 'Razne nastavitve';
+$string['modstandardels'] = 'Običajne nastavitve modula';
 $string['month'] = 'Mesec';
-$string['nomethodforaddinghelpbutton'] = 'Ni nobene metode za dodajanje pomožnega gumba za kreiranje elementa $a->name (class $a->classname)';
-$string['nonexistentformelements'] = 'Poskuša dodati pomožne gumbe za neobstoječe obrazce elementa $a';
-$string['optional'] = 'Izbirni';
-$string['othersettings'] = 'Ostale nastavitve';
+$string['nomethodforaddinghelpbutton'] = 'Ne obstaja metoda za dodajanje gumba za pomoč elementu $a->name (vrste $a->classname) v obrazcu';
+$string['nonexistentformelements'] = 'Poskušate dodati gumbe za pomoč neobstoječim elementom obrazca : $a';
+$string['optional'] = 'Neobvezno';
+$string['othersettings'] = 'Druge nastavitve';
 $string['requiredelement'] = 'Zahtevano polje';
-$string['revealpassword'] = 'Prikaži';
+$string['revealpassword'] = 'Razkrij';
 $string['security'] = 'Varnost';
 $string['selectallornone'] = 'Izberi vse/nič';
-$string['showadvanced'] = 'Napredne nastavitve';
-$string['somefieldsrequired'] = 'Polja označena z $a so obvezna.';
-$string['timing'] = 'Časovne omejitve';
+$string['showadvanced'] = 'Prikaži napredno';
+$string['somefieldsrequired'] = 'V tem obrazcu so zahtevana polja označena z $a.';
+$string['timing'] = 'Čas';
 $string['unmaskpassword'] = 'Prikaži';
 $string['year'] = 'Leto';
 

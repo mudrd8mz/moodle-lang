@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // qtype_randomsamatch.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // qtype_randomsamatch.php - created with Moodle 1.8.2+ (2007021520)
 
 
-$string['nosaincategory'] = 'V kategoriji \'$a->catname\' ni vprašanj tipa Kratek odgovor. Izberite novo kategorijo ali pa v tej ustvarite nekaj vprašanj tega tipa.';
-$string['notenoughsaincategory'] = 'V kategoriji \'$a->catname\' je/so samo $a->nosaquestions vprašanj tipa Kratek odgovor. Izberite drugo kategorijo, ustvarite nekaj novih vprašanj ali pa zmanjšajte število vprašanj, ki ste jih izbrali.';
+$string['nosaincategory'] = 'V izbrani kategoriji \'$a->catname\' ni vprašanj s kratkimi odgovori. Izberite drugo kategorijo ali naredite nekaj novih vprašanj v tej kategoriji.';
+$string['notenoughsaincategory'] = 'V izbrani kategoriji \'$a->catname\' je le $a->nosaquestions vprašanj s kratkimi odgovori. Izberite drugo kategorijo, naredite nekaj novih vprašanj v tej kategoriji ali zmanjšajte število izbranih vprašanj.';
 
 ?>

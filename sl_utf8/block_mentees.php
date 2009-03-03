@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // block_mentees.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // block_mentees.php - created with Moodle 1.8.2 (2007021520)
 
 
-$string['blockname'] = 'Mentees';
+$string['blockname'] = 'Varovanci';
 $string['configtitle'] = 'Naslov bloka';
-$string['leaveblanktohide'] = 'pustite prazno, da skrijete naslov bloka';
-$string['newmenteesblock'] = '(nov blok Mentees)';
+$string['leaveblanktohide'] = 'pustite prazno za skrit naslov';
+$string['newmenteesblock'] = '(nov blok Varovanci)';
 
 ?>
