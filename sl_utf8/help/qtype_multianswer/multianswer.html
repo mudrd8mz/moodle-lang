@@ -1,0 +1,156 @@
+<h1>Ugnezdeni odgovori (izpolnjevanje)</h1>
+
+<p>Ta zelo prilagodljiva vrsta vprašanja je podobna popularnemu formatu znanemu kot Cloze.</p>
+
+<p>Vprašanja so sestavljena iz odlomka besedila (v formatu Moodle), ki ima ugnezdena različna podvprašanja, vključujoč:</p>
+<ul>
+  <li>kratke odgovore&nbsp;(SHORTANSWER ali SA ali MW), pri katerih velike/male začetnice niso pomembne,</li>
+  <li>kratke odgovore&nbsp;(SHORTANSWER_C ali SAC ali MWC), pri katerih se morajo velike/male začetnice ujemati,</li>
+  <li>numerične odgovore (NUMERICAL ali NM),</li>
+  <li>več izbir (MULTICHOICE ali MC), ki so predstavljene kot padajoči meni znotraj vrstic besedila</li>
+  <li>več izbir (MULTICHOICE_V ali MCV), ki so predstavljene kot navpični stolpec z izbirnimi gumbi ali</li>
+  <li>več izbir (MULTICHOICE_H ali MCH), ki so predstavljene kot vodoravna vrstica z izbirnimi gumbi.</li>
+</ul>
+<p>Trenutno za ustvarjanje tovrstnih vprašanj ni grafičnega vmesnika - vprašanje morate določiti preko besedila vprašanja ali tako, da jih uvozite iz zunanjih datotek.</p>
+
+<p>Sledi primer besedila za določanje vprašanja te vrste:</p>
+
+<p>Pomnite, da pri prikazu več izbir vodoravno ali navpično ni na voljo samodejnega oštevilčenja. Številke se lahko dodajo vsakemu odgovoru tako, kot je prikazano v sledečem primeru.</p>
+
+<p><textarea rows="25" cols="60">To vprašanje je sestavljeno iz besedila z odgovorom, ki je ugnezden tukaj {1:MULTICHOICE:Napačen odgovor#Odziv za ta napačen odgovor~Še en napačen odgovor#Odziv za drugi napačen odgovor~=Pravilen odgovor#Odziv za pravilen odgovor~%50%Odgovor za pol točk#Odziv za odgovor za pol točk}, za tem odgovorite na ta kratek odgovor {1:SHORTANSWER:Napačen odgovor#Odziv za ta napačen odgovor~=Pravilen odgovor#Odziv za pravilen odgovor~%50%Odgovor za pol točk#Odziv za odgovor za pol točk}, na koncu pa vpišite še število s plavajočo vejico {2:NUMERICAL:=23.8:0.1#Odziv za pravilen odgovor 23.8~%50%23.8:2#Odziv za odgovor za pol točk v bližini pravilnega odgovora}.
+
+Vprašanje z več izbirami je lahko prikazano navpično, tako kot standardno Moodle vprašanje z več izbirami.
+
+{2:MCV:1. Napačen odgovor#Odziv za ta napačen odgovor~2. Še en napačen odgovor#Odziv za drugi napačen odgovor~=3. Pravilen odgovor#Odziv za pravilen odgovor~%50%4. Odgovor za pol točk#Odziv za odgovor za pol točk}
+Ali vodoravno, kot je tu prikazano v tabeli
+
+{2:MCH:a. Napačen odgovor#Odziv za ta napačen odgovor~b. Še en napačen odgovor#Odziv za drugi napačen odgovor~=c. Pravilen odgovor#Odziv za pravilen odgovor~%50%d. Odgovor za pol točk#Odziv za odgovor za pol točk}
+Vprašanje s kratkim odgovorm, pri katerem se morajo velike/male začetnice ujemati. Napišite moodle z velikimi črkami {1:SHORTANSWER_C:moodle#Odziv za moodle z malimi črkami ~=MOODLE#Odziv za MOODLE z velikimi črkami ~%50%Moodle#Odziv za odgovor z veliko začetnico}
+Kot vidite, naslovi kot www.moodle.org in smeški :-) delujejo kot ponavadi:
+ a) Ali je to dobro? {:MULTICHOICE:=Da#Pravilno~Ne#Mi se ne strinjamo}
+ b) Kako bi to ocenili? {3:NUMERICAL:=3:2}
+
+Srečno!
+</textarea></p>
+
+<p>Ta primer se bo udeležencem prikazal takole:</p>
+
+<div id="middle-column"><div><span id="maincontent"></span><div id="q6" class="que multianswer clearfix">
+  <div class="info">
+    <span class="accesshide">Vprašanje </span>1      
+    <div class="grade">
+      Točke: --/13.00</div>
+    </div>
+    <div class="content">
+      <div class="ablock clearfix"><label>To vprašanje je sestavljeno iz besedila z odgovorom, ki je ugnezden tukaj <span><select name="resp3796_1"><option 
+ selected="selected"></option><option value="8919">Napačen odgovor</option><option value="8920">Še en napačen odgovor</option><option value="8921">Previlen odgovor</option><option value="8922">Odgovor za pol točk</option></select></span></label><label>, za tem odgovorite na ta kratek odgovor <input name="resp3796_2" size="33" /> </label><label>, na koncu pa vpišite še število s plavajočo vejico <input name="resp3796_3" size="4" /> </label>.<br />
+  <br />
+  Vprašanje z več izbirami je lahko prikazano navpično, tako kot standardno Moodle vprašanje z več izbirami.<br />
+  <br />
+        <table width="50%"><tbody><tr><td>
+          <table class="answer">
+            <tr class="r0">
+              <td class="c0 control">
+                <input id="resp3796_8960" name="resp3796_4"  type="radio" value="8960" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8960">
+                  1. Napačen odgovor
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r1">
+              <td class="c0 control">
+                <input id="resp3796_8961" name="resp3796_4"  type="radio" value="8961" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8961">
+                  2. Še en napačen odgovor
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r0">
+              <td class="c0 control">
+                <input id="resp3796_8962" name="resp3796_4"  type="radio" value="8962" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8962">
+                  3. Pravilen odgovor
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r1">
+              <td class="c0 control">
+                <input id="resp3796_8963" name="resp3796_4"  type="radio" value="8963" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8963">
+                  4. Odgovor za pol točk
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+          </table>
+        </td></tr></tbody></table>
+      <br />Ali vodoravno, kot je tu prikazano v tabeli<br /><br />
+        <table class="answer">
+          <tr class="r0">
+            <td class="c0 control">
+              <input id="resp3796_8964" name="resp3796_5"  type="radio" value="8964" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8964">
+                a. Napačen odgovor
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input id="resp3796_8965" name="resp3796_5"  type="radio" value="8965" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8965">
+                b. Še en napačen odgovor
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input  id="resp3796_8966" name="resp3796_5"  type="radio" value="8966" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8966">
+                c. Pravilen odgovor
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input  id="resp3796_8967" name="resp3796_5"  type="radio" value="8967" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8967">
+                d. Odgovor za pol točk
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+          </tr>
+        </table>
+        <br />
+        Vprašanje s kratkim odgovorm, pri katerem se morajo velike/male začetnice ujemati. Napišite moodle z velikimi črkami <input    name="resp3435_6"  type="text" value="" size="6" /> <br />
+      <br />Kot vidite, naslovi kot <a href="http://www.moodle.org" target="_blank">www.moodle.org</a> in smeški <img alt="smile" width="15" height="15" src="http://132.208.141.198/moodle_head/pix/s/smiley.gif" /> delujejo kot ponavadi:<br />
+       a) Ali je to dobro? <span><select name="resp3796_6"><option selected="selected"></option><option value="8968">Da</option><option value="8969">Ne</option></select></span><label><br />
+       b) Kako bi to ocenili? <input name="resp3796_7" size="1" /> </label><br /><br />Srečno!
+    </div>
+    <div class="grading">
+    </div>
+  </div>
+</div></div></div>
