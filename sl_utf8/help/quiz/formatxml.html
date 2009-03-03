@@ -1,15 +1,15 @@
-<h1>Uvažanje "Moodle XML" formatov datotek</h1>
+<h1>Uvažanje datotek formata "Moodle XML"</h1>
 
-<h3>Preusmeritev kategorij</h3>
+<h3>Zamenjava kategorij</h3>
 
-<p>Lahko vstavite posebno trapasto vprašanje v XML datoteko da specificirate pot kategorije, v katero bo vstavljeno to vprašanje. Če kategorija ali kategorije ne obstajajo, bodo ustvarjene. Pazite na to, da bo možnost <b>iz datoteke:</b> označena na strani možnosti, v nasprotnem bo koda v celoti ignorirana. Kategorije lahko menjate v xml datoteke kolikokrat želite.</p>
+<p>V XML datoteko lahko vstavite posebno namišljeno vprašanje, s katerim določite pot kategorije, v katero bodo vključijo sledeča vprašanja. Če kategorija ali kategorije ne obstajajo, bodo ustvarjane. Pri tem bodite pozorni na to, da morate odkljukati možnost <b>iz datoteke:</b> na obrazcu za uvoz, sicer bo ta koda popolnoma prezrta. Kategorije v XML datoteki lahko zamenjate tako pogosto, kot si to želite.</p>
 
 <p>Sledi primer formata:</p>
 
 <pre>
-&lt;tip vprašanja="kategorija"&gt;
-    &lt;kategorija&gt;
+&lt;question type="category"&gt;
+    &lt;category&gt;
         tom/dick/harry
-    &lt;/kategorija&gt;
-&lt;/vprašanje&gt;
+    &lt;/category&gt;
+&lt;/question&gt;
 </pre>

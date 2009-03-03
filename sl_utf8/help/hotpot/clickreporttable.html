@@ -1,64 +1,67 @@
-<h1>Sledenje klikom</h1>
+<h1>Sled klikov</h1>
+
 <p>
-    Ta tabela prikazuje podrobnosti vsakega klika, ki ga je udeleženec naredil med poskusom reševanja določenega kviza. Upoštevajo se samo poskusi, pri katerih je udeleženec reševanje zaključil, ne opustil.
+Ta tabela prikazuje podrobnosti vsakega klika vseh udeležencev med dokončanimi poskusi v določenem kvizu Hot Potatoes.
 </p>
+
 <p>
-    Prosimo, zavedajte se, da je to poročilo zelo obsežno in zato lahko zelo dolgo. Zato naj bi to poročilo prenesli na svoj računalnik in ga pregledovali v programu za delo s preglednicami, kot je na primer Microsoft Excel.
+Vedite, da je to poročilo zelo obsežno in je lahko zelo dolgo, zato je namenjen prenosu in ogledu s programom, ki podpira preglednice, kot npr. Microsoft Excel.
 </p>
+
 <p>
-    Vsaka vrstica v tabeli vsebuje sledeče informacije:
+Vsaka vrsta v tabeli vsebuje naslednje informacije:
 </p>
 
 <p>
     <b>Kateri klik?</b><br />
-    Sledeče podrobnosti določajo, na kateri klik pri katerem poskusu katerega udeleženca pri katerem kvizu v katerem razdelku katerega predmeta se ta vrstica nanaša:
+    Sledeče podrobnosti identificirajo klik, poskus, kviz, udeleženca, odsek in predmet, na katerega se sklicuje ta vrsta:
 </p>
 <ul>
-    <li>Ime predmeta, številka odseka, številka dejavnosti, ime dejavnosti, vrsta dejavnosti, število vprašanj</li>
-    <li>polno ime udeleženca, datum prijave, čas prijave, čas odjave</li>
-    <li>številka poskusa, začetek poskusa, konec poskusa</li>
-    <li>številka klika, čas klika, vrsta klika</li>
+    <li>Ime predmeta, Številka odseka, Številka vaje, Ime vaje, Vrsta vaje, Število vprašanj</li>
+    <li>Polno ime udeleženca, Datum prijave, Čas prijave, Čas odjave</li>
+    <li>Številka poskusa, Čas začetek poskusa, Čas konca poskusa</li>
+    <li>Številka klika, Čas klika, Vrsta klika</li>
 </ul>
 
 <p>
-    <b>Na katera vprašanja je ta klik vplival?</b><br />
-    Sledeče podrobnosti prikazujejo, na katera vprašanja (če taka obstajajo) je vplival ta klik:
+    <b>Na katera vprašanja je klik vplival?</b><br />
+    Sledeče podrobnosti se prikažejo za vprašanja (če obstajajo), na katera je kakorkoli vplival trenuten klik:
 </p>
 <ul>
-    <li>vprašanja, ki so bila ob tem kliku odgovorjena ali pri katerih se je prikazal namig ali ključ do rešitve.</li>
-    <li>stanje posameznega vprašanja po tem kliku</li> 
+    <li>vprašanja, ki so bila ob trenutnem kliku označena ali pri katerih je bil podan namig ali ključ</li>
+    <li>status vsakega vprašanja po trenutnem kliku
         <ul>
             <li><b>0</b> pomeni &quot;pravilno&quot;</li>
             <li><b>X</b> pomeni &quot;napačno&quot;</li>
-            <li><b>-</b> pomeni &quot;ni bilo reševano&quot;</li>
+            <li><b>-</b> pomeni &quot;ni bilo poskusa&quot;</li>
         </ul>
     </li>
-    <li>novi odgovori, ki so bili zaznani ob tem kliku (odgovori, ki se niso spremenili, niso prikazani)</li>
-    <li>vprašanja, pri katerih so bili zaznani novi odgovori</li>
-    <li>vprašanja, pri katerih so bili zaznani novi odgovori ali pri katerih se je prikazal namig ali ključ do rešitve</li>
+    <li>novi odgovori, ki so bili pridobljeni ob trenutnem kliku (odgovori, ki se niso spremenili, niso prikazani)</li>
+    <li>vprašanja, za katera so bili ob trenutnem kliku prejeti novi odgovori</li>
+    <li>vprašanja, za katera so bili ob trenutnem kliku prejeti novi odgovori ali za katere je bil podan namig ali ključ</li>
 </ul>
 
 <p>
-    <b>Na koliko vprašanj je ta klik vplival?</b><br />
-    Sledeče podrobnosti prikazujejo, na koliko vprašanj (če taka obstajajo) je vplival ta klik in število vseh vprašanj v kvizu:
+    <b>Na koliko vprašanj je klik vplival?</b><br />
+    Sledeče podrobnosti prikazujejo celotno število vprašanja (če so), na katera je trenuten klik vplival in celotno število odgovorov, na katere se je do tega trenutka vplivalo v kvizu:
 </p>
 <ul>
-    <li>število vprašanj, ki jih je udeleženec začel reševati</li>
-    <li>število vprašanj, ki jih je udeleženec ni začel reševati</li>
-    <li>število vprašanj v stanju &quot;pravilno&quot;</li>
-    <li>število vprašanj v stanju &quot;napačno&quot;</li>
-    <li>število vprašanj, pri katerih so bili prikazani namigi</li>
-    <li>število vprašanj, pri katerih so bili prikazani ključi do rešitve</li>
-    <li>število vprašanj, pri katerih so bili zaznani novi odgovori</li>
-    <li>število vprašanj, pri katerih so bili zaznani novi odgovori ali pri katerih se je prikazal namig ali ključ do rešitve</li>
+    <li>število vprašanj s poskusi</li>
+    <li>število vprašanj brez poskusov</li>
+    <li>število vprašanj, pri katerih je status &quot;pravilno&quot;</li>
+    <li>število vprašanj, pri katerih je status &quot;napačno&quot;</li>
+    <li>število vprašanj, pri katerih so bili podani namigi</li>
+    <li>število vprašanj, pri katerih so bili podani ključi</li>
+    <li>število vprašanj, pri katerih so bili prejeti novi odgovori</li>
+    <li>število vprašanj, pri katerih so bili prejeti novi odgovori ali pri katerih so je bil podan namig ali ključ</li>
 </ul>
 
 <p>
-    <b>Rezultati</b><br />
-    Sledeče podrobnosti prikazujejo rezultate ob tem kliku in rezultat celotnega kviz do tega trenutka:
+    <b>Točke</b><br />
+    Sledeče podrobnosti se prikažejo za do sedaj pridobljene točke pri tem kliku:
 </p>
 <ul>
-    <li>neobdelan rezultat</li>
-    <li>najvišji rezultat</li>
-    <li>rezultat, izražen v odstotkih</li>
+    <li>vmesne točke</li>
+    <li>najvišje točke</li>
+    <li>točke kot odstotek</li>
 </ul>

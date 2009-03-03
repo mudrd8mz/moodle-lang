@@ -13,7 +13,7 @@
   <p>Moodle uporablja zunanjo binarno datoteko za upodobitev slik, kar lahko zahteva nastavitev vašega sistema. Filter bo najprej preveril obstoj programa za upodabljanje LaTeX (za ta način je zahtevan tudi Ghostscript) in bo v primeru neuspeha uporabil preprostejšo izvršno datoteko <i>mimetex</i>, ki je vključena v distribucijo Moodle. LaTeX dovoljuje celo vrsto sintaks, medtem ko mimetex podpira samo njegovo matematično podmnožico.</p>
   <p>Ghostscript je na voljo za Windows in na voljo je tudi izvedba LaTeX imenovana MikTeX.</p>
   <p>Stran nastavitev omogoča konfiguracijo poti do izvršnih datotek LaTeX in Ghostscript, skupaj z uvodom LaTeX.</p>
-  <p><b>Več informacij</b></p>
+  <h3>Več informacij</h3>
   <p><a href="http://www.miktex.org/">MiKTeX</a><br/ > <a href="http://www.forkosh.com/mimetex.html">MimeTeX</a><br /> <a href="http://www.latex-project.org/">LaTeX</a><br/ > <a href="http://www.ghostscript.com/">ghostscript</a></p>
 </div>
 
@@ -48,18 +48,18 @@
   <p>Filter zaščite e-pošte poišče vse elektronske naslove v besedilu. Najdeni bodo 'prikriti', da bi preprečili delovanje sistemom za samodejno zbiranje elektronskih naslovov. To lahko zmanjša tveganje neželene pošte, če je del vaše strani Moodle odprt za javnost.</p>
 </div>
 
-<h2>Ustreznost kode</h2>
+<h2>Natančnost</h2>
 
 <div class="indent">
-  <p>Filter preveri kodo HTML v besedilu. Nad najdeno kodo uveljavi pravila, ki poskušajo narediti veljavno kodo HTML. Vedite, da mora biti ustreznost kode HTML del vaše namestitve PHP, da bi to delovalo.</p>
+  <p>Filter natančnost preveri HTML kodo v besedilu. Nad najdeno kodo uveljavi pravila, ki poskušajo narediti veljavno HTML kodo. Vedite, da mora biti zmogljivost natančnosti HTML del vaše namestitve PHP, da bi to delovalo.</p>
 </div>
 
 <h2>Večjezična vsebina</h2>
 
 <div class="indent">
   <p>Ta filter omogoča ustvarjanje virov v večih jezikih. Jezik vira bo nato spremenjen, ko uporabnik spremeni svoj izbran jezik v okolju Moodle. Za uporabo te možnosti najprej ustvarite vašo vsebino v večih jezikih (v istem viru). Nato obdajte vsak jezikovni blok s sledečimi oznakami:</p>
-  <pre>      &lt;span lang="XX" class="multilang"&gt;vaša vsebina&lt;/span&gt;</pre>
-
+ 
+  <pre>      &lt;lang lang="XX" &gt;vaša_vsebina&lt;/lang&gt;</pre>
   <p>Če vam je ljubše, lahko uporabite oznake SPAN namesto tega, na primer:</p>
-  <pre>      &lt;lang lang="XX" &gt;vaša vsebina&lt;/lang&gt;</pre>
+  <pre>      &lt;span lang="XX" class="multilang"&gt;vaša_vsebina&lt;/span&gt;</pre>
  </div>

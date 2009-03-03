@@ -1,13 +1,12 @@
-This directory used to contain lots of documentation in HTML form.
+Ta imenik je vseboval veliko dokumentacije v HTML obliki.
 
-All of it has gone now because we now use the Moodle Docs wiki.
+Te dokumentacije ni več, saj sedaj uporabljamo wiki Moodle Docs.
 
-
-To find out the new locations for all the information that was here, see:
-
-    http://docs.moodle.org/en/MoodleDocs_and_lang_packs
+Če želite najti vse informacije, ki so bile tukaj, si poglejte:
+ 
+   http://docs.moodle.org/en/MoodleDocs_and_lang_packs
 
     http://tracker.moodle.org/browse/MDL-4912
 
-Cheers,
-Martin Dougiamas, 10th July 2007
+Pozdrav,
+Martin Dougiamas, 10. Julij 2007

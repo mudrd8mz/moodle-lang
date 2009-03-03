@@ -5,7 +5,7 @@
 
 <h1>Osnovni vodič za zapis datoteke EMS Enterprise</h1>
 
-<p>Za vsak vpis v slogu IMS potrebujete oznako <group>, ki določa predmet, oznako <person>, ki določa uporabniški račun in oznako<membership>, ki vsebuje oznako <member>, ki določa vloge osebe v podanem predmetu.</p><p>
+<p>Za vsak vpis v slogu IMS potrebujete oznako &lt;group&gt;, ki določa predmet, oznako &lt;person&gt;, ki določa uporabniški račun, in oznako &lt;membership&gt;, ki vsebuje oznako &lt;member&gt;, ki določa vloge osebe v podanem predmetu.</p><p>
 </p>
 
 <p>
@@ -19,7 +19,7 @@ Običajno ima predmet referenčno kodo in tudi ime, zato si predstavljajmo, da j
 <p>
 &nbsp; &lt;group&gt;<br />
 &nbsp; &nbsp; &lt;sourcedid&gt;<br />
-&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MojPodatkovniSistem&lt;/source&gt;<br />
 &nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
 &nbsp; &nbsp; &lt;/sourcedid&gt;<br />
 &nbsp; &nbsp; &lt;description&gt;<br />
@@ -29,24 +29,25 @@ Običajno ima predmet referenčno kodo in tudi ime, zato si predstavljajmo, da j
 </p>
 
 <p>
-Skripta za vpisovanje bo poiskala predmet s kodo MOODLE101 in (kot možnost) ga ustvarila, če še ne obstaja. Podobno velja za osebo - predstavljajmo si, da je "jmoodle":</p><p>
+Skripta za vpisovanje bo poiskala predmet s kodo MOODLE101 in (kot možnost) ga ustvarila, če še ne obstaja. Podobno velja za osebo - predstavljajmo si, da je &quot;jmoodle&quot;:</p><p>
 </p>
 
 <p>
 &nbsp; &lt;person&gt;<br />
 &nbsp; &nbsp; &lt;sourcedid&gt;<br />
-&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MojPodatkovniSistem&lt;/source&gt;<br />
 &nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
 &nbsp; &nbsp; &lt;/sourcedid&gt;<br />
 &nbsp; &nbsp; &lt;userid&gt;jmoodle&lt;/userid&gt;<br />
 &nbsp; &nbsp; &lt;name&gt;<br />
-&nbsp; &nbsp; &nbsp; &lt;fn&gt;Joe Moodle&lt;/fn&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;fn&gt;Janez Moodle&lt;/fn&gt;<br />
 &nbsp; &nbsp; &nbsp; &lt;n&gt;<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &lt;family&gt;MOODLE&lt;/family&gt;<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &lt;given&gt;JOE&lt;/given&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;given&gt;JANEZ&lt;/given&gt;<br />
 &nbsp; &nbsp; &nbsp; &lt;/n&gt;<br />
 &nbsp; &nbsp; &lt;/name&gt;<br />
 &nbsp; &lt;/person&gt;<br />
+
 </p>
 
 <p>
@@ -59,12 +60,12 @@ Oglejmo si zdaj članstvo, dodajanje osebe v predmet:</p><p>
 <p>
 &nbsp; &lt;membership&gt;<br />
 &nbsp; &nbsp; &lt;sourcedid&gt;<br />
-&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MojPodatkovniSistem&lt;/source&gt;<br />
 &nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
 &nbsp; &nbsp; &lt;/sourcedid&gt;<br />
 &nbsp; &nbsp; &lt;member&gt;<br />
 &nbsp; &nbsp; &nbsp; &lt;sourcedid&gt;<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;source&gt;MojPodatkovniSistem&lt;/source&gt;<br />
 &nbsp; &nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
 &nbsp; &nbsp; &nbsp; &lt;/sourcedid&gt;<br />
 &nbsp; &nbsp; &nbsp; &lt;role roletype=&quot;01&quot;&gt;<br />
@@ -76,8 +77,8 @@ Oglejmo si zdaj članstvo, dodajanje osebe v predmet:</p><p>
 </p>
 
 <p>
-Specifikacija IMS Enterprise ponuja možnost določanja začetnih in končnih datumov za vpise, tako jih je možno po potrebi vključiti z uporabo oznake &lt;timeframe&gt;.</p><p>
+Specifikacija IMS Enterprise ponuja možnost določanja začetnih in končnih datumov za vpise, tako jih je možno po potrebi vključiti z uporabo oznake <timeframe>.</p><p>
 </p>
 
 <p>
-Če je oseba že dodana v skupino v predmetu, tega skripta ne bo dejansko spreminjala. Če niso v skupinah, bo uveljavljeno določeno razvrščanje po skupinah.</p>
+Če je oseba že dodana v skupino v predmetu, tega skripta ne bo dejansko spreminjala. Če niso v skupinah, bo uveljavljeno določeno razvrščanje po skupinah.</p><p>

@@ -1,12 +1,12 @@
-<h1>Uvoz novih vprašanj</h1>
+<h1>Uvažanje novih vprašanj</h1>
 
-<p>Ta funkcija vam omogoča uvoz vprašanj iz zunanje besedilne datoteke, naložene prek obrazca.</p>
+<p>Ta funkcija vam omogoča uvoz vprašanj iz zunanje besedilne datoteke, naložene prek obrazca.  </p>
 
-<p>Podprta je vrsta zapisov:</p>
+<p>Podprta je vrsta formatov:</p>
 
-<p><b>Oblika zapisa GIFT</b></p>
+<h2>GIFT format</h2>
 <ul>
-<p>GIFT je najbolj vsestranska oblika zapisa za uvoz vprašanj sistema Moodle iz datoteke z besedilom. Podpira vprašanja tipa Več izbir, Pravilno/Napačno, Kratek odgovor, Ujemanje, Številčno in Ugnezdeni odgovor (izpolnjevanje). Več različnih tipov vprašanj se lahko pojavi v eni datoteki besedila. Oblika besedila podpira tudi vrstice s komentarji, imena vprašanj, povratno informacijo in odstotke oz. utežene ocene.</p>
+<p>GIFT je najbolj vsestranski format za uvoz vprašanj iz Moodle kvizov iz datoteke z besedilom. Zasnovan je bil kot enostaven način s katerim lahko izvajalci pišejo vprašanja kot datoteko z besedilom. Podpira večkratno izbiro, drži - ne drži, kratek odgovor, ujemanje in številčna vprašanja, kakor tudi obliko za vstavljanje ____ za &quot;manjkajoče besede&quot;.  Različne vrste vprašanj so lahko mešane v eni datoteki besedila in oblika podpira tudi vrstice s komentarji, imena vprašanj, povratno informacijo in odstotke oz. utežene ocene.  Spodaj je nekaj primerov:</p>
 <pre>
 Kdo je pokopan v Grantovi grobnici?{~Grant ~Jefferson =nihče}
 
@@ -22,9 +22,9 @@ Kdaj je bil Ulysses S. Grant rojen?{#1822}
 <p align="right"><a href="help.php?file=formatgift.html&module=quiz">Več informacij o zapisu &quot;GIFT&quot;</a></p>
 </ul>
 
-<p><b>Zapis Aiken</b></p>
+<h2>Aiken format</h2>
 <ul>
-<p>Zapis Aiken je zelo preprost način ustvarjanja vprašan tipa Več izbir z več možnimi odgovori, ki uporablja jasen in berljiv zapis. Tu je primer zapisa:</p>
+<p>Format Aiken je zelo preprost način ustvarjanja vprašanj z večimi možnimi odgovori, ki uporablja jasen in berljiv zapis. Tu je primer formata:</p>
 <pre>
 Kaj je namen prve pomoči?
 A. Rešiti življenje, preprečiti dodatne poškodbe, ohraniti zdravje
@@ -37,9 +37,9 @@ ANSWER: A
 <p align="right"><a href="help.php?file=formataiken.html&module=quiz">Več informacij o zapisu &quot;Aiken&quot;</a></p>
 </ul>
 
-<p><b>Manjkajoče besede</b></p>
+<h2>Manjkajoča beseda</h2>
 <ul>
-<p>Ta zapis podpira samo vprašanja tipa Več izbir. Vsak odgovor je ločen s tildo (~) in pravilni odgovor ima za predpono znak enakosti (=). Tu je primer:</p>
+<p>Ta zapis podpira samo vprašanja z večimi možnimi odgovori. Vsak odgovor je ločen s tildo (~) in pravilni odgovor ima predpono znak enakosti (=).   Tu je primer:</p>
 
 <blockquote>Kakor hitro začnemo kot dojenčki raziskovati dele svojega telesa postanemo študenti {=anatomije in psihologije ~refleksologije ~znanosti ~eksperimenta} in na nek način to ostanemo celo življenje.
 </blockquote>
@@ -47,38 +47,38 @@ ANSWER: A
 <p align="right"><a href="help.php?file=formatmissingword.html&module=quiz">Več informacij o zapisu &quot;Manjkajoče besede&quot;</a></p>
 </ul>
 
-<p><b>Zapis AON</b></p>
+<h2>AON</h2>
 <ul>
-<p>Ta zapis je enak zapisu Manjkajoče besede s to razliko, da se po uvozu vprašanj vsa vprašanja tipa Kratek odgovor pretvorijo v vprašanja tipa Ujemanje z ujemanjem po štiri hkrati.</p>
-<p>Dodatno se odgovori vprašanj tipa Več izbir naključno premešajo po uvozu.</p>
-<p>Zapis se imenuje po organizaciji, ki je podprla razvoj mnogih možnosti kviza.</p>
+<p>Ta format je enak formatu manjkajoče besede s to razliko, da se po uvozu vprašanj vsa vprašanja kratkih odgovorov pretvorijo v vprašanja z ujemanjem po štiri hkrati.</p>
+<p>Dodatno se odgovori vprašanj z večimi izbirami naključno premešajo po uvozu.</p>
+<p>Imenuje se po organizaciji, ki je podprla razvoj mnogih možnosti kviza</p>
 </ul>
 
-<p><b>Zapis Blackboard</b></p>
+<h2>Blackboard</h2>
 <ul>
-<p>Ta modul zna uvoziti vprašanja shranjena v izvoznem zapisu programa Blackboard. Temelji na funkcijah XML, ki jih mora podpirati vaš programski jezik PHP.</p>
+<p>Ta modul zna uvažati vprašanja shranjena v izvoznem zapisu programa Blackboard.  Temelji na XML funkcijah, ki jih mora podpirati vaš PHP.</p>
 
 <p align="right"><a href="help.php?file=formatblackboard.html&module=quiz">Več informacij o zapisu &quot;Blackboard&quot;</a></p>
 </ul>
 
-<p><b>Zapis Course Test Manager</b></p>
+<h2>Course Test Manager</h2>
 <ul>
-<p>Ta modul zna uvoziti vprašanja, ki so shranjena v zbirki testov Course Test Manager. Temelji na raznih načinih dostopa do baze testov, ki je v podatkovni zbirki paketa Microsoft Access, odvisno od tega ali sistem Moodle teče v okolju Windows ali Linux.</p>
+<p>Ta modul zna uvoziti vprašanja shranjena v zbirki testov Course Test Manager. Sloni na raznih načinih dostopa do baze testov, ki je v podatkovni zbirki Microsoft Access, odvisno od tega ali Moodle teče v okolju Windows ali Linux.</p>
 <p>V okolju Windows vam omogoča nalaganje podatkovne zbirke Access tako kot katerekoli druge datoteke s podatki za uvoz.</p>
-<p>V okolju Linux morate v istem omrežju kot je podatkovna zbirka Course Test Manager vzpostaviti okolje Windows in programsko opremo z imenom ODBC Socket Server, ki uporablja jezik XML za prenos podatkov v sistem Moodle na strežniku Linux.</p>  
+<p>V okolju Linux morate vzpostaviti Windows računalnik v istem omrežju kot je podatkovna zbirka Course Test Manager in programsko opremo z imenom ODBC Socket Server, ki uporablja XML za prenos podatkov v Moodle na strežniku Linux.</p>  
 
 <p>Prosimo, preberite celotno spodnjo datoteko s pomočjo preden uporabite ta razred za uvoz.</p>
 
 <p align="right"><a href="help.php?file=formatctm.html&module=quiz">Več informacij o zapisu &quot;CTM&quot;</a></p>
 </ul>
 
-<p><b>Po meri</b></p>
+<h2>Po meri</h2>
 <ul>
-<p>Če imate lasten zapis, ki ga morate uvoziti, ga lahko izvedete sami z urejanjem mod/quiz/format/custom.php</p>
+<p>Če imate lasten format, ki ga morate uvoziti, ga lahko izvedete sami z urejanjem mod/quiz/format/custom.php</p>
 
 <p>Potrebna količina nove kode je majhna - samo toliko, da izluščite samo vprašanje iz podanega besedila.</p>
 
-<p align="right"><a href="help.php?file=formatcustom.html&module=quiz">Več informacij o zapisu &quot;Po meri&quot;</a></p>
+<p align="right"><a href="help.php?file=formatcustom.html&module=quiz">Več informacij o formatu &quot;Po meri&quot;</a></p>
 </ul>
 
-<p>Več zapisov bo še sledilo, vključno z IMS QTI in karkoli drugega bodo lahko prispevali uporabniki Moodle! </p>
+<p>Več zapisov bo še sledilo, vključno z WebCT, IMS QTI in karkoli drugega bodo lahko prispevali uporabniki Moodle! </p>

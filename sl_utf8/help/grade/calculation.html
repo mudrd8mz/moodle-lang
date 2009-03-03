@@ -1,22 +1,21 @@
 <h1>Izračuni</h1>
-<!-- PREVAJALCI POZOR!! Znak vejica (,) uporabljen pri računih, je lahko podpičje (;) v vašem jeziku. Prosimo, uporabljajte tistega, ki se uporablja v vaših nastavitvah preglednic. -->
 
-<p>Računi za redovalnico sledijo vzorcu formul/funkcij v popularnih programih s preglednicami. Začnejo se z znakom za enačaj (=) in uporabljajo običajne matematične operatorje in funkcije pri izvedbo številčnega rezultata. Ta rezultat je potem uporabljen kot izračunana vrednost za postavko ocene, ki jo urejate.</p>
+<p>Izračuni redovalnice delujejo podobno kot formule in funkcije v običajnih preglednicah. Začnejo se z znakom je enako (=) in omogočajo uporabo običajnih matematičnih operatorjev in funkcij za izračun končne vrednosti. Ta vrednost je potem uporabljena kot izračunana vrednost postavke ocene, ki jo urejate.</p>
 
-<p>Sledi seznam funkcij, podprtih prek računov. Znak vejica (,) je uporabljen za ločevanje argumentov znotraj oklepajov funkcij.</p>
+<p>V nadaljevanju sledi spisek funkcij, ki jih podpirajo izračuni. Vejica (,) je uporabljena za ločevanje parametrov znotraj oklepaja funkcije.</p>
 
 <ul>
-    <li><strong>average</strong>([[postavka1]], [[postavka2]]...): Vrne povprečje vzorca</li>
-    <li><strong>max</strong>([[postavka1]], [[postavka2]]...): Vrne maksimalno vrednost iz seznama argumentov</li>
-    <li><strong>min</strong>([[postavka1]], [[postavka2]]...): Vrne minimalno vrednost iz seznama argumentov</li>
-    <li><strong>mod</strong>(deljenec, delitelj): Izračuna ostanek deljenja</li>
-    <li><strong>pi</strong>(): Vrne vrednost števila Pi</li>
-    <li><strong>power</strong>(osnova, potenca): Množi število samo s seboj tolikokrat, kot je število potence</li>
-    <li><strong>round</strong>(število, count): Zaokroži število na prej definirano natančnost</li>
-    <li><strong>sum</strong>([[postavka1]], [[postavka2]]...): Vrne vsoto vseh argumentov</li>
+    <li><strong>average</strong>([[item1]], [[item2]]...): Vrne povprečno vrednost vzorca</li>
+    <li><strong>max</strong>([[item1]], [[item2]]...): Vrne največjo vrednost iz spiska vrednosti</li>
+    <li><strong>min</strong>([[item1]], [[item2]]...): Vrne najmanjšo vrednost iz spiska vrednosti</li>
+    <li><strong>mod</strong>(dividend, divisor): Izračuna ostanek po deljenju</li>
+    <li><strong>pi</strong>(): Vrne vrednost PI</li>
+    <li><strong>power</strong>(base, power): Potencira število base na potenco power</li>
+    <li><strong>round</strong>(number, count): Zaokroži število na določeno natančnost</li>
+    <li><strong>sum</strong>([[item1]], [[item2]]...): Vrne vsoto vseh parametrov</li>
 </ul>
 
-<p>Podprte so tudi nekatere matematične funkcije:</p>
+<p>Podprte so tudi naslednje matematične funkcije:</p>
 <ul>
     <li>sin</li><li>sinh</li><li>arcsin</li><li>asin</li><li>arcsinh</li><li>asinh</li>
     <li>cos</li><li>cosh</li><li>arccos</li><li>acos</li><li>arccosh</li><li>acosh</li>
@@ -24,15 +23,15 @@
     <li>sqrt</li><li>abs</li><li>ln</li><li>log</li><li>exp</li>
 </ul>
 
-<p>Vključite lahko vrednosti ostalih postavk ocen s tem, da uporabite njihove id številke kot reference v vaših formulah. Id številka je obkrožena z dvema paroma oglatih oklepajev, da se izognemo zamenjavi razčlenjevalnika računov, ko id številka vsebuje redke znake. Na primer, če imate postavko ocene z Quiz.3 kot id številko, se boste na to postavko nanašali kot [[Quiz.3]] v vašem računu.</p>
+<p>V izračunih lahko uporabite tudi vrednosti drugih postavk ocen tako, da njihovo ID polje uporabite kot referenco v vaših formulah. Polje ID naj bo obdano z dvema skupinama oglatih oklepajev, kar bo programu olajšalo delo v primeru, da polje ID vključuje neobičajne znake. Če imate na primer postavko ocene z ID Kviz.3, se lahko nanjo sklicujete z uporabo vrednosti [[Kviz.3]].</p>
 
-<p>Pod poljem za račune je drevo vašega predmeta s svojimi ocenami kategorij in postavkami ocen. Poleg vsake celote postavke ali kategorije je izpisana id številka, ki jo lahko uporabite v vaših računih (že obkrožena z oglatimi oklepaji). Kakorkoli, ker je id številka izbirna, je mogoče nekatere postavke še nimajo. Te postavke brez id številke imajo namesto tega obrazec, ki vam omogoča direkten vpis id številke, tako da jo lahko uporabite v vaših računih, brez da bi morali zapustiti stran. Ta obrazec vam ne dopušča urejanje postavke ocene direktno, če želite to storiti.</p>
+<p>Pod poljem za izračun je predstavitev vašega predmeta s kategorijami ocen in postavkami ocen. Poleg vsakega polja ali vsote kategorije je prikazano tudi polje ID, ki ga lahko uporabite pri izračunih (že obdano z oglatimi oklepaji). Ker pa je polje ID opcijsko, je možno, da ga določena polja še ne bodo imela. Taka polja imajo namesto polja ID mesto za vnos, ki vam omogoča, da vnesete ID vrednost. Tega boste zatem lahko uporabili v izračunih, ne da bi morali za to oditi s strani za izračune. Ta obrazec omogoča samo dodajanje ID vrednosti polj, ne pa tudi popravljanja obstoječih - če želite popraviti obstoječa polja, boste morali to storiti na strani za urejanje postavke ocene.</p>
 
-<p>Takoj, ko imate dodeljene id številke, ki jih potrebujete, lahko pritisnete "dodaj id številke" in stran se bo ponovno naložila in vam pokazala isto drevo z id številkami, ki ste jih pravkar dodelili. Potem imate prosto pot pri uporabi referenc v vaših računih.</p>
+<p>Ko ste poljem dodelili ID vrednosti, ki jih potrebujete, lahko s pritiskom na "Dodaj ID" shranite vrednosti. Stran se bo ponovno naložila z vrednostmi, ki ste jih vpisali prej. Te vrednosti ID lahko nato poljubno uporabljate v vaših izračunih.</p>
 
-<p>Tu je seznam praktičnih primerov računov, ki jih lahko uporabite v vaši redovalnici:</p>
+<p>Sledi spisek praktičnih primerov izračunov, ki jih lahko uporabite v redovalnici:</p>
 
 <ul>
-    <li>=average([[Kviz.1]], [[Kviz.4]], [[Naloga.1]])</li>
-    <li>=average(max([[Kviz.1]], [[Kviz.4]], [[Naloga.1]]), min([[Kviz.1]], [[Kviz.4]], [[Naloga.1]]))</li>
+    <li>=average([[Kviz.1]], [[Kviz.4]], [[Oddaja.1]])</li>
+    <li>=average(max([[Kviz.1]], [[Kviz.4]], [[Oddaja.1]]), min([[Kviz.1]], [[Kviz.4]], [[Oddaja.1]]))</li>
 </ul>

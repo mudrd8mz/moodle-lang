@@ -1,15 +1,15 @@
-<h1>Uvozi rezultate</h1>
-<p>Lahko uvozite rezultate v obliki .csv datotek. Format mora biti naslednji:</p>
+<h1>Uvozi izide</h1>
+<p>Izide lahko uvozite iz datotek .csv. Format mora biti sledeči:</p>
 <table class="generaltable" cellpadding="4">
     <tr> <th class="header">Ime polja</th> <th class="header">Opis</th> <th class="header">Zahtevano</th> <th class="header">Format</th> </tr>
-    <tr> <td class="cell">ime_rezultata</td> <td class="cell">Celotno ime rezultata </td> <td class="cell">Da</td><td class="cell">Niz</td> </tr>
-    <tr> <td class="cell">okrajsava_rezultata</td><td class="cell">Okrajšava za ime rezultata </td> <td class="cell">Da</td> <td class="cell">Niz</td> </tr>
-    <tr> <td class="cell">opis_rezultata</td><td class="cell">Opis rezultata </td> <td class="cell">Ne</td> <td class="cell">Niz</td> </tr>
-    <tr> <td class="cell">ime_lestvice</td><td class="cell">Ime lestvice, ki je uporabljena</td> <td class="cell">Da</td> <td class="cell">Niz</td> </tr>
-    <tr> <td class="cell">vrednosti_lestvice</td><td class="cell">Z vejico ločen seznam vrednosti lestvice</td> <td class="cell">Da</td> <td class="cell">Niz</td> </tr>
-    <tr> <td class="cell">opis_lestvice</td><td class="cell">Opis lestvice </td> <td class="cell">Ne</td> <td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">outcome_name</td> <td class="cell">Polno ime izida</td> <td class="cell">Da</td><td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">outcome_shortname</td><td class="cell">Kratko ime izida</td> <td class="cell">Da</td> <td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">outcome_description</td><td class="cell">Opis izida</td> <td class="cell">Ne</td> <td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">scale_name</td><td class="cell">Ime lestvice v rabi</td> <td class="cell">Da</td> <td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">scale_items</td><td class="cell">Elementi lestvice, ločeni z vejico </td> <td class="cell">Da</td> <td class="cell">Niz</td> </tr>
+    <tr> <td class="cell">scale_description</td><td class="cell">Opis lestvice</td> <td class="cell">Ne</td> <td class="cell">Niz</td> </tr>
 </table>
 
 <p>Tu je primer:</p>
-<pre>ime_rezultata;okrajsava_rezultata;opis_rezultata;ime_lestvice;vrednosti_lestvice;opis_lestvice
-Sodelovanje;sodelovanje;;Lestvica sodelovanja;"Malo ali nič sodelovanja, Zadovoljivo sodelovanje, Polno sodelovanje";</pre>
+<pre>outcome_name;outcome_shortname;outcome_description;scale_name;scale_items;scale_description
+Sodelovanje;sodelovanje;;Lestvica sodelovanja;"Malo ali brez sodelovanja, Zadostno sodelovanje, Polno sodelovanje";</pre>

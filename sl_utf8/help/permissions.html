@@ -1,52 +1,52 @@
 <h1>Dovoljenja</h1>
 
-<p>
-Dovoljenja so nastavitve, kjer garantirate določene sposobnosti.
+<p>Dovoljenja so nastavitve, ki jih določite za posamezne zmožnosti.
 </p>
 
 <p>
-Na primer, sposobnost je "Začni novo razpravo" (v forumih).
+Primer zmožnosti je recimo "Začetek novih razprav" (na forumih).
 </p>
 
 <p>
-V vsaki vlogi lahko nastavite dovoljenje za takšno sposobnost od ene od štirih vrednosti:</p>
+V vsaki vlogi lahko dovoljenje za vsako takšno zmožnost nastavite na eno izmed štirih vrednosti:
 <dl>
-<dt>NE NASTAVI</dt>
-<dd>To je običajno prednastavljena možnost. Je nevtralna možnost, ki pomeni, da "uporabi katerokoli nastavitev, ki jo uporabnik trenutno ima". Če se dodeli vloga (na primer v predmetu) nekomu, ki ima dovoljenje za to sposobnost, potem bo dejansko dovoljenje, ki ga bodo imele te osebe, enako kot so ga že imele na višje nivojskih kontekstih (na primer v kategorijah ali sistemski ravni). Konec koncev, če dovoljenje na nobeni ravni ni dano, potem uporabnik ne bo imel dovoljenja za to sposobnost.   
+<dt>NI DOLOČENO</dt>
+<dd>To je ponavadi privzeta nastavitev. Je nevtralna nastavitev, ki pomeni, "uporabi katerokoli nastavitev, ki jo uporabnik že ima". Če je vloga dodeljena nekomu (npr. v predmetu), ki ima to dovoljenje za zmožnost, potem bo dovoljenje enako tistemu, ki ga ima uporabnik na višjem nivoju (npr. na nivoju kategorij predmetov ali na nivoju spletnega mesta). V primeru, da dovoljenje ni določeno na nobenem nivoju, uporabnik za to zmožnost ne bo imel dovoljenja.
     </dd>
 
 <dt>DOVOLI</dt>
-<dd>Z izbiro te možnosti garantirate dovoljenje za to sposobnost osebam, katerim je dodeljena ta vloga. To dovoljenje se nanaša na kontekste, katerim vloga je imenovana plus vsem "nižjim" kontekstom. Na primer, če je ta vloga dodeljena udeležencem predmeta, potem bodo udeleženci lahko "začeli novo razpravo" v vseh forumih v tem predmetu, RAZEN ČE kakšen forum vsebuje preglasitev ali novo dodelitev z onemogoči ali prepovej vrednostjo za to sposobnost. 
+<dd>Z izbiro te vrednosti uporabnikom, ki imajo določeno trenutno vlogo, dodelite dovoljenje za zmožnost. Dovoljenje velja za kontekst, v katerem se vloga določi in za vse "nižje" (podrejene) kontekste. Npr. če se ta vloga določi udeležencu v predmetu, bo udeleženec imel zmožnost "Začeti novo razpravo" na vseh forumih v predmetu, RAZEN če forum vsebuje povozitev ali novo določitev za zmožnost z vrednostma Prepreči ali Prepovej.
 </dd>
 
-<dt>ONEMOGOČI</dt>
-<dd>Če izberete to možnost, s tem odstranite dovoljenja za to sposobnost, čeprav je bilo uporabnikom s to vlogo to dovoljeno v višjem kontekstu.</dd>
+<dt>PREPREČI</dt>
+<dd>Z izbiro te vrednosti odstranite dovoljenje za zmožnost. To velja tudi v primeru, da je uporabnikom s to vlogo zmožnost dovoljena v višjem (nadrejenem) kontekstu.</dd>
 
-<dt>PPREPOVEJ</dt>
-<dd>Ta možnost se ne potrebuje pogostokrat, vendar boste občasno mogoče želeli zavrniti dovoljenja   vlogi na ta način, da ne more biti preglašeno na katerem od nižjih kontekstov. Dober primer, kdaj bi lahko to potrebovali je, ko želi skrbnik prepovedati določeni osebi začetek nove razprave v kateremkoli forumu v celotnem sistemu. V tem primeru lahko ustvarijo vlogo s sposobnostjo "Prepovej" in jo potem dodelijo uporabniku v sistemskem kontekstu.
+<dt>PREPOVEJ</dt>
+<dd>Ta vrednost je redko potrebna, vendar boste morda včasih želeli popolnoma prepovedati dovoljenje za vlogo na tak način, da NE more biti povožena na nižjem kontekstu. Primer uporabe je recimo situacijo, ko želi skrbnik strani eni osebi preprečiti zmožnost začetka novih razprav na kateremkoli forumu na spletnem mestu. V tem primeru lahko skrbnik ustvari novo vlogo, pri kateri bo ta zmožnost nastavljena na "Prepovej" in nato vlogo uporabniku dodeli v kontekstu spletnega mesta (globalna vloga).
   </dd>
 
 </dl>
-
-<h1>Reševanje sporov o dovoljenjih</h1>
-
-<p> Dovoljenja na "nižjem" kontekstu bodo običajno preglasila karkoli na "višjem" kontekstu (to se nanaša na preglasitve in dodeljene vloge). Izjema je PREPOVED, ki ne more biti preglašena na nižjih nivojih.
 </p>
 
-<p> Če sta dve vlogi dodeljeni osebi v istem kontekstu, ena z DOVOLI in ena z ONEMOGOČI, katera zmaga? V tem primeru bo Moodle pogledal kontekstno drevo za "odločitev".</p>
+<h1>Reševanje konfliktov med dovoljenji</h1>
+
+<p>Dovoljenja v "nižjih" (podrejenih) kontekstih bodo ponavadi povozila karkoli v "višjih" kontekstih (to se nanaša na povozitve in določene vloge). Izjema je vrednost PREPOVEJ, ki se jo ne da povoziti na nižjih nivojih.
+</p>
+
+<p>Če sta v istem kontekstu isti osebi določeni dve vlogi, ena z DOVOLI in ena z PREPREČI, kdo zmaga? V tem primeru bo Moodle za odločitev pogledal višje v kontekstno drevo.</p>
     
-<p> Na primer, udeleženec ima dve vlogi v enem predmetu, ena, ki mu dovoli začetek novih razprav in ena, ki mu to onemogoča. V tem primeru pogledamo kategorije in sistemske kontekste, kjer iščemo nova definirana dovoljenja, ki se nam pomagajo odločiti. Če jih ne najdemo, potem je dovoljenje ONEMOGOČI po prednastavljenem (ker se dve nastavitvi medsebojno izničita in zato nimate nobenega dovoljenja). 
+<p>Npr. če ima udeleženec v predmetu dve vlogi, eno, ki mu določa začetek novih razprav in drugo, ki mu to preprečuje. V tem primeru se preverita konteksta kategorij predmetov in spletnega mesta, pri čemer se išče drugo dovoljenje, ki bi lahko pomagalo pri določitvi. Če se le-to ne najde, potem bo dovoljenje privzeto postalo PREPREČI (ker se nastavitvi medsebojno izključujeta in tako nimamo dovoljenja za vlogo.
 </p>
 
 <h1>Posebne izjeme</h1>
 
-<p> Vedite, da bo uporabniku kot gostu v splošnem onemogočen dostop do objavljanja vsebin (na primer forum, koledar, blog), tudi če je dana sposobnost za to.  
+<p>Vedite, da bo gostujočemu uporabniku ponavadi preprečena objava vsebin (npr. forumi, vnosi v koledar, blogi), tudi če mu dodelite to zmožnost.
 </p>
 
 <p>
-Oglejte si še
-<a href="help.php?file=roles.html">vloge</a>,
-<a href="help.php?file=contexts.html">kontekste</a>,
-<a href="help.php?file=assignroles.html">določanje vlog</a> ter
-<a href="help.php?file=overrides.html">preglasitve</a>.
+Poglejte še
+<a href="help.php?file=roles.html">Vloge</a>,
+<a href="help.php?file=contexts.html">Konteksti</a>,
+<a href="help.php?file=assignroles.html">Določanje vlog</a> in
+<a href="help.php?file=overrides.html">Povozitve</a>.
 </p>

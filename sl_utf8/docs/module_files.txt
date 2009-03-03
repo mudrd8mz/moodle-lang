@@ -1,18 +1,18 @@
-ABOUT THIS DIRECTORY
+O TEM IMENIKU
 --------------------
 
-DO NOT CHANGE, RENAME OR MOVE ANY OF THE FILES 
-IN THIS DIRECTORY unless you REALLY know what 
-you are doing.  
+NE SPREMINJAJTE, PREIMENUJTE ALI PREMIKAJTE 
+DATOTEK razen, če niste ZARES prepričani, da
+veste, kaj počnete.
 
-Changing these files could mess up your course.
+Spreminjanje teh datotek lahko pokvari 
+vaš predmet.
 
-This directory contains files uploaded to your 
-course within particular modules (mostly by 
-students), such as assignment submissions and 
-forum attachments.
+Ta imenik vsebuje datoteke, ki so bile v vaš
+predmet naložene preko različnih modulov 
+(večinoma s strani udeležencev), kot npr.
+oddaje nalog in priloge na forumih.
 
-The names of the directories and files within 
-this directory are very specific and are 
-automatically maintained by Moodle.
-
+Imena teh imenikov in datotek v tem imeniku 
+so zelo specifična in jih Moodle samodejno
+vzdržuje.

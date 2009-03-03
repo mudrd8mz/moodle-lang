@@ -1,12 +1,12 @@
-<h1>Obnaša naj se kot dodaten kredit</h1>
-<p>Ko je uporabljena agregacijska strategija "Vsota ocen", se postavka ocene lahko obnaša kot Dodaten kredit za to kategorijo. To pomeni, da postavka ocene maksimalne ocene ne bo dodana celotni maksimalni oceni kategorije, a postavka ocene bo. Sledi primer:</p>
+<h1>Obnašanje dodatne naloge</h1>
+<p>Ko se uporabi strategija združevanja "Seštevek ocen", lahko določena postavka ocene služi kot dodatna naloga v kategoriji. To pomeni, da najvišja ocena te postavke ocene ne bo dodana k najvišji možni oceni kategorije, ocena postavke pa bo. Sledi primer:</p>
 
 <ul>
     <li>Postavka 1 je ocenjena 0-100</li>
     <li>Postavka 2 je ocenjena 0-75</li>
-    <li>Postavka 1 ima odkljukan kvadratek "Obnaša naj se kot dodaten kredit", postavka 2 ne.</li>
-    <li>Obe postavki pripadati kategoriji 1, ki ima "Vsoto ocen" kot njeno agregacijsko strategijo</li>
-    <li>Vse skupaj v kategoriji 1 bo ocenjeno 0-75</li>
-    <li>Udeleženec dobi oceno 20 pri postavki 1 in 70 pri postavki 2</li>
-    <li>Vse skupaj za udeleženca pri kategoriji 1 bo 75/75 (20+70 = 90 vendar postavka 1 se le obnaša kot dodaten kredit, zato to prinese vse skupaj k maksimumu)</li>
+    <li>Postavka 1 ima označeno potrditveno polje "Dodatna naloga", Postavka 2 nima.</li>
+    <li>Obe postavki spadata v Kategorijo 1, ki ima izbran "Seštevek ocen" kot svojo strategijo združevanja</li>
+    <li>Skupna vrednost Kategorije 1 bo ocenjena 0-75</li>
+    <li>Udeleženec je pri Postavki 1 dobil oceno 20, pri Postavki 2 pa oceno 70</li>
+    <li>Skupna ocena za udeleženca v Kategoriji 1 bo 75/75 (20+70 = 90, vendar Postavka 1 služi le kot dodatna naloga, zato skupno oceno dvigne na najvišjo možno vrednost)</li>
 </ul>

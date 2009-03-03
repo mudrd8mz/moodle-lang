@@ -6,7 +6,7 @@
 <ul>
   <li>Vsaka vrstica datoteke vsebuje en zapis</li>
   <li>Vsak zapis je vrsta podatkov ločenih z vejicami</li>
-  <li>Prvi zapis datoteke je poseben in vsebuje seznam imen polj. Ta določa obliko drugega dela datoteke.
+  <li>Prvi zapis datoteke je poseben in vsebuje seznam imen polij. Ta določa obliko drugega dela datoteke.
     <blockquote>
       <p><strong>Zahtevana imena polj:</strong> ta polja morajo biti vključena v prvem zapisu in določena za vsakega uporabnika</p>
       <p><code class="example1">username, password, firstname, lastname, email</code></p>
@@ -14,19 +14,20 @@
       <p><strong>Privzeta imena polj:</strong> ta so možna - če niso vključena bodo vrednosti prevzete iz nastavitev glavnega skrbnika</p>
       <p><code class="example1">institution, department, city, country, lang, auth, timezone</code> </p>
       <p><strong>Možna imena polj: </strong> vsa ta imena so popolnoma izbirna. Imena predmetov so "kratka imena" predmetov - če so prisotna bo uporabnik vpisan kot udeleženec v teh predmetih. Imena skupin morajo biti povezana z ustreznimi predmeti, npr. skupina1 s predmetom1 itn.</p>
-      <p><code class="example1">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5, type1, type2, type3, type4, type5, role1, role2, role3, role4, role5, emailstop</code></p>
+      <p><code class="example1">idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, course1, course2, course3, course4, course5, group1, group2, group3, group4, group5, type1, type2, type3, type4, type5</code></p>
     </blockquote>
     </li>
-  <li>Vejice v podatkih morajo biti predstavljene kodirano kot &#44 - program bo samodejno odkodiral to oznako nazaj v vejice. </li>
+  <li>Vejice v podatkih morajo biti predstavljene kodirano kot &amp;#44 - program bo samodejno odkodiral to oznako nazaj v vejice. </li>
   <li>Za logična polja uporabite 0 za "ne" in 1 za "da". </li>
-  <li>Vrste so uporabljene, da povedo ali je uporabnik udeleženec ali izvajalec, če ustrezen predmet obstaja (npr. type2 ustreza course2). 1 = Udeleženec, 2 = Izvajalec s pravico urejanja in 3 = Izvajalec brez pravice urejanja. Če je vrsta opuščena (prazna), ali predmet ni določen, je privzeta vrsta uporabnika udeleženec. </li>
+  <li>Vrste so uporabljene, da povedo ali je uporabnik udeleženec ali izvajalec, če ustrezen predmet obstaja (n.pr. type2 ustreza course2). 1 = Udeleženec, 2 = Izvajalec s pravico urejanja in 3 = Izvajalec brez pravice urejanja. Če je vrsta opuščena (prazna), ali predmet ni določen, je privzeta vrsta uporabnika udeleženec. </li>
   <li>Za predmete uporabite kratka imena predmeta</li>
   <li>Opomba: Če je uporabnik že registriran v podatkovni zbirki uporabnikov Moodle, bo program vrnil identifikacijsko številko uporabnika (userid - indeks podatkovne zbirke) za tega uporabnika in bo uporabnika prijavil kot udeleženca v navedene predmete BREZ posodabljanja drugih navedenih podatkov.</li>
 </ul>
   
   
 <p>Tu je primer veljavne datoteke za uvoz:</p>
-<p><code>username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br /> jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br /> reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3</code></p>
+<p><code>username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br /> jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br /> reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3
+</code></p>
 
 <h2>Posodabljanje obstoječih uporabniških računov</h2>
 
