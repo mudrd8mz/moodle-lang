@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
+      // admin.php - created with Moodle 1.9.4+ (Build: 20090303) (2007101541)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -691,7 +691,7 @@ $string['smtphosts'] = 'SMTP hostitelé';
 $string['smtpmaxbulk'] = 'Limit SMTP relace';
 $string['smtppass'] = 'SMTP heslo';
 $string['smtpuser'] = 'SMTP uživatelské jméno';
-$string['spamcleaner'] = 'Nažádoucí obsah';
+$string['spamcleaner'] = 'Nežádoucí obsah';
 $string['stats'] = 'Statistiky';
 $string['statscatdepth'] = 'Maximum rodičovských kategorií';
 $string['statsfirstrun'] = 'Maximální interval zpracování';
