@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090303) (2009030300)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -1363,6 +1363,7 @@ $string['showrecent'] = '최근 활동 보기';
 $string['showreports'] = '활동 보고서 보기';
 $string['showsettings'] = '설정 보기';
 $string['showtheselogs'] = '로그 보기';
+$string['showthishelpinlanguage'] = '$a 언어로 도움말 보기';
 $string['showtopicfromothers'] = '타인에게 주제 공개';
 $string['showweekfromothers'] = '타인에게 주 공개';
 $string['since'] = '이래로';
