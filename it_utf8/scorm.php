@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20090303) (2009030300)
 
 
 $string['activation'] = 'Attivazione';
@@ -82,7 +82,7 @@ $string['gradescoes'] = 'Learning object';
 $string['gradesum'] = 'Somma dei voti';
 $string['height'] = 'Altezza';
 $string['hidden'] = 'Nascosta';
-$string['hidebrowse'] = 'Nascondi il pulsante visita';
+$string['hidebrowse'] = 'Nascondi l\'opzione Anteprima';
 $string['hidebrowsedesc'] = 'Questa preferenza imposta il valore di default per l\'abilitazione o disabilitazione della modalità anteprima';
 $string['hideexit'] = 'Nascondere il link (Esci dal corso)';
 $string['hidenav'] = 'Nascondi i pulsanti di navigazione';
