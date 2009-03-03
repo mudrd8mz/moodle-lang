@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // question.php - created with Moodle 2.0 dev (Build: 20090303) (2009030300)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
+$string['availableq'] = '利用可能?';
 $string['badbase'] = '**: $a** の前のbaseが正しくありません。';
 $string['broken'] = 'これは存在しないファイルをポイントする「壊れたリンク」です。';
 $string['byandon'] = '<em>$a->time</em> (ユーザ: <em>$a->user</em>)';
@@ -12,6 +13,7 @@ $string['cannotcreatedataset'] = 'データセット $a を作成できません
 $string['cannotcreatepath'] = 'パスを作成できません: $a';
 $string['cannotcreaterelation'] = 'データセット $a[0] のリレーション $a[1] を作成できません。';
 $string['cannotdeletecate'] = 'このコンテクストのデフォルトカテゴリのため、あなたはカテゴリを削除できません。';
+$string['cannotenable'] = '問題タイプ $a は直接作成できません。';
 $string['cannotfindcate'] = 'カテゴリレコードが見つかりませんでした。';
 $string['cannotfindquestionfile'] = 'ZIPファイル内に問題データファイルが見つかりませんでした。';
 $string['cannotgetdsfordependent'] = 'データセットに依存した問題のデータセットを取得できませんでした! (問題: {$a[0]}、データセットアイテム: {a[1]})';
@@ -46,6 +48,7 @@ $string['categorycurrentuse'] = 'このカテゴリを使用する';
 $string['categorydoesnotexist'] = 'このカテゴリは存在しません。';
 $string['categorymoveto'] = 'カテゴリに保存する';
 $string['changepublishstatuscat'] = 'コース内の <a href=\"$a->caturl\">カテゴリ「 $a->name 」</a> の共有ステータスが <strong>$a->changefrom から $a->changeto</strong> に変更されます。';
+$string['chooseqtypetoadd'] = '追加する問題タイプを選択する';
 $string['clicktoflag'] = 'この問題にフラグ付けするには、ここをクリックしてください。';
 $string['clicktounflag'] = 'この問題のフラグを解除するには、ここをクリックしてください。';
 $string['contexterror'] = 'あなたがカテゴリを他のコンテクストに移動する場合、ここには移動できません。';
@@ -53,6 +56,7 @@ $string['copy'] = '$a からコピーおよびリンクを変更する。';
 $string['created'] = '作成日時';
 $string['createdby'] = '作成者';
 $string['createdmodifiedheader'] = '作成日時/最終更新日時';
+$string['createnewquestion'] = '新しい問題を作成する ...';
 $string['cwrqpfs'] = 'ランダム問題がサブカテゴリより問題を選択しています。';
 $string['cwrqpfsinfo'] = '<p>Moodle 1.9へのアップグレード中、問題カテゴリは異なるコンテクストに移動されます。あなたのサイトのいくつかの問題カテゴリおよび問題では、共有ステータスを変更する必要があります。これは、(このサイトに関して) 小テストの1つまたはそれ以上の「ランダム」問題が共有および未共有のカテゴリ内から混在して問題を選択するよう設定されている場合に生じる、まれなケースに対処するため必要です。「ランダム」問題がサブカテゴリ群より問題を選択し、ランダム問題が作成される1またはそれ以上のサブカテゴリが親カテゴリに対して異なる共有ステータスを持っている場合、この問題が生じます。</P>
 
@@ -61,11 +65,13 @@ $string['cwrqpfsnoprob'] = 'あなたのサイト内で「サブカテゴリか�
 $string['defaultfor'] = '$a のデフォルト';
 $string['defaultinfofor'] = 'コンテクスト「 $a 」で共有される問題のデフォルトカテゴリ';
 $string['deletecoursecategorywithquestions'] = 'このコースカテゴリに関連する問題バンクに問題が登録されています。あなたが続けた場合、問題が削除されます。問題バンクのインターフェースを使用して、最初に問題を移動してください。';
+$string['disabled'] = '利用不可';
 $string['disterror'] = 'ディストリビューション $a が問題の原因となっています。';
 $string['donothing'] = 'ファイルをコピーまたは移動またはリンクを変更しない。';
 $string['editingcategory'] = 'カテゴリの編集';
 $string['editingquestion'] = '問題の編集';
 $string['emptyxml'] = '不明なエラー: imsmanifest.xmlが空です。';
+$string['enabled'] = '利用可能';
 $string['erroraccessingcontext'] = 'コンテクストにアクセスできません。';
 $string['errordeletingquestionsfromcategory'] = 'カテゴリ $a から問題を削除中にエラーが発生しました。';
 $string['errorduringpost'] = '処理後にエラーが発生しました!';
@@ -153,6 +159,8 @@ $string['questionsrescuedfrominfo'] = 'いくつかの小テストまたは他�
 $string['questiontype'] = '問題タイプ';
 $string['questionuse'] = 'この活動で問題を使用する';
 $string['saveflags'] = 'フラグの状態を保存する';
+$string['selectacategory'] = 'カテゴリを選択してください:';
+$string['selectaqtypefordescription'] = '説明を表示するには、問題タイプを選択してください。';
 $string['selectquestionsforbulk'] = 'バルク処理の問題を選択する';
 $string['shareincontext'] = '$a でコンテクストを共有する';
 $string['tofilecategory'] = 'カテゴリをファイルに書く';
