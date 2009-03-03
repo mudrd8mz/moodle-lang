@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20090121) (2007101533.02)
+      // moodle.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -282,6 +282,14 @@ $string['coursefiles'] = 'Soubory kurzu';
 $string['courseformatdata'] = 'Formát dat kurzu';
 $string['courseformats'] = 'Uspořádání kurzu';
 $string['coursegrades'] = 'Známky kurzu';
+$string['coursehelpcategory'] = 'Ovlivňuje umístění kurzu v seznamu všech kurzů a pomáhá studentům najít správný kurz.';
+$string['coursehelpformat'] = 'V tomto uspořádání se zobrazí hlavní stránka kurzu.';
+$string['coursehelphiddensections'] = 'Jak se mají zobrazovat skryté sekce kurzu (např. témata či týdny) studentům.';
+$string['coursehelpmaximumupload'] = 'Určuje maximální velikost souboru, který budou moci studenti vložit do tohoto kurzu. Velikost je limitována nastavením serveru.';
+$string['coursehelpmetacourse'] = 'Nastavit kurz jako metakurz. Metakurz přebírá zápis studentů a další přidělení rolí z tzv. asociovaných kurzů.';
+$string['coursehelpnewsitemsnumber'] = 'Počet posledních novinek, které se budou zobrazovat v postranním bloku.<br/>(0 znamená, že se blok vůbec nezobrazí).';
+$string['coursehelpnumberweeks'] = 'Počet sekcí (tj. týdnů nebo témat), které se zobrazí na hlavní stránce kurzu.';
+$string['coursehelpshowgrades'] = 'Povolit zobrazení modulu klasifikace v nabídce Správa > Známky. Tímto se neovlivňuje zobrazování známek v rámci dílčích modulů činností.';
 $string['coursehidden'] = 'Tento kurz není momentálně studentům dostupný.';
 $string['courseimportnotaught'] = 'Není odkud importovat -- nepodařilo se nalézt jiný kurz, v němž byste měli přiřazenu roli vyučujícího s právy upravovat obsah kurzu.';
 $string['courseinfo'] = 'Informace o kurzu';
@@ -310,6 +318,7 @@ $string['courserequestsupport'] = 'Doplňující informace, které pomohou sprá
 $string['courserestore'] = 'Obnova kurzu';
 $string['courses'] = 'Kurzy';
 $string['coursescategory'] = 'Kurzy ve stejné kategorii';
+$string['coursesettings'] = 'Výchozí nastavení kurzu';
 $string['coursesmovedout'] = 'Kurzy přesunuty z $a';
 $string['coursespending'] = 'Kurzy čekající na schválení';
 $string['coursestaught'] = 'Kurzy, v nichž učím';
@@ -1263,6 +1272,7 @@ $string['scalescustomno'] = 'Zatím nebyly vytvořeny žádné škály';
 $string['scalesstandard'] = 'Standardní škály';
 $string['scalestandard'] = 'Standardní škála';
 $string['scalestip'] = 'K vytvoření vlastních škál použijte odkaz \'Škály\' v panelu Správa ve svém kurzu.';
+$string['scalestip2'] = 'Chcete-li si vytvořit vlastní škálu, jděte na hlavní stránce kurzu do nabídky Správa > Známky a tam zvolte akci Upravit > Škály.';
 $string['schedule'] = 'Časový plán';
 $string['scheduledbackupsinactive'] = 'Plánované zálohy nebyly správcem systému povoleny';
 $string['scheduledbackupstatus'] = 'Stav plánovaných záloh';
@@ -1326,6 +1336,7 @@ $string['showrecent'] = 'Ukázat nedávnou činnost';
 $string['showreports'] = 'Ukázat sestavu o činnosti';
 $string['showsettings'] = 'Ukázat nastavení';
 $string['showtheselogs'] = 'Ukázat tyto protokoly';
+$string['showthishelpinlanguage'] = 'Zobrazit tuto nápovědu v jazyce: $a';
 $string['since'] = 'Od';
 $string['sincelast'] = 'Od posledního přihlášení';
 $string['site'] = 'Stránky';
@@ -1543,6 +1554,7 @@ $string['userprofilefor'] = 'Profil uživatele $a';
 $string['users'] = 'Uživatelé';
 $string['usersnew'] = 'Noví uživatelé';
 $string['usersnoaccesssince'] = 'Ukázat uživatele, kteří nebyli aktivní déle než';
+$string['userswithfiles'] = 'Uživatelé se soubory';
 $string['userzones'] = 'Časové pásmo uživatele';
 $string['usethiscourse'] = 'Použij tento kurz';
 $string['usingexistingcourse'] = 'Používám existující kurz';

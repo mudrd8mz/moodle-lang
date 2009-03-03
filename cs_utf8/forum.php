@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.3+ (Build: 20090121) (2007101533.02)
+      // forum.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
 
 
 $string['addanewdiscussion'] = 'Přidat nové téma diskuse';
@@ -8,6 +8,7 @@ $string['addanewtopic'] = 'Přidat nové téma';
 $string['advancedsearch'] = 'Pokročilé vyhledávání';
 $string['aggregateavg'] = 'Průměr hodnocení';
 $string['aggregatecount'] = 'Počet hodnocení';
+$string['aggregatecountformat'] = '$a->count (známka: $a->grade)';
 $string['aggregatemax'] = 'Nejvyšší hodnocení';
 $string['aggregatemin'] = 'Nejnižší hodnocení';
 $string['aggregatenone'] = 'Bez hodnocení';
@@ -125,6 +126,7 @@ $string['inforum'] = 'v $a';
 $string['intronews'] = 'Novinky a oznámení';
 $string['introsocial'] = 'Otevřené fórum pro debaty na libovolné téma';
 $string['introteacher'] = 'Uzavřené fórum pro učitele kurzu';
+$string['invalidrate'] = 'Neplatná známka ($a)';
 $string['lastpost'] = 'Poslední příspěvek';
 $string['learningforums'] = 'Učební fóra';
 $string['logblocked'] = 'Zaznamenávat blokované emaily';
@@ -165,6 +167,7 @@ $string['nopostforum'] = 'Je nám líto, ale nemáte oprávnění přispívat do
 $string['noposts'] = 'Bez příspěvků';
 $string['nopostscontaining'] = 'Nebyly nalezeny žádné příspěvky obsahující \'$a\'.';
 $string['noquestions'] = 'Do tohoto fóra zatím nebyla vložena žádná otázka.';
+$string['noratinggiven'] = 'Zatím nehodnoceno';
 $string['nosubscribers'] = 'V tomto fóru zatím nikdo neodebírá nové příspěvky e-mailem';
 $string['nothingnew'] = 'Žádné nové zprávy';
 $string['notingroup'] = 'Pro prohlížení tohoto fóra musíte být členem skupiny.';

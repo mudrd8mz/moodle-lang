@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.3+ (Build: 20090121) (2007101533.02)
+      // auth.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
 
 
 $string['CASform'] = 'Volba autentizace';
@@ -230,6 +230,8 @@ $string['auth_nonetitle'] = 'Registrace bez ověření';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'Zda se má povolit SSO přihlašování pomocí účtu v doméně NTLM. <strong>Pozor:</strong> tato metoda vyžaduje další konfiguraci na straně webového serveru. Podrobnosti jsou uvedeny v <a href=\"http://docs.moodle.org/en/NTLM_authentication\">dokumentaci</a>.';
 $string['auth_ntlmsso_enabled_key'] = 'Povolit';
+$string['auth_ntlmsso_ie_fastpath'] = 'Pokud vaši uživatelé používají pouze MS Internet Explorer, můžete zde nastavit \"ano\" a urychlit tak průběh ověřování.';
+$string['auth_ntlmsso_ie_fastpath_key'] = 'Pouze MS IE';
 $string['auth_ntlmsso_subnet'] = 'Je-li nastaveno, dojde k ověření pomocí NTLM SSO pouze u klientů v dané podsíti. Formát: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Podsíť';
 $string['auth_outofnewemailupdateattempts'] = 'Vyčerpali jste všechny možné pokusy o změnu vaší e-mailové adresy. Vaše žádost o změnu byla zrušena.';
@@ -269,13 +271,21 @@ $string['auth_remove_keep'] = 'Uchovat interní';
 $string['auth_remove_suspend'] = 'Suspendovat interní';
 $string['auth_remove_user'] = 'Specifikujte, co dělat s interním uživatelem v průběhu hromadné synchronizace, pokud byl uživatel odstraněn z externí databáze. Obnoveni automaticky jsou pouze suspendovaní uživatelé, kteří se znovu objeví v externím zdroji.';
 $string['auth_remove_user_key'] = 'Odstraněný externí uživatel';
+$string['auth_shib_auth_method'] = 'Název autentizační metody';
+$string['auth_shib_auth_method_description'] = 'Vložte název autentizační metody, která bude pochopitelná pro vaše uživatele. Typicky se bude jednat o název vámi používané federace identit, např. <tt>eduID</tt>.';
 $string['auth_shib_changepasswordurl'] = 'Heslo - změna URL';
 $string['auth_shib_convert_data'] = 'API pro úpravu dat';
 $string['auth_shib_convert_data_description'] = 'Toto API (aplikační rozhraní) vám umožňuje dále upravovat data, která máte k dispozici ze systému Shibboleth. Více infomací <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">zde</a>.';
 $string['auth_shib_convert_data_warning'] = 'Soubor buď neexistuje, nebo k němu nemá proces webového serveru přístup ke čtení!';
+$string['auth_shib_idp_list'] = 'Poskytovatelé identit';
+$string['auth_shib_idp_list_description'] = 'Vložte seznam poskytovatelů identit (IdP), ze kterých si budou moci vaši uživatelé vybírat na stránce pro přihlášení.<br />Na každém řádku uveďte jejich entityID (viz váš metadata soubor) a název, pod kterým mají být nabídnuty uživatelům. Obě hodnoty oddělte čárkou.<br>Jako volitelný třetí parametr přidejte umístění iniciátora Shibboleth session v případě, že je váš Moodle součástí multi-federativního uspořádání.';
 $string['auth_shib_instructions'] = 'Použijte <a href=\"$a\">přihlášení přes Shibboleth</a>, jestliže vaše instituce tento systém podporuje.<br />V opačném případě použijte normální formulář pro přihlášení.';
 $string['auth_shib_instructions_help'] = 'Zde můžete zadat vlastní pokyny uživatelům pro použití systému Shibboleth. Budou se zobrazovat na přihlašovací stránce. Vložené informace by měly obsahovat odkaz na zdroj chráněný systémem Shibboleth, který přesměruje uživatele na \'<b>$a</b>\', takže se uživatelé systému Shibboleth budou moci přihlásit do Moodlu. Necháte-li toto pole prázdné, budou se na přihlašovací stránce zobrazovat obecné pokyny.';
-$string['auth_shib_no_organizations_warning'] = 'Pokud si přejete používat integrovanou službu WAYF, uveďte čárkami oddělený seznam identifikátorů Identity Provider entityID, jejich názvů a případně iniciátora sezení (session initiator).';
+$string['auth_shib_integrated_wayf'] = 'Vlastní služba WAYF';
+$string['auth_shib_integrated_wayf_description'] = 'Při zaškrtnutí bude Moodle používat vlastní službu WAYF namísto té nastavené pro Shibboleth. Moodle zobrazuje na přihlašovací stránce rozbalovací seznam, ze kterého si uživatel vybírá svého poskytovatele identity.';
+$string['auth_shib_logout_url'] = 'URL pro odhlášení';
+$string['auth_shib_logout_url_description'] = 'Vložte URL pro odhlášení od poskytovatele služeb Shibboleth. Typicky se jedná o <tt>/Shibboleth.sso/Logout</tt>';
+$string['auth_shib_no_organizations_warning'] = 'Pokud si přejete používat integrovanou službu WAYF, uveďte čárkami oddělený seznam poskytovatelů identit (Identity Provider entityID), jejich názvů a případně iniciátora sezení (session initiator).';
 $string['auth_shib_only'] = 'Pouze Shibboleth';
 $string['auth_shib_only_description'] = 'Zaškrtněte tuto volbu, chcete-li si vynutit přihlášení pomocí systému Shibboleth';
 $string['auth_shib_username_description'] = 'Název proměnné prostředí Shibboleth, která má být použita jako moodlovské uživatelské jméno';

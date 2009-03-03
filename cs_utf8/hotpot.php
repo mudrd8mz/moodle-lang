@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // hotpot.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
 
 
 $string['abandoned'] = 'nedokončeno';
@@ -23,6 +23,7 @@ $string['copytoclipboard'] = 'Zkopírovat do schránky';
 $string['correct'] = 'Správně';
 $string['deleteabandoned'] = 'Odstranit nedokončené';
 $string['deleteabandonedcheck'] = 'Opravdu chcete odstranit všechny nedokončené pokusy: celkem $a?';
+$string['deleteallattempts'] = 'Odstranit všechny pokusy';
 $string['displaycoursenext'] = '...a přejít na stránku kurzu';
 $string['displayhotpotnext'] = '...a zobrazit test';
 $string['displayindexnext'] = '...a zobrazit seznam testů Hot Potatoes';
@@ -86,6 +87,7 @@ $string['rawdetails'] = 'Základní údaje o pokusu';
 $string['regrade'] = 'Znovu oznámkovat';
 $string['regradecheck'] = 'Opravdu chcete znovu oznámkovat test \"$a\"?';
 $string['regraderequired'] = 'Je potřeba znovu oznámkovat test';
+$string['removegradeitem'] = 'Odebrat položku hodnocení';
 $string['reportanswers'] = 'Odpovědi';
 $string['reportattemptfinish'] = 'Konec pokusu';
 $string['reportattemptnumber'] = 'Pokus';

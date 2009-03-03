@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.3+ (Build: 20090121) (2007101533.02)
+      // report_security.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
 
 
 $string['check_configrw_details'] = '<p>Doporučuje se změnit práva k souboru config.php tak, aby do něj nemohl zapisovat sám webový server.
@@ -15,11 +15,11 @@ $string['check_courserole_anything'] = 'Možnost dělat cokoliv nemůže být <a
 $string['check_courserole_details'] = '<p>Každý kurz má definovánu jednu výchozí roli uživatelů. Ujistěte se, že tato role nemá přidělena žádná riskantní oprávnění.</p>
 <p>Jediným podporovaným archetypem výchozí role v kurzu je <em>Student</em>.</p>';
 $string['check_courserole_error'] = 'Zjištěna chyba v definici výchozích rolí kurzu';
-$string['check_courserole_legacy'] = 'Nepodporovaný archetyp role <a href=\"$a\">role</a>.';
 $string['check_courserole_name'] = 'Výchozí role v kurzu';
 $string['check_courserole_notyet'] = 'Všechny kurzy používají přednastavenou hodnotu pro tento server';
 $string['check_courserole_ok'] = 'Definice výchozích rolí v kurzu OK.';
 $string['check_courserole_risky'] = 'Riskantní oprávnění zjištěna <a href=\"$a\">v tomto kontextu</a>.';
+$string['check_courserole_riskylegacy'] = 'Riskantní archetyp u role <a href=\"$a->url\">$a->shortname</a>.';
 $string['check_defaultcourserole_anything'] = 'Možnost dělat cokoliv nemůže být <a href=\"$a\">v tomto kontextu</a> povolena.';
 $string['check_defaultcourserole_details'] = '<p>Na úrovni stránek je možno definovat výchozí roli uživatelů v kurzech (toto nastavení lze pak u jednotlivých kurzů měnit). Ujistěte se, že tato výchozí role nemá přidělena žádná riskantní oprávnění.</p>
 <p>Jediným podporovaným archetypem výchozí role v kurzu je <em>Student</em>.</p>';
@@ -41,6 +41,7 @@ $string['check_displayerrors_name'] = 'Zobrazování chyb PHP';
 $string['check_displayerrors_ok'] = 'Zobrazování chyb PHP je zakázáno';
 $string['check_emailchangeconfirmation_details'] = '<p>Doporučuje se, aby uživatelé museli potvrzovat svou novou e-mailovou adresu při její změně v uživatelském profilu. Pokud tento krok vynecháte, může být váš server zneužit k rozesílání nevyžádané korespondence.</p>';
 $string['check_emailchangeconfirmation_error'] = 'Uživatelé mohou zadat libovolnou adresu';
+$string['check_emailchangeconfirmation_info'] = 'Uživatelé mohou zadat emailové adresy pouze z dovolených domén.';
 $string['check_emailchangeconfirmation_name'] = 'Potvrzení změny e-mailu';
 $string['check_emailchangeconfirmation_ok'] = 'Uživatelé musejí potvrdit změnu e-mailové adresy';
 $string['check_embed_details'] = '<p>Neomezené vkládání objektů do HTML je velmi nebezpečné. Jakýkoliv registrovaný uživatel pak může zahájit XSS útok proti jiným uživatelům serveru. Na produkčních server by mělo být zakázáno.</p>';
@@ -91,6 +92,7 @@ $string['check_riskadmin_detailswarning'] = '<p>Seznam stávajících správců 
 <p>Role Správce se přiřazuje pouze v hlavním systémovém kontextu. Následujícím uživatelům je přiřazena role Správce v nesprávném kontextu:<br />$a->unsupported</p>';
 $string['check_riskadmin_name'] = 'Správci';
 $string['check_riskadmin_ok'] = 'Počet správců: $a';
+$string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) překontrolujte přiřazení role</a>';
 $string['check_riskadmin_warning'] = 'Počet správců: $a->admincount, chybně  přidělených rolí: $a->unsupcount';
 $string['check_riskxss_details'] = '<p>Příznakem RISK_XSS jsou označena riskantní oprávnění, která by měla být přiznána pouze důvěryhodným uživatelům.</p>
 <p>Zkontrolujte následující seznam a ujistěte se, že se jedná o uživatele, kterým můžete ve věci bezpečnosti serveru důvěřovat:<br />$a</p>';
@@ -109,10 +111,12 @@ $string['issue'] = 'Problém';
 $string['reportsecurity'] = 'Přehled zabezpečení';
 $string['security:view'] = 'Zobrazit přehled zabezpečení';
 $string['status'] = 'Stav';
-$string['statuscritical'] = 'Kritický';
+$string['statuscritical'] = 'Kritický problém';
 $string['statusinfo'] = 'Poznámka';
 $string['statusok'] = 'OK';
-$string['statusserious'] = 'Vážný';
-$string['statuswarning'] = 'Varovný';
+$string['statusserious'] = 'Vážný problém';
+$string['statuswarning'] = 'Varování';
+$string['timewarning'] = 'Zpracování dat může trvat dlouho - buďte trpěliví...';
+$string['check_courserole_legacy'] = 'Nepodporovaný archetyp role <a href=\"$a\">role</a>.'; // ORPHANED
 
 ?>

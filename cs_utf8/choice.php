@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.2+ (Build: 20080720) (2007101520)
+      // choice.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
 
 
 $string['addmorechoices'] = 'Přidat další volby';
@@ -14,6 +14,7 @@ $string['choiceclose'] = 'Do';
 $string['choicefull'] = 'Tato volba je již zaplněna';
 $string['choicename'] = 'Název ankety';
 $string['choiceopen'] = 'Od';
+$string['choicesaved'] = 'Vaše volba byla uložena';
 $string['choicetext'] = 'Text ankety';
 $string['displayhorizontal'] = 'Zobrazit horizontálně';
 $string['displaymode'] = 'Režim zobrazení';
