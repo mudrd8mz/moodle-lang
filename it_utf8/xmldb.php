@@ -1,39 +1,64 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20081119) (2008111801)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090302) (2009021800)
 
 
-$string['aftertable'] = 'Dopo Tabella:';
+$string['actual'] = 'Attuale';
+$string['aftertable'] = 'Dopo la tabella:';
 $string['back'] = 'Indietro';
 $string['backtomainview'] = 'Torna alla vista principale';
-$string['binaryincorrectlength'] = 'Lunghezza incorretta per un campo binario';
-$string['cannotuseidfield'] = 'Non è possibile inserire il campo \"id\" è una colonna automatica';
+$string['binaryincorrectlength'] = 'Lunghezza errata per un campo binario';
+$string['cannotuseidfield'] = 'Non è possibile inserire il campo \"id\". E è una colonna autonumeric';
 $string['change'] = 'Modifica';
-$string['charincorrectlength'] = 'Lunghezza incorretta per un campo carattere';
-$string['check_bigints'] = 'Cerca \'DB integer\' errati';
-$string['check_indexes'] = 'Cerca gli indici del DB mancanti';
-$string['checkindexes'] = 'Controlla gli indici';
-$string['confirmdeletefield'] = 'Sei assolutamente sicuro di voler rimuovere il campo:';
-$string['confirmdeleteindex'] = 'Sei assolutamente sicuro di voler rimuovere l\'indice:';
-$string['confirmdeletekey'] = 'Sei assolutamente sicuro di voler rimuovere la chiave:';
-$string['confirmdeletesentence'] = 'Sei assolutamente sicuro di voler rimuovere la clausola:';
-$string['confirmdeletestatement'] = 'Sei assolutamente sicuro di voler rimuovere la dichiarazione e le sue clausole:';
-$string['confirmdeletetable'] = 'Sei assolutamente sicuro di voler rimuovere la tabella:';
-$string['confirmdeletexmlfile'] = 'Sei assolutamente sicuro di voler rimuovere il file:';
-$string['confirmrevertchanges'] = 'Sei assolutamente sicuro di voler ripristinare le modifiche effettuate:';
-$string['create'] = 'Creare';
-$string['createtable'] = 'Creare Tabella:';
-$string['defaultincorrect'] = 'Incorretto';
-$string['delete'] = 'Rimuovere';
-$string['delete_field'] = 'Rimuovere Campo';
-$string['delete_index'] = 'Rimuovere Indice';
-$string['delete_key'] = 'Rimuovere Chiave';
-$string['delete_sentence'] = 'Rimuovere Clausola';
-$string['delete_statement'] = 'Rimuovere Dichiarazione';
-$string['delete_table'] = 'Rimuovere Tabella';
-$string['delete_xml_file'] = 'Rimuovere File XML';
+$string['charincorrectlength'] = 'Lunghezza errata per un campo carattere';
+$string['check_bigints'] = 'Cerca DB Integer errati';
+$string['check_defaults'] = 'Cerca valori di default inconsistenti';
+$string['check_foreign_keys'] = 'Cerca violazioni di Foreign key';
+$string['check_indexes'] = 'Cerca indici mancanti nel DB';
+$string['checkbigints'] = 'Controlla Bigint';
+$string['checkdefaults'] = 'Controlla default';
+$string['checkforeignkeys'] = 'Controlla Foreign key';
+$string['checkindexes'] = 'Controlla indici';
+$string['completelogbelow'] = '(visualizza il log della ricerca)';
+$string['confirmcheckbigints'] = 'Questa funzione individua la presenza di  <a href=\"http://tracker.moodle.org/browse/MDL-11038\">Integer potenzialmente errati </a> nel vostro server Moodle, generando automaticamente il codice SQL necessario per sistemare gli Integer errati individuati. Il codice SQL viene generato ma non eseguito.<br /><br />
+Una volta completata l\'individuazione, potete copiare il codice SQL generato ed eseguirlo tramite l\'interfaccia SQL che preferite (non dimenticate di effettuare un backup del database prima di eseguire il codice SQL).<br /><br />
+Si raccomanda di utilizzare la versione di Moodle più recente (versione +) disponibile per la vostra release.(1.8, 1.9, 2.x ...) prima di cercare Integer errati..<br /><br />
+Questa funzione non effettua nessuna operazione sul database, legge solamente i dati e pertanto può essere eseguita con sicurezza in qualsiasi momento.';
+$string['confirmcheckdefaults'] = 'Questa funzione individua la presenza di valori di default inconsistenti nel vostro server Moodle, generando automaticamente il codice SQL necessario per sistemare tutti i valori dei default inconsistenti eventualmente presenti. Il codice SQL viene generato ma non eseguito.<br /><br />
+Una volta completata l\'individuazione, potete copiare il codice SQL generato ed eseguirlo tramite l\'interfaccia SQL che preferite (non dimenticate di effettuare un backup del database prima di eseguire il codice SQL).<br /><br />
+Si raccomanda di utilizzare la versione di Moodle più recente (versione +) disponibile per la vostra release.(1.8, 1.9, 2.x ...) prima di cercare Integer errati..<br /><br />
+Questa funzione non effettua nessuna operazione sul database, legge solamente i dati e pertanto può essere eseguita con sicurezza in qualsiasi momento.';
+$string['confirmcheckforeignkeys'] = 'Questa funzione individua la presenza di violazioni delle Foreign key definite nel file install.xml. (Al momento Moodle non impone vincoli per le Foreign key, ed è questo il motivo per cui potrebbero essere presenti violazioni.<br /><br />
+Una volta completata l\'individuazione, potete copiare il codice SQL generato ed eseguirlo tramite l\'interfaccia SQL che preferite (non dimenticate di effettuare un backup del database prima di eseguire il codice SQL).<br /><br />
+Si raccomanda di utilizzare la versione di Moodle più recente (versione +) disponibile per la vostra release.(1.8, 1.9, 2.x ...) prima di cercare Integer errati..<br /><br />
+Questa funzione non effettua nessuna operazione sul database, legge solamente i dati e pertanto può essere eseguita con sicurezza in qualsiasi momento.';
+$string['confirmcheckindexes'] = 'Questa funzione individua indici mancanti nel vostro server Moodle, generando automaticamente il codice SQL necessario per sistemare tutti i valori dei default inconsistenti eventualmente presenti. Il codice SQL viene generato ma non eseguito.<br /><br />
+Una volta completata l\'individuazione, potete copiare il codice SQL generato ed eseguirlo tramite l\'interfaccia SQL che preferite (non dimenticate di effettuare un backup del database prima di eseguire il codice SQL).<br /><br />
+Si raccomanda di utilizzare la versione di Moodle più recente (versione +) disponibile per la vostra release.(1.8, 1.9, 2.x ...) prima di cercare Integer errati..<br /><br />
+Questa funzione non effettua nessuna operazione sul database, legge solamente i dati e pertanto può essere eseguita con sicurezza in qualsiasi momento.';
+$string['confirmdeletefield'] = 'Sei sicuro di voler rimuovere il campo:';
+$string['confirmdeleteindex'] = 'Sei sicuro di voler rimuovere l\'indice:';
+$string['confirmdeletekey'] = 'Sei sicuro di voler rimuovere la chiave:';
+$string['confirmdeletesentence'] = 'Sei sicuro di voler rimuovere la clausola:';
+$string['confirmdeletestatement'] = 'Sei sicuro di voler rimuovere la dichiarazione e le sue clausole:';
+$string['confirmdeletetable'] = 'Sei sicuro di voler rimuovere la tabella:';
+$string['confirmdeletexmlfile'] = 'Sei sicuro di voler rimuovere il file:';
+$string['confirmrevertchanges'] = 'Sei sicuro di voler ripristinare le modifiche effettuate:';
+$string['create'] = 'Crea';
+$string['createtable'] = 'Crea Tabella:';
+$string['defaultincorrect'] = 'Default errato';
+$string['delete'] = 'Rimuovi';
+$string['delete_field'] = 'Rimuovi Campo';
+$string['delete_index'] = 'Rimuovi Indice';
+$string['delete_key'] = 'Rimuovi Chiave';
+$string['delete_sentence'] = 'Rimuovi Clausola';
+$string['delete_statement'] = 'Rimuovi Dichiarazione';
+$string['delete_table'] = 'Rimuovi Tabella';
+$string['delete_xml_file'] = 'Rimuovi File XML';
+$string['doc'] = 'Doc';
 $string['down'] = 'Sotto';
-$string['duplicate'] = 'Duplicare';
+$string['duplicate'] = 'Duplica';
 $string['duplicatefieldname'] = 'Un altro campo con quel nome esiste';
+$string['duplicatekeyname'] = 'Esiste già una chiave con quel nome';
 $string['edit'] = 'Modifica';
 $string['edit_field'] = 'Modifica Campo';
 $string['edit_index'] = 'Modifica Indice';
@@ -43,25 +68,35 @@ $string['edit_statement'] = 'Modifica Dichiarazione';
 $string['edit_table'] = 'Modifica Tabella';
 $string['edit_xml_file'] = 'Modifica File XML';
 $string['enumvaluesincorrect'] = 'Valori incorretti per un campo enumerato';
+$string['expected'] = 'Attesi';
+$string['extensionrequired'] = 'Spiacente - per svolgere questa azione è necessaria l\'estensione PHP \'$a\'. Se volete usare questa funzionalità per favore installate l\'estensione.';
 $string['field'] = 'Campo';
 $string['fieldnameempty'] = 'Nome campo vuoto';
 $string['fields'] = 'Campi';
+$string['fieldsusedinkey'] = 'Questo campo è una chiave';
 $string['filenotwriteable'] = 'File non scrivibile';
+$string['fkviolationdetails'] = 'La Foreign key $a->keyname nella tabella  $a->tablename è stata violata  $a->numviolations su un totale di $a->numrows righe.';
 $string['floatincorrectdecimals'] = 'Numero incorretto di decimali per un campo reale';
 $string['floatincorrectlength'] = 'Lunghezza incorretta per un campo reale';
+$string['generate_documentation'] = 'Documentazione';
 $string['gotolastused'] = 'Vai all\'ultimo file utilizzato';
-$string['incorrectfieldname'] = 'Nome incorretto';
+$string['incorrectfieldname'] = 'Nome errato';
+$string['index'] = 'Indice';
 $string['indexes'] = 'Indici';
-$string['integerincorrectlength'] = 'Lunghezza incorretta per un campo intero';
+$string['integerincorrectlength'] = 'Lunghezza errata per un campo Integer';
+$string['key'] = 'Chiave';
 $string['keys'] = 'Chiavi';
 $string['listreservedwords'] = 'Lista delle Parole Riservate<br/>(utilizzato per mantenere aggiornato <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
 $string['load'] = 'Carica';
 $string['main_view'] = 'Vista Principale';
+$string['missing'] = 'Mancanti';
 $string['missingfieldsinsentence'] = 'Mancano campi nella clausola';
+$string['missingindexes'] = 'Sono stati individuati indici mancanti';
 $string['missingvaluesinsentence'] = 'Mancano valori nella clausola';
 $string['mustselectonefield'] = 'Si deve selezionare un campo per vedere le azioni correlate!';
 $string['mustselectoneindex'] = 'Si deve selezionare un indice per vedere le azioni correlate!';
 $string['mustselectonekey'] = 'Si deve selezionare una chiave per vedere le azioni correlate!';
+$string['mysqlextracheckbigints'] = 'Se utilizzate MySQL, verranno cercati anche Signed bigint errati e verrà generato il codice SQL per risolvere eventuali problemi individuati su questi tipi di campi.';
 $string['new_statement'] = 'Nuova dichiarazione';
 $string['new_table_from_mysql'] = 'Nuova tabella da MySQL';
 $string['newfield'] = 'Nuovo campo';
@@ -71,16 +106,21 @@ $string['newsentence'] = 'Nuova clausola';
 $string['newstatement'] = 'Nuova dichiarazione';
 $string['newtable'] = 'Nuova tabella';
 $string['newtablefrommysql'] = 'Nuova tabella da MySQL';
-$string['numberincorrectdecimals'] = 'Numero incorretto di decimali per un campo numerico';
-$string['numberincorrectlength'] = 'Lunghezza incorretta per un campo numerico';
+$string['nomissingindexesfound'] = 'Non sono stati individuati indici mancanti. Il vostro DB non ha bisogno di altre azioni.';
+$string['noviolatedforeignkeysfound'] = 'Non sono state individuate violazioni di Foreign key';
+$string['nowrongdefaultsfound'] = 'Non sono stati individuati valori di default inconsistenti. Il vostro DB non ha bisogno di altre azioni.';
+$string['nowrongintsfound'] = 'Non sono stati individuati Integer errati. Il vostro DB non ha bisogno di altre azioni.';
+$string['numberincorrectdecimals'] = 'Numero errato di decimali per un campo numerico';
+$string['numberincorrectlength'] = 'Lunghezza errata per un campo numerico';
 $string['reserved'] = 'Riservata';
 $string['reservedwords'] = 'Parole Riservate';
 $string['revert'] = 'Ripristina';
 $string['revert_changes'] = 'Ripristina modifiche';
 $string['save'] = 'Salva';
+$string['searchresults'] = 'Risultati della ricerca';
 $string['selectaction'] = 'Selezionare Azione:';
 $string['selectdb'] = 'Seleziona database:';
-$string['selectfieldkeyindex'] = 'Selezionare Campo/Chiave/Indice:';
+$string['selectfieldkeyindex'] = 'Seleziona Campo/Chiave/Indice:';
 $string['selectonecommand'] = 'Si prega di selezionare una Azione dalla lista per visualizzare il codice PHP';
 $string['selectonefieldkeyindex'] = 'Si prega di selezionare un Campo/Chiave/Indice dalla lista per visualizzare il codice PHP';
 $string['selecttable'] = 'Selezionare Tabella:';
@@ -91,7 +131,7 @@ $string['statementtype'] = 'Tipo di dichiarazione:';
 $string['table'] = 'Tabella';
 $string['tables'] = 'Tabelle';
 $string['test'] = 'Test';
-$string['textincorrectlength'] = 'Lunghezza incorretta per un campo testo';
+$string['textincorrectlength'] = 'Lunghezza errata per un campo testo';
 $string['unload'] = 'Scarica';
 $string['up'] = 'Sopra';
 $string['view'] = 'Visualizza';
@@ -104,8 +144,17 @@ $string['viewedited'] = 'Visualizza Modificato';
 $string['vieworiginal'] = 'Visualizza Originale';
 $string['viewphpcode'] = 'Visualizza codice PHP';
 $string['viewsqlcode'] = 'Visualizza codice SQL';
-$string['wronglengthforenum'] = 'Lunghezza incorretta per un campo enumerato';
-$string['wrongnumberoffieldsorvalues'] = 'Numero incorretto di campi o valori nella clausola';
+$string['violatedforeignkeys'] = 'Violazioni di foreign key';
+$string['violatedforeignkeysfound'] = 'Sono stati individuate violazioni di Foreign key';
+$string['violations'] = 'Violazioni';
+$string['wrong'] = 'Errati';
+$string['wrongdefaults'] = 'Sono stati individuati valori di default errati';
+$string['wrongints'] = 'Sono stati individuati Integer errati';
+$string['wronglengthforenum'] = 'Lunghezza errata per un campo enum';
+$string['wrongnumberoffieldsorvalues'] = 'Numero errato di campi o valori nella clausola';
 $string['wrongreservedwords'] = 'Parole Riservate Utilizzate Attualmente<br/>(notare che il nomi delle tabelle non sono importanti se si utilizza $CFG->prefix)';
+$string['yesmissingindexesfound'] = 'Nel vostro DB sono stati individuati alcuni indici mancanti. Di seguito vengono riportati i dettagli e il codice SQL necessario per crearli (non dimenticate di effettuare un backup del database prima di eseguire il codice SQL.<br /><br />Dopo aver eseguito il codice SQL utilizzate di nuovo questa funzione per verificare che non manchino altri indici.';
+$string['yeswrongdefaultsfound'] = 'Nel vostro DB sono stati individuati valori di default inconsistenti. Di seguito vengono riportati i dettagli e il codice SQL necessario per sistemarli (non dimenticate di effettuare un backup del database prima di eseguire il codice SQL.<br /><br />Dopo aver eseguito il codice SQL utilizzate di nuovo questa funzione per verificare che non siano presenti altri valori di default inconsistenti.';
+$string['yeswrongintsfound'] = 'Nel vostro DB sono stati individuati Integer errati. Di seguito vengono riportati i dettagli e il codice SQL necessario per sistemarli (non dimenticate di effettuare un backup del database prima di eseguire il codice SQL.<br /><br />Dopo aver eseguito il codice SQL utilizzate di nuovo questa funzione per verificare che non siano presenti altri Integer errati.';
 
 ?>
