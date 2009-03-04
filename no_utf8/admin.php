@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20090121) (2007101533.02)
+      // admin.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -15,6 +15,7 @@ $string['allowobjectembed'] = 'Tillat EMBED og OBJECT tagger';
 $string['allowrenames'] = 'Tillat omdøpning';
 $string['allowuserblockhiding'] = 'Tillat brukerne å skjule blokker';
 $string['allowusermailcharset'] = 'Tillat brukerne å velge eget tegnsett';
+$string['allowuserswitchrolestheycantassign'] = 'Tillat at brukere med begrensede rettigheter kan bytte roller';
 $string['allowuserthemes'] = 'Tillat brukeren å velge design';
 $string['allowvisiblecoursesinhiddencategories'] = 'Tillat synlige kurs i skjulte kategorier';
 $string['antivirus'] = 'Antivirus';
@@ -66,6 +67,7 @@ $string['configallowoverride2'] = 'Velg hvilke rolle(r) som kan bli overstyrt av
 $string['configallowunenroll'] = 'Hvis denne er satt til \'Ja\', kan studentene selv melde seg ut av klasser når de selv vil. Ellers kan de ikke det, og lærere og administratorer har full kontroll over denne prosessen.';
 $string['configallowuserblockhiding'] = 'Vil du at brukerne skal kunne skjule/vise bokser på hele nettstedet? Denne egenskap bruker javascript og informasjonskapsler for å huske tilstanden til hver boks, og påvirker kun brukerens eget skjermbilde.';
 $string['configallowusermailcharset'] = 'Hvis du tillater dette, vil alle brukere på nettstedet kunne spesifisere sitt eget karaktersett for bruk i epost.';
+$string['configallowuserswitchrolestheycantassign'] = 'Som standard kreves det moodle/role:assign for at brukere skal få bytte roller i et kurs. Aktiverer du denne fravikes dette kravet og listeboksen for bytte av rolle vises. Vi anbefaler at \"Tillat å tildele roller\" ikke settes slik at en bruker kan skifte til en overordnet rolle med flere rettigheter enn de allerede har.';
 $string['configallowuserthemes'] = 'Hvis du tillater dette, kan brukerne velge sitt eget tema (utseende). Brukertema overstyrer nettstedstema (men ikke klassetema).';
 $string['configallusersaresitestudents'] = 'Skal alle brukere betraktes som studenter i forhold til aktiviteter på forsiden til nettstedet? Hvis du svarer \'JA\', vil alle aksepterte brukerkonti tillates å delta som student i disse aktivitetene. Hvis du svarer \'NEI\', kan bare brukere som allerede er deltagere i minst ett kurs delta i disse aktiviteter. Kun administratorer og spesielt tilordnede lærere kan fungere som lærere for disse forsideaktivitetene.';
 $string['configauthenticationplugins'] = 'Vennligst velg autentiseringsmetoder du vil bruke i stigende rekkefølge. Egenregistrering vil skje via metoden valgt under \"Registering\" (vanligvis e-post).';
@@ -398,6 +400,7 @@ $string['frontpagerestore'] = 'Hovedside restore';
 $string['frontpageroles'] = 'Hovedside roller';
 $string['frontpagesettings'] = 'Hovedside innstillinger';
 $string['fullnamedisplay'] = 'Format på fullt navn';
+$string['gdrecommended'] = 'GD-tillegget brukes for bildekonvertering, noen funksjoner som brukeres profilbilder vil ikke være tilgjengelige eller mangle helt.';
 $string['gdversion'] = 'GD-versjon';
 $string['generalsettings'] = 'Generelle innstillinger';
 $string['geoipfile'] = 'GeoIP Bydatafil';
@@ -428,6 +431,7 @@ $string['htmlsettings'] = 'HTML-innstillinger';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP sikkerhet';
 $string['iconvrecommended'] = 'Installering av ICONV-biblioteket er sterkt anbefalt for å forbedre ytelsen, spesielt hvis siten din støtter ikke-latinske språk.';
+$string['ignore'] = 'Ignorér';
 $string['importlangreminder'] = 'Databasemigrasjonen starter nå. Du blir nødt til å <b>legge inn på nytt/b> for at oppgraderingen skal aktiviseres. Vennligst innstaller Unicode-språkpakker fra moodle.org (via språk i admin-menyen), straks migrasjonsprosessen er ferdig.';
 $string['importtimezones'] = 'Oppdater komplett liste med tidssoner';
 $string['importtimezonescount'] = '$a->count innlegg importert fra $a->source';
@@ -691,6 +695,7 @@ $string['smtphosts'] = 'SMTP-server';
 $string['smtpmaxbulk'] = 'SMTP sesjongrense';
 $string['smtppass'] = 'SMTP passord';
 $string['smtpuser'] = 'SMTP  brukernavn';
+$string['spamcleaner'] = 'Søppelfilter';
 $string['stats'] = 'Statistikk';
 $string['statscatdepth'] = 'Maksimum overkategorier';
 $string['statsfirstrun'] = 'Maks tid for statistikk-kjøring';
@@ -760,6 +765,7 @@ $string['uploaduserspreview'] = 'Last opp brukernes forhåndsvisning.';
 $string['uploadusersresult'] = 'Last opp brukerresultater';
 $string['upwards'] = 'oppover';
 $string['usehtmleditor'] = 'Bruk HTML-editor';
+$string['user'] = 'Bruker';
 $string['useraccountupdated'] = 'Oppdaterte bruker';
 $string['userbulk'] = 'Massehandlinger med brukere';
 $string['userdeleted'] = 'Bruker slettet';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // auth.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -228,6 +228,8 @@ $string['auth_nonetitle'] = 'Ingen autentisering';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'Sett til ja for å forsøke Single Sign On på NTLM domene. <strong>Merk:</strong> dette krever tilleggsinnstillinger på webserveren for å virke, se <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Slå på';
+$string['auth_ntlmsso_ie_fastpath'] = 'Settes til JA for å aktivere NTLM SSO snarvei som går utenom noen trinn og BARE virker med MS Internet Explorer';
+$string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE snarvei?';
 $string['auth_ntlmsso_subnet'] = 'Hvis påslått, vil en bare forsøke SSO med klienter i dette subnettet. Format xxx.xxx.xxx.xxx/bitmaske';
 $string['auth_ntlmsso_subnet_key'] = 'Subnet';
 $string['auth_outofnewemailupdateattempts'] = 'Du har nå forsøkt endre e-postadressen for mange ganger. Oppdateringen er derfor avbrutt.';
@@ -267,12 +269,20 @@ $string['auth_remove_keep'] = 'Behold internt';
 $string['auth_remove_suspend'] = 'Fjern internt';
 $string['auth_remove_user'] = 'Angi hva du vil gjøre med intern brukerkonto ved massesynkronisering når brukeren slettes fra ekstern kilde. Bare utestengte brukere gjenåpnes automatisk hvis de gjenoppstår i ekstern kilde.';
 $string['auth_remove_user_key'] = 'Fjernet fjernbruker';
+$string['auth_shib_auth_method'] = 'Navn på autentiseringsmetode';
+$string['auth_shib_auth_method_description'] = 'Benytt et mer forståelig navn for Shibboleth autentisering. Dette kan f.eks. være navnet på organisasjonen din. Eks: <tt>Skolen login</tt> eller <tt>Bedriften as Login</tt> eller lignende.';
 $string['auth_shib_changepasswordurl'] = 'URL for passordskifte';
 $string['auth_shib_convert_data'] = 'DatamodifikasjonsAPI';
 $string['auth_shib_convert_data_description'] = 'Du kan bruke denne API\'en for å ytterligere modifisere data en har fått via Shibbolet. Les <a href=\"../auth/shibboleth/README.txt\">README</a> for mere instruksjoner.';
 $string['auth_shib_convert_data_warning'] = 'Filen eksisterer ikke eller ikke lesbar for webserverprosessen';
+$string['auth_shib_idp_list'] = 'Identitetstilbydere';
+$string['auth_shib_idp_list_description'] = 'Provide a list of Identity Provider entityIDs to let the user choose from on the login page.<br>On each line there must be a comma-separated tuple for entityID of the IdP (see the Shibboleth metadata file) and Name of IdP as it shall be displayed in the drow-down list.<br>As an optional third parameter you can add the location of a Shibboleth session initiator that shall be used in case your Moodle installation is part of a multi federation setup.';
 $string['auth_shib_instructions'] = 'Bruk <a href=\"$a\">Shibboleth login</a> for å få tilgang via Shibbolet, hvis institusjonen din støtter dette<br />Hvis ikke bruk den vanlige innloggingen her.';
 $string['auth_shib_instructions_help'] = 'Her kan du legge din egen instruks for brukere hvordan å bruke Shibboleth. Den vil vises på login siden i instruksdelen. Instruksjonen må inkludere en lenke til \"<b>$a</b>\" som brukere klikker hvis de vil logge inn.';
+$string['auth_shib_integrated_wayf'] = 'Endre WAYF-tjenesten';
+$string['auth_shib_integrated_wayf_description'] = 'Dersom du merker av her, vil Moodle bruke sin egen WAYF-tjeneste i stedet for den som er satt opp for Shibboleth. Moodle vil vise en listemeny på denne alternative login-siden hvor brukeren kan velge sin Identitetstilbyder.';
+$string['auth_shib_logout_url'] = 'Shibboleth tjenesten-URL ved utlogging';
+$string['auth_shib_logout_url_description'] = 'Tilby URL-en til Shibboleth tjenesten som håndterer utlogging. Dette er vanligvis <tt>/Shibboleth.sso/Logout</tt>';
 $string['auth_shib_no_organizations_warning'] = 'Hvis du vil bruke den integrerte WAYF tjenesten, må du velge en kommaseparert liste av tilbyderes entityIDer, navn og eventuelt en sesjonsinitiator.';
 $string['auth_shib_only'] = 'Bare Shibboleth';
 $string['auth_shib_only_description'] = 'Kryss av denne hvis Shibbolethautentisering SKAL gjennomføres.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // error.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
@@ -51,6 +51,7 @@ $string['groupunknown'] = 'Gruppe $a er ikke tilordnet spesifisert klasse';
 $string['guestnoeditprofile'] = 'En gjest kan ikke editere profilen sin';
 $string['guestnoeditprofileother'] = 'Gjesteprofilen kan ikke editeres';
 $string['guestsarenotallowed'] = 'Gjestebrukere har ikke lov til å gjøre dette';
+$string['invalidadminsettingname'] = 'Ugyldig admin-innstilling ($a)';
 $string['invalidcontext'] = 'Ugyldig kontekst';
 $string['invalidcourse'] = 'Ugyldig kurs';
 $string['invalidcourseid'] = 'Du prøver å bruke en ugyldig kurs-ID ($a)';

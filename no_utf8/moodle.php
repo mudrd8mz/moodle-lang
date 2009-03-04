@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // moodle.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -150,6 +150,7 @@ $string['backupexecuteathelp'] = 'Angi når automatisk sikkerhetskopiering skal 
 $string['backupfailed'] = 'Noen av kursene dine ble ikke lagret.';
 $string['backupfilename'] = 'Sikkerhetskopi';
 $string['backupfinished'] = 'Sikkerhetskopiering fullført';
+$string['backupfromthissite'] = 'Ble denne sikkerhetskopien tatt på denne portalen?';
 $string['backupgradebookhistoryhelp'] = 'Dersom aktivert vil karakterhistorien tas med i automatiske sikkerhetskopier. Merk at karakterhistorie må være aktivert i serverinnstillingene for at dette skal fungere.';
 $string['backupincludemoduleshelp'] = 'Velg om du vil inkludere kursmoduler (med eller uten brukerdata) i automatiske sikkerhetskopier';
 $string['backupincludemoduleuserdatahelp'] = 'Velg om du ønsker at modulenes brukerdata skal være med i sikkerhetskopiene.';
@@ -280,6 +281,14 @@ $string['coursefiles'] = 'Kursfiler';
 $string['courseformatdata'] = 'Kursformat data';
 $string['courseformats'] = 'Kursformat';
 $string['coursegrades'] = 'Kurskarakterer';
+$string['coursehelpcategory'] = 'Plasser kurset i kursoversikten og gjør det enklere for brukerne å finne det.';
+$string['coursehelpformat'] = 'Kursets hovedside vil vises i dette formatet.';
+$string['coursehelphiddensections'] = 'Hvordan skjulte deler av kurset vises for studentene.';
+$string['coursehelpmaximumupload'] = 'Angi største filstørrelse som kan lastes opp av en student i dette kurset. Filstørrelsen er begrenset av de globale innstillingene.';
+$string['coursehelpmetacourse'] = 'Angi at kurset skal være et metakurs. Metakurs tar imot påmeldinger både fra brukere og andre kurs.';
+$string['coursehelpnewsitemsnumber'] = 'Antall nyheter som skal vises på kursets hovedside. Settes til \"0\" hvis du ikke vil vise boksen når du lager nye kurs.';
+$string['coursehelpnumberweeks'] = 'Antall uker/emner som skal være standard ved opprettelse av nye kurs.';
+$string['coursehelpshowgrades'] = 'Aktiverer visning av karakterboka. Hindrer ikke at karakterer vises i de enkelte aktivitetene.';
 $string['coursehidden'] = 'Dette kurset er for tiden ikke tilgjengelig for studenter';
 $string['courseimportnotaught'] = 'Det ser ikke ut til at du er lærer med redigeringsrettigheter i noen andre kurs, så det finnes ingen kurs du kan hente inn data fra.';
 $string['courseinfo'] = 'Kursinformasjon';
@@ -306,6 +315,7 @@ $string['courserequestsupport'] = 'Utfyllende informasjon for å hjelpe administ
 $string['courserestore'] = 'Gjenopprett kurs';
 $string['courses'] = 'Kurs';
 $string['coursescategory'] = 'Kurs i samme kategori';
+$string['coursesettings'] = 'Standard kursinnstillinger';
 $string['coursesmovedout'] = 'Kursene ble flyttet fra $a';
 $string['coursespending'] = 'Kurs som venter på godkjenning';
 $string['coursestaught'] = 'Kurs jeg har undervist i';
@@ -1220,6 +1230,7 @@ $string['scalescustomno'] = 'Ingen egendefinerte skalaer er laget enda';
 $string['scalesstandard'] = 'Standardskalaer';
 $string['scalestandard'] = 'Standard skala';
 $string['scalestip'] = 'Bruk Skala-lenken i kursets administrasjonsmeny for å lage egne karakterskalaer.';
+$string['scalestip2'] = 'Du oppretter egne karakterskaler slik: Administrasjon > Karakterer og velg Endre skalaer.';
 $string['schedule'] = 'Planlegg';
 $string['scheduledbackupsinactive'] = 'Planlagte sikkerhetskopier har ikke blitt slått på av nettstedsadministrator.';
 $string['scheduledbackupstatus'] = 'Planlagt status for sikkerhetskopiering';
