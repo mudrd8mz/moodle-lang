@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090303) (2009030300)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -35,11 +35,10 @@ $string['cannotadd'] = 'La discussione non può essere aggiunta in questo forum'
 $string['cannotadddiscussion'] = 'Aggiungere discussioni a questo forum richiede l\'appartenenza a un gruppo.';
 $string['cannotadddiscussionall'] = 'Non hai il permesso per aggiungere un nuovo argomento di discussione per tutti i partecipanti.';
 $string['cannotaddsubscriber'] = 'Non è stato possibile iscrivere a questo forum l\'utente con id $a!';
-$string['cannotcreatediscussion'] = 'Una nuova discussione non può essere creata';
+$string['cannotcreatediscussion'] = 'Non è stato possibile creare una nuova discussione';
 $string['cannotdeleteforummodule'] = 'Il modulo di attività forum non può essere cancellato.';
 $string['cannotdeletepost'] = 'Questo intervento non può essere eliminato!';
 $string['cannoteditposts'] = 'Interventi di altri non possono essere modificati!';
-$string['cannotfinddisscussion'] = 'Non è stato possibile trovare la discussione in questo forum';
 $string['cannotfindfirstpost'] = 'Non è stato possibile trovare il primo intervento di questo forum';
 $string['cannotfindorcreateforum'] = 'Non è stato possibile trovare o creare un forum news per il sito';
 $string['cannotfindparentpost'] = 'Non è stato possibile trovare l\'intervento iniziale associato all\'intervento $a';
@@ -254,9 +253,9 @@ $string['postincontext'] = 'Mostra questo intervento nel contesto';
 $string['postmailinfo'] = 'Questa è la copia di un intervento effettuato su $a .
 Per replicare via internet, clicca su questo link:';
 $string['postmailnow'] = '<p>Questo intervento sarà inviato via mail immediatamente a tutti gli iscritti al forum.</p>';
-$string['postrating1'] = 'Conoscenza prevalentemente isolata';
-$string['postrating2'] = 'Conoscenza sia isolata che collegata';
-$string['postrating3'] = 'Conoscenza prevalentemente collegata';
+$string['postrating1'] = 'Apprendimento prevalentemente separato';
+$string['postrating2'] = 'Apprendimento sia separato che collegato';
+$string['postrating3'] = 'Apprendimento prevalentemente collegato';
 $string['posts'] = 'Interventi';
 $string['posttoforum'] = 'Invia al forum';
 $string['postupdated'] = 'Il tuo intervento è stato aggiornato';
@@ -353,6 +352,7 @@ $string['youratedthis'] = 'Lo hai già valutato';
 $string['yournewquestion'] = 'La tua nuova domanda';
 $string['yournewtopic'] = 'Il tuo nuovo argomento di discussione';
 $string['yourreply'] = 'La tua replica';
+$string['cannotfinddisscussion'] = 'Non è stato possibile trovare la discussione in questo forum'; // ORPHANED
 $string['nopostdiscussion'] = 'Spiacente, non puoi scrivere in questa discussione'; // ORPHANED
 
 ?>
