@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.2+ (Build: 20080924) (2007101522)
+      // forum.php - created with Moodle 1.9.4 (Build: 20090128) (2007101540)
 
 
 $string['addanewdiscussion'] = 'Pievienot jaunu diskusijas tēmu';
@@ -13,6 +13,7 @@ $string['aggregatemin'] = 'Minimālais reitings';
 $string['aggregatenone'] = 'Nav reitingu';
 $string['aggregatesum'] = 'Reitingu summa';
 $string['aggregatetype'] = 'Vidējošanas tips';
+$string['ajaxrating'] = 'Ieslēgt AJAX reitingus';
 $string['allforums'] = 'Visi forumi';
 $string['allowchoice'] = 'Atļaut ikvienam izvēlēties';
 $string['allowdiscussions'] = 'Vai $a drīkst publicēt ziņas šajā forumā?';
@@ -26,11 +27,12 @@ $string['attachment'] = 'Pielikums';
 $string['blockafter'] = 'Ziņu publicēšanas bloķēšanas slieksnis';
 $string['blockperiod'] = 'Bloķēšanas laika periods';
 $string['blockperioddisabled'] = 'Nebloķēt';
-$string['bynameondate'] = 'pēc $a->name — $a->date';
+$string['bynameondate'] = 'nosūtīja $a->name — $a->date';
 $string['cannotadddiscussion'] = 'Lai šim forumam pievienotu diskusijas, jābūt iekļautam grupā.';
 $string['cannotadddiscussionall'] = 'Jums nav atļauts pievienot jaunu diskusiju tēmu visiem dalībniekiem.';
 $string['cannotviewpostyet'] = 'Jūs šajā diskusijā vēl nevarat lasīt citu studentu jautājumus, jo neesat neko publicējis.';
 $string['cleanreadtime'] = 'Veco ziņojumu atzīmēšanas kā lasītus stunda';
+$string['configajaxrating'] = 'AJAX reitingi ir forumu reitingu lietojamības uzlabojums. Ja ieslēgts, lietotāji var vērtēt forumu ziņojumus gandrīz momentāni bez nepieciešamības ritināt līdz lapas apakšai un klikšķināt \"Iesūtīt manus jaunākos novērtējumus\". Lai šis iestatījums darbotos, ir jābūt ieslēgtam vietnes un lietotāju profilu  AJAX atbalstam.';
 $string['configcleanreadtime'] = 'Dienas stunda, kad lasīšanas tabulā notīrīt vecās publicētās ziņas.';
 $string['configdisplaymode'] = 'Noklusējuma diskusiju rādīšanas režīms, ja režīms nav iestatīts.';
 $string['configenablerssfeeds'] = 'Šis slēdzis ļaus visiem forumiem izmantot RSS plūsmas. Tomēr katra foruma iestatījumos plūsmas joprojām būs jāieslēdz manuāli.';
@@ -74,7 +76,7 @@ $string['displayperiod'] = 'Rādīšanas periods';
 $string['displaystart'] = 'Rādīšanas sākums';
 $string['eachuserforum'] = 'Katra persona publicē vienu diskusiju';
 $string['edit'] = 'Rediģēt';
-$string['editedby'] = 'Rediģēts pēc $a->name — sākotnējā iesniegšana $a->date';
+$string['editedby'] = 'Rediģējis/usi $a->name — sākotnējā iesniegšana $a->date';
 $string['editing'] = 'Rediģēšana';
 $string['emptymessage'] = 'Kaut kas nav kārtībā ar jūsu publicēto ziņu. Iespējams, atstājāt to tukšu vai arī tai ir pārāk liels pielikums. Jūsu veiktās izmaiņas NETIKA saglabātas.';
 $string['everyonecanchoose'] = 'Ikviens var izvēlēties kļūt par abonentu';
@@ -123,6 +125,7 @@ $string['inforum'] = 'forumā $a';
 $string['intronews'] = 'Vispārēji jaunumi un paziņojumi';
 $string['introsocial'] = 'Atvērt forumu tērzēšanai par visu ko';
 $string['introteacher'] = 'Forums tikai pasniedzēju piezīmēm un diskusijām';
+$string['invalidrate'] = 'Nederīgs novērtējums ($a)';
 $string['lastpost'] = 'Pēdējā publicētā ziņa';
 $string['learningforums'] = 'Apmācības forumi';
 $string['logblocked'] = 'Rakstīt žurnālā bloķētos e-pastus';
