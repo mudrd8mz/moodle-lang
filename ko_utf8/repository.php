@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090305) (2009030501)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -17,6 +17,7 @@ $string['attachment'] = '첨부';
 $string['back'] = '&lt; 뒤로';
 $string['cachecleared'] = '임시파일 제거됨';
 $string['cacheexpire'] = '캐쉬 기한만료';
+$string['cannotinitplugin'] = 'plugin_init 호출 실패';
 $string['cleancache'] = '내 임시파일 정리';
 $string['clicktohide'] = '감추려면 클릭';
 $string['clicktoshow'] = '보이게 하려면 클릭';
@@ -84,6 +85,7 @@ $string['saving'] = '저장 중';
 $string['search'] = '검색';
 $string['searching'] = '무엇을 찾을까요?';
 $string['settings'] = '설정';
+$string['setupdefaultplugins'] = '기본 저장소 플러그인 설정';
 $string['siteinstances'] = '사이트 저장 인스턴스';
 $string['size'] = '크기';
 $string['submit'] = '제출';
