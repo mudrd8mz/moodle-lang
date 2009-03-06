@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090303) (2009030300)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090304) (2009030300)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -8,11 +8,13 @@ $string['addanewtopic'] = 'Aggiungi nuovo argomento';
 $string['advancedsearch'] = 'Ricerca avanzata';
 $string['aggregateavg'] = 'Media dei voti';
 $string['aggregatecount'] = 'Numero di voti';
+$string['aggregatecountformat'] = '$a->count (voto: $a->grade)';
 $string['aggregatemax'] = 'Voto massimo';
 $string['aggregatemin'] = 'Voto minimo';
 $string['aggregatenone'] = 'Non aggregare i voti';
 $string['aggregatesum'] = 'Somma dei voti';
 $string['aggregatetype'] = 'Aggregazione dei voti';
+$string['ajaxrating'] = 'Abilita valutazioni AJAX';
 $string['allforums'] = 'Tutti i forum';
 $string['allowchoice'] = 'Permetti a ognuno di scegliere';
 $string['allowdiscussions'] = 'Possibilità di un(o) $a di scrivere in questo forum';
@@ -35,10 +37,13 @@ $string['cannotadd'] = 'La discussione non può essere aggiunta in questo forum'
 $string['cannotadddiscussion'] = 'Aggiungere discussioni a questo forum richiede l\'appartenenza a un gruppo.';
 $string['cannotadddiscussionall'] = 'Non hai il permesso per aggiungere un nuovo argomento di discussione per tutti i partecipanti.';
 $string['cannotaddsubscriber'] = 'Non è stato possibile iscrivere a questo forum l\'utente con id $a!';
+$string['cannotconvertteachertogeneral'] = 'Non è stato possibile cambiare il tipo di forum da docenti a generale';
 $string['cannotcreatediscussion'] = 'Non è stato possibile creare una nuova discussione';
+$string['cannotcreateinstanceforteacher'] = 'Non è stato possibile creare una nuova istanza del forum docenti';
 $string['cannotdeleteforummodule'] = 'Il modulo di attività forum non può essere cancellato.';
 $string['cannotdeletepost'] = 'Questo intervento non può essere eliminato!';
 $string['cannoteditposts'] = 'Interventi di altri non possono essere modificati!';
+$string['cannotfinddiscussion'] = 'Non è stato possibile trovare la discussione in questo forum';
 $string['cannotfindfirstpost'] = 'Non è stato possibile trovare il primo intervento di questo forum';
 $string['cannotfindorcreateforum'] = 'Non è stato possibile trovare o creare un forum news per il sito';
 $string['cannotfindparentpost'] = 'Non è stato possibile trovare l\'intervento iniziale associato all\'intervento $a';
