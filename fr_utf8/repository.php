@@ -85,6 +85,7 @@ $string['saving'] = 'En cours d\'enregistrement';
 $string['search'] = 'Recherche ';
 $string['searching'] = 'Rechercher dans';
 $string['settings'] = 'Réglages';
+$string['setupdefaultplugins'] = 'Mise en place des plugins de dépôt par défaut';
 $string['siteinstances'] = 'Instances de dépôts du site';
 $string['size'] = 'Taille';
 $string['submit'] = 'Envoyer';
