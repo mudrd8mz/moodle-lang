@@ -18,6 +18,7 @@ $string['attachment'] = 'Annexe';
 $string['back'] = '&lt; Retour';
 $string['cachecleared'] = 'Les fichiers en cache ont été supprimés';
 $string['cacheexpire'] = 'Échéance du cache';
+$string['cannotinitplugin'] = 'Échec de l\'initialisation du plugin';
 $string['cleancache'] = 'Nettoyer les fichiers en cache';
 $string['clicktohide'] = 'Cliquer ici pour cacher';
 $string['clicktoshow'] = 'Cliquer ici pour afficher';
