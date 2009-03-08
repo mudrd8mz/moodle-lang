@@ -1361,6 +1361,7 @@ $string['showrecent'] = 'Afficher les événements récents';
 $string['showreports'] = 'Afficher les rapports d\'activités';
 $string['showsettings'] = 'Afficher les réglages';
 $string['showtheselogs'] = 'Afficher cet historique';
+$string['showthishelpinlanguage'] = 'Afficher cette aide dans la langue&nbsp;: $a';
 $string['showtopicfromothers'] = 'Afficher le thème pour les autres';
 $string['showweekfromothers'] = 'Afficher la semaine pour les autres';
 $string['since'] = 'Depuis';
