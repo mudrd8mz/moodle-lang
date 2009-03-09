@@ -1,6 +1,6 @@
-<?php // author: Shamim Rezaie
+<?php // $Id$
+      // author: Shamim Rezaie, http://rezaie.info
       // lesson.php - created with Moodle 1.7 beta + (2006101003)
-
 $string['accesscontrol'] = 'کنترل دستیابی';
 $string['actionaftercorrectanswer'] = 'رفتار پس از پاسخ صحیح';
 $string['actions'] = 'اقدامات';
@@ -50,7 +50,7 @@ $string['completed'] = 'تکمیل';
 $string['completederror'] = 'مبحث درس را به پایان برسانید';
 $string['completethefollowingconditions'] = 'قبل از شروع این مبحث درسی، باید شرایط زیر را در مبحث درسی <b>$a</b> احراز نمائید.';
 $string['conditionsfordependency'] = 'شرایط وابستگی';
-$string['confirmdeletionofthispage'] = 'تأیید حذف این صفحه';
+$string['confirmdeletionofthispage'] = 'تایید حذف این صفحه';
 $string['congratulations'] = 'تبریک - به انتهای مبحث درسی رسیدید';
 $string['continue'] = 'ادامه';
 $string['continuetoanswer'] = 'ادامهٔ تغییر دادن پاسخ‌ها.';
@@ -73,7 +73,7 @@ $string['didnotreceivecredit'] = 'اعتبار دریافت نکرد';
 $string['displaydefaultfeedback'] = 'نمایش واکنش پیش‌فرض';
 $string['displayhighscores'] = 'نمایش نمرات برتر';
 $string['displayinleftmenu'] = 'نمایش در منوی سمت راست';
-$string['displayleftif'] = 'و فقط در صورتی که $a نمرهٔ بهتر از این مقدار بگیرد:';
+$string['displayleftif'] = 'نمایش منوی سمت راست فقط در صورتی که نمره بالاتر از این مقدار باشد:';
 $string['displayleftmenu'] = 'نمایش منوی سمت راست';
 $string['displayofgrade'] = 'نمایش نمره (مختص شاگردان)';
 $string['displayreview'] = 'نمایش دکمهٔ مرور';
@@ -168,7 +168,7 @@ $string['movepagehere'] = 'انتقال صفحه به اینجا';
 $string['moving'] = 'در حال انتقال صفحهٔ: $a';
 $string['multianswer'] = 'چند پاسخی';
 $string['multipleanswer'] = 'چند پاسخی';
-$string['nameapproved'] = 'نام تأیید شد';
+$string['nameapproved'] = 'نام تایید شد';
 $string['namereject'] = 'متأسفانه نام شما توسط فیلتر پذیرفته نشد.<br />لطفاً نام دیگری انتخاب نمائید.';
 $string['nextpage'] = 'صفحهٔ بعد';
 $string['noanswer'] = 'پاسخی داده نشد. لطفاً بازگردید و پاسخی را ارائه نمائید.';
@@ -181,7 +181,7 @@ $string['nodeadline'] = '-';
 $string['noessayquestionsfound'] = 'هیچ سؤال تشریحی در این مبحث درسی وجود ندارد';
 $string['nohighscores'] = 'هیچ نمرهٔ خوبی وجود ندارد';
 $string['nolessonattempts'] = 'هیچ تلاشی در این مبحث درسی صورت نگرفته است.';
-$string['nooneansweredcorrectly'] = 'No one answered correctly.';
+$string['nooneansweredcorrectly'] = 'کسی پاسخ صحیح نداد.';
 $string['nooneansweredthisquestion'] = 'کسی به این سؤال پاسخ نداده است.';
 $string['noonecheckedthis'] = 'هیچ کس این گزینه را انتخاب نکرده است.';
 $string['nooneenteredthis'] = 'کسی وارد این قسمت نشده است.';
@@ -196,6 +196,7 @@ $string['numberofcorrectanswers'] = 'تعداد پاسخ‌های صحیح: $a';
 $string['numberofcorrectmatches'] = 'تعداد رابطه‌های صحیح: $a';
 $string['numberofpagestoshow'] = 'تعداد صفحه‌ها (کارت‌ها) جهت نمایش';
 $string['numberofpagesviewed'] = 'تعداد سؤال‌هایی که پاسخ داده‌اید: $a';
+$string['numberofpagesviewednotice'] = 'تعداد سؤال‌هایی که پاسخ داده‌اید: {$a->nquestions}؛ (حداقل باید به $a->minquestions سؤال پاسخ دهید)';
 $string['ongoing'] = 'نمایش نمره درحال شرکت';
 $string['ongoingcustom'] = 'تا الان $a->score نمره از $a->currenthigh بدست آورده‌اید.';
 $string['ongoingnormal'] = 'به $a->correct سؤال از $a->viewed سؤال پاسخ صحیح داده‌اید.';
