@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['1day'] = '1 Tag';
@@ -11,6 +11,8 @@ $string['acceptederror'] = 'Akzeptierter Fehler';
 $string['accessnoticesheader'] = 'Sie können diesen Test in der Vorschau ansehen. Wäre dies ein realer Versuch, würde dies abgeblockt, weil:';
 $string['action'] = 'Aktion';
 $string['adaptive'] = 'Adaptiver Modus';
+$string['addaquestion'] = 'Eine Frage hinzufügen...';
+$string['addarandomquestion'] = 'Eine Zufalls-Frage hinzufügen...';
 $string['addcategory'] = 'Kategorie hinzufügen';
 $string['adddescriptionlabel'] = 'Text oder Überschrift hinzufügen';
 $string['addingcalculated'] = 'Berechnungsfrage hinzufügen';
@@ -188,6 +190,7 @@ $string['createcategoryfornewrandomquestion'] = 'Erstellt eine Fragenkategorie f
 $string['createfirst'] = 'Sie müssen zuerst einige Kurzantwort-Fragen anlegen.';
 $string['createmultiple'] = 'Mehrere Fragen erstellen';
 $string['createnewquestion'] = 'Eine neue Frage anlegen';
+$string['createquestionandadd'] = 'Eine neue Frage erstellen und zum Test hinzufügen.';
 $string['custom'] = 'Eigenes Format';
 $string['dataitemneed'] = 'Sie müssen einen Datensatz hinzufügen, um eine gültige Frage zu erzeugen.';
 $string['datasetdefinitions'] = 'Wiederverwendbare Datensatzdefinitionen für Kategorie $a';
@@ -551,10 +554,13 @@ $string['quiztimer'] = 'Test-Zeitnahme';
 $string['quizwillopen'] = 'Dieser Test wird geöffnet: $a';
 $string['random'] = 'Zufallsfrage';
 $string['randomcreate'] = 'Zufallsfragen erstellen';
+$string['randomfromcategory'] = 'Zufallsfrage aus der Kategorie:';
+$string['randomnosubcat'] = 'Fragen nur aus dieser Kategorie, nicht aus deren Unterkategorien.';
 $string['randomsamatch'] = 'Zufällige Kurzantwort-Zuordnung';
 $string['randomsamatchcreate'] = 'Zufällige Kurzantwort-Zuordnungsfragen erzeugen';
 $string['randomsamatchintro'] = 'Wählen Sie für jede der folgenden Fragen die passende Antwort aus dem Menü aus.';
 $string['randomsamatchnumber'] = 'Anzahl auszuwählender Fragen';
+$string['randomwithsubcat'] = 'Fragen aus dieser Kategorie und aus deren Unterkategorien.';
 $string['readytosend'] = 'Sie sind dabei, Ihren Test zur Bewertung abzuschicken. Sind Sie sicher, dass Sie fortfahren wollen?';
 $string['reattemptquiz'] = 'Test wiederholen';
 $string['recentlyaddedquestion'] = 'Kürzlich hinzugefügte Frage!';
@@ -724,7 +730,6 @@ $string['withselected'] = 'Ausgewählt';
 $string['withsummary'] = 'mit zusammenfassender Statistik';
 $string['wronggrade'] = 'Falsche Bewertung (nach Zeile $a):';
 $string['wronguse'] = 'Sie können diese Seite nicht auf diese Art verwenden.';
-$string['xfromcategory'] = '$a aus der Kategorie:';
 $string['xhtml'] = 'XHTML Format';
 $string['xml'] = 'Moodle-XML Format';
 $string['xmlimportnoname'] = 'Fehlender Fragenname in der XML-Datei';
@@ -735,6 +740,7 @@ $string['youmustwait'] = 'Sie müssen abwarten, bevor Sie eine Wiederholung für
 $string['youneedtoenrol'] = 'Sie können den Test nur durchführen, wenn Sie in diesem Kurs als Teilnehmer/in eingetragen sind.';
 $string['yourfinalgradeis'] = 'Ihre Gesamtbewertung für diesen Test: $a';
 $string['zerosignificantfiguresnotallowed'] = 'Die richtige Antwort muss mindestens eine signifikante Ziffer haben!';
+$string['xfromcategory'] = '$a aus der Kategorie:'; // ORPHANED
 $string['areyousuredeleteselected'] = 'Sind Sie sicher, dass Sie die ausgewählten Fragen löschen möchten?'; // ORPHANED
 $string['blackboard_6'] = 'Blackboard V6+'; // ORPHANED
 $string['qti2'] = 'IMS-QTI-2.0'; // ORPHANED

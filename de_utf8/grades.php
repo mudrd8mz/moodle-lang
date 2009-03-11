@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['activities'] = 'Aktivitäten';
@@ -82,6 +82,7 @@ $string['configdisablegradehistory'] = 'Mit dieser Einstellung schalten Sie die 
 $string['configenableajax'] = 'AJAX-Funktionalität für die Bewerterübersicht bereitstellen, um allgemeine Operationen zu vereinfachen und zu beschleunigen. AJAX arbeitet mit JavaScript, das deswegen anwenderseits im Webbrowser aktiviert sein muss.';
 $string['configenableoutcomes'] = 'Unterstützung für Lernziele (auch bekannt als Lernkompetenzen, -ergebnisse, -standards, -kriterien) meint, dass wir Dinge bewerten können, indem wir eine oder mehrere Skalen benutzen. Die Aktivierung der Lernziele macht eine solche Bewertung auf der gesamten Website möglich.';
 $string['configexportdecimalpoints'] = 'Zahl der angezeigten Dezimalstellen bei Export. Diese Einstellung kann durch Definition im Export überschrieben werden.';
+$string['configfixedstudents'] = 'Feste Breite der Spalten, dadurch horizontales Scrollen.';
 $string['configgradeboundary'] = 'Prozentgrenze, oberhalb der die Bewertungen einer Notenstufe zugewiesen werden (falls die Darstellungsart Notenstufe verwendet wird).';
 $string['configgradedisplaytype'] = 'Bewertungen können als Punkte, als Prozente (in Bezug auf die minimale und maximale Bewertung) oder als Notenstufe (A, B, C, sehr gut, gut, usw.) dargestellt werden.';
 $string['configgradeexportdisplaytype'] = 'Bewertungen können als Note, Prozentwert (in Relation zur niedrigsten/höchsten Note) oder als Notenstufe (A,B,C, sehr gut, gut) beim Export gesetzt werden. Beim Export erfolgt dann  ein Überschreiben der vorliegenden Werte.';
@@ -194,6 +195,7 @@ $string['feedbacksaved'] = 'Feedback gespeichert';
 $string['feedbackview'] = 'Feedback ansehen';
 $string['finalgrade'] = 'Endbewertung';
 $string['finalgradehelp'] = 'Endbewertung, nachdem alle Berechnungen durchgeführt wurden.';
+$string['fixedstudents'] = 'Feste Spaltenbreite';
 $string['forceoff'] = 'Festgelegt: Aus';
 $string['forceon'] = 'Festgelegt: An';
 $string['forelementtypes'] = 'für die ausgewählten $a';

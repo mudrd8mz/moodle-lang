@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // question.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['adminreport'] = 'Bericht zu möglichen Problemen mit Ihrer Fragen-Datenbank';
+$string['availableq'] = 'Verfügbar?';
 $string['badbase'] = 'Schlechter Bezug vor **: $a**';
 $string['broken'] = 'Dies ist ein ungültiger Link, der auf eine nicht existierende Datei zeigt.';
 $string['byandon'] = 'von <em>$a->user</em> - <em>$a->time</em>';
@@ -12,6 +13,7 @@ $string['cannotcreatedataset'] = 'Der Datensatz $a kann nicht angelegt werden';
 $string['cannotcreatepath'] = 'Pfad $a konnte nicht erstellt werden';
 $string['cannotcreaterelation'] = 'Eine Verbindung zum den Datensatz $a[0] $a[1] kann nicht angelegt werden';
 $string['cannotdeletecate'] = 'Kategorie konnte nicht gelöscht werden, weil sie für diesen Kontext die Standardkategorie darstellt.';
+$string['cannotenable'] = 'Fragentyp $a kann nicht direkt erstellt werden.';
 $string['cannotfindcate'] = 'Kategoriedaten konnten nicht gefunden werden';
 $string['cannotfindquestionfile'] = 'Die Fragendaten konnten nicht in der ZIP-Datei gefunden werden';
 $string['cannotgetdsfordependent'] = 'Für diese datensetabhängige Frage kann das gewählte Datenset nicht aufgerufen werden! (Frage {$a[0]}, Datensetwert: {$a[1]})';
@@ -46,6 +48,7 @@ $string['categorycurrentuse'] = 'Diese Kategorie benutzen';
 $string['categorydoesnotexist'] = 'Diese Kategorie gibt es nicht';
 $string['categorymoveto'] = 'In der Kategorie sichern';
 $string['changepublishstatuscat'] = 'Die <a href=\"$a->caturl\">Kategorie \"$a->name\"</a> im Kurs \"$a->coursename\" wird ihren Freigabestatus von <strong>$a->changefrom nach $a->changeto</strong> ändern.';
+$string['chooseqtypetoadd'] = 'Wählen Sie einen Fragentyp, um ihn hinzuzufügen';
 $string['clicktoflag'] = 'Klicken um die Frage zu markieren';
 $string['clicktounflag'] = 'Klicken um die Frage nicht zu markieren';
 $string['contexterror'] = 'Diese Seite sollte nur angezeigt werden, wenn eine Kategorie in einen anderen Kontext verschoben wird.';
@@ -53,6 +56,7 @@ $string['copy'] = 'Aus $a kopieren und Links ändern.';
 $string['created'] = 'Erstellt';
 $string['createdby'] = 'Erstellt von';
 $string['createdmodifiedheader'] = 'Erstellt / Verändert';
+$string['createnewquestion'] = 'Neue Frage erstellen...';
 $string['cwrqpfs'] = 'Zufallsfragen, die Fragen aus der Unterkategorie auswählen.';
 $string['cwrqpfsinfo'] = '<p>Beim Update auf Moodle 1.9 werden Kategorien, in denen Fragen abgelegt wurden, unterschiedlichen Kontexten zugeordnet. Bei einigen Kategorien kann es vorkommen, dass der Status der Freigabe dabei angepasst werden muss. Dies ist in dem seltenen Fall erforderlich, dass Sie die Funktion zufällig ausgewählte Fragen verwenden und die Kategorien, in denen die Fragen liegen, auf unterschiedlichen Hierarchieebenen unterschiedliche Freigabewerte haben.</p>
 <p>In den folgenden Fragenkategorien wurde der Freigabestatus so angepasst, dass die übergeordnete Kategorie den gleichen Status erhält wie die Kategorie, in der Fragen zur Zufallsauswahl abgelegt sind. Die von dieser Änderung betroffenen Fragen können wie bisher in allen Tests weiter genutzt werden, bis sie aus den Tests entfernt werden.</p>';
@@ -60,11 +64,13 @@ $string['cwrqpfsnoprob'] = 'Es sind keine Fragekategorien von der Funktion \"Zuf
 $string['defaultfor'] = 'Standard für $a';
 $string['defaultinfofor'] = 'Standardkategorie für Fragen, die im Kontext \'$a\' freigegeben sind.';
 $string['deletecoursecategorywithquestions'] = 'In dieser Kurskategorie sind Fragen in der Testfragendatenbank hinterlegt. Wenn Sie nun fortfahren, werden diese gelöscht. Über die Testfragenverwaltung können diese  von Ihnen verschoben werden.';
+$string['disabled'] = 'deaktiviert';
 $string['disterror'] = 'Distribution $a verursacht Fehler.';
 $string['donothing'] = 'Keine Dateien kopieren oder verschieben. Keine Links ändern.';
 $string['editingcategory'] = 'Kategorie bearbeiten';
 $string['editingquestion'] = 'Frage bearbeiten';
 $string['emptyxml'] = 'Unbekannter Fehler- leere imsmanifest.xml-Datei.';
+$string['enabled'] = 'aktiv';
 $string['erroraccessingcontext'] = 'Kein Zugriff auf den Kontext';
 $string['errordeletingquestionsfromcategory'] = 'Fehler beim Löschen von Fragen in der Kategorie $a.';
 $string['errorduringpost'] = 'Fehler nach Prozessabschluss';
@@ -152,6 +158,8 @@ $string['questionsrescuedfrominfo'] = 'Diese Fragen (einige mögen verborgen sei
 $string['questiontype'] = 'Fragetyp';
 $string['questionuse'] = 'Frage in dieser Aktivität benutzen';
 $string['saveflags'] = 'Den Status der Markierungen speichern';
+$string['selectacategory'] = 'Eine Kategorie wählen:';
+$string['selectaqtypefordescription'] = 'Wählen Sie einen Fragetypus um seine Beschreibung zu sehen.';
 $string['selectquestionsforbulk'] = 'Mehrere Fragen auswählen';
 $string['shareincontext'] = 'Im Kontext von $a freigeben';
 $string['tofilecategory'] = 'Kategorie in eine Datei schreiben';

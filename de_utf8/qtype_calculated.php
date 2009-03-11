@@ -1,13 +1,17 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
+$string['addingcalculated'] = 'Eine berechnete Frage hinzufügen';
 $string['addmoreanswerblanks'] = 'Weiteres Antwortfeld hinzufügen';
 $string['addmoreunitblanks'] = 'Leerfeld für $a weitere Abschnitte';
 $string['answerhdr'] = 'Antwort';
 $string['atleastoneanswer'] = 'Sie müssen mindestens eine Antwort angeben.';
+$string['calculated'] = 'Berechnet';
+$string['calculatedsummary'] = 'Berechnete Fragen sind ähnlich zu numerischen Fragen, allerdings werden die Zahlen zufällig beim Start des Tests gewählt.';
 $string['correctanswershows'] = 'Anzeige für richtige Antwort';
 $string['correctanswershowsformat'] = 'Format';
+$string['editingcalculated'] = 'Eine berechnete Frage ändern';
 $string['existingcategory1'] = 'Einen bereits existierenden gemeinsamen Datensatz verwenden';
 $string['keptcategory1'] = 'Denselben existierenden Datensatz wie vorher verwenden';
 $string['keptlocal1'] = 'Denselben existierenden privaten Datensatz verwenden';
