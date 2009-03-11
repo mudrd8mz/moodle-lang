@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -600,7 +600,7 @@ $string['enrolme'] = 'Mich in diesem Kurs einschreiben';
 $string['enrolmentconfirmation'] = 'Sie sind dabei, sich in diesen Kurs einzuschreiben.<br />Sind Sie sicher?';
 $string['enrolmentend'] = 'Ende des Einschreibezeitraums';
 $string['enrolmentkey'] = 'Zugangsschlüssel';
-$string['enrolmentkeyfrom'] = 'Für diesen Kurs benötigen Sie einmalig einen \'Zugangsschlüssel\' - ein Kennwort,<br />das Sie von $a bekommen haben sollten.<br />';
+$string['enrolmentkeyfrom'] = 'Für diesen Kurs benötigen Sie einmalig einen \'Zugangsschlüssel\' - ein Kennwort.<br />Sie erhalten diesen von: $a <br />';
 $string['enrolmentkeyfromguest'] = 'Für diesen Kurs benötigen Sie einen \'Zugangsschlüssel\', den Sie von $a bekommen haben sollten. Als Gast müssen Sie diesen Schlüssel jedes Mal neu eingeben, wenn sie den Kurs betreten.';
 $string['enrolmentkeyhint'] = 'Der Zugangsschlüssel war falsch, bitte versuchen Sie es erneut.<br /> (Hinweis: Der Schlüssel beginnt mit \'$a\')';
 $string['enrolmentnew'] = 'Neue Anmeldung in $a';
@@ -1641,6 +1641,7 @@ $string['userselectorpreserveselected'] = 'Verwerfe ausgewählte Nutzer/innen, w
 $string['userselectorsearchanywhere'] = 'Vergleiche den Suchtext irgendwo im Namen des Benutzers';
 $string['usersnew'] = 'Neue Nutzer/innen';
 $string['usersnoaccesssince'] = 'Nutzer/innen anzeigen, deren Inaktivität länger dauert als';
+$string['userswithfiles'] = 'Nutzer/innen mit Dateien';
 $string['userzones'] = 'Nutzerzonen';
 $string['usethiscourse'] = 'Diesen Kurs benutzen';
 $string['usingexistingcourse'] = 'Vorhandenen Kurs benutzen';
