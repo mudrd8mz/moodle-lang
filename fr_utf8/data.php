@@ -48,6 +48,7 @@ $string['configenablerssfeeds'] = 'Cette option permet l\'activation des flux RS
 $string['confirmdeletefield'] = 'Vous êtes sur le point de supprimer ce champ. Voulez-vous continuer&nbsp;?';
 $string['confirmdeleterecord'] = 'Voulez-vous vraiment supprimer cette fiche&nbsp;?';
 $string['csstemplate'] = 'Modèle CSS';
+$string['csvfailed'] = 'Impossible de lire les données du fichier CSV';
 $string['csvfile'] = 'Fichier CSV';
 $string['csvformat'] = 'Format CSV';
 $string['csvwithselecteddelimiter'] = 'Texte <acronym title=\"Comma Separated Values\">CSV</acronym> avec séparateur&nbsp;:';
@@ -116,6 +117,7 @@ $string['fieldheightsingleview'] = 'Hauteur en affichage fiche';
 $string['fieldids'] = 'Identifiants de champs';
 $string['fieldmappings'] = 'Correspondances des champs';
 $string['fieldname'] = 'Nom du champ';
+$string['fieldnotmatched'] = 'Les champs suivants de votre fichier n\'existent pas dans cette base de données&nbsp;: $a';
 $string['fieldoptions'] = 'Options (par ligne)';
 $string['fields'] = 'Champs';
 $string['fieldupdated'] = 'Champ modifié';
