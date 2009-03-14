@@ -460,6 +460,7 @@ $string['userautherror'] = 'Méthode d\'authentification inconnue';
 $string['userauthunsupported'] = 'Méthode d\'authentification non supportée ici';
 $string['useremailduplicate'] = 'Adresse de courriel en doublon';
 $string['useriddoesntexist'] = 'L\'identifiant utilisateur n\'existe pas';
+$string['userisnotaparticipant'] = 'L\'utilisateur n\'est pas un participant de ce cours';
 $string['usermustbemnet'] = 'Les utilisateurs de la liste d\'accès MNET doivent être des utilisateurs distants MNET';
 $string['usernotaddedadmin'] = 'Impossible de supprimer les comptes administrateur';
 $string['usernotaddederror'] = 'Utilisateur pas ajouté&nbsp;: erreur inconnue';
