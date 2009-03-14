@@ -1310,6 +1310,7 @@ $string['searchhelp'] = 'Vous pouvez introduire plusieurs termes comme critères
 $string['searchoptions'] = 'Options de recherche';
 $string['searchresults'] = 'Résultats de la recherche';
 $string['sec'] = 'sec';
+$string['seconds'] = 'secondes';
 $string['secondstotime86400']  = '1 jour';
 $string['secondstotime172800'] = '2 jours';
 $string['secondstotime259200'] = '3 jours';
