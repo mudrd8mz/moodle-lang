@@ -57,6 +57,7 @@ $string['nomessages'] = 'Pas encore de messages';
 $string['normalkeepalive'] = 'Keep-Alive';
 $string['normalstream'] = 'Flux';
 $string['noscheduledsession'] = 'Aucune session agendée';
+$string['notallowenter'] = 'Vous n\'avez pas l\'autorisation d\'accéder à ce salon de chat.';
 $string['notlogged'] = 'Vous n\'êtes pas connecté&nbsp;!';
 $string['oldping'] = 'Délai de déconnexion';
 $string['pastchats'] = 'Sessions de chat antérieures';
