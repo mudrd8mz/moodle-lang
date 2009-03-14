@@ -633,6 +633,7 @@ $string['filesfolders'] = 'Fichiers/dossiers';
 $string['filloutallfields'] = 'Merci de remplir tous les champs de ce formulaire';
 $string['filter'] = 'Filtre';
 $string['findmorecourses'] = 'Rechercher d\'autres cours...';
+$string['firstaccess'] = 'Premier accès';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Prénom';
 $string['firsttime'] = 'Première visite sur ce site ?';
