@@ -1196,6 +1196,7 @@ $string['potentialteachers'] = 'Enseignants potentiels';
 $string['preferences'] = 'Préférences';
 $string['preferredlanguage'] = 'Langue préférée';
 $string['preferredtheme'] = 'Thème préféré';
+$string['preprocessingbackupfile'] = 'Prétraitement du fichier de sauvegarde';
 $string['preview'] = 'Aperçu';
 $string['previewhtml'] = 'Aperçu en format HTML';
 $string['previeworchoose'] = 'Aperçu ou choix d\'un thème';
