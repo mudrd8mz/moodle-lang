@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20081224) (2008121701)
+      // chat.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
 
 
 $string['ajax'] = 'Ajax 사용판';
@@ -59,6 +59,7 @@ $string['nomessages'] = '아직 메시지 없음';
 $string['normalkeepalive'] = '연결유지';
 $string['normalstream'] = '스트림';
 $string['noscheduledsession'] = '예정된 대화방 없음';
+$string['notallowenter'] = '대화방 입장이 허용되지 않음';
 $string['notlogged'] = '입장하지 않았음!';
 $string['oldping'] = '연결 해제 한계값';
 $string['pastchats'] = '종료된 대화방';

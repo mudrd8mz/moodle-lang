@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090224) (2009021800)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -136,6 +136,7 @@ $string['configenabletrusttext'] = '무들은 기본적으로 이용자가 올�
 $string['configenablewebservices'] = '이것은 무들의 웹서비스를 가능하게 함';
 $string['configenrolmentplugins'] = '사용하고자 하는 등록 플러그인을 선택하라. 또 원활하게 작동하도록 설정하는 것을 잊지 말아라.<br /><br />활성화된 플러그인이 명시되어야 하며, <em>자동(interactive)</em> 등록에 필요한 기본 플로그인 <strong>하나</strong>를 설정할 수 있다. 자동 등록을 막으려면 해당 강좌에서 \"등록가능\"을 \"아니오\"로 하면 된다.';
 $string['configerrorlevel'] = '당신이 알고싶은 PHP경고 수준을 선택하라. 대부분 보통(Normal)이 가장 좋은 선택이다.';
+$string['configexperimentalsplitrestore'] = '이를 활성화시켜 놓으면, 강좌 백업파일에 대해 XML 오류를 점검하고 복구 과정에서 사용할 수 있게 작은 부분으로 나누어 놓습니다. 이렇게 하면 특히 대단위 강좌의 백업에서 복구과정의 오류를 줄이는 한편 소요시간을 줄일 수 있게 됩니다.';
 $string['configextendedusernamechars'] = '이 설정을 활성화시켜 놓으면 학생들은 사용자 아이디에 어떤 문자도 쓸 수 있다.(학생들의 실제 이름에는 영향을 주지 않는다) 기본적으로는 비활성화되어 있어 사용자 ID에 영문자와 숫자를 조합한 것만 허용된다.';
 $string['configextrauserselectorfields'] = '이용자에게 역할을 부여하거나 모둠 구성원으로 추가하는 등에서 사용자를 선택할 경우, 여기에서 선택한 필드가 사용자 목록에 제시된다. 보안상 사용자아이디를 선택하는 것은 바람직하지 않음을 유념하라.';
 $string['configfilterall'] = '이 설정은 필터를 통해 머릿말, 제목, 주소창 등에 포함된 모든 문자열을 검색한다. 대개 다국어 여과장치를 쓸 때에 유용하지만, 사이트에 다소 추가적인 부담을 주게 된다.';
@@ -410,6 +411,7 @@ $string['everyonewhocan'] = '\'$a\' 권한을 지닌 모든 사람';
 $string['exceptions'] = '예외';
 $string['experimental'] = '시험적임';
 $string['experimentalsettings'] = '시험적 설정';
+$string['experimentalsplitrestore'] = '시험적 분리 복구';
 $string['extendedusernamechars'] = '아이디에 확장 문자 허용';
 $string['extrauserselectorfields'] = '사용자 검색시 표시항목';
 $string['fatalmagicquotesruntime'] = '<p>심각한 설정오류가 발견되었으므로 서버 관리자에게 알려주시기 바랍니다.<p/><p>무들을 원활하게 작동시키기 위해 현재의 PHP 설정을 바꿔야만 합니다.<p/><p> <code>magic_quotes_runtime</code>은 반드시 <code>off</code>으로 설정되어 있어야만 합니다.<p/><p>이러한 설정은 <code>php.ini</code>를 수정하여 바꿀 수도 있고, Apache/IIS 의 설정 혹은  <code>.htaccess</code> 파일을 수정해도 바꿀 수 있습니다.</p>';

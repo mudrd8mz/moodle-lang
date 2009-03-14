@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090308) (2009030501)
+      // error.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
 
 
 $string['TODO'] = '실행목록';
@@ -448,6 +448,7 @@ $string['userautherror'] = '알 수 없는 인증 플러그인';
 $string['userauthunsupported'] = '인증 플러그인이 지원되지 않음';
 $string['useremailduplicate'] = '주소 복제';
 $string['useriddoesntexist'] = '사용자 아이디가 없음';
+$string['userisnotaparticipant'] = '강좌 수강생이 아님';
 $string['usermustbemnet'] = 'MNET 접속 목록의 사용자는 원격 MNET 사용자와 일치해야만 함';
 $string['usernotaddedadmin'] = '관리자 계정을 삭제할 수 없음';
 $string['usernotaddederror'] = '사용자 추가되지 않음 - 오류';

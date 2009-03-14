@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (Build: 20080517) (2008051202)
+      // form.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
 
 
 $string['addfields'] = '서식에 $a 필드 추가';
@@ -34,6 +34,8 @@ $string['security'] = '보안';
 $string['selectallornone'] = '모두/없음 선택';
 $string['showadvanced'] = '자세한 설명 보임';
 $string['somefieldsrequired'] = '이 양식에는 필수 항목이 있습니다';
+$string['time'] = '시간';
+$string['timeunit'] = '시간 단위';
 $string['timing'] = '타이밍';
 $string['unmaskpassword'] = '암호보임';
 $string['year'] = '년';

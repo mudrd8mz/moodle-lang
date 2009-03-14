@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20081125) (2008112400)
+      // data.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
 
 
 $string['action'] = '실행';
@@ -49,6 +49,7 @@ $string['configenablerssfeeds'] = '이 스위치는 모든 데이터베이스의
 $string['confirmdeletefield'] = '파일을 삭제하려고 합니다. 확실합니까?';
 $string['confirmdeleterecord'] = '이 게시물을 삭제하려고 하는 것이 확실합니까?';
 $string['csstemplate'] = 'CSS 템플릿';
+$string['csvfailed'] = 'CSV 파일에서 원자료를 읽을 수 없음';
 $string['csvfile'] = 'CSV 파일';
 $string['csvimport'] = 'CSV 파일 가져오기';
 $string['csvwithselecteddelimiter'] = '선택된 구분자로 분리된 <acronym title=\"Comma Separated Values\">CSV</acronym>문서:';
@@ -114,6 +115,7 @@ $string['fieldheightsingleview'] = '하나보기에서 높이';
 $string['fieldids'] = '항목 아이디';
 $string['fieldmappings'] = '항목 배치';
 $string['fieldname'] = '항목 이름';
+$string['fieldnotmatched'] = '데이터베이스에서 파일의 다음 필드를 찾을 수 없습니다:  $a';
 $string['fieldoptions'] = '옵션(한줄에 하나)';
 $string['fields'] = '항목들';
 $string['fieldupdated'] = '항목이 갱신됨';

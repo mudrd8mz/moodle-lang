@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090303) (2009030300)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -643,6 +643,7 @@ $string['filesfolders'] = '파일/폴더';
 $string['filloutallfields'] = '이 서식의 모든 항목을 채워주세요.';
 $string['filter'] = '필터';
 $string['findmorecourses'] = '더 많은 강좌 보기...';
+$string['firstaccess'] = '처음 접속';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = '성';
 $string['firsttime'] = '이곳에 처음 오셨나요?';
@@ -1191,6 +1192,7 @@ $string['potentialteachers'] = '잠재적 교수자';
 $string['preferences'] = '사용자 선택사항';
 $string['preferredlanguage'] = '선호하는 언어';
 $string['preferredtheme'] = '선호하는 테마';
+$string['preprocessingbackupfile'] = '백업파일 전처리';
 $string['preview'] = '미리보기';
 $string['previewhtml'] = 'HTML 형식 미리보기';
 $string['previeworchoose'] = '테마 선택/미리보기';
@@ -1311,6 +1313,7 @@ word : 텍스트안에 이 단어와 관련된 어떤 것이라도 검색<br />
 $string['searchoptions'] = '검색 조건';
 $string['searchresults'] = '검색 결과';
 $string['sec'] = '초';
+$string['seconds'] = '초';
 $string['secondstotime172800'] = '2 일';
 $string['secondstotime259200'] = '3 일';
 $string['secondstotime345600'] = '4 일';
