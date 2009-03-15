@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // chat.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['ajax'] = 'Ajaxバージョン';
@@ -59,6 +59,7 @@ $string['nomessages'] = 'メッセージがありません。';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'スケジュールセッションがありません。';
+$string['notallowenter'] = 'あなたは、チャットルームへの入室を許可されていません。';
 $string['notlogged'] = 'ログインしていません!';
 $string['oldping'] = '切断タイムアウト';
 $string['pastchats'] = '過去のチャットセッション';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20081121) (2008112101)
+      // data.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['action'] = '操作';
@@ -49,6 +49,7 @@ $string['configenablerssfeeds'] = 'ここでは、すべてのデータベース
 $string['confirmdeletefield'] = 'あなたは、このフィールドを削除しようとしています。よろしいですか?';
 $string['confirmdeleterecord'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['csstemplate'] = 'CSSテンプレート';
+$string['csvfailed'] = 'CSVファイルから生データを読み込めません。';
 $string['csvfile'] = 'CSVファイル';
 $string['csvimport'] = 'CSVファイルインポート';
 $string['csvwithselecteddelimiter'] = '選択したデリミタによる<acronym title=\"カンマ区切り\">CSV</acronym>テキスト:';
@@ -114,6 +115,7 @@ $string['fieldheightsingleview'] = '個別表示の高さ';
 $string['fieldids'] = 'フィールドID';
 $string['fieldmappings'] = 'フィールドマッピング';
 $string['fieldname'] = 'フィールド名';
+$string['fieldnotmatched'] = 'あなたのファイル内の次のフィールドは、不明なフィールドです: $a';
 $string['fieldoptions'] = 'オプション (1行あたり1つ)';
 $string['fields'] = 'フィールド';
 $string['fieldupdated'] = 'フィールドが更新されました。';

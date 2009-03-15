@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -137,6 +137,7 @@ $string['configenabletrusttext'] = 'Moodleは、デフォルトでユーザに�
 $string['configenablewebservices'] = 'ウェブサービスでは、他のシステムがこのMoodleにログインして、操作できるようにします。セキュリティのため、あなたが本当に使用したい場合以外、この機能を無効にしてください。';
 $string['configenrolmentplugins'] = 'あなたが使用したいプラグインを選択してください。また、忘れずに適切に設定してください。<br /><br />ここでは、どのプラグインを有効にするのか指定する必要があります。<strong>1つ</strong>のプラグインを<em>インタラクティブ</em>なユーザ登録方法としてデフォルトに設定することができます。インタラクティブなユーザ登録方法を無効にするには、該当するコースの設定画面で「コース登録可能」を「No」にしてください。';
 $string['configerrorlevel'] = '表示したいPHPの警告数を選択してください。通常は、Normalが最適です。';
+$string['configexperimentalsplitrestore'] = 'この設定を有効にした場合、コースバックアップファイルは、XMLエラーに関してチェックされた後、リストア処理で使用するため、細かな部分に分割されます。この作業により、特に中規模から大規模なコースバックアップのリストアに関して、安定性および実行時間の改善をもたらします。';
 $string['configextendedusernamechars'] = 'この設定を有効にした場合、学生はユーザ名にどのような文字でも使用することができます (実際の名前には影響しません)。ユーザ名を英数字に制限する「無効」がデフォルトです。';
 $string['configextrauserselectorfields'] = '例えばロールの割り当て、またはグループ割り当てに関してユーザを選択する場合、これらのフィールドがフルネームとともに表示され、検索結果に含まれます。セキュリティの観点から、ここでユーザ名を選択するのは賢明でないことに留意してください。';
 $string['configfilterall'] = 'ヘッダ、タイトル、ナビゲーションバー等を含むすべての文字をフィルタします。これは多言語フィルタを使用しているときに最も有用です。そうでない場合、あなたのサイトに単に負荷がかかるだけになります。';
@@ -403,6 +404,7 @@ $string['everyonewhocan'] = '「 $a 」ことができるユーザすべて';
 $string['exceptions'] = '例外';
 $string['experimental'] = '実験用';
 $string['experimentalsettings'] = '実験用設定';
+$string['experimentalsplitrestore'] = '実験用分割リストア';
 $string['extendedusernamechars'] = 'ユーザ名に拡張文字を許可する';
 $string['extrauserselectorfields'] = 'ユーザの選択、検索および表示';
 $string['fatalmagicquotesruntime'] = '<p>深刻な設定エラーが見つかりました、サーバ管理者に報告してください。</p><p>適切に動作させるため、Moodleは管理者によるPHP設定の変更を必要とします。</p><p><code>magic_quotes_runtime</code>を<code>off</code>にしてください。</p><p>この設定は、<code>php.ini</code>、Apache/IIS <br />設定またはサーバの<code>.htaccess</code>ファイルの編集によりコントロールすることができます。</p>';

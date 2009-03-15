@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -646,6 +646,7 @@ $string['filesfolders'] = 'ファイル/フォルダ';
 $string['filloutallfields'] = 'すべての欄に入力してください。';
 $string['filter'] = 'フィルタ';
 $string['findmorecourses'] = 'さらにコースを探す ...';
+$string['firstaccess'] = '初回アクセス';
 $string['firstdayofweek'] = '0';
 $string['firstname'] = '名';
 $string['firsttime'] = 'はじめての方ですか?';
@@ -1215,6 +1216,7 @@ $string['potentialteachers'] = '潜在的な教師';
 $string['preferences'] = '設定';
 $string['preferredlanguage'] = '使用言語';
 $string['preferredtheme'] = '使用テーマ';
+$string['preprocessingbackupfile'] = 'バックアップファイル処理中';
 $string['preview'] = 'プレビュー';
 $string['previewhtml'] = 'HTMLフォーマットプレビュー';
 $string['previeworchoose'] = 'テーマを選択またはプレビューしてください。';
@@ -1330,6 +1332,7 @@ $string['searchhelp'] = '同時に複数の言葉を探すことができます�
 $string['searchoptions'] = '検索オプション';
 $string['searchresults'] = '検索結果';
 $string['sec'] = '秒';
+$string['seconds'] = '秒';
 $string['secondstotime172800'] = '2日間';
 $string['secondstotime259200'] = '3日間';
 $string['secondstotime345600'] = '4日間';
