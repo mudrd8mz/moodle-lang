@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (Build: 20080516) (2008051202)
+      // form.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['addfields'] = 'フィールド $a 個をフォームに追加する';
@@ -34,9 +34,11 @@ $string['security'] = 'セキュリティ';
 $string['selectallornone'] = 'すべてを選択する/なし';
 $string['showadvanced'] = '拡張要素を表示する';
 $string['somefieldsrequired'] = '$a マークが付けられたフィールドは必須入力フィールドです。';
+$string['time'] = '時間';
+$string['timeunit'] = '時間ユニット';
 $string['timing'] = 'タイミング';
 $string['unmaskpassword'] = 'マスク解除';
 $string['year'] = '年';
-$string['requiredfield'] = 'これは必須入力フィールドです。'; // TBD
+$string['requiredfield'] = 'これは必須入力フィールドです。'; //TBD
 
 ?>
