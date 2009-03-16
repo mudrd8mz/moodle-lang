@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // error.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['TODO'] = 'TODO';
@@ -16,6 +16,7 @@ $string['cannotaddblock'] = '$a ブロックをブロックリストに追加で
 $string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。';
 $string['cannotaddcoursemodule'] = '新しいコースモジュールを追加できませんでした。';
 $string['cannotaddcoursemoduletosection'] = '新しいコースモジュールをセクションに追加できませんでした。';
+$string['cannotaddmembergroupiddoesntexist'] = 'メンバーをグループに追加できません。グループIDが存在しません。';
 $string['cannotaddmodule'] = '$a モジュールをモジュールリストに追加できませんでした!';
 $string['cannotaddnewinstance'] = '$a の新しいインスタンスを追加できませんでした。';
 $string['cannotaddnewmodule'] = '$a の新しいモジュールを追加できませんでした。';
@@ -162,6 +163,7 @@ $string['componentisuptodate'] = 'コンポーネントは最新です。';
 $string['confirmsesskeybad'] = '申し訳ございません、このアクションの実行に関して、あなたのセッションキーでは確認できませんでした。このセキュリティ機能は、あなたのユーザ名で重要な機能が不測または悪意により実行されることを防ぎます。本当にこの機能を実行したいか確認してください。';
 $string['couldnotassignrole'] = 'あなたにロールを割り当てている最中に、深刻ですが不明なエラーが発生しました。';
 $string['countriesphpempty'] = 'エラー: 言語パック $a のファイル「countries.php」が空または存在しません。';
+$string['coursedoesntexistcannotcreategroup'] = 'グループを作成できません。コースが存在しません。';
 $string['coursegroupunknown'] = 'コースに関連するグループ $a が指定されていません。';
 $string['coursemisconf'] = 'コース設定が正しくありません。';
 $string['courserequestdisabled'] = '申し訳ございません、リクエストされたコースは、管理者によって無効にされています。';
@@ -223,6 +225,7 @@ $string['generalexceptionmessage'] = '例外 - $a';
 $string['gradepubdisable'] = '評定の公開が無効にされています。';
 $string['groupalready'] = 'ユーザは、すでにグループ「 $a 」に属しています';
 $string['groupexistforcourse'] = 'グループ「 $a 」は、すでにこのコースに登録されています。';
+$string['groupiddoesntexistcannotdelete'] = 'グループを削除できません。グループIDが存在しません。';
 $string['groupnotaddederror'] = 'グループ「 $a 」は、追加されませんでした。';
 $string['groupunknown'] = 'グループ「 $a 」は、指定されたコースに関連していません。';
 $string['guestnocomment'] = 'ゲストは、コメントを投稿できません。';
@@ -443,11 +446,14 @@ $string['urlnotdefinerss'] = 'RSSフィードのURIが定義されていませ�
 $string['userautherror'] = '不明な認証プラグイン「 $a 」';
 $string['userauthunsupported'] = 'ここでは認証プラグインがサポートされていません。';
 $string['useremailduplicate'] = '重複メールアドレス';
+$string['useriddoesntexist'] = 'ユーザIDが存在しません。';
+$string['userisnotaparticipant'] = 'このユーザは、コース参加者ではありません。';
 $string['usermustbemnet'] = 'MNETアクセスコントロールリストのユーザには、リモートMNETのユーザを使用してください。';
 $string['usernotaddedadmin'] = '管理者アカウントは削除できません。';
 $string['usernotaddederror'] = 'ユーザは追加されませんでした - エラー。';
 $string['usernotaddedregistered'] = 'ユーザは追加されませんでした - すでに登録されています。';
 $string['usernotavailable'] = 'このユーザの詳細は閲覧できません。';
+$string['usernotcreated'] = 'ユーザを作成できませんでした。';
 $string['usernotdeletederror'] = 'ユーザは削除されませんでした - 不明なエラー。';
 $string['usernotdeletedmissing'] = 'ユーザは削除されませんでした - ユーザ名が見つかりませんでした。';
 $string['usernotdeletedoff'] = 'ユーザは削除されませんでした - 削除が許可されていません。';
@@ -466,6 +472,19 @@ $string['wrongdestpath'] = '宛先パスが正しくありません。';
 $string['wrongroleid'] = 'ロールIDが正しくありません!';
 $string['wrongsourcebase'] = 'ソースURIベースが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
+$string['wscouldnotaddgroupmembernopermission'] = 'WS - グループメンバーを追加できませんでした - パーミッションがありません。';
+$string['wscouldnotcreateeuserindb'] = 'WS - ユーザを作成できませんでした。';
+$string['wscouldnotcreateeusernopermission'] = 'WS - ユーザを作成できませんでした - パーミッションがありません。';
+$string['wscouldnotcreategroupnopermission'] = 'WS - グループを作成できませんでした - パーミッションがありません。';
+$string['wscouldnotdeletegroupnopermission'] = 'WS - グループを削除できませんでした - パーミッションがありません。';
+$string['wscouldnotdeletenoexistinguser'] = 'WS - ユーザを削除できませんでした - ユーザが登録されていません。';
+$string['wscouldnotdeleteusernopermission'] = 'WS - ユーザを削除できませんでした - パーミッションがありません。';
+$string['wscouldnotgetgroupnopermission'] = 'WS - グループを取得できませんでした - パーミッションがありません。';
+$string['wscouldnotremovegroupmembernopermission'] = 'WS - グループメンバーを削除できませんでした - パーミッションがありません。';
+$string['wscouldnotupdatenoexistinguser'] = 'WS - ユーザを更新できませんでした - ユーザが登録されていません。';
+$string['wscouldnotupdateuserindb'] = 'WS - ユーザを更新できませんでした。';
+$string['wscouldnotupdateusernopermission'] = 'WS - ユーザを更新できませんでした - パーミッションがありません。';
+$string['wscouldnotvieweusernopermission'] = 'WS - ユーザを閲覧できませんでした - パーミッションがありません。';
 $string['wwwrootmismatch'] = '申し訳ございません、不正なアクセスが検知されたため、「 $a 」アドレスからのみサーバにアクセスできます。<br />サーバ管理者にご連絡くください。';
 $string['wwwrootslash'] = 'config.phpに正しくない \$CFG->wwwroot が検知されました。\$CFG->wwwrootでは、末尾にスラッシュを付ける必要があります。<br />サーバ管理者にご連絡くください。';
 $string['xmldberror'] = 'XMLDBエラー!';
