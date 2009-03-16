@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.8.2+ (2007021520)
+      // blog.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addnewentry'] = 'Agregar una nueva entrada';
@@ -23,6 +23,7 @@ $string['courseblogs'] = 'Los usuarios sólo pueden ver los blogs de las persona
 $string['deleteotagswarn'] = '¿Está seguro de que quiere eliminar esta(s) marca(s) <br />de todos los mensajes y quitarlas del sistema?';
 $string['deleteposterror'] = 'Ha ocurrido un error al eliminar el mensaje';
 $string['disableblogs'] = 'Deshabilitar por completo el sistema blog';
+$string['donothaveblog'] = 'Lo sentimos, usted no tiene su propio blog.';
 $string['emptybody'] = 'El cuerpo de la entrada del blog no puede estar vacío';
 $string['emptytitle'] = 'El título de la entrada del blog no puede estar vacío';
 $string['entrybody'] = 'Cuerpo de entrada del blog';

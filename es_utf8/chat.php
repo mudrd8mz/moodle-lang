@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.8.2+ (2007021520)
+      // chat.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['ajax'] = 'Versión usando Ajax';
@@ -12,6 +12,7 @@ $string['chat:deletelog'] = 'Eliminar registros de chat';
 $string['chat:exportparticipatedsession'] = 'Exportar participaciones en sesión de chat';
 $string['chat:exportsession'] = 'Exportar sesión de chat';
 $string['chat:readlog'] = 'Leer registros de chat';
+$string['chat:talk'] = 'Hablar en un chat';
 $string['chatintro'] = 'Texto introductorio';
 $string['chatname'] = 'Nombre de la sala';
 $string['chatreport'] = 'Sesiones';
@@ -39,6 +40,7 @@ $string['explainmethodnormal'] = 'Estos ajustes actúan <strong>solamente</stron
 $string['generalconfig'] = 'Configuración general';
 $string['helpchatting'] = 'Ayuda del chat';
 $string['idle'] = 'Inactivo';
+$string['inputarea'] = 'Área de entrada';
 $string['invalidid'] = 'No se encontró esa sala de chat';
 $string['messagebeepseveryone'] = '$a envía un beep a todos';
 $string['messagebeepsyou'] = '$a le acaba de enviar un beep';
@@ -68,6 +70,7 @@ $string['repeatdaily'] = 'A la misma hora todos los días';
 $string['repeatnone'] = 'Sin repeticiones, publicar sólo la hora especificada';
 $string['repeattimes'] = 'Repetir sesiones';
 $string['repeatweekly'] = 'A la misma hora todas las semanas';
+$string['saidto'] = '<b>dicho a</b>';
 $string['savemessages'] = 'Guardar sesiones pasadas';
 $string['seesession'] = 'Ver esta sesión';
 $string['send'] = 'Enviar';
@@ -81,6 +84,7 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Todos pueden ver las sesiones pasadas';
 $string['updatemethod'] = 'Actualizar método';
 $string['updaterate'] = 'Tasa de Actualización:';
+$string['userlist'] = 'Lista de usuarios';
 $string['viewreport'] = 'Ver las sesiones anteriores';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8.2+ (2007021520)
+      // choice.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addmorechoices'] = 'Añadir más opciones';
@@ -16,6 +16,7 @@ $string['choiceclose'] = 'Hasta';
 $string['choicefull'] = 'Esta opción está completa y no hay espacios disponibles.';
 $string['choicename'] = 'Título de la consulta';
 $string['choiceopen'] = 'Abrir';
+$string['choicesaved'] = 'Su elección ha sido guardada';
 $string['choicetext'] = 'Pregunta a responder';
 $string['displayhorizontal'] = 'Mostrar horizontalmente';
 $string['displaymode'] = 'Modo Mostrar';
@@ -33,6 +34,7 @@ $string['noguestchoose'] = 'Lo sentimos, los invitados no pueden responder encue
 $string['noresultsviewable'] = 'Los resultados no pueden verse en este momento.';
 $string['notanswered'] = 'No contestada aún';
 $string['notopenyet'] = 'Lo sentimos, esta actividad no estará disponible hasta $a';
+$string['option'] = 'Opción';
 $string['privacy'] = 'Privacidad de los resultados';
 $string['publish'] = 'Publicar resultados';
 $string['publishafteranswer'] = 'Mostrar los resultados al estudiante después de su respuesta';

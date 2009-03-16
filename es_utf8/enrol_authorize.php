@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 1.7 (2006101007)
+      // enrol_authorize.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['adminacceptccs'] = '¿Qué tarjetas de crédito se aceptan?';
@@ -55,6 +55,7 @@ $string['authcode'] = 'Código de autorización';
 $string['authorize:managepayments'] = 'Gestionar pagos';
 $string['authorize:uploadcsv'] = 'Subir archivo CSV';
 $string['authorizedpendingcapture'] = 'Autorizado / Pendiente de Captura';
+$string['authorizeerror'] = 'Error Authorize.net: $a';
 $string['avsa'] = 'La dirección (calle) es correcta, pero el código postal no';
 $string['avsb'] = 'Falta información sobre la dirección';
 $string['avse'] = 'Error del sistema de verificación de la dirección';
@@ -78,6 +79,7 @@ $string['captureyes'] = 'La tarjeta de crédito será capturada y el estudiante 
 $string['ccexpire'] = 'Fecha de expiración';
 $string['ccexpired'] = 'La tarjeta de crédito ha expirado';
 $string['ccinvalid'] = 'Número de tarjeta no válido';
+$string['cclastfour'] = 'Cuatro últimos CC';
 $string['ccno'] = 'Número de la tarjeta de crédito';
 $string['cctype'] = 'Tipo de la tarjeta de crédito';
 $string['ccvv'] = 'CV2';
@@ -86,6 +88,7 @@ $string['choosemethod'] = 'Si conoce la clave de matriculación en el curso, esc
 $string['chooseone'] = 'Rellene uno o ambos de los siguientes dos campos';
 $string['costdefaultdesc'] = '<strong>En los ajustes del curso, escriba -1</strong> en el campo de costo para usar dicho costo por defecto.';
 $string['cutofftime'] = 'Tiempo límite para la transacción. ¿Cuándo será captada la última transacción para liquidación?';
+$string['dataentered'] = 'Datos introducidos';
 $string['delete'] = 'Destruir';
 $string['description'] = 'El módulo Authorize.net le permite ajustar cursos de pago vía proveedores CC. Si el costo de cualquier curso es cero, no se pedirá a los estudiantes que paguen. Existe un costo del sitio que usted ajusta aquí por defecto para todo el sitio y además un ajuste por curso que puede efectuar para cada curso individualmente. El costo del curso pasa por alto el costo del sitio.';
 $string['echeckabacode'] = 'Número ABA Banco';
@@ -106,6 +109,7 @@ Por favor, no escriba su número de tarjeta de crédito a menos que vea un canda
 $string['invalidaba'] = 'Número ABA no válido';
 $string['invalidaccnum'] = 'Número de cuenta no válido';
 $string['invalidacctype'] = 'Tipo de cuenta no válido';
+$string['isbusinesschecking'] = '¿Es comprobación de negocio?';
 $string['logindesc'] = 'Puede seleccionar la opción <a href=\"$a->url\">loginhttps</a> en la sección Variables/Seguridad.
 <br /><br />
 Si la selecciona, Moodle usará una conexión https segura únicamente en la página de acceso y pago.';
@@ -126,6 +130,7 @@ $string['nameoncard'] = 'Nombre que figura en la tarjeta';
 $string['new'] = 'Nuevo';
 $string['noreturns'] = '¡No devolución!';
 $string['notsettled'] = 'No liquidado';
+$string['orderdetails'] = 'Detalles de la orden';
 $string['orderid'] = 'ID Orden';
 $string['paymentmanagement'] = 'Gestión del pago';
 $string['paymentmethod'] = 'Método de pago';
@@ -187,6 +192,7 @@ $string['reviewnotify'] = 'Su pago será revisado. En unos días recibirá un em
 $string['sendpaymentbutton'] = 'Enviar pago';
 $string['settled'] = 'Liquidado';
 $string['settlementdate'] = 'Fecha de liquidación';
+$string['shopper'] = 'Comprador';
 $string['subvoidyes'] = 'La transacción reembolsada $a->transid será cancelada y se traspasará $a->amount a su cuenta. ¿Está seguro?';
 $string['tested'] = 'Probado';
 $string['testmode'] = '[MODO TEST]';
@@ -197,6 +203,8 @@ $string['unenrolstudent'] = '¿Dar de baja al estudiante?';
 $string['uploadcsv'] = 'Suboir archivo CSV';
 $string['usingccmethod'] = 'Matricularse usando <a href=\"$a->url\"><strong>Tarjeta de crédito</strong></a>';
 $string['usingecheckmethod'] = 'Matricularse usando <a href=\"$a->url\"><strong>eCheque</strong></a>';
+$string['verifyaccount'] = 'Verifique su cuenta mercantil authorize.net';
+$string['verifyaccountresult'] = 'Resultado de la verificación: $a';
 $string['void'] = 'Cancelación';
 $string['voidyes'] = 'La transacción será cancelada. ¿Está seguro?';
 $string['welcometocoursesemail'] = 'Estimado estudiante,
@@ -204,6 +212,5 @@ $string['welcometocoursesemail'] = 'Estimado estudiante,
 Gracias por enviar su pago. Está matriculado en los siguientes cursos:';
 $string['youcantdo'] = 'No puede realizar esta acción: $a->action';
 $string['zipcode'] = 'Código postal';
-$string['dataentered'] = 'Datos introducidos';
 
 ?>
