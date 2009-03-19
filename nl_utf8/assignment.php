@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
 
 
 $string['allowdeleting'] = 'Verwijderen toestaan';
@@ -27,8 +27,8 @@ $string['cannotviewassignment'] = 'Je kunt deze opdracht niet bekijken';
 $string['comment'] = 'Commentaar';
 $string['commentinline'] = 'Commentaar invoegen';
 $string['configitemstocount'] = 'Wat er moet geteld worden wanneer leerlingen hun online opdracht ingestuurd hebben.';
-$string['configmaxbytes'] = 'Standaard maximumgrootte voor alle opdrachten op de site (afhankelijk de limiet van de cursus en van andere lokale instellingen)';
-$string['configshowrecentsubmissions'] = 'Iedereen kan in rapporteringen over \"Recente activiteit\" zien dat er inzendingen gebeurt zijn.';
+$string['configmaxbytes'] = 'Standaard maximumgrootte voor alle opdrachten op de site (afhankelijk van de limiet van de cursus en van andere lokale instellingen)';
+$string['configshowrecentsubmissions'] = 'Iedereen kan in rapporteringen over \"Recente activiteit\" zien dat er opdrachten zijn ingestuurd.';
 $string['confirmdeletefile'] = 'Ben je er zeker van dat je dit bestand wil verwijderen?<br/><strong>$a</strong>';
 $string['coursemisconf'] = 'De instellingen van de cursus zijn fout';
 $string['deleteallsubmissions'] = 'Alle inzendingen verwijderen';

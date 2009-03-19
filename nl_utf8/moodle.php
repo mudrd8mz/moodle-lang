@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -34,7 +34,7 @@ $string['addingdatatoexisting'] = 'Gegevens toevoegen aan bestaande';
 $string['addnewcategory'] = 'Voeg een nieuwe categorie toe';
 $string['addnewcourse'] = 'Voeg een nieuwe cursus toe';
 $string['addnewuser'] = 'Toevoegen';
-$string['addnousersrecip'] = 'Voeg gebruikers aan de onvangerslijst toe die deze $a nog niet bezocht hebben';
+$string['addnousersrecip'] = 'Voeg gebruikers aan de ontvangerslijst toe die deze $a nog niet bezocht hebben';
 $string['addresource'] = 'Bron toevoegen';
 $string['address'] = 'Adres';
 $string['addstudent'] = 'Voeg een leerling toe';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // choice.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
 
 
 $string['addmorechoices'] = 'Voeg meer keuzes toe';
@@ -49,7 +49,7 @@ $string['responses'] = 'Antwoorden';
 $string['responsesto'] = 'Antwoorden op  $a';
 $string['savemychoice'] = 'Bewaar mijn antwoord';
 $string['showunanswered'] = 'Toon een kolom voor onbeantwoord';
-$string['spaceleft'] = 'spatie beschikbaar';
+$string['spaceleft'] = 'plaats beschikbaar';
 $string['spacesleft'] = 'spaties beschikbaar';
 $string['taken'] = 'Ingenomen';
 $string['timerestrict'] = 'Beperk het beantwoorden tot deze periode';
