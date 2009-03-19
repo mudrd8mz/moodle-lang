@@ -1,19 +1,16 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.6 development (2005101200)
+      // journal.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['alwaysopen'] = 'Her zaman açık';
 $string['blankentry'] = 'Boş kayıt';
 $string['daysavailable'] = 'Kalan gün';
 $string['editingended'] = 'Düzeltme süresi bitti';
-$string['editingends'] = 'Düzeltme süresi düzenleniyor';
+$string['editingends'] = 'Düzeltme süresi bitiyor';
 $string['entries'] = 'Kayıtlar';
 $string['feedbackupdated'] = '$a kayıtları için geribildirim güncellendi';
-$string['journalmail'] = '$a->teacher, \'$a->journal\' isimli yazınız için geribildirim verdi.
-
-$a->url';
-$string['journalmailhtml'] = '$a->teacher, \'<i>$a->journal</i>\' isimli yazınız için geribildirim verdi.<br/><br/>
-<a href=\"$a->url\">Ayrıntılar</a>';
+$string['journalmail'] = '$a->teacher, \'$a->journal\' günlük kaydınız için geribildirim verdi. Günlük kaydınıza eklenmiş halde görebilirsiniz: $a->url';
+$string['journalmailhtml'] = '$a->teacher, \'<i>$a->journal</i>\' isimli günlük kaydınız için geribildirim verdi.<br/><br/> <a href=\"$a->url\">Ayrıntılar</a>';
 $string['journalname'] = 'Yazı adı';
 $string['journalquestion'] = 'Yazı sorusu';
 $string['journalrating1'] = 'Yeterli değil';

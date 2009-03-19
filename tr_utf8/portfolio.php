@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['activeportfolios'] = 'Etkin portfolyolar';
@@ -30,7 +30,6 @@ $string['failedtosendpackage'] = 'Veriniz seçili portfolyo sistemine gönderili
 $string['filedenied'] = 'Bu dosyaya erişim engellendi';
 $string['filenotfound'] = 'Dosya yok';
 $string['format_file'] = 'Dosya';
-$string['format_html'] = 'HTML';
 $string['format_image'] = 'Resim';
 $string['format_mbkp'] = 'Moodle Yedek Biçimi';
 $string['format_text'] = 'Düz Metin';
@@ -59,5 +58,6 @@ $string['selectplugin'] = 'Hedef seçin';
 $string['sure'] = '\'$a\' tamamen silinecek. Bu işlem geri alınamaz.';
 $string['transfertime'] = 'Aktarım zamanı';
 $string['wait'] = 'Bekle';
+$string['format_html'] = 'HTML'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['abandoned'] = 'Vazgeçildi';
@@ -25,6 +25,7 @@ $string['copytoclipboard'] = 'Panoya Kopyala';
 $string['correct'] = 'Doğru';
 $string['deleteabandoned'] = 'Vazgeçilenleri sil';
 $string['deleteabandonedcheck'] = 'Gerçekten tüm $a vazgeçilen uygulamayı silmek istediğinizden emin misiniz?';
+$string['deleteallattempts'] = 'Tüm denemeleri sil';
 $string['displaycoursenext'] = 'Kursun sonraki sayfası\'nı göster';
 $string['displayhotpotnext'] = 'Hot Potatoes sınavı sonraki\'ni göster';
 $string['displayindexnext'] = 'HotPot dizin sonraki\'ni göster';

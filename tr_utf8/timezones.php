@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // timezones.php - created with Moodle 1.6 development (2005101200)
+      // timezones.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['africa/abidjan'] = 'Afrika/Abidjan';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // table.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
+      // table.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['downloadas'] = 'Tablo verisini kaydet';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (Build: 20080414) (2008030700)
+      // group.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addgroupstogrouping'] = 'Grupları gruplamaya ekle';
@@ -29,6 +29,7 @@ $string['deleteallgroups'] = 'Tüm grupları sil';
 $string['deletegroupconfirm'] = '\'$a\' grubunu silmek istediğinizden emin misiniz?';
 $string['deletegrouping'] = 'Gruplamayı sil';
 $string['deletegroupingconfirm'] = '\'$a\' gruplamasını silmek istediğinizden emin misiniz? (Gruplama içindeki gruplar silinmez.)';
+$string['deletegroupsconfirm'] = 'Aşağıdaki grupları silmek istediğinizden emin misiniz?';
 $string['deleteselectedgroup'] = 'Seçili grubu sil';
 $string['editgroupingsettings'] = 'Gruplama ayarlarını düzenle';
 $string['editgroupsettings'] = 'Grup ayarlarını düzenle';
@@ -37,6 +38,9 @@ $string['erroraddremoveuser'] = '$a kullanıcısını gruba eklerken hata';
 $string['erroreditgroup'] = '$a grubunu oluştururken/güncellerken hata';
 $string['erroreditgrouping'] = '$a gruplamasını oluştururken/güncellerken hata';
 $string['errorinvalidgroup'] = 'Hata, geçersiz grup $a';
+$string['errorselectone'] = 'Bu seçeneği seçmeden önce lütfen tek bir grup seçin';
+$string['errorselectsome'] = 'Bu seçeneği seçmeden önce lütfen bir ya da daha fazla grup seçin';
+$string['evenallocation'] = 'Not: Grup dağılımını eşit tutabilmek için, her bir grubun gerçek sayısı sizin belirttiğiniz sayıdan farklı olacaktır.';
 $string['existingmembers'] = 'Mevcut kullanıcı: $a';
 $string['filtergroups'] = 'Grupları süz:';
 $string['group'] = 'Grup';
@@ -104,6 +108,7 @@ $string['removeselectedusers'] = 'Seçili kullanıcıları sil';
 $string['selectfromrole'] = 'Rolden kullanıcıları seç';
 $string['showgroupsingrouping'] = 'Gruplamadaki grupları göster';
 $string['showmembersforgroup'] = 'Grup için üyeleri göster';
+$string['toomanygroups'] = 'Bu sayıda grubu doldurmak için yetersiz kullanıcı - seçili rolde yalnızca $a kullanıcı vardır.';
 $string['usercount'] = 'Kullanıcı sayısı';
 $string['usercounttotal'] = 'Kullanıcı sayısı ($a)';
 $string['usergroupmembership'] = 'Seçili kullanıcıların üyeliği:';

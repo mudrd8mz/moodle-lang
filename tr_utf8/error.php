@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // error.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
@@ -49,6 +49,7 @@ $string['groupnotaddederror'] = '\"$a\" grubu eklenmedi';
 $string['groupunknown'] = '$a grubu belirtilen kursla ilişkili değil';
 $string['guestnoeditprofile'] = 'Konuk kullanıcı kendi profilini düzenleyemez';
 $string['guestnoeditprofileother'] = 'Konuk kullanıcının profili düzenlenemez';
+$string['invalidadminsettingname'] = 'Geçersiz yönetici ayarı ($a)';
 $string['invalidcourse'] = 'Geçersiz kurs';
 $string['invalidfieldname'] = '\"$a\" geçerli bir alan adı değil';
 $string['invalidfiletype'] = '\"$a\" geçerli bir dosya tipi değil';
@@ -70,7 +71,6 @@ $string['loginasonecourse'] = 'Bu kursa giremezsiniz.<br />Herhangi bir kursa gi
 $string['missingfield'] = '\"$a\" alanı eksik';
 $string['missingrequiredfield'] = 'Bazı gerekli alanlar eksik';
 $string['modulemissingcode'] = 'Bu eylemi gerçekleştirecek gerekli kod $a modülü için eksik';
-$string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modülü kurulamadı. Bu modül daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).';
 $string['mustbeteacher'] = 'Bu sayfaya bakabilmek için eğitimci olmalısınız';
 $string['nocontext'] = 'Üzgünüz, bu kursun geçerli bir bağlamı yok';
 $string['noinstances'] = '$a bu kursta kullanılmadı!';
@@ -122,6 +122,10 @@ $string['usernotupdatednotexists'] = 'Kullanıcı olmadığından kullanıcı g�
 $string['wrongdestpath'] = 'Hatalı hedef yolu';
 $string['wrongsourcebase'] = 'Hatalı kaynak URL base.';
 $string['wrongzipfilename'] = 'Hatalı ZIP dosya adı.';
+$string['wwwrootslash'] = 'config.php dosyasında geçersiz $CFG->wwwroot algılandı. Bu ayar slash karakteri ile bitmemeli. <br />Lütfen sunucu yöneticisini uyarın.';
+$string['xmldberror'] = 'XMLDB hatası!';
+$string['younotteacher'] = 'Eğitimci değilsiniz!';
+$string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modülü kurulamadı. Bu modül daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).'; // ORPHANED
 $string['cmunknown'] = 'Bu kurs modülü bulunamadı'; // ORPHANED
 
 ?>

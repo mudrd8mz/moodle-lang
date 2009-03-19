@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20080618) (2008051203)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addresource'] = 'Kaynak ekle';
@@ -20,16 +20,21 @@ $string['configblockdeletingfilesettings'] = 'Kaynaklar tarafından bağlantıla
 $string['configdefaulturl'] = 'URL-temelli yeni bir kaynak oluşturulduğunda bu değer URL adresini önceden dolduracaktır.';
 $string['configfilterexternalpages'] = 'Bu ayarın etkinleştirilmesiyle şu anda tanımlanmış site filtreleri (örneğin sözlük otomatik-linkleme) tarafından tüm harici kaynakların (web sayfaları, yüklenen HTML dosyaları gibi) işlenmesine sebep olur. Bu ayarın açık yapılması kurs sayfalarının ciddi anlamda yavaşlamasına sebep olabilir. Bunu dikkatli bir şekilde ve gerçekten gereksinim duyuyorsanız kullanın.';
 $string['configframesize'] = 'Bir web sayfası veya yüklenmiş dosya bir çerçeve içinde gösterildiğinde bu değer, gezinmeyi içeren üst çerçevenin pixel olarak boyutunu ayarlar.';
-$string['configpopup'] = 'Yeni kaynak eklenirken bu kaynak yeni bir açılır pencerede gösterilebilir. Bu seçenek varsayılan olarak etkinleştirilsin mi?';
+$string['configparametersettings'] = 'Bazı yeni kaynaklar eklerken formdaki Parametre ayarları paneli için varsayılan değeri ayarlar. İlk seferden sonra, bu bireysel kullanıcı tercihi haline gelir.';
+$string['configpopup'] = 'Yeni kaynak eklenirken bu kaynak 
+açılır  bir pencerede gösterilebilir. Bu seçenek varsayılan olarak etkinleştirilsin mi?';
 $string['configpopupdirectories'] = 'Açılır pencereler dizin bağlantılarını gösterecek mi?';
 $string['configpopupheight'] = 'Yeni açılır pencereler için varsayılan yükseklik ne olsun?';
 $string['configpopuplocation'] = 'Açılır pencereler adres çubuğunu gösterecek mi?';
 $string['configpopupmenubar'] = 'Açılır pencereler menü çubuğunu gösterecek mi?';
-$string['configpopupresizable'] = 'Açılır pencereler yeniden boyutlandırılabilecek mi?';
-$string['configpopupscrollbars'] = 'Açılır pencereler kaydırma çubuğuna izin verecek mi?';
-$string['configpopupstatus'] = 'Açılır pencereler durum çubuğunu göstrecek mi?';
-$string['configpopuptoolbar'] = 'Açılır pencereler araç çubuğunu gösterecek mi?';
+$string['configpopupresizable'] = 'Açılır pencereler varsayılan olarak boyutlandırılabilir olmalı mı?';
+$string['configpopupscrollbars'] = 'Açılır pencereler varsayılan olarak kaydırılabilir olmalı mı?';
+$string['configpopupstatus'] = 'Açılır pencereler durum çubuğunu göstermeli mi?';
+$string['configpopuptoolbar'] = 'Açılır pencereler araç çubuğunu göstermeli mi?';
 $string['configpopupwidth'] = 'Yeni açılır pencereler için varsayılan genişlik ne olsun?';
+$string['configsecretphrase'] = 'Bu gizli tümcecik, bazı kaynaklara parametre olarak gönderilebelecek şifreli kod değerini üretmede kullanılır. Şifreli kod şu anki_kullanıcıların sizin gizli tümceciğiniz ile bitiştirilmiş IP adreslerinin md5 değeri ile üretilir. Kod=md5(IP.secretphrase). Bu, hedef kaynağın ek güvenlik için bağlantıyı doğrulamasına izin verir.';
+$string['configwebsearch'] = 'Bir web sayfası ya da web bağı olarak URL eklerken, bu konum kullanıcıya istediği URL için web aramasında yardımcı olacak bir site olarak sunulur.';
+$string['configwindowsettings'] = 'Bu, bazı yeni kaynaklar eklerken formdaki Windows ayarları paneli için varsayılan değeri ayarlar. İlk seferden sonra, bu bireysel kullanıcı tercihi haline gelir.';
 $string['deploy'] = 'Yerleştir';
 $string['deployall'] = 'Tümünü yerleştir';
 $string['directlink'] = 'Bu dosyaya direkt link';
@@ -46,12 +51,15 @@ $string['fetchservererror'] = 'Uzaktaki sunucudan bir web sayfası alınırken b
 $string['filename'] = 'Dosya adı';
 $string['filtername'] = 'Kaynak Adları Otomatik-Linkleme';
 $string['forcedownload'] = 'İndirmeye zorla';
-$string['frameifpossible'] = 'Site navigasyonunu görünür kılmak için kaynak frame içinde görünsün';
+$string['frameifpossible'] = 'Site gezintisini görünür kılmak için kaynağı çerçeve içine yerleştirin';
 $string['framesize'] = 'Çerçeve boyutu';
 $string['fulltext'] = 'Tam metin';
 $string['htmlfragment'] = 'HTML parçası';
 $string['imspackageloaded'] = 'Paket yüklendi';
-$string['keepnavigationvisible'] = 'Gezinti çubuğunu aynı sayfada tut';
+$string['keepnavigationvisible'] = 'Sayfa gezintisini aynı sayfada tutun';
+$string['keepnavigationvisibleno'] = 'Hayır';
+$string['keepnavigationvisibleyesframe'] = 'Evet, çerçeli';
+$string['keepnavigationvisibleyesobject'] = 'Evet, çerçevesiz';
 $string['localfile'] = 'Yerel dosya';
 $string['localfilechoose'] = 'Yerel bir dosya seçin (CD-ROM)';
 $string['localfilehelp'] = 'Yerel dosyaları gösterirken yardım et';
@@ -88,6 +96,7 @@ $string['packagechanged'] = 'Bu IMS İçerik Paketi değişti.';
 $string['packagenotdeplyed'] = 'Bu IMS İçerik Paketi yerleştirilmedi.';
 $string['pagedisplay'] = 'Bu kaynağı şu anki pencerede göster';
 $string['pagewindow'] = 'Aynı pencere';
+$string['pan'] = 'Yatay kaydırma';
 $string['parameter'] = 'Parametre';
 $string['parameters'] = 'Parametreler';
 $string['popupresource'] = 'Bu kaynak açılır pencere olarak görünsün.';
@@ -110,14 +119,14 @@ $string['resourcetype8'] = 'Wiki metni';
 $string['resourcetype9'] = 'Dizin';
 $string['resourcetypedirectory'] = 'Bir dizin göster';
 $string['resourcetypefile'] = 'Bir dosya/siteye bağlantı';
-$string['resourcetypehtml'] = 'Bir web sayfası oluştur';
-$string['resourcetypeims'] = 'IMS İçerik Paketi ekle';
-$string['resourcetypelabel'] = 'Yeni bir etiket ekle';
+$string['resourcetypehtml'] = 'Bir web sayfası oluşturun';
+$string['resourcetypeims'] = 'IMS İçerik Paketi ekleyinn';
+$string['resourcetypelabel'] = 'Yeni bir etiket ekleyin';
 $string['resourcetyperepository'] = 'Ambar nesnesine bağlantı';
-$string['resourcetypetext'] = 'Düzmetin dosyası oluştur';
-$string['searchweb'] = 'Web sayfasını ara';
+$string['resourcetypetext'] = 'Metin sayfası oluşturun';
+$string['searchweb'] = 'Web sayfasını arayın';
 $string['serverurl'] = 'Sunucu adresi ($a->wwwroot)';
-$string['showcourseblocks'] = 'Kurs bloklarını göster';
+$string['showcourseblocks'] = 'Ders bloklarını gösterin';
 $string['skipsubmenus'] = 'Alt-menü sayfalarını atla';
 $string['tableofcontents'] = 'İçerik Tablosu';
 $string['tableofcontentsabbrev'] = 'İçindekiler';

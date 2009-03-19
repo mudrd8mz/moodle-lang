@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addcomment'] = 'Yorum ekle';
@@ -116,6 +116,7 @@ $string['explainimport'] = 'Alınacak dosyayı ve işlem türünü belirtmeniz g
 $string['explainspecial'] = 'Bir harfle başlamayan kayıtları gösterir';
 $string['exportedentry'] = 'Verilen kayıt';
 $string['exportentries'] = 'Kayıtları ver';
+$string['exportentriestoxml'] = 'Kayıtları XML dosyasına ver';
 $string['exportfile'] = 'Kayıtları dosyaya ver';
 $string['exportglossary'] = 'Sözlüğü ver';
 $string['exporttomainglossary'] = 'Ana sözlüğe ver';
@@ -207,6 +208,6 @@ $string['warningstudentcapost'] = '(Ana kategoride değilse uygulanabilir)';
 $string['withauthor'] = 'Kavramlar (yazarıyla birlikte)';
 $string['withoutauthor'] = 'Kavramlar (yazarı olmadan)';
 $string['writtenby'] = 'yazan';
-$string['youarenottheauthor'] = 'Bu yorumun yazarı olmadığınızdan dolayı bu yorumu düzeltemezsiniz.';
+$string['youarenottheauthor'] = 'Bu yorumun yazarı olmadığınız için bu yorumu düzeltme izniniz yoktur.';
 
 ?>

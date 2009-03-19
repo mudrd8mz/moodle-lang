@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // tag.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addedotag'] = '\"$a\" kurumsal etiket olarak eklendi.';
@@ -43,19 +43,19 @@ $string['seeallblogs'] = '\"$a\" etiketli bütün bloglara bak...';
 $string['select'] = 'Seç';
 $string['tag'] = 'Etiket';
 $string['tagdescription'] = 'Etiket açıklaması';
-$string['tagindex_coursetitle'] = '\"$a\" ile etiketlenmiş dersler';
 $string['tags'] = 'Etiketler';
 $string['tagsaredisabled'] = 'Etiketler etkin değil';
 $string['tagtype'] = 'Etiket tipi';
 $string['tagtype_default'] = 'Varsayılan';
 $string['tagtype_official'] = 'Kurumsal';
+$string['thingstaggedwith'] = '\"$a->name\" ismiyle $a->count kayıt var';
 $string['thistaghasnodesc'] = 'Bu etiketin açıklaması henüz yok.';
 $string['timemodified'] = 'Düzenleme';
 $string['typechanged'] = 'Etiket tipi değiştirildi';
 $string['updated'] = 'Güncellendi';
 $string['updatetag'] = 'Güncelle';
-$string['userstaggedwith'] = '\"$a\" etiketli kullanıcılar';
 $string['withselectedtags'] = 'Seçilen etiketlerle...';
-$string['thingstaggedwith'] = '\"$a->name\" ismiyle $a->count kayıt var'; // ORPHANED
+$string['tagindex_coursetitle'] = '\"$a\" ile etiketlenmiş dersler'; // ORPHANED
+$string['userstaggedwith'] = '\"$a\" etiketli kullanıcılar'; // ORPHANED
 
 ?>

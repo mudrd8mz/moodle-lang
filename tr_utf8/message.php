@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // message.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addcontact'] = 'Kişi ekle';
 $string['addsomecontacts'] = 'Birilerine mesaj göndermek veya bu sayfada o kişiye ait bir kısayol oluşturmak için, yukarıdaki <a href=\"$a\">arama sekmesini</a> kullanın.';
 $string['addsomecontactsincoming'] = 'Bunlar kişi listenizde olmayan kullanıcılar tarafından gönderilen mesajlardır. Kullanıcıyı kişi listenize eklemek için, isminin yanındaki \"Kişi Ekle\" simgesine tıklayın.';
 $string['ago'] = '$a önce';
+$string['ajax_gui'] = 'Ajax sohbet odası';
 $string['allmine'] = 'Gelen ve giden bütün mesajlar';
 $string['allstudents'] = 'Kurstaki öğrenciler arasındaki bütün mesajlar';
 $string['allusers'] = 'Bütün kullanıcılardan bütün mesajlar';
@@ -23,7 +24,7 @@ $string['disabled'] = 'Mesajlaşma bu sitede etkinleştirilmemiş';
 $string['discussion'] = 'Tartışma';
 $string['editmymessage'] = 'Mesajlaşma';
 $string['emailmessages'] = 'Çevrimdışı olduğumda email gönder';
-$string['emailtagline'] = 'Bu email, size \"$a\" sitesinden gönderilen mesajların kopyasıdır';
+$string['emailtagline'] = 'Bu email, size \"$a\" tarafından gönderilen mesajların kopyasıdır';
 $string['emptysearchstring'] = 'Bir şeyler aramalısınız';
 $string['errorcallingprocessor'] = 'Tanımlı işleyici çağırırken hata';
 $string['formorethan'] = 'Bu süreyi geçerse';

@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block_course_summary.php - created with Moodle 1.6 development (2005101200)
+      // block_course_summary.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
-$string['coursesummary'] = 'Kurs Özeti';
+$string['coursesummary'] = 'Ders Özeti';
 $string['pagedescription'] = 'Ders/Site Açıklaması';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // role.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addrole'] = 'Yeni rol ekle';
@@ -21,26 +21,32 @@ $string['calendar:managegroupentries'] = 'Grup takvimi kayıtlarını yönet';
 $string['calendar:manageownentries'] = 'Kendisinin takvim kayıtlarını yönet';
 $string['capabilities'] = 'Yetkiler';
 $string['capability'] = 'Yetki';
-$string['category:create'] = 'Kategorileri oluştur';
-$string['category:delete'] = 'Kategorileri sil';
-$string['category:update'] = 'Kategorileri güncelle';
-$string['category:visibility'] = 'Gizli kategorilere bak';
-$string['course:activityvisibility'] = 'Etkinlikleri gizle/göster';
-$string['course:bulkmessaging'] = 'Birçok kişiye mesaj gönder';
-$string['course:create'] = 'Kursları oluştur';
-$string['course:delete'] = 'Kursları sil';
-$string['course:manageactivities'] = 'Etkinlikleri yönet';
-$string['course:managefiles'] = 'Dosyaları yönet';
-$string['course:managegrades'] = 'Başarı notlarını yönet';
-$string['course:managegroups'] = 'Grupları yönet';
-$string['course:managemetacourse'] = 'Metakursları yönet';
-$string['course:managescales'] = 'Ölçekleri yönet';
-$string['course:reset'] = 'Kursu temizle';
-$string['course:sectionvisibility'] = 'Bölüm gizliliğini değiştir';
-$string['course:setcurrentsection'] = 'Şimdiki bölümü ayarla';
+$string['category:create'] = 'Kategorileri oluşturun';
+$string['category:delete'] = 'Kategorileri silin';
+$string['category:manage'] = 'Kategorileri yönetin';
+$string['category:update'] = 'Kategorileri güncelleyin';
+$string['category:viewhiddencategories'] = 'Gizli kategorileri görün';
+$string['category:visibility'] = 'Gizli kategorileri görün';
+$string['course:activityvisibility'] = 'Etkinlikleri gizleyin/gösterin';
+$string['course:bulkmessaging'] = 'Birçok kişiye bir mesaj gönderin';
+$string['course:changefullname'] = 'Dersin tam adını değiştirin';
+$string['course:changeidnumber'] = 'Dersin ID numarasını değiştirin';
+$string['course:changeshortname'] = 'Dersin kısa adını değiştirin';
+$string['course:create'] = 'Dersleri oluşturun';
+$string['course:delete'] = 'Dersleri silin';
+$string['course:manageactivities'] = 'Etkinlikleri yönetin';
+$string['course:managefiles'] = 'Dosyaları yönetin';
+$string['course:managegrades'] = 'Notları yönetin';
+$string['course:managegroups'] = 'Grupları yönetin';
+$string['course:managemetacourse'] = 'Metadersleri yönetin';
+$string['course:managescales'] = 'Ölçekleri yönetin';
+$string['course:request'] = 'Yeni dersler isteyin';
+$string['course:reset'] = 'Dersi ilk duruma getirin';
+$string['course:sectionvisibility'] = 'Bölüm gizliliğini değiştirrin';
+$string['course:setcurrentsection'] = 'Şimdiki bölümü ayarlayın';
 $string['course:update'] = 'Kurs ayarlarını güncelle';
 $string['course:useremail'] = 'Eposta adreslerini etkinleştir/pasifleştir';
-$string['course:view'] = 'Kurslara bak';
+$string['course:view'] = 'Kurslara bakın';
 $string['course:viewcoursegrades'] = 'Kursun başarı notlarına bak';
 $string['course:viewhiddenactivities'] = 'Gizli etkinliklere bak';
 $string['course:viewhiddencourses'] = 'Gizli kurslara bak';

@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20080307) (2008030700)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
-$string['CASform'] = 'Yetkilendirme seçeneği';
+$string['CASform'] = 'Kimlik denetimi seçeneği';
 $string['accesCAS'] = 'CAS kullanıcıları';
 $string['accesNOCAS'] = 'diğer kullanıcılar';
-$string['actauthhdr'] = 'Etkin yetkilendirme eklentileri';
+$string['actauthhdr'] = 'Etkin kimlik denetimi eklentileri';
 $string['alternatelogin'] = 'Buraya bir URL girerseniz, sitenin giriş adresi olarak bu sayfa kullanılacaktır. Bu sayfa, eylemin <strong>\'$a\'</strong> olarak ayarlandığı, kullanıcı adı(<strong>username</strong>) ve şifre(<strong>password</strong>) alanlarını döndüren bir formdan oluşmalıdır.<br />Yanlış adres girmeniz durumunda kendi kendinizi bile site dışı bir yere kilitleyebilirsiniz.<br />Varsayılan giriş sayfasını kullanmak için burayı boş bırakın.';
 $string['alternateloginurl'] = 'Alternatif giriş URL';
 $string['auth_cas_auth_user_create'] = 'Harici kullanıcı oluştur';
@@ -168,6 +168,8 @@ $string['auth_nonedescription'] = 'Kullanıcılar, harici bir sunucu olmaksızı
 $string['auth_nonetitle'] = 'Yetki yok';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled_key'] = 'Etkinleştir';
+$string['auth_ntlmsso_ie_fastpath'] = 'NTLM SSO hızlı yolunu etkin kılmak için evet\'e ayarlayın (belli adımları atlar ve yalnızca istemcinin tarayıcısı MS Internet Explorer ise çalışır)';
+$string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE hızlı yol mu?';
 $string['auth_ntlmsso_subnet_key'] = 'Alt ağ';
 $string['auth_pamdescription'] = 'Bu yöntem, bu sunucudaki yerel kullanıcılara erişmek için PAM kullanır. Bu yöntemi kullanmak için <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Yetkilendirmesi</a>ni kurmanız gerekir.';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
@@ -194,12 +196,20 @@ $string['auth_radiusnasport_key'] = 'Bağlantı noktası';
 $string['auth_radiussecret'] = 'Paylaşımlı anahtar';
 $string['auth_radiussecret_key'] = 'Gizli';
 $string['auth_radiustitle'] = 'RADIUS sunucu';
+$string['auth_shib_auth_method'] = 'Kimlik Denetimi Yöntem Adı';
+$string['auth_shib_auth_method_description'] = 'Parola ile kimlik denetimi yöntemi için kullanıcılarınızın bildiği bir ad belirleyin. Bu Shibboleth federation adınız da olabilir. Örnek: <tt>SWITCHaai Girişi</tt> veya <tt>InCommon Girişi</tt> vb.';
 $string['auth_shib_changepasswordurl'] = 'Şifre değişim adresi';
 $string['auth_shib_convert_data'] = 'Veri düzenleme API';
 $string['auth_shib_convert_data_description'] = 'Shibboleth tarafından sağlanan veriyi daha fazla düzenlemek için bu API kullanılabilir. Daha fazla bilgi için <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">BENİOKU</a> dosyasını okuyun.';
 $string['auth_shib_convert_data_warning'] = 'Dosya yok veya sunucu tarafından okunabilir değil!';
+$string['auth_shib_idp_list'] = 'Kimlik Sağlayıcılar';
+$string['auth_shib_idp_list_description'] = 'Giriş sayfasında kullanıcının içinden seçim yapabileceği bir Kimlik Sağlayıcı varlık kimliği listesi oluşturun.<br/> Her bir satırda IdP\'nin varlık kimliği için virgülle ayrılmış bir kayıt bilgisi (bkz. Shibboleth metadata dosyası) ve aşağı doğru açılan listede görüntülenecek şekilde IdP adı olmalıdır.<br/> Üçüncü bir parametre seçeneği olarak da, eğer Moodle kurulumunuz çok federasyonlu bir düzeneğin parçasıysa kullanılacak olan bir Shibboleth oturum başlatıcısının yerini ekleyebilirsiniz.';
 $string['auth_shib_instructions'] = 'Kurumunuz shibboleth aracılığıyla erişimi destekliyorsa <a href=\"$a\">Shibboleth girişini</a> kullanın.<br />Diğer durumda, burada gösterilen normal giriş formunu kullanın.';
 $string['auth_shib_instructions_help'] = 'Kullanıcılarınıza Shibboleth\'ı açıklamak için burada yönergeleri yazabilirsiniz. Bu yönerge, giriş sayfasındaki yönergeler bölümünde gösterilecektir. Bu yönerge, kullanıcı giriş yapmak istediğinde \"<b>$a</b>\" adresini tıklayabileceği bir bağlantı içermelidir.';
+$string['auth_shib_integrated_wayf'] = 'Moodle WAYF Hizmeti';
+$string['auth_shib_integrated_wayf_description'] = 'Bunu seçerseniz, Moodle, Shibboleth için yapılandırılanın yerine kendi WAYF hizmetini kullanacaktır. Moodle, bu alternatif giriş sayfasında kullanıcının kendi Kimlik Sağlayıcısını seçmesi için aşağıya doğru açılan bir liste görüntüleyecektir.';
+$string['auth_shib_logout_url'] = 'Shibboleth Hizmet Sağlayıcı çıkış işleyicisi URL';
+$string['auth_shib_logout_url_description'] = 'Shibboleth Hizmet Sağlayıcısı çıkış işleyicisine URL sağlayın. Bu genellikle şudur: <tt>/Shibboleth.sso/Logout</tt>';
 $string['auth_shib_only'] = 'Sadece Shibboleth';
 $string['auth_shib_only_description'] = 'Shibboleth yetkilendirmesi uygulanacaksa bu seçeneği seçin';
 $string['auth_shib_username_description'] = 'Moodle kullanıcı adı olarak kullanılacak Shibboleth web sunucusu çevre değişkeninin adı';

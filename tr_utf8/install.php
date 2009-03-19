@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // install.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['aborting'] = 'Kurulum iptal ediliyor';
@@ -53,6 +53,7 @@ $string['databasecreationsettingssub'] = '<b>Tipi:</b> kurulum tarafından mysql
 <b>Kullanıcı:</b> kurulum tarafından root olarak sabitlendi<br />
 <b>Şifre:</b> kullanıcı şifresi<br />
 <b>Tablo öneki:</b> tüm tablo isimleri için isteğe bağlı önek';
+$string['databasehead'] = 'Veritabanı ayarları';
 $string['databasehost'] = 'Veritabanı sunucusu:';
 $string['databasename'] = 'Veritabanı adı:';
 $string['databasepass'] = 'Veritabanı parolası:';
@@ -123,6 +124,7 @@ $string['databasetype'] = 'Veritabanı tipi:';
 $string['databaseuser'] = 'Veritabanı kullanıcısı:';
 $string['dataroot'] = 'Veri Dizini';
 $string['datarooterror'] = 'Belirtilen \'Veri Dizini\' bulunamadı veya oluşturulamadı. Dizin yolunu düzenleyin veya bu dizini kendiniz oluşturun.';
+$string['datarootpublicerror'] = 'Belirttiğiniz \'Veri Dizini\' web üzerinden doğrudan erişilebilir, farklı dizin kullanmalısınız.';
 $string['dbconnectionerror'] = 'Belirtiğiniz veritabanına bağlantı kuramadık. Lütfen veritabanı ayarlarını kontrol edin.';
 $string['dbcreationerror'] = 'Veritabanı oluşturma hatası. Belirtilen ayarlardan sağlanan isimle bir veritabanı oluşturulamadı.';
 $string['dbhost'] = 'Veritabanı Sunucusu';
@@ -300,7 +302,6 @@ $string['sitenewsitems'] = 'Haber Öğeleri';
 $string['siteshortname'] = 'Site kısa adı:';
 $string['sitesummary'] = 'Site özeti:';
 $string['skipdbencodingtest'] = 'Veritabanı Dil Kodlama Testini Atla';
-$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Deneysel! (gerçek kullanım için değil)</strong></b>';
 $string['sqliteextensionisnotpresentinphp'] = 'PHP SQLite uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['tableprefix'] = 'Tablo öneki:';
 $string['upgradingactivitymodule'] = 'Etkinlik Modülü Güncelleniyor';
@@ -360,6 +361,7 @@ $string['writetoconfigfilefaild'] = 'Hata: Ayar dosyasına yazarken hata oluştu
 $string['wwwroot'] = 'Web adresi';
 $string['wwwrooterror'] = 'Web adresi doğru ayarlanmış görünmüyor. Moodle kurulumu belirtilen yerde görünmüyor.';
 $string['yourchoice'] = 'Seçiminiz:';
+$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Deneysel! (gerçek kullanım için değil)</strong></b>'; // ORPHANED
 $string['phpversionerror'] = 'PHP sürümü en az 4.3.0 veya 5.1.0 olmalı (5.0.x sürümünde çok fazla hata var)'; // ORPHANED
 
 ?>

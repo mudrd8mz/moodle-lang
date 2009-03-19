@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_randomsamatch.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // qtype_randomsamatch.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addingrandomsamatch'] = 'Rasgele kısa cevaplı eşleştirme sorusu ekleniyor';

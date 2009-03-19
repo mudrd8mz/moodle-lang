@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // data.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['action'] = 'Eylem';
@@ -49,6 +49,7 @@ $string['configenablerssfeeds'] = 'Bu seçenek tüm veritabanları için RSS iç
 $string['confirmdeletefield'] = 'Bu alanı silmek üzeresiniz, emin misiniz?';
 $string['confirmdeleterecord'] = 'Bu kaydı silmek istediğinizden emin misiniz?';
 $string['csstemplate'] = 'CSS şablonu';
+$string['csvfailed'] = 'Ham veri CSV dosyasından okunamadı';
 $string['csvfile'] = 'CSV dosyası';
 $string['csvimport'] = 'CSV dosya alma';
 $string['csvwithselecteddelimiter'] = 'Seçili ayraçlı <acronym title=\"Virgülle Ayrılmış Değerler\">CSV</acronym> metni:';
@@ -88,9 +89,10 @@ $string['editentry'] = 'Kaydı düzenle';
 $string['editordisable'] = 'Editörü kapat';
 $string['editorenable'] = 'Editörü aç';
 $string['emptyadd'] = 'Ekleme şablonu boş, varsayılan biçim oluşturuluyor...';
-$string['emptyaddform'] = 'Hiç bir alanı doldurmadınız!';
+$string['emptyaddform'] = 'Hiçbir alanı doldurmadınız!';
 $string['entries'] = 'Kayıtlar';
-$string['entrieslefttoadd'] = 'Diğer katılımcıların kayıtlarını görebilmek için $a->entriesleft kayıt daha eklemelisiniz.';
+$string['entrieslefttoadd'] = 'Bu etkinliği bitirmek için $a->entriesleft kayıt daha eklemelisiniz.';
+$string['entrieslefttoaddtoview'] = 'Diğer katılımcıların kayıtlarını görebilmek için $a->entrieslefttoview kayıt daha eklemelisiniz.';
 $string['entry'] = 'Kayıt';
 $string['entrysaved'] = 'Girdiniz kaydedildi';
 $string['errormustbeteacher'] = 'Bu sayfayı kullanmanız için eğitimci olmanız gerekiyor!';

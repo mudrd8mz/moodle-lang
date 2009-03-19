@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 2.0 dev (2007101506)
+      // access.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['access'] = 'Erişilebilirlik';

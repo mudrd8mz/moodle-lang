@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 2.0 dev (2007101508)
+      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addfeed'] = 'Haber içeriği URL:';
 $string['addheadlineblock'] = 'RSS başlık bloğu ekle';
 $string['addnew'] = 'Yeni Ekle';
 $string['blockname'] = 'RSS İstemcisi';
+$string['cannotmakemodification'] = 'Bu haber içeriğini şu anda değiştirme izniniz yok.';
 $string['choosefeedlabel'] = 'Bu blokta hangi içeriklerin etkin olacağını seçin:';
 $string['clientchannellink'] = 'Kaynak site...';
 $string['clientnumentries'] = 'Her bir içerikte görünen varsayılan kayıt sayısı';

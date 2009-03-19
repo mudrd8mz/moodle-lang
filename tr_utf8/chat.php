@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // chat.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['ajax'] = 'Kullanılan ajax sürümü';
@@ -12,6 +12,7 @@ $string['chat:deletelog'] = 'Sohbet kayıtlarını sil';
 $string['chat:exportparticipatedsession'] = 'Katılımcı sohbet oturumlarını dışa ver';
 $string['chat:exportsession'] = 'Sohbet oturumunu dışa ver';
 $string['chat:readlog'] = 'Sohbet kayıtlarına bak';
+$string['chat:talk'] = 'Sohbet et';
 $string['chatintro'] = 'Tanıtım metni';
 $string['chatname'] = 'Sohbet odasının adı';
 $string['chatreport'] = 'Sohbet oturumları';
@@ -38,6 +39,7 @@ $string['explainmethodnormal'] = 'Bu ayarlar, chat_method\'dan <strong>sadece</s
 $string['generalconfig'] = 'Genel yapılandırma';
 $string['helpchatting'] = 'Sohbet yardımı';
 $string['idle'] = 'Boş geçen';
+$string['inputarea'] = 'Girdi alanı';
 $string['invalidid'] = 'Bu sohbet odası bulunamadı!';
 $string['messagebeepseveryone'] = '$a herkese sesleniyor!';
 $string['messagebeepsyou'] = '$a size sesleniyor!';
@@ -57,6 +59,7 @@ $string['nomessages'] = 'Henüz mesaj yok';
 $string['normalkeepalive'] = 'KeepAlive(SürekliBağlantı)';
 $string['normalstream'] = 'Stream(Akım)';
 $string['noscheduledsession'] = 'Zamanlanmış oturum yok';
+$string['notallowenter'] = 'Sohbet odasına girme izniniz yok.';
 $string['notlogged'] = 'Giriş yapılmadı!';
 $string['oldping'] = 'Bağlantı kesimi zaman aşımı';
 $string['pastchats'] = 'Geçmiş sohbet oturumları';
@@ -67,6 +70,7 @@ $string['repeatdaily'] = 'Her gün aynı saatte';
 $string['repeatnone'] = 'Tekrar yok - sadece belirtilen vakitte';
 $string['repeattimes'] = 'Oturum tekrarları';
 $string['repeatweekly'] = 'Her hafta aynı vakitte';
+$string['saidto'] = '<b>kişiye dedi:</b>';
 $string['savemessages'] = 'Geçmiş oturumları kaydet';
 $string['seesession'] = 'Bu oturuma gözat';
 $string['send'] = 'Gönder';
@@ -80,6 +84,7 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Geçmiş oturumlara herkes gözatabilir';
 $string['updatemethod'] = 'Güncelleme türü';
 $string['updaterate'] = 'Güncelleme Sıklığı:';
+$string['userlist'] = 'Kullanıcı listesi';
 $string['viewreport'] = 'Geçmiş sohbet oturumlarına gözat';
 
 ?>

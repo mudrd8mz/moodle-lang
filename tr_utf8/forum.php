@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addanewdiscussion'] = 'Yeni tartışma konusu ekle';
@@ -8,11 +8,13 @@ $string['addanewtopic'] = 'Yeni konu ekle';
 $string['advancedsearch'] = 'Gelişmiş arama';
 $string['aggregateavg'] = 'Derecelendirme ortalaması';
 $string['aggregatecount'] = 'Derecelendirme sayısı';
+$string['aggregatecountformat'] = '$a->count (not: $a->grade)';
 $string['aggregatemax'] = 'En yüksek derecelendirme';
 $string['aggregatemin'] = 'En düşük derecelendirme';
 $string['aggregatenone'] = 'Derecelendirme yok';
 $string['aggregatesum'] = 'Derecelendirme toplamı';
 $string['aggregatetype'] = 'Toplam tipi';
+$string['ajaxrating'] = 'AJAX derecelendirmesini etkin kıl';
 $string['allforums'] = 'Tüm forumlar';
 $string['allowchoice'] = 'Herkesin seçmesine izin ver';
 $string['allowdiscussions'] = '$a bu foruma mesaj gönderebilir mi?';
@@ -21,6 +23,7 @@ $string['allowsallsubscribe'] = 'Bu foruma herkes abone olabilir';
 $string['allowsdiscussions'] = 'Bu forumda bir kişi bir tartışma konusu başlatabilir';
 $string['allsubscribe'] = 'Tüm forumlara abone ol';
 $string['allunsubscribe'] = 'Tüm forumlardan aboneliği kaldır';
+$string['alreadyfirstpost'] = 'Bu mesaj, zaten bu tartışmadaki ilk mesajdır.';
 $string['anyfile'] = 'Herhangi dosya';
 $string['areaintro'] = 'Forum tanıtımı';
 $string['attachment'] = 'Dosya';
@@ -51,6 +54,7 @@ $string['completionpostshelp'] = 'bitirmek için tartışma veya mesaj gereklili
 $string['completionreplies'] = 'Kullanıcı yanıt vermeli:';
 $string['completionrepliesgroup'] = 'Yanıt gerekli';
 $string['completionreplieshelp'] = 'bitirmek için yanıt gerekliliği';
+$string['configajaxrating'] = 'AJAX derecelendirmesi forum derecelendirmesinin kullanılırlığı ile ilgili bir yeniliktir. Etkin kılındığında, sayfanın en altına inmeye ve \'En son derecelendirmelerimi gönder\' tuşunu tıklamaya gerek kalmaksızın kullanıcılar forum mesajlarını neredeyse anında derecelendirebilirler. Bu ayar, AJAX\'ın site için ve kullanıcı profillerinde de etkin kılınmasını gerektirir.';
 $string['configcleanreadtime'] = 'Eski mesajların \'okunmuş\' tablosundan silineceği günün saati';
 $string['configdisplaymode'] = 'Hiç ayarlanmamışsa tartışmalar için görünüm modu';
 $string['configenablerssfeeds'] = 'Bu seçenek tüm forumlar için RSS içeriklerinin etkinleştirilmesine olanak sağlar. Her bir forum için tek tek ayar yapmanız gerekir.';
@@ -147,6 +151,7 @@ $string['invalidaccess'] = 'Bu sayfaya düzgün bir şekilde erişmediniz';
 $string['invaliddiscussionid'] = 'Tartışma ID hatalı';
 $string['invalidforumid'] = 'Forum ID hatalı';
 $string['invalidpostid'] = 'Hatalı Mesaj ID - $a';
+$string['invalidrate'] = 'Geçersiz derecelendirme ($a)';
 $string['lastpost'] = 'Son mesaj';
 $string['learningforums'] = 'Öğrenme forumları';
 $string['logblocked'] = 'Bloklanmış emaillerin günlük kaydı';
@@ -194,6 +199,7 @@ $string['noposts'] = 'Mesaj yok';
 $string['nopostscontaining'] = 'İçinde \'$a\' olan bir mesaj bulunamadı';
 $string['noquestions'] = 'Bu forumda henüz soru yok';
 $string['norate'] = 'Ögelerin derecelendirme izni yok!';
+$string['noratinggiven'] = 'Derece verilmemiş';
 $string['noresult'] = 'Bu gönderi için derecelendirme yok: $a';
 $string['nosubscribers'] = 'Bu forumun henüz abonesi yoktur';
 $string['nothingnew'] = '$a için yeni bir şey yok';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (2007101508)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['aftertable'] = 'Tablodan Sonra:';
@@ -10,9 +10,15 @@ $string['cannotuseidfield'] = '\"id\" alanı eklenemedi. Bu otomatik-artan bir s
 $string['change'] = 'Değiştir';
 $string['charincorrectlength'] = 'Char alanı için geçersiz uzunluk';
 $string['check_bigints'] = 'Hatalı DB sayılarını ara';
+$string['check_defaults'] = 'Varsayılan tutarsız değerleri arayın';
 $string['check_indexes'] = 'Hatalı DB indekslerini ara';
 $string['checkbigints'] = 'Büyük sayıları kontrol et';
+$string['checkdefaults'] = 'Varsayılanları Denetleyin';
 $string['checkindexes'] = 'İndeksleri kontrol et';
+$string['completelogbelow'] = 'aşağıdaki aramanın tam girişine bakın.';
+$string['confirmcheckbigints'] = 'Bu işlevsellik, <a href=\"http://tracker.moodle.org/browse/MDL-11038\">potansiyel olarak yanlış tam sayı alanlarını</a> Moodle sunucunuzda arayacak, bu da gerekli SQL ifadelerini doğru tanımlanan DB\'nizde otomatik üretir (ama uygulamaz!).<br /><br /> Üretildikten sonra bu tür ifadeleri kopyalayabilir ve sık kullanılan SQL arayüzünüzle güvenli bir şekilde uygulayabilirsiniz (bunu yapmadan önce verilerinizi yedeklemeyi unutmayın).<br /><br /> Yanlış tam sayı aramasını yapmadan önce Moodle yayımınızın (1.8,1.9,2.x...)mevcut en son (+sürümünü)çalıştırmanız önerilir.<br /><br /> Bu işlevsellik DB\'ye karşı herhangi bir eylemde bulunmayacağından (ondan yalnızca okur) her an güvenle uygulanabilir.';
+$string['confirmcheckdefaults'] = 'Bu işlevsellik Moodle sunumunda tutarsız varsayılan değerleri arayacak, tüm varsayılan değerleri düzgün tanımlayacak gerekli SQL ifadelerini üretecek (ama uygulamayacaktır!)<br /><br />  Üretildikten sonra bu tür ifadeleri kopyalayabilir ve sık kullanılan SQL arayüzünüzle güvenli bir şekilde uygulayabilirsiniz (bunu yapmadan önce verilerinizi yedeklemeyi unutmayın).<br /><br /> Yanlış tam sayı aramasını yapmadan önce Moodle yayımınızın (1.8,1.9,2.x...)mevcut en son (+sürümünü)çalıştırmanız önerilir.<br /><br /> Bu işlevsellik DB\'ye karşı herhangi bir eylemde bulunmayacağından (ondan yalnızca okur) her an güvenle uygulanabilir.';
+$string['confirmcheckindexes'] = 'Bu işlevsellik Moodle sunucunuzda potansiyel eksik indeksleri arayacak, bu da herşeyi güncel tutabilmek için gerekli SQL ifadelerini otomatik üretecek (ama uygulamayacaktır!)<br /><br /> Üretildikten sonra bu tür ifadeleri kopyalayabilir ve sık kullanılan SQL arayüzünüzle güvenli bir şekilde uygulayabilirsiniz (bunu yapmadan önce verilerinizi yedeklemeyi unutmayın).<br /><br /> Yanlış tam sayı aramasını yapmadan önce Moodle yayımınızın (1.8,1.9,2.x...)mevcut en son (+sürümünü)çalıştırmanız önerilir.<br /><br /> Bu işlevsellik DB\'ye karşı herhangi bir eylemde bulunmayacağından (ondan yalnızca okur) her an güvenle uygulanabilir.';
 $string['confirmdeletefield'] = 'Alanı tamamen silmek istediğinizden emin misiniz:';
 $string['confirmdeleteindex'] = 'İndeksi tamamen silmek istediğinizden emin misiniz:';
 $string['confirmdeletekey'] = 'Anahtarı tamamen silmek istediğinizden emin misiniz:';
@@ -63,11 +69,12 @@ $string['load'] = 'Yükle';
 $string['main_view'] = 'Ana Görünüm';
 $string['missing'] = 'Eksik';
 $string['missingfieldsinsentence'] = 'Tümcede alanlar eksik';
-$string['missingindexes'] = 'Eksik İndekler Bulundu';
+$string['missingindexes'] = 'Eksik İndeksler Bulundu';
 $string['missingvaluesinsentence'] = 'Tümcede değerler eksik';
 $string['mustselectonefield'] = 'Alan ilişkili eylemleri görmek için bir alan seçmelisiniz!';
 $string['mustselectoneindex'] = 'Index ilişkili eylemleri görmek için bir index seçmelisiniz!';
 $string['mustselectonekey'] = 'Anahtar ilişkili eylemleri görmek için bir anahtar seçmelisiniz!';
+$string['mysqlextracheckbigints'] = 'MySQL altında ayrıca yanlış';
 $string['new_statement'] = 'Yeni Tümce';
 $string['new_table_from_mysql'] = 'MySQL\'den Yeni Tablo';
 $string['newfield'] = 'Yeni Alan';
@@ -77,6 +84,9 @@ $string['newsentence'] = 'Yeni Tümce';
 $string['newstatement'] = 'Yeni İfade';
 $string['newtable'] = 'Yeni Tablo';
 $string['newtablefrommysql'] = 'MySQL\'den Yeni Tablo';
+$string['nomissingindexesfound'] = 'Hiçbir eksik indeks bulunmadı, DB\'nizin başka bir eyleme gereksinimi yoktur.';
+$string['nowrongdefaultsfound'] = 'Hiçbir varsayılan tutarsız değer bulunmadı, DB\'nizin başka bir eyleme gereksinimi yoktur.';
+$string['nowrongintsfound'] = 'Hiçbir yanlış tam sayı bulunmadı, DB\'nizin başka bir eyleme gereksinimi yoktur.';
 $string['numberincorrectdecimals'] = 'Sayı alanı için geçersiz ondalık basamak sayısı';
 $string['numberincorrectlength'] = 'Sayı alanı için geçersiz uzunluk';
 $string['reserved'] = 'Rezerve edilmiş';
@@ -112,9 +122,15 @@ $string['vieworiginal'] = 'Orijinaline Bak';
 $string['viewphpcode'] = 'PHP Koduna Bak';
 $string['viewsqlcode'] = 'SQL Koduna Bak';
 $string['wrong'] = 'Hatalı';
+$string['wrongdefaults'] = 'Yanlış varsayılanlar bulundu';
 $string['wrongints'] = 'Hatalı Sayılar Bulundu';
 $string['wronglengthforenum'] = 'Enum alanı için geçersiz uzunluk';
 $string['wrongnumberoffieldsorvalues'] = 'Tümcede alanın veya değerin sayısı geçersiz';
 $string['wrongreservedwords'] = 'Rezerve Edilmiş Sözcükler<br />$CFG->prefix kullanılıyorsa tablo isimleri önemli değildir.';
+$string['yesmissingindexesfound'] = 'DB\'nizde bazı eksik indeksler bulundu. Bunların ayrıntıları ve tümünü oluşturmak için sık kullanılan SQL arayüzünüzle çalıştırılacak gerekli SQL ifadeleri buradadır. (bunu yapmadan önce verilerinizi yedeklemeyi unutmayın).<br /><br />Bunu yaptıktan sonra, başka eksik indekslerin bulunmadığını tekrar denetlemek için bu işlevi yürütmek ısrarla önerilir.';
+$string['yeswrongdefaultsfound'] = 'DB\'nizde bazı tutarsız varsayılanlar bulundu. Bunların ayrıntıları ve tamamını düzeltmek için sık kullanılan SQL arayüzünüzle çalıştırılacak gerekli SQL ifadeleri buradadır.(bunu yapmadan önce verilerinizi yedeklemeyi unutmayın).<br /><br />Bunu yaptıktan sonra, başka tutarsız varsayılanların bulunmadığını tekrar denetlemek için bu işlevi yürütmek ısrarla önerilir.';
+$string['yeswrongintsfound'] = 'DB\'nizde bası yanlış tam sayılar bulundu. Bunların ayrıntıları ve tamamını oluşturmak için sık kullanılan SQL arayüzünüzle çalıştırılacak gerekli SQL ifadeleri buradadır.(bunu yapmadan önce verilerinizi yedeklemeyi unutmayın).<br /><br />Bunu yaptıktan sonra, başka yanlış tam sayıların bulunmadığını tekrar denetlemek için bu işlevi yürütmek ısrarla önerilir.';
+$string['butis'] = 'Ancak'; // ORPHANED
+$string['shouldbe'] = '... olsa daha iyi olur'; // ORPHANED
 
 ?>

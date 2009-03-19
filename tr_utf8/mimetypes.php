@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mimetypes.php - created with Moodle 1.6 Beta 3 (2006041900)
+      // mimetypes.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['application/msword'] = 'Word belgesi';
@@ -13,7 +13,7 @@ $string['document/unknown'] = 'Dosya';
 $string['image/bmp'] = 'Sıkıştırılmamış BMP resmi';
 $string['image/gif'] = 'GIF resmi';
 $string['image/jpeg'] = 'JPEG resmi';
-$string['text/plain'] = 'Düzyazı dosyası';
+$string['text/plain'] = 'Metin dosyası';
 $string['text/rtf'] = 'RTF belgesi';
 
 ?>

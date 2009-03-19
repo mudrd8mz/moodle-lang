@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080731) (2008073104)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['adminacceptccs'] = 'Hangi kredi kartı tipleri kabul edilecek?';

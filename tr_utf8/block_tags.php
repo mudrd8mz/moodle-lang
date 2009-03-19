@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tags.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // block_tags.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['add'] = 'Ekle';
@@ -19,19 +19,20 @@ $string['editmytags'] = 'Etiketlerim - etiketliğiniz derslere kısayollar';
 $string['editmytagsfor'] = '$a için etiketlerimi düzenle';
 $string['editnopersonaltags'] = 'Henüz kişisel bir etiket oluşturulmamış.';
 $string['edittags'] = 'Etiketlerimi düzenle...';
-$string['edittagthisunit'] = 'Bu derse etiket ekle';
+$string['edittagthisunit'] = 'Bu derse etiket ekle:';
 $string['editthiscoursetags'] = 'Bu ders için etiketlerim: $a';
 $string['edittitle'] = 'Etiketlerim';
 $string['entries'] = 'girdiler';
 $string['entry'] = 'girdi';
 $string['jserror1'] = 'Etiketler en az 2, en fazla 50 karakter olmalıdır. Lütfen etiketi yeniden düzenleyin.';
+$string['jserror2'] = 'Etiketler, bir veya daha fazla özel karakter içeremez. Lütfen etiketinizi ayarlayın.';
 $string['login'] = 'giriş';
 $string['more'] = 'dahası...';
 $string['moreorder'] = 'Sırala:';
 $string['moreorderalpha'] = 'Alfabetik';
-$string['moreorderdate'] = 'Oluşturulma tarihi';
+$string['moreorderdate'] = 'Oluşturma tarihi';
 $string['moreorderpop'] = 'Popülerlik';
-$string['moreshow'] = 'Göster';
+$string['moreshow'] = 'Göster:';
 $string['moreshowalltags'] = 'Tüm etiketler';
 $string['moreshowcommtags'] = 'Topluluk etiketleri';
 $string['moreshowcoursetags'] = '\'$a\' için etiketler';
@@ -52,6 +53,7 @@ $string['officialtags2'] = 'Kurumsal kurs etiketlerini göster';
 $string['please'] = 'Lütfen';
 $string['select'] = 'Seçin...';
 $string['showcoursetags'] = 'Ders etiketlerini göster';
+$string['showcoursetagsdef'] = 'Öğrencilerin dersleri etiketleyebilmesi için etiket bloklarında etiketleme özelliklerini göster.';
 $string['tags'] = 'etiketler';
 $string['tagthisunit'] = 'Bu dersi etiketle:';
 $string['tagunits'] = 'beğenilen dersleri etiketlemek için';

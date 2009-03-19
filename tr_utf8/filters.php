@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (2007101506)
+      // filters.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['actfilterhdr'] = 'Etkin süzgeçler';
@@ -12,6 +12,8 @@ $string['anyvalue'] = 'herhangi değer';
 $string['categoryrole'] = 'Kategori rolü';
 $string['contains'] = 'içerirse';
 $string['courserole'] = 'Kurs rolü';
+$string['courserolelabel'] = '$a->label $a->categoryname\'den $a->coursename içrerisinde bir $a->rolename';
+$string['courserolelabelerror'] = '$a->label hata: ders $a->coursename mevcut değil';
 $string['datelabelisafter'] = '$a->label, $a->after\'dan sonradır';
 $string['datelabelisbefore'] = '$a->label, $a->before\'dan öncedir';
 $string['datelabelisbetween'] = '$a->label, $a->after ve $a->before arasındadır';

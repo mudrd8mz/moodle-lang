@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.8 dev (2006101001)
+      // exercise.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['absent'] = 'Yok';
@@ -33,6 +33,7 @@ $string['delete'] = 'Sil';
 $string['deletesubmissionwarning'] = 'Dikkat: Bu gönderi ile ilişkilendirilmiş $a değerlendirme var. <br/>Bu gönderinin silinMEMESİ şiddetle önerilir.';
 $string['deleting'] = 'Siliniyor';
 $string['description'] = 'Açıklama';
+$string['descriptionofexercise'] = 'Bir alıştırma ödevinde yapılması beklenen alıştırmanın ya da görevin betimlemesi $a tarafından Word belgesi ya da HTML dosyası halinde yapılır. Bu dosya ödev $a\'ya açılmadan önce alıştırma halinde yüklenir. Aynı alıştırma ya da görev üzerinde bir değişkenler dizisi oluşturup bunları $a\'ya açılmadan önce alıştırma halinde yüklemek de mümkündür.';
 $string['detailsofassessment'] = 'Değerlendirme Ayrıntıları';
 $string['displayoffinalgrades'] = 'Final Notlarının Gösterimi';
 $string['doubleupload'] = 'Uyarı: Bu gönderi muhtemelen iki kez gönderilmiş. Yönetim sayfasına gidin ve bu kullanıcıdan kısa süre içinde gelen iki gönderiyi kontrol edin. İşleme başlamadan önce bu gönderilerin birini silin.';
@@ -43,6 +44,7 @@ $string['element'] = 'Öge';
 $string['elementweight'] = 'Öge Ağırlığı';
 $string['enterpassword'] = 'Parola Giriniz';
 $string['entriessaved'] = 'Kayıtlar Kaydedildi';
+$string['errorbanded'] = 'Hata bantlı';
 $string['excellent'] = 'Mükemmel';
 $string['exercise:assess'] = 'Alıştırmaları değerlendir';
 $string['exerciseassessments'] = 'Alıştırma Değerlendirmeleri';
@@ -84,9 +86,13 @@ $string['noexercisedescriptionssubmitted'] = 'Alıştırma Açıklaması Gönder
 $string['nosubmissions'] = 'Gönderi Yok';
 $string['notassessedyet'] = 'Henüz Değerlendirilmedi';
 $string['notavailable'] = 'Ulaşılamaz';
+$string['noteonassessmentelements'] = 'Notlandırmanın bir dizi \'Değerlendirme Öğesi\'ne bölündüğünü unutmayın.<br />Bu notlandırmayı daha basit ve tutarlı kılar. Eğitimci olarak ödevi öğrencilere sunmadan önce bu<br />öğeleri eklemeniz gerekir. Bu,<br />derste ödev üzerine tıklayarak yapılır, eğer hiçbir öğe mevcut değilse sizden<br />eklemeniz istenecektir. Ödev düzeltme ekranını kullanarak öğelerin sayısını değiştirebilirsiniz,<br />öğeler kendi kendilerine de \"Ödev Yönetme\" ekranından düzeltilebilir.';
+$string['noteongradinggrade'] = 'Bu not, sizin değerlendirmenizin, <br />çalışmanızın $a tarafından değerlendirmesiyle ne kadar iyi bir uyum içerisinde olduğunun ölçümüdür. Not ne kadar yüksekse, uyuma da o kadar yaklaşılmıştır.';
 $string['noteonstudentassessments'] = '{Öğrenciden not / Ödev için Notlandırma}';
 $string['notgraded'] = 'Notlandırılmadı';
 $string['notitlegiven'] = 'Başlık verilmedi';
+$string['numberofassessmentelements'] = 'Yorum Sayısı, Değerlendirme Öğeleri, Not bantları, Bir Bölümdeki Ölçüt İfadeleri ya da Kategorileri';
+$string['numberofcriterionelements'] = 'Ölçüt öğelerinin sayısı birden büyük olmalıdır.';
 $string['numberofentries'] = 'Kayıt Sayıları';
 $string['numberofentriesinleaguetable'] = 'Not Çizelgesindeki Kayıt Sayısı';
 $string['numberofnegativeresponses'] = 'Olumsuz Yanıt Sayısı';
@@ -101,7 +107,10 @@ $string['phase2'] = '$a Değerlendirme ve Gönderilerine İzin Ver';
 $string['phase2short'] = 'Açık';
 $string['phase3'] = 'Tüm Notları ve Not Çizelgesini Göster';
 $string['phase3short'] = 'Gösterim';
-$string['pleasesubmityourwork'] = 'Lütfen ödevinizi u formu kullanarak gönderin';
+$string['pleasegradetheassessment'] = 'Lütfen $a tarafından yapılmış bu işin değerlendirmesini notlandırın';
+$string['pleasemakeyourownassessment'] = '$a tarafından yapılmış bu iş için lütfen kendi değerlendirmenizi yapın.<br /> Değerlendirme Formunun öncelikle Öğrencinin değerlendirmesiyle görüntülendiğini unutmayın.<br /> Gerekli olduğunu düşündüğünüz tüm düzeltmeleri yapıp sayfa sonundaki butonlardan <br /> birine tıklayın.';
+$string['pleasesubmityourwork'] = 'Lütfen ödevinizi bu formu kullanarak gönderin';
+$string['pleaseusethisform'] = 'Aşağıda gösterilen alıştırmadaki yönergeleri <br />bitirdikten sonra lütfen bu formu doldurun.';
 $string['pleaseviewtheexercise'] = 'Lütfen aşağıda başlığını tıklayarak alıştırmaya bakın.<br />Alıştırmadaki yönergeleri takip edin.<br />Alıştırmayı başarıyla tamamlayıp mutlu olduğunuzda <br />Değerlendir (veya Tekrar Değerlendir) bağlantısını tıklayabilirsiniz.<br />Bunu bitirdiğinizde ödeviniz için daha fazla yönerge gösterilecektir.';
 $string['poor'] = 'Kötü';
 $string['present'] = 'Var';
@@ -109,6 +118,8 @@ $string['reasonforadjustment'] = 'Genel Yorum / Ayar Sebebi';
 $string['reassess'] = 'Tekrar Değerlendir';
 $string['regradestudentassessments'] = 'Öğrenci değerlendirmelerini tekrar notlandır';
 $string['resubmissionfor'] = '$a için Tekrar gönderim';
+$string['resubmitnote'] = '* $a\'nın bu gönderimi yeniden yapma izni olduğu anlamına gelir. <br /> Bu işaret, yeniden değerlendirme yaparak ve <b> üzerinde <br /> tuşlayarak her gönderime izin verilebilir. Öğrenci </b> herhangi bir gönderiminde işaretli <b> olduğu sürece gönderimini yineleyebilir.';
+$string['rubric'] = 'Bölüm';
 $string['savedok'] = 'Kaydedildi';
 $string['saveentries'] = 'Girdileri Kaydet';
 $string['savemyassessment'] = 'Değerlendirmemi Kaydet';
@@ -145,6 +156,7 @@ $string['theexercise'] = 'Alıştırma';
 $string['theexerciseandthesubmissionby'] = 'Alıştırma ve $a tarafından Gönderi';
 $string['thegradeis'] = 'Not: $a';
 $string['thereisfeedbackfromthe'] = '$a\'dan geribildirim var';
+$string['thisisaresubmission'] = 'Bu $a tarafından bir yeniden gönderimdir.<br /> Önceki gönderileri ile ilgili sizin değerlendirmeniz gösterilmektedir.<br />Yeni gönderiye baktıktan sonra, lütfen bu değerlendirmeyi<br /> düzeltip sayfa sonundaki butonlardan birini tuşlayın.';
 $string['title'] = 'Başlık';
 $string['typeofscale'] = 'Ölçek Tipi';
 $string['unassessed'] = '$a Değerlendirilmemiş';

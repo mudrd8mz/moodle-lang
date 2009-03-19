@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.8 dev (2006102600)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['action'] = '-- Eylem --';
@@ -135,6 +135,7 @@ $string['readonly'] = 'Sadece okunabilir sayfa';
 $string['refs'] = 'Referanslar';
 $string['reloadlinkdescription'] = 'Sayfayı yeniden yükler ve böylece yeni içerik gösterilir.';
 $string['reloadlinktext'] = 'Bu sayfayı yeniden yükle';
+$string['removenotice'] = 'Burada yalnızca göndermede bulunulmamış sayfalar listelenecektir. Ewiki makinesi bir sayfaya gönderme yapılıp yapılmadığıyla ilgili yalnızca sınırlı sınama yaptığı için, burada bazılarını kaçırabilir.<br />Ancak ilk olarak bir sayfayı boşaltırsanız, o burada da listelenecektir. Muhtelif başka veritabanı tanılaması da yapılır.';
 $string['removepagecheck'] = 'Bu sayfaları silmek istediğinizden emin misiniz?';
 $string['removepages'] = 'Sayfaları sil';
 $string['removeselectedpages'] = 'Seçili sayfaları sil';

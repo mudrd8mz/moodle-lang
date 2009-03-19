@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (Build: 20080611) (2008051202)
+      // form.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['addfields'] = 'Forma $a alan ekle';
@@ -34,6 +34,8 @@ $string['security'] = 'Güvenlik';
 $string['selectallornone'] = 'Tümünü seç/seçme';
 $string['showadvanced'] = 'Gelişmişi Göster';
 $string['somefieldsrequired'] = 'Bu formda $a işaretli alanlar gereklidir.';
+$string['time'] = 'Zaman';
+$string['timeunit'] = 'Zaman birimi';
 $string['timing'] = 'Süre';
 $string['unmaskpassword'] = 'Görüntüle';
 $string['year'] = 'Yıl';

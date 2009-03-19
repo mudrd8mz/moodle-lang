@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['1day'] = '1 Gün';
@@ -451,6 +451,7 @@ $string['quiz:grade'] = 'Uygulamalara gözat';
 $string['quiz:ignoretimelimits'] = 'Sınavlardaki zaman sınırını yoksay';
 $string['quiz:manage'] = 'Uygulamaları yönet';
 $string['quiz:preview'] = 'Uygulamalara gözat';
+$string['quiz:reviewmyattempts'] = 'Kendi denemelerinizi gözden geçirin';
 $string['quiz:view'] = 'Sınav bilgisine bak';
 $string['quiz:viewreports'] = 'Sınav raporlarına bak';
 $string['quizavailable'] = 'Sınav şu tarihe kadar açıktır: $a';

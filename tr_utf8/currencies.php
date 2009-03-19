@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.9 dev (2007021400)
+      // currencies.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['AED'] = 'Birleşik Arap Emirlikleri Dirhemi';
