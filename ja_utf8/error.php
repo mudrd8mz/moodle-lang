@@ -4,6 +4,7 @@
 
 $string['TODO'] = 'TODO';
 $string['adminprimarynoedit'] = '主管理者は、他のユーザから編集することはできません。';
+$string['authnotexisting'] = '認証プラグインがありません。';
 $string['authorizeerror'] = '認証エラー';
 $string['backupcontainexternal'] = 'このバックアップファイルには、ローカルに設定されていない外部Moodleネットワークホストが含まれています。';
 $string['backuptablefail'] = 'バックアップテーブルが正常に設定されていません!';
