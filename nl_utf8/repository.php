@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
 
 
 $string['activaterep'] = 'Actieve opslagruimten';
@@ -17,6 +17,7 @@ $string['attachment'] = 'Bijlage';
 $string['back'] = '&lt; Terug';
 $string['cachecleared'] = 'Cache-bestanden zijn verwijderd';
 $string['cacheexpire'] = 'Cache verloopt';
+$string['cannotinitplugin'] = 'Call plugin_init mislukt';
 $string['cleancache'] = 'Verwijder cache-bestanden';
 $string['clicktohide'] = 'Klik hier om te verbergen';
 $string['clicktoshow'] = 'Klik hier om te tonen';
@@ -83,6 +84,7 @@ $string['saving'] = 'Bewaren';
 $string['search'] = 'Zoek';
 $string['searching'] = 'Wat zoek je?';
 $string['settings'] = 'Instellingen';
+$string['setupdefaultplugins'] = 'Instellen van de standaard opslagruimten';
 $string['siteinstances'] = 'Verwijzingen naar opslagruimten van de site';
 $string['size'] = 'Grootte';
 $string['submit'] = 'Verstuur';

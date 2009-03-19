@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (Build: 20080605) (2008051202)
+      // form.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
 
 
 $string['addfields'] = 'Voeg $a velden toe aan formulier';
@@ -34,6 +34,8 @@ $string['security'] = 'Beveiliging';
 $string['selectallornone'] = 'Kies alle/geen';
 $string['showadvanced'] = 'Toon geavanceerd';
 $string['somefieldsrequired'] = 'Er zijn vereiste velden in dit formulier';
+$string['time'] = 'Tijd';
+$string['timeunit'] = 'Tijdseenheid';
 $string['timing'] = 'Timing';
 $string['unmaskpassword'] = 'Toon';
 $string['year'] = 'Jaar';

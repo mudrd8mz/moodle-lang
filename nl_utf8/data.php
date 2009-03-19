@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20081216) (2008121000)
+      // data.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
 
 
 $string['action'] = 'Actie';
@@ -49,6 +49,7 @@ $string['configenablerssfeeds'] = 'Met deze knop kun je RSS-feeds toelaten voor 
 $string['confirmdeletefield'] = 'Je gaat dit veld verwijderen. Ben je zeker?';
 $string['confirmdeleterecord'] = 'Je gaat deze record verwijderen. Ben je zeker?';
 $string['csstemplate'] = 'CSS';
+$string['csvfailed'] = 'Kon de gegevens niet ut het CSV-bestand halen';
 $string['csvfile'] = 'CSV-bestand';
 $string['csvimport'] = 'Imorteer CSV-bestand';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym> tekst met het gekozen scheidingsteken:';
@@ -115,6 +116,7 @@ $string['fieldheightsingleview'] = 'Hoogte in scherm per lijn';
 $string['fieldids'] = 'Veld identiteit';
 $string['fieldmappings'] = 'Veldverwijzingen';
 $string['fieldname'] = 'Veldnaam';
+$string['fieldnotmatched'] = 'Volgende velden in je bestand zijn niet bekend in de databank: $a';
 $string['fieldoptions'] = 'Opties (Eén per lijn)';
 $string['fields'] = 'Velden';
 $string['fieldupdated'] = 'Veld geüpdatet';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -140,6 +140,7 @@ $string['configenabletrusttext'] = 'Moodle zal altijd tekst, afkomstig van gebru
 $string['configenablewebservices'] = 'Webservices maken het mogelijk dat andere systemen aanmelden in deze Moodle-installatie en acties uitvoeren. Voor extra veiligheid moet dit uitgeschakeld worden tenzij je het echt gebruikt.';
 $string['configenrolmentplugins'] = 'Kies de aanmeldingsplugins die je wil gebruiken. Vergeet niet om de instellingen er van behoorlijk te configureren.<br /><br />Je moet aangeven welke plugins ingeschakeld zijn, en <strong>één</strong> plugin kan als standaard plugin voor <em>interactieve</em> aanmelding gekozen worden. Om deze interactieve aanmelding uit te schakelen, zet je \"Aanmelden in de cursus mogelijk\" op \"Nee\" in de bedoelde cursus.';
 $string['configerrorlevel'] = 'Kies hoeveel PHP-waarschuwingen je wilt dat Moodle laat zien. \'Normaal\' is meestal de beste keuze.';
+$string['configexperimentalsplitrestore'] = 'Indien ingeschakeld worden backupbestanden van cursussen gecontroleerd op XML-fouten en worden ze in kleinere stukken verdeeld om te gebruiken in het terugzetten. Het terugzetten zal robuuster zijn en de uitvoertijd voor middelgrote en grote cursussen zou korter moeten zijn.';
 $string['configextendedusernamechars'] = 'Schakel deze optie in om het mogelijk te maken dat gelijk welke karakters in de gebruikersnaam gebruikt kunnen worden (merk op dat deze instelling geen invloed heeft op de voornaam of achternaam). De standaardinstelling is \"false\", wat ervoor zorgt dat alleen alfanumerieke tekens gebruikt kunnen worden.';
 $string['configextrauserselectorfields'] = 'Wanneer gebruikers geselecteerd worden, bijvoorbeeld wanneer je rollen toewijst of gebruikers aan een groep toevoegt, dan zullen deze velden getoond worden naast de volledige namen, en zullen bij zoeken mee doorzocht worden.
 Om beveiligingsreden wordt het tonen van gebruikersnamen afgeraden.';
@@ -407,6 +408,7 @@ $string['everyonewhocan'] = 'Iedereen die kan \'$a\'';
 $string['exceptions'] = 'uitzonderingen';
 $string['experimental'] = 'Experimenteel';
 $string['experimentalsettings'] = 'Experimentele instellingen';
+$string['experimentalsplitrestore'] = 'Experimenteel gesplitst terugzetten';
 $string['extendedusernamechars'] = 'Uitgebreide tekenset in gebruikersnamen toestaan';
 $string['extrauserselectorfields'] = 'Wanneer je gebruikers selecteert, zoekt en toont.';
 $string['fatalmagicquotesruntime'] = '<p>Ernstige configuratiefout gevonden. Verwittig je serverbeheerder.</p><p>Om goed te functioneren moet de beheerder de PHP-instellingen aanpassen.</p><p><code>magic_quotes_runtime</code> moet op<code>off</code> gezet worden.</p><p>Deze instelling kan gewijzigd worden door het bestand <code>php.ini</code>, Apache/IIS <br />-configuratie of het bestand <code>.htaccess</code> op de server aan te passen.</p>';

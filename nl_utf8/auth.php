@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
@@ -274,12 +274,21 @@ $string['auth_remove_suspend'] = 'Blokkeer interne gegevens';
 $string['auth_remove_user'] = 'Geef op wat er moet gebeuren met interne gebruikersaccounts gedurende een volledige synchronisatie wanneer de gebruiker verwijderd was van de externe bron.
 Enkel geblokkeerde gebruikers worden automatisch terug geactiveerd wanneer ze terug in de externe bron verschijnen.';
 $string['auth_remove_user_key'] = 'Externe gebruiker verwijderd';
+$string['auth_shib_auth_method'] = 'Naam authenticatiemethode';
+$string['auth_shib_auth_method_description'] = 'Geef een naam voor de Shibboleth authenticatiemethode die bekend is voor je gebruikers. Dit zou de naam van je Shibboleth federatie kunnen zijn, vb. <tt>SWITCHaai Login</tt> of <tt>InCommon Login</tt> of gelijkaardig:';
 $string['auth_shib_changepasswordurl'] = 'URL om wachtwoord te wijzigen';
 $string['auth_shib_convert_data'] = 'Data wijzigings-API';
 $string['auth_shib_convert_data_description'] = 'Je kunt deze API gebruiken om de gegevens die Shibboleth geeft verder aan te passen. Lees <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> voor verder instructies.';
 $string['auth_shib_convert_data_warning'] = 'Het bestand bestaat niet of is niet leesbaar voor het webserverproces!';
+$string['auth_shib_idp_list'] = 'Identiteitsproviders';
 $string['auth_shib_instructions'] = 'Gebruik de <a href=\"$a\">Shibboleth login</a> om toegang te krijgen via Shibboleth als je instituut dat ondersteund.<br />Gebruik anders het gewone loginformulier.';
 $string['auth_shib_instructions_help'] = 'Hier zou je aangepaste instructies moeten geven om je gebruikers Shibboleth uit te leggen. Die instructies zullen getoond worden op de login-pagina in het gedeelte voor instructies. Er zou een link naar \"<b>$a</b>\" moeten instaan, zodat gebruikers gemakkelijk kunnen inloggen. Als je dit blanco laat, dan zullen de standaardinstructies getoond worden (niet specifiek voor Shibboleth).';
+$string['auth_shib_integrated_wayf'] = 'Moodle WAYF Service';
+$string['auth_shib_integrated_wayf_description'] = 'Als je dit inschakeld zal Moodle zijn eigen WAYF service gebruiken in plaats van degene die vor Shibboleth geconfigureerd is. Moodle zal een rolmenu tonen op deze alternatieve loginpagina waar de gebruiker zijn identiteitsprovider kan kiezen.';
+$string['auth_shib_logout_return_url'] = 'Alternatieve URL om naar terug te keren bij afmelden';
+$string['auth_shib_logout_return_url_description'] = 'Geef de URL waarnaar Shibboleth-gebruikers zullen gebracht worden bij afmelden.<br/>Indien niet ingevuld zullen gebruikers naar de locatie gebracht worden waarnaar Moodle ze brengt.';
+$string['auth_shib_logout_url'] = 'Shibollet Service Provider URL voor afmelden';
+$string['auth_shib_logout_url_description'] = 'Geef de URL aan de Shibboleth Service Provider voor afmelden. Dit is typisch <tt>Shibboleth.sso/Logout</tt>';
 $string['auth_shib_no_organizations_warning'] = 'Als je wil gebruik maken van de geïntegreerde WAYF-service, moet je eerst een door komma\'s gescheiden lijst met IDentity Provider entityID\'s, hun numen en optionneel een sessie-initiator.';
 $string['auth_shib_only'] = 'Uitsluitend Shibboleth';
 $string['auth_shib_only_description'] = 'Vink deze optie af als een Shibboleth-authenticatie opgelegd wordt.';

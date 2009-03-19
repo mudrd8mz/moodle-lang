@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
+      // question.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
 
 
 $string['adminreport'] = 'Rapport over mogelijke problemen in je vragendatabank';
@@ -48,6 +48,7 @@ $string['categorycurrentuse'] = 'Gebruik deze categorie';
 $string['categorydoesnotexist'] = 'Deze categorie bestaat niet';
 $string['categorymoveto'] = 'Bewaar in categorie';
 $string['changepublishstatuscat'] = 'De instelling voor het delen van <a href=\"$a->caturl\">categorie \"$a->name\"</a> in cursus \"$a->coursename\" zal gewijzigd worden van <strong>$a->changefrom naar $a->changeto</strong>.';
+$string['chooseqtypetoadd'] = 'Kies een vraagtype om toe te voegen';
 $string['clicktoflag'] = 'Klik om deze vraag te markeren';
 $string['clicktounflag'] = 'Klik om markering van deze vraag te verwijderen';
 $string['contexterror'] = 'Je zou alleen op deze pagina moeten zijn als je een categorie verplaatst naar een andere context';
@@ -55,6 +56,7 @@ $string['copy'] = 'Kopiëer van $a en wijzig de links.';
 $string['created'] = 'Aangemaakt';
 $string['createdby'] = 'Gemaakt door';
 $string['createdmodifiedheader'] = 'Aangemaakt / gewijzigd';
+$string['createnewquestion'] = 'Maak een nieuwe vraag...';
 $string['cwrqpfs'] = 'Willekeurige vragen kiezen vragen uit subcategorieën';
 $string['cwrqpfsinfo'] = '<p>Gedurende de upgrade naar Moodle 1.9 zullen we vragencategorieën opsplitsen in verschillende contexten. Van sommige vragencategorieën en vragen op je site zal de status van het delen gewijzigd worden. Dit is nodig in het zeldzame geval dat één of meer \'willekeurige vragen\' van een test ingesteld zijn om uit een mix van gedeelde en niet gedeelde categorieën vragen te kiezen (zoals het geval is op deze site). Dit gebeurt wanneer een \'willekeurige vraag\' is ingesteld om te kiezen uit subcategorieën en bij één of meer subcategorieën is het delen anders ingesteld dan de bovenliggende categorie waarin de willekeurige vraag is gecreëerd.</p>
 <p>Van de volgende vragencategorieën, waaruit \'willekeurige vragen\' in bovenliggende categorieën vragen selecteren, zal het delen gewijzigd worden naar de zelfde status als de categorie waarin de \'willekeurige vraag\' zich bevindt tijdens de upgrade naar Moodle 1.9. De betreffende vragen zullen blijven werken in alle bestaande testen tot ze uit deze testen verwijderd worden.';
@@ -62,11 +64,13 @@ $string['cwrqpfsnoprob'] = 'Er zijn geen vragencategorieën in jouw site die het
 $string['defaultfor'] = 'Standaard voor $a';
 $string['defaultinfofor'] = 'De standaardcategorie voor gedeelde vragen in context \'$a\'';
 $string['deletecoursecategorywithquestions'] = 'Er zijn vragen in de vragenbank geassocieerd met deze cursuscategorie. Als je verdergaat zullen die verwijderd worden. Misschien wil je ze eerst verplaatsen. Gebruik hiervoor de vragenbankinterface.';
+$string['disabled'] = 'Uitgeschakeld';
 $string['disterror'] = 'De $a distributie veroorzaakte problemen';
 $string['donothing'] = 'Kopieëer of verplaats geen bestanden, wijzig geen links.';
 $string['editingcategory'] = 'Categorie bewerken';
 $string['editingquestion'] = 'Vraag bewerken';
 $string['emptyxml'] = 'Onbekende fout - leeg imsmanifest.xml';
+$string['enabled'] = 'Ingeschakeld';
 $string['erroraccessingcontext'] = 'Fout: geen toegang tot context';
 $string['errordeletingquestionsfromcategory'] = 'Fout bij het verwijderen van vragen uit categorie $a.';
 $string['errorduringpost'] = 'Fout tijdens verwerking!';
@@ -154,6 +158,8 @@ $string['questionsrescuedfrominfo'] = 'Deze vragen (waarvan sommigen verborgen k
 $string['questiontype'] = 'Vraagtype';
 $string['questionuse'] = 'Gebruik vraag in deze activiteit';
 $string['saveflags'] = 'Bewaar de status van deze markeringen';
+$string['selectacategory'] = 'Selecteer een categorie:';
+$string['selectaqtypefordescription'] = 'Selecteer een vraagtype om de beschrijving ervan te zien.';
 $string['selectquestionsforbulk'] = 'Selecteer vragen voor bulkoperaties';
 $string['shareincontext'] = 'Deel in context voor $a';
 $string['tofilecategory'] = 'Bewaar categorie in bestand';
