@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['CASform'] = '認証選択';
@@ -271,13 +271,23 @@ $string['auth_remove_keep'] = '内部に保持する';
 $string['auth_remove_suspend'] = '内部を一時停止する';
 $string['auth_remove_user'] = '外部ソースからユーザが削除された場合、大量同期化時にどのように内部ユーザを処理するか指定してください。外部ソースのユーザが回復された場合、一時停止ユーザのみ自動的に回復されます。';
 $string['auth_remove_user_key'] = '削除された外部ユーザ';
+$string['auth_shib_auth_method'] = '認証メソッド名';
+$string['auth_shib_auth_method_description'] = 'Shibboleth認証メソッドに関して、あなたのユーザに知られている名称を提供してください。あなたのシボレス連盟の名称を使うこともできます 例) <tt>SWITCHaai Login</tt>または<tt>InCommon Login</tt>または同様の名称。';
 $string['auth_shib_changepasswordurl'] = 'パスワード変更のURI';
 $string['auth_shib_convert_data'] = 'データ修正API';
 $string['auth_shib_convert_data_description'] = 'あなたがShibbolethから提供されるデータを修正したい場合、このAPIを使うことができます。詳細は、<a href=\"../auth/shibboleth/README.txt\">README</a>をご覧ください。';
 $string['auth_shib_convert_data_warning'] = 'ファイルが存在しないか、ウェブプロセスで読み取れません!';
+$string['auth_shib_idp_list'] = 'アイデンティティプロバイダ';
+$string['auth_shib_idp_list_description'] = 'ログインページでユーザが選択できるよう、アイデンティティプロバイダのエンティティIDリストを入力してください。<br />それぞれの行では、アイデンティティプロバイダのエンティティIDに関するカンマ区切りのタプル (tuple) を入力してください (詳細は、Shibbolethメタデータファイルをご覧ください)。アイデンティティプロバイダ名がドロップダウンリストに表示されます。<br />あなたのMoodleが複数連盟設定の一部にある場合、任意の第3パラメータとして、Shibbolethセッションイニシエータのロケーションを追加することができます。';
 $string['auth_shib_instructions'] = 'あなたの機関がShibbolethをサポートしている場合、Shibboleth経由のアクセスには、<a href=\"$a\">Shibbolethログイン</a>を使用してください。 <br />Shibbolethをサポートしていない場合、ここに表示される通常ログインを使用してください。';
 $string['auth_shib_instructions_help'] = 'Shibbolethに関してユーザに提示する説明文です。 これは、ログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるよう「<b>$a</b>」 のようなリンクを入れてください。';
-$string['auth_shib_no_organizations_warning'] = 'あなたが統合WAYFサービスを利用したい場合、カンマで区切ったアイデンティティプロバイダのエンティティID、名称およびセッションイニシエータのリストを提供してください。';
+$string['auth_shib_integrated_wayf'] = 'Moodle WAYFサービス';
+$string['auth_shib_integrated_wayf_description'] = 'チェックした場合、Shibbolethで設定されたWAYFサービスを使用するのではなく、Moodleは独自のWAYFサービスを使用します。この代替ログインページのため、Moodleはユーザがアイデンティティプロバイダを選択できるドロップダウンリストを表示します。';
+$string['auth_shib_logout_return_url'] = '代替ログアウト戻りURI';
+$string['auth_shib_logout_return_url_description'] = 'ログアウト後、ShibbolethユーザがリダイレクトされるURIを入力してください。<br />空にした場合、ユーザはMoodleがリダイレクトする場所にリダイレクトされます。';
+$string['auth_shib_logout_url'] = 'ShibbolethサービスプロバイダのログアウトハンドラURI';
+$string['auth_shib_logout_url_description'] = 'ShibbolethサービスプロバイダのログアウトハンドラのURIを入力してください。一般的に、<tt>/Shibboleth.sso/Logout</tt>のようになります。';
+$string['auth_shib_no_organizations_warning'] = 'あなたが統合WAYFサービスを利用したい場合、カンマで区切ったアイデンティティプロバイダのエンティティID、名称およびセッションイニシエータのリストを入力してください。';
 $string['auth_shib_only'] = 'Shibbolethのみ';
 $string['auth_shib_only_description'] = 'Shibboleth認証を強制する場合、このオプションをチェックしてください。';
 $string['auth_shib_username_description'] = 'Moodleユーザ名として使用されるShibbolethウェブサーバ環境のユーザ名';
