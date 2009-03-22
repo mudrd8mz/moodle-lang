@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // data.php - created with Moodle 2.0 dev (Build: 20090322) (2009030501)
 
 
 $string['action'] = 'Eylem';
@@ -115,6 +115,7 @@ $string['fieldheightsingleview'] = 'Tek görünümdeki yükseklik';
 $string['fieldids'] = 'Alan id\'leri';
 $string['fieldmappings'] = 'Alan Eşleştirmeleri';
 $string['fieldname'] = 'Alan adı';
+$string['fieldnotmatched'] = 'Dosyanızdaki bu alanlar veritabanında tanımsız: $a';
 $string['fieldoptions'] = 'Seçenekler (satır satır)';
 $string['fields'] = 'Alanlar';
 $string['fieldupdated'] = 'Alan güncellendi';

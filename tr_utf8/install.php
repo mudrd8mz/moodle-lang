@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // install.php - created with Moodle 2.0 dev (Build: 20090322) (2009030501)
 
 
 $string['aborting'] = 'Kurulum iptal ediliyor';
@@ -47,10 +47,16 @@ oluşturmanız gerekiyor. Bu veritabanı kurulum programı tarafından aşağıd
 <b>Tablo öneki:</b> tüm tablo isimleri için isteğe bağlı önek';
 $string['databasecreationsettingshead'] = 'Şimdi, Moodle verilerinin saklanacağı veritabanını
 oluşturmanız gerekiyor. Bu veritabanı kurulum programı tarafından aşağıdaki ayarlara göre otomatik olarak oluşturulacak.';
-$string['databasecreationsettingssub'] = '<b>Tipi:</b> kurulum tarafından mysql olarak sabitlendi<br />
-<b>Sunucu:</b> kurulum tarafından localhost olarak sabitlendi<br />
+$string['databasecreationsettingssub'] = '<b>Tipi:</b> kurulum tarafından \"mysql \"olarak sabitlendi<br />
+<b>Sunucu:</b> kurulum tarafından \"localhost\" olarak sabitlendi<br />
 <b>Adı:</b> veritabanı adı, ör: moodle<br />
-<b>Kullanıcı:</b> kurulum tarafından root olarak sabitlendi<br />
+<b>Kullanıcı:</b> kurulum tarafından \"root\" olarak sabitlendi<br />
+<b>Şifre:</b> kullanıcı şifresi<br />
+<b>Tablo öneki:</b> tüm tablo isimleri için isteğe bağlı önek';
+$string['databasecreationsettingssub2'] = '<b>Tipi:</b> kurulum tarafından \"mysqli\" olarak sabitlendi<br />
+<b>Sunucu:</b> kurulum tarafından \"localhost\" olarak sabitlendi<br />
+<b>Adı:</b> veritabanı adı, ör: moodle<br />
+<b>Kullanıcı:</b> kurulum tarafından \"root\" olarak sabitlendi<br />
 <b>Şifre:</b> kullanıcı şifresi<br />
 <b>Tablo öneki:</b> tüm tablo isimleri için isteğe bağlı önek';
 $string['databasehead'] = 'Veritabanı ayarları';
@@ -120,7 +126,10 @@ $string['databasesettingssub_postgres7'] = '<b>Tipi:</b> PostgreSQL<br />
 <b>Şifre:</b> kullanıcı şifresi<br />
 <b>Tablo öneki:</b> tüm tablo isimleri için ön ek (gerekli)';
 $string['databasesettingswillbecreated'] = '<b>Not:</b> Kurulum programı veritabanı yoksa otomatikmen veritabanını oluşturmayı deneyecektir.';
+$string['databasesocket'] = 'Unix soket';
 $string['databasetype'] = 'Veritabanı tipi:';
+$string['databasetypehead'] = 'Veritabanı sürücünü seçin';
+$string['databasetypesub'] = 'Moodle bazı veritabanı sunucularını destekler. Hangisini kullanacağınızı bilmiyorsanız sunucu yöneticiyle iletişim kurunuz.';
 $string['databaseuser'] = 'Veritabanı kullanıcısı:';
 $string['dataroot'] = 'Veri Dizini';
 $string['datarooterror'] = 'Belirtilen \'Veri Dizini\' bulunamadı veya oluşturulamadı. Dizin yolunu düzenleyin veya bu dizini kendiniz oluşturun.';
@@ -269,16 +278,27 @@ $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP, MySQL ile iletişim kurabilmek için mysql uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['mysqli'] = 'Geliştirilmiş MySQL (mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP, MySQLi ile iletişim kurabilmek için mysqli uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin. MySQLi uzantısı PHP4 te kullanılamaz.';
+$string['nativemysqli'] = 'Geliştirilmiş MySQL (native/mysqli)';
+$string['nativeoci'] = 'Oracle (native/oci)';
+$string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP, Oracle ile iletişim kurabilmek için oci8 uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['odbc_mssql'] = 'SQL*Server ODBC üzerinden (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHP, SQL*Server ile iletişim kurabilmek için odbc uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['pass'] = 'Geçti';
+$string['paths'] = 'Yollar';
+$string['pathserrcreatedataroot'] = 'Veri Klasörü ($a->dataroot) kurulum tarafından oluşturulamıyor.';
+$string['pathshead'] = 'Yolları doğrulayın';
+$string['pathsrodataroot'] = 'Veri yolu yazılabilir değil.';
+$string['pathsroparentdataroot'] = 'Ana klasör ($a->parent) yazılabilir değil. Veri Klasörü ($a->dataroot) kurulum tarafından oluşturulamıyor.';
+$string['pathsunsecuredataroot'] = 'Veri yolu güvenli değil';
+$string['pathswrongadmindir'] = 'Yönetici klasörü yok';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP, PostgreSQL ile iletişim kurabilmek için pgsql uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
 $string['php52versionerror'] = 'En düşük PHP 5.2.4 sürümü gerekli';
 $string['php52versionhelp'] = '<p>Moodle en düşük PHP 5.2.4 sürümü ile çalışır.</p>
 <p>Şu anda çalışan sürüm $a</p>
 <p>PHP güncellemesi yapmalı veya en yeni PHP sürümü kullanan bir hostinge taşınmalısınız!</p>';
+$string['phpextension'] = '$a PHP eklentisi';
 $string['phpversion'] = 'PHP sürümü';
 $string['phpversionhelp'] = '<p>Moodle, PHP sürümünün en az 4.3.0 veya 5.1.0 olmasını gerektirir (5.0.x sürümünde çok fazla hata var).</p>
 <p>Şu anda çalışan sürüm: $a</p>

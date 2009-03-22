@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20080801) (2008073114)
+      // blog.php - created with Moodle 2.0 dev (Build: 20090322) (2009030501)
 
 
 $string['addnewentry'] = 'Yeni girdi ekle';
@@ -23,6 +23,7 @@ $string['courseblogs'] = 'Kullanıcılar, sadece derste paylaşıma açılan kul
 $string['deleteotagswarn'] = 'Bu etiketleri bütün blog mesajlarından<br />ve sistemden kaldırmak istediğinizden emin misiniz?';
 $string['deleteposterror'] = 'Gönderi silinirken hata oluştu';
 $string['disableblogs'] = 'Blog sistemini tamamen kapat';
+$string['donothaveblog'] = 'Kendinize ait bir bloğunuz yok, üzgünüz.';
 $string['emptybody'] = 'Blog metni boş olamaz';
 $string['emptytitle'] = 'Blog başlığı boş olamaz';
 $string['entrybody'] = 'Blog metni';
@@ -40,11 +41,11 @@ $string['noentriesyet'] = 'Henüz gösterilecek girdi yok';
 $string['noguestpost'] = 'Konuklar blog gönderemezler!';
 $string['norighttodeletetag'] = 'Bu etiketi silme hakkınız yok - $a';
 $string['nosuchentry'] = 'Böyle bir blog girdisi yok';
-$string['notallowedtoedit'] = 'Bu kaydı düzenleme izniniz yok';
+$string['notallowedtoedit'] = 'Bu girdiyi düzenleme izniniz yok';
 $string['numberofentries'] = 'Girdiler: $a';
 $string['numberoftags'] = 'Gösterilecek etiket sayısı';
 $string['pagesize'] = 'Her sayfadaki blog sayısı';
-$string['permalink'] = 'DeğişmeyenBağlantı';
+$string['permalink'] = 'SabitBağlantı';
 $string['personalblogs'] = 'Kullanıcılar sadece kendi bloglarını görebilir';
 $string['publishto'] = 'Yayınla';
 $string['publishtonoone'] = 'Kendinize (taslak)';
