@@ -272,7 +272,7 @@ $string['auth_remove_suspend'] = '内部を一時停止する';
 $string['auth_remove_user'] = '外部ソースからユーザが削除された場合、大量同期化時にどのように内部ユーザを処理するか指定してください。外部ソースのユーザが回復された場合、一時停止ユーザのみ自動的に回復されます。';
 $string['auth_remove_user_key'] = '削除された外部ユーザ';
 $string['auth_shib_auth_method'] = '認証メソッド名';
-$string['auth_shib_auth_method_description'] = 'Shibboleth認証メソッドに関して、あなたのユーザに知られている名称を提供してください。あなたのシボレス連盟の名称を使うこともできます 例) <tt>SWITCHaai Login</tt>または<tt>InCommon Login</tt>または同様の名称。';
+$string['auth_shib_auth_method_description'] = 'Shibboleth認証メソッドに関して、あなたのユーザに知られている名称を入力してください。あなたのシボレス連盟の名称を使うこともできます 例) <tt>SWITCHaai Login</tt>または<tt>InCommon Login</tt>または同様の名称。';
 $string['auth_shib_changepasswordurl'] = 'パスワード変更のURI';
 $string['auth_shib_convert_data'] = 'データ修正API';
 $string['auth_shib_convert_data_description'] = 'あなたがShibbolethから提供されるデータを修正したい場合、このAPIを使うことができます。詳細は、<a href=\"../auth/shibboleth/README.txt\">README</a>をご覧ください。';
