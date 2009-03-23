@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20090306) (2009030501)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
 
 
 $string['accesscontrol'] = 'Controllo accesso';
@@ -59,6 +59,7 @@ $string['cannotinsertpage'] = 'Non è stato possibile inserire una nuova pagina'
 $string['cannotinserttimer'] = 'Non è stato possibile inserire una riga nella tabella lesson_timer';
 $string['cannotresetjump'] = 'Non è stato possibile ripristinare il salto nel restore della lezione';
 $string['cannotupdateanswer'] = 'Non è stato possibile aggiornare la risposta';
+$string['cannotupdatebook'] = 'Non è possibile aggiornare il tuo book';
 $string['cannotupdateessayscore'] = 'Non è stato possibile aggiornare il punteggio del testo libero';
 $string['cannotupdategrade'] = 'Non è stato possibile aggiornare la valutazione';
 $string['cannotupdatelink'] = 'Non è stato possibile aggiornare il link';
@@ -237,6 +238,7 @@ $string['numberofpagesviewednotice'] = 'Numero di domande risposte: $a->nquestio
 $string['ongoing'] = 'Mostra la valutazione durante la lezione';
 $string['ongoingcustom'] = 'Finora hai ottenuto $a->score punti su $a->currenthigh.';
 $string['ongoingnormal'] = 'Hai risposto correttamente a $a->correct domande su $a->viewed.';
+$string['onpostperpage'] = 'Solo un inserimento per ciascun voto';
 $string['or'] = 'OR';
 $string['ordered'] = 'Ordinato';
 $string['other'] = 'Altro';
