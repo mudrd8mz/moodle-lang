@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['1day'] = '1日';
@@ -198,6 +198,8 @@ $string['datasetnumber'] = 'No.';
 $string['daysavailable'] = '日利用可能';
 $string['decimaldigits'] = '評点の小数点以下桁数';
 $string['decimalformat'] = '小数点';
+$string['decimalplaces'] = '評点の小数位';
+$string['decimalplacesquestion'] = '問題評点の小数位';
 $string['decimalpoints'] = '小数点';
 $string['decimals'] = '小数点以下 $a 桁';
 $string['default'] = 'デフォルト';
@@ -382,6 +384,7 @@ $string['itemsource'] = '問題ソース';
 $string['itemsourceformat'] = '問題ソースフォーマット';
 $string['itemtypes'] = 'リモート問題タイプ';
 $string['lastanswer'] = 'あなたの直近の答えは';
+$string['layout'] = 'レイアウト';
 $string['learnwise'] = 'Learnwiseフォーマット';
 $string['link'] = 'リンク';
 $string['listitems'] = '問題リスト';
@@ -422,6 +425,7 @@ $string['multipleanswers'] = '少なくとも1つの答えを選択してくだ�
 $string['multiplier'] = '乗数';
 $string['name'] = '名称';
 $string['newattemptfail'] = 'エラー: 小テストの新しい受験を開始できませんでした。';
+$string['newpage'] = '新しいページ';
 $string['newpageevery'] = '新しいページを自動的に開始する';
 $string['noanswers'] = '答えが選択されていません!';
 $string['noattempts'] = 'この小テストは受験されていません。';
@@ -512,6 +516,7 @@ $string['questionname'] = '問題名';
 $string['questionnametoolong'] = '$a 行の問題名が長すぎます (最大、半角255文字)。問題名を省略しました。';
 $string['questionno'] = '問題 $a';
 $string['questionnotloaded'] = '問題「 $a 」は、データベースから読み込まれませんでした。';
+$string['questionorder'] = '問題順';
 $string['questions'] = '問題';
 $string['questionsinclhidden'] = '問題 (隠された問題を含む)';
 $string['questionsinthisquiz'] = 'この小テストの問題';
@@ -660,7 +665,6 @@ $string['shuffle'] = 'シャッフル';
 $string['shuffleanswers'] = '答えをシャッフルする';
 $string['shufflequestions'] = '問題をシャッフルする';
 $string['shufflequestionsselected'] = '*「問題をシャッフルする」が有効にされたため、問題順はランダムになります。結果として「再度問題を並び替える」ボタンは、無効にされました。あなたは、$a にて、この設定を変更することができます。';
-$string['shufflequestionsx'] = '問題をシャッフルする: $a';
 $string['shufflewithin'] = '問題内部をシャッフルする';
 $string['significantfigures'] = '有効数字 $a 桁';
 $string['significantfiguresformat'] = '有効数字';
@@ -691,6 +695,7 @@ $string['timeleft'] = '残り時間';
 $string['timelimit'] = '制限時間';
 $string['timelimitexeeded'] = '申し訳ございません! 小テストの制限時間を経過しました!';
 $string['timelimitmin'] = '制限時間 (分)';
+$string['timelimitsec'] = '制限時間 (秒)';
 $string['timestr'] = '%%y/%%m/%%d  %%H:%%M:%%S';
 $string['timesup'] = '時間終了!';
 $string['timetaken'] = '所要時間';
@@ -739,6 +744,7 @@ $string['youmustwait'] = 'この小テストを再受験は、お待ちくださ
 $string['youneedtoenrol'] = 'この小テストを受験する前に、このコースに受講登録する必要があります。';
 $string['yourfinalgradeis'] = 'あなたの最終評点は $a です。';
 $string['zerosignificantfiguresnotallowed'] = '正解の有効数字にはゼロを設定できません!';
+$string['shufflequestionsx'] = '問題をシャッフルする: $a'; //TBD
 $string['xfromcategory'] = '$a << カテゴリ:'; //TBD
 $string['areyousuredeleteselected'] = '本当に選択した問題を削除してもよろしいですか?'; //TBD
 $string['fromcategory'] = '<< カテゴリ'; //TBD
