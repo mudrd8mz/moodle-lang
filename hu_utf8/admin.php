@@ -1,6 +1,50 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // admin.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+
+$string['allowuserswitchrolestheycantassign'] = 'Szerepváltás engedélyezése szerep-hozzárendelő funkcióval nem rendelkező felhasználók részére';
+$string['calendarexportsalt'] = 'Naptárexportáló rejtjelbitek';
+$string['configallowuserswitchrolestheycantassign'] = 'Alaphelyzetben a felhasználók a moodle/role:assign segítségével váltanak szerepet. Ennek bekapcsolása esetén ez a követelmény elhárul és a szerepek elérhetővé válnak a \"Szerep átváltása erre...\" lenyíló menüből, melyet csak a \"Szerepek hozzárendelésének engedélyezése\" táblázat beállításai határoznak meg. Ajánlatos elkerülni, hogy a \"Szerepek hozzárendelésének engedélyezése\" táblázat beállításai alapján a felhasználók meglévő szerepüknél szélesebb hatókörű szerepre váltsanak át.';
+$string['configcalendarexportsalt'] = 'Ez a véletlenszerűen előálló szöveg a naptárexportáláshoz használt hitelesítő jelek biztonságosságát fokozza. Ha ezeket a rejtjelbiteket módosítja, minden jelenlegi jel érvénytelenné válik.';
+$string['configcourserequestnotify2'] = 'Kurzuskérés esetén értesített felhasználók. A listán csak a kurzuskérést jóváhagyó felhasználók jelennek meg.';
+$string['configenablecalendarexport'] = 'Exportálás vagy naptárak előjegyzésének engedélyezése.';
+$string['configenablewebservices'] = 'A webszolgáltatások lehetővé teszik egyéb rendszerek számára, hogy bejelentkezzenek ezen Moodle alá és műveleteket hajtsanak végre.';
+$string['configsitemaxcategorydepth'] = 'Maximális kategóriamélység';
+$string['configsitemaxcategorydepthhelp'] = 'Ez határozza meg a megjelenő gyermekkategóriák maximális mélységét.';
+$string['enablecalendarexport'] = 'Naptárexportálás bekapcsolása';
+$string['enablewebservices'] = 'Webszolgáltatások bekapcsolása';
+$string['environmentmustfixsetting'] = 'A PHP beállításait módosítani kell.';
+$string['environmentsettingok'] = 'ajánlott beállítás észlelve';
+$string['environmentshouldfixsetting'] = 'A PHP beállítását módosítani kell.';
+$string['everyonewhocan'] = 'Bárki, aki számára \'$a\' engedélyezve van.';
+$string['fatalmagicquotesruntime'] = '<p>Súlyos konfigurációs hiba, tájékoztassa róla a rendszergazdát.</p><p> A helyes működéshez a rendszergazdának módosítania kell a PHP beállításait.</p><p>A <code>magic_quotes_runtime</code> <code>off</code>-ra állítandó.</p><p>Ezt a beállítást a szerveren lévő <code>php.ini</code>, Apache/IIS <br />beállításának vagy a <code>.htaccess</code> állomány szerkesztésével módosíthatja.</p>';
+$string['fatalsessionautostart'] = '<p>Súlyos konfigurációs hiba, tájékoztassa róla a rendszergazdát.</p><p> A helyes működéshez a rendszergazdának módosítania kell a PHP beállításait.</p><p>A <code>session.auto_start</code> <code>off</code>-ra állítandó.</p><p>Ezt a beállítást a szerveren lévő <code>php.ini</code>, Apache/IIS <br />beállításának vagy a <code>.htaccess</code> állomány szerkesztésével módosíthatja.</p>';
+$string['gdrecommended'] = 'A GD-kibővítés képek átalakítására szolgál. Ha nem telepíti, egyes funkciók, például a felhasználói profilképek hiányozni fognak.';
+$string['helpprofilefieldlink'] = 'Ugrópont létrehozása a felhasználói adattól';
+$string['ignore'] = 'Kihagy';
+$string['installhijacked'] = 'A telepítést az eredeti IP-címről kell befejezni.';
+$string['installsessionerror'] = 'A PHP-folyamat nem indítható el, ellenőrizze, hogy böngészőjében a sütik be vannak-e kapcsolva.';
+$string['ipwhitelist'] = 'IP-kivételek listája';
+$string['ipwhitelistdesc'] = 'Ha nem üres, csak az itt felsorolt IP-kről használható <strong>$a->username</strong> felhasználónévvel a webszolgáltatás.';
+$string['managews'] = 'Webszolgáltatások kezelése';
+$string['mnetrestore_extusers_admin'] = '<strong>Megjegyzés:</strong> Ez a biztonsági mentés feltehetőleg egy másik Moodle-telepítésből való, a Moodle-hálózat távoli felhasználói fiókjait tartalmazza. A helyreállítási folyamat minden létrehozott fiókot a Moodle-hálózat gazdagépeihez illeszt. A nem egyező fiókok esetén automatikusan belső hitelesítésre kapcsol át (mnet helyett). Erről a helyreállítási napló tájékoztatja.';
+$string['mnetrestore_extusers_mismatch'] = 'Megjegyzés: Ez a biztonsági mentés nyilvánvalóan egy másik Moodle-telepítésből való, és benne a Moodle-hálózat olyan távoli felhasználói fiókjai szerepelnek, amelyek helyreállítása esetleg sikertelen lesz. Ezt a műveletet a rendszer nem támogatja. Ha biztos benne, hogy a Moodle ezen telepítésével hozta létre, illetve ha gondoskodni tud arról, hogy a Moodle-hálózat összes gazdagépe konfigurálva legyen, úgy megpróbálkozhat a helyreállítással.';
+$string['mnetrestore_extusers_noadmin'] = '<strong>Megjegyzés:</strong> Ez a biztonsági mentés feltehetőleg egy másik Moodle-telepítésből való, a Moodle-hálózat távoli felhasználói fiókjait tartalmazza. Ilyen típusú helyreállítást nem hajthat végre. Forduljon a portál rendszergazdájához vagy felhasználói információk (modulok, állományok...) nélkül hajtsa végre a helyreállítást.';
+$string['mnetrestore_extusers_switchuserauth'] = 'A Moodle-hálózat $a->username távoli felhasználója ($a->mnethosturl helyről) helyi $a->auth hitelesítésű felhasználóra váltott.';
+$string['phpfloatproblem'] = 'A PHP lebegőpontos számainak - $a - kezelésében váratlan hiba történt.';
+$string['profilefieldlink'] = 'Ugrópont';
+$string['profilefieldlinktarget'] = 'Ugrópont célja';
+$string['settingfileuploads'] = 'A szokásos működéshez állományfeltöltésre van szükség, engedélyezze a PHP beállításában.';
+$string['settingmemorylimit'] = 'Kevés a memória, állítsa be magasabbra a PHP beállításában.';
+$string['settingsafemode'] = 'A Moodle nem teljesen kompatibilis a csökkentett üzemmóddal, kérje meg a rendszergazdát, hogy kapcsolja ki. Ha csökkentett üzemmódban futtatja a Moodle-t, különféle problémákra kell felkészülnie.';
+$string['upgradeerror'] = 'Ismeretlen hiba $a->plugin $a->version verzióra frissítése során, a Moodle leáll.';
+$string['upgradingversion'] = 'Frissítés új verzióra';
+$string['user'] = 'Felhasználó';
+$string['webserviceprotocols'] = 'Webszolgáltatás szerverei';
+$string['webservices'] = 'Webszolgáltatások';
+$string['webservicesystemsettings'] = 'szokásos beállítások';
+$string['webserviceusersettings'] = 'Webszolgáltatás felhasználói beállításai';
+  
 $string['advancedfeatures'] = 'További jellemzők';
 $string['availableto'] = 'Elérheti';
 $string['cannotdeletemissingqtype'] = 'A hiányzó kérdéstípus nem törölhető. A rendszernek szüksége van rá.';

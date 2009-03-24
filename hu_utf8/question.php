@@ -1,6 +1,20 @@
 <?PHP // $Id$ 
       // question.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['availableq'] = 'Elérhető?';
+$string['cannotenable'] = 'A(z) $a kérdéstípus közvetlenül nem hozható létre.';
+$string['chooseqtypetoadd'] = 'Válassza ki a hozzáadandó kérdéstípust.';
+$string['createdby'] = 'Létrehozta';
+$string['createnewquestion'] = 'Új kérdés létrehozása...';
+$string['disabled'] = 'Kikapcsolva';
+$string['enabled'] = 'Bekapcsolva';
+$string['lastmodifiedby'] = 'Utoljára módosította';
+$string['qtypeveryshort'] = 'T';
+$string['questionname'] = 'A kérdés neve';
+$string['questiontype'] = 'A kérdés típusa';
+$string['selectacategory'] = 'Kategória kiválasztása:';
+$string['selectaqtypefordescription'] = 'A leírás megtekintéséhez válasszon ki egy kérdéstípust.';
+$string['selectquestionsforbulk'] = 'A csoportos intézkedésekhez válasszon ki kérdéseket.';
 
 $string['cannotcreatepath'] = 'Nem hozható létre a(z) $a útvonal';
 $string['cannotopenforwriting'] = 'Nem nyitható meg írásra a(z) $a';

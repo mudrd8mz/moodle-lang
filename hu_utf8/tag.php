@@ -1,7 +1,12 @@
 <?php
 
-$string['thingtaggedwith'] = 'A(z) \"$a->name\" egyszer szerepel';
 
+$string['entertags'] = 'Adja meg a címkéket egymástól vesszővel elválasztva.';
+$string['manageofficialtags'] = 'Hivatalos címkék kezelése';
+$string['othertags'] = 'Egyéb címkék (adja meg a címkéket egymástól vesszővel elválasztva)';
+$string['taggedwith'] = '\"$a\" címkével ellátva';
+
+$string['thingtaggedwith'] = 'A(z) \"$a->name\" egyszer szerepel';
 
 $string['thingstaggedwith'] = '$a->count dolog kapott \"$a->name\" címkét.';
 $string['addedotag'] = 'A(z) \"$a\" hivatalos címkeként való hozzáadása megtörtént.';

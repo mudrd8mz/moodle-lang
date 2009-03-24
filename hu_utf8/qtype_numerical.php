@@ -1,4 +1,10 @@
 <?php
+
+$string['addingnumerical'] = 'Számjegyes kérdés hozzáadása';
+$string['editingnumerical'] = 'Számjegyes kérdés szerkesztése';
+$string['numerical'] = 'Számjegyes';
+$string['numericalsummary'] = 'Számjegyes, esetleg egységeket tartalmazó választ tesz lehetővé, melynek pontozása különféle mintaválaszokkal való összehasonlítás alapján, esetleg tűréshatárokkal pontozható.';
+
 $string['addmoreanswerblanks'] = 'Hely további {no} válaszhoz';
 $string['addmoreunitblanks'] = 'Hely további {no} egység számára';
 $string['answerno'] = '$a válasz';

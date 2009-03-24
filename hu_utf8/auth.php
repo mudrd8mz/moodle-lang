@@ -1,6 +1,8 @@
 <?PHP // $Id$ 
       // auth.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['auth_ntlmsso_ie_fastpath'] = 'Az NTLM SSO gyors útvonal bekapcsolásához állítsa Igen-re (kihagy egyes lépéseket és csak MS Internet Explorer esetén lép működésbe).';
+$string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE gyors útvonal?';
 
 $string['auth_radiustype'] = 'Válassza ki a RADIUS-szerverrel használandó hitelesítési sémát.';
 $string['auth_radiustype_key'] = 'Hitelesítés';
@@ -232,7 +234,7 @@ $string['auth_nntptitle'] = 'NNTP-szerver';
 $string['auth_nologindescription'] = 'Segédprogram, mely megakadályozza, hogy a felhasználó bejelentkezzen a rendszerbe, valamint törli az esetlegesen részére érkező e-maileket. Használható felhasználói fiókok <em>felfüggesztésére</em>.';
 $string['auth_nologintitle'] = 'Nincs bejelentkezés';
 $string['auth_nonedescription'] = 'A felhasználók azonnal feliratkozhatnak és érvényes felhasználói azonosítót hozhatnak létre, külső jogosultság-ellenőrzés és e-mailen történő megerősítés nélkül. Óvatosan használja ezt a lehetőséget - gondoljon a lehetséges biztonsági és adminisztrációs problémákra.';
-$string['auth_nonetitle'] = 'Nincs hitelesítés';
+$string['auth_nonetitle'] = 'Hitelesítés nélkül';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'Állítsa igenre és próbálja meg az egyszeres bejelentkezést az NTLM-doménen. <strong>Figyelem:</strong> ehhez további beállítás szükséges a webszerveren, lásd: <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Bekapcsolás';

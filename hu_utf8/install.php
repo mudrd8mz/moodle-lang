@@ -1,6 +1,29 @@
 <?PHP // $Id$ 
       // install.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['databasehead'] = 'Az adatbázis beállításai';
+$string['databasesocket'] = 'Unix kommunikációs végpont';
+$string['databasetypehead'] = 'Adatbázismotor kiválasztása';
+$string['databasetypesub'] = 'A Moodle többféle adatbázisszervert támogat. Forduljon a rendszergazdához, ha nem tudja, melyiket kell használnia.';
+$string['environmentsub2'] = 'Minden Moodle-változat valamilyen minimális verziójú PHP és szükséges számú PHP-kibővítés használatát írja elő. A telepítések és frissítések előtt teljes környezet-ellenőrzésre kerül sor. Ha nem tudja, hogyan kell egy új verziót telepíteni és a PHP-bővítéseket bekapcsolni, forduljon a rendszergazdához.';
+$string['nativemysqlihelp'] = 'Most be kell állítania azt az adatbázist, ahol a Moodle adatainak többségét tárolni fogja. Az adatbázis akkor hozható létre, ha a felhasználó rendelkezik a szükséges engedélyekkel, a felhasználónévnek és a jelszónak már léteznie kell. A tábla előtagjának megadása választható.';
+$string['nativeoci'] = 'Oracle (natív/oci)';
+$string['nativepgsql'] = 'PostgreSQL (natív/pgsql)';
+$string['nativepgsqlhelp'] = 'Most be kell állítania azt az adatbázist, ahol a Moodle adatainak többségét tárolni fogja. Az adatbázisnak már léteznie kell, mint ahogyan a hozzáférésre használt felhasználónévnek és jelszónak is léteznie kell. A tábla előtagja kötelező.';
+$string['paths'] = 'Útvonalak';
+$string['pathserrcreatedataroot'] = 'A telepítő nem tudja létrehozni az adatkönyvtárat ($a->dataroot).';
+$string['pathshead'] = 'Útvonalak megerősítése';
+$string['pathsrodataroot'] = 'Az adatok gyökérkönyvtára nem írható.';
+$string['pathsroparentdataroot'] = 'A felettes könyvtás ($a->parent) nem írható. A telepítő nem tudja létrehozni az adatkönyvtárat ($a->dataroot).';
+$string['pathssubadmindir'] = 'Egy pár webes gazdagép esetén az /admin speciális URL pl. a vezérlőpanel eléréséhez. Ez ütközik a Moodle admin oldalainak standard helyével. Javítás: a telepítésben nevezze át a rendszergazda könyvtárát, az új nevet pedig írja be ide. Például: <em>moodleadmin</em>. Ezzel helyrehozhatók a Moodle rendszergazdai ugrópontjai.';
+$string['pathssubdataroot'] = 'Szüksége van egy helyre, ahol a Moodle mentheti a feltöltött állományokat. Ez a könyvtár a webszerver felhasználója (általában \'nobody\' vagy \'apache\') számára legyen mind olvasható, MIND ÍRHATÓ. Ha nem létezik, a telepítő megpróbálja létrehozni.';
+$string['pathssubdirroot'] = 'Teljes útvonal a Moodle telepítéséhez. Csak akkor válassza, ha szimbolikus ugrópontokat kell használnia.';
+$string['pathssubwwwroot'] = 'A Moodle elérésére használandó teljes webcím. A Moodle egyszerre több címről nem érhető el. Ha portálja több címet használ, állandó átirányítás kell a jelen cím kivételével az összeshez beállítania. Ha portálja mind intranetről, mind az internetről elérhető, a nyilvános címet itt adja meg, a DNS-t pedig úgy állítsa be, hogy az intranetről a nyilvános cím is elérhető legyen.';
+$string['pathsunsecuredataroot'] = 'Az adatok gyökérkönyvtára nem biztonságos.';
+$string['pathswrongadmindir'] = 'Nem létezik az admin könyvtár.';
+$string['pathswrongdirroot'] = 'Hibás az adatok gyökérkönyvtára';
+$string['pdosqlite3'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Kísérleti! (éles környezetben ne használja)</strong></b>';
+$string['phpextension'] = '$a PHP-kibővítés';
 
 $string['databasecreationsettingssub2'] = '<b>Típus:</b> a telepítő \"mysqli\"-re állítja<br />
 <b>Gazdagép:</b> a telepítő \"localhost\"-ra állítja <br />

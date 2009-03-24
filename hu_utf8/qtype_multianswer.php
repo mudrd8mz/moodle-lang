@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
       // qtype_multianswer.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['multianswersummary'] = 'Ez a kérdéstípus igen rugalmas, de csak speciális kódokat tartalmazó szövegből állítható elő, melyekkel beépített feleletválasztós, rövid válaszos és számjegyes kérdések hozhatók létre.';
 $string['layout'] = 'Elrendezés';
 $string['layouthorizontal'] = 'Választógombok két sorban';
 $string['layoutselectinline'] = 'Szövegből lenyíló menü';

@@ -1,12 +1,16 @@
 <?PHP // $Id$ 
       // resource.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['keepnavigationvisibleno'] = 'Nem';
+$string['keepnavigationvisibleyesframe'] = 'Igen, kerettel';
+$string['keepnavigationvisibleyesobject'] = 'Igen, keret nélkül';
+
 $string['chooseaparameter'] = 'Válasszon ki egy paramétert...';
 
 $string['portfolionotimplemented'] = 'Olyan tananyagfajtából kíván tartalmat exportálni, amely nem támogatja azt!';
 $string['resource:exportresource'] = 'Tananyag exportálása';
 
-$string['addresource'] = 'Tananyag hozzáadása';
+$string['addresource'] = 'tananyag hozzáadása';
 $string['affectedresources'] = 'Érintett tananyagok';
 $string['allowlocalfiles'] = 'Helyi állományok engedélyezése';
 $string['autofilerename'] = 'Ugrópont frissítése az állomány átnevezése esetén';

@@ -1,5 +1,36 @@
 <?PHP // $Id$ 
       // grades.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+$string['addoutcome'] = 'Eredmény hozzáadása';
+$string['addscale'] = 'Skála hozzáadása';
+$string['badlyformattedscale'] = 'Adjon meg egy vesszőkkel elválasztott értéklistát (legalább két értékkel).';
+$string['calculatedgrade'] = 'Számított pont';
+$string['combo'] = 'Tabulátorok és lenyíló menü';
+$string['configfixedstudents'] = 'A pontok vízszintesen görgethetők, a statikus tanulói oszlop folyamatosan látható marad.';
+$string['coursescales'] = 'Kurzusskálák';
+$string['coursesettingsexplanation'] = 'A kurzus beállításaitól függ, miként jelenik meg a kurzus résztvevői számára az osztályozó napló.';
+$string['currentparentaggregation'] = 'Jelenlegi szülők egyesítése';
+$string['dropdown'] = 'Lenyíló menü';
+$string['editgradeletters'] = 'Pontozó betűk szerkesztése';
+$string['editoutcome'] = 'Eredmény szerkesztése';
+$string['editscale'] = 'Kategóriák és elemek';
+$string['fixedstudents'] = 'Statikus tanulói oszlop';
+$string['fullview'] = 'Teljes nézet';
+$string['letterpercentage'] = 'Betű (százalék)';
+$string['letterreal'] = 'Betű (valós)';
+$string['linktoactivity'] = 'Kapcsolás a(z) $a->name tevékenységhez';
+$string['moveselectedto'] = 'A kiválasztott elemek áthelyezése ide:';
+$string['mypreferences'] = 'Beállításaim';
+$string['navmethod'] = 'Böngészési mód';
+$string['newitem'] = 'Új pontozási elem';
+$string['newoutcomeitem'] = 'Új eredményelem';
+$string['percentageletter'] = 'Százalék (betű)';
+$string['percentagereal'] = 'Százalék (valós)';
+$string['realletter'] = 'Valós (betű)';
+$string['realpercentage'] = 'Valós (százalék)';
+$string['simpleview'] = 'Egyszerű nézet';
+$string['switchtofullview'] = 'Váltás teljes nézetre';
+$string['switchtosimpleview'] = 'Váltás egyszerű nézetre';
+$string['tabs'] = 'Tabulátorok';
 
 $string['errorupdatinggradecategoryaggregateonlygraded'] = 'Hiba a(z) $a->id pontozási kategóriaazonosító \"Csak a nem üres pontok összegzése\" beállításának frissítése közben';
 $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Hiba a(z) $a->id pontozási kategóriaazonosító \"Eredmények összegzése\" beállításának frissítése közben';

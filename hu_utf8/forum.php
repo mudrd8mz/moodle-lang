@@ -1,6 +1,13 @@
 <?PHP // $Id$ 
       // forum.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['aggregatecountformat'] = '$a->count (pont: $a->grade)';
+$string['ajaxrating'] = 'AJAX-értékelés bekapcsolása';
+$string['cannotfinddiscussion'] = 'Nincs meg a vita a fórumban';
+$string['configajaxrating'] = 'Az AJAX-értékelés a fórumértékelést könnyíti meg. Bekapcsolása esetén a felhasználók a hozzászólásokat szinte azonnal értékelhetik anélkül, hogy az oldal aljára kellene lapozniuk és a \"Legújabb értékeléseim beküldése\" gombra kellene kattintaniuk.';
+$string['invalidrate'] = 'Érvénytelen értékelés ($a)';
+$string['noratinggiven'] = 'Nincs megadva értékelés';
+
 $string['alreadyfirstpost'] = 'Ez már az első hozzászólás a vitához.';
 $string['areaintro'] = 'Bevezető a fórumhoz';
 $string['cannotadd'] = 'A fórumhoz a vitát nem lehetett hozzáadni.';

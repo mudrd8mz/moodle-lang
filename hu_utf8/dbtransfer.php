@@ -2,6 +2,14 @@
       // dbtransfer.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
       // local modifications from http://localhost
 
+$string['checkingsourcetables'] = 'Forrástábla szerkezetének ellenőrzése';
+$string['copyingtable'] = '$a tábla másolása';
+$string['copyingtables'] = 'Táblatartalmak másolása';
+$string['creatingtargettables'] = 'Táblák létrehozása a céladatbázisban';
+$string['done'] = 'Kész';
+$string['transferdbintro'] = 'A kód az adatbázis teljes tartalmát átviszi egy másik adatbázisszerverre.';
+$string['transferdbtoserver'] = 'Ezen Moodle átvitele egy másik adatbázisszerverre.';
+$string['transferringdbto'] = 'Ezen adatbázis átvitele $a->dbtype  $a->dbname adatbázisba a(z) $a->dbhost gazdagépre.';
 
 $string['dbexport'] = 'Adatbázis exportálása';
 $string['dbtransfer'] = 'Adatbázis-átvitel';

@@ -1,6 +1,8 @@
 <?php
 
 
+$string['randomsamatchsummary'] = 'A párosító kérdéshez hasonlít, csak egy adott kategórián belüli kiegészítendő kérdésekből jön létre véletlenszerűen.';
+
 $string['addingrandomsamatch'] = 'Véletlen kiegészítendő kérdés hozzáadása';
 $string['editingrandomsamatch'] = 'Véletlen kiegészítendő kérdés szerkesztése';
 $string['randomsamatch'] = 'Véletlen kiegészítendő';

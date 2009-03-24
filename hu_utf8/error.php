@@ -1,6 +1,22 @@
 <?PHP // $Id$ 
       // error.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['countriesphpempty'] = 'Hiba: a countries.php a(z) $a nyelvi csomagban üres vagy hiányzik.';
+$string['dbsessionbroken'] = 'Súlyos gond van az adatbázissal.<br /><br />Értesítse a rendszergazdát.';
+$string['dbsessionhandlerproblem'] = 'Az adatbázis beállítása nem sikerült.<br /><br />Értesítse a rendszergazdát.';
+$string['dbsessionmysqlpacketsize'] = 'Súlyos gond van a folyamattal.<br /><br />Értesítse a rendszergazdát. A hibát feltehetőleg a MySQL max_allowed_packet beállítása okozza.';
+$string['detectedbrokenplugin'] = 'Leállás a(z) \"$a\" segédprogram hibája miatt.';
+$string['invalidadminsettingname'] = 'Érvénytelen rendszergazdai beállítás ($a)';
+$string['reverseproxyabused'] = 'Fordított proxy be van kapcsolva, a szerver közvetlenül nem érhető el. <br />Értesítse a rendszergazdát.';
+$string['sessionipnomatch2'] = 'IP-címe módosult első bejelentkezése óta. Ez a biztonsági megoldás megakadályozza, hogy behatolók megszerezzék adatait, miközben bejelentkezik a portálra. Akkor találkozhat ezzel a hibával, ha vezeték nélküli hálózatot használ vagy különféle hálózatok között barangol. Segítségért forduljon a portál rendszergazdájához.<br /><br />Folytatáshoz az F5 megnyomásával frissítse az oldalt.';
+$string['sessionnotwritable'] = 'A folyamatkönyvtárban írási engedéllyel kapcsolatos hiba lépett föl. <br /><br />Értesítse a rendszergazdát.';
+$string['sslonlyaccess'] = 'Biztonsági okokból csak https-csatlakozásra van mód.';
+$string['targetdatabasenotempty'] = 'A céladatbázis nem üres. Biztonsági okokból az átvitel megszakítva.';
+$string['unknownsortcolumn'] = 'Ismeretlen $a leválogatási oszlop.';
+$string['unsupportedwebserver'] = 'A webszerver szoftverének ($a) használata nincs támogatva.';
+$string['wwwrootmismatch'] = 'Hibás hozzáférés, a szerver csak \"$a\" címen keresztül érhető el.<br />Értesítse a rendszergazdát.';
+$string['wwwrootslash'] = 'A $CFG->wwwroot hibája a config.php-ben, lezáró perjelet nem tartalmazhat.<br />Értesítse a rendszergazdát.';
+	  
 $string['TODO'] = 'TEENDŐ';
 $string['cannoffindgradeitem'] = 'A grade_item nem található.';
 $string['cannotassignrolehere'] = 'Ezt a szerepet (id = $a->roleid) ebben a környezetben ($a->context) nem rendelheti hozzá.';

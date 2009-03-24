@@ -1,4 +1,10 @@
 <?php
+
+$string['addingcalculated'] = 'Számításos kérdés hozzáadása';
+$string['calculated'] = 'Számításos';
+$string['calculatedsummary'] = 'A számításos kérdés a számjegyes kérdéshez hasonlít, csak teszt közben a számok kiválasztása véletlenszerűen történik.';
+$string['editingcalculated'] = 'Számításos kérdés szerkesztése';
+
 $string['addmoreanswerblanks'] = 'Másik válaszhely hozzáadása.';
 $string['addmoreunitblanks'] = 'Helyek további $a egység számára';
 $string['answerhdr'] = 'Válasz';

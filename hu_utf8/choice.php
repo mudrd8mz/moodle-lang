@@ -1,6 +1,8 @@
 <?PHP // $Id$
       // choice.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['choicesaved'] = 'Válaszlehetőség elmentve';
+$string['option'] = 'Választás';
 
 $string['addmorechoices'] = 'További válaszlehetőségek hozzáadása';
 $string['allowupdate'] = 'Válaszlehetőség frissítésének engedélyezése';

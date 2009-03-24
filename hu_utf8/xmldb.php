@@ -1,6 +1,10 @@
 <?PHP // $Id$ 
       // xmldb.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['doc'] = 'Dokumentum';
+$string['extensionrequired'] = 'Ehhez  \'$a\' PHP-kibővítésre van szükség. Telepítse, ha használni kívánja.';
+$string['generate_documentation'] = 'Dokumentáció';
+
 $string['cannotinstantiateclass'] = 'Hiba: nem hozható létre osztálypéldány (actions/$a->action/$a->actionclass)';
 $string['check_foreign_keys'] = 'Külső kulcs miatti hiba keresése';
 $string['checkforeignkeys'] = 'Külső kulcsok ellenőrzése';

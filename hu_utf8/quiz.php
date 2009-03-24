@@ -1,6 +1,22 @@
 <?PHP // $Id$ 
       // quiz.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+
+$string['addaquestion'] = 'Kérdés hozzáadása...';
+$string['addarandomquestion'] = 'Véletlen kérdés hozzáadása...';
+$string['areyousureremoveselected'] = 'Biztosan törli az összes kiválasztott kérdést?';
+$string['configshowuserpicture'] = 'Próbálkozások alatt jelenítse meg a felhasználó képét.';
+$string['createquestionandadd'] = 'Új kérdés létrehozása és hozzáadása a teszthez.';
+$string['quiz:reviewmyattempts'] = 'Próbálkozásainak áttekintése';
+$string['quizisclosed'] = 'A teszt le van zárva.';
+$string['quizisopen'] = 'A teszt nyitva van.';
+$string['quizisopenwillclose'] = 'A teszt nyitva van ($a bezáródik)';
+$string['randomfromcategory'] = 'Véletlen kérdés ebből a kategóriából:';
+$string['randomnosubcat'] = 'Kérdések ebből a kategóriából, de nem ennek alkategóriáiból.';
+$string['randomwithsubcat'] = 'Kérdések ebből a kategóriából és ennek alkategóriáiból.';
+$string['removeselected'] = 'A kiválasztott törlése';
+$string['showuserpicture'] = 'Felhasználó képének megjelenítése';
+
 $string['configurerandomquestion'] = 'Kérdés beállítása';
 $string['createcategoryfornewrandomquestion'] = 'Kérdéskategória létrehozása az új véletlenszerű kérdéshez';
 $string['empty'] = 'Üres';
@@ -277,9 +293,9 @@ $string['editingnumerical'] = 'Számjegyes kérdés szerkesztése';
 $string['editingquestion'] = 'Kérdés szerkesztése';
 $string['editingquiz'] = 'Teszt szerkesztése';
 $string['editingrandom'] = 'Véletlenszerű kérdés szerkesztése';
-$string['editingrandomsamatch'] = 'Véletlenszerű rövid válaszos párosító kérdés szerkesztése';
+$string['editingrandomsamatch'] = 'Véletlenszerű kiegészítendő párosító kérdés szerkesztése';
 $string['editingrqp'] = '$a: kérdés szerkesztése';
-$string['editingshortanswer'] = 'Rövid válaszos kérdés szerkesztése';
+$string['editingshortanswer'] = 'Kiegészítendő kérdés szerkesztése';
 $string['editingtruefalse'] = 'Igaz-hamis kérdés szerkesztése';
 $string['editqcats'] = 'Kérdéskategóriák szerkesztése';
 $string['editquestions'] = 'Kérdések szerkesztése';
@@ -550,8 +566,8 @@ $string['quiztimelimit'] = 'Időkorlát: $a';
 $string['quiztimer'] = 'Teszt időmérője';
 $string['random'] = 'Véletlenszerű kérdés';
 $string['randomcreate'] = 'Véletlenszerű kérdések létrehozása';
-$string['randomsamatch'] = 'Véletlenszerű rövid válaszos párosító';
-$string['randomsamatchcreate'] = 'Véletlenszerű rövid válaszos párosító kérdések létrehozása';
+$string['randomsamatch'] = 'Véletlenszerű kiegészítendő párosító';
+$string['randomsamatchcreate'] = 'Véletlenszerű kiegészítendő párosító kérdések létrehozása';
 $string['randomsamatchintro'] = 'Az alábbi kérdésekhez válassza ki a megfelelő választ a menüből';
 $string['randomsamatchnumber'] = 'Választandó kérdések száma';
 $string['readytosend'] = 'Teljes tesztjét pontozásra készül beküldeni. Biztosan folytatni kívánja?';
@@ -630,7 +646,7 @@ $string['serverinfo'] = 'Szerverinformáció';
 $string['serverinuse'] = 'A törölni kívánt szerver az utolsó $a szerver, és már vannak olyan kérdések, amelyek a szerver törlése esetén nem fognak működni.';
 $string['servers'] = 'Szerverek';
 $string['serverurl'] = 'Szerver URL-je';
-$string['shortanswer'] = 'Rövid válasz';
+$string['shortanswer'] = 'Kiegészítendő';
 $string['show'] = 'Mutat';
 $string['showall'] = 'Minden kérdés egy oldalon látsszon';
 $string['showbreaks'] = 'Oldaltörések látsszanak';

@@ -2,7 +2,7 @@
 
       // hotpot.php - created with Moodle 1.7 beta + (2006101003)
 
-
+$string['deleteallattempts'] = 'Az összes próbálkozás törlése';
 $string['abandoned'] = 'Felhagyott vele';
 $string['addquizchain'] = 'Tesztsor hozzáadása';
 $string['allusers'] = 'Minden felhasználó';

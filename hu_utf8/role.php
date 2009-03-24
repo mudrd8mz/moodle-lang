@@ -1,6 +1,8 @@
 <?PHP // $Id$ 
       // role.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['site:usewebservices'] = 'A felhasználót a Moodle webszolgáltatása szolgálhatja ki.';
+
 $string['addinganewrole'] = 'Új szerep hozzáadása';
 $string['addingrolebycopying'] = 'Új szerep hozzáadása $a alapján';
 $string['allowed'] = 'Engedélyezett';
