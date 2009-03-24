@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
+      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20090324) (2009032001)
 
 
 $string['configplugin'] = 'Configurazione repository Moodle Remoto';
@@ -14,7 +14,7 @@ $string['remember'] = 'Ricordami';
 $string['remoterep_description'] = 'Abilita il \"discovery\" del servizio<br><br>';
 $string['remoterep_name'] = 'Repository Moodle Remoto';
 $string['repositorydesc'] = 'Repository sul server Moodle remoto';
-$string['repositoryname'] = 'File su Moodle remoto';
+$string['repositoryname'] = 'Moodle remoto';
 $string['usercannotaccess'] = 'Tu ($a) non puoi accedere a questo file';
 $string['usernotfound'] = 'L\'utente $a non è registrato nel server Moodle remoto';
 

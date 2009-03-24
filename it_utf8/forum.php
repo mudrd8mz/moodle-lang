@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090304) (2009030300)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090324) (2009032001)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -37,7 +37,8 @@ $string['cannotadd'] = 'La discussione non può essere aggiunta in questo forum'
 $string['cannotadddiscussion'] = 'Aggiungere discussioni a questo forum richiede l\'appartenenza a un gruppo.';
 $string['cannotadddiscussionall'] = 'Non hai il permesso per aggiungere un nuovo argomento di discussione per tutti i partecipanti.';
 $string['cannotaddsubscriber'] = 'Non è stato possibile iscrivere a questo forum l\'utente con id $a!';
-$string['cannotconvertteachertogeneral'] = 'Non è stato possibile cambiare il tipo di forum da docenti a generale';
+$string['cannotaddteacherforumto'] = 'Non è stato possibile aggiungere il forum teacher con il tipo già cambiato nella sezione 0 del corso';
+$string['cannotconvertteachertogeneral'] = 'Non è stato possibile cambiare il tipo di forum da tipo docenti a tipo generale';
 $string['cannotcreatediscussion'] = 'Non è stato possibile creare una nuova discussione';
 $string['cannotcreateinstanceforteacher'] = 'Non è stato possibile creare una nuova istanza del forum docenti';
 $string['cannotdeleteforummodule'] = 'Il modulo di attività forum non può essere cancellato.';
@@ -51,13 +52,15 @@ $string['cannotmovefromsingleforum'] = 'Una discussione non può essere spostata
 $string['cannotmovenotvisible'] = 'Forum non visibile';
 $string['cannotmovetonotexist'] = 'Non possono essere effettuati spostamenti verso questo forum - non esiste!';
 $string['cannotmovetonotfound'] = 'Il forum di destinazione non è stato trovato in questo corso.';
+$string['cannotpurgecachedrss'] = 'Non è stato possibile ripulire i feed RSS presenti in cache per i forum sorgente e/o destinazione - verificate i vostri permessi sui file';
 $string['cannotremovesubscriber'] = 'Non è stato possibile rimuovere da questo forum l\'utente con id $a !';
 $string['cannotreply'] = 'Non puoi rispondere a questo intervento';
 $string['cannotsplit'] = 'Le discussioni non possono essere spostate da questo forum';
 $string['cannotsubscribe'] = 'Spiacente, devi appartenere ad un gruppo per iscriverti';
 $string['cannottrack'] = 'Non è stato possibile interrompere la visualizzazione dei messaggi non letti';
 $string['cannotunsubscribe'] = 'Non è stato possibile disiscriverti dal  forum';
-$string['cannotupdatediscussion'] = 'La discussione non può essere modificata';
+$string['cannotupdatecoursemoudle'] = 'Non è stato possibile aggiornare il modulo del corso con la id di sezione';
+$string['cannotupdatediscussion'] = 'Non è stato possibile modificare la discussione';
 $string['cannotupdatefirstpost'] = 'Il primo intervento non può essere modificato';
 $string['cannotupdateforum'] = 'Il forum non può essere modificato';
 $string['cannotupdatepost'] = 'Non puoi modificare questo intervento';
@@ -72,6 +75,7 @@ $string['completionpostshelp'] = 'è necessario un numero minimo di discussioni 
 $string['completionreplies'] = 'L\'utente deve inviare il seguente numero di risposte:';
 $string['completionrepliesgroup'] = 'Numero minimo risposte';
 $string['completionreplieshelp'] = 'è necessario un numero minimo di interventi';
+$string['configajaxrating'] = 'Le valutazioni AJAX migliorano l\'usabilità delle valutazioni nei forum. Abilitando le valutazioni AJAX sarà possibile valutare gli interventi rapidamente, senza la necessità di scrollare la pagina e premere il pulsante \'Invia le mie valutazioni\'. Per funzionare, le valutazioni AJAX richiedono che AJAX sia abilitato nel sito e nel profilo degli utenti.';
 $string['configcleanreadtime'] = 'L\'ora del giorno in cui vengono eliminati i vecchi interventi dalla tabella \'lettura\'.';
 $string['configdisplaymode'] = 'La modalità predefinita di visualizzazione per le discussioni.';
 $string['configenablerssfeeds'] = 'Questa opzione abilita l\'utilizzo dei feed RSS per tutti i forum. I singoli feed devono comunque essere attivati manualmente, nelle impostazioni di ogni forum.';
@@ -174,6 +178,7 @@ $string['invaliddiscussionid'] = 'L\'ID della discussione è errata';
 $string['invalidforumid'] = 'L\'ID del forum è errata';
 $string['invalidparentpostid'] = 'L\'ID dell\'intervento superiore è errato';
 $string['invalidpostid'] = 'ID dell\'intervento non valida - $a';
+$string['invalidrate'] = 'Valutazione non valida ($a)';
 $string['lastpost'] = 'Ultimo intervento';
 $string['learningforums'] = 'Forum per apprendimento';
 $string['logblocked'] = 'Inserisci nel log le email bloccate';
@@ -223,6 +228,7 @@ $string['noposts'] = 'Nessun intervento';
 $string['nopostscontaining'] = 'Nessun intervento contenente \'$a\' è stato trovato';
 $string['noquestions'] = 'Non ci sono ancora domande in questo forum';
 $string['norate'] = 'Valutazione degli elementi non permessa!';
+$string['noratinggiven'] = 'Non sono state date valutazioni';
 $string['noresult'] = 'Nessuna valutazione per questo intervento: $a';
 $string['nosubscribers'] = 'Non ci sono ancora iscritti a questo forum';
 $string['notexists'] = 'La discussione non esiste più';
