@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9.1 (Build: 20080515) (2007101512)
+      // hotpot.php - created with Moodle 1.9.4+ (Build: 20090311) (2007101541)
 
 
 $string['abandoned'] = 'Forlatt';
@@ -23,6 +23,7 @@ $string['copytoclipboard'] = 'Kopier til utklippstavla';
 $string['correct'] = 'Riktig';
 $string['deleteabandoned'] = 'Slett forlatte';
 $string['deleteabandonedcheck'] = 'Vil du virkelig slette alle $a forlatte forsøk?';
+$string['deleteallattempts'] = 'Slett alle forsøk';
 $string['displaycoursenext'] = 'Vis Til kurssiden';
 $string['displayhotpotnext'] = 'Vis Til Hotpot';
 $string['displayindexnext'] = 'Vis til Hotpot oversikt';
@@ -86,6 +87,7 @@ $string['rawdetails'] = 'Rådata fra forsøkene';
 $string['regrade'] = 'Revider vurderinger';
 $string['regradecheck'] = 'Vil du virkelig endre karakterene for &quot;$a&quot;?';
 $string['regraderequired'] = 'Påkrevd å revidere karakterer';
+$string['removegradeitem'] = 'Fjern vurderingselement';
 $string['reportanswers'] = 'Svar';
 $string['reportattemptfinish'] = 'Fullførte forsøk';
 $string['reportattemptnumber'] = 'Forsøk';

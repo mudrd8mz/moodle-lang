@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // moodle.php - created with Moodle 1.9.4+ (Build: 20090311) (2007101541)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1134,6 +1134,7 @@ $string['potentialteachers'] = 'Mulige lærere';
 $string['preferences'] = 'Preferanser';
 $string['preferredlanguage'] = 'Språk';
 $string['preferredtheme'] = 'Foretrukket utseende';
+$string['preprocessingbackupfile'] = 'Forbereder sikkerhetskopifilen';
 $string['preview'] = 'Forhåndsvis';
 $string['previewhtml'] = 'Forhåndsvisning av HTML-format';
 $string['previeworchoose'] = 'Forhåndsvis eller endre tema';
@@ -1294,6 +1295,7 @@ $string['showrecent'] = 'Vis siste aktivitet';
 $string['showreports'] = 'Vis aktivitetsrapport';
 $string['showsettings'] = 'Vis innstillinger';
 $string['showtheselogs'] = 'Vis disse loggene';
+$string['showthishelpinlanguage'] = 'Vis hjelp i språket: $a';
 $string['since'] = 'Siden';
 $string['sincelast'] = 'siden siste innlogging';
 $string['site'] = 'Nettsted';
@@ -1511,6 +1513,7 @@ $string['userprofilefor'] = 'Brukerprofil for $a';
 $string['users'] = 'Brukere';
 $string['usersnew'] = 'Nye brukere';
 $string['usersnoaccesssince'] = 'Vis brukere som har vært inaktive i mer enn';
+$string['userswithfiles'] = 'Brukerfiler';
 $string['userzones'] = 'Brukersoner';
 $string['usethiscourse'] = 'Bruk dette kurset';
 $string['usingexistingcourse'] = 'Bruker eksisterende kurs';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // admin.php - created with Moodle 1.9.4+ (Build: 20090311) (2007101541)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -128,6 +128,7 @@ $string['configenablestats'] = 'Hvis du velger \'ja\' her, vil Moodles cronjobb 
 $string['configenabletrusttext'] = 'Som standard vil Moodle alltid renske tekst fra brukere for potensielt skadelig kode, media eller annet som kan være en sikkerhetsrisiko. \"Goskjent Innhold\" systemet er en måte å gi bestemte brukere adgang til å inkludere avanserte funksjoner i publisert innhold uten at Moodle fjerner noe. For å aktivisere denne funksjonen må du først aktivisere denne innstillingen og deretter tildele \"Godkjent Innhold\"-tillatelse til en bestemt Moodle-rolle. Tekst som blir produsert eller lastet opp av slike brukere vil bli merket som Godkjent og ikke rensket før den vises.';
 $string['configenrolmentplugins'] = 'Vennligst velg hvilken påmeldings-plugin du ønsker å bruke. Ikke glem innstillingene!<br /><br />Du må sette at plugins er aktivisert, og <strong>BARE EN</strong> plugin kan settes som standard for <em>interaktiv</em> påmelding. Dersom du vil slå av interaktiv påmelding må du sette \"Tilgjengelig for påmelding\" til \"Nei\" i Kursinnstillingene.';
 $string['configerrorlevel'] = 'Velg hvor mye PHP-advarsler du ønsker skal vises. Normal er vanligvis det beste valg.';
+$string['configexperimentalsplitrestore'] = 'Dersom aktivert vil sikkerhetskopifilene bli sjekket for XML-feil og delt opp i mindre deler som skal brukes ved en gjenoppretting. Dette medfører mer robust gjenoppretting og mye raskere respons ved kjøring -særlig når du sikkerhetskopierer medium til store kurs.';
 $string['configextendedusernamechars'] = 'Slå på denne for å la studenter bruke alle tegn i sine brukernavn (merk at dette ikke påvirker deres virkelige navn). Standard er \"falsk\" som avgrenser brukernavn til å bestå av kun alfanumeriske tegn';
 $string['configfilterall'] = 'Filtrer alle tekststrenger, inkludert overskrifter, titler, navigasjonslinjer osv. Dette er nyttigst når du bruker filter for flere språk, ellers vil den kun skape ekstra belasting på nettstedet uten at du tjener på det.';
 $string['configfiltermatchoneperpage'] = 'Auto-lenking filtre vil bare generere en lenke for første treff på en side. Alle andre blir ignorert.';
@@ -377,6 +378,7 @@ $string['errorsetting'] = 'Kunne ikke lagre innstillingene';
 $string['errorwithsettings'] = 'Noen innstillinger kunne ikke lagres pga en feil';
 $string['everyonewhocan'] = 'Alle som kan \'$a\'';
 $string['experimental'] = 'Eksperimentell';
+$string['experimentalsplitrestore'] = 'Eksperimentell: Gjenoppretting med flere backupfiler pr. kurs';
 $string['extendedusernamechars'] = 'Tillat utvidet karaktersett i brukernavn';
 $string['filecreated'] = 'Ny fil opprettet';
 $string['filestoredin'] = 'Lagre fil i mappen:';
