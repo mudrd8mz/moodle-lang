@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // role.php - created with Moodle 2.0 dev (Build: 20090324) (2009032001)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -9,8 +9,10 @@ $string['allow'] = '許可';
 $string['allowassign'] = 'ロールの割り当て許可';
 $string['allowed'] = '許可済み';
 $string['allowoverride'] = 'ロールのオーバーライド許可';
-$string['allowroletoassign'] = 'ロール $a->fromrole のユーザに対して、ロール $a->targetrole の割り当てを許可する';
-$string['allowroletooverride'] = 'ロール $a->fromrole のユーザに対して、ロール $a->targetrole のオーバーライドを許可する';
+$string['allowroletoassign'] = 'ロール $a->fromrole のユーザに対して、ロール $a->targetrole への割り当てを許可する';
+$string['allowroletooverride'] = 'ロール $a->fromrole のユーザに対して、ロール $a->targetrole へのオーバーライドを許可する';
+$string['allowroletoswitch'] = 'ロール $a->fromrole のユーザに対して、ロール $a->targetrole へのスイッチを許可する';
+$string['allowswitch'] = 'ロールのスイッチ許可';
 $string['allsiteusers'] = 'すべてのサイトユーザ';
 $string['assignanotherrole'] = '別のロールを割り当てる';
 $string['assignerror'] = 'ユーザ $a->user へのロール a->role 割り当て中にエラーが発生しました。';

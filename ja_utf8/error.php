@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // error.php - created with Moodle 2.0 dev (Build: 20090324) (2009032001)
 
 
 $string['TODO'] = 'TODO';
@@ -277,6 +277,7 @@ $string['invaliditemid'] = 'アイテムIDが正しくありません。';
 $string['invalidkey'] = 'キーが正しくありません。';
 $string['invalidlegacy'] = '無効なレガシーロールのタイプ定義 ($a) です。';
 $string['invalidmd5'] = '無効なmp5ファイルです。';
+$string['invalidmode'] = '無効なモード ($a) です。';
 $string['invalidmodule'] = '無効なモジュールです。';
 $string['invalidmoduleid'] = '無効なモジュールID ($a) です。';
 $string['invalidmodulename'] = '無効なモジュール名 ($a) です。';

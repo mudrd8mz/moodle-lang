@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090324) (2009032001)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -73,6 +73,7 @@ $string['configallowemailaddresses'] = '新しいメールアドレスを特定�
 $string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア (Flash等) をEMBEDおよびOBJECTタグでHTMLに埋め込むことは許可されていません (メディアプラグインフィルタを使用して安全に埋め込むことは可能です)。これらのタグの使用を許可したい場合、このオプションを有効にしてください。';
 $string['configallowoverride'] = 'あなたはロール割り当て済みの左側のユーザに対して、いくつかのロールのオーバーライドを許可することができます。';
 $string['configallowoverride2'] = '左側カラム内のロールがオーバライドできるロールを選択してください。<br />これらの設定は、ケイパビリティ「moodle/role:override」または「moodle/role:safeoverride」を持っているユーザにのみ適用されますので注意してください。';
+$string['configallowswitch'] = 'ユーザが持つロールを基に、どのロールにスイッチできるか選択してください。このテーブルのエントリに加えてロールをスイッチできるようにするには、ユーザがmoodle/role:switchrolesケイパビリティを持つ必要があります。<br />moodle/course:viewケイパビリティを持つロールにのみスイッチすることができるため、このテーブルのいくつかのカラムは無効にされていることに留意してください。';
 $string['configallowunenroll'] = 'この設定を「Yes」にした場合、学生はいつでも好きなときにコースから登録抹消することができます。無効にした場合、学生は登録抹消することはできず、参加に関するすべてを教師および管理者がコントロールします。';
 $string['configallowuserblockhiding'] = 'サイト全体において、ユーザにブロックの表示/非表示を許可しますか? 折りたたみ可能なブロックの状態を記憶するため、この機能はJavaスクリプトとクッキーを使用します。また、この設定はユーザ自身の使用にのみ影響します。';
 $string['configallowusermailcharset'] = 'この設定を有効にした場合、サイトの全ユーザは自分のメール文字コードを指定することができます。';
