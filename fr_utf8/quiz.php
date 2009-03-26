@@ -434,6 +434,7 @@ $string['multiplier'] = 'Multiplicateur';
 $string['name'] = 'Nom';
 $string['neverallononepage'] = 'Jamais, toutes les questions sur une page';
 $string['newattemptfail'] = 'Erreur&nbsp;! Impossible de commencer une tentative de ce test';
+$string['newpage'] = 'Nouvelle page';
 $string['newpageevery'] = 'Commencer automatiquement une nouvelle page';
 $string['noanswers'] = 'Aucune réponse n\'a été sélectionnée !';
 $string['noattempts'] = 'Aucune tentative n\'a été réalisée sur ce test';
