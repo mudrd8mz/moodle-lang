@@ -445,6 +445,7 @@ $string['noconnection'] = 'Aucune connexion à un service web ne permet actuelle
 $string['nodataset'] = 'rien - ce n\'est pas un caractère joker';
 $string['nodatasubmitted'] = 'Aucune donnée transmise.';
 $string['noessayquestionsfound'] = 'Aucune question à évaluation manuelle';
+$string['nogradewarning'] = 'Ce test n\'est pas évalué&nbsp;; par conséquent, vous ne pouvez pas spécifier un feedback général qui diffère suivant la note.';
 $string['nomatchinganswer'] = 'Vous devez indiquer une réponse correspondant à la question «&nbsp;$a&nbsp;».';
 $string['nominal'] = 'Nominal';
 $string['nomoreattempts'] = 'Aucune autre tentative n\'est autorisée';
