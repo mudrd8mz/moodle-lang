@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
+      // completion.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
 
 
 $string['activitycompletion'] = 'Completamento attività';
@@ -25,8 +25,8 @@ $string['completion_none'] = 'Non tracciare il completamento';
 $string['completiondisabled'] = 'Disabilitato, non mostrato nelle impostazioni attività';
 $string['completionenabled'] = 'Abilitato, controllato nelle impostazioni attività';
 $string['completionexpected'] = 'Completamento atteso entro il';
-$string['completionicons'] = 'Icone delle attività completate';
-$string['completionreport'] = 'Report delle attività completate';
+$string['completionicons'] = 'Icone stato di avanzamento';
+$string['completionreport'] = 'Report dello stato di avanzamento';
 $string['completionusegrade'] = 'Valutazione';
 $string['completionusegrade_text'] = 'L\'utente deve ricevere una valutazione';
 $string['completionview'] = 'Visualizzazione';

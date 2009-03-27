@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -73,6 +73,7 @@ $string['configallowemailaddresses'] = 'Se si desidera limitare la provenienza d
 $string['configallowobjectembed'] = 'Come misura di sicurezza standard, agli utenti normali non è permesso includere oggetti multimediali (come Flash) utilizzando esplicitamente i tag EMBED e OBJECT nei testi HTML (rimane la possibilità  per loro di utilizzare il filtro mediaplugins). Se si vuole permettere l\'utilizzo di questi tag allora abilitare questa opzione.';
 $string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di modificare i ruoli di ogni colonna';
 $string['configallowoverride2'] = 'Tramite la matrice sottostante potete autorizzare i ruoli elencati nella colonna verticale a sinistra a modificare i ruoli di altri utenti.<br>Si precisa che queste impostazioni avranno effetto solamente per i ruoli che hanno i privilegi moodle/role:override oppure moodle/role:safeoverride.';
+$string['configallowswitch'] = 'E\' possibile selezionare i ruoli che è possibile cambiare in funzione dei ruoli che già si possiedono. Oltre alla impostazione in questa tabella, un utente per cambiare ruolo deve anche possedere il privilegio moodle/role:switchroles.<br />Da notare che possono cambiare ruolo solo i ruoli che hanno il privilegio moodle/course:view e che non hanno il privilegio moodle/site:doanything. Per questo motivo alcune colonne nella tabella sono disabilitate.';
 $string['configallowunenroll'] = 'Se impostato su \"Si\", gli studenti saranno autorizzati a revocarsi autonomamente da un corso in qualunque momento. In caso contrario non verranno autorizzati a farlo, demandando a docenti e amministratori questa possibilità .';
 $string['configallowuserblockhiding'] = 'Si desidera permettere agli utenti di mostrare/nascondere i blocchi laterali di tutto il sito? <br>Questa caratteristica utilizza Javascript e i cookies per ricordare lo stato di ogni blocco, e influenza solo la vista personale dell\'utente.';
 $string['configallowusermailcharset'] = 'Abilitando questa opzione, ogni utente sarà in grado di definire il proprio set di caratteri per le email.';
@@ -206,6 +207,7 @@ $string['configmaxeditingtime'] = 'Questo parametro specifica il tempo complessi
 $string['configmaxevents'] = 'Eventi da anticipare';
 $string['configmemcachedhosts'] = 'Per cache di tipo \"memcached\". Lista degli host, separati da virgole, che hanno attivo il daemon memcached. Usare indirizzi IP per evitare la DNS latency (tempo per la traduzione). La memcached non funziona bene se si aggiungono o rimuovono host durante il setup.';
 $string['configmemcachedpconn'] = 'Per le cache di tipo \"memcached\". Usa connessioni persistenti. Usare con attenzione -- potrebbe provocare un crash di Apache/PHP dopo un restart del demone memcached.';
+$string['configmemorylimit'] = 'E\' possibile impostare il valore massimo di memoria utilizzabile da uno script PHP. Questa impostazione viene usata solamente durante l\'indicizzazione della ricerca globale,  durante i backup/ripristini e negli script di admin/health.';
 $string['configmessaging'] = 'Attiva il sistema di messaggistica per gli utenti del sito';
 $string['configminpassworddigits'] = 'Le password devono avere almeno questo numero di caratteri numerici.';
 $string['configminpasswordlength'] = 'Le password devono essere lunghe almeno questo numero di caratteri.';
@@ -574,6 +576,7 @@ $string['mediapluginwmv'] = 'Abilita filtro .wmv';
 $string['mediapluginyoutube'] = 'Abilita filtro link YouTube';
 $string['memcachedhosts'] = 'memcached host';
 $string['memcachedpconn'] = 'memcached use persistent connections';
+$string['memorylimit'] = 'Limite memoria PHP';
 $string['messaging'] = 'Abilita il sistema di messaging';
 $string['minpassworddigits'] = 'Cifre';
 $string['minpasswordlength'] = 'Lunghezza password';
@@ -905,6 +908,6 @@ $string['webservicesystemsettings'] = 'impostazioni comuni';
 $string['webserviceusersettings'] = 'Impostazioni web service degli utenti';
 $string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlrpc è utile per le funzionalità del Moodle Networking.';
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
-$string['ziprequired'] = 'Ora Moodle richiede l\'estensione Zip PHP. Gli esguibili info-ZIP o la libreria PclZip non è più usata.';
+$string['ziprequired'] = 'Ora Moodle richiede l\'estensione Zip PHP. Gli eseguibili info-ZIP o la libreria PclZip non è più utilizzata.';
 
 ?>
