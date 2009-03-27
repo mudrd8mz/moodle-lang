@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
+      // role.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
@@ -11,6 +11,8 @@ $string['allowed'] = 'Consentito';
 $string['allowoverride'] = 'Autorizzati a modificare ruoli';
 $string['allowroletoassign'] = 'Consenti agli utenti con il ruolo $a->fromrole di attribuire il ruolo $a->targetrole';
 $string['allowroletooverride'] = 'Consenti agli utenti con il ruolo $a->fromrole di modificare il ruolo $a->targetrole';
+$string['allowroletoswitch'] = 'Consenti agli utenti con il ruolo $a->fromrole di cambiare il ruolo in $a->targetrole';
+$string['allowswitch'] = 'Autorizzati a cambiare ruolo';
 $string['allsiteusers'] = 'Tutti gli utenti del sito';
 $string['assignanotherrole'] = 'Attribuisci un altro ruolo';
 $string['assignerror'] = 'Errore nell\'attribuzione del ruolo $a->role all\'utente $a->user.';
