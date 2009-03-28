@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090324) (2009032001)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -186,6 +186,7 @@ $string['configmaxeditingtime'] = 'ここでは、フォーラムの投稿や用
 $string['configmaxevents'] = '直近イベント数';
 $string['configmemcachedhosts'] = 'memcached用の設定です。memcachedデーモンを動作させるホスト一覧をカンマで区切って入力してください。DNSの遅延を避けるには、IPアドレスを使用してください。動作中のMoodleからホストを追加/削除すると、memcachedが正常に機能しない場合があります。';
 $string['configmemcachedpconn'] = 'memcached用の設定です。持続的接続を使用します。慎重に使用してください - memcachedデーモンの再起動後、Apache/PHPをクラッシュする可能性があります。';
+$string['configmemorylimit'] = 'ここでは、スクリプトが割り当てることのできる最大メモリ容量を設定します。このオプションは、サーチインデックス、バックアップ/リストアおよびadmin/ヘルススクリプトに適用されます。';
 $string['configmessaging'] = 'サイトのユーザ間でメッセージシステムを利用できるようにしますか?';
 $string['configminpassworddigits'] = 'パスワードには、少なくともここで設定した数の数字を使用する必要があります。';
 $string['configminpasswordlength'] = 'パスワードは、少なくともここで設定した長さである必要があります。';
@@ -550,6 +551,7 @@ $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
 $string['mediapluginyoutube'] = 'YouTubeリンクフィルタを有効にする';
 $string['memcachedhosts'] = 'memcachedホスト';
 $string['memcachedpconn'] = 'memcachedが持続的接続を使用する';
+$string['memorylimit'] = 'PHPメモリリミット';
 $string['messaging'] = 'メッセージングシステムを有効にする';
 $string['minpassworddigits'] = '数字';
 $string['minpasswordlength'] = 'パスワード長';

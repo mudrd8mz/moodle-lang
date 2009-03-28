@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090324) (2009032001)
+      // error.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
 
 
 $string['TODO'] = 'TODO';
@@ -294,6 +294,7 @@ $string['invalidscaleid'] = '無効なスケールIDです。';
 $string['invalidsection'] = 'コースモジュールのレコードに無効なセクションが含まれています。';
 $string['invalidsesskey'] = '無効なsesskeyが送信されました。フォームの内容は受信されませんでした!';
 $string['invalidshortname'] = '無効なコース省略名です。';
+$string['invalidtexcommand'] = '禁止されたTeXコマンド ($a) です。';
 $string['invalidurl'] = '無効なURIです。';
 $string['invaliduser'] = '無効なユーザです。';
 $string['invaliduserid'] = '無効なユーザIDです。';
