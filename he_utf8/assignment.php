@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+      // assignment.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
 
 
 $string['allowdeleting'] = 'אפשר מחיקה';
@@ -21,7 +21,7 @@ $string['assignmentmailhtml'] = '$a->teacher שלח משוב על התרגיל �
 אתה יכול לראות את זה כנספח ל<a href=\"$a->url\">מטלה שהגשת</a>.';
 $string['assignmentname'] = 'שם המטלה';
 $string['assignmenttype'] = 'סוג המטלה';
-$string['availabledate'] = 'זמינה מתאריך';
+$string['availabledate'] = 'הגשה זמינה מתאריך';
 $string['cannotdeletefiles'] = 'שגיאה התרחשה וקבצים אינם ניתנים למחיקה';
 $string['comment'] = 'הערה';
 $string['commentinline'] = 'הערה פנימית';
@@ -34,7 +34,7 @@ $string['deleteallsubmissions'] = 'מחק את כל ההגשות';
 $string['deletefilefailed'] = 'מחיקת הקובץ נכשלה';
 $string['description'] = 'תיאור';
 $string['draft'] = 'טיוטא';
-$string['duedate'] = 'תאריך הגשה';
+$string['duedate'] = 'עד לתאריך';
 $string['duedateno'] = 'אין תאריך הגשה';
 $string['early'] = '$a מוקדם';
 $string['editmysubmission'] = 'ערוך את ההגשה שלי';
