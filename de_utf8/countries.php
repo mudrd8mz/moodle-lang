@@ -121,6 +121,7 @@ $string['KH'] = 'Kambodscha';
 $string['KI'] = 'Kiribati';
 $string['KM'] = 'Komoren';
 $string['KN'] = 'Saint Kitts und Nevis';
+$string['KO'] = 'Kosovo';
 $string['KP'] = 'Korea, Demokratische Republik';
 $string['KR'] = 'Korea, Republik';
 $string['KW'] = 'Kuwait';

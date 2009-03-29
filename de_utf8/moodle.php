@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090226) (2009021800)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -660,6 +660,7 @@ $string['filesfolders'] = 'Dateien / Verzeichnisse';
 $string['filloutallfields'] = 'Bitte füllen Sie alle Felder im Formular aus!';
 $string['filter'] = 'Filter';
 $string['findmorecourses'] = 'Weitere Kurse finden...';
+$string['firstaccess'] = 'Erster Zugriff';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Vorname';
 $string['firsttime'] = 'Sind Sie das erste Mal auf dieser Website?
@@ -1228,6 +1229,7 @@ $string['potentialteachers'] = 'Mögliche Trainer/innen';
 $string['preferences'] = 'Voreinstellungen';
 $string['preferredlanguage'] = 'Bevorzugte Sprache';
 $string['preferredtheme'] = 'Bevorzugtes Design';
+$string['preprocessingbackupfile'] = 'Vorbereitung der Sicherung';
 $string['preview'] = 'Vorschau';
 $string['previewhtml'] = 'Vorschau im HTML-Format';
 $string['previeworchoose'] = 'Vorschau oder Auswahl eines Designs';
@@ -1355,6 +1357,7 @@ begriff: findet jeden Treffer des Begriffs im gesamten Text
 $string['searchoptions'] = 'Suchoptionen';
 $string['searchresults'] = 'Suchergebnisse';
 $string['sec'] = 'Sekunde';
+$string['seconds'] = 'Sekunden';
 $string['secondstotime172800'] = '2 Tage';
 $string['secondstotime259200'] = '3 Tage';
 $string['secondstotime345600'] = '4 Tage';
@@ -1407,6 +1410,7 @@ $string['showrecent'] = 'Neue Aktivitäten anzeigen';
 $string['showreports'] = 'Aktivitäten-Berichte anzeigen';
 $string['showsettings'] = 'Einstellungen anzeigen';
 $string['showtheselogs'] = 'Diese Logdaten anzeigen';
+$string['showthishelpinlanguage'] = 'Anzeige dieser Hilfe in der Sprache: $a';
 $string['showtopicfromothers'] = 'Themenfeld anzeigen';
 $string['showweekfromothers'] = 'Woche anzeigen';
 $string['since'] = 'Seit';

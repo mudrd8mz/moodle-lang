@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // form.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['addfields'] = '$a Felder zum Formular hinzufügen';
@@ -34,6 +34,8 @@ $string['security'] = 'Sicherheit';
 $string['selectallornone'] = 'Alle/keinen auswählen';
 $string['showadvanced'] = 'Zusätzliche Felder anzeigen';
 $string['somefieldsrequired'] = 'Die markierten Felder in diesem Formular sind Pflichtfelder. Diese müssen ausgefüllt werden.';
+$string['time'] = 'Zeit';
+$string['timeunit'] = 'Zeiteinheit';
 $string['timing'] = 'Zeitsteuerung';
 $string['unmaskpassword'] = 'Klartext';
 $string['year'] = 'Jahr';
