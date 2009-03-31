@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090330) (2009033002)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -572,6 +572,7 @@ $string['emailpasswordsent'] = 'パスワードの変更確認ありがとうご
 <p>新しいパスワードが記載されたメールがあなたのメールアドレス<br /><b>$a->email</b>に送信されました。<br />新しいパスワードは自動的に生成されたものです - <a href=\"$a->link\">パスワードの変更</a> で覚えやすいものに変更することができます。';
 $string['enable'] = 'Yes';
 $string['encryptedcode'] = '暗号化コード';
+$string['english'] = '英語';
 $string['enroldate'] = '利用有効期間';
 $string['enroldetails'] = '登録詳細';
 $string['enrolenddate'] = '終了日';

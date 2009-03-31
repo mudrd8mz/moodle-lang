@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090330) (2009033002)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -140,6 +140,7 @@ $string['configenrolmentplugins'] = 'あなたが使用したいプラグイン�
 $string['configerrorlevel'] = '表示したいPHPの警告数を選択してください。通常は、Normalが最適です。';
 $string['configexperimentalsplitrestore'] = 'この設定を有効にした場合、コースバックアップファイルは、XMLエラーに関してチェックされた後、リストア処理で使用するため、細かな部分に分割されます。この作業により、特に中規模から大規模なコースバックアップのリストアに関して、安定性および実行時間の改善をもたらします。';
 $string['configextendedusernamechars'] = 'この設定を有効にした場合、学生はユーザ名にどのような文字でも使用することができます (実際の名前には影響しません)。ユーザ名を英数字に制限する「無効」がデフォルトです。';
+$string['configextramemorylimit'] = 'サーチ、バックアップ/リストアまたはcronのようなスクリプトでは、さらなるメモリを必要とします。規模の大きなサイトでは、設定値を上げてください。';
 $string['configextrauserselectorfields'] = '例えばロールの割り当て、またはグループ割り当てに関してユーザを選択する場合、これらのフィールドがフルネームとともに表示され、検索結果に含まれます。セキュリティの観点から、ここでユーザ名を選択するのは賢明でないことに留意してください。';
 $string['configfilterall'] = 'ヘッダ、タイトル、ナビゲーションバー等を含むすべての文字をフィルタします。これは多言語フィルタを使用しているときに最も有用です。そうでない場合、あなたのサイトに単に負荷がかかるだけになります。';
 $string['configfiltermatchoneperpage'] = 'オートリンクフィルタは、ページ全体で最初のテキストマッチングに該当した1つのテキストリンクのみ生成します。他のすべては無視されます。';
@@ -186,7 +187,6 @@ $string['configmaxeditingtime'] = 'ここでは、フォーラムの投稿や用
 $string['configmaxevents'] = '直近イベント数';
 $string['configmemcachedhosts'] = 'memcached用の設定です。memcachedデーモンを動作させるホスト一覧をカンマで区切って入力してください。DNSの遅延を避けるには、IPアドレスを使用してください。動作中のMoodleからホストを追加/削除すると、memcachedが正常に機能しない場合があります。';
 $string['configmemcachedpconn'] = 'memcached用の設定です。持続的接続を使用します。慎重に使用してください - memcachedデーモンの再起動後、Apache/PHPをクラッシュする可能性があります。';
-$string['configmemorylimit'] = 'ここでは、スクリプトが割り当てることのできる最大メモリ容量を設定します。このオプションは、サーチインデックス、バックアップ/リストアおよびadmin/ヘルススクリプトに適用されます。';
 $string['configmessaging'] = 'サイトのユーザ間でメッセージシステムを利用できるようにしますか?';
 $string['configminpassworddigits'] = 'パスワードには、少なくともここで設定した数の数字を使用する必要があります。';
 $string['configminpasswordlength'] = 'パスワードは、少なくともここで設定した長さである必要があります。';
@@ -408,6 +408,7 @@ $string['experimental'] = '実験用';
 $string['experimentalsettings'] = '実験用設定';
 $string['experimentalsplitrestore'] = '実験用分割リストア';
 $string['extendedusernamechars'] = 'ユーザ名に拡張文字を許可する';
+$string['extramemorylimit'] = 'エクストラPHPメモリリミット';
 $string['extrauserselectorfields'] = 'ユーザの選択、検索および表示';
 $string['fatalmagicquotesruntime'] = '<p>深刻な設定エラーが見つかりました、サーバ管理者に報告してください。</p><p>適切に動作させるため、Moodleは管理者によるPHP設定の変更を必要とします。</p><p><code>magic_quotes_runtime</code>を<code>off</code>にしてください。</p><p>この設定は、<code>php.ini</code>、Apache/IIS <br />設定またはサーバの<code>.htaccess</code>ファイルの編集によりコントロールすることができます。</p>';
 $string['fatalsessionautostart'] = '<p>深刻な設定エラーが見つかりました、サーバ管理者に報告してください。</p><p>適切に動作させるため、Moodleは管理者によるPHP設定の変更を必要とします。</p><p><code>session.auto_start</code>を<code>off</code>にしてください。</p><p>この設定は、<code>php.ini</code>、Apache/IIS <br />設定またはサーバの<code>.htaccess</code>ファイルの編集によりコントロールすることができます。</p>';
@@ -551,7 +552,6 @@ $string['mediapluginwmv'] = '.wmvフィルタを有効にする';
 $string['mediapluginyoutube'] = 'YouTubeリンクフィルタを有効にする';
 $string['memcachedhosts'] = 'memcachedホスト';
 $string['memcachedpconn'] = 'memcachedが持続的接続を使用する';
-$string['memorylimit'] = 'PHPメモリリミット';
 $string['messaging'] = 'メッセージングシステムを有効にする';
 $string['minpassworddigits'] = '数字';
 $string['minpasswordlength'] = 'パスワード長';
