@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // data.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
 
 
 $string['action'] = 'Akcia';
@@ -43,6 +43,7 @@ $string['configenablerssfeeds'] = 'Tento prepínač povolí možnosť RSS sťaho
 $string['confirmdeletefield'] = 'Naozaj vymazať toto pole?';
 $string['confirmdeleterecord'] = 'Naozaj vymazať tento záznam?';
 $string['csstemplate'] = 'CSS šablóna';
+$string['csvfailed'] = 'Nepodarilo sa prečítať údaje z CSV súboru';
 $string['csvfile'] = 'CSV súbor';
 $string['csvimport'] = 'CSV import súboru';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym> text so svoleým oddeľovačom:';
@@ -105,6 +106,7 @@ $string['fieldheightsingleview'] = 'Výška v položkovom zobrazení';
 $string['fieldids'] = 'Identifikátory polí';
 $string['fieldmappings'] = 'Mapovanie polí';
 $string['fieldname'] = 'Meno poľa';
+$string['fieldnotmatched'] = 'Nasledujúce polia vo vašom súbore nie sú známe v tejto databáze: $a';
 $string['fieldoptions'] = 'Voľby (jedna na riadok)';
 $string['fields'] = 'Polia';
 $string['fieldupdated'] = 'Pole aktualizované';

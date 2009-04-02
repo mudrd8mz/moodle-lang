@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // admin.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -126,7 +126,9 @@ $string['configenablestats'] = 'Pri voľbe \'Áno\' spracuje cron protokoly o č
 $string['configenabletrusttext'] = 'Moodle štandardne filtruje akýkoľvek text zadaný používateľmi a snaží sa odstrániť potenciálne bezpečnostné riziká, medzi ktoré patria aj skripty, média, a pod. Pomocou funkcie \"Dôveryhodný obsah\" môžete vybraným používateľom poskytnúť privilégium používať aj tieto pokročilé prvky bez ďalších zásahov. Najprv je treba povoliť toto nastavenie a potom prideliť oprávnenie Dôveryhodný obsah (Trusted Content) vybraným roliam. Text, ktorý bol vytvorený alebo nahraný používateľom s takouto rolou, je potom označený ako dôveryhodný a nie je pred zobrazením filtrovaný.';
 $string['configenrolmentplugins'] = 'Aké spôsoby zápisov do kurzu povoliť? Nezabudnite upraviť príslušné nastavenie zásuvných modulov. <br /><br />Označte povolené moduly a vyberte <strong>jeden z nich</strong> ako východzí pre interaktívny zápis do kurzov. Pre vypnutie interaktívnych zápisov do určitých kurzov v nich nastavte premennú \"Do kurzu sa dá zapisovať\" na \"Nie\".';
 $string['configerrorlevel'] = 'Vyberte si množstvo PHP varovaní, ktoré chcete mať zobrazované. Normal je zvyčajne najlepšia možnosť.';
+$string['configexperimentalsplitrestore'] = 'Ak povolíte toto nastavenie, kurzy zálohy budú kontrolované pre chyby v XML a rozdelené na menšie časti pre použitie pri obnovovaní zo zálohy. Cieľom je zlepšenie robustnosti a zvýšenie rýchlosti vykonávania, najmä pre zálohy stredne veľkých a veľkých kurzov.';
 $string['configextendedusernamechars'] = 'Ak povolíte toto nastavenie, študenti môžu vo svojich používateľských menách používať akékoľvek znaky (to však neovplyvní ich skutočné mená). Štandardné nastavenie je \'Nesprávne\', ktoré obmedzuje používané znaky v menách len na alfanumerické znaky.';
+$string['configextramemorylimit'] = 'Niektoré skripty ako vyhľadávanie, zálohovanie a obnova zo zálohy, alebo cron, vyžadujú viac pamäte. Nastavte vyššie hodnoty pre veľké portály.';
 $string['configfilterall'] = 'Filtrovať všetky reťazce, vrátane hlavičiek, titulov, navigačnej lišty a podobne. Toto je najviac užitočné pri používaní viacjazyčného filtra, inak spôsobuje iba mierne zvýšenú záťaž pri generovaní stránok.';
 $string['configfiltermatchoneperpage'] = 'Filtre, ktoré automaticky prepájajú obsah kurzov, vytvoria odkaz iba u prvej nájdenej zhody na celej stránke. Ostatné výskyty sú ignorované.';
 $string['configfiltermatchonepertext'] = 'Filtre, ktoré automaticky prepájajú obsah kurzov, vytvoria odkaz iba u prvej nájdenej zhody v každom úseku textu (napr. študijný materiál, blok apod.). Ostatné výskyty sú ignorované. Toto nastavenie sa neuplatní, ak je premenná \'Jedna zhoda na stránku\' nastavená na \'Áno\'.';
@@ -373,7 +375,9 @@ $string['errorsetting'] = 'Nie je možné uložiť nastavenie:';
 $string['errorwithsettings'] = 'Niektoré nastavenia neboli zmenené kvôli chybe:';
 $string['everyonewhocan'] = 'Každý s oprávnením \'$a\'';
 $string['experimental'] = 'Experimentálne';
+$string['experimentalsplitrestore'] = 'Experimentálne rozdelenie obnovy zo zálohy';
 $string['extendedusernamechars'] = 'Povoliť neštandardné znaky v používateľských menách';
+$string['extramemorylimit'] = 'Extra PHP limit pamäte';
 $string['filecreated'] = 'Vytvorený nový súbor';
 $string['filestoredin'] = 'Ukladať súbor do adresára:';
 $string['filestoredinhelp'] = 'Kde budú ukladané súbory';

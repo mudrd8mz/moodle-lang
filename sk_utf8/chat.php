@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+      // chat.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
 
 
 $string['autoscroll'] = 'Automatický posun';
@@ -51,6 +51,7 @@ $string['nomessages'] = 'Zatiaľ žiadne správy';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Streamovanie';
 $string['noscheduledsession'] = 'Nie je plánované žiadne chatovanie';
+$string['notallowenter'] = 'Nemáte oprávnenie na vstup do chatovacej miestnosti.';
 $string['oldping'] = 'Časový limit na odpojenie';
 $string['pastchats'] = 'Minulé chatovacie sedenia';
 $string['refreshroom'] = 'Aktualizovať miestnosť';

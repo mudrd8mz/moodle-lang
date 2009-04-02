@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // auth.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
 
 
 $string['CASform'] = 'Voľba overovania';
@@ -294,6 +294,8 @@ $string['auth_shib_instructions'] = 'Použite <a href=\"$a\">prihlásenie cez Sh
 $string['auth_shib_instructions_help'] = 'Tu môžete vložiť vlastné informácie o Vašom systéme Shibboleth. Budú sa zobrazovať na prihlasovacej stránke. Vložené informácie by mali obsahovať odkaz na zdroj chránený systémom Shibboleth, ktorý presmeruje používateľov na \"<b>$a</b>\", takže sa používatelia systému Shibboleth budú môcť prihlásiť do Moodle. Ak necháte toto pole prázdne, budú sa na prihlasovacej stránke zobrazovať všeobecné pokyny.';
 $string['auth_shib_integrated_wayf'] = 'Služba Moodle WAYF';
 $string['auth_shib_integrated_wayf_description'] = 'Ak je táto voľba zapnutá, Moodle použije vlastnú službu WAYF namiesto tej, ktorá bola konfigurovaná pre Shibboleth. Moodle zobrazí rozbaľovací zoznam na tejto alternatívnej prihlasovacej obrazovke, kde si používateľ vyberie vlastného poskytovateľa identity.';
+$string['auth_shib_logout_return_url'] = 'Alternatívne URL pre odhlasovanie';
+$string['auth_shib_logout_return_url_description'] = 'Poskytnite URL, kam budú presmerovaní Shibboleth používatelia po odhlásení.<br />Ak toto ostane prázdne, používatelia budú presmerovaní na adresu, kam sú presmerovaní ostatní.';
 $string['auth_shib_logout_url'] = 'URL pre odhlasovanie pomocou poskytovateľa identity Shibboleth.';
 $string['auth_shib_logout_url_description'] = 'Vložte URL pre odhlasovanie pomocou poskytovateľa identity Shibboleth.Najčastejšie je to niečo ako <tt>/Shibboleth.sso/Logout</tt>';
 $string['auth_shib_no_organizations_warning'] = 'Ak chcete používať integrovanú službu WAYF, musíte zadať zoznam Identity Provider entityIDs oddelený čiarkami, ich mená a prípadne iniciátor sekcie.';

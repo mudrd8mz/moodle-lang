@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // quiz.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
 
 
 $string['1day'] = '1 deň';
@@ -305,6 +305,7 @@ $string['importingquestions'] = 'Importujem $a úloh zo súboru';
 $string['importmax10error'] = 'Chybná definícia úlohy: úloha nesmie obsahovať viac ako desať odpovedí.';
 $string['importmaxerror'] = 'Chybná definícia úlohy: príliš mnoho odpovedí.';
 $string['importminerror'] = 'Vyskytla sa chyba v otázke. Nedostatok odpovedí pre tento typ otázky.';
+$string['importparseerror'] = 'V importovanom súbore boli nájdené chyby. Nepodarilo sa importovať žiadne otázky. Ak chcete niektoré dobré otázky importovať, pokúste sa zmeniť nastavenie  \'Zastaviť na chybe\' na \'Nie\'';
 $string['importquestions'] = 'Import otázok zo súboru';
 $string['incorrect'] = 'Nesprávny';
 $string['indivresp'] = 'Odpovede jednotlivých používateľov na každú otázku';
@@ -367,6 +368,7 @@ $string['nocommentsyet'] = 'Zatiaľ bez komentára';
 $string['noconnection'] = 'Momentálne nie je k dispozícii žiadne pripojenie k službe na webe, ktoré by dokázalo spracovať a vyhodnotiť túto otázku. Prosím, kontaktujte svojho administrátora.';
 $string['nodataset'] = 'nič - nie je to divoká karta';
 $string['noessayquestionsfound'] = 'Neboli nájdené žiadne ručne známkované otázky.';
+$string['nogradewarning'] = 'Tento test nie je hodnotený, takže nie je možné nastaviť celkovú spätnú väzbu, ktorá sa líši hodnotením.';
 $string['nomatchinganswer'] = 'Musíte vybrať odpoveď zodpovedajúcu otázke \'$a\'.';
 $string['nominal'] = 'Nominálna';
 $string['nomoreattempts'] = 'Nie je povolené viac pokusov';

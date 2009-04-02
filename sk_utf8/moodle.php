@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // moodle.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -636,6 +636,7 @@ $string['files'] = 'Súbory';
 $string['filesfolders'] = 'Súbory/priečinky';
 $string['filloutallfields'] = 'Vyplňte prosím všetky políčka tohoto formulára';
 $string['findmorecourses'] = 'Vyhľadaj ďalšie kurzy';
+$string['firstaccess'] = 'Prvý prístup';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Krstné meno';
 $string['firsttime'] = 'Ste tu prvý raz?';
@@ -1193,6 +1194,7 @@ $string['potentialteachers'] = 'Potenciálni učitelia';
 $string['preferences'] = 'Preferencie';
 $string['preferredlanguage'] = 'Preferovaný jazyk';
 $string['preferredtheme'] = 'Preferovaná téma';
+$string['preprocessingbackupfile'] = 'Pripravujem súbor so zálohou';
 $string['preview'] = 'Náhľad';
 $string['previewhtml'] = 'Náhľad HTML formátu';
 $string['previeworchoose'] = 'Prehliadať, alebo vybrať tému';
@@ -1360,6 +1362,7 @@ $string['showrecent'] = 'Zobraziť aktuálnu činnosť';
 $string['showreports'] = 'Zobraziť správu o aktivitách';
 $string['showsettings'] = 'Zobraziť nastavenia';
 $string['showtheselogs'] = 'Zobraziť tieto prihlásenia';
+$string['showthishelpinlanguage'] = 'Ukázať túto nápovedu v jazyku: $a';
 $string['since'] = 'Od';
 $string['sincelast'] = 'od posledného prihlásenia';
 $string['site'] = 'Miesto';
@@ -1580,6 +1583,7 @@ $string['userprofilefor'] = 'Používateľský profil pre $a';
 $string['users'] = 'Používatelia';
 $string['usersnew'] = 'Noví používatelia';
 $string['usersnoaccesssince'] = 'Zobraziť používateľov, ktorí neboli aktívni viac ako';
+$string['userswithfiles'] = 'Používatelia so súbormi';
 $string['userzones'] = 'Používateľské zóny';
 $string['usethiscourse'] = 'Použiť tento kurz';
 $string['usingexistingcourse'] = 'Použiť existujúci kurz';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // choice.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
 
 
 $string['addmorechoices'] = 'Pridať viac ankiet';
@@ -34,8 +34,8 @@ $string['notanswered'] = 'Ešte nezodpovedané';
 $string['notopenyet'] = 'Prepáčte, ale táto aktivita nie je dostupná do $a';
 $string['privacy'] = 'Dôvernosť výsledkov';
 $string['publish'] = 'Zverejniť výsledky';
-$string['publishafteranswer'] = 'Ukázať výsledky študentovi po zodpovedaní ankety';
-$string['publishafterclose'] = 'Ukázať výsledky študentovi až po ukončení ankety';
+$string['publishafteranswer'] = 'Ukázať výsledky študentom po zodpovedaní ankety';
+$string['publishafterclose'] = 'Ukázať výsledky študentom až po ukončení ankety';
 $string['publishalways'] = 'Vždy ukázať výsledky študentom';
 $string['publishanonymous'] = 'Zverejniť výsledky anonymne, nezobrazovať mená študentov';
 $string['publishnames'] = 'Uviesť kompletné výsledky, ukázať mená študentov a aj ich voľby';

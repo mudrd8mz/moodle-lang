@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // hotpot.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
 
 
 $string['abandoned'] = 'Zrušený';
@@ -87,6 +87,7 @@ $string['rawdetails'] = 'Základné údaje o pokuse';
 $string['regrade'] = 'Znovu oznámkovať';
 $string['regradecheck'] = 'Naozaj chcete znovu oznámkovať &quot;$a&quot;?';
 $string['regraderequired'] = 'Potrebné znovu oznámkovať';
+$string['removegradeitem'] = 'Odstrániť položku známkovania';
 $string['reportanswers'] = 'Odpovede';
 $string['reportattemptfinish'] = 'Koniec pokusu';
 $string['reportattemptnumber'] = 'Pokus';
