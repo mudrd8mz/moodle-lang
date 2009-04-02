@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -139,6 +139,7 @@ $string['configenrolmentplugins'] = 'Lütfen kullanmak istediğiniz ders kaydı 
 $string['configerrorlevel'] = 'Görünmesini isteğiniz PHP uyarı miktarını seçiniz. Normali genellikle en iyi seçimdir.';
 $string['configexperimentalsplitrestore'] = 'Etkin kılındığında, ders yedekleme dosyalarında XML hataları olup olmadığı kontrol edilecek ve geri yükleme sürecinde kullanmak üzere küçük bölümlere ayrılacaktır. Bu da sağlamlık ve uygulama zamanlarını geri yüklemede, özellikle orta boyutlu ve geniş ders yedeklemeleri için gelişmeler sağlar.';
 $string['configextendedusernamechars'] = 'Öğrencilerin kullanıcı adlarında isteği herhangi bir karakteri seçebilmesini istiyorsanız bu ayarı etkinleştirin. (Not: Adı ve soyadını etkilemez, giriş için kullanılan kullanıcı adını etkiler) Bu ayar \'hayır\' ise sadece ingilizceki alfanümerik karakterler kullanılabilecektir.';
+$string['configextramemorylimit'] = 'Arama, yedekleme/geri yükleme veya cron gibi bazı betikler daha fazla bellek gerektirir. Büyük siteler için daha yüksek değerler ayarlayın.';
 $string['configextrauserselectorfields'] = 'Kullanıcıları seçerken, örneğin rolleri atarken ya da kullanıcıları bir gruba eklerken bu alanlar isimlere ek olarak gösterilecek ve her aramaya dahil edilecektir. Güvenlik nedeniyle, kullanıcı adlarının görüntülenmesi önerilmez.';
 $string['configfilterall'] = 'Başlıklar, gezinme çubuğu ve vb. yerlerdeki bütün metinleri filtrele. Bu, çoklu-dil filtresini kullanıyorsanız kullanışlıdır, diğer durumda sitenize biraz fazladan yük getirecektir.';
 $string['configfiltermatchoneperpage'] = 'Otomatik-linkleme filtresi bir sayfanın tamamında sadece ilk eşleşen bağlantıya link verecektir. Diğer tümü yoksayılır.';
@@ -191,6 +192,7 @@ $string['configminpasswordlength'] = 'Şifreler en az bu kadar karakter içermel
 $string['configminpasswordlower'] = 'Şifreler en az bu kadar küçük karakter içermeli.';
 $string['configminpasswordnonalphanum'] = 'Şifreler en az bu kadar rakam veya sayı olmayan karakter içermeli.';
 $string['configminpasswordupper'] = 'Şifreler en az bu kadar büyük karakter içermeli.';
+$string['configmycoursesperpage'] = 'Kullanıcıların kendi ders listesinde gösterilicek en fazla ders sayısı';
 $string['configmymoodleredirect'] = 'Bu ayar, yönetici hakkına sahip olmayan kullanıcılar giriş yaptığında /my gezinme menüsüne yönlendirir.';
 $string['confignodefaultuserrolelists'] = 'Bu ayar, varsayılan rol o erişimi sağlıyorsa tüm kullanıcıların site dersi için get_course_user,vs. gibi küçülen aramalarının veritabanından reddedilmesini engeller. Başarım vuruşu sorunu yaşıyorsan bunu seçin.';
 $string['confignonmetacoursesyncroleids'] = 'Varsayılan olarak, alt derslerdeki bütün ders kayıtları metaderslere uyarlanacaktır. Burada seçilen roller, uyarlama aşamasına dahil edilmeyecektir.';
@@ -404,6 +406,7 @@ $string['experimental'] = 'Deneysel';
 $string['experimentalsettings'] = 'Deneysel ayarlar';
 $string['experimentalsplitrestore'] = 'Deneysel bölünme geri yüklemesi';
 $string['extendedusernamechars'] = 'Kullanıcı adlarında extra karakterlere izin ver';
+$string['extramemorylimit'] = 'Ektra PHP bellek sınırı';
 $string['extrauserselectorfields'] = 'Kullanıcıları seçerken ara ve görüntüle';
 $string['fatalmagicquotesruntime'] = '<p>Ciddi bir yapılandırma hatası bulundu, lütfen sunucu yöneticisine haber verin.</p><p>Doğru çalışması için Moodle, yöneticinin PHP ayarlarını değiştirmesini gerekli görür.</p><p><code>magic_quotes_runtime</code <code>off</code>\'a ayarlanmalıdır.</p><p> Bu ayar <code>php.ini</code>, sunucudaki Apache/IIS <br /> yapılandırmasını ya da <code>.htaccess</code> dosyasını düzelterek denetlenir.</p>';
 $string['fatalsessionautostart'] = '<p>Ciddi bir yapılandırma hatası bulundu, lütfen sunucu yöneticisine haber verin.</p><p>Doğru çalışması için Moodle, yöneticinin PHP ayarlarını değiştirmesini gerekli görür.</p><p><code>session.auto_start</code> <code>off</code>\'a ayarlanmalıdır.</p><p> Bu ayar <code>php.ini</code>, sunucudaki Apache/IIS <br /> yapılandırmasını ya da <code>.htaccess</code> dosyasını düzelterek denetlenir.';
@@ -547,7 +550,6 @@ $string['mediapluginwmv'] = '.WMV filtresini etkinleştir';
 $string['mediapluginyoutube'] = 'YouTube bağlantıları filtresini etkinleştir';
 $string['memcachedhosts'] = 'memcached hostları';
 $string['memcachedpconn'] = 'memcached kalıcı bağlantı kullan';
-$string['memorylimit'] = 'PHP bellek sınırı';
 $string['messaging'] = 'Mesajlaşmayı etkinleştir';
 $string['minpassworddigits'] = 'Rakamlar';
 $string['minpasswordlength'] = 'Şifre Uzunluğu';
@@ -568,6 +570,7 @@ $string['multilangupgrade'] = 'Çoklu dil güncellemesi';
 $string['multilangupgradeinfo'] = 'Çokludil filtresi yazım kuralı 1.8\'de değişmiştir; <lang> etiketi artık desteklenmemektedir.<br /><br />Örnek: <span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"tr\" class=\"multilang\">Merhaba!</span><br /><br /><strong>Şu anda bütün metinlerdeki yazımları güncellemek istiyor musunuz?</strong>';
 $string['multilangupgradenotice'] = 'Siteniz muhtemelen eski çokludil yazımını kullanıyor, <a href=\"multilangupgrade.php\">çokludil güncellemesi</a> yapmanız tavsiye edilir.';
 $string['mustenablestats'] = 'Bu sitede istatistikler etkinleştirilmemiş';
+$string['mycoursesperpage'] = 'Derslerin sayısı';
 $string['mymoodle'] = 'Kişisel moodle';
 $string['mymoodleredirect'] = 'Kullanıcıları Kişisel Moodle kullanmaya zorla';
 $string['mysql416bypassed'] = 'Siteniz SADECE iso-8859-1 (latin) dillerini kullanıyorsa şimdiki kurulu  MySQL 4.1.12 (veya yüksek) veritabanını kullanmaya devam edebilirsiniz.';
@@ -679,6 +682,9 @@ $string['proxypassword'] = 'Vekil sunucu şifresi';
 $string['proxyport'] = 'Vekil sunucu portu';
 $string['proxytype'] = 'Vekil sunucu tipi';
 $string['proxyuser'] = 'Vekil sunucu kullanıcı adı';
+$string['qtypedeletefiles'] = '\'$a->qtype\' soru tipi ile ilgili tüm veriler veritabanından silindi. Silme işlemini tamamlamak ve bu soru tipinin tekrar kurulmasını önlemek için, şimdi bu klasörü sunucudan silmeniz gerekiyor: $a->directory';
+$string['qtyperqpwillberemoved'] = 'Güncelleme sırasında, RQP soru tipi kaldırılacak. Bu soru tipini kullanmadığınızdan herhangi bir sorunla karşılaşmazsınız.';
+$string['qtyperqpwillberemovedanyway'] = 'Güncelleme sırasında, RQP soru tipi kaldırılacak. Veritabanınızda bazı RQP soruları var ve güncellemeye devam etmeden önce bu soru tipini (http://moodle.org/mod/data/view.php?d=13&amp;rid=797) buradan tekrar kurmazsanız, bu soru tipinin çalışması durdurulacak.';
 $string['quarantinedir'] = 'Karantina dizini';
 $string['question'] = 'Soru';
 $string['questiontype'] = 'Soru tipi';
@@ -729,6 +735,9 @@ $string['sessioncookiedomain'] = 'Çerez etki alanı';
 $string['sessioncookiepath'] = 'Çerez yolu';
 $string['sessionhandling'] = 'Oturum yönetimi';
 $string['sessiontimeout'] = 'Zaman aşımı';
+$string['settingfileuploads'] = 'Dosya yükleme normal işlemler için gereklidir, lütfen PHP yapılandırmasında etkinleştirin.';
+$string['settingmemorylimit'] = 'Yetersiz bellek algılandı, lütfen PHP ayarlarında daha yüksek sınır atayın.';
+$string['settingsafemode'] = 'Moodle, güvenli modla tam olarak uyumlu değildir, lütfen sunucu yöneticisinden bunu kapatmasını isteyin. Güvenli modda Moodle çalıştırmanız durumunda, çeşitli problemlerle karşılaşabilirsiniz.';
 $string['showblocksonmodpages'] = 'Eklenti sayfalarında blokları göster';
 $string['showdetails'] = 'Ayrıntıları göster';
 $string['simpletest'] = 'Toplu testler';
@@ -810,6 +819,7 @@ $string['uploadpicture_cannotunzip'] = 'Resim dosyasının zip sıkıştırması
 $string['uploadpicture_invalidfilename'] = 'Resim dosyası $a adında geçersiz karakterler var. Atlanıyor.';
 $string['uploadpicture_overwrite'] = 'Kullanıcının resmi varsa üzerine yaz';
 $string['uploadpicture_userfield'] = 'Resimle eşleştirilecek kullanıcı özelliği';
+$string['uploadpicture_usernotfound'] = 'Kullanıcının, \'$a->uservalue\' değerinin \'$a->userfield\' niteliği yok. Atlanıyor.';
 $string['uploadpicture_userskipped'] = '$a kullanıcısı atlanıyor (resmi zaten var)';
 $string['uploadpicture_userupdated'] = '$a kullanıcısı için resim yüklendi.';
 $string['uploadpictures'] = 'Kullanıcı resimleri yükle';
@@ -851,12 +861,20 @@ $string['uuoptype_update'] = 'Yalnızca mevcut kullanıcıları güncelle';
 $string['uupasswordnew'] = 'Yeni kullanıcı şifresi';
 $string['uupasswordold'] = 'Mevcut kullanıcı şifresi';
 $string['uupreprocessedcount'] = 'Önceden işlenen kayıt sayısı: $a';
+$string['uuupdatetype'] = 'Mevcut kullanıcı ayrıntıları';
 $string['validateerror'] = 'Bu değer geçerli değildi:';
+$string['verifychangedemail'] = 'E-postayı değiştirirken etki alanlarını sınırla';
 $string['warningcurrentsetting'] = 'Bu değer geçersiz: $a';
 $string['webproxy'] = 'Web proxy';
+$string['webproxyinfo'] = 'Moodle sunucusunun direkt olarak internete erişimi yoksa aşağıdaki seçenekleri doldurun. Ortam verisini, dil paketlerini, Haber içeriklerini, zaman dilimleri vb. indirirken internet erişimi gerekir.<br /><em>PHP cURL eklentisi şiddetle önerilir.</em>';
+$string['webserviceprotocols'] = 'Web servisi sunucuları';
+$string['webservices'] = 'Web servisleri';
+$string['webservicesystemsettings'] = 'genel ayarlar';
+$string['webserviceusersettings'] = 'Web servisi kullanıcı ayarları';
 $string['xmlrpcrecommended'] = 'İsteğe bağlı xmlrpc eklentisinin kurulması, Moodle Ağı işlevselliği için kullanışlıdır.';
 $string['xmlstrictheaders'] = 'Kuralcı XML başlıkları';
 $string['ziprequired'] = 'Moodle, Zip PHP eklentisini gerektirir. Info-ZIP dosyaları veya PclZip kütüphanesi artık kullanılmamaktadır.';
+$string['memorylimit'] = 'PHP bellek sınırı'; // ORPHANED
 $string['optionalsubsystems'] = 'Genel ayarlar'; // ORPHANED
 $string['repsettings'] = 'Depoları yönet'; // ORPHANED
 $string['repsettingsgeneral'] = 'Genel depo ayarları'; // ORPHANED
