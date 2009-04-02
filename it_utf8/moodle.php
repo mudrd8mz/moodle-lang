@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -573,6 +573,7 @@ $string['emailpasswordsent'] = 'Grazie per aver confermato il cambiamento di pas
 <p>La nuova password è stata generata in modo automatico - se tu vuoi, puoi <a href=\"$a->link\">cambiare la password</a> con qualcosa che sia più facile da ricordare.';
 $string['enable'] = 'Abilita';
 $string['encryptedcode'] = 'Codice criptato';
+$string['english'] = 'Inglese';
 $string['enroldate'] = 'Periodo di tempo';
 $string['enroldetails'] = 'Dettagli iscrizione';
 $string['enrolenddate'] = 'Data di fine';

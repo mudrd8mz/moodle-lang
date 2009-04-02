@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -145,6 +145,7 @@ $string['configerrorlevel'] = 'Scegliete il numero di messaggi di errore di PHP 
 $string['configexperimentalsplitrestore'] = 'Se abilitate questa impostazione, i file di backup dei corsi verranno analizzati per verificare la presenza di errori XML e saranno suddivisi in parti prima del ripristino. Questa impostazione migliora la robustezza ed il tempo di esecuzione del processo di ripristino, specialmente per backup di corsi medi e grandi.';
 $string['configextendedusernamechars'] = 'Attivate questa opzione per permettere agli studenti di utilizzare qualsiasi carattere nel loro nome utente (da notare che questo non influisce sui loro nomi attuali).
 L\'impostazione predefinita limita l\'uso dei caratteri ai soli alfanumerici (esclude quindi caratteri speciali, caratteri accentati, ecc).';
+$string['configextramemorylimit'] = 'Alcuni script, come la ricerca globale, il backup/ripristino o il cron, richiedono maggiore memoria. Alzate questo valore su siti di grandi dimensioni.';
 $string['configextrauserselectorfields'] = 'Durante la selezione degli utenti, ad esempio durante l\'attribuzione dei ruoli o la creazione di gruppi, assieme al nome e cognome verranno anche visualizzati i  campi qui selezionati, che saranno usati anche per effettuare ricerche. Per motivi di sicurezza, è sconsigliabile visualizzare gli username.';
 $string['configfilterall'] = 'Filtra tutte le stringhe, incluse le intestazioni, titoli, barre di navigazione ecc.
 Questo è particolarmente utile se si usa il filtro multilingua; altrimenti creerà  soltanto traffico supplementare sul sito senza un guadagno apprezzabile.';
@@ -207,13 +208,13 @@ $string['configmaxeditingtime'] = 'Questo parametro specifica il tempo complessi
 $string['configmaxevents'] = 'Eventi da anticipare';
 $string['configmemcachedhosts'] = 'Per cache di tipo \"memcached\". Lista degli host, separati da virgole, che hanno attivo il daemon memcached. Usare indirizzi IP per evitare la DNS latency (tempo per la traduzione). La memcached non funziona bene se si aggiungono o rimuovono host durante il setup.';
 $string['configmemcachedpconn'] = 'Per le cache di tipo \"memcached\". Usa connessioni persistenti. Usare con attenzione -- potrebbe provocare un crash di Apache/PHP dopo un restart del demone memcached.';
-$string['configmemorylimit'] = 'E\' possibile impostare il valore massimo di memoria utilizzabile da uno script PHP. Questa impostazione viene usata solamente durante l\'indicizzazione della ricerca globale,  durante i backup/ripristini e negli script di admin/health.';
 $string['configmessaging'] = 'Attiva il sistema di messaggistica per gli utenti del sito';
 $string['configminpassworddigits'] = 'Le password devono avere almeno questo numero di caratteri numerici.';
 $string['configminpasswordlength'] = 'Le password devono essere lunghe almeno questo numero di caratteri.';
 $string['configminpasswordlower'] = 'Le password devono avere almeno questo numero di lettere minuscole.';
 $string['configminpasswordnonalphanum'] = 'Le password devono avere almeno questo numero di caratteri non alfanumerici.';
 $string['configminpasswordupper'] = 'Le password devono avere almeno questo numero di lettere maiuscole.';
+$string['configmycoursesperpage'] = 'Numero massimo di corsi presenti negli elenchi dei corsi ai quali si è iscritti.';
 $string['configmymoodleredirect'] = 'Questa impostazione forza la ridirezione a /my dell\'accesso per i non amministratori e sostituisce il collegamento alla pagina principale del sito con /my';
 $string['confignodefaultuserrolelists'] = 'Questa impostazione evita che alcune funzioni obsolete (come ad esempio get_course_user, ecc.) possano ottenere l\'elenco di tutti gli utenti con il ruolo di default presenti nel database. Spuntate questa opzione se notate un degrado di prestazioni.';
 $string['confignonmetacoursesyncroleids'] = 'Per default tutte le attribuzioni di ruolo presenti nei corsi \"figli\" vengono sincronizzate nei metacorsi. E\' possibile selezionare uno o più ruoli che si desidera escludere dal processo di sincronizzazione.';
@@ -224,10 +225,10 @@ $string['confignotloggedinroleid'] = 'Ai visitatori (utenti non autenticati nel 
 $string['configopentogoogle'] = 'Se abilitate questa impostazione, Google potrà  entrare nel vostro sito come Ospite. Inoltre, chi arriverà  al vostro sito tramite Google verrà  automaticamente autenticato come Ospite. Nota che questa impostazione fornisce un accesso trasparente solo ai corsi che già  permettono l\'accesso agli ospiti.';
 $string['configoverride'] = 'Definito in config.php';
 $string['configpasswordpolicy'] = 'Attivando questa opzione Moodle controllerà le password utente in base a specifiche regole definite. Le impostazioni seguenti servono a specificare tali regole (queste saranno ignorate se questa opzione non è marcata).';
-$string['configpathtoclam'] = 'Percorso a Clam antivirus. Probabilmente, sarà  usr/bin/clamscan oppure /usr/bin/clamdscan.
+$string['configpathtoclam'] = 'Percorso assoluto per Clam antivirus. Probabilmente usr/bin/clamscan oppure /usr/bin/clamdscan.
 Questo percorso consente a Clam di funzionare.';
-$string['configpathtodu'] = 'Percorso a du. Probabilmente sarà  usr/bin/du. Se questo campo viene definito, le pagine che mostrano il contenuto delle cartelle con molti file verranno elaborate più velocemente.';
-$string['configperfdebug'] = 'Se questo viene attivato, le informazioni sulle prestazioni saranno stampate a pie\' di pagina del tema standard';
+$string['configpathtodu'] = 'Percorso assoluto per du. Probabilmente usr/bin/du. Se questo campo viene compilato, le pagine che mostrano il contenuto delle cartelle con molti file verranno elaborate più velocemente.';
+$string['configperfdebug'] = 'Visualizza informazioni sulle prestazioni nel piè di pagina del tema standard';
 $string['configprofilesforenrolledusersonly'] = 'Per evitare abusi da parte degli spammer, vengono nascoste le descrizioni nei profili degli utenti che non sono ancora iscritti a corsi. I nuovi utenti potranno aggiungere la  descrizione nel profilo solo dopo essere stati iscritti ad almeno un corso-';
 $string['configprotectusernames'] = 'Per default la routine forget_password.php non mostra alcun elemento che potrebbe permettere di indovinare gli username o gli indirizzi email.';
 $string['configproxybypass'] = 'Elenco separato da virgole dei nomi degli host o degli IP (anche parziali) che possono evitare il proxy (ad esempio, 192.168., .mydomain.com)';
@@ -432,6 +433,7 @@ $string['experimental'] = 'Sperimentale';
 $string['experimentalsettings'] = 'Impostazioni sperimentali';
 $string['experimentalsplitrestore'] = 'Ripristino frazionato sperimentale';
 $string['extendedusernamechars'] = 'Permetti l\'uso di caratteri speciali negli username';
+$string['extramemorylimit'] = 'Extra PHP memory limit';
 $string['extrauserselectorfields'] = 'Durante la selezione degli utenti, cerca e visualizza';
 $string['fatalmagicquotesruntime'] = '<p>E\' stato rilevato un errore di configurazione grave, per favore avvertite l\'amministratore del server.</p><p> Per funzionare correttamente, Moodle ha bisogno che l\'amministratore modifichi le impostazioni del PHP..</p><p><code>magic_quotes_runtime</code> deve essere impostato ad <code>off</code>.</p><p>Potete modificare questa impostazione nel file <code>php.ini</code>, nella configurazione di Apache/IIS <br /> oppure usando file <code>.htaccess</code>.</p>';
 $string['fatalsessionautostart'] = '<p>E\' stato rilevato un errore di configurazione grave, per favore avvertite l\'amministratore del server.</p><p> Per funzionare correttamente, Moodle ha bisogno che l\'amministratore modifichi le impostazioni del PHP..</p><p><code>session.auto_start</code> deve essere impostato ad <code>off</code>.</p><p>Potete modificare questa impostazione nel file <code>php.ini</code>, nella configurazione di Apache/IIS <br /> oppure usando file <code>.htaccess</code>.</p>';
@@ -576,7 +578,6 @@ $string['mediapluginwmv'] = 'Abilita filtro .wmv';
 $string['mediapluginyoutube'] = 'Abilita filtro link YouTube';
 $string['memcachedhosts'] = 'memcached host';
 $string['memcachedpconn'] = 'memcached use persistent connections';
-$string['memorylimit'] = 'Limite memoria PHP';
 $string['messaging'] = 'Abilita il sistema di messaging';
 $string['minpassworddigits'] = 'Cifre';
 $string['minpasswordlength'] = 'Lunghezza password';
@@ -597,6 +598,7 @@ $string['multilangupgrade'] = 'Aggiornamento multilingua';
 $string['multilangupgradeinfo'] = 'La sintassi del filtro multilingua è cambiata dalla 1.8, il tag &lt;lang&gt; non è più supportato. <br /><br />Esempio: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"it\" class=\"multilang\">Ciao!&lt;/span&gt;<br /><br /><strong>Vuoi aggiornare la sintassi in tutti i testi esistenti ora?</strong>';
 $string['multilangupgradenotice'] = 'Il tuo sito probabilmente sta utilizzando la vecchia sintassi multilingua, <a href=\"multilangupgrade.php\">multilang upgrade</a> è raccomandato.';
 $string['mustenablestats'] = 'Le statistiche non sono ancora attivate su questo sito';
+$string['mycoursesperpage'] = 'Numero di corsi';
 $string['mymoodle'] = 'Il mio Moodle';
 $string['mymoodleredirect'] = 'Obbliga gli utenti a usare Il mio Moodle';
 $string['mysql416bypassed'] = 'Comunque, se il vostro sito sta utilizzando SOLO lingue iso-8859-1 (latin), potete continuare ad utilizzare MySQL 4.1.12 (o successivo) attualmente installato.';
@@ -909,5 +911,7 @@ $string['webserviceusersettings'] = 'Impostazioni web service degli utenti';
 $string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlrpc è utile per le funzionalità del Moodle Networking.';
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
 $string['ziprequired'] = 'Ora Moodle richiede l\'estensione Zip PHP. Gli eseguibili info-ZIP o la libreria PclZip non è più utilizzata.';
+$string['configmemorylimit'] = 'E\' possibile impostare il valore massimo di memoria utilizzabile da uno script PHP. Questa impostazione viene usata solamente durante l\'indicizzazione della ricerca globale,  durante i backup/ripristini e negli script di admin/health.'; // ORPHANED
+$string['memorylimit'] = 'Limite memoria PHP'; // ORPHANED
 
 ?>

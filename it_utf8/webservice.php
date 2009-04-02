@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20090302) (2009021800)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
 
 
+$string['amfdebug'] = 'Modalità debug server AMF';
 $string['debugdisplayon'] = '\"Display debug messages\" è impostato ad On. Il server XMLRPC non funzionerà. Anche gli altri server web service potrebbero avere problemi.<br/>Avvertite l\'amministratore di impostare \"Display debug messages\" ad Off.';
 $string['fail'] = 'FAIL';
 $string['functionlist'] = 'elenco funzioni web service';
