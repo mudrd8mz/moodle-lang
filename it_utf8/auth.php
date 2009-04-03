@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090223) (2009021800)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -278,13 +278,16 @@ $string['auth_remove_keep'] = 'Mantieni interna';
 $string['auth_remove_suspend'] = 'Sospendi interna';
 $string['auth_remove_user'] = 'Specifica cosa fare con gli account di utenti interni durante la sincronizzazione in massa quando gli utenti sono stati rimossi dalla fonte esterna. Solo gli utenti sospesi sono automaticamente riattivati se riappaiono nella fonte esterna.';
 $string['auth_remove_user_key'] = 'Utente esterno rimosso';
+$string['auth_shib_auth_method'] = 'Nome del metodo di autenticazione';
 $string['auth_shib_changepasswordurl'] = 'URL per cambiare password';
 $string['auth_shib_convert_data'] = 'API per la modifica dei dati';
 $string['auth_shib_convert_data_description'] = 'Puoi usare queste API per modificare ulteriormente i dati forniti da Shibboleth. Per maggiori informazioni, leggi <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a>';
 $string['auth_shib_convert_data_warning'] = 'Il file non esiste o non è leggibile dal processo del webserver!';
+$string['auth_shib_idp_list'] = 'Identity Provider';
 $string['auth_shib_instructions'] = 'Utilizzare <a href=\"$a\">Shibboleth login</a> per avere accesso tramite Shibboleth, se la vostra istituzione lo supporta<br />Altrimenti, utilizzare il modulo di login normale qui mostrato.';
 $string['auth_shib_instructions_help'] = 'Qui dovreste fornire istruzioni su Shibbolet per i vostri utenti. Verranno mostrate nella pagina di login nella sezione delle istruzioni.
 Dovrebbe includere un collegamento a \"<b>$a</b>\"  in modo che gli utenti Shibboleth possano effettuare facilmente il login.';
+$string['auth_shib_integrated_wayf'] = 'Servizio Moodle WAYF';
 $string['auth_shib_no_organizations_warning'] = 'Se vuoi usare il servizio integrato WAYF, devi fornire una lista di elementi separati da virgola comprendenti Identity Provider entityIDs, i loro nomi e eventualmente un iniziatore di sessione.';
 $string['auth_shib_only'] = 'Solo Shibboleth';
 $string['auth_shib_only_description'] = 'Selezionate questa opzione se desiderate forzare l\'autenticazione Shibboleth.';
@@ -316,6 +319,7 @@ $string['chooseauthmethod'] = 'Metodo di autenticazione';
 $string['createpasswordifneeded'] = 'Genera le password se necessario';
 $string['enterthenumbersyouhear'] = 'Inserisci i numeri che senti';
 $string['enterthewordsabove'] = 'Inserisci le parole soprastanti';
+$string['errormaxconsecutiveidentchars'] = 'La password deve avere al massimo $a caratteri identici consecutivi.';
 $string['errorminpassworddigits'] = 'La password deve avere almeno $a numeri.';
 $string['errorminpasswordlength'] = 'La password deve essere lunga almeno $a caratteri.';
 $string['errorminpasswordlower'] = 'La password deve contenere almeno $a lettere minuscole.';
