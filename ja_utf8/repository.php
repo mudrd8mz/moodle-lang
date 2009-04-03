@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
 
 
 $string['activaterep'] = 'アクティブリポジトリ';
@@ -31,6 +31,7 @@ $string['copying'] = 'コピー';
 $string['create'] = '作成';
 $string['createinstance'] = 'リポジトリインスタンスを作成する';
 $string['createrepository'] = 'リポジトリインスタンスを作成する';
+$string['createxxinstance'] = '「 $a 」インスタンスを作成する';
 $string['date'] = '日付';
 $string['deleted'] = 'リポジトリが削除されました。';
 $string['deleterepository'] = 'このリポジトリを削除する';
