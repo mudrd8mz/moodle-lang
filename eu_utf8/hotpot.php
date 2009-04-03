@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // hotpot.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['abandoned'] = 'Bertan behera utzita';
-$string['addquizchain'] = 'Galdetegi-sorta gehitu';
+$string['addquizchain'] = 'Gehitu galdetegi-sorta';
 $string['allmycourses'] = 'Nire ikastaro guztiak';
 $string['allusers'] = 'Erabiltzaile guztiak';
 $string['alwaysopen'] = 'Beti zabalik';
@@ -12,6 +12,11 @@ $string['attemptsbest'] = 'Saiakera onena';
 $string['attemptsfirst'] = 'Lehenbiziko saiakera';
 $string['attemptslast'] = 'Azken saiakera';
 $string['average'] = 'Bataz bestekoa';
+$string['cannotaddquestionrecord'] = 'Ezin izan da galderaren erregistroa gehitu';
+$string['cannotaddresprecord'] = 'Ezin izan da erantzunaren erregistroa gehitu';
+$string['cannotaddstrrecord'] = 'Ezin izan da katearen erregistroa gehitu';
+$string['cannotfindmethod'] = 'Ez da aurkitu txantiloia blokea zabaltzeko metodoa: ($a)';
+$string['cannotupdateattempt'] = 'Ezin izan da saiakeraren erregistroa eguneratu: $a';
 $string['checks'] = 'Konprobazioak';
 $string['clickreporting'] = 'Klik bidezko txostena gaitu';
 $string['clues'] = 'Argibideak';
@@ -23,6 +28,7 @@ $string['copytoclipboard'] = 'Kopiatu Arbelean';
 $string['correct'] = 'Zuzena';
 $string['deleteabandoned'] = 'Bertan behera utzitakoak ezabatu';
 $string['deleteabandonedcheck'] = '$a utzitako saiakera guztiak ezabatu nahi dituzu, ziur?';
+$string['deleteallattempts'] = 'Ezabatu saiakera guztiak';
 $string['displaycoursenext'] = 'Jarraian ikastaroaren hasiera-orria erakutsi';
 $string['displayhotpotnext'] = 'Jarraian HotPot galdetegia erakutsi';
 $string['displayindexnext'] = 'Jarraian HotPot aurkibidea erakutsi';
@@ -56,6 +62,7 @@ $string['hotpotcloses'] = 'Hot Potatoes galdetegia itxi';
 $string['hotpotopens'] = 'Hot Potatoes galdetegia ireki';
 $string['ignored'] = 'Alde batera utzi';
 $string['inprogress'] = 'Ari da';
+$string['invalidattemptid'] = 'Saiakeraren IDa ez da zuzena';
 $string['invalidhotpotid'] = 'Hotpot-aren IDa ez da zuzena';
 $string['location'] = 'Fitxategiaren kokalekua';
 $string['modulename'] = 'Hot Potatoes galdetegia';
@@ -70,6 +77,7 @@ $string['navigation_none'] = 'Bat ere ez';
 $string['neverclosed'] = 'Inoiz ez itxita';
 $string['noactivity'] = 'Ez dago aktibitaterik';
 $string['noresponses'] = 'Ez da bakarkako galdera eta erantzunen inguruko informaziorik aurkitu';
+$string['notyourattempt'] = 'Hau ez da zure saiakera!';
 $string['outputformat'] = 'Irteera-formatua';
 $string['outputformat_best'] = 'onena';
 $string['outputformat_flash'] = 'Flash-a';

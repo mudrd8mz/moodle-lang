@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8.4+ (2007021541)
+      // survey.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['actual'] = 'Benetakoa';
@@ -57,6 +57,10 @@ $string['attlsm2'] = 'Taldean ikasi';
 $string['attlsm3'] = 'Bakarka ikasi';
 $string['attlsmintro'] = 'Eztabaidatuz ...';
 $string['attlsname'] = 'Jarrerak (20 elementuko bertsioa)';
+$string['cannotfindanswer'] = 'Ez dago oraindik inkesta honetarako erantzunik';
+$string['cannotfindquestion'] = 'Ez dago galdera';
+$string['cannotfindsurveytmpt'] = 'Ez da aurkitu inkesta-txantiloirik!';
+$string['cannotinsertanswer'] = 'Arazo bat atzeman da zure emaitzak gordetzean. Barkatu.';
 $string['ciq1'] = 'Ikastaroko zein unetan sentitu zara inplikatuen?';
 $string['ciq1short'] = 'Inplikatuen';
 $string['ciq2'] = 'Ikastaroko zein unetan sentitu zara urrunen?';
@@ -177,6 +181,8 @@ $string['howlong'] = 'Zenbat denbora behar izan duzu inkesta hau betetzeko?';
 $string['howlongoptions'] = '<1 min, 1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,>10 min';
 $string['ifoundthat'] = 'Hau aurkitu dut';
 $string['introtext'] = 'Sarrera-testua';
+$string['invalidsurveyid'] = 'HAusnarketaren IDa ez zen zuzena';
+$string['invalidtmptid'] = 'Txantiloiaren IDa ez da baliozkoa';
 $string['ipreferthat'] = 'Nahiago dut';
 $string['modulename'] = 'Hausnarketa';
 $string['modulenameplural'] = 'Hausnarketak';
