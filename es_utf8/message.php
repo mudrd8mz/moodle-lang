@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8.2+ (2007021520)
+      // message.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addcontact'] = 'Añadir contacto';
 $string['addsomecontacts'] = 'Para enviar un mensaje a alguien, o para añadir un atajo en esta página, utilice la pestaña <a href=\"$a\">Buscar</a> de más arriba.';
 $string['addsomecontactsincoming'] = 'Estos mensajes provienen de personas que no están en su lista de contactos. Para agregarlos a sus contactos, haga clic en el icono \"Agregar contacto\" al lado de su nombre.';
 $string['ago'] = 'hace $a';
+$string['ajax_gui'] = 'Sala de chat Ajax';
 $string['allmine'] = 'Todos los mensajes';
 $string['allstudents'] = 'Todos los mensajes entre los estudiantes del curso';
 $string['allusers'] = 'Todos los mensajes de todos los usuarios';
@@ -25,6 +26,7 @@ $string['editmymessage'] = 'Mensajería';
 $string['emailmessages'] = 'Mensajes por email cuando no estoy en línea';
 $string['emailtagline'] = 'Este email es copia de un mensaje enviado a usted en \"$a\"';
 $string['emptysearchstring'] = 'Debe buscar algo';
+$string['errorcallingprocessor'] = 'Error al llamar al procesador definido';
 $string['formorethan'] = 'Durante más de';
 $string['guestnoeditmessage'] = 'Los invitados no pueden editar las opciones de mensajería';
 $string['guestnoeditmessageother'] = 'Los invitados no pueden editar las opciones de mensajería de otro usuario';
@@ -32,6 +34,8 @@ $string['includeblockedusers'] = 'Incluir usuarios bloqueados';
 $string['incomingcontacts'] = 'Contactos Entrantes ($a)';
 $string['keywords'] = 'Palabras-clave';
 $string['keywordssearchresults'] = 'Resultados de la búsqueda: $a mensajes encontrados';
+$string['loggedin'] = 'En línea';
+$string['loggedoff'] = 'No en línea';
 $string['mailsent'] = 'Su mensaje se ha enviado por email.';
 $string['maxmessages'] = 'Número máximo de mensajes para mostrar en la historia de la discusión';
 $string['message'] = 'Mensaje';
@@ -56,7 +60,6 @@ $string['onlymycourses'] = 'Sólo en mis cursos';
 $string['onlytome'] = 'Sólo mensajes dirigidos a mí';
 $string['pagerefreshes'] = 'Esta página se actualiza automáticamente cada $a segundos';
 $string['private_config'] = 'Opciones de Mensajería Privada';
-$string['processor_config'] = 'Configuración de Destinos';
 $string['processortag'] = 'Destino:';
 $string['providers_config'] = 'Fuentes de Mensajes';
 $string['providerstag'] = 'Fuente:';
@@ -80,5 +83,6 @@ $string['unreadmessages'] = '$a mensajes sin leer';
 $string['userisblockingyou'] = 'Este usuario le ha bloqueado y no puede enviarle mensajes';
 $string['userisblockingyounoncontact'] = 'Este usuario sólo acepta mensajes de las personas que están en su lista de contactos, y usted no figura de momento en dicha lista.';
 $string['userssearchresults'] = 'Resultados de la búsqueda: $a usuarios encontrados';
+$string['processor_config'] = 'Configuración de Destinos'; // ORPHANED
 
 ?>

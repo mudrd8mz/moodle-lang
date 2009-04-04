@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8.2+ (2007021520)
+      // mnet.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (auto-firmado)';
@@ -19,6 +19,8 @@ $string['authfail_usermismatch'] = 'Autorización fallida: el usuario no concuer
 $string['authmnetautoadddisabled'] = '<em>Añadir automáticamente usuarios</em> en el conector (\'plugin\') de autenticación de la Red de Trabajo Moodle(\'Moodle Networking\') está <strong>deshabilitado</strong>.';
 $string['authmnetdisabled'] = '<em>El conector (\'plugin\') de autenticación</em>de la Red de Trabajo Moodle(\'Moodle Networking\') está <strong>deshabilitado</strong>.';
 $string['badcert'] = 'Este no es un certificado válido.';
+$string['certdetails'] = 'Detalles del certificado';
+$string['configmnet'] = 'La red Moodle permite la comunicación de este servidor con otros servidores o servicios.';
 $string['couldnotgetcert'] = 'Ningún certificado fue encontrado en <br />$a. <br />El host puede estar caído o incorrectamente configurado.';
 $string['couldnotmatchcert'] = 'Esto no concuerda con el certificado actualmente publicado por el servidor web.';
 $string['courses'] = 'cursos';
