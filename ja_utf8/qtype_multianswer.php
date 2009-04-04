@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // qtype_multianswer.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
+      // qtype_multianswer.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
 
 
 $string['addingmultianswer'] = 'Cloze (穴埋め問題) の追加';
 $string['correctanswer'] = '正解';
 $string['correctanswerandfeedback'] = '正解およびフィードバック';
-$string['decodeverifyquestiontext'] = '問題テキストをデーコードおよび確認する';
+$string['decodeverifyquestiontext'] = '問題テキストをデコードおよび確認する';
 $string['editingmultianswer'] = 'Cloze (穴埋め問題) の編集';
 $string['layout'] = 'レイアウト';
 $string['layouthorizontal'] = 'ラジオボタンの水平行';
