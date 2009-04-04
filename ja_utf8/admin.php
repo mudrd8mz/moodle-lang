@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090330) (2009033002)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -183,6 +183,7 @@ $string['configlongtimenosee'] = '学生が長期間ログインしていない�
 $string['configlookahead'] = '直近イベント日';
 $string['configmailnewline'] = 'メールメッセージに使用される改行文字です。RFC 822bisによるとCRLFは必須です。いくつかのメールサーバでは、自動的にLFがCRLFに変換され、他のメールサーバではCRLFがCRCRLFに誤って変換され、また、生のLF (bare LF) を拒否するメールサーバもあります。メールが送信されなかったり、改行が2重になる問題がある場合、この設定を変更してみてください。';
 $string['configmaxbytes'] = 'ここでは、サイト全体でアップロードできるファイルの最大サイズを設定します。この設定はPHP設定のpost_max_sizeおよびupload_max_filesize、同様にApache設定のLimitRequestBodyに制限されます。maxbytesは、コースレベルまたはモジュールレベルで選択できるサイズの範囲を制限します。「サーバリミット」が選択された場合、サーバで設定された最大値が使用されます。';
+$string['configmaxconsecutiveidentchars'] = 'パスワードには、この値以上の連続した同一文字を使用することができません。このチェックを無効にするには、ゼロを指定してください。';
 $string['configmaxeditingtime'] = 'ここでは、フォーラムの投稿や用語集のコメント等を編集可能な時間を設定します。通常30分が適切な値です。';
 $string['configmaxevents'] = '直近イベント数';
 $string['configmemcachedhosts'] = 'memcached用の設定です。memcachedデーモンを動作させるホスト一覧をカンマで区切って入力してください。DNSの遅延を避けるには、IPアドレスを使用してください。動作中のMoodleからホストを追加/削除すると、memcachedが正常に機能しない場合があります。';
@@ -193,6 +194,7 @@ $string['configminpasswordlength'] = 'パスワードは、少なくともここ
 $string['configminpasswordlower'] = 'パスワードには、少なくともここで設定した数の小文字を使用する必要があります。';
 $string['configminpasswordnonalphanum'] = 'パスワードには、少なくともここで設定した数の非英数字を使用する必要があります。';
 $string['configminpasswordupper'] = 'パスワードには、少なくともここで設定した数の大文字を使用する必要があります。';
+$string['configmycoursesperpage'] = 'ユーザ独自のコース一覧に表示される最大コース数です。';
 $string['configmymoodleredirect'] = 'この設定では、管理者以外のユーザがログインした場合、 強制的に /my へリダイレクトします。また、トップレベルのサイトブレッドクラムを /my に置き換えます。';
 $string['confignodefaultuserrolelists'] = 'この設定では、デフォルトロールがサイトコースにアクセスを提供している場合、廃止予定のget_course_user等のコールを使用してデータベースからすべてのユーザをデフォルトロールに戻さないようにします。パフォーマンスに問題がある場合、この設定を有効にしてください。';
 $string['confignonmetacoursesyncroleids'] = '子コースからのすべてのロール割り当ては、デフォルトでメタコースに同期されます。ここで選択されたロールは、同期化処理から除かれます。';
@@ -536,6 +538,7 @@ $string['managelang'] = '管理';
 $string['manageqtypes'] = '問題タイプの管理';
 $string['managews'] = 'ウェブサービスの管理';
 $string['maxbytes'] = '最大アップロードサイズ';
+$string['maxconsecutiveidentchars'] = '連続した同一文字';
 $string['maxeditingtime'] = '投稿を編集できる最大時間';
 $string['mbstringrecommended'] = 'より良いパフォーマンスを得るため、mbstringライブラリのインストールおよび稼動を強くお勧めします。あなたのサイトがラテン文字以外をサポートしている場合、特にお勧めします。';
 $string['mediapluginavi'] = '.aviフィルタを有効にする';
@@ -572,6 +575,7 @@ $string['multilangupgrade'] = 'multilangアップグレード';
 $string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、&lt;lang&gt; タグはサポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
 $string['multilangupgradenotice'] = 'あなたのサイトは、おそらく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
+$string['mycoursesperpage'] = 'コース数';
 $string['mymoodle'] = 'マイ Moodle';
 $string['mymoodleredirect'] = 'ユーザにマイ Moodleを強制する';
 $string['mysql416bypassed'] = 'あなたのサイトがiso-8859-1 (ラテン) 言語のみ使用している場合、現在インストールされている MySQL 4.1.12 (またはそれ以上) を使用することができます。';
