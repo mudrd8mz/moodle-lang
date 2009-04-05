@@ -195,6 +195,7 @@ $string['configminpasswordlength'] = 'Les mots de passe doivent comporter au moi
 $string['configminpasswordlower'] = 'Les mots de passe doivent comporter au moins ce nombre de lettres minuscules.';
 $string['configminpasswordnonalphanum'] = 'Les mots de passe doivent comporter au moins ce nombre de caractères non alphanumériques.';
 $string['configminpasswordupper'] = 'Les mots de passe doivent comporter au moins ce nombre de lettres majuscules.';
+$string['configmycoursesperpage'] = 'Nombre maximal de cours à afficher dans les listes des cours propres à un utilisateur';
 $string['configmymoodleredirect'] = 'Ce réglage active la redirection vers le dossier /my lors de la connexion des non-administrateurs et remplace le premier niveau de la barre de navigation du site par /my';
 $string['confignodefaultuserrolelists'] = 'Ce réglage permet d\'éviter de présenter dans le cours de la page d\'accueil la liste de tous les utilisateurs, quand le rôle par défaut possède cette capacité, en raison d\'appels obsolètes aux fonctions get_course_user, etc. Cochez cette option si votre serveur souffre d\'une baisse de performance.';
 $string['confignonmetacoursesyncroleids'] = 'Par défaut, toutes les attributions de rôles des cours fils sont synchronisées dans les méta-cours. Les rôles désignés ici ne seront pas inclus dans le processus de synchronisation. Il est possible de sélectionner plusieurs champs.';
@@ -572,6 +573,7 @@ $string['multilangupgrade'] = 'Mise à jour de la syntaxe multilingue';
 $string['multilangupgradeinfo'] = 'La syntaxe du filtre multilingue a été modifiée à partir de la version 1.8&nbsp;: la balise &lt;lang&gt; n\'est plus supportée.<br /><br />Exemple&nbsp;: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"fr\" class=\"multilang\">Bonjour !&lt;/span&gt;<br /><br /><strong>Voulez-vous mettre à jour maintenant la syntaxe multilingue dans tous les textes existants&nbsp;?</strong>';
 $string['multilangupgradenotice'] = 'Votre site utilise vraisemblablement l\'ancienne syntaxe du filtre multilingue. La <a href=\"multilangupgrade.php\">mise à jour de la syntaxe multilingue</a> est recommandée.';
 $string['mustenablestats'] = 'Les statistiques n\'ont pas encore été activées sur ce site.';
+$string['mycoursesperpage'] = 'Nombre de cours';
 $string['mymoodle'] = 'Mon Moodle';
 $string['mymoodleredirect'] = 'Imposer aux utilisateurs l\'utilisation de Mon Moodle';
 $string['mysql416bypassed'] = 'Toutefois, si votre site utilise UNIQUEMENT des langues encodées en iso-8859-1 (latin), vous pouvez continuer à utiliser votre version actuelle de MySQL 4.1.12 (ou ultérieure).';
