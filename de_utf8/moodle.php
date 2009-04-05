@@ -586,6 +586,7 @@ Eine E-Mail mit Ihrem neuen Kennwort wurde an Ihre Adresse <b>$a->email</b> gese
 Das Kennwort wurde automatisch generiert. Sie können dieses <a href=\"$a->link\">Kennwort ändern</a>, um es sich besser merken können.';
 $string['enable'] = 'Aktivieren';
 $string['encryptedcode'] = 'Verschlüsselter Code';
+$string['english'] = 'Englisch';
 $string['enroldate'] = 'Zeitraum';
 $string['enroldetails'] = 'Einschreibedetails';
 $string['enrolenddate'] = 'Ende';

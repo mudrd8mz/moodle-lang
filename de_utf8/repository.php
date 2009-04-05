@@ -31,6 +31,7 @@ $string['copying'] = 'Kopiere';
 $string['create'] = 'Erzeugen';
 $string['createinstance'] = 'Erzeuge eine Repository-Instanz';
 $string['createrepository'] = 'Repository erzeugen';
+$string['createxxinstance'] = '\"$a\" Instanz erstellen';
 $string['date'] = 'Datum';
 $string['deleted'] = 'Repository gelöscht';
 $string['deleterepository'] = 'Repository löschen';

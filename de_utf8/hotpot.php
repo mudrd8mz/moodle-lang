@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['abandoned'] = 'Abgebrochen';
@@ -96,6 +96,7 @@ $string['rawdetails'] = 'Versuchsdetails';
 $string['regrade'] = 'Neubewertung';
 $string['regradecheck'] = 'Wollen Sie wirklich \"$a\" neu bewerten?';
 $string['regraderequired'] = 'Neubewertung erforderlich';
+$string['removegradeitem'] = 'Bewertung löschen';
 $string['reportanswers'] = 'Antworten';
 $string['reportattemptfinish'] = 'Ende';
 $string['reportattemptnumber'] = 'Versuch';
