@@ -37,5 +37,6 @@ $string['ok'] = 'OK';
 $string['fail'] = 'Échec';
 $string['wsuserreminder'] = 'Rappel&nbsp;! L\'administrateur Moodle de ce site doit vous donner la capacité moodle/site:usewebservices.';
 $string['debugdisplayon'] = 'Le réglage «&nbsp;Afficher les messages de débogage&nbsp;» est activé. Le serveur XMLRPC ne fonctionnera pas. Les autres serveurs de services web pourraient en outre retourner des problèmes.<br />Veuillez  en informer l\'administrateur du Moodle, afin qu\'il désactive ce réglage.';
+$string['amfdebug'] = 'Mode débogage du serveur AMF';
 
 ?>
