@@ -286,6 +286,7 @@ $string['invaliditemid'] = 'Identifiant d\'élément incorrect&nbsp;!';
 $string['invalidkey'] = 'Clef incorrecte';
 $string['invalidlegacy'] = 'Définition de rôle historique incorrect pour le type $a';
 $string['invalidmd5'] = 'Le code de contrôle md5 n\'est pas valide';
+$string['invalidmode'] = 'Mode non valide ($a)';
 $string['invalidmodule'] = 'Module non valide';
 $string['invalidmoduleid'] = 'Identifiant de module non valide';
 $string['invalidmodulename'] = 'Nom de module non valide&nbsp; $a';

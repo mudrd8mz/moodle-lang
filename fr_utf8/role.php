@@ -9,6 +9,7 @@ $string['allowed'] = 'Autorisé';
 $string['allowoverride'] = 'Autoriser la définition de dérogations aux rôles';
 $string['allowroletoassign'] = 'Autoriser les utilisateurs ayant le rôle $a->fromrole à attribuer le rôle $a->targetrole';
 $string['allowroletooverride'] = 'Autoriser les utilisateurs ayant le rôle $a->fromrole à définir des dérogations pour le rôle $a->targetrole';
+$string['allowswitch'] = 'Autoriser le changement de rôle';
 $string['allsiteusers'] = 'Tous les utilisateurs du site';
 $string['assignanotherrole'] = 'Attribuer un autre rôle';
 $string['assignerror'] = 'Erreur lors de l\'attribution du rôle $a->role à l\'utilisateur $a->user.';
