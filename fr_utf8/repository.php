@@ -32,6 +32,7 @@ $string['confirmremove'] = 'Voulez-vous vraiment supprimer le plugin de dépôt 
 $string['copying'] = 'Copie en cours';
 $string['create'] = 'Créer';
 $string['createinstance'] = 'Créer une instance de dépôt';
+$string['createxxinstance'] = 'Créer une instance de dépôt $a';
 $string['createrepository'] = 'Créer une instance de dépôt';
 $string['date'] = 'Date';
 $string['deleted'] = 'Dépôt supprimé';
