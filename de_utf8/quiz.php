@@ -66,6 +66,7 @@ $string['answerswithacceptederrormarginmustbenumeric'] = 'Antworten mit akzeptie
 $string['answertoolong'] = 'Die Antwort ist nach Zeile $a zu lang (Sie können bis zu 255 Zeichen eingeben).';
 $string['aon'] = 'AON';
 $string['areyousureremoveselected'] = 'Sind Sie sicher, dass Sie alle ausgewählten Fragen entfernen möchten?';
+$string['asshownoneditscreen'] = 'Wie in Bearbeitungsansicht gezeigt';
 $string['attempt'] = 'Versuch $a';
 $string['attemptalreadyclosed'] = 'Dieser Versuch wurde bereits beendet.';
 $string['attemptclosed'] = 'Versuch wurde bisher noch nicht geschlossen';
