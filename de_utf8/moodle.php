@@ -1537,7 +1537,7 @@ $string['theme'] = 'Design';
 $string['themes'] = 'Designs';
 $string['themesaved'] = 'Neues Design gespeichert';
 $string['thereareno'] = 'Es gibt keine $a in diesem Kurs';
-$string['thiscategorycontains'] = 'Diese Kursbereich enthält';
+$string['thiscategorycontains'] = 'Dieser Kursbereich enthält';
 $string['thischarset'] = 'UTF-8
 
 Hinweis für Übersetzer: Geben Sie hier den Zeichensatz für Ihre Sprache an. Beachten Sie, dass ein Text unter Verwendung dieses Zeichensatzes gespeichert wird, solange diese Sprache eingestellt ist. Ändern Sie deshalb diesen Zeichensatz nicht, nachdem Sie ihn einmal festgelegt haben. Beispiel: iso-8859-1.';
