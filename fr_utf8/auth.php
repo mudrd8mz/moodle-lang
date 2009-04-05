@@ -312,6 +312,7 @@ $string['changepassword'] = 'URL de la page de changement du mot de passe';
 $string['changepasswordhelp'] = 'Vous pouvez indiquer dans cette zone l\'URL d\'une page sur laquelle vos utilisateurs pourront récupérer ou changer leurs nom d\'utilisateur et mot de passe s\'ils les ont oubliés. Cette URL sera disponible sous forme d\'un bouton sur la page de connexion. Si cette zone est vide, ce bouton ne sera pas affiché.';
 $string['chooseauthmethod'] = 'Choisir une méthode d\'authentification';
 $string['createpasswordifneeded'] = 'Créer un mot de passe si nécessaire';
+$string['errormaxconsecutiveidentchars'] = 'Les mots de passe ne doivent pas comporter $a ou plus de caractères identiques consécutifs.';
 $string['errorminpasswordlength'] = 'Les mots de passe doivent comporter au moins $a caractères.';
 $string['errorminpassworddigits'] = 'Les mots de passe doivent comporter au moins $a chiffre(s).';
 $string['errorminpasswordlower'] = 'Les mots de passe doivent comporter au moins $a lettre(s) minuscules.';
