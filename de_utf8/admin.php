@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -140,6 +140,7 @@ $string['configenabletrusttext'] = 'Normalerweise bereinigt Moodle grundsätzlic
 $string['configenablewebservices'] = 'Web-Services erlauben es anderen Systemen, sich in diesem Moodle anzumelden und Operationen auszuführen. Sicherheitshalber sollte diese Option deaktiviert sein, außer Sie verwenden sie ausdrücklich.';
 $string['configenrolmentplugins'] = 'Wählen Sie die Kurs-Anmeldeverfahren, die Sie verwenden wollen. Achten Sie darauf, die Einstellungen sorgfältig und richtig zu vorzunehmen.<br /><br />Legen Sie fest, welche Anmeldeverfahren (Plugins) verwendet werden sollen. <strong>Ein</strong> Plugin kann als <em>interaktives</em> Plugin vordefiniert werden.<br /><br />Um die interaktive Anmeldung (Einschreibung in den Kurs durch die Teilnehmer/innen) abzuschalten, setzen Sie \"Einschreiben in den Kurs ist möglich\" im jeweiligen Kurs auf \"Nein\".</p>';
 $string['configerrorlevel'] = 'Wählen Sie die Menge der PHP-Warnungen, die angezeigt werden sollen. \'Normal\' ist meist eine gute Wahl.';
+$string['configexperimentalsplitrestore'] = 'Mit der Aktivierung werden Kurssicherungen auf XML-Fehler geprüft und in kleiner Teile für den Wiederherstellungsprozess aufgeteilt. Bei mittleren und großen Kurssicherungen wird dadurch der Prozess robuster und produziert weniger Probleme mit der Dauer der Ausführung.';
 $string['configextendedusernamechars'] = 'Aktivieren Sie diese Einstellung, damit beliebige Zeichen im Nutzernamen zulässig werden (Anmerkung: Dies beeinflusst nicht bereits vorhandene Namen). In der Grundeinstellung (\"Nein\") sind nur alphanumerische Zeichen erlaubt. Falls Sie \'Ja\' auswählen, könnten bestimmte Sonderzeichen (z.B. deutsche Umlaute) Probleme verursachen!';
 $string['configextrauserselectorfields'] = 'Bei der Nutzerauswahl, z.B. bei einer Rollen- oder Gruppenzuweisung, werden diese Felder in der Nutzerliste durchsuchbar angezeigt. Vom Sicherheitsaspekt her ist die Auswahl des Nutzernamens an dieser Stelle eine schlechte Idee.';
 $string['configfilterall'] = 'Filter über alle Begriffe (inkl. aller Überschriften, Titel, Navigationselemente usw.). Dies kann im Zusammenhang mit dem Filter \"Mehrsprachiger Inhalt\" nützlich sein. Es belastet den Server jedoch stark und kann zu einer Reduzierung der Arbeitsgeschwindigkeit führen.';
@@ -409,6 +410,7 @@ $string['everyonewhocan'] = 'Alle, die \'$a\' können';
 $string['exceptions'] = 'Ausnahmen';
 $string['experimental'] = 'Experimentell';
 $string['experimentalsettings'] = 'Experimentelle Einstellungen';
+$string['experimentalsplitrestore'] = 'Experimentell: Geteilte Wiederherstellung';
 $string['extendedusernamechars'] = 'Sonderzeichen in Anmeldenamen';
 $string['extrauserselectorfields'] = 'Zur Nutzerauswahl suchen und anzeigen';
 $string['fatalmagicquotesruntime'] = '<p>Schwerwiegender Konfigurationsfehler - bitte benachrichtigen Sie Ihren Server-Administrator</p> <p>Um ordnungsgemäß zu arbeiten, ist für Moodle eine Änderung in den PHP-Einstellungen notwendig.<br /><code>magic_quotes_runtime=off</code> muss gesetzt sein!<br />Diese Einstellung wird auf den Server geändert, u.z. in der Datei <code>php.ini</code>, in der Apache/IIS Konfiguration oder in der Datei  <code>.htaccess</code>.</p>';

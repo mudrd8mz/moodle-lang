@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['activaterep'] = 'Aktive Repositories';
@@ -17,6 +17,7 @@ $string['attachment'] = 'Anhang';
 $string['back'] = '&lt; Zurück';
 $string['cachecleared'] = 'Zwischengespeicherte Dateien gelöscht';
 $string['cacheexpire'] = 'Zwischenspeicher ungültig';
+$string['cannotinitplugin'] = 'Aufruf plugin_init gescheitert';
 $string['cleancache'] = 'Zwischengespeicherte Dateien löschen';
 $string['clicktohide'] = 'Zum Verbergen hier klicken';
 $string['clicktoshow'] = 'Zum Anzeigen hier klicken';
@@ -84,6 +85,7 @@ $string['saving'] = 'Wird gespeichert ...';
 $string['search'] = 'Suchen';
 $string['searching'] = 'Was suchen Sie?';
 $string['settings'] = 'Einstellungen';
+$string['setupdefaultplugins'] = 'Einrichten der Standard Repository-Plugins';
 $string['siteinstances'] = 'Repository-Instanzen von der Seite';
 $string['size'] = 'Größe';
 $string['submit'] = 'Übertragen';

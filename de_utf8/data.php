@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // data.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
 
 
 $string['action'] = 'Aktion';
@@ -49,6 +49,7 @@ $string['configenablerssfeeds'] = 'Mit dieser Funktion aktivieren Sie RSS-Feeds 
 $string['confirmdeletefield'] = 'Wollen Sie dieses Feld in der Datenbank wirklich löschen?';
 $string['confirmdeleterecord'] = 'Wollen Sie diesen Datensatz in der Datenbank wirklich löschen?';
 $string['csstemplate'] = 'CSS für Vorlagen';
+$string['csvfailed'] = 'Die Daten aus der CSV-Datei konnten nicht gelesen werden.';
 $string['csvfile'] = 'CSV-Datei';
 $string['csvimport'] = 'CSV-Dateiimport';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Komma getrennte Werte\">CSV</acronym> mit diesem Trennzeichen:';
@@ -114,6 +115,7 @@ $string['fieldheightsingleview'] = 'Höhe in Einzelansicht';
 $string['fieldids'] = 'Feldnummern';
 $string['fieldmappings'] = 'Feldübersicht';
 $string['fieldname'] = 'Feldname';
+$string['fieldnotmatched'] = 'Die folgenden Felder in Ihrer Datei sind in der Datenbank unbekannt: $a';
 $string['fieldoptions'] = 'Optionen (eine pro Zeile)';
 $string['fields'] = 'Felder';
 $string['fieldupdated'] = 'Feld wurde aktualisiert';
