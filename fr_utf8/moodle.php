@@ -559,6 +559,7 @@ $string['emailpasswordconfirmsent'] = '<p>Un message a été envoyé à votre ad
 $string['emailpasswordsent'] = '<p>Merci pour votre confirmation de changement de mot de passe.</p><p>Un message avec votre nouveau mot de passe a été envoyé à votre adresse <strong>$a->email</strong>.</p><p>Le nouveau mot de passe a été généré automatiquement. Vous pouvez <a href=\"$a->link\">le modifier</a> pour le rendre plus facile à mémoriser.</p>';
 $string['enable'] = 'Activer';
 $string['encryptedcode'] = 'Code chiffré';
+$string['english'] = 'Anglais';
 $string['enroldate'] = 'Intervalle de temps';
 $string['enroldetails'] = 'Détails des inscriptions';
 $string['enrolenddate'] = 'Date de fin';
