@@ -1,17 +1,29 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // question.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['adminreport'] = 'Zure galderen datu-basean izan daitezkeen arazoei buruzko txostena';
 $string['broken'] = 'Etendako esteka da hau: ez dagoen fitxategi batera eramaten du';
 $string['byandon'] = '<em>$a->user</em>-ek <em>$a->time</em>(et)an';
+$string['cannotfindcate'] = 'Ezin da kategoriaren erregistroa aurkitu';
+$string['cannotinsertquestion'] = 'Ezin da beste galdera bat txertatu!';
+$string['cannotinsertquestioncate'] = 'Ezin da beste galdera-kategoria bat txertatu: $a';
+$string['cannotloadquestion'] = 'Ezin da galdera kargatu';
+$string['cannotopenforwriting'] = 'Ezin da idazteko zabaldu: $a';
+$string['cannotunzip'] = 'Ezin da fitxategia deskonprimatu.';
+$string['cannotupdatecate'] = 'Ezin da $a kategoria eguneratu';
+$string['cannotupdatequestion'] = 'Ezin da galdera eguneratu!';
+$string['cannotupdaterandomqname'] = 'Ezin da ausazko galderaren izena eguneratu';
+$string['cannotupdatesubcate'] = 'Ezin da beheragoko kategoria eguneratu!';
 $string['categorycurrent'] = 'Oraingo kategoria';
 $string['categorycurrentuse'] = 'Erabili kategoria hau';
 $string['categorydoesnotexist'] = 'Ez dago kategoria hau';
-$string['categorymoveto'] = 'Kategorian gorde';
+$string['categorymoveto'] = 'Gorde kategorian';
 $string['changepublishstatuscat'] = '<a href=\"$a->caturl\"> \"$a->name\"</a> kategoriak, \"$a->coursename\" ikastarokoa, bere <strong>$a->changefrom truke egoera beste honetara aldatuko du $a->changeto</strong>.';
+$string['chooseqtypetoadd'] = 'Aukeratu gehitu nahi duzun galdera-mota';
 $string['copy'] = 'Kopiatu $a-tik eta aldatu estekak.';
 $string['created'] = 'Sortuta';
+$string['createdby'] = 'Nork sortua';
 $string['createdmodifiedheader'] = 'Sortuta/Gordetako azkena';
 $string['cwrqpfs'] = 'Ausazko galderak, azpikategorietako galderak aukeratuta';
 $string['cwrqpfsinfo'] = 'Moodle 1.9ra eguneratu bitartean, galdera-kategoriak hainbat testuingurutan banatuko ditugu. Zure guneko hainbat kategoriak eta galderak aldatu egingo dute truke egoera. Beharrezkoa da hau partekatutako eta ez partekatutako kategoria nahasketa batetik aukeratzen direnean galdera bat edo gehiago, (gune honetan gertatzen den bezala). Hau gertatzen da ausazko galdera bat azpikategorietatik aukeratzeko ezartzen denean eta azpikategoria bat edo gehiagok ausazko galdera sortuko den jatorrizko kategoriak ez bezalako truke egoera dutenean.
@@ -22,15 +34,22 @@ $string['defaultinfofor'] = '\'$a\' testuinguruan partekatutako galderetarako be
 $string['donothing'] = 'Ez kopiatu, ez mugitu fitxategirik eta ez aldatu estekarik.';
 $string['editingcategory'] = 'Kategoria editatzen';
 $string['editingquestion'] = 'Galdera editatzen';
+$string['emptyxml'] = 'Errore ezezaguna - imsmanifest.xml hutsik dago';
 $string['erroraccessingcontext'] = 'Ezin da testuingurura iritsi';
 $string['errordeletingquestionsfromcategory'] = 'Errorea gertatu da $a kategoriatik galderak ezabatzean.';
 $string['errorfilecannotbecopied'] = 'Errorea: ezin da $a fitxategia kopiatu.';
 $string['errorfilecannotbemoved'] = 'Errorea: ezin da $a fitxategia mugitu.';
 $string['errorfileschanged'] = 'Galderetatik estekatutako errore-fitxategiak aldatu egin dira formularioa erakutsi denetik';
-$string['exportcategory'] = 'Kategoria esportatu';
+$string['errorpreprocess'] = 'Errorea gertatu da aurre-prozesatzean';
+$string['errorprocess'] = 'Errorea gertatu da prozesatzean';
+$string['errorprocessingresponses'] = 'Errorea gertatu da zure ebazpenak prozesatzean.';
+$string['exportcategory'] = 'Esportatu kategoria';
+$string['exporterror'] = 'Erroreak gertatu dira esportatzean';
 $string['filesareacourse'] = 'ikastaroaren fitxategi-eremua';
 $string['filesareasite'] = 'gunearen fitxategi-eremua';
 $string['filestomove'] = 'Fitxategiak $a-ra mugitu/kopiatu?';
+$string['flagged'] = 'Markatuta';
+$string['flagthisquestion'] = 'Markatu galdera hau';
 $string['fractionsnomax'] = 'Erantzunetako batek %%100 izan behar du galdera honetako gehienezko puntuazioa lortu ahal izateko.';
 $string['getcategoryfromfile'] = 'Kategoria fitxategitik lortu';
 $string['getcontextfromfile'] = 'Testuingurua fitxategitik lortu';
@@ -56,6 +75,7 @@ $string['nopermissionadd'] = 'Ez duzu baimenik hemen galderarik gaineratzeko.';
 $string['noprobs'] = 'Zure galderen datu-basean ez da arazorik aurkitu.';
 $string['notenoughdatatoeditaquestion'] = 'Ez da galderaren, kategoriaren eta galdera-motaren id-a zehaztu.';
 $string['notenoughdatatomovequestions'] = 'Mugitu nahi dituzun galderen ida-ak eman behar dituzu.';
+$string['notflagged'] = 'Markatu gabea';
 $string['permissionedit'] = 'Editatu galdera hau';
 $string['permissionmove'] = 'Mugitu galdera hau';
 $string['permissionsaveasnew'] = 'Gorde hau galdera berri gisa';
@@ -66,7 +86,9 @@ $string['questionbank'] = 'Galdera-bankua';
 $string['questioncategory'] = 'Galdera-kategoria';
 $string['questioncatsfor'] = 'Galdera-kategoriak \'$a\'-rako';
 $string['questiondoesnotexist'] = 'Ez dago galdera hau';
+$string['questionname'] = 'Galderaren izena';
 $string['questionsrescuedfrom'] = 'Galderak gordeta $a testuingurutik';
+$string['questiontype'] = 'Galdera-mota';
 $string['questionuse'] = 'Galdera erabili jarduera honetan';
 $string['shareincontext'] = '$a testuingururako partekatu';
 $string['tofilecategory'] = 'Fitxategiari kategoria idatzi';

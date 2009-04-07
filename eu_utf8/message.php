@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8.4+ (2007021541)
+      // message.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addcontact'] = 'Kontaktua gehitu';
 $string['addsomecontacts'] = 'Norbaiti mezua bidaltzeko, edo horri laster-marka sortzeko orri honetan, erabili goiko <a href=\"$a\">search tab</a>.';
 $string['addsomecontactsincoming'] = 'Mezu hauek zure kontaktu-zerrendan ez dauden lagunenak dira. Horiek zure kontaktuetara gehitzeko,  sakatu izenaren ondoan dagoen \"Kontaktua gehitu\" ikonoa.';
 $string['ago'] = 'Orain dela $a';
+$string['ajax_gui'] = 'Ajax Txat-gela';
 $string['allmine'] = 'Niri edo nik bidalitako mezu guztiak';
 $string['allstudents'] = 'Ikastaroko ikasleen arteko mezu guztiak';
 $string['allusers'] = 'Erabiltzaile guztien mezuak';
@@ -14,11 +15,14 @@ $string['beepnewmessage'] = 'Abisatu mezu berririk dagoenean (nabigatzaileak soi
 $string['blockcontact'] = 'Kontaktua blokeatu';
 $string['blockedmessages'] = '$a mezu blokeatutako kontaktuengandik';
 $string['blocknoncontacts'] = 'Blokeatu kontaktu-zerrendan ez dauden guztien mezuak';
+$string['cannotsavemessageprefs'] = 'Ezin dira erabiltzailearen mezularitza-hobespenak gorde';
 $string['contactlistempty'] = 'Zure kontaktu-zerrenda hutsik dago';
 $string['contacts'] = 'Kontaktuak';
 $string['context'] = 'testuingurua';
 $string['deletemessagesdays'] = 'Mezu zaharrak automatikoki ezabatzeko egun-kopurua';
+$string['disabled'] = 'Mezularitza desgaituta dago gune honetan';
 $string['discussion'] = 'Eztabaida';
+$string['editmymessage'] = 'Mezularitza';
 $string['emailmessages'] = 'Bidali e-postaz niretzako mezuak ni lineaz kanpo nagoenean';
 $string['emailtagline'] = 'E-posta hau \"$a\"-(r)i bidali zenion mezuaren kopia da';
 $string['emptysearchstring'] = 'Zerbait bilatu beharko duzu!';
@@ -27,6 +31,7 @@ $string['includeblockedusers'] = 'Blokeatutako erabiltzaileak barne';
 $string['incomingcontacts'] = 'Kontaktu izateko eskariak';
 $string['keywords'] = 'Hitz-gakoak';
 $string['keywordssearchresults'] = 'Bilaketaren emaitza: $a mezu';
+$string['loggedin'] = 'Online';
 $string['mailsent'] = 'Zure mezua e-posta bidez bidali zen';
 $string['maxmessages'] = 'Eztabaidaren historian erakutsi beharreko gehienezko mezu kopurua';
 $string['message'] = 'Mezua';

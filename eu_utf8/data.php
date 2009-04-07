@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // data.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['action'] = 'Ekintza';
-$string['add'] = 'Sarrera gehitu';
-$string['addafield'] = 'Eremua gehitu';
-$string['addcomment'] = 'Iruzkina gehitu';
-$string['addentries'] = 'Sarrerak gehitu';
-$string['addtemplate'] = 'Txantiloia gehitu';
+$string['add'] = 'Gehitu sarrera';
+$string['addafield'] = 'Gehitu eremua';
+$string['addcomment'] = 'Gehitu iruzkina';
+$string['addentries'] = 'Gehitu sarrerak';
+$string['addtemplate'] = 'Gehitu txantiloia';
 $string['advancedsearch'] = 'Bilaketa aurreratua';
 $string['allowcomments'] = 'Iruzkinak onartu?';
 $string['allowratings'] = 'Mezuak kalifikatzeko aukera eman nahi duzu?';
@@ -28,10 +28,11 @@ $string['blank'] = 'Hutsik';
 $string['buttons'] = 'Botoiak';
 $string['bynameondate'] = 'Egilea eta data: $a->name - $a->date';
 $string['cancel'] = 'Utzi';
+$string['cannotadd'] = 'Ezin da sarrerarik gehitu';
 $string['checkbox'] = 'Aukera anitzeko laukitxoa';
 $string['chooseexportfields'] = 'Aukeratu esportatu nahi duzun eremua';
 $string['chooseexportformat'] = 'Aukeratu zein formatuta esportatu nahi duzun hona:';
-$string['chooseorupload'] = 'Fitxategia aukeratu';
+$string['chooseorupload'] = 'Aukeratu fitxategia';
 $string['columns'] = 'zutabeak';
 $string['comment'] = 'Iruzkina';
 $string['commentdeleted'] = 'Iruzkina ezabatu da';
@@ -48,6 +49,9 @@ $string['csvimport'] = 'CSV fitxategia inportatu';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym> testua eta aukeratutako banatzailea';
 $string['data:approve'] = 'Onartu gabeko sarrerak onartu';
 $string['data:comment'] = 'Iruzkinak idatzi';
+$string['data:exportallentries'] = 'Esportatu datu-baseko sarrera guztiak';
+$string['data:exportentry'] = 'Esportatu datu-baseko sarrera bat';
+$string['data:exportownentry'] = 'Esportatu datu-baseko norberaren sarrera';
 $string['data:managecomments'] = 'Iruzkinak kudeatu';
 $string['data:manageentries'] = 'Sarrerak kudeatu';
 $string['data:managetemplates'] = 'Txantiloiak kudeatu';
@@ -118,6 +122,7 @@ $string['forcelinkname'] = 'Estekarako behartutako izena';
 $string['foundnorecords'] = 'Ez dago erregistrorik (<a href=\"$a->reseturl\">Reset filters</a>)';
 $string['foundrecords'] = 'Erregistroak: $a->num/$a->max (<a href=\"$a->reseturl\">Reset filters</a>)';
 $string['fromfile'] = 'Zip fitxategitik inportatu';
+$string['guestrate'] = 'Bisitariek ezin dituzte sarrerak kalifikatu.';
 $string['header'] = 'Goiko aldea';
 $string['headeraddtemplate'] = 'Sarrerak sartzeko itxura definitzen du';
 $string['headerasearchtemplate'] = 'Definitu Bilaketa aurreraturako interfazea';
@@ -129,7 +134,11 @@ $string['headersingletemplate'] = 'Sarrera baterako nabigazio-itxura definitzen 
 $string['importsuccess'] = 'Aurretiko ezarpena egoki aplikatu da';
 $string['insufficiententries'] = 'datu-base hau ikusteko sarrera gehiago beharrezkoak dira';
 $string['intro'] = 'Sarrera';
+$string['invalidfieldid'] = 'Eremuaren IDa ez da zuzena';
 $string['invalidfieldname'] = 'Eremu honetarako beste izen bat aukeratu, mesedez';
+$string['invalidfieldtype'] = 'Eremu-mota ez da zuzena';
+$string['invalidid'] = 'Datuen IDa ez da zuzena';
+$string['invalidrecord'] = 'Erregistroa ez da zuzena';
 $string['invalidurl'] = 'Sartu duzun URL-a ez da onargarria';
 $string['jstemplate'] = 'Javascript txantiloia';
 $string['latitude'] = 'Latitudea';
@@ -251,9 +260,6 @@ $string['usestandard'] = 'Erabili aurretiko ezarpena';
 $string['viewfromdate'] = 'Noiztik ikusgarri';
 $string['viewtodate'] = 'Noiz arte ikusgarri';
 $string['wrongdataid'] = 'id datu okerrak';
-$string['cannotadd'] = 'Ezin da sarrerarik gehitu'; // ORPHANED
-$string['guestrate'] = 'Bisitariek ezin dituzte sarrerak kalifikatu.'; // ORPHANED
 $string['invaliddata'] = 'Datuak ez dira zuzenak'; // ORPHANED
-$string['invalidid'] = 'Datuen IDa ez da zuzena'; // ORPHANED
 
 ?>

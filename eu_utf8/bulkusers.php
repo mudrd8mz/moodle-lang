@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.8.4+ (2007021541)
+      // bulkusers.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addall'] = 'Gehitu balizko erabiltzaile guztiak';
@@ -10,7 +10,7 @@ $string['allusers'] = 'Erabiltzaile guztiak ($a)';
 $string['available'] = 'Balizkoak';
 $string['confirmmessage'] = 'Ziur al zaude erabiltzaile guztiei bidali nahi diezula mezua?<br />$a';
 $string['nofilteredusers'] = 'Ez da erabiltzailerik aurkitu (0/$a)';
-$string['noselectedusers'] = 'Ez erabiltzailerik aukeratu';
+$string['noselectedusers'] = 'Ez da erabiltzailerik aukeratu';
 $string['removeall'] = 'Ezabatu balizko erabiltzaile guztiak';
 $string['removesel'] = 'Ezabatu aukeratutako balizko erabiltzaile guztiak';
 $string['selected'] = 'Aukeratutakoa(k)';

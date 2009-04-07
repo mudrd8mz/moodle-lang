@@ -5,6 +5,7 @@
 $string['addalltoportfolio'] = 'Dena gorde...';
 $string['addnewportfolio'] = 'Portfolio berria gehitu';
 $string['addtoportfolio'] = 'Gorde...';
+$string['disabled'] = 'Barkatu, baina `gune honetan portfolio-esportazioak ez daude gaituta';
 $string['enabled'] = 'Portfolioak gaitu';
 $string['filenotfound'] = 'Ez da fitxategia aurkitu';
 $string['format_file'] = 'Fitxategia';

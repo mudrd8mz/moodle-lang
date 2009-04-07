@@ -1,26 +1,26 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // lesson.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['accesscontrol'] = 'Sarbide-kontrola';
 $string['actionaftercorrectanswer'] = 'Erantzun zuzenaren ondorengo ekintza';
 $string['actions'] = 'Ekintzak';
 $string['activitylink'] = 'Jarduerarekiko lotura';
-$string['activitylinkname'] = 'Hona joan: $a';
-$string['addabranchtable'] = 'Adar- taula gehitu';
-$string['addanendofbranch'] = 'Adar-taularen bukaera gehitu';
-$string['addaquestionpage'] = 'Galdera-orria gehitu';
-$string['addaquestionpagehere'] = 'Gardera-orria gehitu hemen';
-$string['addcluster'] = 'Clusterra gehitu';
+$string['activitylinkname'] = 'Joan hona: $a';
+$string['addabranchtable'] = 'Gehitu adar-taula';
+$string['addanendofbranch'] = 'Gehitu adar-taularen bukaera';
+$string['addaquestionpage'] = 'Gehitu galdera-orria';
+$string['addaquestionpagehere'] = 'Gehitu galdera-orria hemen';
+$string['addcluster'] = 'Gehitu clusterra';
 $string['addedabranchtable'] = 'Adar-taula gehitu da';
 $string['addedanendofbranch'] = 'Adar-taularen bukaera gehitu da';
 $string['addedaquestionpage'] = 'Galdera-orria gehitu da';
 $string['addedcluster'] = 'Clusterra gehitu da';
 $string['addedendofcluster'] = 'Cluster-bukaera gehitu da';
-$string['addendofcluster'] = 'Cluster-bukaera gehitu';
+$string['addendofcluster'] = 'Gehitu cluster-bukaera';
 $string['addpage'] = 'Orria gehitu';
 $string['anchortitle'] = 'Eduki nagusiaren hasiera';
-$string['and'] = 'eta';
+$string['and'] = 'ETA';
 $string['answer'] = 'Erantzuna';
 $string['answeredcorrectly'] = 'zuzen erantzunda.';
 $string['answersfornumerical'] = 'Zenbakizko galderen erantzunek gehieneko eta gutxieneko balore-bikoteak izan behar dute';
@@ -34,6 +34,20 @@ $string['averagescore'] = 'Batez besteko puntuazioa';
 $string['averagetime'] = 'Batez besteko denbora';
 $string['branchtable'] = 'Adar-taula';
 $string['cancel'] = 'Utzi';
+$string['cannotdeleteattempt'] = 'Errorea: ezin dira saiakera zaharrak ezabatu';
+$string['cannotfindanswer'] = 'Errorea: ezin da erantzuna aurkitu';
+$string['cannotfindattempt'] = 'Errorea: ezin da saiakera aurkitu';
+$string['cannotfindessay'] = 'Errorea: ezin da saiakera aurkitu';
+$string['cannotfindfirstgrade'] = 'Errorea: ezin dira kalifikazioak aurkitu';
+$string['cannotfindfirstpage'] = 'Ezin da lehenengo orria aurkitu';
+$string['cannotfindgrade'] = 'Ezin da kalifikazioa aurkitu';
+$string['cannotfindnewestgrade'] = 'Errorea: ezin da azken kalifikazioa aurkitu';
+$string['cannotfindpages'] = 'ezin dira Ikasgaiaren orriak aurkitu';
+$string['cannotinsertanswer'] = 'Ezin da erantzunaren erregistroa txertatu';
+$string['cannotinsertgrade'] = 'Ezin da kalifikazioa txertatu';
+$string['cannotinsertpage'] = 'Ezin da beste orri bat txertatu';
+$string['cannotupdategrade'] = 'Ezin da kalifikazioa eguneratu';
+$string['cannotupdatelink'] = 'Ezin da esteka eguneratu';
 $string['canretake'] = '$a (e)k ikasgaia berriz har dezan baimendu';
 $string['casesensitive'] = 'Maiuskulak eta minuskulak';
 $string['checkbranchtable'] = 'Adar-taula konprobatu';
@@ -123,6 +137,7 @@ $string['importcount'] = '$a galderak inportatzen';
 $string['importppt'] = 'PowerPoint inportatu';
 $string['importquestions'] = 'Galderak inportatu';
 $string['insertedpage'] = 'Erantsitako orria';
+$string['invalidpageid'] = 'Orriaren IDak ez du balio';
 $string['jump'] = 'Jauzi';
 $string['jumps'] = 'Jauziak';
 $string['jumpsto'] = '<em>$a</em>rako jauziak';

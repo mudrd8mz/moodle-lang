@@ -3,6 +3,8 @@
 
 
 $string['check_configrw_name'] = 'config.php idatz daiteke';
+$string['check_configrw_ok'] = 'PHP script-ek ezin dute config.php fitxategia aldatu.';
+$string['check_configrw_warning'] = 'PHP script-ek config.php fitxategia alda dezakete.';
 $string['check_courserole_name'] = 'Lehenetsitako rolak (ikastaroak)';
 $string['check_courserole_ok'] = 'Lehenetsitako ikastaro-rolen definizioak ONDO daude.';
 $string['check_defaultcourserole_notset'] = 'Berezko rola ez da ezarri.';
@@ -10,12 +12,16 @@ $string['check_defaultcourserole_ok'] = 'Gunerako berezko rolaren definizioa OND
 $string['check_defaultuserrole_name'] = 'Autentifikatutako erabiltzaile-rola';
 $string['check_defaultuserrole_notset'] = 'Berezko rola ez da ezarri.';
 $string['check_defaultuserrole_ok'] = 'Autentifikatutako erabiltzaile-rolaren definizioa ONDO dago.';
+$string['check_displayerrors_name'] = 'PHP erroreak erakustea';
+$string['check_displayerrors_ok'] = 'PHP erroreak erakustea desgaituta';
+$string['check_emailchangeconfirmation_name'] = 'E-posta aldaketaren baieztatzea';
 $string['check_embed_name'] = 'Baimendu EMBED eta OBJECT';
 $string['check_frontpagerole_name'] = 'Hasiera-orriaren rola';
 $string['check_frontpagerole_notset'] = 'Hasiera-orriaren rola ez da ezarri.';
 $string['check_frontpagerole_ok'] = 'Hasiera-orriaren rolaren definizioa ONDO dago.';
 $string['check_globals_name'] = 'Erregistro orokorrak';
 $string['check_globals_ok'] = 'Erregistro orokorrak desgaituta daude';
+$string['check_google_info'] = 'Bilaketa-motoreak bisitari gisa sar daitezke';
 $string['check_google_name'] = 'Zabaldu Google-ri';
 $string['check_guestrole_error'] = '\"$a\" bisitari-rola ez dago zuzen definituta!';
 $string['check_guestrole_name'] = 'Bisitari-rola';
