@@ -1,12 +1,37 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.8.2+ (2007021520)
+      // error.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
+$string['TODO'] = 'TODO';
 $string['adminprimarynoedit'] = 'El administrador primario no puede ser editado por otros';
+$string['authorizeerror'] = 'Error Authorize';
+$string['backupcontainexternal'] = 'Este archivo de copia de seguridad contiene Moodle Network Hosts externos que no están configurados localmente';
+$string['backuptablefail'] = 'No se han podido ajustar con éxito las tablas de copia de seguridad';
+$string['blockcannotconfig'] = 'Este bloque no admite configuración global';
+$string['blockcannotinistantiate'] = 'Problema al instanciar el objeto de bloque';
+$string['blockcannotread'] = 'No se pudieron leer los datos del blockid=$a';
+$string['blockdoesnotexist'] = 'Este bloque no existe';
+$string['blocknameconflict'] = 'Conflicto de nombres: el bloque $a->name tiene el mismo nombre que el bloque: $a->conflict';
+$string['cannotaddblock'] = 'No se pudo agregar el bloque $a a la lista de bloques.';
+$string['cannotaddcmtosection'] = 'No se pudo agregar el módulo de curso nuevo a esa sección';
+$string['cannotaddcoursemodule'] = 'No se pudo agregar un módulo de curso nuevo';
+$string['cannotaddcoursemoduletosection'] = 'No se pudo agregar el módulo de curso nuevo a esa sección';
+$string['cannotaddmodule'] = 'No se pudo agregar el módulo $a a la lista de módulos.';
+$string['cannotaddnewinstance'] = 'No se pudo agregar un nuevo ejemplo de $a';
+$string['cannotaddnewmodule'] = 'No se pudo agregar un nuevo módulo de $a';
+$string['cannotaddrss'] = 'No tiene permiso para agregar canales rss';
+$string['cannotassignanthing'] = 'No se pudo asignar moodle/site:doanything';
 $string['cannotassignrole'] = 'No se puede asignar rol en el curso';
+$string['cannotcreategroup'] = 'Error al crear el grupo';
+$string['cannotcreatelangbase'] = 'Error: No se pudo crear el directorio \'lang\' base';
 $string['cannotcreatelangdir'] = 'No se puede crear el directorio lang.';
+$string['cannotcreatepopupwin'] = 'Elemento no definido (no se pudo crear ventana desplegable)';
+$string['cannotcreatesitedir'] = 'No se pudo crear el directorio del sitio. El administrador necesita fijar los permisos de archivos.';
 $string['cannotcreatetempdir'] = 'No se puede crear el directorio temp.';
+$string['cannotcreateuploaddir'] = 'No se pudo crear directorio de subida. El administrador necesita fijar los permisos de archivos.';
+$string['cannotcreateuser'] = 'Error al crear registro de usuarios';
 $string['cannotcustomizelocallang'] = 'Usted no tiene permiso para personalizar la traducción de cadenas. Este permiso viene controlado por la utilidad \"moodle/site:langeditlocal\". Ajuste esta utilidad para poder editar paquetes de idioma local en el caso de que quiera modificar las traducciones en su sitio.';
+$string['cannotdeletebackupids'] = 'No se pudieron eliminar ids de copias de seguridad anteriores';
 $string['cannotdownloadcomponents'] = 'No se puede descargar componentes.';
 $string['cannotdownloadlanguageupdatelist'] = 'No se puede descargar la lista de actualizaciones del idioma desde download.moodle.org';
 $string['cannotdownloadzipfile'] = 'No se puede descargar el archivo ZIP.';
@@ -20,7 +45,6 @@ $string['cannotupdaterecord'] = 'No se pudo actualizar el ID de registro $a';
 $string['cannotviewprofile'] = 'No puede ver el perfil de este usuario.';
 $string['cantunenrollfrommetacourse'] = 'No se puede dar de baja de este metacurso.';
 $string['cantunenrollinthisrole'] = 'No puede darse de baja de este curso mientras tenga su rol actual.';
-$string['cmunknown'] = 'No se ha podido encontrar este módulo';
 $string['componentisuptodate'] = 'El componente está actualizado.';
 $string['confirmsesskeybad'] = 'Lo sentimos, pero su clave de sesión no ha podido ser confirmada para llevar a cabo esta acción. Esta característica de seguridad previene contra la ejecución en su nombre (accidental o maliciosa) de funciones importantes. Por favor, asegúrese de que realmente deseaba ejecutar esta función.';
 $string['couldnotassignrole'] = 'Al intentar asignarle un rol, ha ocurrido un error grave no especificado';
@@ -76,7 +100,6 @@ $string['loginasonecourse'] = 'No puede entrar a este curso.<br /> Debe terminar
 $string['missingfield'] = 'Falta el campo \"$a\"';
 $string['missingrequiredfield'] = 'Falta algún campo necesario';
 $string['modulemissingcode'] = 'El módulo $a carece del código necesario para llevar a cabo esta función';
-$string['modulerequirementsnotmet'] = 'El módulo \"$a->modulename\" ($a->moduleversion) no se puede instalar debido a que requiere una versión más nueva de Moodle (esta versión es la $a->currentmoodle, y el módulo requiere la $a->requiremoodle).';
 $string['mustbeteacher'] = 'Sólo los profesores pueden ver esta página';
 $string['nocategorydelete'] = '¡La categoría \'$a\' no puede eliminarse!';
 $string['nocontext'] = 'Lo sentimos, ese curso no es un contexto válido';
@@ -131,5 +154,7 @@ $string['usernotupdatednotexists'] = 'Usuario no actualizado: no existe.';
 $string['wrongdestpath'] = 'Ruta de destino errónea.';
 $string['wrongsourcebase'] = 'Base de fuente de URL errónea.';
 $string['wrongzipfilename'] = 'Nombre de archivo ZIP erróneo.';
+$string['cmunknown'] = 'No se ha podido encontrar este módulo'; // ORPHANED
+$string['modulerequirementsnotmet'] = 'El módulo \"$a->modulename\" ($a->moduleversion) no se puede instalar debido a que requiere una versión más nueva de Moodle (esta versión es la $a->currentmoodle, y el módulo requiere la $a->requiremoodle).'; // ORPHANED
 
 ?>

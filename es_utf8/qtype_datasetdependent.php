@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8 + (2007021502)
+      // qtype_datasetdependent.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['additem'] = 'Agregar ítem';
+$string['answerstoleranceparam'] = 'Parámetros de tolerancia de las respuestas';
 $string['atleastonerealdataset'] = 'Debería haber al menos un conjunto de datos real en el texto de la pregunta';
 $string['atleastonewildcard'] = 'Debería haber al menos una \'wild card\' en la fórmula de la respuesta o en el texto de la pregunta';
 $string['calcdistribution'] = 'Distribución';
@@ -37,6 +38,7 @@ $string['newlocal1'] = 'una expresión literal de un nuevo conjunto de expresion
 $string['newlocal2'] = 'un archivo de un nuevo conjunto de archivos que pueden también ser utilizados por esta pregunta';
 $string['newlocal3'] = 'un enlace de un nuevo conjunto de enlace que pueden también ser utilizados por esta pregunta';
 $string['nodataset'] = 'nada - no es una \'wild card\'';
+$string['oneanswertrueansweroutsidelimits'] = 'Al menos una respuesta correcta fuera de los límites de valor verdadero.<br />Es posible modificar los ajustes de tolerancia de las respuestas en la sección Parámetros avanzados';
 $string['param'] = 'Parám {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'Reemplazar con valor aleatorio';
 $string['reuseifpossible'] = 'volver a usar valor previo si está disponible';
@@ -44,6 +46,7 @@ $string['sharedwildcard'] = '\'Wild card\' compartida';
 $string['sharedwildcards'] = '\'Wild cards\' compartidas';
 $string['uniform'] = 'Uniforme';
 $string['updatedatasetparam'] = 'Actualizar los parámetros de los conjuntos de datos';
+$string['updatetolerancesparam'] = 'Actualizar los parámetros de tolerancia de las respuestas';
 $string['youmustaddatleastoneitem'] = 'Debe agregar al menos un ítem del conjunto de datos antes de poder guardar esta pregunta.';
 
 ?>

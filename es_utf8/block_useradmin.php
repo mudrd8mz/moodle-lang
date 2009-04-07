@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
       // block_useradmin.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
-      // local modifications from http://educa.feyts.uva.es/psi/cursos
 
 
 $string['CONTEXT_COURSE'] = 'Curso';
@@ -71,6 +70,8 @@ $string['linenumber'] = 'Fila';
 $string['localhost'] = '(sitio local)';
 $string['maceol'] = 'Mac (CR)';
 $string['maxnumberofcoursefield'] = 'Número máximo de campos <code>curso</code>, <code>grupo</code>, <code>rol</code> y <code>tipo</code>';
+$string['mnethostidnotexists'] = 'No existe un \'peer\' MNET con hostid=$a';
+$string['mnethostname'] = '\'Peer\' MNET';
 $string['n_a'] = 'n/d';
 $string['newuseradded'] = 'Agregado nuevo usuario';
 $string['noactionselected'] = 'Seleccionar una acción a ejecutar';
@@ -89,9 +90,12 @@ $string['searchbyhost'] = 'usuario remoto de <em>$a</em>';
 $string['searchbylastinitial'] = 'El apellido comienza con \'<em>$a</em>\'';
 $string['searchbystring'] = 'contiene \'<em>$a</em>\'';
 $string['searchconditions'] = '<strong>Condiciones de filtrado:</strong>';
+$string['searchhave'] = 'ha';
+$string['searchhavenot'] = 'No ha';
 $string['searchin'] = 'Buscar en';
 $string['semicolon'] = 'Punto y coma: \";\"';
 $string['showfield'] = 'Expandir columna $a';
+$string['skipthisline'] = 'FILA DE ARCHIVO PASADA POR ALTO';
 $string['tab'] = 'Tabulador';
 $string['truncatefield'] = 'El campo $a->fieldname es demasiado largo. Truncado a $a->length caracteres.';
 $string['unassignrole'] = 'Desasignar rol';
