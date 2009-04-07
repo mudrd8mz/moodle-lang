@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20090228) (2009021800)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20090406) (2009040100)
 
 
+$string['amfdebug'] = 'AMF서버 디버그 모드';
 $string['debugdisplayon'] = '\"디버그 메시지 표시\"가 켜짐. XMLRPC 서버는 작동하지 않을 것입니다. 여타의 웹 서버도 문제가 생길 수 있습니다. <br/>무들 관리자에게 이 설정을 끄도록 경고';
 $string['fail'] = '실패';
 $string['functionlist'] = '웹서비스 기능 목록';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20090406) (2009040100)
 
 
 $string['abandoned'] = '실패';
@@ -96,6 +96,7 @@ $string['rawdetails'] = '시도 항목';
 $string['regrade'] = '재채점';
 $string['regradecheck'] = '정말 \"$a\" 에 대해 재채점을 원하십니까?';
 $string['regraderequired'] = '재채점 요구';
+$string['removegradeitem'] = '채점항목 제거';
 $string['reportanswers'] = '대답';
 $string['reportattemptfinish'] = '시도 종료';
 $string['reportattemptnumber'] = '시도';
