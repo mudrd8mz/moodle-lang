@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090216) (2009012901)
+      // role.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
 
 
 $string['addinganewrole'] = '역할 추가하기';
@@ -11,6 +11,8 @@ $string['allowed'] = '허용됨';
 $string['allowoverride'] = '권한 재설정권';
 $string['allowroletoassign'] = '$a->fromrole 역할을 지닌 사용자에게 $a->targetrole 역할 부여 허용';
 $string['allowroletooverride'] = '$a->fromrole 역할을 지닌 사용자에게 $a->targetrole 역할 재설정 허용';
+$string['allowroletoswitch'] = '$a->fromrole 역할을 지닌 사용자에게 $a->targetrole 역할 교환 허용';
+$string['allowswitch'] = '역활 교환 허용';
 $string['allsiteusers'] = '사이트의 모든 사용자';
 $string['assignanotherrole'] = '다른 역할 부여';
 $string['assignerror'] = '사용자 $a->user 에게  $a->role 역할을 부여하던 중 오류';

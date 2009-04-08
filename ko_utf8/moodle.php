@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -572,6 +572,7 @@ $string['emailpasswordsent'] = '비밀번호 변경에 대한 확인을 해 주�
 <a href=\"$a->link\">비밀번호 변경하기</a> 로 가서 기억하기 쉬운 비밀번호로 바꾸세요.';
 $string['enable'] = '관리모드 활성';
 $string['encryptedcode'] = '암호화된 코드';
+$string['english'] = '영어';
 $string['enroldate'] = '등록기간';
 $string['enroldetails'] = '등록 세부사항';
 $string['enrolenddate'] = '등록 마감 날짜';

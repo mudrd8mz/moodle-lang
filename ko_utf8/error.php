@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090321) (2009030501)
+      // error.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
 
 
 $string['TODO'] = '실행목록';
@@ -276,7 +276,8 @@ $string['invalidipformat'] = '잘못된 IP 주소 형식';
 $string['invaliditemid'] = '틀린 항목 id';
 $string['invalidkey'] = '틀린 키';
 $string['invalidlegacy'] = '$a 유형에 대한 정규 역할 정의가 바르지 않음';
-$string['invalidmd5'] = '잘못된 md5';
+$string['invalidmd5'] = '변수 점검 오류 - 재시도 할 것';
+$string['invalidmode'] = '잘못된 모드 ($a)';
 $string['invalidmodule'] = '잘못된 모듈';
 $string['invalidmoduleid'] = '잘못된 모듈 ID : $a';
 $string['invalidmodulename'] = '잘못된 모듈 명칭 : $a';
