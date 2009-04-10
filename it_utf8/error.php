@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // error.php - created with Moodle 2.0 dev (Build: 20090410) (2009040100)
 
 
 $string['TODO'] = 'TODO';
@@ -173,6 +173,7 @@ $string['courserequestdisabled'] = 'Spiacente, i corsi a richiesta sono stati di
 $string['csvcolumnduplicates'] = 'Sono state individuate colonne duplicate';
 $string['csvemptyfile'] = 'Il file CSV è vuoto';
 $string['csvfewcolumns'] = 'Non ci sono abbastanza colonne, per favore controllate i delimitatori di campo.';
+$string['csvinvalidcols'] = '<b>File CVS non valido:</b> la prima riga deve contenere \"Header fields\" ed il file deve essere di tipo <br />\"Expanded Fields/Comma Separated\" <br />oppure<br /> \"Expanded Fields with CAVV Result Code/Comma Separated\"';
 $string['csvinvalidcolsnum'] = 'File CSV non valido - Ciascuna linea deve contenere 49 o 70 campi.';
 $string['csvloaderror'] = 'Si è verificato un errore durante il caricamento del file CSV!';
 $string['csvweirdcolumns'] = 'Il formato del file CSV non è valido - il numero delle colonne non è uniforme.';
@@ -297,15 +298,22 @@ $string['invalidurl'] = 'La URL non è valida';
 $string['invaliduser'] = 'Utente non valido';
 $string['invaliduserid'] = 'Id utente non valido';
 $string['invalidxmlfile'] = '\"$a\" non è file XML valido';
-$string['iplookupfailed'] = 'Non è possibile trovare le geo information sull\'indirzzo IP $a';
+$string['iplookupfailed'] = 'Non è possibile trovare le informazioni geografiche sull\'indirzzo IP $a';
+$string['iplookupprivate'] = 'Non è possibile effettuare il lookup di indirizzi IP privati';
 $string['ipmismatch'] = 'Discordanza nell\'indirzzo IP del client';
+$string['listcantmovedown'] = 'Non è stato possibile spostare in giù questo elemento in quanto è già l\'ultimo dei suoi pari';
+$string['listcantmoveleft'] = 'Non è stato possibile spostare a sinistra questo elemento in quanto non ha elementi genitore';
+$string['listcantmoveright'] = 'Non è stato possibile spostare a destra questo elemento in quanto non ci sono elementi pari da trasformare in genitore. Spostate l\'elemento al di sotto di un elemento pari e poi spostatelo a destra.';
+$string['listcantmoveup'] = 'Non è stato possibile spostare in su questo elemento in quanto è già il primo dei suoi pari';
 $string['listnochildren'] = 'Non sono stati trovati elementi figli';
 $string['listnoitem'] = 'Elemento non trovato';
 $string['listnopeers'] = 'Non sono stati trovati elementi di pari livello';
+$string['listupdatefail'] = 'Durante la modifica della gerarchia dell\'elenco l\'operazione nel DB non è andata a buon fine.';
 $string['logfilenotavailable'] = 'I log non sono disponibili';
 $string['loginasnoenrol'] = 'Non si può usare \"iscrivi\" o \"disiscrivi\" se si è in una sessione del corso \"Login come\".';
 $string['loginasonecourse'] = 'Non puoi entrare in questo corso.<br/>Devi prima terminare la sessione \"Login come\" prima di entrare in qualunque altro corso.';
 $string['messagingdisable'] = 'In questo sito il messaging è disabilitato';
+$string['mimetexisnotexist'] = 'Il vostro sistema non è configurato per eseguire mimeTEX. Dovete scaricare l\'eseguibile adatto al vostro sistema operativo e versione PHP da <a href=\"http://moodle.org/download/mimetex/\">http://moodle.org/download/mimetex/</a>, oppure ottenere il codice sorgente C da <a href=\"http://www.forkosh.com/mimetex.zip\"> http://www.forkosh.com/mimetex.zip</a>, compilarlo e caricare l\'eseguibile risultante nella cartella moodle/filter/tex/.';
 $string['mimetexnotexecutable'] = 'Il mimetex personalizzato non è eseguibile!';
 $string['missingfield'] = 'Manca il campo \"$a\"';
 $string['missingkeyinsql'] = 'ERROR: nella query manca il parametro \"$a\"';
@@ -335,6 +343,7 @@ $string['nodata'] = 'Non ci sono dati';
 $string['noexistingcategory'] = 'Categoria non esistente';
 $string['nofile'] = 'File non specificato';
 $string['nofolder'] = 'La cartella richiesta non esiste';
+$string['noformdesc'] = 'Per questa attività nella formslib non sono state trovate definizioni del form';
 $string['noguest'] = 'Non ci sono ospiti qui!';
 $string['noinstances'] = 'Non ci sono istanze di $a in questo corso!';
 $string['nologinas'] = 'Non ti è permesso l\'accesso come tale utente';
@@ -355,6 +364,7 @@ $string['nopermissiontoshow'] = 'Non sei autorizzato a visualizzare questo!';
 $string['nopermissiontounlock'] = 'Non sei autorizzato a sbloccare!';
 $string['nopermissiontoviewletergrade'] = 'Mancano i privilegi per visualizzare la graduatoria letterale';
 $string['nopermissiontoviewpage'] = 'Non sei autorizzato a visualizzare questa pagina';
+$string['nosite'] = 'Non è stato possibile trovare un corso di livello top';
 $string['nositeid'] = 'ID del sito mancante';
 $string['nostatstodisplay'] = 'Spiacente, non ci sono dati da visualizzare';
 $string['notallowedtoupdateprefremotely'] = 'Non sei autorizzato ad aggiornare remotamente queste preferenze dell\'utente';
@@ -368,20 +378,31 @@ $string['onlyeditingteachers'] = 'Solo i docenti con diritti di modifica possono
 $string['onlyeditown'] = 'È possibile modificare solo le proprie informazioni';
 $string['orderidnotfound'] = 'L\'ordine ID $a non è stato trovato';
 $string['pagenotexist'] = 'Si è verificato un errore comune (si è provato a raggiungere una pagina inesistente).';
+$string['pathdoesnotstartslash'] = 'Non sono stati forniti argomenti validi, i percorsi non iniziano con lo slash!';
 $string['pleasereport'] = 'Se avete tempo, vi preghiamo di farci sapere cosa stavate cercando di fare quando l\'errore si è verificato:';
 $string['pluginrequirementsnotmet'] = 'Il plugin \"$a->pluginname\" ($a->pluginversion) non può essere installato. Richiede una versione più recente di Moodle (attualmente state utilizzando la $a->currentmoodle, mentre si necessita la $a->requiremoodle).';
+$string['prefixcannotbeempty'] = '<p>Errore: il prefisso del database non può essere nullo. ($a)</p>
+<p>L\'amministratore del sito deve risolvere questo problema.</p>';
+$string['prefixtoolong'] = '<p>Errore: il prefisso delle tabelle del database è troppo lungo ($a->dbfamily)</p>
+<p>L\'amministratore del sito deve risolvere questo problema. La lunghezza massima del prefisso delle tabelle per $a->dbfamily è $a->maxlength caratteri.</p>';
 $string['processingstops'] = 'L\'elaborazione si è fermata qui. Rimangono dei record ignorati.';
+$string['refoundto'] = 'Può essere restituito a $a';
+$string['refoundtoorigi'] = 'Ammontare pagato restituito a $a';
+$string['remotedownloaderror'] = 'Lo scaricamento delle componenti non è andato a buon fine. Verificate le impostazioni del proxy. L\'estensione PHP cURL è fortemente consigliata.<br /><br />Dovete scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" e decomprimerlo.';
 $string['remotedownloadnotallowed'] = 'Non è permesso scaricare i componenti su vostro server (allow_url_fopen è disabilitato). <br /><br /> È necessario scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" sul vostro server e scompattarlo la.';
 $string['reportnotavailable'] = 'Questo tipo di report è disponibile solamente nel corso della pagina principale';
 $string['restricteduser'] = 'Spiacente, ma il suo account corrente  \"$a\" non ha il permesso per fare questo.';
+$string['reverseproxyabused'] = 'Spiacente ma il server non può essere raggiunto direttamente, è stato abilitato un reverse proxy.<br />Per favore contattate l\'amministratore del server.';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses: ($a)';
 $string['scheduledbackupsdisabled'] = 'I backup periodici sono stati disabilitati dall\'amministratore del server.';
 $string['secretalreadyused'] = 'Il link di conferma cambio password è già stato utilizzato, la password non è stata cambiata';
 $string['sectionnotexist'] = 'Questa sezione non esiste';
 $string['sendmessage'] = 'Invia messaggio';
+$string['sessioncookiesdisable'] = 'E\' stato rilevato un uso errato di require_key_login() - i cookie di sessione devono essere disabilitati!';
 $string['sessionerroruser'] = 'La sessione è scaduta o è stato rilevato un errore. Si prega effettuare nuovamente il login.';
 $string['sessionerroruser2'] = 'È stato rilevato un errore sul server che ha compromesso la vostra sessione di autenticazione. Vi preghiamo di autenticarvi nuovamente o di far ripartire il browser.';
 $string['sessionipnomatch'] = 'Spiacente, ma il vostro IP sembra essere cambiato da quando vi siete autenticati. Questa caratteristica previene il furto della vostra identità  da parte di hackers mentre siete collegati a questo sito. Gli utenti non dovrebbero vedere questo messaggio - chiedere aiuto all\'amministratore del sito.';
+$string['sessionipnomatch2'] = 'Spiacente ma il vostro indirizzo IP è cambiato da quando vi siete autenticati. Questa misura di sicurezza evita che cracker possano rubare la vostra identità mentre siete collegati al sito. Questo errore potrebbe comparire se state usando reti wireless oppure se state muovendovi su reti diverse. Per ricevere aiuto, contattate il vostro amministratore.<br /><br />Se desiderate continuare, premete il pulsante F5 per ricaricare questa pagina.';
 $string['sessionnotwritable'] = 'E\' stato rilevato un problema di permessi di scrittura nella cartella delle sessioni.<br /><br />Per favore avvertite l\'amministratore del server.';
 $string['shortnametaken'] = 'Il titolo abbreviato è già stato usato per un altro corso';
 $string['socksnotsupported'] = 'I proxy SOCKS5 non sono supportati nel PHP4';
@@ -390,7 +411,8 @@ $string['sslonlyaccess'] = 'Spiacente, per motivi di sicurezza sono ammesse solo
 $string['statscatchupmode'] = 'Le statistiche sono attualmente in modalità  raccolta dati. Sono già  stati elaborati $a->daysdone giorno(i) e $a->dayspending lo devono ancora essere. Ricontrollate presto!';
 $string['statsdisable'] = 'Le statistiche non sono abilitate';
 $string['statsnodata'] = 'Non ci sono dati disponibili per quella combinazione di corso e periodo di tempo';
-$string['storedfilecannotread'] = 'Non è possibile legegre il file, il file potrebbe non esistere oppure potrebbero esservi problemi nei permessi';
+$string['storedfilecannotcreatefiledirs'] = 'Non è possibile creare le cartelle per il pool dei file locali, verificate i permessi nella dataroot.';
+$string['storedfilecannotread'] = 'Non è possibile leggere il file, il file potrebbe non esistere oppure potrebbero esservi problemi nei permessi';
 $string['storedfilenotcreated'] = 'Non è possibile creare il file \"$a->contextid/$a->filearea/$a->itemid/$a->filepath/$a->filename\"';
 $string['storedfileproblem'] = 'Si è verificata un exception sconosciuta riferita i file locali ($a)';
 $string['tagdisabled'] = 'I tag non sono abilitati!';

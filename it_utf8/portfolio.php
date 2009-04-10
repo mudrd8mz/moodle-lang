@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20090410) (2009040100)
 
 
 $string['activeexport'] = 'Prendi decisioni sulle esportazioni in corso';
@@ -35,6 +35,8 @@ $string['format_video'] = 'Video';
 $string['hidden'] = 'Nascosto';
 $string['instancedeleted'] = 'Portfolio eliminato';
 $string['instancenotdelete'] = 'L\'eliminazione del portfolio non è andata a buon fine';
+$string['instancenotsaved'] = 'Non è stato possibile salvare il portfolio';
+$string['invalidinstance'] = 'Non è stato possibile trovare l\'istanza di quel portfolio';
 $string['invalidtempid'] = 'L\'id di esportazione non è valida, forse è scaduta';
 $string['logs'] = 'Log dei trasferimenti';
 $string['manageportfolios'] = 'Gestione Portfolio';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090410) (2009040100)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -288,6 +288,8 @@ $string['auth_shib_instructions'] = 'Utilizzare <a href=\"$a\">Shibboleth login<
 $string['auth_shib_instructions_help'] = 'Qui dovreste fornire istruzioni su Shibbolet per i vostri utenti. Verranno mostrate nella pagina di login nella sezione delle istruzioni.
 Dovrebbe includere un collegamento a \"<b>$a</b>\"  in modo che gli utenti Shibboleth possano effettuare facilmente il login.';
 $string['auth_shib_integrated_wayf'] = 'Servizio Moodle WAYF';
+$string['auth_shib_logout_return_url'] = 'Logout return URL alternativa';
+$string['auth_shib_logout_url'] = 'Shibboleth Service Provider logout handler URL';
 $string['auth_shib_no_organizations_warning'] = 'Se vuoi usare il servizio integrato WAYF, devi fornire una lista di elementi separati da virgola comprendenti Identity Provider entityIDs, i loro nomi e eventualmente un iniziatore di sessione.';
 $string['auth_shib_only'] = 'Solo Shibboleth';
 $string['auth_shib_only_description'] = 'Selezionate questa opzione se desiderate forzare l\'autenticazione Shibboleth.';
