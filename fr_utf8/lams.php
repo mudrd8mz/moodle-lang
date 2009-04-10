@@ -28,6 +28,6 @@ $string['useSequence']  = 'Utiliser la séquence sélectionnée';
 $string['visibletostudents'] = 'Montrer les activités aux étudiants';
 $string['wikistartederror'] = 'Le wiki comporte déjà des données. Impossible de modifier.';
 $string['workspace'] = 'Sélectionner l\'espace de travail (Workspace)';
-$string['wrongversionrange'] = '$a n\'est pas un intervalle correct&nbsp;!';
+$string['wrongversionrange'] = '$a n\'est pas un intervalle correct !';
 
 ?>

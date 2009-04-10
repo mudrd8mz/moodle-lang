@@ -21,20 +21,20 @@ $string['createnewcategories'] = 'Créer de nouvelles catégories de cours (cach
 $string['zeroisnotruncation'] = '0 indique pas de troncature';
 $string['cronfrequency'] = 'Fréquence de traitement';
 $string['allowunenrol'] = 'Permettre aux données IMS de <strong>désinscrire</strong> les participants';
-$string['sourcedidfallback'] = 'Utiliser le «&nbsp;sourcedid&nbsp;» comme identifiant pour les personnes dont le champ «&nbsp;userid&nbsp;» est introuvable';
-$string['usecapitafix']= 'Cocher cette case lors de l\'utilisation de «&nbsp;Capita&nbsp;» (leur format XML n\'est pas tout à fait correct)';
+$string['sourcedidfallback'] = 'Utiliser le « sourcedid » comme identifiant pour les personnes dont le champ « userid » est introuvable';
+$string['usecapitafix']= 'Cocher cette case lors de l\'utilisation de « Capita » (leur format XML n\'est pas tout à fait correct)';
 $string['location'] = 'Emplacement du fichier';
 $string['mailusers'] = 'Informer les utilisateurs par courriel';
 $string['mailadmins'] = 'Informer l\'administrateur par courriel';
 $string['processphoto'] = 'Ajouter la photo de l\'utilisateur à son profil';
-$string['processphotowarning'] = 'Attention&nbsp;! Le traitement des images est susceptible de charger le serveur de façon significative. Nous vous recommandons de n\'activer pas cette option si un grand nombre d\'étudiants doit être traité.';
+$string['processphotowarning'] = 'Attention ! Le traitement des images est susceptible de charger le serveur de façon significative. Nous vous recommandons de n\'activer pas cette option si un grand nombre d\'étudiants doit être traité.';
 $string['logtolocation'] = 'Emplacement de l\'historique d\'importation (vide pour ne pas avoir d\'historique)';
 $string['restricttarget'] = 'Ne traiter les données que si la cible suivante est spécifiée';
 
 $string['aftersaving...']= 'Une fois ces réglages enregistrés, vous voudrez peut-être';
 $string['doitnow']= 'effectuer immédiatement une importation IMS Enterprise';
 
-$string['filelockedmailsubject'] = 'Erreur important&nbsp;: fichier d\'inscription';
+$string['filelockedmailsubject'] = 'Erreur important : fichier d\'inscription';
 $string['filelockedmail'] = 'Le fichier texte utilisé pour les inscriptions basées sur un fichier IMS ($a) ne peut pas être supprimé par le script cron. Cela signifie habituellement que les droits sont mal réglés. Veuillez corriger les droits de telle sorte que Moodle puisse effacer le fichier, sans quoi il sera traité de façon répétitive.';
 
 ?>

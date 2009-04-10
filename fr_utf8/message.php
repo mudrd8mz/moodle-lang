@@ -2,7 +2,7 @@
 
 $string['addcontact'] = 'Ajouter ce contact';
 $string['addsomecontacts'] = 'Pour envoyer un message à quelqu\'un ou ajouter ses coordonnées à cette liste, utilisez <a href=\"$a\">l\'onglet Recherche</a> ci-dessus.';
-$string['addsomecontactsincoming'] = 'Ces messages proviennent de personnes n\'apparaissant pas dans vos contacts. Pour ajouter un nom à vos contacts, cliquez sur l\'icône «&nbsp;Ajouter ce contact&nbsp;» correspondante.';
+$string['addsomecontactsincoming'] = 'Ces messages proviennent de personnes n\'apparaissant pas dans vos contacts. Pour ajouter un nom à vos contacts, cliquez sur l\'icône « Ajouter ce contact » correspondante.';
 $string['ago'] = 'Il y a $a';
 $string['ajax_gui'] = 'Salon de chat Ajax';
 $string['allmine'] = 'Tous mes messages reçus ou envoyés';
@@ -34,9 +34,9 @@ $string['guestnoeditmessageother'] = 'Les invités ne peuvent pas modifier les o
 $string['includeblockedusers'] = 'Inclure les utilisateurs bloqués';
 $string['incomingcontacts'] = 'Messages arrivant ($a)';
 $string['keywords'] = 'Mots clefs';
-$string['keywordssearchresults'] = 'Résultats de recherche&nbsp;: $a message(s) trouvé(s)';
-$string['loggedin'] = 'Connectés&nbsp;: ';
-$string['loggedoff'] = 'Non connectés&nbsp;: ';
+$string['keywordssearchresults'] = 'Résultats de recherche : $a message(s) trouvé(s)';
+$string['loggedin'] = 'Connectés : ';
+$string['loggedoff'] = 'Non connectés : ';
 $string['mailsent'] = 'Votre message a été envoyé par courriel.';
 $string['maxmessages'] = 'Nombre maximal de messages à afficher dans l\'historique des discussions';
 $string['message'] = 'Message';
@@ -84,6 +84,6 @@ $string['unblockcontact'] = 'Débloquer ce contact';
 $string['unreadmessages'] = '$a messages non lus';
 $string['userisblockingyou'] = 'Cet utilisateur vous a retiré le droit de lui envoyer des messages';
 $string['userisblockingyounoncontact'] = 'Cet utilisateur n\'accepte de messages que de personnes de sa liste de contacts, dans laquelle vous ne figurez pas actuellement.';
-$string['userssearchresults'] = 'Résultats de recherche&nbsp;: $a utilisateur(s) trouvé(s)';
+$string['userssearchresults'] = 'Résultats de recherche : $a utilisateur(s) trouvé(s)';
 
 ?>

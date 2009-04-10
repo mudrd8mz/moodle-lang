@@ -17,7 +17,7 @@ $string['dialoguemail'] = '$a->userfrom a écrit une nouvelle contribution dans 
 Vous pouvez lire cette contribution à la suite de la vôtre :
 
     $a->url';
-$string['dialoguemailhtml'] = '$a->userfrom a écrit une nouvelle contribution dans votre dialogue «&nbsp;<em>$a->dialogue</em>&nbsp;»<br /><br />Vous pouvez lire cette contribution à la suite de <a href=\"$a->url\">la vôtre</a>.';
+$string['dialoguemailhtml'] = '$a->userfrom a écrit une nouvelle contribution dans votre dialogue « <em>$a->dialogue</em> »<br /><br />Vous pouvez lire cette contribution à la suite de <a href=\"$a->url\">la vôtre</a>.';
 $string['dialoguename'] = 'Nom du dialogue';
 $string['dialogueopened'] = 'Dialogue ouvert avec $a';
 $string['dialoguewith'] = 'Dialogue avec $a';

@@ -31,7 +31,7 @@ $string['globalsearchdisabled'] = 'La recherche globale n\'est pas activée.';
 $string['invalidindexerror'] = 'Le répertoire d\'index contient un index non valide ou rien du tout.';
 $string['ittook'] = 'Il a fallu ';
 $string['next'] = 'Suite';
-$string['noindexmessage'] = 'Administrateur&nbsp;: il semble qu\'il n\'y a pas d\'index de recherche. Merci de ';
+$string['noindexmessage'] = 'Administrateur : il semble qu\'il n\'y a pas d\'index de recherche. Merci de ';
 $string['normalsearch'] = 'Recherche normale';
 $string['openedon'] = 'ouvert le';
 $string['resultsreturnedfor'] = ' résultats trouvés pour ';
@@ -52,7 +52,7 @@ $string['totalsize'] = 'Taille totale ';
 $string['type'] = 'Type';
 $string['uncompleteindexingerror'] = 'L\'indexation n\'a pas pu être terminée correctement. Veuillez la recommencer.';
 $string['versiontoolow'] = 'La recherche globale requiert PHP 5.0.0 ou une version ultérieure';
-$string['whichmodulestosearch?'] = 'Rechercher dans quels modules&nbsp;?';
+$string['whichmodulestosearch?'] = 'Rechercher dans quels modules ?';
 $string['wordsintitle'] = 'Termes dans le titre';
 
 ?>

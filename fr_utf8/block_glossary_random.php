@@ -1,9 +1,9 @@
 <?php // $Id$
 
-$string['addentry'] = 'Ajouter vos citations préférées&nbsp;!';
-$string['askaddentry'] = 'Quand les utilisateurs peuvent ajouter des articles dans le glossaire, afficher un lien avec ce texte&nbsp;';
-$string['askinvisible'] = 'Quand les utilisateurs ne peuvent ni voir, ni modifier le glossaire, afficher ce texte (sans lien)&nbsp;'; 
-$string['askviewglossary'] = 'Quand les utilisateurs peuvent voir le glossaire, mais pas le modifier, afficher un lien avec ce texte&nbsp;'; 
+$string['addentry'] = 'Ajouter vos citations préférées !';
+$string['askaddentry'] = 'Quand les utilisateurs peuvent ajouter des articles dans le glossaire, afficher un lien avec ce texte ';
+$string['askinvisible'] = 'Quand les utilisateurs ne peuvent ni voir, ni modifier le glossaire, afficher ce texte (sans lien) '; 
+$string['askviewglossary'] = 'Quand les utilisateurs peuvent voir le glossaire, mais pas le modifier, afficher un lien avec ce texte '; 
 $string['blockname'] = 'Article d\'un glossaire';
 $string['intro'] = 'Assurez-vous que vous disposez dans ce cours d\'au moins un glossaire comprenant au moins un article. Vous pourrez alors modifier les réglages ci-dessous';
 $string['invisible'] = '(suite)'; 

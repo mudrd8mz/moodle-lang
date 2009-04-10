@@ -16,13 +16,13 @@ $string['attachfile'] = 'Joindre fichier'; // Legacy, to delete in 1.7dev
 $string['attachfiletoassignment'] = 'Joindre un(des) fichier(s) au devoir'; // Legacy, to delete in 1.7dev
 $string['backtoassignment'] = 'Retour au devoir'; // Legacy, to delete in 1.7dev
 $string['backtofeedback'] = 'Retour au feedback'; // Legacy, to delete in 1.7dev
-$string['choosereviewfile'] = 'Choisir un fichier à déposer comme retour du devoir&nbsp;:'; // Legacy, to delete in 1.7dev
+$string['choosereviewfile'] = 'Choisir un fichier à déposer comme retour du devoir :'; // Legacy, to delete in 1.7dev
 $string['assignmentmail'] = '$a->teacher a écrit un feedback concernant votre devoir « $a->assignment »
 
 Vous pouvez le consulter en annexe à votre devoir :
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->teacher a écrit un feedback concernant votre devoir rendu «&nbsp;<em>$a->assignment</em>&nbsp;»<br /><br />
+$string['assignmentmailhtml'] = '$a->teacher a écrit un feedback concernant votre devoir rendu « <em>$a->assignment</em> »<br /><br />
 
 Vous pouvez le consulter en annexe à <a href=\'$a->url\'>votre devoir</a>.';
 $string['assignmentname'] = 'Nom du devoir';
@@ -36,12 +36,12 @@ $string['commentinline'] = 'Commentaire dans le texte';
 $string['configitemstocount'] = 'Nature des éléments à compter comme devoirs remis dans les devoirs en ligne.';
 $string['configmaxbytes'] = 'Taille maximale par défaut de tous les devoirs du site (sujet aux limites des cours et autres réglages locaux)';
 $string['configshowrecentsubmissions'] = 'Tout le monde peut voir les notifications de remises dans les rapports d\'activité récente.';
-$string['confirmdeletefile'] = 'Voulez-vous vraiment supprimer le fichier suivant&nbsp;:<br /><strong>$a</strong>';
+$string['confirmdeletefile'] = 'Voulez-vous vraiment supprimer le fichier suivant :<br /><strong>$a</strong>';
 $string['coursemisconf'] = 'Le cours est mal configuré'; 
 $string['deleteallsubmissions'] = 'Supprimer tous les devoirs remis';
-$string['deletecheckfile'] = 'Voulez-vous vraiment supprimer ce fichier&nbsp;?'; // Legacy, to delete in 1.7dev
+$string['deletecheckfile'] = 'Voulez-vous vraiment supprimer ce fichier ?'; // Legacy, to delete in 1.7dev
 $string['deleteednotification'] = 'Le fichier a été supprimé.'; // Legacy, to delete in 1.7dev
-$string['deletefail'] = 'Le fichier suivant n\'a pas été supprimé&nbsp;:'; // Legacy, to delete in 1.7dev
+$string['deletefail'] = 'Le fichier suivant n\'a pas été supprimé :'; // Legacy, to delete in 1.7dev
 $string['deletefilefailed'] = 'Échec de la suppression du fichier.';
 $string['description'] = 'Description';
 $string['draft'] = 'Brouillon';
@@ -56,7 +56,7 @@ $string['emailteachermail'] = '$a->username a modifié son travail remis pour le
 Ce travail est disponible ici :
 
 $a->url';
-$string['emailteachermailhtml'] = '$a->username a modifié son travail remis pour le devoir «&nbsp;<em>$a->assignment</em>&nbsp;»<br /><br />Le travail remis est <a href=\"$a->url\">disponible sur le site web</a>.';
+$string['emailteachermailhtml'] = '$a->username a modifié son travail remis pour le devoir « <em>$a->assignment</em> »<br /><br />Le travail remis est <a href=\"$a->url\">disponible sur le site web</a>.';
 $string['emptysubmission'] = 'Vous n\'avez encore rien remis';
 $string['enableemailnotification'] = 'Envoyer les courriels de notification';
 $string['existingfiledeleted'] = 'Le fichier $a a été supprimé';
@@ -85,12 +85,12 @@ $string['maximumgrade'] = 'Note maximale';
 $string['maximumsize'] = 'Taille maximale';
 $string['modulename'] = 'Devoir';
 $string['modulenameplural'] = 'Devoirs';
-$string['namedeletefile'] = 'Vous allez supprimer ce fichier&nbsp;:'; // Legacy, to delete in 1.7dev
+$string['namedeletefile'] = 'Vous allez supprimer ce fichier :'; // Legacy, to delete in 1.7dev
 $string['newsubmissions'] = 'Devoirs rendus';
 $string['noassignments'] = 'Il n\'y a pas encore de devoir';
 $string['noattempts'] = 'Personne n\'a encore fait ce devoir';
 $string['nofiles'] = 'Aucun fichier n\'a été remis';
-$string['nofilesforsubmit'] = 'Aucun fichier n\'est à remettre. En avez-vous vraiment déposé&nbsp;?'; // Legacy, to delete in 1.7dev
+$string['nofilesforsubmit'] = 'Aucun fichier n\'est à remettre. En avez-vous vraiment déposé ?'; // Legacy, to delete in 1.7dev
 $string['nofilesyet'] = 'Aucun fichier n\'a encore été remis';
 $string['nomoresubmissions'] = 'Aucune autre remise n\'est autorisée.';
 $string['nosubmitusers'] = 'Aucun utilisateur ne possède les autorisations permettant de remettre de document pour ce devoir';
@@ -100,28 +100,28 @@ $string['notesempty'] = 'Aucune remarque';
 $string['notesupdateerror'] = 'Erreur lors de la modification des remarques';
 $string['notgradedyet'] = 'Pas encore évalué';
 $string['notsubmittedyet'] = 'Pas encore rendu';
-$string['onceassignmentsent'] = 'Une fois le devoir validé pour être noté, vous ne pourrez plus ni supprimer, ni joindre aucun fichier. Voulez-vous continuer&nbsp;?';
-$string['overwritewarning'] = 'Attention&nbsp;! un nouvel envoi remplacera votre devoir déjà remis';
+$string['onceassignmentsent'] = 'Une fois le devoir validé pour être noté, vous ne pourrez plus ni supprimer, ni joindre aucun fichier. Voulez-vous continuer ?';
+$string['overwritewarning'] = 'Attention ! un nouvel envoi remplacera votre devoir déjà remis';
 $string['pagesize'] = 'Documents affichés par page';
 $string['preventlate'] = 'Empêcher les remises en retard';
 $string['quickgrade'] = 'Permettre évaluation rapide';
 $string['removelink'] = 'Retirer'; // Legacy, to delete in 1.7dev
-$string['responsefile'] = 'Fichier en retour&nbsp;:'; // Legacy, to delete in 1.7dev
+$string['responsefile'] = 'Fichier en retour :'; // Legacy, to delete in 1.7dev
 $string['responsefiles'] = 'Fichiers en retour';
 $string['responsesfromteacher'] = 'Fichiers déposés par l\'enseignant'; // Legacy, to delete in 1.7dev
 $string['reviewed'] = 'Relu';
 $string['saveallfeedback'] = 'Enregistrer tous mes feedbacks';
 $string['sendformarking'] = 'Valider pour évaluation';
 $string['showrecentsubmissions'] = 'Afficher les remises récentes';
-$string['step1'] = 'Étape 1&nbsp;: '; // Legacy, to delete in 1.7dev
-$string['step2'] = 'Étape 2&nbsp;: '; // Legacy, to delete in 1.7dev
+$string['step1'] = 'Étape 1 : '; // Legacy, to delete in 1.7dev
+$string['step2'] = 'Étape 2 : '; // Legacy, to delete in 1.7dev
 $string['submission'] = 'Devoir rendu';
 $string['submissiondraft'] = 'Brouillon du devoir';
 $string['submissionfeedback'] = 'Feedback du devoir';
 $string['submissions'] = 'Devoirs rendus';
 $string['submissionsaved'] = 'Vos modifications ont été enregistrées';
 $string['submissionsnotgraded'] = '$a devoirs non notés';
-$string['submissionstatus'] = 'Statut du devoir&nbsp;:'; // Legacy, to delete in 1.7dev
+$string['submissionstatus'] = 'Statut du devoir :'; // Legacy, to delete in 1.7dev
 $string['submissionstatusblank'] = 'Vide'; // Legacy, to delete in 1.7dev
 $string['submissionstatusdraft'] = 'Brouillon'; // Legacy, to delete in 1.7dev
 $string['submissionstatusmarked'] = 'Noté'; // Legacy, to delete in 1.7dev
@@ -142,9 +142,9 @@ $string['unfinalizeerror'] = 'Une erreur est survenue, qui a empêché le retour
 $string['uploadbadname'] = 'Ce nom de fichier contient d\'étranges caractères. Il ne peut être déposé';
 $string['uploadedfiles'] = 'fichiers déposés';
 $string['uploaderror'] = 'Une erreur est survenue lors de l\'enregistrement du fichier sur le serveur';
-$string['uploadfailnoupdate'] = 'Le fichier a été correctement déposé, mais il n\'a pas été possible de mettre à jour votre devoir&nbsp;!';
-$string['uploadfiletoobig'] = 'Désolé, la taille de ce fichier est trop grande (taille maximale&nbsp;: $a octets)';
-$string['uploadnofilefound'] = 'Aucun fichier n\'a été trouvé. En avez-vous vraiment choisi un à déposer&nbsp;?';
+$string['uploadfailnoupdate'] = 'Le fichier a été correctement déposé, mais il n\'a pas été possible de mettre à jour votre devoir !';
+$string['uploadfiletoobig'] = 'Désolé, la taille de ce fichier est trop grande (taille maximale : $a octets)';
+$string['uploadnofilefound'] = 'Aucun fichier n\'a été trouvé. En avez-vous vraiment choisi un à déposer ?';
 $string['uploadnotregistered'] = '« {$a} » a été correctement déposé, mais votre devoir n\'a pu être enregistré !';
 $string['uploadsuccess'] = '« {$a} » a été correctement déposé';
 $string['uploadsuccessresponse'] = 'Le fichier en retour a été déposé avec succès.'; // Legacy, to delete in 1.7dev

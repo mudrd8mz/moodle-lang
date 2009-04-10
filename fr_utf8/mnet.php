@@ -6,9 +6,9 @@ $string['addhost'] = 'Ajouter un serveur';
 $string['addnewhost'] = 'Ajouter un nouveau serveur';
 $string['addtoacl'] = 'Ajouter au contrôle d\'accès';
 $string['allow'] = 'Autoriser';
-$string['authfail_nosessionexists'] = 'Échec d\'autorisation&nbsp;: la session mnet n\'existe pas.';
-$string['authfail_sessiontimedout'] = 'Échec d\'autorisation&nbsp;: la session mnet est échue.';
-$string['authfail_usermismatch'] = 'Échec d\'autorisation&nbsp;: l\'utilisateur ne correspond pas.';
+$string['authfail_nosessionexists'] = 'Échec d\'autorisation : la session mnet n\'existe pas.';
+$string['authfail_sessiontimedout'] = 'Échec d\'autorisation : la session mnet est échue.';
+$string['authfail_usermismatch'] = 'Échec d\'autorisation : l\'utilisateur ne correspond pas.';
 $string['authmnetdisabled'] = 'La <em>méthode d\'authentification</em> Réseau Moodle est <strong>désactivée</strong>.';
 $string['authmnetautoadddisabled'] = 'L\'<em>ajout automatique d\'utilisateurs</em> de la méthode d\'authentification Réseau Moodle est <strong>désactivé</strong>.';
 $string['badcert'] = 'Ceci n\'est pas un certificat valide.';
@@ -23,13 +23,13 @@ $string['currentkey'] = 'Clef publique actuelle';
 $string['databaseerror'] = 'Impossible d\'écrire les détails dans la base de données.';
 $string['deleteaserver'] = 'Suppression d\'un serveur';
 $string['deletehost'] = 'Suppression serveur';
-$string['deletekeycheck'] = 'Voulez-vous vraiment supprimer cette clef&nbsp;?';
+$string['deletekeycheck'] = 'Voulez-vous vraiment supprimer cette clef ?';
 $string['deleteoutoftime'] = 'Le temps de 60 secondes imparti pour la suppression de cette clef est échu. Veuillez recommencer.'; 
-$string['deleteuserrecord'] = 'SSO ACL&nbsp;: suppression de l\'enregistrement de l\'utilisateur «&nbsp;$a[0]&nbsp;» de $a[1].';
+$string['deleteuserrecord'] = 'SSO ACL : suppression de l\'enregistrement de l\'utilisateur « $a[0] » de $a[1].';
 $string['deletewrongkeyvalue'] = 'Une erreur est survenue. Aucune action n\'a été effectuée. Si vous n\'étiez pas en train de supprimer la clef SSL de votre serveur, il est possible que vous ayez été la cible d\'une attaque.';
 $string['deny'] = 'Interdire';
 $string['description'] = 'Description';
-$string['duplicate_usernames'] = 'Il a été impossible de créer un index pour les colonnes «&nbsp;mnethostid&nbsp;» et «&nbsp;username&nbsp;» de votre table d\'utilisateurs.<br />Un tel problème peut survenir lorsque des <a href=\"$a\" target=\"_blank\">noms d\'utilisateur sont présents à double dans votre table d\'utilisateurs</a>.<br />La mise à jour devrait malgré tout se terminer correctement. Cliquer sur le lien ci-dessus pour obtenir des instructions vous permettant de corriger ce problème (dans une nouvelle fenêtre). Vous pourrez ainsi vous en occuper après la fin de la mise à jour.<br />';
+$string['duplicate_usernames'] = 'Il a été impossible de créer un index pour les colonnes « mnethostid » et « username » de votre table d\'utilisateurs.<br />Un tel problème peut survenir lorsque des <a href=\"$a\" target=\"_blank\">noms d\'utilisateur sont présents à double dans votre table d\'utilisateurs</a>.<br />La mise à jour devrait malgré tout se terminer correctement. Cliquer sur le lien ci-dessus pour obtenir des instructions vous permettant de corriger ce problème (dans une nouvelle fenêtre). Vous pourrez ainsi vous en occuper après la fin de la mise à jour.<br />';
 $string['editenrolments'] = 'Inscrire';
 $string['enabled_for_all'] = '(Ce service a été activé pour tous les serveurs).';
 $string['enrolcourses_desc'] = 'Cours offerts à l\'inscription à distance sur ce serveur.';
@@ -105,10 +105,10 @@ $string['never'] = 'Jamais';
 $string['noaclentries'] = 'Aucun enregistrement dans la liste de contrôle d\'accès SSO';
 $string['nocurl'] = 'La bibliothèque PHP cURL n\'est pas installée';
 $string['nohostid'] = 'Cette page requiert un identifiant de serveur, qui doit être un entier.';
-$string['noipmatch'] = 'L\'adresse du serveur distant&nbsp;: <br /><em>$a[0]</em><br />ne correspond pas à celle enregistrée&nbsp;:<br /><em>$a[1]</em>.';
+$string['noipmatch'] = 'L\'adresse du serveur distant : <br /><em>$a[0]</em><br />ne correspond pas à celle enregistrée :<br /><em>$a[1]</em>.';
 $string['nolocaluser'] = 'Aucun enregistrement local n\'existe pour cet utilisateur distant.';
 $string['nomodifyacl'] = 'Vous n\'avez pas le droit de modifier les listes de contrôles d\'accès du Réseau Moodle.';
-$string['nonmatchingcert'] = 'Le sujet du certificat&nbsp;: <br /><em>$a[0]</em><br />ne correspond pas au serveur d\'où il provient&nbsp;:<br /><em>$a[1]</em>.';
+$string['nonmatchingcert'] = 'Le sujet du certificat : <br /><em>$a[0]</em><br />ne correspond pas au serveur d\'où il provient :<br /><em>$a[1]</em>.';
 $string['nopubkey'] = 'Un problème est survenu lors de la récupération de la clef publique.<br />Il est possible que le serveur n\'accepte pas le Réseau Moodle ou que la clef ne soit pas valide.';
 $string['nosite'] = 'Impossible de trouver le cours principal du site';
 $string['nosuchfile'] = 'Le fichier/la fonction $a n\'existe pas.';
@@ -137,7 +137,7 @@ $string['receivedwarnings'] = 'Les avertissements suivants ont été notifiés';
 $string['recordnoexists'] = 'L\'enregistrement n\'existe pas.';
 $string['reenableserver'] = 'Non. Sélectionner cette option pour réactiver ce serveur.';
 $string['registerallhosts'] = 'Enregistrer tous les serveurs (<em>mode hub</em>)';
-$string['registerallhostsexplain'] = 'Vous pouvez choisir d\'enregistrer automatiquement tous les serveurs tentant de se connecter à votre Moodle. Cela signifie qu\'un enregistrement apparaîtra dans votre liste de serveur pour chaque site Moodle se connectant au vôtre et demandant votre clef publique.<br /> Vous avez la possibilité de configurer ci-dessous les services accessibles pour «&nbsp;Tous les serveurs&nbsp;», ce qui vous permettra de fournir des services à tous les serveurs Moodle.';
+$string['registerallhostsexplain'] = 'Vous pouvez choisir d\'enregistrer automatiquement tous les serveurs tentant de se connecter à votre Moodle. Cela signifie qu\'un enregistrement apparaîtra dans votre liste de serveur pour chaque site Moodle se connectant au vôtre et demandant votre clef publique.<br /> Vous avez la possibilité de configurer ci-dessous les services accessibles pour « Tous les serveurs », ce qui vous permettra de fournir des services à tous les serveurs Moodle.';
 $string['remotecourses'] = 'Cours distants';
 $string['remoteenrolhosts_desc'] = 'Inscription et désinscription d\'utilisateurs de votre Moodle à des cours d\'autres serveurs Moodle.';
 $string['remotehost'] = 'Serveur distant';
@@ -159,8 +159,8 @@ $string['serviceswesubscribeto'] = 'Services sur $a auxquels nous sommes abonné
 $string['settings'] = 'Réglages';
 $string['showlocal'] = 'Afficher les utilisateurs locaux';
 $string['showremote'] = 'Afficher les utilisateurs distants';
-$string['ssl_acl_allow'] = 'SSO ACL&nbsp;: permettre l\'utilisateur $a[0] de $a[1]';
-$string['ssl_acl_deny'] = 'SSO ACL&nbsp;:: interdire l\'utilisateur $a[0] de $a[1]';
+$string['ssl_acl_allow'] = 'SSO ACL : permettre l\'utilisateur $a[0] de $a[1]';
+$string['ssl_acl_deny'] = 'SSO ACL :: interdire l\'utilisateur $a[0] de $a[1]';
 $string['ssoaccesscontrol'] = 'Contrôle d\'accès SSO';
 $string['ssoacldescr'] = 'Cette page vous permet d\'accorder ou de refuser l\'accès à certains utilisateurs de serveurs du Réseau Moodle. Elle est fonctionnelle quand vous offrez des services SSO à des utilisateurs distants. Pour contrôler la capacité de vos utilisateurs <em>locaux</em> d\'accéder à d\'autres serveurs du Réseau Moodle, utilisez le système de rôles pour leur donner la capacité <em>site:mnetlogintoremote</em>.';
 $string['ssoaclneeds'] = 'Pour que cette fonctionnalité soit active, vous devez activer le Réseau Moodle, ainsi que la méthode d\'authentification Réseau Moodle, avec l\'ajout automatique des utilisateurs.';
@@ -169,26 +169,26 @@ $string['subscribe'] = 'S\'abonner';
 $string['system'] = 'Système';
 $string['testtrustedhosts'] = 'Tester une adresse IP';
 $string['testtrustedhostsexplain'] = 'Saisissez une adresse IP pour voir s\'il s\'agit d\'un serveur fiable.';
-$string['themesavederror'] = 'Erreur&nbsp;: le changement de thème n\'a pas été enregistré';
+$string['themesavederror'] = 'Erreur : le changement de thème n\'a pas été enregistré';
 $string['transport_help'] = 'Ces options sont réciproques. Vous ne pouvez donc imposer à un serveur distant l\'utilisation d\'un certificat SSL signé que si votre serveur possède également un certificat SSL.';
 $string['trustedhosts'] = 'Serveurs XML-RPC';
 $string['trustedhostsexplain'] = '<p>Le mécanisme des serveurs fiables permet à certaines machines d\'effectuer des appels à n\'importe quelle API Moodle via XML-RPC. Grâce à cette option <b>très dangereuse</b>, des scripts externes peuvent contrôler le comportement de Moodle. En cas de doute, désactivez-là.</p><p>Cette option <b>n\'est pas nécessaire</b> pour le fonctionnement d\'un Réseau Moodle.</p><p>Pour activer cette option, veuillez saisir une liste d\'adresses IP ou de réseaux, une par ligne. Voici quelques exemples.<br />
-Votre serveur local&nbsp;:<br />
+Votre serveur local :<br />
 127.0.0.1<br />
 Votre serveur local (avec un bloc réseau):<br />
 127.0.0.1/32<br />
-Uniquement le serveur d\'adresse IP 192.168.0.7&nbsp;:<br />
+Uniquement le serveur d\'adresse IP 192.168.0.7 :<br />
 192.168.0.7/32<br />
-N\'importe quel serveur avec une adresse IP entre 192.168.0.1 et 192.168.0.255&nbsp;:<br />
+N\'importe quel serveur avec une adresse IP entre 192.168.0.1 et 192.168.0.255 :<br />
 192.168.0.0/24<br />
-N\'importe quel serveur&nbsp;:<br />
+N\'importe quel serveur :<br />
 192.168.0.0/0<br />
 Le dernier exemple <b>n\'est pas</b> une configuration recommandée.';
 $string['unknownerror'] = 'Une erreur inconnue est survenue durant la négociation.';
 $string['usercannotchangepassword'] = 'Vous ne pouvez pas changer votre mot de passe ici, car vous êtes un utilisateur distant.';
 $string['userchangepasswordlink'] = '<br />Vous pourrez changer votre mot de passe chez votre fournisseur <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>.';
-$string['usersareonline'] = 'Attention&nbsp;! $a utilisateurs de ce serveur sont actuellement connectés à votre Moodle.';
-$string['validated_by'] = 'Il a été validé par le réseau&nbsp;: <code>$a</code>';
+$string['usersareonline'] = 'Attention ! $a utilisateurs de ce serveur sont actuellement connectés à votre Moodle.';
+$string['validated_by'] = 'Il a été validé par le réseau : <code>$a</code>';
 $string['verifysignature-error'] = 'La vérification de signature a échoué. Une erreur est survenue.';
 $string['verifysignature-invalid'] = 'La vérification de signature a échoué. Il semble que votre envoi n\'a pas été signé par vous.';
 $string['version'] = 'version';

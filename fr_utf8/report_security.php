@@ -24,18 +24,18 @@ $string['check_cookiesecure_error'] = 'Veuillez activer les cookies sécurisés'
 $string['check_cookiesecure_name'] = 'Cookies sécurisés';
 $string['check_cookiesecure_ok'] = 'Cookies sécurisés activés.';
 
-$string['check_courserole_anything'] = 'La capacité «&nbsp;doanything&nbsp;» ne doit pas être accordée dans ce <a href=\"$a\">contexte</a>.';
+$string['check_courserole_anything'] = 'La capacité « doanything » ne doit pas être accordée dans ce <a href=\"$a\">contexte</a>.';
 $string['check_courserole_details'] = '<p>Chaque cours possède son propre rôle par défaut attribué aux nouveaux participants inscrits. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Étudiant</em>.</p>';
-$string['check_courserole_error'] = 'Rôle par défaut des cours défini de façon incorrecte&nbsp;!';
+$string['check_courserole_error'] = 'Rôle par défaut des cours défini de façon incorrecte !';
 $string['check_courserole_riskylegacy'] = 'Type de rôle historique avec risque détecté dans <a href=\"$a->url\">$a->shortname</a>.';
 $string['check_courserole_name'] = 'Rôles par défaut (cours)';
 $string['check_courserole_notyet'] = 'Seul le rôle par défaut des cours est utilisé.';
 $string['check_courserole_ok'] = 'Définition correcte des rôles par défaut des cours.';
 $string['check_courserole_risky'] = 'Capacité comportant des risques détectée dans le <a href=\"$a\">contexte</a>.';
 
-$string['check_defaultcourserole_anything'] = 'La capacité «&nbsp;doanything&nbsp;» ne doit pas être accordée dans ce <a href=\"$a\">contexte</a>.';
+$string['check_defaultcourserole_anything'] = 'La capacité « doanything » ne doit pas être accordée dans ce <a href=\"$a\">contexte</a>.';
 $string['check_defaultcourserole_details'] = '<p>Le rôle de participant par défaut pour l\'inscription aux cours indique le rôle attribué par défaut lors de l\'inscription. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Étudiant</em>.</p>';
-$string['check_defaultcourserole_error'] = 'Rôle par défaut du cours « {$a} » incorrectement défini&nbsp;!';
+$string['check_defaultcourserole_error'] = 'Rôle par défaut du cours « {$a} » incorrectement défini !';
 $string['check_defaultcourserole_legacy'] = 'Type historique avec risque.';
 $string['check_defaultcourserole_name'] = 'Rôle par défaut des cours (global)';
 $string['check_defaultcourserole_notset'] = 'Le rôle par défaut n\'est pas défini.';
@@ -43,7 +43,7 @@ $string['check_defaultcourserole_ok'] = 'Définition correcte du rôle par défa
 $string['check_defaultcourserole_risky'] = 'Capacité comportant des risques détectée dans le <a href=\"$a\">contexte</a>.';
 
 $string['check_defaultuserrole_details'] = '<p>Tous les utilisateurs connectés possèdent les capacités du rôle par défaut. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Utilisateur authentifié</em>. La capacité de voir les cours ne doit pas être autorisée.</p>';
-$string['check_defaultuserrole_error'] = 'Rôle par défaut des utilisateurs « {$a} » incorrectement défini&nbsp;!';
+$string['check_defaultuserrole_error'] = 'Rôle par défaut des utilisateurs « {$a} » incorrectement défini !';
 $string['check_defaultuserrole_name'] = 'Rôle par défaut des utilisateurs';
 $string['check_defaultuserrole_notset'] = 'Le rôle par défaut n\'est pas défini.';
 $string['check_defaultuserrole_ok'] = 'Définition correcte du rôle par défaut des utilisateurs.';
@@ -65,24 +65,24 @@ $string['check_embed_name'] = 'Autoriser les balises EMBED et OBJECT';
 $string['check_embed_ok'] = 'L\'incorporation illimitée d\'objets n\'est pas autorisée.';
 
 $string['check_frontpagerole_details'] = '<p>Le rôle par défaut de la page d\'accueil est attribué à tous les utilisateurs enregistrés pour les activités qui y sont présentées. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Il est recommandé de définir un nouveau rôle destiné à cet usage et de ne pas y utiliser un type de rôle historique.</p>';
-$string['check_frontpagerole_error'] = 'Rôle de la page d\'accueil « {$a} » incorrectement défini&nbsp;!';
+$string['check_frontpagerole_error'] = 'Rôle de la page d\'accueil « {$a} » incorrectement défini !';
 $string['check_frontpagerole_name'] = 'Rôle de la page d\'accueil';
 $string['check_frontpagerole_notset'] = 'Le rôle de la page d\'accueil n\'est pas défini.';
 $string['check_frontpagerole_ok'] = 'Définition correcte du rôle de la page d\'accueil';
 
 $string['check_globals_details'] = '<p>L\'activation du réglage PHP <code>register_globals</code> représente une importante faille de sécurité.</p><p>Veuillez indiquer <code>register_globals=off</code> dans la configuration PHP de votre site. Vous pouvez modifier ce réglage dans le fichier <code>php.ini</code>, dans la configuration de Apache ou IIS ou dans un fichier <code>.htaccess</code>.</p>';
-$string['check_globals_error'] = 'Le réglage <code>register_globals</code> doit être désactivé. Veuillez modifier immédiatement les réglages de PHP&nbsp;!';
+$string['check_globals_error'] = 'Le réglage <code>register_globals</code> doit être désactivé. Veuillez modifier immédiatement les réglages de PHP !';
 $string['check_globals_name'] = 'Register globals';
 $string['check_globals_ok'] = 'Le réglage <code>register_globals</code> est désactivé.';
 
-$string['check_google_details'] = '<p>L\'activation du réglage «&nbsp;Ouvert à Google&nbsp;» autorise les moteurs de recherche à accéder aux cours en tant qu\'invités. Il n\'y a aucune raison d\'activer ce réglage si l\'accès aux invités n\'est pas autorisé.</p>';
+$string['check_google_details'] = '<p>L\'activation du réglage « Ouvert à Google » autorise les moteurs de recherche à accéder aux cours en tant qu\'invités. Il n\'y a aucune raison d\'activer ce réglage si l\'accès aux invités n\'est pas autorisé.</p>';
 $string['check_google_error'] = 'L\'accès invité est autorisé pour les moteurs de recherche alors que l\'accès invité est désactivé.';
 $string['check_google_info'] = 'Les moteurs de recherche peuvent accéder en tant qu\'invités.';
 $string['check_google_name'] = 'Ouvert à Google';
 $string['check_google_ok'] = 'L\'accès des moteurs de recherche est désactivé.';
 
 $string['check_guestrole_details'] = '<p>Le rôle invité est utilisé pour l\'accès aux cours temporaire d\'utilisateurs non connectés. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Invité</em>.</p>';
-$string['check_guestrole_error'] = 'Rôle invité « {$a} » incorrectement défini&nbsp;!';
+$string['check_guestrole_error'] = 'Rôle invité « {$a} » incorrectement défini !';
 $string['check_guestrole_name'] = 'Rôle invité';
 $string['check_guestrole_notset'] = 'Le rôle invité n\'est pas défini.';
 $string['check_guestrole_ok'] = 'Définition correcte du rôle invité.';
@@ -107,19 +107,19 @@ $string['check_passwordpolicy_error'] = 'Règles pour les mots de passe non déf
 $string['check_passwordpolicy_name'] = 'Règles pour les mots de passe';
 $string['check_passwordpolicy_ok'] = 'Des règles sont définies pour les mots de passe.';
 
-$string['check_riskadmin_detailsok'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système&nbsp;:</p>$a';
-$string['check_riskadmin_detailswarning'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système&nbsp;:</p>$a->admins<p>Il est recommandé de n\'attribuer le rôle d\'administrateur que dans le contexte Système. Les utilisateurs ci-dessous ont des attributions non supportées du rôle d\'administrateur&nbsp;:</p><p>$a->unsupported</p>';
+$string['check_riskadmin_detailsok'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système :</p>$a';
+$string['check_riskadmin_detailswarning'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système :</p>$a->admins<p>Il est recommandé de n\'attribuer le rôle d\'administrateur que dans le contexte Système. Les utilisateurs ci-dessous ont des attributions non supportées du rôle d\'administrateur :</p><p>$a->unsupported</p>';
 $string['check_riskadmin_name'] = 'Administrateurs';
 $string['check_riskadmin_ok'] = '$a administrateur(s) Moodle trouvés.';
 $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">Vérification de l\'attribution du rôle de $a->fullname ($a->email)</a>';
 $string['check_riskadmin_warning'] = '$a->admincount administrateurs et $a->unsupcount attributions du rôle d\'administrateur trouvés.';
 
-$string['check_riskxss_details'] = '<p>Le terme RISK_XSS assortit toutes les capacités dangereuses qui ne devraient être autorisées que par des utilisateurs fiables.</p><p>Veuillez vérifier la liste d\'utilisateurs ci-dessous et vous assurer que vous leur faites totalement confiance sur ce site&nbsp;:</p><p>$a</p>';
+$string['check_riskxss_details'] = '<p>Le terme RISK_XSS assortit toutes les capacités dangereuses qui ne devraient être autorisées que par des utilisateurs fiables.</p><p>Veuillez vérifier la liste d\'utilisateurs ci-dessous et vous assurer que vous leur faites totalement confiance sur ce site :</p><p>$a</p>';
 $string['check_riskxss_name'] = 'Utilisateurs XSS fiables';
 $string['check_riskxss_warning'] = 'RISK_XSS, $a utilisateurs dont vous devez être sûr.';
 
 $string['check_unsecuredataroot_details'] = '<p>Le dossier de données ne doit pas être accessible via le web. La meilleure façon de s\'assurer que ce dossier n\'est pas accessible est de le placer en dehors du dossier web public.</p><p>Si vous déplacez ce dossier, vous devrez modifier en conséquence la variable <code>\$CFG->dataroot</code> dans votre fichier <code>config.php</code>.</p>';
-$string['check_unsecuredataroot_error'] = 'Votre dossier de données <code>$a</code> est dans un emplacement où il est accessible directement via le web&nbsp;!';
+$string['check_unsecuredataroot_error'] = 'Votre dossier de données <code>$a</code> est dans un emplacement où il est accessible directement via le web !';
 $string['check_unsecuredataroot_name'] = 'Dossier de données non sûr';
 $string['check_unsecuredataroot_ok'] = 'Le dossier de données n\'est pas accessible via le web.';
 $string['check_unsecuredataroot_warning'] = 'Votre dossier de données <code>$a</code> est dans un emplacement où il pourrait être accessible directement via le web.';
