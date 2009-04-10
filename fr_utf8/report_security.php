@@ -35,7 +35,7 @@ $string['check_courserole_risky'] = 'Capacité comportant des risques détectée
 
 $string['check_defaultcourserole_anything'] = 'La capacité «&nbsp;doanything&nbsp;» ne doit pas être accordée dans ce <a href=\"$a\">contexte</a>.';
 $string['check_defaultcourserole_details'] = '<p>Le rôle de participant par défaut pour l\'inscription aux cours indique le rôle attribué par défaut lors de l\'inscription. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Étudiant</em>.</p>';
-$string['check_defaultcourserole_error'] = 'Rôle par défaut du cours «&nbsp;$a&nbsp;» incorrectement défini&nbsp;!';
+$string['check_defaultcourserole_error'] = 'Rôle par défaut du cours « {$a} » incorrectement défini&nbsp;!';
 $string['check_defaultcourserole_legacy'] = 'Type historique avec risque.';
 $string['check_defaultcourserole_name'] = 'Rôle par défaut des cours (global)';
 $string['check_defaultcourserole_notset'] = 'Le rôle par défaut n\'est pas défini.';
@@ -43,7 +43,7 @@ $string['check_defaultcourserole_ok'] = 'Définition correcte du rôle par défa
 $string['check_defaultcourserole_risky'] = 'Capacité comportant des risques détectée dans le <a href=\"$a\">contexte</a>.';
 
 $string['check_defaultuserrole_details'] = '<p>Tous les utilisateurs connectés possèdent les capacités du rôle par défaut. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Utilisateur authentifié</em>. La capacité de voir les cours ne doit pas être autorisée.</p>';
-$string['check_defaultuserrole_error'] = 'Rôle par défaut des utilisateurs «&nbsp;$a&nbsp;» incorrectement défini&nbsp;!';
+$string['check_defaultuserrole_error'] = 'Rôle par défaut des utilisateurs « {$a} » incorrectement défini&nbsp;!';
 $string['check_defaultuserrole_name'] = 'Rôle par défaut des utilisateurs';
 $string['check_defaultuserrole_notset'] = 'Le rôle par défaut n\'est pas défini.';
 $string['check_defaultuserrole_ok'] = 'Définition correcte du rôle par défaut des utilisateurs.';
@@ -65,7 +65,7 @@ $string['check_embed_name'] = 'Autoriser les balises EMBED et OBJECT';
 $string['check_embed_ok'] = 'L\'incorporation illimitée d\'objets n\'est pas autorisée.';
 
 $string['check_frontpagerole_details'] = '<p>Le rôle par défaut de la page d\'accueil est attribué à tous les utilisateurs enregistrés pour les activités qui y sont présentées. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Il est recommandé de définir un nouveau rôle destiné à cet usage et de ne pas y utiliser un type de rôle historique.</p>';
-$string['check_frontpagerole_error'] = 'Rôle de la page d\'accueil «&nbsp;$a&nbsp;» incorrectement défini&nbsp;!';
+$string['check_frontpagerole_error'] = 'Rôle de la page d\'accueil « {$a} » incorrectement défini&nbsp;!';
 $string['check_frontpagerole_name'] = 'Rôle de la page d\'accueil';
 $string['check_frontpagerole_notset'] = 'Le rôle de la page d\'accueil n\'est pas défini.';
 $string['check_frontpagerole_ok'] = 'Définition correcte du rôle de la page d\'accueil';
@@ -82,7 +82,7 @@ $string['check_google_name'] = 'Ouvert à Google';
 $string['check_google_ok'] = 'L\'accès des moteurs de recherche est désactivé.';
 
 $string['check_guestrole_details'] = '<p>Le rôle invité est utilisé pour l\'accès aux cours temporaire d\'utilisateurs non connectés. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Invité</em>.</p>';
-$string['check_guestrole_error'] = 'Rôle invité «&nbsp;$a&nbsp;» incorrectement défini&nbsp;!';
+$string['check_guestrole_error'] = 'Rôle invité « {$a} » incorrectement défini&nbsp;!';
 $string['check_guestrole_name'] = 'Rôle invité';
 $string['check_guestrole_notset'] = 'Le rôle invité n\'est pas défini.';
 $string['check_guestrole_ok'] = 'Définition correcte du rôle invité.';

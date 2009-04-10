@@ -1,11 +1,11 @@
 <?php // $Id$ 
 
 $string['errbadxmlformat'] = 'Erreur - format XML incorrect';
-$string['errduplicategradeidnumber'] = 'Erreur - il y a deux notes de même identifiant «&nbsp;$a&nbsp;» dans ce cours. Cela ne devrait pas être possible.';
+$string['errduplicategradeidnumber'] = 'Erreur - il y a deux notes de même identifiant « {$a} » dans ce cours. Cela ne devrait pas être possible.';
 $string['errduplicateidnumber'] = 'Erreur - identifiant en double';
-$string['errincorrectgradeidnumber'] = 'Erreur - l\'identifiant «&nbsp;$a&nbsp;» du fichier d\'importation ne correspond à aucun élément d\'évaluation.';
+$string['errincorrectgradeidnumber'] = 'Erreur - l\'identifiant « {$a} » du fichier d\'importation ne correspond à aucun élément d\'évaluation.';
 $string['errincorrectidnumber'] = 'Erreur - identifiant incorrect';
-$string['errincorrectuseridnumber'] = 'Erreur - l\'identifiant «&nbsp;$a&nbsp;» du fichier d\'importation ne correspond à aucun utilisateur.';
+$string['errincorrectuseridnumber'] = 'Erreur - l\'identifiant « {$a} » du fichier d\'importation ne correspond à aucun utilisateur.';
 $string['error'] = 'Des erreurs sont survenues';
 $string['fileurl'] = 'URL du fichier distant';
 $string['modulename'] = 'Fichier XML';
