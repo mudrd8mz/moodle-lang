@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090330) (2009033002)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090411) (2009040100)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1233,7 +1233,7 @@ $string['publicdirectory1'] = 'サイト名のみ公開します';
 $string['publicdirectory2'] = 'リンクとともにサイト名を公開します';
 $string['publicdirectorytitle'] = '現在のサイト一覧を表示する';
 $string['publicsitefileswarning'] = '注意: ここに置いたファイルは誰でもアクセスすることができます。';
-$string['question'] = '質問';
+$string['question'] = '問題';
 $string['questionsinthequestionbank'] = '問題バンクの問題';
 $string['readinginfofrombackup'] = 'バックアップより情報を読取り中';
 $string['readme'] = 'READMEファイル';
