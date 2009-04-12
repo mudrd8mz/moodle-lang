@@ -3,7 +3,7 @@
 
 
 $string['amfdebug'] = 'AMFサーバデバッグモード';
-$string['debugdisplayon'] = '「デバックメッセージを表示する」が、ONに設定されています。XMLRPCサーバは、動作しません。他のウェブサービスのサーバでは、問題が発生する可能性もあります。<br/>Moodle管理者に、デバックメッセージを表示しないよう、注意を喚起してください。';
+$string['debugdisplayon'] = '「デバックメッセージを表示する」が、ONに設定されています。XMLRPCサーバは、動作しません。他のウェブサービスサーバでは、問題が発生する可能性もあります。<br/>Moodle管理者に、デバックメッセージを表示しないよう、注意を喚起してください。';
 $string['fail'] = 'FAIL';
 $string['functionlist'] = 'ウェブサービス機能一覧';
 $string['moodlepath'] = 'Moodleパス';
