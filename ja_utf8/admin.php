@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090413) (2009040600)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -51,6 +51,7 @@ $string['calendar_weekend'] = '週末日';
 $string['calendarexportsalt'] = 'カレンダーエクスポートsalt';
 $string['calendarsettings'] = 'カレンダー';
 $string['cannotdeletemissingqtype'] = 'システムで必要なため、あなたは不明な問題タイプを削除することはできません。';
+$string['cannotdeletemodfilter'] = '「 $a->module 」モジュールの一部のため、あなたは、「 $a->filter 」をアンインストールできません。';
 $string['cannotdeleteqtypeinuse'] = 'あなたは、問題タイプ「 $a 」を削除することはできません。このタイプの問題が問題バンクに登録されています。';
 $string['cannotdeleteqtypeneeded'] = 'あなたは、問題タイプ「 $a 」を削除することはできません。この問題タイプに依存する他の問題タイプがインストールされています。';
 $string['cfgwwwrootslashwarning'] = 'あなたは、config.phpファイルの \$CFG->wwwroot を正しく定義していません。末尾に「/」文字を含めています。「/」文字を取り除いてください。取り除かない場合、<a href=\"http://tracker.moodle.org/browse/MDL-11061\">MDL-11061</a>のようなバグが発生する可能性があります。';
@@ -62,6 +63,7 @@ $string['checkboxyes'] = 'Yes';
 $string['choosefiletoedit'] = '編集するファイルを選択してください。';
 $string['clamfailureonupload'] = 'clam AVの障害時';
 $string['cleanup'] = 'クリーンアップ';
+$string['commonfiltersettings'] = '一般フィルタ設定';
 $string['commonsettings'] = '共通設定';
 $string['componentinstalled'] = 'コンポーネントがインストールされました。';
 $string['computedfromlogs'] = '$a 以降のログより計算しています。';
@@ -339,11 +341,15 @@ $string['defaultsettinginfo'] = 'デフォルト: $a';
 $string['defaultuserroleid'] = 'すべてのユーザのデフォルトロール';
 $string['defaultvalues'] = 'デフォルト値';
 $string['deleteerrors'] = '削除エラー';
+$string['deletefilterareyousure'] = '本当にフィルタ「 $a 」を削除してもよろしいですか?';
+$string['deletefilterareyousuremessage'] = 'あなたは、フィルタ「 $a 」を削除しようとしています。本当にアンインストールしてもよろしいですか?';
+$string['deletefilterfiles'] = 'データベースより「 $a->filter 」フィルタに関連する、すべてのデータが削除されました。削除を完了する (およびフィルタの再インストールを防ぐ) ため、あなたは、このディレクトリをサーバから削除する必要があります: $a->directory';
 $string['deleteincompleteusers'] = '不完全なユーザを削除する日数';
 $string['deleteqtypeareyousure'] = '本当に問題タイプ「 $a 」を削除してもよろしいですか?';
 $string['deleteqtypeareyousuremessage'] = 'あなたは、問題タイプ「 $a 」を完全に削除しようとしています。本当にアンインストールしてもよろしいですか?';
 $string['deleteunconfirmed'] = 'セットアップ未了のユーザを削除する日数';
 $string['deleteuser'] = 'ユーザを削除する';
+$string['deletingfilter'] = 'フィルタ「 $a 」の削除中';
 $string['deletingqtype'] = '問題タイプ「 $a 」の削除中';
 $string['density'] = '密度';
 $string['denyemailaddresses'] = '拒否されるメールアドレスのドメイン';
@@ -420,6 +426,7 @@ $string['filestoredinhelp'] = '編集済み言語ファイルの保存';
 $string['filterall'] = 'すべての文字をフィルタする';
 $string['filtermatchoneperpage'] = '1ページあたり1回フィルタマッチする';
 $string['filtermatchonepertext'] = 'テキストあたり1回フィルタマッチする';
+$string['filters'] = 'フィルタ';
 $string['filtersettings'] = 'フィルタ設定';
 $string['filtersettingsgeneral'] = '一般フィルタ設定';
 $string['filteruploadedfiles'] = 'アップロードファイルをフィルタする';
@@ -430,6 +437,7 @@ $string['framename'] = 'フレーム名';
 $string['frontpage'] = 'フロントページ';
 $string['frontpagebackup'] = 'フロントページバックアップ';
 $string['frontpagedefaultrole'] = 'デフォルトのフロントページロール';
+$string['frontpagefilters'] = 'フロントページフィルタ';
 $string['frontpageloggedin'] = 'ログイン時のフロントページアイテム';
 $string['frontpageoverrides'] = 'フロントページパーミッションのオーバーライド';
 $string['frontpagequestions'] = 'フロントページ問題';
@@ -726,6 +734,7 @@ $string['roleswithexceptions'] = '$a->roles および $a->exceptions';
 $string['rowpreviewnum'] = 'プレビュー行';
 $string['rssglobaldisabled'] = 'サーバレベルで無効済み';
 $string['runclamavonupload'] = 'アップロードファイルにclam AVを使用する';
+$string['save'] = '保存';
 $string['savechanges'] = '変更を保存する';
 $string['search'] = '検索';
 $string['searchinsettings'] = '設定検索';

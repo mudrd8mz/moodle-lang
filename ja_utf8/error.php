@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // error.php - created with Moodle 2.0 dev (Build: 20090413) (2009040600)
 
 
 $string['TODO'] = 'TODO';
@@ -41,6 +41,7 @@ $string['cannotcreatesitedir'] = 'サイトフォルダを作成できません�
 $string['cannotcreatetempdir'] = 'tempディレクトリを作成できません。';
 $string['cannotcreateuploaddir'] = 'アップロードフォルダを作成できません。サイト管理者は、ファイルパーミッションを修正する必要があります。';
 $string['cannotcreateuser'] = 'ユーザレコードの作成中にエラーが発生しました。';
+$string['cannotcustomisefiltersblockuser'] = 'あなたは、ユーザまたはブロックコンテクストでフィルタ設定をカスタマイズできません。';
 $string['cannotcustomizelocallang'] = 'あなたには翻訳ストリングをカスタマイズするパーミッションがありません。このパーミッションは、ケイパビリティ「moodle/site:langeditlocal」でコントロールされます。あなたのサイトの翻訳ストリングを修正したい場合、このケイパビリティを設定して、ローカル言語パックを編集できるようにしてください。';
 $string['cannotdeletebackupids'] = '前回のバックアップIDを削除できませんでした。';
 $string['cannotdeletecap'] = '廃止予定のケイパビリティ $a を削除できませんでした。';
@@ -221,6 +222,7 @@ $string['fieldrequired'] = '「 $a 」 は必須項目です。';
 $string['filemismatch'] = 'ノンコアのファイル名が一致しません。ファイル「 $a->current 」は、「 $a->file 」であるべきです。';
 $string['filenotfound'] = '申し訳ございません、ファイルが見つかりませんでした。';
 $string['filenotreadable'] = 'ファイルを読み込めません。';
+$string['filterdoesnothavelocalconfig'] = 'フィルタ $a では、ローカル設定を許可されていません。';
 $string['filternotactive'] = '現在、フィルタ $a は有効ではありません。';
 $string['filternotinstalled'] = '現在、フィルタ $a はインストールされていません。';
 $string['forumblockingtoomanyposts'] = 'このフォーラムに設定されている登録期限を超えています。';
@@ -342,6 +344,7 @@ $string['nocontext'] = '申し訳ございません、そのコースは有効�
 $string['nodata'] = 'データがありません。';
 $string['noexistingcategory'] = '存在しないカテゴリです。';
 $string['nofile'] = 'ファイルが指定されていません。';
+$string['nofiltersenabled'] = '有効にされているフィルタはありません。';
 $string['nofolder'] = 'リクエストされたディレクトリはありません。';
 $string['noformdesc'] = 'この活動には、formslibフォーム記述ファイルがありません。';
 $string['noguest'] = 'ゲストはいません!';

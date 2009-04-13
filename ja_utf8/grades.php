@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090324) (2009032001)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090413) (2009040600)
 
 
 $string['activities'] = '活動';
@@ -196,8 +196,8 @@ $string['feedbackview'] = 'フィードバックの表示';
 $string['finalgrade'] = '最終評点';
 $string['finalgradehelp'] = 'すべての計算が実行された後の (キャッシュされた) 最終的な 評点です。';
 $string['fixedstudents'] = '固定学生カラム';
-$string['forceoff'] = '強制: OFF';
-$string['forceon'] = '強制: ON';
+$string['forceoff'] = '強制: Off';
+$string['forceon'] = '強制: On';
 $string['forelementtypes'] = '作成対象: $a';
 $string['forstudents'] = '学生に対して';
 $string['full'] = 'フル';

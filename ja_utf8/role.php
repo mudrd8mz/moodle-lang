@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090324) (2009032001)
+      // role.php - created with Moodle 2.0 dev (Build: 20090413) (2009040600)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -105,6 +105,7 @@ $string['explainpermissionsinfo'] = '<p>このテーブルを使用するには:
 $string['explanation'] = '説明';
 $string['extusers'] = '既存のユーザ';
 $string['extusersmatching'] = '「 $a 」に合致する既存のユーザ';
+$string['filter:manage'] = 'ローカルフィルタ設定を管理する';
 $string['globalrole'] = 'グローバルロール';
 $string['globalroleswarning'] = '警告! あなたがこのページで割り当てたロールは、フロントページおよびすべてのコースを含む、システム全体の登録ユーザに適用されます。';
 $string['gotoassignroles'] = 'この $a->contextlevel に対するロールの割り当てに移動する';
@@ -259,8 +260,8 @@ $string['userswiththisrole'] = 'ロールのユーザ';
 $string['useshowadvancedtochange'] = '変更するには「拡張要素を表示する」を使用してください。';
 $string['viewingdefinitionofrolex'] = 'ロール「 $a 」の定義を表示する';
 $string['viewrole'] = 'ロール詳細の表示';
-$string['whydoesuserhavecap'] = 'なぜ $a->fullname は、コンテクスト $a->context でケイパビリティ $a->capability を持っていますか?';
-$string['whydoesusernothavecap'] = 'なぜ $a->fullname は、コンテクスト $a->context でケイパビリティ $a->capability を持っていませんか?';
+$string['whydoesuserhavecap'] = 'なぜ $a->fullname は、コンテクスト $a->context でケイパビリティ $a->capability を持っているのですか?';
+$string['whydoesusernothavecap'] = 'なぜ $a->fullname は、コンテクスト $a->context でケイパビリティ $a->capability を持っていないのですか?';
 $string['xroleassignments'] = '$a のロール割り当て';
 $string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ';
 $string['explainpermissions'] = 'パーミッション説明'; //TBD
