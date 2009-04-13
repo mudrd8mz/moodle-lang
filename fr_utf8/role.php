@@ -107,6 +107,7 @@ $string['explainpermissionsdoanything'] = 'Cet utilisateur possède la capacité
 $string['explainpermissionsinfo'] = '<p>Pour utiliser ce tableau :</p><ol><li>Observer si il y a un Interdire. Si oui, has_capability retournera FAUX.</li><li>Sinon, lisez rangée par rangée, de gauche à droite, de bas en haut, et recherchez la première cellule où le nombre d\'Empêcher et d\'Autoriser sont différents. S\'il y a plus d\'Autoriser que d\'Empêcher, has_capability retournera VRAI, sinon elle retournera FAUX.</li><li>Si le nombre d\'Empêcher et d\'Autoriser n\'est différent dans aucune cellule, has_capability retournera FAUX.</li></ol>';
 $string['extusers'] = 'Utilisateurs existants';
 $string['extusersmatching'] = 'Utilisateurs existants correpondant à « {$a} »';
+$string['filter:manage'] = 'Gérer les réglages des filtres locaux';
 $string['globalrole'] = 'Rôle global';
 $string['globalroleswarning'] = 'ATTENTION ! Les rôles que vous attribuez sur cette page s\'appliqueront aux utilisateurs concernés pour l\'intégralité du système, y compris pour la page d\'accueil et pour tous les cours.';
 $string['gotoassignroles'] = 'Aller à l\'attribution des rôles pour ce $a->contextlevel';
