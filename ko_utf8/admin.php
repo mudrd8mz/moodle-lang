@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -73,6 +73,8 @@ $string['configallowemailaddresses'] = '만약 특정 도메인의 이메일 주
 $string['configallowobjectembed'] = '기본 보안 규정에 따라, 일반 이용자들은 멀티미디어 파일 (예:플래시,동영상,mp3)을 EMBED, OBJECT 등의 명령어나 태그를 사용해서 올릴 수 없다. (비록 안전한 미디어 파일일지라도) 운영자가 허락 옵션을 켜야만 파일을 올릴 수 있다.';
 $string['configallowoverride'] = '왼쪽 난의 역할을 가진 사람에게 기표된 칼럼의 역할을 재설정할 수 있도록 허용';
 $string['configallowoverride2'] = '왼쪽 난의 역할을 가진사람이 재설정할 수 있는 역할들을 선택<br />이 설정은 각 사용자가 moodle/role:override의 권한을 갖거나 moodle/role:safeoverride의 권한을 지닐 때만 적용됨을 유의하라.';
+$string['configallowswitch'] = '이미 지니고 있는 어떤 역활을 교환하려는지 선택하시오. 표에 있는 항목의 경우, 사용자가 역할 교환을 위한 moodle/role:switchroles 권한이 있어야만 합니다.<br />
+moodle/course:view 권한만 지닌 역할을 교환할 수 있고, moodle/site:doanything 권한으로는 교환할 수 없기 때문에 표의 일부 영역은 비활성 됨을 주목하기 바랍니다.';
 $string['configallowunenroll'] = '만약 이것을 \"예\"로 설정하면, 학생들은 스스로 수강 여부를 결정할 수 있다. 반면에 \"아니오\"로 설정하면 교수자와 관리자만 학생의 수강 여부를 결정할 수 있게 된다.';
 $string['configallowuserblockhiding'] = '이용자들이 사이트의 블럭을 숨기거나 볼 수 있도록 허용하겠는가? 이 기능은 각각의 분리된 블럭을 기억하기 위해 자바 스크립트와 쿠키를 사용하며, 이용자 화면에만 영향을 미친다.';
 $string['configallowusermailcharset'] = '이 기능을 활성화시키면, 모든 이용자는 이메일에 자신만의 문자 세트를 이용할 수 있다.';
@@ -138,6 +140,7 @@ $string['configenrolmentplugins'] = '사용하고자 하는 등록 플러그인�
 $string['configerrorlevel'] = '당신이 알고싶은 PHP경고 수준을 선택하라. 대부분 보통(Normal)이 가장 좋은 선택이다.';
 $string['configexperimentalsplitrestore'] = '이를 활성화시켜 놓으면, 강좌 백업파일에 대해 XML 오류를 점검하고 복구 과정에서 사용할 수 있게 작은 부분으로 나누어 놓습니다. 이렇게 하면 특히 대단위 강좌의 백업에서 복구과정의 오류를 줄이는 한편 소요시간을 줄일 수 있게 됩니다.';
 $string['configextendedusernamechars'] = '이 설정을 활성화시켜 놓으면 학생들은 사용자 아이디에 어떤 문자도 쓸 수 있다.(학생들의 실제 이름에는 영향을 주지 않는다) 기본적으로는 비활성화되어 있어 사용자 ID에 영문자와 숫자를 조합한 것만 허용된다.';
+$string['configextramemorylimit'] = '검색, 백업/복구 혹은 크론과 같은 일부 스크립트는 좀 더 많은 메모리를 요구합니다. 대형 사이트에서는 좀 더 큰 값을 지정하십시오.';
 $string['configextrauserselectorfields'] = '이용자에게 역할을 부여하거나 모둠 구성원으로 추가하는 등에서 사용자를 선택할 경우, 여기에서 선택한 필드가 사용자 목록에 제시된다. 보안상 사용자아이디를 선택하는 것은 바람직하지 않음을 유념하라.';
 $string['configfilterall'] = '이 설정은 필터를 통해 머릿말, 제목, 주소창 등에 포함된 모든 문자열을 검색한다. 대개 다국어 여과장치를 쓸 때에 유용하지만, 사이트에 다소 추가적인 부담을 주게 된다.';
 $string['configfiltermatchoneperpage'] = '이 자동 링크 필터는 전체 페이지에서 최초 일치하는 내용에만 단 한번 링크를 걸고 나머지는 무시한다.';
@@ -192,6 +195,7 @@ $string['configminpasswordlength'] = '비밀번호의 길이는 여기에 제시
 $string['configminpasswordlower'] = '비밀번호에 최소 여기에 제시된 수만큼의 소문자가 들어 있어야 합니다.';
 $string['configminpasswordnonalphanum'] = '비밀번호에 최소 여기에 제시된 수만큼의 특수문자가 들어 있어야 합니다.';
 $string['configminpasswordupper'] = '비밀번호에 최소 여기에 제시된 수만큼의 대문자가 들어 있어야 합니다.';
+$string['configmycoursesperpage'] = '개인 강좌 목록에 표시할 최대 강좌 수';
 $string['configmymoodleredirect'] = '이 설정은 관리자가 아닌 사람이 로그인 할 때 강제적으로 /my 경로로 가게하고 /my 경로에 새로운 환경을 구성하도록 만든다.';
 $string['confignodefaultuserrolelists'] = '이 설정은 기본 역할의 접근을 허용함에도, 사이트 강좌에서 get_course_user 등의 호출 거부 때문에 이용자들이 데이터베이스에 접근하지 못하는 것을 막는다. 성능상 문제가 있는 경우 이것을 체크하라.';
 $string['confignonmetacoursesyncroleids'] = '기본적으로 메타코스 하위 강좌의 모든 출석은 메타코스와 동기화된다. 단, 여기에서 선택된 역할들은 동기화 과정에는 포함되지 않는다.';
@@ -413,6 +417,7 @@ $string['experimental'] = '시험적임';
 $string['experimentalsettings'] = '시험적 설정';
 $string['experimentalsplitrestore'] = '시험적 분리 복구';
 $string['extendedusernamechars'] = '아이디에 확장 문자 허용';
+$string['extramemorylimit'] = '별도 PHP 메모리 한계';
 $string['extrauserselectorfields'] = '사용자 검색시 표시항목';
 $string['fatalmagicquotesruntime'] = '<p>심각한 설정오류가 발견되었으므로 서버 관리자에게 알려주시기 바랍니다.<p/><p>무들을 원활하게 작동시키기 위해 현재의 PHP 설정을 바꿔야만 합니다.<p/><p> <code>magic_quotes_runtime</code>은 반드시 <code>off</code>으로 설정되어 있어야만 합니다.<p/><p>이러한 설정은 <code>php.ini</code>를 수정하여 바꿀 수도 있고, Apache/IIS 의 설정 혹은  <code>.htaccess</code> 파일을 수정해도 바꿀 수 있습니다.</p>';
 $string['fatalsessionautostart'] = '<p>심각한 설정오류가 발견되었으므로 서버 관리자에게 알려주시기 바랍니다.<p/><p>무들을 원활하게 작동시키기 위해 현재의 PHP 설정을 바꿔야만 합니다.<p/><p> <code>session.auto_start</code>는 반드시 <code>off</code>으로 설정되어 있어야만 합니다.<p/><p>이러한 설정은 <code>php.ini</code>를 수정하여 바꿀 수도 있고, Apache/IIS 의 설정 혹은  <code>.htaccess</code> 파일을 수정해도 바꿀 수 있습니다.</p>';
@@ -577,6 +582,7 @@ $string['multilangupgradeinfo'] = '1.8판 이후에는 다중언어 처리 문�
 <strong>기존의 구문들을 새 다중언어 문법으로 판올림하겠습니까?</strong>';
 $string['multilangupgradenotice'] = '이 사이트는 오래된 다중언어 문법을 사용하고 있는 듯 하므로 <a href=\"multilangupgrade.php\">다중언어 판올림</a>이 필요합니다.';
 $string['mustenablestats'] = '아직 통계수집을 하도록 설정하지 않았습니다.';
+$string['mycoursesperpage'] = '강좌의 수';
 $string['mymoodle'] = '내 공부방';
 $string['mymoodleredirect'] = '내 공부방 강제 개설';
 $string['mysql416bypassed'] = '사이트가 iso-8859-1 (라틴) 언어만을 사용하는 경우 현재 설치된 MySQL 4.1.12(혹은 그 이상 버전)를 사용할 수 있습니다.';
