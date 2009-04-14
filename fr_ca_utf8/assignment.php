@@ -17,9 +17,9 @@ $string['submitassignment'] = 'Envoyer votre devoir en utilisant ce formulaire';
 $string['typeuploadsingle'] = 'Téléverser un fichier';
 $string['uploadbadname'] = 'Ce nom de fichier contient d\'étranges caractères. Il ne peut être téléversé';
 $string['uploadedfiles'] = 'fichiers téléversés';
-$string['uploadfailnoupdate'] = 'Le fichier a été correctement téléversé, mais il n\'a pas été possible de mettre à jour votre devoir&nbsp;!';
-$string['uploadnofilefound'] = 'Aucun fichier n\'a été trouvé. En avez-vous vraiment choisi un à téléverser&nbsp;?';
-$string['uploadnotregistered'] = '« {$a} » a été correctement téléversé mais votre devoir n\'a pu être enregistré&nbsp;!';
+$string['uploadfailnoupdate'] = 'Le fichier a été correctement téléversé, mais il n\'a pas été possible de mettre à jour votre devoir !';
+$string['uploadnofilefound'] = 'Aucun fichier n\'a été trouvé. En avez-vous vraiment choisi un à téléverser ?';
+$string['uploadnotregistered'] = '« {$a} » a été correctement téléversé mais votre devoir n\'a pu être enregistré !';
 $string['uploadsuccess'] = '« {$a} » a été correctement téléversé';
 $string['viewfeedback'] = 'Afficher les évaluations et les rétroactions des devoirs';
 

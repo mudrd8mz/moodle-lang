@@ -26,9 +26,9 @@ $string['uploadextension'] = 'Téléversement du fichier arrêté par l\'extensi
 $string['uploadfailednotrecovering'] = 'Le téléversement de votre fichier a échoué car un des fichiers, $a->name, a posé problème.<br />Voici une liste des problèmes rencontrés :<br />$a->problem<br />Impossible de rattraper l\'erreur.';
 $string['uploadfilelog'] = 'Historique du téléversement du fichier $a';
 $string['uploadformlimit'] = 'La taille du fichier téléversé dépasse la limite fixée par le formulaire';
-$string['uploadnofilefound'] = 'Aucun fichier trouvé. En avez-vous vraiment choisi un à téléverser&nbsp;?';
+$string['uploadnofilefound'] = 'Aucun fichier trouvé. En avez-vous vraiment choisi un à téléverser ?';
 $string['uploadnotallowed'] = 'Il n\'est pas permis de téléverser des fichiers';
-$string['uploadproblem'] = 'Un problème inconnu est survenu lors du téléversement du fichier « {$a} » (peut-être est-il trop gros&nbsp;?)';
+$string['uploadproblem'] = 'Un problème inconnu est survenu lors du téléversement du fichier « {$a} » (peut-être est-il trop gros ?)';
 $string['uploadserverlimit'] = 'La taille du fichier téléversé dépasse la taille maximale fixée par le serveur';
 $string['uploadthisfile'] = 'Téléverser ce fichier';
 
