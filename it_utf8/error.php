@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090410) (2009040100)
+      // error.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
 
 
 $string['TODO'] = 'TODO';
@@ -41,6 +41,7 @@ $string['cannotcreatesitedir'] = 'Non è possibile creare la cartella del sito. 
 $string['cannotcreatetempdir'] = 'Non è possibile creare la cartella temp';
 $string['cannotcreateuploaddir'] = 'Non è possibile creare la cartella di upload. L\'amministratore del sito deve sistemare i permessi dei file.';
 $string['cannotcreateuser'] = 'Si è verificato un errore durante la creazione del record utente';
+$string['cannotcustomisefiltersblockuser'] = 'Non è possibile personalizzare i filtri nei contesti dell\'utente o dei blocchi.';
 $string['cannotcustomizelocallang'] = 'Non siete autorizzati a personalizzare  le stringhe della traduzione. Questa autorizzazione è controllata dal privilegio \"moodle/site:langeditlocal\". Dovete impostare questo privilegio a Consenti se desiderate personalizzare i language pack del vostro sito.';
 $string['cannotdeletebackupids'] = 'Non è stato possibile eliminare le id dei backup precedenti';
 $string['cannotdeletecap'] = 'Non è stato possibile eliminare il privilegio deprecato $a';
@@ -221,6 +222,7 @@ $string['fieldrequired'] = '\"$a\" è un campo obbligatorio';
 $string['filemismatch'] = 'Discordanza nel nome del file non-core. Il file \"$a->current\" dovrebbe essere $a->file';
 $string['filenotfound'] = 'Spiacente, il file richiesto non può essere trovato';
 $string['filenotreadable'] = 'Il file non è leggibile';
+$string['filterdoesnothavelocalconfig'] = 'Il filtro $a non consente personalizzazioni locali.';
 $string['filternotactive'] = 'Il filtro $a non è attivo';
 $string['filternotinstalled'] = 'Il filtro $a non è installato';
 $string['forumblockingtoomanyposts'] = 'Avete superato il limite di messaggi impostato per questo forum.';
@@ -342,6 +344,7 @@ $string['nocontext'] = 'Spiacente, ma quel corso non è un contesto valido';
 $string['nodata'] = 'Non ci sono dati';
 $string['noexistingcategory'] = 'Categoria non esistente';
 $string['nofile'] = 'File non specificato';
+$string['nofiltersenabled'] = 'Non ci sono filtri abilitati.';
 $string['nofolder'] = 'La cartella richiesta non esiste';
 $string['noformdesc'] = 'Per questa attività nella formslib non sono state trovate definizioni del form';
 $string['noguest'] = 'Non ci sono ospiti qui!';
