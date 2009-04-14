@@ -5,7 +5,7 @@ $string['assignmentmail'] = '$a->teacher a fait des remarques sur votre devoir �
 Vous pouvez les consulter en annexe à votre devoir :
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->teacher a fait des remarques sur votre devoir «&nbsp;<em>$a->assignment</em>&nbsp;». <br /> <br />
+$string['assignmentmailhtml'] = '$a->teacher a fait des remarques sur votre devoir « {$a->assignment} ». <br /> <br />
 
 Vous pouvez les consulter en annexe à <a href=\'$a->url\'>votre devoir</a>.';
 $string['failedupdatefeedback'] = 'Impossible d\'enregistrer la rétroaction pour $a';
@@ -19,8 +19,8 @@ $string['uploadbadname'] = 'Ce nom de fichier contient d\'étranges caractères.
 $string['uploadedfiles'] = 'fichiers téléversés';
 $string['uploadfailnoupdate'] = 'Le fichier a été correctement téléversé, mais il n\'a pas été possible de mettre à jour votre devoir&nbsp;!';
 $string['uploadnofilefound'] = 'Aucun fichier n\'a été trouvé. En avez-vous vraiment choisi un à téléverser&nbsp;?';
-$string['uploadnotregistered'] = '«&nbsp;$a&nbsp;» a été correctement téléversé mais votre devoir n\'a pu être enregistré&nbsp;!';
-$string['uploadsuccess'] = '«&nbsp;$a&nbsp;» a été correctement téléversé';
+$string['uploadnotregistered'] = '« {$a} » a été correctement téléversé mais votre devoir n\'a pu être enregistré&nbsp;!';
+$string['uploadsuccess'] = '« {$a} » a été correctement téléversé';
 $string['viewfeedback'] = 'Afficher les évaluations et les rétroactions des devoirs';
 
 ?>

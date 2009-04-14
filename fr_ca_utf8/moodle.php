@@ -28,7 +28,7 @@ $string['uploadfilelog'] = 'Historique du téléversement du fichier $a';
 $string['uploadformlimit'] = 'La taille du fichier téléversé dépasse la limite fixée par le formulaire';
 $string['uploadnofilefound'] = 'Aucun fichier trouvé. En avez-vous vraiment choisi un à téléverser&nbsp;?';
 $string['uploadnotallowed'] = 'Il n\'est pas permis de téléverser des fichiers';
-$string['uploadproblem'] = 'Un problème inconnu est survenu lors du téléversement du fichier «&nbsp;$a&nbsp;» (peut-être est-il trop gros&nbsp;?)';
+$string['uploadproblem'] = 'Un problème inconnu est survenu lors du téléversement du fichier « {$a} » (peut-être est-il trop gros&nbsp;?)';
 $string['uploadserverlimit'] = 'La taille du fichier téléversé dépasse la taille maximale fixée par le serveur';
 $string['uploadthisfile'] = 'Téléverser ce fichier';
 
