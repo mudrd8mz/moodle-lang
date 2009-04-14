@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090413) (2009040600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -104,6 +104,7 @@ $string['configcronclionly'] = 'この設定を有効にした場合、ウェブ
 $string['configcronremotepassword'] = 'cronパスワードを設定した場合、下記の形式のURIを使用してcronパスワードを提供しない限り、ウェブブラウザからcron.phpを動作させることはできません。<pre>
 http://site.example.com/admin/cron.php?password=opensesame
 </pre>空白の場合、パスワードは要求されません。';
+$string['configcurlcache'] = 'cURLキャッシュの有効期間 (Time-to-live) を秒で指定してください。';
 $string['configdbsessions'] = 'この設定を有効にした場合、現在のセッション情報はデータベースに保存されます。これは特に規模の大きい/アクセス数の多いサイト、またはクラスタサーバで構築されたサイトに向いています。ほとんどのサイトでは、この設定をサーバディスクにセッションを保存する、無効のままにしてください。この設定を変更すると、(あなたも含めて) 現在のユーザがログアウトされます。あなたがMySQLを使用している場合、my.cnf (またはmy.ini) の「max_allowed_packet」 を少なくとも4Mにしてください。';
 $string['configdebug'] = 'この設定を有効にした場合、PHPのerror_reportingが増加し、より多くの警告が表示されるようになります。これは、開発者のみに便利な設定です。';
 $string['configdebugdisplay'] = 'この設定を有効にした場合、エラー報告はHTMLページに表示されますが、一般的にXHTML、JS、cookiesおよびHTTPヘッダを壊します。この設定を無効にした場合、エラー報告はサーバログに記録され、デバッグしやすくなります。PHP設定のerror_logで、どのログを記録するかコントロールできます。';
@@ -308,6 +309,7 @@ $string['cronwarning'] = '<a href=\"cron.php\">cron.phpメンテナンススク�
 $string['csvdelimiter'] = 'CSVデリミタ';
 $string['ctyperecommended'] = 'あなたのサイトが非ラテン言語をサポートしている場合、サイトパフォーマンスを改善するため、PHP ctype拡張モジュールのインストールを強くお勧めします。';
 $string['ctyperequired'] = 'サイトパフォーマンスの改善および多言語サポートを提供するため、MoodleではPHP ctype拡張モジュールが必須です。';
+$string['curlcache'] = 'cURLキャッシュTTL';
 $string['curlrecommended'] = 'Moodleネットワーキング機能を有効にするため、cURLライブラリのインストールを強くお勧めします。';
 $string['curlrequired'] = 'Moodleリポジトリと通信するため、MoodleではPHP cURL拡張モジュールが必須です。';
 $string['customcheck'] = 'その他のチェック';
