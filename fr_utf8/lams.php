@@ -2,7 +2,7 @@
 
 $string['createSequence'] = 'Créer nouvelle séquence';
 $string['editSequence'] = 'Modifier la séquence sélectionnée';
-$string['error'] = 'Désolé ! une erreur est survenue.';
+$string['error'] = 'Désolé ! une erreur est survenue.';
 $string['introduction']  = 'Introduction';
 $string['lams'] = '-- LAMS - Learning Activity Management System --';
 $string['lamsoutline'] = 'Vue d\'ensemble LAMS';

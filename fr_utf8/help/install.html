@@ -10,7 +10,7 @@
 
 <p>Prenez le temps d'étudier attentivement ces instructions. Cela vous fera gagner du temps tôt ou tard.</p>
 
-<p>Voici les différentes sections de ce document :</p>
+<p>Voici les différentes sections de ce document :</p>
 
 <ol>
 
@@ -44,23 +44,23 @@
 
 <p>Moodle est principalement développé sur Linux avec Apache, MySQL et PHP (environnement appelé parfois plateforme LAMP), mais est aussi testé régulièrement avec PostgreSQL et sur les systèmes d'exploitation Windows XP, Mac OS X et Netware 6.</p>
 
-<p>Les logiciels et réglages nécessaires pour Moodle sont les suivants :</p>
+<p>Les logiciels et réglages nécessaires pour Moodle sont les suivants :</p>
 
 <ol>
 
 <li>Logiciel serveur web. La plupart des gens utilisent <a href="http://www.apache.org/">Apache</a>, mais Moodle devrait fonctionner tout aussi bien avec n'importe quel serveur web compatible avec PHP, comme IIS sur les plateformes Windows.</li>
 
-<li>Le langage <a href="http://www.php.net/">PHP</a> (version 4.1.0 ou ultérieure), avec les réglages suivants :
+<li>Le langage <a href="http://www.php.net/">PHP</a> (version 4.1.0 ou ultérieure), avec les réglages suivants :
 
 <ul>
 
-<li>la bibliothèque <a href="http://www.boutell.com/gd/">GD</a>, installée et activé (ON), supportant les formats JPG et PNG ;</li>
+<li>la bibliothèque <a href="http://www.boutell.com/gd/">GD</a>, installée et activé (ON), supportant les formats JPG et PNG ;</li>
 
-<li>la bibliothèque zlib installée et activée (ON), si vous voulez faire des backups et les restaurer sous Windows ;</li>
+<li>la bibliothèque zlib installée et activée (ON), si vous voulez faire des backups et les restaurer sous Windows ;</li>
 
-<li>le support des sessions activé (ON) ;</li>
+<li>le support des sessions activé (ON) ;</li>
 
-<li>le dépôt (upload) de fichiers activé (ON) ;</li>
+<li>le dépôt (upload) de fichiers activé (ON) ;</li>
 
 <li>le mode « Safe Mode » doit être désactivé (OFF) (voir les forums sur moodle.org pour les problèmes causés par le mode « Safe Mode ».</li>
 
@@ -68,7 +68,7 @@
 
 </li>
 
-<li>Un serveur de base de données : <a href="http://www.mysql.com/">MySQL</a> ou <a href="http://www.postgresql.org/">PostgreSQL</a> sont complètement supportés et recommandés pour être utilisés avec Moodle 1.1. D'autres bases de données seront pleinement supportées dans la prochaine version.</li>
+<li>Un serveur de base de données : <a href="http://www.mysql.com/">MySQL</a> ou <a href="http://www.postgresql.org/">PostgreSQL</a> sont complètement supportés et recommandés pour être utilisés avec Moodle 1.1. D'autres bases de données seront pleinement supportées dans la prochaine version.</li>
 
 </ol>
 
@@ -82,7 +82,7 @@
 
 <div class="indent">
 
-<p>Il y a deux façons d'obtenir Moodle : par téléchargement d'un fichier compressé ou à l'aide du CVS. Toutes deux sont expliquées en détail sur la page de téléchargement <a href="http://moodle.org/download/">http://moodle.org/download/</a>.</p>
+<p>Il y a deux façons d'obtenir Moodle : par téléchargement d'un fichier compressé ou à l'aide du CVS. Toutes deux sont expliquées en détail sur la page de téléchargement <a href="http://moodle.org/download/">http://moodle.org/download/</a>.</p>
 
 <p>Après avoir téléchargé et décompressé l'archive ou obtenu les fichiers par CVS, vous aurez sous les yeux un dossier nommé « moodle », contenant un certain nombre de dossiers et de fichiers.</p>
 
@@ -140,7 +140,7 @@ index.php : la page d'accueil du site</p>
 
 <p>Moodle aura également besoin d'espace sur le disque dur du serveur pour conserver les fichiers déposés par les utilisateurs, comme les documents de cours ou les photos des utilisateurs.</p>
 
-<p>Créez quelque part à cet effet un dossier. Par sécurité, ce dossier NE DOIT PAS être accessible directement depuis le web. La manière la plus simple d'obtenir cela est de le créer EN DEHORS du dossier web. Sinon, vous pouvez protéger ce dossier en y plaçant un fichier nommé « .htaccess », contenant cette ligne :</p>
+<p>Créez quelque part à cet effet un dossier. Par sécurité, ce dossier NE DOIT PAS être accessible directement depuis le web. La manière la plus simple d'obtenir cela est de le créer EN DEHORS du dossier web. Sinon, vous pouvez protéger ce dossier en y plaçant un fichier nommé « .htaccess », contenant cette ligne :</p>
 
 <div class="indent">
 
@@ -287,7 +287,7 @@ php_value post_max_size 2M
 
 <p>(Moodle va aussi essayer de placer des cookies dans votre navigateur. Si celui-ci vous permet d'accepter ou non les cookies, vous <strong>devez</strong> accepter les cookies de Moodle, ou alors Moodle ne fonctionnera pas.)</p>
 
-<p>Moodle va maintenant mettre en place votre base de données et créer les tables qui contiendront les données. Les tables de la base de données principale sont d'abord créées. Un certain nombre de commandes SQL seront affichées, suivies de messages (en rouge ou en vert) de ce type :</p>
+<p>Moodle va maintenant mettre en place votre base de données et créer les tables qui contiendront les données. Les tables de la base de données principale sont d'abord créées. Un certain nombre de commandes SQL seront affichées, suivies de messages (en rouge ou en vert) de ce type :</p>
 
 <div class="indent">
 
@@ -295,7 +295,7 @@ php_value post_max_size 2M
 
 <p class="success">SUCCESS</p>
 
-<p>... et ainsi de suite, suivi de : <span class="success">Main databases set up successfully.</span></p>
+<p>... et ainsi de suite, suivi de : <span class="success">Main databases set up successfully.</span></p>
 
 </div>
 

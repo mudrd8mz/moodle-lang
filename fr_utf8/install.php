@@ -150,8 +150,8 @@ $string['directorysettingssub'] = '<b>Adresse web :</b> veuillez indiquer l\'adr
 <b>Dossier Moodle :</b> veuillez spécifier le chemin complet de cette installation de Moodle (« OS path »). Assurez-vous que la casse des caractères (majuscules/minuscules) est correcte.<br /><br />
 <b>Dossier de données :</b> Moodle a besoin d\'un emplacement où enregistrer les fichiers déposés sur le site. Le serveur web (utilisateur dénommé habituellement « www », « apache » ou « nobody ») doit avoir accès à ce dossier en lecture et EN ÉCRITURE. Toutefois ce dossier ne doit pas être accessible directement depuis le web. L\'installeur va tenter de le créer s\'il n\'existe pas.';
 $string['dirroot'] = 'Dossier Moodle';
-$string['dirrooterror'] = 'Le dossier Moodle semble incorrect : aucune installation de Moodle ne se trouve dans ce dossier. Le dossier Moodle indiqué ci-dessous est vraisemblablement correct.';
-$string['disagreelicense'] = 'La mise à jour ne peut pas continuer, puisque vous n\'êtes pas d\'accord avec la GPL !';
+$string['dirrooterror'] = 'Le dossier Moodle semble incorrect : aucune installation de Moodle ne se trouve dans ce dossier. Le dossier Moodle indiqué ci-dessous est vraisemblablement correct.';
+$string['disagreelicense'] = 'La mise à jour ne peut pas continuer, puisque vous n\'êtes pas d\'accord avec la GPL !';
 $string['download'] = 'Télécharger';
 $string['downloadlanguagebutton'] = 'Télécharger le paquetage de langue « $a »';
 $string['downloadlanguagehead'] = 'Téléchargement du paquetage de la langue d\'installation';
@@ -178,7 +178,7 @@ $string['inputdatadirectory'] = 'Dossier de données :';
 $string['inputwebadress'] = 'Adresse web :';
 $string['inputwebdirectory'] = 'Dossier Moodle :';
 $string['installation'] = 'Installation';
-$string['installationiscomplete'] = 'L\'installation est terminée !';
+$string['installationiscomplete'] = 'L\'installation est terminée !';
 $string['invalidargumenthelp'] = '
     Erreur : Argument(s) non valide(s)
     Usage : \$php cliupgrade.php OPTIONS

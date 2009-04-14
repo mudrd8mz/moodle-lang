@@ -32,7 +32,7 @@ $string['attls19short'] = 'faire l\'effort de s\'élargir l\'esprit';
 $string['attls1short'] = 'attention sur la qualité de l\'argumentation';
 $string['attls2'] = 'J\'aime jouer l\'avocat du diable - en argumentant l\'opposé de ce que quelqu\'un dit.';
 $string['attls20'] = 'Je prends du temps pour rechercher « ce qui ne vas pas ». Par exemple je cherche dans une interprétation littéraire ce qui n\'est pas suffisamment bien étayé.';
-$string['attls20short'] = 'qu\'est-ce qui ne  va pas ?';
+$string['attls20short'] = 'qu\'est-ce qui ne  va pas ?';
 $string['attls2short'] = 'jouer l\'avocat du diable';
 $string['attls3'] = 'J\'aime comprendre d\'où viennent les gens, quelles expériences les ont conduits à être comme ils sont.';
 $string['attls3short'] = 'd\'où viennent les gens';
@@ -40,7 +40,7 @@ $string['attls4'] = 'La partie la plus importante de ma formation a été de com
 $string['attls4short'] = 'comprendre les personnes différentes';
 $string['attls5'] = 'Je pense que la meilleure façon de m\'accomplir est l\'interaction avec des gens de personnalités variées.';
 $string['attls5short'] = 'intéragir avec des personnalités variées';
-$string['attls6'] = 'J\'ai du plaisir à entendre les opinions de personnes provenant d\'autres horizons que moi ; cela m\'aide à comprendre combien de mêmes choses peuvent être comprises de différentes manières.';
+$string['attls6'] = 'J\'ai du plaisir à entendre les opinions de personnes provenant d\'autres horizons que moi ; cela m\'aide à comprendre combien de mêmes choses peuvent être comprises de différentes manières.';
 $string['attls6short'] = 'plaisir à entendre des opinions';
 $string['attls7'] = 'J\'ai l\'impression de renforcer ma propre opinion en discutant avec quelqu\'un qui n\'est pas d\'accord avec moi.';
 $string['attls7short'] = 'renforcer en argumentant';
@@ -50,7 +50,7 @@ $string['attls9'] = 'Lorsque je lis un livre, je me surprends à contrer les arg
 $string['attls9short'] = 'discuter avec des auteurs';
 $string['attlsintro'] = 'Le but de cette consultation est de nous aider à évaluer votre état d\'esprit vis-à-vis de la réflexion et de l\'apprentissage.
 
-Il n\'y a pas de « bonne » ou de « mauvaise » réponse ; seule votre opinion nous intéresse. Soyez assuré que vos réponses seront traitées avec le maximum de confidentialité, et qu\'elles n\'auront aucun effet sur votre note finale.';
+Il n\'y a pas de « bonne » ou de « mauvaise » réponse ; seule votre opinion nous intéresse. Soyez assuré que vos réponses seront traitées avec le maximum de confidentialité, et qu\'elles n\'auront aucun effet sur votre note finale.';
 $string['attlsm1'] = 'État d\'esprit envers la réflexion et l\'étude';
 $string['attlsm2'] = 'Apprentissage lié';
 $string['attlsm3'] = 'Apprentissage détaché';
@@ -60,15 +60,15 @@ $string['cannotfindsurveytmpt'] = 'Aucun modèle de consultation trouvé !';
 $string['cannotfindquestion'] = 'La question n\'existe pas';
 $string['cannotfindanswer'] = 'Il n\'y a pas encore de réponse à cette consultation.';
 $string['cannotinsertanswer'] = 'Problème lors de l\'enregistrement de vos réponses.';
-$string['ciq1'] = 'À quel moment du cours avez-vous été le plus impliqué en tant qu\'apprenant ?';
+$string['ciq1'] = 'À quel moment du cours avez-vous été le plus impliqué en tant qu\'apprenant ?';
 $string['ciq1short'] = 'Plus impliqué';
-$string['ciq2'] = 'À quel moment du cours avez-vous été le plus distant en tant qu\'apprenant ?';
+$string['ciq2'] = 'À quel moment du cours avez-vous été le plus distant en tant qu\'apprenant ?';
 $string['ciq2short'] = 'Plus distant';
-$string['ciq3'] = 'Dans les forums, quelle action vous a semblé apporter le plus de soutien ou d\'aide ?';
+$string['ciq3'] = 'Dans les forums, quelle action vous a semblé apporter le plus de soutien ou d\'aide ?';
 $string['ciq3short'] = 'Moment utile';
-$string['ciq4'] = 'Dans les forums, quelle action vous a semblé amener le plus d\'embarras ou de confusion ?';
+$string['ciq4'] = 'Dans les forums, quelle action vous a semblé amener le plus d\'embarras ou de confusion ?';
 $string['ciq4short'] = 'Moment embarrassant';
-$string['ciq5'] = 'Quel événement vous a le plus surpris ?';
+$string['ciq5'] = 'Quel événement vous a le plus surpris ?';
 $string['ciq5short'] = 'Moment surprenant';
 $string['ciqintro'] = 'En réfléchissant aux événements récents de ce cours, répondez aux questions ci-dessous.';
 $string['ciqname'] = 'Incidents critiques';
@@ -126,7 +126,7 @@ $string['collesaintro'] = 'L\'objet de cette consultation est de nous aider à c
 
 Chacune des 24 affirmations ci-dessous vous interroge sur votre expérience dans ce cours.
 
-Il n\'y a pas de réponse « juste » ou « fausse » ; nous ne nous intéressons qu\'à votre opinion. Soyez assuré que vos réponses seront traitées avec le maximum de confidentialité, et qu\'elles n\'auront aucune influence sur votre note finale.
+Il n\'y a pas de réponse « juste » ou « fausse » ; nous ne nous intéressons qu\'à votre opinion. Soyez assuré que vos réponses seront traitées avec le maximum de confidentialité, et qu\'elles n\'auront aucune influence sur votre note finale.
 
 Vos réponses soigneusement réfléchies nous aideront à améliorer la façon de présenter ce cours.
 
@@ -136,7 +136,7 @@ $string['collesapintro'] = 'L\'objet de cette consultation est de nous aider à 
 
 Chacune des 24 affirmations ci-dessous vous demande de comparer votre expérience <strong>idéale</strong> (désirée) et <strong>réelle</strong> (vécue) dans ce cours.
 
-Il n\'y a pas de réponse « juste » ou « fausse » ; nous ne nous intéressons qu\'à votre opinion. Soyez assuré que vos réponses seront traitées avec le maximum de confidentialité, et qu\'elles n\'auront aucune influence sur votre note finale.
+Il n\'y a pas de réponse « juste » ou « fausse » ; nous ne nous intéressons qu\'à votre opinion. Soyez assuré que vos réponses seront traitées avec le maximum de confidentialité, et qu\'elles n\'auront aucune influence sur votre note finale.
 
 Vos réponses soigneusement réfléchies nous aideront à améliorer la façon de présenter ce cours.
 
@@ -159,7 +159,7 @@ $string['collespintro'] = 'L\'objet de cette consultation est de nous aider à c
 
 Chacune des 24 affirmations ci-dessous vous interroge sur votre expérience <strong>idéale</strong> (désirée) dans ce cours.
 
-Il n\'y a pas de réponse « juste » ou « fausse » ; nous ne nous intéressons qu\'à votre opinion. Soyez assuré que vos réponses seront traitées avec le maximum de confidentialité, et qu\'elles n\'auront aucune influence sur votre note finale.
+Il n\'y a pas de réponse « juste » ou « fausse » ; nous ne nous intéressons qu\'à votre opinion. Soyez assuré que vos réponses seront traitées avec le maximum de confidentialité, et qu\'elles n\'auront aucune influence sur votre note finale.
 
 Vos réponses soigneusement réfléchies nous aideront à améliorer la façon de présenter ce cours.
 
@@ -176,7 +176,7 @@ $string['downloadtext'] = 'Télécharger les données dans un format texte';
 $string['editingasurvey'] = 'Modifier une consultation';
 $string['guestsnotallowed'] = 'Les invités ne peuvent pas participer à des consultations';
 $string['helpsurveys'] = 'Aide sur les différents types de consultation';
-$string['howlong'] = 'Combien de temps avez-vous mis pour répondre à cette consultation ?';
+$string['howlong'] = 'Combien de temps avez-vous mis pour répondre à cette consultation ?';
 $string['howlongoptions'] = 'Moins d\'1 min,1-2 min,2-3 min,3-4 min,4-5 min,5-10 min,Plus de 10 min';
 $string['ifoundthat'] = 'J\'ai trouvé que';
 $string['introtext'] = 'Texte d\'introduction';
@@ -190,7 +190,7 @@ $string['newsurveyresponses'] = 'Nouvelles réponses à une consultation';
 $string['nobodyyet'] = 'Personne n\'a encore répondu à cette consultation';
 $string['notdone'] = 'Pas encore répondu';
 $string['notes'] = 'Votre analyse et vos remarques personnelles';
-$string['othercomments'] = 'Avez-vous d\'autres commentaires à faire ?';
+$string['othercomments'] = 'Avez-vous d\'autres commentaires à faire ?';
 $string['peoplecompleted'] = '$a autres personnes ont pour l\'instant répondu à cette consultation';
 $string['preferred'] = 'Préféré';
 $string['preferredclass'] = 'Classe préférée';

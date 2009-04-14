@@ -2,10 +2,10 @@
 
 $string['enrolname'] = 'Fichier plat';
 
-$string['description'] = 'Cette méthode permet une vérification systématique à partir d\'un fichier texte spécialement mis en forme disposé à un emplacement que vous choisissez. Le fichier est en format CSV (séparateurs virgules) avec 4 ou 6 champs par ligne, à savoir :
+$string['description'] = 'Cette méthode permet une vérification systématique à partir d\'un fichier texte spécialement mis en forme disposé à un emplacement que vous choisissez. Le fichier est en format CSV (séparateurs virgules) avec 4 ou 6 champs par ligne, à savoir :
 <pre>
 *  opération, rôle, ID (utilisateur), ID (cours) [, début, fin]
-où :
+où :
 *  opération        = add | del
 *  rôle             = student | teacher | teacheredit
 *  ID (utilisateur) = champ idnumber de l\'utilisateur dans la table « user » (PAS le champ id)
