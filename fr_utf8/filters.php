@@ -21,6 +21,7 @@ $string['datelabelisbetween'] = '$a->label est entre $a->after et $a->before';
 $string['disabled'] = 'Désactivé';
 $string['doesnotcontain'] = 'ne contient pas';
 $string['endswith'] = 'se termine par';
+$string['filterallwarning'] = 'L\'application des filtres aux titres et au contenu peut augmenter considérablement la charge sur votre serveur. Veuillez utiliser ce réglage « Appliquer à » avec parcimonie. Il est habituellement utilisé en combinaison avec le filtre multilingue.';
 $string['firstaccess'] = 'Premier accès';
 $string['globalrolelabel'] = '$a->label est $a->value';
 $string['isactive'] = 'Actif ?';
