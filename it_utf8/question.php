@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090302) (2009021800)
+      // question.php - created with Moodle 2.0 dev (Build: 20090328) (2009032001)
 
 
 $string['adminreport'] = 'Report su possibili problemi nel tuo database di domande.';
@@ -11,7 +11,7 @@ $string['cannotcreate'] = 'Impossibile creare un nuovo elemento nella tabella de
 $string['cannotcreatedataset'] = 'Impossibile creare il dataset $a';
 $string['cannotcreatepath'] = 'Impossibile creare il path: $a';
 $string['cannotcreaterelation'] = 'Impossibile creare la relazione al dataset $a[0] $a[1]';
-$string['cannotdeletecate'] = 'Impossibile cancellare la categoria in quanto è quella default per questo contesto.';
+$string['cannotdeletecate'] = 'Impossibile elimiare la categoria in quanto è quella default per questo contesto.';
 $string['cannotenable'] = 'Il tipo di domanda $a non può essere creato diretamente.';
 $string['cannotfindcate'] = 'Non è stato possibile trovare nessun record di categoria';
 $string['cannotfindquestionfile'] = 'Non è stato possibile trovare nessuna domanda nel file zip';
@@ -48,8 +48,8 @@ $string['categorydoesnotexist'] = 'Questa categoria non esiste';
 $string['categorymoveto'] = 'Salva nella Categoria';
 $string['changepublishstatuscat'] = '<a href=\"$a->caturl\">La categoria \"$a->name\"</a> nel corso \"$a->coursename\" avrà il suo stato di condivisione cambiato da <strong>$a->changefrom a $a->changeto</strong>.';
 $string['chooseqtypetoadd'] = 'Scegli un tipo di domanda da aggiungere';
-$string['clicktoflag'] = 'Clicca per marcare questa domanda';
-$string['clicktounflag'] = 'Clicca per smarcare questa domanda';
+$string['clicktoflag'] = 'Clicca per contrassegnare questa domanda';
+$string['clicktounflag'] = 'Clicca qui per non contrassegnare questa domanda';
 $string['contexterror'] = 'Non dovresti essere qui se non stai spostando una categoria in un altro contesto.';
 $string['copy'] = 'Copia da $a e cambia i link.';
 $string['created'] = 'Creazione';
@@ -62,7 +62,7 @@ $string['cwrqpfsinfo'] = '<p>Nell\'aggiornamento a Moodle 1.9 separeremo le cate
 $string['cwrqpfsnoprob'] = 'Nessuna categoria del tuo sito è affetta dal problema \'Domande a caso che pescano domande da sotto-categorie\'.';
 $string['defaultfor'] = 'Default per $a';
 $string['defaultinfofor'] = 'La categoria default per le domande condivise nel contesto \'$a\'.';
-$string['deletecoursecategorywithquestions'] = 'Ci sono domande nel deposito delle domande associate con questa categoria di corso. Se procedi, queste saranno cancellate. Puoi comunque spostarle prima, usando l\'interfaccia del deposito delle domande.';
+$string['deletecoursecategorywithquestions'] = 'Ci sono domande nel deposito delle domande associate con questa categoria di corso. Se procedi, queste saranno eliminate. Puoi comunque spostarle prima, usando l\'interfaccia del deposito delle domande.';
 $string['disabled'] = 'Disabilitato';
 $string['disterror'] = 'La distribuzione $a ha causato problemi';
 $string['donothing'] = 'Non copiare o spostare files o cambiare links.';
@@ -71,7 +71,7 @@ $string['editingquestion'] = 'Modifica una domanda';
 $string['emptyxml'] = 'Errore sconosciuto - file imsmanifest.xml vuoto';
 $string['enabled'] = 'Abilitato';
 $string['erroraccessingcontext'] = 'Il contesto non può essere acceduto';
-$string['errordeletingquestionsfromcategory'] = 'Errore nella cancellazione di domande dalla categoria $a.';
+$string['errordeletingquestionsfromcategory'] = 'Errore durante l\'eliminazione di domande dalla categoria $a.';
 $string['errorduringpost'] = 'Si è verificato un errore durante la post-elaborazione!';
 $string['errorduringpre'] = 'Si è verificato un errore durante la pre-elaborazione!';
 $string['errorduringproc'] = 'Si è verificato un errore durante l\'elaborazione!';
@@ -92,8 +92,9 @@ $string['exporterror'] = 'Si è verificato un errore durante l\'esportazione!';
 $string['filesareacourse'] = 'area files del corso';
 $string['filesareasite'] = 'area files del sito';
 $string['filestomove'] = 'Sposta / copia i file a $a?';
-$string['flagthisquestion'] = 'Marca questa domanda';
-$string['fractionsnomax'] = 'Una delle risposte dovrebbe avere un punteggio del 100%% perché sia possibile ottenere un voto pieno per questa domanda.';
+$string['flagged'] = 'Contrassegnata';
+$string['flagthisquestion'] = 'Contrassegna questa domanda';
+$string['fractionsnomax'] = 'Una delle risposte dovrebbe avere un punteggio del 100% affinché sia possibile ottenere un voto pieno per questa domanda.';
 $string['getcategoryfromfile'] = 'Categoria da file';
 $string['getcontextfromfile'] = 'Contesto da file';
 $string['ignorebroken'] = 'Ignora link interrotti';
@@ -132,6 +133,7 @@ $string['nopermissionmove'] = 'Non sei autorizzato a spostare domande da qui. Pu
 $string['noprobs'] = 'Non trovato alcun problema nel tuo database delle domande.';
 $string['notenoughdatatoeditaquestion'] = 'Non è stato specificato un id di domanda, o un id di categoria e il tipo domanda.';
 $string['notenoughdatatomovequestions'] = 'Devi fornire l\'ID delle domande che vuoi spostare.';
+$string['notflagged'] = 'Non contrassegnata';
 $string['parenthesisinproperclose'] = 'La parentesi prima di ** non è chiusa correttamente in $a**';
 $string['parenthesisinproperstart'] = 'La parentesi prima di ** non è aperta correttamente in $a**';
 $string['permissionedit'] = 'Modificare questa domanda';
@@ -149,9 +151,10 @@ $string['questionname'] = 'Nome della domanda';
 $string['questionsaveerror'] = 'Si sono verificati errori durante il salvataggio della domanda - ($a)';
 $string['questionsmovedto'] = 'Domande ancora in uso spostate a \"$a\" nella categoria superiore di corso.';
 $string['questionsrescuedfrom'] = 'Domande salvate dal contesto $a.';
-$string['questionsrescuedfrominfo'] = 'Queste domande (alcune delle quali possono essere nascoste) sono state salvate quando il contesto $a è stato cancellato, perché sono ancora utilizzate da qualche quiz o da altre attività.';
+$string['questionsrescuedfrominfo'] = 'Queste domande (alcune delle quali possono essere nascoste) sono state salvate quando il contesto $a è stato eliminato, in quanto sono ancora utilizzate da qualche quiz o da altre attività.';
 $string['questiontype'] = 'Tipo di domanda';
 $string['questionuse'] = 'Usa domanda in questa attività';
+$string['saveflags'] = 'Salva lo stato dei contrassegni';
 $string['selectacategory'] = 'Scegli una categoria:';
 $string['selectaqtypefordescription'] = 'Scegli un tipo di domanda per vederne la descrizione.';
 $string['selectquestionsforbulk'] = 'Seleziona le domande per azioni su elenchi';
