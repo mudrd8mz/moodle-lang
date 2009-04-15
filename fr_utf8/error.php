@@ -230,6 +230,7 @@ $string['fieldrequired'] = 'Le champ « {$a} » est obligatoire';
 $string['filemismatch'] = 'Un nom de fichier ne correspond pas. Le fichier « {$a->current} » devrait être $a->file';
 $string['filenotfound'] = 'Le fichier demandé n\'a pas été trouvé';
 $string['filenotreadable'] = 'Le fichier n\'est pas accessible en écriture';
+$string['filterdoesnothavelocalconfig'] = 'Le filtre $a ne permet pas de configuration locale.';
 $string['filternotactive'] = 'Le filtre $a n\'est actuellement pas actif';
 $string['filternotinstalled'] = 'Le filtre $a n\'est actuellement pas installé';
 $string['forumblockingtoomanyposts'] = 'Vous avez dépassé le maximum de messages fixé pour ce forum';
