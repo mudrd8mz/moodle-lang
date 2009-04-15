@@ -1,10 +1,24 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.8 + (2007021502)
+      // admin.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
+$string['accessdenied'] = 'Отказано в доступе';
 $string['accounts'] = 'Учетные записи';
+$string['adminseesall'] = 'Администратор может видеть все';
+$string['adminseesallevents'] = 'Администратор может видеть все события';
+$string['allowcategorythemes'] = 'Разрешены темы категории';
+$string['allowcoursethemes'] = 'Разрешены темы курса';
+$string['allowdeletes'] = 'Разрешено удаление';
+$string['allowemailaddresses'] = 'Разрешенные почтовые домены';
+$string['allowobjectembed'] = 'Разрешить теги EMBED и OBJECT';
+$string['allowrenames'] = 'Разрешить переименования';
+$string['allowuserblockhiding'] = 'Разрешить пользователю скрывать блоки';
+$string['allowusermailcharset'] = 'Разрешить пользователю выбирать кодировку';
+$string['allowuserthemes'] = 'Разрешить пользовательские темы';
+$string['allowvisiblecoursesinhiddencategories'] = 'Разрешить видимые курсы в скрытых категориях';
 $string['antivirus'] = 'Антивирус';
 $string['appearance'] = 'Внешний вид';
+$string['aspellpath'] = 'Путь к aspell';
 $string['authentication'] = 'Аутентификация';
 $string['backups'] = 'Резервные копии';
 $string['bookmarkdeleted'] = 'Закладка удалена.';
@@ -97,7 +111,6 @@ $string['security'] = 'Безопасность';
 $string['server'] = 'Сервер';
 $string['sessionhandling'] = 'Обработка сессий';
 $string['simpletest'] = 'Модульное тестирование';
-$string['sitemaintenance'] = 'Сайт временно недоступен из-за проведения технических работ';
 $string['sitemaintenancemode'] = 'Режим технического обслуживания';
 $string['sitepolicies'] = 'Политики сайта';
 $string['stats'] = 'Статистика';

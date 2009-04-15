@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.8.2+ (2007021520)
+      // access.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['access'] = 'Доступность';
@@ -13,7 +13,7 @@ $string['currenttopic'] = 'Текущая тема';
 $string['currentweek'] = 'Текущая неделя';
 $string['monthnext'] = 'Следующий месяц';
 $string['monthprev'] = 'Предыдущий месяц';
-$string['showhideblock'] = 'Показать или убрать блок';
+$string['showblocka'] = 'Показать блок $a';
 $string['sitemap'] = 'Карта сайта';
 $string['skipa'] = 'Пропустить $a';
 $string['skipblock'] = 'Пропустить блок';
@@ -23,5 +23,6 @@ $string['tablelayout'] = 'Раскладка таблицы';
 $string['tocontent'] = 'К основному содержимому';
 $string['tonavigation'] = 'К навигатору';
 $string['youarehere'] = 'Вы здесь';
+$string['showhideblock'] = 'Показать или убрать блок'; // ORPHANED
 
 ?>
