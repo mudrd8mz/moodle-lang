@@ -104,6 +104,7 @@ $string['configcronclionly'] = 'Lorsque ce réglage est activé, le script de cr
 $string['configcronremotepassword'] = 'Si un mot de passe est spécifié dans ce champ, le script de cron ne pourra être lancé depuis un navigateur web qu\'en fournissant ce mot de passe, suivant la syntaxe d\'URL :<pre>
 http://site.exemple.fr/admin/cron.php?password=lemotdepasse
 </pre>Si le champ n\'est pas renseigné, aucun mot de passe n\'est nécessaire.';
+$string['configcurlcache'] = 'Durée de vie du cache cURL, en secondes.';
 $string['configdbsessions'] = 'Enregistrer les informations sur les sessions en cours dans la base de données. Ce réglage est surtout utile pour les sites avec de nombreux utilisateurs ou ceux qui sont construits sur des clusters de serveurs. La plupart des sites peuvent laisser cette option désactivée, et ces informations seront stockées sur le disque du serveur. Attention ! si vous changez ce réglage, tous les utilisateurs seront immédiatement déconnectés, vous y compris ! Si vous utilisez une base de données MySQL, assurez-vous que la variable « max_allowed_packet » dans <em>my.cnf</em> (ou <em>my.ini</em>) ait au moins une valeur de 4M.';
 $string['configdebug'] = 'Si vous activez cette option, le paramètre PHP « error_reporting » sera augmenté afin que les avertissements soient affichés. Ceci est utile essentiellement pour les développeurs.';
 $string['configdebugdisplay'] = 'Une fois ce réglage activé, les rapports d\'erreur seront affichés sur la page HTML. C\'est pratique, mais cela rend non conforme le XHTML, le JS, les cookies et les entêtes HTTP en général. Si le réglage est désactivé, les rapports sont écrits dans les historiques du serveur, permettant un meilleur débogage. Le réglage error_log de PHP contrôle dans quel fichier les rapports sont écrits.';
@@ -309,6 +310,7 @@ $string['cronwarning2'] = 'Le <a href=\"cron.php\">script de maintenance cron.ph
 $string['csvdelimiter'] = 'Séparateur CSV';
 $string['ctyperecommended'] = 'L\'installation de l\'extension optionnelle ctype de PHP est vivement recommandée afin d\'améliorer les performances du site, en particulier si votre site utilise des caractères non-latins.';
 $string['ctyperequired'] = 'L\'installation de l\'extension ctype de PHP est maintenant requise par Moodle, afin d\'améliorer les performances du site et d\'offrir compatibilité multilingue.';
+$string['curlcache'] = 'Durée du cache cURL';
 $string['curlrecommended'] = 'L\'installation de l\'extension optionnelle cURL de PHP est vivement recommandée afin de pouvoir utiliser la fonctionnalité Réseau Moodle.';
 $string['curlrequired'] = 'L\'installation de l\'extension cURL de PHP est maintenant requise par Moodle, afin de pouvoir communiquer avec les dépôts de documents de Moodle.';
 $string['customcheck'] = 'Autres contrôles';
