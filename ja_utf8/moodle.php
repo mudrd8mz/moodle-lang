@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090411) (2009040100)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -247,7 +247,7 @@ $string['complete'] = '詳細';
 $string['completereport'] = '詳細レポート';
 $string['configuration'] = '設定';
 $string['confirm'] = '確認';
-$string['confirmcheckfull'] = '本当に $ を承認してもよろしいですか?';
+$string['confirmcheckfull'] = '本当に $a を承認してもよろしいですか?';
 $string['confirmed'] = '登録が完了しました。';
 $string['confirmednot'] = '登録はまだ完了していません！';
 $string['continue'] = '続ける';
