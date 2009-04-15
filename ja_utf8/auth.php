@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
 
 
 $string['CASform'] = '認証選択';
@@ -341,7 +341,7 @@ $string['internal'] = '内部';
 $string['locked'] = 'ロックする';
 $string['md5'] = 'MD5暗号化';
 $string['nopasswordchange'] = 'パスワードを変更することはできません。';
-$string['nopasswordchangeforced'] = 'あなたのパスワードを変更せずに次へ進むことはできませんが、パスワード変更のページが利用できない状態です。あなたのMoodle管理者にご連絡ください。';
+$string['nopasswordchangeforced'] = 'あなたは、パスワードを変更せずに次へ進むことはできません。しかし、パスワードを変更するため利用できるページがありません。あなたのMoodle管理者にご連絡ください。';
 $string['ntlmsso_attempting'] = 'NTLM経由でシングルサインオン実行中 ...';
 $string['ntlmsso_failed'] = '自動ログインに失敗しました、通常のログインページへ移動 ...';
 $string['ntlmsso_isdisabled'] = 'NTLM SSOは無効にされています。';
