@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090305) (2009030501)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -31,6 +31,7 @@ $string['copying'] = '복사 중';
 $string['create'] = '생성';
 $string['createinstance'] = '인스턴스 생성';
 $string['createrepository'] = '저장소 만들기';
+$string['createxxinstance'] = '\"$a\" 인스턴스 생성';
 $string['date'] = '날짜';
 $string['deleted'] = '저장소 삭제됨';
 $string['deleterepository'] = '저장소 삭제';

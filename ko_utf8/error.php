@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // error.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
 
 
 $string['TODO'] = '실행목록';
@@ -41,6 +41,7 @@ $string['cannotcreatesitedir'] = '사이트의 경로 생성 실패. 사이트 �
 $string['cannotcreatetempdir'] = 'temp 디렉토리를 만들 수 없습니다.';
 $string['cannotcreateuploaddir'] = '올릴 경로를 생성할 수 없음. 사이트 관리자가 허가권을 조정하여야 함';
 $string['cannotcreateuser'] = '사용자 기록 생성 오류';
+$string['cannotcustomisefiltersblockuser'] = '사용자 혹은 블록 영역의 필터 설정을 변경할 수 없습니다.';
 $string['cannotcustomizelocallang'] = '맞춤 문자열을 변경할 수 있는 권한이 없습니다. 이 권한은 \"moodle/site:langeditlocal\"에 의해 설정됩니다. 만일 사이트 전체의 문자열을 변경하고 싶은 경우 이 기능을 조정하여 언어팩을 관리할 수 있게 해야 합니다.';
 $string['cannotdeletebackupids'] = '이전의 백업 id를 삭제할 수 없음';
 $string['cannotdeletecap'] = '잘못된 $a 권한을 삭제할 수 없음';
@@ -221,6 +222,7 @@ $string['fieldrequired'] = '\"$a\"는 필수 항목';
 $string['filemismatch'] = '파일명이 일치하지 않음. 파일 \"$a->current\" 는 $a->file가 되어야 함';
 $string['filenotfound'] = '요청한 파일을 찾을 수 없음';
 $string['filenotreadable'] = '파일을 읽을 수 없음';
+$string['filterdoesnothavelocalconfig'] = '$a 필터는 지역 설정이 허용되지 않습니다.';
 $string['filternotactive'] = '$a 필터가 활성화되어 있지 않음';
 $string['filternotinstalled'] = '$a 필터가 설치되어 있지 않음';
 $string['forumblockingtoomanyposts'] = '이 포럼의 지정 게시한계 초과';
@@ -342,6 +344,7 @@ $string['nocontext'] = '죄송하지만, 그 강좌는 제대로된 컨텍스트
 $string['nodata'] = '자료없음';
 $string['noexistingcategory'] = '범주가 존재하지 않음';
 $string['nofile'] = '파일이 지정되지 않음';
+$string['nofiltersenabled'] = '어떤 필터도 활성화되어 있지 않음';
 $string['nofolder'] = '요청한 경로 없음';
 $string['noformdesc'] = '이 활동에 대한 formslib 양식 설명서가 존재하지 않음';
 $string['noguest'] = '손님은 안됩니다!';

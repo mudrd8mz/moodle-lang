@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // role.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
 
 
 $string['addinganewrole'] = '역할 추가하기';
@@ -105,6 +105,7 @@ $string['explainpermissionsinfo'] = '<p>표 사용법</p><ol><li>우선 어떠�
 $string['explanation'] = '설명';
 $string['extusers'] = '기존 사용자들';
 $string['extusersmatching'] = '\'$a\' 와 일치하는 기존 사용자';
+$string['filter:manage'] = '필터설정 관리';
 $string['globalrole'] = '총괄 역할';
 $string['globalroleswarning'] = '경고! 이 화면에서 사용자에게 부여한 역할은 초기화면에서 뿐만 아니라 이 사이트 전체의 강좌에 적용됩니다.';
 $string['gotoassignroles'] = '$a->contextlevel 영역 역할 부여 화면으로 가기';
