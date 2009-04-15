@@ -97,6 +97,7 @@ $string['security'] = 'Безопасность';
 $string['server'] = 'Сервер';
 $string['sessionhandling'] = 'Обработка сессий';
 $string['simpletest'] = 'Модульное тестирование';
+$string['sitemaintenance'] = 'Сайт временно недоступен из-за проведения технических работ';
 $string['sitemaintenancemode'] = 'Режим технического обслуживания';
 $string['sitepolicies'] = 'Политики сайта';
 $string['stats'] = 'Статистика';
