@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
 
 
 $string['action'] = '-- アクション --';
@@ -183,7 +183,7 @@ $string['uplerror'] = '申し訳ございません、ファイルのアップロ
 $string['uplinsect'] = 'アップロード先';
 $string['uplnewnam'] = '別名で保存する';
 $string['upload0'] = '任意のバイナリファイルをwikiにアップロードする場合は、このフォームを使用してください。';
-$string['uploadedon'] = 'アップロード先';
+$string['uploadedon'] = 'アップロード日時';
 $string['uploaderror'] = '$a のアップロード中にエラーが発生しました。';
 $string['uploadpicturebutton'] = 'アップロード';
 $string['uplok'] = 'ファイルが正常にアップロードされました。';
