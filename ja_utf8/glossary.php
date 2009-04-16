@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -26,10 +26,8 @@ $string['authorview'] = '著者順';
 $string['back'] = '戻る';
 $string['cantexportentry'] = 'エントリをメイン用語集にエクスポートできませんでした。';
 $string['cantinsertcat'] = 'カテゴリを追加できません。';
-$string['cantinsertent'] = '新しいエントリを追加できませんでした。';
 $string['cantinsertrec'] = 'レコードを追加できません。';
 $string['cantinsertrel'] = '関連カテゴリエントリを追加できません。';
-$string['cantupdateglossary'] = 'あなたの用語集を更新できませんでした。';
 $string['casesensitive'] = '大文字小文字を区別する';
 $string['cat'] = 'カテゴリ';
 $string['categories'] = 'カテゴリ';
@@ -213,5 +211,7 @@ $string['withauthor'] = '用語 (著者有り)';
 $string['withoutauthor'] = '用語 (著者なし)';
 $string['writtenby'] = '作成';
 $string['youarenottheauthor'] = 'あなたはこのコメントの投稿者ではありません。コメントの編集は許可されません。';
+$string['cantinsertent'] = '新しいエントリを追加できませんでした。'; //TBD
+$string['cantupdateglossary'] = 'あなたの用語集を更新できませんでした。'; //TBD
 
 ?>

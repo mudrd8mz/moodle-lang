@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090413) (2009040600)
+      // error.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
 
 
 $string['TODO'] = 'TODO';
@@ -46,6 +46,8 @@ $string['cannotcustomizelocallang'] = 'あなたには翻訳ストリングを�
 $string['cannotdeletebackupids'] = '前回のバックアップIDを削除できませんでした。';
 $string['cannotdeletecap'] = '廃止予定のケイパビリティ $a を削除できませんでした。';
 $string['cannotdeletecate'] = 'カテゴリの削除中にエラーが発生しました。';
+$string['cannotdeletecategorycourse'] = 'コース「 $a 」の削除に失敗しました。';
+$string['cannotdeletecategoryquestions'] = 'カテゴリ「 $a 」から問題を削除できませんでした。';
 $string['cannotdeletecourse'] = 'あなたには、このコースを削除するパーミッションがありません。';
 $string['cannotdeletecustomfield'] = 'カスタムフィールドデータの削除中にエラーが発生しました。';
 $string['cannotdeletedir'] = '$a を削除できませんでした。';
