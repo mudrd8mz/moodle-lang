@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
+      // error.php - created with Moodle 2.0 dev (Build: 20090417) (2009040601)
 
 
 $string['TODO'] = 'TODO';
@@ -46,6 +46,8 @@ $string['cannotcustomizelocallang'] = 'Non siete autorizzati a personalizzare  l
 $string['cannotdeletebackupids'] = 'Non è stato possibile eliminare le id dei backup precedenti';
 $string['cannotdeletecap'] = 'Non è stato possibile eliminare il privilegio deprecato $a';
 $string['cannotdeletecate'] = 'Si è verificato un errore durante l\'eliminazione della categoria';
+$string['cannotdeletecategorycourse'] = 'Non è stato possibile eliminare il corso \'$a\'';
+$string['cannotdeletecategoryquestions'] = 'Non è stato possibile eliminare le domande dalla categoria \'$a\'';
 $string['cannotdeletecourse'] = 'Non avete il privilegio per eliminare questo corso';
 $string['cannotdeletecustomfield'] = 'Si è verificato un errore durante l\'eliminazione dei campi personalizzati';
 $string['cannotdeletedir'] = 'Non è possibile eliminare ($a)';
