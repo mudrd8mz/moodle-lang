@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20090328) (2009032001)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20090416) (2009040601)
 
 
 $string['analysis'] = 'Analisi';
@@ -25,11 +25,11 @@ $string['qnametitle'] = 'Nome domanda';
 $string['qtexttitle'] = 'Testo domanda';
 $string['qtypetitle'] = 'Tipo dom.';
 $string['quizreportdir'] = 'risultati_quiz';
-$string['rcounttitle'] = 'Num.<br />risposte giuste';
+$string['rcounttitle'] = 'Num.<br />risposte';
 $string['reportanalysis'] = 'Analisi dei risultati';
 $string['responsestitle'] = 'Testo risposta';
 $string['rfractiontitle'] = 'Credito<br />parziale';
-$string['rpercenttitle'] = '%%<br />risposte giuste';
+$string['rpercenttitle'] = '%%<br />risposte';
 $string['stddevtitle'] = 'Deviaz.<br />standard';
 
 ?>
