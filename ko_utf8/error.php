@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
+      // error.php - created with Moodle 2.0 dev (Build: 20090418) (2009041700)
 
 
 $string['TODO'] = '실행목록';
@@ -46,6 +46,8 @@ $string['cannotcustomizelocallang'] = '맞춤 문자열을 변경할 수 있는 
 $string['cannotdeletebackupids'] = '이전의 백업 id를 삭제할 수 없음';
 $string['cannotdeletecap'] = '잘못된 $a 권한을 삭제할 수 없음';
 $string['cannotdeletecate'] = '범주 삭제 중 오류';
+$string['cannotdeletecategorycourse'] = '\'$a\' 강좌 삭제 실패';
+$string['cannotdeletecategoryquestions'] = '\'$a\' 범주에서 문항을 삭제할 수 없음';
 $string['cannotdeletecourse'] = '강좌 삭제 권한이 없음';
 $string['cannotdeletecustomfield'] = '추가 사항 삭제 오류';
 $string['cannotdeletedir'] = '삭제할 수 없음 ($a)';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // condition.php - created with Moodle 2.0 dev (Build: 20090117) (2009011600)
+      // condition.php - created with Moodle 2.0 dev (Build: 20090418) (2009041700)
 
 
 $string['addcompletions'] = '양식에 활동 조건 추가';
@@ -28,6 +28,7 @@ $string['requires_completion_2'] = '<strong>$a</strong> 활동을 통과점수�
 $string['requires_completion_3'] = '<strong>$a</strong> 활동을 낙제점수로 완료하기 전까지 이용할 수 없음';
 $string['requires_date'] = '$a 까지 이용할 수 없음';
 $string['requires_date_before'] = '$a 부터는 이용할 수 없음';
+$string['requires_date_both'] = '$a->from 부터 $a->until 까지 가능';
 $string['requires_grade_any'] = '<strong>$a</strong>에서 평점을 얻을 때까지 이용할 수 없음';
 $string['requires_grade_max'] = '<strong>$a</strong>에서 적정 점수를 얻지 못하는 한, 이용할 수 없음';
 $string['requires_grade_min'] = '<strong>$a</strong>에서 요구된 최소 점수을 얻을 때까지 이용할 수 없음';
