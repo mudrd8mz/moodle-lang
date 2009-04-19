@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090418) (2009041700)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -51,6 +51,7 @@ $string['calendar_weekend'] = '주말';
 $string['calendarexportsalt'] = '일정표 내보내기 암호';
 $string['calendarsettings'] = '일정표';
 $string['cannotdeletemissingqtype'] = '없는 문제 유형은 삭제할 수 없습니다.';
+$string['cannotdeletemodfilter'] = '\'$a->filter\' 는 \'$a->module\' 모듈의 일부분이므로 제거할 수 없습니다.';
 $string['cannotdeleteqtypeinuse'] = '\'$a\' 문제 유형은 삭제할 수 없습니다. 문제 은행에 이 형식의 문제들이 있습니다.';
 $string['cannotdeleteqtypeneeded'] = '\'$a\' 문제 유형은 삭제할 수 없습니다. 이와 관련된 다른 문제 유형들이 설치되어 있습니다.';
 $string['cfgwwwrootslashwarning'] = 'config.php의 &#36;CFG->wwwroot 를 잘못 지정하였습니다. 마지막에\'/\' 문자가 들어있습니다. 이 문자를 제거하지 않으면 <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a> 과 같은 버그가 발생할 것입니다.';
@@ -62,6 +63,7 @@ $string['checkboxyes'] = '예';
 $string['choosefiletoedit'] = '편집할 파일 선택';
 $string['clamfailureonupload'] = '바이러스 검역 실패';
 $string['cleanup'] = '정리';
+$string['commonfiltersettings'] = '공용 필터 설정';
 $string['commonsettings'] = '일반 설정';
 $string['componentinstalled'] = '구성요소가 설치되었음';
 $string['computedfromlogs'] = '$a 이후 기록에서 계산됨';
@@ -102,6 +104,7 @@ $string['configcreatornewroleid'] = '강좌를 생성한 사람에게 자동적�
 $string['configcronclionly'] = '이것이 설정되면 크론 스크립트는 웹 대신 명령어 줄에서만 실행될 수 있다. 이것은 아래의 크론 암호설정과 연관되어 있다.';
 $string['configcronremotepassword'] = '이것은 cron.php가 아래와 같이 URL에서 제공하는 양식을 이용하여 암호가 제공되지 않으면 웹에서 구동될 수 없다는 것을 의미한다.<pre> http://site.example.com/admin/cron.php?password=opensesame
  </pre> 여기를 비워놓으면 암호를 요구하지 않는다.';
+$string['configcurlcache'] = 'cURL 잔존 시간, 초단위';
 $string['configdbsessions'] = '이를 켜 놓으면, 현재 세션 정보를 저장하기 위해서 데이테베이스를 이용할 것이다. 이는 특히 큰 사이트나 많은 서버로 구성된 사이트에서 유용하게 쓰일 수 있다. 대부분 사이트에서는 이를 막아 놓고 서버 디스크에 세션 정보를 기록하도록 한다. 만일 지금 이 옵션을 바꾸게 되면, 당신을 포함한 현재 접속된 모든 이용자의 접속이 끊어져 로그아웃될 것이다. 그리고 MySQL을 사용한다면 my.cnf에 있는 \'max_allowed_packet\'을 최소 4M이상인지를 확인하라.';
 $string['configdebug'] = '이것을 \"예\"로 두면 지속적인 경고를 위해서 PHP 오류 보고가 증가할 것이다. 개발자에게나 유용한 기능이다.';
 $string['configdebugdisplay'] = '이것을 켜두면 오류보고가 HTML문서로 보여진다. 대체로 실용적이기는 하지만 XHTML, JS, 쿠키 및 HTTP 헤더를 깨지게 한다. 이를 꺼 두면 오류보고는 추후에 디버그 할 수 있도록 서버에 기록으로 남는다. PHP의 error_log로 기록위치를 설정할 수 있다.';
@@ -184,6 +187,7 @@ $string['configlongtimenosee'] = '만약 학생들이 오랜 기간 로그인을
 $string['configlookahead'] = '행사 미리 게시할 날';
 $string['configmailnewline'] = '개행문자가 메일 내용에 사용되었습니다. RFC 822bis에 따라 CRLF가 필요합니다. 어떤 메일서버는 LF를 CRLF로 자동변환하는 반면 어떤 서버는 CRLF를 CRCRLF로 잘 못 변환하고, 어떤 메일서버(예를 들어 qmail)는 LF만 있는 메일을 거부합니다 배달되지 않는 메일이 있거나 이중 개행문자가 있는 경우 이 설정을 변경해 보십시요.';
 $string['configmaxbytes'] = '이것은 사이트전체에 걸쳐 올릴 수 있는 파일의 최대 크기를 규정한다. 이 설정은 PHP의 설정변수인  upload_max_filesize와 Apache의 설정변수인  LimitRequestBody에 의해 제한 받게 된다. 또 결국 이 값은 무들 내 각 강좌나 모듈에서 지정할 수 있는 범위를 제한하게 된다.';
+$string['configmaxconsecutiveidentchars'] = '최대 연속된 동일 문자 점검. 점검하지 않으려면 0을 사용';
 $string['configmaxeditingtime'] = '이것은 이용자들이 게시한 여러 내용들을 수정할 수 있는 시간여유를 규정한다.
 일반적으로 30분이 적당하다.';
 $string['configmaxevents'] = '보일 최대 행사';
@@ -313,6 +317,7 @@ $string['cronwarning'] = '<a href=\"cron.php\">cron.php 관리 스크립트</a>�
 $string['csvdelimiter'] = 'CSV 구분자';
 $string['ctyperecommended'] = '사이트가 비 라틴계열의 언어를 사용한다면 사이트의 성능 향상을 위해 추가적인 ctype PHP 확장자 설치를 강력히 권고합니다.';
 $string['ctyperequired'] = '다국어 호환 기능 및 사이트의 성능 향상을 위해 이제부터 무들은 ctype의 PHP 확장자를 요구합니다.';
+$string['curlcache'] = 'cURL cache TTL';
 $string['curlrecommended'] = '무들 네트웍 기능을 활성화하기 위해서는 추가적인 cURL 라이브러리를 설치할 것을 강력히 권고한다.';
 $string['curlrequired'] = '무들 저장소와 교신하기 위해서는 cURL 확장이 필요합니다.';
 $string['customcheck'] = '다른 점검들';
@@ -346,11 +351,15 @@ $string['defaultsettinginfo'] = '기본: $a';
 $string['defaultuserroleid'] = '이용자 기본 역할';
 $string['defaultvalues'] = '기본값';
 $string['deleteerrors'] = '오류 삭제';
+$string['deletefilterareyousure'] = '정말 \'$a\' 필터를 삭제하겠습니까?';
+$string['deletefilterareyousuremessage'] = '\'$a\' 필터를 완전히 삭제하려고 합니다. 정말로 제거하겠습니까?';
+$string['deletefilterfiles'] = '데이터베이스에서 \'$a->filter\' 필터와 관련된 모든 자료를 삭제했습니다. 완벽히 제거하기 위해서는(다시 설치되는 것 방지), 서버의 $a->directory 를 삭제해야만 합니다.';
 $string['deleteincompleteusers'] = '미설정 사용자 삭제 기한';
 $string['deleteqtypeareyousure'] = '정말 \'$a\' 문형을 삭제하겠습니까?';
 $string['deleteqtypeareyousuremessage'] = '지금  \'$a\' 문형을 완전히 삭제하라고 했습니다. 정말 이 문제 유형을 완전히 제거하겠습니까?';
 $string['deleteunconfirmed'] = '인증 유예 기간';
 $string['deleteuser'] = '이용자 삭제';
+$string['deletingfilter'] = '\'$a\' 필터 삭제';
 $string['deletingqtype'] = '\'$a\' 문제 유형 삭제';
 $string['density'] = '밀도';
 $string['denyemailaddresses'] = '거부할 이메일 도메인';
@@ -427,6 +436,7 @@ $string['filestoredinhelp'] = '파일이 저장될 곳';
 $string['filterall'] = '모든 문자열을 필터링';
 $string['filtermatchoneperpage'] = '한 화면에 한 번만 필터 적용';
 $string['filtermatchonepertext'] = '한 텍스트에 한 번만 필터 적용';
+$string['filters'] = '필터';
 $string['filtersettings'] = '필터 설정';
 $string['filtersettingsgeneral'] = '일반적인 필터 설정';
 $string['filteruploadedfiles'] = '업로드된 파일 필터링';
@@ -437,6 +447,7 @@ $string['framename'] = '프레임 이름';
 $string['frontpage'] = '초기화면';
 $string['frontpagebackup'] = '초기화면 백업';
 $string['frontpagedefaultrole'] = '기본 초기화면 역할';
+$string['frontpagefilters'] = '초기화면 필터';
 $string['frontpageloggedin'] = '로그인 후 초기화면 항목';
 $string['frontpageoverrides'] = '초기화면 권한 재설정';
 $string['frontpagequestions'] = '초기화면 퀴즈';
@@ -545,6 +556,7 @@ $string['managelang'] = '<b>언어팩 관리</b>';
 $string['manageqtypes'] = '문제 유형 관리';
 $string['managews'] = '웹서비스 관리';
 $string['maxbytes'] = '올릴 파일의 최대 크기';
+$string['maxconsecutiveidentchars'] = '최대 연속 동일문자';
 $string['maxeditingtime'] = '게시물 수정 최대 시한';
 $string['mbstringrecommended'] = '당신의 사이트가 라틴언어계열이 아닌 언어를 지원하는 경우, 사이트의 성능을 향상시키기 위해서 MBSTRING 라이브러리 설치를 권장합니다.';
 $string['mediapluginavi'] = 'avi 필터 사용';
@@ -734,6 +746,7 @@ $string['roleswithexceptions'] = '$a->roles, 및 $a->exceptions';
 $string['rowpreviewnum'] = '미리보기 열';
 $string['rssglobaldisabled'] = '서버 수준에서 비활성화';
 $string['runclamavonupload'] = '파일검역에 clam AV 사용';
+$string['save'] = '저장';
 $string['savechanges'] = '변경사항 저장';
 $string['search'] = '검색';
 $string['searchinsettings'] = '설정 검색';
