@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090215) (2009012901)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090418) (2009041700)
 
 
 $string['CASform'] = '인증 선택';
@@ -281,13 +281,23 @@ $string['auth_remove_keep'] = '내부적으로 유지';
 $string['auth_remove_suspend'] = '내부적으로 유보';
 $string['auth_remove_user'] = '외부 자원으로부터 사용자가 제거될 때 동기화 과정에서 어떻게 처리할지를 지정. 유보된 사용자만이 외부 자원에 다시 등장할 때 자동적으로 되살릴 수 있다.';
 $string['auth_remove_user_key'] = '제거된 외부 사용자';
+$string['auth_shib_auth_method'] = 'Shibboleth 인증 명칭';
+$string['auth_shib_auth_method_description'] = '사용자들이 익숙하게 쓸 수 있는 Shibboleth 인증 명칭을 제시. 이는 <tt>SWITCHaai Login</tt> 혹은 <tt>InCommon Login</tt>처럼 여러분의 Shibboleth 연맹의 명칭으로 여겨집니다.';
 $string['auth_shib_changepasswordurl'] = '암호 변경 URL';
 $string['auth_shib_convert_data'] = '자료 변경 API';
 $string['auth_shib_convert_data_description'] = '추후 암호에 의해 제공된 데이터를 변경하기 위해 이 API를 사용할 수 있다. 좀 더 많은 규정을 위해
 <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> 을 읽어보라.';
 $string['auth_shib_convert_data_warning'] = '파일이 존재하지 않거나 서버가 파일을 읽을 수 없습니다!';
+$string['auth_shib_idp_list'] = '제공자 색인';
+$string['auth_shib_idp_list_description'] = '사용자들이 로그인 화면에서 선택할 수 있게 제공자의 entityID 목록들을 적어 놓아라.<br />각 줄에는 IdP의 entityID(쉽볼렛 메타데이터 파일 참조)와 드롭다운 목록에서 살펴볼 수 있게 IdP의 명칭을 쉼표로 구분하여 적어야 한다.<br />또한 무들 설치시 복합 인증 설정에 사용할 쉽볼렛 세션 구동기의 위치를 선택적으로 추가할 수 있다.';
 $string['auth_shib_instructions'] = '만약 여러분의 기관이 Shibboleth를 지원한다면 <a href=\"$a\"> Shibboleth 로그인 </a>을 사용하라.<br />그렇지 않으면 여기 있는 정상적인 로그인 형식을 사용하라.';
 $string['auth_shib_instructions_help'] = '여기에 Shibboleth를 설명하기 위한 안내문을 제공하여야 한다. 이는 안내 영역에 있는 로그인 화면에 나타날 것이다. 설명서에는 사용자가 로그인을 원할 때 클릭할 수 있는 \"<b>$a</b>\"링크를  포함하여야만 한다.';
+$string['auth_shib_integrated_wayf'] = '무들 WAYF 서비스';
+$string['auth_shib_integrated_wayf_description'] = '이를 켜 놓으면, 무들은 Shibboleth 설정 대신 자체 WAYF 서비스를 이용한다. 무들은 사용자들이 자신을 인증해 줄 제공자를 선택할 수 있도록 대체 로그인 화면을 드롭다운 창으로 제시할 것이다.';
+$string['auth_shib_logout_return_url'] = '대체 로그아웃 URL';
+$string['auth_shib_logout_return_url_description'] = '쉽볼렛 사용자가 로그아웃을 한 후 연결될 URL을 입력하라.<br />이 곳이 비어있게되면 사용자들은 무들이 지정한 곳으로 연결되게 된다.';
+$string['auth_shib_logout_url'] = 'Shibboleth 서비스 인증자 로그아웃 핸들러 URL';
+$string['auth_shib_logout_url_description'] = 'Shibboleth 서비스 인증자의 로그아웃 핸들러 URL을 적는다. 전형적으로 <tt>/Shibboleth.sso/Logout</tt>의 형태를 지닌다.';
 $string['auth_shib_no_organizations_warning'] = '통합된 WAYF 서비스를 이용하려면, 반드시 제공자의 entityID, 이름 및 부가적인 세션 이니시에이터 목록을 컴마로 구분해 제공해야 한다.';
 $string['auth_shib_only'] = 'Shibboleth만';
 $string['auth_shib_only_description'] = '만약 Shibboleth 인증이 강요된다면 이 옵션을 체크하십시오.';
@@ -320,6 +330,7 @@ $string['chooseauthmethod'] = '인증 방법 선택';
 $string['createpasswordifneeded'] = '필요시 암호 생성';
 $string['enterthenumbersyouhear'] = '들리는 숫자를 입력하시오';
 $string['enterthewordsabove'] = '위의 단어를 입력하시오';
+$string['errormaxconsecutiveidentchars'] = '암호에는 최소 $a 개의 연속된 동일 문자가 포함되야 합니다.';
 $string['errorminpassworddigits'] = '암호에는 최소 $a 개의 숫자가 포함되야 합니다.';
 $string['errorminpasswordlength'] = '암호길이는 최소 $a 문자 이상이라야 합니다.';
 $string['errorminpasswordlower'] = '암호에는 최소 $a 개의 소문자가 포함되야 합니다.';
