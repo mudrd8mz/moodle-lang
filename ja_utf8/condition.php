@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // condition.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // condition.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
 
 
 $string['addcompletions'] = 'フォームに  {no} 件の活動コンディションを追加する';
@@ -26,8 +26,9 @@ $string['requires_completion_0'] = '活動 <strong>$a</strong> が未完了で�
 $string['requires_completion_1'] = '活動 <strong>$a</strong> が完了マークされるまで、利用できません。';
 $string['requires_completion_2'] = '活動 <strong>$a</strong> を完了および合格するまで、利用できません。';
 $string['requires_completion_3'] = '活動 <strong>$a</strong> を完了および不合格にならない限り、利用できません。';
-$string['requires_date'] = '$a まで利用できません。';
-$string['requires_date_before'] = '$a から利用できません。';
+$string['requires_date'] = '$a まで利用できます。';
+$string['requires_date_before'] = '$a から利用できます。';
+$string['requires_date_both'] = '$a->from から $a->until まで利用できます。';
 $string['requires_grade_any'] = 'あなたが <strong>$a</strong> で点数を取得しない限り、利用できません。';
 $string['requires_grade_max'] = 'あなたが <strong>$a</strong> で適切な点数を取得しない限り、利用できません。';
 $string['requires_grade_min'] = 'あなたが <strong>$a</strong> で要求された点数に到達するまで、利用できません。';
@@ -35,7 +36,7 @@ $string['requires_grade_range'] = 'あなたが <strong>$a</strong> で特定範
 $string['showavailability'] = '活動が利用可能な前に';
 $string['showavailability_hide'] = '活動を完全に隠す';
 $string['showavailability_show'] = '制限情報とともに活動をグレイアウトした状態で表示する';
-$string['userrestriction_hidden'] = '活動は条件付きで制限されています (完全に非表示、メッセージなし): $a';
-$string['userrestriction_visible'] = '活動は条件付きで制限されています: $a';
+$string['userrestriction_hidden'] = '条件付き制限 (完全に非表示、メッセージなし): $a';
+$string['userrestriction_visible'] = '条件付き制限: $a';
 
 ?>
