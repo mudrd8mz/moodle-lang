@@ -1,53 +1,53 @@
-<h1>Aggregazione categoria</h1>
+<h1>Aggregazione dei voti</h1>
 
-<p>Questo menu permette di scegliere la strategia di aggregazione che sarà utilizzata per calcolare la valutazione generale di ogni partecipante per questa categoria. Di seguito sono spiegate le differenti possibilità.</p>
+<p>Questo menu permette di scegliere la strategia di aggregazione che sarà utilizzata per calcolare la valutazione per una data categoria. Di seguito sono illustrate le differenti possibilità.</p>
 
-<p>Le valutazioni sono dapprima convertite in valori percentuali (intervallo da 0 a 1, questa è chiamata normalizzazione), successivamente aggregate usando una delle funzioni sottostanti e infine convertite nell'intervallo richiesto dell'item di categoria associata
-(tra <em>Valutazione minima</em> e <em>Valutazione massima</em>).</p>
+<p>Le valutazioni sono dapprima convertite in valori percentuali (intervallo da 0 a 1, fase di normalizzazione), successivamente aggregate usando la strategia di aggregazione prescelta ed infine convertite nell'intervallo di voti impostato per la categoria stessa
+(tra il <em>Voto minimo</em> ed il <em>Voto massimo</em>).</p>
 
-<p><strong>Importante</strong>: Una valutazione vuota è semplicemente un elemento mancante nel registro delle valutazioni, e può significare cose differenti. Per esempio, potrebbe essere un partecipante che non ha ancora consegnato un compito, un compito consegnato ma non ancora valutato dal docente, o una valutazione che è stata cancellata manualmente dall'amministratore del registro. Bisogna quindi porre molta attenzione nell'interpretare queste "valutazioni mancanti".</p>
+<p><strong>Importante</strong>: Una voto non presente è semplicemente un elemento mancante nel registro delle valutazioni e può significare cose differenti. Per esempio potrebbe significare che un partecipante non ha ancora consegnato un compito, oppure il compito è stato consegnato ma non ancora valutato dal docente, oppure una valutazione che è stata eliminata manualmente dall'amministratore del registro. Bisogna quindi porre molta attenzione nell'interpretare i "Voti non ricevuti".</p>
 
 <dl id="grade-aggregation-help">
-    <dt>Valutazione media</dt>        
-    <dd>La somma di tutte le valutazioni divisa per il numero totale di valutazioni.</dd>
+    <dt>Media dei voti</dt>        
+    <dd>La somma di tutti i voti diviso per il numero totale di voti.</dd>
     <dd class="example">A1 70/100, A2 20/80, A3 10/10, massimo categoria 100:<br />
                      <code>(0.7 + 0.25 + 1.0)/3 = 0.65 --> 65/100</code></dd>
                      
-    <dt>Media pesata delle valutazioni</dt>
-        <dd>Ad ogni elemento di valutazione può essere dato un peso, che poi è usato nella media aritmetica di aggregazione per influenzare l'importanza di ogni elemento nella media generale.</dd>
+    <dt>Media ponderale dei voti</dt>
+        <dd>Ad ogni voto può essere dato un peso che sarà utilizzato nella media aritmetica di aggregazione per influenzare l'importanza di ogni elemento nella media generale.</dd>
         <dd class="example">A1 70/100 peso 10, A2 20/80 peso 5, A3
                          10/10 peso 3, massimo categoria 100:<br /><code>(0.7*10 + 0.25*5 + 1.0*3)/18 = 0.625 --> 62.5/100</code></dd>
     
-    <dt>Semplice media pesata delle valutazioni</dt>
-        <dd>La differenza dalla <em>Media pesata</em> è che il peso è calcolato come <em>Valutazione massima</em> - <em>Valutazione minima</em> per ogni elemento. Un compito da 100 punti ha peso 100, un compito da 10 punti ha peso 10.</dd>
+    <dt>Media ponderale semplice dei voti</dt>
+        <dd>La differenza dalla <em>Media ponderale dei voti</em> è che il peso per ogni elemento è calcolato come <em>Voto massimo</em> - <em>Voto minimo</em>. Un compito da 100 punti ha peso 100, un compito da 10 punti ha peso 10.</dd>
         <dd class="example">A1 70/100, A2 20/80, A3 10/10, massimo categoria 100:<br />
                          <code>(0.7*100 + 0.25*80 + 1.0*10)/190 = 0.526 --> 52.6/100</code></dd>
     
-    <dt>Valutazione media (con crediti extra)</dt>
-        <dd>Media aritmetica con una variante. Una vecchia, non più supportata strategia di aggregazione inserita qui solo per compatibilità all'indietro con vecchie attività.</dd>
+    <dt>Voto medio (con punti extra)</dt>
+        <dd>Media aritmetica con una variante. Una vecchia e non più supportata strategia di aggregazione inserita solo per compatibilità con versioni precedenti di attività.</dd>
     
-    <dt>Mediana delle valutazioni</dt>
-        <dd>La mediana è calcolata mettendo in ordine tutte le valutazioni e selezionando quella che cade a metà (o la media tra le due valutazioni di mezzo se queste sono in numero pari). Il vantaggio rispetto alla media è che questa non è condizionata dalle deviazioni eccessive (valutazioni eccessivamente lontane dalla media).</dd>
+    <dt>Mediana dei voti</dt>
+        <dd>La mediana è calcolata mettendo in ordine tutti i voti e selezionando quello che cade a metà (o la media tra le due valutazioni di mezzo se queste sono in numero pari). Il vantaggio rispetto alla media è che questa risente meno delle deviazioni eccessive (valutazioni troppo lontane dalla media).</dd>
         <dd class="example">A1 70/100, A2 20/80, A3 10/10, massimo categoria 100:<br />
                          <code>1.0 + 0.7 + 0.25 --> 0.7 --> 70/100</code></dd>
     
-    <dt>Valutazione più bassa</dt>
-        <dd>Il risultato è la più piccola valutazione dopo la normalizzazione. E' di solito utilizzato in combinazione con l'impostazione <em>Aggregazione solo valutazioni non nulle</em>.</dd>
+    <dt>Voto più basso</dt>
+        <dd>Il risultato è la il voto più basso dopo la normalizzazione. E' di solito utilizzato in combinazione con l'impostazione <em>Aggrega solo le valutazioni ricevute</em>.</dd>
         <dd class="example">A1 70/100, A2 20/80, A3 10/10, massimo categoria 100:<br />
                          <code>min(0.7 + 0.25 + 1.0) = 0.25 --> 25/100</code></dd>
                          
-    <dt>Valutazione più alta</dt>
-        <dd>Il risultato è la valutazione più alta dopo la normalizzazione.</dd>
+    <dt>Voto più alto</dt>
+        <dd>Il risultato è lil voto più alto dopo la normalizzazione.</dd>
         <dd class="example">A1 70/100, A2 20/80, A3 10/10, massimo categoria 100:<br />
                          <code>max(0.7 + 0.25 + 1.0) = 1.0 --> 100/100</code></dd>
     
-    <dt>Moda delle valutazioni</dt>
-        <dd>La moda è la valutazione che capita più frequentemente. E' usata più spesso per valutazioni non numeriche. Il vantaggio rispetto alla media è che questa non è condizionata dalle deviazioni eccessive (valutazioni eccessivamente lontane dalla media). Comunque perde significato ogni volta che esiste più di una valutazione che capitano più frequentemente (solo una è mantenuta), o quando tutte le valutazioni sono diverse fra loro.</dd>
+    <dt>Moda dei voti</dt>
+        <dd>La moda è l'aggregazione che capita più frequentemente. E' usata più spesso per valutazioni non numeriche. Il vantaggio rispetto alla media è che la moda non è condizionata dalle deviazioni eccessive (valutazioni eccessAggre lontane dalla media). Comunque perde significato ogni volta che esiste più di una valutazione che capitano più frequentemente (solo una è mantenuta), o quando tutte le valutazioni sono diverse fra loro.</dd>
         <dd class="example">A1 70/100, A2 35/50, A3 20/80, A4 10/10, A5 7/10 massimo categoria 100:<br />
                          <code>mode(0.7; 0.7; 0.25; 1.0; 0.7) = 0.7 --> 70/100</code></dd>
     
-    <dt>Somma delle valutazioni</dt>
-        <dd>La somma di tutti i valori delle valutazioni. Le scale di valutazioni sono ignorate. Questo è il solo tipo che non converte le valutazioni in percentuali (normalizzazione). La <em>Valutazione massima</em> dell'elemento di categoria associato è calcolata automaticamente come somma dei massimi fra tutti gli elementi aggregati.</dd>
+    <dt>Somma dei voti</dt>
+        <dd>La somma di tutti i voti. Le scale di valutazione non vengono considerate. Questo è il solo tipo di aggregazione che non converte le valutazioni in percentuali (normalizzazione). Il <em>Voto massimo</em> della categoria è calcolato automaticamente come somma dei massimi fra tutti gli elementi aggregati.</dd>
         <dd class="example">A1 70/100, A2 20/80, A3 10/10:<br />
                          <code>70 + 20 + 10 = 100/190</code></dd>
 </dl>
