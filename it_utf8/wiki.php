@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20090306) (2009030501)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
 
 
 $string['action'] = '-- Azione --';
@@ -72,7 +72,7 @@ $string['fetchback'] = 'Ripristina';
 $string['file'] = 'File';
 $string['filedownload'] = 'Scarica file';
 $string['fileisoftype'] = 'File di tipo';
-$string['filtername'] = 'Auto-link a pagine Wiki';
+$string['filtername'] = 'Auto link a pagine Wiki';
 $string['flagbin'] = 'BIN';
 $string['flaghtm'] = 'HTM';
 $string['flagoff'] = 'OFF';

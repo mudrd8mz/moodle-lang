@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -49,7 +49,7 @@ $string['fetchclienterror'] = 'E\' stato rilevato un errore con il tuo browser m
 $string['fetcherror'] = 'E\' stato rilevato un errore durante l\'accesso alla pagina web.';
 $string['fetchservererror'] = 'E\' stato rilevato un errore sul server mentre provavo a recuperare la pagina web (potrebbe esserci un errore nel codice).<br />';
 $string['filename'] = 'Nome del file';
-$string['filtername'] = 'Creazione automatica di link ai nomi delle risorse';
+$string['filtername'] = 'Auto link ai Nomi delle risorse';
 $string['forcedownload'] = 'Forza download';
 $string['frameifpossible'] = 'Mostra la risorsa in un frame mantenendo visibile i pulsanti di navigazione.';
 $string['framesize'] = 'Dimensione frame';

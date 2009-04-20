@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // data.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
 
 
 $string['action'] = 'Azione';
@@ -124,7 +124,7 @@ $string['fieldwidthlistview'] = 'Larghezza nella visualizzazione \"Elenco\"';
 $string['fieldwidthsingleview'] = 'Larghezza nella visualizzazione \"Dettagli\"';
 $string['file'] = 'File';
 $string['filesnotgenerated'] = 'Non tutti i file sono stati generati: $a';
-$string['filtername'] = 'Generazione automatica di link verso il Database';
+$string['filtername'] = 'Auto link al Database';
 $string['footer'] = 'Piè di pagina';
 $string['forcelinkname'] = 'Nome';
 $string['foundnorecords'] = 'Non è stato trovato nessun record (<a href=\"$a->reseturl\">Reset filtri</a>)';

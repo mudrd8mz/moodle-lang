@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20090306) (2009030501)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
 
 
 $string['addcomment'] = 'Aggiungi commento';
@@ -26,10 +26,8 @@ $string['authorview'] = 'Visualizza per autore';
 $string['back'] = 'Indietro';
 $string['cantexportentry'] = 'Impossibile esportare il termine nel glossario principale';
 $string['cantinsertcat'] = 'Non è possibile inserire la categoria';
-$string['cantinsertent'] = 'Non è stato possibile inserire questo nuovo termine';
 $string['cantinsertrec'] = 'Non è possibile inserire il record';
 $string['cantinsertrel'] = 'Non è possibile inserire la relazione categoria-termine';
-$string['cantupdateglossary'] = 'Non è stato possibile aggiornare il glossario';
 $string['casesensitive'] = 'Termine sensibile ai caratteri maiuscoli/minuscoli';
 $string['cat'] = 'categoria';
 $string['categories'] = 'Categorie';
@@ -123,7 +121,7 @@ $string['exportglossary'] = 'Esporta glossario';
 $string['exporttomainglossary'] = 'Esporta nel glossario principale';
 $string['filetoimport'] = 'File da importare';
 $string['fillfields'] = 'Concetto e definizione sono campi obbligatori.';
-$string['filtername'] = 'Auto-collegamento al glossario';
+$string['filtername'] = 'Auto link al Glossario';
 $string['fullmatch'] = 'Collega solo le parole intere';
 $string['globalglossary'] = 'Glossario globale';
 $string['glossary:approve'] = 'Approvare i termini in attesa';
@@ -153,7 +151,7 @@ $string['invalidid'] = 'ID del glossario non valido';
 $string['isglobal'] = 'Questo glossario è globale?';
 $string['letter'] = 'alfabetico';
 $string['linkcategory'] = 'Collega automaticamente questa categoria';
-$string['linking'] = 'Auto-link';
+$string['linking'] = 'Link automatico';
 $string['mainglossary'] = 'Glossario principale';
 $string['maxtimehaspassed'] = 'Spiacente, ma il tempo massimo per modificare questo commento ($a) è terminato!';
 $string['modulename'] = 'Glossario';
@@ -213,5 +211,7 @@ $string['withauthor'] = 'Concetti con autore';
 $string['withoutauthor'] = 'Concetti senza autore';
 $string['writtenby'] = 'scritto da';
 $string['youarenottheauthor'] = 'Non puoi modificare questo commento perché non ne sei autore.';
+$string['cantinsertent'] = 'Non è stato possibile inserire questo nuovo termine'; // ORPHANED
+$string['cantupdateglossary'] = 'Non è stato possibile aggiornare il glossario'; // ORPHANED
 
 ?>

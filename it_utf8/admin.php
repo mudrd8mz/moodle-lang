@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -152,8 +152,8 @@ $string['configextramemorylimit'] = 'Alcuni script, come la ricerca globale, il 
 $string['configextrauserselectorfields'] = 'Durante la selezione degli utenti, ad esempio durante l\'attribuzione dei ruoli o la creazione di gruppi, assieme al nome e cognome verranno anche visualizzati i  campi qui selezionati, che saranno usati anche per effettuare ricerche. Per motivi di sicurezza, è sconsigliabile visualizzare gli username.';
 $string['configfilterall'] = 'Filtra tutte le stringhe, incluse le intestazioni, titoli, barre di navigazione ecc.
 Questo è particolarmente utile se si usa il filtro multilingua; altrimenti creerà  soltanto traffico supplementare sul sito senza un guadagno apprezzabile.';
-$string['configfiltermatchoneperpage'] = 'Il filtro di creazione automatica dei collegamenti (auto-collegamento) genererà solo il collegamento alla prima occorrenza del testo che viene trovata in una pagina. Tutte le altre sono ignorate.';
-$string['configfiltermatchonepertext'] = 'Il filtro di creazione automatica dei collegamenti (auto-collegamento) genererà solo il collegamento alla prima occorrenza del testo trovata in ogni elemento di testo (es. risorsa, blocco) della pagina. Tutti gli altri sono ignorati. Questa impostazione non viene considerata se l\'impostazione uno per pagina è <i>si</i>.';
+$string['configfiltermatchoneperpage'] = 'Il filtro di creazione automatica dei link (auto-link) genererà solo il collegamento alla prima occorrenza del testo che viene trovata in una pagina. Tutte le altre sono ignorate.';
+$string['configfiltermatchonepertext'] = 'Il filtro di creazione automatica dei link (auto-link) genererà solo il collegamento alla prima occorrenza del testo trovata in ogni elemento di testo (es. risorsa, blocco) della pagina. Tutti gli altri sono ignorati. Questa impostazione non viene considerata se l\'impostazione uno per pagina è <i>si</i>.';
 $string['configfilteruploadedfiles'] = 'Elabora tutti i file di testo e HTML con i filtri prima di visualizzarli, solo i file HTML o nessun file';
 $string['configforcelogin'] = 'Normalmente, l\'elenco dei corsi e la pagina principale del sito vengono visualizzati senza dover effettuare il login. Se si desidera obbligare i visitatori al login prima che sia possibile fare QUALUNQUE cosa sul sito, scegliete questa opzione.';
 $string['configforceloginforprofiles'] = 'Attivando questa impostazione si obbliga il visitatore al login come utente reale (non come ospite) per poter visualizzare i profili di altri utenti. L\'opzione predefinita abilita questa possibilità , in modo che anche i potenziali studenti possano leggere i profili degli docenti di ogni corso.
@@ -183,7 +183,7 @@ Non vi preoccupate troppo a riguardo, i valori predefiniti in genere svolgono be
 $string['configintroadmin'] = 'In questa pagina si dovrebbe configurare l\'account dell\'Amministratore principale che avrà  il controllo completo sul sito. Assicuratevi di fornire uno username e una password sicuri, così come un indirizzo E-mail valido.
 Potrete creare altri account di tipo Amministratore più tardi.';
 $string['configintrosite'] = 'Questa pagina vi permette di configurare la pagina principale e il nome di questo nuovo sito.
-Potrete tornare in un secondo momento su questa pagina per modificare queste impostazioni, seguendo il collegamento \'Impostazioni del sito\' dalla Home Page del sito.Questa pagina';
+Potrete tornare in un secondo momento su questa pagina per modificare queste impostazioni, seguendo il link \'Impostazioni del sito\' dalla Home Page del sito.Questa pagina';
 $string['configintrotimezones'] = 'In questa pagina è possibile aggiornare l\'elenco dei fusi orari e le impostazioni sul passaggio all\'ora legale.  
 L\'elenco dei fusi orari aggiornati sarà cercata in sequenza nei seguenti percorsi di sistema o URL: $a Questa procedura di aggiornamento è priva di rischi e non può pregiudicare il buon funzionamento della vostra attuale installazione. Desiderate aggiornare l\'elenco dei fusi orari?';
 $string['configiplookup'] = 'Quando si clicca su un indirizzo IP (come per es. 34.12.222.93), come riportato nei log, viene visualizzata una mappa con la localizzazione più probabile di quel IP. Ci sono diversi plugin che si possono scegliere per ottenere questo, ciascuno con i suoi pro e contro.';
@@ -219,7 +219,7 @@ $string['configminpasswordlower'] = 'Le password devono avere almeno questo nume
 $string['configminpasswordnonalphanum'] = 'Le password devono avere almeno questo numero di caratteri non alfanumerici.';
 $string['configminpasswordupper'] = 'Le password devono avere almeno questo numero di lettere maiuscole.';
 $string['configmycoursesperpage'] = 'Numero massimo di corsi presenti negli elenchi dei corsi ai quali si è iscritti.';
-$string['configmymoodleredirect'] = 'Questa impostazione forza la ridirezione a /my dell\'accesso per i non amministratori e sostituisce il collegamento alla pagina principale del sito con /my';
+$string['configmymoodleredirect'] = 'Questa impostazione forza la ridirezione a /my dell\'accesso per i non amministratori e sostituisce il link alla pagina principale del sito con /my';
 $string['confignodefaultuserrolelists'] = 'Questa impostazione evita che alcune funzioni obsolete (come ad esempio get_course_user, ecc.) possano ottenere l\'elenco di tutti gli utenti con il ruolo di default presenti nel database. Spuntate questa opzione se notate un degrado di prestazioni.';
 $string['confignonmetacoursesyncroleids'] = 'Per default tutte le attribuzioni di ruolo presenti nei corsi \"figli\" vengono sincronizzate nei metacorsi. E\' possibile selezionare uno o più ruoli che si desidera escludere dal processo di sincronizzazione.';
 $string['confignoreplyaddress'] = 'Le mail a volte sono spedite a nome di un utente (per esempio, gli interventi dei forum). L\'indirizzo mail qui specificato sarà  utilizzato come l\'indirizzo \"Da\" cui proviene il messaggio,nei casi in cui il ricevente non è in grado di replicare direttamente all\'utente (per esempio, quando un utente decide di mantenere il suo indirizzo privato).';
@@ -292,7 +292,7 @@ $string['configstatsmaxruntime3'] = 'Definisce il tempo massimo consentito per l
 $string['configstatsruntimedays'] = 'Definisce il numero massimo di giorni da elaborare. Se le statistiche sono aggiornate, viene elaborato solamente un giorno. Dovreste aggiustare questo parametro in funzione del carico sul server ed eventualmente ridurlo se sono preferibili elaborazioni più brevi.';
 $string['configstatsruntimestart'] = 'A che ora il cron deve <b>avviare</b> l\'elaborazione delle statistiche?';
 $string['configstatsuserthreshold'] = 'Se inserite un valore, numerico, diverso da zero qui, per la classifica dei corsi, i corsi con meno di questo numero di utenti iscritti (studenti+docenti) saranno ignorati';
-$string['configstripalltitletags'] = 'Non marcare questa impostazione per permettere l\'uso delle tag HTML nei nomi delle risorse e delle attività.';
+$string['configstripalltitletags'] = 'Per consentire l\'uso di tag HTML nei nomi delle risorse e delle attività è necessario deselezionare questa opzione.';
 $string['configsupportemail'] = 'Questo indirizzo email, per gli utenti di questo sito, sarà quello da utilizzare se si ha bisogno di assistenza (per esempio, quando nuovi utenti creano il proprio account). Se tale indirizzo è lasciato vuoto, non sarà fornita alcuna email di supporto.';
 $string['configsupportname'] = 'Questo è il nome della persona o altra entità in grado di offrire assistenza generale tramite la email o il sito web di supporto.';
 $string['configsupportpage'] = 'Questo indirizzo web, per gli utenti di questo sito, sarà quello da linkare se si ha bisogno di assistenza (per esempio, quando nuovi utenti creano il proprio account). Se tale indirizzo è lasciato vuoto, non sarà fornito alcun link.';
@@ -530,7 +530,7 @@ $string['ipwhitelist'] = 'IP whitelist';
 $string['ipwhitelistdesc'] = 'Se compilato, solo gli IP qui specificati saranno autorizzati ad usare i Web service con lo username: <strong>$a->username</strong>';
 $string['keeptagnamecase'] = 'Caratteri nomi Tag originali';
 $string['lang'] = 'Lingua di default';
-$string['lang16notify'] = 'Moodle 1.6 e le versioni successive permettono di installare e aggiornare i language pack direttamente da download.moodle.org seguendo il collegamento qui sotto.';
+$string['lang16notify'] = 'Moodle 1.6 e le versioni successive permettono di installare e aggiornare i language pack direttamente da download.moodle.org seguendo il link sottostante.';
 $string['langcache'] = 'Cache del menu delle lingue';
 $string['langedit'] = 'Modifica lingua';
 $string['langimport'] = 'Utility di importazione lingua';
@@ -813,7 +813,7 @@ $string['stickyblockscourseview'] = 'Pagina del Corso';
 $string['stickyblocksduplicatenotice'] = 'Se aggiungete blocchi permanenti che sono già presenti in una data pagina, tali blocchi risulteranno duplicati.<br />Se riscontrate questa situazione, tenete presente che solo i blocchi permanenti non potranno essere modificati, mentre i blocchi duplicati potranno essere spostati o eliminati.';
 $string['stickyblocksmymoodle'] = 'Il mio Moodle';
 $string['stickyblockspagetype'] = 'Tipo di pagina da configurare';
-$string['stripalltitletags'] = 'Rimuovi le tag HTML da tutti i nomi attività';
+$string['stripalltitletags'] = 'Rimuovi tag HTML dai nomi delle attività';
 $string['supportemail'] = 'Email assistenza';
 $string['supportname'] = 'Nominativo assistenza';
 $string['supportpage'] = 'Pagina web assistenza';

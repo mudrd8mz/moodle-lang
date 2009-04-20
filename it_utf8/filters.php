@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
+      // filters.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
 
 
 $string['actfilterhdr'] = 'Filtri attivi';
@@ -26,13 +26,13 @@ $string['doesnotcontain'] = 'non contiene';
 $string['endswith'] = 'termina con';
 $string['filterallwarning'] = 'Applicare filtri alle intestazioni oltre che al contenuto potrebbe aumentare notevolmente il carico sul server. Per favore utilizzate l\'impostazione \"Applica a\" con moderazione. L\'uso principale è relativo al filtro multi-lingua.';
 $string['filtersettingsforin'] = 'Impostazione di $a->filter in $a->context';
-$string['filtersettingsin'] = 'Impostazione filtri in $a';
+$string['filtersettingsin'] = 'Impostazione filtri $a';
 $string['firstaccess'] = 'Primo accesso';
 $string['globalrolelabel'] = '$a->label è $a->value';
 $string['isactive'] = 'Attivo?';
-$string['isafter'] = 'dopo il';
-$string['isanyvalue'] = 'qualsiasi valore';
-$string['isbefore'] = 'prima del';
+$string['isafter'] = 'è dopo';
+$string['isanyvalue'] = 'è qualsiasi valore';
+$string['isbefore'] = 'è prima';
 $string['isdefined'] = 'è definito';
 $string['isempty'] = 'è vuoto';
 $string['isequalto'] = 'è uguale a';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090417) (2009040601)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1532,8 +1532,8 @@ $string['topichide'] = 'Nascondi questo argomento da $a';
 $string['topicoutline'] = 'Indice degli argomenti';
 $string['topicshow'] = 'Mostra questo argomento a $a';
 $string['total'] = 'Totale';
-$string['trackforums'] = 'Tracciamento forum';
-$string['trackforumsno'] = 'No, non tenere traccia dei post che ho letto';
+$string['trackforums'] = 'Evidenziazione messaggi forum';
+$string['trackforumsno'] = 'No, non evidenziare i post non letti';
 $string['trackforumsyes'] = 'Si, evidenzia i post che non ho letto';
 $string['trysearching'] = 'Prova a cercare.';
 $string['turneditingoff'] = 'Termina modifica';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // condition.php - created with Moodle 2.0 dev (Build: 20090119) (2009011600)
+      // condition.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
 
 
 $string['addcompletions'] = 'Aggiungi {no} condizioni sulle attività';
@@ -28,6 +28,7 @@ $string['requires_completion_2'] = 'Disponibile dopo il completamento dell\'atti
 $string['requires_completion_3'] = 'Disponibile dopo il completamento dell\'attività <strong>$a</strong> con un voto insufficiente.';
 $string['requires_date'] = 'Non disponibile fino al $a';
 $string['requires_date_before'] = 'Non disponibile a partire dal $a';
+$string['requires_date_both'] = 'Disponibile dal $a->from fino al $a->until.';
 $string['requires_grade_any'] = 'Disponibile dopo aver ottenuto una valutazione in <strong>$a</strong>.';
 $string['requires_grade_max'] = 'Disponibile dopo aver ottenuto un voto adeguato in <strong>$a</strong>.';
 $string['requires_grade_min'] = 'Disponibile dopo aver ottenuto il voto richiesto in <strong>$a</strong>.';
