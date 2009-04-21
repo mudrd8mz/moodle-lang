@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090421) (2009041700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -982,6 +982,7 @@ $string['missingusername'] = 'ユーザ名が入力されていません。';
 $string['modified'] = '更新日時';
 $string['moduledeleteconfirm'] = 'あなたはモジュール「 $a 」を完全に削除しようとしています。この処理で、データベースよりモジュールに関わるすべてのデータが完全に削除されます。本当に続けてもよろしいですか？';
 $string['moduledeletefiles'] = 'モジュール「 $a->module 」に関わるすべてのデータが削除されました。削除を完全なものにするために (モジュールの自動再インストールを防ぐために) サーバより次のディレクトリを削除してください: $a->directory';
+$string['moduleintro'] = '説明';
 $string['modulesetup'] = 'モジュールテーブル設定中';
 $string['modulesuccess'] = '$a テーブルが正常に設定されました。';
 $string['moodledocs'] = 'Moodle Docs';
