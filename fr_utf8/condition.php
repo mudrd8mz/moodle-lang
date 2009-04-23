@@ -33,7 +33,7 @@ $string['requires_grade_range'] = 'Non disponible à moins que vous obteniez une
 $string['showavailability'] = 'Avant que l\'activité soit disponible';
 $string['showavailability_show'] = 'Afficher l\'activité en gris, avec une information sur la restriction';
 $string['showavailability_hide'] = 'Cacher complètement l\'activité';
-$string['userrestriction_visible'] = 'Activité restreinte sous condition : « {$a} »';
-$string['userrestriction_hidden'] = 'Activité restreinte sous condition (cachée complètement, pas de message) : « {$a} »';
+$string['userrestriction_visible'] = 'Restreinte : « {$a} »';
+$string['userrestriction_hidden'] = 'Restreinte (cachée complètement, pas de message) : « {$a} »';
 
 ?>
