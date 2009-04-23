@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
 
 
 $string['activaterep'] = 'Repository attivi';
@@ -17,6 +17,7 @@ $string['attachment'] = 'Allegato';
 $string['back'] = '&lt; Indietro';
 $string['cachecleared'] = 'I file in cache sono stati eliminati';
 $string['cacheexpire'] = 'Permanenza in cache';
+$string['cannotdownload'] = 'Non è possibile scaricare questo file';
 $string['cannotinitplugin'] = 'La chiamata plugin_init non è andata a buon fine';
 $string['cleancache'] = 'Elimina i miei file dalla cache';
 $string['clicktohide'] = 'Click qui per nascondere';

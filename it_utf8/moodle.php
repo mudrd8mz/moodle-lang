@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090417) (2009040601)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -981,6 +981,7 @@ $string['missingusername'] = 'Non hai inserito un username';
 $string['modified'] = 'Modificato';
 $string['moduledeleteconfirm'] = 'Stai per eliminare il modulo \'$a\'. Questo eliminerà tutto ciò che nel database è associato al modulo. Sei SICURO di voler continuare?';
 $string['moduledeletefiles'] = 'Tutti i dati associati con il modulo \'$a->module\' sono stati eliminati dal database. Per completare l\'eliminazione (e prevenire che il modulo si re-installi automaticamente), devi ora eliminare questa directory dal tuo server: $a->directory';
+$string['moduleintro'] = 'Descrizione';
 $string['modulesetup'] = 'Impostazione tabelle modulo';
 $string['modulesuccess'] = 'Tabelle $a impostate correttamente';
 $string['moodledocs'] = 'Moodle Doc';
