@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // moodle.php - created with Moodle 1.9.4+ (Build: 20090422) (2007101546)
 
 
 $string['abouttobeinstalled'] = 's\'instal·larà ara';
@@ -640,6 +640,7 @@ $string['files'] = 'Fitxers';
 $string['filesfolders'] = 'Fitxers/carpetes';
 $string['filloutallfields'] = 'Si us plau ompliu tots els camps d\'aquest formulari';
 $string['findmorecourses'] = 'Busca més cursos...';
+$string['firstaccess'] = 'Primer accés';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Nom';
 $string['firsttime'] = 'És la primera vegada que veniu aquí?';
@@ -1176,6 +1177,7 @@ $string['potentialteachers'] = 'Professors en potència';
 $string['preferences'] = 'Preferències';
 $string['preferredlanguage'] = 'Idioma preferit';
 $string['preferredtheme'] = 'Tema preferit';
+$string['preprocessingbackupfile'] = 'S\'està preprocessant el fitxer de la còpia de seguretat';
 $string['preview'] = 'Previsualització';
 $string['previewhtml'] = 'Previsualització';
 $string['previeworchoose'] = 'Proveu o trieu un tema';
@@ -1306,6 +1308,7 @@ $string['select'] = 'Selecciona';
 $string['selectacountry'] = 'Selecciona un país';
 $string['selectall'] = 'Selecciona tot';
 $string['selectamodule'] = 'Heu de seleccionar un mòdul d\'activitat';
+$string['selectdefault'] = 'Seleccioneu el valor per defecte';
 $string['selectednowmove'] = '$a fitxers seleccionats per moure\'ls. Ara aneu a la destinació i premeu \'Mou els fitxers aquí\'';
 $string['selectnos'] = 'Selecciona tot \'no\'';
 $string['selectperiod'] = 'Seleccioneu el període';
@@ -1339,6 +1342,7 @@ $string['showrecent'] = 'Mostra l\'activitat recent';
 $string['showreports'] = 'Mostra informes d\'activitat';
 $string['showsettings'] = 'Mostra paràmetres';
 $string['showtheselogs'] = 'Mostra aquests registres';
+$string['showthishelpinlanguage'] = 'Mostra aquesta ajuda en l\'idioma: $a';
 $string['since'] = 'Des de';
 $string['sincelast'] = 'des de la darrera entrada';
 $string['site'] = 'Lloc';
@@ -1518,6 +1522,7 @@ $string['uploadcantwrite'] = 'S\'ha produït un error en escriure al disc';
 $string['uploadedfile'] = 'El fitxer s\'ha penjat amb èxit';
 $string['uploadedfileto'] = 'S\'ha penjat $a->file en $a->directory';
 $string['uploadedfiletoobig'] = 'El fitxer és massa gran (el límit són $a bytes)';
+$string['uploadextension'] = 'La càrrega del fitxer ha estat aturada per l\'extensió';
 $string['uploadfailednotrecovering'] = 'La càrrega ha fallat perquè hi ha hagut un problema amb un dels fitxers, $a->name. <br />Heus aquí un registre dels problemes:<br />$a->problem<br />Irrecuperable.';
 $string['uploadfilelog'] = 'Registre de càrrega del fitxer $a';
 $string['uploadformlimit'] = 'El fitxer supera la mida màxima definida per al formulari';
@@ -1555,6 +1560,7 @@ $string['userprofilefor'] = 'Perfil d\'usuari per a $a';
 $string['users'] = 'Usuaris';
 $string['usersnew'] = 'Nous usuaris';
 $string['usersnoaccesssince'] = 'Mostra els usuaris que hagin estat inactius més de';
+$string['userswithfiles'] = 'Usuaris amb fitxers';
 $string['userzones'] = 'Zones d\'usuari';
 $string['usethiscourse'] = 'Utilitza aquest curs';
 $string['usingexistingcourse'] = 'S\'està utilitzant un curs existent';
