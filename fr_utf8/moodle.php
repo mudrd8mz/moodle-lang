@@ -966,6 +966,7 @@ $string['missingusername'] = 'Le nom d\'utilisateur ne peut pas être vide';
 $string['modified'] = 'Modifié';
 $string['moduledeleteconfirm'] = 'Vous allez supprimer le module « {$a} ». Cela va effacer de la base de données tous les éléments associés à ce module d\'activité. Voulez-vous VRAIMENT continuer ?';
 $string['moduledeletefiles'] = 'Tous les éléments associés au module « {$a->module} » ont été effacés de la base de données. Pour terminer la suppression (et empêcher que le module se réinstalle automatiquement), veuillez supprimer le dossier suivant de votre serveur: $a->directory';
+$string['moduleintro'] = 'Description';
 $string['modulesetup'] = 'Installation des tables des modules';
 $string['modulesuccess'] = 'Les tables du module $a ont été installées correctement';
 $string['moodledocs'] = 'Moodle Docs';
