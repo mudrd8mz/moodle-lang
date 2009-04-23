@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
 
 
 $string['activities'] = '活動';
@@ -355,7 +355,7 @@ $string['min'] = '最低';
 $string['missingscale'] = '尺度を選択してください。';
 $string['mode'] = '最頻値';
 $string['morethanmax'] = '$a->itemname に入力された $a->username の評点は許可された最大評点を超えています。';
-$string['moveselectedto'] = '選択したアイテムを移動する:';
+$string['moveselectedto'] = '選択したアイテムを移動する';
 $string['movingelement'] = '$a に移動';
 $string['multfactor'] = '乗数';
 $string['multfactorhelp'] = 'この評定項目の評点に掛けられる因数です。';
