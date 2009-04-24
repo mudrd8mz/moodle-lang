@@ -1,12 +1,21 @@
 <?php // $Id$
 
+$string['all'] = 'Toutes';
 $string['apikey'] = 'Clef API';
+$string['by-nc-sa'] = 'Paternité Pas d\'utilisation commerciale Partage des conditions initiales à l\'identique';
+$string['by-nc'] = 'Paternité Pas d\'utilisation commerciale';
+$string['by-nc-nd'] = 'Paternité Pas d\'utilisation commerciale Pas de modification';
+$string['by'] = 'Paternité';
+$string['by-sa'] = 'Paternité Partage des conditions initiales à l\'identique';
+$string['by-nd'] = 'Paternité Pas de modification';
 $string['callbackurl'] = 'URL de rappel';
 $string['configplugin'] = 'Configuration Flickr public';
+$string['creativecommonscommercial'] = 'Only creative commons commercial';
 $string['emailaddress'] = 'Adresse de courriel';
 $string['fulltext'] = 'Plein texte';
 $string['information'] = '<div>Obtenir une <a href=\"http://www.flickr.com/services/api/keys/\">clef API Flickr</a> pour votre Moodle.</div>';
 $string['invalidemail'] = 'Adresse de courriel non valide pour flickr';
+$string['license'] = 'Licence';
 $string['notitle'] = 'Sans titre';
 $string['nullphotolist'] = 'Il n\'y a pas de photo dans ce compte';
 $string['remember'] = 'Se souvenir de moi';
