@@ -244,6 +244,7 @@ $string['groupexistforcourse'] = 'Le groupe « $a&nbsp» existe déjà dans ce 
 $string['groupiddoesntexistcannotdelete'] = 'Impossible de supprimer le groupe : l\'identifiant du groupe n\'existe pas';
 $string['groupnotaddederror'] = 'Le groupe « $a&nbsp» n\'a pas été ajouté';
 $string['groupunknown'] = 'Le groupe $a n\'est pas associé au cours indiqué';
+$string['groupusernotmember'] = 'L\'utilisateur n\'est pas membre de ce groupe.';
 $string['guestnocomment'] = 'Les invités ne peuvent pas ajouter de commentaires';
 $string['guestnoeditprofile'] = 'Les invités ne peuvent pas modifier leur profil';
 $string['guestnoeditprofileother'] = 'Le profil de l\'utilisateur invité ne peut pas être modifié';
