@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
+      // error.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
 
 
 $string['TODO'] = 'TODO';
@@ -235,6 +235,7 @@ $string['groupexistforcourse'] = 'グループ「 $a 」は、すでにこのコ
 $string['groupiddoesntexistcannotdelete'] = 'グループを削除できません。グループIDが存在しません。';
 $string['groupnotaddederror'] = 'グループ「 $a 」は、追加されませんでした。';
 $string['groupunknown'] = 'グループ「 $a 」は、指定されたコースに関連していません。';
+$string['groupusernotmember'] = 'ユーザは、このグループのメンバーではありません。';
 $string['guestnocomment'] = 'ゲストは、コメントを投稿できません。';
 $string['guestnoeditprofile'] = 'ゲストユーザは、プロファイルを変更できません。';
 $string['guestnoeditprofileother'] = 'ゲストユーザのプロファイルを変更できません。';
