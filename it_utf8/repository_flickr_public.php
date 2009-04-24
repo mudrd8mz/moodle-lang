@@ -1,14 +1,23 @@
 <?PHP // $Id$ 
-      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
+      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090424) (2009041700)
 
 
+$string['all'] = 'Tutto';
 $string['apikey'] = 'API Key';
+$string['by'] = 'Licenza d\'uso';
+$string['by-nc'] = 'Attribuzione-Licenza NonCommerciale';
+$string['by-nc-nd'] = 'Attribuzione-Licenza NonCommerciale-NoOpereDerivate';
+$string['by-nc-sa'] = 'Attribuzione-Licenza NonCommerciale-ShareAlike';
+$string['by-nd'] = 'Attribuzione-Licenza NoOpereDerivate';
+$string['by-sa'] = 'Attribuzione-Licenza ShareAlike';
 $string['callbackurl'] = 'Callback URL';
 $string['configplugin'] = 'Configurazione Flickr Public';
-$string['emailaddress'] = 'Indrizzo email';
+$string['creativecommonscommercial'] = 'Solamente Creative Commons commerciale';
+$string['emailaddress'] = 'Indirizzo email';
 $string['fulltext'] = 'Testo completo';
 $string['information'] = '<div>Ottieni una <a href=\"http://www.flickr.com/services/api/keys/\">Flickr API Key</a> per il tuo sito Moodle. </div>';
 $string['invalidemail'] = 'Indirizzo email non valido per Flickr';
+$string['license'] = 'Licenza';
 $string['notitle'] = 'senza titolo';
 $string['nullphotolist'] = 'Questo account non contiene immagini';
 $string['remember'] = 'Ricordami';

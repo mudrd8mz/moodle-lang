@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090417) (2009040601)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090424) (2009041700)
 
 
 $string['activities'] = 'Attività';
@@ -476,6 +476,7 @@ $string['scaleidhelp'] = 'La scala cui questo $a è collegato.';
 $string['scalestandardhelp'] = 'Una scala si definisce standard se è utilizzabile in tutto il sito ed in tutti i corsi.';
 $string['seeallcoursegrades'] = 'Vedi tutte le valutazioni del corso';
 $string['selectalloroneuser'] = 'Scegli uno o tutti gli utenti';
+$string['selectauser'] = 'Seleziona un utente';
 $string['selectdestination'] = 'Scegli la destinazione di $a';
 $string['separator'] = 'Separatore';
 $string['sepcomma'] = 'Virgola';
