@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -17,6 +17,7 @@ $string['attachment'] = '첨부';
 $string['back'] = '&lt; 뒤로';
 $string['cachecleared'] = '임시파일 제거됨';
 $string['cacheexpire'] = '캐쉬 기한만료';
+$string['cannotdownload'] = '이 파일을 내려받을 수 없음';
 $string['cannotinitplugin'] = 'plugin_init 호출 실패';
 $string['cleancache'] = '내 임시파일 정리';
 $string['clicktohide'] = '감추려면 클릭';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090418) (2009041700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
 
 
 $string['activities'] = '활동';
@@ -474,12 +474,13 @@ $string['scaleidhelp'] = '이 $a 에 연결된 척도';
 $string['scalestandardhelp'] = '표준 척도는 사이트 전반에 걸쳐 어느 강좌에서도 사용 가능한 척도이다.';
 $string['seeallcoursegrades'] = '모든 강좌 성적 보기';
 $string['selectalloroneuser'] = '한 사람 혹은 모두 선택';
+$string['selectauser'] = '사용자 선택';
 $string['selectdestination'] = '$a 가 이동할 곳 선택';
 $string['separator'] = '구분선';
 $string['sepcomma'] = '콤마';
 $string['septab'] = '탭';
 $string['setcategories'] = '범주 설정';
-$string['setcategorieserror'] = '당신은 가중치를 주기 전에 반드시 교육과정의 범주를 설정해야만 합니다.';
+$string['setcategorieserror'] = '가중치를 주기 전, 반드시 교육과정의 범주를 설정해야 합니다.';
 $string['setgradeletters'] = '등급 문자 설정';
 $string['setpreferences'] = '맞춤 설정';
 $string['setting'] = '설정';

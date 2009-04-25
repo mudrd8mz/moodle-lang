@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090403) (2009040100)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
 
 
 $string['abouttobeinstalled'] = '설치 예정';
@@ -967,6 +967,7 @@ $string['moduledeleteconfirm'] = '모듈 \'$a\'를 완전히 삭제하려고 합
 
 정말 계속할까요?';
 $string['moduledeletefiles'] = '모듈 \'$a->module\' 과 관련된 모든 자료가 삭제되었습니다. 서버의 $a->directory 디렉토리를 완전히 삭제하면 모듈 재설치를 막을 수 있습니다.';
+$string['moduleintro'] = '모듈 소개';
 $string['modulesetup'] = '설정하기 : 모듈 테이블';
 $string['modulesuccess'] = '$a 테이블이 바르게 설정되었습니다.';
 $string['moodledocs'] = '문서 창고';

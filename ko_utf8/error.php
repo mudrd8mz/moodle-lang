@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090418) (2009041700)
+      // error.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
 
 
 $string['TODO'] = '실행목록';
@@ -235,6 +235,7 @@ $string['groupexistforcourse'] = '강좌에 이미 \"$a\" 모둠이 있음';
 $string['groupiddoesntexistcannotdelete'] = '모둠을 삭제할 수 없음: 모둠 ID가 없음';
 $string['groupnotaddederror'] = '모둠 \"$a\"는 추가되지 않았음';
 $string['groupunknown'] = '$a 모둠은 지정한 강좌에 속해있지 않음';
+$string['groupusernotmember'] = '사용자가 이 모둠의 구성원이 아님';
 $string['guestnocomment'] = '손님은 게시물의 논평을 할 수 없음!';
 $string['guestnoeditprofile'] = '손님은 개인정보를 수정할 수 없음';
 $string['guestnoeditprofileother'] = '손님의 개인정보는 수정될 수 없음';
