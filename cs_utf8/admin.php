@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.4+ (Build: 20090303) (2007101541)
+      // admin.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -126,7 +126,9 @@ $string['configenablestats'] = 'Při volbě \'Ano\' zpracuje cron protokoly o č
 $string['configenabletrusttext'] = 'Moodle standardně pročišťuje jakýkoliv text přicházející od uživatelů a snaží se odstranit potenciální bezpečnostní rizika, mezi něž patří i skripty, média apod. Pomocí funkce \"Důvěryhodný obsah\" můžete vybraným uživatelům dát privilegium používat i tyto pokročilé prvky bez dalších zásahů. Nejprve je potřeba povolit toto nastavení a poté udělit oprávnění Důvěryhodný obsah (Trusted Content) vybraným rolím. Text, který byl vytvořen nebo nahrán uživatelem s takovou rolí, je pak označen jako důvěryhodný a není před zobrazením pročišťován.';
 $string['configenrolmentplugins'] = 'Jaké způsoby zápisů do kurzu povolit? Nezapomeňte upravit příslušné nastavení zásuvných modulů. <br /><br />Označte povolené moduly a vyberte <strong>jeden z nich</strong> jako výchozí pro interaktivní zápis do kurzů. Pro vypnutí interaktivních zápisů do určitých kurzu u nich nastavte proměnnou \"Do kurzu se lze zapisovat\" na \"Ne\".';
 $string['configerrorlevel'] = 'Vyberte rozsah zobrazovaných varování PHP. Většinou je nejlepší volbou \'Normální\'.';
+$string['configexperimentalsplitrestore'] = 'Zda se mají soubory záloh kontrolovat na přítomnost chyb v XML a rozdělovat na menší části. U středně velkých a velkých kurzů vede toto nastavení k větší robustnosti procesu obnovy a zkrácení časů jeho provádění.';
 $string['configextendedusernamechars'] = 'Povolit uživatelům používat libovolné znaky v uživatelských jménech (volba nemá vliv na znaky ve jméně a příjmení). Výchozí hodnota \'Ne\' omezuje uživatelská jména pouze na alfanumerické znaky. Čeština není podporována, takže ponechte volbu na \'Ne\'!';
+$string['configextramemorylimit'] = 'Některé skripty (např. vyhledávání, záloha/obnova nebo cron) potřebují více paměti. U velkých instalací nastavte větší hodnotu.';
 $string['configfilterall'] = 'Zpracovávat pomocí filtrů všechny řetězce včetně nadpisů, titulků, navigační lišty apod. To se hodí zejména při používání filtru vícejazyčné podpory (multilang), jinak tato volba představuje pouze zvýšenou zátěž pro váš server bez výrazného zisku.';
 $string['configfiltermatchoneperpage'] = 'Filtry, které automaticky propojují obsah kurzů, vytvoří odkaz pouze u první nalezené shody na celé stránce. Ostatní výskyty jsou ignorovány.';
 $string['configfiltermatchonepertext'] = 'Filry, které automaticky propojují obsah kurzů, vytvoří odkaz pouze u první nalezené shody v každém úseku textu (např. studijní materiál, blok apod.). Ostatní výskyty jsou ignorovány. Toto nastavení se nauplatní, pokud je proměnná \'Jedna shoda na stránku\' nastavena na \'Ano\'.';
@@ -178,6 +180,7 @@ $string['configminpasswordlength'] = 'Minimální počet znaků v heslech.';
 $string['configminpasswordlower'] = 'Minimální počet malých písmen v heslech.';
 $string['configminpasswordnonalphanum'] = 'Minimální počet nealfanumerických znaků v heslech.';
 $string['configminpasswordupper'] = 'Minimální počet velkých písmen v heslech.';
+$string['configmycoursesperpage'] = 'Maximální počet kurzů, které se zobrazí na jakémkoliv výpisu kurzů uživatele';
 $string['configmymoodleredirect'] = 'Používat stránku /my (Můj Moodle) namísto běžné úvodní stránky po přihlášení uživatelů (kromě správců)?';
 $string['confignodefaultuserrolelists'] = 'Toto nastavení zabraňuje, aby byli z databáze načítáni uživatelé pomocí volání zastaralých funkcí jako např. get_course_user(). Toto nastavení se týká pouze titulní stránky, pokud výchozí role umožňuje příslušný přístup. Zaškrtněte, pokud máte problémy s výkonem Moodle serveru.';
 $string['confignonmetacoursesyncroleids'] = 'Standardně jsou všechny zápisy do asociovaných kurzů synchronizovány s metakurzem. Zde vybrané role nebudou do tohoto synchronizačního procesu zařazeny.';
@@ -373,7 +376,9 @@ $string['errorsetting'] = 'Nelze uložit nastavení:';
 $string['errorwithsettings'] = 'Některá nastavení nebyla změněna kvůli chybě:';
 $string['everyonewhocan'] = 'Každý kdo může \'$a\'';
 $string['experimental'] = 'Experimentální';
+$string['experimentalsplitrestore'] = 'Experimentální rozdělování záloh';
 $string['extendedusernamechars'] = 'Povolit nestandardní znaky v uživatelských jménech';
+$string['extramemorylimit'] = 'Extra navýšení paměťového limitu PHP';
 $string['filecreated'] = 'Vytvořen nový soubor';
 $string['filestoredin'] = 'Ukládat soubor do složky:';
 $string['filestoredinhelp'] = 'Kde budou ukládány soubory';
@@ -523,6 +528,7 @@ $string['multilangupgradeinfo'] = 'Syntaxe filtru pro vícejazyčný obsah byla 
 <strong>Přejete si upravit všechny textu na tuto novou syntaxi?</strong>';
 $string['multilangupgradenotice'] = 'Vaše stránky pravděpodobně používají starou syntaxi vícejazyčného obsahu. Doporučujeme provést <a href=\"multilangupgrade.php\">její upgrade</a>.';
 $string['mustenablestats'] = 'Na těchto stránkách nejsou statistiky povoleny';
+$string['mycoursesperpage'] = 'Maximální počet kurzů';
 $string['mymoodle'] = 'Můj Moodle';
 $string['mymoodleredirect'] = 'Vnutit uživatelům použití stránky Můj Moodle';
 $string['mysql416bypassed'] = 'Pokud ovšem ve vaší instalaci Moodlu používáte POUZE jazyky založené na latince (iso-8859-1), můžete nadále používat momentálně nainstalovanou verzi MySQL 4.1.12 (nebo vyšší).';
