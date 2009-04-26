@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
+      // moodle.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -623,6 +623,7 @@ $string['files'] = 'Soubory';
 $string['filesfolders'] = 'Soubory/složky';
 $string['filloutallfields'] = 'Vyplňte prosím všechna pole v tomto formuláři';
 $string['findmorecourses'] = 'Najít více kurzů...';
+$string['firstaccess'] = 'První přihlášení';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Křestní jméno';
 $string['firsttime'] = 'Jste tady poprvé?';
@@ -1176,6 +1177,7 @@ $string['potentialteachers'] = 'Učitelé k dispozici';
 $string['preferences'] = 'Předvolby';
 $string['preferredlanguage'] = 'Upřednostňovaný jazyk';
 $string['preferredtheme'] = 'Upřednostňovaný motiv';
+$string['preprocessingbackupfile'] = 'Předpříprava souboru zálohy';
 $string['preview'] = 'Náhled';
 $string['previewhtml'] = 'Náhled ve formátu HTML';
 $string['previeworchoose'] = 'Vybrat motiv';

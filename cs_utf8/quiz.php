@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.3+ (Build: 20090115) (2007101533.01)
+      // quiz.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
 
 
 $string['1day'] = '1 den';
@@ -289,6 +289,7 @@ $string['importingquestions'] = 'Importuji $a úloh ze souboru';
 $string['importmax10error'] = 'Chybná definice úlohy: úloha nesmí obsahovat více než deset odpovědí.';
 $string['importmaxerror'] = 'Chybná definice úlohy: příliš mnoho odpovědí.';
 $string['importminerror'] = 'Chybná definice úlohy: nedostatečný počet odpovědí pro daný typ úlohy.';
+$string['importparseerror'] = 'V průběhu zpracování importovaného souboru se vyskytly chyby. Žádné úlohy nebyly naimportovány. Chcete-li ze souboru importovat úlohy, v nichž se chyby nevyskytují, zopakujte akci ještě jednou s nastavením \"Zastavit při chybě\" - \"Ne\"';
 $string['importquestions'] = 'Importovat úlohy ze souboru';
 $string['incorrect'] = 'Nesprávná odpověď';
 $string['indivresp'] = 'Odpovědi uživatelů';
@@ -351,6 +352,7 @@ $string['nocommentsyet'] = 'Zatím bez komentářů';
 $string['noconnection'] = 'Momentálně není možné připojit se k webové službě, která by zpracovala tuto úlohu. Obraťte se prosím na správce serveru.';
 $string['nodataset'] = 'ničím – nejedná se o masku';
 $string['noessayquestionsfound'] = 'Nebyly nalezeny žádné ručně známkované úlohy.';
+$string['nogradewarning'] = 'Tento test není známkován. Nelze proto nastavit celkovou reakci, která je závislá na výsledné známce.';
 $string['nomatchinganswer'] = 'Musíte specifikovat odpověď korespondující s otázkou \'$a\'.';
 $string['nominal'] = 'nominální';
 $string['nomoreattempts'] = 'Již nemáte další pokusy.';
@@ -546,7 +548,7 @@ $string['sortsubmit'] = 'Seřadit úlohy';
 $string['sorttypealpha'] = 'Seřadit abecedně podle typu';
 $string['startagain'] = 'Začít znovu';
 $string['startedon'] = 'Započetí testu';
-$string['stoponerror'] = 'Zastavit na chybě';
+$string['stoponerror'] = 'Zastavit při chybě';
 $string['subneterror'] = 'Litujeme, ale tento test byl nastaven tak, aby k němu bylo možné přistupovat jen z některých počítačů. Váš počítač nepatří k těm, pro které je přístup povolen.';
 $string['subnetnotice'] = 'Tento test je nastaven tak, aby k němu bylo možné přistupovat jen z některých počítačů. Váš počítač nepatří k těm, pro které je přístup povolen. Jako vyučující však máte možnost prohlédnout si test i přesto.';
 $string['substitutedby'] = 'bude nahrazena';
