@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
+      // error.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
 
 
 $string['adminprimarynoedit'] = 'Primární správce nemůže být upravován ostatními uživateli';
@@ -48,6 +48,7 @@ $string['groupalready'] = 'Uživatel už je členem skupiny $a';
 $string['groupexistforcourse'] = 'Skupina \"$a\" již v tomto kurzu existuje';
 $string['groupnotaddederror'] = 'Skupina \"$a\" nebyla přidána';
 $string['groupunknown'] = 'Skupina $a nebyla přidružena k určenému kurzu';
+$string['groupusernotmember'] = 'Uživatel není členem této skupiny';
 $string['guestnoeditprofile'] = 'Uživatel \"host\" nemůže upravovat svůj profil';
 $string['guestnoeditprofileother'] = 'Profil uživatele \"host\" nelze upravovat';
 $string['guestsarenotallowed'] = 'Toto není dovoleno hostům';
