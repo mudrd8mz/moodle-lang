@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8.2+ (2007021520)
+      // hotpot.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['abandoned'] = 'Abandonado';
@@ -12,6 +12,11 @@ $string['attemptsbest'] = 'Mejor intento';
 $string['attemptsfirst'] = 'Primer intento';
 $string['attemptslast'] = 'Último intento';
 $string['average'] = 'Promedio';
+$string['cannotaddquestionrecord'] = 'No se pudo agregar el registro de la pregunta';
+$string['cannotaddresprecord'] = 'No se pudo agregar el registro de la respuesta';
+$string['cannotaddstrrecord'] = 'No se pudo agregar el registro de la cadena';
+$string['cannotfindmethod'] = 'No se ha encontrado el método de expansión del bloque de plantillas: ($a)';
+$string['cannotupdateattempt'] = 'No se pudo actualizar el registro del intento: $a';
 $string['checks'] = 'Comprobaciones';
 $string['clickreporting'] = 'Habilitar informe por clic';
 $string['clues'] = 'Pistas';
@@ -23,6 +28,7 @@ $string['copytoclipboard'] = 'Copiar al portapapeles';
 $string['correct'] = 'Correcto';
 $string['deleteabandoned'] = 'Borrar abandonados';
 $string['deleteabandonedcheck'] = '¿Está seguro de querer borrar todos los $a intentos abandonados?';
+$string['deleteallattempts'] = 'Eliminar todos los intentos';
 $string['displaycoursenext'] = 'Mostrar a continuación página de curso';
 $string['displayhotpotnext'] = 'Mostrar a continuación cuestionario HP';
 $string['displayindexnext'] = 'Mosrar a continuación índice HP';
@@ -56,6 +62,8 @@ $string['hotpotcloses'] = 'Cierre de Hot Potatoes';
 $string['hotpotopens'] = 'Apertura de Hot Potatoes';
 $string['ignored'] = 'Ignorado';
 $string['inprogress'] = 'En progreso';
+$string['invalidattemptid'] = 'La ID del intento es incorrecta';
+$string['invalidhotpotid'] = 'La ID de Hotpot es incorrecta';
 $string['location'] = 'Localización del archivo';
 $string['modulename'] = 'Hot Potatoes Quiz';
 $string['modulenameplural'] = 'Hot Potatoes Quizzes';
@@ -69,6 +77,7 @@ $string['navigation_none'] = 'Ninguna';
 $string['neverclosed'] = 'Nunca cerrado';
 $string['noactivity'] = 'No hay actividad';
 $string['noresponses'] = 'No se ha encontrado información sobre preguntas y respuestas individuales.';
+$string['notyourattempt'] = 'Éste no es su intento.';
 $string['outputformat'] = 'Formato de salida';
 $string['outputformat_best'] = 'el mejor posible';
 $string['outputformat_flash'] = 'Flash';
@@ -82,6 +91,7 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = 'Penalizaciones';
 $string['questionshort'] = 'Q-$a';
 $string['quiztype'] = 'Tipo de ejercicio';
+$string['quizunavailable'] = 'El cuestionario no está disponible por el momento';
 $string['rawdetails'] = 'Detalles de intentos en bruto';
 $string['regrade'] = 'Recalificar';
 $string['regradecheck'] = '¿Realmente desea recalificar \"$a\"?';
@@ -150,6 +160,7 @@ $string['textsourcequiz'] = 'Obtener de cuestionario';
 $string['textsourcespecific'] = 'Texto específico';
 $string['thiscourse'] = 'Este curso';
 $string['timedout'] = 'Tiempo límite';
+$string['unknownreport'] = 'Informe no conocido ($a)';
 $string['updatequizchain'] = 'Actualizar cadena  de cuestionarios';
 $string['weighting'] = 'Ponderación';
 $string['wrong'] = 'Incorrecto';

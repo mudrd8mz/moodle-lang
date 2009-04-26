@@ -13,6 +13,7 @@ $string['layoutselectinline'] = 'Menú desplegable en línea en el texto';
 $string['layoutundefined'] = 'Esquema indefinido';
 $string['layoutvertical'] = 'Columna vertical de botones';
 $string['multianswer'] = 'Respuestas anidadas (Cloze)';
+$string['multianswersummary'] = 'Las preguntas de este tipo son muy flexibles, pero sólo pueden crearse introduciendo texto que contiene códigos especiales que crean preguntas anidadas de opción múltiple, cortas y numéricas.';
 $string['nooptionsforsubquestion'] = 'Imposible conseguir opciones para la parte de la pregunta # $a->sub (question->id={$a->id})';
 $string['noquestions'] = 'La pregunta \'cloze\' (multi-respuesta) \"<strong>$a</strong>\" no contiene ninguna pregunta';
 $string['qtypenotrecognized'] = 'tipo de pregunta $a no reconocido';

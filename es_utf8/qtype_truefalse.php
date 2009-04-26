@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_truefalse.php - created with Moodle 1.7 (2006101007)
+      // qtype_truefalse.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addingtruefalse'] = 'Agregando pregunta verdadero/falso';
@@ -10,5 +10,6 @@ $string['feedbackfalse'] = 'Retroalimentación (Falso)';
 $string['feedbacktrue'] = 'Retroalimentación (Verdadero)';
 $string['true'] = 'Verdadero';
 $string['truefalse'] = 'Verdadero/Falso';
+$string['truefalsesummary'] = 'Forma simple de pregunta de opción múltiple con dos únicas posibilidades (\'Verdadero\' y \'Falso\').';
 
 ?>

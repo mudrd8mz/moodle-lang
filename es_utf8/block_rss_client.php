@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8.2+ (2007021520)
+      // block_rss_client.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['addfeed'] = 'Añadir una URL de canal de noticias:';
 $string['addheadlineblock'] = 'Añadir un bloque de cabecera RSS';
 $string['addnew'] = 'Añadir nuevo';
 $string['blockname'] = 'Cliente RSS';
+$string['cannotmakemodification'] = 'Usted no está autorizado para hacer modificaciones en este canal RSS en este momento.';
 $string['choosefeedlabel'] = 'Seleccione los canales que desea estén disponibles en este bloque:';
 $string['clientchannellink'] = 'Sitio fuente...';
 $string['clientnumentries'] = 'El número de entradas por defecto a mostrar por canal.';
