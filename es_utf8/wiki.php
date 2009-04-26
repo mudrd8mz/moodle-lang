@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7 (2006101007)
+      // wiki.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
 
 
 $string['action'] = '-- Acción --';
@@ -17,7 +17,14 @@ $string['binimgtoolarge'] = 'El archivo de imagen es demasiado grande';
 $string['binnoimg'] = 'Este formato de archivo es inaceptable';
 $string['browse'] = 'Navegar';
 $string['canceledit'] = 'Cancelar';
+$string['cannotacceptbin'] = 'Esta wiki no acepta código binario';
+$string['cannotaccessgroup'] = 'No se puede acceder a ningún grupo en esta wiki';
+$string['cannotaddentry'] = 'No se pudo agregar la entrada wiki.';
 $string['cannotchangepage'] = 'Esta página no puede modificarse.';
+$string['cannotdeletelockrecored'] = 'No se puede eliminar el registro bloqueado.';
+$string['cannotgetentry'] = 'No se puede conseguir la entrada.';
+$string['cannotinsertlockrecored'] = 'No se puede insertar un registro bloqueado.';
+$string['cannotstartwith'] = 'La entrada binaria no comienza con ($a)';
 $string['changes'] = '$a cambios';
 $string['changesfield'] = 'Dentro de cuántas horas desde el último cambio';
 $string['changesfielderror'] = 'Por favor, introduzca un número de horas correcto.';
@@ -76,6 +83,7 @@ $string['flagtxt'] = 'TXT';
 $string['flagwr'] = 'WR';
 $string['for'] = 'para';
 $string['forbidden'] = 'Usted no está autorizado para acceder a esta página.';
+$string['groupmodeerror'] = 'No se puede acceder al wiki en modo de grupo cuando no hay grupos configurados en el curso';
 $string['groups'] = 'Grupos';
 $string['hits'] = '$a visitas';
 $string['howtooperate'] = 'Cómo operar';
@@ -86,6 +94,7 @@ $string['htmlonly'] = 'Sólo HTML';
 $string['index'] = 'Índice';
 $string['infoaboutpage'] = 'Información sobre la página';
 $string['initialcontent'] = 'Contenido Wiki inicial';
+$string['invalidpageval'] = 'Valor de página no admitido';
 $string['invalidroot'] = 'Usted no está autorizado a acceder a la página raíz actual, por lo que no se puede crear un mapa del sitio.';
 $string['lastchanged'] = 'Modificado por última vez el $a';
 $string['lastmodified'] = 'Última modificación';
@@ -108,6 +117,7 @@ $string['nochangestorevert'] = 'No hay cambios que eliminar.';
 $string['nohtml'] = 'No HTML';
 $string['nojslockwarning'] = 'Debido a que Javascript está deshabilitado en su navegador, es posible que alguien más pueda editar esta página. Si eso ocurre, usted no podrá guardar sus cambios. Por favor, intente realizar sus cambios rápidamente, o active Javascript y vuelva a cargar esta página.';
 $string['nolinksfound'] = 'No se han encontrado enlaces en la página.';
+$string['nopermissiontooverride'] = 'No tiene permiso para anular los bloqueos de edición';
 $string['noregexp'] = 'Ésta debe ser una cadena fija (no puede utilizar * o regex); como mucho utilice la dirección IP o el nombre de servidor de los atacantes, pero no incluya el número de puerto (debido a que se incrementa con cada acceso http).';
 $string['notadministratewiki'] = 'Usted no tiene permiso para administrar este wiki.';
 $string['nothingtostrip'] = 'No existen páginas con más de una versión.';
@@ -174,6 +184,7 @@ $string['uplinsect'] = 'Cargar en';
 $string['uplnewnam'] = 'Guardar con otro nombre';
 $string['upload0'] = 'Utilice este formulario para subir un fichero binario arbitrario al wiki:';
 $string['uploadedon'] = 'Subido el';
+$string['uploaderror'] = 'Error durante la subida ($a)';
 $string['uploadpicturebutton'] = 'Subir';
 $string['uplok'] = 'Su archivo se subió correctamente.';
 $string['version'] = 'Versión';
