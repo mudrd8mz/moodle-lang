@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090426) (2009042600)
 
 
 $string['actual'] = '実値';
@@ -81,6 +81,7 @@ $string['keys'] = 'キー';
 $string['listreservedwords'] = '予約語一覧<br />(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> を更新するため使用されます。)';
 $string['load'] = 'ロード';
 $string['main_view'] = 'メインビュー';
+$string['masterprimaryuniqueordernomatch'] = 'あなたの外部キーのフィールドは、参照テーブルのユニークキーと同じ順番で記述する必要があります。';
 $string['missing'] = '不明';
 $string['missingfieldsinsentence'] = 'センテンスのフィールドが見つかりません。';
 $string['missingindexes'] = 'インデックスが見つかりません。';
@@ -98,6 +99,7 @@ $string['newsentence'] = '新しいセンテンス';
 $string['newstatement'] = '新しいステートメント';
 $string['newtable'] = '新しいテーブル';
 $string['newtablefrommysql'] = 'MySQLから新しいテーブル';
+$string['nomasterprimaryuniquefound'] = 'あなたの外部キーが参照するカラムは、参照テーブルのプライマリーまたはユニークキーに含まれている必要があります。ユニークインデックスに含まれているカラムでは、十分ではありませんので留意してください。';
 $string['nomissingindexesfound'] = '不明なインデックスは見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
 $string['noviolatedforeignkeysfound'] = '外部キー違反は見つかりませんでした。';
 $string['nowrongdefaultsfound'] = '矛盾したデフォルト値は見つかりませんでした。あなたのDBに関して、さらなる処置は不要です。';
