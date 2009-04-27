@@ -1,12 +1,12 @@
 <h1>Comportamento come Credito extra</h1>
-<p>Quando è utilizzata la strategia "Somma di valutazioni", un elemento di valutazione può comportarsi come Credito extra per la categoria. Questo significa che la valutazione massima dell'elemento non sarà sommata alla valutazione massima del totale di categoria, ma lo sarà la valutazione dell'elemento. Per esempio:</p>
+<p>Quando si utilizza la strategia di aggregazione "Somma dei voti", un elemento di valutazione può comportarsi come Credito extra per la categoria. Questo significa che il voto massimo dell'elemento non sarà sommato al voto massimo del totale di categoria, ma lo sarà il voto dell'elemento. Esempio:</p>
 
 <ul>
-    <li>L'elemento 1 è valutato 0-100</li>
-    <li>L'elemento 2 è valutato 0-75</li>
-    <li>L'elemento 1 ha marcato il box "Comportamento come credito extra", l'elemento 2 invece no.</li>
-    <li>Tutti e due gli elementi appartengono alla Categoria 1, che ha "Somma di valutazioni" come strategia di aggregazione</li>
-    <li>Il totale della Categoria 1 sarò valutato 0-75</li>
-    <li>Uno studente è valutato 20 sull'elemento 1 e 70 sull'elemento 2</li>
-    <li>Il totale dello studente per la categoria 1 sarà 75/75 (20+70 = 90 ma l'elemento 1 agisce come credito extra, così porta il totale al suo massimo)</li>
+    <li>Elemento 1, voto da 0 a 100</li>
+    <li>Elemento 2, voto da 0 a 75</li>
+    <li>L'elemento 1 ha la casella "Comportamento come credito extra", l'elemento 2 no.</li>
+    <li>Tutti i due elementi appartengono alla Categoria 1, che ha "Somma dei voti" come strategia di aggregazione</li>
+    <li>Il totale della Categoria 1 ja un intervallo di voti tra 0 e 75</li>
+    <li>Uno studente ha ricevuto 20 per l'elemento 1 e 70 per l'elemento 2</li>
+    <li>Il totale dello studente per la Categoria 1 sarà 75/75 (20+70 = 90 ma l'elemento 1 agisce come credito extra, così porta il totale al suo massimo)</li>
 </ul>

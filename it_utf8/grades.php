@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090424) (2009041700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090427) (2009042600)
 
 
 $string['activities'] = 'Attività';
@@ -13,7 +13,7 @@ $string['additem'] = 'Aggiungi elemento di valutazione';
 $string['addoutcome'] = 'Aggiungi un obiettivo';
 $string['addoutcomeitem'] = 'Aggiungi elemento raggiungimento obiettivo';
 $string['addscale'] = 'Aggiungi una scala';
-$string['aggregateextracreditmean'] = 'Voto medio (con punti extra)';
+$string['aggregateextracreditmean'] = 'Voto medio (con crediti extra)';
 $string['aggregatemax'] = 'Voto più alto';
 $string['aggregatemean'] = 'Media dei voti';
 $string['aggregatemedian'] = 'Mediana dei voti';
@@ -62,6 +62,7 @@ $string['calculationadd'] = 'Aggiungi calcolo';
 $string['calculationedit'] = 'Modifica calcolo';
 $string['calculationsaved'] = 'Calcolo salvato';
 $string['calculationview'] = 'Visualizza calcolo';
+$string['cannotaccessgroup'] = 'Spiacente, non è possibile accedere ai voti del gruppo selezionato.';
 $string['categories'] = 'Categorie';
 $string['categoriesanditems'] = 'Categorie ed elementi';
 $string['categoriesedit'] = 'Modifica categorie ed elementi';
