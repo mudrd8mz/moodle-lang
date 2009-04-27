@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090426) (2009042600)
 
 
 $string['activities'] = '活動';
@@ -62,6 +62,7 @@ $string['calculationadd'] = '計算の追加';
 $string['calculationedit'] = '計算の編集';
 $string['calculationsaved'] = '計算が保存されました。';
 $string['calculationview'] = '計算の表示';
+$string['cannotaccessgroup'] = '申し訳ございません、選択したグループの評定にはアクセスできません。';
 $string['categories'] = 'カテゴリ';
 $string['categoriesanditems'] = 'カテゴリおよび評定項目';
 $string['categoriesedit'] = 'カテゴリおよび評定項目の編集';
