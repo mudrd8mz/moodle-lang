@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090122) (2009011900)
+      // moodle.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['abouttobeinstalled'] = '即將安裝';
@@ -29,7 +29,7 @@ $string['addedtogroupnot'] = '未加入群組 {$a}';
 $string['addedtogroupnotenrolled'] = '未加入群組 {$a} ，因為並未選讀該課程';
 $string['addinganew'] = '新增一個新的 {$a}';
 $string['addinganewto'] = '新增一個新的 {$a->what} 到 {$a->to}';
-$string['addingdatatoexisting'] = '新增資料來離開';
+$string['addingdatatoexisting'] = '新增資料到現有的';
 $string['addnewcategory'] = '增加新課程類別';
 $string['addnewcourse'] = '新增一個課程';
 $string['addnewuser'] = '新增一個使用者';
@@ -135,6 +135,7 @@ $string['autosubscribeyes'] = '要，當我發表文章時，訂閱該討論區�
 $string['availability'] = '可使用的';
 $string['availablecourses'] = '可使用課程';
 $string['back'] = '返回';
+$string['backtocourselisting'] = '回到課程列表';
 $string['backtoparticipants'] = '回到課程參與者清單';
 $string['backup'] = '備份';
 $string['backupactivehelp'] = '選擇是否進行自動備份';
@@ -188,8 +189,9 @@ $string['cancelled'] = '被取消';
 $string['categories'] = '課程類別';
 $string['category'] = '類別';
 $string['categoryadded'] = '新增類別:名稱 $a';
-$string['categorydeleted'] = '刪除類別:名稱 $a';
-$string['categoryduplicate'] = '類別名稱 $a 已經存在';
+$string['categorydeleted'] = '已刪除{$a}類別';
+$string['categoryduplicate'] = '名為{$a}類別已經存在！';
+$string['categorymodifiedcancel'] = '類別已經修改！請取消並且再試一次。';
 $string['categoryname'] = '類別名稱';
 $string['categoryupdated'] = '類別\'{$a}\'已經更新';
 $string['changedpassword'] = '更改後的密碼';
@@ -266,8 +268,10 @@ $string['courseavailablenot'] = '這個課程是目前無法使用';
 $string['coursebackup'] = '課程備份';
 $string['coursecategories'] = '課程分類';
 $string['coursecategory'] = '課程分類';
-$string['coursecreators'] = '開課教師';
-$string['coursecreatorsdescription'] = '課程管理員可以建立新課程並且參與授課。';
+$string['coursecategorydeleted'] = '刪除課程類別{$a}';
+$string['coursecreators'] = '課程管理員';
+$string['coursecreatorsdescription'] = '課程管理員可以建立新課程，並且參與授課或指派教師。';
+$string['coursedeleted'] = '已經刪除{$a}課程';
 $string['courseenrolenddate'] = '課程註冊結束的日期';
 $string['courseenrolstartdate'] = '課程註冊開始的日期';
 $string['coursefiles'] = '課程檔案';
@@ -281,32 +285,42 @@ $string['coursemessage'] = '傳訊給課程使用者';
 $string['coursenotaccessible'] = '這門課程不允許公開參與';
 $string['courseoverview'] = '課程概要';
 $string['courseoverviewgraph'] = '課程總覽圖';
-$string['coursereject'] = '駁回開課申請';
-$string['courserejected'] = '課程已駁回且已通知課程申請者。';
+$string['coursereasonforrejecting'] = '駁回申請的理由';
+$string['coursereasonforrejectingemail'] = '將寄電子郵件給申請者';
+$string['coursereject'] = '拒絕此開課申請';
+$string['courserejected'] = '開課申請已拒絕，並且通知了申請者。';
 $string['courserejectemail'] = '抱歉，您申請的課程已遭駁回。理由如下：
 
-$a';
+{$a}';
 $string['courserejectreason'] = '簡述您駁回此課程的理由<br/>(此理由將email給申請者）。';
-$string['courserejectsubject'] = '您的課程已遭駁回';
+$string['courserejectsubject'] = '您的開課申請被拒絕了';
+$string['coursereports'] = '課程報表';
 $string['courserequest'] = '開課申請';
-$string['courserequestfailed'] = '因故未儲存您的課程申請。';
+$string['courserequestdetails'] = '您申請課程的細節';
+$string['courserequestdisabled'] = '抱歉，管理者已將課程申請功能取消';
+$string['courserequestfailed'] = '因故無法儲存您的課程申請。';
 $string['courserequestintro'] = '使用此表格申請您要建立的課程。<br/>請您儘可能填寫完整的資料，讓管理者可以明白您申請這個課程的理由。';
-$string['courserequestreason'] = '申請課程理由';
+$string['courserequestreason'] = '申請此課程的理由';
 $string['courserequestsuccess'] = '已成功儲存您的開課申請資料。近日內，您將會收到審核結果的通知郵件。';
+$string['courserequestsupport'] = '提供審查此申請的輔助資料，讓我們可以明白您申請這個課程的理由。';
 $string['courserestore'] = '還原課程';
 $string['courses'] = '課程';
 $string['coursescategory'] = '同類別的課程';
+$string['coursesettings'] = '課程預設設定';
+$string['coursesmovedout'] = '將課程由{$a}移出';
 $string['coursespending'] = '待審核的開課申請';
 $string['coursestaught'] = '我教過的課程';
 $string['courseupdates'] = '更新課程';
 $string['courseuploadlimit'] = '課程上傳限制';
 $string['create'] = '建立';
 $string['createaccount'] = '建立新帳號';
+$string['createcategory'] = '建立類別';
 $string['createfolder'] = '在 {$a} 建立一個新資料夾';
 $string['createuserandpass'] = '請選擇您的帳號名稱和密碼';
 $string['createziparchive'] = '產生壓縮檔';
 $string['creatingblocks'] = '建立區塊';
 $string['creatingblocksroles'] = '建立區塊層級的角色指派與覆蓋';
+$string['creatingblogsinfo'] = '建立部落格資訊';
 $string['creatingcategoriesandquestions'] = '建立問題類別和題目';
 $string['creatingcoursemodules'] = '建立課程模組';
 $string['creatingcourseroles'] = '建立課程層級的角色指派與覆蓋';
@@ -364,10 +378,13 @@ $string['defaultcourseteacherdescription'] = '教師可以在課程中執行任�
 $string['defaultcourseteachers'] = '教師們';
 $string['delete'] = '刪除';
 $string['deleteall'] = '全部刪除';
+$string['deleteallcannotundo'] = '刪除全部--無法還原';
 $string['deleteallcomments'] = '刪除所有意見';
 $string['deleteallratings'] = '刪除所有分級';
+$string['deletecategory'] = '刪除類別：{$a}';
 $string['deletecategorycheck'] = '您十分肯定要將這個<b>\'{$a}\'</b>目錄完全刪除嗎?
 這將會把所有課程移到父目錄(如果有的話)中，或者移到Miscellaneous。';
+$string['deletecategoryempty'] = '此類別是空的';
 $string['deletecheck'] = '刪除 {$a} 嗎？';
 $string['deletecheckfiles'] = '您確定要刪除這些檔案？';
 $string['deletecheckfull'] = '您確定要完全刪除 {$a} 嗎？';
@@ -436,7 +453,7 @@ $string['editorhelptopics'] = '編輯器說明主題。';
 $string['editorresettodefaults'] = '重設成預設值';
 $string['editorsettings'] = '編輯器設定';
 $string['editorshortcutkeys'] = '編輯器快捷鍵';
-$string['editsummary'] = '編輯總結';
+$string['editsummary'] = '編輯概要';
 $string['editthisactivity'] = '編輯本教學活動';
 $string['editthiscategory'] = '編輯類別';
 $string['edituser'] = '帳號管理';
@@ -539,10 +556,10 @@ $string['enrollfirst'] = '您必須先註冊一個課程才能使用這個網站
 $string['enrolme'] = '將我加入此課程';
 $string['enrolmentconfirmation'] = '您即將加入成為這個課程的成員。 <br/>您確定要這麼做嗎？';
 $string['enrolmentend'] = '選課結束';
-$string['enrolmentkey'] = '課程專屬密碼';
-$string['enrolmentkeyfrom'] = '本課程需要 課程專屬密碼 - 僅需輸入一次<br />密碼請向開課教師{$a}索取';
-$string['enrolmentkeyfromguest'] = '這個課程需要 \'課程密碼\' - 身為訪客的您<br />每次進入課程時，需要輸入它。您應該從 {$a} 獲得這個密碼。';
-$string['enrolmentkeyhint'] = '所輸入的課程專屬密碼不正確, 請重新輸入<br />(提示 - 以{$a}為開頭)';
+$string['enrolmentkey'] = '選課密碼';
+$string['enrolmentkeyfrom'] = '本課程需要 選課密碼 - 僅需輸入一次<br />密碼請向開課教師{$a}索取';
+$string['enrolmentkeyfromguest'] = '這個課程需要 \'選課密碼\' - 身為訪客的您<br />每次進入課程時，需要輸入它。您應該從 {$a} 獲得這個密碼。';
+$string['enrolmentkeyhint'] = '所輸入的選課密碼不正確, 請重新輸入<br />(提示 - 以{$a}為開頭)';
 $string['enrolmentnew'] = '{$a}中新註冊的';
 $string['enrolmentnewuser'] = '{$a->user}已經註冊\"{$a->course}\"這個課程';
 $string['enrolmentnointernal'] = '手動加入課程未啟用';
@@ -560,32 +577,32 @@ $string['errortoomanylogins'] = '抱歉, 已經超過允許的重複輸入次數
 $string['errorwhenconfirming'] = '目前尚未被認可，因為有些錯誤發生。';
 $string['everybody'] = '所有人';
 $string['executeat'] = '執行於';
-$string['existing'] = '目前';
-$string['existingadmins'] = '目前管理員';
+$string['existing'] = '現有的';
+$string['existingadmins'] = '現有網站管理員';
 $string['existingcourse'] = '現有課程';
 $string['existingcourseadding'] = '新增資料至現有課程';
 $string['existingcoursedeleting'] = '刪除現有課程';
-$string['existingcreators'] = '現有開課教師';
-$string['existingstudents'] = '目前的學生';
-$string['existingteachers'] = '具本課程教師權限者';
-$string['expirynotify'] = '修課過期通知';
+$string['existingcreators'] = '現有的課程管理員';
+$string['existingstudents'] = '已註冊選課的學生';
+$string['existingteachers'] = '現有的教師';
+$string['expirynotify'] = '修課期滿通知';
 $string['expirynotifyemail'] = '課程中，下列的學生已經過期了 $a->threshold 天：
 
 $a->current
 
-而下列學生再過 $a->threshold 天就過期了：
+而下列學生再過 $a->threshold 天就到期了：
 
 $a->past
 
-您可以透過下面網址來延常他們的修課期限：
+您可以透過下面網址來延長他們的修課期限：
 $a->extendurl';
-$string['expirynotifystudents'] = '提醒學生';
+$string['expirynotifystudents'] = '是否提醒學生';
 $string['expirynotifystudentsemail'] = '親愛的學生：
 
-這是通知您在課程{$a->course}的修課期間再過{$a->threshold}天就過期了。
+這是通知您在課程{$a->course}的修課期間再過{$a->threshold}天後就到期了。
 
 請聯絡您的教師{$a->teacherstr}以取得協助。';
-$string['expirythreshold'] = '門檻值';
+$string['expirythreshold'] = '期滿前幾天提醒';
 $string['explanation'] = '說明';
 $string['extendenrol'] = '延長修課期限';
 $string['extendperiod'] = '延長修課期限';
@@ -929,6 +946,7 @@ $string['mostrecently'] = '最近';
 $string['move'] = '搬移';
 $string['movecategorycontentto'] = '搬入';
 $string['movecategoryto'] = '搬移類別到：';
+$string['movecontentstoanothercategory'] = '將內容搬移至其他類別';
 $string['movecourseto'] = '搬移課程到：';
 $string['movedown'] = '往下移';
 $string['movefilestohere'] = '將檔案移到此目錄下';
@@ -1035,6 +1053,7 @@ $string['noresults'] = '沒有結果';
 $string['normal'] = '標準的';
 $string['normalfilter'] = '標準搜尋';
 $string['nosite'] = '找不到網站層級的課程';
+$string['nostatstodisplay'] = '抱歉，沒有資料可以顯示。';
 $string['nostudentsfound'] = '$a 未被找到';
 $string['nostudentsingroup'] = '在這個組中尚未有學生';
 $string['nostudentsyet'] = '本課程還沒有學生登入';
@@ -1116,6 +1135,7 @@ $string['paymentrequired'] = '這個課程需要付費才能進入。';
 $string['payments'] = '付款';
 $string['paymentsorry'] = '謝謝您的繳費!不幸地您的繳費沒有完全處理完成，而且您還沒到課程\"$a->fullname\"註冊。請稍後再嘗試繼續課程，但假如您仍然有問題，請通知$a->teacher老師或網站管理員。';
 $string['paymentthanks'] = '謝謝惠顧!您已經註冊這個課程了:<br/>\"$a\"';
+$string['pendingrequests'] = '待審的開課申請';
 $string['people'] = '使用者';
 $string['periodending'] = '結束時間 ($a)';
 $string['personal'] = '個人的';
@@ -1157,7 +1177,8 @@ $string['publicdirectory1'] = '僅公開這個網站的名稱';
 $string['publicdirectory2'] = '公開這個網站的名稱並加上超連結';
 $string['publicdirectorytitle'] = '檢視目前網站清單';
 $string['publicsitefileswarning'] = '注意：任何人都可存取放在此處的檔案';
-$string['question'] = '問題';
+$string['question'] = '試題';
+$string['questionsinthequestionbank'] = '題庫中的試題';
 $string['readinginfofrombackup'] = '讀取備份資訊';
 $string['readme'] = '說明';
 $string['recentactivity'] = '最近活動紀錄';
@@ -1176,7 +1197,9 @@ $string['registrationno'] = '不，我不要收到電子郵件';
 $string['registrationsend'] = '傳送註冊資訊到Moodle主站';
 $string['registrationyes'] = '是的，請提醒我有關的重要事件';
 $string['reject'] = '駁回';
+$string['rejectdots'] = '駁回...';
 $string['reload'] = '重新載入';
+$string['remoteappuser'] = '遠端的{$a}用戶';
 $string['remove'] = '移除';
 $string['removeadmin'] = '可能的管理員';
 $string['removecreator'] = '移除開課教師';
@@ -1244,7 +1267,7 @@ $string['screenreaderuse'] = '畫面朗讀';
 $string['screenreaderyes'] = '是';
 $string['screenshot'] = '畫面';
 $string['search'] = '搜尋';
-$string['searchagain'] = '重複搜尋';
+$string['searchagain'] = '再次搜尋';
 $string['searchcourses'] = '搜尋課程';
 $string['searchhelp'] = '您可以一次搜尋數個片語，使用+號或-號來表示';
 $string['searchresults'] = '搜尋結果';
@@ -1420,6 +1443,7 @@ $string['theme'] = '佈景主題';
 $string['themes'] = '佈景主題';
 $string['themesaved'] = '儲存新的顯示格式';
 $string['thereareno'] = '在此課程沒有 {$a}';
+$string['thiscategorycontains'] = '此類別包含';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
 $string['thislanguage'] = '正體中文';
@@ -1521,7 +1545,7 @@ $string['view'] = '檢視';
 $string['views'] = '檢視';
 $string['viewsolution'] = '看解答';
 $string['virusfound'] = '管理員請注意!Clam AV發現$a->course課程的$a->user使用者上傳的檔案有病毒。以下是clamscan的報告:';
-$string['virusfoundlater'] = '您在$a->course,於$a->date所上傳的$a->filename發現含有病毒。這裡是對您檔案所做的處理動作:
+$string['virusfoundlater'] = '您在$a->course，於$a->date所上傳的$a->filename發現含有病毒。這裡是對您檔案所做的處理動作:
 $a->action
 
 如果這是繳交的作業，您可重新繳交，
@@ -1553,6 +1577,7 @@ $string['welcometocoursetext'] = '歡迎進入 $a->coursename!
 
   $a->profileurl';
 $string['whattocallzip'] = '您要如何命名這個ZIP檔案?';
+$string['whattodo'] = '要做什麼';
 $string['withchosenfiles'] = '將選定的檔案';
 $string['withoutuserdata'] = '不含使用者資料';
 $string['withselectedusers'] = '對選擇的使用者...';
@@ -1562,7 +1587,7 @@ $string['wordforstudenteg'] = '例如 學生, 夥伴 等';
 $string['wordforstudents'] = '學生們的稱呼';
 $string['wordforstudentseg'] = '例如 學生們, 夥伴們 等';
 $string['wordforteacher'] = '教師的稱謂';
-$string['wordforteachereg'] = '例如 老師, 助教等';
+$string['wordforteachereg'] = '例如 教師、講師、輔導員等';
 $string['wordforteachers'] = '教師們的稱謂';
 $string['wordforteacherseg'] = '例如 老師們, 助教們等';
 $string['writingblogsinfo'] = '寫入部落格資訊';
@@ -1593,8 +1618,6 @@ $string['yourlastlogin'] = '您最後登入的時間';
 $string['yourself'] = '您自己';
 $string['yourteacher'] = '您的教師 $a';
 $string['zippingbackup'] = '壓縮備份資料中';
-$string['courserequestdisabled'] = '抱歉，管理者已將課程申請取消'; // ORPHANED
-$string['nostatstodisplay'] = '抱歉，沒有資料可以顯示。'; // ORPHANED
 $string['remotemaharauser'] = '遠端的 Mahara 使用者'; // ORPHANED
 $string['skiptomaincontent'] = '跳到主要內容'; // ORPHANED
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // hotpot.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['abandoned'] = '放棄';
@@ -24,6 +24,7 @@ $string['copytoclipboard'] = '複製到剪貼簿';
 $string['correct'] = '正確';
 $string['deleteabandoned'] = '刪除被放棄的';
 $string['deleteabandonedcheck'] = '您確定要刪除所有{$a}放棄的作答嗎?';
+$string['deleteallattempts'] = '刪除全部作答紀錄';
 $string['displaycoursenext'] = '顯示課程的下一頁';
 $string['displayhotpotnext'] = '顯示下一個Hot Potatoes測驗';
 $string['displayindexnext'] = '顯示下一個Hot Potatoes索引';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // xmldb.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['aftertable'] = '放在此資料表後：';
@@ -114,6 +114,7 @@ $string['vieworiginal'] = '檢視';
 $string['viewphpcode'] = '檢視PHP程式碼';
 $string['viewsqlcode'] = '檢視SQL語法';
 $string['wrong'] = '錯誤';
+$string['wrongdefaults'] = '發現錯誤的預設值';
 $string['wrongints'] = '發現錯誤的整數資料';
 $string['wronglengthforenum'] = '列舉(enum)欄位的長度不正確';
 $string['wrongnumberoffieldsorvalues'] = '子句中欄位或值的數量不正確';

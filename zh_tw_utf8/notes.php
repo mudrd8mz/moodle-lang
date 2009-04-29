@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // notes.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addnewnote'] = '加入新筆記';
@@ -12,6 +12,7 @@ $string['created'] = '已建立';
 $string['deleteconfirm'] = '刪除筆記嗎？';
 $string['deletenotes'] = '刪除所有筆記';
 $string['editnote'] = '編輯筆記';
+$string['enablenotes'] = '啟用筆記功能';
 $string['groupaddnewnote'] = '為所有人增加筆記';
 $string['nocontent'] = '筆記內容不能是空的';
 $string['nonotes'] = '還沒有這種類型的筆記';

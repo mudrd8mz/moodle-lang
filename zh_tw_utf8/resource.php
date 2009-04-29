@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // resource.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addresource'] = '新增資源';
@@ -55,6 +55,9 @@ $string['fulltext'] = '文字內容';
 $string['htmlfragment'] = '網頁片段';
 $string['imspackageloaded'] = '教材包已載入';
 $string['keepnavigationvisible'] = '保留導覽列在同一頁面上';
+$string['keepnavigationvisibleno'] = '不要';
+$string['keepnavigationvisibleyesframe'] = '要，包含頁框';
+$string['keepnavigationvisibleyesobject'] = '要，沒有頁框';
 $string['localfile'] = '本機檔案';
 $string['localfilechoose'] = '選擇一個本機檔案(CD-ROM)';
 $string['localfilehelp'] = '幫助顯示本機檔案';

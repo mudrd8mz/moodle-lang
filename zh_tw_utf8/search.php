@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // search.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['advancedsearch'] = '進階搜尋';
@@ -29,9 +29,9 @@ $string['emptydatabaseerror'] = '資料表現在不存在，或沒有任何索�
 $string['enteryoursearchquery'] = '請輸入您的查詢條件';
 $string['errors'] = '錯誤';
 $string['filesinindexdirectory'] = '索引目錄中的檔案';
-$string['globalsearchdisabled'] = '全網域搜尋未啟用';
+$string['globalsearchdisabled'] = '全站搜尋未啟用';
 $string['invalidindexerror'] = '索引目錄也許包含無效的索引，或是什麼都沒有';
-$string['ittook'] = '接受';
+$string['ittook'] = '花了';
 $string['next'] = '下一步';
 $string['noindexmessage'] = '管理者：似乎沒有查詢的索引。請';
 $string['normalsearch'] = '一般搜尋';
@@ -49,11 +49,11 @@ $string['thesewordshelpimproverank'] = '這些關鍵字有助於提升排名';
 $string['thesewordsmustappear'] = '這些關鍵字一定要';
 $string['thesewordsmustnotappear'] = '這些關鍵字一定不要';
 $string['title'] = '標題';
-$string['tofetchtheseresults'] = '獲取這些結果';
+$string['tofetchtheseresults'] = '獲得這些結果';
 $string['totalsize'] = '總大小';
 $string['type'] = '類型';
 $string['uncompleteindexingerror'] = '索引不成功！請重新啟動';
-$string['versiontoolow'] = '抱歉！全域搜尋的功能需要具備PHP 5.0.0或更高的版本。';
+$string['versiontoolow'] = '抱歉！全站搜尋的功能需要具備PHP 5.0.0或更高的版本。';
 $string['whichmodulestosearch?'] = '在哪一個模組中搜尋？';
 $string['wordsintitle'] = '標題的字數';
 

@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
+      // quiz_overview.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['allattempts'] = '顯示所有作答紀錄';
+$string['allattemptscontributetograde'] = '全部作答都算到最後成績';
 $string['allstudents'] = '顯示所有{$a}';
 $string['attemptsonly'] = '只顯示{$a}作答過的';
 $string['attemptsprepage'] = '每頁顯示的作答記錄';

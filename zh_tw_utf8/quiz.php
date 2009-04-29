@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
+      // quiz.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['1day'] = '一天';
@@ -428,6 +428,7 @@ $string['quiz:grade'] = '人工閱卷';
 $string['quiz:ignoretimelimits'] = '忽略測驗的時間限制';
 $string['quiz:manage'] = '管理測驗';
 $string['quiz:preview'] = '預覽測驗';
+$string['quiz:reviewmyattempts'] = '回顧您自己的作答紀錄';
 $string['quiz:view'] = '檢視測驗資訊';
 $string['quiz:viewreports'] = '檢視測驗報告';
 $string['quizavailable'] = '截止作答日期: $a';

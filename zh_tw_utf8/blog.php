@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
+      // blog.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addnewentry'] = '新增文章';
@@ -27,7 +27,7 @@ $string['entryupdated'] = '部落格文章更新了';
 $string['groupblog'] = '群組部落格： $a';
 $string['groupblogs'] = '使用者只能夠在人們分享一個群組時檢視部落格';
 $string['intro'] = '這個 RSS 內容會自動由一或多個部落格產生。';
-$string['noentriesyet'] = '這裡沒有可顯示文章';
+$string['noentriesyet'] = '目前沒有內容';
 $string['noguestpost'] = '訪客無法發佈部落格文章！';
 $string['norighttodeletetag'] = '您沒有刪除這個標籤的權限 - $a';
 $string['notallowedtoedit'] = '您沒有編輯這篇文章的權限';
@@ -41,7 +41,7 @@ $string['publishtonoone'] = '您自己（草稿）';
 $string['publishtosite'] = '網站上任何人';
 $string['publishtoworld'] = '世界任何人';
 $string['settingsupdatederror'] = '發生一個錯誤，部落格設定無法更新';
-$string['siteblog'] = '網站部落格： $a';
+$string['siteblog'] = '網站部落格：{$a}';
 $string['siteblogs'] = '所有網站使用者可以檢視所有部落格文章';
 $string['tagdatelastused'] = '上次使用的日期標籤';
 $string['tags'] = '標籤';
@@ -49,7 +49,7 @@ $string['tagsort'] = '排序標籤規則';
 $string['tagtext'] = '標籤文字';
 $string['timewithin'] = '顯示指定天數內使用的標籤';
 $string['updateentrywithid'] = '更新文章';
-$string['userblog'] = '使用者部落格： $a';
+$string['userblog'] = '使用者部落格：{$a}';
 $string['viewcourseentries'] = '檢視課程文章';
 $string['viewmyentries'] = '檢視我的文章';
 $string['viewsiteentries'] = '檢視網站文章';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // glossary.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addcomment'] = '新增註解';
@@ -104,6 +104,7 @@ $string['explainimport'] = '您必須指明檔名來匯入，並且定義流程�
 $string['explainspecial'] = '顯示沒有由英文字母開頭的條目';
 $string['exportedentry'] = '匯出的條目';
 $string['exportentries'] = '匯出條目';
+$string['exportentriestoxml'] = '匯出條目為XML檔案';
 $string['exportfile'] = '將條目匯出到檔案';
 $string['exportglossary'] = '匯出辭典';
 $string['exporttomainglossary'] = '匯出到主要辭典';

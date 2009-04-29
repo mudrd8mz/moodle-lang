@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // error.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['adminprimarynoedit'] = '其他人不能修改最高管理員的資料';
@@ -78,6 +78,7 @@ $string['nologinas'] = '您不可以登入為此使用者';
 $string['nonmeaningfulcontent'] = '沒有實質內容';
 $string['noparticipatorycms'] = '抱歉，您沒有可以分享的課程模組。';
 $string['nopermissions'] = '抱歉，但是您目前沒有權限執行({$a})';
+$string['nostatstodisplay'] = '抱歉，目前沒有資料可以顯示。';
 $string['notavailable'] = '目前無法使用';
 $string['onlyadmins'] = '只有管理者可以這麼做';
 $string['onlyeditingteachers'] = '只有擁有修改權的教師才能使用此功能。';
@@ -99,6 +100,7 @@ $string['tagnotfound'] = '資料庫中找不到指定的標籤';
 $string['unicodeupgradeerror'] = '抱歉，您的資料庫並非使用萬國字元，而這個版本的 Moodle 無法轉換您的資料庫，請先升級到 Moodle 1.7.x 並且透過管理頁面執行萬國字元轉換，接著您應該就可以升級為 Moodle $a';
 $string['unknowncourse'] = '不明的課程名稱： $a';
 $string['unknowncourseidnumber'] = '不明的課程 ID \"$a\"';
+$string['unknowncourserequest'] = '不明的開課申請';
 $string['unknowngroup'] = '不明的群組 \"$a\"';
 $string['unknownrole'] = '不明的角色\"$a\"';
 $string['unknownuseraction'] = '很遺憾，我不明白這位使用者的活動';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
+      // chat.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['autoscroll'] = '自動捲動';

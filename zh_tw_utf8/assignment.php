@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
+      // assignment.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['allowdeleting'] = '是否允許學生刪除作業';
 $string['allowmaxfiles'] = '允許上傳檔案的最大數目';
-$string['allownotes'] = '是否允許加註釋';
+$string['allownotes'] = '是否允許加上註解';
 $string['allowresubmit'] = '是否允許重新繳交';
 $string['alreadygraded'] = '您的作業已經評分完畢，不允許重新繳交！';
 $string['assignment:grade'] = '作業評分';
@@ -12,9 +12,11 @@ $string['assignment:submit'] = '繳交作業';
 $string['assignment:view'] = '檢視作業';
 $string['assignmentdetails'] = '作業詳細說明';
 $string['assignmentmail'] = '{$a->teacher} 老師對您的作業 {$a->assignment} 給了意見回饋。
+
 您可以在作業後面看到它。網址如下： 
+
 $a->url';
-$string['assignmentmailhtml'] = '{$a->teacher}老師對您的作業 \'<i>$a->assignment</i>\' 給了意見回饋。<br /><br />　您可以在　<a href=\"$a->url\">您的作業</a>　後面看到這些回饋。';
+$string['assignmentmailhtml'] = '{$a->teacher}老師對您的作業 \"<i>{$a->assignment}</i>\"給了意見回饋。<br /><br />　您可以在　<a href=\"{$a->url}\">您的作業</a>　後面看到這些回饋。';
 $string['assignmentname'] = '作業名稱';
 $string['assignmenttype'] = '作業類型';
 $string['availabledate'] = '開始日期';
@@ -34,11 +36,12 @@ $string['duedateno'] = '未過期';
 $string['early'] = '$a 之前';
 $string['editmysubmission'] = '修改繳交的作業';
 $string['emailstudents'] = '用電子郵件提醒學生';
-$string['emailteachermail'] = '{$a->username}已經更新他繳交的\'{$a->assignment}\'作業
+$string['emailteachermail'] = '{$a->username}已經更新他繳交的\"{$a->assignment}\"作業 
 
-可以在點按下列網址查閱：
+可以在點按下列網址查閱： 
+
 $a->url';
-$string['emailteachermailhtml'] = '{$a->username}已經更新<i>\'{$a->assignment}\'</i>作業。新的內容可以 <a href=\"$a->url\">點按此處</a> 查閱。';
+$string['emailteachermailhtml'] = '{$a->username}已經更新<i>\"{$a->assignment}\"</i>作業。新的內容可以 <a href=\"{$a->url}\">點按此處</a> 查閱。';
 $string['emailteachers'] = '電子郵件通知教師';
 $string['emptysubmission'] = '您尚未繳交任何作業';
 $string['enableemailnotification'] = '寄發通知郵件';
