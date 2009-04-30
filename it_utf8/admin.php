@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090429) (2009042700)
 
 
 $string['accessdenied'] = 'Accesso negato';
 $string['accounts'] = 'Profili';
 $string['adminseesall'] = 'Eventi degli amministratori';
 $string['adminseesallevents'] = 'Gli amministratori visualizzano tutti gli eventi';
-$string['adminseesownevents'] = 'Gli amministratori visualizzano i propri eventi';
+$string['adminseesownevents'] = 'Gli amministratori visualizzano solo i propri eventi';
 $string['advancedfeatures'] = 'Funzionalità avanzate';
 $string['allowbeforeblock'] = 'L\'elenco degli indirizzi autorizzati sarà elaborato per primo';
 $string['allowbeforeblockdesc'] = 'Per default l\'elenco degli IP bloccati viene elaborato per primo. Se abilitate questa opzione, allora sarà elaborato per primo l\'elenco degli IP autorizzati.';
@@ -98,7 +98,7 @@ In ogni caso, gli Amministratori verranno avvisati se Clam antivirus dovesse and
 Se scegliete \'Considera i file infetti\' e per qualche motivo Clam antivirus dovesse andare in errore (spesso avviene se il valore di pathtoclam è errato), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o eliminati. Si consiglia di impostare questa variabile con molta attenzione!';
 $string['configcookiehttponly'] = 'Abilita le caratteristiche del PHP 5.2.0. I browser verranno obbligati ad inviare cookie solo tramite protocollo http, in modo da non consentire l\'accesso ai cookie da linguaggi di scripting. Non tutti i browser supportano questa caratteristica che potrebbe non essere compatibile con l\'attuale codice. Questa impostazione aiuta a prevenire alcuni tipi di attacchi XSS.';
 $string['configcookiesecure'] = 'Se il server accetta solamente connessioni https, allora è opportuno abilitare l\'invio di cookie sicuri. Se abilitate questa impostazione, accertatevi che il server web non accetti connessioni http://, oppure impostate un reindirizzamento permanente al protocollo https://. Nel caso in cui l\'indirizzo specificato per <em>wwwroot</em> nella config.php non contenga https://, questa impostazione sarà automaticamente disabilitata.';
-$string['configcountry'] = 'Il Paese da utilizzare di default nella pagine di creazione di un nuovo account utente. Se non impostate un Paese di default, il campo diventerà a a compilazione obbligatoria.';
+$string['configcountry'] = 'Il Paese che comparirà per default nelle pagine di creazione di un nuovo account utente. Se non impostate un Paese di default, il campo diventerà a a compilazione obbligatoria.';
 $string['configcoursemanager'] = 'Questa impostazione permette di controllare chi appare nella descrizione del corso. Gli utenti devono avere almeno uno di questi ruoli in un corso per essere mostrati nella descrizione di quel corso.';
 $string['configcourserequestnotify'] = 'E\' possibile indicare lo username dell\'utente da avvertire in presenza di richieste di nuovi corsi.';
 $string['configcourserequestnotify2'] = 'Gli utenti da avvertire in presenza di domande per Corsi a richiesta. L\'elenco riporta solo gli utenti che hanno il privilegio di approvare Corsi a richiesta.';
@@ -122,7 +122,7 @@ $string['configdeleteincompleteusers'] = 'Dopo questo periodo, i vecchi account 
 $string['configdeleteunconfirmed'] = 'Se state usando l\'autenticazione e-mail, questo parametro imposta il periodo in cui sarà  accettata la risposta dagli utenti. Dopo questo periodo, gli utenti non confermati vengono eliminati.';
 $string['configdenyemailaddresses'] = 'Se si desidera evitare l\'uso di email provenienti da determinati domini, elencate i domini non autorizzati in questa impostazione. Qualsiasi email proveniente da domini non presenti nell\'elenco potrà invece essere utilizzata. Per includere anche i sotto domini, elencare il dominio precedendolo con \'.\'. Ad esempio, <strong>hotmail.com .yahoo.co.uk.live</strong>';
 $string['configdigestmailtime'] = 'Agli utenti che hanno scelto la modalità  \'invio e-mail come raccolta quotidiana\', verrà inviata quotidianamente la raccolta dei messaggi. Questa impostazione regola l\'ora di invio della raccolta (il cron attivo nell\'ora seguente a questa impostazione invierà i dati richiesti).';
-$string['configdisablecourseajax'] = 'Non usare AJAX quando si modificano pagine  del corso principale.';
+$string['configdisablecourseajax'] = 'Non usare AJAX durante la modifica delle home page dei corsi.';
 $string['configdisableuserimages'] = 'Disabilita la possibilità per gli utenti di cambiare le immagini del profilo.';
 $string['configdisplayloginfailures'] = 'Visualizza informazioni sul mancato login degli utenti selezionati.';
 $string['configdocroot'] = 'Definisce il percorso per la Documentazione di Moodle. Potete cambiare questa impostazione se volete avere la vostra documentazione in linea personalizzata. Comunque, se lo fate, accertatevi che il percorso della vostra documentazione segua lo stesso formato come su http://docs.moodle.org.';
@@ -707,8 +707,8 @@ $string['profilename'] = 'Nome';
 $string['profilenofieldsdefined'] = 'Non ci sono campi personalizzati';
 $string['profilerequired'] = 'Compilazione obbligatoria?';
 $string['profilesforenrolledusersonly'] = 'Profili utente accessibili solo per gli iscritti ai corsi';
-$string['profileshortname'] = 'Nome breve (deve essere unico)';
-$string['profileshortnamenotunique'] = 'Nome breve già in uso';
+$string['profileshortname'] = 'Nome abbreviato (univoco)';
+$string['profileshortnamenotunique'] = 'Nome abbreviato già in uso';
 $string['profilesignup'] = 'Da compilare nella pagina di creazione account?';
 $string['profilespecificsettings'] = 'Impostazioni specifiche';
 $string['profilevisible'] = 'A chi è visibile il campo?';
