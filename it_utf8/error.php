@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090424) (2009041700)
+      // error.php - created with Moodle 2.0 dev (Build: 20090429) (2009042700)
 
 
 $string['TODO'] = 'TODO';
@@ -195,6 +195,7 @@ $string['ddlfieldnotexist'] = 'Il campo \"$a->fieldname\" non esiste nella tabel
 $string['ddltablealreadyexists'] = 'La tabella \"$a\" esiste già';
 $string['ddltablenotexist'] = 'La tabella \"$a\" non esite';
 $string['ddlunknownerror'] = 'Si è verificato un errore sconosciuto nella libreria DDL';
+$string['ddlunsupportedenums'] = 'Il campo \"$a\" contiene informazioni enum. il supporto enum è stato abbandonato in Moodle 2.0. Modificate il vostro codice per evitarne l\'uso. Se state usando enum, negli script di upgrade utilizzate $dbman->change_field_enum($table, $field) per eliminarli il prima possibile.';
 $string['ddlxmlfileerror'] = 'Sono stati rilevati errori nel file XML del database';
 $string['destinationcmnotexit'] = 'Il modulo destinazione del corso non esiste';
 $string['detectedbrokenplugin'] = 'Il plugin \"$a\" è difettoso, non è possibile proseguire';

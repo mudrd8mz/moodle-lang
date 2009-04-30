@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090302) (2009021800)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090429) (2009042700)
 
 
 $string['actual'] = 'Attuale';
@@ -89,6 +89,7 @@ $string['keys'] = 'Chiavi';
 $string['listreservedwords'] = 'Lista delle Parole Riservate<br/>(utilizzato per mantenere aggiornato <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
 $string['load'] = 'Carica';
 $string['main_view'] = 'Vista Principale';
+$string['masterprimaryuniqueordernomatch'] = 'I campi nella tua foreign key devono essere elencati nello stesso ordine in cui sono elencati nella UNIQUE KEY della tabella referenziata.';
 $string['missing'] = 'Mancanti';
 $string['missingfieldsinsentence'] = 'Mancano campi nella clausola';
 $string['missingindexes'] = 'Sono stati individuati indici mancanti';
@@ -106,6 +107,7 @@ $string['newsentence'] = 'Nuova clausola';
 $string['newstatement'] = 'Nuova dichiarazione';
 $string['newtable'] = 'Nuova tabella';
 $string['newtablefrommysql'] = 'Nuova tabella da MySQL';
+$string['nomasterprimaryuniquefound'] = 'La(e) colonna(e) referenziata dalla tua foreign key deve essere inclusa in una primary o unique KEY della tabella referenziata. Da notare che la colonna in UNIQUE INDEX non è sufficiente.';
 $string['nomissingindexesfound'] = 'Non sono stati individuati indici mancanti. Il vostro DB non ha bisogno di altre azioni.';
 $string['noviolatedforeignkeysfound'] = 'Non sono state individuate violazioni di Foreign key';
 $string['nowrongdefaultsfound'] = 'Non sono stati individuati valori di default inconsistenti. Il vostro DB non ha bisogno di altre azioni.';

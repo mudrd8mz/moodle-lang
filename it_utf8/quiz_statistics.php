@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20090410) (2009040100)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20090429) (2009042700)
 
 
 $string['allattempts'] = 'tutti i tentativi';
@@ -21,6 +21,14 @@ $string['discriminative_efficiency'] = 'Efficienza discriminativa';
 $string['downloadeverything'] = 'Download report completo come';
 $string['duration'] = 'Aperto per';
 $string['effective_weight'] = 'Peso effettivo';
+$string['errordeleting'] = 'Si è verificato un errore durante l\'eliminazione di $a vecchi record.';
+$string['erroritemappearsmorethanoncewithdifferentweight'] = 'La domanda ($a) è stata utilizzata più di una volta nello stesso test in diverse posizioni e con diversi pesi. Questa situazione al momento non è supportata dalla statistiche e potrebbe rendere i risultati non affidabili.';
+$string['errormedian'] = 'Si è verificato un errore ricavando la mediana';
+$string['errorpowerquestions'] = 'Si è verificato un errore ricavando i dati per il calcolo della varianza dei punteggi delle domande';
+$string['errorpowers'] = 'Si è verificato un errore ricavando i dati per il calcolo della varianza dei punteggi dei quiz';
+$string['errorrandom'] = 'Si è verificato un errore ricavando i dati del sotto elemento';
+$string['errorratio'] = 'Quoziente d\'errore (per $a)';
+$string['errorstatisticsquestions'] = 'Si è verificato un errore ricavando i dati per il calcolo delle statistiche   dei punteggi delle domande';
 $string['facility'] = 'Indice di facilità';
 $string['firstattempts'] = 'primi tentativi';
 $string['firstattemptsavg'] = 'Voto medio dei primi tentativi';
