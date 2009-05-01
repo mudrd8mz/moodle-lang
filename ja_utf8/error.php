@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090428) (2009042700)
+      // error.php - created with Moodle 2.0 dev (Build: 20090430) (2009043000)
 
 
 $string['TODO'] = 'TODO';
@@ -195,7 +195,6 @@ $string['ddlfieldnotexist'] = 'テーブル「 $a->tablename 」内にフィー�
 $string['ddltablealreadyexists'] = 'テーブル「 $a 」は、すでに登録されています。';
 $string['ddltablenotexist'] = 'テーブル「 $a 」がありません。';
 $string['ddlunknownerror'] = '不明なDDLライブラリエラーが発生しました。';
-$string['ddlunsupportedenums'] = 'フィールド「 $a 」には、enum情報が含まれています。Moodle 2.0では、enumのサポートが中止されました。enumを完全に回避するため、あなたのコードを修正してください。すでにenumを使用している場、あなたのアップグレードスクリプト内の \$dbman->change_field_enum(\$table, \$field); を使用して、すぐにenumの使用を中止してください。';
 $string['ddlxmlfileerror'] = 'XMLデータベースファイルにエラーが見つかりました。';
 $string['destinationcmnotexit'] = '目的のコースモジュールがありません。';
 $string['detectedbrokenplugin'] = '申し訳ございません、プラグイン「 $a 」に問題があるため、継続できません。';

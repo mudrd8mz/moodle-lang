@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090426) (2009042600)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090430) (2009043000)
 
 
 $string['activities'] = '活動';
@@ -176,6 +176,7 @@ $string['errornocalculationallowed'] = 'この項目の計算は、許可され�
 $string['errornocategorisedid'] = 'カテゴリなしIDを取得できませんでした!';
 $string['errornocourse'] = 'コース情報を取得できませんでした。';
 $string['errorreprintheadersnonnumeric'] = 'ヘッダの再表示の値が数値ではありません:';
+$string['errorsavegrade'] = '申し訳ございません、評定を保存できませんでした。';
 $string['errorupdatinggradecategoryaggregateonlygraded'] = '評定カテゴリID $a->id の「評定項目のみ総計する」設定更新中にエラーが発生しました。';
 $string['errorupdatinggradecategoryaggregateoutcomes'] = '評定カテゴリID $a->id の「アウトカムを総計する」設定更新中にエラーが発生しました。';
 $string['errorupdatinggradecategoryaggregatesubcats'] = '評定カテゴリID $a->id の「サブカテゴリを総計する」設定更新中にエラーが発生しました。';
