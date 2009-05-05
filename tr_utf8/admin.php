@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090505) (2009043000)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -51,6 +51,7 @@ $string['calendar_weekend'] = 'Haftasonu Günleri';
 $string['calendarexportsalt'] = 'Takvim dışa aktarım şifresi';
 $string['calendarsettings'] = 'Takvim';
 $string['cannotdeletemissingqtype'] = 'Eksik soru tipini silemezsiniz. Sistem için gerekli.';
+$string['cannotdeletemodfilter'] = '\'$a->filter\', \'$a->module\' eklentisinin bir parçası olduğundan kaldıramazsınız.';
 $string['cannotdeleteqtypeinuse'] = '$a soru tipini silemezsiniz. Soru bankasında bu tip sorular var.';
 $string['cannotdeleteqtypeneeded'] = '$a soru tipini silemezsiniz. Buna bağlı olan, kurulu başka soru tipleri var.';
 $string['cfgwwwrootslashwarning'] = 'config.php dosyasındaki &#36;CFG->wwwroot hatalı tanımlandı. En sonuna bir \'/\' karakteri yazdınız. Lütfen bunu silin. Yoksa bu hatayı alırsınız: <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
@@ -62,6 +63,7 @@ $string['checkboxyes'] = 'Evet';
 $string['choosefiletoedit'] = 'Düzenlenecek dosyayı seçin';
 $string['clamfailureonupload'] = 'ClamAV hata verdiğinde';
 $string['cleanup'] = 'Temizlik';
+$string['commonfiltersettings'] = 'Genel filtre ayarları';
 $string['commonsettings'] = 'Genel ayarlar';
 $string['componentinstalled'] = 'Bileşen Kuruldu';
 $string['computedfromlogs'] = '$a tarihinden itibaren oluşan kayıtlar.';
@@ -101,6 +103,7 @@ $string['configcronclionly'] = 'Bu ayarlanırsa, Cron betiği, web yerine sadece
 $string['configcronremotepassword'] = 'Cron.php betiği, aşağıdaki şekilde bir adres sağlanmazsa web üzerinden çalıştırılamaz.<pre>
 http://site.example.com/admin/cron.php?password=calistirmasifresi
 </pre>Bunu boş bırakırsanız, çalıştırmak için şifre gerekmez.';
+$string['configcurlcache'] = 'cURL önbelleği için saniye olarak yaşam süresi';
 $string['configdbsessions'] = 'Etkinse, kullanıcı oturumlarını saklamak için veritabanı kullanılacaktır. Bu, özellikle çok büyük/yoğun siteler veya küme sunuculardan (cluster) oluşan siteler için kullanışlıdır. Çoğu site bu ayarı muhtemelen kapalı tutuyor, bu durumda veritabanı yerine sunucu diski kullanılır. Bu ayarı şimdi değiştirmeniz şu anda oturumu açık olan tüm kullanıcıların (siz de dahil) çıkış yapmasına neden olacaktır. MySQL kullanıyorsanız lütfen, my.cnf (veya my.ini) dosyasındaki \'max_allowed_packet\' ayarın en az 4M olduğundan emin olun.';
 $string['configdebug'] = 'Bu seçeneği açık tutarsanız PHP\'deki error_reporting metodu daha fazla uyarı mesajı gösterecektir. Bu, sadece geliştiriciler için kullanışlıdır.';
 $string['configdebugdisplay'] = 'Açık tutarsanız hata raporlaması HTML sayfasına gidecek. Bu uygulanabilir; ancak XHTML, JavaScript, oturum bilgilerini ve HTTP başlıklarını genelde bozar. Kapalı tutarsanız, daha iyi hata ayıklamaya izin vererek çıktıyı sunucu kayıtlarına gönderir. Error_log PHP ayarı, bu hata kaydının nereye gideceğini kontrol eder.';
@@ -182,6 +185,7 @@ $string['configlongtimenosee'] = 'Öğrenciler uzun süre giriş yapmazlarsa der
 $string['configlookahead'] = 'Yaklaşan Günler';
 $string['configmailnewline'] = 'Posta mesajlarında yeni satır karakterleri kullanılılır. RFC 822bis\'e göre CRLF gerekir, bazı posta sunucuları LF\'den CRLF\'ye otomatik dönüştürme yaparken diğer posta sunucuları CRLF\'den CRCRLF\'ye yanlış dönüştürme yapar, öte yandan diğerleri yalın LF içeren postaları (örneğin qmail) reddeder. Gönderilemeyen e-posta ya da çift yeni satır sorunları yaşıyorsanız bu ayarı değiştirmeye çalışın.';
 $string['configmaxbytes'] = 'Bu siteye yüklenen dosyaların en fazla ne kadar boyutta olacağını belirtir. Bu ayar, PHP tarafından post_max_size ve upload_max_filesize ile, Apache tarafından LimitRequestBody ile sınırlandırılmıştır. Maxbytes sınırı ayrıca ders ve eklenti seviyesinde de ayarlanabilir.';
+$string['configmaxconsecutiveidentchars'] = 'Parolalar bu sayıdan daha fazla ardışık aynı karakter içermemelidir. Bu seçimi geçersiz kılmak için 0 kullanın.';
 $string['configmaxeditingtime'] = 'Bu ayar, kişilerin forum gönderileri ve sözlük yorumlarını ne kadar süre içinde tekrar düzenleyebileceğini tanımlar. Genellikle 30 dakika iyi bir değerdir.';
 $string['configmaxevents'] = 'Yaklaşan Gün Olayları';
 $string['configmemcachedhosts'] = 'Memcached için. Memcached daemonunda çalışan hostları virgülle ayırarak girin. DNS gecikmesinden kaçınmak için IP adreslerini kullanın. Hostları çalışan bir kuruluma ekler/çıkarırsanız, memcached doğru bir şekilde çalışmayabilir.';
@@ -303,6 +307,7 @@ $string['cronwarning'] = '<a href=\"cron.php\">cron.php bakım programı</a> son
 $string['csvdelimiter'] = 'CSV ayracı';
 $string['ctyperecommended'] = 'Site başarımını arttırmak için, özellikle siteniz Latince kökenli olmayan dilleri destekliyorsa, seçimli ctype PHP uzantısını yüklemek önemle tavsiye edilir.';
 $string['ctyperequired'] = 'Site başarımını arttırmak ve çok dilli uyumluluk sunmak için ctype PHP uzantısı gereklidir.';
+$string['curlcache'] = 'cURL önbelleği yaşam süresi';
 $string['curlrecommended'] = 'Moodle Ağının işlevsel bir şekilde çalışması için isteğe bağlı Curl kütüphanesinin kurulması şiddetle tavsiye edilir.';
 $string['curlrequired'] = 'cURL PHP eklentisi, Moodle kaynakları ile iletişim kurulabilmesi için gereklidir.';
 $string['customcheck'] = 'Diğer Kontroller';
@@ -335,11 +340,14 @@ $string['defaultsettinginfo'] = 'Varsayılan: $a';
 $string['defaultuserroleid'] = 'Tüm kullanıcılar için varsayılan rol';
 $string['defaultvalues'] = 'Varsayılan değerler';
 $string['deleteerrors'] = 'Hataları sil';
+$string['deletefilterareyousure'] = '\'$a\' filtresini silmek istediğinizden emin misiniz?';
+$string['deletefilterareyousuremessage'] = '\'$a\' filtresini tamamen silmek üzeresiniz. Bunu kaldırmak istediğinizden emin misiniz?';
 $string['deleteincompleteusers'] = 'Bilgileri eksik kullanıcıları sil';
 $string['deleteqtypeareyousure'] = '\'$a\' soru tipini silmek istediğinden emin misiniz?';
 $string['deleteqtypeareyousuremessage'] = '\'$a\' soru tipini tamamen silmek üzeresiniz. Tamamen kaldırmak istediğinden emin misiniz?';
 $string['deleteunconfirmed'] = 'Onay vermemiş kullanıcıları x gün sonra sil';
 $string['deleteuser'] = 'Kullanıcı sil';
+$string['deletingfilter'] = '\'$a\' filtresi siliniyor';
 $string['deletingqtype'] = '\'$a\' soru tipi siliniyor';
 $string['density'] = 'Yoğunluk';
 $string['denyemailaddresses'] = 'Reddedilen eposta alan adları';
@@ -416,6 +424,7 @@ $string['filestoredinhelp'] = 'Dosyanın kaydedileceği yer';
 $string['filterall'] = 'Tüm ifadeleri filtrele';
 $string['filtermatchoneperpage'] = 'Eşleşeni her sayfada bir kez filtrele';
 $string['filtermatchonepertext'] = 'Eşleşeni her metinde bir kez filtrele';
+$string['filters'] = 'Filtreler';
 $string['filtersettings'] = 'Filtre ayarları';
 $string['filtersettingsgeneral'] = 'Genel filtre ayarları';
 $string['filteruploadedfiles'] = 'Gönderilen dosyaları filtrele';
@@ -426,6 +435,7 @@ $string['framename'] = 'Çerçeve adı';
 $string['frontpage'] = 'Ana sayfa';
 $string['frontpagebackup'] = 'Ana sayfa yedeklemesi';
 $string['frontpagedefaultrole'] = 'Varsayılan ana sayfa rolü';
+$string['frontpagefilters'] = 'Ana sayfa filtreleri';
 $string['frontpageloggedin'] = 'Giriş yapıldığında ana sayfa ögeleri';
 $string['frontpageoverrides'] = 'Ana sayfa izinlerinin üzerine yaz';
 $string['frontpagequestions'] = 'Ana sayfa soruları';
@@ -534,6 +544,7 @@ $string['managelang'] = 'Yönet';
 $string['manageqtypes'] = 'Soru tiplerini yönet';
 $string['managews'] = 'Web hizmetlerini yönet';
 $string['maxbytes'] = 'En fazla dosya yükleme boyutu';
+$string['maxconsecutiveidentchars'] = 'Ardışık aynı karakterler';
 $string['maxeditingtime'] = 'Mesajları düzenlemek için en fazla süre';
 $string['mbstringrecommended'] = 'Sitenizde latin olmayan dilleri kullanıyorsanız isteğe bağlı MBSTRING kütüphanesinin kurulması site performansını arttırmak için şiddetle tavsiye edilir.';
 $string['mediapluginavi'] = '.AVI filtresini etkinleştir';
@@ -687,6 +698,8 @@ $string['qtyperqpwillberemoved'] = 'Güncelleme sırasında, RQP soru tipi kald�
 $string['qtyperqpwillberemovedanyway'] = 'Güncelleme sırasında, RQP soru tipi kaldırılacak. Veritabanınızda bazı RQP soruları var ve güncellemeye devam etmeden önce bu soru tipini (http://moodle.org/mod/data/view.php?d=13&amp;rid=797) buradan tekrar kurmazsanız, bu soru tipinin çalışması durdurulacak.';
 $string['quarantinedir'] = 'Karantina dizini';
 $string['question'] = 'Soru';
+$string['questioncwqpfscheck'] = 'Paylaşılan ve paylaşılmayan soru kategorileri karmasından seçmek üzere bir sınava bir ya da daha fazla \'rastgele\' soru yerleştirilir. <a href=\"$a->reporturl\">Burada</a> daha ayrıntılı bir rapor  mevcuttur, ayrıca <a href=\"$a->docsurl\">buradaki</a> Moodle Belgeleri sayfasına bakın.';
+$string['questioncwqpfsok'] = 'Güzel. Sınavlarınızda paylaşılan ve paylaşılmayan soru kategorileri karmasından seçmek üzere yerleştirilmiş hiç \'rastgele\' soru yok.';
 $string['questiontype'] = 'Soru tipi';
 $string['questiontypes'] = 'Soru tipleri';
 $string['rcache'] = 'Kayıt önbelleği';
@@ -719,6 +732,7 @@ $string['roleswithexceptions'] = '$a->roles, $a->exceptions ile';
 $string['rowpreviewnum'] = 'Başlıkları yeniden yaz';
 $string['rssglobaldisabled'] = 'Sunucu seviyesinde pasifleştirildi';
 $string['runclamavonupload'] = 'Yüklenen dosyalarla ClamAV kullan';
+$string['save'] = 'Kaydet';
 $string['savechanges'] = 'Değişiklikleri Kaydet';
 $string['search'] = 'Ara';
 $string['searchinsettings'] = 'Ayarlarda ara';
@@ -861,6 +875,9 @@ $string['uuoptype_update'] = 'Yalnızca mevcut kullanıcıları güncelle';
 $string['uupasswordnew'] = 'Yeni kullanıcı şifresi';
 $string['uupasswordold'] = 'Mevcut kullanıcı şifresi';
 $string['uupreprocessedcount'] = 'Önceden işlenen kayıt sayısı: $a';
+$string['uuupdateall'] = 'Dosya ve varsayılanlarla geçersiz kıl';
+$string['uuupdatefromfile'] = 'Dosya ile geçersiz kıl';
+$string['uuupdatemissing'] = 'Dosyada ve varsayılanlardaki eksiği doldur';
 $string['uuupdatetype'] = 'Mevcut kullanıcı ayrıntıları';
 $string['validateerror'] = 'Bu değer geçerli değildi:';
 $string['verifychangedemail'] = 'E-postayı değiştirirken etki alanlarını sınırla';
