@@ -1,7 +1,7 @@
 <?php // $Id$
 
 $string['soapdocumentation'] = '<h2>Manuel SOAP</h2>
-        <b>1.</b> Appeler la méthode <b>tmp_get_token</b> sur « <i>http://remotemoodle/webservice/soap/server.php?wsdl</i> »<br />
+        <b>1.</b> Appeler la méthode <b>get_token</b> sur « <i>http://remotemoodle/webservice/soap/server.php?wsdl</i> »<br />
         Le paramètre de la fonction est un tableau : en PHP, on écrirait array(\"username\" => \"wsuser\", \"password\" => \"wspassword\")<br />
         La valeur retournée est un jeton (entier)<br />
         <br />
@@ -15,7 +15,7 @@ $string['soapdocumentation'] = '<h2>Manuel SOAP</h2>
         your_client->tmp_delete_user(array(\"username\" => \"username_to_delete\",\"mnethostid\" => 1))<br /><br />
 ';
 $string['xmlrpcdocumentation'] = '<h2>Manuel XMLRPC</h2>
-        <b>1.</b> Appeler la méthode <b>authentication.tmp_get_token</b> sur « <i>http://remotemoodle/webservice/xmlrpc/server.php</i> »<br />
+        <b>1.</b> Appeler la méthode <b>authentication.get_token</b> sur « <i>http://remotemoodle/webservice/xmlrpc/server.php</i> »<br />
         Le paramètre de la fonction est un tableau : en PHP, on écrirait array(\"username\" => \"wsuser\", \"password\" => \"wspassword\")<br />
         La valeur retournée est un jeton (entier)<br />
         <br />
