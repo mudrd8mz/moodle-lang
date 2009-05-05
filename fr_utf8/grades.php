@@ -64,6 +64,7 @@ $string['calculationadd'] = 'Ajouter calcul';
 $string['calculationedit'] = 'Modifier calcul';
 $string['calculationsaved'] = 'Calcul enregistré';
 $string['calculationview'] = 'Afficher calcul';
+$string['cannotaccessgroup'] = 'Impossible d\'accéder aux notes du groupe sélectionné.';
 $string['categories'] = 'Catégories';
 $string['categoriesanditems'] = 'Catégories et éléments';
 $string['categoriesedit'] = 'Modifier les catégories';
