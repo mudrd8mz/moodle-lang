@@ -54,7 +54,7 @@ $string['databasecreationsettingssub'] = '<b>Mota:</b> lehenetsitako balorea \"m
 <b>Pasahitza:</b> datu-basearen pasahitza<br />
 <b>Taulen aurrizkia:</b> taula guztietarako aukerazko aurrizkia';
 $string['databasehead'] = 'Datu-basearen ezarpenak';
-$string['databasehost'] = 'datu-basearen ostalaria';
+$string['databasehost'] = 'Datu-basearen ostalaria';
 $string['databasename'] = 'Datu-basearen izena';
 $string['databasepass'] = 'Datu-basearen pasahitza';
 $string['databasesettings'] = 'Orain Moodle-ren datu gehienak bilduko dituen datu-basearen ezarpenak zehaztu behar dituzu. Datu-base hori aldez aurretik sortu behar zen eta erabiltzaile-izena eta sarbide-pasahitza izan beharko lituzke.<br />
@@ -76,6 +76,7 @@ $string['databasetype'] = 'Datu-base mota:';
 $string['databaseuser'] = 'Datu-basearen erabiltzailea';
 $string['dataroot'] = 'Datu-direktorioa';
 $string['datarooterror'] = '\'Datu-direktorioa\' ezin izan da sortu edo aurkitu. Bidea zuzendu edo direktorioa eskuz sortu.';
+$string['datarootpublicerror'] = 'Zehaztutako \'Datu-direktoriora\' web bidez ailega daiteke, beste direktorio bat erabili behar duzu.';
 $string['dbconnectionerror'] = 'Datu-basearekiko konexio-errorea. Mesedez, datu-basearen ezarpenak aztertu.';
 $string['dbcreationerror'] = 'Errorea datu-basea sortzean. Ezin izan da datu-basea sortu emandako izen eta ezarpenekin';
 $string['dbhost'] = 'Zerbitzaria';
@@ -83,14 +84,14 @@ $string['dbpass'] = 'Pasahitza';
 $string['dbprefix'] = 'Taulen aurrizkia';
 $string['dbtype'] = 'Mota';
 $string['dbwrongencoding'] = 'Aukeratutako datu-basea aholkatzen ez den kodifikazio baten menpean egikaritzen ari da ($a). Horren ordez, Unicode (UTF-8) kodifikazioko datu-basea erabiltzea komenigarria da. Edozein kasutan, proba hau kontuan hartu nahi ez baduzu \"DBaren kodifikazio-proba kontuan ez izan\" aukera dezakezu, etorkizunean arazorik izan zenezakeen arren.';
-$string['directorysettings'] = '<p><b>WWW:</b>
-Moodleri non dagoen kokaturik esan behar diozu. Moodle instalatu den interneteko helbide osoa zehaztu. Zure webgunera URL ezberdinetatik sartzea badago, zure ikasleek normalean erabiliko dutena idatzi. Azken barra ez jarri.</p>
+$string['directorysettings'] = '<p><b>Web helbidea:</b>
+Moodle-ri non dagoen kokaturik esan behar diozu. Moodle instalatu den interneteko helbide osoa zehaztu. Zure webgunera URL ezberdinetatik sartzea badago, zure ikasleek normalean erabiliko dutena idatzi. Azken barra ez jarri.</p>
 <p><b>Direktorioa:</b>
 Kokapen honetarako bide osoa zehaztu.
 Maiuskulak eta minuskulak ongi daudela ziurtatu.</p>
-<p><b>Datuak:</b>
+<p><b>Datu-direktorioa:</b>
 Moodle-k igotako fitxategiak gordeko ditueneko tokia behar duzu. Direktorio horretan web zerbatzariko erabiltzaileek irakurri eta IDATZI ahal izango dute (normalean \'nobody\' edo \'apache\'), baina ez da komenigarria webetik zuzenean sartu ahal izatea.</p>';
-$string['directorysettingshead'] = 'Zure instalazioaren kokapen hauek baieztatu, mesedez';
+$string['directorysettingshead'] = 'Mesedez, baieztatu zure instalazioaren kokapenak';
 $string['directorysettingssub'] = '<b>Web helbidea:</b>
 Moodlera sartzeko web helbide osoa zehaztu.
 Zure webgunera URL ezberdinetatik sartzea badago,
@@ -109,12 +110,13 @@ $string['dirroot'] = 'Moodle-ren direktorioa';
 $string['dirrooterror'] = '\'Moodle-ren direktorioa\' zuzena ez dela dirudi. Ezin izan da Moodle-ren instalaziorik aurkitu. Jatorrizko balorea berrezarri da.';
 $string['download'] = 'Jaitsi';
 $string['downloadlanguagebutton'] = '\"$a\" hizkuntza-paketea jaitsi';
-$string['downloadlanguagehead'] = 'Hizkuntza-paketea jaitsi';
+$string['downloadlanguagehead'] = 'Jaitsi hizkuntza-paketea';
 $string['downloadlanguagenotneeded'] = 'Instalazio-prozesua lehenetsitako hizkuntzaz jarrai dezakezu, \"$a\".';
+$string['downloadlanguagepack'] = 'Hizkuntza-paketea orain jaitsi nahi al duzu? (bai/ez):';
 $string['downloadlanguagesub'] = 'Orain zure hizkuntza-paketea jaisteko eta hizkuntza horretan instalazioarekin jarraitzeko aukera daukazu.<br /><br />Jaitsiera eskuragarri ez balitz, prozesuak ingelesez jarraituko luke (instalazioa burututakoan, beste hizkuntzak jaitsi eta instalatu ahal izango dituzu).';
 $string['downloadsuccess'] = 'Hizkuntza-paketea ondo jaitsi da';
-$string['doyouagree'] = 'Ados al zaude? (bai/ez)';
-$string['environmenthead'] = 'Zure ingurunea konprobatzen...';
+$string['doyouagree'] = 'Ados al zaude? (bai/ez):';
+$string['environmenthead'] = 'Zure ingurunea egiaztatzen...';
 $string['environmentsub'] = 'Zure zerbitzariaren osagai ezberdinak sistemaren betebeharrekin bat datozen egiaztatzen ari gara';
 $string['errorsinenvironment'] = 'Kale egin du ingurunearen egiaztatzeak!';
 $string['fail'] = 'Errorea';
@@ -144,13 +146,14 @@ $string['globalsquoteshelp'] = '<p>Ez da aholkatzen Magic Quotes GPC indargabetz
 <blockquote>php_value magic_quotes_gpc On</blockquote>
 <blockquote>php_value register_globals Off</blockquote>
 </p>';
-$string['inputdatadirectory'] = 'Datuen Direktorioa:';
+$string['inputdatadirectory'] = 'Datu-direktorioa:';
 $string['inputwebadress'] = 'Web helbidea:';
-$string['inputwebdirectory'] = 'Moodle Direktorioa:';
+$string['inputwebdirectory'] = 'Moodle direktorioa:';
 $string['installation'] = 'Instalazioa';
 $string['installationiscomplete'] = 'Instalazioa burutu egin da!';
 $string['invalidemail'] = 'E-posta ez da baliozkoa';
 $string['invalidhost'] = 'Ostalaria ez da baliozkoa';
+$string['invalidpath'] = 'Bidea ez da baliozkoa';
 $string['invalidurl'] = 'URLa ez da baliozkoa';
 $string['langdownloaderror'] = '\"$a\" hizkuntza ezin izan da instalatu. Instalazio-prozesuak ingelesez jarraituko du.';
 $string['langdownloadok'] = '\"$a\" hizkuntza zuzen instalatu da. Instalazio-prozesuak hizkuntza horretan jarraituko du.';
@@ -185,15 +188,23 @@ Horrek Moodle-k berak memoria-muga ezartzea ahalbidetzen du.</li>
 $string['mssql'] = 'SQL*Server (mssql)';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP ez da ongi ezarri MySQL luzapenarekin datu-basearekin komunikatzeko. Php.ini fitxategia aztertu edo PHP konpilatu, mesedez.';
+$string['nativeoci'] = 'Oracle (native/oci)';
+$string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['pass'] = 'Zuzena';
+$string['pathserrcreatedataroot'] = 'Instalatzaileak ezin du datu-direktorioa ($a->dataroot) sortu.';
+$string['pathsrodataroot'] = 'Dataroot direktorioa ez idazteko modukoa';
+$string['pathsroparentdataroot'] = 'Goragoko direktorioa ($a->parent) ez da idazteko modukoa. Instalatzaileak ezin du datu-direktorioa ($a->dataroot) sortu.';
 $string['pathsunsecuredataroot'] = 'Dataroot-en kokapena ez da segurua';
 $string['pathswrongadmindir'] = 'Kudeaketa direktorioa ez da existitzen';
+$string['pathswrongdirroot'] = 'Dataroot-en kokapena ez da zuzena';
 $string['phpextension'] = '$a PHP luzapena';
 $string['phpversion'] = 'PHP bertsioa';
 $string['phpversionhelp'] = '<p>Moodle-k PHP 4.1.0 edo geroagoko bertsioa behar du.</p>
 <p>Zure bertsioa: $a</p>
 <p>PHP eguneratu edo PHP bertsio berriagoa duen zerbitzari batera jo</p>';
+$string['postgres7'] = 'PostgreSQL (postgres7)';
+$string['releasenoteslink'] = 'Moodle-ren bertsio honi buruzko informazio gehiagorako, mesedez ikus itzazu Bertsio-oharrak hemen: $a';
 $string['safemode'] = 'Modu segurua';
 $string['safemodeerror'] = 'Moodle-k arazoak izan ditzake \'modu segurua\' ezarriz gero';
 $string['safemodehelp'] = '<p>Moodle-k arazo ezberdinak izan ditzake \'modu segurua\' ezarriz gero, eta baliteke fitxategi berriak ezin sortu izana.</p>
