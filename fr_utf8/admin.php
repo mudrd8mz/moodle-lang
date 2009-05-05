@@ -552,6 +552,7 @@ $string['maxeditingtime'] = 'Durée maximale de modification des messages';
 $string['mbstringrecommended'] = 'Bien que la bibliothèque MBSTRING soit facultative, il est vivement recommandé de l\'installer sur le serveur pour de meilleures performance, notamment si votre site supporte des caractères non latins.';
 $string['mediapluginavi'] = 'Activer le filtre .avi';
 $string['mediapluginflv'] = 'Activer le filtre .flv';
+$string['mediapluginimg'] = 'Activer l\'incorporation automatique d\'images liées';
 $string['mediapluginmov'] = 'Activer le filtre .mov';
 $string['mediapluginmp3'] = 'Activer le filtre .mp3';
 $string['mediapluginmpg'] = 'Activer le filtre .mpg';
