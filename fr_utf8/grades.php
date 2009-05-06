@@ -179,6 +179,7 @@ $string['errornocalculationallowed'] = 'Les calculs ne sont pas autorisés pour 
 $string['errornocategorisedid'] = 'Impossible d\'obtenir un identifiant sans catégorie !';
 $string['errornocourse'] = 'Impossible d\'obtenir les informations du cours';
 $string['errorreprintheadersnonnumeric'] = 'Valeur non-numérique reçue pour le réaffichage des entêtes';
+$string['errorsavegrade'] = 'Impossible d\'enregistrer la note.';
 $string['errorupdatinggradecategoryaggregateonlygraded'] = 'Erreur lors de la modification du réglage « Tendance centrale pour notes non vides » de la catégorie de note d\'identifiant $a->id';
 $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Erreur lors de la modification du réglage « Inclure les objectifs dans les tendances centrales » de la catégorie de note d\'identifiant $a->id';
 $string['errorupdatinggradecategoryaggregatesubcats'] = 'Erreur lors de la modification du réglage « Inclure les sous-catégories dans les tendances centrales » de la catégorie de note d\'identifiant $a->id';
