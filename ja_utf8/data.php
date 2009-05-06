@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // data.php - created with Moodle 2.0 dev (Build: 20090506) (2009043000)
 
 
 $string['action'] = '操作';
@@ -149,6 +149,7 @@ $string['invalidfieldname'] = 'このフィールドに他の名称を選択し�
 $string['invalidfieldtype'] = 'フィールドタイプが正しくありません。';
 $string['invalidid'] = 'データIDが正しくありません。';
 $string['invalidpreset'] = '$a は、プリセットではありません。';
+$string['invalidrate'] = 'データベースの評価 ($a) が有効ではありません。';
 $string['invalidratedata'] = '送信された評価データが正しくありません。';
 $string['invalidrecord'] = 'レコードが正しくありません。';
 $string['invalidurl'] = '入力されたURIが正しくありません。';

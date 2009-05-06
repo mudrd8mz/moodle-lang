@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20090415) (2009040601)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090506) (2009043000)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -15,7 +15,6 @@ $string['allowprintview'] = '印刷モードを許可する';
 $string['allowratings'] = 'エントリの評価を許可しますか?';
 $string['answer'] = '答え';
 $string['approve'] = '承認';
-$string['areaintro'] = '用語集イントロダクション';
 $string['areyousuredelete'] = '本当にこのエントリを削除してもよろしいですか?';
 $string['areyousuredeletecomment'] = '本当にこのコメントを削除してもよろしいですか?';
 $string['areyousureexport'] = '本当にこのエントリを下記の用語集にエクスポートしてもよろしいですか?';
@@ -148,6 +147,7 @@ $string['importentriesfromxml'] = 'エントリをXMLファイルからインポ
 $string['includegroupbreaks'] = 'グループ区切りを含む';
 $string['invalidglossaryformat'] = '用語集フォーマットが有効ではありません。';
 $string['invalidid'] = '用語集IDが正しくありません。';
+$string['invalidrate'] = '用語集の評価 ($a) が有効ではありません。';
 $string['isglobal'] = 'これはグローバル用語集ですか?';
 $string['letter'] = 'アルファベット';
 $string['linkcategory'] = 'このカテゴリを自動的にリンクする';
@@ -211,6 +211,7 @@ $string['withauthor'] = '用語 (著者有り)';
 $string['withoutauthor'] = '用語 (著者なし)';
 $string['writtenby'] = '作成';
 $string['youarenottheauthor'] = 'あなたはこのコメントの投稿者ではありません。コメントの編集は許可されません。';
+$string['areaintro'] = '用語集イントロダクション'; //TBD
 $string['cantinsertent'] = '新しいエントリを追加できませんでした。'; //TBD
 $string['cantupdateglossary'] = 'あなたの用語集を更新できませんでした。'; //TBD
 

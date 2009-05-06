@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090506) (2009043000)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -25,7 +25,6 @@ $string['allsubscribe'] = 'すべてのフォーラムをメール購読する';
 $string['allunsubscribe'] = 'すべてのフォーラムのメール購読を解除する';
 $string['alreadyfirstpost'] = 'このディスカッションには、すでに最初の投稿があります。';
 $string['anyfile'] = 'すべてのファイル';
-$string['areaintro'] = 'フォーラムイントロダクション';
 $string['attachment'] = '添付ファイル';
 $string['attachmentnopost'] = 'あなたは、投稿IDなしで添付ファイルをエクスポートできません。';
 $string['attachments'] = '添付ファイル';
@@ -177,8 +176,8 @@ $string['invalidaccess'] = 'このページは正しくアクセスされてい�
 $string['invaliddiscussionid'] = 'ディスカッションIDが正しくありません。';
 $string['invalidforumid'] = 'フォーラムIDが正しくありません。';
 $string['invalidparentpostid'] = '親記事のIDが正しくありません。';
-$string['invalidpostid'] = '無効な投稿IDです - $a';
-$string['invalidrate'] = '無効な評価です - $a';
+$string['invalidpostid'] = '投稿ID ($a) が有効ではありません。';
+$string['invalidrate'] = '評価 ($a) が有効ではありません。';
 $string['lastpost'] = '最新の投稿';
 $string['learningforums'] = '学習フォーラム';
 $string['logblocked'] = 'ブロックされたメール送信を記録する';
@@ -365,6 +364,7 @@ $string['youratedthis'] = 'あなたの評価';
 $string['yournewquestion'] = 'あなたの新しい質問';
 $string['yournewtopic'] = 'あなたの新しいディスカッショントピック';
 $string['yourreply'] = 'あなたの返信';
+$string['areaintro'] = 'フォーラムイントロダクション'; //TBD
 $string['cannotfinddisscussion'] = 'このフォーラムのディスカッションが見つかりませんでした。'; //TBD
 $string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD
 $string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD
