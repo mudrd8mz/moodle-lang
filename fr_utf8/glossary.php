@@ -148,6 +148,7 @@ $string['importentriesfromxml'] = 'Importer des articles d\'un fichier XML';
 $string['includegroupbreaks'] = 'Inclure les séparations entre groupes';
 $string['invalidglossaryformat'] = 'Format de glossaire incorrect';
 $string['invalidid'] = 'Identifiant de glossaire incorrect';
+$string['invalidrate'] = 'Note de glossaire incorrecte ($a)';
 $string['isglobal'] = 'Glossaire global';
 $string['letter'] = 'lettre';
 $string['linkcategory'] = 'Lier automatiquement cette catégorie';
