@@ -203,7 +203,6 @@ $string['ddlfieldnotexist'] = 'Le champ « {$a->fieldname} » n\'existe pas da
 $string['ddltablealreadyexists'] = 'La table « {$a} » existe déjà';
 $string['ddltablenotexist'] = 'La table « {$a} » n\'existe pas';
 $string['ddlunknownerror'] = 'Erreur inconnue de bibliothèque DDL';
-$string['ddlunsupportedenums'] = 'Le champ « {$a} » contient des informations d\'énumération. Le support des énumérations a été abandonné Moodle 2.0. Veuillez modifier votre code pour les éviter complètement. Si vous les utilisez déjà, veuillez utiliser \$dbman->change_field_enum(\$table, \$field); dans vos scripts de mise à jour pour les supprimer au plus vite';
 $string['ddlxmlfileerror'] = 'XML database file errors found';
 $string['destinationcmnotexit'] = 'Le module de cours de destination n\'existe pas';
 $string['detectedbrokenplugin'] = 'Le plugin « {$a} » est défectueux. Impossible de continuer.';
