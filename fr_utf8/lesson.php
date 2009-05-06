@@ -52,7 +52,6 @@ $string['cannotfindrecords'] = 'Impossible de trouver les enregistrements de la 
 $string['cannotfindtimer'] = 'Impossible de trouver les enregistrements de la table lesson_timer';
 $string['cannotfinduser'] =  'Impossible de trouver les utilisateurs';
 $string['cannotinsertanswer'] = 'Impossible d\'insérer l\'enregistrement de la réponse';
-$string['cannotinsertgrade'] = 'Impossible d\'insérer une note';
 $string['cannotinserthighscore'] = 'Échec de l\'ajout d\'un nouveau meilleur résultat !';
 $string['cannotinsertpage'] = 'Impossible d\'insérer une nouvelle page';
 $string['cannotinserttimer'] = 'Impossible d\'insérer une rangée dans la table lesson_timer';

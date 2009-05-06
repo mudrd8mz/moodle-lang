@@ -81,8 +81,7 @@ $string['cannothaveparentcate'] = 'La catégorie de cours ne peut pas avoir de p
 $string['cannotimport'] = 'Erreur d\'importation';
 $string['cannotimportformat'] = 'Désolé, l\'importation de ce format n\'est pas encore implémentée !';
 $string['cannotimportgrade'] = 'Erreur d\'importation des notes';
-$string['cannotinsertcategory'] = 'Erreur étrange. La catégorie n\'a pas été ajoutée';
-$string['cannotinsertcomment'] = 'Impossible d\'ajouter ce commentaire';
+$string['cannotinsertcomment'] = 'Impossible d\'ajouter ce commentaire'; // Obsolete as of 2.0dev
 $string['cannotinsertgrade'] = 'Impossible d\'insérer d\'élément d\'évaluation sans identifiant de cours !';
 $string['cannotinsertkey'] = 'Impossible d\'insérer une nouvelle clef';
 $string['cannotinsertrate'] = 'Impossible d\'ajouter une évaluation ($a->id = $a->rating)';
