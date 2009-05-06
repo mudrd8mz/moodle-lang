@@ -59,7 +59,6 @@ $string['attlsname'] = 'ATTLS (20 items)';
 $string['cannotfindsurveytmpt'] = 'Aucun modèle de consultation trouvé !';
 $string['cannotfindquestion'] = 'La question n\'existe pas';
 $string['cannotfindanswer'] = 'Il n\'y a pas encore de réponse à cette consultation.';
-$string['cannotinsertanswer'] = 'Problème lors de l\'enregistrement de vos réponses.';
 $string['ciq1'] = 'À quel moment du cours avez-vous été le plus impliqué en tant qu\'apprenant ?';
 $string['ciq1short'] = 'Plus impliqué';
 $string['ciq2'] = 'À quel moment du cours avez-vous été le plus distant en tant qu\'apprenant ?';
