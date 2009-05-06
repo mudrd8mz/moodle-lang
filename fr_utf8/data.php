@@ -152,6 +152,7 @@ $string['invalidfieldtype'] = 'Le type de champ est incorrect';
 $string['invalidid'] = 'Incorrect data ID';
 $string['invaliddata'] = 'Données incorrectes';
 $string['invalidpreset'] = '$a n\'est pas un préréglage.';
+$string['invalidrate'] = 'Note de base de données incorrecte ($a)';
 $string['invalidrecord'] = 'Fiche incorrecte';
 $string['invalidratedata'] = 'Données d\'évaluation fournies incorrectes';
 $string['invalidurl'] = 'L\'URL que vous venez de saisir n\'est pas valide';
