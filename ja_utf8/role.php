@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090413) (2009040600)
+      // role.php - created with Moodle 2.0 dev (Build: 20090507) (2009050619)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -74,7 +74,7 @@ $string['course:viewhiddencourses'] = '非表示のコースを表示する';
 $string['course:viewhiddensections'] = '非表示のセクションを表示する';
 $string['course:viewhiddenuserfields'] = '非表示のユーザフィールドを表示する';
 $string['course:viewparticipants'] = '参加者を表示する';
-$string['course:viewscales'] = '尺度を表示する';
+$string['course:viewscales'] = '評価尺度を表示する';
 $string['course:visibility'] = 'コースを表示/非表示する';
 $string['createhiddenassign'] = '非表示ロール割り当てを作成する';
 $string['createrolebycopying'] = '$a をコピーして新しいロールを作成する';
