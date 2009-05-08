@@ -102,7 +102,9 @@ $string['auth_emailtitle'] = 'Autenticação via correio eletrônico';
 $string['auth_emailupdate'] = 'Mudança de endereço email';
 $string['auth_emailupdatemessage'] = '$a->fullname,
 
-Você ativou o pedido de mudança de endereço email como usuário do site $a->site. Clique o seguinte link para confirmar esta mudança.';
+Você ativou o pedido de mudança de endereço email como usuário do site $a->site. Clique o seguinte link para confirmar esta mudança.
+
+$a->url';
 $string['auth_emailupdatesuccess'] = 'Endereço email do usuário <em>$a->fullname</em> substituito por <em>$a->email</em>.';
 $string['auth_emailupdatetitle'] = 'Confirmação de atualização de endereço email em $a->site';
 $string['auth_fcchangepasswordurl'] = 'Página de mudança de senha';
