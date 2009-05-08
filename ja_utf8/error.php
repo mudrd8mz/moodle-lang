@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090430) (2009043000)
+      // error.php - created with Moodle 2.0 dev (Build: 20090507) (2009050619)
 
 
 $string['TODO'] = 'TODO';
@@ -12,6 +12,7 @@ $string['blockcannotconfig'] = 'このブロックは、グローバル設定を
 $string['blockcannotinistantiate'] = 'ブロックオブジェクトのインストール中に問題が発生しました。';
 $string['blockcannotread'] = 'ブロックID = $a のデータを読み込めませんでした。';
 $string['blockdoesnotexist'] = 'このブロックはありません。';
+$string['blockdoesnotexistonpage'] = 'このブロック (id=$a->instanceid) は、このページ ($a->url) にはありません。';
 $string['blocknameconflict'] = 'ネーミングコンフリクト: ブロック $a->name には、既存のブロック $a->conflict と同じタイトルが設定されています!';
 $string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!';
 $string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。';
@@ -84,8 +85,6 @@ $string['cannothaveparentcate'] = 'コースカテゴリには、親カテゴリ
 $string['cannotimport'] = 'インポートエラー';
 $string['cannotimportformat'] = '申し訳ございません、このフォーマットのインポートは、まだ実装されていません!';
 $string['cannotimportgrade'] = '評定インポートエラー';
-$string['cannotinsertcategory'] = '不明なエラー: カテゴリが追加されませんでした。';
-$string['cannotinsertcomment'] = '新しいコメントを追加できませんでした。';
 $string['cannotinsertgrade'] = 'コースIDなしに評定項目を追加できません!';
 $string['cannotinsertkey'] = '新しいキーを追加できません。';
 $string['cannotinsertrate'] = '新しい評価 ($a->id = $a->rating) を追加できませんでした。';
@@ -299,6 +298,7 @@ $string['invalidscaleid'] = '無効なスケールIDです。';
 $string['invalidsection'] = 'コースモジュールのレコードに無効なセクションが含まれています。';
 $string['invalidsesskey'] = '無効なsesskeyが送信されました。フォームの内容は受信されませんでした!';
 $string['invalidshortname'] = '無効なコース省略名です。';
+$string['invalidstatedetected'] = '不明なエラーが発生しました: $a。通常、このエラーは発生しません。';
 $string['invalidurl'] = '無効なURIです。';
 $string['invaliduser'] = '無効なユーザです。';
 $string['invaliduserid'] = '無効なユーザIDです。';
@@ -504,6 +504,8 @@ $string['wwwrootslash'] = 'config.phpに正しくない \$CFG->wwwroot が検知
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['youcannotdeletecategory'] = 'コンテンツを削除または移動できないため、あなたはカテゴリ「 $a 」を削除することはできません。';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
+$string['cannotinsertcategory'] = '不明なエラー: カテゴリが追加されませんでした。'; //TBD
+$string['cannotinsertcomment'] = '新しいコメントを追加できませんでした。'; //TBD
 $string['cannotsaveconfig'] = 'プラグイン「 $a->plugin 」の設定「 $a->name 」を「 $a->value 」として保存中に問題が発生しました。'; //TBD
 $string['cannotupdatecategory'] = 'カテゴリ ($a) を更新できませんでした。'; //TBD
 $string['cannotupdatecomment'] = 'コメントを更新できませんでした。'; //TBD
