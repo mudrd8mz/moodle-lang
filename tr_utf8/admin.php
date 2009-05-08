@@ -895,5 +895,6 @@ $string['memorylimit'] = 'PHP bellek sınırı'; // ORPHANED
 $string['optionalsubsystems'] = 'Genel ayarlar'; // ORPHANED
 $string['repsettings'] = 'Depoları yönet'; // ORPHANED
 $string['repsettingsgeneral'] = 'Genel depo ayarları'; // ORPHANED
+$string['spamcleaner'] = 'İstenmeyen posta temizleyicisi'; // ORPHANED
 
 ?>

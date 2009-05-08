@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20090505) (2009043000)
 
 
 $string['action'] = '-- Eylem --';
@@ -17,7 +17,13 @@ $string['binimgtoolarge'] = 'Resim dosyası çok büyük!';
 $string['binnoimg'] = 'Bu kabul edilmeyen bir dosya biçimidir!';
 $string['browse'] = 'Gözat';
 $string['canceledit'] = 'İptal';
+$string['cannotacceptbin'] = 'Bu wiki ikili (binary) dosyaları kabul etmiyor';
+$string['cannotaddentry'] = 'Wiki girdisi eklenemedi.';
 $string['cannotchangepage'] = 'Bu sayfa değiştirilemez.';
+$string['cannotdeletelockrecored'] = 'Kilit kaydı silinemedi';
+$string['cannotgetentry'] = 'Girdi alınamıyor';
+$string['cannotinsertlockrecored'] = 'Kilit kaydı eklenemedi';
+$string['cannotstartwith'] = 'İkili (binary) girdi, ($a) ile başlamıyor';
 $string['changes'] = '$a değişiklik';
 $string['changesfield'] = 'Son değişiklikten beri kaç saat içinde';
 $string['changesfielderror'] = 'Lütfen doğru bir saat sayacı girin.';
@@ -74,6 +80,7 @@ $string['flags'] = 'Bayraklar';
 $string['flagsset'] = 'Bayraklar kaydedildi';
 $string['flagtxt'] = 'TXT';
 $string['flagwr'] = 'WR';
+$string['for'] = ':';
 $string['forbidden'] = 'Bu sayfaya erişim hakkınız yok.';
 $string['groups'] = 'Gruplar';
 $string['hits'] = '$a hit';
@@ -85,6 +92,7 @@ $string['htmlonly'] = 'Sadece HTML';
 $string['index'] = 'Dizin';
 $string['infoaboutpage'] = 'Geçmiş:';
 $string['initialcontent'] = 'Bir Başlangıç Sayfası seçin';
+$string['invalidpageval'] = 'Desteklenmeyen sayfa değeri';
 $string['invalidroot'] = 'Site haritası oluşturulmadığından dolayı şu anki ana sayfaya erişim hakkınız yok.';
 $string['lastchanged'] = 'Son düzenleme: $a';
 $string['lastmodified'] = 'Son güncelleme';
@@ -107,10 +115,12 @@ $string['nochangestorevert'] = 'Geri çevrilecek bir şey yok.';
 $string['nohtml'] = 'HTML yok';
 $string['nojslockwarning'] = 'Tarayıcınızın Javascript desteği etkinleştirilmediği  için başka birisi bu sayfayı düzenleyebilir. Bu olursa, değişikliklerinizi kaydedemezsiniz. Lütfen değişiklikleri hızlı bir şekilde yapmaya çalışın ya da Javascripti açıp bu sayfayı yeniden yükleyin.';
 $string['nolinksfound'] = 'Bu sayfada bağlantı yok';
+$string['nopermissiontooverride'] = 'Kilitleri düzenleme yetkiniz bulunmamaktadır';
 $string['noregexp'] = 'Bu, sabit bir metin olmalı (* veya düzenli ifade, regex, kullanamazsınız). En iyisi, saldırganın IP adresini veya alan adını, port numarası olmaksızın girin. Çünkü; port numarası her bağlantıda değişir.';
 $string['notadministratewiki'] = 'Bu wikiyi yönetme izniniz yok!';
 $string['nothingtostrip'] = 'Bir sürümden daha fazla sayfa yok';
 $string['nowikicreated'] = 'Bu wiki için girdi oluşturulmadı.';
+$string['of'] = '/';
 $string['offline'] = 'ÇEVRİMDIŞI';
 $string['optional'] = 'İsteğe bağlı';
 $string['orphanedpage'] = 'Yalnız sayfa';
@@ -172,6 +182,7 @@ $string['uplinsect'] = 'Buraya yükle';
 $string['uplnewnam'] = 'Farklı dosya adıyla kaydet';
 $string['upload0'] = 'Wiki\'ye isteğe bağlı bir dosya göndermek için bu formu kullanın';
 $string['uploadedon'] = 'Yüklenme:';
+$string['uploaderror'] = 'Yükleme yaparken hata oluştu ($a)';
 $string['uploadpicturebutton'] = 'Yükle';
 $string['uplok'] = 'Dosyanız doğru bir şekilde yüklendi.';
 $string['version'] = 'Sürüm';
