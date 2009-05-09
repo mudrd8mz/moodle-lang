@@ -320,6 +320,7 @@ $string['importsuccess'] = 'Importation des notes réussie';
 $string['importxml'] = 'Importation XML';
 $string['includescalesinaggregation'] = 'Inclure les barèmes dans les tendances centrales';
 $string['incorrectcourseid'] = 'Le no de cours est incorrect';
+$string['incorrectcustomscale'] = '(Barème personnel incorrect. Veuillez le modifier.)';
 $string['incorrectminmax'] = 'Le minimum doit être inférieur au maximum';
 $string['inherit'] = 'Hériter';
 $string['intersectioninfo'] = 'Infos participant/note';
