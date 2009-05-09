@@ -561,6 +561,7 @@ $string['useweighted'] = '加重を使用';
 $string['verbosescales'] = '詳細尺度';
 $string['viewbygroup'] = 'グループ';
 $string['viewgrades'] = '評定の表示';
+$string['warningexcludedsum'] = '警告: 評点を除外することで、総計と互換性を持たなくなります。';
 $string['weight'] = '加重';
 $string['weightcourse'] = '評定項目の加重をコースに使用する';
 $string['weightedascending'] = '加重パーセントの昇順で並び替え';
