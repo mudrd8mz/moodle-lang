@@ -9,6 +9,7 @@ $string['blockcannotconfig'] = 'Ce bloc ne permet pas de configuration globale';
 $string['blockcannotinistantiate'] = 'Problème lors de l\'instantiation de l\'objet bloc';
 $string['blockcannotread'] = 'Impossible de lire les données pour l\'identifiant de bloc $a';
 $string['blockdoesnotexist'] = 'Ce bloc n\'existe pas';
+$string['blockdoesnotexistonpage'] = 'Ce bloc (id = $a->instanceid) n\'existe pas sur cette page ($a->url).';
 $string['blocknameconflict'] = 'Conflit de nom : le bloc $a->name a le même titre qu\'un bloc existant : $a->conflict!';
 $string['cannotaddblock'] = 'Le bloc $a  n\'a pas pu être ajouté à la liste des blocs !';
 $string['cannotaddcmtosection'] = 'Impossible d\'ajouter le module de cours à cette section';
