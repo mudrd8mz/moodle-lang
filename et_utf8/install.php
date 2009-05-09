@@ -1,20 +1,38 @@
-<?php
+<?PHP // $Id$ 
+      // install.php - created with Moodle 2.0 dev (Build: 20090426) (2009041700)
+
+$string['aborting']='Installeerimise katkestamine';
 $string['admindirerror']='Valitud administreerimiskataloog on vale';
 $string['admindirname']='Administreerimiskataloog';
 $string['admindirsetting']='Mõned vähesed veebihostid kasutavad spetsiaalset URL-i, et anda ligipääs juhtpaneelile. Kahjuks läheb see konflikti Moodle administreerimislehe standardse asukohaga. Sa saad seda viga parandada, kui nimetad oma administreerimiskataloogi ümber. Näiteks: <br /> <br /><b>moodleadmin</b><br /> <br /> See teeb administreerimislingid Moodle\'is korda.';
 $string['admindirsettinghead']='Kataloogi admin seadistamine ...';
+$string['adminemail']='E-mail';
+$string['adminfirstname']='Eesnimi';
+$string['admininfo']='Administratori detailid';
+$string['adminlastname']='Perenimi';
+$string['adminpassword']='Parool';
+$string['adminusername']='Kasutaja nimi';
+$string['askcontinue']='Jätka (jah/ei)';
+$string['availabledbtypes']='Saadaval andmebaasi tüübid';
+$string['availablelangs']='Saadaval keelte nimekiri';
+$string['cannotconnecttodb']='Ei saa ühenduda andmebaasiga';
 $string['caution']='Hoiatus';
+$string['checkingphpsettings']='PHP seadete kontrollimine';
 $string['chooselanguage']='Vali keel';
 $string['chooselanguagehead']='Keele valik';
 $string['chooselanguagesub']='Palun vali keel, mida kasutatakse AINULT installeerimise käigus. Hiljem saab valida õpikeskkonna ja kasutajate keelt.';
 $string['compatibilitysettings']='Kontrollin teie PHP sätteid ...';
 $string['compatibilitysettingshead']='PHP seadete kontrollimine...';
 $string['compatibilitysettingssub']='Sinu server peab läbima kõik need testid, et Moodle jookseks korralikult';
+$string['configfilecreated']='Seadistuste fail edukalt loodud';
+$string['configfiledoesnotexist']='Seadistuste faili ei eksisteeri !!!';
 $string['configfilenotwritten']='Installeerimisskript ei suutnud automaatselt tekitada config.php faili, mis sisaldaks sinu valitud seadistusi. Põhjus võib olla selles, et sinu Moodle kataloog ei ole kirjutatav. Sa võid käsitsi kopeerida järgneva koodi config.php nimelisse faili, mis asub Moodle juurkataloogis.';
 $string['configfilewritten']='config.php on edukalt loodud';
 $string['configurationcomplete']='Seadistamine lõpetatud';
 $string['configurationcompletehead']='Konfigureerimine lõpetatud';
 $string['configurationcompletesub']='Moodle tegi katse salvestada Sinu seadistuse Moodle juurkataloogis asuvasse faili.';
+$string['configurationfileexist']='Seadistuste fail juba eksisteerib!';
+$string['creatingconfigfile']='Seadistuste faili loomine ...';
 $string['database']='Andmebaas';
 $string['databasecreationsettings']='Nüüd sa pead konfigureerima seadistuse andmebaasile, kus hoitakse enamikku Moodle andmetest. See andmebaas luuakse automaatselt Moodle4Windows poolt koos järgnevalt määratud seadistustega.<br />
 <br /> <br />
@@ -30,6 +48,10 @@ $string['databasecreationsettingssub']='<b>Tüüp:</b> määratud \"mysql\" paig
        <b>User:</b> määratud \"root\" paigaldaja poolt<br />
        <b>Parool:</b> Sinu andmebaasi parool<br />
        <b>Tabelite prefiks:</b> fakultatiivne prefiks kasutamaks tabeli nimetes';
+$string['databasehead']='Andmebaasi seaded';
+$string['databasehost']='Andmebaasi host';
+$string['databasename']='Andmebaasi nimi';
+$string['databasepass']='Andmebaasi parool';
 $string['databasesettings']='Nüüd pead sa konfigureerima admebaasi, kus hoitakse enamikku Moodle andmetest. See andmebaas peab olema juba loodud ning samuti kasutajanimi ja parool andmebaasile juurdepääsu saamiseks.
 br />
 <br /> <br />
@@ -39,6 +61,7 @@ br />
 <b>Kasutaja:</b> sinu andmebaasi kasutajanimi<br />
 <b>Parool:</b> sinu andmebaasi parool<br />
 <b>Tabelite eesliide:</b> valikuline eesliide, mida kasutada kõigi tabelite nimedes';
+$string['databasesettingsformoodle']='Moodle andmebaasi seaded';
 $string['databasesettingshead']='Nüüd on vaja seadistada andmebaas, kus enamus Moodle andmeid hakatakse hoidma. See andmebaas peab olema eelnevalt loodud ning ka konto, millel ligipääs antud andmebaasile.';
 $string['databasesettingssub']='<b>Tüüp:</b> mysql või postgres7<br />
 	<b>Host:</b> näiteks localhost või db.isp.com<br />
@@ -81,8 +104,15 @@ $string['databasesettingssub_postgres7']='<b>Tüüp:</b> PostgreSQL<br />
 	<b>Nimi:</b> andmebaasi nimi, näiteks moodle<br />
 	<b>Kasutaja:</b> Sinu andmebaasi konto kasutajatunnus<br />
 	<b>Tabelite prefiks:</b> prefiks kasutamaks tabelite nimedes (kohustuslik)';
+$string['databasesettingswillbecreated']='<b>Märkus:</b> Installeerija püüab luua andmebaasi automaatselt, kui seda ei eksisteeri.';
+$string['databasesocket']='UNIX\'i sokkel';
+$string['databasetype']='Andmebaasi tüüp';
+$string['databasetypehead']='Vali andmebaasi draiver';
+$string['databasetypesub']='Moodle toetab mitut andmebaasiserveri tüüpi. Palun kontakteeru serveri administraatoriga, kui ei tea millist valida';
+$string['databaseuser']='Andmebaasi kasutaja';
 $string['dataroot']='Andmete kataloog';
 $string['datarooterror']='Sinu määratud andmete kataloogi ei suudetud leida ega luua. Paranda tee või loo ise käsitsi see kataloog.';
+$string['datarootpublicerror']='Sinu määratud andmete kataloog on otse ligipääsetav veebi kaudu. Sa pead valima mingi muu kataloogi.';
 $string['dbconnectionerror']='Me ei suutnud sinu määratud andmebaasi ühendada. Palun kontrolli oma andmebaasi seadistust.';
 $string['dbcreationerror']='Andmebaasi loomise viga. Ei suudetud luua andmebaasi nime olemasolevate seadistustega.';
 $string['dbhost']='Hosti server';
@@ -105,9 +135,13 @@ $string['dirrooterror']='Moodle kataloogi seadistus näib olevat vigane -  me ei
 $string['download']='Lae alla';
 $string['downloadlanguagebutton']='Tõmba alla &quot;$a&quot; keelepakett';
 $string['downloadlanguagehead']='Tõmba alla keelepakett';
+$string['downloadlanguagepack']='Kas sa soovid tõmmata keelepaketi praegu (jah/ei):';
 $string['downloadlanguagesub']='Sul on praegu võimalus tõmmata alla keelepakk ja jätkata installeerimist vastavas keeles.<br /><br />Kui Sa oled mitte võimeline alla tõmbama keelepakki, siis installeerimine jätkub inglise keeles. (Niipea, kui installeerimine on lõppenud, on Sul võimalus alla tõmmata täiendavaid keelepakke.)';
+$string['downloadsuccess']='Keelepaki alla tõmbamine oli edukas';
+$string['doyouagree']='Kas sa nõustud? (jah/ei):';
 $string['environmenthead']='Keskkonna kontrollimine...';
 $string['environmentsub']='Me kontrollime, kas mitmesugused süsteemi komponendid vastavad nõudmistele.';
+$string['errorsinenvironment']='Keskkonna sobivuse kontroll ebaõnnestus!';
 $string['fail']='Fail';
 $string['fileuploads']='Failide üleslaadimine';
 $string['fileuploadserror']='See peaks olema sisse lülitatud';
@@ -123,9 +157,17 @@ $string['gdversionhelp']='<p>Sinu serveril ei paista GD installeeritud olevat.</
 $string['globalsquotes']='Ebaturvaline globaalmuutujate häsitlemine';
 $string['globalsquoteserror']='Paranda oma PHP seadeid: mitte võimalda \"register_globals\" ja/või võimalda \"magic_quotes_gpc\".';
 $string['globalsquoteshelp']='<p>Kombinatsioon mitte lubatud Magic Quotes GPC ja võimaldatud Register Globals samaaegsest seadistusest ei ole soovitatav.</p><p>Soovituslik seadistus on <b>magic_quotes_gpc = On</b> and <b>register_globals = Off</b> Sinu php.ini failis</p><p>Kui Sul ei ole ligipääsu php.ini failile, siis peaksid paneme alljärgnevad read Moodle kataloogis olevasse faili .htaccess:<blockquote>php_value magic_quotes_gpc On</blockquote><blockquote>php_value register_globals Off</blockquote></p>';
+$string['inputdatadirectory']='Andmete kataloog:';
+$string['inputwebadress']='Veebiaadress:';
+$string['inputwebdirectory']='Moodle kataloog:';
 $string['installation']='Installeerimine';
+$string['invalidemail']='Vigane e-mail';
+$string['invalidhost']='Vigane host';
+$string['invalidpath']='Vigane rada';
+$string['invalidurl']='Vigane URL';
 $string['langdownloaderror']='Kahjuks keelt \"$a\" ei paigaldatud. Paigaldamine jätkub inglise keeles.';
 $string['langdownloadok']='Keel \"$a\" paigaldati edukalt. Paigaldamisprotsess jätkub selles keeles.';
+$string['locationanddirectories']='Asukohad ja kataloogid';
 $string['magicquotesruntime']='Magic Quotes talitlusaeg';
 $string['magicquotesruntimeerror']='See peaks olema välja lülitatud';
 $string['magicquotesruntimehelp']='<p>Magic quotes talitlusaeg peaks olema välja lülitatud, et Moodle saaks korralikult funktsioneerida.</p>
@@ -156,27 +198,47 @@ $string['ociextensionisnotpresentinphp']='PHP laiendus OCI8 ei ole korralikult s
 $string['odbc_mssql']='SQL*Server üle ODBC (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp']='PHP laiendus ODBC ei ole korralikult seadistatud, mistõttu ei saa ühenduda SQL*Server\'iga. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
 $string['pass']='Korras';
+$string['paths']='Rajad';
+$string['pathserrcreatedataroot']='Andmete kataloogi ($a->dataroot) ei saa installeerija luua.';
+$string['pathshead']='Radade kinnitused';
+$string['pathsunsecuredataroot']='Andmete juurkataloogi asukoht pole turvamine';
+$string['pathswrongadmindir']='Admin kataloogi ei eksisteeri';
 $string['pgsqlextensionisnotpresentinphp']='PHP laiendus PGSQL ei ole korralikult seadistatud, mistõttu ei saa ühenduda PostgreSQL\'iga. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
+$string['php52versionerror']='PHP versioon peab olema vähemalt 5.2.4.';
+$string['php52versionhelp']='<p>Moodle vajab PHP\'d versiooniga vähemalt 5.2.4.</p>
+<p>Sul on praegu versioon $a</p>
+<p>Sa pead uuendama PHP\'d või võtma kasutusele hosti, kus on uuem versioon PHP\'st!</p>';
+$string['phpextension']='$a PHP laiendus';
 $string['phpversion']='PHP versioon';
-$string['phpversionerror']='PHP versioon peab olema vähemalt 4.1.0';
 $string['phpversionhelp']='<p>Moodle vajab vähemalt PHP versiooni 4.1.0</p>
 <p>Sinu jooksev versioon on $a</p>
 <p>Sa pead oma PHP-d uuendama või kolima hosti, kus on uuem PHP versioon!</p>';
 $string['postgres7']='PostgreSQL (postgres7)';
+$string['releasenoteslink']='Rohkem informatsiooni selle versiooni kohta palun vaata väljalaste märkustest $a';
 $string['safemode']='Ohutu režiim';
 $string['safemodeerror']='Moodle\'il võib ohutus režiimis komplikatsioone tekkida';
 $string['safemodehelp']='<p>Moodle võib tekkida mitmesuguseid probleeme, kui ohutu režiim on sisse lülitatud, näiteks ei luba ta tõenäoliselt luua uusi faile.</p>
 <p>Ohutu režiim on tavaliselt sisse lülitatud ainult paranoilistel avalikel veebihostidel, seega pead leidma oma Moodle õpikeskkonnale uue serveriteenust pakkuva firma. </p>
 <p>Sa võid proovida installeerimist jätkata, kui soovid, aga arvatavasti tekib sul ka hiljem probleeme.</p>';
+$string['selectlanguage']='Keele valimine installeerimiseks';
 $string['sessionautostart']='Sessioonide automaatne algatamine';
 $string['sessionautostarterror']='See peaks olema välja lülitatud';
 $string['sessionautostarthelp']='<p>Moodle vajab sessiooni tuge ja ei tööta ilma selleta.</p>
 <p>Sessioone saab sisse lülitada php.ini failist, otsi sealt session.auto_start parameetrit.</p>';
+$string['sitefullname']='Saidi täisnimi';
+$string['siteinfo']='Saidi detailid';
+$string['siteshortname']='Saidi lühinimi';
 $string['skipdbencodingtest']='Jäta vahele andmebaasi kodeeringu test';
+$string['tableprefix']='Tabeli prefiks';
 $string['welcomep10']='$a->installername ($a->installerversion)';
 $string['welcomep20']='Sa näed seda lehte, sest oled edukalt installeerinud ja käivitanud <strong>$a->packname $a->packversion</strong> paketi Sinu arvutis. Õnnitleme!';
 $string['welcomep40']='Pakett sisaldab ka <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong>.';
 $string['welcomep70']='Vajuta \"Järgmine\" nuppu all jätkamaks <strong>Moodle</strong> paigaldamisega.';
+$string['welcometext']='--- Tere tulemast Moodle käsurea installeerijasse ---';
+$string['writetoconfigfilefaild']='Viga: seadete faili kirjutamine ebaõnnestus';
 $string['wwwroot']='Veebiaadress';
 $string['wwwrooterror']='Veebiaadress näib vigane - Moodle installatsiooni ei paista seal olevat.';
+$string['yourchoice']='Sinu valik:';
+$string['phpversionerror']='PHP versioon peab olema vähemalt 4.1.0'; // ORPHANED
+
 ?>
