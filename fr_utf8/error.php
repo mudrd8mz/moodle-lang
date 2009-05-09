@@ -308,6 +308,7 @@ $string['invalidscaleid'] = 'Identifiant de barème incorrect';
 $string['invalidsection'] = 'L\'enregistrement du module de cours contient une section non valide';
 $string['invalidsesskey'] = 'Clef de session incorrecte. Le formulaire n\'est pas accepté !';
 $string['invalidshortname'] = 'Le nom abrégé du cours n\'est pas valide';
+$string['invalidstatedetected'] = 'Quelque chose est allé de travers : {$a}. Normalement, ceci ne devrait jamais arriver.';
 $string['invalidurl'] = 'URL non valide';
 $string['invaliduser'] = 'Utilisateur non valide';
 $string['invaliduserid'] = 'Identifiant utilisateur non valide';
