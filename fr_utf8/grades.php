@@ -570,6 +570,7 @@ $string['useweighted'] = 'Utiliser les coefficients';
 $string['verbosescales'] = 'Barèmes de mots';
 $string['viewbygroup'] = 'Groupe';
 $string['viewgrades'] = 'Affichage des notes';
+$string['warningexcludedsum'] = 'Attention ! l\'exclusion de notes n\'est pas compatible avec le type de tendance centrale somme.';
 $string['weight'] = 'coefficient';
 $string['weightcourse'] = 'Utiliser les coefficients pour le cours';
 $string['weightedascending'] = 'Tri croissant par pourcent pondéré';
