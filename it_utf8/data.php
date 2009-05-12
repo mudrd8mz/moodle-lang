@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
+      // data.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
 
 
 $string['action'] = 'Azione';
@@ -91,7 +91,7 @@ $string['editorenable'] = 'Abilita editor';
 $string['emptyadd'] = 'Il Modello di visualizzazione \"Inserisci\" non è stato impostato. Ne sto generando uno di default...';
 $string['emptyaddform'] = 'Non hai riempito nessun campo!';
 $string['entries'] = 'Record';
-$string['entrieslefttoadd'] = 'Per poter visualizzare i record inseriti dagli altri partecipanti dovete inserire altri $a record.';
+$string['entrieslefttoadd'] = 'Per poter visualizzare i record inseriti dagli altri partecipanti dovete inserire altri $a->entriesleft record.';
 $string['entrieslefttoaddtoview'] = 'Devi aggiungere $a->entrieslefttoview altri record prima di poter vedere i record degli altri partecipanti.';
 $string['entry'] = 'Record';
 $string['entrysaved'] = 'Il record è stato salvato';
@@ -149,6 +149,7 @@ $string['invalidfieldname'] = 'Si prega di scegliere un nome diverso per questo 
 $string['invalidfieldtype'] = 'Tipo campo non valido';
 $string['invalidid'] = 'ID non valido';
 $string['invalidpreset'] = '$a non è una preimpostazione.';
+$string['invalidrate'] = 'Valutazione del database non valida ($a)';
 $string['invalidratedata'] = 'Sono stati inviati dati di valutazione errati';
 $string['invalidrecord'] = 'Record non valido';
 $string['invalidurl'] = 'L\'indirizzo (URL) inserito non è valido';

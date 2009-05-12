@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090427) (2009042600)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
 
 
 $string['activities'] = 'Attività';
@@ -179,6 +179,7 @@ $string['errornocalculationallowed'] = 'Questo elemento non consente l\'uso di c
 $string['errornocategorisedid'] = 'Non si può avere un id senza categoria!';
 $string['errornocourse'] = 'Non è stato possibile ottenere informazioni sul corso';
 $string['errorreprintheadersnonnumeric'] = 'Inserito un valore non numerico per E\' stato inserito un valore non numerico per la ristampa delle intestazione ristampe dei titoli';
+$string['errorsavegrade'] = 'Non è stato possibile salvare il voto.';
 $string['errorupdatinggradecategoryaggregateonlygraded'] = 'Errore durante l\'aggiornamento dell\'impostazione \"Aggrega solo i voti ricevuti\" nella categoria ID $a->id';
 $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Errore durante l\'aggiornamento dell\'impostazione \"Aggrega gli obiettivi\" nella categoria ID $a->id';
 $string['errorupdatinggradecategoryaggregatesubcats'] = 'Errore durante l\'aggiornamento dell\'impostazione \"Aggrega le sotto categorie\" nella categoria ID $a->id';
@@ -315,6 +316,7 @@ $string['importsuccess'] = 'Importazione valutazioni effettuata';
 $string['importxml'] = 'Importazione XML';
 $string['includescalesinaggregation'] = 'Aggrega le scale';
 $string['incorrectcourseid'] = 'L\'ID del corso non è corretto';
+$string['incorrectcustomscale'] = '(Scala personalizzata non corretta, per favore cambiatela.)';
 $string['incorrectminmax'] = 'Il minimo deve essere inferiore al massimo';
 $string['inherit'] = 'Eredita';
 $string['intersectioninfo'] = 'Info Sudente/Voti';
@@ -562,6 +564,7 @@ $string['useweighted'] = 'Pesate';
 $string['verbosescales'] = 'Scale verbose';
 $string['viewbygroup'] = 'Gruppo';
 $string['viewgrades'] = 'Controllo valutazioni';
+$string['warningexcludedsum'] = 'Attenzione: l\'esclusone di voti non è compatibile con il tipo di aggregazione Somma.';
 $string['weight'] = 'Peso';
 $string['weightcourse'] = 'Usa valutazioni pesate per il corso';
 $string['weightedascending'] = 'Ordinamento crescente per %% pesata';

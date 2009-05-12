@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
 
 
 $string['addcomment'] = 'Aggiungi commento';
@@ -15,7 +15,6 @@ $string['allowprintview'] = 'Visualizzazione per stampa';
 $string['allowratings'] = 'Valutazione delle definizioni';
 $string['answer'] = 'Risposta';
 $string['approve'] = 'Approva';
-$string['areaintro'] = 'Introduzione del glossario';
 $string['areyousuredelete'] = 'Sei sicuro di voler rimuovere questo termine?';
 $string['areyousuredeletecomment'] = 'Sei sicuro di voler cancellare questo commento?';
 $string['areyousureexport'] = 'Sei sicuro di voler esportare questo termine in';
@@ -148,6 +147,7 @@ $string['importentriesfromxml'] = 'Importa termini da file XML';
 $string['includegroupbreaks'] = 'Mostra separazione dei gruppi';
 $string['invalidglossaryformat'] = 'Formato del glossario non valido';
 $string['invalidid'] = 'ID del glossario non valido';
+$string['invalidrate'] = 'Valutazione del glossario non valida ($a)';
 $string['isglobal'] = 'Questo glossario è globale?';
 $string['letter'] = 'alfabetico';
 $string['linkcategory'] = 'Collega automaticamente questa categoria';
@@ -211,6 +211,7 @@ $string['withauthor'] = 'Concetti con autore';
 $string['withoutauthor'] = 'Concetti senza autore';
 $string['writtenby'] = 'scritto da';
 $string['youarenottheauthor'] = 'Non puoi modificare questo commento perché non ne sei autore.';
+$string['areaintro'] = 'Introduzione del glossario'; // ORPHANED
 $string['cantinsertent'] = 'Non è stato possibile inserire questo nuovo termine'; // ORPHANED
 $string['cantupdateglossary'] = 'Non è stato possibile aggiornare il glossario'; // ORPHANED
 

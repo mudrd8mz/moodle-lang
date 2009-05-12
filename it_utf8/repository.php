@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
 
 
 $string['activaterep'] = 'Repository attivi';
@@ -53,6 +53,8 @@ $string['hiddenshow'] = 'Mostra/Nascondi';
 $string['instance'] = 'istanza';
 $string['instancedeleted'] = 'Istanza eliminata';
 $string['instances'] = 'Istanze di repository';
+$string['instancesforadmin'] = 'Istanze comuni';
+$string['instancesforothers'] = 'Istanze private';
 $string['invalidjson'] = 'Stringa JSON non valida';
 $string['invalidplugin'] = 'Repository plug-in non valido';
 $string['invalidrepositoryid'] = 'Repository ID non valido';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090429) (2009042700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -578,6 +578,7 @@ $string['maxeditingtime'] = 'Tempo massimo per l\'editing dei messaggi';
 $string['mbstringrecommended'] = 'Installare la libreria opzionale MBSTRING è caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
 $string['mediapluginavi'] = 'Abilita filtro .avi';
 $string['mediapluginflv'] = 'Abilita filtro .flv';
+$string['mediapluginimg'] = 'Abilita auto embed di immagini collegate';
 $string['mediapluginmov'] = 'Abilita filtro .mov';
 $string['mediapluginmp3'] = 'Abilita filtro .mp3';
 $string['mediapluginmpg'] = 'Abilita filtro .mpg';

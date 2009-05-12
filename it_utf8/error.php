@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090429) (2009042700)
+      // error.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
 
 
 $string['TODO'] = 'TODO';
@@ -12,6 +12,7 @@ $string['blockcannotconfig'] = 'Questo blocco non supporta configurazioni global
 $string['blockcannotinistantiate'] = 'Si è verificato un problema istanziando un block object';
 $string['blockcannotread'] = 'Non è stato possibile leggere i dati del blockid=$a';
 $string['blockdoesnotexist'] = 'Questo blocco non esiste';
+$string['blockdoesnotexistonpage'] = 'Questo blocco (id=$a->instanceid) non esiste in questa pagina ($a->url).';
 $string['blocknameconflict'] = 'Conflitto di nomi: il blocco $a->name ha lo stesso nome di un blocco già esistente: Naming conflict: block $a->name has the same title with an existing block: $a->conflict!';
 $string['cannotaddblock'] = 'Non è stato possibile aggiungere il blocco $a all\'elenco dei blocchi!';
 $string['cannotaddcmtosection'] = 'Non è stato possibile aggiungere un nuovo modulo in questa sezione';
@@ -84,8 +85,6 @@ $string['cannothaveparentcate'] = 'Le categorie di corso non possono avere un ge
 $string['cannotimport'] = 'Errore di importazione';
 $string['cannotimportformat'] = 'Spiacente, l\'importazione con questo formato non è ancora implementata!';
 $string['cannotimportgrade'] = 'Errore di importazione delle valutazioni';
-$string['cannotinsertcategory'] = 'Errore bizzarro. La categoria non è stata inserita';
-$string['cannotinsertcomment'] = 'Non è stato possibile inserire questo commento';
 $string['cannotinsertgrade'] = 'Non è possibile inserire elementi di valutazione senza la id del corso!';
 $string['cannotinsertkey'] = 'Non è possibile inserire una nuova chiave';
 $string['cannotinsertrate'] = 'Non è possibile inserire nuove valutazioni ($a->id = $a->rating)';
@@ -195,7 +194,6 @@ $string['ddlfieldnotexist'] = 'Il campo \"$a->fieldname\" non esiste nella tabel
 $string['ddltablealreadyexists'] = 'La tabella \"$a\" esiste già';
 $string['ddltablenotexist'] = 'La tabella \"$a\" non esite';
 $string['ddlunknownerror'] = 'Si è verificato un errore sconosciuto nella libreria DDL';
-$string['ddlunsupportedenums'] = 'Il campo \"$a\" contiene informazioni enum. il supporto enum è stato abbandonato in Moodle 2.0. Modificate il vostro codice per evitarne l\'uso. Se state usando enum, negli script di upgrade utilizzate $dbman->change_field_enum($table, $field) per eliminarli il prima possibile.';
 $string['ddlxmlfileerror'] = 'Sono stati rilevati errori nel file XML del database';
 $string['destinationcmnotexit'] = 'Il modulo destinazione del corso non esiste';
 $string['detectedbrokenplugin'] = 'Il plugin \"$a\" è difettoso, non è possibile proseguire';
@@ -300,6 +298,7 @@ $string['invalidscaleid'] = 'Id scala non valido';
 $string['invalidsection'] = 'Il record del modulo del corso contiene una sezione non valida';
 $string['invalidsesskey'] = 'E\' stata inviata una sesskey non corretta, il form non è stato accettato!';
 $string['invalidshortname'] = 'Titolo abbreviato del corso non valido';
+$string['invalidstatedetected'] = 'Qualcosa non è andato a buon fine: $a. Di norma questo non dovrebbe mai verificarsi.';
 $string['invalidurl'] = 'La URL non è valida';
 $string['invaliduser'] = 'Utente non valido';
 $string['invaliduserid'] = 'Id utente non valido';
@@ -505,6 +504,9 @@ $string['wwwrootslash'] = 'E\' stato individuata una $CFG->wwwroot errata nel fi
 $string['xmldberror'] = 'Errore XMLDB!';
 $string['youcannotdeletecategory'] = 'Non puoi eliminare la categoria \'$a\" poiché non puoi cancellarne i contenuti né spostarli altrove.';
 $string['younotteacher'] = 'Non sei un docente!';
+$string['cannotinsertcategory'] = 'Errore bizzarro. La categoria non è stata inserita'; // ORPHANED
+$string['cannotinsertcomment'] = 'Non è stato possibile inserire questo commento'; // ORPHANED
+$string['ddlunsupportedenums'] = 'Il campo \"$a\" contiene informazioni enum. il supporto enum è stato abbandonato in Moodle 2.0. Modificate il vostro codice per evitarne l\'uso. Se state usando enum, negli script di upgrade utilizzate $dbman->change_field_enum($table, $field) per eliminarli il prima possibile.'; // ORPHANED
 $string['modulerequirementsnotmet'] = 'Il modulo \"$a->modulename\" ($a->moduleversion) non può essere installato. Richiede una versione più aggiornata di Moodle (attualmente state usando $a->currentmoodle, mentre servirebbe $a->requiremoodle).'; // ORPHANED
 $string['cmunknown'] = 'Non è possibile trovare questo modulo.'; // ORPHANED
 
