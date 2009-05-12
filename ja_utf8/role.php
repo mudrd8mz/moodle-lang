@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090507) (2009050619)
+      // role.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -145,7 +145,7 @@ $string['metaassignerror'] = 'メタコースを管理するケイパビリテ�
 $string['metaunassignerror'] = 'ユーザ「 $a 」のロールは自動的に再割り当てされました。代わりに、子コースのロールを解除してください。';
 $string['morethan'] = '$a 以上';
 $string['multipleroles'] = 'マルチロール';
-$string['my:manageblocks'] = 'マイ Moodleページブロックを管理する';
+$string['my:manageblocks'] = 'マイMoodleページブロックを管理する';
 $string['nocapabilitiesincontext'] = 'このコンテクストで利用できるケイパビリティはありません。';
 $string['noneinthisx'] = 'この $a にはありません。';
 $string['noneinthisxmatching'] = 'この $a->contexttype 内には、「 $a->search 」に合致するユーザはありません。';

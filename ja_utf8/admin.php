@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090428) (2009042700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -587,8 +587,8 @@ $string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoo
 $string['multilangupgradenotice'] = 'あなたのサイトは、おそらく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
 $string['mycoursesperpage'] = 'コース数';
-$string['mymoodle'] = 'マイ Moodle';
-$string['mymoodleredirect'] = 'ユーザにマイ Moodleを強制する';
+$string['mymoodle'] = 'マイMoodle';
+$string['mymoodleredirect'] = 'ユーザにマイMoodleを強制する';
 $string['mysql416bypassed'] = 'あなたのサイトがiso-8859-1 (ラテン) 言語のみ使用している場合、現在インストールされている MySQL 4.1.12 (またはそれ以上) を使用することができます。';
 $string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをUTF-8に変換するため、MySQL 4.1.16が要求される最低限のバージョンです。';
 $string['nobookmarksforuser'] = 'ブックマークはありません。';
@@ -786,7 +786,7 @@ $string['statsuserthreshold'] = 'ユーザ閾値';
 $string['stickyblocks'] = 'スティッキーブロック';
 $string['stickyblockscourseview'] = 'コースページ';
 $string['stickyblocksduplicatenotice'] = 'あなたがここで追加するブロックがすでに特定のページに登録されている場合、ブロックが重複することになります。<br />この場合、スティッキーブロックのみ編集不可ですが、重複したブロックは編集することができます。';
-$string['stickyblocksmymoodle'] = 'マイ Moodle';
+$string['stickyblocksmymoodle'] = 'マイMoodle';
 $string['stickyblockspagetype'] = '設定するページタイプ';
 $string['stripalltitletags'] = 'すべての活動名からHTMLタグを取り除く';
 $string['supportemail'] = 'サポートメール';
