@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090322) (2009030501)
+      // data.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
 
 
 $string['action'] = 'Eylem';
@@ -149,6 +149,7 @@ $string['invalidfieldname'] = 'Lütfen bu alan için başka bir ad seçin';
 $string['invalidfieldtype'] = 'Alan Tipi geçersiz';
 $string['invalidid'] = 'Geçersiz veri ID';
 $string['invalidpreset'] = '$a bir ayar değil.';
+$string['invalidrate'] = 'Hatalı veritabanı derecelendirmesi ($a)';
 $string['invalidratedata'] = 'Geçersiz gönderilmiş derecelendirme verisi';
 $string['invalidrecord'] = 'Geçersiz kayıt';
 $string['invalidurl'] = 'Girdiğiniz URL geçerli değil';

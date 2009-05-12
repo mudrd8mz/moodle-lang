@@ -1,26 +1,35 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // filters.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
 
 
-$string['actfilterhdr'] = 'Etkin süzgeçler';
-$string['addfilter'] = 'Süzgeç ekle';
+$string['actfilterhdr'] = 'Etkin filtreler';
+$string['addfilter'] = 'Filtre ekle';
 $string['anycategory'] = 'herhangi kategori';
-$string['anycourse'] = 'herhangi kurs';
+$string['anycourse'] = 'herhangi ders';
 $string['anyfield'] = 'herhangi alan';
 $string['anyrole'] = 'herhangi rol';
 $string['anyvalue'] = 'herhangi değer';
+$string['applyto'] = 'Uygula';
 $string['categoryrole'] = 'Kategori rolü';
 $string['contains'] = 'içerirse';
-$string['courserole'] = 'Kurs rolü';
-$string['courserolelabel'] = '$a->label $a->categoryname\'den $a->coursename içrerisinde bir $a->rolename';
+$string['content'] = 'İçerik';
+$string['contentandheadings'] = 'İçerik ve başlıklar';
+$string['courserole'] = 'Ders rolü';
+$string['courserolelabel'] = '$a->label $a->categoryname\'den $a->coursename içerisinde bir $a->rolename';
 $string['courserolelabelerror'] = '$a->label hata: ders $a->coursename mevcut değil';
 $string['datelabelisafter'] = '$a->label, $a->after\'dan sonradır';
 $string['datelabelisbefore'] = '$a->label, $a->before\'dan öncedir';
 $string['datelabelisbetween'] = '$a->label, $a->after ve $a->before arasındadır';
+$string['defaultx'] = 'Varsayılan ($a)';
+$string['disabled'] = 'Etkin değil';
 $string['doesnotcontain'] = 'içermezse';
 $string['endswith'] = 'ile biterse';
+$string['filterallwarning'] = 'Filtreleri başlıkların yanı sıra içeriklere de uygulamak sunucunun yükünü çok arttırabilir. Lütfen \'Uygula\' ayarını idareli kullanın. Ana kullanım çoklu dil fitresiyledir.';
+$string['filtersettingsforin'] = '$a->context bağlamındaki $a->filter için filtre ayarları';
+$string['filtersettingsin'] = '$a için filtre ayarları';
 $string['firstaccess'] = 'İlk erişim';
 $string['globalrolelabel'] = '$a->label, $a->value\'dir';
+$string['isactive'] = 'Etkin';
 $string['isafter'] = 'den sonraysa';
 $string['isanyvalue'] = 'herhangi bir değerse';
 $string['isbefore'] = 'den önceyse';
@@ -29,7 +38,11 @@ $string['isempty'] = 'boşsa';
 $string['isequalto'] = 'eşitse';
 $string['isnotdefined'] = 'tanımlanmamışsa';
 $string['isnotequalto'] = 'eşit değilse';
-$string['newfilter'] = 'Yeni süzgeç';
+$string['newfilter'] = 'Yeni filtre';
+$string['nofiltersenabled'] = 'Bu sitede hiç bir filtre eklentisi etkinleştirilmemiş.';
+$string['off'] = 'Etkin değil';
+$string['offbutavailable'] = 'Etkin değil, fakat şunlara açık';
+$string['on'] = 'Etkin';
 $string['profilelabel'] = '$a->label: $a->profile $a->operator $a->value';
 $string['profilelabelnovalue'] = '$a->label: $a->profile $a->operator';
 $string['removeall'] = 'Tümünü sil';
