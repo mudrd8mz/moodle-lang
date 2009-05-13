@@ -1,0 +1,158 @@
+﻿<h1>Beépített válaszok (Kitöltő)</h1>
+
+<p>Igen rugalmas, a közismert kitöltős formához hasonló kérdéstípus.</p>
+
+<p>A kérdések egy (Moodle formájú) szövegrészből állnak, melyekbe különféle válaszok vannak beépítve, éspedig:</p>
+<ul>
+  <li>kiegészítő&nbsp;(SHORTANSWER vagy SA vagy MW), kis-/nagybetűk nem különböznek,</li>
+  <li>kiegészítő&nbsp;(SHORTANSWER_C vagy SAC vagy MWC), kis-/nagybetűk különböznek,</li>
+  <li>számjegyes válaszok (NUMERICAL vagy NM),</li>
+  <li>feleletválasztós (MULTICHOICE vagy MC), szövegközi lenyíló menüvel</li>
+  <li>feleletválasztós (MULTICHOICE_V vagy MCV), választógombok függőleges sora, vagy</li>
+  <li>feleletválasztós (MULTICHOICE_H vagy MCH), választógombok vízszintes sora.</li>
+</ul>
+<p>A kérdések létrehozásához jelenleg nem áll rendelkezésre grafikus felület - vagy a szövegnégyzetben kell megadnia a kérdés formáját, vagy 
+importálhatja a kérdéseket külső állományokból.</p>
+
+<p>Íme egy példa a kérdés meghatározására használt szövegbevitelre:</p>
+
+<p>Ne feledje, hogy a függőleges vagy vízszintes elrendezésű választógombok a feleletválasztós kérdéseknél nincsenek automatikusan számozva. Ezt minden válasznál az alábbi módon adhatja meg.</p>
+
+<p><textarea rows="25" cols="60">A kérdés szövegből és egy itt beépített válaszból áll {1:MULTICHOICE:Rossz válasz#Visszajelzés ezen rossz válaszhoz~Másik rossz válasz#Visszajelzés a másik rossz válaszhoz~=Jó válasz#Visszajelzés a jó válaszhoz~%50%A kreditpont felét kitevő értékű válasz#Visszajelzés a kreditpont felét kitevő értékű válaszhoz}, majd közvetlenül ezt követően jön a következő kiegészítő kérdés {1:SHORTANSWER:Rossz válasz#Visszajelzés ezen rossz válaszhoz~=Jó válasz#Visszajelzés a jó válaszhoz~%50%A kreditpont felét kitevő értékű válasz#Visszajelzés a kreditpont felét kitevő értékű válaszhoz}, végezetül van egy lebegőpontos kérdés {2:NUMERICAL:=23.8:0.1#Visszajelzés a jó válaszhoz 23.8~%50%23.8:2#Visszajelzés a kreditpont felét kitevő értékű válaszhoz a jó válaszhoz közeli tartományban}.
+
+A feleletválasztós kérdés megjelenhet a szokásos feleletválasztós Moodle-kérdés függőleges elrendezéseként is.
+
+{2:MCV:1. Rossz válasz#Visszajelzés ezen rossz válaszhoz~2. Másik rossz válasz#Visszajelzés a másik rossz válaszhoz~=3. Jó válasz#Visszajelzés a jó válaszhoz~%50%4. A kreditpont felét kitevő értékű válasz#Visszajelzés a kreditpont felét kitevő értékű válaszhoz}
+Vagy pedig vízszintesen egy táblázatban
+
+{2:MCH:a. Rossz válasz#Visszajelzés ezen rossz válaszhoz~b. Másik rossz válasz#Visszajelzés a másik rossz válaszhoz~=c. Jó válasz#Visszajelzés a jó válaszhoz~%50%d. A kreditpont felét kitevő értékű válasz#Visszajelzés a kreditpont felét kitevő értékű válaszhoz}
+Kiegészítő kérdés, ahol a kis-/nagybetűk különböznek. A moodle-t írja nagybetűkkel {1:SHORTANSWER_C:moodle#Visszajelzés a kisbetűs moodle esetén ~=MOODLE#Visszajelzés a nagybetűs MOODLE esetén ~%50%Moodle#Visszajelzés, ha csak az első betű nagybetűs}
+Figyelje meg, hogy az olyan címek, mint a www.moodle.org és a hangulatjelek :-) a szokásos módon működnek:
+ a) Mennyire jó ez? {:MULTICHOICE:=Yes#Helyes~No#Más a véleményünk}
+ b) Hány pontot adott rá? {3:NUMERICAL:=3:2}
+
+Sok szerencsét!
+</textarea>
+</p>
+
+<p>A példát a tanulók ekként látják majd:<p>
+
+<div id="middle-column"><div><span id="maincontent"></span><div id="q6" class="que multianswer clearfix">
+  <div class="info">
+    <span class="accesshide">Question </span>1      
+    <div class="grade">
+      Marks: --/13.00</div>
+    </div>
+    <div class="content">
+      <div class="ablock clearfix"><label>This question consists of some text with an answer embedded right here <span><select name="resp3796_1"><option 
+  selected></option><option value="8919">Wrong answer</option><option value="8920">Another wrong answer</option><option value="8921">Correct answer</option><option value="8922">Answer that gives half the credit</option></select></span></label><label>and right after that you will have to deal with this short answer <input name="resp3796_2" size="33" /> </label><label> and finally we have a floating point number <input name="resp3796_3" size="4" /> </label>.<br />
+  <br />
+  The multichoice question can also be shown in the vertical display of the standard moodle multiple choice<br />
+  <br />
+        <table width="50%"><tbody><tr><td>
+          <table class="answer">
+            <tr class="r0">
+              <td class="c0 control">
+                <input id="resp3796_8960" name="resp3796_4"  type="radio" value="8960" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8960">
+                  1. Wrong answer
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r1">
+              <td class="c0 control">
+                <input id="resp3796_8961" name="resp3796_4"  type="radio" value="8961" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8961">
+                  2. Another wrong answer
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r0">
+              <td class="c0 control">
+                <input id="resp3796_8962" name="resp3796_4"  type="radio" value="8962" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8962">
+                  3. Correct answer
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+            <tr class="r1">
+              <td class="c0 control">
+                <input id="resp3796_8963" name="resp3796_4"  type="radio" value="8963" />
+              </td>
+              <td class="c1 text ">
+                <label for="resp3796_8963">
+                  4. Answer that gives half the credit
+                </label>
+              </td>
+              <td class="c0 feedback">
+              </td>
+            </tr>
+          </table>
+        </td></tr></tbody></table>
+      <br />Or in an horizontal display that is included here in a table<br /><br />
+        <table class="answer">
+          <tr class="r0">
+            <td class="c0 control">
+              <input id="resp3796_8964" name="resp3796_5"  type="radio" value="8964" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8964">
+                a. Wrong answer
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input id="resp3796_8965" name="resp3796_5"  type="radio" value="8965" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8965">
+                b. Another wrong answer
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input  id="resp3796_8966" name="resp3796_5"  type="radio" value="8966" >
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8966">
+                c. Correct answer
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+            <td class="c0 control">
+              <input  id="resp3796_8967" name="resp3796_5"  type="radio" value="8967" />
+            </td>
+            <td class="c1 text ">
+              <label for="resp3796_8967">
+                d. Answer that gives half the credit
+              </label>
+            </td>
+            <td class="c0 feedback">
+            </td>
+          </tr>
+        </table>
+        <br />
+        A shortanswer question where case must match. Write moodle in upper case letters <input    name="resp3435_6"  type="text" value="" size="6" /> <br />
+      <br />Note that addresses like <a href="http://www.moodle.org" target="_blank">www.moodle.org</a> and smileys <img alt="smile" width="15" height="15" src="http://132.208.141.198/moodle_head/pix/s/smiley.gif" /> all work as normal:<br />
+       a) How good is this? <span><select name="resp3796_6"><option selected></option><option value="8968">Yes</option><option value="8969">No</option></select></span><label><br />
+       b) What grade would you give it? <input name="resp3796_7" size="1" > </label><br /><br />Good luck!
+    </div>
+    <div class="grading">
+    </div>
+  </div>
+</div></div></div>
