@@ -1,6 +1,27 @@
 <?PHP // $Id$ 
       // admin.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+	  $string['cannotdeletemodfilter'] = 'A(z) \'$a->filter\' nem távolítható el, mert a(z) \'$a->module\' modul része.';
+$string['commonfiltersettings'] = 'Általános szűrőbeállítások';
+$string['configallowswitch'] = 'Válassza ki, a meglévő szerepeik alapján a felhasználók mely szerepekre válthatnak át. Az átváltáshoz a tábla bejegyzésén túl a felhasználónak moodle/role:switchroles képességgel is rendelkeznie kell.<br />Ne feledje, hogy a szerepváltás csak akkor lehetséges, ha a felhasználó a  moodle/course:view képességgel rendelkezik, de nem rendelkezik moodle/site:doanything képességgel, ezért a tábla néhány oszlopa ki van kapcsolva.';
+$string['configcurlcache'] = 'A cURL gyorsítótár működési ideje másodpercekben.';
+$string['configexperimentalsplitrestore'] = 'Bekapcsolása esetén sor kerül a kurzus mentett állományaiban az XML-hibák ellenőrzésére és a helyreállítási folyamathoz kisebb részekre való felosztására. Ennek eredményeként stabilabb lesz a helyreállítás és javul a végrehajtási idő, különösen közepes és nagy kurzusok mentése esetén.';
+$string['configextramemorylimit'] = 'Egyes programkódoknak (pl. keresés, mentés/helyreállítás, cron) nagyobb memóriára van szükségük. Nagy portál esetén állítson be magasabb értékeket.';
+$string['configmaxconsecutiveidentchars'] = 'A jelszavak leggfeljebb ennyi egymás után következő azonos karakterből állhatnak. Az ellenőrzést a 0-t választva kapcsolhatja ki.';
+$string['configmycoursesperpage'] = 'Maximális megjelenítendő kurzusszám a felhasználó bármelyik saját kurzuslistáján belül';
+$string['curlcache'] = 'cURL-gyorsítótári TTL';
+$string['curlrecommended'] = 'Ajánlatos a választható cURL-könyvtár telepítése a Moodle Networking bekapcsolásához.';
+$string['deletefilterareyousure'] = 'Biztosan törli a(z) \'$a\' szűrőt?';
+$string['deletefilterareyousuremessage'] = 'Törölni fogja a(z) \'$a\' szűrőt. Biztosan ezt akarja?';
+$string['deletefilterfiles'] = 'A(z) \'$a->filter\' szűrőhöz kapcsolódó összes adat törlődött az adatbázisból. A törlés befejezéséhez (és a szűrő újbóli településének megelőzéséhez) törölje szerveréről ezt a könyvtárat: $a->directory';
+$string['deletingfilter'] = 'A(z) \'$a\' szűrő törlése';
+$string['experimentalsplitrestore'] = 'A feldarabolás kísérleti helyreállítása';
+$string['extramemorylimit'] = 'Külön php-memóriakorlát';
+$string['filters'] = 'Szűrők';
+$string['frontpagefilters'] = 'Címoldali szűrők';
+$string['maxconsecutiveidentchars'] = 'Egymást követő azonos karakterek';
+$string['mycoursesperpage'] = 'Kurzusok száma';
+$string['save'] = 'Mentés';
 
 $string['allowuserswitchrolestheycantassign'] = 'Szerepváltás engedélyezése szerep-hozzárendelő funkcióval nem rendelkező felhasználók részére';
 $string['calendarexportsalt'] = 'Naptárexportáló rejtjelbitek';

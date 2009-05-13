@@ -1,6 +1,39 @@
 <?PHP // $Id$ 
       // error.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['authnotexisting'] = 'A hitelesítési segédprogram nem létezik.';
+$string['cannotaddmembergroupiddoesntexist'] = 'A tagcsoportot nem lehet fölvenni: nincs csoportazonosító.';
+$string['cannotcustomisefiltersblockuser'] = 'Felhasználó- és blokk-környezetben nem módosíthatja a szűrőbeállításokat.';
+$string['cannotdeletecategorycourse'] = 'A(z) \'$a\' kurzus törlése nem sikerült.';
+$string['cannotdeletecategoryquestions'] = 'A(z) \'$a\' kategóriából nem sikerült a kérdések törlése.';
+$string['couldnotupdatenoexistinguser'] = 'A felhasználó frissítése nem sikerült - nincs ilyen felhasználó.';
+$string['coursedoesntexistcannotcreategroup'] = 'A csoport létrehozása nem sikerült - nincs ilyen kurzus.';
+$string['courseidnotfound'] = 'Nincs kurzusazonosító.';
+$string['filterdoesnothavelocalconfig'] = 'A(z) $a szűrő nem engedélyez helybeni beállítást.';
+$string['groupiddoesntexistcannotdelete'] = 'A csoport törlése nem sikerült - nincs csoportazonosító.';
+$string['idnumbertaken'] = 'Az azonosítószámot egy másik kurzus használja.';
+$string['invalidmode'] = 'Érvénytelen mód ($a)';
+$string['noexistingcategory'] = 'Nincs kategória';
+$string['nofiltersenabled'] = 'Nincs bekapcsolva szűrő.';
+$string['shortnametaken'] = 'A rövid nevet már egy másik kurzus használja.';
+$string['useriddoesntexist'] = 'Nincs ilyen felhasználói azonosító.';
+$string['userisnotaparticipant'] = 'A felhasználó nem vett fel kurzust.';
+$string['usernotcreated'] = 'A felhasználót ne msikerült létrehozni.';
+$string['wscouldnotaddgroupmembernopermission'] = 'WS - A csoporttag felvétele nem sikerült. - Nincs hozzá engedély.';
+$string['wscouldnotcreateecoursenopermission'] = 'WS - A kurzus létrehozása nem sikerült. - Nincs hozzá engedély.';
+$string['wscouldnotcreateeuserindb'] = 'WS - Nem sikerült felhasználót létrehozni.';
+$string['wscouldnotcreateeusernopermission'] = 'WS - Nem sikerült felhasználót létrehozni. - Nincs hozzá engedély.';
+$string['wscouldnotcreategroupnopermission'] = 'WS - Nem sikerült csoportot létrehozni.- Nincs hozzá engedély.';
+$string['wscouldnotdeletegroupnopermission'] = 'WS - Nem sikerült törölni a csoportot. - Nincs hozzá engedély.';
+$string['wscouldnotdeletenoexistinguser'] = 'WS - Nem sikerült törölni egy felhasználót. - Nincs ilyen felhasználó.';
+$string['wscouldnotdeleteusernopermission'] = 'WS - Nem sikerült törölni egy felhasználót. - Nincs hozzá engedély.';
+$string['wscouldnotgetgroupnopermission'] = 'WS - Nem sikerült csoportot behozni. - Nincs hozzá engedély.';
+$string['wscouldnotremovegroupmembernopermission'] = 'WS - A csoporttag törlése nem sikerült. - Nincs hozzá engedély.';
+$string['wscouldnotupdatenoexistinguser'] = 'WS - Nem sikerült frissíteni egy felhasználót. - Nincs ilyen felhasználó.';
+$string['wscouldnotupdateuserindb'] = 'WS - Nem sikerült frissíteni egy felhasználót.';
+$string['wscouldnotupdateusernopermission'] = 'WS - Nem sikerült frissíteni egy felhasználót. - Nincs hozzá engedély.';
+$string['wscouldnotvieweusernopermission'] = 'WS - Nem sikerült megtekinteni egy felhasználót. - Nincs hozzá engedély.';
+
 $string['countriesphpempty'] = 'Hiba: a countries.php a(z) $a nyelvi csomagban üres vagy hiányzik.';
 $string['dbsessionbroken'] = 'Súlyos gond van az adatbázissal.<br /><br />Értesítse a rendszergazdát.';
 $string['dbsessionhandlerproblem'] = 'Az adatbázis beállítása nem sikerült.<br /><br />Értesítse a rendszergazdát.';

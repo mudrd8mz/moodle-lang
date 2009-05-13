@@ -2,6 +2,8 @@
 
       // hotpot.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['removegradeitem'] = 'Pontozási tétel törlése';
+
 $string['deleteallattempts'] = 'Az összes próbálkozás törlése';
 $string['abandoned'] = 'Felhagyott vele';
 $string['addquizchain'] = 'Tesztsor hozzáadása';

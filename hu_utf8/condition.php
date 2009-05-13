@@ -2,6 +2,7 @@
       // condition.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
       // local modifications from http://127.1.1.0
 
+$string['requires_date_both'] = 'Elérhető $a->from és $a->until között.';
 
 $string['addcompletions'] = '{no} tevékenységfeltétel hozzáadása az űrlaphoz';
 $string['addgrades'] = '{no} pontozási feltétel hozzáadása az űrlaphoz';

@@ -1,5 +1,8 @@
 <?PHP // $Id$
 
+$string['time'] = 'Idő';
+$string['timeunit'] = 'Időegység';
+
 $string['somefieldsrequired'] = 'Az űrlapon $a jelzésű kitöltendő mezők vannak.'; 
 $string['err_alphanumeric'] = 'Ide csak betűket és számokat írhat.';
 $string['err_email'] = 'Ide érvényes e-mail címet kell beírnia.';

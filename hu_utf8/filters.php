@@ -1,5 +1,19 @@
 <?php //$Id$ 
 
+$string['applyto'] = 'Mire alkalmazandó:';
+$string['content'] = 'Tartalom';
+$string['contentandheadings'] = 'Tartalom és fejlécek';
+$string['defaultx'] = 'Alapbeállítás ($a)';
+$string['disabled'] = 'Kikapcsolva';
+$string['filterallwarning'] = 'A fejlécek és a tartalom szűrése esetén nagyban megnőhet a szerver terhelése. A \'Mire alkalmazandó\' beállításaival gazdálkodjon takarékosan. Ennek fő használata a multilang szűrőt érinti.';
+$string['filtersettingsforin'] = 'A(z) $a->filter szűrőbeállításai $a->context esetén';
+$string['filtersettingsin'] = 'A(z) $a szűrőbeállításai';
+$string['isactive'] = 'Be van kapcsolva?';
+$string['nofiltersenabled'] = 'A portálon nincsenek bekapcsolva szűrőkhöz tartozó segédprogramok.';
+$string['off'] = 'Kikapcsolva';
+$string['offbutavailable'] = 'Kikapcsolva, de elérhető';
+$string['on'] = 'Bekapcsolva';
+
 $string['actfilterhdr'] = 'Aktív szűrők';
 $string['addfilter'] = 'Szűrő hozzáadása';
 $string['anycategory'] = 'bármely kategória';

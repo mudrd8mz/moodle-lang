@@ -2,6 +2,7 @@
       // webservice.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
       // local modifications from http://127.1.1.0
 
+$string['amfdebug'] = 'AMF-szerver hibaszűrési üzemmódja';
 
 $string['debugdisplayon'] = 'A \"Hibaüzenetek kijelzése\" be van kapcsolva. Az XMLRPC-szerver nem fog működni. Más webszolgáltató szerverekkel is gond lehet. <br/>A Moodle rendszergazdájával kapcsoltassa ki.';
 $string['fail'] = 'SIKERTELEN';

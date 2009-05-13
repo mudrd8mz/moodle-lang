@@ -1,6 +1,8 @@
 <?PHP // $Id$ 
       // repository.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['createxxinstance'] = '\"$a\" előfordulás létrehozása';
+
 $string['cannotinitplugin'] = 'A plugin_init meghívása nem sikerült.';
 $string['federatedsearch'] = 'Mélységi keresés';
 $string['setupdefaultplugins'] = 'Alapbeállítás szerinti adattár-segédprogramok beállítása';

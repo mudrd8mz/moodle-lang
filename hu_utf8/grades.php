@@ -1,5 +1,15 @@
 <?PHP // $Id$ 
       // grades.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+
+$string['aggregationsvisible'] = 'Használható összegzési típusok';
+$string['aggregationsvisiblehelp'] = 'Válassza ki az összes használandó összegzési típust. Több elem kiválasztásához nyomja le a Ctrl-billentyűt.';
+$string['categorytotalfull'] = '$a->category összesen';
+$string['configunlimitedgrades'] = 'Alapesetben a pontokat a pontozási tétel maximális és minimális értéke határolja be. Ezzel a beállítással megszünteti a korlátot és 100%% fölötti pontokat rögzíthet közvetlenül az osztályozó naplóban. Ajánlatos csak nyugalmasabb időszakban bekapcsolni, mivel minden pontot újraszámol a rendszer, ami megterhelheti a szervert.';
+$string['gradeforstudent'] = '$a->student<br />$a->item$a->feedback';
+$string['intersectioninfo'] = 'Információ a tanuló/pontszám tekintetében';
+$string['unlimitedgrades'] = 'Korlátlan pontszámok';
+$string['weightuc'] = 'Súly';
+
 $string['addoutcome'] = 'Eredmény hozzáadása';
 $string['addscale'] = 'Skála hozzáadása';
 $string['badlyformattedscale'] = 'Adjon meg egy vesszőkkel elválasztott értéklistát (legalább két értékkel).';

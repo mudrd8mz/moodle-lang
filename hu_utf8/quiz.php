@@ -1,6 +1,35 @@
 <?PHP // $Id$ 
       // quiz.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['asshownoneditscreen'] = 'Amint a szerkesztő képernyőn látható.';
+$string['configdecimalplaces'] = 'A teszt pontszámainak megjelenítése során a tizedesvessző után kijelzendő számjegyek száma';
+$string['configdecimalplacesquestion'] = 'Az egyes kérdések pontszámainak megjelenítése során a tizedesvessző után kijelzendő számjegyek száma';
+$string['configdelay1st2nd'] = 'Ha késleltetést állít be, a tanulónak az első próbálkozás után ennyi ideig várnia kell a teszttel való ismételt próbálkozásig.';
+$string['configdelaylater'] = 'Ha késleltetést állít be, a tanulónak az előző próbálkozás után ennyi ideig várnia kell a teszttel való harmadik, negyedik... próbálkozásig.';
+$string['configtimelimitsec'] = 'Tesztek alapvető időkorlátja másodpercekben. A 0 az időkorlát hiányát jelenti.';
+$string['decimalplaces'] = 'Pontok tizedeshelyei';
+$string['decimalplacesquestion'] = 'Kérdéspontok tizedeshelyei';
+$string['delay1st2nd'] = 'Kivárás az 1. és a 2. próbálkozás között.';
+$string['delaylater'] = 'Kivárás a későbbi próbálkozások között.';
+$string['everynquestions'] = 'Minden $a. kérdés';
+$string['everyquestion'] = 'Minden kérdés';
+$string['extraattemptrestrictions'] = 'Külön megszorítások a próbálkozásokhoz';
+$string['importparseerror'] = 'Hiba az importált állomány feldolgozása közben. Nem került sor kérdések importálására. A jó kérdések importálásához próbálja meg Nem-re állítani a Hiba esetén leállás-t.';
+$string['layout'] = 'Elrendezés';
+$string['layoutasshown'] = 'Elrendezés a megjelenítés szerint';
+$string['layoutasshownwithpages'] = 'Elrendezés a megjelenítés szerint. <small>(Automatikus új oldal $a kérdésenként.)</small>';
+$string['layoutshuffledandpaged'] = 'Kérdések véletlenszerű összekeverése oldalanként $a kérdéssel.';
+$string['layoutshuffledsinglepage'] = 'Kérdések véletlenszerű összekeverése egyetlenb oldalon.';
+$string['neverallononepage'] = 'Soha, minden kérdés egy oldalon.';
+$string['newpage'] = 'Új oldal';
+$string['nogradewarning'] = 'A teszt nincs pontozva, ezért nem állíthat be pontonként eltérő visszajelzést.';
+$string['questionbehaviour'] = 'Kérdés viselkedése';
+$string['questionorder'] = 'Kérdések sorrendje';
+$string['repaginatenow'] = 'Újratördelés most';
+$string['sameasoverall'] = 'A globális pontokkal egyező';
+$string['showinsecurepopup'] = 'A próbálkozásokhoz külön \"biztonságos\" ablak használata';
+$string['shuffledrandomly'] = 'Véletlenszerű összekeverés';
+$string['timelimitsec'] = 'Időkorlát (másodperc)';
 
 $string['addaquestion'] = 'Kérdés hozzáadása...';
 $string['addarandomquestion'] = 'Véletlen kérdés hozzáadása...';

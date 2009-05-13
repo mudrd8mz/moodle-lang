@@ -1,6 +1,11 @@
 <?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['english'] = 'Angol';
+$string['firstaccess'] = 'Első hozzáférés';
+$string['preprocessingbackupfile'] = 'Biztonsági mentése előfeldolgozása';
+$string['seconds'] = 'másodperc';
+
 $string['backupfromthissite'] = 'A biztonsági mentésre ezen a portálon került sor?';
 $string['backupgradebookhistoryhelp'] = 'Bekapcsolása esetén az osztályozó napló előzményei bekerülnek az automatikus biztonsági mentésekbe. Ehhez a szerverbeállításoknál nem kell kikapcsolni az osztályozó napló előzményeit (disablegradehistory).';
 $string['coursesectionsummaries'] = 'Kurzusszekció összesítése';

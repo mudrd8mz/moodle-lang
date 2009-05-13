@@ -1,6 +1,9 @@
 <?PHP // $Id$ 
       // data.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['csvfailed'] = 'A CSV-állományból nem sikerül kiolvasni a nyers adatokat.';
+$string['fieldnotmatched'] = 'Állományának alábbi mezői nem szerepelnek az adatbázisban: $a';
+
 $string['entrieslefttoaddtoview'] = 'Még $a->entrieslefttoview bejegyzést kell hozzáadnia, mielőtt megtekintheti más résztvevők bejegyzéseit.';
 	  
 $string['data:exportallentries'] = 'Minden adatbázis-bejegyzés exportálása';

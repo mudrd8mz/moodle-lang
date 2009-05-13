@@ -1,6 +1,19 @@
 <?PHP // $Id$ 
       // auth.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['errormaxconsecutiveidentchars'] = 'A jelszó legfeljebb $a azonos egymás utáni karaktert tartalmazhat.';
+
+$string['auth_shib_auth_method'] = 'A hitelesítési módszer neve';
+$string['auth_shib_auth_method_description'] = 'Adjon meg egy nevet a felhasználói által ismert Shibboleth hitelesítési módszerhez. Ez lehet pl. a Shibboleth-föderáció neve, pl. <tt>SWITCHaai Login</tt>, <tt>InCommon Login</tt> vagy ehhez hasonló.';
+$string['auth_shib_idp_list'] = 'Azonosítási szolgáltató';
+$string['auth_shib_idp_list_description'] = 'Azonosítási szolgáltatók entityID-inek listája, melyekből a felhasználók a bejelentkezési oldalon választhatnak.<br />Minden soron az IdP entityID-je (l. a Shibboleth metaadat-állományát) és az IdP lenyíló listán megjelenítendő nevének vesszővel elválasztott felsorolása látható.<br />Választható harmadik paraméterként hozzáadhatja a Shibboleth folyamatkezdeményezőjének a helyét, amely a több föderációs Moodle-telepítés részét képezi.';
+$string['auth_shib_integrated_wayf'] = 'A Moodle WAYF-szolgáltatása';
+$string['auth_shib_integrated_wayf_description'] = 'Bejelölése esetén a Moodle saját WAYF-szolgáltatását használja a Shibboleth-hez beállított helyett. A Moodle egy lenyíló listát jelenít meg ezen al alternatív bejelentkezési oldalon, ahol a felhasználó kiválaszthatja a saját azonosítási szolgáltatóját.';
+$string['auth_shib_logout_return_url'] = 'Alternatív visszatérési URL kijelentkezéshez.';
+$string['auth_shib_logout_return_url_description'] = 'Azon URL megadása, amelyre a Shibboleth-felhasználók kijelentkezés után kerülnek. <br />Ha üresen hagyja, a felhasználók a Moodle által használt átirányítási helyre kerülnek.';
+$string['auth_shib_logout_url'] = 'A Shibboleth-szolgáltató kijelentkezési URL-kezelője';
+$string['auth_shib_logout_url_description'] = 'Adja meg a Shibboleth-szolgáltató kijelentkezési URL-kezelőjét. Ez rendszerint <tt>/Shibboleth.sso/Logout</tt>.';	  
+	  
 $string['auth_ntlmsso_ie_fastpath'] = 'Az NTLM SSO gyors útvonal bekapcsolásához állítsa Igen-re (kihagy egyes lépéseket és csak MS Internet Explorer esetén lép működésbe).';
 $string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE gyors útvonal?';
 
