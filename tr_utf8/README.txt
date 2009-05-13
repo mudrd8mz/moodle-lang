@@ -8,12 +8,22 @@ LAST MODIFIED : $Date$
 REVISION      : $Revision$
 ------------------------------------------------------------------------
 
-+ Ethem Evlice (www.evlice.com)
-  Başlangıç: 6 Eylül 2004, Bitiş: Hala devam ediyor
+KOORDİNASYON
 
-+ M. Cuneyt Birkok (www.birkok.net)
+* Ethem Evlice
+  www.evlice.com
+  Başlangıç: 6 Eylül 2004
+
+KATKIDA BULUNANLAR
+
+* Ayşegül Gündüz
+  www.bilgeadam.com
+  Başlangıç: 19 Mart 2009
+
+* M. Cüneyt Birkök (www.birkok.net)
   Moodle çevirilerini ilk başlatan kişi
-  Başlangıç: 10 Aralık 2002, Bitiş: 20 Ocak 2004
+  Başlangıç: 10 Aralık 2002
+  Bitiş: 20 Ocak 2004
 
 ------------------------------------------------------------------------
 Türkçe dil paketiyle ilgili her türlü öneri ve eleştirilerinizi
