@@ -778,6 +778,7 @@ $string['smtphosts'] = 'Hôtes SMTP';
 $string['smtpmaxbulk'] = 'Limite de session SMTP';
 $string['smtppass'] = 'Mot de passe SMTP';
 $string['smtpuser'] = 'Nom d\'utilisateur SMTP';
+$string['spamcleaner'] = 'Nettoyage de spam'; // Obsolete, moved to report_spamcleaner.php for 2.0dev and upwards
 $string['stats'] = 'Statistiques';
 $string['statscatdepth'] = 'Nombre maximum de catégories mères';
 $string['statsfirstrun'] = 'Intervalle maximal de traitement';
