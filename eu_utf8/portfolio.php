@@ -1,12 +1,14 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // portfolio.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addalltoportfolio'] = 'Dena gorde...';
 $string['addnewportfolio'] = 'Portfolio berria gehitu';
 $string['addtoportfolio'] = 'Gorde...';
-$string['disabled'] = 'Barkatu, baina `gune honetan portfolio-esportazioak ez daude gaituta';
+$string['disabled'] = 'Barkatu, baina gune honetan portfolio-esportazioak ez daude gaituta';
 $string['enabled'] = 'Portfolioak gaitu';
+$string['failedtosendpackage'] = 'Errorea zure datuak aukeratutako portfolio-sistemara bidaltzean: jatorrizko errorea $a zen';
+$string['filedenied'] = 'Fitxategi honetarako sarbidea ukatuta';
 $string['filenotfound'] = 'Ez da fitxategia aurkitu';
 $string['format_file'] = 'Fitxategia';
 $string['format_image'] = 'Irudia';
@@ -26,5 +28,7 @@ $string['plugin'] = 'Portfolio-plugina';
 $string['portfolio'] = 'Portfolioa';
 $string['portfolios'] = 'Portfolioak';
 $string['save'] = 'Gorde';
+$string['sure'] = 'Ziur al zaude \'$a\' ezabatu egin nahi duzula? Ezin izango duzu atzera egin';
+$string['wait'] = 'Itxaron';
 
 ?>
