@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090507) (2009050619)
+      // error.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
 
 
 $string['TODO'] = 'TODO';
@@ -439,6 +439,7 @@ $string['unknowncourserequest'] = '不明なコースリクエストです。';
 $string['unknownfiletype'] = '不明なファイルタイプです。';
 $string['unknowngroup'] = '不明なグループ「 $a 」です。';
 $string['unknownhelp'] = '不明なヘルプトピック「 $a 」です。';
+$string['unknownjsinrequirejs'] = 'JSライブラリ「 $a 」が見つかりません。';
 $string['unknownmodulename'] = 'フォームに対する不明なモジュール名です。';
 $string['unknownrole'] = '不明なロール「 $a 」です。';
 $string['unknownsortcolumn'] = '不明なソートカラム「 $a 」です。';

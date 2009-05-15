@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090426) (2009042600)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
 
 
 $string['actual'] = '実値';
@@ -68,6 +68,7 @@ $string['fields'] = 'フィールド';
 $string['fieldsusedinkey'] = 'このフィールドは、キーとして使用されています。';
 $string['filenotwriteable'] = 'ファイルに書き込み権がありません。';
 $string['fkviolationdetails'] = 'テーブル $a->tablename の外部キー $a->keyname に関して、$a->numrows 行中 $a->numviolations 行が違反しています。';
+$string['float2numbernote'] = '注意: XMLDBにおいて、「浮動小数」フィールドは、100%%サポートされますが、代わりに「数値」フィールドへの移行をお勧めします。';
 $string['floatincorrectdecimals'] = 'floatフィールドの小数点以下桁数が正しくありません。';
 $string['floatincorrectlength'] = 'floatフィールドの長さが正しくありません。';
 $string['generate_documentation'] = 'ドキュメンテーション';
