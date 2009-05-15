@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
 
 
 $string['addcomment'] = '덧글 쓰기';
@@ -15,7 +15,6 @@ $string['allowprintview'] = '미리보기 허용';
 $string['allowratings'] = '추천 허용';
 $string['answer'] = '대답';
 $string['approve'] = '승인';
-$string['areaintro'] = '용어집 소개';
 $string['areyousuredelete'] = '이 항목을 지울까요?';
 $string['areyousuredeletecomment'] = '이 덧글을 지울까요?';
 $string['areyousureexport'] = '이 항목을 다음으로 내보낼까요?';
@@ -26,10 +25,8 @@ $string['authorview'] = '집필자순으로 보기';
 $string['back'] = '뒤로';
 $string['cantexportentry'] = '항목을 주 용어집으로 내보낼 수 없음';
 $string['cantinsertcat'] = '범주를 추가할 수 없음';
-$string['cantinsertent'] = '새 항목을 추가할 수 없음';
 $string['cantinsertrec'] = '자료를 추가할 수 없음';
 $string['cantinsertrel'] = '범주 항목의 관계를 설정할 수 없음';
-$string['cantupdateglossary'] = '용어집을 갱신할 수 없음';
 $string['casesensitive'] = '대,소문자 구분';
 $string['cat'] = '범주';
 $string['categories'] = '범주';
@@ -150,6 +147,7 @@ $string['importentriesfromxml'] = 'XML파일에서 내용 가져옴';
 $string['includegroupbreaks'] = '모둠 해체 포함';
 $string['invalidglossaryformat'] = '쓸 수 없는 용어집 형식';
 $string['invalidid'] = '바르지 않은 용어집 ID';
+$string['invalidrate'] = '잘못된 용어집 등급($a)';
 $string['isglobal'] = '공용 용어집?';
 $string['letter'] = '문자';
 $string['linkcategory'] = '이 범주로 자동 링크됨';
@@ -213,5 +211,8 @@ $string['withauthor'] = '저자명과 함께';
 $string['withoutauthor'] = '저자 생략';
 $string['writtenby'] = '올린이:';
 $string['youarenottheauthor'] = '글 쓴 사람만 내용을 고칠 수 있습니다.';
+$string['areaintro'] = '용어집 소개'; // ORPHANED
+$string['cantinsertent'] = '새 항목을 추가할 수 없음'; // ORPHANED
+$string['cantupdateglossary'] = '용어집을 갱신할 수 없음'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
+      // data.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
 
 
 $string['action'] = '실행';
@@ -149,6 +149,7 @@ $string['invalidfieldname'] = '이 필드에 대한 다른 이름을 선택하�
 $string['invalidfieldtype'] = '필드 형식이 틀림';
 $string['invalidid'] = '틀린 자료 ID';
 $string['invalidpreset'] = '$a 의 초기설정이 잘 못 됨';
+$string['invalidrate'] = '잘못된 데이터베이스 등급($a)';
 $string['invalidratedata'] = '틀린 추천 자료';
 $string['invalidrecord'] = '틀린 레코드';
 $string['invalidurl'] = '맞지 않는 URL';

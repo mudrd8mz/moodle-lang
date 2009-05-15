@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090218) (2009012901)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
 
 
 $string['actual'] = '실제';
@@ -64,6 +64,7 @@ $string['fields'] = '필드들';
 $string['fieldsusedinkey'] = '[[/var/www/moodle/lang/en_utf8/xmldb.php의 67번째 줄에 불완전한 문자열]]';
 $string['filenotwriteable'] = '기록할 수 없는 파일';
 $string['fkviolationdetails'] = '$a->tablename 테이블에 있는 외래키 $a->keyname 는 $a->numrows 열에서 $a->numviolations 위반입니다.';
+$string['float2numbernote'] = '알림: XMLDB에 의해 \"float\" 필드가 완벽히 지원된다 하더라도, \"number\" 필드로 마이그레이션 할 것을 권장함';
 $string['floatincorrectdecimals'] = '부동소숫점 필드에 적합하지 않는 십진수';
 $string['floatincorrectlength'] = '부동소숫점 필드에 적합하지 않은 길이';
 $string['generate_documentation'] = '문서작성';
@@ -77,6 +78,7 @@ $string['keys'] = '키';
 $string['listreservedwords'] = '유보 단어 목록<br/>(<a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>를 이용하여 항상 최신 상태로 유지)';
 $string['load'] = '올림';
 $string['main_view'] = '주 화면';
+$string['masterprimaryuniqueordernomatch'] = '외래키 필드는 참조테이블의 UNIQUE KEY에 제시된 순서와 동일하게 제시되어야만 합니다.';
 $string['missing'] = '누락됨';
 $string['missingfieldsinsentence'] = '문장내 없는 필드';
 $string['missingindexes'] = '문장에서 누락된 값';
@@ -94,6 +96,7 @@ $string['newsentence'] = '새 문장';
 $string['newstatement'] = '새 선언문';
 $string['newtable'] = '새 테이블';
 $string['newtablefrommysql'] = 'MySQL의 새 테이블';
+$string['nomasterprimaryuniquefound'] = '외래키 참조 칼럼은 참조 테이블의 고유키를 포함하여야만 함. UNIQUE INDEX를 포함하는 것만으로는 충분치 않음을 유의';
 $string['nomissingindexesfound'] = '누락된 인덱스가 발견되지 않았으므로, DB는 추가 조치가 필요하지 않습니다.';
 $string['noviolatedforeignkeysfound'] = '외래키 위반사항 없음';
 $string['nowrongdefaultsfound'] = '잘못된 초기값이 발견되지 않았으므로, DB는 추가 조치가 필요하지 않습니다.';
