@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.8 (2007021501)
+      // form.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
 
 
 $string['addfields'] = 'Bætta $a gagnareitum við form';
@@ -20,12 +20,18 @@ $string['hideadvanced'] = 'Fela ítarstillingar';
 $string['hour'] = 'Klukkustund';
 $string['minute'] = 'Mínúta';
 $string['miscellaneoussettings'] = 'Ýmsar stillingar';
+$string['modstandardels'] = 'Almennar stillingar';
 $string['month'] = 'Mánuður';
 $string['optional'] = 'Valkvæmt';
+$string['othersettings'] = 'Aðrar stillingar';
 $string['requiredelement'] = 'Skilyrt';
+$string['revealpassword'] = 'Birta';
 $string['security'] = 'Öryggi';
+$string['selectallornone'] = 'Velja allt/ekkert';
 $string['showadvanced'] = 'Sýna ítarstillingar';
-$string['timing'] = 'Tímastningar';
+$string['somefieldsrequired'] = 'Þetta form inniheldur svæði sem verður að fylla út. Þau eru merkt með $a.';
+$string['timing'] = 'Tímasetningar';
+$string['unmaskpassword'] = 'Birta';
 $string['year'] = 'Ár';
 $string['denotesreq'] = '$a gefur til kynna að reitinn verði að fylla út'; // ORPHANED
 

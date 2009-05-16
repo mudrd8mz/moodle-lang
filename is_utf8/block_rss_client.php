@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8 (2007021501)
+      // block_rss_client.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
 
 
 $string['addfeed'] = 'Slóð að nýju fréttaskeyti:';
@@ -30,6 +30,7 @@ $string['feedupdated'] = 'Fréttaskeyti uppfærð';
 $string['findmorefeeds'] = 'Finna fleiri RSS fréttaskeyti';
 $string['managefeeds'] = 'Skeytin mín';
 $string['nofeeds'] = 'Það eru engin RSS skeyti skilgreind fyrir þennan vef.';
+$string['numentries'] = 'Fjöldi færslna í skeyti';
 $string['pickfeed'] = 'Veldu fréttaskeyti';
 $string['remotenewsfeed'] = 'RSS fréttaskeyti';
 $string['rss_client:createprivatefeeds'] = 'Mynda lokaðan RSS straum';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.8 (2007021501)
+      // install.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
 
 
 $string['admindirerror'] = 'Uppgefið \'admin\' skráarsafn er rangt';
@@ -46,6 +46,7 @@ $string['databasesettingssub'] = '<b>Tegund:</b> mysql eða postgres7<br />
 <b>Notandi:</b> notendanafn að gagnagrunni<br />
 <b>Lykilorð:</b> lykilorð að gagnagrunni<br />
 <b>Forskeyti á töflur:</b> valkvæmt forskeyti á töflur';
+$string['databasesettingswillbecreated'] = '<b>Ath:</b>Uppsetningarforritið reynir að búa sjálft til gagnagrunninn en hann er ekki til staðar.';
 $string['dataroot'] = 'Gagnamappa';
 $string['datarooterror'] = 'Gagnamappan sem þú tilgreindir fannst ekki eða ekki var hægt að búa hana til. Lagfærðu slóðina eða búðu möppuna til handvirkt.';
 $string['dbconnectionerror'] = 'Ekki náðist tenging við uppgefinn gagnagrunn. Vinsamlegast athugaðu hvort stillingar séu réttar.';
@@ -88,6 +89,7 @@ $string['gdversionerror'] = 'GD forritasafnið á að vera til staðar til að h
 $string['installation'] = 'Uppsetning';
 $string['langdownloaderror'] = 'Því miður tókst ekki að setja upp tungumálið $a. Uppsetning heldur áfram á ensku.';
 $string['langdownloadok'] = 'Tungumálið $a hefur verið sótt og sett upp. Innsetningarferlið heldur nú áfram á því máli.';
+$string['memorylimit'] = 'Minnistakmörk';
 $string['mssql'] = 'SQL *vefþjónn (mssql)';
 $string['mssql_n'] = 'SQL *Vefþjónn sem styður við UTF-8 (mysql_n)';
 $string['mysql'] = 'MySQL (mysql)';

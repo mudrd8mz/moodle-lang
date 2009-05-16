@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8 (2007021501)
+      // choice.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
 
 
 $string['addmorechoices'] = 'Bæta við valmöguleikum';
@@ -16,6 +16,7 @@ $string['choicetext'] = 'Veldu texta';
 $string['displayhorizontal'] = 'Birta lárétt';
 $string['displaymode'] = 'Birtingarmáti';
 $string['displayvertical'] = 'Birta lóðrétt';
+$string['expired'] = 'Því miður - viðfangið \'$a\' er ekki lengur aðgengilegt';
 $string['fillinatleastoneoption'] = 'Þú verður að gefa upp í það minnsta tvo valkosti.';
 $string['full'] = '(Fullt)';
 $string['havetologin'] = 'Þú verður að vera innskráð/ur áður en þú getur svarað spurningunni';
@@ -36,6 +37,8 @@ $string['publishalways'] = 'Alltaf birta nemendum niðurstöður';
 $string['publishanonymous'] = 'Birta niðurstöður, en ekki nöfn nemenda';
 $string['publishnames'] = 'Birta allar niðurstöður, nöfn og svör';
 $string['publishnot'] = 'Ekki birta nemendum niðurstöður';
+$string['removemychoice'] = 'Eyða mínu svari';
+$string['removeresponses'] = 'Eyða öllum svörum';
 $string['responses'] = 'Svör';
 $string['responsesto'] = 'Svör við $a';
 $string['savemychoice'] = 'Vista svar';

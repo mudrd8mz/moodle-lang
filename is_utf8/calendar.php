@@ -1,20 +1,24 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 (2007021501)
+      // calendar.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
 
 
 $string['advancedoptions'] = 'Ítarlegar stillingar';
+$string['allday'] = 'Heill dagur';
 $string['calendar'] = 'Dagatal';
 $string['calendarheading'] = '$a Dagatal';
 $string['clickhide'] = 'smelltu til að fela';
 $string['clickshow'] = 'smelltu til að birta';
 $string['commontasks'] = 'Valkoswtir';
 $string['confirmeventdelete'] = 'Viltu örugglega eyða þessum viðburði?';
+$string['course'] = 'Áfangi';
 $string['courseevent'] = 'Viðburðir í áfanga';
 $string['courseevents'] = 'Áfangabundnir viðburðir';
+$string['courses'] = 'Áfangar';
 $string['dayview'] = 'Dagar';
 $string['daywithnoevents'] = 'Það eru engir viðburðir skráðir þennan dag';
 $string['default'] = 'Sjálfgefið';
 $string['deleteevent'] = 'Eyða viðburði';
+$string['deleteevents'] = 'Eyða viðburðum';
 $string['detailedmonthview'] = 'Ítarlegt mánaðaryfirlit';
 $string['durationminutes'] = 'Tímalengd í mínútum';
 $string['durationnone'] = 'Engin tímamörk';
@@ -35,6 +39,7 @@ $string['eventkind'] = 'Tegund viðburðar';
 $string['eventname'] = 'Nafn';
 $string['eventnone'] = 'Engir viðburðir';
 $string['eventrepeat'] = 'Endurtekning';
+$string['eventsall'] = 'Allir viðburðir';
 $string['eventsfor'] = '$a viðburðir';
 $string['eventsrelatedtocourses'] = 'Viðburðir sem tengjast áföngum';
 $string['eventstarttime'] = 'Viðburður hefst';
@@ -53,9 +58,11 @@ $string['for'] = 'fyrir';
 $string['fri'] = 'Fös.';
 $string['friday'] = 'Föstudagur';
 $string['generateurlbutton'] = 'Birta vefslóð dagatals';
+$string['global'] = 'Altækt';
 $string['globalevent'] = 'Altækur viðburður';
 $string['globalevents'] = 'Almennir viðburðir';
 $string['gotocalendar'] = 'Opna dagatal';
+$string['group'] = 'Hópur';
 $string['groupevent'] = 'Hóp viðburður';
 $string['groupevents'] = 'Hóp viðburðir';
 $string['hidden'] = 'falið';
@@ -77,6 +84,7 @@ $string['pref_startwday'] = 'Fyrsti dagur vikunnar';
 $string['pref_timeformat'] = 'Ritháttur tímasetningar';
 $string['preferences'] = 'Eiginleikar';
 $string['preferences_available'] = 'Persónulegar stillingar';
+$string['quickdownloadcalendar'] = 'Sækja / gerast áskrifandi';
 $string['recentupcoming'] = 'Nýlegt og næstu 60 dagar';
 $string['repeateditall'] = 'Breyta öllum $a viðburðunum í þessari viðburðaröð';
 $string['repeateditthis'] = 'Breyta aðeins þessum viðburði';
@@ -112,6 +120,8 @@ $string['typegroup'] = 'Hópviðburður';
 $string['typesite'] = 'Vefbundinn viðburður';
 $string['typeuser'] = 'Notendabundinn viðburður';
 $string['upcomingevents'] = 'Á næstunni';
+$string['user'] = 'Notandi';
+$string['userevent'] = 'Viðburður notanda';
 $string['userevents'] = 'Viðburðir notanda';
 $string['wed'] = 'Mið.';
 $string['wednesday'] = 'Miðvikudagur';

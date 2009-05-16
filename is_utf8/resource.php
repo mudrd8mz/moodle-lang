@@ -1,14 +1,18 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.8 (2007021501)
+      // resource.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
 
 
 $string['addresource'] = 'Nýtt efni';
 $string['affectedresources'] = 'Hefur áhrif á eftirfarandi aðföng';
+$string['allowlocalfiles'] = 'Heimila staðværar skrár';
+$string['autofilerename'] = 'Uppfæra vísun ef skráarheiti er breytt';
 $string['back'] = 'Til baka';
+$string['blockdeletingfile'] = 'Hindra eyðingu skráa sem vísað er í';
 $string['browserepository'] = 'Sýsla í námsgagnasafni';
 $string['choose'] = 'Velja';
 $string['chooseafile'] = 'Veldu eða sæktu skrá';
 $string['chooseparameter'] = 'Veldu breytu';
+$string['clicktoopen'] = 'Smelltu á þessa krækju til að opna skjalið:';
 $string['configallowlocalfiles'] = 'Leyfa staðsetningu skráa á staðbundnum tölvukerfum, s.s. geisladiski eða hörðum diski tölvu. Þetta getur verið gagnlegt t.d. við aðstæður þar sem allir nemendur hafa aðgang að sameiginlegu drifi eða þar sem nauðsynlegt er að bjóða upp á aðgengi að gögnum á geisladiski. Nauðsynlegt getur verið að breyta öryggisstillingum í netvafra ef þessi möguleiki er virkjaður.';
 $string['configautofilerenamesettings'] = 'Uppfæra vísanir í skrár og skráarsöfn sjálfvirkt þegar nöfnum þeirra er breytt í skráarstjóra.';
 $string['configblockdeletingfilesettings'] = 'Koma í veg fyrir að eytt sé skrám og skráarsöfnum sem vísað er í úr aðföngum. Athugið að myndir og aðrar skrár sem vísað er í úr HTML eru ekki verndaðar á þennan hátt.';
@@ -40,10 +44,13 @@ $string['fetcherror'] = 'Villa kom upp þegar reynt var að opna vefinn.';
 $string['fetchservererror'] = 'Villa kom upp á vefþjóni þegar reynt var að sækja vefsíðuna (hugsanlega villa í forriti).';
 $string['filename'] = 'Skráarheiti';
 $string['filtername'] = 'Sjálfvirk tenging við orð í texta';
+$string['forcedownload'] = 'Skilyrða niðurhal';
 $string['frameifpossible'] = 'Birta efni í ramma til að Moodle notendaviðmótið verði áfram sýnilegt';
+$string['framesize'] = 'Stærð ramma';
 $string['fulltext'] = 'Texti';
 $string['htmlfragment'] = 'HTML kóði';
 $string['imspackageloaded'] = 'Efnispakka hefur verið hlaðið inn';
+$string['keepnavigationvisible'] = 'Birta leiðarkerfi á sömu síðu';
 $string['localfile'] = 'Staðvær skrá';
 $string['localfilechoose'] = 'Veldu staðværa skrá (CD-ROM)';
 $string['localfilehelp'] = 'Hjálp við að birta staðværar skrár';
@@ -89,6 +96,7 @@ $string['previous'] = 'Fyrra';
 $string['redeploy'] = 'Útfæra aftur';
 $string['repository'] = 'IMS námsgagnasafn';
 $string['resource:view'] = 'Skoðaðu aðfang';
+$string['resourcedefaulturl'] = 'Sjálfgefið URL';
 $string['resourcetype'] = 'Tegund efnis';
 $string['resourcetype1'] = 'Heimild';
 $string['resourcetype2'] = 'Vefsíða';
@@ -111,6 +119,7 @@ $string['serverurl'] = 'URL vefþjóns ($a->wwwroot)';
 $string['showcourseblocks'] = 'Birta blokkir áfangans';
 $string['skipsubmenus'] = 'Sleppa undirsíðum';
 $string['tableofcontents'] = 'Efnisyfirlit';
+$string['tableofcontentsabbrev'] = 'Efnisyfirlit';
 $string['upbutton'] = 'Upp';
 $string['variablename'] = 'Nafn breytu';
 $string['viewims'] = 'Skoða IMS efnispakka';

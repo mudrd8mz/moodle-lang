@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8 (2007021501)
+      // glossary.php - created with Moodle 1.9.2+ (Build: 20080813) (2007101521)
 
 
 $string['addcomment'] = 'Skrá athugasemd';
@@ -29,6 +29,7 @@ $string['categories'] = 'Flokkar';
 $string['category'] = 'Flokkur';
 $string['categorydeleted'] = 'Flokki eytt';
 $string['categoryview'] = 'eftir flokki';
+$string['changeto'] = 'breyta í $a';
 $string['cnfallowcomments'] = 'Ákvarðar hvort athugasemdir við færslur í safninu eru sjálfgefið heimilaðar';
 $string['cnfallowdupentries'] = 'Ákvarðar hvort tvískráningar á færslum í safninu eru sjálfgefið heimilaðar';
 $string['cnfapprovalstatus'] = 'Ákvarðar sjálfgefna samþykktarstöðu færslu sem skráð er af nemanda';
@@ -57,6 +58,7 @@ $string['defaultapproval'] = 'Sjálfgefin staða samþykktar';
 $string['definition'] = 'Skilgreining';
 $string['definitions'] = 'Skilgreiningar';
 $string['deleteentry'] = 'Eyða færslur';
+$string['deletenotenrolled'] = 'Eyða færslum eftir óinnritaða notendur';
 $string['deletingcomment'] = 'Eyði athugasemd';
 $string['deletingnoneemptycategory'] = 'Þegar flokknum er eytt teljast þær færslur sem honum tilheyra óflokkaðar.';
 $string['descending'] = '(lækkandi)';
@@ -89,6 +91,9 @@ $string['entrysaved'] = 'Færslan hefur verið vistuð';
 $string['entryupdated'] = 'Færslan hefur verið uppfærð';
 $string['entryusedynalink'] = 'Þessi færsla er sjálfvirkt tengd við samsvarandi orð í texta';
 $string['errcannoteditothers'] = 'Þú getur ekki breytt færslum annarra notenda.';
+$string['errconceptalreadyexists'] = 'Þetta hugtak hefur þegar verið skráð. Tvískráning er ekki heimiluð.';
+$string['erredittimeexpired'] = 'Tíminn til að breyta þessari færslu er runninnn út.';
+$string['errorparsingxml'] = 'Villa kom upp við úrvinnslu skráar. Er hún örugglega á fullgildu XML sniði?';
 $string['explainaddentry'] = 'Nýrri færslu bætt við safnið.<br>
 Nauðsynlegt er að fylla út reitina \"Hugtak\" og \"skilgreining\".';
 $string['explainall'] = 'Birtir allar færslur á sömu síðu';
@@ -123,8 +128,10 @@ $string['importcategories'] = 'Flytja inn flokka';
 $string['importedcategories'] = 'Innfluttir flokkar';
 $string['importedentries'] = 'Innfluttar færslur';
 $string['importentries'] = 'Flytja inn færslur';
+$string['importentriesfromxml'] = 'Flytja inn færslur úr XML skrá';
 $string['isglobal'] = 'Er safnið altækt?';
-$string['linkcategory'] = 'Sjálfvirk tenging safns';
+$string['linkcategory'] = 'Sjálfvirkar vísanir í flokk';
+$string['linking'] = 'Sjálfvirk vísun';
 $string['mainglossary'] = 'Meginsafn';
 $string['maxtimehaspassed'] = 'Því miður, tími til að breyta þessari athugasemd ($a) er runninn út!';
 $string['modulename'] = 'Safn';
@@ -155,6 +162,8 @@ $string['ratingsuse'] = 'Nota mat';
 $string['ratingtime'] = 'Takmarka mat á færslum við færslur á eftirfarandi tímabili:';
 $string['rejectedentries'] = 'Ósamþykktar færslur';
 $string['rejectionrpt'] = 'Yfirlit yfir ósamþykktar færslur';
+$string['resetglossaries'] = 'Eyða færslum frá';
+$string['resetglossariesall'] = 'Eyða færslum úr öllum söfnum';
 $string['rsssubscriberss'] = 'Birta RSS fyrir \'$a\' hugtök';
 $string['searchindefinition'] = 'Leita í öllum textanum';
 $string['secondaryglossary'] = 'Auka orðalisti';
