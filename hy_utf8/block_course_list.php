@@ -1,12 +1,10 @@
 <?PHP // $Id$ 
-      // block_course_list.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['allcourses'] = 'Ադմինիստրատորը տեսնում է բոլոր դասընթացները';
-$string['blockname'] = 'Դասընթացների Ցուցակ';
-$string['configadminview'] = 'Ի՞նչ պետք է ադմինիստրատորը տեսնի դասընթացների ցուցակի բլոկում';
-$string['confighideallcourseslink'] = 'Թաքցնել \'Բոլոր դասընթացները\' հղումը բլոկի ներքևի մասում: Հղումը թաքցնելը չի ազդում ադմինիստրատորի տեսանելիության վրա';
-$string['owncourses'] = 'Ադմինիստրատորը տեսնում է սեփական դասընթացները';
-
+      // block_course_list.php - created with Moodle 1.7 beta + (2006101003)
+$string['adminview'] = 'Կառավարչի դիտում';
+$string['allcourses'] = 'Կառավարիչը տեսնում է բոլոր դասընթացները';
+$string['blockname'] = 'Դասընթացներ';
+$string['configadminview'] = 'Սահմանեք կառավարչի իրավունքները';
+$string['confighideallcourseslink'] = 'Թաքցնել բլոկի ստորին հատվածում գտնվող \"Բոլոր դասընթացները\" հղումը։ Չի ներգործում կառավարչի արտոնությունների վրա';
+$string['hideallcourseslink'] = 'Թաքցնել Բոլոր դասընթացները հղումը';
+$string['owncourses'] = 'Կառավարչին մատչելի են միայն սեփական դասընթացները';
 ?>

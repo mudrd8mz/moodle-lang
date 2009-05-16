@@ -1,9 +1,5 @@
 <?PHP // $Id$ 
-      // block_course_summary.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['coursesummary'] = 'Դասընթացի Ամփոփում';
-$string['pagedescription'] = 'Դասընթացի/Կայքի Նկարագրություն';
-
+      // block_course_summary.php - created with Moodle 1.7 beta + (2006101003)
+$string['coursesummary'] = 'Դասընթացի նկարագրություն';
+$string['pagedescription'] = 'Դասընթացի/Էջի նկարագրություն';
 ?>

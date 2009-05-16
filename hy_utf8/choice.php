@@ -1,53 +1,53 @@
-<?PHP // $Id$ 
-      // choice.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
+<?PHP // $Id$
+      // choice.php - created with Moodle 1.7 beta + (2006101003)
 $string['addmorechoices'] = 'Ավելացնել ընտրություններ';
-$string['allowupdate'] = 'Թույլատրել ընտրությունների թարմացումը';
-$string['answered'] = 'Պատասխանած';
+$string['allowupdate'] = 'Թույլատրել նորացում';
+$string['answered'] = 'Ստացված պատասխաններ';
 $string['choice'] = 'Ընտրություն';
-$string['choice:choose'] = 'Գրանցել ընտրություն';
-$string['choice:deleteresponses'] = 'Հեռացնել պատասխանները';
-$string['choice:downloadresponses'] = 'Բեռնել պատասխանները';
-$string['choice:readresponses'] = 'Կարդալ պատասխանները';
+$string['choice:choose'] = 'Գրանցել ընտրությունը';
+$string['choice:deleteresponses'] = 'Ջնջել պատասխանները';
+$string['choice:downloadresponses'] = 'Ներլցնել պատասխանները';
+$string['choice:readresponses'] = 'Ընթերցել պատասխանները';
 $string['choiceclose'] = 'Մինչև';
+$string['choicefull'] = 'Այս ընտրությունը լրացված է և չկան մատչելի տեղեր։';
 $string['choicename'] = 'Ընտրության անվանումը';
-$string['choiceopen'] = 'Բացել';
+$string['choiceopen'] = 'Բաց է';
+$string['choicesaved'] = 'Ձեր ընտրությունը պահպանվել է';
 $string['choicetext'] = 'Ընտրության տեքստը';
-$string['displayhorizontal'] = 'Ցուցադրել հորիզոնական';
-$string['displaymode'] = 'Ցուցադրման Ձևը';
-$string['displayvertical'] = 'Ցուցադրել ուղղաձիգ';
-$string['fillinatleastoneoption'] = 'Դուք պետք է տաք առնվազն երկու հնարավոր պատասխան։';
+$string['displayhorizontal'] = 'Ցուցադրել հորիզոնական դիրքով';
+$string['displaymode'] = 'Ցուցադրման ձևը';
+$string['displayvertical'] = 'Ցուցադրել ուղղաձիգ դիրքով';
+$string['expired'] = 'Այս գործունեությունը փակվել է՝ $a և այլևս մատչելի չէ';
+$string['fillinatleastoneoption'] = 'Ձեզ անհրաժեշտ է տրամադրել առնվազն երկու հնարավոր պատասխաններ։';
 $string['full'] = '(Լրիվ)';
-$string['havetologin'] = 'Դուք պետք է մուտք գործեք ընտրություն ստեղծելը';
+$string['havetologin'] = 'Ընտրությունը ներկայացնելուց առաջ Ձեզ անհրաժեշտ է մուտք գործել համակարգ։';
 $string['limit'] = 'Սահման';
-$string['limitanswers'] = 'Սահմանել թույլատրված պատասխանների քանակը';
+$string['limitanswers'] = 'Սահմանափակեք պատասխանելու թույլատրելի փորձերի քանակը';
 $string['modulename'] = 'Ընտրություն';
 $string['modulenameplural'] = 'Ընտրություններ';
-$string['mustchooseone'] = 'Դուք պետք է ընտրեք պատասխան նախքան հիշելը։';
-$string['noguestchoose'] = 'Ներողություն, հյուրերին թույլատրված չէ ընտրություն ստեղծել։';
-$string['noresultsviewable'] = 'Արդյունքը տվյալ պահին հնարավոր չէ տեսնել';
-$string['notanswered'] = 'Պատասխանած չէ';
-$string['notopenyet'] = 'Ներողություն, այս գործունեությունը հասանելի չէ մինչև $a';
-$string['privacy'] = 'Արդյունքների առանձնությունը';
+$string['mustchooseone'] = 'Մինչև պահպանելը Ձեզ անհրաժեշտ է պատասխան ընտրել։ Ոչինչ չի պահպանվել։';
+$string['noguestchoose'] = 'Ներողություն, հյուրերը չեն կարող ընտրություն կատարել։';
+$string['noresultsviewable'] = 'Ներկայումս չեք կարող դիտել արդյունքները։';
+$string['notanswered'] = 'Դեռևս պատասխաններ չեն ստացվել';
+$string['notopenyet'] = 'Ներողություն, բայց այս գործունեությունը մատչելի չէ մինչև $a';
+$string['privacy'] = 'Արդյունքների գաղտնիություն';
 $string['publish'] = 'Հրապարակել արդյունքները';
-$string['publishafteranswer'] = 'Ցուցադրել արդյունքները ուսանողներին պատասխանելուց հետո';
-$string['publishafterclose'] = 'Ցուցադրել արդյունքները ուսանողներին միայն ընտրությունը փակելուց հետո';
-$string['publishalways'] = 'Միշտ ցուցադրել արդյունքները ուսանողներին';
-$string['publishanonymous'] = 'Հրապարակել անանուն արդյունքները, չցուցադրել ուսանողների անունները';
-$string['publishnames'] = 'Հրապարակել բոլոր արդյունքները, ցուցադրել անուններն ու ընտրությունները';
-$string['publishnot'] = 'Չհրապարակել արդյունքները ուսանողներին';
-$string['removemychoice'] = 'Հեռացնել իմ ընտրությունը';
+$string['publishafteranswer'] = 'Արդյունքներն ուսանողներին ցուցադրել  իրենց պատասխանն ուղարկելուց հետո';
+$string['publishafterclose'] = 'Արդյունքներն ուսանողներին ցուցադրել միայն ընտրությունը փակվելուց հետո';
+$string['publishalways'] = 'Արդյունքները միշտ ցուցադրել ուսանողներին';
+$string['publishanonymous'] = 'Հրապարակել անանուն արդյունքներ, չցուցադրել ուսանողների անունները';
+$string['publishnames'] = 'Հրապարակել լրիվ արդյունքները՝ ցուցադրելով ուսանողների անունները և ընտրությունները';
+$string['publishnot'] = 'Արդյունքները չհրապարակել ուսանողներին';
+$string['removemychoice'] = 'Ջնջել իմ պատասխանը';
+$string['removeresponses'] = 'Ջնջել բոլոր պատասխանները';
 $string['responses'] = 'Պատասխաններ';
-$string['responsesto'] = 'Պատասխաններ $a-ին';
-$string['savemychoice'] = 'Պահպանել իմ ընտրությունը';
-$string['showunanswered'] = 'Ցույց տալ աղյուսակը չպատասխանվածների համար';
-$string['spaceleft'] = 'հասանելի տեղը';
-$string['spacesleft'] = 'հասանելի տեղերը';
-$string['taken'] = 'Վերցրած';
-$string['timerestrict'] = 'Արգելել պատասխանելու հնարավորությունը այս ժամանակահատվածում';
+$string['responsesto'] = '$a -ի պատասխանները';
+$string['savemychoice'] = 'Պահպանել պատասխանը';
+$string['showunanswered'] = 'Ցուցադրել անպատասխան սյունակները';
+$string['spaceleft'] = 'մատչելի տարածություն';
+$string['spacesleft'] = 'մատչելի տարածություններ';
+$string['taken'] = 'Վերցված';
+$string['timerestrict'] = 'Սահմանափակել պատասխանելու ժամկետը';
 $string['viewallresponses'] = 'Դիտել $a պատասխանները';
-$string['yourselection'] = 'Ձեր ընտրաշարը';
-
+$string['yourselection'] = 'Ձեր ընտրությունը';
 ?>

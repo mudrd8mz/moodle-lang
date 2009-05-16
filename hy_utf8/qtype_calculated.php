@@ -1,31 +1,28 @@
-<?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['addmoreanswerblanks'] = 'Ավելացնել ուրիշ պատասխանի թերթ:';
-$string['addmoreunitblanks'] = 'Թերթեր $a Լրացուցիչ Մասերի համար';
+<?php
+$string['addmoreanswerblanks'] = 'Ավելացնել պատասխանի դատարկ դաշտ։';
+$string['addmoreunitblanks'] = '$a ավելի միավորների դատարկ դաշտեր';
 $string['answerhdr'] = 'Պատասխան';
-$string['atleastoneanswer'] = 'Դուք պետք է տրամադրեք առնվազն մեկ պատասխան';
+$string['atleastoneanswer'] = 'Ձեզ անհրաժեշտ է տրամադրել առնվազը մեկ պատասխան։։';
 $string['correctanswershows'] = 'Ճիշտ պատասխանի ցուցադրում';
 $string['correctanswershowsformat'] = 'Ձևաչափ';
-$string['existingcategory1'] = 'կօգտագործի արդեն առկա ընդհանուր տվյալների բազա';
-$string['keptcategory1'] = 'կօգտագործի նույն արդեն առկա ընդհանուր տվյալների բազան, ինչպես առաջ';
-$string['keptlocal1'] = 'կօգտագործի նույն արդեն առկա մասնավոր տվյալների բազան, ինչպես առաջ';
-$string['makecopynextpage'] = 'Հաջորդ Էջ (նոր հարց)';
-$string['mandatoryhdr'] = 'Պարտադիր հատուկ նշանները առկա պատասխաններում';
-$string['mustbenumeric'] = 'Դուք պետք է թիվ ներմուծեք այստեղ:';
-$string['mustnotbenumeric'] = 'Սա չի կարող լինել թիվ:';
-$string['newcategory1'] = 'կօգտագործի նոր ընդհանուր տվյալների բազա';
-$string['newlocal1'] = 'կօգտագործի նոր մասնավոր տվյալների բազա';
-$string['nextitemtoadd'] = 'Հաջորդ տարրը ավելացնելու համար';
-$string['nextpage'] = 'Հաջորդ Էջ';
-$string['nodataset'] = 'ոչինչ` սա հատուկ նշան չէ';
-$string['nosharedwildcard'] = 'Ընդհանուր հատուկ նշան չկա այս կատեգորիայում';
-$string['possiblehdr'] = 'Հնարավոր հատուկ նշանները առկա են միայն հարցի տեքստում';
-$string['tolerance'] = 'Կայունություն &plusmn;';
-$string['updatecategory'] = 'Թարմացնել կատեգորիան';
-$string['usedinquestion'] = 'Օգտագործված է Հարցում';
-$string['youmustenteramultiplierhere'] = 'Դուք պետք է ներմուծեք բազմապատկիչ այստեղ:';
-
+$string['existingcategory1'] = 'կօգտագործի արդեն գոյություն ունեցող համօգտագործելի տվյալների հավաքածուն';
+$string['keptcategory1'] = 'ինչպես նախկինում կօգտագործի նույն համօգտագործելի տվյալների հավաքածուն';
+$string['keptlocal1'] = 'ինչպես նախկինում կօգտագործի նույն  գոյություն ունեցող մասնավոր տվյալների հավաքածուն';
+$string['makecopynextpage'] = 'Հաջորդ էջ (նոր հարց)';
+$string['mandatoryhdr']='Պարտադիր դերանշաններ կան պատասխաններում';
+$string['mustbenumeric'] = 'Այստեղ անհրաժեշտ է թիվ մուտքագրել։';
+$string['mustnotbenumeric'] = 'Սա չի կարող թիվ լինել։';
+$string['newcategory1'] = 'կօգտագործվի նոր համօգտագործելի տվյալների հավաքածու';
+$string['newlocal1'] = 'կօգտագործվի նոր մասնավոր տվյալների հավաքածու';
+$string['nextitemtoadd'] = 'Հաջորդ \'Միավոր, որպեսզի ավելացվի\'';
+$string['nextpage'] = 'Հաջորդ էջ';
+$string['nodataset'] = 'ոչինչ - սա դերանշան չէ';
+$string['nosharedwildcard'] = 'Այս կարգում չկան համօգտագործելի դերանշաններ';
+$string['possiblehdr']='Հնարավոր դերանշաններ կան միայն հարցի տեքստում';
+$string['tolerance'] = 'Թույլատրելի շեղում &plusmn;';
+$string['trueanswerinsidelimits'] = ' Ճիշտ պատասխան : $a->correct իրական արժեքների սահմաններում $a->true';
+$string['trueansweroutsidelimits'] = '<span class=\"error\">ՍԽԱԼ Ճիշտ պատասխան : $a->correct իրական արժեքների սահմաններից դուրս $a->true</span>';
+$string['updatecategory'] = 'Նորացնել կարգը';
+$string['usedinquestion']='Օգտագործված հարցում';
+$string['youmustenteramultiplierhere'] = 'Այստեղ անհրաժեշտ է բազմապատկիչ մուտքագրել։';
 ?>

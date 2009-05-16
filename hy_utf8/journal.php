@@ -1,37 +1,35 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
+      // journal.php - created with Moodle 1.7 beta + (2006101003)
+$string['alwaysopen'] = 'Միշտ բաց է';
+$string['blankentry'] = 'Դատարկ գրառում';
+$string['daysavailable'] = 'Մատչելիության օրեր';
+$string['editingended'] = 'Խմբագրման ժամանակը սպառվում է';
+$string['editingends'] = 'Խմբագրման ժամանակը սպառվել է';
+$string['entries'] = 'Գրառումներ';
+$string['feedbackupdated'] = 'Փոփոխությունները պահպանվել են $a գրառումների համար';
+$string['journalmail'] = '$a->teacher Ձեր տետրի գրառմանը գնահատական է ավելացրել \'$a->journal\'
 
-$string['alwaysopen'] = 'Միշտ բաց';
-$string['blankentry'] = 'Դատարկ գրություն';
-$string['daysavailable'] = 'Օրեր, երբ մատչելի է';
+Դիտողությունը կցված է Ձեր գրառմանը՝
+
+    $a->url';
+$string['journalmailhtml'] = '$a->teacher Ձեր տետրի գրառմանը գնահատական է ավելացրել \'<i>$a->journal</i>\'<br /><br />
+Դիտողությունը կցված է Ձեր  <a href=\"$a->url\">գրառմանը</a>։';
+$string['journalname'] = 'Աշխատանքային տետր';
+$string['journalquestion'] = 'Աշխատանքի վերնագիրը';
 $string['journalrating1'] = 'Անբավարար';
 $string['journalrating2'] = 'Բավարար';
 $string['journalrating3'] = 'Գերազանց';
-$string['noentry'] = 'Գրառումներ չկա';
-$string['editingended'] = 'Խմբագրման ժամանակը սպառվել է';
-$string['editingends'] = 'Խմբագրման ժամանակը սպառվում է';
-$string['entries'] = 'Գրություններ';
-$string['feedbackupdated'] = 'Հետ պատասխանները թարմացված են $a գրության համար';
-$string['journalmail'] = '$a->teacher-ը ավելացրել է հետ պատասխան ձեր տետրին, \'$a->journal\'-ի համար: 
-
-Դուք կարող եք տեսնել դա` 
-
-$a->url';
-$string['journalmailhtml'] = '$a->teacher-ը ավելացրել է հետ պատասխան ձեր տետրին, \'<i>$a->journal</i>\'-ի համար:<br /><br />Դուք կարող եք տեսնել դա <a href=\"$a->url\">այստեղ</a>:';
-$string['journalname'] = 'Տետրի անունը';
-$string['journalquestion'] = 'Տետրի հարցը';
-$string['mailsubject'] = 'Տետրի հետ պատասխանը';
-$string['modulename'] = 'Տետր';
-$string['modulenameplural'] = 'Տետրեր';
-$string['newjournalentries'] = 'Տետրի նոր գրառումներ';
-$string['noratinggiven'] = 'Գնահատական դրված չէ';
-$string['notopenuntil'] = 'Տետրը անհասանելի է մինչ';
-$string['notstarted'] = 'Այս տետրում գրառումները բացակայում են';
-$string['overallrating'] = 'Ընդհանուր գնահատում';
-$string['rate'] = 'Գնահատում';
-$string['saveallfeedback'] = 'Հիշել բոլոր իմ հետ պատասխանները';
-$string['startoredit'] = 'Սկսել կամ խմբագրել տետրը';
-$string['viewallentries'] = 'Դիտել $a տետրի պարունակությունները';
-
+$string['mailsubject'] = 'Գրառման գնահատականը';
+$string['modulename'] = 'Աշխատանքային տետր';
+$string['modulenameplural'] = 'Աշխատանքային տետրեր';
+$string['newjournalentries'] = 'Նոր գրառումներ';
+$string['noentry'] = 'Գրառումներ չկան';
+$string['noratinggiven'] = 'Չի գնահատվել';
+$string['notopenuntil'] = 'Աշխատանքային տետրը մատչելի չէ մինչև';
+$string['notstarted'] = 'Դուք դեռևս չունեք որևէ գրառում';
+$string['overallrating'] = 'Ընդհանուր գնահատական';
+$string['rate'] = 'Գնահատել';
+$string['saveallfeedback'] = 'Պահպանել գնահատականները';
+$string['startoredit'] = 'Սկսել/խմբագրել աշխատանքը';
+$string['viewallentries'] = 'Ստուգել $a աշխատանքները';
 ?>

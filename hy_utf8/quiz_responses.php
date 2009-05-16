@@ -1,12 +1,8 @@
 <?PHP // $Id$ 
-      // quiz_responses.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['pagesize'] = 'Ձթրձերը առ էջ`';
+      // quiz_responses.php - created with Moodle 1.7 beta + (2006101003)
+$string['pagesize'] = 'Փորձերի թիվը էջում՝';
 $string['reportresponses'] = 'Մանրամասն պատասխաններ';
 $string['responses'] = 'Մանրամասն պատասխաններ';
-$string['responsesoptions'] = 'Պատասխանների ընտրությունները';
+$string['responsesoptions'] = 'Պատասխանների կարգաբերումներ';
 $string['responsestitle'] = 'Մանրամասն պատասխաններ';
-
 ?>

@@ -1,29 +1,32 @@
-<?PHP // $Id$ 
-      // notes.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['addnewnote'] = 'Ավելացնել նոր նշում';
-$string['addnewnoteselect'] = 'Ընտրեք օգտագործողներ, նրանց մասին նշումներ գրելու համար';
-$string['bynameondate'] = 'ըստ $a->name - $a->date';
-$string['content'] = 'Պարունակություն';
-$string['course'] = 'դասընթաց';
-$string['coursenotes'] = 'Դասընթացի նշումներ';
-$string['created'] = 'ստեղծված է';
-$string['deleteconfirm'] = 'Հեռացնե՞լ այս նշումը';
-$string['editnote'] = 'Խմբագրել նշումը';
-$string['groupaddnewnote'] = 'Ավելացնել նոր նշում բոլորի համար';
-$string['nocontent'] = 'Նշման պարունակությունը դատարկ չի կարող լինել';
-$string['nonotes'] = 'Այս տիպի նշումներ դեռ չկան';
-$string['note'] = 'Նշում';
-$string['notes'] = 'Նշումներ';
-$string['notesnotvisible'] = 'Դուք այս նշումները դիտելու իրավունք չունեք';
-$string['nouser'] = 'Դուք պետք է ընտրեք օգտագործող';
-$string['personal'] = 'անձնական';
-$string['personalnotes'] = 'Անձնական նշումներ';
+<?PHP // $Id$
+      // note.php
+$string['addnewnote'] = 'Ավելացնել նոր ծանուցում';
+$string['addnewnoteselect'] = 'Ընտրել օգտագործողներ և նրանց վերաբերյալ գրել ծանուցումներ';
+$string['bynameondate'] = '$a->name-ից - $a->date-ին';
+$string['cannotdeletepost'] = 'Սխալ է ստացվել հաղորդագրությունը ջնջելիս';
+$string['configenablenotes'] = 'Թույլատրել ծանուցումների պահպանում անհատական օգտագործողների վերաբերյալ։';
+$string['content'] = 'Բովանդակություն';
+$string['course'] = 'դասընթացի';
+$string['created'] = 'ստեղծվել է';
+$string['coursenotes'] = 'Դասընթացի ծանուցումներ';
+$string['deletenotes'] = 'Ջնջել բոլոր ծանուցումները';
+$string['deleteconfirm'] = 'Ջնջե՞լ այս ծանուցումը';
+$string['editnote'] = 'Խմբագրել ծանուցումը';
+$string['enablenotes'] = 'Թույլատրել ծանուցումներ';
+$string['invalidid'] = 'Սահմանվել է ծանուցման անվավեր ID';
+$string['groupaddnewnote'] = 'Ավելացնել ընդհանուր ծանուցում';
+$string['note'] = 'Ծանուցում';
+$string['notes'] = 'Ծանուցումներ';
+$string['nonotes'] = 'Դեռևս չկան այս տիպի ծանուցումներ';
+$string['nopermissiontodelete'] = 'Դուք չեք կարող ջնջել այս ծանուցումը';
+$string['notesdisabled'] = 'Ներողություն, ծանուցումներն արգելված են։';
+$string['notesnotvisible'] = 'Ձեզ չի թույլատրվում դիտել ծանուցումները։';
+$string['nocontent'] = 'Ծանուցման բովանդակությունը չի կարող դատարկ լինել';
+$string['nouser'] = 'Անհրաժեշտ է օգտագործող ընտրել';
+$string['personalnotes'] = 'Անձնական ծանուցումներ';
 $string['publishstate'] = 'Կարգավիճակ';
-$string['site'] = 'կայք';
-$string['sitenotes'] = 'Կայքի նշումներ';
+$string['personal'] = 'անձնական';
 $string['unknown'] = 'անհայտ';
-
+$string['site'] = 'կայքի';
+$string['sitenotes'] = 'Կայքի ծանուցումներ';
 ?>

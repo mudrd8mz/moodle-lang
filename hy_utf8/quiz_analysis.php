@@ -1,34 +1,30 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['analysis'] = 'Տարրի վերլուծություն';
-$string['analysisdownload'] = 'Վերլուծության ներբեռնում';
-$string['analysisoptions'] = 'Վերլուծության ընտրություններ';
-$string['analysistitle'] = 'Տարրի Վերլուծության Աղյուսակ';
+      // quiz_analysis.php - created with Moodle 1.7 beta + (2006101003)
+$string['analysis'] = 'Հարցերի վերլուծություն';
+$string['analysisdownload'] = 'Ներլցնել վերլուծությունը';
+$string['analysisoptions'] = 'Վերլուծության կարգաբերիչներ';
+$string['analysistitle'] = 'Հարցերի վերլուծության աղյուսակ';
 $string['attemptsall'] = 'բոլոր փորձերը';
-$string['attemptselection'] = 'Փորձերը, առ օգտագործող վերլուծելու համար';
-$string['attemptsfirst'] = 'առաջին փորձ';
-$string['attemptshighest'] = 'առավելագույն գնահատական';
-$string['attemptslast'] = 'վերջին փորձ';
-$string['dicsindextitle'] = 'Դիսկ<br />Ինդեքս';
-$string['disccoefftitle'] = 'Դիսկ<br />Գործակից';
-$string['downloadooo'] = 'Ներբեռնել OpenOffice ձևաչափով';
-$string['facilitytitle'] = '%% Ճիշտ<br />Հնարավորություն';
-$string['lowmarkslimit'] = 'Չվերլուծել, եթե արդյունքը ցածր է քան`';
-$string['pagesize'] = 'Հարցերը առ էջ`';
-$string['qcounttitle'] = 'Հ. քանակ';
-$string['qidtitle'] = 'Հ#';
-$string['qnametitle'] = 'Հարցի անուն';
+$string['attemptselection'] = 'Օգտագործողի ո՞ր փորձերը վերլուծել';
+$string['attemptsfirst'] = 'առաջին փորձը';
+$string['attemptshighest'] = 'ամենաբարձր գնահատական';
+$string['attemptslast'] = 'վերջին փորձը';
+$string['dicsindextitle'] = 'Իջեցմ.<br />ցուցիչ';
+$string['disccoefftitle'] = 'Իջեցմ.<br />գործակից';
+$string['downloadooo'] = 'Ներլցնել OpenOffice ձևաչափով';
+$string['facilitytitle'] = '%% Ճիշտ<br />պատասխ.';
+$string['lowmarkslimit'] = 'Չվերլուծել, եթե գնահատականն ավելի ցածր է, քան՝';
+$string['pagesize'] = 'Հարցերի թիվը էջում`';
+$string['qcounttitle'] = 'Հ. թիվը';
+$string['qidtitle'] = 'Հ.№';
+$string['qnametitle'] = 'Հարցի անվանում';
 $string['qtexttitle'] = 'Հարցի տեքստ';
 $string['qtypetitle'] = 'Հ. տիպ';
 $string['quizreportdir'] = 'quiz_reports';
-$string['rcounttitle'] = 'Զ.<br />Քանակ';
-$string['reportanalysis'] = 'Տարրի Վերլուծության Զեկույց';
+$string['rcounttitle'] = 'Պատ.<br />թիվը';
+$string['reportanalysis'] = 'Հարցերի վերլուծության հաշվետվություն';
 $string['responsestitle'] = 'Պատասխանի տեքստ';
-$string['rfractiontitle'] = 'մասնակի<br />կրեդիտ';
-$string['rpercenttitle'] = 'Զ.%%';
-$string['stddevtitle'] = 'SD';
-
+$string['rfractiontitle'] = 'մասնակի<br />գնահատական';
+$string['rpercenttitle'] = 'Պատ.%%';
+$string['stddevtitle'] = 'Ստանդ. շեղում';
 ?>

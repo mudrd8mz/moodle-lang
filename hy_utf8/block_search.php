@@ -1,0 +1,34 @@
+<?php
+$string['asynchronous'] = 'Անհամաժամ (Ajax)';
+$string['blockname'] = 'Համընդհանուր փնտրում';
+$string['blockssearchmnetfeatures'] = 'Moodle ցանցային փնտրում Search';
+$string['blockssearchswitches'] = 'Բլոկների  ակտիվության ինդեքսատոր';
+$string['bytes'] = 'բայթ (0 ոչ մի սահմանափակում չի դնում)';
+$string['configbuttonlabel'] = 'Կոճակ';
+$string['configenablefileindexing'] = 'Թույլատրել ֆայլերի ցուցչավորում';
+$string['configfiletypes'] = 'Ֆայլերի մշակված տիպերը';
+$string['configlimitindexbody'] = 'Ցուցչավորված տեքստի չափի սահմանափակում';
+$string['configpdftotextcmd'] = 'Pdftotext հրամանի ուղի';
+$string['configsearchtext'] = 'Որոնվող տեքստ';
+$string['configtypetotxtcmd'] = 'Փոխարկիչի հրամանային տող';
+$string['configtypetotxtenv'] = 'Միջավայրի սահմանում փոխարկիչի համար';
+$string['configusingsoftlock'] = 'Ծրագրակազմի արգելափակում (NFS տեղակայված բույլերի համար)';
+$string['configutf8transcoding'] = 'Արդյունքների UTF8 վերակոդավորման ուղեցույց';
+$string['configwordtotextcmd'] = 'Doctotext հրամանի ուղի';
+$string['configwordtotextenv'] = 'MSWord փոխարկիչի միջավայրի կարգաբերիչ';
+$string['disabled'] = 'Արգելափակված է';
+$string['disabledsearch'] = 'Համընդհանուր փնտրումն անջատված է։ Տեղեկացրեք Ձեր համակարգի կառավարչին։';
+$string['enabled'] = 'Թույլատրված է';
+$string['go'] = 'Կատարել';
+$string['handlingfor'] = 'Լրացուցիչ մշակում';
+$string['modulessearchswitches'] = 'Ինդեքսատորի ակտիվացում մոդուլների համար';
+$string['nosearchableblocks'] = 'Ոչ որոնելի բլոկներ';
+$string['nosearchablemodules'] = 'Ոչ որոնելի մոդուլներ';
+$string['pdfhandling'] = 'Acrobat PDF մշակում';
+$string['search'] = 'Որոնել';
+$string['searchdiscovery'] = 'Որոնելի միավորների հայտնաբերում';
+$string['searchmoodle'] = 'Որոնում Moodle-ում';
+$string['synchronous'] = 'Համաժամանակյա';
+$string['usemoodleroot'] = 'Արտաքին փոխարկիչների համար օգտագործել moodle root';
+$string['wordhandling'] = 'Microsoft Word մշակում';
+?>

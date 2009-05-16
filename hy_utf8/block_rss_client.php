@@ -1,49 +1,48 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['addfeed'] = 'Ավելացնել լուրերի սնուցման URL`';
-$string['addheadlineblock'] = 'Ավելացնել RSS գլխագրի բլոկը';
-$string['addnew'] = 'Ավելացնել Նորը';
-$string['blockname'] = 'RSS կլիենտ';
-$string['choosefeedlabel'] = 'Ընտրեք սնուցումները, որոնք ցանկանում եք դարձնել հասանելի այս բլոկում`';
-$string['clientchannellink'] = 'Ակունքային կայք...';
-$string['clientnumentries'] = 'Պարունակություն առ սնուցում քանակը ըստ լռելյայն:';
-$string['clientshowchannellinklabel'] = 'Հիմնական կայքի հղումը պե՞տք է արտապատկերվի: (Նշում` եթե նորությունների սնուցման ոչ մի հղում նշված չէ, ոչ մի հղում չի ցուցադրվի)`';
-$string['clientshowimagelabel'] = 'Ցուցադրել կանալի նկարը, եթե հասանելի է`';
-$string['configblock'] = 'Կոնֆիգուրացնել այս բլոկը';
-$string['couldnotfindfeed'] = 'Հնարավոր չէ գտնել սնուցում id-ով';
-$string['customtitlelabel'] = 'Ընտրովի վերնագիր (թողեք դատարկ, որպեսզի օգտագործվի սնուցման վերնագիրը)`';
-$string['deletefeedconfirm'] = 'Համոզվա՞ծ եք, որ ցանկանում եք հեռացնել այս սնուցումը:';
-$string['displaydescriptionlabel'] = 'Ցուցադրե՞լ ամեն հղման նկարագրությունը:';
-$string['editfeeds'] = 'Խմբագրել` գրանցել կամ հեռացնել RSS նորությունների սնուցումները';
-$string['editnewsfeeds'] = 'Խմբագրել նորությունների սնուցումները';
-$string['editrssblock'] = 'Խմբագրել RSS Վերնագրի Բլոկը';
-$string['feed'] = 'Սնուցում';
-$string['feedadded'] = 'Ներ սնուցում է ավելացված';
-$string['feeddeleted'] = 'Նորությունների սնուցումը հեռացված է';
-$string['feeds'] = 'Նորությունների Սնուցումներ';
-$string['feedsaddedit'] = 'Ավելացնել/Խմբագրել Սնուցումներ';
-$string['feedsconfigurenewinstance'] = 'Սեղմեք այստեղ, որպեսզի կոնֆիգուրացնեք այս բլոկը RSS սնուցումների համար:';
-$string['feedstitle'] = 'Հեռակա RSS Սնուցումներ';
-$string['feedupdated'] = 'Նորությունների սնուցումը թարմացված է';
-$string['findmorefeeds'] = 'Գտնել ևս RSS սնուցումներ';
-$string['managefeeds'] = 'Ղեկավարել բոլոր սնուցումները';
-$string['nofeeds'] = 'Այս կայքի համար սահմանված RSS սնուցում չկա:';
-$string['pickfeed'] = 'Ընտրեք նորությունների սնուցում';
-$string['remotenewsfeed'] = 'Հեռակա Նորությունների Սնուցումներ';
-$string['rss_client:createprivatefeeds'] = 'Ստեղծել անձնական RSS սնուցումներ';
-$string['rss_client:createsharedfeeds'] = 'Ստեղծել ընդհանուր RSS սնուցումներ';
-$string['rss_client:manageanyfeeds'] = 'Ղեկավարել ցանկացած RSS սնուցումները';
-$string['rss_client:manageownfeeds'] = 'Ղեկավարել սեփական RSS սնուցումները';
-$string['seeallfeeds'] = 'Տեսնել բոլոր սնուցումները';
-$string['sharedfeed'] = 'Ընդհանուր սնուցում';
-$string['shownumentrieslabel'] = 'Առավելագույն պարունակությունների քանակը մեկ բլոկում:';
-$string['submitters'] = 'Ու՞մ է թույլատրված սահմանել նոր RSS սնուցումներ: Սահմանված սնուցումները հասանելի են ձեր կայքի ցանկացած էջում:';
-$string['timeout'] = 'Ժամանակը րոպեներով, որից հետո RSS սնուցումը բոլորում է քեշում: Այս ժամանակը սահմանում է մինիմալ ժամանակը: Սնուցումը կթարմացվի քեշում cron-ի հաջորդ աշխատելու ժամանակ: Խորհուրդ է տրվում 30 րոպե և ավելի:';
-$string['timeoutdesc'] = 'RSS սնուցման` քեշում \'ապրելու\' ժամանակը րոպեներով:';
-$string['updatefeed'] = 'Թարմացնել նորությունների սնուցման URL`';
-$string['validatefeed'] = 'Վավերացնել սնուցումը';
-
+      // block_rss_client.php - created with Moodle 1.7 beta + (2006101003)
+$string['addfeed'] = 'Ավելացնել նորությունների տրամադրման URL՝';
+$string['addheadlineblock'] = 'Ավելացնել RSS վերնագրի բլոկ';
+$string['addnew'] = 'Ավելացնել նոր';
+$string['blockname'] = 'RSS հաճախորդ';
+$string['choosefeedlabel'] = 'Ընտրեք, որ տրամադրումներն եք ցանկանում մատչելի դարձնել այս բլոկում՝';
+$string['clientchannellink'] = 'Աղբյուր կայք...';
+$string['clientnumentries'] = 'Յուրաքանչյուր ժապավենի համար ցուցադրվող գրառումների կանխորոշված քանակը։';
+$string['clientshowchannellinklabel'] = 'Անհրաժե՞շտ է արդյոք ցուցադրել սկզբնական կայքին (կապուղուն) հղող կապը։ (ՈՒշադրություն դարձրեք, որ եթե չկա տրամադրված հղում, ոչինչ չի ցուցադրվի) .';
+$string['clientshowimagelabel'] = 'Եթե հնարավոր է, ցուցադրել կապուղու պատկերը .';
+$string['configblock'] = 'Կազմաձևել բլոկը';
+$string['couldnotfindfeed'] = 'Չի  կարող գտնել մատակարարումը, որն ունի հետևյալ id-ն՝';
+$string['customtitlelabel'] = 'Վերնագիր ըստ ցանկության (թողեք դատարկ, եթե ցանկանում եք օգտագործել ժապավենում տրամադրված վերնագիրը)՝';
+$string['deletefeedconfirm'] = 'Դուք համոզվա՞ծ եք, որ ցանկանում եք ջնջել այս ժապավենը';
+$string['displaydescriptionlabel'] = 'Ցուցադրե՞լ յուրաքանչյուր կապի նկարագրությունը։';
+$string['editfeeds'] = 'Խմբագրել, գրանցվել կամ հանել RSS/Atom նորությունների ժապավենը';
+$string['editnewsfeeds'] = 'Խմբագրել նորությունների ժապավենը';
+$string['editrssblock'] = 'Խմբագրել RSS վերնագրի բլոկը';
+$string['feed'] = 'Ժապավեն';
+$string['feedadded'] = 'Նորությունների ժապավենն ավելացվել է';
+$string['feeddeleted'] = 'Նորությունների ժապավենը ջնջվել է';
+$string['feeds'] = 'Նորությունների ժապավեն';
+$string['feedsaddedit'] = 'Ավելացնել/Խմբագրել ժապավենը';
+$string['feedsconfigurenewinstance'] = 'Սեղմեք այստեղ և կազմաձևեք RSS ժապավենի ցուցադրման բլոկը։';
+$string['feedstitle'] = 'Հեռադիր RSS ժապավեն';
+$string['feedupdated'] = 'Նորությունների ժապավենը նորացվել է';
+$string['findmorefeeds'] = 'Գտնել ավելի շատ rss ժապավեններ';
+$string['managefeeds'] = 'Խմբագրել իմ բոլոր ժապավենները';
+$string['nofeeds'] = 'Այս կայքում չկան սահմանված RSS ժապավեններ';
+$string['numentries'] = 'Ժապավենի գրառումները';
+$string['pickfeed'] = 'Վերցնել նորությունների ժապավենը';
+$string['remotenewsfeed'] = 'Նորությունների հեռադիր ժապավեն';
+$string['rss_client:createprivatefeeds'] = 'Ստեղծել մասնավոր RSS ժապավեններ';
+$string['rss_client:createsharedfeeds'] = 'Ստեղծել համօգտագործվող RSS ժապավեններ';
+$string['rss_client:manageanyfeeds'] = 'Խմբագրել որևէ RSS ժապավեն';
+$string['rss_client:manageownfeeds'] = 'Խմբագրել անձնական RSS ժապավենները';
+$string['seeallfeeds'] = 'Դիտել բոլոր ժապավենները';
+$string['sharedfeed'] = 'Համօգտագործվող ժապավեն';
+$string['shownumentrieslabel'] = 'Բլոկում գրառումների ցուցադրման առավելագույն քանակը։';
+$string['submitters'] = 'ՈՒ՞մ է թույլատրված նոր rss ժապավեններ ավելացնել։ Սահմանված ժապավենները մատչելի են Ձեր կայքի ցանկացած էջում։';
+$string['submitters2'] = 'Ներկայացնողներ';
+$string['timeout'] = 'Հիշապահեստում RSS ժապավենի լրանալու ժամկետը։ ՈՒշադրություն դարձրեք, որ այն սահմանում է նվազագույն ժամանակը մինչ ժամկետը լրանալը; հիշապահեստում ժամկետը լրանալուց հետո ժապավենը կթարմացվի  հաջորդ cron կատարման ընթացքում։ Խորհուրդ են տրվում 30 ր կամ ավելի արժեքները։';
+$string['timeout2'] = 'Ընդմիջում';
+$string['timeoutdesc'] = 'Հիշապահեստում RSS մատուցման գոյության ժամանակը րոպեներով';
+$string['updatefeed'] = 'Թարմացնել նորությունների ժապավենի հասցեն (URL)՝';
+$string['validatefeed'] = 'Վավերացնել ժապավենը';
 ?>

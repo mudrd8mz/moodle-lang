@@ -1,34 +1,38 @@
-<?PHP // $Id$ 
-      // filters.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['actfilterhdr'] = 'Ակտիվ ֆիլտրեր';
-$string['addfilter'] = 'Ավելացնել ֆիլտր';
-$string['anycategory'] = 'ցանկացած կատեգորիա';
+<?php //$Id$
+$string['actfilterhdr'] = 'Ակտիվ զտիչներ';
+$string['addfilter'] = 'Ավելացնել զտիչ';
+$string['anycategory'] = 'ցանկացած կարգ';
 $string['anycourse'] = 'ցանկացած դասընթաց';
 $string['anyfield'] = 'ցանկացած դաշտ';
 $string['anyrole'] = 'ցանկացած դեր';
 $string['anyvalue'] = 'ցանկացած արժեք';
-$string['categoryrole'] = 'Կատեգորիայի դեր';
+$string['categoryrole'] = 'Կարգի դեր';
+$string['tablenosave'] = 'Աղյուսակի փոփոխություններն ինքնաբար պահպանվել են։';
 $string['contains'] = 'պարունակում է';
 $string['courserole'] = 'Դասընթացի դեր';
+$string['courserolelabel'] = '$a->label $a->rolename է $a->categoryname $a->coursename -ում';
+$string['courserolelabelerror'] = '$a->label սխալ. $a->coursename դասընթաց գոյություն չունի';
+$string['datelabelisafter'] = '$a->label $a->after հետո է';
+$string['datelabelisbefore'] = '$a->label $a->before առաջ է';
+$string['datelabelisbetween'] = '$a->label $a->after և $a->before միջև է';
 $string['doesnotcontain'] = 'չի պարունակում';
 $string['endswith'] = 'ավարտվում է';
-$string['firstaccess'] = 'Առաջին մատչում';
-$string['isafter'] = '$a -ից հետո է';
+$string['firstaccess'] = 'Առաջին մուտք';
+$string['globalrolelabel'] = '$a->label $a->value է';
 $string['isanyvalue'] = 'ցանկացած արժեք է';
-$string['isbefore'] = '$a -ից առաջ է';
-$string['isbetween'] = '$a[0] -ի և $a[1] -ի միջև է';
+$string['isafter'] = 'հետո է';
+$string['isbefore'] = 'առաջ է';
 $string['isdefined'] = 'սահմանված է';
 $string['isempty'] = 'դատարկ է';
 $string['isequalto'] = 'հավասար է';
-$string['isnotdefined'] = 'սահմանված չէ';
 $string['isnotequalto'] = 'հավասար չէ';
-$string['newfilter'] = 'Նոր ֆիլտր';
-$string['removeall'] = 'Հեռացնել բոլորը';
-$string['removeselected'] = 'Հեռացնել նշվածը';
-$string['setfilter'] = 'Նշանակել ֆիլտր';
+$string['isnotdefined'] = 'սահմանված չէ';
+$string['newfilter'] = 'Նոր զտիչ';
+$string['profilelabel'] = '$a->label: $a->profile $a->operator $a->value';
+$string['profilelabelnovalue'] = '$a->label: $a->profile $a->operator';
+$string['removeall'] = 'Հեռացնել բոլոր զտիչները';
+$string['removeselected'] = 'Հեռացնել ընտրվածը';
+$string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = 'սկսվում է';
-
-?>
+$string['textlabel'] = '$a->label $a->operator $a->value';
+$string['textlabelnovalue'] = '$a->label $a->operator';

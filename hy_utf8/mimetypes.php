@@ -1,20 +1,16 @@
 <?PHP // $Id$ 
-      // mimetypes.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
+      // mimetypes.php - created with Moodle 1.7 beta + (2006101003)
 $string['application/msword'] = 'Word փաստաթուղթ';
 $string['application/pdf'] = 'PDF փաստաթուղթ';
-$string['application/vnd.ms-excel'] = 'Excel աղյուսակ';
+$string['application/vnd.ms-excel'] = 'Excel հաշվաթերթ';
 $string['application/vnd.ms-powerpoint'] = 'Powerpoint ներկայացում';
 $string['application/zip'] = 'zip արխիվ';
-$string['audio/mp3'] = 'MP3 աուդիո ֆայլ';
+$string['audio/mp3'] = 'MP3 ձայնային ֆայլ';
 $string['audio/wav'] = 'ձայնային ֆայլ';
 $string['document/unknown'] = 'ֆայլ';
-$string['image/bmp'] = 'չսեղմված BMP նկար';
-$string['image/gif'] = 'GIF նկար';
-$string['image/jpeg'] = 'JPEG նկար';
-$string['text/plain'] = 'տեքստ ֆայլ';
+$string['image/bmp'] = 'չսեղմված BMP պատկեր';
+$string['image/gif'] = 'GIF պատկեր';
+$string['image/jpeg'] = 'JPEG պատկեր';
+$string['text/plain'] = 'տեքստային ֆայլ';
 $string['text/rtf'] = 'RTF փաստաթուղթ';
-
 ?>

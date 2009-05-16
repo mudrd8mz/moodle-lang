@@ -1,10 +1,7 @@
-<?PHP // $Id$ 
-      // qtype_match.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['addmoreqblanks'] = 'Եվս Թերթերի Բազմություն';
-$string['nomatchinganswerforq'] = 'Դուք պետք է սահմանեք պատասխան այս հարցի համար:';
-$string['notenoughquestions'] = 'Դուք պետք է տրամադրեք առնվազն $a հարցի և պատասխանի զույգ:';
-
+<?php
+$string['addmoreqblanks'] = 'Ավելացնել {no} նոր հարց(եր)';
+$string['filloutthreeqsandtwoas'] = 'Ձեզ անհրաժեշտ է տրամադրել  նվազագույնը երկու հարց և երեք պատասխան։ Դուք կարող եք դատարկ հարցերի հետ տրամադրել լրացուցիչ սխալ պատասխաններ։ Այն գրառումները, որոնցում և՛ հարցը, և՛ պատասխանը դատարկ են, կանտեսվեն։';
+$string['nomatchinganswerforq'] = 'Ձեզ անհրաժեշտ է նշել պատասխան այս հարցի համար';
+$string['notenoughquestions'] = 'Ձեզ անհրաժեշտ է տրամադրել հարց և պատասխանի նվազագույնը $a զույգ։';
+$string['notenoughqsandas'] = 'Ձեզ անհրաժեշտ է տրամադրել նվազագույնը $a->q հարց և $a->a պատասխան։';
 ?>

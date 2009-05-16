@@ -1,49 +1,52 @@
-<?PHP // $Id$ 
-      // tag.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['addtagtomyinterests'] = 'Ավելացնել \'$a\' իմ հետաքրքրությունների մեջ';
-$string['blocktagstitle'] = 'Տեգեր';
-$string['changename'] = 'Փոխել տեգի անունը';
-$string['changetype'] = 'Փոխել տեգի տիպը';
-$string['count'] = 'Քանակ';
-$string['delete'] = 'Հեռացնել';
-$string['deleted'] = 'Հեռացված';
+<?php
+$string['addedotag'] = '\"$a\" ավելացվել է որպես պաշտոնական պիտակ։';
+$string['addotags'] = 'Ավելացնել պաշտոնական պիտակներ';
+$string['addtagtomyinterests'] =  '\"$a\" ավելացնել իմ հետաքրքրություններին';
+$string['blocktagstitle'] =  'Պիտակներ';
+$string['count'] = 'Հաշիվ';
+$string['changename'] = 'Փոխել պիտակի անվանումը';
+$string['changetype'] = 'Փոխել պիտակի տիպը';
 $string['description'] = 'Նկարագրություն';
-$string['edittag'] = 'Խմբագրել այս տեգը';
-$string['flag'] = 'Նշել';
-$string['flagasinappropriate'] = 'Նշել որպես անհամապատասխան';
-$string['helprelatedtags'] = 'Ստորակետով բաժանված կապնված տեգեր';
+$string['delete'] = 'Ջնջել';
+$string['deleted'] = 'Ջնջվել է';
+$string['edittag'] = 'Խմբագրել այս պիտակը';
+$string['flag'] = 'Հատկանիշ';
+$string['flagasinappropriate'] = 'Որպես անհամապատասխան հատկանիշ';
+$string['helprelatedtags'] = 'Ստորակետներով անջատված կապված պիտակներ';
 $string['id'] = 'id';
-$string['managetags'] = 'Ղեկավարել տեգերը';
-$string['name'] = 'Տեգի անունը';
-$string['namesalreadybeeingused'] = 'Տեգերի անունները արդեն օգտագործվում են';
-$string['newname'] = 'Նոր տեգի անուն';
-$string['noresultsfor'] = '\'$a\'-ի համար արդյունքներ չկան';
-$string['owner'] = 'Տերը';
-$string['relatedblogs'] = 'Վերջին բլոգի պարունակությունը այս տեգի համար';
-$string['relatedtags'] = 'Կապնված տեգեր';
-$string['reset'] = 'Կրկին նշանակել';
-$string['resetflag'] = 'Կրկին նշանակել նշումները';
-$string['responsiblewillbenotified'] = 'Պատասխանատու անձը կծանուցվի';
+$string['relatedblogs'] = 'Այս պիտակով վերջին բլոգ գրառումները';
+$string['managetags'] = 'Պիտակների կառավարում';
+$string['name'] = 'Պիտակի անվանումը';
+$string['namesalreadybeeingused'] = 'Պիտակի անվանումն արդեն օգտագործվում է';
+$string['newname'] = 'Նոր պիտակի անվանումը';
+$string['noresultsfor'] = 'Ոչ մի արդյունք \"$a\"-ի համար';
+$string['officialtag'] = 'Պաշտոնական պիտակ';
+$string['owner'] = 'Սեփականատեր';
+$string['otags'] = 'Պաշտոնական պիտակներ';
+$string['ptags'] = 'Օգտագործողի սահմանած պիտակներ (ստորակետներով առանձնացված)';
+$string['relatedtags'] = 'Կապված պիտակներ';
+$string['removetagfrommyinterests'] = '\"$a\" ջնջել իմ հետաքրքրություններից';
+$string['responsiblewillbenotified'] = 'Պատասխանատու անձը կտեղեկացվի';
+$string['resetflag'] = 'Վերականգնել հատկանիշը';
+$string['reset'] = 'Վերականգնել';
 $string['search'] = 'Որոնել';
-$string['searchresultsfor'] = 'Որոնման արդյունքները \'$a\'-ի համար';
-$string['searchtags'] = 'Որոնել տեգեր';
-$string['seeallblogs'] = 'Տեսնել բոլոր բլոգերը այս տեգի համար';
+$string['seeallblogs'] = 'Դիտել այս պիտակով բոլոր բլոգները';
+$string['searchresultsfor'] = '\"$a\"-ի որոնման արդյունքները';
+$string['searchtags'] = 'Որոնվող պիտակներ';
 $string['select'] = 'Ընտրել';
-$string['tag'] = 'Տեգ';
-$string['tagdescription'] = 'Տեգի նկարագրություն';
-$string['tags'] = 'Տեգեր';
-$string['tagsaredisabled'] = 'Տեգերը պասիվացված են';
-$string['tagtype'] = 'Տեգի տիպը';
-$string['thingstaggedwith'] = '$a->count նշված \'$a->name\' անունով';
-$string['thistaghasnodesc'] = 'Այս տեգը նկարագրություն չունի:';
-$string['timemodified'] = 'Փոփոխված';
-$string['typechanged'] = 'Տեգի տիպը փոխվել է';
-$string['updated'] = 'Թարմացված';
-$string['updatetag'] = 'Թարմացնել';
-$string['userstaggedwith'] = 'Օգտագործողները նշված \'$a\'-ով';
-$string['withselectedtags'] = 'Ընտրված տեգերով...';
-
+$string['tagdescription'] = 'Պիտակի նկարագրություն';
+$string['tag'] = 'Պիտակ';
+$string['tagtype'] = 'Պիտակի տիպ';
+$string['tagtype_official'] = 'Պաշտոնական';
+$string['tagtype_default'] = 'Կանխորոշված';
+$string['tags'] = 'Պիտակներ';
+$string['tagsaredisabled'] = 'Պիտակները կանխարգելվել են';
+$string['thingstaggedwith'] = '$a->count նշված \"$a->name\"-ով';
+$string['thistaghasnodesc'] = 'Այս պիտակը ներկայումս չունի նկարագրություն';
+$string['timemodified'] = 'Ձևափոխվել է';
+$string['typechanged'] = 'Պիտակի տիպը փոփոխվել է';
+$string['userstaggedwith'] = 'Օգտագործողներ նշված \"$a\"-ով';
+$string['updatetag'] = 'Նորացնել';
+$string['updated'] = 'Նորացվել է';
+$string['withselectedtags'] = 'Ընտրված պիտակներով...';
 ?>

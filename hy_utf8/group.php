@@ -1,86 +1,143 @@
-<?PHP // $Id$ 
-      // group.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
+<?php
+/**
+ * Language strings for Moodle Groups (cvs:/group/) 
+ *
+ * @copyright &copy; 2006 The Open University
+ * @author J.White AT open.ac.uk
+ * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
+ * @package groups
+ */
 
-
-$string['addgroupstogrouping'] = 'Ավելացնել խումբ խմբավորմանը';
-$string['addgroupstogroupings'] = 'Ավելացնել/հեռացնել խմբեր';
-$string['adduserstogroup'] = 'Ավելացնել/հեռացնել օգտագործողներ';
+$string['groupmember'] = 'Խմբի անդամ';
+$string['groupmemberdesc'] = 'Ստանդարտ դեր խմբի անդամի համար։';
+$string['notingrouping'] = '[Խմբավորումում չէ]';
 $string['anygrouping'] = '[Ցանկացած խմբավորում]';
-$string['backtogroupings'] = 'Հետ դեպի խմբավորումները';
-$string['backtogroups'] = 'Հետ դեպի խմբերը';
-$string['createautomaticgrouping'] = 'Ստեղծել ավտոմատ խմբավորում';
-$string['creategroup'] = 'Ստեղծել խումբ';
-$string['creategrouping'] = 'Ստեղծել խմբավորում';
-$string['creategroupinselectedgrouping'] = 'Ստեղծել խումբ խմբավորմանը';
-$string['createorphangroup'] = 'Ստեղծել որբ խումբ';
-$string['databaseupgradegroups'] = 'Խմբերի տարբերակը հիմա $a է';
-$string['defaultgroupdescription'] = 'Լռելյայն խմբի նկարագրությունը';
-$string['defaultgrouping'] = 'Լռելյայն խմբավորում';
-$string['defaultgroupingname'] = 'Խմբավորում';
-$string['defaultgroupname'] = 'Խումբ';
-$string['defaultgroupprefix'] = 'Խումբ';
-$string['deletegroupconfirm'] = 'Համոզվա՞ծ եք, որ ցանկանում եք հեռացնել \'$a\' խումբը:';
-$string['deletegrouping'] = 'Հեռացնել խմբավորումը';
-$string['deletegroupingconfirm'] = 'Համոզվա՞ծ եք, որ ցանկանում եք հեռացնել \'$a\' խմբավորումը (Խմբերը խմբավորման մեջ հեռացված չեն):';
-$string['deleteselectedgroup'] = 'Հեռացնել նշված խումբը';
-$string['displaygrouping'] = 'Ցուցադրել խմբավորումը';
-$string['distributealphabetically'] = 'Բաժանել խմբերի այբբենականորեն ըստ ազգանվան';
-$string['distributeevenly'] = 'Բաժանել մնացած ուսանողներին հավասար';
-$string['editgroupingsettings'] = 'Խմբագրել խմբավորման կարգավորիչները';
-$string['editgroupsettings'] = 'Խմբագրել խմբի կարգավորիչները';
-$string['enrolmentkey'] = 'Անդամագրման բանալի';
-$string['erroraddremoveuser'] = '$a օգտագործողին խմբին ավելացման/հեռացման սխալ';
-$string['erroreditgroup'] = '$a խմբի ստեղծման/թարմացման սխալ';
-$string['erroreditgrouping'] = '$a խմբավորման ստեղծման/թարմացման սխալ';
-$string['errorinvalidgroup'] = 'Սխալ խումբ $a';
-$string['existingmembers'] = 'Առկա անդամները` $a';
-$string['group'] = 'Խումբ';
-$string['groupaddedsuccesfully'] = '$a խումբը հաջողությամբ ավելացված է';
-$string['groupdescription'] = 'Խմբի նկարագրություն';
-$string['groupinfo'] = 'Նշված խմբերի մասին ինֆորմացիան';
-$string['groupinfomembers'] = 'Նշված անդամների մասին ինֆորմացիան';
-$string['groupinfopeople'] = 'Նշված անձանց մասին ինֆորմացիան';
-$string['grouping'] = 'Խմբավորում';
-$string['groupingdescription'] = 'Խմբավորման նկարագրություն';
-$string['groupingname'] = 'Խմբավորման անուն';
-$string['groupingnameexists'] = '\'$a\' խմբավորման անունը արդեն առկա է դասընթացում, ընտրեք մեկ այլ:';
+
+$string['errorinvalidgroup'] = 'Սխալ։ Անվավեր խումբ` $a';
+$string['erroreditgrouping'] = 'Խմբավորման ստեղծման/նորացման սխալ $a';
+$string['erroreditgroup'] = 'Խմբի ստեղծման/նորացման սխալ $a';
+$string['erroraddremoveuser'] = 'Խմբում $a օգտագործողի ավելացման/հեռացման սխալ';
+$string['errorselectone'] = 'Մինչ այս ընտրանքի ակտիվացումը ընտրեք մեկ խումբ';
+$string['errorselectsome'] = 'Մինչ այս ընտրանքի ակտիվացումը ընտրեք մեկ կամ մի քանի խմբեր';
+
 $string['groupings'] = 'Խմբավորումներ';
-$string['groupmember'] = 'Խմբի Անդամ';
-$string['groupmemberdesc'] = 'Խմբի անդամի ստանդարտ դերը:';
-$string['groupmembers'] = 'Խմբի անդամներ';
-$string['groupmembersonly'] = 'Միայն խմբի անդամներին է հասանելի';
-$string['groupmembersonlyerror'] = 'Ներողություն, դուք պետք է լինեք առնվազն մեկ խմբի անդամ, որը օգտագործվում է այս գործընթացում:';
-$string['groupmemberssee'] = 'Տեսնել խմբի անդամներին';
-$string['groupmembersselected'] = 'Նշված խմբի անդամները';
-$string['groupmode'] = 'Խմբի կարգավիճակը';
-$string['groupmodeforce'] = 'Ստիպել խմբի կարգավիճակը';
-$string['groupmy'] = 'Իմ խումբ';
-$string['groupname'] = 'Խմբի անուն';
-$string['groupnameexists'] = '\'$a\' խմբի անունը արդեն առկա է դասընթացում, ընտրեք մեկ այլ:';
-$string['groupnotamember'] = 'Ներողություն, դուք այդ խմբի անդամ չեք';
+$string['grouping'] = 'Խմբավորում';
 $string['groups'] = 'Խմբեր';
-$string['groupsinselectedgrouping'] = 'Խմբերը `';
-$string['groupsnone'] = 'Խմբեր չկան';
-$string['groupsseparate'] = 'Բաժանել խմբերը';
-$string['groupsvisible'] = 'Տեսանելի խմբերը';
-$string['hidepicture'] = 'Թաքցնել նկարը';
-$string['javascriptrequired'] = 'Այս էջը պահանջում է Javascript-ի ակտիվացում:';
-$string['membersofselectedgroup'] = 'Անդամները`';
-$string['newpicture'] = 'Նոր նկար';
-$string['nopermissionforcreation'] = '\'$a\' խումբը հնարավոր չէ ստեղծել, դուք համապատասխան թույլատվություն չունեք';
-$string['notingrouping'] = '[Խմբավորման մեջ չէ]';
-$string['numberofgroups'] = 'Խմբերի քանակը';
-$string['numberofstudents'] = 'Ուսանողների քանակը';
-$string['potentialmembers'] = 'Պոտենցիալ անդամներ` $a';
-$string['prefixforgroupnames'] = 'Խմբի անունների նախդիր';
-$string['printerfriendly'] = 'Տպիչի հարմար արտապատկերում';
-$string['removegroupfromselectedgrouping'] = 'Հեռացնել խումբը խմբավորումից';
-$string['removeselectedusers'] = 'Հեռացնել նշված օգտագործողներին';
-$string['selectnumberineachgroup'] = 'Նշված համարը ամեն խմբում';
-$string['selectnumberofgroups'] = 'Խմբերի նշված համարը';
-$string['showgroupsingrouping'] = 'Ցուցադրել խումբը խմբավորումում';
+$string['group'] = 'Խումբ';
+$string['groupsinselectedgrouping'] = 'Խմբերը in:'; //'selected grouping'
+$string['membersofselectedgroup'] = 'Անդամները՝';
+$string['overview'] = 'Տեսություն';
+
+$string['showgroupsingrouping'] = 'Ցուցադրել խմբավորման խմբերը';
 $string['showmembersforgroup'] = 'Ցուցադրել խմբի անդամներին';
-$string['usestudentsonlyfromselectedgroup'] = 'Միայն ուսանողներին օգտագործել նշված խմբից';
+$string['databaseupgradegroups'] = 'Խմբի տարբերակն այժմ $a';
+
+$string['deletegroupingconfirm'] = 'Դուք համոզվա՞ծ եք, որ ցանկանում եք ջնջել \'$a\' խմբավորումը։ (Խմբավորման խմբերը ջնջված չեն։)';
+$string['deletegroupconfirm'] = 'Դուք համոզվա՞ծ եք, որ ցանկանում եք ջնջել \'$a\' խումբը';
+$string['deletegroupsconfirm'] = 'Դուք համոզվա՞ծ եք, որ ցանկանում եք ջնջել հետևյալ խմբերը։';
+
+$string['editgroupingsettings'] = 'Խմբագրել խմբավորման կարգաբերումները';
+$string['deletegrouping'] = 'Ջնջել խմբավորումը';
+$string['creategrouping'] = 'Ստեղծել խմբավորում';
+$string['createautomaticgrouping'] = 'Ավտոմատ ստեղծել խմբավորում';
+$string['printerfriendly'] = 'Տպման տեսք';  //'of grouping'
+
+$string['editgroupsettings'] = 'Խմբագրել խմբի կարգաբերումները';
+$string['deleteselectedgroup'] = 'Ջնջել ընտրված խումբը';
+$string['removegroupfromselectedgrouping'] = 'Խումբը հեռացնել խմբավորումից';  //'selected'
+$string['creategroupinselectedgrouping'] = 'Ստեղծել խումբ խմբավորումում ';
+$string['addgroupstogrouping'] = 'Ավելացնել խումբ խմբավորումում'; //'groupS'
+
+$string['removeselectedusers'] = 'Հեռացնել ընտրված օգտագործողներին';
+$string['adduserstogroup'] = 'Ավելացնել/հեռացնել օգտագործողներ';  //'from group'
+$string['addgroupstogroupings'] = 'Ավելացնել/հեռացնել խմբեր';  //'from group'
+
+$string['groupingname'] = 'Խմբավորման անվանումը';
+$string['defaultgroupingname'] = 'Խմբավորում';
+$string['groupingdescription'] = 'Խմբավորում նկարագրությունը';
+$string['creategrouping'] = 'Ստեղծել խմբավորում';
+$string['creategroup'] = 'Ստեղծել խումբ';
+$string['createorphangroup'] = 'Ստեղծել որբուկ խումբ';
+
+$string['groupname'] = 'Խմբի անվանումը';
+$string['groupnameexists'] = '\'$a\' անվամբ խումբ այս դասընթացում արդեն կա, խնդրվում է ընտրել այլ անվանում։';
+$string['groupingnameexists'] = '\'$a\' անվամբ խմբավորում այս դասընթացում արդեն կա, խնդրվում է ընտրել այլ անվանում։';
+$string['defaultgroupname'] = 'Խումբ';
+$string['groupdescription'] = 'Խմբի նկարագրությունը';
+$string['enrolmentkey'] = 'Ներգրավման բանալի';
+$string['hidepicture'] = 'Թաքցնել նկարը';
+$string['newpicture'] = 'Նոր նկար';
+$string['newgrouping'] = 'Նոր խմբավորում';
+
+$string['backtogroups'] = 'Վերադառնալ խմբերին';
+$string['backtogroupings'] = 'Վերադառնալ խմբավորումներին';
+$string['existingmembers'] = 'Գոյություն ունեցող անդամները՝ $a'; 
+$string['potentialmembers'] = 'Հնարավոր անդամներ՝ $a';
+$string['groupinfo'] = 'Տեղեկատվություն ընտրված խմբի վերաբերյալ';
+$string['groupinfomembers'] = 'Տեղեկատվություն ընտրված անդամների վերաբերյալ';
+$string['groupinfopeople'] = 'Տեղեկատվություն ընտրված մարդկանց վերաբերյալ';
+$string['groupmembers'] = 'Խմբի անդամները';
+$string['groupmemberssee'] = 'Տեսնել խմբի անդամներին';
+$string['groupmembersselected'] = 'Ընտրված խմբի անդամները';
+
+$string['javascriptrequired'] = 'Այս էջը պահանջում է Javascript թույլտվություն։';
+
+$string['defaultgrouping'] = 'Կանխորոշված խմբավորում';
+$string['groupmode'] = 'Խմբային աշխատակերպ';
+$string['groupmodeforce'] = 'Պարտադրել խմբային աշխատակերպ';
+$string['groupmy'] = 'Իմ խումբը';
+$string['groupnotamember'] = 'Ներողություն, Դուք այդ խմբի անդամ չեք';
+$string['groupsnone'] = 'Առանց խմբերի';
+$string['groupsseparate'] = 'Առանձին խմբեր';
+$string['groupsvisible'] = 'Տեսանելի խմբեր';
+$string['groupmembersonly'] = 'Մատչելի է միայն խմբի անդամներին';
+$string['groupmembersonlyerror'] = 'Ներողություն, Դուք պետք է լինեք այս գործունեությունում օգտագործվող առնվազը մեկ խմբի անդամ։';
+$string['grouptemplate'] = 'Խումբ @';
+
+$string['groupaddedsuccesfully'] = '$a խումբը հաջողությամբ ավելացվել է';
+$string['nopermissionforcreation'] = 'Չեք կարող ստեղծել \"$a\" խումբը, քանի որ չունեք անհրաժեշտ լիազորություններ';
+
+$string['usergroupmembership'] = 'Ընտրված օգտագործի խումբը՝';
+$string['filtergroups'] = 'Խմբերը զտել ըստ՝ ';
+$string['nogroups'] = 'Այս դասընթացում դեռևս չկան սահմանված խմբեր';
+
+$string['autocreategroups'] = 'Ինքնաստեղծել խմբեր';
+$string['selectfromrole'] = 'Դերից ընտրել անդամներ';
+$string['groupby'] = 'Նշել';
+$string['numgroups'] = 'Խմբերի թիվը';
+$string['nummembers'] = 'Անդամների թիվը յուրաքանչյուր խմբում';
+$string['nosmallgroups'] = 'Արգելել վերջին փոքր խումբը';
+
+$string['groupscount'] = 'Խմբեր ($a)';
+$string['usercounttotal'] = 'Օգտագործողի հաշիվ ($a)';
+$string['usercount'] = 'Օգտագործողի հաշիվ';
+
+$string['members'] = 'Յուրաքանչյուր խմբի անդամներ թիվը';
+$string['number'] = 'Խմբի/անդամի հաշիվ';
+$string['allocateby'] = 'Հատկացնել անդամներ';
+$string['noallocation'] = 'Չկան հատկացումներ';
+$string['random'] = 'Պատահականորեն';
+$string['byfirstname'] = 'Ըստ անունների, ազգանունների այբբենական կարգի';
+$string['bylastname'] = 'Ըստ ազգանունների, անունների այբբենական կարգի';
+$string['byidnumber'] = 'Ըստ ID համարների այբբենական կարգի';
+$string['createingrouping'] = 'Ստեղծել խմբավորումում';
+
+$string['namingscheme'] = 'Անվանադրման նախագիծ';
+$string['namingschemehelp'] = 'Խմբի տառը (A-Z) պատկերելու համար օգտագործեք @ գրանշանը, խմբի համարը պատկերելու համար՝ # ։';
+$string['toomanygroups'] = 'Ոչ բավարար թվով օգտագործողներ այս քանակությամբ խմբերում տեղաբաշխելու համար - ընտրված դերում կան $a օգտագործողներ։';
+$string['badnamingscheme'] = 'Պետք է պարունակի ճիշտ մեկ  \'@\' կամ \'#\'  նշան';
+$string['groupspreview'] = 'Խմբի նախադիտում';
+$string['nousersinrole'] = 'Ընտրված դերի համար չկան համապատասխան օգտագործողներ';
+$string['nogroupsassigned'] = 'Չկան նշանակված խմբեր';
+$string['evenallocation'] = 'ՈՒշադրություն. Խմբում բաշխումը հավասար պահելու համար, յուրաքանչյուր խմբում անդամների փաստացի թիվը տարբերվում է Ձեր սահմանածից։';
+
+$string['removegroupsmembers'] = 'Ջնջել խմբի բոլոր անդամներին';
+$string['removegroupingsmembers'] = 'Ջնջել խմբավորուման բոլոր խմբերը';
+$string['deleteallgroups'] = 'Ջնջել բոլոր խմբերը';
+$string['deleteallgroupings'] = 'Ջնջել բոլոր խմբավորումները';
+
+$string['groupsgroupings'] = 'Խմբեր &amp; Խմբավորումներ';
+$string['groupingsonly'] = 'Խմբավորումներ միայն';
+$string['groupsonly'] = 'Խմբեր միայն';
 
 ?>

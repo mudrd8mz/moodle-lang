@@ -1,25 +1,28 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.8.2+ (2007021520)
+      // access.php - created with Moodle 1.7 beta + (2006101003)
+      // Accessibility, usability and navigation language file.
 
-
-$string['access'] = 'Հասանելիություն';
-$string['accesshelp'] = 'Հասանելիության օգնություն';
-$string['accesskey'] = 'Հասանելիության բանալի, $a';
-$string['accessstatement'] = 'Հասանելիության վիճակ';
-$string['activitynext'] = 'Հաջորդ գործունեություն';
-$string['activityprev'] = 'Նախորդ գործունեություն';
-$string['breadcrumb'] = 'Փորձնական միջուկ';
+$string['access'] = 'Մատչելիություն';
+$string['accesshelp'] = 'Մատչելիության օգնություն';
+$string['accesskey'] = 'Մատչելիության բանալի, $a';
+$string['accessstatement'] = 'Մատչելիության հաստատում';
+$string['activitynext'] = 'Հաջորդ գործունեությունը';
+$string['activityprev'] = 'Նախորդ գործունեությունը';
+$string['breadcrumb'] = 'Նշված ուղի';
+$string['currenttopic'] = 'Ընթացիկ թեմա';
+$string['currentweek'] = 'Ընթացիկ շաբաթ';
+$string['hideblocka'] = 'Թաքցնել $a բլոկը';
 $string['monthnext'] = 'Հաջորդ ամիս';
-$string['monthprev'] = 'Նախորդ ամիս';
-$string['showhideblock'] = 'Ցուցադրել կամ թաքցնել բլոկը';
-$string['sitemap'] = 'Կայքի քարտեզը';
-$string['skipa'] = 'Բացթողել $a';
-$string['skipblock'] = 'Բացթողել բլոկը';
-$string['skipnavigation'] = 'Բացթողել նավարկումը';
+$string['monthprev'] = 'Անցյալ ամիս';
+$string['showblocka'] = 'Ցուցադրել $a բլոկը';
+$string['sitemap'] = 'Էջի քարտեզ';
+$string['skipa'] = 'Բաց թողնել $a';
+$string['skipblock'] = 'Բաց թողնել բլոկը';
+$string['skipnavigation'] = 'Բաց թողնել տեղափոխությունը';
 $string['tabledata'] = 'Տվյալների աղյուսակ, $a';
-$string['tablelayout'] = 'Դասավորության աղյուսակ, $a';
-$string['tocontent'] = 'Անցնել հիմնական պարունակությանը';
-$string['tonavigation'] = 'Հետևել նավարկությանը';
-$string['youarehere'] = 'Դուք տեղում եք';
+$string['tablelayout'] = 'Դասացուցակ, $a';
+$string['tocontent'] = 'Բաց թողնել հիմնական բովանդակությունը';
+$string['tonavigation'] = 'Անցնել տեղափոխության';
+$string['youarehere'] = 'Դուք այստեղ եք';
 
 ?>

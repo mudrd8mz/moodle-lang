@@ -1,27 +1,23 @@
 <?PHP // $Id$ 
-      // pix.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['angry'] = 'ջղային';
-$string['approve'] = 'հաստատել';
-$string['biggrin'] = 'ատամների կռճտոց';
+      // pix.php - created with Moodle 1.7 beta + (2006101003)
+$string['angry'] = 'բարկանում եմ';
+$string['approve'] = 'համաձայն եմ';
+$string['biggrin'] = 'ծիծաղում եմ';
 $string['blackeye'] = 'սև աչք';
-$string['blush'] = 'շիկնած';
+$string['blush'] = 'կարմրում եմ';
 $string['clown'] = 'ծաղրածու';
-$string['cool'] = 'հոյակապ';
-$string['dead'] = 'մահացած';
-$string['evil'] = 'սատանա';
+$string['cool'] = 'ցնցող է';
+$string['dead'] = 'մեռած';
+$string['evil'] = 'չարություն';
 $string['kiss'] = 'համբույր';
-$string['mixed'] = 'խառը';
-$string['sad'] = 'տխուր';
-$string['shy'] = 'ամաչկոտ';
-$string['sleepy'] = 'քնկոտ';
-$string['smiley'] = 'ժպիտ';
+$string['mixed'] = 'խառն եմ';
+$string['sad'] = 'տխրում եմ';
+$string['shy'] = 'ամաչում եմ';
+$string['sleepy'] = 'քնած եմ';
+$string['smiley'] = 'ժպտում եմ';
 $string['surprise'] = 'անակնկալ';
-$string['thoughtful'] = 'մտածկոտ';
-$string['tongueout'] = 'լեզու';
-$string['wideeyes'] = 'վայրի աչքեր';
-$string['wink'] = 'աչքով տալ';
-
+$string['thoughtful'] = 'մտածում եմ';
+$string['tongueout'] = 'լեզու եմ հանում';
+$string['wideeyes'] = 'զարմանում եմ';
+$string['wink'] = 'աչքով եմ անում';
 ?>

@@ -1,8 +1,4 @@
 <?PHP // $Id$ 
-      // block_social_activities.php - created with Moodle 1.8.2+ (2007021520)
-      // local modifications from http://swnet.info/moodle
-
-
-$string['blockname'] = 'Սոցիալական Գործունեություն';
-
+      // block_social_activities.php - created with Moodle 1.7 beta + (2006101003)
+$string['blockname'] = 'Հասարակական գործունեություններ';
 ?>
