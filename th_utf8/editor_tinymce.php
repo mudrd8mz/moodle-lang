@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'ที่อยู่';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -189,7 +187,7 @@ $string['advlink_dlg:events_tab'] = 'กิจกรรม';
 $string['advlink_dlg:general_props'] = 'ตั้งค่าทั่วไป';
 $string['advlink_dlg:general_tab'] = 'ทั่วไป';
 $string['advlink_dlg:id'] = 'Id';
-$string['advlink_dlg:is_email'] = 'URL ที่คุณป้อนดูเหมือนว่าจะมีที่อยู่อีเมลอยู่ต้องการเพิ่ม mailto: นำหน้าหรือไม่';
+$string['advlink_dlg:is_email'] = 'URL ที่คุณป้อนดูเหมือนว่าจะมีที่อยู่อีเมลอยู่ต้องการเพิ่ม mailto: นำหน้าหรือไม่ ';
 $string['advlink_dlg:is_external'] = 'URL ที่คุณป้อนดูเหมือนว่าภายนอกลิงคคุณต้องการเพิ่ม  http:// หรือไม่ ?';
 $string['advlink_dlg:langcode'] = 'โค๊ดภาษา';
 $string['advlink_dlg:langdir'] = 'ทิศทางการอ่าน';

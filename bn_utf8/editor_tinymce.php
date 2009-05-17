@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Address';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -31,7 +29,7 @@ $string['advanced:custom1_desc'] = 'Your custom description here';
 $string['advanced:cut_desc'] = 'Cut';
 $string['advanced:dd'] = 'Definition description';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'Definition term';
+$string['advanced:dt'] = 'Definition term ';
 $string['advanced:font_size'] = 'Font size';
 $string['advanced:fontdefault'] = 'Font family';
 $string['advanced:forecolor_desc'] = 'Select text color';
@@ -511,7 +509,7 @@ $string['searchreplace_dlg:searchnext_desc'] = 'Find again';
 $string['searchreplace_dlg:up'] = 'Up';
 $string['simple:bold_desc'] = 'বোল্ড (Ctrl+B)';
 $string['simple:bullist_desc'] = 'আনঅর্ডারড লিস্ট';
-$string['simple:cleanup_desc'] = 'অপরিচ্ছন্ন  কোড পরিষ্কার কর';
+$string['simple:cleanup_desc'] = 'অপরিচ্ছন্ন  কোড পরিষ্কার কর ';
 $string['simple:italic_desc'] = 'ইটালিক (Ctrl+I)';
 $string['simple:numlist_desc'] = 'অর্ডারড লিস্ট';
 $string['simple:redo_desc'] = 'রিডু (Ctrl+Y)';

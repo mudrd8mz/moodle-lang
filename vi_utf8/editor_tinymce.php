@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Địa chỉ';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -30,7 +28,7 @@ $string['advanced:custom1_desc'] = 'Mô tả của bạn ở đây';
 $string['advanced:cut_desc'] = 'Cắt';
 $string['advanced:dd'] = 'Mô tả định nghĩa';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'Tên định nghĩa';
+$string['advanced:dt'] = 'Tên định nghĩa ';
 $string['advanced:font_size'] = 'Cỡ chữ';
 $string['advanced:fontdefault'] = 'Phông chữ';
 $string['advanced:forecolor_desc'] = 'Chọn màu chữ';
@@ -499,7 +497,7 @@ $string['searchreplace_dlg:direction'] = 'Hướng tìm kiếm';
 $string['searchreplace_dlg:down'] = 'Xuống';
 $string['searchreplace_dlg:findnext'] = 'Tiếp tục tìm';
 $string['searchreplace_dlg:findwhat'] = 'Chuỗi từ cần tìm';
-$string['searchreplace_dlg:mcase'] = 'Phân biệt chữ hoa, chữ thường';
+$string['searchreplace_dlg:mcase'] = 'Phân biệt chữ hoa, chữ thường ';
 $string['searchreplace_dlg:notfound'] = 'Kết thúc tìm kiếm. Không thể tìm thấy chuỗi từ cần tìm.';
 $string['searchreplace_dlg:replace'] = 'Thay thế';
 $string['searchreplace_dlg:replace_title'] = 'Tìm kiếm/Thay thế';

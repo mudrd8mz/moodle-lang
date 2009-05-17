@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Стиль адреси';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -28,9 +26,9 @@ $string['advanced:colorpicker_delta_width'] = '';
 $string['advanced:copy_desc'] = 'Копіювати';
 $string['advanced:custom1_desc'] = 'Ваш довільний опис тут';
 $string['advanced:cut_desc'] = 'Вирізати';
-$string['advanced:dd'] = 'Довідник опис';
+$string['advanced:dd'] = 'Довідник опис ';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'Довідник термін';
+$string['advanced:dt'] = 'Довідник термін ';
 $string['advanced:font_size'] = 'Розмір шрифту';
 $string['advanced:fontdefault'] = 'Шрифт';
 $string['advanced:forecolor_desc'] = 'Вибрати колір тексту';

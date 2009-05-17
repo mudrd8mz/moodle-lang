@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Adress';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -360,7 +358,7 @@ $string['fullpage_dlg:xml_pi'] = 'XML deklaration';
 $string['fullscreen:desc'] = 'Slå av/på fullskärmsläge';
 $string['iespell:download'] = 'ieSpell kunde inte hittas, vill du installera denna nu?';
 $string['iespell:iespell_desc'] = 'Rättstava';
-$string['insertdatetime:date_fmt'] = '%%Y-%%m-%%d';
+$string['insertdatetime:date_fmt'] = '%%Y-%%m-%%d ';
 $string['insertdatetime:day_long'] = 'Söndag,Måndag,Tisdag,Onsdag,Torsdag,Fredag,Lördag,Söndag';
 $string['insertdatetime:day_short'] = 'Sön,Mån,Tis,Ons,Tors,Fre,Lör,Sön';
 $string['insertdatetime:insertdate_desc'] = 'Infoga datum';

@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Adresse';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -545,7 +543,7 @@ $string['style_dlg:block_text_align'] = 'Alignement du texte';
 $string['style_dlg:block_text_indent'] = 'Indentation du texte';
 $string['style_dlg:block_vertical_alignment'] = 'Alignement vertical';
 $string['style_dlg:block_whitespace'] = 'Fin de ligne';
-$string['style_dlg:block_wordspacing'] = 'Espacement des mots';
+$string['style_dlg:block_wordspacing'] = 'Espacement des mots ';
 $string['style_dlg:border_tab'] = 'Bordure';
 $string['style_dlg:bottom'] = 'Bas';
 $string['style_dlg:box_clear'] = 'Vider';

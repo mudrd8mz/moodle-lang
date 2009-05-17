@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Dirección';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -56,7 +54,7 @@ $string['advanced:link_delta_height'] = '';
 $string['advanced:link_delta_width'] = '';
 $string['advanced:link_desc'] = 'Insertar/editar hipervínculo';
 $string['advanced:more_colors'] = 'Más colores';
-$string['advanced:newdocument'] = '¿Está seguro que desea limpiar todo el contenido?';
+$string['advanced:newdocument'] = ' ¿Está seguro que desea limpiar todo el contenido?';
 $string['advanced:newdocument_desc'] = 'Nuevo documento';
 $string['advanced:numlist_desc'] = 'Lista ordenada';
 $string['advanced:outdent_desc'] = 'Reducir sangría';
@@ -77,7 +75,7 @@ $string['advanced:undo_desc'] = 'Deshacer (Ctrl+Z)';
 $string['advanced:unlink_desc'] = 'Quitar hipervínculo';
 $string['advanced:visualaid_desc'] = 'Mostrar/ocultar línea de guía/elementos invisibles';
 $string['advanced_dlg:about_author'] = 'Autor';
-$string['advanced_dlg:about_general'] = 'Acerca de';
+$string['advanced_dlg:about_general'] = 'Acerca de ';
 $string['advanced_dlg:about_help'] = 'Ayuda';
 $string['advanced_dlg:about_license'] = 'Licencia';
 $string['advanced_dlg:about_loaded'] = 'Complementos cargados';
@@ -162,7 +160,7 @@ $string['advimage_dlg:long_desc'] = 'Vínculo para descripción larga';
 $string['advimage_dlg:ltr'] = 'Izquierda a derecha';
 $string['advimage_dlg:map'] = 'Mapa de imagen';
 $string['advimage_dlg:misc'] = 'Misceláneo';
-$string['advimage_dlg:missing_alt'] = '¿Esta seguro de continuar sin introducir una descripción a la imagen? Sin ella puede no ser accesible para usuarios con discapacidades, o para aquellos que usen navegadores de modo texto, o tengan deshabilitadas las imágenes de la página.';
+$string['advimage_dlg:missing_alt'] = ' ¿Esta seguro de continuar sin introducir una descripción a la imagen? Sin ella puede no ser accesible para usuarios con discapacidades, o para aquellos que usen navegadores de modo texto, o tengan deshabilitadas las imágenes de la página.';
 $string['advimage_dlg:mouseout'] = 'para mouseout';
 $string['advimage_dlg:mouseover'] = 'para mouseover';
 $string['advimage_dlg:preview'] = 'Vista previa';
@@ -236,7 +234,7 @@ $string['common:class_name'] = 'Clase';
 $string['common:clipboard_msg'] = 'Copiar/Cortar/Pegar no se encuentra disponible en Mozilla y Firefox.\\n ¿Desea obtener más información acerca de este tema?';
 $string['common:clipboard_no_support'] = 'Su navegador no soporta las funciones de cortapapeles, use los accesos por teclado.';
 $string['common:close'] = 'Cerrar';
-$string['common:edit_confirm'] = '¿Desea utilizar el modo WYSIWYG para esta caja de texto?';
+$string['common:edit_confirm'] = ' ¿Desea utilizar el modo WYSIWYG para esta caja de texto?';
 $string['common:insert'] = 'Insertar';
 $string['common:invalid_data'] = 'Error: Introdujo un valor no válido, están marcados en rojo.';
 $string['common:more_colors'] = 'Más colores';
@@ -658,7 +656,7 @@ $string['table_dlg:langdir'] = 'Dirección del lenguaje';
 $string['table_dlg:ltr'] = 'Izquierda a derecha';
 $string['table_dlg:merge_cells_title'] = 'Vincular celdas';
 $string['table_dlg:mime'] = 'Tipo MIME';
-$string['table_dlg:missing_scope'] = '¿Está seguro que desea continuar sin especificar el alcance del encabezado de celda? Sin él podría ser dificultoso para algunos usuarios entender el contenido o los datos mostrados en la tabla.';
+$string['table_dlg:missing_scope'] = ' ¿Está seguro que desea continuar sin especificar el alcance del encabezado de celda? Sin él podría ser dificultoso para algunos usuarios entender el contenido o los datos mostrados en la tabla.';
 $string['table_dlg:row_all'] = 'Actualizar todas las filas';
 $string['table_dlg:row_even'] = 'Actualizar filas pares';
 $string['table_dlg:row_limit'] = 'Ha superado el número máximo de filas: {$rows}.';

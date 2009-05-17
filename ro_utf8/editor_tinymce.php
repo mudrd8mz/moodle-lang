@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Adresă';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -30,7 +28,7 @@ $string['advanced:custom1_desc'] = 'Descriere ...';
 $string['advanced:cut_desc'] = 'Taie';
 $string['advanced:dd'] = 'Definiţie';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'Termen definit';
+$string['advanced:dt'] = 'Termen definit ';
 $string['advanced:font_size'] = 'Mărime font';
 $string['advanced:fontdefault'] = 'Font';
 $string['advanced:forecolor_desc'] = 'Culoare text';
@@ -365,7 +363,7 @@ $string['insertdatetime:day_long'] = 'Duminică,Luni,Marţi,Miercuri,Joi,Vineri,
 $string['insertdatetime:day_short'] = 'Dum,Lun,Mar,Mie,Joi,Vin,Sâm,Dum';
 $string['insertdatetime:insertdate_desc'] = 'Inserează dată';
 $string['insertdatetime:inserttime_desc'] = 'Inserează oră';
-$string['insertdatetime:months_long'] = 'Ianuarie,Februarie,Martie,Aprilie,Mai,Iunie,Iulie,August,Septembrie,Octombrie,Noiembrie,Decembrie';
+$string['insertdatetime:months_long'] = 'Ianuarie,Februarie,Martie,Aprilie,Mai,Iunie,Iulie,August,Septembrie,Octombrie,Noiembrie,Decembrie ';
 $string['insertdatetime:months_short'] = 'Ian,Feb,Mar,Apr,Mai,Iun,Iul,Aug,Sep,Oct,Noi,Dec';
 $string['insertdatetime:time_fmt'] = '%%H:%%M:%%S';
 $string['layer:absolute_desc'] = 'Poziţionare absolută';
@@ -423,7 +421,7 @@ $string['media_dlg:flv_options'] = 'Opţiuni Flash video';
 $string['media_dlg:flv_scalemode'] = 'Moduri scală';
 $string['media_dlg:flv_showscalemodes'] = 'Afişare moduri scalare';
 $string['media_dlg:flv_smoothvideo'] = 'Smooth video';
-$string['media_dlg:flv_startimage'] = 'Imagine start';
+$string['media_dlg:flv_startimage'] = 'Imagine start ';
 $string['media_dlg:flv_starttime'] = 'Timp start';
 $string['media_dlg:fullscreen'] = 'Ecran complet';
 $string['media_dlg:general'] = 'General';
@@ -658,7 +656,7 @@ $string['table_dlg:langdir'] = 'Direcţie limbă';
 $string['table_dlg:ltr'] = 'De la stânga la dreapta';
 $string['table_dlg:merge_cells_title'] = 'Uniţi celulele';
 $string['table_dlg:mime'] = 'MIME type ţintă';
-$string['table_dlg:missing_scope'] = 'Sigur doriţi să lăsaţi scopul necompletat?';
+$string['table_dlg:missing_scope'] = 'Sigur doriţi să lăsaţi scopul necompletat? ';
 $string['table_dlg:row_all'] = 'Actualizează toate rândurile';
 $string['table_dlg:row_even'] = 'Actualizează rândurile pare';
 $string['table_dlg:row_limit'] = 'Aţi depăşit numărul maxim de rânduri: {$rows}.';

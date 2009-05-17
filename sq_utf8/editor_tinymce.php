@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Adresë';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -30,7 +28,7 @@ $string['advanced:custom1_desc'] = 'Pëshkrimi i personalizuar këtu';
 $string['advanced:cut_desc'] = 'Prit';
 $string['advanced:dd'] = 'Përshkrimi i përcaktimit';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'Terma e përcaktimit';
+$string['advanced:dt'] = 'Terma e përcaktimit ';
 $string['advanced:font_size'] = 'Madhësia e tekstit';
 $string['advanced:fontdefault'] = 'Familja e tekstit';
 $string['advanced:forecolor_desc'] = 'Zgjidh ngjyrën e tekstit';

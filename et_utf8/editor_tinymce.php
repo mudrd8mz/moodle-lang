@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Aadress';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -189,7 +187,7 @@ $string['advlink_dlg:events_tab'] = 'Sündmused';
 $string['advlink_dlg:general_props'] = 'Üldised seadistused';
 $string['advlink_dlg:general_tab'] = 'Üldine';
 $string['advlink_dlg:id'] = 'ID';
-$string['advlink_dlg:is_email'] = 'URL, mille sisestasid, tundub olevat e-posti aadress, kas soovid sellele lisada mailto: funktsiooni?';
+$string['advlink_dlg:is_email'] = ' URL, mille sisestasid, tundub olevat e-posti aadress, kas soovid sellele lisada mailto: funktsiooni?';
 $string['advlink_dlg:is_external'] = 'URL, mille sisestasid, tundub olevat väline link, kas soovid sellele lisada http://?';
 $string['advlink_dlg:langcode'] = 'Keele kood';
 $string['advlink_dlg:langdir'] = 'Keele suund';
@@ -227,7 +225,7 @@ $string['advlink_dlg:target_same'] = 'Ava selles aknas/raamis';
 $string['advlink_dlg:target_top'] = 'Ava kõrgeimas raamis (asenda kõik raamid)';
 $string['advlink_dlg:title'] = 'Sisesta muuda linki';
 $string['advlink_dlg:titlefield'] = 'Pealkiri';
-$string['advlink_dlg:url'] = 'URL’i link';
+$string['advlink_dlg:url'] = ' URL’i link';
 $string['autosave:unload_msg'] = 'Tehtud muudatused kaovad, kui lahkute siit lehelt.';
 $string['common:apply'] = 'Rakenda';
 $string['common:browse'] = 'Sirvi';

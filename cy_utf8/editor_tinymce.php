@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Cyfeririad';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -31,7 +29,7 @@ $string['advanced:custom1_desc'] = 'Eich disgrifiad addasiedig yma';
 $string['advanced:cut_desc'] = 'Torri';
 $string['advanced:dd'] = 'Disgrifiad diffiniad';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'Term diffiniad';
+$string['advanced:dt'] = 'Term diffiniad ';
 $string['advanced:font_size'] = 'Maint Ffont';
 $string['advanced:fontdefault'] = 'Teulu ffont';
 $string['advanced:forecolor_desc'] = 'Dewis lliw testun';

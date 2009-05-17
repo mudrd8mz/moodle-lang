@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Osoite';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -30,7 +28,7 @@ $string['advanced:custom1_desc'] = 'Oma kuvauksesi tähän';
 $string['advanced:cut_desc'] = 'Leikkaa';
 $string['advanced:dd'] = 'Määrittelyn kuvaus';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'Määrittelyn ehto';
+$string['advanced:dt'] = 'Määrittelyn ehto ';
 $string['advanced:font_size'] = 'Kirjasinkoko';
 $string['advanced:fontdefault'] = 'Kirjasin';
 $string['advanced:forecolor_desc'] = 'Valitse tekstin väri';

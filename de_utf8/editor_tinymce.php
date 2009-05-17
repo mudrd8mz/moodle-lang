@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Addresse';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '13';
@@ -199,7 +197,7 @@ $string['advlink_dlg:list'] = 'Linkliste';
 $string['advlink_dlg:ltr'] = 'Links nach rechts';
 $string['advlink_dlg:mime'] = 'MIME-Type der Zielseite';
 $string['advlink_dlg:popup'] = 'JavaScript-Popup';
-$string['advlink_dlg:popup_dependent'] = 'Vom Elternfenster abhängig <br /> (nur Mozilla/Firefox)';
+$string['advlink_dlg:popup_dependent'] = 'Vom Elternfenster abhängig <br /> (nur Mozilla/Firefox) ';
 $string['advlink_dlg:popup_location'] = 'Adressleiste anzeigen';
 $string['advlink_dlg:popup_menubar'] = 'Browsermenü anzeigen';
 $string['advlink_dlg:popup_name'] = 'Name des Fensters';

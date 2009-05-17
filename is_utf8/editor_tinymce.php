@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Heimilisfang';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -30,7 +28,7 @@ $string['advanced:custom1_desc'] = 'Lýsingin þín hér';
 $string['advanced:cut_desc'] = 'Klippa';
 $string['advanced:dd'] = 'Definition description';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'Definition term';
+$string['advanced:dt'] = 'Definition term ';
 $string['advanced:font_size'] = 'Leturstærð';
 $string['advanced:fontdefault'] = 'Leturgerð';
 $string['advanced:forecolor_desc'] = 'Veldu lit texta';

@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Alamat';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -198,7 +196,7 @@ $string['advlink_dlg:link_list'] = 'Senarai pautan';
 $string['advlink_dlg:list'] = 'Senarai pautan';
 $string['advlink_dlg:ltr'] = 'Kiri ke kanan';
 $string['advlink_dlg:mime'] = 'Sasaran jenis MIME';
-$string['advlink_dlg:popup'] = 'Popup Javascript';
+$string['advlink_dlg:popup'] = 'Popup Javascript ';
 $string['advlink_dlg:popup_dependent'] = 'Tanggungan (Hanya Mozilla/Firefox)';
 $string['advlink_dlg:popup_location'] = 'Tunjuk bar lokasi';
 $string['advlink_dlg:popup_menubar'] = 'Tunjuk bar menu';

@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Адрес';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -31,7 +29,7 @@ $string['advanced:custom1_desc'] = 'Вашето описание тук';
 $string['advanced:cut_desc'] = 'Изрязване';
 $string['advanced:dd'] = 'Описание на дефиниция';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'Дефиниция';
+$string['advanced:dt'] = 'Дефиниция ';
 $string['advanced:font_size'] = 'Размер на шрифта';
 $string['advanced:fontdefault'] = 'Шрифт';
 $string['advanced:forecolor_desc'] = 'Избери цвят на текста';

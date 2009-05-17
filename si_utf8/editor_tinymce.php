@@ -1,15 +1,13 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'ලිපිනය';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
-$string['advanced:anchor_desc'] = 'ආධාරය ඇතුළු/සංස්කරණය කරන්න';
+$string['advanced:anchor_desc'] = 'ආධාරය ඇතුළු/සංස්කරණය කරන්න ';
 $string['advanced:backcolor_desc'] = 'පසුබිම වර්ණය තෝරාගන්නවා';
 $string['advanced:block'] = 'ආකෘතිය';
 $string['advanced:blockquote'] = 'Blockquote';
@@ -18,23 +16,23 @@ $string['advanced:bold_desc'] = 'Bold (Ctrl+B)';
 $string['advanced:bullist_desc'] = 'අක්‍රමානුකූල ලැයිස්තුව';
 $string['advanced:charmap_delta_height'] = '';
 $string['advanced:charmap_delta_width'] = '';
-$string['advanced:charmap_desc'] = 'භාවිත අක්ෂරය ඇතුලු කරන්න';
+$string['advanced:charmap_desc'] = ' භාවිත අක්ෂරය ඇතුලු කරන්න';
 $string['advanced:cleanup_desc'] = 'වැරදි කේත ඉවත් කරන්න';
 $string['advanced:clipboard_msg'] = 'පිටපත් කිරීම/ඉවත් කිරීම/ඇලවීම මොසිල්ලා හා ෆයර් ෆොක්ස් හි ඇතුළත් නොවේ.
 ඔබට මේ පිළිබඳව තචදුරටත් තොරතුරු අවශ්‍ය වේද?';
 $string['advanced:code'] = 'කේතය';
-$string['advanced:code_desc'] = 'HTML මූලාශ්‍රය සංස්කරණය කරන්න';
+$string['advanced:code_desc'] = ' HTML මූලාශ්‍රය සංස්කරණය කරන්න';
 $string['advanced:colorpicker_delta_height'] = '';
 $string['advanced:colorpicker_delta_width'] = '';
-$string['advanced:copy_desc'] = 'පිටපත් කරන්න';
+$string['advanced:copy_desc'] = '	පිටපත් කරන්න';
 $string['advanced:custom1_desc'] = 'ඔබේ ව්‍යවහාරික විස්තරය';
 $string['advanced:cut_desc'] = 'Cut';
 $string['advanced:dd'] = 'නිර්වචන විස්තරය';
 $string['advanced:div'] = 'Div';
-$string['advanced:dt'] = 'නිර්වචනය';
+$string['advanced:dt'] = 'නිර්වචනය ';
 $string['advanced:font_size'] = 'පන්ද ප්‍රමාණය';
 $string['advanced:fontdefault'] = 'පන්ද සමූහය';
-$string['advanced:forecolor_desc'] = 'පාඪයෙහි වර්ණය තෝරාගන්නවා';
+$string['advanced:forecolor_desc'] = ' පාඪයෙහි වර්ණය තෝරාගන්නවා';
 $string['advanced:h1'] = 'මාතෘකාව 1';
 $string['advanced:h2'] = 'මාතෘකාව 2';
 $string['advanced:h3'] = 'මාතෘකාව 3';
@@ -45,7 +43,7 @@ $string['advanced:help_desc'] = 'උපකාරය';
 $string['advanced:hr_desc'] = 'තිරස් රූල ඇතුල් කරන්න';
 $string['advanced:image_delta_height'] = '';
 $string['advanced:image_delta_width'] = '';
-$string['advanced:image_desc'] = 'අනුරූපය ඇතුළු/සංස්කරණය කරන්න';
+$string['advanced:image_desc'] = 'අනුරූපය ඇතුළු/සංස්කරණය කරන්න ';
 $string['advanced:image_props_desc'] = 'අනුරූපි ලක්ෂණය';
 $string['advanced:indent_desc'] = 'Indent';
 $string['advanced:italic_desc'] = 'Italic (Ctrl+I)';
@@ -84,7 +82,7 @@ $string['advanced_dlg:about_license'] = 'බලපත්‍රය';
 $string['advanced_dlg:about_loaded'] = 'Loaded plugins';
 $string['advanced_dlg:about_plugin'] = 'Plugin';
 $string['advanced_dlg:about_plugins'] = 'Plugins';
-$string['advanced_dlg:about_title'] = 'TinyMCE පිළිබඳ';
+$string['advanced_dlg:about_title'] = ' TinyMCE පිළිබඳ';
 $string['advanced_dlg:about_version'] = 'සංස්කරණය';
 $string['advanced_dlg:anchor_name'] = 'ආධාරක නාමය';
 $string['advanced_dlg:anchor_title'] = 'ආධාරය ඇතුළු/සංස්කරණය කරන්න';
@@ -95,9 +93,9 @@ $string['advanced_dlg:colorpicker_color'] = 'වර්ණ:';
 $string['advanced_dlg:colorpicker_name'] = 'නාමය';
 $string['advanced_dlg:colorpicker_named_tab'] = 'නමැති';
 $string['advanced_dlg:colorpicker_named_title'] = 'නමැති වර්ණ';
-$string['advanced_dlg:colorpicker_palette_tab'] = 'වර්ණ එලකය';
-$string['advanced_dlg:colorpicker_palette_title'] = 'වර්ණ එලක වර්ණ';
-$string['advanced_dlg:colorpicker_picker_tab'] = 'ඇහුළුම් කූර';
+$string['advanced_dlg:colorpicker_palette_tab'] = '	වර්ණ එලකය';
+$string['advanced_dlg:colorpicker_palette_title'] = '	වර්ණ එලක වර්ණ';
+$string['advanced_dlg:colorpicker_picker_tab'] = '	ඇහුළුම් කූර ';
 $string['advanced_dlg:colorpicker_picker_title'] = 'වර්ණ ඇහුළුම් කූර';
 $string['advanced_dlg:colorpicker_title'] = 'වර්ණය තෝරන්න';
 $string['advanced_dlg:image_align'] = 'පෙල ගැන්වුම';
@@ -242,7 +240,7 @@ $string['common:insert'] = 'ඇතුළත් කරන්න';
 $string['common:invalid_data'] = 'වරද: වලංගු නොමැති අගයන් ඇතුළත් කර ඇත,එම අගයන් රතු පාටින් සළකුණු කර ඇත.';
 $string['common:more_colors'] = 'තවත් වර්ණ';
 $string['common:not_set'] = '-- Not set --';
-$string['common:popup_blocked'] = 'ඔබගේ popup-blocker මඟින් උපයෝගි සේවාවන් සපයන කවුලුවක් අබල කර ඇත.එබැවින් ඔබට popup-blocker ය අක්‍රීය කිරීමට සිදුවේ.';
+$string['common:popup_blocked'] = 'ඔබගේ popup-blocker මඟින් උපයෝගි සේවාවන් සපයන කවුලුවක් අබල කර ඇත.එබැවින් ඔබට popup-blocker ය අක්‍රීය කිරීමට සිදුවේ. ';
 $string['common:update'] = 'අලුත් කරන්න';
 $string['contextmenu:align'] = 'පෙළ ගැන්වුම';
 $string['contextmenu:center'] = 'මැදට';

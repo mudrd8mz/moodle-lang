@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'כתובת';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -200,7 +198,7 @@ $string['advlink_dlg:ltr'] = 'משמאל לימין';
 $string['advlink_dlg:mime'] = 'Target MIME type';
 $string['advlink_dlg:popup'] = 'חלון מוקפץ javascript';
 $string['advlink_dlg:popup_dependent'] = 'Dependent (Mozilla/Firefox only)';
-$string['advlink_dlg:popup_location'] = 'הצגת location bar';
+$string['advlink_dlg:popup_location'] = 'הצגת location bar ';
 $string['advlink_dlg:popup_menubar'] = 'הצגת תפריט';
 $string['advlink_dlg:popup_name'] = 'שם החלון';
 $string['advlink_dlg:popup_opts'] = 'אפשרויות';
@@ -234,8 +232,10 @@ $string['common:apply'] = 'אישור';
 $string['common:browse'] = 'עיון';
 $string['common:cancel'] = 'ביטול';
 $string['common:class_name'] = 'מחלקה';
-$string['common:clipboard_msg'] = 'העתקה/גזירה והדבקה אינם זמינים ב Mozilla וב-Firefox.
-        האם ברצונך לקבל מידע נוסף על הנושא?';
+$string['common:clipboard_msg'] = '
+        העתקה/גזירה והדבקה אינם זמינים ב Mozilla וב-Firefox.
+        האם ברצונך לקבל מידע נוסף על הנושא?
+      ';
 $string['common:clipboard_no_support'] = 'כרגע לא נתמך על ידי הדפדפן שלך. השתמש בקיצורי המקלדת.';
 $string['common:close'] = 'סגירה';
 $string['common:edit_confirm'] = 'ברצונך להשתמש בעורך המתקדם?';
@@ -360,7 +360,7 @@ $string['fullpage_dlg:value'] = 'ערך';
 $string['fullpage_dlg:visited_color'] = 'Visited color';
 $string['fullpage_dlg:xml_pi'] = 'XML declaration';
 $string['fullscreen:desc'] = 'מעבר למסך מלא/חלקי';
-$string['iespell:download'] = 'לא נמצא ieSpell. האם ברצונך להתקין?';
+$string['iespell:download'] = ' לא נמצא ieSpell. האם ברצונך להתקין?';
 $string['iespell:iespell_desc'] = 'בדיקת איות באנגלית';
 $string['insertdatetime:date_fmt'] = '%%d-%%m-%%Y';
 $string['insertdatetime:day_long'] = 'יום ראשון,יום שני,יום שלישי,יום רביעי,יום חמישי,יום שיש,יום שבת,יום ראשון';
@@ -515,7 +515,7 @@ $string['simple:bullist_desc'] = 'תבליטים';
 $string['simple:cleanup_desc'] = 'נקה קוד';
 $string['simple:italic_desc'] = 'נטוי (Ctrl+I)';
 $string['simple:numlist_desc'] = 'מספור';
-$string['simple:redo_desc'] = '(Ctrl+Y)';
+$string['simple:redo_desc'] = ' (Ctrl+Y)';
 $string['simple:striketrough_desc'] = 'קו חוצה';
 $string['simple:underline_desc'] = 'קו תחתון (Ctrl+U)';
 $string['simple:undo_desc'] = 'ביטול פעולה (Ctrl+Z)';
@@ -742,7 +742,7 @@ $string['xhtmlxtras_dlg:attribute_label_title'] = 'כותרת';
 $string['xhtmlxtras_dlg:attribute_option_ltr'] = 'משמאל לימין';
 $string['xhtmlxtras_dlg:attribute_option_rtl'] = 'מימין לשמאל';
 $string['xhtmlxtras_dlg:events_tab'] = 'אירועים';
-$string['xhtmlxtras_dlg:fieldset_attrib_tab'] = 'תכונות האלמנט';
+$string['xhtmlxtras_dlg:fieldset_attrib_tab'] = ' תכונות האלמנט';
 $string['xhtmlxtras_dlg:fieldset_events_tab'] = 'אירועי האלמנט';
 $string['xhtmlxtras_dlg:fieldset_general_tab'] = 'הגדרות כלליות';
 $string['xhtmlxtras_dlg:general_tab'] = 'כללי';

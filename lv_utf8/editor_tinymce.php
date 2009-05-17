@@ -1,11 +1,9 @@
 <?php
 
+//== Custom Moodle strings that are not part of upstream TinyMCE ==
 
 
-
-
-// Automatically created strings from original TinyMCE lang files, please do not update yet
-
+// == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Adrese';
 $string['advanced:anchor_delta_height'] = '';
 $string['advanced:anchor_delta_width'] = '';
@@ -31,7 +29,7 @@ $string['advanced:custom1_desc'] = 'Tevis izdomāts apraksts šeit';
 $string['advanced:cut_desc'] = 'Izgriezt';
 $string['advanced:dd'] = 'Definīcijas apraksts';
 $string['advanced:div'] = 'Divīzija';
-$string['advanced:dt'] = 'Definīcijas termins';
+$string['advanced:dt'] = 'Definīcijas termins ';
 $string['advanced:font_size'] = 'Fonta lielums';
 $string['advanced:fontdefault'] = 'Fonta veids';
 $string['advanced:forecolor_desc'] = 'Uzstādīt teksta krāsu';
@@ -117,7 +115,7 @@ $string['advanced_dlg:image_list'] = 'Attēlu saraksts';
 $string['advanced_dlg:image_src'] = 'Attēla URL';
 $string['advanced_dlg:image_title'] = 'Ievietot/Rediģēt attēlu';
 $string['advanced_dlg:image_vspace'] = 'Vertikālā atstarpe';
-$string['advanced_dlg:link_is_email'] = 'Ievadītais URL šķiet ir e-pasta adrese, vai tu vēlies pirms tās pievienot mailto: priedēkli?';
+$string['advanced_dlg:link_is_email'] = 'Ievadītais URL šķiet ir e-pasta adrese, vai tu vēlies pirms tās pievienot mailto: priedēkli? ';
 $string['advanced_dlg:link_is_external'] = 'Ievadītais URL šķiet ir ārējā saite, vai tu vēlies pirms tās pievienot http:// priedēkli?';
 $string['advanced_dlg:link_list'] = 'Saišu saraksts';
 $string['advanced_dlg:link_target'] = 'Mērķis';
@@ -242,7 +240,7 @@ $string['common:insert'] = 'Ievietot';
 $string['common:invalid_data'] = 'Kļūda: Ievadītas nederīgas vērtības. Tās ir atzīmētas sarkanā krāsā.';
 $string['common:more_colors'] = 'Vairāk krāsu';
 $string['common:not_set'] = '-- Nav norādīts --';
-$string['common:popup_blocked'] = 'Atvainojiet, bet mēs esam konstatējuši, ka Jūsu uzlecošo logu bloķētājs ir atspējojis logu, kas nodrošina programmas funkcionalitāti. Lai pilnībā izmantotu šo rīku, Jums ir jāatslēdz uzlecošo logu bloķētajs šai vietnei.';
+$string['common:popup_blocked'] = 'Atvainojiet, bet mēs esam konstatējuši, ka Jūsu uzlecošo logu bloķētājs ir atspējojis logu, kas nodrošina programmas funkcionalitāti. Lai pilnībā izmantotu šo rīku, Jums ir jāatslēdz uzlecošo logu bloķētajs šai vietnei. ';
 $string['common:update'] = 'Atjaunināt';
 $string['contextmenu:align'] = 'Novietojums';
 $string['contextmenu:center'] = 'Centrēts';
@@ -369,7 +367,7 @@ $string['insertdatetime:inserttime_desc'] = 'Ievietot laiku';
 $string['insertdatetime:months_long'] = 'Janvāris,Februāris,Marts,Aprīlis,Maijs,Jūnijs,Jūlijs,Augusts,Seprembris,Oktobris,Novembris,Decembris';
 $string['insertdatetime:months_short'] = 'Jan,Feb,Mar,Apr,Mai,Jūn,Jūl,Aug,Sep,Okt,Nov,Dec';
 $string['insertdatetime:time_fmt'] = '%%H:%%M:%%S';
-$string['layer:absolute_desc'] = 'Iestatīt/Novākt absolūto novietojumu';
+$string['layer:absolute_desc'] = 'Iestatīt/Novākt absolūto novietojumu ';
 $string['layer:backward_desc'] = 'Atpakaļ';
 $string['layer:content'] = 'Jauns slānis...';
 $string['layer:forward_desc'] = 'Uz priekšu';
