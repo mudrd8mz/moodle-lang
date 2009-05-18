@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 2.0 dev (Build: 20080525) (2008051202)
+      // editor.php - created with Moodle 2.0 dev (Build: 20090517) (2009051700)
 
 
 $string['about'] = 'このエディタに関して';
 $string['absbottom'] = '下揃え (絶対指定)';
+$string['acteditorshhdr'] = 'アクティブテキストエディタ';
 $string['address'] = 'アドレス';
 $string['alertnoselectedtext'] = '最初にテキストを選択してください!';
 $string['alignment'] = '配置';
@@ -24,6 +25,7 @@ $string['chooseicon'] = '挿入するアイコンを選択する';
 $string['close'] = '閉じる';
 $string['closeafterreplace'] = '置換後に閉じる';
 $string['cols'] = '列';
+$string['configeditorplugins'] = 'あなたが使用したいテキストエディタを選択してください。また、テキストエディタを推奨の順に並べてください。';
 $string['copy'] = '選択したものをコピーする';
 $string['createanchor'] = 'アンカーを作成する';
 $string['createfolder'] = 'フォルダを作成する';
@@ -31,6 +33,8 @@ $string['createlink'] = 'リンクを挿入する';
 $string['cut'] = '選択したものを切り取る';
 $string['cutpastemozilla'] = '残念ですが、現在通常のキーボードショートカット (ペーストボタンも) を使うことができません。これはMozillaおよびFirefoxブラウザのいくつかのバージョンに、セキュリティ機能が組み込まれていることが原因しています。<br /><br />これに関して3つの対応方法があります: <br /> (1) CTRL + v を使う代わりに SHIFT + Insert を使う。<br /> (2) ブラウザの 編集->貼り付け メニューを使う。<br /> (3) user.jsファイルを編集することでブラウザの設定を変更する。<br /><br />下記のOKボタンを押して詳細情報を見るか、キャンセルを押してエディタに戻ってください。';
 $string['delete'] = '削除';
+$string['editors'] = 'テキストエディタ';
+$string['editorsettings'] = 'エディタを管理する';
 $string['enterurlfirst'] = '最初にURIを入力してください。';
 $string['filebrowser'] = 'ファイルブラウザ';
 $string['findwhat'] = '検索';
