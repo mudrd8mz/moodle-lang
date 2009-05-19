@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
+      // error.php - created with Moodle 2.0 dev (Build: 20090517) (2009051700)
 
 
 $string['TODO'] = 'TODO';
@@ -405,6 +405,7 @@ $string['secretalreadyused'] = 'パスワード変更の確認リンクは、す
 $string['sectionnotexist'] = 'このセクションはありません。';
 $string['sendmessage'] = 'メッセージを送信する';
 $string['sessioncookiesdisable'] = 'require_key_login() の使用が正しくありません - セッションクッキーは無効にしてください!';
+$string['sessiondiskfull'] = 'セッションパーティションがフルになっています。現在、ログインすることはできません。<br /><br />サーバ管理者に連絡してください。';
 $string['sessionerroruser'] = 'セッションがタイムアウトしました。再度ログインしてください。';
 $string['sessionerroruser2'] = 'あなたのログインセッションに影響を与えるサーバエラーが検知されました。再度ログインするかブラウザを再起動してください。';
 $string['sessionipnomatch'] = '申し訳ございません、あなたのIPアドレスは、最初のログインから変更されているようです。このセキュリティ機能は、あなたがサイトにログインしている間、クラッカーから個人情報を盗むことを防いでいます。通常のユーザは、このメッセージを見ることはありません - 詳細はシステム管理者にお問合せください。';
