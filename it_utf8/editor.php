@@ -1,14 +1,15 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 Beta + (2007021501)
+      // editor.php - created with Moodle 2.0 dev (Build: 20090519) (2009051700)
 
 
 $string['about'] = 'Info su questo editor';
 $string['absbottom'] = 'Inferiore assoluto';
+$string['acteditorshhdr'] = 'Editor di testo attivi';
 $string['address'] = 'Indirizzo';
 $string['alertnoselectedtext'] = 'Dovete prima selezionare il testo!';
 $string['alignment'] = 'Allineamento';
 $string['alternatetext'] = 'Testo alternativo';
-$string['anchorhelp'] = 'Questo crea solamente un\'ancora. E\' necessario creare un collegamento manualmente.';
+$string['anchorhelp'] = 'Questo crea solamente un\'ancora. E\' necessario creare un collegamento a mano.';
 $string['anchorname'] = 'Nome ancora';
 $string['anchors'] = 'Ancore';
 $string['baseline'] = 'Linea di base';
@@ -24,18 +25,21 @@ $string['chooseicon'] = 'Scegli una icona da inserire';
 $string['close'] = 'Chiudi';
 $string['closeafterreplace'] = 'Chiudi dopo la sostituzione';
 $string['cols'] = 'Colonne';
+$string['configeditorplugins'] = 'E\' possibile attivare una o più plugin di Editor di testo, arrangiandole poi nell\'ordine di utilizzo desiderato.';
 $string['copy'] = 'Copia selezione';
 $string['createanchor'] = 'Crea ancora';
 $string['createfolder'] = 'Crea cartella';
 $string['createlink'] = 'Inserisci collegamento web';
 $string['cut'] = 'Taglia selezione';
-$string['cutpastemozilla'] = 'Sfortunatamente, non è possibile utilizzare le normali scorciatoie da tastiera (o anche il pulsante Incolla) per Incollare testo in questo editor in linea. Questo perché una specifica di sicurezza che  è inclusa in alcune versioni di Mozilla e di Firefox.<br /></br>Ci sono tre alternative conosciute che è possibile provare:<br />(1) Invece di CTRL-v, utilizzare SHIFT-Ins(erisci)<br />(2) Utilizzare il menu Modifica->Incolla del browser<br />(3) Cambiare le impostazioni del browser modificando il file user.js.<br /><br />Cliccare il pulsante OK per ulteriore aiuto, o Cancella per tornare all\'editor.';
-$string['delete'] = 'Cancella';
-$string['enterurlfirst'] = 'È necessario inserire l\'indirizzo prima';
+$string['cutpastemozilla'] = 'Sfortunatamente non è possibile utilizzare le normali scorciatoie da tastiera (o anche il pulsante Incolla) per Incollare testo in questo editor in linea. Questo perché una specifica di sicurezza che  è inclusa in alcune versioni di Mozilla e di Firefox.<br /></br>Ci sono tre alternative conosciute che è possibile provare:<br />(1) Invece di CTRL-v, utilizzare SHIFT-Ins(erisci)<br />(2) Utilizzare il menu Modifica->Incolla del browser<br />(3) Cambiare le impostazioni del browser modificando il file user.js.<br /><br />Cliccare il pulsante OK per ulteriore aiuto, o Cancella per tornare all\'editor.';
+$string['delete'] = 'Elimina';
+$string['editors'] = 'Editor di testo';
+$string['editorsettings'] = 'Gestione editor';
+$string['enterurlfirst'] = 'È necessario inserire prima la URL';
 $string['filebrowser'] = 'Gestione file';
 $string['findwhat'] = 'Trova';
 $string['fontname'] = 'Nome del carattere';
-$string['fontsize'] = 'Dimensioni del carattere';
+$string['fontsize'] = 'Dimensione del carattere';
 $string['forecolor'] = 'Colore testo';
 $string['formatblock'] = 'Formato';
 $string['fullscreen'] = 'Editor a schermo intero';

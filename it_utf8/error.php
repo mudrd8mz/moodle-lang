@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
+      // error.php - created with Moodle 2.0 dev (Build: 20090519) (2009051700)
 
 
 $string['TODO'] = 'TODO';
@@ -405,6 +405,7 @@ $string['secretalreadyused'] = 'Il link di conferma cambio password è già stat
 $string['sectionnotexist'] = 'Questa sezione non esiste';
 $string['sendmessage'] = 'Invia messaggio';
 $string['sessioncookiesdisable'] = 'E\' stato rilevato un uso errato di require_key_login() - i cookie di sessione devono essere disabilitati!';
+$string['sessiondiskfull'] = 'La partizione contenente le sessioni è piena. Al momento non è possibile autenticarsi.<br /><br />Per favore avvertite l\'amministratore del server.';
 $string['sessionerroruser'] = 'La sessione è scaduta o è stato rilevato un errore. Si prega effettuare nuovamente il login.';
 $string['sessionerroruser2'] = 'È stato rilevato un errore sul server che ha compromesso la vostra sessione di autenticazione. Vi preghiamo di autenticarvi nuovamente o di far ripartire il browser.';
 $string['sessionipnomatch'] = 'Spiacente, ma il vostro IP sembra essere cambiato da quando vi siete autenticati. Questa caratteristica previene il furto della vostra identità  da parte di hackers mentre siete collegati a questo sito. Gli utenti non dovrebbero vedere questo messaggio - chiedere aiuto all\'amministratore del sito.';
@@ -439,7 +440,8 @@ $string['unknowncourserequest'] = 'Richiesta di corso sconosciuta';
 $string['unknownfiletype'] = 'Errore - Filtro sconosciuto';
 $string['unknowngroup'] = 'Il gruppo \"$a\" è sconosciuto';
 $string['unknownhelp'] = 'L\'argomento di help $a è sconosciuto';
-$string['unknownmodulename'] = 'Per ilform il nome del modulo è sconosciuto';
+$string['unknownjsinrequirejs'] = 'Non è possibile trovate la libreria JS: $a';
+$string['unknownmodulename'] = 'Per il form il nome del modulo è sconosciuto';
 $string['unknownrole'] = 'Il ruolo \"$a\" è sconosciuto';
 $string['unknownsortcolumn'] = 'La colonna $a per l\'ordinamento è sconosciuta';
 $string['unknownuseraction'] = 'Spiacente, non si riesce a capire questa azione dell\'utente';
