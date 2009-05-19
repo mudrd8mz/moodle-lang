@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // forum.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['addanewdiscussion'] = 'הוסף נושא חדש לדיון';
@@ -8,6 +8,7 @@ $string['addanewtopic'] = 'הוסף נושא חדש';
 $string['advancedsearch'] = 'חיפוש מתקדם';
 $string['aggregateavg'] = 'ממוצע הדירוגים';
 $string['aggregatecount'] = 'ספירת הדירוגים';
+$string['aggregatecountformat'] = '$a->count (ציון: $a->grade)';
 $string['aggregatemax'] = 'הדירוג המקסימלי';
 $string['aggregatemin'] = 'הדירוג המינימלי';
 $string['aggregatenone'] = 'ללא דירוגים';
@@ -128,7 +129,7 @@ $string['invalidrate'] = 'דירוג לא תקין ($a)';
 $string['lastpost'] = 'הודעה אחרונה';
 $string['learningforums'] = 'פורומי למידה';
 $string['longpost'] = 'פרסום הודעה ארוך';
-$string['mailnow'] = 'שלח עכשיו';
+$string['mailnow'] = 'שלח דוא\"ל עכשיו';
 $string['manydiscussions'] = 'דיונים לכל עמוד';
 $string['markalldread'] = 'סמן את כל ההודעות בדיון זה כנקראו';
 $string['markallread'] = 'סמן את כל ההודעות בפורום זה כנקראו';

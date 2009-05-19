@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // admin.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['accessdenied'] = 'הגישה נדחתה';
@@ -15,6 +15,7 @@ $string['allowobjectembed'] = 'הרשה תגי EMBED ו-OBJECT (אלמנטי HTM
 $string['allowrenames'] = 'הרשה שינוי שם';
 $string['allowuserblockhiding'] = 'הרשה למשתמשים להסתיר בלוקים';
 $string['allowusermailcharset'] = 'הרשה בחירת קבוצת תווים';
+$string['allowuserswitchrolestheycantassign'] = 'הרשה למשתמשים ללא יכולת מנה התפקידים להחליף תפקידים';
 $string['allowuserthemes'] = 'הרשה למשתמשים בחירת ערכת נושאים';
 $string['allowvisiblecoursesinhiddencategories'] = 'הרשה קורסים נראים בקטגוריות קורסים נסתרות';
 $string['antivirus'] = 'אנטי וירוס';
@@ -41,6 +42,7 @@ $string['bookmarkthispage'] = 'סמן את עמוד זה';
 $string['cachetext'] = 'משך התקפות של טקסט במטמון';
 $string['cachetype'] = 'סוג מטמון';
 $string['calendar_weekend'] = 'סוף השבוע';
+$string['calendarexportsalt'] = 'יצוא לוח שנה';
 $string['calendarsettings'] = 'לוח שנה';
 $string['change'] = 'שינוי';
 $string['changesitelang'] = 'שנה את שפת האתר';
@@ -58,6 +60,7 @@ $string['configallowcoursethemes'] = 'אם תאפשר זאת, ניתן להגד�
 $string['configallowemailaddresses'] = 'אם ברצונך להגביל את כל כתובות הדוא\"ל החדשות למתחמים מסויימים, אזי רשום אותם כאן מופרדים ע\"י רווחים. כתובות מכל מתחם אחר יידחו. למשל <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'כברירת המחדל של אמצעי האבטחה, משתמשים רגילים לא מורשים לשבץ קבצי מולטימדיה (כמו Flash) יחד עם טקסטים תוך שימוש מפורש ב EMBED ו OBJECT בתגי הHTML שלהם (אף על פי ש- הדבר יכול להיעשות בצורה בטוחה ע\"י שימוש במסננים של התקני המדיה).אם ברצונך להרשות את תוויות אלו סמן את אפשרות זו.';
 $string['configallowoverride'] = 'הרשה מתן תפקידים בצד השמאלי להפעיל ידנית את התפקידים בכל עמודה';
+$string['configallowoverride2'] = 'בחר אלו תפקידים יכולים להיעקף ע\"י כל תפקיד בעמודה השמאלית. <br/> שים לב כי הגדרות אלו ייושמו עבור משתמשים אשר להם קיימת איפשור היכולת moodle/role:override או moodle/role:safeoverride';
 $string['configallowunenroll'] = 'אם ערך שדה זה הוא \"כן\", אזי סטודנטים מורשים לבטל את רישומם לקורס בכל עת שירצו. אחרת, הם אינם מורשים לבטל רישום, ותהליך הביטול נשלט רק בידי מורים ומנהלים.';
 $string['configallowuserblockhiding'] = 'האם אתה מרשה למשתמשים להציג/להסתיר בלוקים באתר? תכונה זו משתמשת ב-Javascript ועוגיות כדי לזכור את המצב של כל בלוק הניתן להסתרה, ומשפיע רק על האופן בו המשתמש עצמו צופה באתר.';
 $string['configallowusermailcharset'] = 'אם תאפשר זאת, כל משתמש באתר יוכל לפרט את קבוצת התווים (charset) שלו עבור הדוא\"ל.';
@@ -159,6 +162,7 @@ $string['configminpasswordlength'] = 'סיסמאות חייבות להכיל ל�
 $string['configminpasswordlower'] = 'סיסמאות חייבות להכיל לפחות כמות כזו של אותיות קטנות.';
 $string['configminpasswordnonalphanum'] = 'סיסמאות חייבות להכיל לפחות כמות כזו של תווים שהם לא אלפא-נומרים.';
 $string['configminpasswordupper'] = 'סיסמאות חייבות להכיל לפחות כמות כזו של אותיות גדולות.';
+$string['configmycoursesperpage'] = 'המספר המקסימלי של קורסים שיוצגו בכל רשימת קורסים אישית של סטודנט';
 $string['configmymoodleredirect'] = 'הגדרה זו מאלצת הכוונה שנית ל-/my בעת הכניסה למערכת למשתמשים שאינם מנהלי מערכת ומחליף את הרמה העליונה של מסלול ההצבעה העליון ב- /my.';
 $string['confignodefaultuserrolelists'] = 'הגדרה זו מונעת מכל המשתמשים להיות מוחזרים ממסד הנתונים בעקבות \'deprecated calls\' של get_course_user וכד\', עבור אתר הקורס אם תפקיד ברירת המחדל מספק גישה זו. בדוק זאת, אם תסבול מפגיעה בביצועים.';
 $string['confignonmetacoursesyncroleids'] = 'כברירת מחדל כל ההרשמות מקורסי הבן מסונכרנים לקורסי המטה. תפקידים שלא צויינו כאן לא יכללו בתהליך הסינכרוניזציה.';
