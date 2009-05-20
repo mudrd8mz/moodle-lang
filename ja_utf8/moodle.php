@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090421) (2009041700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090517) (2009051700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1292,6 +1292,8 @@ $string['restorecancelled'] = 'リストアがキャンセルされました。'
 $string['restorecoursenow'] = 'このコースをリストアする!';
 $string['restorefinished'] = 'リストアが完了しました。';
 $string['restoreto'] = 'リストア';
+$string['restoretositeadding'] = '警告: あなたは、サイトフロントページをリストアしようとしています。サイトフロントページにデータが追加されます!';
+$string['restoretositedeleting'] = '警告: あなたは、サイトフロントページをリストアしようとしています。最初にサイトフロントページから、データが削除されます!';
 $string['restricted'] = '使用禁止';
 $string['restrictmodules'] = '活動モジュールを制限しますか?';
 $string['returningtosite'] = 'アカウントをお持ちの方ですか?';
