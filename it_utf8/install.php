@@ -345,13 +345,5 @@ $string['writetoconfigfilefaild'] = 'Errore: scrittura del file di configurazion
 $string['wwwroot'] = 'Indirizzo web';
 $string['wwwrooterror'] = 'L\'indirizzo web sembra non essere valido - questa installazione di Moodle non sembra trovarsi dove indicato. L\'indirizzo è stato reimpostato';
 $string['yourchoice'] = 'La vostra scelta:';
-$string['databasesettingssub_sqlite3_pdo'] = '<b>Tipo:</b> SQLite 3 (PDO)<strong class=\"errormsg\">Ancora in sperimentazione! (da non usare su siti in produzione)</strong></b><br/>
-<b>Host:</b> percorso assoluto della cartella dove il database sarà memorizzato. Specificate localhost oppure lasciate vuoto per specificare la cartella dei dati di Moodle<br />
-<b>Nome:</b>il nome del Database, ad esempio \"moodle\" (opzionale)<br/>
-<b>Utente:</b> utente del Database (opzionale)<br/>
-<b>Password:</b> password dell\'utente (opzionale)<br/>
-<b>Prefisso tabelle:</b> prefisso opzionale da usare per i nomi delle tabelle'; // ORPHANED
-$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <strong class=\"errormsg\">Ancora in sperimentazione! (non usare su siti in produzione)</strong></b>'; // ORPHANED
-$string['phpversionerror'] = 'La versione del PHP deve essere come minimo la 4.1.0'; // ORPHANED
 
 ?>

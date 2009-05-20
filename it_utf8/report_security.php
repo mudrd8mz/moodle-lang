@@ -115,6 +115,5 @@ $string['statusok'] = 'OK';
 $string['statusserious'] = 'Serio';
 $string['statuswarning'] = 'Attenzione';
 $string['timewarning'] = 'L\'elaborazione può richiedere molto tempo, vi preghiamo di attendere...';
-$string['check_courserole_legacy'] = 'E\' stato individuato un Ruolo origine non supportato in questo <a href=\"$a\">ruolo</a>.'; // ORPHANED
 
 ?>

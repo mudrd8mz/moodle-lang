@@ -143,6 +143,5 @@ $string['YER'] = 'Riyal dello Yemen';
 $string['ZAR'] = 'Rand della Repubblica Sudafricana';
 $string['ZMK'] = 'Kwacha dello Zambia';
 $string['ZWD'] = 'Dollaro dello Zimbabwe';
-$string['PEI'] = 'Inti del Peru'; // ORPHANED
 
 ?>

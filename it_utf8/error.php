@@ -506,10 +506,5 @@ $string['wwwrootslash'] = 'E\' stato individuata una $CFG->wwwroot errata nel fi
 $string['xmldberror'] = 'Errore XMLDB!';
 $string['youcannotdeletecategory'] = 'Non puoi eliminare la categoria \'$a\" poiché non puoi cancellarne i contenuti né spostarli altrove.';
 $string['younotteacher'] = 'Non sei un docente!';
-$string['cannotinsertcategory'] = 'Errore bizzarro. La categoria non è stata inserita'; // ORPHANED
-$string['cannotinsertcomment'] = 'Non è stato possibile inserire questo commento'; // ORPHANED
-$string['ddlunsupportedenums'] = 'Il campo \"$a\" contiene informazioni enum. il supporto enum è stato abbandonato in Moodle 2.0. Modificate il vostro codice per evitarne l\'uso. Se state usando enum, negli script di upgrade utilizzate $dbman->change_field_enum($table, $field) per eliminarli il prima possibile.'; // ORPHANED
-$string['modulerequirementsnotmet'] = 'Il modulo \"$a->modulename\" ($a->moduleversion) non può essere installato. Richiede una versione più aggiornata di Moodle (attualmente state usando $a->currentmoodle, mentre servirebbe $a->requiremoodle).'; // ORPHANED
-$string['cmunknown'] = 'Non è possibile trovare questo modulo.'; // ORPHANED
 
 ?>

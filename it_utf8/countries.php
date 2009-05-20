@@ -248,11 +248,5 @@ $string['YT'] = 'Mayotte';
 $string['ZA'] = 'Sud Africa';
 $string['ZM'] = 'Zambia';
 $string['ZW'] = 'Zimbabwe';
-$string['CS'] = 'Serbia-Montenegro'; // ORPHANED
-$string['FX'] = 'Francia; Metropolitana'; // ORPHANED
-$string['KO'] = 'Kosovo'; // ORPHANED
-$string['TP'] = 'Timor Est'; // ORPHANED
-$string['WA'] = 'Galles'; // ORPHANED
-$string['ZR'] = 'Zaire'; // ORPHANED
 
 ?>

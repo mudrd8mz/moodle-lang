@@ -39,6 +39,5 @@ $string['timeunit'] = 'Unità di tempo';
 $string['timing'] = 'Orario';
 $string['unmaskpassword'] = 'Mostra';
 $string['year'] = 'Anno';
-$string['requiredfield'] = 'Questo è un campo obbligatorio'; // ORPHANED
 
 ?>

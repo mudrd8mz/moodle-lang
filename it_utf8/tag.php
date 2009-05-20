@@ -62,7 +62,5 @@ $string['typechanged'] = 'Tipo tag modificato';
 $string['updated'] = 'Aggiornato';
 $string['updatetag'] = 'Aggiorna';
 $string['withselectedtags'] = 'Per le tag scelte ...';
-$string['tagindex_coursetitle'] = 'Corsi con tag \"$a\"'; // ORPHANED
-$string['userstaggedwith'] = 'Utenti con tag \"$a\"'; // ORPHANED
 
 ?>

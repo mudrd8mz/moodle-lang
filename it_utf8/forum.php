@@ -363,7 +363,5 @@ $string['youratedthis'] = 'Lo hai già valutato';
 $string['yournewquestion'] = 'La tua nuova domanda';
 $string['yournewtopic'] = 'Il tuo nuovo argomento di discussione';
 $string['yourreply'] = 'La tua replica';
-$string['cannotfinddisscussion'] = 'Non è stato possibile trovare la discussione in questo forum'; // ORPHANED
-$string['nopostdiscussion'] = 'Spiacente, non puoi scrivere in questa discussione'; // ORPHANED
 
 ?>

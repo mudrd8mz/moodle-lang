@@ -925,7 +925,5 @@ $string['webserviceusersettings'] = 'Impostazioni web service degli utenti';
 $string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlrpc è utile per le funzionalità del Moodle Networking.';
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
 $string['ziprequired'] = 'Ora Moodle richiede l\'estensione Zip PHP. Gli eseguibili info-ZIP o la libreria PclZip non è più utilizzata.';
-$string['configmemorylimit'] = 'E\' possibile impostare il valore massimo di memoria utilizzabile da uno script PHP. Questa impostazione viene usata solamente durante l\'indicizzazione della ricerca globale,  durante i backup/ripristini e negli script di admin/health.'; // ORPHANED
-$string['memorylimit'] = 'Limite memoria PHP'; // ORPHANED
 
 ?>

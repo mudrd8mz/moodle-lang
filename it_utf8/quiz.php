@@ -762,25 +762,5 @@ $string['youmustwait'] = 'Devi aspettare prima di poter riprovare questo quiz. P
 $string['youneedtoenrol'] = 'E\' necessaria l\'iscrizione al corso prima di potere eseguire il quiz';
 $string['yourfinalgradeis'] = 'Il tuo voto finale per questo quiz è: $a';
 $string['zerosignificantfiguresnotallowed'] = 'La risposta giusta non può avere zero cifre significative!';
-$string['shufflequestionsx'] = 'Domande in ordine casuale: $a'; // ORPHANED
-$string['xfromcategory'] = '$a dalla categoria:'; // ORPHANED
-$string['areyousuredeleteselected'] = 'Confermi l\'eliminazione delle domande selezionate?'; // ORPHANED
-$string['blackboard_6'] = 'Blackboard V6+'; // ORPHANED
-$string['qti2'] = 'Formato IMS QTI 2.0'; // ORPHANED
-$string['existingcategory1'] = 'Un letterale da un insieme di letterali esistenti è stato usato anche da altre domande in questa categoria'; // ORPHANED
-$string['existingcategory2'] = 'Un file da un insieme di file esistenti è stato  usato anche da altre domande in questa categoria'; // ORPHANED
-$string['existingcategory3'] = 'Un collegamento da un insieme di collegamenti esistenti è stato usato anche da altre domande in questa categoria'; // ORPHANED
-$string['keptcategory1'] = 'una lettera dall\'insieme delle lettere riutilizzabili della stessa categoria di prima'; // ORPHANED
-$string['keptcategory2'] = 'un file dall\'insieme dei files riutilizzabili della stessa categoria di prima'; // ORPHANED
-$string['keptcategory3'] = 'un link dall\'insieme dei links riutilizzabili della stessa categoria di prima'; // ORPHANED
-$string['keptlocal1'] = 'una lettera dall\'insieme delle lettere private della stessa domanda di prima'; // ORPHANED
-$string['keptlocal2'] = 'un file dall\'insieme dei files privati della stessa domanda di prima'; // ORPHANED
-$string['keptlocal3'] = 'un link dall\'insieme dei links privati della stessa domanda di prima'; // ORPHANED
-$string['newcategory1'] = 'una lettera da un nuovo insieme di lettere che può essere usata anche da altre domande in questa categoria'; // ORPHANED
-$string['newcategory2'] = 'un file da un nuovo insieme di files che può essere usato anche da altre domande in questa categoria'; // ORPHANED
-$string['newcategory3'] = 'un link da un nuovo insieme di links che può essere usato anche da altre domande in questa categoria'; // ORPHANED
-$string['newlocal1'] = 'una lettera da un nuovo insieme di lettere che sarà  usata solo da questa domanda'; // ORPHANED
-$string['newlocal2'] = 'un file da un nuovo insieme di files che sarà  usato solo da questa domanda'; // ORPHANED
-$string['newlocal3'] = 'un link da un nuovo insieme di links che sarà  usato solo da questa domanda'; // ORPHANED
 
 ?>

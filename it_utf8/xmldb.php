@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090429) (2009042700)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090520) (2009051700)
 
 
 $string['actual'] = 'Attuale';
@@ -76,6 +76,7 @@ $string['fields'] = 'Campi';
 $string['fieldsusedinkey'] = 'Questo campo è una chiave';
 $string['filenotwriteable'] = 'File non scrivibile';
 $string['fkviolationdetails'] = 'La Foreign key $a->keyname nella tabella  $a->tablename è stata violata  $a->numviolations su un totale di $a->numrows righe.';
+$string['float2numbernote'] = 'Nota: sebbene i campi \"float\" siano supportati al 100%% da XMLDB, si consiglia comunque di migrare verso campi \"number\".';
 $string['floatincorrectdecimals'] = 'Numero incorretto di decimali per un campo reale';
 $string['floatincorrectlength'] = 'Lunghezza incorretta per un campo reale';
 $string['generate_documentation'] = 'Documentazione';

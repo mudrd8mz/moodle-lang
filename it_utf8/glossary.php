@@ -211,8 +211,5 @@ $string['withauthor'] = 'Concetti con autore';
 $string['withoutauthor'] = 'Concetti senza autore';
 $string['writtenby'] = 'scritto da';
 $string['youarenottheauthor'] = 'Non puoi modificare questo commento perché non ne sei autore.';
-$string['areaintro'] = 'Introduzione del glossario'; // ORPHANED
-$string['cantinsertent'] = 'Non è stato possibile inserire questo nuovo termine'; // ORPHANED
-$string['cantupdateglossary'] = 'Non è stato possibile aggiornare il glossario'; // ORPHANED
 
 ?>

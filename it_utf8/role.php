@@ -264,9 +264,5 @@ $string['whydoesuserhavecap'] = 'Come mai $a->fullname ha il privilegio $a->capa
 $string['whydoesusernothavecap'] = 'Come mai $a->fullname non ha il privilegio $a->capability nel contesto $a->context?';
 $string['xroleassignments'] = 'Ruoli assegnati a $a';
 $string['xuserswiththerole'] = 'Utenti con il ruolo \"<b>$a->role</b>\"';
-$string['highlightedcellshowsdefault'] = 'Nella tabella sottostante le caselle evidenziate mostrano le autorizzazioni di default per questo tipo di ruolo.'; // ORPHANED
-$string['question:export'] = 'Esporta domande'; // ORPHANED
-$string['question:import'] = 'Importa domande'; // ORPHANED
-$string['question:manage'] = 'Gestisci domande'; // ORPHANED
 
 ?>

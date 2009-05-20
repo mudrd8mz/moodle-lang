@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090520) (2009051700)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1291,6 +1291,8 @@ $string['restorecancelled'] = 'Recupero annullato';
 $string['restorecoursenow'] = 'Recupera questo corso ora!';
 $string['restorefinished'] = 'Recupero completato con successo';
 $string['restoreto'] = 'Recupera a';
+$string['restoretositeadding'] = 'Attenzione: state per ripristinare la pagina principale del sito in modalità aggiunta dati!';
+$string['restoretositedeleting'] = 'Attenzione: state per ripristinare la pagina principale del sito in modalità eliminazione dati esistenti!';
 $string['restricted'] = 'Ridotto';
 $string['restrictmodules'] = 'Ridurre moduli attività?';
 $string['returningtosite'] = 'Ciao, sei ritornato?';
@@ -1701,9 +1703,5 @@ $string['yourself'] = 'te stesso';
 $string['yourteacher'] = 'il tuo $a';
 $string['yourwordforx'] = 'Denomina il ruolo \'$a\' come';
 $string['zippingbackup'] = 'Compressione Backup';
-$string['courserequestdisabled'] = 'Spiacente, ma la richiesta dei corsi è stata disabilitata dall\'amministratore'; // ORPHANED
-$string['nostatstodisplay'] = 'Spiacente, non ci sono dati disponibili da mostrare.'; // ORPHANED
-$string['remotemaharauser'] = 'Utente remoto Mahara'; // ORPHANED
-$string['skiptomaincontent'] = 'Salta al contenuto principale'; // ORPHANED
 
 ?>

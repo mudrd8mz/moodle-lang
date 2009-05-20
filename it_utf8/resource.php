@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090520) (2009051700)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -79,7 +79,7 @@ $string['newdirectories'] = 'visualizza i collegamenti';
 $string['newfullscreen'] = 'a tutto schermo';
 $string['newheight'] = 'altezza predefinita della finestra (in pixel)';
 $string['newlocation'] = 'visualizza la barra dell\'indirizzo';
-$string['newmenubar'] = 'visualizza la barra di menu';
+$string['newmenubar'] = 'visualizza la barra del menu';
 $string['newresizable'] = 'la finestra può essere ridimensionata';
 $string['newscrollbars'] = 'visualizza le barre di scorrimento';
 $string['newstatus'] = 'visualizza la barra di stato';

@@ -344,10 +344,5 @@ $string['youranswer'] = 'La tua risposta';
 $string['yourcurrentgradeis'] = 'La tua attuale valutazione è $a';
 $string['yourcurrentgradeisoutof'] = 'La tua attuale valutazione è $a->grade su $a->total';
 $string['youshouldview'] = 'Devi rispondere almeno: $a';
-$string['outoftime'] = 'Tempo scaduto'; // ORPHANED
-$string['studentoutoftime'] = 'Attenzione: hai superato il tempo previsto per questa lezione. La tua ultima risposta non conta perché è stata data dopo lo scadere del tempo. Clicca su Continua per terminare la lezione.'; // ORPHANED
-$string['editlesson'] = 'Modifica $a'; // ORPHANED
-$string['mainmenu'] = 'Menu corso'; // ORPHANED
-$string['returnmainmenu'] = 'Ritorna al menu principale'; // ORPHANED
 
 ?>
