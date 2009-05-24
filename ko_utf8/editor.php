@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006120700)
+      // editor.php - created with Moodle 2.0 dev (Build: 20090523) (2009051700)
 
 
 $string['about'] = '편집기에 대하여';
 $string['absbottom'] = '문서의 바닥';
+$string['acteditorshhdr'] = '사용할 편집기';
 $string['address'] = '주소';
 $string['alertnoselectedtext'] = '먼저 원문을 선택해야 합니다!';
 $string['alignment'] = '정렬';
@@ -24,6 +25,7 @@ $string['chooseicon'] = '삽입할 아이콘 선택';
 $string['close'] = '닫기';
 $string['closeafterreplace'] = '바꾸고 닫기';
 $string['cols'] = '열';
+$string['configeditorplugins'] = '사용할 문서 편집기를 선택하여 우선 순으로 정렬하시오.';
 $string['copy'] = '선택한 것 복사';
 $string['createanchor'] = '닻 생성';
 $string['createfolder'] = '폴더 생성';
@@ -33,6 +35,8 @@ $string['cutpastemozilla'] = '불행히도, 이 온라인 편집기에서는 일
 여기에 당신이 해 볼 수 있는 하는 세가지 잘 알려진 방법이 있다.<br /> (1)CTRL-V 대신에 Shift-Insert를 사용하라<br />
 (2)브라우저에서 Edit로 들어간 후 Paste 메뉴를 사용하라.<br /> (3)user.js를 편집하여 브라우저의 설정을 바꿔라. <br />도움이 더 필요하면 아래의 OK버튼을 클릭하거나, 또는 편집기로 돌아가는 것을 취소해라.';
 $string['delete'] = '삭제';
+$string['editors'] = '문서 편집기';
+$string['editorsettings'] = '편집기 설정';
 $string['enterurlfirst'] = '우선 URL을 입력해야만 합니다.';
 $string['filebrowser'] = '파일 브라우저';
 $string['findwhat'] = '찾기';

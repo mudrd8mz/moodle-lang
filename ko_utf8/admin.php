@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090418) (2009041700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090523) (2009051700)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -561,6 +561,7 @@ $string['maxeditingtime'] = '게시물 수정 최대 시한';
 $string['mbstringrecommended'] = '당신의 사이트가 라틴언어계열이 아닌 언어를 지원하는 경우, 사이트의 성능을 향상시키기 위해서 MBSTRING 라이브러리 설치를 권장합니다.';
 $string['mediapluginavi'] = 'avi 필터 사용';
 $string['mediapluginflv'] = 'flv 필터 사용';
+$string['mediapluginimg'] = '이미지 자동 탑재';
 $string['mediapluginmov'] = 'mov 필터 사용';
 $string['mediapluginmp3'] = 'mp3 필터 사용';
 $string['mediapluginmpg'] = 'mpg 필터 사용';
