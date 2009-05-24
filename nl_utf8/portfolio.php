@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20090102) (2008123102)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20090514) (2009051200)
 
 
 $string['activeportfolios'] = 'Actieve portfolio\'s';
 $string['addalltoportfolio'] = 'Bewaar alles ...';
 $string['addnewportfolio'] = 'Voeg een nieuw portfolio toe';
-$string['addtoportfolio'] = 'Voeg toe aan portfolio';
+$string['addtoportfolio'] = 'Bewaar...';
 $string['alreadyexporting'] = 'Je hebt al een actieve portfolio-export in deze sessie. Voor je verder doet, moet je ofwel deze eerst afwerken of annuleren. Wil je verder doen? (Nee zal annuleren)';
 $string['availableformats'] = 'Beschikbare exportformats';
 $string['callercouldnotpackage'] = 'Inpakken van je gegevens voor export mislukt';
@@ -117,10 +117,10 @@ $string['portfolios'] = 'Portfolio\'s';
 $string['queuesummary'] = 'Transfers in wachtrij';
 $string['returntowhereyouwere'] = 'Keer terug';
 $string['save'] = 'Bewaar';
-$string['selectedformat'] = 'Gekozen export format';
+$string['selectedformat'] = 'Gekozen export-format';
 $string['selectedwait'] = 'Gekozen om te wachten?';
-$string['selectplugin'] = 'Kies portfolio plugin om naar te exporteren';
-$string['someinstancesdisabled'] = 'Sommige geconfigureerde plugins zijn uitegeschakeld ofwel omdat ze fout geconfigureerd zijn of omdat ze afhankelijk zijn van iets anders dat fout geconfigureerd is';
+$string['selectplugin'] = 'Kies bestemming';
+$string['someinstancesdisabled'] = 'Sommige geconfigureerde plugins zijn uitgeschakeld, ofwel omdat ze fout geconfigureerd zijn of omdat ze afhankelijk zijn van iets anders dat fout geconfigureerd is';
 $string['somepluginsdisabled'] = 'Sommige plugins zijn volledig uitgeschakeld omdat ze fout geconfigureerd zijn of omdat ze afhankelijk zijn van iets anders dat fout geconfigureerd is';
 $string['sure'] = 'Weet je zeker dat je \'$a\' wil verwijderen? Dit is definitief.';
 $string['thirdpartyexception'] = 'Er werd een uitzonderingsfout gemaakt door een module tijdens de portfolio export ($a) Opgevangen en teruggezonden, maar dit moet hersteld worden';
