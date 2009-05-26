@@ -1,11 +1,17 @@
-﻿<?PHP // $Id$ 
+<?PHP // $Id$ 
       // error.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
-      // local modifications from http://ibsumer.cu.edu.tr/moodle20
 
 
+$string['TODO'] = 'YAPILACAKLAR';
+$string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
+$string['authnotexisting'] = 'Yetkilendirme eklentisi yok';
+$string['authorizeerror'] = 'Authorize hatası';
 $string['backupcontainexternal'] = 'Bu yedekleme dosyası yerel olarak yapılandırılmamış dış Moodle Ağ Ana Bilgisayarlarını içerir';
 $string['backuptablefail'] = 'Yedekleme tablolarının kurulumu başarılamadı!';
+$string['blockcannotconfig'] = 'Bu blokun genel yapılandırması yok';
+$string['blockcannotinistantiate'] = 'Blok nesnesi başlatılırken sorun oluştu';
 $string['blockcannotread'] = 'Blok kimliği=$a verilerini okuyamadı';
+$string['blockdoesnotexist'] = 'Bu blok yok';
 $string['blocknameconflict'] = 'Adlandırma çelişkisi: $a->name bloğu varolan bir blokla aynı başlığa sahip:$a->conflict!';
 $string['cannotaddblock'] = '$a bloğu blok listesine eklenemiyor!';
 $string['cannotaddcmtosection'] = 'O bölüme yeni ders modülü eklenemedi';
@@ -17,71 +23,54 @@ $string['cannotaddnewinstance'] = 'Yeni bir $a somut örneği eklenemedi';
 $string['cannotaddnewmodule'] = 'Yeni bir $a modülü eklenemedi';
 $string['cannotaddrss'] = 'Rss beslemeleri ekleme izniniz yok';
 $string['cannotassignanthing'] = 'moodle/site:doanything atanamıyor';
+$string['cannotassignrole'] = 'Kurstaki role atama yapılamadı';
 $string['cannotassignrolehere'] = 'Bu rolü (id = $a->roleid) bu bağlamda ($a->context)atamaya izniniz yok';
 $string['cannotassignselfasparent'] = 'Kendini üst olarak atayamıyor!';
-$string['cannotcreatebackupdir'] = 'Yedekleme verileri dosyası oluşturulamadı. Site yöneticisi dosya izinlerini düzeltmeli';
-$string['cannotcreateorfindstructs'] = 'Bu ders için bölüm yapılarını bulmada ya da oluşturmada hata';
-$string['cannotcustomizelocallang'] = 'Dizgi çevirisini uyarlama izniniz yok. Bu izin \"moodle/site:langeditlocal\" yeteneği tarafından kontrol edilir. Siteniz için çevirileri değiştirmek isterseniz yerel dil paketlerini düzenleme izni için bu yeteneği kurun.';
-$string['cannotdeletebackupids'] = 'Geçmiş yedekleme kimlikleri silinemedi';
-$string['cannotdeletecustomfield'] = 'Özel alan verilerini silmede hata';
-$string['cannotdeleterolewithid'] = '$a kimliğinin rolünü silemedi';
-$string['cannotdeletethisrole'] = 'Sistem tarafından kullanıldığı ya da yönetici yeteneklerine sahip son rol olduğu için bu rolü silemezsiniz.';
-$string['cannoteditmasterlang'] = 'Ana dil paketini düzenlemeye izniniz yok.Bu izin \"moodle/site:langeditlocal\" yeteneği tarafından kontrol edilir. Bir paketiniz varsa, ana dil paketlerini düzenleme izni için bu yeteneği ayarlayın.';
-$string['cannoteditpostorblog'] = 'Blogları göndermeniz ya da düzenlemeniz mümkün değil';
-$string['cannoteditsiteform'] = 'Bu formu kullanarak site dersini düzenleyemezsiniz';
-$string['cannotfindcategory'] = '$a kimliğiyle veritabanından kategori kaydını bulamıyor';
-$string['cannotfinddocs'] = '\"$a\" dil dökümanı dosyalarını bulamıyor';
-$string['cannotfindinfo'] = '\"$a\" ile ilgili bilgiyi bulamıyor';
-$string['cannotfindsite'] = 'Site düzeyindeki dersi bulamıyor';
-$string['cannotfinduser'] = '\"$a\" adlı kullanıcıyı bulamıyor';
-$string['cannotinsertgrade'] = 'Ders kimliği olmadan not öğesi eklenemiyor!';
-$string['cannotmanualctrack'] = 'Etkinlik el ile tamamlama izlemeyi sağlamaz';
-$string['cannotmarktopic'] = 'Bu ders için bu başlık işaretlenemiyor';
-$string['cannotmoverolewithid'] = '$a kimliğiyle rol taşınamıyor';
-$string['cannotnetgeo'] = 'http://netgeo.caida.org adresinde NetGeo sunucusuna bağlanamıyor, lütfen vekil ayarlarını kontrol edin ya da daha da iyisi MaxMind GeoLite City veri dosyasını yükleyin';
-$string['cannotoverridebaserole'] = 'Temel rol yetenekleri geçersiz kılınamıyor';
-<?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
-
-
-$string['TODO'] = 'YAPILACAKLAR';
-$string['adminprimarynoedit'] = 'Ana yönetici başka kullanıcılar tarafından düzenlenemez';
-$string['authnotexisting'] = 'Yetkilendirme eklentisi yok';
-$string['authorizeerror'] = 'Authorize hatası';
-$string['blockcannotconfig'] = 'Bu blokun genel yapılandırması yok';
-$string['blockcannotinistantiate'] = 'Blok nesnesi başlatılırken sorun oluştu';
-$string['blockdoesnotexist'] = 'Bu blok yok';
-$string['cannotassignrole'] = 'Kurstaki role atama yapılamadı';
 $string['cannotcallscript'] = 'Bu betiği bu şekilde çağıramazsınız';
+$string['cannotcreatebackupdir'] = 'Yedekleme verileri dosyası oluşturulamadı. Site yöneticisi dosya izinlerini düzeltmeli';
 $string['cannotcreatecategory'] = 'Kategori eklenemedi';
 $string['cannotcreatedefaultcat'] = '$a bağlamı için varsayılan kategori oluşturulurken hata';
 $string['cannotcreatefield'] = 'Yeni alan oluşturulurken hata';
 $string['cannotcreategroup'] = 'Grup oluşturulurken hata';
 $string['cannotcreatelangbase'] = 'Ana dil klasörü oluşturulamadı.';
 $string['cannotcreatelangdir'] = 'Dil dizini oluşturulamıyor.';
+$string['cannotcreateorfindstructs'] = 'Bu ders için bölüm yapılarını bulmada ya da oluşturmada hata';
 $string['cannotcreatepopupwin'] = 'Tanımsız öğe';
 $string['cannotcreatesitedir'] = 'Site klasörü oluşturulamadı. Site yöneticisiniz dosya izinlerini düzenlemesi gerekiyor.';
 $string['cannotcreatetempdir'] = 'Geçici dizin oluşturulamıyor.';
 $string['cannotcreateuploaddir'] = 'Yükleme klasörü oluşturulamıyor. Site yöneticisinin dosya izinlerini düzeltmesi gerekiyor.';
 $string['cannotcreateuser'] = 'Kullanıcı kaydı oluşturuken hata';
+$string['cannotcustomizelocallang'] = 'Dizgi çevirisini uyarlama izniniz yok. Bu izin \"moodle/site:langeditlocal\" yeteneği tarafından kontrol edilir. Siteniz için çevirileri değiştirmek isterseniz yerel dil paketlerini düzenleme izni için bu yeteneği kurun.';
+$string['cannotdeletebackupids'] = 'Geçmiş yedekleme kimlikleri silinemedi';
 $string['cannotdeletecate'] = 'Kategoriyi silerken hata';
 $string['cannotdeletecourse'] = 'Bu dersi silme yetkiniz bulunmamaktadır.';
+$string['cannotdeletecustomfield'] = 'Özel alan verilerini silmede hata';
 $string['cannotdeletedir'] = 'Silinemedi ($a)';
 $string['cannotdeletelangcache'] = 'Dil önbelleği silinemedi. Lütfen dataroot/cache/languages klasöründeki izinleri düzeltin!';
 $string['cannotdeleterole'] = 'Silinemedi, çünkü: $a';
+$string['cannotdeleterolewithid'] = '$a kimliğinin rolünü silemedi';
+$string['cannotdeletethisrole'] = 'Sistem tarafından kullanıldığı ya da yönetici yeteneklerine sahip son rol olduğu için bu rolü silemezsiniz.';
 $string['cannotdownloadcomponents'] = 'Bileşenler indirilemedi.';
 $string['cannotdownloadlanguageupdatelist'] = 'download.moodle.org adresinden dil listesi güncellemeleri indirilemedi';
 $string['cannotdownloadzipfile'] = 'ZIP dosyası indirilemedi.';
 $string['cannoteditcomment'] = 'Düzeltilecek bu yorum size ait değil!';
 $string['cannoteditcommentexpired'] = 'Bunu düzeltemezsiniz. Zaman doldu!';
+$string['cannoteditmasterlang'] = 'Ana dil paketini düzenlemeye izniniz yok.Bu izin \"moodle/site:langeditlocal\" yeteneği tarafından kontrol edilir. Bir paketiniz varsa, ana dil paketlerini düzenleme izni için bu yeteneği ayarlayın.';
+$string['cannoteditpostorblog'] = 'Blogları göndermeniz ya da düzenlemeniz mümkün değil';
+$string['cannoteditsiteform'] = 'Bu formu kullanarak site dersini düzenleyemezsiniz';
 $string['cannotedityourprofile'] = 'Üzgünüz, kendi profilinizi düzenleyemezsiniz';
+$string['cannotfindcategory'] = '$a kimliğiyle veritabanından kategori kaydını bulamıyor';
 $string['cannotfindcomponent'] = 'Bileşen bulunamadı.';
 $string['cannotfindcontext'] = 'Bağlam bulunamadı';
+$string['cannotfinddocs'] = '\"$a\" dil dökümanı dosyalarını bulamıyor';
 $string['cannotfindgradeitem'] = 'grade_item bulunamadı';
 $string['cannotfindgroup'] = 'Grup bulunamadı';
 $string['cannotfindhelp'] = '\"$a\" dil yardım belgeleri bulunamadı';
+$string['cannotfindinfo'] = '\"$a\" ile ilgili bilgiyi bulamıyor';
 $string['cannotfindlang'] = '\"$a\" dil paketi bulunamadı!';
+$string['cannotfindsite'] = 'Site düzeyindeki dersi bulamıyor';
 $string['cannotfindteacher'] = 'Eğitimci bulunamadı';
+$string['cannotfinduser'] = '\"$a\" adlı kullanıcıyı bulamıyor';
 $string['cannotgetblock'] = 'Veritabanından bloklar alınamadı';
 $string['cannotgetcats'] = 'Kategori kaydı alınamadı';
 $string['cannotgetdata'] = 'Veri alınamadı';
@@ -90,17 +79,21 @@ $string['cannothaveparentcate'] = 'Ders kategorisinin bir üst kategorisi yok!';
 $string['cannotimport'] = 'Alma hatası';
 $string['cannotimportformat'] = 'Üzgünüz, bu biçimi alma henüz uygulanmadı!';
 $string['cannotimportgrade'] = 'Notu içe alma hatası';
-$string['cannotinsertcategory'] = 'İlginç hata. Kategori eklenemedi.';
-$string['cannotinsertcomment'] = 'Yeni yorum eklenemedi';
+$string['cannotinsertgrade'] = 'Ders kimliği olmadan not öğesi eklenemiyor!';
 $string['cannotinsertkey'] = 'Yeni anahtar eklenemedi';
 $string['cannotinsertrate'] = 'Yeni derecelendirme eklenemedi ($a->id = $a->rating)';
 $string['cannotinsertrecord'] = 'Yeni kayıt ID ($a) eklenemedi';
 $string['cannotmailconfirm'] = 'Şifre değişim onay e-postası gönderilirken hata';
+$string['cannotmanualctrack'] = 'Etkinlik el ile tamamlama izlemeyi sağlamaz';
+$string['cannotmarktopic'] = 'Bu ders için bu başlık işaretlenemiyor';
+$string['cannotmoverolewithid'] = '$a kimliğiyle rol taşınamıyor';
+$string['cannotnetgeo'] = 'http://netgeo.caida.org adresinde NetGeo sunucusuna bağlanamıyor, lütfen vekil ayarlarını kontrol edin ya da daha da iyisi MaxMind GeoLite City veri dosyasını yükleyin';
 $string['cannotopencsv'] = 'CSV dosyası açılamadı';
 $string['cannotopenfile'] = 'Dosya ($a) açılamadı';
 $string['cannotopenforwrit'] = 'Yazılmak için açılamadı: $a';
 $string['cannotopentemplate'] = 'Şablon dosya açılamadı ($a)';
 $string['cannotopenzip'] = 'Zip dosyası açılamadı, muhtemelen zip eklentisi 64bit işletim sistemi hatası';
+$string['cannotoverridebaserole'] = 'Temel rol yetenekleri geçersiz kılınamıyor';
 $string['cannotreadfile'] = 'Dosya okunamadı ($a)';
 $string['cannotreadtmpfile'] = 'Geçici dosyayı okurken hata';
 $string['cannotreaduploadfile'] = 'Yüklenen dosya okunamadı';
@@ -271,9 +264,9 @@ $string['wrongzipfilename'] = 'Hatalı ZIP dosya adı.';
 $string['wwwrootslash'] = 'config.php dosyasında geçersiz $CFG->wwwroot algılandı. Bu ayar slash karakteri ile bitmemeli. <br />Lütfen sunucu yöneticisini uyarın.';
 $string['xmldberror'] = 'XMLDB hatası!';
 $string['younotteacher'] = 'Eğitimci değilsiniz!';
+$string['cannotinsertcategory'] = 'İlginç hata. Kategori eklenemedi.'; // ORPHANED
+$string['cannotinsertcomment'] = 'Yeni yorum eklenemedi'; // ORPHANED
 $string['modulerequirementsnotmet'] = '\"$a->modulename\" ($a->moduleversion) modülü kurulamadı. Bu modül daha yeni bir Moodle sürümü gerektirmektedir (şu anda kullandığınız: $a->currentmoodle, gereken: $a->requiremoodle).'; // ORPHANED
 $string['cmunknown'] = 'Bu kurs modülü bulunamadı'; // ORPHANED
-
-?>
 
 ?>
