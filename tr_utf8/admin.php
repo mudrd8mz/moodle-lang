@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090505) (2009043000)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -75,6 +75,7 @@ $string['configallowemailaddresses'] = 'Bütün e-posta adreslerini belirli alan
 $string['configallowobjectembed'] = 'Varsayılan güvenlik önlemi olarak, çoklu-ortam eklenti filtresi güvenli bir şekilde işleyebilse bile, HTML komutlarındaki EMBED ve OBJECT etiketlerini normal kullanıcıların kullanmalarına izin verilmez. Bu etiketlerin kullanımına izin vermek istiyorsanız bu seçeneği etkinleştirin.';
 $string['configallowoverride'] = 'Sol taraftaki rollere sahip kişilere, sütundaki bazı rolleri tekrar tanımlamasına izin verebilirsiniz.';
 $string['configallowoverride2'] = 'Sol sütundaki her bir rol tarafından hangi rolün/rollerin yeniden tanımlayabileceğini seçin.<br/>Bu ayarların yalnızca moodle/role:override veya moodle/role:safeoverride yetkisi olan kullanıcılara uygun olduğunu unutmayın.';
+$string['configallowswitch'] = 'Kullanıcının geçiş yapabileceği rolleri sahip olduğu rolü temel alarak seçin. Kullanıcının geçiş yapabilmesi için bu tablodaki girişin yanısıra, moodle/role:switchroles yeteneğine de sahip olması gerekir.<br /> Dikkate almanız gereken, yalnızca moodle/course:view yeteneğine sahip olup moodle/site:doanything yeteneğine sahip olmayan rollere geçiş yapmanın mümkün olduğudur, bu yüzden bu tablodaki bazı sütunlar geçersiz kılınmıştır.';
 $string['configallowunenroll'] = 'Bu seçenek \'Evet\' olarak ayarlıysa öğrencilerin istedikleri zaman kendi kendilerini dersten kayıtlarını silmelerine izin verilir. Diğer durumda bunu öğrencilerin yapmalarına izin verilmez ve sadece yöneticiler ve eğitimciler tarafından bu iş kontrol edilir.';
 $string['configallowuserblockhiding'] = 'Bu sitenin tamamında kullanıcıların blokları  gizleyip/göstermesine izin vermek istiyor musunuz? Bu özellik, herbir açılır/kapanır bloğun durumunu takip etmek için Javascript ve çerezleri kullanır. Ayrıca, sadece kullanıcının kendi görünümünü etkiler.';
 $string['configallowusermailcharset'] = 'Bunun etkinleştirilmesiyle her kullanıcının emaili için kendi karakter setini ayarlamasına olanak verilir.';
@@ -342,6 +343,7 @@ $string['defaultvalues'] = 'Varsayılan değerler';
 $string['deleteerrors'] = 'Hataları sil';
 $string['deletefilterareyousure'] = '\'$a\' filtresini silmek istediğinizden emin misiniz?';
 $string['deletefilterareyousuremessage'] = '\'$a\' filtresini tamamen silmek üzeresiniz. Bunu kaldırmak istediğinizden emin misiniz?';
+$string['deletefilterfiles'] = '\'$a->filter\' filtresiyle ilişkili bütün veriler veritabanından silindi. Silmeyi tamamlamak ve filtrenin kendi kendini yeniden kurmasını önlemek için sunucunuzdan bu klasörü şimdi silmeniz gerekiyor: $a->directory';
 $string['deleteincompleteusers'] = 'Bilgileri eksik kullanıcıları sil';
 $string['deleteqtypeareyousure'] = '\'$a\' soru tipini silmek istediğinden emin misiniz?';
 $string['deleteqtypeareyousuremessage'] = '\'$a\' soru tipini tamamen silmek üzeresiniz. Tamamen kaldırmak istediğinden emin misiniz?';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
 
 
 $string['abouttobeinstalled'] = 'yüklenmek üzere';
@@ -129,7 +129,7 @@ $string['assignteachers'] = 'Eğitimci belirle';
 $string['authenticateduser'] = 'Yetkili kullanıcı';
 $string['authenticateduserdescription'] = 'Giriş yapan tüm kullanıcılar.';
 $string['authentication'] = 'Kimlik Denetimi';
-$string['authenticationplugins'] = 'Yetkilendirme Eklentileri';
+$string['authenticationplugins'] = 'Kimlik Denetimi Eklentileri';
 $string['autosubscribe'] = 'Forum otomatik aboneği';
 $string['autosubscribeno'] = 'Hayır: Beni forumlara otomatik abone yapma';
 $string['autosubscribeyes'] = 'Evet: Mesaj gönderdiğimde beni o foruma abone yap';
@@ -217,7 +217,7 @@ $string['checknone'] = 'Hiçbirini seçme';
 $string['childcoursenotfound'] = 'Alt ders bulunamadı!';
 $string['childcourses'] = 'Alt dersler';
 $string['choose'] = 'Seç';
-$string['chooseauthmethod'] = 'Yetkilendirme ekletisi seçin';
+$string['chooseauthmethod'] = 'Kimlik denetimi eklentisi seçin';
 $string['choosecourse'] = 'Bir ders seçiniz';
 $string['chooseenrolmethod'] = 'Ders kaydı eklentisini seçiniz';
 $string['chooselivelogs'] = 'Veya şu anki etkinlikleri izleyin';
@@ -969,6 +969,7 @@ $string['missingusername'] = 'Kullanıcı adı eksik';
 $string['modified'] = 'Değiştirilme';
 $string['moduledeleteconfirm'] = '\'$a\' eklentisini tamamen silmek üzeresiniz. Bu etkinlik eklentiyle ilgili bütün kayıtlar veritabanından silinecektir. Devam etmek istediğinizden emin misiniz?';
 $string['moduledeletefiles'] = '\'$a->module\' eklentisiyle ilgili bütün veriler veritabanından silindi. Silme işlemini tamamlamak ve bu eklentinin kendi kendini tekrar kurmasını engellemek için şimdi bu dizini sunucudan kaldırmanız gerekiyor: $a->directory';
+$string['moduleintro'] = 'Açıklama';
 $string['modulesetup'] = 'Eklenti tabloları ayarlanıyor';
 $string['modulesuccess'] = '$a tabloları doğru bir şekilde kuruldu';
 $string['moodledocs'] = 'Moodle Belgeleri';

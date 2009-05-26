@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
 
 
 $string['CASform'] = 'Kimlik denetimi seçeneği';
@@ -73,8 +73,10 @@ $string['auth_dbpasstype_key'] = 'Şifre biçimi';
 $string['auth_dbreviveduser'] = 'Kullanıcı $a[0] kimliği $a[1] canlandırıldı';
 $string['auth_dbrevivedusererror'] = 'Kullanıcı $a\'yı canlandırmada hata';
 $string['auth_dbsetupsql'] = 'SQL ayar komutu';
+$string['auth_dbsetupsqlhelp'] = 'Genellikle iletişim kodlaması kurulumu yapmak için kullanılan, özel veritabanı kurulumu için SQL komutu- MySQL ve PostgreSQL\'e örnek: <em>SET NAMES \'utf8\'</em>';
 $string['auth_dbsuspenduser'] = 'Kullanıcı $a[0] kimliği $a[1] askıya alındı';
 $string['auth_dbsuspendusererror'] = 'Kullanıcı $a\'yı askıya almada hata';
+$string['auth_dbsybasequoting'] = 'Sybase tırnaklarını kullan';
 $string['auth_dbtable'] = 'Veritabanındaki tablo adı';
 $string['auth_dbtable_key'] = 'Tablo';
 $string['auth_dbtitle'] = 'Harici veritabanı';
@@ -278,6 +280,7 @@ $string['auth_shib_logout_return_url'] = 'Alternatif çıkış dönüş URL\'si'
 $string['auth_shib_logout_return_url_description'] = 'Shibboleth kullanıcılarının çıkış yaptıktan sonra yeniden yönlendirilecekleri URL\'yi sağlayın. <br />Boş bırakılırsa, kullanıcılar moodle\'ın kullanıcıları yeniden yönlendireceği yere yönlendirileceklerdir.';
 $string['auth_shib_logout_url'] = 'Shibboleth Hizmet Sağlayıcı çıkış işleyicisi URL';
 $string['auth_shib_logout_url_description'] = 'Shibboleth Hizmet Sağlayıcısı çıkış işleyicisine URL sağlayın. Bu genellikle şudur: <tt>/Shibboleth.sso/Logout</tt>';
+$string['auth_shib_no_organizations_warning'] = 'Bütünleşik WAYF hizmetini kullanmak isterseniz, Kimlik Sağlayıcı varlık kimliklerinin, adların ve isteğe bağlı olarak bir oturum başlatıcısının virgülle ayrılmış listesini sağlamalısınız.';
 $string['auth_shib_only'] = 'Sadece Shibboleth';
 $string['auth_shib_only_description'] = 'Shibboleth kimlik denetimi uygulanacaksa bu seçeneği seçin';
 $string['auth_shib_username_description'] = 'Moodle kullanıcı adı olarak kullanılacak Shibboleth web sunucusu çevre değişkeninin adı';
@@ -287,6 +290,7 @@ $string['auth_shibboleth_login'] = 'Shibboleth Girişi';
 $string['auth_shibboleth_login_long'] = 'Moodle\'a Shibboleth ile giriş yap';
 $string['auth_shibboleth_manual_login'] = 'Manual Giriş';
 $string['auth_shibboleth_select_member'] = 'Üyesiyim...';
+$string['auth_shibboleth_select_organization'] = 'Shibboleth üzerinden kimlik denetimi için, açılan listeden lütfen kurumunuzu seçin:';
 $string['auth_shibbolethdescription'] = 'Bu yöntemi kullanarak kullanıcılarınızı <a href=\"http://shibboleth.internet2.edu/\" target=\"_blank\">Shibboleth</a> yöntemiyle oluşturabilir ve yetkilendirebilirsiniz.<br />Moodle üzerinde Shibboleth\'ı nasıl yapılandırmanız gerektiği ile ilgili bilgiyi <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">BENİOKU</a> dosyasından bulabilirsiniz.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Cron eşzamanlama betiği';
@@ -307,6 +311,7 @@ $string['chooseauthmethod'] = 'Bir kimlik denetimi metodu seçin';
 $string['createpasswordifneeded'] = 'Gerekirse şifre oluştur';
 $string['enterthenumbersyouhear'] = 'Duyduğunuz rakamları yazın:';
 $string['enterthewordsabove'] = 'Yukarıdaki sözcükleri yazın:';
+$string['errormaxconsecutiveidentchars'] = 'Şifreler en fazla $a ardışık özdeş karakter içermelidir.';
 $string['errorminpassworddigits'] = 'Şifreler en az $a rakam içermeli.';
 $string['errorminpasswordlength'] = 'Şifreler en az $a karakter uzunluğunda olmalı.';
 $string['errorminpasswordlower'] = 'Şifreler en az $a küçük karakter içermeli.';
@@ -316,6 +321,7 @@ $string['errorpasswordupdate'] = 'Şifreyi güncellerken hata, şifre değiştir
 $string['forcechangepassword'] = 'Şifre değişimini zorunlu tut';
 $string['forcechangepassword_help'] = 'Kullanıcıların sonraki girişinde şifre değişimini zorunlu tut.';
 $string['forcechangepasswordfirst_help'] = 'Kullanıcılar ilk defa giriş yaptıklarında şifre değişimini zorunlu tut';
+$string['forgottenpassword'] = 'Buraya bir şifre girerseniz, bu sitede kayıp şifre kurtarma sayfası olarak kullanılacaktır. Bu, şifrelerin tamamen Moodle dışında ele alındığı sitelerde kullanım içindir. Varsayılan şifre kurtarmayı kullanmak için bunu boş bırakın.';
 $string['forgottenpasswordurl'] = 'Unutulmuş şifre URL';
 $string['getanaudiocaptcha'] = 'Yeni ses yükle';
 $string['getanimagecaptcha'] = 'Yeni resim yükle';
@@ -328,6 +334,8 @@ $string['internal'] = 'Dahili';
 $string['locked'] = 'Kilitli';
 $string['md5'] = 'MD5 şifrelemesi';
 $string['nopasswordchange'] = 'Şifre değiştirilemez';
+$string['nopasswordchangeforced'] = 'Şifrenizi değiştirmeden ilerleyemezsiniz, ancak şifrenizi değiştirmek için bir sayfa yok. Lütfen Moodle Yöneticinizle iletişime geçin.';
+$string['ntlmsso_attempting'] = 'NTLM yolu ile SSO girişi yapılıyor';
 $string['ntlmsso_failed'] = 'Otomatik-giriş yapılamadı. Normal giriş sayfasını deneyin...';
 $string['ntlmsso_isdisabled'] = 'NTLM SSO etkin değil.';
 $string['passwordhandling'] = 'Şifre alanı işleme';

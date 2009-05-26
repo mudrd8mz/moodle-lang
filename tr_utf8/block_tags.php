@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tags.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // block_tags.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
 
 
 $string['add'] = 'Ekle';
@@ -40,6 +40,7 @@ $string['moreshowmytags'] = 'Etiketlerim';
 $string['moreshowofficialtags'] = 'Kurumsal etiketler';
 $string['moretags'] = 'Göster ve daha fazla etiket filtrele';
 $string['moretitle'] = 'Daha fazla etiket';
+$string['morewelcome'] = '\'Daha fazla etiket\' bulutuna hoş geldiniz. Etiketler kullanıcılar tarafından oluşturulmuş olup nesnelere bağlantı sunar. Etiketler, sevdiğiniz dersler, bloglarınız ya da profiliniz gibi nesneleri kendi sözcüklerinizle sınıflandırmanızı ve birleştirmenizi sağlar. Farklı etiket grupları \'Göster:\' satırındaki bağlarla görüntülenebileceği gibi \'Sırala:\' satırındaki bağlarla da yeniden sıralanabilir. Burada daha fazla yardım mevcuttur:';
 $string['mycoursetag1'] = 'Ders etiketlerimi göster';
 $string['mycoursetag2'] = 'ders etiketlerim';
 $string['mycoursetags'] = 'Ders etiketlerim:';
