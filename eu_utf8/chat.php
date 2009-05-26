@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // chat.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['ajax'] = 'Ajax erabiltzen duen bertsioa';
@@ -59,6 +59,7 @@ $string['nomessages'] = 'Ez dago mezurik oraindik';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Ez dago programatuta txat-saiorik';
+$string['notallowenter'] = 'Zuk ez duzu txat-gela honetan sartzeko baimenik.';
 $string['notlogged'] = 'Identifikatu gabe!';
 $string['oldping'] = 'Itxaroteko epea deskonektatu';
 $string['pastchats'] = 'Izandako txat-saioak';

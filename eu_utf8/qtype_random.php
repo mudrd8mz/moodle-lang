@@ -3,6 +3,8 @@
 
 
 $string['configselectmanualquestions'] = 'Ausazko galdera motak aukera al dezake eskuz kalifikatutako galdera bat, kategoriatik galdera ausaz aukeratu behar duela ezarrita dagoenean?';
+$string['editingrandom'] = 'Ausazko galdera editatzen';
+$string['random'] = 'Ausazkoa';
 $string['randomqname'] = 'Ausazkoa ($a)';
 $string['randomqplusname'] = 'Ausazkoa ($a eta azpikategoriak)';
 $string['selectmanualquestions'] = 'Ausazko galderak eskuz kalifikatutako galderak erabil ditzake';
