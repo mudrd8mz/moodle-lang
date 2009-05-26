@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // editor.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['about'] = 'Editore honi buruz';
 $string['absbottom'] = 'Beheko aldean';
+$string['acteditorshhdr'] = 'Testu-editore aktiboak';
 $string['address'] = 'Helbidea';
 $string['alertnoselectedtext'] = 'Lehenik testua aukeratu behar duzu!';
 $string['alignment'] = 'Lerrokadura';
@@ -24,6 +25,7 @@ $string['chooseicon'] = 'Aukera ezazu ikono bat';
 $string['close'] = 'Itxi';
 $string['closeafterreplace'] = 'Itxi ordezkatu ondoren';
 $string['cols'] = 'Zutabeak';
+$string['configeditorplugins'] = 'Mesedez, aukera ezazu zein plugin-editore erabili nahi duzun eta ordenan erabiltzeko gomendatzen dizugu.';
 $string['copy'] = 'Kopiatu aukeratutakoa';
 $string['createanchor'] = 'Sortu aingura';
 $string['createfolder'] = 'Sortu karpeta';
@@ -32,8 +34,10 @@ $string['cut'] = 'Ebaki aukeratutakoa';
 $string['cutpastemozilla'] = 'Tamalez,linea bidezko editore honetan ezin dituzu teklatuko lasterbideak (ezta itsatsi botoia ere) erabili. Mozilla eta Firefox nabigatzaileek segurtasun-neurriak dituztelako gertatzen da.
 Badaude 3 zeharbide saiatzeko, nahi izanez gero: Ctrl-v ordez, erabili Shift-Insert. Erabili zure nabigatzaileko Editatu->Itsatsi botoiak. Aldatu zure nabigatzailearen aukerak; horretarako, editatu user.js fitxategia. Laguntza gehiago behar izanez gero, klikatu ONARTU botoia edo UTZI editorera itzultzeko.';
 $string['delete'] = 'Ezabatu';
+$string['editors'] = 'Testu-editoreak';
+$string['editorsettings'] = 'Kudeatu editoreak';
 $string['enterurlfirst'] = 'Lehenik URL-a jarri behar duzu';
-$string['filebrowser'] = 'Fitxategi nabigatzailea';
+$string['filebrowser'] = 'Fitxategi-nabigatzailea';
 $string['findwhat'] = 'Bilatu';
 $string['fontname'] = 'Letra-tipoaren izena';
 $string['fontsize'] = 'Letra-tipoaren neurria';
