@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // moodle.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['abouttobeinstalled'] = 'על סף התקנה';
@@ -844,7 +844,7 @@ $string['messagebody'] = 'גוף ההודעה';
 $string['messagedselectedusers'] = 'ההודעה נשלחה למשתתפים הנבחרים ורשימת  המקבלים אופסה';
 $string['messagedselectedusersfailed'] = 'משהו השתבש בזמן שליחת הודעות למשתמשים הנבחרים. כמה מהם כנראה קיבלו את הדוא\"ל.';
 $string['messageselect'] = 'בחר משתמש זה נמען הדוא\"ל';
-$string['messageselectadd'] = 'הוסף/שלח הודעה';
+$string['messageselectadd'] = 'הוסף/שלח דוא\"ל';
 $string['metaaddcourse'] = 'הוסף קורס זה';
 $string['metaalreadycourses'] = 'קורס זה כבר הוקצה';
 $string['metaalreadyhascourses'] = 'לקורס-מטה זה קיימים כבר קורסים נגזרים';
