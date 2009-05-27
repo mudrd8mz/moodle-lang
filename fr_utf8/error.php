@@ -415,6 +415,7 @@ $string['secretalreadyused'] = 'Le lien de confirmation du changement de mot de 
 $string['sectionnotexist'] = 'Cette section n\'existe pas';
 $string['sendmessage'] = 'Envoyer un message';
 $string['sessioncookiesdisable'] = 'Utilisation incorrecte de require_key_login(). Les cookies de session doivent être désactivés !';
+$string['sessiondiskfull'] = 'La partition de session du disque dur est pleine. Il n\'est actuellement pas possible de se connecter.<br /><br />Veuillez contacter l\'administrateur du serveur.';
 $string['sessionerroruser'] = 'Votre session est échue. Veuillez vous connecter à nouveau';
 $string['sessionerroruser2'] = 'Une erreur du serveur affectant votre session de connexion a été détectée. Veuillez vous connecter à nouveau ou relancer votre navigateur';
 $string['sessionipnomatch'] = 'Votre adresse IP semble avoir changé depuis votre connexion. Ce réglage de sécurité empêche des pirates d\'usurper votre identité lorsque vous êtes connecté sur ce site. Les utilisateurs ne devraient en principe pas rencontrer ce message. Veuillez demander de l\'aide à l\'administrateur de ce site';
