@@ -451,6 +451,7 @@ $string['unknowncourserequest'] = 'Demande de cours inconnue';
 $string['unknownfiletype'] = 'Type de filtre inconnu';
 $string['unknowngroup'] = 'Groupe « {$a} » inconnu';
 $string['unknownhelp'] = 'Thème $a de l\'aide inconnu';
+$string['unknownjsinrequirejs'] = 'Impossible de trouver la bibliothèque JS : $a';
 $string['unknownrole'] = 'Rôle « {$a} » inconnu';
 $string['unknownuseraction'] = 'Désolé, je ne comprends pas ce que vous voulez faire';
 $string['unknownuserselector'] = 'Sélecteur d\'utilisateur inconnu';
