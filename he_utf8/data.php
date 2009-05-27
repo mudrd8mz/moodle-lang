@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // data.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['action'] = 'פעולה';
@@ -43,6 +43,7 @@ $string['configenablerssfeeds'] = 'מתג זה יתיר את האפשרות של
 $string['confirmdeletefield'] = 'אתה עומד למחוק את השדה הזה, האם אתה בטוח?';
 $string['confirmdeleterecord'] = 'האם אתה בטוח שאתה רוצה למחוק את הרשומה הזו?';
 $string['csstemplate'] = 'תבנית CSS';
+$string['csvfailed'] = 'לא ניתן לקרוא את מידע השורה מקובץ CSV';
 $string['csvfile'] = 'קובץ CVS';
 $string['csvimport'] = 'ייבוא קובץ CVS';
 $string['data:approve'] = 'אשר את הרשומות המאושרות';
@@ -104,6 +105,7 @@ $string['fieldheightsingleview'] = 'גובה בתצוגת יחיד';
 $string['fieldids'] = 'מספרי זיהוי השדה';
 $string['fieldmappings'] = 'מיפויי השדה';
 $string['fieldname'] = 'שם השדה';
+$string['fieldnotmatched'] = 'השדות הבאים בקובץ שלך לא ידועים במסד הנתונים: $a';
 $string['fieldoptions'] = 'אפשרויות (אחת לכל שורה)';
 $string['fields'] = 'שדות';
 $string['fieldupdated'] = 'שדה מעודכן';
@@ -130,6 +132,7 @@ $string['importsuccess'] = 'ההגדרה שנקבעה מראש יושמה בהצ
 $string['insufficiententries'] = 'כדי שיהיה אפשרי לצפות את בסיס נתונים זה נדרשות רשומות נוספות';
 $string['intro'] = 'הקדמה';
 $string['invalidfieldname'] = 'אנא בחר שם אחר לשדה זה';
+$string['invalidrate'] = 'דרוג מסד נתונים שגוי ($a)';
 $string['invalidurl'] = 'כתובת ה-URL שהזנת כרגע לא תקפה.';
 $string['jstemplate'] = 'תבנית Javascript';
 $string['latitude'] = 'קו-רוחב';

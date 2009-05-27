@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // hotpot.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['abandoned'] = 'נטוש';
@@ -87,6 +87,7 @@ $string['rawdetails'] = 'פרטי נסיונות מענה גולמיים';
 $string['regrade'] = 'תן ציון חדש';
 $string['regradecheck'] = 'האם אתה בטוח שאתה רוצה לתת ציון חדש ל-\"$a\"?';
 $string['regraderequired'] = 'נדרש מתן ציון חדש';
+$string['removegradeitem'] = 'הסר פריט הציון';
 $string['reportanswers'] = 'תשובות';
 $string['reportattemptfinish'] = 'סוף ניסיון המענה';
 $string['reportattemptnumber'] = 'נסיון מענה';

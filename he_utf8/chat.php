@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // chat.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['autoscroll'] = 'גלילה אוטומטית';
@@ -52,6 +52,7 @@ $string['nomessages'] = 'אין הודעות עדיין';
 $string['normalkeepalive'] = 'KeepAlive (שמור בחיים)';
 $string['normalstream'] = 'זרם';
 $string['noscheduledsession'] = 'אין מושבים מתוכננות';
+$string['notallowenter'] = 'אינך רשאי להיכנס לחדר הצ\'אט';
 $string['oldping'] = 'פסק-זמן לניתוק';
 $string['pastchats'] = 'מושבי צ\'אט שעברו';
 $string['refreshroom'] = 'רענן חדר';

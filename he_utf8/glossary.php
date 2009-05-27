@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // glossary.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['addcomment'] = 'הוסף הערה';
@@ -131,6 +131,7 @@ $string['importedcategories'] = 'קטגוריות מיובאות';
 $string['importedentries'] = 'מונחים מיובאים';
 $string['importentries'] = 'ייבא מונחים';
 $string['importentriesfromxml'] = 'יבא רשומות מקובץ XML';
+$string['invalidrate'] = 'דרוג אגרון מונחים לא חוקי ($a)';
 $string['isglobal'] = 'האם זהו אגרון המונחים הכולל?';
 $string['linkcategory'] = 'צור קישורים באופן אוטומטי לקטגוריה זו';
 $string['linking'] = 'יצירת קישורים באופן אוטומטי';

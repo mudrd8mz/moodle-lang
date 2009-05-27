@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // error.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['adminprimarynoedit'] = 'אחרים לא יכולים לערוך את המנהל הראשי';
@@ -48,9 +48,11 @@ $string['groupalready'] = 'המשתמש כבר משתייך לקבוצה $a';
 $string['groupexistforcourse'] = 'קבוצה \"$a\" כבר קיימת לקורס זה';
 $string['groupnotaddederror'] = 'קבוצה \"$a\" לא נוספה';
 $string['groupunknown'] = 'קבוצה $a אינה שייכת לקורס המצוין';
+$string['groupusernotmember'] = 'המשתמש אינו חבר בקבוצה זו.';
 $string['guestnoeditprofile'] = 'המשתמש האורח לא יכול לערוך את הפרופיל שלו';
 $string['guestnoeditprofileother'] = 'לא ניתן לערוך את פרופיל המשתמש האורח';
 $string['guestsarenotallowed'] = 'משתמש האורח לא ראשי לעשות זאת';
+$string['invalidadminsettingname'] = 'הגדרות מנהל אינם חוקיות ($a)';
 $string['invalidcontext'] = 'הקשר לא חוקי';
 $string['invalidcourse'] = 'קורס לא חוקי';
 $string['invalidcourseid'] = 'אתה מנסה להשתמש במספר ID של קורס לא חוקי';
