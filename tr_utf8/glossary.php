@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
 
 
 $string['addcomment'] = 'Yorum ekle';
@@ -15,7 +15,6 @@ $string['allowprintview'] = 'Yazıcı görünümü izni';
 $string['allowratings'] = 'Derecelendirme izni';
 $string['answer'] = 'Yanıt';
 $string['approve'] = 'Onayla';
-$string['areaintro'] = 'Sözlük tanıtımı';
 $string['areyousuredelete'] = 'Bu girdiyi silmek istediğinizden emin misiniz?';
 $string['areyousuredeletecomment'] = 'Bu yorumu silmek istediğinizden emin misiniz?';
 $string['areyousureexport'] = 'Bu girdiyi buraya çıkarmak istediğinizden emin misiniz';
@@ -26,10 +25,8 @@ $string['authorview'] = 'Yazara göre gözat';
 $string['back'] = 'Geri';
 $string['cantexportentry'] = 'Girdi, ana sözlüğe çıkartılamıyor';
 $string['cantinsertcat'] = 'Kategori eklenemez';
-$string['cantinsertent'] = 'Bu yeni girdi eklenemedi';
 $string['cantinsertrec'] = 'Kayıt eklenemez';
 $string['cantinsertrel'] = 'İlişkili kategori kaydı eklenemedi';
-$string['cantupdateglossary'] = 'Sözlüğünüz güncellenemedi';
 $string['casesensitive'] = 'Bu girdi harf duyarlıdır';
 $string['cat'] = 'kategori';
 $string['categories'] = 'Kategoriler';
@@ -64,6 +61,7 @@ $string['currentglossary'] = 'Geçerli sözlük';
 $string['date'] = 'tarih';
 $string['dateview'] = 'Tarihe göre gözat';
 $string['defaultapproval'] = 'Varsayılan olarak onaylı';
+$string['defaulthook'] = 'Varsayılan yakalayıcı';
 $string['defaultmode'] = 'Varsayılan mod';
 $string['defaultsortkey'] = 'Varsayılan sıralama anahtarı';
 $string['defaultsortorder'] = 'Varsayılan sıralama';
@@ -146,7 +144,9 @@ $string['importedcategories'] = 'Alınan kategoriler';
 $string['importedentries'] = 'Alınan kayıtlar';
 $string['importentries'] = 'Kayıtları al';
 $string['importentriesfromxml'] = 'XML dosyasından kayıtları al';
+$string['invalidglossaryformat'] = 'Geçersiz Sözlük Biçimi';
 $string['invalidid'] = 'Hatalı sözlük id';
+$string['invalidrate'] = 'Geçersiz sözlük derecelendirmesi ($a)';
 $string['isglobal'] = 'Genel sözlük';
 $string['letter'] = 'harf';
 $string['linkcategory'] = 'Bu kategoriyi otomatik linkle';
@@ -179,6 +179,7 @@ $string['rating'] = 'Derecelendirme';
 $string['ratingeveryone'] = 'Kayıtları herkes derecelendirebilir';
 $string['ratingno'] = 'Derecelendirme yok';
 $string['ratingonlyteachers'] = 'Sadece $a kayıtları derecelendirebilir';
+$string['ratingonlywithpermissions'] = 'Sadece kayıtları derecelendirme izni olan kişiler';
 $string['ratings'] = 'Derecelendirmeler';
 $string['ratingssaved'] = 'Derecelendirmeler kaydedildi';
 $string['ratingsuse'] = 'Derecelendirme kullan';
@@ -209,5 +210,8 @@ $string['withauthor'] = 'Kavramlar (yazarıyla birlikte)';
 $string['withoutauthor'] = 'Kavramlar (yazarı olmadan)';
 $string['writtenby'] = 'yazan';
 $string['youarenottheauthor'] = 'Bu yorumun yazarı olmadığınız için bu yorumu düzeltme izniniz yoktur.';
+$string['areaintro'] = 'Sözlük tanıtımı'; // ORPHANED
+$string['cantinsertent'] = 'Bu yeni girdi eklenemedi'; // ORPHANED
+$string['cantupdateglossary'] = 'Sözlüğünüz güncellenemedi'; // ORPHANED
 
 ?>
