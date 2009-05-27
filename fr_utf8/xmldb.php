@@ -66,6 +66,7 @@ $string['filenotwriteable'] = 'Fichier non accessible en écriture';
 $string['fkviolationdetails'] = 'La clef extérieure $a->keyname sur la table $a->tablename subit $a->numviolations violations sur un total de $a->numrows rangées.';
 $string['floatincorrectdecimals'] = 'Nombre de décimales incorrecte pour champ virgule flottante';
 $string['floatincorrectlength'] = 'Longueur du champ virgule flottante incorrecte';
+$string['float2numbernote'] = 'Remarque : bien que les champs « float » soient supportés à 100% par XMLDB, il est recommandé de les convertir en champs « number ».';
 $string['generate_documentation'] = 'Documentation';
 $string['gotolastused'] = ' Retour au dernier fichier utilisé';
 $string['incorrectfieldname'] = 'Nom incorrect';
