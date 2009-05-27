@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090517) (2009051700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1253,6 +1253,7 @@ $string['registrationemail'] = 'Eメール通知';
 $string['registrationinfo'] = '<p>このページではあなたのMoodleサイトをmoodle.orgに登録できます。登録は無料です。登録の主な利点は、発信数の少ないメーリングリストにあなたのメールアドレスが追加され、セキュリティーに関する警告やMoodleの最新リリースに関する情報を受取れることです。</p>
 <p>あなたの情報はデフォルトでは公開されません。また、他の人に販売・転送されることはありません。情報を収集する唯一の理由はサポートを目的とするものであり、Moodleコミュニティの統計的全体像を構築することにあります。<p>登録する場合、あなたのサイト名、国、URIがMoodleサイトの公開リストに登録されます。</p>
 <p>すべての登録内容は公開リストに登録される前に手作業で確認されますが、一旦登録されるといつでも登録内容 (および公開リストの内容) をこのフォームで再登録することができます。</p>';
+$string['registrationinfotitle'] = '登録情報';
 $string['registrationno'] = 'いいえ、メールは送信しないでください。';
 $string['registrationsend'] = 'moodle.orgに登録情報を送信する';
 $string['registrationyes'] = 'はい、重要事項を知らせてください。';
