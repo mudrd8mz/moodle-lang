@@ -1,7 +1,8 @@
-<?php
+<?php // $Id$
 
 //== Custom Moodle strings that are not part of upstream TinyMCE ==
 
+$string['modulename'] = 'Éditeur WYSIWYG TinyMCE';
 
 // == TinyMCE upstream lang strings from all plugins ==
 $string['advanced:address'] = 'Adresse';
