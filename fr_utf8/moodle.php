@@ -1215,6 +1215,7 @@ $string['publicdirectory1'] = 'Publier uniquement le nom de ce site';
 $string['publicdirectory2'] = 'Publier le nom de ce site avec un lien';
 $string['publicdirectorytitle'] = 'Voir la liste actuelles des sites';
 $string['publicsitefileswarning'] = 'Remarque : les fichiers déposés ici sont accessibles par tout le monde';
+$string['publicsitefileswarning2'] = 'Remarque : les fichiers déposés ici sont accessibles par tous ceux qui connaissent (ou devinent) l\'URL. Pour des raisons de sécurité, il est recommandé que tous les fichiers de sauvegarde soient supprimés immédiatement après que la restauration a été effectuée.';
 $string['question'] = 'Consultation';
 $string['questionsinthequestionbank'] = 'Questions dans la banque de questions';
 $string['readinginfofrombackup'] = 'Lecture des informations de la sauvegarde';
