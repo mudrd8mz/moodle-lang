@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
 
 
 $string['actual'] = '実値';
@@ -47,6 +47,8 @@ $string['delete_statement'] = 'ステートメントの削除';
 $string['delete_table'] = 'テーブルの削除';
 $string['delete_xml_file'] = 'XMLファイルの削除';
 $string['doc'] = 'Doc';
+$string['docindex'] = 'ドキュメンテーションインデックス:';
+$string['documentationintro'] = 'このドキュメンテーションは、XMLDBデータベース定義より自動的に生成されたものです。英語のみ利用できます。';
 $string['down'] = '下へ';
 $string['duplicate'] = '複製';
 $string['duplicatefieldname'] = '同じ名称のフィールドが登録されています。';
@@ -71,6 +73,7 @@ $string['fkviolationdetails'] = 'テーブル $a->tablename の外部キー $a->
 $string['float2numbernote'] = '注意: XMLDBにおいて、「浮動小数」フィールドは、100%%サポートされますが、代わりに「数値」フィールドへの移行をお勧めします。';
 $string['floatincorrectdecimals'] = 'floatフィールドの小数点以下桁数が正しくありません。';
 $string['floatincorrectlength'] = 'floatフィールドの長さが正しくありません。';
+$string['generate_all_documentation'] = 'ドキュメンテーションすべて';
 $string['generate_documentation'] = 'ドキュメンテーション';
 $string['gotolastused'] = '最後に使用されたファイルへ移動する';
 $string['incorrectfieldname'] = 'フィールド名が正しくありません。';
