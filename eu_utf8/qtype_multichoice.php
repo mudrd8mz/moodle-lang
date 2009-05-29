@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // qtype_multichoice.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addingmultichoice'] = 'Aukera anitzeko galdera gehitzen';
@@ -25,6 +25,7 @@ $string['fractionsaddwrong'] = 'Aukeratu dituzun gradu positiboak gehituta ez da
 $string['fractionsnomax'] = 'Erantzunetako bat %%100 izan behar du, <br/>honela eskura daiteke maila altuena galdera honentzat. <br />Nahi al duzu atzera jo eta galdera hau egokitu?';
 $string['incorrectfeedback'] = 'Edozein erantzun okerretarako';
 $string['multichoice'] = 'Aukera anitzak';
+$string['multichoicesummary'] = 'Baimendu erantzun bakarra edo anitza aurrez definitutako zerrendatik aukeratu ahal izatea';
 $string['notenoughanswers'] = 'Galdera-mota honek gutxienez $a erantzun behar ditu.';
 $string['overallcorrectfeedback'] = 'Erantzun zuzenen feedbacka';
 $string['overallfeedback'] = 'Edozeinentzako feedbacka';

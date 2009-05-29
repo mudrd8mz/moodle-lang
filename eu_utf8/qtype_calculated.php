@@ -1,13 +1,17 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // qtype_calculated.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
+$string['addingcalculated'] = 'Kalkulatutako galdera gehitzen';
 $string['addmoreanswerblanks'] = 'Beste erantzun zuri bat gehitu';
 $string['addmoreunitblanks'] = 'Zuriuneak $a unitate gehiagotarako';
 $string['answerhdr'] = 'Erantzuna';
 $string['atleastoneanswer'] = 'Gutxienez erantzun bat eman behar duzu';
+$string['calculated'] = 'Kalkulatutakoa';
+$string['calculatedsummary'] = 'Kalkulatutako galderak zenbakizkoak bezalakoak dira baina erabilitako zenbakiak ausaz aukeratzen dira galdetegia egitean sortutako multzo batetik.';
 $string['correctanswershows'] = 'Erantzun zuzena erakutsi';
 $string['correctanswershowsformat'] = 'Formatua';
+$string['editingcalculated'] = 'Kalkulatutako galdera editatzen';
 $string['existingcategory1'] = 'dagoeneko existitzen den datu-multzo konpartitua erabiliko du';
 $string['keptcategory1'] = 'lehengo datu-multzo konpartitu bera erabiliko du';
 $string['keptlocal1'] = 'lehengo datu-multzo pribatu bera erabiliko du';
