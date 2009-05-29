@@ -139,6 +139,7 @@ $string['viewedited'] = 'Afficher les modifications';
 $string['vieworiginal'] = 'Afficher l\'original';
 $string['viewphpcode'] = 'Afficher le code PHP';
 $string['viewsqlcode'] = 'Afficher le code SQL';
+$string['viewxml'] = 'XML';
 $string['violatedforeignkeys'] = 'Clefs extérieures subissant des violations';
 $string['violatedforeignkeysfound'] = 'Clefs extérieures trouvées subissant des violations';
 $string['violations'] = 'Violations';
