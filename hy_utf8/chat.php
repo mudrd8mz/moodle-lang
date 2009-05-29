@@ -1,5 +1,6 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.7 beta + (2006101003)
+      // chat.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // local modifications from http://vle.lib.ysu.am/moodle
 $string['autoscroll'] = 'Ինքնաոլորել';
 $string['beep'] = 'ազդանշան';
 $string['chat:chat'] = 'Խոսել զրուցասրահում';
@@ -49,6 +50,7 @@ $string['nomessages'] = 'Ոչ մի հաղորդագրություն չկա';
 $string['normalkeepalive'] = 'Աջակցել';
 $string['normalstream'] = 'Հոսք';
 $string['noscheduledsession'] = 'Չհերթադրված ժամանակարջան';
+$string['notallowenter'] = 'Ձեզ չի թույլատրվում մուտք գործել զրուցասրահ։';
 $string['oldping'] = 'Անջատել ընդմիջումը';
 $string['pastchats'] = 'Անցյալ զրույցի ժամանակաշրջանները';
 $string['refreshroom'] = 'Թարմացնել սրահը';

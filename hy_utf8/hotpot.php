@@ -84,6 +84,7 @@ $string['rawdetails'] = 'Փորձի անմշակ մանրամասները';
 $string['regrade'] = 'Վերագնահատել';
 $string['regradecheck'] = 'Դուք իսկապե՞ս ցանկանում եք վերագնահատել &quot;$a&quot;։';
 $string['regraderequired'] = 'Պահանջվում է վերագնահատում';
+$string['removegradeitem'] = 'Ջնջել գնահատման միավորը';
 $string['reportanswers'] = 'Պատասխաններ';
 $string['reportattemptfinish'] = 'Փորձի ավ.';
 $string['reportattemptnumber'] = 'Փորձ';
