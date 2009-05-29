@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20090527) (2007101550)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -1192,6 +1192,7 @@ $string['publicdirectory1'] = 'Zveřejnit pouze název stránky';
 $string['publicdirectory2'] = 'Zveřejnit název stránky a odkaz';
 $string['publicdirectorytitle'] = 'Ukázat stávající seznam stránek';
 $string['publicsitefileswarning'] = 'Poznámka: sem umístěné soubory jsou přístupné komukoliv';
+$string['publicsitefileswarning2'] = 'Poznámka: sem umístěné soubory jsou dostupné každému, kdo zná (nebo uhádne) jejich URL. Z bezpečnostních důvodů se doporučuje odstranit všechny soubory záloh ihned po jejich obnově.';
 $string['question'] = 'Otázka';
 $string['questionsinthequestionbank'] = 'Úlohy v bance úloh';
 $string['readinginfofrombackup'] = 'Čtení informací ze zálohy';
@@ -1208,6 +1209,7 @@ $string['registrationcontactno'] = 'Ne, nechci kontaktní formulář na seznamu 
 $string['registrationcontactyes'] = 'Ano, chci poskytnout případným zájemcům o Moodle kontaktní formulář, aby se na mě mohli obrátit.';
 $string['registrationemail'] = 'Upozorňování e-mailem';
 $string['registrationinfo'] = '<p>Zde si můžete zaregistrovat vaše stránky na moodle.org. Registrace je zdarma. Hlavní výhodou registrace je, že budete zařazeni do seznamu odběratelů občasných důležitých oznámení (upozornění týkající se bezpečnosti či informace o nových verzích Moodlu).<p>Poskytnuté informace jsou považovány za důvěrné a nebudou nikdy a nikomu prodány nebo předány. Jediným důvodem pro jejich shromažďování je snaha o podporu uživatelů, a lepší statistické zachycení komunity uživatelů Moodle jako celku.<p>Budete-li si to přát, mohou být název vaší stránky, země a URL umístěny na veřejný seznam stránek používajících Moodle.<p>Před umístěním na tento seznam je vaše nová registrace ručně ověřena. Jste-li jednou na seznam zařazeni, můžete jak registraci, tak i zveřejněné údaje kdykoliv sami aktualizovat prostým opětovným odesláním tohoto formuláře.';
+$string['registrationinfotitle'] = 'Registrace';
 $string['registrationno'] = 'Ne, nechci dostávat zprávy e-mailem';
 $string['registrationsend'] = 'Odeslat údaje o registraci na moodle.org';
 $string['registrationyes'] = 'Ano, chci být upozorňován e-mailem';
@@ -1247,6 +1249,8 @@ $string['restorecancelled'] = 'Obnova přerušena';
 $string['restorecoursenow'] = 'Obnovit tento kurz!';
 $string['restorefinished'] = 'Obnova úspěšně dokončena';
 $string['restoreto'] = 'Obnovit do';
+$string['restoretositeadding'] = 'Upozornění: Obnova přidá data na vaši titulní stránku!';
+$string['restoretositedeleting'] = 'Upozornění: Obnova odstraní stávající obsah z vaší titulní stránky a nahradí jej novým!';
 $string['restricted'] = 'Nedostupné';
 $string['restrictmodules'] = 'Omezit moduly činností?';
 $string['returningtosite'] = 'Vracíte se na tyto stránky?';

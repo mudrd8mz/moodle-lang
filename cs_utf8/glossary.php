@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.3+ (Build: 20081220) (2007101533)
+      // glossary.php - created with Moodle 1.9.5+ (Build: 20090527) (2007101550)
 
 
 $string['addcomment'] = 'Přidat komentář';
@@ -131,6 +131,7 @@ $string['importedcategories'] = 'Importované kategorie';
 $string['importedentries'] = 'Importované položky';
 $string['importentries'] = 'Importovat položky';
 $string['importentriesfromxml'] = 'Import položek z XML souboru';
+$string['invalidrate'] = 'Neplatná hodnota hodnocení ($a)';
 $string['isglobal'] = 'Je tento slovník globální?';
 $string['linkcategory'] = 'Automaticky propojovat tuto kategorii';
 $string['linking'] = 'Automatické propojování';

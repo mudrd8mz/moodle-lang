@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9.2+ (Build: 20080724) (2007101520.01)
+      // xmldb.php - created with Moodle 1.9.5+ (Build: 20090529) (2007101550)
 
 
 $string['aftertable'] = 'Za tabulkou:';
@@ -70,7 +70,7 @@ $string['indexes'] = 'Indexy';
 $string['integerincorrectlength'] = 'Nesprávná délka celočíselného pole';
 $string['key'] = 'Klíč';
 $string['keys'] = 'Klíče';
-$string['listreservedwords'] = 'Seznam rezerovaných slov<br/>(používá se k aktualizaci stránky <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
+$string['listreservedwords'] = 'Seznam rezerovaných slov<br />(používá se k aktualizaci stránky <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>)';
 $string['load'] = 'Nahrát';
 $string['main_view'] = 'Hlavní pohled';
 $string['missing'] = 'Chybí';

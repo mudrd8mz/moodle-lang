@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
+      // grades.php - created with Moodle 1.9.5+ (Build: 20090527) (2007101550)
 
 
 $string['activities'] = 'Činnosti';
@@ -62,6 +62,7 @@ $string['calculationadd'] = 'Přidat výpočet';
 $string['calculationedit'] = 'Upravit výpočet';
 $string['calculationsaved'] = 'Výpočet uložen';
 $string['calculationview'] = 'Zobrazit výpočet';
+$string['cannotaccessgroup'] = 'Bohužel, nemáte přístup ke známkám ve vybrané skupině.';
 $string['categories'] = 'Kategorie';
 $string['categoriesanditems'] = 'Kategorie a položky';
 $string['categoriesedit'] = 'Upravit kategorie a položky';
@@ -176,6 +177,7 @@ $string['errornocalculationallowed'] = 'Tato položka neumožňuje provádět v�
 $string['errornocategorisedid'] = 'Nelze získat id nekategorizovaných';
 $string['errornocourse'] = 'Nepodařilo se získat informace o kurzu';
 $string['errorreprintheadersnonnumeric'] = 'Nenumerická hodnota v opakujícím se záhlaví';
+$string['errorsavegrade'] = 'Nepodařilo se uložit známku';
 $string['exceptions'] = 'Výjimky';
 $string['excluded'] = 'Vyřazeno';
 $string['excludedhelp'] = 'Je-li zapnuto, bude tato známka vyloučena ze všech výpočtů souhrnné známky na úrovni nadřazené položky hodnocení nebo kategorie. Tudíž souhrnnou známku neovlivní.';
@@ -307,6 +309,7 @@ $string['importsuccess'] = 'Import proběhl úspěšně';
 $string['importxml'] = 'Importovat XML';
 $string['includescalesinaggregation'] = 'Zahrnout škály v souhrnných známkách';
 $string['incorrectcourseid'] = 'Nesprávné ID kurzu';
+$string['incorrectcustomscale'] = '(Neplatná vlastní škála - zvolte jinou)';
 $string['incorrectminmax'] = 'Nejnižší musí být nižší než nejvyšší';
 $string['inherit'] = 'Dědit';
 $string['intersectioninfo'] = 'Student/Známka';
@@ -552,6 +555,7 @@ $string['useweighted'] = 'Použij váhy';
 $string['verbosescales'] = 'Doslovné škály';
 $string['viewbygroup'] = 'Skupina';
 $string['viewgrades'] = 'Zobrazit známky';
+$string['warningexcludedsum'] = 'Upozornění: vyřazování známek nelze kombinovat se způsobem výpočtu výsledné známky jako součtu dílčích známek';
 $string['weight'] = 'váha';
 $string['weightcourse'] = 'Použij vážené známky pro kurz';
 $string['weightedascending'] = 'Třídit podle vážených procent vzestupně';

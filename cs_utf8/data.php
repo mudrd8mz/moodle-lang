@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
+      // data.php - created with Moodle 1.9.5+ (Build: 20090527) (2007101550)
 
 
 $string['action'] = 'Akce';
@@ -133,6 +133,7 @@ $string['importsuccess'] = 'Předloha úspěšně aplikována';
 $string['insufficiententries'] = 'pro prohlížení databáze je potřeba více záznamů';
 $string['intro'] = 'Popis';
 $string['invalidfieldname'] = 'Zvolte jiný název pro toto pole';
+$string['invalidrate'] = 'Neplatná hodnota hodnocení ($a)';
 $string['invalidurl'] = 'Použité URL není platné';
 $string['jstemplate'] = 'Šablona Javascript';
 $string['latitude'] = 'Zeměpisná šířka';
