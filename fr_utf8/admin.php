@@ -69,6 +69,7 @@ $string['cliincorrectvalueretry'] = 'Valeur incorrecte, veuillez essayer de nouv
 $string['clitypevalue'] = 'type valeur';
 $string['clitypevaluedefault'] = 'type valeur, tapez Entrée pour utiliser la valeur par défaut ($a)';
 $string['cliunknowoption'] = 'Options non reconnues :\n  \$a\n. Utilisez l\'option --help.';
+$string['cliupgradefinished'] = 'Mise à jour terminée avec succès.';
 $string['cliyesnoprompt'] = 'Tapez y (pour oui) ou n (pour non)';
 $string['commonfiltersettings'] = 'Réglages communs aux filtres';
 $string['commonsettings'] = 'Réglages communs';
