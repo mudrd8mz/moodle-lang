@@ -191,6 +191,7 @@ $string['textfield'] = 'Réponse courte';
 $string['this_feedback_is_already_submitted'] = 'Vous avez déjà effectué cette activité.';
 $string['typemissing'] = 'Valeur du type manquante';
 $string['update_item'] = 'Enregistrer les modifications de la question';
+$string['url_for_continue_button'] = 'URL à afficher après le feedback';
 $string['use_one_line_for_each_value'] = '<br />Utilisez une ligne pour chaque réponse !';
 $string['use_this_template'] = 'Utiliser avec ce modèle';
 $string['using_templates'] = 'Utiliser un modèle';
