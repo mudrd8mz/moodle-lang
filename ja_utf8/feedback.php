@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20081212) (2008121000)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
 
 
 $string['add_item'] = '質問を追加する';
@@ -193,6 +193,7 @@ $string['textfield_size'] = 'テキストフィールド幅';
 $string['this_feedback_is_already_submitted'] = 'あなたは、すでにこのフィードバックを完了しています。';
 $string['typemissing'] = '「type」の値がありません。';
 $string['update_item'] = '質問の変更を保存する';
+$string['url_for_continue_button'] = '「続ける」ボタンのURI';
 $string['use_one_line_for_each_value'] = '<br />1行に1つの回答を入力してください!';
 $string['use_this_template'] = 'このテンプレートを使用する';
 $string['using_templates'] = 'テンプレートの使用';
