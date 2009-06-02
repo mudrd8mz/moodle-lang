@@ -96,6 +96,7 @@ $string['rawdetails'] = 'Saiakera-zehaztasun gordinak';
 $string['regrade'] = 'Berriz kalifikatu';
 $string['regradecheck'] = 'Benetan &quot;$a&quot; birkalifikatu nahi al duzu?';
 $string['regraderequired'] = 'Birkalifikazioa beharrezkoa';
+$string['removegradeitem'] = 'Ezabatu kalifikazio-elementua';
 $string['reportanswers'] = 'Erantzunak';
 $string['reportattemptfinish'] = 'Saikeraren amaiera';
 $string['reportattemptnumber'] = 'Saiakera';
