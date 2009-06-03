@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -63,6 +63,17 @@ $string['checkboxyes'] = 'Si';
 $string['choosefiletoedit'] = 'File da modificare';
 $string['clamfailureonupload'] = 'In caso di errore di Clam AV';
 $string['cleanup'] = 'Pulizia';
+$string['clianswerno'] = 'n';
+$string['cliansweryes'] = 's';
+$string['cliincorrectvalueerror'] = 'Errore, il valore \"$a->value\" non è corretto per \"$a->option\"';
+$string['cliincorrectvalueretry'] = 'Valore non corretto, per favore riprovate';
+$string['clitypevalue'] = 'inserisci valore';
+$string['clitypevaluedefault'] = 'inserisci valore oppure premi Invio per usare il valore di default ($a)';
+$string['cliunknowoption'] = 'Opzione non riconosciuta:
+$a
+. Per favore utilizzate l\'opzione --help.';
+$string['cliupgradefinished'] = 'L\'aggiornamento via linea di comando è stato completato correttamente.';
+$string['cliyesnoprompt'] = 'inserisci s (per Si) o n (per No)';
 $string['commonfiltersettings'] = 'Impostazioni comuni';
 $string['commonsettings'] = 'Impostazioni comuni';
 $string['componentinstalled'] = 'Componente installato';
@@ -792,7 +803,8 @@ $string['sitemaintenance'] = 'Il sito è sottoposto a manutenzione e non è attu
 $string['sitemaintenancemode'] = 'Manutenzione';
 $string['sitemaintenanceoff'] = 'La modalità manutenzione è stata disattivata e il sito è nuovamente operativo.';
 $string['sitemaintenanceon'] = 'Il sito è attualmente in manutenzione (solo gli amministratori possono collegarsi o utilizzare il sito).';
-$string['sitemaintenancewarning'] = 'Il sito è attualmente in manutenzione (solo gli amministratori possono collegarsi o utilizzare il sito). Per tornare in modalità  normale, <a href=\"maintenance.php\">disattivare la modalità manutenzione</a>.';
+$string['sitemaintenancewarning'] = 'Il sito al momento è in manutenzione (solo gli amministratori possono collegarsi o utilizzare il sito). Per ripristinare la normale operatività, <a href=\"maintenance.php\">disattivare la modalità manutenzione</a>.';
+$string['sitemaintenancewarning2'] = 'Il sito al momento è in manutenzione (solo gli amministratori possono collegarsi o utilizzare il sito). Per ripristinare la normale operatività, <a href=\"$a\"> disattivare la modalità manutenzione</a>.';
 $string['sitepolicies'] = 'Politiche del sito';
 $string['sitepolicy'] = 'URL delle politiche del sito';
 $string['sitesectionhelp'] = 'Se selezionata, una sezione argomento sarà mostrata sulla pagina principale del sito.';

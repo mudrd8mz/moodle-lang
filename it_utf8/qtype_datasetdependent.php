@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20090302) (2009021800)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
 
 
 $string['additem'] = 'Aggiungi elemento';
@@ -18,6 +18,7 @@ $string['existingcategory2'] = 'un file da un set già esistente di files usati 
 $string['existingcategory3'] = 'un link da un set già esistente di links usati anche da altre domande in questa categoria';
 $string['forceregeneration'] = 'forza rigenerazione';
 $string['getnextnow'] = 'Prendi ora nuovo \'Item da aggiungere\'';
+$string['hexanotallowed'] = 'Il formato esadecimale $a->value del Dataset <strong>{$a->name}</strong> non è consentito.';
 $string['item(s)'] = 'item(s)';
 $string['itemno'] = 'Item <b>$a</b>';
 $string['itemscount'] = 'Conteggio<br/>items';
@@ -37,7 +38,9 @@ $string['newcategory3'] = 'un link da un nuovo set di links che può anche esser
 $string['newlocal1'] = 'un\'espressione letterale da un nuovo set di espressioni che sarà usato solo da questa domanda';
 $string['newlocal2'] = 'un file da un nuovo set di files che sarà usato solo da questa domanda';
 $string['newlocal3'] = 'un link da un nuovo set di links che sarà usato solo da questa domanda';
+$string['nocommaallowed'] = 'La , non può essere usata. Utilizzate il . come in 0.013 oppure 1.3e-2';
 $string['nodataset'] = 'niente - non è un carattere jolly';
+$string['notvalidnumber'] = 'Il carattere jolly non è un numero valido';
 $string['oneanswertrueansweroutsidelimits'] = 'Almeno una risposta corretta è fuori dai limiti.<br />Modificate la tolleranza della risposta (Parametri avanzati).';
 $string['param'] = 'Param {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'Sostituisci con un valore a caso';

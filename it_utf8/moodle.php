@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090520) (2009051700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090527) (2009051700)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1081,7 +1081,7 @@ $string['nofilesselected'] = 'Non sono stati selezionati file da recuperare';
 $string['nofilesyet'] = 'Nessun file è stato ancora trasferito sul server';
 $string['nograde'] = 'Senza valutazione';
 $string['noimagesyet'] = 'Nessuna immagine è stata ancora trasferita sul server';
-$string['nologsfound'] = 'Non trovato alcun log';
+$string['nologsfound'] = 'Non ci sono log da visualizzare';
 $string['nomatchingusers'] = 'Non è stato trovato nessun utente che corrisponda al criterio di ricerca \'$a\'';
 $string['nomorecourses'] = 'Non possono essere trovati altri corsi corrispondenti';
 $string['nomoreidnumber'] = 'Non vengono usati numeri di id per evitare conflitti';
@@ -1231,7 +1231,8 @@ $string['publicdirectory0'] = 'Non pubbilcare questo sito';
 $string['publicdirectory1'] = 'Pubblica solo il nome del sito';
 $string['publicdirectory2'] = 'Pubblica il nome del sito con un link';
 $string['publicdirectorytitle'] = 'Vedi l\'elenco attuale dei siti';
-$string['publicsitefileswarning'] = 'Nota: i file salvati qui posso essere visualizzati da chiunque';
+$string['publicsitefileswarning'] = 'Nota: i file salvati qui possono essere visualizzati da chiunque';
+$string['publicsitefileswarning2'] = 'Nota: i file salvati qui possono essere visualizzati da chiunque a conoscenza della URL oppure in grado di ricavarla. Per motivi di sicurezza si consiglia di eliminare file di backup subito dopo il ripristino.';
 $string['question'] = 'Domanda';
 $string['questionsinthequestionbank'] = 'Domande nel deposito';
 $string['readinginfofrombackup'] = 'Lettura informazioni dal Backup';
@@ -1251,8 +1252,9 @@ $string['registrationinfo'] = '<p>Questa pagina ti permette di registrare il tuo
 <p>Le tue informazioni saranno mantenute private, e non saranno mai vendute o passate a qualcun altro. L\'unica ragione per raccogliere queste informazioni è per motivi di supporto e per aiutarci a costruire una statistica della comunità di Moodle in generale.</p>
 <p>Se tu vuoi, puoi permettere al nome del tuo sito, stato e URL di essere aggiunto alla lista pubblica dei siti di Moodle.</p>
 <p>Tutte le nuove registrazioni sono verificate manualmente prima di essere aggiunte alla lista, ma una volta aggiunta puoi aggiornare la tua registrazione (e aggiungerti alla lista pubblica) quando vuoi rispedendo questo form.</p>';
+$string['registrationinfotitle'] = 'Informazioni per la registrazione';
 $string['registrationno'] = 'No, non voglio ricevere email';
-$string['registrationsend'] = 'Manda le informazioni di registrazione a moodle.org';
+$string['registrationsend'] = 'Invia le informazioni di registrazione a moodle.org';
 $string['registrationyes'] = 'Si, inviatemi informazioni sulle cose importanti';
 $string['reject'] = 'Invia il rifiuto';
 $string['rejectdots'] = 'Rifiuta...';

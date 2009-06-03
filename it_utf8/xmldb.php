@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090520) (2009051700)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
 
 
 $string['actual'] = 'Attuale';
@@ -55,6 +55,8 @@ $string['delete_statement'] = 'Rimuovi Dichiarazione';
 $string['delete_table'] = 'Rimuovi Tabella';
 $string['delete_xml_file'] = 'Rimuovi File XML';
 $string['doc'] = 'Doc';
+$string['docindex'] = 'Indice Documentazione';
+$string['documentationintro'] = 'La documentazione viene generata automaticamente dalle definizioni XMLDB del database. E\' disponibile solamente in Inglese.';
 $string['down'] = 'Sotto';
 $string['duplicate'] = 'Duplica';
 $string['duplicatefieldname'] = 'Un altro campo con quel nome esiste';
@@ -79,6 +81,7 @@ $string['fkviolationdetails'] = 'La Foreign key $a->keyname nella tabella  $a->t
 $string['float2numbernote'] = 'Nota: sebbene i campi \"float\" siano supportati al 100%% da XMLDB, si consiglia comunque di migrare verso campi \"number\".';
 $string['floatincorrectdecimals'] = 'Numero incorretto di decimali per un campo reale';
 $string['floatincorrectlength'] = 'Lunghezza incorretta per un campo reale';
+$string['generate_all_documentation'] = 'Tutta la Documentazione';
 $string['generate_documentation'] = 'Documentazione';
 $string['gotolastused'] = 'Vai all\'ultimo file utilizzato';
 $string['incorrectfieldname'] = 'Nome errato';
@@ -115,6 +118,9 @@ $string['nowrongdefaultsfound'] = 'Non sono stati individuati valori di default 
 $string['nowrongintsfound'] = 'Non sono stati individuati Integer errati. Il vostro DB non ha bisogno di altre azioni.';
 $string['numberincorrectdecimals'] = 'Numero errato di decimali per un campo numerico';
 $string['numberincorrectlength'] = 'Lunghezza errata per un campo numerico';
+$string['pendingchanges'] = 'Nota: avete effettuato modiche al file. Potete salvarle in qualsiasi momento.';
+$string['pendingchangescannotbesaved'] = 'Il file è stato modificato ma non è possibile salvare le modifiche. Per favore verificate che il processo del web server abbia i permessi di scrittura per la cartella e per il file \"install.xml\".';
+$string['pendingchangescannotbesavedreload'] = 'Il file è stato modificato ma non è possibile salvare le modifiche. Per favore verificate che il processo del web server abbia i permessi di scrittura per la cartella e per il file \"install.xml\". Dopo la verifica ricaricate la pagina per controllare se è possibile salvare le modifiche.';
 $string['reserved'] = 'Riservata';
 $string['reservedwords'] = 'Parole Riservate';
 $string['revert'] = 'Ripristina';
@@ -147,6 +153,7 @@ $string['viewedited'] = 'Visualizza Modificato';
 $string['vieworiginal'] = 'Visualizza Originale';
 $string['viewphpcode'] = 'Visualizza codice PHP';
 $string['viewsqlcode'] = 'Visualizza codice SQL';
+$string['viewxml'] = 'XML';
 $string['violatedforeignkeys'] = 'Violazioni di foreign key';
 $string['violatedforeignkeysfound'] = 'Sono stati individuate violazioni di Foreign key';
 $string['violations'] = 'Violazioni';

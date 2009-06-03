@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090328) (2009032001)
+      // question.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
 
 
 $string['adminreport'] = 'Report su possibili problemi nel tuo database di domande.';
 $string['availableq'] = 'Disponibile?';
+$string['badbase'] = 'Base errata prima di **: $a**';
 $string['broken'] = 'Questo è un \"link interrotto\", punta a un file inesistente.';
 $string['byandon'] = 'di <em>$a->user</em> di <em>$a->time</em>';
 $string['cannotcopybackup'] = 'Impossibile copiare il file di backup';
@@ -94,7 +95,8 @@ $string['filesareasite'] = 'area files del sito';
 $string['filestomove'] = 'Sposta / copia i file a $a?';
 $string['flagged'] = 'Contrassegnata';
 $string['flagthisquestion'] = 'Contrassegna questa domanda';
-$string['fractionsnomax'] = 'Una delle risposte dovrebbe avere un punteggio del 100% affinché sia possibile ottenere un voto pieno per questa domanda.';
+$string['formquestionnotinids'] = 'Il form contiene una domanda non presente tra le id delle domande.';
+$string['fractionsnomax'] = 'Una delle risposte dovrebbe avere un punteggio del 100%% affinché sia possibile ottenere un voto pieno per questa domanda.';
 $string['getcategoryfromfile'] = 'Categoria da file';
 $string['getcontextfromfile'] = 'Contesto da file';
 $string['ignorebroken'] = 'Ignora link interrotti';
@@ -134,6 +136,7 @@ $string['noprobs'] = 'Non trovato alcun problema nel tuo database delle domande.
 $string['notenoughdatatoeditaquestion'] = 'Non è stato specificato un id di domanda, o un id di categoria e il tipo domanda.';
 $string['notenoughdatatomovequestions'] = 'Devi fornire l\'ID delle domande che vuoi spostare.';
 $string['notflagged'] = 'Non contrassegnata';
+$string['novirtualquestiontype'] = 'Non ci sono tipi virtuali di domanda per il tipo di domanda $a';
 $string['parenthesisinproperclose'] = 'La parentesi prima di ** non è chiusa correttamente in $a**';
 $string['parenthesisinproperstart'] = 'La parentesi prima di ** non è aperta correttamente in $a**';
 $string['permissionedit'] = 'Modificare questa domanda';

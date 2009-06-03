@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
 
 
 $string['activaterep'] = 'Repository attivi';
@@ -30,8 +30,8 @@ $string['confirmdeletefile'] = 'Sei sicuro di voler eliminare questo file?';
 $string['confirmremove'] = 'Sei sicuro di voler eliminare questo repository plugin, le sue opzioni e <strong style=color:red>tutte le sue istanze</strong> - $a?';
 $string['copying'] = 'Copia in corso';
 $string['create'] = 'Crea';
-$string['createinstance'] = 'Creazione istanze repository';
-$string['createrepository'] = 'Creazione istanze repository';
+$string['createinstance'] = 'Crea una istanza di repository';
+$string['createrepository'] = 'Crea una istanza di repository';
 $string['createxxinstance'] = 'Crea istanza \"$a\"';
 $string['date'] = 'Data';
 $string['deleted'] = 'Repository eliminato';

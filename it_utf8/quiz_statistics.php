@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20090429) (2009042700)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
 
 
 $string['allattempts'] = 'tutti i tentativi';
@@ -34,9 +34,11 @@ $string['firstattempts'] = 'primi tentativi';
 $string['firstattemptsavg'] = 'Voto medio dei primi tentativi';
 $string['firstattemptscount'] = 'Numero di primi tentativi';
 $string['frequency'] = 'Frequenza';
+$string['intended_weight'] = 'Peso voluto';
 $string['kurtosis'] = 'Curtosi della distribuzione dei voti (per $a)';
 $string['lastcalculated'] = 'Ultimo calcolo $a->lastcalculated fa. Ci sono stati $a->count tentativi da allora.';
 $string['median'] = 'Mediana dei voti (per $a)';
+$string['negcovar'] = 'Covarianza negativa del voto rispetto al voto del tentativo complessivo';
 $string['nostudentsingroup'] = 'In questo gruppo non ci sono studenti';
 $string['optiongrade'] = 'Credito parziale';
 $string['position'] = 'Posizione';
@@ -50,6 +52,7 @@ $string['quizinformation'] = 'Informazioni quiz';
 $string['quizname'] = 'Nome quiz';
 $string['quizoverallstatistics'] = 'Statistiche complessive quiz';
 $string['quizstructureanalysis'] = 'Analisi struttura quiz';
+$string['random_guess_score'] = 'Indice delle risposte date a caso';
 $string['recalculatenow'] = 'Ricalcola ora';
 $string['response'] = 'Risposta';
 $string['skewness'] = 'Asimmetria della distribuzione dei voti (per $a)';
