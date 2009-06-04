@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // grades.php - created with Moodle 1.9.4+ (Build: 20090429) (2007101546.04)
 
 
 $string['activities'] = 'Aktiviteter';
@@ -10,7 +10,9 @@ $string['addfeedback'] = 'Legg til tilbakemelding';
 $string['addgradeletter'] = 'Legg til karakterbokstav';
 $string['addidnumbers'] = 'Legg til idnummer';
 $string['additem'] = 'Legg til karakter enhet';
+$string['addoutcome'] = 'Legg til læringsmål';
 $string['addoutcomeitem'] = 'Legg til læringsmålenhet';
+$string['addscale'] = 'Legg til en skala';
 $string['aggregateextracreditmean'] = 'Middelverdi for karakterer (med ekstra poeng)';
 $string['aggregatemax'] = 'Høyeste karakter';
 $string['aggregatemean'] = 'Middelverdi for karakterer';
@@ -37,6 +39,8 @@ $string['aggregationcoefweight'] = 'Enhetsvekting';
 $string['aggregationcoefweighthelp'] = 'Vekting gjelder alle karakterer i denne karakterenheten gjennom summering med andre karakterenheter';
 $string['aggregationhelp'] = 'Strategi for å samle karakterer blant alle studentene i et kurs';
 $string['aggregationposition'] = 'Samlingsposisjon';
+$string['aggregationsvisible'] = 'Tilgjengelige samlingstyper';
+$string['aggregationsvisiblehelp'] = 'Velg hvilke samlingstyper som skal være tilgjengelige. Hold nede Ctrl-tasten for å velge mer enn ett element.';
 $string['aggregationview'] = 'Samlingsvisning';
 $string['allgrades'] = 'Alle karakterer på kategori';
 $string['allstudents'] = 'Alle studentene';
@@ -48,14 +52,17 @@ $string['averagesdecimalpoints'] = 'Desimaler i kolonnegjennomsnitt';
 $string['averagesdisplaytype'] = 'Visningstype for kolonnegjennomsnitt';
 $string['backupwithoutgradebook'] = 'Sikkerhetskopi inneholder ikke Karakterbok-konfigurasjon';
 $string['badgrade'] = 'Angitte karakter er ugyldig';
+$string['badlyformattedscale'] = 'Vennligst bruk en komma-separert liste av verdier. Det må være minst to verdier i listen.';
 $string['baduser'] = 'Angitt bruker er ugyldig';
 $string['bonuspoints'] = 'Bonuspoeng';
 $string['bulkcheckboxes'] = 'Massebehandle avkrysningsbokser';
+$string['calculatedgrade'] = 'Beregnet karakter';
 $string['calculation'] = 'Kalkulasjon';
 $string['calculationadd'] = 'Legg til kalkulasjon';
 $string['calculationedit'] = 'Rediger kalkulasjon';
 $string['calculationsaved'] = 'Kalkulasjon lagret';
 $string['calculationview'] = 'Se kalkulasjon';
+$string['cannotaccessgroup'] = 'Desverre ingen tilgang til karakterer for valgte gruppe.';
 $string['categories'] = 'Kategorier';
 $string['categoriesanditems'] = 'Kategorier og enheter';
 $string['categoriesedit'] = 'Rediger kategorier og enheter';
@@ -63,10 +70,12 @@ $string['category'] = 'Kategori';
 $string['categoryedit'] = 'Rediger kategori';
 $string['categoryname'] = 'Kategorinavn';
 $string['categorytotal'] = 'Kategoritotal';
+$string['categorytotalfull'] = '$a->category totalt';
 $string['changedefaults'] = 'Endre standarder';
 $string['changereportdefaults'] = 'Rediger rapportstandarder';
 $string['chooseaction'] = 'Velg en handling...';
 $string['choosecategory'] = 'Velg kategori';
+$string['combo'] = 'Flik- og listeboks meny';
 $string['compact'] = 'Kompakt';
 $string['configaggregationposition'] = 'Definerer posisjonen til sumtotal-kolonnen i rapporten i forhold til karakterene som summeres.';
 $string['configaggregationview'] = 'Hver kategori kan vises på tre måter: Full visning (summert kolonne og karaktervisningkolonne), bare den summerte kolonnen eller bare karakterene alene.';
@@ -78,6 +87,7 @@ $string['configdisablegradehistory'] = 'Slå av historiesporing i endringer i ka
 $string['configenableajax'] = 'Legger til et lag med AJAX-funksjonalitet i karakter-rapporten, forenkler og øker hastigheten på vanlige operasjoner. Betinger at Javascript er slått på i nettleseren.';
 $string['configenableoutcomes'] = 'Support for Læringsmål (også kjent som kompetanse, mål, standarder og kriterier) betyr at vi kan gi karakter til hendelser ved å bruke en eller flere skalaer som er knyttet til oppnådde læringsmål. Ved å slå på Læringsmål gjør du slik karaktergiving mulig på hele nettstedet.';
 $string['configexportdecimalpoints'] = 'Antall desimaler som skal vises for eksport. Dette kan overstyres i eksporten.';
+$string['configfixedstudents'] = 'Frys kolonnen med studentnavn slik at en kan scrolle horisontalt i karaktene.';
 $string['configgradeboundary'] = 'En prosentgrense i forhold til hvordan karakter blir gjort om til karakterbokstaver (Hvis Bokstavkarakter brukes)';
 $string['configgradedisplaytype'] = 'Angir hvordan en skal vise karakterer i karakter og brukerrapporter. Karakterer kan vises som faktiske karakterer, som prosent (i forhold til minimum og maksimum karakterer) eller som bokstaver.';
 $string['configgradeexportdisplaytype'] = 'Karakterer kan vises som virkelige karakter, som prosent(i forhold til minimum og maksimumskarakterer som bokstaver(A,B,C osv) gjennom eksport. Dette kan overstyres i eksporten.';
@@ -111,6 +121,7 @@ $string['configshowuseridnumber'] = 'Om en skal vise idnummer i en ekstra kolonn
 $string['configshowuserimage'] = 'Om en skal vise brukerens profilbilde ved siden av navnet i karakter-rapporten.';
 $string['configstudentsperpage'] = 'Antall studenter å vise per side i karakter-rapporten.';
 $string['configstudentsperpagedefault'] = 'Antall studenter å vise per side i karakter-rapporten. La dette feltet være tomt for å bruke nettsteds-standard (nå $a).';
+$string['configunlimitedgrades'] = 'Som standard avgrenses karakterer av en minimums- og maksimumsverdi for den karakteren. Ved aktivering overstyrer du denne grensen og tillater at karakterer over 100%% kan skrives inn manuelt. Vi anbefaler at denne innstillingen gjøres på en rolig tid på døgnet, da den medfører omberegning av karakterer og høy serverbelastning.';
 $string['contract'] = 'Kontraktkategori';
 $string['controls'] = 'Kontrollere';
 $string['courseavg'] = 'Kursgjennomsnitt';
@@ -118,12 +129,15 @@ $string['coursegradecategory'] = 'Kurstegn kategori';
 $string['coursegradedisplaytype'] = 'Visningstype for kurskarakter';
 $string['coursegradedisplayupdated'] = 'Visningstype for kurskarakter er endret';
 $string['coursename'] = 'Kursnavn';
+$string['coursescales'] = 'Kurs-skalaer';
 $string['coursesettings'] = 'Kursinnstillinger';
+$string['coursesettingsexplanation'] = 'Innstillingen bestemmer om karakterboken skal vises for alle deltakere i dette kurset.';
 $string['coursetotal'] = 'Kurstotal';
 $string['createcategory'] = 'Lag kategori';
 $string['createcategoryerror'] = 'Kunne ikke lage ny kategori';
 $string['creatinggradebooksettings'] = 'Opprett innstillinger for karakterbok';
 $string['csv'] = 'CSV';
+$string['currentparentaggregation'] = 'Gjeldende overordnet posisjon';
 $string['curveto'] = 'Curve To';
 $string['decimalpoints'] = 'Gjennomgående antall desimaler';
 $string['default'] = 'Standard';
@@ -134,6 +148,7 @@ $string['displaylettergrade'] = 'Vis bokstavkarakterer';
 $string['displaypercent'] = 'Vis prosent';
 $string['displaypoints'] = 'Vis poeng';
 $string['displayweighted'] = 'Vis vektede karakterer';
+$string['dropdown'] = 'Listeboks-meny';
 $string['droplow'] = 'Dropp den laveste';
 $string['droplowhelp'] = 'Hvis denne er slått på, valget vil droppe de X laveste karakterene, X er da verdien i dette valget.';
 $string['dropped'] = 'Utelatt';
@@ -145,7 +160,10 @@ $string['editcalculation'] = 'Rediger kalkulasjon';
 $string['editcalculationverbose'] = 'Rediger kalkulasjon for $a->category$a->itemmodule $a->itemname';
 $string['editfeedback'] = 'Rediger feedback';
 $string['editgrade'] = 'Rediger karakter';
+$string['editgradeletters'] = 'Rediger bokstavkarakterer';
+$string['editoutcome'] = 'Rediger læringsmål';
 $string['editoutcomes'] = 'Rediger læringsutbytte';
+$string['editscale'] = 'Rediger skala';
 $string['edittree'] = 'Kategorier og enheter';
 $string['editverbose'] = 'Rediger $a->category$a->itemmodule $a->itemname';
 $string['enableajax'] = 'Slå på AJAX';
@@ -178,12 +196,14 @@ $string['feedbacksaved'] = 'Tilbakemelding lagret';
 $string['feedbackview'] = 'Se tilbakemelding';
 $string['finalgrade'] = 'Endelig karakter';
 $string['finalgradehelp'] = 'Endelig karakter (cachet) etter alle kalkulasjoner er utført.';
+$string['fixedstudents'] = 'Lås studentnavn-kolonnen';
 $string['forceoff'] = 'Tving: Av';
 $string['forceon'] = 'Tving: På';
 $string['forelementtypes'] = 'for de valgte $a';
 $string['forstudents'] = 'For Students';
 $string['full'] = 'Full';
 $string['fullmode'] = 'Full visning';
+$string['fullview'] = 'Full visning';
 $string['generalsettings'] = 'Generelt';
 $string['grade'] = 'Karakter';
 $string['gradebook'] = 'Karakterbok';
@@ -201,6 +221,7 @@ $string['gradeexceptions'] = 'Karakterunntak';
 $string['gradeexceptionshelp'] = 'Hjelp for karakterunntak';
 $string['gradeexportdecimalpoints'] = 'Antall desimaler for karaktereksport';
 $string['gradeexportdisplaytype'] = 'Karaktereksport visningstype';
+$string['gradeforstudent'] = '$a->student<br />$a->item$a->feedback';
 $string['gradehelp'] = 'Hjelp for karakterer';
 $string['gradehistorylifetime'] = 'Levetid for karakterhistorie';
 $string['gradeitem'] = 'Karakterenhet';
@@ -288,6 +309,7 @@ $string['includescalesinaggregation'] = 'Inkluder skalaer i summering';
 $string['incorrectcourseid'] = 'Kurs ID var feil';
 $string['incorrectminmax'] = 'Minimum må være mindre en maksimum';
 $string['inherit'] = 'Arv';
+$string['intersectioninfo'] = 'Student/Karakter info';
 $string['item'] = 'Item';
 $string['iteminfo'] = 'Enhetsinfo';
 $string['iteminfohelp'] = 'Plass for å legge inn informasjon om enheten. Teksten som skrives inn vises ingen andre steder.';
@@ -307,6 +329,709 @@ $string['letterreal'] = 'Bokstav (virkelig)';
 $string['letters'] = 'Bokstaver';
 $string['linkedactivity'] = 'Linket aktivitet';
 $string['linkedactivityhelp'] = 'Angir en valgfri aktivitet som er knyttet til denne læringsutbytteenheten. Dette brukes for å måle studentytelse i forhold til kriterier som ikke vurderes av aktivitetsnivået.';
+$string['linktoactivity'] = 'Activities
+activities	
+Add category
+addcategory	
+Could not add category.
+addcategoryerror	
+Error occurred while adding exception for userid:gradeitem
+addexceptionerror	
+Add feedback
+addfeedback	
+Add a grade letter
+addgradeletter	
+Add id numbers
+addidnumbers	
+Add grade item
+additem	
+Add an outcome
+addoutcome	
+Add outcome item
+addoutcomeitem	
+Add a scale
+addscale	
+Mean of grades (with extra credits)
+aggregateextracreditmean	
+Highest grade
+aggregatemax	
+Mean of grades
+aggregatemean	
+Median of grades
+aggregatemedian	
+Lowest grade
+aggregatemin	
+Mode of grades
+aggregatemode	
+Aggregate only non-empty grades
+aggregateonlygraded	
+Nonexistent grades are either treated as minimal grades or not included in aggregation.
+aggregateonlygradedhelp	
+ 	
+
+ 
+Include outcomes in aggregation
+aggregateoutcomes	
+Including outcomes in aggregation may not lead to the desired overall grade, so you have the option to include or leave them out.
+aggregateoutcomeshelp	
+Aggregates only
+aggregatesonly	
+Aggregate including subcategories
+aggregatesubcats	
+The aggregation is usually done only with immediate children, it is also possible to aggregate grades in all subcategories excluding other aggregated grades.
+aggregatesubcatshelp	
+Sum of grades
+aggregatesum	
+Weighted mean of grades
+aggregateweightedmean	
+Simple weighted mean of grades
+aggregateweightedmean2	
+Aggregation
+aggregation	
+Aggregation coefficient
+aggregationcoef	
+Extra credit
+aggregationcoefextra	
+Extra credit for this grade item during aggregation.
+aggregationcoefextrahelp	
+Extra credit
+aggregationcoefextrasum	
+Extra credit for this grade item during aggregation.
+aggregationcoefextrasumhelp	
+Item weight
+aggregationcoefweight	
+Weight applied to all grades in this grade item during aggregation with other grade items.
+aggregationcoefweighthelp	
+Strategy used to aggregate grades across all students in a course.
+aggregationhelp	
+Aggregation position
+aggregationposition	
+Available aggregation types
+aggregationsvisible	
+Select all aggregation types that should be available. Hold down the Ctrl key to select multiple items.
+aggregationsvisiblehelp	
+ 	
+
+ 
+Aggregation view
+aggregationview	
+All grades by category
+allgrades	
+All students
+allstudents	
+All users
+allusers	
+Auto-sort
+autosort	
+Available id numbers
+availableidnumbers	
+Average
+average	
+Decimals in column averages
+averagesdecimalpoints	
+Column averages display type
+averagesdisplaytype	
+Backup does not contain Gradebook configuration
+backupwithoutgradebook	
+Supplied grade is invalid
+badgrade	
+Please enter a comma-separated list of values (at least two values required).
+badlyformattedscale	
+Supplied user is invalid
+baduser	
+Bonus points
+bonuspoints	
+Bulk checkboxes
+bulkcheckboxes	
+Calculated grade
+calculatedgrade	
+Calculation
+calculation	
+Add calculation
+calculationadd	
+Edit calculation
+calculationedit	
+Calculation saved
+calculationsaved	
+ 	
+
+ 
+View calculation
+calculationview	
+Can not access grades of selected group, sorry.
+cannotaccessgroup	
+Categories
+categories	
+Categories and items
+categoriesanditems	
+Edit categories and items
+categoriesedit	
+Category
+category	
+Edit category
+categoryedit	
+Category name
+categoryname	
+Category total
+categorytotal	
+$a->category total
+categorytotalfull	
+Change defaults
+changedefaults	
+Change report defaults
+changereportdefaults	
+Choose an action ...
+chooseaction	
+Select category
+choosecategory	
+Tabs and Dropdown menu
+combo	
+Compact
+compact	
+Defines the position of the aggregation total column in the report related to the grades being aggregated.
+configaggregationposition	
+Each category can be displayed in three ways: Full mode (aggregated column and grade item columns), the aggregated column only, or the grade items alone.
+configaggregationview	
+Specifies the number of decimal points to display for each column mean. If Inherit is selected, the display type for each column is used.
+configaveragesdecimalpoints	
+Specifies how to display the mean for each column. If Inherit is selected, the display type for each column is used.
+configaveragesdisplaytype	
+ 	
+
+ 
+Select the default display type of grades for this course. You can also select the site default value. Grades can be shown as real grades, as percentages (in reference to the minimum and maximum grades) or as letters (A, B, C etc..). Selecting Letters will allow you to define your own grade letters and boundaries.
+configcoursegradedisplaytype	
+Specifies the number of decimal points to display for each grade. This setting may be overridden per grading item.
+configdecimalpoints	
+Disable history tracking of changes in grades related tables. This may speed up the server a little and conserve space in database.
+configdisablegradehistory	
+Adds a layer of AJAX functionality to the grader report, simplifying and speeding up common operations. Depends on Javascript being switched on at the user\'s browser level.
+configenableajax	
+Support for Outcomes (also known as Competencies, Goals, Standards or Criteria) means that we can grade things using one or more scales that are tied to outcome statements. Enabling outcomes makes such special grading possible throughout the site.
+configenableoutcomes	
+The number of decimal points to display for export. This can be overridden during export.
+configexportdecimalpoints	
+Allows grades to scroll horizontally without losing sight of the students column, by making it static.
+configfixedstudents	
+A percentage boundary over which grades will be assigned a grade letter (if the Letter grade display type is used). 
+configgradeboundary	
+Specifies how to display grades in the grader and user reports. Grades may be shown as actual grades, as percentages (in reference to the minimum and maximum grades) or as letters.
+configgradedisplaytype	
+Grades can be shown as real grades, as percentages (in reference to the minimum and maximum grades) or as letters (A, B, C etc..) during export. This can be overridden during export.
+configgradeexportdisplaytype	
+This specifies the length of time you want to keep history of changes in grade related tables. It is recommended to keep it as long as possible. If you experience performance problems or have limited database space, try to set lower value.
+configgradehistorylifetime	
+Select all elements that should be displayed as advanced when editing grade items.
+configgradeitemadvanced	
+A letter or other symbol used to represent a range of grades.
+configgradeletter	
+A letter or other symbol used to represent a range of grades. Leave this field empty to use the site default (currently $a).
+configgradeletterdefault	
+Enable publishing in exports and imports: Exported grades can be accessed by accessing a URL, without having to log on to a Moodle site. Grades can be imported by accessing such a URL (which means that a Moodle site can import grades published by another site). By default only administrators may use this feature, please educate users before adding required capabilities to other roles (dangers of bookmark sharing and download accelerators, IP restrictions, etc.).
+configgradepublishing	
+If user can not see hidden grades show date of submission instead of \'-\'.
+confighiddenasdate	
+Do not show forced settings in grading UI.
+confighideforcedsettings	
+You can change whether scales are to be included as numbers in all aggregated grades across all gradebooks in all courses. CAUTION: changing this setting will force all aggregated grades to be recalculated.
+configincludescalesinaggregation	
+Whether cells with no grade should be included when calculating the mean for each column.
+configmeanselection	
+Grade report used on user profile page.
+configprofilereport	
+ 	
+
+ 
+Quick Grading adds a text input element in each grade cell on the grader report, allowing you to edit many grades at once. You can then click the Update button to perform all these changes at once, instead of one at a time.
+configquickgrading	
+Specifies the number of decimal points to display for each range. This setting may be overridden per grading item.
+configrangesdecimalpoints	
+Specifies how to display ranges. If Inherit is selected, the display type for each column is used.
+configrangesdisplaytype	
+Whether to show activity icons next to activity names.
+configshowactivityicons	
+Whether to show the mean for each column.
+configshowaverages	
+Whether to show calculator icons near each grade item and category, tooltips over calculated items and a visual indicator that a column is calculated.
+configshowcalculations	
+Whether to show a show/hide icon near each grade (controlling its visibility to the user).
+configshoweyecons	
+Whether to show a feedback icon (for adding/editing) near each grade.
+configshowfeedback	
+Whether to show the mean for each group.
+configshowgroups	
+Specifies how hidden grade items are shown. If Hide is selected, they are hidden completely. If Show is selected, the hidden grade item row is shown in grey with the grade hidden completely. If \"Only hidden until\" is selected, grade items with a \"hide until\" date set are shown in grey with the grades hidden completely until the set date, after which the whole item is shown.
+configshowhiddenitems	
+Whether to show a lock/unlock icon near each grade.
+configshowlocks	
+Whether to show the number of grades used when calculating the mean in brackets after each average, for example 45 (34).
+configshownumberofgrades	
+Whether to show the percentage value of each grade item.
+configshowpercentage	
+Quick Feedback adds a text input element in each grade cell on the grader report, allowing you to edit the feedback for many grades at once. You can then click the Update button to perform all these changes at once, instead of one at a time.
+configshowquickfeedback	
+Whether to show the range of grades for each column in an additional row.
+configshowranges	
+Whether to show the position of the user in relation to the rest of the class, for each grade item.
+configshowrank	
+Whether to show user id numbers in an additional column.
+configshowuseridnumber	
+Whether to show the user\'s profile image next to the name in the grader report.
+configshowuserimage	
+The number of students to display per page in the grader report.
+configstudentsperpage	
+The number of students to display per page in the grader report. Leave this field empty to use the site default (currently $a).
+configstudentsperpagedefault	
+ 	
+
+ 
+By default grades are limited by the maximum and minimum values of the grade item. Enabling this setting removes this limit, and allows grades of over 100%% to be entered directly in the gradebook. It is recommended that this setting is enabled at an off-peak time, as all grades will be recalculated, which may result in a high server load.
+configunlimitedgrades	
+Contract Category
+contract	
+Controls
+controls	
+Course average
+courseavg	
+Course grade category
+coursegradecategory	
+Course grade display type
+coursegradedisplaytype	
+The course grade display type has been updated.
+coursegradedisplayupdated	
+Course name
+coursename	
+Course scales
+coursescales	
+Course settings
+coursesettings	
+Course settings determine how the gradebook appears for all participants in the course.
+coursesettingsexplanation	
+Course total
+coursetotal	
+Create category
+createcategory	
+Could not create a new category
+createcategoryerror	
+Creating gradebook settings
+creatinggradebooksettings	
+CSV
+csv	
+Current parent aggregation
+currentparentaggregation	
+Curve to
+curveto	
+Overall decimal points
+decimalpoints	
+Default
+default	
+ 	
+
+ 
+Default ($a)
+defaultprev	
+Delete category
+deletecategory	
+Disable grade history
+disablegradehistory	
+Display letter grades
+displaylettergrade	
+Display percents
+displaypercent	
+Display points
+displaypoints	
+Display weighted grades
+displayweighted	
+Dropdown menu
+dropdown	
+Drop the lowest
+droplow	
+If set, this option will drop the X lowest grades, X being the selected value for this option.
+droplowhelp	
+Dropped
+dropped	
+Drop X lowest
+dropxlowest	
+Note: If you use drop x lowest the grading assumes that all items in the category have the same point value. If point values differ results will be unpredictable
+dropxlowestwarning	
+Duplicate scale
+duplicatescale	
+Edit
+edit	
+Edit calculation
+editcalculation	
+Edit calculation for $a->category$a->itemmodule $a->itemname
+editcalculationverbose	
+Edit feedback
+editfeedback	
+Edit grade
+editgrade	
+Edit grade letters
+editgradeletters	
+ 	
+
+ 
+Edit outcome
+editoutcome	
+Edit outcomes
+editoutcomes	
+Edit scale
+editscale	
+Categories and items
+edittree	
+Edit $a->category$a->itemmodule $a->itemname
+editverbose	
+Enable AJAX
+enableajax	
+Enable outcomes
+enableoutcomes	
+Encoding
+encoding	
+Formula must start with equal sign (=1+2)
+errorcalculationnoequal	
+Invalid formula
+errorcalculationunknown	
+Received non-numeric for low or high grade for
+errorgradevaluenonnumeric	
+Calculations are not allowed for this item
+errornocalculationallowed	
+Could not get an uncategorised id!
+errornocategorisedid	
+Could not get course information
+errornocourse	
+Received non-numeric value for reprint-headers
+errorreprintheadersnonnumeric	
+Exceptions
+exceptions	
+Excluded
+excluded	
+If -excluded- is switched on, this grade will be excluded from any aggregation performed by any parent grade item or category.
+excludedhelp	
+Expand Category
+expand	
+Export
+export	
+ 	
+
+ 
+Export all outcomes
+exportalloutcomes	
+Include feedback in export
+exportfeedback	
+Export plugins
+exportplugins	
+Export settings
+exportsettings	
+Export to
+exportto	
+Extra Credit
+extracredit	
+Note: Setting all items for a category to extra credit will effectively remove them from the grade calculation. Since there will be no point total
+extracreditwarning	
+Feedback
+feedback	
+Add feedback
+feedbackadd	
+Edit feedback
+feedbackedit	
+Notes added to the grade by the teacher. They can be extensive, personalised feedback or a simple code that refers to an internal system of feedback.
+feedbackhelp	
+Feedback saved
+feedbacksaved	
+View feedback
+feedbackview	
+Final grade
+finalgrade	
+The final grade (cached) after all calculations are performed.
+finalgradehelp	
+Static students column
+fixedstudents	  
+Force: Off
+forceoff	
+Force: On
+forceon	
+for the selected $a
+forelementtypes	
+For students
+forstudents	
+ 	
+
+ 
+Full
+full	
+Full view
+fullmode	
+Full view
+fullview	  
+General settings
+generalsettings	
+Grade
+grade	
+Gradebook
+gradebook	
+The gradebook is currently set to hide everything from students.
+gradebookhiddenerror	
+Grade histories
+gradebookhistories	
+Letter grade boundary
+gradeboundary	
+Grade categories
+gradecategories	
+Grade category
+gradecategory	
+Grade category help
+gradecategoryhelp	
+Grade category settings
+gradecategorysettings	
+Grade display
+gradedisplay	
+Grade display type
+gradedisplaytype	
+Graded: $a
+gradedon	
+Grade exceptions
+gradeexceptions	
+Grade exceptions Help
+gradeexceptionshelp	
+Grade export decimal points
+gradeexportdecimalpoints	
+Grade export display type
+gradeexportdisplaytype	
+ 	
+
+ 
+$a->student<br />$a->item$a->feedback
+gradeforstudent	  
+Grade Help
+gradehelp	
+Grade history lifetime
+gradehistorylifetime	
+Grade item
+gradeitem	
+Exclude from grading
+gradeitemaddusers	
+Advanced grade item options
+gradeitemadvanced	
+This activity is locked in the gradebook. Changes that are made to grades in this activity will not be copied to the gradebook until it is unlocked.
+gradeitemislocked	
+Grading locked
+gradeitemlocked	
+Excluded from grading
+gradeitemmembersselected	
+Included in grading
+gradeitemnonmembers	
+Include in grading
+gradeitemremovemembers	
+Grade items
+gradeitems	
+Grade item settings
+gradeitemsettings	
+Grade items to be included
+gradeitemsinc	
+Grade letter
+gradeletter	
+Grade letter Help
+gradeletterhelp	
+To delete a grade letter just empty any of the<br /> three text areas for that letter and click submit.
+gradeletternote	
+Grade letters
+gradeletters	
+Grade is locked
+gradelocked	
+$a->grade / $a->max
+gradelong	
+ 	
+
+ 
+Maximum grade
+grademax	
+When using the value grade type, a maximum grade can be set. The maximum grade for an activity-based grade item is set on the update activity page.
+grademaxhelp	
+Minimum grade
+grademin	
+When using the value grade type, a minimum grade can be set.
+grademinhelp	
+Grade outcome item
+gradeoutcomeitem	
+Outcomes
+gradeoutcomes	
+Course outcomes
+gradeoutcomescourses	
+Grade to pass
+gradepass	
+If an item has a grade that users must equal or exceed to pass that item, you can set that here.
+gradepasshelp	
+Grade preferences
+gradepreferences	
+Grade preferences Help
+gradepreferenceshelp	
+Enable publishing
+gradepublishing	
+Grader report
+graderreport	
+Grades
+grades	
+Grades only
+gradesonly	
+Grade settings
+gradessettings	
+Grade type
+gradetype	
+Specifies the type of grade used: none (no grading possible), value (enables the maximum and minimum grade settings), scale (enables the scale setting) or text (feedback only). Only value and scale grade types may be aggregated. The grade type for an activity-based grade item is set on the update activity page.
+gradetypehelp	
+View Grade
+gradeview	
+Grade weight Help
+gradeweighthelp	
+ 	
+
+ 
+Group average
+groupavg	
+Hidden
+hidden	
+Show submitted date for hidden grades
+hiddenasdate	
+Hidden until
+hiddenuntil	
+Hidden until: $a
+hiddenuntildate	
+Hide advanced features
+hideadvanced	
+Hide averages
+hideaverages	
+Hide calculations
+hidecalculations	
+Hidden
+hidecategory	
+Hide show/hide icons
+hideeyecons	
+Hide feedback
+hidefeedback	
+Hide forced settings
+hideforcedsettings	
+Hide groups
+hidegroups	
+Hide locks
+hidelocks	
+Show outcomes
+hidenooutcomes	
+Hide Quick Feedback
+hidequickfeedback	
+Hide ranges
+hideranges	
+Hide $a->category$a->itemmodule $a->itemname
+hideverbose	
+Sort by high grade ascending
+highgradeascending	
+Sort by high grade descending
+highgradedescending	
+ 	
+
+ 
+High
+highgradeletter	
+Identify user by
+identifier	
+Setting an ID number provides a way of identifying the activity for grade calculation purposes. If the activity is not included in any grade calculation then the ID number field can be left blank. The ID number for an activity-based grade item may be set on the update activity page.
+idnumberhelp	
+Id numbers
+idnumbers	
+Import
+import	
+Import CSV
+importcsv	
+Import as custom outcomes (only this course)
+importcustom	
+An error occurred, this script wasn\'t called with the right parameters.
+importerror	
+Import failed
+importfailed	
+Import feedback
+importfeedback	
+Import file
+importfile	
+No file was received, go back to the form and make sure to upload a valid file.
+importfilemissing	
+Import from
+importfrom	
+The uploaded file is empty or corrupted. Please verify this is a valid file. The problem was detected at line $a; this is triggered by the data lines not having as many columns as the first line (the header line) or if the imported file is missing expected headers. Look at the exported file for an example of a file with valid header.
+importoutcomenofile	
+Import outcomes
+importoutcomes	
+Imported outcome \"$a->name\" with ID #$a->id
+importoutcomesuccess	
+Import plugins
+importplugins	
+Import preview
+importpreview	
+Import settings
+importsettings	
+You don\'t have permission to add a new scale, so outcome \"$a\" was skipped as it required creating a new scale
+importskippednomanagescale	
+ 	
+
+ 
+An outcome with shortname \"$a\" already exists in this context, the one in the imported file was skipped.
+importskippedoutcome	
+Import as standard outcomes
+importstandard	
+Grade import success
+importsuccess	
+Import XML
+importxml	
+Include scales in aggregation
+includescalesinaggregation	
+Course ID was incorrect
+incorrectcourseid	
+The minimum must be lower than the maximum
+incorrectminmax	
+Inherit
+inherit	
+Student/Grade info
+intersectioninfo	  
+Item
+item	
+Item info
+iteminfo	
+A space for entering information about the item. Text entered does not appear anywhere else.
+iteminfohelp	
+Item name
+itemname	
+The name of this item, pushed in by the module.
+itemnamehelp	
+Items
+items	
+Edit grade item
+itemsedit	
+Keep the highest
+keephigh	
+If set, this option will only keep the X highest grades, X being the selected value for this option.
+keephighhelp	
+Key manager
+keymanager	
+The grade entered for $a->itemname for $a->username is less than the minimum allowed
+lessthanmin	
+ 	
+
+ 
+Letter
+letter	
+Letter grade
+lettergrade	
+Low and/or High grade were non-numeric for
+lettergradenonnumber	
+Letter (percentage)
+letterpercentage	
+Letter (real)
+letterreal	
+Letters
+letters	
+Linked activity
+linkedactivity	
+Specifies an optional activity to which this outcome item is linked. This is used to measure student performance on criteria not assessed by the activity grade.
+linkedactivityhelp	
+Lenke til $a->name aktivitet';
 $string['lock'] = 'Lås';
 $string['locked'] = 'Låst';
 $string['locktime'] = 'Lås etter';
@@ -328,12 +1053,17 @@ $string['min'] = 'Laveste';
 $string['missingscale'] = 'Skala må velges';
 $string['mode'] = 'Modus';
 $string['morethanmax'] = 'Karakteren lagt inn for $a->itemname til $a->username er høyere enn maksimum tillatt';
+$string['moveselectedto'] = 'Flytt valgte elementer til';
 $string['movingelement'] = 'Flytter $a';
 $string['multfactor'] = 'Multiplikator';
 $string['multfactorhelp'] = 'Faktor som alle karakterene for denne karakterenheten vil bli multiplisert med';
+$string['mypreferences'] = 'Mine innstillinger';
 $string['myreportpreferences'] = 'Mine rapportinnstillinger';
+$string['navmethod'] = 'Navigasjonsinnstillinger';
 $string['neverdeletehistory'] = 'Aldri slett historien';
 $string['newcategory'] = 'Ny kategori';
+$string['newitem'] = 'Nytt element for karaktersetting';
+$string['newoutcomeitem'] = 'Nytt element for læringsmål';
 $string['newuserkey'] = 'Ny brukernøkkel';
 $string['no'] = 'Nei';
 $string['nocategories'] = 'Karakterkategori kunne ikke bli lagt til eller funnet for dette kurset';
@@ -439,6 +1169,7 @@ $string['scaleidhelp'] = 'Når du bruker skalakaraktertype, kan skal velges. Ska
 $string['scalestandardhelp'] = 'En standard skal er en som er tilgjengelig for hele nettstedet, alle kurs.';
 $string['seeallcoursegrades'] = 'Se alle kurskarakterer';
 $string['selectalloroneuser'] = 'Vel alle eller en bruker';
+$string['selectauser'] = 'Velg en bruker';
 $string['selectdestination'] = 'Velg mål for $a';
 $string['separator'] = 'Delingstegn';
 $string['sepcomma'] = 'Komma';
@@ -471,6 +1202,7 @@ $string['showrank'] = 'Vis rangering';
 $string['showuseridnumber'] = 'Vis bruker idnummer';
 $string['showuserimage'] = 'Vis brukers profilbilde';
 $string['showverbose'] = 'Vis $a->category$a->itemmodule $a->itemname';
+$string['simpleview'] = 'Forenklet visning';
 $string['sitewide'] = 'Nettstedsgjeldende';
 $string['sort'] = 'sorter';
 $string['sortasc'] = 'Sorter i stigende rekkefølge';
@@ -485,7 +1217,10 @@ $string['studentsperpage'] = 'Studenter per side';
 $string['subcategory'] = 'Normal kategori';
 $string['submissions'] = 'Innsendelser';
 $string['submittedon'] = 'Innsendt: $a';
+$string['switchtofullview'] = 'Bytt til full visning';
+$string['switchtosimpleview'] = 'Bytt til forenklet visning';
 $string['synclegacygrades'] = 'Synkroniser sammenlagte karakterer';
+$string['tabs'] = 'Fliker';
 $string['topcategory'] = 'Superkategori';
 $string['total'] = 'Total';
 $string['totalweight100'] = 'Total vekting er lik 100';
@@ -499,6 +1234,7 @@ $string['typevalue'] = 'Verdi';
 $string['uncategorised'] = 'Ukategorisert';
 $string['unchangedgrade'] = 'Karakter uendret';
 $string['unenrolledusersinimport'] = 'Importen inkluderte følgende karakterer for brukere som for tiden ikke er med i kurset: $a';
+$string['unlimitedgrades'] = 'Ingen karakterbegrensning';
 $string['unlock'] = 'Lås opp';
 $string['unlockverbose'] = 'Lås opp $a->category$a->itemmodule $a->itemname';
 $string['unused'] = 'Ubrukt';
@@ -524,6 +1260,10 @@ $string['weightedascending'] = 'Sorter etter vektet prosent stigende';
 $string['weighteddescending'] = 'Sorter etter vektet prosent synkende';
 $string['weightedpct'] = 'vektet %%';
 $string['weightedpctcontribution'] = 'vektet %% bidrag';
+$string['weightorextracredit'] = 'Vekting eller tilleggspoeng';
+$string['weights'] = 'Vekting';
+$string['weightsedit'] = 'Rediger vekting og tilleggspoeng';
+$string['weightuc'] = 'Vekt';
 $string['writinggradebookinfo'] = 'Skriver karakterbokinnstillinger';
 $string['xml'] = 'XML';
 $string['yes'] = 'Ja';

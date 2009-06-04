@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // error.php - created with Moodle 1.9.4+ (Build: 20090429) (2007101546.04)
 
 
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
@@ -48,6 +48,7 @@ $string['groupalready'] = 'Brukeren tilhører allerede gruppen $a';
 $string['groupexistforcourse'] = 'Gruppe \"$a\" eksisterer allerede for dette kurset';
 $string['groupnotaddederror'] = 'Gruppe \"$a\" ble ikke lagt til';
 $string['groupunknown'] = 'Gruppe $a er ikke tilordnet spesifisert klasse';
+$string['groupusernotmember'] = 'Brukeren er ikke medlem av denne gruppen';
 $string['guestnoeditprofile'] = 'En gjest kan ikke editere profilen sin';
 $string['guestnoeditprofileother'] = 'Gjesteprofilen kan ikke editeres';
 $string['guestsarenotallowed'] = 'Gjestebrukere har ikke lov til å gjøre dette';
