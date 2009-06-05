@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090605) (2009060200)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -22,19 +22,19 @@ $string['allowusermailcharset'] = 'Consenti agli utenti di scegliere il set di c
 $string['allowuserswitchrolestheycantassign'] = 'Consenti agli utenti che non possono attribuire ruoli di cambiare ruolo.';
 $string['allowuserthemes'] = 'Consenti agli utenti di scegliere il tema';
 $string['allowvisiblecoursesinhiddencategories'] = 'Consenti l\'accesso ai corsi presenti nelle categorie nascoste';
-$string['antivirus'] = 'Antivirus';
+$string['antivirus'] = 'Anti-Virus';
 $string['appearance'] = 'Aspetto';
 $string['aspellpath'] = 'Percorso per aspell';
 $string['authentication'] = 'Autenticazione';
 $string['authsettings'] = 'Gestione autenticazione';
-$string['autolang'] = 'Autorilevazione lingua';
+$string['autolang'] = 'Auto-rilevazione lingua';
 $string['autologinguests'] = 'Login automatico per gli ospiti';
 $string['availablelangs'] = 'Language Pack disponibili';
 $string['availableto'] = 'Disponibile per';
 $string['backgroundcolour'] = 'Colore trasparente';
 $string['backups'] = 'Backup';
 $string['badwordsconfig'] = 'Inserire l\'elenco personalizzato delle parole da censurare. Separate ciascuna parola con una virgola.';
-$string['badwordsdefault'] = 'Se l\'elenco personalizzato è vuoto, verrà  utilizzato l\'elenco di default preso dal Language Pack.';
+$string['badwordsdefault'] = 'In mancanza dell\'elenco personalizzato sarà usato l\'elenco di default preso dal Language Pack.';
 $string['badwordslist'] = 'Elenco personalizzato delle parole da censurare';
 $string['blockediplist'] = 'Elenco degli IP bloccati';
 $string['blockinstances'] = 'Istanze';
@@ -53,7 +53,7 @@ $string['calendarsettings'] = 'Calendario';
 $string['cannotdeletemissingqtype'] = 'Non è possibile eliminare il tipo di domanda \'mancante\', è necessaria al sistema.';
 $string['cannotdeletemodfilter'] = 'Non puoi disinstallare \'$a->filter\' in quanto fa parte del modulo \'$a->module\'.';
 $string['cannotdeleteqtypeinuse'] = 'Il tipo domanda \'$a\' non può essere eliminato. Ci sono domande di questo tipo nel banco delle domande.';
-$string['cannotdeleteqtypeneeded'] = 'Il tipo domanda \'$a\' non può essere eliminato. Ci sono altri tipi domande istallati basati su di esso.';
+$string['cannotdeleteqtypeneeded'] = 'Il tipo domanda \'$a\' non può essere eliminato. Sono presenti tipi di domande che dipendono da questo tipo.';
 $string['cfgwwwrootslashwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. E\' stato incluso un carattere \'/\' alla fine. Deve essere rimosso o si verificheranno errori insoliti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['cfgwwwrootwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. Non corrisponde al URL usato per accedere a questa pagina. Deve essere modificato o si verificheranno errori insoliti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'cambia';
@@ -67,6 +67,8 @@ $string['clianswerno'] = 'n';
 $string['cliansweryes'] = 's';
 $string['cliincorrectvalueerror'] = 'Errore, il valore \"$a->value\" non è corretto per \"$a->option\"';
 $string['cliincorrectvalueretry'] = 'Valore non corretto, per favore riprovate';
+$string['clistatusdisabled'] = 'Stato: disabilitato';
+$string['clistatusenabled'] = 'Stato: abilitato';
 $string['clitypevalue'] = 'inserisci valore';
 $string['clitypevaluedefault'] = 'inserisci valore oppure premi Invio per usare il valore di default ($a)';
 $string['cliunknowoption'] = 'Opzione non riconosciuta:
@@ -110,7 +112,7 @@ Se scegliete \'Considera i file infetti\' e per qualche motivo Clam antivirus do
 $string['configcookiehttponly'] = 'Abilita le caratteristiche del PHP 5.2.0. I browser verranno obbligati ad inviare cookie solo tramite protocollo http, in modo da non consentire l\'accesso ai cookie da linguaggi di scripting. Non tutti i browser supportano questa caratteristica che potrebbe non essere compatibile con l\'attuale codice. Questa impostazione aiuta a prevenire alcuni tipi di attacchi XSS.';
 $string['configcookiesecure'] = 'Se il server accetta solamente connessioni https, allora è opportuno abilitare l\'invio di cookie sicuri. Se abilitate questa impostazione, accertatevi che il server web non accetti connessioni http://, oppure impostate un reindirizzamento permanente al protocollo https://. Nel caso in cui l\'indirizzo specificato per <em>wwwroot</em> nella config.php non contenga https://, questa impostazione sarà automaticamente disabilitata.';
 $string['configcountry'] = 'Il Paese che comparirà per default nelle pagine di creazione di un nuovo account utente. Se non impostate un Paese di default, il campo diventerà a a compilazione obbligatoria.';
-$string['configcoursemanager'] = 'Questa impostazione permette di controllare chi appare nella descrizione del corso. Gli utenti devono avere almeno uno di questi ruoli in un corso per essere mostrati nella descrizione di quel corso.';
+$string['configcoursemanager'] = 'E\' possibile indicare quali ruoli far comparire nella descrizione dei corsi. Affinché il nome di un utente compaia nella descrizione di un corso, l\'utente dovrà avere almeno uno dei ruoli qui specificati.';
 $string['configcourserequestnotify'] = 'E\' possibile indicare lo username dell\'utente da avvertire in presenza di richieste di nuovi corsi.';
 $string['configcourserequestnotify2'] = 'Gli utenti da avvertire in presenza di domande per Corsi a richiesta. L\'elenco riporta solo gli utenti che hanno il privilegio di approvare Corsi a richiesta.';
 $string['configcoursesperpage'] = 'Numero di corsi da mostrare per pagina in un elenco dei corsi';
@@ -181,7 +183,7 @@ $string['configgooglemapkey'] = 'E\' necessario inserire una chiave speciale per
 $string['configgradebookroles'] = 'Questa impostazione permette di specificare i ruoli che figureranno nel Registro Valutazioni. E\' necessario che un utente possegga almeno uno di questi ruoli per figurare nel Registro Valutazioni di un corso.';
 $string['configgradeexport'] = 'E\' possibile scegliere i formati preferiti  da usare per l\'esportazione delle valutazioni. I formati scelti durante l\'esportazione imposteranno il campo \"Formati utilizzati recentemente\" per ciascun Registro valutazioni. Questo aspetto potrebbe far apparire le valutazioni esportate come \"nuove\" oppure come \"aggiornate\". Se non siete più che sicuri di come impostare i formati, allora non selezionate nulla.';
 $string['configguestroleid'] = 'Ruolo da attribuire in automatico agli utenti ospite. Questo ruolo sarà attribuito temporaneamente agli utenti che accedano come ospite ai corsi dove è permesso l\'accesso agli ospiti. Accertatevi che il ruolo scelto possegga i privilegi  moodle/legacy:guest e moodle/course:view.';
-$string['confighiddenuserfields'] = 'E\' possibile nascondere alla vista degli utenti che non abbiamo il ruolo di docente/amministratore alcuni dei campi presenti nel profilo utente. Lo scopo è quello di aumentare la privacy degli utenti. Per selezionare più campi tenete premuto il tasto CTRL.';
+$string['confighiddenuserfields'] = 'E\' possibile nascondere alla vista degli utenti che non abbiano il ruolo di docente/amministratore alcuni dei campi presenti nel profilo utente. Lo scopo è quello di aumentare la privacy degli utenti. Per selezionare più campi tenete premuto il tasto CTRL o Command a seconda del sistema operativo in uso.';
 $string['confighideactivitytypenavlink'] = 'Seleziona a chi nascondere il link al tipo di attività (per es. Quiz) mostrato nella barra di navigazione.';
 $string['confightmleditor'] = 'Scegliete se permettere o meno l\'utilizzo dell\'editor HTML integrato. Anche se si sceglie di permetterlo, l\'utente lo visualizzerà  solo se utilizza un web browser compatibile con esso. L\'utente può in ogni caso decidere di non utilizzarlo.';
 $string['configidnumber'] = 'Questa opzione specifica se:
@@ -201,8 +203,8 @@ $string['configiplookup'] = 'Quando si clicca su un indirizzo IP (come per es. 3
 $string['configkeeptagnamecase'] = 'Spunta gquesta opzione se vuoi che i nomi delle Tag mantengano i caratteri maiuscoli/minuscoli come definiti dall\'utente che li ha creati.';
 $string['configlang'] = 'Scegliete una lingua predefinita. Gli utenti potranno modificare più tardi queste impostazioni.';
 $string['configlangcache'] = 'Cache del menu delle lingue. Permette di risparmiare memoria e potenza di calcolo. Se attivata, il menu impiegherà  alcuni minuti per aggiornarsi nel caso vengano aggiunte o rimosse lingue.';
-$string['configlangdir'] = 'La maggioranza delle lingue scrivono da destra verso sinistra, ma alcune, come l\'arabo e l\'ebraico, sono scritte da destra a sinistra.';
-$string['configlanglist'] = 'Lasciate in bianco per consentire agli utenti di scegliere tra tutte le lingue dell\'installazione di Moodle. Comunque, si può abbreviare il menu delle lingue inserendo, separate da virgole, una lista dei codici delle lingue desiderate.
+$string['configlangdir'] = 'Molte lingue vengono scritte da destra verso sinistra, altre, come l\'arabo e l\'ebraico, sono vengono scritte da destra verso sinistra.';
+$string['configlanglist'] = 'Lasciate vuoto per consentire agli utenti di scegliere tra tutte le lingue dell\'installazione di Moodle. Comunque, si può abbreviare il menu delle lingue inserendo, separate da virgole, una lista dei codici delle lingue desiderate.
 Per esempio: en, es_es, it, fr';
 $string['configlangmenu'] = 'Scegliete se pubblicare o meno il menu delle lingue generico sulla Home Page, nella pagina di Login, ecc.
 Questa scelta non influisce sulla possibilità  da parte dell\'utente di scegliere una lingua preferita all\'interno del suo profilo personale.';
@@ -326,7 +328,7 @@ $string['confirminstall'] = 'Si sta per installare il language pack ($a), siete 
 $string['cookiehttponly'] = 'Solo cookies http';
 $string['cookiesecure'] = 'Solo cookies sicuri';
 $string['country'] = 'Paese default';
-$string['coursemanager'] = 'Gestori del corso';
+$string['coursemanager'] = 'Gestori dei corsi';
 $string['coursemgmt'] = 'Aggiungi/Modifica corsi';
 $string['courseoverview'] = 'Panoramica sui corsi';
 $string['courserequestnotify'] = 'Avvertire in caso di richieste';
@@ -797,6 +799,7 @@ $string['settingsafemode'] = 'Moodle non è del tutto compatibile con il safe mo
 $string['showblocksonmodpages'] = 'Mostra i blocchi sulle pagine di modulo';
 $string['showdetails'] = 'Mostra dettagli';
 $string['simpletest'] = 'Test';
+$string['simplexmlrequired'] = 'Moodle richiede l\'estensione PHP SimpleXML.';
 $string['sitelangchanged'] = 'L\'impostazione della lingua del sito è stata cambiata correttamente';
 $string['sitemailcharset'] = 'Set di caratteri';
 $string['sitemaintenance'] = 'Il sito è sottoposto a manutenzione e non è attualmente disponibile';

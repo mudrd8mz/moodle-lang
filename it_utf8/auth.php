@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090410) (2009040100)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -279,17 +279,22 @@ $string['auth_remove_suspend'] = 'Sospendi interna';
 $string['auth_remove_user'] = 'Specifica cosa fare con gli account di utenti interni durante la sincronizzazione in massa quando gli utenti sono stati rimossi dalla fonte esterna. Solo gli utenti sospesi sono automaticamente riattivati se riappaiono nella fonte esterna.';
 $string['auth_remove_user_key'] = 'Utente esterno rimosso';
 $string['auth_shib_auth_method'] = 'Nome del metodo di autenticazione';
+$string['auth_shib_auth_method_description'] = 'Inserite un nome familiare ai vostri utenti per identificare il metodo di autenticazione Shibboleth. Un nome adatto potrebbe essere il nome della vostra federazione Shibboleth, ad esempio <tt>SWITCHaai Login</tt> oppure <tt>InCommon Login</tt>.';
 $string['auth_shib_changepasswordurl'] = 'URL per cambiare password';
 $string['auth_shib_convert_data'] = 'API per la modifica dei dati';
 $string['auth_shib_convert_data_description'] = 'Puoi usare queste API per modificare ulteriormente i dati forniti da Shibboleth. Per maggiori informazioni, leggi <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a>';
 $string['auth_shib_convert_data_warning'] = 'Il file non esiste o non è leggibile dal processo del webserver!';
 $string['auth_shib_idp_list'] = 'Identity Provider';
+$string['auth_shib_idp_list_description'] = 'Inserite un elenco di Identity Provider entityID tra cui l\'utente potrà scegliere nella pagina di login.<br />Su ogni riga dovrà essere presente una coppia separata da virgole composta da entityID dell\'IdP (verifica il medatadata file di Shibboleth) e dal Nome dell\'IdP (il nome comparirà nel menù a discesa).<br />E\' possibile aggiungere un terzo parametro opzionale dove specificare la posizione del session initiator di Shibboleth utile nel caso in cui l\'installazione di Moodle faccia parte di una multi fedrazione.';
 $string['auth_shib_instructions'] = 'Utilizzare <a href=\"$a\">Shibboleth login</a> per avere accesso tramite Shibboleth, se la vostra istituzione lo supporta<br />Altrimenti, utilizzare il modulo di login normale qui mostrato.';
 $string['auth_shib_instructions_help'] = 'Qui dovreste fornire istruzioni su Shibbolet per i vostri utenti. Verranno mostrate nella pagina di login nella sezione delle istruzioni.
 Dovrebbe includere un collegamento a \"<b>$a</b>\"  in modo che gli utenti Shibboleth possano effettuare facilmente il login.';
 $string['auth_shib_integrated_wayf'] = 'Servizio Moodle WAYF';
+$string['auth_shib_integrated_wayf_description'] = 'E\' possibile consentire a Moodle di usare i propri servizi WAYF al posto di qulli configurati per Shibboleth. In questo caso Moodle visualizzerà un menù a discesa dove l\'utente potrà scegliere la pagina di login.';
 $string['auth_shib_logout_return_url'] = 'Logout return URL alternativa';
+$string['auth_shib_logout_return_url_description'] = 'Inserite l\'URL dove gli utenti Shibboleth saranno indirizzati dopo il logout.<br />Se l\'URL non viene inserita, allora gli utenti saranno indirizzati alla URL dove Moodle indirizza gli utenti.';
 $string['auth_shib_logout_url'] = 'Shibboleth Service Provider logout handler URL';
+$string['auth_shib_logout_url_description'] = 'Inserite l\'URL del logout handler del Service Provider Shibboleth. In genere l\'URL è <tt>/Shibboleth.sso/Logout</tt>';
 $string['auth_shib_no_organizations_warning'] = 'Se vuoi usare il servizio integrato WAYF, devi fornire una lista di elementi separati da virgola comprendenti Identity Provider entityIDs, i loro nomi e eventualmente un iniziatore di sessione.';
 $string['auth_shib_only'] = 'Solo Shibboleth';
 $string['auth_shib_only_description'] = 'Selezionate questa opzione se desiderate forzare l\'autenticazione Shibboleth.';
@@ -320,18 +325,18 @@ $string['changepasswordhelp'] = 'L\'indirizzo della pagina dove gli utenti posso
 $string['chooseauthmethod'] = 'Metodo di autenticazione';
 $string['createpasswordifneeded'] = 'Genera le password se necessario';
 $string['enterthenumbersyouhear'] = 'Inserisci i numeri che senti';
-$string['enterthewordsabove'] = 'Inserisci le parole soprastanti';
-$string['errormaxconsecutiveidentchars'] = 'La password deve avere al massimo $a caratteri identici consecutivi.';
-$string['errorminpassworddigits'] = 'La password deve avere almeno $a numeri.';
+$string['enterthewordsabove'] = 'Inserisci le parole sovrastanti';
+$string['errormaxconsecutiveidentchars'] = 'La password deve contenere al massimo $a caratteri identici consecutivi.';
+$string['errorminpassworddigits'] = 'La password deve contenere almeno $a numeri.';
 $string['errorminpasswordlength'] = 'La password deve essere lunga almeno $a caratteri.';
 $string['errorminpasswordlower'] = 'La password deve contenere almeno $a lettere minuscole.';
 $string['errorminpasswordnonalphanum'] = 'La password deve contenere almeno $a caratteri non alfanumerici (punteggiatura, trattini, eccetera).';
 $string['errorminpasswordupper'] = 'La password deve contenere almeno $a lettere maiuscole.';
-$string['errorpasswordupdate'] = 'Errore nell\'aggiornamento della password, password non modificata';
-$string['forcechangepassword'] = 'Forza il cambiamento della password';
-$string['forcechangepassword_help'] = 'Forzare gli utenti a cambiare la password al successivo accesso a Moodle?';
-$string['forcechangepasswordfirst_help'] = 'Forzare gli utenti a cambiare la password al primo accesso a Moodle?';
-$string['forgottenpassword'] = 'Se viene inserita una URL qui, essa sarà usata come pagina di recupero della password perduta per questo sito. Questo serve per quei siti in cui la gestione delle password è effettuata completamente all\'esterno di Moodle. Lasciare lo spazio vuoto per usare il recupero password di default.';
+$string['errorpasswordupdate'] = 'Errore nell\'aggiornamento della password, la password non è stata modificata';
+$string['forcechangepassword'] = 'Obbliga il cambiamento della password';
+$string['forcechangepassword_help'] = 'Obbliga gli utenti a cambiare la password al prossimo accesso a Moodle.';
+$string['forcechangepasswordfirst_help'] = 'Obbliga gli utenti a cambiare la password al primo accesso a Moodle.';
+$string['forgottenpassword'] = 'E\' possibile inserire una URL che sarà sarà usata come pagina di recupero delle password. L\'impostazione è particolarmente utile per quei siti dove le password sono gestite esternamente a Moodle. Non inserendo una URL sarà usata la pagina di default per il recupero delle password.';
 $string['forgottenpasswordurl'] = 'URL pagina recupero password';
 $string['getanaudiocaptcha'] = 'Chiedi un audio CAPTCHA';
 $string['getanimagecaptcha'] = 'Chiedi un\'immagine CAPTCHA';

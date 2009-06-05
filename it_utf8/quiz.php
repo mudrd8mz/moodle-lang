@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090424) (2009041700)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090605) (2009060200)
 
 
 $string['1day'] = '1 giorno';
@@ -636,6 +636,7 @@ $string['reviewopen'] = 'dopo, mentre il quiz è ancora aperto';
 $string['reviewoptions'] = 'Gli studenti possono vedere';
 $string['reviewoptionsheading'] = 'Opzioni di revisione';
 $string['reviewresponse'] = 'Revisione replica';
+$string['reviewresponsetoq'] = 'Rivedi la risposta (domanda $a)';
 $string['reviewthisattempt'] = 'Rivedi le tue risposte a questo tentativo';
 $string['rqp'] = 'Domanda remota';
 $string['rqps'] = 'Domande remote';
