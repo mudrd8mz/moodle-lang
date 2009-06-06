@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -63,6 +63,19 @@ $string['checkboxyes'] = 'Yes';
 $string['choosefiletoedit'] = '編集するファイルを選択してください。';
 $string['clamfailureonupload'] = 'clam AVの障害時';
 $string['cleanup'] = 'クリーンアップ';
+$string['clianswerno'] = 'n';
+$string['cliansweryes'] = 'y';
+$string['cliincorrectvalueerror'] = 'エラー、「 $a->option 」の値「 $a->value 」が正しくありません。';
+$string['cliincorrectvalueretry'] = '値が正しくありません、再度お試しください。';
+$string['clistatusdisabled'] = 'ステータスは、無効にされています。';
+$string['clistatusenabled'] = 'ステータスは、有効にされています。';
+$string['clitypevalue'] = 'タイプ値';
+$string['clitypevaluedefault'] = 'タイプ値です。デフォルト値 ($a) を使用するには、Enterキーを押してください。';
+$string['cliunknowoption'] = '不明なオプション:
+$a
+「--help」オプションを使用してください。';
+$string['cliupgradefinished'] = 'コマンドラインによるアップグレードが正常に完了しました。';
+$string['cliyesnoprompt'] = 'y (yes) または n (no) を入力してください。';
 $string['commonfiltersettings'] = '一般フィルタ設定';
 $string['commonsettings'] = '共通設定';
 $string['componentinstalled'] = 'コンポーネントがインストールされました。';
@@ -760,6 +773,7 @@ $string['settingsafemode'] = 'Moodleではセーフモードに完全な互換�
 $string['showblocksonmodpages'] = 'モジュールページにブロックを表示する';
 $string['showdetails'] = '詳細を表示する';
 $string['simpletest'] = 'ユニットテスト';
+$string['simplexmlrequired'] = '現在、Moodleには、SimpleXML PHP拡張モジュールが必要です。';
 $string['sitelangchanged'] = 'サイト言語の設定が正常に完了しました。';
 $string['sitemailcharset'] = '文字セット';
 $string['sitemaintenance'] = 'このサイトはメンテナンス中です。現在ご利用いただけません。';
@@ -767,6 +781,7 @@ $string['sitemaintenancemode'] = 'メンテナンスモード';
 $string['sitemaintenanceoff'] = 'メンテナンスモードが解除されました。サイトは正常に動作しています。';
 $string['sitemaintenanceon'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインまたはサイトを利用することができます)。';
 $string['sitemaintenancewarning'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインできます)。通常運用に戻すには、<a href=\"maintenance.php\">メンテナンスモードを解除してください</a>。';
+$string['sitemaintenancewarning2'] = 'あなたのサイトは、現在メンテナンスモードで運用されています (管理者のみログインできます)。通常運用に戻すには、<a href=\"$a\">メンテナンスモードを解除してください</a>。';
 $string['sitepolicies'] = 'サイトポリシー';
 $string['sitepolicy'] = 'サイトポリシーURI';
 $string['sitesectionhelp'] = '選択した場合、トピックセクションがサイトフロントページに表示されます。';
