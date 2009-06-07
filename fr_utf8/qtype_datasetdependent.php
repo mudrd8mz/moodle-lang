@@ -1,4 +1,4 @@
-<?php // $Id$
+<?php
 
 $string['additem'] = 'Ajouter élément';
 $string['answerstoleranceparam'] = 'Paramètres de tolérance des réponses';
@@ -16,6 +16,7 @@ $string['existingcategory2'] = 'Un fichier d\'un jeu de données existant de fic
 $string['existingcategory3'] = 'Un lien d\'un jeu de données existant de liens déjà utilisé dans d\'autres questions de cette catégorie';
 $string['forceregeneration'] = 'Imposer une regénération';
 $string['getnextnow'] = 'Obtenir un nouvel « élément à ajouter »';
+$string['hexanotallowed'] = 'Le format hexadécimal de la valeur $a->value du jeu de données <strong>{$a->name}</strong> n\'est pas autorisée';
 $string['item(s)'] = 'élément(s)';
 $string['itemno'] = 'Élément $a';
 $string['itemscount'] = 'Éléments<br />Nombre';
@@ -35,7 +36,9 @@ $string['newcategory3'] = 'Un lien d\'un nouveau jeu de données de liens qui po
 $string['newlocal1'] = 'Une lettre d\'un nouveau jeu de données de lettres qui ne sera utilisé que pour cette question';
 $string['newlocal2'] = 'Un fichier d\'un nouveau jeu de données de fichiers qui ne sera utilisé que pour cette question';
 $string['newlocal3'] = 'Un lien d\'un nouveau jeu de données de liens qui ne sera utilisé que pour cette question';
+$string['nocommaallowed'] = 'Le caractère virgule (,) ne peut pas être utilisé. Veuillez utiliser le point décimal, comme dans 0.013 ou 1.3e-2' ;
 $string['nodataset'] = 'Rien - ce n\'est pas un caractère joker';
+$string['notvalidnumber'] = 'La valeur du joker n\'est pas un nombre valide ' ;
 $string['oneanswertrueansweroutsidelimits'] = 'Au moins une réponse correcte en dehors des limites de la valeur correcte.<br />Veuillez modifier le réglage de tolérance des réponses dans les paramètres avancés';
 $string['param'] = 'Paramètre {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'Remplacer par une valeur aléatoire';
@@ -46,5 +49,3 @@ $string['uniform'] = 'Uniforme';
 $string['updatedatasetparam'] = 'Modifier les paramètres du jeu de données';
 $string['updatetolerancesparam'] = 'Modifier les paramètres de tolérance des réponses';
 $string['youmustaddatleastoneitem'] = 'Veuillez ajouter au moins un élément du jeu de données avant d\'enregistrer cette question.';
-
-?>
