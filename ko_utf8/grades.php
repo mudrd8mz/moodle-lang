@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090604) (2009060200)
 
 
 $string['activities'] = '활동';
@@ -62,6 +62,7 @@ $string['calculationadd'] = '계산 추가';
 $string['calculationedit'] = '계산 수정';
 $string['calculationsaved'] = '계산결과 저장됨';
 $string['calculationview'] = '계산 보기';
+$string['cannotaccessgroup'] = '선택한 모둠의 득점에 접근할 수 없음';
 $string['categories'] = '범주들';
 $string['categoriesanditems'] = '항목과 범주';
 $string['categoriesedit'] = '항목 및 범주 편집';
@@ -176,6 +177,7 @@ $string['errornocalculationallowed'] = '이 항목에 대한 계산은 허용되
 $string['errornocategorisedid'] = '범주화되지 않은 id는 취할 수 없음!';
 $string['errornocourse'] = '강좌 정보를 얻을 수 없음';
 $string['errorreprintheadersnonnumeric'] = '해당 항목에 바르지 않은 값이 입력됨';
+$string['errorsavegrade'] = '점수를 저장할 수 없음';
 $string['errorupdatinggradecategoryaggregateonlygraded'] = '성적 범주 ID $a->id 의 \"채점된 항목만 집계\" 설정을 갱신하는 중 오류';
 $string['errorupdatinggradecategoryaggregateoutcomes'] = '성적 범주 ID $a->id 의 \"학습성과 집계\" 설정을 갱신하는 중 오류';
 $string['errorupdatinggradecategoryaggregatesubcats'] = '성적 범주 ID $a->id 의 \"하위 범주 집계\" 설정을 갱신하는 중 오류';
@@ -312,6 +314,7 @@ $string['importsuccess'] = '성적 가져오기 성공';
 $string['importxml'] = 'XML 가져오기';
 $string['includescalesinaggregation'] = '집계에 척도 포함';
 $string['incorrectcourseid'] = '교과 아이디가 틀렸습니다.';
+$string['incorrectcustomscale'] = '(바르지 않은 맞춤 척도, 변경바람)';
 $string['incorrectminmax'] = '최소값은 최대값보다 작아야만 함';
 $string['inherit'] = '상속';
 $string['intersectioninfo'] = '학생/득점';
@@ -559,6 +562,7 @@ $string['useweighted'] = '가중치 사용';
 $string['verbosescales'] = 'Verbose 척도';
 $string['viewbygroup'] = '모둠';
 $string['viewgrades'] = '성적 보기';
+$string['warningexcludedsum'] = '경고: 점수를 제외시키는 것은 집계 전략에 맞지 않음';
 $string['weight'] = '가중치';
 $string['weightcourse'] = '강좌에 대한 가중된 성적 사용';
 $string['weightedascending'] = '가중된 백분률로 오름차순 정렬';

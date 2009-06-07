@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20090604) (2009060200)
 
 
 $string['add_item'] = '활동에 질문 추가';
@@ -17,8 +17,6 @@ $string['autonumbering'] = '자동 문항 번호';
 $string['average'] = '평균';
 $string['bold'] = '굵게';
 $string['cancel_moving'] = '이동 취소';
-$string['cannotcreatecompletedfeedback'] = '완성된 설문을 만들 수 없음';
-$string['cannotcreatetmpfeedback'] = '임시 설문을 만들 수 없음';
 $string['cannotmapfeedback'] = '데이터베이스의 문제로 강좌에 설문을 배치할 수 없음';
 $string['cannotsavetempl'] = '설문지 저장이 허용되지 않음';
 $string['cannotunmap'] = '데이터베이스의 문제로 설문배치 해제를 할 수 없음';
@@ -188,10 +186,13 @@ $string['textfield_size'] = '입력창의 폭';
 $string['this_feedback_is_already_submitted'] = '당신은 이미 이 활동을 완료하였습니다.';
 $string['typemissing'] = '\"유형\" 누락';
 $string['update_item'] = '변경사항 저장';
+$string['url_for_continue_button'] = '계속버튼의 URL';
 $string['use_one_line_for_each_value'] = '<br />한 줄에 하나씩 답하세요!';
 $string['use_this_template'] = '이 질문지 사용';
 $string['using_templates'] = '질문지 사용';
 $string['vertical'] = '수직으로';
+$string['cannotcreatecompletedfeedback'] = '완성된 설문을 만들 수 없음'; // ORPHANED
+$string['cannotcreatetmpfeedback'] = '임시 설문을 만들 수 없음'; // ORPHANED
 $string['publish_stats_on_students'] = '학생들에게 분석내용 제시'; // ORPHANED
 $string['all_old_values_will_be_deleted'] = '현재 질문과 사용자의 응답이 삭제될 것입니다.'; // ORPHANED
 $string['all_old_values_will_be_preserved'] = '모든 기존 문황과 설정값은 그대로 유지될 것입니다.'; // ORPHANED

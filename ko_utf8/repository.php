@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090423) (2009041700)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090604) (2009060200)
 
 
 $string['activaterep'] = '쓸 수 있는 저장소';
@@ -53,6 +53,8 @@ $string['hiddenshow'] = '숨기기/보이기';
 $string['instance'] = '인스턴스';
 $string['instancedeleted'] = '인스턴스 삭제됨';
 $string['instances'] = '저장소 인스턴스';
+$string['instancesforadmin'] = '관리 인스턴스';
+$string['instancesforothers'] = '사설 인스턴스';
 $string['invalidjson'] = '잘못된 JSON 문자열';
 $string['invalidplugin'] = '잘못된 저장 플러그인';
 $string['invalidrepositoryid'] = '잘못된 저장소 ID';

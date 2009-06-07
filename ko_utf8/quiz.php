@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090321) (2009030501)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090604) (2009060200)
 
 
 $string['1day'] = '하루';
@@ -637,7 +637,8 @@ $string['reviewofpreview'] = '미리보기 검토';
 $string['reviewopen'] = '나중에, 퀴즈 마감 이전';
 $string['reviewoptions'] = '재검토 허용여부';
 $string['reviewoptionsheading'] = '검토 옵션';
-$string['reviewresponse'] = '재검토 응답';
+$string['reviewresponse'] = '응답 검토';
+$string['reviewresponsetoq'] = '응답 검토(문항 $a)';
 $string['reviewthisattempt'] = '본 시도에 대한 응답 재검토';
 $string['rqp'] = '원격 질문';
 $string['rqps'] = '원격 질문들';

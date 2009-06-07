@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090523) (2009051700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090604) (2009060200)
 
 
 $string['accessdenied'] = '접속 거부됨';
@@ -63,6 +63,17 @@ $string['checkboxyes'] = '예';
 $string['choosefiletoedit'] = '편집할 파일 선택';
 $string['clamfailureonupload'] = '바이러스 검역 실패';
 $string['cleanup'] = '정리';
+$string['clianswerno'] = 'n';
+$string['cliansweryes'] = 'y';
+$string['cliincorrectvalueerror'] = '오류: \"$a->option\" 에 대한 \"$a->value\" 값이 바르지 않음';
+$string['cliincorrectvalueretry'] = '잘못된 값, 재 시도 바람';
+$string['clistatusdisabled'] = '상태: 비활성';
+$string['clistatusenabled'] = '상태: 활성';
+$string['clitypevalue'] = '유형 값';
+$string['clitypevaluedefault'] = '유형에 기본값($a)을 쓰려면 엔터키를 누르세요';
+$string['cliunknowoption'] = '알 수 없는 옵션: $a  --help를 사용하기 바람';
+$string['cliupgradefinished'] = '명령어 줄에서 성공적으로 갱신되었음';
+$string['cliyesnoprompt'] = 'y(예를 의미) 혹은 n(아니오를 의미)을 입력';
 $string['commonfiltersettings'] = '공용 필터 설정';
 $string['commonsettings'] = '일반 설정';
 $string['componentinstalled'] = '구성요소가 설치되었음';
@@ -770,6 +781,7 @@ $string['settingsafemode'] = '무들은 안전모드에 대해 완벽한 호환�
 $string['showblocksonmodpages'] = '모듈화면에 블럭 보임';
 $string['showdetails'] = '자세히 보기';
 $string['simpletest'] = '항목 점검';
+$string['simplexmlrequired'] = '이제부터 무들에서 SimpleXML PHP 확장자가 필요';
 $string['sitelangchanged'] = '사이트의 언어설정이 성공적으로 변경되었습니다.';
 $string['sitemailcharset'] = '이메일 문자셋';
 $string['sitemaintenance'] = '이 사이트는 점검 중이며 현재 사용할 수 없습니다.';
@@ -777,6 +789,7 @@ $string['sitemaintenancemode'] = '유지 보수';
 $string['sitemaintenanceoff'] = '점검이 끝나고, 다시 일반적인 작동 상태가 되었습니다.';
 $string['sitemaintenanceon'] = '이 사이트는 현재 점검중입니다(관리자만 이 사이트를 사용하거나 로그인 할 수 있습니다).';
 $string['sitemaintenancewarning'] = '현재 유지 점검 상태에 있습니다(관리자만 로그인 할 수 있습니다.) 일반 작업으로 되돌리시려면 <a href=\"maintenance.php\">정상 작동</a>모드를 사용하십사오.';
+$string['sitemaintenancewarning2'] = '현재 점검모드(관리자만 로그인 됨)임. 정상적으로 작동하게 하려면 <a href=\"$a\">점검모드 끔</a>을 선택';
 $string['sitepolicies'] = '사이트 정책';
 $string['sitepolicy'] = '사이트 정책 URL';
 $string['sitesectionhelp'] = '이것을 켜 놓으면, 토픽 영역이 사이트 초기화면에 보일 것입니다.';
