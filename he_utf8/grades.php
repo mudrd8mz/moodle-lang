@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // grades.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['activities'] = 'פעילויות';
@@ -225,22 +225,22 @@ $string['gradetypehelp'] = 'סוג הציון שפריט זה משתמש בו. �
 $string['gradeview'] = 'צפה בציון';
 $string['gradeweighthelp'] = 'עזרה- משקל הציון';
 $string['groupavg'] = 'ממוצע הקבוצה';
-$string['hidden'] = 'חבוי';
+$string['hidden'] = 'מוסתר';
 $string['hiddenasdate'] = 'הראה תאריך הגשה עבור ציונים מוסתרים';
 $string['hiddenuntil'] = 'מוסתר עד';
 $string['hiddenuntildate'] = 'מוסתר עד: $a';
-$string['hideadvanced'] = 'החבא תכונות מתקדמות';
-$string['hideaverages'] = 'החבא ממוצעים';
-$string['hidecalculations'] = 'החבא חישובים';
-$string['hidecategory'] = 'חבוי';
-$string['hideeyecons'] = 'החבא צלמיות הראה/הסתר';
-$string['hidefeedback'] = 'החבא משוב';
+$string['hideadvanced'] = 'הסתר תכונות מתקדמות';
+$string['hideaverages'] = 'הסתר ממוצעים';
+$string['hidecalculations'] = 'הסתר חישובים';
+$string['hidecategory'] = 'מוסתר';
+$string['hideeyecons'] = 'הסתר צלמיות הראה/הסתר';
+$string['hidefeedback'] = 'הסתר משוב';
 $string['hideforcedsettings'] = 'הסתר הגדרות מאולצות';
-$string['hidegroups'] = 'החבא קבוצות';
-$string['hidelocks'] = 'החבא נעליות';
+$string['hidegroups'] = 'הסתר קבוצות';
+$string['hidelocks'] = 'הסתר נעליות';
 $string['hidenooutcomes'] = 'הראה תוצאות';
 $string['hidequickfeedback'] = 'הסתר משובים מהירים';
-$string['hideranges'] = 'החבא טווחים';
+$string['hideranges'] = 'הסתר טווחים';
 $string['hideverbose'] = 'הסתר $a->category$a->itemmodule $a->itemname';
 $string['highgradeascending'] = 'מיין לפי ציונים גבוהים בסדר עולה';
 $string['highgradedescending'] = 'מיין לפי ציונים גבוהים בסדר יורד';
@@ -311,7 +311,7 @@ $string['min'] = 'נמוך ביותר';
 $string['missingscale'] = 'סולם חייב להיבחר';
 $string['mode'] = 'מצב';
 $string['morethanmax'] = 'הציון מוכנס עבור $a->itemname עבור $a->username יותר מהמקסימלי המותר';
-$string['movingelement'] = 'הזז $a';
+$string['movingelement'] = 'הסט $a';
 $string['multfactor'] = 'כופל';
 $string['multfactorhelp'] = 'המקדם שבו כל הציונים לפריט ציון זה מוכפלים.';
 $string['myreportpreferences'] = 'מאפייני הדוח שלי';
@@ -410,7 +410,7 @@ $string['showcalculations'] = 'הראה חישובים';
 $string['showeyecons'] = 'הצג צלמיות הראה/הסתר';
 $string['showfeedback'] = 'הראה משוב';
 $string['showgroups'] = 'הראה קבוצות';
-$string['showhiddenitems'] = 'הצג פריטים חבויים';
+$string['showhiddenitems'] = 'הצג פריטים מוסתרים';
 $string['showlocks'] = 'הראה נעילות';
 $string['shownooutcomes'] = 'הסתר תוצאות';
 $string['showranges'] = 'הראה טווחים';

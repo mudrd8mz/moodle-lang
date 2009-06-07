@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // question.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['adminreport'] = 'דווח על בעיות אפשריות במסד הנתונים של שאלותיך';
@@ -39,7 +39,7 @@ $string['errorupdatingattempt'] = 'שגיאה בעדכון נסיון $a->id ב�
 $string['exportcategory'] = 'ייצא קטגוריה';
 $string['filesareacourse'] = 'אזור הקבצים של הקורס';
 $string['filesareasite'] = 'אזור בקסצים של האתר';
-$string['filestomove'] = 'העתק/הזז קבצים ל-$a?';
+$string['filestomove'] = 'העתק/הסט קבצים ל-$a?';
 $string['fractionsnomax'] = 'על אחת מהתשובות להיות בעלת תוצאה של 100%%, כך שזה יהיה אפשרי לקבל את מלוא הניקוד עבור שאלה זו.';
 $string['getcategoryfromfile'] = 'קבל קטגוריה מהקובץ';
 $string['getcontextfromfile'] = 'קבל הקשר מהקובץ';
@@ -47,19 +47,19 @@ $string['ignorebroken'] = 'התעלם מקישורים שבורים';
 $string['invalidcontextinhasanyquestions'] = 'מועבר הקשר לא חוקי question_context_has_any_questions.';
 $string['linkedfiledoesntexist'] = 'הקובץ המקuשר $a לא קים';
 $string['makechildof'] = 'בנה צאצא של  $a';
-$string['maketoplevelitem'] = 'הזז לרמה עליונה';
+$string['maketoplevelitem'] = 'הסט לרמה עליונה';
 $string['missingimportantcode'] = 'לסוג שאלה זה חסר קוד חשוב: $a.';
 $string['modified'] = 'שונה';
-$string['move'] = 'הזז מ-$a ושנה את הקישורים';
-$string['movecategory'] = 'הזז קטגוריה';
+$string['move'] = 'הסט מ-$a ושנה את הקישורים';
+$string['movecategory'] = 'הסט קטגוריה';
 $string['movedquestionsandcategories'] = 'שאלות וקטגוריית שאלות מועברים מ$a->oldplace to $a->newplace.';
 $string['movelinksonly'] = 'שנה את ההצבעה של הקישורים, אלח תזיז או תעתיק את הקבצים';
 $string['moveq'] = 'שאלות נוספות';
-$string['moveqtoanothercontext'] = 'הזז השאלה להקשר';
-$string['movingcategory'] = 'קטגורית הזזה';
+$string['moveqtoanothercontext'] = 'הסט השאלה להקשר';
+$string['movingcategory'] = 'הסטת קטגוריה';
 $string['movingcategoryandfiles'] = 'האם אתה בטוח שאתה רוצה להעביר את הקטגוריה  {$a->name} וכל צאצאי הקטגוריה לקונטקסט עבור \"{$a->contextto}\"?<br/> הבחנו {$a->urlcount} בקבצים המקושרים משאלות ב{$a-fromareaname}, האם תרצה להעתיק או להעביר אותם ל{$a->toareaname?';
 $string['movingcategorynofiles'] = 'האם אתה בטוח שאתה רוצה להזיז את קטגוריה \"{$a->name}\" וכל קטגוריות הצאצאים להקשר עבור \"{$a->contextto}?';
-$string['movingquestions'] = 'הזזת שאלות וכל קובץ שהוא';
+$string['movingquestions'] = 'הסטת שאלות וכל קובץ שהוא';
 $string['movingquestionsandfiles'] = 'האם אתה בטוח שאתה רוצה להעביר שאלות {$a->questions} לקונטקסט עבור <strong>\"{$a->tocontext}\"</strong>?<br /> הבחנו <strong>{$a->urlcount} בקבצים </strong> המקושרים משאלות אלו ב{$a->fromareaname}, האם תרצה להעתיק רו להעביר אותם ל{$a->toareaname}?';
 $string['movingquestionsnofiles'] = 'האם אתה בטוח שאתה רוצה להעביר שאלהות {$a->questions} לקונטקסט עבור <strong>\"{$a->tocontext}\"</strong>?<br/> לא נמצאו <strong> כל קבצים</strong> המקושרים משאלות אלו ב{$a->fromareaname}';
 $string['needtochoosecat'] = 'עליך לבחור קטגוריה להזיז זאלה זאת אליה או לחץ על \'בטל\'';
@@ -69,7 +69,7 @@ $string['noprobs'] = 'לא נמצאו בעיות כלשהן עם מסד הנתו
 $string['notenoughdatatoeditaquestion'] = 'לא פורטו, לא מספר זיהוי השאלה, לא מספר זיהוי הקטגוריה ולא סוג השאלה.';
 $string['notenoughdatatomovequestions'] = 'עליך לספק את מספרי הזיהוי של השאלות שאתה רוצה להזיז';
 $string['permissionedit'] = 'ערוך שאלה זאת';
-$string['permissionmove'] = 'הזז שאלה זאת';
+$string['permissionmove'] = 'הסט שאלה זאת';
 $string['permissionsaveasnew'] = 'שמור זאת כשאלה חדשה';
 $string['permissionto'] = 'יש לך רשות:';
 $string['published'] = 'פורסם';

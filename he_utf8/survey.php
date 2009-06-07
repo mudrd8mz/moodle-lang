@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+      // survey.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['actual'] = 'ממשי';
@@ -58,7 +58,7 @@ $string['attlsm1'] = 'עמדות בנוגע ללמידה וחשיבה.';
 $string['attlsm2'] = 'למידה מחוברת';
 $string['attlsm3'] = 'למידה נבדלת';
 $string['attlsmintro'] = 'בזמן דיון.....';
-$string['attlsname'] = 'ATTLS (גירסאת 20 הפריטים)';
+$string['attlsname'] = 'ATTLS (גירסת 20 הפריטים)';
 $string['ciq1'] = 'באיזה רגע במהלך הכיתה הרגשת הכי מעורב בתור לומד?';
 $string['ciq1short'] = 'הכי מעורב';
 $string['ciq2'] = 'באיזה רגע במהלך הכיתה הרגשת הכי מרוחק בתור לומד?';

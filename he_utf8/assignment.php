@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // assignment.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['allowdeleting'] = 'אפשר מחיקה';
@@ -114,9 +114,9 @@ $string['submitted'] = 'הוגש';
 $string['submittedfiles'] = 'קבצים שהוגשו';
 $string['trackdrafts'] = 'אפשר שליחה לצורך ציון';
 $string['typeoffline'] = 'פעילות לא מקוונת';
-$string['typeonline'] = 'טקסט מקוון';
-$string['typeupload'] = 'העלאה מתקדמת של קבצים';
-$string['typeuploadsingle'] = 'העלה קובץ יחיד';
+$string['typeonline'] = 'כתיבת טקסט מקוון';
+$string['typeupload'] = 'הגשת מספר קבצים';
+$string['typeuploadsingle'] = 'הגשת קובץ אחד';
 $string['unfinalize'] = 'החזר למצב טיוטא';
 $string['unfinalizeerror'] = 'שגיאה התרחשה ולא ניתן להחזיר הגשה זו חזרה לטיוטה';
 $string['uploadbadname'] = 'שם קובץ זה הכיל תווים אסורים ואי אפשר היה להעלותו';

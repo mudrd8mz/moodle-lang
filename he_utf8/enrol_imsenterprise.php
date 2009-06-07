@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.8 + (2007021503)
+      // enrol_imsenterprise.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['aftersaving...'] = 'מרגע ששמרת את ההגדרות שלך, יכול להיות שתרצה ל-';
 $string['allowunenrol'] = 'אפשר לנתוני ה- IMS <strong>לבטל את הרשמות</strong> התלמידים או המורים.';
 $string['basicsettings'] = 'הגדרות בסיסיות';
 $string['coursesettings'] = 'אפשרויות נתוני קורס';
-$string['createnewcategories'] = 'אם הן לא נמצאות במוודל, צור קטגוריות קורס חדשות (חבויות).';
-$string['createnewcourses'] = 'אם הם לא נמצאים במוודל, צור קורסים חדשים (חבויים).';
+$string['createnewcategories'] = 'אם הן לא נמצאות במוודל, צור קטגוריות קורס חדשות (מוסתרות).';
+$string['createnewcourses'] = 'אם הם לא נמצאים במוודל, צור קורסים חדשים (מוסתרים).';
 $string['createnewusers'] = 'צור חשבונות משתמשים עבור משתמשים שעדיין לא נרשמו למוודל.';
 $string['cronfrequency'] = 'התדירות של העיבוד';
 $string['deleteusers'] = 'מחק חשבונות משתמשים כאשר מצוין לעשות כך בנתוני ה-IMS';

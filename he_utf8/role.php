@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // role.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
@@ -54,7 +54,7 @@ $string['course:viewhiddensections'] = 'ראה קטעים מוסתרים';
 $string['course:viewhiddenuserfields'] = 'ראה שדות משתמשים מוסתרים';
 $string['course:viewparticipants'] = 'ראה משתתפים';
 $string['course:viewscales'] = 'ראה את סולמות הציונים';
-$string['course:visibility'] = 'החבא או הראה קורסים';
+$string['course:visibility'] = 'הסתר או הראה קורסים';
 $string['currentcontext'] = 'הקשר נוכחי';
 $string['currentrole'] = 'תפקיד נוכחי';
 $string['defaultrole'] = 'תפקיד ברירת המחדל';
@@ -122,8 +122,8 @@ $string['question:config'] = 'צור סוגי שאלה';
 $string['question:editall'] = 'ערוך את כל השאלות';
 $string['question:editmine'] = 'ערוך את השאלות שלך';
 $string['question:managecategory'] = 'נהל קטגוריות של שאלות';
-$string['question:moveall'] = 'הזז את כל השאלות';
-$string['question:movemine'] = 'הזז את השאלות שלך';
+$string['question:moveall'] = 'הסט את כל השאלות';
+$string['question:movemine'] = 'הסט את השאלות שלך';
 $string['question:useall'] = 'השתמש בכל השאלות';
 $string['question:usemine'] = 'השתמש בשאלות שלך';
 $string['question:viewall'] = 'הראה את כל השאלות';

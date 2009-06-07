@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006120700)
+      // editor.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['about'] = 'אודות עורך זה';
@@ -76,7 +76,7 @@ $string['linkurl'] = 'URL';
 $string['matchcase'] = 'התייחס לאותיות רישיות';
 $string['middle'] = 'אמצע';
 $string['minimize'] = 'מזער עורך';
-$string['move'] = 'הזז';
+$string['move'] = 'הסט';
 $string['multi'] = 'רב';
 $string['mustenterurl'] = 'חובה עליכם להכניס את כתובת ה-URL';
 $string['nolink'] = 'מנע יצירת קישורים אוטומטיים';

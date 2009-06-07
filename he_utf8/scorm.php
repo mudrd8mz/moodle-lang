@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // scorm.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['activation'] = 'הפעלה';
@@ -63,10 +63,10 @@ $string['height'] = 'גובה';
 $string['hidden'] = 'מוחבא';
 $string['hidebrowse'] = 'נטרל את מצב התצוגה המקדימה';
 $string['hidebrowsedesc'] = 'מאפיין זה מגדיר את ברירת המחדל של איפשור או ניטרול מצב \"תצוגה מקדימה\"';
-$string['hideexit'] = 'החבא את קישור היציאה';
-$string['hidenav'] = 'החבא את כפתורי הניווט';
+$string['hideexit'] = 'הסתר את קישור היציאה';
+$string['hidenav'] = 'הסתר את כפתורי הניווט';
 $string['hidenavdesc'] = 'מאפיין זה מגדיר את ברירת המחדל של הצגה או הסתרת כפתורי הניווט.';
-$string['hidereview'] = 'החבא את הכפתור: \'עיין בתשובות\'';
+$string['hidereview'] = 'הסתר את הכפתור: \'עיין בתשובות\'';
 $string['hidetoc'] = 'תצוגת מבנה הקורס (TOC)';
 $string['hidetocdesc'] = 'מאפיין זה מגדיר את ברירת המחדל הצגה או הסתרת הצגת מבנה הקורס';
 $string['highestattempt'] = 'ניסיון המענה בעל התוצאה הגבוהה ביותר';

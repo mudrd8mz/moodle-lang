@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 1.8 + (2007021503)
+      // enrol_ldap.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['description'] = '<p>כדי לשלוט בהירשמויות שלכם אתם יכולים להשתמש בשרת LDAP. 
@@ -48,7 +48,7 @@ $string['enrol_ldap_teacher_memberattribute'] = 'תכונת חבר, כאשר מ�
 $string['enrol_ldap_teacher_settings'] = 'הגדרות הרשמות מורים';
 $string['enrol_ldap_template'] = 'לבחירתכם: קורסים שנוצרו באופן אוטומטי יכולים להעתיק את ההגדרות שלהם מקורס-תבנית.';
 $string['enrol_ldap_updatelocal'] = 'עדכן נתונים מקומיים';
-$string['enrol_ldap_version'] = 'גירסאת הפרוטוקול של LDAP בה משתמש השרת שלך.';
+$string['enrol_ldap_version'] = 'גירסת הפרוטוקול של LDAP בה משתמש השרת שלך.';
 $string['enrolname'] = 'LDAP';
 
 ?>

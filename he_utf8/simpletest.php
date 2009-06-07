@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 1.8 + (2007021503)
+      // simpletest.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['all'] = 'הכל';
@@ -27,6 +27,6 @@ $string['summary'] = '{$a->run}/{$a->total} מקרי מבחן הושלמו: <str
 $string['thorough'] = 'הרץ מבחן יסודי (יכול להיות איטי).';
 $string['uncaughtexception'] = 'יוצא מן הכלל שלא נתפס [{$a->getMessage()}] ב- [{$a->getFile()}:{$a->getLine()}] מבחנים הופסקו.';
 $string['unittests'] = 'מבחני יחידה';
-$string['version'] = 'השתמש בגירסאת <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> $a.';
+$string['version'] = 'השתמש בגירסת <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> $a.';
 
 ?>

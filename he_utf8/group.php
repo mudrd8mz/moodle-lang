@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // group.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['addgroupstogrouping'] = 'הוסף קבוצות לאוסף הקבוצות';
@@ -20,7 +20,7 @@ $string['creategrouping'] = 'צור אוסף קבוצות';
 $string['creategroupinselectedgrouping'] = 'צור קבוצה באוסף הקבוצות הנבחר';
 $string['createingrouping'] = 'צור באוסף הקבוצות';
 $string['createorphangroup'] = 'צור קבוצה יתומה';
-$string['databaseupgradegroups'] = 'כעת גירסאת הקבוצה היא $a';
+$string['databaseupgradegroups'] = 'כעת גירסת הקבוצה היא $a';
 $string['defaultgrouping'] = 'ברירת מחדל לקיבוצים';
 $string['defaultgroupingname'] = 'אוסף קבוצות';
 $string['defaultgroupname'] = 'קבוצה';
@@ -60,7 +60,7 @@ $string['groupmember'] = 'חבר בקבוצה';
 $string['groupmemberdesc'] = 'תפקיד סטנדרתי לחבר בקבוצה';
 $string['groupmembers'] = 'חברי הקבוצה';
 $string['groupmembersonly'] = 'זמין רק לחברי הקבוצה';
-$string['groupmembersonlyerror'] = 'אנו מצטעירם, אולם אליך להיות חבר בלפחות קבוצה אחת שמשתשמים בה בפעילות זאת.';
+$string['groupmembersonlyerror'] = 'אנו מצטערים, אולם אליך להיות חבר בלפחות קבוצה אחת שמשתשמים בה בפעילות זאת.';
 $string['groupmemberssee'] = 'ראה את חברי הקבוצה';
 $string['groupmembersselected'] = 'חברי הקבוצה שנבחרה';
 $string['groupmode'] = 'מצב קבוצה';

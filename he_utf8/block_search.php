@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // block_search.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['asynchronous'] = 'אסינכרוני';
@@ -22,7 +22,7 @@ $string['configwordtotextenv'] = 'הגדרות סביבה עבור ממיר MSWo
 $string['disabled'] = 'מנוטרל';
 $string['disabledsearch'] = 'מנוע החיפוש הגלובלי מכובה. אנא ידע את מנהל המערכת.';
 $string['enabled'] = 'מופעל';
-$string['go'] = 'סע!';
+$string['go'] = 'חפש!';
 $string['handlingfor'] = 'טיפול נוסף עבור';
 $string['modulessearchswitches'] = 'הפעלת עורך אינדקסים  עבור מודולים';
 $string['nosearchableblocks'] = 'אין בלוקים הניתנים לחיפוש';
