@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.9.4+ (Build: 20090318) (2007101542)
-      // local modifications from http://localhost
+      // access.php - created with Moodle 2.0 dev (Build: 20090604) (2009060200)
 
 
 $string['access'] = 'प्रवेश';
