@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
 
 
 $string['additem'] = 'アイテムを追加する';
@@ -18,6 +18,7 @@ $string['existingcategory2'] = 'ファイル - このカテゴリ内の他の問
 $string['existingcategory3'] = 'リンク - このカテゴリ内の他の問題ですでに使用されている既存のリンクセットより';
 $string['forceregeneration'] = 'データを再生成する';
 $string['getnextnow'] = '追加するアイテムを今から取得する';
+$string['hexanotallowed'] = 'データセット <strong>{$a->name}</strong> では、16進形式の値 $a->value は許可されていません。';
 $string['item(s)'] = 'アイテム';
 $string['itemno'] = 'アイテム $a';
 $string['itemscount'] = 'アイテム<br />カウント';
@@ -37,7 +38,9 @@ $string['newcategory3'] = 'リンク - このカテゴリ内の他の問題で�
 $string['newlocal1'] = '文字 - この問題のみで使用される新しい文字セットより';
 $string['newlocal2'] = 'ファイル - この問題のみで使用される新しいファイルセットより';
 $string['newlocal3'] = 'リンク - この問題のみで使用される新しいリンクセットより';
+$string['nocommaallowed'] = '「,」は、使用できません。例えば、0.013 または 1.3e-2 を使用してください。';
 $string['nodataset'] = 'なし - これはワイルドカードではありません';
+$string['notvalidnumber'] = 'ワイルドカード値は、有効な数字ではありません。';
 $string['oneanswertrueansweroutsidelimits'] = '正解の範囲内で少なくとも1つの正解を表示する必要があります。<br />答えの許容誤差設定は、「拡張要素を表示する」ボタンをクリックすることで修正できます。';
 $string['param'] = '変数 {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'ランダム値と置換する';
