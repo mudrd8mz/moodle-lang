@@ -356,6 +356,7 @@ $string['outcomesstandard'] = 'תוצאות סטנדרטיות';
 $string['outcomesstandardavailable'] = 'תוצאות סטנדרטיות זמינות';
 $string['outcomestandard'] = 'תוצאה סטנדרטית';
 $string['outcomestandardhelp'] = 'תוצאה סטנדרטית זמינה בכל האתר ןלכל הקורסים';
+$string['overallaverage'] = 'ממוצע כללי';
 $string['overridden'] = 'רמיסה';
 $string['overriddenhelp'] = 'כאשר מופעל, דגל ההחלפה מונע כל נסיונות בעתיד להתאים באופן אוטומטי את ערך הציון. דגל זה מוצב לעיתים קרובות על ידי ספר הציונים, אבל ניתן לכבותו ולהדליקו באופן ידני על ידי שימוש בפריט זה.';
 $string['pctoftotalgrade'] = '%% מהציון הכולל';
