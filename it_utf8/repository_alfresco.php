@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // repository_alfresco.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // repository_alfresco.php - created with Moodle 2.0 dev (Build: 20090608) (2009060200)
 
 
 $string['alfresco_url'] = 'Alfresco URL';
+$string['alfrescourltext'] = 'L\'url delle API Alfresco dovrebbe essere http://tuosito.tld/alfresco/api';
 $string['configplugin'] = 'Configurazione di Alfresco';
 $string['notitle'] = 'senza titolo';
 $string['password'] = 'Password';

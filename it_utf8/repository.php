@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090608) (2009060200)
 
 
+$string['accessiblefilepicker'] = 'Selettore file accessibile';
 $string['activaterep'] = 'Repository attivi';
 $string['activerepository'] = 'Repository plugin attive';
 $string['add'] = 'Aggiungi';
