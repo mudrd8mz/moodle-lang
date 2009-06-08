@@ -2,11 +2,13 @@
       // portfolio.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
+$string['activeportfolios'] = 'Portfolio aktiboak';
 $string['addalltoportfolio'] = 'Dena gorde...';
-$string['addnewportfolio'] = 'Portfolio berria gehitu';
+$string['addnewportfolio'] = 'Gehitu beste portfolio bat';
 $string['addtoportfolio'] = 'Gorde...';
 $string['disabled'] = 'Barkatu, baina gune honetan portfolio-esportazioak ez daude gaituta';
 $string['enabled'] = 'Portfolioak gaitu';
+$string['exporting'] = 'Portoliora esportatzen';
 $string['failedtosendpackage'] = 'Errorea zure datuak aukeratutako portfolio-sistemara bidaltzean: jatorrizko errorea $a zen';
 $string['filedenied'] = 'Fitxategi honetarako sarbidea ukatuta';
 $string['filenotfound'] = 'Ez da fitxategia aurkitu';
