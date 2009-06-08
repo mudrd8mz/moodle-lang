@@ -3,8 +3,10 @@
 
 
 $string['adminreport'] = 'Zure galderen datu-basean izan daitezkeen arazoei buruzko txostena';
+$string['availableq'] = 'Eskuragarri?';
 $string['broken'] = 'Etendako esteka da hau: ez dagoen fitxategi batera eramaten du';
 $string['byandon'] = '<em>$a->user</em>-ek <em>$a->time</em>(et)an';
+$string['cannotcreatepath'] = 'Ezin da bidea sortu: $a';
 $string['cannotfindcate'] = 'Ezin da kategoriaren erregistroa aurkitu';
 $string['cannotinsertquestion'] = 'Ezin da beste galdera bat txertatu!';
 $string['cannotinsertquestioncate'] = 'Ezin da beste galdera-kategoria bat txertatu: $a';
@@ -31,10 +33,12 @@ Ondorengo kategoriek, zeinetatik aukeratzen dituzten goragoko kategoriek ausazko
 $string['cwrqpfsnoprob'] = 'Ez dago zure gunean \'Ausazko galderak galderak azpikategorietatik aukeratuta\' aukeraren eraginpeko kategoriarik';
 $string['defaultfor'] = '$a-ren berezko balioa';
 $string['defaultinfofor'] = '\'$a\' testuinguruan partekatutako galderetarako berezko kategoria.';
+$string['disabled'] = 'Desgaituta';
 $string['donothing'] = 'Ez kopiatu, ez mugitu fitxategirik eta ez aldatu estekarik.';
 $string['editingcategory'] = 'Kategoria editatzen';
 $string['editingquestion'] = 'Galdera editatzen';
 $string['emptyxml'] = 'Errore ezezaguna - imsmanifest.xml hutsik dago';
+$string['enabled'] = 'Gaituta';
 $string['erroraccessingcontext'] = 'Ezin da testuingurura iritsi';
 $string['errordeletingquestionsfromcategory'] = 'Errorea gertatu da $a kategoriatik galderak ezabatzean.';
 $string['errorfilecannotbecopied'] = 'Errorea: ezin da $a fitxategia kopiatu.';

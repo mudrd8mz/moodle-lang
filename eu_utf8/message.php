@@ -2,7 +2,7 @@
       // message.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
-$string['addcontact'] = 'Kontaktua gehitu';
+$string['addcontact'] = 'Gehitu kontaktua';
 $string['addsomecontacts'] = 'Norbaiti mezua bidaltzeko, edo horri laster-marka sortzeko orri honetan, erabili goiko <a href=\"$a\">search tab</a>.';
 $string['addsomecontactsincoming'] = 'Mezu hauek zure kontaktu-zerrendan ez dauden lagunenak dira. Horiek zure kontaktuetara gehitzeko,  sakatu izenaren ondoan dagoen \"Kontaktua gehitu\" ikonoa.';
 $string['ago'] = 'Orain dela $a';
@@ -12,7 +12,7 @@ $string['allstudents'] = 'Ikastaroko ikasleen arteko mezu guztiak';
 $string['allusers'] = 'Erabiltzaile guztien mezuak';
 $string['backupmessageshelp'] = 'Aktibatzen bada, GUNEko kopia automatikoetan gaineratuko dira bat-bateko mezuak.';
 $string['beepnewmessage'] = 'Abisatu mezu berririk dagoenean (nabigatzaileak soinuak jotzeko ahalmena izan behar du horretarako)';
-$string['blockcontact'] = 'Kontaktua blokeatu';
+$string['blockcontact'] = 'Blokeatu kontaktua';
 $string['blockedmessages'] = '$a mezu blokeatutako kontaktuengandik';
 $string['blocknoncontacts'] = 'Blokeatu kontaktu-zerrendan ez dauden guztien mezuak';
 $string['cannotsavemessageprefs'] = 'Ezin dira erabiltzailearen mezularitza-hobespenak gorde';
@@ -27,12 +27,15 @@ $string['emailmessages'] = 'Bidali e-postaz niretzako mezuak ni lineaz kanpo nag
 $string['emailtagline'] = 'E-posta hau \"$a\"-(r)i bidali zenion mezuaren kopia da';
 $string['emptysearchstring'] = 'Zerbait bilatu beharko duzu!';
 $string['formorethan'] = 'Denbora-tarte hau gaindituz gero';
+$string['guestnoeditmessage'] = 'Bisitariek ezin dituzte mezularitzaren aukerak editatu';
+$string['guestnoeditmessageother'] = 'Bisitariek ezin dituzte beste erabiltzaileen mezularitzaren aukerak editatu';
 $string['includeblockedusers'] = 'Blokeatutako erabiltzaileak barne';
 $string['incomingcontacts'] = 'Kontaktu izateko eskariak';
 $string['keywords'] = 'Hitz-gakoak';
-$string['keywordssearchresults'] = 'Bilaketaren emaitza: $a mezu';
+$string['keywordssearchresults'] = 'Bilaketaren emaitza: $a mezu aurkituta';
 $string['loggedin'] = 'Online';
-$string['mailsent'] = 'Zure mezua e-posta bidez bidali zen';
+$string['loggedoff'] = 'Ez dago online';
+$string['mailsent'] = 'Zure mezua e-posta bidez bidali da.';
 $string['maxmessages'] = 'Eztabaidaren historian erakutsi beharreko gehienezko mezu kopurua';
 $string['message'] = 'Mezua';
 $string['messagehistory'] = 'Mezuen historia';
@@ -73,6 +76,6 @@ $string['unblockcontact'] = 'Desblokeatu kontaktuak';
 $string['unreadmessages'] = 'Irakurri gabeko $a mezu';
 $string['userisblockingyou'] = 'Erabiltzaile honek blokeatu egin zaitu eta ezin diozu mezurik bidali';
 $string['userisblockingyounoncontact'] = 'Erabiltzaile honek bere kontaktu-zerrendan daudenen mezuak bakarrik onartzen ditu eta zu, oraindik, ez zaude zerrenda horretan.';
-$string['userssearchresults'] = 'Bilaketaren emaitza: $a erabiltzaile aurkitu dira';
+$string['userssearchresults'] = 'Bilaketaren emaitza: $a erabiltzaile aurkituta';
 
 ?>

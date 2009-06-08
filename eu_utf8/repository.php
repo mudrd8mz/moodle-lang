@@ -2,8 +2,9 @@
       // repository.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
+$string['activaterep'] = 'Biltegi aktiboa';
 $string['add'] = 'Gehitu';
-$string['addplugin'] = 'Biltegi-plugina gehitu';
+$string['addplugin'] = 'Gehitu biltegi-plugina';
 $string['areabackup'] = 'Segurtasun-kopiak';
 $string['areacategoryintro'] = 'Kategoriaren sarrera';
 $string['areacourseintro'] = 'Ikastaroaren sarrera';
@@ -26,6 +27,7 @@ $string['date'] = 'Data';
 $string['deleted'] = 'Biltegia ezabatuta';
 $string['deleterepository'] = 'Biltegi hau ezabatu';
 $string['download'] = 'Jaitsi';
+$string['downloadsucc'] = 'Fitxategia ondo jaitsi da';
 $string['editrepositoryinstance'] = 'Editatu biltegi-instantzia';
 $string['emptytype'] = 'Ezin da bltegi-mota sortu: motaren zena hutsik dago';
 $string['enablecourseinstances'] = 'Gaitu ikastaro-biltegiak';
@@ -34,7 +36,7 @@ $string['error'] = 'Errore ezezagun bat gertatu da!';
 $string['existingrepository'] = 'Biltegia lehendik bazen';
 $string['filename'] = 'Fitxategiaren izena';
 $string['filesaved'] = 'Fitxategia gorde egin da';
-$string['getfile'] = 'Fitxategi hau aukeratu';
+$string['getfile'] = 'Aukeratu fitxategi hau';
 $string['hiddenshow'] = 'Ezkutatu/Erakutsi';
 $string['instance'] = 'instantzia';
 $string['instancedeleted'] = 'Instantzia ezabatuta';

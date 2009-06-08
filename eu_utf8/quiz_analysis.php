@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // quiz_analysis.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['analysis'] = 'Elementuen analisia';
@@ -12,7 +12,7 @@ $string['attemptselection'] = 'Erabiltzaileak aztertu beharreko saiakerak';
 $string['attemptsfirst'] = 'Lehenbiziko saiakera';
 $string['attemptshighest'] = 'Kalifikazio altuena';
 $string['attemptslast'] = 'Azken saiakera';
-$string['dicsindextitle'] = 'Disk.<br/>Aurkibidea';
+$string['dicsindextitle'] = 'Disk.<br/>Indizea';
 $string['disccoefftitle'] = 'Disk.<br/>Koef.';
 $string['downloadhtml'] = 'Taula osoa HTML formatuan jaitsi';
 $string['downloadooo'] = 'OpenOffice formatuan deskargatu';

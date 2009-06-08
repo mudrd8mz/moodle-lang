@@ -41,15 +41,21 @@ $string['database'] = 'Datu-basea';
 $string['databasecreationsettings'] = 'Orain Moodle-ren datu gehienak bilduko dituen datu-basearen ezarpenak zehaztu behar dituzu. Instalatzaileak, beherago zehaztutako ezarpenen arabera, datu-basea sortuko du.<br />
 <br /> <br />
 <b>Mota:</b> lehenetsitako balorea \"mysql\" da<br />
-<b>Zerbitzaria:</b> lehenetsitako balorea \"localhost\"da<br />
+<b>Ostalaria:</b> lehenetsitako balorea \"localhost\"da<br />
 <b>Izena:</b> datu-basearen izena, ad., moodle<br />
 <b>Erabiltzailea:</b> lehenetsitako balorea  \"root\" da<br />
 <b>Pasahitza:</b> datu-basearen pasahitza<br />
 <b>Taulen aurrizkia:</b> taula guztietarako aukerazko aurrizkia';
 $string['databasecreationsettingshead'] = 'Orain Moodle-ren datu gehienak bilduko dituen datu-basearen ezarpenak zehaztu behar dituzu. Instalatzaileak, beherago zehaztutako ezarpenen arabera, datu-basea sortuko du.';
 $string['databasecreationsettingssub'] = '<b>Mota:</b> lehenetsitako balorea \"mysql\" da<br />
-<b>Zerbitzaria:</b> lehenetsitako balorea \"localhost\" da<br />
-<b>Izena:</b>datu-basearen izena, ad., moodle<br />
+<b>Ostalaria:</b> lehenetsitako balorea \"localhost\" da<br />
+<b>Izena:</b>datu-basearen izena, adib. moodle<br />
+<b>Erabiltzailea:</b> lehenetsitako balorea  \"root\" da<br />
+<b>Pasahitza:</b> datu-basearen pasahitza<br />
+<b>Taulen aurrizkia:</b> taula guztietarako aukerazko aurrizkia';
+$string['databasecreationsettingssub2'] = '<b>Mota:</b> lehenetsitako balorea \"mysql\" da<br />
+<b>Ostalaria:</b> ehenetsitako balorea \"localhost\" dar<br />
+<b>Izena:</b>datu-basearen izena, adib. moodle<br />
 <b>Erabiltzailea:</b> lehenetsitako balorea  \"root\" da<br />
 <b>Pasahitza:</b> datu-basearen pasahitza<br />
 <b>Taulen aurrizkia:</b> taula guztietarako aukerazko aurrizkia';
@@ -60,18 +66,48 @@ $string['databasepass'] = 'Datu-basearen pasahitza';
 $string['databasesettings'] = 'Orain Moodle-ren datu gehienak bilduko dituen datu-basearen ezarpenak zehaztu behar dituzu. Datu-base hori aldez aurretik sortu behar zen eta erabiltzaile-izena eta sarbide-pasahitza izan beharko lituzke.<br />
 <br /> <br />
 <b>Mota:</b> mysql edo postgres7<br />
-<b>Zerbitzaria:</b> ad., localhost edo db.isp.com<br />
-<b>Izena:</b> datu-basearen izena, ad., moodle<br />
+<b>Ostalaria:</b> adib. localhost edo db.zuredomeinua.com<br />
+<b>Izena:</b> datu-basearen izena, adib. moodle<br />
 <b>Erabiltzailea:</b> datu-basearen erabiltzaile-izena<br />
 <b>Pasahitza:</b> datu-basearen pasahitza<br />
 <b>Taulen aurrizkia:</b> taula-izen guztietan erabiliko den aurrizkia';
 $string['databasesettingsformoodle'] = 'Datu-basearen ezarpenak Moodle-rako';
 $string['databasesettingshead'] = 'Orain Moodle-ren datu gehienak bilduko dituen datu-basearen ezarpenak zehaztu behar dituzu. Datu-base hori aldez aurretik sortu behar zen eta erabiltzaile-izena eta sarbide-pasahitza izan beharko lituzke.';
 $string['databasesettingssub'] = '<b>Mota:</b> mysql edo postgres7<br />
-<b>Zerbitzaria:</b> p.ej.: localhost edo db.zuredomeinua.com<br />
-<b>Erabiltzailea:</b> datu-basearen erabiltzaile-jabea<br />
-<b>Pasahitza:</b> datu-basearen erabiltzailearen pasahitza<br />
+<b>Ostalaria:</b> adib. localhost edo db.zuredomeinua.com<br />
+<b>Erabiltzailea:</b> datu-basearen erabiltzailea<br />
+<b>Pasahitza:</b> datu-basearen pasahitza<br />
 <b>Taulen aurrizkia:</b> taula guztietan erabiltzeko aukerazko aurrizkia';
+$string['databasesettingssub_mssql'] = '<b>mota:</b> SQL*Server (UTF-8-rik ez) <b><strong class=\"errormsg\">Esperimentala! (ez erabili produkzioan)</strong></b><br />
+<b>Ostalaria:</b> adib. localhost edo  db.zuredomeinua.com<br />
+<b>Izena:</b> datu-basearen izena,  adib.  moodle<br />
+<b>Erabiltzailea:</b> zure datu-basearen erabiltzaile-izena<br />
+<b>Pasahitza:</b> zure datu-basearen pasahitza<br />
+<b>Taulen aurrizkia:</b> taulen izen guztietarako erabilitako aurrizkia (derrigorrezkoa)';
+$string['databasesettingssub_mssql_n'] = 'b>Mota:</b> SQL*Server (UTF-8 gaituta)<br />
+<b>Ostalaria:</b> adib. localhost edo  db.zuredomeinua.com<br />
+<b>Izena:</b> datu-basearen izena, adib. moodle<br />
+<b>erabiltzailea:</b> zure datu-basearen pasahitza<br />
+<b>Pasahitza:</b> zure datu-basearen pasahitza<br />
+<b>Taulen aurrizkia:</b> taulen izen guztietarako erabilitako aurrizkia (derrigorrezkoa)';
+$string['databasesettingssub_mysql'] = '<b>Mota:</b> MySQL<br />
+<b>Ostalaria:</b> adib. localhost edo db.zuredomeinua.com<br />
+<b>Izena:</b> datu-basearen izena, adib. moodle<br />
+<b>Erabiltzaile-izena:</b> zure datu-basearen erabiltzaile-izena<br />
+<b>Pasahitza:</b> zure datu-basearen pasahitza<br />
+<b>Taulen aurrizkia:</b> taulen izen guztietarako erabilitako aurrizkia (aukerakoa)';
+$string['databasesettingssub_mysqli'] = '<b>Mota:</b> Improved MySQL<br />
+<b>Ostalaria:</b> adib. localhost edo db.zuredomeinua.com<br />
+<b>Izena:</b> datu-basearen izena, adib. moodle<br />
+<b>Erabiltzaile-izena:</b> zure datu-basearen erabiltzaile-izena<br />
+<b>Pasahitza:</b> zure datu-basearen pasahitza<br />
+<b>Taulen aurrizkia:</b> taulen izen guztietarako erabilitako aurrizkia (aukerakoa)';
+$string['databasesettingssub_oci8po'] = '<b>Mota:</b> Oracle<br />
+<b>Ostalaria:</b> erabili gabea, zuriz utz daitek<br />
+<b>Izena:</b>tnsnames.ora konezioaren izena<br />
+<b>Erabiltzailea:</b> zure datu-basearen erabiltzaile-izena<br />
+<b>Pasahitza:</b> zure datu-basearen pasahitza<br/>
+<b>Taulen aurrizkia:</b> taulen izen guztietarako erabilitako aurrizkia (derrigorrezkoa, gehienez, 2cc.)';
 $string['databasetype'] = 'Datu-base mota:';
 $string['databaseuser'] = 'Datu-basearen erabiltzailea';
 $string['dataroot'] = 'Datu-direktorioa';
@@ -90,7 +126,7 @@ Moodle-ri non dagoen kokaturik esan behar diozu. Moodle instalatu den internetek
 Kokapen honetarako bide osoa zehaztu.
 Maiuskulak eta minuskulak ongi daudela ziurtatu.</p>
 <p><b>Datu-direktorioa:</b>
-Moodle-k igotako fitxategiak gordeko ditueneko tokia behar duzu. Direktorio horretan web zerbatzariko erabiltzaileek irakurri eta IDATZI ahal izango dute (normalean \'nobody\' edo \'apache\'), baina ez da komenigarria webetik zuzenean sartu ahal izatea.</p>';
+Moodle-k igotako fitxategiak gordeko ditueneko tokia behar duzu. Direktorio horretan web zerbatzariko erabiltzaileek irakurri eta IDATZI ahal izango dute (normalean \'nobody\' edo \'apache\'), baina ez da komenigarria web-etik zuzenean sartu ahal izatea.</p>';
 $string['directorysettingshead'] = 'Mesedez, baieztatu zure instalazioaren kokapenak';
 $string['directorysettingssub'] = '<b>Web helbidea:</b>
 Moodlera sartzeko web helbide osoa zehaztu.
@@ -171,7 +207,7 @@ $string['memorylimit'] = 'Memoriaren muga';
 $string['memorylimiterror'] = 'PHP memoriaren muga baxuegia da... Beranduago arazoak izan ditzakezu.';
 $string['memorylimithelp'] = '<p>Zure zerbitzarian PHP memoria-muga $a da.</p>
 
-<p>Aurrerago honek Moodleri arazoak sor diezaizkioke, bereziki modulo edo/eta erabiltzaile asko badituzu.</p>
+<p>Aurrerago honek Moodle-ri arazoak sor diezaizkioke, bereziki modulu edo/eta erabiltzaile asko badituzu.</p>
 
 <p>PHP muga altuenarekin konfiguratzea aholkatzen dizugu, ad. 40M.
 Hori egiteko modu asko daude:</p>

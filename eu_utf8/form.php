@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // form.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addfields'] = 'Gehitu $a eremu formularioari';
@@ -34,6 +34,8 @@ $string['security'] = 'Segurtasuna';
 $string['selectallornone'] = 'Guztiak/Bat erez aukeratu';
 $string['showadvanced'] = 'Erakutsi aurreratuak';
 $string['somefieldsrequired'] = 'Formulario honetan derrigorrezko eremuak daude';
+$string['time'] = 'Denbora';
+$string['timeunit'] = 'Denbora-unitatea';
 $string['timing'] = 'Denbora';
 $string['unmaskpassword'] = 'Agerian jarri';
 $string['year'] = 'Urtea';

@@ -1,7 +1,11 @@
 <?PHP // $Id$ 
-      // portfolio_boxnet.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // portfolio_boxnet.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['apikey'] = 'API giltza';
+$string['password'] = 'Zure box.net-eko pasahitza (ez da gordetzen)';
+$string['sharefile'] = 'Fitxategi hau partekatu nahi al duzu?';
+$string['sharefolder'] = 'Direktorio berri hau partekatu nahi al duzu?';
+$string['username'] = 'Zure box.net-eko erabiltzaile-izena (ez da gordetzen)';
 
 ?>
