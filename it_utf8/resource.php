@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20090520) (2009051700)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090608) (2009060200)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -39,7 +39,7 @@ $string['deploy'] = 'Pubblica';
 $string['deployall'] = 'Pubblica tutto';
 $string['directlink'] = 'Collegamento diretto a questo file';
 $string['directoryinfo'] = 'Saranno mostrati tutti i file e le cartelle contenuti nella cartella che avete scelto.';
-$string['display'] = 'La risorsa verrà visualizzata';
+$string['display'] = 'Visualizzazione';
 $string['editingaresource'] = 'Modifica una risorsa';
 $string['emptyfolder'] = 'Cartella vuota';
 $string['encryptedcode'] = 'Codice criptato';
@@ -58,7 +58,7 @@ $string['htmlfragment'] = 'Codice HTML';
 $string['imspackageloaded'] = 'Pacchetto caricato';
 $string['invalidassignment'] = 'Assegnazione errata';
 $string['invalidid'] = 'L\'ID della risorsa è errato';
-$string['keepnavigationvisible'] = 'Mantieni visibile la navigazione sulla stessa pagina';
+$string['keepnavigationvisible'] = 'Visualizza elementi di navigazione';
 $string['keepnavigationvisibleno'] = 'No';
 $string['keepnavigationvisibleyesframe'] = 'Si, con frame';
 $string['keepnavigationvisibleyesobject'] = 'Si, senza frame';

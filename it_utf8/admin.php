@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090605) (2009060200)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090608) (2009060200)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -101,7 +101,7 @@ $string['configautolang'] = 'Rileva la lingua di default dalle impostazioni del 
 $string['configautologinguests'] = 'Selezionando questa opzione, i visitatori potranno accedere direttamente ai corsi che consentono l\'accesso agli ospiti';
 $string['configbloglevel'] = 'Questa impostazione permette di regolare la visibilità dei blog degli utenti. L\'impostazione regola la visibilità del blog per colui che legge i blog degli utenti ma non altera il privilegio degli utenti di scrivere nel proprio blog. Se non desiderati, i blog possono essere disabilitati.';
 $string['configcachetext'] = 'Per siti molto ampi o siti che utilizzano filtri di testo, queste impostazioni possono davvero velocizzare molto la navigazione. Le copie dei testi saranno mantenute nella loro forma originaria per il tempo specificato qui. Impostazioni con valori di spazio molto ridotto potrebbero provocare un rallentamento generale, mentre Impostazioni con valori di spazio troppo ampi potrebbe portare a tempi troppo lunghi nel refresh dei testi principali (in caso di nuovi collegamenti, per esempio)';
-$string['configcachetype'] = 'Scegli il tipo di cache che Moodle utilizzerà. Questo configurerà solamente la cache, ma ricorda di abilitare rcache affinché la cache sia usata per qualcosa. Usa questa impostazione <strong>solamente</strong> se è necessario ridurre il carico sul database - altrimenti Moodle girerà più lentamente. I siti a medio traffico possono vedere benefici usando \"internal\". Un singolo webserver con installati eAccelerator o Turckmmcache, <em>con abilitate le opzioni \"shared memory\" </em>, dovrebbe provare \"eaccelerator\". Se avete una installazione multiple-server, e avete uno o più demon memcached in esecuzione e l\'estensione PHP-memcached, selezionate \"memcached\" e configurate le sottostanti opzioni memcached. <br /><strong>Nota:</strong> assicuratevi di testare le performance sotto carico e regolate i parametri di conseguenza - la cache può rendere il vostro sito più lento. In situazioni di elevato traffico, eAccelerator e memcached possono produrre i benefici maggiori, ma hanno i costi più alti in termini di uso della CPU sul webserver.';
+$string['configcachetype'] = 'E\' possibile impostare il tipo di cache che sarà utilizzata da Moodle. L\'impostazione configura solamente la cache, ricordare di abilitare rcache affinché la cache sia usata realmente. Questa impostazione è utile <strong>solo</strong> se è necessario ridurre il carico sul database - altrimenti Moodle potrebbe girare più lentamente. I siti a medio traffico possono ottenere benefici usando il tipo \"internal\". Un singolo webserver con installati eAccelerator o Turckmmcache, <em>con le opzioni \"shared memory\" abilitate </em>, dovrebbe provare \"eaccelerator\". Se avete una installazione multiple-server e avete uno o più demon memcached in esecuzione e l\'estensione PHP-memcached, selezionate \"memcached\" e configurate le sottostanti opzioni memcached. <br /><strong>Nota:</strong> assicuratevi di provare le performance sotto carico e regolate i parametri di conseguenza - la cache potrebbe rendere il vostro sito più lento. In situazioni di elevato traffico, eAccelerator e memcached possono produrre i benefici maggiori, ma hanno i costi più alti in termini di uso della CPU del server.';
 $string['configcalendarexportsalt'] = 'Il seme generato a caso viene utilizzato per rendere più sicuri i token di autenticazione usati per l\'esportazione dei calendari. Potete cambiare il seme ma tutti i token di autenticazione al momento attivi non saranno più validi.';
 $string['configclamactlikevirus'] = 'Considera i file infetti';
 $string['configclamdonothing'] = 'Considera OK i file';
@@ -121,7 +121,7 @@ $string['configcronclionly'] = 'Questa opzione disabilita l\'esecuzione del cron
 $string['configcronremotepassword'] = 'Questo significa che lo script cron.php non può essere eseguito da un browser web senza fornire la password usando il seguente formato di URL:<pre>
 http://site.example.com/admin/cron.php?password=opensesame
 </pre> Se l\'impostazione è lasciata vuota, non è richiesta alcuna password.';
-$string['configcurlcache'] = 'Time-to-live, in secondi, della cache cURL';
+$string['configcurlcache'] = 'Time-to-live, espresso in secondi, della cache cURL';
 $string['configdbsessions'] = 'E\' possibile memorizzare le informazioni delle sessioni nel database. L\'impostazione è particolarmente utile  per siti molto grandi, con molto traffico o per siti in cluster. Per la maggior parte dei siti questa impostazione può essere lasciata al suo default, in modo da memorizzare i dati di sessione nel file system. Attenzione: cambiare questa impostazione provoca il logout dal sito di tutti gli utenti collegati, voi compresi.';
 $string['configdebug'] = 'Attivando questa opzione, verrà  incrementata la reportistica di errore di PHP, aumentando i messaggi di errore. Questa opzione è utile solo per gli sviluppatori.';
 $string['configdebugdisplay'] = 'Marcando questa opzione, il report degli errori andrà alla pagina HTML. Questo è comodo, ma in generale altera XHTML, JS, i cookies e gli header HTTP. Senza questa opzione, l\'output sarà inviato sui log del vostro server, permettendo un miglior debugging. L\'impostazione PHP error_log controlla su quale log finirà suddetto output.';
@@ -190,7 +190,7 @@ $string['configidnumber'] = 'Questa opzione specifica se:
 a) all\'utente non viene richiesto un numero ID in assoluto.
 b) all\'utente viene richiesto un numero ID ma può lasciarlo in bianco.
 c) all\'utente viene richiesto un numero ID e non può lasciarlo in bianco. Se attivato, il numero ID è viualizzato nel profilo degli utenti.';
-$string['configintcachemax'] = 'Solo per la cache di tipo \"internal\". Massimo numero di record da tenere nella cache. Valore consigliato: 50. Usare valori più bassi per ridurre l\'uso della memoria.';
+$string['configintcachemax'] = 'Impostazione valida solo per la cache di tipo \"internal\". Numero massimo di record da mantenere nella cache. Valore consigliato: 50. Per ridurre l\'uso della memoria utilizzate valori minori.';
 $string['configintro'] = 'In questa pagina si possono specificare un numero di variabili di configurazione che aiutano Moodle a lavorare correttamente sul vostro server.
 Non vi preoccupate troppo a riguardo, i valori predefiniti in genere svolgono bene il loro compito e potete sempre tornare su questa pagina in un secondo momento per cambiare queste impostazioni.';
 $string['configintroadmin'] = 'In questa pagina si dovrebbe configurare l\'account dell\'Amministratore principale che avrà  il controllo completo sul sito. Assicuratevi di fornire uno username e una password sicuri, così come un indirizzo E-mail valido.
@@ -223,8 +223,8 @@ In alternativa, la dimensione massima può essere scelta a livello dei corsi o d
 $string['configmaxconsecutiveidentchars'] = 'Le password non devono contenere un numero di caratteri identici e consecutivi maggiori del valore specificato. Per disabilitare questa verifica inserite il valore 0.';
 $string['configmaxeditingtime'] = 'Questo parametro specifica il tempo massimo a disposizione degli utenti per per modificare i loro interventi su forum, commenti del glossario, eccetera. Normalmente 30 minuti è un valore adeguato.';
 $string['configmaxevents'] = 'Eventi da anticipare';
-$string['configmemcachedhosts'] = 'Per cache di tipo \"memcached\". Lista degli host, separati da virgole, che hanno attivo il daemon memcached. Usare indirizzi IP per evitare la DNS latency (tempo per la traduzione). La memcached non funziona bene se si aggiungono o rimuovono host durante il setup.';
-$string['configmemcachedpconn'] = 'Per le cache di tipo \"memcached\". Usa connessioni persistenti. Usare con attenzione -- potrebbe provocare un crash di Apache/PHP dopo un restart del demone memcached.';
+$string['configmemcachedhosts'] = 'Per la cache di tipo \"memcached\". Un elenco (separato da virgole) di host dove è in esecuzione il demone memcached. Si consiglia di usare indirizzi IP per evitare la latenza dovuta alla risoluzione dei nomi tramite DNS. Il tipo di cache memcached non funziona bene se aggiungete o togliete host già configurati.';
+$string['configmemcachedpconn'] = 'Per la cache di tipo \"memcached\". Utilizzo di connessioni persistenti. Usate con attenzione questa impostazione poiché potrebbe provocare un crash di Apache/PHP subito dopo il riavvio del demone memcached.';
 $string['configmessaging'] = 'Attiva il sistema di messaggistica per gli utenti del sito';
 $string['configminpassworddigits'] = 'Le password devono avere almeno questo numero di caratteri numerici.';
 $string['configminpasswordlength'] = 'Le password devono essere lunghe almeno questo numero di caratteri.';
@@ -255,8 +255,8 @@ $string['configproxyport'] = 'Specificate la porta usata dal proxy per accedere 
 $string['configproxytype'] = 'Tipo di proxy (per il supporto SOCKS5 sono necessari il PHP5 e l\'estensione cURL ).';
 $string['configproxyuser'] = 'Username abilitato ad accedere ad internet attraverso il proxy, lasciare vuoto se non utilizzato (è necessaria l\'estensione PHP cURL).';
 $string['configquarantinedir'] = 'Se desiderate che Clam antivirus sposti eventuali file infetti in una cartella di quarantena, inseritene il percorso qui. La cartella deve avere i permessi di scrittura da parte del server web. Se lasciate in bianco, o se configurate una directory inesistente o senza i permessi di scrittura necessari, i files infetti saranno eliminati. Non inserite slash di percorso.';
-$string['configrcache'] = 'Utilizza la cache per memorizzare i record di database. Ricordarsi di impostare anche il tipo di cache!';
-$string['configrcachettl'] = 'Time-To-Live (tempo di esistenza) dei record in cache. Usare un valore basso (&lt;15).';
+$string['configrcache'] = 'Utilizzo della cache per memorizzare i record del database. Se attivate la cache dei record ricordatevi anche di impostare il tipo di cache!';
+$string['configrcachettl'] = 'Time-To-Live (tempo di permanenza) dei record in cache. Si consiglia di usare un valore basso (<15).';
 $string['configrecaptchaprivatekey'] = 'Stringa di caratteri usata per comunicare tra il proprio server Moodle e il server recaptcha.net. Chiederne una per questo sito visitando http://recaptcha.net';
 $string['configrecaptchapublickey'] = 'Stringa di caratteri usata per mostrare l\'elemento reCAPTCHA nel pannello di iscrizione. Generata da http://recaptcha.net';
 $string['configrequestedstudentname'] = 'Termine per \'studente\' da utilizzare nel corsi richiesti';
@@ -480,7 +480,7 @@ $string['frontpagefilters'] = 'Filtri pagina principale';
 $string['frontpageloggedin'] = 'Elementi della pagina principale dopo il login';
 $string['frontpageoverrides'] = 'Modifiche ai permessi della Pagina principale';
 $string['frontpagequestions'] = 'Domande';
-$string['frontpagerestore'] = 'Ripristina';
+$string['frontpagerestore'] = 'Ripristino';
 $string['frontpageroles'] = 'Ruoli';
 $string['frontpagesettings'] = 'Impostazioni';
 $string['fullnamedisplay'] = 'Formato del nome completo';
@@ -745,8 +745,8 @@ $string['questioncwqpfscheck'] = 'Una o più domande \"a caso\" in un quiz sono 
 $string['questioncwqpfsok'] = 'Bene. Non ci sono domande \"a caso\" nei tuoi quiz impostate in modo da pescare le domande da un misto di categorie condivise e non.';
 $string['questiontype'] = 'Tipo domanda';
 $string['questiontypes'] = 'Tipi domande';
-$string['rcache'] = 'Record cache';
-$string['rcachettl'] = 'Record cache TTL';
+$string['rcache'] = 'Cache dei record';
+$string['rcachettl'] = 'TTL della cache dei record';
 $string['recaptchaprivatekey'] = 'Chiave privata reCAPTCHA';
 $string['recaptchapublickey'] = 'Chiave pubblica reCAPTCHA';
 $string['registration'] = 'Registrazione';
