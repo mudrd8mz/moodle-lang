@@ -1,18 +1,18 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // choice.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['addmorechoices'] = 'הוסף אפשרויות נוספות';
 $string['allowupdate'] = 'אפשר לעדכן את הבחירה';
 $string['answered'] = 'נענה';
-$string['choice'] = 'בחירה $a';
+$string['choice'] = 'שאלת סקר $a';
 $string['choice:choose'] = 'שמור בחירה';
 $string['choice:deleteresponses'] = 'מחק את התגובות';
 $string['choice:downloadresponses'] = 'הורד את התגובות';
 $string['choice:readresponses'] = 'קרא את התגובות';
 $string['choiceclose'] = 'עד';
 $string['choicefull'] = 'בחירה זו מלאה ולא קיימים מקומות נוספים';
-$string['choicename'] = 'שם בחירה';
+$string['choicename'] = 'שם שאלת הסקר';
 $string['choiceopen'] = 'פתח';
 $string['choicesaved'] = 'הבחירה שלך נשמרה';
 $string['choicetext'] = 'טקסט בחירה';
@@ -25,8 +25,8 @@ $string['full'] = '(מלא)';
 $string['havetologin'] = 'עליך להתחבר לחשבונך לפני שתוכל לשלוח את בחירתך';
 $string['limit'] = 'הגבלה';
 $string['limitanswers'] = 'הגבל את מספר התשובות המורשות';
-$string['modulename'] = 'בחירה';
-$string['modulenameplural'] = 'בחירות';
+$string['modulename'] = 'שאלת סקר';
+$string['modulenameplural'] = 'שאלות סקר';
 $string['mustchooseone'] = 'אתה חייב לבחור תשובה לפני שאתה שומר. דבר לא נשמר.';
 $string['noguestchoose'] = 'אנו מצטערים, אבל אורחים לא מורשים לעשות בחירות.';
 $string['noresultsviewable'] = 'כרגע לא ניתן לצפות בתוצאות.';
