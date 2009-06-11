@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.9 Beta + (2007081600)
+      // wiki.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['action'] = '-- פעולה --';
@@ -98,7 +98,7 @@ $string['lockcancelled'] = 'מנעול העריכה שלך נעקף, וכעת מ
 $string['meta'] = 'מטה-נתונים';
 $string['moduledirectory'] = 'סיפריית מודול';
 $string['modulename'] = 'Wiki';
-$string['modulenameplural'] = 'Wikis';
+$string['modulenameplural'] = 'Wiki(s)';
 $string['mostoftenchangedpages'] = 'עמודים ששונו בתכיפות הכי גבוהה';
 $string['mostvisitedpages'] = 'העמודים שבוקרו הכי הרבה';
 $string['newestpages'] = 'העמודים החדשים ביותר';
@@ -117,7 +117,7 @@ $string['offline'] = 'לא מקוון';
 $string['optional'] = 'לבחירתכם';
 $string['orphanedpage'] = 'עמוד יתום';
 $string['orphanedpages'] = 'עמודים יתומים';
-$string['otherwikis'] = 'Wikis אחרים';
+$string['otherwikis'] = 'Wiki(s) אחרים';
 $string['overridebutton'] = 'עקוף את הנעילה';
 $string['overrideinfo'] = 'באפשרותך לעקוף את הנעילה של המשתמש הזה. אבל אם תעשה כן, אתה עלול לגרום לו לאבד את השינויים שהוא עשה! אנא פעל ברגישות.';
 $string['ownerunknown'] = 'לא ידוע';
