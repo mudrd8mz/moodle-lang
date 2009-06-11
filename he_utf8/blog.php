@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 + (Build: 20080326) (2007101509)
+      // blog.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
 
 
 $string['addnewentry'] = 'הוסף רשומה חדשה';
 $string['backupblogshelp'] = 'אם מאופשר, בלוגים יכללו בגיבויים האוטומטים של האתר';
-$string['blockmenutitle'] = 'תפריט בלוג';
+$string['blockmenutitle'] = 'בלוג';
 $string['blocktagstitle'] = 'תגי בלוג';
 $string['blocktitle'] = 'כותרת תגי הבלוג';
 $string['blog'] = 'בלוג';
