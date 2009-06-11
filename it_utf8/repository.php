@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090608) (2009060200)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090611) (2009060200)
 
 
 $string['accessiblefilepicker'] = 'Selettore file accessibile';
@@ -14,10 +14,12 @@ $string['arearoot'] = 'Sistema';
 $string['areauserdraft'] = 'Bozze';
 $string['areauserpersonal'] = 'Personale';
 $string['areauserprofile'] = 'Profilo';
+$string['attachedfiles'] = 'File allegati';
 $string['attachment'] = 'Allegato';
 $string['back'] = '&lt; Indietro';
 $string['cachecleared'] = 'I file in cache sono stati eliminati';
 $string['cacheexpire'] = 'Permanenza in cache';
+$string['cannotdelete'] = 'Non è possibile eliminare questo file.';
 $string['cannotdownload'] = 'Non è possibile scaricare questo file';
 $string['cannotinitplugin'] = 'La chiamata plugin_init non è andata a buon fine';
 $string['cleancache'] = 'Elimina i miei file dalla cache';
@@ -43,6 +45,7 @@ $string['editrepositoryinstance'] = 'Modifica il repository';
 $string['emptytype'] = 'Non è possibile creare il tipo di repository: il nome è vuoto';
 $string['enablecourseinstances'] = 'Abilita repository di corso';
 $string['enableuserinstances'] = 'Abilita repository dell\'utente';
+$string['enter'] = 'Entra';
 $string['error'] = 'Si è verificato un errore sconosciuto!';
 $string['existingrepository'] = 'Questo repository esiste già';
 $string['federatedsearch'] = 'Ricerca federata';
@@ -68,6 +71,7 @@ $string['manage'] = 'Gestione repository';
 $string['manageurl'] = 'Gestisci';
 $string['manageuserrepository'] = 'Gestisci repository individuali';
 $string['noenter'] = 'Non è stato inserito niente';
+$string['nofilesattached'] = 'Non ci sono allegati';
 $string['nopermissiontoaccess'] = 'Non ci sono privilegi d\'accesso al repository';
 $string['noresult'] = 'Nessun risultato dalla ricerca';
 $string['notyourinstances'] = 'Non puoi visualizzare o modificare i repository di un altro utente';
@@ -75,6 +79,7 @@ $string['openpicker'] = 'Scegli un file...';
 $string['operation'] = 'Operazione';
 $string['personalrepositories'] = 'Repository personali';
 $string['plugin'] = 'Repository plug-in';
+$string['pluginerror'] = 'Si sono verificati errori nel repository plugin';
 $string['popup'] = 'Apri una finestra popup per il login';
 $string['preview'] = 'Anteprima';
 $string['readonlyinstance'] = 'Non puoi modificare o eliminare un repository a sola lettura';
@@ -89,6 +94,7 @@ $string['saved'] = 'Salvato';
 $string['saving'] = 'Salvataggio in corso';
 $string['search'] = 'Cerca';
 $string['searching'] = 'Che cosa stai cercando?';
+$string['select'] = 'Scegli';
 $string['settings'] = 'Impostazioni';
 $string['setupdefaultplugins'] = 'Impostazione dei repository plugin di default';
 $string['siteinstances'] = 'Repository attivi nel sito';
