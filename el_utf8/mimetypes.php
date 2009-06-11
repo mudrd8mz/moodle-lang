@@ -1,10 +1,8 @@
-<?PHP // $Id$ 
-      // mimetypes.php - created with Moodle 1.6.2 (2006050520)
-
+<?php // [normalized strings file]
 
 $string['application/msword'] = 'Έγγραφο Word';
 $string['application/pdf'] = 'Έγγραφο Acrobat Reader PDF';
-$string['application/vnd.ms-excel'] = 'Έγγραφο Λογιστικού Φύλου Excel';
+$string['application/vnd.ms-excel'] = 'Έγγραφο Λογιστικού Φύλλου Excel';
 $string['application/vnd.ms-powerpoint'] = 'Έγγραφο Παρουσίασης Powerpoint';
 $string['application/zip'] = 'Συμπιεσμένο Έγγραφο Zip';
 $string['audio/mp3'] = 'Αρχείο Ήχου MP3';

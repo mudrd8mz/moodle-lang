@@ -1,11 +1,9 @@
-<?PHP // $Id$ 
-      // block_html.php - created with Moodle 1.6.2 (2006050520)
-
+<?php // [normalized strings file]
 
 $string['configcontent'] = 'Περιεχόμενο';
-$string['configtitle'] = 'Τίτλος Block';
+$string['configtitle'] = 'Τίτλος';
 $string['html'] = 'HTML';
-$string['leaveblanktohide'] = 'Αφήστε κενό αυτό το πεδίο για να μην εμφανίζετε τίτλος';
-$string['newhtmlblock'] = 'Νέο HTML Block';
+$string['leaveblanktohide'] = 'Αφήστε κενό αυτό το πεδίο για να μην εμφανίζεται τίτλος';
+$string['newhtmlblock'] = '(Νέο μπλοκ HTML)';
 
 ?>

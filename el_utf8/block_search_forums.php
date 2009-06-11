@@ -1,8 +1,6 @@
-<?PHP // $Id$ 
-      // block_search_forums.php - created with Moodle 1.7 beta + (2006101003)
-
+<?php // [normalized strings file]
 
 $string['advancedsearch'] = 'Προχωρημένη Αναζήτηση';
-$string['blocktitle'] = 'Αναζήτηση στα Φόρουμ';
+$string['blocktitle'] = 'Αναζήτηση στις ομάδες συζήτησης';
 
 ?>

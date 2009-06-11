@@ -1,19 +1,21 @@
-<?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.7.1+ (2006101010)
-
+<?php // [normalized strings file]
 
 $string['allowdeleting'] = 'Να επιτρέπεται η διαγραφή';
 $string['allowmaxfiles'] = 'Μέγιστο πλήθος απεσταλμένων αρχείων';
 $string['allownotes'] = 'Να επιτρέπονται οι σημειώσεις';
 $string['allowresubmit'] = 'Να επιτρέπεται η επανυποβολή';
+$string['alreadygraded'] = 'Η εργασία σας έχει ήδη βαθμολογηθεί και δεν επιτρέπονται οι επανυποβολές.';
+$string['assignment:exportownsubmission'] = 'Εξαγωγή ιδίας υποβολής';
+$string['assignment:exportsubmission'] = 'Εξαγωγή υποβολής';
 $string['assignment:grade'] = 'Βαθμός εργασίας';
-$string['assignment:submit'] = 'Αποστολή της εργασίας';
-$string['assignment:view'] = 'Προβολή της εργασίας';
+$string['assignment:submit'] = 'Υποβολή εργασίας';
+$string['assignment:view'] = 'Προβολή εργασίας';
 $string['assignmentdetails'] = 'Λεπτομέρειες εργασίας';
 $string['assignmentmail'] = 'Ο $a->teacher έχει προσθέσει κάποιο σχόλιο στην υποβολή που κάνατε 
+
 για την εργασία \'$a->assignment\'
 
-Μπορείτε να το δείτε προσαρτημένο στη υποβολή σας:
+Μπορείτε να το δείτε προσαρτημένο στην υποβολή σας:
 
 $a->url';
 $string['assignmentmailhtml'] = 'Ο $a->teacher  έχει προσθέσει κάποιο σχόλιο στην υποβολή που κάνατε 
@@ -24,11 +26,17 @@ $string['assignmentmailhtml'] = 'Ο $a->teacher  έχει προσθέσει κ�
 $string['assignmentname'] = 'Όνομα εργασίας';
 $string['assignmenttype'] = 'Είδος εργασίας';
 $string['availabledate'] = 'Διαθέσιμη από';
+$string['cannotdeletefiles'] = 'Συνέβη σφάλμα και κάποια αρχεία δεν ήταν δυνατό να διαγραφούν';
+$string['cannotinsertempty'] = 'Αδυναμία εισαγωγής νέας, κενής υποβολής';
+$string['cannotviewassignment'] = 'You can not view this assignment';
 $string['comment'] = 'Σχόλιο';
 $string['commentinline'] = 'Ενσωματωμένο σχόλιο';
 $string['configitemstocount'] = 'Το είδος των αντικειμένων που θα πρέπει να καταμετρηθούν στην υποβολή του κάθε φοιτητή';
 $string['configmaxbytes'] = 'Μέγιστο μέγεθος (σε Kb) του αρχείου της εργασίας';
-$string['confirmdeletefile'] = 'Είστε απόλυτα βέβαιος ότι θέλετε να διαγράψετε το αρχείο <strong>$a</strong>?';
+$string['configshowrecentsubmissions'] = 'Όλοι μπορούν να δουν ειδοποιήσεις υποβολών σε πρόσφατες αναφορές δραστηριοτήτων.';
+$string['confirmdeletefile'] = 'Είστε απόλυτα βέβαιος/η ότι θέλετε να διαγράψετε το αρχείο <strong>$a</strong>?';
+$string['coursemisconf'] = 'Το μάθημα δεν είναι ρυθμισμένο σωστά';
+$string['deleteallsubmissions'] = 'Διαγραφή όλων των υποβολών';
 $string['deletefilefailed'] = 'Η διαγραφή του αρχείου απέτυχε';
 $string['description'] = 'Περιγραφή';
 $string['draft'] = 'Πρόχειρο';
@@ -39,32 +47,38 @@ $string['editmysubmission'] = 'Τροποποίηση της υποβολής μ
 $string['emailstudents'] = 'Αποστολή προειδοποιητικών email στους φοιτητές';
 $string['emailteachermail'] = 'Ο/Η φοιτητής/τρια $a->username τροποποίησε την υποβολή που είχε κάνει για την εργασία \'$a->assignment\'
 
-Για να την δείτε πατήστε τον παρακάτω σύνδεσμο:
+Για να τη δείτε πατήστε τον παρακάτω σύνδεσμο:
 
 $a->url';
 $string['emailteachermailhtml'] = 'Ο/Η φοιτητής/τρια $a->username τροποποίησε την υποβολή που είχε κάνει για την εργασία <i>\'$a->assignment\'</i><br /><br />
-Για να την δείτε πατήστε <a href=\"$a->url\">εδώ</a>.';
+Για να την δείτε πατήστε <a href=\\"$a->url\\">εδώ</a>.';
 $string['emailteachers'] = 'Αποστολή προειδοποιητικών email στους διδάσκοντες';
-$string['emptysubmission'] = 'Δεν έχετε στείλει τίποτα μέχρι τώρα';
+$string['emptysubmission'] = 'Δεν έχετε υποβάλει τίποτα ακόμα';
+$string['enableemailnotification'] = 'Αποστολή ενημερωτικών email';
 $string['existingfiledeleted'] = 'Το υπάρχον αρχείο, $a, έχει διαγραφεί';
-$string['failedupdatefeedback'] = 'Οι παρατηρήσεις για τον χρήστη $a δεν ενημερώθηκαν';
-$string['feedback'] = 'Παρατηρήσεις';
-$string['feedbackfromteacher'] = 'Παρατηρήσεις από τον $a';
-$string['feedbackupdated'] = 'Οι παρατηρήσεις ενημερώθηκαν για $a φοιτητές';
+$string['failedupdatefeedback'] = 'Η επανατροφοδότηση υποβολής για τον χρήστη $a δεν ενημερώθηκε';
+$string['feedback'] = 'Επανατροφοδότηση';
+$string['feedbackfromteacher'] = 'Επανατροφοδότηση από τον $a';
+$string['feedbackupdated'] = 'Η επανατροφοδότηση υποβολής ενημερώθηκε για $a φοιτητές';
+$string['finalize'] = 'Όχι άλλες υποβολές';
+$string['finalizeerror'] = 'Συνέβη σφάλμα και η συγκεκριμένη υποβολή δεν ήταν δυνατό να οριστικοποιηθεί';
 $string['graded'] = 'Βαθμολογήθηκε';
 $string['guestnosubmit'] = 'Συγνώμη, αλλά οι επισκέπτες δεν έχουν το δικαίωμα αποστολής εργασίας. Θα πρέπει πρώτα να συνδεθείτε πριν στείλετε την απάντησή σας.';
-$string['guestnoupload'] = 'Συγνώμη, αλλά οι επισκέπτες δεν έχουν δικαίωμα αποστολής αρχείων';
+$string['guestnoupload'] = 'Συγνώμη, αλλά οι επισκέπτες δεν έχουν δικαίωμα ανεβάσματος';
 $string['helpoffline'] = '<p>Αυτό είναι χρήσιμο όταν η εργασία πραγματοποιείται εκτός του Moodle.</p>
 <p>Οι φοιτητές μπορούν να δουν την περιγραφή της εργασίας, αλλά δεν μπορούν να στείλουν κάποιο αρχείο με την απάντησή τους. Η βαθμολόγηση των εργασιών, όπως επίσης και η ενημέρωση των φοιτητών γίνεται κανονικά.</p>';
 $string['helponline'] = '<p>Μ\' αυτόν τον τύπο εργασίας, ζητάτε από τους φοιτητές να απαντήσουν χρησιμοποιώντας τον επεξεργαστή κειμένου της ηλεκτρονικής τάξης. Εσείς, μπορείτε να τους βαθμολογήσετε και αν θέλετε να προσθέσετε σχόλια ή παρατηρήσεις</p>';
-$string['helpupload'] = '<p>Μ\' αυτόν τον τύπο εργασίας, ζητάτε από τους φοιτητές να στείλουν ένα ή περισσότερα αρχεία με την απάντησή τους.</p>
-<p>This type also allows you to upload multiple response files. Response files can be also uploaded before submission which
-can be used to give each participant different file to work with.</p>
-<p>Participants may also enter notes describing the submitted files, progress status or any other text information.</p>
-<p>Submission of this type of assignment must be manually finalized by the participant. You can review the current status
-at any time, unfinished assignments are marked as Draft. You can revert any ungraded assignment back to draft status.</p>';
-$string['helpuploadsingle'] = '<p>Μ\' αυτόν τον τύπο εργασίας, ζητάτε από τους φοιτητές να στείλουν ένα αρχείο με την απάντησή τους.</p>';
+$string['helpupload'] = '<p>Αυτός ο τύπος εργασίας, επιτρέπει στους συμμετέχοντες να ανεβάσουν ένα ή περισσότερα αρχεία οποιασδήποτε μορφής. Μπορεί να είναι αρχεία του Word, εικόνες, zip, ή ό,τι τους ζητήσετε να υποβάλουν.</p>
+<p>Αυτός ο τύπος σας επιτρέπει επιπλέον να ανεβάσετε πολλαπλά αρχεία απάντησης. Τα αρχεία απάντησης μπορούν να ανέβουν πριν την υποβολή με το σκοπό να εργαστεί ο κάθε χρήστης με διαφορετικό αρχείο.</p>
+<p>Οι συμμετέχοντες μπορούν να εισάγουν σημειώσεις περιγράφοντας τα υποβαλλόμενα αρχεία, την κατάσταση της προόδου ή οποιαδήποτε άλλη πληροφορία.</p>
+<p>Η υποβολή αυτού του είδους της εργασίας μπορεί να ολοκληρωθεί χειροκίνητα από τον χρήστη. Μπορείτε να δείτε την τρέχουσα κατάσταση ανα πάσα στιγμή, μη-ολοκληρωμένες εργασίες σημειώνονται ως Πρόχειρα. Μπορείτε να μετατρέψετε τις μη-βαθμολογημένες εργασίες σε Πρόχειρα.</p>';
+$string['helpuploadsingle'] = '<p>Μ\' αυτόν τον τύπο εργασίας, ζητάτε από τους φοιτητές να στείλουν ένα αρχείο με την απάντησή τους.</p><p>Αυτός ο τύπος εργασίας, επιτρέπει στους συμμετέχοντες να ανεβάσουν ένα ή περισσότερα αρχεία οποιασδήποτε μορφής. Μπορεί να είναι αρχεία του Word, εικόνες, zip, ή ότι τους ζητήσετε να υποβάλουν.</p>';
 $string['hideintro'] = 'Απόκρυψη της περιγραφής πριν από την ημερομηνία κατά την οποία θα γίνει διαθέσιμη η εργασία';
+$string['invalidassignment'] = 'λάθος εργασία';
+$string['invalidid'] = 'το ID της εργασίας είναι λανθασμένο';
+$string['invalidtype'] = 'Λανθασμένος τύπος εργασίας';
+$string['invaliduserid'] = 'Λανθασμένο ID χρήστη';
+$string['itemstocount'] = 'Αριθμός';
 $string['late'] = '$a αργά';
 $string['maximumgrade'] = 'Μέγιστος βαθμός';
 $string['maximumsize'] = 'Μέγιστο μέγεθος';
@@ -75,6 +89,8 @@ $string['noassignments'] = 'Δεν υπάρχει καμία εργασία πρ
 $string['noattempts'] = 'Δεν έχει γίνει καμία υποβολή μέχρι τώρα για αυτήν την εργασία';
 $string['nofiles'] = 'Δεν έχει αποσταλεί κανένα αρχείο';
 $string['nofilesyet'] = 'Δεν έχει αποσταλεί κανένα αρχείο προς το παρόν';
+$string['nomoresubmissions'] = 'Δεν επιτρέπονται άλλες υποβολές.';
+$string['nosubmitusers'] = 'Δε βρέθηκαν χρήστες με δικαιώματα υποβολής αυτής της εργασίας';
 $string['notavailableyet'] = 'Συγνώμη, αλλά αυτήν η εργασία δεν είναι διαθέσιμη προς το παρόν. <br /> Μετά την παρακάτω ημερομηνία, θα μπορέσετε να δείτε οδηγίες που θα αφορούν την εργασία.';
 $string['notes'] = 'Σημειώσεις';
 $string['notesempty'] = 'Δεν υπάρχει καμία σημείωση';
@@ -82,33 +98,43 @@ $string['notesupdateerror'] = 'Συνέβη ένα σφάλμα κατά την 
 $string['notgradedyet'] = 'Δεν βαθμολογήθηκαν ακόμα';
 $string['notsubmittedyet'] = 'Δεν υποβλήθηκαν ακόμα';
 $string['onceassignmentsent'] = 'Μετά την αποστολή της εργασίας, δεν θα έχετε τη δυνατότητα για προσθήκες ή διαγραφές αρχείων σ΄αυτήν. Είστε σίγουρος ότι θέλετε να συνεχίσετε?';
-$string['overwritewarning'] = 'Προειδοποίηση: Αυτήν η υποβολή, ΘΑ ΑΝΤΙΚΑΤΑΣΤΗΣΕΙ την τρέχουσα';
+$string['overwritewarning'] = 'Προσοχή: Αυτήν η υποβολή, ΘΑ ΑΝΤΙΚΑΤΑΣΤΗΣΕΙ την τρέχουσα';
 $string['pagesize'] = 'Υποβολές ανά σελίδα';
 $string['preventlate'] = 'Να μην επιτρέπονται υποβολές μετά την καταληκτική ημερομηνία';
 $string['quickgrade'] = 'Να επιτρέπεται η γρήγορη βαθμολόγηση';
-$string['saveallfeedback'] = 'Αποθήκευση όλων των παρατηρήσεων';
+$string['responsefiles'] = 'Αρχεία απόκρισης';
+$string['reviewed'] = 'Ελεγμένα';
+$string['saveallfeedback'] = 'Αποθήκευση όλων των feedback';
 $string['sendformarking'] = 'Αποστολή για βαθμολόγηση';
+$string['showrecentsubmissions'] = 'Προβολή πρόσφατων υποβολών';
 $string['submission'] = 'Υποβολή';
+$string['submissiondraft'] = 'Υποβολή πρόχειρου';
 $string['submissionfeedback'] = 'Παρατηρήσεις εργασίας';
 $string['submissions'] = 'Υποβολές';
 $string['submissionsaved'] = 'Οι αλλαγές αποθηκεύτηκαν';
 $string['submissionsnotgraded'] = '$a υποβολές δεν έχουν βαθμολογηθεί';
 $string['submitassignment'] = 'Μπορείτε να υποβάλετε την εργασία σας χρησιμοποιώντας αυτήν την φόρμα';
 $string['submitedformarking'] = 'Η εργασία έχει αποσταλεί για βαθμολόγηση και έτσι δεν μπορείτε να την τροποποιήσετε';
+$string['submitformarking'] = 'Τελική υποβολή για βαθμολόγηση εργασίας';
 $string['submitted'] = 'Υποβλήθηκε';
 $string['submittedfiles'] = 'Απεσταλμένα αρχεία';
+$string['trackdrafts'] = 'Ενεργοποίηση Αποστολής για μαρκάρισμα';
 $string['typeoffline'] = 'Δραστηριότητα εκτός σύνδεσης';
-$string['typeupload'] = 'Αποστολή αρχείων';
-$string['typeuploadsingle'] = 'Αποστολή ενός αρχείου με την απάντηση';
+$string['typeonline'] = 'Online κείμενο';
+$string['typeupload'] = 'Προηγμένη αποστολή αρχείων';
+$string['typeuploadsingle'] = 'Αποστολή ενός αρχείου';
+$string['unfinalize'] = 'Επαναφορά σε πρόχειρο';
+$string['unfinalizeerror'] = 'Συνέβη ένα σφάλμα και η συγκεκριμένη υποβολή δεν ήταν δυνατόν να μετατραπεί σε πρόχειρη';
 $string['uploadbadname'] = 'Το όνομα του αρχείου περιείχε μη αποδεκτούς χαρακτήρες, με αποτέλεσμα την ακύρωση της αποστολής του. <br />
 Σημείωση: Τα ονόματα των αρχείων θα πρέπει να περιέχουν <b>μόνο</b> χαρακτήρες του λατινικού αλφάβητου.';
-$string['uploadedfiles'] = 'απεσταλμένα αρχεία';
+$string['uploadedfiles'] = 'ανεβασμένα αρχεία';
 $string['uploaderror'] = 'Συνέβη ένα σφάλμα κατά την αποθήκευση του αρχείου στον εξυπηρετητή';
 $string['uploadfailnoupdate'] = 'Το αρχείο στάλθηκε με επιτυχία, αλλά η υποβολή σας δεν ενημερώθηκε!';
 $string['uploadfiletoobig'] = 'Συγνώμη, αλλά το αρχείο είναι πολύ μεγάλο (το όριο είναι $a bytes)';
 $string['uploadnofilefound'] = 'Δεν βρέθηκε κανένα αρχείο - είστε σίγουρος ότι επιλέξατε κάποιο για αποστολή?';
 $string['uploadnotregistered'] = '\'$a\' στάλθηκε με επιτυχία, αλλά η υποβολή δεν καταχωρήθηκε.';
 $string['uploadsuccess'] = 'Το \'$a\' στάλθηκε με επιτυχία';
+$string['usermisconf'] = 'Ο χρήστης δεν είναι ρυθμισμένος σωστά';
 $string['viewfeedback'] = 'Δείτε τους βαθμούς και τις παρατηρήσεις της εργασίας';
 $string['viewsubmissions'] = 'Δείτε $a υποβληθείσες εργασίες';
 $string['yoursubmission'] = 'Η υποβολή σας';

@@ -1,8 +1,6 @@
-<?PHP // $Id$ 
-      // block_course_summary.php - created with Moodle 1.7.1+ (2006101010)
+<?php // [normalized strings file]
 
-
-$string['coursesummary'] = 'Σύνοψη μαθήματος';
-$string['pagedescription'] = 'Περιγραφή μαθήματος/site';
+$string['coursesummary'] = 'Περιγραφή μαθήματος';
+$string['pagedescription'] = 'Περιγραφή σελίδας';
 
 ?>
