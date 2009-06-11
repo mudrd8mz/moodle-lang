@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090430) (2009043000)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
 
 
+$string['accessiblefilepicker'] = 'アクセス可能なファイルピッカ';
 $string['activaterep'] = 'アクティブリポジトリ';
 $string['activerepository'] = 'アクティブリポジトリ・プラグイン';
 $string['add'] = '追加';
@@ -40,8 +41,8 @@ $string['download'] = 'ダウンロード';
 $string['downloadsucc'] = 'ファイルが正常にダウンロードされました。';
 $string['editrepositoryinstance'] = 'リポジトリインスタンスを編集する';
 $string['emptytype'] = 'リポジトリタイプを作成できません: タイプ名が空白です。';
-$string['enablecourseinstances'] = '教師によるファイルピッカーへのリポジトリインスタンス追加を許可する';
-$string['enableuserinstances'] = 'ユーザによるファイルピッカーへのリポジトリインスタンス追加を許可する';
+$string['enablecourseinstances'] = '教師によるファイルピッカへのリポジトリインスタンス追加を許可する';
+$string['enableuserinstances'] = 'ユーザによるファイルピッカへのリポジトリインスタンス追加を許可する';
 $string['error'] = '不明なエラーが発生しました!';
 $string['existingrepository'] = 'このリポジトリは、すでに登録されています。';
 $string['federatedsearch'] = '横串検索';
@@ -95,7 +96,7 @@ $string['size'] = 'サイズ';
 $string['submit'] = '送信';
 $string['sync'] = '同期';
 $string['thumbview'] = 'アイコンとして表示する';
-$string['title'] = 'リポジトリファイルピッカー';
+$string['title'] = 'リポジトリファイルピッカ';
 $string['typenotvisible'] = 'タイプを確認できません。';
 $string['updown'] = '表示順';
 $string['upload'] = 'このファイルをアップロードする';
