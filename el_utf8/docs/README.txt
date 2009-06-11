@@ -1,44 +1,13 @@
-Moodle documentation
---------------------
+Ο κατάλογος αυτός παλιότερα περιείχε αρχεία τεκμηρίωσης σε μορφή HTML.
 
-If you want to translate this documentation into another language,
-I would suggest that you:
+Αυτά πλέον δεν υπάρχουν γιατί για τον ίδιο σκοπό χρησιμοποιείται πλέον
+το Moodle Docs wiki.
 
- 1) don't include English versions of the files in this directory
-    because they will be used automatically anyway if it is missing
-    from your language pack.
+Για να εντοπίσετε τις πληροφορίες που υπήρχαν εδώ, δείτε:
 
- 2) translate them in this order (starting with the important ones):
-  
-    MOST IMPORTANT
-    |-------------------
-    |
-    |   - files.php
-    |   - install.html
-    |   - upgrade.html
-    |
-    |  -----------------
-    |
-    |   - teacher.html
-    |   - module_files.txt
-    | 
-    |  -----------------
-    |   
-    |   - intro.html
-    |   - features.html
-    |   - release.html
-    |
-    |  -----------------
-    |
-    |   - developer.html
-    |   - cvs.html
-    |   - future.html
-    |
-    |  -----------------
-    |   
-    |   - license.html
-    |   - credits.html
-    |
-    |-------------------
-    LEAST IMPORTANT
+    http://docs.moodle.org/en/MoodleDocs_and_lang_packs
 
+    http://tracker.moodle.org/browse/MDL-4912
+
+Φιλικά,
+Martin Dougiamas, 10 Ιουλίου 2007
