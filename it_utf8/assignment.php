@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20090611) (2009060200)
 
 
-$string['allowdeleting'] = 'Consenti eliminazioni';
+$string['allowdeleting'] = 'Consenti ripensamenti';
 $string['allowmaxfiles'] = 'Numero massimo di file da inviare';
 $string['allownotes'] = 'Consenti annotazioni';
 $string['allowresubmit'] = 'Consenti consegne ripetute';
@@ -24,7 +24,6 @@ $string['assignmentname'] = 'Titolo del compito';
 $string['assignmenttype'] = 'Tipo di compito';
 $string['availabledate'] = 'Inizio consegne';
 $string['cannotdeletefiles'] = 'Si è verificato un errore e i file non possono essere eliminati';
-$string['cannotinsertempty'] = 'La consegna non può essere vuota';
 $string['cannotviewassignment'] = 'Non puoi visualizzare questo compito';
 $string['comment'] = 'Commento';
 $string['commentinline'] = 'Commento in linea';
@@ -135,5 +134,6 @@ $string['usermisconf'] = 'L\'utente è mal configurato';
 $string['viewfeedback'] = 'Vedi valutazioni del compito e relativo commento';
 $string['viewsubmissions'] = 'Vedi $a compiti consegnati';
 $string['yoursubmission'] = 'La tua consegna';
+$string['cannotinsertempty'] = 'La consegna non può essere vuota'; // ORPHANED
 
 ?>
