@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (2007101506)
+      // role.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['addrole'] = 'Adicionar novo cargo atribuível';
@@ -78,6 +78,8 @@ $string['grade:unlock'] = 'Descongelar notas ou pontos';
 $string['grade:view'] = 'Ver as próprias notas';
 $string['grade:viewall'] = 'Ver as notas de outros utilizadores';
 $string['grade:viewhidden'] = 'Ver notas ocultas para o dono';
+$string['inactiveformorethan'] = 'inactivo por mais de $a->timeperiod';
+$string['ingroup'] = 'no grupo \"$a->group\"';
 $string['inherit'] = 'Herdar';
 $string['legacy:admin'] = 'DELEGAÇÃO de CARGO: Administrador';
 $string['legacy:coursecreator'] = 'DELEGAÇÃO de CARGO: Criador de disciplina';

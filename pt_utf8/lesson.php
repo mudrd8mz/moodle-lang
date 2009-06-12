@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (2007101506)
+      // lesson.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['accesscontrol'] = 'Controlo de acesso';
@@ -183,6 +183,7 @@ $string['nobranchtablefound'] = 'Não se encontrou a tabela de percursos';
 $string['nocommentyet'] = 'Ainda sem comentário.';
 $string['nocoursemods'] = 'Não foi encontrada nenhuma actividade';
 $string['nocredit'] = 'Nenhum crédito';
+$string['nodeadline'] = 'Não há data limite';
 $string['noessayquestionsfound'] = 'Não se econtrou nenhuma pergunta do tipo ensaio nesta lição.';
 $string['nohighscores'] = 'Não existem melhores pontuações';
 $string['nolessonattempts'] = 'Não existe nenhuma tentativa de resolução desta lição.';

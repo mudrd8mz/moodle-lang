@@ -22,7 +22,8 @@ $string['name'] = 'Nome da palavra chave';
 $string['namesalreadybeeingused'] = 'Os nomes das palavras chave já estão a ser usados';
 $string['newname'] = 'Novo nome de palavra chave';
 $string['noresultsfor'] = 'Não existem resultados para \"$a\"';
-$string['otags'] = 'Palavra chave oficial';
+$string['officialtag'] = 'Palavra chave oficial';
+$string['otags'] = 'Palavras chave oficiais';
 $string['owner'] = 'Proprietário';
 $string['ptags'] = 'Palavras chave próprias (separadas por vírgula)';
 $string['relatedblogs'] = 'Entradas de blogue recentes com esta palavra chave';
@@ -49,7 +50,7 @@ $string['timemodified'] = 'Modificada';
 $string['typechanged'] = 'Tipo da palavra chave modificado';
 $string['updated'] = 'Actualizada';
 $string['updatetag'] = 'Actualizar';
-$string['userstaggedwith'] = 'Utilizadores associados a \"$a\"';
 $string['withselectedtags'] = 'Com as palavras chaves seleccionadas...';
+$string['userstaggedwith'] = 'Utilizadores associados a \"$a\"'; // ORPHANED
 
 ?>

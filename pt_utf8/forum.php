@@ -185,6 +185,8 @@ $string['overviewnumunread'] = 'total de não lidas';
 $string['parent'] = 'Mostrar mensagem ascendente';
 $string['parentofthispost'] = 'Ascendente desta mensagem';
 $string['postadded'] = '<p>A sua mensagem foi inserida com sucesso.</p><p>Tem $a para a editar se quiser fazer alterações.</p>';
+$string['postaddedsuccess'] = 'A sua mensagem foi inserida com sucesso.';
+$string['postaddedtimeleft'] = 'Pode editar durante $a.';
 $string['postincontext'] = 'Ver mensagem no seu contexto';
 $string['postmailinfo'] = 'Esta é uma cópia de uma mensagem enviada para o sítio web de $a.
 Para enviar uma resposta para o fórum, use o apontador que se segue:';

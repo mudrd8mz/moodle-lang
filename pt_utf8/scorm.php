@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (2007101506)
+      // scorm.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['activation'] = 'Activação';
@@ -152,6 +152,7 @@ $string['validationtype'] = 'Esta preferência indica a biblioteca DOMXML usada 
 $string['value'] = 'Valor';
 $string['versionwarning'] = 'Na etiqueta $a->tag chama-se a atenção que a versão do manifesto é anterior a 1.3';
 $string['viewallreports'] = 'Ver relatório de $a tentativas';
+$string['viewalluserreports'] = 'Ver relatório de $a utilizadores';
 $string['whatgrade'] = 'Avaliação de tentativas';
 $string['width'] = 'Largura';
 $string['window'] = 'Janela';

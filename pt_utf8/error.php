@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (2007101506)
+      // error.php - created with Moodle 1.9 Beta 4 (2007101506)
 
 
 $string['adminprimarynoedit'] = 'Os dados do administrador principal não podem ser editados por outros';
@@ -18,7 +18,6 @@ $string['cannotunzipfile'] = 'Não é possível descompactar ficheiro ZIP';
 $string['cannotviewprofile'] = 'Não pode ver o perfil deste utilizador';
 $string['cantunenrollfrommetacourse'] = 'Não pode cancelar a inscrição desta meta-disciplina';
 $string['cantunenrollinthisrole'] = 'Não pode cancelar a inscrição desta disciplina enquanto estiver no seu actual cargo.';
-$string['cmunknown'] = 'Não foi encontrado esse módulo de disciplina';
 $string['componentisuptodate'] = 'O componente está actualizado';
 $string['confirmsesskeybad'] = 'Lamentamos mas a sua chave se sessão não pode ser confirmada para poder levar a cabo esta acção. Esta característica de segurança previne execuções, acidentais ou maliciosas, de funções importantes em seu nome. Certifique-se por favor que quis realmente executar esta função.';
 $string['couldnotassignrole'] = 'Um sério mas não especificado erro ocorreu durante a atribuição de um cargo para si.';
@@ -70,7 +69,6 @@ $string['loginasonecourse'] = 'Não pode entrar nesta disciplina.<br /> Tem que 
 $string['missingfield'] = 'Falta o campo \"$a\".';
 $string['missingrequiredfield'] = 'Falta algum campo necessário';
 $string['modulemissingcode'] = 'O módulo $a não inclui o código necessário para executar esta função';
-$string['modulerequirementsnotmet'] = 'O módulo \"$a->modulename\" ($a->moduleversion) não pode ser instalado. Para a sua instalação é necessária uma versão mais recente do Moodle (actualmente está a usar a versão $a->currentmoodle e precisa da versão $a->requiremoodle).';
 $string['mustbeteacher'] = 'Deverá ser professor para poder ver esta página';
 $string['nocontext'] = 'Desculpe, mas essa disciplina não é um contexto válido';
 $string['noinstances'] = 'Não há nenhum recurso do tipo $a nesta disciplina!';
@@ -95,6 +93,7 @@ $string['sessionerroruser'] = 'A sua sessão expirou. Por favor entre novamente 
 $string['sessionerroruser2'] = 'Foi detectado um erro no servidor que afecta a sua sessão actual. Por favor entre novamente no sistema ou reinicie o seu navegador.';
 $string['sessionipnomatch'] = 'Lamentamos, mas parece que o seu IP mudou desde quando entrou inicialmente no sistema. Esta característica de segurança previne que os crackers lhe roubem a identidade enquanto estiver neste sítio. Normalmente não deveria receber este tipo de mensagem - peça ajuda ao administrador do sítio.';
 $string['statscatchupmode'] = 'Os relatórios de actividade encomtram-se em modo de actualização. Até agora foram processados $a->daysdone dia(s) e estão pendentes $a->dayspending. Tente mais tarde!';
+$string['tagnotfound'] = 'A etiqueta especificada não foi encontrada na base de dados.';
 $string['unicodeupgradeerror'] = 'Desculpe, mas a sua base de dados não usa codificação \"UNICODE\", e esta versão do Moodle não tem a opção para migrar a sua base de dados para \"UNICODE\". Por favor, actualize para Moodle 1.7.x primeiro e execute a migração \"UNICODE\" a partir da página Admin. Depois de isso estar feito, deve conseguir migrar para Moodle $a';
 $string['unknowncourse'] = 'Disciplina desconhecida designada de \"$a\"';
 $string['unknowncourseidnumber'] = 'Identificador de disciplina desconhecido \"$a\"';
@@ -121,5 +120,7 @@ $string['usernotupdatednotexists'] = 'Utilizador não actualizado porque não fo
 $string['wrongdestpath'] = 'Caminho de destino errado.';
 $string['wrongsourcebase'] = 'URL errado para a fonte.';
 $string['wrongzipfilename'] = 'Nome de ficheiro ZIP errado.';
+$string['cmunknown'] = 'Não foi encontrado esse módulo de disciplina'; // ORPHANED
+$string['modulerequirementsnotmet'] = 'O módulo \"$a->modulename\" ($a->moduleversion) não pode ser instalado. Para a sua instalação é necessária uma versão mais recente do Moodle (actualmente está a usar a versão $a->currentmoodle e precisa da versão $a->requiremoodle).'; // ORPHANED
 
 ?>
