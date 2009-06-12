@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090506) (2009043000)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -59,9 +59,6 @@ $string['cannotsubscribe'] = '申し訳ございません、あなたがメー�
 $string['cannottrack'] = 'フォーラムの未読管理を停止できませんでした。';
 $string['cannotunsubscribe'] = 'あなたをフォーラムからメール購読解除できませんでした。';
 $string['cannotupdatecoursemoudle'] = '指定されたセクションIDのコースモジュールを更新できませんでした。';
-$string['cannotupdatediscussion'] = 'ディスカッションを更新できませんでした。';
-$string['cannotupdatefirstpost'] = '最初の投稿を更新できませんでした。';
-$string['cannotupdateforum'] = 'フォーラムを更新できません。';
 $string['cannotupdatepost'] = 'あなたは、この投稿を更新できません。';
 $string['cannotviewpostyet'] = 'まだ投稿していないため、あなたは他の学生の質問を読むことはできません。';
 $string['cleanreadtime'] = '古い投稿を既読とする時刻';
@@ -302,8 +299,8 @@ $string['resetforums'] = '次のフォーラムから投稿を削除する';
 $string['resetforumsall'] = 'すべての投稿を削除する';
 $string['resetsubscriptions'] = 'メール購読を解除する';
 $string['resettrackprefs'] = 'すべてのフォーラムの未読管理設定を削除する';
-$string['rsssubscriberssdiscussions'] = '$a 件のディスカッションに関してRSSフィードを表示';
-$string['rsssubscriberssposts'] = '$a 件の投稿に関してRSSフィードを表示';
+$string['rsssubscriberssdiscussions'] = '「 $a 」のディスカッションに関して、RSSフィードを表示する';
+$string['rsssubscriberssposts'] = '「 $a 」の投稿に関して、RSSフィードを表示する';
 $string['search'] = '検索';
 $string['searchdatefrom'] = 'この日付よりも新しい';
 $string['searchdateto'] = 'この日付よりも古い';
@@ -364,6 +361,9 @@ $string['youratedthis'] = 'あなたの評価';
 $string['yournewquestion'] = 'あなたの新しい質問';
 $string['yournewtopic'] = 'あなたの新しいディスカッショントピック';
 $string['yourreply'] = 'あなたの返信';
+$string['cannotupdatediscussion'] = 'ディスカッションを更新できませんでした。'; //TBD
+$string['cannotupdatefirstpost'] = '最初の投稿を更新できませんでした。'; //TBD
+$string['cannotupdateforum'] = 'フォーラムを更新できません。'; //TBD
 $string['areaintro'] = 'フォーラムイントロダクション'; //TBD
 $string['cannotfinddisscussion'] = 'このフォーラムのディスカッションが見つかりませんでした。'; //TBD
 $string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD
