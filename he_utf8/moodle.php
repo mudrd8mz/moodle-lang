@@ -642,7 +642,7 @@ $string['gdneed'] = 'GD חייב להיות מותקן בכדי לראות גר�
 $string['gdnot'] = 'GD אינו מותקן';
 $string['general'] = 'כללי';
 $string['gettheselogs'] = 'קבל את יומני מעקב אלו';
-$string['go'] = 'גש';
+$string['go'] = 'הצג דוח';
 $string['gotoyourserver'] = '(מסתעף בחזרה לשרת שלך)';
 $string['gpl'] = 'Copyright (C) 1999-2004  Martin Dougiamas  (http://dougiamas.com)
 
