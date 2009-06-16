@@ -1,12 +1,12 @@
 <h1>Credito extra</h1>
 
-<p>Se si inserisce un valore maggiore di 0, durante l'aggregazione i voti dell'elemento saranno considerati come Credito extra. Il Credito extra è un fattore per il quale i voti sono moltiplicati prima di essere sommati a tutti gli alti voti, l'elemento però non sarà preso in considerazione nella divisione. Esempio:</p>
+<p>Impostando un valore maggiore di 0 in "Credito Extra", durante l'aggregazione l'elemento di valutazione sarà trattato come credito extra. Il valore impostato è il fattore moltiplicativo per il quale il voto ottenuto sarà moltiplicato prima di essere aggregato. L'elemento di valutazione però non sarà tenuto in considerazione durante la divisione. Esempio:</p>
 
 <ul>
-    <li>Elemento 1, voto da 0 a 100 con "Credito extra" impostato a 2</li>
-    <li>Elemento 2, voto da 0 a 100 con "Credito extra" lasciato a 0.0000</li>
-    <li>Elemento 3, voto da 0 a 100 e il suo "Credito extra" è lasciato a 0.0000</li>
-    <li>Tutti i tre elementi appartengono alla Categoria 1, la cui strategia di aggregazione è impostata a "Voto medio (con crediti extra)"</li>
-    <li>Uno studente ha ricevuto 20 per l'elemento 1, 40 per l'elemento 2 e 70 per l'elemento 3</li>
-    <li>Il totale dello studente per la Categoria 1 sarà 95/100 poiché 20*2 + (40 + 70)/2 = 95</li>
+    <li>Elemento 1: intervallo di voti 0-100 e "Credito Extra" pari a 2</li>
+    <li>Elemento 2: intervallo di voti 0-100 e "Credito Extra" lasciato a 0.0000</li>
+    <li>Elemento 2: intervallo di voti 0-100 e "Credito Extra" lasciato a 0.0000</li>
+    <li>I tre elementi appartengono alla Categoria 1, la cui strategia di aggregazione è impostata a "Voto medio (con crediti extra)"</li>
+    <li>Uno studente riceve i voti 20 nell'Elemento 1, 40 nell'elemento 2, on Item 2 e 70 nell'elemento 3</li>
+    <li>Il totale ottenuto dallo studente nella Categoria 1 sarà 95/100 poiché 20*2 + (40 + 70)/2 = 95</li>
 </ul>

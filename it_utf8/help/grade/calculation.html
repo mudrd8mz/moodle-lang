@@ -1,17 +1,17 @@
 <h1>Calcoli</h1>
-<p>I calcoli per il registro di valutazioni seguono la stessa sintassi delle formule/funzioni dei fogli di calcolo. Essi cominciano con un segno uguale (=), e usano i soliti operatori matematici e le stesse funzioni per produrre un singolo output numerico. Questo output è poi utilizzato come  valore calcolato per l'elemento di valutazione che si sta modificando.</p>
+<p>I calcoli nel registro delle valutazioni seguono una sintassi analoga a quella delle formule/funzioni dei fogli di calcolo. I calcoli cominciano con un segno uguale (=) e usano i consueti operatori matematici e funzioni per produrre un determinato risultato. Il risultato verrà poi utilizzato come voto dell'elemento di valutazione.</p>
 
-<p>Di seguito è riportata una lista delle funzioni supportate dal calcolo. La virgola (,) è usata per separare gli argomenti all'interno delle parentesi.</p>
+<p>Di seguito si riporta un elenco delle funzioni supportate. Per separare gli argomenti all'interno delle parentesi si deve usare la virgola (,).</p>
 
 <ul>
-    <li><strong>average</strong>([[item1]], [[item2]]...): Restituisce la media di una lista di argomenti</li>
-    <li><strong>max</strong>([[item1]], [[item2]]...): Restituisce il massimo di una lista di argomenti</li>
-    <li><strong>min</strong>([[item1]], [[item2]]...): Restituisce il minimo di una lista di argomenti</li>
-    <li><strong>mod</strong>(dividend, divisor): Calcola il resto di una divisione</li>
-    <li><strong>pi</strong>(): Restituisce il valore del numero Pi</li>
-    <li><strong>power</strong>(base, power): Innalza un numero alla potenza di un altro</li>
-    <li><strong>round</strong>(number, count): Arrotonda un numero con una determinata precisione</li>
-    <li><strong>sum</strong>([[item1]], [[item2]]...): Restituisce la somma di tutti gli argomenti</li>
+    <li><strong>average</strong>([[item1]], [[item2]]...): calcola il valore medio di un elenco di argomenti</li>
+    <li><strong>max</strong>([[item1]], [[item2]]...): restituisce il valore il massimo di una elenco di argomenti</li>
+    <li><strong>min</strong>([[item1]], [[item2]]...): restituisce il valore il minimo di una elenco di argomenti</li>
+    <li><strong>mod</strong>(dividend, divisor): calcola il resto di una divisione</li>
+    <li><strong>pi</strong>(): restituisce il valore del numero Pi Greco</li>
+    <li><strong>power</strong>(base, power): eleva a potenza un numero</li>
+    <li><strong>round</strong>(number, count): arrotonda un numero con una data precisione</li>
+    <li><strong>sum</strong>([[item1]], [[item2]]...): restituisce la somma di tutti gli argomenti</li>
 </ul>
 
 <p>E' anche supportato il seguente elenco di funzioni matematiche:</p>
@@ -22,7 +22,7 @@
     <li>sqrt</li><li>abs</li><li>ln</li><li>log</li><li>exp</li>
 </ul>
 
-<p>Si possono includere i valori degli elementi di valutazione usando il loro numero id come riferimento nelle formule. Il numero id è contenuto in due coppie di parentesi quadre, per evitare confusione quando il numero id contiene caratteri non comuni. Per esempio, se si ha un elemento di valutazione con numero id uguale a Quiz.3, nelle formule ci si riferirà a tale elemento con [[Quiz.3]].</p>
+<p>Nelle formule dei calcoli si possono includere i valori degli elementi di valutazione usando come riferimento il loro numero id . Il numero id è contenuto in due coppie di parentesi quadre, per evitare confusione quando il numero id contiene caratteri non comuni. Per esempio, se si ha un elemento di valutazione con numero id uguale a Quiz.3, nelle formule ci si riferirà a tale elemento con [[Quiz.3]].</p>
 
 <p>Sotto al campo Calcolo c'è una ramificazione del proprio corso con le sue categorie ed elementi di valutazione. A fianco al totale di ogni elemento o categoria è mostrato il numero id che può essere usato nei calcoli (già incluso nelle parentesi quadre). Comunque, poiché il numero id è opzionale, alcuni elementi potrebbero non averne ancora uno. Questi elementi hanno allora un campo di input che permette di inserire direttamente un nuovo numero id, in modo tale da poterlo usare nei calcoli senza necessità di lasciare la stessa pagina. Comunque in questo modo non è possibile modificare i numeri id esistenti. Se questo è necessario bisognerà andare a modificare direttamente l'elemento di valutazione.</p>
 
