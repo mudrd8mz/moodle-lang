@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor_tinymce.php - created with Moodle 2.0 dev (Build: 20090517) (2009051700)
+      // editor_tinymce.php - created with Moodle 2.0 dev (Build: 20090616) (2009061600)
 
 
 $string['advanced:address'] = '連絡先';
@@ -230,6 +230,9 @@ $string['contextmenu:left'] = '左揃え';
 $string['contextmenu:right'] = '右揃え';
 $string['directionality:ltr_desc'] = '左から右';
 $string['directionality:rtl_desc'] = '右から左';
+$string['dragmath:dragmath_desc'] = '方程式を挿入する';
+$string['dragmath:dragmath_javaneeded'] = 'このページを使用するには、Javaを有効にしたブラウザが必要です。最新のJavaプラグインを $a からダウンロードしてください。';
+$string['dragmath:dragmath_title'] = 'DragMath方程式エディタ';
 $string['emotions:emotions_desc'] = 'スマイリー';
 $string['emotions_dlg:cool'] = 'Cool';
 $string['emotions_dlg:cry'] = 'Cry';
