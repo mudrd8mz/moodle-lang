@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 2.0 dev (Build: 20080503) (2008050200)
+      // block_search.php - created with Moodle 2.0 dev (Build: 20090616) (2009061600)
 
 
 $string['blockname'] = 'グローバルサーチ';
@@ -22,8 +22,8 @@ $string['nosearchableblocks'] = '該当するブロックはありません。';
 $string['nosearchablemodules'] = '該当するモジュールはありません。';
 $string['pdfhandling'] = 'Acrobat PDFハンドリング';
 $string['searchdiscovery'] = '検索可能アイテムの調査';
-$string['searchmoodle'] = 'Moodleの検索';
-$string['usemoodleroot'] = '外部コンバータにMoodle rootを使用する';
+$string['searchmoodle'] = 'Moodleを検索する';
+$string['usemoodleroot'] = '外部コンバータにMoodleルートを使用する';
 $string['wordhandling'] = 'Microsoft Wordハンドリング';
 
 ?>
