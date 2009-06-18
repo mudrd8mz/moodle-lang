@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090615) (2009061300)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090616) (2009061600)
 
 
 $string['accessiblefilepicker'] = 'アクセス可能なファイルピッカ';
 $string['activaterep'] = 'アクティブリポジトリ';
 $string['activerepository'] = 'アクティブリポジトリ・プラグイン';
-$string['add'] = '追加';
+$string['add'] = '追加 ...';
 $string['addplugin'] = 'リポジトリプラグインを追加する';
 $string['areabackup'] = 'バックアップ';
 $string['areacategoryintro'] = 'カテゴリイントロダクション';
@@ -102,11 +102,12 @@ $string['size'] = 'サイズ';
 $string['submit'] = '送信';
 $string['sync'] = '同期';
 $string['thumbview'] = 'アイコンとして表示する';
-$string['title'] = 'リポジトリファイルピッカ';
+$string['title'] = 'ファイルを選択する ...';
 $string['typenotvisible'] = 'タイプを確認できません。';
 $string['updown'] = '表示順';
 $string['upload'] = 'このファイルをアップロードする';
 $string['uploading'] = 'アップロード中 ...';
+$string['uploadsucc'] = 'ファイルが正常にアップロードされました。';
 $string['wrongcontext'] = 'あなたは、このコンテクストにアクセスできません。';
 $string['xhtmlerror'] = 'あなたは、恐らくXHTML Strictヘッダを使用していると思われます。いくつかのYUIコンポーネントは、このモードでは動作しません。Moodleでは、XHTML Strictヘッダの使用を控えてください。';
 $string['editrepositoryaccount'] = 'リポジトリアカウントを編集する'; //TBD
