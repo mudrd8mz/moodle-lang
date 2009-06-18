@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090611) (2009060200)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090618) (2009061600)
 
 
 $string['accessiblefilepicker'] = 'Selettore file accessibile';
@@ -107,6 +107,8 @@ $string['typenotvisible'] = 'Tipo non visibile';
 $string['updown'] = 'Ordine';
 $string['upload'] = 'Carica questo file';
 $string['uploading'] = 'Caricamento in corso...';
+$string['uploadsucc'] = 'Il file è stato caricato correttamente';
 $string['wrongcontext'] = 'Non puoi accedere a questo contesto';
+$string['xhtmlerror'] = 'Probabilmente state usando header XHTML strict, con le quali alcune componenti YUI non funzionano correttamente. Per favore disabilitate le componenti YUI in Moodle.';
 
 ?>

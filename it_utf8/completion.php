@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20090327) (2009032001)
+      // completion.php - created with Moodle 2.0 dev (Build: 20090617) (2009061600)
 
 
 $string['activitycompletion'] = 'Completamento attività';
@@ -31,8 +31,8 @@ $string['completionusegrade'] = 'Valutazione';
 $string['completionusegrade_text'] = 'L\'utente deve ricevere una valutazione';
 $string['completionview'] = 'Visualizzazione';
 $string['completionview_text'] = 'L\'utente deve vedere l\'attività';
-$string['configenablecompletion'] = 'Se abilitato, permette di attivare il tracciamento del completamento delle attività all\'interno dei corsi.';
-$string['configprogresstrackedroles'] = 'Ruoli visualizzati nel report delle attività completate. (In genere sono visualizzati gli studenti o ruoli equivalenti)';
+$string['configenablecompletion'] = 'Abilita il tracciamento del completamento delle attività all\'interno dei corsi.';
+$string['configprogresstrackedroles'] = 'Ruoli visualizzati nel report delle attività completate. (In genere sono visualizzati gli studenti o i ruoli equivalenti)';
 $string['csvdownload'] = 'Scarica nel formato per foglio elettronico (UTF-8 .csv)';
 $string['enablecompletion'] = 'Traccia il completamento delle attività';
 $string['err_noactivities'] = 'Il tracciamento delle attività completate non è attivo per nessuna attività e pertanto non ci sono dati da visualizzare. E\' possibile abilitare il Il tracciamento delle attività completate nelle impostazioni delle singole attività.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor_tinymce.php - created with Moodle 2.0 dev (Build: 20090521) (2009051700)
+      // editor_tinymce.php - created with Moodle 2.0 dev (Build: 20090618) (2009061600)
 
 
 $string['advanced:address'] = 'Indirizzo';
@@ -230,6 +230,9 @@ $string['contextmenu:left'] = 'Allinea a sinistra';
 $string['contextmenu:right'] = 'Allinea a destra';
 $string['directionality:ltr_desc'] = 'Direzione da sinistra a destra';
 $string['directionality:rtl_desc'] = 'Direzione da destra a sinistra';
+$string['dragmath:dragmath_desc'] = 'Inserisci equazione';
+$string['dragmath:dragmath_javaneeded'] = 'Per usare questa pagine è necessario un browser Java-enabled. Scaricate la plugin Java da $a.';
+$string['dragmath:dragmath_title'] = 'Editor Equazioni DragMath';
 $string['emotions:emotions_desc'] = 'Faccine';
 $string['emotions_dlg:cool'] = 'Fico';
 $string['emotions_dlg:cry'] = 'Piango';

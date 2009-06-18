@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20090605) (2009060200)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20090617) (2009061600)
 
 
 $string['activeexport'] = 'Decisioni sulle esportazioni già in corso';
@@ -29,7 +29,7 @@ $string['displayexpiry'] = 'Ora di scadenza del trasferimento';
 $string['displayinfo'] = 'Informazioni sull\'esportazione';
 $string['dontwait'] = 'Non aspettare';
 $string['enabled'] = 'Abilita portfolio';
-$string['enableddesc'] = 'Questa impostazione consente agli amministratori di configurare sistemi remoti per consentire agli utenti di esportare contenuti';
+$string['enableddesc'] = 'Gli amministratori saranno abilitati a configurare sistemi remoti di ePortfolio dove gli utenti potranno esportare contenuti';
 $string['err_uniquename'] = 'Il nome del Portfolio deve essere univoco (per ciascun plugin)';
 $string['exportcomplete'] = 'Esportazione del portfolio completata!';
 $string['exportedpreviously'] = 'Esportazioni già effettuate';
