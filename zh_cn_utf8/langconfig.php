@@ -21,5 +21,5 @@ $string['strftimerecentfull'] = '%%Y年%%m月%%d日 %%A %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = 'Chinese';
+$string['thislanguage'] = '简体中文';
 ?>
