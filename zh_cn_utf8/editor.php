@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 (2007021501)
+      // editor.php - created with Moodle 1.9.5 (Build: 20090520) (2007101550)
 
 
 $string['about'] = '关于此编辑器';
@@ -125,6 +125,6 @@ $string['upload'] = '上传';
 $string['vertical'] = '垂直位置';
 $string['width'] = '宽度';
 $string['wordclean'] = '净化Word HTML';
-$string['zip'] = 'Zip';
+$string['zip'] = '压缩';
 
 ?>
