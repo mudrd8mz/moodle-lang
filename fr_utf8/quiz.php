@@ -644,6 +644,7 @@ $string['reviewopen'] = 'Plus tard, alors que le test est encore ouvert';
 $string['reviewoptions'] = 'Les étudiants peuvent relire';
 $string['reviewoptionsheading'] = 'Options de relecture';
 $string['reviewresponse'] = 'Relire la réponse';
+$string['reviewresponsetoq'] = 'Relire la réponse (question $a)';
 $string['reviewthisattempt'] = 'Relire vos responses à cette tentative';
 $string['rqp'] = 'Question RQP';
 $string['rqps'] = 'Questions RQP';
