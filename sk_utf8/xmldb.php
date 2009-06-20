@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // xmldb.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
 
 
 $string['aftertable'] = 'Za tabuľkou:';
@@ -20,9 +20,9 @@ $string['completelogbelow'] = '(viď kompletný log vyhľadávania nižšie)';
 $string['confirmcheckbigints'] = 'Táto funkcionalita bude hľadať  <a href=\"http://tracker.moodle.org/browse/MDL-11038\"> potenciálne chybné celočíselné polia</a> na vašom Moodle serveri. Generuje (alebo nevykonáva!) automaticky potrebné SQL príkazy, aby boli všetky integery v DB správne definované.<br /><br />
 Po ich vygenerovaní možno tieto príkazy skopírovať a spustiť ich v nejakom SQL rozhraní (samozrejme najprv si urobte zálohu svojich údajov).<br /><br />
 Je vysoko odporúčané spustiť najnovšiu dostupnú (+ verziu) Moodle (1.8, 1.9, 2.x ...) pred vykonaním hľadania chýbajúcich indexov. <br /><br /> Tento skript nevykonáva žiadnu akciu na DB (iba na čítanie), takže môže byť vykonaný kedykoľvek.';
-$string['confirmcheckdefaults'] = 'Táto funkcia vyhľadá nekonzistentné výchdzie hodnoty vo vašej Moodle databáze a vygeneruje (ale nespustí!) SQL príkazy pre ich korektné nastavení.<br /><br />
+$string['confirmcheckdefaults'] = 'Táto funkcia vyhľadá nekonzistentné východzie hodnoty vo vašej Moodle databáze a vygeneruje (ale nespustí!) SQL príkazy pre ich korektné nastavení.<br /><br />
 Táto funkcia žiadnym spôsobom nemení obsah databázy, iba z nej číta údaje. Vygenerovaný SQL kód musíte spustiť ručne vo vašom obľúbenom SQL klientovi (nezabudnite predtým vašu databázu zazálohovať).<br /><br />
-Výrazne sa doporučuje spustiť túto funkciu až po upgrade na poslednú stabilnú verziu (označované jako \"+\" verzia) vami používanej rady (1.8, 1.9, 2.x, ...).';
+Výrazne sa doporučuje spustiť túto funkciu až po upgrade na poslednú stabilnú verziu (označované ako \"+\" verzia) vami používanej rady (1.8, 1.9, 2.x, ...).';
 $string['confirmcheckindexes'] = 'Tento skript bude hľadať potenciálne chýbajúce indexy vo vašom Moodle serveri, generovať (ale nie vykonávať) automaticky potrebné SQL príkazy na zabezpečenie všetkých aktualizácií.<br /><br /> Vygenerované príkazy môžete skopírovať a spustiť ich bezpečne vo vašom obľúbenom SQL rozhraní. <br /><br /> Je vysoko odporúčané spustiť najnovšiu dostupnú (+ verziu) Moodle (1.8, 1.9, 2.x ...) pred vykonaním hľadania chýbajúcich indexov. <br /><br /> Tento skript nevykonáva žiadnu akciu na DB (iba na čítanie), takže môže byť vykonaný kedykoľvek.';
 $string['confirmdeletefield'] = 'Ste si úplne istí, že chcete odstrániť pole:';
 $string['confirmdeleteindex'] = 'Ste si úplne istí, že chcete odstrániť index:';
@@ -54,9 +54,9 @@ $string['edit_sentence'] = 'Upraviť vetu';
 $string['edit_statement'] = 'Upraviť príkaz';
 $string['edit_table'] = 'Upraviť tabuľku';
 $string['edit_xml_file'] = 'Upraviť XML súbor';
-$string['enumvaluesincorrect'] = 'Nesprávne hodnoty pre výčtové pole';
+$string['enumvaluesincorrect'] = 'Nesprávne hodnoty pre enum pole';
 $string['field'] = 'Pole';
-$string['fieldnameempty'] = 'Prázdný názov poľa';
+$string['fieldnameempty'] = 'Prázdny názov poľa';
 $string['fields'] = 'Polia';
 $string['filenotwriteable'] = 'Do poľa nemožno zapisovať';
 $string['floatincorrectdecimals'] = 'Nesprávny počet desatinných čísel v poli s plávajúcou desatinnou čiarkou';
@@ -129,11 +129,11 @@ $string['viewsqlcode'] = 'Zobraziť kód SQL';
 $string['wrong'] = 'Nesprávny';
 $string['wrongdefaults'] = 'Nájdené chybné východzie hodnoty';
 $string['wrongints'] = 'Boli nájdené nesprávne polia typu integer';
-$string['wronglengthforenum'] = 'Nesprávna dĺžka výčtového poľa';
+$string['wronglengthforenum'] = 'Nesprávna dĺžka enum poľa';
 $string['wrongnumberoffieldsorvalues'] = 'Nesprávny počet polí alebo hodnôt vo vete';
 $string['wrongreservedwords'] = 'Súčasné rezervované slová<br />(názvy tabuliek nehrajú roľu, ak používate $CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Niektoré chýbajúce indexy boli nájdené vo vašej DB. Tu sú podrobnosti a potrebné SQL príkazy na vykonanie s vašim obľúbeným SQL rozhraním na ich vytvorenie. <br /><br /> Po vykonaní je vysoko doporučované spustiť tento skript znova na skontrolovanie, či nebudú nájdené žiadne ďalšie chýbajúce indexy.';
-$string['yeswrongdefaultsfound'] = 'Vo vašej databáze boli nájdené nesprávne typy niektorých celočíselných atribútov. Nasledujú bližšie informácie a potrebné SQL príkazy ku korektnej definícii vašich tabuliek. Pred spustením týchto príkazov vo vašom obľúbenom SQL klientovi si nezabudnite vytvoriť zálohu celej databázy.<br /><br />Pre istotu odporúčajeme, aby ste po spustení uvedených SQL príkazov spustili túto kontrolu znovu.';
+$string['yeswrongdefaultsfound'] = 'Vo vašej databáze boli nájdené nesprávne typy niektorých celočíselných atribútov. Nasledujú bližšie informácie a potrebné SQL príkazy ku korektnej definícii vašich tabuliek. Pred spustením týchto príkazov vo vašom obľúbenom SQL klientovi si nezabudnite vytvoriť zálohu celej databázy.<br /><br />Pre istotu odporúčame, aby ste po spustení uvedených SQL príkazov spustili túto kontrolu znovu.';
 $string['yeswrongintsfound'] = 'Niektoré chýbajúce premenné typu integer boli nájdené vo vašej DB. Tu sú podrobnosti a potrebné SQL príkazy na vykonanie s vašim obľúbeným SQL rozhraním na ich vytvorenie (nezabudnite predtým zálohovať vaše údaje). <br /><br /> Po vykonaní je vysoko doporučované spustiť tento skript znova na skontrolovanie, či nebudú nájdené žiadne ďalšie chýbajúce indexy.';
 
 ?>
