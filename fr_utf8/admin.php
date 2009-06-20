@@ -772,6 +772,7 @@ $string['settingmemorylimit'] = 'Mémoire insuffisante détectée. Veuillez fixe
 $string['showblocksonmodpages'] = 'Afficher les blocs sur les pages des modules';
 $string['showdetails'] = 'Afficher les détails';
 $string['simpletest'] = 'Tests';
+$string['simplexmlrequired'] = 'L\'installation de l\'extension SimpleXML de PHP est maintenant requise par Moodle.';
 $string['sitelangchanged'] = 'La langue du site a été modifiée';
 $string['sitemailcharset'] = 'Jeu de caractères';
 $string['sitemaintenance'] = 'Ce site est actuellement en maintenance. Il est donc temporairement non disponible';
