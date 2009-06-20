@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
+      // quiz.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
 
 
 $string['1day'] = '1 deň';
@@ -518,6 +518,7 @@ $string['reviewopen'] = 'Neskôr, keď je test stále otvorený';
 $string['reviewoptions'] = 'Študenti majú možnosť revízie';
 $string['reviewoptionsheading'] = 'Možnosti prehľadu';
 $string['reviewresponse'] = 'Zhodnotiť odpoveď';
+$string['reviewresponsetoq'] = 'Zhodnotiť odpoveď (otázka $a)';
 $string['rqp'] = 'Nedostupná otázka';
 $string['rqps'] = 'Nedostupné otázky';
 $string['save'] = 'Uložiť';

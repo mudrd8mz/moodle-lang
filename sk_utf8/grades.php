@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // grades.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
 
 
 $string['activities'] = 'Aktivity';
@@ -10,7 +10,9 @@ $string['addfeedback'] = 'Pridať komentár';
 $string['addgradeletter'] = 'Pridať slovnú známku';
 $string['addidnumbers'] = 'Pridať identifikátory';
 $string['additem'] = 'Pridať položku hodnotenia';
+$string['addoutcome'] = 'Pridať očakávaný cieľ';
 $string['addoutcomeitem'] = 'Pridať hodnotený cieľ';
+$string['addscale'] = 'Pridať stupnicu';
 $string['aggregateextracreditmean'] = 'Priemer známok (s extra bodmi)';
 $string['aggregatemax'] = 'Najvyššia známka';
 $string['aggregatemean'] = 'Priemer známok';
@@ -37,6 +39,8 @@ $string['aggregationcoefweight'] = 'Váha položky';
 $string['aggregationcoefweighthelp'] = 'Váha aplikovaná všetkým známkam v tejto položke hodnotenia počas výpočtu súhrnnej známky.';
 $string['aggregationhelp'] = 'Stratégia použitá pri výpočte súhrnných známok u všetkých študentov kurzu';
 $string['aggregationposition'] = 'Umiestnenie súhrnnej známky';
+$string['aggregationsvisible'] = 'Dostupné súhrnné známky';
+$string['aggregationsvisiblehelp'] = 'Vyznačte všetky typy súhrnných známok, ktoré majú byť dostupné. Používajte klávesu CTRL na výber viacerých položiek.';
 $string['aggregationview'] = 'Zobrazenie súhrnných známok';
 $string['allgrades'] = 'Všetky známky podľa kategórie';
 $string['allstudents'] = 'Všetci študenti';
@@ -48,14 +52,17 @@ $string['averagesdecimalpoints'] = 'Počet desatinných miest v stĺpcových pri
 $string['averagesdisplaytype'] = 'Typ zobrazenia stĺpcových priemerov';
 $string['backupwithoutgradebook'] = 'Záloha neobsahuje konfiguráciu Známok';
 $string['badgrade'] = 'Dodaná známka je neplatná';
+$string['badlyformattedscale'] = 'Zadajte zoznam oddelený čiarkami (je potrebné zadať minimálne dve položky)';
 $string['baduser'] = 'Dodaný používateľ je neplatný';
 $string['bonuspoints'] = 'Body naviac (bonus)';
 $string['bulkcheckboxes'] = 'Hromadné checkboxy';
+$string['calculatedgrade'] = 'Vypočítaná známka';
 $string['calculation'] = 'Výpočet';
 $string['calculationadd'] = 'Pridať výpočet';
 $string['calculationedit'] = 'Upraviť výpočet';
 $string['calculationsaved'] = 'Výpočet uložený';
 $string['calculationview'] = 'Prezrieť výpočet';
+$string['cannotaccessgroup'] = 'Ľutujem, známky vybranej skupiny nie sú dostupné.';
 $string['categories'] = 'Kategórie';
 $string['categoriesanditems'] = 'Kategórie a položky';
 $string['categoriesedit'] = 'Upraviť kategórie a položky';
@@ -63,10 +70,196 @@ $string['category'] = 'Kategória';
 $string['categoryedit'] = 'Upraviť kategóriu';
 $string['categoryname'] = 'Názov kategórie';
 $string['categorytotal'] = 'Kategória spolu';
+$string['categorytotalfull'] = 'Preskočiť Administratíva portálu
+Administratíva portálu
+Oznámenia
+Zavretý priečinok Používatelia
+Zavretý priečinok Kurzy
+Zavretý priečinok Známky
+Zavretý priečinok Umiestnenie
+Otvorený priečinok Jazyk
+Jazykové nastavenia
+Úprava prekladu
+Jazykové balíčky
+Zavretý priečinok Moduly
+Zavretý priečinok Zabezpečenie
+Zavretý priečinok Vzhľad
+Zavretý priečinok Titulná stránka
+Zavretý priečinok Server
+Zavretý priečinok Sieť
+Zavretý priečinok Záznamy
+Zavretý priečinok Rôzne
+Hľadaj v nastaveniach
+Preskočiť Záložky administrátora
+Záložky administrátora
+
+   1. Prechádzať zoznam používateľov
+
+pridať záložku
+	
+
+    * Úprava lokálnych reťazcov
+    * Správa jazykového balíčka
+          o Nájsť nepreložené texty
+          o Upraviť textové reťazce
+             
+          o Upraviť dokumentáciu nápovedy
+
+sk_utf8/assignment_random.php (mod/assignment/type/random)attforblock.php (blocks/attendance)block_attendance.php (blocks/attendance)block_contact_form.php (blocks/contact_form)block_course_datemgr.php (blocks/course_datemgr)block_downloader.php (blocks/downloader)block_feedback.php (mod/feedback)feedback.php (mod/feedback)block_graph_stats.php (blocks/graph_stats)block_marking.php (blocks/marking)block_quickmail.php (blocks/quickmail)block_side_bar.php (blocks/side_bar)book.php (mod/book)bookings.php (mod/bookings)questionnaire.php (mod/questionnaire)registration.php (mod/registration)
+Pomoc s Kde budú ukladané súbory (nové okno)
+Počet chýbajúcich reťazcov: 41
+Prvý chýbajúci reťazec
+Activities
+activities 	Aktivity
+Add category
+addcategory 	Pridať kategóriu
+Could not add category.
+addcategoryerror 	Nepodarilo sa pridať kategóriu
+Error occurred while adding exception for userid:gradeitem
+addexceptionerror 	Pri pridávaní výnimky pre userid:gradeitem sa vyskytla chyba
+Add feedback
+addfeedback 	Pridať komentár
+Add a grade letter
+addgradeletter 	Pridať slovnú známku
+Add id numbers
+addidnumbers 	Pridať identifikátory
+Add grade item
+additem 	Pridať položku hodnotenia
+Add an outcome
+addoutcome 	Ďalší
+Add outcome item
+addoutcomeitem 	Pridať hodnotený cieľ
+Add a scale
+addscale 	Predchádzajúci Ďalší
+Mean of grades (with extra credits)
+aggregateextracreditmean 	Priemer známok (s extra bodmi)
+Highest grade
+aggregatemax 	Najvyššia známka
+Mean of grades
+aggregatemean 	Priemer známok
+Median of grades
+aggregatemedian 	Medián známok
+Lowest grade
+aggregatemin 	Najnižšia známka
+Mode of grades
+aggregatemode 	Početnosť známok
+Aggregate only non-empty grades
+aggregateonlygraded 	Súhrnná známka iba z neprázdnych známok
+Nonexistent grades are either treated as minimal grades or not included in aggregation.
+aggregateonlygradedhelp 	Známky, ktoré neexistujú, sú alebo chápané ako minimálne alebo nie sú zahrnuté do súhrnnej známky.
+ 	
+
+ 
+Include outcomes in aggregation
+aggregateoutcomes 	Zahrnúť ciele do súhrnnej známky
+Including outcomes in aggregation may not lead to the desired overall grade, so you have the option to include or leave them out.
+aggregateoutcomeshelp 	Zahrnutie cieľov do súhrnnej známky nemusí viesť k požadovanej celkovej známke, takže máte možnosť ich zahrnúť alebo vynechať.
+Aggregates only
+aggregatesonly 	Iba súhrnné známky
+Aggregate including subcategories
+aggregatesubcats 	Súhrnná známka zahŕňa podkategórie
+The aggregation is usually done only with immediate children, it is also possible to aggregate grades in all subcategories excluding other aggregated grades.
+aggregatesubcatshelp 	Výpočet súhrnnej známky je normálne vykonávaný iba na priamych podkategóriách. Je tiež možno vypočítať známky vo všetkých podkategóriách s výmimkou iných súhrnných známok.
+Sum of grades
+aggregatesum 	Súčet známok
+Weighted mean of grades
+aggregateweightedmean 	Vážený priemer známok
+Simple weighted mean of grades
+aggregateweightedmean2 	Jednoduchý vážený priemer známok
+Aggregation
+aggregation 	Súhrnná známka
+Aggregation coefficient
+aggregationcoef 	Násobiaci koeficient
+Extra credit
+aggregationcoefextra 	Extra body
+Extra credit for this grade item during aggregation.
+aggregationcoefextrahelp 	Extra body pre túto známku počas výpočtu súhrnnej známky.
+Extra credit
+aggregationcoefextrasum 	Extra body
+Extra credit for this grade item during aggregation.
+aggregationcoefextrasumhelp 	Extra body pre túto známku počas výpočtu súhrnnej známky.
+Item weight
+aggregationcoefweight 	Váha položky
+Weight applied to all grades in this grade item during aggregation with other grade items.
+aggregationcoefweighthelp 	Váha aplikovaná všetkým známkam v tejto položke hodnotenia počas výpočtu súhrnnej známky.
+Strategy used to aggregate grades across all students in a course.
+aggregationhelp 	Stratégia použitá pri výpočte súhrnných známok u všetkých študentov kurzu
+Aggregation position
+aggregationposition 	Umiestnenie súhrnnej známky
+Available aggregation types
+aggregationsvisible 	Predchádzajúci Ďalší
+Select all aggregation types that should be available. Hold down the Ctrl key to select multiple items.
+aggregationsvisiblehelp 	Predchádzajúci Ďalší
+ 	
+
+ 
+Aggregation view
+aggregationview 	Zobrazenie súhrnných známok
+All grades by category
+allgrades 	Všetky známky podľa kategórie
+All students
+allstudents 	Všetci študenti
+All users
+allusers 	Všetci používatelia
+Auto-sort
+autosort 	Automatické triedenie
+Available id numbers
+availableidnumbers 	Dostupné identifikátory
+Average
+average 	Priemer
+Decimals in column averages
+averagesdecimalpoints 	Počet desatinných miest v stĺpcových priemeroch
+Column averages display type
+averagesdisplaytype 	Typ zobrazenia stĺpcových priemerov
+Backup does not contain Gradebook configuration
+backupwithoutgradebook 	Záloha neobsahuje konfiguráciu Známok
+Supplied grade is invalid
+badgrade 	Dodaná známka je neplatná
+Please enter a comma-separated list of values (at least two values required).
+badlyformattedscale 	Predchádzajúci Ďalší
+Supplied user is invalid
+baduser 	Dodaný používateľ je neplatný
+Bonus points
+bonuspoints 	Body naviac (bonus)
+Bulk checkboxes
+bulkcheckboxes 	Hromadné checkboxy
+Calculated grade
+calculatedgrade 	Predchádzajúci Ďalší
+Calculation
+calculation 	Výpočet
+Add calculation
+calculationadd 	Pridať výpočet
+Edit calculation
+calculationedit 	Upraviť výpočet
+Calculation saved
+calculationsaved 	Výpočet uložený
+ 	
+
+ 
+View calculation
+calculationview 	Prezrieť výpočet
+Can not access grades of selected group, sorry.
+cannotaccessgroup 	Predchádzajúci Ďalší
+Categories
+categories 	Kategórie
+Categories and items
+categoriesanditems 	Kategórie a položky
+Edit categories and items
+categoriesedit 	Upraviť kategórie a položky
+Category
+category 	Kategória
+Edit category
+categoryedit 	Upraviť kategóriu
+Category name
+categoryname 	Názov kategórie
+Category total
+categorytotal 	Kategória spolu
+$a->category spolu';
 $string['changedefaults'] = 'Zmeniť predvoľby';
 $string['changereportdefaults'] = 'Zmeniť predvoľby výkazu';
 $string['chooseaction'] = 'Vyberte činnosť ...';
 $string['choosecategory'] = 'Vyberte si kategóriu';
+$string['combo'] = 'Záložky a rozbaľovací zoznam';
 $string['compact'] = 'Kompaktný';
 $string['configaggregationposition'] = 'Definuje pozíciu stĺpca súhrnnej známky  vo výkaze vzhľadom na spracovávané stĺpce';
 $string['configaggregationview'] = 'Každá kategória môže byť zobrazená trojitým spôsobom: všetko (stĺpce položiek známok a stĺpec súhrnnej známky), iba stĺpec súhrnnej známky, iba stĺpce položiek známok.';
@@ -78,6 +271,7 @@ $string['configdisablegradehistory'] = 'Zakázať históriu sledovania zmien v t
 $string['configenableajax'] = 'Pridať funkcionalitu AJAX pri práci so známkami - zjednodušenie a zrýchlenie základných operácií. Závisí od zapnutia Javascriptu v prehliadači používateľa.';
 $string['configenableoutcomes'] = 'Podpora pre Ciele (tiež známe ako Kompetencie, Kritériá) znamená, že môžeme hodnotiť aktivity pomocou jednej alebo viacerých stupníc spojených s definovanými cieľmi. Povolenie cieľov umožňuje podporu takéhoto hodnotenia na celom portáli.';
 $string['configexportdecimalpoints'] = 'Počet desatinných miest v zobrazení pre export. Počas exportu môže byť zmenené.';
+$string['configfixedstudents'] = 'Povoliť horizontálne rolovanie známok bez toho, aby zmizol údaj o mene študenta - toto pole je zamknuté.';
 $string['configgradeboundary'] = 'Percentuálny rozsah, nad ktorým je hodnoteniu priradená slovná známka (ak bude použité zobrazenie Slovná známka).';
 $string['configgradedisplaytype'] = 'Určuje ako zobraziť známky v známkovom a používateľských výkazoch. Môžu byť zobrazené ako skutočné hodnoty, percentá (vzhľadom na minimálne a maximálne body) alebo ako slovná známka.';
 $string['configgradeexportdisplaytype'] = 'Známky môžu byť zobrazené ako skutočné hodnoty, percentá (vzhľadom na minimálne a maximálne body) alebo ako slovné známky. Počas exportu môže byť zmenené.';
@@ -111,6 +305,7 @@ $string['configshowuseridnumber'] = 'Zobraziť používateľské idientifikačn�
 $string['configshowuserimage'] = 'Zobraziť obrázok používateľa spolu s menom v známkovom výkaze.';
 $string['configstudentsperpage'] = 'Počet študentov na strane v známkovom výkaze.';
 $string['configstudentsperpagedefault'] = 'Počet študentov na strane v známkovom výkaze. Nechajte prázdne pre použitie štandardného nastavenia na portáli (v súčasnosti $a).';
+$string['configunlimitedgrades'] = 'Východzie nastavenie zámok je ohraničené minimálnou a maximálnou hodnotou položky známky. Ak povolíte toto nastavenie, bude možné zadávať vo výkaze známok aj známky  na viac ako 100%%. Doporučuje sa, aby ste toto nastavenie zapli mimo plnej premávky servera, pretože všetky známky budú prepočítavané a spôsobia významnú záťaž na serveri.';
 $string['contract'] = 'Zbaliť kategóriu';
 $string['controls'] = 'Nastavenia';
 $string['courseavg'] = 'Priemer kurzu';
@@ -118,12 +313,15 @@ $string['coursegradecategory'] = 'Kategória známok kurzu';
 $string['coursegradedisplaytype'] = 'Typ zobrazovania známok kurzu';
 $string['coursegradedisplayupdated'] = 'Typ zobrazovania známok kurzu bol aktualizovaný.';
 $string['coursename'] = 'Názov kurzu';
+$string['coursescales'] = 'Stupnice kurzu';
 $string['coursesettings'] = 'Nastavenia kurzu';
+$string['coursesettingsexplanation'] = 'Nastavenia kurzu, ktoré určujú výzor známkového výkazy účastníkom kurzu.';
 $string['coursetotal'] = 'Súčet kurzu';
 $string['createcategory'] = 'Vytvoriť kategóriu';
 $string['createcategoryerror'] = 'Nebolo možné vytvoriť novú kategóriu';
 $string['creatinggradebooksettings'] = 'Vytvára sa nastavenie klasifikácie';
 $string['csv'] = 'CSV';
+$string['currentparentaggregation'] = 'Typ výpočtu sumárnej známky v nadradenej kategórii';
 $string['curveto'] = 'Prepočítať na';
 $string['decimalpoints'] = 'Celkové desatinné miesta';
 $string['default'] = 'Predvolené';
@@ -134,6 +332,7 @@ $string['displaylettergrade'] = 'Zobraziť slovné známky';
 $string['displaypercent'] = 'Zobraziť percentá';
 $string['displaypoints'] = 'Zobraziť body';
 $string['displayweighted'] = 'Zobraziť vážené známky';
+$string['dropdown'] = 'Rozbaľovací zoznam';
 $string['droplow'] = 'Ignorovať najnižšie';
 $string['droplowhelp'] = 'Ak je nastavená, táto voľba zruší X najnižších známok, kde X je vybraná hodnota tejto voľby.';
 $string['dropped'] = 'Ignorované';
@@ -145,7 +344,10 @@ $string['editcalculation'] = 'Upraviť výpočet';
 $string['editcalculationverbose'] = 'Upraviť výpočet pre $a->category$a->itemmodule $a->itemname';
 $string['editfeedback'] = 'Upraviť komentár';
 $string['editgrade'] = 'Upraviť známku';
+$string['editgradeletters'] = 'Upraviť slovné známky';
+$string['editoutcome'] = 'Upraviť cieľ';
 $string['editoutcomes'] = 'Upraviť ciele';
+$string['editscale'] = 'Upraviť stupnicu';
 $string['edittree'] = 'Kategórie a položky';
 $string['editverbose'] = 'Upraviť $a->category$a->itemmodule $a->itemname';
 $string['enableajax'] = 'Povoliť AJAX';
@@ -157,7 +359,8 @@ $string['errorgradevaluenonnumeric'] = 'Nenumerická hodnota známky:';
 $string['errornocalculationallowed'] = 'Pre túto položku nie sú povolené výpočty';
 $string['errornocategorisedid'] = 'Nebolo možné získať nekategorizovaný identifikátor';
 $string['errornocourse'] = 'Nebolo možné získať informácie o kurze';
-$string['errorreprintheadersnonnumeric'] = 'Hodnota nenumnerického typu pre opakujúcu sa hlavičku';
+$string['errorreprintheadersnonnumeric'] = 'Hodnota nenumerického typu pre opakujúcu sa hlavičku';
+$string['errorsavegrade'] = 'Ľutujeme, nebolo možné uložiť známku.';
 $string['exceptions'] = 'Výnimky';
 $string['excluded'] = 'Vyňatý';
 $string['excludedhelp'] = 'Ak je zapnuté vylúčenie, táto známka bude vylúčená zo všetkých výpočtov v nadradenej položka alebo kategórii.';
@@ -178,12 +381,14 @@ $string['feedbacksaved'] = 'Komentár uložený';
 $string['feedbackview'] = 'Prezrieť komentár';
 $string['finalgrade'] = 'Výsledná známka';
 $string['finalgradehelp'] = 'Uložená výsledná známka po vykonaní všetkých výpočtov.';
+$string['fixedstudents'] = 'Ukotviť zoznam študentov';
 $string['forceoff'] = 'Vnútiť: vypnuté';
 $string['forceon'] = 'Vnútiť: zapnuté';
 $string['forelementtypes'] = 'pre vybrané $a';
 $string['forstudents'] = 'Pre študentov';
-$string['full'] = 'Úplny';
-$string['fullmode'] = 'Úplny pohľad';
+$string['full'] = 'Úplný';
+$string['fullmode'] = 'Úplný režim';
+$string['fullview'] = 'Úplný režim';
 $string['generalsettings'] = 'Všeobecné nastavenia';
 $string['grade'] = 'Známka';
 $string['gradebook'] = 'Klasifikácia';
@@ -201,19 +406,20 @@ $string['gradeexceptions'] = 'Výnimky známkovania';
 $string['gradeexceptionshelp'] = 'Nápoveda pre výnimky známkovania';
 $string['gradeexportdecimalpoints'] = 'Počet desatinných miest pri exporte známok';
 $string['gradeexportdisplaytype'] = 'Typ zobrazenia  pri exporte známok';
-$string['gradehelp'] = 'Nápoevda pre známkovanie';
+$string['gradeforstudent'] = '$a->student<br />$a->item$a->feedback';
+$string['gradehelp'] = 'Nápoveda pre známkovanie';
 $string['gradehistorylifetime'] = 'Životnosť histórie známok';
 $string['gradeitem'] = 'Položka známkovania';
 $string['gradeitemaddusers'] = 'Vyňať zo známkovania';
 $string['gradeitemadvanced'] = 'Pokročilé voľby položky známkovania';
 $string['gradeitemislocked'] = 'Táto aktivita je vo výkaze uzamknutá. Zmeny, ktoré budú vykonané v tejto aktivite, nebudú skopírované do výkazu známok, kým nebude odomknutý.';
-$string['gradeitemlocked'] = 'Známovanie zamknuté';
+$string['gradeitemlocked'] = 'Známkovanie zamknuté';
 $string['gradeitemmembersselected'] = 'Vyňatie zo známkovania';
 $string['gradeitemnonmembers'] = 'Zahrnutie do známkovania';
 $string['gradeitemremovemembers'] = 'Zahrnúť do známkovania';
 $string['gradeitems'] = 'Položky známkovania';
-$string['gradeitemsettings'] = 'Nastavenia položky známovania';
-$string['gradeitemsinc'] = 'Zahrnuté položky známovania';
+$string['gradeitemsettings'] = 'Nastavenia položky známkovania';
+$string['gradeitemsinc'] = 'Zahrnuté položky známkovania';
 $string['gradeletter'] = 'Slovná známka';
 $string['gradeletterhelp'] = 'Nápoveda pre slovné známky';
 $string['gradeletternote'] = 'Ak chcete vymazať slovnú známku, jednoducho vymažte ktorúkoľvek z <br />troch textových oblastí pre ten výpis a kliknite na tlačidlo odoslať.';
@@ -261,7 +467,7 @@ $string['hideverbose'] = 'Skryť $a->category$a->itemmodule $a->itemname';
 $string['highgradeascending'] = 'Triediť podľa známok vzostupne';
 $string['highgradedescending'] = 'Triediť podľa známok zostupne';
 $string['highgradeletter'] = 'Do';
-$string['identifier'] = 'Identifikovaťj účastníka podľa';
+$string['identifier'] = 'Identifikovať účastníka podľa';
 $string['idnumberhelp'] = 'Nastavenie identifikátora poskytuje spôsob identifikácie aktivity za účelom výpočtu známok. Ak aktivita nie je zahrnutá vo výpočtoch známok, možno toto nechať nevyplnené. Identifikátor ID pre aktivitu možno nastaviť iba na stránke jej  aktualizácie.';
 $string['idnumbers'] = 'Identifikátory';
 $string['import'] = 'Import';
@@ -282,12 +488,14 @@ $string['importsettings'] = 'Nastavenia importu';
 $string['importskippednomanagescale'] = 'Nemáte oprávnenie pridať novú stupnicu, takže cieľ \"$a\" preskočený (vyžaduje vytvorenie novej stupnice).';
 $string['importskippedoutcome'] = 'Cieľ s krátkym menom \"$a\" už v tomto kontexte existuje, a preto bol v tomto importovanom súbore preskočený.';
 $string['importstandard'] = 'Importovať ako štandardné ciele';
-$string['importsuccess'] = 'Import prehebol úspešne';
+$string['importsuccess'] = 'Import prebehol úspešne';
 $string['importxml'] = 'Importovať XML';
 $string['includescalesinaggregation'] = 'Zahrnúť stupnice vo výpočtoch súhrnnej známky';
 $string['incorrectcourseid'] = 'ID kurzu bolo nesprávne';
+$string['incorrectcustomscale'] = '(Neplatná vlastná stupnica - zvoľte inú)';
 $string['incorrectminmax'] = 'Minimum musí byť menšie ako maximum';
 $string['inherit'] = 'Zdediť';
+$string['intersectioninfo'] = 'Študent/známka';
 $string['item'] = 'Položka';
 $string['iteminfo'] = 'Informácia o položke';
 $string['iteminfohelp'] = 'Miesto pre vloženie informácie o položke. Text sem vložený sa neobjaví nikde inde.';
@@ -307,6 +515,7 @@ $string['letterreal'] = 'Slovná známka (skutočná hodnota)';
 $string['letters'] = 'Slovné známky';
 $string['linkedactivity'] = 'Odkazovaná aktivita';
 $string['linkedactivityhelp'] = 'Určuje voliteľnú aktivitu, ku ktorej je viazaný cieľ. Používa sa na určenie výkonnosti študenta vzhľadom k kritériu nehodnoteného známkou z aktivity.';
+$string['linktoactivity'] = 'Odkaz na aktivitu: $a->name';
 $string['lock'] = 'Zamknúť';
 $string['locked'] = 'Zamknutý';
 $string['locktime'] = 'Zamknúť po';
@@ -328,12 +537,17 @@ $string['min'] = 'Najhorší';
 $string['missingscale'] = 'Stupnica musí byť vybraná';
 $string['mode'] = 'Režim (mód)';
 $string['morethanmax'] = 'Známka vložená pre $a->itemname pre $a->username je vyššia ako povolené maximum.';
+$string['moveselectedto'] = 'Presunúť vybrané položky do';
 $string['movingelement'] = 'Presúvanie $a';
 $string['multfactor'] = 'Násobiaci koeficient';
 $string['multfactorhelp'] = 'Faktor, ktorým budú násobené všetky známky tejto položky hodnotenia.';
+$string['mypreferences'] = 'Moje preferencie';
 $string['myreportpreferences'] = 'Moje preferencie výkazu';
+$string['navmethod'] = 'Metóda navigácie';
 $string['neverdeletehistory'] = 'Nikdy nevymazať históriu';
 $string['newcategory'] = 'Nová kategória';
+$string['newitem'] = 'Nová položka hodnotenia';
+$string['newoutcomeitem'] = 'Nový hodnotený cieľ';
 $string['newuserkey'] = 'Nový prístupový kľúč používateľa';
 $string['no'] = 'Nie';
 $string['nocategories'] = 'Kategórie známkovania nemohli byť pridané alebo nájdené pre tento kurz';
@@ -439,6 +653,7 @@ $string['scaleidhelp'] = 'Pri použití hodnotenia typu stupnice je potrebné vy
 $string['scalestandardhelp'] = 'Štandardná stupnica je dostupná vo všetkých kurzoch na portáli';
 $string['seeallcoursegrades'] = 'Vidieť všetky známky v kurze';
 $string['selectalloroneuser'] = 'Vybrať všetkých alebo jedného používateľa';
+$string['selectauser'] = 'Vybrať používateľa';
 $string['selectdestination'] = 'Vybrať cieľ pre $a';
 $string['separator'] = 'Oddeľovač';
 $string['sepcomma'] = 'Čiarka';
@@ -471,6 +686,7 @@ $string['showrank'] = 'Zobraziť poradie';
 $string['showuseridnumber'] = 'Zobraziť identifikátor používateľov';
 $string['showuserimage'] = 'Zobraziť fotografie účastníkov';
 $string['showverbose'] = 'Zobraziť $a->category$a->itemmodule $a->itemname';
+$string['simpleview'] = 'Zjednodušený režim';
 $string['sitewide'] = 'Pre celý portál';
 $string['sort'] = 'triediť';
 $string['sortasc'] = 'Triediť vzostupne';
@@ -485,7 +701,10 @@ $string['studentsperpage'] = 'Počet študentov na stránku';
 $string['subcategory'] = 'Normálna kategória';
 $string['submissions'] = 'Odovzdané zadania';
 $string['submittedon'] = 'Odovzdaných: $a';
+$string['switchtofullview'] = 'Prepnúť do plného režimu';
+$string['switchtosimpleview'] = 'Prepnúť do zjednodušeného režimu';
 $string['synclegacygrades'] = 'Synchronizovať staré (legacy) známky';
+$string['tabs'] = 'Záložky';
 $string['topcategory'] = 'Superkategória';
 $string['total'] = 'Celkom';
 $string['totalweight100'] = 'Celková váha sa rovná 100';
@@ -499,6 +718,7 @@ $string['typevalue'] = 'Hodnota';
 $string['uncategorised'] = 'Nezaradené';
 $string['unchangedgrade'] = 'Známka je nezmenená';
 $string['unenrolledusersinimport'] = 'Tento import zahrnul nasledovné známky používateľov, ktorí nie sú účastníkmi tohto kurzu: $a';
+$string['unlimitedgrades'] = 'Neobmedzené známky';
 $string['unlock'] = 'Odomknúť';
 $string['unlockverbose'] = 'Odomknúť $a->category$a->itemmodule $a->itemname';
 $string['unused'] = 'Nepoužité';
@@ -518,12 +738,17 @@ $string['useweighted'] = 'Použiť vážené';
 $string['verbosescales'] = 'Doslovné stupnice';
 $string['viewbygroup'] = 'Skupina';
 $string['viewgrades'] = 'Prezrieť známky';
+$string['warningexcludedsum'] = 'Upozornenie: vyradzovanie známok nie je možné kombinovať so spôsobom výpočtu výslednej známky ako súčtu dielčich známok';
 $string['weight'] = 'váha';
 $string['weightcourse'] = 'Použiť vážené známky v kurze';
 $string['weightedascending'] = 'Triediť podľa váženého percenta vzostupne';
 $string['weighteddescending'] = 'Triediť podľa váženého percenta zostupne';
 $string['weightedpct'] = 'vážené %%';
 $string['weightedpctcontribution'] = 'vážené %% príspevku';
+$string['weightorextracredit'] = 'Váha alebo extra body';
+$string['weights'] = 'Váhy';
+$string['weightsedit'] = 'Upraviť váhy a extra body';
+$string['weightuc'] = 'Váha';
 $string['writinggradebookinfo'] = 'Zapisujem nastavenia písomnej klasifikácie';
 $string['xml'] = 'XML';
 $string['yes'] = 'Áno';

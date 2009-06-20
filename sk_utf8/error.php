@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // error.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
 
 
 $string['adminprimarynoedit'] = 'Ostatní administrátori nemôžu upravovať údaje hlavného administrátora';
@@ -48,8 +48,9 @@ $string['groupalready'] = 'Používateľ už je členom skupiny $a';
 $string['groupexistforcourse'] = 'Skupina \"$a\" už je v tomto kurze vytvorená';
 $string['groupnotaddederror'] = 'Skupina \"$a\" nebola pridaná';
 $string['groupunknown'] = 'Skupina $a nebola priradená k určenému kurzu';
-$string['guestnoeditprofile'] = 'Používateľ \"host\" nemôže upravovať svoj profil';
-$string['guestnoeditprofileother'] = 'Profil používateľa \"host\" nie je možné upravovať';
+$string['groupusernotmember'] = 'Používateľ nie je členom tejto skupiny';
+$string['guestnoeditprofile'] = 'Používateľ \"hosť\" nemôže upravovať svoj profil';
+$string['guestnoeditprofileother'] = 'Profil používateľa \"hosť\" nie je možné upravovať';
 $string['guestsarenotallowed'] = 'Hosťovský používateľ nemá oprávnenie na túto činnosť';
 $string['invalidadminsettingname'] = 'Neplatné administrátorské nastavenie ($a)';
 $string['invalidcontext'] = 'Neplatný kontext';
@@ -64,7 +65,7 @@ $string['invalidrequest'] = 'Neplatná požiadavka';
 $string['invalidrole'] = 'Neplatná rola';
 $string['invalidsesskey'] = 'Formulár nebol akceptovaný z dôvodu neplatného kľúča sedenia (session)';
 $string['invalidurl'] = 'Neplatný parameter URL.';
-$string['invalidxmlfile'] = '\"$a\" nie je platný XML soubor';
+$string['invalidxmlfile'] = '\"$a\" nie je platný XML súbor';
 $string['iplookupfailed'] = 'Nie je možné nájsť geografickú informáciu o tento IP adrese $a.';
 $string['iplookupprivate'] = 'Nie je možné zobraziť vyhľadávanie súkromnej IP adresy';
 $string['listcantmovedown'] = 'Neúspešné presunutie položky nižšie, je to posledný prvok.';
@@ -127,8 +128,8 @@ $string['usernotdeletederror'] = 'Používateľ nebol vymazaný - chyba-';
 $string['usernotdeletedmissing'] = 'Používateľ nebol vymazaný - nebolo nájdené  používateľské meno (login).';
 $string['usernotdeletedoff'] = 'Používateľ nebol vymazaný - vymazanie nebolo povolené.';
 $string['usernotrenamedadmin'] = 'Nie je možné premenovať administrátorské kontá.';
-$string['usernotrenamedexists'] = 'Používateľ nebol premenovaný -- nové užívateľské meno už používa niekto iný.';
-$string['usernotrenamedmissing'] = 'Používateľ nebol premenovaný -- pôvodné užívateľské meno nebolo nájdené.';
+$string['usernotrenamedexists'] = 'Používateľ nebol premenovaný - nové užívateľské meno už používa niekto iný.';
+$string['usernotrenamedmissing'] = 'Používateľ nebol premenovaný - pôvodné užívateľské meno nebolo nájdené.';
 $string['usernotrenamedoff'] = 'Používateľ nebol premenovaný - premenovanie nie je povolené.';
 $string['usernotupdatedadmin'] = 'Nie je možné aktualizovať administrátorské kontá.';
 $string['usernotupdatederror'] = 'Používateľ nebol aktualizovaný - chyba.';

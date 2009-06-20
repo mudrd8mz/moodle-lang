@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
+      // admin.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -180,7 +180,8 @@ $string['configminpasswordlength'] = 'Heslá musia byť minimálne toľkoto znak
 $string['configminpasswordlower'] = 'Heslá musia mať minimálne toľkoto malých písmen.';
 $string['configminpasswordnonalphanum'] = 'Heslá musia mať minimálne toľkoto nealfanumerických znakov.';
 $string['configminpasswordupper'] = 'Heslá musia mať minimálne toľkoto veľkých písmen.';
-$string['configmymoodleredirect'] = 'Používať stránku /my (Moj Moodle) namiesto bežnej úvodnej stránky po prihlásení užívateľov (okrem správcov)?';
+$string['configmycoursesperpage'] = 'Maximálny počet kurzov, ktoré sa zobrazia v zozname kurzov používateľa';
+$string['configmymoodleredirect'] = 'Používať stránku /my (Môj Moodle) namiesto bežnej úvodnej stránky po prihlásení užívateľov (okrem administrátorov)?';
 $string['confignodefaultuserrolelists'] = 'Toto nastavenie zabraňuje všetkým používateľom, aby boli vrátení z databázy pri volaní z funkcií get_course_user a podobne z kurzu na hlavnej stránke portálu ak východzia rola tento prístup poskytuje.  Zapnite, ak za Vám zdá, že máte problémy s výkonnosťou.';
 $string['confignonmetacoursesyncroleids'] = 'Štandardne sú všetky priradenie rol v asociovaných kurzoch synchronizované s metakurzom. Vybrané roly nebudú do tohoto synchronizačného procesu zaradené.';
 $string['confignoreplyaddress'] = 'Emaily sa niekedy posielajú v mene používateľa (napr. prispievanie do fór). Emailová adresa, ktorú tu špecifikujete, bude používaná ako adresa \'Od koho\' v prípade, ak prijímatelia nie sú schopní priamo odpovedať používateľovi (napr. keď si používateľ vyberie zachovanie súkromnej adresy).';
@@ -527,6 +528,7 @@ $string['multilangupgrade'] = 'Upgrade syntaxe viacjazyčného obsahu';
 $string['multilangupgradeinfo'] = 'Syntax filtru pre viacjazyčný obsah byla vo verzi 1.8 zmenená. Tag <lang> už nie je podporovaný.<br /><br />Ukážka novej syntaxe:<br /><span lang=\"en\" class=\"multilang\">Hello!</span><span lang=\"es\" class=\"multilang\">Hola!</span><br /><br /><strong>Prajete si upraviť všetky texty na túto novú syntax?</strong>';
 $string['multilangupgradenotice'] = 'Vaše stránky pravdepodobne používajú starú syntax viacjazyčného obsahu. Doporučujeme vykonať <a href=\"multilangupgrade.php\"> upgrade</a>.';
 $string['mustenablestats'] = 'Na týchto stránkach nie sú štatistiky povolené';
+$string['mycoursesperpage'] = 'Maximálny počet kurzov';
 $string['mymoodle'] = 'Môj Moodle';
 $string['mymoodleredirect'] = 'Vnútiť používateľom použitie stránky Môj Moodle';
 $string['mysql416bypassed'] = 'Ak ale vo vašej inštalácii Moodle používate IBA jazyky založené na latinke (iso-8859-1), môžete aj ďalej používať súčasne nainštalovanú verziu MySQL 4.1.12 (alebo vyšší).';
@@ -679,6 +681,7 @@ $string['sessionhandling'] = 'Správa sedenia (sessions)';
 $string['sessiontimeout'] = 'Časový limit';
 $string['showblocksonmodpages'] = 'Ukazovať bloky na stránkach modulov';
 $string['simpletest'] = 'Testy';
+$string['simplexmlrequired'] = 'PHP rozšírenie SimpleXML je vyžadované pre Moodle';
 $string['sitelangchanged'] = 'Zmena jazyka prebehla úspešne';
 $string['sitemailcharset'] = 'Znaková sada';
 $string['sitemaintenance'] = 'Táto stránka sa nachádza v režime údržby a momentálne nie je prístupná';

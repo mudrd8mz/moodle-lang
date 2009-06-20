@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.4+ (Build: 20090401) (2007101545.01)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -1209,6 +1209,7 @@ $string['publicdirectory1'] = 'Publikovať len meno www stránky';
 $string['publicdirectory2'] = 'Publikovať meno webovej stránky aj s odkazom na ňu';
 $string['publicdirectorytitle'] = 'Ukázať existujúci zoznam webov';
 $string['publicsitefileswarning'] = 'Upozornenie: súbory tu umiestnené budú prístupné pre každého';
+$string['publicsitefileswarning2'] = 'Poznámka: súbory tu uložené sú dostupné každému, kto pozná, alebo uhádne URL. Z dôvodov bezpečnosti je doporučované, aby boli súbory záloh okamžite vymazané potom, čo boli obnovené.';
 $string['question'] = 'Otázka';
 $string['questionsinthequestionbank'] = 'Otázky v banke otázok';
 $string['readinginfofrombackup'] = 'Načítať informácie zo zálohy';
@@ -1229,6 +1230,7 @@ www stránku na domovskej stránke Moodle (moodle.org). Registrácia je bezplatn
 <p>Vaše informácie budú len pre potrebu vývoja Moodle a nebudú šírené tretím osobám. Využijeme ich len na účely grantovej podpory a zisťovania štatistických údajov o Moodle komunite ako celku.</p>
 <p>Ak chcete, môžete povoliť pridanie Vašej URL adresy, mena www stránky a krajiny do verejného zoznamu Moodle stránok.</p> 
 <p>Všetky nové registrácie sú overované manuálne predtým, než sú zaradené do zoznamu. Ak ste už zaradení, môžete kedykoľvek aktualizovať Vaše registračné odoslaním vyplneného formulára.</p>';
+$string['registrationinfotitle'] = 'Registrácia';
 $string['registrationno'] = 'Nie, nechcem dostávať e-maily';
 $string['registrationsend'] = 'Poslať registračné informácie na domovskú stránku Moodle (moodle.org)';
 $string['registrationyes'] = 'Áno, informujte ma o dôležitých Moodle udalostiach';
@@ -1268,6 +1270,8 @@ $string['restorecancelled'] = 'Obnova zrušená';
 $string['restorecoursenow'] = 'Obnoviť tento kurz teraz!';
 $string['restorefinished'] = 'Obnova prebehla úspešne';
 $string['restoreto'] = 'Obnoviť do';
+$string['restoretositeadding'] = 'Upozornenie: Chystáte sa obnoviť titulnú stránku portálu a pridať k údaje k existujúcej!';
+$string['restoretositedeleting'] = 'Upozornenie: Chystáte sa obnoviť titulnú stránku portálu a predtým vymazať údaje existujúcej!';
 $string['restricted'] = 'Obmedzený';
 $string['restrictmodules'] = 'Obmedziť moduly aktivít?';
 $string['returningtosite'] = 'Vrátiť sa na túto webovú stránku?';
