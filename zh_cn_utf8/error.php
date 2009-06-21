@@ -8,8 +8,8 @@ $string['cannotcreatelangdir'] = '无法创建 lang 目录。';
 $string['cannotcreatetempdir'] = '无法创建 temp 目录。';
 $string['cannotcustomizelocallang'] = '您没有权限自定义字符串翻译，该权限受“moodle/site:langeditlocal”约束。如果想编辑本地语言包，可以在这里进行设置。';
 $string['cannotdownloadcomponents'] = '无法下载组件。';
-$string['cannotdownloadlanguageupdatelist'] = '无法从　download.moodle.org　上更新语言下载列表。';
-$string['cannotdownloadzipfile'] = '无法下载ZIP文件。';
+$string['cannotdownloadlanguageupdatelist'] = '无法从 download.moodle.org 上更新语言下载列表。';
+$string['cannotdownloadzipfile'] = '无法下载 ZIP 文件。';
 $string['cannoteditmasterlang'] = '您没有权限编辑主语言包，该权限受“moodle/site:langeditmaster”约束。如果想编辑主语言包，可以在这里进行设置。';
 $string['cannotfindcomponent'] = '找不到组件。';
 $string['cannotinsertrecord'] = '不能插入新记录 {$a}';
@@ -137,6 +137,6 @@ $string['usernotupdatednotexists'] = '无法更新用户——用户信息不存
 $string['wrongdestpath'] = '错误的目标路径。';
 $string['wrongsourcebase'] = '错误的源 URL 基地址。';
 $string['wrongzipfilename'] = '错误的 ZIP 文件名。';
-$string['youcannotdeletecategory'] = '您不能删除分类“$a”，因您无权删除其内容或将它们移走。';
+$string['youcannotdeletecategory'] = '您不能删除分类“${a}”，因您无权删除其内容或将它们移走。';
 
 ?>
