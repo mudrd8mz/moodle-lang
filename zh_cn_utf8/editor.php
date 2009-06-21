@@ -5,7 +5,7 @@
 $string['about'] = '关于此编辑器';
 $string['absbottom'] = '正底部';
 $string['address'] = '地址';
-$string['alertnoselectedtext'] = '您必须首先选择文字!';
+$string['alertnoselectedtext'] = '您必须首先选择文字！';
 $string['alignment'] = '位置';
 $string['alternatetext'] = '提示文本';
 $string['anchorhelp'] = '这只创建一个链接点。您还需要手工创建一个超链接。';
@@ -29,7 +29,7 @@ $string['createanchor'] = '创建链接点';
 $string['createfolder'] = '创建文件夹';
 $string['createlink'] = '插入链接';
 $string['cut'] = '剪切所选项';
-$string['cutpastemozilla'] = '很抱歉，您现在不能使用您所习惯的快捷键(甚至“粘贴”按钮)来粘贴文本到这个在线编辑器。这是一些版本的Mozilla和Firefox浏览器的内置安全特性引起的。<br /><br />您可以试试这三个已知的解决方法：<br /> (1) 用SHIFT+Insert来代替CTRL+v <br /> (2) 使用浏览器菜单里的Edit->Paste<br /> (3) 通过编辑user.js来改变浏览器的参数。<br /><br />点下面的“确定”键获得更多帮助，或者点“放弃”回到编辑器';
+$string['cutpastemozilla'] = '很抱歉，您现在不能使用您所习惯的快捷键(甚至“粘贴”按钮)来粘贴文本到这个在线编辑器。这是一些版本的 Mozilla 和 Firefox 浏览器的内置安全特性引起的。<br /><br />您可以试试这三个已知的解决方法：<br /> (1) 用 SHIFT+Insert 来代替 CTRL+v<br /> (2) 使用浏览器菜单里的 Edit->Paste<br /> (3) 通过编辑 user.js 来改变浏览器的参数。<br /><br />点下面的“确定”键获得更多帮助，或者点“放弃”回到编辑器。';
 $string['delete'] = '删除';
 $string['enterurlfirst'] = '您必须首先录入一个URL';
 $string['filebrowser'] = '文件浏览';
@@ -44,7 +44,7 @@ $string['height'] = '高度';
 $string['hilitecolor'] = '背景色';
 $string['horizontal'] = '水平位置';
 $string['horizontalrule'] = '水平线';
-$string['htmlmode'] = '切换到HTML代码模式';
+$string['htmlmode'] = '切换到 HTML 代码模式';
 $string['imageurl'] = '图片网址';
 $string['indent'] = '缩进';
 $string['insertchar'] = '插入特殊字符';
@@ -124,7 +124,7 @@ $string['unorderedlist'] = '项目符号';
 $string['upload'] = '上传';
 $string['vertical'] = '垂直位置';
 $string['width'] = '宽度';
-$string['wordclean'] = '净化Word HTML';
+$string['wordclean'] = '净化 Word HTML';
 $string['zip'] = '压缩';
 
 ?>
