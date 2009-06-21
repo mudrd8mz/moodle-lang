@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.8 (2007021501)
+      // survey.php - created with Moodle 1.9.5 (Build: 20090520) (2007101550)
 
 
 $string['actual'] = '实际的';
 $string['actualclass'] = '班级实际的';
-$string['actualstudent'] = '{$a}实际的';
+$string['actualstudent'] = '{$a} 实际的';
 $string['allquestions'] = '所有问题按序排列，所有学生';
 $string['allscales'] = '所有量表，所有学生';
 $string['alreadysubmitted'] = '您已经提交了这份问卷调查';
-$string['analysisof'] = '{$a}的分析结果';
+$string['analysisof'] = '{$a} 的分析结果';
 $string['answers'] = '回答';
 $string['attls1'] = '在评价某人的言论时，我就事论事，只关心言谈的质量，而不管是谁说的。';
 $string['attls10'] = '在分析事情时尽量保持客观态度，这对我很重要。';
@@ -120,15 +120,23 @@ $string['colles8short'] = '批判审察读物';
 $string['colles9'] = '我向其他同学解释自己的观点。';
 $string['colles9short'] = '解释自己的观点';
 $string['collesaintro'] = '该问卷调查的目的是为了了解这个在线单元对促进您的学习有多大的作用。
-以下24个问题问的是您在此单元中的体会。
+
+以下 24 个问题问的是您在此单元中的体会。
+
 这里无所谓“正确”或“错误”答案；我们只对您的观点感兴趣。请相信我们对您的回答保持高度机密，也不必担心会影响对您的评分。
+
 您深思熟虑的回答将有助于我们对该单元作进一步的改善。
+
 非常感谢！';
 $string['collesaname'] = '建构主义在线学习环境问卷调查（实际的）';
-$string['collesapintro'] = '该问卷调查的目的是为了了解这个在线单元对促进您的学习有多大的作用。 
-以下有24个问题，每个问题要求您比较在此单元中，您所<b>希望的</b>（理想的）和<b>实际的</b>体会。
+$string['collesapintro'] = '该问卷调查的目的是为了了解这个在线单元对促进您的学习有多大的作用。
+ 
+以下有 24 个问题，每个问题要求您比较在此单元中，您所<b>希望的</b>（理想的）和<b>实际的</b>体会。
+
 这里无所谓“正确”或“错误”答案；我们只对您的观点感兴趣。请相信我们对您的回答保持高度机密，也不必担心会影响对您的评分。
+
 您深思熟虑的回答将有助于我们对该单元作进一步的改善。
+
 非常感谢！';
 $string['collesapname'] = '建构主义在线学习环境问卷调查（希望的和实际的）';
 $string['collesm1'] = '实用性';
@@ -145,22 +153,28 @@ $string['collesm6'] = '解释的清晰程度';
 $string['collesm6short'] = '解释的清晰程度';
 $string['collesmintro'] = '在此在线单元中……';
 $string['collespintro'] = '该问卷调查的目的是为了了解您对网上学习的看法如何。
-以下有24个问题，每个问题要求您回答在此单元中，您所<b>希望的</b>（理想的）。
+
+以下有 24 个问题，每个问题要求您回答在此单元中，您所<b>希望的</b>（理想的）。
+
 这里无所谓“正确”或“错误”答案；我们只对您的观点感兴趣。请相信我们对您的回答保持高度机密，也不必担心会影响对您的评分。
+
 您深思熟虑的回答将有助于我们对该单元作进一步的改善。
+
 非常感谢！';
 $string['collespname'] = '建构主义在线学习环境问卷调查（希望的）';
 $string['customintro'] = '自定义描述';
+$string['deleteallanswers'] = '删除所有调查回复';
+$string['deleteanalysis'] = '删除所有分析回复';
 $string['done'] = '完成';
 $string['download'] = '下载';
-$string['downloadexcel'] = '以Excel电子表格形式下载数据';
-$string['downloadinfo'] = '您可以以适于Excel、SPSS或其它软件包分析的形式下载完整的原始数据。';
+$string['downloadexcel'] = '以 Excel 电子表格形式下载数据';
+$string['downloadinfo'] = '您可以以适于 Excel、SPSS 或其它软件包分析的形式下载完整的原始数据。';
 $string['downloadtext'] = '以纯文本形式下载数据';
 $string['editingasurvey'] = '编辑问卷调查';
 $string['guestsnotallowed'] = '访客不允许提交问卷';
 $string['helpsurveys'] = '不同类型问卷的帮助文档';
 $string['howlong'] = '您完成这份问卷花了多长时间？';
-$string['howlongoptions'] = '1分钟之内,1-2分钟,2-3分钟,3-4分钟,4-5分钟,5-10分钟,超过10分钟';
+$string['howlongoptions'] = '1 分钟之内、1-2 分钟、2-3 分钟、3-4 分钟、4-5 分钟、5-10 分钟、超过 10 分钟';
 $string['ifoundthat'] = '我发现';
 $string['introtext'] = '描述';
 $string['ipreferthat'] = '我希望的是';
@@ -172,18 +186,19 @@ $string['nobodyyet'] = '还没人完成这个问卷';
 $string['notdone'] = '尚未完成';
 $string['notes'] = '您的个人分析和注解';
 $string['othercomments'] = '您还有其它注解吗？';
-$string['peoplecompleted'] = '迄今为止有{$a}人完成该问卷';
+$string['peoplecompleted'] = '迄今为止有 {$a} 人完成该问卷';
 $string['preferred'] = '希望的';
 $string['preferredclass'] = '班级希望的';
-$string['preferredstudent'] = '{$a}希望的';
+$string['preferredstudent'] = '{$a} 希望的';
 $string['question'] = '问题';
 $string['questions'] = '问题';
 $string['questionsnotanswered'] = '有些问题没有回答。';
 $string['report'] = '调查报表';
+$string['responses'] = '回复';
 $string['savednotes'] = '您的注解已经保存';
 $string['scaleagree5'] = '非常反对,稍许反对,既不同意也不反对,稍许同意,非常同意';
 $string['scales'] = '量表';
-$string['scaletimes5'] = '几乎从不,不常,偶尔,经常,几乎总是';
+$string['scaletimes5'] = '几乎从不、不常、偶尔、经常、几乎总是';
 $string['seemoredetail'] = '点击这里看更多细节';
 $string['selectedquestions'] = '从一个量表中选出的问题，所有学生';
 $string['summary'] = '概要';
@@ -197,13 +212,6 @@ $string['surveysaved'] = '问卷已保存';
 $string['surveytype'] = '问卷类型';
 $string['thanksforanswers'] = '{$a}，谢谢您回答了这个问卷！';
 $string['time'] = '时间';
-$string['viewsurveyresponses'] = '查看{$a}个调查答卷';
+$string['viewsurveyresponses'] = '查看 {$a} 个调查答卷';
 
-	  //翻译者：况亮
-	  //Email：kuangliang12345@163.com
-	  //Moodle 1.9 2008/04
-
-$string['deleteallanswers'] = '删除所有调查回复';
-$string['deleteanalysis'] = '删除所有分析回复';
-$string['responses'] = '回复';
 ?>
