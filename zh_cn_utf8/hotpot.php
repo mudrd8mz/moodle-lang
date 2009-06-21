@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.8 (2007021501)
+      // hotpot.php - created with Moodle 1.9.5 (Build: 20090520) (2007101550)
 
 
 $string['abandoned'] = '放弃';
@@ -7,10 +7,10 @@ $string['addquizchain'] = '添加一系列测验';
 $string['allmycourses'] = '我所有的课程';
 $string['allusers'] = '所有用户';
 $string['alwaysopen'] = '一直开放';
-$string['attemptsall'] = '所有的尝试';
-$string['attemptsbest'] = '最好的尝试';
-$string['attemptsfirst'] = '第一个尝试';
-$string['attemptslast'] = '最后一个尝试';
+$string['attemptsall'] = '所有试答';
+$string['attemptsbest'] = '最好的试答';
+$string['attemptsfirst'] = '首次试答';
+$string['attemptslast'] = '末次试答';
 $string['average'] = '平均';
 $string['checks'] = '检查';
 $string['clickreporting'] = '点击报表';
@@ -23,6 +23,7 @@ $string['copytoclipboard'] = '复制到剪贴板';
 $string['correct'] = '正确';
 $string['deleteabandoned'] = '删除被放弃的';
 $string['deleteabandonedcheck'] = '您真的想删除所有 {$a} 放弃的尝试？';
+$string['deleteallattempts'] = '删除所有试答';
 $string['displaycoursenext'] = '展示课程的下一页';
 $string['displayhotpotnext'] = '展示下一个随堂测验';
 $string['displayindexnext'] = '展示下一个主页';
@@ -37,6 +38,7 @@ $string['error_nofeedbackurlwebpage'] = '请为网页输入URL';
 $string['error_nofilename'] = '请输入文件名';
 $string['error_noquizzesfound'] = '没找到随堂练习';
 $string['error_notfileorfolder'] = '\"$a\" 不是文件或目录';
+$string['excelencodings'] = 'Excel 格式';
 $string['feedbackformmail'] = '反馈格式';
 $string['feedbackmoodleforum'] = 'Moodle讨论';
 $string['feedbackmoodlemessaging'] = 'Moodle消息';
@@ -85,6 +87,7 @@ $string['rawdetails'] = '原始的尝试细节';
 $string['regrade'] = '重新分类';
 $string['regradecheck'] = '您确定想重新分类\"$a\"?';
 $string['regraderequired'] = '需要分类';
+$string['removegradeitem'] = '删除成绩项';
 $string['reportanswers'] = '回答';
 $string['reportattemptfinish'] = '尝试结束';
 $string['reportattemptnumber'] = '尝试';
@@ -138,6 +141,7 @@ $string['resultssaved'] = '测验成绩已经保存';
 $string['score'] = '分数';
 $string['showhtmlsource'] = '显示HTML源';
 $string['shownextquiz'] = '显示下一个测验';
+$string['showtimes'] = '显示处理次数';
 $string['showxmlsource'] = '显示 XML 源';
 $string['showxmltree'] = '显示 XML 树';
 $string['specifictime'] = '特殊的时间';
@@ -152,10 +156,4 @@ $string['updatequizchain'] = '更新测验系列';
 $string['weighting'] = '加权';
 $string['wrong'] = '错误的';
 
-	  //翻译者：况亮
-	  //Email：kuangliang12345@163.com
-	  //Moodle 1.9 2008/04
-
-$string['excelencodings'] = 'Excel 格式';
-$string['showtimes'] = '显示处理次数';
 ?>
