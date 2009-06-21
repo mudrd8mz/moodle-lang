@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.8.2+ (2007021520)
+      // glossary.php - created with Moodle 1.9.5 (Build: 20090520) (2007101550)
 
 
 $string['addcomment'] = '添加评论';
@@ -29,6 +29,7 @@ $string['categories'] = '类别';
 $string['category'] = '类别';
 $string['categorydeleted'] = '类别已被删除';
 $string['categoryview'] = '按类别浏览';
+$string['changeto'] = '转变成 {$a}';
 $string['cnfallowcomments'] = '在词条处是否允许对词汇进行评论';
 $string['cnfallowdupentries'] = '是否允许重复词条词汇';
 $string['cnfapprovalstatus'] = '设定默认的学生所提交的词条的待审状态';
@@ -50,13 +51,15 @@ $string['commentson'] = '评论：';
 $string['commentupdated'] = '该评论已更新.';
 $string['concept'] = '主名称';
 $string['concepts'] = '主名称';
-$string['configenablerssfeeds'] = '这个选项开启所有词汇表使用RSS功能的可能性。要使用RSS功能，还必须手工开启每个词汇表中的设置。';
+$string['configenablerssfeeds'] = '这个选项开启所有词汇表使用 RSS 功能的可能性。要使用 RSS 功能，还必须手工开启每个词汇表中的设置。';
+$string['current'] = '当前分类 {$a}';
 $string['currentglossary'] = '当前词汇表';
 $string['dateview'] = '按日期浏览';
 $string['defaultapproval'] = '是否缺省为已审核';
 $string['definition'] = '定义';
 $string['definitions'] = '定义';
 $string['deleteentry'] = '删除词条';
+$string['deletenotenrolled'] = '按未选课用户删除词条';
 $string['deletingcomment'] = '删除评论';
 $string['deletingnoneemptycategory'] = '删除这个类别不会删除它包含的词汇——它们将会被标记为未分类。';
 $string['descending'] = '(降序)';
@@ -92,7 +95,7 @@ $string['entryusedynalink'] = '该词条将被自动链接';
 $string['errcannoteditothers'] = '不能编辑其他人的词条';
 $string['errconceptalreadyexists'] = '这个概念已经存在，在这个词汇表中不允许使用相同的。';
 $string['erredittimeexpired'] = '该词条的编辑时间已过。';
-$string['errorparsingxml'] = '分析文件发生错误，确保XML语法可用。';
+$string['errorparsingxml'] = '分析文件发生错误，确保 XML 语法可用。';
 $string['explainaddentry'] = '向当前词汇表添加新词条。<br />主名称和定义是必填项目。';
 $string['explainall'] = '在一页中显示所有词条';
 $string['explainalphabet'] = '通过此索引浏览词汇';
@@ -101,6 +104,7 @@ $string['explainimport'] = '您必须指定要导入的文件名称以及导入�
 $string['explainspecial'] = '显示并非以字母开始的词条';
 $string['exportedentry'] = '已导出词挑';
 $string['exportentries'] = '导出词条';
+$string['exportentriestoxml'] = '导出此条到 XML 文件';
 $string['exportfile'] = '导出词条到文件';
 $string['exportglossary'] = '导出词汇';
 $string['exporttomainglossary'] = '导出到主词汇表';
@@ -126,7 +130,8 @@ $string['importcategories'] = '导入类别';
 $string['importedcategories'] = '导入的类别';
 $string['importedentries'] = '导入的词条';
 $string['importentries'] = '导入词条';
-$string['importentriesfromxml'] = '从XML文件导入';
+$string['importentriesfromxml'] = '从 XML 文件导入';
+$string['invalidrate'] = '无效的词条评价 ($a)';
 $string['isglobal'] = '是否设定为全局词汇表';
 $string['linkcategory'] = '自动链接该类别';
 $string['linking'] = '自动链接';
@@ -153,13 +158,15 @@ $string['rate'] = '等级/成绩';
 $string['rating'] = '等级/成绩';
 $string['ratingeveryone'] = '所有人为该词条评价';
 $string['ratingno'] = '无等级/成绩';
-$string['ratingonlyteachers'] = '仅{$a}可为该词条评价';
+$string['ratingonlyteachers'] = '仅 {$a} 可为该词条评价';
 $string['ratings'] = '等级/成绩';
 $string['ratingssaved'] = '等级/成绩信息已保存';
 $string['ratingsuse'] = '使用等级/成绩';
 $string['ratingtime'] = '激活对词条的评价时间';
 $string['rejectedentries'] = '已拒绝的词条';
 $string['rejectionrpt'] = '拒绝词条报表';
+$string['resetglossaries'] = '从哪里删除词条';
+$string['resetglossariesall'] = '从所有词汇表中删除词条';
 $string['rsssubscriberss'] = '在RSS种子中显示“{$a}”条词汇';
 $string['searchindefinition'] = '全文搜索';
 $string['secondaryglossary'] = '二级词汇';
@@ -183,13 +190,4 @@ $string['withoutauthor'] = '主名称(无作者)';
 $string['writtenby'] = '作者';
 $string['youarenottheauthor'] = '您不是该评论的作者, 故您无权编辑它.';
 
-	  //翻译者：况亮
-	  //Email：kuangliang12345@163.com
-	  //Moodle 1.9 2008/04
-
-$string['changeto'] = '转变成{$a}';
-$string['current'] = '当前分类{$a}';
-$string['deletenotenrolled'] = '按未选课用户删除词条';
-$string['resetglossaries'] = '从哪里删除词条';
-$string['resetglossariesall'] = '从所有词汇表中删除词条';
 ?>
