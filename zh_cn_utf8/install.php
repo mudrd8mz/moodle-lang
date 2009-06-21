@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.7.1+ (2006101011)
+      // install.php - created with Moodle 1.9.5 (Build: 20090520) (2007101550)
 
 
 $string['admindirerror'] = '指定的管理目录不正确';
@@ -69,6 +69,12 @@ $string['databasesettingssub_mysql'] = '<b>类型:</b> MySQL<br />
 <b>用户:</b> 您的数据库用户名<br />
 <b>密码:</b> 您的数据库密码<br />
 <b>表格前缀:</b> 在所有的表格名称前加上前缀（可选的）';
+$string['databasesettingssub_mysqli'] = '<b>类型:</b> MySQL<br />
+<b>主机:</b> 例如，localhost或者db.isp.com<br />
+<b>名字:</b> 数据库名, 比如moodle<br />
+<b>用户:</b> 您的数据库用户名<br />
+<b>密码:</b> 您的数据库密码<br />
+<b>表格前缀:</b> 在所有的表格名称前加上前缀（可选的）';
 $string['databasesettingssub_oci8po'] = '<b>类型:</b> Oracle<br />
 <b>主机:</b> 不需要，必须留空<br />
 <b>名字:</b> 给出tnsnames.ora连接的名字<br />
@@ -87,8 +93,10 @@ $string['databasesettingssub_postgres7'] = '<b>类型:</b> PostgreSQL<br />
 <b>用户:</b> 您的数据库用户名<br />
 <b>密码:</b> 您的数据库密码<br />
 <b>表格前缀:</b> 在所有的表格名称前加上前缀(强制的)';
+$string['databasesettingswillbecreated'] = '<b>注释:</b> 如果数据库不存在将自动创建';
 $string['dataroot'] = '数据目录';
 $string['datarooterror'] = '找不到也无法创建您指定的“数据目录”，请更正路径或手工创建它。';
+$string['datarootpublicerror'] = '您指定的“数据目录”可以直接通过 Web 访问，您必须使用其它的目录。';
 $string['dbconnectionerror'] = '无法连接到您指定的数据库，请检查您的数据库设置。';
 $string['dbcreationerror'] = '数据库创建错误。无法用设定中的名称创建数据库。';
 $string['dbhost'] = '服务器主机';
@@ -184,6 +192,8 @@ $string['mssql_n'] = '支持UTF-8的SQL*Server(mssql_n)';
 $string['mssqlextensionisnotpresentinphp'] = 'PHP的MSSQL 扩展并未安装正确，因此无法与SQL*Server通信。请检查您的php.ini文件或重新编译PHP。';
 $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP的MySQL扩展并未安装正确，因此无法与MySQL通信。请检查您的php.ini文件或重新编译PHP。';
+$string['mysqli'] = '改进的Mysql(mysqli)';
+$string['mysqliextensionisnotpresentinphp'] = 'PHP的MySQLi扩展并未安装正确，因此无法与MySQL通信。请检查您的php.ini文件或重新编译PHP。对PHP4，MySQLi扩展不可用。';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP的OCI8扩展并未安装正确，因此无法与Oracle通信。请检查您的php.ini文件或重新编译PHP。';
 $string['odbc_mssql'] = '基于ODBC的SQL*Server (odbc_mssql)';
@@ -196,6 +206,8 @@ $string['phpversionhelp'] = '<p>Moodle需要PHP 4.3.0或5.1.0（5.0.x有若干�
 <p>您当前使用的是{$a}</p>
 <p>您必须升级PHP或者转移到一个有新版PHP的服务器上!</p>';
 $string['postgres7'] = 'PostgreSQL (postgres7)';
+$string['postgresqlwarning'] = '<strong>注意：</strong>如果遇到了连接问题，可以将 Host Server 字段设置为“
+host=\'postgresql_host\' port=\'5432\' dbname=\'postgresql_database_name\' user=\'postgresql_user\' password=\'postgresql_user_password\'”，并保将数据库、用户和密码字段设为空。更多信息请参考<a href=\"http://docs.moodle.org/en/Installing_Postgres_for_PHP\">Moodle 文档</a>。';
 $string['safemode'] = '安全模式';
 $string['safemodeerror'] = '在安全模式下运行Moodle可能会有麻烦';
 $string['safemodehelp'] = '<p>在安全模式下运行Moodle可能会遇到一系列的问题，至少在会无法创建新文件。</p>
@@ -218,21 +230,5 @@ $string['welcomep60'] = '接下来的页面会引导您通过一系列步骤在�
 $string['welcomep70'] = '点击“下一步”按钮以继续<strong>Moodle</strong>的安装过程。';
 $string['wwwroot'] = '网站地址';
 $string['wwwrooterror'] = '这个网站地址似乎是错的——在那里并没有安装好的Moodle。下面的值会被重置。';
-
-
-
-	  //翻译者：况亮
-	  //Email：kuangliang12345@163.com
-	  //Moodle 1.9 2008/04
-
-$string['databasesettingssub_mysqli'] = '<b>类型:</b> MySQL<br />
-<b>主机:</b> 例如，localhost或者db.isp.com<br />
-<b>名字:</b> 数据库名, 比如moodle<br />
-<b>用户:</b> 您的数据库用户名<br />
-<b>密码:</b> 您的数据库密码<br />
-<b>表格前缀:</b> 在所有的表格名称前加上前缀（可选的）';
-$string['databasesettingswillbecreated'] = '<b>注释:</b> 如果数据库不存在将自动创建';
-$string['mysqli'] = '改进的Mysql(mysqli)';
-$string['mysqliextensionisnotpresentinphp'] = 'PHP的MySQLi扩展并未安装正确，因此无法与MySQL通信。请检查您的php.ini文件或重新编译PHP。对PHP4，MySQLi扩展不可用。';
 
 ?>
