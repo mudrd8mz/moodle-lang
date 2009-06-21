@@ -1,9 +1,6 @@
-<?php //$Id$
+<?PHP // $Id$ 
+      // filters.php - created with Moodle 1.9.5 (Build: 20090520) (2007101550)
 
-
-	  //翻译者：况亮
-	  //Email：kuangliang12345@163.com
-	  //Moodle 1.9 2008/04
 
 $string['actfilterhdr'] = '活动过滤';
 $string['addfilter'] = '添加过滤器';
@@ -15,11 +12,11 @@ $string['anyvalue'] = '任何评价';
 $string['categoryrole'] = '类别角色';
 $string['contains'] = '包含';
 $string['courserole'] = '课程角色';
-$string['courserolelabel'] = '课程类别：$a->categoryname 课程名称：$a->coursename 角色名：$a->rolename 名字：$a->label';
+$string['courserolelabel'] = '课程类别：$a->categoryname 课程名称：{$a->coursename} 角色名：{$a->rolename} 名字：$a->label';
 $string['courserolelabelerror'] = '$a->label 错误，课程：$a->coursename 不存在';
-$string['datelabelisafter'] = '$a->label 后于$a->after';
+$string['datelabelisafter'] = '$a->label 后于 $a->after';
 $string['datelabelisbefore'] = '$a->label 前于 $a->before';
-$string['datelabelisbetween'] = '$a->label 在$a->after和$a->before之间';
+$string['datelabelisbetween'] = '$a->label 在 $a->after 和 $a->before 之间';
 $string['doesnotcontain'] = '不包含';
 $string['endswith'] = '以...结束';
 $string['firstaccess'] = '第一次访问';
@@ -33,7 +30,14 @@ $string['isequalto'] = '等于';
 $string['isnotdefined'] = '未定义';
 $string['isnotequalto'] = '不等于';
 $string['newfilter'] = '新过滤器';
+$string['profilelabel'] = '$a->label: $a->profile $a->operator $a->value';
+$string['profilelabelnovalue'] = '$a->label: $a->profile $a->operator';
 $string['removeall'] = '移除所有过滤器';
 $string['removeselected'] = '移除选择的过滤器';
+$string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = '以...开始';
 $string['tablenosave'] = '表中的更改将自动保存';
+$string['textlabel'] = '$a->label $a->operator $a->value';
+$string['textlabelnovalue'] = 'a->label $a->operator';
+
+?>
