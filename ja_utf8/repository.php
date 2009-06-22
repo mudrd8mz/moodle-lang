@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090616) (2009061600)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090619) (2009061706)
 
 
 $string['accessiblefilepicker'] = 'アクセス可能なファイルピッカ';
 $string['activaterep'] = 'アクティブリポジトリ';
 $string['activerepository'] = 'アクティブリポジトリ・プラグイン';
-$string['add'] = '追加 ...';
+$string['add'] = '追加';
+$string['addfile'] = '追加 ...';
 $string['addplugin'] = 'リポジトリプラグインを追加する';
 $string['areabackup'] = 'バックアップ';
 $string['areacategoryintro'] = 'カテゴリイントロダクション';
@@ -19,6 +20,7 @@ $string['attachment'] = '添付';
 $string['back'] = '&lt; 戻る';
 $string['cachecleared'] = 'キャッシュファイルが削除されました。';
 $string['cacheexpire'] = 'キャッシュ有効期限';
+$string['cannotaccessparentwin'] = '親ウィンドウがHTTPSにある場合、私たちは、window.openerへのアクセスを許可されません。そのため、あなたのためにリポジトリを自動的にリフレッシュすることができません。しかし、すでにあなたのセッションが存在するため、ファイルピッカに戻って、再度リポジトリを選択してください。';
 $string['cannotdelete'] = 'このファイルを削除できません。';
 $string['cannotdownload'] = 'このファイルをダウンロードできません。';
 $string['cannotinitplugin'] = 'plugin_initのコールに失敗しました。';
@@ -84,6 +86,7 @@ $string['popup'] = 'ログインするには、「ログイン」ボタンをク
 $string['preview'] = 'プレビュー';
 $string['readonlyinstance'] = 'あなたは、読み取り専用のインスタンスを編集/削除できません。';
 $string['refresh'] = 'リフレッシュ';
+$string['refreshnonjsfilepicker'] = 'このウィンドウを閉じて、非Javaスクリプトファイルピッカをリフレッシュしてください。';
 $string['removed'] = 'リポジトリが削除されました。';
 $string['repositories'] = 'リポジトリ';
 $string['repository'] = 'リポジトリ';
