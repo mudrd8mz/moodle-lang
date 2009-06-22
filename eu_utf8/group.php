@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // group.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addgroupstogrouping'] = 'Taldea gehitu taldekatzera';
@@ -40,6 +40,7 @@ $string['erroreditgrouping'] = 'Errorea $a taldekatzea sortzean/eguneratzean';
 $string['errorinvalidgroup'] = 'Errorea, $a taldeak ez du balio';
 $string['errorselectone'] = 'Mesedez, aukeratu talde bat aukera hau ezarri aurretik';
 $string['errorselectsome'] = 'Mesedez, aukeratu talde bat edo gehiago aukera hau ezarri aurretik';
+$string['evenallocation'] = 'Oharra: Taldeen ezarpena mantendu ahal izateko, oraingo taldeko kide-kopurua eta zuk zehaztutakoa ez datoz bat.';
 $string['existingmembers'] = 'Dauden kideak: $a';
 $string['filtergroups'] = 'Taldeak honen arabera iragazi:';
 $string['group'] = 'Taldea';
@@ -90,7 +91,9 @@ $string['noallocation'] = 'Esleitu gabe';
 $string['nogroups'] = 'Ikastaro honetan ez dago talderik ezarrita';
 $string['nogroupsassigned'] = 'Ez dago esleitutako talderik';
 $string['nopermissionforcreation'] = 'Ezin da \"$a\" taldea sortu: ez duzu horretarako baimenik.';
+$string['nosmallgroups'] = 'Debakatu azken talde txikia';
 $string['notingrouping'] = '[Taldekatzetik kanpo]';
+$string['nousersinrole'] = 'Ez dago erabiltzaile egokirik aukeratutako rolean';
 $string['number'] = 'Talde-kopurua edo kide-kopurua taldeko';
 $string['numgroups'] = 'Talde-kopurua';
 $string['nummembers'] = 'Kideak taldeko';

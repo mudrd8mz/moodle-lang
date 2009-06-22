@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_database.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // enrol_database.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['autocreate'] = 'Moodle-n oraindik sortu ez den ikastaroan matrikulaziorik egonez gero automatikoki sor daiteke.';
@@ -15,12 +15,18 @@ $string['dbpass'] = 'Zerbitzariaren pasahitza';
 $string['dbtable'] = 'Datu-basearen taula';
 $string['dbtype'] = 'Datu-base mota';
 $string['dbuser'] = 'Zerbitzariaren erabiltzailea';
+$string['defaultcourseroleid'] = 'Besterik zehaztu ezean, berez ezarri behar den rola.';
 $string['description'] = 'Matrikulazioak kontrolatzeko kanpoko datu-basea erabil daiteke (ia edozein motakoa). Kanpoko datu-baseak ikastaroaren identifikatzailea daukan eremua izango duela asumitzen da, baita erabiltzailearena ere. Balore horiek ikastaroan eta erabiltzaileen taulan aukeratzen dituzunekin konparatzen dira.';
+$string['disableunenrol'] = 'Bai ezarriz gero, kanpoko datu-base plugina erabilita aldez aurretik matrikulatutako erabiltzaileak ez dira plugin berarekin desmatrikulatuko, datu-basearen edukia gora behera.';
 $string['enrol_database_autocreation_settings'] = 'Ikastaro berriak automatikoki sortu';
 $string['enrolname'] = 'Kanpoko datu-basea';
 $string['general_options'] = 'Aukera orokorrak';
 $string['host'] = 'Datu-basearen zerbitzariaren izena.';
+$string['ignorehiddencourse'] = 'Bai ezarriz gero erabiltzaileak ez dira matrikulatuko ikasleak ez matrikulatzeko ezarrita dauden ikastaroetan.';
 $string['local_fields_mapping'] = 'Moodleko datu-basearen eremuak (lokala)';
+$string['localcoursefield'] = 'Urrutiko datu-basean sarrerak bateratzeko erabiltzen ari garen ikastaro-taulako eremuaren izena (ad. idnumber).';
+$string['localrolefield'] = 'Urrutiko datu-basean sarreran bateratzeko erabiltzen ari garen rol-taulako eremuaren izena (ad. izenlaburra).';
+$string['localuserfield'] = 'Urrutiko datu-basean sarreran bateratzeko erabiltzen ari garen erabiltzaile-taulako eremuaren izena (ad. idnumber).';
 $string['name'] = 'Erabili beharreko datu-basea.';
 $string['pass'] = 'Zerbitzarira sartzeko pasahitza.';
 $string['remote_fields_mapping'] = 'Matrikulaziorako (urrutiko) datu-basearen eremuak.';

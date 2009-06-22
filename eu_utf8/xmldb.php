@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // xmldb.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['actual'] = 'Oraingoa';
@@ -10,6 +10,8 @@ $string['binaryincorrectlength'] = 'Eremu bitarraren luzera ezegokia';
 $string['cannotuseidfield'] = '\"id\" eremua ezin da sartu. Berez numeratua da.';
 $string['change'] = 'Aldatu';
 $string['charincorrectlength'] = 'Char eremuaren luzera desegokia';
+$string['checkdefaults'] = 'Egiaztatu berezko baloreak';
+$string['checkindexes'] = 'Egiaztatu aurkibideak';
 $string['confirmdeletefield'] = 'Ziur al zaude ondoko eremua ezabatu nahi duzula?';
 $string['confirmdeleteindex'] = 'Ziur al zaude ondoko aurkibidea ezabatu nahi duzula?';
 $string['confirmdeletekey'] = 'Ziur al zaude ondoko gakoa ezabatu nahi duzula?';
@@ -28,7 +30,9 @@ $string['delete_key'] = 'Ezabatu giltza';
 $string['delete_sentence'] = 'Ezabatu esaldia';
 $string['delete_statement'] = 'Ezabatu sententzia';
 $string['delete_table'] = 'Taula ezabatu';
-$string['delete_xml_file'] = 'XML fitxategia ezabatu';
+$string['delete_xml_file'] = 'Ezabatu XML fitxategia';
+$string['doc'] = 'Doc';
+$string['docindex'] = 'Dokumentazioaren aurkibidea:';
 $string['down'] = 'Behera';
 $string['duplicate'] = 'Bikoiztu';
 $string['duplicatefieldname'] = 'Dagoeneko bada izen hori duen beste eremu bat';
@@ -60,6 +64,7 @@ $string['load'] = 'Igo';
 $string['main_view'] = 'Ikuspegi nagusia';
 $string['missing'] = 'Ez dago';
 $string['missingfieldsinsentence'] = 'Esaldian eremuak falta dira';
+$string['missingindexes'] = 'Falta diren aurkibideak atzeman dira';
 $string['missingvaluesinsentence'] = 'Esaldian baloreak falta dira';
 $string['mustselectonefield'] = 'Eremu bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko.';
 $string['mustselectoneindex'] = 'Aurkibide bat aukeratu behar duzu horrekin lotutako ekintzak ikusteko.';
@@ -73,6 +78,7 @@ $string['newsentence'] = 'Esaldi berria';
 $string['newstatement'] = 'Sententzia berria';
 $string['newtable'] = 'Taula berria';
 $string['newtablefrommysql'] = 'Taula berria MySQL-etik';
+$string['nomissingindexesfound'] = 'Ez da atzeman aurkibideak falta direla. Zure DBk ez du beste eragiketaren beharrik.';
 $string['numberincorrectdecimals'] = 'Hamartarren kopuru ezegokia zenbakizko eremuan';
 $string['numberincorrectlength'] = 'Zenbakizko eremuaren luzera ezegokia';
 $string['reserved'] = 'Erreserbatua';
@@ -107,9 +113,14 @@ $string['viewedited'] = 'Edizioa ikusi';
 $string['vieworiginal'] = 'Jatorrizkoa ikusi';
 $string['viewphpcode'] = 'PHP kodea ikusi';
 $string['viewsqlcode'] = 'SQL kodea ikusi';
+$string['viewxml'] = 'XML';
 $string['wrong'] = 'Okerra';
+$string['wrongdefaults'] = 'Berezko balore okerrak aurkitu dira';
 $string['wronglengthforenum'] = 'Enum eremuaren luzera ez da zuzena';
 $string['wrongnumberoffieldsorvalues'] = 'Eremu edo esaldiaren balore kopurua ez da zuzena';
 $string['wrongreservedwords'] = 'Une honetan erabilitako Erreserbatutako Hitzak<br />(ohartu taularen izenak ez direla garrantzizkoak $CFG->prefix erabiltzen bada)';
+$string['yesmissingindexesfound'] = 'Zure DBn hainbat aurkibide falta direla atzeman da. Hemen xehetasunak ikus ditzakezu, bai eta sortu ahal izateko gogoko SQL interfazean egikaritu beharreko SQL komandoak ere.<br /><br /> Behin egindakoan,gomendagarria da berriz ere funtzionalitate hau egikaritzea aurkibideak ez direla falta egiaztatzeko.';
+$string['yeswrongdefaultsfound'] = 'En su base de datos se han encontrado algunos valores por defecto inconsistentes. Aquí se presentan sus detalles y las acciones SQL que deben ejecutarse en su interfaz SQL favorita para crearlos (no olvide hacer una copia de seguridad de sus datos).<br /><br />Una vez realizado, se recomienda ejecutar de nuevo esta utilidad para comprobar que no se encuentran más valores por defecto inconsistentes.';
+$string['yeswrongintsfound'] = 'Se han encontrado algunos enteros erróneos en su BD. Aquí se presentan sus detalles y las acciones SQL que deben ejecutarse en su interfaz SQL favorita para crearlos (no olvide hacer una copia de seguridad de sus datos).<br /><br />Una vez realizado, se recomienda ejecutar de nuevo esta utilidad para comprobar que no se encuentran más enteros erróneos.';
 
 ?>

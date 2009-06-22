@@ -10,6 +10,7 @@ $string['allowassign'] = 'Rolak esleitzea baimendu';
 $string['allowed'] = 'Baimenduta';
 $string['allowoverride'] = 'Baimendu rolak baliogabetzea';
 $string['allsiteusers'] = 'Guneko erabiltzaile guztiak';
+$string['assignanotherrole'] = 'Esleitu beste rol bat';
 $string['assignglobalroles'] = 'Rol globalak esleitu';
 $string['assignmentcontext'] = 'Esleipenaren testuingurua';
 $string['assignmentoptions'] = 'Esleipenaren aukerak';
