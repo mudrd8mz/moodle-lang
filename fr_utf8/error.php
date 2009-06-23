@@ -84,7 +84,7 @@ $string['cannotimportformat'] = 'Désolé, l\'importation de ce format n\'est pa
 $string['cannotimportgrade'] = 'Erreur d\'importation des notes';
 $string['cannotinsertcomment'] = 'Impossible d\'ajouter ce commentaire'; // Obsolete as of 2.0dev
 $string['cannotinsertgrade'] = 'Impossible d\'insérer d\'élément d\'évaluation sans identifiant de cours !';
-$string['cannotinsertkey'] = 'Impossible d\'insérer une nouvelle clef';
+$string['cannotinsertkey'] = 'Impossible d\'insérer une nouvelle clef'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotinsertrate'] = 'Impossible d\'ajouter une évaluation ($a->id = $a->rating)';
 $string['cannotinsertrecord'] = 'Impossible d\'insérer le nouvel enregistrement d\'identifiant $a';
 $string['cannotmailconfirm'] = 'Erreur lors de l\'envoi du courriel de modification de mot de passe';
@@ -129,7 +129,7 @@ $string['cannotsettheme'] = 'Impossible de définir le thème !';
 $string['cannotsetupblock'] = 'Les tables de blocs n\'ont pas pu être mises en place correctement !';
 $string['cannotsetupcapformod'] = 'Impossible d\'installer les capacités de $a';
 $string['cannotsetupcapforplugin'] = 'Impossible d\'installer les capacités de $a';
-$string['cannotsetupcategory'] = 'Erreur grave ! Impossible de créer une catégorie de cours par défaut !';
+$string['cannotsetupcategory'] = 'Erreur grave ! Impossible de créer une catégorie de cours par défaut !'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotsetupsite'] = 'Erreur grave ! Impossible de mettre en place le site !';
 $string['cannotshowhidecoursesincategory'] = 'Impossible d\'afficher/de cacher les cours dans la catégorie $a.';
 $string['cannotunassigncap'] = 'Impossible de retirer l\'attribution de la capacité obsolète $a->cap du rôle $a->role';
