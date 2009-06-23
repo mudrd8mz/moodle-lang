@@ -1,9 +1,11 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 2.0 dev (Build: 20080923) (2008092300)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20090619) (2009061706)
 
 
 $string['addconfigprefix'] = 'configファイルに接頭辞を追加する';
 $string['all'] = 'すべて';
+$string['codecoverageanalysis'] = 'code coverage分析を実行する';
+$string['codecoveragedisabled'] = 'このサーバでは、code coverageを有効にできません (xdebug拡張モジュールがありません)。';
 $string['confignonwritable'] = 'ウェブサーバからconfig.phpを書き込めません。パーミッションを変更するか、適切なユーザアカウントで編集した後、PHPタグを閉じる前に次の行を追加してください: <br />
 \$CFG->unittestprefix = \'tst_\' // 必要に応じて、tst_を\$CFG->prefixと異なる接頭辞に変更してください。';
 $string['deletingnoninsertedrecord'] = 'ユニットテストで挿入されていないレコードを削除しようとしています (テーブル: $a->table - id: $a->id)。';
@@ -40,6 +42,7 @@ $string['testtablescsvfileunwritable'] = 'テストテーブルのCSVファイ�
 $string['testtablesneedupgrade'] = 'テストDBテーブルをアップグレードする必要があります。アップグレードを継続してもよろしいですか?';
 $string['testtablesok'] = 'テストDBテーブルが正常にインストールされました。';
 $string['thorough'] = '総合テストの実行を実行する (時間がかかります)。';
+$string['timetakes'] = '所要時間: $a.';
 $string['uncaughtexception'] = '[{$a->getFile()}:{$a->getLine()}] に不明な例外 [{$a->getMessage()}] が発生したため、テストは中止されました。';
 $string['unittestprefixsetting'] = 'ユニットテスト接頭辞: <strong>$CFG->unittestprefix</strong> (修正するには、config.phpを編集してください)';
 $string['unittests'] = 'ユニットテスト';
