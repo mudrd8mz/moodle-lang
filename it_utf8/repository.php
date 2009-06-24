@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090618) (2009061600)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090624) (2009061706)
 
 
 $string['accessiblefilepicker'] = 'Selettore file accessibile';
 $string['activaterep'] = 'Repository attivi';
 $string['activerepository'] = 'Repository plugin attive';
 $string['add'] = 'Aggiungi';
+$string['addfile'] = 'Aggiungi...';
 $string['addplugin'] = 'Attivazione repository plugin';
 $string['areabackup'] = 'Backup';
 $string['areacategoryintro'] = 'Introduzione alla categoria';
@@ -19,6 +20,7 @@ $string['attachment'] = 'Allegato';
 $string['back'] = '&lt; Indietro';
 $string['cachecleared'] = 'I file in cache sono stati eliminati';
 $string['cacheexpire'] = 'Permanenza in cache';
+$string['cannotaccessparentwin'] = 'Se la finestra parent è in HTTPS non è possibile accedervi tramite l\'oggetto window.opener, pertanto non è possibile aggiornare automaticamente il repository. Tuttavia la sessione è nota, quindi affinché l\'aggiornamento funzioni dovrebbe essere sufficiente ritornare al file picker e selezionare nuovamente il repository.';
 $string['cannotdelete'] = 'Non è possibile eliminare questo file.';
 $string['cannotdownload'] = 'Non è possibile scaricare questo file';
 $string['cannotinitplugin'] = 'La chiamata plugin_init non è andata a buon fine';
@@ -84,6 +86,7 @@ $string['popup'] = 'Apri una finestra popup per il login';
 $string['preview'] = 'Anteprima';
 $string['readonlyinstance'] = 'Non puoi modificare o eliminare un repository a sola lettura';
 $string['refresh'] = 'Aggiorna';
+$string['refreshnonjsfilepicker'] = 'Per favore chiudete la finestra e aggiornate il file picker non-javascript';
 $string['removed'] = 'Repository eliminato';
 $string['repositories'] = 'Repository';
 $string['repository'] = 'Repository';
