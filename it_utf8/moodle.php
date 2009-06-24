@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090527) (2009051700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090624) (2009061706)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -266,7 +266,7 @@ $string['coresystem'] = 'Sistema';
 $string['cost'] = 'Costo';
 $string['costdefault'] = 'Costo standard';
 $string['counteditems'] = '$a->count $a->items';
-$string['country'] = 'Stato';
+$string['country'] = 'Nazione';
 $string['course'] = 'Corso';
 $string['courseapprovedemail'] = 'Il corso da te richiesto, $a->name, è stato approvato e ti è stato assegnato il ruolo $a->teacher. Per accedere al nuovo corso, vai a $a->url';
 $string['courseapprovedemail2'] = 'Il corso da te richiesto, $a->name, è stato approvato. Per accedere al nuovo corso, vai a $a->url';
@@ -376,7 +376,7 @@ $string['currentlocaltime'] = 'La tua ora locale';
 $string['currentlyselectedusers'] = 'Utenti già selezionati';
 $string['currentpicture'] = 'Immagine attuale';
 $string['currentrelease'] = 'Informazioni sulla versione attuale';
-$string['currentversion'] = 'Versione attuale';
+$string['currentversion'] = 'Versione installata';
 $string['databasechecking'] = 'Aggiornamento del database di Moodle dalla versione $a->oldversion to $a->newversion...';
 $string['databaseperformance'] = 'Prestazioni database';
 $string['databasesetup'] = 'Impostazione database';
@@ -702,7 +702,7 @@ $string['fullnamecourse'] = 'Titolo del corso';
 $string['fullnamedisplay'] = '$a->firstname $a->lastname';
 $string['fullnameuser'] = 'Nome completo dell\'utente';
 $string['fullprofile'] = 'Descrizione completa';
-$string['fullsitename'] = 'Nome completo del sito';
+$string['fullsitename'] = 'Nome del sito';
 $string['functiondisabled'] = 'Funzionalità al momento non abilitata';
 $string['gd1'] = 'GD 1.x è installato';
 $string['gd2'] = 'GD 2.x è installato';
@@ -1126,7 +1126,7 @@ $string['notifyloginfailuresmessagestart'] = 'Ecco l\'elenco degli accessi falli
 $string['notifyloginfailuressubject'] = '$a :: Notifica accessi falliti';
 $string['notincluded'] = 'Non incluso';
 $string['notingroup'] = 'Spiacente, ma devi appartenere ad un gruppo per visualizzare questa attività.';
-$string['notpublic'] = 'Non disponibile al pubblico!';
+$string['notpublic'] = 'Questi dati non saranno pubblicati';
 $string['nousersfound'] = 'Non trovato alcun utente';
 $string['nousersmatching'] = 'Nessun utente \'$a\' è stato trovato';
 $string['nousersyet'] = 'Non ci sono ancora utenti registrati';
@@ -1226,10 +1226,10 @@ $string['previoussection'] = 'Sezione precedente';
 $string['primaryadminsetup'] = 'Imposta account amministratore';
 $string['profile'] = 'Profilo';
 $string['profilenotshown'] = 'La descrizione presente nel profilo di questo utente non sarà visualizzata finché l\'utente stesso non risulti iscritto ad almeno un corso.';
-$string['publicdirectory'] = 'Directory pubblica';
-$string['publicdirectory0'] = 'Non pubbilcare questo sito';
-$string['publicdirectory1'] = 'Pubblica solo il nome del sito';
-$string['publicdirectory2'] = 'Pubblica il nome del sito con un link';
+$string['publicdirectory'] = 'Elenco pubblico dei siti';
+$string['publicdirectory0'] = 'Non aggiungere il sito all\'elenco pubblico';
+$string['publicdirectory1'] = 'Aggiungi all\'elenco pubblico solo il nome del sito';
+$string['publicdirectory2'] = 'Aggiungi all\'elenco pubblico il nome del sito con un link';
 $string['publicdirectorytitle'] = 'Vedi l\'elenco attuale dei siti';
 $string['publicsitefileswarning'] = 'Nota: i file salvati qui possono essere visualizzati da chiunque';
 $string['publicsitefileswarning2'] = 'Nota: i file salvati qui possono essere visualizzati da chiunque a conoscenza della URL oppure in grado di ricavarla. Per motivi di sicurezza si consiglia di eliminare file di backup subito dopo il ripristino.';
@@ -1244,18 +1244,18 @@ $string['recreatedcategory'] = 'La categoria $a è stata creata nuovamente';
 $string['refresh'] = 'Aggiorna';
 $string['refreshingevents'] = 'Aggiorna eventi';
 $string['registration'] = 'Registrazione di Moodle';
-$string['registrationcontact'] = 'Contatti pubblici';
-$string['registrationcontactno'] = 'No, non desidero un contact form nel sito';
-$string['registrationcontactyes'] = 'Si, desidero un form affinché un Moodler mi possa contattare';
-$string['registrationemail'] = 'Notifica via email';
-$string['registrationinfo'] = '<p>Questa pagina ti permette di registrare il tuo sito Moodle presso moodle.org. La registrazione è gratuita. Il vantaggio che ottieni registrandoti sarà che verrai aggiunto a un mailing list a basso traffico per i messaggi importanti come i problemi di sicurezza e le nuove versioni di Moodle.</p>
-<p>Le tue informazioni saranno mantenute private, e non saranno mai vendute o passate a qualcun altro. L\'unica ragione per raccogliere queste informazioni è per motivi di supporto e per aiutarci a costruire una statistica della comunità di Moodle in generale.</p>
-<p>Se tu vuoi, puoi permettere al nome del tuo sito, stato e URL di essere aggiunto alla lista pubblica dei siti di Moodle.</p>
-<p>Tutte le nuove registrazioni sono verificate manualmente prima di essere aggiunte alla lista, ma una volta aggiunta puoi aggiornare la tua registrazione (e aggiungerti alla lista pubblica) quando vuoi rispedendo questo form.</p>';
+$string['registrationcontact'] = 'Possibilità di essere contattati';
+$string['registrationcontactno'] = 'No, non desidero un contact form nell\'elenco pubblico dei siti';
+$string['registrationcontactyes'] = 'Si, desidero un contact form affinché altri Moodler mi possano contattare';
+$string['registrationemail'] = 'Notifiche via email';
+$string['registrationinfo'] = '<p>In questa pagina puoi registrare il tuo sito Moodle su moodle.org. La registrazione è gratuita e la tua email sarà inserita in una mailing list a basso traffico dalla quale riceverai avvisi di sicurezza e messaggi sulle nuove release di Moodle.</p>
+<p>I dati da te inviati rimarranno privati e non saranno venduti o trasferiti a terzi. I motivi per cui ti suggeriamo di registrarti sono la ricezione di avvisi sulla sicurezza e la raccolta di dati statistici utili a capire meglio l\'intera comunità Moodle.</p>
+<p>Se lo desideri il nome del tuo sito assieme alla nazionalità ed alla URL per raggiungerlo possono essere pubblicati nell\'elenco dei siti registrati.</p>
+<p>Le nuove registrazioni sono tutte verificate manualmente prima di essere inserite nell\'elenco pubblico. In qualsiasi momento è  possibile aggiornare i dati e modificare le preferenze di pubblicazione inviando nuovamente la registrazione.</p>';
 $string['registrationinfotitle'] = 'Informazioni per la registrazione';
 $string['registrationno'] = 'No, non voglio ricevere email';
-$string['registrationsend'] = 'Invia le informazioni di registrazione a moodle.org';
-$string['registrationyes'] = 'Si, inviatemi informazioni sulle cose importanti';
+$string['registrationsend'] = 'Invia la registrazione a moodle.org';
+$string['registrationyes'] = 'Si, inviatemi email su argomenti di rilievo';
 $string['reject'] = 'Invia il rifiuto';
 $string['rejectdots'] = 'Rifiuta...';
 $string['reload'] = 'Ricarica';
