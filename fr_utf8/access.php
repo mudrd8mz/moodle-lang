@@ -19,6 +19,7 @@ $string['sitemap'] = 'Carte du site';
 $string['skipa'] = 'Sauter $a';
 $string['skipblock'] = 'Sauter le bloc';
 $string['skipnavigation'] = 'Sauter la navigation';
+$string['skipto'] = 'Sauter vers $a';
 $string['tabledata'] = 'Données en tableau, $a';
 $string['tablelayout'] = 'Formatage en tableau, $a';
 $string['tocontent'] = 'Passer au contenu principal';
