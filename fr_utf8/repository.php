@@ -7,7 +7,7 @@
 $string['accessiblefilepicker'] = 'Choix de fichiers accessible';
 $string['activaterep'] = 'Activer les dépôts de documents';
 $string['activerepository'] = 'Plugins de dépôt actifs';
-$string['add'] = 'Ajouter';
+$string['add'] = 'Ajouter...';
 $string['addplugin'] = 'Ajouter un plugin de dépôt';
 $string['areabackup'] = 'Sauvegardes';
 $string['areacategoryintro'] = 'Descriptif de catégorie';
@@ -109,6 +109,7 @@ $string['typenotvisible'] = 'Type non visible';
 $string['updown'] = 'Ordre d\'affichage';
 $string['upload'] = 'Déposer ce fichier';
 $string['uploading'] = 'En cours de dépôt...';
+$string['uploadsucc'] = 'Le fichier a été correctement déposé';
 $string['wrongcontext'] = 'Vous ne pouvez pas accéder à ce contexte';
 $string['xhtmlerror'] = 'Vous utilisez probablement l\'entête XHTML strict. Certains composants YUI ne fonctionnent pas dans ce mode. Veuillez le désactiver dans moodle';
 
