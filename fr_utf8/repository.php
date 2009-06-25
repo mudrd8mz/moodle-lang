@@ -4,6 +4,7 @@
 // Autres possibilités à envisager : entrepôt, stockage,
 // zone de dépôt, vivier, ...
 
+$string['accessiblefilepicker'] = 'Choix de fichiers accessible';
 $string['activaterep'] = 'Activer les dépôts de documents';
 $string['activerepository'] = 'Plugins de dépôt actifs';
 $string['add'] = 'Ajouter';
