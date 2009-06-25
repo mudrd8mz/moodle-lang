@@ -39,6 +39,7 @@ $string['testtablescsvfileunwritable'] = 'Le fichier CSV des tables de test n\'e
 $string['testtablesneedupgrade'] = 'Les tables de tests de la base de données doivent être mises à jour. Voulez-vous effectuer maintenant la mise à jour ?';
 $string['testtablesok'] = 'Les tables de tests ont été installées correctement dans la base de données.';
 $string['thorough'] = 'Lancer un test exhaustif (peut être lent).';
+$string['timetakes'] = 'Durée des tests : $a.';
 $string['unittestprefixsetting'] = 'Préfixe des tests unitaires : <strong>$CFG->unittestprefix</strong> (veuillez modifier le fichier <i>config.php</i> pour changer ce préfixe).';
 $string['unittests'] = 'Tests unitaires';
 $string['uncaughtexception'] = 'Exception non traitée [{$a->getMessage()}] dans [{$a->getFile()}:{$a->getLine()}] : TESTS INTERROMPUS.';
