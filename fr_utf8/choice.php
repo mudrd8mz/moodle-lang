@@ -3,8 +3,8 @@
 $string['addmorechoices'] = 'Ajouter d\'autres propositions';
 $string['allowupdate'] = 'Permettre la modification du choix';
 $string['answered'] = 'Répondu';
-$string['cannotupdatechoice'] = 'Impossible de modifier votre choix en raison d\'une erreur de base de données';
-$string['cannotsavechoice'] = 'Impossible d\'enregistrer votre choix';
+$string['cannotupdatechoice'] = 'Impossible de modifier votre choix en raison d\'une erreur de base de données'; // Obsolete from 2.0dev onwards, see MDL-18293
+$string['cannotsavechoice'] = 'Impossible d\'enregistrer votre choix'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['choice'] = 'Proposition';
 $string['choice:choose'] = 'Répondre aux sondages';
 $string['choice:readresponses'] = 'Lire les réponses';
