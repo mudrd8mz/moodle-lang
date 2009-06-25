@@ -1,6 +1,7 @@
 <?php // $Id$
 
 $string['alfresco_url'] = 'URL Alfresco';
+$string['alfrescourltext'] = 'L\'URL de l\'API Alfresco devrait être de la forme : http://yoursite.com/alfresco/api';
 $string['configplugin'] = 'Configuration Alfresco';
 $string['notitle'] = 'Sans titre';
 $string['password'] = 'Mot de passe';
