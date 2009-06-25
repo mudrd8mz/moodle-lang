@@ -110,5 +110,6 @@ $string['updown'] = 'Ordre d\'affichage';
 $string['upload'] = 'Déposer ce fichier';
 $string['uploading'] = 'En cours de dépôt...';
 $string['wrongcontext'] = 'Vous ne pouvez pas accéder à ce contexte';
+$string['xhtmlerror'] = 'Vous utilisez probablement l\'entête XHTML strict. Certains composants YUI ne fonctionnent pas dans ce mode. Veuillez le désactiver dans moodle';
 
 ?>
