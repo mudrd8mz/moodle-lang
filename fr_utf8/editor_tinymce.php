@@ -2,6 +2,9 @@
 
 //== Custom Moodle strings that are not part of upstream TinyMCE ==
 
+$string['dragmath:dragmath_desc'] = 'Insérer équation';
+$string['dragmath:dragmath_javaneeded'] = 'Vous devez disposer d\'un navigateur avec Java activé pour utiliser cette page. Veuillez télécharger le plugin Java le plus récent ici $a.';
+$string['dragmath:dragmath_title'] = 'Éditeur d\'équations DragMath';
 $string['modulename'] = 'Éditeur WYSIWYG TinyMCE';
 
 // == TinyMCE upstream lang strings from all plugins ==
