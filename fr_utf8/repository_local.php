@@ -1,6 +1,7 @@
 <?php // $Id$
 
 $string['configplugin'] = 'Configuration du dépôt de fichiers local';
+$string['currentusefiles'] = 'Fichiers utilisés actuellement';
 $string['repositoryname'] = 'Fichiers locaux';
 $string['repositorydesc'] = 'Dépôt dans le serveur Moodle local';
 $string['notitle'] = 'sans titre';
