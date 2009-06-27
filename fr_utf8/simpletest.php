@@ -2,8 +2,8 @@
 
 $string['addconfigprefix'] = 'Ajouter le préfixe au fichier de configuration';
 $string['all'] = 'TOUT';
-$string['codecoverageanalysis'] = 'Effectuer une analyse de recouvrement de code.';
-$string['codecoveragedisabled'] = 'Impossible d\'activer le recouvrement de code sur ce serveur (l\'extension xdebug est manquante).';
+$string['codecoverageanalysis'] = 'Effectuer une analyse de couverture de code.';
+$string['codecoveragedisabled'] = 'Impossible d\'activer le couverture de code sur ce serveur (l\'extension xdebug est manquante).';
 $string['confignonwritable'] = 'Le fichier <i>config.php</i> n\'est pas accessible en écriture par le serveur web. Veuillez modifier ses permissions ou le modifier à partir d\'un compte adéquat, en ajoutant la ligne suivante avant la balise php terminale : <br />\$CFG->unittestprefix = \'tst_\' // Change tst_ to a prefix of your choice, different from \$CFG->prefix';
 $string['deletingnoninsertedrecord'] = 'Tentative de suppression d\'un enregistrement n\'ayant pas été inséré par ces tests unitaires (id $a->id dans la table $a->table).';
 $string['deletingnoninsertedrecords'] = 'Tentative de suppression d\'enregistrements n\'ayant pas été insérés par ces tests unitaires (de la table $a->table).';
