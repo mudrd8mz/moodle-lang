@@ -269,8 +269,8 @@ $string['userswiththisrole'] = 'Utilisateurs avec le rôle';
 $string['useshowadvancedtochange'] = 'Utiliser « Afficher éléments supplémentaires » pour effectuer des modifications';
 $string['viewingdefinitionofrolex'] = 'Affichage de la définition du rôle « {$a} »';
 $string['viewrole'] = 'Afficher les détails du rôle';
-$string['whydoesuserhavecap'] = 'Pourquoi $a->fullname a la capacité $a->capability dans le contexte $a->context ?';
-$string['whydoesusernothavecap'] = 'Pourquoi $a->fullname n\'a pas la capacité $a->capability dans le contexte $a->context ?';
+$string['whydoesuserhavecap'] = 'Pourquoi $a->fullname a la capacité {$a->capability} dans le contexte {$a->context} ?';
+$string['whydoesusernothavecap'] = 'Pourquoi $a->fullname n\'a pas la capacité $a->capability dans le contexte {$a->context} ?';
 $string['xroleassignments'] = 'Attributions de rôles de $a';
 $string['xuserswiththerole'] = 'Utilisateurs ayant le rôle « {$a->role} »';
 
