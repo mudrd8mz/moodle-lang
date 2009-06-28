@@ -16,6 +16,6 @@ $string['gradingnotallowed'] = 'Vous n\'avez pas l\'autorisation d\'évaluer man
 $string['gradingungraded'] = '$a tentatives non évaluées';
 $string['invalidquestionid'] = 'Question évaluable d\'identifiant $a introuvable';
 $string['invalidattemptid'] = 'Cet identifiant de tentative n\'existe pas';
-$string['questiontitle'] = 'Question $a->number : « {$a->name} » ({$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts tentatives {$a->openspan}graded{$a->closespan}).';
+$string['questiontitle'] = 'Question {$a->number} : « {$a->name} » ({$a->openspan}{$a->gradedattempts}{$a->closespan} / {$a->totalattempts} tentatives {$a->openspan}graded{$a->closespan}).';
 
 ?>

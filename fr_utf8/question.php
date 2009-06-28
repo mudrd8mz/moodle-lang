@@ -143,7 +143,7 @@ $string['permissionsaveasnew'] = 'Enregistrer ceci en tant que nouvelle question
 $string['permissionto'] = 'Vous avez les autorisations pour :';
 $string['published'] = 'partagée';
 $string['qtypeveryshort'] = 'T';
-$string['questionaffected'] = '<a href=\"$a->qurl\">La question « $a->name  » ($a->qtype)</a> est dans cette catégorie, mais est aussi utilisée dans le <a href=\"$a->qurl\">test « {$a->quizname} »</a> dans le cours « {$a->coursename} ».';
+$string['questionaffected'] = '<a href=\"$a->qurl\">La question « {$a->name} » ($a->qtype)</a> est dans cette catégorie, mais est aussi utilisée dans le <a href=\"$a->qurl\">test « {$a->quizname} »</a> dans le cours « {$a->coursename} ».';
 $string['questionbank'] = 'Banque de questions';
 $string['questioncategory'] = 'Catégorie de questions';
 $string['questioncatsfor'] = 'Catégories de question de « {$a} »';

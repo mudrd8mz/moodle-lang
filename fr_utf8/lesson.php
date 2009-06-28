@@ -114,8 +114,8 @@ $string['enterpassword'] = 'Veuillez saisir le mot de passe :';
 $string['eolstudentoutoftime'] = 'Attention : le temps à votre disposition pour cette leçon est échu. Votre dernière réponse ne sera pas prise en compte si elle est survenue après l\'échéance.';
 $string['eolstudentoutoftimenoanswers'] = 'vous n\'avez répondu à aucune question. Votre note pour cette leçon est de 0.';
 $string['essay'] = 'Composition';
-$string['essayemailmessage'] = '<p>Question ouverte :<blockquote>$a->question</blockquote></p><p>Votre réponse :<blockquote><em>$a->response</em></blockquote></p><p>Commentaire de l\'enseignant :<blockquote><em>$a->comment</em></blockquote></p><p>Vous avez obtenu $a->earned points sur un total de $a->outof à cette question ouverte.</p><p>Votre note pour cette leçon est maintenant $a->newgrade &#37;.</p>';  // &#37; = %
-$string['essayemailmessage2'] = '<p>Question ouverte :<blockquote>$a->question</blockquote></p><p>Votre réponse :<blockquote><em>$a->response</em></blockquote></p><p>Commentaire de l\'évaluateur :<blockquote><em>$a->comment</em></blockquote></p><p>Vous avez obtenu $a->earned points sur un total de $a->outof à cette question ouverte.</p><p>Votre note pour cette leçon est maintenant $a->newgrade &#37;.</p>';  // &#37; = %
+$string['essayemailmessage'] = '<p>Question ouverte :<blockquote>$a->question</blockquote></p><p>Votre réponse :<blockquote><em>$a->response</em></blockquote></p><p>Commentaire de l\'enseignant :<blockquote><em>$a->comment</em></blockquote></p><p>Vous avez obtenu $a->earned points sur un total de $a->outof à cette question ouverte.</p><p>Votre note pour cette leçon est maintenant {$a->newgrade} &#37;.</p>';  // &#37; = %
+$string['essayemailmessage2'] = '<p>Question ouverte :<blockquote>$a->question</blockquote></p><p>Votre réponse :<blockquote><em>$a->response</em></blockquote></p><p>Commentaire de l\'évaluateur :<blockquote><em>$a->comment</em></blockquote></p><p>Vous avez obtenu $a->earned points sur un total de $a->outof à cette question ouverte.</p><p>Votre note pour cette leçon est maintenant {$a->newgrade} &#37;.</p>';  // &#37; = %
 $string['essayemailsubject'] = 'Votre note pour la question $a';
 $string['essays'] = 'Compositions';
 $string['essayscore'] = 'Score de votre composition';
@@ -222,7 +222,7 @@ $string['numberofcorrectanswers'] = 'Nombre de réponses correctes : $a';
 $string['numberofcorrectmatches'] = 'Nombre de correspondances correctes : $a';
 $string['numberofpagestoshow'] = 'Nombre de pages à afficher';
 $string['numberofpagesviewed'] = 'Nombre de questions répondues : $a';
-$string['numberofpagesviewednotice'] = 'Nombre de questions répondues : $a->nquestions ; (vous devez répondre au moins à $a->minquestions)';
+$string['numberofpagesviewednotice'] = 'Nombre de questions répondues : {$a->nquestions} ; (vous devez répondre au moins à $a->minquestions)';
 $string['ongoing'] = 'Afficher le score actuel';
 $string['ongoingcustom'] = 'Vous avez jusqu\'ici reçu $a->score sur un maximum de $a->currenthigh point(s).';
 $string['ongoingnormal'] = 'Vous avez répondu correctement à $a->correct tentatives sur $a->viewed.';
