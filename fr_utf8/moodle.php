@@ -246,7 +246,7 @@ $string['complete'] = 'Complet';
 $string['completereport'] = 'Rapport complet';
 $string['configuration'] = 'Configuration';
 $string['confirm'] = 'Confirmer';
-$string['confirmcheckfull'] = 'Voulez-vous vraiment confirmer $a ?';
+$string['confirmcheckfull'] = 'Voulez-vous vraiment confirmer {$a} ?';
 $string['confirmed'] = 'Votre enregistrement a été confirmé';
 $string['confirmednot'] = 'Votre enregistrement n\'a pas encore été confirmé';
 $string['continue'] = 'Continuer';
@@ -1630,7 +1630,7 @@ $string['virusfoundlateradminnolog'] = 'Attention ! Un fichier de nom $a->filena
 Voici un résumé de ce qui est arrivé à ce fichier :
 
 $a->action';
-$string['virusfoundsubject'] = '$a : Virus détecté !';
+$string['virusfoundsubject'] = '{$a} : Virus détecté !';
 $string['virusfounduser'] = 'Le fichier que vous avez déposé, $a->filename, a été inspecté par un anti-virus et un virus y a été découvert ! Votre fichier n\'a donc pas été déposé.';
 $string['virusplaceholder'] = 'Un virus a été détecté dans ce fichier déposé. Il a été déplacé ou détruit, et l\'utilisateur en a été informé.';
 $string['visible'] = 'Visible';
