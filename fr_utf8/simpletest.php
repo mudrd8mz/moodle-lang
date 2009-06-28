@@ -3,12 +3,16 @@
 $string['addconfigprefix'] = 'Ajouter le préfixe au fichier de configuration';
 $string['all'] = 'TOUT';
 $string['codecoverageanalysis'] = 'Effectuer une analyse de couverture de code.';
+$string['codecoveragecompletereport'] = 'Afficher le rapport complet de couverture de code';
 $string['codecoveragedisabled'] = 'Impossible d\'activer le couverture de code sur ce serveur (l\'extension xdebug est manquante).';
 $string['confignonwritable'] = 'Le fichier <i>config.php</i> n\'est pas accessible en écriture par le serveur web. Veuillez modifier ses permissions ou le modifier à partir d\'un compte adéquat, en ajoutant la ligne suivante avant la balise php terminale : <br />\$CFG->unittestprefix = \'tst_\' // Change tst_ to a prefix of your choice, different from \$CFG->prefix';
+$string['coveredlines'] = 'Lignes couvertes';
+$string['coveredpercentage'] = 'Couverture de code totale';
 $string['deletingnoninsertedrecord'] = 'Tentative de suppression d\'un enregistrement n\'ayant pas été inséré par ces tests unitaires (id $a->id dans la table $a->table).';
 $string['deletingnoninsertedrecords'] = 'Tentative de suppression d\'enregistrements n\'ayant pas été insérés par ces tests unitaires (de la table $a->table).';
 $string['droptesttables'] = 'Supprimer les tables de tests';
 $string['exception'] = 'Exception';
+$string['executablelines'] = 'Lignes exécutables';
 $string['fail'] = 'Échec';
 $string['ignorethisfile'] = 'Relancer les tests unitaires en ignorant ce fichier de test.';
 $string['ignorefile'] = 'Ignorer les tests de ce fichier';
@@ -40,9 +44,11 @@ $string['testtablesneedupgrade'] = 'Les tables de tests de la base de données d
 $string['testtablesok'] = 'Les tables de tests ont été installées correctement dans la base de données.';
 $string['thorough'] = 'Lancer un test exhaustif (peut être lent).';
 $string['timetakes'] = 'Durée des tests : $a.';
+$string['totallines'] = 'Total des lignes';
 $string['unittestprefixsetting'] = 'Préfixe des tests unitaires : <strong>$CFG->unittestprefix</strong> (veuillez modifier le fichier <i>config.php</i> pour changer ce préfixe).';
 $string['unittests'] = 'Tests unitaires';
 $string['uncaughtexception'] = 'Exception non traitée [{$a->getMessage()}] dans [{$a->getFile()}:{$a->getLine()}] : TESTS INTERROMPUS.';
+$string['uncoveredlines'] = 'Lignes non couvertes';
 $string['updatingnoninsertedrecord'] = 'Tentative de modification d\'un enregistrement n\'ayant pas été inséré par ces tests unitaires (id $a->id dans la table $a->table).';
 $string['version'] = 'Utilise <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> version $a. ';
 
