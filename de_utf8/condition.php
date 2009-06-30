@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // condition.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // condition.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['addcompletions'] = '{no} Aktivitäts-Bedingungen hinzufügen';
@@ -28,6 +28,7 @@ $string['requires_completion_2'] = 'Nicht verfügbar, bis die Aktivität <strong
 $string['requires_completion_3'] = 'Nicht verfügbar bist die Aktivität <strong>$a</strong> abgeschlossen ist und nicht bestanden wurde.';
 $string['requires_date'] = 'Nicht verfügbar bis $a';
 $string['requires_date_before'] = 'Nicht verfügbar von $a';
+$string['requires_date_both'] = 'Verfügbar von $a->from bis $a->until.';
 $string['requires_grade_any'] = 'Nicht verfügbar, bis Sie eine Bewertung auf <strong>$a</strong> erhalten haben.';
 $string['requires_grade_max'] = 'Nicht verfügbar, außer Sie haben eine angemessene Punktezahl auf <strong>$a</strong> erzielt.';
 $string['requires_grade_min'] = 'Nicht verfügbar, bis Sie die erforderliche Punktezahl auf <strong>$a</strong> erreicht haben.';

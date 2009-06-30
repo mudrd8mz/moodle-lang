@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['activaterep'] = 'Aktive Repositories';
@@ -17,6 +17,7 @@ $string['attachment'] = 'Anhang';
 $string['back'] = '&lt; Zurück';
 $string['cachecleared'] = 'Zwischengespeicherte Dateien gelöscht';
 $string['cacheexpire'] = 'Zwischenspeicher ungültig';
+$string['cannotdownload'] = 'Datei kann nicht herunter geladen werden';
 $string['cannotinitplugin'] = 'Aufruf plugin_init gescheitert';
 $string['cleancache'] = 'Zwischengespeicherte Dateien löschen';
 $string['clicktohide'] = 'Zum Verbergen hier klicken';
@@ -52,6 +53,8 @@ $string['hiddenshow'] = 'Verbergen/anzeigen';
 $string['instance'] = 'Instanz';
 $string['instancedeleted'] = 'Instanz gelöscht';
 $string['instances'] = 'Repository-Instanzen';
+$string['instancesforadmin'] = 'gemeinsame Instanz(en)';
+$string['instancesforothers'] = 'private Instanze(en)';
 $string['invalidjson'] = 'Ungültiger JSON-Text';
 $string['invalidplugin'] = 'Ungültiges Repository-Plugin';
 $string['invalidrepositoryid'] = 'Ungültige Repository-ID';

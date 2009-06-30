@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // gradereport_stats.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // gradereport_stats.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['aggregationposition'] = 'Position des Gesamtergebnisses';
@@ -15,8 +15,8 @@ $string['lowest'] = 'Minimum';
 $string['mean'] = 'Durchschnitt';
 $string['median'] = 'Median';
 $string['mode'] = 'Modus';
-$string['modulename'] = 'Statistik-Bericht';
-$string['moredata'] = 'Statistik-Bericht: Mehr Informationen...';
+$string['modulename'] = 'Statistische Auswertung';
+$string['moredata'] = 'Statistische Auswertung: Mehr Informationen...';
 $string['num_grades'] = 'Bewertungen';
 $string['overall'] = 'Kurs total';
 $string['pass_percent'] = 'Prozentwert für Bestanden';

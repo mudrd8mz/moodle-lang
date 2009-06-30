@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -493,7 +493,7 @@ $string['emailactive'] = 'E-Mail-Adresse aktivieren';
 $string['emailagain'] = 'E-Mail (wiederholen)';
 $string['emailcharset'] = 'E-Mail-Zeichensatz';
 $string['emailconfirm'] = 'Bestätigen Sie Ihren Zugang.';
-$string['emailconfirmation'] = 'Guten Tag $a->firstname $a->lastname,
+$string['emailconfirmation'] = 'Guten Tag $a->firstname,
 
 unter Verwendung Ihrer E-Mail-Adresse ist ein neuer Zugang zum Lernmanagementsystem Moodle unter \'$a->sitename\' angemeldet worden. Wenn dies richtig ist, bestätigen Sie bitte die Anmeldung über den folgenden Link:
 
@@ -532,7 +532,7 @@ $string['emailmustbereal'] = 'Wichtig: Geben Sie eine gültige E-Mail-Adresse an
 $string['emailnotallowed'] = 'E-Mail-Adressen aus den Domänen $a sind nicht erlaubt.';
 $string['emailnotfound'] = 'Die E-Mail-Adresse wurde nicht in der Datenbank gefunden.';
 $string['emailonlyallowed'] = 'Diese E-Mail-Adresse ($a) kann nicht verwendet werden. Bitte wenden Sie sich bei Fragen an die Administrator/innen.';
-$string['emailpasswordchangeinfo'] = 'Guten Tag $a->firstname $a->lastname,
+$string['emailpasswordchangeinfo'] = 'Guten Tag $a->firstname,
 
 jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
 
@@ -546,14 +546,14 @@ Bei Problemen wenden Sie sich bitte an die Administrator/innen der Website.
 
 Viel Erfolg!
 $a->admin';
-$string['emailpasswordchangeinfodisabled'] = 'Guten Tag $a->firstname $a->lastname,
+$string['emailpasswordchangeinfodisabled'] = 'Guten Tag $a->firstname,
 
 jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
 
 Bedauerlicherweise ist Ihr Zugang zu dieser Website deaktiviert und kann nicht automatisch zurückgesetzt werden. Wenden Sie sich bitte an die Administrator/innen der Website.
 
 $a->admin';
-$string['emailpasswordchangeinfofail'] = 'Guten Tag $a->firstname $a->lastname,
+$string['emailpasswordchangeinfofail'] = 'Guten Tag $a->firstname,
 
 jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
 
@@ -561,7 +561,7 @@ Das Kennwort kann jedoch nicht auf diesem Weg geändert werden. Wenden Sie sich 
 
 $a->admin';
 $string['emailpasswordchangeinfosubject'] = '$a: Kennwortinformation ändern';
-$string['emailpasswordconfirmation'] = 'Guten Tag $a->firstname $a->lastname,
+$string['emailpasswordconfirmation'] = 'Guten Tag $a->firstname,
 
 jemand (wahrscheinlich Sie) hat ein neues Kennwort für Ihren Zugang auf \'$a->sitename\' angefordert.
 
@@ -642,7 +642,7 @@ $a->past
 Sie können auf der folgenden Seite den Teilnahmezeitraum verlängern (dann bleiben die o.g. Teilnehmer/innen entsprechend länger im Kurs eingeschrieben):
 $a->extendurl';
 $string['expirynotifystudents'] = 'Nachricht an Teilnehmer/innen';
-$string['expirynotifystudentsemail'] = 'Liebe Teilnehmerin, lieber Teilnehmer,
+$string['expirynotifystudentsemail'] = 'Liebe/r $a->studentstr,
 
 wir erinnern Sie daran, dass Ihre Teilnahmedauer für den Kurs $a->course in $a->threshold Tagen endet. 
 
@@ -992,6 +992,7 @@ $string['missingusername'] = 'Anmeldename fehlt';
 $string['modified'] = 'Geändert';
 $string['moduledeleteconfirm'] = 'Sie wollen das Modul \'$a\' vollständig löschen. Damit löschen Sie alle Datenbankeinträge, die mit diesem Modul in Verbindung stehen. Wollen Sie diesen Vorgang wirklich fortsetzen?';
 $string['moduledeletefiles'] = 'Alle Daten, die mit dem Modul \'$a->module\' in Verbindung stehen, wurden in der Datenbank gelöscht. Um den Vorgang abzuschließen und sicherzustellen, dass keine Neuinstallation des Moduls erfolgt, sollten Sie das Verzeichnis $a->directory auf dem Server löschen.';
+$string['moduleintro'] = 'Beschreibung';
 $string['modulesetup'] = 'Lege Modultabellen an';
 $string['modulesuccess'] = '$a Tabellen wurden korrekt angelegt';
 $string['moodledocs'] = 'Dokumentation';
@@ -1036,7 +1037,7 @@ $string['newcourse'] = 'Neuer Kurs';
 $string['newpassword'] = 'Neues Kennwort';
 $string['newpasswordfromlost'] = '<strong>Hinweis:</strong> Ihr <strong> Ersatzkennwort </strong> wurde Ihnen mit der 
 <strong> zweiten </strong> der beiden an Sie versandten E-Mails zugeschickt. Achten Sie darauf, dass Sie das Ersatzkennwort erhalten haben, bevor Sie an dieser Stelle weiter arbeiten.';
-$string['newpasswordtext'] = 'Guten Tag $a->firstname $a->lastname,
+$string['newpasswordtext'] = 'Guten Tag $a->firstname,
 
 Ihr Kennwort auf \'$a->sitename\' wurde zurückgesetzt. Ihnen ist ein neues, temporäres Kennwort zugewiesen worden.
 
@@ -1059,7 +1060,7 @@ $string['newsitems'] = 'Nachrichten';
 $string['newsitemsnumber'] = 'Anzahl neuer Nachrichten';
 $string['newuser'] = 'Neues Nutzerprofil';
 $string['newusernewpasswordsubj'] = 'Neuer Nutzerzugang';
-$string['newusernewpasswordtext'] = 'Guten Tag $a->firstname $a->lastname,
+$string['newusernewpasswordtext'] = 'Guten Tag $a->firstname,
 
 für Sie wurde ein neuer Zugang auf \'$a->sitename angelegt. Zugleich erhalten Sie ein neues vorläufiges Kennwort.
 
@@ -1172,9 +1173,7 @@ $string['parentcategory'] = 'Übergeordneter Kursbereich';
 $string['parentcoursenotfound'] = 'Kurs nicht gefunden!';
 $string['parentcoursenotmetacourse'] = 'Kurs ist kein Metakurs!';
 $string['parentfolder'] = 'Übergeordnetes Verzeichnis';
-$string['parentlanguage'] = 'en
-
-Hinweis für Übersetzer: Wenn Ihr Sprachpaket von einem übergeordnete Sprachpaket abgeleitet ist (parent language), dann tragen Sie die Kurzbezeichnung dieses übergeordneten Sprachpakets bitte hier ein (z.B. nl). Moodle verwendet dann dieses übergeordnete Sprachpaket, falls in Ihrer Übersetzung Begriffe fehlen / nicht übersetzt wurden. Wenn Sie nichts eintragen, wird das englische Sprachpaket verwendet, d.h. fehlende Begriffe werden durch die entsprechenden englischen Begriffe ersetzt.';
+$string['parentlanguage'] = '<<Hinweis für Übersetzer: Wenn Ihr Sprachpaket von einem übergeordnete Sprachpaket abgeleitet ist (parent language), dann tragen Sie die Kurzbezeichnung dieses übergeordneten Sprachpakets bitte hier ein (z.B. nl). Moodle verwendet dann dieses übergeordnete Sprachpaket, falls in Ihrer Übersetzung Begriffe fehlen / nicht übersetzt wurden. Wenn Sie nichts eintragen, wird das englische Sprachpaket verwendet, d.h. fehlende Begriffe werden durch die entsprechenden englischen Begriffe ersetzt.>>';
 $string['participants'] = 'Teilnehmer/innen';
 $string['participationratio'] = 'Beteiligung';
 $string['participationreport'] = 'Bericht über die Beteiligung';

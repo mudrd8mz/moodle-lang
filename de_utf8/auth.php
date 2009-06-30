@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // auth.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -101,7 +101,7 @@ $string['auth_emailrecaptcha_key'] = 'ReCaptcha einschalten';
 $string['auth_emailsettings'] = 'Einstellungen';
 $string['auth_emailtitle'] = 'E-Mail basiert';
 $string['auth_emailupdate'] = 'Aktualisierung der E-Mail-Adresse';
-$string['auth_emailupdatemessage'] = 'Lieber $a->fullname,
+$string['auth_emailupdatemessage'] = 'Guten Tag $a->fullname,
 
 Sie haben eine Änderung der E-Mail-Adresse für Ihr Nutzerkonto bei $a->site angefragt. Bitte öffnen Sie die folgende URL in Ihrem Browser, um die Änderung zu bestätigen.
 
@@ -273,12 +273,23 @@ $string['auth_remove_keep'] = 'Nur intern zugänglich';
 $string['auth_remove_suspend'] = 'Intern aufheben';
 $string['auth_remove_user'] = 'Legen Sie fest, was mit einem internen Nutzerprofil passieren soll, wenn bei einer Massensynchronisierung dieser Account im externen System entfernt wurde.  Nur gesperrte Nutzer werden automatisch reaktiviert, wenn sie in der externen Quelle wieder erscheinen.';
 $string['auth_remove_user_key'] = 'Entfernte externe Nutzer';
+$string['auth_shib_auth_method'] = 'Bezeichnung der Authentifizierungemethode';
+$string['auth_shib_auth_method_description'] = 'Vergeben Sie für die verwendete Shibboleth-Methode einen Titel, der den Nutzern vertraut ist, z.B. der Titel des Shibboleth-Verbunds (<tt>SWITCHaai Login</TT> oder <tt>Gemeinsamer Login</tt>.';
 $string['auth_shib_changepasswordurl'] = 'URL zur Kennwortänderung';
 $string['auth_shib_convert_data'] = 'Datenmodifikation APU';
 $string['auth_shib_convert_data_description'] = 'Sie können diese API nutzen, um Daten von Shibboleth zu bearbeiten. <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">Hier</a> finden Sie weitere Hinweise.';
 $string['auth_shib_convert_data_warning'] = 'Die Datei existiert nicht oder ist vom Server nicht lesbar.';
+$string['auth_shib_idp_list'] = 'Identity-Provider';
+$string['auth_shib_idp_list_description'] = 'Stellen Sie eine Liste der Identity-Provider zur Verfügung aus der die Nutzer auf der Loginseite auswählen können. <br />In jeder Zeile muss ein kommagetrenntes Tupple für identityID der IdP (siehe Shibboleth Medatadtendatei) und Name des IdP wie es in der Drowndopwnliste gezeigt werden soll eingetragen werden.<br />
+Als optionaler dritter Parameter kann der Ort des Shibboleth Session Initators eingetragen werden falls die Moodle-Installation im Verbund genutzt wird.';
 $string['auth_shib_instructions'] = 'Nutzen Sie den <a href=\"$a\">Shibboleth Login</a>, um Zugangüber Shibboleth zu erhalten, wenn Ihr Unternehmen dies unterstützt. <br />Sonst verwenden Sie das normale hier angezeigte Loginformular.';
 $string['auth_shib_instructions_help'] = 'Tragen Sie hier Informationen für Ihre Nutzer/innen ein, die ihnen den Zugang mit Hilfe von Shibboleth erklären. Diese werden auf der Loginseite angzeigt. Der Text sollte einen Link \"<b>$a</b>\" enthalten, damit ein einfachere Login möglich ist. Wenn Sie das Feld leer lassen, werden die Standard-Texte angezeigt und keine Hinweise auf den Shibboleth Login.';
+$string['auth_shib_integrated_wayf'] = 'Moodle WAYF Service';
+$string['auth_shib_integrated_wayf_description'] = 'Nach der Aktivierung verwendet Moodle den eigenen WAYF Service an Stelle des für Shibboleth konfigurierten. Moodle zeigt dann eine Dropdownliste der verfügbaren alternativen Login-Seiten wo der Nutzer seinen Identity Provider auszuwählen hat.';
+$string['auth_shib_logout_return_url'] = 'Alternative URL nach Logout';
+$string['auth_shib_logout_return_url_description'] = 'Auf diese Seite werden Shibboleth-Nutzer nach dem Logout geleitet.<br />Bleibt das Feld leer wird die Standardseite von Moodle genutzt.';
+$string['auth_shib_logout_url'] = 'Shibboleth Service Provider Logout URL Handler';
+$string['auth_shib_logout_url_description'] = 'Tragen Sie die URL für den Shibboleth Service Provider Logout Handler ein. Typischerweise ist dies <tt>Shibboleth.sso/Logout</tt>';
 $string['auth_shib_no_organizations_warning'] = 'Wenn Sie den integrierten WAYF Dienst verwenden wollen, ist es erforderlich eine kommaseparierte Liste von Identity Provider entityIDs, ihren Namen und Optional einen Session Initiator einzutragen.';
 $string['auth_shib_only'] = 'nur Shibboleth';
 $string['auth_shib_only_description'] = 'Checken Sie diese Option, wenn eine Shibboleth-Authentifizierung bevorzugt wird.';
@@ -310,6 +321,7 @@ $string['chooseauthmethod'] = 'Authentifizierungsmethode';
 $string['createpasswordifneeded'] = 'Passwort anlegen, falls erforderlich';
 $string['enterthenumbersyouhear'] = 'Bitte tragen Sie die Zahlen ein, die Sie hören';
 $string['enterthewordsabove'] = 'Bitte tragen Sie die angegebenen Worte ein';
+$string['errormaxconsecutiveidentchars'] = 'Kennwörter dürfen bis zu $a aufeinander folgende identische Zeichen besitzen.';
 $string['errorminpassworddigits'] = 'Passworte müssen mindestens $a Zahl(en) enthalten.';
 $string['errorminpasswordlength'] = 'Passworte müssen mindestens $a Zeichen lang sein.';
 $string['errorminpasswordlower'] = 'Passworte müssen mindestens $a Kleinbuchstaben enthalten.';

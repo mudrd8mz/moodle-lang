@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // gradereport_visual.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // gradereport_visual.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['aggregationposition'] = 'Position des Gesamtergebnisses';
@@ -12,10 +12,10 @@ $string['gradedistribution'] = 'Verteilung (Linie)';
 $string['gradedistribution:title'] = 'Verteilung';
 $string['gradedistributionbar'] = 'Verteilung nach Werten (Balken)';
 $string['gradedistributiongroupbar'] = 'Bewertung nach Gruppen (Balken)';
-$string['gradesvsitems'] = 'Durchschnitt vs. Werte';
-$string['gradesvsitems:title'] = 'Durchschnitt vs. Werte';
-$string['gradesvsstudents'] = 'Normalisierte Werte vs. Teilnehmer';
-$string['gradesvsstudents:title'] = 'Normalisierte Werte vs. Teilnehmer';
+$string['gradesvsitems'] = 'Durchschnittsbewertungen vs. Aspekte';
+$string['gradesvsitems:title'] = 'Durchschnittsbewertungen vs. Aspekte';
+$string['gradesvsstudents'] = 'Normalisierte Werte vs. Teilnehmer/innen';
+$string['gradesvsstudents:title'] = 'Normalisierte Werte vs. Teilnehmer/innen';
 $string['hide'] = 'Verbergen';
 $string['incompleasmin'] = 'Unvollständige Bewertungen als Minimum';
 $string['invertaxes'] = 'Achsen tauschen';
@@ -36,9 +36,11 @@ $string['usehidden'] = 'Verborgene Bewertungen zählen';
 $string['uselocked'] = 'Gesperrte Bewertungen zählen';
 $string['visual:view'] = 'Grafischen Kursbericht anzeigen';
 $string['visual:vis:continuous_grade_distribution'] = 'Aggregierte Bewertung (grafisch)';
-$string['visual:vis:grade_distribution'] = 'Bewertung (grafisch)';
-$string['visual:vis:grade_distribution_bar'] = 'Bewertung-Balkenansicht';
-$string['visual:vis:grade_distribution_group_bar'] = 'Bewertungen gruppiert';
+$string['visual:vis:grade_distribution'] = 'Visualisierung der Bewertungsverteilung anzeigen';
+$string['visual:vis:grade_distribution_bar'] = 'Balkenansicht der Bewertungsverteilung anzeigen';
+$string['visual:vis:grade_distribution_group_bar'] = 'Visualisierung der Bewertungsverteilung nach Gruppen anzeigen';
+$string['visual:vis:grades_vs_items'] = 'Visualisierung der Bewertungen vs. Aspekte anzeigen';
+$string['visual:vis:grades_vs_students'] = 'Visualisierung der Bewertungen vs. Teilnehmer/innen anzeigen';
 $string['visualselector'] = 'Darstellung:';
 $string['xlabels'] = 'X-Bezeichnung';
 $string['ylabels'] = 'Y-Bezeichnung';

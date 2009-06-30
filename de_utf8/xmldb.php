@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['actual'] = 'Aktuell';
@@ -87,6 +87,7 @@ $string['keys'] = 'Schlüssel';
 $string['listreservedwords'] = 'Liste von reservierten Wörtern<br/>auf dem aktuellsten Stand: <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a>';
 $string['load'] = 'Laden';
 $string['main_view'] = 'Hauptübersicht';
+$string['masterprimaryuniqueordernomatch'] = 'Die Felder des externen (foreign) Schlüssels müssen in der gleichen Reihenfolge wie sie als UNIQUE KEY or in der Referenztabelle eingetragen sind.';
 $string['missing'] = 'Fehlend';
 $string['missingfieldsinsentence'] = 'Fehlende Felder in Satz';
 $string['missingindexes'] = 'Fehlende Indizes gefunden';
@@ -104,6 +105,7 @@ $string['newsentence'] = 'Neuer Satz';
 $string['newstatement'] = 'Neue Anweisung';
 $string['newtable'] = 'Neue Tabelle';
 $string['newtablefrommysql'] = 'Neue Tabelle aus MySQL';
+$string['nomasterprimaryuniquefound'] = 'Die Spalte(n) mit Ihren externen Schlüsselverweisen müssen in einem primary oder unique KEY in der verknüpften Tabelle enthalten sein. Beachten Sie, dass eine Spalte in einem UNIQUE INDEX nicht ausreicht.';
 $string['nomissingindexesfound'] = 'Es wurden keine fehlenden Indizes gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
 $string['noviolatedforeignkeysfound'] = 'Keine zerstörten Fremdschlüssel gefunden.';
 $string['nowrongdefaultsfound'] = 'Es wurden keine inkonsistenten Defaultwerte gefunden. die Datenbank benötigt keine weiter Bearbeitung.';

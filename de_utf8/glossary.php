@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['addcomment'] = 'Kommentar einfügen';
@@ -15,7 +15,6 @@ $string['allowprintview'] = 'Druckfunktion';
 $string['allowratings'] = 'Bewertung von Einträgen';
 $string['answer'] = 'Antwort';
 $string['approve'] = 'Freigeben';
-$string['areaintro'] = 'Einleitung zum Glossar';
 $string['areyousuredelete'] = 'Sind Sie sicher, dass Sie diesen Eintrag löschen wollen?';
 $string['areyousuredeletecomment'] = 'Sind Sie sicher, dass Sie diesen Kommentar löschen wollen?';
 $string['areyousureexport'] = 'Sind Sie sicher, dass Sie diesen Eintrag exportieren wollen?';
@@ -26,10 +25,8 @@ $string['authorview'] = 'Anzeige nach Autor/in';
 $string['back'] = 'Zurück';
 $string['cantexportentry'] = 'Der Eintrag konnte nicht in das Hauptglossar exportiert werden';
 $string['cantinsertcat'] = 'Kategorie kann nicht angelegt werden';
-$string['cantinsertent'] = 'Dieser neue Eintrag konnte nicht eingefügt werden';
 $string['cantinsertrec'] = 'Eintrag kann nicht angelegt werden';
 $string['cantinsertrel'] = 'Verbindung zur Kategorie kann nicht angelegt werden.';
-$string['cantupdateglossary'] = 'Ihr Glossar konnte nicht aktualisiert werden';
 $string['casesensitive'] = 'Groß-/Kleinschreibung berücksichtigen';
 $string['cat'] = 'Kategorie';
 $string['categories'] = 'Kategorien';
@@ -150,6 +147,7 @@ $string['importentriesfromxml'] = 'Einträge aus XML-Datei importieren';
 $string['includegroupbreaks'] = 'Gruppentrennung einbeziehen';
 $string['invalidglossaryformat'] = 'Unzulässiges Glossar-Format';
 $string['invalidid'] = 'Falsche Glossar-ID';
+$string['invalidrate'] = 'Ungültige Bewertung in Glossar ($a)';
 $string['isglobal'] = 'Globales Glossar';
 $string['letter'] = 'Buchstabe';
 $string['linkcategory'] = 'Kategorie automatisch verlinken';
@@ -213,5 +211,8 @@ $string['withauthor'] = 'Einträge mit Autorennennung';
 $string['withoutauthor'] = 'Einträge ohne Autorennennung';
 $string['writtenby'] = 'von';
 $string['youarenottheauthor'] = 'Sie sind nicht Autor/in dieses Kommentars und deshalb nicht berechtigt, diesen Kommentar zu bearbeiten.';
+$string['areaintro'] = 'Einleitung zum Glossar'; // ORPHANED
+$string['cantinsertent'] = 'Dieser neue Eintrag konnte nicht eingefügt werden'; // ORPHANED
+$string['cantupdateglossary'] = 'Ihr Glossar konnte nicht aktualisiert werden'; // ORPHANED
 
 ?>

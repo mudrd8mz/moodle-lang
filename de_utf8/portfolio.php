@@ -1,16 +1,16 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['activeexport'] = 'Aktiven Export abbrechen';
 $string['activeportfolios'] = 'Aktive Portfolios';
-$string['addalltoportfolio'] = 'Alle speichern...';
+$string['addalltoportfolio'] = 'Alles speichern...';
 $string['addnewportfolio'] = 'Neues Portfolio hinzufügen';
 $string['addtoportfolio'] = 'Speichern...';
-$string['alreadyalt'] = 'Export läuft gerade - anklicken, um abzubrechen';
-$string['alreadyexporting'] = 'Derzeit wird eine Portfolioexport ausgeführt. Bevor Sie fortsetzen, muss dieser abgeschlossen oder abgebrochen werden. Sol er fortgesetzt werden? (Nein, bricht ihn ab)';
+$string['alreadyalt'] = 'Export läuft - zum Abbrechen bitte hier klicken';
+$string['alreadyexporting'] = 'Ein Portfolio-Export wird gerade ausgeführt. Bevor Sie weiterarbeiten können, muss dieser Export erst abgeschlossen oder abgebrochen werden. Soll der Export fortgesetzt werden? (Zum Abbrechen \'Nein\' anklicken)';
 $string['availableformats'] = 'Mögliche Export-Formate';
-$string['callercouldnotpackage'] = 'Fehler beim Packen der Daten für den Export. Fehler: $a';
+$string['callercouldnotpackage'] = 'Fehler beim Packen Ihrer Export-Daten: $a';
 $string['cannotsetvisible'] = 'Kann nicht auf sichtbar gesetzt werden. Plugin wurde vollständig deaktiviert, da eine Fehlkonfiguration entdeckt wurde.';
 $string['configexport'] = 'Exportierte Daten konfigurieren';
 $string['configplugin'] = 'Portfolio-Plugin konfigurieren';
@@ -20,21 +20,25 @@ $string['confirmsummary'] = 'Zusammenfassung Ihres Exports';
 $string['continuetoportfolio'] = 'Am Portfolio weiterarbeiten';
 $string['deleteportfolio'] = 'Portfolio-Instanz löschen';
 $string['destination'] = 'Ziel';
-$string['disabled'] = 'Entschuldigung, aber Der Portfolio-Export ist für diese Website nicht aktiviert';
+$string['disabled'] = 'Entschuldigung, aber der Portfolio-Export ist für diese Website nicht aktiviert';
 $string['displayarea'] = 'Export-Bereich';
+$string['displayexpiry'] = 'Zeitbegrenzung für die Übertragung';
 $string['displayinfo'] = 'Export-Information';
 $string['dontwait'] = 'Nicht warten';
 $string['enabled'] = 'Portfolios aktivieren';
-$string['enableddesc'] = 'Erlaubt Admins die Konfiguration des Remote-Systems für den Export von Content durch Nutzer nach';
+$string['enableddesc'] = 'Dies erlaubt Admins die Konfiguration von Remote-Systemen, damit Nutzer/innen ihre Inhalte dorthin exportieren können';
 $string['err_uniquename'] = 'Der Portfolio-Name muss eindeutig sein (per Plugin)';
 $string['exportcomplete'] = 'Portfolio-Export beendet!';
 $string['exportedpreviously'] = 'Vorherige Exporte';
+$string['exportexceptionnoexporter'] = 'Eine portfolio_export_exception wurde in einer aktiven Session ohne Exportobjekt erstellt.';
+$string['exportexpired'] = 'Zeitbegrenzung beim Portfolio-Export überschritten';
+$string['exportexpireddesc'] = 'Sie haben versucht, den Export von Daten zu wiederholen oder einen leeren Export zu starten. Versuchen Sie bitte, die Originaldaten noch einmal zu exportieren. Dieser Fehler kann auftreten, wenn Sie nach einem beendeten Export auf den Zurück-Button klicken oder eine falsche URL gespeichert wurde.';
 $string['exporting'] = 'In ein Portfolio exportieren';
 $string['exportingcontentfrom'] = 'Inhalte aus $a exportieren';
-$string['exportqueued'] = 'Der Portfolio-Export wurde erfolgreich für die Übertragung bereitgestellt.';
-$string['exportqueuedforced'] = 'Der Portfolio-Export wurde erfolgreich für die Übertragung bereitgestellt. (Das andere System erwartet die Übertragungen nacheinander.)';
-$string['failedtopackage'] = 'Dateien zum Packen nicht gefunden';
-$string['failedtosendpackage'] = 'Fehler beim Senden Ihrer Daten an das gewählte Portfolio-System';
+$string['exportqueued'] = 'Der Portfolio-Export wurde erfolgreich zur Übertragung bereitgestellt';
+$string['exportqueuedforced'] = 'Der Portfolio-Export wurde erfolgreich zur Übertragung bereitgestellt. (Das andere System arbeitet die Übertragungen nacheinander ab)';
+$string['failedtopackage'] = 'Keine Dateien zum Packen gefunden';
+$string['failedtosendpackage'] = 'Fehler beim Senden Ihrer Daten an das gewählte Portfolio-System: \'$a\'';
 $string['filedenied'] = 'Kein Zugriff zu dieser Datei';
 $string['filenotfound'] = 'Datei nicht gefunden';
 $string['format_file'] = 'Datei';
@@ -45,9 +49,33 @@ $string['format_richhtml'] = 'HTML mit Anhängen';
 $string['format_text'] = 'Unformatierter Text';
 $string['format_video'] = 'Video';
 $string['hidden'] = 'Verborgen';
-$string['insanesubject'] = 'Einige Portfolio-Instanzen automatisch deaktiviert.';
+$string['highdbsizethreshold'] = 'Oberer Wert für Datensätze';
+$string['highdbsizethresholddesc'] = 'Anzahl der Datensätze, oberhalb der eine sehr lange Übertragungszeit eingeplant werden muss';
+$string['highfilesizethreshold'] = 'Oberer Wert für Dateigrößen';
+$string['highfilesizethresholddesc'] = 'Dateigröße, oberhalb der eine sehr lange Übertragungszeit eingeplant werden muss';
+$string['insanebody'] = 'Guten Tag,<br /> 
+Sie erhalten diese Nachricht als Administrator von $a->sitename.<br />
+Einige Portfolioplugin Instanzen wurden wegen fehlerhafter Konfiguration deaktiviert. Zur Zeit ist ein Export in diese Systeme durch Nutzer nicht möglich. <br />
+Deaktiviert wurden:<br />
+$a->textlist
+
+Prüfen und korrigieren Sie die Einstellungen alsbald. Zugriff unter
+$a->fixurl.';
+$string['insanebodyhtml'] = '<p>Guten Tag,</p>
+<p>Sie erhalten diese Nachricht als Administrator von $a->sitename.</p>
+$a->htmllist
+<p>Prüfen und korrigieren Sie die Einstellungen alsbald. Zugriff in der 
+<a href=\"$a->fixurl\"> Portfoliokonfiguration</a></p>.';
+$string['insanebodysmall'] = 'Guten Tag,
+
+Sie erhalten diese Nachricht als Administrator von $a->sitename.<br />
+Einige Portfolioplugin Instanzen wurden wegen fehlerhafter Konfiguration deaktiviert. Zur Zeit ist ein Export in diese Systeme durch Nutzer nicht möglich. <br />
+
+Prüfen und korrigieren Sie die Einstellungen alsbald. Zugriff unter
+$a->fixurl.';
+$string['insanesubject'] = 'Einige Portfolio-Instanzen wurden automatisch deaktiviert';
 $string['instancedeleted'] = 'Portfolio erfolgreich gelöscht';
-$string['instanceismisconfigured'] = 'Portfolioinstanz fehlkonfiguriert. Übersprungen. Fehler: $a';
+$string['instanceismisconfigured'] = 'Fehler in der Konfiguration der Portfolio-Instanz: $a';
 $string['instancenotdelete'] = 'Löschen des Portfolios fehlgeschlagen';
 $string['instancenotsaved'] = 'Speichern des Portfolios fehlgeschlagen';
 $string['instancesaved'] = 'Portfolio erfolgreich gespeichert';
@@ -63,16 +91,21 @@ $string['logs'] = 'Transfer Logs';
 $string['logsummary'] = 'Frühere erfolgreiche Transfers';
 $string['manageportfolios'] = 'Portfolios verwalten';
 $string['manageyourportfolios'] = 'Ihre Portfolios verwalten';
+$string['missingcallbackarg'] = 'Fehlendes Rücksprung-Argument $a->arg in $a->class';
+$string['moderatedbsizethreshold'] = 'Mittlerer Wert für Datensätze';
+$string['moderatedbsizethresholddesc'] = 'Anzahl der Datensätze, oberhalb der eine mittlere Übertragungszeit in Betracht gezogen werden muss';
+$string['moderatefilesizethreshold'] = 'Oberer Wert für Dateigrößen';
+$string['moderatefilesizethresholddesc'] = 'Dateigröße, oberhalb der eine mittlere Übertragungszeit eingeplant werden muss';
 $string['noavailableplugins'] = 'Entschuldigung, aber es gibt keine verfügbaren Portfolios, in die Sie exportieren könnten';
-$string['nopermissions'] = 'Entschuldigung, aber Sie besitzen nicht die nötigen Rechte, um Dateien aus diesem Bereich zu exportieren.';
+$string['nopermissions'] = 'Entschuldigung, aber Sie besitzen nicht die nötigen Rechte, um Dateien aus diesem Bereich zu exportieren';
 $string['notexportable'] = 'Entschuldigung, aber der Datentyp, den Sie gerade versuchen zu exportieren, lässt dies nicht zu';
 $string['notimplemented'] = 'Entschuldigung, aber Sie versuchen Daten in einem Format zu exportieren, das bisher noch nicht implementiert ist ($a)';
 $string['notyetselected'] = 'Nichts ausgewählt';
-$string['notyours'] = 'Sie versuchen einen Portfolioexpoprt fortzusetzen, der Ihnen nicht gehört.';
-$string['nouploaddirectory'] = 'Das temporäre Verzeichnis zum Sammeln Ihrer Daten konnte nicht angelegt werden.';
+$string['notyours'] = 'Sie versuchen einen Portfolio-Export fortzusetzen, der Ihnen aber nicht gehört!';
+$string['nouploaddirectory'] = 'Das temporäre Verzeichnis zum Sammeln Ihrer Daten konnte nicht angelegt werden';
 $string['plugin'] = 'Portfolio-Plugin';
 $string['plugincouldnotpackage'] = 'Fehler beim Packen Ihrer Exportdaten: $a';
-$string['pluginismisconfigured'] = 'Portfolio-Plugin ist falsch konfiguriert und wird übersprungen. Fehler: $a';
+$string['pluginismisconfigured'] = 'Fehler in der Konfiguration des Portfolio-Plugins: $a';
 $string['portfolio'] = 'Portfolio';
 $string['portfolios'] = 'Portfolios';
 $string['queuesummary'] = 'Aktuell wartende Transfers';
@@ -86,7 +119,7 @@ $string['transfertime'] = 'Übertragungszeit';
 $string['unknownplugin'] = 'Unbekannt (u.U. von Admin inzwischen entfernt)';
 $string['wait'] = 'Warten';
 $string['wanttowait_high'] = 'Es ist nicht empfehlenswert abzuwarten, bis der Transfer angeschlossen ist. Sie können es jedoch tun, wenn Sie wissen was Sie tun.';
-$string['wanttowait_moderate'] = 'Möchten Sie auf diese Übertragung warten? Es könnte ein paar Minuten dauern';
+$string['wanttowait_moderate'] = 'Möchten Sie auf das Ende dieser Übertragung warten? Dies könnte noch ein paar Minuten dauern...';
 $string['format_html'] = 'HTML'; // ORPHANED
 
 ?>
