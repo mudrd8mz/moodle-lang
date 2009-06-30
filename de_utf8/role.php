@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // role.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['addinganewrole'] = 'Neue Rolle wird hinzugefügt';
@@ -64,7 +64,7 @@ $string['course:managescales'] = 'Bewertungskalen verwalten';
 $string['course:request'] = 'Neue Kurse beantragen';
 $string['course:reset'] = 'Kurs zurücksetzen';
 $string['course:sectionvisibility'] = 'Abschnitte anzeigen / verbergen';
-$string['course:setcurrentsection'] = 'Aktuellen Kursabschnitt setzen';
+$string['course:setcurrentsection'] = 'Kursabschnitt als \'aktuell\' markieren';
 $string['course:update'] = 'Kurseinstellungen aktualisieren';
 $string['course:useremail'] = 'E-Mail-Adresse ein-/ausschalten';
 $string['course:view'] = 'Kurse sehen';
@@ -106,6 +106,7 @@ $string['explainpermissionsinfo'] = '<p>Hinweise zur Nutzung dieser Tabelle:</p>
 $string['explanation'] = 'Erklärung';
 $string['extusers'] = 'Existierende Nutzer/innen';
 $string['extusersmatching'] = 'Existierende Nutzer/innen, die zu \'$a\' passen';
+$string['filter:manage'] = 'Lokale Filterinstellungen verwalten';
 $string['globalrole'] = 'Systemweite Rolle';
 $string['globalroleswarning'] = 'ACHTUNG! Jede von dieser Seite aus zugewiesene Rolle wird für die gesamte Website angelegt. Die jeweiligen Nutzer/innen besitzen ihre Rollerechte dann wirklich für alle Kurse und auch für die Startseite.';
 $string['gotoassignroles'] = 'Gehe zu Rollen zuweisen für $a->contextlevel';
@@ -257,7 +258,7 @@ $string['usersinthisx'] = 'Nutzer in diesem $a';
 $string['usersinthisxmatching'] = 'Nutzer in diesem $a->contexttype passen zur Suche \'$a->search\'.';
 $string['userswithrole'] = 'Alle Nutzer/innen mit Rollenzuordnung';
 $string['userswiththisrole'] = 'Nutzer/innen mit einer Rolle';
-$string['useshowadvancedtochange'] = 'Verwenden der erweiterten Suche für Änderungen';
+$string['useshowadvancedtochange'] = '\'Zusätzliche Felder anzeigen\', <br />um Änderungen duchzuführen';
 $string['viewingdefinitionofrolex'] = 'Definition der Rolle \'$a\' anzeigen';
 $string['viewrole'] = 'Rollendetails sehen';
 $string['whydoesuserhavecap'] = 'Warum hat $a->fullname die Berechtigung $a->capability im Kontext $a->context ?';

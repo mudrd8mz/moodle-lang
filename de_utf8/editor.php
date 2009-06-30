@@ -1,14 +1,15 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 Beta + (2007021401)
+      // editor.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
 
 
 $string['about'] = 'Über diesen Editor';
 $string['absbottom'] = 'Unten ausrichten';
+$string['acteditorshhdr'] = 'Aktive Texteditoren';
 $string['address'] = 'Adresse';
 $string['alertnoselectedtext'] = 'Markieren Sie erst den Text!';
 $string['alignment'] = 'Anordnung';
 $string['alternatetext'] = 'Alternativer Text';
-$string['anchorhelp'] = 'Hiermit erstellen Sie nur einen Anker. Zusätzlich müssen Sie einen Link manuell erstellen.';
+$string['anchorhelp'] = 'Hiermit erstellen Sie nur einen Anker. Zusätzlich müssen Sie manuell einen Link  erstellen.';
 $string['anchorname'] = 'Name des Ankers';
 $string['anchors'] = 'Anker';
 $string['baseline'] = 'Grundlinie';
@@ -24,6 +25,7 @@ $string['chooseicon'] = 'Icon zum Einfügen auswählen';
 $string['close'] = 'Schließen';
 $string['closeafterreplace'] = 'Nach dem Ersetzen schließen';
 $string['cols'] = 'Spalten';
+$string['configeditorplugins'] = 'Bitte wählen Sie die Editor-Plugins, die Sie benutzen möchten, und ordnen Sie sie in der empfohlenen Reihenfolge.';
 $string['copy'] = 'Auswahl kopieren';
 $string['createanchor'] = 'Anker erstellen';
 $string['createfolder'] = 'Ordner erstellen';
@@ -31,6 +33,8 @@ $string['createlink'] = 'Link einfügen';
 $string['cut'] = 'Auswahl ausschneiden';
 $string['cutpastemozilla'] = 'Leider können Sie mit diesem Editor die gewohnten Tastatur-Shortcuts zum Einfügen von Texten nicht nutzen. Hintergrund ist eine Sicherheitsfunktion in einigen Versionen von Mozilla und Firefox.<br /><br />Sie haben drei Möglichkeiten, die Sie probieren können: <br /> (1) An Stelle von Strg-V verwenden Sie SHIFT-Einfg <br /> (2) Nutzen Sie das Menü mit Bearbeiten -> Einfügen <br /> (3) Verändern Sie die Einstellungen des Browsers in der Datei user.js. <br /><br />Mit dem \"OK\"-Button finden Sie weitere Informationen, mit dem Button \"Abbrechen\" gehen Sie zum Editor zurück.';
 $string['delete'] = 'Löschen';
+$string['editors'] = 'Texteditoren';
+$string['editorsettings'] = 'Editoren verwalten';
 $string['enterurlfirst'] = 'Sie müssen zuerst eine URL eingeben';
 $string['filebrowser'] = 'Dateibrowser';
 $string['findwhat'] = 'Finden';
@@ -43,7 +47,7 @@ $string['heading'] = 'Überschrift';
 $string['height'] = 'Höhe (Pixel)';
 $string['hilitecolor'] = 'Hintergrundfarbe';
 $string['horizontal'] = 'Horizontal';
-$string['horizontalrule'] = 'Horizontale Linie';
+$string['horizontalrule'] = 'Trennlinie';
 $string['htmlmode'] = 'HTML-Modus ein/aus';
 $string['imageurl'] = 'URL zum Bild';
 $string['indent'] = 'Einzug vergrößern';
@@ -72,7 +76,7 @@ $string['linktargettop'] = 'Gleiches Fenster';
 $string['linktitle'] = 'Titel';
 $string['linkurl'] = 'URL';
 $string['matchcase'] = 'Groß-/Kleinschreibung vergleichen';
-$string['middle'] = 'Mitte';
+$string['middle'] = 'Mittig';
 $string['minimize'] = 'Fenster verkleinern';
 $string['move'] = 'Bewegen';
 $string['multi'] = 'Mehrfach';
