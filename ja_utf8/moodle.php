@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090619) (2009061706)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1159,6 +1159,7 @@ $string['outline'] = 'アウトライン';
 $string['outlinereport'] = 'アウトラインレポート';
 $string['page'] = 'ページ';
 $string['pageheaderconfigablock'] = '%%fullname%% 内のブロック設定';
+$string['pageshouldredirect'] = 'このページは、自動的にリダイレクトされます。何も起こらない場合、下記の「続ける」リンクをクリックしてください。';
 $string['parentcategory'] = '親カテゴリ';
 $string['parentcoursenotfound'] = '親コースが見つかりませんでした!';
 $string['parentcoursenotmetacourse'] = '親コースはメタコースではありません!';

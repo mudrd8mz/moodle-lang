@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090619) (2009061706)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -17,6 +17,7 @@ $string['allowediplist'] = '許可されたIPアドレスリスト';
 $string['allowemailaddresses'] = '許可されるメールアドレスのドメイン';
 $string['allowobjectembed'] = 'EMBEDおよびOBJECTタグを許可する';
 $string['allowrenames'] = 'リネームを許可する';
+$string['allowthemechangeonurl'] = 'テーマ変更URIを許可する';
 $string['allowuserblockhiding'] = 'ユーザのブロック非表示を許可する';
 $string['allowusermailcharset'] = 'ユーザの文字セット選択を許可する';
 $string['allowuserswitchrolestheycantassign'] = '「ユーザにロールを割り当てる」ケイパビリティのないユーザにロールの切り替えを許可する';
@@ -89,6 +90,7 @@ $string['configallowobjectembed'] = 'デフォルトのセキュリティ対策�
 $string['configallowoverride'] = 'あなたはロール割り当て済みの左側のユーザに対して、いくつかのロールのオーバーライドを許可することができます。';
 $string['configallowoverride2'] = '左側カラム内のロールがオーバライドできるロールを選択してください。<br />これらの設定は、ケイパビリティ「moodle/role:override」または「moodle/role:safeoverride」を持っているユーザにのみ適用されますので注意してください。';
 $string['configallowswitch'] = 'ユーザが持つロールを基に、どのロールにスイッチできるか選択してください。このテーブルのエントリに加えてロールをスイッチできるようにするには、ユーザがmoodle/role:switchrolesケイパビリティを持つ必要があります。<br />moodle/course:viewケイパビリティを持つロールにのみスイッチすることができるため、このテーブルのいくつかのカラムは無効にされていることに留意してください。';
+$string['configallowthemechangeonurl'] = 'この設定を有効にした場合、MoodleのURIに「theme={themename}&amp;sesskey={sesskey}」を追加することにより、テーマを変更することができます。';
 $string['configallowunenroll'] = 'この設定を「Yes」にした場合、学生はいつでも好きなときにコースから登録抹消することができます。無効にした場合、学生は登録抹消することはできず、参加に関するすべてを教師および管理者がコントロールします。';
 $string['configallowuserblockhiding'] = 'サイト全体において、ユーザにブロックの表示/非表示を許可しますか? 折りたたみ可能なブロックの状態を記憶するため、この機能はJavaスクリプトとクッキーを使用します。また、この設定はユーザ自身の使用にのみ影響します。';
 $string['configallowusermailcharset'] = 'この設定を有効にした場合、サイトの全ユーザは自分のメール文字コードを指定することができます。';
