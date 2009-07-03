@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090617) (2009061600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090702) (2009070100)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -17,6 +17,7 @@ $string['allowediplist'] = 'Elenco degli IP autorizzati';
 $string['allowemailaddresses'] = 'Domini di posta autorizzati';
 $string['allowobjectembed'] = 'Consenti i tag EMBED e OBJECT';
 $string['allowrenames'] = 'Modifica degli username';
+$string['allowthemechangeonurl'] = 'Consenti il cambio del tema tramite URL';
 $string['allowuserblockhiding'] = 'Consenti agli utenti di nascondere i blocchi';
 $string['allowusermailcharset'] = 'Consenti agli utenti di scegliere il set di caratteri';
 $string['allowuserswitchrolestheycantassign'] = 'Consenti agli utenti che non possono attribuire ruoli di cambiare ruolo.';
@@ -89,6 +90,7 @@ $string['configallowobjectembed'] = 'Come misura di sicurezza standard, agli ute
 $string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di modificare i ruoli di ogni colonna';
 $string['configallowoverride2'] = 'Tramite la matrice sottostante potete autorizzare i ruoli elencati nella colonna verticale a sinistra a modificare i ruoli di altri utenti.<br>Si precisa che queste impostazioni avranno effetto solamente per i ruoli che hanno i privilegi moodle/role:override oppure moodle/role:safeoverride.';
 $string['configallowswitch'] = 'E\' possibile selezionare i ruoli che possono \'Cambiare ruolo\', in funzione dei ruoli che già si possiedono. Oltre alla impostazione in questa tabella, un utente  deve anche possedere il privilegio moodle/role:switchroles.<br />Da notare che possono cambiare ruolo solo i ruoli che hanno il privilegio moodle/course:view e che non hanno il privilegio moodle/site:doanything. Per questo motivo alcune colonne nella tabella sono disabilitate.';
+$string['configallowthemechangeonurl'] = 'L\'impostazione consente di cambire il tema postponendo all\'URL di chiamata la seguente sintassi: theme={themename}&amp;sesskey={sesskey}';
 $string['configallowunenroll'] = 'Se impostato su \"Si\", gli studenti saranno autorizzati a revocarsi autonomamente da un corso in qualunque momento. In caso contrario non verranno autorizzati a farlo, demandando a docenti e amministratori questa possibilità .';
 $string['configallowuserblockhiding'] = 'Si desidera permettere agli utenti di mostrare/nascondere i blocchi laterali di tutto il sito? <br>Questa caratteristica utilizza Javascript e i cookies per ricordare lo stato di ogni blocco, e influenza solo la vista personale dell\'utente.';
 $string['configallowusermailcharset'] = 'Abilitando questa opzione, ogni utente sarà in grado di definire il proprio set di caratteri per le email.';

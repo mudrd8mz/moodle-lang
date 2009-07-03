@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090624) (2009061706)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090702) (2009070100)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1592,6 +1592,7 @@ $string['uploadrenamedcollision'] = 'Il file è stato rinominato da $a->oldname 
 $string['uploadserverlimit'] = 'La dimensione del file inviato eccede la dimensione massima impostata per il server';
 $string['uploadthisfile'] = 'Trasferisci questo file';
 $string['uploadusers'] = 'Importa utenti';
+$string['url'] = 'URL';
 $string['used'] = 'In uso';
 $string['usedinnplaces'] = 'Utilizzato in $a posti';
 $string['usemessageform'] = 'o utilizzare il modulo sottostante per spedire un messaggio agli studenti selezionati';

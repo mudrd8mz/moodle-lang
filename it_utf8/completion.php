@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20090617) (2009061600)
+      // completion.php - created with Moodle 2.0 dev (Build: 20090702) (2009070100)
 
 
 $string['activitycompletion'] = 'Completamento attività';
@@ -51,5 +51,6 @@ $string['restoringcompletiondata'] = 'Lettura dello stato di completamento';
 $string['saved'] = 'Salvato';
 $string['unlockcompletion'] = 'Sblocca opzioni di completamento';
 $string['writingcompletiondata'] = 'Scrittura dello stato di completamento';
+$string['yourprogress'] = 'Il tuo stato di avanzamento';
 
 ?>
