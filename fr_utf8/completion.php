@@ -49,5 +49,6 @@ $string['restoringcompletiondata'] = 'Écriture des données de progression';
 $string['saved'] = 'Enregistré';
 $string['unlockcompletion'] = 'Déverrouiller les options de suivi des progrès';
 $string['writingcompletiondata'] = 'Écriture des données de progression';
+$string['yourprogress'] = 'Votre progression';
 
 ?>
