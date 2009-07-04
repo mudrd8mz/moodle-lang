@@ -1,0 +1,5 @@
+<?php
+
+$string['usedgradeitem']='Hindeühikuid';
+
+?>
