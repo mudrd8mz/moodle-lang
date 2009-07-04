@@ -1,6 +1,9 @@
 <?php
 
 $string['addnewnote']='Lisa uus märkus';
+$string['addnewnoteselect']='Vali kasutaja kellele märkus kirjutada';
+$string['bynameondate']='$a->name poolt - $a->date';
+$string['cannotdeletepost']='Viga juhtus postituse kustutamisel';
 $string['content']='Sisu';
 $string['course']='kursus';
 $string['coursenotes']='Kursuse märkused';
@@ -9,7 +12,10 @@ $string['deleteconfirm']='Kustutan selle märkus?';
 $string['deletenotes']='Kustuta kõik märkused';
 $string['editnote']='Redigeeri märkust';
 $string['enablenotes']='Võimalda märkused';
+$string['groupaddnewnote']='Lisa üldine märkus';
+$string['invalidid']='Anti vigane märkuse ID';
 $string['nocontent']='Märkuse sisu ei saa olle tühi';
+$string['nonotes']='Siin ei ole veel sellist tüüpi märkusi';
 $string['nopermissiontodelete']='Sa ei või kustutada seda märkust';
 $string['note']='Märkus';
 $string['notes']='Märkused';

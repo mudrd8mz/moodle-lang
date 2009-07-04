@@ -1,4 +1,5 @@
 <?php
+
 $string['addcontact']='Lisa kontakt';
 $string['addsomecontacts']='Et saata kellelelgi sõnumit, kasuta ülalolevat <a href=\"$a\">otsingu sakki</a>';
 $string['addsomecontactsincoming']='Need sõnumid on inimestelt, kes ei ole sinu kontkatide listis. Et lisada nad oma kontaktidesse, kliki \"Lisa kontakt\" ikooni nimede kõrval.';
@@ -24,13 +25,17 @@ $string['includeblockedusers']='Kaasa arvatud blokeeritud kasutajad';
 $string['incomingcontacts']='Sissetulevad kontaktid ($a)';
 $string['keywords']='Võtmesõnad';
 $string['keywordssearchresults']='Otsingu tulemus: leiti $a sõnumit';
+$string['mailsent']='Sinu teade saadeti e-mailitsi';
 $string['maxmessages']='Maksimaalne sõnumite arv, mida näidatakse arutelude ajaloos.';
 $string['message']='Sõnum';
 $string['messagehistory']='Sõnumite ajalugu';
 $string['messages']='Sõnumid';
 $string['messaging']='Sõnumi saatmine';
+$string['messagingdisabled']='Sõnumivahetus ei ole antud saidil võimaldatud, e-mail saadetakse selle asemel.';
 $string['mycontacts']='Minu kontaktid';
+$string['newonlymsg']='Kuva ainult uued';
 $string['newsearch']='Uus otsing';
+$string['noframesjs']='Versioon ilma raamide ja JavaScriptita';
 $string['nomessages']='Ühtegi sõnumit pole ootel';
 $string['nomessagesfound']='Ühtegi sõnumit ei leitud';
 $string['nosearchresults']='Otsing ei andnud tulemust';
@@ -40,7 +45,7 @@ $string['online']='Onlain';
 $string['onlinecontacts']='Onlain kontaktid ($a)';
 $string['onlyfromme']='Ainult minu poolt saadetud sõnumid';
 $string['onlymycourses']='Ainult minu kursustelt';
-$string['onlytome']='Ainult minule saadetud sõnumid ';
+$string['onlytome']='Ainult minule saadetud sõnumid';
 $string['pagerefreshes']='See leht värskendab ennast automaatselt iga $a sekundi järel.';
 $string['readmessages']='$a loetud sõnumit.';
 $string['removecontact']='Eemalda kontakt';
@@ -50,6 +55,7 @@ $string['searchforperson']='Otsi inimest';
 $string['searchmessages']='Otsi sõnumeid';
 $string['sendmessage']='Saada sõnum';
 $string['sendmessageto']='Saada sõnum $a-le';
+$string['sendmessagetopopup']='Saada teade $a\'le - uus aken';
 $string['settings']='Seaded';
 $string['settingssaved']='Sinu seadistused on salvestatud';
 $string['showmessagewindow']='Kuva automaatselt sõnumiaken, kui mulle tuleb uus sõnum (sinu veebilehitseja ei tohi blokeerida hüpikaknaid)';
@@ -61,7 +67,5 @@ $string['unreadmessages']='$a lugemata sõnumit';
 $string['userisblockingyou']='See kasutaja on sind blokeerinud, sa ei saa talle sõnumeid saata.';
 $string['userisblockingyounoncontact']='See kasutaja võtab vastu sõnumeid ainult oma kontaktide listilt, aga sina ei ole hetkel tema listis.';
 $string['userssearchresults']='Otsingu tulemus: leiti $a kasutajat';
-$string['newonlymsg']='Kuva ainult uued';
-$string['noframesjs']='Versioon ilma raamide ja JavaScriptita';
-$string['sendmessagetopopup']='Saada teade $a\'le - uus aken';
+
 ?>

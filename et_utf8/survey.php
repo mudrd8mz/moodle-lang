@@ -1,4 +1,5 @@
 <?php
+
 $string['actual']='Tegelik';
 $string['actualclass']='Klassi tegelik';
 $string['actualstudent']='$a tegelik';
@@ -150,6 +151,8 @@ Kinnitame, et sinu vastused jäävad konfidentsiaalseks ega mõjuta sinu hinnet.
 Sinu läbimõeldud vastused aitavad meil selle peatüki veebipõhist edastust tulevikus täiustada.
 Palju tänu.';
 $string['collespname']='COLLES (eelistatud)';
+$string['deleteallanswers']='Kustuta kõik küsimustike vastused';
+$string['deleteanalysis']='Kustuta vastuste analüüsid';
 $string['done']='Valmis';
 $string['download']='Lae alla';
 $string['downloadexcel']='Lae andmed alla Exceli tabeli kujul';
@@ -179,6 +182,7 @@ $string['question']='Küsimus';
 $string['questions']='Küsimused';
 $string['questionsnotanswered']='Osad valikvastustega küsimused on vastamata.';
 $string['report']='Küsimustiku aruanne';
+$string['responses']='Vastused';
 $string['savednotes']='Sinu märkused on salvestatud';
 $string['scaleagree5']='Olen täiesti vastu, Olen kuigivõrd vastu; Pole ei poolt ega vastu, Olen kuigivõrd poolt, Olen täiesti poolt';
 $string['scales']='Skaalad';
@@ -190,10 +194,12 @@ $string['survey:download']='Laadida alla vastuseid';
 $string['survey:participate']='Vastata küsitlusele';
 $string['survey:readresponses']='Vaadata vastuseid';
 $string['surveycompleted']='Oled küsimustiku lõpetanud. Allolev graafik kujutab sinu tulemuste võrdlust klassi keskmisega.';
+$string['surveygraph']='Küsimustiku graafik';
 $string['surveyname']='Küsimustiku nimi';
 $string['surveysaved']='Küsimustik salvestatud';
 $string['surveytype']='Küsimustiku tüüp';
 $string['thanksforanswers']='Täname küsimustikule vastamast, $a';
 $string['time']='Aeg';
 $string['viewsurveyresponses']='Vaata $a küsimustiku vastust';
+
 ?>
