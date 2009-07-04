@@ -1,4 +1,8 @@
 <?php
+
+$string['adminacceptccs']='Milliseid krediitkaartide tüüpe sa aktsepteerid?';
+$string['adminaccepts']='Vali lubatud maksmise meetodid ja nende tüübid';
+$string['adminauthorizewide']='Üldised seaded';
 $string['anlogin']='Authorize.net: kasutajanimi';
 $string['anpassword']='Authorize.net: salasõna';
 $string['anreferer']='Määra URL viit, juhul kui sa oled selle  oma authorize.net kontole seadnud. See saadab veebipäringus rea \"Viit: URL\".';
@@ -55,6 +59,8 @@ $string['reason28']='Kaupmees ei aktseptinud seda tüüpi krediitkaarti.';
 $string['sendpaymentbutton']='Saada makse';
 $string['tested']='Testitud';
 $string['testmode']='[TESTIMISE LAAD]';
+$string['uploadcsv']='Laadi üles CSV-fail';
 $string['youcantdo']='Sa ei saa teha tegevust: $a->action';
 $string['zipcode']='Postikood';
+
 ?>
