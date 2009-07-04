@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090619) (2009061706)
+      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
 
 
 $string['all'] = 'すべて';
@@ -17,7 +17,7 @@ $string['creativecommonscommercial'] = 'クリエイティブ・コモンズ商�
 $string['emailaddress'] = 'メールアドレス';
 $string['fulltext'] = 'フルテキスト';
 $string['information'] = 'あなたのMoodleサイトに<a href=\"http://www.flickr.com/services/api/keys/\">Flickr APIキー</a>を取得してください。';
-$string['invalidemail'] = '無効なFlickrメールアドレスです。';
+$string['invalidemail'] = '無効なFlickrメールアカウントです。';
 $string['license'] = 'ライセンス';
 $string['modification'] = 'あなたの作品の修正を許可しますか?';
 $string['notitle'] = 'タイトルなし';
@@ -29,5 +29,6 @@ $string['secret'] = 'シークレット';
 $string['sharealike'] = 'はい、他のユーザが同様に共有する限り';
 $string['tag'] = 'タグ';
 $string['username'] = 'Flickrアカウントメール';
+$string['watermark'] = 'ダウンロードされた写真にウォーターマーク (作者IDおよびオリジナルURI) を追加する';
 
 ?>

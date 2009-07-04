@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090619) (2009061706)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
 
 
 $string['accessiblefilepicker'] = 'アクセス可能なファイルピッカ';
@@ -44,6 +44,7 @@ $string['deleterepository'] = 'このリポジトリを削除する';
 $string['download'] = 'ダウンロード';
 $string['downloadsucc'] = 'ファイルが正常にダウンロードされました。';
 $string['editrepositoryinstance'] = 'リポジトリインスタンスを編集する';
+$string['emptylist'] = '空の結果';
 $string['emptytype'] = 'リポジトリタイプを作成できません: タイプ名が空白です。';
 $string['enablecourseinstances'] = '教師によるファイルピッカへのリポジトリインスタンス追加を許可する';
 $string['enableuserinstances'] = 'ユーザによるファイルピッカへのリポジトリインスタンス追加を許可する';
