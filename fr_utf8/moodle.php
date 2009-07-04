@@ -1578,6 +1578,7 @@ $string['uploadrenamedcollision'] = 'Le nom du fichier a été changé de $a->ol
 $string['uploadserverlimit'] = 'La taille du fichier déposé dépasse la taille maximale fixée par le serveur';
 $string['uploadthisfile'] = 'Déposer ce fichier';
 $string['uploadusers'] = 'Importation d\'utilisateurs';
+$string['url'] = 'URL';
 $string['used'] = 'Utilisé';
 $string['usedinnplaces'] = 'Utilisé à $a endroits';
 $string['usemessageform'] = 'ou utiliser le formulaire ci-dessous pour envoyer un message aux étudiants sélectionnés';
