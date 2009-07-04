@@ -1142,6 +1142,7 @@ $string['outline'] = 'Résumé';
 $string['outlinereport'] = 'Rapport résumé';
 $string['page'] = 'Page';
 $string['pageheaderconfigablock'] = 'Configuration d\'un bloc dans %%fullname%%';
+$string['pageshouldredirect'] = 'Cette page va vous rediriger automatiquement. Si cela n\'arrive pas, veuillez utiliser le lien Continuer ci-dessous.';
 $string['parentcategory'] = 'Catégorie supérieure';
 $string['parentcoursenotfound'] = 'Le cours parent n\'a pas été trouvé !';
 $string['parentcoursenotmetacourse'] = 'Le cours parent n\'est pas un méta-cours !';
