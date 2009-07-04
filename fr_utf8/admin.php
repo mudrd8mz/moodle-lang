@@ -16,6 +16,7 @@ $string['allowbeforeblockdesc'] = 'Par défaut, la listes des adresses IP bloqu�
 $string['allowemailaddresses'] = 'Domaines courriel autorisés';
 $string['allowobjectembed'] = 'Autoriser les balises EMBED et OBJECT';
 $string['allowrenames'] = 'Autoriser le changement des noms';
+$string['allowthemechangeonurl'] = 'Autoriser le changement du thème dans l\'URL';
 $string['allowuserblockhiding'] = 'Autoriser les utilisateurs à cacher les blocs';
 $string['allowusermailcharset'] = 'Autoriser les utilisateurs à choisir un jeu de caractères';
 $string['allowuserswitchrolestheycantassign'] = 'Autoriser les utilisateurs à basculer vers des rôles qu\'ils ne peuvent pas attribuer';
@@ -86,6 +87,7 @@ $string['configallowobjectembed'] = 'Par mesure de sécurité, les utilisateurs 
 $string['configallowoverride'] = 'Vous pouvez permettre aux utilisateurs ayant un rôle de la colonne de gauche de définir pour d\'autres utilisateurs des dérogations aux rôles de chaque colonne';
 $string['configallowoverride2'] = 'Sélectionnez les rôles pour lesquels les rôles de la colonne de gauche peuvent définir des dérogations.<br />Ce réglage ne s\'applique qu\'aux utilisateurs possédant la capacité moodle/role:override ou la capacité moodle/role:safeoverride.';
 $string['configallowswitch'] = 'Sélectionnez les rôles vers lesquels un utilisateur pourra changer de rôle, sur la base des rôles qu\'il possède déjà. En plus d\'une indication dans ce tableau, l\'utilisateur doit également avoir la capacité moodle/role:switchroles pour pouvoir changer de rôle.<br />Il n\'est possible de changer de rôle que vers des rôles ayant la capacité moodle/course:view et n\'ayant pas la capacité moodle/site:doanything. C\'est pourquoi certaines colonnes de ce tableau sont inactives.';
+$string['configallowthemechangeonurl'] = 'Si vous activez ce réglage, le thème pourra être changé en ajoutant « theme={themename}&amp;sesskey={sesskey} » aux URL de Moodle.';
 $string['configallowunenroll'] = 'Si vous choisissez « Oui », les étudiants pourront se désinscrire eux-mêmes des cours. Dans le cas contraire, ils ne le peuvent pas, et ce processus sera contrôlé par les enseignants et les administrateurs.';
 $string['configallowuserblockhiding'] = 'Voulez-vous autoriser les utilisateurs à cacher/afficher les blocs latéraux de ce site ? Cette fonctionnalité utilise Javascript et les cookies pour se souvenir de l\'état d\'affichage de chaque bloc. Elle n\'affecte que l\'affichage du site pour l\'utilisateur.';
 $string['configallowusermailcharset'] = 'L\'activation de cette option permettra à chaque utilisateur du site de spécifier son propre encodage des messages par courriel.';
