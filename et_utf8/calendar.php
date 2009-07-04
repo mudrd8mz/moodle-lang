@@ -1,7 +1,7 @@
-<?PHP // $Id$ 
-      // calendar.php - created with Moodle 2.0 dev (Build: 20090426) (2009041700)
+<?php
 
 $string['advancedoptions']='Erivalikud';
+$string['allday']='Iga päev';
 $string['calendar']='Kalender';
 $string['calendarheading']='$a kalender';
 $string['clickhide']='peida';
@@ -56,6 +56,7 @@ $string['exportcalendar']='Ekspordi kalender';
 $string['fri']='R';
 $string['friday']='Reede';
 $string['generateurlbutton']='Saa kalendri URL';
+$string['global']='Globaalne';
 $string['globalevent']='Globaalne sündmus';
 $string['globalevents']='Õpikeskkonna sündmused';
 $string['gotocalendar']='Mine kalendrisse';

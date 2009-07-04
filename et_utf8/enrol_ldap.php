@@ -25,6 +25,7 @@ $string['enrol_ldap_host_url']='Täpsusta LDAP host URL formaadis, näiteks
 või \'ldaps://ldap.myorg.com/\'';
 $string['enrol_ldap_memberattribute']='LDAP\'i liikmete atribuut';
 $string['enrol_ldap_objectclass']='objectClass, mida kasutatakse kursuste otsimiseks. Tavaliselt \'posixGroup\'.';
+$string['enrol_ldap_roles']='Rolli sidumine';
 $string['enrol_ldap_search_sub']='Otsi gruppide liikmeid alamkontekstidest';
 $string['enrol_ldap_server_settings']='LDAP serveri seaded';
 $string['enrol_ldap_student_contexts']='Kontekstide nimekiri, kus asuvad õppijate registreerumistega grupid . Eralda erinevad kontekstid \';\' märgiga. Näiteks \'ou=courses,o=org;ou=others,o=org\'';

@@ -1,4 +1,5 @@
 <?php
+$string['addingtruefalse']='Tõde/väär küsimuse lisamine';
 $string['correctanswer']='Õige vastus';
 $string['editingtruefalse']='Muuda küsimust Õige/Väär';
 $string['false']='Väär';

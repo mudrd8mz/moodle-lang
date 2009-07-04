@@ -186,6 +186,7 @@ $string['parent']='Näita algatajat';
 $string['parentofthispost']='Selle postituse algataja';
 $string['postadded']='Teie postitus lisati edukalt.<br />Teil on soovi korral $a selle muutmiseks.';
 $string['postaddedsuccess']='Sinu postitus on edukalt lisatud.';
+$string['postaddedtimeleft']='Sul on aega $a redigeerida seda, kui soovid teha mingeid muudatusi.';
 $string['postincontext']='Vaata seda postitust kontekstis';
 $string['postmailinfo']='See on koopia sõnumist, mis postitati $a õpikeskkonnas. Kui soovite vastata, siis klikkige sellel lingil:';
 $string['postmailnow']='<p>See postitus e-mailitakse koheselt kõikidele foorumiga liikunutele.</p>';
@@ -280,5 +281,15 @@ $string['youratedthis']='Te hindasite seda';
 $string['yournewquestion']='Teie uus küsimus';
 $string['yournewtopic']='Teie uus aruteluteema';
 $string['yourreply']='Teie vastus';
+$string['attachments']='Manused'; // ORPHANED
+$string['cannotdeletepost']='Sa ei saa kustutada seda postitust'; // ORPHANED
+$string['cannoteditposts']='Sa ei saa redigeerida teiste kasutajate postitusi!'; // ORPHANED
+$string['cannotmovenotvisible']='Foorum pole nähtav'; // ORPHANED
+$string['errorwhiledelete']='Kirje kustutamise tekkis viga.'; // ORPHANED
+$string['invalidforumid']='Foorumi ID oli vigane'; // ORPHANED
+$string['maxattachments']='Maksimaalselt manuseid'; // ORPHANED
+$string['noattachments']='Sellel postitusel ei ole manuseid'; // ORPHANED
+$string['noresult']='Postituse $a kohta'; // ORPHANED
+$string['notinstalled']='Foorumi moodul ei ole installeeritud'; // ORPHANED
 
 ?>

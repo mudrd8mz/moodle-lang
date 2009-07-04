@@ -1,5 +1,4 @@
-<?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20090426) (2009041700)
+<?php
 
 $string['addfilter']='Lisa filter';
 $string['anycategory']='iga rubriik';
@@ -9,6 +8,7 @@ $string['anyrole']='iga roll';
 $string['anyvalue']='iga väärtus';
 $string['contains']='sisaldab';
 $string['content']='Sisu';
+$string['courserolelabelerror']='$a->label viga: kursus $a->coursename ei eksisteeri';
 $string['datelabelisafter']='$a->label on enne $a->after';
 $string['datelabelisbefore']='$a->label on enne $a->before';
 $string['datelabelisbetween']='$a->label on $a->after ja $a->before vahel';
@@ -16,9 +16,11 @@ $string['defaultx']='Vaikimisi ($a)';
 $string['disabled']='Mitte võimaldatud';
 $string['doesnotcontain']='ei sisalda';
 $string['endswith']='lõpeb millega';
+$string['firstaccess']='Esimene pöördumine';
 $string['globalrolelabel']='$a->label on $a->value';
 $string['isactive']='Aktiivne?';
 $string['isafter']='on peale';
+$string['isanyvalue']='on mistahes väärtusega';
 $string['isbefore']='on enne';
 $string['isdefined']='on defineeritud';
 $string['isempty']='on tühi';
@@ -39,5 +41,13 @@ $string['startswith']='algab millega';
 $string['tablenosave']='Muudatused üleval olevas tabelis salvestatakse automaatselt.';
 $string['textlabel']='$a->label $a->operator $a->value';
 $string['textlabelnovalue']='$a->label $a->operator';
+$string['content']='Sisu'; // ORPHANED
+$string['defaultx']='Vaikimisi ($a)'; // ORPHANED
+$string['disabled']='Mitte võimaldatud'; // ORPHANED
+$string['isactive']='Aktiivne?'; // ORPHANED
+$string['nofiltersenabled']='Filtri plugin ei ole võimaldatud sellel saidil.'; // ORPHANED
+$string['off']='Väljas'; // ORPHANED
+$string['offbutavailable']='Väljas, kuid saadaval'; // ORPHANED
+$string['on']='Sees'; // ORPHANED
 
 ?>

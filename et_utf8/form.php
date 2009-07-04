@@ -10,7 +10,9 @@ $string['err_lettersonly']='Sa saad sisestama ainult tähti';
 $string['err_maxlength']='Sa pead sisestama mitte rohkem kui $a->format märki siin.';
 $string['err_minlength']='Sa pead sisestama vähemalt $a->format märki siia.';
 $string['err_nonzero']='Sa pead sisestama siia numbri, mis ei alga nulliga.';
+$string['err_nopunctuation']='Sa ei tohi siia kirjutada kirjavahemärke.';
 $string['err_numeric']='Sa pead siia sisestama numbri.';
+$string['err_rangelength']='Sa pead sisestama siia märgi vahemikus {$a->format[0]} kuni {$a->format[1]}.';
 $string['err_required']='Peate siin välja täitma nõutuga';
 $string['general']='Üldine';
 $string['hideadvanced']='Peida detailsed seaded';
@@ -29,7 +31,9 @@ $string['somefieldsrequired']='$a Tärniga tähistatud väljad tuleb kindlasti t
 $string['time']='Aeg';
 $string['timeunit']='Ajaühik';
 $string['timing']='Ajastamine';
-$string['unmaskpassword']='Ära peida';
+$string['unmaskpassword']='Ära varja';
 $string['year']='Aasta';
+$string['time']='Aeg'; // ORPHANED
+$string['timeunit']='Ajaühik'; // ORPHANED
 
 ?>

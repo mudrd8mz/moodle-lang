@@ -1,6 +1,11 @@
 <?php
+$string['addingmultichoice']='Mitmikvaliku küsimuse lisamine';
 $string['addmorechoiceblanks']='Lisa veel 3. tühja valikuvormi';
 $string['answerhowmany']='Üks või mitu vastust';
+$string['answernumbering']='Valikuid?';
+$string['answernumbering123']='1., 2., 3., ...';
+$string['answernumberingABCD']='A., B., C., ...';
+$string['answernumberingabc']='a., b., c., ...';
 $string['answersingleno']='Lubatud mitu õiget vastust';
 $string['answersingleyes']='Ainult üks vastus';
 $string['choiceno']='Valik $a';

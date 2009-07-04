@@ -1,8 +1,8 @@
 <?php
 
-$string['log:view']='Vaata kursuse logi';
-$string['log:viewlive']='Vaata jooksvat logi';
-$string['log:viewtoday']='Vaata tänast logi';
+$string['log:view']='Vaadata kursuse logi';
+$string['log:viewlive']='Vaadata jooksvat logi';
+$string['log:viewtoday']='Vaadata tänast logi';
 $string['loglive']='Jooksev logi';
 
 ?>

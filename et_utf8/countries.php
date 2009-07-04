@@ -227,6 +227,7 @@ $string['TW']='Taiwan';
 $string['TZ']='Tansaania';
 $string['UA']='Ukraina';
 $string['UG']='Uganda';
+$string['UM']='Ameerika Ühendriikide väikesed hajasaared';
 $string['US']='Ameerika Ühendriigid';
 $string['UY']='Uruguay';
 $string['UZ']='Usbekistan';

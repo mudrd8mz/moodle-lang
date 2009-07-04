@@ -1,5 +1,4 @@
-<?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20090426) (2009041700)
+<?php
 
 $string['aborting']='Installeerimise katkestamine';
 $string['admindirerror']='Valitud administreerimiskataloog on vale';
@@ -193,6 +192,7 @@ $string['mssql_n']='SQL*Server UTF-8 toetusega (mssql_n)';
 $string['mssqlextensionisnotpresentinphp']='PHP laiendus MSSQL ei ole korralikult seadistatud, mistõttu ei saa ühenduda SQL*Server\'iga. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
 $string['mysql']='MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp']='PHP ei ole MySQL laiendiga õigesti konfigureeritud, seega ei saa ta MySQL\'ga suhelda. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
+$string['mysqli']='Täiustatud MySQL (mysqli)';
 $string['oci8po']='Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp']='PHP laiendus OCI8 ei ole korralikult seadistatud, mistõttu ei saa ühenduda Oracle\'ga. Palun kontrolli oma php.ini faili või kompileeri PHP uuesti.';
 $string['odbc_mssql']='SQL*Server üle ODBC (odbc_mssql)';
@@ -210,6 +210,7 @@ $string['php52versionhelp']='<p>Moodle vajab PHP\'d versiooniga vähemalt 5.2.4.
 <p>Sa pead uuendama PHP\'d või võtma kasutusele hosti, kus on uuem versioon PHP\'st!</p>';
 $string['phpextension']='$a PHP laiendus';
 $string['phpversion']='PHP versioon';
+$string['phpversionerror']='PHP versioon peab olema vähemalt 4.1.0';
 $string['phpversionhelp']='<p>Moodle vajab vähemalt PHP versiooni 4.1.0</p>
 <p>Sinu jooksev versioon on $a</p>
 <p>Sa pead oma PHP-d uuendama või kolima hosti, kus on uuem PHP versioon!</p>';
@@ -238,7 +239,62 @@ $string['welcometext']='--- Tere tulemast Moodle käsurea installeerijasse ---';
 $string['writetoconfigfilefaild']='Viga: seadete faili kirjutamine ebaõnnestus';
 $string['wwwroot']='Veebiaadress';
 $string['wwwrooterror']='Veebiaadress näib vigane - Moodle installatsiooni ei paista seal olevat.';
-$string['yourchoice']='Sinu valik:';
-$string['phpversionerror']='PHP versioon peab olema vähemalt 4.1.0'; // ORPHANED
+$string['aborting']='Installeerimise katkestamine'; // ORPHANED
+$string['adminemail']='E-mail'; // ORPHANED
+$string['adminfirstname']='Eesnimi'; // ORPHANED
+$string['admininfo']='Administratori detailid'; // ORPHANED
+$string['adminlastname']='Perenimi'; // ORPHANED
+$string['adminpassword']='Parool'; // ORPHANED
+$string['adminusername']='Kasutaja nimi'; // ORPHANED
+$string['askcontinue']='Jätka (jah/ei)'; // ORPHANED
+$string['availabledbtypes']='Saadaval andmebaasi tüübid'; // ORPHANED
+$string['availablelangs']='Saadaval keelte nimekiri'; // ORPHANED
+$string['cannotconnecttodb']='Ei saa ühenduda andmebaasiga'; // ORPHANED
+$string['checkingphpsettings']='PHP seadete kontrollimine'; // ORPHANED
+$string['configfilecreated']='Seadistuste fail edukalt loodud'; // ORPHANED
+$string['configfiledoesnotexist']='Seadistuste faili ei eksisteeri !!!'; // ORPHANED
+$string['configurationfileexist']='Seadistuste fail juba eksisteerib!'; // ORPHANED
+$string['creatingconfigfile']='Seadistuste faili loomine ...'; // ORPHANED
+$string['databasehead']='Andmebaasi seaded'; // ORPHANED
+$string['databasehost']='Andmebaasi host'; // ORPHANED
+$string['databasename']='Andmebaasi nimi'; // ORPHANED
+$string['databasepass']='Andmebaasi parool'; // ORPHANED
+$string['databasesettingsformoodle']='Moodle andmebaasi seaded'; // ORPHANED
+$string['databasesocket']='UNIX\'i sokkel'; // ORPHANED
+$string['databasetype']='Andmebaasi tüüp'; // ORPHANED
+$string['databasetypehead']='Vali andmebaasi draiver'; // ORPHANED
+$string['databasetypesub']='Moodle toetab mitut andmebaasiserveri tüüpi. Palun kontakteeru serveri administraatoriga, kui ei tea millist valida'; // ORPHANED
+$string['databaseuser']='Andmebaasi kasutaja'; // ORPHANED
+$string['downloadlanguagepack']='Kas sa soovid tõmmata keelepaketi praegu (jah/ei):'; // ORPHANED
+$string['downloadsuccess']='Keelepaki alla tõmbamine oli edukas'; // ORPHANED
+$string['doyouagree']='Kas sa nõustud? (jah/ei):'; // ORPHANED
+$string['errorsinenvironment']='Keskkonna sobivuse kontroll ebaõnnestus!'; // ORPHANED
+$string['inputdatadirectory']='Andmete kataloog:'; // ORPHANED
+$string['inputwebadress']='Veebiaadress:'; // ORPHANED
+$string['inputwebdirectory']='Moodle kataloog:'; // ORPHANED
+$string['invalidemail']='Vigane e-mail'; // ORPHANED
+$string['invalidhost']='Vigane host'; // ORPHANED
+$string['invalidpath']='Vigane rada'; // ORPHANED
+$string['invalidurl']='Vigane URL'; // ORPHANED
+$string['locationanddirectories']='Asukohad ja kataloogid'; // ORPHANED
+$string['paths']='Rajad'; // ORPHANED
+$string['pathserrcreatedataroot']='Andmete kataloogi ($a->dataroot) ei saa installeerija luua.'; // ORPHANED
+$string['pathshead']='Radade kinnitused'; // ORPHANED
+$string['pathsunsecuredataroot']='Andmete juurkataloogi asukoht pole turvamine'; // ORPHANED
+$string['pathswrongadmindir']='Admin kataloogi ei eksisteeri'; // ORPHANED
+$string['php52versionerror']='PHP versioon peab olema vähemalt 5.2.4.'; // ORPHANED
+$string['php52versionhelp']='<p>Moodle vajab PHP\'d versiooniga vähemalt 5.2.4.</p>
+<p>Sul on praegu versioon $a</p>
+<p>Sa pead uuendama PHP\'d või võtma kasutusele hosti, kus on uuem versioon PHP\'st!</p>'; // ORPHANED
+$string['phpextension']='$a PHP laiendus'; // ORPHANED
+$string['releasenoteslink']='Rohkem informatsiooni selle versiooni kohta palun vaata väljalaste märkustest $a'; // ORPHANED
+$string['selectlanguage']='Keele valimine installeerimiseks'; // ORPHANED
+$string['sitefullname']='Saidi täisnimi'; // ORPHANED
+$string['siteinfo']='Saidi detailid'; // ORPHANED
+$string['siteshortname']='Saidi lühinimi'; // ORPHANED
+$string['tableprefix']='Tabeli prefiks'; // ORPHANED
+$string['welcometext']='--- Tere tulemast Moodle käsurea installeerijasse ---'; // ORPHANED
+$string['writetoconfigfilefaild']='Viga: seadete faili kirjutamine ebaõnnestus'; // ORPHANED
+$string['yourchoice']='Sinu valik:'; // ORPHANED
 
 ?>
