@@ -197,6 +197,7 @@ $string['dbsessionbroken'] = 'Grave problème de session de base de données dé
 $string['dbsessionhandlerproblem'] = 'Échec de la mise en place de la session de base de données.<br /><br />Veuillez en informer l\'administrateur du serveur.';
 $string['dbsessionmysqlpacketsize'] = 'Grave erreur de session détectée.<br /><br />Veuillez en informer l\'administrateur du serveur. Ce problème est très probablement causé par une valeur trop faible du réglage MySQL max_allowed_packet.';
 $string['dbupdatefailed'] = 'Échec de la mise à jour de la base de données';
+$string['ddldependencyerror'] = '$a->targettype « $a->targetname » ne peut pas être modifié. Une dépendance a été trouvée avec $a->offendingtype « $a->offendingname »';
 $string['ddlexecuteerror'] = 'Erreur d\'exécution DDL sql';
 $string['ddlfieldalreadyexists'] = 'Le champ « {$a} » n\'existe pas';
 $string['ddlfieldnotexist'] = 'Le champ « {$a->fieldname} » n\'existe pas dans la table « {$a->tablename} »';
