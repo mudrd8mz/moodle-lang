@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090624) (2009061706)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
 
 
 $string['accessiblefilepicker'] = 'Selettore file accessibile';
@@ -44,6 +44,7 @@ $string['deleterepository'] = 'Elimina questo repository';
 $string['download'] = 'Scarica';
 $string['downloadsucc'] = 'Il file è stato scaricato correttamente';
 $string['editrepositoryinstance'] = 'Modifica il repository';
+$string['emptylist'] = 'L\'elenco è vuoto';
 $string['emptytype'] = 'Non è possibile creare il tipo di repository: il nome è vuoto';
 $string['enablecourseinstances'] = 'Abilita repository di corso';
 $string['enableuserinstances'] = 'Abilita repository dell\'utente';

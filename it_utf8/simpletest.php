@@ -1,17 +1,23 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 2.0 dev (Build: 20090624) (2009061706)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
 
 
 $string['addconfigprefix'] = 'Aggiungi prefisso al file config';
 $string['all'] = 'TUTTI';
 $string['codecoverageanalysis'] = 'Esegui analisi di code coverage';
+$string['codecoveragecompletereport'] = '(visualizza il report dell\'analisi)';
 $string['codecoveragedisabled'] = 'In questo server non è possibile abilitare il code coverage (manca l\'estensione xdebug)';
+$string['codecoveragelatestdetails'] = '(al $a->date su $a->files l\'analisi è al $a->percentage)';
+$string['codecoveragelatestreport'] = 'visualizza il report di code coverage più recente';
 $string['confignonwritable'] = 'Il file config.php non è scrivibile dal web server. Cambia i suoi attributi, o modificalo con un account abilitato. e aggiungi la seguente riga prima del tag di chiusura del php: <br />
 $CFG->unittestprefix = \'tst_\' // Modificare tst_  in un prefisso diverso da $CFG->prefix';
+$string['coveredlines'] = 'Linee analizzate';
+$string['coveredpercentage'] = 'Code Coverage complessivo';
 $string['deletingnoninsertedrecord'] = 'Tentativo di eliminazione di un record che non è stato inserito da queste unità di test (id $a->id in tabella $a->table).';
 $string['deletingnoninsertedrecords'] = 'Tentativo di eliminazione di record che non sono stati inseriti da queste unità di test (da tabella $a->table).';
 $string['droptesttables'] = 'Elimina tabelle di test';
 $string['exception'] = 'Eccezione';
+$string['executablelines'] = 'Linee eseguibili';
 $string['fail'] = 'Errore';
 $string['ignorefile'] = 'Ignora i test nel file';
 $string['ignorethisfile'] = 'Riesegui i test ignorando questo file di test.';
@@ -43,7 +49,9 @@ $string['testtablesneedupgrade'] = 'Le tabelle di DB per il test devono essere a
 $string['testtablesok'] = 'Le tabelle di DB per il test sono state correttamente installate.';
 $string['thorough'] = 'Esegui un test completo (può durare a lungo)';
 $string['timetakes'] = 'Tempo impiegato: $a.';
+$string['totallines'] = 'Linee totali';
 $string['uncaughtexception'] = 'Eccezione non prevista [{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}] TEST INTERROTTO.';
+$string['uncoveredlines'] = 'Linee non analizzate';
 $string['unittestprefixsetting'] = 'Prefisso test: <strong>$CFG->unittestprefix</strong> (Aggiorna config.php per modificarlo).';
 $string['unittests'] = 'Test';
 $string['updatingnoninsertedrecord'] = 'Tentativo di modifica di un record non ancora inserito da questi test (id $a->id in tabella $a->table).';

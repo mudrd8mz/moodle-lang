@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090702) (2009070100)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -128,6 +128,7 @@ $string['configdbsessions'] = 'E\' possibile memorizzare le informazioni delle s
 $string['configdebug'] = 'Attivando questa opzione, verrà  incrementata la reportistica di errore di PHP, aumentando i messaggi di errore. Questa opzione è utile solo per gli sviluppatori.';
 $string['configdebugdisplay'] = 'Marcando questa opzione, il report degli errori andrà alla pagina HTML. Questo è comodo, ma in generale altera XHTML, JS, i cookies e gli header HTTP. Senza questa opzione, l\'output sarà inviato sui log del vostro server, permettendo un miglior debugging. L\'impostazione PHP error_log controlla su quale log finirà suddetto output.';
 $string['configdebugsmtp'] = 'Abilita una maggiore quantità di informazioni per il debug, nell\'invio dei messaggi al server di posta SMTP.';
+$string['configdebugstringids'] = 'L\'opzione è pensata per facilitare i traduttori: attivandola, verrà visualizzata la provenienza di ciascuna  stringhe della lingua. (La modifica avrà effetto al prossimo caricamento della pagina).';
 $string['configdefaultallowedmodules'] = 'Per i corsi che ricadono nella categoria sovrastante, quali moduli si vuole che vengano permessi <b>quando il corso è creato</b>?';
 $string['configdefaultcourseroleid'] = 'Gli utenti che si iscriveranno spontaneamente ad un corso, riceveranno automaticamente questo ruolo.';
 $string['configdefaultrequestcategory'] = 'I corsi a richiesta, se approvati, saranno automaticamente inseriti nella categoria specificata.';
@@ -374,6 +375,7 @@ $string['debugminimal'] = 'MINIMI: Mostra solamente gli errori fatali';
 $string['debugnone'] = 'NESSUNO: Non mostrare alcun errore o segnalazione';
 $string['debugnormal'] = 'NORMALE: Mostra errori, segnalazioni e avvisi';
 $string['debugsmtp'] = 'Invio email per debug';
+$string['debugstringids'] = 'Visualizza la provenienza delle stringhe della lingua';
 $string['defaultallowedmodules'] = 'Moduli autorizzati per default';
 $string['defaultcourseroleid'] = 'Ruolo di default per gli utenti nei corsi';
 $string['defaulthtmleditor'] = 'Editor HTML di default';

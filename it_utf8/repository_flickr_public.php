@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090625) (2009061706)
+      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
 
 
 $string['all'] = 'Tutto';
@@ -29,5 +29,6 @@ $string['secret'] = 'Secret';
 $string['sharealike'] = 'Si, con licenza ShareAlike';
 $string['tag'] = 'Tag';
 $string['username'] = 'Email dell\'account Flickr';
+$string['watermark'] = 'Desiderate aggiungere un watermark alle imamgini (ID dell\'autore e URL di provenineza)?';
 
 ?>

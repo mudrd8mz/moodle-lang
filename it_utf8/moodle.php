@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090702) (2009070100)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1155,6 +1155,7 @@ $string['outline'] = 'Profilo';
 $string['outlinereport'] = 'Report riassuntivo';
 $string['page'] = 'Pagina';
 $string['pageheaderconfigablock'] = 'Configurazione di un blocco in %%fullname%%';
+$string['pageshouldredirect'] = 'La pagina dovrebbe reindirizzarvi automaticamente. Se il reindirizzamento non avviene, potete continuare usando il link sottostante.';
 $string['parentcategory'] = 'Categoria di appartenenza';
 $string['parentcoursenotfound'] = 'Corso padre non trovato!';
 $string['parentcoursenotmetacourse'] = 'Il corso padre non è un meta corso!';
