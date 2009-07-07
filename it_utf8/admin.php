@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090707) (2009070100)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -85,7 +85,7 @@ $string['confeditorhidebuttons'] = 'Seleziona i pulsanti che non vanno mostrati 
 $string['configallowassign'] = 'Tramite la matrice sottostante potete autorizzare i ruoli elencati nella colonna verticale a sinistra ad assegnare ad altri utenti uno o più tra i ruoli presenti sulla riga di intestazione';
 $string['configallowcategorythemes'] = 'Abilitando questa opzione, i temi possono essere impostati a livello di categoria. Questo influenzerà tutte le categorie dipendenti e i relativi corsi a meno che gli stessi non abbiamo in modo specifico impostato il proprio tema. ATTENZIONE: L\'abilitazione dei temi di categoria può influenzare le prestazioni.';
 $string['configallowcoursethemes'] = 'Se abilitato, sarà  possibile impostare un tema personalizzato diverso per ogni corso. Il tema del corso avrà precedenza su ogni altra preferenza (tema di sito, tema dell\'utente, tema di sessione).';
-$string['configallowemailaddresses'] = 'Se si desidera limitare la provenienza delle email degli utenti solo da determinati domini, è possibile elencare i domini autorizzati in questa impostazione, avendo cura di separare i domini tra loro con uno spazio. Le email che non appartengono ai domini elencati non saranno accettate. Per autorizzare anche i sotto domini, elencare il dominio precedendolo con \'.\'. Ad esempio  <strong>ourcollege.edu.au .gov.au</strong>';
+$string['configallowemailaddresses'] = 'Se si desidera che le email utilizzabili appartengano solo a determinati domini, è possibile elencare i domini autorizzati in questa impostazione, avendo cura di separare i domini tra loro con uno spazio. Le email che non appartengono ai domini elencati non saranno accettate. Per autorizzare anche i sotto domini, elencare il dominio precedendolo con \'.\'. Ad esempio  <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'Come misura di sicurezza standard, agli utenti normali non è permesso includere oggetti multimediali (come Flash) utilizzando esplicitamente i tag EMBED e OBJECT nei testi HTML (rimane la possibilità  per loro di utilizzare il filtro mediaplugins). Se si vuole permettere l\'utilizzo di questi tag allora abilitare questa opzione.';
 $string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di modificare i ruoli di ogni colonna';
 $string['configallowoverride2'] = 'Tramite la matrice sottostante potete autorizzare i ruoli elencati nella colonna verticale a sinistra a modificare i ruoli di altri utenti.<br>Si precisa che queste impostazioni avranno effetto solamente per i ruoli che hanno i privilegi moodle/role:override oppure moodle/role:safeoverride.';
@@ -134,9 +134,9 @@ $string['configdefaultcourseroleid'] = 'Gli utenti che si iscriveranno spontanea
 $string['configdefaultrequestcategory'] = 'I corsi a richiesta, se approvati, saranno automaticamente inseriti nella categoria specificata.';
 $string['configdefaultrequestedcategory'] = 'Categoria in cui inserire i corsi a richiesta, una volta approvati.';
 $string['configdefaultuserroleid'] = 'A tutti gli utenti autenticati, nel contesto del sito sarà attribuito il ruolo qui indicato. Questo ruolo viene attribuito in aggiunta ai ruoli che gli utenti potrebbero già possedere nel sito. Il valore di default è Utente autenticato (Ospite, in versioni precedenti di Moodle). Il ruolo di Utente autenticato non entra in conflitto con nessun altro ruolo: il suo scopo è quello di garantire agli utenti autenticati alcuni privilegi, indipendenti dal fatto di essere iscritti ad un corso, come ad esempio inserire un intervento nel blog, gestire il proprio calendario, eccetera.';
-$string['configdeleteincompleteusers'] = 'Dopo questo periodo, i vecchi account non completati saranno eliminati.';
+$string['configdeleteincompleteusers'] = 'Dopo questo periodo, i vecchi account non confermati saranno eliminati.';
 $string['configdeleteunconfirmed'] = 'Se state usando l\'autenticazione e-mail, questo parametro imposta il periodo in cui sarà  accettata la risposta dagli utenti. Dopo questo periodo, gli utenti non confermati vengono eliminati.';
-$string['configdenyemailaddresses'] = 'Se si desidera evitare l\'uso di email provenienti da determinati domini, elencate i domini non autorizzati in questa impostazione. Qualsiasi email proveniente da domini non presenti nell\'elenco potrà invece essere utilizzata. Per includere anche i sotto domini, elencare il dominio precedendolo con \'.\'. Ad esempio, <strong>hotmail.com .yahoo.co.uk.live</strong>';
+$string['configdenyemailaddresses'] = 'Se si desidera evitare l\'uso di email appartenenti a determinati domini, è possibile elencare i domini indesiderati in questa impostazione. Le email appartenenti a domini non presenti nell\'elenco potranno invece essere utilizzate. Per includere anche i sotto domini, elencare il dominio precedendolo con \'.\'. Ad esempio, <strong>hotmail.com .yahoo.co.uk.live</strong>';
 $string['configdigestmailtime'] = 'Agli utenti che hanno scelto la modalità  \'invio e-mail come raccolta quotidiana\', verrà inviata quotidianamente la raccolta dei messaggi. Questa impostazione regola l\'ora di invio della raccolta (il cron attivo nell\'ora seguente a questa impostazione invierà i dati richiesti).';
 $string['configdisablecourseajax'] = 'Non usare AJAX durante la modifica delle home page dei corsi.';
 $string['configdisableuserimages'] = 'Disabilita la possibilità per gli utenti di cambiare le immagini del profilo.';
@@ -234,8 +234,8 @@ $string['configminpasswordlength'] = 'Le password devono essere lunghe almeno qu
 $string['configminpasswordlower'] = 'Le password devono avere almeno questo numero di lettere minuscole.';
 $string['configminpasswordnonalphanum'] = 'Le password devono avere almeno questo numero di caratteri non alfanumerici.';
 $string['configminpasswordupper'] = 'Le password devono avere almeno questo numero di lettere maiuscole.';
-$string['configmycoursesperpage'] = 'Numero massimo di corsi presenti negli elenchi dei corsi ai quali si è iscritti.';
-$string['configmymoodleredirect'] = 'Questa impostazione forza la ridirezione a /my dell\'accesso per i non amministratori e sostituisce il link alla pagina principale del sito con /my';
+$string['configmycoursesperpage'] = 'Numero massimo di corsi presenti nell\'elenco dei corsi ai quali si è iscritti.';
+$string['configmymoodleredirect'] = 'L\'impostazione reindirizza gli utenti non amministratori a /my dopo il login, sostituendo anche la navigazione verso la home page con /my';
 $string['confignodefaultuserrolelists'] = 'Questa impostazione evita che alcune funzioni obsolete (come ad esempio get_course_user, ecc.) possano ottenere l\'elenco di tutti gli utenti con il ruolo di default presenti nel database. Spuntate questa opzione se notate un degrado di prestazioni.';
 $string['confignonmetacoursesyncroleids'] = 'Per default tutte le attribuzioni di ruolo presenti nei corsi \"figli\" vengono sincronizzate nei metacorsi. E\' possibile selezionare uno o più ruoli che si desidera escludere dal processo di sincronizzazione.';
 $string['confignoreplyaddress'] = 'Le mail a volte sono spedite a nome di un utente (per esempio, gli interventi dei forum). L\'indirizzo mail qui specificato sarà  utilizzato come l\'indirizzo \"Da\" cui proviene il messaggio,nei casi in cui il ricevente non è in grado di replicare direttamente all\'utente (per esempio, quando un utente decide di mantenere il suo indirizzo privato).';
@@ -260,8 +260,8 @@ $string['configproxyuser'] = 'Username abilitato ad accedere ad internet attrave
 $string['configquarantinedir'] = 'Se desiderate che Clam antivirus sposti eventuali file infetti in una cartella di quarantena, inseritene il percorso qui. La cartella deve avere i permessi di scrittura da parte del server web. Se lasciate in bianco, o se configurate una directory inesistente o senza i permessi di scrittura necessari, i files infetti saranno eliminati. Non inserite slash di percorso.';
 $string['configrcache'] = 'Utilizzo della cache per memorizzare i record del database. Se attivate la cache dei record ricordatevi anche di impostare il tipo di cache!';
 $string['configrcachettl'] = 'Time-To-Live (tempo di permanenza) dei record in cache. Si consiglia di usare un valore basso (<15).';
-$string['configrecaptchaprivatekey'] = 'Stringa di caratteri usata per comunicare tra il proprio server Moodle e il server recaptcha.net. Chiederne una per questo sito visitando http://recaptcha.net';
-$string['configrecaptchapublickey'] = 'Stringa di caratteri usata per mostrare l\'elemento reCAPTCHA nel pannello di iscrizione. Generata da http://recaptcha.net';
+$string['configrecaptchaprivatekey'] = 'Stringa di caratteri usata per comunicare tra il proprio server Moodle e il server recaptcha.net. E\' possibile richiedere una chiave visitando il sito http://recaptcha.net';
+$string['configrecaptchapublickey'] = 'Stringa di caratteri usata per visualizzare l\'immagine reCAPTCHA nella pagina di creazione account. L\'immagine è generata dal sito http://recaptcha.net';
 $string['configrequestedstudentname'] = 'Termine per \'studente\' da utilizzare nel corsi richiesti';
 $string['configrequestedstudentsname'] = 'Termine per \'studenti\' da utilizzare nel corsi richiesti';
 $string['configrequestedteachername'] = 'Termine per \'docente\' da utilizzare nel corsi richiesti';
@@ -319,7 +319,7 @@ $string['configunzip'] = 'Indica il percorso del programma Unzip di decompressio
 $string['configuseexternalyui'] = 'E\' possibile usare i file online disponibili sui server Yahoo&#145;s al posto dei file locali. ATTENZIONE: è necessaria la connessione ad internet, altrimenti AJAX smetterà di funzionare sul tuo sito.';
 $string['configusetags'] = 'Abilita la funzionalità Tag nel sito.';
 $string['configvariables'] = 'Variabili';
-$string['configverifychangedemail'] = 'Abilita la funzione di verifica degli indirizzi di email quando gli utenti nel loro profilo modificano l\'email. La verifica viene effettuata sulla base delle liste di domini presenti nelle impostazioni Domini di posta autorizzati e non autorizzati. Se questa impostazione è disabilitata, la verifica dei domini autorizzati verrà operata solo durante la creazione di nuovi account utente.';
+$string['configverifychangedemail'] = 'Abilita la funzione di verifica degli indirizzi di posta elettronica quando gli utenti nel loro profilo modificano l\'email. La verifica viene effettuata sulla base delle liste di domini presenti nelle impostazioni Domini di posta autorizzati e Domini di posta non autorizzati. Se questa impostazione è disabilitata, la verifica dei domini autorizzati verrà operata solo durante la creazione di nuovi account.';
 $string['configvisiblecourses'] = 'Mostra i corsi nelle categorie nascoste normalmente';
 $string['configwarning'] = 'Fate attenzione a modificare queste impostazioni, valori anomali potrebbero causare problemi.';
 $string['configxmlstrictheaders'] = 'Marcando questa opzione, ogni pagina sarà generata usando XML http headers e prolog, in modo che i browser mostreranno gli errori XHTML online. Questo è utile solamente per chi sviluppa il software.';
@@ -629,8 +629,8 @@ $string['multilangupgradeinfo'] = 'La sintassi del filtro multilingua è cambiat
 $string['multilangupgradenotice'] = 'Il tuo sito probabilmente sta utilizzando la vecchia sintassi multilingua, <a href=\"multilangupgrade.php\">multilang upgrade</a> è raccomandato.';
 $string['mustenablestats'] = 'Le statistiche non sono ancora attivate su questo sito';
 $string['mycoursesperpage'] = 'Numero di corsi';
-$string['mymoodle'] = 'Il mio Moodle';
-$string['mymoodleredirect'] = 'Obbliga gli utenti a usare Il mio Moodle';
+$string['mymoodle'] = 'My Moodle';
+$string['mymoodleredirect'] = 'Obbliga gli utenti a usare My Moodle';
 $string['mysql416bypassed'] = 'Comunque, se il vostro sito sta utilizzando SOLO lingue iso-8859-1 (latin), potete continuare ad utilizzare MySQL 4.1.12 (o successivo) attualmente installato.';
 $string['mysql416required'] = 'MySQL 4.1.16 è la versione minima richiesta per Moodle 1.6 per garantire che tutti i dati possano essere convertiti in UTF-8 in futuro.';
 $string['nobookmarksforuser'] = 'Non hai alcun segnalibro';
