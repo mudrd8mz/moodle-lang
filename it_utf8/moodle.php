@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090709) (2009070100)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -21,7 +21,9 @@ $string['activityweighted'] = 'Attività per utente';
 $string['add'] = 'Aggiungi';
 $string['addactivity'] = 'Aggiungi un\'attività ...';
 $string['addadmin'] = 'Aggiungi amministratore';
+$string['addblock'] = 'Aggiungi un blocco';
 $string['addcreator'] = 'Aggiungi creatore corsi';
+$string['adddots'] = 'Aggiungi...';
 $string['added'] = 'Aggiunto $a';
 $string['addedrecip'] = 'Aggiunto $a nuovo destinatario';
 $string['addedrecips'] = 'Aggiunti $a nuovi destinatari';
@@ -218,6 +220,7 @@ $string['childcourses'] = 'Corsi figli';
 $string['choose'] = 'Scegli';
 $string['chooseauthmethod'] = 'Scegli il plugin di autenticazione';
 $string['choosecourse'] = 'Scegli un corso';
+$string['choosedots'] = 'Scegli...';
 $string['chooseenrolmethod'] = 'Scegli il plugin di iscrizione';
 $string['chooselivelogs'] = 'Oppure osserva le attività  in corso';
 $string['chooselogs'] = 'Scegli quali log vuoi visualizzare';
@@ -1068,6 +1071,7 @@ $string['newwindow'] = 'nuova finestra';
 $string['next'] = 'Successivo';
 $string['nextsection'] = 'Sezione successiva';
 $string['no'] = 'No';
+$string['noblockstoaddhere'] = 'Non ci sono blocchi da aggiungere alla pagina';
 $string['nobody'] = 'Nessuno';
 $string['nochange'] = 'Nessun cambiamento';
 $string['nocoursesfound'] = 'Non è stato trovato nessun corso contente \'$a\'';
