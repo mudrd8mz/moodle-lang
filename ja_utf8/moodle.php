@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090710) (2009071000)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1248,6 +1248,7 @@ $string['recentactivity'] = '最近の活動';
 $string['recentactivityreport'] = '最近の活動詳細 ...';
 $string['recipientslist'] = '受信者リスト';
 $string['recreatedcategory'] = '再作成カテゴリ $a';
+$string['redirect'] = 'リダイレクト';
 $string['refresh'] = 'リフレッシュ';
 $string['refreshingevents'] = 'イベントの更新';
 $string['registration'] = 'Moodle登録';
