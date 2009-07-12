@@ -46,6 +46,7 @@ $string['deleterepository'] = 'Supprimer ce dépôt';
 $string['download'] = 'Télécharger';
 $string['downloadsucc'] = 'Le fichier a été téléchargé correctement';
 $string['editrepositoryinstance'] = 'Modifier l\'instance de dépôt';
+$string['emptylist'] = 'Pas de résultat';
 $string['emptytype'] = 'Impossible de créer le type de dépôt : le nom du type est vide';
 $string['enablecourseinstances'] = 'Permettre aux enseignants d\'ajouter un dépôt dans le sélecteur de fichiers';
 $string['enableuserinstances'] = 'Permettre aux utilisateurs d\'ajouter un dépôt dans le sélecteur de fichiers';
