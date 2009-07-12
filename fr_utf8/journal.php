@@ -21,13 +21,13 @@ $string['modulename'] = 'Journal';
 $string['modulenameplural'] = 'Journaux';
 $string['newjournalentries'] = 'Nouvelles contributions au journal';
 $string['noentry'] = 'Aucune contribution';
-$string['noratinggiven'] = 'Aucune note donnée';
+$string['noratinggiven'] = 'Aucune évaluation fournie';
 $string['notopenuntil'] = 'Ce journal ne sera pas ouvert avant';
 $string['notstarted'] = 'Vous n\'avez pas encore écrit dans ce journal';
-$string['overallrating'] = 'Note générale';
-$string['rate'] = 'Note';
+$string['overallrating'] = 'Évaluation générale';
+$string['rate'] = 'Évaluation';
 $string['saveallfeedback'] = 'Enregistrer tous mes feedbacks';
-$string['startoredit'] = 'Commencer ou modifier ma contribution';
+$string['startoredit'] = 'Commencer ou modifier mon journal';
 $string['viewallentries'] = 'Voir toutes les contributions du journal';
 
 ?>
