@@ -1229,6 +1229,7 @@ $string['recentactivity'] = 'Activité récente';
 $string['recentactivityreport'] = 'Rapport complet des activités récentes...';
 $string['recipientslist'] = 'Liste des destinataires';
 $string['recreatedcategory'] = 'Catégorie $a recréée';
+$string['redirect'] = 'Redirection';
 $string['refresh'] = 'Actualiser';
 $string['refreshingevents'] = 'Actualisation du calendrier';
 $string['registration'] = 'Enregistrement de Moodle';
