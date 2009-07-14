@@ -20,6 +20,7 @@ $string['cannotaddmodule'] = 'Le module $a n\'a pas pu être ajouté à la liste
 $string['cannotaddnewinstance'] = 'Impossible d\'ajouter une nouvelle instance de $a'; // Obsolete from 2.0dev onwards, see MDL-18293
 $string['cannotaddnewmodule'] = 'Impossible d\'ajouter un nouveau module $a';
 $string['cannotaddrss'] = 'Vous n\'avez pas le droits d\'ajouter des fils RSS';
+$string['cannotaddthisblocktype'] = 'Vous ne pouvez pas ajouter un bloc {$a} à cette page.';
 $string['cannotassignanthing'] = 'Impossible d\'attribuer la capacité moodle/site:doanything';
 $string['cannotassignrole'] = 'Attribution du rôle dans le cours impossible';
 $string['cannotassignrolehere'] = 'Il n\'est pas possible d\'attribuer ce rôle (id = $a->roleid) dans ce contexte ($a->context)';
