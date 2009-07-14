@@ -1,12 +1,12 @@
 <h1>Koeficient extra bodového zisku</h1>
 
-<p>Hodnota větší než nula způsobí, že známky z této položky hodnocení budou při výpočtu souhrnné známky považovány za známku navíc. Sama hodnota pak bude sloužit jako součinitel, kterým se skutečná hodnota známky vynásobí předtím, než se přičte k součtu všech známek za danou kategorii. Sama položka však nebude započítávána do počtu položek, kterým se součet dělí. Příklad:</p>
+<p>Zadáte-li zde hodnotu větší než 0 (nula), budou známky za tuto položku hodnocení při výpočtu souhrnné známky považovány za známku navíc. Nastavená hodnota slouží jako součinitel, kterým se násobí skutečná hodnota známky, předtím než se přičte k součtu všech známek za danou kategorii. Současně není položka započítána do počtu položek, kterým se součet všech známek za kategorii dělí. Příklad:</p>
 
 <ul>
-    <li>Položka 1 má rozsah 0-100 a její hodnota "Extra bodový zisk" je nastavena na 2</li>
-    <li>Položka 2 má rozsah 0-100 a její hodnota "Extra bodový zisk" je ponechána na 0.0000</li>
-    <li>Položka 3 má rozsah 0-100 a její hodnota "Extra bodový zisk" je ponechána na 0.0000</li>
-    <li>Všechny tři položky spadají do Kategorie 1, která má nastaven typ souhrnné známky "Průměr známek (včetně extra bodového zisku)"</li>
-    <li>Student získal: 20 bodů z Položky 1, 40 bodů z Položky 2 a 70 bodů z Položky 3</li>
-    <li>Souhrnná známka z této kategorie pro daného studenta bude 95 ze 100, jelikož 20*2 + (40 + 70)/2 = 95</li>
+    <li>Položka 1 [P1] má rozsah 0&ndash;100 a její &bdquo;Extra bodový zisk&ldquo; je nastaven na 2.</li>
+    <li>Položka 2 [P2] má rozsah 0&ndash;100 a její &bdquo;Extra bodový zisk&ldquo; je ponechán na 0,0000.</li>
+    <li>Položka 3 [P3] má rozsah 0&ndash;100 a její &bdquo;Extra bodový zisk&ldquo; je ponechán na 0,0000.</li>
+    <li>Všechny tři položky spadají do Kategorie 1 [K1], která má nastaven typ souhrnné známky &bdquo;Průměr známek (včetně extra bodového zisku)&ldquo;.</li>
+    <li>Student získal: 20 bodů za P1, 40 bodů za P2, 70 bodů za P3.</li>
+    <li>Souhrnná známka studenta v této kategorii bude 95/100: 20*2 + (40 + 70)/2 = 95.</li>
 </ul>
