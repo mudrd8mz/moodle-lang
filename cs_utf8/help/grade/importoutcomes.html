@@ -1,0 +1,15 @@
+<h1>Importovat očekávané výstupy</h1>
+<p>Očekávané výstupy lze importovat jako soubor .csv formátovaný takto:</p>
+<table class="generaltable" cellpadding="4">
+    <tr> <th class="header">Název pole</th> <th class="header">Popis</th> <th class="header">Povinné</th> <th class="header">Formát</th> </tr>
+    <tr> <td class="cell">outcome_name</td> <td class="cell">Plný název výstupu </td> <td class="cell">ano</td><td class="cell">řetězec</td> </tr>
+    <tr> <td class="cell">outcome_shortname</td><td class="cell">Krátké jméno výstupu </td> <td class="cell">ano</td> <td class="cell">řetězec</td> </tr>
+    <tr> <td class="cell">outcome_description</td><td class="cell">Popis výstupu </td> <td class="cell">ne</td> <td class="cell">řetězec</td> </tr>
+    <tr> <td class="cell">scale_name</td><td class="cell">Název použité škály</td> <td class="cell">ano</td> <td class="cell">řetězec</td> </tr>
+    <tr> <td class="cell">scale_items</td><td class="cell">Položky škály oddělené čárkami</td> <td class="cell">ano</td> <td class="cell">řetězec</td> </tr>
+    <tr> <td class="cell">scale_description</td><td class="cell">Popis škály </td> <td class="cell">ne</td> <td class="cell">řetězec</td> </tr>
+</table>
+
+<p>Příklad:</p>
+<pre>outcome_name;outcome_shortname;outcome_description;scale_name;scale_items;scale_description
+Účast;účast;;Škála účasti;"Nízká nebo žádná účast, Uspokojivá účast, Plná účast";</pre>

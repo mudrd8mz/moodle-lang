@@ -1,0 +1,25 @@
+<h1>Extra bodový zisk</h1>
+<h2>Pro souhrnnou známku &bdquo;Součet známek&ldquo;</h2>
+<p>Při použití typu souhrnné známky &bdquo;Součet známek&ldquo; mohou vybrané položky hodnocení fungovat jako bonusové. To znamená, že nejvyšší možná známka za tuto položku nebude přičtena k&nbsp;celkové nejvyšší možné známce za celou kategorii, ale samotná známka ano. Příklad:</p>
+
+<ul>
+    <li>Položka 1 [P1] má rozsah 0&ndash;100.</li>
+    <li>Položka 2 [P2] má rozsah 0&ndash;75.</li>
+    <li>P1 má zatrženo pole &bdquo;Extra bodový zisk&ldquo;, P2 nikoliv.</li>
+    <li>Obě položky patří do Kategorie 1 [K1], která má definován typ souhrnné známky &bdquo;Součet známek&ldquo;.</li>
+    <li>Nejvyšší možná známka za kategorii je automaticky nastavena na 75, tj. rovná se nejvyšší možné známce za P2 (P1 funguje pouze jako bonus).</li>
+    <li>Uvažovaný student obdržel 20 bodů za P1 a 70 bodů za P2.</li>
+    <li>Studentův celkový počet bodů za K1 tedy bude <b>75/75</b>: 20(P1)&nbsp;+&nbsp;70(P2)&nbsp;=&nbsp;90. Body za P1 jsou bonusové, jsou proto prostě přičteny k bodům za P2, a souhrnná známka tak dosáhne nejvyšší možné hodnoty 75.</li>
+</ul>
+
+<h2>Pro souhrnnou známku &bdquo;Průměr známek (včetně extra bodového zisku)&ldquo;</h2>
+<p>Zadáte-li zde hodnotu větší než 0 (nula), budou známky za tuto položku hodnocení při výpočtu souhrnné známky považovány za známku navíc. Nastavená hodnota slouží jako součinitel, kterým se násobí skutečná hodnota známky, předtím než se přičte k součtu všech známek za danou kategorii. Současně není položka započítána do počtu položek, kterým se součet všech známek za kategorii dělí. Příklad:</p>
+
+<ul>
+    <li>Položka 1 [P1] má rozsah 0&ndash;100 a její &bdquo;Extra bodový zisk&ldquo; je nastaven na 2.</li>
+    <li>Položka 2 [P2] má rozsah 0&ndash;100 a její &bdquo;Extra bodový zisk&ldquo; je ponechán na 0,0000.</li>
+    <li>Položka 3 [P3] má rozsah 0&ndash;100 a její &bdquo;Extra bodový zisk&ldquo; je ponechán na 0,0000.</li>
+    <li>Všechny tři položky spadají do Kategorie 1 [K1], která má nastaven typ souhrnné známky &bdquo;Průměr známek (včetně extra bodového zisku)&ldquo;.</li>
+    <li>Student získal: 20 bodů za P1, 40 bodů za P2, 70 bodů za P3.</li>
+    <li>Souhrnná známka studenta v této kategorii bude <b>95/100</b>: 20*2 + (40 + 70)/2 = 95.</li>
+</ul>
