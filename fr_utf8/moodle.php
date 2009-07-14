@@ -405,6 +405,7 @@ $string['defaultcourseteacher'] = 'Enseignant';
 $string['defaultcourseteacherdescription'] = 'Les enseignants peuvent tout faire dans un cours, y compris ajouter et modifier les activités et donner des notes aux étudiants.';
 $string['defaultcourseteachers'] = 'Enseignants';
 $string['delete'] = 'Supprimer';
+$string['deleteablock'] = 'Supprimer un bloc';
 $string['deleteall'] = 'Tout supprimer';
 $string['deleteallcannotundo'] = 'Tout supprimer - ne peut pas être annulé';
 $string['deleteallcomments'] = 'Supprimer tous les commentaires';
