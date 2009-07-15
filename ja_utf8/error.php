@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
+      // error.php - created with Moodle 2.0 dev (Build: 20090715) (2009071300)
 
 
 $string['TODO'] = 'TODO';
@@ -20,6 +20,7 @@ $string['cannotaddmembergroupiddoesntexist'] = 'メンバーをグループに�
 $string['cannotaddmodule'] = '$a モジュールをモジュールリストに追加できませんでした!';
 $string['cannotaddnewmodule'] = '$a の新しいモジュールを追加できませんでした。';
 $string['cannotaddrss'] = 'あなたには、RSSフィードを追加するパーミッションがありません。';
+$string['cannotaddthisblocktype'] = 'あなたは、このページに $a ブロックを追加できません。';
 $string['cannotassignanthing'] = 'moodle/site:doanythingを割り当てることができません。';
 $string['cannotassignrole'] = 'コース内でロールを割り当てることができません。';
 $string['cannotassignrolehere'] = 'あなたは、このコンテクスト ($a->context) において、このロール (id = $a->roleid) の割り当てを許可されていません。';

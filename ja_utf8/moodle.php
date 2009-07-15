@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090710) (2009071000)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090715) (2009071300)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -140,6 +140,7 @@ $string['availablecourses'] = 'コース一覧';
 $string['back'] = '戻る';
 $string['backto'] = '$a に戻る';
 $string['backtocourselisting'] = 'コース一覧に戻る';
+$string['backtopageyouwereon'] = '元のページに戻る';
 $string['backtoparticipants'] = '参加者リストに戻る';
 $string['backup'] = 'バックアップ';
 $string['backupactivehelp'] = '自動バックアップを実行するかどうか選択してください。';
@@ -407,6 +408,7 @@ $string['defaultcourseteacher'] = '教師';
 $string['defaultcourseteacherdescription'] = '教師は、コース内で活動の変更および学生の評定を含むどのような作業でも行うことができます。';
 $string['defaultcourseteachers'] = '教師';
 $string['delete'] = '削除';
+$string['deleteablock'] = 'ブロックを削除する';
 $string['deleteall'] = 'すべてを削除する';
 $string['deleteallcannotundo'] = 'すべてを削除する - 元に戻すことはできません。';
 $string['deleteallcomments'] = 'すべてのコメントを削除する';
@@ -787,6 +789,7 @@ $string['hideadvancedsettings'] = '高度な設定を隠す';
 $string['hidepicture'] = '画像を隠す';
 $string['hidesection'] = 'セクション $a を隠す';
 $string['hidesettings'] = '設定を隠す';
+$string['hideshowblocks'] = 'ブロックを隠す、または表示する';
 $string['hidetopicfromothers'] = '他のユーザからトピックを隠す';
 $string['hideweekfromothers'] = '他のユーザから週を隠す';
 $string['hits'] = 'アクセス';
