@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090709) (2009070100)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090716) (2009071300)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -140,6 +140,7 @@ $string['availablecourses'] = 'Corsi disponibili';
 $string['back'] = 'Indietro';
 $string['backto'] = 'Torna a $a';
 $string['backtocourselisting'] = 'Torna all\'elenco dei corsi';
+$string['backtopageyouwereon'] = 'Torna alla pagina di provenienza';
 $string['backtoparticipants'] = 'Torna alla pagina dei partecipanti';
 $string['backup'] = 'Backup';
 $string['backupactivehelp'] = 'Scegli se automatizzare o meno i backup';
@@ -407,6 +408,7 @@ $string['defaultcourseteacher'] = 'Docente';
 $string['defaultcourseteacherdescription'] = 'I docenti possono fare tutto all\'interno di un corso, come modificare le attività e valutare gli studenti.';
 $string['defaultcourseteachers'] = 'Docenti';
 $string['delete'] = 'Elimina';
+$string['deleteablock'] = 'Elimina blocco';
 $string['deleteall'] = 'Elimina tutto';
 $string['deleteallcannotundo'] = 'Elimina tutto - non sarà possibile tornare indietro';
 $string['deleteallcomments'] = 'Elimina tutti i commenti';
@@ -792,6 +794,7 @@ $string['hideadvancedsettings'] = 'Nascondi le impostazioni avanzate';
 $string['hidepicture'] = 'Nascondi immagine';
 $string['hidesection'] = 'Nascondi sezione $a';
 $string['hidesettings'] = 'Nascondi impostazioni';
+$string['hideshowblocks'] = 'Mostra/nascondi blocchi';
 $string['hidetopicfromothers'] = 'Nascondi l\'argomento agli altri';
 $string['hideweekfromothers'] = 'Nascondi la settimana agli altri';
 $string['hits'] = 'Accessi';
@@ -1246,6 +1249,7 @@ $string['recentactivity'] = 'Attività recente';
 $string['recentactivityreport'] = 'Report completo dell\'attività recente...';
 $string['recipientslist'] = 'Elenco destinatari';
 $string['recreatedcategory'] = 'La categoria $a è stata creata nuovamente';
+$string['redirect'] = 'Reindirizza';
 $string['refresh'] = 'Aggiorna';
 $string['refreshingevents'] = 'Aggiorna eventi';
 $string['registration'] = 'Registrazione di Moodle';

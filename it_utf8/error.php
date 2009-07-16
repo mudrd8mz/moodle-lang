@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
+      // error.php - created with Moodle 2.0 dev (Build: 20090716) (2009071300)
 
 
 $string['TODO'] = 'TODO';
@@ -20,6 +20,7 @@ $string['cannotaddmembergroupiddoesntexist'] = 'Non è stato possibile aggiunger
 $string['cannotaddmodule'] = 'Non è stato possibile aggiungere il modulo $a nell\'elenco dei moduli!';
 $string['cannotaddnewmodule'] = 'Non è stato possibile aggiungere un nuovo modulo $a';
 $string['cannotaddrss'] = 'Non siete autorizzati ad aggiungere feed RSS';
+$string['cannotaddthisblocktype'] = 'Non è possibile aggiungere il blocco $a su questa pagina';
 $string['cannotassignanthing'] = 'Non è possibile dare il privilegio moodle/site:doanything';
 $string['cannotassignrole'] = 'Non è possibile assegnare ruoli nel corso';
 $string['cannotassignrolehere'] = 'Non sei autorizzato ad attribuire questo ruolo (id = $a->roleid) nel contesto ($a->context)';
