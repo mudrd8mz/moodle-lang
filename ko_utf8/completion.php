@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20081025) (2008101300)
+      // completion.php - created with Moodle 2.0 dev (Build: 20090719) (2009071300)
 
 
 $string['activitycompletion'] = '활동 이수';
@@ -51,5 +51,6 @@ $string['restoringcompletiondata'] = '이수 자료 복구';
 $string['saved'] = '저장됨';
 $string['unlockcompletion'] = '이수 옵션 해제';
 $string['writingcompletiondata'] = '이수 자료 기입';
+$string['yourprogress'] = '성취도';
 
 ?>

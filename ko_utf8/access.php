@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 2.0 dev (Build: 20081213) (2008121000)
+      // access.php - created with Moodle 2.0 dev (Build: 20090719) (2009071300)
 
 
 $string['access'] = '접근 가능성';
@@ -20,6 +20,7 @@ $string['sitemap'] = '사이트 맵';
 $string['skipa'] = '$a 건너 뜀';
 $string['skipblock'] = '블럭 생략';
 $string['skipnavigation'] = '네비게이션 생략';
+$string['skipto'] = '$a 생략';
 $string['tabledata'] = '데이터 테이블, $a';
 $string['tablelayout'] = '배치 테이블, $a';
 $string['tocontent'] = '주 내용으로 가기';
