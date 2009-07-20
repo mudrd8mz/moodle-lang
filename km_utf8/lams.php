@@ -21,9 +21,9 @@ $string['refreshSequenceList'] = 'ធ្វើ​ឲ្យ​បញ្ជី​�
 $string['selectExistingSequence'] = 'ជ្រើស​លំដាប់​ដែល​មាន​ស្រាប់ ឬ​បង្កើត​លំដាប់​ថ្មី ។';
 $string['sequence'] = 'ជ្រើស​លំដាប់';
 $string['serverid'] = 'បញ្ចូល​លេខសម្គាល់​ម៉ាស៊ីន​បម្រើ​ដែល​បាន​ទទួល​ពី <a href=\"http://www.lamsinternational.com\">LAMS ជា​លក្ខណៈ​អន្តរជាតិ</a> ។';
-$string['server_id'] = 'លេខ​សម្គាល់​​ម៉ាស៊ីន​​បម្រើ';
+$string['server_id'] = 'លេខ​សម្គាល់​ម៉ាស៊ីន​បម្រើ';
 $string['serverkey'] = 'បញ្ចូល​សោ​ម៉ាស៊ីន​បម្រើ​ដែល​បាន​ទទួលពី <a href=\"http://www.lamsinternational.com\">LAMS ជា​លក្ខណៈ​អន្តរជាតិ</a> ។';
-$string['server_key'] = '​សោ​​ម៉ាស៊ីន​បម្រើ';
+$string['server_key'] = 'កូន​សោ​ម៉ាស៊ីន​បម្រើ';
 $string['serverurl'] = 'បញ្ចូល URL មូលដ្ឋាន​ដែល​បាន​ប្រើ​ដើម្បី​ចូលដំណើរការ​ម៉ាស៊ីន​បម្រើ LAMS ។ ឧទាហរណ៍ http://localhost:8080/lams';
 $string['server_url'] = 'URL ម៉ាស៊ីន​បម្រើ';
 $string['useSequence'] = 'ប្រើ​​លំដាប់​ដែល​បាន​ជ្រើស';

@@ -5,6 +5,6 @@ $string['courseoutcomes'] = 'លទ្ធផល​វគ្គសិក្សា
 $string['coursespecoutcome'] = 'លទ្ធផល​វគ្គសិក្សា';
 $string['modulename'] = 'របាយការណ៍​លទ្ធផល';
 $string['usedgradeitem'] = 'ចំនួន​ធាតុ​ពិន្ទុ';
-$string['outcomes:view'] = 'មើល​​របាយការណ៍​​លទ្ធផល';
+$string['outcomes:view'] = 'មើល​របាយការណ៍​លទ្ធផល';
 
 ?>

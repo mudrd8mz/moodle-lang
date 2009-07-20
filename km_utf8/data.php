@@ -1,6 +1,4 @@
-<?PHP // $Id$ 
-      // data.php - created with Moodle 1.7 beta + (2006101003)
-
+<?PHP // $Id$
 
 $string['action'] = 'សកម្មភាព';
 $string['add'] = 'បន្ថែម​ធាតុ';
@@ -13,9 +11,12 @@ $string['allowcomments'] = 'អនុញ្ញាត​ឲ្យ​បញ្ច�
 $string['allowratings'] = 'អនុញ្ញាត​ឲ្យ​វាយ​តម្លៃ​ប្រកាស ?';
 $string['alttext'] = 'អត្ថបទ​ជំនួស';
 $string['approve'] = 'អនុម័ត';
+$string['approved'] = 'បាន​អនុម័ត';
 $string['ascending'] = 'លំដាប់​ឡើង';
 $string['asearchtemplate'] = 'ពុម្ព​ស្វែងរក​កម្រិត​ខ្ពស់';
 $string['atmaxentry'] = 'អ្នក​បាន​បញ្ចូល​ចំនួន​ធាតុ​អតិបរមា​ដែល​បាន​អនុញ្ញាត !';
+$string['authorfirstname'] = 'នាម​ខ្លួន​អ្នក​និពន្ធ';
+$string['authorlastname'] = 'នាម​ត្រកូល​អ្នក​និពន្ធ';
 $string['autogenallforms'] = 'បង្កើត​ពុម្ព​លំនាំ​ដើម​ទាំងអស់';
 $string['autolinkurl'] = 'តភ្ជាប់ URL ដោយ​ស្វ័យ​ប្រវត្តិ';
 $string['availablefromdate'] = 'មាន​ចាប់​ពី';
@@ -26,6 +27,8 @@ $string['buttons'] = 'ប៊ូតុង';
 $string['bynameondate'] = 'តាម $a->name - $a->date';
 $string['cancel'] = 'បោះបង់';
 $string['checkbox'] = 'ប្រអប់​ធីក';
+$string['chooseexportfields'] = 'ជ្រើស​វាល​ដែល​អ្នក​ចង់​នាំចេញ ៖';
+$string['chooseexportformat'] = 'ជ្រើស​ទ្រង់ទ្រាយ​ដែល​អ្នក​ចង់​នាំចេញ​ទៅ ៖';
 $string['chooseorupload'] = 'ជ្រើស​ឯកសារ';
 $string['columns'] = 'ជួរ​ឈរ';
 $string['commentdeleted'] = 'បាន​លុប​មតិយោបល់';
@@ -39,6 +42,8 @@ $string['confirmdeletefield'] = 'អ្នក​រៀប​នឹង​លុ�
 $string['confirmdeleterecord'] = 'តើ​អ្នក​ពិតជា​ចង់​លុប​ធាតុ​នេះ​ឬ ?';
 $string['csstemplate'] = 'ពុម្ព CSS';
 $string['csvfile'] = 'ឯកសារ CSV';
+$string['csvwithselecteddelimiter'] = '
+          <acronym title=\"Comma Separated Values\">CSV</acronym> អត្ថបទ​ដែល​ជ្រើស​ដោយ​សញ្ញា​កំណត់​ព្រំដែន ៖';
 $string['csvimport'] = 'ការ​នាំ​ចូល​ឯកសារ CSV';
 $string['data:approve'] = 'អនុម័ត​ធាតុ​ដែល​មិន​បាន​អនុម័ត';
 $string['data:comment'] = 'សរសេរ​មតិយោបល់';
@@ -58,9 +63,9 @@ $string['defaultfielddelimiter'] = '(លំនាំ​ដើម​គឺ​ជ�
 $string['defaultfieldenclosure'] = '(គ្មាន​លំនាំ​ដើម)';
 $string['defaultsortfield'] = 'វាល​តម្រៀប​លំនាំ​ដើម';
 $string['delete'] = 'លុប';
-$string['deleteallentries'] = 'លុប​ធាតុ​​ទាំងអស់';
+$string['deleteallentries'] = 'លុប​ធាតុ​ទាំងអស់';
 $string['deletecomment'] = 'តើ​អ្នក​ពិត​ជា​ចង់​លុប​មតិ​យោបល់​នេះ​ឬ ?';
-$string['deletenotenrolled'] = 'លុប​ធាតុដោយ​​​អ្នក​ប្រើ​ដែល​មិនបាន​​ចុះ​ឈ្មោះ';
+$string['deletenotenrolled'] = 'លុម​ធាតុ​តាម​អ្នក​ប្រើ​ដែល​មិន​បាន​ចុះ​ឈ្មោះ';
 $string['deleted'] = 'បាន​លុប';
 $string['deletefield'] = 'លុប​វាល​ដែល​មាន​រួច';
 $string['deletewarning'] = 'តើ​អ្នក​ពិត​ជា​ចង់​លុប​ការ​កំណត់​ជាមុន​នេះ​ឬ ?';
@@ -75,13 +80,16 @@ $string['editordisable'] = 'បិទ​កម្មវិធី​និពន�
 $string['emptyadd'] = 'ពុម្ព​បន្ថែម​គឺ​ទទេ កំពុង​បង្កើត​សំណុំ​បែបបទ​លំនាំ​ដើម...';
 $string['emptyaddform'] = 'អ្នក​មិន​បាន​បំពេញ​វាល​ណា​មួយ​ឡើយ !';
 $string['entries'] = 'ធាតុ';
-$string['entrieslefttoadd'] = 'អ្នក​ត្រូវ​តែ​បន្ថែម​ធាតុ​ច្រើន​ជាង​ $a មុន​ពេល​អ្នក​អាច​មើល​ធាតុ​របស់​អ្នក​ផ្សេង​បាន។';
+$string['entrieslefttoaddtoview'] = 'អ្នក​ត្រូវ​តែ​បន្ថែម $a->entrieslefttoview ធាតុ​បន្ថែម មុន​ពេល​អ្នក​អាច​មើល​ធាតុ​របស់​អ្នក​ចូលរួម​ផ្សេង​ទៀត ។';
+$string['entrieslefttoadd'] = 'អ្នក​ត្រូវ​តែ​បន្ថែម $a->entriesleft ធាតុ​បន្ថែម​ដើម្បី​បញ្ចប់​សកម្មភាព​នេះ';
 $string['entry'] = 'ធាតុ';
 $string['entrysaved'] = 'ធាតុ​របស់​អ្នក​ត្រូវបាន​រក្សាទុក';
 $string['errormustbeteacher'] = 'អ្នក​ត្រូវ​តែ​ជា​គ្រូ ដើម្បី​ប្រើ​ទំព័រ​នេះ !';
 $string['example'] = 'ឧទាហរណ៍​នៃ​ម៉ូឌុល​មូលដ្ឋាន​ទិន្នន័យ';
+$string['excel'] = 'Excel';
 $string['export'] = 'នាំ​ចេញ';
 $string['exportaszip'] = 'នាំ​ចេញ​ជា zip';
+$string['exportdatabaserecords'] = 'នាំចេញ​កំណត់​ត្រា​មូលដ្ឋាន​ទិន្នន័យ';
 $string['exportedtozip'] = 'បាន​នាំ​ចេញ​ទៅ zip បណ្ដោះ​អាសន្ន...';
 $string['failedpresetdelete'] = 'កំហុស​ក្នុង​ការ​លុប​ការ​កំណត់​ជាមុន !';
 $string['fieldadded'] = 'បាន​បន្ថែម​វាល';
@@ -107,6 +115,8 @@ $string['filesnotgenerated'] = 'មិន​មែន​ឯកសារ​ទា
 $string['filtername'] = 'ភ្ជាប់​ទៅ​មូលដ្ឋាន​ទិន្នន័យ​ដោយ​ស្វ័យប្រវត្តិ';
 $string['footer'] = 'បាត​កថា';
 $string['forcelinkname'] = 'តម្រូវ​ឲ្យ​ប្រើ​ឈ្មោះ​សម្រាប់​តំណ';
+$string['foundrecords'] = 'រក​ឃើញ​កំណត់​ត្រា ៖ $a->num/$a->max (<a href=\"$a->reseturl\">កំណត់​តម្រង​ឡើង​វិញ</a>)';
+$string['foundnorecords'] = 'រក​មិន​ឃើញ​កំណត់​ត្រា (<a href=\"$a->reseturl\">កំណត់​តម្រង​ឡើង​វិញ</a>)';
 $string['fromfile'] = 'នាំ​ចូល​ពី​ឯកសារ zip';
 $string['header'] = 'បឋមកថា';
 $string['headeraddtemplate'] = 'កំណត់​ចំណុច​ប្រទាក់ ពេល​កែ​សម្រួល​ធាតុ';
@@ -171,13 +181,17 @@ $string['number'] = 'លេខ';
 $string['numberrssarticles'] = 'អត្ថបទ RSS';
 $string['numnotapproved'] = 'មិន​ទាន់​សម្រេច';
 $string['numrecords'] = '$a ធាតុ';
+$string['ods'] = '
+          <acronym title=\"OpenDocument Spreadsheet\">ODS</acronym> (OpenOffice)';
 $string['optionaldescription'] = 'ពិពណ៌នា​ខ្លីៗ (ស្រេច​ចិត្ត)';
 $string['optionalfilename'] = 'ឈ្មោះ​វាល (ស្រេច​ចិត្ត)';
+$string['other'] = 'ផ្សេង​ទៀត';
 $string['overwrite'] = 'សរសេរ​ជាន់​លើ';
+$string['overwritesettings'] = 'សរសេរ​ជាន់​លើ​ការ​កំណត់​បច្ចុប្បន្ន';
 $string['pagesize'] = 'ធាតុ​ក្នុង​មួយ​ទំព័រ';
 $string['participants'] = 'អ្នក​ចូលរួម';
 $string['picture'] = 'រូបភាព';
-$string['pleaseaddsome'] = 'សូម​បង្កើត​មួយចំនួន​ខាង​ក្រោម ឬ​<a href=\"$a\">ជ្រើស​សំណុំ​ដែល​បាន​កំណត់​ជាមុន</a> ដើម្បី​ចាប់ផ្ដើម ។';
+$string['pleaseaddsome'] = 'សូម​បង្កើត​មួយចំនួន​ខាង​ក្រោម ឬ​<a href=\"$a\">ជ្រើស​សំណុំ​ដែល​បាន​កំណត់​ជាមុន</a> ដើម្បី​ចាប់ផ្ដើម ។<a href=\"$a\">ជ្រើស​សំណុំ​ដែល​បាន​កំណត់​ជាមុន</a> ដើម្បី​ចាប់ផ្ដើម ។';
 $string['presetinfo'] = 'ការ​រក្សា​ទុក​ជា​ការ​កំណត់​ជាមុន​នឹង​បោះពុម្ព​ផ្សាយ​ពុម្ព​នេះ ។ អ្នក​ប្រើ​ផ្សេង​ទៀត​អាច​នឹង​ប្រើ​វា ក្នុង​មូលដ្ឋាន​ទិន្នន័យ​របស់​ពួក​គេ​បាន ។';
 $string['presets'] = 'ការ​កំណត់​ជាមុន';
 $string['radiobutton'] = 'ប៊ូតុង​មូល';
@@ -197,6 +211,16 @@ $string['recordsnotsaved'] = 'មិន​មាន​ធាតុ​ត្រ�
 $string['recordssaved'] = 'បាន​រក្សាទុក​ធាតុ';
 $string['requireapproval'] = 'ទាមទារ​ឲ្យ​អនុម័ត ?';
 $string['requiredentries'] = 'ធាតុ​ទាមទារ';
+$string['requiredentrieschanged'] = '
+          <p>
+          <strong>សំខាន់ - សូម​មេត្តា​អាន </strong>
+          </p>
+          <p>ដោយ​សារ​តែ​ការ​កែ​កំហុស, ឥរិយាបថ​នៃ​សកម្មភាព​មូលដ្ឋាន​ទិន្នន័យ​ដែល​ប្រើ​ការ​កំណត់ \'ទាមទារ​ធាតុ\' និង \'ទាមទារ​ធាតុ​មុន​ពេល​មើល​ការ​កំណត់\' នឹង​ផ្លាស់ប្ដូរ ។ អ្នក​អាច​អាន​ការ​ពន្យល់​លម្អិត​បន្ថែម​នៃ​ការ​ផ្លាស់ប្ដូរ​នៅ <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">វេទិកា​ម៉ូឌុល​មូលដ្ឋាន​ទិន្នន័យ</a> ។ ឥរិយាបថ​ដែល​រំពឹង​ទុក​នៃ​ការ​កំណត់​ទាំងនេះ​អាច​រក​អាន​បាន​នៅ <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">ឯកសារ Moodle</a> ។
+</p>
+          <p>This change affects the following databases in your system: (Please save this list now, and after the upgrade, check that these activities still work the way that the teacher intends.)</p>
+          <strong style=\"color:red\">$a->text</strong>
+          <br/>
+        ';
 $string['requiredentriestoview'] = 'ធាតុ​​ដែល​ទាមទារ មុន​នឹង​មើល';
 $string['resettemplate'] = 'កំណត់​ពុម្ព​ឡើង​វិញ';
 $string['resetsettings'] = 'កំណត់​វាល​ឡើង​វិញ';
@@ -214,6 +238,7 @@ $string['savesettings'] = 'រក្សា​ទុក​ការ​កំណ�
 $string['savesuccess'] = 'បាន​រក្សា​ទុក​ដោយ​ជោគជ័យ ។ ឥឡូវ​នេះ ការ​កំណត់​ជាមុន​របស់​អ្នក នឹង​មាន​នៅលើ​តំបន់​បណ្ដាញ​ទាំង​មូល ។';
 $string['savetemplate'] = 'រក្សា​ទុក​ពុម្ព';
 $string['search'] = 'ស្វែងរក';
+$string['selectedrequired'] = 'ទាមទារ​ដែល​ជ្រើស​ទាំងអស់';
 $string['sendinratings'] = 'ផ្ញើ​ការ​វាយតម្លៃ​ចុងក្រោយ​របស់​ខ្ញុំ';
 $string['single'] = 'មើល​តែ​មួយ';
 $string['singletemplate'] = 'ពុម្ព​តែ​មួយ';
@@ -223,9 +248,12 @@ $string['templates'] = 'ពុម្ព';
 $string['templatesaved'] = 'បាន​រក្សាទុក​ពុម្ព';
 $string['text'] = 'អត្ថបទ';
 $string['textarea'] = 'ផ្ទៃ​អត្ថបទ';
+$string['timeadded'] = 'ពេល​វេលា​បន្ថែម';
+$string['timemodified'] = 'ពេល​វេលា​កែប្រែ';
 $string['todatabase'] = 'ទៅ​មូលដ្ឋាន​ទិន្នន័យ​នេះ ។';
 $string['type'] = 'ប្រភេទ​វាល';
 $string['undefinedprocessactionmethod'] = 'មិន​បាន​កំណត់​វិធីសាស្ត្រ​សកម្មភាព​​ក្នុង Data_Preset ឡើយ ដើម្បី​គ្រប់គ្រង​សកម្មភាព \"$a\" ។';
+$string['unsupportedexport'] = '($a->fieldtype) មិន​អាច​នាំចេញ​បាន​ទេ ។';
 $string['updatefield'] = 'ធ្វើ​ឲ្យ​វាល​មាន​ស្រាប់​ទាន់សម័យ';
 $string['uploadfile'] = 'ផ្ទុក​ឯកសារ​ឡើង';
 $string['uploadrecords'] = 'ផ្ទុក​ធាតុ​ឡើង​ពី​ឯកសារ';

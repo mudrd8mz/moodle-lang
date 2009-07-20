@@ -1,7 +1,7 @@
 <?PHP 
 			$string['blockname'] = 'អ្នក​ក្រោម​ការ​ចង្អុល​បង្ហាញ';
-$string['configtitle'] = 'ចំណង់​ជើង​​ប្លុក';
+$string['configtitle'] = 'ចំណង​ជើង​ប្លុក';
 $string['leaveblanktohide'] = 'ទុក​ឲ្យ​ទទេ​ដើម្បី​លាក់​ចំណងជើង';
-$string['newmenteesblock'] = '(ប្លុក​អ្នក​ក្រោម​ការ​ចង្អុល​បង្ហាញ​ថ្មី)';
+$string['newmenteesblock'] = '(ប្លុក​អ្នក​ក្រោម​ការ​ចង្អុរ​បង្ហាញ​ថ្មី)';
 
 ?>

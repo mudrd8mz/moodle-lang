@@ -3,6 +3,6 @@
 
 
 $string['badwords'] = 'shit,fucked,fucker,fuck,dickhead, dick,cockhead,cock,cunt,asshole,arsehole,prick,bitch, jism,whore,slut,wanker, wank,bastard,dildo,masturbate, orgasm,penis,nigger, pussy,vagina';
-$string['filtername'] = 'ត្រួតពិនិត្យ​ពាក្យ';
+$string['filtername'] = 'ពាក្យ​អាសអាភាស';
 
 ?>

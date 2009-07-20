@@ -1,8 +1,7 @@
 <?PHP // $Id$
       // qtype_multichoice.php - created with Moodle 1.7 beta + (2006101003)
 
-$string['addingmultichoice'] = 'បន្ថែម​​សំណួរ​​ពហុ​ជ្រើសរើស';
-$string['answerhowmany'] = 'ចម្លើយ​មួយ ឬច្រើន ?';
+$string['addingmultichoice'] = 'បន្ថែម​សំណួរ​ពហុ​ជ្រើសរើស';
 $string['addmorechoiceblanks'] = 'ទទេ​សម្រាប់​​{គ្មាន}ជម្រើស​ច្រើន ';
 $string['answerhowmany'] = 'ចម្លើយ​មួយ ឬច្រើន ?';
 $string['answernumbering'] = 'ដាក់​លេខ​ជម្រើស ?';
