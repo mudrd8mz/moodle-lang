@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090715) (2009071300)
 
 
 $string['1day'] = '1日';
@@ -436,6 +436,7 @@ $string['multichoice'] = '多肢選択問題';
 $string['multipleanswers'] = '少なくとも1つの答えを選択してください。';
 $string['multiplier'] = '乗数';
 $string['name'] = '名称';
+$string['navnojswarning'] = 'これらのリンクでは、あなたの解答を保存しません。ページ下部の「次へ」ボタンを使用してください。';
 $string['neverallononepage'] = 'なし、すべての問題を1ページに表示する';
 $string['newattemptfail'] = 'エラー: 小テストの新しい受験を開始できませんでした。';
 $string['newpage'] = '新しいページ';
@@ -674,6 +675,7 @@ $string['showbreaks'] = '改ページ (Page break) を表示する';
 $string['showcategorycontents'] = 'カテゴリコンテンツを表示する $a->arrow';
 $string['showcorrectanswer'] = 'フィードバックの中に正解を表示しますか?';
 $string['showdetailedmarks'] = '評点の詳細を表示する';
+$string['showeachpage'] = '一度に1ページのみ表示する';
 $string['showfeedback'] = '解答後にフィードバックを表示しますか?';
 $string['showhidden'] = '古いバージョンの問題も表示する';
 $string['showinsecurepopup'] = '受験に「セキュア」ポップアップを使用する';
