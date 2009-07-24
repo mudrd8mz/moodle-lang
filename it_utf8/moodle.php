@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090716) (2009071300)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -22,6 +22,7 @@ $string['add'] = 'Aggiungi';
 $string['addactivity'] = 'Aggiungi un\'attività ...';
 $string['addadmin'] = 'Aggiungi amministratore';
 $string['addblock'] = 'Aggiungi un blocco';
+$string['addcomment'] = 'Scrivi un commento...';
 $string['addcreator'] = 'Aggiungi creatore corsi';
 $string['adddots'] = 'Aggiungi...';
 $string['added'] = 'Aggiunto $a';
@@ -246,6 +247,8 @@ $string['clickhere'] = 'Clicca qui ...';
 $string['clicktochange'] = 'Clicca per cambiare';
 $string['clicktohideshow'] = 'Click per aprire e chiudere';
 $string['closewindow'] = 'Chiudi questa finestra';
+$string['commentincontext'] = 'Trova questo commento nel contesto';
+$string['comments'] = 'Commenti';
 $string['comparelanguage'] = 'Confronta e modifica la lingua in uso';
 $string['complete'] = 'Completo';
 $string['completereport'] = 'Report completo';
@@ -1388,6 +1391,7 @@ $string['showalltopics'] = 'Mostra tutti gli argomenti';
 $string['showallusers'] = 'Mostra tutti gli utenti';
 $string['showallweeks'] = 'Mostra tutte le settimane';
 $string['showblockcourse'] = 'Mostra l\'elenco dei corsi che contengono blocchi';
+$string['showcomments'] = 'Mostra/nascondi i commenti';
 $string['showgrades'] = 'Mostra valutazioni agli studenti';
 $string['showlistofcourses'] = 'Mostra l\'elenco dei corsi';
 $string['showmodulecourse'] = 'Mostra l\'elenco dei corsi che contengono attività';

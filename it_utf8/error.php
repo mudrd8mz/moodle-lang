@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090716) (2009071300)
+      // error.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
 
 
 $string['TODO'] = 'TODO';
@@ -318,6 +318,7 @@ $string['moduledisable'] = 'Questo modulo ($a) è stato disabilitato per questo 
 $string['moduledoesnotexist'] = 'Questo modulo non esiste';
 $string['moduleinstancedoesnotexist'] = 'L\'istanza di questo modulo non esiste';
 $string['modulemissingcode'] = 'Nel modulo $a manca il codice necessario per eseguire questa funzione';
+$string['modulerejectcomment'] = 'Il modulo ha respinto l\'inserimento del commento';
 $string['multiplerecordsfound'] = 'Sono stati trovati molti record: se ne sarebbe dovuto trovare uno solo.';
 $string['multiplerestorenotallow'] = 'Non sono consentiti processi di ripristino multipli!';
 $string['mustbeloggedin'] = 'Devi essere autenticato per fare questo';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090707) (2009070100)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -149,6 +149,7 @@ $string['configemailchangeconfirmation'] = 'Obbliga gli utenti a confermare il c
 $string['configemoticons'] = 'Modifica il codice a sinistra in corrispondenza al nome dell\'emoticon. Per aggiungere nuovi emoticon, aggiungere un codice e un nome, poi aggiungere un\'immagine come nome.gif in /pix/s.';
 $string['configenableajax'] = 'Questa impostazione permette di controllare l\'uso di AJAX (interfacce avanzate client/server che utilizzano Javascript) in tutto il sito. Con questa impostazione abilitata gli utenti possono decidere di scegliere AJAX nel loro profilo, altrimenti AJAX è disabilitato per tutti.';
 $string['configenablecalendarexport'] = 'Abilita l\'esportazione o la sottoscrizione ai calendari.';
+$string['configenablecomments'] = 'Abilita l\'uso dei commenti';
 $string['configenablecourserequests'] = 'Questa impostazione consente agli utenti di richiedere corsi.';
 $string['configenableglobalsearch'] = 'Questa impostazione abilita la ricerca globale di testo nelle risorse e nelle attività. Non è compatibile con PHP 4.';
 $string['configenablegroupings'] = 'L\'impostazione abilita la creazione di raggruppamenti di gruppi all\'interno dei corsi.';
@@ -424,6 +425,7 @@ $string['emoticons'] = 'Emoticon (faccine)';
 $string['emptysettingvalue'] = 'Vuoto';
 $string['enableajax'] = 'Abilita AJAX';
 $string['enablecalendarexport'] = 'Abilita l\'esportazione del calendario';
+$string['enablecomments'] = 'Abilita commenti';
 $string['enablecourserequests'] = 'Abilita Corsi a richiesta';
 $string['enableglobalsearch'] = 'Abilita ricerca globale';
 $string['enablegroupings'] = 'Abilita raggruppamenti';

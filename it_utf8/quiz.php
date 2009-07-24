@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090605) (2009060200)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
 
 
 $string['1day'] = '1 giorno';
@@ -430,6 +430,7 @@ $string['multichoice'] = 'Risposta multipla';
 $string['multipleanswers'] = 'Scegliere almeno una risposta.';
 $string['multiplier'] = 'Moltiplicatore';
 $string['name'] = 'Nome';
+$string['navnojswarning'] = 'Attenzione: le risposte non vengono salvate usando i link. Utilizzate il pulsante Avanti in fondo alla pagina.';
 $string['neverallononepage'] = 'Tutte le domande su una sola pagina';
 $string['newattemptfail'] = 'Errore: Un nuovo tentativo del quiz non può iniziare';
 $string['newpage'] = 'Salto pagina';
@@ -671,6 +672,7 @@ $string['showbreaks'] = 'Mostra salti pagina';
 $string['showcategorycontents'] = 'Visualizza il contenuto della categoria $a->arrow';
 $string['showcorrectanswer'] = 'Mostrare le risposte corrette nel feedback?';
 $string['showdetailedmarks'] = 'Mostra punteggi dettagliati';
+$string['showeachpage'] = 'Mostra una pagina alla volta';
 $string['showfeedback'] = 'Mostrare il feedback dopo le risposte?';
 $string['showhidden'] = 'Mostra anche le vecchie domande';
 $string['showinsecurepopup'] = 'Finestra popup \'sicura\'';

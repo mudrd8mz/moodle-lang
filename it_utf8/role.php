@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
+      // role.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
@@ -47,6 +47,9 @@ $string['checkpermissionsin'] = 'Verifica autorizzazioni nel contesto $a';
 $string['checksystempermissionsfor'] = 'Verifica delle autorizzazioni di sistema per $a->fullname';
 $string['checkuserspermissionshere'] = 'Verifica delle autorizzazioni per $a->fullname in questo $a->contextlevel';
 $string['chooseroletoassign'] = 'Scegli il ruolo da assegnare';
+$string['comment:delete'] = 'Eliminare commenti';
+$string['comment:post'] = 'Scrivere commenti';
+$string['comment:view'] = 'Leggere commenti';
 $string['context'] = 'Contesto';
 $string['course:activityvisibility'] = 'Nascondere/Mostrare attività';
 $string['course:bulkmessaging'] = 'Inviare un messaggio a più persone';
