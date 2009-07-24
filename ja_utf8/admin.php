@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -145,6 +145,7 @@ $string['configemailchangeconfirmation'] = 'ユーザがプロファイルでメ
 $string['configemoticons'] = '右側のエモーティコンの名称に関わる左側のコードを変更してください。新しいエモーティコンを追加するには、コードおよび名称を追加した後、名称.gifのイメージを「/pix/s」ディレクトリに入れてください。';
 $string['configenableajax'] = 'ここでは、サイト全体におけるAJAX (Javaスクリプトを使用した高度なクライアント/サーバインターフェース) の使用をコントロールできます。この設定を有効にした場合、ユーザはプロファイルページでAJAXの使用を選択できます。この設定を無効にした場合、すべてのユーザでAJAXの使用が無効にされます。';
 $string['configenablecalendarexport'] = 'カレンダーのエクスポートまたは購読を有効にします。';
+$string['configenablecomments'] = 'コメントを有効にします。';
 $string['configenablecourserequests'] = 'すべてのユーザにコース作成のリクエストを許可します。';
 $string['configenableglobalsearch'] = 'ここでは、リソースおよび活動のグローバルテキストサーチを有効にします。この設定は、PHP4に互換性がありません。';
 $string['configenablegroupings'] = 'ここでは、グループのグルーピングを有効にします。';
@@ -400,6 +401,7 @@ $string['emoticons'] = 'エモーティコン';
 $string['emptysettingvalue'] = '空';
 $string['enableajax'] = 'AJAXを有効にする';
 $string['enablecalendarexport'] = 'カレンダーエクスポートを有効にする';
+$string['enablecomments'] = 'コメントを有効にする';
 $string['enablecourserequests'] = 'コースリクエストを有効にする';
 $string['enableglobalsearch'] = 'グローバルサーチを有効にする';
 $string['enablegroupings'] = 'グルーピングを有効にする';

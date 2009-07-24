@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090715) (2009071300)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -22,6 +22,7 @@ $string['add'] = '追加';
 $string['addactivity'] = '活動の追加 ...';
 $string['addadmin'] = '管理者を追加する';
 $string['addblock'] = 'ブロックを追加する';
+$string['addcomment'] = 'コメントを追加する ...';
 $string['addcreator'] = 'コース作成者を追加する';
 $string['adddots'] = '追加 ...';
 $string['added'] = '$a が追加されました';
@@ -246,6 +247,8 @@ $string['clickhere'] = 'ここをクリック ...';
 $string['clicktochange'] = '変更するには、ここをクリックしてください。';
 $string['clicktohideshow'] = '展開または折りたたむには、ここをクリックしてください。';
 $string['closewindow'] = 'ウィンドウを閉じる';
+$string['commentincontext'] = 'このコメントをコンテクスト内で探す';
+$string['comments'] = 'コメント';
 $string['comparelanguage'] = '言語の比較・編集';
 $string['complete'] = '詳細';
 $string['completereport'] = '詳細レポート';
@@ -1389,6 +1392,7 @@ $string['showalltopics'] = 'すべてのトピックを表示する';
 $string['showallusers'] = 'すべてのユーザを表示する';
 $string['showallweeks'] = 'すべての週を表示する';
 $string['showblockcourse'] = 'ブロックを含むコース一覧を表示する';
+$string['showcomments'] = 'コメントを表示/非表示する';
 $string['showgrades'] = '学生に評定表を表示する';
 $string['showlistofcourses'] = 'コース一覧を表示';
 $string['showmodulecourse'] = '活動を含むコース一覧を表示する';

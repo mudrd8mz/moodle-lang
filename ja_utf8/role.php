@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
+      // role.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -47,6 +47,9 @@ $string['checkpermissionsin'] = '$a のパーミッションをチェックす�
 $string['checksystempermissionsfor'] = '$a->fullname に関するシステムパーミッションをチェックする';
 $string['checkuserspermissionshere'] = 'この $a->contextlevel 内で $a->fullname に割り当てられているパーミッションをチェックする';
 $string['chooseroletoassign'] = '割り当てるロールを選択してください。';
+$string['comment:delete'] = 'コメントを削除する';
+$string['comment:post'] = 'コメントを投稿する';
+$string['comment:view'] = 'コメントを読む';
 $string['context'] = 'コンテクスト';
 $string['course:activityvisibility'] = '活動を表示/非表示する';
 $string['course:bulkmessaging'] = '多くのユーザにメッセージを送信する';
