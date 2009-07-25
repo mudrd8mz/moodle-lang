@@ -1,12 +1,10 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // choice.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['addmorechoices'] = 'Dodavanje još izbora';
 $string['allowupdate'] = 'Dozvoliti ažuriranje izbora';
 $string['answered'] = 'Odgovoreno';
-$string['cannotsavechoice'] = 'Nije bilo moguće sačuvati Vaš izbor';
-$string['cannotupdatechoice'] = 'Nije bilo moguće ažurirati Vaš izbor zbog greške u bazi podataka';
 $string['choice'] = 'Izbor $a';
 $string['choice:choose'] = 'Beleženje izbora';
 $string['choice:deleteresponses'] = 'Brisanje odgovora';
@@ -16,6 +14,7 @@ $string['choiceclose'] = 'Do';
 $string['choicefull'] = 'Ovaj izbor je pun. Nema više dostupnih mesta.';
 $string['choicename'] = 'Naziv izbora';
 $string['choiceopen'] = 'Od';
+$string['choicesaved'] = 'Vaš izbor je sačuvan';
 $string['choicetext'] = 'Tekst izbora';
 $string['displayhorizontal'] = 'Prikazaži horizontalno';
 $string['displaymode'] = 'Način prikaza';
@@ -33,6 +32,7 @@ $string['noguestchoose'] = 'Žao nam je, ali gostima nije dozvoljeno popunjavanj
 $string['noresultsviewable'] = 'Rezultati trenutno nisu vidljivi.';
 $string['notanswered'] = 'Još nisu odgovorili';
 $string['notopenyet'] = 'Nažalost, ova aktivnost nije dostupna do $a';
+$string['option'] = 'Opcija';
 $string['privacy'] = 'Poverljivost rezultata';
 $string['publish'] = 'Objava rezultata';
 $string['publishafteranswer'] = 'Prikaz rezultata studentu tek nakon predatog odgovora';
@@ -53,5 +53,7 @@ $string['taken'] = 'Zauzeto';
 $string['timerestrict'] = 'Ograničavanje mogućnosti odgovaranja na ovaj vremenski period';
 $string['viewallresponses'] = 'Broj datih odgovora: $a';
 $string['yourselection'] = 'Vaš izbor';
+$string['cannotsavechoice'] = 'Nije bilo moguće sačuvati Vaš izbor'; // ORPHANED
+$string['cannotupdatechoice'] = 'Nije bilo moguće ažurirati Vaš izbor zbog greške u bazi podataka'; // ORPHANED
 
 ?>

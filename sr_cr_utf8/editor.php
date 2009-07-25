@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8.2+ (2007021520)
+      // editor.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['about'] = 'О овом едитору';
 $string['absbottom'] = 'Апсолутно доле';
+$string['acteditorshhdr'] = 'Активни едитори текста';
 $string['address'] = 'Адреса';
 $string['alertnoselectedtext'] = 'Морате ПРЕТХОДНО означити текст!';
 $string['alignment'] = 'Поравнање';
@@ -24,6 +25,7 @@ $string['chooseicon'] = 'Одаберите иконицу за уношење';
 $string['close'] = 'Затвори';
 $string['closeafterreplace'] = 'Затвори након замене';
 $string['cols'] = 'Колоне';
+$string['configeditorplugins'] = 'Молимо вас да одаберете додатке за едиторе које желите да користите и поређајте препорученим редоследом.';
 $string['copy'] = 'Копирај изабрано';
 $string['createanchor'] = 'Креирај ослонац';
 $string['createfolder'] = 'Направи директоријум';
@@ -31,6 +33,8 @@ $string['createlink'] = 'Додај веб линк';
 $string['cut'] = 'Исеци изабрано';
 $string['cutpastemozilla'] = 'Нажалост не можете тренутно да користите уобичајете скраћенице са тастатуре (чак ни Paste дугме) за убацивање текста у овај едитор. То је последица сигурносне опције уграђене у неке верзије Mozilla и Fиrefox читача.<br /><br />Постоје три начина да ипак урадите оно што желите:<br /> (1) Уместо CTRL-v, користите SHIFT-Insert <br /> (2) Користите Edit->Paste мени Вашег web читача <br /> (3) Промените својства у Вашем web читачу уређивањем user.js датотеке. <br /><br />Кликните на дугме ”Потврди” испод за детаљнију помоћ, или на дугме ”Одустани” за повратак на едитор';
 $string['delete'] = 'Обриши';
+$string['editors'] = 'Едитори текста';
+$string['editorsettings'] = 'Управљање едиторима';
 $string['enterurlfirst'] = 'Морате прво унети URL';
 $string['filebrowser'] = 'Претраживач датотека';
 $string['findwhat'] = 'Пронађи';

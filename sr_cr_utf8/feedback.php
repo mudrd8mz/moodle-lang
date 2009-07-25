@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
+      // feedback.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['add_item'] = 'Додај питање';
@@ -17,7 +17,11 @@ $string['autonumbering'] = 'Аутоматски бројеви за свако 
 $string['average'] = 'Просечно';
 $string['bold'] = 'Подебљано';
 $string['cancel_moving'] = 'Поништи пребацивање';
+$string['cannotmapfeedback'] = 'Проблеми са базом података. Није могуће повезати упитник са курсом.';
+$string['cannotsavetempl'] = 'чување шаблона није дозвољено';
+$string['cannotunmap'] = 'Проблем са базом податком. Није могуће раздовојити упитник и курсеве';
 $string['captcha'] = 'Captcha упит';
+$string['captchanotset'] = 'Captcha упит није подешен';
 $string['check'] = 'Вишеструки избор - више одговора';
 $string['check_values'] = 'Могући одговори';
 $string['checkbox'] = 'Вишеструки избор - дозвољено више одговора (поље за потврду)';
@@ -69,6 +73,7 @@ $string['feedback:receivemail'] = 'Добити обавештење путем 
 $string['feedback:view'] = 'Погледај упитник';
 $string['feedback:viewanalysepage'] = 'Погледај страницу са анализом резултата након испуњавања упитника';
 $string['feedback:viewreports'] = 'Погледаj извештај';
+$string['feedback_is_not_for_anonymous'] = 'упитник није за анонимне кориснике';
 $string['feedback_is_not_open'] = 'Упитник није отворен';
 $string['feedback_options'] = 'Опције за подешавање упитника';
 $string['feedbackclose'] = 'Упитник доступан до';
@@ -90,11 +95,11 @@ $string['items_are_required'] = 'На питања обележена звезд
 $string['label'] = 'Ознака';
 $string['line_labels'] = 'Ознака';
 $string['line_values'] = 'Оцењивање';
-$string['mapcourse'] = 'Мапирај курс';
+$string['mapcourse'] = 'Повежи курс';
 $string['mapcourseinfo'] = 'Ово је упитник доступан свим курсевима на сајту који га могу користи путем блока Упитник. Ипак, можете ограничити курсеве у којима ће се упитник појављивати тако што ћете их обележити. Претражи курс и повежи га са овим упитником.';
-$string['mapcoursenone'] = 'Ниједан курс није обележен. Упитник је доступан свим курсевима';
-$string['mapcourses'] = 'Мапирај упитник за курсеве';
-$string['mappedcourses'] = 'Мапирани курсеви';
+$string['mapcoursenone'] = 'Ниједан курс није повезан са упинком. Упитник је доступан свим курсевима';
+$string['mapcourses'] = 'Повежи упитник са курсевима';
+$string['mappedcourses'] = 'Повезани курсеви';
 $string['max_args_exceeded'] = 'Максимално 6 аргумената може бити обрађено, превише је адргумената';
 $string['maximal'] = 'максимално';
 $string['mode'] = 'Врста упитника';
@@ -120,6 +125,7 @@ $string['non_anonymous'] = 'Име корисника биће записано 
 $string['non_anonymous_entries'] = 'неанонимни одговори';
 $string['not_completed_yet'] = 'Још није завршено';
 $string['not_selected'] = 'Није изабрано';
+$string['notavailable'] = 'овај упитник није доступан';
 $string['numeric'] = 'Бројчани одговор';
 $string['numeric_range_from'] = 'Рангирај од';
 $string['numeric_range_to'] = 'Рангирај до';
@@ -183,11 +189,15 @@ $string['textfield'] = 'Кратак текстуални одговор';
 $string['textfield_maxlength'] = 'Максимално дозвољен број карактера';
 $string['textfield_size'] = 'Ширина текстуалног поља';
 $string['this_feedback_is_already_submitted'] = 'Већ сте попунили овај упитник.';
+$string['typemissing'] = 'недостаје вредност \"тип\"';
 $string['update_item'] = 'Сачувај промене у питању';
+$string['url_for_continue_button'] = 'УРЛ за наставак - дугме';
 $string['use_one_line_for_each_value'] = '<br />Употреби један ред за сваки одговор!';
 $string['use_this_template'] = 'Употреби овај шаблон';
 $string['using_templates'] = 'Употреби шаблон';
 $string['vertical'] = 'вертикално';
+$string['cannotcreatecompletedfeedback'] = 'Није могуће креирати завршени упитник'; // ORPHANED
+$string['cannotcreatetmpfeedback'] = 'Није могуће креирати привремени упитник'; // ORPHANED
 $string['publish_stats_on_students'] = 'Прикажи анализу студентима'; // ORPHANED
 $string['all_old_values_will_be_deleted'] = 'Текуће питања и сви одговори корисника биће обрисани'; // ORPHANED
 $string['all_old_values_will_be_preserved'] = 'Сва стара питања и додељене вредности биће сачувани'; // ORPHANED

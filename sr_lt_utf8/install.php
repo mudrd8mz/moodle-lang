@@ -1,8 +1,7 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // install.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
-$string['aborting'] = 'Odustajanje od instalacije';
 $string['admindirerror'] = 'Specificirani administratorski direktorijum je netačan';
 $string['admindirname'] = 'Administratorski direktorijum';
 $string['admindirsetting'] = 'Poneki Web serveri koriste /admin kao specijalni URL za pristup raznim podešavanjima ili nečem drugom. Nažalost to je u konfliktu sa standardnom Moodle lokacijom za administratorske stranice. Možete rešiti problem preimenovanjem administratorskog direktorijuma u Vašoj instalaciji, i navođenjem tog novog naziva ovde. Na primer: <br /> <br /><b>moodleadmin</b><br /> <br />
@@ -10,33 +9,25 @@ Ovo podešavanje će prepraviti administratorske linkove u Moodle sistemu.';
 $string['admindirsettinghead'] = 'Podešavanje administratorskog direktorijuma';
 $string['admindirsettingsub'] = 'Poneki Web serveri koriste /admin kao specijalni URL za pristup raznim podešavanjima ili nečem drugom. Nažalost to je u konfliktu sa standardnom Moodle lokacijom za administratorske stranice. Možete rešiti problem preimenovanjem administratorskog direktorijuma u Vašoj instalaciji, i navođenjem tog novog naziva ovde. Na primer: <br /> <br /><b>moodleadmin</b><br /> <br />
 Ovo podešavanje će prepraviti administratorske linkove u Moodle sistemu.';
-$string['adminemail'] = 'Adresa e-pošte :';
-$string['adminfirstname'] = 'Ime :';
-$string['admininfo'] = 'Podaci o administratoru';
-$string['adminlastname'] = 'Prezime :';
-$string['adminpassword'] = 'Lozinka :';
-$string['adminusername'] = 'Korisničko ime :';
-$string['askcontinue'] = 'Nastavi (da/ne) :';
-$string['availabledbtypes'] = 'Dostupne baze podataka';
 $string['availablelangs'] = 'Spisak dostupnih jezika';
-$string['cannotconnecttodb'] = 'Nije moguće uspostaviti vezu sa bazom podataka';
 $string['caution'] = 'Oprez';
-$string['checkingphpsettings'] = 'Provera PHP podešavanja';
 $string['chooselanguage'] = 'Izaberi jezik';
 $string['chooselanguagehead'] = 'Izaberite jezik';
 $string['chooselanguagesub'] = 'Molimo izaberite jezik koji će se koristiti samo tokom instalacije. Kasnije ćete moći da izaberete jezička podešavanja na nivou sajta i korisnika.';
+$string['cliadminpassword'] = 'Nova lozinka za administratora';
+$string['clialreadyinstalled'] = 'Datoteka config.php već postoji. Upotrebite komandu admin/cli/upgrade.php ako želite da ažurirate svoj sajt.';
+$string['cliinstallfinished'] = 'Instalacija je uspešno završena';
+$string['cliinstallheader'] = 'Moodle $a program za instalaciju iz komandne linije';
+$string['climustagreelicense'] = 'U neinteraktivnom modu morate prihvatiti licencu navodeći opciju --agree-license';
+$string['clitablesexist'] = 'Baza podtaka već postoji. Nije moguće nastaviti instalaciju iz komandne linije.';
 $string['compatibilitysettings'] = 'Provera Vaših PHP podešavanja...';
 $string['compatibilitysettingshead'] = 'Provera Vaših PHP podešavanja...';
 $string['compatibilitysettingssub'] = 'Vaš server bi trebao proći sve ove testove da bi Moodle na njemu uspešno funkcionisao';
-$string['configfilecreated'] = 'Konfiguraciona dadoteka je uspešno kreirana';
-$string['configfiledoesnotexist'] = 'Konfiguraciona dadoteka ne postoji!!!';
 $string['configfilenotwritten'] = 'Instalacioni skript nije bio u mogućnosti da automatski kreira datoteku config.php koja bi sadržavala Vaša odabrana podešavanja, verojatno zbog toga što nema prava na pisanje (menjanje sadržaja) u Vašem Moodle direktorijumu. Ako to želite, možete ručno kopirati kod u datoteku config.php u osnovnom direktorijumu Vaše Moodle instalacije.';
 $string['configfilewritten'] = 'config.php je uspešno kreiran';
 $string['configurationcomplete'] = 'Konfiguracija je završena';
 $string['configurationcompletehead'] = 'Konfiguracija je završena';
 $string['configurationcompletesub'] = 'Moodle je pokušao da sačuva Vašu konfiguraciju u datoteci smeštenoj u korenskom direktorijumu Moodle instalacije.';
-$string['configurationfileexist'] = 'Konfiguraciona datoteka već postoji';
-$string['creatingconfigfile'] = 'Kreiranje konfiguracione datoteke';
 $string['database'] = 'Baza podataka';
 $string['databasecreationsettings'] = 'Sada je potrebno konfigurisati podešavanja baze podataka u kojoj će se čuvati najveći deo Moodle podataka. Ta baza podataka će biti kreirana automatski prilikom instalacije, sa podešavanjima specificiranim ispod. <br />
 <br /> <br />
@@ -53,6 +44,13 @@ $string['databasecreationsettingssub'] = '<b>Tip:</b> postavljeno na \"mysql\" p
 <b>Korisnik:</b> postavljeno na \"root\" prilikom instalacije<br />
 <b>Lozinka:</b> Vaša lozinka za bazu podataka<br />
 <b>Prefiks tabela:</b> opcioni prefiks koji će se koristiti u nazivima svih tabela';
+$string['databasecreationsettingssub2'] = '<b>Tip:</b> fiksno \"mysqli\" <br />
+<b>Host:</b> fiksno \"localhost\" <br />
+<b>Ime:</b> ime baze podataka, npr. moodle<br />
+<b>Korisnik:</b> fiksno \"root\" od strane instalacionog programa<br />
+<b>Lozinka:</b> lozinka Vaše baze podataka<br />
+<b>Prefiksi tabela:</b> opcioni prefiks za imena svih tabela';
+$string['databasehead'] = 'Podešavanja baze podataka';
 $string['databasehost'] = 'Server baze podataka :';
 $string['databasename'] = 'Ima baze podataka :';
 $string['databasepass'] = 'Lozinka za pristup bazi podataka :';
@@ -64,7 +62,6 @@ $string['databasesettings'] = 'Sada je potrebno konfigurisati bazu podataka u ko
 <b>Korisnik:</b> korisničko ime za pristup bazi podataka<br />
 <b>Lozinka:</b> lozinka za pristup bazi podataka<br />
 <b>Prefiks tabela:</b>opcioni prefiks koji će se koristiti u nazivima svih tabela';
-$string['databasesettingsformoodle'] = 'Podešavanja baze podataka za Moodle';
 $string['databasesettingshead'] = 'Sada je potrebno konfigurisati bazu podataka u kojoj će se čuvati veći deo Moodle podataka. Ta baza podataka mora već biti kreirana, kao i korisničko ime i lozinka za pristup istoj.';
 $string['databasesettingssub'] = '<b>Tip:</b> mysql ili postgres7<br />
 <b>Server:</b> npr. localhost ili db.isp.com<br />
@@ -114,15 +111,10 @@ $string['databasesettingssub_postgres7'] = '<b>Tip:</b> PostgreSQL<br />
 <b>Korisnik:</b> Vaše korisničko ime za pristup bazi podataka<br />
 <b>Lozinka:</b> Vaša lozinka za pristup bazi podataka<br />
 <b>Prefiksi tabela:</b> prefiks koji će se koristiti u nazivima svih tabela (obavezno)';
-$string['databasesettingssub_sqlite3_pdo'] = '<b>Tip:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Eksperimentalno! (nije za zvanično korišćenje)</strong></b><br />
-<b>Host:</b> putanja do direktorijuma gde će biti sačuvane datoteke baze podataka (koristiti potpunu putanju); koristiti  localhost ili ostaviti prazno da bi bio korišćen direktorijum Moodle data <br />
-<b>Ime:</b> ime baze podataka, npr. moodle (opciono)<br />
-<b>Korisnik:</b> korisničko ime Vaše baze podataka (opciono)<br />
-<b>Lozinka:</b> lozinka za pristup Vašoj bazi podataka (opciono)<br />
-<b>Prefiks imena tabela:</b> opcioni prefiks koji se koristi kod imena tabela <br />
-Ime datoteke baze podataka biće određeno prema korisničkom imenu, imenu baze podataka i prema lozinki koju ste uneli iznad.';
 $string['databasesettingswillbecreated'] = '<b>Napomena:</b> Program ѕa instalaciju će automatski pokušati da kreira bazu podataka ukoliko ona ne postoji.';
-$string['databasetype'] = 'Vrsta baze podataka :';
+$string['databasesocket'] = 'Unix soket';
+$string['databasetypehead'] = 'Izaberi drajver baze podataka';
+$string['databasetypesub'] = 'Moodle podržava nekoliko tipova baza podataka. Ukoliko ne znate koji tip da koristite kontaktirajte administratora servera.';
 $string['databaseuser'] = 'Korisničko ime za pristup bazi podataka :';
 $string['dataroot'] = 'Direktorijum podataka';
 $string['datarooterror'] = '\'Direktorijum podataka\' koji ste naveli ne može biti pronađen ili kreiran. Unesite tačnu putanju ili napravite taj direktorijum ručno.';
@@ -164,17 +156,16 @@ Vodite računa o velikim i malim slovima.
 Morate odrediti mesto na kom će Moodle čuvati postavljene datoteke. Korisnik web servera (obično \'niko\' ili \'apache\') bi morao imati mogućnost da čita podatke iz tog direktorijuma, ali i da ih u njega upisuje, ali oni ne bi trebali biti dostupni direktno preko web-a.';
 $string['dirroot'] = 'Moodle direktorijum';
 $string['dirrooterror'] = 'Podešavanje \'Moodle direktorijuma\' je čini se netačno - ne može se tamo naći Moodle instalacija. Niža vrednost će biti ponovo dovedena na početni položaj.';
-$string['disagreelicense'] = 'Nadogradnja se ne može nastavti zbog neslaganja sa GPL licencom!';
 $string['download'] = 'Preuzeti';
 $string['downloadlanguagebutton'] = 'Preuzmi \"$a\" jezički paket';
 $string['downloadlanguagehead'] = 'Preuzmi jezički paket';
 $string['downloadlanguagenotneeded'] = 'Možete nastaviti proces instalacije korišćenjem podrazumevanog jezičkog paketa, \"$a\".';
-$string['downloadlanguagepack'] = 'Da li želite da sada preuzmete jezički paket (da/ne) :';
 $string['downloadlanguagesub'] = 'Sada imate mogućnost preuzimanja željenog jezičkog paketa i nastavka instalacionog procesa na tom jeziku.<br /><br />Ako niste u mogućnosti da preuzmete jezički paket, instalacioni proces će se nastaviti na engleskom jeziku. (Kada se instalacija završi, imaćete mogućnost da preuzmete i instalirate dodatne jezičke pakete.)';
-$string['downloadsuccess'] = 'Jezički paket je uspešno preuzet';
 $string['doyouagree'] = 'Da li se slažete? (da/ne)';
 $string['environmenthead'] = 'Proveravanje Vašeg okruženja...';
 $string['environmentsub'] = 'Proverava se da li razne komponente Vašeg sistema zadovoljavaju sistemske zahteve';
+$string['environmentsub2'] = 'Svaka verzija Moodlea ima minimum zahteva po pitanju odgovarajuće PHP verѕije i nekoliko obaveznih PHP ekstenzija.
+Puna provera okruženja se vrši pre svake instalacije ili ažuriranja postojeće verzije. Ukoliko ne znate kako da instalirate novu verziju ili omogućite PHP ektenzije kontaktirajte Vašeg server administratora.';
 $string['errorsinenvironment'] = 'Greške u okruženju';
 $string['fail'] = 'Nije prošlo';
 $string['fileuploads'] = 'Postavljanje datoteka';
@@ -207,23 +198,8 @@ $string['inputdatadirectory'] = 'Direktorijum podatka';
 $string['inputwebadress'] = 'Web adresa :';
 $string['inputwebdirectory'] = 'Direktorijum Moodlea';
 $string['installation'] = 'Instalacija';
-$string['installationiscomplete'] = 'Instalacija je završena';
-$string['invalidargumenthelp'] = 'Greška: Neispravni argument(i)
-Upotreba: $php cliupgrade.php OPTIONS
-Iskoristi opciju --help za dodatnu pomoć';
-$string['invalidemail'] = 'Neispravna adresa e-pošte';
-$string['invalidhost'] = 'Neispravan host';
-$string['invalidint'] = 'Greška: vrednost nije ceo broj';
-$string['invalidintrange'] = 'Greška: vrednost je izvan ispravnog opsega';
-$string['invalidpath'] = 'Neispravna putanja';
-$string['invalidsetelement'] = 'Greška: Zadata vrednost se ne nalazi među ponuđenim opcijama';
-$string['invalidtextvalue'] = 'Neispravna tekstalna vrednost';
-$string['invalidurl'] = 'Neispravna URL adresa';
-$string['invalidvalueforlanguage'] = 'Neispravna vrednost za opciju --lang. Kucajte --help za pomoć';
-$string['invalidyesno'] = 'Geška: vrednost nije ispravan da/ne adrgument';
 $string['langdownloaderror'] = 'Nažalost jezik \"$a\" nije instaliran. Proces instalacije biće nastavljen na engleskom jeziku.';
 $string['langdownloadok'] = 'Jezik \"$a\" je uspešno instaliran. Instalacioni proces će biti nastavljen na ovom jeziku.';
-$string['locationanddirectories'] = 'Lokacije i direktorijumi';
 $string['magicquotesruntime'] = 'Magic Quotes vreme izvršavanja';
 $string['magicquotesruntimeerror'] = 'Ova opcija bi trebala biti isključena';
 $string['magicquotesruntimehelp'] = '<p>Magic Quotes vreme izvršavanja bi trebalo isključiti da Moodle propisno funkcioniše.</p>
@@ -252,16 +228,30 @@ $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHP neće biti propisno konfigurisan sa MySQL ekstenzijom tako da može komunicirati sa MySQL-om. Molimo Vas da proverite svoju php.ini datoteku ili opet kompajlirate PHP.';
 $string['mysqli'] = 'Unapređeni MySQL (mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHP nije pravilno podešen za rad sa MySQLi ekstenzijom da bi mogao komunicirati sa MySQL. Molimo proverite Vašu php.ini datoteku ili ponovo kompajlirajte PHP. MySQLi ekstenzija nije na raspolaganju za PHP 4.';
+$string['nativemysqli'] = 'Unapređen MySQL(native/mysqli)';
+$string['nativemysqlihelp'] = 'Sada je nophodno da konfigurišete bazu podatka gde će najveći deo podataka iz Moodlea biti pohranjen. Baza podataka može biti kreirana ako korisnik ima potrebna ovlašćenja. Korisničko ime i lozinka moraju već da postoje. Prefiks tabela je opcioni.';
+$string['nativeoci'] = 'Oracle (native/oci)';
+$string['nativepgsql'] = 'PostgreSQL (native/pgsql)';
+$string['nativepgsqlhelp'] = 'Sada je nophodno da konfigurišete bazu podatka gde će najveći deo podataka iz Moodlea biti pohranjen. Ova baza podataka prethodno već mora biti kreirana, kao i korisničko ime i lozinka potrebni za pristup bazi. Prefiks tabele je obavezan.';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHP nije bio propisno konfigurisan sa OCI8 ekstenzijom tako da može komunicirati sa Oracle-om. Molimo Vas da proverite svoju php.ini datoteku ili opet kompajlirate PHP.';
 $string['odbc_mssql'] = 'SQL* Server preko ODBCa (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHP nije bio propisno konfigurisan sa ODBC ekstenzijom tako da može komunicirati sa SQL* Serverom. Molimo Vas da proverite svoju php.ini datoteku ili opet kompajlirate PHP.';
 $string['pass'] = 'Prošlo';
+$string['paths'] = 'Putanje';
+$string['pathserrcreatedataroot'] = 'Instalciona procedura ne može da kreira direktorijum baze podataka ($a->dataroot)';
+$string['pathshead'] = 'Potvrdi putanje';
+$string['pathsrodataroot'] = 'U direktorijum za podatke nije moguć upis';
+$string['pathsroparentdataroot'] = 'U nadređeni direktorijum ($a->parent) nije moguć upis. Direktorijum za podatke ($a->dataroot) ne može kreirati instalacioni program.';
+$string['pathssubadmindir'] = 'Nekoliko sajtova za Webhosting koristi /admin kao specijalni URL za pristup kontrolnom panelu. Na žalost, to može da da dovede do konflikta sa standardnim direktorijumom u kojem su smešten Moodle administratorske stranice. Ovaj problem možete rešiti tako što ćete tokom instalacije preimenovati admin direktorijum u, na primer <em>moodleadmin</em>.';
+$string['pathssubdataroot'] = 'Potreban vam je prostor gde će Moodle čuvati postavnjene datoteke. Ovaj direktorijum bi trebalo da bude podešen tako da se može čitati i u njega upisivati od strane korisnika Web servera (obično \'nobody\' ili \'apache\'), ali istovremeno mora biti dostupan direktno preko Weba. Ukoliko ovaj direktorijum ne postoji Moodle će pikušati da ga kreira tokom instalacije,';
+$string['pathssubdirroot'] = 'Puna putanja do direktotijuma za instalaciju Moodlea. Promenite samo ukoliko želite da koristite sinbolične linkove.';
+$string['pathssubwwwroot'] = 'Puna ver adresa preko koje će se pristupati Moodleu. Nije moguće pristupati Moodleu koristeći višnj adresa. Ukoliko Vaš sajt ima više javnih adresa onda na svima morate da podesite permanentnu direkciju ka jednoj adresi. Ukoliko je Vaš sajt dostupam sa Interneta ali i iz Intranet okružeanja koristite javnu adresu i podesite DNS tako da i Intranet korisnici mogu da koriste tu javnu adresu.';
+$string['pathsunsecuredataroot'] = 'Dataroot lokacija nije bezbedna';
+$string['pathswrongadmindir'] = 'Admin direktorijum ne postoji';
+$string['pathswrongdirroot'] = 'Neispravna dirroot lokacija';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP nije bio propisno konfigurisan sa  PGSQL ekstenzijom tako da može komunicirati sa PostgreSQLom. Molimo Vas da proverite svoju php.ini datoteku ili opet kompajlirate PHP.';
-$string['php52versionerror'] = 'Verzija PHP mora biti najmanje 5.2.0.';
-$string['php52versionhelp'] = '<p>Moodle zahteva verziju PHP najmanje 5.2.0.</p>
-<p>Trenutno Vam radi verzija $a</p>
-<p>Morate unaprediti verziju PHP ili preseliti sajt na server domaćin koji ima noviju verziju PHP!</p>';
+$string['phpextension'] = '$a PHP ekstenѕija';
 $string['phpversion'] = 'PHP verzija';
 $string['phpversionhelp'] = '<p>Moodle zahteva najmanje PHP verziju 4.3.0 ili 5.1.0 (5.0.x funkcioniše uz brojne uočene probleme).</p>
 <p>Trenutno imate verziju $a</p>
@@ -276,35 +266,83 @@ $string['safemodehelp'] = '<p>Moodle može imati različite probleme sa uključe
 <p>Bezbedni mod rada je obično jedino dozvoljen na paranoičnim javnim Web serverima, tako da možete prosto naći web server kod neke druge kuće za Vaš Moodle sajt.</p>
    
 <p>Možete pokušati nastaviti sa instalacijom ako želite, ali očekujte nekoliko problema kasnije.</p>';
-$string['selectlanguage'] = 'Izbor jezika za instalaciju';
 $string['sessionautostart'] = 'Automatski početak sesije';
 $string['sessionautostarterror'] = 'Ova opcija bi trebala biti isključena';
 $string['sessionautostarthelp'] = '<p>Moodle zahteva podršku za sesije i neće funcionisati bez nje.</p>
 
 <p>Rad sa sesijama se može omogućiti u php.ini datoteci... potražite session.auto_start parametar.</p>';
-$string['sitefullname'] = 'Pun naziv sajta :';
-$string['siteinfo'] = 'Detalji o sajtu';
-$string['sitenewsitems'] = 'Vesti :';
-$string['siteshortname'] = 'Kratak naziv sajta :';
-$string['sitesummary'] = 'Kratak pregled sajta :';
 $string['skipdbencodingtest'] = 'Preskočiti test kodnog rasporeda baze podataka';
-$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Eksperimentalno! (nije za zvanično korišćenje)</strong></b>';
 $string['sqliteextensionisnotpresentinphp'] = 'PHP nije pravilno podešen sa ekstenzijom SQLite. Molimo proverite Vašu datoteku php.ini ili ponovo kompajlirajte PHP.';
-$string['tableprefix'] = 'Prefiks tabele :';
-$string['upgradingactivitymodule'] = 'Nadogradnja modula Aktivnost';
-$string['upgradingbackupdb'] = 'Nadogradnja rezervne kopije baze podataka';
-$string['upgradingblocksdb'] = 'Nadogradnja blokova baze podatka';
-$string['upgradingblocksplugin'] = 'Nadogradnja dodatka za blokove';
-$string['upgradingcompleted'] = 'Nadogradnja je završeno...';
-$string['upgradingcourseformatplugin'] = 'Nadogradnja dodatka za format kursa';
-$string['upgradingenrolplugin'] = 'Nadogradnja dodatka za upis';
-$string['upgradinggradeexportplugin'] = 'Nadogradnja dodatka za izvoz ocena';
-$string['upgradinggradeimportplugin'] = 'Nadogradnja dodatka za uvoz ocena';
-$string['upgradinggradereportplugin'] = 'Nadogradnja dodatka za izveštaj o ocenama';
-$string['upgradinglocaldb'] = 'Nadogradlja lokalne baze podataka';
-$string['upgradingmessageoutputpluggin'] = 'Unapređenje dodatka Izlaz Poruke';
 $string['upgradingqtypeplugin'] = 'Nadogradnja dodatka za pitanja/tipove';
-$string['upgradingrpcfunctions'] = 'Nadogradnja ROC funkcija';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
+$string['welcomep20'] = 'Prikazana Vam je ova stranica jer ste uspešno instalirali i pokrenuli <strong>$a->packname $a->packversion</strong> paket na Vašem računaru. Čestitamo!';
+$string['welcomep30'] = 'Ovo izdanje <strong>$a->installername</strong> uključuje aplikacije za kreiranje okruženja u kom će <strong>Moodle</strong> uspešno funkcionisati, konkretno:';
+$string['welcomep40'] = 'Ovaj paket obuhvata i <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong>.';
+$string['welcomep50'] = 'Korišćenje aplikacija iz ovog paketa je uslovljeno njhovim licencama. Kompletan <strong>$a->installername</strong> paket je <a href=\"http://www.opensource.org/docs/definition_plain.html\">otvorenog koda</a> i distribuira se pod <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> licencom.';
+$string['welcomep60'] = 'Naredne stranice će Vas provesti kroz nekoliko jednostavnih koraka tokom kojih ćete konfigurisati <strong>Moodle</strong> na Vašem računaru. Možete prihvatiti podrazumevana podešavanja ili ih, opciono, prilagoditi sopstvenim potrebama.';
+$string['welcomep70'] = 'Kliknite na dugme za nastavak da biste dalje podešavali <strong>Moodle</strong>.';
+$string['wwwroot'] = 'Web adresa';
+$string['wwwrooterror'] = 'Navedena \'Web adresa\' se čini nevalidnom - ova Moodle instalacija izgleda nije na njoj. Vrednost navedena ispod je resetovana.';
+$string['aborting'] = 'Odustajanje od instalacije'; // ORPHANED
+$string['adminemail'] = 'Adresa e-pošte :'; // ORPHANED
+$string['adminfirstname'] = 'Ime :'; // ORPHANED
+$string['admininfo'] = 'Podaci o administratoru'; // ORPHANED
+$string['adminlastname'] = 'Prezime :'; // ORPHANED
+$string['adminpassword'] = 'Lozinka :'; // ORPHANED
+$string['adminusername'] = 'Korisničko ime :'; // ORPHANED
+$string['askcontinue'] = 'Nastavi (da/ne) :'; // ORPHANED
+$string['availabledbtypes'] = 'Dostupne baze podataka'; // ORPHANED
+$string['cannotconnecttodb'] = 'Nije moguće uspostaviti vezu sa bazom podataka'; // ORPHANED
+$string['checkingphpsettings'] = 'Provera PHP podešavanja'; // ORPHANED
+$string['configfilecreated'] = 'Konfiguraciona dadoteka je uspešno kreirana'; // ORPHANED
+$string['configfiledoesnotexist'] = 'Konfiguraciona dadoteka ne postoji!!!'; // ORPHANED
+$string['configurationfileexist'] = 'Konfiguraciona datoteka već postoji'; // ORPHANED
+$string['creatingconfigfile'] = 'Kreiranje konfiguracione datoteke'; // ORPHANED
+$string['databasesettingsformoodle'] = 'Podešavanja baze podataka za Moodle'; // ORPHANED
+$string['databasetype'] = 'Vrsta baze podataka :'; // ORPHANED
+$string['disagreelicense'] = 'Nadogradnja se ne može nastavti zbog neslaganja sa GPL licencom!'; // ORPHANED
+$string['downloadlanguagepack'] = 'Da li želite da sada preuzmete jezički paket (da/ne) :'; // ORPHANED
+$string['downloadsuccess'] = 'Jezički paket je uspešno preuzet'; // ORPHANED
+$string['installationiscomplete'] = 'Instalacija je završena'; // ORPHANED
+$string['invalidargumenthelp'] = 'Greška: Neispravni argument(i)
+Upotreba: $php cliupgrade.php OPTIONS
+Iskoristi opciju --help za dodatnu pomoć'; // ORPHANED
+$string['invalidemail'] = 'Neispravna adresa e-pošte'; // ORPHANED
+$string['invalidhost'] = 'Neispravan host'; // ORPHANED
+$string['invalidint'] = 'Greška: vrednost nije ceo broj'; // ORPHANED
+$string['invalidintrange'] = 'Greška: vrednost je izvan ispravnog opsega'; // ORPHANED
+$string['invalidpath'] = 'Neispravna putanja'; // ORPHANED
+$string['invalidsetelement'] = 'Greška: Zadata vrednost se ne nalazi među ponuđenim opcijama'; // ORPHANED
+$string['invalidtextvalue'] = 'Neispravna tekstalna vrednost'; // ORPHANED
+$string['invalidurl'] = 'Neispravna URL adresa'; // ORPHANED
+$string['invalidvalueforlanguage'] = 'Neispravna vrednost za opciju --lang. Kucajte --help za pomoć'; // ORPHANED
+$string['invalidyesno'] = 'Geška: vrednost nije ispravan da/ne adrgument'; // ORPHANED
+$string['locationanddirectories'] = 'Lokacije i direktorijumi'; // ORPHANED
+$string['pdosqlite3'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Eksperimentalno! (nije za korišćenje na serveru na kojem postoje aktivni kursevi)</strong></b>'; // ORPHANED
+$string['php52versionerror'] = 'Verzija PHP mora biti najmanje 5.2.0.'; // ORPHANED
+$string['php52versionhelp'] = '<p>Moodle zahteva verziju PHP najmanje 5.2.0.</p>
+<p>Trenutno Vam radi verzija $a</p>
+<p>Morate unaprediti verziju PHP ili preseliti sajt na server domaćin koji ima noviju verziju PHP!</p>'; // ORPHANED
+$string['selectlanguage'] = 'Izbor jezika za instalaciju'; // ORPHANED
+$string['sitefullname'] = 'Pun naziv sajta :'; // ORPHANED
+$string['siteinfo'] = 'Detalji o sajtu'; // ORPHANED
+$string['sitenewsitems'] = 'Vesti :'; // ORPHANED
+$string['siteshortname'] = 'Kratak naziv sajta :'; // ORPHANED
+$string['sitesummary'] = 'Kratak pregled sajta :'; // ORPHANED
+$string['tableprefix'] = 'Prefiks tabele :'; // ORPHANED
+$string['upgradingactivitymodule'] = 'Nadogradnja modula Aktivnost'; // ORPHANED
+$string['upgradingbackupdb'] = 'Nadogradnja rezervne kopije baze podataka'; // ORPHANED
+$string['upgradingblocksdb'] = 'Nadogradnja blokova baze podatka'; // ORPHANED
+$string['upgradingblocksplugin'] = 'Nadogradnja dodatka za blokove'; // ORPHANED
+$string['upgradingcompleted'] = 'Nadogradnja je završeno...'; // ORPHANED
+$string['upgradingcourseformatplugin'] = 'Nadogradnja dodatka za format kursa'; // ORPHANED
+$string['upgradingenrolplugin'] = 'Nadogradnja dodatka za upis'; // ORPHANED
+$string['upgradinggradeexportplugin'] = 'Nadogradnja dodatka za izvoz ocena'; // ORPHANED
+$string['upgradinggradeimportplugin'] = 'Nadogradnja dodatka za uvoz ocena'; // ORPHANED
+$string['upgradinggradereportplugin'] = 'Nadogradnja dodatka za izveštaj o ocenama'; // ORPHANED
+$string['upgradinglocaldb'] = 'Nadogradlja lokalne baze podataka'; // ORPHANED
+$string['upgradingmessageoutputpluggin'] = 'Unapređenje dodatka Izlaz Poruke'; // ORPHANED
+$string['upgradingrpcfunctions'] = 'Nadogradnja ROC funkcija'; // ORPHANED
 $string['usagehelp'] = 'Synopsis:
 $php cliupgrade.php OPTIONS
 
@@ -334,20 +372,19 @@ OPTIONS
 --help štampa ovu pomoć
 
 Način korišćenja:
-$php cliupgrade.php --lang=en --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Example Moodle Site\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2';
-$string['versionerror'] = 'Korisnik je odbačen zbog greške u verziji';
-$string['welcomep10'] = '$a->installername ($a->installerversion)';
-$string['welcomep20'] = 'Prikazana Vam je ova stranica jer ste uspešno instalirali i pokrenuli <strong>$a->packname $a->packversion</strong> paket na Vašem računaru. Čestitamo!';
-$string['welcomep30'] = 'Ovo izdanje <strong>$a->installername</strong> uključuje aplikacije za kreiranje okruženja u kom će <strong>Moodle</strong> uspešno funkcionisati, konkretno:';
-$string['welcomep40'] = 'Ovaj paket obuhvata i <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong>.';
-$string['welcomep50'] = 'Korišćenje aplikacija iz ovog paketa je uslovljeno njhovim licencama. Kompletan <strong>$a->installername</strong> paket je <a href=\"http://www.opensource.org/docs/definition_plain.html\">otvorenog koda</a> i distribuira se pod <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> licencom.';
-$string['welcomep60'] = 'Naredne stranice će Vas provesti kroz nekoliko jednostavnih koraka tokom kojih ćete konfigurisati <strong>Moodle</strong> na Vašem računaru. Možete prihvatiti podrazumevana podešavanja ili ih, opciono, prilagoditi sopstvenim potrebama.';
-$string['welcomep70'] = 'Kliknite na dugme za nastavak da biste dalje podešavali <strong>Moodle</strong>.';
-$string['welcometext'] = '---Dobrodošli u komandnu liniju programa za instalaciju Moodlea---';
-$string['writetoconfigfilefaild'] = 'Greška: Zapisivanje u konfiguracionu datoteku nije uspelo';
-$string['wwwroot'] = 'Web adresa';
-$string['wwwrooterror'] = 'Navedena \'Web adresa\' se čini nevalidnom - ova Moodle instalacija izgleda nije na njoj. Vrednost navedena ispod je resetovana.';
-$string['yourchoice'] = 'Vaš izbor :';
+$php cliupgrade.php --lang=en --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Example Moodle Site\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2'; // ORPHANED
+$string['versionerror'] = 'Korisnik je odbačen zbog greške u verziji'; // ORPHANED
+$string['welcometext'] = '---Dobrodošli u komandnu liniju programa za instalaciju Moodlea---'; // ORPHANED
+$string['writetoconfigfilefaild'] = 'Greška: Zapisivanje u konfiguracionu datoteku nije uspelo'; // ORPHANED
+$string['yourchoice'] = 'Vaš izbor :'; // ORPHANED
 $string['phpversionerror'] = 'PHP verzija mora biti bar 4.3.0 ili 5.1.0 (5.0.x funkcioniše uz brojne uočene probleme)'; // ORPHANED
+$string['databasesettingssub_sqlite3_pdo'] = '<b>Tip:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">Eksperimentalno! (nije za zvanično korišćenje)</strong></b><br />
+<b>Host:</b> putanja do direktorijuma gde će biti sačuvane datoteke baze podataka (koristiti potpunu putanju); koristiti  localhost ili ostaviti prazno da bi bio korišćen direktorijum Moodle data <br />
+<b>Ime:</b> ime baze podataka, npr. moodle (opciono)<br />
+<b>Korisnik:</b> korisničko ime Vaše baze podataka (opciono)<br />
+<b>Lozinka:</b> lozinka za pristup Vašoj bazi podataka (opciono)<br />
+<b>Prefiks imena tabela:</b> opcioni prefiks koji se koristi kod imena tabela <br />
+Ime datoteke baze podataka biće određeno prema korisničkom imenu, imenu baze podataka i prema lozinki koju ste uneli iznad.'; // ORPHANED
+$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Eksperimentalno! (nije za zvanično korišćenje)</strong></b>'; // ORPHANED
 
 ?>

@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // completion.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['activitycompletion'] = 'Završetak aktivnosti';
 $string['badautocompletion'] = 'Ako izaberete automatski završetak, morate takođe uključiti bar jedan zahtev (ispod).';
 $string['completedunlocked'] = 'Opcije za završetak otključane';
-$string['completedunlockedtext'] = 'Kada sačuvate izmene, stanje završetka aktivnosti za sve korisnike biće obrisano. Ako ste se predomislili za ovo, nemojte sačuvati formu.';
+$string['completedunlockedtext'] = 'Kada sačuvate izmene, stanje završetka aktivnosti za sve korisnike biće obrisano. Ako ste se predomislili za ovo, nemojte sačuvati obrazac.';
 $string['completedwarning'] = 'Opcije za završetak zaključane';
 $string['completedwarningtext'] = 'Jedan ili više korisnika ($a) su već označili ovu aktivnost kao završenu. Izmena opcija za završetak aktivnosti obrisaće njihova stanja završenosti i može izazvati zabunu. Opcije su zaključane i preporučujemo da ih ne otključavate, osim ako nije apsolutno neophodno.';
 $string['completion'] = 'Praćenje završetka';
@@ -15,8 +15,8 @@ $string['completion-alt-auto-n'] = 'Nije završeno';
 $string['completion-alt-auto-pass'] = 'Završeno (zaslužuje prelaznu ocenu)';
 $string['completion-alt-auto-y'] = 'Završeno';
 $string['completion-alt-manual-enabled'] = 'Korisnici mogu ručno označiti ovu stavku završenom';
-$string['completion-alt-manual-n'] = 'Nije završeno';
-$string['completion-alt-manual-y'] = 'Završeno';
+$string['completion-alt-manual-n'] = 'Nije završeno; izaberi da bi označio kao završeno';
+$string['completion-alt-manual-y'] = 'Završeno; izaberi da bi označiio kao nezavršeno';
 $string['completion-title-manual-n'] = 'Označi kao završeno';
 $string['completion-title-manual-y'] = 'Označi kao nije završeno';
 $string['completion_automatic'] = 'Prikaži aktivnost kao završenu kada se ispune uslovi';
@@ -30,7 +30,7 @@ $string['completionreport'] = 'Izveštaj o napredovanju u završetku aktivnosti'
 $string['completionusegrade'] = 'Zahtevaj ocenu';
 $string['completionusegrade_text'] = 'Korisnik mora dobiti ocenu';
 $string['completionview'] = 'Zahtevaj pregled';
-$string['completionview_text'] = 'Korisnik mora pregledati aktivnost';
+$string['completionview_text'] = 'Korisnik mora pogledati aktivnost';
 $string['configenablecompletion'] = 'Kada je uključeno, ovo Vam dozvoljava uključivanje opcija praćenja napredovanja u završetku aktivnosti na nivou kursa.';
 $string['configprogresstrackedroles'] = 'Uloge koje se prikazuju na ekranu za praćenje napredovanja. (Obično obuhvata samo studente i njima ekvivalentne uloge.)';
 $string['csvdownload'] = 'Preuzmi u formatu tabele (UTF-8 .csv)';
@@ -46,9 +46,11 @@ $string['help_completionview'] = 'zahteva se da pregledaju da bi završili';
 $string['progress'] = 'Napredovanje studenta';
 $string['progress-title'] = '$a->user, $a->activity: $a->state $a->date';
 $string['progresstrackedroles'] = 'Uloge (za) koje mogu pratiti napredovanje';
+$string['reportpage'] = 'Prikazuje korisnike $a->from} do {$a->to} od {$a->total}';
 $string['restoringcompletiondata'] = 'Upisivanje podataka o završetku aktivnosti';
 $string['saved'] = 'Sačuvano';
 $string['unlockcompletion'] = 'Otključaj opcije za završetak aktivnosti';
 $string['writingcompletiondata'] = 'Upisivanje podataka o završetku aktivnosti';
+$string['yourprogress'] = 'Vaš napredak';
 
 ?>

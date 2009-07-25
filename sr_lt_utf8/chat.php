@@ -1,17 +1,17 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // chat.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['ajax'] = 'Verzija koja koristi Ajax';
 $string['autoscroll'] = 'Automatski skrol';
 $string['beep'] = 'zvučni signal';
-$string['cantinsert'] = 'Nije bilo moguće uneti poruku u razgovor!';
 $string['cantlogin'] = 'Nije bilo moguće prijaviti se u pričaonicu!!';
 $string['chat:chat'] = 'Učestvuj u razgovoru';
 $string['chat:deletelog'] = 'Obriši zapise razgovora';
 $string['chat:exportparticipatedsession'] = 'Izvezi listu učesnika sesije';
 $string['chat:exportsession'] = 'Izvezi sesiju';
 $string['chat:readlog'] = 'Pročitaj zapise razgovora';
+$string['chat:talk'] = 'Razgovarajte u pričaonici';
 $string['chatintro'] = 'Uvodni tekst';
 $string['chatname'] = 'Naziv ove pričaonice';
 $string['chatreport'] = 'Razgovori';
@@ -38,6 +38,7 @@ $string['explainmethodnormal'] = 'Ova podešavanja su aktivna <strong>samo</stro
 $string['generalconfig'] = 'Opšta konfiguracija';
 $string['helpchatting'] = 'Pomoć pri razgovoru';
 $string['idle'] = 'Neaktivan';
+$string['inputarea'] = 'Područje za unos teksta';
 $string['invalidid'] = 'Nije bilo moguće pronaći tu pričaonicu!';
 $string['messagebeepseveryone'] = 'Učesnik $a signalizira svima!';
 $string['messagebeepsyou'] = 'Učesnik $a Vam upravo šalje zvučni signal!';
@@ -57,6 +58,7 @@ $string['nomessages'] = 'Još nema poruka';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Tok (Stream)';
 $string['noscheduledsession'] = 'Nema zakazanih sesija';
+$string['notallowenter'] = 'Nije van dozvoljen ulazak u pričaonicu';
 $string['notlogged'] = 'Niko nije prijavljen!';
 $string['oldping'] = 'Vreme čekanja na raskid konekcije';
 $string['pastchats'] = 'Prethodne sesije';
@@ -67,6 +69,7 @@ $string['repeatdaily'] = 'Svaki dan u isto vreme';
 $string['repeatnone'] = 'Nema ponavljanja - objaviti samo određeno vreme';
 $string['repeattimes'] = 'Ponovne sesije';
 $string['repeatweekly'] = 'Svake sedmice u isto vreme';
+$string['saidto'] = '<b>rečeno učesniku</b>';
 $string['savemessages'] = 'Sačuvaj prethodne sesije';
 $string['seesession'] = 'Pogledaj ovu sesiju';
 $string['send'] = 'Pošalji';
@@ -80,6 +83,8 @@ $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Svako može videti prethodne sesije';
 $string['updatemethod'] = 'Način ažuriranja';
 $string['updaterate'] = 'Brzina ažuriranja:';
+$string['userlist'] = 'Spisak korisnika';
 $string['viewreport'] = 'Pogledaj prethodne sesije';
+$string['cantinsert'] = 'Nije bilo moguće uneti poruku u razgovor!'; // ORPHANED
 
 ?>

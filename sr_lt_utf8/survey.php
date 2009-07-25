@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // survey.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['actual'] = 'Aktuelno';
@@ -58,6 +58,9 @@ $string['attlsm2'] = 'Povezano učenje';
 $string['attlsm3'] = 'Odvojeno učenje';
 $string['attlsmintro'] = 'U diskusiji ...';
 $string['attlsname'] = 'ATTLS (verzija od 20 pitanja)';
+$string['cannotfindanswer'] = 'Još uvek ne postoje pitanja u ovom upitniku';
+$string['cannotfindquestion'] = 'Pitanje ne postoji';
+$string['cannotfindsurveytmpt'] = 'Nije pronađen nijedan šablon upitnika!';
 $string['ciq1'] = 'U kom momentu tokom nastave ste se najviše angažovali kao učenik?';
 $string['ciq1short'] = 'Najangažovaniji';
 $string['ciq2'] = 'U kom momentu tokom nastave ste se najviše distancirali kao učenik?';
@@ -178,6 +181,8 @@ $string['howlong'] = 'Koliko Vam je trebalo da završite upitnik?';
 $string['howlongoptions'] = 'manje od 1 minuta, 1-2 minuta, 2-3 minuta, 3-4 minuta, 4-5-minuta, 5-10 minuta, više od 10 minuta';
 $string['ifoundthat'] = 'Otkrio/la sam da';
 $string['introtext'] = 'Uvodni tekst';
+$string['invalidsurveyid'] = 'ID Upitnika je pogrešan';
+$string['invalidtmptid'] = 'Neisprava id upitnika';
 $string['ipreferthat'] = 'Preferiram';
 $string['modulename'] = 'Upitnik (Survey)';
 $string['modulenameplural'] = 'Upitnici (Surveys)';

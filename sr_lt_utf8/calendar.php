@@ -1,15 +1,15 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // calendar.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['advancedoptions'] = 'Napredne opcije';
 $string['allday'] = 'Ceo dan';
 $string['calendar'] = 'Kalendar';
 $string['calendarheading'] = '$a Kalendar';
-$string['clickhide'] = 'Sakrivanje';
-$string['clickshow'] = 'Prikaz';
+$string['clickhide'] = 'sakrij';
+$string['clickshow'] = 'prikaži';
 $string['commontasks'] = 'Opcije';
-$string['confirmeventdelete'] = 'Jesi li u potpunosti siguran da želiš da obrišeš ovaj događaj?';
+$string['confirmeventdelete'] = 'Da li  ste sigurni da želite da obrišete ovaj događaj?';
 $string['course'] = 'Kurs';
 $string['courseevent'] = 'Događaj na kursu';
 $string['courseevents'] = 'Događaji na kursu';
@@ -24,7 +24,7 @@ $string['durationminutes'] = 'Trajanje u minutima';
 $string['durationnone'] = 'Neograničeno';
 $string['durationuntil'] = 'Sve do';
 $string['editevent'] = 'Uređivanje događaja';
-$string['errorbeforecoursestart'] = 'Ne može se podesiti događaj pre početka kursa';
+$string['errorbeforecoursestart'] = 'Ne može se podesiti događaj na datum pre početka kursa';
 $string['errorinvaliddate'] = 'Neispravan datum';
 $string['errorinvalidminutes'] = 'Unesi trajanje u minutima zadajući broj između 1 i 999.';
 $string['errorinvalidrepeats'] = 'Unesi broj događaja zadajući broj između 1 i 99.';
@@ -47,12 +47,12 @@ $string['eventstarttime'] = 'Početno vreme';
 $string['eventtime'] = 'Vreme';
 $string['eventview'] = 'Detalji događaja';
 $string['expired'] = 'Krajnji rok';
-$string['explain_lookahead'] = 'Podešavanje (maksimalnog) broja dana u budućnosti kad aktivnost treba da počne, sa ciljem da ta aktivnost bude prikazana kao predstojeći događaj. Događaji koji počinju mimo ovog datuma neće biti prikazani kao predstojeći. Obratite pažnju na to da <strong>nema garancije</strong> da će svi događaji koji počinju u ovim okvirima biti prikazani. Ako je previše događaja (više od svojstva \"Maksimalan broj predstojećih događaja\"), onda najdalji događaji neće biti prikazani.';
-$string['explain_maxevents'] = 'Maksimalan broj predstojećih događaja koji može biti prikazan. Ako izaberete velik broj, moguće je da prikaz predstojećih događaja zauzeti mnogo prostora na ekranu.';
-$string['explain_persistflt'] = 'Ukoliko je ova opcija omogućena, Moodle će zapamtiti tvoja poslednja podešavanja filtera i automatski će ih restaurirati svaki put kada pristupiš sistemu.';
-$string['explain_site_timeformat'] = 'Možeš izabrati prikaz vremena u 12 24-časovnom formatu na celom sajtu. Ako izabereš \"podrazumevano\", format će biti automatski izabran prema jeziku koji koristiš na sajtu. Ovaj izbor može se mimoići u korisničkim podešavanjima.';
-$string['explain_startwday'] = 'Sedmice u kalendaru će započinjati danom koji se ovde zada.';
-$string['explain_timeformat'] = 'Možete odabrati prikaz vremena bilo u 12 ili 24-satnom formatu. Ako odabereš opciju \"podrazumevano\", onda će format biti automatski odabran u skladu sa jezičkim paketom koji koristiš na ovom sajtu.';
+$string['explain_lookahead'] = 'Podešavanje (maksimalnog) broja dana u budućnosti kada aktivnost treba da počne, sa ciljem da ta aktivnost bude prikazana kao predstojeći događaj. Događaji koji počinju mimo ovog datuma neće biti prikazani kao predstojeći. Obratite pažnju na to da <strong>nema garancije</strong> da će svi događaji koji počinju u ovom periodu biti prikazani. Ako je previše događaja (više od svojstva \"Maksimalan broj predstojećih događaja\"), onda događaji koji kasnije počilju neće biti prikazani.';
+$string['explain_maxevents'] = 'Maksimalan broj predstojećih događaja koji može biti prikazan. Ako izaberete veliki broj, moguće je da će prikaz predstojećih događaja zauzeti mnogo prostora na ekranu.';
+$string['explain_persistflt'] = 'Ukoliko je ova opcija omogućena, Moodle će zapamtiti Vaša poslednja podešavanja filtera i automatski će ih restaurirati svaki put kada pristupite sistemu.';
+$string['explain_site_timeformat'] = 'Možete izabrati prikaz vremena u 12 ili 24-časovnom formatu na celom sajtu. Ako izaberete \"podrazumevano\", format će biti automatski izabran u skladu sa jezikom  koji se koristi na sajtu. Način prikaza vremena se može  promeniti u korisničkim podešavanjima.';
+$string['explain_startwday'] = 'Sedmice u kalendaru će započinjati danom koji se ovde izaberete.';
+$string['explain_timeformat'] = 'Možete odabrati prikaz vremena bilo u 12 ili 24-satnom formatu. Ako odaberete opciju \"podrazumevano\", onda će format biti automatski izabran u skladu sa jezikom koji se koristi na ovom sajtu.';
 $string['export'] = 'Izvoz';
 $string['exportbutton'] = 'Izvezi';
 $string['exportcalendar'] = 'Izvezi kalendar';
@@ -65,8 +65,8 @@ $string['globalevent'] = 'Globalni događaj';
 $string['globalevents'] = 'Globalni događaji';
 $string['gotocalendar'] = 'Idi na kalendar';
 $string['group'] = 'Grupa';
-$string['groupevent'] = 'Događaj vezan za grupu';
-$string['groupevents'] = 'Događaji vezani za grupu';
+$string['groupevent'] = 'Grupni događaj';
+$string['groupevents'] = 'Grupni događaji';
 $string['hidden'] = 'sakriveni';
 $string['ical'] = 'iCal';
 $string['iwanttoexport'] = 'Izvezi';

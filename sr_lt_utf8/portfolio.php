@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // portfolio.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['activeportfolios'] = 'Aktivni portfolio';
@@ -8,29 +8,69 @@ $string['addnewportfolio'] = 'Dodaj novi portfolio';
 $string['addtoportfolio'] = 'Sačuvaj...';
 $string['alreadyexporting'] = 'Već imate jedan aktivan izvoz portfolija u ovoj sesiji. Pre nego što nastavite, morate ili da završite ovaj izvoz ili da ga poništite. Da li želite da nastavite? (ukoliko kliknete na Ne izvoz će biti poništen)';
 $string['availableformats'] = 'Dostupni formati za izvoz';
+$string['callercouldnotpackage'] = 'Pokušaj da se upakuju Vaši podaci za iѕvoz nije uspeo:originalna greška je bila $a';
+$string['configexport'] = 'Konfguriši izvezene podatke';
+$string['configplugin'] = 'Konfiguriši dodatak za portfolio';
 $string['configure'] = 'Konfiguriši';
 $string['confirmexport'] = 'Potvrdi ovaj izvoz';
 $string['confirmsummary'] = 'Rezime Vašeg izvoza';
 $string['continuetoportfolio'] = 'Idi na svoj portfolio';
+$string['deleteportfolio'] = 'Obriši instancu portfolia';
 $string['destination'] = 'Odredište';
 $string['disabled'] = 'Na žalost, izvozi portfolija na ovom sajtu nisu omogućeni';
+$string['displayinfo'] = 'Informacija o izvozu';
 $string['dontwait'] = 'Ne čekaj';
 $string['enabled'] = 'Omogući portfolio';
+$string['err_uniquename'] = 'Ime portfolia mora biti jedinstveno (po dodatku)';
 $string['exportcomplete'] = 'Izvoz portfolija je završen';
 $string['exportedpreviously'] = 'Prethodni izvozi';
+$string['exporting'] = 'Izvezi u portfolio';
 $string['exportingcontentfrom'] = 'Izvoz sadržaja iz $a';
+$string['exportqueued'] = 'Izvoz portfolija je uspešno stavljen na čekanje za prenos';
+$string['failedtopackage'] = 'Nije bilo moguće naći datoteke za pakovanje';
+$string['failedtosendpackage'] = 'Pokušaj da se pošalju Vaši podaci u izabrani portfolio sistem nije uspeo: originalna greška je bila $a';
+$string['filedenied'] = 'Pristup ovoj datoteci je odbijen';
 $string['filenotfound'] = 'Datoteka nije pronađena';
 $string['format_file'] = 'Datoteka';
 $string['format_image'] = 'Slika';
+$string['format_mbkp'] = 'Moodle format rezervne kopije';
+$string['format_plainhtml'] = 'HTML';
+$string['format_richhtml'] = 'HTML sa prilozima';
 $string['format_text'] = 'Običan tekst';
 $string['format_video'] = 'Video';
 $string['hidden'] = 'Skriveno';
+$string['highfilesizethresholddesc'] = 'Ako veličina datoteke prelazi ovde navedenu vrednost smatraće se da zahteva puno vremena za transfer.';
 $string['insanebodyhtml'] = '<p>Zdravo!! Ovu protuku ste primili kao administrator $a->sitename.</p>
 $a->htmllist
 <p>Ovo možete ispraviti tako što ćete posetiti <a href=\"$a->fixurl\">stranicu za konfiguraciju portfolija</a></p>';
 $string['instancedeleted'] = 'Portfolio je uspešno obrisan';
 $string['instancenotdelete'] = 'Brisanje portfolija nije uspelo';
+$string['instancenotsaved'] = 'Pokušaj da se sačuva portfolio nije uspeo';
 $string['instancesaved'] = 'Portfolio je uspešno sačuvan';
+$string['invalidinstance'] = 'Nije bilo moguće naći instancu portfolia';
+$string['invalidproperty'] = 'Nije bilo moguće naći to svojstvo ($a->property of $a->class)';
+$string['logsummary'] = 'Prethodni uspešni transferi';
+$string['missingcallbackarg'] = 'Nedostajući argument povratnog poziva $a->arg za klasu $a->class';
+$string['moderatedbsizethreshold'] = 'Umerena veličina baze podataka za prenos';
+$string['moderatefilesizethreshold'] = 'Umerena veličina datoteke za prenos';
+$string['nocallbackclass'] = 'Nije bilo moguće naći klasu povratnog poziva za korišćenje ($a)';
+$string['notexportable'] = 'Oprostite, ali tip sadržaja koji pokušavate da izvezete nije moguće izvoѕiti';
+$string['notyetselected'] = 'Još nije izabrano';
+$string['notyours'] = 'Pokušavate da nastavite izvoz portfolia koji nije vaš!';
+$string['nouploaddirectory'] = 'Nije bilo moguće kreirati privremeni direktorijum za pakovanje vaših podataka.';
+$string['plugin'] = 'Dodatak za portfolio';
+$string['plugincouldnotpackage'] = 'Pokušaj da se upakuju Vaši podaci za iѕvoz nije uspeo:originalna greška je bila $a';
+$string['portfolio'] = 'Portfolio';
+$string['portfolios'] = 'Portfolija';
+$string['queuesummary'] = 'Trenutni transferi na čekanju';
+$string['returntowhereyouwere'] = 'Vratite se tamo gde ste bili';
+$string['save'] = 'Sačuvaj';
+$string['selectedformat'] = 'Izabrani format za izvoѕ';
+$string['selectplugin'] = 'Izaberi odredište';
+$string['sure'] = 'Da li ste sigurni da želite da obrišete\'$a\'? Ova akcija je nepovratna.';
+$string['transfertime'] = 'Vreme transfera';
+$string['wait'] = 'Sačekaj';
+$string['wanttowait_moderate'] = 'Da li želite da sačekate ovaj prenos? Može potrajati nekoliko minuta.';
 $string['format_html'] = 'HTML fromat'; // ORPHANED
 
 ?>

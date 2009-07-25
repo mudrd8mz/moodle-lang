@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // resource.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['addresource'] = 'Dodaj resurs';
@@ -9,13 +9,13 @@ $string['autofilerename'] = 'Ažuriraj link ako je promenjeno ime datoteke';
 $string['back'] = 'Nazad';
 $string['blockdeletingfile'] = 'Blokiraj brisanje referenciranih datoteka';
 $string['browserepository'] = 'Pretraži repozitorijum';
-$string['cannotupdate'] = 'Ne mogu se zabeležiti promene resursa.';
 $string['choose'] = 'Odaberi';
 $string['chooseafile'] = 'Odaberi ili postavi datoteku';
+$string['chooseaparameter'] = 'Odaberi paramaetar...';
 $string['chooseparameter'] = 'Odaberi parametar';
 $string['clicktoopen'] = 'Da biste otvorili ovaj dokument, kliknite na sledeći link:';
-$string['configallowlocalfiles'] = 'Kada kreirate novi datotečni resurs, dozvolite umetanje linkova na lokalni datotečni sistem, npr. CD-ROM ili čvrsti disk. Ovo bi moglo biti korisno u učionici gde svi studenti imaju pristup zajedničkom mrežnom disku ili kod potrebe za pristupom većim datotekama koje su na CD mediju. Korišćenje ove opcije može zahtevati promenu sigurnosnih podešavanja Vašeg Web čitača.';
-$string['configautofilerenamesettings'] = 'Automatski ažurirati reference na datoteke i direktorijume preimenovane pri upravljanju datotekama.';
+$string['configallowlocalfiles'] = 'Kada kreirate novi resurs, dozvolite umetanje linkova ka lokalni sistem datoteka, npr. CD-ROM ili čvrsti disk. Ovo bi moglo biti korisno u učionici gde svi studenti imaju pristup zajedničkom mrežnom disku ili kod potrebe za pristupom većim datotekama koje su na CD mediju. Korišćenje ove opcije može zahtevati promenu sigurnosnih podešavanja Vašeg Web čitača.';
+$string['configautofilerenamesettings'] = 'Automatski ažurirati reference na datoteke i direktorijume kada su im promenjena imena.';
 $string['configblockdeletingfilesettings'] = 'Blokirati brisanje datoteka i direktorijuma referenciranih resursima. Molimo primetite da slike i ostale datoteke referencirane iz html-a nisu zaštićene.';
 $string['configdefaulturl'] = 'Ova vrednost se koristi za prethodno popunjavanje URL forme kad se kreira novi resurs zasnovan na URL adresi.';
 $string['configfilterexternalpages'] = 'Ukoliko omogućite ovo podešavanje, ono će uticati na to da svi spoljašnji resursi (Web stranice, postavljene HTML datoteke) budu procesirani pomoću trenutno odabranih filtera sajta (kao što je npr. automatsko linkovanje pojmova iz rečnika). Uključivanje ove opcije može izazvati značajno usporavanje stranica Vašeg kursa - koristite ovu opciju sa oprezom i jedino ako Vam je zaista potrebna.';
@@ -58,6 +58,9 @@ $string['imspackageloaded'] = 'Paket je učitan';
 $string['invalidassignment'] = 'neispravan zadatak';
 $string['invalidid'] = 'ID resursa je bio netačan';
 $string['keepnavigationvisible'] = 'Neka navigacija bude vidljiva na istoj stranici';
+$string['keepnavigationvisibleno'] = 'Ne';
+$string['keepnavigationvisibleyesframe'] = 'Da, sa okvirom';
+$string['keepnavigationvisibleyesobject'] = 'Da, bez okvira';
 $string['localfile'] = 'Lokalna datoteka';
 $string['localfilechoose'] = 'Izaberi lokalnu datoteku (CD-ROM)';
 $string['localfilehelp'] = 'Pomoć vezana za lokalne datoteke kao resurse';
@@ -137,5 +140,6 @@ $string['vol'] = 'Volumen';
 $string['warningblockingdelete'] = 'Upozorenje: Operacija brisanja je blokirana postojećim resursima. Ili prvo ažurirajte svoje resurse ili pitajte administratora da onemogući ovaj sigurnosni mehanizam u delu za globalnu konfiguraciju resursa.';
 $string['warningdisabledrename'] = 'Upozorenje: Automatsko preimenovanje referenci u resursima je onemogućeno. Molimo ažurirajte pogođene resurse ručno ukoliko je to potrebno. Administrator može i da omogući automatsko preimenovanje u delu za globalnu konfiguraciju resursa.';
 $string['websearchdefault'] = 'Podrazumevana pretraga Weba';
+$string['cannotupdate'] = 'Ne mogu se zabeležiti promene resursa.'; // ORPHANED
 
 ?>

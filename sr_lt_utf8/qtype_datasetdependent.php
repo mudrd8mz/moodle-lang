@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.8.2+ (2007021520)
+      // qtype_datasetdependent.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['additem'] = 'Dodaj podatak';
@@ -37,6 +37,7 @@ $string['newlocal1'] = 'Slovna oznaka iz novog skupa će biti upotrebljena samo 
 $string['newlocal2'] = 'Fajl iz novog skupa će biti upotrebnjen samo u ovom pitanju';
 $string['newlocal3'] = 'Link iѕ novog skupa će biti upotrebljen samo u ovom pitanju';
 $string['nodataset'] = 'ovo nije džoker';
+$string['notvalidnumber'] = 'Vrednost za džoker nije ispravan broj';
 $string['param'] = 'Parametar {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'Zameni sa proizvoljnom vrednošću';
 $string['reuseifpossible'] = 'Ako je moguće, upotrebi prethodnu vrednost';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // qtype_multichoice.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['addingmultichoice'] = 'Dodavanje pitanja višestrukog izbora';
@@ -25,6 +25,7 @@ $string['fractionsaddwrong'] = 'Pozitivne ocene koje ste odabrali ukupno ne daju
 $string['fractionsnomax'] = 'Jedan od odgovora bi trebao nositi 100%% ocene, da bi se mogao dobiti <br />maksimalan broj bodova za ovo pitanje.<br />Da li želite da se vratite korak nazad i popravite ovo pitanje?';
 $string['incorrectfeedback'] = 'Za svaki netačan odgovor';
 $string['multichoice'] = 'Višestruki izbor';
+$string['multichoicesummary'] = 'Dozvolite izbor jednog ili više odgovora sa predefinisane liste.';
 $string['notenoughanswers'] = 'Ova vrsta pitanja zahteva bar $a odgovora.';
 $string['overallcorrectfeedback'] = 'Povratne informacije za svaki tačan odgovor';
 $string['overallfeedback'] = 'Opšta povratna informacija';

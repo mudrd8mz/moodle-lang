@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // tag.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['addedotag'] = '\"$a\" je dodato kao zvanična oznaka';
@@ -14,6 +14,7 @@ $string['deleted'] = 'Obrisano';
 $string['deletedcoursetags'] = 'Obrisano - oznake kurseva';
 $string['description'] = 'Opis';
 $string['edittag'] = 'Uredi ovu oznaku';
+$string['entertags'] = 'Unesi oznake razdvojene zarezima';
 $string['errordeleting'] = 'Greška pri brisanju oznake sa id $a, molimo prijavite Vašem sistem administratoru.';
 $string['errortagfrontpage'] = 'Označavanje glavne stranice sajta nije dozvoljeno';
 $string['errorupdatingrecord'] = 'Greška pri ažuriranju zapisa oznake';
@@ -21,6 +22,7 @@ $string['flag'] = 'Indikator';
 $string['flagasinappropriate'] = 'Indikator je neprikladan';
 $string['helprelatedtags'] = 'Povezane oznake razdvojene zarezima';
 $string['id'] = 'identifikator';
+$string['manageofficialtags'] = 'Upravljanje zvaničnim oznakama';
 $string['managetags'] = 'Upravljaj oznakama';
 $string['name'] = 'Naziv oznake';
 $string['namesalreadybeeingused'] = 'Već se koriste ova imena oznaka';
@@ -28,6 +30,7 @@ $string['newname'] = 'Novo ime oznake';
 $string['noresultsfor'] = 'Nema rezultata za \"$a\"';
 $string['officialtag'] = 'Zvanična oznaka';
 $string['otags'] = 'Zvanične oznake';
+$string['othertags'] = 'Ostale oznake (unnesi oznake razdvojene zarezima)';
 $string['owner'] = 'Vlasnik';
 $string['ptags'] = 'Korisnički definisane oznake (odvojene zarezom)';
 $string['relatedblogs'] = 'Najnovije stavke bloga sa ovom oznakom';
@@ -45,7 +48,7 @@ $string['seeallblogs'] = 'Videti sve blogove sa ovom oznakom: \"$a\"...';
 $string['select'] = 'Izaberi';
 $string['tag'] = 'Oznaka';
 $string['tagdescription'] = 'Opis oznake';
-$string['tagindex_coursetitle'] = 'Kursevi označeni sa \"$a\"';
+$string['taggedwith'] = 'označeno sa \"$a\"';
 $string['tags'] = 'Oznake';
 $string['tagsaredisabled'] = 'Oznake nisu dostupne';
 $string['tagtype'] = 'Tip oznake';
@@ -58,7 +61,8 @@ $string['timemodified'] = 'Izmenjeno';
 $string['typechanged'] = 'Promenjen tip oznake';
 $string['updated'] = 'Ažurirano';
 $string['updatetag'] = 'Ažuriraj';
-$string['userstaggedwith'] = 'Korisnici označeni sa \"$a\"';
 $string['withselectedtags'] = 'Sa odabranim oznakama...';
+$string['tagindex_coursetitle'] = 'Kursevi označeni sa \"$a\"'; // ORPHANED
+$string['userstaggedwith'] = 'Korisnici označeni sa \"$a\"'; // ORPHANED
 
 ?>

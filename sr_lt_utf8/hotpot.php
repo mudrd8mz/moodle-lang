@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // hotpot.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['abandoned'] = 'Napušteno';
@@ -12,11 +12,7 @@ $string['attemptsbest'] = 'Najbolji pokušaj';
 $string['attemptsfirst'] = 'Prvi pokušaj';
 $string['attemptslast'] = 'Poslednji pokušaj';
 $string['average'] = 'Prosek';
-$string['cannotaddquestionrecord'] = 'Nije moguće dodati zapis pitanja';
-$string['cannotaddresprecord'] = 'Nije moguće dodati zapis odgovora';
-$string['cannotaddstrrecord'] = 'Nije moguće dodati tekstualni zapis';
 $string['cannotfindmethod'] = 'Nije pronađen metod za proširivanje bloka šablona: ($a)';
-$string['cannotupdateattempt'] = 'Nije moguće ažurirati zapis o pokušaju: $a';
 $string['checks'] = 'Provere';
 $string['clickreporting'] = 'Omogučavanje izveštavanja o klikovima';
 $string['clues'] = 'Tragovi';
@@ -28,6 +24,7 @@ $string['copytoclipboard'] = 'Kopirati u privremenu memoriju';
 $string['correct'] = 'Tačno';
 $string['deleteabandoned'] = 'Obrisati napušteno';
 $string['deleteabandonedcheck'] = 'Da li zaista želite da obrišete svih $a napuštenih pokušaja?';
+$string['deleteallattempts'] = 'Obriši sve pokušaje';
 $string['displaycoursenext'] = 'Sledi prikaz stranice kursa';
 $string['displayhotpotnext'] = 'Sledi prikaz Hot Potatoes testa';
 $string['displayindexnext'] = 'Sledi prikaz Hot Potatoes indeksa';
@@ -95,6 +92,7 @@ $string['rawdetails'] = 'Detalji osnovnih pokušaja';
 $string['regrade'] = 'Ponovno ocenjivanje';
 $string['regradecheck'] = 'Da li zaista želite da ponovo ocenite $a?';
 $string['regraderequired'] = 'Potrebno je ponovno ocenjivanje';
+$string['removegradeitem'] = 'Ukloni ocenu';
 $string['reportanswers'] = 'Odgovori';
 $string['reportattemptfinish'] = 'Kraj pokušaja';
 $string['reportattemptnumber'] = 'Pokušaj';
@@ -163,5 +161,9 @@ $string['unknownreport'] = 'Izveštaj nije poznat ($a)';
 $string['updatequizchain'] = 'Ažuriranje toka testa';
 $string['weighting'] = 'Vrednovanje';
 $string['wrong'] = 'Pogrešno';
+$string['cannotaddquestionrecord'] = 'Nije moguće dodati zapis pitanja'; // ORPHANED
+$string['cannotaddresprecord'] = 'Nije moguće dodati zapis odgovora'; // ORPHANED
+$string['cannotaddstrrecord'] = 'Nije moguće dodati tekstualni zapis'; // ORPHANED
+$string['cannotupdateattempt'] = 'Nije moguće ažurirati zapis o pokušaju: $a'; // ORPHANED
 
 ?>

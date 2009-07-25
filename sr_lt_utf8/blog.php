@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // blog.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['addnewentry'] = 'Dodavanje novog unosa';
@@ -21,8 +21,8 @@ $string['courseblog'] = 'Blog kursa: $a';
 $string['courseblogdisable'] = 'Blogovi na kursu nisu omogućeni';
 $string['courseblogs'] = 'Korisnici mogu da vide samo blogove ljudi s kojima dele kurs';
 $string['deleteotagswarn'] = 'Da li ste sigurni da želite da uklonite ovu/ove oznake <br />iz svih blog unosa u uklonite je/ih iz sistema?';
-$string['deleteposterror'] = 'Došlo je do greške pri brisanju poruke';
 $string['disableblogs'] = 'Potpuno onemogućiti korišćenje blog sistema';
+$string['donothaveblog'] = 'Žao nam je, nemate sopstveni blog';
 $string['emptybody'] = 'Telo blog unosa ne može ostati nepopunjeno';
 $string['emptytitle'] = 'Naslov blog unosa ne može ostati nepopunjen';
 $string['entrybody'] = 'Telo blog unosa';
@@ -66,6 +66,7 @@ $string['viewmyentries'] = 'Prikaz mojih unosa';
 $string['viewsiteentries'] = 'Prikaz unosa sajta';
 $string['worldblogs'] = 'Ceo svet može da čita unose postavljene kao globalno dostupne';
 $string['wrongpostid'] = 'Pogrešan id poruke na blogu';
+$string['deleteposterror'] = 'Došlo je do greške pri brisanju poruke'; // ORPHANED
 $string['addotags'] = 'Dodavanje zvaničnih oznaka'; // ORPHANED
 $string['addptags'] = 'Dodavanje korisničkih oznaka'; // ORPHANED
 $string['otags'] = 'Zvanične oznake'; // ORPHANED

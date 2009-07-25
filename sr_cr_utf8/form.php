@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9.1+ (Build: 20080611) (2007101513)
+      // form.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['addfields'] = 'Додај $a поље у формулар';
@@ -34,6 +34,8 @@ $string['security'] = 'Заштита';
 $string['selectallornone'] = 'Изабери све/ништа';
 $string['showadvanced'] = 'Покажи напредне';
 $string['somefieldsrequired'] = 'Неопходна поља у овом формулару су означена са $a';
+$string['time'] = 'Време';
+$string['timeunit'] = 'Временска јединица';
 $string['timing'] = 'Мерење времена';
 $string['unmaskpassword'] = 'Разоткриј';
 $string['year'] = 'Година';

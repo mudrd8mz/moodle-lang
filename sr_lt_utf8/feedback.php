@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // feedback.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['add_item'] = 'Dodaj pitanje';
@@ -17,7 +17,11 @@ $string['autonumbering'] = 'Automatski brojevi za svako pitanje';
 $string['average'] = 'Prosečno';
 $string['bold'] = 'Podebljano';
 $string['cancel_moving'] = 'Poništi prebacivanje';
+$string['cannotmapfeedback'] = 'Problemi sa bazom podataka. Nije moguće povezati upitnik sa kursom.';
+$string['cannotsavetempl'] = 'čuvanje šablona nije dozvoljeno';
+$string['cannotunmap'] = 'Problem sa bazom podatkom. Nije moguće razdovojiti upitnik i kurseve';
 $string['captcha'] = 'Captcha upit';
+$string['captchanotset'] = 'Captcha upit nije podešen';
 $string['check'] = 'Višestruki izbor - više odgovora';
 $string['check_values'] = 'Mogući odgovori';
 $string['checkbox'] = 'Višestruki izbor - dozvoljeno više odgovora (polje za potvrdu)';
@@ -69,6 +73,7 @@ $string['feedback:receivemail'] = 'Dobiti obaveštenje putem e-poruke';
 $string['feedback:view'] = 'Pogledaj upitnik';
 $string['feedback:viewanalysepage'] = 'Pogledaj stranicu sa analizom rezultata nakon ispunjavanja upitnika';
 $string['feedback:viewreports'] = 'Pogledaj izveštaj';
+$string['feedback_is_not_for_anonymous'] = 'upitnik nije za anonimne korisnike';
 $string['feedback_is_not_open'] = 'Upitnik nije otvoren';
 $string['feedback_options'] = 'Opcije za podešavanje upitnika';
 $string['feedbackclose'] = 'Upitnik dostupan do';
@@ -90,11 +95,11 @@ $string['items_are_required'] = 'Na pitanja obeležena zvezdicom obavezno je odg
 $string['label'] = 'Oznaka';
 $string['line_labels'] = 'Oznaka';
 $string['line_values'] = 'Ocenjivanje';
-$string['mapcourse'] = 'Mapiraj kurs';
+$string['mapcourse'] = 'Poveži kurs';
 $string['mapcourseinfo'] = 'Ovo je upitnik dostupan svim kursevima na sajtu koji ga mogu koristi putem bloka Upitnik. Ipak, možete ograničiti kurseve u kojima će se upitnik pojavljivati tako što ćete ih obeležiti. Pretraži kurs i poveži ga sa ovim upitnikom.';
-$string['mapcoursenone'] = 'Nijedan kurs nije obeležen. Upitnik je dostupan svim kursevima';
-$string['mapcourses'] = 'Mapiraj upitnik za kurseve';
-$string['mappedcourses'] = 'Mapirani kursevi';
+$string['mapcoursenone'] = 'Nijedan kurs nije povezan sa upinkom. Upitnik je dostupan svim kursevima';
+$string['mapcourses'] = 'Poveži upitnik sa kursevima';
+$string['mappedcourses'] = 'Povezani kursevi';
 $string['max_args_exceeded'] = 'Maksimalno 6 argumenata može biti obrađeno, previše je adrgumenata';
 $string['maximal'] = 'maksimalno';
 $string['mode'] = 'Vrsta upitnika';
@@ -120,6 +125,7 @@ $string['non_anonymous'] = 'Ime korisnika biće zapisano i prikazano zajedno sa 
 $string['non_anonymous_entries'] = 'neanonimni odgovori';
 $string['not_completed_yet'] = 'Još nije završeno';
 $string['not_selected'] = 'Nije izabrano';
+$string['notavailable'] = 'ovaj upitnik nije dostupan';
 $string['numeric'] = 'Brojčani odgovor';
 $string['numeric_range_from'] = 'Rangiraj od';
 $string['numeric_range_to'] = 'Rangiraj do';
@@ -183,11 +189,15 @@ $string['textfield'] = 'Kratak tekstualni odgovor';
 $string['textfield_maxlength'] = 'Maksimalno dozvoljen broj karaktera';
 $string['textfield_size'] = 'Širina tekstualnog polja';
 $string['this_feedback_is_already_submitted'] = 'Već ste popunili ovaj upitnik.';
+$string['typemissing'] = 'nedostaje vrednost \"tip\"';
 $string['update_item'] = 'Sačuvaj promene u pitanju';
+$string['url_for_continue_button'] = 'URL za nastavak - dugme';
 $string['use_one_line_for_each_value'] = '<br />Upotrebi jedan red za svaki odgovor!';
 $string['use_this_template'] = 'Upotrebi ovaj šablon';
 $string['using_templates'] = 'Upotrebi šablon';
 $string['vertical'] = 'vertikalno';
+$string['cannotcreatecompletedfeedback'] = 'Nije moguće kreirati završeni upitnik'; // ORPHANED
+$string['cannotcreatetmpfeedback'] = 'Nije moguće kreirati privremeni upitnik'; // ORPHANED
 $string['publish_stats_on_students'] = 'Prikaži analizu studentima'; // ORPHANED
 $string['all_old_values_will_be_deleted'] = 'Tekuće pitanja i svi odgovori korisnika biće obrisani'; // ORPHANED
 $string['all_old_values_will_be_preserved'] = 'Sva stara pitanja i dodeljene vrednosti biće sačuvani'; // ORPHANED

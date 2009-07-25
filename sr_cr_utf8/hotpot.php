@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // hotpot.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['abandoned'] = 'Напуштено';
@@ -28,6 +28,7 @@ $string['copytoclipboard'] = 'Копирати у привремену мемо�
 $string['correct'] = 'Тачно';
 $string['deleteabandoned'] = 'Обрисати напуштено';
 $string['deleteabandonedcheck'] = 'Да ли заиста желите да обришете свих $a напуштених покушаја?';
+$string['deleteallattempts'] = 'Обриши све покушаје';
 $string['displaycoursenext'] = 'Следи приказ странице курса';
 $string['displayhotpotnext'] = 'Следи приказ Hot Potatoes теста';
 $string['displayindexnext'] = 'Следи приказ Hot Potatoes индекса';
@@ -95,6 +96,7 @@ $string['rawdetails'] = 'Детаљи основних покушаја';
 $string['regrade'] = 'Поновно оцењивање';
 $string['regradecheck'] = 'Да ли заиста желите да поново оцените $a?';
 $string['regraderequired'] = 'Потребно је поновно оцењивање';
+$string['removegradeitem'] = 'Уклони оцену';
 $string['reportanswers'] = 'Одговори';
 $string['reportattemptfinish'] = 'Крај покушаја';
 $string['reportattemptnumber'] = 'Покушај';

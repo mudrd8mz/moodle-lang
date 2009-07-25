@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.8.1+ (2007021510)
+      // mnet.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -20,6 +20,7 @@ $string['authmnetautoadddisabled'] = '<em>Automatsko dodavanje korisnika</em> u 
 $string['authmnetdisabled'] = '<em>Plugin za potvrdu identiteta</em> na Moodle umrežavanju je <strong>onemogućen</strong>.';
 $string['badcert'] = 'Sertifikat nije ispravan.';
 $string['certdetails'] = 'Detalji sertifikata';
+$string['configmnet'] = 'Moodle umrežavanje dozvoljava komunikaciju ovog servera sa drugim serverima ili servisima.';
 $string['couldnotgetcert'] = 'Nije nađen sertifikat na <br />$a. <br />Računar je možda isključen ili neispravno podešen.';
 $string['couldnotmatchcert'] = 'Ovo se ne podudara sa sertifikatom koji trenutno izdaje web server.';
 $string['courses'] = 'kursevi';

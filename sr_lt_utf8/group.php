@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // group.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['addgroupstogrouping'] = 'Dodaj grupu grupisanju';
@@ -29,6 +29,7 @@ $string['deleteallgroups'] = 'Obriši sve grupe';
 $string['deletegroupconfirm'] = 'Da li ste sigurni da želite da izbrišete grupu \'$a\'?';
 $string['deletegrouping'] = 'Izbriši grupisanje';
 $string['deletegroupingconfirm'] = 'Da li ste sigurni da želite da izbrišete grupisanje \'$a\'?';
+$string['deletegroupsconfirm'] = 'Da li ste sigurni da želite da obrišete sledeće grupe?';
 $string['deleteselectedgroup'] = 'Izbrišite označenu grupu';
 $string['editgroupingsettings'] = 'Uredi podešavanje grupisanja';
 $string['editgroupsettings'] = 'Uredi podešavanje grupe';
@@ -37,6 +38,8 @@ $string['erroraddremoveuser'] = 'Greška u dodavanju/brisanju korisnika $a grupi
 $string['erroreditgroup'] = 'Greška u kreiranju/ažuriranju  grupe $a';
 $string['erroreditgrouping'] = 'Greška u kreiranju/ažuriranju grupisanja $a';
 $string['errorinvalidgroup'] = 'Greška, pogrešna grupa $a';
+$string['errorselectone'] = 'Iaberite jednu grupu pre nego što odaberete ovu opciju';
+$string['errorselectsome'] = 'Iaberite jednu ili više grupa pre nego što odaberete ovu opciju';
 $string['evenallocation'] = 'Obratite pažnju: kako bi se grupe održale jednakim, trenutni broj članova po grupama se razlikuju od broja koji ste naveli.';
 $string['existingmembers'] = 'Postojeći članovi: $a';
 $string['filtergroups'] = 'Izdvoj grupe po';
@@ -96,6 +99,7 @@ $string['numgroups'] = 'Broj grupa';
 $string['nummembers'] = 'Članova po grupi';
 $string['overview'] = 'Pregled';
 $string['potentialmembers'] = 'Moguću članovi: $a';
+$string['potentialmembs'] = 'Mogući članovi';
 $string['printerfriendly'] = 'Prikaz za štampu';
 $string['random'] = 'slučajnim izborom';
 $string['removegroupfromselectedgrouping'] = 'Izbriši grupu iz grupisanja';

@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 1.9 Beta 4 (2007101508.05)
+      // quiz_analysis.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['analysis'] = 'Analiza pitanja';
 $string['analysisdownload'] = 'Preuzimanje analize';
 $string['analysisoptions'] = 'Opcije analize testa';
+$string['analysisreport'] = 'Izveštaj o analizi pitanja';
 $string['analysistitle'] = 'Tabela analize pitanja';
 $string['attemptsall'] = 'svi pokušaji';
 $string['attemptselection'] = 'Broj pokušaja za analizu po korisniku';

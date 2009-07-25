@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // data.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['action'] = 'Akcija';
@@ -31,11 +31,8 @@ $string['cancel'] = 'Odustani';
 $string['cannotaccesspresentsother'] = 'Nije Vam dozvoljen pristup početnim podešavanjima drugih korisnika';
 $string['cannotadd'] = 'Ne mogu se dodati unosi!';
 $string['cannotdeletepreset'] = 'Greška u brisanju početnih podešavanja!';
-$string['cannotinsertempty'] = 'Nije moguće kreirati prazan zapis!';
-$string['cannotinsertrate'] = 'Nije moguće umetnuti novo ocenjivanje($a[0] = $a[1])';
 $string['cannotrate'] = 'Ocenjivanje stavki nije dopušteno!';
 $string['cannotunziptopreset'] = 'Ne može se raspakovati direktorijum početnih podešavanja';
-$string['cannotupdaterate'] = 'Nije moguće izmeniti staro ocenjivanje($a[0] = $a[1])';
 $string['checkbox'] = 'Polje za potvrdu';
 $string['chooseexportfields'] = 'Izaberite polja koja želite izvoziti:';
 $string['chooseexportformat'] = 'Izaberite format u koji želite izvoziti:';
@@ -51,6 +48,7 @@ $string['configenablerssfeeds'] = 'Ovaj prekidač će omogućiti korišćenje RS
 $string['confirmdeletefield'] = 'Upravo ćete obrisati ovo polje. Da li ste sigurni da to želite?';
 $string['confirmdeleterecord'] = 'Da li ste sigurni da želite da obrišete ovaj unos?';
 $string['csstemplate'] = 'CSS šablon';
+$string['csvfailed'] = 'Nije moguće pročitati neobrađene podatke iz CSV datoteke';
 $string['csvfile'] = 'CSV datoteka';
 $string['csvimport'] = 'Uvoz CSV datoteke';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym> tekst sa izabranim znakom razdvajanja';
@@ -93,6 +91,7 @@ $string['emptyadd'] = 'Dodavanje šablona je prazno, generiše se podrazumevana 
 $string['emptyaddform'] = 'Niste ispunili nijedno polje!';
 $string['entries'] = 'Unosi';
 $string['entrieslefttoadd'] = 'Morate dodati još $a->entriesleft unos(a) pre nego što budete mogli pregledati unose drugih učesnika.';
+$string['entrieslefttoaddtoview'] = 'Morate da dodate još $a->entrieslefttoview unosa pre nego što budete mogli da vidite unose drugih korisnika.';
 $string['entry'] = 'Unos';
 $string['entrysaved'] = 'Vaš unos je sačuvan';
 $string['errormustbeteacher'] = 'Morate biti predavač da biste koristili ovu stranicu!';
@@ -115,6 +114,7 @@ $string['fieldheightsingleview'] = 'Visina u pojedinačnom prikazu';
 $string['fieldids'] = 'Identifikatori polja';
 $string['fieldmappings'] = 'Mapiranje polja';
 $string['fieldname'] = 'Naziv polja';
+$string['fieldnotmatched'] = 'Sledeća polja u Vašoj datoteci su nepoznata u ovoj bazi podataka';
 $string['fieldoptions'] = 'Opcije (jedna po liniji)';
 $string['fields'] = 'Polja';
 $string['fieldupdated'] = 'Polje je ažurirano';
@@ -269,7 +269,6 @@ $string['type'] = 'Tip polja';
 $string['undefinedprocessactionmethod'] = 'Ne postoji metoda definisana u Data_Preset da koristi akciju \"$a\".';
 $string['unsupportedexport'] = '($a->fieldtype)se ne može izvoziti';
 $string['updatefield'] = 'Ažuriranje postojećeg polja';
-$string['updatingerror'] = 'Postojala je greška pri ažuriranju baze podataka.';
 $string['uploadfile'] = 'Postavi datoteku';
 $string['uploadrecords'] = 'Postavljenje unosa iz datoteke';
 $string['url'] = 'URL';
@@ -277,6 +276,10 @@ $string['usestandard'] = 'koristiti postojeći skup podešavanja';
 $string['viewfromdate'] = 'Može se pregledati od';
 $string['viewtodate'] = 'Može se pregledati do';
 $string['wrongdataid'] = 'Pogrešna ID podataka je obezbeđena';
+$string['cannotinsertempty'] = 'Nije moguće kreirati prazan zapis!'; // ORPHANED
+$string['updatingerror'] = 'Postojala je greška pri ažuriranju baze podataka.'; // ORPHANED
+$string['cannotinsertrate'] = 'Nije moguće umetnuti novo ocenjivanje($a[0] = $a[1])'; // ORPHANED
+$string['cannotupdaterate'] = 'Nije moguće izmeniti staro ocenjivanje($a[0] = $a[1])'; // ORPHANED
 $string['invaliddata'] = 'Neispravni podaci'; // ORPHANED
 
 ?>

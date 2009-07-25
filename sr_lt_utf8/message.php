@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9.2+ (Build: 20080806) (2007101521)
+      // message.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
 
 
 $string['addcontact'] = 'Dodavanje kontakta';
 $string['addsomecontacts'] = 'Da biste nekome poslali poruku ili da dodate prečicu za njega na ovoj strani koristite link <a href=\"$a\">Pretraži</a>.';
 $string['addsomecontactsincoming'] = 'Ove poruke su od osoba koje se ne nalaze u Vašoj listi kontakata. Da biste ih dodali svojim kontaktima pritisnite ikonu \"Dodaj kontakt\" pored njihovog imena.';
 $string['ago'] = '$a pre';
+$string['ajax_gui'] = 'Pričaonica koja primenjuje Ajax';
 $string['allmine'] = 'Sve poruke koje sam poslao/la ili primio/la';
 $string['allstudents'] = 'Sve poruke između studenata na kursu';
 $string['allusers'] = 'Sve poruke od svih korisnika';
@@ -25,8 +26,8 @@ $string['editmymessage'] = 'Razmena poruka';
 $string['emailmessages'] = 'Pošalji mi poruke e-poštom kad nisam na sajtu';
 $string['emailtagline'] = 'Ova elektronska poruka je kopija poruke koju Vam je poslao/la \"$a\"';
 $string['emptysearchstring'] = 'Morate nešto tražiti';
+$string['errorcallingprocessor'] = 'Greška pri pozivu definisanog procesora';
 $string['formorethan'] = 'Za više od';
-$string['general_config'] = 'Opšte opcije';
 $string['guestnoeditmessage'] = 'Korisnici gosti ne mogu uređivati opcije za razmenjivanje poruka';
 $string['guestnoeditmessageother'] = 'Korisnici gosti ne mogu uređivati opcije za razmenjivanje poruka drugih korisnika';
 $string['includeblockedusers'] = 'Uključi blokirane korisnike';
@@ -39,6 +40,7 @@ $string['mailsent'] = 'Vaša poruka je poslata elektronskom poštom';
 $string['maxmessages'] = 'Maksimalan broj poruka za prikazivanje u istoriji diskusija';
 $string['message'] = 'Poruka';
 $string['messagehistory'] = 'Istorija poruka';
+$string['messageprovider:instantmessage'] = 'Lične poruke između korisnikâ';
 $string['messages'] = 'Poruke';
 $string['messaging'] = 'Slanje poruka';
 $string['messagingdisabled'] = 'Slanje poruka je na ovom sajtu onemogućeno. Umesto toga biće poslato elektronsko pismo';
@@ -57,7 +59,7 @@ $string['onlyfromme'] = 'Samo poruke koje sam ja poslao/la';
 $string['onlymycourses'] = 'Samo u mojim kursevima';
 $string['onlytome'] = 'Samo poruke poslate meni';
 $string['pagerefreshes'] = 'Ova stranica se automatski osvežava svakih $a sekundi';
-$string['processor_config'] = 'Konfiguracija odredištâ';
+$string['private_config'] = 'Iskačući prozor za poruke';
 $string['processortag'] = 'Odredište:';
 $string['providers_config'] = 'Izvori poruka';
 $string['providerstag'] = 'Izvor:';
@@ -81,5 +83,7 @@ $string['unreadmessages'] = '$a nepročitanih poruka';
 $string['userisblockingyou'] = 'Ovaj korisnik je blokirao prijem Vaših poruka';
 $string['userisblockingyounoncontact'] = 'Ovaj korisnik prihvata samo poruke od osoba koje se nalaze na njegovoj listi kontakata, a Vi trenutno niste na njoj.';
 $string['userssearchresults'] = 'Rezultati pretrage: pronađeno je $a korisnika';
+$string['general_config'] = 'Opšte opcije'; // ORPHANED
+$string['processor_config'] = 'Konfiguracija odredištâ'; // ORPHANED
 
 ?>
