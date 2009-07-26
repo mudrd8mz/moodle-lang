@@ -784,6 +784,7 @@ $string['hideadvancedsettings'] = 'Cacher les réglages avancés';
 $string['hidepicture'] = 'Cacher l\'image';
 $string['hidesection'] = 'Cacher section $a';
 $string['hidesettings'] = 'Cacher les réglages';
+$string['hideshowblocks'] = 'Cacher ou montrer les blocs';
 $string['hidetopicfromothers'] = 'Cacher le thème pour les autres';
 $string['hideweekfromothers'] = 'Cacher la semaine pour les autres';
 $string['hits'] = 'Requêtes';
