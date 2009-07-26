@@ -138,6 +138,7 @@ $string['availablecourses'] = 'Cours disponibles';
 $string['back'] = 'Retour';
 $string['backto'] = 'Retour à $a';
 $string['backtocourselisting'] = 'Retour à la liste des cours';
+$string['backtopageyouwereon'] = 'Retour à la page d\'où vous venez';
 $string['backtoparticipants'] = 'Retour à la liste des participants';
 $string['backup'] = 'Sauvegarde';
 $string['backupactivehelp'] = 'Choisissez d\'activer ou non les sauvegardes automatiques.';
