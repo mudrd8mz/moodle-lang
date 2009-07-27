@@ -243,6 +243,7 @@ $string['clamquarantinedirfailed'] = 'あなたが指定した隔離用ディレ
 $string['clamunknownerror'] = 'calmに不明なエラーが発生しました。';
 $string['cleaningtempdata'] = '一時データの消去';
 $string['clear'] = 'クリア';
+$string['clickhelpiconformoreinfo'] = '... 続ける ... 詳細記事を閲覧するには、ヘルプアイコンをクリックしてください。';
 $string['clickhere'] = 'ここをクリック ...';
 $string['clicktochange'] = '変更するには、ここをクリックしてください。';
 $string['clicktohideshow'] = '展開または折りたたむには、ここをクリックしてください。';
