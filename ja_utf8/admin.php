@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -123,8 +123,10 @@ $string['configcurlcache'] = 'cURLキャッシュの有効期間 (Time-to-live) 
 $string['configdbsessions'] = 'この設定を有効にした場合、現在のセッション情報はデータベースに保存されます。これは特に規模の大きい/アクセス数の多いサイト、またはクラスタサーバで構築されたサイトに向いています。ほとんどのサイトでは、この設定をサーバディスクにセッションを保存する、無効のままにしてください。この設定を変更すると、(あなたも含めて) 現在のユーザがログアウトされます。あなたがMySQLを使用している場合、my.cnf (またはmy.ini) の「max_allowed_packet」 を少なくとも4Mにしてください。';
 $string['configdebug'] = 'この設定を有効にした場合、PHPのerror_reportingが増加し、より多くの警告が表示されるようになります。これは、開発者のみに便利な設定です。';
 $string['configdebugdisplay'] = 'この設定を有効にした場合、エラー報告はHTMLページに表示されますが、一般的にXHTML、JS、cookiesおよびHTTPヘッダを壊します。この設定を無効にした場合、エラー報告はサーバログに記録され、デバッグしやすくなります。PHP設定のerror_logで、どのログを記録するかコントロールできます。';
+$string['configdebugpageinfo'] = 'この設定を有効にした場合、ページフッタにページ情報が表示されます。';
 $string['configdebugsmtp'] = 'メールメッセージがSMTPサーバに送信される間、詳細デバッグ情報を表示します。';
 $string['configdebugstringids'] = 'このオプションは、翻訳者を手助けするため設計されました。それぞれ表示されるストリングの横に言語ファイルおよびストリングIDを表示します (この設定を変更した場合、次のページ読み込みからのみ反映されます)。';
+$string['configdebugvalidators'] = 'この設定を有効にした場合、フッタに外部Validatorサービスのリンクが表示されます。あなたは、新たなユーザ名「w3cvalidator」を作成して、ゲストアクセスを有効にする必要があります。これらの変更により、サーバに対して、不正なアクセスを許可してしまうことになります。実稼動サイトでは、有効にしないでください!';
 $string['configdefaultallowedmodules'] = '上位カテゴリに分類される<b>コースが作成される場合</b>、デフォルトでどのモジュールを許可しますか?';
 $string['configdefaultcourseroleid'] = 'コースに登録されたユーザには、このロールが自動的に割り当てられます。';
 $string['configdefaultrequestcategory'] = 'ユーザからリクエストされたコースは、自動的にこのカテゴリに配置されます。';
@@ -351,8 +353,10 @@ $string['debugging'] = 'デバッグ';
 $string['debugminimal'] = 'MINIMAL: 致命的なエラーのみ表示する';
 $string['debugnone'] = 'NONE: デバッグ情報を表示しない';
 $string['debugnormal'] = 'NORMAL: エラー、警告および注意を表示する';
+$string['debugpageinfo'] = 'ページ情報を表示する';
 $string['debugsmtp'] = 'デバッグメール送信';
 $string['debugstringids'] = '言語ストリングのオリジンを表示する';
+$string['debugvalidators'] = 'Validatorリンクを表示する';
 $string['defaultallowedmodules'] = 'デフォルトで許可するモジュール';
 $string['defaultcourseroleid'] = 'コースユーザのデフォルトロール';
 $string['defaulthtmleditor'] = 'デフォルトHTMLエディタ';
