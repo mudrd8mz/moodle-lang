@@ -422,6 +422,7 @@ $string['deletecheck'] = 'Supprimer {$a} ?';
 $string['deletecheckfiles'] = 'Voulez-vous vraiment supprimer ces fichiers ?';
 $string['deletecheckfull'] = 'Voulez-vous vraiment supprimer {$a} ?';
 $string['deletecheckwarning'] = 'Vous allez supprimer ces fichiers';
+$string['deletecomment'] = 'Supprimer ce commentaire';
 $string['deletecompletely'] = 'Supprimer entièrement';
 $string['deletecourse'] = 'Supprimer un cours';
 $string['deletecoursecheck'] = 'Voulez-vous vraiment supprimer ce cours ainsi que toutes les données qu\'il contient ?';
