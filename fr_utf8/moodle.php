@@ -242,6 +242,7 @@ $string['clamquarantinedirfailed'] = 'Impossible de déplacer le fichier dans le
 $string['clamunknownerror'] = 'Une erreur inconnue est survenue avec clam.';
 $string['cleaningtempdata'] = 'Suppression des données temporaires';
 $string['clear'] = 'Effacer';
+$string['clickhelpiconformoreinfo'] = '... suite ... Cliquer sur l\'icône d\'aide pour lire la totalité de l\'article';
 $string['clickhere'] = 'Cliquer ici...';
 $string['clicktochange'] = 'Cliquer pour changer';
 $string['clicktohideshow'] = 'Cliquer pour développer ou réduire';
