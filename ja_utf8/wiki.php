@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20090414) (2009040601)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
 
 
 $string['action'] = '-- アクション --';
@@ -21,9 +21,7 @@ $string['cannotacceptbin'] = 'このWikiでは、バイナリを許可してい�
 $string['cannotaccessgroup'] = 'グループは、このWikiにアクセスできません。';
 $string['cannotaddentry'] = 'Wikiエントリを追加できませんでした。';
 $string['cannotchangepage'] = 'このページは更新できません。';
-$string['cannotdeletelockrecored'] = 'ロックレコードを削除できません。';
 $string['cannotgetentry'] = 'エントリを取得できません。';
-$string['cannotinsertlockrecored'] = 'ロックレコードを追加できません。';
 $string['cannotstartwith'] = 'バイナリエントリを「 $a 」で開始できません。';
 $string['changes'] = '変更回数: $a 回';
 $string['changesfield'] = '最後の更新から何時間以内';
@@ -105,7 +103,7 @@ $string['listall'] = 'すべてを表示する';
 $string['listcandidates'] = '候補一覧';
 $string['lockcancelled'] = 'あなたの編集ロックは他の人にオーバーライドされ、現在このページはその人編集されています。あなたの変更内容を保持したい場合、「キャンセル」ボタンをクリックする前に、すべてを選択してコピーしてください。その後、再編集を試みてください。';
 $string['meta'] = 'メタデータ';
-$string['moduledirectory'] = 'モジュールディクショナリ';
+$string['moduledirectory'] = 'モジュールディレクトリ';
 $string['modulename'] = 'Wiki';
 $string['modulenameplural'] = 'Wiki';
 $string['mostoftenchangedpages'] = '最も変更されたページ';
@@ -209,5 +207,7 @@ $string['wikiusage'] = 'Wiki使用法';
 $string['withbinaries'] = 'バイナリコンテンツを含む';
 $string['withvirtualpages'] = 'Wikiリンクを含む';
 $string['wrongversionrange'] = '$a は正しい範囲にありません!';
+$string['cannotdeletelockrecored'] = 'ロックレコードを削除できません。'; //TBD
+$string['cannotinsertlockrecored'] = 'ロックレコードを追加できません。'; //TBD
 
 ?>
