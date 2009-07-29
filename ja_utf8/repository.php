@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
 
 
 $string['accessiblefilepicker'] = 'アクセス可能なファイルピッカ';
@@ -75,6 +75,7 @@ $string['manageurl'] = '管理';
 $string['manageuserrepository'] = 'リポジトリの管理';
 $string['noenter'] = '何も入力されていません。';
 $string['nofilesattached'] = 'ファイルは、添付されていません。';
+$string['nomorefiles'] = 'これ以上、添付は許可されません。';
 $string['nopermissiontoaccess'] = 'このリポジトリにアクセスするパーミッションがありません。';
 $string['noresult'] = '検索結果なし';
 $string['notyourinstances'] = 'あなたは、他のユーザのリポジトリインスタンスを表示/編集できません。';

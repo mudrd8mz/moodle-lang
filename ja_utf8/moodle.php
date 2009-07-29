@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -425,6 +425,7 @@ $string['deletecheck'] = '$a を削除してもよろしいですか?';
 $string['deletecheckfiles'] = '本当にこれらのファイルを削除してもよろしいですか?';
 $string['deletecheckfull'] = '本当に $a を完全に削除してもよろしいですか?';
 $string['deletecheckwarning'] = 'あなたは、これらのファイルを削除しようとしています';
+$string['deletecomment'] = 'このコメントを削除する';
 $string['deletecompletely'] = '削除する';
 $string['deletecourse'] = 'コースの削除';
 $string['deletecoursecheck'] = '本当にこのコースとコース内のすべてのデータを完全に削除してもよろしいですか?';
