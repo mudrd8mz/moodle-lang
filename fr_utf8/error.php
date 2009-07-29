@@ -222,6 +222,7 @@ $string['errorcopyingfiles'] = 'Erreur lors de la copie de fichiers';
 $string['errorcreatingdirectory'] = 'Erreur lors de la création du dossier « {$a} »';
 $string['errorcreatingfile'] = 'Erreur lors de la création du fichier « {$a} »';
 $string['errorcreatingrole'] = 'Erreur lors de la création du rôle';
+$string['errorfetchingrssfeed'] = 'Erreur lors de la récupération du fil RSS.';
 $string['erroronline'] = 'Erreur à la ligne $a';
 $string['errorreadingfile'] = 'Erreur lors de la lecture du fichier « {$a} »';
 $string['errorsavingrequest'] = 'Erreur lors de l\'enregistrement de votre demande';
