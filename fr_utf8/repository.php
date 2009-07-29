@@ -77,6 +77,7 @@ $string['manageurl'] = 'Gestion';
 $string['manageuserrepository'] = 'Gérer le dépôt personnel';
 $string['noenter'] = 'Pas de saisie';
 $string['nofilesattached'] = 'Aucun fichier joint';
+$string['nomorefiles'] = 'Il n\'est pas permis de joindre plus de fichiers';
 $string['nopermissiontoaccess'] = 'Pas d\'autorisation d\'accéder à ce dépôt';
 $string['noresult'] = 'Aucun résultat de recherche';
 $string['notyourinstances'] = 'Vous ne pouvez pas voir ni modifier les instances de dépôts d\'un autre utilisateur';
