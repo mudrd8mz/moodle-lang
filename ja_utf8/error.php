@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
+      // error.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
 
 
 $string['TODO'] = 'TODO';
@@ -193,6 +193,7 @@ $string['errorcopyingfiles'] = 'ファイルのコピー中にエラーが発生
 $string['errorcreatingdirectory'] = 'ディレクトリ「 $a 」の作成中にエラーが発生しました。';
 $string['errorcreatingfile'] = 'ファイル「 $a 」の作成中にエラーが発生しました。';
 $string['errorcreatingrole'] = 'ロールの作成中にエラーが発生しました。';
+$string['errorfetchingrssfeed'] = 'RSSフィードの取得中にエラーが発生しました。';
 $string['erroronline'] = '$a 行目にエラーがあります。';
 $string['errorreadingfile'] = 'ファイル「 $a 」の読み取り中にエラーが発生しました。';
 $string['errorsavingrequest'] = 'あなたのリクエストを保存中にエラーが発生しました。';
