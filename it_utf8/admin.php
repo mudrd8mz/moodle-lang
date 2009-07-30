@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090729) (2009072700)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -125,10 +125,12 @@ http://site.example.com/admin/cron.php?password=opensesame
 </pre> Se l\'impostazione è lasciata vuota, non è richiesta alcuna password.';
 $string['configcurlcache'] = 'Time-to-live, espresso in secondi, della cache cURL';
 $string['configdbsessions'] = 'E\' possibile memorizzare le informazioni delle sessioni nel database. L\'impostazione è particolarmente utile  per siti molto grandi, con molto traffico o per siti in cluster. Per la maggior parte dei siti questa impostazione può essere lasciata al suo default, in modo da memorizzare i dati di sessione nel file system. Attenzione: cambiare questa impostazione provoca il logout dal sito di tutti gli utenti collegati, voi compresi.';
-$string['configdebug'] = 'Attivando questa opzione, verrà  incrementata la reportistica di errore di PHP, aumentando i messaggi di errore. Questa opzione è utile solo per gli sviluppatori.';
-$string['configdebugdisplay'] = 'Marcando questa opzione, il report degli errori andrà alla pagina HTML. Questo è comodo, ma in generale altera XHTML, JS, i cookies e gli header HTTP. Senza questa opzione, l\'output sarà inviato sui log del vostro server, permettendo un miglior debugging. L\'impostazione PHP error_log controlla su quale log finirà suddetto output.';
-$string['configdebugsmtp'] = 'Abilita una maggiore quantità di informazioni per il debug, nell\'invio dei messaggi al server di posta SMTP.';
-$string['configdebugstringids'] = 'L\'opzione è pensata per facilitare i traduttori: attivandola, verrà visualizzata la provenienza di ciascuna  stringhe della lingua. (La modifica avrà effetto al prossimo caricamento della pagina).';
+$string['configdebug'] = 'L\'impostazione permette di regolare il livello di reportistica del PHP. E\' utile esclusivamente per gli sviluppatori.';
+$string['configdebugdisplay'] = 'L\'opzione permette di indirizzare il report degli errori nella pagina HTML. Sebbene l\'opzione sia particolarmente comoda, va tenuto presente che l\'invio di messaggi di errore nella pagina HTML altererà l\'XHTML, i JS, i cookie e gli header HTTP. Se non selezionate l\'opzione, il report sarà inviato nel log del vostro server, permettendo un miglior debugging. Il nome del log di destinazione è controllato dalla impostazione PHP error_log.';
+$string['configdebugpageinfo'] = 'Selezionate l\'opzione se desiderate visualizzare le informazione di pagina nel piè di pagina.';
+$string['configdebugsmtp'] = 'L\'opzione permette di visualizzare informazioni di debug utili per individuare problemi relativi all\'invio dei email tramite server SMTP.';
+$string['configdebugstringids'] = 'L\'opzione è pensata per facilitare i traduttori: attivandola, verrà visualizzata la provenienza di ciascuna  stringa della lingua. (La modifica avrà effetto al prossimo caricamento della pagina).';
+$string['configdebugvalidators'] = 'Selezionate l\'opzione se desiderate visualizzare i link ai validator esterni. Per il corretto funzionamento è necessario creare un utente con username <em>w3cvalidator</em> ed abilitare l\'accesso agli ospiti. Tali impostazioni possono consentire accessi non autorizzati al vostro server, pertanto non utilizzatale su siti in produzione.';
 $string['configdefaultallowedmodules'] = 'Per i corsi che ricadono nella categoria sovrastante, quali moduli si vuole che vengano permessi <b>quando il corso è creato</b>?';
 $string['configdefaultcourseroleid'] = 'Gli utenti che si iscriveranno spontaneamente ad un corso, riceveranno automaticamente questo ruolo.';
 $string['configdefaultrequestcategory'] = 'I corsi a richiesta, se approvati, saranno automaticamente inseriti nella categoria specificata.';
@@ -249,7 +251,7 @@ $string['configpasswordpolicy'] = 'Attivando questa opzione Moodle verificherà 
 $string['configpathtoclam'] = 'Percorso assoluto per Clam antivirus. Probabilmente usr/bin/clamscan oppure /usr/bin/clamdscan.
 Questo percorso consente a Clam di funzionare.';
 $string['configpathtodu'] = 'Percorso assoluto per du. Probabilmente usr/bin/du. Se questo campo viene compilato, le pagine che mostrano il contenuto delle cartelle con molti file verranno elaborate più velocemente.';
-$string['configperfdebug'] = 'Visualizza informazioni sulle prestazioni nel piè di pagina del tema standard';
+$string['configperfdebug'] = 'L\'opzione permette di visualizzare informazioni sulle prestazioni nel piè di pagina del tema standard';
 $string['configprofilesforenrolledusersonly'] = 'Per evitare abusi da parte degli spammer, vengono nascoste le descrizioni nei profili degli utenti che non sono ancora iscritti a corsi. I nuovi utenti potranno aggiungere la  descrizione nel profilo solo dopo essere stati iscritti ad almeno un corso-';
 $string['configprotectusernames'] = 'Per default la routine forget_password.php non mostra elementi che potrebbero permettere di indovinare gli username o gli indirizzi email.';
 $string['configproxybypass'] = 'Elenco separato da virgole dei nomi degli host o degli IP (anche parziali) che possono evitare il proxy (ad esempio, 192.168., .mydomain.com)';
@@ -323,7 +325,7 @@ $string['configvariables'] = 'Variabili';
 $string['configverifychangedemail'] = 'Abilita la funzione di verifica degli indirizzi di posta elettronica quando gli utenti nel loro profilo modificano l\'email. La verifica viene effettuata sulla base delle liste di domini presenti nelle impostazioni Domini di posta autorizzati e Domini di posta non autorizzati. Se questa impostazione è disabilitata, la verifica dei domini autorizzati verrà operata solo durante la creazione di nuovi account.';
 $string['configvisiblecourses'] = 'Mostra i corsi nelle categorie nascoste normalmente';
 $string['configwarning'] = 'Fate attenzione a modificare queste impostazioni, valori anomali potrebbero causare problemi.';
-$string['configxmlstrictheaders'] = 'Marcando questa opzione, ogni pagina sarà generata usando XML http headers e prolog, in modo che i browser mostreranno gli errori XHTML online. Questo è utile solamente per chi sviluppa il software.';
+$string['configxmlstrictheaders'] = 'L\'opzione permette di generare pagine  usando http headers e prolog XML, consentendo ai browser di visualizzare online gli errori XHTML. E\' utile esclusivamente per gli sviluppatori.';
 $string['configzip'] = 'Indica il percorso del programma Zip di compressione dati (Solo per Unix).
 Se specificato, questo programma si occuperà  di creare archivi di files compressi lato server. Se lasciato in bianco, Moodle utilizzerà  le proprie routine interne.';
 $string['confirmation'] = 'Conferma';
@@ -367,16 +369,18 @@ $string['dbmigrationdeprecateddb'] = '<strong>Questa base dati è stata migrata 
 $string['dbmigrationdupfailed'] = 'Duplicazione della base dati fallita questo errore possibile:<strong><pre>$a</pre></strong>';
 $string['dbsessions'] = 'Usa il database per le informazioni di sessione';
 $string['dbtest'] = 'Functional DB test';
-$string['debug'] = 'Messaggi di debug';
-$string['debugall'] = 'TUTTI: Mostra tutti i più significativi messaggi di debug del PHP';
-$string['debugdeveloper'] = 'SVILUPPATORE: messaggi di debug extra Moodle per sviluppatori';
-$string['debugdisplay'] = 'Mostra i messaggi di debug';
+$string['debug'] = 'Livello di debug';
+$string['debugall'] = 'TUTTI: Visualizza i più significativi messaggi di debug del PHP';
+$string['debugdeveloper'] = 'SVILUPPATORE: messaggi extra di debug per sviluppatori Moodle';
+$string['debugdisplay'] = 'Visualizza messaggi di debug';
 $string['debugging'] = 'Debugging';
-$string['debugminimal'] = 'MINIMI: Mostra solamente gli errori fatali';
-$string['debugnone'] = 'NESSUNO: Non mostrare alcun errore o segnalazione';
-$string['debugnormal'] = 'NORMALE: Mostra errori, segnalazioni e avvisi';
-$string['debugsmtp'] = 'Invio email per debug';
+$string['debugminimal'] = 'MINIMO: Visualizza solo gli errori irreversibili';
+$string['debugnone'] = 'NESSUNO: Non visualizzare errori né warning';
+$string['debugnormal'] = 'NORMALE: Visualizza errori, warning e notice';
+$string['debugpageinfo'] = 'Visualizza le informazioni di pagina';
+$string['debugsmtp'] = 'Debug per l\'invio di email';
 $string['debugstringids'] = 'Visualizza la provenienza delle stringhe della lingua';
+$string['debugvalidators'] = 'Visualizza i link ai validator';
 $string['defaultallowedmodules'] = 'Moduli autorizzati per default';
 $string['defaultcourseroleid'] = 'Ruolo di default per gli utenti nei corsi';
 $string['defaulthtmleditor'] = 'Editor HTML di default';
@@ -676,7 +680,7 @@ $string['pathtopsqldesc'] = 'Questo è solamente necessario se avete più di un 
 $string['pathtopsqlinvalid'] = 'Percorso non valido per pgsql - percorso errato o non eseguibile';
 $string['pathtounzip'] = 'Percorso per unzip';
 $string['pathtozip'] = 'Percorso per zip';
-$string['perfdebug'] = 'Informazioni sulle prestazioni';
+$string['perfdebug'] = 'Visualizza prestazioni';
 $string['performance'] = 'Prestazioni';
 $string['pgcluster'] = 'Cluster PostgreSQL';
 $string['pgclusterdescription'] = '<pre>Parametro per le operazioni a linea di comando della versione/cluster di PostgreSQL. Se avete solo un postgresql sul vostro sistema o non siete sicuri di cosa sia questo, lasciatelo vuoto.</pre>';

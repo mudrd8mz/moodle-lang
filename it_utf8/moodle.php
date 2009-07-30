@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090729) (2009072700)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -243,6 +243,7 @@ $string['clamquarantinedirfailed'] = 'Non è possibile spostare il file nella ca
 $string['clamunknownerror'] = 'Clam ha segnalato un errore sconosciuto.';
 $string['cleaningtempdata'] = 'Eliminazione dati temporanei';
 $string['clear'] = 'Svuota';
+$string['clickhelpiconformoreinfo'] = '...prosegue...Fate click sulla icona aiuto per accedere all\'articolo completo';
 $string['clickhere'] = 'Clicca qui ...';
 $string['clicktochange'] = 'Clicca per cambiare';
 $string['clicktohideshow'] = 'Click per aprire e chiudere';
@@ -424,6 +425,7 @@ $string['deletecheck'] = 'Elimino $a ?';
 $string['deletecheckfiles'] = 'Se sicuro di eliminare questi file?';
 $string['deletecheckfull'] = 'Sei sicuro di eliminare $a ?';
 $string['deletecheckwarning'] = 'Stai per eliminare questi file';
+$string['deletecomment'] = 'Elimina il commento';
 $string['deletecompletely'] = 'Elimina completamente';
 $string['deletecourse'] = 'Elimina un corso';
 $string['deletecoursecheck'] = 'Sei sicuro eliminare questo corso e tutti i dati che contiene?';

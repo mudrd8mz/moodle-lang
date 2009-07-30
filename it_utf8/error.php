@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
+      // error.php - created with Moodle 2.0 dev (Build: 20090729) (2009072700)
 
 
 $string['TODO'] = 'TODO';
@@ -193,6 +193,7 @@ $string['errorcopyingfiles'] = 'Si è verificato un errore copiando i file';
 $string['errorcreatingdirectory'] = 'Si è verificato un errore creando la cartella \"$a\"';
 $string['errorcreatingfile'] = 'Si è verificato un errore creando il file \"$a\"';
 $string['errorcreatingrole'] = 'Si è verificato un errore durante la creazione del ruolo';
+$string['errorfetchingrssfeed'] = 'Si è verificato un errore durante la ricezione del feed RSS.';
 $string['erroronline'] = 'Si è verificato un errore alla linea $a';
 $string['errorreadingfile'] = 'Si è verificato un errore leggendo il file \"$a\"';
 $string['errorsavingrequest'] = 'Si è verificato un errore durante il salvataggio della tua richiesta';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090729) (2009072700)
 
 
 $string['accessiblefilepicker'] = 'Selettore file accessibile';
@@ -75,6 +75,7 @@ $string['manageurl'] = 'Gestisci';
 $string['manageuserrepository'] = 'Gestisci repository individuali';
 $string['noenter'] = 'Non è stato inserito niente';
 $string['nofilesattached'] = 'Non ci sono allegati';
+$string['nomorefiles'] = 'Non sono consentiti altri allegati';
 $string['nopermissiontoaccess'] = 'Non ci sono privilegi d\'accesso al repository';
 $string['noresult'] = 'Nessun risultato dalla ricerca';
 $string['notyourinstances'] = 'Non puoi visualizzare o modificare i repository di un altro utente';

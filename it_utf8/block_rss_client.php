@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20090729) (2009072700)
 
 
 $string['addfeed'] = 'Aggiungi un URL di feed news:';
 $string['addheadlineblock'] = 'Aggiungi il titolo per il blocco RSS';
 $string['addnew'] = 'Aggiungi nuovo';
+$string['addnewfeed'] = 'Aggiungi un feed';
 $string['blockname'] = 'Client RSS';
 $string['cannotmakemodification'] = 'Al momento non siete autorizzati a modificare questo feed RSS';
 $string['choosefeedlabel'] = 'Scegliere quale feed rendere disponibile in questo blocco:';
@@ -17,17 +18,21 @@ $string['couldnotfindfeed'] = 'Non ho trovato il feed tramite l\'id';
 $string['customtitlelabel'] = 'Titolo personalizzato (lasciare in bianco per usare il titolo del feed originario):';
 $string['deletefeedconfirm'] = 'Sei sicuro di voler cancellare questo feed?';
 $string['displaydescriptionlabel'] = 'Mostra descrizione per ogni link?';
+$string['editafeed'] = 'Modifica un feed';
 $string['editfeeds'] = 'Modificare, sottoscrivere o revocare l\'iscrizione al feed news RSS/Atom';
 $string['editnewsfeeds'] = 'Modifica feed di news';
 $string['editrssblock'] = 'Modifica titolo blocco RSS';
+$string['errorloadingfeed'] = 'Si è verificato un errore durante il caricamento del feed RSS ($a)';
 $string['feed'] = 'Feed News';
 $string['feedadded'] = 'Aggiunto feed News';
 $string['feeddeleted'] = 'Cancellato feed News';
 $string['feeds'] = 'Feed News';
 $string['feedsaddedit'] = 'Aggiungi/Modifica feed';
 $string['feedsconfigurenewinstance'] = 'Prima che questo blocco possa mostrare un feed RSS, devi configurarlo facendo click qui.';
+$string['feedsconfigurenewinstance2'] = 'Per configurare il blocco e visualizzare i feed RSS devi fare click sull\'icona di modifica.';
 $string['feedstitle'] = 'Feed RSS remoti';
 $string['feedupdated'] = 'Aggiornato feed News';
+$string['feedurl'] = 'URL del feed';
 $string['findmorefeeds'] = 'Trova altri feed RSS';
 $string['managefeeds'] = 'Gestisci tutti i miei feed';
 $string['nofeeds'] = 'Non ci sono altri feed RSS definiti per questo sito.';
@@ -49,5 +54,6 @@ $string['timeout2'] = 'Tempo massimo';
 $string['timeoutdesc'] = 'Tempo di permanenza nella cache di un RSS feed. (minuti)';
 $string['updatefeed'] = 'Aggiorna l\'URL di un feed News:';
 $string['validatefeed'] = 'Valida feed';
+$string['viewfeed'] = 'Visualizza feed';
 
 ?>
