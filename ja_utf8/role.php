@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
+      // role.php - created with Moodle 2.0 dev (Build: 20090730) (2009073000)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -24,6 +24,7 @@ $string['assignroles'] = 'ロールの割り当て';
 $string['assignrolesin'] = '$a ロールの割り当て';
 $string['assignrolesrelativetothisuser'] = 'このユーザに対してロールを割り当てる';
 $string['backtoallroles'] = 'すべてのロール一覧に戻る';
+$string['block:edit'] = 'ブロック設定を編集する';
 $string['block:view'] = 'ブロックを表示する';
 $string['blog:create'] = '新しいブログエントリを作成する';
 $string['blog:manageentries'] = 'エントリを編集および管理する';
@@ -220,7 +221,7 @@ $string['site:doclinks'] = 'サイト外ドキュメントのリンクを表示�
 $string['site:import'] = 'コースに他のコースをインポートする';
 $string['site:langeditlocal'] = 'ローカル翻訳をカスタマイズする';
 $string['site:langeditmaster'] = 'マスター言語パックを編集する';
-$string['site:manageblocks'] = 'サイトレベルのブロックを管理する';
+$string['site:manageblocks'] = 'ページのブロックを管理する';
 $string['site:mnetloginfromremote'] = 'リモートMoodleからログインする';
 $string['site:mnetlogintoremote'] = 'リモートMoodleを散策する';
 $string['site:readallmessages'] = 'サイトのすべてのメッセージを読む';

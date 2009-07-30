@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block.php - created with Moodle 2.0 dev (Build: 20090715) (2009071300)
+      // block.php - created with Moodle 2.0 dev (Build: 20090730) (2009073000)
 
 
 $string['anypagematchingtheabove'] = '上記に合致するすべてのページ';
@@ -9,6 +9,8 @@ $string['bracketfirst'] = '$a (最初)';
 $string['bracketlast'] = '$a (最後)';
 $string['defaultregion'] = 'デフォルトの場所';
 $string['defaultweight'] = 'デフォルトの加重';
+$string['moveblockhere'] = 'ここにブロックを移動する';
+$string['movingthisblockcancel'] = 'このブロック ($a) を移動する';
 $string['onthispage'] = 'このページでの設定';
 $string['pagetypes'] = 'ページタイプ';
 $string['region'] = '場所';

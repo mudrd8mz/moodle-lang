@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
+      // error.php - created with Moodle 2.0 dev (Build: 20090730) (2009073000)
 
 
 $string['TODO'] = 'TODO';
@@ -420,6 +420,7 @@ $string['unknowaction'] = '不明な処理です!';
 $string['unknowcategory'] = '不明なカテゴリです!';
 $string['unknowcontext'] = 'get_child_contextsで不明なコンテクスト ($a) です!';
 $string['unknowformat'] = '不明なフォーマット「 $a 」です。';
+$string['unknownblockregion'] = 'このページには、ブロック要素「 $a 」が認識されません。';
 $string['unknowncontext'] = 'これは、不明なコンテクストです。';
 $string['unknowncourse'] = '不明なコース名「 $a 」です。';
 $string['unknowncourseidnumber'] = '不明なコースID「 $a 」です。';
