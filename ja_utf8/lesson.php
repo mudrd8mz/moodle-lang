@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20090730) (2009073000)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -64,7 +64,7 @@ $string['collapsed'] = '折りたたむ';
 $string['comments'] = 'あなたのコメント';
 $string['completed'] = '完了';
 $string['completederror'] = 'レッスンを完了する';
-$string['completethefollowingconditions'] = '先へ進む前に、<b>$a</b> レッスンの下記の状態を完了させる必要があります。';
+$string['completethefollowingconditions'] = '先へ進むには、<b>$a</b> レッスンの下記の状態を完了させる必要があります。';
 $string['conditionsfordependency'] = '依存条件';
 $string['confirmdeletionofthispage'] = '本当にこのページを削除してもよろしいですか?';
 $string['congratulations'] = 'おめでとうございます - レッスンの最後に到達しました。';
@@ -94,7 +94,7 @@ $string['displayleftif'] = '評点が次の評点より高い場合のみ左メ�
 $string['displayleftmenu'] = '左メニューを表示する';
 $string['displayofgrade'] = '評点を表示する (学生のみ)';
 $string['displayreview'] = 'レビューボタンを表示する';
-$string['displayscorewithessays'] = '自動評定によるあなたの評点は、$a->tempmaxgrade 点中 $a->score 点です。<br />作文問題 $a->essayquestions は評定され、後日あなたの最終評点に追加されます。<br /><br />作文問題を除くあなたの現在の評点は、$a->grade 点中 $a->score 点です。';
+$string['displayscorewithessays'] = '自動評定によるあなたの評点は、$a->tempmaxgrade 点中 $a->score 点です。<br />作文問題 $a->essayquestions が評定され、後日あなたの最終評点に追加されます。<br /><br />作文問題を除くあなたの現在の評点は、$a->grade 点中 $a->score 点です。';
 $string['displayscorewithoutessays'] = 'あなたの評点は、 $a->score ($a->grade 点中)です。';
 $string['edit'] = '編集';
 $string['editlessonsettings'] = 'レッスンの更新';
@@ -226,10 +226,10 @@ $string['numberofcorrectanswers'] = '正解数: $a';
 $string['numberofcorrectmatches'] = '正しいマッチ数: $a';
 $string['numberofpagestoshow'] = 'ページ (カード) の表示数';
 $string['numberofpagesviewed'] = '解答済み問題数: $a';
-$string['numberofpagesviewednotice'] = '解答済み問題数: $a->nquestions; (あなたは少なくとも: $a->minquestions の問題に解答する必要があります)';
+$string['numberofpagesviewednotice'] = '解答済み問題数: $a->nquestions; (あなたは少なくとも $a->minquestions 問の問題に解答する必要があります)';
 $string['ongoing'] = '進行中の評点を表示する';
 $string['ongoingcustom'] = '現在、あなたの評点は $a->currenthigh 点中 $a->score 点です。';
-$string['ongoingnormal'] = 'あなたは $a->viewed の問題の中から $a->correct を正しく答えました。';
+$string['ongoingnormal'] = 'あなたは $a->viewed 問中 $a->correct 問を正しく答えました。';
 $string['onpostperpage'] = '1評点あたり1回のみ登録してください。';
 $string['or'] = 'または';
 $string['ordered'] = '整理済み';
