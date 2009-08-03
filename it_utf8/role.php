@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
+      // role.php - created with Moodle 2.0 dev (Build: 20090731) (2009073000)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
@@ -24,6 +24,7 @@ $string['assignroles'] = 'Ruoli';
 $string['assignrolesin'] = 'Assegna ruoli nel contesto $a';
 $string['assignrolesrelativetothisuser'] = 'Assegna ruoli relativi a questo utente';
 $string['backtoallroles'] = 'Torna all\'elenco di tutti i ruoli';
+$string['block:edit'] = 'Modificare le impostazioni dei blocco';
 $string['block:view'] = 'Visualizza blocco';
 $string['blog:create'] = 'Creare nuovi interventi nei blog';
 $string['blog:manageentries'] = 'Modificare e gestire interventi nei blog';

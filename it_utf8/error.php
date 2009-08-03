@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090729) (2009072700)
+      // error.php - created with Moodle 2.0 dev (Build: 20090731) (2009073000)
 
 
 $string['TODO'] = 'TODO';
@@ -420,6 +420,7 @@ $string['unknowaction'] = 'Azione sconosciuta!';
 $string['unknowcategory'] = 'Categoria sconosciuta!';
 $string['unknowcontext'] = 'Questo è un contesto sconosciuto ($a) in get_child_contexts!';
 $string['unknowformat'] = 'Formato sconosciuto ($a)';
+$string['unknownblockregion'] = 'In questa pagina l\'area blocchi \'$a\' non è stata individuata.';
 $string['unknowncontext'] = 'Questo contesto è sconosciuto.';
 $string['unknowncourse'] = 'Il corso di nome \"$a\" è sconosciuto';
 $string['unknowncourseidnumber'] = 'Il corso con ID \"$a\" è sconosciuto';
