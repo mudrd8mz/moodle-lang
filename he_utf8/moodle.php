@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
 
 
 $string['abouttobeinstalled'] = 'על סף התקנה';
@@ -1112,6 +1112,7 @@ $string['publicdirectory1'] = 'פרסם את שם האתר בלבד';
 $string['publicdirectory2'] = 'פרסם את שם האתר עם קישור';
 $string['publicdirectorytitle'] = 'הראה את רשימת האתרים הנוכחית';
 $string['publicsitefileswarning'] = 'הערה: קבצים הממוקמים כאן הינם נגישים לכולם';
+$string['publicsitefileswarning2'] = 'הערה: ניתן לגשת אליהם לקבצים המוצגים כאן ע\"י מישהו שיודע (או יכול לנחש) את כתובת האתר. מטעמי אבטחה, מומלץ כי כל קבצי הגיבוי ימחקו מייד לאחר ששחזרו אותם.';
 $string['question'] = 'שאלה';
 $string['questionsinthequestionbank'] = 'שאלות בבנק השאלות';
 $string['readinginfofrombackup'] = 'קורא מידע מהגיבוי';
@@ -1132,6 +1133,7 @@ $string['registrationinfo'] = 'עמוד זה מאפשר לך לרשום את א�
 <p>לפי ברירת מחדל, הנתונים שלך יישמרו סודיים, ולעולם לא יימכרו או יעבורו למשהו אחר. הסיבה היחידה לאסיפת מידע זה היא למטרת תמיכה, וכדי לעזור לבנות תמונה סטטיסטית של קהילת Moodle כשלם. </p>
 <p>אם תבחר, אתה יכול להרשות ששם האתר שלך, ארץ וURL יוספו לרשימה הפומבית של אתרי .Moodle</p>
 <p>כל ההרשמות החדשות מאושרות ידנית לפני שהם מתווספות לרשימה, אבל מרגע שאתה מתווסף לרשימה אתה יכול לעדכן את את ההרשמה (ואת הכניסה שלך ברשימה הפומבית) בכל זמן על ידי הגשה חוזרת של טופס זה.</p>';
+$string['registrationinfotitle'] = 'מידע הרישום';
 $string['registrationno'] = 'לא, אני לא רוצה לקבל דואר אלקטרוני';
 $string['registrationsend'] = 'שלח נתוני הרשמה ל moodle.org';
 $string['registrationyes'] = 'כן, אנא הודע על נושאים חשובים';
@@ -1171,6 +1173,8 @@ $string['restorecancelled'] = 'שחזור בוטל';
 $string['restorecoursenow'] = 'שחזר קורס זה כעת!';
 $string['restorefinished'] = 'השחזור הושלם בהצלחה';
 $string['restoreto'] = 'שחזר ל';
+$string['restoretositeadding'] = 'אזהרה: אתה עומד לשחזר לעמוד הראשי של האתר, הוספת מידע עליו!';
+$string['restoretositedeleting'] = 'אזהרה: אתה עומד לשחזר לעמוד הראשי של האתר, מחיקת מידע ממנו קודם לכן!';
 $string['restricted'] = 'מוגבל';
 $string['restrictmodules'] = 'להגביל מודולי פעילויות?';
 $string['returningtosite'] = 'האם זהו ביקור חוזר שלך באתר זה?';
