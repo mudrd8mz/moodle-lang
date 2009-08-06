@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // admin.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
 
 
 $string['accessdenied'] = 'הגישה נדחתה';
@@ -333,7 +333,7 @@ $string['filestoredinhelp'] = 'היכן הקובץ יאוחסן';
 $string['filterall'] = 'סנן את כל המחרוזות';
 $string['filtermatchoneperpage'] = 'הפעל את המסנן פעם אחת בלבד לכל עמוד';
 $string['filtermatchonepertext'] = 'הפעל את המסנן פעם אחת בלבד לכל טקסט';
-$string['filtersettings'] = 'נהל פילטרים';
+$string['filtersettings'] = 'נהל מסננים';
 $string['filtersettingsgeneral'] = 'הגדרות מסנן כללי';
 $string['filteruploadedfiles'] = 'סנן את הקבצים המועלים';
 $string['forcelogin'] = 'הכרח משתמשים להתחבר למערכת';
