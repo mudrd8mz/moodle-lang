@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090303) (2009030300)
+      // question.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -9,9 +9,7 @@ $string['broken'] = 'これは存在しないファイルをポイントする�
 $string['byandon'] = '<em>$a->time</em> (ユーザ: <em>$a->user</em>)';
 $string['cannotcopybackup'] = 'バックアップファイルをコピーできませんでした。';
 $string['cannotcreate'] = 'question_attemptsテーブルに新しいエントリを作成できませんでした。';
-$string['cannotcreatedataset'] = 'データセット $a を作成できません。';
 $string['cannotcreatepath'] = 'パスを作成できません: $a';
-$string['cannotcreaterelation'] = 'データセット $a[0] のリレーション $a[1] を作成できません。';
 $string['cannotdeletecate'] = 'このコンテクストのデフォルトカテゴリのため、あなたはカテゴリを削除できません。';
 $string['cannotenable'] = '問題タイプ $a は直接作成できません。';
 $string['cannotfindcate'] = 'カテゴリレコードが見つかりませんでした。';
@@ -20,28 +18,15 @@ $string['cannotgetdsfordependent'] = 'データセットに依存した問題の
 $string['cannotgetdsforquestion'] = '計算問題のデータセットを取得できませんでした! (問題: {$a})';
 $string['cannothidequestion'] = '問題を非表示にできませんでした。';
 $string['cannotimportformat'] = '申し訳ございません、このフォーマットでのインポートは、まだ実装されていません!';
-$string['cannotinsert'] = 'エラー: データセットアイテムを追加できません。';
-$string['cannotinsertitem'] = '$a[2] にデータセットアイテム「 アイテムナンバー: $a[0] 値: $a[1] 」を追加できません。';
 $string['cannotinsertquestion'] = '新しい問題を追加できませんでした!';
-$string['cannotinsertquestioncate'] = '新しい問題カテゴリ「 $a 」を追加できませんでした。';
 $string['cannotinsertquestioncatecontext'] = '新しい問題カテゴリ「 $a[0] 」を追加できませんでした。コンテクストID「 $a[1] 」が正しくありません。';
 $string['cannotloadquestion'] = '問題を読み込めませんでした。';
-$string['cannotmovecate'] = 'このコンテクストの最後にあるため、カテゴリ $a を移動できません。';
-$string['cannotmovefromto'] = 'カテゴリ $a[0] を $a[1] に移動できませんでした。';
 $string['cannotmovequestion'] = 'あなたは、異なる場所のファイルと関連付けてある問題を移動するため、このスクリプトを使用できません。';
 $string['cannotopenforwriting'] = '書き込みオープンできません: $a';
 $string['cannotpreview'] = 'あなたは、これらの問題をプレビューできません。';
 $string['cannotretrieveqcat'] = '問題カテゴリを検索できませんでした。';
-$string['cannotsavequiz'] = '現在の小テスト受験の保存に失敗しました!';
 $string['cannotunhidequestion'] = '問題の非表示解除に失敗しました。';
 $string['cannotunzip'] = 'ZIPファイルを解凍できません。';
-$string['cannotupdatecate'] = 'カテゴリ $a を更新できませんでした。';
-$string['cannotupdatecount'] = 'エラー: アイテムカウントを更新できません。';
-$string['cannotupdateitem'] = 'エラー: データセットアイテムを更新できません。';
-$string['cannotupdatequestion'] = '問題を更新できませんでした!';
-$string['cannotupdatequestionver'] = '問題バージョンフィールドを更新できませんでした。';
-$string['cannotupdaterandomqname'] = 'ランダム問題名を更新できませんでした。';
-$string['cannotupdatesubcate'] = '子カテゴリを更新できませんでした!';
 $string['cannotwriteto'] = '$a にエクスポート問題を書き込めません。';
 $string['categorycurrent'] = '現在のカテゴリ';
 $string['categorycurrentuse'] = 'このカテゴリを使用する';
@@ -174,6 +159,21 @@ $string['upgradeproblemcouldnotupdatecategory'] = '問題カテゴリ「 $a->nam
 $string['upgradeproblemunknowncategory'] = '問題カテゴリのアップグレード中に問題が発生しました。カテゴリ「 $a->id 」が存在しない親カテゴリ「 $a->parent 」を参照しています。問題を修正するため、親カテゴリを変更しました。';
 $string['wrongprefix'] = '問題名接頭辞のフォーマット「 $a 」が正しくありません。';
 $string['yourfileshoulddownload'] = 'あなたのエクスポートファイルのダウンロードは、まもなく始まります。ダウンロードされない場合、<a href=\"$a\">ここをクリックしてください</a>。';
-$string['novirtualquestion'] = '問題タイプ $a には、バーチャル問題がありません。'; //TBD
+$string['cannotcreatedataset'] = 'データセット $a を作成できません。'; // ORPHANED
+$string['cannotcreaterelation'] = 'データセット $a[0] のリレーション $a[1] を作成できません。'; // ORPHANED
+$string['cannotinsert'] = 'エラー: データセットアイテムを追加できません。'; // ORPHANED
+$string['cannotinsertitem'] = '$a[2] にデータセットアイテム「 アイテムナンバー: $a[0] 値: $a[1] 」を追加できません。'; // ORPHANED
+$string['cannotinsertquestioncate'] = '新しい問題カテゴリ「 $a 」を追加できませんでした。'; // ORPHANED
+$string['cannotmovecate'] = 'このコンテクストの最後にあるため、カテゴリ $a を移動できません。'; // ORPHANED
+$string['cannotmovefromto'] = 'カテゴリ $a[0] を $a[1] に移動できませんでした。'; // ORPHANED
+$string['cannotsavequiz'] = '現在の小テスト受験の保存に失敗しました!'; // ORPHANED
+$string['cannotupdatecate'] = 'カテゴリ $a を更新できませんでした。'; // ORPHANED
+$string['cannotupdatecount'] = 'エラー: アイテムカウントを更新できません。'; // ORPHANED
+$string['cannotupdateitem'] = 'エラー: データセットアイテムを更新できません。'; // ORPHANED
+$string['cannotupdatequestion'] = '問題を更新できませんでした!'; // ORPHANED
+$string['cannotupdatequestionver'] = '問題バージョンフィールドを更新できませんでした。'; // ORPHANED
+$string['cannotupdaterandomqname'] = 'ランダム問題名を更新できませんでした。'; // ORPHANED
+$string['cannotupdatesubcate'] = '子カテゴリを更新できませんでした!'; // ORPHANED
+$string['novirtualquestion'] = '問題タイプ $a には、バーチャル問題がありません。'; // ORPHANED
 
 ?>

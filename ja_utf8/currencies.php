@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 2.0 dev (Build: 20080331) (2008030700)
+      // currencies.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['AED'] = 'アラブ首長国連邦・ディルハム';
@@ -143,6 +143,6 @@ $string['YER'] = 'イエメン・リアル';
 $string['ZAR'] = '南アフリカ・ランド';
 $string['ZMK'] = 'ザンビア・クワチャ';
 $string['ZWD'] = 'ジンバブエ・ドル';
-$string['PEI'] = 'ペルー・インティ'; // TBD
+$string['PEI'] = 'ペルー・インティ'; // ORPHANED
 
 ?>

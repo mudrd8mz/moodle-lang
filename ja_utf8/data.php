@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090506) (2009043000)
+      // data.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['action'] = '操作';
@@ -31,7 +31,6 @@ $string['cancel'] = 'キャンセル';
 $string['cannotaccesspresentsother'] = 'あなたは他のユーザのプリセットへのアクセスを許可されていません。';
 $string['cannotadd'] = 'エントリを追加できません!';
 $string['cannotdeletepreset'] = 'プリセットの削除中にエラーが発生しました!';
-$string['cannotinsertempty'] = '空のレコードを作成できませんでした!';
 $string['cannotrate'] = 'アイテムの評価が許可されていません!';
 $string['cannotunziptopreset'] = 'プリセットディレクトリにZIPファイルを解凍できません。';
 $string['checkbox'] = 'チェックボックス';
@@ -271,7 +270,6 @@ $string['type'] = 'フィールドタイプ';
 $string['undefinedprocessactionmethod'] = 'アクション「 $a 」を処理するためのメソッドがData_Presetに定義されていません。';
 $string['unsupportedexport'] = '($a->fieldtype) をエクスポートできませんでした。';
 $string['updatefield'] = '既存のフィールドを更新します。';
-$string['updatingerror'] = 'データベースの更新中にエラーが発生しました。';
 $string['uploadfile'] = 'ファイルをアップロードする';
 $string['uploadrecords'] = 'ファイルからエントリをアップロードする';
 $string['url'] = 'URI';
@@ -279,12 +277,14 @@ $string['usestandard'] = 'プリセットを使用する';
 $string['viewfromdate'] = '表示開始';
 $string['viewtodate'] = '表示終了';
 $string['wrongdataid'] = '無効なデータIDが提供されました。';
-$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; //TBD
-$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; //TBD
-$string['invaliddata'] = 'データが正しくありません。'; //TBD
-$string['csvformat'] = 'CSVフォーマット'; //TBD
-$string['excelformat'] = 'Excelフォーマット'; //TBD
-$string['exportdatabase'] = 'データベースレコードをエクスポートする'; //TBD
-$string['odsformat'] = 'ODSフォーマット'; //TBD
+$string['cannotinsertempty'] = '空のレコードを作成できませんでした!'; // ORPHANED
+$string['updatingerror'] = 'データベースの更新中にエラーが発生しました。'; // ORPHANED
+$string['cannotinsertrate'] = '新しい評価を追加できませんでした ($a[0] = $a[1])。'; // ORPHANED
+$string['cannotupdaterate'] = '古い評価を更新できませんでした ($a[0] = $a[1])。'; // ORPHANED
+$string['invaliddata'] = 'データが正しくありません。'; // ORPHANED
+$string['csvformat'] = 'CSVフォーマット'; // ORPHANED
+$string['excelformat'] = 'Excelフォーマット'; // ORPHANED
+$string['exportdatabase'] = 'データベースレコードをエクスポートする'; // ORPHANED
+$string['odsformat'] = 'ODSフォーマット'; // ORPHANED
 
 ?>

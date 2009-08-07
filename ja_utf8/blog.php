@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20090220) (2009021800)
+      // blog.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['addnewentry'] = '新しいエントリを追加する';
@@ -21,7 +21,6 @@ $string['courseblog'] = 'コースブログ: $a';
 $string['courseblogdisable'] = 'コースブログは有効にされていません。';
 $string['courseblogs'] = 'ユーザはコースを共有しているユーザのブログのみ読むことができる';
 $string['deleteotagswarn'] = '本当にこれらのタグをすべてのブログ投稿およびシステムから削除してもよろしいですか?';
-$string['deleteposterror'] = '投稿の削除中にエラーが発生しました。';
 $string['disableblogs'] = 'ブログシステムを完全に無効にする';
 $string['donothaveblog'] = '申し訳ございません、あなたのブログはありません。';
 $string['emptybody'] = 'ブログエントリ本文を入力してください。';
@@ -67,9 +66,10 @@ $string['viewmyentries'] = 'マイエントリを表示する';
 $string['viewsiteentries'] = 'サイトエントリを表示する';
 $string['worldblogs'] = '世界中の誰でもエントリを読むことができる';
 $string['wrongpostid'] = 'ブログ投稿IDが正しくありません。';
-$string['addotags'] = 'オフィシャルタグの追加'; //TBD
-$string['addptags'] = 'ユーザ定義タグの追加'; //TBD
-$string['otags'] = 'オフィシャルタグ'; //TBD
-$string['ptags'] = 'ユーザ定義タグ (カンマ区切り)'; //TBD
+$string['deleteposterror'] = '投稿の削除中にエラーが発生しました。'; // ORPHANED
+$string['addotags'] = 'オフィシャルタグの追加'; // ORPHANED
+$string['addptags'] = 'ユーザ定義タグの追加'; // ORPHANED
+$string['otags'] = 'オフィシャルタグ'; // ORPHANED
+$string['ptags'] = 'ユーザ定義タグ (カンマ区切り)'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
+      // message.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['addcontact'] = 'コンタクトリストに追加する';
@@ -83,7 +83,7 @@ $string['unreadmessages'] = '未読メッセージ $a 件';
 $string['userisblockingyou'] = 'このユーザはあなたからのメッセージ受信を拒否しています。';
 $string['userisblockingyounoncontact'] = 'このユーザはコンタクトリストに登録されたユーザからのみメッセージを受信します。あなたは現在コンタクトリストに登録されていません。';
 $string['userssearchresults'] = '検索結果: $a 名のユーザが見つかりました。';
-$string['processor_config'] = '宛先設定'; //TBD
-$string['general_config'] = '一般設定'; //TBD
+$string['processor_config'] = '宛先設定'; // ORPHANED
+$string['general_config'] = '一般設定'; // ORPHANED
 
 ?>

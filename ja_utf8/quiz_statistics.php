@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20081126) (2008112400)
+      // quiz_statistics.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['allattempts'] = 'すべての受験';
@@ -65,11 +65,11 @@ $string['statistics:view'] = '統計レポートを表示する';
 $string['statisticsreport'] = '統計レポート';
 $string['statisticsreportgraph'] = '問題ポジションの統計';
 $string['statsfor'] = '小テスト統計 ($a)';
-$string['errordeletingqstats'] = '古いquiz_question_statisticsレコードの削除中にエラーが発生しました。'; //TBD
-$string['errordeletingquizstats'] = '古いquiz_statisticsレコードの削除中にエラーが発生しました。'; //TBD
-$string['noofallattempts'] = '合計受験数'; //TBD
-$string['nooffirstattempts'] = '最初の受験数'; //TBD
-$string['statsforallattempts'] = 'すべての受験の統計'; //TBD
-$string['statsforfirstattempts'] = '最初の受験の統計'; //TBD
+$string['errordeletingqstats'] = '古いquiz_question_statisticsレコードの削除中にエラーが発生しました。'; // ORPHANED
+$string['errordeletingquizstats'] = '古いquiz_statisticsレコードの削除中にエラーが発生しました。'; // ORPHANED
+$string['noofallattempts'] = '合計受験数'; // ORPHANED
+$string['nooffirstattempts'] = '最初の受験数'; // ORPHANED
+$string['statsforallattempts'] = 'すべての受験の統計'; // ORPHANED
+$string['statsforfirstattempts'] = '最初の受験の統計'; // ORPHANED
 
 ?>

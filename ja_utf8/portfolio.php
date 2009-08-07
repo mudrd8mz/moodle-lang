@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20081111) (2008111100)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['activeexport'] = 'アクティブエクスポートを解決する';
@@ -129,6 +129,6 @@ $string['unknownplugin'] = '不明 (管理者が削除した可能性があり�
 $string['wait'] = '待つ';
 $string['wanttowait_high'] = 'この転送が完了するまで、待つことはお勧めできません。あなたが何をしているか理解している場合、待つこともできます。';
 $string['wanttowait_moderate'] = 'この転送を待ちますか? 転送完了まで数分かかります。';
-$string['format_html'] = 'HTML'; //TBD
+$string['format_html'] = 'HTML'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // survey.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['actual'] = '実体験';
@@ -219,6 +219,6 @@ $string['surveytype'] = '調査タイプ';
 $string['thanksforanswers'] = '$a さん、調査にご協力いただきましてありがとうございます';
 $string['time'] = '時間';
 $string['viewsurveyresponses'] = '$a 件の調査結果を見る';
-$string['cannotinsertanswer'] = 'あなたの回答結果の保存中に問題が発生しました。申し訳ございません。'; //TBD
+$string['cannotinsertanswer'] = 'あなたの回答結果の保存中に問題が発生しました。申し訳ございません。'; // ORPHANED
 
 ?>

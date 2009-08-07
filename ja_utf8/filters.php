@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20090413) (2009040600)
+      // filters.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['actfilterhdr'] = 'アクティブフィルタ';
@@ -52,7 +52,7 @@ $string['startswith'] = '次の文字で始まる';
 $string['tablenosave'] = '上記テーブルの変更は、自動的に保存されます。';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
-$string['isbetween'] = '$a[0] ～ $a[1]'; //TBD
-$string['setfilter'] = 'フィルタを設定する'; //TBD
+$string['isbetween'] = '$a[0] ～ $a[1]'; // ORPHANED
+$string['setfilter'] = 'フィルタを設定する'; // ORPHANED
 
 ?>

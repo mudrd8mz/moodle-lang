@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // debug.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['authpluginnotfound'] = '認証プラグイン $a が見つかりませんでした。';
@@ -34,21 +34,21 @@ $string['siteisnotdefined'] = 'サイトが定義されていません!';
 $string['sqlrelyonobsoletetable'] = 'このSQLは古いテーブル $a を参照しています! あなたのコードは、開発者により修正される必要があります。';
 $string['withoutversion'] = 'メインversion.phpが存在しないか、読めない、または指定されていません。';
 $string['xmlizeunavailable'] = 'xmlize関数を利用できません。';
-$string['cannotcreateadminuser'] = '深刻なエラー: adminユーザレコードを作成できませんでした!!!'; //TBD
-$string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!'; //TBD
-$string['cannotupdaterelease'] = 'エラー: データベース内のリリースバージョンを更新できませんでした!!'; //TBD
-$string['cannotupdateversion'] = 'アップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)'; //TBD
-$string['cannotupgradecapabilities'] = 'ロールシステムのコアケイパビリティのアップグレードに問題が発生しました。'; //TBD
-$string['cannotupgradedbcustom'] = 'ローカルデータベースのアップグレードに失敗しました!  (configテーブルのバージョンを更新できませんでした。)'; //TBD
-$string['dbnotinsert'] = 'データベースエラー - レコードを追加できません ($a)'; //TBD
-$string['dbnotsetup'] = 'エラー: メインデータベースが正常にセットアップされませんでした。'; //TBD
-$string['dbnotsupport'] = 'エラー: あなたのデータベース ($a) がMoodleでサポートされないか、install.xmlが作成されていません。lib/dbディレクトリをご覧ください。'; //TBD
-$string['dbnotupdate'] = 'データベースエラー - 更新できません ($a)'; //TBD
-$string['doesnotworkwitholdversion'] = 'このスクリプトは、この古いバージョンのMoodleでは動作しません。'; //TBD
-$string['noblockbase'] = 'クラスblock_baseが定義されていないか、/blocks/moodleblock.class.phpのファイルが見つかりませんでした。'; //TBD
-$string['nocaps'] = 'エラー: ケイパビリティが定義されていません!'; //TBD
-$string['upgradefail'] = 'アップグレードに失敗しました! 詳細: $a'; //TBD
-$string['prefixcannotbeempty'] = 'あなたのターゲットDB ($a[1]) では、テーブル接頭辞「 $a[0] 」を空にすることはできません。'; //TBD
-$string['prefixlimit'] = 'Oracle DBで許可されるテーブル接頭辞「 $a 」の最大長は、2ccです。'; //TBD
+$string['cannotcreateadminuser'] = '深刻なエラー: adminユーザレコードを作成できませんでした!!!'; // ORPHANED
+$string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!'; // ORPHANED
+$string['cannotupdaterelease'] = 'エラー: データベース内のリリースバージョンを更新できませんでした!!'; // ORPHANED
+$string['cannotupdateversion'] = 'アップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)'; // ORPHANED
+$string['cannotupgradecapabilities'] = 'ロールシステムのコアケイパビリティのアップグレードに問題が発生しました。'; // ORPHANED
+$string['cannotupgradedbcustom'] = 'ローカルデータベースのアップグレードに失敗しました!  (configテーブルのバージョンを更新できませんでした。)'; // ORPHANED
+$string['dbnotinsert'] = 'データベースエラー - レコードを追加できません ($a)'; // ORPHANED
+$string['dbnotsetup'] = 'エラー: メインデータベースが正常にセットアップされませんでした。'; // ORPHANED
+$string['dbnotsupport'] = 'エラー: あなたのデータベース ($a) がMoodleでサポートされないか、install.xmlが作成されていません。lib/dbディレクトリをご覧ください。'; // ORPHANED
+$string['dbnotupdate'] = 'データベースエラー - 更新できません ($a)'; // ORPHANED
+$string['doesnotworkwitholdversion'] = 'このスクリプトは、この古いバージョンのMoodleでは動作しません。'; // ORPHANED
+$string['noblockbase'] = 'クラスblock_baseが定義されていないか、/blocks/moodleblock.class.phpのファイルが見つかりませんでした。'; // ORPHANED
+$string['nocaps'] = 'エラー: ケイパビリティが定義されていません!'; // ORPHANED
+$string['upgradefail'] = 'アップグレードに失敗しました! 詳細: $a'; // ORPHANED
+$string['prefixcannotbeempty'] = 'あなたのターゲットDB ($a[1]) では、テーブル接頭辞「 $a[0] 」を空にすることはできません。'; // ORPHANED
+$string['prefixlimit'] = 'Oracle DBで許可されるテーブル接頭辞「 $a 」の最大長は、2ccです。'; // ORPHANED
 
 ?>

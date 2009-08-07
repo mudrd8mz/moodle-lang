@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // tag.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['addedotag'] = '「 $a 」がオフィシャルタグとして追加されました。';
@@ -62,7 +62,7 @@ $string['typechanged'] = 'タグタイプが変更されました。';
 $string['updated'] = '更新されました。';
 $string['updatetag'] = '更新';
 $string['withselectedtags'] = '選択したタグの ...';
-$string['tagindex_coursetitle'] = 'コースタグ「 $a 」'; //TBD
-$string['userstaggedwith'] = 'ユーザタグ「 $a 」'; //TBD
+$string['tagindex_coursetitle'] = 'コースタグ「 $a 」'; // ORPHANED
+$string['userstaggedwith'] = 'ユーザタグ「 $a 」'; // ORPHANED
 
 ?>

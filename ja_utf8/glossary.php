@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20090506) (2009043000)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -23,7 +23,6 @@ $string['attachment'] = '添付';
 $string['author'] = '著者';
 $string['authorview'] = '著者順';
 $string['back'] = '戻る';
-$string['cantexportentry'] = 'エントリをメイン用語集にエクスポートできませんでした。';
 $string['cantinsertcat'] = 'カテゴリを追加できません。';
 $string['cantinsertrec'] = 'レコードを追加できません。';
 $string['cantinsertrel'] = '関連カテゴリエントリを追加できません。';
@@ -211,8 +210,9 @@ $string['withauthor'] = '用語 (著者有り)';
 $string['withoutauthor'] = '用語 (著者なし)';
 $string['writtenby'] = '作成';
 $string['youarenottheauthor'] = 'あなたはこのコメントの投稿者ではありません。コメントの編集は許可されません。';
-$string['areaintro'] = '用語集イントロダクション'; //TBD
-$string['cantinsertent'] = '新しいエントリを追加できませんでした。'; //TBD
-$string['cantupdateglossary'] = 'あなたの用語集を更新できませんでした。'; //TBD
+$string['cantexportentry'] = 'エントリをメイン用語集にエクスポートできませんでした。'; // ORPHANED
+$string['areaintro'] = '用語集イントロダクション'; // ORPHANED
+$string['cantinsertent'] = '新しいエントリを追加できませんでした。'; // ORPHANED
+$string['cantupdateglossary'] = 'あなたの用語集を更新できませんでした。'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090730) (2009073000)
+      // error.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['TODO'] = 'TODO';
@@ -493,49 +493,49 @@ $string['wwwrootslash'] = 'config.phpに正しくない \$CFG->wwwroot が検知
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['youcannotdeletecategory'] = 'コンテンツを削除または移動できないため、あなたはカテゴリ「 $a 」を削除することはできません。';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
-$string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!'; //TBD
-$string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。'; //TBD
-$string['cannotaddnewinstance'] = '$a の新しいインスタンスを追加できませんでした。'; //TBD
-$string['cannotcreatedefaultcat'] = 'コンテクスト $a のデフォルトカテゴリ作成中にエラーが発生しました。'; //TBD
-$string['cannotcreatefield'] = '新しいフィールドの作成中にエラーが発生しました。'; //TBD
-$string['cannotcreateuser'] = 'ユーザレコードの作成中にエラーが発生しました。'; //TBD
-$string['cannotdeletecap'] = '廃止予定のケイパビリティ $a を削除できませんでした。'; //TBD
-$string['cannotdeletecate'] = 'カテゴリの削除中にエラーが発生しました。'; //TBD
-$string['cannotinsertkey'] = '新しいキーを追加できません。'; //TBD
-$string['cannotsetupcategory'] = '重大なエラー! デフォルトのコースカテゴリを作成できませんでした!'; //TBD
-$string['cannotupdatecm'] = 'コースモジュールを正しいセクションに更新できませんでした。'; //TBD
-$string['cannotupdatecustomprofile'] = 'ユーザカスタムレコードの更新中にエラーが発生しました。'; //TBD
-$string['cannotupdategroup'] = 'グループの更新中にエラーが発生しました。'; //TBD
-$string['cannotupdatemodcap'] = '$a のケイパビリティを更新できませんでした!'; //TBD
-$string['cannotupdateplugincap'] = '$a のケイパビリティを更新できませんでした!'; //TBD
-$string['cannotupdaterate'] = '古い評価 ($a->id = $a->rating) を更新できませんでした。'; //TBD
-$string['cannotupdaterole'] = 'ロールを更新できません!'; //TBD
-$string['cannotupdatesecret'] = 'ユーザのシークレットストリングのリセット中にエラーが発生しました。'; //TBD
-$string['cannotupdatesubcate'] = '子カテゴリを更新できませんでした!'; //TBD
-$string['cannotupdateuser'] = 'ユーザの更新に失敗しました。'; //TBD
-$string['updatersserror'] = 'ID $a のRSSフィードの更新中にエラーが発生しました。'; //TBD
-$string['cannotinsertcategory'] = '不明なエラー: カテゴリが追加されませんでした。'; //TBD
-$string['cannotinsertcomment'] = '新しいコメントを追加できませんでした。'; //TBD
-$string['cannotsaveconfig'] = 'プラグイン「 $a->plugin 」の設定「 $a->name 」を「 $a->value 」として保存中に問題が発生しました。'; //TBD
-$string['cannotupdatecategory'] = 'カテゴリ ($a) を更新できませんでした。'; //TBD
-$string['cannotupdatecomment'] = 'コメントを更新できませんでした。'; //TBD
-$string['cannotupdatecoursemodule'] = 'コースモジュールを更新できませんでした。'; //TBD
-$string['cannotupdatefield'] = 'フィールドの更新中にエラーが発生しました。'; //TBD
-$string['cannotupdatelevel'] = 'コースモジュールのインデントレベルを更新できませんでした。'; //TBD
-$string['cannotupdatesummary'] = '要約を更新できませんでした!'; //TBD
-$string['cannotupgradeblock'] = 'ブロックシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした)'; //TBD
-$string['cannotupgradecaps'] = 'ロールシステムのコアケイパビリティのアップグレード中に問題が発生しました。'; //TBD
-$string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!'; //TBD
-$string['cannotupdateblock'] = 'ブロックテーブルのブロック $a レコードを更新できませんでした!'; //TBD
-$string['modulerequirementsnotmet'] = 'モジュール「 $a->modulename 」 ($a->moduleversion) をインストールできませんでした。このモジュールをインストールするためには新しいバージョンのMoodleをインストールする必要があります。(現在、あなたは $a->currentmoodle を使用しています。 $a->requiremoodle が必要です。)'; //TBD
-$string['nopermissiontoupdateblock'] = '$a を更新するパーミッションがありません!'; //TBD
-$string['upgradefail'] = 'アップグレードに失敗しました! $a'; //TBD
-$string['upgradeversionfail'] = 'バックアップシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)'; //TBD
-$string['cannofindgradeitem'] = '評定項目が見つかりません。'; //TBD
-$string['typenotimplement'] = 'TODO: タイプが実装されていません。'; //TBD
-$string['cmunknown'] = 'このコースモジュールを見つけることができません。'; //TBD
-$string['copiedcmnotexist'] = 'コピーされたコースモジュールがありません!'; //TBD
-$string['cannotinitpage'] = 'ページを迅速に初期化できません、コースID: $a'; //TBD
-$string['cannotmovezip'] = 'ZIPファイルを移動できません。'; //TBD
+$string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!'; // ORPHANED
+$string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。'; // ORPHANED
+$string['cannotaddnewinstance'] = '$a の新しいインスタンスを追加できませんでした。'; // ORPHANED
+$string['cannotcreatedefaultcat'] = 'コンテクスト $a のデフォルトカテゴリ作成中にエラーが発生しました。'; // ORPHANED
+$string['cannotcreatefield'] = '新しいフィールドの作成中にエラーが発生しました。'; // ORPHANED
+$string['cannotcreateuser'] = 'ユーザレコードの作成中にエラーが発生しました。'; // ORPHANED
+$string['cannotdeletecap'] = '廃止予定のケイパビリティ $a を削除できませんでした。'; // ORPHANED
+$string['cannotdeletecate'] = 'カテゴリの削除中にエラーが発生しました。'; // ORPHANED
+$string['cannotinsertkey'] = '新しいキーを追加できません。'; // ORPHANED
+$string['cannotsetupcategory'] = '重大なエラー! デフォルトのコースカテゴリを作成できませんでした!'; // ORPHANED
+$string['cannotupdatecm'] = 'コースモジュールを正しいセクションに更新できませんでした。'; // ORPHANED
+$string['cannotupdatecustomprofile'] = 'ユーザカスタムレコードの更新中にエラーが発生しました。'; // ORPHANED
+$string['cannotupdategroup'] = 'グループの更新中にエラーが発生しました。'; // ORPHANED
+$string['cannotupdatemodcap'] = '$a のケイパビリティを更新できませんでした!'; // ORPHANED
+$string['cannotupdateplugincap'] = '$a のケイパビリティを更新できませんでした!'; // ORPHANED
+$string['cannotupdaterate'] = '古い評価 ($a->id = $a->rating) を更新できませんでした。'; // ORPHANED
+$string['cannotupdaterole'] = 'ロールを更新できません!'; // ORPHANED
+$string['cannotupdatesecret'] = 'ユーザのシークレットストリングのリセット中にエラーが発生しました。'; // ORPHANED
+$string['cannotupdatesubcate'] = '子カテゴリを更新できませんでした!'; // ORPHANED
+$string['cannotupdateuser'] = 'ユーザの更新に失敗しました。'; // ORPHANED
+$string['updatersserror'] = 'ID $a のRSSフィードの更新中にエラーが発生しました。'; // ORPHANED
+$string['cannotinsertcategory'] = '不明なエラー: カテゴリが追加されませんでした。'; // ORPHANED
+$string['cannotinsertcomment'] = '新しいコメントを追加できませんでした。'; // ORPHANED
+$string['cannotsaveconfig'] = 'プラグイン「 $a->plugin 」の設定「 $a->name 」を「 $a->value 」として保存中に問題が発生しました。'; // ORPHANED
+$string['cannotupdatecategory'] = 'カテゴリ ($a) を更新できませんでした。'; // ORPHANED
+$string['cannotupdatecomment'] = 'コメントを更新できませんでした。'; // ORPHANED
+$string['cannotupdatecoursemodule'] = 'コースモジュールを更新できませんでした。'; // ORPHANED
+$string['cannotupdatefield'] = 'フィールドの更新中にエラーが発生しました。'; // ORPHANED
+$string['cannotupdatelevel'] = 'コースモジュールのインデントレベルを更新できませんでした。'; // ORPHANED
+$string['cannotupdatesummary'] = '要約を更新できませんでした!'; // ORPHANED
+$string['cannotupgradeblock'] = 'ブロックシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした)'; // ORPHANED
+$string['cannotupgradecaps'] = 'ロールシステムのコアケイパビリティのアップグレード中に問題が発生しました。'; // ORPHANED
+$string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!'; // ORPHANED
+$string['cannotupdateblock'] = 'ブロックテーブルのブロック $a レコードを更新できませんでした!'; // ORPHANED
+$string['modulerequirementsnotmet'] = 'モジュール「 $a->modulename 」 ($a->moduleversion) をインストールできませんでした。このモジュールをインストールするためには新しいバージョンのMoodleをインストールする必要があります。(現在、あなたは $a->currentmoodle を使用しています。 $a->requiremoodle が必要です。)'; // ORPHANED
+$string['nopermissiontoupdateblock'] = '$a を更新するパーミッションがありません!'; // ORPHANED
+$string['upgradefail'] = 'アップグレードに失敗しました! $a'; // ORPHANED
+$string['upgradeversionfail'] = 'バックアップシステムのアップグレードに失敗しました! (configテーブルのバージョンを更新できませんでした。)'; // ORPHANED
+$string['cannofindgradeitem'] = '評定項目が見つかりません。'; // ORPHANED
+$string['typenotimplement'] = 'TODO: タイプが実装されていません。'; // ORPHANED
+$string['cmunknown'] = 'このコースモジュールを見つけることができません。'; // ORPHANED
+$string['copiedcmnotexist'] = 'コピーされたコースモジュールがありません!'; // ORPHANED
+$string['cannotinitpage'] = 'ページを迅速に初期化できません、コースID: $a'; // ORPHANED
+$string['cannotmovezip'] = 'ZIPファイルを移動できません。'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20090730) (2009073000)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -336,24 +336,24 @@ $string['youranswer'] = 'あなたの答え';
 $string['yourcurrentgradeis'] = 'あなたの現在の評点は $a です。';
 $string['yourcurrentgradeisoutof'] = 'あなたの現在の評点は $a->total 点中 $a->grade 点です。';
 $string['youshouldview'] = '少なくとも $a 回解答してください。';
-$string['cannotdeleteanswer'] = 'ページの更新: 解答レコードを削除できません。'; //TBD
-$string['cannotdeleteattempt'] = 'エラー: 古い受験を削除できませんでした。'; //TBD
-$string['cannotdeletebranch'] = 'エラー: 古いブランチを削除できませんでした。'; //TBD
-$string['cannotinsertanswer'] = '解答レコードを追加できません。'; //TBD
-$string['cannotinsertgrade'] = '評点を追加できません。'; //TBD
-$string['cannotinserthighscore'] = '新しいハイスコアの追加に失敗しました!'; //TBD
-$string['cannotinsertpage'] = '新しいページを追加できません。'; //TBD
-$string['cannotinserttimer'] = 'エラー: lesson_timerテーブルに行を追加できませんでした。'; //TBD
-$string['cannotresetjump'] = 'レッスン restorelib: ジャンプをリセットできません。'; //TBD
-$string['cannotupdateanswer'] = 'ページの更新: 解答が更新されませんでした。'; //TBD
-$string['cannotupdatebook'] = 'あなたのブックを更新できません。'; //TBD
-$string['cannotupdateessayscore'] = '作文問題の評点を更新できませんでした。'; //TBD
-$string['cannotupdategrade'] = '評点を更新できません。'; //TBD
-$string['cannotupdatelink'] = 'リンクを更新できません。'; //TBD
-$string['cannotupdatepage'] = 'ページの更新: ページが更新されませんでした。'; //TBD
-$string['cannotupdatetimer'] = 'エラー: lesson_timerテーブルを更新できませんでした。'; //TBD
-$string['outoftime'] = '時間切れ'; //TBD
-$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。'; //TBD
-$string['editlesson'] = '$a の編集'; //TBD
+$string['cannotdeleteanswer'] = 'ページの更新: 解答レコードを削除できません。'; // ORPHANED
+$string['cannotdeleteattempt'] = 'エラー: 古い受験を削除できませんでした。'; // ORPHANED
+$string['cannotdeletebranch'] = 'エラー: 古いブランチを削除できませんでした。'; // ORPHANED
+$string['cannotinsertanswer'] = '解答レコードを追加できません。'; // ORPHANED
+$string['cannotinsertgrade'] = '評点を追加できません。'; // ORPHANED
+$string['cannotinserthighscore'] = '新しいハイスコアの追加に失敗しました!'; // ORPHANED
+$string['cannotinsertpage'] = '新しいページを追加できません。'; // ORPHANED
+$string['cannotinserttimer'] = 'エラー: lesson_timerテーブルに行を追加できませんでした。'; // ORPHANED
+$string['cannotresetjump'] = 'レッスン restorelib: ジャンプをリセットできません。'; // ORPHANED
+$string['cannotupdateanswer'] = 'ページの更新: 解答が更新されませんでした。'; // ORPHANED
+$string['cannotupdatebook'] = 'あなたのブックを更新できません。'; // ORPHANED
+$string['cannotupdateessayscore'] = '作文問題の評点を更新できませんでした。'; // ORPHANED
+$string['cannotupdategrade'] = '評点を更新できません。'; // ORPHANED
+$string['cannotupdatelink'] = 'リンクを更新できません。'; // ORPHANED
+$string['cannotupdatepage'] = 'ページの更新: ページが更新されませんでした。'; // ORPHANED
+$string['cannotupdatetimer'] = 'エラー: lesson_timerテーブルを更新できませんでした。'; // ORPHANED
+$string['outoftime'] = '時間切れ'; // ORPHANED
+$string['studentoutoftime'] = 'お知らせ: このレッスンの制限時間が終わりました。あなたの最後の解答は、時間終了送信されましたので計算から除外されます。「続ける」ボタンをクリックしてレッスンを終了してください。'; // ORPHANED
+$string['editlesson'] = '$a の編集'; // ORPHANED
 
 ?>

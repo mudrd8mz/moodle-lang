@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_quickmail.php - created with Moodle 2.0 dev (2007101509)
+      // block_quickmail.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['action'] = '操作';
@@ -31,6 +31,6 @@ $string['successfulemail'] = 'メールが正常に送信されました。';
 $string['to'] = 'To';
 $string['toerror'] = 'メールの受信者を選択してください!';
 $string['uncheck'] = 'すべての選択を解除';
-$string['allowstudents'] = '$a にクイックメールの使用を許可する'; // TBD
+$string['allowstudents'] = '$a にクイックメールの使用を許可する'; // ORPHANED
 
 ?>

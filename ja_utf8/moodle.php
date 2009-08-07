@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1722,11 +1722,11 @@ $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['yourwordforx'] = '「$a 」に対するあなたの呼称';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
-$string['courserequestdisabled'] = '申し訳ございません、リクエストされたコースは管理者によって無効にされました。'; //TBD
-$string['remotemaharauser'] = 'リモートMaharaユーザ'; //TBD
-$string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; //TBD
-$string['skiptomaincontent'] = 'メインコンテンツに移動する'; //TBD
-$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; //TBD
-$string['weeks'] = '週'; //TBD
+$string['courserequestdisabled'] = '申し訳ございません、リクエストされたコースは管理者によって無効にされました。'; // ORPHANED
+$string['remotemaharauser'] = 'リモートMaharaユーザ'; // ORPHANED
+$string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; // ORPHANED
+$string['skiptomaincontent'] = 'メインコンテンツに移動する'; // ORPHANED
+$string['enteryourinterests'] = 'あなたの興味があることをカンマ ( , ) で区切って入力してください。'; // ORPHANED
+$string['weeks'] = '週'; // ORPHANED
 
 ?>

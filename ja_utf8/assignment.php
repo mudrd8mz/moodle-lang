@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080910) (2008091000)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -23,7 +23,6 @@ $string['assignmentname'] = '課題名';
 $string['assignmenttype'] = '課題タイプ';
 $string['availabledate'] = '開始日時';
 $string['cannotdeletefiles'] = 'エラーが発生したため、ファイルを削除できませんでした。';
-$string['cannotinsertempty'] = '空の提出課題を送信できませんでした。';
 $string['cannotviewassignment'] = 'あなたは、この課題を閲覧できません。';
 $string['comment'] = 'コメント';
 $string['commentinline'] = 'インラインコメント';
@@ -134,6 +133,7 @@ $string['usermisconf'] = 'ユーザの設定が正しくありません。';
 $string['viewfeedback'] = '提出課題の評価とフィードバックを確認する';
 $string['viewsubmissions'] = '$a 件の提出課題を確認する';
 $string['yoursubmission'] = 'あなたの提出課題';
-$string['disableemailnotification'] = '通知メールを無効にする'; //TBD
+$string['cannotinsertempty'] = '空の提出課題を送信できませんでした。'; // ORPHANED
+$string['disableemailnotification'] = '通知メールを無効にする'; // ORPHANED
 
 ?>

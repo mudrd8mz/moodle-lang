@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090507) (2009050619)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['activities'] = '活動';
@@ -576,37 +576,37 @@ $string['writinggradebookinfo'] = '評定表設定の書き込み';
 $string['xml'] = 'XML';
 $string['yes'] = 'Yes';
 $string['yourgrade'] = 'あなたの評定';
-$string['configbulkcheckboxes'] = 'バルク評定処理のため、評点の近くにチェックボックスを表示します。'; //TBD
-$string['configquickfeedback'] = '多くの評定のフィードバックを1度に編集できるようにするため、クイックフィードバックは評定レポートのそれぞれの評定セルにテキスト入力欄を追加します。1つずつ変更する代わりに、更新ボタンをクリックすることで、すべての変更を1度に実行することができます。'; //TBD
-$string['errornocategorizedid'] = 'カテゴリなしIDを取得できませんでした!'; //TBD
-$string['exportselectedoutcomes'] = '選択したアウトカムをエクスポートする'; //TBD
-$string['overallavg'] = '全平均'; //TBD
-$string['aggregationcoefhelp'] = '他の評定項目との総計時、この評定項目のすべての評点に適用される加重です。'; //TBD
-$string['exportletters'] = '評定文字を文字としてエクスポートする'; //TBD
-$string['exportlettershelp'] = '数字の代わりに評定文字を使用している評定項目に関して、数字の代わりに評定文字をエクスポートします。'; //TBD
-$string['changesitedefaults'] = 'サイトデフォルトを変更する'; //TBD
-$string['left'] = '左'; //TBD
-$string['right'] = '右'; //TBD
-$string['sitedefault'] = 'サイトデフォルト ($a)'; //TBD
-$string['aggregateextracreditmeanall'] = 'すべての評点の平均 (追加点扱い)'; //TBD
-$string['aggregateextracreditmeangraded'] = '空ではない評点の平均 (追加点扱い)'; //TBD
-$string['aggregatemaxall'] = 'すべての評点の最高評点'; //TBD
-$string['aggregatemaxgraded'] = '空ではない評点の最高評点'; //TBD
-$string['aggregatemeanall'] = 'すべての評点の平均'; //TBD
-$string['aggregatemeangraded'] = '空ではない評点の平均'; //TBD
-$string['aggregatemedianall'] = 'すべての評点の中央値'; //TBD
-$string['aggregatemediangraded'] = '空ではない評点の中央値'; //TBD
-$string['aggregateminall'] = 'すべての評点の最小評点'; //TBD
-$string['aggregatemingraded'] = '空ではない評点の最小評点'; //TBD
-$string['aggregatemodeall'] = 'すべての評点の最頻値'; //TBD
-$string['aggregatemodegraded'] = '空ではない評点の最頻値'; //TBD
-$string['aggregateweightedmeanall'] = 'すべての評点の加重平均'; //TBD
-$string['aggregateweightedmeangraded'] = '空ではない評点の加重平均'; //TBD
-$string['exportods'] = 'ODSにエクスポートする'; //TBD
-$string['exporttxt'] = 'TXTにインポートする'; //TBD
-$string['exportxml'] = 'XMLにインポートする'; //TBD
-$string['gradereports'] = '評定レポート'; //TBD
-$string['selectplugin'] = 'プラグインの選択'; //TBD
-$string['userreport'] = 'ユーザ評定レポート'; //TBD
+$string['configbulkcheckboxes'] = 'バルク評定処理のため、評点の近くにチェックボックスを表示します。'; // ORPHANED
+$string['configquickfeedback'] = '多くの評定のフィードバックを1度に編集できるようにするため、クイックフィードバックは評定レポートのそれぞれの評定セルにテキスト入力欄を追加します。1つずつ変更する代わりに、更新ボタンをクリックすることで、すべての変更を1度に実行することができます。'; // ORPHANED
+$string['errornocategorizedid'] = 'カテゴリなしIDを取得できませんでした!'; // ORPHANED
+$string['exportselectedoutcomes'] = '選択したアウトカムをエクスポートする'; // ORPHANED
+$string['overallavg'] = '全平均'; // ORPHANED
+$string['aggregationcoefhelp'] = '他の評定項目との総計時、この評定項目のすべての評点に適用される加重です。'; // ORPHANED
+$string['exportletters'] = '評定文字を文字としてエクスポートする'; // ORPHANED
+$string['exportlettershelp'] = '数字の代わりに評定文字を使用している評定項目に関して、数字の代わりに評定文字をエクスポートします。'; // ORPHANED
+$string['changesitedefaults'] = 'サイトデフォルトを変更する'; // ORPHANED
+$string['left'] = '左'; // ORPHANED
+$string['right'] = '右'; // ORPHANED
+$string['sitedefault'] = 'サイトデフォルト ($a)'; // ORPHANED
+$string['aggregateextracreditmeanall'] = 'すべての評点の平均 (追加点扱い)'; // ORPHANED
+$string['aggregateextracreditmeangraded'] = '空ではない評点の平均 (追加点扱い)'; // ORPHANED
+$string['aggregatemaxall'] = 'すべての評点の最高評点'; // ORPHANED
+$string['aggregatemaxgraded'] = '空ではない評点の最高評点'; // ORPHANED
+$string['aggregatemeanall'] = 'すべての評点の平均'; // ORPHANED
+$string['aggregatemeangraded'] = '空ではない評点の平均'; // ORPHANED
+$string['aggregatemedianall'] = 'すべての評点の中央値'; // ORPHANED
+$string['aggregatemediangraded'] = '空ではない評点の中央値'; // ORPHANED
+$string['aggregateminall'] = 'すべての評点の最小評点'; // ORPHANED
+$string['aggregatemingraded'] = '空ではない評点の最小評点'; // ORPHANED
+$string['aggregatemodeall'] = 'すべての評点の最頻値'; // ORPHANED
+$string['aggregatemodegraded'] = '空ではない評点の最頻値'; // ORPHANED
+$string['aggregateweightedmeanall'] = 'すべての評点の加重平均'; // ORPHANED
+$string['aggregateweightedmeangraded'] = '空ではない評点の加重平均'; // ORPHANED
+$string['exportods'] = 'ODSにエクスポートする'; // ORPHANED
+$string['exporttxt'] = 'TXTにインポートする'; // ORPHANED
+$string['exportxml'] = 'XMLにインポートする'; // ORPHANED
+$string['gradereports'] = '評定レポート'; // ORPHANED
+$string['selectplugin'] = 'プラグインの選択'; // ORPHANED
+$string['userreport'] = 'ユーザ評定レポート'; // ORPHANED
 
 ?>

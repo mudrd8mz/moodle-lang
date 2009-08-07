@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['action'] = '-- アクション --';
@@ -207,7 +207,7 @@ $string['wikiusage'] = 'Wiki使用法';
 $string['withbinaries'] = 'バイナリコンテンツを含む';
 $string['withvirtualpages'] = 'Wikiリンクを含む';
 $string['wrongversionrange'] = '$a は正しい範囲にありません!';
-$string['cannotdeletelockrecored'] = 'ロックレコードを削除できません。'; //TBD
-$string['cannotinsertlockrecored'] = 'ロックレコードを追加できません。'; //TBD
+$string['cannotdeletelockrecored'] = 'ロックレコードを削除できません。'; // ORPHANED
+$string['cannotinsertlockrecored'] = 'ロックレコードを追加できません。'; // ORPHANED
 
 ?>

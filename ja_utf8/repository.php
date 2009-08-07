@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090727) (2009072700)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['accessiblefilepicker'] = 'アクセス可能なファイルピッカ';
@@ -115,6 +115,6 @@ $string['uploading'] = 'アップロード中 ...';
 $string['uploadsucc'] = 'ファイルが正常にアップロードされました。';
 $string['wrongcontext'] = 'あなたは、このコンテクストにアクセスできません。';
 $string['xhtmlerror'] = 'あなたは、恐らくXHTML Strictヘッダを使用していると思われます。いくつかのYUIコンポーネントは、このモードでは動作しません。Moodleでは、XHTML Strictヘッダの使用を控えてください。';
-$string['editrepositoryaccount'] = 'リポジトリアカウントを編集する'; //TBD
+$string['editrepositoryaccount'] = 'リポジトリアカウントを編集する'; // ORPHANED
 
 ?>

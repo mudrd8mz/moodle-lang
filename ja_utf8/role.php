@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090730) (2009073000)
+      // role.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -268,14 +268,14 @@ $string['whydoesuserhavecap'] = 'なぜ $a->fullname は、コンテクスト $a
 $string['whydoesusernothavecap'] = 'なぜ $a->fullname は、コンテクスト $a->context でケイパビリティ $a->capability を持っていないのですか?';
 $string['xroleassignments'] = '$a のロール割り当て';
 $string['xuserswiththerole'] = 'ロール「 $a->role 」のユーザ';
-$string['explainpermissions'] = 'パーミッション説明'; //TBD
-$string['explainpermissionsdetails'] = '$a->fullname としてログイン時のコンテクスト「 $a->context 」に関するケイパビリティ「 $a->capability 」です。'; //TBD
-$string['question:export'] = '問題をエクスポートする'; //TBD
-$string['question:import'] = '問題をインポートする'; //TBD
-$string['question:manage'] = '問題を管理する'; //TBD
-$string['course:downloadallgrades'] = 'すべての評定をダウンロードする'; //TBD
-$string['course:viewallgrades'] = 'すべての評定を表示する'; //TBD
-$string['course:viewowngrades'] = '自分の評定を表示する'; //TBD
-$string['grade:editlocked'] = 'ロックされた評定を編集する'; //TBD
+$string['explainpermissions'] = 'パーミッション説明'; // ORPHANED
+$string['explainpermissionsdetails'] = '$a->fullname としてログイン時のコンテクスト「 $a->context 」に関するケイパビリティ「 $a->capability 」です。'; // ORPHANED
+$string['question:export'] = '問題をエクスポートする'; // ORPHANED
+$string['question:import'] = '問題をインポートする'; // ORPHANED
+$string['question:manage'] = '問題を管理する'; // ORPHANED
+$string['course:downloadallgrades'] = 'すべての評定をダウンロードする'; // ORPHANED
+$string['course:viewallgrades'] = 'すべての評定を表示する'; // ORPHANED
+$string['course:viewowngrades'] = '自分の評定を表示する'; // ORPHANED
+$string['grade:editlocked'] = 'ロックされた評定を編集する'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
+      // install.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['admindirerror'] = '指定されたadminディレクトリが正しくありません。';
@@ -272,66 +272,66 @@ $string['welcomep60'] = '次からのページは、あなたのコンピュー�
 $string['welcomep70'] = '<strong>Moodle</strong>のセットアップを続けるには「次へ」ボタンをクリックしてください。';
 $string['wwwroot'] = 'ウェブアドレス';
 $string['wwwrooterror'] = '「ウェブアドレス」が正しくありません - インストール済みMoodleはそこに表示されません。下記の値はリセットされました。';
-$string['aborting'] = 'インストール異常終了'; //TBD
-$string['adminemail'] = 'メールアドレス :'; //TBD
-$string['adminfirstname'] = '名 :'; //TBD
-$string['admininfo'] = '管理者詳細'; //TBD
-$string['adminlastname'] = '姓 :'; //TBD
-$string['adminpassword'] = 'パスワード :'; //TBD
-$string['adminusername'] = 'ユーザ名 :'; //TBD
-$string['askcontinue'] = '続ける (yes/no) :'; //TBD
-$string['availabledbtypes'] = '利用可能なデータベースタイプ'; //TBD
-$string['cannotconnecttodb'] = 'データベースに接続できません。'; //TBD
-$string['checkingphpsettings'] = 'PHP設定の確認'; //TBD
-$string['configfilecreated'] = 'config.phpファイルが正常に作成されました。'; //TBD
-$string['configfiledoesnotexist'] = 'config.phpファイルがありません!!!'; //TBD
-$string['configurationfileexist'] = 'config.phpファイルは、すでに作成されています!'; //TBD
-$string['creatingconfigfile'] = 'config.phpファイルを作成しています ...'; //TBD
-$string['databasesettingsformoodle'] = 'Moodleのデータベース設定'; //TBD
-$string['databasetype'] = 'データベースタイプ :'; //TBD
-$string['disagreelicense'] = 'GPLに不同意のため、アップグレードを開始できません!'; //TBD
-$string['downloadlanguagepack'] = '言語パックをダウンロードしますか? (yes/no) :'; //TBD
-$string['downloadsuccess'] = '言語パックが正常にダウンロードされました。'; //TBD
-$string['installationiscomplete'] = 'インストールが完了しました!'; //TBD
+$string['aborting'] = 'インストール異常終了'; // ORPHANED
+$string['adminemail'] = 'メールアドレス :'; // ORPHANED
+$string['adminfirstname'] = '名 :'; // ORPHANED
+$string['admininfo'] = '管理者詳細'; // ORPHANED
+$string['adminlastname'] = '姓 :'; // ORPHANED
+$string['adminpassword'] = 'パスワード :'; // ORPHANED
+$string['adminusername'] = 'ユーザ名 :'; // ORPHANED
+$string['askcontinue'] = '続ける (yes/no) :'; // ORPHANED
+$string['availabledbtypes'] = '利用可能なデータベースタイプ'; // ORPHANED
+$string['cannotconnecttodb'] = 'データベースに接続できません。'; // ORPHANED
+$string['checkingphpsettings'] = 'PHP設定の確認'; // ORPHANED
+$string['configfilecreated'] = 'config.phpファイルが正常に作成されました。'; // ORPHANED
+$string['configfiledoesnotexist'] = 'config.phpファイルがありません!!!'; // ORPHANED
+$string['configurationfileexist'] = 'config.phpファイルは、すでに作成されています!'; // ORPHANED
+$string['creatingconfigfile'] = 'config.phpファイルを作成しています ...'; // ORPHANED
+$string['databasesettingsformoodle'] = 'Moodleのデータベース設定'; // ORPHANED
+$string['databasetype'] = 'データベースタイプ :'; // ORPHANED
+$string['disagreelicense'] = 'GPLに不同意のため、アップグレードを開始できません!'; // ORPHANED
+$string['downloadlanguagepack'] = '言語パックをダウンロードしますか? (yes/no) :'; // ORPHANED
+$string['downloadsuccess'] = '言語パックが正常にダウンロードされました。'; // ORPHANED
+$string['installationiscomplete'] = 'インストールが完了しました!'; // ORPHANED
 $string['invalidargumenthelp'] = 'エラー: 無効な引数
 使用方法: $php cliupgrade.php オプション
---help オプションを使用することで、さらにヘルプが表示されます。'; //TBD
-$string['invalidemail'] = '無効なメールアドレス'; //TBD
-$string['invalidhost'] = '無効なホスト'; //TBD
-$string['invalidint'] = 'エラー: 値が整数ではありません。'; //TBD
-$string['invalidintrange'] = 'エラー: 値が有効範囲を超えています。'; //TBD
-$string['invalidpath'] = '無効なパス'; //TBD
-$string['invalidsetelement'] = 'エラー: 与えられた値は、既定のオプションにありません。'; //TBD
-$string['invalidtextvalue'] = '無効なテキスト値'; //TBD
-$string['invalidurl'] = '無効なURI'; //TBD
-$string['invalidvalueforlanguage'] = '--lang オプションに対して無効な値です。詳細は、--helpをご覧ください。'; //TBD
-$string['invalidyesno'] = 'エラー: 値は有効な yes/no 引数ではありません。'; //TBD
-$string['locationanddirectories'] = 'ロケーションおよびディレクトリ'; //TBD
-$string['pdosqlite3'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用です! (実稼動サイト用ではありません)</strong></b>'; //TBD
-$string['php52versionerror'] = '少なくとも5.2.4以上のPHPバージョンを使用してください。'; //TBD
+--help オプションを使用することで、さらにヘルプが表示されます。'; // ORPHANED
+$string['invalidemail'] = '無効なメールアドレス'; // ORPHANED
+$string['invalidhost'] = '無効なホスト'; // ORPHANED
+$string['invalidint'] = 'エラー: 値が整数ではありません。'; // ORPHANED
+$string['invalidintrange'] = 'エラー: 値が有効範囲を超えています。'; // ORPHANED
+$string['invalidpath'] = '無効なパス'; // ORPHANED
+$string['invalidsetelement'] = 'エラー: 与えられた値は、既定のオプションにありません。'; // ORPHANED
+$string['invalidtextvalue'] = '無効なテキスト値'; // ORPHANED
+$string['invalidurl'] = '無効なURI'; // ORPHANED
+$string['invalidvalueforlanguage'] = '--lang オプションに対して無効な値です。詳細は、--helpをご覧ください。'; // ORPHANED
+$string['invalidyesno'] = 'エラー: 値は有効な yes/no 引数ではありません。'; // ORPHANED
+$string['locationanddirectories'] = 'ロケーションおよびディレクトリ'; // ORPHANED
+$string['pdosqlite3'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用です! (実稼動サイト用ではありません)</strong></b>'; // ORPHANED
+$string['php52versionerror'] = '少なくとも5.2.4以上のPHPバージョンを使用してください。'; // ORPHANED
 $string['php52versionhelp'] = '<p>Moodleでは、少なくとも5.2.4以上のPHPバージョンを必要とします。</p>
 <p>現在、あなたはPHPバージョン $a を使用しています。</p>
-<p>あなたは、PHPをアップグレードするか、新しいバージョンのPHPを使用しているホストに移動する必要があります!</p>'; //TBD
-$string['selectlanguage'] = 'インストールで使用する言語の選択'; //TBD
-$string['sitefullname'] = '長いサイト名 :'; //TBD
-$string['siteinfo'] = 'サイト詳細'; //TBD
-$string['sitenewsitems'] = 'ニュースアイテムの表示件数 :'; //TBD
-$string['siteshortname'] = 'サイト省略名 :'; //TBD
-$string['sitesummary'] = 'フロントページの説明 :'; //TBD
-$string['tableprefix'] = 'テーブル接頭辞 :'; //TBD
-$string['upgradingactivitymodule'] = '活動モジュールのアップグレード'; //TBD
-$string['upgradingbackupdb'] = 'バックアップデータのアップブレード'; //TBD
-$string['upgradingblocksdb'] = 'ブロックデータベースのアップグレード'; //TBD
-$string['upgradingblocksplugin'] = 'ブロックプラグインのアップグレード'; //TBD
-$string['upgradingcompleted'] = 'アップグレードが完了しました ...'; //TBD
-$string['upgradingcourseformatplugin'] = 'コースフォーマットプラグインのアップグレード'; //TBD
-$string['upgradingenrolplugin'] = 'ユーザ登録プラグインのアップグレード'; //TBD
-$string['upgradinggradeexportplugin'] = '評定エクスポートプラグインのアップグレード'; //TBD
-$string['upgradinggradeimportplugin'] = '評定インポートプラグインのアップグレード'; //TBD
-$string['upgradinggradereportplugin'] = '評定レポートプラグインのアップグレード'; //TBD
-$string['upgradinglocaldb'] = 'ローカルデータベースのアップグレード'; //TBD
-$string['upgradingmessageoutputpluggin'] = 'メッセージ出力プラグインのアップグレード'; //TBD
-$string['upgradingrpcfunctions'] = 'RPC機能のアップグレード'; //TBD
+<p>あなたは、PHPをアップグレードするか、新しいバージョンのPHPを使用しているホストに移動する必要があります!</p>'; // ORPHANED
+$string['selectlanguage'] = 'インストールで使用する言語の選択'; // ORPHANED
+$string['sitefullname'] = '長いサイト名 :'; // ORPHANED
+$string['siteinfo'] = 'サイト詳細'; // ORPHANED
+$string['sitenewsitems'] = 'ニュースアイテムの表示件数 :'; // ORPHANED
+$string['siteshortname'] = 'サイト省略名 :'; // ORPHANED
+$string['sitesummary'] = 'フロントページの説明 :'; // ORPHANED
+$string['tableprefix'] = 'テーブル接頭辞 :'; // ORPHANED
+$string['upgradingactivitymodule'] = '活動モジュールのアップグレード'; // ORPHANED
+$string['upgradingbackupdb'] = 'バックアップデータのアップブレード'; // ORPHANED
+$string['upgradingblocksdb'] = 'ブロックデータベースのアップグレード'; // ORPHANED
+$string['upgradingblocksplugin'] = 'ブロックプラグインのアップグレード'; // ORPHANED
+$string['upgradingcompleted'] = 'アップグレードが完了しました ...'; // ORPHANED
+$string['upgradingcourseformatplugin'] = 'コースフォーマットプラグインのアップグレード'; // ORPHANED
+$string['upgradingenrolplugin'] = 'ユーザ登録プラグインのアップグレード'; // ORPHANED
+$string['upgradinggradeexportplugin'] = '評定エクスポートプラグインのアップグレード'; // ORPHANED
+$string['upgradinggradeimportplugin'] = '評定インポートプラグインのアップグレード'; // ORPHANED
+$string['upgradinggradereportplugin'] = '評定レポートプラグインのアップグレード'; // ORPHANED
+$string['upgradinglocaldb'] = 'ローカルデータベースのアップグレード'; // ORPHANED
+$string['upgradingmessageoutputpluggin'] = 'メッセージ出力プラグインのアップグレード'; // ORPHANED
+$string['upgradingrpcfunctions'] = 'RPC機能のアップグレード'; // ORPHANED
 $string['usagehelp'] = '概要:
 $php cliupgrade.php オプション
 オプション
@@ -359,19 +359,19 @@ $php cliupgrade.php オプション
 --adminemail 管理者のメールアドレスです。デフォルトは「root@localhost」です。
 --help このヘルプを出力します。
 使用方法:
-$php cliupgrade.php --lang=ja --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Example Moodle Site\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2'; //TBD
-$string['versionerror'] = 'バージョンエラーのため中断しました。'; //TBD
-$string['welcometext'] = '---Moodleコマンドラインインストーラーへようこそ---'; //TBD
-$string['writetoconfigfilefaild'] = 'エラー: config.phpファイルの書き込みに失敗しました。'; //TBD
-$string['yourchoice'] = 'あなたの選択 :'; //TBD
+$php cliupgrade.php --lang=ja --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Example Moodle Site\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2'; // ORPHANED
+$string['versionerror'] = 'バージョンエラーのため中断しました。'; // ORPHANED
+$string['welcometext'] = '---Moodleコマンドラインインストーラーへようこそ---'; // ORPHANED
+$string['writetoconfigfilefaild'] = 'エラー: config.phpファイルの書き込みに失敗しました。'; // ORPHANED
+$string['yourchoice'] = 'あなたの選択 :'; // ORPHANED
 $string['databasesettingssub_sqlite3_pdo'] = '<b>タイプ:</b> SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用! (実稼動サイトには使用しないでください。)</strong></b><br />
 <b>ホスト:</b> データベースファイルが保存されるディレクトリのパス (フルパス) 例 localhost または 空白 (Moodleデータディレクトリを使用する場合)<br />
 <b>データベース名:</b> 例 moodle (任意)<br />
 <b>ユーザ名:</b> データベースのユーザ名 (任意)<br />
 <b>パスワード:</b> データベースのパスワード (任意)<br />
-<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (任意)<br />データベースファイル名は、上記ユーザ名、データベース名、パスワードにより決定されます。'; //TBD
-$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用! (実稼動サイトには使用しないでください。)</strong></b>'; //TBD
-$string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください (5.0.x には既知の多数の問題があります)。'; //TBD
-$string['unsafedirname'] = 'エラー: ディレクトリ名に安全でない文字が含まれています。有効な文字は、「a-zA-Z0-9_」です。'; //TBD
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (任意)<br />データベースファイル名は、上記ユーザ名、データベース名、パスワードにより決定されます。'; // ORPHANED
+$string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用! (実稼動サイトには使用しないでください。)</strong></b>'; // ORPHANED
+$string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください (5.0.x には既知の多数の問題があります)。'; // ORPHANED
+$string['unsafedirname'] = 'エラー: ディレクトリ名に安全でない文字が含まれています。有効な文字は、「a-zA-Z0-9_」です。'; // ORPHANED
 
 ?>

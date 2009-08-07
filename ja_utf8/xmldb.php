@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['actual'] = '実値';
@@ -158,8 +158,8 @@ $string['wrongreservedwords'] = '現在使用されている予約語<br />(\$CF
 $string['yesmissingindexesfound'] = 'あなたのDBに不明なインデックスが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上不明なインデックスが見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
 $string['yeswrongdefaultsfound'] = 'あなたのDBに矛盾したデフォルト値が見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインデックス作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上矛盾したデフォルト値が見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
 $string['yeswrongintsfound'] = 'あなたのDBに不正なインテジャが見つかりました。以下、詳細情報およびあなたの好きなSQLインターフェースでインテジャ作成を実行するためのSQL文です (実行前にあなたのデータを忘れずにバックアップしてください)。<br /><br />SQL文の実行後、これ以上不正なインテジャが見つかるかどうか、このユーティリティの再実行を強くお勧めします。';
-$string['cannotinstantiateclass'] = 'エラー: クラス (actions/$a->action/$a->actionclass) をインスタンス化できません。'; //TBD
-$string['butis'] = '現在の値:'; //TBD
-$string['shouldbe'] = '適切な値:'; //TBD
+$string['cannotinstantiateclass'] = 'エラー: クラス (actions/$a->action/$a->actionclass) をインスタンス化できません。'; // ORPHANED
+$string['butis'] = '現在の値:'; // ORPHANED
+$string['shouldbe'] = '適切な値:'; // ORPHANED
 
 ?>

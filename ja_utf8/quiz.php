@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090715) (2009071300)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['1day'] = '1日';
@@ -768,28 +768,28 @@ $string['youmustwait'] = 'この小テストを再受験は、お待ちくださ
 $string['youneedtoenrol'] = 'この小テストを受験する前に、このコースに受講登録する必要があります。';
 $string['yourfinalgradeis'] = 'あなたの最終評点は $a です。';
 $string['zerosignificantfiguresnotallowed'] = '正解の有効数字にはゼロを設定できません!';
-$string['shufflequestionsx'] = '問題をシャッフルする: $a'; //TBD
-$string['xfromcategory'] = '$a << カテゴリ:'; //TBD
-$string['areyousuredeleteselected'] = '本当に選択した問題を削除してもよろしいですか?'; //TBD
-$string['fromcategory'] = '<< カテゴリ'; //TBD
-$string['totalpoints'] = '合計評点'; //TBD
-$string['reviewnotallowed'] = 'あなたは、この小テストに関する他のユーザの受験結果をレビューすることはできません。'; //TBD
-$string['qti2'] = 'IMS QTI 2.0フォーマット'; //TBD
-$string['blackboard_6'] = 'Blackboard V6+'; //TBD
-$string['existingcategory1'] = 'すでに登録されている定数、このカテゴリの他の問題でも使用'; //TBD
-$string['existingcategory2'] = 'すでに登録されているファイル、このカテゴリの他の問題でも使用'; //TBD
-$string['existingcategory3'] = 'すでに登録されているリンク、このカテゴリの他の問題でも使用'; //TBD
-$string['keptcategory1'] = '同一カテゴリの再利用可能な定数群を使用する'; //TBD
-$string['keptcategory2'] = '同一カテゴリの再利用可能なファイル群を使用する'; //TBD
-$string['keptcategory3'] = '同一カテゴリの再利用可能なリンク群を使用する'; //TBD
-$string['keptlocal1'] = '同一問題のプライベート定数群を使用する'; //TBD
-$string['keptlocal2'] = '同一問題のプライベートファイル群を使用する'; //TBD
-$string['keptlocal3'] = '同一問題のプライベートリンク群を使用する'; //TBD
-$string['newcategory1'] = '新しい定数群、このカテゴリの他の問題でも使用'; //TBD
-$string['newcategory2'] = '新しいファイル群、このカテゴリの他の問題でも使用'; //TBD
-$string['newcategory3'] = '新しいリンク群、このカテゴリの他の問題でも使用'; //TBD
-$string['newlocal1'] = '新しい定数群、この問題のみで使用'; //TBD
-$string['newlocal2'] = '新しいファイル群、この問題のみで使用'; //TBD
-$string['newlocal3'] = '新しいリンク群、この問題のみで使用'; //TBD
+$string['shufflequestionsx'] = '問題をシャッフルする: $a'; // ORPHANED
+$string['xfromcategory'] = '$a << カテゴリ:'; // ORPHANED
+$string['areyousuredeleteselected'] = '本当に選択した問題を削除してもよろしいですか?'; // ORPHANED
+$string['fromcategory'] = '<< カテゴリ'; // ORPHANED
+$string['totalpoints'] = '合計評点'; // ORPHANED
+$string['reviewnotallowed'] = 'あなたは、この小テストに関する他のユーザの受験結果をレビューすることはできません。'; // ORPHANED
+$string['qti2'] = 'IMS QTI 2.0フォーマット'; // ORPHANED
+$string['blackboard_6'] = 'Blackboard V6+'; // ORPHANED
+$string['existingcategory1'] = 'すでに登録されている定数、このカテゴリの他の問題でも使用'; // ORPHANED
+$string['existingcategory2'] = 'すでに登録されているファイル、このカテゴリの他の問題でも使用'; // ORPHANED
+$string['existingcategory3'] = 'すでに登録されているリンク、このカテゴリの他の問題でも使用'; // ORPHANED
+$string['keptcategory1'] = '同一カテゴリの再利用可能な定数群を使用する'; // ORPHANED
+$string['keptcategory2'] = '同一カテゴリの再利用可能なファイル群を使用する'; // ORPHANED
+$string['keptcategory3'] = '同一カテゴリの再利用可能なリンク群を使用する'; // ORPHANED
+$string['keptlocal1'] = '同一問題のプライベート定数群を使用する'; // ORPHANED
+$string['keptlocal2'] = '同一問題のプライベートファイル群を使用する'; // ORPHANED
+$string['keptlocal3'] = '同一問題のプライベートリンク群を使用する'; // ORPHANED
+$string['newcategory1'] = '新しい定数群、このカテゴリの他の問題でも使用'; // ORPHANED
+$string['newcategory2'] = '新しいファイル群、このカテゴリの他の問題でも使用'; // ORPHANED
+$string['newcategory3'] = '新しいリンク群、このカテゴリの他の問題でも使用'; // ORPHANED
+$string['newlocal1'] = '新しい定数群、この問題のみで使用'; // ORPHANED
+$string['newlocal2'] = '新しいファイル群、この問題のみで使用'; // ORPHANED
+$string['newlocal3'] = '新しいリンク群、この問題のみで使用'; // ORPHANED
 
 ?>

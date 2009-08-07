@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['add_item'] = '質問を追加する';
@@ -17,8 +17,6 @@ $string['autonumbering'] = 'それぞれの問題に自動番号付けする';
 $string['average'] = '平均';
 $string['bold'] = '太字';
 $string['cancel_moving'] = '移動をキャンセルする';
-$string['cannotcreatecompletedfeedback'] = '完了済みフィードバックを作成できません。';
-$string['cannotcreatetmpfeedback'] = '一時的なフィードバックを作成できません。';
 $string['cannotmapfeedback'] = 'データベーストラブル、フィードバックをコースにマップできません。';
 $string['cannotsavetempl'] = 'テンプレートの保存は、許可されていません。';
 $string['cannotunmap'] = 'データベーストラブル、マップ解除できません。';
@@ -198,14 +196,16 @@ $string['use_one_line_for_each_value'] = '<br />1行に1つの回答を入力し
 $string['use_this_template'] = 'このテンプレートを使用する';
 $string['using_templates'] = 'テンプレートの使用';
 $string['vertical'] = '垂直';
-$string['publish_stats_on_students'] = '学生に分析を表示する'; //TBD
-$string['all_old_values_will_be_deleted'] = '現在の質問およびすべてのユーザの回答内容が削除されます。'; //TBD
-$string['all_old_values_will_be_preserved'] = 'すべての古い質問および割り当てられた値は保持されます。'; //TBD
-$string['all_related_values_will_be_deleted'] = 'この質問に関する、すべてのユーザの回答内容も削除されます。'; //TBD
-$string['are_you_sure_to_delete_this_entry'] = '本当にこのエントリを削除してもよろしいですか?'; //TBD
-$string['are_you_sure_to_delete_this_item'] = '本当にこの要素を削除してもよろしいですか?'; //TBD
-$string['are_you_sure_to_delete_this_template'] = '本当にこのテンプレートを削除してもよろしいですか?'; //TBD
-$string['are_you_sure_to_use_this_template'] = '本当にこのテンプレートを使用しますか?'; //TBD
-$string['feedback:deletecompleteds'] = '終了したフィードバックを削除する'; //TBD
+$string['cannotcreatecompletedfeedback'] = '完了済みフィードバックを作成できません。'; // ORPHANED
+$string['cannotcreatetmpfeedback'] = '一時的なフィードバックを作成できません。'; // ORPHANED
+$string['publish_stats_on_students'] = '学生に分析を表示する'; // ORPHANED
+$string['all_old_values_will_be_deleted'] = '現在の質問およびすべてのユーザの回答内容が削除されます。'; // ORPHANED
+$string['all_old_values_will_be_preserved'] = 'すべての古い質問および割り当てられた値は保持されます。'; // ORPHANED
+$string['all_related_values_will_be_deleted'] = 'この質問に関する、すべてのユーザの回答内容も削除されます。'; // ORPHANED
+$string['are_you_sure_to_delete_this_entry'] = '本当にこのエントリを削除してもよろしいですか?'; // ORPHANED
+$string['are_you_sure_to_delete_this_item'] = '本当にこの要素を削除してもよろしいですか?'; // ORPHANED
+$string['are_you_sure_to_delete_this_template'] = '本当にこのテンプレートを削除してもよろしいですか?'; // ORPHANED
+$string['are_you_sure_to_use_this_template'] = '本当にこのテンプレートを使用しますか?'; // ORPHANED
+$string['feedback:deletecompleteds'] = '終了したフィードバックを削除する'; // ORPHANED
 
 ?>
