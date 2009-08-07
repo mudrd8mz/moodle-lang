@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // repository_alfresco.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // repository_alfresco.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
+$string['alfresco:view'] = 'Afrescoリポジトリを表示する';
 $string['alfresco_url'] = 'Alfresco URI';
 $string['alfrescourltext'] = 'Afresco APIのURIは、次のように入力してください: http://yoursite.com/alfresco/api';
 $string['configplugin'] = 'Alfresco設定';

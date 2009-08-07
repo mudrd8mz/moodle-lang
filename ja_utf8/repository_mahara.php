@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_mahara.php - created with Moodle 2.0 dev (Build: 20090619) (2009061706)
+      // repository_mahara.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['configplugin'] = 'Maharaリポジトリの設定';
@@ -7,6 +7,7 @@ $string['connectionfailure'] = 'ファイルリストの検索に失敗しまし
 $string['emptyfilelist'] = '表示するフィールドはありません。';
 $string['failtoretrievelist'] = 'リストを検索できないか、空です。';
 $string['hostnotfound'] = 'データベース内にMaharaサイトを見つけることができません - あなたのシステム管理者にご連絡ください。';
+$string['mahara:view'] = 'Maharaリポジトリを表示する';
 $string['nopeer'] = 'あなたのMaharaサイトに<a href=\"http://docs.moodle.org/en/admin/mnet/peers#Peer_to_Peer_Network\">Moodleピア</a>をセットアップしてください。';
 $string['notitle'] = 'タイトルなし';
 $string['peer'] = 'ピア';
@@ -16,6 +17,6 @@ $string['remoterep_name'] = 'Mahara';
 $string['repositorydesc'] = 'リモートMoodleサーバのファイル';
 $string['repositoryname'] = 'Mahara';
 $string['usercannotaccess'] = 'あなた ($a) は、このファイルにアクセスできません。';
-$string['usernotfound'] = 'ユーザ $a は、Maharaに登録していません。';
+$string['usernotfound'] = 'ユーザ $a は、Maharaに登録されていません。';
 
 ?>

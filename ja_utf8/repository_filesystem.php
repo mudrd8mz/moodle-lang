@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // repository_filesystem.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
+      // repository_filesystem.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['blockedpath'] = 'ブロックされたrootパス';
-$string['configplugin'] = 'ファイルシステムのリポジトリ設定';
+$string['configplugin'] = 'ファイルシステムリポジトリの設定';
 $string['donotusesysdir'] = '以下を含むシステムディレクトリをリポジトリに使用しないでください。';
+$string['filesystem:view'] = 'ファイルシステムリポジトリを表示する';
 $string['information'] = 'これは、%%moodledata%%/repository/ に対する相対パスです。';
 $string['invalidpath'] = '無効なrootパス';
 $string['path'] = 'パス';

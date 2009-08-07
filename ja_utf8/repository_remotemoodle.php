@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
+      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['configplugin'] = 'リモートMoodleファイルリポジトリの設定';
@@ -11,6 +11,7 @@ $string['nopeer'] = 'あなたのMoodleサイトのために<a href=\"http://doc
 $string['notitle'] = 'タイトルなし';
 $string['peer'] = 'ピア';
 $string['remember'] = '次回から入力を省略する';
+$string['remotemoodle:view'] = 'リモートMoodleリポジトリを表示する';
 $string['remoterep_description'] = 'サービスが発見されるようにします。';
 $string['remoterep_name'] = 'リモートMoodleサイト';
 $string['repositorydesc'] = 'リモートMoodleサーバのファイル';

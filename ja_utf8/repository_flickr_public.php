@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
+      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['all'] = 'すべて';
@@ -15,6 +15,7 @@ $string['commercialuse'] = 'あなたの作品の商用利用を許可します�
 $string['configplugin'] = 'Flickrパブリック設定';
 $string['creativecommonscommercial'] = 'クリエイティブ・コモンズ商用 (creative commons commercial) のみ';
 $string['emailaddress'] = 'メールアドレス';
+$string['flickr_public:view'] = 'flickr_publicリポジトリを表示する';
 $string['fulltext'] = 'フルテキスト';
 $string['information'] = 'あなたのMoodleサイトに<a href=\"http://www.flickr.com/services/api/keys/\">Flickr APIキー</a>を取得してください。';
 $string['invalidemail'] = '無効なFlickrメールアカウントです。';

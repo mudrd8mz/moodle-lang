@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_flickr.php - created with Moodle 2.0 dev (Build: 20090221) (2009021800)
+      // repository_flickr.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
 
 
 $string['apikey'] = 'APIキー';
@@ -15,6 +15,7 @@ $string['callbackwarning'] = '<ol>
 </ol>';
 $string['configplugin'] = 'Flickr設定';
 $string['emailaddress'] = 'メールアドレス';
+$string['flickr:view'] = 'Flickrリポジトリを表示する';
 $string['invalidemail'] = '無効なFlickrメールアドレスです。';
 $string['notitle'] = 'タイトルなし';
 $string['nullphotolist'] = 'このアカウントに関連する写真はありません。';
