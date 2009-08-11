@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
+      // grades.php - created with Moodle 1.9.5+ (Build: 20090716) (2007101550)
 
 
 $string['activities'] = 'Aktivity';
@@ -362,7 +362,7 @@ $string['errornocourse'] = 'Nebolo možné získať informácie o kurze';
 $string['errorreprintheadersnonnumeric'] = 'Hodnota nenumerického typu pre opakujúcu sa hlavičku';
 $string['errorsavegrade'] = 'Ľutujeme, nebolo možné uložiť známku.';
 $string['exceptions'] = 'Výnimky';
-$string['excluded'] = 'Vyňatý';
+$string['excluded'] = 'Vyňatá';
 $string['excludedhelp'] = 'Ak je zapnuté vylúčenie, táto známka bude vylúčená zo všetkých výpočtov v nadradenej položka alebo kategórii.';
 $string['expand'] = 'Rozbaliť kategóriu';
 $string['export'] = 'Export';
@@ -517,7 +517,7 @@ $string['linkedactivity'] = 'Odkazovaná aktivita';
 $string['linkedactivityhelp'] = 'Určuje voliteľnú aktivitu, ku ktorej je viazaný cieľ. Používa sa na určenie výkonnosti študenta vzhľadom k kritériu nehodnoteného známkou z aktivity.';
 $string['linktoactivity'] = 'Odkaz na aktivitu: $a->name';
 $string['lock'] = 'Zamknúť';
-$string['locked'] = 'Zamknutý';
+$string['locked'] = 'Zamknutá';
 $string['locktime'] = 'Zamknúť po';
 $string['locktimedate'] = 'Zamknuté po: $a';
 $string['lockverbose'] = 'Zamknúť $a->category$a->itemmodule $a->itemname';
@@ -597,7 +597,7 @@ $string['outcomesstandardavailable'] = 'Dostupné štandardné ciele';
 $string['outcomestandard'] = 'Štandardný cieľ';
 $string['outcomestandardhelp'] = 'Štandardný cieľ je dostupný na celom portáli vo všetkých kurzoch.';
 $string['overallaverage'] = 'Celkový priemer';
-$string['overridden'] = 'Prednastavený';
+$string['overridden'] = 'Prestavená';
 $string['overriddenhelp'] = 'Ak nastavené, príznak vyradenia zabráni ďalším pokusom zmeny tejto známky. Tento príznak je normálne využívaný modulom známok, ale môže byť manuálne zapnutý či vypnutý pomocou tohto formulára.';
 $string['overriddennotice'] = 'Výsledná známka z tejto aktivity bola manuálne zmenená.';
 $string['overridesitedefaultgradedisplaytype'] = 'Prestavenie východzích nastavení portálu';
