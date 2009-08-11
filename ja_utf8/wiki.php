@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20090808) (2009080700)
 
 
 $string['action'] = '-- アクション --';
@@ -91,7 +91,7 @@ $string['htmlmode'] = 'HTMLモード';
 $string['htmlonly'] = 'HTMLのみ';
 $string['index'] = 'index';
 $string['infoaboutpage'] = '履歴:';
-$string['initialcontent'] = '初期ページの選択';
+$string['initialcontent'] = '初期ページを選択する';
 $string['invalidpageval'] = 'サポートされていないページ値です。';
 $string['invalidroot'] = '現在のルートページにアクセスする権限が無いため、サイトマップは作成できません。';
 $string['lastchanged'] = '最終更新日時: $a';
