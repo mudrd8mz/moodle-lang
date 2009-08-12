@@ -25,9 +25,9 @@ $string['remember'] = 'Se souvenir de moi';
 $string['repositoryname'] = 'Flickr public';
 $string['repositorydesc'] = 'Dépôt sur flickr.com';
 $string['secret'] = 'Secret';
+$string['sharealike'] = 'Oui, pour autant que les autres partagent aux mêmes conditions';
 $string['tag'] = 'Tag';
 $string['username'] = 'Courriel du compte Flickr';
-$string['sharealike'] = 'Oui, pour autant que les autres partagent aux mêmes conditions';
 $string['watermark'] = 'Ajouter un filigrane (ID auteur et URL originale) aux photographies téléchargées ?';
 
 ?>
