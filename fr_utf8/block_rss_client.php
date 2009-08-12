@@ -20,6 +20,7 @@ $string['editafeed'] = 'Modifier un flux';
 $string['editfeeds'] = 'Modifier, s\'abonner ou se désabonner d\'un flux RSS/';
 $string['editnewsfeeds'] = 'Modifier les flux RSS';
 $string['editrssblock'] = 'Modifier le bloc manchette RSS';
+$string['enableautodiscovery'] = 'Activer la découverte automatique de flux ?';
 $string['errorloadingfeed'] = 'Erreur lors du chargement de ce flux RSS ($a)';
 $string['feed'] = 'Flux RSS';
 $string['feedadded'] = 'Flux RSS ajouté';
