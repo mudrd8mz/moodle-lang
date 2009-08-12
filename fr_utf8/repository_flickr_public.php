@@ -13,6 +13,7 @@ $string['commercialuse'] = 'Permettre l\'utilisation commerciale de votre travai
 $string['configplugin'] = 'Configuration Flickr public';
 $string['creativecommonscommercial'] = 'Seules les licences creative commons commerciales';
 $string['emailaddress'] = 'Adresse de courriel';
+$string['flickr_public:view'] = 'Consulter un dépôt Flickr public';
 $string['fulltext'] = 'Plein texte';
 $string['information'] = '<div>Obtenir une <a href=\"http://www.flickr.com/services/api/keys/\">clef API Flickr</a> pour votre Moodle.</div>';
 $string['invalidemail'] = 'Adresse de courriel du compte non valide pour flickr';

@@ -11,6 +11,7 @@ $string['callbackwarning'] = '<ol>
 <li>Modifiez ensuite les informations de votre clef <a href=\"http://www.flickr.com/services/api/keys/\">Flickr</a> et indiquez-y l\'URL de rappel (callback).</li></ol>';
 $string['configplugin'] = 'Configuration Flickr';
 $string['emailaddress'] = 'Adresse de courriel';
+$string['flickr:view'] = 'Consulter un dépôt Flickr';
 $string['invalidemail'] = 'Adresse de courriel non valide pour flickr';
 $string['notitle'] = 'Sans titre';
 $string['nullphotolist'] = 'Il n\'y a pas de photo dans ce compte';

@@ -1,8 +1,9 @@
 <?php // $Id$
 
 $string['apikey'] = 'Clef API';
+$string['boxnet:view'] = 'Consulter un dépôt Box.net';
 $string['configplugin'] = 'Configuration Box.net';
-$string['information'] = '<div>Obtenir une <a href=\"http://enabled.box.net/\">clef API Box.net</a> pour votre Moodle.</div>';
+$string['information'] = '<div>Obtenir une <a href=\"http://enabled.box.net/my-projects/\">clef API Box.net</a> pour votre Moodle.</div>';
 $string['invalidpassword'] = 'Mot de passe non valide';
 $string['invalidtoken'] = 'Jeton d\'authentification non valide';
 $string['nullfilelist'] = 'Il n\'y a aucun fichier dans ce dépôt';
