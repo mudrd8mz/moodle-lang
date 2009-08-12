@@ -7,6 +7,7 @@ $string['notitle'] = 'Sans titre';
 $string['peer'] = 'Pair';
 $string['remember'] = 'Se souvenir de moi';
 $string['emptyfilelist'] = 'Aucun fichier à afficher';
+$string['remotemoodle:view'] = 'Consulter un dépôt Moodle';
 $string['remoterep_name'] = 'Site Moodle distant';
 $string['remoterep_description'] = 'Permettre la découverte du service';
 $string['connectionfailure'] = 'Échec de la récupération de la liste des fichiers. Soit le Moodle est d\'une version antérieure à la 2.0, soit son service Dépôt Moodle distant n\'a pas été activé';

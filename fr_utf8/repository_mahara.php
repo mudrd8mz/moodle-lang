@@ -5,6 +5,7 @@ $string['connectionfailure'] = 'Échec de la récupération de la liste de fichi
 $string['emptyfilelist'] = 'Il n\'y a plus de fichier à afficher';
 $string['failtoretrievelist'] = 'La liste n\'a pas pu être récupérée ou est vide';
 $string['hostnotfound'] = 'Impossible de trouver le site Mahara dans la base de données. Veuillez contacter votre administrateur système';
+$string['mahara:view'] = 'Consulter un dépôt Mahara';
 $string['nopeer'] = 'Veuillez configurer quelques <a href="http://docs.moodle.org/fr/R%C3%A9seau_Moodle#R.C3.A9seau_serveur_.C3.A0_serveur">pairs Moodle</a> pour votre site Mahara.';
 $string['notitle'] = 'sans titre';
 $string['peer'] = 'Pair';
