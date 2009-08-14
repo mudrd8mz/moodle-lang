@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20090716) (2007101550)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -320,10 +320,10 @@ $string['courserequestsupport'] = 'Dodatočné informácie, ktoré by mohli pom�
 $string['courserestore'] = 'Obnoviť kurz zo zálohy';
 $string['courses'] = 'Kurzy';
 $string['coursescategory'] = 'Kurzy v tej istej kategórii';
-$string['coursesettings'] = 'ýchodzie nastavenia kurzu';
+$string['coursesettings'] = 'Východzie nastavenia kurzu';
 $string['coursesmovedout'] = 'Kurzy boli presunuté z $a';
 $string['coursespending'] = 'Kurzy, ktoré čakajú na schválenie';
-$string['coursestaught'] = 'Kurzy, v ktorých som vyučovala';
+$string['coursestaught'] = 'Kurzy, v ktorých som vyučoval(a)';
 $string['courseupdates'] = 'Aktualizácia kurzov';
 $string['courseuploadlimit'] = 'Limit pre načítavanie kurzu';
 $string['create'] = 'Vytvoriť';
