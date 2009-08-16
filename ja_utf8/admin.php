@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090805) (2009073101)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090816) (2009080700)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -81,6 +81,7 @@ $string['commonfiltersettings'] = '一般フィルタ設定';
 $string['commonsettings'] = '共通設定';
 $string['componentinstalled'] = 'コンポーネントがインストールされました。';
 $string['computedfromlogs'] = '$a 以降のログより計算しています。';
+$string['condifmodeditdefaults'] = 'ここでは、あなたが新しい活動を作成する場合の活動設定フォームのデフォルト値を定義します。また、どの活動設定が「高度な設定」なのか設定することもできます。';
 $string['confeditorhidebuttons'] = 'HTMLエディタで隠すボタンを選択してください。';
 $string['configallowassign'] = 'あなたはロール割り当て済みの左側のユーザに対して、他のユーザへのロール割り当てを許可することができます。';
 $string['configallowcategorythemes'] = 'この設定を有効にした場合、カテゴリに独自のテーマを設定することができます。独自のテーマが設定されていない限り、カテゴリテーマはすべての子カテゴリおよびコースのテーマを上書きします。警告: カテゴリテーマを有効にするとパフォーマンスに影響を及ぼします。';
@@ -248,6 +249,7 @@ $string['configrequestedstudentname'] = 'リクエストされたコースで使
 $string['configrequestedstudentsname'] = 'リクエストされたコースで使用する学生 (複数) に対する呼称';
 $string['configrequestedteachername'] = 'リクエストされたコースで使用する教師 (単数) に対する呼称';
 $string['configrequestedteachersname'] = 'リクエストされたコースで使用する教師 (複数) に対する呼称';
+$string['configrequiremodintro'] = 'あなたが、それぞれのユーザに活動説明の入力を強制したくない場合、このオプションを無効にしてください。';
 $string['configrestrictbydefault'] = '上位カテゴリに分類される新しく作成されたコースにおいて、モジュールをデフォルトで制限しますか?';
 $string['configrestrictmodulesfor'] = 'どのコースで、いくつかの活動モジュールを無効にするよう<b>設定</b>しますか? この設定は、教師のみに適用されます。管理者は、どのような活動でもコースに追加することができます。';
 $string['configrunclamavonupload'] = 'この設定を有効にした場合、すべてのアップロードファイルをスキャンするためclam AVが使用されます。';
@@ -603,6 +605,7 @@ $string['mnetrestore_extusers_admin'] = '<strong>注意:</strong> このバッ�
 $string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。このバックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
 $string['mnetrestore_extusers_noadmin'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、Moodleネットワークユーザアカウントを含んでいます。あなたは、このタイプのリストア処理の実行を許可されていません。サイト管理者に連絡するか、代わりに、このコースをユーザ情報なし (モジュール、ファイル ...) でリストアしてください。';
 $string['mnetrestore_extusers_switchuserauth'] = 'リモートMoodleネットワークユーザ $a->username ($a->mnethosturl) がローカル $a->auth 認証ユーザに切り替えられました。';
+$string['modeditdefaults'] = '活動設定のデフォルト値';
 $string['modsettings'] = '活動の管理';
 $string['modulesecurity'] = 'モジュールセキュリティ';
 $string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの &lt;span&gt; および &lt;lang&gt;';
@@ -742,6 +745,7 @@ $string['remotelangnotavailable'] = 'Moodleがmoodle.orgに接続できないた
 $string['renameerrors'] = 'リネームのエラー';
 $string['requiredentrieschanged'] = '<strong>重要 - お読みください<br />(この警告メッセージは、このアップグレード中のみ表示されます。)</strong><br />バグ修正のため、「必須エントリ数」および「閲覧前に必要な入力エントリ数」を使用しているデータベース活動の設定は変更されます。この変更に関する詳細は、<a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">データベースモジュールフォーラム</a>でご覧いただけます。また、これらの設定に関する詳細は、<a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">でご覧いただけます。<br /><br />この変更は、あなたのシステムの以下のデータベースに影響があります: (このリストを保存して、アップグレード後、教師が意図するよう動作するか確認してください)<br /><strong>$a->text</strong><br />';
 $string['requiredtemplate'] = '必須です。あなたはここでテンプレート構文 (%%l = 姓、%%f = 名、%%u = ユーザ名) を使用することができます。詳細および例に関して、ヘルプをご覧ください。';
+$string['requiremodintro'] = '活動説明を要求する';
 $string['requires'] = '必要条件';
 $string['restrictbydefault'] = 'モジュールをデフォルトで制限する';
 $string['restrictmodulesfor'] = 'モジュールの制限';

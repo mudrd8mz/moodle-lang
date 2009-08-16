@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090816) (2009080700)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -112,7 +112,7 @@ $string['displayend'] = '表示終了';
 $string['displaymode'] = '表示モード';
 $string['displayperiod'] = '表示期間';
 $string['displaystart'] = '表示開始';
-$string['eachuserforum'] = '各人が1件のディスカッションを投稿';
+$string['eachuserforum'] = '各人が1件のディスカッションを投稿する';
 $string['edit'] = '編集';
 $string['editedby'] = '編集 $a->name - 最初の投稿日時 $a->date';
 $string['editing'] = '編集';
