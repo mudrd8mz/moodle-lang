@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.8.3 + (2007021532)
+      // moodle.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
 
 
 $string['action'] = 'Действие';
@@ -766,6 +766,25 @@ $string['newsitem'] = 'новость';
 $string['newsitems'] = 'новости';
 $string['newsitemsnumber'] = 'Новости';
 $string['newuser'] = 'Новый пользователь';
+$string['newusernewpasswordsubj'] = 'Новая учетная запись';
+$string['newusernewpasswordtext'] = 'Здравствуйте, $a->firstname!
+
+Для Вас была создана новая учетная запись на сайте \'$a->sitename\'. В данном письме содержатся данные для входа в систему.
+
+Для входа в систему откройте ссылку
+$a->link
+и введите ваши логин и пароль.
+
+Логин: $a->username
+Пароль: $a->newpassword
+
+(в целях безопасности, рекомендуем сменить пароль сразу же после первого входа).
+
+В большинстве почтовых программ ссылка будет подсвечена синим цветом и Вы можете кликнуть по ней для входа. Если это не сработает, скопируйте ссылку, затем вставьте ее в адресную строку браузера.
+
+С уважением,
+администратор сайта \'$a->sitename\',
+$a->signoff';
 $string['newusers'] = 'Новые пользователи';
 $string['next'] = 'Дальше';
 $string['no'] = 'Нет';
@@ -1009,7 +1028,6 @@ $string['sizegb'] = 'Гбайт';
 $string['sizekb'] = 'Кбайт';
 $string['sizemb'] = 'Мбайт';
 $string['skipped'] = 'Пропущено';
-$string['skiptomaincontent'] = 'Переместиться к основному содержимому';
 $string['skypeid'] = 'Skype ID';
 $string['socialheadline'] = 'Общий форум - последние темы';
 $string['someallowguest'] = 'Некоторые курсы могут позволять гостевой доступ';
@@ -1239,6 +1257,7 @@ $string['yourlastlogin'] = 'Последний вход';
 $string['yourself'] = 'себя';
 $string['yourteacher'] = 'Ваш $a';
 $string['zippingbackup'] = 'Архивирование';
+$string['skiptomaincontent'] = 'Переместиться к основному содержимому'; // ORPHANED
 $string['formatstepped'] = 'Последовательное изучение'; // ORPHANED
 $string['statsreport6'] = 'Вся активность учителей (просмотры и изменения)'; // ORPHANED
 $string['statsreportstudentactivity'] = 'Вся активность учащихся (просмотры и изменения)'; // ORPHANED
