@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090818) (2009080700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -611,7 +611,9 @@ $string['enrolmentstart'] = 'ユーザ登録開始';
 $string['enrolperiod'] = '利用有効期間';
 $string['enrolstartdate'] = '開始日';
 $string['entercourse'] = 'コースに入るにはクリックしてください。';
+$string['enteremail'] = 'あなたのメールアドレスを入力してください。';
 $string['enteremailaddress'] = 'パスワードをリセットして新しいパスワードを送信します。メールアドレスを入力してください。';
+$string['enterusername'] = 'あなたのユーザ名を入力してください。';
 $string['entries'] = 'エントリ';
 $string['error'] = 'エラー';
 $string['errortoomanylogins'] = '申し訳ございません、ログイン失敗回数の上限に達しました。ブラウザを再起動してください。ログイン失敗回数の上限に達しました。ブラウザを再起動してください。';
@@ -1184,7 +1186,7 @@ $string['passwordchanged'] = 'パスワードが変更されました。';
 $string['passwordconfirmchange'] = 'パスワード変更の確認';
 $string['passwordextlink'] = '次のリンクは、あなたのパスワードを回復するために提供されています。クリックすることで、Moodleの外部に移動します。';
 $string['passwordforgotten'] = 'パスワード喪失';
-$string['passwordforgotteninstructions'] = '最初に、あなたの詳細情報がユーザデータベースに登録されている必要があります。あなたの「ユーザ名」<strong>または</strong>登録に使用した「メールアドレス」をテキストボックスに入力してください。「ユーザ名」「メールアドレス」の両方を入力する必要はありません。';
+$string['passwordforgotteninstructions'] = 'パスワードをリセットするには、あなたのユーザ名またはメールアドレスを以下に入力してください。私たちが、データベース内であなたを探すことができた場合、再度アクセスするためのインストラクションを記載したメールを、あなたのメールアドレス宛に送信します。';
 $string['passwordnohelp'] = 'あなたのパスワードを探すためのヘルプは利用できません。Moodle管理者にご連絡ください。';
 $string['passwordrecovery'] = 'はい、ログイン情報を教えてください';
 $string['passwordsdiffer'] = 'パスワードが正しくありません。';
@@ -1347,6 +1349,8 @@ $string['screenreaderyes'] = 'Yes';
 $string['screenshot'] = 'スクリーンショット';
 $string['search'] = '検索';
 $string['searchagain'] = '再検索';
+$string['searchbyemail'] = 'メールアドレスで探す';
+$string['searchbyusername'] = 'ユーザ名で探す';
 $string['searchcourses'] = 'コースの検索';
 $string['searchhelp'] = '同時に複数の言葉を探すことができます。<p>単語 : テキストの中に含まれる単語を探します。<br />+単語 : 合致する単語を検索します。<br />-単語 : この単語を含まない検索をします。';
 $string['searchoptions'] = '検索オプション';
