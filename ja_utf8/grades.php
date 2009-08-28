@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090818) (2009080700)
 
 
 $string['activities'] = '活動';
@@ -471,6 +471,7 @@ $string['respectingcurrentdata'] = '現在の設定は変更されません。';
 $string['rowpreviewnum'] = 'プレビュー行数';
 $string['savechanges'] = '変更を保存する';
 $string['savepreferences'] = '設定を保存する';
+$string['scaleconfirmdelete'] = '本当に尺度「 $a 」を削除してもよろしいですか?';
 $string['scaledpct'] = '伸縮%%';
 $string['scaleidhelp'] = '「尺度」評定タイプを使用する場合、評価尺度を選択することができます。活動ベースの評価尺度は、活動の更新ページで選択します。';
 $string['scalestandardhelp'] = '標準評価尺度はサイト全体およびすべてのコースで利用可能な評価尺度です。';
