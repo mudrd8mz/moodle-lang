@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth_cas.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // auth_cas.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
 
 
 $string['CASform'] = '認証選択';
@@ -12,7 +12,7 @@ $string['auth_cas_broken_password'] = 'あなたのパスワードを変更せ�
 $string['auth_cas_cantconnect'] = 'CASモジュールのLDAPがサーバに接続できません: $a';
 $string['auth_cas_casversion'] = 'バージョン';
 $string['auth_cas_changepasswordurl'] = 'パスワード変更のURI';
-$string['auth_cas_create_user'] = 'MoodleデータベースにCAS認証ユーザを追加したい場合、「Yes」を選択してください。「No」を選択した場合、Moodleデータベースに登録されているユーザのみログインできます。';
+$string['auth_cas_create_user'] = 'MoodleデータベースにCAS認証済みユーザを追加したい場合、「Yes」を選択してください。「No」を選択した場合、Moodleデータベースに登録されているユーザのみログインできます。';
 $string['auth_cas_create_user_key'] = 'ユーザを作成する';
 $string['auth_cas_enabled'] = 'CAS認証を使用したい場合、「Yes」を選択してください。';
 $string['auth_cas_hostname'] = 'CASサーバのホスト名<br />例: host.domaine.fr';

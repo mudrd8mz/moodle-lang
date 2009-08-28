@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090816) (2009080700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -604,7 +604,7 @@ $string['mnetrestore_extusers'] = '<strong>注意:</strong> このバックア�
 $string['mnetrestore_extusers_admin'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、Moodleネットワークユーザアカウントを含んでいます。リストア処理では、すべての作成済みユーザに対して、Moodleネットワークホストへの合致を試みます。合致しないユーザは、(mnet認証の代わりに) 自動的に内部認証へ切り替えられます。あなたは、この処理に関する情報をリストアログで閲覧することができます。';
 $string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。このバックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
 $string['mnetrestore_extusers_noadmin'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、Moodleネットワークユーザアカウントを含んでいます。あなたは、このタイプのリストア処理の実行を許可されていません。サイト管理者に連絡するか、代わりに、このコースをユーザ情報なし (モジュール、ファイル ...) でリストアしてください。';
-$string['mnetrestore_extusers_switchuserauth'] = 'リモートMoodleネットワークユーザ $a->username ($a->mnethosturl) がローカル $a->auth 認証ユーザに切り替えられました。';
+$string['mnetrestore_extusers_switchuserauth'] = 'リモートMoodleネットワークユーザ $a->username ($a->mnethosturl) がローカル $a->auth 認証済みユーザに切り替えられました。';
 $string['modeditdefaults'] = '活動設定のデフォルト値';
 $string['modsettings'] = '活動の管理';
 $string['modulesecurity'] = 'モジュールセキュリティ';

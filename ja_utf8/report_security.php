@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
 
 
 $string['check_configrw_details'] = '<p>ウェブサーバからファイルが修正されないよう、インストール後、config.phpのファイルパーミッションを変更することをお勧めします。この方法は、サーバのセキュリティを著しく向上させるものではありませんが、一般的なセキュリティ上の弱点 (exploits) をスローダウンしたり、制限することはできます。</p>';
@@ -29,7 +29,7 @@ $string['check_defaultcourserole_notset'] = 'デフォルトロールが設定�
 $string['check_defaultcourserole_ok'] = 'サイトデフォルトロールの定義は、OKです。';
 $string['check_defaultcourserole_risky'] = '<a href=\"$a\">コンテクスト</a>に危険なケイパビリティが検出されました。';
 $string['check_defaultuserrole_details'] = '<p>すべてのログインユーザには、デフォルトのユーザロールのケイパビリティが割り当てられます。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p>
-<p>デフォルトのユーザロールでサポートされているレガシータイプのロールは「認証ユーザ」のみです。コース閲覧ケイパビリティは、有効にしないでください。</p>';
+<p>デフォルトのユーザロールでサポートされているレガシータイプのロールは「認証済みユーザ」のみです。コース閲覧ケイパビリティは、有効にしないでください。</p>';
 $string['check_defaultuserrole_error'] = 'デフォルトユーザロール「 $a 」は、正しくない定義です!';
 $string['check_defaultuserrole_name'] = 'すべてのユーザのデフォルトロール';
 $string['check_defaultuserrole_notset'] = 'デフォルトロールが設定されていません。';
