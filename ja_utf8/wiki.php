@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20090808) (2009080700)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
 
 
 $string['action'] = '-- アクション --';
@@ -170,7 +170,7 @@ $string['studentadminoptions'] = '学生管理オプション';
 $string['submit'] = '実行';
 $string['tabattachments'] = '添付ファイル';
 $string['tabedit'] = '編集';
-$string['tabinfo'] = '情報';
+$string['tabinfo'] = '履歴';
 $string['tablinks'] = 'リンク';
 $string['tabview'] = '表示';
 $string['thanksforcontribution'] = 'ご協力ありがとうございます。';
