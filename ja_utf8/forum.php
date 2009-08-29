@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090816) (2009080700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
 
 
 $string['addanewdiscussion'] = 'ディスカッショントピックを追加する';
@@ -150,6 +150,7 @@ $string['forum:viewhiddentimedposts'] = '非表示の時間制限投稿を表示
 $string['forum:viewqandawithoutposting'] = 'Q and A投稿を常に表示する';
 $string['forum:viewrating'] = '評価を表示する';
 $string['forum:viewsubscribers'] = 'メール購読ユーザを表示する';
+$string['forumadministration'] = 'フォーラム管理';
 $string['forumauthorhidden'] = '投稿者 (非表示)';
 $string['forumblockingalmosttoomanyposts'] = 'あなたは投稿数の限度に近づきつつあります。あなたは直近の $a->blockperiod に $a->numposts 回投稿しています。投稿数の限度は $a->blockafter 回です。';
 $string['forumbodyhidden'] = 'あなたはこの記事を閲覧できません。あなたはおそらくまだディスカッションを投稿していません。';
@@ -352,6 +353,7 @@ $string['unsubscribeallempty'] = '申し訳ございません、あなたがメ�
 $string['unsubscribed'] = 'メール購読を解除しました。';
 $string['unsubscribeshort'] = 'メール購読解除';
 $string['usermarksread'] = '投稿を手動で既読にする';
+$string['viewalldiscussions'] = 'すべてのディスカッションを表示する';
 $string['warnafter'] = '警告までの投稿閾値';
 $string['yesforever'] = 'Yes, 無期限';
 $string['yesinitially'] = 'Yes, 最初のみ';

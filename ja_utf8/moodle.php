@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090818) (2009080700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -276,6 +276,7 @@ $string['costdefault'] = 'デフォルト費用';
 $string['counteditems'] = '$a->count $a->items';
 $string['country'] = '国';
 $string['course'] = 'コース';
+$string['courseadministration'] = 'コース管理';
 $string['courseapprovedemail'] = 'あなたのリクエストしたコース「 $a->name 」が承認され、$a->teacher が作成されました。新しいコースにアクセスするには、$a->url へ移動してください。';
 $string['courseapprovedemail2'] = 'あなたのリクエストしたコース「 $a->name 」が承認されました。新しいコースにアクセスするには、$a->url へ移動してください。';
 $string['courseapprovedfailed'] = 'コースを承認済みとして保存できませんでした!';
@@ -705,6 +706,7 @@ $string['frontpagedescriptionhelp'] = 'サイト説明は、フロントペー�
 $string['frontpageformat'] = 'フロントページフォーマット';
 $string['frontpageformatloggedin'] = 'フロントページフォーマット (ログイン後)';
 $string['frontpagenews'] = 'ニュースアイテム';
+$string['frontpagesettings'] = 'フロントページ設定';
 $string['frontpagetopiconly'] = 'トピックセクション';
 $string['fulllistofcourses'] = 'すべてのコース';
 $string['fullname'] = '名称';
@@ -1006,6 +1008,7 @@ $string['moreinformation'] = 'このエラーに関する詳細情報';
 $string['moreprofileinfoneeded'] = 'あなたのことをもっと教えてください。';
 $string['mostrecently'] = '直近の';
 $string['move'] = '移動';
+$string['moveallsidetabstoblock'] = 'すべてのタブをブロックポジションに移動する';
 $string['movecategorycontentto'] = '移動先';
 $string['movecategoryto'] = 'カテゴリの移動:';
 $string['movecontentstoanothercategory'] = 'コンテンツを別のカテゴリに移動する';
@@ -1315,6 +1318,7 @@ $string['restoretositedeleting'] = '警告: あなたは、サイトフロント
 $string['restricted'] = '使用禁止';
 $string['restrictmodules'] = '活動モジュールを制限しますか?';
 $string['returningtosite'] = 'アカウントをお持ちの方ですか?';
+$string['returntooriginaluser'] = '$a に戻る';
 $string['revert'] = 'クリア';
 $string['role'] = 'ロール';
 $string['rolemappings'] = 'ロールマッピング';
@@ -1618,6 +1622,7 @@ $string['usedinnplaces'] = '$a 箇所で使用';
 $string['usemessageform'] = 'または、下記のフォームを使用して、選択した学生にメッセージを送信してください。';
 $string['user'] = 'ユーザ';
 $string['userconfirmed'] = '$a を承認しました';
+$string['usercurrentsettings'] = 'マイプロファイル設定';
 $string['userdata'] = 'ユーザデータ';
 $string['userdeleted'] = 'このユーザのアカウントは削除されました。';
 $string['userdescription'] = '自己紹介';
@@ -1640,6 +1645,7 @@ $string['userselectorsearchanywhere'] = 'ユーザ名のどの部分に対して
 $string['usersnew'] = '新しいユーザ';
 $string['usersnoaccesssince'] = '次の期間以上活動していない';
 $string['userswithfiles'] = 'ファイルを含むユーザ';
+$string['userviewingsettings'] = '$a のプロファイル';
 $string['userzones'] = 'ユーザゾーン';
 $string['usethiscourse'] = 'このコースを使用する';
 $string['usingexistingcourse'] = '既存のコースを使用する';
@@ -1647,6 +1653,7 @@ $string['valuealreadyused'] = 'この設定値は、すでに使用されてい�
 $string['version'] = 'バージョン';
 $string['view'] = '表示';
 $string['viewfileinpopup'] = 'ポップアップウィンドウにファイルを表示する';
+$string['viewmyprofile'] = 'マイプロファイルを表示する';
 $string['views'] = '表示';
 $string['viewsolution'] = '解決方法の表示';
 $string['virusfound'] = '管理者の方! Clam AVが、 $a->user によって course $a->course へアップロードされたファイルにウイルスを発見しました。clamscanの出力結果は次のとおりです:';
