@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20090729) (2009072700)
+      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['addfeed'] = 'Aggiungi un URL di feed news:';
@@ -22,6 +22,7 @@ $string['editafeed'] = 'Modifica un feed';
 $string['editfeeds'] = 'Modificare, sottoscrivere o revocare l\'iscrizione al feed news RSS/Atom';
 $string['editnewsfeeds'] = 'Modifica feed di news';
 $string['editrssblock'] = 'Modifica titolo blocco RSS';
+$string['enableautodiscovery'] = 'Abilita l\'individuazione automatica dei feed';
 $string['errorloadingfeed'] = 'Si è verificato un errore durante il caricamento del feed RSS ($a)';
 $string['feed'] = 'Feed News';
 $string['feedadded'] = 'Aggiunto feed News';

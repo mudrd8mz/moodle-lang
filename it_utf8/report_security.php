@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090304) (2009030300)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['check_configrw_details'] = '<p>Si raccomanda di modificare i permessi del file config.php subito dopo l\'installazione per evitare che il file possa essere modificato da processi del web server.
@@ -48,12 +48,12 @@ $string['check_embed_details'] = '<p>L\'inserimento incondizionato di oggetti ne
 $string['check_embed_error'] = 'L\'inserimento incondizionato di oggetti nelle pagine è abilitato. Questo rappresenta uno dei maggiori rischi per la sicurezza dei server.';
 $string['check_embed_name'] = 'Consenti tag EMBED e OBJECT';
 $string['check_embed_ok'] = 'L\'inserimento incondizionato di oggetti nelle pagine non è consentito.';
-$string['check_frontpagerole_details'] = '<p>Il Ruolo di default per la pagina principale viene attribuito a tutti gli utenti autenticati per poter partecipare alle attività presenti nella Pagina principale. Accertatevi che tale ruolo non possegga privilegi tali da  permettergli di compromettere la sicurezza del sito.</p>
+$string['check_frontpagerole_details'] = '<p>Il Ruolo di default per la pagina home viene attribuito a tutti gli utenti autenticati per permettergli di partecipare alle attività presenti nella Pagina home. Accertatevi che tale ruolo non possegga privilegi tali da  permettergli di compromettere la sicurezza del sito.</p>
 <p>Si raccomanda di creare un ruolo apposito per questo scopo, evitando di utilizzare Ruoli origine.</p>';
-$string['check_frontpagerole_error'] = 'Il Ruolo di default per la pagina principale, \"$a\", non è definito in modo corretto!';
-$string['check_frontpagerole_name'] = 'Ruolo di default per la pagina principale';
-$string['check_frontpagerole_notset'] = 'Il Ruolo di default per la pagina principale non è impostato.';
-$string['check_frontpagerole_ok'] = 'Definizione del Ruolo di default per la pagina principale OK.';
+$string['check_frontpagerole_error'] = 'Il Ruolo di default per la pagina home, \"$a\", non è definito in modo corretto!';
+$string['check_frontpagerole_name'] = 'Ruolo di default per la pagina home';
+$string['check_frontpagerole_notset'] = 'Il Ruolo di default per la pagina home non è impostato.';
+$string['check_frontpagerole_ok'] = 'Definizione del Ruolo di default per la pagina home OK.';
 $string['check_globals_details'] = '<p>L\'impostazione Register globals è considerata una delle più pericolose. Dovete impostare <code>register_globals=off</code> nella configurazione del PHP. Potete impostare register_globals nel file <code>php.ini</code>, nella configurazione di Apache oppure nel file <code>.htaccess</code>.</p>';
 $string['check_globals_error'] = 'L\'impostazione Register globals DEVE essere disabilitata. Per favore modificate l\'impostazione immediatamente!';
 $string['check_globals_name'] = 'Register globals';

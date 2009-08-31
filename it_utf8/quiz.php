@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090724) (2009072400)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['1day'] = '1 giorno';
@@ -156,7 +156,7 @@ $string['configdelay2'] = 'Se si imposta questo ritardo, lo studente deve aspett
 $string['configdelaylater'] = 'Se si imposta questo ritardo, lo studente non può iniziare il terzo, quarto, ... tentativo finché questo tempo non è trascorso dalla fine del tentativo precedente.';
 $string['configeachattemptbuildsonthelast'] = 'Se sono consentiti tentativi multipli di risposta ogni nuovo tentativo conterrà i risultati del tentativo precedente.';
 $string['configgrademethod'] = 'Quando sono permessi più tentativi di risposta, quale metodo deve essere usato per calcolare il voto finale di uno studente per il quiz.';
-$string['configintro'] = 'I valori qui impostati definiscono i default che vengono usati nel form di impostazione utilizzato quando si crea un nuovo quiz. Possono essere definite anche quali impostazioni saranno considerate \"avanzate\".';
+$string['configintro'] = 'I valori impostati sotto saranno i valori di default durante la creazione di nuovi quiz. E\' anche possibile stabilire quali impostazioni siano da considerarsi \"avanzate\".';
 $string['configmaximumgrade'] = 'Il voto default rispetto al quale sarà proporzionato il punteggio del quiz.';
 $string['confignewpageevery'] = 'Quando si aggiungono domande a un quiz saranno inseriti automaticamente dei salti pagina in base a questa impostazione.';
 $string['configpenaltyscheme'] = 'Penalità da sottrarre per ogni risposta errata nella modalità adattativa.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_mahara.php - created with Moodle 2.0 dev (Build: 20090625) (2009061706)
+      // repository_mahara.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['configplugin'] = 'Configurazione Repository Mahara';
@@ -7,6 +7,7 @@ $string['connectionfailure'] = 'Non è stato possibile ottenere l\'elenco dei fi
 $string['emptyfilelist'] = 'Non ci sono file da visualizzare';
 $string['failtoretrievelist'] = 'Non è stato possibile ottenere l\'elenco oppure l\'elenco è vuoto';
 $string['hostnotfound'] = 'Non è stato possibile trovare il sito Mahara nel database. Contattate il vostro amministratore';
+$string['mahara:view'] = 'Visualizzare repository Mahara';
 $string['nopeer'] = 'Per favore attivate alcuni <a href=\"http://docs.moodle.org/en/admin/mnet/peers#Peer_to_Peer_Network\">Moodle peer</a> per il vostro sito Mahara.';
 $string['notitle'] = 'senza titolo';
 $string['peer'] = 'Peer';

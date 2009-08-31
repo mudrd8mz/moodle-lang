@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20090610) (2009060200)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -9,16 +9,18 @@ $string['autofilerename'] = 'Aggiorna link se il file viene rinominato';
 $string['back'] = 'Indietro';
 $string['blockdeletingfile'] = 'Blocca l\'eliminazione di file in uso';
 $string['browserepository'] = 'Cerca nel repository';
-$string['cannotupdate'] = 'Non è stato possibile aggiornare la risorsa';
 $string['choose'] = 'Scegli';
 $string['chooseafile'] = 'Scegli un file oppure caricane uno dal tuo computer';
 $string['chooseaparameter'] = 'Scegli un parametro...';
 $string['chooseparameter'] = 'Scegli un parametro';
-$string['clicktoopen'] = 'Per aprire il documento, clicca su questo link:';
+$string['clicktodownload'] = 'Per scaricare il documento, fai click su questo link:';
+$string['clicktoopen'] = 'Per aprire il documento, fai click su questo link:';
+$string['clicktoopen2'] = 'Per visualizzare il documento, fai click su questo link:';
 $string['configallowlocalfiles'] = 'Quando si crea una risorsa di tipo \"Link a file o sito web\", questa impostazione consente di collegare file presenti sul lettore CD o sul disco fisso del computer dell\'utente. Può essere utile nelle classi dove gli studenti possono accedere ad un disco di rete oppure per accedere a file contenuti in un CD-ROM. L\'impiego di questa caratteristica potrebbe richiedere la modifica di impostazioni di sicurezza nel browser degli utenti.';
 $string['configautofilerenamesettings'] = 'Aggiorna automaticamente i collegamenti ai file ed alle cartelle quando file o cartelle vengono rinominati con il file manager.';
 $string['configblockdeletingfilesettings'] = 'Se desiderate impedire che vengano eliminati file o cartelle che risultino in uso da altre risorse, impostate questo valore a Sì. Tenete comunque presente che questa impostazione non può garantire che possano essere eliminati file e cartelle utilizzati da pagine html.';
 $string['configdefaulturl'] = 'E\' possibile predefinire il valore dell\'URL con il quale creare risorse di tipo \"Link a file o sito web\".';
+$string['configdisplayoptions'] = 'Selezionate le opzioni di visualizzazione che desiderate rendere disponibili. Le impostazioni già in essere non saranno modificate. Per selezionare più opzioni tenete premuti il tasto CTRL.';
 $string['configfilterexternalpages'] = 'Abilitando questa impostazione tutte le risorse che utilizzano file caricati sul server (pagine web, file HTML) saranno elaborate dai filtri attivi (come i collegamenti automatici al glossario, per esempio). Abilitare questa impostazione potrebbe rallentare il caricamento delle pagine in modo significativo - usalo con attenzione e solo se non ne puoi fare a meno.';
 $string['configframesize'] = 'Se si sceglie di mostrare una risorsa usando i frame, è possibile specificare la dimensione in pixel del frame superiore che conterrà l\'intestazione di pagina con l\'interfaccia di navigazione del sito.';
 $string['configparametersettings'] = 'Potete decidere se mostrare o meno le impostazioni che influenzano l\'invio di parametri alle risorse di tipo \"Link a file o sito web\". Dopo il primo accesso tuttavia, per ogni utente saranno mantenute le rispettive preferenze di visualizzazione.';
@@ -35,11 +37,22 @@ $string['configpopupwidth'] = 'Larghezza di default (in pixel) delle finestre po
 $string['configsecretphrase'] = 'Questa password viene utilizzata per generare il codice criptato utilizzato per inviare dati alle risorse che fanno uso di parametri. Il codice criptato è generato tramite la funzione md5 concatenando l\'indirizzo IP dell\'utente con la password. Ad esempio: code  = md5(IP.secretphrase). Tutto questo permette alla risorsa destinataria di rafforzare la sicurezza verificando la connessione.';
 $string['configwebsearch'] = 'Se si desidera utilizzare come risorse  pagine web reperibili su Internet, potete facilitare gli utenti offrendogli l\'URL di default di un motore di ricerca.';
 $string['configwindowsettings'] = 'Potete scegliere se mostrare o meno le impostazioni che influenzano le caratteristiche delle finestre del browser utilizzate per mostrare le risorse. Dopo il primo accesso tuttavia, per ogni utente saranno mantenute le rispettive preferenze di visualizzazione.';
+$string['contentheader'] = 'Contenuto';
 $string['deploy'] = 'Pubblica';
 $string['deployall'] = 'Pubblica tutto';
 $string['directlink'] = 'Collegamento diretto a questo file';
 $string['directoryinfo'] = 'Saranno mostrati tutti i file e le cartelle contenuti nella cartella che avete scelto.';
-$string['display'] = 'Visualizzazione';
+$string['display'] = 'Finestra';
+$string['displayauto'] = 'Automatico';
+$string['displaydownload'] = 'Forza download';
+$string['displayembed'] = 'Embed';
+$string['displayframe'] = 'Frame';
+$string['displaynew'] = 'Nuova finestra';
+$string['displayopen'] = 'Apri';
+$string['displayoptions'] = 'Modalità di visualizzazione disponibili';
+$string['displaypopup'] = 'Popup';
+$string['displayselect'] = 'Visualizzazione';
+$string['displayselectexplain'] = 'Selezionate il tipo di visualizzazione di default. Tenete presente che i vari tipi di file potrebbero permettere solo alcuni tipi di visualizzazione.';
 $string['editingaresource'] = 'Modifica una risorsa';
 $string['emptyfolder'] = 'Cartella vuota';
 $string['encryptedcode'] = 'Codice criptato';
@@ -49,7 +62,11 @@ $string['fetchclienterror'] = 'E\' stato rilevato un errore con il tuo browser m
 $string['fetcherror'] = 'E\' stato rilevato un errore durante l\'accesso alla pagina web.';
 $string['fetchservererror'] = 'E\' stato rilevato un errore sul server mentre provavo a recuperare la pagina web (potrebbe esserci un errore nel codice).<br />';
 $string['filename'] = 'Nome del file';
+$string['filenotfound'] = 'Spiacente, il fiel non è stato trovato';
+$string['filterfiles'] = 'Applica filtri sul contenuto del file';
+$string['filterfilesexplain'] = 'Scegliete il tipo di filtri da applicare sui file. Tenete presente che il filtraggio potrebbe generare problemi con alcune applet Flash e Java. Accertatevi anche che i file siano codificati in UTF-8.';
 $string['filtername'] = 'Auto link ai Nomi delle risorse';
+$string['foldercontent'] = 'File e sotto cartelle';
 $string['forcedownload'] = 'Forza download';
 $string['frameifpossible'] = 'Mostra la risorsa in un frame mantenendo visibile i pulsanti di navigazione.';
 $string['framesize'] = 'Dimensione frame';
@@ -62,6 +79,9 @@ $string['keepnavigationvisible'] = 'Visualizza elementi di navigazione';
 $string['keepnavigationvisibleno'] = 'No';
 $string['keepnavigationvisibleyesframe'] = 'Si, con frame';
 $string['keepnavigationvisibleyesobject'] = 'Si, senza frame';
+$string['legacyfiles'] = 'Migrazione dei file di corsi precedenti';
+$string['legacyfilesactive'] = 'Attivo';
+$string['legacyfilesdone'] = 'Completato';
 $string['localfile'] = 'File nel computer dell\'utente';
 $string['localfilechoose'] = 'Scegli un file nel tuo computer (es. CD-ROM)';
 $string['localfilehelp'] = 'Aiuto su come visualizzare file presenti nei computer degli utenti';
@@ -94,9 +114,11 @@ $string['note'] = 'Nota';
 $string['notefile'] = 'Per trasferire altri file nell\'archivio del
 
 corso (come quelli che compaiono in questa lista) usa il <a href=\"$a\" >File Manager</a>.';
+$string['notmigrated'] = 'Spiacente, ma questo tipo di risorsa precedente ($a) non è stato ancora migrata.';
 $string['notypechosen'] = 'È necessario che tu scelga un tipo. Usa il
 
 pulsante indietro per ritornare alla pagina precedente e riprovare.';
+$string['optionsheader'] = 'Opzioni';
 $string['packagechanged'] = 'Questo pacchetto IMS è cambiato';
 $string['packagenotdeplyed'] = 'Questo pacchetto IMS non è pubblicato';
 $string['pagedisplay'] = 'Questa risorsa sarà visualizzata nella stessa finestra del browser.';
@@ -104,15 +126,24 @@ $string['pagewindow'] = 'nella stessa finestra.';
 $string['pan'] = 'Bilanciamento';
 $string['parameter'] = 'Parametro';
 $string['parameters'] = 'Parametri';
+$string['popupheight'] = 'Altezza popup (in pixel)';
+$string['popupheightexplain'] = 'Altezza di default per le finestre popup.';
 $string['popupresource'] = 'Questa risorsa dovrebbe apparire in una finestra popup';
 $string['popupresourcelink'] = 'Se la popup non è apparsa, fai click qui: $a';
+$string['popupwidth'] = 'Larghezza popup (in pixel)';
+$string['popupwidthexplain'] = 'Larghezza di default per le finestre popup.';
 $string['portfolionotimplemented'] = 'State tentando di esportare contenuti da un tipo di risorsa ($a) che non supporta l\'esportazione!';
 $string['preview'] = 'Anteprima';
 $string['previous'] = 'Precedente';
+$string['printheading'] = 'Visualizza il nome della risorsa';
+$string['printheadingexplain'] = 'Consente di visualizzare il nome della risorsa prima del contenuto. Tenete presente che alcuni tipi di visualizzazione potrebbero non rispettare questa impostazione.';
+$string['printintro'] = 'Visualizza la descrizione della risorsa';
+$string['printintroexplain'] = 'Consente di visualizzare la descrizione della risorsa prima del contenuto. Tenete presente che alcuni tipi di visualizzazione potrebbero non rispettare questa impostazione.';
 $string['redeploy'] = 'Pubblica nuovamente';
 $string['repository'] = 'Repository IMS';
 $string['resource:exportresource'] = 'Esporta risorsa';
 $string['resource:view'] = 'Visualizza la risorsa';
+$string['resourcecontent'] = 'File e sotto cartelle';
 $string['resourcedefaulturl'] = 'URL di default';
 $string['resourcetype'] = 'Tipo di risorsa';
 $string['resourcetype1'] = 'Riferimento';
@@ -144,5 +175,6 @@ $string['vol'] = 'Volume';
 $string['warningblockingdelete'] = 'Attenzione: l\'eliminazione è stata interrotta poiché esistono risorse che usano i file da eliminare. E\' necessario eliminare da queste risorse i riferimenti ai file che volete eliminare oppure chiedere all\'Amministratore di disattivare questo meccanismo di controllo nella configurazione del sistema.';
 $string['warningdisabledrename'] = 'Attenzione: l\'aggiornamento automatico dei nomi dei file presenti all\'interno delle risorse è disabilitato. Se necessario, aggiornare manualmente le risorse interessate. L\'Amministratore può anche abilitare il l\'aggiornamento automatico dei nomi dei file nella configurazione globale delle Risorse.';
 $string['websearchdefault'] = 'Websearch default';
+$string['cannotupdate'] = 'Non è stato possibile aggiornare la risorsa'; // ORPHANED
 
 ?>

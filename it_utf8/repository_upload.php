@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // repository_upload.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
+      // repository_upload.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
-$string['configplugin'] = 'Configurazione per repository Upload';
+$string['configplugin'] = 'Configurazione plugin File upload';
 $string['repositorydesc'] = 'Carica un file su Moodle';
-$string['repositoryname'] = 'Upload Repository';
+$string['repositoryname'] = 'File upload';
+$string['upload:view'] = 'Usare Upload file nel file picker';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20090611) (2009060200)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['allowdeleting'] = 'Consenti ripensamenti';
@@ -27,9 +27,9 @@ $string['cannotdeletefiles'] = 'Si è verificato un errore e i file non possono 
 $string['cannotviewassignment'] = 'Non puoi visualizzare questo compito';
 $string['comment'] = 'Commento';
 $string['commentinline'] = 'Commento in linea';
-$string['configitemstocount'] = 'Natura degli elementi da considerare per le consegne degli studenti nei compiti online.';
+$string['configitemstocount'] = 'Tipo di elementi da conteggiare nei compiti online.';
 $string['configmaxbytes'] = 'Dimensione massima per tutti i compiti del sito (soggetta a limiti del corso e ad altre impostazioni locali)';
-$string['configshowrecentsubmissions'] = 'Chiunque può vedere la notifica delle consegne nei report dell\'attività recente.';
+$string['configshowrecentsubmissions'] = 'Consente a tutti di visualizzare la notifica delle consegne nei report dell\'attività recente.';
 $string['confirmdeletefile'] = 'Sei sicuro di voler eliminare questo file?<br/><strong>$a</strong>';
 $string['coursemisconf'] = 'Il corso è mal configurato';
 $string['deleteallsubmissions'] = 'Elimina tutte le consegne';
@@ -75,7 +75,7 @@ $string['invalidassignment'] = 'compito non valido';
 $string['invalidid'] = 'ID compito non valido';
 $string['invalidtype'] = 'Tipo di compito non valido';
 $string['invaliduserid'] = 'ID utente non valido';
-$string['itemstocount'] = 'Numero';
+$string['itemstocount'] = 'Conteggio';
 $string['late'] = '$a in ritardo';
 $string['maximumgrade'] = 'Voto massimo';
 $string['maximumsize'] = 'Dimensione massima';

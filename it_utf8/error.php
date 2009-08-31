@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090731) (2009073000)
+      // error.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['TODO'] = 'TODO';
@@ -56,7 +56,7 @@ $string['cannoteditcomment'] = 'Non puoi modificare commenti che non sono tuoi!'
 $string['cannoteditcommentexpired'] = 'Non puoi modificarlo. Il tempo è scaduto!';
 $string['cannoteditmasterlang'] = 'Non siete autorizzati a modificare il language pack master. Questa autorizzazione è controllata dal privilegio \"moodle/site:langeditmaster\". Dovete impostare questo privilegio a Consenti se siete manutentori di un language pack e desiderate modificarlo.';
 $string['cannoteditpostorblog'] = 'Non puoi inserire o modificare interventi nei blog';
-$string['cannoteditsiteform'] = 'Non puoi modificare il corso nella pagina principale usando questo form';
+$string['cannoteditsiteform'] = 'Non puoi modificare il corso nella pagina home usando questo form';
 $string['cannotedityourprofile'] = 'Spiacente, non sei autorizzato a modificar eil tuo profilo';
 $string['cannotfindcategory'] = 'Non è possibile trovare nel database il record della categoria con ID - $a';
 $string['cannotfindcomponent'] = 'Non è possibile trovare il componente.';
@@ -67,7 +67,7 @@ $string['cannotfindgroup'] = 'Non è possibile trovare il gruppo';
 $string['cannotfindhelp'] = 'Non è possibile trovare gli help file della lingua \"$a\"';
 $string['cannotfindinfo'] = 'Non è possibile trovare per: \"$a\"';
 $string['cannotfindlang'] = 'Non è possibile trovare il language pack \"$a\"';
-$string['cannotfindsite'] = 'Non è possibile trovare il corso della pagina principale';
+$string['cannotfindsite'] = 'Non è possibile trovare il corso della pagina home';
 $string['cannotfindteacher'] = 'Non è possibile trovare docenti';
 $string['cannotfinduser'] = 'Non è possibile trovare l\'utente di nome \"$a\"';
 $string['cannotgetblock'] = 'Non è stato possibile ottenere i blocchi dal database';
@@ -383,7 +383,7 @@ $string['refoundto'] = 'Può essere restituito a $a';
 $string['refoundtoorigi'] = 'Ammontare pagato restituito a $a';
 $string['remotedownloaderror'] = 'Lo scaricamento delle componenti non è andato a buon fine. Verificate le impostazioni del proxy. L\'estensione PHP cURL è fortemente consigliata.<br /><br />Dovete scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" e decomprimerlo.';
 $string['remotedownloadnotallowed'] = 'Non è permesso scaricare i componenti su vostro server (allow_url_fopen è disabilitato). <br /><br /> È necessario scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" sul vostro server e scompattarlo la.';
-$string['reportnotavailable'] = 'Questo tipo di report è disponibile solamente nel corso della pagina principale';
+$string['reportnotavailable'] = 'Questo tipo di report è disponibile solamente nel corso della pagina home';
 $string['restricteduser'] = 'Spiacente, ma il suo account corrente  \"$a\" non ha il permesso per fare questo.';
 $string['reverseproxyabused'] = 'Spiacente ma il server non può essere raggiunto direttamente, è stato abilitato un reverse proxy.<br />Per favore contattate l\'amministratore del server.';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses: ($a)';

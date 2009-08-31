@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090615) (2009061300)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['activities'] = 'Attività';
@@ -404,7 +404,7 @@ $string['outcome'] = 'Obiettivo';
 $string['outcomeassigntocourse'] = 'Assegna un altro obiettivo a questo corso';
 $string['outcomecategory'] = 'Crea obiettivi nella categoria';
 $string['outcomecategorynew'] = 'Nuova categoria';
-$string['outcomeconfirmdelete'] = 'Sei sicuro di voler eliminare l\'obiettivo \"$a\"?';
+$string['outcomeconfirmdelete'] = 'Sei sicuro di eliminare l\'obiettivo \"$a\"?';
 $string['outcomecreate'] = 'Aggiungi un nuovo obiettivo';
 $string['outcomedelete'] = 'Elimina obiettivo';
 $string['outcomeidhelp'] = 'L\'obiettivo che questo elemento di valutazione rappresenta.';
@@ -474,7 +474,8 @@ $string['respectingcurrentdata'] = 'configurazione corrente inalterata';
 $string['rowpreviewnum'] = 'Righe di anteprima';
 $string['savechanges'] = 'Salva modifiche';
 $string['savepreferences'] = 'Salva Preferenze';
-$string['scaledpct'] = 'Scaled %%';
+$string['scaleconfirmdelete'] = 'Sei sicuro di eliminare la scala \"$a\"?';
+$string['scaledpct'] = 'Scalatura %%';
 $string['scaleidhelp'] = 'La scala cui questo $a è collegato.';
 $string['scalestandardhelp'] = 'Una scala si definisce standard se è utilizzabile in tutto il sito ed in tutti i corsi.';
 $string['seeallcoursegrades'] = 'Vedi tutte le valutazioni del corso';

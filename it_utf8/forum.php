@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -150,6 +150,7 @@ $string['forum:viewhiddentimedposts'] = 'Vedere gli interventi con orario nascos
 $string['forum:viewqandawithoutposting'] = 'Vedere sempre gli interventi di tipo \"Domande e Risposte\"';
 $string['forum:viewrating'] = 'Vedere le valutazioni';
 $string['forum:viewsubscribers'] = 'Vedere gli iscritti';
+$string['forumadministration'] = 'Amministrazione Forum';
 $string['forumauthorhidden'] = 'Autore (nascosto)';
 $string['forumblockingalmosttoomanyposts'] = 'Stai per raggiungere il limite degli interventi permessi. Hai inviato $a->numposts interventi negli ultimi $a->blockperiod giorni. Il limite è di $a->blockafter interventi.';
 $string['forumbodyhidden'] = 'Questo intervento non può essere visualizzato, probabilmente perché non hai ancora effettuato interventi nella discussione.';
@@ -350,6 +351,7 @@ $string['unsubscribeallempty'] = 'Spiacente, non sei iscritto ad alcun forum. In
 $string['unsubscribed'] = 'Iscrizione cancellata';
 $string['unsubscribeshort'] = 'Disiscrivi';
 $string['usermarksread'] = 'Marca manualmente intervento letto';
+$string['viewalldiscussions'] = 'Visualizza tutti gli argomenti';
 $string['warnafter'] = 'Soglia per l\'avviso';
 $string['yesforever'] = 'Si, per sempre';
 $string['yesinitially'] = 'Si, inizialmente';

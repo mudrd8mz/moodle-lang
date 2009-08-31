@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
+      // repository_flickr_public.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['all'] = 'Tutto';
@@ -15,6 +15,7 @@ $string['commercialuse'] = 'E\' consentito l\'uso commerciale';
 $string['configplugin'] = 'Configurazione Flickr Public';
 $string['creativecommonscommercial'] = 'Solamente Creative Commons commerciale';
 $string['emailaddress'] = 'Indirizzo email';
+$string['flickr_public:view'] = 'Visualizzare repository Flickr Public';
 $string['fulltext'] = 'Testo completo';
 $string['information'] = '<div>Ottieni una <a href=\"http://www.flickr.com/services/api/keys/\">Flickr API Key</a> per il tuo sito Moodle. </div>';
 $string['invalidemail'] = 'Indirizzo email non valido per Flickr';

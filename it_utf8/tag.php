@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20090128) (2009011900)
+      // tag.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['addedotag'] = '\"$a\" è stata aggiunta come una tag ufficiale.';
@@ -16,7 +16,7 @@ $string['description'] = 'Descrizione';
 $string['edittag'] = 'Modifica questa tag';
 $string['entertags'] = 'Inserite i tag separati da virgole';
 $string['errordeleting'] = 'Errore in cancellazione tag con id $a, avvertire l\'amministratore di sistema.';
-$string['errortagfrontpage'] = 'Tag non sono consentite sulla pagina principale del sito';
+$string['errortagfrontpage'] = 'Il tagging non è consentito nella pagina home';
 $string['errorupdatingrecord'] = 'Errore in aggiornamento record tag';
 $string['flag'] = 'Flag';
 $string['flagasinappropriate'] = 'Marca come non appropriata';

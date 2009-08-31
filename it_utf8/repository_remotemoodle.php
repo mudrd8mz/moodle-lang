@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20090625) (2009061706)
+      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['configplugin'] = 'Configurazione repository Moodle Remoto';
@@ -11,6 +11,7 @@ $string['nopeer'] = '<div>Per favore attivate alcuni <a href=\"http://docs.moodl
 $string['notitle'] = 'senza titolo';
 $string['peer'] = 'Peer';
 $string['remember'] = 'Ricordami';
+$string['remotemoodle:view'] = 'Visualizzare repository Moodle remoto';
 $string['remoterep_description'] = 'Abilita il \"discovery\" del servizio<br><br>';
 $string['remoterep_name'] = 'Repository Moodle Remoto';
 $string['repositorydesc'] = 'Repository sul server Moodle remoto';

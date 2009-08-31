@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090729) (2009072700)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -81,6 +81,7 @@ $string['commonfiltersettings'] = 'Impostazioni comuni';
 $string['commonsettings'] = 'Impostazioni comuni';
 $string['componentinstalled'] = 'Componente installato';
 $string['computedfromlogs'] = 'Calcolato da log a partire da $a';
+$string['condifmodeditdefaults'] = 'I valori impostati sotto saranno i valori di default durante la creazione di nuove attività. E\' anche possibile stabilire quali impostazioni siano da considerarsi \"avanzate\".';
 $string['confeditorhidebuttons'] = 'Seleziona i pulsanti che non vanno mostrati nell\'editor HTML';
 $string['configallowassign'] = 'Tramite la matrice sottostante potete autorizzare i ruoli elencati nella colonna verticale a sinistra ad assegnare ad altri utenti uno o più tra i ruoli presenti sulla riga di intestazione';
 $string['configallowcategorythemes'] = 'Abilitando questa opzione, i temi possono essere impostati a livello di categoria. Questo influenzerà tutte le categorie dipendenti e i relativi corsi a meno che gli stessi non abbiamo in modo specifico impostato il proprio tema. ATTENZIONE: L\'abilitazione dei temi di categoria può influenzare le prestazioni.';
@@ -97,7 +98,7 @@ $string['configallowusermailcharset'] = 'Abilitando questa opzione, ogni utente 
 $string['configallowuserswitchrolestheycantassign'] = 'Per cambiare ruolo gli utenti devono avere il privilegio moodle/role:assign. Abilitando questa impostazione si rimuove la necessità di avere questo privilegio e i ruoli disponibili nel menù a discesa \"Cambia ruolo in..\" saranno controllati solamente dalle impostazioni della tabella \"Autorizzati ad attribuire ruoli\".
 Si raccomanda che nella tabella \"Autorizzati ad attribuire ruoli\" non ci siano impostazioni tali da permettere agli utenti di cambiare il proprio ruolo con un ruolo che ha maggiori privilegi.';
 $string['configallowuserthemes'] = 'Se abilitato, ogni utente potrà impostare un proprio tema personale. I temi personali dell\'utente sovrascrivono i temi del sito, ma non i temi di un corso.';
-$string['configallusersaresitestudents'] = 'Ai fini delle attività poste sulla pagina principale del sito, tutti gli utenti devono essere considerati studenti? Se si risponde \"Si\" allora ogni account utente confermato sarà  abilitato a partecipare come studente a queste attività . Se si risponde \"No\", allora solo gli utenti che sono anche studenti iscritti almeno ad un corso saranno abilitati a partecipare a queste attività  presenti nella pagina principale. Solo gli amministratori e i docenti speciali assegnati potranno comportarsi come docenti per queste attività  della pagina principale.';
+$string['configallusersaresitestudents'] = 'Ai fini delle attività poste sulla pagina home del sito, tutti gli utenti devono essere considerati studenti? Se si risponde \"Si\" allora ogni account utente confermato sarà  abilitato a partecipare come studente a queste attività . Se si risponde \"No\", allora solo gli utenti che sono anche studenti iscritti almeno ad un corso saranno abilitati a partecipare a queste attività  presenti nella pagina home. Solo gli amministratori e i docenti speciali assegnati potranno comportarsi come docenti per queste attività  della pagina home.';
 $string['configauthenticationplugins'] = 'Nella tabella soprastante potete abilitare i plugin di autenticazione ed ordinarli secondo la priorità di esecuzione desiderata.';
 $string['configautolang'] = 'Rileva la lingua di default dalle impostazioni del browser, se l\'opzione disabilitata sarà usata la lingua default del sito.';
 $string['configautologinguests'] = 'Selezionando questa opzione, i visitatori potranno accedere direttamente ai corsi che consentono l\'accesso agli ospiti';
@@ -117,7 +118,7 @@ $string['configcountry'] = 'Il Paese che comparirà per default nelle pagine di 
 $string['configcoursemanager'] = 'E\' possibile indicare quali ruoli far comparire nella descrizione dei corsi. Affinché il nome di un utente compaia nella descrizione di un corso, l\'utente dovrà avere almeno uno dei ruoli qui specificati.';
 $string['configcourserequestnotify'] = 'E\' possibile indicare lo username dell\'utente da avvertire in presenza di richieste di nuovi corsi.';
 $string['configcourserequestnotify2'] = 'Gli utenti da avvertire in presenza di domande per Corsi a richiesta. L\'elenco riporta solo gli utenti che hanno il privilegio di approvare Corsi a richiesta.';
-$string['configcoursesperpage'] = 'Numero di corsi da mostrare per pagina in un elenco dei corsi';
+$string['configcoursesperpage'] = 'Numero di corsi da visualizzare nelle pagine contenenti elenchi di corsi.';
 $string['configcreatornewroleid'] = 'Ruolo da attribuire automaticamente ai Creatori di corsi quando creano un nuovo corso. Tale ruolo non sarà attribuito automaticamente se il creatore di corsi già possiede i privilegi necessari nel contesto genitore.';
 $string['configcronclionly'] = 'Questa opzione disabilita l\'esecuzione del cron da web permettendola solo dalla linea di comando. L\'opzione annulla le eventuali impostazioni sottostanti relative alla password cron.';
 $string['configcronremotepassword'] = 'Questo significa che lo script cron.php non può essere eseguito da un browser web senza fornire la password usando il seguente formato di URL:<pre>
@@ -174,12 +175,12 @@ Questo è particolarmente utile se si usa il filtro multilingua; altrimenti cree
 $string['configfiltermatchoneperpage'] = 'Il filtro di creazione automatica dei link (auto-link) genererà solo il collegamento alla prima occorrenza del testo che viene trovata in una pagina. Tutte le altre sono ignorate.';
 $string['configfiltermatchonepertext'] = 'Il filtro di creazione automatica dei link (auto-link) genererà solo il collegamento alla prima occorrenza del testo trovata in ogni elemento di testo (es. risorsa, blocco) della pagina. Tutti gli altri sono ignorati. Questa impostazione non viene considerata se l\'impostazione uno per pagina è <i>si</i>.';
 $string['configfilteruploadedfiles'] = 'Elabora tutti i file di testo e HTML con i filtri prima di visualizzarli, solo i file HTML o nessun file';
-$string['configforcelogin'] = 'Normalmente, l\'elenco dei corsi e la pagina principale del sito vengono visualizzati senza dover effettuare il login. Se si desidera obbligare i visitatori al login prima che sia possibile fare QUALUNQUE cosa sul sito, scegliete questa opzione.';
+$string['configforcelogin'] = 'Normalmente, l\'elenco dei corsi e la pagina home del sito vengono visualizzati senza dover effettuare il login. Se si desidera obbligare i visitatori al login prima che sia possibile fare QUALUNQUE cosa sul sito, scegliete questa opzione.';
 $string['configforceloginforprofiles'] = 'Attivando questa impostazione si obbliga il visitatore al login come utente reale (non come ospite) per poter visualizzare i profili di altri utenti. L\'opzione predefinita abilita questa possibilità , in modo che anche i potenziali studenti possano leggere i profili degli docenti di ogni corso.
 Da tenere presente che anche i motori di ricerca web potranno visualizzare i profili.';
 $string['configframename'] = 'Se incorporate Moodle in un web frame, mettete il nome del frame qui. Altrimenti questo valore può rimanere su \'_top\'';
-$string['configfrontpage'] = 'Gli item selezionati saranno mostrati sulla pagina principale del sito.';
-$string['configfrontpageloggedin'] = 'Gli item selezionati saranno mostrati sulla pagina principale del sito dopo il login.';
+$string['configfrontpage'] = 'Potete impostare gli elementi da visualizzare nella pagina home del sito ed il loro ordine.';
+$string['configfrontpageloggedin'] = 'Potete impostare gli elementi da visualizzare nella pagina home del sito ed il loro ordine per gli utenti che si sono autenticati.';
 $string['configfullnamedisplay'] = 'Definisce la modalità  di piena visualizzazione dei nomi. Per la maggior parte dei siti \'mono-linguistici\' la scelta più efficiente è quella predefinita \'nome+cognome\', ma si potrebbe per esempio voler nascondere i cognomi, oppure lasciar decidere alle impostazioni del Language Pack. (Alcune lingue hanno convenzioni differenti).';
 $string['configgdversion'] = 'Indica quale versione della libreria grafica GD (GD library) è installata. La versione mostrata è quella che è stata riconosciuta automaticamente dal sistema. Non modificare questo valore fino a quando non sapete davvero cosa state facendo!';
 $string['configgeoipfile'] = 'Path del GeoIP City binary data file. Questo file non fa parte della distribuzione di Moodle e deve essere scaricato separatamente da <a href=\"http://www.maxmind.com/\">MaxMind</a>. Si può acquistare la versione commerciale o utilizzare la versione gratuita.<br/>
@@ -201,7 +202,7 @@ $string['configintro'] = 'In questa pagina si possono specificare un numero di v
 Non vi preoccupate troppo a riguardo, i valori predefiniti in genere svolgono bene il loro compito e potete sempre tornare su questa pagina in un secondo momento per cambiare queste impostazioni.';
 $string['configintroadmin'] = 'In questa pagina si dovrebbe configurare l\'account dell\'Amministratore principale che avrà  il controllo completo sul sito. Assicuratevi di fornire uno username e una password sicuri, così come un indirizzo E-mail valido.
 Potrete creare altri account di tipo Amministratore più tardi.';
-$string['configintrosite'] = 'Questa pagina vi permette di configurare la pagina principale e il nome di questo nuovo sito.
+$string['configintrosite'] = 'Questa pagina vi permette di configurare la pagina home e il nome di questo nuovo sito.
 Potrete tornare in un secondo momento su questa pagina per modificare queste impostazioni, seguendo il link \'Impostazioni del sito\' dalla Home Page del sito.Questa pagina';
 $string['configintrotimezones'] = 'In questa pagina è possibile aggiornare l\'elenco dei fusi orari e le impostazioni sul passaggio all\'ora legale.  
 L\'elenco dei fusi orari aggiornati sarà cercata in sequenza nei seguenti percorsi di sistema o URL: $a Questa procedura di aggiornamento è priva di rischi e non può pregiudicare il buon funzionamento della vostra attuale installazione. Desiderate aggiornare l\'elenco dei fusi orari?';
@@ -269,6 +270,7 @@ $string['configrequestedstudentname'] = 'Termine per \'studente\' da utilizzare 
 $string['configrequestedstudentsname'] = 'Termine per \'studenti\' da utilizzare nel corsi richiesti';
 $string['configrequestedteachername'] = 'Termine per \'docente\' da utilizzare nel corsi richiesti';
 $string['configrequestedteachersname'] = 'Termine per \'docenti\' da utilizzare nel corsi richiesti';
+$string['configrequiremodintro'] = 'Disabilitando l\'opzione la descrizione delle attività non sarà più obbligatoria.';
 $string['configrestrictbydefault'] = 'I nuovi corsi che vengono creati nella categoria soprastante devono avere restrizioni sui loro moduli?';
 $string['configrestrictmodulesfor'] = 'Quali corsi devono avere la <b>possibilità </b> di disabilitare alcuni moduli?';
 $string['configrunclamavonupload'] = 'Se abilitato, clam AV sarà usato per fare lo scan di tutti i files caricati.';
@@ -293,7 +295,7 @@ $string['configshowblocksonmodpages'] = 'Alcuni moduli supportano l\'inserimento
 $string['configshowsiteparticipantslist'] = 'Tutti gli studenti di questo sito e i docenti del sito saranno mostrati nell\'elenco dei partecipanti. Chi è abilitato a visualizzare la lista dei partecipanti di questo sito?';
 $string['configsitemailcharset'] = 'Tutte le email generate dal vostro sito saranno inviate utilizzando il set di caratteri impostato qui. Comunque ogni utente può personalizzarlo se è abilitata la prossima impostazione.';
 $string['configsitemaxcategorydepth'] = 'Numero max. sotto categorie';
-$string['configsitemaxcategorydepthhelp'] = 'Specifica il numero massimo di sotto categorie da visualizzare';
+$string['configsitemaxcategorydepthhelp'] = 'Numero massimo visualizzabile di sotto categorie';
 $string['configsitepolicy'] = 'Se si dispone di una politica del sito (modalità  di utilizzo) che tutti gli utenti devono leggere e sottoscrivere prima di utilizzare il sito, specificarne qui l\'indirizzo (URL), altrimenti lasciare in bianco. L\'URL può puntare ad un indirizzo qualsiasi, ma si consiglia di riferirlo ad un file presente sul sito. Per esempio, http://tuosito/file.php/1/policy.html';
 $string['configslasharguments'] = 'I file (immagini, upload, ecc) vengono distribuiti mediante uno script che utilizza gli \'slash arguments\' (la seconda opzione a fianco). 
 Questo metodo permette una migliore gestione dei files nella cache del browser o del proxy server.
@@ -323,7 +325,7 @@ $string['configuseexternalyui'] = 'E\' possibile usare i file online disponibili
 $string['configusetags'] = 'Abilita la funzionalità Tag nel sito.';
 $string['configvariables'] = 'Variabili';
 $string['configverifychangedemail'] = 'Abilita la funzione di verifica degli indirizzi di posta elettronica quando gli utenti nel loro profilo modificano l\'email. La verifica viene effettuata sulla base delle liste di domini presenti nelle impostazioni Domini di posta autorizzati e Domini di posta non autorizzati. Se questa impostazione è disabilitata, la verifica dei domini autorizzati verrà operata solo durante la creazione di nuovi account.';
-$string['configvisiblecourses'] = 'Mostra i corsi nelle categorie nascoste normalmente';
+$string['configvisiblecourses'] = 'Permette la visualizzazione e l\'accesso ai corsi presenti in categorie di corso nascoste.';
 $string['configwarning'] = 'Fate attenzione a modificare queste impostazioni, valori anomali potrebbero causare problemi.';
 $string['configxmlstrictheaders'] = 'L\'opzione permette di generare pagine  usando http headers e prolog XML, consentendo ai browser di visualizzare online gli errori XHTML. E\' utile esclusivamente per gli sviluppatori.';
 $string['configzip'] = 'Indica il percorso del programma Zip di compressione dati (Solo per Unix).
@@ -483,12 +485,12 @@ $string['forcelogin'] = 'Imponi il login';
 $string['forceloginforprofiles'] = 'Imponi il login per i profili';
 $string['forcetimezone'] = 'Forza il fuso orario di default';
 $string['framename'] = 'Nome del frame';
-$string['frontpage'] = 'Pagina principale';
+$string['frontpage'] = 'Pagina home';
 $string['frontpagebackup'] = 'Backup';
-$string['frontpagedefaultrole'] = 'Ruolo di default per la pagina principale';
-$string['frontpagefilters'] = 'Filtri pagina principale';
-$string['frontpageloggedin'] = 'Elementi della pagina principale dopo il login';
-$string['frontpageoverrides'] = 'Modifiche ai permessi della Pagina principale';
+$string['frontpagedefaultrole'] = 'Ruolo di default per la pagina home';
+$string['frontpagefilters'] = 'Filtri pagina home';
+$string['frontpageloggedin'] = 'Elementi della pagina home dopo il login';
+$string['frontpageoverrides'] = 'Modifiche ai privilegi della Pagina home';
 $string['frontpagequestions'] = 'Domande';
 $string['frontpagerestore'] = 'Ripristino';
 $string['frontpageroles'] = 'Ruoli';
@@ -627,6 +629,7 @@ $string['mnetrestore_extusers_admin'] = '<strong>Nota:</strong> Questo file di b
 $string['mnetrestore_extusers_mismatch'] = '<strong>Nota:</strong> Questo file di backup sembra essere stato generato da un\'altra installazione di Moodle e contiene account di utenti Moodle Network il cui ripristino potrebbe non andare a buon fine. Questa operazione non è supportata. Se siete sicuri che il backup è stato creato su questa installazione di Moodle, o siete certi che tutti gli host Moodle Network sono configurati, allora potete provare ad eseguire il ripristino.';
 $string['mnetrestore_extusers_noadmin'] = '<strong>Nota:</strong> Questo file di backup sembra essere stato generato da un\'altra installazione di Moodle e contiene account di utenti Moodle Network. Non siete autorizzati ad eseguire questo tipo di ripristino. Contattate l\'amministratore del sito oppure ripristinate il corso senza informazioni sugli utenti (moduli, file...)';
 $string['mnetrestore_extusers_switchuserauth'] = 'Il metodo di autenticazione dell\'utente remoto $a->username (proveniente da $a->mnethosturl) è stato cambiato in autenticazione $a->auth locale.';
+$string['modeditdefaults'] = 'Valori di default dell\'attività';
 $string['modsettings'] = 'Gestione attività';
 $string['modulesecurity'] = 'Restrizioni sui Moduli';
 $string['multilangforceold'] = 'Forza la vecchia sintassi multilingua: &lt;span&gt; senza la class=\"multilang\" e &lt;lang&gt;';
@@ -766,6 +769,7 @@ $string['renameerrors'] = 'Errori nel cambiamento di nome';
 $string['requiredentrieschanged'] = '<strong>IMORTANTE - LEGGERE FAVORE<br/>(Questo messaggio sarà mostrato solo durante questo aggiornamento)</strong><br/>A causa di un bug fix, cambierà il comportamento delle attività database che fanno uso della impostazione \'Numero minimo di record da inserire\' e \'Numero minimo di record da inserire prima di poter visualizzare il Database\'. Trovate maggiori dettagli sul <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">forum del modulo database </a>. Il comportamento atteso di queste impostazioni può essere anche letto su  <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
 <br/><br/>Queste modifiche impattano i seguenti database presenti nel vostro sistema: (Per favore salvate la lista adesso e dopo l\'aggiornamento verificate che le attività elencate funzionino come previsto dai docenti.)<br/><strong>$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Obbligatorio. Si può usare il modello di sintassi (%%l = lastname, %%f = firstname, %%u = username).';
+$string['requiremodintro'] = 'Descrizione dell\'attività obbligatoria';
 $string['requires'] = 'Richiede';
 $string['restrictbydefault'] = 'Limitare i moduli per default';
 $string['restrictmodulesfor'] = 'Limitare i moduli per';
@@ -820,8 +824,8 @@ $string['sitemaintenancewarning'] = 'Il sito al momento è in manutenzione (solo
 $string['sitemaintenancewarning2'] = 'Il sito al momento è in manutenzione (solo gli amministratori possono collegarsi o utilizzare il sito). Per ripristinare la normale operatività, <a href=\"$a\"> disattivare la modalità manutenzione</a>.';
 $string['sitepolicies'] = 'Politiche del sito';
 $string['sitepolicy'] = 'URL delle politiche del sito';
-$string['sitesectionhelp'] = 'Se selezionata, una sezione argomento sarà mostrata sulla pagina principale del sito.';
-$string['slasharguments'] = 'Utilizzare gli \"slash arguments\"';
+$string['sitesectionhelp'] = 'E\' possibile visualizzare una sezione nella Pagina home.';
+$string['slasharguments'] = 'Utilizza gli \"slash arguments\"';
 $string['smartpix'] = 'Ricerca icone intelligente';
 $string['smtphosts'] = 'SMTP hosts';
 $string['smtpmaxbulk'] = 'massimo per sessione SMTP';

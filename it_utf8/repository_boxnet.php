@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // repository_boxnet.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
+      // repository_boxnet.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
 
 
 $string['apikey'] = 'API Key';
+$string['boxnet:view'] = 'Visualizzare repository box.net';
 $string['configplugin'] = 'Configurazione Box.net';
 $string['information'] = '<div>Ottieni una <a href=\"http://enabled.box.net/\">Box.net API Key</a> per il tuo sito Moodle. </div>';
 $string['invalidpassword'] = 'Password non valida';
