@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
+      // forum.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
 
 
 $string['addanewdiscussion'] = 'Skriv i dette forumet';
@@ -8,11 +8,13 @@ $string['addanewtopic'] = 'Skriv i dette forumet';
 $string['advancedsearch'] = 'Avansert søk';
 $string['aggregateavg'] = 'Vurderingsgjennomsnitt';
 $string['aggregatecount'] = 'Antall vurderinger';
+$string['aggregatecountformat'] = '$a->count (karakter: $a->grade)';
 $string['aggregatemax'] = 'Beste vurdering';
 $string['aggregatemin'] = 'Dårligste vurdering';
 $string['aggregatenone'] = 'Ingen vurdering';
 $string['aggregatesum'] = 'Vurderingssum';
 $string['aggregatetype'] = 'Summeringsmetode';
+$string['ajaxrating'] = 'Aktiver AJAX bedømming';
 $string['allforums'] = 'Alle forum';
 $string['allowchoice'] = 'Alle kan velge';
 $string['allowdiscussions'] = 'Kan en $a skrive i dette forumet?';
@@ -31,6 +33,7 @@ $string['cannotadddiscussion'] = 'Du må være medlem av en gruppe for å legge 
 $string['cannotadddiscussionall'] = 'Du har ikke tillatelse til å legge til et nytt diskusjonsemne for alle deltakerne.';
 $string['cannotviewpostyet'] = 'Du kan ikke lese andre studenters spørsmål i denne diskusjonen ennå fordi du ikke har lagt inn noe selv';
 $string['cleanreadtime'] = 'Tidspunkt for merking av gamle innlegg som lest';
+$string['configajaxrating'] = 'AJAX bedømming er en forbedring av brukergrensesnittet i forum. Dersom aktivert kan brukere bedømme foruminnlegg fortløpende uten å måtte rulle ned til bunnen av siden og klikke på \"Send inn mine siste bedømminger\"-knappen. Denne innstillingen krever at AJAX er aktivert på portalen og i brukerens profil.';
 $string['configcleanreadtime'] = 'Tidspunkt for sletting av gamle, leste innlegg.';
 $string['configdisplaymode'] = 'Standard visningsmåte for diskusjoner dersom dette ikke er valgt.';
 $string['configenablerssfeeds'] = 'Denne bryteren vil gjøre det mulig å få RSS matinger for alle fora. Du må allikevel manuelt slå på nating manuelt i innstillingene for hvert forum.';
@@ -123,6 +126,7 @@ $string['inforum'] = 'i $a';
 $string['intronews'] = 'Her vil det komme nyheter og kunngjøringer.';
 $string['introsocial'] = 'Et åpent forum der du kan skrive om hva du vil';
 $string['introteacher'] = 'Et forum kun for lærere';
+$string['invalidrate'] = 'Ugyldig bedømming ($a)';
 $string['lastpost'] = 'Siste innlegg';
 $string['learningforums'] = 'Læringsforum';
 $string['logblocked'] = 'Logg blokkert e-post';
@@ -163,6 +167,7 @@ $string['nopostforum'] = 'Beklager, du kan ikke poste innlegg i dette forumet';
 $string['noposts'] = 'Ingen innlegg';
 $string['nopostscontaining'] = 'Fant ingen innlegg som inneholdt \'$a\'';
 $string['noquestions'] = 'Det er ennå ingen spørsmål i dette forumet.';
+$string['noratinggiven'] = 'Ikke bedømt ennå';
 $string['nosubscribers'] = 'Det er forløpig ingen som ønsker å motta e-postkopier fra dette forumet';
 $string['nothingnew'] = 'Ingenting nytt for $a';
 $string['notingroup'] = 'Beklager, men du må være medlem i en gruppe for å se dette forumet.';

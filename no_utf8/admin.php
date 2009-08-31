@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.4+ (Build: 20090311) (2007101541)
+      // admin.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -130,6 +130,8 @@ $string['configenrolmentplugins'] = 'Vennligst velg hvilken påmeldings-plugin d
 $string['configerrorlevel'] = 'Velg hvor mye PHP-advarsler du ønsker skal vises. Normal er vanligvis det beste valg.';
 $string['configexperimentalsplitrestore'] = 'Dersom aktivert vil sikkerhetskopifilene bli sjekket for XML-feil og delt opp i mindre deler som skal brukes ved en gjenoppretting. Dette medfører mer robust gjenoppretting og mye raskere respons ved kjøring -særlig når du sikkerhetskopierer medium til store kurs.';
 $string['configextendedusernamechars'] = 'Slå på denne for å la studenter bruke alle tegn i sine brukernavn (merk at dette ikke påvirker deres virkelige navn). Standard er \"falsk\" som avgrenser brukernavn til å bestå av kun alfanumeriske tegn';
+$string['configextramemorylimit'] = 'Noen scripts, som Søk, Backup/Restore eller cron, krever mer minne. Angi derfor en høyere verdi på store portaler.';
+$string['configfilteraddthemecssandjs'] = 'Legger til design CSS og JavaScript når \"filteruploadedfiles\" er aktiv. Design CSS og JavaScript kan ofte komme i konflikt med egne filers CSS og JS. Standard er Nei.';
 $string['configfilterall'] = 'Filtrer alle tekststrenger, inkludert overskrifter, titler, navigasjonslinjer osv. Dette er nyttigst når du bruker filter for flere språk, ellers vil den kun skape ekstra belasting på nettstedet uten at du tjener på det.';
 $string['configfiltermatchoneperpage'] = 'Auto-lenking filtre vil bare generere en lenke for første treff på en side. Alle andre blir ignorert.';
 $string['configfiltermatchonepertext'] = 'Auto-lenking filtre vil bare generere en lenke for første treff i hver tekstblokk (i en ressurs, blokk osv). Alle andre blir ignorert. Denne innstillingen overstyres hvis du har aktivisert bare ett auto-lenke treff pr. side.';
@@ -182,6 +184,7 @@ $string['configminpasswordlength'] = 'Passordene må være minst så mange tegn 
 $string['configminpasswordlower'] = 'Passordene må ha minst så mange små bokstaver.';
 $string['configminpasswordnonalphanum'] = 'Passordene må minst så mange ikke-alfanumeriske tegn.';
 $string['configminpasswordupper'] = 'Passordene må ha minst så mange store bokstaver.';
+$string['configmycoursesperpage'] = 'Maks antall kurs som skal vises pr.side på brukerens kursoversikt';
 $string['configmymoodleredirect'] = 'Innstillingen sender alle ikke-administratorer til en egendefinert hovedside etter innlogging. (Min Moodle-startside)';
 $string['confignodefaultuserrolelists'] = 'Denne innstillingen hindrer at alle brukerne kommer tilbake fra databasen etter utdaterte søk som get_course_user ol, for kurset hvis standard rolle har tilagang til dette. Sjekk dette hvis du opplever ytelsesendringer.';
 $string['confignonmetacoursesyncroleids'] = 'By default all enrolments from child courses are synchronised to metacourses. Roles that are selected here will not be included in the synchronisation process.';
@@ -207,6 +210,7 @@ $string['configrcache'] = 'Bruk hurtigminne ved lagring i databasen. Husk å vel
 $string['configrcachettl'] = 'Levetid for mellomlagrede oppslag, i sekunder. Bruk en kort(&lt;15) verdi her.';
 $string['configrecaptchaprivatekey'] = 'Datastreng som brukes for å kommunisere mellom Moodleserveren din og recapthca.net-serveren. Få en for denne nettsiden ved å besøke http://recaptcha.net';
 $string['configrecaptchapublickey'] = 'Datastreng som brukes for å vise reCAPTCHA elementet i påmeldingsskjemaet. Generert av http://recaptcha.net';
+$string['configregenloginsession'] = 'Vi anbefaler sterkt at sesjonsID regenereres ved hver innlogging. Denne innstillingen kan være inkompatibel med andre autentiseringsmoduler.';
 $string['configrequestedstudentname'] = 'Ord brukt for student i forespurte kurs';
 $string['configrequestedstudentsname'] = 'Ord brukt for studenter i forespurte kurs';
 $string['configrequestedteachername'] = 'Ord brukt for lærer i forespurte kurs';
@@ -380,9 +384,11 @@ $string['everyonewhocan'] = 'Alle som kan \'$a\'';
 $string['experimental'] = 'Eksperimentell';
 $string['experimentalsplitrestore'] = 'Eksperimentell: Gjenoppretting med flere backupfiler pr. kurs';
 $string['extendedusernamechars'] = 'Tillat utvidet karaktersett i brukernavn';
+$string['extramemorylimit'] = 'Utvidet minnegrense for PHP';
 $string['filecreated'] = 'Ny fil opprettet';
 $string['filestoredin'] = 'Lagre fil i mappen:';
 $string['filestoredinhelp'] = 'Hvor filen vil bli lagret';
+$string['filteraddthemecssandjs'] = 'Aktiver designets CSS og JS';
 $string['filterall'] = 'Filtrer alle strenger';
 $string['filtermatchoneperpage'] = 'Filtrer ett treff per side';
 $string['filtermatchonepertext'] = 'Filtrer ett treff per tekst';
@@ -529,6 +535,7 @@ $string['multilangupgrade'] = 'Flerspråklig oppgradering';
 $string['multilangupgradeinfo'] = 'The multilang filter syntax was changed in 1.8, &lt;lang&gt; tag is not supported any more. <br /><br />Example: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>Do you want to upgrade the syntax in all existing texts now?</strong>';
 $string['multilangupgradenotice'] = 'Din Moodle ser ut til å bruke en foreldet flerspråklig syntaks, en  <a href=\"multilangupgrade.php\">oppgradering</a>  anbefales.';
 $string['mustenablestats'] = 'Statistikk er ikke aktivisert ennå på denne siten.';
+$string['mycoursesperpage'] = 'Maks antall kurs som skal vises pr.side på brukerens kursoversikt';
 $string['mymoodle'] = 'Min Moodle';
 $string['mymoodleredirect'] = 'Vanlige brukere får \"Min Moodle\" som hovedside';
 $string['mysql416bypassed'] = 'Likevel, dersom Moodle-siten bare bruker iso-8859-1 (latin, KAN du likevel bruke din installerte MySQL 4.1.12 (eller høyere).';
@@ -643,6 +650,7 @@ $string['rcache'] = 'Hurtiglager';
 $string['rcachettl'] = 'Hurtiglager TTL';
 $string['recaptchaprivatekey'] = 'ReCAPTCHA privat nøkkel';
 $string['recaptchapublickey'] = 'ReCAPTCHA offentlig nøkkel';
+$string['regenloginsession'] = 'Regenerer sesjonsID ved innlogging';
 $string['releasenoteslink'] = 'For mer informasjon om denne versjonen av Moodle, sjekk online via  <a target=\"_new\" href=\"$a\">Release Notes</a>';
 $string['remotelangnotavailable'] = 'Moodle får ikke kontakt med download.moodle.org og kan derfor ikke laste ned og installere språkpakker automatisk. Last i stedet ned språkpakkene manuelt og kopier dem til ditt $a katalog og pakk ut der.';
 $string['renameerrors'] = 'Feil ved endring av navn';
@@ -681,6 +689,7 @@ $string['sessionhandling'] = 'Sesjonshåndtering';
 $string['sessiontimeout'] = 'Tiden utløper';
 $string['showblocksonmodpages'] = 'Vis blokker på modul-sider';
 $string['simpletest'] = 'Elementtester';
+$string['simplexmlrequired'] = 'Moodle krever nå PHP-tillegget \"SimpleXML\".';
 $string['sitelangchanged'] = 'Endret nettstedspråk uten feil';
 $string['sitemailcharset'] = 'Karaktersett';
 $string['sitemaintenance'] = 'Nettstedet er midlertidig nede p.g.a vedlikehold';

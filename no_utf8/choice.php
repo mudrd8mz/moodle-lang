@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9 (2007101509)
+      // choice.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
 
 
 $string['addmorechoices'] = 'Legg til flere valg';
@@ -14,6 +14,7 @@ $string['choiceclose'] = 'Til';
 $string['choicefull'] = 'Valget er fullt og det er ingen ledige plasser.';
 $string['choicename'] = 'Overskrift til spørsmålet';
 $string['choiceopen'] = 'Åpne';
+$string['choicesaved'] = 'Valget ditt er lagret';
 $string['choicetext'] = 'Spørsmålsformulering';
 $string['displayhorizontal'] = 'Vis vannrett';
 $string['displaymode'] = 'Visningsmåte';

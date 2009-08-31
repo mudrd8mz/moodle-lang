@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // chat.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
 
 
 $string['autoscroll'] = 'Scroll automatisk';
@@ -51,6 +51,7 @@ $string['nomessages'] = 'Ingen beskjeder ennå';
 $string['normalkeepalive'] = 'Hold i live';
 $string['normalstream'] = 'Strøm';
 $string['noscheduledsession'] = 'Ingen oppsatt sesjon';
+$string['notallowenter'] = 'Du har ikke tillatelse til å delta i denne praten.';
 $string['oldping'] = 'Kobler ut pga tidsavbrudd';
 $string['pastchats'] = 'Tidligere pratesesjoner';
 $string['refreshroom'] = 'Oppfrisk rom';

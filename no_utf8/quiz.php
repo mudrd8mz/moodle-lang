@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // quiz.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
 
 
 $string['1day'] = '1 dag';
@@ -291,6 +291,7 @@ $string['importingquestions'] = 'Importerer $a spørsmål fra filen';
 $string['importmax10error'] = 'Det er en feil i spørsmålet. Du kan ikke ha mer enn ti svar.';
 $string['importmaxerror'] = 'Det er en fei i spørsmålet. Det er for mange svar.';
 $string['importminerror'] = 'Det er en feil i spørsmålet. Det finnes ikke nok svar for denne typen spørsmål.';
+$string['importparseerror'] = 'Feil ved gjennomgang av importfila. Ingen spørsmål ble importert. For å importere de spørsmålene som ikke inneholder feil kan du prøve igjen og sette \"Stopp ved feil\" til \"Nei\".';
 $string['importquestions'] = 'Importer spørsmål fra fil';
 $string['incorrect'] = 'Feil';
 $string['indivresp'] = 'Individuelle svar på hvert spørsmål';
@@ -353,6 +354,7 @@ $string['nocommentsyet'] = 'Ingen kommentarer ennå.';
 $string['noconnection'] = 'Det er for øyeblikket ingen forbindelse til en nett-tjeneste som kan behandle dette spørsmålet. Vennligst kontakt din administrator.';
 $string['nodataset'] = 'ingentingh - ugyldig wild card';
 $string['noessayquestionsfound'] = 'Fant ingen manuelt vurderte spørsmål';
+$string['nogradewarning'] = 'Denne prøven er ikke vurdert, så du kan ikke legge inn generell tilbakemelding som differensieres på resultatene.';
 $string['nomatchinganswer'] = 'Du må oppgi et svar som passer for spørsmålet \'$a\'.';
 $string['nominal'] = 'Nominell';
 $string['nomoreattempts'] = 'Ingen flere forsøk tillatt';
@@ -430,6 +432,7 @@ $string['quiz:grade'] = 'Vurder tester manuelt';
 $string['quiz:ignoretimelimits'] = 'Ignorer tidsgrenser på tester';
 $string['quiz:manage'] = 'Administrere tester';
 $string['quiz:preview'] = 'Forhåndsvis tester';
+$string['quiz:reviewmyattempts'] = 'Vis dine egne forsøk';
 $string['quiz:view'] = 'Vis testinformasjon';
 $string['quiz:viewreports'] = 'Vis testrapporter';
 $string['quizavailable'] = 'Prøven er tilgjengelig til: $a';
@@ -500,6 +503,7 @@ $string['reviewopen'] = 'Senere, så lenge prøven fortsatt er åpen';
 $string['reviewoptions'] = 'Studenter kan bedømme';
 $string['reviewoptionsheading'] = 'Gjennomgå innstillinger';
 $string['reviewresponse'] = 'Gjennomgå tilbakemeldinger';
+$string['reviewresponsetoq'] = 'Vis responsen (spørsmål $a)';
 $string['rqp'] = 'Eksternt spørsmål';
 $string['rqps'] = 'Eksterne spørsmål';
 $string['save'] = 'Lagre';

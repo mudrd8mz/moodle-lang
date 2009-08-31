@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // data.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
 
 
 $string['action'] = 'Handling';
@@ -43,6 +43,7 @@ $string['configenablerssfeeds'] = 'Denne bryteren vil aktivere RSS nyhetsagenter
 $string['confirmdeletefield'] = 'Du er i ferd med å slette dette feltet. Er du helt sikker?';
 $string['confirmdeleterecord'] = 'Er du sikker på at du vil slette denne oppføringen?';
 $string['csstemplate'] = 'CSS-mal';
+$string['csvfailed'] = 'Ikke mulig å lese data fra CSV-fila';
 $string['csvfile'] = 'CSV-fil';
 $string['csvimport'] = 'CSV-import';
 $string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Seperated Values\">CSV</acronym>tekst med valgt skilletegn:';
@@ -105,6 +106,7 @@ $string['fieldheightsingleview'] = 'Høyde i enkeltvisning';
 $string['fieldids'] = 'FeltID-er';
 $string['fieldmappings'] = 'Feltegenskaper';
 $string['fieldname'] = 'Feltnavn';
+$string['fieldnotmatched'] = 'Følgende felt i filen din finnes ikke i denne databasen: $a';
 $string['fieldoptions'] = 'Alternativer (en på hver linje)';
 $string['fields'] = 'Felter';
 $string['fieldupdated'] = 'Feltet er oppdatert';
@@ -131,6 +133,7 @@ $string['importsuccess'] = 'Lagring av forhåndsinnstillingen var vellykket.';
 $string['insufficiententries'] = 'det trengs flere oppføringer for å vise denne databasen';
 $string['intro'] = 'introduksjon';
 $string['invalidfieldname'] = 'Vennligst velg et annet navn for dette feltet';
+$string['invalidrate'] = 'Ugyldig databaserate ($a)';
 $string['invalidurl'] = 'URL-en du skrev inn var ugyldig';
 $string['jstemplate'] = 'Javascript mal';
 $string['latitude'] = 'Lengde';

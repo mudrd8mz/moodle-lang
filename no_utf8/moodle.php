@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.4+ (Build: 20090311) (2007101541)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -601,7 +601,8 @@ $string['files'] = 'Filer';
 $string['filesfolders'] = 'Filer/mapper';
 $string['filloutallfields'] = 'Vennligst fyll ut alle feltene i skjemaet';
 $string['findmorecourses'] = 'Finn flere kurs ...';
-$string['firstdayofweek'] = 'o';
+$string['firstaccess'] = 'Første innlogging';
+$string['firstdayofweek'] = 'O';
 $string['firstname'] = 'Fornavn';
 $string['firsttime'] = 'Er det første gang du er her?';
 $string['folder'] = 'Mappe';
@@ -1149,6 +1150,7 @@ $string['publicdirectory1'] = 'Publiser bare navnet på nettstedet';
 $string['publicdirectory2'] = 'Publiser navnet på nettstedet med lenke til det';
 $string['publicdirectorytitle'] = 'Vis gjeldende liste av siter';
 $string['publicsitefileswarning'] = 'Merk: Filer plassert her vil hvem som helst ha tilgang til';
+$string['publicsitefileswarning2'] = '<strong>MERK:</strong> Filer du plasserer her er fritt tilgjengelig for alle som vet (eller kan gjette) URL-en. Av sikkerhetshensyn anbefales det at alle sikkerhetskopifiler slettes straks de er benyttet.';
 $string['question'] = 'Spørsmål';
 $string['questionsinthequestionbank'] = 'Spørrmål i spørsmålsbanken';
 $string['readinginfofrombackup'] = 'Leser informasjon fra sikkerhetskopi';
@@ -1165,6 +1167,7 @@ $string['registrationcontactno'] = 'Nei, jeg ønsker ikke et kontaktskjema på l
 $string['registrationcontactyes'] = 'Ja, sørg for at potensielle moodlere kan komme i kontakt med meg.';
 $string['registrationemail'] = 'E-postmeldinger';
 $string['registrationinfo'] = '<p>Denne siden lar deg registrere din Moodleside hos moodle.org. Registrering er gratis. Hovedfordelen med dette er at du blir lagt til en e-postliste med lite trafikk med viktige beskjeder som sikkerhetsadvarsler og nye versjoner av Moodle.</p> <p>Standard er at din informasjon holdes privat og vil aldri bli videreformidlet til andre. Den eneste årsaken til at vi samler inn denne informasjonen er for brukerstøtte og å lage et statistisk, helhetlig bilde av bruken av Moodle.<p>Hvis du velger dette kan du la navnet på siden, land og adresse bli lagt til listen over Moodlesider.</p> <p>Alle nyregistreringer bekreftes manuelt før de legges ut på listen, men du kan også endre denne informasjonen (og oppføringen på listen over Moodlesider) senere ved å fylle ut dette skjemaet på nytt.</p>';
+$string['registrationinfotitle'] = 'Registreringsinformasjon';
 $string['registrationno'] = 'Nei, jeg vil ikke motta e-post';
 $string['registrationsend'] = 'Send informasjon til moodle.org';
 $string['registrationyes'] = 'Ja, gi meg beskjed om viktige tema';
@@ -1204,6 +1207,8 @@ $string['restorecancelled'] = 'Gjenoppretting avbrutt';
 $string['restorecoursenow'] = 'Gjennopprett denne siden nå.';
 $string['restorefinished'] = 'Gjenoppretting fullført';
 $string['restoreto'] = 'Gjenopprett til';
+$string['restoretositeadding'] = 'Advarsel: Du er i ferd med å gjenopprette hovedsiden ved å legge til data til den!';
+$string['restoretositedeleting'] = 'Advarsel: Du er i ferd med å gjenopprette/erstatte hovedsiden ved å først slette eksisterende!';
 $string['restricted'] = 'Begrenset';
 $string['restrictmodules'] = 'Sett begrensninger på aktivitetsmodulene?';
 $string['returningtosite'] = 'Registrert bruker?';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.3+ (Build: 20081210) (2007101532.1)
+      // scorm.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
 
 
 $string['activation'] = 'Aktivisering';
@@ -16,7 +16,7 @@ $string['attr_error'] = 'Gal verdi for attribut ($a->attr) i merkelapp $a->tag.'
 $string['autocontinue'] = 'Fortsett automatisk';
 $string['autocontinuedesc'] = 'Denne innstillingen bestemmer om aktiviteten skal fortsette automatisk';
 $string['averageattempt'] = 'Gjennomsnittsforsøk';
-$string['badmanifest'] = 'Noen manifest feil: se feillog';
+$string['badmanifest'] = 'Noen manifest feil: se feillogg';
 $string['badpackage'] = 'Den spesifiserte pakken/manifest er ikke gyldig. Kontroller og prøv igjen';
 $string['browse'] = 'Forhåndsvis';
 $string['browsed'] = 'Lest';
@@ -118,8 +118,8 @@ $string['passed'] = 'Bestått';
 $string['php5'] = 'PHP 5 (DOMXML native library)';
 $string['popup'] = 'Nytt vindu';
 $string['popupblocked'] = 'Hvis ikke et nytt åpner seg klikk $a for å starte aktiviteten';
-$string['popupblockedlinkname'] = 'her';
-$string['popupmenu'] = 'I et oppsprettvindu';
+$string['popupblockedlinkname'] = 'Klikk her for å starte aktiviteten';
+$string['popupmenu'] = 'I en rullegardinmeny';
 $string['popupopen'] = 'Åpne pakken i nytt vindu';
 $string['position_error'] = '$a->tag taggen kan ikke være en undertag av $a->parent taggen';
 $string['prev'] = 'Forrige';
@@ -132,6 +132,7 @@ $string['review'] = 'Se over';
 $string['reviewmode'] = 'Se over modus';
 $string['scoes'] = 'Læringsobjekter';
 $string['score'] = 'Resultat';
+$string['scorm:deleteresponses'] = 'Slett SCORM-forsøk';
 $string['scorm:savetrack'] = 'Lagre spor';
 $string['scorm:skipview'] = 'Hopp over oversikt';
 $string['scorm:viewreport'] = 'Se rapporter';

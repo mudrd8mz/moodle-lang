@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // auth.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -281,6 +281,8 @@ $string['auth_shib_instructions'] = 'Bruk <a href=\"$a\">Shibboleth login</a> fo
 $string['auth_shib_instructions_help'] = 'Her kan du legge din egen instruks for brukere hvordan å bruke Shibboleth. Den vil vises på login siden i instruksdelen. Instruksjonen må inkludere en lenke til \"<b>$a</b>\" som brukere klikker hvis de vil logge inn.';
 $string['auth_shib_integrated_wayf'] = 'Endre WAYF-tjenesten';
 $string['auth_shib_integrated_wayf_description'] = 'Dersom du merker av her, vil Moodle bruke sin egen WAYF-tjeneste i stedet for den som er satt opp for Shibboleth. Moodle vil vise en listemeny på denne alternative login-siden hvor brukeren kan velge sin Identitetstilbyder.';
+$string['auth_shib_logout_return_url'] = 'Alternativ URL ved utlogging';
+$string['auth_shib_logout_return_url_description'] = 'Viser den URL-en Shibboleth-brukere skal sendes til etter utlogging.<br />Dersom tom, vil brukere bli sendt til den siden som er satt som ellers er standard for Moodle.';
 $string['auth_shib_logout_url'] = 'Shibboleth tjenesten-URL ved utlogging';
 $string['auth_shib_logout_url_description'] = 'Tilby URL-en til Shibboleth tjenesten som håndterer utlogging. Dette er vanligvis <tt>/Shibboleth.sso/Logout</tt>';
 $string['auth_shib_no_organizations_warning'] = 'Hvis du vil bruke den integrerte WAYF tjenesten, må du velge en kommaseparert liste av tilbyderes entityIDer, navn og eventuelt en sesjonsinitiator.';

@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // glossary.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
+
+
 $string['addcomment'] = 'Legg til kommentar';
 $string['addentry'] = 'Legg til ny oppføring';
 $string['addingcomment'] = 'Legg til en kommentar';
@@ -17,12 +19,14 @@ $string['areyousuredeletecomment'] = 'Er du sikker på at du vil slette denne ko
 $string['areyousureexport'] = 'Er du sikker på at du vil eksportere denne oppføringen til';
 $string['ascending'] = '(stigende)';
 $string['attachment'] = 'Vedlegg';
+$string['author'] = 'forfatter';
 $string['authorview'] = 'Sorter etter forfatter';
 $string['back'] = 'Tilbake';
 $string['cantinsertcat'] = 'Kan ikke sette inn kategori';
 $string['cantinsertrec'] = 'Kan ikke sette inn oppføring';
 $string['cantinsertrel'] = 'Kan ikke sette inn relatert kategoriinnlegg';
 $string['casesensitive'] = 'Store og små bokstaver må stemme i denne oppføringen';
+$string['cat'] = 'kat';
 $string['categories'] = 'Kategorier';
 $string['category'] = 'Kategori';
 $string['categorydeleted'] = 'Kategori slettet';
@@ -52,8 +56,13 @@ $string['concepts'] = 'Begreper';
 $string['configenablerssfeeds'] = 'Denne bryteren gjør det mulig å lage RSS-matninger av alle ordbøkene. Du vil allikevel måtte slå på slike matninger manuelt i innstillingene for hver enkelt ordbok.';
 $string['current'] = 'Gjeldende sortering $a';
 $string['currentglossary'] = 'Gjeldende ordbok';
+$string['date'] = 'dato';
 $string['dateview'] = 'Sorter etter dato';
 $string['defaultapproval'] = 'Standard godkjenningstatus';
+$string['defaulthook'] = 'Standard hook';
+$string['defaultmode'] = 'Standard modus';
+$string['defaultsortkey'] = 'Standard sorteringsnøkkel';
+$string['defaultsortorder'] = 'Standard sorteringsrekkefølge';
 $string['definition'] = 'Definisjon';
 $string['definitions'] = 'Definisjoner';
 $string['deleteentry'] = 'Slett oppføring';
@@ -130,7 +139,10 @@ $string['importedcategories'] = 'Importerte kategorier';
 $string['importedentries'] = 'Importerte oppføringer';
 $string['importentries'] = 'Importer oppføringer';
 $string['importentriesfromxml'] = 'Importer oppføringer fra XML-fil';
+$string['includegroupbreaks'] = 'Inkluder gruppebrudd';
+$string['invalidrate'] = 'Ugyldig ordbokrate ($a)';
 $string['isglobal'] = 'Skal denne ordboken være tilgjengelig for andre klasser?';
+$string['letter'] = 'letter';
 $string['linkcategory'] = 'Lag lenker til denne kategorien automatisk';
 $string['linking'] = 'Autolenking';
 $string['mainglossary'] = 'Hovedordbok';
@@ -149,6 +161,7 @@ $string['noentry'] = 'Ingen oppføring funnet';
 $string['notcategorised'] = 'Ikke kategorisert';
 $string['numberofentries'] = 'Antall oppføringer';
 $string['onebyline'] = '(en per linje)';
+$string['popupformat'] = 'Popup-format';
 $string['printerfriendly'] = 'Skrivervennlig versjon';
 $string['printviewnotallowed'] = 'Utskriftsvisning er ikke tillatt';
 $string['question'] = 'Spørsmål';
@@ -187,4 +200,5 @@ $string['withauthor'] = 'Konsepter med forfatter';
 $string['withoutauthor'] = 'Konsepter uten forfatter';
 $string['writtenby'] = 'av';
 $string['youarenottheauthor'] = 'Du er ikke forfatteren av denne kommentaren, så du kan ikke redigere den.';
+
 ?>
