@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
 
 
 $string['accessiblefilepicker'] = 'アクセス可能なファイルピッカ';
@@ -17,7 +17,7 @@ $string['areauserpersonal'] = 'パーソナル';
 $string['areauserprofile'] = 'プロファイル';
 $string['attachedfiles'] = '添付ファイル';
 $string['attachment'] = '添付';
-$string['back'] = '&lt; 戻る';
+$string['back'] = '&laquo; 戻る';
 $string['cachecleared'] = 'キャッシュファイルが削除されました。';
 $string['cacheexpire'] = 'キャッシュ有効期限';
 $string['cannotaccessparentwin'] = '親ウィンドウがHTTPSにある場合、私たちは、window.openerへのアクセスを許可されません。そのため、あなたのためにリポジトリを自動的にリフレッシュすることができません。しかし、すでにあなたのセッションが存在するため、ファイルピッカに戻って、再度リポジトリを選択してください。';
@@ -35,6 +35,8 @@ $string['confirmdeletefile'] = '本当にこのファイルを削除してもよ
 $string['confirmremove'] = '本当にこのリポジトリプラグイン、オプションおよび<strong>すべてのインスタンス</strong>を削除してもよろしいですか - $a?';
 $string['copying'] = 'コピー';
 $string['create'] = '作成';
+$string['createfolderfail'] = 'このフォルダの作成に失敗しました。';
+$string['createfoldersuccess'] = 'フォルダを正常に作成しました。';
 $string['createinstance'] = 'リポジトリインスタンスを作成する';
 $string['createrepository'] = 'リポジトリインスタンスを作成する';
 $string['createxxinstance'] = '「 $a 」インスタンスを作成する';
@@ -49,6 +51,7 @@ $string['emptytype'] = 'リポジトリタイプを作成できません: タイ
 $string['enablecourseinstances'] = '教師によるファイルピッカへのリポジトリインスタンス追加を許可する';
 $string['enableuserinstances'] = 'ユーザによるファイルピッカへのリポジトリインスタンス追加を許可する';
 $string['enter'] = 'Enter';
+$string['entername'] = 'ファイル/フォルダ名を入力してください。';
 $string['error'] = '不明なエラーが発生しました!';
 $string['existingrepository'] = 'このリポジトリは、すでに登録されています。';
 $string['federatedsearch'] = '横串検索';
@@ -76,6 +79,7 @@ $string['manageuserrepository'] = 'リポジトリの管理';
 $string['noenter'] = '何も入力されていません。';
 $string['nofilesattached'] = 'ファイルは、添付されていません。';
 $string['nomorefiles'] = 'これ以上、添付は許可されません。';
+$string['nopathselected'] = 'まだ、宛先パスが選択されていません (選択するには、ツリーノードをダブルクリックしてください)。';
 $string['nopermissiontoaccess'] = 'このリポジトリにアクセスするパーミッションがありません。';
 $string['noresult'] = '検索結果なし';
 $string['notyourinstances'] = 'あなたは、他のユーザのリポジトリインスタンスを表示/編集できません。';
@@ -115,6 +119,7 @@ $string['uploading'] = 'アップロード中 ...';
 $string['uploadsucc'] = 'ファイルが正常にアップロードされました。';
 $string['wrongcontext'] = 'あなたは、このコンテクストにアクセスできません。';
 $string['xhtmlerror'] = 'あなたは、恐らくXHTML Strictヘッダを使用していると思われます。いくつかのYUIコンポーネントは、このモードでは動作しません。Moodleでは、XHTML Strictヘッダの使用を控えてください。';
+$string['ziped'] = 'フォルダが正常に圧縮されました。';
 $string['editrepositoryaccount'] = 'リポジトリアカウントを編集する'; // ORPHANED
 
 ?>
