@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090818) (2009080700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
 
 
 $string['activities'] = '活動';
@@ -120,7 +120,7 @@ $string['configshowrank'] = 'それぞれの評定項目にクラス内のユー
 $string['configshowuseridnumber'] = '追加カラムにユーザIDナンバーを表示するかどうか指定してください。';
 $string['configshowuserimage'] = '評定者レポートで名前の隣にプロファイルイメージを表示するかどうか指定してください。';
 $string['configstudentsperpage'] = '評定者レポートの1ページあたりに表示される学生数です。';
-$string['configstudentsperpagedefault'] = '評定者レポーの1ページあたりに表示される学生数です。サイトデフォルト (現在 $a) を使用する場合、このフィールドを空白のままにしてください。';
+$string['configstudentsperpagedefault'] = '評定者レポートの1ページあたりに表示される学生数です。サイトデフォルト (現在 $a) を使用する場合、このフィールドを空白のままにしてください。';
 $string['configunlimitedgrades'] = 'デフォルトでは、評定項目の最大値および最小値により、評点は制限されています。この設定を有効にすることで、この制限を取り除き、100%%以上の評点を評定表に直接入力できるようにします。すべての評点が再計算され、サーバに高負荷がかかる場合がありますので、この設定は混雑していない時間帯に有効にしてください。';
 $string['contract'] = 'カテゴリの縮小';
 $string['controls'] = 'コントロール';
