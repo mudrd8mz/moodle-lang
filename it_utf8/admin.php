@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090903) (2009082800)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -266,6 +266,7 @@ $string['configrcache'] = 'Utilizzo della cache per memorizzare i record del dat
 $string['configrcachettl'] = 'Time-To-Live (tempo di permanenza) dei record in cache. Si consiglia di usare un valore basso (<15).';
 $string['configrecaptchaprivatekey'] = 'Stringa di caratteri usata per comunicare tra il proprio server Moodle e il server recaptcha.net. E\' possibile richiedere una chiave visitando il sito http://recaptcha.net';
 $string['configrecaptchapublickey'] = 'Stringa di caratteri usata per visualizzare l\'immagine reCAPTCHA nella pagina di creazione account. L\'immagine è generata dal sito http://recaptcha.net';
+$string['configregenloginsession'] = 'Si consiglia fortemente di rigenerare la id di sessione ad ogni login. L\'impostazione potrebbe però non essere compatibile con alcuni plugin di autenticazione.';
 $string['configrequestedstudentname'] = 'Termine per \'studente\' da utilizzare nel corsi richiesti';
 $string['configrequestedstudentsname'] = 'Termine per \'studenti\' da utilizzare nel corsi richiesti';
 $string['configrequestedteachername'] = 'Termine per \'docente\' da utilizzare nel corsi richiesti';
@@ -642,6 +643,8 @@ $string['mymoodle'] = 'My Moodle';
 $string['mymoodleredirect'] = 'Obbliga gli utenti a usare My Moodle';
 $string['mysql416bypassed'] = 'Comunque, se il vostro sito sta utilizzando SOLO lingue iso-8859-1 (latin), potete continuare ad utilizzare MySQL 4.1.12 (o successivo) attualmente installato.';
 $string['mysql416required'] = 'MySQL 4.1.16 è la versione minima richiesta per Moodle 1.6 per garantire che tutti i dati possano essere convertiti in UTF-8 in futuro.';
+$string['navigationupgrade'] = 'Questo aggiornamento introduce due nuovi blocchi per la navigazione che andranno a sostituire i seguenti blocchi: Amministrazione, Corsi, Attività e Partecipanti. Se avete configurato questi blocchi con privilegi particolar, dovreste verificare che tutto funzioni come atteso.<br /><br />
+Sarà anche necessario effettuare \"Shift-Refresh\" nel browser per caricare i nuovi stili, senza i quali i blocchi per la navigazione non potranno funzionare correttamente.';
 $string['nobookmarksforuser'] = 'Non hai alcun segnalibro';
 $string['nochanges'] = 'Nessuna modifica';
 $string['nodatabase'] = 'Nessun database';
@@ -762,6 +765,7 @@ $string['rcache'] = 'Cache dei record';
 $string['rcachettl'] = 'TTL della cache dei record';
 $string['recaptchaprivatekey'] = 'Chiave privata reCAPTCHA';
 $string['recaptchapublickey'] = 'Chiave pubblica reCAPTCHA';
+$string['regenloginsession'] = 'Rigenera la id di sessione ad ogni login';
 $string['registration'] = 'Registrazione';
 $string['releasenoteslink'] = 'Per informazioni su questa versione di Moodle, si prega di consultare le <a target=\"_new\" href=\"$a\">Note di rilascio</a> in linea';
 $string['remotelangnotavailable'] = 'Non è possibile installare automaticamente i language pack perché Moodle non riesce a connettersi a download.moodle.org. Si prega di scaricare i file compressi appropriati dalla lista qui sotto, copiarli nella vostra cartella $a e scompattarli manualmente.';

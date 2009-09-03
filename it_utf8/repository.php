@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090729) (2009072700)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090903) (2009082800)
 
 
 $string['accessiblefilepicker'] = 'Selettore file accessibile';
@@ -35,6 +35,8 @@ $string['confirmdeletefile'] = 'Sei sicuro di voler eliminare questo file?';
 $string['confirmremove'] = 'Sei sicuro di voler eliminare questo repository plugin, le sue opzioni e <strong style=color:red>tutte le sue istanze</strong> - $a?';
 $string['copying'] = 'Copia in corso';
 $string['create'] = 'Crea';
+$string['createfolderfail'] = 'Si è verificato un errore durante la creazione della cartella';
+$string['createfoldersuccess'] = 'La cartella è stata creata correttamente';
 $string['createinstance'] = 'Crea una istanza di repository';
 $string['createrepository'] = 'Crea una istanza di repository';
 $string['createxxinstance'] = 'Crea istanza \"$a\"';
@@ -49,6 +51,7 @@ $string['emptytype'] = 'Non è possibile creare il tipo di repository: il nome �
 $string['enablecourseinstances'] = 'Abilita repository di corso';
 $string['enableuserinstances'] = 'Abilita repository dell\'utente';
 $string['enter'] = 'Entra';
+$string['entername'] = 'Inserite il nome del file o della cartella';
 $string['error'] = 'Si è verificato un errore sconosciuto!';
 $string['existingrepository'] = 'Questo repository esiste già';
 $string['federatedsearch'] = 'Ricerca federata';
@@ -76,6 +79,7 @@ $string['manageuserrepository'] = 'Gestisci repository individuali';
 $string['noenter'] = 'Non è stato inserito niente';
 $string['nofilesattached'] = 'Non ci sono allegati';
 $string['nomorefiles'] = 'Non sono consentiti altri allegati';
+$string['nopathselected'] = 'Il percorso di destinazione non è stato specificato. (Doppio click sul nodo dell\'alberatura per selezionarlo)';
 $string['nopermissiontoaccess'] = 'Non ci sono privilegi d\'accesso al repository';
 $string['noresult'] = 'Nessun risultato dalla ricerca';
 $string['notyourinstances'] = 'Non puoi visualizzare o modificare i repository di un altro utente';
@@ -115,5 +119,6 @@ $string['uploading'] = 'Caricamento in corso...';
 $string['uploadsucc'] = 'Il file è stato caricato correttamente';
 $string['wrongcontext'] = 'Non puoi accedere a questo contesto';
 $string['xhtmlerror'] = 'Probabilmente state usando header XHTML strict, con le quali alcune componenti YUI non funzionano correttamente. Per favore disabilitate le componenti YUI in Moodle.';
+$string['ziped'] = 'La cartella è stata compressa correttamente';
 
 ?>

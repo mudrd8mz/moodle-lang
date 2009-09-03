@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090903) (2009082800)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -43,7 +43,7 @@ $string['deployall'] = 'Pubblica tutto';
 $string['directlink'] = 'Collegamento diretto a questo file';
 $string['directoryinfo'] = 'Saranno mostrati tutti i file e le cartelle contenuti nella cartella che avete scelto.';
 $string['display'] = 'Finestra';
-$string['displayauto'] = 'Automatico';
+$string['displayauto'] = 'Automatica';
 $string['displaydownload'] = 'Forza download';
 $string['displayembed'] = 'Embed';
 $string['displayframe'] = 'Frame';
