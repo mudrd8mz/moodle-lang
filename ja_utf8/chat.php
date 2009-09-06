@@ -1,11 +1,10 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // chat.php - created with Moodle 2.0 dev (Build: 20090904) (2009090400)
 
 
 $string['ajax'] = 'Ajaxバージョン';
 $string['autoscroll'] = 'オートスクロール';
 $string['beep'] = 'ビープ';
-$string['cantinsert'] = 'チャットメッセージを追加できませんでした!';
 $string['cantlogin'] = 'チャットルームに入室できませんでした!';
 $string['chat:chat'] = 'チャットルームにアクセスする';
 $string['chat:deletelog'] = 'チャットログを削除する';
@@ -70,7 +69,7 @@ $string['repeatdaily'] = '毎日同じ時間に';
 $string['repeatnone'] = '繰り返しなし - 指定した時間にのみ公開する';
 $string['repeattimes'] = 'セッションの繰り返し';
 $string['repeatweekly'] = '毎週同じ時間に';
-$string['saidto'] = '<b>&gt;</b>';
+$string['saidto'] = '&gt;';
 $string['savemessages'] = 'セッションの保存期間';
 $string['seesession'] = 'このセッションを見る';
 $string['send'] = '送信';
@@ -82,9 +81,11 @@ $string['serverport'] = 'サーバポート';
 $string['sessions'] = 'チャットセッション';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'すべての人が過去のセッションを見ることができる';
+$string['talk'] = '会話';
 $string['updatemethod'] = '更新方法';
 $string['updaterate'] = '更新レート:';
 $string['userlist'] = 'ユーザリスト';
 $string['viewreport'] = '過去のチャットセッションを表示する';
+$string['cantinsert'] = 'チャットメッセージを追加できませんでした!'; // ORPHANED
 
 ?>
