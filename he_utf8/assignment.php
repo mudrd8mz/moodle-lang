@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // assignment.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
 
 
 $string['allowdeleting'] = 'אפשר מחיקה';
@@ -112,7 +112,7 @@ $string['submitedformarking'] = 'המטלה כבר הוגשה להערכה ול�
 $string['submitformarking'] = 'הגשה סופית לבדיקת המטלה';
 $string['submitted'] = 'הוגש';
 $string['submittedfiles'] = 'קבצים שהוגשו';
-$string['trackdrafts'] = 'אפשר שליחה לצורך ציון';
+$string['trackdrafts'] = 'אפשר שליחה לצורך סימון';
 $string['typeoffline'] = 'פעילות לא מקוונת';
 $string['typeonline'] = 'כתיבת טקסט מקוון';
 $string['typeupload'] = 'הגשת מספר קבצים';
