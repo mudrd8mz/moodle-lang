@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // choice.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
 
 
 $string['addmorechoices'] = 'הוסף אפשרויות נוספות';
 $string['allowupdate'] = 'אפשר לעדכן את הבחירה';
 $string['answered'] = 'נענה';
-$string['choice'] = 'שאלת סקר $a';
+$string['choice'] = 'בחירה $a';
 $string['choice:choose'] = 'שמור בחירה';
 $string['choice:deleteresponses'] = 'מחק את התגובות';
 $string['choice:downloadresponses'] = 'הורד את התגובות';
