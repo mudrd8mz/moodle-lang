@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20090904) (2009082800)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -78,11 +78,13 @@ $string['itemstocount'] = 'カウント';
 $string['late'] = '$a 遅く提出';
 $string['maximumgrade'] = '最大評価';
 $string['maximumsize'] = '最大サイズ';
+$string['maxpublishstate'] = '終了日時前のブログエントリに関する最大可視性';
 $string['modulename'] = '課題';
 $string['modulenameplural'] = '課題';
 $string['newsubmissions'] = '課題が提出されました';
 $string['noassignments'] = '課題はまだありません。';
 $string['noattempts'] = 'この課題はまだ提出されていません。';
+$string['noblogs'] = 'あなたは、ブログエントリを投稿していません!';
 $string['nofiles'] = 'ファイルが提出されていません。';
 $string['nofilesyet'] = 'ファイルはまだ提出されていません。';
 $string['nomoresubmissions'] = 'これ以上の課題提出は許可されていません。';
@@ -101,6 +103,7 @@ $string['quickgrade'] = 'クイック評定を有効にする';
 $string['responsefiles'] = 'レスポンスファイル';
 $string['reviewed'] = 'レビュー済み';
 $string['saveallfeedback'] = 'すべてのフィードバックを保存する';
+$string['selectblog'] = 'あなたが提出したいブログエントリを選択する';
 $string['sendformarking'] = '採点のために送信する';
 $string['showrecentsubmissions'] = '最近の課題提出を表示する';
 $string['submission'] = '提出課題';
@@ -109,12 +112,13 @@ $string['submissionfeedback'] = '提出課題へのフィードバック';
 $string['submissions'] = '提出課題';
 $string['submissionsaved'] = '変更内容が保存されました。';
 $string['submissionsnotgraded'] = '$a 件の提出課題が評定されていません。';
-$string['submitassignment'] = 'このフォームを使用して課題を提出する';
+$string['submitassignment'] = 'このフォームを使用して、あなたの課題を提出する';
 $string['submitedformarking'] = 'すでに課題は採点のために提出されています。更新することはできません。';
 $string['submitformarking'] = '課題採点のために最後の提出を送信する';
 $string['submitted'] = '提出';
 $string['submittedfiles'] = '提出ファイル';
 $string['trackdrafts'] = '「採点のために送信する」ボタンを有効にする';
+$string['typeblog'] = 'ブログ投稿';
 $string['typeoffline'] = 'オフライン活動';
 $string['typeonline'] = 'オンラインテキスト';
 $string['typeupload'] = 'ファイルの高度なアップロード';

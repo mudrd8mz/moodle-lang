@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // error.php - created with Moodle 2.0 dev (Build: 20090904) (2009090400)
 
 
 $string['TODO'] = 'TODO';
@@ -45,6 +45,7 @@ $string['cannotdeletecategoryquestions'] = 'カテゴリ「 $a 」から問題�
 $string['cannotdeletecourse'] = 'あなたには、このコースを削除するパーミッションがありません。';
 $string['cannotdeletecustomfield'] = 'カスタムフィールドデータの削除中にエラーが発生しました。';
 $string['cannotdeletedir'] = '$a を削除できませんでした。';
+$string['cannotdeletefile'] = 'このファイルを削除できませんでした。';
 $string['cannotdeletelangcache'] = '言語キャッシュを削除できません。dataroot/cache/languagesのパーミッションを修正してください!';
 $string['cannotdeleterole'] = '次の理由で削除できません: $a';
 $string['cannotdeleterolewithid'] = 'ID $a のロールを削除できませんでした。';
