@@ -6,6 +6,7 @@ $string['configplugin'] = 'WebDav-en ezarpenak';
 $string['http'] = 'HTTP';
 $string['https'] = 'HTTPS';
 $string['repositoryname'] = 'WebDAV biltegia';
+$string['webdav:view'] = 'WebDAV biltegia ikusi';
 $string['webdav_password'] = 'WebDAV zerbitzariaren pasahitza';
 $string['webdav_port'] = 'WebDAV zerbitzariaren portua';
 $string['webdav_server'] = 'WebDAV zerbitzaria';
