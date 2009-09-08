@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090908) (2009090400)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -352,7 +352,7 @@ $string['create'] = 'Crea';
 $string['createaccount'] = 'Crea il mio nuovo account';
 $string['createcategory'] = 'Crea una categoria';
 $string['createfolder'] = 'Crea una cartella dentro $a';
-$string['createuserandpass'] = 'Scegli il tuo username e password';
+$string['createuserandpass'] = 'Scegli username e password';
 $string['createziparchive'] = 'Crea un archivio compresso';
 $string['creatingblocks'] = 'Creazione blocchi';
 $string['creatingblocksroles'] = 'Creazione attribuzioni di ruolo a livello di blocco e relative modifiche';
@@ -457,6 +457,8 @@ $string['documentation'] = 'Documentazione';
 $string['donotask'] = 'Non chiedere';
 $string['donotclickcontinue'] = 'Per continuare, non fate click sul link seguente ;-)';
 $string['down'] = 'In basso';
+$string['download'] = 'Download';
+$string['downloadall'] = 'Download di tutto';
 $string['downloadexcel'] = 'Download in formato Excel';
 $string['downloadfile'] = 'Download file';
 $string['downloadods'] = 'Download in formato ODS';
@@ -659,7 +661,7 @@ $string['file'] = 'File';
 $string['filemissing'] = '$a è mancante';
 $string['files'] = 'File';
 $string['filesfolders'] = 'File/Cartelle';
-$string['filloutallfields'] = 'Compilare tutti i campi di questo form';
+$string['filloutallfields'] = 'Compila tutti i campi di questo form';
 $string['filter'] = 'Filtro';
 $string['findmorecourses'] = 'Trova altri corsi...';
 $string['firstaccess'] = 'Primo accesso';
@@ -1218,10 +1220,10 @@ $string['plugincheck'] = 'Controllo delle plugin';
 $string['pluginchecknotice'] = 'Le tabelle che seguono mostrano i moduli, i blocchi ed i filtri individuati nella vostra installazione di Moodle.
 Nelle tabelle sono indicati anche quali plugin sono standard e quali non lo sono. Prima di proseguire con l\'aggiornamento di Moodle, tutti i plugin che non sono standard dovrebbero essere controllati ed aggiornati alla più recente versione disponibile.';
 $string['pluginsetup'] = 'Impostazione tabelle plugin';
-$string['policyaccept'] = 'Ho capito e sono d\'accordo';
+$string['policyaccept'] = 'Ho letto le condizioni e le accetto';
 $string['policyagree'] = 'Per continuare ad usare questo sito, è necessario accettare le condizioni riportate.';
 $string['policyagreement'] = 'Condizioni di utilizzo del sito';
-$string['policyagreementclick'] = 'Fate click qui per leggere le condizioni di utilizzo del sito';
+$string['policyagreementclick'] = 'Leggi le condizioni di utilizzo del sito';
 $string['popup'] = 'popup';
 $string['popupwindow'] = 'Apri file in una nuova finestra';
 $string['popupwindowname'] = 'Finestra popup';
@@ -1520,7 +1522,7 @@ $string['submit'] = 'Invia';
 $string['success'] = 'Operazione eseguita con successo';
 $string['summary'] = 'Introduzione';
 $string['summaryof'] = 'Riassunto di $a';
-$string['supplyinfo'] = 'Compilare con le tue informazioni';
+$string['supplyinfo'] = 'Inserisci li tuoi dati';
 $string['switchrolereturn'] = 'Ritorna al mio ruolo normale';
 $string['switchroleto'] = 'Cambia ruolo in ...';
 $string['tag'] = 'Tag';
@@ -1636,7 +1638,6 @@ $string['usernamenotfound'] = 'Lo username non è stato trovato nella base dati'
 $string['usernameoremail'] = 'Inserisci username o indirizzo email';
 $string['usernotconfirmed'] = 'Non è possibile confermare $a';
 $string['userpic'] = 'Immagine utente';
-$string['userprofilefor'] = 'Profilo utente di $a';
 $string['users'] = 'Utenti';
 $string['userselectorautoselectunique'] = 'Se la ricerca trova un solo utente, selezionalo automaticamente';
 $string['userselectorpreserveselected'] = 'Mantieni gli utenti selezionati, anche se non soddisfano più i criteri di ricerca';
@@ -1652,7 +1653,7 @@ $string['valuealreadyused'] = 'Questo valore è stato già utilizzato';
 $string['version'] = 'Versione';
 $string['view'] = 'Visualizza';
 $string['viewfileinpopup'] = 'Visualizza il file in un finestra popup';
-$string['viewmyprofile'] = 'Visualizza';
+$string['viewprofile'] = 'Visualizza profilo';
 $string['views'] = 'Letture';
 $string['viewsolution'] = 'visualizza soluzione';
 $string['virusfound'] = 'Amministratore attenzione! Clam AV ha individuato un virus in un file caricato da $a->user nel corso $a->course. Di seguito l\'output di clamscan:';
@@ -1732,5 +1733,7 @@ $string['yourself'] = 'te stesso';
 $string['yourteacher'] = 'il tuo $a';
 $string['yourwordforx'] = 'Denomina il ruolo \'$a\' come';
 $string['zippingbackup'] = 'Compressione Backup';
+$string['userprofilefor'] = 'Profilo utente di $a'; // ORPHANED
+$string['viewmyprofile'] = 'Visualizza'; // ORPHANED
 
 ?>

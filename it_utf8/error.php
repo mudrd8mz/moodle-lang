@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // error.php - created with Moodle 2.0 dev (Build: 20090908) (2009090400)
 
 
 $string['TODO'] = 'TODO';
@@ -45,6 +45,7 @@ $string['cannotdeletecategoryquestions'] = 'Non è stato possibile eliminare le 
 $string['cannotdeletecourse'] = 'Non avete il privilegio per eliminare questo corso';
 $string['cannotdeletecustomfield'] = 'Si è verificato un errore durante l\'eliminazione dei campi personalizzati';
 $string['cannotdeletedir'] = 'Non è possibile eliminare ($a)';
+$string['cannotdeletefile'] = 'Non è possibile eliminare il file';
 $string['cannotdeletelangcache'] = 'Non è possibile eliminare la cache delle lingue, per favore sistemate i permessi in in dataroot/cache/languages!';
 $string['cannotdeleterole'] = 'Non può essere eliminato.Il motivo è $a';
 $string['cannotdeleterolewithid'] = 'Non è stato possibile eliminare il ruolo con ID $a';
