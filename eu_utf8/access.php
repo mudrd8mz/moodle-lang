@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // access.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['access'] = 'Eskuragarritasuna';
@@ -18,10 +18,11 @@ $string['monthprev'] = 'Aurreko hilabetea';
 $string['showblocka'] = '$a blokea erakutsi';
 $string['sitemap'] = 'Gunearen mapa';
 $string['skipa'] = '$a jauzi';
-$string['skipblock'] = 'Blokea jauzi';
-$string['skipnavigation'] = 'Nabigazioa jauzi';
+$string['skipblock'] = 'Blokea jauzi egin';
+$string['skipnavigation'] = 'Nabigazioa jauzi egin';
+$string['skipto'] = 'Jauzi egin hona: $a';
 $string['tabledata'] = 'Datu-taula, $a';
-$string['tablelayout'] = 'Eskema-taula, $a';
+$string['tablelayout'] = 'Diseinu-taula, $a';
 $string['tocontent'] = 'Lehenetsitako edukira joan';
 $string['tonavigation'] = 'Nabigaziora joan';
 $string['youarehere'] = 'Hemen zaude';
