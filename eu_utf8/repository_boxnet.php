@@ -1,8 +1,9 @@
 <?PHP // $Id$ 
-      // repository_boxnet.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // repository_boxnet.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['apikey'] = 'API giltza';
+$string['boxnet:view'] = 'Box.net biltegia ikusi';
 $string['configplugin'] = 'Box.net-en ezarpenak';
 $string['information'] = '<div style=\"font-size:0.8em\">Lortu <a href=\"http://enabled.box.net/\">Box.net-erako API giltza</a> zure Moodle gunerako. </div>';
 $string['invalidpassword'] = 'Pasahitzak ez du balio';

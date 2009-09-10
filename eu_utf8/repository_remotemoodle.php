@@ -11,6 +11,7 @@ $string['nopeer'] = 'Mesedez ezarri <a href=\"http://docs.moodle.org/en/admin/mn
 $string['notitle'] = 'Izenbururik gabe';
 $string['peer'] = 'Berdina';
 $string['remember'] = 'Gogoratu';
+$string['remotemoodle:view'] = 'Urrutiko Moodle biltegia ikusi';
 $string['remoterep_description'] = 'Gaitu zerbitzua agerian jartzeko <br><br>';
 $string['remoterep_name'] = 'Urrutiko Moodle biltegia';
 $string['repositorydesc'] = 'Urrutiko Moodle zerbitzariko biltegia';
