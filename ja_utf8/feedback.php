@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['add_item'] = '質問を追加する';
@@ -76,6 +76,7 @@ $string['feedback:viewreports'] = 'レポートを表示する';
 $string['feedback_is_not_for_anonymous'] = '匿名ユーザは、フィードバックを利用できません。';
 $string['feedback_is_not_open'] = 'フィードバックは利用できません。';
 $string['feedback_options'] = 'フィードバックオプション';
+$string['feedbackadministration'] = 'フィードバック管理';
 $string['feedbackclose'] = 'フィードバック終了日時';
 $string['feedbackcloses'] = 'フィードバック終了日時';
 $string['feedbackopen'] = 'フィードバック開始日時';
@@ -90,10 +91,10 @@ $string['importfromthisfile'] = 'このファイルからインポートする';
 $string['info'] = '情報';
 $string['infotype'] = '情報タイプ';
 $string['insufficient_responses_for_this_group'] = 'このグループに対して不十分な回答があります。';
+$string['item_label'] = 'ラベル';
 $string['item_name'] = '質問';
 $string['items_are_required'] = 'アスタリスクが付けられた質問は必須回答です。';
 $string['label'] = 'ラベル';
-$string['line_labels'] = 'ラベル';
 $string['line_values'] = '評定';
 $string['mapcourse'] = 'コースにマップする';
 $string['mapcourseinfo'] = 'このフィードバックは、フィードバックブロックを使用してサイト全体で利用可能です。フィードバックをコースにマップすることにより、このフィードバックを利用できるコースを制限することができます。コースを検索して、このフィードバックをマップしてください。';
@@ -118,6 +119,7 @@ $string['name'] = '名称';
 $string['name_required'] = '名称を入力してください。';
 $string['next_page'] = '次のページ';
 $string['no_handler'] = 'アクションハンドラがありません:';
+$string['no_itemlabel'] = 'ラベルなし';
 $string['no_itemname'] = '無題';
 $string['no_items_available_yet'] = '質問はまだ設定されていません。';
 $string['no_templates_available_yet'] = 'テンプレートはまだ利用できません。';
@@ -196,6 +198,7 @@ $string['use_one_line_for_each_value'] = '<br />1行に1つの回答を入力し
 $string['use_this_template'] = 'このテンプレートを使用する';
 $string['using_templates'] = 'テンプレートの使用';
 $string['vertical'] = '垂直';
+$string['line_labels'] = 'ラベル'; // ORPHANED
 $string['cannotcreatecompletedfeedback'] = '完了済みフィードバックを作成できません。'; // ORPHANED
 $string['cannotcreatetmpfeedback'] = '一時的なフィードバックを作成できません。'; // ORPHANED
 $string['publish_stats_on_students'] = '学生に分析を表示する'; // ORPHANED

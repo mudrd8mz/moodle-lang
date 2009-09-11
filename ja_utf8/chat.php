@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20090904) (2009090400)
+      // chat.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['ajax'] = 'Ajaxバージョン';
@@ -12,6 +12,7 @@ $string['chat:exportparticipatedsession'] = '参加チャットセッション�
 $string['chat:exportsession'] = 'チャットセッションをエクスポートする';
 $string['chat:readlog'] = 'チャットログを表示する';
 $string['chat:talk'] = 'チャットで会話する';
+$string['chatadministration'] = 'チャット管理';
 $string['chatintro'] = 'イントロダクションテキスト';
 $string['chatname'] = 'チャットルーム名';
 $string['chatreport'] = 'チャットセッション';

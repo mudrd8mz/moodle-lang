@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090904) (2009090400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1639,7 +1639,6 @@ $string['usernamenotfound'] = 'ユーザ名がデータベース内に見つか�
 $string['usernameoremail'] = 'ユーザ名またはメールアドレスを入力してください。';
 $string['usernotconfirmed'] = '$a を確認できませんでした。';
 $string['userpic'] = 'ユーザ画像';
-$string['userprofilefor'] = '$a のプロファイル';
 $string['users'] = 'ユーザ';
 $string['userselectorautoselectunique'] = '検索の該当ユーザが1名のみの場合、自動的にユーザを選択する';
 $string['userselectorpreserveselected'] = 'もはや検索に合致しない場合でも、選択したユーザを保持する';
@@ -1655,7 +1654,7 @@ $string['valuealreadyused'] = 'この設定値は、すでに使用されてい�
 $string['version'] = 'バージョン';
 $string['view'] = '表示';
 $string['viewfileinpopup'] = 'ポップアップウィンドウにファイルを表示する';
-$string['viewmyprofile'] = 'マイプロファイルを表示する';
+$string['viewprofile'] = 'プロファイルを表示する';
 $string['views'] = '表示';
 $string['viewsolution'] = '解決方法の表示';
 $string['virusfound'] = '管理者の方! Clam AVが、 $a->user によって course $a->course へアップロードされたファイルにウイルスを発見しました。clamscanの出力結果は次のとおりです:';
@@ -1735,6 +1734,8 @@ $string['yourself'] = 'あなた自身';
 $string['yourteacher'] = 'あなたの $a';
 $string['yourwordforx'] = '「$a 」に対するあなたの呼称';
 $string['zippingbackup'] = 'バックアップファイルの圧縮中';
+$string['userprofilefor'] = '$a のプロファイル'; // ORPHANED
+$string['viewmyprofile'] = 'マイプロファイルを表示する'; // ORPHANED
 $string['courserequestdisabled'] = '申し訳ございません、リクエストされたコースは管理者によって無効にされました。'; // ORPHANED
 $string['remotemaharauser'] = 'リモートMaharaユーザ'; // ORPHANED
 $string['nostatstodisplay'] = '申し訳ございません、表示するデータがありません。'; // ORPHANED

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20090818) (2009080700)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['addresource'] = 'リソースを追加する';
@@ -160,6 +160,7 @@ $string['resourcetyperepository'] = 'リポジトリオブジェクトにリン�
 $string['resourcetypetext'] = 'テキストページを作成する';
 $string['searchweb'] = 'ウェブページを検索する';
 $string['serverurl'] = 'サーバURI ($a->wwwroot)';
+$string['setmainfile'] = 'メインファイルを設定する';
 $string['showcourseblocks'] = 'コースブロックを表示する';
 $string['skipsubmenus'] = 'サブメニューページをスキップする';
 $string['tableofcontents'] = '目次';

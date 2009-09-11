@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090904) (2009090400)
+      // error.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['TODO'] = 'TODO';
@@ -474,6 +474,7 @@ $string['wrongcontextid'] = 'コンテクストIDが正しくありません (�
 $string['wrongdestpath'] = '宛先パスが正しくありません。';
 $string['wrongroleid'] = 'ロールIDが正しくありません!';
 $string['wrongsourcebase'] = 'ソースURIベースが正しくありません。';
+$string['wrongusernamepassword'] = 'ユーザID/パスワードが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['wscouldnotaddgroupmembernopermission'] = 'WS - グループメンバーを追加できませんでした - パーミッションがありません。';
 $string['wscouldnotcreateecoursenopermission'] = 'WS - コースを作成できませんでした - パーミッションがありません。';
@@ -489,6 +490,8 @@ $string['wscouldnotupdatenoexistinguser'] = 'WS - ユーザを更新できませ
 $string['wscouldnotupdateuserindb'] = 'WS - ユーザを更新できませんでした。';
 $string['wscouldnotupdateusernopermission'] = 'WS - ユーザを更新できませんでした - パーミッションがありません。';
 $string['wscouldnotvieweusernopermission'] = 'WS - ユーザを閲覧できませんでした - パーミッションがありません。';
+$string['wsdescriptionserviceisempty'] = 'ウェブサービス検索処理中にエラーが発生しました: 「 <b>$a->classname</b> 」クラスの「<b>$a->functionname()</b>」関数が、記述内容に「サービス」を指定していません。';
+$string['wsdoesntextendbaseclass'] = 'ウェブサービス検索処理中にエラーが発生しました: 「 <b>$a</b> 」クラスが、moodle_externalクラスから拡張されていません。';
 $string['wwwrootmismatch'] = '申し訳ございません、不正なアクセスが検知されたため、「 $a 」アドレスからのみサーバにアクセスできます。<br />サーバ管理者にご連絡くください。';
 $string['wwwrootslash'] = 'config.phpに正しくない \$CFG->wwwroot が検知されました。\$CFG->wwwrootでは、末尾にスラッシュを付ける必要があります。<br />サーバ管理者にご連絡くください。';
 $string['xmldberror'] = 'XMLDBエラー!';

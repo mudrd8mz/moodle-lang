@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20090904) (2009082800)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -12,6 +12,7 @@ $string['assignment:exportsubmission'] = '提出課題をエクスポートす�
 $string['assignment:grade'] = '課題を評定する';
 $string['assignment:submit'] = '課題を提出する';
 $string['assignment:view'] = '課題を表示する';
+$string['assignmentadministration'] = '課題管理';
 $string['assignmentdetails'] = '課題の詳細';
 $string['assignmentmail'] = '$a->teacher があなたの提出課題「 $a->assignment 」に関するフィードバックを作成しました。
 
@@ -135,6 +136,7 @@ $string['uploadnotregistered'] = '「 $a 」は正常にアップロードされ
 $string['uploadsuccess'] = '「 $a 」のアップロードが正常に完了しました。';
 $string['usermisconf'] = 'ユーザの設定が正しくありません。';
 $string['viewfeedback'] = '提出課題の評価とフィードバックを確認する';
+$string['viewmysubmission'] = '私の提出課題を確認する';
 $string['viewsubmissions'] = '$a 件の提出課題を確認する';
 $string['yoursubmission'] = 'あなたの提出課題';
 $string['cannotinsertempty'] = '空の提出課題を送信できませんでした。'; // ORPHANED

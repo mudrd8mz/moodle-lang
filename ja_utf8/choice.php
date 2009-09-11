@@ -1,17 +1,16 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // choice.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['addmorechoices'] = '選択肢の追加';
 $string['allowupdate'] = '投票内容の更新を許可する';
 $string['answered'] = '投票済み';
-$string['cannotsavechoice'] = 'あなたの投票を保存できませんでした。';
-$string['cannotupdatechoice'] = 'データベースにエラーが発生したため、あなたの投票を更新できませんでした。';
 $string['choice'] = '選択肢';
 $string['choice:choose'] = '投票を記録する';
 $string['choice:deleteresponses'] = '投票結果を削除する';
 $string['choice:downloadresponses'] = '投票結果をダウンロードする';
 $string['choice:readresponses'] = '投票結果を表示する';
+$string['choiceadministration'] = '投票管理';
 $string['choiceclose'] = '終了日時';
 $string['choicefull'] = 'この投票は投票可能数の上限に達しているため、投票できません。';
 $string['choicename'] = '投票名';
@@ -55,5 +54,7 @@ $string['taken'] = '投票済み';
 $string['timerestrict'] = '投票期間を制限する';
 $string['viewallresponses'] = '$a 件の投票結果を表示する';
 $string['yourselection'] = 'あなたの投票';
+$string['cannotsavechoice'] = 'あなたの投票を保存できませんでした。'; // ORPHANED
+$string['cannotupdatechoice'] = 'データベースにエラーが発生したため、あなたの投票を更新できませんでした。'; // ORPHANED
 
 ?>
