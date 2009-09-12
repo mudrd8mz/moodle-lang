@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090912) (2009090803)
 
 
 $string['addcomment'] = 'コメントの追加';
@@ -135,6 +135,7 @@ $string['glossary:rate'] = 'エントリを評価する';
 $string['glossary:view'] = '用語集を表示する';
 $string['glossary:viewrating'] = '評価を表示する';
 $string['glossary:write'] = '新しいエントリを作成する';
+$string['glossaryadministration'] = '用語集管理';
 $string['glossaryleveldefaultsettings'] = '用語集レベルのデフォルト設定';
 $string['glossarytype'] = '用語集タイプ';
 $string['guestnoedit'] = 'ゲストは、用語集を編集できません。';
@@ -144,8 +145,6 @@ $string['importedentries'] = 'インポートされたエントリ';
 $string['importentries'] = 'エントリのインポート';
 $string['importentriesfromxml'] = 'エントリをXMLファイルからインポートする';
 $string['includegroupbreaks'] = 'グループ区切りを含む';
-$string['invalidglossaryformat'] = '用語集フォーマットが有効ではありません。';
-$string['invalidid'] = '用語集IDが正しくありません。';
 $string['invalidrate'] = '用語集の評価 ($a) が有効ではありません。';
 $string['isglobal'] = 'これはグローバル用語集ですか?';
 $string['letter'] = 'アルファベット';
@@ -210,6 +209,8 @@ $string['withauthor'] = '用語 (著者有り)';
 $string['withoutauthor'] = '用語 (著者なし)';
 $string['writtenby'] = '作成';
 $string['youarenottheauthor'] = 'あなたはこのコメントの投稿者ではありません。コメントの編集は許可されません。';
+$string['invalidglossaryformat'] = '用語集フォーマットが有効ではありません。'; // ORPHANED
+$string['invalidid'] = '用語集IDが正しくありません。'; // ORPHANED
 $string['cantexportentry'] = 'エントリをメイン用語集にエクスポートできませんでした。'; // ORPHANED
 $string['areaintro'] = '用語集イントロダクション'; // ORPHANED
 $string['cantinsertent'] = '新しいエントリを追加できませんでした。'; // ORPHANED

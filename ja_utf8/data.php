@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // data.php - created with Moodle 2.0 dev (Build: 20090912) (2009090803)
 
 
 $string['action'] = '操作';
@@ -67,6 +67,7 @@ $string['data:viewalluserpresets'] = 'すべてのユーザのプリセットを
 $string['data:viewentry'] = 'エントリを表示する';
 $string['data:viewrating'] = '評価を表示する';
 $string['data:writeentry'] = 'エントリを追加する';
+$string['dataadministration'] = 'データベース活動管理';
 $string['date'] = '日付';
 $string['dateentered'] = '入力日時';
 $string['defaultfielddelimiter'] = '(デフォルト: カンマ)';
