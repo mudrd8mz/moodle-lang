@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 (2007101509)
+      // calendar.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
 $string['advancedoptions'] = 'Avanserte innstillinger';
@@ -50,7 +50,7 @@ $string['expired'] = 'Utløpt';
 $string['explain_lookahead'] = 'Dette setter (maks) antall dager fram i tid som en hendelse må starte i for at den skal vises som en framtidig hendelse. Hendelser som starter senere enn dette vil aldri vises som en framtidig hendelse. Merk at <strong>det ikke er noen garanti</strong> for at alle hendelser som starter før denne grensen vises. Hvis det er for mange hendelser (mer enn det som er satt som \"Maksimum antall framtidige hendelser\"), så vil de seneste av disse hendelsene ikke vises.';
 $string['explain_maxevents'] = 'Dette setter maksimum antall framtidige hendelser som kan vises. Hvis du velger et høyt tall her, er det mulig at listen vil ta opp stor plass på skjermen.';
 $string['explain_persistflt'] = 'Hvis denne er slått på, vil Moodle huske settingene for ditt siste hendelsesfilter og automatisk gjengi dem hver gang du logger på.';
-$string['explain_site_timeformat'] = 'Du kan velge mellom 12 eller 24t klokke for hele siten. Dersom du velger \"Standard\", velges formatet fra språket som er valgt for siten. Denne innstillingen kan overstyres i den enkelte s profil.';
+$string['explain_site_timeformat'] = 'Du kan velge mellom 12 eller 24t klokke for hele nettstedet. Dersom du velger \"Standard\", velges formatet fra språket som er valgt for nettstedet. Denne innstillingen kan overstyres i den enkelte s profil.';
 $string['explain_startwday'] = 'Kalenderuker vil starte på den dagen du velger her når den vies.';
 $string['explain_timeformat'] = 'Du kan velge å se tiden i enten 12 eller 24 timers format. Hvis du velger \"standard\", vil formatet velges automatisk i henhold til det språket som er brukt på nettstedet.';
 $string['export'] = 'Eksport';

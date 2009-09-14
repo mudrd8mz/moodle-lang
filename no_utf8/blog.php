@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+      // blog.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
 $string['addnewentry'] = 'Nytt innlegg';
 $string['backupblogshelp'] = 'Hvis denne er slått på vil blogger bli inkludert i NETTSTEDETS automatiserte backuper.';
 $string['blockmenutitle'] = 'Bloggmeny';
 $string['blocktagstitle'] = 'Blogg tagger';
-$string['blocktitle'] = 'Bloggtagger blokktittel';
+$string['blocktitle'] = 'Tittel på tagg-oversikten';
 $string['blog'] = 'Blogg';
 $string['blogdeleteconfirm'] = 'Slett denne bloggen?';
 $string['blogpreferences'] = 'Blogg-innstillinger';
@@ -41,7 +41,7 @@ $string['publishtonoone'] = 'Meg selv (kladd)';
 $string['publishtosite'] = 'Alle på denne siten';
 $string['publishtoworld'] = 'Alle på kloden';
 $string['settingsupdatederror'] = 'En feil er oppstått, blogginnstillingene kunne ikke lagres.';
-$string['siteblog'] = 'Site blogg: $a';
+$string['siteblog'] = 'Nettstedsblogg: $a';
 $string['siteblogs'] = 'Alle brukere på denne siten kan se alle blogger';
 $string['tagdatelastused'] = 'Dato denne taggen sist ble brukt';
 $string['tags'] = 'Tagger';

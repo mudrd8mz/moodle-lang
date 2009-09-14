@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
+      // choice.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
-$string['addmorechoices'] = 'Legg til flere valg';
+$string['addmorechoices'] = 'Legg til flere valgfelt';
 $string['allowupdate'] = 'Tillat oppdatering av valg';
 $string['answered'] = 'Besvart';
 $string['choice'] = 'Svaralternativ $a';
@@ -11,7 +11,7 @@ $string['choice:deleteresponses'] = 'Slett svar';
 $string['choice:downloadresponses'] = 'Last ned svar';
 $string['choice:readresponses'] = 'Les svar';
 $string['choiceclose'] = 'Til';
-$string['choicefull'] = 'Valget er fullt og det er ingen ledige plasser.';
+$string['choicefull'] = 'Dette alternativet er fullt. Du må velge noe annet.';
 $string['choicename'] = 'Overskrift til spørsmålet';
 $string['choiceopen'] = 'Åpne';
 $string['choicesaved'] = 'Valget ditt er lagret';
@@ -23,7 +23,7 @@ $string['expired'] = 'Beklager, denne aktiviteten ble stengt $a og er ikke tilgj
 $string['fillinatleastoneoption'] = 'Du må i det minste skrive inn to mulige svar.';
 $string['full'] = '(full)';
 $string['havetologin'] = 'Du må logge inn før du får svare.';
-$string['limit'] = 'Grense';
+$string['limit'] = 'Begrensning';
 $string['limitanswers'] = 'Begrens antallet tillatte svar.';
 $string['modulename'] = 'Spørsmål';
 $string['modulenameplural'] = 'Spørsmål';

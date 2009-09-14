@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // lesson.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
-$string['accesscontrol'] = 'Adgangskontroll';
+$string['accesscontrol'] = 'Tilgangskontroll';
 $string['actionaftercorrectanswer'] = 'Handling etter riktig svar';
 $string['actions'] = 'Handlinger';
 $string['activitylink'] = 'Lenke til en aktivitet';
 $string['activitylinkname'] = 'Gå til: $a';
-$string['addabranchtable'] = 'Legg til side med oversiktstabell';
+$string['addabranchtable'] = 'Legg til menyside';
 $string['addanendofbranch'] = 'Legg til avslutning';
 $string['addaquestionpage'] = 'Legg til spørsmålside';
 $string['addaquestionpagehere'] = 'Legg til spørsmålsside her';
@@ -36,11 +36,11 @@ $string['branchtable'] = 'Oversiktstabell';
 $string['cancel'] = 'Avbryt';
 $string['canretake'] = '$a kan forsøke på nytt';
 $string['casesensitive'] = 'Følsom for store/små bokstaver';
-$string['checkbranchtable'] = 'Sjekk oversiktstabell';
+$string['checkbranchtable'] = 'Sjekk menytabell';
 $string['checkedthisone'] = 'sjekket denne.';
 $string['checknavigation'] = 'Sjekk navigering';
 $string['checkquestion'] = 'Sjekk spørsmål';
-$string['classstats'] = 'Klassestatistikk';
+$string['classstats'] = 'Deltakerstatistikk';
 $string['clicktodownload'] = 'Klikk denne lenken for å laste ned filen.';
 $string['clicktopost'] = 'Klikk her for å sende karakterene dine til lista over de beste resultatene.';
 $string['clusterjump'] = 'Usett spørsmål inne i ei klynge';
@@ -54,7 +54,7 @@ $string['conditionsfordependency'] = 'Betingelser for avhengighet';
 $string['confirmdeletionofthispage'] = 'Bekreft sletting av denne siden';
 $string['congratulations'] = 'Gratulerer - du er ferdig med leksjonen';
 $string['continue'] = 'Fortsett';
-$string['continuetoanswer'] = 'Fotsett for å endre svarene';
+$string['continuetoanswer'] = 'Fortsett med å endre svarene';
 $string['correctanswerjump'] = 'Hopp ved riktig svar';
 $string['correctanswerscore'] = 'Poeng ved riktig svar';
 $string['correctresponse'] = 'Riktig svar';
@@ -87,7 +87,7 @@ $string['editpagecontent'] = 'Rediger sideinnhold';
 $string['email'] = 'Send som epost';
 $string['emailallgradedessays'] = 'Send alle tekster med karakter som epost.';
 $string['emailgradedessays'] = 'Send tekster med karakter som epost';
-$string['emailsuccess'] = 'Sending av epost var vellykka';
+$string['emailsuccess'] = 'Sending av epost var vellykket';
 $string['endofbranch'] = 'Slutt på gren';
 $string['endofclustertitle'] = 'Slutt på klynge';
 $string['endoflesson'] = 'Leksjonen er ferdig';
@@ -98,7 +98,7 @@ $string['eolstudentoutoftime'] = 'OBS: Du brukte for lang tid på denne leksjone
 $string['eolstudentoutoftimenoanswers'] = 'Du svarte ikke på noen spørsmål. Du fikk 0 poeng på denne leksjonen.';
 $string['essay'] = 'Tekst';
 $string['essayemailmessage'] = '<p>Essay prompt:<blockquote>$a->question</blockquote></p><p>Ditt svar:<blockquote><em>$a->response</em></blockquote></p><p>$a->teacher kommentarer:<blockquote><em>$a->comment</em></blockquote></p><p>Du fikk $a->earned av $a->outof på dette Essay-spørsmålet.</p><p>Karakteren din for leksjonen er blitt endret til $a->newgrade%%.</p>';
-$string['essayemailsubject'] = 'Karakteren din for $a';
+$string['essayemailsubject'] = 'Karakteren din for $a spørsmål';
 $string['essays'] = 'Tekster';
 $string['essayscore'] = 'Tekstvurdering';
 $string['fileformat'] = 'Filformat';
@@ -285,7 +285,7 @@ $string['updatefailed'] = 'Oppdatering mislyktes';
 $string['useeditor'] = 'Bruk editor';
 $string['usemaximum'] = 'Bruk beste';
 $string['usemean'] = 'Bruk gjennomsnitt';
-$string['usepassword'] = 'Passordbeskyttet eksjon';
+$string['usepassword'] = 'Passordbeskyttet leksjon';
 $string['viewgrades'] = 'Se karakterer';
 $string['viewhighscores'] = 'Se listen med toppresultater';
 $string['viewreports'] = 'Vis $a->attempts fullførte $a->student forsøk';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9 (2007101509)
+      // assignment.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
 $string['allowdeleting'] = 'Tillat sletting';
@@ -12,7 +12,7 @@ $string['assignment:submit'] = 'Send inn oppgavesvaret';
 $string['assignment:view'] = 'Se på oppgave';
 $string['assignmentdetails'] = 'Oppgavedetaljer';
 $string['assignmentmail'] = '$a->teacher har sendt en tilbakemelding på din
-innlevering \'$a->assignment\'. Du kan se tilbakemeldingen her: $a->url
+innlevering \'$a->assignment\'. Du kan lese tilbakemeldingen her: $a->url
 
 Du kan se tilbakemeldingen her:
 
@@ -47,7 +47,7 @@ $string['emailteachermailhtml'] = '$a->username har oppdatert sin innlevering av
 for <i>\'$a->assignment\'</i><br /><br />
 Den er <a href=\"$a->url\">tilgjengelig på nettstedet</a>.';
 $string['emailteachers'] = 'Epostvarsel til lærere';
-$string['emptysubmission'] = 'Du har ikke levert noenting ennå';
+$string['emptysubmission'] = 'Du har ikke levert noe ennå';
 $string['enableemailnotification'] = 'Send varsel i epost';
 $string['existingfiledeleted'] = 'Eksisterende fil er slettet: $a';
 $string['failedupdatefeedback'] = 'Kunne ikke oppdatere tilbakemelding for levering til $a';
@@ -58,8 +58,8 @@ $string['finalize'] = 'Ingen flere innleveringer';
 $string['finalizeerror'] = 'En feil oppstod slik at innsendingen ikke ble fullført';
 $string['graded'] = 'Karaktersatt';
 $string['guestnosubmit'] = 'Beklager, gjester har ikke lov til å levere inn oppgaver. Du må logge inn/registere deg før du kan levere inn besvarelsen ditt.';
-$string['guestnoupload'] = 'Beklager, gjester har ikke lov til å laste opp';
-$string['helpoffline'] = '<p>Dette er nyttig når oppgaven utføres uten Moodle. Det kan være et annet sted på nettet eller ansikt-til-ansikt.</p><p>Studenter kan se en beskrivelse av oppgaven, men de kan ikke laste opp filer eller annet. Karaktersetting fungerer vanligvis, og studenter vil få melding om sine karakterer.</p>';
+$string['guestnoupload'] = 'Beklager, gjester har ikke lov til å levere inn';
+$string['helpoffline'] = '<p>Dette er nyttig når oppgaven utføres uten Moodle. Det kan være et annet sted på nettet eller ansikt-til-ansikt.</p><p>Studenter kan se en beskrivelse av oppgaven, men de kan ikke levere inn filer eller annet. Karaktersetting fungerer vanligvis, og studenter vil få melding om sine karakterer.</p>';
 $string['helponline'] = '<p>Denne oppgavetypen spør brukerne om å editere en tekst, ved bruk av vanlige redigeringsverktøy. Lærerne kan karaktersette dem på nett, og til og med skrive noen kommentarlinjer eller endringer i teksten.</p><p>(Hvis du er vant til en eldre versjon av Moodle, gjør denne oppgavetypen det samme som den gamle Journal-modulen pleide å gjøre.)</p>';
 $string['helpupload'] = '<p>Denne oppgavetypen tillater hver deltaker å laste opp en eller flere filer av hvilken som helst type.</p>
 <p>Det kan være et Word-dokument, bilder, et komprimert nettsted,eller hva som helst du ber dem om å levere inn.</p>
@@ -73,7 +73,7 @@ $string['maximumsize'] = 'Maks filstørrelse';
 $string['modulename'] = 'Innlevering';
 $string['modulenameplural'] = 'Innlevering';
 $string['newsubmissions'] = 'Leverte oppgaver';
-$string['noassignments'] = 'Det er ingen oppgaver ennå';
+$string['noassignments'] = 'Det foreligger ingen oppgaver ennå';
 $string['noattempts'] = 'Det har ikke vært gjort noen forsøk på denne oppgaven ennå.';
 $string['nofiles'] = 'Ingen filer ble sendt';
 $string['nofilesyet'] = 'Ingen filer er lastet opp til siden ennå';

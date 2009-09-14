@@ -1,7 +1,9 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
-$string['admindirerror'] = 'Admin mappen som er angitt er feil';
-$string['admindirname'] = 'Admin mappe';
+      // install.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+
+
+$string['admindirerror'] = 'Den angitte adminmappen er feil';
+$string['admindirname'] = 'Adminmappe';
 $string['admindirsetting'] = 'Noen få webservere bruker /admin som en spesiell URL for å få tak i kontrollpanel eller lignende. Uheldigvis er dette i konflikt med standardplasseringen for Moodle\'s adminsider. Du kan ordne dette ved å gi adminkatalogen et nytt navn i installasjonen din, og skrive det nye navnet her. For eksempel <br /> <br /><b>moodleadmin</b><br /> <br />
 Dette vil ordne adminlenkene i Moodle.';
 $string['admindirsettinghead'] = 'Setter adminmappen';
@@ -215,4 +217,5 @@ $string['welcomep60'] = 'De følgende sidene vil vise deg gjennom noen enkle ste
 $string['welcomep70'] = 'Klikk på \"Neste\" knappen under for å fortsette med <strong>Moodle</strong>-installasjonen';
 $string['wwwroot'] = 'Web addresse';
 $string['wwwrooterror'] = 'Webadressen synes ikke å være gyldig - denne Moodleinstallasjonen synes ikke å være der. Innstilling har blitt resatt.';
+
 ?>

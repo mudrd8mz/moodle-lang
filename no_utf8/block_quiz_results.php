@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_quiz_results.php - created with Moodle 1.7.1+ (2006101010)
+      // block_quiz_results.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
 $string['bestgrade'] = 'Beste resultat:';
@@ -20,13 +20,13 @@ $string['config_show_best'] = 'Hvor mange av de beste resultatene skal vises? (0
 $string['config_show_worst'] = 'Hvor mange av de svakeste resultatene skal vises? (0 er det samme som inaktiv)';
 $string['config_use_groups'] = 'Vis grupper i stedet for studenter (bare hvis Quiz-en støtter grupper)';
 $string['configuredtoshownothing'] = 'Dette blokkoppsettet vil ikke vise noen resultater. Du kan endre dette eller skjule blokken.';
-$string['error_emptyquizid'] = 'Det er en feil med innstillingene i denne blokken: Du må velge hvilken Quiz den skal vise resultater fra.';
+$string['error_emptyquizid'] = 'Denne blokken er ikke ferdig konfigurert: Du må velge hvilken Quiz den skal vise resultater fra.';
 $string['error_emptyquizrecord'] = 'Det er en feil med innstillingene i denne blokken: Den valgte Quiz-en ser ikke ut til å finnes i databasen.';
 $string['error_nogroupsexist'] = 'Det er en feil med innstillingene i denne blokken: Den er satt opp til å vise resultatene gruppevis, men kurset har ingen definerte grupper.';
 $string['formaltitle'] = 'Quiz resultater';
-$string['worstgrade'] = 'Laveste resultat:';
-$string['worstgrades'] = 'De $a laveste resultatene:';
-$string['worstgroupgrade'] = 'Gruppen med lavest gjennomsnitt:';
-$string['worstgroupgrades'] = 'De $a gruppene med lavest gjennomsnitt:';
+$string['worstgrade'] = 'Svakeste resultat:';
+$string['worstgrades'] = 'De $a svakeste resultatene:';
+$string['worstgroupgrade'] = 'Gruppen med svakest gjennomsnitt:';
+$string['worstgroupgrades'] = 'De $a gruppene med svakest gjennomsnitt:';
 
 ?>
