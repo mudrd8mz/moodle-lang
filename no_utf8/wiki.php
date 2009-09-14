@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.7.1+ (2006101010)
+      // wiki.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+
+
 $string['action'] = '-- Handling --';
 $string['administration'] = 'Administrasjon';
 $string['allowremovepages'] = 'Tillat \'fjern sider\'';
@@ -13,7 +15,7 @@ $string['authorfieldpatternerror'] = 'Du må angi en forfatter.';
 $string['backlinks'] = 'Lenker hit';
 $string['binimgtoolarge'] = 'Bildefilen er for stor!';
 $string['binnoimg'] = 'Dette filformatet støttes ikke!';
-$string['browse'] = 'Bla';
+$string['browse'] = 'Se gjennom';
 $string['canceledit'] = 'Avbryt';
 $string['cannotchangepage'] = 'Denne siden kan ikke endres.';
 $string['changes'] = '$a endringer';
@@ -26,8 +28,8 @@ $string['chooseadministration'] = '-- Administrasjon --';
 $string['chooseafile'] = 'Velg/last opp startside';
 $string['choosewikilinks'] = '-- Velg wiki-lenker --';
 $string['comment'] = 'Kommentar';
-$string['contentsize'] = 'Størrelse på innhold';
-$string['created'] = 'Lagd';
+$string['contentsize'] = 'Innholdsstørrelse';
+$string['created'] = 'Opprettet';
 $string['deletemewikiword'] = 'SlettMeg';
 $string['deletemewikiwordfound'] = '$a ble funnet på siden';
 $string['deletepage'] = 'Slett side';
@@ -58,7 +60,7 @@ $string['ewikiprinttitle'] = 'Vis wikinavnet på alle sidene';
 $string['export'] = 'Eksport';
 $string['exportformats'] = 'Eksportformat';
 $string['exportsuccessful'] = 'Vellykket eksport.';
-$string['exportto'] = 'Send til';
+$string['exportto'] = 'Eksporter til';
 $string['fetchback'] = 'Tilbakehenting';
 $string['file'] = 'Fil';
 $string['filedownload'] = 'Filnedlasting';
@@ -82,7 +84,7 @@ $string['html'] = 'HTML-format';
 $string['htmlmode'] = 'HTML-modus';
 $string['htmlonly'] = 'Bare HTML';
 $string['index'] = 'Indeks';
-$string['infoaboutpage'] = 'Historien til:';
+$string['infoaboutpage'] = 'Historikk for:';
 $string['initialcontent'] = 'Velg en startside';
 $string['invalidroot'] = 'Du har ikke rett til å se den gjeldende rot-siden, så det er ikke mulig å lage et nettstedskart.';
 $string['lastchanged'] = 'Sist endret den $a';
@@ -97,9 +99,9 @@ $string['meta'] = 'Metadata';
 $string['moduledirectory'] = 'Modulmappe';
 $string['modulename'] = 'Wiki';
 $string['modulenameplural'] = 'Wikier';
-$string['mostoftenchangedpages'] = 'De mest endrede sidene';
+$string['mostoftenchangedpages'] = 'De oftest endrede sidene';
 $string['mostvisitedpages'] = 'De mest besøkte sidene';
-$string['newestpages'] = 'De nyeste sidene';
+$string['newestpages'] = 'Nyeste sider';
 $string['noadministrationaction'] = 'Ingen administrasjonshandling angitt.';
 $string['nocandidatestoremove'] = 'Ingen kandidatsider å fjerne, velg \'$a\' for å vise alle sidene.';
 $string['nochangestorevert'] = 'Ingen endringer å gjøre om.';
@@ -196,4 +198,5 @@ $string['wikiusage'] = 'Wiki-bruk';
 $string['withbinaries'] = 'Inkluder binært innhold';
 $string['withvirtualpages'] = 'Inkluder Wiki-lenker';
 $string['wrongversionrange'] = '$a er ikke en korrekt verdiområde!';
+
 ?>

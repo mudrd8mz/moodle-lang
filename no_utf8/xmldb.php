@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9.1+ (Build: 20080618) (2007101514)
+      // xmldb.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
 $string['aftertable'] = 'Etter Tabell:';
@@ -17,13 +17,12 @@ $string['checkbigints'] = 'Sjekk Bigints';
 $string['checkdefaults'] = 'Sjekk standardverdier';
 $string['checkindexes'] = 'Sjekk Indekser';
 $string['completelogbelow'] = '(se den komplette loggen av søket under)';
-$string['confirmcheckbigints'] = 'This functionality will search for <a href=\"http://tracker.moodle.org/browse/MDL-11038\">potential wrong integer fields</a> in your Moodle server, generating (but not executing!) automatically the needed SQL statements to have all the integers in your DB properly defined.<br /><br />
-Once generated you can copy such statements and execute them safely with your favourite SQL interface (don\'t forget to backup your data before doing that).<br /><br />
-It\'s highly recommended to be running the latest (+ version) available of your Moodle release (1.8, 1.9, 2.x ...) before executing the search of wrong integers.<br /><br />
-This functionality doesn\'t perform any action against the DB (just reads from it), so can be safely executed at any moment.';
-$string['confirmcheckdefaults'] = 'Denne funksjonaliteten vil søke etter inkonstistente standardverdier i Moodleserveren din, og vil lage (men ikke utføre!) de nødvendige SQL-setningene for å få standardverdiene ordentlig definert.<br /><br />
+$string['confirmcheckbigints'] = 'Denne funksjonen vil søke etter <a href=\"http://tracker.moodle.org/browse/MDL-11038\">potensielt gale heltallfelt</a>på din Moodle-server og generere (men ikke utføre!) de nødvendige SQL-setningene for å få heltallene i databasen korrekt definert.<br /><br />
+Når du har fått disse laget kan du kopiere disse og kjøre dem i SQL-brukergrensesnittet ditt (husk å sikkerhetskopier dataene dine før du gjør det).<br /><br />
+ Det er anbefalt at du kjører siste (+ versjon) av Moodle (1.8, 1.9, 2.x ...) før du kjører søket etter feil heltall.<br/><br/>Denne funksjonaliteten utfører ikke noen endringer på databasen (bare leser fra den), så dette kan trygt gjøres når som helst.';
+$string['confirmcheckdefaults'] = 'Denne funksjonaliteten vil søke etter inkonstistente standardverdier på Moodleserveren din, og vil lage (men ikke utføre!) de nødvendige SQL-setningene for å få standardverdiene ordentlig definert.<br /><br />
 Når du har fått disse laget kan du kopiere disse og kjøre dem i SQL-brukergrensesnittet ditt (husk å sikkerhetskopier dataene dine før du gjør det).<br /><br /> Det er anbefalt at du kjører siste (+ versjon) av Moodle (1.8, 1.9, 2.x ...) før du kjører søket etter feil heltall.<br/><br/>Denne funksjonaliteten utfører ikke noen endringer på databasen (bare leser fra den), så dette kan trygt gjøres når som helst.';
-$string['confirmcheckindexes'] = 'Denne funksjonaliteten vil søke etter potensielt manglende indekser i Moodleserveren din, lager (men kjører ikke) automatisk de behøvelige SQL kommandoer for å holde alt oppdatert. Når den først er laget kan du kopiere slike kommandoer og kjøre dem i favoritt SQL grensesnittet ditt.<br /><br />
+$string['confirmcheckindexes'] = 'Denne funksjonaliteten vil søke etter potensielt manglende indekser på Moodleserveren din, lager (men kjører ikke) automatisk de behøvelige SQL kommandoer for å holde alt oppdatert. Når den først er laget kan du kopiere slike kommandoer og kjøre dem i favoritt SQL grensesnittet ditt.<br /><br />
 Det er anbefalt at du kjører siste (+versjon) tilgjengelig av Moodle utgaven din (1.8, 1.9, 2.x ...) før du kjører søket etter manglende indekser.<br /><br />Denne funksjonaliteten gjør ingenting med databasen (unntatt å lese fra den), så dette kan trygt gjøres når som helst.';
 $string['confirmdeletefield'] = 'Er du helt sikker på at du vil slette feltet:';
 $string['confirmdeleteindex'] = 'Er du sikker på at du vil slette indeksen:';
@@ -135,6 +134,6 @@ $string['wrongnumberoffieldsorvalues'] = 'Feil antall felt eller verdier i setni
 $string['wrongreservedwords'] = 'Gjeldende reserverte ord<br />(vær oppmerksom på at tabellnavn ikke er viktig ved bruk av $CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Noen manglende indekser har blitt funnet i databasen din. Her er detaljene og de nødvendige SQL-kommandoene som må kjøres med SQL-grensesnittet ditt for å lage alle.<br /><br />Etter at du har gjort det, er det veldig anbefalt å kjøre dette verktøyet igjen for å sjekke at det ikke er flere manglende indekser.';
 $string['yeswrongdefaultsfound'] = 'Noen ukonsistente standarder er funnet i databasen din. Her følger detaljer og nødvendige SQL-setninger som kan kjøres i SQL-grensesnittet ditt for ordne dem (husk backup av dataene dine før du gjør det).<br /><br />Etter at du har gjort det, er det høyst anbefalt å kjøre denne funksjonen igjen for å sjekke at ingen flere ukonsistente standarder finnes.';
-$string['yeswrongintsfound'] = 'Some wrong integers have been found in your DB. Here there are their details and the needed SQL statements to be executed with your favourite SQL interface to create all them (don\'t forget to backup your data before doing that).<br /><br />After doing that, it\'s highly recommended to execute this utility again to check that no more wrong integers are found.';
+$string['yeswrongintsfound'] = 'Noenfeil heltall er funnet i databasen din. Her følger detaljer og nødvendige SQL-setninger som kan kjøres i SQL-grensesnittet ditt for ordne dem (husk backup av dataene dine før du gjør det).<br /><br />Etter at du har gjort det, er det høyst anbefalt å kjøre denne funksjonen igjen for å sjekke at ingen flere feilaktige heltall finnes.';
 
 ?>

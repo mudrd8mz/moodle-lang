@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // role.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
 $string['addrole'] = 'Legg til ny rolle';
@@ -19,8 +19,8 @@ $string['blog:view'] = 'Se logginnlegg';
 $string['calendar:manageentries'] = 'Administrer alle kalenderinnlegg';
 $string['calendar:managegroupentries'] = 'Administrer oppføringer i gruppekalenderen';
 $string['calendar:manageownentries'] = 'Administrer egne kalenderinnlegg';
-$string['capabilities'] = 'Capabilities';
-$string['capability'] = 'Capability';
+$string['capabilities'] = 'Kvalifikasjoner';
+$string['capability'] = 'Kvalifikasjon';
 $string['category:create'] = 'Lag kategorier';
 $string['category:delete'] = 'Slett kategorier';
 $string['category:manage'] = 'Administrer kategorier';
@@ -55,7 +55,7 @@ $string['course:viewhiddenuserfields'] = 'Se skjulte brukerfelt';
 $string['course:viewparticipants'] = 'Se brukere';
 $string['course:viewscales'] = 'Se karakterskalaer';
 $string['course:visibility'] = 'Skjul/vis kurs';
-$string['currentcontext'] = 'Current context';
+$string['currentcontext'] = 'Gjeldende kontekst';
 $string['currentrole'] = 'Aktiv rolle';
 $string['defaultrole'] = 'Standard rolle';
 $string['defineroles'] = 'Definer roller';

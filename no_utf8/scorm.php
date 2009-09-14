@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
+      // scorm.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
 $string['activation'] = 'Aktivisering';
@@ -76,7 +76,7 @@ $string['iframedisplay'] = 'Åpne pakke i gjeldende vindu';
 $string['incomplete'] = 'Ufullstendig';
 $string['interactions'] = 'Samhandlinger';
 $string['last'] = 'Sist brukt';
-$string['lastaccess'] = 'Sist bruk';
+$string['lastaccess'] = 'Siste bruk';
 $string['lastattempt'] = 'Siste forsøk';
 $string['location'] = 'Vis på navigeringslinjen';
 $string['max'] = 'Maks score';
@@ -138,12 +138,12 @@ $string['scorm:skipview'] = 'Hopp over oversikt';
 $string['scorm:viewreport'] = 'Se rapporter';
 $string['scorm:viewscores'] = 'Se resultater';
 $string['scormcourse'] = 'Lærekurs';
-$string['scormloggingoff'] = 'Grensesnittlogging er AV';
-$string['scormloggingon'] = 'Grensesnittlogging er PÅ';
-$string['scormresponsedeleted'] = 'Slett brukerforsøk';
+$string['scormloggingoff'] = 'API logging er AV';
+$string['scormloggingon'] = 'API logging er PÅ';
+$string['scormresponsedeleted'] = 'Slettede brukerforsøk';
 $string['scrollbars'] = 'Tillat å bla i vinduet (scrolling)';
 $string['sided'] = 'På venstre side';
-$string['skipview'] = 'Stundenten går ut av innholdssiden';
+$string['skipview'] = 'Ikke vis innholdsoversikten';
 $string['skipviewdesc'] = 'Denne innstillingen bestemmer om en ikke skal bruke pakkens innholdsstruktur';
 $string['slashargs'] = 'ADVARSEL: Brytere (eks. /A) er slått av på dette nettstedet og det kan hende at enkelte ting ikke virker som det var tenkt!';
 $string['stagesize'] = 'Vindusstørrelse';
@@ -160,21 +160,21 @@ $string['too_many_attributes'] = 'Taggen $a->tag har for mange egenskaper';
 $string['too_many_children'] = 'Taggen $a->tag har for mange underverdier';
 $string['toolbar'] = 'Vis verktøylinjen';
 $string['totaltime'] = 'Tid';
-$string['trackingloose'] = 'ADVARSEL: Sporingsdata for denne pakken vil bli tapt!';
+$string['trackingloose'] = 'ADVARSEL: Sporingsdata for denne pakken vil bli slettet!';
 $string['type'] = 'Type';
-$string['unziperror'] = 'An feil oppstår under utpakking av pakken';
-$string['updatefreq'] = 'Auto-oppdater frekvens';
+$string['unziperror'] = 'Det oppstår en feil under utpakking av zip-fila';
+$string['updatefreq'] = 'Intervall for automatisk oppdatering';
 $string['updatefreqdesc'] = 'Denne innstillingen setter standardverdi for hvor ofte aktiviteten skal auto-oppdatere seg.';
 $string['validateascorm'] = 'Valider en pakke';
 $string['validation'] = 'Valider resultat';
 $string['validationtype'] = 'Dette valget angir DOMXML biblioteket som brukes for å godkjenne SCORM Manifest. Hvis du ikke vet la det angitte valget stå.';
 $string['value'] = 'Verdi';
-$string['versionwarning'] = 'Manifestversjon er eldre enn 1.3, advarsel om $a->tag taggen';
+$string['versionwarning'] = 'Manifestversjonen er eldre enn 1.3, advarsel om $a->tag taggen';
 $string['viewallreports'] = 'Se på rapporter for $a forsøk';
 $string['viewalluserreports'] = 'Vis rapportene for $a brukere';
 $string['whatgrade'] = 'Karaktersetting av forsøk';
 $string['whatgradedesc'] = 'Denne innstillingen setter standardverdi for antall forsøk på karaktersetting';
-$string['width'] = 'Vidde';
+$string['width'] = 'Bredde';
 $string['window'] = 'Vindu';
 
 ?>

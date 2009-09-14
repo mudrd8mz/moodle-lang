@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.4+ (Build: 20090225) (2007101541)
+      // report_security.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
 $string['check_configrw_details'] = '<p>Det anbefales at fil-rettighetene til config.php endres etter installasjonen slik at webserveren ikke kan gjøre endringer. Vennligst merk at denne sjekken ikke forbedrer serverens generelle sikkerhet, selv om den forsinker og eventuelt begrenser generelle sikkerhetshull.</p>';
 $string['check_configrw_name'] = 'config.php er skrivbar';
-$string['check_configrw_ok'] = 'config.php er sikret mot endringer forsøkt av PHP script.';
+$string['check_configrw_ok'] = 'config.php er sikret mot endringer via PHP script.';
 $string['check_configrw_warning'] = 'PHP script kan endre config.php.';
 $string['check_cookiesecure_details'] = '<p>Dersom du aktiverer https er det anbefalt at du også aktiverer sikre cookier. Du bør også legge til en permanent omadressering til https.</p>';
 $string['check_cookiesecure_error'] = 'Vennligst aktiver sikre cookier';
@@ -12,13 +12,13 @@ $string['check_cookiesecure_name'] = 'Sikre cookier';
 $string['check_cookiesecure_ok'] = 'Sikre cookier er aktivert';
 $string['check_courserole_anything'] = 'Egenskapen \"tillat alt\" må ikke tillates i denne <a href=\"$a\">konteksten</a>.';
 $string['check_courserole_details'] = '<p>Hvert kurs har en standard rolle ved innmelding. Vennligst sjekk at denne rollen ikke har skadelige rettigheter.</p><p>Den eneste anbefalte innmeldingsrolle for et kurs er <em>Student</em>.</p>';
-$string['check_courserole_error'] = 'Mulig skadelig standard kursrolle funnet!';
+$string['check_courserole_error'] = 'Det er oppdaget en feilaktig konfigurert standard kursrolle!';
 $string['check_courserole_name'] = 'Standard roller (kurs)';
 $string['check_courserole_notyet'] = 'Kun benyttet standard kursroller.';
 $string['check_courserole_ok'] = 'Standard kursrolle-definisjon er OK.';
 $string['check_courserole_risky'] = 'Risikofylte egenskaper er funnet i denne <a href=\"$a\">kursrollen</a>.';
 $string['check_courserole_riskylegacy'] = 'Risikabel standardtype oppdaget i <a href=\"$a->url\">$a->shortname</a>.';
-$string['check_defaultcourserole_anything'] = 'Du bør  absolutt ikke aktivere \"Tillat alt\" i <a href=\"$a\">denne sammenhengen</a>.';
+$string['check_defaultcourserole_anything'] = 'Du bør  absolutt ikke aktivere \"Tillat alt\" i <a href=\"$a\">denne konteksten</a>.';
 $string['check_defaultcourserole_details'] = '<p>Rollen \"Student\" ved innmelding angir også standard rolle for kurs. Vennligst sjekk at det ikke er lagt til noen risikable rettigheter til denne rollen.</p>
 <p>Den eneste støttede lovlige standardrolle er <em>Student</em>.</p>';
 $string['check_defaultcourserole_error'] = 'Oppdaget en risikabel standardrolle \"&a\"!';

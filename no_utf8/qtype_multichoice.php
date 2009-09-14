@@ -3,7 +3,7 @@
 
 
 $string['addingmultichoice'] = 'Legger til et flervalgsspørsmål';
-$string['addmorechoiceblanks'] = 'Blanke for {no} flere valgfelt';
+$string['addmorechoiceblanks'] = 'Sett inn {no} ekstra svaralternativer';
 $string['answerhowmany'] = 'Ett eller flere mulige svaralternativer?';
 $string['answernumbering'] = 'Antall valg?';
 $string['answernumbering123'] = '1., 2., 3., ...';
@@ -23,7 +23,7 @@ $string['feedback'] = 'Tilbakemelding';
 $string['fillouttwochoices'] = 'Du må fylle ut minst to svaralternativer. Tomme felt utover det blir ikke tatt med.';
 $string['fractionsaddwrong'] = 'Karaktergivingen du har valgt summerer ikke til 100%%. <br />Summen for riktige svar blir bare $a%%<br />Ønsker du å gå tilbake å fikse på dette spørsmålet?';
 $string['fractionsnomax'] = 'Ett av svarene bør settes til 100%%, så det blir <br />mulig å få full score på dette spørsmålet.<br />Ønsker du å gå tilbake å fikse på dette spørsmålet?';
-$string['incorrectfeedback'] = 'For alle feile svar';
+$string['incorrectfeedback'] = 'For alle feil svar';
 $string['notenoughanswers'] = 'Denne spørsmålstypen krever minst $a svaralternativer';
 $string['overallcorrectfeedback'] = 'Tilbakemelding for riktig svar';
 $string['overallfeedback'] = 'Generell tilbakemelding';
@@ -31,6 +31,6 @@ $string['overallincorrectfeedback'] = 'Tilbakemelding for feil svar';
 $string['overallpartiallycorrectfeedback'] = 'Tilbakemelding for delvis riktig svar';
 $string['partiallycorrectfeedback'] = 'For alle delvis korrekte svar';
 $string['shuffleanswers'] = 'Stokk svaralternativene';
-$string['singleanswer'] = 'Velg et svar';
+$string['singleanswer'] = 'Velg et svaralternativ';
 
 ?>

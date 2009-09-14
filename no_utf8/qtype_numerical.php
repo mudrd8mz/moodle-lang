@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // qtype_numerical.php - created with Moodle 1.9 + (Build: 20080430) (2007101509)
+      // qtype_numerical.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
-$string['addmoreanswerblanks'] = 'Blanke felt for {ingen} flere svar';
-$string['addmoreunitblanks'] = 'Blanke felt for {ingen} flere enheter';
+$string['addmoreanswerblanks'] = 'Sett inn {no} ekstra svaralternativer';
+$string['addmoreunitblanks'] = 'Sett inn {no} ekstra enheter';
 $string['answermustbenumberorstar'] = 'Svaret må være et tall, eller \'*\'';
 $string['answerno'] = 'Svar $a';
 $string['errornomultiplier'] = 'Du må angi en multiplikator for denne enheten.';
