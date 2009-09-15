@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20090608) (2009060200)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
 
 
 $string['add_item'] = 'Aggiungi domanda';
@@ -76,6 +76,7 @@ $string['feedback:viewreports'] = 'Vedere i report';
 $string['feedback_is_not_for_anonymous'] = 'feedback non disponibile agli utenti anonimi';
 $string['feedback_is_not_open'] = 'Il feedback non è aperto';
 $string['feedback_options'] = 'Opzioni';
+$string['feedbackadministration'] = 'Gestione Feedback';
 $string['feedbackclose'] = 'fino al';
 $string['feedbackcloses'] = 'Il feedback è attivo da';
 $string['feedbackopen'] = 'E\' possibile rispondere al feedback dal';
@@ -90,10 +91,10 @@ $string['importfromthisfile'] = 'Importa da questo file';
 $string['info'] = 'Informazione';
 $string['infotype'] = 'Tipo informazione';
 $string['insufficient_responses_for_this_group'] = 'Questo gruppo ha fornito un numero di risposte insufficienti';
+$string['item_label'] = 'Etichetta';
 $string['item_name'] = 'Testo della domanda';
 $string['items_are_required'] = 'L\'asterisco indica che la risposta è obbligatoria.';
 $string['label'] = 'Commento';
-$string['line_labels'] = 'Commento';
 $string['line_values'] = 'Valutazione';
 $string['mapcourse'] = 'Associa corso';
 $string['mapcourseinfo'] = 'Questo è un feedback globale che è disponibile per tutti i corsi usando il blocco feedback. Si possono comunque limitare i corsi in cui può apparire selezionandoli. Cerca i corsi interessati e associali a questo feedback.';
@@ -118,6 +119,7 @@ $string['name'] = 'Nome';
 $string['name_required'] = 'Nome obbligatorio';
 $string['next_page'] = 'Prossima pagina';
 $string['no_handler'] = 'Non esiste un \"action handler\" per';
+$string['no_itemlabel'] = 'Senza etichetta';
 $string['no_itemname'] = 'Domanda priva di testo';
 $string['no_items_available_yet'] = 'Non è stata Nessuna domanda è stata ancora impostata';
 $string['no_templates_available_yet'] = 'Nessun modello disponibile';
@@ -196,6 +198,7 @@ $string['use_one_line_for_each_value'] = '<br/>E\' necessario utilizzare una rig
 $string['use_this_template'] = 'Usa questo modello';
 $string['using_templates'] = 'Usa un modello';
 $string['vertical'] = 'verticale';
+$string['line_labels'] = 'Commento'; // ORPHANED
 $string['cannotcreatecompletedfeedback'] = 'Non è stato possibile creare il feedback completo'; // ORPHANED
 $string['cannotcreatetmpfeedback'] = 'Non è stato possibile cerare il feedback temporaneo'; // ORPHANED
 

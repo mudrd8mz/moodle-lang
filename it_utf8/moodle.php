@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090908) (2009090400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -684,10 +684,10 @@ $string['forcetheme'] = 'Tema obbligato';
 $string['forgotaccount'] = 'Hai dimenticato la password?';
 $string['forgotten'] = 'Hai dimenticato lo username o la password?';
 $string['forgottenduplicate'] = 'L\'indirizzo email è usato da più account, per favore inserisci lo username';
-$string['forgotteninvalidurl'] = 'URL non valido per il reset della password';
+$string['forgotteninvalidurl'] = 'URL per il reset della password non valido';
 $string['format'] = 'Formato';
 $string['formathtml'] = 'Formato HTML';
-$string['formatlams'] = 'LAMS';
+$string['formatlams'] = 'Formato corso LAMS';
 $string['formatmarkdown'] = 'Formato Markdown';
 $string['formatplain'] = 'Formato testo';
 $string['formatscorm'] = 'SCORM/AICC';

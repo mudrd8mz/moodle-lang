@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090618) (2009061600)
+      // data.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
 
 
 $string['action'] = 'Azione';
@@ -67,6 +67,7 @@ $string['data:viewalluserpresets'] = 'Visualizzare le preimpostazioni salvate da
 $string['data:viewentry'] = 'Visualizzare i record inseriti';
 $string['data:viewrating'] = 'Visualizzare le valutazioni ai record inseriti';
 $string['data:writeentry'] = 'Inserire un record';
+$string['dataadministration'] = 'Gestione Attività Database';
 $string['date'] = 'Data';
 $string['dateentered'] = 'Data di inserimento';
 $string['defaultfielddelimiter'] = '(per default la virgola)';
@@ -125,7 +126,7 @@ $string['file'] = 'File';
 $string['filesnotgenerated'] = 'Non tutti i file sono stati generati: $a';
 $string['filtername'] = 'Auto link al Database';
 $string['footer'] = 'Piè di pagina';
-$string['forcelinkname'] = 'Nome';
+$string['forcelinkname'] = 'Nome forzato del link';
 $string['foundnorecords'] = 'Non è stato trovato nessun record (<a href=\"$a->reseturl\">Reset filtri</a>)';
 $string['foundrecords'] = 'Record trovati: $a->num/$a->max (<a href=\"$a->reseturl\">Reset filtri</a>)';
 $string['fromfile'] = 'Importa da file .zip';

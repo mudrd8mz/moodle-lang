@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20090610) (2009060200)
+      // chat.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
 
 
 $string['ajax'] = 'Versione Ajax';
@@ -12,6 +12,7 @@ $string['chat:exportparticipatedsession'] = 'Esportare partecipanti alla chat';
 $string['chat:exportsession'] = 'Esportare sessioni chat';
 $string['chat:readlog'] = 'Leggere i log delle chat';
 $string['chat:talk'] = 'Parlare in chat';
+$string['chatadministration'] = 'Gestione Chat';
 $string['chatintro'] = 'Testo introduttivo';
 $string['chatname'] = 'Nome della chat';
 $string['chatreport'] = 'Sessioni di chat';
@@ -81,6 +82,7 @@ $string['serverport'] = 'Porta server';
 $string['sessions'] = 'Sessioni chat';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Tutti i partecipanti possono visualizzare le sessioni svolte';
+$string['talk'] = 'Parla';
 $string['updatemethod'] = 'Metodo aggiornamento';
 $string['updaterate'] = 'Velocità di aggiornamento:';
 $string['userlist'] = 'Elenco utenti';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20090511) (2009050619)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
 
 
 $string['addcomment'] = 'Aggiungi commento';
@@ -23,7 +23,6 @@ $string['attachment'] = 'Allegato';
 $string['author'] = 'autore';
 $string['authorview'] = 'Visualizza per autore';
 $string['back'] = 'Indietro';
-$string['cantexportentry'] = 'Impossibile esportare il termine nel glossario principale';
 $string['cantinsertcat'] = 'Non è possibile inserire la categoria';
 $string['cantinsertrec'] = 'Non è possibile inserire il record';
 $string['cantinsertrel'] = 'Non è possibile inserire la relazione categoria-termine';
@@ -136,6 +135,7 @@ $string['glossary:rate'] = 'Valutare termini';
 $string['glossary:view'] = 'Visualizzare glossario';
 $string['glossary:viewrating'] = 'Visualizzare valutazioni';
 $string['glossary:write'] = 'Creare nuovi termini';
+$string['glossaryadministration'] = 'Gestione Glossario';
 $string['glossaryleveldefaultsettings'] = 'Impostazioni standard per i glossari';
 $string['glossarytype'] = 'Tipo di glossario';
 $string['guestnoedit'] = 'Agli ospiti non è consentito modificare i glossari';
@@ -145,8 +145,6 @@ $string['importedentries'] = 'Termini importati';
 $string['importentries'] = 'Importa termini';
 $string['importentriesfromxml'] = 'Importa termini da file XML';
 $string['includegroupbreaks'] = 'Mostra separazione dei gruppi';
-$string['invalidglossaryformat'] = 'Formato del glossario non valido';
-$string['invalidid'] = 'ID del glossario non valido';
 $string['invalidrate'] = 'Valutazione del glossario non valida ($a)';
 $string['isglobal'] = 'Questo glossario è globale?';
 $string['letter'] = 'alfabetico';
@@ -211,5 +209,8 @@ $string['withauthor'] = 'Concetti con autore';
 $string['withoutauthor'] = 'Concetti senza autore';
 $string['writtenby'] = 'scritto da';
 $string['youarenottheauthor'] = 'Non puoi modificare questo commento perché non ne sei autore.';
+$string['cantexportentry'] = 'Impossibile esportare il termine nel glossario principale'; // ORPHANED
+$string['invalidglossaryformat'] = 'Formato del glossario non valido'; // ORPHANED
+$string['invalidid'] = 'ID del glossario non valido'; // ORPHANED
 
 ?>

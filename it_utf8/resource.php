@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20090903) (2009082800)
+      // resource.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
 
 
 $string['addresource'] = 'Aggiungi una risorsa';
@@ -164,6 +164,7 @@ $string['resourcetyperepository'] = 'Collegamento ad un archivio di oggetti';
 $string['resourcetypetext'] = 'Pagina di testo';
 $string['searchweb'] = 'Cerca su Internet';
 $string['serverurl'] = 'Indirizzo del server (<strong>$a->wwwroot</strong>)';
+$string['setmainfile'] = 'File principale';
 $string['showcourseblocks'] = 'visualizza i blocchi laterali presenti nella home page del corso';
 $string['skipsubmenus'] = 'Salta le pagine nei sotto-menu';
 $string['tableofcontents'] = 'Indice';
