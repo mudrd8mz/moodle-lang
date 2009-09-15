@@ -30,6 +30,7 @@ Colaboradores:
 	Juan David Martinez Pavony (juanmp@familia.com.co) 
 	Facundo Ortiz (facundooz@fibertel.com.ar)
 	Enrique Robredo (enrique@nuryana.com)
+	Manuel de la Torre (mdelatorre@moodler.com)
 	Raúl Vernengo 
 	Sergio Zúñiga (szuniga@vtr.net)
 
