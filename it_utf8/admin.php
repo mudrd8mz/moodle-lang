@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090903) (2009082800)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -87,7 +87,7 @@ $string['configallowassign'] = 'Tramite la matrice sottostante potete autorizzar
 $string['configallowcategorythemes'] = 'Abilitando questa opzione, i temi possono essere impostati a livello di categoria. Questo influenzerà tutte le categorie dipendenti e i relativi corsi a meno che gli stessi non abbiamo in modo specifico impostato il proprio tema. ATTENZIONE: L\'abilitazione dei temi di categoria può influenzare le prestazioni.';
 $string['configallowcoursethemes'] = 'Se abilitato, sarà  possibile impostare un tema personalizzato diverso per ogni corso. Il tema del corso avrà precedenza su ogni altra preferenza (tema di sito, tema dell\'utente, tema di sessione).';
 $string['configallowemailaddresses'] = 'Se si desidera che le email utilizzabili appartengano solo a determinati domini, è possibile elencare i domini autorizzati in questa impostazione, avendo cura di separare i domini tra loro con uno spazio. Le email che non appartengono ai domini elencati non saranno accettate. Per autorizzare anche i sotto domini, elencare il dominio precedendolo con \'.\'. Ad esempio  <strong>ourcollege.edu.au .gov.au</strong>';
-$string['configallowobjectembed'] = 'Come misura di sicurezza standard, agli utenti normali non è permesso includere oggetti multimediali (come Flash) utilizzando esplicitamente i tag EMBED e OBJECT nei testi HTML (rimane la possibilità  per loro di utilizzare il filtro mediaplugins). Se si vuole permettere l\'utilizzo di questi tag allora abilitare questa opzione.';
+$string['configallowobjectembed'] = 'Come misura di sicurezza standard, gli utenti normali non possono includere oggetti multimediali (come Flash) utilizzando esplicitamente i tag EMBED e OBJECT nei testi HTML (possono sempre utilizzare il filtro Plugin multimediali). Se preferite consentire l\'utilizzo di questi tag, allora dovete abilitare l\'opzione.';
 $string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di modificare i ruoli di ogni colonna';
 $string['configallowoverride2'] = 'Tramite la matrice sottostante potete autorizzare i ruoli elencati nella colonna verticale a sinistra a modificare i ruoli di altri utenti.<br>Si precisa che queste impostazioni avranno effetto solamente per i ruoli che hanno i privilegi moodle/role:override oppure moodle/role:safeoverride.';
 $string['configallowswitch'] = 'E\' possibile selezionare i ruoli che possono \'Cambiare ruolo\', in funzione dei ruoli che già si possiedono. Oltre alla impostazione in questa tabella, un utente  deve anche possedere il privilegio moodle/role:switchroles.<br />Da notare che possono cambiare ruolo solo i ruoli che hanno il privilegio moodle/course:view e che non hanno il privilegio moodle/site:doanything. Per questo motivo alcune colonne nella tabella sono disabilitate.';
@@ -161,7 +161,7 @@ $string['configenablerssfeeds'] = 'Attiva il generatore RSS (RSS Feed) nel sito.
 $string['configenablerssfeedsdisabled'] = 'Non è attiva poiché il generatore RSS è disabilitato a livello di sito. Per attivarlo, andate in \'configura variabili\' nel pannello di Amministrazione.';
 $string['configenablerssfeedsdisabled2'] = 'I feed RSS sono disabilitati a livello di server. Devono prima essere abilitati in Server/RSS.';
 $string['configenablestats'] = 'Attivando le statistiche Moodle elaborerà il log con cadenza giornaliera. La durata dell\'elaborazione  dipenderà dal traffico del sito. Le statistiche permettono di visualizzare graficamente dati sui corsi e sul sito.';
-$string['configenabletrusttext'] = 'Per default Moodle pulisce sempre attentamente testi che provengono dagli utenti e rimuove ogni possibile script malevolo, e altro che potrebbe mettere a rischio la sicurezza. Il sistema di Contenuto Affidabile è un modo per dare a utenti particolari, degni di fiducia, la possibilità di includere qualche possibilità avanzata nei loro contenuti senza alcuna interferenza. Per attivare tale sistema, bisogna prima abilitare questa impostazione, e poi attribuire il permesso di Contenuto Affidabile a un ruolo specifico di Moodle. I testi creati o caricati da tali utenti saranno marcati come \"affidabili\" e non saranno alterati prima della visualizzazione.';
+$string['configenabletrusttext'] = 'Moodle per default ripulisce attentamente tutti i testi che provengono dagli utenti per rimuovere ogni possibile script malevolo, oggetto multimediale od altro che possa mettere a repentaglio la sicurezza. Il sistema di Contenuto Affidabile è un modo per dare a particolari utenti degni di fiducia la possibilità di usare funzioni evolute nei loro contenuti senza alcuna interferenza. Per attivare il sistema dovete abilitare l\'impostazione e poi attribuire il privilegio Contenuto Affidabile ad uno specifico ruolo. I testi creati o caricati dagli utenti che hanno tale ruolo saranno contrassegnati come \"affidabili\" e non saranno ripuliti prima della visualizzazione.';
 $string['configenablewebservices'] = 'I Web service consentono agli utenti di altri sistemi di collegarsi a Moodle e di effettuare varie operazioni. Per maggiore sicurezza, abilitate i Web service solo se avete realmente bisogno di usarli.';
 $string['configenrolmentplugins'] = 'In questa pagina è possibile attivare una o più plugin per regolare le iscrizioni ai corsi. E\' importante curare di impostare i plugin in modo corretto.<br /><br />Potete selezionare i plugin da attivare ma ricordatevi che <strong>dovete necessariamente indicare il plugin che Moodle userà di default per le iscrizioni interattive</strong>, ossia le iscrizioni ai corsi che gli utenti autenticati possono effettuare spontaneamente. Se non desiderate che gli utenti possano iscriversi spontaneamente a determinati corsi, nelle impostazioni di questi corsi impostate a \"No\" la proprietà \"Iscrizione spontanea\".';
 $string['configerrorlevel'] = 'Scegliete il numero di messaggi di errore di PHP che si desidera visualizzare. \'Normale\' è solitamente l\'opzione migliore.';
@@ -175,9 +175,8 @@ Questo è particolarmente utile se si usa il filtro multilingua; altrimenti cree
 $string['configfiltermatchoneperpage'] = 'Il filtro di creazione automatica dei link (auto-link) genererà solo il collegamento alla prima occorrenza del testo che viene trovata in una pagina. Tutte le altre sono ignorate.';
 $string['configfiltermatchonepertext'] = 'Il filtro di creazione automatica dei link (auto-link) genererà solo il collegamento alla prima occorrenza del testo trovata in ogni elemento di testo (es. risorsa, blocco) della pagina. Tutti gli altri sono ignorati. Questa impostazione non viene considerata se l\'impostazione uno per pagina è <i>si</i>.';
 $string['configfilteruploadedfiles'] = 'Elabora tutti i file di testo e HTML con i filtri prima di visualizzarli, solo i file HTML o nessun file';
-$string['configforcelogin'] = 'Normalmente, l\'elenco dei corsi e la pagina home del sito vengono visualizzati senza dover effettuare il login. Se si desidera obbligare i visitatori al login prima che sia possibile fare QUALUNQUE cosa sul sito, scegliete questa opzione.';
-$string['configforceloginforprofiles'] = 'Attivando questa impostazione si obbliga il visitatore al login come utente reale (non come ospite) per poter visualizzare i profili di altri utenti. L\'opzione predefinita abilita questa possibilità , in modo che anche i potenziali studenti possano leggere i profili degli docenti di ogni corso.
-Da tenere presente che anche i motori di ricerca web potranno visualizzare i profili.';
+$string['configforcelogin'] = 'L\'elenco dei corsi e la pagina home del sito per default sono visibili senza doversi autenticare. Se si desidera obbligare i visitatori ad autenticarsi  prima che possano vedere la pagina home o svolgere una qualsiasi attività sul sito, abilitate questa opzione.';
+$string['configforceloginforprofiles'] = 'L\'impostazione rende obbligatoria l\'autenticazione con credenziali valide (non come ospite) per  visualizzare i profili di altri utenti. Disabilitando questa impostazione, il contenuto dei profili utente sarà pubblico.';
 $string['configframename'] = 'Se incorporate Moodle in un web frame, mettete il nome del frame qui. Altrimenti questo valore può rimanere su \'_top\'';
 $string['configfrontpage'] = 'Potete impostare gli elementi da visualizzare nella pagina home del sito ed il loro ordine.';
 $string['configfrontpageloggedin'] = 'Potete impostare gli elementi da visualizzare nella pagina home del sito ed il loro ordine per gli utenti che si sono autenticati.';
@@ -225,8 +224,8 @@ La cosa migliore è conservarli il più a lungo possibile in caso di necessità 
 $string['configlongtimenosee'] = 'Se gli studenti non si sono collegati per molto tempo, vengono automaticamente revocati dai corsi. Questo parametro ne specifica il limite di tempo.';
 $string['configlookahead'] = 'Giorni futuri da controllare';
 $string['configmailnewline'] = 'Caratteri Newline (salto riga) usati nei messaggi di posta. Secondo la RFC 822bis è richiesto CRLF, alcuni server di posta converrtono automaticamente LF in CRLF, altri convertono in modo non corretto da CRLF a CRCRLF, altri ancora rifiutano mail con solo LF (qmail per esempio). Provare a cambiare questa impostazione se si riscontrano problemi con messagi non spediti o doppi salti riga.';
-$string['configmaxbytes'] = 'Specifica il limite massimo dei file da trasferire sul sito. Questo valore dipende dalla impostazione della variabile \'upload_max_filesize\' in PHP e dalle impostazioni di \'LimitRequestBody\' in Apache.
-In alternativa, la dimensione massima può essere scelta a livello dei corsi o dei moduli. Se si sceglie \'Limite server\', sarà usato il massimo consentito dal server.';
+$string['configmaxbytes'] = 'Imposta la dimensione massima per gli upload di file. Il valore massimo è limitato dalla variabile PHP  \'upload_max_filesize\' e \'post_max_size\'  e dal valore della variabile \'LimitRequestBody\' di Apache.
+L\'impostazione a sua volta limita la dimensione massima degli upload nei corsi e nei moduli. Scegliendo \'Limite server\', sarà usato il valore di upload massimo consentito.';
 $string['configmaxconsecutiveidentchars'] = 'Le password non devono contenere un numero di caratteri identici e consecutivi maggiori del valore specificato. Per disabilitare questa verifica inserite il valore 0.';
 $string['configmaxeditingtime'] = 'Questo parametro specifica il tempo massimo a disposizione degli utenti per per modificare i loro interventi su forum, commenti del glossario, eccetera. Normalmente 30 minuti è un valore adeguato.';
 $string['configmaxevents'] = 'Eventi da anticipare';
@@ -246,7 +245,7 @@ $string['confignoreplyaddress'] = 'Le mail a volte sono spedite a nome di un ute
 $string['confignotifyloginfailures'] = 'Se sono stati registrati accessi falliti, una mail di notifica può essere spedita. Chi deve ricevere queste notifiche?';
 $string['confignotifyloginthreshold'] = 'Se la notifica sugli accessi falliti è attiva, dopo quanti tentativi falliti per utente o per indirizzo IP la notifica deve essere inviata?';
 $string['confignotloggedinroleid'] = 'Ai visitatori (utenti non autenticati nel contesto del sito) sarà attribuito il ruolo indicato. Per i visitatori non dovreste scegliere nulla di diverso dal ruolo di Ospite, in ogni caso avete la possibilità di creare nuovi ruoli per i visitatori, con autorizzazioni diverse. Alcune attività, come ad esempio intervenire in un forum, richiederanno comunque all\'utente di autenticarsi.';
-$string['configopentogoogle'] = 'Se abilitate questa impostazione, Google potrà  entrare nel vostro sito come Ospite. Inoltre, chi arriverà  al vostro sito tramite Google verrà  automaticamente autenticato come Ospite. Nota che questa impostazione fornisce un accesso trasparente solo ai corsi che già  permettono l\'accesso agli ospiti.';
+$string['configopentogoogle'] = 'L\'impostazione permette a Google di  entrare nel vostro sito come Ospite. Inoltre, coloro che tramite Google raggiungeranno il vostro sito saranno autenticati automaticamente come Ospite. Da notare che l\'impostazione fornisce un accesso trasparente solo a quei corsi che già consentono l\'accesso agli ospiti.';
 $string['configoverride'] = 'Definito in config.php';
 $string['configpasswordpolicy'] = 'Attivando questa opzione Moodle verificherà le password degli utenti secondo le regole indicate. Le impostazioni seguenti servono a specificare tali regole (le regole password saranno ignorate se questa opzione non è selezionata).';
 $string['configpathtoclam'] = 'Percorso assoluto per Clam antivirus. Probabilmente usr/bin/clamscan oppure /usr/bin/clamdscan.
@@ -254,7 +253,7 @@ Questo percorso consente a Clam di funzionare.';
 $string['configpathtodu'] = 'Percorso assoluto per du. Probabilmente usr/bin/du. Se questo campo viene compilato, le pagine che mostrano il contenuto delle cartelle con molti file verranno elaborate più velocemente.';
 $string['configperfdebug'] = 'L\'opzione permette di visualizzare informazioni sulle prestazioni nel piè di pagina del tema standard';
 $string['configprofilesforenrolledusersonly'] = 'Per evitare abusi da parte degli spammer, vengono nascoste le descrizioni nei profili degli utenti che non sono ancora iscritti a corsi. I nuovi utenti potranno aggiungere la  descrizione nel profilo solo dopo essere stati iscritti ad almeno un corso-';
-$string['configprotectusernames'] = 'Per default la routine forget_password.php non mostra elementi che potrebbero permettere di indovinare gli username o gli indirizzi email.';
+$string['configprotectusernames'] = 'Lo script forget_password.php per default non visualizza nulla che possa aiutare ad indovinare username o email di utenti.';
 $string['configproxybypass'] = 'Elenco separato da virgole dei nomi degli host o degli IP (anche parziali) che possono evitare il proxy (ad esempio, 192.168., .mydomain.com)';
 $string['configproxyhost'] = 'Se questo <b>server</b> ha bisogno di un  di un proxy (o di un firewall) per accedere a Internet, specificate il nome del proxy. Se non usate proxy, non compilate questo campo.';
 $string['configproxypassword'] = 'Password per accedere a internet attraverso il proxy, lasciare vuoto se non utilizzata (è necessaria l\'estensione PHP cURL).';
@@ -495,7 +494,7 @@ $string['frontpageoverrides'] = 'Modifiche ai privilegi della Pagina home';
 $string['frontpagequestions'] = 'Domande';
 $string['frontpagerestore'] = 'Ripristino';
 $string['frontpageroles'] = 'Ruoli';
-$string['frontpagesettings'] = 'Impostazioni';
+$string['frontpagesettings'] = 'Impostazioni home';
 $string['fullnamedisplay'] = 'Formato del nome completo';
 $string['gdrecommended'] = 'L\'estensione GD è utilizzata per la conversione di immagini. In assenza, alcune funzioni come le immagini dei profili utente non non saranno disponibili.';
 $string['gdversion'] = 'Versione GD';
@@ -598,7 +597,7 @@ $string['maintinprogress'] = 'Manutenzione in corso...';
 $string['managelang'] = 'Gestione';
 $string['manageqtypes'] = 'Gestione tipi domande';
 $string['managews'] = 'Gestisci i web service';
-$string['maxbytes'] = 'Dimensione massima file di upload';
+$string['maxbytes'] = 'Dimensione massima upload';
 $string['maxconsecutiveidentchars'] = 'Caratteri identici consecutivi';
 $string['maxeditingtime'] = 'Tempo massimo per l\'editing dei messaggi';
 $string['mbstringrecommended'] = 'Installare la libreria opzionale MBSTRING è caldamente consigliato per migliorare le prestazioni del sito, in particolare se il vostro sito supporta lingue non latine.';
@@ -951,12 +950,12 @@ $string['verifychangedemail'] = 'Controlla i domini quando si cambia l\'email';
 $string['warningcurrentsetting'] = 'Valore corrente non valido: $a';
 $string['webproxy'] = 'Proxy web';
 $string['webproxyinfo'] = 'Usate le impostazioni seguenti se il vostro server Moodle non può accedere direttamente ad Internet. L\'accesso ad Internet è necessario per scaricare dati di ambiente, language pack, feed RSS, timezone, eccetera.<br /><em>L\'estensione PHP cURL è fortemente raccomandata.</em>';
-$string['webserviceprotocols'] = 'Server web service';
 $string['webservices'] = 'Web service';
-$string['webservicesystemsettings'] = 'impostazioni comuni';
-$string['webserviceusersettings'] = 'Impostazioni web service degli utenti';
 $string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlrpc è utile per le funzionalità del Moodle Networking.';
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
 $string['ziprequired'] = 'Ora Moodle richiede l\'estensione Zip PHP. Gli eseguibili info-ZIP o la libreria PclZip non è più utilizzata.';
+$string['webserviceprotocols'] = 'Server web service'; // ORPHANED
+$string['webservicesystemsettings'] = 'impostazioni comuni'; // ORPHANED
+$string['webserviceusersettings'] = 'Impostazioni web service degli utenti'; // ORPHANED
 
 ?>
