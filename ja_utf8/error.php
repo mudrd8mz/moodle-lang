@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
+      // error.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
 
 
 $string['TODO'] = 'TODO';
@@ -16,7 +16,6 @@ $string['blockdoesnotexistonpage'] = 'このブロック (id=$a->instanceid) は
 $string['blocknameconflict'] = 'ネーミングコンフリクト: ブロック $a->name には、既存のブロック $a->conflict と同じタイトルが設定されています!';
 $string['cannotaddcoursemodule'] = '新しいコースモジュールを追加できませんでした。';
 $string['cannotaddcoursemoduletosection'] = '新しいコースモジュールをセクションに追加できませんでした。';
-$string['cannotaddmembergroupiddoesntexist'] = 'メンバーをグループに追加できません。グループIDが存在しません。';
 $string['cannotaddmodule'] = '$a モジュールをモジュールリストに追加できませんでした!';
 $string['cannotaddnewmodule'] = '$a の新しいモジュールを追加できませんでした。';
 $string['cannotaddrss'] = 'あなたには、RSSフィードを追加するパーミッションがありません。';
@@ -149,7 +148,6 @@ $string['confirmsesskeybad'] = '申し訳ございません、このアクショ
 $string['couldnotassignrole'] = 'あなたにロールを割り当てている最中に、深刻ですが不明なエラーが発生しました。';
 $string['couldnotupdatenoexistinguser'] = 'ユーザを更新できません - ユーザが存在しません。';
 $string['countriesphpempty'] = 'エラー: 言語パック $a のファイル「countries.php」が空または存在しません。';
-$string['coursedoesntexistcannotcreategroup'] = 'グループを作成できません: コースが存在しません。';
 $string['coursegroupunknown'] = 'コースに関連するグループ $a が指定されていません。';
 $string['courseidnotfound'] = 'コースIDが存在しません。';
 $string['coursemisconf'] = 'コース設定が正しくありません。';
@@ -215,7 +213,6 @@ $string['generalexceptionmessage'] = '例外 - $a';
 $string['gradepubdisable'] = '評定の公開が無効にされています。';
 $string['groupalready'] = 'ユーザは、すでにグループ「 $a 」に属しています';
 $string['groupexistforcourse'] = 'グループ「 $a 」は、すでにこのコースに登録されています。';
-$string['groupiddoesntexistcannotdelete'] = 'グループを削除できません。グループIDが存在しません。';
 $string['groupnotaddederror'] = 'グループ「 $a 」は、追加されませんでした。';
 $string['groupunknown'] = 'グループ「 $a 」は、指定されたコースに関連していません。';
 $string['groupusernotmember'] = 'ユーザは、このグループのメンバーではありません。';
@@ -385,6 +382,7 @@ $string['refoundtoorigi'] = '注文金額の払戻し: $a';
 $string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\"$a->url\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「$a->dest」にコピーおよび解凍してください。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['reportnotavailable'] = 'このタイプのレポートは、サイトコースのみで利用できます。';
+$string['restrictedcontextexception'] = '申し訳ございません、外部関数の実行により、コンテクストの制限に違反します。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を実行できません。';
 $string['reverseproxyabused'] = '申し訳ございません、リバースプロクシが有効にされているため、サーバに直接アクセスできません。<br />サーバ管理者にご連絡ください。';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses:<br /> ($a)';
@@ -449,8 +447,6 @@ $string['urlnotdefinerss'] = 'RSSフィードのURIが定義されていませ�
 $string['userautherror'] = '不明な認証プラグイン「 $a 」';
 $string['userauthunsupported'] = 'ここでは認証プラグインがサポートされていません。';
 $string['useremailduplicate'] = '重複メールアドレス';
-$string['useriddoesntexist'] = 'ユーザIDが存在しません。';
-$string['userisnotaparticipant'] = 'このユーザは、コース参加者ではありません。';
 $string['usermustbemnet'] = 'MNETアクセスコントロールリストのユーザには、リモートMNETのユーザを使用してください。';
 $string['usernotaddedadmin'] = '管理者アカウントは削除できません。';
 $string['usernotaddederror'] = 'ユーザは追加されませんでした - エラー。';
@@ -476,16 +472,11 @@ $string['wrongroleid'] = 'ロールIDが正しくありません!';
 $string['wrongsourcebase'] = 'ソースURIベースが正しくありません。';
 $string['wrongusernamepassword'] = 'ユーザID/パスワードが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
-$string['wscouldnotaddgroupmembernopermission'] = 'WS - グループメンバーを追加できませんでした - パーミッションがありません。';
 $string['wscouldnotcreateecoursenopermission'] = 'WS - コースを作成できませんでした - パーミッションがありません。';
 $string['wscouldnotcreateeuserindb'] = 'WS - ユーザを作成できませんでした。';
 $string['wscouldnotcreateeusernopermission'] = 'WS - ユーザを作成できませんでした - パーミッションがありません。';
-$string['wscouldnotcreategroupnopermission'] = 'WS - グループを作成できませんでした - パーミッションがありません。';
-$string['wscouldnotdeletegroupnopermission'] = 'WS - グループを削除できませんでした - パーミッションがありません。';
 $string['wscouldnotdeletenoexistinguser'] = 'WS - ユーザを削除できませんでした - ユーザが登録されていません。';
 $string['wscouldnotdeleteusernopermission'] = 'WS - ユーザを削除できませんでした - パーミッションがありません。';
-$string['wscouldnotgetgroupnopermission'] = 'WS - グループを取得できませんでした - パーミッションがありません。';
-$string['wscouldnotremovegroupmembernopermission'] = 'WS - グループメンバーを削除できませんでした - パーミッションがありません。';
 $string['wscouldnotupdatenoexistinguser'] = 'WS - ユーザを更新できませんでした - ユーザが登録されていません。';
 $string['wscouldnotupdateuserindb'] = 'WS - ユーザを更新できませんでした。';
 $string['wscouldnotupdateusernopermission'] = 'WS - ユーザを更新できませんでした - パーミッションがありません。';
@@ -497,6 +488,16 @@ $string['wwwrootslash'] = 'config.phpに正しくない \$CFG->wwwroot が検知
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['youcannotdeletecategory'] = 'コンテンツを削除または移動できないため、あなたはカテゴリ「 $a 」を削除することはできません。';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
+$string['cannotaddmembergroupiddoesntexist'] = 'メンバーをグループに追加できません。グループIDが存在しません。'; // ORPHANED
+$string['coursedoesntexistcannotcreategroup'] = 'グループを作成できません: コースが存在しません。'; // ORPHANED
+$string['groupiddoesntexistcannotdelete'] = 'グループを削除できません。グループIDが存在しません。'; // ORPHANED
+$string['useriddoesntexist'] = 'ユーザIDが存在しません。'; // ORPHANED
+$string['userisnotaparticipant'] = 'このユーザは、コース参加者ではありません。'; // ORPHANED
+$string['wscouldnotaddgroupmembernopermission'] = 'WS - グループメンバーを追加できませんでした - パーミッションがありません。'; // ORPHANED
+$string['wscouldnotcreategroupnopermission'] = 'WS - グループを作成できませんでした - パーミッションがありません。'; // ORPHANED
+$string['wscouldnotdeletegroupnopermission'] = 'WS - グループを削除できませんでした - パーミッションがありません。'; // ORPHANED
+$string['wscouldnotgetgroupnopermission'] = 'WS - グループを取得できませんでした - パーミッションがありません。'; // ORPHANED
+$string['wscouldnotremovegroupmembernopermission'] = 'WS - グループメンバーを削除できませんでした - パーミッションがありません。'; // ORPHANED
 $string['cannotaddblock'] = '$a ブロックをブロックリストに追加できませんでした!'; // ORPHANED
 $string['cannotaddcmtosection'] = 'セクションに新しいコースモジュールを追加できませんでした。'; // ORPHANED
 $string['cannotaddnewinstance'] = '$a の新しいインスタンスを追加できませんでした。'; // ORPHANED

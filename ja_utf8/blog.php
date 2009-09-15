@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20090904) (2009090400)
+      // blog.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
 
 
 $string['addnewentry'] = '新しいエントリを追加する';
@@ -13,6 +13,7 @@ $string['blockrecenttitle'] = '最近のブログエントリ';
 $string['blocktagstitle'] = 'ブログタグ';
 $string['blocktitle'] = 'ブログタグブロックのタイトル';
 $string['blog'] = 'ブログ';
+$string['blogadministration'] = 'ブログ管理';
 $string['blogdeleteconfirm'] = 'このブログを削除してもよろしいですか?';
 $string['blogdisable'] = 'ブログは無効にされています!';
 $string['blogentries'] = 'ブログエントリ';
@@ -68,6 +69,7 @@ $string['numberoftags'] = '表示するタグ数';
 $string['pagesize'] = '1ページあたりのブログエントリ数';
 $string['permalink'] = 'パーマリンク';
 $string['personalblogs'] = 'ユーザは自分のブログのみ読むことができる';
+$string['preferences'] = 'プリファレンス';
 $string['publishto'] = '公開先:';
 $string['publishtocourse'] = 'あなたとコースを共有しているユーザ';
 $string['publishtocourseassocparam'] = '$a のメンバー';
