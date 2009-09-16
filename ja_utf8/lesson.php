@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // lesson.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
 
 
 $string['accesscontrol'] = 'アクセスコントロール';
@@ -11,6 +11,7 @@ $string['addabranchtable'] = 'ブランチテーブルを追加する';
 $string['addanendofbranch'] = '終了ブランチを追加する';
 $string['addaquestionpage'] = '問題ページを追加する';
 $string['addaquestionpagehere'] = '問題ページをここに追加する';
+$string['addbranchtable'] = 'ブランチテーブルを追加する';
 $string['addcluster'] = 'クラスタを追加する';
 $string['addedabranchtable'] = 'ブランチテーブルが追加されました。';
 $string['addedanendofbranch'] = '終了ブランチが追加されました。';
@@ -66,6 +67,7 @@ $string['completed'] = '完了';
 $string['completederror'] = 'レッスンを完了する';
 $string['completethefollowingconditions'] = '先へ進むには、<b>$a</b> レッスンの下記の状態を完了させる必要があります。';
 $string['conditionsfordependency'] = '依存条件';
+$string['confirmdelete'] = 'ページを削除する';
 $string['confirmdeletionofthispage'] = '本当にこのページを削除してもよろしいですか?';
 $string['congratulations'] = 'おめでとうございます - レッスンの最後に到達しました。';
 $string['continue'] = '続ける';
@@ -97,8 +99,9 @@ $string['displayreview'] = 'レビューボタンを表示する';
 $string['displayscorewithessays'] = '自動評定によるあなたの評点は、$a->tempmaxgrade 点中 $a->score 点です。<br />作文問題 $a->essayquestions が評定され、後日あなたの最終評点に追加されます。<br /><br />作文問題を除くあなたの現在の評点は、$a->grade 点中 $a->score 点です。';
 $string['displayscorewithoutessays'] = 'あなたの評点は、 $a->score ($a->grade 点中)です。';
 $string['edit'] = '編集';
-$string['editlessonsettings'] = 'レッスンの更新';
-$string['editpagecontent'] = 'ページコンテンツの編集';
+$string['editlessonsettings'] = 'レッスン設定を編集する';
+$string['editpage'] = 'ページコンテンツを編集する';
+$string['editpagecontent'] = 'ページコンテンツを編集する';
 $string['email'] = 'メール';
 $string['emailallgradedessays'] = 'すべての作文問題の評定結果を<br />メール送信する';
 $string['emailgradedessays'] = '作文問題の評定結果をメール送信する';
@@ -157,6 +160,7 @@ $string['leftduringtimed'] = 'あなたは制限時間のあるレッスンを�
 $string['leftduringtimednoretake'] = 'あなたは制限時間のあるレッスンを途中で終了しました。<br />レッスンを再受験または継続できません。';
 $string['lesson:edit'] = 'レッスン活動を編集する';
 $string['lesson:manage'] = 'レッスン活動を管理する';
+$string['lessonadministration'] = 'レッスン管理';
 $string['lessonattempted'] = 'レッスン受験済み';
 $string['lessonclosed'] = 'このレッスンは $a に終了します。';
 $string['lessoncloses'] = 'レッスン終了';
@@ -193,6 +197,7 @@ $string['modattempts'] = '学生のレビューを許可する';
 $string['modattemptsnoteacher'] = '学生レビューは学生のみに表示されます。';
 $string['modulename'] = 'レッスン';
 $string['modulenameplural'] = 'レッスン';
+$string['move'] = 'ページを移動する';
 $string['movedpage'] = 'ページを移動しました。';
 $string['movepagehere'] = 'ページをここに移動する';
 $string['moving'] = 'ページの移動: $a';

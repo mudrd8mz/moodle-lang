@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
 
 
 $string['1day'] = '1日';
@@ -556,6 +556,7 @@ $string['quiz:regrade'] = '小テストの受験を再評定する';
 $string['quiz:reviewmyattempts'] = 'あなたの受験をレビューする';
 $string['quiz:view'] = '小テスト情報を表示する';
 $string['quiz:viewreports'] = '小テストレポートを表示する';
+$string['quizadministration'] = '小テスト管理';
 $string['quizavailable'] = '小テストは $a まで利用できます。';
 $string['quizclose'] = '小テスト終了日時';
 $string['quizclosed'] = 'この小テストは $a に終了しました。';

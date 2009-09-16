@@ -1184,6 +1184,7 @@ $string['parentcoursenotfound'] = '親コースが見つかりませんでした
 $string['parentcoursenotmetacourse'] = '親コースはメタコースではありません!';
 $string['parentfolder'] = '親フォルダ';
 $string['participants'] = '参加者';
+$string['participantslist'] = '参加者リスト';
 $string['participationratio'] = '参加比率';
 $string['participationreport'] = '参加レポート';
 $string['password'] = 'パスワード';
