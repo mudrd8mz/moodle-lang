@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.9 (2007101509)
+      // bulkusers.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
 
 
 $string['addall'] = 'Legg til alle';
@@ -12,9 +12,9 @@ $string['confirmmessage'] = 'Vil du virkelig sende denne meldingen til alle bruk
 $string['nofilteredusers'] = 'Ingen brukere funnet (0/$a)';
 $string['noselectedusers'] = 'Ingen brukere valgt';
 $string['removeall'] = 'Fjern alle';
-$string['removesel'] = 'Ta bort fra seksjon';
+$string['removesel'] = 'Fjern fra utvalget';
 $string['selected'] = 'Valgt';
-$string['selectedlist'] = 'Valgt bruker liste';
+$string['selectedlist'] = 'Valgt brukerliste';
 $string['usersfound'] = '$a bruker(e) funnet.';
 $string['usersinlist'] = 'Brukere på listen';
 $string['usersselected'] = '$a bruker(e) valgt.';
