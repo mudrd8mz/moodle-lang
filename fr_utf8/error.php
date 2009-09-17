@@ -50,6 +50,7 @@ $string['cannotdeletecategoryquestions'] = 'Impossible de supprimer des question
 $string['cannotdeletecourse'] = 'Vous n\'avez pas la permission de supprimer ce cours';
 $string['cannotdeletecustomfield'] = 'Erreur lors de la suppression d\'un champ personnalisé';
 $string['cannotdeletedir'] = 'Suppression impossible ($a)';
+$string['cannotdeletefile'] = 'Impossible de supprimer ce fichier';
 $string['cannotdeletelangcache'] = 'Le cache des langues ne peut pas être supprimé. Veuillez modifier les permissions de dataroot/cache/languages !';
 $string['cannotdeleterole'] = 'Le rôle ne peut pas être supprimé, parce que $a';
 $string['cannotdeleterolewithid'] = 'Impossible de supprimer le rôle d\'identifiant $a';
