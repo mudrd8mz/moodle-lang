@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // resource.php - created with Moodle 1.9.5+ (Build: 20090916) (2007101551)
 
 
 $string['addresource'] = 'Ny ressurs';
@@ -118,10 +118,10 @@ $string['resourcetypedirectory'] = 'Vis en mappe';
 $string['resourcetypefile'] = 'Lenk til en fil eller et nettsted';
 $string['resourcetypehtml'] = 'Lag en nettside';
 $string['resourcetypeims'] = 'Legg til en IMS-innholdspakke';
-$string['resourcetypelabel'] = 'Sett inn ei overskrift';
+$string['resourcetypelabel'] = 'Sett inn informasjonsfelt';
 $string['resourcetyperepository'] = 'Lenke til et lagret objekt';
 $string['resourcetypetext'] = 'Lag ei tekstside';
-$string['searchweb'] = 'Søk etter ei nettside';
+$string['searchweb'] = 'Søk etter en nettside';
 $string['serverurl'] = 'Tjener URL ($a->wwwroot)';
 $string['showcourseblocks'] = 'Vis kursbokser';
 $string['skipsubmenus'] = 'Hopp over undermeny-sider';

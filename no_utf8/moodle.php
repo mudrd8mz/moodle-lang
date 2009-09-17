@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20090916) (2007101551)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -28,7 +28,7 @@ $string['addedtogroup'] = 'Lagt til gruppe $a';
 $string['addedtogroupnot'] = 'Ikke lagt til gruppe $a';
 $string['addedtogroupnotenrolled'] = 'Ble ikke lagt til gruppe $a fordi brukeren ikke har tilgang til kurset';
 $string['addinganew'] = 'Legger til en ny $a';
-$string['addinganewto'] = 'Legger en ny $a->what til $a->to';
+$string['addinganewto'] = 'Legger til $a->what til $a->to';
 $string['addingdatatoexisting'] = 'Legger data til eksisterende';
 $string['addnewcategory'] = 'Legg til ny kategori';
 $string['addnewcourse'] = 'Legg til nytt kurs';
