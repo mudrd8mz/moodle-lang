@@ -1,11 +1,10 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20090314) (2009030501)
+      // chat.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['ajax'] = 'Ajax 사용판';
 $string['autoscroll'] = '자동 스크롤';
 $string['beep'] = '호출';
-$string['cantinsert'] = '대화 내용을 입력할 수 없음!';
 $string['cantlogin'] = '대화방에 입장할 수 없음!!';
 $string['chat:chat'] = '대화방 입실';
 $string['chat:deletelog'] = '대화 기록 삭제';
@@ -13,6 +12,7 @@ $string['chat:exportparticipatedsession'] = '대화 참석 내용 내보내기';
 $string['chat:exportsession'] = '대화 내용 내보내기';
 $string['chat:readlog'] = '대화 기록 읽기';
 $string['chat:talk'] = '대화하기';
+$string['chatadministration'] = '대화방 관리';
 $string['chatintro'] = '머리말';
 $string['chatname'] = '대화방 이름';
 $string['chatreport'] = '대화방 보고서';
@@ -82,9 +82,11 @@ $string['serverport'] = '서버 포트';
 $string['sessions'] = '대화 세션';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = '종료된 대화 공개 여부';
+$string['talk'] = '말하기';
 $string['updatemethod'] = '갱신 방법';
 $string['updaterate'] = '갱신율:';
 $string['userlist'] = '사용자 목록';
 $string['viewreport'] = '지난 대화 보기';
+$string['cantinsert'] = '대화 내용을 입력할 수 없음!'; // ORPHANED
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080913) (2008091000)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['allowdeleting'] = '삭제 허용';
@@ -12,6 +12,7 @@ $string['assignment:exportsubmission'] = '제출 내보내기';
 $string['assignment:grade'] = '과제 점수';
 $string['assignment:submit'] = '과제 제출';
 $string['assignment:view'] = '과제 보기';
+$string['assignmentadministration'] = '과제 관리';
 $string['assignmentdetails'] = '과제 세부사항';
 $string['assignmentmail'] = '$a->teacher 선생님이 제출된 \'$a->assignment\' 과제에 대한 의견을 달아놓으셨습니다.<br />
 이것은 다음에서 볼 수 있습니다: $a->url';
@@ -21,7 +22,6 @@ $string['assignmentname'] = '과제명';
 $string['assignmenttype'] = '과제 형태';
 $string['availabledate'] = '시작 일시';
 $string['cannotdeletefiles'] = '오류가 발생하여 삭제할 수 없음';
-$string['cannotinsertempty'] = '내용없는 제출물은 추가할 수 없음';
 $string['cannotviewassignment'] = '이 과제는 볼 수 없음';
 $string['comment'] = '평';
 $string['commentinline'] = '즉석 평';
@@ -72,11 +72,13 @@ $string['itemstocount'] = '갯수';
 $string['late'] = '$a 늦음';
 $string['maximumgrade'] = '최대 점수';
 $string['maximumsize'] = '최대 용량';
+$string['maxpublishstate'] = '마감일 전까지 볼 수 있는 블로그의 최대 깊이';
 $string['modulename'] = '과제';
 $string['modulenameplural'] = '과제제출';
 $string['newsubmissions'] = '제출된 과제들';
 $string['noassignments'] = '아직 주어진 과제가 없음';
 $string['noattempts'] = '이 과제를 제출하려는 시도가 없었음';
+$string['noblogs'] = '제출한 블로그 내용이 없음!';
 $string['nofiles'] = '제출된 파일이 없음';
 $string['nofilesyet'] = '아직 아무 파일도 제출하지 않았음';
 $string['nomoresubmissions'] = '더이상의 제출은 허용되지 않습니다.';
@@ -95,6 +97,7 @@ $string['quickgrade'] = '신속 채점 허용';
 $string['responsefiles'] = '반응 파일';
 $string['reviewed'] = '검토했음';
 $string['saveallfeedback'] = '내 의견을 모두 저장';
+$string['selectblog'] = '제출하고 싶은 블로그 목록 선택';
 $string['sendformarking'] = '채점을 위한 제출';
 $string['showrecentsubmissions'] = '최근 제출물 보기';
 $string['submission'] = '제출';
@@ -109,6 +112,7 @@ $string['submitformarking'] = '채점을 위한 과제 제출';
 $string['submitted'] = '제출 완료';
 $string['submittedfiles'] = '제출된 파일들';
 $string['trackdrafts'] = '제출 표시 활성화';
+$string['typeblog'] = '블로그 게시';
 $string['typeoffline'] = '오프라인 활동';
 $string['typeonline'] = '온라인 문서 제출';
 $string['typeupload'] = '여러개 파일 제출';
@@ -125,8 +129,10 @@ $string['uploadnotregistered'] = '\'$a\'가 성공적으로 전송되었지만, 
 $string['uploadsuccess'] = '\'$a\' 올리기 성공';
 $string['usermisconf'] = '사용자가 잘못 설정됨';
 $string['viewfeedback'] = '과제 점수와 피드백 보기';
+$string['viewmysubmission'] = '제출물 보기';
 $string['viewsubmissions'] = '제출된 $a 개의 과제 보기';
 $string['yoursubmission'] = '과제 제출';
+$string['cannotinsertempty'] = '내용없는 제출물은 추가할 수 없음'; // ORPHANED
 $string['disableemailnotification'] = '이메일 통지 해제'; // ORPHANED
 
 ?>
