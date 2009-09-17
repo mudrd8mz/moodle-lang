@@ -1,5 +1,43 @@
 <?php // $Id$ 
 
+$string['clicktodownload'] = 'Cliquer le lien $a pour télécharger le fichier.';
+$string['clicktoopen2'] = 'Cliquer le lien $a pour afficher le fichier.';
+$string['configdisplayoptions'] = 'Sélectionner toutes les options à mettre à disposition des utilisateurs. Les réglages existants ne sont pas modifiés. Vous pouvez sélectionner plusieurs champs simultanément.';
+$string['configframesize'] = 'Cette valeur est la hauteur (en pixels) du cadre contenant la navigation. Elle est utilisée quand une page web ou un fichier déposé est affiché dans un cadre.';
+$string['contentheader'] = 'Contenu';
+$string['displayauto'] = 'Automatique';
+$string['displaydownload'] = 'Forcer le téléchargement';
+$string['displayembed'] = 'Incorporer';
+$string['displayframe'] = 'Dans un cadre';
+$string['displaynew'] = 'Nouvelle fenêtre';
+$string['displayopen'] = 'Ouvrir';
+$string['displayoptions'] = 'Options d\'affichage disponibles';
+$string['displaypopup'] = 'Dans une fenêtre surgissante';
+$string['displayselect'] = 'Affichage';
+$string['displayselectexplain'] = 'Choisir le type d\'affichage. Tous les types ne sont pas adéquats pour tous les fichiers.';
+$string['filenotfound'] = 'Fichier introuvable.';
+$string['filterfiles'] = 'Appliquer les filtres sur le contenu du fichier';
+$string['filterfilesexplain'] = 'Sélectionner le type de filtre de contenu. Veuillez remarquer que ceci peut causer des problèmes pour certaines applications Flash et Java. Assurez-vous que l\'encodage de tous les fichiers textes soit UTF-8.';
+$string['foldercontent'] = 'Fichiers et sous-dossiers';
+$string['framesize'] = 'Hauteur du cadre';
+$string['legacyfiles'] = 'Migration des anciens fichiers de cours';
+$string['legacyfilesactive'] = 'Activée';
+$string['legacyfilesdone'] = 'Terminée';
+$string['modulename'] = 'Fichier';
+$string['modulenameplural'] = 'Fichiers';
+$string['neverseen'] = 'Jamais consulté';
+$string['notmigrated'] = 'Cet ancien type de ressource ($a) n\'a pas été copié.';
+$string['optionsheader'] = 'Options';
+$string['popupheight'] = 'Hauteur de la fenêtre (en pixels)';
+$string['popupheightexplain'] = 'Indique la hauteur par défaut des fenêtres surgissantes.';
+$string['popupwidth'] = 'Largeur de la fenêtre (en pixels)';
+$string['popupwidthexplain'] = 'Indique la largeur par défaut des fenêtres surgissantes.';
+$string['printheading'] = 'Afficher le nom de la ressource';
+$string['printheadingexplain'] = 'Indique s\'il faut afficher le nom de la ressource au-dessus du contenu. Certains types d\'affichage n\'afficheront toutefois pas ce nom, même lorsque l\'option est activée.';
+$string['printintro'] = 'Afficher la description de la ressource';
+$string['printintroexplain'] = 'Indique s\'il faut afficher la description de la ressource au-dessus du contenu. Certains types d\'affichage n\'afficheront toutefois pas cette description, même lorsque l\'option est activée.';
+$string['resourcecontent'] = 'Fichiers et sous-dossiers';
+
 $string['addresource'] = 'Ajouter une ressource';
 $string['affectedresources'] = 'Ressources touchées';
 $string['allowlocalfiles'] = 'Autoriser les fichiers locaux';
