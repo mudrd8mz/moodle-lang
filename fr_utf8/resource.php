@@ -1,7 +1,7 @@
 <?php // $Id$ 
 
-$string['clicktodownload'] = 'Cliquer le lien $a pour télécharger le fichier.';
-$string['clicktoopen2'] = 'Cliquer le lien $a pour afficher le fichier.';
+$string['clicktodownload'] = 'Cliquer le lien {$a} pour télécharger le fichier.';
+$string['clicktoopen2'] = 'Cliquer le lien {$a} pour afficher le fichier.';
 $string['configdisplayoptions'] = 'Sélectionner toutes les options à mettre à disposition des utilisateurs. Les réglages existants ne sont pas modifiés. Vous pouvez sélectionner plusieurs champs simultanément.';
 $string['configframesize'] = 'Cette valeur est la hauteur (en pixels) du cadre contenant la navigation. Elle est utilisée quand une page web ou un fichier déposé est affiché dans un cadre.';
 $string['contentheader'] = 'Contenu';
@@ -26,7 +26,7 @@ $string['legacyfilesdone'] = 'Terminée';
 $string['modulename'] = 'Fichier';
 $string['modulenameplural'] = 'Fichiers';
 $string['neverseen'] = 'Jamais consulté';
-$string['notmigrated'] = 'Cet ancien type de ressource ($a) n\'a pas été copié.';
+$string['notmigrated'] = 'Cet ancien type de ressource ({$a}) n\'a pas été copié.';
 $string['optionsheader'] = 'Options';
 $string['popupheight'] = 'Hauteur de la fenêtre (en pixels)';
 $string['popupheightexplain'] = 'Indique la hauteur par défaut des fenêtres surgissantes.';
