@@ -478,6 +478,7 @@ $string['respectingcurrentdata'] = 'en conservant la configuration actuelle';
 $string['rowpreviewnum'] = 'Prévisualiser les rangées';
 $string['savechanges'] = 'Enregistrer les changements';
 $string['savepreferences'] = 'Enregistrer les préférences';
+$string['scaleconfirmdelete'] = 'Voulez-vous vraiment supprimer le barème « {$a} » ?';
 $string['scaledpct'] = '%% pondéré';
 $string['scaleidhelp'] = 'Lorsque le type de note utilisé est barème, un barème peut être choisi. Le barème d\'un élément d\'évaluation basé sur une activité est géré sur la page de modification de l\'activité.';
 $string['scalestandardhelp'] = 'Les barèmes standards sont disponibles dans tout le site, pour tous les cours.';
