@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // group.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
 
 
 $string['addgroupstogrouping'] = 'הוסף קבוצות לאוסף הקבוצות';
@@ -21,7 +21,7 @@ $string['creategroupinselectedgrouping'] = 'צור קבוצה באוסף הקב�
 $string['createingrouping'] = 'צור באוסף הקבוצות';
 $string['createorphangroup'] = 'צור קבוצה יתומה';
 $string['databaseupgradegroups'] = 'כעת גירסת הקבוצה היא $a';
-$string['defaultgrouping'] = 'ברירת מחדל לקיבוצים';
+$string['defaultgrouping'] = 'ברירת מחדל לאוספי קבוצות';
 $string['defaultgroupingname'] = 'אוסף קבוצות';
 $string['defaultgroupname'] = 'קבוצה';
 $string['deleteallgroupings'] = 'מחק את כל אוסף הקבוצות';

@@ -104,7 +104,7 @@ $string['configeditorfontlist'] = 'בחר את הגופנים אשר יופיע�
 $string['configenableajax'] = 'הגדרה זו מאפשרת לך לשלוט על שימוש ב AJAX (יצירת תקשורת והחלפת מידע מתקדמת בין מחשב הלקוח לשרת דפי האינטרנט באמצעות קוד JavaScript)לרוחב כל האתר. כאשר הגדרה זו מופעלת המשתמשים עדיין יכולים לבחור אותה בפרופיל המשתמש שלהם. אחרת AJAX תנוטרל לכולם.';
 $string['configenablecourserequests'] = 'הגדרה זו תאפשר לכל משתמש לדרוש יצירת קורס.';
 $string['configenableglobalsearch'] = 'הגדרה זו מאפשרת חיפוש טקסט גלובלי במשאבים ובפעילויות, הגדרה זו לא תואמת למשתמשי PHP 4.';
-$string['configenablegroupings'] = 'הפעלה זאת מאפשרת קיבוץ קבוצות. (עדיין בשלב פיתוח)';
+$string['configenablegroupings'] = 'הפעלה זאת מאפשרת אוספי קבוצות. (עדיין בשלב פיתוח)';
 $string['configenablehtmlpurifier'] = 'השתמש בתוכני HTML Purifier 
 במקום KSES לניקוי טקסט לא אמין. Purifier HTML פותח באופן אקטיבי ומסתמן כבעל אבטחה גבוהה יותר. אך דורש יותר משאבים. חוץ משינויים ויזואלים קטנים בתוצאת קוד ה-HTML. דע כי תגי שיבוץ ואובייקטים לא יאופשרו, תגי MathML ותגי שפה ישנים אינם נתמכים.';
 $string['configenablerssfeeds'] = 'הגדרה זו תאפשר הזנות RSS ברחבי האתר. על מנת לאפשר הזנות RSS בכל מקום בו הדבר נתמך, עליך לאפשר הזנות RSS גם עבור כל מודול - גש להגדרות המודולים המופיעות באיזור הגדרות ניהול.';
@@ -304,7 +304,7 @@ $string['emptysettingvalue'] = 'ריק';
 $string['enableajax'] = 'אפשר AJAX';
 $string['enablecourserequests'] = 'אפשר דרישות קורס';
 $string['enableglobalsearch'] = 'אפשר חיפוש גלובלי';
-$string['enablegroupings'] = 'אפשר קיבוצים';
+$string['enablegroupings'] = 'אפשר אוספי קבוצות';
 $string['enablehtmlpurifier'] = 'הפעל את  HTML Purifier';
 $string['enablerecordcache'] = 'אפשר שימוש בזיכרון מטמון לרשומות.';
 $string['enablerssfeeds'] = 'אפשר הזנות RSS';
