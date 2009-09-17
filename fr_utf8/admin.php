@@ -613,6 +613,7 @@ $string['mymoodle'] = 'Mon Moodle';
 $string['mymoodleredirect'] = 'Imposer aux utilisateurs l\'utilisation de Mon Moodle';
 $string['mysql416bypassed'] = 'Toutefois, si votre site utilise UNIQUEMENT des langues encodées en iso-8859-1 (latin), vous pouvez continuer à utiliser votre version actuelle de MySQL 4.1.12 (ou ultérieure).';
 $string['mysql416required'] = 'MySQL 4.1.16 est la version minimale requise pour Moodle 1.6, afin de garantir que toutes les données pourront à l\'avenir être converties en encodage UTF-8.';
+$string['navigationupgrade'] = 'Cette mise à jour introduit deux nouveaux blocs de navigation destinés à remplacer les blocs suivants : Administration, Cours, Activités et Participants. Si vous avez défini des permissions particulières pour ces blocs, veuillez vérifier que tout fonctionne comme vous le désirez.<br /><br />Il vous sera peut-être nécessaire de forcer l\'actualisation de l\'affichage de votre navigateur pour charger les nouveaux styles, sans quoi les nouveaux blocs ne fonctionneront pas correctement.';
 //$string['newusernamehandling'] = 'Traitement des doublons des noms d\'utilisateurs';
 $string['nobookmarksforuser'] = 'vous n\'avez pas de marque-page.';
 $string['nochanges'] = 'Aucune modification';
