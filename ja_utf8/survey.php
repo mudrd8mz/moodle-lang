@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // survey.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
 
 
 $string['actual'] = '実体験';
@@ -173,6 +173,7 @@ $string['done'] = '完了';
 $string['download'] = 'ダウンロード';
 $string['downloadexcel'] = 'Excelフォーマットでダウンロードする';
 $string['downloadinfo'] = 'Excel、SPSS等で分析するために、調査の実データをダウンロードすることが可能です。';
+$string['downloadresults'] = 'ダウンロード結果';
 $string['downloadtext'] = 'テキストフォーマットでダウンロードする';
 $string['editingasurvey'] = '調査を編集する';
 $string['guestsnotallowed'] = 'ゲストは調査へ参加できません';
@@ -200,6 +201,7 @@ $string['question'] = '質問';
 $string['questions'] = '質問';
 $string['questionsnotanswered'] = '未回答の質問があります。';
 $string['report'] = '調査報告';
+$string['responsereports'] = '回答結果';
 $string['responses'] = '回答';
 $string['savednotes'] = 'メモが保存されました。';
 $string['scaleagree5'] = '全く賛成できない,多少賛成できない,どちらでもない,多少賛成できる,強く賛成できる';
@@ -211,6 +213,7 @@ $string['summary'] = '要約';
 $string['survey:download'] = '回答をダウンロードする';
 $string['survey:participate'] = '調査に回答する';
 $string['survey:readresponses'] = '回答を表示する';
+$string['surveyadministration'] = '調査管理';
 $string['surveycompleted'] = '調査が終了しました。下のグラフはクラスの平均とあなたの結果を比較したものです。';
 $string['surveygraph'] = '調査グラフ';
 $string['surveyname'] = '調査名';
