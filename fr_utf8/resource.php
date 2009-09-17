@@ -37,6 +37,7 @@ $string['printheadingexplain'] = 'Indique s\'il faut afficher le nom de la resso
 $string['printintro'] = 'Afficher la description de la ressource';
 $string['printintroexplain'] = 'Indique s\'il faut afficher la description de la ressource au-dessus du contenu. Certains types d\'affichage n\'afficheront toutefois pas cette description, même lorsque l\'option est activée.';
 $string['resourcecontent'] = 'Fichiers et sous-dossiers';
+$string['setmainfile'] = 'Définir le fichier principal';
 
 $string['addresource'] = 'Ajouter une ressource';
 $string['affectedresources'] = 'Ressources touchées';
