@@ -1,0 +1,246 @@
+<h2>Avansert bruk av Markdown</h2>
+
+<div id="Main">
+
+<div class="article">
+<p>Dette avsnittet utvider basisinformasjonen gitt i avsnittet "Formater tekst med Markdown" for å gi de med spesielle krav nødvendig informasjon for å få mest mulig ut av formatteringsspråket. Dersom du ikke ser, eller ikke trenger, formatteringen som vises under kan du godt hoppe over dette avsnittet og heller lese dette dersom behovet skulle oppstå.
+</p>
+
+<p>(Enda mer) Avanserte muligheter er tilgjengelige. Se avsnittet for <a href="#further">ekstra funksjoner</a>
+.</p>
+
+<ul>
+
+<li><a href="#linebreaks">Linjeskift</a></li>
+<li><a href="#hr">Horisontal strek</a></li>
+<li><a href="#image_links">Lenkede bilder</a></li>
+<li><a href="#tables">Tabeller</a></li>
+<li><a href="#definition">Definisjonslister</a></li>
+<li><a href="#footnotes">Fotnoter</a></li>
+<li><a href="#embedded">Embedded HTML</a></li>
+<li><a href="#preformatted">Pre-formattert kode</a></li>
+<li><a href="#special_char">Spesielle tegn</a></li>
+<li><a href="#further">Ekstra funksjoner</a></li>
+</ul>
+
+<h2><a id="linebreaks">Linjeskift</a></h2>
+
+<p>I noen tekster, f.eks. dikt og vers, er det ofte behov for ekstra linjeskift. Retur-tasten gir ikke ønsket resultat og alt vises som en sammenhengende tekststreng.
+</p>
+
+<p><strong><code>The best laid schemes o' Mice an' Men,<br />
+Gang aft agley,<br />
+An' lea'e us nought but grief an' pain,<br />
+For promis'd joy!</code></strong></p>
+
+<p>Teksten over vil gi dette resultatet dersom du bare bruker Retur-tasten på slutten av hver linje:
+</p>
+
+<p>The best laid schemes o' Mice an' Men,
+Gang aft agley,
+An' lea'e us nought but grief an' pain,
+For promis'd joy!</p>
+
+<p>Dersom du derimot avslutter hver linje med to mellomrom før du trykker Retur-tasten, vil det i stedet bli slik. 
+</p>
+
+<p>The best laid schemes o' Mice an' Men,<br />
+Gang aft agley,<br />
+An' lea'e us nought but grief an' pain,<br />
+For promis'd joy!  </p>
+
+<h2><a id="hr">Horisontale streker</a></h2>
+
+<p>Horisontale streker kan lages ved på skrive tre eller flere asterisks (*), streker (-) eller understreker (_) på en egen linje.
+</p>
+
+<p>Dette vil fungere:</p>
+
+<p><strong><code>***</code></strong></p>
+
+<p>men du kan legge til mellomrom og tegn for å gjøre det mer åpenbart at dette er en avsnittsskift.
+</p>
+
+<p><strong><code>* * * * *</code></strong></p>
+
+<p><strong><code>-------------------------</code></strong></p>
+
+<p><strong><code>_ _ _ _ _</code></strong></p>
+
+<p>Alle disse metodene gir samme resultat:
+</p>
+
+<hr />
+
+<h2><a id="image_links">Lenkede bilder</a></h2>
+
+<p>Formater tekst med Markdown har instruksjoner for hvordan du lager lenker og legger til bilder. Det er kanskje ikke like åpenbart at dette kan kombineres og gjøre bilder klikkbare.
+</p>
+
+<p><strong><code>[the google search engine][google]</code></strong></p>
+
+<p><strong><code>![the google logo][logo]</code></strong></p>
+
+<p>Over ser du en standard lenke og et bilde. Ved å plassere bildet der hvor lenketeksten skulle vært, får du dette resultatet:
+</p>
+
+<p><strong><code>[![the google logo][logo]][google]</code></strong></p>
+
+<p>Linjen over i kombinasjon med følgende lenke et annet sted i dokumentet:
+</p>
+
+<p><strong><code>[logo]: http://www.google.com/images/logo.gif</code></strong><br />
+<strong><code>[google]: http://www.google.com/ "click to visit Google.com"</code></strong></p>
+
+<p>kombineres for å lage følgende klikkbare bilde (med pekertips dersom muspekeren føres over bildet):
+</p>
+
+<p><a href="http://www.google.com/" title="Klikk for å besøke Google.com"><img src="http://www.google.com/images/logo.gif" alt="the google logo" /></a></p>
+
+<p>Et eksempel på hvor denne teknikken er fin er hvor du lenker småbilder til større utgaver for nedlasting.
+</p>
+
+<h2><a id="tables">Tabeller</a></h2>
+
+<p>Du kan også lage enkle HTML-tabeller med Markdown. Her er et eksempel:
+</p>
+
+<pre>
+Navn    |   Alder
+--------|------
+Fred    |   29
+Jim     |   47
+Harry   |   32
+</pre>
+
+<table>
+<thead>
+<tr>
+  <th>Navn</th>
+  <th>Alder</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Fred</td>
+  <td>29</td>
+
+</tr>
+<tr>
+  <td>Jim</td>
+  <td>47</td>
+</tr>
+<tr>
+  <td>Harry</td>
+  <td>32</td>
+</tr>
+
+</tbody>
+</table>
+
+<p>Du kan legge inn vanlig formattering i cellene. Kolonner kan venstre/høyre-justeres ved å legge til et kolon før eller etter den horisontale streken.
+</p>
+
+<h2><a id="definition">Definisjonslister</a></h2>
+
+<p>Definisjonslister består av begreper fulgt av definisjoner. Omtrent som en ordbok. Et enkelt eksempel får du her:
+</p>
+
+<pre>
+Moodle
+:   En velkjent læringsplattform for nettbasert læring
+
+PHP
+:   Et skriptspråk.
+    Brukes mest til å lage interaktive webprogrammer.
+</pre>
+
+<dl>
+<dt>Moodle</dt>
+<dd>En velkjent læringsplattform for nettbasert læring</dd>
+
+<dt>PHP</dt>
+<dd> Et skriptspråk.
+Brukes mest til å lage interaktive webprogrammer.</dd>
+</dl>
+
+<h2><a id="footnotes">Fotnoter</a></h2>
+
+<p>En fotnote har to elementer. Et merke i teksten som vises opphevet nummer og en fotnotedefinisjon som fremkommer på slutten av dokumentet. Her er et eksempel:
+</p>
+
+<pre>
+Les mer om dette i min bok.[^1]
+
+[^1]: Alt om min bok.
+</pre>
+
+<p>Du kan plassere fotnotedefinisjoner hvor du vil. De vil bli vist i den rekkefølgen de forekommer i teksten. Du kan ikke lenke til samme fotnote mer enn en gang.
+</p>
+
+<h2><a id="embedded">Embedet HTML</a></h2>
+
+<p>Dersom du allerede er fortrolig med HTML kan det være tilfeller hvor Markdown ikke lar deg få den kontrollen du er vant med. Heldigvis er Markdown konstruert for disse unntakene og lar deg legge til embedded HTML rett i Markdown formatert tekst.
+</p>
+
+<p><strong><code>* &lt;small&gt;liten tekst&lt;/small&gt;</code></strong><br />
+
+<strong><code>* &lt;big&gt;stor tekst&lt;/big&gt;</code></strong> </p>
+
+<ul>
+<li><small>liten tekst</small>  </li>
+<li><big>stor tekst</big> </li>
+</ul>
+
+<p>Merk at HTML koder kan fungere sammen med Markdown for punktmerkede lister. Dette fritar deg fra å skrive kompleks HTML-kode for å vanlig formatering for setninger og lister, samtidig som du har alle muligheter til å formatere tekten som du ønsker.
+/p>
+
+<h2><a id="preformatted">Vise HTML eller Preformatert tekst</a></h2>
+
+<p>Dersom du, til forskjell fra forrige avsnitt, ønsker å vise HTML akkurat som du skrev det inn (som eksempelkode f.eks.), kan du innlede hver linje med fire mellomrom.
+</p>
+
+<pre><code>&lt;p&gt;En setning i &lt;b&gt;HTML&lt;/b&gt; vist som kode&lt;/p&gt;
+</code></pre>
+
+<p>Dette virker på samme måte når du skriver maskinkode:</p>
+
+<pre><code>print "Command-line arguments: (@ARGV)\n";
+</code></pre>
+
+<p>Siden slik formatering ofte brukes i programkode og samtidig kan konflikte med Markdown, slår du av Markdown formatering for disse linjene:
+</p>
+
+<pre><code>Normalt skulle dette ordet vises som **uthevet**.
+</code></pre>
+
+<p>For å inkludere slike bokstaver i normal tekst, se avsnittet under.
+</p>
+
+<h2><a id="special_char">Bruk av spesialtegn</a></h2>
+
+<p>Dersom du ønsker å bruke spesialtegn som kan trigge Markdown kan tegnene innledes med en bakoverstrek (backslash). Da vises påfølgende tegn akkurat som det er skrevet inn - uten formatering.
+</p>
+
+<p><strong><code>\*asterisks, not emphasis\*</code></strong></p>
+
+<p>blir</p>
+
+<p>*asterisks, not emphasis*</p>
+
+<p>i stedet for</p>
+
+<p><strong><code>*emphasis, not asterisks*</code></strong></p>
+
+<p>som gir</p>
+
+<p><em>emphasis, not asterisks</em></p>
+
+<h2><a id="further">Videre lesning</a></h2>
+
+<p>Markdownsystemet er ikke unikt for Moodle, det brukes i stadig flere webbaserte publiseringsverktøy. Du kan finne mer informasjon om Markdown her: 
+<a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a></p>
+
+<p>Moodle bruker en versjon av Markdown med tilleggsfunksjoner kjent som "Markdown extra". Du kan lese mer om dette på 
+<a href="http://www.michelf.com/projects/php-markdown/extra/">http://www.michelf.com/projects/php-markdown/extra/ </a>.</p>
+</div></div>
