@@ -1167,6 +1167,7 @@ $string['parentcoursenotfound'] = 'Le cours parent n\'a pas été trouvé !';
 $string['parentcoursenotmetacourse'] = 'Le cours parent n\'est pas un méta-cours !';
 $string['parentfolder'] = 'Dossier parent';
 $string['participants'] = 'Participants';
+$string['participantslist'] = 'Liste des participants';
 $string['participationratio'] = 'Proportion de participation';
 $string['participationreport'] = 'Rapport de participation';
 $string['password'] = 'Mot de passe';
