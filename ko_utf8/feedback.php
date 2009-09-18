@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20090604) (2009060200)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['add_item'] = '활동에 질문 추가';
@@ -71,6 +71,7 @@ $string['feedback:viewreports'] = '보고서 보기';
 $string['feedback_is_not_for_anonymous'] = '익명사용자는 설문 응답을 못함';
 $string['feedback_is_not_open'] = '피드백이 아직 시작되지 않았음';
 $string['feedback_options'] = '피드백 선택사항';
+$string['feedbackadministration'] = '피드백 관리';
 $string['feedbackclose'] = '피드백 마감 시간';
 $string['feedbackcloses'] = '피드백 마감';
 $string['feedbackopen'] = '피드백 시작 시간';
@@ -85,10 +86,10 @@ $string['importfromthisfile'] = '이 파일로부터 가져오기';
 $string['info'] = '안내';
 $string['infotype'] = '안내-유형';
 $string['insufficient_responses_for_this_group'] = '이 모듬은 응답수가 부족합니다.';
+$string['item_label'] = '표지';
 $string['item_name'] = '질문';
 $string['items_are_required'] = '별표 문항은 반드시 응답해야 합니다.';
 $string['label'] = '표지';
-$string['line_labels'] = '표지';
 $string['line_values'] = '순위';
 $string['mapcourse'] = '연결 강좌';
 $string['mapcourseinfo'] = '이것은 모든 강좌에서 사용할 수 있는 사이트 공용 피드백입니다. 그러나 배치를 통해 피드백이 표시될 수 있는 강좌를 제한할 수 있습니다. 강좌를 검색한 후 강좌를 이 피드백과 연결하십시요.';
@@ -113,6 +114,7 @@ $string['name'] = '이름';
 $string['name_required'] = '이름 필수';
 $string['next_page'] = '다음 화면';
 $string['no_handler'] = '다음에 대해 아무 동작 핸들러가 없음';
+$string['no_itemlabel'] = '표지 없음';
 $string['no_itemname'] = '아이템의 이름 없음';
 $string['no_items_available_yet'] = '아직 어떤 질문도 설정되지 않았음.';
 $string['no_templates_available_yet'] = '아직 아무런 질문지도 없음';
@@ -191,6 +193,7 @@ $string['use_one_line_for_each_value'] = '<br />한 줄에 하나씩 답하세�
 $string['use_this_template'] = '이 질문지 사용';
 $string['using_templates'] = '질문지 사용';
 $string['vertical'] = '수직으로';
+$string['line_labels'] = '표지'; // ORPHANED
 $string['cannotcreatecompletedfeedback'] = '완성된 설문을 만들 수 없음'; // ORPHANED
 $string['cannotcreatetmpfeedback'] = '임시 설문을 만들 수 없음'; // ORPHANED
 $string['publish_stats_on_students'] = '학생들에게 분석내용 제시'; // ORPHANED

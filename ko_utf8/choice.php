@@ -1,17 +1,16 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20090209) (2009012901)
+      // choice.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['addmorechoices'] = '선택사항을 더 추가하시오';
 $string['allowupdate'] = '설문 응답 수정 허용';
 $string['answered'] = '응답함';
-$string['cannotsavechoice'] = '선택사항을 저장할 수 없음';
-$string['cannotupdatechoice'] = '데이터베이스의 오류로 선택사항 갱신 불가';
 $string['choice'] = '선택문';
 $string['choice:choose'] = '설문 기록';
 $string['choice:deleteresponses'] = '설문 응답 삭제';
 $string['choice:downloadresponses'] = '응답내용 내려받기';
 $string['choice:readresponses'] = '응답내용 보기';
+$string['choiceadministration'] = '설문 관리';
 $string['choiceclose'] = '까지';
 $string['choicefull'] = '더 이상 이 항목을 선택할 수 없습니다.';
 $string['choicename'] = '설문 명칭';
@@ -55,5 +54,7 @@ $string['taken'] = '선택';
 $string['timerestrict'] = '응답 기간 제한';
 $string['viewallresponses'] = '$a 에 대한 응답 보기';
 $string['yourselection'] = '당신의 선택';
+$string['cannotsavechoice'] = '선택사항을 저장할 수 없음'; // ORPHANED
+$string['cannotupdatechoice'] = '데이터베이스의 오류로 선택사항 갱신 불가'; // ORPHANED
 
 ?>

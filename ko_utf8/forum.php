@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090131) (2009012901)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['addanewdiscussion'] = '새 토론 주제 추가';
@@ -25,7 +25,6 @@ $string['allsubscribe'] = '모든 포럼 구독';
 $string['allunsubscribe'] = '모든 포럼 구독 해지';
 $string['alreadyfirstpost'] = '이미 토론의 발제가 되어있음';
 $string['anyfile'] = '모든 파일';
-$string['areaintro'] = '포럼 소개';
 $string['attachment'] = '첨부';
 $string['attachmentnopost'] = '게시 ID 없이 첨부물을 내보낼 수 없음';
 $string['attachments'] = '첨부물';
@@ -38,7 +37,6 @@ $string['cannotadddiscussion'] = '포럼에 의견을 제시하려면 모둠의 
 $string['cannotadddiscussionall'] = '공동의 토론 주제 추가 권한이 없습니다.';
 $string['cannotaddsubscriber'] = '이 포럼에 id $a 인 구독자를 추가할 수 없음!';
 $string['cannotaddteacherforumto'] = '본 강좌의 소개난에 보조교사의 포럼은 추가할 수 없음';
-$string['cannotconvertteachertogeneral'] = '교수자의 포럼을 일반 포럼으로 전환할 수 없음';
 $string['cannotcreatediscussion'] = '새 토론을 생성할 수 없음';
 $string['cannotcreateinstanceforteacher'] = '교수자 포럼을 위한 새 강좌모듈을 생성할 수 없음';
 $string['cannotdeleteforummodule'] = '포럼 모듈을 삭제할 수 없습니다.';
@@ -59,10 +57,6 @@ $string['cannotsplit'] = '본 포럼에서 토론을 분리할 수 없음';
 $string['cannotsubscribe'] = '안타깝게도 구독하려면 모둠의 구성원이어야 합니다.';
 $string['cannottrack'] = '포럼의 추적기능을 끌 수 없음';
 $string['cannotunsubscribe'] = '포럼 구독을 해지할 수 없음';
-$string['cannotupdatecoursemoudle'] = '영역 ID로는 강좌 모듈을 갱신할 수 없음';
-$string['cannotupdatediscussion'] = '토론을 갱신할 수 없음';
-$string['cannotupdatefirstpost'] = '발제문을 갱신할 수 없음';
-$string['cannotupdateforum'] = '포럼을 갱신할 수 없음';
 $string['cannotupdatepost'] = '본 게시물을 갱신할 수 없음';
 $string['cannotviewpostyet'] = '이 토론에 게시물을 올리지 않았기 때문에 다른 학생들의 질문을 읽을 수 없음';
 $string['cleanreadtime'] = '게시물 정리 시각';
@@ -156,6 +150,7 @@ $string['forum:viewhiddentimedposts'] = '한시적 비공개 게시물 보기';
 $string['forum:viewqandawithoutposting'] = '질답란 게시물 보기';
 $string['forum:viewrating'] = '순위 보기';
 $string['forum:viewsubscribers'] = '구독자 보기';
+$string['forumadministration'] = '포럼 관리';
 $string['forumauthorhidden'] = '작성자(비공개)';
 $string['forumblockingalmosttoomanyposts'] = '게시 한계에 도달하려 합니다. 지난 $a->blockperiod 동안 $a->numposts 번 게시물을 게시하였으며 게시 한계는 $a->blockafter 번 입니다.';
 $string['forumbodyhidden'] = '이 게시물은 볼 수 없습니다. 아마 한 번도 토론에 참여한 적이 없었기 때문일 수도 있습니다.';
@@ -356,6 +351,7 @@ $string['unsubscribeallempty'] = '죄송합니다만, 어떤 포럼도 구독하
 $string['unsubscribed'] = '구독해지 됨';
 $string['unsubscribeshort'] = '구독해지';
 $string['usermarksread'] = '읽었음 수동 표시';
+$string['viewalldiscussions'] = '모든 토론 보기';
 $string['warnafter'] = '경고를 위한 게시물 한계';
 $string['yesforever'] = '예, 계속해서';
 $string['yesinitially'] = '예, 처음에만';
@@ -363,6 +359,12 @@ $string['youratedthis'] = '당신의 추천';
 $string['yournewquestion'] = '새로운 질문';
 $string['yournewtopic'] = '새로운 토론 주제';
 $string['yourreply'] = '당신의 답글';
+$string['areaintro'] = '포럼 소개'; // ORPHANED
+$string['cannotconvertteachertogeneral'] = '교수자의 포럼을 일반 포럼으로 전환할 수 없음'; // ORPHANED
+$string['cannotupdatecoursemoudle'] = '영역 ID로는 강좌 모듈을 갱신할 수 없음'; // ORPHANED
+$string['cannotupdatediscussion'] = '토론을 갱신할 수 없음'; // ORPHANED
+$string['cannotupdatefirstpost'] = '발제문을 갱신할 수 없음'; // ORPHANED
+$string['cannotupdateforum'] = '포럼을 갱신할 수 없음'; // ORPHANED
 $string['cannotfinddisscussion'] = '포럼에 토론이 없음'; // ORPHANED
 $string['cannotinsertrate'] = '새로운 순위($a[0] = $a[1])를 삽입할 수 없음'; // ORPHANED
 $string['cannotupdaterate'] = '예전 순위($a[0] = $a[1])를 갱신할 수 없음'; // ORPHANED
