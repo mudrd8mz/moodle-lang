@@ -11,6 +11,7 @@ $string['chat:exportsession'] = 'Exporter des sessions de chat';
 $string['chat:exportparticipatedsession'] = 'Exporter ses propres sessions de chat';
 $string['chat:readlog'] = 'Lire les historiques des chats';
 $string['chat:talk'] = 'Participer à un chat';
+$string['chatadministration'] = 'Administration du chat';
 $string['chatintro'] = 'Texte d\'introduction';
 $string['chatname'] = 'Nom de ce salon';
 $string['chatreport'] = 'Sessions de chat';
