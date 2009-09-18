@@ -10,6 +10,7 @@ $string['choice:choose'] = 'Répondre aux sondages';
 $string['choice:readresponses'] = 'Lire les réponses';
 $string['choice:deleteresponses'] = 'Supprimer les réponses';
 $string['choice:downloadresponses'] = 'Télécharger les réponses';
+$string['choiceadministration'] = 'Administration du sondage';
 $string['choiceclose'] = 'Jusqu\'au';
 $string['choicefull'] = 'Ce sondage est complet : il n\'y a plus de réponse disponible.';
 $string['choicename'] = 'Nom du sondage';
