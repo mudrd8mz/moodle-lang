@@ -68,6 +68,7 @@ $string['data:viewalluserpresets'] = 'Voir les préréglages de tous les utilisa
 $string['data:viewentry'] = 'Voir les fiches';
 $string['data:viewrating'] = 'Voir les évaluations';
 $string['data:writeentry'] = 'Ajouter des fiches';
+$string['dataadministration'] = 'Administration de la base de données';
 $string['date'] = 'Date';
 $string['dateentered'] = 'Date de saisie';
 $string['defaultfielddelimiter'] = '(par défaut une virgule)';
