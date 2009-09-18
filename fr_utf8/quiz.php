@@ -554,6 +554,7 @@ $string['quiz:regrade'] = 'Renoter les tentatives des tests';
 $string['quiz:reviewmyattempts'] = 'Relire ses propres tentatives';
 $string['quiz:view'] = 'Voir les informations des tests';
 $string['quiz:viewreports'] = 'Voir les rapports des tests';
+$string['quizadministration'] = 'Administration du test';
 $string['quizavailable'] = 'Le test est disponible jusqu\'au $a';
 $string['quizclose'] = 'Fermer le test';
 $string['quizclosed'] = 'Ce test a été fermé le $a';
