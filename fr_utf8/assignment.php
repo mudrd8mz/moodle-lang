@@ -17,7 +17,7 @@ $string['attachfiletoassignment'] = 'Joindre un(des) fichier(s) au devoir'; // L
 $string['backtoassignment'] = 'Retour au devoir'; // Legacy, to delete in 1.7dev
 $string['backtofeedback'] = 'Retour au feedback'; // Legacy, to delete in 1.7dev
 $string['choosereviewfile'] = 'Choisir un fichier à déposer comme retour du devoir :'; // Legacy, to delete in 1.7dev
-$string['assignmentadministration'] = 'Administration devoirs';
+$string['assignmentadministration'] = 'Administration du devoir';
 $string['assignmentmail'] = '$a->teacher a écrit un feedback concernant votre devoir « $a->assignment »
 
 Vous pouvez le consulter en annexe à votre devoir :
