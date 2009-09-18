@@ -137,6 +137,7 @@ $string['glossary:rate'] = 'Évaluer les articles';
 $string['glossary:view'] = 'Voir les glossaires';
 $string['glossary:viewrating'] = 'Voir les évaluations';
 $string['glossary:write'] = 'Créer des articles';
+$string['glossaryadministration'] = 'Administration du glossaire';
 $string['glossaryleveldefaultsettings'] = 'Réglages par défaut des glossaires';
 $string['glossarytype'] = 'Type de glossaire';
 $string['guestnoedit'] = 'Les invités ne sont pas autorisés à modifier les glossaires';
