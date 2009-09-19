@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090604) (2009060200)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['1day'] = '하루';
@@ -432,6 +432,7 @@ $string['multichoice'] = '선다형';
 $string['multipleanswers'] = '최소 한 개의 답을 선택하시오.';
 $string['multiplier'] = '승수';
 $string['name'] = '명칭';
+$string['navnojswarning'] = '경고: 이 연결은 답안을 저장하지 않음. 화면 하단의 다음 버튼을 사용하세요.';
 $string['neverallononepage'] = '한꺼번에 배치하지 않음';
 $string['newattemptfail'] = '오류 : 새로운 시도를 할 수 없음';
 $string['newpage'] = '새 페이지';
@@ -673,6 +674,7 @@ $string['showbreaks'] = '페이지 중단 표시 보기';
 $string['showcategorycontents'] = '범주 목록 $a->arrow 보기';
 $string['showcorrectanswer'] = '피드백에서 정답을 보여줄까요?';
 $string['showdetailedmarks'] = '점수 세부사항 보이기';
+$string['showeachpage'] = '한 페이지를 한꺼번에 보이기';
 $string['showfeedback'] = '답변 후에 피드백을 볼건가요?';
 $string['showhidden'] = '다른 오래된 질문 보기';
 $string['showinsecurepopup'] = '시도에 \'보안창\' 사용';
