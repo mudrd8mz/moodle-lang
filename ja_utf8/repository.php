@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090904) (2009090400)
+      // repository.php - created with Moodle 2.0 dev (Build: 20090919) (2009091700)
 
 
 $string['accessiblefilepicker'] = 'アクセス可能なファイルピッカ';
@@ -92,7 +92,7 @@ $string['personalrepositories'] = 'パーソナルリポジトリ';
 $string['plugin'] = 'リポジトリプラグイン';
 $string['pluginerror'] = 'リポジトリプラグインにエラーが発生しました。';
 $string['popup'] = 'ログインするには、「ログイン」ボタンをクリックしてください。';
-$string['popupblockeddownload'] = 'ダウンロードウィンドウがブロックされました。アーカイブフォルダをクリックしてください。';
+$string['popupblockeddownload'] = 'ダウンロードウィンドウがブロックされました。ポップアップウィンドウを有効にして、再度お試しください。';
 $string['preview'] = 'プレビュー';
 $string['readonlyinstance'] = 'あなたは、読み取り専用のインスタンスを編集/削除できません。';
 $string['refresh'] = 'リフレッシュ';
