@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (Build: 20080615) (2008051202)
+      // survey.php - created with Moodle 2.0 dev (Build: 20090919) (2009091700)
 
 
 $string['actual'] = '실적';
@@ -61,7 +61,6 @@ $string['attlsname'] = 'ATTLS (20 항목 버전)';
 $string['cannotfindanswer'] = '본 설문에는 아직 응답하지 않았음';
 $string['cannotfindquestion'] = '질문이 없음';
 $string['cannotfindsurveytmpt'] = '설문지가 앖음!';
-$string['cannotinsertanswer'] = '설문 결과를 저장하는 중 오류 발생. 죄송합니다.';
 $string['ciq1'] = '배우는 입장으로서 교실에서 어떤점에 어느 순간에 가장 집중하게 되어는가?';
 $string['ciq1short'] = '가장 집중한';
 $string['ciq2'] = '배우는 입장으로서 교실에서 어떤점에 어느 순간에 가장 집중 하지않게 되었는가?';
@@ -164,6 +163,7 @@ $string['done'] = '완료';
 $string['download'] = '다운로드';
 $string['downloadexcel'] = '엑셀 스프레드 형식으로 다운로드';
 $string['downloadinfo'] = '당신은 엑셀, SPSS 또는 다른 패키지에서의 분석법을 통해 이 조사의 원문 그대로의 데이터 완성을 다운로드 받을 수 있습니다.';
+$string['downloadresults'] = '결과 내려받기';
 $string['downloadtext'] = '문서파일 형태로 다운로드';
 $string['editingasurvey'] = '조사 편집';
 $string['guestsnotallowed'] = '손님은 survey 제출이 허락되지 않았습니다.';
@@ -191,6 +191,7 @@ $string['question'] = '질문';
 $string['questions'] = '질문들';
 $string['questionsnotanswered'] = '몇몇의 선택형 질문들이 답해지지 않았습니다.';
 $string['report'] = '조사 리포트';
+$string['responsereports'] = '응답 보고서';
 $string['responses'] = '응답';
 $string['savednotes'] = '저장되었습니다.';
 $string['scaleagree5'] = '전적으로 동의하지 않음, 조금 동의하지 않음, 중립, 조금 동의함, 전적으로 동의함.';
@@ -202,6 +203,7 @@ $string['summary'] = '요약';
 $string['survey:download'] = '설문응답을 내려받음';
 $string['survey:participate'] = '설문에 응답';
 $string['survey:readresponses'] = '응답을 봄';
+$string['surveyadministration'] = '조사 관리';
 $string['surveycompleted'] = '당신은 이미 이것을 끝마쳤습니다. 밑에 보이는 그래프는 평균 점수에 관한 당신의 결과를 요약적으로 보여주는 것 입니다.';
 $string['surveygraph'] = '조사 도표';
 $string['surveyname'] = '조사 이름';
@@ -210,5 +212,6 @@ $string['surveytype'] = '조사 유형';
 $string['thanksforanswers'] = '$a 님, 조사에 응답해 주셔서 감사합니다.';
 $string['time'] = '시간';
 $string['viewsurveyresponses'] = '$a 조사 응답 열람';
+$string['cannotinsertanswer'] = '설문 결과를 저장하는 중 오류 발생. 죄송합니다.'; // ORPHANED
 
 ?>
