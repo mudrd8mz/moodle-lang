@@ -20,6 +20,7 @@ $string['sitemap'] = 'Mapa del sitio';
 $string['skipa'] = 'Saltar $a';
 $string['skipblock'] = 'Saltar bloque';
 $string['skipnavigation'] = 'Saltar navegación';
+$string['skipto'] = 'Saltar a $a';
 $string['tabledata'] = 'Tabla de datos, $a';
 $string['tablelayout'] = 'Tabla de esquemas, $a';
 $string['tocontent'] = 'Ir a contenido principal';
