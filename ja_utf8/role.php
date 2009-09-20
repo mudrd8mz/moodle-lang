@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // role.php - created with Moodle 2.0 dev (Build: 20090919) (2009091700)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -218,7 +218,7 @@ $string['site:backup'] = 'コースをバックアップする';
 $string['site:config'] = 'サイト設定を変更する';
 $string['site:doanything'] = 'すべての動作を許可する';
 $string['site:doclinks'] = 'サイト外ドキュメントのリンクを表示する';
-$string['site:import'] = 'コースに他のコースをインポートする';
+$string['site:import'] = '他のコースをコースにインポートする';
 $string['site:langeditlocal'] = 'ローカル翻訳をカスタマイズする';
 $string['site:langeditmaster'] = 'マスター言語パックを編集する';
 $string['site:manageblocks'] = 'ページのブロックを管理する';
