@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5 (Build: 20090520) (2007101550)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20090916) (2007101551)
 
 
 $string['abouttobeinstalled'] = '即将开始安装';
@@ -111,7 +111,7 @@ $string['alphabet'] = 'A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z';
 $string['alphanumerical'] = '只能包含字母或数字';
 $string['alreadyconfirmed'] = '选课已经确认';
 $string['always'] = '始终';
-$string['and'] = '{$a->one} 和{ $a->two}';
+$string['and'] = '{$a->one} 和 {$a->two}';
 $string['answer'] = '回答';
 $string['approve'] = '批准';
 $string['areyousuretorestorethis'] = '您确定要继续吗?';
@@ -126,7 +126,7 @@ $string['assignstudentsnote'] = '注意：因为学生可以自行选修此课�
 $string['assignstudentspass'] = '您需要做的仅仅是通知学生该课程的选课密钥，当前设置为：“{$a}”';
 $string['assignteachers'] = '任命教师';
 $string['authenticateduser'] = '已认证用户';
-$string['authenticateduserdescription'] = '所有已登录用户';
+$string['authenticateduserdescription'] = '所有已登录用户。';
 $string['authentication'] = '身份验证';
 $string['authenticationplugins'] = '身份验证插件';
 $string['autosubscribe'] = '论坛自动订阅';
@@ -150,6 +150,7 @@ $string['backupexecuteathelp'] = '选择需要运行自动备份的时间';
 $string['backupfailed'] = '您的一些课程尚未保存!!';
 $string['backupfilename'] = '备份';
 $string['backupfinished'] = '备份圆满成功';
+$string['backupgradebookhistoryhelp'] = '如果启用，成绩单的历史会被包含在自动备份中。注意，如果想使用这个功能，成绩历史就一定不能在服务器设置（disablegradehistory）中被禁用';
 $string['backupincludemoduleshelp'] = '在自动备份中，选择是否希望包含带有或不带有用户数据的课程模块';
 $string['backupincludemoduleuserdatahelp'] = '选择是否希望在自动备份中包含模块用户的数据。';
 $string['backupkeephelp'] = '您想要为每门课程保存多少个最近的备份? (将会自动删除比较旧的备份)';
@@ -191,7 +192,7 @@ $string['categories'] = '课程类别';
 $string['category'] = '课程类别';
 $string['categoryadded'] = '已经添加类别‘{$a}’';
 $string['categorycontents'] = '课程子目录和课程';
-$string['categorycurrentcontents'] = '$a的内容';
+$string['categorycurrentcontents'] = '{$a}的内容';
 $string['categorydeleted'] = '已经删除类别‘{$a}’';
 $string['categoryduplicate'] = '“{$a}”类别已经存在!';
 $string['categorymodifiedcancel'] = '课程目录被编辑，请取消后重试。';
@@ -280,6 +281,13 @@ $string['coursefiles'] = '课程文件';
 $string['courseformatdata'] = '课程数据格式';
 $string['courseformats'] = '课程格式';
 $string['coursegrades'] = '课程成绩';
+$string['coursehelpformat'] = '课程主页会用这里指定的格式显示。';
+$string['coursehelphiddensections'] = '课程中隐藏的节如何向学生显示。';
+$string['coursehelpmaximumupload'] = '定义课程中学生上传文件的最大长度。会受到全站设置的影响。';
+$string['coursehelpmetacourse'] = '把此课程设为元课程。元课程会从“子课程”得到选课（和其它角色分配）信息。';
+$string['coursehelpnewsitemsnumber'] = '课程主页在右边新闻框中显示的最近新闻条数<br />（设为0表示新闻框不会出现）';
+$string['coursehelpnumberweeks'] = '课程主页显示的星期/主题个数';
+$string['coursehelpshowgrades'] = '打开成绩单的显示。此设置不会影响每个活动中成绩的显示。';
 $string['coursehidden'] = '此课程目前并不对学生开放';
 $string['courseimportnotaught'] = '您无权修改其它的课程，因此您也无法从其它课程中导入内容。';
 $string['courseinfo'] = '课程信息';
@@ -287,18 +295,23 @@ $string['coursemessage'] = '课程用户消息';
 $string['coursenotaccessible'] = '这个课程未对公众开放';
 $string['courseoverview'] = '课程概述';
 $string['courseoverviewgraph'] = '课程记录预览';
+$string['coursereasonforrejecting'] = '拒绝此申请的理由';
+$string['coursereasonforrejectingemail'] = '会通过email发给请求人';
 $string['coursereject'] = '拒绝课程申请';
 $string['courserejected'] = '已经拒绝了课程申请并通知了申请人。';
 $string['courserejectemail'] = '很抱歉，您提交的课程申请已经被拒绝了。下面是原因：
 {$a}';
 $string['courserejectreason'] = '请简要说明拒绝这个课程的理由<br />（系统会将它发送给申请人）';
 $string['courserejectsubject'] = '您的课程申请已经被拒绝';
+$string['coursereports'] = '课程报表';
 $string['courserequest'] = '课程申请';
+$string['courserequestdetails'] = '您正申请的课程的详细信息';
 $string['courserequestdisabled'] = '很抱歉，课程申请功能并未开通。';
 $string['courserequestfailed'] = '由于某些原因，无法保存您的课程申请。';
 $string['courserequestintro'] = '通过下面的表单可以申请创建一个新的课程。<br />请尽量仔细填写以便管理员审批您的申请。';
 $string['courserequestreason'] = '申请此课程的原因';
 $string['courserequestsuccess'] = '系统已经保存了您的课程申请，在几天内会通过 E-mail 通知您结果';
+$string['courserequestsupport'] = '一些额外的信息，帮助管理员来评估您的请求';
 $string['courserestore'] = '课程恢复';
 $string['courses'] = '课程';
 $string['coursescategory'] = '同一类别的课程';
@@ -450,6 +463,7 @@ $string['editorhelptopics'] = '编辑器帮助主题';
 $string['editorresettodefaults'] = '重设为缺省设置';
 $string['editorsettings'] = '编辑器设置';
 $string['editorshortcutkeys'] = '编辑器快捷键';
+$string['editremoteprofile'] = '编辑远程个人资料';
 $string['editsummary'] = '编辑概要';
 $string['editthisactivity'] = '编辑这个活动项目';
 $string['editthiscategory'] = '编辑该类别';
@@ -498,11 +512,11 @@ $string['emailpasswordchangeinfo'] = '{$a->firstname}您好：
 
 如果您需要其他帮助，请和您的管理员联系：
 {$a->admin}';
-$string['emailpasswordchangeinfodisabled'] = '$a->firstname您好：
+$string['emailpasswordchangeinfodisabled'] = '{$a->firstname}您好：
 
-有人（您）从\'$a->sitename\'请求获得密码。
+有人（您）从\'{$a->sitename}\'请求获得密码。
 
-但是很抱歉您的帐号无法使用并且无法重置。请与管理员联系$a->admin。';
+但是很抱歉您的帐号无法使用并且无法重置。请与管理员{$a->admin}联系。';
 $string['emailpasswordchangeinfofail'] = '{$a->firstname}：您好，
 
 您已经在\'{$a->sitename}\'中请求了一个新密码。
@@ -540,8 +554,8 @@ $string['enrolenddaterror'] = '选课的结束时间不能早于开市时间';
 $string['enrollable'] = '课程是否可以被选修';
 $string['enrolledincourse'] = '加入课程“{$a}”';
 $string['enrolledincoursenot'] = '未能加入课程“{$a}”';
-$string['enrolledincoursenotrole'] = '以\"$a->role\"身份选修\"$a->course\"错误。';
-$string['enrolledincourserole'] = '以\"$a->role\"身份选修 \"$a->course\"。';
+$string['enrolledincoursenotrole'] = '以\"{$a->role}\"身份选修\"{$a->course}\"错误。';
+$string['enrolledincourserole'] = '以\"{$a->role}\"身份选修 \"{$a->course}\"。';
 $string['enrollfirst'] = '在使用此站点前您必须选择某课程。';
 $string['enrolme'] = '将我加入此课程';
 $string['enrolmentconfirmation'] = '您想学习该课程。确定吗?';
@@ -608,15 +622,16 @@ $string['files'] = '文件';
 $string['filesfolders'] = '文件/文件夹';
 $string['filloutallfields'] = '请填完这个表单的所有空格';
 $string['findmorecourses'] = '查询更多课程...';
+$string['firstaccess'] = '首次访问';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = '名';
-$string['firsttime'] = '注册';
+$string['firsttime'] = '第一次来访吗？';
 $string['folder'] = '文件夹';
 $string['folderclosed'] = '关闭文件夹';
 $string['folderopened'] = '打开文件夹';
 $string['followingoptional'] = '以下为可选项';
 $string['followingrequired'] = '以下项目是必需的';
-$string['force'] = '是否强制分组';
+$string['force'] = '强制';
 $string['forcedmode'] = '强制模式';
 $string['forcelanguage'] = '指定课程语言类型';
 $string['forceno'] = '不强制';
@@ -938,6 +953,7 @@ $string['mostrecently'] = '最近';
 $string['move'] = '移动';
 $string['movecategorycontentto'] = '移至';
 $string['movecategoryto'] = '移动类别到:';
+$string['movecontentstoanothercategory'] = '移动内容到另一个分类';
 $string['movecourseto'] = '移动课程到:';
 $string['movedown'] = '下移';
 $string['movefilestohere'] = '移动文件到这里';
@@ -1157,6 +1173,7 @@ $string['publicdirectory1'] = '只公开站点名称';
 $string['publicdirectory2'] = '公开站点名称加链接';
 $string['publicdirectorytitle'] = '查看当前站点列表';
 $string['publicsitefileswarning'] = '注意:存放于此的文件任何人都能访问';
+$string['publicsitefileswarning2'] = '注意：这里的文件可以被任何知道（或猜到）URL的人访问，建议将所有备份文件在恢复后立即删除。';
 $string['question'] = '试题';
 $string['readinginfofrombackup'] = '读取备份信息';
 $string['readme'] = '说明';
@@ -1175,6 +1192,7 @@ $string['registrationinfo'] = '<p>您可以在本页面中到moodle.org注册您
 <p>缺省情况，您的信息是被保密的，永远不会被出售或转让给它人。收集信息的目的仅仅是出于客户服务的目的，同时也用来建一个Moodle社区的统计图。</p>
 <p>如果您愿意，那么可以把您的站名、国家和URL放到Moodle官方网站的公用列表中。</p>
 <p>所有的新注册在加入列表之前都会被人工验证。不过一旦您被加入列表中，那么您可以随时通过提交这个表单来更新您的注册信息（公用列表也会更新）。</p>';
+$string['registrationinfotitle'] = '注册信息';
 $string['registrationno'] = '不，我不想收E-mail';
 $string['registrationsend'] = '发送注册信息到moodle.org';
 $string['registrationyes'] = '是的，有重要事情请通知我';
@@ -1192,8 +1210,6 @@ $string['report'] = '报表';
 $string['reports'] = '报表';
 $string['requestcourse'] = '申请一门课程';
 $string['requestedby'] = '申请人';
-$string['requestmailbody'] = '{$a->fullname}发送了一个创建新课程的申请，课程名称为“{$a->coursename}”。n请点击下面的链接以审批该申请nn {$a->auditlink}nn';
-$string['requestmailsubject'] = '{$a->fullname}发送了一个课程申请';
 $string['requestreason'] = '申请理由';
 $string['required'] = '要求';
 $string['requireskey'] = '此课程要求一个选课密钥';
@@ -1215,6 +1231,8 @@ $string['restorecancelled'] = '恢复被取消';
 $string['restorecoursenow'] = '恢复课程';
 $string['restorefinished'] = '恢复成功';
 $string['restoreto'] = '恢复到';
+$string['restoretositeadding'] = '警告：您正要恢复站点的首页，向它添加数据！';
+$string['restoretositedeleting'] = '警告：您正要恢复站点的首页，并且会先删除数据！';
 $string['restricted'] = '受限的';
 $string['restrictmodules'] = '限制活动模块？';
 $string['returningtosite'] = '登录';
@@ -1281,7 +1299,7 @@ $string['separateandconnected'] = '独立型和情景型思维方式';
 $string['serverlocaltime'] = '服务器的当地时间';
 $string['setcategorytheme'] = '设置类别主题风格';
 $string['settings'] = '设置';
-$string['shortname'] = '课程简称';
+$string['shortname'] = '简称';
 $string['shortnamecollisionwarning'] = '[*]=这个简称已经被某个课程所使用，需要改变它以获得批准。';
 $string['shortnametaken'] = '这个简称已用于另一个课程({$a})';
 $string['shortsitename'] = '网站简称';
@@ -1305,6 +1323,7 @@ $string['showrecent'] = '显示最近动态';
 $string['showreports'] = '是否显示活动报表';
 $string['showsettings'] = '显示设置';
 $string['showtheselogs'] = '显示这些日志';
+$string['showthishelpinlanguage'] = '显示本帮助的{$a}版本';
 $string['since'] = '开始时间';
 $string['sincelast'] = '最后登录';
 $string['site'] = '站点';
@@ -1428,7 +1447,7 @@ $string['themesaved'] = '新主题风格已保存';
 $string['thereareno'] = '该课程中没有{$a}';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = '简体中文';
+$string['thislanguage'] = '&#31616;&#20307;&#20013;&#25991;';
 $string['time'] = '时间';
 $string['timezone'] = '时区';
 $string['to'] = '截止时间';
@@ -1602,6 +1621,8 @@ $string['yourlastlogin'] = '您上次登录是在';
 $string['yourself'] = '您自己';
 $string['yourteacher'] = '您的{$a}';
 $string['zippingbackup'] = '压缩备份文件';
+$string['requestmailbody'] = '{$a->fullname}发送了一个创建新课程的申请，课程名称为“{$a->coursename}”。n请点击下面的链接以审批该申请nn {$a->auditlink}nn'; // ORPHANED
+$string['requestmailsubject'] = '{$a->fullname}发送了一个课程申请'; // ORPHANED
 $string['remotemaharauser'] = '远程Mahara用户'; // ORPHANED
 $string['skiptomaincontent'] = '跳转到主目录'; // ORPHANED
 

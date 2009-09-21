@@ -16,7 +16,7 @@ $string['assignmentmail'] = '{$a->teacher}已经在“{$a->assignment}”中为�
 
 $a->url';
 $string['assignmentmailhtml'] = '{$a->teacher}已经在<i>“{$a->assignment}”</i>中为您提交的作业写了反馈意见。<br /><br />
-您可以在<a href=\"$a->url\">您交的作业</a>后面看到反馈意见。';
+您可以在<a href=\"{$a->url}\">您交的作业</a>后面看到反馈意见。';
 $string['assignmentname'] = '作业名称';
 $string['assignmenttype'] = '作业类型';
 $string['availabledate'] = '开始时间';
@@ -26,7 +26,7 @@ $string['commentinline'] = '是否嵌入批注';
 $string['configitemstocount'] = '学生提交的在线作业的计数单位';
 $string['configmaxbytes'] = '缺省情况下站点中作业的最大尺寸(同时受课程和其它本地设置的限制)';
 $string['configshowrecentsubmissions'] = '任何人可以看到最近活动报表中提交作业的信息';
-$string['confirmdeletefile'] = '您完全确定要删除此文件吗？<br /><strong>$a</strong>';
+$string['confirmdeletefile'] = '您完全确定要删除此文件吗？<br /><strong>{$a}</strong>';
 $string['deleteallsubmissions'] = '删除所有提交的作业';
 $string['deletefilefailed'] = '文件删除失败。';
 $string['description'] = '描述';
@@ -39,7 +39,7 @@ $string['emailstudents'] = '用 E-mail 提醒学生';
 $string['emailteachermail'] = '{$a->username}更新了他为作业“{$a->assignment}”提交的内容。新内容位于:
 
 $a->url';
-$string['emailteachermailhtml'] = '{$a->username}更新了其作业<i>“{$a->assignment}”</i>。<br /><br />新的内容位于<a href=\"$a->url\">Web 服务器</a>上。';
+$string['emailteachermailhtml'] = '{$a->username}更新了其作业<i>“{$a->assignment}”</i>。<br /><br />新的内容位于<a href=\"{$a->url}\">Web 服务器</a>上。';
 $string['emailteachers'] = '是否使用 E-mail 提醒教师';
 $string['emptysubmission'] = '您尚未提交任何内容';
 $string['enableemailnotification'] = '发送 E-mail 公告';
@@ -86,7 +86,7 @@ $string['notsubmittedyet'] = '未交';
 $string['onceassignmentsent'] = '一旦发送了评分请求，您将不再能删除或上传文件了。您确定要继续吗？';
 $string['overwritewarning'] = '警告：重新上载将覆盖您已交的作业';
 $string['pagesize'] = '每页显示作业数';
-$string['preventlate'] = '是否允许迟交';
+$string['preventlate'] = '是否禁止迟交';
 $string['quickgrade'] = '允许快速评分';
 $string['responsefiles'] = '反馈文件';
 $string['reviewed'] = '复习';

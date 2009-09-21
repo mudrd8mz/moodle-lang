@@ -43,7 +43,7 @@ $string['auth_changepasswordhelp'] = '修改密码帮助';
 $string['auth_changepasswordhelp_expl'] = '当用户丢失了他们的 {$a} 密码后显示给他们的帮助信息。系统将会把此信息和<strong>修改密码地址</strong>一起显示给用户或用它来替代 Moodle 内部的修改密码机制。';
 $string['auth_changepasswordurl'] = '修改密码地址';
 $string['auth_changepasswordurl_expl'] = '设定一个当用户丢失了他们的 {$a} 密码时发给用户的地址。需要将<strong>使用标准修改密码页面</strong>设定为<strong>否</strong>。';
-$string['auth_changingemailaddress'] = '您已提交将 E-mail 由 $a->oldemail 变更为 $a->newemail，出于安全的考虑，服务器将自动向 $a->newemail 发送一封邮件，打开邮件中的URL，E-mail 将自动更新。';
+$string['auth_changingemailaddress'] = '您已提交将 E-mail 由 {$a->oldemail} 变更为 {$a->newemail}，出于安全的考虑，服务器将自动向 {$a->newemail} 发送一封邮件，打开邮件中的URL，E-mail 将自动更新。';
 $string['auth_common_settings'] = '公用设置';
 $string['auth_data_mapping'] = '数据映射';
 $string['auth_dbcantconnect'] = '无法连接到指定的认证数据库...';
@@ -90,7 +90,7 @@ $string['auth_dbusernotexist'] = '不能更新不存在的用户 {$a}';
 $string['auth_dbuserstoadd'] = '添加用户记录 {$a}';
 $string['auth_dbuserstoremove'] = '删除用户记录 {$a}';
 $string['auth_emailchangecancel'] = '取消 E-mail 变更';
-$string['auth_emailchangepending'] = '变更期间，打开链接发送 $a->preference_newemail';
+$string['auth_emailchangepending'] = '变更期间，打开链接发送 {$a->preference_newemail}';
 $string['auth_emaildescription'] = '电子邮件确认是默认的身份验证方法。用户注册时可以选用自己的用户名和密码，然后有一封确认信件发送到该用户的电子邮箱。该信件中有一个安全的链接指向用户确认帐号的页面。以后的登录就只根据本系统的数据库中储存的信息检验用户名和密码。';
 $string['auth_emailnoemail'] = '系统尝试发送给您一封 E-mail，但是失败了！';
 $string['auth_emailnoinsert'] = '不能将您的记录信息添加到数据库中!';
@@ -100,8 +100,12 @@ $string['auth_emailrecaptcha_key'] = '激活 reCAPTCHA 元素';
 $string['auth_emailsettings'] = '设置';
 $string['auth_emailtitle'] = 'E-mail 验证';
 $string['auth_emailupdate'] = 'E-mail 更换';
-$string['auth_emailupdatemessage'] = '您已要求更换 {$a->site} 上的注册 E-mail，请打开以下的链接以便确认。';
-$string['auth_emailupdatesuccess'] = '用户 <em>$a->fullname</em> 的邮件已更新为 <em>$a->email</em>。';
+$string['auth_emailupdatemessage'] = '{$a->fullname}，您好
+
+您已要求更换 {$a->site} 上的注册 E-mail，请打开以下的链接以便确认。
+
+$a->url';
+$string['auth_emailupdatesuccess'] = '用户 <em>{$a->fullname}</em> 的邮件已更新为 <em>{$a->email}</em>。';
 $string['auth_emailupdatetitle'] = '{$a->site} 确认 E-mail 更新';
 $string['auth_fcchangepasswordurl'] = '更改密码 URL';
 $string['auth_fcconnfail'] = '连接失败：{$a[0]} 和错误字符串：{$a[1]}';

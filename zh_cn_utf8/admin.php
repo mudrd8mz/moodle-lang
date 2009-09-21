@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.5 (Build: 20090520) (2007101550)
+      // admin.php - created with Moodle 1.9.5+ (Build: 20090916) (2007101551)
 
 
 $string['accessdenied'] = '访问被拒绝';
@@ -146,8 +146,8 @@ $string['configgdversion'] = '指明已安装的GD版本。默认显示的版本
 $string['configgeoipfile'] = '位于GeoIP City文件中。该文件不是Moodle发行版的一部分，需要单独从<a href=\"http://www.maxmind.com/\">MaxMind</a>获取。您可以购买商业版本或者使用免费版.<br />下载地址<a href=\"http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz\" >http://www.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz</a>解压到服务器上的\"{$a}\"目录中.';
 $string['configgetremoteaddrconf'] = '如果您的服务器在一个反向代理后，您可以设定此项以确定哪条 HTTP 头信息包含了访问者的 IP 地址。头信息按顺序读入，第一条出现的将被使用。';
 $string['configgooglemapkey'] = '为了使用Google Maps查看具体IP地址分布，您需要键入一个专用的Key。可以通过<a href=\"http://code.google.com/apis/maps/signup.html\" >http://code.google.com/apis/maps/signup.html</a><br />获取。您的web站点的地址是： {$a}';
-$string['configgradebookroles'] = '此设置允许您控制谁可以出现在成绩单上。用户至少需要有课程中的一种角色才会显示在该课程的成绩单中。';
-$string['configgradeexport'] = '选择哪种成绩薄导出格式。选择的插件将在每个成绩中设置和使用“最近导出”的域。例如，这将导致导出的记录使用“新”或者“已更新”标识符。如果您不能确定如何使用该功能，保持所有内容都不要选中。';
+$string['configgradebookroles'] = '此设置允许您控制谁可以出现在成绩簿上。用户至少需要在课程中具有这里的一种角色，才会在该课程的成绩簿中显示他的成绩。';
+$string['configgradeexport'] = '选择用哪种成绩薄导出格式做为主要格式。被选择的插件将设置和使用每项成绩的“最近导出”字段。例如，这将导致导出的记录被标注为“新”或者“已更新”。如果您不能确定如何使用该功能，就什么都别选。';
 $string['configguestroleid'] = '这个角色自动委派给访客。同时在进入那些允许访客进入且没有密钥的课程时，也会临时委派这个角色给没有注册的用户。详细信息请查看moodle/legacy:guest和moodle/course：view';
 $string['confighiddenuserfields'] = '选择对教师/管理员以外的用户隐藏的信息。这可以加强对学生隐私的保护。要选择多个字段时请按住CTRL键。';
 $string['confighideactivitytypenavlink'] = '选择在活动模块导航中，从哪里隐藏活动类型（例如：测验）链接';
@@ -412,7 +412,7 @@ $string['googlemapkey'] = 'Google 地图的API密钥';
 $string['gotofirst'] = '转到第一个缺失字符处';
 $string['gradebook'] = '成绩单';
 $string['gradebookroles'] = '有成绩的角色';
-$string['gradeexport'] = '主要成绩导出方法';
+$string['gradeexport'] = '成绩导出的主要方法';
 $string['guestroleid'] = '为访客委派角色';
 $string['helpadminseesall'] = '管理员看到日历中全部的事件还是只看到那些于他们自己相关的事件?';
 $string['helpcalendarsettings'] = '设定Moodle中几个与日历和日期/事件相关的方面';
@@ -513,7 +513,7 @@ $string['minpasswordlower'] = '小写字母';
 $string['minpasswordnonalphanum'] = '非文字数字式字符';
 $string['minpasswordupper'] = '大写字母';
 $string['misc'] = '杂项';
-$string['missinglangparent'] = '缺少语言参数。<em>$a->lang</em>的<em>$a->parent</em>';
+$string['missinglangparent'] = '缺少语言参数。<em>{$a->lang}</em>的<em>{$a->parent}</em>';
 $string['mnetrestore_extusers'] = '<strong>注意：</strong> 这个备份文件包含远程Moodle网络的使用者帐号，该帐号将做在处理过程中存储。';
 $string['mnetrestore_extusers_mismatch'] = '<strong>注意：</strong> 这个备份文件来自一个不同的MOODLE站点，而且包括远程Moodle网络中的用户帐号，这个操作可能不支持。如果您确定在Moodle安装的时候已经创建好，或者您确定所有需要Moodle网路中主机已经配置完成，您才可以尝试恢复。';
 $string['modsettings'] = '管理活动';
@@ -542,7 +542,7 @@ $string['notifyloginfailures'] = '发送登陆失败的Email到';
 $string['notifyloginthreshold'] = '邮件通告的下限';
 $string['notloggedinroleid'] = '访问者的角色';
 $string['numberofmissingstrings'] = '缺失字符数：{$a}';
-$string['numberofstrings'] = '字符总数：$a->strings<br />缺失：$a->missing ($a->missingpercent&nbsp;%%)';
+$string['numberofstrings'] = '字符总数：{$a->strings}<br />缺失：{$a->missing} ({$a->missingpercent}&nbsp;%%)';
 $string['opensslrecommended'] = '要使用Moodle网络功能，强烈推荐安装OpenSSL库。';
 $string['opentogoogle'] = '打开到Google';
 $string['optionalmaintenancemessage'] = '可选的维护信息';
@@ -629,7 +629,7 @@ $string['qtyperqpwillberemoved'] = '在更新期间，RQP问题类型将被移�
 $string['qtyperqpwillberemovedanyway'] = '在更新期间，RQP问题类型将被移除。在数据库中有一些RQP问题，这些数据会停止工作，除非在更新前您从http://moodle.org/mod/data/view.php?d=13&amp;rid=797 重新安装代码。';
 $string['quarantinedir'] = '隔离目录';
 $string['question'] = '试题';
-$string['questioncwqpfscheck'] = '测验中的一个或多个‘随机’试题来至于共享和非共享问题类型中。更多细节报表<a href=\"$a->reporturl\">点击这里</a>，或者<a href=\"$a->docsurl\">查看Moodle文档</a>。';
+$string['questioncwqpfscheck'] = '测验中的一个或多个‘随机’试题来至于共享和非共享问题类型中。更多细节报表<a href=\"{$a->reporturl}\">点击这里</a>，或者<a href=\"{$a->docsurl}\">查看Moodle文档</a>。';
 $string['questioncwqpfsok'] = '测验中没有‘随机’试题来至于共享和非共享问题类型中。';
 $string['rcache'] = '记录缓存';
 $string['rcachettl'] = '记录缓存TTL';
@@ -750,7 +750,7 @@ $string['uploadpicture_cannotunzip'] = '不能解压图片文件。';
 $string['uploadpicture_invalidfilename'] = '图片文件名含有非法字符，跳过。';
 $string['uploadpicture_overwrite'] = '覆盖用户图片？';
 $string['uploadpicture_userfield'] = '用户使用匹配的图片';
-$string['uploadpicture_usernotfound'] = '用户字段\'$a->userfield\'，值 \'$a->uservalue\' 不存在，跳过。';
+$string['uploadpicture_usernotfound'] = '用户字段\'{$a->userfield}\'，值 \'{$a->uservalue}\' 不存在，跳过。';
 $string['uploadpicture_userskipped'] = '跳过用户{$a}(已经有一张图片)';
 $string['uploadpicture_userupdated'] = '{$a}的图片已更新。';
 $string['uploadpictures'] = '上传头像';
