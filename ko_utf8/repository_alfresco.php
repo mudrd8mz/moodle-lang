@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // repository_alfresco.php - created with Moodle 2.0 dev (Build: 20081027) (2008101300)
+      // repository_alfresco.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
+$string['alfresco:view'] = 'Alfresco 저장소 보기';
 $string['alfresco_url'] = 'Alfresco URL';
+$string['alfrescourltext'] = 'Alfresco API의 주소는 http://yoursite.com/alfresco/api 이어야 함';
 $string['configplugin'] = 'Alfresco 설정';
 $string['notitle'] = '제목없음';
 $string['password'] = '비밀번호';
