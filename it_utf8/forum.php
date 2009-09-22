@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090922) (2009091700)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -150,7 +150,7 @@ $string['forum:viewhiddentimedposts'] = 'Vedere gli interventi con orario nascos
 $string['forum:viewqandawithoutposting'] = 'Vedere sempre gli interventi di tipo \"Domande e Risposte\"';
 $string['forum:viewrating'] = 'Vedere le valutazioni';
 $string['forum:viewsubscribers'] = 'Vedere gli iscritti';
-$string['forumadministration'] = 'Amministrazione Forum';
+$string['forumadministration'] = 'Gestione Forum';
 $string['forumauthorhidden'] = 'Autore (nascosto)';
 $string['forumblockingalmosttoomanyposts'] = 'Stai per raggiungere il limite degli interventi permessi. Hai inviato $a->numposts interventi negli ultimi $a->blockperiod giorni. Il limite è di $a->blockafter interventi.';
 $string['forumbodyhidden'] = 'Questo intervento non può essere visualizzato, probabilmente perché non hai ancora effettuato interventi nella discussione.';

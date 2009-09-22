@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (Build: 20090219) (2009021800)
+      // survey.php - created with Moodle 2.0 dev (Build: 20090922) (2009091700)
 
 
 $string['actual'] = 'Attuale';
@@ -61,7 +61,6 @@ $string['attlsname'] = 'ATTLS (versione con 20 elementi)';
 $string['cannotfindanswer'] = 'Non ci sono risposte al sondaggio.';
 $string['cannotfindquestion'] = 'la domanda non esiste';
 $string['cannotfindsurveytmpt'] = 'Non sono stati trovati template per il sondaggio';
-$string['cannotinsertanswer'] = 'Si è verificato un problema durante il salvataggio. Siamo spiacenti.';
 $string['ciq1'] = 'In che momento in classe sei più partecipe come studente?';
 $string['ciq1short'] = 'Più partecipe';
 $string['ciq2'] = 'In che momento in classe sei meno partecipe come studente?';
@@ -169,12 +168,13 @@ Grazie.';
 $string['collespname'] = 'COLLES (Preferito)';
 $string['customintro'] = 'Introduzione personalizzata';
 $string['deleteallanswers'] = 'Cancella tutte le risposte al sondaggio';
-$string['deleteanalysis'] = 'Cancella analisi risposte';
+$string['deleteanalysis'] = 'Elimina analisi risposte';
 $string['done'] = 'Fatto';
 $string['download'] = 'Download';
-$string['downloadexcel'] = 'Scarica come file Excel';
-$string['downloadinfo'] = 'Puoi scaricare tutti i dati di questo sondaggio in un formato adatto all\'analisi in Excel, SPSS o altro software.';
-$string['downloadtext'] = 'Scarica come file di testo';
+$string['downloadexcel'] = 'Scarica i dati in formato Excel';
+$string['downloadinfo'] = 'Puoi scaricare i dati di questo sondaggio in un formato adatto all\'analisi in Excel, SPSS o altro software.';
+$string['downloadresults'] = 'Download dei risultati';
+$string['downloadtext'] = 'Scarica in formato file di testo';
 $string['editingasurvey'] = 'Modifica del sondaggio';
 $string['guestsnotallowed'] = 'Gli ospiti non possono compilare i sondaggi';
 $string['helpsurveys'] = 'Aiuto sui differenti tipi di sondaggi';
@@ -201,6 +201,7 @@ $string['question'] = 'Domanda';
 $string['questions'] = 'Domande';
 $string['questionsnotanswered'] = 'Alcune delle domande a scelta multipla non hanno avuto risposta.';
 $string['report'] = 'Prospetto del sondaggio';
+$string['responsereports'] = 'Report delle risposte';
 $string['responses'] = 'Risposte';
 $string['savednotes'] = 'Le tue annotazioni sono state salvate';
 $string['scaleagree5'] = 'Fortemente in disaccordo,Un pò in disaccordo,Nè daccordo nè in disaccordo,Abbastanza daccordo,Completamente daccordo';
@@ -212,6 +213,7 @@ $string['summary'] = 'Riepilogo';
 $string['survey:download'] = 'Scaricare risposte';
 $string['survey:participate'] = 'Rispondere al sondaggio';
 $string['survey:readresponses'] = 'Visualizzare risposte';
+$string['surveyadministration'] = 'Gestione Sondaggio';
 $string['surveycompleted'] = 'Hai completato questo sondaggio. Il grafico sotto riportato mostra una sintesi comparata dei tuoi risultati con le medie della classe.';
 $string['surveygraph'] = 'Grafico del sondaggio';
 $string['surveyname'] = 'Nome del sondaggio';
@@ -220,5 +222,6 @@ $string['surveytype'] = 'Tipo di sondaggio';
 $string['thanksforanswers'] = 'Grazie per aver risposto a questo sondaggio, $a';
 $string['time'] = 'Tempo impiegato';
 $string['viewsurveyresponses'] = 'Vedi $a risposte al sondaggio';
+$string['cannotinsertanswer'] = 'Si è verificato un problema durante il salvataggio. Siamo spiacenti.'; // ORPHANED
 
 ?>
