@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20081101) (2008101300)
+      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
 
 
 $string['configplugin'] = '원격 무들 파일 저장소 설정';
@@ -11,6 +11,7 @@ $string['nopeer'] = '<div style=\"font-size:0.8em\">무들 사이트의 <a href=
 $string['notitle'] = '제목없음';
 $string['peer'] = 'Peer';
 $string['remember'] = '기록저장';
+$string['remotemoodle:view'] = '원격 무들 저장소 보기';
 $string['remoterep_description'] = '서비스 개방 허용';
 $string['remoterep_name'] = '원격 무들 저장소';
 $string['repositorydesc'] = '원격 무들 서버에 있는 저장소';
