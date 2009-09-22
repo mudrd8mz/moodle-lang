@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090922) (2009091700)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1653,7 +1653,7 @@ $string['valuealreadyused'] = 'Questo valore è stato già utilizzato';
 $string['version'] = 'Versione';
 $string['view'] = 'Visualizza';
 $string['viewfileinpopup'] = 'Visualizza il file in un finestra popup';
-$string['viewprofile'] = 'Visualizza profilo';
+$string['viewprofile'] = 'Visualizza';
 $string['views'] = 'Letture';
 $string['viewsolution'] = 'visualizza soluzione';
 $string['virusfound'] = 'Amministratore attenzione! Clam AV ha individuato un virus in un file caricato da $a->user nel corso $a->course. Di seguito l\'output di clamscan:';
