@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
+      // debug.php - created with Moodle 2.0 dev (Build: 20090923) (2009091700)
 
 
 $string['authpluginnotfound'] = 'La plugin di autenticazione $a non è stata trovata';
@@ -15,6 +15,7 @@ $string['erroroccur'] = 'Si è verificato un errore durante lo svolgimento di qu
 $string['fixsetting'] = 'Per favore aggiustate le impostazioni nel file config.php:<p>La vostra impostazione:</p> <p>$CFG->dirroot = \'$a->current\';</p> <p>dovrebbe essere:</p> <p>$CFG->dirroot = \'$a->found\';</p>';
 $string['invalidarraysize'] = 'La dimensione degli array è errata nei parametri di $a';
 $string['invalideventdata'] = 'E\' stato inviato un eventdata non corretto: $a';
+$string['invalidparameter'] = 'E\' stato rilevato un parametro non valido, il processo non può proseguire.';
 $string['missingconfigversion'] = 'La tabella di configurazione non contiene la versione, non è possibile continuare.';
 $string['modulenotexist'] = 'Il modulo $a non esiste';
 $string['morethanonerecordinfetch'] = 'Nella fetch() è stato trovato più di un record!';

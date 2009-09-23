@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20090922) (2009091700)
 
 
 $string['add_item'] = 'Aggiungi domanda';
@@ -123,7 +123,7 @@ $string['no_itemlabel'] = 'Senza etichetta';
 $string['no_itemname'] = 'Domanda priva di testo';
 $string['no_items_available_yet'] = 'Non è stata Nessuna domanda è stata ancora impostata';
 $string['no_templates_available_yet'] = 'Nessun modello disponibile';
-$string['non_anonymous'] = 'Registra il nome dell\'utente e visualizzalo nelle risposte';
+$string['non_anonymous'] = 'Il nome del partecipante verrà registrato e visualizzato nelle risposte';
 $string['non_anonymous_entries'] = 'non anonime';
 $string['not_completed_yet'] = 'Non ancora completato';
 $string['not_selected'] = 'Nessuna scelta';
