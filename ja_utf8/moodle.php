@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20090919) (2009091700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1201,6 +1201,7 @@ $string['passwordsent'] = 'パスワードが送信されました。';
 $string['passwordsenttext'] = '<p>メールが $a->email 宛に送信されました。
 <p><b>メールに記載されている新パスワードを確認してください。</b>
 <p>新パスワードは自動的に作成されたものです。ここで<a href=\"$a->link\">アクセスして憶えやすいものに変更してください</a>。';
+$string['path'] = 'パス';
 $string['pathnotexists'] = 'サーバにパスが見当たりません!';
 $string['pathslasherror'] = 'パスの最後にスラッシュを付けないでください!!';
 $string['paymentinstant'] = '下のボタンをお使いください。お支払いと登録がすぐに完了します!';
@@ -1382,7 +1383,9 @@ $string['selectacountry'] = '国を選択する';
 $string['selectall'] = 'すべてを選択する';
 $string['selectamodule'] = '活動モジュールを選択してください。';
 $string['selectdefault'] = 'デフォルトを選択する';
+$string['selectedfile'] = '選択済みファイル';
 $string['selectednowmove'] = '移動するため $a 個のファイルが選択されました。<br />移動先フォルダに移動して「ファイルをここに移動する」ボタンをクリックしてください。';
+$string['selectfiles'] = 'ファイルを選択する';
 $string['selectnos'] = 'すべて「no」を選択';
 $string['selectperiod'] = '期間の選択';
 $string['senddetails'] = '私のログイン情報をメール送信する';
