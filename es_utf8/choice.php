@@ -5,13 +5,12 @@
 $string['addmorechoices'] = 'Añadir más opciones';
 $string['allowupdate'] = 'Permitir la actualización de la consulta';
 $string['answered'] = 'Contestado';
-$string['cannotsavechoice'] = 'No se pudo guardar su elección';
-$string['cannotupdatechoice'] = 'No se pudo actualizar su elección debido a un error en la base de datos';
 $string['choice'] = 'Opción';
 $string['choice:choose'] = 'Registrar una elección';
 $string['choice:deleteresponses'] = 'Eliminar respuestas';
 $string['choice:downloadresponses'] = 'Descargar respuestas';
 $string['choice:readresponses'] = 'Leer respuestas';
+$string['choiceadministration'] = 'Administración';
 $string['choiceclose'] = 'Hasta';
 $string['choicefull'] = 'Esta opción está completa y no hay espacios disponibles.';
 $string['choicename'] = 'Título de la consulta';
@@ -55,5 +54,7 @@ $string['taken'] = 'Tomadas';
 $string['timerestrict'] = 'Restringir la respuesta a este período';
 $string['viewallresponses'] = 'Ver $a respuestas';
 $string['yourselection'] = 'Su selección';
+$string['cannotsavechoice'] = 'No se pudo guardar su elección'; // ORPHANED
+$string['cannotupdatechoice'] = 'No se pudo actualizar su elección debido a un error en la base de datos'; // ORPHANED
 
 ?>
