@@ -1258,6 +1258,7 @@ $string['publicdirectory2'] = 'リンクとともにサイト名を公開しま�
 $string['publicdirectorytitle'] = '現在のサイト一覧を表示する';
 $string['publicsitefileswarning'] = '注意: ここに置いたファイルは、誰でもアクセスすることができます。';
 $string['publicsitefileswarning2'] = '注意: ここに置いたファイルは、URIを知っている (または推測できる) 誰でもアクセスすることができます。セキュリティ上の理由から、リストア完了後、すべてのバックアップファイルをすぐに削除することをお勧めします。';
+$string['publicsitefileswarning3'] = '注意: ここに置いたファイルは、URIを知っている (または推測できる) 誰でもアクセスすることができます。<br />ここにバックアップファイルを保存しないでください。代わりに、backupdataフォルダを使用してください!';
 $string['question'] = '問題';
 $string['questionsinthequestionbank'] = '問題バンクの問題';
 $string['readinginfofrombackup'] = 'バックアップより情報を読取り中';
