@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090912) (2009090803)
+      // data.php - created with Moodle 2.0 dev (Build: 20090919) (2009091700)
 
 
 $string['action'] = '操作';
@@ -202,6 +202,7 @@ $string['nomaximum'] = '最大数なし';
 $string['norating'] = 'この活動は、評価を使用していません。';
 $string['norecords'] = 'データベースにエントリがありません。';
 $string['nosingletemplate'] = 'テンプレートは、まだ定義されていません。';
+$string['notapproved'] = 'エントリは、まだ承認されていません。';
 $string['notinjectivemap'] = 'エントリを追加できるマップではありません。';
 $string['number'] = '数値';
 $string['numberrssarticles'] = 'RSS記事';
