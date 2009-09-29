@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20090929) (2009091700)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (eigen certificaat)';
@@ -91,7 +91,7 @@ $string['keymismatch'] = 'De publieke sleutel die je voor deze host hebt is vers
 $string['last_connect_time'] = 'Laatste connectiemoment';
 $string['last_connect_time_help'] = 'De laatste keer dat je verbonden was met deze host.';
 $string['last_transport_help'] = 'Het transport dat je de laatste keer gebruikte wanneer je verbonden was met deze host.';
-$string['loginlinkmnetuser'] = '<br />Als je een externe Moodle Network-gebruiker bent en je kunt <a href=\"$a\">je e-mailadres hier bevestigen</a>, dan wordt je naar je loginpagina doorgestuurd.';
+$string['loginlinkmnetuser'] = '<br />Als je een externe Moodle Network-gebruiker bent en je kunt <a href=\"$a\">je e-mailadres hier bevestigen</a>, dan word je naar je loginpagina doorgestuurd.';
 $string['logs'] = 'logs';
 $string['mnet'] = 'Moodle Networking';
 $string['mnet_concatenate_strings'] = 'Concatenate (tot maximum) 3 strings en geef het resultaat.';
