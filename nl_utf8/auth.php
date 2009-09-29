@@ -8,7 +8,7 @@ $string['accesNOCAS'] = 'andere gebruikers';
 $string['actauthhdr'] = 'Actieve authenticatieplugins';
 $string['alternatelogin'] = 'Als je hier een URL ingeeft, dan zal die dienen als loginpagina voor deze site. De pagina moet een formulier bevatten met de actie ingesteld op <strong>\'$a\'</strong> en die de velden <strong>username</strong> en <strong>password</strong> teruggeeft.<br />Let er op dat je een juiste URL ingeeft. Zoniet sluit je jezelf uit de site.<br />Laat deze instelling leeg als je de standaard loginpagina wil gebruiken.';
 $string['alternateloginurl'] = 'URL van de alternatieve loginpagina';
-$string['auth_cas_auth_user_create'] = 'Creëer geburikers extern';
+$string['auth_cas_auth_user_create'] = 'Creëer gebruikers extern';
 $string['auth_cas_baseuri'] = 'URI van de server (leeg laten als er geen baseUri is)<br />Als de CAS-server bijvoorbeeld antwoordt op host.domein.be/CAS/ dan <br />cas_baseuri=CAS/';
 $string['auth_cas_baseuri_key'] = 'Basis URI';
 $string['auth_cas_broken_password'] = 'Je kunt niet verder doen zonder het wijzigen van je wachtwoord, hoewel de mogelijkheid om dat te doen niet voorzien is. Neem contact op met de beheerder.';
@@ -102,7 +102,7 @@ $string['auth_emailtitle'] = 'E-mail zelfregistratie';
 $string['auth_emailupdate'] = 'E-mailadres aanpassen';
 $string['auth_emailupdatemessage'] = 'Beste $a->fullname,
 
-Jehebt gevraagd om je e-mailadres te wijzigen voor je account op $a->site. Open volgende URL in je browser om deze wijziging te bevestigen.
+Je hebt gevraagd om je e-mailadres te wijzigen voor je account op $a->site. Open volgende URL in je browser om deze wijziging te bevestigen.
 
 $a->url';
 $string['auth_emailupdatesuccess'] = 'Het e-mail adres van gebruiker <em>$a->fullname</em> is gewijzigd naar <em>$a->email</em>.';
