@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20090210) (2009012901)
+      // forum.php - created with Moodle 2.0 dev (Build: 20090929) (2009091700)
 
 
 $string['addanewdiscussion'] = 'Voeg een nieuw onderwerp voor discussie toe';
@@ -25,7 +25,6 @@ $string['allsubscribe'] = 'Ik wil mail van alle forums';
 $string['allunsubscribe'] = 'Ik wil van geen enkel forum mail';
 $string['alreadyfirstpost'] = 'Dit is al het eerste bericht in de discussie';
 $string['anyfile'] = 'Een bestand';
-$string['areaintro'] = 'Forum introductie';
 $string['attachment'] = 'Bijlage';
 $string['attachmentnopost'] = 'Je kunt bijlagen niet exporteren zonder post ID';
 $string['attachments'] = 'Bijlagen';
@@ -38,7 +37,6 @@ $string['cannotadddiscussion'] = 'Om discussies aan dit forum te kunnen toevoege
 $string['cannotadddiscussionall'] = 'Je hebt het recht niet om een nieuw discussieonderwerp te starten voor alle deelnemers.';
 $string['cannotaddsubscriber'] = 'Kon gebruiker met ID $a niet inschrijven voor het ontvangen van e-mail van dit forum!';
 $string['cannotaddteacherforumto'] = 'Kon het geconverteerde leraarsforum niet toevoegen aan sectie 0 van de cursus';
-$string['cannotconvertteachertogeneral'] = 'Kon het forumtype niet wijzigen van leraar naar algemeen';
 $string['cannotcreatediscussion'] = 'Kon geen nieuwe discussie starten';
 $string['cannotcreateinstanceforteacher'] = 'Kon geen nieuwe cursusmodule maken voor het leraarsforum';
 $string['cannotdeleteforummodule'] = 'Je kan de forummodule niet verwijderen';
@@ -59,10 +57,6 @@ $string['cannotsplit'] = 'Discussies van dit forum kunnen niet gesplitst worden'
 $string['cannotsubscribe'] = 'Je moet lid van een groep zijn om email van dit forum te kunnen ontvangen.';
 $string['cannottrack'] = 'Kon het volgen van dit forum niet stoppen';
 $string['cannotunsubscribe'] = 'Kon er niet voor zorgen dat je van dit forum geen mail meer ontvangt.';
-$string['cannotupdatecoursemoudle'] = 'Kon cursusmodule met sectie id niet updaten';
-$string['cannotupdatediscussion'] = 'Kon de discussie niet updaten';
-$string['cannotupdatefirstpost'] = 'Kon eerste bericht niet updaten';
-$string['cannotupdateforum'] = 'Kan forum niet updaten';
 $string['cannotupdatepost'] = 'Je kunt dit bericht niet updaten';
 $string['cannotviewpostyet'] = 'Je kunt de vragen van andere leerlingen in deze discussie nog niet lezen, omdat je zelf nog niets gepost hebt';
 $string['cleanreadtime'] = 'Markeer oude berichten als gelezen';
@@ -120,7 +114,7 @@ $string['displayperiod'] = 'Toon periode';
 $string['displaystart'] = 'Toon start';
 $string['eachuserforum'] = 'Iedereen voegt één discussie toe';
 $string['edit'] = 'Wijzig';
-$string['editedby'] = 'Bewerkt door $s->name - $a->date';
+$string['editedby'] = 'Bewerkt door $a->name - oorspronkelijk bericht van $a->date';
 $string['editing'] = 'Wijzigen';
 $string['emptymessage'] = 'Er was iets mis met je bericht. Misschien heb je het leeg gelaten of was de bijlage te groot. Je wijzigingen zijn NIET bewaard.';
 $string['errorwhiledelete'] = 'Er is een fout opgetreden bij het verwijderen van een record';
@@ -156,6 +150,7 @@ $string['forum:viewhiddentimedposts'] = 'Verborgen berichten bekijken';
 $string['forum:viewqandawithoutposting'] = 'Altijd Vraag en Antwoord berichten bekijken';
 $string['forum:viewrating'] = 'Beoordelingen bekijken';
 $string['forum:viewsubscribers'] = 'Bekijk wie e-mail ontvangt';
+$string['forumadministration'] = 'Forumbeheer';
 $string['forumauthorhidden'] = 'Auteur (verborgen)';
 $string['forumblockingalmosttoomanyposts'] = 'Je nadert de berichtenlimiet. Je hebt $a->numposts berichten in de afgelopen $a->blockperiod gepost en de limiet is $a->blockafter berichten.';
 $string['forumbodyhidden'] = 'Je kunt dit bericht niet bekijken, waarschijnlijk omdat je zelf nog niets gepost hebt in deze discussie.';
@@ -357,6 +352,7 @@ $string['unsubscribeallempty'] = 'Je krijgt van geen enkel forum e-mail. Als je 
 $string['unsubscribed'] = 'Je zult geen mail meer ontvangen';
 $string['unsubscribeshort'] = 'Ik wil geen mail meer';
 $string['usermarksread'] = 'Manueel bericht als gelezen aanduiden';
+$string['viewalldiscussions'] = 'Bekijk alle discussies';
 $string['warnafter'] = 'Verwittig bij maximum aantal berichten bereikt';
 $string['yesforever'] = 'Ja, voor altijd';
 $string['yesinitially'] = 'Ja, initieel';
@@ -364,6 +360,12 @@ $string['youratedthis'] = 'Je beoordeelde dit';
 $string['yournewquestion'] = 'Je nieuwe vraag';
 $string['yournewtopic'] = 'Je nieuwe discussieonderwerp';
 $string['yourreply'] = 'Jouw antwoord';
+$string['areaintro'] = 'Forum introductie'; // ORPHANED
+$string['cannotconvertteachertogeneral'] = 'Kon het forumtype niet wijzigen van leraar naar algemeen'; // ORPHANED
+$string['cannotupdatecoursemoudle'] = 'Kon cursusmodule met sectie id niet updaten'; // ORPHANED
+$string['cannotupdatediscussion'] = 'Kon de discussie niet updaten'; // ORPHANED
+$string['cannotupdatefirstpost'] = 'Kon eerste bericht niet updaten'; // ORPHANED
+$string['cannotupdateforum'] = 'Kan forum niet updaten'; // ORPHANED
 $string['cannotfinddisscussion'] = 'Kon de discussie niet vinden in dit forum'; // ORPHANED
 $string['cannotinsertrate'] = 'Kon nieuwe beoordeling niet toevoegen ($a[0] = $a[1])'; // ORPHANED
 $string['cannotupdaterate'] = 'Kon een vroegere beoordeling niet updaten ($a[0] = $a[1])'; // ORPHANED
