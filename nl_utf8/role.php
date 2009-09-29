@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
+      // role.php - created with Moodle 2.0 dev (Build: 20090929) (2009091700)
 
 
 $string['addinganewrole'] = 'Nieuwe rol toevoegen';
@@ -240,7 +240,7 @@ $string['user:editownmessageprofile'] = 'Bewerk jouw berichtenprofiel';
 $string['user:editownprofile'] = 'Eigen profiel wijzigen';
 $string['user:editprofile'] = 'Gebruikersprofielen bewerken';
 $string['user:loginas'] = 'Aanmelden als andere gebruikers';
-$string['user:readuserblogs'] = 'Blogs van alle gebrukers bekijken';
+$string['user:readuserblogs'] = 'Blogs van alle gebruikers bekijken';
 $string['user:readuserposts'] = 'Berichten van alle gebruikers bekijken';
 $string['user:update'] = 'Gebruikersprofielen updaten';
 $string['user:viewdetails'] = 'Gebruikersprofielen bekijken';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_spamcleaner.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
+      // report_spamcleaner.php - created with Moodle 2.0 dev (Build: 20090929) (2009091700)
 
 
 $string['spamauto'] = 'Detecteer automatisch veel voorkomende spampatronen';
@@ -15,7 +15,7 @@ $string['spameg'] = 'vb: casino,porn,xxx';
 $string['spamfromblog'] = 'Van blogbericht:';
 $string['spaminvalidresult'] = 'Onbekend maar ongeldig resultaat';
 $string['spamoperation'] = 'Operatie';
-$string['spamresult'] = 'Resultaten van het doorzoekn van de gebruikersprofielen:';
+$string['spamresult'] = 'Resultaten van het doorzoeken van de gebruikersprofielen:';
 $string['spamsearch'] = 'Zoek met volgende woorden';
 
 ?>

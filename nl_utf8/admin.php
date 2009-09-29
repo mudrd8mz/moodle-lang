@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
+      // admin.php - created with Moodle 2.0 dev (Build: 20090929) (2009091700)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -332,7 +332,7 @@ $string['debugnone'] = 'GEEN: toon geen foutopsporingsmeldingen';
 $string['debugnormal'] = 'NORMAAL: toon fouten, waarschuwingen en opmerkingen';
 $string['debugsmtp'] = 'Foutopsporing voor versturen van e-mail';
 $string['defaultallowedmodules'] = 'Standaard toegelaten modules';
-$string['defaultcourseroleid'] = 'Stanaard rol voor gebruikers in een cursus';
+$string['defaultcourseroleid'] = 'Standaard rol voor gebruikers in een cursus';
 $string['defaulthtmleditor'] = 'Standaard HTML-editor';
 $string['defaultrequestcategory'] = 'Standaardcategorie voor cursusaanvragen';
 $string['defaultsettinginfo'] = 'Standaard: $a';
@@ -882,13 +882,13 @@ $string['verifychangedemail'] = 'Beperk toegelaten domeinen bij het wijzigen van
 $string['warningcurrentsetting'] = 'Foute waarde: $a';
 $string['webproxy'] = 'Web proxy';
 $string['webproxyinfo'] = 'Vul onderstaande opties in als je Moodle server niet rechtstreeks op internet kan. Internettoegang is nodig voor de download van geografische informatie, taalpakketten, RSS-feeds, tijdzones enz.<br /><em>Je kunt best de PHP cURL extentie installeren.</em>';
-$string['webserviceprotocols'] = 'Webservice servers';
 $string['webservices'] = 'Webservices';
-$string['webservicesystemsettings'] = 'instellingen';
-$string['webserviceusersettings'] = 'Webservice gebruikersinstellingen';
 $string['xmlrpcrecommended'] = 'Het installeren van de optionele XMLRPC-extentie is nuttig voor de werking van Moodle Netwerk';
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['ziprequired'] = 'De ZIP-PHP-extentie is nu vereist voor Moodle. Info-ZIP en PclZip worden niet meer gebruikt.';
+$string['webserviceprotocols'] = 'Webservice servers'; // ORPHANED
+$string['webservicesystemsettings'] = 'instellingen'; // ORPHANED
+$string['webserviceusersettings'] = 'Webservice gebruikersinstellingen'; // ORPHANED
 $string['sitemaxcategorydepth'] = 'Maximum diepte categorieën'; // ORPHANED
 $string['sitemaxcategorydepthhelp'] = 'Dit specifieert het maximum aantal onderliggende categorieën'; // ORPHANED
 $string['optionalsubsystems'] = 'Optionele subsystemen'; // ORPHANED

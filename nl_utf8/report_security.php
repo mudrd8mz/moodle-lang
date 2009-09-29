@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090218) (2009021800)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20090929) (2009091700)
 
 
 $string['check_configrw_details'] = '<p>We raden aan om de rechten op het bestand config.php te wijzigen na installatie, zodat het bestand niet door de webserver gewijzigd kan worden.
@@ -21,7 +21,7 @@ $string['check_courserole_ok'] = 'Standaard cursusroldefinities OK.';
 $string['check_courserole_risky'] = 'Risicomogelijkheden gedetecteerd in <a href=\"$a\">context</a>.';
 $string['check_courserole_riskylegacy'] = 'Risico standaardtype gedetecteerd in <a href=\"$a->url\">$a->shortname</a>.';
 $string['check_defaultcourserole_anything'] = 'De doe alles mogelijkheid mag niet toegelaten worden in deze <a href=\"$a\">context</a>.';
-$string['check_defaultcourserole_details'] = '<p>De standaard rol voor aanmeldingen specifieerd de standaardrol voor leerlingen in cursussen. Zorg ervoor dat er geen risicomogelijkheden toegelaten zijn in deze rol.</p>
+$string['check_defaultcourserole_details'] = '<p>De standaard rol voor aanmeldingen specifieert de standaardrol voor leerlingen in cursussen. Zorg ervoor dat er geen risicomogelijkheden toegelaten zijn in deze rol.</p>
 <p>De enige standaardrol die ondersteund wordt als standaard cursus rol is <em>Leerling</em>.</p>';
 $string['check_defaultcourserole_error'] = 'Fout gedefinieerde standaard rol \"$a\" gedetecteerd!';
 $string['check_defaultcourserole_legacy'] = 'Niet ondersteund standaard type gedetecteerd';
