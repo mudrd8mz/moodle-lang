@@ -40,4 +40,26 @@ $string['potentialmembers'] = 'Возможные участники: $a';
 $string['printerfriendly'] = 'Вид для печати';
 $string['save'] = 'Сохранить';
 
+
+$string['addgroupstogroupings'] = 'Добавить/удалить группы';
+$string['autocreategroups'] = 'Автосоздание групп';
+$string['backtogroupings'] = 'Назад к потокам';
+$string['creategrouping'] = 'Создать поток';
+$string['defaultgrouping'] = 'Поток по умолчанию';
+$string['defaultgroupingname'] = 'Поток';
+$string['deletegroupingconfirm'] = 'Вы уверены, что хотите удалить поток \'$a\'? (Группы в потоке удалены не будут)';
+$string['filtergroups'] = 'Фильтр групп по:';
+$string['grouping'] = 'Поток';
+$string['groupingdescription'] = 'Описание потока';
+$string['groupingname'] = 'Название потока';
+$string['groupings'] = 'Потоки';
+$string['groupingsonly'] = 'Потоки';
+$string['groupmembersonly'] = 'Доступен только для членов потока';
+$string['groupmembersonlyerror'] = 'Извините, вы должны быть членом по-крайней мере одной группы, используемой для этого элемента курса.';
+$string['groupscount'] = 'Группы ($a)';
+$string['groupsnone'] = 'Нет групп';
+$string['notingrouping'] = 'Группы вне потоков';
+$string['overview'] = 'Обзор';
+$string['usercount'] = 'Количество участников';
+$string['usergroupmembership'] = 'Группы выбранных пользователей:';
 ?>

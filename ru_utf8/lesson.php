@@ -275,4 +275,6 @@ $string['youhavereceived'] = 'Вы получили за эссе $a->score ба
 $string['yourgradeisnow'] = 'Ваша оценка была исправлена на $a'; // ORPHANED
 $string['yourresponse'] = 'Ваш ответ'; // ORPHANED
 
+$string['anchortitle'] = 'Начало основного содержания';
+$string['nodeadline'] = 'Не установлен';
 ?>

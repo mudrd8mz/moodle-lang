@@ -34,5 +34,19 @@ $string['site:approvecourse'] = 'Одобрить создание курса';
 $string['site:doclinks'] = 'Отображать ссылку на оф. сайт документации';
 $string['user:update'] = 'Обновление профилей пользователей';
 $string['user:viewdetails'] = 'Просмотр профилей пользователей';
+$string['site:accessallgroups'] = 'Доступ ко всем группам';
+$string['xuserswiththerole'] = 'Пользователи с ролью \"$a->role\": $a->number';
 
+$string['allsiteusers'] = 'Все пользователи сайта';
+$string['assignrolesin'] = 'Назначить роли в контексте $a';
+$string['globalrole'] = 'Роль в системе';
+$string['localroles'] = 'Локальное назначенные ролей';
+$string['morethan'] = 'Больше $a';
+$string['multipleroles'] = 'Несколько ролей';
+$string['overridepermissions'] = 'Переопределение разрешений';
+$string['overridepermissionsin'] = 'Переопределить разрешения в контексте $a';
+$string['showallroles'] = 'Показать все роли';
+$string['site:accessallgroups'] = 'Доступ ко всем группам';
+$string['userhashiddenassignments'] = 'Этому пользователю назначена одна или более скрытых ролей.';
+$string['xuserswiththerole'] = 'Пользователи с ролью \"$a->role\"';
 ?>

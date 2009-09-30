@@ -24,5 +24,5 @@ $string['tocontent'] = 'К основному содержимому';
 $string['tonavigation'] = 'К навигатору';
 $string['youarehere'] = 'Вы здесь';
 $string['showhideblock'] = 'Показать или убрать блок'; // ORPHANED
-
+$string['hideblocka'] = 'Скрыть блок $a'
 ?>

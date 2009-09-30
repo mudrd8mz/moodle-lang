@@ -11,4 +11,7 @@ $string['feedbacktrue'] = 'Комментарий для ответа \'Верн
 $string['true'] = 'Верно';
 $string['truefalse'] = 'Верно/Неверно';
 
+$string['addingtruefalse'] = 'Добавление вопроса \"Верно/Неверно\"';
+$string['editingtruefalse'] = 'Редактирования вопроса \"Верно/Неверно\"';
+
 ?>

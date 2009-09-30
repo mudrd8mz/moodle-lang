@@ -77,7 +77,7 @@ $string['minimize'] = 'Вернуться в обычный редактор';
 $string['move'] = 'Переместить';
 $string['multi'] = 'Много';
 $string['mustenterurl'] = 'Введите, пожалуйста, URL';
-$string['nolink'] = 'Не допускать авто-связывания';
+$string['nolink'] = 'Не допускать автосвязывания';
 $string['normal'] = 'Обычный';
 $string['notimage'] = 'Выбранный файл не является изображением. Пожалуйста, выберите изображение :)!';
 $string['notset'] = 'Не выбрано';
@@ -127,5 +127,6 @@ $string['width'] = 'Ширина';
 $string['wordclean'] = 'Очистить от HTML-тегов, используемых MS Word';
 $string['zip'] = 'Создать Zip-архив';
 $string['absmiddle'] = 'По средине строки'; // ORPHANED
+
 
 ?>

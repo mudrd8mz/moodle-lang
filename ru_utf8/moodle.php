@@ -104,7 +104,7 @@ $string['assignstudentsnote'] = 'Примечание: возможно, не б
 $string['assignstudentspass'] = 'Все, что Вам необходимо - это проинформировать Ваших студентов о кодовом слове для этого курса, в данный момент - это: \'$a\'';
 $string['assignteachers'] = 'Назначить преподавателя';
 $string['authentication'] = 'Аутентификация';
-$string['autosubscribe'] = 'Авто подписка на форум';
+$string['autosubscribe'] = 'Автоподписка на форум';
 $string['autosubscribeno'] = 'Нет (не подписывайте меня автоматически на форумы)';
 $string['autosubscribeyes'] = 'Да (когда я отправляю сообщение, я хочу, чтобы меня автоматически подписывали на форум)';
 $string['availability'] = 'Доступность';
@@ -1153,7 +1153,7 @@ $string['unknowncategory'] = 'Неизвестная категория';
 $string['unlimited'] = 'Неограничено';
 $string['unpacking'] = 'Распаковка $a';
 $string['unsafepassword'] = 'Не безопасный пароль - попробуйте что-нибудь другое';
-$string['unusedaccounts'] = 'Пользователи не появляющиеся на курсе больше, чем $a дней автоматически исключаются';
+$string['unusedaccounts'] = 'Пользователи, не появляющиеся на курсе больше, чем $a дней, автоматически исключаются';
 $string['unzip'] = 'Распаковать zip-архив';
 $string['unzippingbackup'] = 'Распаковка бэкапа';
 $string['up'] = 'Вверх';
@@ -1262,5 +1262,81 @@ $string['formatstepped'] = 'Последовательное изучение'; 
 $string['statsreport6'] = 'Вся активность учителей (просмотры и изменения)'; // ORPHANED
 $string['statsreportstudentactivity'] = 'Вся активность учащихся (просмотры и изменения)'; // ORPHANED
 $string['statsreportteacheractivity'] = 'Вся активность учителей (просмотры и изменения)'; // ORPHANED
+$string['emailpasswordconfirmmaybesent'] = '<p>Если вы указали правильное имя пользователя или адрес e-mail, вам должно быть выслано письмо.
+</p>
+<p>Оно содержит простые инструкции для завершения процедуры изменения пароля.
+Если вам будут непонятны инструкции, свяжитесь с администратором системы.</p>';
+$string['helpprefix2'] = 'Помощь для $a';
+$string['newwindow'] = 'новое окно';
+$string['savechangesanddisplay'] = 'Сoхранить и показать';
+$string['savechangesandreturntocourse'] = 'Сoхранить и вернуться в курс';
 
+$string['ajaxno'] = 'Нет: использовать базовые возможности';
+$string['ajaxuse'] = 'AJAX и Javascript';
+$string['ajaxyes'] = 'Да: использовать дополнительные возможности';
+$string['clickhere'] = 'Нажмите здесь...';
+$string['day'] = 'день';
+$string['days'] = 'дни';
+$string['displayonpage'] = 'Отобразить на странице';
+$string['emailpasswordconfirmation'] = 'Здравствуйте, $a->firstname.
+Кто-то (скорее всего, Вы) запросил новый новый пароль для Вашего аккаунта на сайте \'$a->sitename\'.
+Для подтверждения и получения нового пароля по e-mail, проследуйте по ссылке: $a->link 
+В большинстве почтовых программ, ссылка должна быть выделена синим цветом и автоматически запускает браузер, при нажатии на неё.
+Если она не выделена цветом, скопируйте её в адресное поле Вашего браузера.
+Если у Вас возникли проблемы, обратитесь к администратору сайта, $a->admin';
+$string['expirynotify'] = 'Уведомление об окончании подписки';
+$string['expirynotifyemail'] = 'Следующие участники этого курса будут исключены через $a->threshold дней:
+
+$a->current
+
+Следующие участники этого курса будут исключены менее чем через $a->threshold дней:
+
+$a->past
+
+Вы можете воспользоваться следующей страницей для продления их сроков подписки:
+$a->extendurl';
+$string['expirynotifystudentsemail'] = 'Дорогой $a->studentstr:
+
+Это письмо является напоминанием о том, что Ваше участие в курсе $a->course закончится через $a->threshold дней.
+
+Вы можете связаться с $a->teacherstr для обсуждения возможности продления Вам сроков подписки.';
+$string['extendenrol'] = 'Продлить обучение (индивидуально)';
+$string['general'] = 'Основные';
+$string['gettheselogs'] = 'Получить логи';
+$string['groupextendenrol'] = 'Продлить обучение (одновременно для всех)';
+$string['helpprefix2'] = 'Помощь для $a';
+$string['hide'] = 'Скрыть';
+$string['idnumbermod'] = 'Идентификатор';
+$string['interests'] = 'Интересы';
+$string['interestslist'] = 'Список интересов';
+$string['language'] = 'Перевод';
+$string['lastyear'] = 'Год';
+$string['newwindow'] = 'новое окно';
+$string['nousersfound'] = 'Пользователей не найдено';
+$string['parentfolder'] = 'Родительская папка';
+$string['paymentrequired'] = 'Для регистрации на этом курсе требуется оплата';
+$string['periodending'] = 'Окончание периода ($a)';
+$string['phone2'] = 'Мобильный телефон';
+$string['popupwindowname'] = 'Открыть в новом окне';
+$string['requireskey'] = 'Для доступа к этому курсу необходимо знать кодовое слово';
+$string['requirespayment'] = 'Для доступа к этому курсу необходима оплата';
+$string['rolerenaming'] = 'Переименование ролей';
+$string['saveandnext'] = 'Сoхранить и показать следующий';
+$string['savechangesanddisplay'] = 'Сoхранить и показать';
+$string['savechangesandreturntocourse'] = 'Сoхранить и вернуться в курс';
+$string['savepreferences'] = 'Сoхранить настройки';
+$string['scalestandard'] = 'Стандартная шкала';
+$string['screenreaderno'] = 'Нет';
+$string['screenreaderuse'] = 'Использование программ экранного доступа';
+$string['screenreaderyes'] = 'Да';
+$string['serverlocaltime'] = 'Время на сервере';
+$string['startingfrom'] = 'Начиная с';
+$string['startsignup'] = 'Создать учетную запись';
+$string['tag'] = 'Тег';
+$string['tagmanagement'] = 'Добавить/удалить теги...';
+$string['tags'] = 'Теги';
+$string['unusedaccounts'] = 'Пользователи, не появляющиеся на курсе больше, чем $a дней, автоматически исключаются';
+$string['upload'] = 'Загрузка';
+$string['used'] = 'Используется';
+$string['visible'] = 'Доступность';
 ?>

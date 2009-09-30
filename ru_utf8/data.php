@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
       // data.php - created with Moodle 1.8.3 + (2007021532)
 
-
+$string['action'] = 'Действия';
 $string['add'] = 'Добавить запись';
 $string['addafield'] = 'Добавить поле';
 $string['addcomment'] = 'Добавить комментарий';
@@ -161,5 +161,30 @@ $string['uploadrecords'] = 'Загрузить записи из файла';
 $string['url'] = 'Ссылка';
 $string['viewfromdate'] = 'Можно просматривать с';
 $string['viewtodate'] = 'Можно просматривать до';
+$string['alttext'] = 'Альтернативный текст';
+$string['buttons'] = 'Кнопки';
+$string['chooseorupload'] = 'Выбрать файл';
+$string['columns'] = 'столбцов';
+$string['deletewarning'] = 'Вы уверены, что хотите удалить эту предустановку?';
+$string['editordisable'] = 'Отключить редактор';
+$string['editorenable'] = 'Включить редактор';
+$string['entry'] = 'Запись';
+$string['export'] = 'Экспорт';
+$string['exportaszip'] = 'Экспортировать в zip-файл';
+$string['fieldmappings'] = 'Сопоставление полей';
+$string['fromfile'] = 'Импортировать из zip-файла';
+$string['headerjstemplate'] = 'Определение функций Javascript, которые будут использоваться для других шаблонов';
+$string['jstemplate'] = 'Шаблон Javascript';
+$string['latlongdownloadallhint'] = 'Загрузить все записи в формате KML';
+$string['latlongkmllabelling'] = 'Вид метки записей в KML файлах (Google Earth)';
+$string['latlonglinkservicesdisplayed'] = 'Автоматическая генерация ссылок для сервисов';
+$string['mappingwarning'] = 'Все старые поля, не сопоставленные с новыми, будут удалены вместе с данными.';
+$string['namecheckbox'] = 'Поле \"Флажки\"';
+$string['namelatlong'] = 'Поле \"Широта/Долгота\"';
+$string['pleaseaddsome'] = 'Пожалуйста, создайте поля с помощью выпадающего меню ниже либо <a href=\"$a\">выберите одну из предустановок</a>.';
+$string['rows'] = 'строк';
+$string['saveaspreset'] = 'Сохранить как предустановку';
+$string['usestandard'] = 'Использовать предустановку';
+
 
 ?>
