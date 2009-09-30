@@ -1,12 +1,10 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
+      // choice.php - created with Moodle 2.0 dev (Build: 20090929) (2009091700)
 
 
 $string['addmorechoices'] = 'Voeg meer keuzes toe';
 $string['allowupdate'] = 'Laat toe de keuze aan te passen';
 $string['answered'] = 'Beantwoord';
-$string['cannotsavechoice'] = 'Kon je keuze niet bewaren';
-$string['cannotupdatechoice'] = 'Kon je keuze niet aanpassen door een databank fout';
 $string['choice'] = 'Keuze $a';
 $string['choice:choose'] = 'Bewaar een keuze';
 $string['choice:deleteresponses'] = 'Verwijder antwoorden';
@@ -50,10 +48,12 @@ $string['responsesto'] = 'Antwoorden op  $a';
 $string['savemychoice'] = 'Bewaar mijn antwoord';
 $string['showunanswered'] = 'Toon een kolom voor onbeantwoord';
 $string['spaceleft'] = 'plaats beschikbaar';
-$string['spacesleft'] = 'spaties beschikbaar';
+$string['spacesleft'] = 'plaatsen beschikbaar';
 $string['taken'] = 'Ingenomen';
 $string['timerestrict'] = 'Beperk het beantwoorden tot deze periode';
 $string['viewallresponses'] = 'Bekijk $a antwoorden';
 $string['yourselection'] = 'Jouw selectie';
+$string['cannotsavechoice'] = 'Kon je keuze niet bewaren'; // ORPHANED
+$string['cannotupdatechoice'] = 'Kon je keuze niet aanpassen door een databank fout'; // ORPHANED
 
 ?>
