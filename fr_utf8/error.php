@@ -389,6 +389,7 @@ $string['nopermissiontorate'] = 'Vous n\'êtes pas autorisé à évaluer des art
 $string['nopermissiontoshow'] = 'Vous n\'êtes pas autorisé à voir ceci !';
 $string['nopermissiontounlock'] = 'Vous n\'êtes pas autorisé à déverrouiller !';
 $string['nopermissiontoupdateblock'] = 'Vous n\'êtes pas autorisé à mettre à jour {$a} !';
+$string['nopermissiontoviewgrades'] = 'Vous n\'êtes pas autorisé à voir les notes.';
 $string['nopermissiontoviewletergrade'] = 'Vous n\'êtes pas autorisé à voir les notes lettres';
 $string['nopermissiontoviewpage'] = 'Vous n\'êtes pas autorisé à voir cette page';
 $string['nosite'] = 'Impossible de trouver le cours du site';
