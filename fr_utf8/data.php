@@ -206,6 +206,7 @@ $string['nomaximum'] = 'Pas de limite';
 $string['norating'] = 'Cette activité n\'utilise pas les évaluations';
 $string['norecords'] = 'Aucune fiche dans la base de données';
 $string['nosingletemplate'] = 'Le modèle fiche n\'est pas encore défini';
+$string['notapproved'] = 'La fiche n\'est pas encore approuvée.';
 $string['notinjectivemap'] = 'N\'est pas une application injective';
 $string['number'] = 'Nombre';
 $string['numberrssarticles'] = 'Fiches RSS';
