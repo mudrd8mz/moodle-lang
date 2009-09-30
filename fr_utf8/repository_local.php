@@ -1,12 +1,12 @@
 <?php // $Id$
 
-$string['configplugin'] = 'Configuration du dépôt de fichiers local';
+$string['configplugin'] = 'Configuration du dépôt de fichiers serveur';
 $string['currentusefiles'] = 'Fichiers utilisés actuellement';
 $string['emptyfilelist'] = 'Il n\'y a aucun fichier à afficher';
-$string['local:view'] = 'Consulter le dépôt de fichiers local';
+$string['local:view'] = 'Consulter le dépôt de fichiers serveur';
 $string['notitle'] = 'sans titre';
 $string['remember'] = 'Enregistrer';
-$string['repositorydesc'] = 'Dépôt dans le serveur Moodle local';
-$string['repositoryname'] = 'Fichiers locaux';
+$string['repositorydesc'] = 'Fichiers déposés sur le serveur Moodle';
+$string['repositoryname'] = 'Fichiers serveur';
 
 ?>
