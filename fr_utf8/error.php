@@ -239,6 +239,7 @@ $string['filenotfound'] = 'Le fichier demandé n\'a pas été trouvé';
 $string['filenotreadable'] = 'Le fichier n\'est pas accessible en écriture';
 $string['filterdoesnothavelocalconfig'] = 'Le filtre $a ne permet pas de configuration locale.';
 $string['filternotactive'] = 'Le filtre $a n\'est actuellement pas actif';
+$string['filternotenabled'] = 'Le filtre n\'est pas activé !';
 $string['filternotinstalled'] = 'Le filtre $a n\'est actuellement pas installé';
 $string['forumblockingtoomanyposts'] = 'Vous avez dépassé le maximum de messages fixé pour ce forum';
 $string['generalexceptionmessage'] = 'Exception : $a';
