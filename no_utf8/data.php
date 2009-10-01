@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.5+ (Build: 20090826) (2007101550)
+      // data.php - created with Moodle 1.9.5+ (Build: 20090930) (2007101551)
 
 
 $string['action'] = 'Handling';
@@ -180,6 +180,7 @@ $string['nomatch'] = 'Ingen treff blant oppføringene!';
 $string['nomaximum'] = 'Ingen maks';
 $string['norecords'] = 'Ingen oppføringer i databasen';
 $string['nosingletemplate'] = 'Mal for enkeltvisning er ikke definert ennå';
+$string['notapproved'] = 'Oppføringen er ikke godkjent ennå.';
 $string['notinjectivemap'] = 'Ingen oppføringsoversikt';
 $string['number'] = 'Antall';
 $string['numberrssarticles'] = 'RSS-artikler';

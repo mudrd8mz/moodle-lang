@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5+ (Build: 20090916) (2007101551)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20090930) (2007101551)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -27,7 +27,7 @@ $string['addedrecips'] = 'La til $a nye mottakere';
 $string['addedtogroup'] = 'Lagt til gruppe $a';
 $string['addedtogroupnot'] = 'Ikke lagt til gruppe $a';
 $string['addedtogroupnotenrolled'] = 'Ble ikke lagt til gruppe $a fordi brukeren ikke har tilgang til kurset';
-$string['addinganew'] = 'Legger til en ny $a';
+$string['addinganew'] = 'Legger til $a';
 $string['addinganewto'] = 'Legger til $a->what til $a->to';
 $string['addingdatatoexisting'] = 'Legger data til eksisterende';
 $string['addnewcategory'] = 'Legg til ny kategori';
@@ -1151,6 +1151,7 @@ $string['publicdirectory2'] = 'Publiser navnet på nettstedet med lenke til det'
 $string['publicdirectorytitle'] = 'Vis gjeldende liste av siter';
 $string['publicsitefileswarning'] = 'Merk: Filer plassert her vil hvem som helst ha tilgang til';
 $string['publicsitefileswarning2'] = '<strong>MERK:</strong> Filer du plasserer her er fritt tilgjengelig for alle som vet (eller kan gjette) URL-en. Av sikkerhetshensyn anbefales det at alle sikkerhetskopifiler slettes straks de er benyttet.';
+$string['publicsitefileswarning3'] = 'MERK: Filer du laster opp her kan nås av alle som vet (eller kan gjette) URL-en. Av sikkerhetsgrunner bør du alltid lagre backupfiler i den sikre mappen \"backupdata\".';
 $string['question'] = 'Spørsmål';
 $string['questionsinthequestionbank'] = 'Spørrmål i spørsmålsbanken';
 $string['readinginfofrombackup'] = 'Leser informasjon fra sikkerhetskopi';
