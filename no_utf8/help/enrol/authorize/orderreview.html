@@ -1,0 +1,12 @@
+<p class="center"><strong>Bruk disse innstillingene dersom du vil se gjennom ordrer før de går til betaling med kredittkort.</strong></p>
+<p>Fjern haken fra 'an_review' feltet dersom brukere skal bli påmeldt kurset straks de har skrevet inn kredittkortnummeret.
+<br />
+  Dersom du har haket av for 'an_review' feltet, vil kredittkortet bli autorisert men ikke belastet og du vil ha to valg:
+   'Manuell belastning' and 'Tidsstyrt belastning'.
+</p>
+   <ul>
+      <li>Dersom Manuell belastning, skriv inn '0' i 'an_capture_day'-feltet. Transaksjonen blir kansellert dersom du ikke har godkjent belastningen innen 30 dager.
+ Ikke få panikk! Din lønnsomhet er viktig for oss. Under 'E-postinnstillinger' vil du kunne varsles X dager før ventende ordre utløper - dette krever at cron er riktig satt opp.</li>
+      <li>For tidsstyrt belastning, skriv inn et nummer mellom 1 og 29 i an_capture_day feltet. Merk at CRON MÅ KJØRE!. Kredittkortet vil bli belastet og brukeren blir påmeldt kurset. Tidsstyrt belastning vil belastet kortet an_capture_day dager etter dersom du er komfortabel med det. Er du av den litt mer skeptiske typen, bør du kanskje akseptere eller avslå betaling etter at du har mottatt e-postvarsel om ventende ordre. Brukeren kan også få en e-post med en velkomstmelding hvis du haker av for 'enrol_mailstudents'.</li>
+   </ul>
+<p class="center"><strong>I Moodle 1.6 og nyere kan du godta/avslå betalinger på administrasjonssiden for kredittkortbetaling.</strong></p>
