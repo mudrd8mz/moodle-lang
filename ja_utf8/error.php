@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
+      // error.php - created with Moodle 2.0 dev (Build: 20090919) (2009091700)
 
 
 $string['TODO'] = 'TODO';
@@ -207,6 +207,7 @@ $string['filenotfound'] = '申し訳ございません、ファイルが見つ�
 $string['filenotreadable'] = 'ファイルを読み込めません。';
 $string['filterdoesnothavelocalconfig'] = 'フィルタ $a では、ローカル設定を許可されていません。';
 $string['filternotactive'] = '現在、フィルタ $a は有効ではありません。';
+$string['filternotenabled'] = 'フィルタが有効にされていません!';
 $string['filternotinstalled'] = '現在、フィルタ $a はインストールされていません。';
 $string['forumblockingtoomanyposts'] = 'このフォーラムに設定されている登録期限を超えています。';
 $string['generalexceptionmessage'] = '例外 - $a';
@@ -353,6 +354,7 @@ $string['nopermissiontomkdir'] = 'フォルダを作成できません。サイ�
 $string['nopermissiontorate'] = 'アイテムの評価はできません!';
 $string['nopermissiontoshow'] = '閲覧するパーミッションがありません!';
 $string['nopermissiontounlock'] = 'ロック解除するパーミッションはありません!';
+$string['nopermissiontoviewgrades'] = '評定を表示できません。';
 $string['nopermissiontoviewletergrade'] = '評定文字を閲覧するパーミッションがありません。';
 $string['nopermissiontoviewpage'] = 'あなたは、このページを閲覧できません。';
 $string['nosite'] = 'トップレベルのコースが見つかりませんでした!';
@@ -452,7 +454,6 @@ $string['usernotaddedadmin'] = '管理者アカウントは削除できません
 $string['usernotaddederror'] = 'ユーザは追加されませんでした - エラー。';
 $string['usernotaddedregistered'] = 'ユーザは追加されませんでした - すでに登録されています。';
 $string['usernotavailable'] = 'このユーザの詳細は閲覧できません。';
-$string['usernotcreated'] = 'ユーザを作成できませんでした。';
 $string['usernotdeletederror'] = 'ユーザは削除されませんでした - 不明なエラー。';
 $string['usernotdeletedmissing'] = 'ユーザは削除されませんでした - ユーザ名が見つかりませんでした。';
 $string['usernotdeletedoff'] = 'ユーザは削除されませんでした - 削除が許可されていません。';
@@ -473,7 +474,6 @@ $string['wrongsourcebase'] = 'ソースURIベースが正しくありません�
 $string['wrongusernamepassword'] = 'ユーザID/パスワードが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['wscouldnotcreateecoursenopermission'] = 'WS - コースを作成できませんでした - パーミッションがありません。';
-$string['wscouldnotcreateeuserindb'] = 'WS - ユーザを作成できませんでした。';
 $string['wscouldnotcreateeusernopermission'] = 'WS - ユーザを作成できませんでした - パーミッションがありません。';
 $string['wscouldnotdeletenoexistinguser'] = 'WS - ユーザを削除できませんでした - ユーザが登録されていません。';
 $string['wscouldnotdeleteusernopermission'] = 'WS - ユーザを削除できませんでした - パーミッションがありません。';
@@ -488,6 +488,8 @@ $string['wwwrootslash'] = 'config.phpに正しくない \$CFG->wwwroot が検知
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['youcannotdeletecategory'] = 'コンテンツを削除または移動できないため、あなたはカテゴリ「 $a 」を削除することはできません。';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
+$string['usernotcreated'] = 'ユーザを作成できませんでした。'; // ORPHANED
+$string['wscouldnotcreateeuserindb'] = 'WS - ユーザを作成できませんでした。'; // ORPHANED
 $string['cannotaddmembergroupiddoesntexist'] = 'メンバーをグループに追加できません。グループIDが存在しません。'; // ORPHANED
 $string['coursedoesntexistcannotcreategroup'] = 'グループを作成できません: コースが存在しません。'; // ORPHANED
 $string['groupiddoesntexistcannotdelete'] = 'グループを削除できません。グループIDが存在しません。'; // ORPHANED
