@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090919) (2009091700)
+      // role.php - created with Moodle 2.0 dev (Build: 20091004) (2009100200)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -26,11 +26,16 @@ $string['assignrolesrelativetothisuser'] = 'このユーザに対してロール
 $string['backtoallroles'] = 'すべてのロール一覧に戻る';
 $string['block:edit'] = 'ブロック設定を編集する';
 $string['block:view'] = 'ブロックを表示する';
+$string['blog:associatecourse'] = 'ブログエントリとコースを関連付ける';
+$string['blog:associatemodule'] = 'ブログエントリと活動モジュールを関連付ける';
 $string['blog:create'] = '新しいブログエントリを作成する';
 $string['blog:manageentries'] = 'エントリを編集および管理する';
+$string['blog:manageexternal'] = '外部ブログを編集および管理する';
 $string['blog:manageofficialtags'] = 'オフィシャルタグを管理する';
 $string['blog:managepersonaltags'] = 'パーソナルタグを管理する';
+$string['blog:search'] = 'ブログエントリを検索する';
 $string['blog:view'] = 'ブログエントリを表示する';
+$string['blog:viewdrafts'] = '下書きブログエントリを表示する';
 $string['calendar:manageentries'] = 'すべてのカレンダーエントリを管理する';
 $string['calendar:managegroupentries'] = 'グループのカレンダーエントリを管理する';
 $string['calendar:manageownentries'] = '自分のカレンダーエントリを管理する';
@@ -54,9 +59,11 @@ $string['comment:view'] = 'コメントを読む';
 $string['context'] = 'コンテクスト';
 $string['course:activityvisibility'] = '活動を表示/非表示する';
 $string['course:bulkmessaging'] = '多くのユーザにメッセージを送信する';
+$string['course:changecategory'] = 'コースカテゴリを変更する';
 $string['course:changefullname'] = '長いコース名を変更する';
 $string['course:changeidnumber'] = 'コースIDナンバーを変更する';
 $string['course:changeshortname'] = 'コース省略名を変更する';
+$string['course:changesummary'] = 'コース概要を変更する';
 $string['course:create'] = 'コースを作成する';
 $string['course:delete'] = 'コースを削除する';
 $string['course:manageactivities'] = '活動を管理する';
