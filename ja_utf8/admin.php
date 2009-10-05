@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090904) (2009090400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091004) (2009100200)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -8,8 +8,8 @@ $string['adminseesall'] = '管理者がすべてを閲覧する';
 $string['adminseesallevents'] = '管理者にすべてのイベントを表示する';
 $string['adminseesownevents'] = '管理者は他のユーザと同じ';
 $string['advancedfeatures'] = '拡張機能';
-$string['allowbeforeblock'] = '最初に「許可されたIPアドレスリスト」を参照する';
-$string['allowbeforeblockdesc'] = 'デフォルトでは、「ブロックIPアドレスリスト」が最初に参照されます。このオプションが有効にされた場合、「ブロックIPアドレスリスト」の前に「許可されたIPアドレスリスト」が参照されます。';
+$string['allowbeforeblock'] = '最初に「許可されるIPアドレスリスト」を参照する';
+$string['allowbeforeblockdesc'] = 'デフォルトでは、「ブロックIPアドレスリスト」が最初に参照されます。このオプションが有効にされた場合、「ブロックIPアドレスリスト」の前に「許可されるIPアドレスリスト」が参照されます。';
 $string['allowcategorythemes'] = 'カテゴリテーマを許可する';
 $string['allowcoursethemes'] = 'コーステーマを許可する';
 $string['allowdeletes'] = '削除を許可する';
@@ -20,7 +20,7 @@ $string['allowrenames'] = 'リネームを許可する';
 $string['allowthemechangeonurl'] = 'テーマ変更URIを許可する';
 $string['allowuserblockhiding'] = 'ユーザのブロック非表示を許可する';
 $string['allowusermailcharset'] = 'ユーザの文字セット選択を許可する';
-$string['allowuserswitchrolestheycantassign'] = '「ユーザにロールを割り当てる」ケイパビリティのないユーザにロールの切り替えを許可する';
+$string['allowuserswitchrolestheycantassign'] = '「ユーザにロールを割り当てる」ケイパビリティのないユーザにロールのスイッチを許可する';
 $string['allowuserthemes'] = 'ユーザテーマを許可する';
 $string['allowvisiblecoursesinhiddencategories'] = '非表示のカテゴリ内にコースを表示する';
 $string['antivirus'] = 'アンチウイルス';
@@ -55,8 +55,8 @@ $string['cannotdeletemissingqtype'] = 'システムで必要なため、あな�
 $string['cannotdeletemodfilter'] = '「 $a->module 」モジュールの一部のため、あなたは、「 $a->filter 」をアンインストールできません。';
 $string['cannotdeleteqtypeinuse'] = 'あなたは、問題タイプ「 $a 」を削除することはできません。このタイプの問題が問題バンクに登録されています。';
 $string['cannotdeleteqtypeneeded'] = 'あなたは、問題タイプ「 $a 」を削除することはできません。この問題タイプに依存する他の問題タイプがインストールされています。';
-$string['cfgwwwrootslashwarning'] = 'あなたは、config.phpファイルの \$CFG->wwwroot を正しく定義していません。末尾に「/」文字を含めています。「/」文字を取り除いてください。取り除かない場合、<a href=\"http://tracker.moodle.org/browse/MDL-11061\">MDL-11061</a>のようなバグが発生する可能性があります。';
-$string['cfgwwwrootwarning'] = 'あなたは、config.phpファイルの \$CFG->wwwroot を正しく定義していません。あなたがこのページにアクセスしているURIと合致しません。URIを修正してください。修正しない場合、<a href=\"http://tracker.moodle.org/browse/MDL-11061\">MDL-11061</a>のようなバグが発生する可能性があります。';
+$string['cfgwwwrootslashwarning'] = 'あなたは、config.phpファイルの &#36;$CFG->wwwroot を正しく定義していません。末尾に「/」文字を含めています。「/」文字を取り除いてください。取り除かない場合、<a href=\"http://tracker.moodle.org/browse/MDL-11061\">MDL-11061</a>のようなバグが発生する可能性があります。';
+$string['cfgwwwrootwarning'] = 'あなたは、config.phpファイルの &#36;$CFG->wwwroot を正しく定義していません。あなたがこのページにアクセスしているURIと合致しません。URIを修正してください。修正しない場合、<a href=\"http://tracker.moodle.org/browse/MDL-11061\">MDL-11061</a>のようなバグが発生する可能性があります。';
 $string['change'] = '変更';
 $string['changesitelang'] = 'サイト言語の変更';
 $string['checkboxno'] = 'No';
@@ -70,8 +70,8 @@ $string['cliincorrectvalueerror'] = 'エラー、「 $a->option 」の値「 $a-
 $string['cliincorrectvalueretry'] = '値が正しくありません、再度お試しください。';
 $string['clistatusdisabled'] = 'ステータスは、無効にされています。';
 $string['clistatusenabled'] = 'ステータスは、有効にされています。';
-$string['clitypevalue'] = 'タイプ値';
-$string['clitypevaluedefault'] = 'タイプ値です。デフォルト値 ($a) を使用するには、Enterキーを押してください。';
+$string['clitypevalue'] = '値を入力してください。';
+$string['clitypevaluedefault'] = '値を入力してください。デフォルト値 ($a) を使用するには、Enterキーを押してください。';
 $string['cliunknowoption'] = '不明なオプション:
 $a
 「--help」オプションを使用してください。';
@@ -81,10 +81,10 @@ $string['commonfiltersettings'] = '一般フィルタ設定';
 $string['commonsettings'] = '共通設定';
 $string['componentinstalled'] = 'コンポーネントがインストールされました。';
 $string['computedfromlogs'] = '$a 以降のログより計算しています。';
-$string['condifmodeditdefaults'] = 'ここでは、あなたが新しい活動を作成する場合の活動設定フォームのデフォルト値を定義します。また、どの活動設定が「高度な設定」なのか設定することもできます。';
+$string['condifmodeditdefaults'] = 'ここでは、あなたが新しい活動を作成する場合に使用される、活動設定フォームのデフォルト値を定義します。また、どの活動設定が「高度な設定」なのか設定することもできます。';
 $string['confeditorhidebuttons'] = 'HTMLエディタで隠すボタンを選択してください。';
-$string['configallowassign'] = 'あなたはロール割り当て済みの左側のユーザに対して、他のユーザへのロール割り当てを許可することができます。';
-$string['configallowcategorythemes'] = 'この設定を有効にした場合、カテゴリに独自のテーマを設定することができます。独自のテーマが設定されていない限り、カテゴリテーマはすべての子カテゴリおよびコースのテーマを上書きします。警告: カテゴリテーマを有効にするとパフォーマンスに影響を及ぼします。';
+$string['configallowassign'] = 'あなたは、ロール割り当て済みの左側のユーザに対して、他のユーザへのロール割り当てを許可することができます。';
+$string['configallowcategorythemes'] = 'この設定を有効にした場合、カテゴリに独自のテーマを設定することができます。独自のテーマが設定されていない限り、カテゴリテーマはすべての子カテゴリおよびコースのテーマを上書きします。警告: カテゴリテーマを有効にした場合、パフォーマンスに影響を及ぼします。';
 $string['configallowcoursethemes'] = 'この設定を有効にした場合、コースに独自のテーマを設定することができます。コーステーマは、他のすべてのテーマ (サイト、ユーザ、セッションテーマ) を上書きします。';
 $string['configallowemailaddresses'] = '新しいメールアドレスを特定のドメインのみに制限したい場合、この欄にスペースで区切って入力してください。他のドメインはすべて拒否されます。サブドメインを許可するには、先頭に「.」を付けたドメインを入力してください。例 <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア (Flash等) をEMBEDおよびOBJECTタグでHTMLに埋め込むことは許可されていません (メディアプラグインフィルタを使用して安全に埋め込むことは可能です)。これらのタグの使用を許可したい場合、このオプションを有効にしてください。';
@@ -926,13 +926,13 @@ $string['verifychangedemail'] = 'メールアドレスの変更時、ドメイ�
 $string['warningcurrentsetting'] = '無効な現在値: $a';
 $string['webproxy'] = 'ウェブプロクシ';
 $string['webproxyinfo'] = 'あなたのMoodleサーバが直接インターネットに接続できない場合、以下のオプションに必要事項を入力してください。インターネットアクセスは、環境データ、言語パック、RSSフィード、タイムゾーン等のダウンロードに必要です。<br />PHP cURL拡張モジュールの使用を強くお勧めします。';
-$string['webserviceprotocols'] = 'ウェブサービスサーバ';
 $string['webservices'] = 'ウェブサービス';
-$string['webservicesystemsettings'] = '一般設定';
-$string['webserviceusersettings'] = 'ウェブサービスユーザ設定';
 $string['xmlrpcrecommended'] = '任意のxmlrpc拡張モジュールのインストールは、Moodleネットワーキング機能に有用です。';
 $string['xmlstrictheaders'] = 'XMLストリクトヘッダ';
 $string['ziprequired'] = 'MoodleではPHP Zip拡張モジュールが必須です。info-ZIPバイナリまたはPclZipライブラリは、今後使用されません。';
+$string['webserviceprotocols'] = 'ウェブサービスサーバ'; // ORPHANED
+$string['webservicesystemsettings'] = '一般設定'; // ORPHANED
+$string['webserviceusersettings'] = 'ウェブサービスユーザ設定'; // ORPHANED
 $string['optionalsubsystems'] = 'オプションサブシステム'; // ORPHANED
 $string['enableallowedip'] = 'これらのIPアドレスからのクライアントを許可する'; // ORPHANED
 $string['enableallowedipdesc'] = 'このオプションを有効にした場合、「許可されたIPアドレスリスト」のIPアドレスのみアクセスを許可されます。同時に「ブロックIPアドレスリスト」のIPアドレスがブロックされます。'; // ORPHANED
