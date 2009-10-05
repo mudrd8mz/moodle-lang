@@ -418,6 +418,7 @@ $string['remotedownloaderror'] = 'Le téléchargement de composants sur votre se
 $string['remotedownloadnotallowed'] = 'Le téléchargement de composants sur votre serveur n\'est pas autorisé (l\'option allow_url_fopen est désactivée).<br /><br />Vous devez télécharger manuellement le fichier <a href=\"$a->url\">$a->url</a>, le copier vers « {$a->dest} » dans votre serveur et le décompresser';
 $string['reportnotavailable'] = 'Ce type de rapport n\'est disponible que pour le cours de site';
 $string['reverseproxyabused'] = 'Le proxy inverse est activé. Il n\'est pas possible d\'accéder au serveur de manière directe.<br />Veuillez contacter l\'administrateur du serveur.';
+$string['restorechecksumfailed'] = 'Un problème est survenu avec les informations de restauration stockées dans votre session. Veuillez vérifier la mémoire PHP et/ou les limites de taille de la base de données. La restauration a été interrompue.';
 $string['restrictedcontextexception'] = 'L\'exécution de fonctions externes viole la restriction de contexte.';
 $string['restricteduser'] = 'Votre compte utilisateur « {$a} » ne vous permet pas d\'effectuer cette opération';
 $string['rpcerror'] = 'RPC cours disponibles pour inscription réseau Moodle : ($a)';
