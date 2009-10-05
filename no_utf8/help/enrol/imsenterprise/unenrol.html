@@ -1,0 +1,18 @@
+<h1>Utmelding av studenter og lærere</h1>
+
+<p>Data fra IMS Enterprise kan legge til så vel som fjerne kurspåmeldinger - både for studenter og lærere. Dersom denne innstillingen er aktivert vil Moodle gjennomføre utmeldinger slik de er spesifisert i dataene.
+</p>
+
+<p>Det er tre forskjellige måter å melde ut studenter på via IMS data:</p>
+
+<ul><li>Et &lt;member&gt; felt som angir en gitt student og kurs, og med "recstatus" attributten av &lt;role&gt; feltet satt til 3 (som betyr "delete"). DETTE ER ENNÅ IKKE IMPLEMENTERT I  MOODLE MODULEN.</li>
+
+<li> Et &lt;member&gt; felt som angir en gitt student og kurs og med &lt;status&gt; feltet satt til 0 (som betyr "inactive").</li>
+</ul>
+
+<p>Den tredje metoden er litt forskjellig fra de to andre. Den krever ikke at denne config-innstillingen er på og kan angis i god tid før datoen for utmelding:
+</p>
+
+<ul>
+  <li>Et &lt;member> felt som angir et &lt;timeframe>(påmeldingsperiode) for påmeldingen kan inneholde start og slutt-datoer for en bestemt student. Disse dataene lastes inn i Moodle databasen og etter slutt-datoen vil ikke studenten lenger ha tilgang til det angitte kurset.</li>
+</ul>

@@ -1,0 +1,83 @@
+<h1>Formateringsoversikt</h1>
+<p>Under finner du en enkel veileder for grunnstrukturen i en typisk IMS Enterprise datafil. Mer informasjon finner du på 
+<a href="http://www.imsglobal.org/enterprise/">IMS Enterprise sin offisielle webside</a>.</p>
+
+<p>Du vil ha nytte av å lese <a href="./enrol/imsenterprise/entv1p1_conformance_summary.html">kompatibilitetsoversikten</a> 
+som beskriver hvilke IMS data elementer denne modulen kan behandle.</p>
+
+<h1>Startguide til IMS Enterprise fil format</h1>
+
+<p>For en IMS-innmelding trenger du en  &lt;group&gt; tagg som angir kurset, a &lt;person&gt; tagg som angir brukerkontoen, og en &lt;membership&gt; tagg som inneholder &lt;member&gt; tagger som angir brukerens rolle i kurset.</p><p>
+</p>
+
+<p>Husk at numeriske nøkler som brukes i Moodledatabasen ikke er de dataene som skal utveksles. Et studentdatasystem vil aldri vite på forhånd at Martin er den 20.brukeren som er lagt til Moodledatabasen - derfor brukes ikke disse dataene til datautveksling med andre systemer.</p><p>
+</p>
+
+<p>Et kurs vil vanligvis ha en referansekode i tillegg til kursnavnet, så la oss anta dette er Moodle101. For å definere dette kurset kan du gjøre slik:
+</p><p>
+</p>
+
+<p>
+&nbsp; &lt;group&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;description&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;short&gt;Moodle 101&lt;/short&gt;<br />
+&nbsp; &nbsp; &lt;/description&gt;<br />
+&nbsp; &lt;/group&gt;<br />
+</p>
+
+<p>Innmeldingsskriptet vil se etter et kurs med koden Moodle101 og (dersom angitt) opprette det hvis det ikke eksisterer fra før. Samme gjelder for en bruker - la oss anta at dette er &quot;jmoodle&quot;:</p><p>
+</p>
+
+<p>
+&nbsp; &lt;person&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;userid&gt;jmoodle&lt;/userid&gt;<br />
+&nbsp; &nbsp; &lt;name&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;fn&gt;Joe Moodle&lt;/fn&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;n&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;family&gt;MOODLE&lt;/family&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;given&gt;Martin&lt;/given&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/n&gt;<br />
+&nbsp; &nbsp; &lt;/name&gt;<br />
+&nbsp; &lt;/person&gt;<br />
+</p>
+
+<p>Dersom Martin ikke eksisterer vil skriptet (dersom angitt) automatisk opprette en brukerkonto til ham.
+</p>
+
+<p>La oss nå se på medlemsskap - dvs legge brukeren til et kurs:
+</p><p>
+</p>
+
+<p>
+&nbsp; &lt;membership&gt;<br />
+&nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;id&gt;MOODLE101&lt;/id&gt;<br />
+&nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &lt;member&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;source&gt;MyDataSystem&lt;/source&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;id&gt;jmoodle&lt;/id&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/sourcedid&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;role roletype=&quot;01&quot;&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;status&gt;1&lt;/status&gt;<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &lt;extension&gt;&lt;cohort&gt;unit 2&lt;/cohort&gt;&lt;/extension&gt;<br />
+&nbsp; &nbsp; &nbsp; &lt;/role&gt;<br />
+&nbsp; &nbsp; &lt;/member&gt;<br />
+&nbsp; &lt;/membership&gt;<br />
+</p>
+
+<p>IMS Enterprise-spesifikasjonen kan angi start/slutt-datoer for innmelding, så disse feltene kan legges til ved å bruke 
+ &lt;timeframe&gt; taggen.</p><p>
+</p>
+
+<p>Dersom en person allerede er lagt til en gruppe i et kurs, vil skriptet IKKE oppdatere dette. Dersom de ikke finnes i noen gruppe vil skriptet sørge for at brukeren blir meldt inn i korrekt gruppe.
+</p><p>
