@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.5+ (Build: 20090527) (2007101550)
+      // grades.php - created with Moodle 1.9.5+ (Build: 20090906) (2007101550)
 
 
 $string['activities'] = 'Činnosti';
@@ -429,7 +429,7 @@ $string['percentascending'] = 'Třídit podle procent vzestupně';
 $string['percentdescending'] = 'Třídit podle procent sestupně';
 $string['percentshort'] = '%%';
 $string['plusfactor'] = 'Přičíst ke známkám';
-$string['plusfactorhelp'] = 'Číslo, které bude přičteno ke každé známce v této položce. Známky se nejprve násobí hodnotou činitelem uvedeným v poli \"Násobit známky\", teprve poté se k nim přičítá hodnota pole \"Přičíst ke známkám\".';
+$string['plusfactorhelp'] = 'Číslo, které bude přičteno ke každé známce v této položce. Známky se nejprve násobí činitelem uvedeným v poli \"Násobit známky\", teprve poté se k nim přičítá hodnota pole \"Přičíst ke známkám\".';
 $string['points'] = 'bodů';
 $string['pointsascending'] = 'Třídit podle bodů vzestupně';
 $string['pointsdescending'] = 'Třídit podle bodů sestupně';
@@ -439,7 +439,7 @@ $string['preferences'] = 'Předvolby';
 $string['prefgeneral'] = 'Obecné';
 $string['prefletters'] = 'Slovní známky a jejich hraniční hodnoty';
 $string['prefrows'] = 'Zvláštní řádky';
-$string['prefshow'] = 'Přepínač \"ukázat/skrýt\"';
+$string['prefshow'] = 'Ukázat/skrýt';
 $string['previewrows'] = 'Náhled řádků';
 $string['profilereport'] = 'Přehled známek uživatele';
 $string['publishing'] = 'Zveřejnění';
