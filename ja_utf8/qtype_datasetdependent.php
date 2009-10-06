@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20091006) (2009100600)
 
 
 $string['additem'] = 'アイテムを追加する';
@@ -21,7 +21,7 @@ $string['getnextnow'] = '追加するアイテムを今から取得する';
 $string['hexanotallowed'] = 'データセット <strong>{$a->name}</strong> では、16進形式の値 $a->value は許可されていません。';
 $string['item(s)'] = 'アイテム';
 $string['itemno'] = 'アイテム $a';
-$string['itemscount'] = 'アイテム<br />カウント';
+$string['itemscount'] = 'アイテム数';
 $string['itemtoadd'] = '追加するアイテム';
 $string['keptcategory1'] = '文字 - 同一カテゴリ内の再利用可能文字セットより';
 $string['keptcategory2'] = 'ファイル - 同一カテゴリ内の再利用可能ファイルセットより';
@@ -50,6 +50,6 @@ $string['sharedwildcards'] = '共有ワイルドカード';
 $string['uniform'] = '一様分布';
 $string['updatedatasetparam'] = 'データセットパラメータを更新する';
 $string['updatetolerancesparam'] = '答えの許容誤差パラメータを更新する';
-$string['youmustaddatleastoneitem'] = 'この問題を保存する前に少なくとも1つのデータセットを追加してください。';
+$string['youmustaddatleastoneitem'] = 'あなたは、この問題を保存する前に、少なくとも1つのデータセットを追加する必要があります。';
 
 ?>
