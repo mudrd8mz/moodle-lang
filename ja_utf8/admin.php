@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091004) (2009100200)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091006) (2009100600)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -85,11 +85,11 @@ $string['condifmodeditdefaults'] = 'ここでは、あなたが新しい活動�
 $string['confeditorhidebuttons'] = 'HTMLエディタで隠すボタンを選択してください。';
 $string['configallowassign'] = 'あなたは、ロール割り当て済みの左側のユーザに対して、他のユーザへのロール割り当てを許可することができます。';
 $string['configallowcategorythemes'] = 'この設定を有効にした場合、カテゴリに独自のテーマを設定することができます。独自のテーマが設定されていない限り、カテゴリテーマはすべての子カテゴリおよびコースのテーマを上書きします。警告: カテゴリテーマを有効にした場合、パフォーマンスに影響を及ぼします。';
-$string['configallowcoursethemes'] = 'この設定を有効にした場合、コースに独自のテーマを設定することができます。コーステーマは、他のすべてのテーマ (サイト、ユーザ、セッションテーマ) を上書きします。';
-$string['configallowemailaddresses'] = '新しいメールアドレスを特定のドメインのみに制限したい場合、この欄にスペースで区切って入力してください。他のドメインはすべて拒否されます。サブドメインを許可するには、先頭に「.」を付けたドメインを入力してください。例 <strong>ourcollege.edu.au .gov.au</strong>';
-$string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア (Flash等) をEMBEDおよびOBJECTタグでHTMLに埋め込むことは許可されていません (メディアプラグインフィルタを使用して安全に埋め込むことは可能です)。これらのタグの使用を許可したい場合、このオプションを有効にしてください。';
-$string['configallowoverride'] = 'あなたはロール割り当て済みの左側のユーザに対して、いくつかのロールのオーバーライドを許可することができます。';
-$string['configallowoverride2'] = '左側カラム内のロールがオーバライドできるロールを選択してください。<br />これらの設定は、ケイパビリティ「moodle/role:override」または「moodle/role:safeoverride」を持っているユーザにのみ適用されますので注意してください。';
+$string['configallowcoursethemes'] = 'この設定を有効にした場合、コースに独自テーマを設定することができます。コーステーマは、他のすべてのテーマ (サイト、ユーザ、セッションテーマ) を上書きします。';
+$string['configallowemailaddresses'] = '新しいメールアドレスすべてを特定のドメインのみに制限したい場合、この欄にスペースで区切って入力してください。他のドメインは、すべて拒否されます。サブドメインを許可するには、先頭に「.」を付けたドメインを入力してください。例 <strong>ourcollege.edu.au .gov.au</strong>';
+$string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア (Flash等) をEMBEDおよびOBJECTタグでHTMLに埋め込むことが許可されていません (メディアプラグインフィルタを使用して安全に埋め込むことは可能です)。これらのタグの使用を許可したい場合、このオプションを有効にしてください。';
+$string['configallowoverride'] = 'あなたは、ロール割り当て済みの左側のユーザに対して、いくつかのロールのオーバーライドを許可することができます。';
+$string['configallowoverride2'] = '左側カラム内のロールでオーバライドできるロールを選択してください。<br />これらの設定は、ケイパビリティ「moodle/role:override」または「moodle/role:safeoverride」を持っているユーザにのみ適用されますので注意してください。';
 $string['configallowswitch'] = 'ユーザが持つロールを基に、どのロールにスイッチできるか選択してください。このテーブルのエントリに加えてロールをスイッチできるようにするには、ユーザがmoodle/role:switchrolesケイパビリティを持つ必要があります。<br />moodle/course:viewケイパビリティを持つロールにのみスイッチすることができるため、このテーブルのいくつかのカラムは無効にされていることに留意してください。';
 $string['configallowthemechangeonurl'] = 'この設定を有効にした場合、MoodleのURIに「theme={themename}&amp;sesskey={sesskey}」を追加することにより、テーマを変更することができます。';
 $string['configallowunenroll'] = 'この設定を「Yes」にした場合、学生はいつでも好きなときにコースから登録抹消することができます。無効にした場合、学生は登録抹消することはできず、参加に関するすべてを教師および管理者がコントロールします。';
