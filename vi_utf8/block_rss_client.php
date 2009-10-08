@@ -1,36 +1,51 @@
-<?php // $Id$ 
+<?PHP // $Id$ 
+      // block_rss_client.php - created with Moodle 1.9.5+ (Build: 20090812) (2007101550)
+      // local modifications from http://vnslearning.com/online
 
-$string['feedstitle'] = 'Gỡ bỏ RSS Feeds';
-$string['feedsaddedit'] = 'Thêm/Soạn thảo Feeds';
-$string['remotenewsfeed'] = 'Gỡ bỏ Feed tin tức';
-$string['feedupdated'] = 'feed tin tức được cập nhật';
-$string['feedadded'] = 'feed tin tức được thêm';
-$string['feeddeleted'] = 'feed tin tức được xoá';
 
-$string['numentries'] = 'Số các kết nối của rss để nhìn thấy trên mỗi khối.';
-$string['submitters'] = 'Ai có thể định nghĩa rss feeds mới ? Feeds được tạo ra có sẵn đối với bất kỳ thành viên nào của site với mục đích thêm chúng tới các trang  của riêng họ.';
-$string['choosefeed'] = 'Chọn một feed để hiển thị trong khối này :';
-$string['nofeeds'] = 'Không có RSS feeds nào được định nghĩa đối với site này.';
-$string['editnewsfeeds'] = 'Soạn thảo feeds tin tức';
-$string['shownumentries'] = 'Số mục tối đa để hiển thị ra đối với mỗi khối.';
-$string['displaydescription'] = 'Hiển thị từng phần mô tả của kết nối ?';
-
-$string['couldnotfindfeed'] = 'Không thể tìm thấy feed với id';
-$string['feed'] = 'Feed';
-$string['findmorefeeds'] = 'Tìm rss feeds nhiều hơn';
-
-$string['deletefeedconfirm'] = 'Bạn có chắc chắn muốn xoá feed này?';
-$string['timeout'] = 'blockrsstimeout';
-$string['timeoutdesc'] = 'Thời gian để một RSS feed hoạt động trong bộ nhớ đệm.';
-$string['addheadlineblock'] = 'Thêm khối tiêu đề cho RSS ';
-$string['pickfeed'] = 'Chọn lựa một feed tin tức ';
-$string['feeds'] = 'Feeds tin tức';
-$string['feed'] = 'Feed tin tức';
-$string['editfeeds'] = 'Soạn thảo, tham gia hoặc không tham gia dựa vào RSS/Atom feeds tin tức';
-$string['seeallfeeds'] = 'Nhìn thấy tất cả feeds';
-$string['editrssblock'] = 'Soạn thảo khối tiêu đề RSS';
-
+$string['addfeed'] = 'Thêm địa chỉ mạng (URL) dòng tin:';
+$string['addheadlineblock'] = 'Thêm khối đọc tin RSS';
 $string['addnew'] = 'Thêm mới';
-$string['wordtitle'] = 'Tiêu đề';
+$string['blockname'] = 'Trình đọc tin RSS';
+$string['choosefeedlabel'] = 'Chọn dòng tin RSS mà bạn muốn đưa vào khối này:';
+$string['clientchannellink'] = 'Trang nguồn:';
+$string['clientnumentries'] = 'Số bài mặc định trong mỗi dòng tin';
+$string['clientshowchannellinklabel'] = 'Bạn có muốn hiển thị đường liên kết đến trang nguồn hay không? (Lưu ý rằng nếu không đưa đường liên kết vào dòng tin thì sẽ không có liên kết nào được hiển thị):';
+$string['clientshowimagelabel'] = 'Hiển thị hình ảnh dòng tin nếu có:';
+$string['couldnotfindfeed'] = 'Không tìm thấy dòng tin có số hiệu ID';
+$string['customtitlelabel'] = 'Tiêu đề tự đặt (để trống nếu muốn dùng tiêu đề của bản thân dòng tin):';
+$string['deletefeedconfirm'] = 'Có chắc là bạn muốn xoá dòng tin này không?';
+$string['displaydescriptionlabel'] = 'Hiển thị phần mô tả của mỗi đường liên kết?';
+$string['editfeeds'] = 'Chỉnh sửa, đăng kí hay huỷ đăng kí dòng tin RSS';
+$string['editnewsfeeds'] = 'Sửa dòng tin RSS';
+$string['editrssblock'] = 'Sửa khối đọc tin RSS';
+$string['feed'] = 'Dòng tin';
+$string['feedadded'] = 'Dòng tin RSS đã đưa vào';
+$string['feeddeleted'] = 'Dòng tin RSS đã bị xoá';
+$string['feeds'] = 'Dòng tin RSS';
+$string['feedsaddedit'] = 'Thêm/Sửa dòng tin';
+$string['feedsconfigurenewinstance'] = 'Nhấn vào đây để cho hiển thị trong khối đọc tin RSS';
+$string['feedstitle'] = 'Dòng tin RSS';
+$string['feedupdated'] = 'Dòng tin đã được cập nhật';
+$string['findmorefeeds'] = 'Tìm thêm dòng tin RSS khác';
+$string['managefeeds'] = 'Quản lí tất cả các dòng tin RSS của tôi';
+$string['nofeeds'] = 'Hiện không có dòng tin RSS nào cho hệ thống này.';
+$string['numentries'] = 'Số bài trong mỗi dòng tin';
+$string['pickfeed'] = 'Chọn một dòng tin RSS';
+$string['remotenewsfeed'] = 'Dòng tin RSS từ xa';
+$string['rss_client:createprivatefeeds'] = 'Tạo dòng tin RSS riêng';
+$string['rss_client:createsharedfeeds'] = 'Tạo dòng tin RSS chung';
+$string['rss_client:manageanyfeeds'] = 'Quản lí mọi dòng tin RSS';
+$string['rss_client:manageownfeeds'] = 'Quản lí dòng tin RSS riêng';
+$string['seeallfeeds'] = 'Xem toàn bộ các dòng tin';
+$string['sharedfeed'] = 'Dòng tin chung';
+$string['shownumentrieslabel'] = 'Số bài tối đa cần hiển thị trong mỗi khối.';
+$string['submitters'] = 'Ai sẽ được phép lập dòng tin mới? Những dòng tin được tạo ra sẽ có hiệu lực trong mọi trang trên hệ thống.';
+$string['submitters2'] = 'Người được tạo dòng tin';
+$string['timeout'] = 'Thời gian (phút) trước khi một dòng tin RSS hết hạn trong bộ đệm. Lưu ý: đây là thời gian tối thiểu trước khi hết hạn. Sau hạn này, dòng tin sẽ được cập nhật trong bộ đệm khi chạy chương trình cron. Giá trị khuyến cáo là từ 30 phút trở lên.';
+$string['timeout2'] = 'Thời hạn';
+$string['timeoutdesc'] = 'Thời gian (phút) để lưu trữ dòng tin RSS trong bộ đệm.';
+$string['updatefeed'] = 'Cập nhật địa chỉ dòng tin RSS:';
+$string['validatefeed'] = 'Kiểm tra dòng tin';
 
 ?>
