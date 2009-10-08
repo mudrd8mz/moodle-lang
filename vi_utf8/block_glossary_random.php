@@ -1,23 +1,25 @@
-<?php  // $Id$
-$string['addentry'] = 'Đưa thêm trích dẫn yêu thích của bạn!';
-$string['askaddentry'] = 'Khi người dùng đưa thêm các mục mới vào bảng thuật ngữ, hiển thị liên kết với văn bản này';
-$string['askinvisible'] = 'Khi người dùng không thể chỉnh sửa hoặc xem bảng thuật ngữ, hiển thị văn bản này (không có liên kết)'; 
-$string['askviewglossary'] = 'Khi người dùng có thể xem nhưng không thể đưa thêm mục mới, hiển thị liên kết với văn bản này'; 
-$string['blockname'] = 'Mục thuật ngữ ngẫu nhiên';
-$string['intro'] = 'Đảm bảo rằng bạn có ít nhất một bảng thuật ngữ với ít nhất một mục được đưa vào cua học. Sau đó bạn có thể chỉnh sửa các thiết lậo sau';
-$string['invisible'] = '(tiếp tục)'; 
-$string['lastmodified'] = 'Mục được thay đổi cuối cùng';
-$string['nextone'] = 'Mục tiếp theo';
-$string['noentriesyet'] = 'Không có mục nào trong bảng thuật ngữ.'; 
-$string['notyetconfigured'] = 'Hãy cấu hình khối này sử dụng icon chỉnh sửa.'; 
-$string['notyetglossary'] = 'Bạn cần ít nhất một bảng thuật ngữ để chọn.'; 
-$string['random'] = 'Mục ngẫu nhiên';
-$string['refresh'] = 'Những ngày trước khi một mục mới được chọn';
-$string['select_glossary'] = 'Lấy các mục từ bảng thuật ngữ này';
-$string['showconcept'] = 'Hiển thị khái niệm (tiêu đề) cho mỗi mục';
-$string['title'] = 'Tiêu đề';
-$string['typehelp'] = '<b>Lần thay đổi cuối cùng</b> sẽ luôn hiển thị mục được thay đổi cuối cùng, và <b>mục ngẫu nhiên</b> sẽ được lấy ngẫu nhiên.  Mục <b>tiếp theo</b> sẽ được lấy theo đúng thứ tự.  Mục này đặc biệt có ích khi số ngày được chọn, cho phép bạn hiển thị<i>Trích dẫn của tuần</i> hoặc một <i>Lời nhắn nhủ của ngày</i> mà mọi người nhìn thấy.';
-$string['type'] = 'Mục mới được chọn như thế nào';
-$string['viewglossary'] = 'Thêm các trích dẫn...'; 
-$string['whichfooter'] = 'Bạn cũng có thể hiển thị các liên kết tới các hoạt động của bảng thuật ngữ mà khối này có liên hệ. Khối chỉ liên kết tới các hoạt động mà được phép đối với bảng thuật ngữ này.'; 
+<?PHP // $Id$ 
+      // block_glossary_random.php - created with Moodle 1.9.5+ (Build: 20090812) (2007101550)
+      // local modifications from http://vnslearning.com/online
+
+
+$string['addentry'] = 'Đưa thêm trích dẫn mà bạn yêu thích!';
+$string['askaddentry'] = 'Khi thành viên có quyền viết thêm các thuật ngữ mới, hiển thị đường liên kết tới văn bản này';
+$string['askinvisible'] = 'Khi thành viên không có quyền viết thêm các thuật ngữ mới, hiển thị văn bản này (không có đường liên kết)';
+$string['askviewglossary'] = 'Khi thành viên có quyền xem nhưng không thể thêm thuật ngữ mới, hiển thị đường liên kết tới văn bản này';
+$string['blockname'] = 'Thuật ngữ ngẫu nhiên';
+$string['intro'] = 'Hãy đảm bảo rằng bạn có ít nhất một bảng thuật ngữ với ít nhất một thuật ngữ để đưa vào khoá học này. Rồi bạn sẽ có thể điều chỉnh các thiết lập tiếp theo';
+$string['lastmodified'] = 'Thuật ngữ mới được sửa';
+$string['nextone'] = 'Thuật ngữ tiếp theo';
+$string['noentriesyet'] = 'Không có thuật ngữ nào trong bảng thuật ngữ đã chọn.';
+$string['notyetconfigured'] = 'Hãy nhấn lên biểu tượng chỉnh sửa để cấu hình khối này.';
+$string['notyetglossary'] = 'Bạn cần có ít nhất một bảng thuật ngữ để chọn.';
+$string['random'] = 'Thuật ngữ ngẫu nhiên';
+$string['refresh'] = 'Ngày trước khi chọn một thuật ngữ mới';
+$string['select_glossary'] = 'Lấy các thuật ngữ từ bảng thuật ngữ này';
+$string['showconcept'] = 'Hiển thị khái niệm (tiêu đề) cho mỗi thuật ngữ';
+$string['type'] = 'Cách chọn một thuật ngữ mới';
+$string['viewglossary'] = 'Nhiều trích dẫn khác...';
+$string['whichfooter'] = 'Bạn có thể cho hiển thị các đường liên kết tới các hành động có liên quan đến khối này. Khối sẽ chỉ hiển thị các đường liên kết tới những hành động được mở cho bảng thuật ngữ trên.';
+
 ?>
