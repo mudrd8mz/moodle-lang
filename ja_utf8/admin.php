@@ -90,10 +90,10 @@ $string['configallowemailaddresses'] = '新しいメールアドレスすべて�
 $string['configallowobjectembed'] = 'デフォルトのセキュリティ対策として、通常のユーザはマルチメディア (Flash等) をEMBEDおよびOBJECTタグでHTMLに埋め込むことが許可されていません (メディアプラグインフィルタを使用して安全に埋め込むことは可能です)。これらのタグの使用を許可したい場合、このオプションを有効にしてください。';
 $string['configallowoverride'] = 'あなたは、ロール割り当て済みの左側のユーザに対して、いくつかのロールのオーバーライドを許可することができます。';
 $string['configallowoverride2'] = '左側カラム内のロールでオーバライドできるロールを選択してください。<br />これらの設定は、ケイパビリティ「moodle/role:override」または「moodle/role:safeoverride」を持っているユーザにのみ適用されますので注意してください。';
-$string['configallowswitch'] = 'ユーザが持つロールを基に、どのロールにスイッチできるか選択してください。このテーブルのエントリに加えてロールをスイッチできるようにするには、ユーザがmoodle/role:switchrolesケイパビリティを持つ必要があります。<br />moodle/course:viewケイパビリティを持つロールにのみスイッチすることができるため、このテーブルのいくつかのカラムは無効にされていることに留意してください。';
-$string['configallowthemechangeonurl'] = 'この設定を有効にした場合、MoodleのURIに「theme={themename}&amp;sesskey={sesskey}」を追加することにより、テーマを変更することができます。';
-$string['configallowunenroll'] = 'この設定を「Yes」にした場合、学生はいつでも好きなときにコースから登録抹消することができます。無効にした場合、学生は登録抹消することはできず、参加に関するすべてを教師および管理者がコントロールします。';
-$string['configallowuserblockhiding'] = 'サイト全体において、ユーザにブロックの表示/非表示を許可しますか? 折りたたみ可能なブロックの状態を記憶するため、この機能はJavaスクリプトとクッキーを使用します。また、この設定はユーザ自身の使用にのみ影響します。';
+$string['configallowswitch'] = 'ユーザが持つロールを基に、どのロールにスイッチできるか選択してください。このテーブルのエントリに加えてロールをスイッチできるようにするには、ユーザがmoodle/role:switchrolesケイパビリティを持つ必要があります。<br />moodle/course:viewケイパビリティを持ち、moodle/site:doanythingケイパビリティを持たないロールにのみスイッチすることができるため、このテーブルのいくつかのカラムは無効にされていることに留意してください。';
+$string['configallowthemechangeonurl'] = 'この設定を有効にした場合、MoodleのURIすべてに「theme={themename}&amp;sesskey={sesskey}」を追加することにより、テーマを変更することができます。';
+$string['configallowunenroll'] = 'この設定を「Yes」にした場合、学生はいつでも好きなときにコースから登録抹消することができます。無効にした場合、学生は登録抹消することはできず、受講登録に関して、すべてを教師および管理者がコントロールします。';
+$string['configallowuserblockhiding'] = 'サイト全体において、ユーザにブロックの表示/非表示を許可しますか? 折りたたみ可能なブロックの状態を記憶するため、この機能はJavaスクリプトおよびクッキーを使用します。また、この設定はユーザ自身の閲覧にのみ影響します。';
 $string['configallowusermailcharset'] = 'この設定を有効にした場合、サイトの全ユーザは自分のメール文字コードを指定することができます。';
 $string['configallowuserswitchrolestheycantassign'] = 'デフォルトでは、moodle/role:assignには、moodle/role:switchrolesが有効になっている必要があります。この設定を有効にすることで、この必要条件を解除します。また、「ロールを切り替える ...」ドロップダウンメニューで利用できるロールは、「ロールの割り当て許可」テーブルの設定のみで決定されることになります。「ロールの割り当て許可」テーブルの設定では、ユーザの既存ロールより多くのケイパビリティを持ったロールへの切り替えを許可しないことをお勧めします。';
 $string['configallowuserthemes'] = 'この設定を有効にした場合、ユーザは自分のテーマを設定することができます。サイトテーマは、ユーザテーマに上書きされます (コーステーマは上書きされません)。';
