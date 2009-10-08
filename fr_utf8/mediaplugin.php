@@ -1,6 +1,6 @@
 <?php /// $Id$
 
-$string['filtername'] = 'Extensions multimédia';
+$string['filtername'] = 'Extensions multimédias';
 
 $string['flashanimation'] = 'Animation Flash';
 $string['flashvideo'] = 'Vidéo Flash';
