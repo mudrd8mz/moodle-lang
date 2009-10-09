@@ -360,4 +360,21 @@ $string['shib_no_attributes_error'] = 'Чини се да Вам је идент
 $string['shib_not_all_attributes_error'] = 'Moodle-u су неопходни извесни Shibboleth атрибути, који у Вашем случају нису присутни. Потребни атрибути су: $a<br />Молимо контактирајте вебмастерa овог сервера или свог даваоца идентитета.'; // ORPHANED
 $string['shib_not_set_up_error'] = 'Shibboleth провера идентитета изгледа није добро подешена, јер нема присутних варијабли Shibboleth окружења за ову страницу. Молимо погледајте <a href=\"README.txt\">README</a> за даља упутства за подешавање Shibboleth аутентикације или контактирајте вебмастерa ове Moodle инсталације.'; // ORPHANED
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE брза путања?';
+$string['auth_radiustype'] = 'Иаберите шему за проверу идентитета која ће се користити са RADIUS сервером.';
+$string['auth_shib_auth_method'] = 'Назив метода за проверу идентитета';
+$string['auth_shib_idp_list'] = 'Даваоци идентитета';
+$string['auth_shib_integrated_wayf'] = 'Moodle WAYF Сервис';
+$string['auth_shib_integrated_wayf_description'] = 'Уколико потврдите ово Moodle ће користити свој WAYF сервис уместо оног који је конфигурисан за Shibboleth. Moodle ће приказати падајућу лист на овој алтернативној страници за пријаву на систем где ће корисник моћи да изабере свог Даваоца идентитета.';
+$string['sso_idp_description'] = 'Активирајте ову опцију да бисте дозволили својим корисницима да приступају Moodle сајту $a без поновне пријаве. <ul><li><em>Зависност</em>: Морате бити <strong>пријављени</strong> за SSO (давалац услуга) сервис на $a.</li></ul><br />Пријавите се за овај сервис да бисте дозволили корисницима који су прошли проверу идентитета на сајту $a да приступају вашем сајту без поновне пријаве. <ul><li><em>Зависност</em>: Морате <strong>активирати</strong> SSO (давалац услуга) сервис за $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (давалац идентитета)';
+$string['sso_mnet_login_refused'] = 'Кориснику $a[0] није дозовољено да се пријави са $a[1].';
+$string['sso_sp_description'] = 'Активирајте ову опцију да бисте дозволили корисницима који су прошли проверу идентитета на сајту $a да приступају вашем сајту без поновне пријаве. <ul><li><em>Зависност</em>: Морате бити <strong>пријављени</strong> за SSO (давалац идентитета) сервис на $a.</li></ul><br />Пријавите се за овај сервис да бисте дозволили својим корисницима да приступају Moodle сајту $a без поновне пријаве. <ul><li><em>Зависност</em>: Морате <strong>активирати</strong> SSO (давалац идентитета) сервис за $a.</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (давалац услуга)';
+
 ?>

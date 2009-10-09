@@ -59,4 +59,15 @@ $string['update_never'] = 'کبھی نہیں';
 $string['update_oncreate'] = 'تخلیق کے وقت';
 $string['update_onlogin'] = 'ہر لاگ ان کے وقت';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'اس خدمت کو شائع کریں تاک آپ کے استعمال کنندگان دوبارہ لاگ ان کیے بغیر $a موڈل سائٹ کو جا سکیں۔آپ کو لازمی $a پر ایس ایس او ( خدمت مہیا کرنیوالا ) خدمت کیلیے رجسٹر ہونا پڑے گا۔ </li></ul><br /> اپنے معتبر استعمال کنندگان کو دوبارہ لاگ ان کیے بغیر $a سے اپنی سائٹ پر رسائی کیلیے رجسٹر ہوں۔ <ul><li<em>منحصریت: </em> آپ کو بھی $a کیلیے ایس ایس او ( خدمت مہیا کرنیوالا ) خدمت <strong> شائع </strong> لازمی کرنی ہے۔</li></ul><br />';
+$string['sso_idp_name'] = 'ایس ایس او ) شناخت مہیا کرنیوالا (';
+$string['sso_mnet_login_refused'] = 'استعمال کنندہ $a[0] کو $a[1] سے اجازت نہیں ہے۔';
+$string['sso_sp_description'] = 'اس خدمت کو شائع کریں تاک آپ کے استعمال کنندگان دوبارہ لاگ ان کیے بغیر $a موڈل سائٹ کو جا سکیں۔آپ کو لازمی $a پر ایس ایس او ( شناخت مہیا کرنیوالا ) خدمت کیلیے رجسٹر ہونا پڑے گا۔ </li></ul><br /> اپنے معتبر استعمال کنندگان کو دوبارہ لاگ ان کیے بغیر $a سے اپنی سائٹ پر رسائی کیلیے رجسٹر ہوں۔ <ul><li<em>منحصریت: </em> آپ کو بھی $a کیلیے ایس ایس او ( شناخت مہیا کرنیوالا ) خدمت <strong> شائع </strong> لازمی کرنی ہے۔</li></ul><br />';
+$string['sso_sp_name'] = 'ایس ایس او ) خدمات مہیا کرنےوالا (';
+
 ?>

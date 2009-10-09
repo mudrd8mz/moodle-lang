@@ -1,6 +1,7 @@
-<?PHP // $Id$ 
-      // auth_db.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+<?php
 
+// All of the language strings in this file should also exist in
+// auth.php to ensure compatibility in all versions of Moodle.
 
 $string['auth_dbcantconnect'] = 'Nije bilo moguće povetati se navedenom bazom podataka za proveru identiteta...';
 $string['auth_dbchangepasswordurl_key'] = 'URL za promenu lozinke';
@@ -33,6 +34,7 @@ $string['auth_dbsetupsqlhelp'] = 'SQL komanda za posebno podešavanje baza podta
 $string['auth_dbsuspenduser'] = 'Suspendovani korisnik $a[0] id $a[1]';
 $string['auth_dbsuspendusererror'] = 'Greška prilikom suspendovanja korisnika $a';
 $string['auth_dbsybasequoting'] = 'Koristi navodnike Sybase baze podataka';
+$string['auth_dbsybasequotinghelp'] = 'Sybase stil izlaza jednostrukim navodnicima - potrebno za Oracle, MS SQL i neke druge baze podataka. Ne koristiti za  MySQL!';
 $string['auth_dbtable'] = 'Ime tabele u bazi podataka';
 $string['auth_dbtable_key'] = 'Tabela';
 $string['auth_dbtitle'] = 'Eksterna baza podataka';
@@ -44,5 +46,3 @@ $string['auth_dbuser_key'] = 'DB korsnik';
 $string['auth_dbusernotexist'] = 'Nije moguće ažurirati nepostojećeg korisnika: $a';
 $string['auth_dbuserstoadd'] = 'Korisničkih unosa za dodavanje: $a';
 $string['auth_dbuserstoremove'] = 'Korisničkih unosa za uklanjanje: $a';
-
-?>

@@ -298,4 +298,16 @@ $string['update_oncreate'] = 'ஆக்கப்படுகையில்';
 $string['update_onlogin'] = 'ஒவ்வொரு புகுபதிகையிலும்';
 $string['update_onupdate'] = 'இற்றைப்படுத்தலில்';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Publish this service to allow your users to roam to the $a Moodle site without having to re-login there. <ul><li><em>Dependency</em>: You must also <strong>subscribe</strong> to the SSO (Service Provider) service on $a.</li></ul><br />Subscribe to this service to allow authenticated users from $a to access your site without having to re-login. <ul><li><em>Dependency</em>: You must also <strong>publish</strong> the SSO (Service Provider) service to $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (Identity Provider)';
+$string['sso_mnet_login_refused'] = 'பயனாளர் $a[0] , $a[1] இலிருந்து புகுபதிகை செய்ய அனுமதிக்கப்படவில்லை.';
+$string['sso_sp_description'] = 'Publish this service to allow authenticated users from $a to access your site without having to re-login. <ul><li><em>Dependency</em>: You must also <strong>subscribe</strong> to the SSO (Identity Provider) service on $a.</li></ul><br />Subscribe to this service to allow your users to roam to the $a Moodle site without having to re-login there. <ul><li><em>Dependency</em>: You must also <strong>publish</strong> the SSO (Identity Provider) service to $a.</li></ul><br />
+sso_sp_description';
+$string['sso_sp_name'] = 'SSO (சேவை வழங்குனர்)';
+
 ?>

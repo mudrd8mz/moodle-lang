@@ -337,4 +337,15 @@ $string['update_oncreate'] = 'Vid skapande';
 $string['update_onlogin'] = 'Vid varje inloggning';
 $string['update_onupdate'] = 'Vid uppdatering';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Offentliggör den här tjänsten för att tillåta att Dina användare navigerar vidare till $a webbplatsen för Moodle utan att behöva logga in där igen. <ul><li><em>Beroende</em>: Du måste också  <strong>prenumerera</strong> på SSO-tjänsten hos $a.</li></ul>Prenumerera på den tjänsten för att tillåta att autenticerade användare från $a får tillgång till Din webbplats utan att behöva logga in igen. <ul><li><em>Beroende</em>: Du måste också  <strong>offentliggöra</strong> SSO-tjänsten hos $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (Tillhandahållare av identiteter)';
+$string['sso_mnet_login_refused'] = 'Användarnamn $a[0] har inte tillstånd att logga in från $a[1].';
+$string['sso_sp_description'] = 'Offentliggör den här tjänsten för att tillåta att autenticerade användare från $a får tillgång till Din webbplats utan att behöva logga in igen. <ul><li><em>Beroende</em>: Du måste också  <strong>prenumerera</strong> på SSO-tjänsten (tillhandahållare av identiteter) hos $a.</li></ul>Prenumerera på den tjänsten för att tillåta att Dina användare navigerar vidare till $a webbplatsen för Moodle utan att behöva logga in där igen.<ul><li><em>Beroende</em>: Du måste också  <strong>offentliggöra</strong> SSO-tjänsten (tillhandahållare av identiteter) hos $a.</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (tillhandahållare av tjänster)';
+
 ?>
