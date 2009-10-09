@@ -353,4 +353,15 @@ $string['shib_no_attributes_error'] = 'Usted parece haber sido autentificado por
 $string['shib_not_all_attributes_error'] = 'Moodle necesita ciertos atributos Shibboleth que no están presentes en su caso. Los atributos son: $a<br />Por favor, contacte con el webmaster de este servidor o con su proveedor de identidad.'; // ORPHANED
 $string['shib_not_set_up_error'] = 'La autentificación Shibboleth no parece ser correcta debido a que en esta página no están presentes las variables contextuales Shibboleth. Por favor, consulte el archivo <a href=\"README.txt\">README</a> si desea más instrucciones sobre cómo definir la autentificación Shibboleth, o contacte con el webmaster de esta instalación de Moodle.'; // ORPHANED
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Publique este servicio para permitir a sus usuarios divagar al sitio Moodle $a sin tener que reiniciar sesión allí. <ul><li><em>Dependencia</em>: Usted debe también <strong>suscribirse</strong> al servicio SSO (Proveedor de servicios) en $a.</li></ul><br />Suscríbase a este servicio para permitir a los usuarios autenticados de $a acceder a su sitio sin tener que reiniciar sesión. <ul><li><em>Dependencia</em>: Usted debe también <strong>publicar</strong> el servicio SSO (proveedor de servicios) a $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (Proveedor de Identidad)';
+$string['sso_mnet_login_refused'] = 'Al nombre de usuario $a[0] no le es permitido iniciar sesión desde $a[1].';
+$string['sso_sp_description'] = 'Publique este servicio para permitir a usuarios autenticados acceder a su sitio desde $a sin tener que reinciar sesión.<ul><li><em>Dependecia</em>: Usted debe también <strong>subscribirse</strong> al servicio SSO (Proveedor de identidad) en $a.</li></ul><br />Suscríbase a este servicio para permitir a sus usuarios divagar al sitio Moodle $a sin tener que reiniciar sesión allí. <ul><li><em>Dependencia</em>: Usted debe también <strong>publicar</strong> el servicio SSO (Proveedor de identidad) a $a.</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (Proveedor de Servicios)';
+
 ?>

@@ -369,4 +369,15 @@ $string['update_oncreate'] = 'Létrehozáskor';
 $string['update_onlogin'] = 'Minden bejelentkezéskor';
 $string['update_onupdate'] = 'Frissítéskor';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'A szolgáltatás közzétételével engedélyezheti felhasználóinak, hogy a(z) $a Moodle-portálra látogassanak anélkül, hogy ott újból be kellene jelentkezniük.<ul><li><em>Függőség</em>: fel is kell iratkoznia a(z) $a SSO (szolgáltató) szolgáltatására.</li></ul><br />A szolgáltatásra való feliratkozással a(z) $a felhasználói a portáljára látogathatnak anélkül, hogy újból be kellene jelentkezniük.<ul><li><em>Függőség</em>: közzé is kell tennie a(z) $a SSO (szolgáltató) szolgáltatását.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (azonosítási szolgáltató)';
+$string['sso_mnet_login_refused'] = '$a[0] felhasználónévvel nem lehet a(z) $a[1] felől bejelentkezni.';
+$string['sso_sp_description'] = 'A szolgáltatás közzétételével engedélyezheti felhasználóinak, hogy a portálra látogassanak anélkül, hogy ott újból be kellene jelentkezniük.<ul><li><em>Függőség</em>: fel is kell iratkoznia a(z) $a SSO (azonosítási szolgáltató) szolgáltatására.A szolgáltatásra való feliratkozással a(z) $a felhasználói a portáljára látogathatnak anélkül, hogy újból be kellene jelentkezniük.<ul><li><em>Függőség</em>: közzé is kell tennie a(z) $a SSO (azonosítási szolgáltató) szolgáltatását.</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (szolgáltató)';
+
 ?>

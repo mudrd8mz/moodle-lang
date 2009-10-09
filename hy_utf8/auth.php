@@ -412,4 +412,15 @@ $string['getanothercaptcha'] = 'Ստանալ այլ CAPTCHA';
 $string['getanaudiocaptcha'] = 'Ստանալ audio CAPTCHA';
 $string['getanimagecaptcha'] = 'Ստանալ պատկերի CAPTCHA';
 $string['recaptcha'] = 'reCAPTCHA';
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Հրապարակեք այս ծառայությունը, որպեսզի թույլատրեք Ձեր օգտագործողներին շրջել $a Moodle կայքում՝ առանց այնտեղ վերագրանցվելու։ <ul><li><em>Փոխկախվածություն</em>՝ Ինչպես նաև պետք է <strong>բաժանորդագրվեք</strong>  $a -ի SSO (Ծառայություն տրամադրող) ծառայությանը։</li></ul><br />Բաժանորդագրվեք այս ծառայությանը, որպեսզի $a-ի վավերացված օգտագործողներին առանց վերագրանցմանւ մատչելի լինի Ձեր կայքը։  <ul><li><em>Փոխկախվածությու</em>՝ Ինչպես նաև պետք է <strong>հրապարակեք</strong> $a -ի SSO (Նույնականություն տրամադրող) ծառայությունը։</li></ul><br />';
+$string['sso_idp_name'] = 'SSO  (Նույնականություն տրամադրող)';
+$string['sso_mnet_login_refused'] = '$a[0] մուտքաբառն իրավունք չունի  մուտք գործել $a[1] -ից։';
+$string['sso_sp_description'] = 'Հրապարակեք այս ծառայությունը, որպեսզի $a-ի վավերացված օգտագործողներին առանց վերագրանցման մատչելի լինի Ձեր կայքը։ <ul><li><em>Փոխկախվածություն</em>՝ Ինչպես նաև պետք է <strong>բաժանորդագրվեք</strong> $a -ում SSO (Նույնականություն տրամադրող) ծառայությանը։</li></ul><br />Բաժանորդագրվեք այս ծառայությանը, որպեսզի թույլատրեք Ձեր օգտագործողներին առանց վերագրանցման շրջել $a Moodle կայքում։ <ul><li><em>Փոխկախվածություն</em>՝ Ինչպես նաև պետք է <strong>հրապարակեք</strong> $a -ի SSO (Նույնականություն տրամադրող) ծառայությունը։</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (Ծառայություն տրամադրող)';
+
 ?>

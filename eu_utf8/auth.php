@@ -341,4 +341,15 @@ $string['update_onupdate'] = 'Eguneratzean';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate()-k ez du onartzen aukeratutako erabiltzaile-mota: $a';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable()-k ez du onartzen aukeratutako erabiltzaile-mota (..oraingoz)';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Publika ezazu zerbitzu hau zure erabiltzaileak zure $a Moodle gunera bertan berriz identifikatu gabe joan ahal izateko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzuan (Zerbitzu-hornitzailea) <strong>harpidetu</strong> beharko duzu $a.</li></ul><br />-n. Harpidetu zerbitzu honetan $a-n autentifikatutako erabiltzaileei zure gunean saioa berriz hasi beharrik izan gabe sartzen uzteko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzua (Zerbitzu-hornitzailea) <strong>publikatu</strong> beharko duzu $a.</li></ul><br />-n.';
+$string['sso_idp_name'] = 'SSO (Nortasun-hornitzailea)';
+$string['sso_mnet_login_refused'] = '$a[0] izeneko erabiltzaileak ezin du $a[1]-tik saioa hasi.';
+$string['sso_sp_description'] = 'Publika ezazu zerbitzu hau autentifikatutako erabiltzaileak zure gunera $a-tik bertan berriz identifikatu gabe sartu ahal izateko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzuan (Zerbitzu-hornitzailea) <strong>harpidetu</strong> beharko duzu $a.</li></ul><br />-n. Publika ezazu zerbitzu hau zure erabiltzaileak zure $a Moodle gunera bertan berriz identifikatu gabe joan ahal izateko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzua (Zerbitzu-hornitzailea) <strong>publikatu</strong> beharko duzu $a.</li></ul><br />-n.';
+$string['sso_sp_name'] = 'SSO (Zerbitzu-hornitzailea)';
+
 ?>

@@ -296,4 +296,17 @@ $string['update_onlogin'] = 'En todos os accesos';
 $string['update_onupdate'] = 'En actualización';
 $string['auth_dbrevive'] = 'Usuario reactivado $a[0] id $a[1]'; // ORPHANED
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Publicar este servizo para permitir que os usuarios entren no sitio $a Moodle  sen necesidade de reiniciar sesión. 
+<ul><li><em>Dependencia</em>: Débese <strong>subscribir</strong> tamén ao SSO (Fornecedor de servizo)en $a.</li></ul><br />Subscribir a este servizo para permitir que os usuarios identificados de $a accedan ao seu sitio sen necesidade de reiniciar sesión. <ul><li><em>Dependencia</em>: Debe <strong>publicar</strong> tamén o SSO (Fornecedor de servizo)en $a.';
+$string['sso_idp_name'] = 'SSO  (Fornecedor de identidade)';
+$string['sso_mnet_login_refused'] = 'O nome de usuario $a[0] non ten permiso para conectar desde $a[1].';
+$string['sso_sp_description'] = 'Publicar este servizo para permitir que os usuarios  de $a entren no sitio sen necesidade de reiniciar sesión. 
+<ul><li><em>Dependencia</em>: Débese <strong>subscribir</strong> tamén ao SSO (Fornecedor de servizo)en $a.</li></ul><br />Subscribir a este servizo para permitir que os usuarios accedan ao sitio de $a Moodle sen necesidade de reiniciar sesión. <ul><li><em>Dependencia</em>: Debe <strong>publicar</strong> tamén o SSO (Fornecedor de servizo)en $a.';
+$string['sso_sp_name'] = 'SSO (Service Provider)';
+
 ?>
