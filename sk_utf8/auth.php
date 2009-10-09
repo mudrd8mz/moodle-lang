@@ -379,4 +379,15 @@ $string['update_oncreate'] = 'Pri vytváraní';
 $string['update_onlogin'] = 'Pri každom prihlásení';
 $string['update_onupdate'] = 'Pri aktualizácii';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Publikujte túto službu, aby ste umožnili vašim používateľom roaming na stránkach $a Moodle bez toho, aby sa tu odhlasovali a znovu prihlasovali. <ul><li><em>Závislosť</em>: Musíte byť <strong>registrovaní</strong> aj u poskytovateľa služby SSO na $a.</li></ul><br />';
+$string['sso_idp_name'] = 'Poskytovateľ identity SSO';
+$string['sso_mnet_login_refused'] = 'Používateľ $a[0] nemá povolené prihlasovať sa z $a[1].';
+$string['sso_sp_description'] = 'Publikujte túto službu, aby ste umožnili vašim prihláseným používateľom pristupovať na vaše stránky bez toho, aby sa tu odhlasovali a znovu prihlasovali. <ul><li><em>Závislosť</em>: Musíte byť <strong>registrovaní</strong> aj u poskytovateľa služby SSO na $a.</li></ul><br />';
+$string['sso_sp_name'] = 'Poskytovateľ služby SSO';
+
 ?>

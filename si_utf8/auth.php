@@ -335,4 +335,15 @@ $string['update_oncreate'] = 'සෑදීමේදී';
 $string['update_onlogin'] = 'සෑම ලොගිනයකදීම';
 $string['update_onupdate'] = 'යාවත්කාල කිරීමේදී';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'නැවත ලොගින් වීමකින් තොරව ඔබගේ පරිශීලකයන්ට නිදැල්ලේ $a මූඩ්ල් අඩවියට පිවිසීමට ඉඩදීම සදහා මෙම සේවාව පළ කරන්න.<ul><li><em>පරායත්තය</em>: ඔබ $a හි SSO (සේවා ප්‍රතිපාදක) සේවාවට ද <strong>දායකත්වය</strong> ලබාගත යුතුය.</li></ul><br/> $a හි සිට සත්‍යාපිත පරිශීලකයන්ට නැවත ලොගින් වීමකින් තොරව ඔබගේ අඩවියට ප්‍රවේශවීමට ඉඩදීම  සදහා මෙම සේවාවට දායකවන්න. <ul><li><em>පරායත්තය</em>: ඔබ $a  සදහා SSO (සේවා සැපයුම්කරු) සේවාව <strong>පළකිරීම </strong> ද කල යුතුය.</li></ul>';
+$string['sso_idp_name'] = 'SSO (අනන්‍යතා ප්‍රතිපාදක)';
+$string['sso_mnet_login_refused'] = '$a[1] සිට ලොගින් වීම සදහා $a[0] මුරපදයට ඉඩ දී නැත';
+$string['sso_sp_description'] = 'නැවත ලොගින් වීමකින් තොරව $a හි සිට පරිශීලකයන්ට නිදැල්ලේ ඔබගේ අඩවියට පිවිසීමට ඉඩදීම සදහා මෙම සේවාව පළ කරන්න.<ul><li><em>පරායත්තය</em>: ඔබ $a හි SSO (අනන්‍යතා ප්‍රතිපාදක) සේවාවට ද <strong>දායකත්වය</strong> ලබාගත යුතුය.</li></ul><br/> නැවත ලොගින් වීමකින් තොරව ඔබගේ පරිශීලකයන්ට නිදැල්ලේ $a අඩවියට ප්‍රවේශවීමට ඉඩදීම  සදහා මෙම සේවාවට දායකවන්න. <ul><li><em>පරායත්තය</em>: ඔබ $a  සදහා SSO (අනන්‍යතා ප්‍රතිපාදක) සේවාව <strong>පළකිරීම </strong> ද කල යුතුය.</li></ul>';
+$string['sso_sp_name'] = 'SSO (සේවා ප්‍රතිපාදක)';
+
 ?>

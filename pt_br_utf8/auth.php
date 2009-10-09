@@ -352,4 +352,15 @@ $string['update_oncreate'] = 'Quando for criado';
 $string['update_onlogin'] = 'Em cada login';
 $string['update_onupdate'] = 'Quando for atualizado';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Publique este serviço para que seus usuários possam visitar o site $a sem ter que logar novamente. <ul><li><em>Dependência</em>: Você deve também <strong>subscrever</strong> o SSO ( Provedor de Serviço) em $a.</li></ul><br />Subscreva este serviço para permitir aos usuários autenticados em $a o acesso ao seu site sem ter que logar novamente. <ul><li><em>Dependência</em>: Você deve também <strong>publicar</strong> o SSO (Provedor de serviço) para $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (Provedor de Identidade)';
+$string['sso_mnet_login_refused'] = 'Nome de Usuário $a[0] não tem permissão para logar a partir de $a[1].';
+$string['sso_sp_description'] = 'Publicar este serviço para permitir que usuários autenticados de $a tenham acesso ao seu site sem ter que logar novamente. <ul><li><em>Dependência</em>: Você deve também <strong>subscrever</strong> o serviço SSO (Provedor de Identidade) em $a.</li></ul><br />Subscreva este serviço para permitir que seus usuários visitem o site $a sem ter que logar novamente. <ul><li><em>Dependência</em>: Você deve também <strong>publicar</strong> o serviço SSO (Provedor de Identidade) em $a.</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (Provedor do Serviço)';
+
 ?>
