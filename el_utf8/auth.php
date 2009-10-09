@@ -368,4 +368,15 @@ $string['update_onupdate'] = 'Στην ανανέωση';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() does not support selected usertype: $a';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() does not support selected usertype (..yet)';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Εκδώστε αυτή την υπηρεσία για να επιτρέψετε στους χρήστες σας να επισκέπτονται τη σελίδα Moodle $a χωρίς να χρειαστεί να ξανασυνδεθούν όταν φτάσουν εκεί. <ul><li><em>Απαιτούμενα</em>: Πρέπει επιπλέον να <strong>γίνετε συνδρομητές</strong> στην υπηρεσία SSO (Παροχέας Υπηρεσίας) που βρίσκεται στο $a.</li></ul><br />Γίνετε συνδρομητής σε αυτή την υπηρεσία για να επιτρέψετε σε χρήστες του $a να έχουν πρόσβαση στο δικό σας Moodle χωρίς να χρειαστεί να ξανασυνδεθούν. <ul><li><em>Απαιτούμενα</em>: Πρέπει επιπλέον να <strong>εκδώσετε</strong> την υπηρεσία SSO (Παροχέας Υπηρεσίας) στο $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (Παροχέας Ταυτότητας)';
+$string['sso_mnet_login_refused'] = 'Ο χρήστης $a[0] δεν επιτρέπεται να συνδεθεί από το $a[1].';
+$string['sso_sp_description'] = 'Εκδώστε αυτή την υπηρεσία για να επιτρέψετε σε χρήστες του $a να έχουν πρόσβαση στο δικό σας Moodle χωρίς να χρειαστεί να ξανασυνδεθούν. <ul><li><em>Απαιτούμενα</em>: Πρέπει επιπλέον να <strong>γίνετε συνδρομητές</strong> στην υπηρεσία SSO (Παροχέας Ταυτότητας) που βρίσκεται στο $a.</li></ul><br />Γίνετε συνδρομητής σε αυτή την υπηρεσία για να επιτρέψετε στους χρήστες σας να επισκέπτονται τη σελίδα Moodle $a χωρίς να χρειαστεί να ξανασυνδεθούν όταν φτάσουν εκεί. <ul><li><em>Απαιτούμενα</em>: Πρέπει επιπλέον να <strong>εκδώσετε</strong> την υπηρεσία SSO (Παροχέας Ταυτότητας) στο $a.</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (Παροχέας Υπηρεσίας)';
+
 ?>

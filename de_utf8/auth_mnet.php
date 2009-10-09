@@ -1,7 +1,16 @@
-<?PHP // $Id$ 
-      // auth_mnet.php - created with Moodle 1.8 Beta (2007020200)
+<?php
 
+// All of the language strings in this file should also exist in
+// auth.php to ensure compatibility in all versions of Moodle.
 
+$string['auth_mnet_auto_add_remote_users'] = 'Die Einstellung \"Ja\" bewirkt, dass ein lokaler Datensatz automatisch angelegt wird, sobald sich ein Remote-Nutzer erstmalig einloggt.';
+$string['auth_mnet_roamin'] = 'Nutzer/innen dieses Hosts können Ihre Website durchsuchen';
+$string['auth_mnet_roamout'] = 'Ihre Nutzer/innen können diese Websites durchsuchen';
+$string['auth_mnet_rpc_negotiation_timeout'] = 'Timeout in Sekunden für die Authentifizierung über den XMLRPC Transfer.';
+$string['auth_mnetdescription'] = 'Nutzer/innen werden als vertrauensvoll authentifiziert, wenn sie in den MNET-Einstellungen (Moodle Network) definiert wurden.';
+$string['auth_mnettitle'] = 'MNET Authentifizierung';
+$string['auto_add_remote_users'] = 'Automatisches Hinzufügen externer Nutzer';
+$string['rpc_negotiation_timeout'] = 'RPC negotiation timeout';
 $string['sso_idp_description'] = 'Veröffentlichen Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
 <ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Service Provider) auf $a <strong>abonnieren </strong>.</li></ul>
 
@@ -15,5 +24,3 @@ $string['sso_sp_description'] = 'Veröffentlichen Sie diesen Dienst, um authetif
 <br />Abonnieren Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
 <ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Identity Provider) für $a <strong> veröffentlichen </strong>.</li></ul>';
 $string['sso_sp_name'] = 'SSO (Service Provider)';
-
-?>

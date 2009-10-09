@@ -303,4 +303,15 @@ $string['update_oncreate'] = 'Adeg creu';
 $string['update_onlogin'] = 'Adeg pob mewngofnodi';
 $string['update_onupdate'] = 'Adeg diweddaru';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Cyhoeddwch y gwasanaeth hwn i ganiatáu i\'ch defnyddwyr grwydro i safle Moodle $a heb orfod mewngofnodi eto yno. <ul><li><em>Dibyniaeth</em>: Rhaid i chi hefyd <strong>danysgrifio</strong> i\'r gwasanaeth SSO (Darparwr Gwasanaeth) ar $a.</li></ul><br />Tanysgrifiwch i\'r gwasanaeth hwn i ganiatáu i ddefnyddwyr wedi\'u dilysu o $a gael mynediad i\'ch safle heb orfod mewngofnodi eto. <ul><li><em>Dibyniaeth</em>: Rhaid i chi hefyd <strong>gyhoeddi</strong> y gwasanaeth SSO (Darparwr Gwasanaeth) i $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO  (Darparwr Hunaniaeth)';
+$string['sso_mnet_login_refused'] = 'Ni chaiff yr enw defnyddiwr $a[0] fewngofnodi o $a[1].';
+$string['sso_sp_description'] = 'Cyhoeddwch y gwasanaeth hwn i ganiatáu i ddefnyddwyr wedi\'u dilysu o $a gael mynediad i\'ch safle heb orfod mewngofnodi eto. <ul><li><em>Dibyniaeth</em>: Rhaid i chi hefyd <strong>danysgrifio</strong> i\'r gwasanaeth SSO (Darparwr Gwasanaeth) i $a.</li></ul><br />Cyhoeddwch y gwasanaeth hwn i ganiatáu i\'ch defnyddwyr grwydro i safle Moodle $a heb orfod mewngofnodi eto yno. <ul><li><em>Dibyniaeth</em>: Rhaid i chi hefyd <strong>gyhoeddi</strong> y gwasanaeth SSO (Darparwr Gwasanaeth) i $a.</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (Darparwr Gwasanaeth)';
+
 ?>

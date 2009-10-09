@@ -231,4 +231,11 @@ $string['update_onlogin'] = 'Ved hvert login';
 $string['update_onupdate'] = 'Ved opdatering';
 $string['auth_shibbolethdescription'] = 'Ved at benytte denne metode kan man forbinde Moodle til en eksisterende Shibboleth server for at checke og oprette nye brugerkonti.'; // ORPHANED
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_mnet_login_refused'] = 'Brugeren $a[0] har ikke tilladelse til at logge ind fra $a[1].';
+
 ?>
