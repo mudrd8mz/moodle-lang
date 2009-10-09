@@ -378,4 +378,15 @@ $string['shib_no_attributes_error'] = 'Sembra che dobbiate essere autenticati da
 $string['shib_not_all_attributes_error'] = 'Moodle richiede alcuni attributi Shibboleth che, nel vostro caso, non sono presenti. Gli attributi sono: $a<br />Vi preghiamo di contattare il webmaster di questo server o il vostro Identity Provider.'; // ORPHANED
 $string['shib_not_set_up_error'] = 'L\'autenticazione Shibboleth non sembra essere impostata correttamente perché nessuna variabile Shibboleth è presente in questa pagina. Si prega di consultare il file <a href=\"README.txt\">README</a> per ulteriori istruzioni sulla configurazione della autenticazione Shibbleth o contattare il webmaster di questa installazione di Moodle.'; // ORPHANED
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Per consentire ai tuoi utenti di navigare verso il sito $a senza effettuare nuovamente il login, devi offrire questo servizio<ul><li><em>Requisito</em>: è necessario <strong>accettare</strong> il servizio SSO (Service Provider) offerto dal sito $a.</li></ul><br />Per consentire agli utenti autenticati sul sito $a di accedere a questo sito senza effettuare nuovamente il login, devi accettare questo servizio. <ul><li><em>Requisito</em>: è necessario <strong>offrire</strong> il servizio SSO (Service Provider) al sito $a. </li></ul><br />';
+$string['sso_idp_name'] = 'Servizio SSO (Identity Provider)';
+$string['sso_mnet_login_refused'] = 'Lo username $a[0] non è autorizzato a collegarsi da $a[1].';
+$string['sso_sp_description'] = 'Per consentire agli utenti autenticati sul sito $a di accedere a questo sito senza effettuare nuovamente il login, devi offrire questo servizio. <ul><li><em>Requisito</em>: è necessario <strong>accettare</strong> il servizio SSO (Identity Provider) offerto dal sito $a.</li></ul><br />Per consentire ai tuoi utenti di navigare verso il sito $a senza effettuare nuovamente il login, devi accettare questo servizio. <ul><li><em>Requisito</em>: è necessario <strong>offrire</strong> il servizio SSO (Identity Provider) al sito $a. </li></ul><br />';
+$string['sso_sp_name'] = 'Servizio SSO (Service Provider)';
+
 ?>

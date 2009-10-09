@@ -157,4 +157,13 @@ $string['update_oncreate'] = 'Við myndun';
 $string['update_onlogin'] = 'Við hverja innskráningu';
 $string['update_onupdate'] = 'Við uppfærslu';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_name'] = 'SSO (auðkenniveita)';
+$string['sso_mnet_login_refused'] = 'Notandinn $a[0] hefur ekki heimild til að innskrá sig frá $a[1].';
+$string['sso_sp_name'] = 'SSO (auðkenniveita)';
+
 ?>

@@ -340,4 +340,12 @@ $string['update_oncreate'] = 'बनवल्यावर';
 $string['update_onlogin'] = 'प्रत्येक लॉग-ईनवर';
 $string['update_onupdate'] = 'बदलल्यावर';
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_name'] = 'SSO(ओळखपत्र देणारे)';
+$string['sso_sp_name'] = 'SSO(सेवा देणारे)';
+
 ?>

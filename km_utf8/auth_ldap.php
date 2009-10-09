@@ -1,0 +1,85 @@
+<?php
+
+// All of the language strings in this file should also exist in
+// auth.php to ensure compatibility in all versions of Moodle.
+
+$string['auth_ldap_ad_create_req'] = 'មិន​អាច​បង្កើត​គណនី​ថ្មី​ក្នុង​ថត​សកម្ម​បានទេ ។ សូម​ប្រាកដ​ថា អ្នក​បំពេញ​តម្រូវការ​ទាំងអស់​​ដើម្បី​អាច​ធ្វើការ (ការ​តភ្ជាប់ LDAPS ចង​អ្នក​ប្រើ​ដែលមាន​សិទ្ធិ​គ្រប់គ្រាន់ ។ល។)';
+$string['auth_ldap_attrcreators'] = 'បញ្ជី​ក្រុម ឬ​បរិបទ​ដែល​សមាជិក​របស់​វា​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​បង្កើត​គុណ​លក្ខណៈ ។ បំបែក​ក្រុម​ច្រើន​ដោយ';
+$string['auth_ldap_attrcreators_key'] = 'អ្នក​​បង្កើត​គុណ​លក្ខណៈ';
+$string['auth_ldap_auth_user_create_key'] = 'បង្កើត​អ្នក​ប្រើ​ខាង​ក្រៅ';
+$string['auth_ldap_bind_dn'] = 'ប្រសិនបើ​អ្នក​ចង់​ប្រើ​អ្នកប្រើ​ចង​ដើម្បី​ស្វែងរក​អ្នក​ប្រើ សូម​បញ្ជាក់​នៅ​ទីនេះ ។ គឺ​ដូចជា \'cn=ldapuser,ou=public,o=org\'';
+$string['auth_ldap_bind_dn_key'] = 'បាន​សម្គាល់​ឈ្មោះ';
+$string['auth_ldap_bind_pw'] = 'ពាក្យសម្ងាត់​សម្រាប់​អ្នកប្រើ​ចង ។';
+$string['auth_ldap_bind_pw_key'] = 'ពាក្យ​សម្ងាត់';
+$string['auth_ldap_bind_settings'] = 'ការ​កំណត់​ការ​ចង';
+$string['auth_ldap_changepasswordurl_key'] = 'URL ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់';
+$string['auth_ldap_contexts'] = 'បញ្ជី​បរិបទ​ដែល​អ្នក​ប្រើ​ស្ថិតនៅ ។ សូម​បំបែក​បរិបទ​ផ្សេង​គ្នា​ដោយ​ប្រើ​សញ្ញា';
+$string['auth_ldap_contexts_key'] = 'បរិបទ';
+$string['auth_ldap_create_context'] = 'ប្រសិន​បើ​អ្នក​បើក​ការ​បង្កើត​អ្នក​ប្រើ​ដោយមាន​ការ​អះអាង​អ៊ីមែល គឺ​ត្រូវ​បញ្ជាក់​បរិបទ​ដែល​បង្កើត​អ្នកប្រើ ។ បរិបទ​នេះ​គួរ​តែ​ខុស​ពី​អ្នក​ប្រើ​ផ្សេង​ទៀត ​ដើម្បី​ការពារ​បញ្ហា​សុវត្ថិភាព ។ អ្នក​មិន​ចាំបាច់​បន្ថែម​បរិបទ​នេះ​ទៅ ldap_context-variable ទេ Moodle នឹង​ស្វែងរក​អ្នក​ប្រើ​ពី​បរិបទ​នេះ​ដោយ​ស្វ័យ​ប្រវត្តិ ។<br /><b>ចំណាំ !</b> អ្នក​ត្រូវ​តែ​កែប្រែ​វិធីសាស្ត្រ user_create() ក្នុង​ឯកសារ auth/ldap/auth.php ដើម្បី​ធ្វើ​ឲ្យ​ការ​បង្កើត​អ្នក​ប្រើ​ដំណើរការ';
+$string['auth_ldap_create_context_key'] = 'បរិបទ​សម្រាប់​អ្នក​ប្រើ​ថ្មី';
+$string['auth_ldap_create_error'] = 'កំហុស​ក្នុង​ការ​បង្កើត​អ្នក​ប្រើ​នៅក្នុង LDAP ។';
+$string['auth_ldap_creators'] = 'បញ្ជី​ក្រុម​របស់​សមាជិក​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​បង្កើត​វគ្គ​សិក្សា​ថ្មី ។ បំបែក​ក្រុម​ច្រើន​ដោយ​សញ្ញា';
+$string['auth_ldap_creators_key'] = 'អ្នក​បង្កើត';
+$string['auth_ldap_expiration_desc'] = 'ជ្រើស ទេ ដើម្បី​បិទ​ការ​ពិនិត្យ​ពាក្យ​សម្ងាត់​ដែល​ផុត​កំណត់ ឬ LDAP ដើម្បី​អាន​ពេល​វេលា​ផុត​កំណត់​របស់​ពាក្យ​សម្ងាត់​ដោយ​ផ្ទាល់​ពី LDAP';
+$string['auth_ldap_expiration_key'] = 'ការ​ផុត​កំណត់';
+$string['auth_ldap_expiration_warning_desc'] = 'ចំនួន​ថ្ងៃ​មុន​ពេល​ចេញផ្សាយ​ការ​ព្រមាន​នៃការ​ផុត​កំណត់​ពាក្យ​សម្ងាត់ ។';
+$string['auth_ldap_expiration_warning_key'] = 'ការ​ព្រមាន​ការ​ផុត​កំណត់';
+$string['auth_ldap_expireattr_desc'] = 'ស្រេច​ចិត្ត ៖ បដិសេធ ldap-attribute ដែល​រក្សា​ទុក​ពេល​វេលា​ផុត​កំណត់​របស់​ពាក្យ​សម្ងាត់';
+$string['auth_ldap_expireattr_key'] = 'គុណ​លក្ខណៈ​ការ​ផុត​កំណត់';
+$string['auth_ldap_graceattr_desc'] = 'ស្រេច​ចិត្ត ៖ បដិសេធ​គុណ​លក្ខណៈ gracelogin';
+$string['auth_ldap_gracelogin_key'] = 'គុណ​លក្ខណៈ​នៃ​ការ​ចូល Grace';
+$string['auth_ldap_gracelogins_desc'] = 'បើក​ការ​គាំទ្រ gracelogin នៃ LDAP ។ បន្ទាប់​ពី​ពាក្យ​សម្ងាត់​បាន​ផុត​កំណត់ អ្នក​ប្រើ​អាច​ចូល​បាន​រហូត​​ទាល់​តែ​ចំនួន gracelogin ស្មើ ០ ។ ការ​បើក​ការ​កំណត់​នេះ​បង្ហាញ​ពី​សារ​ចូល grace នៅពេលដែល​ពាក្យ​សម្ងាត់​ត្រូវ​បាន​ផុត​កំណត់ ។';
+$string['auth_ldap_gracelogins_key'] = 'ការ​ចូល Grace';
+$string['auth_ldap_groupecreators'] = 'បញ្ជី​ក្រុម ឬ​បរិបទ​ដែល​សមាជិក​របស់​វា​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​បង្កើត​ក្រុម ។ បំបែក​ក្រុម​ច្រើន​ដោយ​ប្រើ';
+$string['auth_ldap_groupecreators_key'] = 'អ្នក​បង្កើត​ក្រុម';
+$string['auth_ldap_host_url'] = 'បញ្ជាក់​ម៉ាស៊ីន LDAP ក្នុង​សំណុំ​បែបបទ URL ដូចជា \'ldap://ldap.myorg.com/\' ឬ \'ldaps://ldap.myorg.com/\' បំបែក​ម៉ាស៊ីន​បម្រើ​ច្រើន​ដោយប្រើ';
+$string['auth_ldap_host_url_key'] = 'URL ម៉ាស៊ីន';
+$string['auth_ldap_ldap_encoding'] = 'បញ្ជាក់​ការ​អ៊ីនកូដ​ដែល​បានប្រើ​ដោយ​ម៉ាស៊ីន​បម្រើ LDAP ។ ភាគ​ច្រើន utf-8 MS AD v2 ប្រើ​ការ​អ៊ីនកូដ​វេទិកា​លំនាំ​ដើម​ដូច​ជា cp1252, cp1250 ។ល។';
+$string['auth_ldap_ldap_encoding_key'] = 'ការ​អ៊ីនកូដ LDAP';
+$string['auth_ldap_login_settings'] = 'ការ​កំណត់​ការ​ចូល';
+$string['auth_ldap_memberattribute'] = 'ស្រេច​ចិត្ត ៖ បដិសេធ​គុណ​លក្ខណៈ​សមាជិក​អ្នក​ប្រើ នៅពេល​អ្នក​ប្រើ​ជា​កម្មសិទ្ធិ​របស់​ក្រុម ។ ជាទូទៅ \'សមាជិក\'';
+$string['auth_ldap_memberattribute_isdn'] = 'ស្រេចចិត្ត ៖ បដិសេធ​ការគ្រប់គ្រង​តម្លៃ​គុណ​លក្ខណៈ​សមាជិក ០ ឬ ១ ក៏​បាន';
+$string['auth_ldap_memberattribute_isdn_key'] = 'គុណ​លក្ខណៈ​សមាជិក​ប្រើ dn';
+$string['auth_ldap_memberattribute_key'] = 'គុណ​លក្ខណៈ​សមាជិក';
+$string['auth_ldap_no_mbstring'] = 'អ្នក​ត្រូវការ​ផ្នែក​បន្ថែម mbstring ដើម្បី​បង្កើត​អ្នក​ប្រើ​ក្នុង​ថត​សកម្ម ។';
+$string['auth_ldap_noconnect'] = 'ម៉ូឌុល LDAP មិន​អាច​តភ្ជាប់​ទៅ​ម៉ាស៊ីន​បម្រើ ៖ $a';
+$string['auth_ldap_noconnect_all'] = 'ម៉ូឌុល LDAP មិន​អាច​តភ្ជាប់​ទៅ​ម៉ាស៊ីន​បម្រើ ៖ $a';
+$string['auth_ldap_noextension'] = 'ព្រមាន ៖ ម៉ូឌុល LDAP របស់ PHP ហាក់​ដូច​ជា​មិនមាន ។ សូមប្រាកដ​ថា វា​ត្រូវ​បាន​ដំឡើង និង​បាន​បើក ។';
+$string['auth_ldap_objectclass'] = 'ស្រេច​ចិត្ត ៖ សរសេរ​ជាន់​លើ objectClass ដែលបាន​ប្រើ​ដើម្បី​ដាក់​ឈ្មោះ/ស្វែងរក​លើ ldap_user_type ។ ជាទូទៅ​អ្នក​មិន​ចាំបាច់​ផ្លាស់ប្ដូរ​វា​ទេ ។';
+$string['auth_ldap_objectclass_key'] = 'ថ្នាក់​វត្ថុ';
+$string['auth_ldap_opt_deref'] = 'កំណត់​របៀប​គ្រប់គ្រង​ឈ្មោះ​ក្លែងក្លាយ​នៅ​កំឡុង​ពេល​ស្វែងរក ។ ជ្រើស​​តម្លៃ​មួយ​ខាង​ក្រោម ៖ \"ទេ\" (LDAP_DEREF_NEVER) ឬ \"បាទ/ចាស\" (LDAP_DEREF_ALWAYS)';
+$string['auth_ldap_opt_deref_key'] = 'ឈ្មោះ​ក្លែងក្លាយ​ខុស​គ្នា';
+$string['auth_ldap_passtype'] = 'បញ្ជាក់​ទ្រង់ទ្រាយ​ពាក្យ​សម្ងាត់​ថ្មី ឬ​ពាក្យសម្ងាត់​ដែលបាន​ផ្លាស់ប្ដូរ​ក្នុង​ម៉ាស៊ីន​បម្រើ LDAP ។';
+$string['auth_ldap_passtype_key'] = 'ទ្រង់ទ្រាយ​ពាក្យ​សម្ងាត់';
+$string['auth_ldap_passwdexpire_settings'] = 'ការ​កំណត់​ការ​ផុត​កំណត់​នៃ​ពាក្យ​សម្ងាត់ LDAP ។';
+$string['auth_ldap_preventpassindb'] = 'ជ្រើស បាទ/ចាស ដើម្បី​ការពារ​ពាក្យ​សម្ងាត់​ពី​ការ​រក្សា​ទុក​ក្នុង​មូលដ្ឋាន​ទិន្នន័យ​របស់ Moodle ។';
+$string['auth_ldap_preventpassindb_key'] = 'លាក់​ពាក្យ​សម្ងាត់';
+$string['auth_ldap_search_sub'] = 'ស្វែងរក​អ្នក​ប្រើ​ពី​បរិបទ​រង ។';
+$string['auth_ldap_search_sub_key'] = 'ស្វែងរក​បរិបទ​រង';
+$string['auth_ldap_server_settings'] = 'ការ​កំណត់​ម៉ាស៊ីន​បម្រើ LDAP';
+$string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() មិន​គាំទ្រ​ប្រភេទ​អ្នកប្រើ​ដែល​បាន​ជ្រើស ៖ $a (..នៅ​ឡើយ)';
+$string['auth_ldap_update_userinfo'] = 'ធ្វើ​ឲ្យ​ព័ត៌មាន​អ្នក​ប្រើ​ទាន់សម័យ (នាម​ខ្លួន នាម​ត្រកូល អាសយដ្ឋាន..) ពី LDAP ទៅ Moodle ។ បញ្ជាក់​ការ​កំណត់ \"ការ​ផ្គូផ្គង​ទិន្នន័យ\" ដែល​អ្នក​ត្រូវការ ។';
+$string['auth_ldap_user_attribute'] = 'ស្រេច​ចិត្ត ៖ បដិសេធ​គុណ​លក្ខណៈ​ដែល​បាន​ប្រើ​ដើម្បី​ដាក់​ឈ្មោះ/ស្វែងរក​អ្នក​ប្រើ ។ ជាទូទៅ \'cn\' ។';
+$string['auth_ldap_user_attribute_key'] = 'គុណ​លក្ខណៈ​អ្នក​ប្រើ';
+$string['auth_ldap_user_exists'] = 'មាន​ឈ្មោះ​អ្នក​ប្រើ LDAP រួច​ហើយ ។';
+$string['auth_ldap_user_settings'] = 'ការ​កំណត់​ការ​រក​មើល​អ្នក​ប្រើ';
+$string['auth_ldap_user_type'] = 'ជ្រើស​របៀប​រក្សាទុក​អ្នក​ប្រើ​នៅ​ក្នុង LDAP ។ ការ​កំណត់​ក៏​បញ្ជាក់​អំពី​របៀប​ផុត​កំណត់​នៃការ​ចូល​ផងដែរ ការ​ចូល grace និង​ការ​បង្កើត​អ្នក​ប្រើ​នឹង​ដំណើរការ ។';
+$string['auth_ldap_user_type_key'] = 'ប្រភេទ​អ្នក​ប្រើ';
+$string['auth_ldap_usertypeundefined'] = 'config.user_type មិន​បាន​កំណត់ ឬ​មុខងារ ldap_expirationtime2unix មិន​គាំទ្រ​ប្រភេទ​ដែល​ជ្រើស !';
+$string['auth_ldap_usertypeundefined2'] = 'config.user_type មិន​បាន​កំណត់ ឬ​មុខងារ ldap_unixi2expirationtime មិន​គាំទ្រ​ប្រភេទ​ដែល​បាន​ជ្រើស !';
+$string['auth_ldap_version'] = 'កំណែ​ពិធីការ LDAP ដែល​ម៉ាស៊ីន​បម្រើ​របស់​អ្នក​កំពុង​ប្រើ ។';
+$string['auth_ldap_version_key'] = 'កំណែ';
+$string['auth_ldapdescription'] = 'វិធីសាស្ត្រ​នេះ​ផ្ដល់​នូវ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​​នឹង​ម៉ាស៊ីន​បម្រើ LDAP ខាង​ក្រៅ ។
+
+ប្រសិនបើ​ឈ្មោះ​អ្នក​ប្រើ និង​ពាក្យ​សម្ងាត់​ដែល​ផ្ដល់​ត្រឹមត្រូវ នោះ Moodle នឹង​បង្កើត​ធាតុ​​អ្នក​ប្រើ​ថ្មី​ក្នុង​មូលដ្ឋាន​ទិន្នន័យ​របស់​វា ។ Moodle នេះ​អាច​អាន​គុណ​លក្ខណៈ​អ្នក​ប្រើ​ពី LDAP និង​បំពេញ​វាល​ដែល​ត្រូវការ​ក្នុង Moodle ជាមុន ។ ចំពោះ​ការ​ចូល​ខាង​ក្រោម គឺត្រួតពិនិត្យ​តែ​ឈ្មោះ​អ្នក​ប្រើ និង​ពាក្យ​សម្ងាត់​ប៉ុណ្ណោះ ។';
+$string['auth_ldapextrafields'] = 'វាល​ទាំងនេះ​គឺ​ស្រេច​ចិត្ត ។ អ្នក​អាច​ជ្រើស​​បំពេញ​វាល​អ្នក​ប្រើ Moodle ជាមុន ដោយ​ព័ត៌មាន​ពី <b>វាល LDAP</b> ដែល​អ្នក​បញ្ជាក់​នៅទីនេះ ។ <p>ប្រសិន​បើ​អ្នក​ទុក​វាល​ទាំងនេះ​ឲ្យ​នៅ​ទទេ ដូច្នេះ​គ្មាន​អ្វី​ដែល​ត្រូវ​​ផ្ទេរ​ពី LDAP ទេ ហើយ​លំនាំ​ដើម​របស់ Moodle នឹង​ត្រូវ​បាន​ប្រើ​ជំនួស​វិញ ។</p><p>ក្នុង​ករណី​ណា​ក៏​ដោយ អ្នក​ប្រើ​នឹង​អាច​កែ​សម្រួល​វាល​ទាំង​អស់នេះ​បាន បន្ទាប់​ពី​ពួក​គេ​ចូល ។</p>';
+$string['auth_ldapnotinstalled'] = 'មិន​អាច​ប្រើ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ LDAP បានទេ ។ មិនបាន​ដំឡើង​ម៉ូឌុល LDAP របស់ PHP ទេ ។';
+$string['auth_ldaptitle'] = 'ម៉ាស៊ីន​បម្រើ LDAP';
+$string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'កំណត់​ជា បាទ/ចាស ដើម្បី​ព្យាយាម ការ​ចាប់ផ្ដើម​តែ​មួយ ជាមួយ​ដែន NTLM ។ <strong>ចំណាំ ៖</strong> នេះ​ទាមទារ​ការ​ដំឡើង​បន្ថែម​នៅលើ​ម៉ាស៊ីន​បម្រើ​តំបន់​បណ្ដាញ​ដើម្បី​ឲ្យ​វា​ធ្វើការ សូម​មើល <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
+$string['auth_ntlmsso_enabled_key'] = 'អនុញ្ញាត';
+$string['auth_ntlmsso_subnet'] = 'បើ​កំណត់ វា​នឹង​ព្យាយាម SSO ជាមួយ​ម៉ាស៊ីន​ភ្ញៀវ​ក្នុង subnet នេះ ។ ទ្រង់ទ្រាយ ៖ xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet_key'] = 'Subnet';
+$string['ntlmsso_attempting'] = 'កំពុង​ព្យាយាម ការ​ចាប់ផ្ដើម​តែ​មួយ តាម​រយៈ NTLM...';
+$string['ntlmsso_failed'] = 'ការ​ចូល​ស្វ័យ​ប្រវត្តិ​បរាជ័យ សាកល្បង​ទំព័រ​ចូល​ធម្មតា...';
+$string['ntlmsso_isdisabled'] = 'NTLM SSO ត្រូវ​បាន​បិទ ។';

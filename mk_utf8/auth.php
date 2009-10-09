@@ -305,4 +305,15 @@ $string['update_onupdate'] = 'При менување';
 $string['createpassword'] = 'Создади ако фали'; // ORPHANED
 $string['createchangepassword'] = 'Создади ако фали - насилно менување'; // ORPHANED
 
+
+// Strings below here are module specific and will be duplicated in auth_* files
+// Module specific language strings should also be copied into their respective
+// auth_*.php files to ensure compatibility in all versions of Moodle
+
+$string['sso_idp_description'] = 'Објавете ја оваа услуга за да им дозволите на Вашите корисници да се прошетаат до $a Moodle страницата без да се најават повторно таму. <ul><li><em>Зависност</em>: Вие морате исто така <strong>да се приклучите </strong> кон SSO (добавувач на услуги) услугата на $a.</li></ul><br/>Приклучете се на оваа услуга за да им дозволите на автентицираните корисници од $a да пристапат на Вашата страница без повторно да се најават. <ul><li><em>Зависност</em>: Вие исто така морате <strong>да ја објавите</strong>SSO (добавувач на услуги) услугата на $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (добавувач на идентитет)';
+$string['sso_mnet_login_refused'] = 'Корисничкото име $a[0] нема дозвола за најава од $a[1].';
+$string['sso_sp_description'] = 'Објавете ја оваа услуга за да им дозволите на автентицираните корисници од $a да и пристапат на Вашата страница без повторно да се најавуваат. <ul><li><em>Зависност</em>: Вие исто така морате <strong>да се приклучите</strong>на SSO (добавувач на идентитет) услугата на $a. </li></ul><br />Приклучете се на оваа услуга за да им дозволите на Вашите корисници да се прошетаат низ $a Moodle страницата без повторно да се најавуваат таму. <ul><li><em>Зависност</em>: Вие морате исто така <strong> да ја објавите </strong> SSO (добавувач на идентитет) услугата до $a.</li></ul><br />';
+$string['sso_sp_name'] = 'SSO (добавувач на услуги)';
+
 ?>
