@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+      // role.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['addrole'] = 'Pridať novú rolu';
@@ -29,9 +29,11 @@ $string['category:viewhiddencategories'] = 'Vidieť skryté kategórie';
 $string['category:visibility'] = 'Prezerať skryté kategórie';
 $string['course:activityvisibility'] = 'Skryť/zobraziť aktivity';
 $string['course:bulkmessaging'] = 'Poslať správu viacerým účastníkom';
+$string['course:changecategory'] = 'Zmeniť kategóriu kurzu';
 $string['course:changefullname'] = 'Zmeniť celé meno kurzu';
 $string['course:changeidnumber'] = 'Zmeniť identifikátor kurzu';
 $string['course:changeshortname'] = 'Zmeniť skrátené meno kurzu';
+$string['course:changesummary'] = 'Zmeniť sumár kurzu';
 $string['course:create'] = 'Vytvoriť kurzy';
 $string['course:delete'] = 'Vymazať kurzy';
 $string['course:manageactivities'] = 'Spravovať aktivity';
@@ -132,6 +134,7 @@ $string['resetrole'] = 'Resetovať na východzie hodnoty';
 $string['resetrolenolegacy'] = 'Vymazať oprávnenia';
 $string['resetrolesure'] = 'Naozaj chcete resetovať rolu \"$a->name ($a->shortname)\" na východziu hodnotu?</p><p>Tieto východzie hodnoty budú prevzaté z pôvodnej roly ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'Naozaj chcete vymazať všetky oprávnenia definované v roli \"$a->name ($a->shortname)\"?';
+$string['restore:rolldates'] = 'Povolenie zmeniť dátumy aktivít pri obnove kurzu';
 $string['risks'] = 'Riziká';
 $string['role:assign'] = 'Priradiť roly používateľom';
 $string['role:manage'] = 'Vytvoriť a spravovať roly';

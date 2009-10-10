@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
+      // error.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['adminprimarynoedit'] = 'Ostatní administrátori nemôžu upravovať údaje hlavného administrátora';
@@ -101,7 +101,8 @@ $string['pluginrequirementsnotmet'] = 'Zásuvný modul \"$a->pluginname\" ($a->p
 $string['processingstops'] = 'Tu sa ukončilo spracovávanie. Zostávajúce záznamy boli ignorované.';
 $string['remotedownloaderror'] = 'Stiahnutie komponentu na server zlyhalo, skontrolujte nastavenia proxy, doporučené je PHP rozšírenie cURL. <br /><br />Musíte stiahnuť súbor <a href=\"$a->url\">$a->url</a> manuálne, skopírovať ho do \"$a->dest\" na serveri a rozzipovať ho tam.';
 $string['remotedownloadnotallowed'] = 'Nahrávanie komponentov na server nie je povolené (direktíva allow_url_fopen je v stave \'vypnuté\').<br /><br />Musíte súbor stiahnuť <a href=\"$a->url\">$a->url</a> ručne, skopírovať ho na serveri do umiestnenia \"$a->dest\" a tam ho dekomprimovať.';
-$string['restricteduser'] = 'Ľutujeme, ale súčasnému účtu \"$a\" nebolo dovolené toto previesť.';
+$string['restorechecksumfailed'] = 'Vyskytli sa problémy pri spracovaní informácie o obnovovaní uloženej vo vašom sedení (session). Skontrolujte prosím nastavenia pamäte v PHP a databázové limity veľkosti. Obnovovanie bolo zastavené.';
+$string['restricteduser'] = 'Ľutujeme, ale súčasnému účtu \"$a\" nebolo dovolené toto vykonať.';
 $string['scheduledbackupsdisabled'] = 'Automatické zálohovanie bolo administrátorom servera vypnuté';
 $string['sendmessage'] = 'Odoslať správu';
 $string['sessionerroruser'] = 'Boli ste príliš dlho nečinný a Vaše prihlásenie sa stalo neplatným. Prosím prihláste sa znovu.';

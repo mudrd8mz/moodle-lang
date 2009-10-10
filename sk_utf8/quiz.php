@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
+      // quiz.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['1day'] = '1 deň';
@@ -76,6 +76,7 @@ $string['blackboard'] = 'Formát Blackboard';
 $string['blackboard_6'] = 'Formát Blackboard V6+';
 $string['bothattempts'] = 'Ukázať všetkých študentov';
 $string['braceerror'] = 'Nedajú sa nájsť {...} okolo odpovedí';
+$string['browsersecurity'] = 'Bezpečnosť prehliadača';
 $string['calculated'] = 'Výpočtová';
 $string['calculatedquestion'] = 'Otázka na výpočet nie je podporovaná na riadku $a. Táto otázka bude ignorovaná.';
 $string['cannotcreatepath'] = 'Cestu nie je možné vytvoriť ($a)';
@@ -415,6 +416,7 @@ $string['pleaseclose'] = 'Vaša požiadavka bola spracovaná. Teraz už môžete
 $string['popup'] = 'Zobraziť test v \"bezpečnom\" okne';
 $string['popupblockerwarning'] = 'Táto časť testu je v bezpečnom móde, takže potrebujete urobiť test v bezpečnom okne. Prosím vypnite blokovanie vyskakovacích okien. Ďakujeme.';
 $string['popupnotice'] = 'Študenti budú vidieť test v \"bezpečnom\" okne';
+$string['popupwithjavascriptsupport'] = 'Vyskakovacie okno na celú obrazovku s bezpečnosťou pomocou JavaScriptu';
 $string['preview'] = 'Náhľad';
 $string['previewquestion'] = 'Náhľad otázky';
 $string['previewquiz'] = 'Náhľad testu';
@@ -500,6 +502,7 @@ $string['reports'] = 'Správy';
 $string['reportsimplestat'] = 'Jednoduchá štatistika';
 $string['requirepassword'] = 'Vyžaduje sa heslo';
 $string['requirepasswordmessage'] = 'Aby ste sa mohli otestovať týmto kurzom, musíte vedieť heslo do testu';
+$string['requiresafeexambrowser'] = 'Vyžadovať použitie programu Safe Exam Browser';
 $string['requiresubnet'] = 'Vyžaduje sa adresa siete';
 $string['response'] = 'Odpoveď';
 $string['responses'] = 'Odpovede';
@@ -521,6 +524,8 @@ $string['reviewresponse'] = 'Zhodnotiť odpoveď';
 $string['reviewresponsetoq'] = 'Zhodnotiť odpoveď (otázka $a)';
 $string['rqp'] = 'Nedostupná otázka';
 $string['rqps'] = 'Nedostupné otázky';
+$string['safebrowsererror'] = 'Tento test bol nastavený pre výlučné používanie v prostredí Safe Exam Browser. Nie je možné ho vykonať priamo v web prehliadači.';
+$string['safebrowsernotice'] = 'Tento test bol nakonfigurovaný tak, aby ho študenti mohli vykonať výlučne pomocou programu Safe Exam Browser.';
 $string['save'] = 'Uložiť';
 $string['saveandedit'] = 'Uložiť odpovede a upraviť otázky';
 $string['savedfromdeletedcourse'] = 'Uložené z vymazaného kurzu \"$a\"';

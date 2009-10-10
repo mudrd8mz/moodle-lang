@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.3+ (Build: 20090114) (2007101533.01)
+      // resource.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['addresource'] = 'Pridať zdroj';
@@ -56,6 +56,7 @@ $string['htmlfragment'] = 'HTML fragment';
 $string['imspackageloaded'] = 'Balík nahraný';
 $string['keepnavigationvisible'] = 'Ponechať navigáciu stránky viditeľnú na rovnakej stránke.';
 $string['keepnavigationvisibleno'] = 'Nie';
+$string['keepnavigationvisiblewarning'] = 'Poznámka: niektoré mediálne súbory môžu toto nastavenie ignorovať.';
 $string['keepnavigationvisibleyesframe'] = 'Áno, s rámom';
 $string['keepnavigationvisibleyesobject'] = 'Áno, bez rámu';
 $string['localfile'] = 'Lokálny súbor';

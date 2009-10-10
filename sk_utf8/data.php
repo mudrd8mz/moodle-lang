@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
+      // data.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['action'] = 'Akcia';
@@ -180,6 +180,7 @@ $string['nomatch'] = 'Neboli nájdené vyhovujúce záznamy!';
 $string['nomaximum'] = 'Žiadne maximum';
 $string['norecords'] = 'Žiadne záznamy v databáze';
 $string['nosingletemplate'] = 'Šablóna pre jednotlivý záznam ešte nie je definovaná';
+$string['notapproved'] = 'Tento záznam ešte nebol schválený.';
 $string['notinjectivemap'] = 'Nie je mapa vkladania';
 $string['number'] = 'Číslo';
 $string['numberrssarticles'] = 'RSS články';

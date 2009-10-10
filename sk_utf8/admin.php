@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.5+ (Build: 20090819) (2007101550)
+      // admin.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -122,6 +122,7 @@ $string['configenablehtmlpurifier'] = 'Používajte HTML Purifier miesto KSES pr
 $string['configenablerssfeeds'] = 'Tento prepínač umožní RSS kanály z iných stránok. Aby ste videli všetky aktuálne zmeny, musíte aktivovať RSS kanály aj v jednotlivých moduloch - choďte do Nastavení Moodle v Konfigurácii administrátora.';
 $string['configenablerssfeedsdisabled'] = 'Voľba nie je dostupná, pretože RSS kanály sú deaktivované na celej Stránke. Ak ich chcete aktivovať, choďte do Nastavení premenných v Konfigurácii administrátora.';
 $string['configenablerssfeedsdisabled2'] = 'RSS feedy sú deaktivované na serverovej úrovni. Musíte ich najprv povoliť v časti Server/RSS.';
+$string['configenablesafebrowserintegration'] = 'Pridanie voľby \'Vyžadovať Safe Exam Browser\' do poľa zoznamu \'Bezpečnosť prehliadača\' vo formulári nastavenia testov. Pre viac informácií viď http://www.safeexambrowser.org/.';
 $string['configenablestats'] = 'Pri voľbe \'Áno\' spracuje cron protokoly o činnosti užívateľov a vytvorí z nich grafy a štatistiky pre jednotlivé kurzy i celý server. Toto spracovanie môže istý čas trvať, v závislosti na návštevnosti vášho servera.';
 $string['configenabletrusttext'] = 'Moodle štandardne filtruje akýkoľvek text zadaný používateľmi a snaží sa odstrániť potenciálne bezpečnostné riziká, medzi ktoré patria aj skripty, média, a pod. Pomocou funkcie \"Dôveryhodný obsah\" môžete vybraným používateľom poskytnúť privilégium používať aj tieto pokročilé prvky bez ďalších zásahov. Najprv je treba povoliť toto nastavenie a potom prideliť oprávnenie Dôveryhodný obsah (Trusted Content) vybraným roliam. Text, ktorý bol vytvorený alebo nahraný používateľom s takouto rolou, je potom označený ako dôveryhodný a nie je pred zobrazením filtrovaný.';
 $string['configenrolmentplugins'] = 'Aké spôsoby zápisov do kurzu povoliť? Nezabudnite upraviť príslušné nastavenie zásuvných modulov. <br /><br />Označte povolené moduly a vyberte <strong>jeden z nich</strong> ako východzí pre interaktívny zápis do kurzov. Pre vypnutie interaktívnych zápisov do určitých kurzov v nich nastavte premennú \"Do kurzu sa dá zapisovať\" na \"Nie\".';
@@ -358,6 +359,7 @@ $string['enablegroupings'] = 'Povoliť zoskupenia';
 $string['enablehtmlpurifier'] = 'Povoliť HTML Purifier';
 $string['enablerecordcache'] = 'Povoliť Record Cache';
 $string['enablerssfeeds'] = 'Povoliť RSS zdroje';
+$string['enablesafebrowserintegration'] = 'Povoliť integráciu s programom Safe Exam Browser';
 $string['enablestats'] = 'Povoliť štatistiky';
 $string['enabletrusttext'] = 'Povoliť Dôveryhodný obsah';
 $string['encoding'] = 'Kódovanie';
@@ -507,6 +509,7 @@ $string['mediapluginrpm'] = 'Aktivovať filter .rpm';
 $string['mediapluginswf'] = 'Aktivovať filter .swf';
 $string['mediapluginswfnote'] = 'Východzie bezpečnostné nastavenie nedovoľuje normálnym užívateľom vkladať priamo do HTML textu súbory swf.';
 $string['mediapluginwmv'] = 'Aktivovať filter .wmw';
+$string['mediapluginyoutube'] = 'Povoliť filter odkazov na YouTube';
 $string['memcachedhosts'] = 'Hostitelia memcached';
 $string['memcachedpconn'] = 'memcached používa trvalé spojenie';
 $string['messaging'] = 'Povoliť systém zasielania zpráv';
