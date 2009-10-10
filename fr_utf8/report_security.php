@@ -75,17 +75,17 @@ $string['check_globals_error'] = 'Le réglage <code>register_globals</code> doit
 $string['check_globals_name'] = 'Register globals';
 $string['check_globals_ok'] = 'Le réglage <code>register_globals</code> est désactivé.';
 
-$string['check_google_details'] = '<p>L\'activation du réglage « Ouvert à Google » autorise les moteurs de recherche à accéder aux cours en tant qu\'invités. Il n\'y a aucune raison d\'activer ce réglage si l\'accès aux invités n\'est pas autorisé.</p>';
-$string['check_google_error'] = 'L\'accès invité est autorisé pour les moteurs de recherche alors que l\'accès invité est désactivé.';
-$string['check_google_info'] = 'Les moteurs de recherche peuvent accéder en tant qu\'invités.';
+$string['check_google_details'] = '<p>L\'activation du réglage « Ouvert à Google » autorise les moteurs de recherche à accéder aux cours en tant que visiteur anonyme. Il n\'y a aucune raison d\'activer ce réglage si l\'accès aux visiteurs anonymes n\'est pas autorisé.</p>';
+$string['check_google_error'] = 'L\'accès aux visiteurs anonymes est autorisé pour les moteurs de recherche alors que l\'accès aux visiteurs anonymes est désactivé.';
+$string['check_google_info'] = 'Les moteurs de recherche peuvent accéder en tant que visiteur anonyme.';
 $string['check_google_name'] = 'Ouvert à Google';
 $string['check_google_ok'] = 'L\'accès des moteurs de recherche est désactivé.';
 
-$string['check_guestrole_details'] = '<p>Le rôle invité est utilisé pour l\'accès aux cours temporaire d\'utilisateurs non connectés. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Invité</em>.</p>';
-$string['check_guestrole_error'] = 'Rôle invité « {$a} » incorrectement défini !';
-$string['check_guestrole_name'] = 'Rôle invité';
-$string['check_guestrole_notset'] = 'Le rôle invité n\'est pas défini.';
-$string['check_guestrole_ok'] = 'Définition correcte du rôle invité.';
+$string['check_guestrole_details'] = '<p>Un rôle de visiteur anonyme est utilisé pour l\'accès temporaire aux cours pour les utilisateurs anonymes. Veuillez vous assurer qu\'aucune capacité comportant des risques n\'est autorisée pour ce rôle.</p><p>Le seul type de rôle historique supporté pour un tel rôle est le rôle <em>Visiteur anonyme</em>.</p>';
+$string['check_guestrole_error'] = 'Rôle de visiteur anonyme « {$a} » incorrectement défini !';
+$string['check_guestrole_name'] = 'Rôle de visiteur anonyme';
+$string['check_guestrole_notset'] = 'Le rôle de visiteur anonyme n\'est pas défini.';
+$string['check_guestrole_ok'] = 'Définition correcte du rôle de visiteur anonyme.';
 
 $string['check_mediafilterswf_details'] = '<p>L\'incorporation automatique de fichier Flash SWF est très dangereuse. Tout utilisateur enregistré pourrait lancer une attaque XSS contre d\'autres utilisateurs du serveur. Ce réglage devrait être désactivé sur des sites en production.</p>';
 $string['check_mediafilterswf_error'] = 'Le filtre média Flash est activé. Ceci est très dangereux dans la plupart des cas.';

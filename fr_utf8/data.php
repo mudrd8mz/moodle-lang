@@ -134,7 +134,7 @@ $string['foundrecords'] = 'Fiches trouvées : $a->num/$a->max (<a href=\"$a->re
 $string['foundnorecords'] = 'Aucune fiche trouvée (<a href=\"$a->reseturl\">Réinitialiser les filtres</a>)';
 $string['fromfile'] = 'Importer d\'un fichier zip';
 $string['generateerror'] = 'Erreur de génération de certains fichiers !';
-$string['guestrate'] = 'Les invités n\'ont pas le droit d\'évaluer les fiches.';
+$string['guestrate'] = 'Les visiteurs anonymes n\'ont pas le droit d\'évaluer les fiches.';
 $string['header'] = 'Entête';
 $string['headeraddtemplate'] = 'Définit l\'interface présentée lors de l\'ajout de nouvelles fiches';
 $string['headerasearchtemplate'] = 'Définit l\'interface présentée pour les recherches avancées';

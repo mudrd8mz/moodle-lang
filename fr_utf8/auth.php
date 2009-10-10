@@ -328,7 +328,7 @@ $string['forcechangepassword'] = 'Imposer le changement du mot de passe';
 $string['forcechangepasswordfirst_help'] = 'Impose aux utilisateurs de changer leur mot de passe lors de leur prochaine connexion à Moodle.';
 $string['forgottenpassword'] = 'Si vous tapez une URL dans ce champ, elle sera utilisée comme page permettant de récupérer le mot de passe pour ce site. Ce réglage est prévu pour les sites où la gestion des mots de passe est entièrement effectuée en dehors de Moodle. Laissez ce champ vide pour utiliser le mécanisme de récupération de mot de passe de Moodle.';
 $string['forgottenpasswordurl'] = 'URL de récupération de mot de passe';
-$string['guestloginbutton'] = 'Bouton de connexion comme invité';
+$string['guestloginbutton'] = 'Bouton de connexion anonyme';
 $string['getanothercaptcha'] = 'Obtenir un nouveau CAPTCHA';
 $string['getanaudiocaptcha'] = 'Obtenir un CAPTCHA audio';
 $string['getanimagecaptcha'] = 'Obtenir un CAPTCHA visuel';
@@ -355,7 +355,7 @@ $string['sha1'] = 'Hachage SHA-1';
 $string['shib_no_attributes_error'] = 'Il semble que vous êtes authentifié par Shibboleth, mais Moodle n\'a reçu aucun attribut utilisateur. Veuillez vérifier que votre fournisseur d\'identité (Identity Provider) distribue les attributs nécessaires ($a) au fournisseur de services chez lequel Moodle fonctionne ou informer l\'administrateur de ce serveur.'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['shib_not_all_attributes_error'] = 'Moodle nécessite certains attributs Shibboleth qui ne sont pas présents dans votre cas. Ces attributs sont : $a<br />Veuillez contacter l\'administrateur de ce serveur ou votre fournisseur d\'identité.'; // Obsolete from 2.0dev onwards, see MDL-19182
 $string['shib_not_set_up_error'] = 'L\'authentification Shibboleth ne semble pas être configurée correctement : aucune variable d\'environnement Shibboleth n\'est présente pour cette page. Veuillez consulter le fichier <a href=\"README.txt\">README</a> pour d\'autres instructions sur la façon de configurer l\'authentification Shibboleth ou contactez l\'administrateur de cette installation de Moodle.'; // Obsolete from 2.0dev onwards, see MDL-19182
-$string['showguestlogin'] = 'Vous pouvez choisir d\'afficher ou non le bouton de connexion en tant qu\'invité sur la page de connexion.';
+$string['showguestlogin'] = 'Vous pouvez choisir d\'afficher ou non sur la page de connexion le bouton de connexion anonyme.';
 $string['stdchangepassword_expl'] = 'Si la source d\'authentification externe permet le changement de mot de passe par l\'intermédiaire de Moodle, mettez ce réglage sur « Oui ». Ce réglage rend obsolète le réglage « URL de la page de changement du mot de passe ».';
 $string['stdchangepassword_explldap'] = 'Remarque : il est recommandé d\'utiliser LDAP à travers un tunnel chiffré SSL (ldaps://) si le serveur LDAP n\'est pas dans un intranet.';
 $string['stdchangepassword'] = 'Utiliser la page de changement de mot de passe standard';
