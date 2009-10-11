@@ -1,29 +1,35 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // notes.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
-$string['addnewnote'] = 'Adicione uma nova nota';
-$string['addnewnoteselect'] = 'Selecione usuários para escrever anotações sobre';
-$string['bynameondate'] = 'por$a->name - $a->date';
+$string['addnewnote'] = 'Escrever um novo comentário';
+$string['addnewnoteselect'] = 'Escolher os usuários que serão objeto de comentários';
+$string['bynameondate'] = 'por $a->name - $a->date';
+$string['cannotdeletepost'] = 'Erro na exclusão do comentário';
+$string['configenablenotes'] = 'Habilitar a arquivação de comentários sobre cada usuário.';
 $string['content'] = 'Conteúdo';
 $string['course'] = 'curso';
-$string['coursenotes'] = 'Notas do Curso';
-$string['created'] = 'criada';
-$string['deleteconfirm'] = 'Remover esta nota?';
-$string['deletenotes'] = 'Remova todas as notas';
-$string['editnote'] = 'Editar a nota';
-$string['groupaddnewnote'] = 'Adicionar uma nova nota comum a todos';
-$string['nocontent'] = 'O conteúdo de nota não pode estar em branco';
-$string['nonotes'] = 'Ainda não existe nenhuma nota deste tipo';
-$string['note'] = 'Nota';
-$string['notes'] = 'Notas';
-$string['notesnotvisible'] = 'Voce não tem permissão para ver as notas';
-$string['nouser'] = 'Voce deve selecionar um usuário';
-$string['personal'] = 'pessoal';
-$string['personalnotes'] = 'Notas pessoais';
+$string['coursenotes'] = 'Comentários do Curso';
+$string['created'] = 'criado';
+$string['deleteconfirm'] = 'Excluir este comentário?';
+$string['deletenotes'] = 'Excluir todos os comentários';
+$string['editnote'] = 'Editar o comentário';
+$string['enablenotes'] = 'Habilitar comentários';
+$string['groupaddnewnote'] = 'Adicionar o mesmo comentário ao grupo';
+$string['invalidid'] = 'ID inválido';
+$string['nocontent'] = 'O conteúdo do comentário não pode estar em branco';
+$string['nonotes'] = 'Ainda não existe nenhum comentário deste tipo';
+$string['nopermissiontodelete'] = 'Você não pode apagar este comentário';
+$string['note'] = 'Comentário';
+$string['notes'] = 'Comentários';
+$string['notesdisabled'] = 'Os comentários estão desabilitados';
+$string['notesnotvisible'] = 'Você não tem permissão para ler os comentários';
+$string['nouser'] = 'Você deve selecionar um usuário';
+$string['personal'] = 'individual';
+$string['personalnotes'] = 'Comentários individuais';
 $string['publishstate'] = 'Status';
 $string['site'] = 'site';
-$string['sitenotes'] = 'Anotações do site';
-$string['unknown'] = 'desconhecida';
+$string['sitenotes'] = 'Comentários do site';
+$string['unknown'] = 'desconhecido';
 
 ?>
