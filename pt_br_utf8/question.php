@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // question.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['adminreport'] = 'Reportar possíveis problemas no banco de questões.';
-$string['broken'] = 'Isso é um \"link quebrado\", ele aponta para um arquivo inexistente.';
+$string['broken'] = 'Este é um \"link quebrado\", ele aponta para um arquivo inexistente.';
 $string['byandon'] = 'por <em>$a->user</em> em <em>$a->time</em>';
 $string['categorycurrent'] = 'Categoria Atual';
 $string['categorycurrentuse'] = 'Usar essa categoria';
@@ -53,13 +53,14 @@ $string['movelinksonly'] = 'Apenas mudar para onde os links apontam, não mover 
 $string['moveq'] = 'Mover pergunta(s)';
 $string['moveqtoanothercontext'] = 'Mover pergunta para outro contexto';
 $string['movingcategory'] = 'Movendo categoria';
-$string['movingcategoryandfiles'] = 'Você tem certeza que deseja mover a categoria {$a->name} e todas as categorias descendentes para o contexto \"{$a->contextto}\"?<br /> Foram detectados {$a->urlcount} arquivos ligados a questões em {$a->fromareaname}, você gostaria de copiar ou mover para {$a->toareaname}?';
+$string['movingcategoryandfiles'] = 'Você tem certeza que deseja mover a categoria {$a->name} e todas as categorias descendentes para o contexto \"{$a->contextto}\"?<br /> Foram detectados {$a->urlcount} arquivos ligados a questões em {$a->fromareaname}, você gostaria de copiar ou mover isto para {$a->toareaname}?';
 $string['movingcategorynofiles'] = 'Você tem certeza que deseja mover a categoria \"{$a->name}\" e todas as categorias descendentes para o contexto \"{$a->contextto}\"?';
-$string['movingquestions'] = 'Movendo perguntas e quaisquer arquivos';
-$string['movingquestionsandfiles'] = 'Você tem certeza que deseja mover a(s) questõe(s) {$a->questions} para o contexto de <strong>\"{$a->tocontext}\"</strong>?<br /> Foi detectado <strong>{$a->urlcount} arquivos</strong> ligados a esta(s) questão(s) em {$a->fromareaname}, você gostaria de copiar ou mover para {$a->toareaname}?';
+$string['movingquestions'] = 'Movendo perguntas e todos os arquivos';
+$string['movingquestionsandfiles'] = 'Você tem certeza que deseja mover a(s) questõe(s) {$a->questions} para o contexto de <strong>\"{$a->tocontext}\"</strong>?<br /> Foram detectados <strong>{$a->urlcount} arquivos</strong> ligados a esta(s) questão(s) em {$a->fromareaname}, você quer copiar ou mover isto para {$a->toareaname}?';
 $string['movingquestionsnofiles'] = 'Você tem certeza que deseja mudar as questões {$a->questions} para o contexto <strong>\"{$a->tocontext}\"</strong>?<br />  <strong>Não existem arquivos</strong> ligados a estas questões em {$a->fromareaname}.';
-$string['needtochoosecat'] = 'Você precisa escolher uma categoria para mover as questões, ou então clique em \'cancelar\'.';
+$string['needtochoosecat'] = 'Você precisa escolher uma categoria para mover as questões, ou então clicar em \'cancelar\'.';
 $string['nopermissionadd'] = 'Você não tem permissão para adicionar questões aqui.';
+$string['nopermissionmove'] = 'Você não tem permissão para remover estas questões. Você pode salvar a questão nesta categoria ou salvá-la como nova pergunta.';
 $string['noprobs'] = 'Nenhum problema encontrado no banco de dados da sua pergunta.';
 $string['notenoughdatatoeditaquestion'] = 'Não foram especificados: id da questão, id da categoria e tipo de questão.';
 $string['notenoughdatatomovequestions'] = 'Você precisa fornecer os ids das questões que você quer mover.';
@@ -78,14 +79,14 @@ $string['questionsrescuedfrom'] = 'Questões copiadas do contexto $a.';
 $string['questionsrescuedfrominfo'] = 'Estas questões (algumas podem estar escondidas) foram salvas quando o contexto $a foi apagado pois ainda eram utilizadas.';
 $string['questionuse'] = 'Usar questão nessa atividade';
 $string['shareincontext'] = 'Compartilhar o contexto com $a';
-$string['tofilecategory'] = 'Escrever categoria no arquivo';
-$string['tofilecontext'] = 'Escrever contexto no arquivo';
+$string['tofilecategory'] = 'Escrever categoria em arquivo';
+$string['tofilecontext'] = 'Escrever contexto em arquivo';
 $string['unknown'] = 'Desconhecido';
 $string['unknownquestiontype'] = 'Tipo de questão desconhecido: $a.';
 $string['unpublished'] = 'Não-compartilhado';
 $string['upgradeproblemcategoryloop'] = 'Problema atualizando categorias de questões. Loop na árvore de categorias. O id da categoria com problemas é $a.';
 $string['upgradeproblemcouldnotupdatecategory'] = 'Não foi possível modificar a categoria $a->name ($a->id).';
 $string['upgradeproblemunknowncategory'] = 'Problema atualizando categorias de questões. A categoria $a->id aponta para $a->parent,que não existe. O problema foi resolvido apontando para uma categoria existente.';
-$string['yourfileshoulddownload'] = 'Se o seu arquivo de exportação for baixado automaticamente, <a href=\"$a\">click here</a>.';
+$string['yourfileshoulddownload'] = 'Se o seu arquivo de exportação não for baixado automaticamente, <a href=\"$a\">clickar aqui</a>.';
 
 ?>

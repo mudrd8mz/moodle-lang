@@ -1,26 +1,26 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // resource.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['addresource'] = 'Acrescentar um recurso';
 $string['affectedresources'] = 'Recursos atingidos';
 $string['allowlocalfiles'] = 'Permitir arquivos locais';
-$string['autofilerename'] = 'Atualizar link se arquivo for renomeado';
+$string['autofilerename'] = 'Atualizar link se o arquivo for renomeado';
 $string['back'] = 'Voltar';
 $string['blockdeletingfile'] = 'Removendo arquivos referenciados em bloco';
 $string['browserepository'] = 'Procurar no repositório';
 $string['choose'] = 'Escolher';
 $string['chooseafile'] = 'Escolher ou enviar arquivo';
 $string['chooseparameter'] = 'Escolher parâmetro';
-$string['clicktoopen'] = 'Para abrir este documento, clique neste link.';
+$string['clicktoopen'] = 'Para abrir este documento, clique neste link:';
 $string['configallowlocalfiles'] = 'Ao criar um novo recurso, permite links a arquivos do sistema local, como um CD ou um disco rígido. Isto pode ser útil numa classe onde todos os estudantes tem acesso ao mesmo dispositivo da rede ou quando é necessário acessar arquivos de um CD. O uso desta funcionalidade pode exigir a mudança da configuração de segurança de seu navegador.';
 $string['configautofilerenamesettings'] = 'Atualizar automaticamente as referências a arquivos e diretórios quando forem renomeados no gerenciador de arquivos.';
 $string['configblockdeletingfilesettings'] = 'Bloquear a exclusão de arquivos e diretórios ligados a recursos. Imagens e arquivos que são ligados a páginas html não são protegidos.';
 $string['configdefaulturl'] = 'Este valor é usado para completar o formulário da URL automaticamente quando o recurso é baseado em endereço web.';
-$string['configfilterexternalpages'] = 'Se esta opção estiver ativa, todos os recursos externos como páginas web e arquivos html carregados no servidor serão processados pelos filtros do site, como os links automáticos do glossário. Isto pode reduzir a velocidade de visualização das páginas do curso - use esta opção apenas nos casos em que for realmente necessário.';
+$string['configfilterexternalpages'] = 'Se esta opção estiver ativada, todos os recursos externos como páginas web e arquivos html carregados no servidor serão processados pelos filtros do site, como os links automáticos do glossário. Isto pode reduzir a velocidade de visualização das páginas do curso - use esta opção apenas nos casos em que for realmente necessário.';
 $string['configframesize'] = 'Quando uma página web ou um arquivo é visualizado em um frame, este valor é o tamanho, em pixels, do frame que contém a navegação (top frame).';
-$string['configparametersettings'] = 'Isto define o valor padrão dos parâmetros do formulário do painel de configuração quando são criados novos recursos. Depois da primeira vez, passa a ser uma preferência individual do usuário.';
-$string['configpopup'] = 'A opção de visualizar os materiais em janela popup deve ser pré-configurada?';
+$string['configparametersettings'] = 'Isto define o valor padrão dos parâmetros do formulário do painel de configuração quando são criados novos recursos. Os parâmetros utilizados podem ser escolhidos em seguida segundo a preferência do usuário.';
+$string['configpopup'] = 'A visualização dos recursos em janela popup deve ser o padrão?';
 $string['configpopupdirectories'] = 'As janelas popup devem mostrar o diretório de links?';
 $string['configpopupheight'] = 'Qual é a altura predefinida das janelas popup?';
 $string['configpopuplocation'] = 'As janelas popup devem mostrar a barra de endereço?';
@@ -32,7 +32,7 @@ $string['configpopuptoolbar'] = 'As janelas popup devem  mostrar a barra de ferr
 $string['configpopupwidth'] = 'Qual é a largura predefinida das janelas popup?';
 $string['configsecretphrase'] = 'Esta frase secreta é usada para produzir códigos com valores cifrados que podem ser enviados aos recursos como parâmetros. O código cifrado é produzido por um valor md5 do endereço IP ligado a current_users e concatenado à frase secreta: code = md5(IP.secretphrase). Isto permite ao destinatário verificar a conexão como medida adicional de segurança.';
 $string['configwebsearch'] = 'Quando se adiciona uma URL como uma página web ou link, este endereço é apresentado como referimento para ajudar o usuário a buscar a URL que está procurando.';
-$string['configwindowsettings'] = 'Isto define o valor padrão do painel de configuração da janela do formulário quando são adicionados novos recursos. Depois da primeira vez, passa a ser uma preferência individual do usuário.';
+$string['configwindowsettings'] = 'Isto define o valor padrão do painel de configuração da janela do formulário quando são adicionados novos recursos. Os parâmetros utilizados podem ser escolhidos em seguida segundo a preferência do usuário.';
 $string['deploy'] = 'Utilizar';
 $string['deployall'] = 'Utilizar todos';
 $string['directlink'] = 'Link direto a este arquivo';
@@ -53,8 +53,12 @@ $string['frameifpossible'] = 'Colocar o recurso em un frame para que a barra de 
 $string['framesize'] = 'Tamanho do Frame';
 $string['fulltext'] = 'Texto completo';
 $string['htmlfragment'] = 'Fragmento de HTML';
-$string['imspackageloaded'] = 'Pacote carregado.';
+$string['imspackageloaded'] = 'Pacote carregado';
 $string['keepnavigationvisible'] = 'Mantenha a navegação na mesma página';
+$string['keepnavigationvisibleno'] = 'Não';
+$string['keepnavigationvisiblewarning'] = 'Atenção: alguns arquivos multimeios ignoram esta configuração';
+$string['keepnavigationvisibleyesframe'] = 'Sim, com frame';
+$string['keepnavigationvisibleyesobject'] = 'Sim, sem frame';
 $string['localfile'] = 'Arquivo local';
 $string['localfilechoose'] = 'Escolha um arquivo local (CD-ROM)';
 $string['localfilehelp'] = 'Ajuda para visualização dos arquivos locais';
@@ -84,7 +88,7 @@ $string['next'] = 'Próximo';
 $string['notallowedlocalfileaccess'] = 'O acesso a arquivos locais está desabilitado, portanto este recurso não pode ser acessado.';
 $string['notdeployed'] = 'Não utilizado';
 $string['note'] = 'Nota';
-$string['notefile'] = 'Para transferir mais arquivos ao curso (no modo que aparecerem nesta lista) use o <a href=\"$a\">Administrador de Arquivos</a>.';
+$string['notefile'] = 'Para transferir mais arquivos ao curso (em mod que apareçãm nesta lista) use o <a href=\"$a\">Administrador de Arquivos</a>.';
 $string['notypechosen'] = 'Você tem que escolher um tipo. Use seu botão de retorno e tente novamente.';
 $string['packagechanged'] = 'Este pacote IMS CP foi mudado';
 $string['packagenotdeplyed'] = 'Este pacote IMS CP não está em uso';
@@ -120,7 +124,7 @@ $string['resourcetyperepository'] = 'Link a um objeto do repositório';
 $string['resourcetypetext'] = 'Criar uma página de texto simples';
 $string['searchweb'] = 'Buscar página web';
 $string['serverurl'] = 'URL do servidor  ($a->wwwroot)';
-$string['showcourseblocks'] = 'Mostrar os box do curso';
+$string['showcourseblocks'] = 'Mostrar os blocos do curso';
 $string['skipsubmenus'] = 'Saltar páginas de sub-menu';
 $string['tableofcontents'] = 'Tabela de conteúdos';
 $string['tableofcontentsabbrev'] = 'Sumário';
@@ -128,8 +132,8 @@ $string['upbutton'] = 'Para cima';
 $string['variablename'] = 'Nome da variável';
 $string['viewims'] = 'Ver pacote IMS CP';
 $string['vol'] = 'Vol';
-$string['warningblockingdelete'] = 'Atenção: A exclusão de arquivos está bloqueada por um recurso. Atualize os seus recursos ou solicite o administrador para desabilitar a proteção no painel de configuração global dos recursos.';
+$string['warningblockingdelete'] = 'Atenção: Não é possível apagar este arquivo pois é utilizado por um recurso. Atualize os seus recursos ou solicite o administrador para desabilitar esta proteção no painel de configuração global dos recursos.';
 $string['warningdisabledrename'] = 'Atenção: Atualmente não está habilitada a operação de renomeação automática das referências nos recurso. Atualize os recursos afetados manualmente. O Administrador pode habilitar a renomeação automática no painel de configuração global dos recursos.';
-$string['websearchdefault'] = 'Pesquisa na web padrão';
+$string['websearchdefault'] = 'Pesquisa web padrão';
 
 ?>

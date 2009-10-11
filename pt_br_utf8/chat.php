@@ -1,14 +1,15 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // chat.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['autoscroll'] = 'Rolagem automática';
 $string['beep'] = 'bip';
-$string['chat:chat'] = 'Conversar no chat';
+$string['chat:chat'] = 'Acessar o chat';
 $string['chat:deletelog'] = 'Excluir logs do chat';
 $string['chat:readlog'] = 'Ler logs do chat';
+$string['chat:talk'] = 'Bater papo no chat';
 $string['chatintro'] = 'Introdução';
-$string['chatname'] = 'Nome desta sala de chat';
+$string['chatname'] = 'Nome desta sala';
 $string['chatreport'] = 'Sessões de chat';
 $string['chattime'] = 'Data do próximo chat';
 $string['configmethod'] = 'O método normal é caracterizado pelo acesso contínuo do cliente ao servidor para obter atualizações. Isto não requer nenhum tipo de configuração mas pode causar sobrecarga do servidor quando muitos usuários estão ativos. O uso de um servidor daemon requer acesso shell em Unix mas permite maior rapidez e escalabilidade no ambiente do chat.';
@@ -50,6 +51,7 @@ $string['nomessages'] = 'Nenhuma mensagem ainda';
 $string['normalkeepalive'] = 'KeepAlive';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Nenhuma sessão planejada';
+$string['notallowenter'] = 'Você não tem permissão para entrar nesta sala';
 $string['oldping'] = 'Tempo para disconecção';
 $string['pastchats'] = 'Sessões encerradas';
 $string['refreshroom'] = 'Recarregar o texto';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // role.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['addrole'] = 'Acrescentar uma nova função';
@@ -15,18 +15,25 @@ $string['blog:create'] = 'Criar novos textos no blog';
 $string['blog:manageentries'] = 'Editar e gerenciar itens';
 $string['blog:manageofficialtags'] = 'Gerenciar etiquetas oficiais';
 $string['blog:managepersonaltags'] = 'Gerenciar etiquetas pessoais';
-$string['blog:view'] = 'Visualizar texto do blog';
+$string['blog:view'] = 'Visualizar textos do blog';
 $string['calendar:manageentries'] = 'Gerenciar qualquer evento no calendário';
-$string['calendar:managegroupentries'] = 'Gerenciar eventos de grupos no calendário';
-$string['calendar:manageownentries'] = 'Gerenciar os seus próprios eventos no calendário';
+$string['calendar:managegroupentries'] = 'Gerenciar eventos de grupo no calendário';
+$string['calendar:manageownentries'] = 'Gerenciar eventos pessoais no calendário';
 $string['capabilities'] = 'Ações autorizadas';
 $string['capability'] = 'Ação autorizada';
 $string['category:create'] = 'Criar categorias';
 $string['category:delete'] = 'Excluir categorias';
+$string['category:manage'] = 'Gerenciar categorias';
 $string['category:update'] = 'Atualizar categorias';
+$string['category:viewhiddencategories'] = 'Ver categorias ocultas';
 $string['category:visibility'] = 'Visualizar categorias ocultas';
 $string['course:activityvisibility'] = 'Ocultar/Mostrar atividades';
 $string['course:bulkmessaging'] = 'Enviar mensagem para várias pessoas';
+$string['course:changecategory'] = 'Mudar a categoria do curso';
+$string['course:changefullname'] = 'Mudar o nome completo do curso';
+$string['course:changeidnumber'] = 'Mudar o ID do curso';
+$string['course:changeshortname'] = 'Mudar o nome breve do curso';
+$string['course:changesummary'] = 'Mudar sumário do curso';
 $string['course:create'] = 'Criar cursos';
 $string['course:delete'] = 'Apagar cursos';
 $string['course:manageactivities'] = 'Gerenciar atividades';
@@ -35,6 +42,7 @@ $string['course:managegrades'] = 'Gerenciar notas';
 $string['course:managegroups'] = 'Gerenciar grupos';
 $string['course:managemetacourse'] = 'Gerenciar meta-curso';
 $string['course:managescales'] = 'Gerenciar escalas de avaliação';
+$string['course:request'] = 'Solicitar novos cursos';
 $string['course:reset'] = 'Reconfigurar o curso';
 $string['course:sectionvisibility'] = 'Definir visibilidade da seção';
 $string['course:setcurrentsection'] = 'Definir seção ativa';
@@ -126,6 +134,7 @@ $string['resetrole'] = 'Reconfigurar com o padrão original';
 $string['resetrolenolegacy'] = 'Remover autorizações';
 $string['resetrolesure'] = 'Tem certeza que quer reconfigurar a função \"$a->name ($a->shortname)\" segundo o padrão?<p></p>O padrão é definido pelas ações autorizadas herdadas de ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'Tem certeza que quer cancelar todas as autorizações definidas nesta função \"$a->name ($a->shortname)\"?';
+$string['restore:rolldates'] = 'Há permissão de rolar para frente as datas na recuperação de dados de backup';
 $string['risks'] = 'Riscos';
 $string['role:assign'] = 'Designar funções dos usuários';
 $string['role:manage'] = 'Criar e gerenciar funções';

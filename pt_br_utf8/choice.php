@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // choice.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['addmorechoices'] = 'Acrescentar outras opções';
@@ -14,6 +14,7 @@ $string['choiceclose'] = 'Até';
 $string['choicefull'] = 'Esta opção atingiu o limite de escolhas permitidas.';
 $string['choicename'] = 'Nome da Escolha';
 $string['choiceopen'] = 'Abrir';
+$string['choicesaved'] = 'A opção escolhida foi gravada';
 $string['choicetext'] = 'Texto da Escolha';
 $string['displayhorizontal'] = 'Disposição Horizontal';
 $string['displaymode'] = 'Formato de visualização';
