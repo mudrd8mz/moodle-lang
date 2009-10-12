@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.4+ (Build: 20090429) (2007101546.04)
+      // error.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['adminprimarynoedit'] = 'Hovedadministratoren kan ikke redigeres av andre';
@@ -102,6 +102,7 @@ $string['processingstops'] = 'Prosesseringen stopper her. Gjenværende poster bl
 $string['remotedownloaderror'] = 'Mislykkes i å laste ned komponenten til din server, vennligst sjekk proxy-innstillingene. PHP cURL tillegget er sterkt anbefalt. <br /><br />Du må laste ned <a href=\"$a->url\">$a->url</a> filen manuelt, kopiere den til \"$a->dest\" på serveren din og pakke den ut der.';
 $string['remotedownloadnotallowed'] = 'Nedlasting av komponenter til din tjenermaskin er ikke tillatt (allow_url_fopen er satt til ulovlig). <br /> <br />Du må laste ned
 <a href=\"$a->url\">$a->url</a>-filen manuelt, kopiere den til \"$a->dest\" på tjeneren og pakke den ut der.';
+$string['restorechecksumfailed'] = 'Det oppstod problemer ved gjenoppretting av informasjonen i din brukersesjon. Vennligst sjekk PHP-minnegrense/DB-pakkegrenser. Gjenoppretting er stoppet.';
 $string['restricteduser'] = 'Beklager, men din brukerkonto \"$a\" har ikke tilgang til å gjøre det.';
 $string['scheduledbackupsdisabled'] = 'Tidsstyrte sikkerhetskopier er frakoblet av serveradministrator';
 $string['sendmessage'] = 'Send melding';

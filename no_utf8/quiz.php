@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // quiz.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['1day'] = '1 dag';
@@ -75,6 +75,7 @@ $string['blackboard'] = 'Blackboard';
 $string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Vis studenter med og uten forsøk';
 $string['braceerror'] = 'Fant ingen  {...}  rundt svaralternativene';
+$string['browsersecurity'] = 'Nettlesersikkerhet';
 $string['calculated'] = 'Beregnet';
 $string['calculatedquestion'] = 'Beregnet spørsmål er ikke støttet på linje $a. Spørsmålet vil bli ignorert';
 $string['cannotcreatepath'] = 'Stien kan ikke opprettes ($a)';
@@ -400,6 +401,7 @@ $string['pleaseclose'] = 'Forespørselen din har blitt behandlet. Du kan lukke d
 $string['popup'] = 'Vis prøven i et \"sikkert\" vindu';
 $string['popupblockerwarning'] = 'Denne testen kjøres i sikkermodus, dette betyr at du må ta testen i et \"sikkert\" vindu. Vennligst slå av pop-up blokkeringen i nettleseren. Tusen takk.';
 $string['popupnotice'] = 'Studentene ser denne prøven i et sikkert vindu';
+$string['popupwithjavascriptsupport'] = 'Fullskjerms popup med en viss Javascript sikkerhet';
 $string['preview'] = 'Forhåndsvisning';
 $string['previewquestion'] = 'Forhåndsvisning av spørsmålet';
 $string['previewquiz'] = 'Forhåndsvis $a';
@@ -485,6 +487,7 @@ $string['reports'] = 'Rapporter';
 $string['reportsimplestat'] = 'Enkel statistikk';
 $string['requirepassword'] = 'Krev passord';
 $string['requirepasswordmessage'] = 'Denne prøven krver at du har et passord';
+$string['requiresafeexambrowser'] = 'Krever bruk av \"Sikker eksamensnettleser\"';
 $string['requiresubnet'] = 'Krev nettverksadresse';
 $string['response'] = 'Respons';
 $string['responses'] = 'Respons';
@@ -506,6 +509,8 @@ $string['reviewresponse'] = 'Gjennomgå tilbakemeldinger';
 $string['reviewresponsetoq'] = 'Vis responsen (spørsmål $a)';
 $string['rqp'] = 'Eksternt spørsmål';
 $string['rqps'] = 'Eksterne spørsmål';
+$string['safebrowsererror'] = 'Denne prøven er satt opp til å bare godta forsøk fra en sikker eksamensnettleser. Du kan ikke ta prøven fra denne nettleseren.';
+$string['safebrowsernotice'] = 'Denne prøven er konfigurert slik at studenter bare kan ta prøven fra en sikker eksamensnettleser.';
 $string['save'] = 'Lagre';
 $string['saveandedit'] = 'Lagre endringer og rediger spørsmål';
 $string['savedfromdeletedcourse'] = 'Lagret fra slettet kurs \"$a\"';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5+ (Build: 20090930) (2007101551)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1032,6 +1032,7 @@ $string['noteachersyet'] = 'Ingen lærere i dette kurset ennå';
 $string['notenrollable'] = 'Kurset har for tiden ikke innmelding';
 $string['notenrolled'] = '$a er ikke meldt på dette kurset enda.';
 $string['notenrolledprofile'] = 'Denne profilen er ikke tilgjengelig siden aktuell bruker ikke er påmeldt i dette kurset.';
+$string['noteusercannotrolldatesoncontext'] = '<strong>MERK:</strong> Muligheten til å rullere datoer ved gjenoppretting fra denne sikkerhetskopien er deaktivert siden du ikke har tilstrekkelig rettigheter.';
 $string['noteuserschangednonetocourse'] = 'OBS: Brukerkontoene må også gjenopprettes når du gjenoppretter brukerdata. Denne innstillingen er endret for deg.';
 $string['nothingnew'] = 'Ingenting nytt siden sist du var her';
 $string['nothingtodisplay'] = 'Ingenting å vise';

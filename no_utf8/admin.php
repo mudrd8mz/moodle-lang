@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // admin.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -124,6 +124,7 @@ $string['configenablehtmlpurifier'] = 'Bruk HTML Purifier istedet for KSES for �
 $string['configenablerssfeeds'] = 'Dette vil aktivisere RSS for hele siten. For å få øye på endringen må RSS slås på i hver enkelt modul også. Gå derfor til Modul-innstillingene i Admin-menyen og aktiver modulene.';
 $string['configenablerssfeedsdisabled'] = 'Denne er ikke tilgjengelig siden RSS er inaktiv på denne siten. For å aktivisere RSS må du gå til Admin; Variabler.';
 $string['configenablerssfeedsdisabled2'] = 'RSS strøm er slått av på servernivå. Du behøver å slå dem på først i Server/RSS.';
+$string['configenablesafebrowserintegration'] = 'Dette legger til valget \"Krever sikker eksamensnettleser\" til feltet for nettlesersikkerhet i Quiz-innstillingene. Gå til <a href=\"http://www.safeexambrowser.org/\" target=\"_blank\">http://www.safeexambrowser.org/</a> for mer informasjon.';
 $string['configenablestats'] = 'Hvis du velger \'ja\' her, vil Moodles cronjobb prosessere loggene og samle statistikk. Avhengig av mengden trafikk på nettstedet, kan dette ta litt tid. Hvis du tillater det, vil du kunne se interessante grafer og statistikk om hvert av kursene dine eller på basis av hele nettstedet.';
 $string['configenabletrusttext'] = 'Som standard vil Moodle alltid renske tekst fra brukere for potensielt skadelig kode, media eller annet som kan være en sikkerhetsrisiko. \"Goskjent Innhold\" systemet er en måte å gi bestemte brukere adgang til å inkludere avanserte funksjoner i publisert innhold uten at Moodle fjerner noe. For å aktivisere denne funksjonen må du først aktivisere denne innstillingen og deretter tildele \"Godkjent Innhold\"-tillatelse til en bestemt Moodle-rolle. Tekst som blir produsert eller lastet opp av slike brukere vil bli merket som Godkjent og ikke rensket før den vises.';
 $string['configenrolmentplugins'] = 'Vennligst velg hvilken påmeldings-plugin du ønsker å bruke. Ikke glem innstillingene!<br /><br />Du må sette at plugins er aktivisert, og <strong>BARE EN</strong> plugin kan settes som standard for <em>interaktiv</em> påmelding. Dersom du vil slå av interaktiv påmelding må du sette \"Tilgjengelig for påmelding\" til \"Nei\" i Kursinnstillingene.';
@@ -363,6 +364,7 @@ $string['enablegroupings'] = 'Slå på grupperinger';
 $string['enablehtmlpurifier'] = 'Slå på HTML Purifier';
 $string['enablerecordcache'] = 'Aktiviser hurtiglagring';
 $string['enablerssfeeds'] = 'Aktiviser RSS';
+$string['enablesafebrowserintegration'] = 'Aktiver \"Sikker eksamensnettleser\" integrasjon';
 $string['enablestats'] = 'Aktiviser statistikk';
 $string['enabletrusttext'] = 'Aktiviser Godkjent Innhold';
 $string['encoding'] = 'Koding';
@@ -512,6 +514,7 @@ $string['mediapluginrpm'] = 'Skru på filter for .rpm-filer';
 $string['mediapluginswf'] = 'Skru på filter for .swf-filer';
 $string['mediapluginswfnote'] = 'Som en standard sikkerhetsinnstilling, bør ikke vanlige brukere tillates å legge inn swf-filer embedded i en tekst.';
 $string['mediapluginwmv'] = 'Skru på filter for . wmv-filer';
+$string['mediapluginyoutube'] = 'Aktivér YouTube-filter';
 $string['memcachedhosts'] = 'memcached hosts';
 $string['memcachedpconn'] = 'memcached use persistent connections';
 $string['messaging'] = 'Aktiviser meldingssystemet';

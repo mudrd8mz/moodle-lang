@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // role.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['addrole'] = 'Legg til ny rolle';
@@ -29,9 +29,11 @@ $string['category:viewhiddencategories'] = 'Se skjulte kategorier';
 $string['category:visibility'] = 'Se skjulte kategorier';
 $string['course:activityvisibility'] = 'Skjul/vis aktiviteter';
 $string['course:bulkmessaging'] = 'Send melding til mange brukere';
+$string['course:changecategory'] = 'Endre kurskategori';
 $string['course:changefullname'] = 'Endre kursets navn';
 $string['course:changeidnumber'] = 'Endre kursets ID-nummer';
 $string['course:changeshortname'] = 'Endre kursets kortnavn';
+$string['course:changesummary'] = 'Endre kursbeskrivelse';
 $string['course:create'] = 'Lag kurs';
 $string['course:delete'] = 'Slett kurs';
 $string['course:manageactivities'] = 'Administrer aktiviteter';
@@ -132,6 +134,7 @@ $string['resetrole'] = 'Reset til standard';
 $string['resetrolenolegacy'] = 'Ta bort tillatelser';
 $string['resetrolesure'] = 'Er du sikker på at du vil resette rollen \"$a->name ($a->shortname)\" til standard?<p></p>Standardene er tatt fra den valgte arvede typen ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'Er du sikker på at du vil slette alle tillatelser som er definert for denne rollen \"$a->name ($a->shortname)\"?';
+$string['restore:rolldates'] = 'Har tillatelse til å rullere datoer for aktiviteter ved gjenoppretting';
 $string['risks'] = 'Risiko';
 $string['role:assign'] = 'Tildel roller til brukere';
 $string['role:manage'] = 'Lag og administrer roller';
