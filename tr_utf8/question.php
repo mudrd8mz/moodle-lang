@@ -71,7 +71,7 @@ $string['movingcategoryandfiles'] = '{$a->name}kategorisini ve tüm ast kategori
 $string['movingcategorynofiles'] = '\"{$a->name}\" kategorisini ve tüm ast kategorileri \"{$a->contextto}\"
 için bağlama taşımak istediğinizden emin misiniz?';
 $string['movingquestions'] = 'Soruları ve Her Dosyayı Taşımak';
-$string['movingquestionsandfiles'] = '{$a->name}kategorisini <strong>\"{$a->tocontext}\"</strong>?bağlamına taşımak istediğinizden emin misiniz?<br {$a->fromareaname}içindeki sorulara bağlı <strong>{$a->urlcount} files</strong> dosyaları bulduk, bunları kopyalamak ya da {$a->toareaname}\'a taşımak ister misiniz?';
+$string['movingquestionsandfiles'] = '{$a->questions}kategorisini <strong>\"{$a->tocontext}\"</strong>?bağlamına taşımak istediğinizden emin misiniz?<br {$a->fromareaname}içindeki sorulara bağlı <strong>{$a->urlcount} files</strong> dosyaları bulduk, bunları kopyalamak ya da {$a->toareaname}\'a taşımak ister misiniz?';
 $string['movingquestionsnofiles'] = 'Soru(yu)/(ları){$a->questions}<strong>\"{$a->tocontext}\"</strong>?<br /> bağlamına taşımak istediğinizden emin misiniz? {$a->fromareaname}içinde bu soru(ya)/(lara) bağlı hiç <strong>dosya</strong> yok.';
 $string['needtochoosecat'] = 'Bu soruyu taşımak için bir kategori seçmeniz gerekir ya da \'iptal\'e basın.';
 $string['nopermissionadd'] = 'Buraya soru ekleme izniniz yok.';
