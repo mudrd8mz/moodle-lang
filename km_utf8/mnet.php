@@ -173,7 +173,7 @@ $string['mnet_concatenate_strings'] = 'ដាក់​បន្ត​គ្ន�
 $string['notPEM'] = 'កូន​សោ​មិន​មែន​ជា​ទ្រង់ទ្រាយ PEM ទេ ។ វា​នឹង​មិន​ដំណើរការ​ឡើយ ។';
 $string['notBASE64'] = 'ខ្សែ​អក្សរ​នេះ​មិន​មែន​ទ្រង់ទ្រាយ​ដែល​អ៊ីនកូដ Base64 ទេ ។ វា​មិន​អាច​ជា​កូន​សោ​ត្រឹមត្រូវ​ឡើយ ។';
 $string['usercannotchangepassword'] = 'អ្នក​មិន​អាច​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​របស់​អ្នកនៅ​ទីនេះទេ ពីព្រោះ​អ្នក​ជា​អ្នក​ប្រើ​ពី​ចម្ងាយ ។';
-$string['userchangepasswordlink'] = '<br />អ្នក​អាច​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​របស់​អ្នក​នៅ​ក្រុម​ហ៊ុន​ផ្ដល់​<a href=\"$a->wwwroot/login/change_password.php\">$a->សេចក្ដី​ពិពណ៌នា</a>​របស់​អ្នក ។';
+$string['userchangepasswordlink'] = '<br />អ្នក​អាច​ផ្លាស់ប្ដូរ​ពាក្យ​សម្ងាត់​របស់​អ្នក​នៅ​ក្រុម​ហ៊ុន​ផ្ដល់​<a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>​របស់​អ្នក ។';
 $string['remotehost'] = 'Hub ពី​ចម្ងាយ';
 $string['allow'] = 'អនុញ្ញាត';
 $string['deny'] = 'បដិសេធ';
