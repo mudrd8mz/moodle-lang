@@ -379,7 +379,7 @@ $string['pluginrequirementsnotmet'] = 'No se ha podido instalar el plugin \"$a->
 $string['prefixcannotbeempty'] = '<p>Error: El prefijo de la tabla de la base de datos no puede estar vacío ($a)</p>
 <p>El administrador del sitio debe arreglar este problema.</p>';
 $string['prefixtoolong'] = '<p>Error: El prefijo de la tabla de la base de datos es demasiado larga ($a->dbfamily)</p>
-<p>El administrador del sitio debe arreglar este problema. La longitud máxima para los prefijos de tabla en $a-> dbfamily es de $a-> maxlength caracteres. </p>';
+<p>El administrador del sitio debe arreglar este problema. La longitud máxima para los prefijos de tabla en $a->dbfamily es de $a->maxlength caracteres. </p>';
 $string['processingstops'] = 'El procesamiento acaba aquí. Se pasan por alto los demás registros.';
 $string['refoundto'] = 'Puede ser reembolsado a $a';
 $string['refoundtoorigi'] = 'Reembolsado a la cantidad original: $a';
