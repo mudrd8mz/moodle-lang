@@ -1,33 +1,54 @@
-<?php // $Id$ 
-      // choice.php - created with Moodle 1.2 development (2003111400)
+<?PHP // $Id$ 
+      // choice.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
+      // local modifications from http://localhost/online
 
 
-$string['allowupdate'] = 'Lựa chọn cập nhật';
-$string['answered'] = 'Được trả lời';
-$string['choice'] = 'Lựa chọn $a';
-$string['choiceclose'] = 'Thời gian kết thúc';
-$string['choicename'] = 'Tên lựa chọn';
-$string['choiceopen'] = 'Thời gian bắt đầu ';
-$string['choicetext'] = 'Nội dung lựa chọn ';
-$string['havetologin'] = 'Bạn phải đăng nhập trước khi bạn có thể đưa lên lựa chọn của bạn';
-$string['modulename'] = 'Lựa chọn';
-$string['modulenameplural'] = 'Lựa chọn';
-$string['mustchooseone'] = 'Bạn phải chọn một câu trả lời trước khi lưu. Chưa lưu bất cứ cái gì.';
-$string['notanswered'] = 'Chưa được trả lời ';
-$string['notopenyet'] = 'Xin lỗi, hành động này không có hiệu lực cho đến khi $a';
-$string['publish'] = 'Công bố kết quả ';
-$string['publishafteranswer'] = 'Hiện các kết quả tới sinh viên sau khi họ trả lời ';
-$string['publishafterclose'] = 'Chỉ hiện các kết quả tới sinh viên sau khi lựa chọn được đóng lại';
-$string['publishalways'] = 'Luôn luôn hiện các kết quả tới các học viên';
-$string['publishanonymous'] = 'Công bố các kết quả, không nhìn thấy tên các sinh viên';
-$string['publishnames'] = 'Công bố đầy đủ các kết quả, nhìn thấy tên và lựa chọn của họ';
-$string['publishnot'] = 'Không công bố các kết quả cho các học viên';
-$string['privacy'] = 'Tính bảo mật';
-$string['responses'] = 'Các câu trả lời' ;
-$string['responsesto'] = 'Các câu trả lời cho $a';
-$string['timerestrict'] = 'Hạn chế sự trả lời trong thời gian này';
-$string['savemychoice'] = 'Lưu lựa chọn' ;
-$string['showunanswered'] = 'Hiện theo hàng dọc ';
-$string['viewallresponses'] = 'Xem $a câu trả lời ';
+$string['addmorechoices'] = 'Thêm phương án lựa chọn';
+$string['allowupdate'] = 'Cho phép cập nhật câu hỏi thăm dò';
+$string['answered'] = 'Đã trả lời';
+$string['choice'] = 'Phương án lựa chọn';
+$string['choice:choose'] = 'Trả lời câu hỏi thăm dò';
+$string['choice:deleteresponses'] = 'Xoá câu trả lời';
+$string['choice:downloadresponses'] = 'Tải câu trả lời xuống';
+$string['choice:readresponses'] = 'Đọc câu trả lời';
+$string['choiceclose'] = 'Ngày kết thúc';
+$string['choicefull'] = 'Câu hỏi thăm dò này đã có đủ câu trả lời. Bạn không thể trả lời thêm được nữa.';
+$string['choicename'] = 'Tên câu hỏi';
+$string['choiceopen'] = 'Ngày bắt đầu';
+$string['choicetext'] = 'Nội dung câu hỏi';
+$string['displayhorizontal'] = 'Hiển thị theo chiều ngang';
+$string['displaymode'] = 'Kiểu hiển thị';
+$string['displayvertical'] = 'Hiển thị theo chiều dọc';
+$string['expired'] = 'Xin lỗi, hoạt động này đã kết thúc vào ngày $a.';
+$string['fillinatleastoneoption'] = 'Bạn cần phải đưa ra ít nhất hai phương án lựa chọn.';
+$string['full'] = '(đã đủ)';
+$string['havetologin'] = 'Bạn phải đăng nhập trước khi có thể trả lời câu hỏi này';
+$string['limit'] = 'Giới hạn';
+$string['limitanswers'] = 'Giới hạn số câu trả lời';
+$string['modulename'] = 'Câu hỏi thăm dò';
+$string['modulenameplural'] = 'Câu hỏi thăm dò';
+$string['mustchooseone'] = 'Chưa lưu được. Bạn phải chọn một câu trả lời trước khi lưu.';
+$string['noguestchoose'] = 'Xin lỗi, khách vãng lai không thể trả lời câu hỏi thăm dò.';
+$string['noresultsviewable'] = 'Hiện không thể xem được kết quả.';
+$string['notanswered'] = 'Chưa có câu trả lời nào';
+$string['notopenyet'] = 'Xin lỗi, hoạt động này chỉ được mở vào ngày $a';
+$string['privacy'] = 'Tính riêng tư của kết quả';
+$string['publishafteranswer'] = 'Cho học viên xem kết quả sau khi họ trả lời';
+$string['publishafterclose'] = 'Chỉ cho học viên xem kết quả sau khi kết thúc câu hỏi';
+$string['publishalways'] = 'Luôn cho học viên xem kết quả';
+$string['publishanonymous'] = 'Công bố kết quả khuyết danh, không hiển thị tên học viên';
+$string['publishnames'] = 'Công bố kết quả đầy đủ, hiển thị tên và câu trả lời của học viên';
+$string['publishnot'] = 'Không công bố kết quả cho học viên';
+$string['removemychoice'] = 'Xoá các câu trả lời của tôi';
+$string['removeresponses'] = 'Xoá hết các câu trả lời';
+$string['responses'] = 'Câu trả lời';
+$string['responsesto'] = 'Câu trả lời cho $a';
+$string['savemychoice'] = 'Lưu câu trả lời của tôi';
+$string['showunanswered'] = 'Hiển thị cột \"không trả lời\"';
+$string['spaceleft'] = 'khoảng trống còn lại';
+$string['spacesleft'] = 'khoảng trống còn lại';
+$string['taken'] = 'Đã thực hiện';
+$string['timerestrict'] = 'Giới hạn thời gian cho câu hỏi';
+$string['yourselection'] = 'Lựa chọn của bạn';
 
 ?>
