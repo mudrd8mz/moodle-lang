@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth_email.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // auth_email.php - created with Moodle 2.0 dev (Build: 20091016) (2009100605)
 
 
 $string['auth_changingemailaddress'] = 'あなたは、$a->oldemail から $a->newemail へのメールアドレス変更をリクエストしました。セキュリティ上の理由から、新しいメールアドレスがあなたのメールアドレスか確認するため、私たちはあなたにメッセージを送信しています。このメッセージ内のURIにアクセスすることで、あなたのメールアドレスが更新されます。';
@@ -9,7 +9,7 @@ $string['auth_emaildescription'] = 'メールによるアカウント登録確�
 $string['auth_emailnoemail'] = 'あなたへのメール送信に失敗しました!';
 $string['auth_emailnoinsert'] = 'あなたのレコードをデータベースに追加できませんでした!';
 $string['auth_emailnowexists'] = 'あなたのプロファイルに割り当てようと試みたメールアドレスは、あなたがリクエストした後、他のユーザに割り当てられています。このため、あなたのメールアドレス変更はキャンセルされましたが、他のアドレスを割り当てることはできます。';
-$string['auth_emailrecaptcha'] = 'Eメールによる自己登録ユーザのため、サインアップページにビジュアル/オーディオ確認フォーム要素を追加します。これは、あなたのサイトをスパム発信者から守り、価値ある活動に貢献します。詳細は、http://recaptcha.net/learnmore.html をご覧ください。<br /><em>PHP cURL拡張モジュールが必須です。</em>';
+$string['auth_emailrecaptcha'] = 'Eメールによる自己登録ユーザのため、サインアップページにビジュアル/オーディオ確認フォーム要素を追加します。これは、あなたのサイトをスパム発信者から守り、価値ある活動に貢献します。詳細は、http://recaptcha.net/learnmore.html をご覧ください。<br />PHP cURL拡張モジュールが必須です。';
 $string['auth_emailrecaptcha_key'] = 'reCAPTCHA要素を有効にする';
 $string['auth_emailsettings'] = '設定';
 $string['auth_emailtitle'] = 'Eメールによる自己登録';
