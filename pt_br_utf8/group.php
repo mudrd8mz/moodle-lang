@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // group.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['addgroupstogrouping'] = 'Adicionar grupo ao agrupamento';
@@ -29,6 +29,7 @@ $string['deleteallgroups'] = 'Apagar todos os grupos';
 $string['deletegroupconfirm'] = 'Tem certeza que quer apagar o grupo \'$a\'?';
 $string['deletegrouping'] = 'Apagar agrupamento';
 $string['deletegroupingconfirm'] = 'Tem certeza que quer apagar o agrupamento \'$a\'? (Grupos no agrupamento não são removidos.)';
+$string['deletegroupsconfirm'] = 'Tem certeza que quer apagar os seguintes grupos?';
 $string['deleteselectedgroup'] = 'Apagar grupo selecionado';
 $string['editgroupingsettings'] = 'Editar configurações de agrupamentos';
 $string['editgroupsettings'] = 'Editar configurações de grupos';
@@ -37,6 +38,8 @@ $string['erroraddremoveuser'] = 'Erro ao adicionar/remover usuário $a no grupo'
 $string['erroreditgroup'] = 'Erro ao criar/atualizar grupo $a';
 $string['erroreditgrouping'] = 'Erro ao criar/atualizar agrupamento $a';
 $string['errorinvalidgroup'] = 'Erro, grupo inválido: $a';
+$string['errorselectone'] = 'Selecionar um grupo antes de escolher esta opção';
+$string['errorselectsome'] = 'Selecionar um ou mais grupos antes de escolher esta opção';
 $string['evenallocation'] = 'Nota: Para distribuir os membros em modo homogeneo, o atual número de membros por grupo difere do número especificado.';
 $string['existingmembers'] = 'Membros existentes: $a';
 $string['filtergroups'] = 'Filtrar grupos por:';
@@ -68,14 +71,14 @@ $string['groupnameexists'] = 'O nome de grupo \'$a\' já existe nesse curso, por
 $string['groupnotamember'] = 'Sinto muito, você não é membro desse grupo';
 $string['groups'] = 'Grupos';
 $string['groupscount'] = 'Grupos ($a)';
-$string['groupsgroupings'] = 'Grupos &amp; grupamentos';
+$string['groupsgroupings'] = 'Grupos &amp; agrupamentos';
 $string['groupsinselectedgrouping'] = 'Grupos em:';
 $string['groupsnone'] = 'Nenhum grupo';
 $string['groupsonly'] = 'Apenas grupos';
 $string['groupspreview'] = 'Prévia dos grupos';
 $string['groupsseparate'] = 'Grupos separados';
 $string['groupsvisible'] = 'Grupos visíveis';
-$string['grouptemplate'] = 'Grupo@';
+$string['grouptemplate'] = 'Grupo @';
 $string['hidepicture'] = 'Esconder imagem';
 $string['javascriptrequired'] = 'Essa página precisa de javascript para ser ativada.';
 $string['members'] = 'Membros por grupo';
@@ -96,7 +99,7 @@ $string['numgroups'] = 'Número de grupos';
 $string['nummembers'] = 'Membros por grupo';
 $string['overview'] = 'Visão geral';
 $string['potentialmembers'] = 'Membros potenciais: $a';
-$string['printerfriendly'] = 'Exibição para Impressão';
+$string['printerfriendly'] = 'Versão para impressão';
 $string['random'] = 'Aleatoriamente';
 $string['removegroupfromselectedgrouping'] = 'Remover grupo do agrupamento';
 $string['removegroupingsmembers'] = 'Remover todos os grupos dos agrupamentos';
