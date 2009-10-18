@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // install.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['admindirerror'] = 'O diretório  admin indicado não é correto';
@@ -209,6 +209,9 @@ $string['phpversionhelp'] = '<p>Moodle requer a versão 4.1.0 de PHP ou posterio
 <p>A sua versão é $a</p>
 <p>Atualize a versão do PHP!</p>';
 $string['postgres7'] = '<p>Moodle requer a versão 4.1.0 de PHP ou posterior.</p> <p>A sua versão é $a</p> <p>Atualize a versão do PHP!</p> PostgreSQL (postgres7)';
+$string['postgresqlwarning'] = '<strong>Nota:</strong> Em caso de problemas de conexão, tente configurar o campo Host Server assim: 
+Servidor hospedeiro=\'postgresql_host\' porta=\'5432\' nome do db=\'postgresql_database_name\' usuário=\'postgresql_user\' senha=\'postgresql_user_password\'
+e deixe vazios os campos Database, Usuário e Senha. Leia também <a href=\"http://docs.moodle.org/en/Installing_Postgres_for_PHP\">Moodle Docs</a>';
 $string['safemode'] = 'Modalidade segura';
 $string['safemodeerror'] = 'Moodle pode ter problemas se a modalidade segura estiver ativa';
 $string['safemodehelp'] = '<p>Moodle pode ter alguns problemas quando o safe mode está ativado. Provavelmente não será possível criar novos arquivos.</p>

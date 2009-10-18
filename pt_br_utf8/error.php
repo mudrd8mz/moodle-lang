@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // error.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['adminprimarynoedit'] = 'Apenas o administrador principal pode alterar os seus dados';
@@ -24,6 +24,7 @@ $string['cmunknown'] = 'Impossível achar este módulo';
 $string['componentisuptodate'] = 'Componente atualizado';
 $string['confirmsesskeybad'] = 'Sinto muito mas não foi possível confirmar a chave da sua sessão para completar esta ação. Esta medida de segurança evita a execução de funções importantes em seu nome, causadas por terceiros maliciosos ou por erros acidentais. Certifique-se que a execução desta função seja realmente intencional.';
 $string['couldnotassignrole'] = 'Um erro sério e desconhecido ocorreu ao tentar alterar sua função';
+$string['countriesphpempty'] = 'O arquivo countries.php é ausente ou vazio no idioma $a';
 $string['coursegroupunknown'] = 'O curso correspondente ao grupo $a não foi definido';
 $string['csvcolumnduplicates'] = 'Colunas duplicadas foram encontradas.';
 $string['csvemptyfile'] = 'O arquivo CSV está vazio.';
@@ -38,6 +39,7 @@ $string['errorcreatingdirectory'] = 'Erro criando o diretório \"$a\"';
 $string['errorcreatingfile'] = 'Erro criando o arquivo \"$a\"';
 $string['erroronline'] = 'Erro na linha $a';
 $string['errorreadingfile'] = 'Erro na leitura do arquivo \"$a\"';
+$string['errorsavingrequest'] = 'EOcorreu um erro ao salvar o pedido.';
 $string['errorunzippingfiles'] = 'Erro descompactando arquivos';
 $string['fieldrequired'] = '\"$a\" é um campo obrigatório';
 $string['filenotfound'] = 'Sinto muito, o arquivo não foi encontrado';
@@ -46,8 +48,11 @@ $string['groupalready'] = 'O usuário já participa do grupo $a';
 $string['groupexistforcourse'] = 'O grupo \"$a\" já existe nesse curso';
 $string['groupnotaddederror'] = 'O grupo \"$a\" não foi adicionado';
 $string['groupunknown'] = 'O grupo $a não é associado ao curso especificado';
+$string['groupusernotmember'] = 'O usuário não é participante deste grupo';
 $string['guestnoeditprofile'] = 'O usuário visitante não pode modificar o seu perfil';
 $string['guestnoeditprofileother'] = 'O perfil do usuário visitante não pode ser modificado';
+$string['guestsarenotallowed'] = 'O usuário visitante não tem permissão para fazer isto';
+$string['invalidadminsettingname'] = 'Configuração inválida ($a)';
 $string['invalidcontext'] = 'Contexto não válido';
 $string['invalidcourse'] = 'Curso não válido';
 $string['invalidcourseid'] = 'Você está tentando usar um ID de curso não válido Impossível inserir novo record ID $a';
@@ -58,6 +63,7 @@ $string['invalidipformat'] = 'Formato inválido de endereço IP';
 $string['invalidmd5'] = 'md5 inválido';
 $string['invalidrequest'] = 'Requisição inválida';
 $string['invalidrole'] = 'Função inválida';
+$string['invalidsesskey'] = 'O form foi recusado, a chave da sessão não é correta.';
 $string['invalidurl'] = 'Url inválida';
 $string['invalidxmlfile'] = '\"$a\" não é um arquivo XML válido';
 $string['iplookupfailed'] = 'Impossível rastrear informações desse endereço IP: $a;';
@@ -95,6 +101,7 @@ $string['pluginrequirementsnotmet'] = 'O Plugin \"$a->pluginname\" ($a->pluginve
 $string['processingstops'] = 'Processamento interrompido aqui. Os demais registros foram ignorados.';
 $string['remotedownloaderror'] = 'O download do componente falhou, por favor verifique as configurações do proxy. A extensão cURL do PHP é altamente recomendada.<br /><br />Você precisar baixar o <a href=\"$a->url\">arquivo</a> manualmente, copiar para \"$a->dest\" e descompactar lá.';
 $string['remotedownloadnotallowed'] = 'Não é permitido baixar componentes no seu servidor (allow_url_fopen está desabilitado).).<br /><br />Você deve baixar o arquivo <a href=\"$a->url\">$a->url</a> manualmente, copiar em \"$a->dest\" no seu servidor e descomprimir o arquivo nesta posição.';
+$string['restorechecksumfailed'] = 'Erro ao restaurar a informação relativa à sessão. Controle os limites memory/DB do PHP.';
 $string['restricteduser'] = 'Sinto muito, mas a sua conta atual, \"$a\" , não tem permissão para fazer isto.';
 $string['scheduledbackupsdisabled'] = 'Os backups agendados foram desativados pelo administrador';
 $string['sendmessage'] = 'Mandar mensagem';
@@ -107,6 +114,7 @@ $string['tagnotfound'] = 'A etiqueta especificada não foi encontrada no banco d
 $string['unicodeupgradeerror'] = 'Seu banco de dados não está em Unicode e essa versão do Moodle não consegue fazer a migração. Atualize para o Moodle 1.7.x e continue o processo pela página do Admin. Depois disso a migração continuará normalmente.';
 $string['unknowncourse'] = 'Curso \"$a\" desconhecido';
 $string['unknowncourseidnumber'] = 'ID do curso desconhecido: \"$a\"';
+$string['unknowncourserequest'] = 'pedido de curso desconhecido';
 $string['unknowngroup'] = 'Grupo desconhecido: \"$a\"';
 $string['unknownrole'] = 'Função desconhecida: \"$a\"';
 $string['unknownuseraction'] = 'Sinto muito, não entendo esta ação do usuário';
@@ -130,5 +138,6 @@ $string['usernotupdatednotexists'] = 'Usuário não foi atualizado - ele não ex
 $string['wrongdestpath'] = 'Percurso do destino errado';
 $string['wrongsourcebase'] = 'URL do recurso errado';
 $string['wrongzipfilename'] = 'Nome do arquivo ZIP errado';
+$string['youcannotdeletecategory'] = 'Não é possível apagar a categoria \'$a\' nem cancelar ou mover os conteúdos.';
 
 ?>

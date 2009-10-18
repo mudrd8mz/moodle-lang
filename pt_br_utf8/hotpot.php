@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // hotpot.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
 
 
 $string['abandoned'] = 'Abandonada';
@@ -23,6 +23,7 @@ $string['copytoclipboard'] = 'Copiar';
 $string['correct'] = 'Certo';
 $string['deleteabandoned'] = 'Apagar abandonadas';
 $string['deleteabandonedcheck'] = 'Tem certeza que quer apagar todas as $a tentativas abandonadas?';
+$string['deleteallattempts'] = 'Apagar todas as tentativas';
 $string['displaycoursenext'] = 'Mostrar página do curso em seguida';
 $string['displayhotpotnext'] = 'Mostrar quiz hot potatoes em seguida';
 $string['displayindexnext'] = 'Mostrar index hotpot em seguida';
@@ -44,7 +45,7 @@ $string['feedbackmoodlemessaging'] = 'Mensagens Moodle';
 $string['feedbacknone'] = 'Nenhum';
 $string['feedbackwebpage'] = 'Página Web';
 $string['filetype'] = 'Tipo de arquivo';
-$string['forceplugins'] = 'Forçar plugins para multimídia';
+$string['forceplugins'] = 'Forçar plugins de multimeios';
 $string['giveup'] = 'Desistir';
 $string['hints'] = 'Dicas';
 $string['hotpot:attempt'] = 'Tentar atividade';
@@ -63,7 +64,7 @@ $string['navigation'] = 'Navegação';
 $string['navigation_bar'] = 'Barra de navegação do Moodle';
 $string['navigation_buttons'] = 'Botões da atividade Hot Potatoes';
 $string['navigation_frame'] = 'Frame de navegação do Moodle';
-$string['navigation_give_up'] = 'Um botão simples \"Desistir\"';
+$string['navigation_give_up'] = 'Um botão \"Desistir\"';
 $string['navigation_iframe'] = 'IFRAME embutido';
 $string['navigation_none'] = 'Nenhum';
 $string['neverclosed'] = 'Não se encerra';
@@ -86,6 +87,7 @@ $string['rawdetails'] = 'Detalhes das tentativas';
 $string['regrade'] = 'Reavaliar';
 $string['regradecheck'] = 'Proceder com a reavaliação de \"$a\"?';
 $string['regraderequired'] = 'Pedido de reavaliação';
+$string['removegradeitem'] = 'Excluir item';
 $string['reportanswers'] = 'Respostas';
 $string['reportattemptfinish'] = 'Fim da tent.';
 $string['reportattemptnumber'] = 'Tentativa';
@@ -95,7 +97,7 @@ $string['reportchanges'] = 'Mudanças';
 $string['reportchecks'] = 'Controles';
 $string['reportclick'] = 'Relatório de clicks';
 $string['reportclicknumber'] = 'Click';
-$string['reportclicktime'] = 'Tempo de click';
+$string['reportclicktime'] = 'Horário do click';
 $string['reportclicktype'] = 'Tipo de click';
 $string['reportclues'] = 'Dicas';
 $string['reportcontent'] = 'Conteúdo do relatório';
@@ -146,7 +148,7 @@ $string['specifictime'] = 'Tempo específico';
 $string['studentfeedback'] = 'Feedback de alunos';
 $string['textsourcefilename'] = 'Usar nome do arquivo';
 $string['textsourcefilepath'] = 'Usar caminho do arquivo';
-$string['textsourcequiz'] = 'Obter no quiz';
+$string['textsourcequiz'] = 'Obter na atividade';
 $string['textsourcespecific'] = 'Texto específico';
 $string['thiscourse'] = 'Este curso';
 $string['timedout'] = 'Tempo esgotado';
