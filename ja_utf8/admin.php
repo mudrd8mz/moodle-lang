@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091014) (2009100605)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091018) (2009100605)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -223,23 +223,23 @@ $string['confignodefaultuserrolelists'] = 'デフォルトロールがサイト�
 $string['confignonmetacoursesyncroleids'] = '子コースからのすべてのロール割り当ては、デフォルトでメタコースに同期されます。ここで選択されたロールは、同期化処理から除かれます。';
 $string['confignoreplyaddress'] = 'Moodleでは、ユーザに代わってメールが送信される場合があります (例 フォーラムの投稿)。ここで設定するメールアドレスは、「From」に使用され、受信者が直接送信者に返信できないようにします (例 ユーザが自分のメールアドレスを隠すよう設定している場合)。';
 $string['confignotifyloginfailures'] = 'ログイン失敗が記録された場合、メール通知を送信することができます。誰が通知を受け取りますか?';
-$string['confignotifyloginthreshold'] = 'ログイン失敗の通知が有効の場合、同一ユーザまたはIPアドレスで何回ログインに失敗すると通知を送信しますか?';
-$string['confignotloggedinroleid'] = 'サイトにログインしていないユーザは、サイトのコンテクストで、このロールが割り当てられているかのように扱われます。ほとんどの場合、あなたがここで割り当てるロールは「ゲスト」で十分ですが、権限を減らしたロールまたはさらに制限されたロールを作成することもできます。それでもフォーラムへの投稿等は、ユーザが適切にログインする必要があります。';
-$string['configopentogoogle'] = 'この設定を有効にした場合、Googleはあなたのサイトにゲストとして入ることができます。さらにGoogleが自動的に記録したデータを元に、他の人がゲストとしてあなたのサイトにアクセスできます。これは、すでにゲストアクセスを許可しているコースのみに、透過アクセスを提供します。';
+$string['confignotifyloginthreshold'] = 'ログイン失敗通知が有効の場合、同一ユーザまたはIPアドレスで何回ログインに失敗することで通知を送信しますか?';
+$string['confignotloggedinroleid'] = 'サイトにログインしていないユーザは、サイトコンテクストに関して、このロールが割り当てられているかのように扱われます。ほとんどの場合、あなたがここで割り当てるロールは「ゲスト」で十分ですが、権限を減らしたロールまたはさらに制限されたロールを作成することもできます。それでもフォーラムへの投稿等は、ユーザが適切にログインする必要があります。';
+$string['configopentogoogle'] = 'この設定を有効にした場合、Googleはあなたのサイトにゲストとして入ることができます。さらに、Googleが自動的に記録したデータを元に、他の人がゲストとしてあなたのサイトにアクセスできます。これは、すでにゲストアクセスを許可しているコースのみに、透過アクセスを提供します。';
 $string['configoverride'] = 'config.phpで設定済み';
-$string['configpasswordpolicy'] = 'この設定を有効にすることで、Moodleはパスワードポリシーを基に、ユーザパスワードの妥当性をチェックします。あなたのポリシーを指定するため、下記設定を使用してください。この設定を無効にした場合、下記設定は無視されます。';
-$string['configpathtoclam'] = 'clam AVのパスを指定してください。おそらく /usr/bin/clamscan または /usr/bin/clamdscan のようになります。clam AVを正常に動作させるため、clam AVのパスを設定してください。';
-$string['configpathtodu'] = 'duのパスを指定してください。おそらく /usr/bin/du のようになります。duのパスを設定した場合、多くのファイルを含んだディレクトリに関して、ディレクトリコンテンツを表示するページの表示速度が、はるかに速くなります。';
+$string['configpasswordpolicy'] = 'この設定を有効にすることで、Moodleはパスワードポリシーを基に、ユーザパスワードの妥当性をチェックします。あなたのポリシーを指定するため、下記設定を使用してください (この設定を無効にした場合、下記設定は無視されます)。';
+$string['configpathtoclam'] = 'clam AVのパスを指定してください。おそらく /usr/bin/clamscan または /usr/bin/clamdscan のようになります。あなたがclam AVを動作させるためは、clam AVのパスを指定する必要があります。';
+$string['configpathtodu'] = 'duのパスを指定してください。おそらく /usr/bin/du のようになります。あなたがduのパスを設定した場合、多くのファイルを含んだディレクトリに関して、ディレクトリコンテンツを表示するページの表示速度が、はるかに速くなります。';
 $string['configperfdebug'] = 'この設定を有効にした場合、パフォーマンス情報がスタンダードテーマのフッタに表示されます。';
-$string['configprofilesforenrolledusersonly'] = 'スパマーによる悪用を避けるため、コースに受講登録されていないユーザに関するプロファイルの自己紹介欄は隠されています。プロファイルの自己紹介欄にコンテンツを追加するには、新しいユーザは少なくとも1つのコースに受講登録する必要があります。';
-$string['configprotectusernames'] = 'この設定を有効にした場合、forget_password.phpはユーザ名またはメールアドレスを推測できるヒントを表示しません。';
+$string['configprofilesforenrolledusersonly'] = 'スパマーによる乱用を避けるため、コースに受講登録されていないユーザに関するプロファイルの自己紹介欄は隠されます。プロファイルの自己紹介欄にコンテンツを追加するには、新しいユーザは少なくとも1つのコースに受講登録する必要があります。';
+$string['configprotectusernames'] = 'デフォルトでは、forget_password.phpはユーザ名またはメールアドレスを推測できるヒントを表示しません。';
 $string['configproxybypass'] = 'プロクシをバイパスする、ホスト名 (一部) またはIPアドレスのカンマ区切り一覧です (例 192.168., .mydomain.com)。';
 $string['configproxyhost'] = '<b>サーバ</b>のインターネットアクセスにプロクシ (例 ファイアーウォール) が必要な場合、プロクシのホスト名を入力してください。必要でない場合、空白にしてください。';
 $string['configproxypassword'] = 'プロクシ経由でインターネットにアクセスする必要がある場合、パスワードを入力してください。必要でない場合、空白にしてください (PHP cURL拡張モジュールが必要です)。';
-$string['configproxyport'] = 'サーバがプロクシを必要とする場合、ここにプロクシのポート番号を入力してください。';
+$string['configproxyport'] = 'サーバがプロクシの使用を必要とする場合、ここにプロクシのポート番号を入力してください。';
 $string['configproxytype'] = 'ウェブプロクシのタイプです (SOCKS5をサポートするには、PHP5およびcURL拡張モジュールが必要です)。';
 $string['configproxyuser'] = 'プロクシ経由でインターネットにアクセスする必要がある場合、ユーザ名を入力してください。必要でない場合、空白にしてください (PHP cURL拡張モジュールが必要です)。';
-$string['configquarantinedir'] = 'clam AVによって感染ファイルを隔離用ディレクトリに移動させたい場合は、ここにそのディレクトリを入力してください。このディレクトリは、ウェブサーバより書き込みができるようにする必要があります。ここを空白にした場合、または存在しないか、書き込み権が無いディレクトリを指定した場合、感染ファイルは削除されます。末尾にスラッシュを付けないでください。';
+$string['configquarantinedir'] = 'clam AVによって感染ファイルを隔離用ディレクトリに移動させたい場合、そのディレクトリを入力してください。このディレクトリは、ウェブサーバより書き込みができるようにする必要があります。空白にした場合、または存在しないか、書き込み権が無いディレクトリを指定した場合、感染ファイルは削除されます。末尾にスラッシュを付けないでください。';
 $string['configrcache'] = 'データベースレコードを保存するため、キャッシュを使用します。忘れずに「キャッシュタイプ」も設定してください!';
 $string['configrcachettl'] = 'キャッシュレコードの有効期間 (秒)です。ここでは、15秒より小さな値を使用してください。';
 $string['configrecaptchaprivatekey'] = 'あなたのMoodleサーバとrecaptcha.netサーバの通信に使用する文字列です。このサイト用にhttp://recaptcha.netで取得してください。';
@@ -250,10 +250,10 @@ $string['configrequestedstudentsname'] = 'リクエストされたコースで�
 $string['configrequestedteachername'] = 'リクエストされたコースで使用する教師 (単数) に対する呼称';
 $string['configrequestedteachersname'] = 'リクエストされたコースで使用する教師 (複数) に対する呼称';
 $string['configrequiremodintro'] = 'あなたが、それぞれのユーザに活動説明の入力を強制したくない場合、このオプションを無効にしてください。';
-$string['configrestrictbydefault'] = '上位カテゴリに分類される新しく作成されたコースにおいて、モジュールをデフォルトで制限しますか?';
+$string['configrestrictbydefault'] = '上位カテゴリに分類される、新しく作成されたコースにおいて、モジュールをデフォルトで制限しますか?';
 $string['configrestrictmodulesfor'] = 'どのコースで、いくつかの活動モジュールを無効にするよう<b>設定</b>しますか? この設定は、教師のみに適用されます。管理者は、どのような活動でもコースに追加することができます。';
-$string['configrunclamavonupload'] = 'この設定を有効にした場合、すべてのアップロードファイルをスキャンするためclam AVが使用されます。';
-$string['configrunclamonupload'] = 'ファイルアップロード時にclam AVを動作させますか? 正常に動作させるためには、pathtoclamに正しいパスを入力する必要があります。 (Clam AVは次の場所で入手できる無料ウイルススキャナーです。 http://www.clamav.net/)';
+$string['configrunclamavonupload'] = 'この設定を有効にした場合、すべてのアップロードファイルをスキャンするため、clam AVが使用されます。';
+$string['configrunclamonupload'] = 'ファイルアップロード時にclam AVを動作させますか? 正常に動作させるには、pathtoclamに正しいパスを入力する必要があります (Clam AVは次の場所で入手できる無料ウイルススキャナーです: http://www.clamav.net/)。';
 $string['configsectioninterface'] = 'インターフェース';
 $string['configsectionmail'] = 'メール';
 $string['configsectionmaintenance'] = 'メンテナンス';
