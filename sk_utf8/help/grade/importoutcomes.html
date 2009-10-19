@@ -1,0 +1,15 @@
+<h1>Importovanie výstupov</h1>
+<p>Môžete importovať výstupy vo formáte súborov .csv. Formát textu má byť nasledovný:</p>
+<table class="generaltable" cellpadding="4">
+    <tr> <th class="header">Názov poľa</th> <th class="header">Opis</th> <th class="header">Požadované</th> <th class="header">Formát</th> </tr>
+    <tr> <td class="cell">outcome_name</td> <td class="cell">Plný názov výstupu </td> <td class="cell">Áno</td><td class="cell">String</td> </tr>
+    <tr> <td class="cell">outcome_shortname</td><td class="cell">Krátky názov výstupu </td> <td class="cell">Áno</td> <td class="cell">String</td> </tr>
+    <tr> <td class="cell">outcome_description</td><td class="cell">Opis výstupu </td> <td class="cell">Nie</td> <td class="cell">String</td> </tr>
+    <tr> <td class="cell">scale_name</td><td class="cell">Názov použitého rozsahu</td> <td class="cell">Áno</td> <td class="cell">String</td> </tr>
+    <tr> <td class="cell">scale_items</td><td class="cell">Čiarkami oddelený zoznam predmetov rozsahu</td> <td class="cell">Áno</td> <td class="cell">String</td> </tr>
+    <tr> <td class="cell">scale_description</td><td class="cell">Opis rozsahu </td> <td class="cell">Nie</td> <td class="cell">String</td> </tr>
+</table>
+
+<p>Tu je príklad:</p>
+<pre>outcome_name;outcome_shortname;outcome_description;scale_name;scale_items;scale_description
+Účasť; Účasť; Rozsah účasti; "Malá alebo žiadna účasť, Dostatočná účasť, Plná účasť"</pre>
