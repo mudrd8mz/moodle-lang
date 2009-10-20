@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // role.php - created with Moodle 2.0 dev (Build: 20091014) (2009100605)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
@@ -84,7 +84,7 @@ $string['createhiddenassign'] = 'Crea una assegnazione di ruolo nascosta';
 $string['createrolebycopying'] = 'Aggiungi un nuovo ruolo basato su $a';
 $string['createthisrole'] = 'Crea questo ruolo';
 $string['currentcontext'] = 'Contesto attuale';
-$string['currentrole'] = 'Ruolo attuale';
+$string['currentrole'] = 'Ruolo';
 $string['defaultrole'] = 'Ruolo di default';
 $string['defaultx'] = 'Default: $a';
 $string['defineroles'] = 'Gestione ruoli';

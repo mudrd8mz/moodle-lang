@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20091014) (2009100605)
 
 
 $string['allowdeleting'] = 'Consenti ripensamenti';
@@ -12,7 +12,8 @@ $string['assignment:exportsubmission'] = 'Esportare consegna';
 $string['assignment:grade'] = 'Valutare compito';
 $string['assignment:submit'] = 'Consegnare compito';
 $string['assignment:view'] = 'Visualizzare compito';
-$string['assignmentdetails'] = 'Dettaglio compito';
+$string['assignmentadministration'] = 'Gestione Compito';
+$string['assignmentdetails'] = 'Dettagli compito';
 $string['assignmentmail'] = '$a->teacher ha commentato/valutato il tuo compito \'<i>$a->assignment</i>\'.
 
 Per visualizzare il commento/voto al tuo compito:
@@ -79,11 +80,13 @@ $string['itemstocount'] = 'Conteggio';
 $string['late'] = '$a in ritardo';
 $string['maximumgrade'] = 'Voto massimo';
 $string['maximumsize'] = 'Dimensione massima';
+$string['maxpublishstate'] = 'Visibilità max. del blog post prima della data di consegna';
 $string['modulename'] = 'Compito';
 $string['modulenameplural'] = 'Compiti';
 $string['newsubmissions'] = 'Compiti consegnati';
 $string['noassignments'] = 'Non ci sono ancora compiti';
 $string['noattempts'] = 'Ancora nessuna consegna per questo compito';
+$string['noblogs'] = 'Non hai blog post da consegnare!';
 $string['nofiles'] = 'Nessun file consegnato';
 $string['nofilesyet'] = 'Nessun file ancora consegnato';
 $string['nomoresubmissions'] = 'Non sono consentite ulteriori consegne.';
@@ -102,6 +105,7 @@ $string['quickgrade'] = 'Abilita valutazione rapida';
 $string['responsefiles'] = 'File di replica';
 $string['reviewed'] = 'Rivisto';
 $string['saveallfeedback'] = 'Salva tutte le mie risposte';
+$string['selectblog'] = 'Seleziona il blog post che desideri consegnare';
 $string['sendformarking'] = 'Segnala il completamento della consegna';
 $string['showrecentsubmissions'] = 'Visualizza consegne recenti';
 $string['submission'] = 'Consegna';
@@ -116,6 +120,7 @@ $string['submitformarking'] = 'Consegna finale per valutazione';
 $string['submitted'] = 'Consegnato';
 $string['submittedfiles'] = 'File consegnati';
 $string['trackdrafts'] = 'Abilita Segnalazione consegna completata';
+$string['typeblog'] = 'Blog post';
 $string['typeoffline'] = 'Compito Offline';
 $string['typeonline'] = 'Compito Online';
 $string['typeupload'] = 'Consegna multipla';
@@ -132,6 +137,7 @@ $string['uploadnotregistered'] = '\'$a\' è stato trasferito ma la registrazione
 $string['uploadsuccess'] = 'Caricamento di \'$a\' avvenuto con successo';
 $string['usermisconf'] = 'L\'utente è mal configurato';
 $string['viewfeedback'] = 'Vedi valutazioni del compito e relativo commento';
+$string['viewmysubmission'] = 'Visualizza le mie consegne';
 $string['viewsubmissions'] = 'Vedi $a compiti consegnati';
 $string['yoursubmission'] = 'La tua consegna';
 $string['cannotinsertempty'] = 'La consegna non può essere vuota'; // ORPHANED

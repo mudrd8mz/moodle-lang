@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091014) (2009100605)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -8,6 +8,7 @@ $string['adminseesall'] = 'Eventi degli amministratori';
 $string['adminseesallevents'] = 'Gli amministratori visualizzano tutti gli eventi';
 $string['adminseesownevents'] = 'Gli amministratori visualizzano solo i propri eventi';
 $string['advancedfeatures'] = 'Funzionalità avanzate';
+$string['allcountrycodes'] = 'Tutti i codici nazione';
 $string['allowbeforeblock'] = 'L\'elenco degli indirizzi autorizzati sarà elaborato per primo';
 $string['allowbeforeblockdesc'] = 'Per default l\'elenco degli IP bloccati viene elaborato per primo. Se abilitate questa opzione, allora sarà elaborato per primo l\'elenco degli IP autorizzati.';
 $string['allowcategorythemes'] = 'Consenti la scelta dei temi per le categorie';
@@ -438,6 +439,7 @@ $string['enablegroupings'] = 'Abilita raggruppamenti';
 $string['enablehtmlpurifier'] = 'Abilita HTML Purifier';
 $string['enablerecordcache'] = 'Abilita Cache dei record';
 $string['enablerssfeeds'] = 'Abilita feed RSS';
+$string['enablesafebrowserintegration'] = 'Abilita integrazione Safe Exam Browser';
 $string['enablestats'] = 'Abilita statistiche';
 $string['enabletrusttext'] = 'Abilita Contenuto Affidabile';
 $string['enablewebservices'] = 'Abilita Web service';
@@ -551,8 +553,6 @@ $string['iplookupinfo'] = 'Per default Moodle usa il server online gratuito NetG
 Le località degli indirizzi IP sono mostrate su una semplice mappa o usando Google Maps. Notare che bisogna avere un Google account e richiedere una Google Maps API key gratuita per abilitare le mappe interattive.';
 $string['iplookupmaxmindnote'] = 'Questo prodotto include dati GeoLite creati da MaxMind, disponibili su <a href=\"http://www.maxmind.com/\">http://www.maxmind.com/</a>.';
 $string['iplookupnetgeonote'] = 'Al momento è utilizzato il server NetGeo per la ricerca delle informazioni geografiche. Per ottenere risultati più accurati si raccomanda l\'installazione locale di una copia del MaxMind GeoLite database.';
-$string['ipwhitelist'] = 'IP whitelist';
-$string['ipwhitelistdesc'] = 'Se compilato, solo gli IP qui specificati saranno autorizzati ad usare i Web service con lo username: <strong>$a->username</strong>';
 $string['keeptagnamecase'] = 'Caratteri nomi Tag originali';
 $string['lang'] = 'Lingua di default';
 $string['lang16notify'] = 'Moodle 1.6 e le versioni successive permettono di installare e aggiornare i language pack direttamente da download.moodle.org seguendo il link sottostante.';
@@ -596,7 +596,6 @@ $string['maintfileopenerror'] = 'Errore aprendo i file di manutenzione!';
 $string['maintinprogress'] = 'Manutenzione in corso...';
 $string['managelang'] = 'Gestione';
 $string['manageqtypes'] = 'Gestione tipi domande';
-$string['managews'] = 'Gestisci i web service';
 $string['maxbytes'] = 'Dimensione massima upload';
 $string['maxconsecutiveidentchars'] = 'Caratteri identici consecutivi';
 $string['maxeditingtime'] = 'Tempo massimo per l\'editing dei messaggi';
@@ -693,6 +692,7 @@ $string['php50restricted'] = 'PHP 5.0.x ha diversi problemi conosciuti, si prega
 $string['phpfloatproblem'] = 'E\' stato rilevato un problema inatteso durante l\'utilizzo di numeri a virgola mobile tramite PHP - $a';
 $string['pleaserefreshregistration'] = 'Questo sito è stato registrato con moodle.org. Ricorda di aggiornare la registrazione se sono state apportate modifiche significative dall\'ultimo aggiornamento, avvenuto il $a';
 $string['pleaseregister'] = 'Registrando il vostro sito questo pulsante verrà  rimosso';
+$string['plugin'] = 'Plugin';
 $string['plugins'] = 'Plugin';
 $string['profilecategory'] = 'Categoria';
 $string['profilecategoryname'] = 'Nome categoria (deve essere unico)';
@@ -950,10 +950,13 @@ $string['verifychangedemail'] = 'Controlla i domini quando si cambia l\'email';
 $string['warningcurrentsetting'] = 'Valore corrente non valido: $a';
 $string['webproxy'] = 'Proxy web';
 $string['webproxyinfo'] = 'Usate le impostazioni seguenti se il vostro server Moodle non può accedere direttamente ad Internet. L\'accesso ad Internet è necessario per scaricare dati di ambiente, language pack, feed RSS, timezone, eccetera.<br /><em>L\'estensione PHP cURL è fortemente raccomandata.</em>';
-$string['webservices'] = 'Web service';
 $string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlrpc è utile per le funzionalità del Moodle Networking.';
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
 $string['ziprequired'] = 'Ora Moodle richiede l\'estensione Zip PHP. Gli eseguibili info-ZIP o la libreria PclZip non è più utilizzata.';
+$string['ipwhitelist'] = 'IP whitelist'; // ORPHANED
+$string['ipwhitelistdesc'] = 'Se compilato, solo gli IP qui specificati saranno autorizzati ad usare i Web service con lo username: <strong>$a->username</strong>'; // ORPHANED
+$string['managews'] = 'Gestisci i web service'; // ORPHANED
+$string['webservices'] = 'Web service'; // ORPHANED
 $string['webserviceprotocols'] = 'Server web service'; // ORPHANED
 $string['webservicesystemsettings'] = 'impostazioni comuni'; // ORPHANED
 $string['webserviceusersettings'] = 'Impostazioni web service degli utenti'; // ORPHANED

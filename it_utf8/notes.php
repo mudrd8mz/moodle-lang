@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // notes.php - created with Moodle 2.0 dev (Build: 20081114) (2008111200)
+      // notes.php - created with Moodle 2.0 dev (Build: 20091014) (2009100605)
 
 
 $string['addnewnote'] = 'Aggiungi una annotazione';
-$string['addnewnoteselect'] = 'Scegli gli utenti su cui scrivere annotazioni';
+$string['addnewnoteselect'] = 'Seleziona gli utenti sui quali scrivere l\'annotazione';
 $string['bynameondate'] = 'di $a->name - $a->date';
 $string['cannotdeletepost'] = 'Si è verificato un errore durante l\'eliminazione dell\'annotazione.';
 $string['configenablenotes'] = 'Permette di scrivere annotazioni sugli utenti';
@@ -13,7 +13,7 @@ $string['coursenotes'] = 'Annotazioni corso';
 $string['created'] = 'creata';
 $string['deleteconfirm'] = 'Confermi l\'eliminazione?';
 $string['deletenotes'] = 'Elimina tutte le annotazioni';
-$string['editnote'] = 'Modifica annoatzione';
+$string['editnote'] = 'Modifica annotazione';
 $string['enablenotes'] = 'Abilita annotazioni';
 $string['groupaddnewnote'] = 'Aggiungi una nuova annotazione per tutti';
 $string['invalidid'] = 'E\' stato indicato una ID errata dell\'annotazione';
