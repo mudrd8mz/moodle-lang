@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // tag.php - created with Moodle 1.9 (2007101509)
 
 
 $string['addedotag'] = '\"$a\" rasmiy teg(belgi) sifatida qo\'shildi(kiritildi)';
@@ -44,7 +44,6 @@ $string['tagsaredisabled'] = 'O\'chirilgan Teg(Belgi)lar';
 $string['tagtype'] = 'Teg(Belgi)turi(tipi)';
 $string['tagtype_default'] = 'Jim turgan holatda teg(belgi) turi';
 $string['tagtype_official'] = 'Rasmiy';
-$string['thingstaggedwith'] = '\"$a->name\" bilan belgi(tegg)langan narsalarni $a->count';
 $string['thistaghasnodesc'] = 'Bu teg(belgi)ni hozir tarifi yo\'q';
 $string['timemodified'] = 'O\'zgartirildi(o\'zgargan)';
 $string['typechanged'] = 'Teg (belgi)turi o\'zgartirilgan(o\'zgargan)';

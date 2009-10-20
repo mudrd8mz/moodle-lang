@@ -1,7 +1,4 @@
-<?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9 (2007101509)
-
-
+<?php
 $string['auth_dbdescription'] = 'Bu uslubda login/parol juftligini tyekshirish uchun tashqi ma\'lumotlar bazasi qo\'llaniladi.  Yangi ro\'yxat yozuvi yaratish jarayonida maydonchalardagi ma\'lumotlar tizimga ko\'chirilishi mumkin.';
 $string['auth_dbextrafields'] = '<p> Bu qo\'shimcha maydonchalar.  Bu yerda ko\'rsatilgan tashqi ma\'lumotlar bazasi maydonchalaridan olingan ma\'lumotlar bilan ba\'zi foydalanuvchi maydonchalarining dastlabki to\'ldirilishini tanlashingiz mumkin. </p><p> sukunat bo\'yicha sozlashlarda, maydonchalar to\'ldirilmaydi.</p><p> Har qanday holda, foydalanuvchi tizimga kirgandan so\'ng barcha maydonchalarni tahrir qilishi mumkin.</p>';
 $string['auth_dbfieldpass'] = 'Parolni o\'z ichiga olgan maydoncha nomi';

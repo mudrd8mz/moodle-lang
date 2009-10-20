@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // wiki.php - created with Moodle 1.9 (2007101509)
 
 
 $string['action'] = '-- Amal --';
@@ -124,7 +124,6 @@ $string['ownerunknown'] = 'noma\'lum';
 $string['pageactions'] = 'Sahifalar uchun amallar';
 $string['pageindex'] = 'Sahifalar ro\'yxati';
 $string['pageinfo'] = 'Sahifa to\'g\'risida ma\'lumot';
-$string['pagelocked'] = '<p><strong>Bu sahifa $a->name tomonidan tahrirlanmoqga.</strong> Ular tahrirlashni $a->since and gacha oynani $a->seen sifatida ochilgan.</p><p>Siz bu sahifani tahrirlashingiz mumkin faqat ular yakunlab bo\'lgach.</p>';
 $string['pagename'] = 'Sahifa nomi';
 $string['pagenamechoice'] = '- yoki -';
 $string['pageslinkingto'] = 'Ma\'lumotlarga yo\'naltiruvchi sahifalar';

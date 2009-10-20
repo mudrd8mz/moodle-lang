@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // data.php - created with Moodle 1.9.2 (Build: 20080711) (2007101520)
 
 
 $string['action'] = 'Amal';
@@ -23,7 +23,6 @@ $string['availabletags'] = 'maqbul teglar(belgilar)';
 $string['availabletodate'] = 'gasha mumkin';
 $string['blank'] = 'Blanka';
 $string['buttons'] = 'Tugmalar';
-$string['bynameondate'] = '$a->name- $a->date bo\'yicha';
 $string['cancel'] = 'Bekor qilish';
 $string['checkbox'] = 'Belgilar(yorliqlar)';
 $string['chooseorupload'] = 'Faylni tanlash';
@@ -218,7 +217,6 @@ $string['sendinratings'] = 'Mening so\'nggi reytingimni jo\'nating';
 $string['showall'] = 'Barcha yozuvlarni ko\'rsatish';
 $string['single'] = 'Bittadan yozuvni ko\'rish uslubi';
 $string['singletemplate'] = 'Bir yozuvli shablon';
-$string['teachersandstudents'] = '$a->teachers va $a->students';
 $string['templates'] = 'Shablonlar(Andozalar)';
 $string['templatesaved'] = 'Shablon saqlandi';
 $string['text'] = 'Matn';

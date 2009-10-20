@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // lesson.php - created with Moodle 1.9 (2007101509)
 
 
 $string['accesscontrol'] = 'Ruxsat nazorati';
@@ -97,7 +97,6 @@ $string['enterpassword'] = 'Iltimos, parolni kiriting:';
 $string['eolstudentoutoftime'] = 'Diqqat! Darsni o\'tish vaqti tugadi, shuning uchun ohirgi javobingiz, ajratilgan vaqt mobaynida berilmagan bo\'lsa, hisobga olinmagan bo\'lishi mumkin.';
 $string['eolstudentoutoftimenoanswers'] = 'Siz birorta ham savolga javob bermadingiz. Darsga 0 oldingiz.';
 $string['essay'] = 'Esse';
-$string['essayemailmessage'] = '<p>Esse eslatmasi:<blockquote>$a->question</blockquote></p><p>Sizning javobingiz:<blockquote><em>$a->response</em></blockquote></p><p>$a->teacher taqrizlari:<blockquote><em>$a->comment</em></blockquote></p><p>Siz oldingiz $a->earned out of $a->outof bu esse savoli uchun.</p><p>Sizni bu dars uchun bahoingiz $a->newgrade&#37;ga o\'zgartirilgan.</p>';
 $string['essayemailsubject'] = '$a savolga sizning bahoingiz';
 $string['essays'] = 'Esse';
 $string['essayscore'] = 'Esse uchun ballar';
@@ -298,7 +297,6 @@ $string['youhaveseen'] = 'Bu dars ustida avval ishlagansiz.<br /> To\'xtagan joy
 $string['youmadehighscore'] = 'Yuqori natijalar ro\'yxatiga olib chiqdingiz';
 $string['youranswer'] = 'Javobingiz';
 $string['yourcurrentgradeis'] = 'Sizning joriy bahongiz - $a';
-$string['yourcurrentgradeisoutof'] = 'Sizning jami $a->grade dan shu lahzadagi bahoingiz $a->total';
 $string['youshouldview'] = 'Siz hech bo\'lmaganda ko\'zdan kechirib chiqishingiz kerak: $a';
 $string['backtreeview'] = 'Dars tuzilmasiga qaytish'; // ORPHANED
 $string['deleteattempts'] = 'talabaning bu darsni o\'tishga urinishlarini o\'chirib yuborish (talaba loginini kiriting)'; // ORPHANED

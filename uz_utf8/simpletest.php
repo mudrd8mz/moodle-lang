@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 2.0 dev (Build: 20081018) (2008101300)
+      // simpletest.php - created with Moodle 1.9 (2007101509)
 
 
 $string['all'] = 'Hamma';
@@ -23,9 +23,7 @@ $string['rununittests'] = 'Bo\'lim testlarini yuklash(ishga tushirish)';
 $string['showpasses'] = 'Ham o\'tgan ham yiqilganliklarni ko\'rsatish';
 $string['showsearch'] = 'Test fayllarni qidiruvini ko\'rsatish';
 $string['stacktrace'] = 'Topilganlarni jamlash';
-$string['summary'] = '{$a->run}/{$a->total} test holatlari yakunlandi: <strong>{$a->passes}</strong> o\'tgan, <strong>{$a->fails}</strong> yiqilganlar va <strong>{$a->exceptions}</strong> mustasnolar.';
 $string['thorough'] = 'To\'liq testni yuklash( sekin bo\'lishi mumkin)';
-$string['uncaughtexception'] = 'Tutub bo\'lmas mustasnolar[{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}] TESTLAR BEKOR QILINDI.';
 $string['unittests'] = 'Bo\'lim testlari';
 $string['version'] = 'Foydalanib<a href=\"http://sourceforge.net/projects/simpletest/\">Oddiy Test</a> versiyasi $a.';
 
