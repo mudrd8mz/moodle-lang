@@ -1,27 +1,47 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20091020) (2009100605)
 
 
-$string['activated'] = 'Attivate';
-$string['activatedfunctions'] = 'Funzioni attivate';
-$string['amfdebug'] = 'Modalità debug server AMF';
-$string['clicktoactivate'] = 'Click per attivare';
-$string['clicktodeactivate'] = 'Click per disattivare';
-$string['component'] = 'Componente';
-$string['createservicelabel'] = 'Crea un servizio personalizzato';
-$string['custom'] = 'Personalizzato';
-$string['debugdisplayon'] = '\"Display debug messages\" è impostato ad On. Il server XMLRPC non funzionerà. Anche gli altri server web service potrebbero avere problemi.<br/>Avvertite l\'amministratore di impostare \"Display debug messages\" ad Off.';
+$string['actwebserviceshhdr'] = 'Procolli Web service disponibili';
+$string['addfunction'] = 'Aggiungi funzione';
+$string['configwebserviceplugins'] = 'Per motivi di sicurezza, abilitate solamente i protocolli realmente necessari.';
+$string['emptyname'] = 'Il nome del servizio è obbligatorio.';
 $string['enabled'] = 'Abilitato';
-$string['fail'] = 'FAIL';
-$string['functionlist'] = 'elenco funzioni web service';
-$string['functionname'] = 'Nome della funzione';
-$string['moodlepath'] = 'Percorso Moodle';
-$string['ok'] = 'OK';
-$string['protocolenable'] = 'abilitazione protocollo $a[0]';
-$string['protocols'] = 'Protocolli';
-$string['save'] = 'Salva';
-$string['servicelist'] = 'Servizi';
+$string['externalservice'] = 'Servizio esterno';
+$string['externalservices'] = 'Servizi esterni';
+$string['externalserviceusers'] = 'Utenti del servizio esterno';
+$string['function'] = 'Funzione';
+$string['functions'] = 'Funzioni';
+$string['manageprotocols'] = 'Gestione protocolli';
+$string['potusers'] = 'Utenti non autorizzati';
+$string['protocol'] = 'Protocollo';
+$string['requiredcapability'] = 'Privilegi richiesti';
+$string['saveservice'] = 'Salva servizio';
 $string['servicename'] = 'Nome del servizio';
+$string['servicesbuiltin'] = 'Servizi predefiniti';
+$string['servicescustom'] = 'Servizi personalizzati';
+$string['serviceusers'] = 'Utenti autorizzati';
+$string['test'] = 'Test';
+$string['testclient'] = 'Client test';
+$string['webservices'] = 'Web service';
+$string['activated'] = 'Attivate'; // ORPHANED
+$string['activatedfunctions'] = 'Funzioni attivate'; // ORPHANED
+$string['amfdebug'] = 'Modalità debug server AMF'; // ORPHANED
+$string['clicktoactivate'] = 'Click per attivare'; // ORPHANED
+$string['clicktodeactivate'] = 'Click per disattivare'; // ORPHANED
+$string['component'] = 'Componente'; // ORPHANED
+$string['createservicelabel'] = 'Crea un servizio personalizzato'; // ORPHANED
+$string['custom'] = 'Personalizzato'; // ORPHANED
+$string['debugdisplayon'] = '\"Display debug messages\" è impostato ad On. Il server XMLRPC non funzionerà. Anche gli altri server web service potrebbero avere problemi.<br/>Avvertite l\'amministratore di impostare \"Display debug messages\" ad Off.'; // ORPHANED
+$string['fail'] = 'FAIL'; // ORPHANED
+$string['functionlist'] = 'elenco funzioni web service'; // ORPHANED
+$string['functionname'] = 'Nome della funzione'; // ORPHANED
+$string['moodlepath'] = 'Percorso Moodle'; // ORPHANED
+$string['ok'] = 'OK'; // ORPHANED
+$string['protocolenable'] = 'abilitazione protocollo $a[0]'; // ORPHANED
+$string['protocols'] = 'Protocolli'; // ORPHANED
+$string['save'] = 'Salva'; // ORPHANED
+$string['servicelist'] = 'Servizi'; // ORPHANED
 $string['soapdocumentation'] = '<H2>Manuale SOAP</H2>
 <b>1.</b> Chiamate il metodo <b>tmp_get_token</b> su \"<i>http://remotemoodle/webservice/soap/server.php?wsdl</i>\"<br>
 Il parametro è un array: ad esempio, in PHP array(\"username\" => \"wsuser\", \"password\" => \"wspassword\")<br>
@@ -34,15 +54,15 @@ Un esempio di chiamata in PHP:<br>
 Percorso Moodle: <b>user</b><br>
 <b>tmp_delete_user</b>( string username , integer mnethostid )<br>
 Esempio di chiamata:<br>
-your_client->tmp_delete_user(array(\"username\" => \"username_to_delete\",\"mnethostid\" => 1))<br><br>';
-$string['systemsettings'] = 'Impostazioni comuni';
-$string['user'] = 'Utente';
-$string['usersettings'] = 'Utenti con privilegi per web service';
-$string['webservicesenable'] = 'Abilitazione web service';
-$string['wsdeletefunction'] = 'La funzione <b>$a->functionname</b> è stata eliminata dal servizio <b>$a->servicename</b>.';
-$string['wsinsertfunction'] = 'La funzione <b>$a->functionname</b> è stata aggiunta al servizio <b>$a->servicename</b>.';
-$string['wspagetitle'] = 'Documentazione web service';
-$string['wsuserreminder'] = 'Promemoria: l\'amministratore Moodle di questo sito dovrà darti il privilegio moodle/site:usewebservices.';
+your_client->tmp_delete_user(array(\"username\" => \"username_to_delete\",\"mnethostid\" => 1))<br><br>'; // ORPHANED
+$string['systemsettings'] = 'Impostazioni comuni'; // ORPHANED
+$string['user'] = 'Utente'; // ORPHANED
+$string['usersettings'] = 'Utenti con privilegi per web service'; // ORPHANED
+$string['webservicesenable'] = 'Abilitazione web service'; // ORPHANED
+$string['wsdeletefunction'] = 'La funzione <b>$a->functionname</b> è stata eliminata dal servizio <b>$a->servicename</b>.'; // ORPHANED
+$string['wsinsertfunction'] = 'La funzione <b>$a->functionname</b> è stata aggiunta al servizio <b>$a->servicename</b>.'; // ORPHANED
+$string['wspagetitle'] = 'Documentazione web service'; // ORPHANED
+$string['wsuserreminder'] = 'Promemoria: l\'amministratore Moodle di questo sito dovrà darti il privilegio moodle/site:usewebservices.'; // ORPHANED
 $string['xmlrpcdocumentation'] = '<H2>Manual XMLRPC</H2>
 <b>1.</b> Chiamate il metodo  <b>authentication.tmp_get_token</b> su \"<i>http://remotemoodle/webservice/xmlrpc/server.php</i>\"<br>
 Il parametro è un array: ad esempio, in PHP array(\"username\" => \"wsuser\", \"password\" => \"wspassword\")<br>
@@ -55,6 +75,6 @@ Un esempio di chiamata in PHP:<br>
 Moodle path: <b>user</b><br>
 <b>tmp_delete_user</b>( string username , integer mnethostid )<br>
 Esempio di chiamata:<br>
-your_client->call(\"user.tmp_delete_user\", array(array(\"username\" => \"username_to_delete\",\"mnethostid\" => 1)))<br>';
+your_client->call(\"user.tmp_delete_user\", array(array(\"username\" => \"username_to_delete\",\"mnethostid\" => 1)))<br>'; // ORPHANED
 
 ?>

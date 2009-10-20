@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20091020) (2009100605)
 
 
 $string['addfeed'] = 'Aggiungi un URL di feed news:';
@@ -17,6 +17,7 @@ $string['configblock'] = 'Configura questo blocco';
 $string['couldnotfindfeed'] = 'Non ho trovato il feed tramite l\'id';
 $string['customtitlelabel'] = 'Titolo personalizzato (lasciare in bianco per usare il titolo del feed originario):';
 $string['deletefeedconfirm'] = 'Sei sicuro di voler cancellare questo feed?';
+$string['disabledrssfeeds'] = 'I feed RSS sono disabilitati';
 $string['displaydescriptionlabel'] = 'Mostra descrizione per ogni link?';
 $string['editafeed'] = 'Modifica un feed';
 $string['editfeeds'] = 'Modificare, sottoscrivere o revocare l\'iscrizione al feed news RSS/Atom';

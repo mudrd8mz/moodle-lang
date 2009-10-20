@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
+      // data.php - created with Moodle 2.0 dev (Build: 20091020) (2009100605)
 
 
 $string['action'] = 'Azione';
@@ -202,6 +202,7 @@ $string['nomaximum'] = 'Senza limite massimo';
 $string['norating'] = 'Questa attività non utilizza le valutazioni';
 $string['norecords'] = 'Nessun record è presente nel Database';
 $string['nosingletemplate'] = 'Il modello di visualizzazione \"Dettagli\" non è stato ancora impostato';
+$string['notapproved'] = 'Il record inserito è in attesa di essere approvato.';
 $string['notinjectivemap'] = 'Non è una mappa \'injective\'';
 $string['number'] = 'Numero';
 $string['numberrssarticles'] = 'Numero di record da mostrare nel feed RSS';

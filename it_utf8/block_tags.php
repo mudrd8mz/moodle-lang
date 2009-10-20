@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tags.php - created with Moodle 2.0 dev (Build: 20090223) (2009021800)
+      // block_tags.php - created with Moodle 2.0 dev (Build: 20091020) (2009100605)
 
 
 $string['add'] = 'Aggiungi';
@@ -13,6 +13,7 @@ $string['communitytags2'] = 'Visualizza tutti i tag creati dagli utenti in quest
 $string['coursetags'] = 'Tag del corso:';
 $string['coursetags1'] = 'tag del corso';
 $string['coursetags2'] = 'Visualizza i tag di questo corso';
+$string['disabledtags'] = 'I tag sono disabilitati';
 $string['edit'] = 'modifica...';
 $string['editdeletemytag'] = 'Elimina tag di questo corso';
 $string['editmytags'] = 'I miei tag - scorciatoia per i corsi nei quali hai aggiunto tag';
