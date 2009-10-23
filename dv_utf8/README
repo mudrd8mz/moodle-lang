@@ -1,0 +1,16 @@
+README!
+
+
+
+Country:	Maldives
+Language:	Dhivehi
+
+
+Translators:
+	Ahmed Shareef	(can_i_be@hotmail.com)
+	Moosa Ali	(moosa.ali@hotmail.com)
+	Amir Hussein	(amir.hussein@live.com)
+
+
+
+Note: The language pack includes a file named 'moodlelib.php'. You need to move this file to www/lib and overwrite the existing file IF you want the month names to work. Since locale for Dhivehi is not available for all Operating Systems, the file 'moodlelib.php' has been modified to translate the month names instead of setting configuration in langconfig.php.

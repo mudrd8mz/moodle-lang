@@ -1,0 +1,34 @@
+<?php
+$string['asynchronous'] = 'އެސިންކޮރޮނަސް (އެޖެކްސް)';
+$string['blockname'] = 'ގްލޯބަލް ސަރޗް';
+$string['blockssearchswitches'] = 'ބޮލޮކްތަކަށް އިންޑެކްސަރ އެކްޓިވޭޓްކުރާބައި';
+$string['blockssearchmnetfeatures'] = 'މޫޑުލް ނެޓްވަރކް ސަރޗް';
+$string['bytes'] = 'ބައިޓްސް (0 އިން ނަމަ މިނެއް ކަނޑައެޅިފައެއްނެތް)';
+$string['configbuttonlabel'] = 'ބަޓްންގެ ލޭބަލް';
+$string['configenablefileindexing'] = 'ފައިލް އިންޑިކްސް ކުރެވޭގޮތަށް ހަދަން';
+$string['configfiletypes'] = 'ފާސްކުރެވުނު ފައިލް އެކިއެކި ބާވަތްތައް';
+$string['configlimitindexbody'] = 'އިންޑެކްސް ކުރެވިފައިވާ ބައިގެ ސައިޒް މިންގަނޑުތައް';
+$string['configpdftotextcmd'] = 'ޕީޑީއެފެޓުޓެކްސްޓް ކޮމާންޑުގެ ޕާރތު';
+$string['configsearchtext'] = 'ޓެކްސްޓް ސަރޗްކުރަން';
+$string['configtypetotxtcmd'] = 'ކޮންވަރޓަރުގެ ކޮމާންޑްލައިން';
+$string['configtypetotxtenv'] = 'ކޮންވަރޓަރަށް ބޭނުންވާ އެންވަޔަރަމަންޓް ބަޔާން';
+$string['configusingsoftlock'] = 'ސޮފްޓްވެއަރ އިންޓަރލޮކިންގް (އެންއެފްއެސް މައުންޓްކުރެވިފަހުރި ކްލަސްޓަރުތަކަށް)';
+$string['configutf8transcoding'] = 'ޔޫޓީއެފް-8 ޓްރާންސްކޯޑިންގެ ނަތީޖާގެ ދިމާ';
+$string['configwordtotextcmd'] = 'ޑޮކްޓުޓެކްސްޓް ކޮމާންޑުގެ ޕާރތު';
+$string['configwordtotextenv'] = 'އެމްއެސްވަރޑަށް ހެދެން ހުރި ސެޓިންގްސް';
+$string['disabled'] = 'ޑިސްއޭބަލް ކުރެވިފަ';
+$string['disabledsearch'] = 'ގްލޯބަލް ސަރޗް އިންޖީން އިނީ ނިވާލާފަ، އެކަން އެޑުމިނިސްޓްރޭޓަރަށް އަންގަވާ.';
+$string['enabled'] = 'އެނޭބަލް ކުރެވިފަ';
+$string['go'] = 'ކުރިޔަށް';
+$string['handlingfor'] = 'އިތުރަށް ފަރުވާތެރިވާންވީ ';
+$string['modulessearchswitches'] = 'މޮޑިއުލްތަކަށް އިންޑެކްސް އެކްޓިވޭޓްކުރާބައި';
+$string['nosearchableblocks'] = 'ސަރޗް ކުރެވޭ ބްލޮކެއްނެތް';
+$string['nosearchablemodules'] = 'ސަރޗް ކުރެވޭ މޮޑިއުލެއްނެތް';
+$string['pdfhandling'] = 'އެކްރޮބެޓް ޕީޑީއެފް ގެންގުޅެން';
+$string['search'] = 'ސަރޗް';
+$string['searchdiscovery'] = 'ސަރޗް ކުރެވޭ ބައިތައް ހޯދަން';
+$string['searchmoodle'] = 'މޫޑުލް ސަރޗް ކުރަން';
+$string['synchronous'] = 'ސިންކްރޮނަސް';
+$string['usemoodleroot'] = 'އެކްސްޓަރނަލް ކޮންވަރޓަރުތަކަށް ބޭނުންކުރަންވީ މޫޑުލް ރޫޓް';
+$string['wordhandling'] = 'މައިކްރޮސޮފްޓް ވަރޑް ގެންގުޅެން';
+?>

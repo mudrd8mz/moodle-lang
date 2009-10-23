@@ -1,0 +1,40 @@
+<?php
+$string['actfilterhdr'] = 'އެކްޓިވް ފިލްޓަރސް';
+$string['addfilter'] = 'ފިލްޓަރެއް އިތުރުކުރަން';
+$string['anycategory'] = 'ކޮންމެ ކެޓަގަރީއެއް';
+$string['anycourse'] = 'ކޮންމެ ކޯހެއް';
+$string['anyfield'] = 'ކޮންމެ ފީލްޑެއް';
+$string['anyrole'] = 'ކޮންމެ ރޯލެއް';
+$string['anyvalue'] = 'ކޮންމެ އަދަދެއް';
+$string['categoryrole'] = 'ކެޓަގަރީ ރޯލް';
+$string['tablenosave'] = 'މަތީގައިވާ ތާވަލަށް އައިބަދަލުށް ވަނީ އޮޓޮމެޓިކުން ސޭވްކުރެވިފަ';
+$string['contains'] = 'ހިމެނެނީ';
+$string['courserole'] = 'ކޯހުގެ ރޯލު';
+$string['courserolelabel'] = ' $a->label އަކީ $a->rolename  $a->coursename ން  $a->categoryname އިން';
+$string['courserolelabelerror'] = ' $a->label މައްސަލަ: ކޯސް $a->coursename ނުފެނުނު';
+$string['datelabelisafter'] = ' $a->label އަކީ ފަހުން $a->after';
+$string['datelabelisbefore'] = ' $a->label އަކީ ކުރިން $a->before';
+$string['datelabelisbetween'] = ' $a->label އަކީ ދެމެދު $a->after އާއި $a->before';
+$string['doesnotcontain'] = 'ނުހިމެނޭ';
+$string['endswith'] = 'ނިންމިފަ ވަނީ';
+$string['firstaccess'] = 'ފުރަތަމަ ވަނީ';
+$string['globalrolelabel'] = '$a->label އަކީ $a->value';
+$string['isanyvalue'] = 'އަކީ ކޮންމެ އަދަދެއް';
+$string['isafter'] = 'އިނީ ފަހުން';
+$string['isbefore'] = 'އިނީ ކުރިން';
+$string['isdefined'] = 'އިނީ ބަޔާންވެފަ';
+$string['isempty'] = 'އިނީ ހުސްކޮށް';
+$string['isequalto'] = 'އެއްވަރުވަނީ';
+$string['isnotequalto'] = 'އެއްވަރުނުވަނީ';
+$string['isnotdefined'] = 'ބަޔާންނުވެވަނީ';
+$string['newfilter'] = 'އައު ފިލްޓަރ';
+$string['profilelabel'] = ' $a->label: $a->profile $a->operator $a->value';
+$string['profilelabelnovalue'] = ' $a->label: $a->profile $a->operator';
+$string['removeall'] = 'ހުރިހާ ފިލްޓަރެއް ފުހެލަން';
+$string['removeselected'] = 'ޚިޔާރު ކުރެވިފަ ހުރި ބައިތައް ފުހެލަން';
+$string['selectlabel'] = ' $a->label $a->operator $a->value';
+$string['startswith'] = 'ފެށިފަ އިނީ';
+$string['textlabel'] = ' $a->label $a->operator $a->value';
+$string['textlabelnovalue'] =  '$a->label $a->operator';
+
+?>
