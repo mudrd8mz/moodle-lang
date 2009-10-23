@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // assignment.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['allowdeleting'] = 'Ezabatzen utzi';
@@ -12,6 +12,7 @@ $string['assignment:exportsubmission'] = 'Esportatu bidalketa';
 $string['assignment:grade'] = 'Zeregina kalifikatu';
 $string['assignment:submit'] = 'Zeregina bidali';
 $string['assignment:view'] = 'Zeregina ikusi';
+$string['assignmentadministration'] = 'Zereginen kudeaketa';
 $string['assignmentdetails'] = 'Zereginaren xehetasunak';
 $string['assignmentmail'] = '$a->teacher(e)k erantzun egin dio zure bidalketari ondorengo zereginean: \'$a->assignment\'.
 
@@ -23,7 +24,6 @@ $string['assignmentname'] = 'Zereginaren izena';
 $string['assignmenttype'] = 'Zeregin-mota';
 $string['availabledate'] = 'Noiztik aurrera eskuragarri';
 $string['cannotdeletefiles'] = 'Errorea gertatu da eta fitxategiak ezin dira ezabatu';
-$string['cannotinsertempty'] = 'Ezin da txertatu beste bidalketa huts bat';
 $string['cannotviewassignment'] = 'Ein duzu zeregin hau ikusi';
 $string['comment'] = 'Iruzkina';
 $string['commentinline'] = 'Lerro arteko iruzkina';
@@ -31,6 +31,7 @@ $string['configitemstocount'] = 'Ikasleek on-line eginkizunetako bidalketetan ko
 $string['configmaxbytes'] = 'Guneko eginkizun guztietarako berezko gehienezko tamaina (ikastaroaren mugen eta zerbitzariaren beste aldagai batzuen araberakoa)';
 $string['configshowrecentsubmissions'] = 'Duela gutxiko aktibitatearen txostenetan guztiek ikus ditzakete bidalketen jakinarazpenak';
 $string['confirmdeletefile'] = 'Erabat ziur al zaude fitxategi hau ezabatu egin nahi duzula?<br /><strong>$a</strong>';
+$string['coursemisconf'] = 'Ikastaroa ez dago ondo konfiguratuta';
 $string['deleteallsubmissions'] = 'Bidalketa guztiak ezabatu';
 $string['deletefilefailed'] = 'Ezin izan da fitxategia ezabatu';
 $string['description'] = 'Deskribapena';
@@ -79,6 +80,7 @@ $string['modulenameplural'] = 'Zereginak';
 $string['newsubmissions'] = 'Zereginak bidalita';
 $string['noassignments'] = 'Ez dago zereginik oraindik';
 $string['noattempts'] = 'Inor ez da saiatu zeregin honetan oraindik';
+$string['noblogs'] = 'Ez duzu blog-sarrerarik bidaltzeko!';
 $string['nofiles'] = 'Ez da fitxategirik bidali';
 $string['nofilesyet'] = 'Oraindik ez da fitxategirik bidali';
 $string['nomoresubmissions'] = 'Ez da onartzen bestelako bidalketarik';
@@ -97,6 +99,7 @@ $string['quickgrade'] = 'Utzi kalifikazio arinak jartzen';
 $string['responsefiles'] = 'Erantzun-fitxategiak';
 $string['reviewed'] = 'Berrikusia';
 $string['saveallfeedback'] = 'Nire zuzenketa guztiak gorde';
+$string['selectblog'] = 'Aukertu zein blog-sarrera bidali nahi duzun';
 $string['sendformarking'] = 'Kalifikatzeko bidali';
 $string['showrecentsubmissions'] = 'Azken bidalketak erakutsi';
 $string['submission'] = 'Bidalketa';
@@ -111,6 +114,7 @@ $string['submitformarking'] = 'Zeregina bidali kalifikatzeko';
 $string['submitted'] = 'Bidalita';
 $string['submittedfiles'] = 'Fitxategiak bidalita';
 $string['trackdrafts'] = 'Markatzeko bidalketa gaituta';
+$string['typeblog'] = 'Blo-mezua';
 $string['typeoffline'] = 'Lineaz kanpoko zereginak';
 $string['typeonline'] = 'On-line testua';
 $string['typeupload'] = 'Fitxategien igoera aurreratua';
@@ -125,8 +129,11 @@ $string['uploadfiletoobig'] = 'Barkatu, fitxategi hori handiegia da (muga $a byt
 $string['uploadnofilefound'] = 'Ez da fitxategirik aurkitu - ziur baten bat aukeratu duzula igotzeko?';
 $string['uploadnotregistered'] = '\'$a\' ongi igo da, baina bidalketa ez da erregistratu!';
 $string['uploadsuccess'] = '\'$a\' ongi igo da';
+$string['usermisconf'] = 'Erabiltzailea ez dago ondo konfiguratuta';
 $string['viewfeedback'] = 'Zereginen kalifikazioak eta erantzunak ikusi';
+$string['viewmysubmission'] = 'Ikusi nire bidalketa';
 $string['viewsubmissions'] = 'Bidalitako $a zeregin ikusi';
 $string['yoursubmission'] = 'Zure bidalketa';
+$string['cannotinsertempty'] = 'Ezin da txertatu beste bidalketa huts bat'; // ORPHANED
 
 ?>

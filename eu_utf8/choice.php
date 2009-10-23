@@ -1,23 +1,22 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // choice.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addmorechoices'] = 'Aukera gehiago gehitu';
-$string['allowupdate'] = 'Baimendu inkestaren eguneratzea';
+$string['allowupdate'] = 'Inkesta eguneratzen utzi';
 $string['answered'] = 'Erantzunda';
-$string['cannotsavechoice'] = 'Ezin izan da zure aukera gorde';
-$string['cannotupdatechoice'] = 'Ezin da zure aukera eguneratu datu-basean errorea gertatu baita';
 $string['choice'] = '$a aukera';
 $string['choice:choose'] = 'Inkestari erantzun';
 $string['choice:deleteresponses'] = 'Erantzunak ezabatu';
 $string['choice:downloadresponses'] = 'Erantzunak jaitsi';
 $string['choice:readresponses'] = 'Erantzunak irakurri';
+$string['choiceadministration'] = 'Inkestaren kudeaketa';
 $string['choiceclose'] = 'Noiz arte';
 $string['choicefull'] = 'Inkesta hau beteta dago eta ez dago erantzun posible gehiagorik';
 $string['choicename'] = 'Inkestaren izena';
 $string['choiceopen'] = 'Zabaldu';
 $string['choicesaved'] = 'Zure aukera ondo gorde da';
-$string['choicetext'] = 'Inkesta-testua';
+$string['choicetext'] = 'Inkestaren testua';
 $string['displayhorizontal'] = 'Horizontalean erakutsi';
 $string['displaymode'] = 'Erakusteko modua';
 $string['displayvertical'] = 'Bertikalean erakutsi';
@@ -48,12 +47,14 @@ $string['removeresponses'] = 'Erantzun guztiak ezabatu';
 $string['responses'] = 'Erantzunak';
 $string['responsesto'] = 'Erantzunak $a-(r)entzat';
 $string['savemychoice'] = 'Nire inkesta gorde';
-$string['showunanswered'] = 'Erakutsi erantzun gabekoen zutabea';
+$string['showunanswered'] = 'Erantzun gabekoen zutabea erakutsi';
 $string['spaceleft'] = 'espazio erabilgarria';
 $string['spacesleft'] = 'espazio erabilgarriak';
 $string['taken'] = 'Hartuta';
 $string['timerestrict'] = 'Mugatu erantzuteko denbora';
 $string['viewallresponses'] = 'Ikusi $a erantzun';
 $string['yourselection'] = 'Zure aukera';
+$string['cannotsavechoice'] = 'Ezin izan da zure aukera gorde'; // ORPHANED
+$string['cannotupdatechoice'] = 'Ezin da zure aukera eguneratu datu-basean errorea gertatu baita'; // ORPHANED
 
 ?>

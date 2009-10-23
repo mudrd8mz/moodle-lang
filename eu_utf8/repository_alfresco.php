@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // repository_alfresco.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // repository_alfresco.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
+$string['alfresco:view'] = 'Alfresco Biltegia ikusi';
 $string['alfresco_url'] = 'Alfresco-ren URLa';
+$string['alfrescourltext'] = 'Afresco-ren API URLak honelakoa behar luke: http://zuregunea.com/alfresco/api';
 $string['configplugin'] = 'Alfresco-ren ezarpenak';
 $string['notitle'] = 'Izenbururik gabe';
 $string['password'] = 'Pasahitza';

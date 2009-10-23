@@ -5,7 +5,6 @@
 $string['ajax'] = 'Ajax erabiltzen duen bertsioa';
 $string['autoscroll'] = 'Korritze automatikoa';
 $string['beep'] = 'Abisatu';
-$string['cantinsert'] = 'Ezin da txat-mezurik txertatu!';
 $string['cantlogin'] = 'Ezin da sartu txat-gelan!!!';
 $string['chat:chat'] = 'Hitz egin';
 $string['chat:deletelog'] = 'Txataren agerraldiak ezabatu';
@@ -13,6 +12,7 @@ $string['chat:exportparticipatedsession'] = 'Esportatu txat-saioan parte hartuta
 $string['chat:exportsession'] = 'Esportatu txat-saioetako txostenak';
 $string['chat:readlog'] = 'Txataren agerraldiak irakurri';
 $string['chat:talk'] = 'Hitz egin txatean';
+$string['chatadministration'] = 'Txat-kudeaketa';
 $string['chatintro'] = 'Sarrera-testua';
 $string['chatname'] = 'Txat-gela honen izena';
 $string['chatreport'] = 'Txat-saioetako txostenak';
@@ -46,6 +46,7 @@ $string['messagebeepsyou'] = '$a-(e)k dio: Aizu! Hemen nago!';
 $string['messageenter'] = '$a oraintxe sartu da gelan';
 $string['messageexit'] = '$a irten egin da gelatik';
 $string['messages'] = 'Mezuak';
+$string['messageyoubeep'] = 'Zure soinua: $a';
 $string['method'] = 'Txat metodoa';
 $string['methoddaemon'] = 'Txat zerbitzariaren \'daemon\'a';
 $string['methodnormal'] = 'Metodo arrunta';
@@ -82,9 +83,11 @@ $string['serverport'] = 'Zerbitzariaren portua';
 $string['sessions'] = 'Txat-saioetako txostenak';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Denek ikus ditzakete izandako saioetako txostenak';
+$string['talk'] = 'Hitz egin';
 $string['updatemethod'] = 'Metodoa eguneratu';
 $string['updaterate'] = 'Eguneratu kalifikazioa:';
 $string['userlist'] = 'Erabiltzaile-zerrenda';
 $string['viewreport'] = 'Izan diren txat-saioak ikusi';
+$string['cantinsert'] = 'Ezin da txat-mezurik txertatu!'; // ORPHANED
 
 ?>

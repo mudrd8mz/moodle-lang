@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+      // glossary.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addcomment'] = 'Gehitu iruzkina';
@@ -15,7 +15,6 @@ $string['allowprintview'] = 'Inprimatzeko bertsioa aurkezten utzi';
 $string['allowratings'] = 'Sarrerak kalifikatzen utzi?';
 $string['answer'] = 'Azalpena';
 $string['approve'] = 'Onartu';
-$string['areaintro'] = 'Glosategiaren sarrera';
 $string['areyousuredelete'] = 'Ziur al zaude sarrera hau ezabatu nahi duzula?';
 $string['areyousuredeletecomment'] = 'Ziur al zaude iruzkin hau ezabatu nahi duzula?';
 $string['areyousureexport'] = 'Ziur al zaude sarrera hau esportatu nahi duzula?';
@@ -24,12 +23,9 @@ $string['attachment'] = 'Eranskina';
 $string['author'] = 'Egilea';
 $string['authorview'] = 'Egilearen arabera bilatu';
 $string['back'] = 'Atzera';
-$string['cantexportentry'] = 'Ezin da sarrera glosategi nagusira esportatu';
 $string['cantinsertcat'] = 'Ezin da kategoria gehitu';
-$string['cantinsertent'] = 'ezin da sarrera berri hau gehitu';
 $string['cantinsertrec'] = 'Ezin erregistroa gehitu';
 $string['cantinsertrel'] = 'Ezin kategoria-sarrera erlaziorik ezarri';
-$string['cantupdateglossary'] = 'ezin da zure glosategia eguneratu';
 $string['casesensitive'] = 'Sarrera honetan letra larriak eta xeheak bereizten dira';
 $string['cat'] = 'kat';
 $string['categories'] = 'Kategoriak';
@@ -139,6 +135,7 @@ $string['glossary:rate'] = 'Sarrerak kalifikatu';
 $string['glossary:view'] = 'Glosategia ikusi';
 $string['glossary:viewrating'] = 'Kalifikazioak ikusi';
 $string['glossary:write'] = 'Sarrera berriak sortu';
+$string['glossaryadministration'] = 'Glosategi kudeaketa';
 $string['glossaryleveldefaultsettings'] = 'Glosategiaren aldez aurretiko ezarpenak';
 $string['glossarytype'] = 'Glosategi-mota';
 $string['guestnoedit'] = 'Bisitariek ez dute glosategia editatzeko baimenik';
@@ -147,8 +144,6 @@ $string['importedcategories'] = 'Inportatutako kategoriak';
 $string['importedentries'] = 'Inportatutako sarrerak';
 $string['importentries'] = 'Sarrerak inportatu';
 $string['importentriesfromxml'] = 'Sarrerak inportatu XML fitxategi batetik';
-$string['invalidglossaryformat'] = 'Glosategiaren formatu ezegokia';
-$string['invalidid'] = 'Glosategiaren IDa ez da zuzena';
 $string['isglobal'] = 'Glosategi orokorra al da hau?';
 $string['letter'] = 'letra';
 $string['linkcategory'] = 'Automatikoki estekatu nahi duzu kategoria hau?';
@@ -212,5 +207,11 @@ $string['withauthor'] = 'Kontzeptuak eta egilea';
 $string['withoutauthor'] = 'Kontzeptuak egilerik gabe';
 $string['writtenby'] = 'Nork idatzia';
 $string['youarenottheauthor'] = 'Iruzkina ez da zurea; beraz, ezin duzu editatu.';
+$string['areaintro'] = 'Glosategiaren sarrera'; // ORPHANED
+$string['cantexportentry'] = 'Ezin da sarrera glosategi nagusira esportatu'; // ORPHANED
+$string['cantinsertent'] = 'ezin da sarrera berri hau gehitu'; // ORPHANED
+$string['cantupdateglossary'] = 'ezin da zure glosategia eguneratu'; // ORPHANED
+$string['invalidglossaryformat'] = 'Glosategiaren formatu ezegokia'; // ORPHANED
+$string['invalidid'] = 'Glosategiaren IDa ez da zuzena'; // ORPHANED
 
 ?>

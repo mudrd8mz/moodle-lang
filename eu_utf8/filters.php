@@ -37,6 +37,7 @@ $string['isequalto'] = 'honen berdina';
 $string['isnotdefined'] = 'ez dago definituta';
 $string['isnotequalto'] = 'ez da honen berdina';
 $string['newfilter'] = 'Iragazki berria';
+$string['nofiltersenabled'] = 'Gune honetan ez da iragazki-pluginik gaitu';
 $string['off'] = 'Itzalita';
 $string['offbutavailable'] = 'Itzalita, baina eskuragarri';
 $string['on'] = 'Piztuta';
