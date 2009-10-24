@@ -1,0 +1,39 @@
+<h1>Výpočty</h1>
+<!-- TRANSLATORS BEWARE!! The comma (,) sign used in the calculations may be a semi-colon (;)
+in your language. Please use whichever is used in your spreadsheet application. -->
+
+<p>Výpočty v zozname hodnotení sa podobajú vzorcom formulácií/vzorov z populárnych tabuľkových programov. Vzorec začína znakom rovná sa (=) a používa bežné matematické operácie a funkcie na vytvorenie numerického výstupu. Tento výstup sa potom použije ako vypočítaná hodnota pre upravovanú položku hodnotenia.</p>
+
+<p>Nasledujú funkcie, ktoré sú podporované výpočtami. Symbol bodkočiarka (;) sa používa na oddelenie výrazov vnútri zátvoriek.</p>
+
+<ul>
+    <li><strong>average</strong>([[predmet1]]; [[predmet2]]...): Zobrazí priemer príkladu</li>
+    <li><strong>max</strong>([[predmet1]]; [[predmet2]]...): Zobrazí maximálnu hodnotu v zozname výrazov</li>
+    <li><strong>min</strong>([[predmet1]]; [[predmet2]]...): Zobrazí minimálnu hodnotu v zozname výrazov</li>
+    <li><strong>mod</strong>(deliteľ): Vypočíta zvyšok po delení</li>
+    <li><strong>pi</strong>(Ludolfovo číslo): Zobrazí hodnotu čísla Pi</li>
+    <li><strong>power</strong>(základ; mocnina): Zobrazí hodnotu mocniny iného čísla</li>
+    <li><strong>round</strong>(číslo; počet): Zaokrúhli číslo podľa prednastavenej presnosti.</li>
+    <li><strong>sum</strong>([[predmet1]]; [[predmet2]]...): Zobrazí súčet všetkých výrazov.</li>
+</ul>
+
+<p>Matematické funkcie, ktoré sú podporované:</p>
+<ul>
+    <li>sin</li><li>sinh</li><li>arcsin</li><li>asin</li><li>arcsinh</li><li>asinh</li>
+    <li>cos</li><li>cosh</li><li>arccos</li><li>acos</li><li>arccosh</li><li>acosh</li>
+    <li>tan</li><li>tanh</li><li>arctan</li><li>atan</li><li>arctanh</li><li>atanh</li>
+    <li>sqrt</li><li>abs</li><li>ln</li><li>log</li><li>exp</li>
+</ul>
+
+<p>Môžu sa pridať hodnoty z iných položiek hodnotenia použitím ich identifikátora ako referencie vo vzorci. Identifikátory sú v dvoch rovnakých hranatých zátvorkách, aby sa predišlo problémom pri výpočtoch, ak identifikátor obsahuje neobvyklé znaky. Napríklad, ak je položka hodnotenia s identifikátorom Test.3, tak vo výpočte sa použije ako [[Test.3]].</p>
+
+<p>Pod vstupným poľom pre výpočty sú dostupné všetky položky hodnotenia dostupné v kurze a zobrazené vo forme stromu s ich hodnotenými kategóriami. Vedľa každej položky alebo sumáru kategórie je zobrazený identifikátor (už zobrazený so zátvorkami), ktorý môže byť použitý na výpočty. Pretože identifikátor je voliteľný, niektoré položky ho nemajú. Položky bez identifikátora obsahujú formulárové pole, kam sa môže priamo zadať identifikátor, a tak sa všetko robí na jednej stránke. Tieto polia pre identifikátory neumožňujú upravovať už existujúce.</p>
+
+<p>Potom, ako ste zadali identifikátory, môžete ich uložiť tlačidlom "Pridať identifikátory" a stránka sa obnoví už aj s novými. Potom ich už môžete použiť na výpočty.</p>
+
+<p>Tu je zoznam praktických príkladov výpočtov, ktoré môžete použiť v zozname hodnotení:</p>
+
+<ul>
+    <li>=average([[Test.1]]; [[Test.4]]; [[Zadanie.1]])</li>
+    <li>=average(max([[Test.1]]; [[Test.4]]; [[Zadanie.1]]); min([[Test.1]]; [[Test.4]]; [[Zadanie.1]]))</li>
+</ul>
