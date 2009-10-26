@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
+      // admin.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -712,11 +712,11 @@ $string['smtpuser'] = 'SMTP  brukernavn';
 $string['spamcleaner'] = 'Søppelfilter';
 $string['stats'] = 'Statistikk';
 $string['statscatdepth'] = 'Maksimum overkategorier';
-$string['statsfirstrun'] = 'Maks tid for statistikk-kjøring';
-$string['statsmaxruntime'] = 'Maks tid for kjøring';
+$string['statsfirstrun'] = 'Hvor langt tilbake skal statistikk-kjøringen starte?';
+$string['statsmaxruntime'] = 'Maks tid for daglig statistikkbearbeiding';
 $string['statsruntimedays'] = 'Dager som skal prosesseres';
-$string['statsruntimestart'] = 'Kjør ved';
-$string['statsuserthreshold'] = 'Brukers ventetid';
+$string['statsruntimestart'] = 'Kjør statistikk kl:';
+$string['statsuserthreshold'] = 'Utelat kurs med færre brukere enn';
 $string['stickyblocks'] = 'Tvungne blokker';
 $string['stickyblockscourseview'] = 'Kursside';
 $string['stickyblocksduplicatenotice'] = 'Hvis blokken du legger til her allerede finnes på en bestemt side, vil den dupliseres. <br/>Bare blokken du legger til vil være fast, duplikaten kan fremdeles endres på.';

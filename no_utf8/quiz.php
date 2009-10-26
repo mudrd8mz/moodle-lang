@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
+      // quiz.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['1day'] = '1 dag';
@@ -385,7 +385,7 @@ $string['optional'] = 'valgfritt';
 $string['outof'] = 'av';
 $string['outofpercent'] = '$a->grade av maksimum $a->maxgrade ($a->percent%%)';
 $string['outofshort'] = '$a->grade/$a->maxgrade';
-$string['overallfeedback'] = 'Generell tilbakemelding';
+$string['overallfeedback'] = 'Tilbakemelding på testen';
 $string['overdue'] = 'For sent';
 $string['pagesize'] = 'Antall forsøk pr.side';
 $string['paragraphquestion'] = 'Fritekst spørsmål ikke støttet  linje $a. Spørsmålet vil bli ignorert';
@@ -446,7 +446,7 @@ $string['quiznotavailable'] = 'Prøven er ikke tilgjengelig før: $a';
 $string['quizopen'] = 'Åpne prøve';
 $string['quizopens'] = 'Prøven åpnes';
 $string['quizsettings'] = 'Testinnstillinger';
-$string['quiztimelimit'] = 'Tidsbegresning';
+$string['quiztimelimit'] = 'Tidsbegrensning';
 $string['quiztimer'] = 'Prøvetidtaker';
 $string['random'] = 'Tilfeldig';
 $string['randomcreate'] = 'Lag tilfeldige spørsmål';

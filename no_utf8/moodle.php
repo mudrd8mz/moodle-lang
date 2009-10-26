@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
+      // moodle.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -578,16 +578,16 @@ $string['existingcreators'] = 'Eksisterende kursprodusenter';
 $string['existingstudents'] = 'Innmeldte studenter';
 $string['existingteachers'] = 'Eksisterende lærere';
 $string['expirynotify'] = 'Melding om at innmeldingen går ut på dato';
-$string['expirynotifyemail'] = 'Følgende studenter i dette kurset blir kastet ut etter nøyaktig $a->threshold dager:
+$string['expirynotifyemail'] = '<strong>OBS!</strong> Følgende studenter blir automatisk utmeldt fra dette kurset etter nøyaktig $a->threshold dager:
 $a->current
-Følgende studenter på dette kuret blir kastet ut innen $a->threshold dager:
+<br /><p>Andre studenter som blir automatisk utmeldt:</p>Følgende studenter på dette kurset har mindre enn $a->threshold dager før de automatisk blir utmeldt:
 $a->past
-Du kan gå til følgende side for å forlenge innmeldingsperioden:
+Du kan gå til denne siden for å forlenge innmeldingsperioden:
 $a->extendurl';
 $string['expirynotifystudents'] = 'gi melding til studentene';
 $string['expirynotifystudentsemail'] = 'Kjære $a->studentstr
-Dette er en melding om at din innmeldingsperiode i kurs $a->course vil opphøre om $a->threshold dager.
-Vær vennlig å kontakte din lærer $a->teacherstr for nærmere forespørsel.';
+Dette er en melding om at din innmeldingsperiode i kurs $a->course vil opphøre om $a->threshold dager. Du vil da bli automatisk utmeldt fra kurset.<br />
+Vær vennlig å kontakte din lærer $a->teacherstr hvis du har spørsmål til dette.';
 $string['expirythreshold'] = 'Grense';
 $string['explanation'] = 'Forklaring';
 $string['extendenrol'] = 'Forleng innmeldingsperioden';
@@ -1005,7 +1005,7 @@ $string['noimagesyet'] = 'Ingen bilder er lastet opp til siden ennå';
 $string['nologsfound'] = 'Ingen logger er funnet';
 $string['nomorecourses'] = 'Ingen flere sider ble funnet';
 $string['nomoreidnumber'] = 'For å unngå kollisjoner brukes ikke id-nummer';
-$string['none'] = 'Ingen';
+$string['none'] = 'Ikke gå tilbake';
 $string['noneditingteacher'] = 'Lærer  uten editor-rettigheter';
 $string['noneditingteacherdescription'] = 'Gjestelærere kan undervise i et kurs og evaluere studenter, men ikke endre aktiviteter';
 $string['nonstandard'] = 'Ikke-standard';
