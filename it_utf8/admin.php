@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091026) (2009102201)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -161,7 +161,7 @@ $string['configenablehtmlpurifier'] = 'Usa HTML Purifier invece di KSES per la p
 $string['configenablerssfeeds'] = 'Attiva il generatore RSS (RSS Feed) nel sito. Per poter utilizzare i feed RSS è necessario attivare anche il generatore RSS nei singoli moduli di attività: per farlo, andate in \'Moduli->Attività\' dal blocco Amministrazione del Sito.';
 $string['configenablerssfeedsdisabled'] = 'Non è attiva poiché il generatore RSS è disabilitato a livello di sito. Per attivarlo, andate in \'configura variabili\' nel pannello di Amministrazione.';
 $string['configenablerssfeedsdisabled2'] = 'I feed RSS sono disabilitati a livello di server. Devono prima essere abilitati in Server/RSS.';
-$string['configenablesafebrowserintegration'] = 'L\'opzione aggiunge l\'impostazione \'Safe Exam Browser\' nel menù a discesa \'Livello sicurezza browser\' presente nelle impostazioni dei quiz. Per maggiori informazioni: http://safeexambrowser.org.';
+$string['configenablesafebrowserintegration'] = 'L\'impostazione aggiunge l\'opzione \'Safe Exam Browser\' nel menù a discesa \'Livello sicurezza browser\' presente nelle impostazioni dei quiz. Per maggiori informazioni: http://safeexambrowser.org.';
 $string['configenablestats'] = 'Attivando le statistiche Moodle elaborerà il log con cadenza giornaliera. La durata dell\'elaborazione  dipenderà dal traffico del sito. Le statistiche permettono di visualizzare graficamente dati sui corsi e sul sito.';
 $string['configenabletrusttext'] = 'Moodle per default ripulisce attentamente tutti i testi che provengono dagli utenti per rimuovere ogni possibile script malevolo, oggetto multimediale od altro che possa mettere a repentaglio la sicurezza. Il sistema di Contenuto Affidabile è un modo per dare a particolari utenti degni di fiducia la possibilità di usare funzioni evolute nei loro contenuti senza alcuna interferenza. Per attivare il sistema dovete abilitare l\'impostazione e poi attribuire il privilegio Contenuto Affidabile ad uno specifico ruolo. I testi creati o caricati dagli utenti che hanno tale ruolo saranno contrassegnati come \"affidabili\" e non saranno ripuliti prima della visualizzazione.';
 $string['configenablewebservices'] = 'I Web service consentono agli utenti di altri sistemi di collegarsi a Moodle e di effettuare varie operazioni. Per maggiore sicurezza, abilitate i Web service solo se avete realmente bisogno di usarli.';

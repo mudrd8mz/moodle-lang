@@ -1,29 +1,41 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20091020) (2009100605)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20091026) (2009102201)
 
 
-$string['actwebserviceshhdr'] = 'Procolli Web service disponibili';
+$string['actwebserviceshhdr'] = 'Protocolli Web service disponibili';
 $string['addfunction'] = 'Aggiungi funzione';
+$string['addfunctionhelp'] = 'Selezionare la funzione da aggiungere al servizio';
 $string['configwebserviceplugins'] = 'Per motivi di sicurezza, abilitate solamente i protocolli realmente necessari.';
-$string['emptyname'] = 'Il nome del servizio è obbligatorio.';
 $string['enabled'] = 'Abilitato';
+$string['execute'] = 'Esegui';
+$string['executewarnign'] = 'ATTENZIONE: premendo il pulsante Esegui il database sarà modificato e le modiche apportate non potranno essere annullate automaticamente!';
 $string['externalservice'] = 'Servizio esterno';
+$string['externalservicefunctions'] = 'Funzioni del servizio esterno';
 $string['externalservices'] = 'Servizi esterni';
 $string['externalserviceusers'] = 'Utenti del servizio esterno';
 $string['function'] = 'Funzione';
 $string['functions'] = 'Funzioni';
+$string['iprestriction'] = 'Restrizione IP';
 $string['manageprotocols'] = 'Gestione protocolli';
 $string['potusers'] = 'Utenti non autorizzati';
+$string['potusersmatching'] = 'Utenti non autorizzati che corrispondono';
 $string['protocol'] = 'Protocollo';
-$string['requiredcapability'] = 'Privilegi richiesti';
-$string['saveservice'] = 'Salva servizio';
+$string['removefunction'] = 'Rimuovi';
+$string['removefunctionconfirm'] = 'Vuoi rimuovere la funzione \"$a->function\" dal servizio \"$a->service\"?';
+$string['requiredcapability'] = 'Privilegio necessario';
+$string['restrictedusers'] = 'Solo utenti autorizzati';
 $string['servicename'] = 'Nome del servizio';
 $string['servicesbuiltin'] = 'Servizi predefiniti';
 $string['servicescustom'] = 'Servizi personalizzati';
 $string['serviceusers'] = 'Utenti autorizzati';
-$string['test'] = 'Test';
+$string['serviceusersmatching'] = 'Utenti autorizzati che corrispondono';
+$string['serviceuserssettings'] = 'Cambia le impostazioni per l\'utente autorizzato';
 $string['testclient'] = 'Client test';
+$string['validuntil'] = 'Valido fino';
 $string['webservices'] = 'Web service';
+$string['emptyname'] = 'Il nome del servizio è obbligatorio.'; // ORPHANED
+$string['saveservice'] = 'Salva servizio'; // ORPHANED
+$string['test'] = 'Test'; // ORPHANED
 $string['activated'] = 'Attivate'; // ORPHANED
 $string['activatedfunctions'] = 'Funzioni attivate'; // ORPHANED
 $string['amfdebug'] = 'Modalità debug server AMF'; // ORPHANED
