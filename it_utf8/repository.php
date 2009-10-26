@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20090903) (2009082800)
+      // repository.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
 
 
-$string['accessiblefilepicker'] = 'Selettore file accessibile';
+$string['accessiblefilepicker'] = 'File picker accessibile';
 $string['activaterep'] = 'Repository attivi';
 $string['activerepository'] = 'Repository plugin attive';
 $string['add'] = 'Aggiungi';
@@ -22,14 +22,17 @@ $string['cachecleared'] = 'I file in cache sono stati eliminati';
 $string['cacheexpire'] = 'Permanenza in cache';
 $string['cannotaccessparentwin'] = 'Se la finestra parent è in HTTPS non è possibile accedervi tramite l\'oggetto window.opener, pertanto non è possibile aggiornare automaticamente il repository. Tuttavia la sessione è nota, quindi affinché l\'aggiornamento funzioni dovrebbe essere sufficiente ritornare al file picker e selezionare nuovamente il repository.';
 $string['cannotdelete'] = 'Non è possibile eliminare questo file.';
-$string['cannotdownload'] = 'Non è possibile scaricare questo file';
+$string['cannotdownload'] = 'Non è possibile scaricare il file';
+$string['cannotdownloaddir'] = 'Non è possibile scaricare il folder';
 $string['cannotinitplugin'] = 'La chiamata plugin_init non è andata a buon fine';
+$string['choosealink'] = 'Scegli link...';
 $string['cleancache'] = 'Elimina i miei file dalla cache';
 $string['clicktohide'] = 'Click qui per nascondere';
 $string['clicktoshow'] = 'Click qui per mostrare';
 $string['close'] = 'Chiudi';
 $string['configcacheexpire'] = 'La permanenza in cache, espressa in secondi, degli elenchi di file ottenuti da repository esterni.';
 $string['configsaved'] = 'Configurazione salvata!';
+$string['configuseexternallink'] = 'Il file picker riporterà i link ai file esterni invece di scaricarli.';
 $string['confirmdelete'] = 'Sei sicuro di voler eliminare il repository $a ?';
 $string['confirmdeletefile'] = 'Sei sicuro di voler eliminare questo file?';
 $string['confirmremove'] = 'Sei sicuro di voler eliminare questo repository plugin, le sue opzioni e <strong style=color:red>tutte le sue istanze</strong> - $a?';
@@ -44,6 +47,7 @@ $string['date'] = 'Data';
 $string['deleted'] = 'Repository eliminato';
 $string['deleterepository'] = 'Elimina questo repository';
 $string['download'] = 'Scarica';
+$string['downloadfolder'] = 'Scarica il folder';
 $string['downloadsucc'] = 'Il file è stato scaricato correttamente';
 $string['editrepositoryinstance'] = 'Modifica il repository';
 $string['emptylist'] = 'L\'elenco è vuoto';
@@ -52,6 +56,7 @@ $string['enablecourseinstances'] = 'Abilita repository di corso';
 $string['enableuserinstances'] = 'Abilita repository dell\'utente';
 $string['enter'] = 'Entra';
 $string['entername'] = 'Inserite il nome del file o della cartella';
+$string['enternewname'] = 'Per favore inserite il nuovo nome del file';
 $string['error'] = 'Si è verificato un errore sconosciuto!';
 $string['existingrepository'] = 'Questo repository esiste già';
 $string['federatedsearch'] = 'Ricerca federata';
@@ -89,6 +94,7 @@ $string['personalrepositories'] = 'Repository personali';
 $string['plugin'] = 'Repository plug-in';
 $string['pluginerror'] = 'Si sono verificati errori nel repository plugin';
 $string['popup'] = 'Apri una finestra popup per il login';
+$string['popupblockeddownload'] = 'La finestra di download è stata bloccata, per favore abilita le finestre popup e riprova.';
 $string['preview'] = 'Anteprima';
 $string['readonlyinstance'] = 'Non puoi modificare o eliminare un repository a sola lettura';
 $string['refresh'] = 'Aggiorna';
@@ -117,6 +123,7 @@ $string['updown'] = 'Ordine';
 $string['upload'] = 'Carica questo file';
 $string['uploading'] = 'Caricamento in corso...';
 $string['uploadsucc'] = 'Il file è stato caricato correttamente';
+$string['useexternallink'] = 'Utilizza i link ai file senza scaricarli';
 $string['wrongcontext'] = 'Non puoi accedere a questo contesto';
 $string['xhtmlerror'] = 'Probabilmente state usando header XHTML strict, con le quali alcune componenti YUI non funzionano correttamente. Per favore disabilitate le componenti YUI in Moodle.';
 $string['ziped'] = 'La cartella è stata compressa correttamente';

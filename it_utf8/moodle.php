@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091014) (2009100605)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -449,6 +449,7 @@ $string['detailedmore'] = 'Più dettagli';
 $string['directory'] = 'Cartella';
 $string['directorypaths'] = 'Percorsi della cartella';
 $string['disable'] = 'Disabilita';
+$string['disabledcomments'] = 'I commenti non sono abilitati';
 $string['displayingfirst'] = 'Sono visualizzati solo il primi $a->count $a->things';
 $string['displayingrecords'] = 'Visualizzazione di $a record';
 $string['displayingusers'] = 'Visualizza gli iscritti a partire da $a->start fino a $a->end';
@@ -1190,6 +1191,7 @@ $string['passwordconfirmchange'] = 'Conferma il cambiamento di password';
 $string['passwordextlink'] = 'Il link seguente è stato fornito per recuperare la password smarrita. Questo vi porterà fuori da Moodle.';
 $string['passwordforgotten'] = 'Password dimenticata';
 $string['passwordforgotteninstructions'] = 'I tuoi dati devono essere reperiti nel database di Moodle. Inserisci il tuo username <strong>oppure</strong> la tua email nelle caselle corrispondenti. Non è necessario inserirli entrambi.';
+$string['passwordforgotteninstructions2'] = 'Per recuperare la tua password, inserisci lo username oppure la email nei campi sottostanti. Se Moodle troverà il dato nel database, invierà una email con le istruzioni per completare il recupero.';
 $string['passwordnohelp'] = 'Non esiste un aiuto per recuperare la password. Sei pregato di contattare l\'amministratore di Moodle.';
 $string['passwordrecovery'] = 'Si, per favore aiutatemi per il login';
 $string['passwordsdiffer'] = 'Le password non corrispondono';

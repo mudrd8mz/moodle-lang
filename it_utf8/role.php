@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20091014) (2009100605)
+      // role.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
@@ -26,11 +26,16 @@ $string['assignrolesrelativetothisuser'] = 'Assegna ruoli relativi a questo uten
 $string['backtoallroles'] = 'Torna all\'elenco di tutti i ruoli';
 $string['block:edit'] = 'Modificare le impostazioni dei blocco';
 $string['block:view'] = 'Visualizza blocco';
+$string['blog:associatecourse'] = 'Associare interventi blog ai corsi';
+$string['blog:associatemodule'] = 'Associare interventi blog ai moduli di attività';
 $string['blog:create'] = 'Creare nuovi interventi nei blog';
 $string['blog:manageentries'] = 'Modificare e gestire interventi nei blog';
+$string['blog:manageexternal'] = 'Modificare e gestire blog esterni';
 $string['blog:manageofficialtags'] = 'Gestire tag ufficiali';
 $string['blog:managepersonaltags'] = 'Gestire tag personali';
+$string['blog:search'] = 'Modificare e gestire interventi nei blog';
 $string['blog:view'] = 'Visualizzare interventi nei blog';
+$string['blog:viewdrafts'] = 'Visualizzare le bozze degli interventi dei blog';
 $string['calendar:manageentries'] = 'Gestire qualsiasi elemento in calendario';
 $string['calendar:managegroupentries'] = 'Gestire elementi di gruppo in calendario';
 $string['calendar:manageownentries'] = 'Gestire elementi propri in calendario';
@@ -54,9 +59,11 @@ $string['comment:view'] = 'Leggere commenti';
 $string['context'] = 'Contesto';
 $string['course:activityvisibility'] = 'Nascondere/Mostrare attività';
 $string['course:bulkmessaging'] = 'Inviare un messaggio a più persone';
-$string['course:changefullname'] = 'Cambiare il nome completo del corso';
-$string['course:changeidnumber'] = 'Cambiare il codice del corso';
-$string['course:changeshortname'] = 'Cambiare il nome breve del corso';
+$string['course:changecategory'] = 'Cambiare la catgoria del corso';
+$string['course:changefullname'] = 'Cambiare il titolo del corso';
+$string['course:changeidnumber'] = 'Cambiare il Numero ID del corso';
+$string['course:changeshortname'] = 'Cambiare il titolo abbreviato del corso';
+$string['course:changesummary'] = 'Cambiare l\'introduzione del corso';
 $string['course:create'] = 'Creare corsi';
 $string['course:delete'] = 'Cancellare corsi';
 $string['course:manageactivities'] = 'Gestire attività';

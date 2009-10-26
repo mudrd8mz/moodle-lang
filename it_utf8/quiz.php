@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090922) (2009091700)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
 
 
 $string['1day'] = '1 giorno';
@@ -97,6 +97,7 @@ $string['blackboard'] = 'Blackboard';
 $string['blackboard_six'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Mostra gli studenti con e senza tentativi';
 $string['braceerror'] = 'Non si possono trovare {...} nelle risposte';
+$string['browsersecurity'] = 'Livello sicurezza browser';
 $string['calculated'] = 'con Calcolo';
 $string['calculatedquestion'] = 'Domanda con Calcolo non supportata alla linea $a. La domanda sarà ignorata.';
 $string['cannotcreatepath'] = 'Il percorso non può essere creato ($a)';
@@ -502,6 +503,7 @@ $string['pleaseclose'] = 'La tua richiesta è stata elaborata. Ora puoi chiudere
 $string['popup'] = 'Mostra il quiz in una finestra \'sicura\'';
 $string['popupblockerwarning'] = 'Questa sezione del test avviene in modo protetto, il che significa che devi eseguire il quiz in una finestra \"sicura\". Per favore, disattiva il blocco dei popup nel tuo browser. Grazie.';
 $string['popupnotice'] = 'Gli studenti visualizzeranno questo quiz in una finestra \"sicura\"';
+$string['popupwithjavascriptsupport'] = 'Pop-up a schermo intero con sicurezza JavaScript';
 $string['preprocesserror'] = 'Si è verificato un errore durante la pre-elaborazione!';
 $string['preview'] = 'Anteprima';
 $string['previewquestion'] = 'Anteprima domanda';
@@ -618,9 +620,10 @@ $string['reportregrade'] = 'Rivaluta tentativi';
 $string['reportresponses'] = 'Risposte dettagliate';
 $string['reports'] = 'Risultati';
 $string['reportsimplestat'] = 'Statistiche semplici';
-$string['requirepassword'] = 'Richiesta password';
+$string['requirepassword'] = 'Password d\'accesso';
 $string['requirepasswordmessage'] = 'Per tentare questo quiz è necessario conoscere la password d\'accesso.';
-$string['requiresubnet'] = 'Abilitazione indirizzi di rete';
+$string['requiresafeexambrowser'] = 'Safe Exam Browser';
+$string['requiresubnet'] = 'Indirizzi di rete abilitati';
 $string['response'] = 'Risposta';
 $string['responses'] = 'Commenti';
 $string['results'] = 'Risultati';
@@ -642,6 +645,8 @@ $string['reviewresponsetoq'] = 'Rivedi la risposta (domanda $a)';
 $string['reviewthisattempt'] = 'Rivedi le tue risposte a questo tentativo';
 $string['rqp'] = 'Domanda remota';
 $string['rqps'] = 'Domande remote';
+$string['safebrowsererror'] = 'Il quiz è stato configurato per essere eseguito solamente utilizzando Safe Exam Browser. Non è possibile eseguirlo con un browser web standard.';
+$string['safebrowsernotice'] = 'Il quiz è stato configurato affinché gli studenti possano eseguirlo solamente utilizzando Safe Exam Browser.';
 $string['sameasoverall'] = 'Stesse del punteggio finale';
 $string['save'] = 'Salva';
 $string['saveandedit'] = 'Salva modifiche e aggiorna domande';
@@ -703,8 +708,8 @@ $string['startedon'] = 'Iniziato';
 $string['statenotloaded'] = 'Lo stato della domanda $a non è stato caricato dal database';
 $string['status'] = 'Stato';
 $string['stoponerror'] = 'Stop in caso di errore';
-$string['subneterror'] = 'Spiacente, questo quiz è bloccato in modo da essere accessibile solo da certi indirizzi di rete. Attualmente i tuo computer non è abilitato all\'utilizzo di questo quiz.';
-$string['subnetnotice'] = 'Questo quiz è bloccato in modo da essere accessibile solo da certi indirizzi di rete. Il tuo computer non è su una sotto-rete abilitata. Comunque come insegnante puoi vedere l\'anteprima.';
+$string['subneterror'] = 'Spiacente, questo quiz è impostato in modo da essere accessibile solo da certi indirizzi di rete. Attualmente i tuo computer non è abilitato all\'utilizzo di questo quiz.';
+$string['subnetnotice'] = 'Questo quiz è impostato in modo da essere accessibile solo da certi indirizzi di rete. Il tuo computer non è su una sotto-rete abilitata. Comunque come insegnante puoi vedere l\'anteprima.';
 $string['subnetwrong'] = 'Il quiz è accessibile solo da specifici computer, e questo non è nella lista di quelli abilitati.';
 $string['substitutedby'] = 'sarà  sostituito da';
 $string['summaryofattempt'] = 'Riepilogo tentativo';
