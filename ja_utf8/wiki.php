@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20091027) (2009102700)
 
 
 $string['action'] = '-- アクション --';
@@ -61,7 +61,7 @@ $string['errorroandwr'] = 'フラグエラー: ページに書き込み権と読
 $string['errorsize'] = 'ページサイズが64Kを超えています';
 $string['errversionsave'] = '申し訳ございません、このページを編集している間に他の人が更新したバージョンを保存しました。前のページに戻って、内容をクリップボードにコピーしてください。ページのリロード後、コピーした内容をページに挿入してください。';
 $string['ewikiacceptbinary'] = 'バイナリファイルを許可する';
-$string['ewikiprinttitle'] = 'wiki名をすべてのページに表示する。';
+$string['ewikiprinttitle'] = 'Wiki名をすべてのページに表示する';
 $string['export'] = 'エクスポート';
 $string['exportformats'] = 'エクスポートフォーマット';
 $string['exportsuccessful'] = 'エクスポートが完了しました。';
