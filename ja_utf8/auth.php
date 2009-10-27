@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091016) (2009100605)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091027) (2009102600)
 
 
 $string['CASform'] = '認証選択';
@@ -225,7 +225,7 @@ $string['auth_nntpport_key'] = 'ポート';
 $string['auth_nntptitle'] = 'NNTPサーバ';
 $string['auth_nologindescription'] = 'システムへのユーザログインを停止するための予備的なプラグインです。また、ユーザ宛に送信されるメールもすべて破棄されます。ユーザアカウントを「一時停止」する場合に使用することができます。';
 $string['auth_nologintitle'] = 'ログインなし';
-$string['auth_nonedescription'] = 'ユーザはログインして外部サーバおよびメールによる認証なしで、アカウントを直ちに作成できます。このオプションを使用する場合、十分に注意してください - セキュリティーおよび管理上の問題が発生するかもしれないことを考えてください。';
+$string['auth_nonedescription'] = 'ユーザはログインして外部サーバおよびメールによる認証なしで、アカウントを直ちに作成できます。このオプションを使用する場合、十分に注意してください - セキュリティおよび管理上の問題が発生するかもしれないことを考えてください。';
 $string['auth_nonetitle'] = '認証なし';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = '「Yes」にした場合、NTLMドメインでシングルサインオンを試みます。<strong>注意:</strong> 動作させるには、ウェブサーバに対して追加のセットアップが必要です。詳細は、 <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>をご覧ください。';
