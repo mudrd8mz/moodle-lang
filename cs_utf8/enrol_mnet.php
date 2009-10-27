@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 1.9.2+ (Build: 20080925) (2007101523)
+      // enrol_mnet.php - created with Moodle 1.9.5+ (Build: 20090529) (2007101550)
 
 
 $string['allcategories'] = '$a možných kategorií';
@@ -12,7 +12,7 @@ $string['description'] = 'Popis zápisu do kurzů přes MNet.';
 $string['enrolname'] = 'MNet';
 $string['mnet_enrol_description'] = 'Pokud budete <strong>poskytovat</strong> tuto službu, budou moci správci na serveru $a zapisovat jejich studenty do kurzů na vašem serveru. <br/>
 <ul><li><em>Závislost</em>: Musíte zároveň nastavit, že chcete sebe poskytovat jako \"SSO - zdroj služby\" pro server $a.</li><li><em>Závislost</em>: Musíte zároveň nastavit, že chcete využívat server $a jako \"SSO - zdroj identit uživatelů\".</li></ul><br />
-Pokud budete <strong>využívat</strong>tuto službu, budete moci vaše vlastní uživatele zapisovat do kurzů na serveru $a.<br/><ul><li><em>Závislost</em>: Musíte zároveň nastavit, že chcete využívat server $a jako \"SSO - zdroj služeb\".</li><li><em>Závislost</em>: Musíte zároveň nastavit, že chcete sebe poskytovat jako \"SSO - zdroj identit uživatelů\" pro server $a.</li></ul>
+Pokud budete <strong>využívat</strong> tuto službu, budete moci vaše vlastní uživatele zapisovat do kurzů na serveru $a.<br/><ul><li><em>Závislost</em>: Musíte zároveň nastavit, že chcete využívat server $a jako \"SSO - zdroj služeb\".</li><li><em>Závislost</em>: Musíte zároveň nastavit, že chcete sebe poskytovat jako \"SSO - zdroj identit uživatelů\" pro server $a.</li></ul>
 <br/>';
 $string['mnet_enrol_name'] = 'MNet';
 $string['mnetlocalforexternal'] = 'Místní kurzy pro externí uživatele';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.2+ (Build: 20080925) (2007101523)
+      // mnet.php - created with Moodle 1.9.5+ (Build: 20090529) (2007101550)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samopodepsané)';
@@ -63,7 +63,7 @@ $string['host'] = 'hostitel';
 $string['hostcoursenotfound'] = 'Hostitel nebo kurz nenalezen';
 $string['hostdeleted'] = 'OK - hostitel odstraněn';
 $string['hostexists'] = 'Záznam pro tohoto hostitele a instalaci  Moodle s ID $a již existuje.<br />Klikněte na <em>Pokračovat</em> pro editování tohoto záznamu.';
-$string['hostname'] = 'Název hostitele (hostname)';
+$string['hostname'] = 'URL hostitele';
 $string['hostnamehelp'] = 'Plně kvalifikované doménové jméno (FQDN) vzdáleného hostitele, například www.jejichskola.cz';
 $string['hostnotconfiguredforsso'] = 'Tento vzdálený Moodle Hub server není konfigurován pro vzdálené přihlašování.';
 $string['hostsettings'] = 'Nastavení hostitele';
@@ -106,7 +106,7 @@ $string['moodleloc'] = 'Umístění Moodle';
 $string['net'] = 'Síťové služby';
 $string['networksettings'] = 'Nastavení sítě';
 $string['never'] = 'Nikdy';
-$string['noaclentries'] = 'Seznamu pro řízení přístupu k SSO neosbahuje žádné záznamy';
+$string['noaclentries'] = 'Seznamu pro řízení přístupu přes SSO neobsahuje žádné záznamy';
 $string['nocurl'] = 'Knihovna PHP cURL není nainstalována';
 $string['nohostid'] = 'Tato stránka vyžaduje ID hostitele, což by mělo být celé číslo.';
 $string['noipmatch'] = 'Adresa vzdáleného stroje: <br /><em>$a[0]</em><br />neodpovídá uložené adrese:<br /><em>$a[1]</em>.';
@@ -160,7 +160,7 @@ $string['showlocal'] = 'Ukázat lokální uživatele';
 $string['showremote'] = 'Ukázat vzdálené uživatele';
 $string['ssl_acl_allow'] = 'SSO ACL: Povolit uživatele $a[0] z $a[1]';
 $string['ssl_acl_deny'] = 'SSO ACL: Odmítnout uživatele  $a[0] z $a[1]';
-$string['ssoaccesscontrol'] = 'Řízení přístupu k SSO';
+$string['ssoaccesscontrol'] = 'Řízení přístupu přes SSO';
 $string['ssoacldescr'] = 'Na této stránce můžete konkrétním uživatelům z partnerských serverů sítě MNet povolit nebo zakázat přístup na váš server. To funguje pouze tehdy, pokud nabízíte SSO služby vzdáleným uživatelům. Pro řízení přístupu vašich vlastních uživatelů na vzdálené servery použijte systém rolí a přidělte jim oprávnění <em>mnetlogintoremote</em>.';
 $string['ssoaclneeds'] = 'Aby tato funkce pracovala, musíte mít zapnutou podporu síťě MNet a zároveň mít povolený autentizační modul sítě Moodle s automatickým přidáváním uživatelů.';
 $string['strict'] = 'Striktní';
