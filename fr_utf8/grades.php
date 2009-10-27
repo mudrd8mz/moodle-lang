@@ -268,6 +268,7 @@ $string['gradepublishing'] = 'Activer la publication';
 $string['gradereports'] = 'Rapports d\'évaluation';
 $string['graderreport'] = 'Rapport de l\'évaluateur';
 $string['grades'] = 'Notes';
+$string['gradesforuser'] = 'Notes de $a->user';
 $string['gradesonly'] = 'Seulement les notes';
 $string['gradessettings'] = 'Réglages des notes';
 $string['gradetype'] = 'Type de note';
