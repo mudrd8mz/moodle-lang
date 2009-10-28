@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // grades.php - created with Moodle 2.0 dev (Build: 20091028) (2009102700)
 
 
 $string['activities'] = 'Attività';
@@ -264,6 +264,7 @@ $string['gradepreferenceshelp'] = 'Help Preferenze nelle valutazioni';
 $string['gradepublishing'] = 'Abilita pubblicazione';
 $string['graderreport'] = 'Registro valutatore';
 $string['grades'] = 'Valutazioni';
+$string['gradesforuser'] = 'Voti di $a->user';
 $string['gradesonly'] = 'Solo le colonne con i voti';
 $string['gradessettings'] = 'Impostazioni generali';
 $string['gradetype'] = 'Tipo valutazione';

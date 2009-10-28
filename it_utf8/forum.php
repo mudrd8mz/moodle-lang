@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
+      // forum.php - created with Moodle 2.0 dev (Build: 20091028) (2009102700)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -22,7 +22,7 @@ $string['allowratings'] = 'E\' possibile valutare gli interventi?';
 $string['allowsallsubscribe'] = 'Questo forum è a sottoscrizione facoltativa';
 $string['allowsdiscussions'] = 'Questo forum permette a tutti i partecipati di iniziare una nuova discussione.';
 $string['allsubscribe'] = 'Sottoscrivi tutti i forum';
-$string['allunsubscribe'] = 'Romuoviti da tutti i forum';
+$string['allunsubscribe'] = 'Rimuoviti da tutti i forum';
 $string['alreadyfirstpost'] = 'Questo è già il primo intervento della discussione';
 $string['anyfile'] = 'Qualsiasi file';
 $string['attachment'] = 'Allegato';
@@ -235,8 +235,8 @@ $string['notrackforum'] = 'Non tracciare gli interventi non letti';
 $string['noviewanyrate'] = 'Puoi visualizzare solamente i risultati relativi ai tuoi interventi';
 $string['noviewdiscussionspermission'] = 'Non sei autorizzato a vedere le discussioni in questo forum';
 $string['noviewrate'] = 'Non sei autorizzato a visualizzare le valutazioni date agli interventi';
-$string['nowallsubscribed'] = 'Tutti i forum in $a sono sottoscritti.';
-$string['nowallunsubscribed'] = 'Tutti in forum in $a non sono sottoscritti.';
+$string['nowallsubscribed'] = 'Hai sottoscritto tutti i forum presenti in $a.';
+$string['nowallunsubscribed'] = 'Sei stato rimosso da tutti in forum presenti in $a.';
 $string['nownotsubscribed'] = 'E\' stata rimossa la sottoscrizione al forum dell\'utente $a->name. L\'utente NON riceverà più email dal forum \'$a->forum\'.';
 $string['nownottracking'] = '$a->name non sta più tracciando \'$a->forum\'.';
 $string['nowsubscribed'] = 'L\'utente $a->name è ora tra i sottoscrittori e riceverà email dal forum \'$a->forum\'.';

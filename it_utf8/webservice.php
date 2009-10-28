@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20091026) (2009102201)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20091028) (2009102700)
 
 
 $string['actwebserviceshhdr'] = 'Protocolli Web service disponibili';
 $string['addfunction'] = 'Aggiungi funzione';
 $string['addfunctionhelp'] = 'Selezionare la funzione da aggiungere al servizio';
+$string['addrequiredcapability'] = 'Assegna/togli il privilegio necessario';
 $string['configwebserviceplugins'] = 'Per motivi di sicurezza, abilitate solamente i protocolli realmente necessari.';
+$string['deleteserviceconfirm'] = 'Vuoi eliminare il servizio esterno \"$a\"?';
 $string['enabled'] = 'Abilitato';
 $string['execute'] = 'Esegui';
 $string['executewarnign'] = 'ATTENZIONE: premendo il pulsante Esegui il database sarà modificato e le modiche apportate non potranno essere annullate automaticamente!';
