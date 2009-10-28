@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
+      // error.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
 
 
 $string['adminprimarynoedit'] = 'Primární správce nemůže být upravován ostatními uživateli';
@@ -101,6 +101,7 @@ $string['pluginrequirementsnotmet'] = 'Zásuvný modul \"$a->pluginname\" ($a->p
 $string['processingstops'] = 'Zde se zpracování zastavilo. Zbývající záznamy byly ignorovány.';
 $string['remotedownloaderror'] = 'Stahování komponenty na váš server selhalo. Prověřte nastavení proxy. Vřele doporučujeme PHP rozšíření cURL.<br /><br />Nyní musíte stáhnout soubor <a href=\"$a->url\">$a->url</a> ručně, překopírovat jej do \"$a->dest\" na vašem serveru a tam jej rozbalit.';
 $string['remotedownloadnotallowed'] = 'Stahování komponent na server není povoleno (direktiva allow_url_fopen je ve stavu \'vypnuto\').<br /><br />Musíte soubor stáhnout <a href=\"$a->url\">$a->url</a> ručně, zkopírovat jej na serveru do umístění \"$a->dest\" a tam jej dekomprimovat.';
+$string['restorechecksumfailed'] = 'Vyskytl se problém s daty potřebnými pro obnovu, která byla uložena ve vaší session. Zkontrolujte vaše nastavení dostupné paměti pro PHP a limit velikosti pro DB package. Obnova byla ukončena.';
 $string['restricteduser'] = 'Je mi líto, ale vašemu současnému účtu \"$a\" bylo zakázáno provést tuto operaci.';
 $string['scheduledbackupsdisabled'] = 'Naplánované zálohy byly správcem serveru zakázány';
 $string['sendmessage'] = 'Odeslat zprávu';

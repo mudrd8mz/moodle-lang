@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
+      // quiz.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
 
 
 $string['1day'] = '1 den';
@@ -75,6 +75,7 @@ $string['blackboard'] = 'Formát Blackboard';
 $string['blackboard_6'] = 'Formát Blackboard V6+';
 $string['bothattempts'] = 'Ukázat všechny studenty';
 $string['braceerror'] = 'Nemohu najít složené závorky {...} ohraničující odpovědi';
+$string['browsersecurity'] = 'Zabezpečení prohlížeče';
 $string['calculated'] = 'Vypočítávaná úloha';
 $string['calculatedquestion'] = 'Vypočítávaná úloha na řádku $a není podporována. Úloha bude ignorována.';
 $string['cannotcreatepath'] = 'Cestu nelze vytvořit ($a)';
@@ -398,6 +399,7 @@ $string['pleaseclose'] = 'Váš požadavek byl zpracován, nyní můžete toto o
 $string['popup'] = 'Zobrazit test v „zabezpečeném“ okně';
 $string['popupblockerwarning'] = 'Tato část testu je v bezpečném modu. To znamená, že musíte test absolvovat v zabezpečeném okně. Prosím vypněte blokování vyskakovacích oken. Děkujeme.';
 $string['popupnotice'] = 'Studentům se tento test zobrazí v zabezpečeném okně.';
+$string['popupwithjavascriptsupport'] = 'Vyskakovací okno přes celou obrazovku zabezpečené pomocí JavaScriptu';
 $string['preview'] = 'Náhled';
 $string['previewquestion'] = 'Náhled úlohy';
 $string['previewquiz'] = 'Náhled testu';
@@ -483,6 +485,7 @@ $string['reports'] = 'Výsledky';
 $string['reportsimplestat'] = 'Souhrnná statistika';
 $string['requirepassword'] = 'Vyžaduje heslo';
 $string['requirepasswordmessage'] = 'Chcete-li se pokusit o absolvování tohoto testu, musíte zadat heslo.';
+$string['requiresafeexambrowser'] = 'Vyžaduje prohlížeč Safe Exam';
 $string['requiresubnet'] = 'Vyžaduje síťovou adresu';
 $string['response'] = 'Odpověď';
 $string['responses'] = 'Odpovědi';
@@ -501,8 +504,11 @@ $string['reviewopen'] = 'Později, dokud je test zpřístupněn';
 $string['reviewoptions'] = 'Studentům se mají zobrazit';
 $string['reviewoptionsheading'] = 'Možnosti prohlídky';
 $string['reviewresponse'] = 'Prohlédnout odpověď';
+$string['reviewresponsetoq'] = 'Prohlédnout odpověď (otázka $a)';
 $string['rqp'] = 'Vzdáleně zpracovávaná úloha';
 $string['rqps'] = 'Vzdáleně zpracovávané úlohy';
+$string['safebrowsererror'] = 'Tento test je možno spustit pouze v prohlížeči Safe Exam.';
+$string['safebrowsernotice'] = 'Studenti budou moci tento test spustit pouze v prohlížeči Safe Exam.';
 $string['save'] = 'Uložit';
 $string['saveandedit'] = 'Uložit změny a upravit otázky';
 $string['savedfromdeletedcourse'] = 'Uloženo z odstraněného kurzu \"$a\"';

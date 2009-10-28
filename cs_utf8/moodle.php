@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5+ (Build: 20090527) (2007101550)
+      // moodle.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -1073,6 +1073,7 @@ $string['noteachersyet'] = 'V tomto kurzu ještě nejsou žádní učitelé.';
 $string['notenrollable'] = 'Do kurzu se momentálně nelze zapisovat.';
 $string['notenrolled'] = '$a není zapsán(a) do tohoto kurzu.';
 $string['notenrolledprofile'] = 'Profil není dostupný, protože úživatel není zapsán v tomto kurzu';
+$string['noteusercannotrolldatesoncontext'] = '<strong>Poznámka:</strong> Možnost posunu termínů při obnově této zálohy byla zakázána, protože nemáte potřebné oprávnění.';
 $string['noteuserschangednonetocourse'] = 'Poznámka: Pokud obnovujete uživatelské údaje, je nutné obnovit také uživatele kurzu. Toto nastavení bylo za vás změněno.';
 $string['nothingnew'] = 'Nic nového od vašeho posledního přihlášení.';
 $string['nothingtodisplay'] = 'Nic k zobrazení';
@@ -1193,6 +1194,7 @@ $string['publicdirectory2'] = 'Zveřejnit název stránky a odkaz';
 $string['publicdirectorytitle'] = 'Ukázat stávající seznam stránek';
 $string['publicsitefileswarning'] = 'Poznámka: sem umístěné soubory jsou přístupné komukoliv';
 $string['publicsitefileswarning2'] = 'Poznámka: sem umístěné soubory jsou dostupné každému, kdo zná (nebo uhádne) jejich URL. Z bezpečnostních důvodů se doporučuje odstranit všechny soubory záloh ihned po jejich obnově.';
+$string['publicsitefileswarning3'] = 'Poznámka: sem umístěné soubory jsou dostupné každému, kdo zná (nebo uhádne) jejich URL.<br />Z bezpečnostních důvodů by měly být soubory se zálohou ukládány pouze do složek backupdata, ke kterým mají přístup pouze oprávnění uživatelé.';
 $string['question'] = 'Otázka';
 $string['questionsinthequestionbank'] = 'Úlohy v bance úloh';
 $string['readinginfofrombackup'] = 'Čtení informací ze zálohy';

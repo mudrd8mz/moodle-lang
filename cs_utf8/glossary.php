@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.5+ (Build: 20090527) (2007101550)
+      // glossary.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
 
 
 $string['addcomment'] = 'Přidat komentář';
@@ -19,12 +19,14 @@ $string['areyousuredeletecomment'] = 'Skutečně chcete odstranit tento komentá
 $string['areyousureexport'] = 'Skutečně chcete exportovat tuto položku do';
 $string['ascending'] = '(vzestupně)';
 $string['attachment'] = 'Příloha';
+$string['author'] = 'autor';
 $string['authorview'] = 'Procházet podle autora';
 $string['back'] = 'Zpět';
 $string['cantinsertcat'] = 'Nelze vložit kategorii';
 $string['cantinsertrec'] = 'Nelze vložit záznam';
 $string['cantinsertrel'] = 'Nelze vložit propojení kategorie-položka';
 $string['casesensitive'] = 'Tato položka rozlišuje VELKÁ/malá';
+$string['cat'] = 'kat';
 $string['categories'] = 'Kategorie';
 $string['category'] = 'Kategorie';
 $string['categorydeleted'] = 'Kategorie odstraněna';
@@ -54,8 +56,13 @@ $string['concepts'] = 'Pojmy';
 $string['configenablerssfeeds'] = 'Povolit funkci RSS kanálů pro všechny slovníky. Budete ještě muset zapnout RSS kanály v nastavení jednotlivých slovníků.';
 $string['current'] = 'Momentální třídění: $a';
 $string['currentglossary'] = 'Stávající slovník';
+$string['date'] = 'datum';
 $string['dateview'] = 'Procházet podle data';
 $string['defaultapproval'] = 'Automaticky schvalovat položky';
+$string['defaulthook'] = 'Výchozí zobrazení';
+$string['defaultmode'] = 'Výchozí režim';
+$string['defaultsortkey'] = 'Výchozí řazení';
+$string['defaultsortorder'] = 'Výchozí směr řazení';
 $string['definition'] = 'Definice';
 $string['definitions'] = 'Definice';
 $string['deleteentry'] = 'Odstranit položku';
@@ -131,8 +138,10 @@ $string['importedcategories'] = 'Importované kategorie';
 $string['importedentries'] = 'Importované položky';
 $string['importentries'] = 'Importovat položky';
 $string['importentriesfromxml'] = 'Import položek z XML souboru';
+$string['includegroupbreaks'] = 'Zahrnout oddělovače skupin';
 $string['invalidrate'] = 'Neplatná hodnota hodnocení ($a)';
 $string['isglobal'] = 'Je tento slovník globální?';
+$string['letter'] = 'písmeno';
 $string['linkcategory'] = 'Automaticky propojovat tuto kategorii';
 $string['linking'] = 'Automatické propojování';
 $string['mainglossary'] = 'Hlavní slovník';
@@ -151,6 +160,7 @@ $string['noentry'] = 'Bez položek.';
 $string['notcategorised'] = 'Nezařazeno';
 $string['numberofentries'] = 'Počet položek';
 $string['onebyline'] = '(jedna na řádku)';
+$string['popupformat'] = 'Formát vyskakovacího okna';
 $string['printerfriendly'] = 'Verze pro tisk';
 $string['printviewnotallowed'] = 'Zobrazení pro tisk není povoleno';
 $string['question'] = 'Otázka';

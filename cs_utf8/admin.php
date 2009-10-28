@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
+      // admin.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -122,6 +122,7 @@ $string['configenablehtmlpurifier'] = 'Pro pročištění nedůvěryhodného kó
 $string['configenablerssfeeds'] = 'Povolení RSS kanálů pro celý server. Kanály musíte povolit zvlášť u každého modulu v jeho nastavení -- \'Správa -> Nastavení -> Moduly -> Nastavení modulu\'.';
 $string['configenablerssfeedsdisabled'] = 'Tato volba není dostupná, protože RSS kanály jsou na těchto stránkách zakázány. Kanály povolíte v \'Správa -> Nastavení -> Obecné parametry\'.';
 $string['configenablerssfeedsdisabled2'] = 'RSS kanály jsou na úrovni serveru vypnuté. Musíte je nejprve povolit v menu Server/RSS.';
+$string['configenablesafebrowserintegration'] = 'Přidává pole \"Vyžadovat prohlížeč Safe Exam\" mezi bezpečnostní nastavení modulu Test. Více informací na http://www.safeexambrowser.org/';
 $string['configenablestats'] = 'Při volbě \'Ano\' zpracuje cron protokoly o činnosti uživatelů a vytvoří z nich grafy a statistiky pro jednotlivé kurzy i celý server. Toto zpracování může nějakou dobu trvat, v závislosti na návštěvnosti vašeho serveru.';
 $string['configenabletrusttext'] = 'Moodle standardně pročišťuje jakýkoliv text přicházející od uživatelů a snaží se odstranit potenciální bezpečnostní rizika, mezi něž patří i skripty, média apod. Pomocí funkce \"Důvěryhodný obsah\" můžete vybraným uživatelům dát privilegium používat i tyto pokročilé prvky bez dalších zásahů. Nejprve je potřeba povolit toto nastavení a poté udělit oprávnění Důvěryhodný obsah (Trusted Content) vybraným rolím. Text, který byl vytvořen nebo nahrán uživatelem s takovou rolí, je pak označen jako důvěryhodný a není před zobrazením pročišťován.';
 $string['configenrolmentplugins'] = 'Jaké způsoby zápisů do kurzu povolit? Nezapomeňte upravit příslušné nastavení zásuvných modulů. <br /><br />Označte povolené moduly a vyberte <strong>jeden z nich</strong> jako výchozí pro interaktivní zápis do kurzů. Pro vypnutí interaktivních zápisů do určitých kurzu u nich nastavte proměnnou \"Do kurzu se lze zapisovat\" na \"Ne\".';
@@ -206,6 +207,7 @@ $string['configrcache'] = 'Používat vyrovnávací paměť k dočasnému uklád
 $string['configrcachettl'] = 'Po jakou dobu (v sekundách) mají být záznamy udržovány ve vyrovnávací paměti. Zvolte hodnotu menší než 15';
 $string['configrecaptchaprivatekey'] = 'Řetězec znaků používaný ke komunikaci mezi vaším Moodlem a serverem recaptcha.net. Můžete ho získat na stránce <a href = \"http://recaptcha.net\">http://recaptcha.net</a>.';
 $string['configrecaptchapublickey'] = 'Řetězec znaků umožňující zobrazování prvku reCAPTCHA. Generuje se v přihlašovacím formuláři na http://recaptcha.net';
+$string['configregenloginsession'] = 'Generování nového identifikátoru session při přihlášení je doporučováno. Toto nastavení nemusí být kompatibilní s některými autentizačními moduly.';
 $string['configrequestedstudentname'] = 'Slovo označující jednoho studenta v požadovaných kurzech';
 $string['configrequestedstudentsname'] = 'Slovo označující více studentů v požadovaných kurzech';
 $string['configrequestedteachername'] = 'Slovo označující jednoho učitele v požadovaných kurzech';
@@ -357,6 +359,7 @@ $string['enablegroupings'] = 'Povolit seskupování';
 $string['enablehtmlpurifier'] = 'Povolit HTML Purifier';
 $string['enablerecordcache'] = 'Povolit Record Cache';
 $string['enablerssfeeds'] = 'Povolit RSS zdroje';
+$string['enablesafebrowserintegration'] = 'Povolit prohlížeč Safe exam';
 $string['enablestats'] = 'Povolit statistiky';
 $string['enabletrusttext'] = 'Povolit Důvěryhodný obsah';
 $string['encoding'] = 'Kódování';
@@ -504,6 +507,7 @@ $string['mediapluginrpm'] = 'Aktivovat filtr .rpm';
 $string['mediapluginswf'] = 'Aktivovat filtr .swf';
 $string['mediapluginswfnote'] = 'Výchozí bezpečnostní nastavení nedovoluje řadovým uživatelům vkládat přímo do HTML textu soubory swf.';
 $string['mediapluginwmv'] = 'Aktivovat filtr .wmv';
+$string['mediapluginyoutube'] = 'Povolit filtr Odkaz na YouTube';
 $string['memcachedhosts'] = 'Hostitelé memcached';
 $string['memcachedpconn'] = 'memcached používá trvalé spojení';
 $string['messaging'] = 'Povolit systém zasílání zpráv';
@@ -643,6 +647,7 @@ $string['rcache'] = 'Vyrovnávací paměť DB záznamů';
 $string['rcachettl'] = 'Platnost dočasných záznamů';
 $string['recaptchaprivatekey'] = 'ReCAPTCHA soukromý klíč';
 $string['recaptchapublickey'] = 'ReCAPTCHA veřejný klíč';
+$string['regenloginsession'] = 'Generovat nové session id při přihlášení';
 $string['releasenoteslink'] = 'Informace o této verzi Moodlu najdete v <a target=\"_new\" href=\"$a\">Poznámkách k verzi</a>';
 $string['remotelangnotavailable'] = 'Nepodařilo se připojit k serveru download.moodle.org, automatickou instalaci jazykových balíčků proto nelze provést. Stáhněte prosím příslušné soubory ZIP ze seznamu níže, zkopírujte je do adresáře $a a ručně je dekomprimujte.';
 $string['renameerrors'] = 'Chyby při přejmenování';
@@ -681,6 +686,7 @@ $string['sessionhandling'] = 'Session';
 $string['sessiontimeout'] = 'Časový limit';
 $string['showblocksonmodpages'] = 'Ukazovat bloky na stránkách modulů';
 $string['simpletest'] = 'Testy';
+$string['simplexmlrequired'] = 'PHP rozšíření SimpleXML je vyžadováno';
 $string['sitelangchanged'] = 'Změna jazyka proběhla úspěšně';
 $string['sitemailcharset'] = 'Znaková sada';
 $string['sitemaintenance'] = 'Momentálně pracujeme na údržbě těchto stránek, proto nejsou dočasně k dispozici.';
