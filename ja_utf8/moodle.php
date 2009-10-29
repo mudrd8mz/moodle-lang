@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091027) (2009102600)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1136,6 +1136,7 @@ $string['noteachersyet'] = 'このコースにはまだ教師が登録されて�
 $string['notenrollable'] = '現在このコースには登録できません。';
 $string['notenrolled'] = '$a はこのコースに登録されていません。';
 $string['notenrolledprofile'] = 'コースに登録されていないため、このユーザのプロファイルは閲覧できません。';
+$string['noteusercannotrolldatesoncontext'] = '<strong>注意:</strong> あなたには、必要なパーミッションが不足しているため、このバックアップをリストアする場合の日付変更機能が無効にされました。';
 $string['noteuserschangednonetocourse'] = '<strong>注意:</strong> ユーザデータをリストアする場合、コースユーザをリストアする必要があります。あなたの設定が変更されました。';
 $string['nothingnew'] = '最終ログインより更新されたものはありません。';
 $string['nothingtodisplay'] = '表示するデータはありません。';

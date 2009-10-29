@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090828) (2009082800)
+      // grades.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
 
 
 $string['activities'] = '活動';
@@ -261,6 +261,7 @@ $string['gradepreferenceshelp'] = '評定オプションヘルプ';
 $string['gradepublishing'] = '公開を有効にする';
 $string['graderreport'] = '評定者レポート';
 $string['grades'] = '評定';
+$string['gradesforuser'] = '$a->user の評点';
 $string['gradesonly'] = '評点のみ';
 $string['gradessettings'] = '評定設定';
 $string['gradetype'] = '評定タイプ';

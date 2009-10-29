@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
 
 
 $string['1day'] = '1日';
@@ -97,6 +97,7 @@ $string['blackboard'] = 'Blackboard';
 $string['blackboard_six'] = 'Blackboard V6+';
 $string['bothattempts'] = '受験済みおよび未受験の学生を表示';
 $string['braceerror'] = '答えの周囲に {...} が見つかりませんでした。';
+$string['browsersecurity'] = 'ブラウザセキュリティ';
 $string['calculated'] = '計算問題';
 $string['calculatedquestion'] = '$a 行の計算された問題はサポートされていません。問題は無視されました。';
 $string['cannotcreatepath'] = 'パス ($a) が作成できません。';
@@ -508,6 +509,7 @@ $string['pleaseclose'] = 'あなたのリクエストは処理されました。
 $string['popup'] = '小テストを「セキュア」ウィンドウに表示する';
 $string['popupblockerwarning'] = 'これからテストはセキュアモードで表示されますので、あなたは新しいセキュアウィンドウを開く必要があります。現在使用中のポップアップブロッカーを解除してください。ありがとうございます。';
 $string['popupnotice'] = '学生は、この小テストをセキュアウィンドウで見ます。';
+$string['popupwithjavascriptsupport'] = 'Javaスクリプトセキュリティ対策を含んだフルスクリーンポップアップ';
 $string['preprocesserror'] = '前処理中にエラーが発生しました!';
 $string['preview'] = 'プレビュー';
 $string['previewquestion'] = '問題のプレビュー';
@@ -623,6 +625,7 @@ $string['reports'] = 'レポート';
 $string['reportsimplestat'] = '単純統計';
 $string['requirepassword'] = 'パスワード';
 $string['requirepasswordmessage'] = 'この小テストを受験するためは、パスワードを入力する必要があります。';
+$string['requiresafeexambrowser'] = 'Safe Exam Browserの使用を必要とする';
 $string['requiresubnet'] = 'ネットワークアドレス';
 $string['response'] = '解答';
 $string['responses'] = '解答';
@@ -645,6 +648,8 @@ $string['reviewresponsetoq'] = '解答のレビュー (問題 $a)';
 $string['reviewthisattempt'] = 'この受験に関して、あなたの解答をレビューします。';
 $string['rqp'] = 'リモート問題';
 $string['rqps'] = 'リモート問題';
+$string['safebrowsererror'] = 'この小テストは、Safe Exam Browserを使用してのみ受験できるよう、設定してあります。あなたは、このブラウザを使用して、受験することはできません。';
+$string['safebrowsernotice'] = 'この小テストは、学生がSafe Exam Browserを使用してのみ受験できるよう、設定してあります。';
 $string['sameasoverall'] = '全体の評点と同じ';
 $string['save'] = '保存';
 $string['saveandedit'] = '変更内容の保存および問題の編集';

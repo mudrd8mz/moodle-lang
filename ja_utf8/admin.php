@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091027) (2009102600)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -156,6 +156,7 @@ $string['configenablehtmlpurifier'] = '信頼できないテキストのクリ�
 $string['configenablerssfeeds'] = 'ここでは、サイト全体のRSSフィードを有効にします。RSSフィードの更新を実際に表示したい場合、各モジュールのRSSフィード設定も有効にする必要があります - サイト管理にあるモジュール管理を確認してください。';
 $string['configenablerssfeedsdisabled'] = 'サイトすべてにおいて、RSSフィードが利用不可にされているため、利用できません。管理メニュー内の詳細設定にて、RSSフィードを利用可にすることができます。';
 $string['configenablerssfeedsdisabled2'] = 'RSSフィードは、サーバレベルで無効にされています。あなたは、最初に「サーバ > RSS」にて、RSSを有効にする必要があります。';
+$string['configenablesafebrowserintegration'] = 'この設定を有効にした場合、小テスト設定の「ブラウザセキュリティ」フィールドに「Safe Exam Browserの使用を必要とする」を追加します。詳細は、http://www.safeexambrowser.org/ をご覧ください。';
 $string['configenablestats'] = 'この設定を有効にした場合、Moodleのcronジョブは、ログを処理して統計情報を集めます。あなたのサイトのトラフィックにより、しばらく時間がかかる場合があります。このオプションを有効にした場合、あなたの各コースまたはサイト全体に関して、面白いグラフおよび統計データを閲覧することができます。';
 $string['configenabletrusttext'] = 'デフォルトでは、Moodleは常に、ユーザによりアップロードされたセキュリティ上のリスクのある悪意を持ったスクリプト、メディア等をテキストから完全にクリーニングしています。コンテンツ信頼システムでは、特定のユーザによるコンテンツに対して、干渉しない拡張機能を適用することができます。このシステムを動作させるには、最初にこの設定を有効にした後、個別のMoodleロールにコンテンツ信頼パーミッションを与える必要があります。このようなユーザにより作成またはアップロードされたテキストには、信頼されている旨のマークが付けられ、表示前にクリーニングされることはありません。';
 $string['configenablewebservices'] = 'ウェブサービスでは、他のシステムがこのMoodleにログインして、操作できるようにします。セキュリティのため、あなたが本当に使用したい場合以外、この機能を無効にしてください。';
@@ -416,6 +417,7 @@ $string['enablegroupings'] = 'グルーピングを有効にする';
 $string['enablehtmlpurifier'] = 'HTML Purifierを有効にする';
 $string['enablerecordcache'] = 'レコードキャッシュを有効にする';
 $string['enablerssfeeds'] = 'RSSフィードを有効にする';
+$string['enablesafebrowserintegration'] = 'Safe Exam Browserインテグレーションを有効にする';
 $string['enablestats'] = '統計を有効にする';
 $string['enabletrusttext'] = 'コンテンツ信頼を有効にする';
 $string['enablewebservices'] = 'ウェブサービスを有効にする';

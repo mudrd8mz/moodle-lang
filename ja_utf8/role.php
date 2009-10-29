@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20091004) (2009100200)
+      // role.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -200,6 +200,7 @@ $string['resetrole'] = 'デフォルトにリセットする';
 $string['resetrolenolegacy'] = 'パーミッションをクリアする';
 $string['resetrolesure'] = '本当にロール「 $a->name ($a->shortname) 」をデフォルトにリセットしてもよろしいですか?</p><p>選択されたレガシーケイパビリティ ($a->legacytype) よりデフォルトが取得されます。';
 $string['resetrolesurenolegacy'] = '本当にこのロール「 $a->name ($a->shortname) 」で定義されたすべてのパーミッションをクリアしてもよろしいですか?';
+$string['restore:rolldates'] = 'リストア時、活動設定の日付変更を許可する';
 $string['risks'] = 'リスク';
 $string['role:assign'] = 'ユーザにロールを割り当てる';
 $string['role:manage'] = 'ロールを作成および管理する';
