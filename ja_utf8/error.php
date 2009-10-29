@@ -384,7 +384,7 @@ $string['refoundtoorigi'] = '注文金額の払戻し: $a';
 $string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\"$a->url\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「$a->dest」にコピーおよび解凍してください。';
 $string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['reportnotavailable'] = 'このタイプのレポートは、サイトコースのみで利用できます。';
-$string['restorechecksumfailed'] = 'あなたのセッションに保存されているリストア情報に問題が生じました。あなたはPHPメモリ/DBパッケージサイズの制限を確認してください。リストアを停止しました。';
+$string['restorechecksumfailed'] = 'あなたのセッションに保存されているリストア情報に問題が生じました。あなたのPHPメモリ/DBパッケージサイズ制限を確認してください。リストアを停止しました。';
 $string['restrictedcontextexception'] = '申し訳ございません、外部関数の実行により、コンテクストの制限に違反します。';
 $string['restricteduser'] = '申し訳ございません、あなたのアカウント「 $a 」では、この処理を実行できません。';
 $string['reverseproxyabused'] = '申し訳ございません、リバースプロクシが有効にされているため、サーバに直接アクセスできません。<br />サーバ管理者にご連絡ください。';
