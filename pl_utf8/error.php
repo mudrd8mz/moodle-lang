@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.3+ (Build: 20081112) (2007101531)
+      // error.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['adminprimarynoedit'] = 'Ustawienia głównego administratora nie mogą być zmieniane przez innych';
@@ -38,7 +38,7 @@ $string['errorcleaningdirectory'] = 'Błąd czyszczenia katalogu \"$a\"';
 $string['errorcopyingfiles'] = 'Błąd podczas kopiowania plików';
 $string['errorcreatingdirectory'] = 'Błąd podczas tworzenia katalogu \"$a\"';
 $string['errorcreatingfile'] = 'Błąd podczas tworzenia pliku \"$a\"';
-$string['erroronline'] = 'Błąd w lini $a';
+$string['erroronline'] = 'Błąd w linii $a';
 $string['errorreadingfile'] = 'Błąd podczas odczytu z pliku \"$a\"';
 $string['errorunzippingfiles'] = 'Błąd podczas rozpakowywania plików';
 $string['fieldrequired'] = '\"$a\" jest polem wymaganym';
@@ -50,6 +50,7 @@ $string['groupnotaddederror'] = 'Grupa \"$a\" nie została utworzona';
 $string['groupunknown'] = 'Grupa $a nie jest przypisana do tego kursu';
 $string['guestnoeditprofile'] = 'Gość nie może edytować swojego profilu.';
 $string['guestnoeditprofileother'] = 'Profil gościa nie może być zmieniony';
+$string['guestsarenotallowed'] = 'Gość nie może tego robić';
 $string['invalidcontext'] = 'Niepoprawny kontekst';
 $string['invalidcourse'] = 'Niepoprawny kurs';
 $string['invalidcourseid'] = 'Próbujesz użyć nieważnego kursu ID ($a)';

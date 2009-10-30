@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_quiz_results.php - created with Moodle 1.9 Beta 3 (2007101505)
+      // block_quiz_results.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['bestgrade'] = 'Najwyższy stopień';
@@ -27,6 +27,6 @@ $string['formaltitle'] = 'Wynik quizu';
 $string['worstgrade'] = 'Najniższy stopień:';
 $string['worstgrades'] = '$a najniższych stopni:';
 $string['worstgroupgrade'] = 'Grupa z najniższą średnia:';
-$string['worstgroupgrades'] = '$ grup z najniższą srednią:';
+$string['worstgroupgrades'] = '$ grup z najniższą średnią:';
 
 ?>

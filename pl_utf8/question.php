@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // question.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['adminreport'] = 'Raportuj o możliwych problemach w twojej bazie pytań.';
@@ -23,6 +23,7 @@ $string['donothing'] = 'Nie kopiuj, nie przenoś plików ani nie zmieniaj łącz
 $string['editingcategory'] = 'Edycja kategorii';
 $string['editingquestion'] = 'Edycja pytania';
 $string['erroraccessingcontext'] = 'Nie można uzyskać dostępu do kontekstu';
+$string['errordeletingquestionsfromcategory'] = 'Błąd podczas usuwania pytań z kategorii $a.';
 $string['errorfilecannotbecopied'] = 'Błąd podczas kopiowania pliku $a.';
 $string['errorfilecannotbemoved'] = 'Błąd podczas przenoszenia pliku $a.';
 $string['exportcategory'] = 'Eksportuj kategorię';
@@ -61,6 +62,7 @@ $string['permissionto'] = 'Masz uprawnienia do:';
 $string['published'] = 'współdzielony';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Pytanie \"$a->name\" ($a->qtype)</a> istnieje w tej kategorii pytań, ale także jest używane w <a href=\"$a->qurl\">quizie \"$a->quizname\"</a> w innym kursie \"$a->coursename\".';
 $string['questionbank'] = 'Baza pytań';
+$string['questioncategory'] = 'Kategoria pytań';
 $string['questioncatsfor'] = 'Kategorie pytań dla \'$a\'';
 $string['questiondoesnotexist'] = 'To pytanie nie istnieje';
 $string['questionuse'] = 'Użyj pytania w tej aktywności';

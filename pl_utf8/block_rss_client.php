@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.9 + (Build: 20080423) (2007101509)
+      // block_rss_client.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['addfeed'] = 'Dodaj adres URL niusów';
@@ -28,7 +28,7 @@ $string['feedsconfigurenewinstance'] = 'Kliknij tutaj żeby skonfigurować blok 
 $string['feedstitle'] = 'Zdalne źródło wiadomości RSS';
 $string['feedupdated'] = 'Uaktualnij źródło wiadomości';
 $string['findmorefeeds'] = 'Znajdź więcej źródeł wiadomości RSS';
-$string['managefeeds'] = 'Zarządzaj źródłami wiadomościi RSS';
+$string['managefeeds'] = 'Zarządzaj źródłami wiadomości RSS';
 $string['nofeeds'] = 'Na tej stronie nie ma źródła wiadomości RSS';
 $string['numentries'] = 'Wpisów na źródło';
 $string['pickfeed'] = 'Wybierz nowy źródło wiadomości';

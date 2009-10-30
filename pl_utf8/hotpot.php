@@ -1,21 +1,20 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.5.2 + (2005060223)
+      // hotpot.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['abandoned'] = 'Zaniechany';
-$string['allattempts'] = 'Wszystkie próby';
 $string['allmycourses'] = 'Wszystkie moje kursy';
+$string['allusers'] = 'Wszyscy użytkownicy';
+$string['alwaysopen'] = 'Zawsze otwarty';
 $string['average'] = 'Średnia';
-$string['bestattempt'] = 'Najlepsza próba';
 $string['checks'] = 'Sprawdzenia';
-$string['clues'] = 'Wiadomości ';
+$string['clues'] = 'Wiadomości';
+$string['completed'] = 'Zakończone';
 $string['copiedtoclipboard'] = 'Zawartość tej strony została skopiowana do schowka.';
 $string['copytoclipboard'] = 'Kopiuj do schowka';
 $string['correct'] = 'Poprawny';
 $string['deleteabandoned'] = 'Usuń zaniechane';
 $string['deleteabandonedcheck'] = 'Czy chce usunąć wszystkie $a zaniechane próby?';
-$string['deletedattempts'] = '$a  prób zostało usuniętych';
-$string['deletedresponses'] = '$a odpowiedzi zostało usuniętych';
 $string['enterafilename'] = 'Wprowadź nazwę pliku';
 $string['filetype'] = 'Typ pliku';
 $string['forceplugins'] = 'Wymuś media plugin';
@@ -34,7 +33,7 @@ $string['navigation_give_up'] = 'Pojedyńczy przycisk \"zaniechaj\"';
 $string['navigation_iframe'] = 'osadzony IFRAME';
 $string['navigation_none'] = 'Nikt';
 $string['noactivity'] = 'Nie aktywny';
-$string['noresponses'] = 'Informacja o poszczególnych pytaniach i odpowiedziach nie była znaleziona. ';
+$string['noresponses'] = 'Informacja o poszczególnych pytaniach i odpowiedziach nie była znaleziona.';
 $string['outputformat'] = 'format wyświetlania';
 $string['outputformat_best'] = 'najlepszy';
 $string['outputformat_flash'] = 'Flash';
@@ -49,7 +48,6 @@ $string['questionshort'] = 'Pyt. -$a';
 $string['quiztype'] = 'Typ quizu';
 $string['resultssaved'] = 'Wynik quizu został zapisany';
 $string['score'] = 'Punkt';
-$string['selectattempt'] = 'Zaznacz próbę';
 $string['showhtmlsource'] = 'Pokaż kod HTML';
 $string['shownextquiz'] = 'Pokaż następny quiz';
 $string['showxmlsource'] = 'Pokaż kod XML';

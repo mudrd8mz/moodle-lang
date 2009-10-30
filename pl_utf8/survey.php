@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // survey.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['actual'] = 'Aktualne';
@@ -141,10 +141,10 @@ $string['customintro'] = 'Twoje wprowadzenie do ankiety';
 $string['deleteallanswers'] = 'Wyczyść ankietę ze wszystkich odpowiedzi';
 $string['deleteanalysis'] = 'Usuń analizę odpowiedzi';
 $string['done'] = 'Wykonane';
-$string['download'] = 'Ściągnij';
-$string['downloadexcel'] = 'Ściągnij dane jako arkusz kalkulacyjny Excel';
-$string['downloadinfo'] = 'Możesz ściągnąć kompletne  dane dla tej ankiety w postaci nadającej się do analizy przy użyciu Excela, SPSS lub innego pakietu.';
-$string['downloadtext'] = 'Ściągnij dane w formie pliku tekstu zwykłego';
+$string['download'] = 'Pobierz';
+$string['downloadexcel'] = 'Pobierz dane jako arkusz kalkulacyjny Excel';
+$string['downloadinfo'] = 'Możesz pobrać kompletne dane dla tej ankiety w postaci nadającej się do analizy przy użyciu Excela, SPSS lub innego pakietu.';
+$string['downloadtext'] = 'Pobierz dane w formie pliku tekstu zwykłego';
 $string['editingasurvey'] = 'Edycja ankiety';
 $string['guestsnotallowed'] = 'Goście nie mogą brać udziału w ankietach';
 $string['helpsurveys'] = 'Pomoc na temat różnych rodzajów ankiet';

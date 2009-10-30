@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // assignment.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['allowdeleting'] = 'Zezwalaj na kasowanie przesłanych plików';
@@ -28,7 +28,7 @@ $string['configitemstocount'] = 'Co ma być traktowane jako oddane zadanie w zad
 $string['configmaxbytes'] = 'Standardowy dopuszczalny rozmiar zadania dla wszystkich zadań (zależy od limitów w kursach i innych lokalnych ustawień)';
 $string['configshowrecentsubmissions'] = 'Każdy może zobaczyć powiadomienia o przesłanych zadaniach w ostatnich raportach aktywności.';
 $string['confirmdeletefile'] = 'Czy na pewno chcesz skasować plik?<br /><strong>$a</strong>';
-$string['deleteallsubmissions'] = 'Usuń wszyskie przesłane zadania';
+$string['deleteallsubmissions'] = 'Usuń wszystkie przesłane zadania';
 $string['deletefilefailed'] = 'Skasowanie pliku nie powiodło się';
 $string['description'] = 'Opis';
 $string['draft'] = 'Wersja robocza';
@@ -108,6 +108,7 @@ $string['submitedformarking'] = 'Zadanie zostało już zgłoszone do oceny i nie
 $string['submitformarking'] = 'Ostateczne zgłoszenie do oceny zadania';
 $string['submitted'] = 'Oddane';
 $string['submittedfiles'] = 'Przesłane pliki';
+$string['trackdrafts'] = 'Włącz funkcję \'Wyślij do oceny\'';
 $string['typeoffline'] = 'Zadanie offline';
 $string['typeonline'] = 'Tekst online';
 $string['typeupload'] = 'Zaawansowane ładowanie plików';

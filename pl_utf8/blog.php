@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+      // blog.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
 
 
 $string['addnewentry'] = 'Dodaj nowy wpis';
@@ -34,6 +34,7 @@ $string['notallowedtoedit'] = 'Nie możesz edytować tego wpisu';
 $string['numberofentries'] = 'Wpisy: $a';
 $string['numberoftags'] = 'Liczba Tagów do wyświetlenia';
 $string['pagesize'] = 'Liczba wpisów blogu na stronie';
+$string['permalink'] = 'Link bezpośredni';
 $string['personalblogs'] = 'Użytkownicy mogą wyświetlać tylko własny blog';
 $string['publishto'] = 'Opublikuj do';
 $string['publishtonoone'] = 'Wpis prywatny (szkic)';
