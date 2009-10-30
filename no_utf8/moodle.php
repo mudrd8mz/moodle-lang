@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
+      // moodle.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1005,7 +1005,7 @@ $string['noimagesyet'] = 'Ingen bilder er lastet opp til siden ennå';
 $string['nologsfound'] = 'Ingen logger er funnet';
 $string['nomorecourses'] = 'Ingen flere sider ble funnet';
 $string['nomoreidnumber'] = 'For å unngå kollisjoner brukes ikke id-nummer';
-$string['none'] = 'Ikke gå tilbake';
+$string['none'] = 'Ingen';
 $string['noneditingteacher'] = 'Lærer  uten editor-rettigheter';
 $string['noneditingteacherdescription'] = 'Gjestelærere kan undervise i et kurs og evaluere studenter, men ikke endre aktiviteter';
 $string['nonstandard'] = 'Ikke-standard';
@@ -1192,7 +1192,7 @@ $string['requestreason'] = 'Grunn for kurssøknaden';
 $string['required'] = 'Obligatorisk';
 $string['requireskey'] = 'Dette kurset krever en sikkerhetsnøkkel';
 $string['requirespayment'] = 'Dette kurset krever innbetaling for å gi tilgang';
-$string['reset'] = 'tilbakestill';
+$string['reset'] = 'Tilbakestill';
 $string['resetcomponent'] = 'Komponent';
 $string['resetcourse'] = 'Tilbakestill kurset';
 $string['resetinfo'] = 'Denne siden lar deg tømme et kurs for brukerdata, men beholder aktiviteten og andre innstillinger. Vær oppmerksom på at hvis du velger punkter under og sender inn siden, så vil du slette de valgte brukerdata fra dette kurset for alltid!';
