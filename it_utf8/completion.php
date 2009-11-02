@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20090702) (2009070100)
+      // completion.php - created with Moodle 2.0 dev (Build: 20091102) (2009103000)
 
 
 $string['activitycompletion'] = 'Completamento attività';
@@ -14,7 +14,7 @@ $string['completion-alt-auto-fail'] = 'Completata senza raggiungere la sufficien
 $string['completion-alt-auto-n'] = 'Non completata';
 $string['completion-alt-auto-pass'] = 'Completata superando la sufficienza';
 $string['completion-alt-auto-y'] = 'Completata';
-$string['completion-alt-manual-enabled'] = 'Gli utenti possono tracciare manualmente l\'elemento per indicarlo come completato';
+$string['completion-alt-manual-enabled'] = 'Gli utenti possono tracciare manualmente l\'attività per indicarla come completata';
 $string['completion-alt-manual-n'] = 'Non completata; seleziona per indicare come completato';
 $string['completion-alt-manual-y'] = 'Completata';
 $string['completion-title-manual-n'] = 'Spunta come completata';
@@ -30,13 +30,13 @@ $string['completionreport'] = 'Report dello stato di avanzamento';
 $string['completionusegrade'] = 'Valutazione';
 $string['completionusegrade_text'] = 'L\'utente deve ricevere una valutazione';
 $string['completionview'] = 'Visualizzazione';
-$string['completionview_text'] = 'L\'utente deve vedere l\'attività';
+$string['completionview_text'] = 'L\'utente deve visualizzare l\'attività';
 $string['configenablecompletion'] = 'Abilita il tracciamento del completamento delle attività all\'interno dei corsi.';
-$string['configprogresstrackedroles'] = 'Ruoli visualizzati nel report delle attività completate. (In genere sono visualizzati gli studenti o i ruoli equivalenti)';
+$string['configprogresstrackedroles'] = 'Ruoli visualizzati nel report dello stato di avanzamento. (In genere sono visualizzati gli studenti o ruoli equivalenti)';
 $string['csvdownload'] = 'Scarica nel formato per foglio elettronico (UTF-8 .csv)';
 $string['enablecompletion'] = 'Traccia il completamento delle attività';
 $string['err_noactivities'] = 'Il tracciamento delle attività completate non è attivo per nessuna attività e pertanto non ci sono dati da visualizzare. E\' possibile abilitare il Il tracciamento delle attività completate nelle impostazioni delle singole attività.';
-$string['err_nousers'] = 'Non ci sono utenti nel corso o nel gruppo che abbiano dati relativi alle attività completate. (Per default il Report delle attività completate viene visualizzato per gli studenti, se il corso non ha studenti allora vedrete questo messaggio. Gli amministratori possono modificare le impostazioni di visualizzazione.)';
+$string['err_nousers'] = 'Nel corso o nel gruppo non ci sono utenti per i quali visualizzare il Report dello stato di avanzamento. (Per default il Report dello stato di avanzamento viene visualizzato per gli studenti, tuttavia se il corso non ha studenti comparirà il presente messaggio. Gli amministratori possono modificare le impostazioni di visualizzazione.)';
 $string['err_system'] = 'Si è verificato un errore nel sottosistema di tracciamento delle attività completate. (L\'Amministratore può abilitare il debug per approfondire il problema)';
 $string['excelcsvdownload'] = 'Scarica in formato compatibile con Excel (.csv)';
 $string['help_completion'] = 'tracciamento attività completate';

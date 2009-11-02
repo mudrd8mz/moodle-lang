@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091102) (2009103000)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1383,8 +1383,10 @@ $string['selectacountry'] = 'Seleziona il tuo stato';
 $string['selectall'] = 'Seleziona tutto';
 $string['selectamodule'] = 'Prego selezionare un modulo attività';
 $string['selectdefault'] = 'Seleziona default';
+$string['selectedfile'] = 'File selezionati';
 $string['selectednowmove'] = '$a file selezionati per lo spostamento. Ora clicca sulla cartella di destinazione e premi \'Sposta i file qui\'';
-$string['selectnos'] = 'Selezion tutti i \'no\'';
+$string['selectfiles'] = 'Seleziona file';
+$string['selectnos'] = 'Seleziona tutti i \'no\'';
 $string['selectperiod'] = 'Seleziona periodo';
 $string['senddetails'] = 'Invia i miei dati via email';
 $string['separate'] = 'Separato';

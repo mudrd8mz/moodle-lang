@@ -1,5 +1,5 @@
-<?PHP // $Id: 
-      // chat.php - created with Moodle 2.0 dev (Build: 20090915) (2009091310)
+<?PHP // $Id$ 
+      // chat.php - created with Moodle 2.0 dev (Build: 20091102) (2009103000)
 
 
 $string['ajax'] = 'Versione Ajax';
@@ -46,6 +46,7 @@ $string['messagebeepsyou'] = '$a ti ha richiamato!';
 $string['messageenter'] = '$a è entrato nella chat';
 $string['messageexit'] = '$a ha lasciato la chat';
 $string['messages'] = 'Messaggi';
+$string['messageyoubeep'] = 'Hai richiamato $a';
 $string['method'] = 'Metodo chat';
 $string['methoddaemon'] = 'Server chat';
 $string['methodnormal'] = 'Metodo standard';

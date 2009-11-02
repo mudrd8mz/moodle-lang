@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
+      // blog.php - created with Moodle 2.0 dev (Build: 20091102) (2009103000)
 
 
 $string['addnewentry'] = 'Nuovo intervento';
 $string['addnewexternalblog'] = 'Aggiungi blog esterno...';
+$string['association'] = 'Associazione';
 $string['associations'] = 'Associazioni';
 $string['backupblogshelp'] = 'Se abilitato, i blog verranno inclusi nei backup automatici di SITO';
 $string['blockexternalstitle'] = 'Blog esterni';
@@ -28,6 +29,7 @@ $string['cannotviewuserblog'] = 'Non siete autorizzati a vedere i blog degli ute
 $string['courseblog'] = 'Blog del corso: $a';
 $string['courseblogdisable'] = 'I Blog del corso non sono abilitati.';
 $string['courseblogs'] = 'Gli utenti possono vedere solo i blog  delle persone con le quali condividono un corso';
+$string['deleteblogassociations'] = 'Elimina associazioni blog';
 $string['deleteotagswarn'] = 'Sei sicuro di voler rimuovere questa/e tag <br/> da tutti gli interventi di blog e dal sistema?';
 $string['disableblogs'] = 'Disabilita il sistema dei blog';
 $string['donothaveblog'] = 'Spiacente, ma non avete un vostro blog.';
@@ -44,6 +46,7 @@ $string['entrytitle'] = 'Titolo intervento';
 $string['entryupdated'] = 'Intervento del blog aggiornato';
 $string['externalblogs'] = 'Blog esterni';
 $string['filterblogsby'] = 'Filtra gli interventi per...';
+$string['filtertags'] = 'Tag esterni';
 $string['groupblog'] = 'Blog del gruppo: $a';
 $string['groupblogdisable'] = 'I blog di gruppo non sono abilitati';
 $string['groupblogs'] = 'Gli utenti possono vedere solo i blog  delle persone che appartengono allo stesso gruppo';
@@ -52,9 +55,11 @@ $string['intro'] = 'Questo RSS è stato creato automaticamente da uno o più blo
 $string['invalidgroupid'] = 'ID gruppo non valida';
 $string['invalidurl'] = 'L\'URL non è raggiungibile';
 $string['maxexternalblogsperuser'] = 'Numero massimo consentito di blog esterni per ciascun utente';
+$string['modulename'] = 'Blog';
 $string['noentriesyet'] = 'Qui non ci sono interventi visibili';
 $string['noguestpost'] = 'Gli ospiti non possono inserire interventi nel blog!';
-$string['norighttodeletetag'] = 'Non ti è consentito di di eliminare questo tag - $a';
+$string['nopermissionstodeleteentry'] = 'Non hai i privilegi necessari per eliminare questo intervento';
+$string['norighttodeletetag'] = 'Non ti è consentito di eliminare questo tag - $a';
 $string['nosuchentry'] = 'Questo intervento blog non esiste';
 $string['notallowedtoedit'] = 'Non ti è consentito di modificare questo intervento';
 $string['numberofentries'] = 'Interventi: $a';
@@ -69,6 +74,7 @@ $string['publishtogroup'] = 'Utenti membri dei tuoi stessi gruppi';
 $string['publishtonoone'] = 'Personale (Bozza)';
 $string['publishtosite'] = 'Su questo sito';
 $string['publishtoworld'] = 'Su tutto il web';
+$string['searchterm'] = 'Cerca: $a';
 $string['settingsupdatederror'] = 'Si è verificato un errore, non è stato possibile aggiornare le preferenze del blog.';
 $string['siteblog'] = 'Blog del sito: $a';
 $string['siteblogdisable'] = 'I blog di sito non sono abilitati';
