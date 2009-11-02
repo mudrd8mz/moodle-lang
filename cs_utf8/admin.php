@@ -789,7 +789,7 @@ $string['uubulk'] = 'Vybrat pro hromadné operace';
 $string['uubulkall'] = 'Všichni uživatelé';
 $string['uubulknew'] = 'Noví uživatelé';
 $string['uubulkupdated'] = 'Aktualizovaní uživatelé';
-$string['uucoursedefaultrole'] = 'Výchozí role v kruzu';
+$string['uucoursedefaultrole'] = 'Výchozí role v kurzu';
 $string['uucsvline'] = 'řádka z CSV';
 $string['uulegacy1role'] = '(původně Student) typeN=1';
 $string['uulegacy2role'] = '(původně Učitel) typeN=2';
