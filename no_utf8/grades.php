@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // grades.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
 
 
 $string['activities'] = 'Aktiviteter';
@@ -256,6 +256,7 @@ $string['gradepreferenceshelp'] = 'Hjelp for karakterinnstillinger';
 $string['gradepublishing'] = 'Tillat publisering';
 $string['graderreport'] = 'Karaktersetting';
 $string['grades'] = 'Karakterer';
+$string['gradesforuser'] = 'Karakterer for $a->user';
 $string['gradesonly'] = 'Bare karakterer';
 $string['gradessettings'] = 'Karakterinnstillinger';
 $string['gradetype'] = 'Karaktertype';
