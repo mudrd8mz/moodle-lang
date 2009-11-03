@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091101) (2009103000)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091103) (2009103000)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -427,13 +427,13 @@ $string['environment'] = '動作環境';
 $string['environmenterrortodo'] = 'このバージョンのMoodleをインストールする前に、発見された動作環境の問題 (エラー) を解消してください!';
 $string['environmenterrorupgrade'] = 'このバージョンのMoodleをアップグレードする前に、発見された動作環境の問題 (エラー) を解消してください! これらの必要条件に関して修正せずにアップグレードした場合、データ喪失等の問題が生じる可能性があります。本当にアップグレードを続けてもよろしいですか?';
 $string['environmentmustfixsetting'] = 'PHP設定を必ず変更してください。';
-$string['environmentok'] = 'あなたのサーバ環境は、最小限の必要条件に合致します。';
-$string['environmentrecommendcustomcheck'] = 'このテストに不適合の場合、潜在的な問題があることを意味します。';
+$string['environmentok'] = 'あなたのサーバ環境は、最小限の必要条件すべてに合致します。';
+$string['environmentrecommendcustomcheck'] = 'このテストに不適合の場合、潜在的な問題が存在することを意味します。';
 $string['environmentrecommendinstall'] = '最適な動作のため、インストールおよび有効化してください。';
 $string['environmentrecommendversion'] = 'バージョン $a->needed 以上を推奨します。あなたは現在 $a->current を使用しています。';
-$string['environmentrequirecustomcheck'] = 'このテストはパスする必要があります。';
+$string['environmentrequirecustomcheck'] = 'このテストには、パスする必要があります。';
 $string['environmentrequireinstall'] = '必ずインストールおよび有効化してください。';
-$string['environmentrequireversion'] = 'バージョン $a->needed 以上が必須です。あなたは現在 $a->current を使用しています。';
+$string['environmentrequireversion'] = 'バージョン $a->needed 以上が必須です。あなたは、現在 $a->current を使用しています。';
 $string['environmentsettingok'] = '推奨設定が検出されました。';
 $string['environmentshouldfixsetting'] = 'PHP設定を変更してください。';
 $string['environmentxmlerror'] = '環境データ ($a->error_code) の読み込み中にエラーが発生しました。';
@@ -447,10 +447,10 @@ $string['experimental'] = '実験用';
 $string['experimentalsettings'] = '実験用設定';
 $string['experimentalsplitrestore'] = '実験用分割リストア';
 $string['extendedusernamechars'] = 'ユーザ名に拡張文字を許可する';
-$string['extramemorylimit'] = 'エクストラPHPメモリリミット';
+$string['extramemorylimit'] = '特別PHPメモリ制限';
 $string['extrauserselectorfields'] = 'ユーザの選択、検索および表示';
-$string['fatalmagicquotesruntime'] = '<p>深刻な設定エラーが見つかりました、サーバ管理者に報告してください。</p><p>適切に動作させるため、Moodleは管理者によるPHP設定の変更を必要とします。</p><p><code>magic_quotes_runtime</code>を<code>off</code>にしてください。</p><p>この設定は、<code>php.ini</code>、Apache/IIS <br />設定またはサーバの<code>.htaccess</code>ファイルの編集によりコントロールすることができます。</p>';
-$string['fatalsessionautostart'] = '<p>深刻な設定エラーが見つかりました、サーバ管理者に報告してください。</p><p>適切に動作させるため、Moodleは管理者によるPHP設定の変更を必要とします。</p><p><code>session.auto_start</code>を<code>off</code>にしてください。</p><p>この設定は、<code>php.ini</code>、Apache/IIS <br />設定またはサーバの<code>.htaccess</code>ファイルの編集によりコントロールすることができます。</p>';
+$string['fatalmagicquotesruntime'] = '<p>深刻な設定エラーが見つかりました、サーバ管理者に報告してください。</p><p>適切に動作させるため、Moodleは管理者によるPHP設定変更を必要とします。</p><p><code>magic_quotes_runtime</code>を<code>off</code>にしてください。</p><p>この設定は、<code>php.ini</code>、Apache/IIS <br />設定またはサーバの<code>.htaccess</code>ファイルの編集によりコントロールすることができます。</p>';
+$string['fatalsessionautostart'] = '<p>深刻な設定エラーが見つかりました、サーバ管理者に報告してください。</p><p>適切に動作させるため、Moodleは管理者によるPHP設定変更を必要とします。</p><p><code>session.auto_start</code>を<code>off</code>にしてください。</p><p>この設定は、<code>php.ini</code>、Apache/IIS <br />設定またはサーバの<code>.htaccess</code>ファイルの編集によりコントロールすることができます。</p>';
 $string['filecreated'] = '新しいファイルが作成されました。';
 $string['filestoredin'] = '言語ファイルを保存するフォルダ:';
 $string['filestoredinhelp'] = '編集済み言語ファイルの保存';
@@ -476,7 +476,7 @@ $string['frontpagerestore'] = 'フロントページリストア';
 $string['frontpageroles'] = 'フロントページロール';
 $string['frontpagesettings'] = 'フロントページ設定';
 $string['fullnamedisplay'] = 'フルネームフォーマット';
-$string['gdrecommended'] = 'GD拡張モジュールは、ユーザプロファイルイメージ等のイメージ変換に使用されます。GD拡張モジュールが登録されていない場合、この機能を利用できません。';
+$string['gdrecommended'] = 'GD拡張モジュールは、ユーザプロファイルイメージ等のイメージ変換に使用されます。GD拡張モジュールが設定されない場合、この機能を利用できません。';
 $string['gdversion'] = 'GDバージョン';
 $string['generalsettings'] = '一般設定';
 $string['geoipfile'] = 'GeoIP Cityデータファイル';
