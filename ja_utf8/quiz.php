@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
+      // quiz.php - created with Moodle 2.0 dev (Build: 20091103) (2009103000)
 
 
 $string['1day'] = '1日';
@@ -719,7 +719,7 @@ $string['summaryofattempt'] = '受験の要約';
 $string['summaryofattempts'] = 'あなたの前回受験の要約';
 $string['temporaryblocked'] = 'あなたは、小テストを一時的に受験することができません。<br /> 次に小テストを受験できる日時は:';
 $string['time'] = '時間';
-$string['timecompleted'] = '完了日時';
+$string['timecompleted'] = '受験完了';
 $string['timedelay'] = '次の小テストを受験するまでの待ち時間を経過していないため、あなたは小テストを受験することができません。';
 $string['timeleft'] = '残り時間';
 $string['timelimit'] = '制限時間';
