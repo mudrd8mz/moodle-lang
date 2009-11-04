@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
+      // grades.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
 
 
 $string['activities'] = 'Aktivity';
@@ -256,6 +256,7 @@ $string['gradepreferenceshelp'] = 'Nápoveda pre preferencie v známkovaní';
 $string['gradepublishing'] = 'Povoliť zverejnenie';
 $string['graderreport'] = 'Známkový výkaz';
 $string['grades'] = 'Známky';
+$string['gradesforuser'] = 'Známky pre používateľa $a->user';
 $string['gradesonly'] = 'Iba známky';
 $string['gradessettings'] = 'Nastavenia známok';
 $string['gradetype'] = 'Typ známky';
