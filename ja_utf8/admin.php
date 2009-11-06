@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091103) (2009103000)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091106) (2009110501)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -550,8 +550,8 @@ $string['langpackremoved'] = '言語パックのアンインストールが完�
 $string['langpacks'] = '言語パック';
 $string['langpackupdated'] = '言語パック $a が正常に更新されました。';
 $string['langpackupdateskipped'] = '言語パック $a の更新がスキップされました。';
-$string['langpackwillbeupdated'] = '翻訳者メモ: アップグレード中、Moodleはあなたの言語パックのアップグレードを試みます。ローカル言語フォルダ以外にある言語パックに関する修正はオーバーライドされます。';
-$string['langrmyourself'] = 'データロスを防ぐため、lang.phpは既存のファイルを空のコンテンツで上書きできません。ファイルを取り除くには、手動で削除してください。';
+$string['langpackwillbeupdated'] = '翻訳者メモ: アップグレード中、Moodleはあなたの言語パックのアップグレードを試みます。ローカル言語フォルダ以外にある言語パックに関する修正は、オーバーライドされます。';
+$string['langrmyourself'] = 'データ損失を防ぐため、lang.phpは既存のファイルを空のコンテンツで上書きできません。ファイルを取り除くには、手動で削除してください。';
 $string['languagesettings'] = '言語設定';
 $string['langupdatecomplete'] = '言語パックの更新が完了しました。';
 $string['latexpreamble'] = 'LaTeXプリアンブル';
@@ -576,7 +576,7 @@ $string['manageqtypes'] = '問題タイプの管理';
 $string['maxbytes'] = '最大アップロードサイズ';
 $string['maxconsecutiveidentchars'] = '連続した同一文字';
 $string['maxeditingtime'] = '投稿を編集できる最大時間';
-$string['mbstringrecommended'] = 'より良いパフォーマンスを得るため、mbstringライブラリのインストールおよび稼動を強くお勧めします。あなたのサイトがラテン文字以外をサポートしている場合、特にお勧めします。';
+$string['mbstringrecommended'] = 'サイトパフォーマンスを改善するため、mbstringライブラリのインストールおよび稼動を強くお勧めします。あなたのサイトがラテン文字以外をサポートしている場合、特にお勧めします。';
 $string['mediapluginavi'] = '.aviフィルタを有効にする';
 $string['mediapluginflv'] = '.flvフィルタを有効にする';
 $string['mediapluginimg'] = 'リンクイメージの自動埋め込みを有効にする';
@@ -601,24 +601,24 @@ $string['minpasswordupper'] = '大文字';
 $string['misc'] = 'その他';
 $string['missinglangparent'] = '「 $a->lang 」の親言語「 $a->parent 」がありません。';
 $string['mnetrestore_extusers'] = '<strong>注意:</strong> このバックアップファイルは、処理中にリストアされるMoodleネットワークユーザアカウントを含んでいます。';
-$string['mnetrestore_extusers_admin'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、Moodleネットワークユーザアカウントを含んでいます。リストア処理では、すべての作成済みユーザに対して、Moodleネットワークホストへの合致を試みます。合致しないユーザは、(mnet認証の代わりに) 自動的に内部認証へ切り替えられます。あなたは、この処理に関する情報をリストアログで閲覧することができます。';
-$string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。このバックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
-$string['mnetrestore_extusers_noadmin'] = '<strong>注意:</strong> このバックアップファイルは、他のMoodleで作成され、Moodleネットワークユーザアカウントを含んでいます。あなたは、このタイプのリストア処理の実行を許可されていません。サイト管理者に連絡するか、代わりに、このコースをユーザ情報なし (モジュール、ファイル ...) でリストアしてください。';
+$string['mnetrestore_extusers_admin'] = '<strong>注意:</strong> このバックアップファイルは他のMoodleで作成され、Moodleネットワークユーザアカウントを含んでるようです。リストア処理では、すべての作成済みユーザに対して、Moodleネットワークホストへの合致を試みます。合致しないユーザは、(mnet認証の代わりに) 自動的に内部認証へ切り替えられます。あなたは、この処理に関する情報をリストアログで閲覧することができます。';
+$string['mnetrestore_extusers_mismatch'] = '<strong>注意:</strong> このバックアップファイルは他のMoodleで作成され、リストアできないMoodleネットワークユーザアカウントを含んでいます。この処理はサポートされていません。バックアップファイルがこのMoodleでバックアップされたこと、または必要なすべてのMoodleネットワークホストが設定されていることをあなたが保証できる場合のみ、リストアを試みてください。';
+$string['mnetrestore_extusers_noadmin'] = '<strong>注意:</strong> このバックアップファイルは他のMoodleで作成され、Moodleネットワークユーザアカウントを含んでいます。あなたは、このタイプのリストア処理の実行を許可されていません。サイト管理者に連絡するか、代わりに、このコースをユーザ情報なし (モジュール、ファイル ...) でリストアしてください。';
 $string['mnetrestore_extusers_switchuserauth'] = 'リモートMoodleネットワークユーザ $a->username ($a->mnethosturl) がローカル $a->auth 認証済みユーザに切り替えられました。';
 $string['modeditdefaults'] = '活動設定のデフォルト値';
 $string['modsettings'] = '活動の管理';
 $string['modulesecurity'] = 'モジュールセキュリティ';
 $string['multilangforceold'] = '古いmultilangシンタックスを強制する: class=\"multilang\" なしの &lt;span&gt; および &lt;lang&gt;';
 $string['multilangupgrade'] = 'multilangアップグレード';
-$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスはMoodle 1.8で変更されました。今後、&lt;lang&gt; タグはサポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
+$string['multilangupgradeinfo'] = 'multilangフィルタシンタックスは、Moodle 1.8で変更されました。今後、&lt;lang&gt; タグはサポートされません。<br /><br />例: &lt;span lang=\"en\" class=\"multilang\">Hello!&lt;/span&gt;&lt;span lang=\"es\" class=\"multilang\">Hola!&lt;/span&gt;<br /><br /><strong>既存のすべてのテキストに関するシンタックスをアップグレードしてもよろしいですか?</strong>';
 $string['multilangupgradenotice'] = 'あなたのサイトは、おそらく古いmultilangシンタックスを使用しています。<a href=\"multilangupgrade.php\">multilangアップグレード</a>をお勧めします。';
 $string['mustenablestats'] = 'このサイトでは、統計が有効にされていません。';
 $string['mycoursesperpage'] = 'コース数';
 $string['mymoodle'] = 'マイMoodle';
-$string['mymoodleredirect'] = 'ユーザにマイMoodleを強制する';
+$string['mymoodleredirect'] = 'ユーザにマイMoodleの使用を強制する';
 $string['mysql416bypassed'] = 'あなたのサイトがiso-8859-1 (ラテン) 言語のみ使用している場合、現在インストールされている MySQL 4.1.12 (またはそれ以上) を使用することができます。';
-$string['mysql416required'] = 'Moodle1.6では、将来すべてのデータをUTF-8に変換するため、MySQL 4.1.16が要求される最低限のバージョンです。';
-$string['navigationupgrade'] = 'このアップグレードでは、次のブロックに替えて、新しい2つのナビゲーションブロックが導入されます: 管理、コース活動および参加者。これらのブロックに特別なパーミッションを設定している場合、あなたの希望するとおりに、すべてが動作するかどうか確認してください。<br /><br />また、新しいスタイルを読み込むため、あなたのブラウザを「最新の情報に更新」してください。そうでない場合、新しいブロックは正常に動作しません。';
+$string['mysql416required'] = '将来すべてのデータをUTF-8に変換できるため、Moodle 1.6では、MySQL 4.1.16が要求される最低限のバージョンです。';
+$string['navigationupgrade'] = 'このアップグレードでは、次のブロックに替えて、新しい2つのナビゲーションブロックが導入されます: 管理、コース、活動および参加者。これらのブロックに特別なパーミッションを設定している場合、あなたの希望するとおりに、すべてが動作するかどうか確認してください。<br /><br />また、新しいスタイルを読み込むため、あなたのブラウザを「最新の情報に更新」してください。そうでない場合、新しいブロックは正常に動作しません。';
 $string['nobookmarksforuser'] = 'ブックマークはありません。';
 $string['nochanges'] = '変更なし';
 $string['nodatabase'] = 'データベースなし';
