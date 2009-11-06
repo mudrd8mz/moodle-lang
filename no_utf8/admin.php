@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
+      // admin.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -33,7 +33,7 @@ $string['badwordsdefault'] = 'Hvis spesialtilpasset pakke er tom, vil en standar
 $string['badwordslist'] = 'Spesialtilpasset pakke for fyord';
 $string['blockinstances'] = 'Hendelser';
 $string['blockmultiple'] = 'Flere';
-$string['blocksettings'] = 'Administrer bokser';
+$string['blocksettings'] = 'Administrer blokker';
 $string['bloglevel'] = 'Synlighet av blogg';
 $string['bookmarkadded'] = 'Bokmerke er lagt til';
 $string['bookmarkalreadyexists'] = 'Du har allerede bokmerket denne siden';
@@ -65,7 +65,7 @@ $string['configallowobjectembed'] = 'Som en standard sikkerhetsinnstilling vil i
 $string['configallowoverride'] = 'Tillat at rollene på venstre side overstyrer rollene i hver kolonne';
 $string['configallowoverride2'] = 'Velg hvilke rolle(r) som kan bli overstyrt av hver rolle i venstre kolonne.<br />NB! Disse innstillingene har bare betydning for brukere som har fått tillatelsene: moodle/role:override eller moodle/role:safeoverride.';
 $string['configallowunenroll'] = 'Hvis denne er satt til \'Ja\', kan studentene selv melde seg ut av klasser når de selv vil. Ellers kan de ikke det, og lærere og administratorer har full kontroll over denne prosessen.';
-$string['configallowuserblockhiding'] = 'Vil du at brukerne skal kunne skjule/vise bokser på hele nettstedet? Denne egenskap bruker javascript og informasjonskapsler for å huske tilstanden til hver boks, og påvirker kun brukerens eget skjermbilde.';
+$string['configallowuserblockhiding'] = 'Vil du at brukerne skal kunne skjule/vise blokker på hele nettstedet? Denne egenskap bruker javascript og informasjonskapsler for å huske tilstanden til hver boks, og påvirker kun brukerens eget skjermbilde.';
 $string['configallowusermailcharset'] = 'Hvis du tillater dette, vil alle brukere på nettstedet kunne spesifisere sitt eget karaktersett for bruk i epost.';
 $string['configallowuserswitchrolestheycantassign'] = 'Som standard kreves det moodle/role:assign for at brukere skal få bytte roller i et kurs. Aktiverer du denne fravikes dette kravet og listeboksen for bytte av rolle vises. Vi anbefaler at \"Tillat å tildele roller\" ikke settes slik at en bruker kan skifte til en overordnet rolle med flere rettigheter enn de allerede har.';
 $string['configallowuserthemes'] = 'Hvis du tillater dette, kan brukerne velge sitt eget design (utseende). Brukerdesign overstyrer portaldesign (men ikke kursdesign).';
@@ -236,7 +236,7 @@ $string['configsessioncookie'] = 'Denne innstillingen tilpasser navn på cookien
 $string['configsessioncookiedomain'] = 'Denne innstillingen tillater deg å endre domene som Moodle-cookies er tilgjengelige fra. Dette er nyttig for tilpassede Moodle-installasjoner (f.eks autentiserings eller påmeldingstillegg) som trenger å dele sesjonsdata fra Moodle til en webapplikasjon eller et annet underdomene. <strong>ADVARSEL: det er sterkt å anbefale at man lar denne står på standardinnstilling (tom) - en feil verdi her vil forhindre all innlogging til nettstedet.</strong>';
 $string['configsessioncookiepath'] = 'Hvis du har behov for å endre hvor nettlesere sender sine Moodle-cookies, kan du forandre denne innstillingen for å spesifiere en underkatalog på nettserveren. Hvis ikke, er standardinnstillingen \'/\' helt fin.';
 $string['configsessiontimeout'] = 'Hvis folk som er logget inn på dette nettstedet er passive i lang tid (uten å laste sider) vil de automatisk logges ut (sesjonene deres vil termineres). Denne variabelen spesifiserer hvor lang tid som skal gå før dette skjer.';
-$string['configshowblocksonmodpages'] = 'Noen aktivitetsmoduler støtter bokser på sidene sine. Hvis du slår på denne, vil lærerne kunne legge til sidebokser på disse sidene, ellers viser ikke grensesnittet denne muligheten.';
+$string['configshowblocksonmodpages'] = 'Noen aktivitetsmoduler støtter blokker på sidene sine. Hvis du slår på denne, vil lærerne kunne legge til sideblokker på disse sidene, ellers viser ikke grensesnittet denne muligheten.';
 $string['configshowsiteparticipantslist'] = 'Alle disse studenter og lærere på nettstedet vil bli listet opp på nettstedets deltakerliste. Hvem skal få lov til å se deltakerlisten for dette nettstedet?';
 $string['configsitemailcharset'] = 'All epost som genereres på ditt nettsted vil sendes i det spesifiserte karaktersett. Men hver enkelt bruker har lov til å tilpasse den hvis denne innstillingen er slått på.';
 $string['configsitemaxcategorydepth'] = 'Maksimal kategoridybde';
@@ -447,7 +447,7 @@ $string['importtimezones'] = 'Oppdater komplett liste med tidssoner';
 $string['importtimezonescount'] = '$a->count innlegg importert fra $a->source';
 $string['importtimezonesfailed'] = 'Ingen kilder funnet! (Dårlige nyheter)';
 $string['includemoduleuserdata'] = 'Ta med modulens brukerdata';
-$string['incompatibleblocks'] = 'Inkompatible bokser';
+$string['incompatibleblocks'] = 'Inkompatible blokker';
 $string['install'] = 'Installer den valgte språkpakken';
 $string['installedlangs'] = 'Installer de valgte språkpakkene';
 $string['intcachemax'] = 'Max intern cache';

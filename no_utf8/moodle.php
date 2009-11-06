@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
+      // moodle.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -60,16 +60,16 @@ $string['adminhelpfailurelogs'] = 'Se gjennom logger for mislykket innlogging';
 $string['adminhelphealthcenter'] = 'Automatisk påvisning av problem ved nettstedet';
 $string['adminhelplanguage'] = 'For å sjekke og redigere språkpakken som er i bruk';
 $string['adminhelplogs'] = 'Bla gjennom aktivitetsloggene på nettstedet';
-$string['adminhelpmanageblocks'] = 'Administrer installerte bokser og deres innstillinger';
+$string['adminhelpmanageblocks'] = 'Administrer installerte blokker og deres innstillinger';
 $string['adminhelpmanagedatabase'] = 'Direkte tilgang til databasen (Vær forsiktig!)';
 $string['adminhelpmanagefilters'] = 'Velg tekstfilter og relaterte innstillinger';
 $string['adminhelpmanagemodules'] = 'Kontroller installerte moduler og deres innstillinger';
 $string['adminhelpmanageroles'] = 'Opprett og definer roller som kan tildeles brukere';
-$string['adminhelpmymoodle'] = 'Konfigurer Mine moodle bokser for brukerne';
+$string['adminhelpmymoodle'] = 'Konfigurer Mine moodle blokker for brukerne';
 $string['adminhelpreports'] = 'Rapporter på nettstedsnivå';
 $string['adminhelpsitefiles'] = 'For å publiser generelle filer eller laste opp eksterne sikkerhetskopier';
 $string['adminhelpsitesettings'] = 'Angi utseende på startsiden';
-$string['adminhelpstickyblocks'] = 'Konfigurer Moodle med klistrebokser';
+$string['adminhelpstickyblocks'] = 'Konfigurer Moodle med klistreblokker';
 $string['adminhelpthemes'] = 'Velg utseende på nettstedet (farger, skrifttyper etc.)';
 $string['adminhelpuploadusers'] = 'Hent inn nye brukerkonti fra en tekstfil';
 $string['adminhelpusers'] = 'Angi brukere og godkjenningsmetoder';
@@ -176,8 +176,8 @@ $string['blockconfiga'] = 'Setter innstillinger for boksen $a';
 $string['blockconfigbad'] = 'Denne boksen er ikke riktig innstallert og det kan derfor ikke vises et innstillingspanel.';
 $string['blockdeleteconfirm'] = 'Du er i ferd med å slette boksen \'$a\' fullstendig. Dette vil slette alt som er knyttet til denne boksen i databasen. Er du SIKKER PÅ at du vil fortsette?';
 $string['blockdeletefiles'] = 'Alle data som var knyttet til boksen \'$a->block\' er  slettet fra databasen. For å fullføre slettingen (og forhindre at boksen reinstallerer seg), bør du  nå slette denne mappen fra tjenermaskinen din: $a->directory';
-$string['blocks'] = 'Bokser';
-$string['blocksaddedit'] = 'Legg til/rediger bokser';
+$string['blocks'] = 'Blokker';
+$string['blocksaddedit'] = 'Legg til/rediger blokker';
 $string['blockseditoff'] = 'Slå av boksredigering';
 $string['blocksediton'] = 'Slå på boksredigering';
 $string['blocksetup'] = 'Setter opp bokstabeller';
@@ -327,7 +327,7 @@ $string['createcategory'] = 'Lag kategori';
 $string['createfolder'] = 'Lag en mappe i $a';
 $string['createuserandpass'] = 'Lag et nytt brukernavn og passord for innlogging';
 $string['createziparchive'] = 'Lag ziparkiv';
-$string['creatingblocks'] = 'Lager bokser';
+$string['creatingblocks'] = 'Lager blokker';
 $string['creatingblocksroles'] = 'Oppretter blokknivå rolle-rettigheter og overstyringer';
 $string['creatingblogsinfo'] = 'Lager blogginfo';
 $string['creatingcategoriesandquestions'] = 'Lager kategorier og spørsmål';
@@ -849,7 +849,7 @@ $string['mailteachers'] = 'Meld fra til lærerne';
 $string['mainmenu'] = 'Hovedmeny';
 $string['makeafolder'] = 'Lag ei mappe';
 $string['makeeditable'] = 'Hvis du gjør \'$a\' skrivbar av tjeneren (f.eks. apache) kan du redigere denne fila direkte fra denne siden';
-$string['manageblocks'] = 'Bokser';
+$string['manageblocks'] = 'Blokker';
 $string['managecourses'] = 'Administrer kurs';
 $string['managedatabase'] = 'Behandle database';
 $string['managefilters'] = 'Filtre';
@@ -1118,7 +1118,7 @@ $string['phpinfo'] = 'PHP-info';
 $string['pictureof'] = 'Bilde av $a';
 $string['pleaseclose'] = 'Vennligst lukk dette vinduet';
 $string['plugincheck'] = 'Sjekk plugins';
-$string['pluginchecknotice'] = 'Følgende tabell viser moduler, bokser og filter som har blitt oppdaget i din nåværende Moodle-installasjon; De indikerer hva slags pluginer som standard og hvilke som ikke er det. Alle ikke-standard pluginer bør sjekkes og oppgraderes til nyeste versjon før du fortsetter denne oppgraderingen av Moodle.';
+$string['pluginchecknotice'] = 'Følgende tabell viser moduler, blokker og filtre som har blitt oppdaget i din nåværende Moodle-installasjon; De indikerer hva slags pluginer som standard og hvilke som ikke er det. Alle ikke-standard pluginer bør sjekkes og oppgraderes til nyeste versjon før du fortsetter denne oppgraderingen av Moodle.';
 $string['pluginsetup'] = 'Setter opp pluggbare tabeller';
 $string['policyaccept'] = 'Jeg forstår og godtar';
 $string['policyagree'] = 'Du må godta avtalen for å bruke dette nettstedet. Godtar du den?';
