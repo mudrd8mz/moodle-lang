@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20091006) (2009100600)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20091106) (2009110501)
 
 
 $string['additem'] = 'アイテムを追加する';
@@ -7,7 +7,7 @@ $string['answerstoleranceparam'] = '答えの許容誤差パラメータ';
 $string['atleastonerealdataset'] = '問題テキストの中には、少なくとも1つの実データセットを入れる必要があります。';
 $string['atleastonewildcard'] = '答えの公式または問題テキストの中には、少なくとも1つのワイルドカードを入れる必要があります。';
 $string['calcdistribution'] = '分布';
-$string['calclength'] = '有効数字';
+$string['calclength'] = '少数位';
 $string['calcmax'] = '最大';
 $string['calcmin'] = '最小';
 $string['dataitemdefined'] = ': 利用可能な定義済み数値 $a 件';
