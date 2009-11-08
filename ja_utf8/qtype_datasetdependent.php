@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20091106) (2009110501)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20091108) (2009110605)
 
 
 $string['additem'] = 'アイテムを追加する';
@@ -17,7 +17,7 @@ $string['existingcategory1'] = '文字 - このカテゴリ内の他の問題で
 $string['existingcategory2'] = 'ファイル - このカテゴリ内の他の問題ですでに使用されている既存のファイルセットより';
 $string['existingcategory3'] = 'リンク - このカテゴリ内の他の問題ですでに使用されている既存のリンクセットより';
 $string['forceregeneration'] = 'データを再生成する';
-$string['getnextnow'] = '追加するアイテムを今から取得する';
+$string['getnextnow'] = '「追加するアイテム」を仮取得する';
 $string['hexanotallowed'] = 'データセット <strong>{$a->name}</strong> では、16進形式の値 $a->value は許可されていません。';
 $string['item(s)'] = 'アイテム';
 $string['itemno'] = 'アイテム $a';
