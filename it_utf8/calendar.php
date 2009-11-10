@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 2.0 dev (Build: 20081124) (2008112400)
+      // calendar.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
 
 
 $string['advancedoptions'] = 'Opzioni avanzate';
@@ -69,6 +69,8 @@ $string['groupevent'] = 'Evento di gruppo';
 $string['groupevents'] = 'Eventi di gruppo';
 $string['hidden'] = 'nascosti';
 $string['ical'] = 'iCal';
+$string['invalidtimedurationminutes'] = 'La durata in minuti dell\'evento non è valida. La durata dee essere maggiore di 0, oppure selezionate Senza durata';
+$string['invalidtimedurationuntil'] = 'La data e l\'orario di fine evento sono precedenti alla data di inizio. Per proseguire dovete correggere questi valori.';
 $string['iwanttoexport'] = 'Esporta';
 $string['manyevents'] = '$a eventi';
 $string['mon'] = 'Lun';
@@ -88,10 +90,12 @@ $string['preferences'] = 'Preferenze';
 $string['preferences_available'] = 'Le tue preferenze';
 $string['quickdownloadcalendar'] = 'Download / iscrizione veloce al calendario';
 $string['recentupcoming'] = 'Recenti e dei prossimi 60 giorni';
-$string['repeateditall'] = 'Applica cambiamenti a tutti gli $a eventi in queste serie ripetute';
+$string['repeatedevents'] = 'Evento ripetuto';
+$string['repeateditall'] = 'Applica i cambiamenti a tutti gli eventi ripetuti ($a)';
 $string['repeateditthis'] = 'Applica cambiamenti solo per questo evento';
+$string['repeatevent'] = 'Ripeti l\'evento';
 $string['repeatnone'] = 'Senza ripetizioni';
-$string['repeatweeksl'] = 'Ripeti settimanalmente, creando';
+$string['repeatweeksl'] = 'Ripetizioni settimanali';
 $string['repeatweeksr'] = 'eventi';
 $string['sat'] = 'Sab';
 $string['saturday'] = 'Sabato';
@@ -131,6 +135,6 @@ $string['wednesday'] = 'Mercoledì';
 $string['weeknext'] = 'Prossima settimana';
 $string['weekthis'] = 'Questa settimana';
 $string['yesterday'] = 'Ieri';
-$string['youcandeleteallrepeats'] = 'Questo evento è parte di una serie di eventi ripetuti. Potete eliminare solo questo evento, oppure tutti gli $a eventi in questa serie in un colpo solo.';
+$string['youcandeleteallrepeats'] = 'Questo evento è parte di una serie di eventi ripetuti. Potete eliminare solo questo evento, oppure tutti gli eventi in questa serie ($a) in un colpo solo.';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091102) (2009103000)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1036,6 +1036,7 @@ $string['namesocial'] = 'sezione';
 $string['nametopics'] = 'argomento';
 $string['nameweeks'] = 'settimana';
 $string['nameweekscss'] = 'settimana';
+$string['navigation'] = 'Navigazione';
 $string['needed'] = 'Necessario';
 $string['never'] = 'Mai';
 $string['neverdeletelogs'] = 'Non eliminare mai i log';
@@ -1257,6 +1258,7 @@ $string['publicdirectory2'] = 'Aggiungi all\'elenco pubblico il nome del sito co
 $string['publicdirectorytitle'] = 'Vedi l\'elenco attuale dei siti';
 $string['publicsitefileswarning'] = 'Nota: i file salvati qui possono essere visualizzati da chiunque';
 $string['publicsitefileswarning2'] = 'Nota: i file salvati qui possono essere visualizzati da chiunque a conoscenza della URL oppure in grado di ricavarla. Per motivi di sicurezza si consiglia di eliminare file di backup subito dopo il ripristino.';
+$string['publicsitefileswarning3'] = 'Nota: i file caricati qui possono essere visualizzati da chiunque a conoscenza della URL oppure in grado di ricavarla. <br />Per motivi di sicurezza si raccomanda di caricare file di backup solamente nel folder sicuro \'backupdata\'.';
 $string['question'] = 'Domanda';
 $string['questionsinthequestionbank'] = 'Domande nel deposito';
 $string['readinginfofrombackup'] = 'Lettura informazioni dal Backup';

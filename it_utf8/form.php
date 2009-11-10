@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // form.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
 
 
 $string['addfields'] = 'Aggiungi $a campi al form';
@@ -32,6 +32,7 @@ $string['requiredelement'] = 'Compilazione obbligatoria';
 $string['revealpassword'] = 'Mostra';
 $string['security'] = 'Sicurezza';
 $string['selectallornone'] = 'Seleziona tutti/nessuno';
+$string['selected'] = 'Selezionati';
 $string['showadvanced'] = 'Mostra impostazioni avanzate';
 $string['somefieldsrequired'] = '$a = compilazione obbligatoria';
 $string['time'] = 'Ora';

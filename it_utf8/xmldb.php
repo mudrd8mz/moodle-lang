@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
 
 
 $string['actual'] = 'Attuale';
@@ -63,11 +63,16 @@ $string['duplicatefieldname'] = 'Un altro campo con quel nome esiste';
 $string['duplicatekeyname'] = 'Esiste già una chiave con quel nome';
 $string['edit'] = 'Modifica';
 $string['edit_field'] = 'Modifica Campo';
+$string['edit_field_save'] = 'Salva Campo';
 $string['edit_index'] = 'Modifica Indice';
+$string['edit_index_save'] = 'Salva Indice';
 $string['edit_key'] = 'Modifica Chiave';
+$string['edit_key_save'] = 'Salva Chiave';
 $string['edit_sentence'] = 'Modifica Clausola';
+$string['edit_sentence_save'] = 'Salva Clausola';
 $string['edit_statement'] = 'Modifica Dichiarazione';
 $string['edit_table'] = 'Modifica Tabella';
+$string['edit_table_save'] = 'Salva Tabella';
 $string['edit_xml_file'] = 'Modifica File XML';
 $string['enumvaluesincorrect'] = 'Valori incorretti per un campo enumerato';
 $string['expected'] = 'Attesi';
@@ -75,6 +80,7 @@ $string['extensionrequired'] = 'Spiacente - per svolgere questa azione è necess
 $string['field'] = 'Campo';
 $string['fieldnameempty'] = 'Nome campo vuoto';
 $string['fields'] = 'Campi';
+$string['fieldsnotintable'] = 'Il campo non è presente nella tabella';
 $string['fieldsusedinkey'] = 'Questo campo è una chiave';
 $string['filenotwriteable'] = 'File non scrivibile';
 $string['fkviolationdetails'] = 'La Foreign key $a->keyname nella tabella  $a->tablename è stata violata  $a->numviolations su un totale di $a->numrows righe.';

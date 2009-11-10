@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091026) (2009102201)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -43,6 +43,7 @@ $string['blockinstances'] = 'Istanze';
 $string['blockmultiple'] = 'Multiplo';
 $string['blocksettings'] = 'Gestione blocchi';
 $string['bloglevel'] = 'Visibilità del Blog';
+$string['bloglevelupgrade'] = 'Aggiornamento Visibilità del Blog';
 $string['bookmarkadded'] = 'Segnalibro aggiunto.';
 $string['bookmarkalreadyexists'] = 'Questa pagina è già presente nei tuoi segnalibri.';
 $string['bookmarkdeleted'] = 'Segnalibro eliminato.';
@@ -241,6 +242,8 @@ $string['configminpasswordnonalphanum'] = 'Le password devono avere almeno quest
 $string['configminpasswordupper'] = 'Le password devono avere almeno questo numero di lettere maiuscole.';
 $string['configmycoursesperpage'] = 'Numero massimo di corsi presenti nell\'elenco dei corsi ai quali si è iscritti.';
 $string['configmymoodleredirect'] = 'L\'impostazione reindirizza gli utenti non amministratori a /my dopo il login, sostituendo anche la navigazione verso la home page con /my';
+$string['confignavshowallcourses'] = 'Tramite questa impostazione gli utenti potranno vedere nel blocco Navigazione i link a tutti i corsi ai quali sono iscritti. Per default il link al corso appare solo quando l\'utente accede al corso stesso.';
+$string['confignavshowcategories'] = 'Visualizza le categorie di corso nelle briciole e nel blocco Navigazione';
 $string['confignodefaultuserrolelists'] = 'Questa impostazione evita che alcune funzioni obsolete (come ad esempio get_course_user, ecc.) possano ottenere l\'elenco di tutti gli utenti con il ruolo di default presenti nel database. Spuntate questa opzione se notate un degrado di prestazioni.';
 $string['confignonmetacoursesyncroleids'] = 'Per default tutte le attribuzioni di ruolo presenti nei corsi \"figli\" vengono sincronizzate nei metacorsi. E\' possibile selezionare uno o più ruoli che si desidera escludere dal processo di sincronizzazione.';
 $string['confignoreplyaddress'] = 'Le mail a volte sono spedite a nome di un utente (per esempio, gli interventi dei forum). L\'indirizzo mail qui specificato sarà  utilizzato come l\'indirizzo \"Da\" cui proviene il messaggio,nei casi in cui il ricevente non è in grado di replicare direttamente all\'utente (per esempio, quando un utente decide di mantenere il suo indirizzo privato).';
@@ -644,6 +647,8 @@ $string['mysql416bypassed'] = 'Comunque, se il vostro sito sta utilizzando SOLO 
 $string['mysql416required'] = 'MySQL 4.1.16 è la versione minima richiesta per Moodle 1.6 per garantire che tutti i dati possano essere convertiti in UTF-8 in futuro.';
 $string['navigationupgrade'] = 'Questo aggiornamento introduce due nuovi blocchi per la navigazione che andranno a sostituire i seguenti blocchi: Amministrazione, Corsi, Attività e Partecipanti. Se avete configurato questi blocchi con privilegi particolar, dovreste verificare che tutto funzioni come atteso.<br /><br />
 Sarà anche necessario effettuare \"Shift-Refresh\" nel browser per caricare i nuovi stili, senza i quali i blocchi per la navigazione non potranno funzionare correttamente.';
+$string['navshowallcourses'] = 'Visualizza tutti corsi dell\'utente';
+$string['navshowcategories'] = 'Visualizza categorie di corso';
 $string['nobookmarksforuser'] = 'Non hai alcun segnalibro';
 $string['nochanges'] = 'Nessuna modifica';
 $string['nodatabase'] = 'Nessun database';
