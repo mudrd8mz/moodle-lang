@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
+      // grades.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
 
 
 $string['activities'] = 'Aktiviteter';
@@ -19,7 +19,7 @@ $string['aggregatemean'] = 'Middelverdi for karakterer';
 $string['aggregatemedian'] = 'Median for karakterer';
 $string['aggregatemin'] = 'Laveste karakter';
 $string['aggregatemode'] = 'Karaktermodus';
-$string['aggregateonlygraded'] = 'Samlet bare karakterer som ikke er tome';
+$string['aggregateonlygraded'] = 'Samlet bare karakterer som ikke er tomme';
 $string['aggregateonlygradedhelp'] = 'Ikkeeksisterende karakterer er enten behandlet som minimumskarakterer er eller ikke inkludert i samlingen';
 $string['aggregateoutcomes'] = 'Inkluder læringsmål i samlingen';
 $string['aggregateoutcomeshelp'] = 'Å inkludere læringsmålene i samlingen behøver ikke føre til den ønskede gjennomsnittskarakteren, så du har det som valg å inkludere eller holde dem utenfor.';

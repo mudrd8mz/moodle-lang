@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // assignment.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
 
 
 $string['allowdeleting'] = 'Tillat sletting';
@@ -92,7 +92,7 @@ $string['preventlate'] = 'Forhindre sene innleveringer';
 $string['quickgrade'] = 'Tillat rask karaktersetting';
 $string['responsefiles'] = 'Responsfil';
 $string['reviewed'] = 'Gjennomlest';
-$string['saveallfeedback'] = 'Lagre og send all(e) tilbakemelding(er)';
+$string['saveallfeedback'] = 'Lagre og send tilbakemelding(ene)';
 $string['sendformarking'] = 'Send for karaktersetting';
 $string['showrecentsubmissions'] = 'Vis nylige innleveringer';
 $string['submission'] = 'Innlevering';
