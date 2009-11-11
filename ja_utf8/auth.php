@@ -1,15 +1,15 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091027) (2009102600)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091111) (2009110605)
 
 
 $string['CASform'] = '認証選択';
 $string['accesCAS'] = 'CASユーザ';
 $string['accesNOCAS'] = '他のユーザ';
 $string['actauthhdr'] = '動作中の認証プラグイン';
-$string['alternatelogin'] = 'ここにURIを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong> フィールドおよび <strong>password</strong> フィールドをMoodleに渡してください。<br />間違ったURIを設定すると、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
+$string['alternatelogin'] = 'ここにURIを入力した場合、このサイトのログインページとして使用されます。ログインページでは、action属性に<strong>「 $a 」</strong>をセットして、 <strong>username</strong>フィールドおよび <strong>password</strong>フィールドをMoodleに渡してください。<br />間違ったURIを設定することで、あなたのサイトから締め出されることになりますので注意してください。<br />デフォルトのログイン画面を使用する場合、空白のままにしてください。';
 $string['alternateloginurl'] = '代替ログインURI';
 $string['auth_cas_auth_user_create'] = '外部にユーザを作成する';
-$string['auth_cas_baseuri'] = 'サーバのURI  (ベースURIが無い場合は空白)<br />CASサーバが host.domaine.fr/CAS/ に応答する場合、<br />cas_baseuri = CAS/';
+$string['auth_cas_baseuri'] = 'サーバのURI (ベースURIが無い場合は空白)<br />例えば、CASサーバが host.domaine.fr/CAS/ に応答する場合、<br />cas_baseuri = CAS/';
 $string['auth_cas_baseuri_key'] = 'ベースURI';
 $string['auth_cas_broken_password'] = 'あなたのパスワードを変更せずに進むことはできませんが、利用できるパスワード変更ページがありません。あなたのMoodle管理者にご連絡ください。';
 $string['auth_cas_cantconnect'] = 'CASモジュールのLDAPがサーバに接続できません: $a';
@@ -36,13 +36,13 @@ $string['auth_cas_server_settings'] = 'CASサーバ設定';
 $string['auth_cas_text'] = 'セキュアコネクション';
 $string['auth_cas_use_cas'] = 'CASを使用する';
 $string['auth_cas_version'] = 'CASのバージョン';
-$string['auth_casdescription'] = 'この認証方法では、単一ログイン環境 (Single Sign On environment: SSO) にて、CASサーバ (Central Authentication Service) をユーザ認証に使用します。シンプルLDAP認証を使用することもできます。ユーザ名とパスワードがCASで認証された場合、Moodleは新しいユーザエントリをデータベースに作成します。また、必要であれば、LDAPよりユーザ属性を取得します。次回からはユーザ名とパスワードのみ確認されます。';
+$string['auth_casdescription'] = 'この認証方法では、単一ログイン環境 (Single Sign On environment: SSO) にて、CASサーバ (Central Authentication Service) をユーザ認証に使用します。あなたは、シンプルLDAP認証を使用することもできます。ユーザ名およびパスワードがCASで認証された場合、Moodleは新しいユーザエントリをデータベースに作成します。また、必要であれば、LDAPよりユーザ属性を取得します。次回からはユーザ名とパスワードのみ確認されます。';
 $string['auth_casnotinstalled'] = 'CAS認証を使用できません。PHP LDAPモジュールがインストールされていません。';
 $string['auth_castitle'] = 'CASサーバ (SSO)';
-$string['auth_changepasswordhelp'] = 'パスワードヘルプの変更';
-$string['auth_changepasswordhelp_expl'] = 'ユーザが $a パスワードを忘れた場合、パスワード喪失ヘルプを表示します。これは、<strong>パスワード変更URI</strong>またはMoodle内部のパスワード変更画面と同時に、または代わりに表示されます。';
-$string['auth_changepasswordurl'] = 'パスワードURIの変更';
-$string['auth_changepasswordurl_expl'] = '$a パスワードを忘れたユーザが使用するURIを指定してください。<strong>通常のパスワード変更ページを使用する場合</strong>、<strong>No</strong>を設定してください。';
+$string['auth_changepasswordhelp'] = 'パスワード変更のヘルプ';
+$string['auth_changepasswordhelp_expl'] = 'ユーザが $a パスワードを忘れた場合、パスワード喪失ヘルプを表示します。これは、<strong>パスワード変更URI</strong>またはMoodle内部のパスワード変更画面と同時、または代わりに表示されます。';
+$string['auth_changepasswordurl'] = 'パスワード変更のURI';
+$string['auth_changepasswordurl_expl'] = '$a パスワードを忘れたユーザが使用するURIを指定してください。通常のパスワード変更ページを使用する場合、「No」を選択してください。';
 $string['auth_changingemailaddress'] = 'あなたは、$a->oldemail から $a->newemail へのメールアドレス変更をリクエストしました。セキュリティ上の理由から、新しいメールアドレスがあなたのメールアドレスか確認するため、私たちはあなたにメッセージを送信しています。このメッセージ内のURIにアクセスすることで、あなたのメールアドレスが更新されます。';
 $string['auth_common_settings'] = '共通設定';
 $string['auth_data_mapping'] = 'データマッピング';
