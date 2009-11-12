@@ -1,13 +1,18 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20091028) (2009102700)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20091112) (2009110605)
 
 
+$string['accessexception'] = 'Eccezione nel controllo accesso';
 $string['actwebserviceshhdr'] = 'Protocolli Web service disponibili';
 $string['addfunction'] = 'Aggiungi funzione';
 $string['addfunctionhelp'] = 'Selezionare la funzione da aggiungere al servizio';
 $string['addrequiredcapability'] = 'Assegna/togli il privilegio necessario';
+$string['addservice'] = 'Aggiungi un nuovo servizio: $a->name (id: $a->id)';
 $string['configwebserviceplugins'] = 'Per motivi di sicurezza, abilitate solamente i protocolli realmente necessari.';
+$string['deleteservice'] = 'Elimina il servizio: $a->name (id: $a->id)';
 $string['deleteserviceconfirm'] = 'Vuoi eliminare il servizio esterno \"$a\"?';
+$string['disabledwarning'] = 'I Web service sono disabilitati. L\'impostazione \"Abilita Web service\" si trova nelle Funzionalità avanzate.';
+$string['editservice'] = 'Modifica il servizio: $a->name (id: $a->id)';
 $string['enabled'] = 'Abilitato';
 $string['execute'] = 'Esegui';
 $string['executewarnign'] = 'ATTENZIONE: premendo il pulsante Esegui il database sarà modificato e le modiche apportate non potranno essere annullate automaticamente!';
@@ -19,6 +24,7 @@ $string['function'] = 'Funzione';
 $string['functions'] = 'Funzioni';
 $string['iprestriction'] = 'Restrizione IP';
 $string['manageprotocols'] = 'Gestione protocolli';
+$string['norequiredcapability'] = 'Nessun privilegio necessario';
 $string['potusers'] = 'Utenti non autorizzati';
 $string['potusersmatching'] = 'Utenti non autorizzati che corrispondono';
 $string['protocol'] = 'Protocollo';
@@ -26,6 +32,8 @@ $string['removefunction'] = 'Rimuovi';
 $string['removefunctionconfirm'] = 'Vuoi rimuovere la funzione \"$a->function\" dal servizio \"$a->service\"?';
 $string['requiredcapability'] = 'Privilegio necessario';
 $string['restrictedusers'] = 'Solo utenti autorizzati';
+$string['selectedcapability'] = 'Selezionato';
+$string['selectedcapabilitydoesntexit'] = 'Il privilegio impostato come necessario ($a) non esiste più. Per favore modificatelo e salvate i cambiamenti.';
 $string['servicename'] = 'Nome del servizio';
 $string['servicesbuiltin'] = 'Servizi predefiniti';
 $string['servicescustom'] = 'Servizi personalizzati';
