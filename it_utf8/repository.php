@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
+      // repository.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
 
 
 $string['accessiblefilepicker'] = 'File picker accessibile';
@@ -8,6 +8,7 @@ $string['activerepository'] = 'Repository plugin attive';
 $string['add'] = 'Aggiungi';
 $string['addfile'] = 'Aggiungi...';
 $string['addplugin'] = 'Attivazione repository plugin';
+$string['allowexternallinks'] = 'Consenti link esterni';
 $string['areabackup'] = 'Backup';
 $string['areacategoryintro'] = 'Introduzione alla categoria';
 $string['areacourseintro'] = 'Introduzione al corso';
@@ -30,9 +31,9 @@ $string['cleancache'] = 'Elimina i miei file dalla cache';
 $string['clicktohide'] = 'Click qui per nascondere';
 $string['clicktoshow'] = 'Click qui per mostrare';
 $string['close'] = 'Chiudi';
+$string['configallowexternallinks'] = 'E\' possibile disabilitare l\'utilizzo di link esterni nei repository';
 $string['configcacheexpire'] = 'La permanenza in cache, espressa in secondi, degli elenchi di file ottenuti da repository esterni.';
 $string['configsaved'] = 'Configurazione salvata!';
-$string['configuseexternallink'] = 'Il file picker riporterà i link ai file esterni invece di scaricarli.';
 $string['confirmdelete'] = 'Sei sicuro di voler eliminare il repository $a ?';
 $string['confirmdeletefile'] = 'Sei sicuro di voler eliminare questo file?';
 $string['confirmremove'] = 'Sei sicuro di voler eliminare questo repository plugin, le sue opzioni e <strong style=color:red>tutte le sue istanze</strong> - $a?';
@@ -74,6 +75,7 @@ $string['invalidjson'] = 'Stringa JSON non valida';
 $string['invalidplugin'] = 'Repository plug-in non valido';
 $string['invalidrepositoryid'] = 'Repository ID non valido';
 $string['keyword'] = 'Parola chiave';
+$string['linkexternal'] = 'Link esterno';
 $string['listview'] = 'visualizza come elenco';
 $string['loading'] = 'Caricamento in corso...';
 $string['login'] = 'Login';
@@ -123,9 +125,10 @@ $string['updown'] = 'Ordine';
 $string['upload'] = 'Carica questo file';
 $string['uploading'] = 'Caricamento in corso...';
 $string['uploadsucc'] = 'Il file è stato caricato correttamente';
-$string['useexternallink'] = 'Utilizza i link ai file senza scaricarli';
 $string['wrongcontext'] = 'Non puoi accedere a questo contesto';
 $string['xhtmlerror'] = 'Probabilmente state usando header XHTML strict, con le quali alcune componenti YUI non funzionano correttamente. Per favore disabilitate le componenti YUI in Moodle.';
 $string['ziped'] = 'La cartella è stata compressa correttamente';
+$string['configuseexternallink'] = 'Il file picker riporterà i link ai file esterni invece di scaricarli.'; // ORPHANED
+$string['useexternallink'] = 'Utilizza i link ai file senza scaricarli'; // ORPHANED
 
 ?>

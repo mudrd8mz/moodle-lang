@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20091102) (2009103000)
+      // error.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
 
 
 $string['TODO'] = 'TODO';
@@ -180,6 +180,7 @@ $string['ddlxmlfileerror'] = 'Sono stati rilevati errori nel file XML del databa
 $string['destinationcmnotexit'] = 'Il modulo destinazione del corso non esiste';
 $string['detectedbrokenplugin'] = 'Il plugin \"$a\" è difettoso, non è possibile proseguire';
 $string['dmlreadexception'] = 'Si è verificato un errore durante la lettura del database';
+$string['dmltransactionexception'] = 'Si è verificato un errore nella transazione del database';
 $string['dmlwriteexception'] = 'Si è verificato un errore durante la scrittura nel database';
 $string['downloadedfilecheckfailed'] = 'Il controllo del file scaricato non è andato a buon fine.';
 $string['duplicateparaminsql'] = 'Errore: query con nome duplicato del parametro';
@@ -475,18 +476,18 @@ $string['wrongsourcebase'] = 'Indirizzo (URL) sorgente errato.';
 $string['wrongusernamepassword'] = 'Utente/password errati';
 $string['wrongzipfilename'] = 'Il nome del file ZIP è errato.';
 $string['wscouldnotcreateecoursenopermission'] = 'WS - Non è stato possibile creare il corso - Mancanza di autorizzazioni';
-$string['wscouldnotcreateeusernopermission'] = 'WS - Non è stato possibile creare l\'utente - Mancanza di autorizzazioni';
-$string['wscouldnotdeletenoexistinguser'] = 'WS - Non è stato possibile eliminare l\'utente - L\'utente non esiste';
-$string['wscouldnotdeleteusernopermission'] = 'WS - Non è stato possibile eliminare l\'utente - Mancanza di autorizzazioni';
-$string['wscouldnotupdatenoexistinguser'] = 'WS - Non è stato possibile aggiornare l\'utente - L\'utente non esiste';
-$string['wscouldnotupdateuserindb'] = 'WS - Non è stato possibile aggiornare l\'utente';
-$string['wscouldnotupdateusernopermission'] = 'WS - Non è stato possibile aggiornare l\'utente - Mancanza di autorizzazioni';
-$string['wscouldnotvieweusernopermission'] = 'WS - Non è stato possibile visualizzare l\'utente - Mancanza di autorizzazioni';
 $string['wwwrootmismatch'] = 'E\' stato individuato un accesso errato, questo server può essere raggiunto solo da \"$a\".<br /><br />Per favore avvertite l\'amministratore del server.';
 $string['wwwrootslash'] = 'E\' stato individuata una $CFG->wwwroot errata nel file config.php. Non devono essere presenti slash alla fine.<br /><br />Per favore avvertite l\'amministratore del server.';
 $string['xmldberror'] = 'Errore XMLDB!';
 $string['youcannotdeletecategory'] = 'Non puoi eliminare la categoria \'$a\" poiché non puoi cancellarne i contenuti né spostarli altrove.';
 $string['younotteacher'] = 'Non sei un docente!';
+$string['wscouldnotcreateeusernopermission'] = 'WS - Non è stato possibile creare l\'utente - Mancanza di autorizzazioni'; // ORPHANED
+$string['wscouldnotdeletenoexistinguser'] = 'WS - Non è stato possibile eliminare l\'utente - L\'utente non esiste'; // ORPHANED
+$string['wscouldnotdeleteusernopermission'] = 'WS - Non è stato possibile eliminare l\'utente - Mancanza di autorizzazioni'; // ORPHANED
+$string['wscouldnotupdatenoexistinguser'] = 'WS - Non è stato possibile aggiornare l\'utente - L\'utente non esiste'; // ORPHANED
+$string['wscouldnotupdateuserindb'] = 'WS - Non è stato possibile aggiornare l\'utente'; // ORPHANED
+$string['wscouldnotupdateusernopermission'] = 'WS - Non è stato possibile aggiornare l\'utente - Mancanza di autorizzazioni'; // ORPHANED
+$string['wscouldnotvieweusernopermission'] = 'WS - Non è stato possibile visualizzare l\'utente - Mancanza di autorizzazioni'; // ORPHANED
 $string['cannotaddmembergroupiddoesntexist'] = 'Non è stato possibile aggiungere il membro del gruppo: l\'id del gruppo non esiste'; // ORPHANED
 $string['cannotfindsite'] = 'Non è possibile trovare il corso della pagina home'; // ORPHANED
 $string['coursedoesntexistcannotcreategroup'] = 'Non è possibile creare gruppi: il corso non esiste'; // ORPHANED
