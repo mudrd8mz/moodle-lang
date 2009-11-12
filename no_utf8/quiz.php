@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
+      // quiz.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
 
 
 $string['1day'] = '1 dag';
@@ -418,7 +418,7 @@ $string['questioninuse'] = 'Spørsmålet \'$a\' er i bruk:';
 $string['questionname'] = 'Spørsmålsnavn';
 $string['questionnametoolong'] = 'Spørsmålsnavnet er for langt i linje $a (maks 255 tegn). Det har blitt forkortet.';
 $string['questionno'] = 'Spørsmål $a';
-$string['questions'] = 'Spørsmål';
+$string['questions'] = 'Testbank';
 $string['questionsinclhidden'] = 'Spørsmål (inkludert skjulte)';
 $string['questionsinthisquiz'] = 'Spørsmål i denne testen';
 $string['questionsinuse'] = '(* Spørsmål markert med en asterix er allerede i bruk i noen tester. Disse spørsmålene vil ikke bli slettet fra disse testene, men fra kategorilisten.)';
