@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.3+ (Build: 20081119) (2007101531)
+      // question.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
+
+
 $string['adminreport'] = 'Rapport over mulige problemer i din spørsmålsdatabase.';
 $string['broken'] = 'Dette er en råtten lenke, filen den peker til finnes ikke.';
 $string['byandon'] = 'av <em>$a->user</em> på <em>$a->time</em>';
@@ -69,7 +71,7 @@ $string['permissionsaveasnew'] = 'Lagre som et nytt spørsmål';
 $string['permissionto'] = 'Du har tillatelse til:';
 $string['published'] = 'delt';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Spørsmål \"$a->name\" ($a->qtype)</a> er i denne kategorien, men er også benyttet i <a href=\"$a->qurl\">test \"$a->quizname\"</a> i kurset  \"$a->coursename\".';
-$string['questionbank'] = 'Spørsmålsbank';
+$string['questionbank'] = 'Testbank';
 $string['questioncategory'] = 'Spørsmålskategori';
 $string['questioncatsfor'] = 'Spørsmålskategorier for \'$a\'';
 $string['questiondoesnotexist'] = 'Spørsmålet finnes ikke';
@@ -87,4 +89,5 @@ $string['upgradeproblemcategoryloop'] = 'Problem oppdaget ved oppgradering av sp
 $string['upgradeproblemcouldnotupdatecategory'] = 'Kunne ikke oppdatere spørsmålskategorien  $a->name ($a->id).';
 $string['upgradeproblemunknowncategory'] = 'Problem oppdaget ved oppgradering av spørsmålskategorier. Kategorien $a->id peker til overordnet $a->parent, som ikke eksisterer. Overordnet kategori er endret for å fikse problemet.';
 $string['yourfileshoulddownload'] = 'Eksportfilen din blir nå lastet ned. Dersom intet skjer, vennligst <a href=\"$a\">klikk her</a>. Overordnet kategori er endret for å fikse problemet.';
+
 ?>
