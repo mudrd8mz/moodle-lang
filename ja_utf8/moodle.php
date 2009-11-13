@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091112) (2009110605)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -166,6 +166,7 @@ $string['backuploglaststatus'] = '最新実行ログ';
 $string['backuplogshelp'] = 'このオプションを有効にした場合、コースログが自動バックアップに含まれます。';
 $string['backupmetacoursehelp'] = 'このオプションを有効にした場合、メタコース情報 (ユーザ登録情報の継承) は自動バックアップに含まれます。';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['backupnext'] = '次のバックアップ';
 $string['backupnoneusersinfo'] = '注意: あなたはユーザをバックアップしない (「なし」) を選択をしました。すべてのモジュールのバックアップは「ユーザデータを含まないモード」に変更されました。「エクササイズ」および「ワークショップ」モジュールは、このタイプのバックアップと互換性が無いため、これらのモジュールのバックアップは完全に解除されました。';
 $string['backupnonisowarning'] = '警告: このバックアップは、非ユニコードバージョンのMoodle (1.6以前) によって作成されたものです。このバックアップに非ISO-8859-1テキストが含まれている場合、ユニコードバージョンのMoodleにリストアすると、文字化けが発生する可能性があります。このバックアップを正常にするための詳細情報は、<a href=\"http://docs.moodle.org/ja/バックアップFAQ\">バックアップFAQ</a>をご覧ください。';
 $string['backuporiginalname'] = 'バックアップ名';
