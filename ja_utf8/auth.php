@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091111) (2009110605)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091112) (2009110605)
 
 
 $string['CASform'] = '認証選択';
@@ -52,10 +52,10 @@ $string['auth_dbdebugauthdb'] = 'ADOdbデバッグ';
 $string['auth_dbdebugauthdbhelp'] = '外部データベースへのADOdbデバッグ接続 - ログイン時に空白ページが表示される場合、使用してください。実稼動サイトには適していません。';
 $string['auth_dbdeleteuser'] = 'ユーザ $a[0] id $a[1] を削除しました。';
 $string['auth_dbdeleteusererror'] = 'ユーザ $a の削除中にエラーが発生しました。';
-$string['auth_dbdescription'] = 'ユーザ名とパスワードを確認するため外部データベースを使用します。新しいアカウントを作成する場合、他のフィールドの情報がMoodleへ複製されます。';
+$string['auth_dbdescription'] = 'ユーザ名およびパスワードを確認するため、外部データベースを使用します。新しいアカウントを作成する場合、他のフィールドの情報がMoodleへコピーされます。';
 $string['auth_dbextencoding'] = '外部データベースエンコーディング';
-$string['auth_dbextencodinghelp'] = '外部データベースで使用されるエンコーディング';
-$string['auth_dbextrafields'] = 'これらのフィールドは任意項目です。あなたは、<b>外部データベースフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することもできます。<p>空白の場合、デフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後、すべてのフィールドを編集することができます。</p>';
+$string['auth_dbextencodinghelp'] = '外部データベースで使用されるエンコーディングです。';
+$string['auth_dbextrafields'] = 'これらのフィールドは任意項目です。あなたは、<b>外部データベースフィールド</b>より、事前に入力されたMoodleユーザフィールドを選択することもできます。<p>空白の場合、デフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後、すべてのフィールドを編集することができます。</p>';
 $string['auth_dbfieldpass'] = 'パスワードを含んだフィールド名';
 $string['auth_dbfieldpass_key'] = 'パスワードフィールド';
 $string['auth_dbfielduser'] = 'ユーザ名を含んだフィールド名';
@@ -68,12 +68,12 @@ $string['auth_dbname'] = 'データベース名';
 $string['auth_dbname_key'] = 'データベース名';
 $string['auth_dbpass'] = '上記ユーザ名に合致するパスワード';
 $string['auth_dbpass_key'] = 'パスワード';
-$string['auth_dbpasstype'] = '<p>パスワードフィールドで使用するフォーマットを指定してください。MD5暗号化はPostNukeのような他の一般的なウェブアプリケーションへの接続に有用です。</p><p>外部データベースでユーザ名およびメールアドレスを管理したい場合、「内部」を使用してください。パスワードに関しては、Moodleが管理します。「内部」を使用する場合、外部データベースのメールアドレスフィールドを提供して、定期的に admin/cron.php および auth/db/auth_db_sync_users.php を実行してください。Moodleが新しいユーザに仮パスワードをメール送信します。</p>';
+$string['auth_dbpasstype'] = '<p>パスワードフィールドで使用するフォーマットを指定してください。MD5暗号化は、PostNukeのような他の一般的なウェブアプリケーションへの接続に有用です。</p><p>外部データベースでユーザ名およびメールアドレスを管理したい場合、「内部」を使用してください。パスワードに関しては、Moodleが管理します。「内部」を使用する場合、外部データベースのメールアドレスフィールドを提供して、定期的に admin/cron.php および auth/db/auth_db_sync_users.php を実行してください。Moodleが新しいユーザに仮パスワードをメール送信します。</p>';
 $string['auth_dbpasstype_key'] = 'パスワードフォーマット';
 $string['auth_dbreviveduser'] = '回復ユーザ $a[0] id $a[1]';
 $string['auth_dbrevivedusererror'] = 'ユーザ $a の回復中にエラーが発生しました。';
 $string['auth_dbsetupsql'] = 'SQLセットアップコマンド';
-$string['auth_dbsetupsqlhelp'] = '特別データベースセットアップ用のSQLコマンドです。多くの場合、コミュニケーションエンコーディングに使用されます - 例 MySQLおよびPostgreSQL: <em>SET NAMES \'utf8\'</em>';
+$string['auth_dbsetupsqlhelp'] = '特別データベースセットアップ用のSQLコマンドです。多くの場合、コミュニケーションエンコーディングのセットアップに使用されます - 例 MySQLおよびPostgreSQL: <em>SET NAMES \'utf8\'</em>';
 $string['auth_dbsuspenduser'] = '一時停止ユーザ $a[0] id $a[1]';
 $string['auth_dbsuspendusererror'] = 'ユーザ $a の一時停止中にエラーが発生しました。';
 $string['auth_dbsybasequoting'] = 'Sybaseクオートを使用する';
@@ -91,7 +91,7 @@ $string['auth_dbuserstoadd'] = '追加するユーザエントリ: $a';
 $string['auth_dbuserstoremove'] = '削除するユーザエントリ: $a';
 $string['auth_emailchangecancel'] = 'メール変更をキャンセルする';
 $string['auth_emailchangepending'] = '変更保留中です。あなたのメールアドレス $a->preference_newemail に送信されたメッセージ内のリンクにアクセスしてください。';
-$string['auth_emaildescription'] = 'メールによるアカウント登録確認は、デフォルトの認証方法です。ユーザが新しいユーザ名とパスワードを選択してサインアップした場合、アカウント確定用メールがユーザのメールアドレスに送信されます。このメールにはユーザがアカウントの登録を確認するためのリンクが記入されています。アカウント確定後のログインでは、Moodleデータベースに保存されているユーザ名とパスワードのみを確認します。';
+$string['auth_emaildescription'] = 'メールによるアカウント登録確認は、デフォルトの認証方法です。ユーザが新しいユーザ名とパスワードを選択してサインアップした場合、アカウント確定用メールがユーザのメールアドレスに送信されます。このメールには、ユーザがアカウント登録を確認するためのリンクが記載されています。アカウント確定後のログインでは、Moodleデータベースに保存されているユーザ名およびパスワードのみを確認します。';
 $string['auth_emailnoemail'] = 'あなたへのメール送信に失敗しました!';
 $string['auth_emailnoinsert'] = 'あなたのレコードをデータベースに追加できませんでした!';
 $string['auth_emailnowexists'] = 'あなたのプロファイルに割り当てようと試みたメールアドレスは、あなたがリクエストした後、他のユーザに割り当てられています。このため、あなたのメールアドレス変更はキャンセルされましたが、他のアドレスを割り当てることはできます。';
@@ -105,13 +105,13 @@ $string['auth_emailupdatemessage'] = '$a->fullname さん
 あなたは、$a->site のアカウントに関するメールアドレスの変更をリクエストしました。この変更を確認するには、あなたのブラウザで以下のURIにアクセスしてください。
 
 $a->url';
-$string['auth_emailupdatesuccess'] = 'ユーザ <em>$a->fullname</em> のメールアドレスは、正常に <em>$a->email</em> に変更されました。';
+$string['auth_emailupdatesuccess'] = 'ユーザ <em>$a->fullname</em> のメールアドレスが、正常に <em>$a->email</em> に変更されました。';
 $string['auth_emailupdatetitle'] = '$a->site のメール更新確認';
 $string['auth_fcchangepasswordurl'] = 'パスワード変更のURI';
 $string['auth_fcconnfail'] = '接続に失敗しました。エラー番号: $a[0] エラーストリング: $a[1]';
-$string['auth_fccreators'] = 'メンバーがコースの作成を許可されているグループの一覧です。複数のグループは「;」で分けてください。グループ名はFirstClassサーバと厳密に同じ名称にしてください。システムは、大文字と小文字を区別します。';
+$string['auth_fccreators'] = 'メンバーがコースの作成を許可されているグループの一覧です。複数のグループは「;」で分けてください。グループ名は、FirstClassサーバと厳密に同じ名称にしてください。システムは、大文字と小文字を区別します。';
 $string['auth_fccreators_key'] = 'コース作成者';
-$string['auth_fcdescription'] = 'ここでは、ユーザ名とパスワードが正しいかチェックするためFisrtClassサーバを使用します。';
+$string['auth_fcdescription'] = 'ここでは、ユーザ名およびパスワードが正しいかチェックするため、FisrtClassサーバを使用します。';
 $string['auth_fcfppport'] = 'サーバポート (3333が最も一般的です)';
 $string['auth_fcfppport_key'] = 'ポート';
 $string['auth_fchost'] = 'FirstClassサーバアドレスです。IPアドレスまたはDNS名を使用してください。';
@@ -124,13 +124,13 @@ $string['auth_fcuserid_key'] = 'ユーザID';
 $string['auth_fieldlock'] = '設定値のロック';
 $string['auth_fieldlock_expl'] = '<p><b>設定値のロック:</b> このオプションを有効にした場合、Moodleユーザおよび管理者によるフィールドの直接編集を防ぎます。外部認証システムにデータを保持している場合、このオプションを使用してください。</p>';
 $string['auth_fieldlocks'] = 'ユーザフィールドのロック';
-$string['auth_fieldlocks_help'] = '<p>あなたはユーザデータフィールドをロックすることができます。ユーザレコードを管理者が手動で管理する方法、または「ユーザのアップロード」機能を使用してユーザレコードをアップロードする方法をとっているサイトに有用です。Moodleが必要とするフィールドをロックする場合、ユーザアカウント作成時にそれらのデータを必ず提供してください。そうでない場合、アカウントを使用できなくなります。</p><p>この問題を避けるため、「空の場合はロックしない」に設定することをお勧めします。</p>';
+$string['auth_fieldlocks_help'] = '<p>あなたは、ユーザデータフィールドをロックすることができます。ユーザレコードを管理者が手動で管理する方法、または「ユーザのアップロード」機能を使用してユーザレコードをアップロードする方法をとっているサイトに有用です。Moodleが必要とするフィールドをロックする場合、ユーザアカウント作成時にそれらのデータを必ず提供してください。そうでない場合、アカウントを使用できなくなります。</p><p>この問題を避けるため、「空の場合はロックしない」に設定することをお勧めします。</p>';
 $string['auth_imapchangepasswordurl_key'] = 'パスワード変更のURI';
-$string['auth_imapdescription'] = 'ユーザ名とパスワードを確認するためIMAPサーバを使用します。';
-$string['auth_imaphost'] = 'IMAPサーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
+$string['auth_imapdescription'] = 'ユーザ名およびパスワードを確認するためIMAPサーバを使用します。';
+$string['auth_imaphost'] = 'IMAPサーバアドレスです。IPアドレスではなく、ドメイン名を使用してください。';
 $string['auth_imaphost_key'] = 'ホスト';
 $string['auth_imapnotinstalled'] = 'IMAP認証を使用できません。PHP IMAPモジュールがインストールされていません。';
-$string['auth_imapport'] = 'IMAPサーバポート番号です。通常は143または993です。';
+$string['auth_imapport'] = 'IMAPサーバポート番号です。通常、143または993です。';
 $string['auth_imapport_key'] = 'ポート';
 $string['auth_imaptitle'] = 'IMAPサーバ';
 $string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバでは、異なる認証およびネゴシエーションを使用することができます。';
