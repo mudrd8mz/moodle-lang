@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091021) (2009100605)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
@@ -39,7 +39,7 @@ $string['auth_cas_version'] = 'CAS-versie';
 $string['auth_casdescription'] = 'Deze methode gebruikt een CAS-server (Central Authentication Service) om gebruikers in een Single Sign On omgeving (SSO) te authenticeren. Als de ingegeven gebuikersnaam en wachtwoord volgens CAS kloppen, dan zal Moodle een nieuwe gebruiker in zijn databank maken en de gebruikersgegevens uit LDAP overnemen indien nodig. Bij volgende aanmeldingen worden dan enkel de gebruikersnaam en wachtwoord gecontroleerd.';
 $string['auth_casnotinstalled'] = 'Kan CAS-authenticatie niet gebruiken. De PHP LDAP-module is niet geïnstalleerd.';
 $string['auth_castitle'] = 'CAS-server (SSO)';
-$string['auth_changepasswordhelp'] = 'Verander hulp voor wachtwoord';
+$string['auth_changepasswordhelp'] = 'Hulp bij wijzigen wachtwoord';
 $string['auth_changepasswordhelp_expl'] = 'Toon hulp aan gebruikers die hun $a wachtwoord niet meer hebben. Deze tekst zal getoond worden ofwel in de plaats van, ofwel samen met de <strong>Wijzig wachtwoord</strong>-link of het interne Moodle-mechanisme om wachtwoorden te wijzigen.';
 $string['auth_changepasswordurl'] = 'URL voor het wijzigen van het wachtwoord';
 $string['auth_changepasswordurl_expl'] = 'Specifieer de url waarnaar gebruikers gestuurd worden als ze hun $a wachtwoord verloren zijn. Verzet de instelling <strong>Gebruik standaard pagina voor wachtwoordwijziging</strong> naar <strong>Nee</strong>';
@@ -320,8 +320,9 @@ $string['chooseauthmethod'] = 'Kies een methode van authenticatie:';
 $string['createpasswordifneeded'] = 'Maak een wachtwoord indien nodig';
 $string['enterthenumbersyouhear'] = 'Vul hier de cijfers in die je hoort';
 $string['enterthewordsabove'] = 'Vul hier bovenstaande woorden in';
-$string['errorminpassworddigits'] = 'Wachtwoorden moeten minstens $a tekens hebben.';
-$string['errorminpasswordlength'] = 'Wachtwoorden moeten minstens $a karakters lang zijn.';
+$string['errormaxconsecutiveidentchars'] = 'Wachtwoorden mogen maximum $a opeenvolgende gelijke tekens hebben';
+$string['errorminpassworddigits'] = 'Wachtwoorden moeten minstens $a cijfers hebben.';
+$string['errorminpasswordlength'] = 'Wachtwoorden moeten minstens $a tekens lang zijn.';
 $string['errorminpasswordlower'] = 'Wachtwoorden moeten minstens $a kleine letters hebben.';
 $string['errorminpasswordnonalphanum'] = 'Wachtwoorden moeten minstens $a niet-alphanumerieke tekens hebben.';
 $string['errorminpasswordupper'] = 'Wachtwoorden moeten minstens $a hoofdletters hebben.';
@@ -359,6 +360,12 @@ $string['shib_no_attributes_error'] = 'Het lijkt er op dat je door Shibboleth ge
 $string['shib_not_all_attributes_error'] = 'Moodle heeft verschillende Shibboleth attributen nodig die in jouw geval niet aanwezig zijn. De attributen zijn: $a<br />Contacteer aub de webmaster van deze server of je identiteitsprovidor';
 $string['shib_not_set_up_error'] = 'Shibboleth authenticatie lijkt niet juist geïnstalleerd te zijn. Raadpleeg het <a href=\"README.txt\">README</a>-bestand voor meer informatie over hoe je Shibboleht authenticatie installeert.';
 $string['showguestlogin'] = 'Je kunt de knop om in te loggen als gast verbergen of laten zien op de inlogpagina.';
+$string['sso_idp_description'] = 'Publiceer deze service om het voor gebruikers mogelijk te maken naar de $a Moodle site te gaan zonder daar opnieuw te moeten inloggen.
+<ul><li><em>Dependentie:</em>Je moet op de SSO service (service provider) ook <strong>inschrijven</strong> op $a.</li></ul><br />Schrijf je op deze service in om geautenticeerde gebruikers van $a toegang te geven tot jouw site zonder dat ze opnieuw moeten inloggen.<ul><li><em>Dependentie</em>: je moet de SSO service (service provider) <strong>publiceren</strong> voor $a.</li></ul><br />';
+$string['sso_idp_name'] = 'SSO (identiteits provider)';
+$string['sso_mnet_login_refused'] = 'Gebruikersnaam $a heeft geen toelating om in te loggen vanuit $a.';
+$string['sso_sp_description'] = 'Publiceer deze service om geautenticeerde gebruikers van $a toe te laten tot jouw site, zonder op nieuw te moeten inloggen. <ul><li><em>Dependentie</em>: je moet ook <strong>inschrijven</strong> op de SSO service (identiteits provider) op $a.</li></ul><br />Inschrijven op deze service zal het voor je gebruikers mogelijk maken naar de $a Moodle site te gaan zonder daar opnieuw te moeten inloggen<ul><li><em>Dependentie</em>: Je moet ook de SSO service (identiteitsprovider) <strong>publiceren</strong> voor $a.</li><ul><br />';
+$string['sso_sp_name'] = 'SSO (service provider)';
 $string['stdchangepassword'] = 'Gebruik de standaardpagina om het wachtwoord te wijzigen';
 $string['stdchangepassword_expl'] = 'Zet dit op ja als het externe systeem toelaat om wachtwoorden via Moodle te wijzigen. Deze instelling gaat voor op de \"Verander wachtwoord-URL\"';
 $string['stdchangepassword_explldap'] = 'Merk op: het is aan te raaden om LDAP te gebruiken met een SSL geëncrypteerde tunnel (ldaps://) als de LDAP-server op afstand staat.';
@@ -371,17 +378,5 @@ $string['update_onupdate'] = 'Bij het updaten';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() ondersteunt het geselecteerde gebruikerstype niet: $a';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() ondersteunt het geselecteerde gebruikerstype (nog) niet';
 $string['auth_dbrevive'] = 'Ontvangen gebruiker $a[0] id $a[1]'; // ORPHANED
-
-
-// Strings below here are module specific and will be duplicated in auth_* files
-// Module specific language strings should also be copied into their respective
-// auth_*.php files to ensure compatibility in all versions of Moodle
-
-$string['sso_idp_description'] = 'Publiceer deze service om het voor gebruikers mogelijk te maken naar de $a Moodle site te gaan zonder daar opnieuw te moeten inloggen.
-<ul><li><em>Dependentie:</em>Je moet op de SSO service (service provider) ook <strong>inschrijven</strong> op $a.</li></ul><br />Schrijf je op deze service in om geautenticeerde gebruikers van $a toegang te geven tot jouw site zonder dat ze opnieuw moeten inloggen.<ul><li><em>Dependentie</em>: je moet de SSO service (service provider) <strong>publiceren</strong> voor $a.</li></ul><br />';
-$string['sso_idp_name'] = 'SSO (identiteits provider)';
-$string['sso_mnet_login_refused'] = 'Gebruikersnaam $a heeft geen toelating om in te loggen vanuit $a.';
-$string['sso_sp_description'] = 'Publiceer deze service om geautenticeerde gebruikers van $a toe te laten tot jouw site, zonder op nieuw te moeten inloggen. <ul><li><em>Dependentie</em>: je moet ook <strong>inschrijven</strong> op de SSO service (identiteits provider) op $a.</li></ul><br />Inschrijven op deze service zal het voor je gebruikers mogelijk maken naar de $a Moodle site te gaan zonder daar opnieuw te moeten inloggen<ul><li><em>Dependentie</em>: Je moet ook de SSO service (identiteitsprovider) <strong>publiceren</strong> voor $a.</li><ul><br />';
-$string['sso_sp_name'] = 'SSO (service provider)';
 
 ?>
