@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091112) (2009110605)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091116) (2009111600)
 
 
 $string['CASform'] = '認証選択';
@@ -109,7 +109,7 @@ $string['auth_emailupdatesuccess'] = 'ユーザ <em>$a->fullname</em> のメー�
 $string['auth_emailupdatetitle'] = '$a->site のメール更新確認';
 $string['auth_fcchangepasswordurl'] = 'パスワード変更のURI';
 $string['auth_fcconnfail'] = '接続に失敗しました。エラー番号: $a[0] エラーストリング: $a[1]';
-$string['auth_fccreators'] = 'メンバーがコースの作成を許可されているグループの一覧です。複数のグループは「;」で分けてください。グループ名は、FirstClassサーバと厳密に同じ名称にしてください。システムは、大文字と小文字を区別します。';
+$string['auth_fccreators'] = 'メンバーがコースの作成を許可されているグループの一覧です。複数のグループは「;」で区切ってください。グループ名は、FirstClassサーバと厳密に同じ名称にしてください。システムは、大文字と小文字を区別します。';
 $string['auth_fccreators_key'] = 'コース作成者';
 $string['auth_fcdescription'] = 'ここでは、ユーザ名およびパスワードが正しいかチェックするため、FisrtClassサーバを使用します。';
 $string['auth_fcfppport'] = 'サーバポート (3333が最も一般的です)';
@@ -137,7 +137,7 @@ $string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバでは�
 $string['auth_imaptype_key'] = 'タイプ';
 $string['auth_invalidnewemailkey'] = 'エラー: あなたがメールアドレスの変更確認を試みているのでしたら、あなたに送信されたメール内のURIのコピーに失敗しているようです。URIをコピーして、もう一度お試しください。';
 $string['auth_ldap_ad_create_req'] = 'Active Directoryに新しいアカウントを作成できません。アカウントを作成するためのすべての必要条件 (LDAPSコネクション、必要な権限を持ったユーザのバインド等) に合致しているか確認してください。';
-$string['auth_ldap_attrcreators'] = 'メンバーが属性の作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で分けてください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
+$string['auth_ldap_attrcreators'] = 'メンバーが属性の作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で区切ってください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
 $string['auth_ldap_attrcreators_key'] = '属性作成者';
 $string['auth_ldap_auth_user_create_key'] = '外部にユーザを作成する';
 $string['auth_ldap_bind_dn'] = 'あなたがユーザ検索にバインドユーザを使用したい場合、ここで指定してください。「cn=ldapuser,ou=public,o=org」のように指定します。';
@@ -146,12 +146,12 @@ $string['auth_ldap_bind_pw'] = 'ユーザバインドのパスワード';
 $string['auth_ldap_bind_pw_key'] = 'パスワード';
 $string['auth_ldap_bind_settings'] = 'バインド設定';
 $string['auth_ldap_changepasswordurl_key'] = 'パスワード変更のURI';
-$string['auth_ldap_contexts'] = 'ユーザが配置されているコンテクスト一覧です。異なるコンテクストは「;」で分けてください。例 「ou=users,o=org; ou=others,o=org」';
+$string['auth_ldap_contexts'] = 'ユーザが配置されているコンテクスト一覧です。異なるコンテクストは「;」で区切ってください。例 「ou=users,o=org; ou=others,o=org」';
 $string['auth_ldap_contexts_key'] = 'コンテクスト';
-$string['auth_ldap_create_context'] = 'メールによるアカウント登録確認でユーザを作成する場合、ユーザが作成されるコンテクストを指定してください。セキュリティの観点から、このコンテクストはユーザごとに異なるものにしてください。Moodleがコンテクストから自動的にユーザを探しますので、このコンテクストをldap_context-vaiableに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/auth.phpファイルのuser_create() 関数を修正する必要があります。';
+$string['auth_ldap_create_context'] = 'メールによるアカウント登録確認を使用してユーザを作成する場合、ユーザが作成されるコンテクストを指定してください。セキュリティの観点から、このコンテクストは、ユーザごとに異なるものにしてください。Moodleがコンテクストから自動的にユーザを探しますので、このコンテクストをldap_context-vaiableに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、あなたは、auth/ldap/auth.phpファイルのuser_create() 関数を修正する必要があります。';
 $string['auth_ldap_create_context_key'] = '新しいユーザのコンテクスト';
 $string['auth_ldap_create_error'] = 'LDAPユーザ作成中にエラーが発生しました。';
-$string['auth_ldap_creators'] = 'メンバーが新しいコースの作成を許可されているグループの一覧です。複数のグループは「;」で分けてください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
+$string['auth_ldap_creators'] = 'メンバーが新しいコースの作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で区切ってください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
 $string['auth_ldap_creators_key'] = 'コース作成者';
 $string['auth_ldap_expiration_desc'] = 'パスワードチェックの有効期限を無効にする場合、またはLDAPがLDAPサーバから直接passwordexpirationを参照する場合、「No」を選択してください。';
 $string['auth_ldap_expiration_key'] = '有効期限切れ';
@@ -161,11 +161,11 @@ $string['auth_ldap_expireattr_desc'] = '任意: パスワード有効期限を�
 $string['auth_ldap_expireattr_key'] = '有効期限切れ属性';
 $string['auth_ldap_graceattr_desc'] = '任意: 猶予ログイン属性をオーバーライドします。';
 $string['auth_ldap_gracelogin_key'] = '猶予ログイン属性';
-$string['auth_ldap_gracelogins_desc'] = 'LDAPの猶予ログインサポートを有効にします。パスワードの有効期限が切れた後、猶予ログインカウントがゼロになるまでログインすることができます。この設定を「Yes」にすることで、パスワードが期限切れになった場合に猶予ログインメッセージが表示されます。';
+$string['auth_ldap_gracelogins_desc'] = 'LDAPの猶予ログインサポートを有効にします。パスワードの有効期限が切れた後、猶予ログインカウントがゼロになるまでログインすることができます。この設定を「Yes」にすることで、パスワードが有効期限切れになった場合に猶予ログインメッセージが表示されます。';
 $string['auth_ldap_gracelogins_key'] = '猶予ログイン';
-$string['auth_ldap_groupecreators'] = 'メンバーがグループの作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で分けてください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
+$string['auth_ldap_groupecreators'] = 'メンバーがグループの作成を許可されているグループまたはコンテクストの一覧です。複数のグループは「;」で区切ってください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。';
 $string['auth_ldap_groupecreators_key'] = 'グループ作成者';
-$string['auth_ldap_host_url'] = 'LDAPホストのURIを「ldap://ldap.myorg.com/」または「ldaps://ldap.myorg.com/」のように明示してください。複数サーバのフェイルオーバーをサポートするには「;」で分けてください。';
+$string['auth_ldap_host_url'] = 'LDAPホストのURIを「ldap://ldap.myorg.com/」または「ldaps://ldap.myorg.com/」のように明示してください。複数サーバのフェイルオーバーをサポートするには「;」で区切ってください。';
 $string['auth_ldap_host_url_key'] = 'ホストURI';
 $string['auth_ldap_ldap_encoding'] = 'LDAPサーバで使用するエンコーディングを指定してください。ほとんどの場合はUTF-8ですが、MS AD v2ユーザデフォルトプラットフォームのエンコーディングは、cp1252、cp1250等のようになります。';
 $string['auth_ldap_ldap_encoding_key'] = 'LDAPエンコーディング';
@@ -177,10 +177,10 @@ $string['auth_ldap_memberattribute_key'] = 'メンバー属性';
 $string['auth_ldap_no_mbstring'] = 'Active Directoryにアカウントを作成するには、mbstring拡張モジュールが必要です。';
 $string['auth_ldap_noconnect'] = 'LDAPモジュールがサーバに接続できません: $a';
 $string['auth_ldap_noconnect_all'] = 'LDAPモジュールがすべてのサーバに接続できません: $a';
-$string['auth_ldap_noextension'] = '警告: PHP LDAPモジュールがインストールされていないようです。インストールおよび有効にされているかどうか確認してください。';
+$string['auth_ldap_noextension'] = '警告: PHP LDAPモジュールがインストールされていないようです。PHP LDAPモジュールがインストールおよび有効にされているかどうか確認してください。';
 $string['auth_ldap_objectclass'] = '任意: ldap_user_typeのname/searchユーザで使用されるオブジェクトクラスをオーバーライドします。通常、この設定を変更する必要はありません。';
 $string['auth_ldap_objectclass_key'] = 'オブジェクトクラス';
-$string['auth_ldap_opt_deref'] = '検索時、エイリアスをどのように扱うか次の値から選択してください: 「No」 (LDAP_DEREF_NEVER) または 「Yes」 (LDAP_DEREF_ALWAYS)';
+$string['auth_ldap_opt_deref'] = '検索時、エイリアスをどのように扱うか、次の値から選択してください: 「No」(LDAP_DEREF_NEVER) または 「Yes」(LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'エイリアスの修飾参照';
 $string['auth_ldap_passtype'] = 'LDAPサーバで使用する新規または変更パスワードのフォーマットを指定してください。';
 $string['auth_ldap_passtype_key'] = 'パスワードフォーマット';
