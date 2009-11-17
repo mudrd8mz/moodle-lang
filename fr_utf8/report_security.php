@@ -111,7 +111,7 @@ $string['check_passwordsaltmain_name'] = 'Sel de mot de passe';
 $string['check_passwordsaltmain_warning'] = 'Aucun sel de mot de passe n\'a été défini';
 $string['check_passwordsaltmain_ok'] = 'Le sel de mot de passe est correctement défini';
 $string['check_passwordsaltmain_weak'] = 'Le sel de mot de passe est faible';
-$string['check_passwordsaltmain_details'] = '<p>Il est fortement recommandé de définir un sel de mot de passe, qui réduit considérablement les possibilités de vol de mot de passe.<br />Pour définir un sel de mot de passe, ajouter la ligne ci-dessous à votre fichier config.php.</p><code>\$CFG->passwordsaltmain = \'unechaînedecaractèresaléatoires\';</code><p>La chaîne de caractères aléatoires doit être un mélange de lettres, de chiffres et d\'autres caractères.</p>';
+$string['check_passwordsaltmain_details'] = '<p>Il est fortement recommandé de définir un sel de mot de passe, qui réduit considérablement les possibilités de vol de mot de passe.<br />Pour définir un sel de mot de passe, ajouter la ligne ci-dessous à votre fichier config.php.</p><code>\$CFG->passwordsaltmain = \'une_très_longue_chaîne_de_caractères_aléatoires#@6&*1\';</code><p>La chaîne de caractères aléatoires doit être un mélange de lettres, de chiffres et d\'autres caractères.</p>';
 
 $string['check_riskadmin_detailsok'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système :</p>$a';
 $string['check_riskadmin_detailswarning'] = '<p>Veuillez vérifier la liste ci-dessous des administrateurs du système :</p>$a->admins<p>Il est recommandé de n\'attribuer le rôle d\'administrateur que dans le contexte Système. Les utilisateurs ci-dessous ont des attributions non supportées du rôle d\'administrateur :</p><p>$a->unsupported</p>';
