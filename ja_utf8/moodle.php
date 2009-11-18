@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091112) (2009110605)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091117) (2009111702)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -882,8 +882,8 @@ $string['local'] = 'ローカル';
 $string['locale'] = 'ja_JP.UTF-8';
 $string['location'] = 'ロケーション';
 $string['log_excel_date_format'] = 'yyyy/mm/dd h:mm';
-$string['loggedinas'] = 'あなたは $a としてログインしています';
-$string['loggedinasguest'] = 'あなたは現在ゲストとしてログインしています';
+$string['loggedinas'] = 'あなたは $a としてログインしています。';
+$string['loggedinasguest'] = 'あなたは現在ゲストとしてログインしています。';
 $string['loggedinnot'] = 'あなたはログインしていません。';
 $string['login'] = 'ログイン';
 $string['login_failure_logs'] = 'ログイン失敗ログ';

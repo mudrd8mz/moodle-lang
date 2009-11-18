@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20090911) (2009090800)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20091117) (2009111702)
 
 
 $string['add_item'] = '質問を追加する';
@@ -90,10 +90,10 @@ $string['import_successfully'] = '正常にインポートされました。';
 $string['importfromthisfile'] = 'このファイルからインポートする';
 $string['info'] = '情報';
 $string['infotype'] = '情報タイプ';
-$string['insufficient_responses_for_this_group'] = 'このグループに対して不十分な回答があります。';
+$string['insufficient_responses_for_this_group'] = 'このグループの回答数は、十分ではありません。';
 $string['item_label'] = 'ラベル';
 $string['item_name'] = '質問';
-$string['items_are_required'] = 'アスタリスクが付けられた質問は必須回答です。';
+$string['items_are_required'] = 'アスタリスクが付けられた質問は、必須回答です。';
 $string['label'] = 'ラベル';
 $string['line_values'] = '評定';
 $string['mapcourse'] = 'コースにマップする';
@@ -167,7 +167,7 @@ $string['save_item'] = '質問を保存する';
 $string['saving_failed'] = '保存に失敗しました。';
 $string['saving_failed_because_missing_or_false_values'] = '値が入力されていないか、正しくないため、保存に失敗しました。';
 $string['search_course'] = 'コースを検索する';
-$string['selected_dump'] = '選択された $SESSION 変数のインデックスは以下にダンプされます:';
+$string['selected_dump'] = '選択された$SESSION変数のインデックスは、以下にダンプされます:';
 $string['separator_decimal'] = '.';
 $string['separator_thousand'] = ',';
 $string['show_all'] = 'すべてを表示する';
