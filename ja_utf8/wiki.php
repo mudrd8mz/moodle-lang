@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20091027) (2009102700)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20091117) (2009111702)
 
 
 $string['action'] = '-- アクション --';
@@ -149,12 +149,12 @@ $string['removenotice'] = 'ここでは、閲覧されていないページの�
 $string['removepagecheck'] = '本当にこれらのページを削除してもよろしいですか?';
 $string['removepages'] = 'ページの削除';
 $string['removeselectedpages'] = '選択したページを削除';
-$string['revertallsince'] = 'バージョンを戻す、更新されたページも削除';
+$string['revertallsince'] = 'バージョンを戻す、そのバージョン以降の変更も取り除く';
 $string['revertchanges'] = '変更を元に戻す';
-$string['revertlastonly'] = '最新の更新のみ元に戻す';
+$string['revertlastonly'] = '最新の変更のみ元に戻す';
 $string['revertpages'] = '変更の大量取消し';
 $string['revertpagescheck'] = '本当に次の変更を元に戻してもよろしいですか:';
-$string['revertthe'] = 'バージョンを戻す、影響のあるページだけ削除';
+$string['revertthe'] = 'バージョンを戻す、影響のある変更のみ取り除く';
 $string['safehtml'] = 'セーフHTML';
 $string['save'] = '保存';
 $string['savenolock'] = '編集ロックされていないため、あなたはこのページを保存することはできません。これは、ブラウザのJavaスクリプトが無効にされている、または他のユーザがあなたのロックをオーバーライドした場合に発生します。<br />ブラウザの戻るボタンをクリックして前のページに戻った後、変更したテキストをコピーして、編集を再度試みてください。';
