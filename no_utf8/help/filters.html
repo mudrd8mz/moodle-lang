@@ -1,0 +1,67 @@
+<h1>Filterinnstillinger</h1>
+
+<p>Siden for Filterinnstillinger lar deg styre hvilke filtre som skal være aktive og i hvilken rekkefølge. Noen av filtrene har egne innstillinger i tillegg. Filtre bearbeider teksten på websiden rett før den vises for deg. På en måte kan en si at dette er "siste finish" på teksten som vises i nettleseren.</p>
+
+<p>Et filter kan legges til som en tilleggsfunksjon. Mer informasjon finner du i <a href="http://moodle.org/mod/data/view.php?id=6009">Moodle database over moduler og tillegsfunksjoner</a>.</p>
+
+<p>Velg hvilke filtre du ønsker å benytte ved å åpne "øyet" på dem. Dersom du har en liste med aktive filtre kan du endre  sorteringsrekkefølgen med opp/ned-pilene.</p> 
+   
+<h2>TeX notasjon</h2>
+
+<div class="indent">
+  <p>TeX notasjon brukes primært til å generere matematiske formler rett i teksten. F.eks:  $$ sqrt(a+b) $$ ($$ er taggen for start og slutt for dette formatet).</p>
+  <p>Moodle bruker et eksternt bibliotek til å rendre bildet og det kan hende biblioteket må konfigureres for din server. Filteret vil først se etter LaTeX renderer (Ghostscript kreves også med denne metoden). Mislykkes dette vil Moodle i stedet bruke det enklere biblioteket <i>mimetex</i> som er inkludert i Moodle-installasjonen. LaTeX lar deg bruke hele spekteret av matematiske uttrykk, mens mimetex bare har en del av disse matematiske uttrykkene.</p>
+
+  <p>Ghostscript finnes i Windowsversjon og det er også laget en LaTex implementasjon som kalles MikTex.</p>
+  <p>Du kan angi stien til bibliotekene for LaTeX og Ghostscript på under LaTex-innstillinger, ved siden av LaTeX innledningen.</p>
+  <h3>Mer informasjon</h3>
+  <p><a href="http://www.miktex.org/">MiKTeX</a><br />
+     <a href="http://www.forkosh.com/mimetex.html">MimeTeX</a><br />
+     <a href="http://www.latex-project.org/">LaTeX</a><br />
+     <a href="http://www.ghostscript.com/">Ghostscript</a></p>
+</div>
+
+<h2>Ordsensurering</h2>
+
+<div class="indent">
+  <p>Filteret for ordsensurering skanner teksten for forbudte ord, hentet fra en liste du kan redigere selv. Fordbudte ord sladdes med et svart felt. Du redigerer listen over forbudte ord fra Ordsensurering innstillinger.</p>
+</div>
+
+<h2>Autolenking av ressursnavn</h2>
+
+<div class="indent">
+  <p>Filteret "Autolenking av ressursnavn" skanner teksten for ressurstitler som finnes i samme kurs. Finnes de blir ressursen uthevet og og en lenke til ressursen opprettet. Merk at dette filteret krever at du konsekvent bruker beskrivende ressurstitler. F.eks. vil bruk av "Introdukson" som ressursnavn medføre at ordet "Introduksjon" bli lenket til uansett hva det refererer til.</p>
+</div>
+
+<h2>Autolenking av aktivitetsnavn</h2>
+
+<div class="indent">
+  <p>Filteret for "Autolenking av aktivitetsnavn" skanner teksten for aktivitetstitler som finnes i kurset. Finnes de blir aktiviteten uthevet g en lenke til aktiviteten opprettet. Merk at dette filteret krever at du konsekvent bruker beskrivende aktivitetsnavn. F.eks. vil en tittel som "Test" være lite brukbar siden alle forekomster av ordet "test" vil bli lenket opp uansett hva de refererer til</p>
+</div>
+
+<h2>Autolenking av ordbokoppslag</h2>
+
+<div class="indent">
+  <p>Dette filteret skanner teksten for nøkkelord som brukes i kursets ordbok og lager en lenke til oppslagsordet. Merk dog, at hver oppføring i ordboka må ha autolenking påslått. (Du kan sette det som standardvalg under Moduler > Aktiviteter > Ordbok > Innstillinger)./p>
+</div>
+
+<h2>E-post beskyttelse</h2>
+
+<div class="indent">
+  <p>Filteret for e-postbeskyttelse skanner teksten for e-postadresser. Dersom de finnes blir de gjort utilgjengelige for roboter som skanner tekst på nettsteder på leting etter e-postadresser. Aktivisering av dette filteret kan redusere spam-problemet dersom deler av portalen din er åpen for gjester.</p>
+</div>
+
+<h2>Tidy</h2>
+
+<div class="indent">
+  <p>Filteret Tidy skanner teksten for HTML-feil. Hvis den finner feil forsøker Tidy å rette de vanligste feilene. Merk at Tidy-tillegget må være installert i PHP på serveren din.</p>
+</div>
+
+<h2>Flerspråklig innhokd</h2>
+
+<div class="indent">
+  <p>Dette filteret lar deg opprette innhold på flere språk. Hvilket språk som vises styres av brukerens språkvalg i Moodle. Du lager innholdet ved først å opprette innhold på ønskede språk og deretter legge inn følgende tagger:</p>
+  <pre>      &lt;span lang="XX" class="multilang"&gt;Skriv inn innholdet ditt her&lt;/span&gt;</pre>
+  <p>You can still use the old (deprecated) span tags instead, for example:</p>
+  <pre>      &lt;lang lang="XX" &gt;Skriv inn innholdet ditt her&lt;/lang&gt;</pre>
+ </div>
