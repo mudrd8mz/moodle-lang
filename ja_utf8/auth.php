@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091116) (2009111600)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091117) (2009111702)
 
 
 $string['CASform'] = '認証選択';
@@ -185,9 +185,9 @@ $string['auth_ldap_opt_deref_key'] = 'エイリアスの修飾参照';
 $string['auth_ldap_passtype'] = 'LDAPサーバで使用する新規または変更パスワードのフォーマットを指定してください。';
 $string['auth_ldap_passtype_key'] = 'パスワードフォーマット';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAPパスワード有効期限設定';
-$string['auth_ldap_preventpassindb'] = 'Moodleデータベースへのパスワード保存を防ぐには、「Yes」を選択してください。';
-$string['auth_ldap_preventpassindb_key'] = 'パスワードを秘密にする';
-$string['auth_ldap_search_sub'] = 'サブコンテクストからユーザを検索する。';
+$string['auth_ldap_preventpassindb'] = 'Moodleデータベースにパスワードが保存されることを防ぐには、「Yes」を選択してください。';
+$string['auth_ldap_preventpassindb_key'] = 'パスワードを秘匿する';
+$string['auth_ldap_search_sub'] = 'サブコンテクストからユーザを検索します。';
 $string['auth_ldap_search_sub_key'] = 'サブコンテクストを検索する';
 $string['auth_ldap_server_settings'] = 'LDAPサーバ設定';
 $string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() は、選択された次のユーザタイプをサポートしていません: $a (..まだ)';
@@ -196,7 +196,7 @@ $string['auth_ldap_user_attribute'] = '任意: name/searchユーザに使用さ�
 $string['auth_ldap_user_attribute_key'] = 'ユーザ属性';
 $string['auth_ldap_user_exists'] = 'LDAPユーザ名は、すでに登録されています。';
 $string['auth_ldap_user_settings'] = 'ユーザルックアップ設定';
-$string['auth_ldap_user_type'] = 'ユーザがどのようにLDAPに保存されるか選択してください。この設定では、どのようにログイン有効期限、猶予ログイン、ユーザ作成が動作するのかも指定します。';
+$string['auth_ldap_user_type'] = 'ユーザがどのようにLDAPに保存されるか選択してください。また、この設定では、どのようにログイン有効期限、猶予ログイン、ユーザ作成が動作するのか指定します。';
 $string['auth_ldap_user_type_key'] = 'ユーザタイプ';
 $string['auth_ldap_usertypeundefined'] = 'config.user_typeが定義されていないか、動作していません。ldap_expirationtime2unixは、選択されたユーザタイプをサポートしていません!';
 $string['auth_ldap_usertypeundefined2'] = 'config.user_typeが定義されていないか、動作していません。ldap_unixi2expirationtimeは、選択されたユーザタイプをサポートしていません!';
