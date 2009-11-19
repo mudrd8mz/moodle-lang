@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20081210) (2008121000)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20091117) (2009111800)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -12,6 +12,7 @@ $string['accesslevel'] = 'Livello di accesso';
 $string['addhost'] = 'Aggiungi host';
 $string['addnewhost'] = 'Aggiungi un nuovo host';
 $string['addtoacl'] = 'Aggiungi al Controllo Accessi';
+$string['allhosts_no_options'] = 'Non ci sono opzioni disponibili quando si visualizzano host multipli';
 $string['allow'] = 'Consenti';
 $string['authfail_nosessionexists'] = 'Autorizzazione fallita: la sessione mnet non esiste.';
 $string['authfail_sessiontimedout'] = 'Autorizzazione fallita: la sessione mnet è scaduta.';
@@ -24,7 +25,7 @@ $string['configmnet'] = 'Il Moodle Networking permette a questo server di comuni
 $string['couldnotgetcert'] = 'Non è stato trovato nessun certificato su <br />$a. <br />. L\'host può essere spento o non configurato correttamente.';
 $string['couldnotmatchcert'] = 'Questo non corrisponde al certificato attualmente pubblicato dal webserver.';
 $string['courses'] = 'corsi';
-$string['courseson'] = ' corsi su';
+$string['courseson'] = 'corsi su';
 $string['current_transport'] = 'Trasporto attuale';
 $string['currentkey'] = 'Chiave pubblica attuale';
 $string['databaseerror'] = 'Non possono essere scritti dettagli nel database';

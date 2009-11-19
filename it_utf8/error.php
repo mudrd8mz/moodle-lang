@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
+      // error.php - created with Moodle 2.0 dev (Build: 20091117) (2009111800)
 
 
 $string['TODO'] = 'TODO';
@@ -86,6 +86,7 @@ $string['cannotmanualctrack'] = 'L\'attività non prevede il completamento manua
 $string['cannotmapfield'] = 'Conflitto di mappatura - due campi sono mappati allo stesso elemento di valutazione $a';
 $string['cannotmarktopic'] = 'Non è stato possibile contrassegnare quell\'argomento in questo ccorso';
 $string['cannotmetacourse'] = 'Non è possibile iscrivere il corso selezionato in questo meta corso!';
+$string['cannotmigratedatacomments'] = 'Non è possibile migrare i commenti del modulo database';
 $string['cannotmodulename'] = 'Non è possibile ottenere il nome del modulo per costruire la navigazione';
 $string['cannotmoduletype'] = 'Non è possibile ottenere l\'id del modulo per costruire la navigazione';
 $string['cannotmoverolewithid'] = 'Non è possibile spostare il ruolo con ID $a';
@@ -303,6 +304,7 @@ $string['listupdatefail'] = 'Durante la modifica della gerarchia dell\'elenco l\
 $string['logfilenotavailable'] = 'I log non sono disponibili';
 $string['loginasnoenrol'] = 'Non si può usare \"iscrivi\" o \"disiscrivi\" se si è in una sessione del corso \"Login come\".';
 $string['loginasonecourse'] = 'Non puoi entrare in questo corso.<br/>Devi prima terminare la sessione \"Login come\" prima di entrare in qualunque altro corso.';
+$string['maxbytes'] = 'Il file è più grande della dimensione massima consentita';
 $string['messagingdisable'] = 'In questo sito il messaging è disabilitato';
 $string['mimetexisnotexist'] = 'Il vostro sistema non è configurato per eseguire mimeTEX. Dovete scaricare l\'eseguibile adatto al vostro sistema operativo e versione PHP da <a href=\"http://moodle.org/download/mimetex/\">http://moodle.org/download/mimetex/</a>, oppure ottenere il codice sorgente C da <a href=\"http://www.forkosh.com/mimetex.zip\"> http://www.forkosh.com/mimetex.zip</a>, compilarlo e caricare l\'eseguibile risultante nella cartella moodle/filter/tex/.';
 $string['mimetexnotexecutable'] = 'Il mimetex personalizzato non è eseguibile!';
@@ -386,11 +388,13 @@ $string['refoundtoorigi'] = 'Ammontare pagato restituito a $a';
 $string['remotedownloaderror'] = 'Lo scaricamento delle componenti non è andato a buon fine. Verificate le impostazioni del proxy. L\'estensione PHP cURL è fortemente consigliata.<br /><br />Dovete scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" e decomprimerlo.';
 $string['remotedownloadnotallowed'] = 'Non è permesso scaricare i componenti su vostro server (allow_url_fopen è disabilitato). <br /><br /> È necessario scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" sul vostro server e scompattarlo la.';
 $string['reportnotavailable'] = 'Questo tipo di report è disponibile solamente nel corso della pagina home';
+$string['restorechecksumfailed'] = 'Si sono verificati alcuni problemi con le informazioni di ripristino presenti nella tua sessione. Per favore controllare i limiti della memoria PHP e della dimensione del pacchetto. Il ripristino è stato interrotto.';
 $string['restrictedcontextexception'] = 'Spiacente, l\'esecuzione di funzioni esterne viola le restrizioni del contesto.';
 $string['restricteduser'] = 'Spiacente, ma il suo account corrente  \"$a\" non ha il permesso per fare questo.';
 $string['reverseproxyabused'] = 'Spiacente ma il server non può essere raggiunto direttamente, è stato abilitato un reverse proxy.<br />Per favore contattate l\'amministratore del server.';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses: ($a)';
 $string['scheduledbackupsdisabled'] = 'I backup periodici sono stati disabilitati dall\'amministratore del server.';
+$string['searchableselectorcannotbemultiple'] = 'Il form element searchableselector non può essere multiplo. Rimuovere l\'attributo \'multiple\' dalla chiamata.';
 $string['secretalreadyused'] = 'Il link di conferma cambio password è già stato utilizzato, la password non è stata cambiata';
 $string['sectionnotexist'] = 'Questa sezione non esiste';
 $string['sendmessage'] = 'Invia messaggio';

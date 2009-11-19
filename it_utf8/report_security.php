@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20091117) (2009111702)
 
 
 $string['check_configrw_details'] = '<p>Si raccomanda di modificare i permessi del file config.php subito dopo l\'installazione per evitare che il file possa essere modificato da processi del web server.
@@ -84,7 +84,15 @@ $string['check_openprofiles_ok'] = 'Per accedere ai profili utente è necessario
 $string['check_passwordpolicy_details'] = '<p>Si raccomanda di attivare le regole per le password: le password facili vengono indovinate molto spesso e sono il modo più semplice per entrare nei sistemi senza essere autorizzati. Tuttavia, fate attenzione a non attivare regole password troppo complicate, altrimenti rischiate che i vostri utenti non siano in grado di ricordarle senza scriverle.</p>';
 $string['check_passwordpolicy_error'] = 'Le regole per le password non sono attive.';
 $string['check_passwordpolicy_name'] = 'Regole password';
-$string['check_passwordpolicy_ok'] = 'Le regole per le passowrd sono attive.';
+$string['check_passwordpolicy_ok'] = 'Le regole per le password sono attive.';
+$string['check_passwordsaltmain_details'] = '<p>Si raccomanda fortemente di impostare il password salt per minimizzare il rischio di furto di password.<br />Per impostare il password salt aggiungere la seguente linea al file config.php:</p>
+<code>$CFG->passwordsaltmain = \'stringa_molto_lunga_di_caratteri_casuali#@6&*1\';</code>
+<p>La stringa di caratteri casuali deve contenere lettere, numeri ed altri caratteri.</p>
+<p>Se in futuro il salt sarà cambiato, ricordate di mantenere nel file config.php i salt precedenti, è possibile specificare fino a 20 salt alternativi. Omettendo i salt precedenti gli utenti non saranno più in grado di autenticarsi e dovranno recuperare la propria password.<br /><code>$CFG->passwordsaltalt1 = \'salt_precedente\';</code><br /></p>';
+$string['check_passwordsaltmain_name'] = 'Password salt';
+$string['check_passwordsaltmain_ok'] = 'Password salt OK';
+$string['check_passwordsaltmain_warning'] = 'Il password salt non è stato impostato';
+$string['check_passwordsaltmain_weak'] = 'Il password salt è debole';
 $string['check_riskadmin_detailsok'] = '<p>Per favore verificate il seguente elenco di amministratori:<br/>$a</p>';
 $string['check_riskadmin_detailswarning'] = '<p>Per favore verificate il seguente elenco di amministratori:<br/>$a->admins</p>
 <p>Si raccomanda di assegnare il ruolo di amministratore solamente nel contesto di sito. I seguenti utenti hanno l\'assegnazione del ruolo amministratore non supportata:<br/>$a->unsupported</p>';

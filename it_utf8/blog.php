@@ -1,9 +1,11 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20091112) (2009110605)
+      // blog.php - created with Moodle 2.0 dev (Build: 20091117) (2009111800)
 
 
 $string['addnewentry'] = 'Nuovo intervento';
 $string['addnewexternalblog'] = 'Aggiungi blog esterno...';
+$string['associatewithcourse'] = 'Blog sul corso $a->coursename';
+$string['associatewithmodule'] = 'Blog su $a->modtype: $a->modname';
 $string['association'] = 'Associazione';
 $string['associations'] = 'Associazioni';
 $string['backupblogshelp'] = 'Se abilitato, i blog verranno inclusi nei backup automatici di SITO';
@@ -78,8 +80,10 @@ $string['permalink'] = 'Permalink';
 $string['personalblogs'] = 'Gli utenti possono vedere solo i propri blog';
 $string['preferences'] = 'Preferenze';
 $string['publishto'] = 'Pubblicazione';
-$string['publishtocourseassocparam'] = 'Membro di $a';
+$string['publishtocourse'] = 'Utenti iscritti ai tuoi stessi corsi';
+$string['publishtocourseassocparam'] = 'Membri di $a';
 $string['publishtogroup'] = 'Utenti membri dei tuoi stessi gruppi';
+$string['publishtogroupassocparam'] = 'I membri del tuo gruppo in $a';
 $string['publishtonoone'] = 'Personale (Bozza)';
 $string['publishtosite'] = 'Su questo sito';
 $string['publishtoworld'] = 'Su tutto il web';
@@ -101,8 +105,17 @@ $string['useexternalblogs'] = 'Abilita blog esterni';
 $string['userblog'] = 'Blog utente: $a';
 $string['userblogentries'] = 'Interventi blog di $a';
 $string['valid'] = 'Valido';
+$string['viewallblogentries'] = 'Tutti gli interventi su $a';
+$string['viewallmodentries'] = 'Tutti gli interventi su $a->type';
+$string['viewblogentries'] = 'Interventi su $a->type';
+$string['viewblogsfor'] = 'Visualizza tutti gli interventi su...';
+$string['viewcourseblogs'] = 'Visualizza interventi sul corso...';
+$string['viewgroupblogs'] = 'Visualizza interventi sul gruppo...';
+$string['viewmodblogs'] = 'Visualizza interventi sul modulo...';
+$string['viewmodentries'] = 'Interventi sul modulo';
 $string['viewmyentries'] = 'Miei interventi';
 $string['viewsiteentries'] = 'Tutti gli interventi';
+$string['viewuserentries'] = 'Interventi dell\'utente';
 $string['worldblogs'] = 'Chiunque può leggere gli interventi impostati come pubblici';
 $string['wrongpostid'] = 'Id dell\'intervento blog errata';
 $string['deleteposterror'] = 'Si è verificato un errore durante l\'eliminazione dell\'intervento'; // ORPHANED
