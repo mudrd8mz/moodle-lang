@@ -887,11 +887,11 @@ $string['updateaccounts'] = 'Aggiornare registrazioni esistenti';
 $string['updatecomponent'] = 'Aggiornare componenti';
 $string['updatelangs'] = 'Aggiorna tutti i Language Pack installati';
 $string['updatetimezones'] = 'Aggiorna fusi orari';
-$string['upgrade197notice'] = '<p>Per rafforzare la protezione dei dati degli utenti del vostro sito, Moodle 1.9.7 contiene numerose secuirty fix relative alle password degli utenti ed ai backup.<br />
-Per effetto di queste fix alcuni privilegi sui backup potrebbero essere stati modificate.<br />
+$string['upgrade197notice'] = '<p>Per rafforzare la protezione dei dati degli utenti del vostro sito, Moodle 1.9.7 aggiunge numerose secuirty fix per le password degli utenti e per i backup.<br />
+Per effetto di queste fix alcuni privilegi relativi ai backup potrebbero essere stati modificati.<br />
 Per maggiori informazioni consultare <a href=\'http://docs.moodle.org/en/Moodle_1.9.7_release_notes\' target=\'_blank\'>Moodle 1.9.7 release</a>.</p>';
 $string['upgrade197noticesubject'] = 'Moodle 1.9.7 upgrade - Note sulla sicurezza';
-$string['upgrade197salt'] = 'Per ridurre il rischio che le passowrd possano essere ricavate dagli hash, si consiglia vivamente di impostare un password salt. Per maggiori informazioni consultare <a href=\"$a\" target=\"_blank\">la documentazione sul password salting</a>.</a>';
+$string['upgrade197salt'] = 'Per ridurre il rischio che le password possano essere ricavate dagli hash, si consiglia vivamente di impostare un password salt. Per maggiori informazioni consultare <a href=\"$a\" target=\"_blank\">la documentazione sul password salting</a>.</a>';
 $string['upgradeerror'] = 'Si è verificato un errore sconosciuto durante l\'aggiornamento del plugin $a->plugin alla versione $a->version, non è possibile proseguire.';
 $string['upgradeforumread'] = 'Una nuova caratteristica è stata aggiunta a Moodle 1.5 per tracciare gli interventi letti/non letti di un forum.<br />Per utilizzarla, bisogna<a href=\"$a\">aggiornare le vostre tabelle</a>.';
 $string['upgradeforumreadinfo'] = 'Una nuova caratteristica è stata aggiunta da Moodle 1.5 per tracciare i messaggi letti/non letti di un forum. Per utilizzarla, bisogna aggiornare le vostre tabelle con tutte le informazioni di tracciamento dei messaggi pre-esistenti. Il tempo di esecuzione dipende dalle dimensioni del vostro sito e potrebbe durare anche ore, sottoponendo il server ad un lavoro gravoso. E\' dunque consigliabile farlo in un momento tranquillo. In ogni caso, il sito continuerà  a funzionare durante questa operazione e gli utenti non ne saranno interessati. Una volta lanciato, il processo non dovrebbe essere interrotto, lasciando aperta la finestra del browser. Se si fermasse il processo, chiudendo la finestra del browser, niente paura: si può sempre ricominciare. < br /><br />Si desidera iniziare adesso il processo di aggiornamento?';
