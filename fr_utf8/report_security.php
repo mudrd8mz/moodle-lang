@@ -17,7 +17,7 @@ $string['timewarning'] = 'Le traitement des données peut prendre beaucoup de te
 $string['check_configrw_details'] = '<p>Il est recommandé de modifier les permissions du fichier config.php après installation, afin qu\'il ne soit pas modifié par le serveur web. Veuillez noter que cette mesure n\'améliore pas de façon significative la sécurité du serveur, bien qu\'elle puisse ralentir ou limiter des attaques générales.</p>';
 $string['check_configrw_name'] = 'Fichier config.php accessible en écriture';
 $string['check_configrw_ok'] = 'Le fichier config.php ne peut pas être modifié par les scripts PHP.';
-$string['check_configrw_warning'] = 'Les scripts PHP pourrait modifier le fichier config.php.';
+$string['check_configrw_warning'] = 'Les scripts PHP pourraient modifier le fichier config.php.';
 
 $string['check_cookiesecure_details'] = '<p>Si vous activez la communication https, il vous est recommandé d\'activer également les cookies sécurisés. Veuillez également ajouter également une redirection permanente de http vers https.</p>';
 $string['check_cookiesecure_error'] = 'Veuillez activer les cookies sécurisés';
