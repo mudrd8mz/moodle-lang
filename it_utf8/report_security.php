@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20091117) (2009111702)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20091117) (2009111800)
 
 
 $string['check_configrw_details'] = '<p>Si raccomanda di modificare i permessi del file config.php subito dopo l\'installazione per evitare che il file possa essere modificato da processi del web server.
@@ -85,10 +85,11 @@ $string['check_passwordpolicy_details'] = '<p>Si raccomanda di attivare le regol
 $string['check_passwordpolicy_error'] = 'Le regole per le password non sono attive.';
 $string['check_passwordpolicy_name'] = 'Regole password';
 $string['check_passwordpolicy_ok'] = 'Le regole per le password sono attive.';
-$string['check_passwordsaltmain_details'] = '<p>Si raccomanda fortemente di impostare il password salt per minimizzare il rischio di furto di password.<br />Per impostare il password salt aggiungere la seguente linea al file config.php:</p>
+$string['check_passwordsaltmain_details'] = '<p>Si raccomanda fortemente di impostare il password salt per minimizzare il rischio di furto di password.</p>
+<p>Per impostare il password salt aggiungere la seguente linea al file config.php:</p>
 <code>$CFG->passwordsaltmain = \'stringa_molto_lunga_di_caratteri_casuali#@6&*1\';</code>
-<p>La stringa di caratteri casuali deve contenere lettere, numeri ed altri caratteri.</p>
-<p>Se in futuro il salt sarà cambiato, ricordate di mantenere nel file config.php i salt precedenti, è possibile specificare fino a 20 salt alternativi. Omettendo i salt precedenti gli utenti non saranno più in grado di autenticarsi e dovranno recuperare la propria password.<br /><code>$CFG->passwordsaltalt1 = \'salt_precedente\';</code><br /></p>';
+<p>La stringa di caratteri casuali deve contenere lettere, numeri ed altri caratteri. Si consiglia una stringa di almeno 40 caratteri.</p>
+<p>Per maggiori informazioni su come cambiare il salt: <a href=\"$a\" target=\"_blank\">password salting</a>. Una volta impostato il salt, non eliminatelo altrimenti  gli utenti non saranno più in grado di autenticarsi.</p>';
 $string['check_passwordsaltmain_name'] = 'Password salt';
 $string['check_passwordsaltmain_ok'] = 'Password salt OK';
 $string['check_passwordsaltmain_warning'] = 'Il password salt non è stato impostato';
