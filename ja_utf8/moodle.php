@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091117) (2009111702)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -1323,6 +1323,7 @@ $string['restorefinished'] = 'リストアが完了しました。';
 $string['restoreto'] = 'リストア';
 $string['restoretositeadding'] = '警告: あなたは、サイトフロントページをリストアしようとしています。サイトフロントページにデータが追加されます!';
 $string['restoretositedeleting'] = '警告: あなたは、サイトフロントページをリストアしようとしています。最初にサイトフロントページから、データが削除されます!';
+$string['restoreuserinfofailed'] = 'あなたには、ユーザデータをリストアするパーミッションがないため、リストア処理は中止されました。';
 $string['restricted'] = '使用禁止';
 $string['restrictmodules'] = '活動モジュールを制限しますか?';
 $string['returningtosite'] = 'アカウントをお持ちの方ですか?';
