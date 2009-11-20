@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091117) (2009111702)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['CASform'] = '認証選択';
@@ -202,13 +202,13 @@ $string['auth_ldap_usertypeundefined'] = 'config.user_typeが定義されてい�
 $string['auth_ldap_usertypeundefined2'] = 'config.user_typeが定義されていないか、動作していません。ldap_unixi2expirationtimeは、選択されたユーザタイプをサポートしていません!';
 $string['auth_ldap_version'] = 'あなたのサーバが使用しているLDAPプロトコルのバージョンです。';
 $string['auth_ldap_version_key'] = 'バージョン';
-$string['auth_ldapdescription'] = 'この方法では、外部のLDAPサーバに対して認証を提供します。ユーザ名とパスワードが正しい場合、Moodleは新しいユーザをデータベースに作成します。このモジュールは、ユーザ属性をLDAPから取得してMoodleのフィールドに入力します。認証後のログインでは、ユーザ名とパスワードのみ確認されます。';
-$string['auth_ldapextrafields'] = 'これらのフィールドは任意項目です。<b>LDAPフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合、LDAPよりデータは転送されず、代わりにMoodleのデフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後にすべてのフィールドを編集することができます。</p>';
+$string['auth_ldapdescription'] = 'この方法では、外部のLDAPサーバに対して認証を提供します。ユーザ名およびパスワードが正しい場合、Moodleは新しいユーザエントリをデータベースに作成します。このモジュールでは、ユーザ属性をLDAPから取得して、Moodleのフィールドに入力することができます。認証後のログインでは、ユーザ名およびパスワードのみ確認されます。';
+$string['auth_ldapextrafields'] = 'これらのフィールドは任意項目です。事前に入力されたMoodleユーザフィールドを<b>LDAPフィールド</b>から選択することも可能です。<p>空白の場合、LDAPよりデータは転送されず、代わりにMoodleのデフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後、すべてのフィールドを編集することができます。</p>';
 $string['auth_ldapnotinstalled'] = 'LDAP認証を使用できません。PHP LDAPモジュールがインストールされていません。';
 $string['auth_ldaptitle'] = 'LDAPサーバ';
 $string['auth_manualdescription'] = 'この方法では、ユーザによるユーザアカウント作成機能を停止します。すべてのアカウントは、管理者により手動で作成される必要があります。';
 $string['auth_manualtitle'] = '手動アカウント作成';
-$string['auth_mnet_auto_add_remote_users'] = '「Yes」にした場合、リモートユーザの初回ログイン時に、ローカルユーザのレコードが自動作成されます。';
+$string['auth_mnet_auto_add_remote_users'] = '「Yes」にした場合、リモートユーザの初回ログイン時、ローカルユーザのレコードが自動作成されます。';
 $string['auth_mnet_roamin'] = '次のホストのユーザは、あなたのサイトを散策できます';
 $string['auth_mnet_roamout'] = 'あなたのユーザは、次のホストを散策できます';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'XMLRPCトランスポートによる認証のタイムアウト (秒)';
@@ -216,8 +216,8 @@ $string['auth_mnetdescription'] = 'あなたのMoodleネットワーク設定で
 $string['auth_mnettitle'] = 'Moodleネットワーク認証';
 $string['auth_multiplehosts'] = '複数のホストまたはアドレスを設定できます (例 host1.com;host2.com;host3.com) または (例 xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
 $string['auth_nntpchangepasswordurl_key'] = 'パスワード変更のURI';
-$string['auth_nntpdescription'] = 'ユーザ名とパスワードを確認するためNNTPサーバを使用します。';
-$string['auth_nntphost'] = 'NNTPサーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
+$string['auth_nntpdescription'] = 'ユーザ名およびパスワードを確認するため、NNTPサーバを使用します。';
+$string['auth_nntphost'] = 'NNTPサーバアドレスです。IPアドレスではなく、ドメイン名を使用してください。';
 $string['auth_nntphost_key'] = 'ホスト';
 $string['auth_nntpnotinstalled'] = 'NNTP認証を使用できません。PHP IMAPモジュールがインストールされていません。';
 $string['auth_nntpport'] = 'サーバポート (119が最も一般的です)';
