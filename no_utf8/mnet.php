@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // mnet.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
+
+
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (egensignert)';
 $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (signert)';
 $string['RPC_HTTP_PLAINTEXT'] = 'HTTP ukryptert';
@@ -10,6 +12,7 @@ $string['accesslevel'] = 'Tilgangsnivå';
 $string['addhost'] = 'Legg til vert';
 $string['addnewhost'] = 'Legg til ny vert';
 $string['addtoacl'] = 'Legg til i tilgangskontroll';
+$string['allhosts_no_options'] = 'Ingen valg er tilgjengelige når de ser mer enn en vert.';
 $string['allow'] = 'Tillat';
 $string['authfail_nosessionexists'] = 'Autorisasjonen mislykkes: mnet-sesjonen eksisterer ikke.';
 $string['authfail_sessiontimedout'] = 'Autorisasjonen mislykkes: mnet-sesjonen måtte vente for lenge.';
@@ -186,4 +189,5 @@ $string['wrong-ip'] = 'IP-adressen din samsvarer ikke med den adressen vi har i 
 $string['xmlrpc-missing'] = 'Du må ha XML-RPC installert i PHP for å kunne bruke denne funksjonaliteten.';
 $string['yourhost'] = 'Din vert';
 $string['yourpeers'] = 'Andre Moodle- verter';
+
 ?>

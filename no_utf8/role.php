@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
+      // role.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
 
 
 $string['addrole'] = 'Legg til ny rolle';
@@ -10,6 +10,7 @@ $string['allsiteusers'] = 'Alle nettstedsbrukere';
 $string['assignglobalroles'] = 'Tildel globale roller';
 $string['assignroles'] = 'Tildel roller';
 $string['assignrolesin'] = 'Tildel roller i $a';
+$string['backup:userinfo'] = 'Skikerhetskopi: brukerdata';
 $string['block:view'] = 'Vis blokk';
 $string['blog:create'] = 'Lag nye blogginnlegg';
 $string['blog:manageentries'] = 'Rediger og administrer innlegg';
@@ -135,6 +136,7 @@ $string['resetrolenolegacy'] = 'Ta bort tillatelser';
 $string['resetrolesure'] = 'Er du sikker på at du vil resette rollen \"$a->name ($a->shortname)\" til standard?<p></p>Standardene er tatt fra den valgte arvede typen ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'Er du sikker på at du vil slette alle tillatelser som er definert for denne rollen \"$a->name ($a->shortname)\"?';
 $string['restore:rolldates'] = 'Har tillatelse til å rullere datoer for aktiviteter ved gjenoppretting';
+$string['restore:userinfo'] = 'Gjenopprett brukerdata';
 $string['risks'] = 'Risiko';
 $string['role:assign'] = 'Tildel roller til brukere';
 $string['role:manage'] = 'Lag og administrer roller';

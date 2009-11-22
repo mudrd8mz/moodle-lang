@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
+      // moodle.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -160,6 +160,7 @@ $string['backuploglaststatus'] = 'Logg for siste sikkerhetkopiering';
 $string['backuplogshelp'] = 'Hvis dette slås på, blir loggene tatt med i automatiske sikkerhetskopier';
 $string['backupmetacoursehelp'] = 'Hvis du slår på denne, blir informasjon om metakurs inkludert i automatiske sikkerhetskopier';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['backupnext'] = 'Neste sikkerhetskopiering';
 $string['backupnoneusersinfo'] = 'OBS: Du har valgt å lage en sikkerhetskopi uten brukere, så alle modulene er stilt inn på kopiering \"uten brukerdata\". Vær oppmerksom på at modulene \"oppgave\" og \"workshop\" ikke er forenlige med denne formen for sikkerhetskopiering, og at de derfor har blitt utelatt fra prosessen.';
 $string['backupnonisowarning'] = 'OBS: denne sikkerhetskopien er fra en versjon som ikke er Unicode (før 1.6). Hvis denne sikkerhetskopien inneholder noen tekster som ikke er ISO-8859-1, kan de bli ØDELAGT hvis du forsøker å gjenopprette dem til denne Unicode-versjonen av Moodle. See <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a> for mer informasjon om hvordan du kan gjenopprette denne sikkerhetskopien korrekt.';
 $string['backuporiginalname'] = 'Navn på sikkerhetskopi';
@@ -615,7 +616,9 @@ $string['forcedmode'] = 'Tvungen modus';
 $string['forcelanguage'] = 'Tving språk';
 $string['forceno'] = 'Ikke tving';
 $string['forcepasswordchange'] = 'Tving passordbytte';
+$string['forcepasswordchangecheckfull'] = 'Er du sikker på at du vil tvinge passordskifte til $a ?';
 $string['forcepasswordchangehelp'] = 'Be brukeren forandre det ved neste innlogging';
+$string['forcepasswordchangenot'] = 'Ikke mulig å tvinge passordskifte for $a';
 $string['forcepasswordchangenotice'] = 'Du må endre passordet for å fortsette';
 $string['forcetheme'] = 'Tving utseende';
 $string['forgotaccount'] = 'Glemt passordet?';
@@ -1207,10 +1210,13 @@ $string['resources'] = 'Ressurser';
 $string['restore'] = 'Gjenoppretting';
 $string['restorecancelled'] = 'Gjenoppretting avbrutt';
 $string['restorecoursenow'] = 'Gjennopprett denne siden nå.';
+$string['restoredaccount'] = 'Gjenopprettet brukerkonto';
+$string['restoredaccountinfo'] = 'Denne brukerkontoen ble importert fra en annen installasjon og passorder er gått tapt. Klikk på \"Fortsett\" for å angi nytt passord via e-post';
 $string['restorefinished'] = 'Gjenoppretting fullført';
 $string['restoreto'] = 'Gjenopprett til';
 $string['restoretositeadding'] = 'Advarsel: Du er i ferd med å gjenopprette hovedsiden ved å legge til data til den!';
 $string['restoretositedeleting'] = 'Advarsel: Du er i ferd med å gjenopprette/erstatte hovedsiden ved å først slette eksisterende!';
+$string['restoreuserinfofailed'] = '<strong>ADVARSEL:</strong> For å kunne gjenopprette brukerdata (i aktiviteter, filer, meldinger osv...) må rettigheten \"moodle/restore:userinfo\" være på \"Tillat\" og denne rettigheten er ikke satt. Gjenopprettingsprosessen er derfor stoppet.';
 $string['restricted'] = 'Begrenset';
 $string['restrictmodules'] = 'Sett begrensninger på aktivitetsmodulene?';
 $string['returningtosite'] = 'Registrert bruker?';
@@ -1220,9 +1226,9 @@ $string['rolemappings'] = 'Rolletildelinger';
 $string['rolerenaming'] = 'Gi rolle nytt navn';
 $string['roles'] = 'Roller';
 $string['rss'] = 'RSS';
-$string['rssarticles'] = 'Antallet ferske RSS-artikler';
+$string['rssarticles'] = 'Antall nye RSS-utsendinger';
 $string['rsserror'] = 'Feil ved lesing av RSS-data';
-$string['rsstype'] = 'RSS-mating for denne aktiviteten';
+$string['rsstype'] = 'RSS-utsending for denne aktiviteten';
 $string['saveandnext'] = 'Lagre og vis neste';
 $string['savechanges'] = 'Lagre endringer';
 $string['savechangesanddisplay'] = 'Lagre og vis';

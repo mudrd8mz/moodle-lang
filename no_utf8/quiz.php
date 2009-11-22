@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
+      // quiz.php - created with Moodle 1.9.6+ (Build: 20091111) (2007101560)
 
 
 $string['1day'] = '1 dag';
@@ -44,7 +44,7 @@ $string['analysisoptions'] = 'Analysemuligheter';
 $string['analysistitle'] = 'Analysetabell';
 $string['answer'] = 'Svar';
 $string['answerhowmany'] = 'Ett eller flere svar?';
-$string['answers'] = 'Svar';
+$string['answers'] = 'Vis fasit';
 $string['answersingleno'] = 'Flere svar tillatt';
 $string['answersingleyes'] = 'Kun ett svar';
 $string['answerswithacceptederrormarginmustbenumeric'] = 'Svar med akseptert feilmargin må være numerisk';

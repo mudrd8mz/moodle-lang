@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
+      // admin.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -42,7 +42,7 @@ $string['bookmarkthispage'] = 'bokmerk denne siden';
 $string['cachetext'] = 'Levetid for tekstkopier';
 $string['cachetype'] = 'Cache type';
 $string['calendar_weekend'] = 'Helgedager';
-$string['calendarexportsalt'] = 'Krypteringsfrase for kalendereksport (SALT)';
+$string['calendarexportsalt'] = 'Krypteringsnøkkel for kalendereksport (SALT)';
 $string['calendarsettings'] = 'Kalender';
 $string['cfgwwwrootslashwarning'] = 'Du har definert &#36;CFG->wwwroot feil i config.php fila. Du har inkluder et \'/\' tegn på slutten. Vær vennlig å fjern det ellers kan du oppleve merkelige feil som f.eks. <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['cfgwwwrootwarning'] = 'Du har definert &#36;CFG->wwwroot feil i config.php fila. Den stemmer ikke med URL\'en du bruker for å nå siden. Vær vennlig å fjern det ellers kan du oppleve merkelige feil som f.eks. <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
@@ -76,7 +76,7 @@ $string['configautologinguests'] = 'Skal besøkende automatisk logges inn som gj
 $string['configbloglevel'] = 'Denne innstillingen tillater deg å begrense på hvilket nivå brukerblogger kan leses på dette nettstedet. Merk at de spesifiserer maksimum nivå til den som leser - ikke den som skriver eller typene bloggmeldinger. Blogger kan også kobles ut for hele nettstedet.';
 $string['configcachetext'] = 'For større nettsteder eller nettsteder som bruker tekstfiltre, kan denne settingen virkelig gjøre ting raskere. Tekstkopier vil beholdes i sin prosesserte form så lenge som det spesifiseres her. Hvis den settes for lavt kan ting bli langsommere, men hvis den settes for høyt kan det bety at det tar for lang tid å oppfriske tekst (dette gjelder f.eks. nye lenker).';
 $string['configcachetype'] = 'Velg en type cache som Moodle skal bruke. Dette vil bare konfigurere cachen, husk å slå på rcache slik at cachen blir brukt til noe. Bruk<strong>bare</strong> dette hvis du trenger å redusere belastning på databasen din -- ellers vil Moodle faktisk gå tregere. Nettsteder med medium trafikk kan ha nytte av å bruke \'intern\'. En enkeltstående webserver med eAccelator eller Turckmmcache installert <em> med delt minne slått på</em> bør prøve \'eaccelator\'. Hvis du har flerserveroppsett, og har en eller flere memcachedservere som kjører og PHP-memcashed-tillegget, velg \'memcached\' og konfigurer memcached valgene under.<br/><strong>Merk:</strong> pass på at du tester ytelsen ved kjøring og justerer etter den -- cachen kan gjøre nettstedet ditt tregere. Når det er høy trafikk, kan eAccelator og memcashed benytte seg av flest fordeler, men til gjengjeld bruke mer av prosessorkraft på webserveren.';
-$string['configcalendarexportsalt'] = 'Denne tilfeldige teksten brukes for å forbedre sikkerheten av autentiseringen ved eksportering av kalendere. Merk at alle nåværende godkjennelser blir ugyldige hvis du forandrer denne salt-koden.';
+$string['configcalendarexportsalt'] = 'Denne tilfeldige teksten brukes for å forbedre sikkerheten av autentiseringen ved eksportering av kalendere. Merk at alle nåværende godkjennelser blir ugyldige hvis du forandrer denne krypteringsnøkkelen.';
 $string['configclamactlikevirus'] = 'Filer behandles som virusinfiserte';
 $string['configclamdonothing'] = 'Filer behandles som virusfrie';
 $string['configclamfailureonupload'] = 'Hvis du har konfigurert <i>clam</i> til å scanne opplastede filer, men den er konfigurert feil eller ikke klarer å kjøre av en eller annen ukjent grunn, hvordan ønsker du at den skal oppføre seg? Hvis du har valgt \'Filer behandles som virusinfiserte\', vil de flyttes til et karanteneområde eller slettes. Hvis du har valgt \'Filer behandles som virusfrie\', vil filene lastes opp som normalt. Uansett vil administratorer bli varslet om at <i>clam</i> har feilet. Hvis du valgte \'Filer behandles som virusinfiserte\' og <i>clam</i> av en eller annen grunn feiler (som regel pga. du har lagt inn en feil sti til clam), vil ALLE filer som har blitt lastet opp flyttes til det angitt karanteneområdet eller slettes. Vær forsiktig med denne innstillingen.';
@@ -441,6 +441,7 @@ $string['htmlsettings'] = 'HTML-innstillinger';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP sikkerhet';
 $string['iconvrecommended'] = 'Installering av ICONV-biblioteket er sterkt anbefalt for å forbedre ytelsen, spesielt hvis siten din støtter ikke-latinske språk.';
+$string['iconvrequired'] = 'Et nødvendig PHP-tillegg: ICONV mangler.';
 $string['ignore'] = 'Ignorér';
 $string['importlangreminder'] = 'Databasemigrasjonen starter nå. Du blir nødt til å <b>legge inn på nytt/b> for at oppgraderingen skal aktiviseres. Vennligst innstaller Unicode-språkpakker fra moodle.org (via språk i admin-menyen), straks migrasjonsprosessen er ferdig.';
 $string['importtimezones'] = 'Oppdater komplett liste med tidssoner';
@@ -631,7 +632,7 @@ $string['profilerequired'] = 'Er dette feltet obligatorisk?';
 $string['profilesforenrolledusersonly'] = 'Profiler kun for påmeldte brukere';
 $string['profileshortname'] = 'Kort-navn (unikt)';
 $string['profileshortnamenotunique'] = 'Dette kort-navnet er allerede i bruk';
-$string['profilesignup'] = 'Vis på påloggingsside?';
+$string['profilesignup'] = 'Vis på side for brukerregistrering?';
 $string['profilespecificsettings'] = 'Spesielle innstillinger';
 $string['profilevisible'] = 'Hvem er dette feltet synlig for?';
 $string['profilevisibleall'] = 'Synlig for alle';
@@ -709,6 +710,7 @@ $string['smtphosts'] = 'SMTP-server';
 $string['smtpmaxbulk'] = 'SMTP sesjongrense';
 $string['smtppass'] = 'SMTP passord';
 $string['smtpuser'] = 'SMTP  brukernavn';
+$string['soaprecommended'] = 'SOAP-tillegget anbefales installert siden dette er nyttig for webservices og noen tilleggsmoduler.';
 $string['spamcleaner'] = 'Søppelfilter';
 $string['stats'] = 'Statistikk';
 $string['statscatdepth'] = 'Maksimum overkategorier';
@@ -751,6 +753,12 @@ $string['updateaccounts'] = 'Oppdater eksisterende konti';
 $string['updatecomponent'] = 'Oppdater komponent';
 $string['updatelangs'] = 'Oppdater alle lokale språkpakker';
 $string['updatetimezones'] = 'Oppdater tidssoner';
+$string['upgrade197notice'] = '<p>Moodle 1.9.7 inneholder en rekke sikkerhetsfikser for håndtering av brukerpassord og sikkerhetskopier. Disse fiksene beskytter brukerinformasjonen på installasjonen din.<br />
+Som et resultat av oppgraderingen kan noen innstillinger og tillatelser knyttet til sikkerhetskopiering være endret.<br />
+Vennligst se nærmere på <a href=\'http://docs.moodle.org/en/Moodle_1.9.7_release_notes\' target=\'_blank\'>Moodle 1.9.7 release</a> for mer infomasjon.</p>';
+$string['upgrade197noticesubject'] = 'Moodle 1.9.7 oppgradingen - sikkerhetskommentarer';
+$string['upgrade197salt'] = 'Vi anbefaler også sterkt at du legger inn en passord-krypteringsnøkkel for å effektivt redusere risikoen for tyveri av passord.<br />
+Vennligst se nærmere på <a href=\"$a\" target=\"_blank\">dokumentasjonen</a> for alle detaljer om hvordan du gjør dette.';
 $string['upgradeforumread'] = 'En ny egenskap har blitt lagt til i Moodle 1.5 for å spore leste/uleste foruminnlegg.<br />For å bruke denne funksjonaliteten må du <a href=\"$a\">oppdatere tabellene dine</a>.';
 $string['upgradeforumreadinfo'] = 'En ny funksjon for sporing av leste/uleste foruminnlegg ble lagt til i Moodle 1.5. For å ta i bruk denne funksjonen må du oppdatere tabellene med all sporingsinfo fra eksisterende innlegg. Avhengig av størrelsen på din site kan dette ta lang tid (timer) og belaste databasen kraftig, så det er best du gjør dette i en stille periode. Likevel; Siten vil fungere som normalt og brukerne blir ikke berørt. Når du starter prosessen må du la den gå ferdig.(Ikke lukk nettleservinduet). Dersom du likevel skulle lukke nettleseren din, ikke bekymre deg - du kan starte på nytt. <br /><br />Ønsker du å starte oppgraderingen nå?';
 $string['upgradelogs'] = 'For full funksjonalitet må de gamle loggene oppgraderes. <a href=\"$a\">Mer informasjon</a>';

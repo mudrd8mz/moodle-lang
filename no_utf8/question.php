@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
+      // question.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
 
 
 $string['adminreport'] = 'Rapport over mulige problemer i din spørsmålsdatabase.';
@@ -23,6 +23,7 @@ $string['deletecoursecategorywithquestions'] = 'Det finnes spørsmål i spørsm�
 $string['donothing'] = 'Ikke kopier eller flytt filer eller endre lenker.';
 $string['editingcategory'] = 'Rediger en kategori';
 $string['editingquestion'] = 'Rediger et spørsmål';
+$string['editthiscategory'] = 'Endre denne kategorien';
 $string['erroraccessingcontext'] = 'Får ikke tilgang til konteksten';
 $string['errordeletingquestionsfromcategory'] = 'Feil ved sletting av spørsmål fra kategorien $a';
 $string['errorfilecannotbecopied'] = 'Feil - kan ikke kopiere $a.';

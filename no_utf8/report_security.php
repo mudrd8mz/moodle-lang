@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // report_security.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
 
 
 $string['check_configrw_details'] = '<p>Det anbefales at fil-rettighetene til config.php endres etter installasjonen slik at webserveren ikke kan gjøre endringer. Vennligst merk at denne sjekken ikke forbedrer serverens generelle sikkerhet, selv om den forsinker og eventuelt begrenser generelle sikkerhetshull.</p>';
@@ -83,6 +83,16 @@ $string['check_passwordpolicy_details'] = '<p>Det anbefales at det settes passor
 $string['check_passwordpolicy_error'] = 'Passordregler er ikke aktivert';
 $string['check_passwordpolicy_name'] = 'Passordregler';
 $string['check_passwordpolicy_ok'] = 'Passordregler er aktivert';
+$string['check_passwordsaltmain_details'] = '<p>Ved å konfigurere en passord-krypteringsnøkkel reduserer du effektivt risikoen for passordtyveri.</p>
+<p>Du konfigurerer dette ved å legge til følgende linje i config.php:</p>
+<code>$CFG->passwordsaltmain = \'en eller annen kjempelang passordstreng med tall, bokstaver og andre tegn\';</code>
+<p>Denne strengen med tegn bør være en miks av tall, bokstaver og andre tegn. Du bør minst ha en streng på 40 tegn, gjerne mer.</p>
+<p>Les mer her om 
+ <a href=\"$a\" target=\"_blank\">passord krypterinsnøkkel</a> hvis du ønsker å endre dette krypteringsnøkkelen. <br /><strong>Når du har konfiguert en passord-krypteringsnøkkel må du IKKE slette passordet fra config.php - da samtlige brukere (også du) vil bli utestengt fra installasjonen!</strong></p>';
+$string['check_passwordsaltmain_name'] = 'Passord-krypteringsnøkkel';
+$string['check_passwordsaltmain_ok'] = 'Passord-krypteringsnøkkelen er OK';
+$string['check_passwordsaltmain_warning'] = 'Det er ikke angitt noen passord-krypteringsnøkkel';
+$string['check_passwordsaltmain_weak'] = 'Passord-krypteringsnøkkelen er for svak';
 $string['check_riskadmin_detailsok'] = '<p>Vennligst bekreft følgede liste over administratorer:</p><p>$a</p>';
 $string['check_riskadmin_detailswarning'] = '<p>Vennligst bekreft følgede liste over administratorer:</p><p>$a->admins</p><p>Det anbefales at en bare tildeler administratorrettigheter i systemkonteksten. Følgende har admin-rettigheter som ikke støttes:</p><p>$a->unsupported</p>';
 $string['check_riskadmin_name'] = 'Administratorer';
