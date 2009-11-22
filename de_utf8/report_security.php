@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['check_configrw_details'] = '<p>Es wird empfohlen, nach der Installation die Zugriffsrechte für die Datei config.php so zu setzen, dass der Webserver diese Datei nicht verändern kann. Bitte beachten Sie, dass dieser Schritt die Server-Sicherheit nicht entscheidend verbessert, aber es könnte generelle Angriffe behindern und im Ausmaß begrenzen.</p>';
-$string['check_configrw_name'] = 'Dateirechte für config.php';
-$string['check_configrw_ok'] = 'Datei config.php kann nicht von PHP-Skripten verändert werden';
-$string['check_configrw_warning'] = 'PHP-Skripte könnten die Datei config.php modifizieren';
+$string['check_configrw_name'] = 'Zugriff auf config.php';
+$string['check_configrw_ok'] = 'PHP-Skripte können die config.php nicht verändern';
+$string['check_configrw_warning'] = 'PHP-Skripte könnten die Datei config.php verändern';
 $string['check_cookiesecure_details'] = '<p>Zusätzlich zur Aktivierung der Datenübertragung über https sollte auch die Funktion sichere Cookies aktiviert werden. Die permanenete Umleitung von http nach https sollte ebenfalls eingerichtet werden.</p>';
 $string['check_cookiesecure_error'] = 'Bitte erlauben Sie sichere Cookies';
 $string['check_cookiesecure_name'] = 'Sichere Cookies';
@@ -85,6 +85,14 @@ $string['check_passwordpolicy_details'] = '<p>Es wird empfohlen, Passwortregeln 
 $string['check_passwordpolicy_error'] = 'Passwortregeln sind nicht eingerichtet';
 $string['check_passwordpolicy_name'] = 'Passwortregeln';
 $string['check_passwordpolicy_ok'] = 'Passwortregeln sind aktiviert';
+$string['check_passwordsaltmain_details'] = '<p>Das Passwort-Salting reduziert zuverlässig das Risiko von Passwortdiebstahl.</p>
+<p>Um Passwort-Salt zu konfigurieren, fügen Sie bitte die folgende Zeile in Ihre Datei config.php:</p>
+<code>&#36;CFG->passwordsaltmain = \'some long random string here with lots of characters\';</code>
+<p>Der Zufallstext sollte aus einem Mix von Buchstaben, Zahlen und Sonderzeichen bestehen und mindestens 40 Zeichen lang sein. Bitte beachten Sie die <a href=\"$a\" target=\"_blank\">Dokumentation zum Passwort-Salting</a>, falls Sie diesen Parameter verändern möchten. Löschen Sie auf keinen Fall das Passwort-Salt, sobald Sie es einmal verwendet haben - andernfalls können Sie sich auch als Admin nicht mehr in Ihrem eigenen Moodle einloggen!</p>';
+$string['check_passwordsaltmain_name'] = 'Passwort-Salting';
+$string['check_passwordsaltmain_ok'] = 'Das Passwort-Salting ist OK';
+$string['check_passwordsaltmain_warning'] = 'Das Passwort-Salting wurde nicht konfiguriert';
+$string['check_passwordsaltmain_weak'] = 'Das Passwort-Salting ist zu schwach';
 $string['check_riskadmin_detailsok'] = '<p>Bitte prüfen Sie die folgende Liste der Administrator/innen:</p><p><b>$a</b></p>';
 $string['check_riskadmin_detailswarning'] = '<p>Bitte prüfen Sie die folgende Liste der Administrator/innen:</p><p><b>$a->admins</b></p>
 <p>Es wird empfohlen, die Administratorenrolle nur auf Systemebene zu vergeben. Die folgenden Nutzer verfügen über nicht unterstützte Zuweisungen zur Administratorrolle:</p><p><b>$a->unsupported</b></p>';
@@ -97,7 +105,7 @@ $string['check_riskxss_details'] = '<p>RISK_XSS bezeichnet alle bedenklichen Ber
 $string['check_riskxss_name'] = 'XSS - vertrauensvolle Nutzer';
 $string['check_riskxss_warning'] = 'RISK_XSS - $a Nutzer gefunden, denen vertraut werden muss!';
 $string['check_unsecuredataroot_details'] = '<p>Das Verzeichnis \'moodledata\' sollte nicht aus dem Internet aufrufbar sein. Am besten legen Sie es außerhalb des öffentlich zugänglichen Verzeichnisses, beim Webserver Apache also üblicherweise außerhalb vom Verzeichnis \'htdocs\'.</p>
-<p>Wenn Sie das Verzeichnis \'dataroot\' verschieben, müssen Sie auch unbedingt den Eintrag <code>$CFG->dataroot</code> in der Datei  <code>config.php</code> entsprechend anpassen.</p>';
+<p>Wenn Sie das Verzeichnis \'dataroot\' verschieben, müssen Sie auch unbedingt den Eintrag <code>&#36;CFG->dataroot</code> in der Datei  <code>config.php</code> entsprechend anpassen.</p>';
 $string['check_unsecuredataroot_error'] = 'Ihr moodledata-Verzeichnis <code>$a</code> liegt an der falschen Stelle. Es ist aus dem Web aufrufbar.';
 $string['check_unsecuredataroot_name'] = 'dataroot';
 $string['check_unsecuredataroot_ok'] = 'Das Verzeichnis dataroot darf nicht vom Netz aus erreichbar sein';

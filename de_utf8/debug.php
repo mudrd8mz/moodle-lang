@@ -23,7 +23,7 @@ $string['dbnotsupport'] = 'Fehler: Ihre Datenbank ($a) wird nicht vollständig v
 $string['dbnotupdate'] = 'Datenbankfehler - \"$a\" konnte nicht aktualisiert werden.';
 $string['doesnotworkwitholdversion'] = 'Dieses Script arbeitet nicht mit dieser alten Version von Moodle.';
 $string['erroroccur'] = 'Ein Fehler ist während des Vorgangs aufgetreten.';
-$string['fixsetting'] = 'Bitte korrigieren Sie die Einstellungen in der Datei config.php: <p>Aktuell vorhanden: </p> <p>$CFG->dirroot = \"$a->current\";</p> <p>aber das sollte geändert werden in: </p> <p>$CFG->dirroot = \"$a->found\"</p>';
+$string['fixsetting'] = 'Bitte korrigieren Sie die Einstellungen in der Datei config.php: <p>Aktuell vorhanden: </p> <p>&#36;CFG->dirroot = \"$a->current\";</p> <p>aber das sollte geändert werden in: </p> <p>&#36;CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = 'Falsche Feldgröße bei den Einstellungen von $a';
 $string['invalideventdata'] = 'Falscher Kalendereintrag übermittelt: $a';
 $string['missingconfigversion'] = 'Entschuldigung, aber der Vorgang wird abgebrochen, weil die Konfigurationstabelle keine Versionsangabe beinhaltet.';

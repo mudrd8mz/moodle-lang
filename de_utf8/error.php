@@ -501,7 +501,7 @@ $string['wscouldnotupdateuserindb'] = 'WS - Konnte Nutzer nicht aktualisieren';
 $string['wscouldnotupdateusernopermission'] = 'WS - Konnte Nutzer nicht aktualisieren - fehlende Berechtigung';
 $string['wscouldnotvieweusernopermission'] = 'WS - Konnte Nutzer nicht anzeigen - fehlende Berechtigung';
 $string['wwwrootmismatch'] = 'Ein falscher Zugriff wurde festgestellt. Entschuldigung, aber auf dieser Server sollte ausschließlich über die Adresse \"$a\" zugegriffen werden. Bitte benachrichtigen Sie den Administrator Ihres Servers.';
-$string['wwwrootslash'] = 'In der Datei config.php wurde eine falsche Einstellung für $CFG->wwwroot festgestellt. Es darf kein abschließender Slash \'/\' gesetzt sein.<br />Bitte benachrichtigen Sie den Administrator Ihres Servers.';
+$string['wwwrootslash'] = 'In der Datei config.php wurde eine falsche Einstellung für &#36;CFG->wwwroot festgestellt. Es darf kein abschließender Slash \'/\' gesetzt sein.<br />Bitte benachrichtigen Sie den Administrator Ihres Servers.';
 $string['xmldberror'] = 'XMLDB-Fehler!';
 $string['youcannotdeletecategory'] = 'Sie können die Kategorie \"$a\" nicht löschen, da Sie deren Inhalt weder löschen noch verschieben können.';
 $string['younotteacher'] = 'Sie haben keine Trainerrechte!';
@@ -531,5 +531,6 @@ $string['copiedcmnotexist'] = 'Das kopierte Kursmodul ist nicht vorhanden!'; // 
 $string['invalidseeky'] = 'Das Formular wird wegen eines falsch übermittelten Sessionkeys nicht akzeptiert!'; // ORPHANED
 $string['cannotinitpage'] = 'Die Seite kann nicht initialisiert werden. Kurs-ID: $a'; // ORPHANED
 $string['cannotmovezip'] = 'Zip konnte nicht verschoben werden.'; // ORPHANED
+$string['restorechecksumfailed'] = 'Bei der Wiederherstellung sind Probleme aufgetreten. Bitte prüfen Sie die Einstellungen \'PHP memory limit\' und \'DB package size\'.';  // ORPHANED
 
 ?>
