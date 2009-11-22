@@ -141,5 +141,6 @@ $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'Warnung: Das Löschen ist nicht möglich, da noch eine Verlinkung auf diese Ressource vorhanden ist. Überarbeiten Sie zunächst diese Ressourcen oder fragen Sie die Administration, ob sie diese Sicherheitseinstellung in den Einstellungen für die Arbeitsmaterialien deaktiviert.';
 $string['warningdisabledrename'] = 'Warnung: Die automatische Umbenennung der Verlinkungen in den Arbeitsmaterialien ist deaktiviert. Aktualisieren Sie die betroffenen Arbeitsmaterialien einzeln oder fragen Sie die Administration, ob sie die entsprechenden Einstellungen ändert.';
 $string['websearchdefault'] = 'Standard-Websuche';
+$string['keepnavigationvisiblewarning'] = 'Hinweis: Einige Media-Dateien könnten diese Einstellung übergehen'; // ORPHANED
 
 ?>

@@ -1,18 +1,18 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // chat.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['ajax'] = 'Version benutzt Ajax';
 $string['autoscroll'] = 'Automatisches Scrollen';
 $string['beep'] = 'Signal';
-$string['cantinsert'] = 'Die Chat-Nachricht konnte nicht eingefügt werden!';
 $string['cantlogin'] = 'DIe Chat-Anmeldung ist fehlgeschlagen!!';
 $string['chat:chat'] = 'An einem Chat teilnehmen';
 $string['chat:deletelog'] = 'Logdaten eines Chats löschen';
 $string['chat:exportparticipatedsession'] = 'Teilgenommene Chat-Sitzung exportieren';
 $string['chat:exportsession'] = 'Chat-Sitzung exportieren';
 $string['chat:readlog'] = 'Logdaten eines Chats sehen';
-$string['chat:talk'] = 'Im Chat unterhalten';
+$string['chat:talk'] = 'Im Chat sprechen';
+$string['chatadministration'] = 'Chat-Administration';
 $string['chatintro'] = 'Einleitungstext';
 $string['chatname'] = 'Name dieses Chat-Raums';
 $string['chatreport'] = 'Chat-Protokolle';
@@ -46,6 +46,7 @@ $string['messagebeepsyou'] = '$a hat Sie angepiepst!';
 $string['messageenter'] = '$a hat den Chat gerade betreten';
 $string['messageexit'] = '$a hat den Chat verlassen';
 $string['messages'] = 'Mitteilungen';
+$string['messageyoubeep'] = 'Sie haben $a angepiepst';
 $string['method'] = 'Chat Methode';
 $string['methoddaemon'] = 'Chat Server Daemon';
 $string['methodnormal'] = 'Standardmethode';
@@ -82,9 +83,11 @@ $string['serverport'] = 'Server-Port';
 $string['sessions'] = 'Chat-Sitzungen';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Teilnehmer/innen können Chat-Protokolle sehen';
+$string['talk'] = 'Sprechen';
 $string['updatemethod'] = 'Aktualisierungsmethode';
 $string['updaterate'] = 'Aktualisierungsrate:';
 $string['userlist'] = 'Nutzerliste';
 $string['viewreport'] = 'Vorherige Chat-Protokolle ansehen';
+$string['cantinsert'] = 'Die Chat-Nachricht konnte nicht eingefügt werden!'; // ORPHANED
 
 ?>

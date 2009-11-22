@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
+      // role.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['addinganewrole'] = 'Neue Rolle wird hinzugefügt';
@@ -24,12 +24,19 @@ $string['assignroles'] = 'Rollen zuweisen';
 $string['assignrolesin'] = 'Rollen in $a zuweisen';
 $string['assignrolesrelativetothisuser'] = 'Rollen relativ zu diesem Nutzerkonto zuweisen';
 $string['backtoallroles'] = 'Zurück zur Liste mit allen Rollen';
+$string['backup:userinfo'] = 'Nutzerdaten sichern';
+$string['block:edit'] = 'Blockeinstellungen ändern';
 $string['block:view'] = 'Block sehen';
+$string['blog:associatecourse'] = 'Blog-Einträge mit Kursen verbinden';
+$string['blog:associatemodule'] = 'Blog-Einträge mit Aktivitätsmodulen verbinden';
 $string['blog:create'] = 'Neue Blog-Einträge erstellen';
 $string['blog:manageentries'] = 'Blog-Einträge verwalten';
+$string['blog:manageexternal'] = 'Externe Blogs verwalten';
 $string['blog:manageofficialtags'] = 'Offizielle Schlagworte verwalten';
 $string['blog:managepersonaltags'] = 'Persönliche Schlagworte verwalten';
+$string['blog:search'] = 'Blog-Einträge suchen';
 $string['blog:view'] = 'Blog-Einträge sehen';
+$string['blog:viewdrafts'] = 'Blog-Einträge als Entwürfe sehen';
 $string['calendar:manageentries'] = 'Alle Kalendereinträge verwalten';
 $string['calendar:managegroupentries'] = 'Kalendereinträge für Gruppen verwalten';
 $string['calendar:manageownentries'] = 'Eigene Kalendereinträge verwalten';
@@ -47,12 +54,17 @@ $string['checkpermissionsin'] = 'Rechte prüfen in $a';
 $string['checksystempermissionsfor'] = 'Systemrechte prüfen für $a->fullname';
 $string['checkuserspermissionshere'] = 'Rechte prüfen, die $a->fullname in diesem  $a->contextlevel hat';
 $string['chooseroletoassign'] = 'Wählen Sie bitte eine Rolle zur Zuweisung';
+$string['comment:delete'] = 'Kommentare löschen';
+$string['comment:post'] = 'Kommentare schreiben';
+$string['comment:view'] = 'Kommentare lesen';
 $string['context'] = 'Kontext';
 $string['course:activityvisibility'] = 'Aktivitäten anzeigen / verbergen';
 $string['course:bulkmessaging'] = 'Nachrichten an viele Empfänger senden';
+$string['course:changecategory'] = 'Kursbereich ändern';
 $string['course:changefullname'] = 'Vollständigen Kursnamen ändern';
 $string['course:changeidnumber'] = 'Kurs-ID-Nummer ändern';
 $string['course:changeshortname'] = 'Kurztitel des Kurses ändern';
+$string['course:changesummary'] = 'Kursbeschreibung ändern';
 $string['course:create'] = 'Kurse anlegen';
 $string['course:delete'] = 'Kurse löschen';
 $string['course:manageactivities'] = 'Aktivitäten verwalten';
@@ -190,6 +202,8 @@ $string['resetrole'] = 'Grundeinstellungen wiederherstellen';
 $string['resetrolenolegacy'] = 'Zugriffsrechte löschen';
 $string['resetrolesure'] = 'Sind Sie sicher, dass Sie die Rolle \"$a->name ($a->shortname)\" auf die Grundeinstellungen zurücksetzen möchten?<p></p>Die Standardwerte werden entsprechend der gewählten Grundberechtigungen ($a->legacytype) gesetzt.';
 $string['resetrolesurenolegacy'] = 'Sind Sie sicher, dass Sie alle Rechte entfernen möchten, die in der Rolle \"$a->name ($a->shortname)\" definiert wurden?';
+$string['restore:rolldates'] = 'Bei der Wiederherstellung ist das Hinzufügen von Konfigurationsdaten erlaubt';
+$string['restore:userinfo'] = 'Nutzerdaten wiederherstellen';
 $string['risks'] = 'Risiken';
 $string['role:assign'] = 'Rollen an Nutzer/innen zuweisen';
 $string['role:manage'] = 'Rollen erstellen und verwalten';

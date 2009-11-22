@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // completion.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['activitycompletion'] = 'Bearbeitungsabschluss';
@@ -25,7 +25,7 @@ $string['completion_none'] = 'Bearbeitungsabschluss wurde nicht indiziert';
 $string['completiondisabled'] = 'Deaktiviert, wird nicht in den Aktivitäten-Einstellungen angezeigt';
 $string['completionenabled'] = 'Aktiviert, wird über die Aktivitäten-Einstellungen konfiguriert';
 $string['completionexpected'] = 'Erwarteter Abschluss für';
-$string['completionicons'] = 'Fortschritts-Icons';
+$string['completionicons'] = 'Fortschrittsanzeige';
 $string['completionreport'] = 'Fortschrittsbericht';
 $string['completionusegrade'] = 'Benötigt Beurteilung';
 $string['completionusegrade_text'] = 'Der/die Nutzer/in muss beurteilt werden';
@@ -51,5 +51,6 @@ $string['restoringcompletiondata'] = 'Stelle Abschluss-Daten wieder her';
 $string['saved'] = 'Gespeichert';
 $string['unlockcompletion'] = 'Abschlusseinstellungen freigeben';
 $string['writingcompletiondata'] = 'Schreibe Abschluss-Daten';
+$string['yourprogress'] = 'Ihre Fortschritte';
 
 ?>

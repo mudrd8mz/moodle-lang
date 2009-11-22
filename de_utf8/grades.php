@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
+      // grades.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['activities'] = 'Aktivitäten';
@@ -262,6 +262,7 @@ $string['gradepreferenceshelp'] = 'Hilfe für Bewertungseinstellungen';
 $string['gradepublishing'] = 'Veröffentlichen zulassen';
 $string['graderreport'] = 'Bewerterübersicht';
 $string['grades'] = 'Bewertung';
+$string['gradesforuser'] = 'Bewertung für $a->user';
 $string['gradesonly'] = 'Nur Bewertung';
 $string['gradessettings'] = 'Bewertungseinstellungen';
 $string['gradetype'] = 'Bewertungstyp';
@@ -473,6 +474,7 @@ $string['respectingcurrentdata'] = 'Die aktuelle Konfiguration wird nicht verän
 $string['rowpreviewnum'] = 'Zeilenvorschau';
 $string['savechanges'] = 'Änderungen speichern';
 $string['savepreferences'] = 'Grundeinstellungen speichern';
+$string['scaleconfirmdelete'] = 'Sind Sie sicher, dass Sie die Skala \"$a\" löschen möchten?';
 $string['scaledpct'] = 'Berechnete %%';
 $string['scaleidhelp'] = 'Wenn der Skalenbewertungstyp verwendet wird, kann eine Skala ausgewählt werden. Dies erfolgt auf der Einstellungsseite der jeweiligen Lernaktivität.';
 $string['scalestandardhelp'] = 'Eine Standard-Skala ist eine Skala, die systemweit in allen Kursen verfügbar ist.';
@@ -563,6 +565,7 @@ $string['useweighted'] = 'Gewichtung verwenden';
 $string['verbosescales'] = 'Wortreiche Skalen';
 $string['viewbygroup'] = 'Gruppe';
 $string['viewgrades'] = 'Bewertungen anzeigen';
+$string['warningexcludedsum'] = 'Warnung: Der Ausschluss von Bewertungen ist nicht kompatibel mit der Bildung der Gesamtsumme.';
 $string['weight'] = 'Gewichtung';
 $string['weightcourse'] = 'Gewichtete Bewertung im Kurs benutzen';
 $string['weightedascending'] = 'Sortierung nach %% gewichtet, aufsteigend';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tags.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // block_tags.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['add'] = 'Hinzufügen';
@@ -13,6 +13,7 @@ $string['communitytags2'] = 'Alle nutzererstellten Kurs-Schlagworte anzeigen';
 $string['coursetags'] = 'Kurs-Schlagworte:';
 $string['coursetags1'] = 'Kurs-Schlagworte';
 $string['coursetags2'] = 'Schlagworte für diesen Kurs anzeigen';
+$string['disabledtags'] = 'Schlagworte sind deaktiviert';
 $string['edit'] = 'Bearbeiten...';
 $string['editdeletemytag'] = 'Schlagwort aus diesem Kurs löschen:';
 $string['editmytags'] = 'Meine Schlagworte - Verknüpfungen zu allen von Ihnen markierten Kursen';

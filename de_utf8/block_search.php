@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // block_search.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['blockname'] = 'Globale Suche';
@@ -18,12 +18,21 @@ $string['configwordtotextenv'] = 'Umgebungseinstellungen für den MSWord-Konvert
 $string['go'] = 'Los!';
 $string['handlingfor'] = 'Umgang mit Ausnahmen';
 $string['modulessearchswitches'] = 'Indexer für Module aktivieren';
-$string['nosearchableblocks'] = 'Keine durchsuchbaren Blöche gefunden';
+$string['nosearchableblocks'] = 'Keine durchsuchbaren Blöcke gefunden';
 $string['nosearchablemodules'] = 'Keine durchsuchbaren Module gefunden';
 $string['pdfhandling'] = 'Acrobat PDF-Bearbeitung';
 $string['searchdiscovery'] = 'Zu durchsuchende Elemente entdecken';
 $string['searchmoodle'] = 'Moodle durchsuchen';
 $string['usemoodleroot'] = 'Moodle Root-Verzeichnis für externe Konverter durchsuchen';
 $string['wordhandling'] = 'MS Word-Bearbeitung';
+$string['asynchronous'] = 'Asynchchron (Ajax)'; // ORPHANED
+$string['blockssearchmnetfeatures'] = 'Moodle Netzwerksuche'; // ORPHANED
+$string['configusingsoftlock'] = 'Software-Verriegelung (für NFS gemountete Cluster)'; // ORPHANED
+$string['configutf8transcoding'] = 'UTF8-Kodierung der Ergebnisse'; // ORPHANED
+$string['disabled'] = 'Deaktiviert'; // ORPHANED
+$string['disabledsearch'] = 'Die globale Suchmaschine ist ausgeschaltet. Bitte informieren Sie den Administrator.'; // ORPHANED
+$string['enabled'] = 'Aktiviert'; // ORPHANED
+$string['search'] = 'Suchen'; // ORPHANED
+$string['synchronous'] = 'Synchron'; // ORPHANED
 
 ?>

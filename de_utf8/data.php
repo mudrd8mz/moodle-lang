@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
+      // data.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['action'] = 'Aktion';
@@ -31,7 +31,6 @@ $string['cancel'] = 'Abbrechen';
 $string['cannotaccesspresentsother'] = 'Sie können nicht auf Vorlagen anderer Nutzer zugreifen';
 $string['cannotadd'] = 'Kann keine Einträge hinzufügen!';
 $string['cannotdeletepreset'] = 'Fehler beim Löschen der Vorlage';
-$string['cannotinsertempty'] = 'Leerer Eintrag nicht zulässig';
 $string['cannotrate'] = 'Bewertung der Einträge nicht erlaubt!';
 $string['cannotunziptopreset'] = 'Entpacken im Vorlagenordner nicht möglich';
 $string['checkbox'] = 'Mehrfachauswahl';
@@ -68,6 +67,7 @@ $string['data:viewalluserpresets'] = 'Vorlagensätze aller Nutzer/innen sehen';
 $string['data:viewentry'] = 'Einträge sehen';
 $string['data:viewrating'] = 'Bewertungen sehen';
 $string['data:writeentry'] = 'Einträge schreiben';
+$string['dataadministration'] = 'Administration der Datenbank-Aktivität';
 $string['date'] = 'Datum';
 $string['dateentered'] = 'Daten eingetragen';
 $string['defaultfielddelimiter'] = '(Grundeinstellung ist das Komma-Zeichen)';
@@ -271,7 +271,6 @@ $string['type'] = 'Feld-Typ';
 $string['undefinedprocessactionmethod'] = 'In Data_Preset wurde keine Verarbeitungsmethode definiert für: \"$a$\".';
 $string['unsupportedexport'] = '($a->fieldtype) kann nicht exportiert werden';
 $string['updatefield'] = 'Bestehendes Feld aktualisieren';
-$string['updatingerror'] = 'Beim Aktualisieren der Datenbank ist ein Fehler aufgetreten';
 $string['uploadfile'] = 'Datei hochladen';
 $string['uploadrecords'] = 'Datensätze aus einer Datei hochladen';
 $string['url'] = 'URL';
@@ -279,6 +278,8 @@ $string['usestandard'] = 'Vorlagensatz benutzen';
 $string['viewfromdate'] = 'Sichtbar von';
 $string['viewtodate'] = 'Sichtbar bis';
 $string['wrongdataid'] = 'Falsche Daten-ID bereitgestellt';
+$string['cannotinsertempty'] = 'Leerer Eintrag nicht zulässig'; // ORPHANED
+$string['updatingerror'] = 'Beim Aktualisieren der Datenbank ist ein Fehler aufgetreten'; // ORPHANED
 $string['cannotinsertrate'] = 'Neue Bewertung konnte  nicht eingetragen werden ($a[0] = $a[1])'; // ORPHANED
 $string['cannotupdaterate'] = 'Alte Bewertung konnte  aktualisiert werden ($a[0] = $a[1])'; // ORPHANED
 $string['invaliddata'] = 'Falsche Daten'; // ORPHANED
@@ -286,5 +287,10 @@ $string['csvformat'] = 'CSV Format'; // ORPHANED
 $string['excelformat'] = 'Excel Format'; // ORPHANED
 $string['exportdatabase'] = 'Datenbankeinträge exportieren'; // ORPHANED
 $string['odsformat'] = 'ODS-Format'; // ORPHANED
+$string['notapproved'] = 'Der Eintrag ist bisher nicht freigegeben worden'; // ORPHANED
+$string['requiredentrieschanged'] = '<p><strong>WICHTIG - BITTE LESEN</strong></p>
+<p>Wegen einer Fehlerkorrektur ändert sich das Verhalten von Datenbank-Aktivitäten bei den Einstellungen \'Erforderliche Einträge\' und \'Erforderliche Einträge, bevor Ansicht aller Daten möglich\'. Eine ausführliche Diskussion der Änderungen finden Sie im <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">Forum zum Datenbank-Modul</a>. Die Wirkung der Einstellungen können Sie auch in den <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a> nachlesen.</p>
+<p>Diese Änderung betrifft die nachfolgenden Datenbanken in Ihrem System. Bitte sichern Sie die Liste, um nach der Aktualisierung prüfen zu können, ob die Aktivitäten noch in der beabsichtigten Weise funktionieren.</p>
+<strong style=\"color:red\">$a->text</strong><br/>'; // ORPHANED
 
 ?>

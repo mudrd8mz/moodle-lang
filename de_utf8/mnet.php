@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20080912) (2008091000)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
@@ -12,6 +12,7 @@ $string['accesslevel'] = 'Access-Level';
 $string['addhost'] = 'Rechner hinzufügen';
 $string['addnewhost'] = 'Neuen Rechner hinzufügen';
 $string['addtoacl'] = 'Zur Access-Kontrolle hinzufügen';
+$string['allhosts_no_options'] = 'Beim Betrachten mehrerer Rechner sind keine Optionen verfügbar';
 $string['allow'] = 'Erlauben';
 $string['authfail_nosessionexists'] = 'Keine Zugangsberechtigung: Die MNET-Session gibt es nicht!';
 $string['authfail_sessiontimedout'] = 'Keine Zugangsberechtigung: Die Zeit für die MNET-Session ist abgelaufen!';
