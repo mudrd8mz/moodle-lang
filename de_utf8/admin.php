@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
-
+      // admin.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
 
 $string['accessdenied'] = 'Kein Zugriff';
 $string['accounts'] = 'Nutzerkonten';
@@ -8,6 +7,7 @@ $string['adminseesall'] = 'Administrator/innen sehen alles';
 $string['adminseesallevents'] = 'Administrator/innen sehen alle Termine';
 $string['adminseesownevents'] = 'Administrator/innen sehen nur eigene Termine';
 $string['advancedfeatures'] = 'Zusatzoptionen';
+$string['allcountrycodes'] = 'Alle Ländercodes';
 $string['allowbeforeblock'] = 'Die Liste der zugelassenen IP-Adressen ist vorrangig';
 $string['allowbeforeblockdesc'] = 'Standardmäßig wird die Liste der gesperrten IP-Adressen zuerst berücksichtigt. Falls diese Einstellung aktiviert ist, hat die Liste der zugelassenen IP-Adressen Vorrang.';
 $string['allowcategorythemes'] = 'Kategoriedesigns zulassen';
@@ -48,7 +48,7 @@ $string['bookmarkthispage'] = 'Seite als Lesezeichen speichern';
 $string['cachetext'] = 'Gültigkeitsdauer des Cache';
 $string['cachetype'] = 'Cache-Typ';
 $string['calendar_weekend'] = 'Tage am Wochenende';
-$string['calendarexportsalt'] = 'Zufallstext für den Kalenderexport';
+$string['calendarexportsalt'] = 'Exportverschlüsselung für den Kalender';
 $string['calendarsettings'] = 'Kalender';
 $string['cannotdeletemissingqtype'] = 'Sie dürfen den fehlenden Fragetyp nicht löschen. Er wird vom System benötigt.';
 $string['cannotdeletemodfilter'] = 'Sie können den Filter \'$a->filter\' nicht deinstallieren, weil er Teil des Moduls \'$a->module\' ist.';
@@ -69,7 +69,7 @@ $string['componentinstalled'] = 'Komponente installiert';
 $string['computedfromlogs'] = 'Logdaten seit $a';
 $string['confeditorhidebuttons'] = 'Wählen Sie die Optionen, die im HTML-Editor verborgen sein sollen.';
 $string['configallowassign'] = 'Die Rollen auf der linken Seite können zu den Rollen in jeder Spalte zugewiesen werden.';
-$string['configallowcategorythemes'] = 'Wenn Sie diese Einstellung aktivieren, dann können Designs auf Kategorieebene gesetzt werden. Dies wirkt sich gleichzeitig auf alle Unterkategorien und Kurse aus, falls diese nicht wiederum eigene Designs verwenden. ACHTUNG: Designs auf Kategorieebene könnten Geschwindigkeitseinbußen verursachen!!';
+$string['configallowcategorythemes'] = 'Wenn Sie diese Einstellung aktivieren, dann können Designs auf Kategorieebene gesetzt werden. Dies wirkt sich gleichzeitig auf alle Unterkategorien und Kurse aus, falls diese nicht wiederum eigene Designs verwenden. ACHTUNG: Kategorie-Designs könnten erhebliche Geschwindigkeitseinbußen verursachen!!';
 $string['configallowcoursethemes'] = 'Mit der Aktivierung erlauben Sie die Auswahl kursspezifischer Designs. Ein Kursdesign hat Vorrang vor allen anderen Designfestlegungen (Website, Kursbereich, Nutzer, Session).';
 $string['configallowemailaddresses'] = 'Wenn Sie die Eingabe bestimmter E-Mail-Domains bei der Neueingabe verbindlich vorgeben möchten, tragen Sie hier bitte eine leerzeichengetrennte Liste der zulässigen Domains ein, z.B. <strong>unserefirma.de</strong>. Alle übrigen Domains werden zurückgewiesen. Um Subdomains zu erlauben, fügen Sie die Domain mit einem führenden Punkt \'.\' hinzu.';
 $string['configallowobjectembed'] = 'Aus Sicherheitsgründen dürfen normale Nutzer/innen keine Multmedia-Objekte (wie Flash) über die HTML-Tags EMBED und OBJECT in ihren Code einbinden. Aktivieren Sie diese Option, wenn Sie die beiden Tags erlauben wollen. Multimedia-Objekte wären alternativ über den Filter \"Multimedia-Plugins\" nutzbar, ohne Sicherheitsprobleme zu verursachen.';
@@ -90,7 +90,7 @@ $string['configbloglevel'] = 'Die Einstellung regelt den Grad der Öffentlichkei
 $string['configcachetext'] = 'Diese Einstellung kann größere Websites (oder auch Websites, die Textfilter verwenden) erheblich beschleunigen. Textkopien werden in der jeweiligen Form für die festgelegte Zeit vorgehalten. Eine zu niedrige Einstellung könnte das System verlangsamen. Bei einer zu hohen Einstellung werden Textänderungen  (z.B. neue Links) erst erheblich verzögert sichtbar.';
 $string['configcachetype'] = 'Wählen Sie den Cache-Typ, den Moodle verwenden soll. Stellen Sie sicher, dass der Cache-Speicher aktiviert ist (Einstellung <em>rcache</em>). Verwenden Sie diese Einstellung nur, wenn Sie die Belastung des Datenbanksystems reduzieren müssen, denn Moodle läuft mit aktiviertem Cache-Speicher langsamer. Für mittelgroße Moodle-Systeme kann die Einstellung \'internal\' von Vorteil sein. Bei einem einzelnen Webserver mit installiertem eAccelerator oder Turckmmcache und aktivierter \'shared memory\' Einstellung sollten Sie die Einstellung \'eaccelerator\' ausprobieren. Wenn Sie mehrere Webserver haben und ein odere mehrere memcached Dämonen sowie die PHP-memcached Erweiterung laufen haben, dann wählen Sie die Einstellung \'memcached\' und konfigurieren die unten stehenden memcached-Einstellungen.
 <strong>Achtung:</strong>Testen und optimieren Sie die Performanz Ihrer Seiten unter Belastung. Ein aktivierter Cache kann Ihre Seiten langsamer machen. Bei stark belasteten Seiten können eAccelerator und memcached Geschwindigkeitsvorteile bringen, das geht jedoch auf Kosten der CPU-Last für den Webserver.';
-$string['configcalendarexportsalt'] = 'Dieser Zufallstest wird benutzt, um die Sicherheit der Authentifikations-Token für den Kalenderexport zu erhöhen. Bitte beachten Sie, dass alle aktuellen Token ungültig werden, wenn Sie diesen Text ändern.';
+$string['configcalendarexportsalt'] = 'Dieser Zufallstext (hash salt) wird benutzt, um die Sicherheit der Authentifikations-Token für den Kalenderexport zu erhöhen. Bitte beachten Sie, dass alle aktuellen Token ungültig werden, wenn Sie diesen Text ändern.';
 $string['configclamactlikevirus'] = 'Dateien wie virenhaltige Dateien behandeln';
 $string['configclamdonothing'] = 'Dateien als ok behandeln';
 $string['configclamfailureonupload'] = 'Legen Sie die Reaktion fest, falls bei der Virenprüfung von hochgeladenen Dateien ein Fehler auftritt.
@@ -132,6 +132,7 @@ $string['configemailchangeconfirmation'] = 'Wenn Nutzer/innen in ihrem Profil di
 $string['configemoticons'] = 'Der Code in der linken Spalte gehört zum Namen des Emoticons rechts. Sie können neue Emoticons einfügen, wenn Sie Code und Namen in der Tabelle ergänzen und außerdem eine Bilddatei name.gif in das Verzeichnis /pix/s kopieren.';
 $string['configenableajax'] = 'Diese Einstellung erlaubt es Ihnen, die Benutzung von Ajax über die gesamte Website zu kontrollieren. Ajax ist eine auf JavaScript basierende Erweiterung der Client-Server-Schnittstelle.  Falls diese Einstellung aktiviert ist, kann Ajax individuell in jedem Nutzerprofil ein- oder ausgeschaltet werden, andernfalls ist Ajax für alle ausgeschaltet.';
 $string['configenablecalendarexport'] = 'Exportieren oder Abonnieren von Kalendern erlauben';
+$string['configenablecomments'] = 'Kommentare erlauben';
 $string['configenablecourserequests'] = 'Erlaubt es allen Nutzer/innen, Anfragen zur Einrichtung von Kursen zu stellen.';
 $string['configenableglobalsearch'] = 'Diese Einstellung erlaubt die globale Textsuche in Ressourcen und Aktivitäten. Dies ist nicht kompatibel zu PHP4.';
 $string['configenablegroupings'] = 'Diese Einstellung aktiviert die Gruppierung von Gruppen (bisher noch unvollständig umgesetzt)';
@@ -139,6 +140,7 @@ $string['configenablehtmlpurifier'] = 'Zur Bereinigung von nicht vertrauenswürd
 $string['configenablerssfeeds'] = 'Diese Einstellung aktiviert RSS-Feeds für die gesamte Website. Es ist zusätzlich erforderlich, RSS-Feeds in den einzelnen Modulen zu aktivieren. Öffnen Sie dazu in der Administration die Modul-Einstellungen.';
 $string['configenablerssfeedsdisabled'] = 'Diese Option ist nicht verfügbar, weil RSS-Feeds für alle Seiten deaktiviert sind. Um diese zu aktivieren, öffnen Sie die Variableneinstellung in der Administration.';
 $string['configenablerssfeedsdisabled2'] = 'RSS Feeds sind auf Serverebene deaktiviert. Sie müssen zuerst unter server/RSS aktiviert werden.';
+$string['configenablesafebrowserintegration'] = 'Diese Einstellung fügt die Wahlmöglichkeit \"Benutzung des Safe Exam Browser erforderlich\" zum Feld Browsersicherheit in den Test-Einstellungen hinzu. Informationen können auf http://www.safeexambrowser.org/ nachgelesen werden.';
 $string['configenablestats'] = 'Mit der Einstellung \"Ja\" verarbeitet die Ausführung von cron.php die Logs und erstellt Statistiken. Je nach Umfang der Aktivitäten auf der Seite kann dies einige Zeit dauern. Wenn die Option deaktiviert ist (\"Nein\"), werden die Statistiken für jeden Kurs oder die Seite beim Aufruf der Seite erstellt.';
 $string['configenabletrusttext'] = 'Normalerweise bereinigt Moodle grundsätzlich alle Texte, die von Nutzer/innen eingegeben werden, und entfernt damit mögliche Skripte und Media-Dateien, die ein Sicherheitsrisiko darstellen könnten. Das Trusted-Content-System ist ein Weg, bestimmten Nutzer/innen die Möglichkeit zu geben, erweiterte Inhalte auch ohne Filterung in ihren Beiträgen zu benutzen. Um dieses System zu aktivieren, müssen Sie zuerst diese Option zulassen, danach gewähren Sie das Trusted-Content-Recht in der betreffenden Moodle-Rollenbeschreibung. Texte, die von den betreffenden Nutzer/innen geschrieben oder hochgeladen werden, werden als vertrauenswürdig markiert und vor der Anzeige nicht gefiltert.';
 $string['configenablewebservices'] = 'Web-Services erlauben es anderen Systemen, sich in diesem Moodle anzumelden und Operationen auszuführen. Sicherheitshalber sollte diese Option deaktiviert sein, außer Sie verwenden sie ausdrücklich.';
@@ -211,7 +213,7 @@ $string['confignotifyloginthreshold'] = 'Nach wie vielen gescheiterten Anmeldeve
 $string['confignotloggedinroleid'] = 'Nicht auf der Website eingeloggte Nutzer/innen werden behandelt, als ob sie diese Rolle hätten. Die Rolle \"Gast\" ist hier meistens brauchbar. Sie können aber auch neue Rollen erstellen, die mehr oder weniger Einschränkungen vornehmen. Dinge, wie Beiträge zu verfassen, erfordern allerdings immer eine ordnungsgemäße Anmeldung.';
 $string['configopentogoogle'] = 'Wenn Sie diese Option aktivieren, wird Google Ihre Website als Gast zu besuchen dürfen. Außerdem wird jeder, der über einen Link von Google kommen, automatisch als Gast eingeloggt. Dies gilt natürlich nur für Kurse, die Gäste (ohne Schlüssel) zulassen.';
 $string['configoverride'] = 'In der Datei config.php definiert';
-$string['configpasswordpolicy'] = 'Wenn diese Einstellung aktiviert ist, dann wird Moodle die Kennworte hinsichtlich der Kennwortregeln überprüfen. Nutzen Sie die folgenden Parameter, um die Kennwortregeln zu anzupassen. Die Parameter werden ignoriert, falls Sie hier \"Nein\" setzen.';
+$string['configpasswordpolicy'] = 'Wenn diese Einstellung aktiviert ist, dann wird Moodle die Kennworte hinsichtlich der Kennwortregeln überprüfen. Nutzen Sie die nachfolgenden Parameter, um die Kennwortregeln anzupassen. Diese Parameter werden ignoriert, falls Sie hier \"Nein\" setzen';
 $string['configpathtoclam'] = 'Pfad für ClamAV, meistens /usr/bin/clamscan oder user/bin/clamdscan. Die Einstellung ist erforderlich, damit ClamAV starten kann.';
 $string['configpathtodu'] = 'Pfad für du, meistens /usr/bin/du. Mit dieser Option werden Seiten mit Verzeichnissen und vielen Dateien schneller angezeigt.';
 $string['configperfdebug'] = 'Nach der Aktivierung der Option wird eine Performance-Information in der Fußzeile des Standardthemes angezeigt.';
@@ -228,6 +230,7 @@ $string['configrcache'] = 'Der Cache-Speicher wird benutzt, um Datenbankeinträg
 $string['configrcachettl'] = 'Gültigkeitsdauer für zwischengespeicherte Inhalte (in Sekunden). Wählen Sie hier einen Wert kleiner als 15.';
 $string['configrecaptchaprivatekey'] = 'Codierung für die Kommunikation zwischen dem Moodle Server und dem recaptcha.net Server.  Dieser Code wird durch http://recaptcha.net zur Verfügung gestellt.';
 $string['configrecaptchapublickey'] = 'Code, der zur Anzeige des ReCaptcha Elements bei der Nutzerregistrierung verwandt wird. Dieser wird von http://recaptcha.net zur Verfügung gestellt.';
+$string['configregenloginsession'] = 'Die Neugenerierung der Session-ID während jeder Login-Anforderung ist dringend empfohlen. Diese Einstellung könnte eventuell mit einigen Plugins zur Authentifizierung nicht kompatibel sein.';
 $string['configrequestedstudentname'] = 'Begriff für Teilnehmer/in in beantragten Kursen';
 $string['configrequestedstudentsname'] = 'Begriff für Teilnehmer/innen in beantragten Kursen';
 $string['configrequestedteachername'] = 'Begriff für Trainer/in in beantragten Kursen';
@@ -319,7 +322,7 @@ $string['curlrecommended'] = 'Die Installation der optionalen Bibliothek cURL wi
 $string['curlrequired'] = 'Die PHP-Erweiterung cURL wird von Moodle benötigt, um mit den Moodle Repositories zu kommunizieren';
 $string['customcheck'] = 'Weitere Überprüfungen';
 $string['datarootsecurityerror'] = '<p><strong>Sicherheitswarnung!</strong></p><p>Ihr Verzeichnis dataroot liegt an der falschen Stelle auf dem Server, so dass sensible Dateien für alle im Internet zugänglich sind. Angreifer könnten dieses Problem ausnutzen, um unauthorisierten administrativen Zugriff auf Ihre Website zu erhalten!</p>
-<p>Sie <em>müssen</em> das Verzeichnis dataroot ($a) an eine andere Stelle bewegen, die nicht in Ihrem öffentlichen Web-Verzeichnis liegt, und anschließend die Einstellung <code>$CFG->dataroot</code> in der Datei config.php entsprechend anpassen.</p>';
+<p>Sie <em>müssen</em> das Verzeichnis dataroot ($a) an eine andere Stelle bewegen, die nicht in Ihrem öffentlichen Web-Verzeichnis liegt, und anschließend die Einstellung <code>&#36;CFG->dataroot</code> in der Datei config.php entsprechend anpassen.</p>';
 $string['datarootsecuritywarning'] = 'Ihre Einstellungen sind möglicherweise nicht sicher. Bitte überprüfen Sie, dass Ihr Datenverzeichnis ($a) nicht direkt aus dem Internet aufrufbar ist.';
 $string['dbmigrate'] = 'Moodle-Datenbankmigration';
 $string['dbmigrateconnecerror'] = 'Zur ausgewählten Datenbank konnte keine Verbindung hergestellt werden.';
@@ -388,12 +391,14 @@ $string['emoticons'] = 'Emoticons';
 $string['emptysettingvalue'] = 'Leer';
 $string['enableajax'] = 'Ajax erlauben';
 $string['enablecalendarexport'] = 'Kalender-Export erlauben';
+$string['enablecomments'] = 'Kommentare erlauben';
 $string['enablecourserequests'] = 'Kursanfragen erlauben';
 $string['enableglobalsearch'] = 'Globale Suche erlauben';
 $string['enablegroupings'] = 'Gruppierungen erlauben';
 $string['enablehtmlpurifier'] = '\'HTML Purifier\' erlauben';
 $string['enablerecordcache'] = 'Zwischenspeicherung erlauben';
 $string['enablerssfeeds'] = 'RSS-Feeds erlauben';
+$string['enablesafebrowserintegration'] = 'Integration des \"Safe Exam Browser\" erlauben';
 $string['enablestats'] = 'Statistiken erlauben';
 $string['enabletrusttext'] = 'Trusted-Content-System aktivieren';
 $string['enablewebservices'] = 'Web-Services erlauben';
@@ -484,7 +489,8 @@ $string['htmleditorsettings'] = 'Einstellungen für den HTML-Editor';
 $string['htmlsettings'] = 'HTML-Einstellungen';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTP-Sicherheit';
-$string['iconvrecommended'] = 'Die Installation der ICONV Bibliothek wird zur Leistungsverbesserung dringend empfohlen. Dies ist besonders wichtig, wenn Sie Sprachen mit anderen als lateinischen Zeichensätzen verwenden.';
+$string['iconvrecommended'] = 'Die Installation der Extension ICONV wird zur Leistungsverbesserung dringend empfohlen. Dies ist besonders wichtig, wenn Sie Sprachen mit anderen als lateinischen Zeichensätzen verwenden.';
+$string['iconvrequired'] = 'Die Extension ICONV muss installiert sein';
 $string['ignore'] = 'Ignorieren';
 $string['importlangreminder'] = 'Der Migrationsprozess für die Datenbank kann jetzt beginnen. Sie müssen sich <b>erneut einloggen</b>, damit das Upgrade ausgeführt wird. Installieren Sie  die Unicode-Sprachdateien unter \"Administration > Sprache > Sprachdateien importieren\", <b>nachdem</b> die Migration der Datenbank abgeschlossen wurde.';
 $string['importtimezones'] = 'Update der Zeitzonenliste';
@@ -507,8 +513,6 @@ $string['iplookupinfo'] = 'In der Voreinstellung benutzt Moodle den freien NetGe
 <br />Die Lokalisierung der IP-Adressen wird auf einer einfachen Übersichtskarte oder mit Google Maps angezeigt. Bitte beachten Sie, dass Sie einen Google-Account und einen freien Schlüssel für Google Maps API benötigen, um interaktive Karten zu ermöglichen.';
 $string['iplookupmaxmindnote'] = 'Diese Software enthält GeoLite-Daten, die von MaxMind zusammengestellt wurden und unter <a href=\"http://www.maxmind.com/\"> http://www.maxmind.com/ </a> zur Verfügung stehen.';
 $string['iplookupnetgeonote'] = 'Momentan wird der NetGeo-Server zur Anzeige der geografischen Informationen genutzt. Um zuverlässigere Ergebnisse zu erhalten, wird die Installation einer lokalen Kopie der Datenbank  MaxMind GeoLite empfohlen.';
-$string['ipwhitelist'] = 'IP-Whitelist';
-$string['ipwhitelistdesc'] = 'Bei nichtleerer Liste werden ausschließlich die hier angegebenen IP-Adressen zugelassen, um den Webdienst unter dem Nutzernamen <strong>$a->username</strong> zu nutzen';
 $string['keeptagnamecase'] = 'Schreibweise der Schlagworte beibehalten';
 $string['lang'] = 'Sprache';
 $string['lang16notify'] = 'Moodle 1.6 und alle späteren Versionen erlauben die Installation und Aktualisierung der Sprachpakete direkt von download.moodle.org über diesen Link.';
@@ -552,7 +556,6 @@ $string['maintfileopenerror'] = 'Fehler beim Aktivieren des Wartungsmodus';
 $string['maintinprogress'] = 'Die Wartung dauert eine Weile ....';
 $string['managelang'] = '<b>Verwalten</b>';
 $string['manageqtypes'] = 'Fragetypen verwalten';
-$string['managews'] = 'Webdienste werwalten';
 $string['maxbytes'] = 'Maximale Dateigröße';
 $string['maxconsecutiveidentchars'] = 'Aufeinander folgende identische Zeichen';
 $string['maxeditingtime'] = 'Maximale Zeit zur Beitragsbearbeitung';
@@ -721,6 +724,7 @@ $string['rcache'] = 'Cache-Speicher';
 $string['rcachettl'] = 'Cache-Speicher TTL';
 $string['recaptchaprivatekey'] = 'ReCaptcha: Private Key';
 $string['recaptchapublickey'] = 'ReCaptcha: Public Key';
+$string['regenloginsession'] = 'Session-ID beim Login neu generieren';
 $string['registration'] = 'Registrierung';
 $string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target=\"_blank\" href=\"$a\">Versionsinformation</a>';
 $string['remotelangnotavailable'] = 'Moodle kann keine Verbindung zu download.moodle.org herstellen, um die Sprachpakete automatisch zu installieren. Stattdessen laden Sie bitte die  ausgewählten Sprachpakete herunter, kopieren sie in das Verzeichnis $a und entpacken sie dort manuell.';
@@ -774,6 +778,7 @@ $string['settingsafemode'] = 'Moodle ist nicht vollständig kompatibel mit dem S
 $string['showblocksonmodpages'] = 'Blöcke auf Modulseiten anzeigen';
 $string['showdetails'] = 'Details anzeigen';
 $string['simpletest'] = 'Systemtests';
+$string['simplexmlrequired'] = 'Die PHP Extension SimpleXML wird von Moodle benötigt';
 $string['sitelangchanged'] = 'Die Spracheinstellungen für die Website wurden erfolgreich geändert.';
 $string['sitemailcharset'] = 'E-Mail-Zeichensatz';
 $string['sitemaintenance'] = 'Die Website wird zur Zeit überarbeitet und steht vorübergehend nicht zur Verfügung. Bitte versuchen Sie es bald erneut.';
@@ -790,6 +795,7 @@ $string['smtphosts'] = 'SMTP-Server';
 $string['smtpmaxbulk'] = 'SMTP-Massenversand';
 $string['smtppass'] = 'SMTP-Kennwort';
 $string['smtpuser'] = 'SMTP-Nutzername';
+$string['soaprecommended'] = 'Die Installation der Extension soap ist für Webservices und einige Zusatzmodule hilfreich.';
 $string['stats'] = 'Statistiken';
 $string['statscatdepth'] = 'Maximale Kategorieverzweigungstiefe';
 $string['statsfirstrun'] = 'Maximale Verarbeitungsdauer';
@@ -912,6 +918,9 @@ $string['webserviceusersettings'] = 'Nutzereinstellungen für Web-Services';
 $string['xmlrpcrecommended'] = 'Die Installation der optionalen PHP-Erweiterung xmlrpc ist für die Moodle-Network Funktionen nötig.';
 $string['xmlstrictheaders'] = 'XML strict Header';
 $string['ziprequired'] = 'Die PHP-Erweiterung zip wird ab sofort von Moodle gefordert. Die Pakete info-ZIP oder PclZip werden nicht weiter eingesetzt.';
+$string['ipwhitelist'] = 'IP-Whitelist'; // ORPHANED
+$string['ipwhitelistdesc'] = 'Bei nichtleerer Liste werden ausschließlich die hier angegebenen IP-Adressen zugelassen, um den Webdienst unter dem Nutzernamen <strong>$a->username</strong> zu nutzen'; // ORPHANED
+$string['managews'] = 'Webdienste verwalten'; // ORPHANED
 $string['sitemaxcategorydepth'] = 'Maximale Kategorientiefe'; // ORPHANED
 $string['sitemaxcategorydepthhelp'] = 'Diese Einstellung legt die maximale Anzahl der angezeigten untergeordneten Kategorien fest'; // ORPHANED
 $string['optionalsubsystems'] = 'Zusatzfunktionen'; // ORPHANED
@@ -924,5 +933,12 @@ $string['newusernamehandling'] = 'Neue Handhabung bei doppeltem Anmeldenamen'; /
 $string['skipuser'] = 'Nutzer/in überspringen'; // ORPHANED
 $string['confighideactivitytypecrumb'] = 'Wählen Sie für wen die Anzeige des Lernaktivitätentyps in der Breadcrumbnavigation verborgen werden soll.'; // ORPHANED
 $string['hideactivitytypecrumb'] = 'Lernaktivität in Navigation verbergen'; // ORPHANED
+$string['spamcleaner'] = 'Spam-Suche'; // ORPHANED
+$string['upgrade197notice'] = '<p>Moodle 1.9.7 enthält eine Reihe von Schutzmaßnahmen für die Nutzerdaten Ihrer Website, speziell bei der Kennwortverschlüsselung und bei der Speicherung von Nutzerdaten innerhalb von Kurssicherungen. Aus diesem Grund könnten sich einige Einstellungen und Rollenrechte bezüglich der Kurssicherung geändert haben.<br /><br />Alle Details finden Sie in den <a href=\'http://docs.moodle.org/de/Moodle_1.9.7_Versionsinformationen\' target=\'_blank\'>Moodle 1.9.7 Versionsinformationen</a>.</p>'; // ORPHANED
+$string['upgrade197noticesubject'] = 'Sicherheitshinweise zur Aktualisierung auf Moodle 1.9.7'; // ORPHANED
+$string['upgrade197salt'] = 'Es wird dringend geraten, mit dem zusätzlichen Parameter \"passwordsaltmain\" einen Zufallstext in die Datei config.php einzutragen, um das Risiko von Kennwortdiebstahl zu reduzieren. Beachten Sie bitte die Angaben in der <a href=\"$a\" target=\"_blank\">Dokumentation zur Kennwortverschlüsselung</a>.'; // ORPHANED
+$string['upgrade1811notice'] = '<p>Moodle 1.8.11 enthält eine Reihe von Schutzmaßnahmen für die Nutzerdaten Ihrer Website, speziell bei der Kennwortverschlüsselung und bei der Speicherung von Nutzerdaten innerhalb von Kurssicherungen. Aus diesem Grund könnten sich einige Einstellungen und Rollenrechte bezüglich der Kurssicherung geändert haben.<br /><br />Alle Details finden Sie in den <a href=\'http://docs.moodle.org/de/Moodle_1.8.11_Versionsinformationen\' target=\'_blank\'>Moodle 1.8.11 Versionsinformationen</a>.</p>'; // ORPHANED
+$string['upgrade1811noticesubject'] = 'Sicherheitshinweise zur Aktualisierung auf Moodle 1.8.11'; // ORPHANED
+$string['upgrade1811salt'] = 'Es wird dringend geraten, mit dem zusätzlichen Parameter \"passwordsaltmain\" einen Zufallstext in die Datei config.php einzutragen, um das Risiko von Kennwortdiebstahl zu reduzieren. Beachten Sie bitte die Angaben in der <a href=\"$a\" target=\"_blank\">Dokumentation zur Kennwortverschlüsselung</a>.'; // ORPHANED
 
 ?>
