@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091123) (2009112000)
 
 
 $string['CASform'] = '認証選択';
@@ -230,18 +230,18 @@ $string['auth_nonetitle'] = '認証なし';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = '「Yes」にした場合、NTLMドメインでシングルサインオンを試みます。<strong>注意:</strong> これを動作させるには、ウェブサーバに対して、追加セットアップが必要です。詳細は、<a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>をご覧ください。';
 $string['auth_ntlmsso_enabled_key'] = '有効';
-$string['auth_ntlmsso_ie_fastpath'] = '「Yes」にした場合、NTLM SSO高速経路 (fast path) が有効にされます (特定のステップをバイパスします。クライアントブラウザがMS Internet Explorerの場合のみ動作します)。';
+$string['auth_ntlmsso_ie_fastpath'] = '「Yes」にした場合、NTLM SSO高速経路 (fast path) が有効にされます (特定のステップをバイパスします。また、クライアントブラウザがMS Internet Explorerの場合のみ動作します)。';
 $string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE fast path?';
 $string['auth_ntlmsso_subnet'] = '設定した場合、このサブネット中のクライアントのみSSOを試みます。フォーマット: xxx.xxx.xxx.xxx/ビットマスク';
 $string['auth_ntlmsso_subnet_key'] = 'サブネット';
 $string['auth_outofnewemailupdateattempts'] = 'あなたは、メールアドレスの変更許容回数を超えました。あなたのメール変更リクエストは、キャンセルされました。';
-$string['auth_pamdescription'] = 'この方法では、サーバのネイティブユーザ名にアクセスする手段として、PAMを使用します。このモジュールを使用するためには、<a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a>がインストールされている必要があります。';
+$string['auth_pamdescription'] = 'この方法では、このサーバのネイティブユーザ名にアクセスする手段として、PAMを使用します。このモジュールを使用するためには、あなたは、<a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a>をインストールする必要があります。';
 $string['auth_pamtitle'] = 'PAM (Pluggable Authentication Modules)';
-$string['auth_passwordisexpired'] = 'あなたのパスワードの有効期限が切れました。あなたのパスワードを変更しますか?';
+$string['auth_passwordisexpired'] = 'あなたのパスワード有効期限が切れました。あなたのパスワードを変更しますか?';
 $string['auth_passwordwillexpire'] = 'あなたのパスワードの有効期限は、$a 日で切れます。あなたのパスワードを変更しますか?';
 $string['auth_pop3changepasswordurl_key'] = 'パスワード変更のURI';
-$string['auth_pop3description'] = 'この方法では、ユーザ名およびパスワードを確認するため、POP3サーバを使用します。';
-$string['auth_pop3host'] = 'POP3サーバアドレスです。IPアドレスではなく、ドメイン名を使用してください。';
+$string['auth_pop3description'] = 'この方法では、ユーザ名およびパスワードが有効かどうかチェックするため、POP3サーバを使用します。';
+$string['auth_pop3host'] = 'POP3サーバアドレスです。DNS名ではなく、IPアドレスを使用してください。';
 $string['auth_pop3host_key'] = 'ホスト';
 $string['auth_pop3mailbox'] = '接続を試みるメールボックス名 (通常「INBOX」です)';
 $string['auth_pop3mailbox_key'] = 'メールボックス';
@@ -282,12 +282,12 @@ $string['auth_shib_idp_list_description'] = 'ログインページでユーザ�
 $string['auth_shib_instructions'] = 'あなたの機関がShibbolethをサポートしている場合、Shibboleth経由のアクセスには、<a href=\"$a\">Shibbolethログイン</a>を使用してください。 <br />Shibbolethをサポートしていない場合、ここに表示される通常ログインを使用してください。';
 $string['auth_shib_instructions_help'] = 'Shibbolethに関して、ユーザに提示する説明文です。 これは、ログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるよう、「<b>$a</b>」 のようなリンクを入れてください。';
 $string['auth_shib_integrated_wayf'] = 'Moodle WAYFサービス';
-$string['auth_shib_integrated_wayf_description'] = 'チェックした場合、Shibbolethで設定されたWAYFサービスを使用するのではなく、Moodleは独自のWAYFサービスを使用します。この代替ログインページのため、Moodleはユーザがアイデンティティプロバイダを選択できるドロップダウンリストを表示します。';
+$string['auth_shib_integrated_wayf_description'] = 'チェックした場合、MoodleはShibbolethで設定されたWAYFサービスを使用するのではなく、独自のWAYFサービスを使用します。この代替ログインページのため、Moodleはユーザがアイデンティティプロバイダを選択できるドロップダウンリストを表示します。';
 $string['auth_shib_logout_return_url'] = '代替ログアウト戻りURI';
 $string['auth_shib_logout_return_url_description'] = 'ログアウト後、ShibbolethユーザがリダイレクトされるURIを入力してください。<br />空にした場合、ユーザはMoodleがリダイレクトする場所にリダイレクトされます。';
 $string['auth_shib_logout_url'] = 'ShibbolethサービスプロバイダのログアウトハンドラURI';
 $string['auth_shib_logout_url_description'] = 'ShibbolethサービスプロバイダのログアウトハンドラのURIを入力してください。一般的に、<tt>/Shibboleth.sso/Logout</tt>のようになります。';
-$string['auth_shib_no_organizations_warning'] = 'あなたが統合WAYFサービスを利用したい場合、カンマで区切ったアイデンティティプロバイダのエンティティID、名称およびセッションイニシエータのリストを入力してください。';
+$string['auth_shib_no_organizations_warning'] = 'あなたが統合WAYFサービスを使用したい場合、カンマで区切ったアイデンティティプロバイダのエンティティID、名称およびセッションイニシエータのリストを入力してください。';
 $string['auth_shib_only'] = 'Shibbolethのみ';
 $string['auth_shib_only_description'] = 'Shibboleth認証を強制する場合、このオプションをチェックしてください。';
 $string['auth_shib_username_description'] = 'Moodleユーザ名として使用されるShibbolethウェブサーバ環境のユーザ名です。';
@@ -298,7 +298,7 @@ $string['auth_shibboleth_login_long'] = 'Shibboleth経由でMoodleにログイ�
 $string['auth_shibboleth_manual_login'] = '手動ログイン';
 $string['auth_shibboleth_select_member'] = '私は ...';
 $string['auth_shibboleth_select_organization'] = 'Shibboleth経由の認証のため、あなたの組織をドロップダウンリストから選択してください。';
-$string['auth_shibbolethdescription'] = 'この方法を使用すると、<a href=\"http://shibboleth.internet2.edu/\">Shibboleth</a>を使用して、ユーザが作成および認証されます。<br />あなたが使用しているMoodleにShibbolethを設定するには、<a href=\"../auth/shibboleth/README.txt\">README</a>をご覧ください。';
+$string['auth_shibbolethdescription'] = 'この認証方法により、<a href=\"http://shibboleth.internet2.edu/\">Shibboleth</a>を使用して、ユーザが作成および認証されます。<br />あなたが使用しているMoodleにShibbolethを設定するには、<a href=\"../auth/shibboleth/README.txt\">README</a>をご覧ください。';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_sync_script'] = 'Cron同期化スクリプト';
 $string['auth_updatelocal'] = 'ローカルデータの更新';
@@ -310,7 +310,7 @@ $string['auth_user_create'] = 'ユーザの作成';
 $string['auth_user_creation'] = '新しい (匿名) ユーザは、外部認証元のユーザアカウントを作成することができます。また、メールによりアカウント登録が確認されます。このオプションを有効にした場合、モジュール特有のオプションも同時に設定する必要があります。';
 $string['auth_usernameexists'] = 'このユーザ名は、すでに登録されています。新しいものを選んでください。';
 $string['authenticationoptions'] = '認証オプション';
-$string['authinstructions'] = 'ここでは、どのようなユーザ名やパスワードを使用したらよいのかユーザに説明します。ここに入力したテキストは、ログインページに表示されます。空白の場合、何も表示されません。';
+$string['authinstructions'] = 'ここであなたは、どのようなユーザ名やパスワードを使用したらよいのかユーザに説明することができます。ここに入力したテキストは、ログインページに表示されます。空白の場合、何も表示されません。';
 $string['auto_add_remote_users'] = 'リモートユーザを自動的に追加する';
 $string['changepassword'] = 'パスワードURIの変更';
 $string['changepasswordhelp'] = 'ここでは、あなたのユーザがパスワードを忘れた場合、ユーザ名/パスワードを回復または変更するためのロケーションを設定します。これは、ログインページおよびユーザページにボタンとして提供されます。ここを空白にした場合、ボタンは表示されません。';
@@ -364,7 +364,7 @@ $string['sso_mnet_login_refused'] = 'ユーザ名 $a[0] は、$a[1] からのロ
 $string['sso_sp_description'] = 'このサービスを公開することで、$a からの認証済みユーザは、再度ログインせずにあなたのサイトにアクセスできます。<ul><li><em>従属関係</em>: あなたは $a のSSO (アイデンティティプロバイダ) サービスに<strong>登録</strong>する必要があります。</li></ul><br />このサービスに登録することで、あなたのユーザは再度ログインせずに $a のMoodleサイトを散策することができます。<ul><li><em>従属関係</em>: あなたは $a にSSO (アイデンティティプロバイダ) サービスを<strong>公開</strong>する必要があります。</li></ul><br />';
 $string['sso_sp_name'] = 'SSO (サービスプロバイダ)';
 $string['stdchangepassword'] = '標準パスワード変更ページを使用する';
-$string['stdchangepassword_expl'] = '外部認証システムがMoodleにパスワードの変更を許可する場合、この設定を「Yes」にしてください。この設定は、「Change Password URI」をオーバーライドします。';
+$string['stdchangepassword_expl'] = '外部認証システムがMoodleにパスワードの変更を許可する場合、この設定を「Yes」にしてください。この設定は、「パスワード変更のURI」をオーバーライドします。';
 $string['stdchangepassword_explldap'] = '注意: LDAPサーバがリモートの場合、SSL暗号化トンネル (ldaps://) の使用をお勧めします。';
 $string['unlocked'] = 'ロックしない';
 $string['unlockedifempty'] = '空の場合はロックしない';
