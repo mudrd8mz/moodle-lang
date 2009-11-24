@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
+      // role.php - created with Moodle 1.9.6+ (Build: 20091124) (2007101563.03)
 
 
 $string['addrole'] = 'Přidat novou roli';
@@ -10,6 +10,7 @@ $string['allsiteusers'] = 'Všichni uživatelé na serveru';
 $string['assignglobalroles'] = 'Přidělit globální role';
 $string['assignroles'] = 'Přidělit role';
 $string['assignrolesin'] = 'Přidělit role v $a';
+$string['backup:userinfo'] = 'Zálohovat data uživatelů';
 $string['block:view'] = 'Vidět blok';
 $string['blog:create'] = 'Vytvořit nové příspěvky blogu';
 $string['blog:manageentries'] = 'Upravovat a spravovat položky';
@@ -135,6 +136,7 @@ $string['resetrolenolegacy'] = 'Vymazat oprávnění';
 $string['resetrolesure'] = 'Skutečně chcete resetovat roli \"$a->name ($a->shortname)\" na výchozí hodnoty?</p><p>Tyto výchozí hodnoty budou převzaty na základě archetypu role ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'Skutečně chcete vymazat všechna oprávnění definovaná v roli \"$a->name ($a->shortname)\"?';
 $string['restore:rolldates'] = 'Automaticky přepočítat termíny v modulech činností při obnově kurzu';
+$string['restore:userinfo'] = 'Obnovovat data uživatelů';
 $string['risks'] = 'Rizika';
 $string['role:assign'] = 'Přiřadit role uživatelům';
 $string['role:manage'] = 'Vytvářet a spravovat role';

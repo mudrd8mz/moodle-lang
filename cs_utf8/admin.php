@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
+      // admin.php - created with Moodle 1.9.6+ (Build: 20091124) (2007101563.03)
 
 
 $string['accessdenied'] = 'Přístup zamítnut';
@@ -127,6 +127,7 @@ $string['configenablestats'] = 'Při volbě \'Ano\' zpracuje cron protokoly o č
 $string['configenabletrusttext'] = 'Moodle standardně pročišťuje jakýkoliv text přicházející od uživatelů a snaží se odstranit potenciální bezpečnostní rizika, mezi něž patří i skripty, média apod. Pomocí funkce \"Důvěryhodný obsah\" můžete vybraným uživatelům dát privilegium používat i tyto pokročilé prvky bez dalších zásahů. Nejprve je potřeba povolit toto nastavení a poté udělit oprávnění Důvěryhodný obsah (Trusted Content) vybraným rolím. Text, který byl vytvořen nebo nahrán uživatelem s takovou rolí, je pak označen jako důvěryhodný a není před zobrazením pročišťován.';
 $string['configenrolmentplugins'] = 'Jaké způsoby zápisů do kurzu povolit? Nezapomeňte upravit příslušné nastavení zásuvných modulů. <br /><br />Označte povolené moduly a vyberte <strong>jeden z nich</strong> jako výchozí pro interaktivní zápis do kurzů. Pro vypnutí interaktivních zápisů do určitých kurzu u nich nastavte proměnnou \"Do kurzu se lze zapisovat\" na \"Ne\".';
 $string['configerrorlevel'] = 'Vyberte rozsah zobrazovaných varování PHP. Většinou je nejlepší volbou \'Normální\'.';
+$string['configexcludeoldflashclients'] = 'Některé verze přehrávače Adobe Flash player jsou známy svou zranitelností před napadením pomocí škodlivého Flash obsahu. Máte možnost chránit vaše uživatele a určit minimální verzi přehrávače, kterou musejí nainstalovanou. Uživatelům s nižší verzí Flash player pluginu se namísto očekávaného obsahu objeví informace o nutnosti aktualizace. Necháte-li pole prázdné, nebude taková kontrola prováděna.';
 $string['configexperimentalsplitrestore'] = 'Zda se mají soubory záloh kontrolovat na přítomnost chyb v XML a rozdělovat na menší části. U středně velkých a velkých kurzů vede toto nastavení k větší robustnosti procesu obnovy a zkrácení časů jeho provádění.';
 $string['configextendedusernamechars'] = 'Povolit uživatelům používat libovolné znaky v uživatelských jménech (volba nemá vliv na znaky ve jméně a příjmení). Výchozí hodnota \'Ne\' omezuje uživatelská jména pouze na alfanumerické znaky. Čeština není podporována, takže ponechte volbu na \'Ne\'!';
 $string['configextramemorylimit'] = 'Některé skripty (např. vyhledávání, záloha/obnova nebo cron) potřebují více paměti. U velkých instalací nastavte větší hodnotu.';
@@ -378,6 +379,7 @@ $string['errors'] = 'Chyby';
 $string['errorsetting'] = 'Nelze uložit nastavení:';
 $string['errorwithsettings'] = 'Některá nastavení nebyla změněna kvůli chybě:';
 $string['everyonewhocan'] = 'Každý kdo může \'$a\'';
+$string['excludeoldflashclients'] = 'Požadovaná verze přehrávače Flash';
 $string['experimental'] = 'Experimentální';
 $string['experimentalsplitrestore'] = 'Experimentální rozdělování záloh';
 $string['extendedusernamechars'] = 'Povolit nestandardní znaky v uživatelských jménech';
@@ -435,6 +437,7 @@ $string['htmlsettings'] = 'Nastavení HTML';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'Zabezpečení HTTP';
 $string['iconvrecommended'] = 'Instalace volitelné knihovny ICONV je silně doporučena, neboť zvyšuje výkon stránek, zejména pokud používáte jazyky nezaložené na latince.';
+$string['iconvrequired'] = 'Je vyžadováno rozšíření ICONV';
 $string['ignore'] = 'Ignorovat';
 $string['importlangreminder'] = 'Zahajuje se proces migrace databáze. Pro provedení změn se musíte <b>znovu přihlásit</b>. Co nejdříve <b>po dokončení</b> migrace nainstalujte unicodové jazykové balíčky pomocí \'Správa->Nastavení->Jazyk->Správa jazykových balíčků\'.';
 $string['importtimezones'] = 'Aktualizovat kompletní seznam časových pásem';
@@ -703,6 +706,7 @@ $string['smtphosts'] = 'SMTP hostitelé';
 $string['smtpmaxbulk'] = 'Limit SMTP relace';
 $string['smtppass'] = 'SMTP heslo';
 $string['smtpuser'] = 'SMTP uživatelské jméno';
+$string['soaprecommended'] = 'Instalace rozšíření SOAP je užitečné pro podporu webových služeb (web services) a pro některé přídavné moduly.';
 $string['spamcleaner'] = 'Nežádoucí obsah';
 $string['stats'] = 'Statistiky';
 $string['statscatdepth'] = 'Maximum rodičovských kategorií';
@@ -745,6 +749,11 @@ $string['updateaccounts'] = 'Aktualizovat stávající účty';
 $string['updatecomponent'] = 'Aktualizovat komponentu';
 $string['updatelangs'] = 'Aktualizovat všechny instalované jazyk. balíčky';
 $string['updatetimezones'] = 'Aktualizovat časová pásma';
+$string['upgrade197notice'] = '<p>Moodle 1.9.7 obsahuje řadu bezpečnostních opatření pro ukládání uživatelských hesel a tvorbu záloh kurzů.<br />
+Některá nastavení a oprávnění týkající se tvorby záloh kurzů mohla být změněna.<br />
+Podrobné informace najdete na stránce <a href=\'http://docs.moodle.org/en/Moodle_1.9.7_release_notes\' target=\'_blank\'>Moodle 1.9.7 release notes</a></p>';
+$string['upgrade197noticesubject'] = 'Upgrade na Moodle 1.9.7 - bezpečnostní opatření';
+$string['upgrade197salt'] = 'Pokud ukládáte hesla vašich uživatelů v Moodle databázi, měli byste zvážit aktivaci <a href=\"$a\" target=\"_blank\">Solení hesel</a> ke snížení rizika odhalení hesel vašich uživatelů.';
 $string['upgradeforumread'] = 'Do Moodlu 1.5 byla přidána nová funkce, která umožňuje sledovat a označovat stav diskusních příspěvků \'přečteno/nepřečteno\'.<br />Chcete-li tuto funkci používat, musíte <a href=\"$a\">aktualizovat tabulky v databázi</a>.';
 $string['upgradeforumreadinfo'] = 'Do Moodlu 1.5 byla přidána nová funkce, která umožňuje u každého uživatele zaznamenávat stav příspěvků \'přečteno/nepřečteno\'. Chcete-li tuto funkci používat, je třeba doplnit ke stávajícím příspěvkům potřebné informace. Tento proces může v závislosti na rozsahu vašich stránek trvat až několik hodin a na vašem databázovém serveru bude celkem rušno, takže doporučujeme provést tuto činnost ve vhodném čase (např. o víkendu v noci). Vaše stránky budou nicméně stále v provozu a práce uživatelů by neměla být výrazněji ovlivněna. Jakmile proces spustíte, měli byste jej nechat dokončit (tj. nechat otevřené příslušné okno prohlížeče). Ale nemějte obavy, pokud okno zavřete a proces ukončíte, můžete kdykoliv začít znovu.<br /><br />Chcete nyní spustit aktualizaci databáze?';
 $string['upgradelogs'] = 'Pro plnou funkčnost je nutné vaše staré protokoly aktualizovat. <a href=\"$a\">Více informací</a>';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.5+ (Build: 20090529) (2007101550)
+      // mnet.php - created with Moodle 1.9.6+ (Build: 20091124) (2007101563.03)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samopodepsané)';
@@ -12,6 +12,7 @@ $string['accesslevel'] = 'Úroveň přístupu';
 $string['addhost'] = 'Přidat hostitele';
 $string['addnewhost'] = 'Přidat nového hostitele';
 $string['addtoacl'] = 'Přidat na seznam pro řízení přístupu (ACL)';
+$string['allhosts_no_options'] = 'Při prohlížení vícero hostitelů nejsou volby k dispozici';
 $string['allow'] = 'Povolit';
 $string['authfail_nosessionexists'] = 'Přihlašování neuspělo: Session mnet neexistuje';
 $string['authfail_sessiontimedout'] = 'Přihlašování neuspělo: Session mnet vypršela.';

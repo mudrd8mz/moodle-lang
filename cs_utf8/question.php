@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.3 (Build: 20081020) (2007101530)
+      // question.php - created with Moodle 1.9.6+ (Build: 20091124) (2007101563.03)
 
 
 $string['adminreport'] = 'Přehled možných problémů s vaší databází úloh.';
@@ -23,6 +23,7 @@ $string['deletecoursecategorywithquestions'] = 'V bance úloh jsou úlohy asocio
 $string['donothing'] = 'Nekopírovat a nepřesouvat soubory, ani neměnit odkazy.';
 $string['editingcategory'] = 'Úprava kategorie';
 $string['editingquestion'] = 'Úprava otázky';
+$string['editthiscategory'] = 'Upravit tuto kategorii';
 $string['erroraccessingcontext'] = 'Kontext není dostupný';
 $string['errordeletingquestionsfromcategory'] = 'Chyba při odstraňování úloh z kategorie $a';
 $string['errorfilecannotbecopied'] = 'Chyba - nelze kopírovat soubor $a';

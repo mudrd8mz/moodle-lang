@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.4+ (Build: 20090302) (2007101541)
+      // report_security.php - created with Moodle 1.9.6+ (Build: 20091124) (2007101563.03)
 
 
 $string['check_configrw_details'] = '<p>Doporučuje se změnit práva k souboru config.php tak, aby do něj nemohl zapisovat sám webový server.
@@ -87,6 +87,15 @@ Nicméně nenastavujte pravidla příliš přísná - to vede k tomu, že uživa
 $string['check_passwordpolicy_error'] = 'Zásady bezpečného hesla nejsou definovány';
 $string['check_passwordpolicy_name'] = 'Zásady bezpečného hesla';
 $string['check_passwordpolicy_ok'] = 'Zásady bezpečného hesla nastaveny';
+$string['check_passwordsaltmain_details'] = '<p>Solení hesel výrazně snižuje riziko prolomení zahešovaných hesel v databázi a v zálohách kurzů.</p>
+<p>Pro nastavení soli přidejte do vašeho souboru config.php následující řádek:</p>
+<code>$CFG->passwordsaltmain = \'sem vložte nějaký náhodný řetězec obsahující spoustu znaků\';</code>
+<p>Náhodný řetězec tvořící sůl by měl obsahovat písmena, číslice a další znaky. Měl by být alespoň 40 znaků dlouhý.</p>
+<p>Upozornění - <a href=\"$a\" target=\"_blank\">prostudujte si dokumentaci</a>, pokud se chystáte měnit zde vloženou hodnotu. Jakmile je sůl jednou nastavena, nelze její hodnotu jen tak prostě odstranit. Znemožnili byste přihlášení uživatelů a sebe sama na váš server!</p>';
+$string['check_passwordsaltmain_name'] = 'Solení hesel';
+$string['check_passwordsaltmain_ok'] = 'Sůl je korektně nastavena';
+$string['check_passwordsaltmain_warning'] = 'Nebyla nastavena žádná sůl';
+$string['check_passwordsaltmain_weak'] = 'Nastavená sůl je příliš slabá';
 $string['check_riskadmin_detailsok'] = '<p>Seznam stávajících správců stránek:<br />$a</p>';
 $string['check_riskadmin_detailswarning'] = '<p>Seznam stávajících správců stránek:<br />$a->admins</p>
 <p>Role Správce se přiřazuje pouze v hlavním systémovém kontextu. Následujícím uživatelům je přiřazena role Správce v nesprávném kontextu:<br />$a->unsupported</p>';
