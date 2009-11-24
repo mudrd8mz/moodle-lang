@@ -751,7 +751,7 @@ $string['updatelangs'] = 'Aktualizovat všechny instalované jazyk. balíčky';
 $string['updatetimezones'] = 'Aktualizovat časová pásma';
 $string['upgrade197notice'] = '<p>Moodle 1.9.7 obsahuje řadu bezpečnostních opatření pro ukládání uživatelských hesel a tvorbu záloh kurzů.<br />
 Některá nastavení a oprávnění týkající se tvorby záloh kurzů mohla být změněna.<br />
-Podrobné informace najdete na stránce <a href=\'http://docs.moodle.org/en/Moodle_1.9.7_release_notes\' target=\'_blank\'>Moodle 1.9.7 release notes</a></p>';
+Podrobné informace najdete na stránce <a href=\"http://docs.moodle.org/en/Moodle_1.9.7_release_notes\" target=\"_blank\">Moodle 1.9.7 release notes</a></p>';
 $string['upgrade197noticesubject'] = 'Upgrade na Moodle 1.9.7 - bezpečnostní opatření';
 $string['upgrade197salt'] = 'Pokud ukládáte hesla vašich uživatelů v Moodle databázi, měli byste zvážit aktivaci <a href=\"$a\" target=\"_blank\">Solení hesel</a> ke snížení rizika odhalení hesel vašich uživatelů.';
 $string['upgradeforumread'] = 'Do Moodlu 1.5 byla přidána nová funkce, která umožňuje sledovat a označovat stav diskusních příspěvků \'přečteno/nepřečteno\'.<br />Chcete-li tuto funkci používat, musíte <a href=\"$a\">aktualizovat tabulky v databázi</a>.';
