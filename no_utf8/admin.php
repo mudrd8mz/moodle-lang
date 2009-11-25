@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
+      // admin.php - created with Moodle 1.9.6+ (Build: 20091125) (2007101563.03)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -129,6 +129,7 @@ $string['configenablestats'] = 'Hvis du velger \'ja\' her, vil Moodles cronjobb 
 $string['configenabletrusttext'] = 'Som standard vil Moodle alltid renske tekst fra brukere for potensielt skadelig kode, media eller annet som kan være en sikkerhetsrisiko. \"Godkjent Innhold\" systemet er en måte å gi bestemte brukere adgang til å inkludere avanserte funksjoner i publisert innhold uten at Moodle fjerner noe. <br />For å aktivisere denne funksjonen må du først aktivisere denne innstillingen og deretter tildele \"Godkjent Innhold\"-tillatelse til en bestemt Moodle-rolle. Tekst som blir produsert eller lastet opp av slike brukere vil bli merket som Godkjent og ikke rensket før den vises.';
 $string['configenrolmentplugins'] = 'Vennligst velg hvilken påmeldings-plugin du ønsker å bruke. Ikke glem innstillingene!<br /><br />Du må sette at plugins er aktivisert, og <strong>BARE EN</strong> plugin kan settes som standard for <em>interaktiv</em> påmelding. Dersom du vil slå av interaktiv påmelding må du sette \"Tilgjengelig for påmelding\" til \"Nei\" i Kursinnstillingene.';
 $string['configerrorlevel'] = 'Velg hvor mye PHP-advarsler du ønsker skal vises. Normal er vanligvis det beste valg.';
+$string['configexcludeoldflashclients'] = 'Noen versjoner av Adobe Flash er kjent for å være utsatt for angrep fra ondsinnet flashinnhold. Du kan her angi lavest støttede Flash-versjon. Brukere med gamle Flash-avspillere vil da IKKE får avspilt innholdet og i stedet få informasjon om hvordan de kan oppgradere Flash på egen pc. La dette feltet stå tomt hvis du vil deaktivere Flash versjonskontroll.';
 $string['configexperimentalsplitrestore'] = 'Dersom aktivert vil sikkerhetskopifilene bli sjekket for XML-feil og delt opp i mindre deler som skal brukes ved en gjenoppretting. Dette medfører mer robust gjenoppretting og mye raskere respons ved kjøring -særlig når du sikkerhetskopierer medium til store kurs.';
 $string['configextendedusernamechars'] = 'Slå på denne for å la studenter bruke alle tegn i sine brukernavn (merk at dette ikke påvirker deres virkelige navn). Standard er \"falsk\" som avgrenser brukernavn til å bestå av kun alfanumeriske tegn';
 $string['configextramemorylimit'] = 'Noen scripts, som Søk, Backup/Restore eller cron, krever mer minne. Angi derfor en høyere verdi på store portaler.';
@@ -383,6 +384,7 @@ $string['errors'] = 'Feil';
 $string['errorsetting'] = 'Kunne ikke lagre innstillingene';
 $string['errorwithsettings'] = 'Noen innstillinger kunne ikke lagres pga en feil';
 $string['everyonewhocan'] = 'Alle som kan \'$a\'';
+$string['excludeoldflashclients'] = 'Flash-versjon (eller nyere) som støttes';
 $string['experimental'] = 'Eksperimentell';
 $string['experimentalsplitrestore'] = 'Eksperimentell: Gjenoppretting med flere backupfiler pr. kurs';
 $string['extendedusernamechars'] = 'Tillat utvidet karaktersett i brukernavn';
