@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // question.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
 
 
 $string['adminreport'] = 'あなたの問題データベースで可能性のある不具合をレポートします。';
@@ -55,6 +55,7 @@ $string['disterror'] = 'ディストリビューション $a が問題の原因�
 $string['donothing'] = 'ファイルをコピーまたは移動またはリンクを変更しない。';
 $string['editingcategory'] = 'カテゴリの編集';
 $string['editingquestion'] = '問題の編集';
+$string['editthiscategory'] = 'このカテゴリを編集する';
 $string['emptyxml'] = '不明なエラー: imsmanifest.xmlが空です。';
 $string['enabled'] = '利用可能';
 $string['erroraccessingcontext'] = 'コンテクストにアクセスできません。';

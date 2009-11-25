@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
+      // role.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
 
 
 $string['addinganewrole'] = '新しいロールを追加する';
@@ -24,6 +24,7 @@ $string['assignroles'] = 'ロールの割り当て';
 $string['assignrolesin'] = '$a ロールの割り当て';
 $string['assignrolesrelativetothisuser'] = 'このユーザに対してロールを割り当てる';
 $string['backtoallroles'] = 'すべてのロール一覧に戻る';
+$string['backup:userinfo'] = 'ユーザデータをバックアップする';
 $string['block:edit'] = 'ブロック設定を編集する';
 $string['block:view'] = 'ブロックを表示する';
 $string['blog:associatecourse'] = 'ブログエントリとコースを関連付ける';
@@ -201,6 +202,7 @@ $string['resetrolenolegacy'] = 'パーミッションをクリアする';
 $string['resetrolesure'] = '本当にロール「 $a->name ($a->shortname) 」をデフォルトにリセットしてもよろしいですか?</p><p>選択されたレガシーケイパビリティ ($a->legacytype) よりデフォルトが取得されます。';
 $string['resetrolesurenolegacy'] = '本当にこのロール「 $a->name ($a->shortname) 」で定義されたすべてのパーミッションをクリアしてもよろしいですか?';
 $string['restore:rolldates'] = 'リストア時、活動設定の日付変更を許可する';
+$string['restore:userinfo'] = 'ユーザデータをリストアする';
 $string['risks'] = 'リスク';
 $string['role:assign'] = 'ユーザにロールを割り当てる';
 $string['role:manage'] = 'ロールを作成および管理する';

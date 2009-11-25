@@ -509,6 +509,7 @@ $string['htmlsettings'] = 'HTML設定';
 $string['http'] = 'HTTP';
 $string['httpsecurity'] = 'HTTPセキュリティ';
 $string['iconvrecommended'] = 'より良いパフォーマンスを得るため、ICONVライブラリのインストールを強くお勧めします。あなたのサイトが非ラテン言語をサポートしている場合、特にお勧めします。';
+$string['iconvrequired'] = 'ICONV拡張モジュールのインストールが必須です。';
 $string['ignore'] = '無視';
 $string['importlangreminder'] = 'データベース移行処理が開始しました。アップグレードを有効にするには、<b>再度ログイン</b>する必要があります。データベース移行処理が<b>完了した後</b>、可能な限り早く、「管理 -> 言語設定 -> 言語インポートユーティリティ」からユニコード言語パックをインストールしてください。';
 $string['importtimezones'] = 'タイムゾーンリストの更新';
