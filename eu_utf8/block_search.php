@@ -17,7 +17,9 @@ $string['go'] = 'Joan!';
 $string['modulessearchswitches'] = 'Indexatzailea gaitu moduluetarako';
 $string['nosearchableblocks'] = 'Bilatu ezineko blokeak';
 $string['nosearchablemodules'] = 'Bilatu ezineko moduluak';
+$string['pdfhandling'] = 'Acrobat PDF kudeaketa';
 $string['searchmoodle'] = 'Bilatu Moodle-n';
 $string['usemoodleroot'] = 'Erabili moodle root kanpoko bihurtzaileetarako';
+$string['wordhandling'] = 'Microsoft Word kudeaketa';
 
 ?>
