@@ -22,7 +22,7 @@ $string['hour'] = 'Ordua';
 $string['minute'] = 'Minutua';
 $string['miscellaneoussettings'] = 'Beste hainbat ezarpen';
 $string['modstandardels'] = 'Moduluaren ezarpen bateratuak';
-$string['month'] = 'Hila';
+$string['month'] = 'Hilabetea';
 $string['mustbeoverriden'] = '$a klaseko Abstract form_definition() metodoak baimenduta egon behar du; mesedez, konpondu kodea.';
 $string['nomethodforaddinghelpbutton'] = '$a->name (class $a->classname) formularioaren elementuari laguntza botoia gehitzeko metodorik ez dago';
 $string['nonexistentformelements'] = '$a formularioaren elementua ez dago eta ezin zaio laguntza botoirik gehitu';
@@ -37,7 +37,7 @@ $string['somefieldsrequired'] = 'Formulario honetan derrigorrezko eremuak daude'
 $string['time'] = 'Denbora';
 $string['timeunit'] = 'Denbora-unitatea';
 $string['timing'] = 'Denbora';
-$string['unmaskpassword'] = 'Agerian jarri';
+$string['unmaskpassword'] = 'Desmaskaratu';
 $string['year'] = 'Urtea';
 
 ?>
