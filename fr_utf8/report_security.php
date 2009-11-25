@@ -119,6 +119,14 @@ $string['check_riskadmin_ok'] = '$a administrateur(s) Moodle trouvés.';
 $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">Vérification de l\'attribution du rôle de $a->fullname ($a->email)</a>';
 $string['check_riskadmin_warning'] = '$a->admincount administrateurs et $a->unsupcount attributions du rôle d\'administrateur trouvés.';
 
+$string['check_riskbackup_name'] = 'Sauvegarde des données des utilisateurs';
+$string['check_riskbackup_warning'] = '{$a->rolecount} rôles et {$a->usercount} utilisateurs ont la possibilité de sauvegarder les données des utilisateurs.';
+$string['check_riskbackup_detailswarning'] = '<p>Veuillez vérifier la liste de rôles ci-dessous permettant la sauvegarde des données des utilisateurs :</p>{$a->roles}<p>Les comptes utilisateurs suivant ont actuellement la capacité de faire des sauvegardes contenant les données des utilisateurs de tout le site. Veuillez vous assurer que (a) vous leur accordez votre confiance, et que (b) leur mot de passe est complexe :</p>{$a->users}';
+$string['check_riskbackup_editrole'] = '<a href=\"$a->url\">$a->name</a>';
+$string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email)</a>';
+$string['check_riskbackup_ok'] = 'Aucun rôle n\'autorise explicitement la sauvegarde des données des utilisateurs';
+$string['check_riskbackup_detailsok'] = 'Aucun rôle n\'autorise explicitement la sauvegarde des données des utilisateurs. Toutefois, les administrateurs, qui possèdent la capacité « doanything » peuvent probablement effectuer de telles sauvegardes malgré tout.';
+
 $string['check_riskxss_details'] = '<p>Le terme RISK_XSS assortit toutes les capacités dangereuses qui ne devraient être autorisées que par des utilisateurs fiables.</p><p>Veuillez vérifier la liste d\'utilisateurs ci-dessous et vous assurer que vous leur faites totalement confiance sur ce site :</p><p>$a</p>';
 $string['check_riskxss_name'] = 'Utilisateurs XSS fiables';
 $string['check_riskxss_warning'] = 'RISK_XSS, $a utilisateurs dont vous devez être sûr.';
