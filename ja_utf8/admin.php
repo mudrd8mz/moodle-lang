@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091108) (2009110605)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
 
 
 $string['accessdenied'] = 'アクセスが拒否されました。';
@@ -852,6 +852,11 @@ $string['updateaccounts'] = '既存のアカウントを更新する';
 $string['updatecomponent'] = 'コンポーネントを更新する';
 $string['updatelangs'] = '利用中のすべての言語パックを更新する';
 $string['updatetimezones'] = 'タイムゾーンの更新';
+$string['upgrade197notice'] = '<p>あなたのサイトのユーザ情報を保護するため、Moodle 1.9.7には、ユーザパスワードおよびバックアップに関して、数多くのセキュリティ上の修正が含まれます。<br />
+結果として、あなたのバックアップに関する設定およびパーミッションが変更された可能性があります。<br />
+詳細は、<a href=\"http://docs.moodle.org/en/Moodle_1.9.7_release_notes\" target=\"_blank\">Moodle 1.9.7 release notes</a>をご覧ください。</p>';
+$string['upgrade197noticesubject'] = 'Moodle 1.9.7アップグレードに関するセキュリティ通知';
+$string['upgrade197salt'] = 'また、パスワード盗難のリスクを大幅に減らすため、パスワードSALTの設定を強くお勧めします。<br />詳細は、<a href=\"http://docs.moodle.org/en/Password_salting\" target=\"_blank\">Password saltingドキュメント</a>をご覧ください。';
 $string['upgradeerror'] = '$a->plugin のバージョン $a->version へのバージョンアップに不明なエラーが発生したため、継続できません。';
 $string['upgradeforumread'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡する新しい機能が追加されました。<br />この機能を有効にするには、<a href=\"$a\">あなたのテーブルをアップデート</a>する必要があります。';
 $string['upgradeforumreadinfo'] = 'Moodle1.5では、フォーラムの既読/未読記事を追跡するための新しい機能が追加されました。この機能を有効にするには、投稿内容の未読管理を含むテーブルをアップデートする必要があります。あなたのサイトのサイズにより、この作業には長時間かかる場合があります。また、データベースに非常に負荷がかかる可能性がありますので、閑散期のアップデート作業をお勧めします。このアップデート期間中も、あなたのサイトは動作し続け、ユーザは影響を受けません。この処理を開始した場合、 (ブラウザを開いたままにして) 処理を終わらせてください。ウィンドウを閉じて処理を終わらせてしまった場合でも心配しないでください。アップデート処理を再開することができます。<br /><br />本当に今からアップデート処理を始めてもよろしいですか?';
