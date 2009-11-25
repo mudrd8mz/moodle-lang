@@ -1306,6 +1306,7 @@ $string['restorefinished'] = 'Restauration réussie';
 $string['restoreto'] = 'Restaurer vers';
 $string['restoretositeadding'] = 'Attention ! Vous allez restaurer des données en les ajoutant à la page d\'accueil du site !';
 $string['restoretositedeleting'] = 'Attention ! Vous allez restaurer des données sur la page d\'accueil du site, en supprimant certaines données existantes !';
+$string['restoreuserinfofailed'] = '<strong>Warning:</strong> To be able to restore any user data (in activities, files, messages...) the \"moodle/restore:userinfo\" capability is required and you are missing it. Restore process stopped.';
 $string['restricted'] = 'Interdit';
 $string['restrictmodules'] = 'Restreindre des modules ?';
 $string['returningtosite'] = 'Vous possédez déjà un compte ?';
