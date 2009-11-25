@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
+      // role.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
 
 
 $string['addrole'] = 'Pridať novú rolu';
@@ -10,6 +10,7 @@ $string['allsiteusers'] = 'Všetci používatelia na portáli';
 $string['assignglobalroles'] = 'Priradiť systémové roly';
 $string['assignroles'] = 'Priradiť roly';
 $string['assignrolesin'] = 'Priradiť roly v $a';
+$string['backup:userinfo'] = 'Zálohovať roly v $a';
 $string['block:view'] = 'Vidieť blok';
 $string['blog:create'] = 'Vytvoriť nové položky blogu';
 $string['blog:manageentries'] = 'Upravovať a spravovať položky';
@@ -135,6 +136,7 @@ $string['resetrolenolegacy'] = 'Vymazať oprávnenia';
 $string['resetrolesure'] = 'Naozaj chcete resetovať rolu \"$a->name ($a->shortname)\" na východziu hodnotu?</p><p>Tieto východzie hodnoty budú prevzaté z pôvodnej roly ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'Naozaj chcete vymazať všetky oprávnenia definované v roli \"$a->name ($a->shortname)\"?';
 $string['restore:rolldates'] = 'Povolenie zmeniť dátumy aktivít pri obnove kurzu';
+$string['restore:userinfo'] = 'Obnoviť používateľské údaje';
 $string['risks'] = 'Riziká';
 $string['role:assign'] = 'Priradiť roly používateľom';
 $string['role:manage'] = 'Vytvoriť a spravovať roly';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.4+ (Build: 20090422) (2007101546)
+      // report_security.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
 
 
 $string['check_configrw_details'] = '<p>Doporučuje sa zmeniť oprávnenia k súboru config.php tak, aby do nemohol byť upravovaný web serverom.
@@ -88,6 +88,15 @@ Na druhej strane, nenastavujte pravidlá príliš prísne - to vedie k tomu, že
 $string['check_passwordpolicy_error'] = 'Zásady bezpečného hesla nie sú definované.';
 $string['check_passwordpolicy_name'] = 'Zásady bezpečného hesla';
 $string['check_passwordpolicy_ok'] = 'Zásady bezpečného hesla sú nastavené';
+$string['check_passwordsaltmain_details'] = '<p>Nastavenie solenia hesla výrazne znižuje nebezpečenstvo ukradnutia hesla.</p>
+<p>Pre nastavenie soli hesiel pridajde do Vášho súboru config.php nasledovný riadok:</p>
+<code>$CFG->passwordsaltmain = \'nejaky dlhy nahodny retazec s vela znakmi\';</code>
+<p>Náhodný reťazec by mal obsahovať písmená, čísla a iné znaky. Doporučuje sa minimálne 40 znakov.</p>
+<p>Pre nastavenie soli hesiel doporučujeme podrobný postup uvedený <a href=\"$a\" target=\"_blank\">v dokumentácii solenia hesiel</a>. Po nastavení soli v konfiguračnom súbore daný riadok NESMIETE vymazať, inak sa nedokážete opätovne prihlásiť na portál!</p>';
+$string['check_passwordsaltmain_name'] = 'Solenie hesla';
+$string['check_passwordsaltmain_ok'] = 'Soľ pre heslo je v poriadku';
+$string['check_passwordsaltmain_warning'] = 'Nebolo nastavené solenie hesla';
+$string['check_passwordsaltmain_weak'] = 'Solenie hesla je nedostatočné';
 $string['check_riskadmin_detailsok'] = '<p>Prosím skontrolujte zoznam administrátorov:<br />$a</p>';
 $string['check_riskadmin_detailswarning'] = '<p>Zoznam administrátorov:<br />$a->admins</p>
 <p>Rola Administrátor sa priraďuje iba v hlavnom systémovom kontexte. Nasledujúcim používateľom je priradená rola Administrátora v nevhodnom kontexte:<br />$a->unsupported</p>';
@@ -95,6 +104,16 @@ $string['check_riskadmin_name'] = 'Administrátori';
 $string['check_riskadmin_ok'] = 'Počet administrátorov: $a';
 $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) skontrolujte priradenie roly</a>';
 $string['check_riskadmin_warning'] = 'Bolo nájdených $a->admincount administrátorov a $a->unsupcount nepodporovaných priradení rol.';
+$string['check_riskbackup_details_overriddenroles'] = '<p>Tieto aktívne predefinovania umožňujú zahrnúť používateľské údaje v zálohách. Uistite sa, že toto oprávnenie je nutné.</p> $a';
+$string['check_riskbackup_details_systemroles'] = '<p>Nasledovný systém rol v súčasnosti povoľuje používateľom zahrnúť používateľské údaje v zálohách. Uistite sa, že toto oprávnenie je nutné.</p> $a';
+$string['check_riskbackup_details_users'] = '<p>Z dôvodu vyššie uvedených rol a predefinovaní majú nasledovné používateľské kontá v súčasnej situácii oprávnenie vytvoriť zálohy obsahujúce súkromné údaje používateľov zapísaných do kurzu. Uistite sa, že sú (a) dôveryhodní a (b) chránení silnými heslami:</p> $a';
+$string['check_riskbackup_detailsok'] = 'Neexistujú žiadne roly, ktoré povoľujú zálohovanie používateľských údajov. Treba však zobrať do úvahu, že administrátori so schopnosťou \"doanything\" pravdepodobne stále toto oprávnenie majú.';
+$string['check_riskbackup_editoverride'] = '<a href=\"$a->url\">$a->name v kontexte $a->contextname</a>';
+$string['check_riskbackup_editrole'] = '<a href=\"$a->url\">$a->name</a>';
+$string['check_riskbackup_name'] = 'Zálohovanie používateľských údajov';
+$string['check_riskbackup_ok'] = 'Žiadne roly explicitne nepovoľujú zálohovanie používateľských údajov.';
+$string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) v kontexte $a->contextname</a>';
+$string['check_riskbackup_warning'] = 'Bolo nájdených $a->rolecount rol, $a->overridecount predefinovaní a $a->usercount používateľov so schopnosťou zálohovania používateľských údajov.';
 $string['check_riskxss_details'] = '<p>Príznakom RISK_XSS sú označené riskantné schopnosti, ktoré by mali byť povolené iba dôveryhodným používateľom.</p>
 <p>Skontrolujte si nasledovný zoznam a uistite sa, že sa jedná o osoby, ktorým môžete na tomto serveri dôverovať, čo sa bezpečnosti týka:<br />$a</p>';
 $string['check_riskxss_name'] = 'XSS dôveryhodní používatelia';

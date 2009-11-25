@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.2+ (Build: 20081015) (2007101527)
+      // question.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
 
 
 $string['adminreport'] = 'Správa o možných problémoch v databáze Vašich otázok';
@@ -23,6 +23,7 @@ $string['deletecoursecategorywithquestions'] = 'V banke otázok sú otázky asoc
 $string['donothing'] = 'Nekopírujte alebo nepresúvajte súbory ani nemeňte odkazy.';
 $string['editingcategory'] = 'Úprava kategórie';
 $string['editingquestion'] = 'Úprava otázky';
+$string['editthiscategory'] = 'Upraviť túto kategóriu';
 $string['erroraccessingcontext'] = 'Prístup k kontextu nie je povolený';
 $string['errordeletingquestionsfromcategory'] = 'Chyba pri vymazávaní otázok z kategórie $a.';
 $string['errorfilecannotbecopied'] = 'Chyba pri kopírovaní súboru $a.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
+      // moodle.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -160,6 +160,7 @@ $string['backuploglaststatus'] = 'Posledný záznam o vykonávaní';
 $string['backuplogshelp'] = 'Ak povolené, potom záznamy kurzu budú zahrnuté do automatických záloh';
 $string['backupmetacoursehelp'] = 'Ak povolené, potom metainformácie o kurze budú zahrnuté do automatických záloh';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['backupnext'] = 'Ďalšia záloha';
 $string['backupnoneusersinfo'] = 'Všimnite si: Vybrali ste si zálohovať \"žiadnych\" používateľov, takže zálohy modulov boli prepnuté do módu \"bez údajov používateľa\". Berte prosím na vedomie, že moduly \"Cvičenie\" a \"Tvorivá dielňa\" nie sú kompatibilné s týmto typom zálohovania, a preto boli kompletne deaktivované.';
 $string['backupnonisowarning'] = 'Pozor: táto záloha nie je v Unicode z verzie Moodle nižšej ako 1.6. Ak táto záloha obsahuje ľubovoľné texty v inom kódovaní ako iso-8859-1, je možné že jej obnova bude POŠKODENÁ. Viď <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a> ohľadom informácií o správnom obnovení takejto zálohy.';
 $string['backuporiginalname'] = 'Názov zálohy';
@@ -650,7 +651,9 @@ $string['forcedmode'] = 'vyžadovaný režim';
 $string['forcelanguage'] = 'Preferovať určitý jazyk';
 $string['forceno'] = 'Nenastaviť';
 $string['forcepasswordchange'] = 'Vyžadovať zmenu hesla';
+$string['forcepasswordchangecheckfull'] = 'Naozaj chcete vynútiť zmenu hesla pre $a?';
 $string['forcepasswordchangehelp'] = 'Používateľ si má zmeniť heslo pri budúcom prihlásení';
+$string['forcepasswordchangenot'] = 'Nepodarilo sa vynútiť zmenu hesla pre $a';
 $string['forcepasswordchangenotice'] = 'Pre pokračovanie je nutné zmeniť heslo';
 $string['forcetheme'] = 'Vnútiť tému';
 $string['forgotaccount'] = 'Zabudli ste heslo?';
@@ -1270,10 +1273,13 @@ $string['resources'] = 'Zdroje';
 $string['restore'] = 'Obnoviť zo zálohy';
 $string['restorecancelled'] = 'Obnova zrušená';
 $string['restorecoursenow'] = 'Obnoviť tento kurz teraz!';
+$string['restoredaccount'] = 'Obnovené konto';
+$string['restoredaccountinfo'] = 'Toto heslo bolo importované z iného servera, pričom sa nezachovalo heslo. Pre nastavenie nového hesla pomocou mailu kliknite na \"Pokračovať\".';
 $string['restorefinished'] = 'Obnova prebehla úspešne';
 $string['restoreto'] = 'Obnoviť do';
 $string['restoretositeadding'] = 'Upozornenie: Chystáte sa obnoviť titulnú stránku portálu a pridať k údaje k existujúcej!';
 $string['restoretositedeleting'] = 'Upozornenie: Chystáte sa obnoviť titulnú stránku portálu a predtým vymazať údaje existujúcej!';
+$string['restoreuserinfofailed'] = 'Proces obnovy kurzu bol zastavený, pretože nemáte oprávnenie obnoviť údaje používateľov.';
 $string['restricted'] = 'Obmedzený';
 $string['restrictmodules'] = 'Obmedziť moduly aktivít?';
 $string['returningtosite'] = 'Vrátiť sa na túto webovú stránku?';

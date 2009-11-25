@@ -1,5 +1,6 @@
-<?PHP // $Id$
-      // Modified with langdiff.php
+<?PHP // $Id$ 
+      // mnet.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samopodpísané)';
 $string['RPC_HTTPS_VERIFIED'] = 'HTTPS (podpísané)';
@@ -11,6 +12,7 @@ $string['accesslevel'] = 'Úroveň prístupu';
 $string['addhost'] = 'Pridať hostiteľa';
 $string['addnewhost'] = 'Pridať nového hostiteľa';
 $string['addtoacl'] = 'Pridať k riadeniu prístupu';
+$string['allhosts_no_options'] = 'Pri prezeraní viacerých hostiteľov nie sú dostupné žiadne voľby';
 $string['allow'] = 'Povoliť';
 $string['authfail_nosessionexists'] = 'Prihlasovanie neuspelo: Session mnet neexistuje';
 $string['authfail_sessiontimedout'] = 'Prihlasovanie neuspelo: Session mnet vypršala.';
@@ -186,4 +188,5 @@ $string['wrong-ip'] = 'Vaša IP adresa sa nezhoduje so zaznamenanou.';
 $string['xmlrpc-missing'] = 'Aby ste mohli použiť túto vlastnosť, musíte mať nainštalované XML-RPC vo Vašom PHP.';
 $string['yourhost'] = 'Váš hostiteľ';
 $string['yourpeers'] = 'Vaši partneri';
+
 ?>
