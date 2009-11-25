@@ -67,6 +67,7 @@ $string['disterror'] = 'La distribution $a a causé des problèmes';
 $string['donothing'] = 'Ne pas copier ou déplacer les fichiers, ni modifier les liens.';
 $string['editingcategory'] = 'Modifier une catégorie';
 $string['editingquestion'] = 'Modifier une question';
+$string['editthiscategory'] = 'Modifier cette catégorie';
 $string['emptyxml'] = 'Erreur inconnue. Fichier imsmanifest.xml vide';
 $string['enabled'] = 'Activé';
 $string['erroraccessingcontext'] = 'Impossible d\'accéder au contexte';
