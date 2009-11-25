@@ -5,6 +5,7 @@ $string['accesslevel'] = 'Niveau d\'accès';
 $string['addhost'] = 'Ajouter un serveur';
 $string['addnewhost'] = 'Ajouter un nouveau serveur';
 $string['addtoacl'] = 'Ajouter au contrôle d\'accès';
+$string['allhosts_no_options'] = 'Aucune option n\'est disponible lorsque pluseurs hôtes sont affichés';
 $string['allow'] = 'Autoriser';
 $string['authfail_nosessionexists'] = 'Échec d\'autorisation : la session mnet n\'existe pas.';
 $string['authfail_sessiontimedout'] = 'Échec d\'autorisation : la session mnet est échue.';
