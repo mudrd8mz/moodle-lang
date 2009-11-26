@@ -753,7 +753,7 @@ $string['remotelangnotavailable'] = 'Moodle ne peut pas se connecter au site dow
 $string['renameerrors'] = 'Erreurs lors de changements de nom';
 $string['requiremodintro'] = 'Exiger une description';
 $string['requiredentrieschanged'] = '<strong>IMPORTANT !<br />(Ce message d\'avertissement ne sera affiché que durant cette mise à jour.)</strong><br/>En raison de la correction d\'un bogue, le comportement des bases de données qui utilisent les réglages « Fiches requises » et « Fiches requises avant consultation » est modifié. Une explication détaillée des changements peut être lue dans le <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">forum dédié au module Base de données (en anglais)</a> et <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs (en anglais pour l\'instant)</a>.<br/><br/>Cette modification a un impact sur les bases de données suivantes de votre Moodle : (veuillez Enregistrer cette liste maintenant et, une fois la mise à jour effectuée, vérifier que ces activités continuent de fonctionner de la façon désirée par l\'enseignant.)<br/><strong>$a->text</strong><br/>';
-$string['requiredtemplate'] = 'Requis. Vous pouvez utiliser ici la syntaxe de modèle (%%l = nom, %%f = prénom, %%u = nom d\'utilisateur). Voir l\'aide pour des détails et des exemples help for details and examples.';
+$string['requiredtemplate'] = 'Requis. Vous pouvez utiliser ici la syntaxe de modèle (%%l = nom, %%f = prénom, %%u = nom d\'utilisateur). Voir l\'aide pour des détails et des exemples.';
 $string['requires'] = 'Requiert';
 $string['restrictbydefault'] = 'Restreindre par défaut les modules';
 $string['restrictmodulesfor'] = 'Restreindre les modules pour';
