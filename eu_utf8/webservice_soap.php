@@ -3,5 +3,6 @@
 
 
 $string['pluginname'] = 'SOAP protokoloa';
+$string['soap:use'] = 'SOAP protokoloa erabili';
 
 ?>

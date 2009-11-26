@@ -3,5 +3,6 @@
 
 
 $string['pluginname'] = 'REST protokoloa';
+$string['rest:use'] = 'REST protokoloa erabili';
 
 ?>

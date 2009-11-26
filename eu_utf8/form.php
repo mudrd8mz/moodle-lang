@@ -32,6 +32,7 @@ $string['requiredelement'] = 'Beharrezko eremua';
 $string['revealpassword'] = 'Azaldu';
 $string['security'] = 'Segurtasuna';
 $string['selectallornone'] = 'Guztiak/Bat erez aukeratu';
+$string['selected'] = 'Aukeratuta';
 $string['showadvanced'] = 'Erakutsi aurreratuak';
 $string['somefieldsrequired'] = 'Formulario honetan derrigorrezko eremuak daude';
 $string['time'] = 'Denbora';

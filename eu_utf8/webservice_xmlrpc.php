@@ -3,5 +3,6 @@
 
 
 $string['pluginname'] = 'XMLRPC protokoloa';
+$string['xmlrpc:use'] = 'XMLRPC protokoloa erabili';
 
 ?>
