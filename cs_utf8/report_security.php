@@ -89,7 +89,7 @@ $string['check_passwordpolicy_name'] = 'Zásady bezpečného hesla';
 $string['check_passwordpolicy_ok'] = 'Zásady bezpečného hesla nastaveny';
 $string['check_passwordsaltmain_details'] = '<p>Solení hesel výrazně snižuje riziko prolomení zahešovaných hesel v databázi a v zálohách kurzů.</p>
 <p>Pro nastavení soli přidejte do vašeho souboru config.php následující řádek:</p>
-<code>$CFG->passwordsaltmain = \'sem vložte nějaký náhodný řetězec obsahující spoustu znaků\';</code>
+<code>\$CFG->passwordsaltmain = \'sem vložte nějaký náhodný řetězec obsahující spoustu znaků\';</code>
 <p>Náhodný řetězec tvořící sůl by měl obsahovat písmena, číslice a další znaky. Měl by být alespoň 40 znaků dlouhý.</p>
 <p>Upozornění - <a href=\"$a\" target=\"_blank\">prostudujte si dokumentaci</a>, pokud se chystáte měnit zde vloženou hodnotu. Jakmile je sůl jednou nastavena, nelze její hodnotu jen tak prostě odstranit. Znemožnili byste přihlášení uživatelů a sebe sama na váš server!</p>';
 $string['check_passwordsaltmain_name'] = 'Solení hesel';
@@ -108,7 +108,7 @@ $string['check_riskxss_details'] = '<p>Příznakem RISK_XSS jsou označena riska
 $string['check_riskxss_name'] = 'XSS důvěryhodní uživatelé';
 $string['check_riskxss_warning'] = 'RISK_XSS - počet důvěryhodných uživatelů: $a';
 $string['check_unsecuredataroot_details'] = '<p>Datový adresář nesmí být dostupný přes webové rozhraní. Nejlepším způsobem, jak toho docílit, je přesunout celý adresář mimo veřejný webový adresář.</p>
-<p>Po přesunu datového adresáře bude potřeba aktualizovat hodnotu <code>$CFG->dataroot</code> v souboru <code>config.php</code>.</p>';
+<p>Po přesunu datového adresáře bude potřeba aktualizovat hodnotu <code>\$CFG->dataroot</code> v souboru <code>config.php</code>.</p>';
 $string['check_unsecuredataroot_error'] = 'Datový adresář <code>$a</code> je chybně umístěn a jeho obsah je vystaven na webu!';
 $string['check_unsecuredataroot_name'] = 'Umístění datového adresáře';
 $string['check_unsecuredataroot_ok'] = 'Datový adresář nesmí být dostupný přes web';
