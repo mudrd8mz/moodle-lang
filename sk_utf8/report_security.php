@@ -89,8 +89,8 @@ $string['check_passwordpolicy_error'] = 'Zásady bezpečného hesla nie sú defi
 $string['check_passwordpolicy_name'] = 'Zásady bezpečného hesla';
 $string['check_passwordpolicy_ok'] = 'Zásady bezpečného hesla sú nastavené';
 $string['check_passwordsaltmain_details'] = '<p>Nastavenie solenia hesla výrazne znižuje nebezpečenstvo ukradnutia hesla.</p>
-<p>Pre nastavenie soli hesiel pridajde do Vášho súboru config.php nasledovný riadok:</p>
-<code>$CFG->passwordsaltmain = \'nejaky dlhy nahodny retazec s vela znakmi\';</code>
+<p>Pre nastavenie soli hesiel pridajte do Vášho súboru config.php nasledovný riadok:</p>
+<code>&#36;CFG->passwordsaltmain = \'nejaky dlhy nahodny retazec s vela znakmi\';</code>
 <p>Náhodný reťazec by mal obsahovať písmená, čísla a iné znaky. Doporučuje sa minimálne 40 znakov.</p>
 <p>Pre nastavenie soli hesiel doporučujeme podrobný postup uvedený <a href=\"$a\" target=\"_blank\">v dokumentácii solenia hesiel</a>. Po nastavení soli v konfiguračnom súbore daný riadok NESMIETE vymazať, inak sa nedokážete opätovne prihlásiť na portál!</p>';
 $string['check_passwordsaltmain_name'] = 'Solenie hesla';
