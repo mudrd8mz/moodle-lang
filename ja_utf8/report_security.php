@@ -88,7 +88,7 @@ $string['check_passwordpolicy_name'] = 'パスワードポリシー';
 $string['check_passwordpolicy_ok'] = 'パスワードポリシーが有効にされています。';
 $string['check_passwordsaltmain_details'] = '<p>パスワードSALTを設定することにより、パスワード盗難のリスクを大幅に減らすことができます。</p>
 <p>パスワードSALTを設定するには、あなたのconfig.phpファイルに次の行を追加してください: </p>
-<code>\\$CFG->passwordsaltmain = \'ここに沢山の半角文字を使って、ランダムな文字列を記述してください\';</code>
+<code>\$CFG->passwordsaltmain = \'ここに沢山の半角文字を使って、ランダムな文字列を記述してください\';</code>
 <p>ランダム文字列は、数字および他の文字を混ぜた形で記述してください。ストリング長は、少なくとも40文字を推奨します。</p>
 <p>あなたがパスワードSALTを変更したい場合、<a href=\"http://docs.moodle.org/en/Password_salting\" target=\"_blank\">パスワードSALTドキュメンテーション</a>をご覧ください。一旦設定した場合、あなたのパスワードSALTを削除しないでください。パスワードSALTを削除した場合、あなたのサイトにログインできないようになります! </p>';
 $string['check_passwordsaltmain_name'] = 'パスワードSALT';
@@ -104,12 +104,12 @@ $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->ema
 $string['check_riskadmin_warning'] = '$a->admincount 名のサーバ管理者および $a->unsupcount 名のサポートされない管理者ロールの割り当てが見つかりました。';
 $string['check_riskbackup_details_overriddenroles'] = '<p>これらのアクティブなオーバーライドは、ユーザに対して、バックアップ内にユーザデータを含むことができる能力を与えます。このパーミッションが本当に必要かどうか確認してください。</p> $a';
 $string['check_riskbackup_details_systemroles'] = '<p>現在、以下のシステムロールは、ユーザに対して、バックアップ内にユーザデータを含むことを許可しています。このパーミッションが本当に必要かどうか確認してください。</p> $a';
-$string['check_riskbackup_details_users'] = '<p>上記のロールまたはローカルオーバーライドのため、以下のユーザアカウントは、現在コースに受講登録しているユーザの個人情報を含むバックアップを作成できるパーミッションを持っています。これらのユーザが、(a) 信用されて、(b) 強度の高いパスワードで守られていることを確認してください:</p> $a';
-$string['check_riskbackup_detailsok'] = 'ユーザデータをバックアップを明確に許可しているロールはありません。しかし、「doanything」ケイパビリティを持った管理者は、まだユーザデータをバックアップできることに留意してください。';
+$string['check_riskbackup_details_users'] = '<p>上記のロールまたはローカルオーバーライドのため、以下のユーザアカウントは、現在コースに受講登録しているユーザの個人情報を含むバックアップを作成できるパーミッションを持っています。これらのユーザが、(a)信用されて、(b)強度の高いパスワードで守られていることを確認してください:</p> $a';
+$string['check_riskbackup_detailsok'] = 'ユーザデータのバックアップを明確に許可しているロールはありません。しかし、「doanything」ケイパビリティを持った管理者は、まだユーザデータをバックアップできることに留意してください。';
 $string['check_riskbackup_editoverride'] = '<a href=\"$a->url\">$a->contextname 内の $a->name</a>';
 $string['check_riskbackup_editrole'] = '<a href=\"$a->url\">$a->name</a>';
 $string['check_riskbackup_name'] = 'ユーザデータのバックアップ';
-$string['check_riskbackup_ok'] = 'ユーザデータをバックアップを明確に許可しているロールはありません。';
+$string['check_riskbackup_ok'] = 'ユーザデータのバックアップを明確に許可しているロールはありません。';
 $string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->contextname 内の $a->fullname ($a->email)</a>';
 $string['check_riskbackup_warning'] = 'ユーザデータをバックアップすることができる $a->rolecount 件のロール、$a->overridecount 件のオーバーライドおよび $a->usercount 名のユーザが見つかりました。';
 $string['check_riskxss_details'] = '<p>RISK_XSSは、信頼されるユーザのみ使用できる、すべての危険なケイパビリティを意味します。</p>
@@ -117,7 +117,7 @@ $string['check_riskxss_details'] = '<p>RISK_XSSは、信頼されるユーザの
 $string['check_riskxss_name'] = 'XSS信頼ユーザ';
 $string['check_riskxss_warning'] = 'RISK_XSS - $a 名のユーザが信頼されています。';
 $string['check_unsecuredataroot_details'] = '<p>datarootディレクトリは、ウェブからアクセスできないようにしてください。ウェブからアクセスできないディレクトリを使用する最良の方法は、パブリックウェブディレクトリ外のディレクトリを使用することです。</p>
-<p>あなたがディレクトリを移動した場合、それに応じて<code>config.php</code>の<code>\\$CFG->dataroot</code>設定を変更してください。</p>';
+<p>あなたがディレクトリを移動した場合、それに応じて<code>config.php</code>の<code>\$CFG->dataroot</code>設定を変更してください。</p>';
 $string['check_unsecuredataroot_error'] = 'あなたのdatarootディレクトリ <code>$a</code> は、正しくない場所に配置され、ウェブにさらされた状態です!';
 $string['check_unsecuredataroot_name'] = '安全でないdataroot';
 $string['check_unsecuredataroot_ok'] = 'datarootディレクトリは、ウェブからアクセスできないようにしてください。';
