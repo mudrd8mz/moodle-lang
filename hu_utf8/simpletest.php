@@ -16,7 +16,7 @@ $string['testdboperations'] = 'Feladat-adatbázis műveletei';
 $string['testtablescsvfileunwritable'] = 'A feladattáblák CSV-fájl nem írható ($a->filename).';
 $string['testtablesneedupgrade'] = 'A feladat-adatbázis tábláit frissíteni kell. Folytatja a frissítést?';
 $string['testtablesok'] = 'A feladat-adatbázis tábláinak telepítése sikerült.';
-$string['unittestprefixsetting'] = 'Egységfeladatok előtagja: <strong>$CFG->unittestprefix</strong> (A config.php szerkesztésével módosíthatja).';
+$string['unittestprefixsetting'] = 'Egységfeladatok előtagja: <strong>$a->unittestprefix</strong> (A config.php szerkesztésével módosíthatja).';
 $string['updatingnoninsertedrecord'] = 'Olyan rekordot próbál törölni, amelyet nem ezek az egységfeladatok szúrtak be ($a->id azonosító a(z) $a->table táblában).';
 
 $string['rundbtests'] = 'Az adatbázistesztek végrehajtására is kerüljön sor.';

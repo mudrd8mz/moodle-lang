@@ -52,7 +52,7 @@ $string['timetakes'] = '所要時間: $a.';
 $string['totallines'] = '行数合計';
 $string['uncaughtexception'] = '[{$a->getFile()}:{$a->getLine()}] に不明な例外 [{$a->getMessage()}] が発生したため、テストは中止されました。';
 $string['uncoveredlines'] = 'カバーされない行';
-$string['unittestprefixsetting'] = 'ユニットテスト接頭辞: <strong>$CFG->unittestprefix</strong> (修正するには、config.phpを編集してください)';
+$string['unittestprefixsetting'] = 'ユニットテスト接頭辞: <strong>$a->unittestprefix</strong> (修正するには、config.phpを編集してください)';
 $string['unittests'] = 'ユニットテスト';
 $string['updatingnoninsertedrecord'] = 'ユニットテストで挿入されていないレコードを更新しようとしています (テーブル: $a->table - id: $a->id)。';
 $string['version'] = '使用<a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a>バージョン $a';

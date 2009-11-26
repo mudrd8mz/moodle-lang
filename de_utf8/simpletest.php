@@ -42,7 +42,7 @@ $string['testtablesneedupgrade'] = 'Die Test Datenbanktabellen müssen aktualisi
 $string['testtablesok'] = 'Die Test Datenbanktabellen wurden erfolgreich angelegt.';
 $string['thorough'] = 'Vollständigen Testlauf durchführen (dies könnte lange dauern!)';
 $string['uncaughtexception'] = 'Ein unerwartetes Problem ist aufgetreten [{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}]. Der Testlauf wurde abgebrochen.';
-$string['unittestprefixsetting'] = 'Unit test prefix: <strong>$CFG->unittestprefix</strong> (Ändern Sie die Datei config.php).';
+$string['unittestprefixsetting'] = 'Unit test prefix: <strong>$a->unittestprefix</strong> (Ändern Sie die Datei config.php).';
 $string['unittests'] = 'Systemtests';
 $string['updatingnoninsertedrecord'] = 'Versuch des Updates eines Datensatzes, dernichtdurch Unittest eingefügt wurde  (id $a->id in Tabelle $a->table).';
 $string['version'] = 'Verwendet: <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> Version $a.';

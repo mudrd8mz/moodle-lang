@@ -52,7 +52,7 @@ $string['timetakes'] = 'Tempo impiegato: $a.';
 $string['totallines'] = 'Linee totali';
 $string['uncaughtexception'] = 'Eccezione non prevista [{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}] TEST INTERROTTO.';
 $string['uncoveredlines'] = 'Linee non analizzate';
-$string['unittestprefixsetting'] = 'Prefisso test: <strong>$CFG->unittestprefix</strong> (Aggiorna config.php per modificarlo).';
+$string['unittestprefixsetting'] = 'Prefisso test: <strong>$a->unittestprefix</strong> (Aggiorna config.php per modificarlo).';
 $string['unittests'] = 'Test';
 $string['updatingnoninsertedrecord'] = 'Tentativo di modifica di un record non ancora inserito da questi test (id $a->id in tabella $a->table).';
 $string['version'] = 'Utilizzato <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> versione $a.';

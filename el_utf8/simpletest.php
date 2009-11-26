@@ -39,7 +39,7 @@ $string['testtablesneedupgrade'] = 'Οι πίνακες των ελέγχων μ
 $string['testtablesok'] = 'Οι πίνακες των ελέγχων μονάδων δημιουργήθηκαν επιτυχώς.';
 $string['thorough'] = 'Εκτέλεση λεπτομερούς ελέγχου (ίσως καθυστερήσει)';
 $string['uncaughtexception'] = 'Εξαίρεση που δεν αντιμετωπίστηκε [{$a->getMessage()}] στο [{$a->getFile()}:{$a->getLine()}] ΑΚΥΡΩΣΗ ΤΕΣΤ.';
-$string['unittestprefixsetting'] = 'Πρόθεμα ελέγχων μονάδων: <strong>$CFG->unittestprefix</strong> (Τροποποιήστε το config.php για να το αλλάξετε).';
+$string['unittestprefixsetting'] = 'Πρόθεμα ελέγχων μονάδων: <strong>$a->unittestprefix</strong> (Τροποποιήστε το config.php για να το αλλάξετε).';
 $string['unittests'] = 'Έλεγχοι μονάδων';
 $string['updatingnoninsertedrecord'] = 'Προσπάθεια ενημέρωσης εγγραφής που δεν εισήχθηκε από αυτούς τους ελέγχους μονάδων(id $a->id στον πίνακα $a->table).';
 $string['version'] = 'Γίνεται χρήση του <a href="http://sourceforge.net/projects/simpletest/">SimpleTest</a> έκδοση $a.';

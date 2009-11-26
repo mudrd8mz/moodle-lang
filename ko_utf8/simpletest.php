@@ -4,7 +4,7 @@
 
 $string['addconfigprefix'] = '설정파일에 접두어 추가';
 $string['all'] = '모두';
-$string['confignonwritable'] = '웹으로 config.php를 작성할 수 없습니다. 허가권을 변경하던지, 적절한 사용자 계정으로 이를 편집하고 마지막에 다음 줄과 같은 내용을 추가하십시오. <br />$CFG->unittestprefix = \'tst_\' // Change tst_ to a prefix of your choice, different from $CFG->prefix';
+$string['confignonwritable'] = '웹으로 config.php를 작성할 수 없습니다. 허가권을 변경하던지, 적절한 사용자 계정으로 이를 편집하고 마지막에 다음 줄과 같은 내용을 추가하십시오. <br />$a->unittestprefix = \'tst_\' // Change tst_ to a prefix of your choice, different from $CFG->prefix';
 $string['deletingnoninsertedrecord'] = '유닛 점검에 포함되지 않은 기록( $a->table 테이블의 id $a->id )을 삭제하려고 합니다.';
 $string['deletingnoninsertedrecords'] = '유닛 점검에 포함되지 않은 기록들( $a->table 테이블 )을 삭제하려고 합니다.';
 $string['droptesttables'] = '점검 테이블 삭제';
@@ -40,7 +40,7 @@ $string['testtablesneedupgrade'] = '점검 DB 테이블을 갱신해야 합니�
 $string['testtablesok'] = '점검하려는 DB 테이블 설치 성공';
 $string['thorough'] = '상세 점검(느릴 수 있음)';
 $string['uncaughtexception'] = '알려지지 않은 예외항목인 [{$a->getMessage()}] 이 [{$a->getFile()}:{$a->getLine()}] 에서 발견되어 점검이 취소됨.';
-$string['unittestprefixsetting'] = '유닛 점검 접두어: <strong>$CFG->unittestprefix</strong> (이를 변경하려면 config.php를 수정).';
+$string['unittestprefixsetting'] = '유닛 점검 접두어: <strong>$a->unittestprefix</strong> (이를 변경하려면 config.php를 수정).';
 $string['unittests'] = '유닛 점검';
 $string['updatingnoninsertedrecord'] = '유닛 점검에 포함되지 않은 기록( $a->table 테이블의 id $a->id )을 갱신하려고 합니다.';
 $string['version'] = '<a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> version $a 를 사용중임.';

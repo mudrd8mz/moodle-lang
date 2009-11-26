@@ -41,7 +41,7 @@ $string['testtablesneedupgrade'] = 'De testtabellen moeten geüpgraded worden. W
 $string['testtablesok'] = 'De testtabellen zijn met succes geïnstalleerd.';
 $string['thorough'] = 'Doorloop een grondige test (kan traag zijn).';
 $string['uncaughtexception'] = 'Onverwachte uitzondering [{$a->getMessage()}] in [{$a->getFile()}:{$a->getLine()}] TEST ONDERBROKEN.';
-$string['unittestprefixsetting'] = 'Unit test prefix: <strong>$CFG->unittestprefix</strong> (Bewerk config.php om dit te wijzigen).';
+$string['unittestprefixsetting'] = 'Unit test prefix: <strong>$a->unittestprefix</strong> (Bewerk config.php om dit te wijzigen).';
 $string['unittests'] = 'Unit testen';
 $string['updatingnoninsertedrecord'] = 'Een record geprobeerd te updaten die niet toegevoegd was door deze unit test (id $a->id in tabel $a->table).';
 $string['version'] = 'We gebruiken <a href=\"http://sourceforge.net/projects/simpletest/\">SimpleTest</a> version $a.';
