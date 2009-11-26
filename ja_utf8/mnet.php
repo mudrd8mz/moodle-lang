@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20081113) (2008111200)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -12,6 +12,7 @@ $string['accesslevel'] = 'アクセスレベル';
 $string['addhost'] = 'ホストを追加する';
 $string['addnewhost'] = '新しいホストを追加する';
 $string['addtoacl'] = 'アクセスコントロールに追加する';
+$string['allhosts_no_options'] = '複数のホストを閲覧する場合、利用可能なオプションはありません。';
 $string['allow'] = '許可';
 $string['authfail_nosessionexists'] = '認証失敗: mnetセッションがありません。';
 $string['authfail_sessiontimedout'] = '認証失敗: mnetセッションがタイムアウトしました。';
@@ -19,8 +20,6 @@ $string['authfail_usermismatch'] = '認証失敗: ユーザが合致しません
 $string['authmnetautoadddisabled'] = 'Moodleネットワーク認証プラグインの「リモートユーザを自動的に追加する」が<strong>無効</strong>にされています。';
 $string['authmnetdisabled'] = 'Moodleネットワーク「認証プラグイン」が<strong>無効</strong>にされています。';
 $string['badcert'] = 'これは有効な証明書ではありません。';
-$string['certdetails'] = '証明書の詳細';
-$string['configmnet'] = 'Moodleネットワーキングでは、このサーバと他のサーバまたはサービスとの通信を許可します。';
 $string['couldnotgetcert'] = '$a で証明書が見つかりませんでした。<br />ホストが停止しているか、正しく設定されていません。';
 $string['couldnotmatchcert'] = '現在ウェブサーバより公開されている証明書と合致しません。';
 $string['courses'] = 'コース';
@@ -187,5 +186,7 @@ $string['wrong-ip'] = 'あなたのIPアドレスが、記録されているレ�
 $string['xmlrpc-missing'] = 'この機能を使用するには、あなたのPHPビルドにXML-RPCをインストールしてください。';
 $string['yourhost'] = 'あなたのホスト';
 $string['yourpeers'] = 'あなたのピア';
+$string['certdetails'] = '証明書の詳細'; // ORPHANED
+$string['configmnet'] = 'Moodleネットワーキングでは、このサーバと他のサーバまたはサービスとの通信を許可します。'; // ORPHANED
 
 ?>

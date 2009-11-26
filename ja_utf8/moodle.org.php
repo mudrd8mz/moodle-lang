@@ -2,6 +2,8 @@
       // moodle.org.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
 
 
+$string['aboutdemositetitle'] = 'デモンストレーションサイト';
+$string['aboutoverviewtitle'] = 'Moodleとは?';
 $string['aboutstatisticstitle'] = '統計';
 $string['contactbugstitle'] = 'バグレポート';
 $string['contactmoodlecomhelpdesk'] = 'Moodle.comヘルプデスク';
@@ -17,13 +19,22 @@ $string['downloadlogotitle'] = 'Moodleロゴ';
 $string['downloadmodulestitle'] = 'モジュールおよびプラグイン';
 $string['downloadthemestitle'] = 'テーマ';
 $string['eventstitle'] = 'イベント';
+$string['jobstitle'] = 'Moodleジョブ';
+$string['moodlecertification'] = 'Moodleサーティフィケーション';
+$string['moodleconsulting'] = 'Moodleコンサルティング';
+$string['moodlecourseware'] = 'Moodleコースウェア';
+$string['moodlecustomisation'] = 'Moodleカスタマイゼーション';
 $string['moodledocs'] = 'Moodle Docs';
+$string['moodlehosting'] = 'Moodleホスティング';
+$string['moodleinstallation'] = 'Moodleインストレーション';
+$string['moodleintegrations'] = 'Moodleインテグレーション';
 $string['moodlesupport'] = 'Moodleサポート';
 $string['moodlethemes'] = 'Moodleテーマ';
 $string['moodletrackertitle'] = 'Moodle Tracker';
 $string['moodletraining'] = 'Moodleトレーニング';
 $string['namecommercial'] = '商用サービス';
 $string['namecommunity'] = 'コミュニティ';
+$string['namecontact'] = 'お問い合わせ';
 $string['namedevelopment'] = '開発';
 $string['namedocumentation'] = 'ドキュメンテーション';
 $string['namedownloads'] = 'ダウンロード';
