@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20091128) (2009112400)
 
 
 $string['add_item'] = 'Element hinzufügen';
@@ -17,8 +17,6 @@ $string['autonumbering'] = 'automatische Nummerierung der Fragen';
 $string['average'] = 'Mittelwert';
 $string['bold'] = 'Fett';
 $string['cancel_moving'] = 'Bewegen abbrechen';
-$string['cannotcreatecompletedfeedback'] = 'Beendetes Feedback kann nicht erstellt werden';
-$string['cannotcreatetmpfeedback'] = 'Temporäres Feedback kann nicht erstellt werden';
 $string['cannotmapfeedback'] = 'Datenbank-Problem, eine Zuordnung des Feedbacks zum Kurs ist nicht möglich';
 $string['cannotsavetempl'] = 'Vorlagen speichern ist nicht gestattet';
 $string['cannotunmap'] = 'Datenbank-Problem, Aufhebung der Zuordnung ist nicht möglich';
@@ -78,6 +76,7 @@ $string['feedback:viewreports'] = 'Auswertungen anzeigen';
 $string['feedback_is_not_for_anonymous'] = 'Ein Feedback ist für anonyme Teilnehmer nicht möglich';
 $string['feedback_is_not_open'] = 'Ein Feedback ist zu diesem Zeitpunkt nicht möglich';
 $string['feedback_options'] = 'Feedback-Einstellungen';
+$string['feedbackadministration'] = 'Feedback-Administration';
 $string['feedbackclose'] = 'Feedback beenden ab';
 $string['feedbackcloses'] = 'Feedback beenden ab';
 $string['feedbackopen'] = 'Feedback erlauben ab';
@@ -92,10 +91,10 @@ $string['importfromthisfile'] = 'Von ausgewählter Datei importieren';
 $string['info'] = 'Information';
 $string['infotype'] = 'Informationstyp';
 $string['insufficient_responses_for_this_group'] = 'Es gibt unzulängliche Antworten für diese Gruppe';
+$string['item_label'] = 'Beschriftung';
 $string['item_name'] = 'Name des Elementes';
 $string['items_are_required'] = 'Elemente sind erforderlich';
 $string['label'] = 'Beschriftung';
-$string['line_labels'] = 'Beschriftungen';
 $string['line_values'] = 'Werte';
 $string['mapcourse'] = 'Kurs zuordnen';
 $string['mapcourseinfo'] = 'Dies ist ein globales Feedback. Es ist in allen Kursen verfügbar, die den Feedback-Block nutzen. Die Kurse in denen das Feedback erscheinen sollen, können begrenzt werden durch explizites Zuordnen. Dazu muss der Kurs gesucht und diesem Feedback zugeordnet werden.';
@@ -120,6 +119,7 @@ $string['name'] = 'Name';
 $string['name_required'] = 'Name benötigt';
 $string['next_page'] = 'Nächste Seite';
 $string['no_handler'] = 'Keine Aktion gefunden!';
+$string['no_itemlabel'] = 'Keine Beschriftung';
 $string['no_itemname'] = 'Keine Bezeichnung des Eintrags';
 $string['no_items_available_yet'] = 'Noch keine Elemente definiert';
 $string['no_templates_available_yet'] = 'Noch keine Vorlagen definiert';
@@ -167,7 +167,7 @@ $string['save_item'] = 'Element speichern';
 $string['saving_failed'] = 'Fehler beim Speichern';
 $string['saving_failed_because_missing_or_false_values'] = 'Fehler beim Speichern, da notwendige Felder nicht oder falsch ausgefüllt wurden';
 $string['search_course'] = 'Kurs suchen';
-$string['selected_dump'] = 'Dump der ausgewählten Indexe der $SESSION variable:';
+$string['selected_dump'] = 'Dump der ausgewählten Indexe der \$SESSION variable:';
 $string['separator_decimal'] = ',';
 $string['separator_thousand'] = '.';
 $string['show_all'] = 'alle anzeigen';
@@ -193,10 +193,14 @@ $string['textfield_size'] = 'Breite des Textfeldes';
 $string['this_feedback_is_already_submitted'] = 'Sie haben diese Aktivität bereits beendet.';
 $string['typemissing'] = 'Fehlender Wert \"type\"';
 $string['update_item'] = 'Element aktualisieren';
+$string['url_for_continue_button'] = 'URL für den Button \"Weiter\"';
 $string['use_one_line_for_each_value'] = '<br />Benutzen Sie für jeden Wert eine neue Zeile!';
 $string['use_this_template'] = 'Diese Vorlage verwenden';
 $string['using_templates'] = 'Vorlagen verwenden';
 $string['vertical'] = 'untereinander';
+$string['cannotcreatecompletedfeedback'] = 'Beendetes Feedback kann nicht erstellt werden'; // ORPHANED
+$string['cannotcreatetmpfeedback'] = 'Temporäres Feedback kann nicht erstellt werden'; // ORPHANED
+$string['line_labels'] = 'Beschriftungen'; // ORPHANED
 $string['publish_stats_on_students'] = 'Auswertung für Teilnehmer/innen veröffentlichen'; // ORPHANED
 $string['all_old_values_will_be_deleted'] = 'Alle vorherigen Daten werden gelöscht!'; // ORPHANED
 $string['all_old_values_will_be_preserved'] = 'Alle vorherigen Daten bleiben erhalten.'; // ORPHANED
@@ -206,6 +210,7 @@ $string['are_you_sure_to_delete_this_item'] = 'Wollen Sie dieses Element wirklic
 $string['are_you_sure_to_delete_this_template'] = 'Wollen Sie diese Vorlage wirklich löschen?'; // ORPHANED
 $string['are_you_sure_to_use_this_template'] = 'Wollen Sie diese Vorlage wirklich verwenden?'; // ORPHANED
 $string['feedback:deletecompleteds'] = 'Antworten löschen'; // ORPHANED
-$string['this_feedback_is_already_submittet'] = 'Dieser Fragebogen wurde bereits ausgef&uuml;llt'; // ORPHANED
+$string['this_feedback_is_already_submittet'] = 'Dieser Fragebogen wurde bereits ausgefüllt'; // ORPHANED
+$string['select_item_type'] = 'Elementtyp wählen';  // ORPHANED
 
 ?>
