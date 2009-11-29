@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
+      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091127) (2009112400)
 
 
 $string['aboutdemositetitle'] = 'デモンストレーションサイト';
@@ -11,14 +11,19 @@ $string['contactmoodlecomtitle'] = 'Moodle.com';
 $string['contactmoodleorgtitle'] = 'Moodle.org';
 $string['contactsupporttitle'] = 'サポート';
 $string['developercontributors'] = '謝辞';
+$string['developermeetings'] = '開発者ミーティング';
 $string['developerstitle'] = '開発者';
 $string['developmentdocstitle'] = '開発者ドキュメンテーション';
 $string['donationstitle'] = '寄付';
+$string['downloadcoretitle'] = '標準Moodleパッケージ';
 $string['downloadlangtitle'] = '言語パック';
 $string['downloadlogotitle'] = 'Moodleロゴ';
+$string['downloadmactitle'] = 'Moodle for Mac OS X';
 $string['downloadmodulestitle'] = 'モジュールおよびプラグイン';
 $string['downloadthemestitle'] = 'テーマ';
+$string['downloadwintitle'] = 'Moodle for Windows';
 $string['eventstitle'] = 'イベント';
+$string['frontpagewelcometitle'] = 'Moodleコミュニティへようこそ!';
 $string['jobstitle'] = 'Moodleジョブ';
 $string['moodlecertification'] = 'Moodleサーティフィケーション';
 $string['moodleconsulting'] = 'Moodleコンサルティング';
@@ -32,6 +37,8 @@ $string['moodlesupport'] = 'Moodleサポート';
 $string['moodlethemes'] = 'Moodleテーマ';
 $string['moodletrackertitle'] = 'Moodle Tracker';
 $string['moodletraining'] = 'Moodleトレーニング';
+$string['nameabout'] = 'About';
+$string['nameaboutmoodle'] = 'About Moodle';
 $string['namecommercial'] = '商用サービス';
 $string['namecommunity'] = 'コミュニティ';
 $string['namecontact'] = 'お問い合わせ';
@@ -47,7 +54,11 @@ $string['namesecurity'] = 'セキュリティニュース';
 $string['namesupport'] = 'サポート';
 $string['newsbuzz'] = 'Moodle Buzz';
 $string['newscalendar'] = 'カレンダー';
+$string['newscalendardetail'] = '将来的なMoodle関連イベント';
+$string['newsofficial'] = 'Moodleに関する公式ニュース';
 $string['newsplanet'] = 'Planet Moodle';
+$string['newsrecent'] = '最新ニュース';
+$string['newssecurity'] = 'セキュリティニュース';
 $string['registeredsitestitle'] = '登録サイト';
 $string['roadmap'] = 'Moodleロードマップ';
 $string['shoptitle'] = 'Moodleショップ';

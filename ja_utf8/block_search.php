@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
+      // block_search.php - created with Moodle 2.0 dev (Build: 20091127) (2009112400)
 
 
 $string['asynchronous'] = '非同期 (Ajax)';
@@ -16,6 +16,7 @@ $string['configsearchtext'] = '検索テキスト';
 $string['configtypetotxtcmd'] = 'コンバータのコマンドライン';
 $string['configtypetotxtenv'] = 'コンバータの環境定義';
 $string['configusingsoftlock'] = 'ソフトウェアインターロック (NFSマウントクラスタ用)';
+$string['configutf8transcoding'] = '検索結果のUTF8変換';
 $string['configwordtotextcmd'] = 'doctotextコマンドのパス';
 $string['configwordtotextenv'] = 'MSWordコンバータの環境設定';
 $string['disabled'] = '無効';
