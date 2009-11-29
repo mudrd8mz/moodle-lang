@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
+      // report_security.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
 
 
 $string['check_configrw_details'] = '<p>Det anbefales at fil-rettighetene til config.php endres etter installasjonen slik at webserveren ikke kan gjøre endringer. Vennligst merk at denne sjekken ikke forbedrer serverens generelle sikkerhet, selv om den forsinker og eventuelt begrenser generelle sikkerhetshull.</p>';
@@ -83,22 +83,33 @@ $string['check_passwordpolicy_details'] = '<p>Det anbefales at det settes passor
 $string['check_passwordpolicy_error'] = 'Passordregler er ikke aktivert';
 $string['check_passwordpolicy_name'] = 'Passordregler';
 $string['check_passwordpolicy_ok'] = 'Passordregler er aktivert';
-$string['check_passwordsaltmain_details'] = '<p>Ved å konfigurere en passord-krypteringsnøkkel reduserer du effektivt risikoen for passordtyveri.</p>
+$string['check_passwordsaltmain_details'] = '<p>Ved å konfigurere en passord-krypteringsfrase reduserer du effektivt risikoen for passordtyveri.</p>
 <p>Du konfigurerer dette ved å legge til følgende linje i config.php:</p>
 <code>$CFG->passwordsaltmain = \'en eller annen kjempelang passordstreng med tall, bokstaver og andre tegn\';</code>
 <p>Denne strengen med tegn bør være en miks av tall, bokstaver og andre tegn. Du bør minst ha en streng på 40 tegn, gjerne mer.</p>
 <p>Les mer her om 
- <a href=\"$a\" target=\"_blank\">passord krypterinsnøkkel</a> hvis du ønsker å endre dette krypteringsnøkkelen. <br /><strong>Når du har konfiguert en passord-krypteringsnøkkel må du IKKE slette passordet fra config.php - da samtlige brukere (også du) vil bli utestengt fra installasjonen!</strong></p>';
-$string['check_passwordsaltmain_name'] = 'Passord-krypteringsnøkkel';
-$string['check_passwordsaltmain_ok'] = 'Passord-krypteringsnøkkelen er OK';
-$string['check_passwordsaltmain_warning'] = 'Det er ikke angitt noen passord-krypteringsnøkkel';
-$string['check_passwordsaltmain_weak'] = 'Passord-krypteringsnøkkelen er for svak';
-$string['check_riskadmin_detailsok'] = '<p>Vennligst bekreft følgede liste over administratorer:</p><p>$a</p>';
-$string['check_riskadmin_detailswarning'] = '<p>Vennligst bekreft følgede liste over administratorer:</p><p>$a->admins</p><p>Det anbefales at en bare tildeler administratorrettigheter i systemkonteksten. Følgende har admin-rettigheter som ikke støttes:</p><p>$a->unsupported</p>';
+ <a href=\"$a\" target=\"_blank\">passord krypterinsfrase</a> hvis du ønsker å endre dette krypteringsfrasen. <br /><strong>Når du har konfiguert en passord-krypteringsfrase må du IKKE slette passordet fra config.php - da samtlige brukere (også du) vil bli utestengt fra installasjonen!</strong></p>';
+$string['check_passwordsaltmain_name'] = 'Passord-krypteringsfrase';
+$string['check_passwordsaltmain_ok'] = 'Passord-krypteringsfrasen er OK';
+$string['check_passwordsaltmain_warning'] = 'Det er ikke angitt noen passord-krypteringsfrase';
+$string['check_passwordsaltmain_weak'] = 'Passord-krypteringsfrasen er for svak';
+$string['check_riskadmin_detailsok'] = '<p>Vennligst bekreft følgede liste over administratorer:</p> $a';
+$string['check_riskadmin_detailswarning'] = '<p>Vennligst bekreft følgede liste over administratorer:</p>$a->admins
+<p>Det anbefales at en bare tildeler administratorrettigheter i systemkonteksten. Følgende har admin-rettigheter som ikke støttes:</p>$a->unsupported';
 $string['check_riskadmin_name'] = 'Administratorer';
 $string['check_riskadmin_ok'] = 'Fant $a administratorer';
 $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) Vis rolletildeling</a>';
 $string['check_riskadmin_warning'] = 'Fant  $a->admincount administratorer og  $a->unsupcount med administratorrettigheter andre steder på systemet.';
+$string['check_riskbackup_details_overriddenroles'] = '<p>Disse aktiverte overstyringene gir brukere rett til å inkludere brukerdata i sikkerhetskopier. Du bør sjekke om disse tillatelsene er nødvendige.</p> $a';
+$string['check_riskbackup_details_systemroles'] = '<p>Følgende systemroller er satt til å tillate brukere å ta med brukerdata i sikkerhetskopier. Du bør sjekke m disse tillatelsene er nødvendige.</p> $a';
+$string['check_riskbackup_details_users'] = '<p>På grunn av overordnede roller eller lokale overstyringer har følgende brukerkontoer rett til å ta sikkerhetskopier med private data fra alle påmeldte brukere i kurs. Du bør sjekke om du stoler på disse brukerne og at brukerpassord er beskyttet med sterke passord:</p> $a';
+$string['check_riskbackup_detailsok'] = 'Ingen roller har eksplisitt tillatelse til å ta sikkerhetskopi av brukerdata. Likevel, merk at administratorer med tillatelsen \"Gjøre alt\" kan utføre dette.';
+$string['check_riskbackup_editoverride'] = '<a href=\"$a->url\">$a->name in $a->contextname</a>';
+$string['check_riskbackup_editrole'] = '<a href=\"$a->url\">$a->name</a>';
+$string['check_riskbackup_name'] = 'Sikkerhetskopi av brukerdata';
+$string['check_riskbackup_ok'] = 'Ingen roller har eksplisitt rett til å ta sikkerhetskopi av brukerdata';
+$string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) in $a->contextname</a>';
+$string['check_riskbackup_warning'] = 'Fant $a->rolecount roller, $a->overridecount overstyringer og $a->usercount brukere med rett til å ta sikkerhetskopi av brukerdata.';
 $string['check_riskxss_details'] = '<p>RISK_XSS viser deg alle risikable rettigheter bare klarerte brukere kan benytte.</p>
 <p>Vennligst bekreft følgende liste av brukere og sikre at disse er klarerte for denne serveren:</p><p>$a</p>';
 $string['check_riskxss_name'] = 'XSS klarerte brukere';

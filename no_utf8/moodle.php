@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
+      // moodle.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -123,7 +123,7 @@ $string['assigncreators'] = 'Legg til kursprodusenter';
 $string['assignsiteroles'] = 'Tildel roller for hele siten';
 $string['assignstudents'] = 'Meld inn studenter';
 $string['assignstudentsnote'] = 'OBS: Du trenger egentlig ikke å bruke denne siden, da studentene kan registrere seg selv til dette kurset.';
-$string['assignstudentspass'] = 'Du trenger bare å gi dem nøkkelen til kurset som for nå er satt til: \'$a\'.';
+$string['assignstudentspass'] = 'Du trenger bare å gi dem påmeldingsnøkkelen til kurset som for nå er satt til: \'$a\'.';
 $string['assignteachers'] = 'Legg til lærer';
 $string['authenticateduser'] = 'Godkjent bruker';
 $string['authenticateduserdescription'] = 'Innloggede brukere';
@@ -408,7 +408,7 @@ $string['deletedcourse'] = '$a er fullstendig slettet';
 $string['deletednot'] = 'Kunne ikke slette $a !';
 $string['deletelogs'] = 'Slett logger';
 $string['deleteselected'] = 'Slett valgte';
-$string['deleteselectedkey'] = 'Slett valgte sikkerhetsnøkkel';
+$string['deleteselectedkey'] = 'Slett valgte nøkkel';
 $string['deletingcourse'] = 'Sletter $a';
 $string['deletingexistingcoursedata'] = 'Sletter eksisterende kursdata';
 $string['deletingolddata'] = 'Sletter gamle data';
@@ -548,11 +548,11 @@ $string['enrollfirst'] = 'Du må melde deg på et av kursene før du kan bruke a
 $string['enrolme'] = 'Meld meg på dette kurset';
 $string['enrolmentconfirmation'] = 'Du holder på å melde deg på som deltaker på dette kurset.<br /> Er du sikker på at det er det du vil?';
 $string['enrolmentend'] = 'Påmelding avsluttes';
-$string['enrolmentkey'] = 'Sikkerhetsnøkkel';
-$string['enrolmentkeyfrom'] = 'Dette kurset krever en \'sikkerhetsnøkkel\'<br />
+$string['enrolmentkey'] = 'Påmeldingsnøkkel';
+$string['enrolmentkeyfrom'] = 'Dette kurset krever en \'påmeldingsnøkkel\'<br />
 dette er et engangspassord du burde ha fått av $a';
-$string['enrolmentkeyfromguest'] = 'Dette kurset trenger en \'sikkerhetsnøkkel - som gjest<br/>du må legge inn koden hver gang du skal inn i kurset. Du burde ha fått den fra $a';
-$string['enrolmentkeyhint'] = 'Sikkerhetsnøkkelen var feil. Prøv på nytt. (Her er et hint - den begynner på \'$a\')';
+$string['enrolmentkeyfromguest'] = 'Dette kurset krever en \'påmeldingensnøkkel - som gjest<br/>du må legge inn koden hver gang du skal inn i kurset. Du burde ha fått den fra $a';
+$string['enrolmentkeyhint'] = 'Påmeldingsnøkkelen var feil. Prøv på nytt. (Her er et hint - den begynner på \'$a\')';
 $string['enrolmentnew'] = 'Ny påmelding til $a';
 $string['enrolmentnewuser'] = '$a->user har meldt seg på kurset \"$a->course\"';
 $string['enrolmentnointernal'] = 'Manuell påmelding er for tiden ikke mulig';
@@ -698,10 +698,10 @@ $string['groupsseparate'] = 'Separate grupper';
 $string['groupsvisible'] = 'Synlige grupper';
 $string['guest'] = 'Gjest';
 $string['guestdescription'] = 'Gjester har minimale rettigheter og kan vanligvis ikke skrive inn tekst noe sted.';
-$string['guestskey'] = 'Tillat gjester som har sikkerhetsnøkkel';
+$string['guestskey'] = 'Tillat gjester som har påmeldingsnøkkel';
 $string['guestsno'] = 'Ikke tillat gjester';
 $string['guestsnotallowed'] = 'Beklager, \'$a\' er ikke åpen for gjester.';
-$string['guestsyes'] = 'Tillat gjester uten sikkerhetsnøkkel';
+$string['guestsyes'] = 'Tillat gjester uten påmeldingsnøkkel';
 $string['guestuser'] = 'Gjest';
 $string['guestuserinfo'] = 'Denne brukeren er en spesialbruker som har lesetilgang til noen kurs.';
 $string['healthcenter'] = 'Helsesenter';
@@ -825,16 +825,16 @@ $string['loginaspasswordexplain'] = '<p>Du må skrive inn det spesielle \"logg i
 $string['loginguest'] = 'Logg inn som gjest';
 $string['loginsite'] = 'Logg inn på kurset';
 $string['loginsteps'] = 'Hei! For å få full tilgang til kursene må du bruke litt tid til å opprette en ny konto til deg selv på dette nettstedet. 
-Hvert av kursene kan også ha en sikkerhetsnøkkel, men den trenger du ikke før senere. Gjør som følger: 
+Hvert av kursene kan også ha en påmeldingssnøkkel, men den trenger du ikke før senere. Gjør som følger: 
 <ol>
 <li>Registrer deg som <a href=\"$a\">ny bruker</a>. Du må ha en gyldig e-postadresse for å få gjort dette.</li>
 <li>En e-post blir med en gang sendt til din e-postadresse.</li>
 <li>Les denne e-posten og klikk på lenken som følger med.</li>
 <li>Kontoen din vil bli godkjent og du kan logge deg inn.</li>
 <li>Velg kurs du skal melde deg på.</li>
-<li>Hvis du blir bedt om en \'sikkerhetsnøkkel\', skriver du inn den som du har fått av læreren din. 
+<li>Hvis du blir bedt om en \'påmedingssnøkkel\', skriver du inn den som du har fått av læreren din. 
 Dette vil melde deg på kurset.</li>
-<li>Du kan nå aksessere hele kursest. Fra nå av trenger du bare å logge deg på med ditt brukernavn og passord for å få tilgang til kurset. NB! Du bruker samme brukerkonto selv om du deltar på flere kurs!</li>
+<li>Du har nå full tilgang til kurset. Fra nå av trenger du bare å logge deg på med ditt brukernavn og passord for å få tilgang til kurset. NB! Du bruker samme brukerkonto selv om du deltar på flere kurs!</li>
 </ol>';
 $string['loginstepsnone'] = '<p>Hei!</p><p>For å få full tilgang til kurs må du 
 opprette en konto.</p><p> Du må skrive et brukernavn og passord i dette skjemaet.</p><p>Hvis noen allerede har valgt brukernavnet du oppgir, må du prøve på nytt med et annet.</p>';
@@ -1193,7 +1193,7 @@ $string['requestcourse'] = 'Søk om oppretting av kurs';
 $string['requestedby'] = 'Søknad fra';
 $string['requestreason'] = 'Grunn for kurssøknaden';
 $string['required'] = 'Obligatorisk';
-$string['requireskey'] = 'Dette kurset krever en sikkerhetsnøkkel';
+$string['requireskey'] = 'Dette kurset krever en påmeldingsnøkkel';
 $string['requirespayment'] = 'Dette kurset krever innbetaling for å gi tilgang';
 $string['reset'] = 'Tilbakestill';
 $string['resetcomponent'] = 'Komponent';
