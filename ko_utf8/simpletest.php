@@ -1,10 +1,10 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 2.0 dev (Build: 20080923) (2008091611)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20091201) (2009112400)
 
 
 $string['addconfigprefix'] = '설정파일에 접두어 추가';
 $string['all'] = '모두';
-$string['confignonwritable'] = '웹으로 config.php를 작성할 수 없습니다. 허가권을 변경하던지, 적절한 사용자 계정으로 이를 편집하고 마지막에 다음 줄과 같은 내용을 추가하십시오. <br />$a->unittestprefix = \'tst_\' // Change tst_ to a prefix of your choice, different from $CFG->prefix';
+$string['confignonwritable'] = '웹으로 config.php를 작성할 수 없습니다. 허가권을 변경하던지, 적절한 사용자 계정으로 이를 편집하고 마지막에 다음 줄과 같은 내용을 추가하십시오. <br />\$CFG->unittestprefix = \'tst_\' // Change tst_ to a prefix of your choice, different from \$CFG->prefix';
 $string['deletingnoninsertedrecord'] = '유닛 점검에 포함되지 않은 기록( $a->table 테이블의 id $a->id )을 삭제하려고 합니다.';
 $string['deletingnoninsertedrecords'] = '유닛 점검에 포함되지 않은 기록들( $a->table 테이블 )을 삭제하려고 합니다.';
 $string['droptesttables'] = '점검 테이블 삭제';
