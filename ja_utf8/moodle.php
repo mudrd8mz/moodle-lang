@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091202) (2009112400)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -632,6 +632,8 @@ $string['firstaccess'] = '初回アクセス';
 $string['firstdayofweek'] = '0';
 $string['firstname'] = '名';
 $string['firsttime'] = 'はじめての方ですか?';
+$string['flashlinkmessage'] = 'あなたのFlashプレイヤーをアップグレードしてください:';
+$string['flashupgrademessage'] = 'このコンテンツを動作させるためには、Flashプラグインが必要です。しかし、あなたのFlashバージョンは、古すぎます。';
 $string['folder'] = 'フォルダ';
 $string['folderclosed'] = 'クローズフォルダ';
 $string['folderopened'] = 'オープンフォルダ';

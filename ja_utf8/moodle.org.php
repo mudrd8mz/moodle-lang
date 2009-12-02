@@ -1,11 +1,13 @@
 <?PHP // $Id$ 
-      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091127) (2009112400)
+      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091202) (2009112400)
 
 
 $string['aboutdemositetitle'] = 'デモンストレーションサイト';
 $string['aboutoverviewtitle'] = 'Moodleとは?';
 $string['aboutstatisticstitle'] = '統計';
+$string['conferencecenter'] = 'Moodleカンファレンスセンター';
 $string['contactbugstitle'] = 'バグレポート';
+$string['contactintro'] = '次のコンタクトオプションから選択してください:';
 $string['contactmoodlecomhelpdesk'] = 'Moodle.comヘルプデスク';
 $string['contactmoodlecomtitle'] = 'Moodle.com';
 $string['contactmoodleorgtitle'] = 'Moodle.org';
@@ -59,17 +61,30 @@ $string['newsofficial'] = 'Moodleに関する公式ニュース';
 $string['newsplanet'] = 'Planet Moodle';
 $string['newsrecent'] = '最新ニュース';
 $string['newssecurity'] = 'セキュリティニュース';
+$string['newssecuritydetail'] = 'セキュリティ問題に関する重要情報';
+$string['overview'] = '概要';
+$string['overviewabout'] = 'Moodleに関する概要';
+$string['overviewcommunity'] = 'Moodleコミュニティに関する概要';
+$string['overviewdevelopment'] = 'Moodle開発に関する概要';
+$string['overviewdownloads'] = 'Moodleダウンロードに関する概要';
+$string['overviewnews'] = 'Moodle最新ニュースに関する概要';
+$string['overviewsupport'] = 'Moodleサポートオプションに関する概要';
 $string['registeredsitestitle'] = '登録サイト';
 $string['roadmap'] = 'Moodleロードマップ';
 $string['shoptitle'] = 'Moodleショップ';
 $string['sourcecodetitle'] = 'オープンソースコード';
 $string['supportbookstitle'] = '書籍およびマニュアル';
 $string['supportcommercialtitle'] = '商用サービス';
+$string['supportdocs1'] = '始めるには、Moodle Docs、特に私たちの「よくある質問 (FAQ)」ページは素晴らしい場所です。';
+$string['supportdocsfaq'] = 'よくある質問';
+$string['supportdocslang'] = '他の言語のMoodle Docs';
 $string['supportdocstitle'] = 'ドキュメンテーション';
 $string['supportforumsenglishname'] = 'Using Moodle';
+$string['supportforumslang'] = '英語でMoodlerが交流する主要フォーラム:';
 $string['supportforumslangname'] = 'Moodle Lounge';
 $string['supportforumslangurl'] = 'http://moodle.org/course/view.php?id=55';
 $string['supportforumslistname'] = 'すべてのフォーラムの一覧';
 $string['supportforumstitle'] = 'フォーラム';
+$string['supportintro'] = 'あなたは、ひとりではありません! 必要であれば、あなたがMoodleに関して、助けを得る様々な方法があります。';
 
 ?>
