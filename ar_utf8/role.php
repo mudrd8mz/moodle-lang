@@ -49,9 +49,9 @@ $string['currentrole'] = 'الدور الحالي';
 $string['defaultrole'] = 'الدور الأفتراضي';
 $string['defineroles'] = 'تعريف الأدوار';
 $string['deleterolesure'] = 'هل أنت متأكد القيام بحذف الدور
-\"a$->name (a$->shortname)\"?</p><p>
+\"$a->name ($a->shortname)\"?</p><p>
 حالياً هذا الدور مخصص لـ المستخدمين
-a$->count';
+$a->count';
 $string['editrole'] = 'تحرير الدور';
 $string['errorbadrolename'] = 'اسم الدور خطاء';
 $string['errorbadroleshortname'] = 'اسم الدور خطاء';
@@ -121,6 +121,6 @@ $string['user:viewuseractivitiesreport'] = 'مشاهدة تقارير نشاط �
 $string['user:viewusergrades'] = 'معاينة درجات (علامات) مستخدم';
 $string['viewrole'] = 'معاينة تفاصيل الدور';
 $string['xuserswiththerole'] = 'المستخدمين المعينين لهذا الدور 
-\"a$->role\": a$->number';
+\"$a->role\": $a->number';
 
 ?>
