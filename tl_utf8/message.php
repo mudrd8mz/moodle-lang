@@ -5,7 +5,7 @@
 $string['addcontact'] = 'Magdagdag ng kontak';
 $string['addsomecontacts'] = 'Para makapagpadala ng mensahe sa isang tao, o upang makapagdagdag ng shorcut para sa kanila sa pahinang ito, gamitin ang <a href=\"$a\">tab na panghanap</a> sa itaas.';
 $string['addsomecontactsincoming'] = 'Ang mga mensaheng ito ay mula sa mga taong wala sa listahan mo ng kontak.  Upang maidagdag ang mga taong ito sa iyong kontak, iklik lamang ang \"Magdagdag ng kontak\" na ikon, katabi ng pangalan nila.';
-$string['ago'] = '$ ang lumipas';
+$string['ago'] = '$a ang lumipas';
 $string['allmine'] = 'Lahat ng mensahe para sa akin o mula sa akin';
 $string['allstudents'] = 'Lahat ng mensahe sa pagitan ng mga mag-aaral sa kurso';
 $string['allusers'] = 'Lahat ng mensahe mula sa lahat ng tagagamit';
