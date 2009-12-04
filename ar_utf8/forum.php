@@ -52,7 +52,7 @@ $string['disallowsubscribe'] = 'لا يسمح بالأشتراك';
 $string['disallowsubscribeteacher'] = 'لا يسمح بالأشتراك (ما عدا المعلمون)';
 $string['discussion'] = 'نقاش';
 $string['discussionmoved'] = 'تم نقل هذا لنقاش إلى  \'$a\'';
-$string['discussionmovedpost'] = 'لقد تم نقل هذا النقاش إلى <a href=\"a$->discusshref\">here</a> المنتدى href=\"a$->forumhref\">a$->forumname</a>';
+$string['discussionmovedpost'] = 'لقد تم نقل هذا النقاش إلى <a href=\"$a->discusshref\">here</a> المنتدى href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'اسم النقاش';
 $string['discussions'] = 'مناقشات';
 $string['discussionsstartedby'] = 'المناقشات بدأت بواسطة  $a';

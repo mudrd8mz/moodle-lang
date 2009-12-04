@@ -8,7 +8,7 @@ $string['active'] = 'نشط';
 $string['activeusers'] = 'مستخدمين نشيطين';
 $string['activities'] = 'أنشطة';
 $string['activity'] = 'نشاط';
-$string['activityclipboard'] = 'نقل هذا النشاط: <b>a$</b>';
+$string['activityclipboard'] = 'نقل هذا النشاط: <b>$a</b>';
 $string['activityiscurrentlyhidden'] = 'عذراً هذا النشاط مخفي حالياً';
 $string['activitymodule'] = 'وحدة نشاط';
 $string['activityreport'] = 'تقرير النشاط';
@@ -25,7 +25,7 @@ $string['addedrecip'] = 'أضف $a مستلم جديد';
 $string['addedrecips'] = 'أضف $a مستلمون جدد';
 $string['addedtogroup'] = 'تمت الإضافة إلى المجموعة $a';
 $string['addedtogroupnot'] = 'لم تتم الإضافة إلى المجموعة $a';
-$string['addedtogroupnotenrolled'] = 'لم تتم الإضافة إلى المجموعة a$ وذلك لعدم انظمامه لمقرر الدراسي';
+$string['addedtogroupnotenrolled'] = 'لم تتم الإضافة إلى المجموعة $a وذلك لعدم انظمامه لمقرر الدراسي';
 $string['addinganew'] = 'إضافة جديد  $a';
 $string['addinganewto'] = 'إضافة $a->what جديد  إلى $a->to';
 $string['addingdatatoexisting'] = 'إضافة معلومات للحالي';
@@ -241,7 +241,7 @@ $string['costdefault'] = 'القيمة الأفتراضية';
 $string['counteditems'] = '$a->count $a->items';
 $string['country'] = 'الدولة';
 $string['course'] = 'مقرر دراسي';
-$string['courseapprovedemail'] = 'لقد تمت الموافقة على المقرر الدراسي،a$->name ،الذي قمت بطلبه، وقد تم تعيينك،a$->teacher . للوصول لمقررك الدراسي الجديد أذهب إلى a$->url';
+$string['courseapprovedemail'] = 'لقد تمت الموافقة على المقرر الدراسي،$a->name ،الذي قمت بطلبه، وقد تم تعيينك،$a->teacher . للوصول لمقررك الدراسي الجديد أذهب إلى $a->url';
 $string['courseapprovedfailed'] = 'فشل حفظ المقرر الدراسي كمقرر تم الموافقة عليه!';
 $string['courseapprovedsubject'] = 'تم الموافقة على مقررك الدراسي!';
 $string['courseavailable'] = 'هذاالمقرر الدراسي متوفر للطلاب';
@@ -338,7 +338,7 @@ $string['defaultcourseteacher'] = 'معلم';
 $string['defaultcourseteachers'] = 'معلمون';
 $string['delete'] = 'حذف';
 $string['deleteall'] = 'حذف الكل';
-$string['deletecategorycheck'] = 'هل انت متأكدللقيام بحذف هذا الصنف تماما<b>\'a$\'</b>?<br /> كل المقررات دراسية ستنقل ألى الصنف الرئيس لو وجد صنف رئيس، أو إلى منوعات.';
+$string['deletecategorycheck'] = 'هل انت متأكدللقيام بحذف هذا الصنف تماما<b>\'$a\'</b>?<br /> كل المقررات دراسية ستنقل ألى الصنف الرئيس لو وجد صنف رئيس، أو إلى منوعات.';
 $string['deletecheck'] = 'حذف $a ؟';
 $string['deletecheckfiles'] = 'هل أنت متأكد تمام القيام بعملية حذف هذه الملفات';
 $string['deletecheckfull'] = 'هل أنت متأكد أنك تريد حذف $a ?';
@@ -505,18 +505,18 @@ $string['existingcreators'] = 'منشئون المقرر الدراسي المو
 $string['existingstudents'] = 'الطلاب المسجلون';
 $string['existingteachers'] = 'المعلمون الموجودون';
 $string['expirynotify'] = 'إشعار أنتهي صلاحية التسجيل';
-$string['expirynotifyemail'] = 'سينتهي تسجيل الطلاب التاليين في المقرر الدراسي هذا بالضبط بعد a$->threshold ايام:
+$string['expirynotifyemail'] = 'سينتهي تسجيل الطلاب التاليين في المقرر الدراسي هذا بالضبط بعد $a->threshold ايام:
 
 $a->current
 
-سينتهي تسجيل الطلاب التاليين في المقرر الدراسي هذاخلال اقل من a$->threshold أيام:
+سينتهي تسجيل الطلاب التاليين في المقرر الدراسي هذاخلال اقل من $a->threshold أيام:
 
 $a->past
 
-يمكنك الذهاب لصفحة التالية للقيام بتمديد فترة التسجيل لهؤلاء الطلاب a$->extendurl\'';
+يمكنك الذهاب لصفحة التالية للقيام بتمديد فترة التسجيل لهؤلاء الطلاب $a->extendurl\'';
 $string['expirynotifystudents'] = 'أشعر الطلاب';
 $string['expirynotifystudentsemail'] = 'عزيز الطالب:
-يسرني أن أحيطكم أن تسجيلكم في المقرر الدراسي a$->course سينتهي خلال  a$->threshold  أيام';
+يسرني أن أحيطكم أن تسجيلكم في المقرر الدراسي $a->course سينتهي خلال  $a->threshold  أيام';
 $string['expirythreshold'] = 'البداية';
 $string['explanation'] = 'شرح / تفسير';
 $string['extendenrol'] = 'مدد التسجيل';

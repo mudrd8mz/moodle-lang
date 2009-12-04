@@ -71,7 +71,7 @@ $string['transid'] = 'الرقم التعريفي للصفقة';
 $string['unenrolstudent'] = 'هل سيتم إلغاء تسجيل الطالب؟';
 $string['void'] = 'ملغي';
 $string['voidyes'] = 'سيتم إلغاء الصفقة. هل أنت متأكد؟';
-$string['youcantdo'] = 'لا تستطيع القيام بهذا الأجراء: a$->action';
+$string['youcantdo'] = 'لا تستطيع القيام بهذا الأجراء: $a->action';
 $string['zipcode'] = 'الرمز البريدي';
 
 ?>

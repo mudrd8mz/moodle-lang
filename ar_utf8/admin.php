@@ -255,10 +255,10 @@ $string['environment'] = 'بيئة';
 $string['environmenterrortodo'] = 'يجب عليك تصحيح كل المشاكل (الأخطاء) الموضحه أعلاه قبل الأستمرار في ثتبيت هذا الأصدار لموّدل';
 $string['environmentok'] = 'بيئة خادمك متوافقة مع الحد الإدنى لمتطلبات التثبيت';
 $string['environmentrecommendinstall'] = 'ينصح بتثبيته/تمكينه';
-$string['environmentrecommendversion'] = 'يفضل الأصدار a$->needed ، وانت تستخدم الأصدار a$->current';
+$string['environmentrecommendversion'] = 'يفضل الأصدار $a->needed ، وانت تستخدم الأصدار $a->current';
 $string['environmentrequireinstall'] = 'مطلوب تثبيته/تمكينه';
-$string['environmentrequireversion'] = 'مطلوب الأصدار a$->needed ، وانت تستخدم الأصدار a$->current';
-$string['environmentxmlerror'] = 'خطاء في قراءة بيانات البيئة (a$->error_code)';
+$string['environmentrequireversion'] = 'مطلوب الأصدار $a->needed ، وانت تستخدم الأصدار $a->current';
+$string['environmentxmlerror'] = 'خطاء في قراءة بيانات البيئة ($a->error_code)';
 $string['errors'] = 'أخطاء';
 $string['errorsetting'] = 'لم يتمكن النظام من حفظ الإعدادتت';
 $string['errorwithsettings'] = 'لم يتم تغير بعض الإعدادات نظراً لوجود خطاء';
@@ -502,7 +502,7 @@ $string['upgradelogs'] = 'لإداء وظيفي كامل، سجلاتك القد
 $string['upgradelogsinfo'] = 'لقد تم عمل بعض التغييراتِ مؤخراً في طريقَة تخْزُين السجلاتِ. لتتمكن من رؤية سجلاتك القديمة لكل نشاط يتسنى عليك ترقية هذه السجلات القديمة. هذا الأجراء سيستغرق وقت (على سبيل المثال عدة ساعات) ومن الممكن أن أن يبطئ قاعدة البيانات إذا كان الموقع كبير. بمجرد البدء بهذا الأجراء يجب عليك تركة حتى ينتهي وذلك (بإبْقاء نافذةِ المتصفّحَ يَفْتحُ). لاتقلق - أثناء هذا الأجراء  سيعمل موقعكَ بشكل سليم ولن يتأثر إداء المستخدمون للموقع أثناء هذا الأجراء. <br /> <br /> هَلْ تُريدُ تَرْقِية سجلاتِكَ الآن؟';
 $string['upgradesettings'] = 'الإعدادات الجديدة';
 $string['upgradesure'] = '<p>لقد تم استبدال ملفات موّدل، وانت الآن على وشك ترقية موقعك بالأصدر</p>
-<p><b>a$<>/b<>/p
+<p><b>$a<>/b<>/p
 <p>لا تستطيع العودة إلى الخلف بمجرد الأنتهاء من هذا الأجراء.</p>
 <p>هل أنت متأكد للقيام بعميلة الترقية هذه؟ </p>';
 $string['upgradingdata'] = 'ترقية المعلومات';

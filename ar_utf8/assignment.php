@@ -22,7 +22,7 @@ $string['comment'] = 'تعليق (علق)';
 $string['commentinline'] = 'قم بتعليق في نفس السطر';
 $string['configitemstocount'] = 'طبيعة الموادِ الّتي سَتُحْسَبُ لمقالاتِ الطالبِ في المهامِ على الإنترنتِ';
 $string['configmaxbytes'] = 'الحجم المهمة الافتراضي لجميع المهمات في الموقع (خاضع لمحدودية المقرر الدراسي وبعض الإعدادات)';
-$string['confirmdeletefile'] = 'هل أنت متأكد تماما القيام بحذف هذا الملف؟ <br /><strong>a$</strong>';
+$string['confirmdeletefile'] = 'هل أنت متأكد تماما القيام بحذف هذا الملف؟ <br /><strong>$a</strong>';
 $string['deletefilefailed'] = 'تم فشل حذف الملف';
 $string['description'] = 'الوصف';
 $string['draft'] = 'مسودة';
@@ -35,7 +35,7 @@ $string['emailteachermail'] = '$a->username قام بتحديث المهمةال
 $string['emailteachermailhtml'] = '$a->username قام بتحديث المهمةالمقدمة لـ <i>\'$a->assignment\'</i><br /><br /> وهي <a href=\"$a->url\">available on the web site</a>.';
 $string['emailteachers'] = 'بريد إلكتروني تنبيهي للمعلمون';
 $string['emptysubmission'] = 'لم تقم بتقديم أي شئ';
-$string['existingfiledeleted'] = 'تم حذ الملفات الموجودة :a$';
+$string['existingfiledeleted'] = 'تم حذ الملفات الموجودة :$a';
 $string['failedupdatefeedback'] = 'تعذر تحديث الاجابات التقييمية للمهمة المقدمة من $a';
 $string['feedback'] = 'اجابة تقييمية';
 $string['feedbackfromteacher'] = 'اجابة تقييمية من الـ $a';
