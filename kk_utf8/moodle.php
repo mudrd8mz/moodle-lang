@@ -2394,7 +2394,7 @@ $string['weekshow'] = 'Бұл аптаны $a көрсету';
 
 $string['welcometocourse'] = '$a Қош Келдіңіз!';
 
-$string['welcometocoursetext'] = 'a->coursename Қош Келдіңіз!';
+$string['welcometocoursetext'] = '$a->coursename Қош Келдіңіз!';
 
 $string['whattocallzip'] = 'Сіз нені zip-файл деп атағыңыз келеді?';
 

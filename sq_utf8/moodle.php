@@ -320,7 +320,7 @@ $string['emailpasswordsent'] = '<p>Faleminderit që konfirmove ndryshimin e fjal
 
 <p>Një email që përmban fjalëkalimin e ri do të dërgohet në adresën tënde <b>$a->email</b>.</p>
 
-<p>Fjalëkalimi i ri u gjenerua automatikisht- nëse do<a href=\"a->link\"> ndrysho fjalëkalimin</a> në diçka më të lehtë për të mbajtur mend.</p>';
+<p>Fjalëkalimi i ri u gjenerua automatikisht- nëse do<a href=\"$a->link\"> ndrysho fjalëkalimin</a> në diçka më të lehtë për të mbajtur mend.</p>';
 $string['enable'] = 'Aktivizo';
 $string['enrolledincourse'] = 'I rregistruar në kursin \"$a\"';
 $string['enrolledincoursenot'] = 'Jo i rregjistruar në kursin \"$a\"';

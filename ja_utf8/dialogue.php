@@ -19,7 +19,7 @@ $string['dialoguemail'] = '$a->userfrom が新しいエントリをあなたの�
 追加されたダイアログを以下にてご覧いただけます:
 
 $a->url';
-$string['dialoguemailhtml'] = 'a->userfrom があなたのダイアログエントリ \'<i>$a->dialogue</i>\' に新しいエントリを投稿しました。<br /><br />
+$string['dialoguemailhtml'] = '$a->userfrom があなたのダイアログエントリ \'<i>$a->dialogue</i>\' に新しいエントリを投稿しました。<br /><br />
 あなたの<a href=\"$a->url\">ダイアログ</a>でご覧になれます。';
 $string['dialoguename'] = 'ダイアログ名';
 $string['dialogueopened'] = '$a により開かれたダイアログ';

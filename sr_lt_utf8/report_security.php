@@ -82,7 +82,7 @@ $string['check_openprofiles_error'] = 'Svako može da vidi korisničke profile b
 $string['check_openprofiles_name'] = 'Otvoreni korisnički profili';
 $string['check_openprofiles_ok'] = 'Za gledanje korisničkih profila neophodna je prethodna prijava na sistem.';
 $string['check_riskadmin_detailsok'] = '<p>Molimo Vas da potvrdite sledeći spisak administratorea sistema:</p>$a';
-$string['check_riskadmin_detailswarning'] = '<p>Molimo Vas da potvrdite sledeći spisak administratorea sistema:</p>a->admins
+$string['check_riskadmin_detailswarning'] = '<p>Molimo Vas da potvrdite sledeći spisak administratorea sistema:</p>$a->admins
 <p>Preporučuje da se da ulogu administraotra dodeljujete samo u kontekstu sistema. Sledeći korisnici imaju dodeljene administratorske uloge koje nisu podržane:</p>$a->unsupported';
 $string['check_riskadmin_name'] = 'Administratori';
 $string['check_riskadmin_ok'] = 'Pronađen/o je $a server administrator/a.';

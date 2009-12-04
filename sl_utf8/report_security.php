@@ -89,7 +89,7 @@ $string['check_riskadmin_detailsok'] = '<p>Prosimo, da preverite, če je sledeč
 $string['check_riskadmin_detailswarning'] = '<p>Prosimo, da preverite, če je sledeči spisek skrbnikov pravilen: </p><p>$a->admins</p> <p>Priporočamo, da skrbniške vloge nastavite samo v sistemskem kontekstu. Sledeči uporabniki imajo določene nepodprte skrbniške vloge:</p><p>$a->unsupported</p>';
 $string['check_riskadmin_name'] = 'Skrbniki';
 $string['check_riskadmin_ok'] = 'Našel $a skrbnikov sistema.';
-$string['check_riskadmin_warning'] = 'Našel $a->admincount skrbnikov sistema in a->unsupcount uporabnikov z nepodprtimi skrbniškimi vlogami.';
+$string['check_riskadmin_warning'] = 'Našel $a->admincount skrbnikov sistema in $a->unsupcount uporabnikov z nepodprtimi skrbniškimi vlogami.';
 $string['check_riskxss_details'] = '<p>RISK_XSS označuje vse nevarne zmožnosti, ki jih lahko uporabljajo samo zaupanja vredni uporabniki.</p>
 <p>Prosimo, da preverite, če popolnoma zaupate vsem uporabnikom s spodnjega spiska:
 </p><p>$a</p>';

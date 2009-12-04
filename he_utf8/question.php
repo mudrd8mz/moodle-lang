@@ -9,7 +9,7 @@ $string['categorycurrent'] = 'קטגוריה נוכחית';
 $string['categorycurrentuse'] = 'השתמש בקטגוריה זאת';
 $string['categorydoesnotexist'] = 'קטגוריה זו לא קיימת';
 $string['categorymoveto'] = 'שמור בקטגוריה';
-$string['changepublishstatuscat'] = '<a href=\"caturl\">לקטגוריה \"a->name\"</a>בקורס \"$a->coursename\" יהיה סטאטוס שיתופי שישונה מ<strong>$a->changefrom ל$a->changeto </strong>';
+$string['changepublishstatuscat'] = '<a href=\"$a->caturl\">לקטגוריה \"$a->name\"</a>בקורס \"$a->coursename\" יהיה סטאטוס שיתופי שישונה מ<strong>$a->changefrom ל$a->changeto </strong>';
 $string['copy'] = 'העתק מ $a ושנה את הקישורים';
 $string['created'] = 'נוצר ב-';
 $string['createdmodifiedheader'] = 'נוצר/שונה ב-';

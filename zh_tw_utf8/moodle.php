@@ -1559,7 +1559,7 @@ $string['virusfoundlateradminnolog'] = '管理員請注意!上傳的檔案中，
 
 $a->action';
 $string['virusfoundsubject'] = '$a:發現病毒';
-$string['virusfounduser'] = '您所上傳的檔案，&a->filename,經由病毒檢查，發現受感染，
+$string['virusfounduser'] = '您所上傳的檔案，$a->filename,經由病毒檢查，發現受感染，
 您的檔案上傳失敗。';
 $string['virusplaceholder'] = '所上傳的檔案檢查出病毒，已經搬移或刪除並通知使用者。';
 $string['visible'] = '可見的';

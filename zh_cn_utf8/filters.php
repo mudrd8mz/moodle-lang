@@ -38,6 +38,6 @@ $string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = '以...开始';
 $string['tablenosave'] = '表中的更改将自动保存';
 $string['textlabel'] = '$a->label $a->operator $a->value';
-$string['textlabelnovalue'] = 'a->label $a->operator';
+$string['textlabelnovalue'] = '$a->label $a->operator';
 
 ?>

@@ -52,7 +52,7 @@ $string['disallowsubscribe'] = 'ไม่อนุญาตให้สมัค
 $string['disallowsubscribeteacher'] = 'ไม่อนุญาตให้สมัครสมาชิก(ยกเว้นอาจารย์)';
 $string['discussion'] = 'กระทู้';
 $string['discussionmoved'] = 'กระทู้นี้ได้ย้ายไปที่ \'$a\'';
-$string['discussionmovedpost'] = 'กระทู้นี้ได้ถูกย้ายไปอยู่ <a href=\"%%a->discusshref\">ที่นี่</a> ในกระดาน <a href=\"$a->forumhref\">$a->forumname</a>';
+$string['discussionmovedpost'] = 'กระทู้นี้ได้ถูกย้ายไปอยู่ <a href=\"$a->discusshref\">ที่นี่</a> ในกระดาน <a href=\"$a->forumhref\">$a->forumname</a>';
 $string['discussionname'] = 'ชื่อกระทู้';
 $string['discussions'] = 'กระทู้ทั้ง';
 $string['discussionsstartedby'] = 'ตั้งกระทู้โดย $a';

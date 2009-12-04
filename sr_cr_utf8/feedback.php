@@ -57,7 +57,7 @@ $string['emailteachermail'] = '$a->username је попунио упитник :
 Можете га погледати на следећој адреси: 
 
 $a->url';
-$string['emailteachermailhtml'] = 'a->username је попунио упитник : <i>\'$a->feedback\'</i><br /><br /> 
+$string['emailteachermailhtml'] = '$a->username је попунио упитник : <i>\'$a->feedback\'</i><br /><br /> 
 Можете га погледати <a href=\"$a->url\">на следећој адреси</a>.';
 $string['entries_saved'] = 'Ваши одговори су сачувани. Хвала!';
 $string['export_questions'] = 'Извези питања';

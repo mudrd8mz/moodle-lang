@@ -27,7 +27,7 @@ $a->username ayaa cusbooneysiiyey dhiibitaankii shaqo-waxbarasho\'$a->assignment
 Waxa laga helayaa halkan:
 
 $a->url ';
-$string['emailteachermailhtml'] = 'a->username ayaa cusbooneysiiyey dhiibitaankii shaqo-waxbarasho ee <i>\'$a->assignment\'</i><br /><br />
+$string['emailteachermailhtml'] = '$a->username ayaa cusbooneysiiyey dhiibitaankii shaqo-waxbarasho ee <i>\'$a->assignment\'</i><br /><br />
 Waa <a href=\"$a->url\"> oo laga helo web sitekan</a>.';
 $string['emailteachers'] = 'Email u dignniino loo diro bareyaasha';
 $string['emptysubmission'] = 'Wali waxba maadan soo dhiibin';

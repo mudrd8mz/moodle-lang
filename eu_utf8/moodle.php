@@ -644,7 +644,7 @@ $a->extendurl';
 $string['expirynotifystudents'] = 'Ikasleei ohartarazi';
 $string['expirynotifystudentsemail'] = 'Ikasle agurgarri hori:
 
-Ikastaro honetako ( $a->course ) zure matrikula a->threshold egun barru amaituko dela jakinarazten dizut.
+Ikastaro honetako ( $a->course ) zure matrikula $a->threshold egun barru amaituko dela jakinarazten dizut.
 
 Informazio gehiagorako zure tutorearekin harremanetan jarri, mesedez.';
 $string['expirythreshold'] = 'Tartea';

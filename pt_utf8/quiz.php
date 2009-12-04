@@ -194,7 +194,7 @@ Esta mensagem confirma que recebemos as suas respostas.
 
 Poderá aceder ao teste em $a->quizurl.';
 $string['emailconfirmsubject'] = 'Confirmação de recepção da resposta ao teste $a->quizname';
-$string['emailnotifybody'] = 'Viva a->username,
+$string['emailnotifybody'] = 'Viva $a->username,
 
 $a->studentname completou a resposta a teste \'$a->quizname\' ($a->quizurl)
 na disciplina \'$a->coursename\'

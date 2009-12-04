@@ -174,7 +174,7 @@ $string['sessionautostarterror'] = '這應該關閉';
 $string['sessionautostarthelp'] = '<p>Moodle 需要有session功能的支援,沒有它無法正確動作 .</p>
 <p>Sessions 可以在 php.ini 檔案中啟動,請尋找其中 session.auto_start 參數.</p>';
 $string['skipdbencodingtest'] = '略過資料庫編碼測試';
-$string['welcomep10'] = 'a->installername ($a->installerversion)';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = '這個頁面是提醒您已經成功安裝與啟動 <strong>$a->packname $a->packversion</strong> ，恭喜！';
 $string['welcomep30'] = '<strong>{$a->installername}</strong>包含了可以建立<strong>Moodle</strong>執行環境的應用程序：';
 $string['welcomep40'] = '這個軟體還包含了<strong>Moodle {$a->moodlerelease} ({$a->moodleversion})</strong>。';

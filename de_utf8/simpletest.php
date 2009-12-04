@@ -7,8 +7,8 @@ $string['all'] = 'Alle';
 $string['confignonwritable'] = 'Die Datei config.php kann nicht geändert werden. Ändern Sie entweder die Schreibberechtigung für die Datei oder ändern Sie den Dateiinhalt durch manuelles Einfügen des folgenden Inhalts vor dem abschließenden  php Tag.
 <br />
 &#36;CFG->unittestprefix = \'tst_\' // Change tst_ to a prefix of your choice, different from $CFG->prefix';
-$string['deletingnoninsertedrecord'] = 'Versuch einen Datensatz zu löschen, der nicht beim Unittest eingefügt wurde (id $a->id in Tabelle %%a->table)';
-$string['deletingnoninsertedrecords'] = 'Versuch Datensätze zu löschen, die nicht beim Unittest eingefügt wurden (in Tabelle %%a->table)';
+$string['deletingnoninsertedrecord'] = 'Versuch einen Datensatz zu löschen, der nicht beim Unittest eingefügt wurde (id $a->id in Tabelle $a->table)';
+$string['deletingnoninsertedrecords'] = 'Versuch Datensätze zu löschen, die nicht beim Unittest eingefügt wurden (in Tabelle $a->table)';
 $string['droptesttables'] = 'Testtabellen löschen';
 $string['exception'] = 'Ausnahme';
 $string['fail'] = 'Gescheitert';

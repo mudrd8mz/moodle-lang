@@ -618,7 +618,7 @@ $string['existingcreators'] = 'Possíveis criadores de disciplinas';
 $string['existingstudents'] = 'Alunos inscritos';
 $string['existingteachers'] = 'Professores existentes';
 $string['expirynotify'] = 'Notificação de expiração da inscrição';
-$string['expirynotifyemail'] = 'A inscrição nesta disciplina dos alunos a seguir vai expirar em exactamente #a->threshold dias:
+$string['expirynotifyemail'] = 'A inscrição nesta disciplina dos alunos a seguir vai expirar em exactamente $a->threshold dias:
 
 $a->current
 
