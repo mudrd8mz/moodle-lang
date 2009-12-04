@@ -413,7 +413,7 @@ $string['enrolmentkeyfrom'] = 'Denne klassen krev ein \'sikkerheitsnøkkel\'<br 
 dette er eit eingongspassord du skal ha fått av $a';
 $string['enrolmentkeyhint'] = 'Sikkerheitsnøkkelen var feil. Prøv på nytt. Hugs: Store og små bokstavar må være riktige.';
 $string['enrolmentnew'] = 'Ny påmelding til $a';
-$string['enrolmentnewuser'] = '$a->user har meldt seg på kurset \"$->kurs\"';
+$string['enrolmentnewuser'] = '$a->user har meldt seg på kurset \"$a->kurs\"';
 $string['enrolmentnointernal'] = 'Manuell innmelding er for tida ikkje muleg';
 $string['enrolmentnotyet'] = 'Eg er lei for det, men du kjem ikkje inn på dette kurset før <br/> $a ';
 $string['enrolments'] = 'Påmeldingar';

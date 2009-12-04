@@ -258,7 +258,7 @@ $string['costdefault'] = 'Perushinta';
 $string['counteditems'] = '$a->items ($a->count)';
 $string['country'] = 'Maa';
 $string['course'] = 'Kurssi';
-$string['courseapprovedemail'] = 'Pyytämäsi kurssi , $a->name, on hyväksytty ja sinusta kurssin $->teacher. 
+$string['courseapprovedemail'] = 'Pyytämäsi kurssi , $a->name, on hyväksytty ja sinusta kurssin $a->teacher. 
 Löydät kurssisi seuraavasta osoitteesta $a->url';
 $string['courseapprovedfailed'] = 'Kurssin hyväksymisessä tapahtui virhe.';
 $string['courseapprovedsubject'] = 'Kurssisi on hyväksytty!';
@@ -603,7 +603,7 @@ Voit pidentää rekisteröitymisjaksoa seuraavalla sivulla: $a->extendurl';
 $string['expirynotifystudents'] = 'Ilmoitus opiskelijoille';
 $string['expirynotifystudentsemail'] = 'Hyvä opiskelija.
 
-Rekisteröitymisesi kurssille $->course vanhenee $a->threshold päivässä.
+Rekisteröitymisesi kurssille $a->course vanhenee $a->threshold päivässä.
 
 Kysy kurssin ohjaajilta lisätietoja.';
 $string['expirythreshold'] = 'Raja-arvo';
