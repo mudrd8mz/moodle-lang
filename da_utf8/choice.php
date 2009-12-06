@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // choice.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
 
 
 $string['addmorechoices'] = 'Tilføj flere valgmuligheder';
@@ -33,7 +33,7 @@ $string['notanswered'] = 'Ikke besvaret endnu';
 $string['notopenyet'] = 'Denne aktivitet er tilgængelig fra $a';
 $string['privacy'] = 'Vis ikke resultater';
 $string['publish'] = 'Vis resultater';
-$string['publishafteranswer'] = 'Vis resultatet til de studerende efter aflevering.';
+$string['publishafteranswer'] = 'Vis resultatet til de studerende efter de har svaret.';
 $string['publishafterclose'] = 'Vis resultatet til de studerende efter at spørgsmålet er lukket.';
 $string['publishalways'] = 'Vis altid resultaterne til de studerende';
 $string['publishanonymous'] = 'Vis anonyme resultater uden at angive de studerendes navne';

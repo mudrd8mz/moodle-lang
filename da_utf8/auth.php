@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
 
 
 $string['accesCAS'] = 'CAS-brugere';
@@ -144,11 +144,11 @@ $string['auth_ldap_version'] = 'Versionen af LDAP protokollen din server bruger.
 $string['auth_ldap_version_key'] = 'Version';
 $string['auth_ldapdescription'] = 'Denne metode kræver godkendelse op mod en ekstern LDAP server. Hvis det givne brugernavn/password er gyldige opretter Moodle en ny bruger i databasen. Dette modul kan læse bruger attributter fra en LDAP server og udfylde ønskede felter i Moodle. For følgende logins bliver kun brugernavn og password kontrolleret.';
 $string['auth_ldapextrafields'] = 'Disse felter er valgfrie.  Du kan vælge at udfylde Moodle felter på forhånd fra <b>LDAP felterne</b> som du angiver her. </p><p>Hvis du ikke skriver noget her, vil intet overføres fra LDAP og Moodle standardværdier vil blive brugt i stedet.</p><p>I alle tilfælde vil brugeren være i stand ændre i felterne efter de har logget ind.</p>';
-$string['auth_ldaptitle'] = 'Brug en LDAP server';
+$string['auth_ldaptitle'] = 'LDAP server';
 $string['auth_manualdescription'] = 'Denne metode fjerner enhver måde for brugerne selv at oprette en brugerkonto. Alle brugerkonti skal laves manuelt af en admin bruger.';
 $string['auth_manualtitle'] = 'Kun manuel brugeroprettelse.';
 $string['auth_mnet_auto_add_remote_users'] = 'Vælger du \'ja\' vil en lokal post for brugeren automatisk genereres første gang en fjernbruger logger ind.';
-$string['auth_mnet_roamin'] = 'Disse værter kan \'roame\' din side';
+$string['auth_mnet_roamin'] = 'Disse værter kan \'roame\' ind på din side';
 $string['auth_mnet_roamout'] = 'Dine brugere kan \'roame\' ud til disse værter';
 $string['auth_mnettitle'] = 'Godkendelse af Moodle Netværk';
 $string['auth_multiplehosts'] = 'Flere værter kan specificeres (f.eks. host1.com;host2.com;host3.com)';
@@ -168,27 +168,30 @@ $string['auth_passwordisexpired'] = 'Dit kodeord er udløbet. Ønsker du at ænd
 $string['auth_passwordwillexpire'] = 'Dit kodeord udløber om $a dage. Ønsker du at ændre det nu?';
 $string['auth_pop3description'] = 'Denne metode bruger en POP3 server til at kontrollere om brugernavn og password er gyldige';
 $string['auth_pop3host'] = 'POP3 server adressen. Brug IP nummeret, ikke DNS navn.';
+$string['auth_pop3host_key'] = 'Vært';
 $string['auth_pop3mailbox'] = 'Navnet på den postbox som der skal forbindes til (som regel INBOX)';
 $string['auth_pop3mailbox_key'] = 'Mailboks';
 $string['auth_pop3port'] = 'Server port (110 er mest almindelig)';
-$string['auth_pop3title'] = 'Brug en POP3 server';
+$string['auth_pop3title'] = 'POP3 server';
 $string['auth_pop3type'] = 'Server type. Hvis din server anvender certifikat sikkerhed, så vælg pop3cert.';
 $string['auth_radiusdescription'] = 'Denne metode benytter en <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> server til at validere brugernavn og password.';
 $string['auth_radiushost'] = 'Adressen på RADIUS server';
 $string['auth_radiusnasport'] = 'Forbind til port';
 $string['auth_radiussecret'] = 'Delt nøgleord';
-$string['auth_radiustitle'] = 'Benyt en RADIUS server';
+$string['auth_radiustitle'] = 'RADIUS server';
+$string['auth_radiustypepap'] = 'PAP';
 $string['auth_shib_convert_data'] = 'Datamanipulerings API';
 $string['auth_shib_convert_data_description'] = 'Du kan benytte dette API til yderligere at ændre data fra Shibboleth. Læs evt a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> for yderligere information.';
 $string['auth_shib_convert_data_warning'] = 'Filen eksistere ikke eller kan ikke læses af webserverens process.';
 $string['auth_shib_instructions'] = 'Benyt <a href=\"$a\">Shibboleth login</a> til at få adgang via Shibboleth, hvis din institution understøtter dette.<br />Ellers kan den normale loginmetode benyttes.';
-$string['auth_shib_instructions_help'] = 'Her bør du forklare brugere hvad Shibboleth er og hvordan de bruger det. Det vil blive vist på loginsiden i instruktionssektionen. Det bør indeholde et link til en Shibboleth beskyttet resource der stiller brugere videre til \"<b>$a</b>\" så Shibbolethbrugere kan logge ind i Moodle. Hvis den er blank vil standardinstruktioner blive vist. (ikke specielt for Shibboleth)';
+$string['auth_shib_instructions_help'] = 'Her bør du forklare brugere hvad Shibboleth er. Det vil blive vist på loginsiden i instruktionssektionen. Det skal indeholde et link til \"<b>$a</b>\" som brugerne kan klikke på nå de vil logge ind.';
 $string['auth_shib_only'] = 'Kun Shibboleth';
 $string['auth_shib_only_description'] = 'Benyt denne mulighed hvis Shibboleth-godkendelse skal gennemtvinges.';
 $string['auth_shib_username_description'] = 'Navnet på Shibboleth webserverens environment variabel der skal benyttes som Moodles brugernavn.';
-$string['auth_shibboleth_login'] = 'Shibboleth Login';
+$string['auth_shibboleth_login'] = 'Shibbolethlogin';
 $string['auth_shibboleth_manual_login'] = 'Manuelt login';
 $string['auth_shibboleth_select_member'] = 'Jeg er medlem af...';
+$string['auth_shibbolethdescription'] = 'Ved at benytte denne metode kan man forbinde Moodle til en eksisterende Shibboleth server for at checke og oprette nye brugerkonti.';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['auth_updatelocal'] = 'Opdater lokale data';
 $string['auth_updatelocal_expl'] = '<p><b>Opdater lokale data:</b> Hvis aktiveret vil felter blive opdateret (fra extern godkendelse) hver gang brugeren logger ind eller der er en brugersynkronisering. Felter der er sat til lokal opdatering bør ikke låses. </p>';
@@ -200,7 +203,7 @@ $string['auth_user_creation'] = 'Nye (anonyme) brugere kan blive oprettet vha. e
 $string['auth_usernameexists'] = 'Det valgte brugernavn eksistere allerede. Vælg venligst et andet.';
 $string['authenticationoptions'] = 'Godkendelses options';
 $string['authinstructions'] = 'Her kan du komme med anvisninger til dine brugere om, hvordan de skal oprette brugernavn og password. Teksten du skriver her, vil blive vist på loginsiden. Hvis du ikke skriver noget her, vil der ikke vises noget på loginsiden.';
-$string['auto_add_remote_users'] = 'Auto-tilføj fjernbrugere';
+$string['auto_add_remote_users'] = 'Tilføj fjernbrugere automatisk';
 $string['changepassword'] = 'Lav password URL om';
 $string['changepasswordhelp'] = 'Her kan du angive et sted, hvor dine brugere kan finde eller ændre deres brugernavn/password, hvis de har glemt det. Brugerne vil få vist en knap på login siden. Hvis du ikke skriver noget her, vil knappen ikke blive vist.';
 $string['chooseauthmethod'] = 'Vælg en godkendelses metode';
@@ -218,7 +221,7 @@ $string['passwordhandling'] = 'Behandling af passwordfelter';
 $string['plaintext'] = 'Alm. tekst';
 $string['shib_no_attributes_error'] = 'Du er blevet godkendt af Shibboleth men Moodle har ikke modtaget nogen brugeroplysninger. Kontroller venligst at din Identity Provider frigiver de nødvendige attributter ($a) til den Service Provider som Moodle kører på eller fortæl det til administratoren af webserveren.';
 $string['shib_not_all_attributes_error'] = 'Moodle kræver bestemte Shibboleth oplysninger som ikke er tilgængelige i dit tilfælde. Oplysningerne er: $a<br />Kontakt venligst Moodles administrator eller identifikationssystemets administrator.';
-$string['shib_not_set_up_error'] = 'Shibboleth-godkendelsen lader ikke til at være sat korrekt op. Se venligst a href=\"README.txt\">README</a> for yderlige instruktioner om hvordan Shibboleth-godkendelse konfigureres.';
+$string['shib_not_set_up_error'] = 'Shibboleth-godkendelsen lader ikke til at være sat korrekt op da der er Sibboleth-miljøvariable for denne side. Se venligst <a href=\"README.txt\">README</a> for yderlige instruktioner om hvordan Shibboleth-godkendelse konfigureres eller kontakt webmastere på denne moodleinstallation.';
 $string['showguestlogin'] = 'Du kan vise eller gemme gæste login knappen på login-siden.';
 $string['stdchangepassword'] = 'Brug standardsiden til skift af passwords';
 $string['stdchangepassword_expl'] = 'Hvis det eksterne godkendelsessystem tillader kodeskift gennem Moodle sæt denne indstilling til Ja. Denne indstilling overskriver \"Skift Password URL\".';
@@ -229,13 +232,6 @@ $string['update_never'] = 'Aldrig';
 $string['update_oncreate'] = 'Ved oprettelse';
 $string['update_onlogin'] = 'Ved hvert login';
 $string['update_onupdate'] = 'Ved opdatering';
-$string['auth_shibbolethdescription'] = 'Ved at benytte denne metode kan man forbinde Moodle til en eksisterende Shibboleth server for at checke og oprette nye brugerkonti.'; // ORPHANED
-
-
-// Strings below here are module specific and will be duplicated in auth_* files
-// Module specific language strings should also be copied into their respective
-// auth_*.php files to ensure compatibility in all versions of Moodle
-
-$string['sso_mnet_login_refused'] = 'Brugeren $a[0] har ikke tilladelse til at logge ind fra $a[1].';
+$string['sso_mnet_login_refused'] = 'Brugeren $a[0] har ikke tilladelse til at logge ind fra $a[1].'; // ORPHANED
 
 ?>

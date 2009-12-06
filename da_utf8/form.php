@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // form.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
 
 
 $string['addfields'] = 'Tilføj $a felter til formularen';
@@ -16,7 +16,7 @@ $string['err_nopunctuation'] = 'Du må ikke skrive grammatiske tegn her.';
 $string['err_numeric'] = 'Du skal skrive et tal her';
 $string['err_rangelength'] = 'Du skal skrive mellem {$a->format[0]} og {$a->format[1]} tegn her.';
 $string['err_required'] = 'Du skal angive en værdi her.';
-$string['general'] = 'Generelle indstillinger';
+$string['general'] = 'Generelt';
 $string['hideadvanced'] = 'Skjul avanceret';
 $string['hour'] = 'Time';
 $string['minute'] = 'Minut';
@@ -31,6 +31,7 @@ $string['security'] = 'Sikkerhed';
 $string['selectallornone'] = 'Vælg alle/ingen';
 $string['showadvanced'] = 'Vis avanceret';
 $string['somefieldsrequired'] = 'Felter markeret med $a <u>skal udfyldes</u>!';
+$string['unmaskpassword'] = 'Vis tegn';
 $string['year'] = 'År';
 
 ?>

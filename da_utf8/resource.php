@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 Beta 4 (2007101506)
+      // resource.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
 
 
 $string['addresource'] = 'Tilføj materiale';
@@ -53,7 +53,9 @@ $string['framesize'] = '\"Frame\"-størrelse';
 $string['fulltext'] = 'Fuld tekst';
 $string['htmlfragment'] = 'HTML del';
 $string['imspackageloaded'] = 'Pakken er loadet';
-$string['keepnavigationvisible'] = 'Hold sidenavigationen synlig på samme side';
+$string['keepnavigationvisible'] = 'Vis sidenavigationen';
+$string['keepnavigationvisibleyesframe'] = 'Ja, med ramme';
+$string['keepnavigationvisibleyesobject'] = 'Ja, uden ramme';
 $string['localfile'] = 'Lokal fil';
 $string['localfilechoose'] = 'Vælg en lokal fil (CD-ROM)';
 $string['localfilehelp'] = 'Hjælp ved at vise lokale filer.';
