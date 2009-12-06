@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
+      // grades.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
 
 
 $string['activities'] = 'פעילויות';
@@ -38,6 +38,7 @@ $string['aggregationcoefweight'] = 'משקל פריט';
 $string['aggregationcoefweighthelp'] = 'משקל ממשי לכל הציונים בפריט ציון זה במהך צבירה עם פריטי ציון אחרים.';
 $string['aggregationhelp'] = 'אסטרטגיה משתמשת לצבירת ציונים על-פני כל הסטודנטים בקורס.';
 $string['aggregationposition'] = 'מיקום הצבירה';
+$string['aggregationsvisible'] = 'זמינות סוגי צבירה';
 $string['aggregationview'] = 'מראה הצבירה';
 $string['allgrades'] = 'כל הציונים לפי קטגוריה';
 $string['allstudents'] = 'כל הסטודנטים';
