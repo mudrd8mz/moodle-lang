@@ -58,7 +58,7 @@
 <p>{a} et {b} apparaîssent dans la question et dans la formule correcte. Seules les variables dans la « Formule de la bonne réponse » peuvent être utilisées comme jokers remplacés par des nombres au lancement du test. De même, la bonne réponse est calculée lors de la validation du test au moyen de l'expression « Formule correcte ». La bonne réponse est calculée après remplacement des variables par des nombres, au début du test.</p>
 
 <p>La formule en exemple recourt à l'opérateur +. Les autres opérateurs acceptés sont - / * et % où % représente le modulo. On peut aussi employer des fonctions mathématiques issues de PHP. Parmi celles-ci figurent les 24 fonctions mono-argument suivantes :<br /><b>
-abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sprt, tan, tanh
+abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sqrt, tan, tanh
 </b><br />et deux fonctions à deux arguments :<br /><b>
 atan2, pow
 </b><br />et les fonctions <b>min</b> et <b>max</b> qui peuvent recevoir deux arguments ou plus. Il est aussi possible de recourir à la fonction <b>pi</b>, sans argument – mais n'oubliez pas les parenthèses, comme ceci : <b>pi()</b>. De même, dans les autres fonctions, les arguments doivent être placés entre parenthèses. Par exemple : <b>sin({a}) + cos({b}) * 2</b>. Il n'y a aucun obstacle à écrire des fonctions en cascade, telles que <b>cos(deg2rad({a} + 90))</b> etc.
