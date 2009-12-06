@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // admin.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
 
 
 $string['accessdenied'] = 'Adgang afvist';
@@ -82,7 +82,7 @@ $string['configdefaultallowedmodules'] = 'Hvilke moduler ønsker du at tillade s
 $string['configdefaultcourseroleid'] = 'Brugere der tilmeldes kurset tildeles automatisk denne rolle.';
 $string['configdefaultrequestcategory'] = 'Kurser der bliver efterspurgt af brugere vil automatisk blive placeret i denne kategori.';
 $string['configdefaultrequestedcategory'] = 'Hvilken kategori skal nye kurser som standard tilhøre når de bliver godkendt?';
-$string['configdefaultuserroleid'] = 'Alle, der er logget ind, vil få denne rolles bemyndigelser på siteniveau OVENI de andre roller de måtte have. Standardrollen er gæst. Bemærk at dette ikke konflikter med deres andre roller, det sikrer bare at alle har lov til at gøre noget meningsfuldt må siteniveau (som at læse i forummer og ressourcer mv.)';
+$string['configdefaultuserroleid'] = 'Alle, der er logget ind, vil få denne rolles bemyndigelser på siteniveau OVENI de andre roller de måtte have. Standardrollen er \"Godkendt bruger\" (eller \"Gæst\" i ældre versioner). Bemærk at dette ikke konflikter med deres andre roller, det sikrer bare at alle har tilladelse til andet end det, der kan gives tilladelse til på kursusniveau (som at læse i forummer, skrive blogindlæg, skrive i egen kalender mv.)';
 $string['configdeleteincompleteusers'] = 'Efter denne periode vil brugerkonti, der ikke er færdigoprettet, blive slettet.';
 $string['configdeleteunconfirmed'] = 'Hvis du bruger e-mail-autorisering er dette den periode som siden venter på svar fra en bruger. Hvis der ikke er modtaget svar inden for den fastlagte periode vil uautoriserede brugere blive slettet.';
 $string['configdenyemailaddresses'] = 'For at forbyde e-mail-adresser fra visse domæner kan de skrives her. Alle andre domæner er således OK. For at forbyde hotmail og yahoo adresser kan f.eks. skrives <strong>hotmail.com yahoo.com</strong>';
@@ -441,7 +441,7 @@ $string['pgclusterdescription'] = 'PostgreSQL version/cluster parameter til brug
 $string['php50restricted'] = 'PHP 5.0.x har nogle kendte fejl og problemer. Opgrader venligst til 5.1.x eller nedgradér til 4.3.x eller 4.4.x';
 $string['pleaserefreshregistration'] = 'Din side er registreret hos moodle.org. Overvej venligst at registrere igen, hvis der er sket større ændringer siden sidst, dvs. siden $a';
 $string['pleaseregister'] = 'Registrer venlist for at fjerne denne knap.';
-$string['plugins'] = 'Moduler';
+$string['plugins'] = 'Plugin';
 $string['profilecategory'] = 'Kategori';
 $string['profilecategoryname'] = 'Kategorinavn (skal være unikt)';
 $string['profilecategorynamenotunique'] = 'Dette navn bruges allerede i en anden kategori';
