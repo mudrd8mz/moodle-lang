@@ -834,7 +834,7 @@ Hvert av kursene kan også ha en påmeldingssnøkkel, men den trenger du ikke f�
 <li>Velg kurs du skal melde deg på.</li>
 <li>Hvis du blir bedt om en \'påmedingssnøkkel\', skriver du inn den som du har fått av læreren din. 
 Dette vil melde deg på kurset.</li>
-<li>Du har nå full tilgang til kurset. Fra nå av trenger du bare å logge deg på med ditt brukernavn og passord for å få tilgang til kurset. NB! Du bruker samme brukerkonto selv om du deltar på flere kurs!</li>
+<li>Fra nå av trenger du bare å logge deg på med ditt brukernavn og passord for å få tilgang til kurset. NB! Du bruker samme brukerkonto selv om du deltar på flere kurs!</li>
 </ol>';
 $string['loginstepsnone'] = '<p>Hei!</p><p>For å få full tilgang til kurs må du 
 opprette en konto.</p><p> Du må skrive et brukernavn og passord i dette skjemaet.</p><p>Hvis noen allerede har valgt brukernavnet du oppgir, må du prøve på nytt med et annet.</p>';
@@ -1091,7 +1091,7 @@ $string['passwordchanged'] = 'Passordet er endret';
 $string['passwordconfirmchange'] = 'Bekreft passordbytte';
 $string['passwordextlink'] = 'Følgende lenke tilbyes for at du kan gjenopprette ditt tapte passord. Dette vil ta deg ut av Moodle.';
 $string['passwordforgotten'] = 'Glemt passord';
-$string['passwordforgotteninstructions'] = 'Brukerinformasjonen din må først finnes fram fra Moodle databasen. Vær vennlig å legge inn <strong>enten</strong> ditt Moodle brukernavn eller den registerte epost-adressen i passende felt. Det er ikke behvor for at du legger inn begge deler.';
+$string['passwordforgotteninstructions'] = 'Brukerinformasjonen din må først finnes fram fra Moodle databasen. Vær vennlig å legge inn <strong>enten</strong> ditt Moodle brukernavn eller den registerte epost-adressen i passende felt. Det er ikke behov for at du legger inn begge deler.';
 $string['passwordnohelp'] = 'Ingen hjelp tilgjengelig for å finne ditt tapte passord. Vær vennlig kontakt din Moodle administrator.';
 $string['passwordrecovery'] = 'Ja, hjelp meg å logge inn';
 $string['passwordsdiffer'] = 'Passordene stemmer ikke overens';
