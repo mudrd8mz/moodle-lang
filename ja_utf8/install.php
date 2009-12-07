@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20090807) (2009080700)
+      // install.php - created with Moodle 2.0 dev (Build: 20091207) (2009112400)
 
 
 $string['admindirerror'] = '指定されたadminディレクトリが正しくありません。';
@@ -9,17 +9,10 @@ $string['admindirsetting'] = 'まれに、コントロールパネルまたは�
 $string['admindirsettinghead'] = '管理ディレクトリの設定中 ...';
 $string['admindirsettingsub'] = 'まれなケースですが /admin をコントロールパネルまたはその他のページにアクセスするための特別なURIとして使用しているウェブホストがあります。残念ですが、これは標準的なMoodle管理ページのロケーションと衝突します。あなたのインストールに関するadminディレクトリをリネームすることで、この衝突を回避できます。例えば: <br /> <br /><b>moodleadmin</b><br /> <br />
 これによりMoodleの管理ページへのリンクは修正されます。';
-$string['availablelangs'] = '利用可能な言語一覧';
 $string['caution'] = '警告';
 $string['chooselanguage'] = '言語を選択してください。';
 $string['chooselanguagehead'] = '言語を選択してください。';
 $string['chooselanguagesub'] = 'インストールのみに使用する言語を選択してください。この言語は、サイトのデフォルト言語としても使用されます。サイト言語は、後で変更することが可能です。';
-$string['cliadminpassword'] = '新しい管理者パスワード';
-$string['clialreadyinstalled'] = 'ファイルconfig.phpは、すでに登録されています。あなたのサイトをアップグレードしたい場合、admin/cli/upgrade.phpを使用してください。';
-$string['cliinstallfinished'] = 'インストールが正常に完了しました。';
-$string['cliinstallheader'] = 'Moodle $a コマンドライン・インストールプログラム';
-$string['climustagreelicense'] = '非インタラクティブモードでは、あなたは「--agree-license」オプションを指定することで、ライセンスに同意する必要があります。';
-$string['clitablesexist'] = 'データベーステーブルは、すでに作成されています。cliインストールを続けることはできません。';
 $string['compatibilitysettings'] = 'PHP設定を確認しています ...';
 $string['compatibilitysettingshead'] = 'PHP設定を確認しています ...';
 $string['compatibilitysettingssub'] = 'Moodleを適切に動作させるためには、あなたのサーバがこれらすべてのテストに通る必要があります。';
@@ -44,16 +37,6 @@ $string['databasecreationsettingssub'] = '<b>タイプ:</b> インストーラ�
 <b>ユーザ名:</b> インストーラーにより「root」に修正されました。<br />
 <b>パスワード:</b> あなたのデータベースパスワードです。<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用される任意の接頭辞です。';
-$string['databasecreationsettingssub2'] = '<b>タイプ:</b> インストーラーにより「mysqli」に修正されました。<br />
-<b>ホスト:</b> インストーラーにより「localhost」に修正されました。<br />
-<b>データベース名:</b> 例 moodle<br />
-<b>ユーザ名:</b> インストーラーにより「root」に修正されました。<br />
-<b>パスワード:</b> あなたのデータベースパスワードです。<br />
-<b>テーブル接頭辞:</b> すべてのテーブル名に使用される任意の接頭辞です。';
-$string['databasehead'] = 'データベース設定';
-$string['databasehost'] = 'データベースホスト :';
-$string['databasename'] = 'データベース名 :';
-$string['databasepass'] = 'データベースパスワード :';
 $string['databasesettings'] = 'ほとんどのMoodleデータが保存されるデータベース設定を行います。このデータベースは、アクセスするためのユーザ名およびパスワードとともにすでに作成されている必要があります。<br />
 <br /> <br />
 <b>タイプ:</b> mysql または postgres7<br />
@@ -112,10 +95,6 @@ $string['databasesettingssub_postgres7'] = '<b>タイプ:</b> PostgreSQL<br />
 <b>パスワード:</b> データベースのパスワード<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (必須)';
 $string['databasesettingswillbecreated'] = '<b>メモ:</b> データベースが存在していない場合、インストーラーはデータベースの自動作成を試みます。';
-$string['databasesocket'] = 'Unixソケット';
-$string['databasetypehead'] = 'データベースドライバを選択する';
-$string['databasetypesub'] = 'Moodeでは、いくつかのデータベースサーバのタイプをサポートします。どのタイプを使用するか分からない場合、サーバ管理者に連絡してください。';
-$string['databaseuser'] = 'データベースユーザ :';
 $string['dataroot'] = 'データディレクトリ';
 $string['datarooterror'] = 'あなたが指定した「データディレクトリ」が見つからないか、作成されませんでした。パスを訂正するか、ディレクトリを手動で作成してください。';
 $string['datarootpublicerror'] = 'あなたが指定した「データディレクトリ」は、ウェブ経由でアクセスすることができます。異なるディレクトリを使用してください。';
@@ -157,11 +136,8 @@ $string['downloadlanguagebutton'] = '「 $a 」言語パックをダウンロー
 $string['downloadlanguagehead'] = '言語パックのダウンロード';
 $string['downloadlanguagenotneeded'] = 'デフォルトの言語パック「 $a 」でインストール処理を続けることができます。';
 $string['downloadlanguagesub'] = 'あなたは、言語パックをダウンロードして、この言語でインストールを継続することができます。<br /><br />もし、あなたが言語パックをダウンロードできない場合、インストールは英語で継続されます。 (インストールの完了後、さらに言語パックをダウンロードして、インストールすることができます。)';
-$string['doyouagree'] = '同意しますか ? (yes/no):';
 $string['environmenthead'] = 'あなたの環境を確認しています ...';
 $string['environmentsub'] = 'あなたのシステムに関する様々な要素が、システム要件に合致するか確認しています。';
-$string['environmentsub2'] = 'それぞれのMoodleリリースには、PHPバージョンの最小必要条件および多くの必須PHP拡張モジュールがあります。完全な環境チェックは、インストールおよびアップグレードごとに実行されます。新しいPHPバージョンのインストールまたはPHP拡張モジュールの有効化に関して分からない場合、あなたのサーバ管理者に連絡してください。';
-$string['errorsinenvironment'] = '環境エラー!';
 $string['fail'] = '失敗';
 $string['fileuploads'] = 'ファイルアップロード';
 $string['fileuploadserror'] = 'これは有効にしてください。';
@@ -186,9 +162,6 @@ $string['globalsquoteshelp'] = '<p>Magic Quotes GPCの無効化およびRegister
 <p>あなたが php.ini にアクセスできない場合、Moodleディレクトリの中に .htaccess という名称のファイルを次のように記述することができます:</p>
 <blockquote><div>php_value magic_quotes_gpc On</div></blockquote>
 <blockquote><div>php_value register_globals Off</div></blockquote>';
-$string['inputdatadirectory'] = 'データディレクトリ :';
-$string['inputwebadress'] = 'ウェブアドレス :';
-$string['inputwebdirectory'] = 'Moodleディレクトリ :';
 $string['installation'] = 'インストレーション';
 $string['langdownloaderror'] = '残念ですが、言語「 $a 」がインストールされていません。インストール処理は英語で継続されます。';
 $string['langdownloadok'] = '言語「 $a 」が正常にインストールされました。インストール処理は、この言語で継続されます。';
@@ -220,37 +193,21 @@ $string['mysql'] = 'MySQL (mysql)';
 $string['mysqlextensionisnotpresentinphp'] = 'PHPのMySQL拡張モジュールが適切に設定されていないため、MySQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['mysqli'] = 'Improved MySQL (mysqli)';
 $string['mysqliextensionisnotpresentinphp'] = 'PHPのMySQLi拡張モジュールが適切に設定されていないため、MySQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。MySQLi拡張モジュールは、PHP4では使用できません。';
-$string['nativemysqli'] = 'Improved MySQL (ネイティブ/mysqli)';
-$string['nativemysqlihelp'] = 'あなたは、ほとんどのMoodleデータが保存されるデータベースを設定する必要があります。すでにデータベースユーザに必要なパーミッション、ユーザ名およびパスワードがある場合、データベースが作成されます。テーブル接頭辞は、任意です。';
-$string['nativeoci'] = 'Oracle (ネイティブ/oci)';
-$string['nativepgsql'] = 'PostgreSQL (ネイティブ/pgsql)';
-$string['nativepgsqlhelp'] = 'あなたは、ほとんどのMoodleデータが保存されるデータベースを設定する必要があります。このデータベースは、すでに作成されている必要があります。また、データベースにアクセスするため、ユーザ名およびパスワードも作成されている必要があります。テーブル接頭辞は、任意です。';
 $string['oci8po'] = 'Oracle (oci8po)';
 $string['ociextensionisnotpresentinphp'] = 'PHPのOCI8拡張モジュールが適切に設定されていないため、Oracleと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['odbc_mssql'] = 'SQL*Server over ODBC (odbc_mssql)';
 $string['odbcextensionisnotpresentinphp'] = 'PHPのODBC拡張モジュールが適切に設定されていないため、SQL*Serverと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
 $string['pass'] = 'パス';
-$string['paths'] = 'パス';
-$string['pathserrcreatedataroot'] = 'データディレクトリ ($a->dataroot) は、インストーラーで作成できません。';
-$string['pathshead'] = 'パスを確認する';
-$string['pathsrodataroot'] = 'datarootディレクトリに書き込み権がありません。';
-$string['pathsroparentdataroot'] = '親ディレクトリ ($a->parent) に書き込み権がありません。データディレクトリ ($a->dataroot) は、インストーラーで作成できません。';
-$string['pathssubadmindir'] = '極わずかですが、あなたがコントロールパネル等にアクセスするため、特別なURIとして/adminを使用するウェブホストがあります。残念なことに、これはMoodle管理ページの標準的なローケーションと競合してしまいます。ここに新しいディレクトリ名を入力することで、あなたのMoodleのadminディレクトリを修正することができます。例えば、<em>moodleadmin</em>です。これにより、Moodleのadminリンクが修正されます。';
-$string['pathssubdataroot'] = 'あなたには、Moodleがファイルをアップロードすることのできる場所が必要です。このディレクトリは、ウェブサーバユーザ (通常「nobody」または「apache」) から読み込みおよび「書き込み」できる必要があります。しかし、ウェブからは直接アクセスできないようにしてください。データディレクトリがない場合、インストーラーは作成を試みます。';
-$string['pathssubdirroot'] = 'Moodleインストールに関するフルディレクトリパスです。あなたがシンボリックリンクを使用する必要がある場合のみ変更してください。';
-$string['pathssubwwwroot'] = 'Moodleにアクセスすることのできるフルウェブアドレスです。複数アドレスを使用して、Moodleにアクセスすることはできません。あなたのサイトに複数のパブリックアドレスがある場合、このアドレスを除く、すべてのアドレスにパーマネントリダイレクトを設定してください。あなたのサイトにイントラネットおよびインターネットからアクセスできる場合、ここにはパブリックアドレスを入力してください。また、イントラネットユーザもパブリックアドレスを利用できるよう、DNSを設定してください。';
-$string['pathsunsecuredataroot'] = 'dirrootロケーションが安全ではありません。';
-$string['pathswrongadmindir'] = 'adminディレクトリがありません。';
-$string['pathswrongdirroot'] = 'dirrootロケーションが正しくありません。';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHPのPGSQL拡張モジュールが適切に設定されていないため、PostgreSQLと通信できません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
-$string['phpextension'] = '$a PHP拡張モジュール';
 $string['phpversion'] = 'PHPバージョン';
+$string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください (5.0.x には既知の多数の問題があります)。';
 $string['phpversionhelp'] = '<p>Moodleには、少なくとも 4.3.0 または 5.1.0 のPHPバージョンが必要です (5.0.x には既知の多数の問題があります)。</p>
 <p>現在、バージョン $a が動作しています。</p>
 <p>PHPをアップグレードするか、新しいバージョンがインストールされているホストに移動してください!<br />
 (5.0.x の場合、バージョン 4.4.x にダウングレードすることもできます。)</p>';
 $string['postgres7'] = 'PostgreSQL (postgres7)';
-$string['releasenoteslink'] = 'このバージョンのMoodleに関する情報は、$a のリリースノートをご覧ください。';
+$string['postgresqlwarning'] = '<strong>メモ:</strong> あなたが接続問題を経験している場合、「Host Server」フィールドに「
+host=\'postgresql_host\' port=\'5432\' dbname=\'postgresql_database_name\' user=\'postgresql_user\' password=\'postgresql_user_password\'」と入力して、「Database」「User」「Password」フィールドを空白にしてください。詳細は、<a href=\"http://docs.moodle.org/en/Installing_Postgres_for_PHP\">Moodle Docs</a>をご覧ください。';
 $string['safemode'] = 'セーフモード';
 $string['safemodeerror'] = 'セーフモードが有効の場合、Moodleに問題が発生する場合があります。';
 $string['safemodehelp'] = '<p>セーフモードが有効にされている場合、Moodleには様々な問題が発生する場合があります。 特に新しいファイルを作成することができません。</p>
@@ -261,8 +218,6 @@ $string['sessionautostarterror'] = 'これは無効にしてください。';
 $string['sessionautostarthelp'] = '<p>Moodleはセッションサポートを必要とします。また、セッションサポートなしでは動作しません。</p>
 <p>セッションは、php.iniファイルで有効にすることができます ... session.auto_startパラメータを探してください。</p>';
 $string['skipdbencodingtest'] = 'DBエンコーディングテストをスキップ';
-$string['sqliteextensionisnotpresentinphp'] = 'PHPのSQLite拡張モジュールが適切に設定されていません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。';
-$string['upgradingqtypeplugin'] = '問題/タイププラグインのアップグレード';
 $string['welcomep10'] = '$a->installername ($a->installerversion)';
 $string['welcomep20'] = 'インストールが正常に完了したため、このページをご覧いただいています。あなたのコンピュータで <strong>$a->packname $a->packversion</strong> パッケージを起動してください。おめでとうございます!';
 $string['welcomep30'] = 'このリリース <strong>$a->installername</strong> には、<strong>Moodle</strong> で環境を作成するアプリケーションが含まれています。すなわち:';
@@ -272,6 +227,54 @@ $string['welcomep60'] = '次からのページは、あなたのコンピュー�
 $string['welcomep70'] = '<strong>Moodle</strong>のセットアップを続けるには「次へ」ボタンをクリックしてください。';
 $string['wwwroot'] = 'ウェブアドレス';
 $string['wwwrooterror'] = '「ウェブアドレス」が正しくありません - インストール済みMoodleはそこに表示されません。下記の値はリセットされました。';
+$string['availablelangs'] = '利用可能な言語一覧'; // ORPHANED
+$string['cliadminpassword'] = '新しい管理者パスワード'; // ORPHANED
+$string['clialreadyinstalled'] = 'ファイルconfig.phpは、すでに登録されています。あなたのサイトをアップグレードしたい場合、admin/cli/upgrade.phpを使用してください。'; // ORPHANED
+$string['cliinstallfinished'] = 'インストールが正常に完了しました。'; // ORPHANED
+$string['cliinstallheader'] = 'Moodle $a コマンドライン・インストールプログラム'; // ORPHANED
+$string['climustagreelicense'] = '非インタラクティブモードでは、あなたは「--agree-license」オプションを指定することで、ライセンスに同意する必要があります。'; // ORPHANED
+$string['clitablesexist'] = 'データベーステーブルは、すでに作成されています。cliインストールを続けることはできません。'; // ORPHANED
+$string['databasecreationsettingssub2'] = '<b>タイプ:</b> インストーラーにより「mysqli」に修正されました。<br />
+<b>ホスト:</b> インストーラーにより「localhost」に修正されました。<br />
+<b>データベース名:</b> 例 moodle<br />
+<b>ユーザ名:</b> インストーラーにより「root」に修正されました。<br />
+<b>パスワード:</b> あなたのデータベースパスワードです。<br />
+<b>テーブル接頭辞:</b> すべてのテーブル名に使用される任意の接頭辞です。'; // ORPHANED
+$string['databasehead'] = 'データベース設定'; // ORPHANED
+$string['databasehost'] = 'データベースホスト :'; // ORPHANED
+$string['databasename'] = 'データベース名 :'; // ORPHANED
+$string['databasepass'] = 'データベースパスワード :'; // ORPHANED
+$string['databasesocket'] = 'Unixソケット'; // ORPHANED
+$string['databasetypehead'] = 'データベースドライバを選択する'; // ORPHANED
+$string['databasetypesub'] = 'Moodeでは、いくつかのデータベースサーバのタイプをサポートします。どのタイプを使用するか分からない場合、サーバ管理者に連絡してください。'; // ORPHANED
+$string['databaseuser'] = 'データベースユーザ :'; // ORPHANED
+$string['doyouagree'] = '同意しますか ? (yes/no):'; // ORPHANED
+$string['environmentsub2'] = 'それぞれのMoodleリリースには、PHPバージョンの最小必要条件および多くの必須PHP拡張モジュールがあります。完全な環境チェックは、インストールおよびアップグレードごとに実行されます。新しいPHPバージョンのインストールまたはPHP拡張モジュールの有効化に関して分からない場合、あなたのサーバ管理者に連絡してください。'; // ORPHANED
+$string['errorsinenvironment'] = '環境エラー!'; // ORPHANED
+$string['inputdatadirectory'] = 'データディレクトリ :'; // ORPHANED
+$string['inputwebadress'] = 'ウェブアドレス :'; // ORPHANED
+$string['inputwebdirectory'] = 'Moodleディレクトリ :'; // ORPHANED
+$string['nativemysqli'] = 'Improved MySQL (ネイティブ/mysqli)'; // ORPHANED
+$string['nativemysqlihelp'] = 'あなたは、ほとんどのMoodleデータが保存されるデータベースを設定する必要があります。すでにデータベースユーザに必要なパーミッション、ユーザ名およびパスワードがある場合、データベースが作成されます。テーブル接頭辞は、任意です。'; // ORPHANED
+$string['nativeoci'] = 'Oracle (ネイティブ/oci)'; // ORPHANED
+$string['nativepgsql'] = 'PostgreSQL (ネイティブ/pgsql)'; // ORPHANED
+$string['nativepgsqlhelp'] = 'あなたは、ほとんどのMoodleデータが保存されるデータベースを設定する必要があります。このデータベースは、すでに作成されている必要があります。また、データベースにアクセスするため、ユーザ名およびパスワードも作成されている必要があります。テーブル接頭辞は、任意です。'; // ORPHANED
+$string['paths'] = 'パス'; // ORPHANED
+$string['pathserrcreatedataroot'] = 'データディレクトリ ($a->dataroot) は、インストーラーで作成できません。'; // ORPHANED
+$string['pathshead'] = 'パスを確認する'; // ORPHANED
+$string['pathsrodataroot'] = 'datarootディレクトリに書き込み権がありません。'; // ORPHANED
+$string['pathsroparentdataroot'] = '親ディレクトリ ($a->parent) に書き込み権がありません。データディレクトリ ($a->dataroot) は、インストーラーで作成できません。'; // ORPHANED
+$string['pathssubadmindir'] = '極わずかですが、あなたがコントロールパネル等にアクセスするため、特別なURIとして/adminを使用するウェブホストがあります。残念なことに、これはMoodle管理ページの標準的なローケーションと競合してしまいます。ここに新しいディレクトリ名を入力することで、あなたのMoodleのadminディレクトリを修正することができます。例えば、<em>moodleadmin</em>です。これにより、Moodleのadminリンクが修正されます。'; // ORPHANED
+$string['pathssubdataroot'] = 'あなたには、Moodleがファイルをアップロードすることのできる場所が必要です。このディレクトリは、ウェブサーバユーザ (通常「nobody」または「apache」) から読み込みおよび「書き込み」できる必要があります。しかし、ウェブからは直接アクセスできないようにしてください。データディレクトリがない場合、インストーラーは作成を試みます。'; // ORPHANED
+$string['pathssubdirroot'] = 'Moodleインストールに関するフルディレクトリパスです。あなたがシンボリックリンクを使用する必要がある場合のみ変更してください。'; // ORPHANED
+$string['pathssubwwwroot'] = 'Moodleにアクセスすることのできるフルウェブアドレスです。複数アドレスを使用して、Moodleにアクセスすることはできません。あなたのサイトに複数のパブリックアドレスがある場合、このアドレスを除く、すべてのアドレスにパーマネントリダイレクトを設定してください。あなたのサイトにイントラネットおよびインターネットからアクセスできる場合、ここにはパブリックアドレスを入力してください。また、イントラネットユーザもパブリックアドレスを利用できるよう、DNSを設定してください。'; // ORPHANED
+$string['pathsunsecuredataroot'] = 'dirrootロケーションが安全ではありません。'; // ORPHANED
+$string['pathswrongadmindir'] = 'adminディレクトリがありません。'; // ORPHANED
+$string['pathswrongdirroot'] = 'dirrootロケーションが正しくありません。'; // ORPHANED
+$string['phpextension'] = '$a PHP拡張モジュール'; // ORPHANED
+$string['releasenoteslink'] = 'このバージョンのMoodleに関する情報は、$a のリリースノートをご覧ください。'; // ORPHANED
+$string['sqliteextensionisnotpresentinphp'] = 'PHPのSQLite拡張モジュールが適切に設定されていません。あなたのphp.iniファイルをチェックするか、PHPを再コンパイルしてください。'; // ORPHANED
+$string['upgradingqtypeplugin'] = '問題/タイププラグインのアップグレード'; // ORPHANED
 $string['aborting'] = 'インストール異常終了'; // ORPHANED
 $string['adminemail'] = 'メールアドレス :'; // ORPHANED
 $string['adminfirstname'] = '名 :'; // ORPHANED
@@ -294,7 +297,7 @@ $string['downloadlanguagepack'] = '言語パックをダウンロードします
 $string['downloadsuccess'] = '言語パックが正常にダウンロードされました。'; // ORPHANED
 $string['installationiscomplete'] = 'インストールが完了しました!'; // ORPHANED
 $string['invalidargumenthelp'] = 'エラー: 無効な引数
-使用方法: $php cliupgrade.php オプション
+使用方法: \$php cliupgrade.php オプション
 --help オプションを使用することで、さらにヘルプが表示されます。'; // ORPHANED
 $string['invalidemail'] = '無効なメールアドレス'; // ORPHANED
 $string['invalidhost'] = '無効なホスト'; // ORPHANED
@@ -333,7 +336,7 @@ $string['upgradinglocaldb'] = 'ローカルデータベースのアップグレ�
 $string['upgradingmessageoutputpluggin'] = 'メッセージ出力プラグインのアップグレード'; // ORPHANED
 $string['upgradingrpcfunctions'] = 'RPC機能のアップグレード'; // ORPHANED
 $string['usagehelp'] = '概要:
-$php cliupgrade.php オプション
+\$php cliupgrade.php オプション
 オプション
 --lang インストールに使用する有効なインストール済み言語パックです。デフォルトは、英語 (en) です。
 --webaddr Moodleサイトのウェブアドレスです。
@@ -359,7 +362,7 @@ $php cliupgrade.php オプション
 --adminemail 管理者のメールアドレスです。デフォルトは「root@localhost」です。
 --help このヘルプを出力します。
 使用方法:
-$php cliupgrade.php --lang=ja --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Example Moodle Site\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2'; // ORPHANED
+\$php cliupgrade.php --lang=ja --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Example Moodle Site\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2'; // ORPHANED
 $string['versionerror'] = 'バージョンエラーのため中断しました。'; // ORPHANED
 $string['welcometext'] = '---Moodleコマンドラインインストーラーへようこそ---'; // ORPHANED
 $string['writetoconfigfilefaild'] = 'エラー: config.phpファイルの書き込みに失敗しました。'; // ORPHANED
@@ -371,7 +374,6 @@ $string['databasesettingssub_sqlite3_pdo'] = '<b>タイプ:</b> SQLite 3 (PDO) <
 <b>パスワード:</b> データベースのパスワード (任意)<br />
 <b>テーブル接頭辞:</b> すべてのテーブル名に使用する接頭辞 (任意)<br />データベースファイル名は、上記ユーザ名、データベース名、パスワードにより決定されます。'; // ORPHANED
 $string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">実験用! (実稼動サイトには使用しないでください。)</strong></b>'; // ORPHANED
-$string['phpversionerror'] = 'PHPバージョンは少なくとも 4.3.0 または 5.1.0 をお使いください (5.0.x には既知の多数の問題があります)。'; // ORPHANED
 $string['unsafedirname'] = 'エラー: ディレクトリ名に安全でない文字が含まれています。有効な文字は、「a-zA-Z0-9_」です。'; // ORPHANED
 
 ?>

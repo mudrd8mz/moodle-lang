@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091202) (2009112400)
+      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091207) (2009112400)
 
 
+$string['aboutdemosite'] = '私たちのデモンストレーションサイトは、あなたが教師、学生、または管理者としてさえ試すことのできる、いくつかのサンプルコースを含むフルMoodleサイトです。';
 $string['aboutdemositetitle'] = 'デモンストレーションサイト';
+$string['aboutintro'] = 'Moodleは、オープンソースのコース管理システム (CMS - Course Management System)、学習管理システム (LMS - Learning Management System)、仮想学習環境 (VLE - Virtual Learning Environment) として知られています。生徒のためにオンライン上にダイナミックなウェブサイトを構築するツールとして、世界中の教育者に人気があります。Moodleを動作させるには、ウェブサーバ、あなたのコンピュータまたはウェブホスティング会社のサーバにインストールする必要があります。';
 $string['aboutoverviewtitle'] = 'Moodleとは?';
 $string['aboutstatisticstitle'] = '統計';
 $string['conferencecenter'] = 'Moodleカンファレンスセンター';
@@ -11,6 +13,7 @@ $string['contactintro'] = '次のコンタクトオプションから選択し�
 $string['contactmoodlecomhelpdesk'] = 'Moodle.comヘルプデスク';
 $string['contactmoodlecomtitle'] = 'Moodle.com';
 $string['contactmoodleorgtitle'] = 'Moodle.org';
+$string['contactsent'] = 'あなたのメッセージは、Eメール経由で、Moodle Community managerに送信されました。';
 $string['contactsupporttitle'] = 'サポート';
 $string['developercontributors'] = '謝辞';
 $string['developermeetings'] = '開発者ミーティング';
@@ -25,6 +28,7 @@ $string['downloadmodulestitle'] = 'モジュールおよびプラグイン';
 $string['downloadthemestitle'] = 'テーマ';
 $string['downloadwintitle'] = 'Moodle for Windows';
 $string['eventstitle'] = 'イベント';
+$string['frontpagewelcome1'] = 'Moodleは、オープンソースのコース管理システム (CMS - Course Management System)、学習管理システム (LMS - Learning Management System)、仮想学習環境 (VLE - Virtual Learning Environment) です。教育者が効果的な学習サイトを作成することのできる、フリーのウェブアプリケーションです。';
 $string['frontpagewelcometitle'] = 'Moodleコミュニティへようこそ!';
 $string['jobstitle'] = 'Moodleジョブ';
 $string['moodlecertification'] = 'Moodleサーティフィケーション';
@@ -62,6 +66,7 @@ $string['newsplanet'] = 'Planet Moodle';
 $string['newsrecent'] = '最新ニュース';
 $string['newssecurity'] = 'セキュリティニュース';
 $string['newssecuritydetail'] = 'セキュリティ問題に関する重要情報';
+$string['noenrolledcoursesyet'] = 'あなたは、まだこのサイトのコースに受講登録していません。';
 $string['overview'] = '概要';
 $string['overviewabout'] = 'Moodleに関する概要';
 $string['overviewcommunity'] = 'Moodleコミュニティに関する概要';
