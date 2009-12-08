@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091207) (2009112400)
+      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091208) (2009112400)
 
 
 $string['aboutdemosite'] = '私たちのデモンストレーションサイトは、あなたが教師、学生、または管理者としてさえ試すことのできる、いくつかのサンプルコースを含むフルMoodleサイトです。';
@@ -8,6 +8,9 @@ $string['aboutintro'] = 'Moodleは、オープンソースのコース管理シ�
 $string['aboutoverviewtitle'] = 'Moodleとは?';
 $string['aboutstatisticstitle'] = '統計';
 $string['conferencecenter'] = 'Moodleカンファレンスセンター';
+$string['connectedsites'] = 'いくつかのMoodleサイトは、Moodleネットワーキングを使用して、moodle.orgに接続しています。あなたがここで認証した場合、それらのサイトに直接ログインすることができます。';
+$string['connectedsitestitle'] = '接続サイト';
+$string['contactbugs'] = 'Moodle Trackerに投稿することで、あなたは、Moodleソフトウェアおよびmoodle.orgサイトに関する問題を報告することができます。';
 $string['contactbugstitle'] = 'バグレポート';
 $string['contactintro'] = '次のコンタクトオプションから選択してください:';
 $string['contactmoodlecomhelpdesk'] = 'Moodle.comヘルプデスク';
@@ -25,6 +28,7 @@ $string['downloadlangtitle'] = '言語パック';
 $string['downloadlogotitle'] = 'Moodleロゴ';
 $string['downloadmactitle'] = 'Moodle for Mac OS X';
 $string['downloadmodulestitle'] = 'モジュールおよびプラグイン';
+$string['downloadthemes'] = '異なるテーマを使用することで、Moodleサイトのアピアランスを劇的に変更することができます。私たちは、Moodleユーザが作成および共有しているテーマのデータベースを保持しています。';
 $string['downloadthemestitle'] = 'テーマ';
 $string['downloadwintitle'] = 'Moodle for Windows';
 $string['eventstitle'] = 'イベント';
@@ -84,10 +88,12 @@ $string['supportdocs1'] = '始めるには、Moodle Docs、特に私たちの「
 $string['supportdocsfaq'] = 'よくある質問';
 $string['supportdocslang'] = '他の言語のMoodle Docs';
 $string['supportdocstitle'] = 'ドキュメンテーション';
+$string['supportforumsenglish'] = 'ユーザおよび開発者間でサポートおよび開発に関して、英語でディスカッションするための主要な場所です:';
 $string['supportforumsenglishname'] = 'Using Moodle';
 $string['supportforumslang'] = '英語でMoodlerが交流する主要フォーラム:';
 $string['supportforumslangname'] = 'Moodle Lounge';
 $string['supportforumslangurl'] = 'http://moodle.org/course/view.php?id=55';
+$string['supportforumslist'] = '私たちには、多くの言語で、他にも多くのフォーラムがあります:';
 $string['supportforumslistname'] = 'すべてのフォーラムの一覧';
 $string['supportforumstitle'] = 'フォーラム';
 $string['supportintro'] = 'あなたは、ひとりではありません! 必要であれば、あなたがMoodleに関して、助けを得る様々な方法があります。';
