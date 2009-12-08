@@ -671,7 +671,7 @@ Dette programmet distribueres med håp om at det blir nyttig, men UTEN NOEN GARA
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE\". Se \"GNU General Public License\" for flere detaljer:
 http://www.gnu.org/copyleft/gpl.html';
 $string['grade'] = 'Karakter';
-$string['grades'] = 'Karakterer';
+$string['grades'] = 'Karakterbok';
 $string['group'] = 'Gruppe';
 $string['groupadd'] = 'Legg til ny gruppe';
 $string['groupaddusers'] = 'Legg den/de valgte til gruppen';

@@ -421,8 +421,8 @@ $string['globalsquoteswarning'] = '<p><strong>Sikkerhetsadvarsen</strong>: For �
 $string['globalswarning'] = '<p><strong>Sikkerhetsadvarsel</strong>: for å virke ordentlig trenger Moodle <br />at du gjør enkelte endringer i din nåværende PHP-innstillinger.<p/><p>Du <em>må</em> sette <code>register_globals=off</code>.<p>Denne innstillingen redigeres ved å endre din <code>php.ini</code>fil, Apache/IIS <br />konfigurasjon eller  <code>.htaccess</code> file.</p>';
 $string['googlemapkey'] = 'Google Maps API nøkkel';
 $string['gotofirst'] = 'Gå til første manglende streng';
-$string['gradebook'] = 'Vurderingsbok';
-$string['gradebookroles'] = 'Vurderingsroller';
+$string['gradebook'] = 'Karakterbok';
+$string['gradebookroles'] = 'Roller i karakterboka';
 $string['gradeexport'] = 'Primære eksportmetode for karakterer';
 $string['guestroleid'] = 'Gjesterolle';
 $string['helpadminseesall'] = 'Ser administratorer alle hendelser i kalenderen eller kun dem som angår dem selv?';
