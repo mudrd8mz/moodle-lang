@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // forum.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
 
 
 $string['addanewdiscussion'] = 'Tilføj en ny tråd';
@@ -69,7 +69,7 @@ $string['editedby'] = 'Rettet af $a->name - $a->date';
 $string['editing'] = 'Redigerer';
 $string['emptymessage'] = 'Der var noget galt med dit indlæg.  Måske har du ikke skrevet noget eller er den vedhæftede fil for stor.  Dine ændringer er IKKE blevet gemt.';
 $string['everyonecanchoose'] = 'Alle kan vælge at abonnere';
-$string['everyonecannowchoose'] = 'Nu kan alle vælge at abonnere';
+$string['everyonecannowchoose'] = 'Alle kan vælge at abonnere';
 $string['everyoneisnowsubscribed'] = 'Nu er alle abonnenter på dette forum';
 $string['everyoneissubscribed'] = 'Alle er abonnenter på forummet';
 $string['existingsubscribers'] = 'Eksisterende abonnenter';
