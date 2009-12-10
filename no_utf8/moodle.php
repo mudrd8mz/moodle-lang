@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -159,6 +159,7 @@ $string['backuplogdetailed'] = 'Detaljert logg for sikkerhetskopiering';
 $string['backuploglaststatus'] = 'Logg for siste sikkerhetkopiering';
 $string['backuplogshelp'] = 'Hvis dette slås på, blir loggene tatt med i automatiske sikkerhetskopier';
 $string['backupmetacoursehelp'] = 'Hvis du slår på denne, blir informasjon om metakurs inkludert i automatiske sikkerhetskopier';
+$string['backupmissinguserinfoperms'] = 'MERK: Denne sikkerhetskopien inneholder ingen brukerdata. Øvelse og Workshop aktiviteter vil ikke tas med i sikkerhetskopien, siden disse to modulene ikke er kompatible med denne typen sikkerhetskopi.';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnext'] = 'Neste sikkerhetskopiering';
 $string['backupnoneusersinfo'] = 'OBS: Du har valgt å lage en sikkerhetskopi uten brukere, så alle modulene er stilt inn på kopiering \"uten brukerdata\". Vær oppmerksom på at modulene \"oppgave\" og \"workshop\" ikke er forenlige med denne formen for sikkerhetskopiering, og at de derfor har blitt utelatt fra prosessen.';
@@ -606,6 +607,8 @@ $string['firstaccess'] = 'Første innlogging';
 $string['firstdayofweek'] = 'O';
 $string['firstname'] = 'Fornavn';
 $string['firsttime'] = 'Er det første gang du er her?';
+$string['flashlinkmessage'] = 'Vennligst oppgradér Flash-avspilleren din nå:';
+$string['flashupgrademessage'] = 'Det kreves en Flash-avspiller for å vise dette innholdet, men versjonen du har er utdatert.';
 $string['folder'] = 'Mappe';
 $string['folderclosed'] = 'Lukket mappe';
 $string['folderopened'] = 'Åpen mappe';
@@ -1040,7 +1043,7 @@ $string['noteuserschangednonetocourse'] = 'OBS: Brukerkontoene må også gjenopp
 $string['nothingnew'] = 'Ingenting nytt siden sist du var her';
 $string['nothingtodisplay'] = 'Ingenting å vise';
 $string['notice'] = 'Merknad';
-$string['noticenewerbackup'] = 'Denne sikkerhetskopien er laget med Moodle $a->backuprelease ($a->backupversion) og den er nyere enn den versjonen av Moodle du har installert, $a-<serverrelease ($a->serverversion). Siden nye moduler ikke alltid kan brukes på eldre versjoner, kan dette føre til problemer.';
+$string['noticenewerbackup'] = 'Denne sikkerhetskopien er laget med Moodle $a->backuprelease ($a->backupversion) og den er nyere enn den versjonen av Moodle du har installert, \$a-<serverrelease ($a->serverversion). Siden nye moduler ikke alltid kan brukes på eldre versjoner, kan dette føre til problemer.';
 $string['notifications'] = 'Meldinger';
 $string['notify'] = 'OBS';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Bruker: $a->info';

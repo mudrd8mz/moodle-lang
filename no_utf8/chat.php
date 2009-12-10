@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // chat.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['autoscroll'] = 'Rull skjermbildet automatisk';
@@ -34,6 +34,9 @@ $string['explainmethodnormal'] = 'Disse innstillingene gjelder <strong>bare</str
 $string['generalconfig'] = 'generelt oppsett';
 $string['helpchatting'] = 'Hjelp til å prate';
 $string['idle'] = 'Uvirksom';
+$string['list_all_sessions'] = 'Vis alle sesjoner';
+$string['list_complete_sessions'] = 'Vis bare avsluttede sesjoner';
+$string['listing_all_sessions'] = 'Viser alle sesjonene';
 $string['messagebeepseveryone'] = '$a tut til alle';
 $string['messagebeepsyou'] = '$a har tutet på deg';
 $string['messageenter'] = '$a har akkurat kommet';
@@ -46,6 +49,7 @@ $string['modulename'] = 'Prat';
 $string['modulenameplural'] = 'Praterom';
 $string['neverdeletemessages'] = 'Slett aldri meldinger';
 $string['nextsession'] = 'Neste avtalte prat';
+$string['no_complete_sessions_found'] = 'Fant ingen avsluttede sesjoner.';
 $string['noguests'] = 'Denne praten er ikke åpen for gjester';
 $string['nomessages'] = 'Ingen beskjeder ennå';
 $string['normalkeepalive'] = 'Hold i live';

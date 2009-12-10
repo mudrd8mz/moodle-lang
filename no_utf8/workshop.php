@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.7.1+ (2006101010)
+      // workshop.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+
+
 $string['absent'] = 'Fraværende';
 $string['accumulative'] = 'Akkumulerende';
 $string['action'] = 'Handling';
@@ -221,6 +223,7 @@ $string['releaseteachergrades'] = 'Offentliggjør lærerens karakterer';
 $string['removeallattachments'] = 'Fjern alle vedlegg';
 $string['repeatanalysis'] = 'Gjenta analyse';
 $string['reply'] = 'Svar';
+$string['resetworkshopall'] = 'Slett innleveringer, karakterer og vurderinger';
 $string['returnto'] = 'Gå tilbake til';
 $string['returntosubmissionpage'] = 'Gå tilbake til siden for innlevering';
 $string['rubric'] = 'Rubrikk';
@@ -321,4 +324,5 @@ $string['yourassessments'] = 'Dine vurderinger';
 $string['yourassessmentsofexamplesfromtheteacher'] = 'Dine vurderinger av eksempler fra $a';
 $string['yourfeedbackgoeshere'] = 'Skriv din tilbakemelding her';
 $string['yoursubmissions'] = 'Dine innleveringer';
+
 ?>

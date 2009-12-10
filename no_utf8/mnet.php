@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.6+ (Build: 20091121) (2007101563)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (egensignert)';
@@ -54,6 +54,7 @@ $string['expires'] = 'Gyldig til';
 $string['expireyourkey'] = 'Slett denne nøkkelen';
 $string['expireyourkeyexplain'] = 'Moodle roterer automatisk dine nøkler hver 28.dag (standard), men du har muligheten til å <em>manuelt</em> skifte ut nøkkelen når som helst. Dette er først og fremst nyttig når nøkkelen er blitt kjent for uvedkommende. En erstatningsnøkkel blir generert umiddelbart. <br/>Hvis du sletter denne nøkkelen blir det umulig for andre Moodle-verter å kommunisere med deg, inntil du kontakter hver enkelt administrator og gir dem den nye nøkkelen.';
 $string['failedaclwrite'] = 'Oppdatering av MNET tilgangskontroll mislykkes for brukeren \'$a\'.';
+$string['findlogin'] = 'Finn Login';
 $string['forbidden-function'] = 'Denne funksjonen er ikke aktivert for RPC.';
 $string['forbidden-transport'] = 'Transportmetoden du prøver å bruke er ikke tillatt.';
 $string['forcesavechanges'] = 'Tving lagre endringer';
@@ -97,6 +98,8 @@ $string['mnet_concatenate_strings'] = 'Bearbeid (opptil) 3 strenger og returner 
 $string['mnet_session_prohibited'] = 'Brukere fra din hjemmeserver har ikke adgang til å koble opp mot $a.';
 $string['mnetdisabled'] = 'Moodle Nettverk er <strong>slått av</strong>.';
 $string['mnetenrol'] = 'Påmeldinger';
+$string['mnetidprovider'] = 'MNET ID-tilbyder';
+$string['mnetidprovidermsg'] = 'Du bør nå kunne logge inn hos din $a tilbyder.';
 $string['mnetlog'] = 'Logger';
 $string['mnetpeers'] = 'Andre verter';
 $string['mnetservices'] = 'Tjenester';
