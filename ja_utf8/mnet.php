@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20091210) (2009112400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -97,6 +97,8 @@ $string['mnet_concatenate_strings'] = '最大3個のストリングを連結し�
 $string['mnet_session_prohibited'] = 'あなたのホームサーバのユーザは、現在 $a の散策を許可されていません。';
 $string['mnetdisabled'] = 'Moodleネットワーキングが<strong>無効</strong>にされています。';
 $string['mnetenrol'] = '登録';
+$string['mnetidprovider'] = 'MNET IDプロバイダ';
+$string['mnetidprovidermsg'] = 'あなたは、 $a プロバイダにログインすることができます。';
 $string['mnetlog'] = 'ログ';
 $string['mnetpeers'] = 'ピア';
 $string['mnetservices'] = 'サービス';

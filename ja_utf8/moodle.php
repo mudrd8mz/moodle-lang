@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091202) (2009112400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091210) (2009112400)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -159,6 +159,7 @@ $string['backuplogdetailed'] = '詳細実行ログ';
 $string['backuploglaststatus'] = '最新実行ログ';
 $string['backuplogshelp'] = 'このオプションを有効にした場合、コースログが自動バックアップに含まれます。';
 $string['backupmetacoursehelp'] = 'このオプションを有効にした場合、メタコース情報 (ユーザ登録情報の継承) は自動バックアップに含まれます。';
+$string['backupmissinguserinfoperms'] = '注意: このバックアップには、ユーザデータが含まれていません。また、このタイプのバックアップに互換性がないため、エクササイズおよびワークショップは、バックアップに含まれません。';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnext'] = '次のバックアップ';
 $string['backupnoneusersinfo'] = '注意: あなたはユーザをバックアップしない (「なし」) を選択をしました。すべてのモジュールのバックアップは「ユーザデータを含まないモード」に変更されました。「エクササイズ」および「ワークショップ」モジュールは、このタイプのバックアップと互換性が無いため、これらのモジュールのバックアップは完全に解除されました。';
