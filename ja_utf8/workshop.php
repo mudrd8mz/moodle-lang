@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 2.0 dev (Build: 20080622) (2008051203)
+      // workshop.php - created with Moodle 2.0 dev (Build: 20091210) (2009112400)
 
 
 $string['absent'] = '欠席';
@@ -223,6 +223,7 @@ $string['releaseteachergrades'] = '教師評定の公開日時';
 $string['removeallattachments'] = 'すべての添付ファイルを削除する';
 $string['repeatanalysis'] = '分析を繰り返す';
 $string['reply'] = '返事';
+$string['resetworkshopall'] = '提出課題、評定および評価を削除する';
 $string['returnto'] = '戻る';
 $string['returntosubmissionpage'] = '登録ページに戻る';
 $string['rubric'] = 'ルーブリック';
