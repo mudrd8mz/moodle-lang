@@ -1,7 +1,5 @@
 <?php // $Id$
 
-
-
 $string['absent'] = 'Absent';
 $string['accumulative'] = 'Cumulative';
 $string['action'] = 'Action';
@@ -225,6 +223,7 @@ $string['releaseteachergrades'] = 'Délivrer les notes de l\'enseignant';
 $string['removeallattachments'] = 'Supprimer toutes les annexes';
 $string['repeatanalysis'] = 'Répéter l\'analyse';
 $string['reply'] = 'Réponse';
+$string['resetworkshopall'] ='Supprimer les documents, notes et évaluations';
 $string['returnto'] = 'Retour à';
 $string['returntosubmissionpage'] = 'Revenir à la page de remise des travaux';
 $string['rubric'] = 'Par rubrique';
