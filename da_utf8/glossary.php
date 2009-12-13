@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // glossary.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
 
 
 $string['addcomment'] = 'Tilføj kommentar';
@@ -19,6 +19,7 @@ $string['areyousuredeletecomment'] = 'Er du sikker på at du vil slette denne ko
 $string['areyousureexport'] = 'Er du sikker på at du vil eksportere dette indlæg til';
 $string['ascending'] = 'stigende';
 $string['attachment'] = 'Bilag';
+$string['author'] = 'forfatter';
 $string['authorview'] = 'Sorter efter forfatter';
 $string['back'] = 'Tilbage';
 $string['cantinsertcat'] = 'Kan ikke indsætte kategori';
@@ -52,8 +53,11 @@ $string['concept'] = 'Opslagsord';
 $string['concepts'] = 'Opslagsord';
 $string['configenablerssfeeds'] = 'Skal RSS-feed være muligt for alle opslagsværker? Du skal stadig slå det til for hvert opslagsværk.';
 $string['currentglossary'] = 'Nuværende ordbog';
+$string['date'] = 'dato';
 $string['dateview'] = 'Vis efter dato';
 $string['defaultapproval'] = 'Opslagsord godkendes automatisk (uden lærermedvirken)';
+$string['defaultsortkey'] = 'Standard sorteringsnøgle';
+$string['defaultsortorder'] = 'Standard sorteringsorden';
 $string['definition'] = 'Definition';
 $string['definitions'] = 'Definitioner';
 $string['deleteentry'] = 'Slet opslagsord';
@@ -73,7 +77,7 @@ $string['displayformatfullwithoutauthor'] = '5. Fuldt men uden forfatter';
 $string['displayformats'] = 'visnings formater';
 $string['displayformatssetup'] = 'Vis formaterings opsætning';
 $string['duplicateentry'] = 'Dubletter';
-$string['editalways'] = 'Ret altid';
+$string['editalways'] = 'Kan redigeres';
 $string['editcategories'] = 'Ret kategorier';
 $string['editentry'] = 'Ret opslagsord';
 $string['editingcomment'] = 'Ret kommentar';
@@ -96,11 +100,12 @@ $string['erredittimeexpired'] = 'Redigeringstiden er udløbet.';
 $string['explainaddentry'] = 'Tilføj et nyt opslagsord til opslagsværket. <br />Opslagsord og definition skal altid udfyldes!';
 $string['explainall'] = 'Vis ALLE opslagsord på en side';
 $string['explainalphabet'] = 'Vælg kronologi og filtrer efter første bogstav i forfatterens navn';
-$string['explainexport'] = 'Der er genereret en fil<br>Download den og gem den sikkert. Du kan importere den når som helst du ønsker til dette eller andre kurser';
+$string['explainexport'] = 'Exporter oplagsord ved at klikke på knappen nedenfor.<br /> Du kan når som helst importere den til dette eller andre kurser.<p>Bemærk at bilag (f.eks. billeder) og forfattere ikke eksporteres.</p>r';
 $string['explainimport'] = 'Angiv hvilken fil der skal importeres og definer kriterierne for processen.';
 $string['explainspecial'] = 'Vis opslagsord der ikke begynder med et bogstav';
 $string['exportedentry'] = 'Eksporteret opslagsord';
 $string['exportentries'] = 'Eksporter opslagsord';
+$string['exportentriestoxml'] = 'Eksporter opslagsord til en xml-fil';
 $string['exportfile'] = 'Eksporter opslagsord til en fil';
 $string['exportglossary'] = 'Eksporter opslagsværk';
 $string['exporttomainglossary'] = 'Eksporter til hovedopslagsværk';
@@ -126,7 +131,9 @@ $string['importcategories'] = 'Importer kategorier';
 $string['importedcategories'] = 'Importerede kategorier';
 $string['importedentries'] = 'Importerede indlæg';
 $string['importentries'] = 'Importer opslagsord';
+$string['importentriesfromxml'] = 'Importer opslag fra xml-fil';
 $string['isglobal'] = 'Er dette opslagsværk globalt?';
+$string['letter'] = 'bogstav';
 $string['linkcategory'] = 'Link automatisk til denne kategori';
 $string['linking'] = 'Auto-linking';
 $string['mainglossary'] = 'Hovedopslagsværk';
@@ -145,6 +152,7 @@ $string['noentry'] = 'Ingen opslagsord fundet.';
 $string['notcategorised'] = 'Ikke kategoriseret';
 $string['numberofentries'] = 'Antal opslagsord';
 $string['onebyline'] = '(en per linje)';
+$string['popupformat'] = 'Popup-format';
 $string['printerfriendly'] = 'Printervenlig udgave';
 $string['printviewnotallowed'] = 'Printervenlig visning ikke tilladt';
 $string['question'] = 'Spørgsmål';

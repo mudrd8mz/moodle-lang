@@ -1556,7 +1556,7 @@ $string['version'] = 'Version';
 $string['view'] = 'Vis';
 $string['views'] = 'Visninger';
 $string['viewsolution'] = 'vis løsning';
-$string['virusfound'] = 'Administrator bemærkning! Clam AntiViris har fundet en virus i filen uploadet af $a->user i kurset $a->course. Her er et print af Clam\'s scanning.';
+$string['virusfound'] = 'Administrator bemærkning! Clam AntiVirus har fundet en virus i filen uploadet af $a->user i kurset $a->course. Her er et print af Clam\'s scanning.';
 $string['virusfoundlater'] = 'En fil uploadet d. $a->date med filnavnet $a->filename i kurset $a->course er efterfølgende konstateret inficeret med virus. Her er en beskrivelse af hvad der videre er sket med filen: $a->action Hvis det var en afleveringsopgave er det en god ide at dobbelttjekke filen for virus og uploade den igen så underviseren kan se den.';
 $string['virusfoundlateradmin'] = 'En fil uploadet d. $a->date med filnavnet $a->filename i kurset $a->course af brugeren $a->user, er efterfølgende konstateret inficeret med virus. Her er en beskrivelse af hvad der videre er sket med filen:
 
@@ -1569,7 +1569,7 @@ Her er en beskrivelse af hvad der videre er sket med filen:
 $a->action';
 $string['virusfoundsubject'] = '$a: Virus Fundet !';
 $string['virusfounduser'] = 'Der er fundet en mulig virus i den fil du uploadede: $a->filename. Filen er ikke uploadet korrekt.';
-$string['virusplaceholder'] = 'Der er fundet virus i den fil der er blevet uploadet. Filen er blevet flyttet eller slettet og bruger er blevet underrettet.';
+$string['virusplaceholder'] = 'Der er fundet virus i den fil der er blevet uploadet. Filen er blevet flyttet eller slettet og brugeren er blevet underrettet.';
 $string['visible'] = 'Synlig';
 $string['visibletostudents'] = 'Synlig for $a';
 $string['warningdeleteresource'] = 'Advarsel: $a er refereret til som en ressource. Ønsker du at opdatere den ressource?';
