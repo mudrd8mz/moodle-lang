@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091208) (2009112400)
+      // moodle.org.php - created with Moodle 2.0 dev (Build: 20091213) (2009112400)
 
 
 $string['aboutdemosite'] = '私たちのデモンストレーションサイトは、あなたが教師、学生、または管理者としてさえ試すことのできる、いくつかのサンプルコースを含むフルMoodleサイトです。';
@@ -15,25 +15,32 @@ $string['contactbugstitle'] = 'バグレポート';
 $string['contactintro'] = '次のコンタクトオプションから選択してください:';
 $string['contactmoodlecomhelpdesk'] = 'Moodle.comヘルプデスク';
 $string['contactmoodlecomtitle'] = 'Moodle.com';
+$string['contactmoodleorglogin'] = 'このサイトにログインする';
+$string['contactmoodleorgother'] = '他のすべての質問は、以下のコンタクトフォームを使用してください。';
 $string['contactmoodleorgtitle'] = 'Moodle.org';
+$string['contactsecurity'] = 'セキュリティに関する問題は、安全にTrackerに投稿することができます。投稿する場合、適切なセキュリティレベルを設定してください。';
 $string['contactsent'] = 'あなたのメッセージは、Eメール経由で、Moodle Community managerに送信されました。';
 $string['contactsupporttitle'] = 'サポート';
 $string['developercontributors'] = '謝辞';
+$string['developerlist'] = '書き込み権限を持った開発者の完全リスト';
 $string['developermeetings'] = '開発者ミーティング';
 $string['developerstitle'] = '開発者';
 $string['developmentdocstitle'] = '開発者ドキュメンテーション';
 $string['donationstitle'] = '寄付';
 $string['downloadcoretitle'] = '標準Moodleパッケージ';
+$string['downloadcvstitle'] = 'Moodle via CVS';
 $string['downloadlangtitle'] = '言語パック';
 $string['downloadlogotitle'] = 'Moodleロゴ';
 $string['downloadmactitle'] = 'Moodle for Mac OS X';
 $string['downloadmodulestitle'] = 'モジュールおよびプラグイン';
 $string['downloadthemes'] = '異なるテーマを使用することで、Moodleサイトのアピアランスを劇的に変更することができます。私たちは、Moodleユーザが作成および共有しているテーマのデータベースを保持しています。';
 $string['downloadthemestitle'] = 'テーマ';
+$string['downloadwin'] = 'あなたがウェブサーバを設定していない場合、これらのオールインワン・パッケージにより、Microsoft Windowsが動作するパソコンすべてに対して、簡単にMoodleをインストールすることができます。';
 $string['downloadwintitle'] = 'Moodle for Windows';
 $string['eventstitle'] = 'イベント';
 $string['frontpagewelcome1'] = 'Moodleは、オープンソースのコース管理システム (CMS - Course Management System)、学習管理システム (LMS - Learning Management System)、仮想学習環境 (VLE - Virtual Learning Environment) です。教育者が効果的な学習サイトを作成することのできる、フリーのウェブアプリケーションです。';
 $string['frontpagewelcometitle'] = 'Moodleコミュニティへようこそ!';
+$string['generaldeveloperforum'] = '一般開発者フォーラム';
 $string['jobstitle'] = 'Moodleジョブ';
 $string['moodlecertification'] = 'Moodleサーティフィケーション';
 $string['moodleconsulting'] = 'Moodleコンサルティング';

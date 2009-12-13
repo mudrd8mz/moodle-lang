@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20091210) (2009112400)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20091213) (2009112400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -54,6 +54,7 @@ $string['expires'] = '有効期限';
 $string['expireyourkey'] = 'この公開鍵を削除する';
 $string['expireyourkeyexplain'] = 'Moodleは (デフォルトで) 28日ごとに自動的に公開鍵をローテートしますが、あなたはこの公開鍵をいつでも「手動で」失効させることができます。これは、あなたがこのキーを信用できなくなった場合のみ有用です。公開鍵の交換は、即座に自動実行されます。<br />この公開鍵を削除することで、あなたが手動でそれぞれのMoodle管理者に連絡して新しいキーを提供するまで、他のMoodleと通信できなくなります。';
 $string['failedaclwrite'] = 'ユーザ「 $a 」に関するMNETアクセスコントロールリストの書き込みに失敗しました。';
+$string['findlogin'] = 'ログインを探す';
 $string['forbidden-function'] = 'この機能はRPCに対して有効にされていません。';
 $string['forbidden-transport'] = 'あなたが使用を試みているトランスポートメソッドは、許可されていません。';
 $string['forcesavechanges'] = '強制的に変更を保存する';
