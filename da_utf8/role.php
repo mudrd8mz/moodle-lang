@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // role.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
 
 
 $string['addrole'] = 'Tilføj rolle';
@@ -8,8 +8,9 @@ $string['allowassign'] = 'Tillad rolletildeling';
 $string['allowoverride'] = 'Tillad tilsidesættelse af roller';
 $string['allsiteusers'] = 'Alle brugere på sitet';
 $string['assignglobalroles'] = 'Tildel globale roller';
-$string['assignroles'] = 'Tildel roller';
+$string['assignroles'] = 'Administrer brugere';
 $string['assignrolesin'] = 'Tildel roller i $a';
+$string['backup:userinfo'] = 'Tag backup af brugerdata';
 $string['block:view'] = 'Se blok';
 $string['blog:create'] = 'Opret nye weblogindlæg';
 $string['blog:manageentries'] = 'Ret og administrer indlæg';
@@ -23,13 +24,17 @@ $string['capabilities'] = 'Kompetencer';
 $string['capability'] = 'Kompetence';
 $string['category:create'] = 'Opret kategorier';
 $string['category:delete'] = 'Slette kategorier';
+$string['category:manage'] = 'Administrer kategorier';
 $string['category:update'] = 'Opdatere kategorier';
+$string['category:viewhiddencategories'] = 'Se skjulte kategorier';
 $string['category:visibility'] = 'Se skjulte kategorier';
 $string['course:activityvisibility'] = 'Skjul / vis aktiviteter';
 $string['course:bulkmessaging'] = 'Send en besked til mange personer';
+$string['course:changecategory'] = 'Skift kursuskategori';
 $string['course:changefullname'] = 'Rediger kursets fulde navn';
 $string['course:changeidnumber'] = 'Rediger kursets id-nummer';
 $string['course:changeshortname'] = 'Rediger kursets korte navn';
+$string['course:changesummary'] = 'Rediger kursusbeskrivelse';
 $string['course:create'] = 'Opret kurser';
 $string['course:delete'] = 'Slette kurser';
 $string['course:manageactivities'] = 'Administrer aktiviteter';
@@ -38,6 +43,7 @@ $string['course:managegrades'] = 'Administrer karakterer';
 $string['course:managegroups'] = 'Administrer grupper';
 $string['course:managemetacourse'] = 'Administrer metakurser';
 $string['course:managescales'] = 'Administrer skalaer';
+$string['course:request'] = 'Anmod om nye kurser';
 $string['course:reset'] = 'Nulstil kursus';
 $string['course:sectionvisibility'] = 'Kontroller synligheden af sektioner';
 $string['course:setcurrentsection'] = 'Se aktuelle sektion';
@@ -67,6 +73,7 @@ $string['errorbadroleshortname'] = 'Ugyldigt rollenavn';
 $string['errorexistsrolename'] = 'Rollen eksisterer allerede';
 $string['errorexistsroleshortname'] = 'Rollen eksisterer allerede';
 $string['existingusers'] = '$a eksisterende brugere';
+$string['globalrole'] = 'Global rolle';
 $string['globalroleswarning'] = 'ADVARSEL! De roller du tildeler her vil gælde på hele sitet, inklusiv forsiden og samtlige kurser.';
 $string['grade:export'] = 'Eksporter karakterer';
 $string['grade:import'] = 'Importer karakterer';
@@ -118,6 +125,7 @@ $string['resetrole'] = 'Genskab standarder';
 $string['resetrolenolegacy'] = 'Ryd tilladelser';
 $string['resetrolesure'] = 'Bekræft at du vil gendanne rollen \"$a->name ($a->shortname)\" til standard?<p></p>Standardtilladelserne er taget fra den valgte standardrolle ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'Er du sikker på at du vil rydde alle tilladelser defineret i rollen \"$a->name ($a->shortname)\"?';
+$string['restore:userinfo'] = 'Genopret brugerdata';
 $string['risks'] = 'Risici';
 $string['role:assign'] = 'Tildel roller til brugere';
 $string['role:manage'] = 'Opret og administrer roller';
