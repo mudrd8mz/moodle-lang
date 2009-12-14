@@ -108,6 +108,6 @@ $string['viewsqlcode'] = 'Vis SQLkode';
 $string['wrong'] = 'Forkert';
 $string['wronglengthforenum'] = 'Forkert længde for enum felt';
 $string['wrongnumberoffieldsorvalues'] = 'Forkert antal af felter eller værdier i sætningen';
-$string['wrongreservedwords'] = 'Nuværende brugte reserverede ord<br />(bemærk at tabelnavne ikke er væsentlige hvis man bruger \$CFG_prefix)';
+$string['wrongreservedwords'] = 'Nuværende brugte reserverede ord<br />(bemærk at tabelnavne ikke er væsentlige hvis man bruger $CFG_prefix)';
 
 ?>
