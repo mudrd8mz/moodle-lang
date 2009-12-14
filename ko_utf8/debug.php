@@ -30,7 +30,7 @@ $string['missingconfigversion'] = '설정 테이블의 판번호 누락, 계속�
 $string['modulenotexist'] = '$a 모듈이 없음';
 $string['morethanonerecordinfetch'] = 'fetch()에 중복 자료 발견!';
 $string['mustbeoveride'] = '모호한 $a 방법은 수정되어야 합니다.';
-$string['noactivityname'] = 'page_generic_activity에서 추촐된 페이지 오브젝트는 $this->activityname 을 정의하지 않습니다.';
+$string['noactivityname'] = 'page_generic_activity에서 추촐된 페이지 오브젝트는 \$this->activityname 을 정의하지 않습니다.';
 $string['noadminrole'] = '관리자 역할을 찾을 수 없음';
 $string['noblockbase'] = '/blocks/moodleblock.class.php
 noblockbase에 대하여 block_base가 정의되지 않았거나 파일을 찾을 수 없음';
