@@ -221,7 +221,7 @@ $string['inputwebdirectory'] = 'Moodle Dizini:';
 $string['installation'] = 'Kurulum';
 $string['installationiscomplete'] = 'Kurulum tamamlandı!';
 $string['invalidargumenthelp'] = 'Hata: Geçersiz argüman(lar)
-Kullanım: $php cliupgrade.php SECENEKLER
+Kullanım: \$ php cliupgrade.php SECENEKLER
 Daha fazla yardım için --help seçeneğini kullanın';
 $string['invalidemail'] = 'Geçersiz Eposta';
 $string['invalidhost'] = 'Geçersiz Alan adı';

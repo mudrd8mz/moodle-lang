@@ -197,7 +197,7 @@ $string['inputwebdirectory'] = 'Directório do Moodle:';
 $string['installation'] = 'Instalação';
 $string['installationiscomplete'] = 'A instalação foi concluida!';
 $string['invalidargumenthelp'] = 'Erro: Argumento(s) inválido(s)
-Uso: $php cliupgrade.php OPÇÕES
+Uso: \$ php cliupgrade.php OPÇÕES
 Para obter ajuda use a opção --help';
 $string['invalidemail'] = 'Endereço de correio inválido';
 $string['invalidhost'] = 'Servidor inválido';

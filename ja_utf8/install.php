@@ -297,7 +297,7 @@ $string['downloadlanguagepack'] = '言語パックをダウンロードします
 $string['downloadsuccess'] = '言語パックが正常にダウンロードされました。'; // ORPHANED
 $string['installationiscomplete'] = 'インストールが完了しました!'; // ORPHANED
 $string['invalidargumenthelp'] = 'エラー: 無効な引数
-使用方法: \$php cliupgrade.php オプション
+使用方法: \$ php cliupgrade.php オプション
 --help オプションを使用することで、さらにヘルプが表示されます。'; // ORPHANED
 $string['invalidemail'] = '無効なメールアドレス'; // ORPHANED
 $string['invalidhost'] = '無効なホスト'; // ORPHANED

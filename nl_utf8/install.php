@@ -205,7 +205,7 @@ $string['inputwebdirectory'] = 'Moodle map:';
 $string['installation'] = 'Installatie';
 $string['installationiscomplete'] = 'Installatie is klaar!';
 $string['invalidargumenthelp'] = 'Fout: Invalid argument(s)
-Syntax: $php cliupgrade.php OPTIONS
+Syntax: \$ php cliupgrade.php OPTIONS
 Gebruik de --help optie om meer hulp te krijgen.';
 $string['invalidemail'] = 'Ongeldig e-mailadres';
 $string['invalidhost'] = 'Ongeldige host';

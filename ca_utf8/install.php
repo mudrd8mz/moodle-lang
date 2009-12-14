@@ -271,7 +271,7 @@ $string['inputwebadress'] = 'Adreça web:'; // ORPHANED
 $string['inputwebdirectory'] = 'Directori de Moodle'; // ORPHANED
 $string['installationiscomplete'] = 'S\'ha completat la instal·lació'; // ORPHANED
 $string['invalidargumenthelp'] = 'Error: els arguments no són vàlids.
-Ús: $php cliupgrade.php OPCIONS
+Ús: \$ php cliupgrade.php OPCIONS
 Utilitzeu l\'opció --help per a més informació'; // ORPHANED
 $string['invalidemail'] = 'L\'adreça de correu no és vàlida'; // ORPHANED
 $string['invalidhost'] = 'El servidor no és vàlid'; // ORPHANED

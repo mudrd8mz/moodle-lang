@@ -280,7 +280,7 @@ $string['downloadlanguagepack'] = 'Desiderate scaricare adesso il language pack 
 $string['downloadsuccess'] = 'Language pack scaricato correttamente'; // ORPHANED
 $string['installationiscomplete'] = 'L\'installazione è stata completata!'; // ORPHANED
 $string['invalidargumenthelp'] = 'Errore: argomento(i) non valido(i)
-Utilizzo: $php cliupgrade.php OPZIONI
+Utilizzo: \$ php cliupgrade.php OPZIONI
 Utilizzare l\'opzione --help per visualizzare l\'aiuto'; // ORPHANED
 $string['invalidemail'] = 'Email non corretta'; // ORPHANED
 $string['invalidhost'] = 'Host non corretto'; // ORPHANED

@@ -51,7 +51,7 @@ $string['tofetchtheseresults'] = 'ដើម្បី​ទៅ​យក​លទ�
 $string['totalsize'] = 'ទំហំ​សរុប';
 $string['type'] = 'ប្រភេទ';
 $string['uncompleteindexingerror'] = 'ការ​ធ្វើ​លិបិក្រម មិន​បាន​បញ្ចប់​ដោយ​ជោគជ័យ​ឡើយ ។ សូម​ចាប់ផ្ដើម​វា​ម្ដង​ទៀត ។';
-$string['versiontoolow'] = 'សូម​ទោស ការ​ស្វែងរក​ជា​សកល​ត្រូវការ PHP 5.0.0 ឬ​ខ្ពស់​ជាង​នេះ (បច្ចុប្បន្ន​កំពុង​ប្រើ \'.$phpversion.\')';
+$string['versiontoolow'] = 'សូម​ទោស ការ​ស្វែងរក​ជា​សកល​ត្រូវការ PHP 5.0.0 ឬ​ខ្ពស់​ជាង​នេះ (បច្ចុប្បន្ន​កំពុង​ប្រើ \'.\$ phpversion.\')';
 $string['whichmodulestosearch?'] = 'តើ​ស្វែងរក​ម៉ូឌុល​មួយ​ណា ?';
 $string['wordsintitle'] = 'ពាក្យ​ក្នុង​ចំណងជើង';
 

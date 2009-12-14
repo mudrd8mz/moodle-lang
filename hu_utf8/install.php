@@ -132,7 +132,7 @@ $string['inputwebadress'] = 'Webcím:';
 $string['inputwebdirectory'] = 'Moodle-könyvtár:';
 $string['installation'] = 'Telepítés';
 $string['installationiscomplete'] = 'A telepítés befejeződött!';
-$string['invalidargumenthelp'] = 'Hiba: érvénytelen argumentum(ok). Használat: $php cliupgrade.php OPTIONS További segítséghez használja a --help opciót';
+$string['invalidargumenthelp'] = 'Hiba: érvénytelen argumentum(ok). Használat: \$ php cliupgrade.php OPTIONS További segítséghez használja a --help opciót';
 $string['invalidemail'] = 'Érvénytelen e-mail cím';
 $string['invalidhost'] = 'Érvénytelen gazdagép';
 $string['invalidint'] = 'Hiba: az érték nem egész szám';
@@ -202,7 +202,7 @@ $string['upgradinglocaldb'] = 'Helyi adatbázis frissítése';
 $string['upgradingmessageoutputpluggin'] = 'Üzenetmegjelenítő segédprogam frissítése';
 $string['upgradingqtypeplugin'] = 'Kérdéstípus segédprogamjának frissítése';
 $string['upgradingrpcfunctions'] = 'RPC-funkciók frissítése';
-$string['usagehelp'] = 'Összegzés: $php cliupgrade.php 
+$string['usagehelp'] = 'Összegzés: \$ php cliupgrade.php 
 OPCIÓK 
 --lang Érvényesen telepített nyelv a telepítéshez. Az alapbeállítás az angol (en)
 --webaddr A Moodle-portál webcíme --moodledir A Moodle-webmappa helye --datadir A Moodle-adatmappa helye (ne legyen a netről látható) 

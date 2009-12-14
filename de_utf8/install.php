@@ -291,7 +291,7 @@ $string['downloadlanguagepack'] = 'Möchten Sie jetzt das Sprachpaket herunterla
 $string['downloadsuccess'] = 'Sprachpaket erfolgreich heruntergeladen'; // ORPHANED
 $string['installationiscomplete'] = 'Die Installation ist abgeschlossen!'; // ORPHANED
 $string['invalidargumenthelp'] = 'Fehler: Ungültige Argumente
-Benutzung: $php cliupgrade.php OPTIONS
+Benutzung: \$ php cliupgrade.php OPTIONS
 Geben Sie --help ein, um weitere Hilfe zu bekommen'; // ORPHANED
 $string['invalidemail'] = 'Ungültige E-Mail'; // ORPHANED
 $string['invalidhost'] = 'Ungültiger Server'; // ORPHANED

@@ -305,7 +305,7 @@ $string['downloadlanguagepack'] = 'Да ли желите да сада преу
 $string['downloadsuccess'] = 'Језички пакет је успешно преузет'; // ORPHANED
 $string['installationiscomplete'] = 'Инсталација је завршена'; // ORPHANED
 $string['invalidargumenthelp'] = 'Грешка: Неисправни аргумент(и)
-Употреба: $php cliupgrade.php OPTIONS
+Употреба: \$ php cliupgrade.php OPTIONS
 Искористи опцију --help за додатну помоћ'; // ORPHANED
 $string['invalidemail'] = 'Неисправна адреса е-поште'; // ORPHANED
 $string['invalidhost'] = 'Неисправан хост'; // ORPHANED
