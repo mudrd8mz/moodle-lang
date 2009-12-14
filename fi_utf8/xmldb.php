@@ -100,5 +100,5 @@ $string['viewphpcode'] = 'Katso php-koodi';
 $string['viewsqlcode'] = 'Katso SQL';
 $string['wronglengthforenum'] = 'Virheellinen pituus listakentälle';
 $string['wrongnumberoffieldsorvalues'] = 'Virheellinen määrä kenttiä tai arvoja lausekkeessa';
-$string['wrongreservedwords'] = 'Tällä hetkellä varattuna olevat sanat<br />(Taulukoiden nimet on suojattu etuliitteellä $CFG->prefix)';
+$string['wrongreservedwords'] = 'Tällä hetkellä varattuna olevat sanat<br />(Taulukoiden nimet on suojattu etuliitteellä \$CFG->prefix)';
 ?>

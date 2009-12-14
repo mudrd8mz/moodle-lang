@@ -15,7 +15,7 @@ $string['dbnotsupport'] = 'දෝෂය : ඔබගේ දත්ත ගබඩා
 $string['dbnotupdate'] = 'දත්ත ගබඩා දෝෂය - ($a) යාවත් කාලීන කල නොහැක';
 $string['doesnotworkwitholdversion'] = 'මෙම ස්ක්‍රිප්ටය මෙම පැරණි මූඩ්ල් අනුවාද හා වැඩ නොකරයි';
 $string['erroroccur'] = 'මෙම කාර්යාවලියේදී දෝෂයක් ඇති විය';
-$string['fixsetting'] = 'කරුණාකර ඔබගේ config.php සැකසීම් සාදන්න :<p>ඔබට ඇත්තේ :</p> <p>$CFG->dirroot = \"$a->current\";</p> <p>නමුත් එය :</p> <p>$CFG->dirroot = \"$a->found\" විය යුතුයි</p>';
+$string['fixsetting'] = 'කරුණාකර ඔබගේ config.php සැකසීම් සාදන්න :<p>ඔබට ඇත්තේ :</p> <p>\$CFG->dirroot = \"$a->current\";</p> <p>නමුත් එය :</p> <p>\$CFG->dirroot = \"$a->found\" විය යුතුයි</p>';
 $string['noblockbase'] = 'block_base ක්ලාසය අර්ථ දක්වා නැත හෝ /blocks/moodleblock.class.php සඳහා ගොනුව සොයා ගැනීමට නොමැත';
 $string['noblocks'] = 'කොටස් කිසිවක් ස්ථාපනය කර නැත!';
 $string['nocaps'] = 'දෝෂය: හැකියාවන් කිසිවක් අර්ථ දක්වා නැත!';

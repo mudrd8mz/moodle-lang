@@ -103,6 +103,6 @@ $string['viewphpcode'] = 'Погледни PHP код';
 $string['viewsqlcode'] = 'Погледни SQL код';
 $string['wronglengthforenum'] = 'Неправилна должина за полето за енумерација';
 $string['wrongnumberoffieldsorvalues'] = 'Неправилен број на полиња или вредности во реченицата';
-$string['wrongreservedwords'] = 'Моментално користени резервирани зборови<br />(забележи дека имињата на табелите не се важни ако користите $CFG->prefix)';
+$string['wrongreservedwords'] = 'Моментално користени резервирани зборови<br />(забележи дека имињата на табелите не се важни ако користите \$CFG->prefix)';
 
 ?>

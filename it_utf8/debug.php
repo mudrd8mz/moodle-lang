@@ -12,7 +12,7 @@ $string['cannotsetuptable'] = 'Il setup delle tabelle $a non è andato a buon fi
 $string['codingerror'] = 'E\' stato rilevato un errore di programmazione, deve essere sistemato da un programmatore: $a';
 $string['configmoodle'] = 'Moodle non è ancora stato configurato. E\' necessario editare il file config.php';
 $string['erroroccur'] = 'Si è verificato un errore durante lo svolgimento di questo processo';
-$string['fixsetting'] = 'Per favore aggiustate le impostazioni nel file config.php:<p>La vostra impostazione:</p> <p>$CFG->dirroot = \'$a->current\';</p> <p>dovrebbe essere:</p> <p>$CFG->dirroot = \'$a->found\';</p>';
+$string['fixsetting'] = 'Per favore aggiustate le impostazioni nel file config.php:<p>La vostra impostazione:</p> <p>\$CFG->dirroot = \'$a->current\';</p> <p>dovrebbe essere:</p> <p>\$CFG->dirroot = \'$a->found\';</p>';
 $string['invalidarraysize'] = 'La dimensione degli array è errata nei parametri di $a';
 $string['invalideventdata'] = 'E\' stato inviato un eventdata non corretto: $a';
 $string['invalidparameter'] = 'E\' stato rilevato un parametro non valido, il processo non può proseguire.';

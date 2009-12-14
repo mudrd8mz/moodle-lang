@@ -87,7 +87,7 @@ $string['check_passwordpolicy_name'] = 'Regole password';
 $string['check_passwordpolicy_ok'] = 'Le regole per le password sono attive.';
 $string['check_passwordsaltmain_details'] = '<p>Si raccomanda fortemente di impostare il password salt per minimizzare il rischio di furto di password.</p>
 <p>Per impostare il password salt aggiungere la seguente linea al file config.php:</p>
-<code>$CFG->passwordsaltmain = \'stringa_molto_lunga_di_caratteri_casuali#@6&*1\';</code>
+<code>\$CFG->passwordsaltmain = \'stringa_molto_lunga_di_caratteri_casuali#@6&*1\';</code>
 <p>La stringa di caratteri casuali deve contenere lettere, numeri ed altri caratteri. Si consiglia una stringa di almeno 40 caratteri.</p>
 <p>Per maggiori informazioni su come cambiare il salt: <a href=\"$a\" target=\"_blank\">password salting</a>. Una volta impostato il salt, non eliminatelo altrimenti  gli utenti non saranno più in grado di autenticarsi.</p>';
 $string['check_passwordsaltmain_name'] = 'Password salt';
@@ -106,7 +106,7 @@ $string['check_riskxss_details'] = '<p>RISK_XSS indica privilegi che devono esse
 $string['check_riskxss_name'] = 'Utenti affidabili per XSS';
 $string['check_riskxss_warning'] = 'RISK_XSS - individuati $a utenti che devono essere affidabili.';
 $string['check_unsecuredataroot_details'] = '<p>Il folder dataroot non deve essere accessibile via web. La cosa migliore è creare il foder dataroot al di fuori dello spazio web.</p>
-<p>Se spostate il folder dataroot, ricordate di modificare l\'impostazione <code>$CFG->dataroot</code> nel file config.php.</p>';
+<p>Se spostate il folder dataroot, ricordate di modificare l\'impostazione <code>\$CFG->dataroot</code> nel file config.php.</p>';
 $string['check_unsecuredataroot_error'] = 'Il vostro folder dataroot <code>$a</code> è in un posto sbagliato ed è esposta pubblicamente sul web!';
 $string['check_unsecuredataroot_name'] = 'Dataroot non sicura';
 $string['check_unsecuredataroot_ok'] = 'La Dataroot non deve essere accessibile via web.';

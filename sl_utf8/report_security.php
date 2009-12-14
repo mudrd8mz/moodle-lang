@@ -95,7 +95,7 @@ $string['check_riskxss_details'] = '<p>RISK_XSS označuje vse nevarne zmožnosti
 </p><p>$a</p>';
 $string['check_riskxss_name'] = 'XSS zaupanja vredni uporabniki';
 $string['check_riskxss_warning'] = 'RISK_XSS - našel $a zaupanja vrednih uporabnikov';
-$string['check_unsecuredataroot_details'] = '<p>Korenski imenik (dataroot) ne sme biti viden s spleta. To najboljše dosežete tako, da uporabite imenik, ki je zunaj javnega spletnega imenika.</p> <p>Če premaknete imenik, morate popraviti tudi nastavitev <code>$CFG->dataroot</code> v <code>config.php</code>.</p>';
+$string['check_unsecuredataroot_details'] = '<p>Korenski imenik (dataroot) ne sme biti viden s spleta. To najboljše dosežete tako, da uporabite imenik, ki je zunaj javnega spletnega imenika.</p> <p>Če premaknete imenik, morate popraviti tudi nastavitev <code>\$CFG->dataroot</code> v <code>config.php</code>.</p>';
 $string['check_unsecuredataroot_error'] = 'Vaš korenski imenik (dataroot) <code>$a</code> je na napačni lokaciji in je viden s spleta!';
 $string['check_unsecuredataroot_name'] = 'Nezavarovan korenski imenik';
 $string['check_unsecuredataroot_ok'] = 'Korenski imenik (dataroot) ne sme biti viden s spleta.';

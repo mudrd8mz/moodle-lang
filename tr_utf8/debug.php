@@ -12,7 +12,7 @@ $string['cannotsetuptable'] = '$a tablolaları başarıyla AYARLANAMADI!';
 $string['codingerror'] = 'Kodlama hatası algılandı, bir programcı tarafından düzeltilmeli: $a';
 $string['configmoodle'] = 'Moodle, henüz yapılandırılmamış. Öncelikle config.php dosyasını düzenlemeniz gerekiyor.';
 $string['erroroccur'] = 'İşlem sırasında hata oluştu';
-$string['fixsetting'] = 'Lütfen config.php deki ayarları düzeltin: <p>Şimdiki:</p> <p>$CFG->dirroot = \"$a->current\";</p><p>Olması gereken:</p> <p>$CFG->dirroot = \"$a->found\"</p>';
+$string['fixsetting'] = 'Lütfen config.php deki ayarları düzeltin: <p>Şimdiki:</p> <p>\$CFG->dirroot = \"$a->current\";</p><p>Olması gereken:</p> <p>\$CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = '$a parametrelerinde hatalı boyutta diziler';
 $string['invalideventdata'] = 'Yanlış olay verileri gönderildi: $a';
 $string['missingconfigversion'] = 'Yapılandırma tablosu sürümü içermediğinden devam edilemiyor, özür dileriz.';

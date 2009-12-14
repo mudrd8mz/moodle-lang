@@ -323,7 +323,7 @@ $string['curlrecommended'] = 'Instaliranje opcione Curl biblioteke je vrlo prepo
 $string['curlrequired'] = 'PHP ekstenziju cURL sada je obavezna za Moodle da bi se komuniciralo sa Moodle repozitorijumima';
 $string['customcheck'] = 'Druge provere';
 $string['datarootsecurityerror'] = '<p><strong>BEZBEDNOSNO UPOZORENJE!</strong></p><p>Vaš direktorijum sa podacima je na pogrešnom mestu i moguće mu je pristupiti sa Weba. To znači da su sve Vaše privatne datoteke raspoložive svakome ko ima pristup Internetu, pa neke od njih mogu iskoristiti zlonamerni korisnici Weba da bi dobili neautorizovan administratorski pristup Vašem sajtu!</p>
-<p><em>Morate</em> premestiti direktorijum sa podacima ($a) na novu lokaciju koja nije u okviru Vašeg javnog Web direktorijuma, a potom ažurirati <code>$CFG->dataroot</code> podešavanje u datoteci config.php u skladu sa načinjenim promenama.</p>';
+<p><em>Morate</em> premestiti direktorijum sa podacima ($a) na novu lokaciju koja nije u okviru Vašeg javnog Web direktorijuma, a potom ažurirati <code>\$CFG->dataroot</code> podešavanje u datoteci config.php u skladu sa načinjenim promenama.</p>';
 $string['datarootsecuritywarning'] = 'Konfiguracija Vašeg sajta možda nije bezbedna. Molimo proverite da se Vašem direktorijumu podataka ($a) ne može direktno pristupiti preko Weba.';
 $string['dbmigrate'] = 'Migracija Moodle baze podataka';
 $string['dbmigrateconnecerror'] = 'Nije moguće uspostaviti vezu sa specificiranom bazom podataka.';

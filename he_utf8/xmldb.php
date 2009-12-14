@@ -129,7 +129,7 @@ $string['wrongdefaults'] = 'ברירות מחדל שגויות נמצאו';
 $string['wrongints'] = 'מספרים שלמים שגויים נמצאו';
 $string['wronglengthforenum'] = 'אורך שגוי לשדה enum';
 $string['wrongnumberoffieldsorvalues'] = 'מספר שגוי של שדות או ערכים במשפט';
-$string['wrongreservedwords'] = 'שימוש במילים שמורות נכון להיום <br/>(דע כי שמות טבלאות לא חשובות אם משתמשים ב-$CFG->prefix';
+$string['wrongreservedwords'] = 'שימוש במילים שמורות נכון להיום <br/>(דע כי שמות טבלאות לא חשובות אם משתמשים ב-\$CFG->prefix';
 $string['yesmissingindexesfound'] = 'נמצאו מספר אינדקסים חסרים במסד הנתונים. להלן פרטיהם ומשפטי ה-SQL שדרוד לבצעם ען מנשק ה-SQL המועדף עליך בכדי ליצור אותם.
 <br />
 <br />

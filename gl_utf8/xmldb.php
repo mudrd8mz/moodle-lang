@@ -115,7 +115,7 @@ $string['viewphpcode'] = 'Ver código PHP';
 $string['viewsqlcode'] = 'Ver código SQL';
 $string['wronglengthforenum'] = 'Lonxitude incorrecta para un campo enum';
 $string['wrongnumberoffieldsorvalues'] = 'Número incorrecto de campos ou valores nunha frase';
-$string['wrongreservedwords'] = 'Palabras reservadas actualmente utilizadas<br />(Os nomes das táboas non son importantes cando se emprega un $CFG->prefix)';
+$string['wrongreservedwords'] = 'Palabras reservadas actualmente utilizadas<br />(Os nomes das táboas non son importantes cando se emprega un \$CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Na súa BD atopáronse algúns índices ausentes. Aquí pode ver os seus detalles, así como os comandos SQL para executar coa súa interface SQL favorita para crealos.<br /><br />Unha vez feito isto, recoméndase que execute de novo esta utilidade para comprobar que non se atopan máis índices ausentes.';
 
 ?>

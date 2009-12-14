@@ -129,7 +129,7 @@ $string['configstripalltitletags'] = 'Szüntesse meg a bejelölést, ha engedél
 $string['configuseexternalyui'] = 'Helyi állományok helyett használjon online fájlokat a Yahoo szervereiről. VIGYÁZAT: ehhez internetes kapcsolatra van szükség, különben portálján nem fog működni az AJAX.';
 $string['confirmed'] = 'Megerősítve';
 $string['datarootsecurityerror'] = '<p><strong>BIZTONSÁGI FIGYELMEZTETÉS!</strong></p><p>Adatainak gyökérkönyvtára rossz helyen van és elérhető a netről. Így minden magánállományát bárki elérheti, portáljára pedig jogtalan rendszergazdakénti belépésre ad lehetőséget!</p>
-<p>Adatainak gyökérkönyvtárát ($a) <em>mindenképpen</em> helyezze át nyilvánosan elérhető internetes könyvtárán kívülre, valamint frissítse a <code>$CFG->dataroot</code> beállítást config.php állományában.</p>';
+<p>Adatainak gyökérkönyvtárát ($a) <em>mindenképpen</em> helyezze át nyilvánosan elérhető internetes könyvtárán kívülre, valamint frissítse a <code>\$CFG->dataroot</code> beállítást config.php állományában.</p>';
 $string['htmlsettings'] = 'HTML-beállítások';
 $string['ipblocked'] = 'A portál jelenleg nem érhető el.';
 $string['ipblocker'] = 'IP-blokkoló';

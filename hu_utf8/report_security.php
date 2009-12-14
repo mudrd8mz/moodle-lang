@@ -100,7 +100,7 @@ $string['check_riskxss_details'] = '<p>A RISK_XSS az összes veszélyes, csak me
 $string['check_riskxss_name'] = 'XSS megbízható felhasználó';
 $string['check_riskxss_warning'] = 'RISK_XSS - $a megbízhatónak minősítendő felhasználót találtam.';
 $string['check_unsecuredataroot_details'] = '<p>Az adatok gyökérkönyvtára nem lehet internetről elérhető. Ennek érdekében olyan könyvtárat használjon, amelyik nem nyilvánosan elérhető.</p>
-<p>Ha áthelyezi a könyvtárat, frissítse a <code>$CFG->dataroot</code> beállítást a <code>config.php</code> fájlban.</p>';
+<p>Ha áthelyezi a könyvtárat, frissítse a <code>\$CFG->dataroot</code> beállítást a <code>config.php</code> fájlban.</p>';
 $string['check_unsecuredataroot_error'] = 'Az adatok <code>$a</code> gyökérkönyvtára rossz helyen van és elérhető az internetről!';
 $string['check_unsecuredataroot_name'] = 'Nem biztonságos adatgyökérkönyvtár';
 $string['check_unsecuredataroot_ok'] = 'Az adatok gyökérkönyvtára nem lehet internetről elérhető.';

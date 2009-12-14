@@ -5,7 +5,7 @@
 $string['addconfigprefix'] = 'Voeg een prefix toe aan het configuratiebestand';
 $string['all'] = 'ALLE';
 $string['confignonwritable'] = 'Het bestand config.php is niet beschrijfbaar door de webserver. Ofwel moet je de rechten  veranderen, ofwel moet je het bewerken met de juiste gebruikersaccount en volgende lijn toevoegen voor de afsluitende php-tag:<br />
-$CFG->unittestprefix = \'tst_\' // Wijzig tst_ naar een prefix die je verkiest, anders dan $CFG->prefix';
+$CFG->unittestprefix = \'tst_\' // Wijzig tst_ naar een prefix die je verkiest, anders dan \$CFG->prefix';
 $string['deletingnoninsertedrecord'] = 'Een record geprobeerd te verwijderen die niet toegevoegd was door deze unit test (id $a->id in tabel $a->table).';
 $string['deletingnoninsertedrecords'] = 'Records proberen te verwijderen die niet toegevoegd waren door deze unit test (uit tabel $a->table).';
 $string['droptesttables'] = 'Verwijder testtabellen';

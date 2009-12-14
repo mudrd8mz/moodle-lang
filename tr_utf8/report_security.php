@@ -98,7 +98,7 @@ $string['check_riskxss_details'] = '<p>RISK_XSS yalnızca güvenilir kullanıcı
 $string['check_riskxss_name'] = 'XSS güvenilir kullanıcılar';
 $string['check_riskxss_warning'] = 'RISK_XSS - güvenilmesi gereken $a kullanıcı buldu.';
 $string['check_unsecuredataroot_details'] = '<p>Veriyolu klasörü web üzerinden erişilebilir olmamalıdır. Klasörün erişilebilir olmamasını sağlamanın en iyi yolu herkese açık web klasörü dışında bir klasör kullanmaktır.</p>
-<p>Eğer klasörü taşıyacak olursanız, <code>config.php</code> içindeki <code>$CFG->dataroot</code> ayarını buna göre güncellemeniz gerekir.</p>';
+<p>Eğer klasörü taşıyacak olursanız, <code>config.php</code> içindeki <code>\$CFG->dataroot</code> ayarını buna göre güncellemeniz gerekir.</p>';
 $string['check_unsecuredataroot_error'] = 'Veriyolu klasörürünüz <code>$a</code> yanlış yerde ve internetten saldırılara açık durumda.';
 $string['check_unsecuredataroot_name'] = 'Güvensiz veriyolu';
 $string['check_unsecuredataroot_ok'] = 'Veriyolu klasörü web üzerinden erişilebilir olmamalı.';

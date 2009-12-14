@@ -115,6 +115,6 @@ $string['viewphpcode'] = 'Skatīt PHP kodu';
 $string['viewsqlcode'] = 'Skatīt SQL kodu';
 $string['wronglengthforenum'] = 'Nepareizs uzskaitījuma lauka garums';
 $string['wrongnumberoffieldsorvalues'] = 'Teikumā nav pareizs lauku vai vērtību skaits';
-$string['wrongreservedwords'] = 'Pašlaik izmantotie rezervētie vārdi<br />(ievērojiet, ka tabulu nosaukumi nav svarīgi, ja tiek izmantots $CFG->prefix)';
+$string['wrongreservedwords'] = 'Pašlaik izmantotie rezervētie vārdi<br />(ievērojiet, ka tabulu nosaukumi nav svarīgi, ja tiek izmantots \$CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Jūsu datubāzē ir atrasti daži trūkstoši indeksi. Šeit ir to detaļas un nepieciešamie SQL priekšraksti, kas jāizpilda jūsu iecienītajā SQL saskarnē, lai tos visus izveidotu.<br /><br />Pēc tam ieteicams vēlreiz palaist šo utilītu, lai pārbaudītu, vai nav atrodams vēl kāds trūkstošs indekss.';
 ?>

@@ -300,7 +300,7 @@ $string['ctyperequired'] = 'PHP tillegget ctype er nå påkrevd av Moodle for å
 $string['curlrecommended'] = 'Vi anbefaler sterkt at Curl-biblioteket legges til i php.ini for å aktivere Moodles Nettverksfunksjonalitet.';
 $string['customcheck'] = 'A';
 $string['datarootsecurityerror'] = '<p><strong>SIKKERHETSADVARSEL!</strong></p><p>Rotkatalogen for dine Moodledata er plassert feil og er fritt tilgjengelig fra web. Dette betyr at alle dine private filer er tilgjengelige for hvem som helst, og du må regne med at hackere vil bruke informasjonen her til å finne svakheter i brukernavn/passord og skaffe seg uautorisert tilgang til din installasjon!</p>
-<p>Du <em>må</em> flytte moodledata-katalogen ($a) til et annet sted UTENFOR webområdet og oppdatere <code>$CFG->dataroot</code> innstillingen i config.php tilsvarende.</p>';
+<p>Du <em>må</em> flytte moodledata-katalogen ($a) til et annet sted UTENFOR webområdet og oppdatere <code>\$CFG->dataroot</code> innstillingen i config.php tilsvarende.</p>';
 $string['datarootsecuritywarning'] = 'Site-oppsettet ditt er kanskje ikke sikkert nok. Vennligst sjekk at dataroot katalogen ($a) ikke er direkte tilgjengelig via web.';
 $string['dbmigrate'] = 'Moodle databasemigrering';
 $string['dbmigrateconnecerror'] = 'Kunne ikke koble opp til databasen som er spesifisert.';

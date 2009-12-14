@@ -126,7 +126,7 @@ $string['wrong'] = 'Not\'g\'ri(Xato)';
 $string['wrongints'] = 'Xato integer(butun)lar topildi';
 $string['wronglengthforenum'] = 'Enum(hisob) maydoni uchun uzunlik noto\'g\'ri';
 $string['wrongnumberoffieldsorvalues'] = 'Gapda noto\'g\'ri tushuncha yoki maydonlar soni';
-$string['wrongreservedwords'] = 'Ishlatilayorgan zahiralangan so\'zlar<br>(agarda $CFG->prefix ishlatilayotgan bo\'lsa jadvallar nomi muhimligiga izoh bering)';
+$string['wrongreservedwords'] = 'Ishlatilayorgan zahiralangan so\'zlar<br>(agarda \$CFG->prefix ishlatilayotgan bo\'lsa jadvallar nomi muhimligiga izoh bering)';
 $string['yesmissingindexesfound'] = 'MO da tushirib qoldirilgan bazi indekslar topildi.Bu erda ular haqida batafsil ma\'lumot va SQL serverda ishga tushirilagin kerakli SQL jumlalar(avval ma\'lumotlaringizni zahiralab qo\'yishni unutmang).<br/></br>. So\'ng bu utilitni boshqa tushirib qoldirilgan indekslarni tekshirishda ishga tushirish tavsiya etiladi.';
 $string['yeswrongintsfound'] = 'MO da tushirib qoldirilgan bazi integerlar topildi.Bu erda ular haqida batafsil ma\'lumot va SQL serverda ishga tushirilagin kerakli SQL jumlalar(avval ma\'lumotlaringizni zahiralab qo\'yishni unutmang).<br/></br>. So\'ng bu utilitni boshqa xato integerlar tekshirishda ishga tushirish tavsiya etiladi.';
 

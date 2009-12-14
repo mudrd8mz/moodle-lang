@@ -3,7 +3,7 @@
 
 $string['addconfigprefix'] = 'Előtag hozzáadása a konfigurációs fájlhoz';
 $string['confignonwritable'] = 'A webszerver nem tud a config.php fájlba írni. Módosítsa az engedélyt vagy szerkessze megfelelő felhasználói fiókból, és a lezáró php-címke elé írja be ezt a sort: <br />
-$CFG->unittestprefix = \'tst_\' // A tst_ helyére írjon be egy tetszése szerinti, a $CFG->prefix-től eltérő előtagot.';
+$CFG->unittestprefix = \'tst_\' // A tst_ helyére írjon be egy tetszése szerinti, a \$CFG->prefix-től eltérő előtagot.';
 $string['deletingnoninsertedrecord'] = 'Olyan rekordot próbál törölni, amelyet nem ezek az egységfeladatok szúrtak be ($a->id azonosító a(z) $a->table táblában).';
 $string['deletingnoninsertedrecords'] = 'Olyan rekordokat próbál törölni, amelyeket nem ezek az egységfeladatok szúrtak be (a(z) $a->table táblából).';
 $string['droptesttables'] = 'Feladattáblák kihagyása';

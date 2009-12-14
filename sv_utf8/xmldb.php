@@ -120,7 +120,7 @@ $string['wrong'] = 'Fel';
 $string['wrongints'] = 'Felaktiga heltal (integers) har hittats';
 $string['wronglengthforenum'] = 'Felaktig längd för fält av typen \'enum\'';
 $string['wrongnumberoffieldsorvalues'] = 'Felaktigt antal fält eller värden i en sats.';
-$string['wrongreservedwords'] = 'De reseverade ord som används f.n.<br />(lägg märke till att tabellnamn inte är viktiga om $CFG-prefix är i bruk).';
+$string['wrongreservedwords'] = 'De reseverade ord som används f.n.<br />(lägg märke till att tabellnamn inte är viktiga om \$CFG-prefix är i bruk).';
 $string['yesmissingindexesfound'] = 'En del saknade index återfanns i Din databas. Här hittar Du detaljerad information om dem och även de SQL-satser som är nödvändiga (och som du kan utföra med hjälp av det gränssnitt för SQL som Du föredrar) i och för att skapa dem (de saknade indexen). Glöm inte att säkerhetskopiera Dina data innan Du gör detta.  <br /><br />Efter det att Du har gjort det så rekommenderar vi starkt att Du använder den här funktionen igen för att kontrollera att det inte saknas ännu fler index.';
 $string['yeswrongintsfound'] = 'En del felaktiga heltal återfanns i Din databas. Här hittar Du detaljerad information om dem och även de SQL-satser som är nödvändiga (och som du kan utföra med hjälp av det gränssnitt för SQL som Du föredrar) i och för att skapa dem (de saknade indexen). löm inte att säkerhetskopiera Dina data innan Du gör detta.<br /><br />Efter det att Du har gjort det så rekommenderar vi starkt att Du använder den här funktionen igen för att kontrollera att det inte finns ännu fler felaktiga heltal (integers).';
 

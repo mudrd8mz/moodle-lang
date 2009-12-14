@@ -103,6 +103,6 @@ $string['viewphpcode'] = 'Tiro Waehere PHP';
 $string['viewsqlcode'] = 'Tiro Waehere SQL';
 $string['wronglengthforenum'] = 'Roanga hē mō te āpure enum';
 $string['wrongnumberoffieldsorvalues'] = 'Tau hē o ngā āpure, ngā uara rānei i roto i te rerenga';
-$string['wrongreservedwords'] = 'Ngā Kupu Rāhui Kua Whakamahia i tēnei wā<br />(note that table names aren\'t important if using $CFG->prefix)';
+$string['wrongreservedwords'] = 'Ngā Kupu Rāhui Kua Whakamahia i tēnei wā<br />(note that table names aren\'t important if using \$CFG->prefix)';
 
 ?>

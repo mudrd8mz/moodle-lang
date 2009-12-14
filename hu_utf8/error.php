@@ -48,7 +48,7 @@ $string['targetdatabasenotempty'] = 'A céladatbázis nem üres. Biztonsági oko
 $string['unknownsortcolumn'] = 'Ismeretlen $a leválogatási oszlop.';
 $string['unsupportedwebserver'] = 'A webszerver szoftverének ($a) használata nincs támogatva.';
 $string['wwwrootmismatch'] = 'Hibás hozzáférés, a szerver csak \"$a\" címen keresztül érhető el.<br />Értesítse a rendszergazdát.';
-$string['wwwrootslash'] = 'A $CFG->wwwroot hibája a config.php-ben, lezáró perjelet nem tartalmazhat.<br />Értesítse a rendszergazdát.';
+$string['wwwrootslash'] = 'A \$CFG->wwwroot hibája a config.php-ben, lezáró perjelet nem tartalmazhat.<br />Értesítse a rendszergazdát.';
 	  
 $string['TODO'] = 'TEENDŐ';
 $string['cannoffindgradeitem'] = 'A grade_item nem található.';

@@ -85,7 +85,7 @@ $string['check_passwordpolicy_name'] = 'Passordregler';
 $string['check_passwordpolicy_ok'] = 'Passordregler er aktivert';
 $string['check_passwordsaltmain_details'] = '<p>Ved å konfigurere en passord-krypteringsfrase reduserer du effektivt risikoen for passordtyveri.</p>
 <p>Du konfigurerer dette ved å legge til følgende linje i config.php:</p>
-<code>$CFG->passwordsaltmain = \'en eller annen kjempelang passordstreng med tall, bokstaver og andre tegn\';</code>
+<code>\$CFG->passwordsaltmain = \'en eller annen kjempelang passordstreng med tall, bokstaver og andre tegn\';</code>
 <p>Denne strengen med tegn bør være en miks av tall, bokstaver og andre tegn. Du bør minst ha en streng på 40 tegn, gjerne mer.</p>
 <p>Les mer her om 
  <a href=\"$a\" target=\"_blank\">passord krypterinsfrase</a> hvis du ønsker å endre dette krypteringsfrasen. <br /><strong>Når du har konfiguert en passord-krypteringsfrase må du IKKE slette passordet fra config.php - da samtlige brukere (også du) vil bli utestengt fra installasjonen!</strong></p>';
@@ -115,7 +115,7 @@ $string['check_riskxss_details'] = '<p>RISK_XSS viser deg alle risikable rettigh
 $string['check_riskxss_name'] = 'XSS klarerte brukere';
 $string['check_riskxss_warning'] = 'RISK_XSS - fant $a brukere som ikke er klarert.';
 $string['check_unsecuredataroot_details'] = '<p>Datakatalogen må ikke kunne nås direkte fra web. Beste måten å sikre dette på er å plassere datakatalogen utenfor webområdet på serveren.</p>
-<p>Dersom du flytter katalogen, må du oppdatere <code>$CFG->dataroot</code> innstillingen i <code>config.php</code> tilsvarende.</p>';
+<p>Dersom du flytter katalogen, må du oppdatere <code>\$CFG->dataroot</code> innstillingen i <code>config.php</code> tilsvarende.</p>';
 $string['check_unsecuredataroot_error'] = 'Datakatalogen  <code>$a</code> er plassert feil og direkte tilgjengelig via web!';
 $string['check_unsecuredataroot_name'] = 'Usikker datakatalog';
 $string['check_unsecuredataroot_ok'] = 'Datakatalogen skal IKKE være tilgjengelig direkte via web.';

@@ -152,7 +152,7 @@ $string['wrongdefaults'] = 'Falsche Defaults gefunden';
 $string['wrongints'] = 'Falsche Zahlen gefunden';
 $string['wronglengthforenum'] = 'Falsche Feldlänge (enum)';
 $string['wrongnumberoffieldsorvalues'] = 'Falsche Anzahl von Feldern oder Werten in Satz';
-$string['wrongreservedwords'] = 'Derzeit verwendete reservierte Wörter <br />(die Tabellennamen sind nicht wichtig, wenn $CFG->prefix genutzt wird)';
+$string['wrongreservedwords'] = 'Derzeit verwendete reservierte Wörter <br />(die Tabellennamen sind nicht wichtig, wenn \$CFG->prefix genutzt wird)';
 $string['yesmissingindexesfound'] = 'Einige fehlende Indizes wurden in Ihrer Datenbank gefunden. Es folgen genauere Einzelheiten und die nötigen SQL-Anweisungen, die Sie mit Ihrem bevorzugten SQL-Werkzeug ausführen müssen, um alle Indizes zu erzeugen.<br /><br />
 Es wird dringend empfohlen, die Suche nach fehlenden Indizes danach noch einmal auszuführen.';
 $string['yeswrongdefaultsfound'] = 'Es wurden einige inkonsistente Defaultwerte in der Datenbank gefunden. Im folgenden stehen die Details und das erforderliche SQL Statement für den von Ihnen genutzt Datenbanktyp. Vergessen Sie nicht ein Backup zu erstellen, bevor Sie diese Änderungen ausführen.<br/> <br/>

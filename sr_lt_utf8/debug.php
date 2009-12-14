@@ -12,7 +12,7 @@ $string['cannotsetuptable'] = '$a tabele se NE mogu uspešno postaviti!';
 $string['codingerror'] = 'Otkrivena je greška u kodu koju mora da ispravi programer: $a';
 $string['configmoodle'] = 'Moodle još uvek nije konfigurisan. Morate urediti prvo config.php.';
 $string['erroroccur'] = 'Došlo je do greške u toku ovog procesa';
-$string['fixsetting'] = 'Molimo da ispravite podešavanja u config.php: <p>Vi imate:</p> <p>$CFG->dirroot = \"$a[0]\";</p> <p>a treba da bude:</p> <p>$CFG->dirroot = \"$a[1]\"</p>';
+$string['fixsetting'] = 'Molimo da ispravite podešavanja u config.php: <p>Vi imate:</p> <p>\$CFG->dirroot = \"$a[0]\";</p> <p>a treba da bude:</p> <p>\$CFG->dirroot = \"$a[1]\"</p>';
 $string['invalidarraysize'] = 'Neispravna veličina nizova u parametrima $a';
 $string['invalideventdata'] = 'Prosleđeni su neispravni podaci o događanju: $a';
 $string['missingconfigversion'] = 'Konfiguraciona tabela ne sadrži podatak o verziji, nije moguće nasataviti.';

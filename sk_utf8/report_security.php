@@ -119,7 +119,7 @@ $string['check_riskxss_details'] = '<p>Príznakom RISK_XSS sú označené riskan
 $string['check_riskxss_name'] = 'XSS dôveryhodní používatelia';
 $string['check_riskxss_warning'] = 'RISK_XSS - bolo nájdených $a používateľov, ktorí musia byť dôveryhodní.';
 $string['check_unsecuredataroot_details'] = '<p>Dátový adresár nesmie byť dostupný cez web. Najlepšie je použiť adresár mimo verejného web adresára.</p>
-<p>Ak presuniete dátový adresár, potrebujete aktualizovať hodnotu <code>$CFG->dataroot</code> v súbore <code>config.php</code>.</p>';
+<p>Ak presuniete dátový adresár, potrebujete aktualizovať hodnotu <code>\$CFG->dataroot</code> v súbore <code>config.php</code>.</p>';
 $string['check_unsecuredataroot_error'] = 'Dátový adresár <code>$a</code> je nesprávne umiestnený a jeho obsah je dostupný cez web!';
 $string['check_unsecuredataroot_name'] = 'Umiestnenie dátového adresára';
 $string['check_unsecuredataroot_ok'] = 'Dátový adresár nesmie byť dostupný cez web.';

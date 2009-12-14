@@ -148,7 +148,7 @@ $string['cronremotepassword'] = 'Hasło dla zdalnego dostępu do Cron-a';
 $string['cronwarning'] = 'Skrypt <a href=\"cron.php\">cron.php</a> nie był uruchamiany od co najmniej 24 godzin.';
 $string['csvdelimiter'] = 'Separator pola pliku CSV';
 $string['datarootsecurityerror'] = '<p><strong>OSTRZEŻENIE: LUKA BEZPIECZEŃSTWA!</strong></p><p>Twój główny katalog danych umieszczony jest w złym miejscu i przez to jest bezpośrednio dostępny z sieci. Oznacza to, że każdy użytkownik sieci internet może mieć dostęp do twoich prywatnych plików, a mogą być one użyte, aby uzyskać pełną kontrolę nad twoim serwisem!</p>
-<p><em>Musisz</em> przenieść główny katalog danych ($a) <em>poza</em> katalog publicznie dostępny z sieci i uaktualnić ustawienie <code>$CFG->dataroot</code> w config.php .</p>';
+<p><em>Musisz</em> przenieść główny katalog danych ($a) <em>poza</em> katalog publicznie dostępny z sieci i uaktualnić ustawienie <code>\$CFG->dataroot</code> w config.php .</p>';
 $string['datarootsecuritywarning'] = 'Konfiguracja strony może nie być bezpieczna. Upewnij się, że główny katalog z danymi ($a) nie jest dostępny bezpośrednio z sieci.';
 $string['dbmigrate'] = 'Migracja bazy danych moodle';
 $string['dbmigrateconnecerror'] = 'Nie można było połączyć się ze wskazaną bazą danych';

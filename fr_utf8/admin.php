@@ -55,8 +55,8 @@ $string['cannotdeletemodfilter'] = 'Vous ne pouvez pas désinstaller « {$a->fi
 $string['cannotdeletemissingqtype'] = 'Vous ne pouvez pas supprimer le type manquant, qui est requis par le système.';
 $string['cannotdeleteqtypeinuse'] = 'Vous ne pouvez pas supprimer le type « {$a} », car il y a des questions de ce type dans la banque de questions.';
 $string['cannotdeleteqtypeneeded'] = 'Vous ne pouvez pas supprimer le type « {$a} », car d\'autres types de question installés en ont besoin.';
-$string['cfgwwwrootwarning'] = 'Le paramètre $CFG->wwwroot est défini incorrectement dans votre fichier config.php. Il ne correspond pas à l\'URL que vous utilisez pour accéder à cette page. Veuillez le corriger, sans quoi vous souffrirez de bogues bizarres, comme celui décrit ici : <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
-$string['cfgwwwrootslashwarning'] = 'Le paramètre $CFG->wwwroot est défini incorrectement dans votre fichier config.php. Vous y avez placé une barre oblique « / » à la fin. Veuillez la retirer, sans quoi vous souffrirez de bogues bizarres, comme celui décrit ici : <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootwarning'] = 'Le paramètre \$CFG->wwwroot est défini incorrectement dans votre fichier config.php. Il ne correspond pas à l\'URL que vous utilisez pour accéder à cette page. Veuillez le corriger, sans quoi vous souffrirez de bogues bizarres, comme celui décrit ici : <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootslashwarning'] = 'Le paramètre \$CFG->wwwroot est défini incorrectement dans votre fichier config.php. Vous y avez placé une barre oblique « / » à la fin. Veuillez la retirer, sans quoi vous souffrirez de bogues bizarres, comme celui décrit ici : <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'Changer';
 $string['changesitelang'] = 'Changer la langue du site';
 $string['checkboxyes'] = 'Oui';

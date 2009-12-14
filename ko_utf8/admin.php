@@ -333,7 +333,7 @@ $string['curlrecommended'] = '무들 네트웍 기능을 활성화하기 위해�
 $string['curlrequired'] = '무들 저장소와 교신하기 위해서는 cURL 확장이 필요합니다.';
 $string['customcheck'] = '다른 점검들';
 $string['datarootsecurityerror'] = '<p><strong>보안 경고!</strong></p><p>자료 경로가 잘못되어 웹에 누출되었습니다. 이는 이곳의 모든 파일을 전세계 어느 누구라도 사용할 수 있으며, 어떤 것들은 크래커에 의해 사이트에 불법으로 접속할 수 있는 단서를 제공할 수 있습니다!</p>
-<p>따라서  <em>반드시</em> 자료 경로 ($a)를 공개적인 웹으로는 접속할 수 없는 새 장소로 옮겨야 할 뿐만 아니라, config.php안의 <code>$CFG->dataroot</code> 설정을 고쳐야 합니다.</p>';
+<p>따라서  <em>반드시</em> 자료 경로 ($a)를 공개적인 웹으로는 접속할 수 없는 새 장소로 옮겨야 할 뿐만 아니라, config.php안의 <code>\$CFG->dataroot</code> 설정을 고쳐야 합니다.</p>';
 $string['datarootsecuritywarning'] = '사이트가 안전해 보이지 않습니다. 데이터경로 ($a)를 직접 웹으로 접속할 수 없도록 조치하기 바랍니다.';
 $string['dbmigrate'] = '무들 데이터베이스 변경';
 $string['dbmigrateconnecerror'] = '지정한 데이터 베이스에 연결할 수 없습니다.';

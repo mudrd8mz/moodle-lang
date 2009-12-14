@@ -182,7 +182,7 @@ $string['configintrosite'] = 'Orri honek orri nagusia konfiguratzen eta zure gun
 $string['configintrotimezones'] = 'Orri honek ordutegi-eremuen inguruko informazio berria bilatuko du (eguzkiaren argia aprobetxatuta energia aurrezteko neurriak barne) eta informazio horrekin eguneratuko du zure datu-basea. Orden honetan konprobatuko dira gune horiek: $a Prozedura hau segurua izan ohi da eta ohiko instalazioei ez die eragiten. Orain eguneratu nahi al dituzu ordutegi-guneak?';
 $string['configiplookup'] = 'IP helbidean sakatzen duzunean (adib. 34.12.222.93), erregistroetan bezalaxe, IP horren kokapen ahalik eta zehatzena emango dizu mapan. Hori egiteko, hainbat plugin daude eta aukeratu egin ahal duzu. Bakoitzak bere abantailak eta desabantailak ditu.';
 $string['configkeeptagnamecase'] = 'Aukera ezazu hau etiken izenek jatorrizko \'casing\'-a mantentzea  nahi baduzu, sortu zuten erabiltzaileek sartutako bezala';
-$string['configlang'] = 'Aukera ezazue gune osoarekiko lehenetsitako hizkuntza. Erabiltzaileek baliogabe egin ahal izango dute ondoren ezarpen hau. $CFG->lang=\"yourlangcode_utf8\" ere ezar dezakezu config.php-n datu-basearen konexioaren errore-mezuak atzeman nahi badituzu.';
+$string['configlang'] = 'Aukera ezazue gune osoarekiko lehenetsitako hizkuntza. Erabiltzaileek baliogabe egin ahal izango dute ondoren ezarpen hau. \$CFG->lang=\"yourlangcode_utf8\" ere ezar dezakezu config.php-n datu-basearen konexioaren errore-mezuak atzeman nahi badituzu.';
 $string['configlangcache'] = 'Hizkuntzaren menuaren cachea. Memoria eta prozesamendu-potentzia handia aurrezten du honek. Indarrean jarriz gero, hizkuntzak eransten edo ezabatzen dituzunean menuak minutu batzuk beharko ditu eguneratzeko.';
 $string['configlangdir'] = 'Hizkuntza gehienetan ezkerretik eskuinera idazten da, baina batzuetan (ad., arabiera, hebraiera) alderantziz idazten da.';
 $string['configlanglist'] = 'Erabiltzaileek Moodle-ren instalazioan dagoen edozein hizkuntza aukeratzeko hau zuriz utz dezakezu. Hala ere, menua laburbil daiteke kakotxez banandutako nahi dituzun hizkuntzen kodeen zerrenda idatziz. Adibidez, eu,fr,it,en,es';
@@ -320,7 +320,7 @@ $string['curlrecommended'] = 'Gomendagarria da oso cURl liburutegia instalatzea 
 $string['curlrequired'] = 'Moodle-k orain cURL PHP luzapena behar du, Moodle biltegiekin harremanetan jartzeko.';
 $string['customcheck'] = 'Beste konprobazio batzuk';
 $string['datarootsecurityerror'] = '<p><strong>SEGURTASUN-ALERTA!</strong></p><p>Zure dataroot direktorioa ez dago ondo kokatuta eta agerian dago web-ean. Horrek esan nahi du zure fitxategi pribatuak edozeinek eskura ditzakeela eta horietako batzuk edozein cracker-ek erabil ditzake zure gunean baimenik gabe sartzeko!</p>
-<p>Mugitu egin <em>behar</em> duzu dataroot direktorioa ($a) kokapen berri batera, zure web direktorio publikotik kanpo, eta ondorioz eguneratu <code>$CFG->dataroot</code> ezarpena zure config.php-en.</p>';
+<p>Mugitu egin <em>behar</em> duzu dataroot direktorioa ($a) kokapen berri batera, zure web direktorio publikotik kanpo, eta ondorioz eguneratu <code>\$CFG->dataroot</code> ezarpena zure config.php-en.</p>';
 $string['datarootsecuritywarning'] = 'Zure gunearen konfigurazioa agian ez da segurua izango. Mesedez, ziurta ezazu zure sustrai-direktoriora ($a) ezin dela zuzenean web-etik heldu.';
 $string['dbmigrate'] = 'Moodle-ko datu-baserako migrazioa';
 $string['dbmigrateconnecerror'] = 'Ezin izan da zehaztutako datu-basera konektatu';

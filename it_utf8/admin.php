@@ -364,7 +364,7 @@ $string['curlrecommended'] = 'L\'installazione della libreria opzionale Curl è 
 $string['curlrequired'] = 'L\'estensione PHP cURL è necessaria per consentire a Moodle di comunicare  con i repostory.';
 $string['customcheck'] = 'Altri controlli';
 $string['datarootsecurityerror'] = '<p><strong>AVVISO PER LA SICUREZZA!</strong></p><p>La tua cartella dataroot directory è in una posizione sbagliata ed è esposta al web. Questo significa che tutti i tuoi file privati sono accessibili da chiunque nel mondo, e qualcuno di questi potrebbe essere usato da un cracker per ottenere un accesso non autorizzato come amministartore del tuo sito!</p>
-<p><em>Devi</em> spostare la cartella dataroot ($a) in un\'altra posizione che non sia nella cartella pubblica per il web, e aggiornare di conseguenza l\'impostazione <code>$CFG->dataroot</code> nel tuo config.php.</p>';
+<p><em>Devi</em> spostare la cartella dataroot ($a) in un\'altra posizione che non sia nella cartella pubblica per il web, e aggiornare di conseguenza l\'impostazione <code>\$CFG->dataroot</code> nel tuo config.php.</p>';
 $string['datarootsecuritywarning'] = 'La configurazione del tuo sito potrebbe non essere al sicuro. Accertati che la tua cartella dataroot ($a) non sia direttamente accessibile via web.';
 $string['dbmigrate'] = 'Migrazione base di dati Moodle';
 $string['dbmigrateconnecerror'] = 'Non è possibile connettersi alla base dati specificata.';

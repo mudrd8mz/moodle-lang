@@ -295,7 +295,7 @@ $string['ctyperequired'] = 'Rozšíření PHP ctype je Moodlem vyžadováno z d�
 $string['curlrecommended'] = 'Pro běh síťových funkcionalit (\"Moodle Networking\") je potřeba nainstalovat volitelnou knihovnu Curl.';
 $string['customcheck'] = 'Další kontroly';
 $string['datarootsecurityerror'] = '<p><strong>BEZPEČNOSTNÍ VAROVÁNÍ!</strong></p><p>Váš datový adresář (dataroot) je chybně umístěn a je přímo dostupný přes WWW. Všechny privátní soubory Moodlu jsou dostupné komukoliv na Internetu. Některé z nich mohou posloužit útočníkům k získání neoprávněného přístupu na úrovni správce vašeho serveru!</p>
-<p><em>Musíte</em> přesunout váš datový adresář ($a) tak, aby nebyl ve veřejném webovém adresáři a adekvátně tomu upravit nastavení <code>$CFG->dataroot</code> v souboru config.php.</p>';
+<p><em>Musíte</em> přesunout váš datový adresář ($a) tak, aby nebyl ve veřejném webovém adresáři a adekvátně tomu upravit nastavení <code>\$CFG->dataroot</code> v souboru config.php.</p>';
 $string['datarootsecuritywarning'] = 'Bezpečnostní varování - zkontrolujte si, že datový adresář ($a) není přímo dostupný přes webové rozhraní.';
 $string['dbmigrate'] = 'Migrace databáze Moodlu';
 $string['dbmigrateconnecerror'] = 'Nelze se připojit k určené databázi.';

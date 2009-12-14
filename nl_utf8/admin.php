@@ -339,7 +339,7 @@ $string['curlrecommended'] = 'Het installeren van de optionele Curl bibliotheek 
 $string['curlrequired'] = 'De cURL PHP-extentie is nu vereist in Moodle om te kunnen communiceren met Moodle bewaarplaats';
 $string['customcheck'] = 'Andere controles';
 $string['datarootsecurityerror'] = '<p><strong>BEVEILIGINGSWAARSCHUWING!</strong></p><p>Je dataroot map staat op de verkeerde plaats en is bereikbaar vanop het internet. Dit betekent dat al je bestanden voor iedereen beschikbaar zijn en dat sommige bestanden kunnen gebruikt worden door een cracker om toegang tot je site te krijgen als beheerder!</p>
-<p>Je <em>moet</em> de dataroot map ($a) verplaatsen naar een andere plaats die buiten je publieke webmap is en de <code>$CFG->dataroot</code>-instelling in je config.php aanpassen.</p>';
+<p>Je <em>moet</em> de dataroot map ($a) verplaatsen naar een andere plaats die buiten je publieke webmap is en de <code>\$CFG->dataroot</code>-instelling in je config.php aanpassen.</p>';
 $string['datarootsecuritywarning'] = 'De configuratie van je site zou onveilig kunnen zijn. Zorg er voor dat je dataroot map ($a) niet toegankelijk is vanaf het internet.';
 $string['dbmigrate'] = 'Migratie van de Moodle databank naar UTF8';
 $string['dbmigrateconnecerror'] = 'Kon niet met de opgegeven databank verbinden';

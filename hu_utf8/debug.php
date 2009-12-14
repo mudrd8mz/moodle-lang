@@ -23,7 +23,7 @@ $string['dbnotsupport'] = 'Hiba: adatbázisát ($a) a Moodle nem teljesen támog
 $string['dbnotupdate'] = 'Adatbázishiba - a(z) ($a) nem frissíthető.';
 $string['doesnotworkwitholdversion'] = 'A szkript nem működik a Moodle ezen régi változatával.';
 $string['erroroccur'] = 'Hiba történt a folyamat során.';
-$string['fixsetting'] = 'Módosítsa beállításait a config.php állományban: <p>Ez jelenleg:</p> <p>$CFG->dirroot = \"$a->current\";</p> <p>helyesen pedig:</p> <p>$CFG->dirroot = \"$a->found\"</p>';
+$string['fixsetting'] = 'Módosítsa beállításait a config.php állományban: <p>Ez jelenleg:</p> <p>\$CFG->dirroot = \"$a->current\";</p> <p>helyesen pedig:</p> <p>\$CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = 'Hibás tömbméret a(z) $a paramétereiben';
 $string['invalideventdata'] = 'Hibás eseményadatot adott meg: $a.';
 $string['missingconfigversion'] = 'A konfigurációs táblázatban nem szerepel a verzió, nem lehet továbblépni.';

@@ -278,7 +278,7 @@ $string['ctyperequired'] = 'A hores d\'ara Moodle requereix l\'extensió de PHP 
 $string['curlrecommended'] = 'Es recomana instal·lar la biblioteca opcional Curl a fi d\'habilitar la funcionalitat de Moodle en Xarxa.';
 $string['customcheck'] = 'Altres comprovacions';
 $string['datarootsecurityerror'] = '<p><strong>AVÍS DE SEGURETAT</strong></p><p>El vostre directori de dades es troba en una ubicació incorrecta i està exposat al web. Això vol dir que tots els vostres fitxers privats són accessibles per a tothom i alguns poden ser utilitzats per pirates a fi d\'obtenir accés administratiu no autoritzat al vostre lloc.</p>
-<p><em>Cal</em> que traslladeu el directori de dades ($a) a una altra ubicació que no estigui dins del directori web públic i actualitzeu el paràmetre <code>$CFG->dataroot</code> del config.php.</p>';
+<p><em>Cal</em> que traslladeu el directori de dades ($a) a una altra ubicació que no estigui dins del directori web públic i actualitzeu el paràmetre <code>\$CFG->dataroot</code> del config.php.</p>';
 $string['datarootsecuritywarning'] = 'La configuració d\'aquest lloc podria no ser segura. Cercioreu-vos que el directori de dades ($a) no és accessible directament via web.';
 $string['dbmigrate'] = 'Migració de la base de dades de Moodle';
 $string['dbmigrateconnecerror'] = 'No s\'ha pogut establir la connexió amb la base de dades especificada.';

@@ -115,7 +115,7 @@ $string['viewphpcode'] = 'Gweld Cod PHP';
 $string['viewsqlcode'] = 'Gweld Cod SQL';
 $string['wronglengthforenum'] = 'Hyd anghywir ar gyfer maes enum';
 $string['wrongnumberoffieldsorvalues'] = 'Nifer anghywir o feysydd neu werthoedd yn y frawddeg';
-$string['wrongreservedwords'] = 'Geiriau ar Gadw sydd wedi\'u Defnyddio<br />(sylwch nad yw enwau\'r tabl yn bwysig os ydych yn defnyddio llythrennau blaen $CFG->)';
+$string['wrongreservedwords'] = 'Geiriau ar Gadw sydd wedi\'u Defnyddio<br />(sylwch nad yw enwau\'r tabl yn bwysig os ydych yn defnyddio llythrennau blaen \$CFG->)';
 $string['yesmissingindexesfound'] = 'Wedi dod o hyd i rai mynegeion coll yn eich DB. Dyma eu manylion a\'r datganiadau SQL angenrheidiol i\'w gweithredu gyda\'ch hoff rhyngwyneb SQL er mwyn creu pob un ohonynt.<br /><br />Ar ôl gwneud hynny, argymhellir yn gryf eich bod yn gweithredu\'r cyfleuster hwn eto i sicrhau nad yw\'n dod o hyd i ragor o fynegeion coll.';
 
 ?>

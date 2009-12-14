@@ -98,7 +98,7 @@ $string['check_riskxss_details'] = '<p>RISK_XSS wijst alle gevaarlijk mogelijkhe
 $string['check_riskxss_name'] = 'XSS vertrouwde gebruikers';
 $string['check_riskxss_warning'] = 'RISK_XSS vond $a vertrouwde gebruikers.';
 $string['check_unsecuredataroot_details'] = '<p>De dataroot-map mag niet toegankelijk zijn vanaf het internet. De beste manier om er voor te zorgen dat deze map niet toegankelijk is, is ze aan te maken buiten de publieke web-map.</p>
-<p>Als je de map verplaatst, dan moet je de <code>$CFG->dataroot</code>-instelling in <code>config.php</code> ook aanpassen.</p>';
+<p>Als je de map verplaatst, dan moet je de <code>\$CFG->dataroot</code>-instelling in <code>config.php</code> ook aanpassen.</p>';
 $string['check_unsecuredataroot_error'] = 'Je dataroot-map <code>$a</code> staat op de verkeerde plaats en is toegankelijk vanaf het internet!';
 $string['check_unsecuredataroot_name'] = 'Onveilige dataroot';
 $string['check_unsecuredataroot_ok'] = 'De dataroot-map mag niet toegankelijk zijn vanaf het internet.';

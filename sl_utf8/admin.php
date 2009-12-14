@@ -289,7 +289,7 @@ $string['ctyperequired'] = 'Razširitev ctype za PHP je sedaj nujna za delovanje
 $string['curlrecommended'] = 'Zelo priporočena je namestitev opcijske Curl knjižice za omogočanje funkcij Moodle omrežja.';
 $string['customcheck'] = 'Ostali pregledi';
 $string['datarootsecurityerror'] = '<p><strong>VARNOSTNO OPOZORILO!</strong></p><p>Korenski imenik (dataroot) je na napačni lokaciji in je viden s spleta. To pomeni, da so vaše zasebne datoteke vidne vsemu svetu, nekatere od teh pa bi lahko zlonamernim uporabnikom omogočile pridobitev nepooblaščenega administracijskega dostopa do vašega strežnika!</p>
-<p>Vaš korenski imenik ($a) <em>morate</em> premakniti na novo lokacijo, ki ni del vašega javnega spletnega imenika. Potem popravite nastavitev <code>$CFG->dataroot</code> v datoteki config.php na novo lokacijo.</p>';
+<p>Vaš korenski imenik ($a) <em>morate</em> premakniti na novo lokacijo, ki ni del vašega javnega spletnega imenika. Potem popravite nastavitev <code>\$CFG->dataroot</code> v datoteki config.php na novo lokacijo.</p>';
 $string['datarootsecuritywarning'] = 'Konfiguracija vašega spletnega mesta morda ni varna. Prosimo, prepričajte se, da vaš korenski podatkovni imenik ($a)(dataroot) ni neposredno dostopen s spleta.';
 $string['dbmigrate'] = 'Selitev podatkovne zbirke Moodle';
 $string['dbmigrateconnecerror'] = 'Povezave z navedeno podatkovno zbirko ni mogoče vzpostaviti.';

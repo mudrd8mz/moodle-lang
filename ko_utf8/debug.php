@@ -23,7 +23,7 @@ $string['dbnotsupport'] = '오류: 데이터베이스($a)가 아직 무들에 �
 $string['dbnotupdate'] = '데이터베이스 오류 - ($a)를 갱신할 수 없음';
 $string['doesnotworkwitholdversion'] = '무들의 예전 판에서는 이 스크립트가 작동하지 않음';
 $string['erroroccur'] = '현재의 과정에서 오류가 발생함';
-$string['fixsetting'] = 'config.php의 설정을 조절하십시오. <p>현재설정</p> <p>$CFG->dirroot = \"$a->current\"; 를</p> <p>$CFG->dirroot = \"$a->found\" 로 바꾸어야 합니다</p>';
+$string['fixsetting'] = 'config.php의 설정을 조절하십시오. <p>현재설정</p> <p>\$CFG->dirroot = \"$a->current\"; 를</p> <p>\$CFG->dirroot = \"$a->found\" 로 바꾸어야 합니다</p>';
 $string['invalidarraysize'] = '$a 매개변수의 틀린 어레이 크기';
 $string['invalideventdata'] = '틀린 이벤트 자료 제시: $a';
 $string['missingconfigversion'] = '설정 테이블의 판번호 누락, 계속할 수 없습니다.';

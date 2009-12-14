@@ -101,6 +101,6 @@ $string['viewphpcode'] = 'PHP код харах';
 $string['viewsqlcode'] = 'SQL код харах';
 $string['wronglengthforenum'] = 'Enum талбарын урт буруу байна';
 $string['wrongnumberoffieldsorvalues'] = 'Өгүүлбэрийн талбарын тоо эсвэл утгууд буруу байна';
-$string['wrongreservedwords'] = 'Ашиглагдаж буй нөөцлөгдсөн үгс<br />($CFG->prefix -г ашиглаж байгаа бол хүснэгтийн нэр чухал биш гэдгийг анхаар)';
+$string['wrongreservedwords'] = 'Ашиглагдаж буй нөөцлөгдсөн үгс<br />(\$CFG->prefix -г ашиглаж байгаа бол хүснэгтийн нэр чухал биш гэдгийг анхаар)';
 
 ?>

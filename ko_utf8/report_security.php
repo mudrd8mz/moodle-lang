@@ -97,7 +97,7 @@ $string['check_riskxss_details'] = '<p>인증된 사용자들에게 부여된 �
 $string['check_riskxss_name'] = 'XSS 인증된 사용자';
 $string['check_riskxss_warning'] = 'RISK_XSS - 검증할 $a 사용자 발견';
 $string['check_unsecuredataroot_details'] = '<p>데이터 경로는 웹으로 접속되어서는 안됨. 최선의 방법은 웹 디렉토리 외부에 있는 웹접속이 차단된 경로에 만들어 두는 것임</p>
-<p>경로를 옮긴 후, <code>config.php</code>의 <code>$CFG->dataroot</code>의 값도 변경해 주어야 함을 잊지 말 것</p>';
+<p>경로를 옮긴 후, <code>config.php</code>의 <code>\$CFG->dataroot</code>의 값도 변경해 주어야 함을 잊지 말 것</p>';
 $string['check_unsecuredataroot_error'] = '데이터 경로 <code>$a</code> 가 잘 못 지정되어 있으며 웹에 노출되어 있음!';
 $string['check_unsecuredataroot_name'] = '데이터 경로 보안 취약';
 $string['check_unsecuredataroot_ok'] = '데이터 경로는 웹으로 접속할 수 없어야만 함';

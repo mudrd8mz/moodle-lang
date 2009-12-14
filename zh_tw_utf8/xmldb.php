@@ -118,7 +118,7 @@ $string['wrongdefaults'] = '發現錯誤的預設值';
 $string['wrongints'] = '發現錯誤的整數資料';
 $string['wronglengthforenum'] = '列舉(enum)欄位的長度不正確';
 $string['wrongnumberoffieldsorvalues'] = '子句中欄位或值的數量不正確';
-$string['wrongreservedwords'] = '目前使用的保留字<br/>（如果資料表名稱使用{$CFG->prefix}，就不用留意這個問題）';
+$string['wrongreservedwords'] = '目前使用的保留字<br/>（如果資料表名稱使用{\$CFG->prefix}，就不用留意這個問題）';
 $string['yesmissingindexesfound'] = '已經在您的資料庫中找到了一些遺失的索引資料。下面列出了關於它們的詳細情況以及建立它們的命令，您可以在SQL客戶端中執行它們。<br /><br />完成這個操作後，建議您重新執行這個工具，以確認沒有更多遺失的索引資料。';
 
 ?>

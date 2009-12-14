@@ -307,7 +307,7 @@ $string['ctyperequired'] = 'Con el fin de mejorar el rendimiento del sitio y ofr
 $string['curlrecommended'] = 'Se recomienda encarecidamente instalar la librería opcional Curl a fin de posibilitar la funcionalidad de la Red Moodle.';
 $string['customcheck'] = 'Otras comprobaciones';
 $string['datarootsecurityerror'] = '<p><strong>¡ADVERTENCIA DE SEGURIDAD!</strong></p><p>Su directorio dataroot está en una ubicación errónea y está expuesto a la web. Esto significa que cualquiera desde cualquier lugar puede acceder a todos sus archivos privados y que algunos de ellos podrían ser usados por un cracker para obtener acceso no autorizado al sitio.</p>
-<p>Usted <em>debe</em> cambiar el directorio dataroot ($a) a una nueva ubicación fuera de su directorio web público y actualizar el correspondiente ajuste de <code>$CFG->dataroot</code> en su config.php.</p>';
+<p>Usted <em>debe</em> cambiar el directorio dataroot ($a) a una nueva ubicación fuera de su directorio web público y actualizar el correspondiente ajuste de <code>\$CFG->dataroot</code> en su config.php.</p>';
 $string['datarootsecuritywarning'] = 'La configuración de su sitio podría no ser segura. Por favor, asegúrese de que su directorio raíz ($a) no es accesible directamente vía web.';
 $string['dbmigrate'] = 'Migración a Base de Datos de Moodle';
 $string['dbmigrateconnecerror'] = 'No se ha podido conectar a la base de datos especificada';
