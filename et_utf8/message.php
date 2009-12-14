@@ -3,7 +3,7 @@
 $string['addcontact']='Lisa kontakt';
 $string['addsomecontacts']='Et saata kellelelgi sõnumit, kasuta ülalolevat <a href=\"$a\">otsingu sakki</a>';
 $string['addsomecontactsincoming']='Need sõnumid on inimestelt, kes ei ole sinu kontkatide listis. Et lisada nad oma kontaktidesse, kliki \"Lisa kontakt\" ikooni nimede kõrval.';
-$string['ago']='$ tagasi';
+$string['ago']='??? tagasi';
 $string['allmine']='Kõik sõnumid, mis mulle on saadetud või mis ma ise olen saatnud.';
 $string['allstudents']='Kõik sõnumid kursusel õppijate vahel';
 $string['allusers']='Kõik sõnumid kõikidelt kasutajatelt';

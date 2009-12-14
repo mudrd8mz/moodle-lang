@@ -3,7 +3,7 @@
 $string['enrolname'] = 'ការ​តបណ្ដាញ Moodle';
 $string['allow_allcourses'] = 'អនុញ្ញាត​ការ​ចុះឈ្មោះ​នៅ​ក្នុង​វគ្គសិក្សា​ពីចម្ងាយ​ទាំងអស់ ។';
 $string['allcategories'] = 'ប្រភេទ​ចម្បង $a';
-$string['allowedcategories'] = 'ប្រភេទ​ដែល​បាន​អនុញ្ញាត $';
+$string['allowedcategories'] = 'ប្រភេទ​ដែល​បាន​អនុញ្ញាត ???';
 $string['nocategoriesdefined'] = 'រក​មិនឃើញ​ប្រភេទ​វគ្គសិក្សា​ទេ ។ កំណត់​ប្រភេទ​ថ្មី​<a href=\"$a\">នៅ​ទីនេះ</a> ។';
 $string['allcourses'] = 'វគ្គសិក្សា​ចម្បង $a';
 $string['allowedcourses'] = 'វគ្គសិក្សា​ដែល​បាន​អនុញ្ញាត $a';

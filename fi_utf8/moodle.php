@@ -1066,7 +1066,7 @@ $string['notify'] = 'Ilmoitus';
 $string['notifyloginfailuresmessage'] = '$a->time, IP: $a->ip, Käyttäjä: $a->info';
 $string['notifyloginfailuresmessageend'] = 'Voit katsella näitä tapahtumia osoitteessa $a/course/log.php?id=1&chooselog=1&modid=site_errors.';
 $string['notifyloginfailuresmessagestart'] = 'Tässä on lista epäonnistuneista kirjautumisyrityksistä $a edellisen ilmoituksen jälkeen';
-$string['notifyloginfailuressubject'] = '$ :: Epäonnistuneiden kirjautumisyritysten ilmoitus';
+$string['notifyloginfailuressubject'] = '??? :: Epäonnistuneiden kirjautumisyritysten ilmoitus';
 $string['notincluded'] = 'Ei  mukana';
 $string['notingroup'] = 'Sinun pitää olla ryhmän jäsen nähdäksesi tämän aktiviteetin.';
 $string['notpublic'] = 'Ei julkinen!';

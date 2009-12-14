@@ -117,7 +117,7 @@ $string['tofilecontext'] = 'Fitxategiari testuingurua idatzi';
 $string['unknown'] = 'Ezezaguna';
 $string['unknownquestiontype'] = 'Galdera-mota ezezaguna: $a.';
 $string['unpublished'] = 'Argitaratu gabe';
-$string['upgradeproblemcategoryloop'] = 'Galdera-kategoriak eguneratzean arazo bat atzeman da. Kategoria-zuhaitzean begizta (loop) bat dago. Horren eraginpeko kategorien ID-ak $ dira.';
+$string['upgradeproblemcategoryloop'] = 'Galdera-kategoriak eguneratzean arazo bat atzeman da. Kategoria-zuhaitzean begizta (loop) bat dago. Horren eraginpeko kategorien ID-ak ??? dira.';
 $string['upgradeproblemcouldnotupdatecategory'] = 'Ezin da ondoko galdera-kategoria eguneratu: $a->name ($a->id).';
 $string['upgradeproblemunknowncategory'] = 'Arazoa atzemena da galdera-kategoriak eguneratzean. $a->id kategoria  $a->parent goragoko kategoriari dagokio eta ez da existitzen. Arazoa konpontzeko, goragoko kategoria aldatu egin da.';
 $string['yourfileshoulddownload'] = 'Esportatzeko fitxategiak berehala hasi beha luke jaisten. Horrela gertatu ezean, mesedez, <a href=\"$a\">egin klik hemen</a>.';

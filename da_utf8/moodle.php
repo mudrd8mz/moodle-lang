@@ -1077,7 +1077,11 @@ $string['nousersmatching'] = 'Ingen passende \"$a\" blev fundet';
 $string['nousersyet'] = 'Ingen brugere endnu';
 $string['novalidcourses'] = 'Der er ingen gyldige kurser at vise';
 $string['now'] = 'nu';
+<<<<<<< HEAD:da_utf8/moodle.php
 $string['numattempts'] = '\$ forkerte loginforsøg';
+=======
+$string['numattempts'] = '??? forkerte loginforsøg';
+>>>>>>> languages MDL-21048 replacing single $ with ???:da_utf8/moodle.php
 $string['numberweeks'] = 'Antal uger/emner';
 $string['numdays'] = '$a dage';
 $string['numhours'] = '$a timer';

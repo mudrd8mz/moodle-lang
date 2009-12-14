@@ -26,8 +26,8 @@ $string['error_emptyquizrecord'] = 'Hiện đang có lỗi ở khối này: bài
 $string['error_nogroupsexist'] = 'Hiện đang có lỗi ở khối này: cần hiển thị theo nhóm, nhưng khoá học không có phân nhóm.';
 $string['formaltitle'] = 'Kết quả bài trắc nghiệm';
 $string['worstgrade'] = 'Điểm số thấp nhất:';
-$string['worstgrades'] = '$ điểm số thấp nhất:';
+$string['worstgrades'] = '??? điểm số thấp nhất:';
 $string['worstgroupgrade'] = 'Nhóm có điểm bình quân thấp nhất:';
-$string['worstgroupgrades'] = '$ nhóm có điểm bình quân thấp nhất:';
+$string['worstgroupgrades'] = '??? nhóm có điểm bình quân thấp nhất:';
 
 ?>

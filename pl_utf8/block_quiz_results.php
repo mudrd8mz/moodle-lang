@@ -27,6 +27,6 @@ $string['formaltitle'] = 'Wynik quizu';
 $string['worstgrade'] = 'Najniższy stopień:';
 $string['worstgrades'] = '$a najniższych stopni:';
 $string['worstgroupgrade'] = 'Grupa z najniższą średnia:';
-$string['worstgroupgrades'] = '$ grup z najniższą średnią:';
+$string['worstgroupgrades'] = '??? grup z najniższą średnią:';
 
 ?>

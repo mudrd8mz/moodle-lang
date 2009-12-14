@@ -21,7 +21,7 @@ $string['error_emptyquizrecord'] = 'Зараз у гэтым блоку памы
 $string['error_nogroupsexist'] = 'Зараз у гэтым блоку памылка: ён настроены на паказ ацэнак у рэжыме групы, але ў курсе няма вызначаных груп.';
 $string['formaltitle'] = 'Вынікі тэсту';
 $string['worstgrade'] = 'Найменшая адзнака:';
-$string['worstgrades'] = '$ найменшыя адзнакі:';
+$string['worstgrades'] = '??? найменшыя адзнакі:';
 $string['worstgroupgrade'] = 'Група з найменшай сярэдняй адзнакай:';
 $string['worstgroupgrades'] = '$a груп з найменшай сярэдняй адзнакай:';
 
