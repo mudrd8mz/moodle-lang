@@ -10,7 +10,7 @@ $string['auth_ldap_create_context'] = 'Afai ua e fa\'atagaina le fa\'amaoniga o 
 $string['auth_ldap_creators'] = 'Lisi o kulupu e i ai le fa\'atanaga e amatalia ni vasega fou.  Tu\'ueseese le to\'atele o kulupu e ala lea i le fa\'aogaina o le \';\'. E masani lava ona pei o le \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_host_url'] = 'Fa\'amaoti mai le vaega i le URL e pei o le \'ldap://ldap.myorg.com/\' po\'o le \'ldaps://ldap.myorg.com/\'';
 $string['auth_ldap_objectclass'] = 'Mo le fa\'afaigofieina o le suega o e o loo i le polokalame, fa\'aaoga le objectClass=posixAccount. E fa\'aotometiina ona seti i le objectClass=* e maua uma mai ai e o loo i le LDAP.';
-$string['auth_ldap_search_sub'] = 'Fa\'aoga le $lt>0 pea fia su\'eina se isi mai le sapuseti o lmea o loo fa\'amautu ai.';
+$string['auth_ldap_search_sub'] = 'Fa\'aoga le &lt;>0 pea fia su\'eina se isi mai le sapuseti o lmea o loo fa\'amautu ai.';
 $string['auth_ldap_update_userinfo'] = 'Fa\'afouina o igoa fa\'aoga ma fa\'amatalaga o e o loo i le polokalame (igoa muamua, fa\'ai\'u, tuatusi...)mai le LDAP e aga\'i atu i le MOODle.  Tilotilo i le /auth/ldap/attr_mappings.php mo le fa\'asinoina o fa\'amatalaga.';
 $string['auth_ldap_user_attribute'] = 'Mea patino o lo\'o fa\'aaogaina e su\'eina ai igoa/su\'e igoa. Masani ona fa\'aaoga le \'cn\'.';
 $string['auth_ldap_version'] = 'Le fausaga o le LDAP ma le fausaga o loo fa\'aaogaina e le polokalame.';

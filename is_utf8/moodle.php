@@ -1537,7 +1537,7 @@ $a->action
 Viðkomandi notandi hefur fengið samsvarandi tilkynningu.';
 $string['virusfoundlateradminnolog'] = 'Ath. kerfisstjóri! Skráin $a->filename hefur verið greind með vírus. Eftirfarandi aðgerðir voru framkvæmdar:
 $a->action';
-$string['virusfoundsubject'] = '$: Vírus fannst!';
+$string['virusfoundsubject'] = '$a: Vírus fannst!';
 $string['virusfounduser'] = 'Innflutt skrá, $a->filename, hefur verið yfirfarin af vírusvörn og samkvæmt henni er skráin smituð af vírus. Innflutningur skráar heppnaðist EKKI.';
 $string['virusplaceholder'] = 'Innlesin skrá inniheldur vírus og hefur verið færð eða fjarlægð og viðkomandi notandi látinn vita.';
 $string['visible'] = 'Sýnilegt $a';

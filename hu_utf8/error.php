@@ -98,7 +98,7 @@ $string['upgradefail'] = 'A változatra váltás sikertelen! $a.';
 $string['userselectortoomany'] = 'A user_selector-hoz több felhasználó tartozik, jóllehet, a multiselect értéke hamis.';
 $string['youcannotdeletecategory'] = 'A(z) \'$a\' kategóriát nem törölheti, mert a tartalmat nem törölheti, és nem is helyezheti át.';
 
-$string['boundsyntaxnotsupport'] = 'A $1, $2 szintaxist a rendszer még nem támogatja! :-(';
+$string['boundsyntaxnotsupport'] = 'A \$1, \$2 szintaxist a rendszer még nem támogatja! :-(';
 $string['cannofindgradeitem'] = 'Nem található a grade_item';
 $string['cannotupdatepasswordonextauth'] = 'Nem sikerült frissíteni a jelszót a külső auth: $a esetén. További részleteket talál a szervernaplkókban.';
 $string['cannotupdateplugincap'] = 'A(z) $a képességek frissítése nem sikerült!';

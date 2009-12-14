@@ -135,6 +135,6 @@ $string['usernotupdatednotexists'] = 'ޔޫސަރ އަޕްޑޭޓެއް ނުކުރ
 $string['wrongdestpath'] = 'މަންޒިލް ނުބައި';
 $string['wrongsourcebase'] = 'ސޯރސް ޔޫއާރްއެލް ބޭސް ނުބައި';
 $string['wrongzipfilename'] = 'ޒިޕްފައިލްގެ ނަން ނުބައި';
-$string['youcannotdeletecategory'] = 'ކެޓަގަރީ $އެއް ނުފުހެވޭނެ';
+$string['youcannotdeletecategory'] = 'ކެޓަގަރީ ???އެއް ނުފުހެވޭނެ';
 
 ?>
