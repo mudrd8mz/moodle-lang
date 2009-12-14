@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // workshop.php - created with Moodle 1.9.7+ (Build: 20091204) (2007101570)
 
 
 $string['absent'] = 'Abwesend';
@@ -220,6 +220,7 @@ $string['releaseteachergrades'] = 'Veröffentlichung der Trainerbewertung';
 $string['removeallattachments'] = 'Alle Anhänge entfernen';
 $string['repeatanalysis'] = 'Wiederhole Analyse';
 $string['reply'] = 'Antworten';
+$string['resetworkshopall'] = 'Alle Einreichungen und Bewertungen löschen';
 $string['returnto'] = 'Zurückkehren zu';
 $string['returntosubmissionpage'] = 'Zur Beitragsseite zurückkehren';
 $string['rubric'] = 'Rubrik';

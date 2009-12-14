@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20091204) (2007101570)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
@@ -20,8 +20,6 @@ $string['authfail_usermismatch'] = 'Keine Zugangsberechtigung: Der Nutzer ist un
 $string['authmnetautoadddisabled'] = 'Moodle-Netzwerk: Die Einstellung <em>Auto-add users</em> ist im Plugin zur Authentifikation <strong> ausgeschaltet</strong>.';
 $string['authmnetdisabled'] = 'Moodle-Netzwerk: Das <em>Plugin zur Authentifikation</em> ist <strong>ausgeschaltet</strong>.';
 $string['badcert'] = 'Dies ist kein gültiges Zertifikat.';
-$string['certdetails'] = 'Zertifikatsdetails';
-$string['configmnet'] = 'Das Moodle-Netzwerk ermöglicht einen Datenaustausch dieses Servers mit anderen Servern oder Diensten.';
 $string['couldnotgetcert'] = 'Es wurde kein Zertifikat gefunden unter <br />$a. <br />Der Rechner scheint ausgeschaltet oder falsch konfiguriert zu sein.';
 $string['couldnotmatchcert'] = 'Dies stimmt nicht mit dem Zertifikat überein, das aktuell auf dem Webserver veröffentlicht ist.';
 $string['courses'] = 'Kurse';
@@ -58,6 +56,7 @@ $string['expires'] = 'Gültig bis';
 $string['expireyourkey'] = 'Schlüssel löschen';
 $string['expireyourkeyexplain'] = 'Moodle wechselt Ihren PublicKey automatisch alle 28 Tage (Standard). Sie haben aber jederzeit die Möglichkeit, den PublicKey  <em>manuell</em> zu löschen. Dies ist nur dann sinnvoll, wenn Sie fürchten, Ihr PublicKey könnte gefälscht sein. Ein Ersatz wird dann umgehend automatisch erstellt.<br />Das Löschen des PublicKey macht es unmöglich, dass andere Moodle mit Ihrem Moodle kommunizieren können, u.z. solange bis Sie Ihren neuen PublicKey manuell an die anderen Administrator/innen übermittelt haben.';
 $string['failedaclwrite'] = 'Fehler beim Schreiben in die MNET-Access-Kontrollliste für Nutzer \'$a\'';
+$string['findlogin'] = 'Login suchen';
 $string['forbidden-function'] = 'Diese Funktion wurde für RPC nicht freigegeben.';
 $string['forbidden-transport'] = 'Die von Ihnen gewählte Übertragungsmethode ist nicht erlaubt.';
 $string['forcesavechanges'] = 'Zum Speichern der Änderungen auffordern';
@@ -101,6 +100,8 @@ $string['mnet_concatenate_strings'] = '(Bis zu) 3 Textpassagen verbinden und als
 $string['mnet_session_prohibited'] = 'Teilnehmer/innen Ihres Moodle-Servers sind aktuell nicht für einen Wechsel auf $a zugelassen.';
 $string['mnetdisabled'] = 'Moodle-Netzwerk ist <strong>ausgeschaltet</strong>.';
 $string['mnetenrol'] = 'Registrierungen';
+$string['mnetidprovider'] = 'MNET ID Provider';
+$string['mnetidprovidermsg'] = 'Das Login bei Ihrem Provider $a sollte möglich sein.';
 $string['mnetlog'] = 'Logdaten';
 $string['mnetpeers'] = 'Peers';
 $string['mnetservices'] = 'Dienste';
@@ -192,5 +193,7 @@ $string['wrong-ip'] = 'Ihre IP-Adresse passt nicht zu der Adresse, die wir gespe
 $string['xmlrpc-missing'] = 'XML-RPC muss innerhalb von PHP installiert sein, um diese Funktion zu nutzen.';
 $string['yourhost'] = 'Ihr Rechner';
 $string['yourpeers'] = 'Ihre Peers';
+$string['certdetails'] = 'Zertifikatsdetails'; // ORPHANED
+$string['configmnet'] = 'Das Moodle-Netzwerk ermöglicht einen Datenaustausch dieses Servers mit anderen Servern oder Diensten.'; // ORPHANED
 
 ?>

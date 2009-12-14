@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.org.php - created with Moodle 2.0 dev (Build: 20090905) (2009090400)
+      // moodle.org.php - created with Moodle 1.9.7+ (Build: 20091208) (2007101570)
 
 
 $string['aboutdemosite'] = 'Unsere Demo-Website ist eine vollständige Moodle-Instanz mit einigen Beispielkursen, die Sie in den Rollen Trainer, Teilnehmer und Administrator ausprobieren können. Haben Sie keine Sorge etwas kaputt zu machen ... die gesamte Seite jede Stunde auf einen sauberen Zustand zurückgesetzt.';
@@ -121,7 +121,7 @@ $string['overviewnews'] = 'Übersicht über aktuelle Moodle-Nachrichten';
 $string['overviewsupport'] = 'Überblick über Möglichkeiten des Moodle-Supports';
 $string['popularissues'] = 'Beliebteste Punkte';
 $string['recentpart'] = 'Diese Seite zeigt einige der Personen, die moodle.org heute besucht haben.';
-$string['recentparttitle'] = 'Letzte Teilnehmer/innen';
+$string['recentparttitle'] = 'Aktuelle Aufrufe';
 $string['registeredsites'] = 'Institutionen müssen nicht bekannt geben, ob sie Moodle verwenden, weil Moodle ist frei und Open Source ist. Dennoch haben sich viele Moodle-Websites entschieden, sich bei uns zu registrieren und in unserer Auflistung zu erscheinen.';
 $string['registeredsitestitle'] = 'Registrierte Websites';
 $string['roadmap'] = 'Moodle-Roadmap';

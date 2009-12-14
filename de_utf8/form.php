@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (Build: 20090315) (2009030501)
+      // form.php - created with Moodle 1.9.7+ (Build: 20091204) (2007101570)
 
 
 $string['addfields'] = '$a Felder zum Formular hinzufügen';
@@ -15,7 +15,7 @@ $string['err_nonzero'] = 'Sie müssen hier eine Zahl eingeben, die nicht mit 0 b
 $string['err_nopunctuation'] = 'Sie dürfen hier keine Satzseichen verwenden.';
 $string['err_numeric'] = 'Sie müssen hier eine Zahl eingeben.';
 $string['err_rangelength'] = 'Sie müssen hier zwischen {$a->format[0]} und {$a->format[1]} Buchstaben eingeben.';
-$string['err_required'] = 'Sie müssen hier einen Wert liefern.';
+$string['err_required'] = 'Sie müssen hier einen Wert eingeben.';
 $string['general'] = 'Grundeinträge';
 $string['hideadvanced'] = 'Zusätzliche Felder verbergen';
 $string['hour'] = 'Stunde';
@@ -23,22 +23,22 @@ $string['minute'] = 'Minute';
 $string['miscellaneoussettings'] = 'Verschiedene Einstellungen';
 $string['modstandardels'] = 'Weitere Modul-Einstellungen';
 $string['month'] = 'Monat';
-$string['mustbeoverriden'] = 'Die Methode form_definition() in der Klasse $a muss außer Kraft gesetzt werden. Bitte korrigieren Sie den Code.';
 $string['nomethodforaddinghelpbutton'] = 'Es gibt keine Möglichkeit, einen Hilfebutton zum Formularelement $a->name (class $a->classname) hinzuzufügen.';
-$string['nonexistentformelements'] = 'Sie versuchen einen Hilfebutton zu einem nicht existierenden Formularelement hinzuzufügen: $a.';
+$string['nonexistentformelements'] = 'Sie versuchen, Hilfebuttons zu nicht existierenden Formularelementen hinzuzufügen: $a';
 $string['optional'] = 'Optional';
 $string['othersettings'] = 'Andere Einstellungen';
 $string['requiredelement'] = 'Pflichtfeld';
 $string['revealpassword'] = 'Aufdecken';
 $string['security'] = 'Sicherheit';
-$string['selectallornone'] = 'Alle/keinen auswählen';
+$string['selectallornone'] = 'Alle/keine auswählen';
 $string['showadvanced'] = 'Zusätzliche Felder anzeigen';
-$string['somefieldsrequired'] = 'Die markierten Felder in diesem Formular sind Pflichtfelder. Diese müssen ausgefüllt werden.';
-$string['time'] = 'Zeit';
-$string['timeunit'] = 'Zeiteinheit';
+$string['somefieldsrequired'] = 'Die markierten Pflichtfelder müssen ausgefüllt werden! $a';
 $string['timing'] = 'Zeitsteuerung';
 $string['unmaskpassword'] = 'Klartext';
 $string['year'] = 'Jahr';
+$string['mustbeoverriden'] = 'Die Methode form_definition() in der Klasse $a muss außer Kraft gesetzt werden. Bitte korrigieren Sie den Code.'; // ORPHANED
+$string['time'] = 'Zeit'; // ORPHANED
+$string['timeunit'] = 'Zeiteinheit'; // ORPHANED
 $string['requiredfield'] = 'Dies ist ein Pflichtfeld.'; // ORPHANED
 
 ?>
