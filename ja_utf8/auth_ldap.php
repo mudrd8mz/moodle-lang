@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth_ldap.php - created with Moodle 2.0 dev (Build: 20091117) (2009111702)
+      // auth_ldap.php - created with Moodle 2.0 dev (Build: 20091215) (2009112400)
 
 
 $string['auth_ldap_ad_create_req'] = 'Active Directoryに新しいアカウントを作成できません。アカウントを作成するためのすべての必要条件 (LDAPSコネクション、必要な権限を持ったユーザのバインド等) に合致しているか確認してください。';
@@ -11,7 +11,7 @@ $string['auth_ldap_bind_dn_key'] = '識別名';
 $string['auth_ldap_bind_pw'] = 'ユーザバインドのパスワード';
 $string['auth_ldap_bind_pw_key'] = 'パスワード';
 $string['auth_ldap_bind_settings'] = 'バインド設定';
-$string['auth_ldap_changepasswordurl_key'] = 'パスワード変更のURI';
+$string['auth_ldap_changepasswordurl_key'] = 'パスワード変更URI';
 $string['auth_ldap_contexts'] = 'ユーザが配置されているコンテクスト一覧です。異なるコンテクストは「;」で分けてください。例 「ou=users,o=org; ou=others,o=org」';
 $string['auth_ldap_contexts_key'] = 'コンテクスト';
 $string['auth_ldap_create_context'] = 'メールによるアカウント登録確認でユーザを作成する場合、ユーザが作成されるコンテクストを指定してください。セキュリティの観点から、このコンテクストはユーザごとに異なるものにしてください。Moodleがコンテクストから自動的にユーザを探しますので、このコンテクストをldap_context-vaiableに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/auth.phpファイルのuser_create() 関数を修正する必要があります。';

@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // auth_pop3.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // auth_pop3.php - created with Moodle 2.0 dev (Build: 20091215) (2009112400)
 
 
-$string['auth_pop3changepasswordurl_key'] = 'パスワード変更のURI';
-$string['auth_pop3description'] = 'この方法では、ユーザ名とパスワードを確認するためPOP3サーバを使用します。';
+$string['auth_pop3changepasswordurl_key'] = 'パスワード変更URI';
+$string['auth_pop3description'] = 'ここでは、ユーザ名およびパスワードが有効であるか確認するため、POP3サーバを使用します。';
 $string['auth_pop3host'] = 'POP3サーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
 $string['auth_pop3host_key'] = 'ホスト';
 $string['auth_pop3mailbox'] = '接続を試みるメールボックス名 (通常「INBOX」です)';

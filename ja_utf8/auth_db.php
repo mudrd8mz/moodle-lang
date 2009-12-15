@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // auth_db.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // auth_db.php - created with Moodle 2.0 dev (Build: 20091215) (2009112400)
 
 
 $string['auth_dbcantconnect'] = '指定された認証データベースに接続できませんでした ...';
-$string['auth_dbchangepasswordurl_key'] = 'パスワード変更のURI';
+$string['auth_dbchangepasswordurl_key'] = 'パスワード変更URI';
 $string['auth_dbdebugauthdb'] = 'ADOdbデバッグ';
 $string['auth_dbdebugauthdbhelp'] = '外部データベースへのADOdbデバッグ接続 - ログイン時に空白ページが表示される場合、使用してください。実稼動サイトには適していません。';
 $string['auth_dbdeleteuser'] = 'ユーザ $a[0] id $a[1] を削除しました。';
 $string['auth_dbdeleteusererror'] = 'ユーザ $a の削除中にエラーが発生しました。';
-$string['auth_dbdescription'] = 'ユーザ名とパスワードを確認するため外部データベースを使用します。新しいアカウントを作成する場合、他のフィールドの情報がMoodleへ複製されます。';
+$string['auth_dbdescription'] = 'ここでは、ユーザ名およびパスワードが有効であるか確認するため、外部データベースを使用します。新しいアカウントを作成する場合、他のフィールドの情報がMoodleへ複製されます。';
 $string['auth_dbextencoding'] = '外部データベースエンコーディング';
 $string['auth_dbextencodinghelp'] = '外部データベースで使用されるエンコーディング';
 $string['auth_dbextrafields'] = 'これらのフィールドは任意項目です。あなたは、<b>外部データベースフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することもできます。<p>空白の場合、デフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後、すべてのフィールドを編集することができます。</p>';

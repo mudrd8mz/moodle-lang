@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // auth_radius.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // auth_radius.php - created with Moodle 2.0 dev (Build: 20091215) (2009112400)
 
 
-$string['auth_radiuschangepasswordurl_key'] = 'パスワード変更のURI';
-$string['auth_radiusdescription'] = 'この方法では、与えられたユーザ名およびパスワードが有効かどうかチェックするため、<a href=\"http://en.wikipedia.org/wiki/RADIUS\">RADIUS</a> サーバを使用します。';
+$string['auth_radiuschangepasswordurl_key'] = 'パスワード変更URI';
+$string['auth_radiusdescription'] = 'ここでは、ユーザ名およびパスワードが有効であるか確認するため、<a href=\"http://en.wikipedia.org/wiki/RADIUS\">RADIUS</a>サーバを使用します。';
 $string['auth_radiushost'] = 'RADIUSサーバのアドレス';
 $string['auth_radiushost_key'] = 'ホスト';
 $string['auth_radiusnasport'] = '接続に使用するポート';

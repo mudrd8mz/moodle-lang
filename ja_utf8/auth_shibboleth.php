@@ -4,7 +4,7 @@
 
 $string['auth_shib_auth_method'] = '認証メソッド名';
 $string['auth_shib_auth_method_description'] = 'Shibboleth認証メソッドに関して、あなたのユーザに知られている名称を入力してください。あなたのシボレス連盟の名称を使うこともできます 例) <tt>SWITCHaai Login</tt>または<tt>InCommon Login</tt>または同様の名称。';
-$string['auth_shib_changepasswordurl'] = 'パスワード変更のURI';
+$string['auth_shib_changepasswordurl'] = 'パスワード変更URI';
 $string['auth_shib_convert_data'] = 'データ修正API';
 $string['auth_shib_convert_data_description'] = 'あなたがShibbolethから提供されるデータを修正したい場合、このAPIを使うことができます。詳細は、<a href=\"../auth/shibboleth/README.txt\">README</a>をご覧ください。';
 $string['auth_shib_convert_data_warning'] = 'ファイルが存在しないか、ウェブプロセスで読み取れません!';
