@@ -1,0 +1,49 @@
+<h1>Beregninger</h1>
+<!-- TRANSLATORS BEWARE!! The comma (,) sign used in the calculations may be a semi-colon (;)
+in your language. Please use whichever is used in your spreadsheet application. -->
+
+<p>Beregninger i karakterboken følger samme retningslinjer som for formelbruk i vanlige regneark som Excel, Numbers osv.
+Formler starter alltid med et "=" tegn og bruker vanlige matematiske operatorer og funksjoner for å  beregne en numerisk verdi som resultat. Resultatet blir deretter  benyttet som verdi for å sette endelig karakter for det karakterelementet du redigerer.</p>
+
+<p>Følgende liste viser funksjoner som støttes. Vær obs på at semikolon (;) brukes til å skille mellom flere separate argumenter i en funksjon.</p>
+
+<ul>
+    <li><strong>average</strong>([[item1]], [[item2]]...): Returnerer et gjennomsnitt av verdiene</li>
+    <li><strong>max</strong>([[item1]], [[item2]]...): Returnerer høyeste verdi i en liste over argumenter</li>
+    <li><strong>min</strong>([[item1]], [[item2]]...): Returnerer laveste verdi i en liste over argumenter</li>
+    <li><strong>mod</strong>(dividend, divisor): Beregner restverdien i en divisjon</li>
+    <li><strong>pi</strong>(): Returnerer den numeriske verdien av pi</li>
+    <li><strong>power</strong>(base, power): Øker et tall på basis av et annet</li>
+    <li><strong>round</strong>(number, count): Avrunder et tall etter en forhåndsdefinert presisjon</li>
+    <li><strong>sum</strong>([[item1]], [[item2]]...): Returnerer summen av alle argumentene</li>
+</ul>
+
+<p>Et antall matematiske funksjoner støttes også:</p>
+<table width="100%" border="1"><tbody> 
+  <tr> 
+    <td width="50%" valign="top"><ul>
+    <li>sin</li><li>sinh</li><li>arcsin</li><li>asin</li><li>arcsinh</li><li>asinh</li>
+    <li>cos</li><li>cosh</li><li>arccos</li><li>acos</li><li>arccosh</li><li>acosh</li>
+</ul>
+    </td> 
+    <td width="50%" valign="top"><ul>
+    <li>tan</li><li>tanh</li><li>arctan</li><li>atan</li><li>arctanh</li><li>atanh</li>
+    <li>sqrt</li><li>abs</li><li>ln</li><li>log</li><li>exp</li>
+</ul> 
+    </td> 
+  </tr></tbody> 
+</table>
+
+<p>Du kan inkludere verdien fra andre karakterelementer ved å bruke ID-nummeret som referanse i formelen. ID-nummeret skal skal omsluttes av doble hakeparenteser. Dette er for å skille disse argumentene fra matematiske verdier med vanlige parenteser  - siden ID-numre kan inneholde ting enn tall. For eksempel: Dersom du har et karakterelement med ID-nummeret: Quiz.3, skal du referrere til dette ID-nummeret med [[Quiz.3]] i formelen din.</p>
+
+<p>Formelberegningen din baserer seg ofte på elementer som forgreier seg ut i kurset ditt, med sine karakterelementer og kategorier. Ved hvert element eller kategori vises et ID-nummer du kan benytte i formelen din. (Vises klare til bruk med doble hakeparenteser.)
+Siden ID-nummer er en opsjon, kan det hende du ikke har angitt noen verdi ennå. Disse elementene har i stedet et åpent felt hvor du kan legge inn et ID-nummer, i stedet for å gå tilbake til redigeringen av den enkelte aktivitet. Skjemaet lar deg ikke endre tidligere definerte ID-numre - da må du tilbake til aktiviten det gjelder.</p>
+
+<p>Straks du har tildelt ID-numrene du trenger kan du klikke på knappen "Legg til ID-numre" og siden vil oppdateres med en visning  av strukturen på alle de karakterelementene du kan gjøre beregninger på. Denne oversikten er meget nyttig når du redigerer formelen din.</p>
+
+<p>Her ern en oversikt over praktiske eksempler du kan ha glede av i din egen karakterbok:</p>
+
+<ul>
+    <li>=average([[Quiz.1]], [[Quiz.4]], [[Assignment.1]])</li>
+    <li>=average(max([[Quiz.1]], [[Quiz.4]], [[Assignment.1]]), min([[Quiz.1]], [[Quiz.4]], [[Assignment.1]]))</li>
+</ul>

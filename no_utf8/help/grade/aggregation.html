@@ -1,0 +1,52 @@
+<h1>Kategoriberegninger</h1>
+<p>Denne menyen lar deg velge hvilken beregningsmetode som skal brukes for å regne ut hver brukers samlede karakter for denne kategorien. De forskjellige valgene er beskrevet under.</p>
+
+<p>Karakterene blir først konvertert til en prosentverdi (intervall fra 0-1, dette kalles normalisering), deretter beregnet ved å benytte en av funksjonene under og til slutt konvertert til den skalaen du har valgt for kategorielementet (mellom valgt <em>Minimumsverdi</em> og <em>Maksimumsverdi</em>.</p>
+
+<p><strong>VIKTIG!</strong>: En tom karakter er ganske enkelt en manglende karakter og kan bety forskjellige ting. F.eks. kan det bety at brukeren ikke har levert inn noe, at innleveringen ikke er vurdert av en lærer ennå, eller at karakteren er blitt slettet manuelt av en karakterbok-administrator. Du bør derfor ha spesiell oppmerksomhet mot disse "tomme" karakterene.</p>
+
+<dl id="grade-aggregation-help">
+    <dt>Middelverdi av karakterer</dt>        
+    <dd>Summen av alle karakterene blir delt på antall karakterelementer.</dd>
+    <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategoriens max 100:<br />
+                     <code>(0.7 + 0.25 + 1.0)/3 = 0.65 --> 65/100</code></dd>
+                     
+    <dt>Vektet middelverdi</dt>
+        <dd>Hver karakter kan vektes, og deretter brukes i en aritmetisk beregning av middelverdien til å påvirke viktigheten av hvert element i den samlede middelverdien.</dd>
+        <dd class="example">A1 70/100 vekt 10, A2 20/80 vekt 5, A3
+                         10/10 vekt 3, kategoriens max 100:<br /><code>(0.7*10 + 0.25*5 + 1.0*3)/18 = 0.625 --> 62.5/100</code></dd>
+    
+    <dt>Forenklet vektet middelverdi</dt>
+        <dd>Forskjellen fra <em>Vektet middelverdi</em> er at vektingen er beregnet som <em>Maksimal karakter</em> - <em>Minimumskarakter</em> for hvert element. En 100-poengs innlevering får vekten 100, en 10-poengs innlevering får vekten 10.
+</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategoriens max 100:<br />
+                         <code>(0.7*100 + 0.25*80 + 1.0*10)/190 = 0.526 --> 52.6/100</code></dd>
+    
+    <dt>Middelverdi av karakterer (med ekstrapoeng)</dt>
+        <dd>Aritmetisk middel med en vri. En gammel og nå utgått beregningsmetode som er tatt med bare for å gi kompatibilitet med gamle aktiviteter som har denne beregningsmetoden.</dd>
+    
+    <dt>Median av karakterer</dt>
+        <dd>Karakteren midt på skalaen (eller gjennomsnittet av de to midterste) når karakterene ordnes etter verdi. Fordelen med dette framfor rent gjennomsnitt er at en utelater de høyeste og laveste fra beregningen (karakterer som vanligvis er langt fra middelverdien).</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategoriens max 100:<br />
+                         <code>median(0.7 ; 0.25 ; 1.0) = 0.7 --> 70/100</code></dd>
+    
+    <dt>Laveste karakter</dt>
+        <dd>Resultatet blir laveste karakter etter en normalisering. Det brukes vanligvis i kombinasjon med <em>Beregn bare ikke-tomme karakterer</em>.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategoriens max 100:<br />
+                         <code>min(0.7 ; 0.25 ; 1.0) = 0.25 --> 25/100</code></dd>
+                         
+    <dt>Høyeste karakter</dt>
+        <dd>Resultatet blir høyeste karakter etter en normalisering.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10, kategoriens max 100:<br />
+                         <code>max(0.7 ; 0.25 ; 1.0) = 1.0 --> 100/100</code></dd>
+    
+    <dt>Mest gitte karakter</dt>
+        <dd>Mest gitte karakter er den karakteren som forekommer oftest. Dette er mest brukt for ikke-numeriske karakterer. Fordelen fremfor gjennomsnitt er at den ikke påvirkes av høyeste og laveste gitte karakterer (karakterer som er uvanlig langt fra gjennomsnittet). Beregningsmetoden vil likevel bli meningsløs dersom  mer enn en har meget høye eller lave karakterer (bare en beholdes), eller hvis alle karakterene er forskjellige fra hverandre.</dd>
+        <dd class="example">A1 70/100, A2 35/50, A3 20/80, A4 10/10, A5 7/10 kategoriens max 100:<br />
+                         <code>mode(0.7 ; 0.7 ; 0.25 ; 1.0 ; 0.7) = 0.7 --> 70/100</code></dd>
+    
+    <dt>Karaktersum</dt>
+        <dd>Summen av alle karakterer. Karakterskalaer blir ignorert. Dette er den eneste beregningsmetoden hvor det ikke konverteres internt til prosentverdier (normalisering). <em>Maksimal karakter</em> for et kategorielement blir beregnet automatisk som en sum av maksverdiene fra alle beregnede elementer.</dd>
+        <dd class="example">A1 70/100, A2 20/80, A3 10/10:<br />
+                         <code>70 + 20 + 10 = 100/190</code></dd>
+</dl>

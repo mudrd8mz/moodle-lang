@@ -1,0 +1,24 @@
+<h1>Ekstrapoeng</h1>
+<h2>For beregning av oppsummert karakter</h2>
+<p>Når en bruker "Karaktersum" som beregningsstrategi, kan ett karakterelement tjene som ekstrapoeng for kategorien. Dette betyr at karakterelementet legges til kategoriens beregnede karakter, ikke maksverdien det karakterelementet kan ha. Følgende eksempel vil kanskje illustrere:</p>
+
+<ul>
+    <li>Element 1 har skalaen 0-100</li>
+    <li>Element 2 har skalaen 0-75</li>
+    <li>Element 1 har avmerket "Bruk som ekstrapoeng", men ikke Element 2.</li>
+    <li>Begge elementene hører til Kategori 1, som har "Karaktersum" som beregningsmetode.</li>
+    <li>Kategori 1 har skalaen 0-75</li>
+    <li>En student får karakteren 20 på Element 1 og 70 på Element 2</li>
+    <li>Studentens totalkarakter for Kategori 1 vil bli 75/75 (20+70 = 90, men siden Element 1 bare tjener som ekstrapoeng vil totalsummen bli maksimum, dvs her 75.)</li>
+</ul>
+<h2>For vektet middelverdi av karakterer (ekstrapoeng)</h2>
+<p>En verdi større enn 0 blir behandlet som dette karakterelementets ekstrapoeng når karakteren skal beregnes. Tallet er den faktoren karakteren blir ganget med før den legges til summen av alle karakterer, men elementet i seg selv blir ikke med når middelverdien beregnes. Et eksempel:</p>
+
+<ul>
+    <li>Element 1 har skalaen 0-100 og dets verdi for "ekstrapoeng" er satt til 2</li>
+    <li>ELement 2 har skalaen 0-100 g dets verdi for "ekstrapoeng" er satt til 0.0000</li>
+    <li>Element 3 har skalaen 0-100 g dets verdi for "ekstrapoeng" er satt til 0.0000</li>
+    <li>Alle 3 elementene hører til Kategori 1, som har "Middelverdi av karakterer (med ekstrapoeng) som beregningsmetode.</li>
+    <li>En student får karakteren 20 på Element 1, 40 på Element2 og 70 på Element 3.</li>
+    <li>Studentens totale karakter for Kategori 1 vil bli 95/100 siden 20*2 + (40 + 70)/2 = 95</li>
+</ul>

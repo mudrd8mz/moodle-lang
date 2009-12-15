@@ -1,0 +1,15 @@
+<h1>Importer læringsresultater</h1>
+<p>Du kan importere læringsresultater fra .csv-filer. Filen må være på følgende format:</p>
+<table class="generaltable" cellpadding="4">
+    <tr> <th class="header">Feltnavn</th> <th class="header">Beskrivelse</th> <th class="header">Påkrevd</th> <th class="header">Format</th> </tr>
+    <tr> <td class="cell">outcome_name</td> <td class="cell">Fullt navn på læringsresultat</td> <td class="cell">Ja</td><td class="cell">Streng</td> </tr>
+    <tr> <td class="cell">outcome_shortname</td><td class="cell">Kortnavn for læringsresultat</td> <td class="cell">Ja</td> <td class="cell">Streng</td> </tr>
+    <tr> <td class="cell">outcome_description</td><td class="cell">Beskrivelse av læringsresultat</td> <td class="cell">Nei</td> <td class="cell">Streng</td> </tr>
+    <tr> <td class="cell">scale_name</td><td class="cell">Karakterskala</td> <td class="cell">Ja</td> <td class="cell">Streng</td> </tr>
+    <tr> <td class="cell">scale_items</td><td class="cell">En komma-separert liste over skalaelementer</td> <td class="cell">Ja</td> <td class="cell">Streng</td> </tr>
+    <tr> <td class="cell">scale_description</td><td class="cell">Beskrivelse av karakterskalen </td> <td class="cell">Nei</td> <td class="cell">Streng</td> </tr>
+</table>
+
+<p>Her er et eksempel:</p>
+<pre>outcome_name;outcome_shortname;outcome_description;scale_name;scale_items;scale_description
+Participation;participation;;Participation scale;"Little or no participation, Satisfactory participation, Full participation";</pre>
