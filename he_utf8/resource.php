@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // resource.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
 
 
 $string['addresource'] = 'הוסף משאב';
@@ -58,6 +58,7 @@ $string['htmlfragment'] = 'מקטע HTML';
 $string['imspackageloaded'] = 'החבילה מוטענת';
 $string['keepnavigationvisible'] = 'שמור את סרגל הניווט על אותו עמוד';
 $string['keepnavigationvisibleno'] = 'לא';
+$string['keepnavigationvisiblewarning'] = 'הערה: קבצי מדיה מסויימים עלולים להתעלם מהגדרה זו.';
 $string['keepnavigationvisibleyesframe'] = 'כן, עם מסגרת';
 $string['keepnavigationvisibleyesobject'] = 'כן, ללא מסגרת';
 $string['localfile'] = 'קובץ מקומי';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // role.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
@@ -29,9 +29,11 @@ $string['category:viewhiddencategories'] = 'הראה קטגוריות נסתרו
 $string['category:visibility'] = 'ראה קטגוריות מוסתרות';
 $string['course:activityvisibility'] = 'הסתר או הראה פעילויות';
 $string['course:bulkmessaging'] = 'שלח הודעה לאנשים רבים';
+$string['course:changecategory'] = 'שנה קטגוריית קורס';
 $string['course:changefullname'] = 'שנה את השם המלא של הקורס';
 $string['course:changeidnumber'] = 'שנה את מספר הזיהוי של הקורס';
 $string['course:changeshortname'] = 'שנה את השם המקוצר של הקורס';
+$string['course:changesummary'] = 'שנה תקציר קורס';
 $string['course:create'] = 'צור קורסים';
 $string['course:delete'] = 'מחק קורסים';
 $string['course:manageactivities'] = 'נהל פעילויות';
@@ -132,6 +134,7 @@ $string['resetrole'] = 'אתחל מחדש לברירות המחדל';
 $string['resetrolenolegacy'] = 'נקה את ההרשאות';
 $string['resetrolesure'] = 'האם אתה בטוח שברצונך לאתחל לברירות המחדל את התפקיד \"$a->name ($a->shortname)\" ?<p></p> ברירות המחדל נלקחות מיכולות הירושה הנבחרת ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'האם אתה בטוח שברצונך לנקות את כל ההרשאות שמוגדרות לתפקיד זה תפקיד \"$a->name ($a->shortname)\"?';
+$string['restore:rolldates'] = 'מאפשר לגלול תאריכי הגדרת פעילות בשחזור';
 $string['risks'] = 'סיכונים';
 $string['role:assign'] = 'מנה תפקידים למשתמשים';
 $string['role:manage'] = 'צור ונהל תפקידים';
