@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
+      // role.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addrole'] = 'Tilføj rolle';
@@ -8,7 +8,7 @@ $string['allowassign'] = 'Tillad rolletildeling';
 $string['allowoverride'] = 'Tillad tilsidesættelse af roller';
 $string['allsiteusers'] = 'Alle brugere på sitet';
 $string['assignglobalroles'] = 'Tildel globale roller';
-$string['assignroles'] = 'Administrer brugere';
+$string['assignroles'] = 'Administrer deltagere';
 $string['assignrolesin'] = 'Tildel roller i $a';
 $string['backup:userinfo'] = 'Tag backup af brugerdata';
 $string['block:view'] = 'Se blok';
@@ -96,6 +96,7 @@ $string['manageroles'] = 'Administrer roller';
 $string['metaassignerror'] = 'Kan ikke tildele rollen til brugeren \"$a\" da rettigheden \"Administrer metakurser\" mangler.';
 $string['metaunassignerror'] = 'Rollen fra brugeren \"$a\" er automatisk nedarvet. Fjern i stedet rollen i delkurset.';
 $string['morethan'] = 'Mere end $a';
+$string['multipleroles'] = 'Flere roller';
 $string['my:manageblocks'] = 'Administrer myMoodle-blokke';
 $string['nocapabilitiesincontext'] = 'Ingen rettigheder tilgængelige i denne sammenhæng';
 $string['notes:manage'] = 'Administrer noter';

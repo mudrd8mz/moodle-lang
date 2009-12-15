@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
+      // forum.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addanewdiscussion'] = 'Tilføj en ny tråd';
 $string['addanewquestion'] = 'Tilføj et nyt spørgsmål';
 $string['addanewtopic'] = 'Tilføj nyt emne';
 $string['advancedsearch'] = 'Avanceret søgning';
+$string['aggregatetype'] = 'Sammentællingsmetode';
 $string['allforums'] = 'Alle forummer';
 $string['allowchoice'] = 'Tillad alle at vælge';
 $string['allowdiscussions'] = 'Kan en $a skrive i dette forum?';
@@ -152,7 +153,7 @@ $string['nopostforum'] = 'Desværre, du kan ikke deltage i dette forum';
 $string['noposts'] = 'Ingen indlæg';
 $string['nopostscontaining'] = 'Der er ingen indlæg med \"$a\"';
 $string['noquestions'] = 'Der er endnu ingen indlæg i dette forum';
-$string['nosubscribers'] = 'Der er endnu ingen tilmeldte i dette forum';
+$string['nosubscribers'] = 'Der er endnu ingen abonnenter i dette forum';
 $string['nothingnew'] = 'Intet nyt for $a';
 $string['notingroup'] = 'Desværre, du skal være med i en gruppe for at se dette forum.';
 $string['notrackforum'] = 'Marker ikke ulæste indlæg';
