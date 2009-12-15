@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // data.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
 
 
 $string['action'] = 'פעולה';
@@ -179,6 +179,7 @@ $string['nomatch'] = 'לא נמצאו רשומות מתאימות!';
 $string['nomaximum'] = 'אין גבול מרבי';
 $string['norecords'] = 'אין רשומות בבסיס הנתונים';
 $string['nosingletemplate'] = 'עוד לא הוגדרה תבנית יחידה';
+$string['notapproved'] = 'הרשומה עדיין לא אושרה.';
 $string['notinjectivemap'] = 'לא מהווה מיפוי חודרני';
 $string['number'] = 'מספר';
 $string['numberrssarticles'] = 'מאמרי RSS';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // glossary.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
 
 
 $string['addcomment'] = 'הוסף הערה';
@@ -19,6 +19,7 @@ $string['areyousuredeletecomment'] = 'האם אתה בטוח שאתה רוצה �
 $string['areyousureexport'] = 'האם אתה בטוח שאתה רוצה לייצא מונח זה ל-';
 $string['ascending'] = '(עולה)';
 $string['attachment'] = 'קובץ מצורף';
+$string['author'] = 'מחבר';
 $string['authorview'] = 'עיין לפי מחבר';
 $string['back'] = 'חזרה';
 $string['cantinsertcat'] = 'אין אפשרות לתחוב קטגוריה זו';
@@ -54,6 +55,7 @@ $string['concepts'] = 'מושגים';
 $string['configenablerssfeeds'] = 'מתג זה יפעיל את האפשרות של הזנת RSS לכל אגרוני המונחים. עדיין תצטרך להפעיל את ההזנות באופן ידני בהגדרות של כל אחד מאגרוני המונחים.';
 $string['current'] = '$a מאוחסן כרגע';
 $string['currentglossary'] = 'אגרון מונחים נוכחי';
+$string['date'] = 'תאריך';
 $string['dateview'] = 'עיין לפי תאריך';
 $string['defaultapproval'] = 'מאושר לפי ברירת מחדל';
 $string['definition'] = 'הגדרה';
@@ -133,6 +135,7 @@ $string['importentries'] = 'ייבא מונחים';
 $string['importentriesfromxml'] = 'יבא רשומות מקובץ XML';
 $string['invalidrate'] = 'דרוג אגרון מונחים לא חוקי ($a)';
 $string['isglobal'] = 'האם זהו אגרון המונחים הכולל?';
+$string['letter'] = 'אות';
 $string['linkcategory'] = 'צור קישורים באופן אוטומטי לקטגוריה זו';
 $string['linking'] = 'יצירת קישורים באופן אוטומטי';
 $string['mainglossary'] = 'אגרון מונחים ראשי';
@@ -151,6 +154,7 @@ $string['noentry'] = 'לא נמצא אף מונח.';
 $string['notcategorised'] = 'ללא קטגוריה';
 $string['numberofentries'] = 'מספר המונחים';
 $string['onebyline'] = '(אחד בשורה)';
+$string['popupformat'] = 'תבנית חלון קופץ';
 $string['printerfriendly'] = 'גירסה ידידותית להדפסה';
 $string['printviewnotallowed'] = 'אין אפשרות לתצוגה מקדימה להדפסה';
 $string['question'] = 'שאלה';

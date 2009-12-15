@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
+      // moodle.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
 
 
 $string['abouttobeinstalled'] = 'על סף התקנה';
@@ -1113,6 +1113,9 @@ $string['publicdirectory2'] = 'פרסם את שם האתר עם קישור';
 $string['publicdirectorytitle'] = 'הראה את רשימת האתרים הנוכחית';
 $string['publicsitefileswarning'] = 'הערה: קבצים הממוקמים כאן הינם נגישים לכולם';
 $string['publicsitefileswarning2'] = 'הערה: ניתן לגשת לקבצים המוצגים כאן ע\"י כל אדם היודע (או יכול לנחש) את כתובת האתר. מטעמי אבטחה, מומלץ כי כל קבצי הגיבוי ימחקו מייד לאחר ששחזרו אותם.';
+$string['publicsitefileswarning3'] = 'הערה: הקבצים אשר ממוקמים כאן נגישים ע\"י כל מי שמכיר (או יכול לנחש) את ה URL.
+<br />
+מסיבות אבטחה, רצוי לגבות קבצי גיבוי בתקיית Backupdata מאובטחת בלבד.';
 $string['question'] = 'שאלה';
 $string['questionsinthequestionbank'] = 'שאלות בבנק השאלות';
 $string['readinginfofrombackup'] = 'קורא מידע מהגיבוי';
