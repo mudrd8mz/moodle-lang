@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091208) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -1607,7 +1607,7 @@ $string['usernameemailmatch'] = 'Anmeldename und E-Mail-Adresse passen nicht zus
 $string['usernameexists'] = 'Der Anmeldename ist bereits vergeben';
 $string['usernamelowercase'] = 'Es sind ausschließlich Kleinbuchstaben erlaubt';
 $string['usernamenotfound'] = 'Der Anmeldename wurde nicht in der Datenbank gefunden.';
-$string['usernameoremail'] = 'Geben Sie den Nutzernamen oder die Emailadresse ein';
+$string['usernameoremail'] = 'Geben Sie den Anmeldenamen oder die E-Mail-Adresse ein';
 $string['usernotconfirmed'] = '$a konnte nicht bestätigt werden';
 $string['userpic'] = 'Nutzerbild';
 $string['userprofilefor'] = 'Nutzerprofil von $a';

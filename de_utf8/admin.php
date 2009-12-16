@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // admin.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -87,7 +87,7 @@ $string['configcookiehttponly'] = 'Diese Funktion aktiviert neue Funktionen unte
 $string['configcookiesecure'] = 'Wenn Ihr Server über https-Verbindungen erreicht wird, ist es empfehlenswert die Funktion zum Übertragen sicherer Cookies zu aktivieren. Wenn die Funktion aktiviert wird müssen Sie sicherstellen, dass der Server nicht über http-Verbindungen erreichbar ist bzw. eine Umleitung an https:// Adressen besteht. Falls die <em>wwwroot</em> Adresse nicht mit https:// beginnt wird die Einstellung automatisch wieder deaktiviert. .';
 $string['configcountry'] = 'Wenn Sie hier ein Land festlegen, wird dieses Land als Vorgabe für neue Nutzereinträge gewählt.  Wenn  Nutzer/innen das Land aktiv wählen sollen, lassen Sie das Feld einfach leer.';
 $string['configcoursemanager'] = 'Diese Einstellung legt fest, wer zur Verwaltung eines Kurses angezeigt wird. Wem eine der hier angekreuzten Rollen für den Kurs zugewiesen wurde, dessen Name wird in der Beschreibung aufgelistet.';
-$string['configcourserequestnotify'] = 'Nutzernamen des bei einer Kursanfrage zu benachrichtigenden Kursverwalters oder Admins angeben';
+$string['configcourserequestnotify'] = 'Anmeldenamen des bei einer Kursanfrage zu benachrichtigenden Kursverwalters oder Admins angeben';
 $string['configcourserequestnotify2'] = 'Nutzer/innen, die benachrichtigt werden sollen, wenn ein Kurs angefordert wird. Es werden nur Nutzer/innen gelistet, die eine Kursanfrage annehmen dürfen.';
 $string['configcoursesperpage'] = 'Geben Sie die Kursanzahl an, die pro Seite in einer Kursliste angezeigt werden soll.';
 $string['configcreatornewroleid'] = 'Diese Rolle wird Kursverwalter/innen automatisch beim Anlegen im neu erstellten Kurs zugewiesen. Die Rolle wird nicht zugewiesen, wenn ein/e Kursverwalter/in die Rechte nur im übergeordneten Kontext (parent context) hat.';
@@ -133,7 +133,7 @@ $string['configenrolmentplugins'] = 'Wählen Sie die Kurs-Anmeldeverfahren, die 
 $string['configerrorlevel'] = 'Wählen Sie die Menge der PHP-Warnungen, die angezeigt werden sollen. \'Normal\' ist meist eine gute Wahl.';
 $string['configexcludeoldflashclients'] = 'Einige Plugin-Versionen des Adobe FlashPlayers sind mit bösartigen Flash-Inhalten angreifbar. Sie können hier eine minimale Version angeben, damit Moodle bei Zugriffen mit niedrigeren Plugin-Versionen keine Flash-Inhalte ausliefert. Stattdessen wird eine alternative Flash-Datei angezeigt, die zur Aktualisierung auffordert. Um die Prüfung zu deaktivieren, lassen Sie dieses Feld einfach leer.';
 $string['configexperimentalsplitrestore'] = 'Mit der Aktivierung werden Kurssicherungen auf XML-Fehler geprüft und in kleine Teile für den Wiederherstellungsprozess aufgeteilt. Bei mittleren und großen Kurssicherungen wird dadurch der Prozess robuster und produziert weniger Probleme bezüglich der Ausführungsdauer.';
-$string['configextendedusernamechars'] = 'Aktivieren Sie diese Einstellung, damit beliebige Zeichen im Nutzernamen zulässig werden (Anmerkung: Dies beeinflusst nicht bereits vorhandene Namen). In der Grundeinstellung (\"Nein\") sind nur alphanummerische Zeichen erlaubt. Falls Sie \'Ja\' auswählen, könnten bestimmte Sonderzeichen (z.B. deutsche Umlaute) Probleme verursachen!';
+$string['configextendedusernamechars'] = 'Aktivieren Sie diese Einstellung, damit beliebige Zeichen im Anmeldenamen zulässig werden (Anmerkung: Dies beeinflusst nicht bereits vorhandene Namen). In der Grundeinstellung (\"Nein\") sind nur alphanummerische Zeichen erlaubt. Falls Sie \'Ja\' auswählen, könnten bestimmte Sonderzeichen (z.B. deutsche Umlaute) Probleme verursachen!';
 $string['configextramemorylimit'] = 'Einige Skripte wie Suche, Sicherung, Wiederherstellung oder Cron erfordern mehr Arbeitsspeicher. Tragen Sie höhere Werte für große Websites ein.';
 $string['configfilterall'] = 'Filter über alle Begriffe (inkl. aller Überschriften, Titel, Navigationselemente usw.). Dies kann im Zusammenhang mit dem Filter \"Mehrsprachiger Inhalt\" nützlich sein. Es belastet den Server jedoch stark und kann zu einer Reduzierung der Arbeitsgeschwindigkeit führen.';
 $string['configfiltermatchoneperpage'] = 'Der Filter für die automatische Verlinkung soll nur das erste Vorkommen eines Begriffes auf einer Seite verlinken. Wiederholt auf einer Seite auftretende Begriffe werden nur einmal verlinkt.';
@@ -158,7 +158,7 @@ $string['confightmleditor'] = 'Wählen Sie aus, ob Sie die Verwendung des HTML-E
 $string['configidnumber'] = 'Diese Option legt fest, ob (a) nicht nach einer ID-Nummer gefragt wird, (b) zwar nach einer ID-Nummer gefragt wird, aber das Feld leer bleiben kann oder (c) nach einer zwingenden Eingabe einer ID-Nummer gefragt wird. Eine eingegebene ID-Nummer wird im Nutzerprofil angezeigt.';
 $string['configintcachemax'] = 'Nur bei aktiviertem internem Cache: Maximalzahl der Blöcke, die im Speicher gehalten werden sollen (empfohlen 50). Benutzen Sie kleinere Werte, um die Speicherauslastung zu reduzieren.';
 $string['configintro'] = 'Auf dieser Seite können Sie zahlreiche Variablen konfigurieren, die Einstellungen von Moodle auf dem Server beeinflussen. Überlegen Sie nicht zu lange - die Standard-Einstellungen funktionieren normalerweise sehr gut. Sie können jederzeit später alle Einstellungen ändern.';
-$string['configintroadmin'] = 'Hier sollten Sie den Hauptadmin einrichten, der die vollständige Kontrolle über die Website hat. Achten Sie darauf, unbedingt einen sicheren Benutzernamen samt Kennwort sowie eine gültige E-Mail-Adresse anzugeben. Weitere Administrator/innen können Sie später festlegen.';
+$string['configintroadmin'] = 'Sie müssen den Hauptadministrator einrichten, der die vollständige Kontrolle über die Website hat. Achten Sie darauf, unbedingt einen sicheren Anmeldenamen, ein sicheres Kennwort sowie eine gültige E-Mail-Adresse anzugeben. Weitere Administrator/innen können Sie später festlegen.';
 $string['configintrosite'] = 'Diese Seite erlaubt es Ihnen, die Startseite und den Namen der Webseite zu konfigurieren. Sie können jederzeit später alle Einstellungen bearbeiten.';
 $string['configintrotimezones'] = 'Diese Funktion sucht nach Zeitzonen-Einstellungen (inkl. der Sommerzeit-Regelungen) und aktualisiert die Datenbank. Folgende Angaben werden geprüft: $a Der Vorgang ist normalerweise sehr sicher und beeinträchtigt Ihre Installation nicht. Wollen Sie die Zeitzonen nun aktualisieren?';
 $string['configiplookup'] = 'Wenn Sie auf eine IP-Adresse (z.B. 123.45.67.98) in den Logdaten klicken, dann sollten Sie auf einer Übersicht den Ort gezeigt bekommen, von wo aus der Zugriff erfolgte. Es existieren für diese Aufgabe unterschiedliche Module, aber jedes hat spezifische Vor- und Nachteile.';
@@ -182,7 +182,7 @@ $string['configmaxevents'] = 'Ereignisse in der Vorausschau';
 $string['configmemcachedhosts'] = 'Für memcached: Kommagetrennte Liste der Hosts, auf denen der memcached Dämon läuft. Verwenden Sie IP-Adressen, um DNS-Wartezeiten zu vermeiden. memcached verhält sich nicht korrekt, wenn Sie diese Einstellung im laufenden Betrieb vornehmen oder ändern.';
 $string['configmemcachedpconn'] = 'Für memcached: Verwenden Sie feste Verbindungen. Vorsicht: Unsachgemäße Einstellungen können beim Neustart des memcached Dämons zum Absturz von Apache/PHP führen.';
 $string['configmessaging'] = 'Soll das Message-System systemweit für alle Nutzer/innen aktiviert werden?';
-$string['configminpassworddigits'] = 'Kennworte müssen mindestens die angegebene Anzahl von Ziffern.';
+$string['configminpassworddigits'] = 'Kennworte müssen mindestens die angegebene Anzahl von Ziffern enthalten.';
 $string['configminpasswordlength'] = 'Kennworte müssen mindestens die angegebene Gesamtzahl von Zeichen enthalten.';
 $string['configminpasswordlower'] = 'Kennworte müssen mindestens die angegebene Anzahl von Kleinbuchstaben enthalten.';
 $string['configminpasswordnonalphanum'] = 'Kennworte müssen mindestens die angegebene Anzahl von Sonderzeichen enthalten.';
@@ -202,12 +202,12 @@ $string['configpathtoclam'] = 'Pfad für ClamAV, meistens /usr/bin/clamscan oder
 $string['configpathtodu'] = 'Pfad für du, meistens /usr/bin/du. Mit dieser Option werden Seiten mit Verzeichnissen und vielen Dateien schneller angezeigt.';
 $string['configperfdebug'] = 'Nach der Aktivierung der Option wird eine Performance-Information in der Fußzeile des Standardthemes angezeigt.';
 $string['configprofilesforenrolledusersonly'] = 'Um eine unerwünschte Nutzung durch Spammer zu vermeiden, sind die Profilbeschreibungen von Nutzer/innen ohne vorhandene Kurseinschreibung gesperrt. Neue Nutzer/innen müssen sich in mindestens einem Kurs eingeschrieben haben, um eine Profilbeschreibung hinzufügen zu können.';
-$string['configprotectusernames'] = 'Standardmäßig werden keine Hinweise für vergessene Benutzernamen und Passwörter angezeigt.';
+$string['configprotectusernames'] = 'Standardmäßig werden keine Hinweise für vergessene Anmeldenamen und Kennworte angezeigt.';
 $string['configproxyhost'] = 'Wenn dieser <b>Moodle-Server</b> einen Proxy für den Internetzugriff (z.B. eine Firewall) benötigt, dann tragen Sie hier den Namen und den Port des Proxys ein. Andernfalls lassen Sie das Feld leer.';
-$string['configproxypassword'] = 'Für den Internet-Zugriff wird eventuell ein Passwort benötigt. Lassen Sie das Feld leer, falls der Proxy kein Passwort verlangt. Die PHP-Erweiterung cURL ist notwendig!';
+$string['configproxypassword'] = 'Für den Internet-Zugriff wird eventuell ein Kennwort benötigt. Lassen Sie das Feld leer, falls der Proxy kein Kennwort verlangt. Die PHP-Erweiterung cURL ist notwendig!';
 $string['configproxyport'] = 'Falls dieser Server einen Proxy benutzt, geben Sie hier bitte den Proxy-Port an.';
 $string['configproxytype'] = 'Typ des Web-Proxys. Für die Unterstützung von SOCKS5 ist PHP5 und die Erweiterung cURL notwendig!';
-$string['configproxyuser'] = 'Für den Internet-Zugriff muss eventuell ein Nutzername eingegeben werden. Lassen Sie das Feld leer, falls der Proxy keinen Nutzernamen verlangt. Die PHP-Erweiterung cURL ist notwendig!';
+$string['configproxyuser'] = 'Für den Internet-Zugriff muss eventuell ein Anmeldename eingegeben werden. Lassen Sie das Feld leer, falls der Proxy keinen Anmeldenamen verlangt. Die PHP-Extension cURL ist notwendig!';
 $string['configquarantinedir'] = 'Wenn ClamAV infizierte Dateien in ein Quarantäne-Verzeichnis verschieben soll, definieren Sie hier dieses Verzeichnis. Wenn Sie den Eintrag leer lassen, das Verzeichnis ungültig ist oder nicht beschrieben werden kann, werden infizierte Dateien gelöscht. Tragen Sie keinen Slash am Ende ein.';
 $string['configrcache'] = 'Der Cache-Speicher wird benutzt, um Datenbankeinträge zwischenzuspeichern. Achten Sie darauf, auch den Cache-Typ zu setzen!';
 $string['configrcachettl'] = 'Gültigkeitsdauer für zwischengespeicherte Inhalte (in Sekunden). Wählen Sie hier einen Wert kleiner als 15.';
@@ -251,7 +251,7 @@ $string['configslasharguments'] = 'Dateien (Bilder, Dokumente usw.) werden über
 $string['configsmartpix'] = 'Wenn diese Einstellung aktiviert ist, werden Icons durch ein PHP-Skript bereitgestellt, das das aktuelle Design, alle übergeordneten Designs (parent themes) und das /pix Verzeichnis im Moodle-Installationsverzeichnis durchsucht. Damit müssen Grafiken u.U. nicht mehrfach in verschiedenen Designs bereitgestellt werden - zu Lasten geringfügiger Geschwindigkeitseinbußen.';
 $string['configsmtphosts'] = 'Geben Sie hier den vollen Namen von einem oder mehreren lokalen SMTP-Servern an, die Moodle für den E-Mail-Versand benutzen soll (z.B. \'mail.a.de\' oder \'mail.a.de;mail.b.de\'). Falls Sie einen Nicht-Standard-Port verwenden (z. B. nicht Port 25), verwenden Sie die [server]:[port] Syntax (z.B. mail.a.de:587). Wenn Sie dieses frei lassen, wird Moodle die Standard-Methode von PHP zum Senden von E-Mails verwenden.';
 $string['configsmtpmaxbulk'] = 'Mehrere Mitteilungen im Paket bei einer einzigen SMTP-Verbindung versenden. Dies könnte den Versand von E-Mails beschleunigen.';
-$string['configsmtpuser'] = 'Sofern Sie einen SMTP-Server angegeben haben und der Server Zugangsdaten erfordert, dann geben Sie hier Nutzernamen und Kennwort an.';
+$string['configsmtpuser'] = 'Sofern Sie einen SMTP-Server angegeben haben und der Server Zugangsdaten erfordert, dann geben Sie hier Anmeldenamen und Kennwort an.';
 $string['configstartwday'] = 'Beginn der Woche';
 $string['configstatscatdepth'] = 'Der Code zur Ermittlung von Statistiken verwendet ein vereinfachtes Modell zur Kontrolle der Kurszugangsberechtigungen der Nutzer. Überschreibungen werden ignoriert und es wird nur in einer begrenzten Zahl übergeordneter Ebenen gesucht. Der Wert \'0\' berücksichtigt nur direkte Rollenzuweisungen im Kurs selber. Der Wert \'1\' ermittelt ebenfalls Rollenzuweisungen, die aus einem übergeordneten Kurs stammen. Höhere Werte verursachen sehr umfassende Rechenlast auf dem Server bei der Berechnung von Statistiken. Sie sollten im Normalfall vermieden werden.';
 $string['configstatsfirstrun'] = 'Die Einstellung legt den Zeitraum fest, um den die auszuwertenden Logdaten zurückliegen dürfen. Wenn Sie sehr viele Aktivitäten in den Kursen haben oder sich einen Server mit anderen Anwendungen teilen, sollten Sie keinen zu langen Zeitraum wählen. Die Auswertung erfordert eine hohe Serverleistung. (Hinweis: für diese Einstellung gilt: 1 Monat = 28 Tage. In der grafischen Auswertung und den Berichten ist 1 Monat = 1 Kalendermonat.)';
@@ -271,7 +271,7 @@ $string['configtimezone'] = 'Stellen Sie hier die bevorzugte Zeitzone ein. Dies 
 $string['configunzip'] = 'Geben Sie hier die Lage (Pfad und Dateiname) des Programms unzip an (nur Unix). Das Programm wird für das Entpacken von ZIP-Archiven auf dem Server benötigt. Wenn Sie dieses Feld leer lassen, benutzt Moodle interne Routinen.';
 $string['configusetags'] = 'Soll die Kennzeichen-Funktionalität für die gesamte Website aktiviert werden?';
 $string['configvariables'] = 'Variablen konfigurieren';
-$string['configverifychangedemail'] = 'Aktiviert die Prüfung der von Nutzern geänderten E-Mail-Adressen, ob sie von gesperrten Domains stammen. Ist die Funktion deaktiviert, erfolgt die Prüfung nur bei neu angelegten Nutzern, nicht aber bei der Änderung von Mailadressen.';
+$string['configverifychangedemail'] = 'Aktiviert die Prüfung der von Nutzern geänderten E-Mail-Adressen, ob sie von gesperrten Domains stammen. Ist die Funktion deaktiviert, erfolgt die Prüfung nur bei neu angelegten Nutzern, nicht aber bei der Änderung von E-Mail-Adressen.';
 $string['configvisiblecourses'] = 'Kurse werden in verborgenen Kursbereichen normal angezeigt.';
 $string['configwarning'] = 'Vorsicht bei der Veränderung dieser Einstellungen! <br />Ungeeignete Werte könnten Probleme verursachen.';
 $string['configxmlstrictheaders'] = 'Mit dieser Funktion werden auf jeder Seite  XML http Header und Prologs erstellt. Der Browser zeigt dann XHTML Fehlermeldungen an. Diese Funktion ist nur für Entwickler sinnvoll.';
@@ -614,7 +614,7 @@ $string['profileeditcategory'] = 'Bearbeite Kategorie: $a';
 $string['profileeditfield'] = 'Bearbeite Profilfeld: $a';
 $string['profilefield'] = 'Profilfeld';
 $string['profilefieldcolumns'] = 'Spalten';
-$string['profilefieldispassword'] = 'Ist dies ein Passwortfeld?';
+$string['profilefieldispassword'] = 'Ist dies ein Kennwortfeld?';
 $string['profilefieldmaxlength'] = 'Maximale Länge';
 $string['profilefieldrows'] = 'Zeilen';
 $string['profilefields'] = 'Nutzerprofilfelder';
@@ -642,12 +642,12 @@ $string['profilevisible'] = 'Für wen ist dieses Feld sichtbar?';
 $string['profilevisibleall'] = 'Sichtbar für alle';
 $string['profilevisiblenone'] = 'Nicht sichtbar';
 $string['profilevisibleprivate'] = 'Sichtbar für Teilnehmer/innen';
-$string['protectusernames'] = 'Nutzernamen schützen';
+$string['protectusernames'] = 'Anmeldenamen schützen';
 $string['proxyhost'] = 'Proxy-Server';
-$string['proxypassword'] = 'Proxy-Passwort';
+$string['proxypassword'] = 'Proxy-Kennwort';
 $string['proxyport'] = 'Proxy-Port';
 $string['proxytype'] = 'Proxy-Typ';
-$string['proxyuser'] = 'Proxy-Nutzername';
+$string['proxyuser'] = 'Proxy-Anmeldename';
 $string['qtyperqpwillberemoved'] = 'Während des Updates wird der Fragentyp RQP entfernt. Da Sie diesen Fragentyp nicht benutzen, sollten Sie keinerlei Probleme bekommen.';
 $string['qtyperqpwillberemovedanyway'] = 'Während des Updates wird der Fragentyp RQP entfernt. Sie haben einige RQP Fragen in Ihrer Datenbank, die nicht mehr funktionieren werden, falls Sie nicht den dafür notwendigen Code vor der Fortsetzung dieses Updates installieren. http://moodle.org/mod/data/view.php?d=13&amp;rid=797';
 $string['quarantinedir'] = 'Quarantäne- Verzeichnis';
@@ -665,7 +665,7 @@ $string['regenloginsession'] = 'Session-ID beim Login neu generieren';
 $string['releasenoteslink'] = 'Weitere Informationen über diese Version finden Sie online: <a target=\"_blank\" href=\"$a\">Versionsinformation</a>';
 $string['remotelangnotavailable'] = 'Moodle kann keine Verbindung zu download.moodle.org herstellen, um die Sprachpakete automatisch zu installieren. Stattdessen laden Sie bitte die  ausgewählten Sprachpakete herunter, kopieren sie in das Verzeichnis $a und entpacken sie dort manuell.';
 $string['renameerrors'] = 'Fehler beim Umbenennen';
-$string['requiredtemplate'] = 'Erforderlich. Geben Sie hier die Vorlagestruktur ein (%%l = Nachname, %%f = Vorname, %%u = Nutzername). In der Hilfedatei finden Sie weitere Details und Beispiele.';
+$string['requiredtemplate'] = 'Erforderlich. Geben Sie hier die Vorlagestruktur ein (%%l = Nachname, %%f = Vorname, %%u = Anmeldename). In der Hilfedatei finden Sie weitere Details und Beispiele.';
 $string['restrictbydefault'] = 'Module standardmäßig einschränken';
 $string['restrictmodulesfor'] = 'Module einschränken für';
 $string['reverseproxy'] = 'Reverse Proxy';
@@ -716,7 +716,7 @@ $string['smartpix'] = 'Suche in den Bildern';
 $string['smtphosts'] = 'SMTP-Server';
 $string['smtpmaxbulk'] = 'SMTP-Massenversand';
 $string['smtppass'] = 'SMTP-Kennwort';
-$string['smtpuser'] = 'SMTP-Nutzername';
+$string['smtpuser'] = 'SMTP-Anmeldename';
 $string['soaprecommended'] = 'Die Installation der Extension soap ist für Webservices und einige Zusatzmodule hilfreich.';
 $string['spamcleaner'] = 'Spam-Suche';
 $string['stats'] = 'Statistiken';
@@ -815,7 +815,7 @@ $string['uulegacy2role'] = '(Original Teacher) typeN=2';
 $string['uulegacy3role'] = '(Original Non-editing teacher) typeN=3';
 $string['uunoemailduplicates'] = 'Doppelte E-Mail-Adressen verhindern';
 $string['uuoptype'] = 'Upload Typ';
-$string['uuoptype_addinc'] = 'Alle hinzufügen, bei Bedarf einen Zähler beim Nutzernamen anhängen';
+$string['uuoptype_addinc'] = 'Alle hinzufügen, bei Bedarf einen Zähler beim Anmeldenamen anhängen';
 $string['uuoptype_addnew'] = 'Neue hinzufügen, vorhandene Nutzer/innen überspringen';
 $string['uuoptype_addupdate'] = 'Neue hinzufügen, vorhandene Nutzer/innen aktualisieren';
 $string['uuoptype_update'] = 'Nur vorhandene Nutzer/innen aktualisieren';

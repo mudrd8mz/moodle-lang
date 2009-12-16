@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
 $string['accesCAS'] = 'CAS-Nutzer/innen';
 $string['accesNOCAS'] = 'Weitere Nutzer/innen';
 $string['actauthhdr'] = 'Aktive Plugins zur Authentifizierung';
-$string['alternatelogin'] = 'Bei der Eingabe einer URL wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button) auf <strong>\'$a\'</strong> enthalten, außerdem Eingabefelder für den <strong> Anmeldenamen </strong> und das <strong> Passwort </strong>.<br />Seien Sie sehr sorgfältig bei der Eingabe der URL, denn mit einer falschen URL schließen Sie sich selber vom Zugriff zur Website aus.<br />Lassen Sie das Feld leer, um die standardmäßige Anmeldeseite zu verwenden.';
+$string['alternatelogin'] = 'Bei der Eingabe einer URL wird diese als alternative Login-Seite  verwandt. Die Seite sollte ein Aktionsfeld (Button) auf <strong>\'$a\'</strong> enthalten, außerdem Eingabefelder für den <strong> Anmeldenamen </strong> und das <strong> Kennwort </strong>.<br />Seien Sie sehr sorgfältig bei der Eingabe der URL, denn mit einer falschen URL schließen Sie sich selber vom Zugriff zur Website aus.<br />Lassen Sie das Feld leer, um die standardmäßige Anmeldeseite zu verwenden.';
 $string['alternateloginurl'] = 'Alternative Login-URL';
 $string['auth_cas_auth_user_create'] = 'Nutzer/innen extern anlegen';
 $string['auth_cas_baseuri'] = 'URI des Servers (kein Eintrag, falls es keine baseUri gibt)<br />z.B., wenn der CAS Server an host.domaine.fr/CAS/ dann<br />cas_baseuri = CAS/';
@@ -36,13 +36,13 @@ $string['auth_cas_server_settings'] = 'CAS-Server-Konfiguration';
 $string['auth_cas_text'] = 'Sichere Verbindung';
 $string['auth_cas_use_cas'] = 'CAS verwenden';
 $string['auth_cas_version'] = 'CAS-Version';
-$string['auth_casdescription'] = 'Dieses Verfahren verwendet einen CAS Server (Central Authentification Service) zur Authentifizierung von Nutzer/innen in einer Single-Sign-On Umgebung (SSO). Sie können jedoch auch eine einfache LDAP Authentifizierung verwenden. Wenn der verwandte Anmeldename und das Passwort auf CAS als gültig erkannt werden, erstellt Moodle einen neuen Nutzereintrag in seiner Datenbank und weitere Nutzerdaten von LDAP, falls erforderlich. Bei späteren Logins werden nur Anmeldename und Passwort geprüft.';
+$string['auth_casdescription'] = 'Dieses Verfahren verwendet einen CAS Server (Central Authentification Service) zur Authentifizierung von Nutzer/innen in einer Single-Sign-On Umgebung (SSO). Sie können jedoch auch eine einfache LDAP Authentifizierung verwenden. Wenn der verwandte Anmeldename und das Kennwort auf CAS als gültig erkannt werden, erstellt Moodle einen neuen Nutzereintrag in seiner Datenbank und weitere Nutzerdaten von LDAP, falls erforderlich. Bei späteren Logins werden nur Anmeldename und Kennwort geprüft.';
 $string['auth_casnotinstalled'] = 'CAS Authentifizierung kann nicht verwendet werden. Das PHP-Modul für LDAP ist nicht installiert.';
 $string['auth_castitle'] = 'CAS-Server (SSO)';
-$string['auth_changepasswordhelp'] = 'Hilfe für Passwortänderung';
-$string['auth_changepasswordhelp_expl'] = 'Nutzerhilfe für vergessene $a Passwörter anzeigen. Diese Hilfe wird neben oder statt der <strong>URL zur Passwortänderung</strong> oder der Moodle internen Passwortänderung angezeigt.';
-$string['auth_changepasswordurl'] = 'URL zur Passwortänderung';
-$string['auth_changepasswordurl_expl'] = 'Tragen Sie hier eine URL ein, unter der die Nutzer/innen ein neues Passwort anfordern können. Wenn Sie diese Option nutzen, sollten Sie die Standardeinstellung zur Passwortänderung auf \"Nein\" setzen.';
+$string['auth_changepasswordhelp'] = 'Hilfe für Kennwortänderung';
+$string['auth_changepasswordhelp_expl'] = 'Nutzerhilfe für vergessene $a Kennworte anzeigen. Diese Hilfe wird neben oder statt der <strong>URL zur Kennwortänderung</strong> oder der Moodle internen Kennwortänderung angezeigt.';
+$string['auth_changepasswordurl'] = 'URL zur Kennwortänderung';
+$string['auth_changepasswordurl_expl'] = 'Tragen Sie hier eine URL ein, unter der die Nutzer/innen ein neues Kennworte anfordern können. Wenn Sie diese Option nutzen, sollten Sie die Standardeinstellung zur Kennwortänderung auf \"Nein\" setzen.';
 $string['auth_changingemailaddress'] = 'Sie haben eine Änderung der E-Mail-Adresse von $a->oldemail nach $a->newemail beantragt. Aus Sicherheitsgründen senden wir Ihnen eine Nachricht an Ihre neue E-Mail-Adresse. Sobald Sie zur Bestätigung die in der Nachricht enthaltene URL öffnen, wird Ihre E-Mail-Adresse aktualisiert.';
 $string['auth_common_settings'] = 'Gemeinsame Einstellungen';
 $string['auth_data_mapping'] = 'Data mapping';
@@ -57,19 +57,19 @@ $string['auth_dbextencoding'] = 'Externe db Codierung';
 $string['auth_dbextencodinghelp'] = 'Codierung in externer Datenbank verwandt';
 $string['auth_dbextrafields'] = 'Diese Felder sind optional. Sie können auswählen, einige Moodle-Nutzerfelder mit Informationen des <b>externen Datenbank-Feldes</b> vorauszufüllen, das Sie hier angeben.
 <p>Wenn Sie dieses leer lassen, werden Standardwerte benutzt.</p><p>Im anderen Fall müssen die Nutzer/innen alle Felder nach der Anmeldung ausfüllen./p>';
-$string['auth_dbfieldpass'] = 'Name des Feldes, das das Passwort enthält';
+$string['auth_dbfieldpass'] = 'Name des Feldes, das das Kennwort enthält';
 $string['auth_dbfieldpass_key'] = 'Kennwortfeld';
-$string['auth_dbfielduser'] = 'Name des Feldes, das den Nutzernamen enthält';
-$string['auth_dbfielduser_key'] = 'Nutzernamenfeld';
+$string['auth_dbfielduser'] = 'Name des Feldes, das den Anmeldenamen enthält';
+$string['auth_dbfielduser_key'] = 'Anmeldenamenfeld';
 $string['auth_dbhost'] = 'Der Computer, der die Datenbank bereitstellt';
 $string['auth_dbhost_key'] = 'Host';
 $string['auth_dbinsertuser'] = 'Eingefügte Nutzer/innen $a[0] id $a[1]';
 $string['auth_dbinsertusererror'] = 'Fehler beim Einfügen von Nutzer/in $a';
 $string['auth_dbname'] = 'Name der Datenbank';
 $string['auth_dbname_key'] = 'DB Name';
-$string['auth_dbpass'] = 'Passwort, das zum Nutzernamen gehört';
+$string['auth_dbpass'] = 'Kennwort, das zum Nutzernamen gehört';
 $string['auth_dbpass_key'] = 'Kennwort';
-$string['auth_dbpasstype'] = 'Spezifizieren Sie das Format, das das Passwortfeld benutzt. MD5-Verschlüsselung ist nützlich dafür, mit anderen üblichen Netzanwendungen Verbindung aufzunehmen, wie z.B. PostNuke';
+$string['auth_dbpasstype'] = 'Spezifizieren Sie das Format, das das Kennwortfeld benutzt. MD5-Verschlüsselung ist nützlich dafür, mit anderen üblichen Netzanwendungen Verbindung aufzunehmen, wie z.B. PostNuke';
 $string['auth_dbpasstype_key'] = 'Kennwortformat';
 $string['auth_dbreviveduser'] = 'Aktualisieren von Nutzer/innen $a[0] id $a[1]';
 $string['auth_dbrevivedusererror'] = 'Fehler beim Aktualisieren von Nutzer/in $a';
@@ -92,7 +92,7 @@ $string['auth_dbuserstoadd'] = 'Nutzereinträge zum Hinzufügen: $a';
 $string['auth_dbuserstoremove'] = 'Nutzereinträge zum Entfernen: $a';
 $string['auth_emailchangecancel'] = 'E-Mail-Änderung abbrechen';
 $string['auth_emailchangepending'] = 'Die Änderung ist noch nicht abgeschlossen. Öffnen Sie den zugesandten Link in $a->preference_newemail';
-$string['auth_emaildescription'] = 'E-Mail-Bestätigung ist die Standard-Authentifizierungsmethode. Wenn sich Nutzer/innen neu anmelden, ihren eigenen Anmeldenamen und ihr Passwort auswählen, dann wird zur Bestätigung eine E-Mail an die angegebene E-Mail-Adresse gesendet. Diese E-Mail enthält einen sicheren Verweis auf eine Seite, wo die Nutzer/innen ihren Zugang bestätigen müssen. Spätere Anmeldungen prüfen nur  Anmeldenamen und Kennwort anhand der in der Moodle-Datenbank gespeicherten Daten.';
+$string['auth_emaildescription'] = 'E-Mail-Bestätigung ist die Standard-Authentifizierungsmethode. Wenn sich Nutzer/innen neu anmelden, ihren eigenen Anmeldenamen und ihr Kennwort auswählen, dann wird zur Bestätigung eine E-Mail an die angegebene E-Mail-Adresse gesendet. Diese E-Mail enthält einen sicheren Verweis auf eine Seite, wo die Nutzer/innen ihren Zugang bestätigen müssen. Spätere Anmeldungen prüfen nur  Anmeldenamen und Kennwort anhand der in der Moodle-Datenbank gespeicherten Daten.';
 $string['auth_emailnoemail'] = 'Der Versuch Ihnen eine E-Mail zu senden ist gescheitert!';
 $string['auth_emailnoinsert'] = 'Der Datensatz konnte nicht zur Datenbank hinzugefügt werden!';
 $string['auth_emailnowexists'] = 'Die E-Mail-Adresse, die Sie in Ihrem Nutzerprofil zuweisen wollten, wird bereits von jemand anders verwendet. Der Änderungsvorgang wird hiermit abgebrochen, wobei Sie aber nochmals versuchen können, eine andere Adresse einzugeben.';
@@ -112,12 +112,12 @@ $string['auth_fcchangepasswordurl'] = 'URL zur Kennwortänderung';
 $string['auth_fcconnfail'] = 'Verbindung fehlgeschlagen mit Errno: $a[0] und Error String: $a[1]';
 $string['auth_fccreators'] = 'Eine Liste von Gruppen, denen es erlaubt ist, Kurse zu verwalten und neu anzulegen (Liste der Kursverwalter/innen). Trennen Sie verschiedene Gruppen durch \';\'. Namen müssen genau so geschrieben werden, wie auf dem Referenz-Server. Achten Sie auch auf die korrekte Groß-/ Kleinschreibung.';
 $string['auth_fccreators_key'] = 'Kursverwalter/innen';
-$string['auth_fcdescription'] = 'Dieses Verfahren überprüft auf einem anderen Server die Gültigkeit von Anmeldenamen und Passwort.';
+$string['auth_fcdescription'] = 'Dieses Verfahren überprüft auf einem anderen Server die Gültigkeit von Anmeldenamen und Kennwort.';
 $string['auth_fcfppport'] = 'Server-Port (3333 wird zumeist genutzt)';
 $string['auth_fcfppport_key'] = 'Port';
 $string['auth_fchost'] = 'Server-Adresse des Referenz-Servers. Tragen Sie die IP-Adresse oder den DNS Namen ein.';
 $string['auth_fchost_key'] = 'Host:';
-$string['auth_fcpasswd'] = 'Passwort für den Zugang';
+$string['auth_fcpasswd'] = 'Kennwort für den Zugang';
 $string['auth_fcpasswd_key'] = 'Kennwort';
 $string['auth_fctitle'] = 'Referenz-Server';
 $string['auth_fcuserid'] = 'Nutzer-ID auf dem Referenz-Server mit der bevorzugten \'Subadmin\'-Einstellung';
@@ -127,7 +127,7 @@ $string['auth_fieldlock_expl'] = '<p><b>Sperrwert:</b> Wenn Sie die Funktion akt
 $string['auth_fieldlocks'] = 'Nutzerdatenfelder sperren';
 $string['auth_fieldlocks_help'] = '<p>Sie können Datenfelder im Nutzerprofil sperren. Dies ist u.U. sinnvoll, wenn die Nutzerdaten von Administratoren gepflegt werden, manuell angelegt oder im Bulkupload (Hochladen über Textdatei) hochgeladen werden. Wenn Sie von Moodle benötigte Datenfelder sperren, müssen Sie sicher stellen, dass diese Datenfelder beim Anlegen der Nutzerprofile brauchbar vorbelegt sind.</p><p>Um Probleme zu vermeiden, achten Sie darauf, dass die Einstellung auf \"Bearbeitbar wenn Feld leer\" gesetzt ist.</p>';
 $string['auth_imapchangepasswordurl_key'] = 'URL zur Kennwortänderung';
-$string['auth_imapdescription'] = 'Diese Methode verwendet einen IMAP-Server, um die Gültigkeit von Anmeldenamen und Passwort zu prüfen.';
+$string['auth_imapdescription'] = 'Diese Methode verwendet einen IMAP-Server, um die Gültigkeit von Anmeldenamen und Kennwort zu prüfen.';
 $string['auth_imaphost'] = 'IMAP Server-Adresse. Benutzen Sie die IP und nicht den DNS-Namen';
 $string['auth_imaphost_key'] = 'Host';
 $string['auth_imapnotinstalled'] = 'IMAP-Authentifizierung kann nicht verwendet werden. Das PHP-Modul für IMAP ist nicht installiert.';
@@ -143,7 +143,7 @@ $string['auth_ldap_attrcreators_key'] = 'Ersteller von Attributen';
 $string['auth_ldap_auth_user_create_key'] = 'Nutzer extern anlegen';
 $string['auth_ldap_bind_dn'] = 'Möchten Sie Bind-User für die Nutzersuche verwenden, so geben Sie dies hier an. Normalerweise etwas wie \'cn=ldapuser,ou=public,o=org\'';
 $string['auth_ldap_bind_dn_key'] = 'Gekennzeichneter Name';
-$string['auth_ldap_bind_pw'] = 'Passwort für Bind-User.';
+$string['auth_ldap_bind_pw'] = 'Kennwort für Bind-User.';
 $string['auth_ldap_bind_pw_key'] = 'Kennwort';
 $string['auth_ldap_bind_settings'] = 'Bind-Einstellungen';
 $string['auth_ldap_changepasswordurl_key'] = 'URL zur Kennwortänderung';
@@ -154,15 +154,15 @@ $string['auth_ldap_create_context_key'] = 'Kontext für neue Nutzer';
 $string['auth_ldap_create_error'] = 'Fehler beim Anlegen von Nutzern in LDAP';
 $string['auth_ldap_creators'] = 'Eine Liste von Gruppen, denen es erlaubt ist, Kurse zu verwalten und neu anzulegen (Liste der Kursverwalter/innen). Trennen Sie mehrere Gruppen durch \';\'. Normalerweise etwas wie \'cn=teachers, ou=staff, o=myorg\'';
 $string['auth_ldap_creators_key'] = 'Kursverwalter/innen';
-$string['auth_ldap_expiration_desc'] = 'Setzen Sie Nein (no) um die Überprüfung abgelaufener Passworte abzuschalten oder LDAP um sie direkt über LDAP abzuwickeln.';
+$string['auth_ldap_expiration_desc'] = 'Setzen Sie Nein (no) um die Überprüfung abgelaufener Kennworte abzuschalten oder LDAP um sie direkt über LDAP abzuwickeln.';
 $string['auth_ldap_expiration_key'] = 'Ablauf';
-$string['auth_ldap_expiration_warning_desc'] = 'Zahl der Tage vor dem Ablauf der Gültigkeit des Passwortes an denen eine Nachricht versandt wird.';
+$string['auth_ldap_expiration_warning_desc'] = 'Zahl der Tage vor dem Ablauf der Gültigkeit des Kennwortes an denen eine Nachricht versandt wird.';
 $string['auth_ldap_expiration_warning_key'] = 'Ablaufhinweis';
-$string['auth_ldap_expireattr_desc'] = 'optional: Ändert die LDAP-Attribute zur Speicherung der Passwortgültigkeitsdauer passwordExpirationTime';
+$string['auth_ldap_expireattr_desc'] = 'optional: Ändert die LDAP-Attribute zur Speicherung der Kennwortgültigkeitsdauer passwordExpirationTime';
 $string['auth_ldap_expireattr_key'] = 'Ablauf-Attribut';
 $string['auth_ldap_graceattr_desc'] = 'optional: Ändert die gracelogin Attribute';
 $string['auth_ldap_gracelogin_key'] = 'grace Login Attribute';
-$string['auth_ldap_gracelogins_desc'] = 'Aktiviert LDAP gracelogin Unterstützung. Wenn das Passwort abgelaufen ist, können die Nutzer/innen sich weiter einloggen bis gracelogin den Wert 0 hat. Nach dem Aktivieren der Einstellung wird eine gracelogin Mitteilung angezeigt, wenn das Passwort abgelaufen ist.';
+$string['auth_ldap_gracelogins_desc'] = 'Aktiviert LDAP gracelogin Unterstützung. Wenn das Kennwort abgelaufen ist, können die Nutzer/innen sich weiter einloggen bis gracelogin den Wert 0 hat. Nach dem Aktivieren der Einstellung wird eine gracelogin Mitteilung angezeigt, wenn das Kennwort abgelaufen ist.';
 $string['auth_ldap_gracelogins_key'] = 'Frist Login';
 $string['auth_ldap_groupecreators'] = 'Liste von Gruppen oder Kontexten, deren Mitglieder berechtigt sind Gruppen zu erstellen. Mehrere Gruppen werden durch ein \';\' (Semikolon) getrennt. Der Eintrag lautet üblicherweise ähnlich wie: cn=teacher,ou=staff,o=myorg.';
 $string['auth_ldap_groupecreators_key'] = 'Gruppenersteller';
@@ -183,10 +183,10 @@ $string['auth_ldap_objectclass'] = 'Filter für die Suche nach Nutzernamen. Norm
 $string['auth_ldap_objectclass_key'] = 'Objekt Class';
 $string['auth_ldap_opt_deref'] = 'Legt fest wie Aliasbezeichnungen bei der Suche behandelt werden. Wählen Sie einen der folgenden Werte: \"No\" (LDAP_DEREF_NEVER) or \"Yes\" (LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'Alias berücksichtigen';
-$string['auth_ldap_passtype'] = 'Format für neue oder geänderte Passworte auf LDAP-Server';
-$string['auth_ldap_passtype_key'] = 'Passwortformat';
-$string['auth_ldap_passwdexpire_settings'] = 'LDAP Passwortablaufeinstellung';
-$string['auth_ldap_preventpassindb'] = 'Wählen Sie ja, um Passwörter <b>nicht</b> in der Moodle-Datenbank zu speichern';
+$string['auth_ldap_passtype'] = 'Format für neue oder geänderte Kennworte auf LDAP-Server';
+$string['auth_ldap_passtype_key'] = 'Kennwortformat';
+$string['auth_ldap_passwdexpire_settings'] = 'LDAP Kennwortablaufeinstellung';
+$string['auth_ldap_preventpassindb'] = 'Wählen Sie ja, um Kennworte <b>nicht</b> in der Moodle-Datenbank zu speichern';
 $string['auth_ldap_preventpassindb_key'] = 'Kennwörter verbergen';
 $string['auth_ldap_search_sub'] = 'Nutzer/innen in Teilumgebungen suchen';
 $string['auth_ldap_search_sub_key'] = 'Subkontexte suchen';
@@ -203,7 +203,7 @@ $string['auth_ldap_usertypeundefined'] = 'config.user_type ist nicht definiert o
 $string['auth_ldap_usertypeundefined2'] = 'config.user_type ist nicht definiert oder Funktion ldap_unixi2expirationtime unterstützt den ausgewählten Typ nicht.';
 $string['auth_ldap_version'] = 'Diese Version des LDAP Protokolls nutzt Ihr Server.';
 $string['auth_ldap_version_key'] = 'Version';
-$string['auth_ldapdescription'] = 'Diese Methode bietet die Authentifizierung gegenüber einem externen LDAP-Server. Wenn der vergebene Nutzername und Passwort gültig sind, erstellt Moodle einen neuen Nutzereintrag in seiner Datenbank. Dieses Modul kann Nutzereinträge aus LDAP                                  lesen und gewünschte Felder in Moodle vorbelegen. Für die nachfolgenden Zugänge werden nur Nutzername und Passwort überprüft.';
+$string['auth_ldapdescription'] = 'Diese Methode bietet die Authentifizierung gegenüber einem externen LDAP-Server. Wenn der vergebene Nutzername und Kennworte gültig sind, erstellt Moodle einen neuen Nutzereintrag in seiner Datenbank. Dieses Modul kann Nutzereinträge aus LDAP lesen und gewünschte Felder in Moodle vorbelegen. Für die nachfolgenden Zugänge werden nur Anmeldename und Kennwort überprüft.';
 $string['auth_ldapextrafields'] = 'Diese Felder sind optional. Sie können einige Moodle Nutzer-Felder mit Daten aus <b>LDAP-Feldern</b> vorbelegen, die Sie hier spezifizieren. <p>Wenn Sie diese Felder leer lassen, wird nichts von LDAP transferiert und die Moodle Voreinstellungen werden verwendet.</p><p>In jedem Fall können Nutzer diese Felder editieren, nachdem sie sich angemeldet haben.</p>';
 $string['auth_ldapnotinstalled'] = 'LDAP Authentifizierung kann nicht genutzt werden. Das PHP LDAP Modul ist nichtinstalliert.';
 $string['auth_ldaptitle'] = 'LDAP-Server';
@@ -217,7 +217,7 @@ $string['auth_mnetdescription'] = 'Nutzer/innen werden als vertrauensvoll authen
 $string['auth_mnettitle'] = 'MNET Authentifizierung';
 $string['auth_multiplehosts'] = 'Mehrere Hosts können angegeben werden (z.B. host1.com;host2.com;host3.com)';
 $string['auth_nntpchangepasswordurl_key'] = 'URL zur Kennwortänderung';
-$string['auth_nntpdescription'] = 'Diese Methode verwendet einen NNTP-Server, um zu prüfen, ob der angegebener Nutzername und das Passwort gültig sind.';
+$string['auth_nntpdescription'] = 'Diese Methode verwendet einen NNTP-Server, um zu prüfen, ob der angegebener Nutzername und das Kennwort gültig sind.';
 $string['auth_nntphost'] = 'NNTP Server-Adresse. Benutzen Sie die IP, nicht den DNS-Namen.';
 $string['auth_nntphost_key'] = 'Host';
 $string['auth_nntpnotinstalled'] = 'NNTP Authentifizierung kann nicht verwendet werden. Das PHP IMAP Modul ist nicht ibstalliert.';
@@ -239,10 +239,10 @@ $string['auth_ntlmsso_subnet_key'] = 'Subnet';
 $string['auth_outofnewemailupdateattempts'] = 'Sie haben die zulässige Zahl der Versuche zur Aktualisierung Ihrer E-Mail-Adresse überschritten. Der Änderungsvorgang wurde abgebrochen.';
 $string['auth_pamdescription'] = 'Diese Methode verwendet PAM (Pluggable Authentication Modules), um auf die richtigen Nutzernamen auf dem Server zuzugreifen. Sie müssen hierzu <a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\" target=\"_blank\">PHP4 PAM Authentication</a> installieren, um das Modul nutzen zu können.';
 $string['auth_pamtitle'] = 'PAM Authentifizierung';
-$string['auth_passwordisexpired'] = 'Ihr Passwort ist abgelaufen. Wollen Sie Ihr Passwort jetzt aktualisieren?';
-$string['auth_passwordwillexpire'] = 'Ihr Passwort wird in $a Tagen ablaufen. Wollen Sie Ihr Passwort nun aktualisieren?';
+$string['auth_passwordisexpired'] = 'Ihr Kennwort ist abgelaufen. Wollen Sie Ihr Kennwort jetzt aktualisieren?';
+$string['auth_passwordwillexpire'] = 'Ihr Kennwort wird in $a Tagen ablaufen. Wollen Sie Ihr Kennwort nun aktualisieren?';
 $string['auth_pop3changepasswordurl_key'] = 'URL zur Kennwortänderung';
-$string['auth_pop3description'] = 'Diese Methode verwendet einen POP3-Server, um die Gültigkeit von Anmeldenamen und Passwort zu prüfen.';
+$string['auth_pop3description'] = 'Diese Methode verwendet einen POP3-Server, um die Gültigkeit von Anmeldenamen und Kennwort zu prüfen.';
 $string['auth_pop3host'] = 'POP3-Serveradresse. Benutzen Sie die IP und nicht den DNS-Namen.';
 $string['auth_pop3host_key'] = 'Host';
 $string['auth_pop3mailbox'] = 'Name der Mailbox, mit der eine Verbindung hergestellt werden soll. (z.B. INBOX)';
@@ -254,7 +254,7 @@ $string['auth_pop3title'] = 'POP3-Server';
 $string['auth_pop3type'] = 'Servertyp. Wenn Ihr Server Sicherheitszertifikate verwendet, wählen Sie pop3cert.';
 $string['auth_pop3type_key'] = 'Typ';
 $string['auth_radiuschangepasswordurl_key'] = 'URL zur Kennwortänderung';
-$string['auth_radiusdescription'] = 'Dieses Verfahren verwendet einen <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> Server zur Prüfung des Nutzernamens und des Passwortes.';
+$string['auth_radiusdescription'] = 'Dieses Verfahren verwendet einen <a href=\"http://en.wikipedia.org/wiki/RADIUS\" target=\"_blank\">RADIUS</a> Server zur Prüfung des Anmeldenamens und des Kennwortes.';
 $string['auth_radiushost'] = 'Adresse des RADIUS-Servers';
 $string['auth_radiushost_key'] = 'Host';
 $string['auth_radiusnasport'] = 'Port für Verbindung';
@@ -313,33 +313,38 @@ $string['auth_user_create'] = 'Nutzer-Erstellung aktivieren';
 $string['auth_user_creation'] = 'Neue (anonyme) Nutzer können Nutzer-Accounts erstellen außerhalb der Authentifizierungsquelle und per E-Mail bestätigen. Sofern Sie dies aktivieren, achten Sie darauf, ebenso modulspezifische Optionen für die Modulerstellung zu konfigurieren.';
 $string['auth_usernameexists'] = 'Der ausgewählte Anwendername existiert bereits - bitte wählen Sie einen anderen.';
 $string['authenticationoptions'] = 'Authentifizierungsoptionen';
-$string['authinstructions'] = 'Hier können Sie Ihren Nutzern Anweisungen geben, welche Nutzernamen und Passworte sie verwenden sollen. Der eingegebene Text erscheint auf der Anmeldeseite. Wenn Sie nichts eingeben, werden keine Anweisungen angezeigt.';
+$string['authinstructions'] = 'Hier können Sie Ihren Nutzern Anweisungen geben, welche Nutzernamen und Kennworte sie verwenden sollen. Der eingegebene Text erscheint auf der Anmeldeseite. Wenn Sie nichts eingeben, werden keine Anweisungen angezeigt.';
 $string['auto_add_remote_users'] = 'Automatisches Hinzufügen externer Nutzer';
-$string['changepassword'] = 'Passwort-URL ändern';
-$string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter der die Nutzer ihren Nutzernamen/Passwort ändern können, sofern sie dies vergessen haben. Diese Option wird den Nutzern als Schaltfläche auf der Anmeldungsseite angeboten. Wenn Sie dieses Feld leer lassen, wird die Option nicht angeboten.';
+$string['changepassword'] = 'Kennwort-URL ändern';
+$string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter der die Nutzer ihren Nutzernamen/Kennwort ändern können, sofern sie dies vergessen haben. Diese Option wird den Nutzern als Schaltfläche auf der Anmeldungsseite angeboten. Wenn Sie dieses Feld leer lassen, wird die Option nicht angeboten.';
 $string['chooseauthmethod'] = 'Authentifizierungsmethode';
-$string['createpasswordifneeded'] = 'Passwort anlegen, falls erforderlich';
+$string['createpasswordifneeded'] = 'Kennwort anlegen, falls erforderlich';
 $string['enterthenumbersyouhear'] = 'Bitte tragen Sie die Zahlen ein, die Sie hören';
 $string['enterthewordsabove'] = 'Bitte tragen Sie die angegebenen Worte ein';
-$string['errormaxconsecutiveidentchars'] = 'Kennwörter dürfen bis zu $a aufeinander folgende identische Zeichen besitzen.';
-$string['errorminpassworddigits'] = 'Passworte müssen mindestens $a Zahl(en) enthalten.';
-$string['errorminpasswordlength'] = 'Passworte müssen mindestens $a Zeichen lang sein.';
-$string['errorminpasswordlower'] = 'Passworte müssen mindestens $a Kleinbuchstaben enthalten.';
-$string['errorminpasswordnonalphanum'] = 'Passworte müssen mindestens $a Sonderzeichen enthalten, z.B. :#_!§-%%&*+?@.';
-$string['errorminpasswordupper'] = 'Passworte müssen mindestens $a Großbuchstaben enthalten.';
-$string['errorpasswordupdate'] = 'Fehler: Passwort konnte nicht geändert werden!';
-$string['forcechangepassword'] = 'Verbindliche Änderung des Passwortes';
-$string['forcechangepassword_help'] = 'Nutzer werden aufgefordert, ihr Passwort beim nächsten Login zu ändern';
-$string['forcechangepasswordfirst_help'] = 'Nutzer werden aufgefordert, ihr Passwort beim ersten Login zu ändern';
+$string['errorminpassworddigits'] = 'Kennworte müssen mindestens $a Ziffer(n) enthalten';
+$string['errorminpasswordlength'] = 'Kennworte müssen mindestens $a Zeichen lang sein';
+$string['errorminpasswordlower'] = 'Kennworte müssen mindestens $a Kleinbuchstaben enthalten';
+$string['errorminpasswordnonalphanum'] = 'Kennworte müssen mindestens $a Sonderzeichen enthalten, z.B. :#_!§-%%&*+?@.';
+$string['errorminpasswordupper'] = 'Kennworte müssen mindestens $a Großbuchstaben enthalten.';
+$string['errorpasswordupdate'] = 'Fehler: Kennwort konnte nicht geändert werden!';
+$string['forcechangepassword'] = 'Verbindliche Änderung des Kennworts';
+$string['forcechangepassword_help'] = 'Nutzer werden aufgefordert, ihr Kennwort beim nächsten Login zu ändern';
+$string['forcechangepasswordfirst_help'] = 'Nutzer werden aufgefordert, ihr Kennwort beim ersten Login zu ändern';
 $string['forgottenpassword'] = 'Wenn Sie außerhalb von Moodle eine Seite angelegt haben, mit der Nutzer/innen vergessene Kennwörter anfordern können, dann tragen Sie die URL hier ein. 
 Lassen Sie das Feld leer, damit die Standardseite von moodle für diesen Zweck genutzt wird.';
-$string['forgottenpasswordurl'] = 'URL für vergessene Passwörter';
+$string['forgottenpasswordurl'] = 'URL für vergessene Kennworte';
 $string['getanaudiocaptcha'] = 'Audio-Captcha laden';
 $string['getanimagecaptcha'] = 'Bild-Captcha laden';
 $string['getanothercaptcha'] = 'Neues Captcha laden';
 $string['guestloginbutton'] = 'Taste für das Gast-Login';
 $string['incorrectpleasetryagain'] = 'Leider falsch! Bitte probieren Sie es nochmal.';
 $string['infilefield'] = 'Erforderliches Feld in Datei';
+$string['informminpassworddigits'] = '$a Ziffer(n)';
+$string['informminpasswordlength'] = 'mindestens $a Zeichen lang';
+$string['informminpasswordlower'] = '$a Kleinbuchstabe(n)';
+$string['informminpasswordnonalphanum'] = '$a Sonderzeichen';
+$string['informminpasswordupper'] = '$a Großbuchstabe(n)';
+$string['informpasswordpolicy'] = 'Kennwortregeln: <br />$a';
 $string['instructions'] = 'Anweisungen';
 $string['internal'] = 'Intern';
 $string['locked'] = 'Gesperrt';
@@ -349,7 +354,7 @@ $string['nopasswordchangeforced'] = 'Sie können ohne eine Änderung des Kennwor
 $string['ntlmsso_attempting'] = 'Einmal-Anmeldung über NTLM versuchen...';
 $string['ntlmsso_failed'] = 'Die automatische Anmeldung ist fehlgeschlagen. Versuchen Sie das normale Login...';
 $string['ntlmsso_isdisabled'] = 'NTLM SSO ist deaktiviert.';
-$string['passwordhandling'] = 'Nutzung des Passwortfeldes';
+$string['passwordhandling'] = 'Nutzung des Kennwortfeldes';
 $string['plaintext'] = 'Reiner Text';
 $string['pluginnotenabled'] = 'Authentifizierungsplugin \'$a\' ist nicht aktiviert.';
 $string['pluginnotinstalled'] = 'Authentifizierungsplugin \'$a\' ist nicht installiert.';
@@ -362,8 +367,8 @@ $string['shib_no_attributes_error'] = 'Sie versuchen vermutlich, die Shibboleth 
 $string['shib_not_all_attributes_error'] = 'Moodle benötigt einige Shibboleth-Attribute, die derzeit nicht bereitgestellt werden. Es handelt sich um die Attribute: $a<br />Benachrichtigen Sie bitte den Webmaster des Servers oder Ihren Identity Provider.';
 $string['shib_not_set_up_error'] = 'Die Shibboleth-Authentifizierung scheint nicht richtig eingerichtet zu sein. Beachten Sie die <a href=\"README.txt\">README-Datei</a> mit weiteren Informationen zur Einrichtung der Shibboleth-Authentifizierung.';
 $string['showguestlogin'] = 'Sie können die Gast-Login Schaltfläche auf der Anmeldeseite anzeigen oder verbergen.';
-$string['stdchangepassword'] = 'Standardseite zur Passwortänderung nutzen';
-$string['stdchangepassword_expl'] = 'Stellen Sie Ja ein, wenn das externe Authentifizierungssystem eine Änderung des Passwortes durch Moodle zulässt. Die Einstellungen überschreiben \'Passwort-URL ändern\'';
+$string['stdchangepassword'] = 'Standardseite zur Kennwortänderung nutzen';
+$string['stdchangepassword_expl'] = 'Stellen Sie Ja ein, wenn das externe Authentifizierungssystem eine Änderung des Kennwortes durch Moodle zulässt. Die Einstellungen überschreiben \'Kennwort-URL ändern\'';
 $string['stdchangepassword_explldap'] = 'Anmerkung: Es wird empfohlen LDAP über einen SSL verschlüsselten Tunnel (ldaps://) zu nutzen, wenn der LDAP Server remote verwendet wird.';
 $string['unlocked'] = 'Bearbeitbar';
 $string['unlockedifempty'] = 'Bearbeitbar wenn Feld leer';
@@ -371,26 +376,21 @@ $string['update_never'] = 'Nie';
 $string['update_oncreate'] = 'Beim Anlegen';
 $string['update_onlogin'] = 'Bei jedem Login';
 $string['update_onupdate'] = 'Bei der Aktualisierung';
-$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"';
-$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"';
-
-
-// Strings below here are module specific and will be duplicated in auth_* files
-// Module specific language strings should also be copied into their respective
-// auth_*.php files to ensure compatibility in all versions of Moodle
-
+$string['errormaxconsecutiveidentchars'] = 'Kennwörter dürfen bis zu $a aufeinander folgende identische Zeichen besitzen.'; // ORPHANED
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"'; // ORPHANED
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"'; // ORPHANED
 $string['sso_idp_description'] = 'Veröffentlichen Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
 <ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Service Provider) auf $a <strong>abonnieren </strong>.</li></ul>
 
 <br />Abonnieren Sie diesen Dienst, um allen angemeldeten Nutzer/innen von $a zu erlauben, auf Ihre Website zuzugreifen, ohne sich hier erneut anmelden zu müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Service Provider) für $a <strong>veröffentlichen </strong>.</li></ul>';
-$string['sso_idp_name'] = 'SSO (Identity Provider)';
-$string['sso_mnet_login_refused'] = 'Der Anmeldename $a[0] ist zum Login auf $a[1] nicht zugelassen.';
+<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Service Provider) für $a <strong>veröffentlichen </strong>.</li></ul>'; // ORPHANED
+$string['sso_idp_name'] = 'SSO (Identity Provider)'; // ORPHANED
+$string['sso_mnet_login_refused'] = 'Der Anmeldename $a[0] ist zum Login auf $a[1] nicht zugelassen.'; // ORPHANED
 $string['sso_sp_description'] = 'Veröffentlichen Sie diesen Dienst, um authetifizierten Nutzer/innen aus dem Moodle $a einen Zugriff auf Ihre Website zu gewähren, ohne dass sich diese hier erneut anmelden müssen.
 <ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Identity Provider) auf $a <strong>abonnieren </strong>.</li></ul>
 
 <br />Abonnieren Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Identity Provider) für $a <strong> veröffentlichen </strong>.</li></ul>';
-$string['sso_sp_name'] = 'SSO (Service Provider)';
+<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Identity Provider) für $a <strong> veröffentlichen </strong>.</li></ul>'; // ORPHANED
+$string['sso_sp_name'] = 'SSO (Service Provider)'; // ORPHANED
 
 ?>
