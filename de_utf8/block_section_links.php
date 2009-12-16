@@ -11,8 +11,8 @@ $string['jumptocurrenttopic'] = 'Zum aktuellen Thema';
 $string['jumptocurrentweek'] = 'Zur aktuellen Woche';
 $string['numsections1'] = 'Untere Grenze1';
 $string['numsections2'] = 'Untere Grenze2';
-$string['numsectionsdesc1'] = 'Bei einer größeren Anzahl von Abschnitten im Kurs wird im Block \'Kursabschnitte\' nur jeder x1-te Abschnitt verlinkt';
-$string['numsectionsdesc2'] = 'Bei einer größeren Anzahl von Abschnitten im Kurs wird im Block \'Kursabschnitte\' nur jeder x2-te Abschnitt verlinkt';
+$string['numsectionsdesc1'] = 'Bei einer größeren Anzahl von Abschnitten im Kurs wird im Block nur jeder x1-te Abschnitt verlinkt';
+$string['numsectionsdesc2'] = 'Bei einer größeren Anzahl von Abschnitten im Kurs wird im Block nur jeder x2-te Abschnitt verlinkt';
 $string['topics'] = 'Themen';
 $string['weeks'] = 'Wochen';
 
