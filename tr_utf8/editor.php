@@ -1,9 +1,10 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 1.8 dev (2006120700)
+      // editor.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
 
 
-$string['about'] = 'Bu editor hakkında';
+$string['about'] = 'Bu düzenleyici hakkında';
 $string['absbottom'] = 'Satıraltı';
+$string['acteditorshhdr'] = 'Etkin metin düzenleyiciler';
 $string['address'] = 'Adres';
 $string['alertnoselectedtext'] = 'Öncelikle yazı seçmelisiniz!';
 $string['alignment'] = 'Hizalama';
@@ -24,6 +25,7 @@ $string['chooseicon'] = 'Eklemek için bir ikon seçin';
 $string['close'] = 'Kapat';
 $string['closeafterreplace'] = 'Değiştirdikten sonra kapat';
 $string['cols'] = 'Sütun';
+$string['configeditorplugins'] = 'Lütfen kullanmak istediğiniz metin düzenleyicileri seçin ve tavsiye edilen sırada yerleştirin.';
 $string['copy'] = 'Seçili olanı kopyala';
 $string['createanchor'] = 'Sıçrama oluştur';
 $string['createfolder'] = 'Klasör oluştur';
@@ -31,8 +33,10 @@ $string['createlink'] = 'Web Bağlantısı Ekle';
 $string['cut'] = 'Seçili olanı kes';
 $string['cutpastemozilla'] = 'Maalesef, şu anda bu çevrimiçi editöre metni yapıştırmak için normal klavye kısayollarını (Yapıştır butonunu bile) kullanamazsınız. Bu, Mozilla ve Firefox tarayıcılarının bazı sürümlerinin güvenlik özelliğinden kaynaklanır.<br /><br />Deneyebileceğiniz üç yöntem var:<br />(1) CTRL-v yerine SHIFT-Insert kullanın<br />Tarayıcınızın Düzenle->Yapıştır menüsünü kullanın<br />(3) user.js dosyasını düzenleyerek tarayıcınızın seçeneklerini değiştirin.<br /><br />Daha fazla yardım için TAMAM tuşuna veya editöre geri dönmek için İptal tuşuna basın.';
 $string['delete'] = 'Sil';
+$string['editors'] = 'Metin düzenleyeciler';
+$string['editorsettings'] = 'Düzenleyecileri yönet';
 $string['enterurlfirst'] = 'Öncelikle bir URL girmeniz gerekiyor';
-$string['filebrowser'] = 'Dosya Gözatıcısı';
+$string['filebrowser'] = 'Dosya Gezgini';
 $string['findwhat'] = 'Bul';
 $string['fontname'] = 'Yazı tipi';
 $string['fontsize'] = 'Font boyutu';

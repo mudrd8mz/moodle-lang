@@ -1,15 +1,76 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20090505) (2009043000)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
 
 
-$string['amfdebug'] = 'AMF sunucu hata ayıklama modu';
-$string['fail'] = 'HATA';
-$string['functionlist'] = 'web servisi işlev listesi';
-$string['moodlepath'] = 'Moodle yolu';
-$string['ok'] = 'TAMAM';
-$string['protocolenable'] = '$a[0] protokol etkin';
-$string['webservicesenable'] = 'Etkin web servisleri';
-$string['wspagetitle'] = 'Web servisleri belgeleri';
-$string['wsuserreminder'] = 'Hatırlatma: Bu site yöneticisinin size moodle/site:usewebservices yetkisini vermesi gerekiyor.';
+$string['accessexception'] = 'Erişim kontrolü istisnası';
+$string['actwebserviceshhdr'] = 'Etkin web servis protokolleri';
+$string['addfunction'] = 'İşlev ekle';
+$string['addfunctionhelp'] = 'Servise eklenecek işlevi seçin.';
+$string['addrequiredcapability'] = 'Gerekli yetkinliği ata/atama';
+$string['addservice'] = 'Yeni servis ekle: $a->name (id: $a->id)';
+$string['apiexplorer'] = 'API gezgini';
+$string['apiexplorernotavalaible'] = 'API gezgini henüz ulaşılabilir değil';
+$string['arguments'] = 'Argümanlar';
+$string['configwebserviceplugins'] = 'Güvenlik önlemi olarak sadece kullandığınız protokolleri etkinleştirin.';
+$string['deleteservice'] = 'Servisi sil: $a->name (id: $a->id)';
+$string['deleteserviceconfirm'] = 'Harici \"$a\" servisini gerçekten silmek istediğinizden emin misiniz?';
+$string['disabledwarning'] = 'Tüm web servis protokolleri kapalı. \"Web Servislerini Etkinleştir\" ayarı gelişmiş özellikler bölümündedir.';
+$string['editservice'] = 'Servisi düzenle: $a->name (id: $a->id)';
+$string['enabled'] = 'Etkin';
+$string['error'] = 'Hata: $a';
+$string['errorcodes'] = 'Hata Kodları';
+$string['execute'] = 'Çalıştır';
+$string['executewarnign'] = 'UYARI: Çalıştır\'a basarsanız veritabanınızda değişiklikler yapılır ve yapılan değişiklikler geri alınamaz!';
+$string['externalservice'] = 'Harici servis';
+$string['externalservicefunctions'] = 'Harici servis işlevleri';
+$string['externalservices'] = 'Harici servisler';
+$string['externalserviceusers'] = 'Harici servis kullanıcıları';
+$string['function'] = 'İşlev';
+$string['functions'] = 'İşlevler';
+$string['iprestriction'] = 'IP sınırlaması';
+$string['manageprotocols'] = 'Protokolleri yönet';
+$string['noerrorcode'] = 'Hata kodu yok';
+$string['norequiredcapability'] = 'Gerekli yetki yok';
+$string['optional'] = 'İsteğe bağlı';
+$string['phpparam'] = 'XML-RPC (PHP yapısı)';
+$string['phpresponse'] = 'XML-RPC (PHP yapısı)';
+$string['postrestparam'] = 'REST için PHP kodu (POST isteği)';
+$string['potusers'] = 'Yetkilendirilmiş kullanıcılar yok';
+$string['potusersmatching'] = 'Eşleşen yetkilendirilmiş kullanıcılar yok';
+$string['protocol'] = 'Protokol';
+$string['removefunction'] = 'Sil';
+$string['removefunctionconfirm'] = '\"$a->service\" servisinden \"$a->function\" işlevini gerçekten silmek istediğinizden emin misiniz?';
+$string['requireauthentication'] = 'Bu işlev, xxx izni için yetki gerektirir.';
+$string['required'] = 'Gerekli';
+$string['requiredcapability'] = 'Gerekli yetki';
+$string['response'] = 'Yanıt';
+$string['restcode'] = 'REST';
+$string['restparam'] = 'REST (POST parametreleri)';
+$string['restrictedusers'] = 'Sadece yetkilendirilmiş kullanıcılar';
+$string['selectedcapability'] = 'Seçili';
+$string['selectedcapabilitydoesntexit'] = 'Ayarlanan ($a) yetkisi artık yok. Lütfen değiştirin ve değişiklikleri kaydedin.';
+$string['servicename'] = 'Servis adı';
+$string['servicesbuiltin'] = 'Yerleşik servisler';
+$string['servicescustom'] = 'Özel servisler';
+$string['serviceusers'] = 'Yetkili kullanıcılar';
+$string['serviceusersmatching'] = 'Eşleşen yetkili kullanıcılar';
+$string['serviceuserssettings'] = 'Yetkili kullanıcılar için ayarları değiştir';
+$string['testclient'] = 'Web servisi test istemcisi';
+$string['validuntil'] = 'Geçerlilik';
+$string['webservices'] = 'Web servisleri';
+$string['wsdocumentation'] = 'Web servisi belgesi';
+$string['wsdocumentationlogin'] = 'Web servisinizin kullanıcı adı ve şifresini girin.';
+$string['wspassword'] = 'Web servisi şifresi';
+$string['wsusername'] = 'Web servisi kullanıcı adı';
+$string['xmlrpcstructure'] = 'belgelendirme';
+$string['amfdebug'] = 'AMF sunucu hata ayıklama modu'; // ORPHANED
+$string['fail'] = 'HATA'; // ORPHANED
+$string['functionlist'] = 'web servisi işlev listesi'; // ORPHANED
+$string['moodlepath'] = 'Moodle yolu'; // ORPHANED
+$string['ok'] = 'TAMAM'; // ORPHANED
+$string['protocolenable'] = '$a[0] protokol etkin'; // ORPHANED
+$string['webservicesenable'] = 'Etkin web servisleri'; // ORPHANED
+$string['wspagetitle'] = 'Web servisleri belgeleri'; // ORPHANED
+$string['wsuserreminder'] = 'Hatırlatma: Bu site yöneticisinin size moodle/site:usewebservices yetkisini vermesi gerekiyor.'; // ORPHANED
 
 ?>
