@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
 
 
 $string['abouttobeinstalled'] = 'yüklenmek üzere';
@@ -668,6 +668,8 @@ $string['firstaccess'] = 'İlk erişim';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Ad';
 $string['firsttime'] = 'Buraya ilk defa mı geliyorsunuz?';
+$string['flashlinkmessage'] = 'Lütfen flash eklentisini şimdi güncelleyin:';
+$string['flashupgrademessage'] = 'Bu içeriği oynatabilmek için Flash eklentisi gerekir, ancak kullandığınız sürüm çok eski. Güncelleme yaptıktan sonra çıkış yapıp tekrar giriş yapmanız gerekiyor.';
 $string['folder'] = 'Klasör';
 $string['folderclosed'] = 'Kapalı klasör';
 $string['folderopened'] = 'Açık klasör';
@@ -1151,7 +1153,7 @@ $string['numhours'] = '$a saat';
 $string['numletters'] = '$a harf';
 $string['numminutes'] = '$a dakika';
 $string['nummonths'] = '$a ay';
-$string['numseconds'] = '??? saniye';
+$string['numseconds'] = '$a saniye';
 $string['numviews'] = '$a görme';
 $string['numweeks'] = '$a hafta';
 $string['numwords'] = '$a kelime';
@@ -1247,6 +1249,8 @@ $string['publicdirectory1'] = 'Sadece site adını yayınla';
 $string['publicdirectory2'] = 'Siteyi bağlantısıyla birlikte yayınla';
 $string['publicdirectorytitle'] = 'Şu anki site listesine bakın';
 $string['publicsitefileswarning'] = 'Not: Buradaki dosyalara herkes erişebilir';
+$string['publicsitefileswarning2'] = 'Not: Buradaki dosyalara URL adresini bilen (veya tahmin edebilen) herkes erişebilir. Güvenlik önlemi olarak, yedekleme dosyalarını geri yükledikten sonra hemen silmeniz önerilir.';
+$string['publicsitefileswarning3'] = 'Not: Buradaki dosyalara URL adresini bilen (veya tahmin edebilen) herkes erişebilir.<br />Güvenlik önlemi olarak, yedekleme dosyaları, sadece güvenli \"backupdata\" klasörüne kaydedilmeli.';
 $string['question'] = 'Soru';
 $string['questionsinthequestionbank'] = 'Soru bankasındaki sorular';
 $string['readinginfofrombackup'] = 'Yedeklemeden bilgi okunuyor';

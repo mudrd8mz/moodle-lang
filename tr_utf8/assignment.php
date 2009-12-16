@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
 
 
 $string['allowdeleting'] = 'Silme izni';
@@ -12,18 +12,18 @@ $string['assignment:exportsubmission'] = 'Gönderileri dışa ver';
 $string['assignment:grade'] = 'Ödevi notlandır';
 $string['assignment:submit'] = 'Ödevi gönder';
 $string['assignment:view'] = 'Ödeve bak';
+$string['assignmentadministration'] = 'Ödev yönetimi';
 $string['assignmentdetails'] = 'Ödev ayrıntıları';
-$string['assignmentmail'] = '$a->teacher, \'$a->assignment\' isimli ödeviniz için geribildirim verdi.
+$string['assignmentmail'] = '$a->teacher, \'$a->assignment\' isimli ödeviniz için geribildirim ekledi.
 
 Bu bildirimi ödevinize eklenmiş olarak görebilirsiniz:
 
 $a->url';
-$string['assignmentmailhtml'] = '$a->teacher, \'<i>$a->assignment</i>\' isimli ödeviniz için geribildirim verdi.<br /><br />Bu bildirimi <a href=\"$a->url\">ödevinize</a> eklenmiş olarak görebilirsiniz.';
+$string['assignmentmailhtml'] = '$a->teacher, \'<i>$a->assignment</i>\' isimli ödeviniz için geribildirim ekledi.<br /><br />Bu bildirimi <a href=\"$a->url\">ödevinize</a> eklenmiş olarak görebilirsiniz.';
 $string['assignmentname'] = 'Ödev adı';
 $string['assignmenttype'] = 'Ödev türü';
 $string['availabledate'] = 'Erişilebilme tarihi';
 $string['cannotdeletefiles'] = 'Bir hata oluştu ve dosyalar silinemedi';
-$string['cannotinsertempty'] = 'Boş bir ödev eklenemedi';
 $string['cannotviewassignment'] = 'Bu ödeve bakamazsınız';
 $string['comment'] = 'Yorum';
 $string['commentinline'] = 'Satıriçi yorum';
@@ -36,7 +36,7 @@ $string['deleteallsubmissions'] = 'Tüm gönderileri sil';
 $string['deletefilefailed'] = 'Dosya silme başarısız.';
 $string['description'] = 'Açıklama';
 $string['draft'] = 'Taslak';
-$string['duedate'] = 'Teslim tarihi';
+$string['duedate'] = 'Son teslim tarihi';
 $string['duedateno'] = 'Süresiz';
 $string['early'] = '$a öncesi';
 $string['editmysubmission'] = 'Gönderimi düzenle';
@@ -73,11 +73,13 @@ $string['itemstocount'] = 'Sayaç';
 $string['late'] = '$a sonrası';
 $string['maximumgrade'] = 'En yüksek not';
 $string['maximumsize'] = 'En yüksek boyut';
+$string['maxpublishstate'] = 'Son teslim tarihinden önce görünebilen en fazla blog kaydı';
 $string['modulename'] = 'Ödev';
 $string['modulenameplural'] = 'Ödevler';
 $string['newsubmissions'] = 'Gönderilmiş ödevler';
 $string['noassignments'] = 'Henüz ödev yok';
 $string['noattempts'] = 'Bu ödev için uygulama yapılmadı';
+$string['noblogs'] = 'Gönderebileceğiniz blog girdisi yok!';
 $string['nofiles'] = 'Dosya gönderilmedi';
 $string['nofilesyet'] = 'Henüz dosya gönderilmedi';
 $string['nomoresubmissions'] = 'Artık gönderemezsiniz.';
@@ -96,6 +98,7 @@ $string['quickgrade'] = 'Hızlı notlandırma izni';
 $string['responsefiles'] = 'Yanıt dosyaları';
 $string['reviewed'] = 'İncelendi';
 $string['saveallfeedback'] = 'Tüm geribildirimlerimi kaydet';
+$string['selectblog'] = 'Hangi blog girdisinin gönderileceğini seçin';
 $string['sendformarking'] = 'Bitmiş olarak gönder';
 $string['showrecentsubmissions'] = 'Son gönderileri göster';
 $string['submission'] = 'Gönderi';
@@ -110,6 +113,7 @@ $string['submitformarking'] = 'Bitmiş ödev için gönderiyi sonlandır';
 $string['submitted'] = 'Gönderilmiş';
 $string['submittedfiles'] = 'Gönderilmiş dosyalar';
 $string['trackdrafts'] = 'Bitmiş olarak gönderebilmeyi etkinleştir';
+$string['typeblog'] = 'Blog gönderisi';
 $string['typeoffline'] = 'Çevrimdışı etkinlik';
 $string['typeonline'] = 'Çevrimiçi yazı';
 $string['typeupload'] = 'Gelişmiş dosya yükleme';
@@ -126,7 +130,9 @@ $string['uploadnotregistered'] = '\'$a\' yüklendi fakat gönderim kaydı yapıl
 $string['uploadsuccess'] = '\'$a\' başarıyla yüklendi';
 $string['usermisconf'] = 'Kullanıcı hatalı yapılandırılmış';
 $string['viewfeedback'] = 'Ödev notlarına ve geribildirimlere bak';
+$string['viewmysubmission'] = 'Ödevime bak';
 $string['viewsubmissions'] = '$a ödev gönderisine bak';
 $string['yoursubmission'] = 'Gönderiniz';
+$string['cannotinsertempty'] = 'Boş bir ödev eklenemedi'; // ORPHANED
 
 ?>

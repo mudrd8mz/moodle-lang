@@ -1,4 +1,8 @@
-<?php
+<?PHP // $Id$ 
+      // auth_webservice.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
 
-// All of the language strings in this file should also exist in
-// auth.php to ensure compatibility in all versions of Moodle.
+
+$string['auth_webservicedescription'] = 'Web servisleri için elle oluşturulmuş hesaplar';
+$string['auth_webservicetitle'] = 'Web servisleri';
+
+?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 2.0 dev (Build: 20090319) (2009030501)
+      // access.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
 
 
 $string['access'] = 'Erişilebilirlik';
@@ -20,6 +20,7 @@ $string['sitemap'] = 'Site haritası';
 $string['skipa'] = '$a atla';
 $string['skipblock'] = 'Bloğa atla';
 $string['skipnavigation'] = 'Dolaşımı atla';
+$string['skipto'] = 'Geç: $a';
 $string['tabledata'] = 'Veri tablosu, $a';
 $string['tablelayout'] = 'Şablon tablo, $a';
 $string['tocontent'] = 'Ana içeriğe git';

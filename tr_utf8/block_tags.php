@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tags.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
+      // block_tags.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
 
 
 $string['add'] = 'Ekle';
@@ -13,6 +13,7 @@ $string['communitytags2'] = 'Kullanıcıların oluşturduğu tüm ders etiketler
 $string['coursetags'] = 'Ders etiketleri:';
 $string['coursetags1'] = 'ders etiketleri';
 $string['coursetags2'] = 'Bu ders için etiketleri göster';
+$string['disabledtags'] = 'Etiketler etkin değil';
 $string['edit'] = 'düzenle...';
 $string['editdeletemytag'] = 'Etiketi bu dersten sil:';
 $string['editmytags'] = 'Etiketlerim - etiketliğiniz derslere kısayollar';
