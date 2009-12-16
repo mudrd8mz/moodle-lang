@@ -51,7 +51,7 @@ $string['updateentrywithid'] = 'Обновление записи';
 $string['userblog'] = 'Блог пользователя $a';
 $string['viewcourseentries'] = 'Просмотр записей курса';
 $string['viewmyentries'] = 'Просмотр моих записей';
-$string['viewsiteentries'] = 'Просмтор записей сайта';
+$string['viewsiteentries'] = 'Просмотр записей сайта';
 $string['worldblogs'] = 'Всем посетителям доступны записи с настройкой \"доступно для всех\"';
 
 ?>
