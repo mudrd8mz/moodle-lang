@@ -1,18 +1,18 @@
 <?PHP // $Id$ 
-      // block_section_links.php - created with Moodle 1.9.7+ (Build: 20091205) (2007101570)
+      // block_section_links.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
-$string['blockname'] = 'Verlinkte Kursabschnitte';
-$string['incby1'] = 'Schrittweite';
-$string['incby2'] = 'Alternative Schrittweite';
-$string['incbydesc1'] = 'Um diesen Wert werden die Nummern der verlinkten Abschnitte erhöht';
-$string['incbydesc2'] = 'Um diesen Wert werden die Nummern der verlinkten Abschnitte erhöht';
+$string['blockname'] = 'Kursabschnitte';
+$string['incby1'] = 'Schrittweite1';
+$string['incby2'] = 'Schrittweite2';
+$string['incbydesc1'] = 'Nur jeden x1-ten Abschnitt anzeigen';
+$string['incbydesc2'] = 'Nur jeden x2-ten Abschnitt anzeigen';
 $string['jumptocurrenttopic'] = 'Zum aktuellen Thema';
 $string['jumptocurrentweek'] = 'Zur aktuellen Woche';
-$string['numsections1'] = 'Zahl der Abschnitte';
-$string['numsections2'] = 'Alternative Zahl der Abschnitte';
-$string['numsectionsdesc1'] = 'Falls die Zahl der Abschnitte innerhalb des Kurses diese Zahl erreicht, wird der Wert \'Schrittweite\' benutzt';
-$string['numsectionsdesc2'] = 'Falls die Zahl der Abschnitte innerhalb des Kurses diese Zahl erreicht, wird der Wert \'Alternative Schrittweite\' benutzt';
+$string['numsections1'] = 'Untere Grenze1';
+$string['numsections2'] = 'Untere Grenze2';
+$string['numsectionsdesc1'] = 'Bei einer größeren Anzahl von Abschnitten im Kurs wird im Block \'Kursabschnitte\' nur jeder x1-te Abschnitt verlinkt';
+$string['numsectionsdesc2'] = 'Bei einer größeren Anzahl von Abschnitten im Kurs wird im Block \'Kursabschnitte\' nur jeder x2-te Abschnitt verlinkt';
 $string['topics'] = 'Themen';
 $string['weeks'] = 'Wochen';
 
