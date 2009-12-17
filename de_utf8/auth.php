@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -20,7 +20,7 @@ $string['auth_cas_create_user_key'] = 'Nutzer anlegen';
 $string['auth_cas_enabled'] = 'Aktivieren Sie die Funktion, um die CAS Authentifizierung zu verwenden';
 $string['auth_cas_hostname'] = 'Hostname des CAS-Servers <br />z.B.: host.domain.fr';
 $string['auth_cas_hostname_key'] = 'Hostname';
-$string['auth_cas_invalidcaslogin'] = 'Entschuldigung, Ihr Login ist gescheitert - Ihr Zugang konnte nicht bestätigt werden.';
+$string['auth_cas_invalidcaslogin'] = 'Das Login ist gescheitert - Ihr Zugang konnte nicht bestätigt werden.';
 $string['auth_cas_language'] = 'Ausgewählte Sprache';
 $string['auth_cas_language_key'] = 'Sprache';
 $string['auth_cas_logincas'] = 'Sicherer Zugang';

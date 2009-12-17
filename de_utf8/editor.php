@@ -1,15 +1,14 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
+      // editor.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
 
 
 $string['about'] = 'Über diesen Editor';
 $string['absbottom'] = 'Unten ausrichten';
-$string['acteditorshhdr'] = 'Aktive Texteditoren';
 $string['address'] = 'Adresse';
 $string['alertnoselectedtext'] = 'Markieren Sie erst den Text!';
 $string['alignment'] = 'Anordnung';
 $string['alternatetext'] = 'Alternativer Text';
-$string['anchorhelp'] = 'Hiermit erstellen Sie nur einen Anker. Zusätzlich müssen Sie manuell einen Link  erstellen.';
+$string['anchorhelp'] = 'Hiermit fügen Sie nur einen Anker ein, den Sie an anderer Stelle zusätzlich verlinken müssen.';
 $string['anchorname'] = 'Name des Ankers';
 $string['anchors'] = 'Anker';
 $string['baseline'] = 'Grundlinie';
@@ -25,7 +24,6 @@ $string['chooseicon'] = 'Icon zum Einfügen auswählen';
 $string['close'] = 'Schließen';
 $string['closeafterreplace'] = 'Nach dem Ersetzen schließen';
 $string['cols'] = 'Spalten';
-$string['configeditorplugins'] = 'Bitte wählen Sie die Editor-Plugins, die Sie benutzen möchten, und ordnen Sie sie in der empfohlenen Reihenfolge.';
 $string['copy'] = 'Auswahl kopieren';
 $string['createanchor'] = 'Anker erstellen';
 $string['createfolder'] = 'Ordner erstellen';
@@ -33,8 +31,6 @@ $string['createlink'] = 'Link einfügen';
 $string['cut'] = 'Auswahl ausschneiden';
 $string['cutpastemozilla'] = 'Leider können Sie mit diesem Editor die gewohnten Tastatur-Shortcuts zum Einfügen von Texten nicht nutzen. Hintergrund ist eine Sicherheitsfunktion in einigen Versionen von Mozilla und Firefox.<br /><br />Sie haben drei Möglichkeiten, die Sie probieren können: <br /> (1) An Stelle von Strg-V verwenden Sie SHIFT-Einfg <br /> (2) Nutzen Sie das Menü mit Bearbeiten -> Einfügen <br /> (3) Verändern Sie die Einstellungen des Browsers in der Datei user.js. <br /><br />Mit dem \"OK\"-Button finden Sie weitere Informationen, mit dem Button \"Abbrechen\" gehen Sie zum Editor zurück.';
 $string['delete'] = 'Löschen';
-$string['editors'] = 'Texteditoren';
-$string['editorsettings'] = 'Editoren verwalten';
 $string['enterurlfirst'] = 'Sie müssen zuerst eine URL eingeben';
 $string['filebrowser'] = 'Dateibrowser';
 $string['findwhat'] = 'Finden';
@@ -130,5 +126,9 @@ $string['vertical'] = 'Vertikal';
 $string['width'] = 'Breite (Pixel)';
 $string['wordclean'] = 'Word-Formatierung umwandeln (HTML)';
 $string['zip'] = 'ZIP';
+$string['acteditorshhdr'] = 'Aktive Texteditoren'; // ORPHANED
+$string['configeditorplugins'] = 'Bitte wählen Sie die Editor-Plugins, die Sie benutzen möchten, und ordnen Sie sie in der empfohlenen Reihenfolge.'; // ORPHANED
+$string['editors'] = 'Texteditoren'; // ORPHANED
+$string['editorsettings'] = 'Editoren verwalten'; // ORPHANED
 
 ?>

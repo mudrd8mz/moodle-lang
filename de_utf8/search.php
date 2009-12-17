@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 2.0 dev (Build: 20080511) (2008050700)
+      // search.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
 
 
 $string['advancedsearch'] = 'Erweiterte Suche';
@@ -53,7 +53,7 @@ $string['tofetchtheseresults'] = ', um diese Ergebnisse zu bekommen';
 $string['totalsize'] = 'Gesamtgröße';
 $string['type'] = 'Typ';
 $string['uncompleteindexingerror'] = 'Die Indizierung wurde nicht erfolgreich beendet. Bitte versuchen Sie es noch einmal.';
-$string['versiontoolow'] = 'Entschuldigung, aber die globale Suche benötigt PHP 5.0.0 (oder höher). Aktuell wird folgende Version benutzt:';
+$string['versiontoolow'] = 'Die globale Suche benötigt PHP 5.0.0 (oder höher).';
 $string['whichmodulestosearch?'] = 'Diese Module durchsuchen';
 $string['wordsintitle'] = 'Worte im Titel';
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -10,7 +10,7 @@ $string['activeusers'] = 'Aktive Nutzer/innen';
 $string['activities'] = 'Aktivitäten';
 $string['activity'] = 'Aktivität';
 $string['activityclipboard'] = 'Diese Aktivität verschieben: <b>$a</b>';
-$string['activityiscurrentlyhidden'] = 'Entschuldigung, diese Aktivität ist momentan verborgen';
+$string['activityiscurrentlyhidden'] = 'Diese Aktivität ist aktuell verborgen';
 $string['activitymodule'] = 'Aktivitäten';
 $string['activityreport'] = 'Aktivitäten';
 $string['activityreports'] = 'Aktivitäten';
@@ -310,7 +310,7 @@ $string['courserejectsubject'] = 'Ihr Kursantrag wurde abgelehnt.';
 $string['coursereports'] = 'Kursberichte';
 $string['courserequest'] = 'Beantragung';
 $string['courserequestdetails'] = 'Details für den Kurs, den Sie beantragen';
-$string['courserequestdisabled'] = 'Entschuldigung, die Option zur Kursbeantragung wurde deaktiviert.';
+$string['courserequestdisabled'] = 'Die Option zur Kursbeantragung wurde deaktiviert.';
 $string['courserequestfailed'] = 'Ihr Kursantrag konnte aus irgendeinem Grund nicht gespeichert werden.';
 $string['courserequestintro'] = 'Mit diesem Formular können Sie die Einrichtung eines neuen Kurses beantragen.<br />Tragen Sie alle Informationen ein, damit die Administrator/innen Ihren Wunsch nachvollziehen und Ihren Antrag bearbeiten können.';
 $string['courserequestreason'] = 'Begründung des Kursantrags';
@@ -590,7 +590,7 @@ $string['enrolmentkeyhint'] = 'Der Zugangsschlüssel war falsch, bitte versuchen
 $string['enrolmentnew'] = 'Neue Anmeldung in $a';
 $string['enrolmentnewuser'] = '$a->user hat sich im Kurs \"$a->course\" eingeschrieben';
 $string['enrolmentnointernal'] = 'Manuelles Einschreiben ist derzeit nicht möglich.';
-$string['enrolmentnotyet'] = 'Entschuldigung, Sie können sich erst ab dem $a in diesen Kurs einschreiben.';
+$string['enrolmentnotyet'] = 'Sie können sich erst ab dem $a in diesen Kurs einschreiben.';
 $string['enrolmentplugins'] = 'Einschreibeverfahren';
 $string['enrolments'] = 'Einschreibung';
 $string['enrolmentstart'] = 'Beginn des Einschreibezeitraums';
@@ -600,7 +600,7 @@ $string['entercourse'] = 'Hier klicken, um den Kurs zu betreten';
 $string['enteremailaddress'] = 'Geben Sie hier Ihre E-Mail-Adresse ein, um Ihr Kennwort zurückzusetzen. Sie erhalten ein Zufallskennwort per E-Mail zugesendet und dürfen dieses dann selber ändern.';
 $string['entries'] = 'Eintragungen';
 $string['error'] = 'Fehler';
-$string['errortoomanylogins'] = 'Entschuldigung, aber Sie haben die zulässige Anzahl erfolgloser Zugangsversuche überschritten. Für weitere Versuche starten Sie Ihren Browser neu.';
+$string['errortoomanylogins'] = 'Sie haben die zulässige Anzahl erfolgloser Zugangsversuche überschritten. Für weitere Versuche müssen Sie Ihren Browser neustarten';
 $string['errorwhenconfirming'] = 'Ihre Registrierung wurde bisher nicht erfolgreich abgeschlossen. Wenn Sie auf einen Link in einer E-Mail geklickt haben, um hierher zu gelangen, überprüfen Sie bitte die Vollständigkeit des Links. 
 Hinweis: Sie können durch Kopieren und Einfügen den Link korrigieren, um so die Bestätigung durchzuführen.';
 $string['everybody'] = 'Alle';
@@ -736,7 +736,7 @@ $string['groupmode'] = 'Gruppenmodus';
 $string['groupmodeforce'] = 'Gruppenmodus erzwingen';
 $string['groupmy'] = 'Meine Gruppe';
 $string['groupnonmembers'] = 'Teilnehmer/innen, die keiner Gruppe zugeordnet sind';
-$string['groupnotamember'] = 'Entschuldigung, Sie sind kein Mitglied dieser Gruppe.';
+$string['groupnotamember'] = 'Sie sind kein Mitglied dieser Gruppe.';
 $string['grouprandomassign'] = 'Teilnehmer/innen nach dem Zufallsprinzip auf die Gruppen verteilen';
 $string['groupremove'] = 'Ausgewählte Gruppe löschen';
 $string['groupremovemembers'] = 'Markierte Gruppenmitglieder aus der Gruppe entfernen';
@@ -748,7 +748,7 @@ $string['guest'] = 'Gast';
 $string['guestdescription'] = 'Gäste haben minimale Rechte und können normalerweise nirgends Texte eingeben.';
 $string['guestskey'] = 'Für Gäste nur mit Zugangsschlüssel erlaubt';
 $string['guestsno'] = 'Für Gäste nicht erlaubt';
-$string['guestsnotallowed'] = 'Entschuldigung, der Kurs \'$a\' erlaubt Gästen keinen Zugang.';
+$string['guestsnotallowed'] = 'Der Kurs \'$a\' erlaubt Gästen keinen Zugang.';
 $string['guestsyes'] = 'Für Gäste erlaubt';
 $string['guestuser'] = 'Gast';
 $string['guestuserinfo'] = 'Dieser Nutzer hat nur Lesezugriff auf Kurse, die Gäste zulassen.';
@@ -1482,7 +1482,7 @@ $string['strftimerecent'] = '%%d %%b, %%H:%%M';
 $string['strftimerecentfull'] = '%%a, %%d %%b %%Y, %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
 $string['stringsnotset'] = 'Folgende Zeichenketten sind nicht in $a definiert:';
-$string['studentnotallowed'] = 'Entschuldigung, aber Sie können diesen Kurs nicht als \'$a\' betreten.';
+$string['studentnotallowed'] = 'Sie können diesen Kurs nicht als \'$a\' betreten.';
 $string['students'] = 'Teilnehmer/innen';
 $string['studentsandteachers'] = 'Teilnehmer/innen und Trainer/innen';
 $string['studentviewoff'] = 'Teilnehmeransicht: aus';
@@ -1574,7 +1574,7 @@ $string['uploadafile'] = 'Datei hochladen';
 $string['uploadcantwrite'] = 'Das Schreiben der Datei ist fehlgeschlagen';
 $string['uploadedfile'] = 'Die Datei wurde erfolgreich hochgeladen';
 $string['uploadedfileto'] = '$a->file hochgeladen in $a->directory';
-$string['uploadedfiletoobig'] = 'Entschuldigung, die Datei ist zu groß (maximal $a Bytes)';
+$string['uploadedfiletoobig'] = 'Die Datei ist zu groß (maximal $a Bytes)';
 $string['uploadextension'] = 'Datei-Upload wurde wegen der Dateiendung angehalten';
 $string['uploadfailednotrecovering'] = 'Beim Hochladen ist ein Problem mit einer der Dateien $a->name aufgetreten.<br />Folgende Fehlermeldung ist aufgetreten:<br />$a->problem<br/>
 Das Hochladen wurde erfolglos abgebrochen.';

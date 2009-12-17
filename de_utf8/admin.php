@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // admin.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -293,8 +293,8 @@ $string['courses'] = 'Kurse';
 $string['coursesperpage'] = 'Kurse pro Seite';
 $string['creatornewroleid'] = 'Rolle des Kursverwalters in neuen Kursen';
 $string['cronclionly'] = 'cron nur über die Kommandozeile starten';
-$string['cronerrorclionly'] = 'Entschuldigung, der Internetzugriff auf diese Seite wurde durch den Admin ausgeschaltet.';
-$string['cronerrorpassword'] = 'Entschuldigung, Sie haben kein gültiges Kennwort für den Zugriff angegeben.';
+$string['cronerrorclionly'] = 'Der Internetzugriff auf diese Seite wurde durch den Admin deaktiviert.';
+$string['cronerrorpassword'] = 'Sie haben kein gültiges Kennwort für den Zugriff angegeben.';
 $string['cronremotepassword'] = 'Kennwort für cron';
 $string['cronwarning'] = 'Das <a href=\"cron.php\">Cron-Script</a> wurde in den letzten 24 Stunden nicht ausgeführt.';
 $string['csvdelimiter'] = 'CSV Trennzeichen';

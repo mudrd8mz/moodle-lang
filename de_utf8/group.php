@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // group.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // group.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
 
 
 $string['addgroupstogrouping'] = 'Gruppe zur Gruppierung hinzufügen';
@@ -60,7 +60,7 @@ $string['groupmember'] = 'Gruppenmitglied';
 $string['groupmemberdesc'] = 'Standard-Rolle für Mitglieder einer Gruppe';
 $string['groupmembers'] = 'Gruppenmitglieder';
 $string['groupmembersonly'] = 'Nur für Gruppenmitglieder verfügbar';
-$string['groupmembersonlyerror'] = 'Entschuldigung, aber Sie müssen Mitglied in einer Gruppe sein, die diese Aktivität nutzt';
+$string['groupmembersonlyerror'] = 'Sie müssen Mitglied in einer Gruppe sein, die diese Aktivität nutzt.';
 $string['groupmemberssee'] = 'Gruppenmitglieder anzeigen';
 $string['groupmembersselected'] = 'Mitglieder der markierten Gruppe';
 $string['groupmode'] = 'Gruppenmodus';
@@ -68,7 +68,7 @@ $string['groupmodeforce'] = 'Gruppenmodus übergreifend erzwingen';
 $string['groupmy'] = 'Meine Gruppe';
 $string['groupname'] = 'Gruppenname';
 $string['groupnameexists'] = 'Der Gruppenname \'$a\' existiert in diesem Kurs bereits, wählen Sie bitte einen anderen.';
-$string['groupnotamember'] = 'Entschuldigung, aber Sie sind nicht Mitglied dieser Gruppe';
+$string['groupnotamember'] = 'Sie sind nicht Mitglied dieser Gruppe';
 $string['groups'] = 'Gruppen';
 $string['groupscount'] = 'Gruppen ($a)';
 $string['groupsgroupings'] = 'Gruppen &amp; Gruppierungen';
@@ -99,7 +99,6 @@ $string['numgroups'] = 'Anzahl von Gruppen';
 $string['nummembers'] = 'Mitgliedern pro Gruppe';
 $string['overview'] = 'Überblick';
 $string['potentialmembers'] = 'Mögliche Mitglieder: $a';
-$string['potentialmembs'] = 'Mögliche Mitglieder';
 $string['printerfriendly'] = 'Druckansicht';
 $string['random'] = 'zufällig';
 $string['removegroupfromselectedgrouping'] = 'Gruppe aus der Gruppierung entfernen';
@@ -113,6 +112,7 @@ $string['toomanygroups'] = 'Es sind zu wenige Nutzer/innen für die Zahl der Gru
 $string['usercount'] = 'Nutzerzahl';
 $string['usercounttotal'] = 'Nutzerzahl ($a)';
 $string['usergroupmembership'] = 'Mitgliedschaft der ausgewählten Person';
+$string['potentialmembs'] = 'Mögliche Mitglieder'; // ORPHANED
 $string['defaultgroupdescription'] = 'Voreingestellte Gruppenbeschreibung'; // ORPHANED
 $string['defaultgroupprefix'] = 'Gruppe'; // ORPHANED
 $string['displaygrouping'] = 'Gruppierung anzeigen'; // ORPHANED

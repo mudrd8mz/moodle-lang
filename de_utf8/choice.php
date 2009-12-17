@@ -1,12 +1,10 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // choice.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
 
 
 $string['addmorechoices'] = 'Weitere Auswahloptionen hinzufügen';
 $string['allowupdate'] = 'Abstimmung kann bearbeitet werden';
 $string['answered'] = 'Beantwortet';
-$string['cannotsavechoice'] = 'Ihre Abstimmung konnte nicht gespeichert werden.';
-$string['cannotupdatechoice'] = 'Aufgrund eines Datenbankfehlers konnte der geänderte Eintrag zur Abstimmung nicht gespeichert werden.';
 $string['choice'] = 'Antwort  $a';
 $string['choice:choose'] = 'An einer Abstimmung teilnehmen';
 $string['choice:deleteresponses'] = 'Stimmabgaben löschen';
@@ -30,11 +28,10 @@ $string['limitanswers'] = 'Limit für die Zahl der Stimmabgaben';
 $string['modulename'] = 'Abstimmung';
 $string['modulenameplural'] = 'Abstimmungen';
 $string['mustchooseone'] = 'Sie müssen zuerst eine Auswahl treffen, bevor Sie speichern. Es wurde noch nichts gespeichert.';
-$string['noguestchoose'] = 'Entschuldigung, aber Gäste dürfen nicht an Abstimmungen teilnehmen.';
+$string['noguestchoose'] = 'Gäste dürfen nicht an Abstimmungen teilnehmen.';
 $string['noresultsviewable'] = 'Die Ergebnisse sind aktuell nicht sichtbar.';
 $string['notanswered'] = 'Noch nicht abgestimmt';
-$string['notopenyet'] = 'Entschuldigung, diese Aktivität ist erst ab $a verfügbar.';
-$string['option'] = 'Option';
+$string['notopenyet'] = 'Diese Aktivität ist erst ab $a verfügbar.';
 $string['privacy'] = 'Anonymität';
 $string['publish'] = 'Ergebnisse veröffentlichen';
 $string['publishafteranswer'] = 'Nach der eigenen Stimmabgabe';
@@ -55,5 +52,8 @@ $string['taken'] = 'Eingetragen';
 $string['timerestrict'] = 'Abstimmung nur im Zeitraum:';
 $string['viewallresponses'] = 'Zeige $a Stimmabgaben';
 $string['yourselection'] = 'Ihre Auswahl';
+$string['cannotsavechoice'] = 'Ihre Abstimmung konnte nicht gespeichert werden.'; // ORPHANED
+$string['cannotupdatechoice'] = 'Aufgrund eines Datenbankfehlers konnte der geänderte Eintrag zur Abstimmung nicht gespeichert werden.'; // ORPHANED
+$string['option'] = 'Option'; // ORPHANED
 
 ?>
