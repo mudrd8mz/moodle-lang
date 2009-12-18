@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['accesCAS'] = 'CAS-brugere';
@@ -12,7 +12,7 @@ $string['auth_cas_baseuri'] = 'URI for CAS server<br />For eksempel hvis CAS ser
 $string['auth_cas_broken_password'] = 'Du kan ikke fortsætte uden at ændre din kode, imidlertid er der ingen side at gøre det på. Kontakt din Moodle-admin';
 $string['auth_cas_casversion'] = 'Version';
 $string['auth_cas_changepasswordurl'] = 'URL til skift af adgangskode';
-$string['auth_cas_create_user'] = 'Aktiver denne indstilling hvis du ønsker at indsætte brugere der er CAS-godkendt i Moodles database. Hvis ikke er det kun brugere der er god i Moodle der kan logge ind.';
+$string['auth_cas_create_user'] = 'Aktiver denne indstilling hvis du ønsker at indsætte brugere der er CAS-godkendt i Moodles database. Hvis ikke er det kun brugere der er godkendte i Moodle, der kan logge ind.';
 $string['auth_cas_create_user_key'] = 'Opret bruger';
 $string['auth_cas_enabled'] = 'Aktiver denne indstilling hvis du ønsker at benytte CAS-godkendelse.';
 $string['auth_cas_hostname'] = 'Værtsnavn for CAS server<br />F.eks: host.domain.dk';
@@ -208,10 +208,22 @@ $string['changepassword'] = 'Lav password URL om';
 $string['changepasswordhelp'] = 'Her kan du angive et sted, hvor dine brugere kan finde eller ændre deres brugernavn/password, hvis de har glemt det. Brugerne vil få vist en knap på login siden. Hvis du ikke skriver noget her, vil knappen ikke blive vist.';
 $string['chooseauthmethod'] = 'Vælg en godkendelses metode';
 $string['createpasswordifneeded'] = 'Generér password hvis det er nødvendigt';
+$string['enterthenumbersyouhear'] = 'Skriv de tal du hører';
+$string['enterthewordsabove'] = 'Skriv ordene herover';
+$string['errorminpassworddigits'] = 'Adgangskoder skal indeholde mindst $a tal.';
+$string['errorminpasswordlength'] = 'Adgangskoder skal indeholde mindst $a tegn.';
+$string['errorminpasswordlower'] = 'Adgangskoder skal indeholde mindst $a små bogstaver.';
+$string['errorminpasswordnonalphanum'] = 'Adgangskoder skal indeholde mindst $a ikke-alfanummeriske tegn.';
+$string['errorminpasswordupper'] = 'Adgangskoder skal indeholde mindst $a store bogstaver.';
+$string['errorpasswordupdate'] = 'Opdatering af adgangskoden fejlede, koden blev ikke ændret';
 $string['forcechangepassword'] = 'Gennemtving skift af passwords';
 $string['forcechangepassword_help'] = 'Tving brugere til at skifte passwords næste gang de logger ind.';
 $string['forcechangepasswordfirst_help'] = 'Tving brugere til at skifte password første gang de logger ind på Moodle';
+$string['getanaudiocaptcha'] = 'Få en lyd-CAPTCHA';
+$string['getanimagecaptcha'] = 'Få en billed-CAPTCHA';
+$string['getanothercaptcha'] = 'Få en anden CAPTCHA';
 $string['guestloginbutton'] = 'Gæste login knap';
+$string['incorrectpleasetryagain'] = 'Ukorrekt. Prøv venligst igen.';
 $string['infilefield'] = 'Nødvendige felter i filen';
 $string['instructions'] = 'Instruktioner';
 $string['internal'] = 'Internt';
@@ -219,6 +231,10 @@ $string['locked'] = 'Låst';
 $string['md5'] = 'MD5 kryptering';
 $string['passwordhandling'] = 'Behandling af passwordfelter';
 $string['plaintext'] = 'Alm. tekst';
+$string['pluginnotenabled'] = 'Godkendelses-plugin\'et \'$a\' er ikke aktiveret.';
+$string['pluginnotinstalled'] = 'Godkendelses-plugin\'et \'$a\' er ikke installeret.';
+$string['recaptcha'] = 'reCAPTCHA';
+$string['selfregistration'] = 'Selvregistrering';
 $string['shib_no_attributes_error'] = 'Du er blevet godkendt af Shibboleth men Moodle har ikke modtaget nogen brugeroplysninger. Kontroller venligst at din Identity Provider frigiver de nødvendige attributter ($a) til den Service Provider som Moodle kører på eller fortæl det til administratoren af webserveren.';
 $string['shib_not_all_attributes_error'] = 'Moodle kræver bestemte Shibboleth oplysninger som ikke er tilgængelige i dit tilfælde. Oplysningerne er: $a<br />Kontakt venligst Moodles administrator eller identifikationssystemets administrator.';
 $string['shib_not_set_up_error'] = 'Shibboleth-godkendelsen lader ikke til at være sat korrekt op da der er Sibboleth-miljøvariable for denne side. Se venligst <a href=\"README.txt\">README</a> for yderlige instruktioner om hvordan Shibboleth-godkendelse konfigureres eller kontakt webmastere på denne moodleinstallation.';

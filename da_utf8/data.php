@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // data.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['action'] = 'Handling';
@@ -43,9 +43,10 @@ $string['configenablerssfeeds'] = 'Aktiver RSS. Kræver at RSS også er aktivere
 $string['confirmdeletefield'] = 'Du er ved at slette dette felt, vil du fortsætte?';
 $string['confirmdeleterecord'] = 'Er du sikker på at du vil slette denne post?';
 $string['csstemplate'] = 'CSS-style';
+$string['csvfailed'] = 'Kunne ikke læse de rå data fra CSV-filen';
 $string['csvfile'] = 'CSV-fil';
 $string['csvimport'] = 'Importer CSV-fil';
-$string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym> tekst med denne feltafgrænser:';
+$string['csvwithselecteddelimiter'] = '<acronym title=\"Comma Separated Values\">CSV</acronym>-tekst med denne feltafgrænser:';
 $string['data:approve'] = 'Godkend ikke-godkendte poster';
 $string['data:comment'] = 'Skriv kommentarer';
 $string['data:managecomments'] = 'Administrer kommentarer';
@@ -102,6 +103,7 @@ $string['fieldheightsingleview'] = 'Højde på enkeltvisning';
 $string['fieldids'] = 'Felt-id\'er';
 $string['fieldmappings'] = 'Feltsammenkædning';
 $string['fieldname'] = 'Feltnavn';
+$string['fieldnotmatched'] = 'De følgende felter i din fil genkender databasen ikke: $a';
 $string['fieldoptions'] = 'Muligheder (en pr linje)';
 $string['fields'] = 'Felter';
 $string['fieldupdated'] = 'Feltet er opdateret';

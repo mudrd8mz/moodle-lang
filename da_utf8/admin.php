@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
+      // admin.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['accessdenied'] = 'Adgang afvist';
@@ -14,7 +14,7 @@ $string['allowobjectembed'] = 'Tillad EMBED og OBJECT tags';
 $string['allowrenames'] = 'Tillad at omdøbe';
 $string['allowuserblockhiding'] = 'Tillad brugere at skjule blokke';
 $string['allowusermailcharset'] = 'Tillad brugere at vælge tegnsæt';
-$string['allowuserswitchrolestheycantassign'] = 'Tillad brugere uden rettighed til at tildeleroller at skifte rolle.';
+$string['allowuserswitchrolestheycantassign'] = 'Tillad brugere uden rettighed til at tildele roller, at skifte rolle.';
 $string['allowuserthemes'] = 'Tillad brugertemaer';
 $string['allowvisiblecoursesinhiddencategories'] = 'Tillad synlige kurser i skjulte kategorier.';
 $string['antivirus'] = 'Antivirus';
@@ -70,11 +70,13 @@ $string['configautolang'] = 'Brug browserens sprogindstilling, hvis ikke der er 
 $string['configautologinguests'] = 'Skal besøgene automatisk logges ind som gæster hvis de besøger et kursus med gæsteadgang?';
 $string['configbloglevel'] = 'Med denne indstilling kan du begrænse fra hvilket niveau brugernes blogge kan ses på dette site. Note that they specify the maximum context of the VIEWER not the poster or the types of blog posts. Blogge kan også deaktiveres helt hvis dét er meningen.';
 $string['configcachetext'] = 'For store sites eller sites der bruger tekstfiltre kan denne indstilling forbedre ydeevnen ved at cache den filtrede side. Denne indstilling angiver hvor lang tid den cachede side skal gemmes. Hvis indstillingen er for lille kan den muligvis sløve lidt, hvis den er for stor kan det tage et stykke tid at opdatere (med nye links for eksempel)';
-$string['configclamactlikevirus'] = 'Filer kan være vira';
-$string['configclamdonothing'] = 'Betragt alle filer som OK';
+$string['configclamactlikevirus'] = 'Betragt filer som vira';
+$string['configclamdonothing'] = 'Betragt filer som OK';
 $string['configclamfailureonupload'] = 'Hvis du har konfigureret \'clam\' til at scanne uploadede filer men den er konfigureret forkert eller ikke kan starte af en eller anden årsag hvordan skal siden så opføre sig? Hvis du vælger \'Filer kan være vira\' bliver de flyttet i karantæne eller slettet. Hvis du vælger \'Filer er OK\' bliver de flyttet til deres destinationsfolder som normalt. Under alle omstændigheder vil administrator få besked om at \'clam\' ikke fungerer. Hvis du vælger \'Filer kan være vira\' og \'clam\' af en eller anden årsag ikke kører (som regel fordi der er angivet en forkert sti til \'clam\') vil ALLE filer der bliver uploadet blive flyttet til karantæneområdet eller slettet. Pas på med denne indstilling!';
 $string['configcountry'] = 'Hvis du har valgt et land her så vil det blive valgt som standard for nye brugeroprettelser. For at tvinge en bruger til at vælge land så lad dette felt være blankt.';
 $string['configcoursemanager'] = 'Med denne indstilling kan du kontrollere hvem, der skal stå i kursusbeskrivelsen. Brugere med en af disse roller vil blive vist.';
+$string['configcourserequestnotify'] = 'Skriv brugernavn på den person der skal underrettes når der efterspørges et nyt kursus.';
+$string['configcourserequestnotify2'] = 'Brugere der vil blive underrettet når et kursus efterspørges. Her listes kun brugere som må godkende kursusønsker.';
 $string['configcoursesperpage'] = 'Skriv hvor mange kurser der kan vises pr side i en kursusliste';
 $string['configcreatornewroleid'] = 'Denne rolle tildeles automatisk til kursusadministratorer når de har oprettet et nyt kursus. Dog tildeles rollen ikke hvis kursusadministratoren allerede har de nødvendige kompetencer i en overordnet kontekst.';
 $string['configdbsessions'] = 'Hvis denne indstilling er aktiveret vil sessionsdata blive skrevet i databasen i stedet for i en fil. Dette kan give en performance forbedring ved meget store sites eller sites der kører på serverklustre. I de fleste tilfælde er det bedst at lade den være deaktiveret, så sessioner bliver gemt på disken. Hvis denne indstilling bliver ændret bliver alle brugere logget af.';
@@ -96,6 +98,7 @@ $string['configdoctonewwindow'] = 'Hvis du aktiverer dette, vil links til Moodle
 $string['configeditorfontlist'] = 'Vælg de skrifttyper der skal vises i HTML-editorens drop-down liste.';
 $string['configemailchangeconfirmation'] = 'Kræver en e-mail-godkendelse når brugerne ændrer e-mail-adressen i deres profil.';
 $string['configenableajax'] = 'Denne indstilling tillader brugen af AJAX (avanceret asynkron client/server interface vha. Javascript og XML) på hele sitet. Hvis denne indstilling er aktiveret kan brugere stadig fravælge brugen af AJAX, men AJAX vil som standard være aktiv.';
+$string['configenablecalendarexport'] = 'Aktiver export eller abonnement på kalendere.';
 $string['configenablecourserequests'] = 'Dette vil tillade at alle brugere kan anmode om at et kursus bliver oprettet.';
 $string['configenableglobalsearch'] = 'Denne indstilling tillader global tekstsøgning i ressourcer og aktiviteter. Denne indstilling er ikke kompatibel med PHP4.';
 $string['configenablegroupings'] = 'Her aktiveres gruppering af grupper.';
@@ -106,6 +109,7 @@ $string['configenablestats'] = 'Hvis du vælger \'ja\' her vil Moodle\'s cronjob
 $string['configenabletrusttext'] = 'Som standard vil Moodle altid rense tekst fra brugerne for at fjerne potentielt farlige scripts, media mv., som kan udgøre en sikkerhedsrisiko. Dette \"Trusted Content\"-system er en metode til at give specielt betroede brugere mulighed for at inkludere disse avancerede features i deres indhold uden indblanding. Vil du aktivere dette system skal du først aktivere denne indstilling og derpå give en specifik rolle tilladelse til \"the Trusted Content\". Tekster fra denne bruger vil blive mærket som ok og vil ikke blive renset inden de vises.';
 $string['configenrolmentplugins'] = 'Vælg tilmeldings-plugins. Og glem ikke at konfigurere indstillingerne.<br /><br />Du skal markere hvilke plugins der skal være aktive og <strong>et</strong> plugin kan sættes som standard for <em>interaktiv</em> tilmelding. Deaktiver interaktiv tilmelding ved at sætte \"Tilmelding mulig\" på \"Nej\" i obligatoriske (required) kurser.';
 $string['configerrorlevel'] = 'Vælg hvor meget der skal til for at vise en PHP-advarsel. \"Normal\" er typisk det bedste valg.';
+$string['configexcludeoldflashclients'] = 'Nogle versioner af Adobe Flash er sårbare overfor ondsindede Flashfiler. Du kan specificere hvilken version der mindst kan accepteres her, så vil Moodle ikke vise flashfiler med lavere versionsnumre. I stedet vises en alternativ flashfil med information om hvordan man kan opgradere. Deaktiver sådanne tjek ved at efterlade feltet tomt .';
 $string['configextendedusernamechars'] = 'Denne indstilling tillader brugere at benytte alle tegn i deres brugernavn. (Dette påvirker ikke deres rigtige navn). Det er som standard sat til \"falsk\" hvilket betyder at brugernavne kun kan indeholde bogstaver og tal.';
 $string['configfilterall'] = 'Filtrer alle strenge, inklusiv overskrifter, titler, navigationsbar og så videre. Dette er mest smartest når man bruger et flersproget filter, ellers vil det blot belaste sitet mere uden væsentlig gavn.';
 $string['configfiltermatchoneperpage'] = 'Automatiske linkfiltre vil kun generere et link for det første ord der matcher på siden. Hvis der er flere der matcher vil de blive ignoreret.';
@@ -147,7 +151,9 @@ $string['configminpasswordlength'] = 'Kodeord skal mindst have dette antal tegn.
 $string['configminpasswordlower'] = 'Kodeord skal mindst have dette antal små bogstaver.';
 $string['configminpasswordnonalphanum'] = 'Kodeord skal have mindst dette antal ikke alfanumeriske tegn.';
 $string['configminpasswordupper'] = 'Kodeord skal have mindst dette antal store bogstaver.';
+$string['configmycoursesperpage'] = 'Det maximale antal kurser der vises på en brugers liste over egne kurser.';
 $string['configmymoodleredirect'] = 'Denne indstilling sender ikke administratorer til /my når de er logget ind og erstatter topelementet i brødkrummelinkene til /my (Oversigt over mine kurser)';
+$string['confignonmetacoursesyncroleids'] = 'Som standard synkroniseres alle rolletildelinger fra delkurser til metakurser. De roller du vælger her, vil ikke komme med i synkroniseringen.';
 $string['confignoreplyaddress'] = 'E-mails bliver nogen gange sendt ud på vegne af brugere, f.eks. forum indlæg. Den e-mail-adresse du angiver her vil stå som \"Fra\" adresse på de e-mails som bliver sendt fra de brugere som har valgt at hemmeligholde deres e-mail.';
 $string['confignotifyloginfailures'] = 'Hvis der bliver lavet et fejllogin der bliver logget, kan der blive sendt en e-mail ud. Hvem skal stå som modtager?';
 $string['confignotifyloginthreshold'] = 'Hvis fejllogin-logging er slået til hvor mange forkerte loginforsøg af den samme bruger eller IP adresse er det værd at sende en e-mail omkring.';

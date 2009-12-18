@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
+      // chat.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['autoscroll'] = 'Auto Scroll';
@@ -7,6 +7,7 @@ $string['beep'] = 'bip';
 $string['chat:chat'] = 'Chat';
 $string['chat:deletelog'] = 'Slet chatlogs';
 $string['chat:readlog'] = 'Læs chatlogs';
+$string['chat:talk'] = 'Tal i en chat';
 $string['chatintro'] = 'Introduktionstekst';
 $string['chatname'] = 'Navn på dette chatrum';
 $string['chatreport'] = 'Chatsessioner';
@@ -51,7 +52,7 @@ $string['nomessages'] = 'Ingen beskeder endnu';
 $string['normalkeepalive'] = 'Polling';
 $string['normalstream'] = 'Stream';
 $string['noscheduledsession'] = 'Ingen planlagte chatsessioner';
-$string['notallowenter'] = 'Du har ikke adgang til chatten.';
+$string['notallowenter'] = 'Du har ikke tilladelse til at bruge chatten.';
 $string['oldping'] = 'Timeout til afbrydelse af session';
 $string['pastchats'] = 'Seneste chatsessioner';
 $string['refreshroom'] = 'Genindlæs';

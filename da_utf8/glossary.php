@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
+      // glossary.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addcomment'] = 'Tilføj kommentar';
@@ -30,6 +30,7 @@ $string['categories'] = 'Kategorier';
 $string['category'] = 'Kategori';
 $string['categorydeleted'] = 'Kategori slettet!';
 $string['categoryview'] = 'Vis efter kategori';
+$string['changeto'] = 'skift til $a';
 $string['cnfallowcomments'] = 'Skal et opslagsværk som standard kunne kommenteres?';
 $string['cnfallowdupentries'] = 'Definer om et opslagsværk tillader flere ens opslagsord.';
 $string['cnfapprovalstatus'] = 'Skal opslagsord tilføjet af studerende som standard godkendes automatisk (uden lærermedvirken)?';
@@ -52,6 +53,7 @@ $string['commentupdated'] = 'Kommentaren er gemt.';
 $string['concept'] = 'Opslagsord';
 $string['concepts'] = 'Opslagsord';
 $string['configenablerssfeeds'] = 'Skal RSS-feed være muligt for alle opslagsværker? Du skal stadig slå det til for hvert opslagsværk.';
+$string['current'] = 'Aktuel sortering $a';
 $string['currentglossary'] = 'Nuværende ordbog';
 $string['date'] = 'dato';
 $string['dateview'] = 'Vis efter dato';
@@ -131,7 +133,7 @@ $string['importcategories'] = 'Importer kategorier';
 $string['importedcategories'] = 'Importerede kategorier';
 $string['importedentries'] = 'Importerede indlæg';
 $string['importentries'] = 'Importer opslagsord';
-$string['importentriesfromxml'] = 'Importer opslag fra xml-fil';
+$string['importentriesfromxml'] = 'Importer opslag fra en xml-fil';
 $string['isglobal'] = 'Er dette opslagsværk globalt?';
 $string['letter'] = 'bogstav';
 $string['linkcategory'] = 'Link automatisk til denne kategori';
