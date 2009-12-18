@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // countries.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
+      // countries.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['AD'] = 'Andorra';
@@ -18,7 +18,7 @@ $string['AT'] = 'Østrig';
 $string['AU'] = 'Australien';
 $string['AW'] = 'Aruba';
 $string['AX'] = 'Åland';
-$string['AZ'] = 'Azerbaijan';
+$string['AZ'] = 'Aserbajdsjan';
 $string['BA'] = 'Bosnien og Hercegovina';
 $string['BB'] = 'Barbados';
 $string['BD'] = 'Bangladesh';
@@ -66,7 +66,7 @@ $string['DZ'] = 'Algeriet';
 $string['EC'] = 'Ecuador';
 $string['EE'] = 'Estland';
 $string['EG'] = 'Ægypten';
-$string['EH'] = 'Vest Sahara';
+$string['EH'] = 'Vestsahara';
 $string['ER'] = 'Eritrea';
 $string['ES'] = 'Spanien';
 $string['ET'] = 'Etiopien';
@@ -88,7 +88,7 @@ $string['GL'] = 'Grønland';
 $string['GM'] = 'Gambia';
 $string['GN'] = 'Guinea';
 $string['GP'] = 'Guadeloupe';
-$string['GQ'] = 'ækvatorial Guinea';
+$string['GQ'] = 'Ækvatorialguinea';
 $string['GR'] = 'Grækenland';
 $string['GS'] = 'South Georgia og South Sandwich-øerne';
 $string['GT'] = 'Guatemala';
