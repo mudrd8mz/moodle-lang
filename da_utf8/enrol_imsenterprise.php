@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_imsenterprise.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // enrol_imsenterprise.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['aftersaving...'] = 'Når du har gemt dine indstillinger, vil du måske...';
@@ -12,7 +12,7 @@ $string['createnewusers'] = 'Opret brugerkonti for brugere der endnu ikke er reg
 $string['cronfrequency'] = 'Opdateringsfrekvens';
 $string['deleteusers'] = 'Slet brugerkonti hvis det er angivet i IMS data';
 $string['description'] = 'Denne metode vil med jævne mellemrum gennemgå og behandle en specielt formateret tekstfil et sted du angiver. Filen skal overholde <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>IMS Enterprise specifikationen</a> indeholdene person, gruppe og tilmedinger i XML format.';
-$string['doitnow'] = 'udfør en IMS Enterprise import nu';
+$string['doitnow'] = 'udfør en IMS Enterprise-import nu';
 $string['enrolname'] = 'IMS Enterprise fil';
 $string['filelockedmail'] = 'Den tekstfil der bruges til IMS-filbaseret tilmeldinger ($a) kan ikke slettes af cron-jobbet. Dette skyldes ofte et problem med rettigheder da Moodle ikke har rettigheder til at slette filen. I modsat fald vil den blive behandlet flere gange.';
 $string['filelockedmailsubject'] = 'Alvorlig fejl: Tilmeldingsfejl';
