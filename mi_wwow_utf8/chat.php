@@ -2,6 +2,7 @@
       // chat.php - created with Moodle 1.7+ (2006101009)
 
 
+$string['autoscroll'] = 'Panuku aunoa';
 $string['beep'] = 'Pīpi!';
 $string['chat:chat'] = 'Kōrero ki roto i tētahi kōrerorero';
 $string['chat:deletelog'] = 'Mukua ngā rangitaki kōrerorero';
@@ -37,6 +38,7 @@ $string['messagebeepsyou'] = 'Kua pīpi atu a $a ki a koe!';
 $string['messageenter'] = 'Kua hou mai a $a ki tēnei kōrerorero';
 $string['messageexit'] = 'Kua wehe atu $a i tēnei kōrerorero';
 $string['messages'] = 'Ngā Karere';
+$string['method'] = 'Huarahi kōrerorero';
 $string['methoddaemon'] = 'Tūmau kōrerorero daemon';
 $string['methodnormal'] = 'Aratuka pūnoa';
 $string['modulename'] = 'Kōrerorero';
@@ -48,6 +50,11 @@ $string['nomessages'] = 'Karekau he karere';
 $string['normalkeepalive'] = 'Kia kamakama';
 $string['normalstream'] = 'Roma';
 $string['noscheduledsession'] = 'Kore kau he wātū e heke mai nei';
+$string['oldping'] = 'Puta wāhiki';
+$string['pastchats'] = 'Ngā Wātū kōrerorero o mua';
+$string['refreshroom'] = 'Rūma tāmata';
+$string['refreshuserlist'] = 'Tāmatatia te rārangi kaiwhakamahi';
+$string['removemessages'] = 'Tangohia ngā karere katoa';
 $string['repeatdaily'] = 'Hei taua wā tonu i ia rangi';
 $string['repeatnone'] = 'Kāore he tukurua - pānuitia te wā whakapūtā anake';
 $string['repeattimes'] = 'Tukuruatia ngā wātū';
@@ -55,8 +62,13 @@ $string['repeatweekly'] = 'Hei taua wā tonu i ia wiki';
 $string['savemessages'] = 'Tiakina ngā wātū o mua';
 $string['seesession'] = 'Tiro ki tēnei wātū';
 $string['sessions'] = 'Ngā Wātū Kōrerorero';
+$string['serverhost'] = 'Ingoa tūmau';
+$string['serverip'] = 'Tūmau ip';
+$string['servermax'] = 'Kaiwhakamahi Max';
+$string['serverport'] = 'Tauranga tūmau';
 $string['strftimemessage'] = '%%H%%M';
 $string['studentseereports'] = 'Ka taea e te katoa ngā kōrerorero o mua te tiro';
+$string['updatemethod'] = 'Whakahou huarahi';
 $string['viewreport'] = 'Tiro Ngā Kōrerorero o Mua';
 
 ?>

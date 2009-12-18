@@ -23,6 +23,9 @@ $string['sequence'] = 'Tīpakohia tētahi raupapa tīariari, waihangaia tētahi 
 $string['serverid'] = 'Tāurutia te ID tūmau i whiwhi mai i te <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverkey'] = 'Tāurutia te kī tūmau i whiwhi mai i te <a href=http://www.lamsinternational.com target=_blank>LAMS international</a>.';
 $string['serverurl'] = 'Tāurutia te URL māmā hei whakauru atu ki te tūmau LAMS. Hei tauira ake http://localhost:8080/lams';
+$string['server_id'] = 'Ratonga ID';
+$string['server_key'] = 'Ratonga kī';
+$string['server_url'] = 'Ratonga URL';
 $string['useSequence'] = 'Whakamahi raupapa i tīpakohia';
 $string['visibletostudents'] = 'Whakaaturia te ngohe ki ngā ākonga';
 $string['wikistartederror'] = 'He tāurunga kē kei roto ite Wiki - kāore e taea te tīni.';

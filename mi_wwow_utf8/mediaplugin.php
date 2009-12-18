@@ -3,5 +3,8 @@
 
 
 $string['filtername'] = 'Ngā Monomai Rongorau';
+$string['flashanimation'] = 'Hākoritanga kōhiko';
+$string['flashvideo'] = 'Ataata kōhiko';
+$string['mp3audio'] = 'Ororongo MP3';
 
 ?>
