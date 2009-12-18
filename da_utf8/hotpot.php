@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // hotpot.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['abandoned'] = 'Uafsluttet';
@@ -23,6 +23,7 @@ $string['copytoclipboard'] = 'Kopier til udklipsholderen';
 $string['correct'] = 'Rigtigt';
 $string['deleteabandoned'] = 'Slet forladte';
 $string['deleteabandonedcheck'] = 'Vil du virkelig slette alle $a afbrudte forsøg?';
+$string['deleteallattempts'] = 'Slet alle forsøg';
 $string['displaycoursenext'] = 'Vis Næste kursusside';
 $string['displayhotpotnext'] = 'Vis Næste HotPotside';
 $string['displayindexnext'] = 'Vis HotPot indeks næste';
