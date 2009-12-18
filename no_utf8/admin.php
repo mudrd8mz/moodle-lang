@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // admin.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -184,7 +184,7 @@ $string['configmessaging'] = 'Skal meldingssystemet mellom brukerne på nettsted
 $string['configminpassworddigits'] = 'Passordene må ha minst så mange tall.';
 $string['configminpasswordlength'] = 'Passordene må være minst så mange tegn lang.';
 $string['configminpasswordlower'] = 'Passordene må ha minst så mange små bokstaver.';
-$string['configminpasswordnonalphanum'] = 'Passordene må minst så mange ikke-alfanumeriske tegn.';
+$string['configminpasswordnonalphanum'] = 'Passordene må minst så mange spesialtegn.';
 $string['configminpasswordupper'] = 'Passordene må ha minst så mange store bokstaver.';
 $string['configmycoursesperpage'] = 'Maks antall kurs som skal vises pr.side på brukerens kursoversikt';
 $string['configmymoodleredirect'] = 'Innstillingen sender alle ikke-administratorer til en egendefinert hovedside etter innlogging. (Min Moodle-startside)';
@@ -524,7 +524,7 @@ $string['messaging'] = 'Aktiviser meldingssystemet';
 $string['minpassworddigits'] = 'Tall';
 $string['minpasswordlength'] = 'Passordlengde';
 $string['minpasswordlower'] = 'Små bokstaver';
-$string['minpasswordnonalphanum'] = 'Ikke-alfanumeriske tegn';
+$string['minpasswordnonalphanum'] = 'Spesialtegn';
 $string['minpasswordupper'] = 'Store bokstaver';
 $string['misc'] = 'Forskjellig';
 $string['missinglangparent'] = 'Mangler overordnet språk <em>$a->parent</em> of <em>$a->lang</em>.';
