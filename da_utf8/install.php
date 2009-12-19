@@ -4,7 +4,7 @@
 
 $string['admindirerror'] = 'Det angivne admin-bibliotek er forkert';
 $string['admindirname'] = 'Admin-bibliotek';
-$string['admindirsetting'] = 'Nogle få web-hoteller bruger /admin som en speciel URL til at administrere web-hotellet. Det er et problem da Moodle også bruger /admin som standard til administrationssiderne. I så fald kan du omdøbe admin-biblioteket og skrive det nye navn her. For eksempel: <br /> <br /><b>moodleadmin</b><br /> <br />
+$string['admindirsetting'] = 'Nogle få webhoteller bruger /admin som en speciel URL til at administrere webhotellet. Det er et problem da Moodle også bruger /admin som standard til administrationssiderne. I så fald kan du omdøbe admin-biblioteket og skrive det nye navn her. For eksempel: <br /> <br /><b>moodleadmin</b><br /> <br />
 Dette vil rette admin-linkene i Moodle.';
 $string['admindirsettinghead'] = 'Sætter admin-biblioteket op...';
 $string['admindirsettingsub'] = 'Nogle får webhoteller bruger /admin adresse til kontrolpanelet el.lign. Desværre konflikter dette med standardplaceringen af Moodles administrationssider. Du kan i så tilfælde omdøbe admin-biblioteket i din installation og skrive navnet her. Eksempel:<br /> <br /><b>moodleadmin</b><br /> <br />
@@ -24,76 +24,76 @@ $string['configurationcompletesub'] = 'Moodle har forsøgt at gemme din konfigur
 $string['database'] = 'Database';
 $string['databasecreationsettings'] = 'Nu skal du konfigurere indstillingerne i databasen for hvor de fleste Moodle-data skal gemmes. Databasen vil blive oprettet automatisk af installationsprogrammet med indstillingerne herunder.<br />
 <br /> <br />
-<b>Type:</b> fikseret til \"mysql\" af installationsprogrammet<br />
-<b>Host:</b> fikseret til \"localhost\" af installationsprogrammet<br />
-<b>Name:</b> database-navn, f.eks. Moodle<br />
-<b>User:</b> fikseret til \"root\" af installationsprogrammet<br />
-<b>Adgangskode:</b> adgangskoden til din database<br />
-<b>Tables Prefix:</b> valgfrit fornavn (prefix) til alle tabelnavne';
+<b>Type:</b> Fikseret til \"mysql\" af installationsprogrammet<br />
+<b>Host:</b> Fikseret til \"localhost\" af installationsprogrammet<br />
+<b>Name:</b> Databasenavn, f.eks. Moodle<br />
+<b>User:</b> Fikseret til \"root\" af installationsprogrammet<br />
+<b>Adgangskode:</b> Adgangskoden til din database<br />
+<b>Tables Prefix:</b> Valgfrit fornavn (prefix) til alle tabelnavne';
 $string['databasecreationsettingshead'] = 'Nu skal du konfigurere databaseindstillingerne for hvor de fleste Moodle-data skal gemmes. Denne database vil automatisk blive oprettet af installationsprogrammet med indstillingerne herunder.';
-$string['databasecreationsettingssub'] = '<b>Type:</b> fikseret til \"mysql\" af installationsprogrammet<br />
-<b>Host:</b> fikseret til \"localhost\" af installationsprogrammet<br />
-<b>Name:</b> database-navn, f.eks. Moodle<br />
-<b>User:</b> fikseret til \"root\" af installationsprogrammet<br />
-<b>Adgangskode:</b> adgangskoden til din database<br />
-<b>Tables Prefix:</b> valgfrit fornavn (prefix) til alle tabelnavne';
-$string['databasesettings'] = 'Du skal nu konfigurere databasen som det meste af Moodles data vil blive gemt i. Databaseserveren skal allerede være oprettet og du skal bruge brugernavn og password til en brugerkonto der har rettigheder til at oprette og hente data.<br />
+$string['databasecreationsettingssub'] = '<b>Type:</b> Fikseret til \"mysql\" af installationsprogrammet<br />
+<b>Host:</b> Fikseret til \"localhost\" af installationsprogrammet<br />
+<b>Name:</b> Databasenavn, f.eks. Moodle<br />
+<b>User:</b> Fikseret til \"root\" af installationsprogrammet<br />
+<b>Adgangskode:</b> Adgangskoden til din database<br />
+<b>Tables Prefix:</b> Valgfrit fornavn (prefix) til alle tabelnavne';
+$string['databasesettings'] = 'Du skal nu konfigurere databasen hvor det meste af Moodles data vil blive gemt. Databaseserveren skal allerede være oprettet og du skal have oprettet et brugernavn og en adgangskode så du kan få adgang til den.<br />
 <br /> <br />
-<b>Type:</b> mysql eller postgres7<br />
-<b>Vært:</b> f.eks. localhost eller db.isp.com<br />
-<b>Database:</b> database-navn, f.eks. moodle<br />
-<b>Bruger:</b> Brugernavnet til databasen<br />
-<b>Adgangskode:</b> Adgangskode til databasebrugeren<br />
-<b>Tabel Præfix:</b> Valgfrit fornavn (prefix) der bliver sat foran alle tabelnavne (kan anbefales hvis der er flere systemer der skal bruge samme database).';
-$string['databasesettingshead'] = 'Du skal nu konfigurere databasen hvor det meste af Moodles data vil blive gemt. Databaseserveren skal allerede være oprettet og du skal bruge brugernavn og adgangskode til en brugerkonto der har adgang til den.';
-$string['databasesettingssub'] = '<b>Type:</b> mysql eller postgres7<br />
-<b>Vært:</b> f.eks. localhost eller db.isp.com<br />
-<b>Database:</b> database-navn, f.eks. Moodle<br />
-<b>Bruger:</b> Brugernavnet til databasen<br />
-<b>Adgangskode:</b> Adgangskode til databasebrugeren<br />
+<b>Type:</b> Mysql eller postgres7<br />
+<b>Vært:</b> F.eks. localhost eller db.isp.com<br />
+<b>Navn:</b> Databasenavn, f.eks. moodle<br />
+<b>Bruger:</b> Brugernavn til databasen<br />
+<b>Adgangskode:</b> Brugerens adgangskode<br />
+<b>Tabel Præfix:</b> Valgfrit fornavn (prefix) der bliver sat foran alle tabelnavne (kan anbefales hvis flere systemer der skal bruge den samme database).';
+$string['databasesettingshead'] = 'Du skal nu konfigurere databasen hvor det meste af Moodles data vil blive gemt. Databaseserveren skal allerede være oprettet og du skal have oprettet et brugernavn og en adgangskode så du kan få adgang til den.';
+$string['databasesettingssub'] = '<b>Type:</b> Mysql eller postgres7<br />
+<b>Vært:</b> F.eks. localhost eller db.isp.com<br />
+<b>Navn:</b> Databasenavn, f.eks. moodle<br />
+<b>Bruger:</b> Brugernavn til databasen<br />
+<b>Adgangskode:</b> Brugerens adgangskode<br />
 <b>Tabel Præfix:</b> Valgfrit fornavn (prefix) der bliver sat foran alle tabelnavne (kan anbefales hvis der er flere systemer der skal bruge samme database).';
 $string['databasesettingssub_mssql'] = '<b>Type:</b> SQL*Server (non UTF-8) <b><strong class=\"errormsg\">Experimentiel! (ikke til brug i et produktionsmiljø)</strong ></b><br />
-<b>Vært:</b> f.eks. localhost eller db.isp.com<br />
-<b>Navn:</b> databasenavn, f.eks. Moodle<br />
-<b>Bruger:</b> brugernavnet til din database<br />
-<b>Adgangskode:</b> din databases adgangskode<br />
-<b>Tabelprefix:</b> prefix for alle tabelnavne (obligatorisk)';
+<b>Vært:</b> F.eks. localhost eller db.isp.com<br />
+<b>Navn:</b> Databasenavn, f.eks. moodle<br />
+<b>Bruger:</b> Brugernavn til databasen<br />
+<b>Adgangskode:</b> Brugerens adgangskode<br />
+<b>Tabelprefix:</b> Prefix for alle tabelnavne (obligatorisk)';
 $string['databasesettingssub_mssql_n'] = '<b>Type:</b> SQL*Server (UTF-8 aktiveret) <br />
-<b>Vært:</b> f.eks. localhost eller db.isp.com<br /> 
-<b>Navn:</b> databasenavn, f.eks. moodle<br /> 
-<b>Bruger:</b> brugernavnet til din database<br /> 
-<b>Adgangskode:</b> din databases adgangskode<br /> 
-<b>Tabelprefix:</b> prefix for alle tabelnavne (obligatorisk)';
+<b>Vært:</b> F.eks. localhost eller db.isp.com<br /> 
+<b>Navn:</b> Databasenavn, f.eks. moodle<br /> 
+<b>Bruger:</b> Brugernavn til databasen<br />
+<b>Adgangskode:</b> Brugerens adgangskode<br />
+<b>Tabelprefix:</b> Prefix for alle tabelnavne (obligatorisk)';
 $string['databasesettingssub_mysql'] = '<b>Type:</b> MySQL<br />
-<b>Vært:</b> f.eks. localhost eller db.isp.com<br />
-<b>Navn:</b> databasenavn, f.eks. moodle<br />
-<b>Bruger:</b> brugernavnet til din database<br />
-<b>Adgangskode:</b> din databases adgangskode<br />
-<b>Tabelprefix:</b> prefix for alle tabelnavne (valgfrit)';
+<b>Vært:</b> F.eks. localhost eller db.isp.com<br />
+<b>Navn:</b> Databasenavn, f.eks. moodle<br />
+<b>Bruger:</b> Brugernavn til databasen<br />
+<b>Adgangskode:</b> Brugerens adgangskode<br />
+<b>Tabelprefix:</b> Prefix for alle tabelnavne (valgfrit)';
 $string['databasesettingssub_mysqli'] = '<b>Type:</b> Forbedret MySQL<br />
-<b>Vært:</b> ex localhost eller db.isp.com<br />
-<b>Navn:</b> databasenavn, f.eks. moodle<br />
-<b>Bruger:</b> dit brugernavn til databasen<br />
-<b>Adgangskode:</b> din adgangskode til databasen<br />
-<b>Tabelprefix:</b> prefix til alle navne i tabellen (valgfri)';
+<b>Vært:</b> F. eks. localhost eller db.isp.com<br />
+<b>Navn:</b> Databasenavn, f.eks. moodle<br />
+<b>Bruger:</b> Brugernavn til databasen<br />
+<b>Adgangskode:</b> Brugerens adgangskode<br />
+<b>Tabelprefix:</b> Prefix til alle navne i tabellen (valgfri)';
 $string['databasesettingssub_oci8po'] = '<b>Type:</b> Oracle<br />
-<b>Vært:</b> ikke brugt, skal være blank<br />
-<b>Navn:</b> navnet på forbindelsen fra tnsnames.ora <br />
-<b>Bruger:</b> dit database brugernavn<br />
-<b>Adgangskode:</b> brugerens adgangskode<br />
-<b>Tabel Præfix:</b> præfix til alle tabellerne (obligatorisk, højst 2 tegn)';
+<b>Vært:</b> Ikke brugt, skal være blank<br />
+<b>Navn:</b> Navnet på forbindelsen fra tnsnames.ora <br />
+<b>Bruger:</b> Brugernavn til databasen<br />
+<b>Adgangskode:</b> Brugerens adgangskode<br />
+<b>Tabel Præfix:</b> Præfix til alle tabellerne (obligatorisk, højst 2 tegn)';
 $string['databasesettingssub_odbc_mssql'] = '<b>Type:</b> SQL*Server (over ODBC) <b><strong class=\"errormsg\">Eksperimentiel! (ikke beregnet til brug i produktionsmiljø)</strong></b><br />
-<b>Vært:</b> navnet på DSN forbindelsen i ODBC kontrolpanelet<br /> 
-<b>Navn:</b> databasenavnet, f.eks. moodle<br /> 
-<b>Bruger:</b> dit databasebrugernavn<br /> 
-<b>Adgangskode:</b> dit database adgangskode<br /> 
-<b>Tabel Præfix:</b> præfix der bruges til alle tabelnavnene (obligatorisk)';
+<b>Vært:</b> Navnet på DSN forbindelsen i ODBC kontrolpanelet<br /> 
+<b>Navn:</b> Databasenavnet, f.eks. moodle<br /> 
+<b>Bruger:</b> Brugernavn til databasen<br />
+<b>Adgangskode:</b> Brugerens adgangskode<br />
+<b>Tabel Præfix:</b> Præfix der bruges til alle tabelnavnene (obligatorisk)';
 $string['databasesettingssub_postgres7'] = '<b>Type:</b> PostgreSQL<br />
-<b>Vært:</b> f.eks. localhost eller db.isp.com<br />
-<b>Navn:</b> databasenavn, f.eks. moodle<br />
-<b>Bruger:</b> dit databasebrugernavn<br />
-<b>Adgangskode:</b> dit database adgangskode<br />
-<b>Tables Præfix:</b> præfix der bruges foran alle tabelnavnene (obligatorisk)';
+<b>Vært:</b> F.eks. localhost eller db.isp.com<br />
+<b>Navn:</b> Databasenavn, f.eks. moodle<br />
+<b>Bruger:</b> Brugernavn til databasen<br />
+<b>Adgangskode:</b> Brugerens adgangskode<br />
+<b>Tables Præfix:</b> Præfix der bruges foran alle tabelnavnene (obligatorisk)';
 $string['databasesettingswillbecreated'] = '<b>Note:</b> Installationsprocessen vil søge at oprette en database hvis ikke den findes allerede.';
 $string['dataroot'] = 'Databibliotek';
 $string['datarooterror'] = 'Databiblioteket du specificerede kan ikke findes eller oprettes. Ret stien til biblioteket eller opret det manuelt.';
@@ -107,12 +107,12 @@ $string['dbtype'] = 'Type';
 $string['dbwrongencoding'] = 'Den valgte database kører under en ikke anbefalet encoding ($a). Det vil være bedre at benytte en Unicode (UTF-8) encoded database i stedet. 
 Du kan alligevel springe denne test over ved at vælge \"Skip DB Encoding Test\" tjek herunder, men det kan give problemer fremover.';
 $string['dbwronghostserver'] = 'Du skal følge \"Værtsreglerne\" som forklaret ovenfor.';
-$string['dbwrongnlslang'] = 'Miljøvariablen NLS_LANG  på din webserver skal bruge AL32UTF8-tegnsættet. Se PHP-documentationen for hvordan man konfigurerer OCI8 korrekt.';
-$string['dbwrongprefix'] = 'Du skal følge Tabel-prefix-reglerne som forklaret ovenfor.';
+$string['dbwrongnlslang'] = 'Miljøvariablen NLS_LANG  på din webserver skal bruge AL32UTF8-tegnsættet. Se PHP-dokumentationen for hvordan man konfigurerer OCI8 korrekt.';
+$string['dbwrongprefix'] = 'Du skal følge reglerne for tabelprefix som forklaret ovenfor.';
 $string['directorysettings'] = '<p>Kontroller venligst placeringen af af Moodle-installationen.</p>
 
-<p><b>Web-adresse:<b>
-Angiv den fulde web-adresse (URL) til Moodle. Hvis sitet kan tilgås fra flere URL\'er så vælg den mest naturlige, den som de studerende oftest vil bruge. Der må ikke være en skråstreg til sidst.</p>
+<p><b>Webadresse:<b>
+Angiv den fulde webadresse (URL) til Moodle. Hvis sitet kan tilgås fra flere URL\'er så vælg den mest naturlige, den som de studerende oftest vil bruge. Der må ikke være en skråstreg til sidst.</p>
 
 <p><b>Moodle-bibliotek:</b>
 Angiv den fulde sti til Moodle-installationen. Stien er casesensitiv.</p>
@@ -120,7 +120,7 @@ Angiv den fulde sti til Moodle-installationen. Stien er casesensitiv.</p>
 <p><b>Moodles Databibliotek</b>
 Det bibliotek hvor Moodle kan gemme uploadede filer. Dette bibliotek skal være læsbart OG SKRIVBART af den bruger apache kører under, (typisk \'nobody\' eller \'apache\') men der må ikke være direkte adgang til det fra internettet.</p>';
 $string['directorysettingshead'] = 'Bekræft hvor Moodle skal installeres';
-$string['directorysettingssub'] = '<b>Web-adresse:</b>
+$string['directorysettingssub'] = '<b>Webadresse:</b>
 Angiv den fulde adresse til Moodle. Hvis der skal være adgang til siden fra flere URL\'er så vælg den naturligste, den deltagerne vil bruge. Adressen må ikke slutte med en skråstreg (slash).
 <br />
 <br />
@@ -128,21 +128,21 @@ Angiv den fulde adresse til Moodle. Hvis der skal være adgang til siden fra fle
 Angiv den fulde sti til installationen. Vær påpasselig med små og store bogstaver, adressen er casesensitiv.
 <br />
 <br />
-<b>Data-bibliotek:</b>
-Det sted, hvor Moodle placerer uploadede filer. Dette bibliotek skal være læse- OG SKRIVBART for web-server-brugeren (typisk \'nobody\' eller \'apache\'), men der må ikke være direkte adgang fra internettet.';
+<b>Databibliotek:</b>
+Det sted, hvor Moodle placerer uploadede filer. Dette bibliotek skal være læse- OG SKRIVBART for webserverbrugeren (typisk \'nobody\' eller \'apache\'), men der må ikke være direkte adgang fra internettet.';
 $string['dirroot'] = 'Moodle-bibliotek';
 $string['dirrooterror'] = 'Det angivne Moodle-bibliotek lader ikke til at være rigtigt - der kan ikke findes en Moodle-installation. Den nedenstående værdi er blevet fjernet.';
 $string['download'] = 'Download';
 $string['downloadlanguagebutton'] = 'Download \"$a\"-sprogpakken';
 $string['downloadlanguagehead'] = 'Download sprogpakke';
-$string['downloadlanguagenotneeded'] = 'Du kan fortsætte installationen med standard-sprogpakken,\"$a\".';
+$string['downloadlanguagenotneeded'] = 'Du kan fortsætte installationen med standardsprogpakken,\"$a\".';
 $string['downloadlanguagesub'] = 'Du har nu mulighed for at hente en sprogpakke og fortsætte installationsprocessen på dette sprog.<br /><br />Kan du ikke downloade sprogpakken vil installationen fortsætte på engelsk. (Når installationsprocessen er færdig kan du downloade og installere flere sprogpakker.)';
 $string['environmenthead'] = 'Kontrollerer din serveropsætning...';
 $string['environmentsub'] = 'Vi tjekker om de forskellige komponenter i dit system lever op til de Moodles krav.';
 $string['fail'] = 'Mislykkedes';
 $string['fileuploads'] = 'Fil-uploads';
 $string['fileuploadserror'] = 'Denne skulle være aktiveret';
-$string['fileuploadshelp'] = '<p>Fil-upload lader til at være slået fra på din server.</p>
+$string['fileuploadshelp'] = '<p>Filupload lader til at være slået fra på din server.</p>
 
 <p>Moodle kan stadig installeres, men uden senere mulighed for at uploade kursusfiler og profilbilleder.</p>
 
@@ -151,7 +151,7 @@ $string['gdversion'] = 'GD version';
 $string['gdversionerror'] = 'GD library skal være tilgængelig for PHP for at billeder kan manipuleres og oprettes.';
 $string['gdversionhelp'] = '<p>Det lader til at din server ikke har GD installeret.</p>
 
-<p>GD er et bibliotek som PHP bruger til at behandle billeder (såsom brugerprofil-billeder) og til at oprette nye billeder såsom loggrafer. Moodle kan stadig fungere uden GD - men disse funktioner vil så ikke være til rådighed.</p>
+<p>GD er et bibliotek som PHP bruger til at behandle billeder (såsom brugerprofilbilleder) og til at oprette nye billeder såsom loggrafer. Moodle kan stadig fungere uden GD - men disse funktioner vil så ikke være til rådighed.</p>
 
 <p>For at tilføje GD på unix skal PHP kompileres med \'--with-gd\" parameteret.</p>
 
@@ -239,6 +239,6 @@ $string['welcomep50'] = 'Brugen af programmerne i denne pakke er styret af deres
 $string['welcomep60'] = 'De følgende sider vil hjælpe dig gennem nogle nemme trin til konfiguration og opsætning af <strong>Moodle</strong> på din computer. Du kan acceptere standardindstillingerne eller vælge at ændre dem så de bedre svarer til dine egne behov.';
 $string['welcomep70'] = 'Klik på \"Næste\" herunder for at forsætte opsætningen af <strong>Moodle</strong>.';
 $string['wwwroot'] = 'Webadresse';
-$string['wwwrooterror'] = 'Webadressen fremstår ikke korrekt - Moodle-installationen kunne ikke findes der. Værdien herunder er nulstillet.';
+$string['wwwrooterror'] = 'Webadressen fremstår ikke korrekt - Moodle-installationen er ikke placeret der. Værdien herunder er nulstillet.';
 
 ?>
