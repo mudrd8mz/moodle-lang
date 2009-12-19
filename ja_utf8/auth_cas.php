@@ -21,8 +21,7 @@ $string['auth_cas_invalidcaslogin'] = '申し訳ございません、ログイ�
 $string['auth_cas_language'] = '言語の選択';
 $string['auth_cas_language_key'] = '言語';
 $string['auth_cas_logincas'] = 'セキュアコネクション・アクセス';
-$string['auth_cas_logoutcas'] = 'Moodleからのログアウト時、
-CASからログアウトしたい場合、「Yes」を選択してください。';
+$string['auth_cas_logoutcas'] = 'Moodleからのログアウト時、CASからログアウトしたい場合、「Yes」を選択してください。';
 $string['auth_cas_logoutcas_key'] = 'CASからログアウトする';
 $string['auth_cas_multiauth'] = 'マルチ認証 (CAS + 他の認証) を使用したい場合、「Yes」を選択してください。';
 $string['auth_cas_multiauth_key'] = 'マルチ認証';
