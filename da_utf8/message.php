@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9 + (Build: 20080304) (2007101509)
+      // message.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addcontact'] = 'Tilføj kontakt';
@@ -26,9 +26,9 @@ $string['formorethan'] = 'i mere end';
 $string['includeblockedusers'] = 'Inkluder blokerede brugere';
 $string['incomingcontacts'] = 'Indkomne kontakter ($a)';
 $string['keywords'] = 'Nøgleord';
-$string['keywordssearchresults'] = 'Søge resultat: $a beskeder fundet';
+$string['keywordssearchresults'] = 'Søgeresultat: $a beskeder fundet';
 $string['mailsent'] = 'Din besked blev sendt via e-mail.';
-$string['maxmessages'] = 'Maksimalt antal beskeder der vises i diskussions-historikken';
+$string['maxmessages'] = 'Maksimalt antal beskeder der vises i beskedhistorikken';
 $string['message'] = 'Besked';
 $string['messagehistory'] = 'Beskedhistorik';
 $string['messages'] = 'Beskeder';
@@ -68,6 +68,6 @@ $string['unblockcontact'] = 'Fjern blokering for kontakt';
 $string['unreadmessages'] = '$a ulæste beskeder';
 $string['userisblockingyou'] = 'Denne bruger har blokeret for beskeder fra dig.';
 $string['userisblockingyounoncontact'] = 'Denne bruger accepterer kun beskeder fra personer der er på hans/hendes kontaktliste og det er du ikke på nuværende tidspunkt.';
-$string['userssearchresults'] = 'Søge resultat: $a brugere fundet';
+$string['userssearchresults'] = 'Søgeresultat: $a brugere fundet';
 
 ?>

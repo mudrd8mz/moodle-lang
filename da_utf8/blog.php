@@ -1,20 +1,20 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // blog.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addnewentry'] = 'Weblog - nyt indlæg';
 $string['backupblogshelp'] = 'Aktiveret vil blogs blive taget med i den automatiske backup';
 $string['blockmenutitle'] = 'Weblogmenu';
-$string['blocktagstitle'] = 'Weblog-nøgleord';
-$string['blocktitle'] = 'Weblog nøgleord blok titel';
+$string['blocktagstitle'] = 'Weblognøgleord';
+$string['blocktitle'] = 'Weblognøgleord bloktitel';
 $string['blog'] = 'Weblog';
 $string['blogdeleteconfirm'] = 'Skal denne weblog slettes?';
 $string['blogpreferences'] = 'Weblogindstillinger';
 $string['blogs'] = 'Weblogs';
-$string['blogtags'] = 'Weblog nøgleord';
+$string['blogtags'] = 'Weblognøgleord';
 $string['courseblog'] = 'Kursus weblog: $a';
 $string['courseblogs'] = 'Brugere kan kun se weblogs for personer der er i samme kursus.';
-$string['deleteotagswarn'] = 'Er du sikker på at du vil fjerne dette/disse nøgleord <br />fra alle blog-indlæg og fjerne dem fra systemet?';
+$string['deleteotagswarn'] = 'Er du sikker på at du vil fjerne dette/disse nøgleord <br />fra alle blogindlæg og fjerne dem fra systemet?';
 $string['disableblogs'] = 'Deaktiver hele weblogsystemet';
 $string['emptybody'] = 'Indlægget kan ikke være tomt';
 $string['emptytitle'] = 'Titlen på loggen må ikke være tom';

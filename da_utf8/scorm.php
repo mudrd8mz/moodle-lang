@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // scorm.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['activation'] = 'Aktivering';
@@ -59,7 +59,7 @@ $string['hidden'] = 'Skjult';
 $string['hidebrowse'] = 'Deaktiver forhåndsvisning';
 $string['hideexit'] = 'Skjul afslutlink';
 $string['hidenav'] = 'Skjul navigationsknapperne';
-$string['hidereview'] = 'Skjul gennemse knappen';
+$string['hidereview'] = 'Skjul \"Gennemse\"-knappen';
 $string['hidetoc'] = 'Visning af Kursusstruktur (TOC)';
 $string['highestattempt'] = 'Højeste forsøg';
 $string['identifier'] = 'Spørgsmåls id';
@@ -73,7 +73,7 @@ $string['lastattempt'] = 'Sidste forsøg';
 $string['location'] = 'Vis placeringslinjen';
 $string['max'] = 'Maks point';
 $string['maximumattempts'] = 'Antal forsøg';
-$string['menubar'] = 'Vis menulinien';
+$string['menubar'] = 'Vis menulinjen';
 $string['min'] = 'Min point';
 $string['missing_attribute'] = 'Mangler attribut $a->attr i tag $a->tag';
 $string['missing_tag'] = 'Mangler tag $a->tag';
@@ -100,7 +100,7 @@ $string['othersettings'] = 'Flere indstillinger';
 $string['othertracks'] = 'Andre spor';
 $string['package'] = 'Filpakke';
 $string['packagedir'] = 'Filsystemfejl: Kan ikke lave bibliotek til pakken.';
-$string['packagefile'] = 'Der er ikke angivet pakke-fil';
+$string['packagefile'] = 'Der er ikke angivet pakkefil';
 $string['passed'] = 'Godkendt';
 $string['php5'] = 'PHP 5 (DOMXML native library)';
 $string['popup'] = 'Nyt vindue';

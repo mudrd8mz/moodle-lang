@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // lesson.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['accesscontrol'] = 'Adgangskontrol';
@@ -24,14 +24,14 @@ $string['and'] = 'OG';
 $string['answer'] = 'Svar';
 $string['answeredcorrectly'] = 'Korrekt besvaret.';
 $string['answersfornumerical'] = 'Svar for numeriske spørgsmål skulle være par af maksimum- og minimumsværdier.';
-$string['arrangebuttonshorizontally'] = 'Arranger forgreningsknapper horisontalt under diasshow-visning?';
+$string['arrangebuttonshorizontally'] = 'Arranger forgreningsknapper horisontalt under visning af diasshow?';
 $string['attempt'] = 'Forsøg: $a';
 $string['attempts'] = 'Forsøg';
 $string['attemptsdeleted'] = 'Slettede forsøg';
 $string['attemptsremaining'] = 'Du har $a forsøg endnu';
 $string['available'] = 'Tilgængelig fra';
 $string['averagescore'] = 'Gennemsnitlig score';
-$string['averagetime'] = 'Gennemsnits-tid';
+$string['averagetime'] = 'Gennemsnitstid';
 $string['branchtable'] = 'Forgreningsside';
 $string['cancel'] = 'Annuller';
 $string['canretake'] = '$a kan prøve igen';
@@ -72,7 +72,7 @@ $string['description'] = 'Beskrivelse';
 $string['detailedstats'] = 'Detaljeret statistik';
 $string['didnotanswerquestion'] = 'Besvarede ikke dette spørgsmål.';
 $string['didnotreceivecredit'] = 'Fik ikke points';
-$string['displaydefaultfeedback'] = 'Vis standard-feedback';
+$string['displaydefaultfeedback'] = 'Vis standardfeedback';
 $string['displayhighscores'] = 'Vis highscore';
 $string['displayinleftmenu'] = 'Vis i venstre menu?';
 $string['displayleftif'] = 'og vis kun hvis $a har opnået en højere karakter end:';
@@ -156,7 +156,7 @@ $string['maxtime'] = 'Tidsbegrænsning (minutter)';
 $string['maxtimewarning'] = 'Du har $a minutter til denne lektion';
 $string['mediaclose'] = 'Vis lukke-knap';
 $string['mediafile'] = 'Pop-up med fil eller webside';
-$string['mediafilepopup'] = 'Klik her for at se denne lektions media-fil';
+$string['mediafilepopup'] = 'Klik her for at se denne lektions mediefil';
 $string['mediaheight'] = 'Vindueshøjde';
 $string['mediawidth'] = 'bredde:';
 $string['minimumnumberofquestions'] = 'Minimalt antal spørgsmål';
@@ -165,7 +165,7 @@ $string['modattempts'] = 'Tillad at rette i svar';
 $string['modattemptsnoteacher'] = 'Det er kun elever der kan gennemse';
 $string['modulename'] = 'Lektion';
 $string['modulenameplural'] = 'Lektioner';
-$string['movedpage'] = 'Flyttet side';
+$string['movedpage'] = 'Siden er flyttet';
 $string['movepagehere'] = 'Flyt side hertil';
 $string['moving'] = 'Flytter side: $a';
 $string['multianswer'] = 'Multisvar';
@@ -196,7 +196,7 @@ $string['nothighscore'] = 'Du kom ikke på top $a highscorelisten.';
 $string['notitle'] = 'Ingen titel';
 $string['numberofcorrectanswers'] = 'Antal af korrekte svar: $a';
 $string['numberofcorrectmatches'] = 'Antal af korrekte sammenpasninger: $a';
-$string['numberofpagestoshow'] = 'Antal sider (v. flash-kort)';
+$string['numberofpagestoshow'] = 'Antal sider (v. flashkort)';
 $string['numberofpagesviewed'] = 'Antal sider vist: $a';
 $string['numberofpagesviewednotice'] = 'Besvarede spørgsmål: $a->nquestions; (Du skal mindst besvare $a->minquestions)';
 $string['ongoing'] = 'Vis løbende score';
