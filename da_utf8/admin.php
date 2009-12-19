@@ -120,7 +120,7 @@ $string['configforceloginforprofiles'] = 'Aktiver denne indstilling for at tving
 $string['configframename'] = 'Hvis du indlejrer Moodle i html-frames skal du skrive framenavnet her. I modsat fald skal der bare stå \'_top\'';
 $string['configfrontpage'] = 'De her valgte elementer vil blive vist på sitets forside.';
 $string['configfrontpageloggedin'] = 'De her valgte elementer vil blive vist på sitets forside for brugere, der er logget ind.';
-$string['configfullnamedisplay'] = 'Dette definerer hvordan en brugers fulde navne skal vises. For de fleste et-sprogede sites vil den mest effektive indstilling være \"Fornavn + Efternavn\". Man kan vælge at skjule fornavnet helt eller lade det være op til sprogpakken (nogle sprog har forskellige opsætninger).';
+$string['configfullnamedisplay'] = 'Dette definerer hvordan en brugers fulde navne skal vises. For de fleste etsprogede sites vil den mest effektive indstilling være \"Fornavn + Efternavn\". Man kan vælge at skjule fornavnet helt eller lade det være op til sprogpakken (nogle sprog har forskellige opsætninger).';
 $string['configgdversion'] = 'Indikerer hvilken version af GD der er installeret. Versionen der vises er den der er blevet autodetekteret. Pas på med at ændre indstillingen med mindre du virkelig ved hvad du har med at gøre.';
 $string['configgradebookroles'] = 'Denne indstilling gør det muligt at kontrollere hvem der kan ses i karakterbogen. Brugere bliver nødt til at have mindst een af disse roller i et kursus for at blive vist i karakterbogen for kurset.';
 $string['configguestroleid'] = 'Denne rolle tildeles automatisk til gæster. Den tildeles også midlertidigt til gæster i kurser, der tillader gæsteadgang uden tilmeldingsnøgle. Du skal her sikre dig at rollen har tilladelserne <br /> moodle/legacy:guest og <br /> moodle/course:view.';
@@ -421,7 +421,7 @@ $string['notifyloginfailures'] = 'E-mail fejlslagne logins til';
 $string['notifyloginthreshold'] = 'Begrænsning for e-mail-meddelser';
 $string['notloggedinroleid'] = 'Rolle for besøgende';
 $string['numberofmissingstrings'] = 'Antal tomme strenge: $a';
-$string['numberofstrings'] = 'Antal stringe: $a->strings<br />Heraf ikke oversatte: $a->missing ($a->missingpercent&nbsp;%%)';
+$string['numberofstrings'] = 'Antal strenge: $a->strings<br />Heraf ikke oversatte: $a->missing ($a->missingpercent&nbsp;%%)';
 $string['opentogoogle'] = 'Åben for Google';
 $string['optionalmaintenancemessage'] = 'Besked der vises under vedligeholdelse af sitet.';
 $string['order1'] = 'Første';
@@ -548,7 +548,7 @@ $string['upgradeforumread'] = 'En ny funktion er blevet tilføjet i Moodle 1.5 t
 $string['upgradeforumreadinfo'] = 'En ny funktion er blevet tilføjet i Moodle 1.5 til at holde styr på læste/ikke læste forumindlæg.<br />For at benytte denne funktionalitet bliver du nød til at opdatere dine tabeller med informationer om de eksisterende poster. Afhængig af størrelsen på sitet kan dette godt tage en del tid (timer) og kan være ret belastene for databasen, så det er bedst at gøre dette i stille perioder. Sitet vil fungere normalt under opdateringen, og brugerne vil ikke blive påvirket. Når du starter opdateringen bør du lade den køre til ende, (hold browservinduet åbent). Hvis du kommer til at stoppe opdateringen ved at lukke vinduet, så kan du fortsætte igen.
 <br /><br />Ønsker du at starte opdateringsprocessen nu?';
 $string['upgradelogs'] = 'For fuld funktionalitet skal de gamle logfiler opgraderes. <a href=\"$a\">Yderligere information</a>';
-$string['upgradelogsinfo'] = 'Der er lavet nogle ændringer i den måde som logfiler bliver gemt på. For at du stadig kan se alle login-informationer sorteret efter aktivitet, skal logfilerne opgraderes. Afhængig af logfilernes størrelse kan dette godt tage lang tid (måske op til flere timer) og være ret belastende for databaseserveren for store sites. Når du først har startet processen bør du lade den arbejde færdig (ved at lade browservinduet stå åbent). For andre vil sitet stadig fungere fint selvom logfilerne bliver opdateret.<br /><br />Ønsker du at opgradere logfilerne nu?';
+$string['upgradelogsinfo'] = 'Der er lavet nogle ændringer i den måde logfiler bliver gemt på. For at du stadig kan se alle logininformationer sorteret efter aktivitet, skal logfilerne opgraderes. Afhængig af logfilernes størrelse kan dette godt tage lang tid (måske op til flere timer) og være ret belastende for databaseserveren for store sites. Når du først har startet processen bør du lade den arbejde færdig (ved at lade browservinduet stå åbent). For andre vil sitet stadig fungere fint selvom logfilerne bliver opdateret.<br /><br />Ønsker du at opgradere logfilerne nu?';
 $string['upgradesettings'] = 'Nye indstillinger';
 $string['upgradesettingsintro'] = 'Nedestående indstillinger er blevet tilføjet med den sidste opgradering af Moodle. Du kan ændre indstillingerne eller benytte standardindstillingerne. Når du er tilfreds kan du trykke på \"Gem indstillinger\" i bunden af denne side.';
 $string['upgradesure'] = 'Moodles filer er blevet ændret, sitet skal til at udføre en automatik opgradering af serveren til version <p><b>$a</b></p> <p>Når serveren én gang er opdateret kan det ikke laves om</p><p>Er du sikker på at du vil fortsætte?</p>';
