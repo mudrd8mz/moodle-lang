@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.9.7+ (Build: 20091204) (2007101570)
+      // workshop.php - created with Moodle 1.9.7+ (Build: 20091218) (2007101570)
 
 
 $string['absent'] = 'Abwesend';
 $string['accumulative'] = 'Akkumuliert';
 $string['action'] = 'Aktion';
-$string['addacomment'] = 'Einen Kommentar hinzufügen';
+$string['addacomment'] = 'Kommentar hinzufügen';
 $string['addcomment'] = 'Kommentar hinzufügen';
 $string['afterdeadline'] = 'Nach dem Stichtag: $a';
 $string['ago'] = '$a zurück';
@@ -14,7 +14,7 @@ $string['agreetothisassessment'] = 'Diesem Assessment zustimmen';
 $string['allgradeshaveamaximumof'] = 'Maximale Gesamtpunktzahl: $a';
 $string['allowresubmit'] = 'Mehrfaches Abgeben erlauben';
 $string['allsubmissions'] = 'Alle Einreichungen';
-$string['alreadyinphase'] = 'Schon in Phase $a';
+$string['alreadyinphase'] = 'Bereits in Phase $a';
 $string['amendassessmentelements'] = 'Assessment-Bewertungskriterien ändern';
 $string['amendtitle'] = 'Titel ändern';
 $string['analysis'] = 'Auswertung';
