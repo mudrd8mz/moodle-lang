@@ -1,0 +1,210 @@
+<h1>Installer Moodle</h1>
+<h2>Ingen panik! <img src="http://moodle.org/pix/s/smiley.gif" /></h2>
+<p>Denne guide forklarer hvordan du installerer Moodle for første gang. Vi vil gå i en masse detaljer på nogle af trinene for at dække de fleste webserveropsætninger, så dette dokument kan synes langt og kompliceret. Gå ikke i panik, det er slet ikke sikkert du får brug for at fordybe dig i alle detaljer. Så snart du ved hvordan det skal gøres, kan du installere Moodle på få minutter! <span style="color: rgb(153, 153, 153);"></span></p>
+<p>Hvis du har problemer så læst dette dokument omhyggeligt - de fleste almindelige spørgsmål er besvaret her. Har du stadig problemer kan du søge hjælp fra <a href="http://moodle.org/help">Moodle Help</a></p>
+<p>En anden mulighed er at kontakte et <a href="http://moodle.com/hosting/">webhostingfirma</a> som kan varetage alt omkring Moodle for dig, sådan at du kan glemme alt dette og starte direkte med undervisning!</p>
+<p>Indhold:</p>
+<ol>
+  <li><a href="#requirements">Tekniske krav</a></li>
+  <li><a href="#downloading">Download og kopier filer på plads</a> </li>
+  <li><a href="#site">Sitestruktur</a></li>
+  <li><a href="#installer">Kør installationsprogrammet og få oprettet config.php</a>
+    <ul>
+      <li><a href="#webserver">Tjek indstillinger på webserveren</a></li>
+      <li><a href="#database">Opret en database</a></li>
+      <li><a href="#data">Opret et databibliotek</a></li>
+    </ul> </li>
+  <li><a href="#admin">Gå til admin-siden og fortsæt konfigurationen</a></li>
+  <li><a href="#cron">Opsætning af cron</a></li>
+  <li><a href="#course">Opret et kursus</a></li>
+</ol>
+<p> </p>
+<h3 class="sectionheading" id="requirements">1. Tekniske krav<br /></h3>
+<p>Moodle er primært udviklet på Linux ved brug af Apache, MySQL og PHP (også kaldet LAMP), men bliver også regelmæssigt testet med PostgreSQL og på Windows XP, Mac OS X og Netware 6.</p>
+<p>Tekniske krav til Moodle:</p>
+<ol>
+  <li>Webserver software. De fleste bruger <a href="http://www.apache.org/">Apache</a>, men Moodle skulle virke fint på enhver webserver der understøtter PHP, så som IIS på Windows.</li>
+  <li><a href="http://www.php.net/">PHP</a> (version 4.1.0 eller nyere). PHP 5 er supporteret fra Moodle 1.4. </li>
+  <li>en database server: <a href="http://www.mysql.com/">MySQL</a> eller <a href="http://www.postgresql.org/">PostgreSQL</a> er fuldt understøttet og anbefales til brug med Moodle. </li>
+</ol>
+<p>De fleste webhoteller understøtter alt dette. Hvis det ikke gælder dit webhotel så spørg hvorfor og overvej at flytte hotel.</p>
+<p>Vil du køre Moodle fra din egen computer og alt dette lyder lidt skræmmende, så se <a href="http://docs.moodle.org/en/Administrator_documentation">the administrator documentation</a>.</p>
+<p> </p>
+<h3 class="sectionheading" id="downloading">2. Download og kopier filer på plads </h3>
+<p>Der er to måder at få fat i Moodle på: som en komprimeret pakke og via CVS. Disse måder er forklaret i detaljer på downloadsiden: <a href="http://moodle.org/download/">http://moodle.org/download/</a></p>
+<p>Efter download og udpakning af arkivet, eller efter at have kørt et cvs-checkout, vil du have en mappe, &quot;moodle&quot;, som indeholder en række filer og mapper.</p>
+<p>Du kan enten placere hele mappen i din webservers dokumentbibliotek, i så fald vil sitet komme til at ligge på <b>http://dinwebserver.tld/moodle</b>, eller du kan kopiere al indholdet direkte ind på webroden, så vil dit site komme til at ligge på <b>http://dinwebserver.tld</b>.</p>
+<p>Hvis du downloader Moodle til din lokale computer og derefter uploader den til din webserver, er det som regel bedre at uploade hele arkivet som en fil og derpå pakke filen ud på serveren. I nogle webserveres kontrolpaneler, som f.eks. Cpanel, kan du udpakke filer med panelets &quot;File Manager&quot;. </p>
+<p> </p>
+<h3 class="sectionheading" id="site">3. Sitestruktur</h3>
+<p>Du kan sagtens springe dette afsnit over, men her er til din orientering en hurtig oversigt over indholdet af de vigtigste af Moodles mapper:</p>
+<table class="indent"><tbody>
+  <tr>
+    <td valign="top">config.php
+    </td>
+    <td valign="top">-
+    </td>
+    <td valign="top"> indeholder basisindstillinger. Filen leveres ikke med Moodle - du kommer selv til at oprette den.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">install.php
+    </td>
+    <td valign="top">-
+    </td>
+    <td valign="top">scriptet hvormed config.php oprettes<br />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">version.php
+    </td>
+    <td valign="top">-
+    </td>
+    <td valign="top"> information om den aktuelle version af Moodle-koden
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">index.php
+    </td>
+    <td valign="top">-
+    </td>
+    <td valign="top"> forsiden af sitet<br />
+    </td>
+  </tr></tbody>
+</table>
+<ul>
+  <li>admin/ - kode til administration af hele moodleserveren</li>
+  <li>auth/ - pluginmoduler til godkendelse af brugere</li>
+  <li>blocks/ - pluginmoduler til de små blokke på mange sider</li>
+  <li>calendar/ - al koden til administration og visning af kalendere<br /></li>
+  <li>course/ - kode til administration og visning af kurser</li>
+
+  <li>files/ - kode til administration og visning af uploadede filer <br /></li>
+  <li>lang/ - tekstfiler i forskellige sprog, en mappe pr. sprog </li>
+  <li>lib/ - biblioteker til Moodles kernekode</li>
+  <li>login/ - kode til håndtering af login og oprettelse af brugere</li>
+  <li>mod/ - alle Moodles hovedmoduler<br /></li>
+  <li>pix/ - fælles grafikfiler for hele sitet<br /></li>
+  <li>theme/ - layoutpakker/skins til ændring af udseendet.</li>
+  <li>user/ - kode til administration og visning af brugere<br /></li>
+</ul>
+<p> </p>
+<h3 class="sectionheading" id="installer">4. Kør installationsprogrammet og få oprettet config.php </h3>
+<p>Kør installationsprogrammet (install.php) ved at gå ind på din Moodles URL i en browser, eller gå direkte ind på <strong>http://dinserver.tld/install.php</strong>. </p>
+<p>(Installationsprogrammet vil forsøge at lægge en sessionscookie på din computer. Hvis du får advarsel på en popop skal du acceptere denne cookie!) </p>
+<p>Moodle vil opdage at en konfiguration er nødvendig og vil lede dig gennem nogle sider som vil hjælpe dig med at oprette en ny konfigurationsfil, <strong>config.php. </strong>Til sidst i processen vil Moodle forsøge at gemme filen på det rette sted, ellers vil du blive tilbudt at downloade den fra installationsprogrammet og derpå uploade den til Moodles webrod på serveren.</p>
+<p>Undervejs vil installationsprogrammet teste dit servermiljø og foreslå hvordan du kan fixe eventuelle problemer. I de fleste tilfælde vil disse forslag være nok, men går du i stå, kan du se nedenfor efter yderligere information om nogle af de almindelige ting der kan bremse dig.<br />
+</p>
+<h4 class="sectionheading" id="webserver">4.1 Generelle webserverindstillinger </h4>
+<div class="indent">
+  <p>Start for det første med at sikre dig at din webserver er sat op til at bruge index.php som standardside (måske sammen med index.html, default.htm osv.).</p>
+  <p>I Apache gøres dette ved hjælp af en DirectoryIndex parameter i filen httpd.conf. Mine ser normalt sådan ud:</p> <pre><font size="2"><strong>DirectoryIndex</strong> index.php index.html index.htm </font></pre>
+  <p>Sørg for at index.php er på listen (og helst i starten for effektivitetens skyld).</p>
+  <p>For det andet, <span style="font-weight: bold;">hvis du bruger</span><b> Apache 2</b>, skal du aktivere variablen <i>AcceptPathInfo</i>, som tillader scriptargumenter som http://server/file.php/arg1/arg2. Det er essentielt at tillade relative links mellem dine ressourcer, og det giver ydelsen et boost for brugere af sitet med Moodle. Du kan aktivere det med disse linjer i din httpd.conf.</p> <pre><font size="2"><strong>AcceptPathInfo</strong> on </font></pre>
+  <p>For det tredje kræver Moodle at nogle PHP-indstillinger skal være aktiverede for at kunne køre. <span style="font-weight: bold;">På de fleste servere vil disse allerede være standardindstillinger</span><b>.</b> Imidlertid kan nogle PHP-servere (og nogle nyere PHP-versioner) have andre indstillilnger. Disse er defineret i PHP's konfigurationsfil (som regel kaldet php.ini):</p><pre>magic_quotes_gpc = 1 (preferred but not necessary)
+magic_quotes_runtime = 0 (necessary)
+file_uploads = 1
+session.auto_start = 0
+session.bug_compat_warn = 0</pre>
+  <p>Hvis ikke du har adgang til httpd.conf eller php.ini på din server, eller hvis du har Moodle på en server med andre programmer med andre indstillinger, så skidt, du kan ofte stadig OVERRIDE standardindstillingerne.</p>
+  <p>Det kan du gøre ved at oprette filen <span style="font-weight: bold;">.htaccess</span> i Moodles webrod. Indholdet kan du se herunder. Den virker kun på Apache-servere og kun når Overrides er blevet tilladt i hovedkonfigurationen.<br /></p><pre> DirectoryIndex index.php index.html index.htm &lt;IfDefine APACHE2&gt; <b>AcceptPathInfo</b> on
+&lt;/IfDefine&gt;
+
+php_flag magic_quotes_gpc 1
+php_flag magic_quotes_runtime 0
+php_flag file_uploads 1
+php_flag session.auto_start 0
+php_flag session.bug_compat_warn 0
+</pre>
+  <p>Du kan også fastsætte maximumstørrelsen på filer der kan uploades:<br /></p> <pre> LimitRequestBody 0 php_value upload_max_filesize 2M php_value post_max_size 2M</pre>
+  <p>Det letteste er blot at kopiere eksempelfilen fra <strong>lib/htaccess</strong> og redigere den så den stemmer overens med dine behov. Den indeholder flere instruktioner. F.eks. på en Unix-shell:<br /></p> <pre>cp lib/htaccess .htaccess</pre> </div>
+<p> </p>
+<h4 class="sectionheading" id="database">4.2 Opret en database</h4>
+<div class="indent">
+  <p>Du skal oprette en tom database (f.eks. &quot;moodle&quot;) i dit databasesystem og en speciel bruger (f.eks. &quot;moodlebruger&quot;) som har adgang til (og kun til) databasen. Du kan bruge &quot;root&quot; på en testserver hvis du vil, men det anbefales ikke i et produktionsmiljø: Hvis det lykkes for hackere at opsnuse koden vil hele dit databasesystem være i stor fare, i stedet for kun en enkelt database.<br /></p>
+Bruger du et webhotel vil det sikkert have et kontrolpanel med webadgang, hvorfra du kan oprette databasen.<br /><br />
+<span style="font-weight: bold;">Cpanel</span> er et meget udbredt kontrolpanet på webhoteller. Du kan følge disse trin hvis du skal oprette en datapase i Cpanel:<br />
+  <ol>
+    <li>Klik på ikonet &quot;<strong>MySQL Databases</strong>&quot;.</li>
+    <li>Skriv &quot;moodle&quot; i databasefeltet og klik på &quot;<strong>Add Database&quot;</strong></li>
+    <li>Skriv et brugernavn og en adgangskode (som du ikke bruger andre steder) og klik på &quot;<strong>Add User</strong>&quot;.</li>
+    <li>Brug knappen &quot;<strong>Add User to Database</strong>&quot; til at give denne bruger &quot;ALLE&quot; rettigheder til den nye database.</li>
+    <li>Bemærk at brugernavn og databasenavn kan være forudbestemt med dit Cpanel-kontonavn. Når du tilføjer denne information i Moodles installationsprogram skal du skrive det fulde navn.</li>
+  </ol>
+Har du adgang til en kommandolinje i Unix kan du bruge den til det samme.
+  <p>Her er nogle eksempler på Unix-kommandoer til MySQL: </p> 
+<pre> # mysql -u root -p &gt; CREATE DATABASE moodle; &gt; GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,INDEX,ALTER ON moodle.* TO moodlebruger@localhost IDENTIFIED BY 'dinadgangskode'; &gt; quit # mysqladmin -p reload</pre>
+  <p>Og her er nogle eksempler på linjer til PostgreSQL: </p> 
+<pre> # su - postgres &gt; psql -c &quot;create user moodlebruger createdb;&quot; template1 &gt; psql -c &quot;create database moodle;&quot; -U moodlebruger template1 &gt; psql -c &quot;alter user moodlebruger nocreatedb;&quot; template1</pre>
+</div>
+  <h4 id="data" class="sectionheading">4.3 Opret et databibliotek </h4>
+<div class="indent">
+  <p>Moodle skal også bruge noget plads på serveren til uploadede filer så som kursusdokumenter og brugerbilleder.</p>
+  <p>Installationsprogrammet vil gøre hvad det kan for at oprette dette bibliotek for dig, men lykkes det ikke, må du selv oprette det manuelt.<br /></p>
+  <p>Af sikkerhedsmæssige årsager må dette bibliotek IKKE være tilgængeligt direkte fra Internettet. Den nemmeste måde at klare det på, er at placere det UDENFOR webbiblioteket, men hvis du er tvunget til at have det i webbiblioteket kan du beskytte det ved at oprette en fil i databiblioteket med navnet .htaccess, og give den dette indhold:</p><pre>deny from all
+AllowOverride None</pre>
+  <p>Du kan sikre dig at Moodle kan gemme uploadede filer her, ved at tjekke at webserversoftwaren (f.eks. Apache) har tilladelse til at læse, skrive og køre filer i dette bibliotek.<br /></p>
+  <p>På Unix betyder det at ejeren af biblioteket skal sættes til noget i retning af &quot;nobody&quot; eller &quot;apache&quot;, og denne bruger skal have læse-, skrive- og eksekveringsrettigheder.<br /></p>
+  <p>På systemer med Cpanel kan &quot;File Manager&quot; bruges til at finde biblioteket med, klikke på det og vælge &quot;Change Permissions&quot;. På mange delte webhoteller vil du sikkert være tvunget til at begrænse al tilgang til filerne til din gruppe (for at forhindre andre kunder i at se eller ændre dine filer), men give fuld læse- og skriveadgange til alle andre (hvad der vil give din webserver adgang til filerne).</p>
+  <p>Tal med din serveradministrator hvis du har problemer med at sætte det sikkert op. Især websteder, der bruger en PHP med &quot;Safe Mode on&quot;, kan kræve, at administrator opretter denne mappe rigtigt for dig.</p></div>
+<h3 class="sectionheading" id="admin">5. Gå til admin-siden for at fortsætte konfigurationen </h3>
+<p>Så snart den basale <strong>config.php</strong> er oprettet korrekt, kan du gå ind på din Moodles forside, hvorfra du vil blive ført videre til admin-siden, hvor resten af konfigurationen foregår.</p>
+<p>Første gang du kommer til admin-siden bliver du præsenteret for en GPL &quot;shrinkwrap&quot;-aftale som du <span style="font-weight: bold;">skal</span> acceptere før du kan fortsætte opsætningen.<br /></p>
+<p>Nu vil Moodle starte med at sætte din database op, oprette tabeller og gemme data. Først oprettes hovedtabellerne i databasen. Du vil se en række SQL-sætninger efterfulgt af statusbeskeder (i grønt eller rødt) a la:</p>
+<div class="indent">
+  <p>CREATE TABLE course (id int(10) unsigned NOT NULL auto_increment, category int(10) unsigned NOT NULL default '0', password varchar(50) NOT NULL default '', fullname varchar(254) NOT NULL default '', shortname varchar(15) NOT NULL default '', summary text NOT NULL, format tinyint(4) NOT NULL default '1', teacher varchar(100) NOT NULL default 'Teacher', startdate int(10) unsigned NOT NULL default '0', enddate int(10) unsigned NOT NULL default '0', timemodified int(10) unsigned NOT NULL default '0', PRIMARY KEY (id)) TYPE=MyISAM</p>
+  <p class="success">SUCCESS</p> </div>
+<p>...osv. efterfulgt af: &quot;<span class="success">Main databases set up successfully&quot;.</span> </p>
+<p class="style3 indent">Ser du ikke dette må der være noget galt med databasen eller indstillingerne i config.php. Tjek at PHP ikke har restriktionen &quot;Safe Mode On&quot; (kommersielle webhoteller har somme tider safe mode sat til). Du kan tjekke PHP-variable ved at oprette en fil med indholdet <strong>&lt;?php phpinfo() ?&gt;</strong> og se på den fra en browser. Tjek alle disse indstillinger og prøv denne side igen.<br /></p>
+<p>Scroll helt ned til bunden af siden og klik på linket &quot;Fortsæt&quot;.</p>
+<p>Du skulle nu få en formular hvor du kan sætte flere variable i din konfiguration til installationen så som standardsprog, SMTP-host mv. Du skal ikke bekymre dig så meget om hvorvidt alting er helt perfekt lige nu - du kan altid vende tilbage og redigere indstillingerne. De foruddefinerede indstillinger er valgt så de skulle være fornuftige og sikre til brug for de fleste sider. Scroll ned til bunden af siden og klik på &quot;Gem&quot;.</p>Hvis (og kun hvis) du går i stå på denne side, ude af stand til at fortsætte, har din server antagelig hvad jeg kalder &quot;the buggy referrer&quot; problem. Det er nemt at rette: Deaktiver indstillingen &quot;secureforms&quot; og prøv igen.
+<p>Herefter vil du se flere sider med masser af statusmeddelelser efterhånden som alle tabeller, der er nødvendige til Moodles forskellige moduler, bliver oprettet. Som før skulle de alle være <span style="color: rgb(0, 102, 0);">grønne</span>.</p>
+<p>Scroll helt ned til bunden af siden og klik på &quot;Fortsæt&quot;.</p>
+<p>Den næste side er med en formular hvor du kan sætte nogle parametre for Moodle og forsiden så som navn, format, beskrivelse mm. Udfyld felterne (du kan altid vende tilbage og redigere dem senere) og klik på &quot;Gem&quot;.</p>
+<p>Til slut vil du blive bedt om at oprette en administratorbruger som fremover skal have adgang til administrationssiderne. Udfyld felterne med dit navn, e-mail osv. og klik på &quot;Gem&quot;. Det er ikke nødvendigt at udfylde alle felter, men hvis du misser nogle vigtige vil du få det at vide!</p>
+<div class="indent">
+  <p><strong>Sørg for at huske det brugernavn og den adgangskode du valgte til administratorkontoen, oplysningerne er nødvendige for at kunne komme ind på administrationssiderne i fremtiden.</strong></p>
+  <p class="style3">(Hvis din installation af en eller anden grund bliver afbrudt, eller at der opstår en systemfejl af en eller anden art, som forhindrer dig i at logge ind med administratorkontoen, kan du normalt logge ind med det foruddefinerede brugernavn &quot;<strong>admin</strong>&quot;, med koden &quot;<strong>admin</strong>&quot;.)</p> </div>
+<p>Når det hele er succesfuldt overstået vil du ende på forsiden af din nye Moodle-installation! Bemærk at administrationslinkene du kan se til venstre på siden, kun er synlige fordi du er logget ind som administrator. Al fremtidig administration af Moodle vil nu ske ved hjælp af denne menu så som at:<br /></p>
+<ul>
+  <li>oprette og slette kurser<br /></li>
+  <li>oprette og redigere brugerkonti<br /></li>
+  <li>administration af lærerkonti<br /></li>
+  <li>ændringer af indstillinger for hele sitet, f.eks. udseendet mv. <br /></li>
+</ul>
+<p>Du er dog ikke helt færdig endnu! Der er en meget vigtig ting tilbage (se næste afsnit om cron). </p>
+<p> </p>
+<h3 class="sectionheading" id="cron">6. Opsætning af cron – VIGTIGT! </h3>
+<p>Nogle af Moodles moduler kræver jævnlige tjek for at udføre tilbagevendende opgaver. Moodle skal for eksempel tjekke forummer, så der kan blive sendt mails ud med kopier af indlæg til abonnenterne.</p>
+<p>Scriptet, der sørger for det, er placeret i adminbiblioteket og kaldes for cron.php. Du kan imidlertid ikke køre det manuelt så du skal sætte en timer op der kan sætte scriptet i gang automatisk (f.eks. hver femte eller tidende minut). Dette giver et &quot;hjerteslag&quot;, så scriptet kan udføre funktioner i perioder defineret af hvert modul. Denne form for regelmæssig mekanisme er kendt som en <strong>cron service</strong>. </p>
+<p>Bemærk at den maskine som udfører cron <b>ikke behøver at være samme maskine som kører Moodle</b>. Hvis du for eksempel har en begrænset webhotelservice som ikke har en cron-service, kan du køre cron fra en anden server eller fra din hjemmecomputer. Det vigtige er at cron.php køres jævnligt.</p>
+<p>Belastningen af dette script er ikke særlig høj, så 5 minutter er normalt rimeligt, men hvis du er bekymret for det, kan du nedsætte perioden til noget i retning af 15 eller 30 minutter. Det er bedst ikke at gøre perioden for lang, da forsinkelser på udsending af mails kan virke bremsende på aktiviteten på kurset.</p>
+<p>Tjek først at scriptet virker ved at køre det direkte fra din browser:</p> <pre>http://example.com/moodle/admin/cron.php</pre>
+<p>Nu skal du opsætte indstillingerne for hvordan scriptet køres automatisk og jævnligt.</p>
+<h4>På Windows <br /></h4>
+<p class="indent">Det nemmeste er at bruge den lille pakke <a href="http://moodle.org/download/modules/moodle-cron-for-windows.zip" title="Click to download this package (150k)"><strong>moodle-cron-for-windows.zip</strong></a> som gør det hele ganske nemt ved at installere en Windowsservice. Kør det og glem så alt om det!</p>
+<h4>På en webhosting service</h4>
+<p class="indent"> Dit webbaserede kontrolpanel kan have en side til opsætning af cron. På Cpanelsystemet for eksempel, skal du se efter en knap med &quot;Cron jobs&quot;. Der kan du indtaste samme slags Unix-kommandoer som vist herunder. </p>
+<h4> Brug Unix' kommandolinje </h4>
+<div class="indent">
+  <p>Der er forskellige kommandolinjeprogrammer du kan bruge til at kalde siden fra kommandolinjen. Ikke alle er tilgængelige på en given server.</p>
+  <p>Du kan for eksempel bruge et Unix-progam som 'wget':</p> <pre>wget -q -O /dev/null http://example.com/moodle/admin/cron.php</pre>
+  <p>Bemærk at output i dette eksempel bliver smidt væḱ (til /dev/null).</p>
+  <p>Samme ved hjælp af lynx:</p> <pre>lynx -dump http://example.com/moodle/admin/cron.php &gt; /dev/null</pre>
+  <p>Alternativt kan du bruge en standalone version af PHP, kompileret til at køre fra kommandolinjen. Fordelen er at din webserverlog ikke fyldes konstant med kald til cron.php. Bagsiden af medaljen er at du skal have adgang til en kommandolinjebaseret version af php. <br /></p> <pre>/opt/bin/php /web/moodle/admin/cron.php</pre> </div>
+<h4>Anvend programmet crontab på Unix </h4>
+<div class="indent">
+  <p> Alt hvad Cpanel gør, er at give et webinterface til Unix-utilityen crontab. Har du en kommandolinje kan du sætte crontab op selv med kommandoen:</p> <pre>crontab -e</pre>
+  <p>og tilføje en af de ovennævnte kommandoer som:</p> <pre>*/5 * * * * wget -q -O /dev/null http://example.com/moodle/admin/cron.php</pre>
+  <p>Almindeligvis vil &quot;crontab&quot;-kommandoen åbne 'vi'-editoren til dig. Du kommer i &quot;insert mode&quot; ved at trykke på &quot;i&quot;, skriv så linjen herover ind og forlad &quot;insert mode&quot; med &quot;Esc&quot;-knappen. Du gemmer og afslutter ved at taste &quot;:wq&quot;, eller afslutter uden at gemme med &quot;:q!&quot; (uden gåseøjnene).</p> </div>
+<p> </p>
+<h3 class="sectionheading" id="course">7. Opret et kursus<br /></h3>
+<p>Nu hvor Moodle kører på behørig vis kan du oprette et kursus at lege med.</p>
+<p>Vælg &quot;Kurser - Tilføj/rediger kurser&quot; i Administrationsmenuen.</p>
+<p>Udfyld formularen med opmærksomheden specielt rettet mod kursusformatet. Du behøver ikke at bekymre dig særligt om detaljerne, alt kan ændres senere af en lærer. Bemærk de gule hjælpeikoner overalt, det er kontekstrelevant hjælp til Moodle.</p>
+<p>Efter tryk på &quot;Gem&quot; får du en side hvorpå du kan tilføje lærere til kurset. Du kan kun tilføje eksisterende brugerkonti på denne formular - hvis du vil oprette en ny lærerkonto så bed læreren om selv at oprette en profil (se loginsiden) eller opret en for dem via Administration - Brugere - Konti - Ny bruger.</p>
+<p>Når det er i orden er kurset klar til brug og kan tilgås fra forsiden.</p>
+<p>Se &quot;<a href="http://docs.moodle.org/en/Teacher_documentation">Teacher Documentation</a>&quot; med flere detaljer om hvordan man bygger kurser.</p>
+<p> </p>
+<p class="center"><strong>God fornøjelse & held og lykke med din moodling!</strong></p>
+<p class="center"><strong>Kan du lide Moodle, så overvej <a href="http://moodle.org/donations/" target="_blank">at donere</a> for at hjælpe os med at dække vores omkostninger! </strong></p>
