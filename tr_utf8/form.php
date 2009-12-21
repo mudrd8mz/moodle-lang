@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // form.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['addfields'] = 'Forma $a alan ekle';
@@ -21,7 +21,7 @@ $string['hideadvanced'] = 'Gelişmişi Gizle';
 $string['hour'] = 'Saat';
 $string['minute'] = 'Dakika';
 $string['miscellaneoussettings'] = 'Çeşitli Ayarlar';
-$string['modstandardels'] = 'Genel Modül Ayarları';
+$string['modstandardels'] = 'Genel eklenti ayarları';
 $string['month'] = 'Ay';
 $string['mustbeoverriden'] = '$a sınıfındaki özet(abstract) form_definition() metodunun üstüne yazılmalı(override), lütfen kodu düzeltin.';
 $string['nomethodforaddinghelpbutton'] = '$a->name (sınıf $a->classname) form ögesi için yardım butonu ekleme metodu yok.';
@@ -32,6 +32,7 @@ $string['requiredelement'] = 'Gerekli alan';
 $string['revealpassword'] = 'Göster';
 $string['security'] = 'Güvenlik';
 $string['selectallornone'] = 'Tümünü seç/seçme';
+$string['selected'] = 'Seçili';
 $string['showadvanced'] = 'Gelişmişi Göster';
 $string['somefieldsrequired'] = 'Bu formda $a işaretli alanlar gereklidir.';
 $string['time'] = 'Zaman';

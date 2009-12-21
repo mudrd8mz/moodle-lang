@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
+      // filters.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['actfilterhdr'] = 'Etkin filtreler';
@@ -24,11 +24,12 @@ $string['defaultx'] = 'Varsayılan ($a)';
 $string['disabled'] = 'Etkin değil';
 $string['doesnotcontain'] = 'içermezse';
 $string['endswith'] = 'ile biterse';
-$string['filterallwarning'] = 'Filtreleri başlıkların yanı sıra içeriklere de uygulamak sunucunun yükünü çok arttırabilir. Lütfen \'Uygula\' ayarını idareli kullanın. Ana kullanım çoklu dil fitresiyledir.';
+$string['filterallwarning'] = 'Filtreleri başlıkların yanı sıra içeriklere de uygulamak sunucunun yükünü oldukça arttırabilir. Lütfen \'Uygula\' ayarını idareli kullanın. Ana kullanım çoklu dil filtresiyledir.';
 $string['filtersettingsforin'] = '$a->context bağlamındaki $a->filter için filtre ayarları';
 $string['filtersettingsin'] = '$a için filtre ayarları';
 $string['firstaccess'] = 'İlk erişim';
 $string['globalrolelabel'] = '$a->label, $a->value\'dir';
+$string['includenever'] = 'Hiç dahil edilmedi';
 $string['isactive'] = 'Etkin';
 $string['isafter'] = 'den sonraysa';
 $string['isanyvalue'] = 'herhangi bir değerse';
@@ -45,7 +46,7 @@ $string['offbutavailable'] = 'Etkin değil, fakat şunlara açık';
 $string['on'] = 'Etkin';
 $string['profilelabel'] = '$a->label: $a->profile $a->operator $a->value';
 $string['profilelabelnovalue'] = '$a->label: $a->profile $a->operator';
-$string['removeall'] = 'Tümünü sil';
+$string['removeall'] = 'Tüm filtreleri sil';
 $string['removeselected'] = 'Seçiliyi sil';
 $string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = 'ile başlarsa';
