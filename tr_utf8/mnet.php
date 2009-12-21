@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (kendinden-imzalı)';
@@ -12,7 +12,8 @@ $string['accesslevel'] = 'Erişim seviyesi';
 $string['addhost'] = 'Sunucu ekleyin';
 $string['addnewhost'] = 'Yeni sunucu ekleyin';
 $string['addtoacl'] = 'Erişim kontrolüne ekleyin';
-$string['allow'] = 'İzin verin';
+$string['allhosts_no_options'] = 'Birden fazla sunucuya bakarken seçenekler sunulmaz';
+$string['allow'] = 'İzin ver';
 $string['authfail_nosessionexists'] = 'Yetkilendirme hatası: mnet oturumu mevcut değil.';
 $string['authfail_sessiontimedout'] = 'Yetkilendirme hatası: mnet oturumu zaman aşımına uğradı.';
 $string['authfail_usermismatch'] = 'Yetkilendirme hatası: kullanıcı eşleşmiyor.';
@@ -56,6 +57,7 @@ $string['expires'] = '-e kadar geçerli';
 $string['expireyourkey'] = 'Bu Anahtarı Silin';
 $string['expireyourkeyexplain'] = 'Moodle otomatik olarak anahtarlarınızı 28 günde bir (varsayılan şekilde) döndürür ancak bu anahtarı herhangi bir zamanda <em>manually</em> sona erdirme seçeneğine sahipsiniz. Bu yalnızca eğer bu anahtarın uzlaştırıldığına inanırsanız yararlı olacaktır. Anında yerine otomatik olarak başkası konulacaktır.<br />Bu anahtarı silmek, siz, her bir yöneticiyle el ile iletişime geçip onlara yeni anahtarınızı sağlayıncaya dek diğer Moodle\'ların sizinle iletişim kurmasını olanaksız hale getirecektir.';
 $string['failedaclwrite'] = 'Kullanıcı \'$a\' için MNET erişim denetim listesine yazmada başarısız oldu.';
+$string['findlogin'] = 'Giriş Bul';
 $string['forbidden-function'] = 'RPC için bu işlev etkin kılınmamış.';
 $string['forbidden-transport'] = 'Kullanmayı denediğiniz taşıma metoduna izin verilmiyor.';
 $string['forcesavechanges'] = 'Değişiklikleri Saklamayı Zorlayın';
@@ -99,6 +101,8 @@ $string['mnet_concatenate_strings'] = '(en fazla) 3 dizgiyi bitiştirip sonucu g
 $string['mnet_session_prohibited'] = 'Ana sunucunuzdaki kullanıcıların şu anda $a\'da dolaşıma izni yoktur.';
 $string['mnetdisabled'] = 'Moodle Ağı <strong>etkin değil</strong>.';
 $string['mnetenrol'] = 'Ders kayıtları';
+$string['mnetidprovider'] = 'MNET ID Sağlayıcı';
+$string['mnetidprovidermsg'] = '$a sağlayıcınızla giriş yapmanız gerekiyor';
 $string['mnetlog'] = 'Kayıtlar';
 $string['mnetpeers'] = 'Eşler';
 $string['mnetservices'] = 'Hizmetler';
