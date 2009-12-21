@@ -1,40 +1,31 @@
 <?PHP // $Id$ 
-      // install.php - created with Moodle 2.0 dev (Build: 20090322) (2009030501)
+      // install.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
-$string['aborting'] = 'Kurulum iptal ediliyor';
 $string['admindirerror'] = 'Belirtilen yönetici dizini hatalı';
 $string['admindirname'] = 'Yönetici Dizini';
 $string['admindirsetting'] = 'Bazı web hostingler, kontrol paneline erişmek için /admin olarak belirtilmiş bir URL kullanır. Maalesef, bu Moodle yönetici sayfalarıyla karışıklığa sebep olmaktadır. Yönetici dizininin ismini kurulum sırasında değiştirerek bu sorunu ortadan kaldırabilirsiniz. Örnek: <br /><br /><b>moodleadmin</b><br /> <br />Bu Moodle içinde yönetici linklerini düzeltecektir.';
 $string['admindirsettinghead'] = 'Yönetici dizini ayarlanıyor...';
 $string['admindirsettingsub'] = 'Bazı web hostingler, kontrol paneline erişmek için /admin olarak belirtilmiş bir URL kullanır. Maalesef, bu Moodle yönetici sayfalarıyla karışıklığa sebep olmaktadır. Yönetici dizininin ismini kurulum sırasında değiştirerek bu sorunu ortadan kaldırabilirsiniz. Örnek: <br /><br /><b>moodleadmin</b><br /> <br />Bu Moodle içinde yönetici linklerini düzeltecektir.';
-$string['adminemail'] = 'E-posta';
-$string['adminfirstname'] = 'Adı:';
-$string['admininfo'] = 'Yönetici Ayrıntıları';
-$string['adminlastname'] = 'Soyadı:';
-$string['adminpassword'] = 'Şifre:';
-$string['adminusername'] = 'Kullanıcı adı:';
-$string['askcontinue'] = 'Devam et (yes/no)';
-$string['availabledbtypes'] = 'Kullanılabilir db tipleri';
 $string['availablelangs'] = 'Kullanılabilir diller';
-$string['cannotconnecttodb'] = 'Veritabanına bağlantı kurulamadı';
 $string['caution'] = 'Dikkat';
-$string['checkingphpsettings'] = 'PHP Ayarları Kontrol Ediliyor';
 $string['chooselanguage'] = 'Bir dil seçin';
 $string['chooselanguagehead'] = 'Bir dil seçin';
 $string['chooselanguagesub'] = 'Lütfen, SADECE kurulum için bir dil seçin. Site ve kullanıcı dillerini sonraki ekranda seçebilirsiniz.';
+$string['cliadminpassword'] = 'Yeni yönetici kullanıcısı şifresi';
+$string['clialreadyinstalled'] = 'Config.php zaten var. Sitenizi güncellemek istiyorsanız bu adresi kullanın: admin/cli/upgrade.php';
+$string['cliinstallfinished'] = 'Kurulum başarıyla tamamlandı.';
+$string['cliinstallheader'] = 'Moodle $a komut satırı kurulum programı';
+$string['climustagreelicense'] = 'İnteraktif modda --agree-license seçeneğiyle lisansı kabul etmelisiniz';
+$string['clitablesexist'] = 'Veritabanı tabloları zaten var. CLI kurulumu devam edemez.';
 $string['compatibilitysettings'] = 'PHP ayarlarınız kontrol ediliyor...';
 $string['compatibilitysettingshead'] = 'PHP ayarlarınız kontrol ediliyor...';
 $string['compatibilitysettingssub'] = 'Moodle\'ın düzgün çalışması için sunucunuz bütün testleri geçti.';
-$string['configfilecreated'] = 'Yapılandırma dosyası başarılıyla oluşturuldu';
-$string['configfiledoesnotexist'] = 'Yapılandırma dosyası yok!!!';
 $string['configfilenotwritten'] = 'Kurulum programı, Moodle dizini yazılabilir olmadığından dolayı seçtiğiniz ayarları içeren bir config.php dosyası oluşturamıyor. Aşağıdaki kodu kopyalayıp bu kodu config.php dosyası içine yapıştırıp Moodle kök dizinine oluşturduğunuz dosyayı yükleyebilirsiniz.';
 $string['configfilewritten'] = 'config.php dosyası başarıyla oluşturuldu';
 $string['configurationcomplete'] = 'Yapılandırma tamamlandı';
 $string['configurationcompletehead'] = 'Yapılandırma tamamlandı';
 $string['configurationcompletesub'] = 'Ana moodle dizine yapılandırma dosyasının kaydedilmesi için girişimde bulunuldu.';
-$string['configurationfileexist'] = 'Yapılandırma dosyası zaten var!';
-$string['creatingconfigfile'] = 'Yapılandırma dosyası oluşturuluyor...';
 $string['database'] = 'Veritabanı';
 $string['databasecreationsettings'] = 'Şimdi, Moodle verilerinin saklanacağı veritabanını
 oluşturmanız gerekiyor. Bu veritabanı kurulum programı tarafından aşağıdaki ayarlara göre otomatik olarak oluşturulacak.<br />
@@ -73,7 +64,6 @@ ve bu veritabanına erişmek için kullanıcı adı - şifre ayarlanmalı.<br />
 <b>Kullanıcı:</b> veritabanı kullanıcısı<br />
 <b>Şifre:</b> kullanıcı şifresi<br />
 <b>Tablo öneki:</b> tüm tablo isimleri için isteğe bağlı önek';
-$string['databasesettingsformoodle'] = 'Moodle için veritabanı ayarları';
 $string['databasesettingshead'] = 'Şimdi, Moodle verilerinin saklanacağı veritabanını
 oluşturmanız gerekiyor. Bu veritabanı önceden oluşturulmalı
 ve bu veritabanına erişmek için kullanıcı adı - şifre ayarlanmalı.';
@@ -127,7 +117,6 @@ $string['databasesettingssub_postgres7'] = '<b>Tipi:</b> PostgreSQL<br />
 <b>Tablo öneki:</b> tüm tablo isimleri için ön ek (gerekli)';
 $string['databasesettingswillbecreated'] = '<b>Not:</b> Kurulum programı veritabanı yoksa otomatikmen veritabanını oluşturmayı deneyecektir.';
 $string['databasesocket'] = 'Unix soket';
-$string['databasetype'] = 'Veritabanı tipi:';
 $string['databasetypehead'] = 'Veritabanı sürücünü seçin';
 $string['databasetypesub'] = 'Moodle bazı veritabanı sunucularını destekler. Hangisini kullanacağınızı bilmiyorsanız sunucu yöneticiyle iletişim kurunuz.';
 $string['databaseuser'] = 'Veritabanı kullanıcısı:';
@@ -173,14 +162,11 @@ Siteye yüklenen dosyaların nereye kaydedileceğini belirtin. Bu dizin sunucu k
 Ancak, bu dizine direkt olarak webden erişim olMAMAlı.';
 $string['dirroot'] = 'Moodle Dizini';
 $string['dirrooterror'] = '\'Moodle Dizini\' ayarları hatalı görünüyor - Burada bir Moodle kurulumu bulunamadı. Aşağıdaki değer yeniden ayarlandı.';
-$string['disagreelicense'] = 'GPL kabul edilmediğinden dolayı güncelleme ye devam edilemez!';
 $string['download'] = 'İndir';
 $string['downloadlanguagebutton'] = '$a dil paketini indir';
 $string['downloadlanguagehead'] = 'Dil paketi indir';
 $string['downloadlanguagenotneeded'] = 'Varsayılan dil paketini \"$a\" kullanarak kurulum işlemine devam edebilirsiniz.';
-$string['downloadlanguagepack'] = 'Dil paketini şimdi indirmek istiyor musunuz (yes/no):';
 $string['downloadlanguagesub'] = 'Şu anda bir dil paketi indirme ve bu dilde kuruluma devam etme seçeneğiniz var.<br /><br />Dil paketini indiremezseniz kurulum işlemi İngilizce ile devam edecektir. (Kurulum işlemi bittiğinde ek dil paketlerini indirme ve kurma imkanınız vardır.)';
-$string['downloadsuccess'] = 'Dil Paketi Başarıyla İndirildi';
 $string['doyouagree'] = 'Kabul ediyor musunuz? (yes/no)';
 $string['environmenthead'] = 'Ortam kontrol ediliyor...';
 $string['environmentsub'] = 'Çeşitli bileşenlerin sisteminizle uyum içinde olup olmadığı kontrol ediliyor';
@@ -219,23 +205,8 @@ $string['inputdatadirectory'] = 'Veri dizini:';
 $string['inputwebadress'] = 'Web adresi:';
 $string['inputwebdirectory'] = 'Moodle Dizini:';
 $string['installation'] = 'Kurulum';
-$string['installationiscomplete'] = 'Kurulum tamamlandı!';
-$string['invalidargumenthelp'] = 'Hata: Geçersiz argüman(lar)
-Kullanım: \$ php cliupgrade.php SECENEKLER
-Daha fazla yardım için --help seçeneğini kullanın';
-$string['invalidemail'] = 'Geçersiz Eposta';
-$string['invalidhost'] = 'Geçersiz Alan adı';
-$string['invalidint'] = 'Hata: değer sayı değil';
-$string['invalidintrange'] = 'Hata: değer aralık dışında';
-$string['invalidpath'] = 'Geçersiz yol';
-$string['invalidsetelement'] = 'Hata: Girilen değer seçeneklerdekiyle aynı değil';
-$string['invalidtextvalue'] = 'Geçersiz Metin Değeri';
-$string['invalidurl'] = 'Geçersiz URL';
-$string['invalidvalueforlanguage'] = '--lang seçeneği için geçersiz değer. Daha fazla yardım için --help yazınız';
-$string['invalidyesno'] = 'Hata: değer geçerli bir yes/no argümanı değil';
 $string['langdownloaderror'] = 'Maalesef \"$a\" dil paketi kurulamadı. Kuruluma İngilizce olarak devam edilecek.';
 $string['langdownloadok'] = 'Dil paketi \"$a\" başarıyla kuruldu. Kurulum bu dilde devam edecek.';
-$string['locationanddirectories'] = 'Yerler ve klasörler';
 $string['magicquotesruntime'] = 'Magic Quotes Run Time';
 $string['magicquotesruntimeerror'] = 'Bu kapalı olmalı';
 $string['magicquotesruntimehelp'] = '<p>Magic quotes runtime ayarı, Moodle\'ın işlevsel çalışması için kapalı olmalı.</p>
@@ -291,13 +262,11 @@ $string['pathserrcreatedataroot'] = 'Veri Klasörü ($a->dataroot) kurulum taraf
 $string['pathshead'] = 'Yolları doğrulayın';
 $string['pathsrodataroot'] = 'Veri yolu yazılabilir değil.';
 $string['pathsroparentdataroot'] = 'Ana klasör ($a->parent) yazılabilir değil. Veri Klasörü ($a->dataroot) kurulum tarafından oluşturulamıyor.';
+$string['pathssubdirroot'] = 'Moodle kurulumu için tam klasör yolu. Sadece sembolik linkleri kullanmaya gereksinim duyuyorsanız değiştirin.';
 $string['pathsunsecuredataroot'] = 'Veri yolu güvenli değil';
 $string['pathswrongadmindir'] = 'Yönetici klasörü yok';
+$string['pathswrongdirroot'] = 'Hatalı dirroot yolu';
 $string['pgsqlextensionisnotpresentinphp'] = 'PHP, PostgreSQL ile iletişim kurabilmek için pgsql uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
-$string['php52versionerror'] = 'En düşük PHP 5.2.4 sürümü gerekli';
-$string['php52versionhelp'] = '<p>Moodle en düşük PHP 5.2.4 sürümü ile çalışır.</p>
-<p>Şu anda çalışan sürüm $a</p>
-<p>PHP güncellemesi yapmalı veya en yeni PHP sürümü kullanan bir hostinge taşınmalısınız!</p>';
 $string['phpextension'] = '$a PHP eklentisi';
 $string['phpversion'] = 'PHP sürümü';
 $string['phpversionhelp'] = '<p>Moodle, PHP sürümünün en az 4.3.0 veya 5.1.0 olmasını gerektirir (5.0.x sürümünde çok fazla hata var).</p>
@@ -310,36 +279,84 @@ $string['safemodeerror'] = 'Moodle, safe mode\'ın açık olması durumunda baz�
 $string['safemodehelp'] = '<p>Moodle, safe mode\'un açık olması durumunda bazı sorunlar çıkartabilir. Moodle tarafından en azından bazı dosyaların oluşturulması gerekiyor, ama bu mod yeni dosyaların oluşturulmasına izin vermiyor.</p>
 <p>Safe mode sadece paranoyak web hostinglerince kullanılmaktadır. Bu durumda Moodle için başka bir web hosting firması bulmanız gerekiyor.</p>
 <p>İsterseniz devam edebilirsiniz, ama daha sonra çok fazla sorunla karşılaşırsınız.</p>';
-$string['selectlanguage'] = 'Kurulum için dil seçimi';
 $string['sessionautostart'] = 'Otomatik Oturum Başlama';
 $string['sessionautostarterror'] = 'Bu kapalı olmalı';
 $string['sessionautostarthelp'] = '<p>Moodle, oturum desteği gerektirir ve bu olmadan işlevsel çalışamaz.</p>
 
 <p>Oturum desteği php.ini dosyasından ayarlanabilir ... session.auto_start parametresine bakın.</p>';
-$string['sitefullname'] = 'Site tam adı:';
-$string['siteinfo'] = 'Site Ayrıntıları';
-$string['sitenewsitems'] = 'Haber Öğeleri';
-$string['siteshortname'] = 'Site kısa adı:';
-$string['sitesummary'] = 'Site özeti:';
 $string['skipdbencodingtest'] = 'Veritabanı Dil Kodlama Testini Atla';
 $string['sqliteextensionisnotpresentinphp'] = 'PHP SQLite uzantısı düzgün bir şekilde yapılandırılmamış. Lütfen php.ini dosyasını kontrol edin veya PHP\'yi tekrar derleyin.';
-$string['tableprefix'] = 'Tablo öneki:';
-$string['upgradingactivitymodule'] = 'Etkinlik Modülü Güncelleniyor';
-$string['upgradingbackupdb'] = 'Yedekleme Veribananı Güncelleniyor';
-$string['upgradingblocksdb'] = 'Blok Veritabanı Güncelleniyor';
-$string['upgradingblocksplugin'] = 'Blok Eklentileri Güncelleniyor';
-$string['upgradingcompleted'] = 'Güncelleme tamamlandı...';
-$string['upgradingcourseformatplugin'] = 'Kurs Biçimi Eklentisi Güncelleniyor';
-$string['upgradingenrolplugin'] = 'Ders Kaydı Eklentisi Güncelleniyor';
-$string['upgradinggradeexportplugin'] = 'Başarı Notu Dışa Ver Eklentisi Güncelleniyor';
-$string['upgradinggradeimportplugin'] = 'Başarı Notu İçe Al Eklentisi Güncelleniyor';
-$string['upgradinggradereportplugin'] = 'Başarı Notu Rapor Eklentisi Güncelleniyor';
-$string['upgradinglocaldb'] = 'Yerel Veritabanı Güncelleniyor';
-$string['upgradingmessageoutputpluggin'] = 'Mesaj Çıktısı Eklentisi Güncelleniyor';
 $string['upgradingqtypeplugin'] = 'Soru Tipi Eklentisi Güncelleniyor';
-$string['upgradingrpcfunctions'] = 'RPC İşlevleri Güncelleniyor';
+$string['welcomep10'] = '$a->installername ($a->installerversion)';
+$string['welcomep20'] = 'Bilgisayarınıza <strong>$a->packname $a->packversion</strong> paketini başarıyla kurdunuz. Tebrikler!';
+$string['welcomep30'] = '<strong>$a->installername</strong>\'nin bu sürümü <strong>Moodle</strong>\'da bir ortam oluşturmak için uygulamaları içerir:';
+$string['welcomep40'] = 'Bu paket <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong> sürümünü de içerir.';
+$string['welcomep50'] = 'Bu paketteki tüm uygulamaların kullanımı her biri kendine ait olan lisanslar tarafından yönetilir. <strong>$a->installername</strong> paketinin tamamı <a href=\"http://www.opensource.org/docs/definition_plain.html\">açık kaynak</a> kodludur ve <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> lisansı altında dağıtılır.';
+$string['welcomep60'] = 'Aşağıdaki sayfalar <strong>Moodle</strong>ın kurulumu ve yapılandırılması için size basitçe yol gösterecektir. Varsayılan ayarları kabul edebilir veya ihtiyaçlarınıza göre bunları değiştirebilirsiniz.';
+$string['welcomep70'] = '<strong>Moodle</strong> kurulumu için aşağıdaki \"İleri\" tuşuna basın.';
+$string['wwwroot'] = 'Web adresi';
+$string['wwwrooterror'] = 'Web adresi doğru ayarlanmış görünmüyor. Moodle kurulumu belirtilen yerde görünmüyor.';
+$string['aborting'] = 'Kurulum iptal ediliyor'; // ORPHANED
+$string['adminemail'] = 'E-posta'; // ORPHANED
+$string['adminfirstname'] = 'Adı:'; // ORPHANED
+$string['admininfo'] = 'Yönetici Ayrıntıları'; // ORPHANED
+$string['adminlastname'] = 'Soyadı:'; // ORPHANED
+$string['adminpassword'] = 'Şifre:'; // ORPHANED
+$string['adminusername'] = 'Kullanıcı adı:'; // ORPHANED
+$string['askcontinue'] = 'Devam et (yes/no)'; // ORPHANED
+$string['availabledbtypes'] = 'Kullanılabilir db tipleri'; // ORPHANED
+$string['cannotconnecttodb'] = 'Veritabanına bağlantı kurulamadı'; // ORPHANED
+$string['checkingphpsettings'] = 'PHP Ayarları Kontrol Ediliyor'; // ORPHANED
+$string['configfilecreated'] = 'Yapılandırma dosyası başarılıyla oluşturuldu'; // ORPHANED
+$string['configfiledoesnotexist'] = 'Yapılandırma dosyası yok!!!'; // ORPHANED
+$string['configurationfileexist'] = 'Yapılandırma dosyası zaten var!'; // ORPHANED
+$string['creatingconfigfile'] = 'Yapılandırma dosyası oluşturuluyor...'; // ORPHANED
+$string['databasesettingsformoodle'] = 'Moodle için veritabanı ayarları'; // ORPHANED
+$string['databasetype'] = 'Veritabanı tipi:'; // ORPHANED
+$string['disagreelicense'] = 'GPL kabul edilmediğinden dolayı güncelleme ye devam edilemez!'; // ORPHANED
+$string['downloadlanguagepack'] = 'Dil paketini şimdi indirmek istiyor musunuz (yes/no):'; // ORPHANED
+$string['downloadsuccess'] = 'Dil Paketi Başarıyla İndirildi'; // ORPHANED
+$string['installationiscomplete'] = 'Kurulum tamamlandı!'; // ORPHANED
+$string['invalidargumenthelp'] = 'Hata: Geçersiz argüman(lar)
+Kullanım: \$ php cliupgrade.php SECENEKLER
+Daha fazla yardım için --help seçeneğini kullanın'; // ORPHANED
+$string['invalidemail'] = 'Geçersiz Eposta'; // ORPHANED
+$string['invalidhost'] = 'Geçersiz Alan adı'; // ORPHANED
+$string['invalidint'] = 'Hata: değer sayı değil'; // ORPHANED
+$string['invalidintrange'] = 'Hata: değer aralık dışında'; // ORPHANED
+$string['invalidpath'] = 'Geçersiz yol'; // ORPHANED
+$string['invalidsetelement'] = 'Hata: Girilen değer seçeneklerdekiyle aynı değil'; // ORPHANED
+$string['invalidtextvalue'] = 'Geçersiz Metin Değeri'; // ORPHANED
+$string['invalidurl'] = 'Geçersiz URL'; // ORPHANED
+$string['invalidvalueforlanguage'] = '--lang seçeneği için geçersiz değer. Daha fazla yardım için --help yazınız'; // ORPHANED
+$string['invalidyesno'] = 'Hata: değer geçerli bir yes/no argümanı değil'; // ORPHANED
+$string['locationanddirectories'] = 'Yerler ve klasörler'; // ORPHANED
+$string['php52versionerror'] = 'En düşük PHP 5.2.4 sürümü gerekli'; // ORPHANED
+$string['php52versionhelp'] = '<p>Moodle en düşük PHP 5.2.4 sürümü ile çalışır.</p>
+<p>Şu anda çalışan sürüm $a</p>
+<p>PHP güncellemesi yapmalı veya en yeni PHP sürümü kullanan bir hostinge taşınmalısınız!</p>'; // ORPHANED
+$string['selectlanguage'] = 'Kurulum için dil seçimi'; // ORPHANED
+$string['sitefullname'] = 'Site tam adı:'; // ORPHANED
+$string['siteinfo'] = 'Site Ayrıntıları'; // ORPHANED
+$string['sitenewsitems'] = 'Haber Öğeleri'; // ORPHANED
+$string['siteshortname'] = 'Site kısa adı:'; // ORPHANED
+$string['sitesummary'] = 'Site özeti:'; // ORPHANED
+$string['tableprefix'] = 'Tablo öneki:'; // ORPHANED
+$string['upgradingactivitymodule'] = 'Etkinlik Modülü Güncelleniyor'; // ORPHANED
+$string['upgradingbackupdb'] = 'Yedekleme Veribananı Güncelleniyor'; // ORPHANED
+$string['upgradingblocksdb'] = 'Blok Veritabanı Güncelleniyor'; // ORPHANED
+$string['upgradingblocksplugin'] = 'Blok Eklentileri Güncelleniyor'; // ORPHANED
+$string['upgradingcompleted'] = 'Güncelleme tamamlandı...'; // ORPHANED
+$string['upgradingcourseformatplugin'] = 'Kurs Biçimi Eklentisi Güncelleniyor'; // ORPHANED
+$string['upgradingenrolplugin'] = 'Ders Kaydı Eklentisi Güncelleniyor'; // ORPHANED
+$string['upgradinggradeexportplugin'] = 'Başarı Notu Dışa Ver Eklentisi Güncelleniyor'; // ORPHANED
+$string['upgradinggradeimportplugin'] = 'Başarı Notu İçe Al Eklentisi Güncelleniyor'; // ORPHANED
+$string['upgradinggradereportplugin'] = 'Başarı Notu Rapor Eklentisi Güncelleniyor'; // ORPHANED
+$string['upgradinglocaldb'] = 'Yerel Veritabanı Güncelleniyor'; // ORPHANED
+$string['upgradingmessageoutputpluggin'] = 'Mesaj Çıktısı Eklentisi Güncelleniyor'; // ORPHANED
+$string['upgradingrpcfunctions'] = 'RPC İşlevleri Güncelleniyor'; // ORPHANED
 $string['usagehelp'] = 'Özet:
-$php cliupgrade.php SECENEKLER
+\$php cliupgrade.php SECENEKLER
 
 SECENEKLER
 --lang Kurulum icin gecerli kurulu dil. Varsayilan English(en)
@@ -367,20 +384,11 @@ SECENEKLER
 --help Yardimi yaz
 
 Kullanim:
-$php cliupgrade.php --lang=tr --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Ornek Moodle Sitesi\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2';
-$string['versionerror'] = 'Sürüm hatasından kullanıcı iptal edildi';
-$string['welcomep10'] = '$a->installername ($a->installerversion)';
-$string['welcomep20'] = 'Bilgisayarınıza <strong>$a->packname $a->packversion</strong> paketini başarıyla kurdunuz. Tebrikler!';
-$string['welcomep30'] = '<strong>$a->installername</strong>\'nin bu sürümü <strong>Moodle</strong>\'da bir ortam oluşturmak için uygulamaları içerir:';
-$string['welcomep40'] = 'Bu paket <strong>Moodle $a->moodlerelease ($a->moodleversion)</strong> sürümünü de içerir.';
-$string['welcomep50'] = 'Bu paketteki tüm uygulamaların kullanımı her biri kendine ait olan lisanslar tarafından yönetilir. <strong>$a->installername</strong> paketinin tamamı <a href=\"http://www.opensource.org/docs/definition_plain.html\">açık kaynak</a> kodludur ve <a href=\"http://www.gnu.org/copyleft/gpl.html\">GPL</a> lisansı altında dağıtılır.';
-$string['welcomep60'] = 'Aşağıdaki sayfalar <strong>Moodle</strong>ın kurulumu ve yapılandırılması için size basitçe yol gösterecektir. Varsayılan ayarları kabul edebilir veya ihtiyaçlarınıza göre bunları değiştirebilirsiniz.';
-$string['welcomep70'] = '<strong>Moodle</strong> kurulumu için aşağıdaki \"İleri\" tuşuna basın.';
-$string['welcometext'] = '---Komut satırı kurulumuna hoş geldiniz---';
-$string['writetoconfigfilefaild'] = 'Hata: Ayar dosyasına yazarken hata oluştu';
-$string['wwwroot'] = 'Web adresi';
-$string['wwwrooterror'] = 'Web adresi doğru ayarlanmış görünmüyor. Moodle kurulumu belirtilen yerde görünmüyor.';
-$string['yourchoice'] = 'Seçiminiz:';
+\$php cliupgrade.php --lang=tr --webaddr=http://www.example.com --moodledir=/var/www/html/moodle --datadir=/var/moodledata --dbtype=mysql --dbhost=localhost --dbname=moodle --dbuser=root --prefix=mdl --agreelicense=yes --confirmrelease=yes --sitefullname=\"Ornek Moodle Sitesi\" --siteshortname=moodle --sitesummary=siteforme --adminfirstname=Admin --adminlastname=User --adminusername=admin --adminpassword=admin --adminemail=admin@example.com --verbose=1 --interactivelevel=2'; // ORPHANED
+$string['versionerror'] = 'Sürüm hatasından kullanıcı iptal edildi'; // ORPHANED
+$string['welcometext'] = '---Komut satırı kurulumuna hoş geldiniz---'; // ORPHANED
+$string['writetoconfigfilefaild'] = 'Hata: Ayar dosyasına yazarken hata oluştu'; // ORPHANED
+$string['yourchoice'] = 'Seçiminiz:'; // ORPHANED
 $string['sqlite3_pdo'] = 'SQLite 3 (PDO) <b><strong class=\"errormsg\">Deneysel! (gerçek kullanım için değil)</strong></b>'; // ORPHANED
 $string['phpversionerror'] = 'PHP sürümü en az 4.3.0 veya 5.1.0 olmalı (5.0.x sürümünde çok fazla hata var)'; // ORPHANED
 
