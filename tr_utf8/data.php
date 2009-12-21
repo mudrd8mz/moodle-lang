@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 2.0 dev (Build: 20090512) (2009051200)
+      // data.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['action'] = 'Eylem';
@@ -25,13 +25,12 @@ $string['availablefromdate'] = 'Başlangıç';
 $string['availabletags'] = 'Mevcut etiketler';
 $string['availabletodate'] = 'Bitiş';
 $string['blank'] = 'Boş';
-$string['buttons'] = 'Butonlar';
+$string['buttons'] = 'Eylemler';
 $string['bynameondate'] = 'gönderen $a->name - $a->date';
 $string['cancel'] = 'İptal';
 $string['cannotaccesspresentsother'] = 'Diğer kullanıcıların şablonlarına ulaşamazsınız';
 $string['cannotadd'] = 'Girdiler eklenemedi!';
 $string['cannotdeletepreset'] = 'Şablon silinirken hata!';
-$string['cannotinsertempty'] = 'Boş bir kayıt eklenemedi!';
 $string['cannotrate'] = 'Ögelerin derecelendirilmesine izin verilmiyor!';
 $string['cannotunziptopreset'] = 'Şablon klasörüne dosya açılamadı';
 $string['checkbox'] = 'Onay kutusu';
@@ -49,7 +48,7 @@ $string['configenablerssfeeds'] = 'Bu seçenek tüm veritabanları için RSS iç
 $string['confirmdeletefield'] = 'Bu alanı silmek üzeresiniz, emin misiniz?';
 $string['confirmdeleterecord'] = 'Bu kaydı silmek istediğinizden emin misiniz?';
 $string['csstemplate'] = 'CSS şablonu';
-$string['csvfailed'] = 'Ham veri CSV dosyasından okunamadı';
+$string['csvfailed'] = 'Ham veri, CSV dosyasından okunamadı';
 $string['csvfile'] = 'CSV dosyası';
 $string['csvimport'] = 'CSV dosya alma';
 $string['csvwithselecteddelimiter'] = 'Seçili ayraçlı <acronym title=\"Virgülle Ayrılmış Değerler\">CSV</acronym> metni:';
@@ -67,7 +66,8 @@ $string['data:readentry'] = 'Kayıtları oku';
 $string['data:viewalluserpresets'] = 'Tüm kullanıcıların ayarlarına bak';
 $string['data:viewentry'] = 'Kayıtlara bak';
 $string['data:viewrating'] = 'Derecelendirmelere bak';
-$string['data:writeentry'] = 'Kayıt yaz';
+$string['data:writeentry'] = 'Kayıt oluştur';
+$string['dataadministration'] = 'Veritabanı etkinliği yönetimi';
 $string['date'] = 'Tarih';
 $string['dateentered'] = 'Girilme tarihi';
 $string['defaultfielddelimiter'] = '(varsayılan, virgülle ayrılmış)';
@@ -86,8 +86,8 @@ $string['download'] = 'İndir';
 $string['edit'] = 'Düzenle';
 $string['editcomment'] = 'Yorumu düzenle';
 $string['editentry'] = 'Kaydı düzenle';
-$string['editordisable'] = 'Editörü kapat';
-$string['editorenable'] = 'Editörü aç';
+$string['editordisable'] = 'Düzenleyiciyi kapat';
+$string['editorenable'] = 'Düzenleyiciyi aç';
 $string['emptyadd'] = 'Ekleme şablonu boş, varsayılan biçim oluşturuluyor...';
 $string['emptyaddform'] = 'Hiçbir alanı doldurmadınız!';
 $string['entries'] = 'Kayıtlar';
@@ -194,7 +194,7 @@ $string['newentry'] = 'Yeni kayıt';
 $string['newfield'] = 'Yeni bir alan oluştur';
 $string['noaccess'] = 'Bu sayfaya erişim hakkınız yok';
 $string['nodefinedfields'] = 'Yeni ayarda tanımlı alanlar yok!';
-$string['nofieldcontent'] = 'ALan içeriği yok';
+$string['nofieldcontent'] = 'Alan içeriği yok';
 $string['nofieldindatabase'] = 'Bu veritabanı için tanımlanmış alan yok.';
 $string['nolisttemplate'] = 'Listeleme şablonu henüz tanımlanmamış';
 $string['nomatch'] = 'Eşleşen kayıt bulunamadı!';
@@ -202,6 +202,7 @@ $string['nomaximum'] = 'Sınırsız';
 $string['norating'] = 'Bu etkinlik derecelendirme kullanmıyor';
 $string['norecords'] = 'Veritabanında kayıt yok';
 $string['nosingletemplate'] = 'Tek şablon henüz tanımlanmadı';
+$string['notapproved'] = 'Kayıt henüz onaylanmamış.';
 $string['notinjectivemap'] = 'Bire bir eşleştirmeye uymadı';
 $string['number'] = 'Sayı';
 $string['numberrssarticles'] = 'RSS makaleleri';
@@ -264,14 +265,13 @@ $string['templates'] = 'Şablonlar';
 $string['templatesaved'] = 'Şablon kaydedildi';
 $string['text'] = 'Metin';
 $string['textarea'] = 'Uzun metin';
-$string['timeadded'] = 'Ekleme Zamanı';
-$string['timemodified'] = 'Düzenleme Zamanı';
+$string['timeadded'] = 'Ekleme zamanı';
+$string['timemodified'] = 'Düzenleme zamanı';
 $string['todatabase'] = 'bu veritabanına.';
 $string['type'] = 'Alan tipi';
 $string['undefinedprocessactionmethod'] = '\"$a\" eylemini yakalamak için Data_Preset içinde eylem metodu tanımlanmadı.';
 $string['unsupportedexport'] = '($a->fieldtype) dışa verilemez.';
 $string['updatefield'] = 'Var olan alanı güncelle';
-$string['updatingerror'] = 'Veritabanını güncellerken hata oluştu';
 $string['uploadfile'] = 'Dosya yükle';
 $string['uploadrecords'] = 'Kayıtları dosyadan yükle';
 $string['url'] = 'Url';
@@ -279,6 +279,8 @@ $string['usestandard'] = 'Bir ayar kullan';
 $string['viewfromdate'] = 'Görünebilme, başlangıç';
 $string['viewtodate'] = 'Görünebilme, bitiş';
 $string['wrongdataid'] = 'Hatalı veri id girildi';
+$string['cannotinsertempty'] = 'Boş bir kayıt eklenemedi!'; // ORPHANED
+$string['updatingerror'] = 'Veritabanını güncellerken hata oluştu'; // ORPHANED
 $string['cannotinsertrate'] = 'Yeni derecelendirme eklenemedi ($a[0] = $a[1])'; // ORPHANED
 $string['cannotupdaterate'] = 'Eski derecelendirme güncellenemedi ($a[0] = $a[1])'; // ORPHANED
 $string['invaliddata'] = 'Geçersiz veri'; // ORPHANED

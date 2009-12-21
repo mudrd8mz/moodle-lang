@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
+      // debug.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['authpluginnotfound'] = 'Kimlik denetimi eklentisi ($a) bulunamadı.';
@@ -15,6 +15,7 @@ $string['erroroccur'] = 'İşlem sırasında hata oluştu';
 $string['fixsetting'] = 'Lütfen config.php deki ayarları düzeltin: <p>Şimdiki:</p> <p>\$CFG->dirroot = \"$a->current\";</p><p>Olması gereken:</p> <p>\$CFG->dirroot = \"$a->found\"</p>';
 $string['invalidarraysize'] = '$a parametrelerinde hatalı boyutta diziler';
 $string['invalideventdata'] = 'Yanlış olay verileri gönderildi: $a';
+$string['invalidparameter'] = 'Geçersiz parametre değeri algılandı, yürütülmeye devam edilemez.';
 $string['missingconfigversion'] = 'Yapılandırma tablosu sürümü içermediğinden devam edilemiyor, özür dileriz.';
 $string['modulenotexist'] = '$a eklentisi yok';
 $string['morethanonerecordinfetch'] = 'Fetch() işlevinde birden fazla kayıt bulundu!';
@@ -30,10 +31,10 @@ $string['notables'] = 'Tablo Yok!';
 $string['phpvaroff'] = 'PHP değişkeni \'$a->name\' Kapalı olmalı - $a->link';
 $string['phpvaron'] = 'PHP değişkeni \'$a->name\' Açık olmalı - $a->link';
 $string['sessionmissing'] = '$a nesnesi oturumda yok';
-$string['siteisnotdefined'] = 'Site id tanımlanmadı!';
 $string['sqlrelyonobsoletetable'] = 'Bu SQL kullanılmayan tablo(lar) üzerinde sorgu çalıştırıyor: $a! Kodunuz bir programcı tarafından düzeltilmeli.';
 $string['withoutversion'] = 'Ana version.php dosyası okunabilir değil veya yok';
 $string['xmlizeunavailable'] = 'xmlize fonksiyonları kullanılamıyor';
+$string['siteisnotdefined'] = 'Site id tanımlanmadı!'; // ORPHANED
 $string['cannotcreateadminuser'] = 'CİDDİ HATA: Yönetici kullanıcı kaydı oluşturulamadı.'; // ORPHANED
 $string['cannotsetupsite'] = 'Ciddi hata! Site ayarlanamadı.'; // ORPHANED
 $string['cannotupdaterelease'] = 'HATA: Sürüm bilgisi veritabanına yazılamadı!'; // ORPHANED
