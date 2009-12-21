@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
+      // completion.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['activitycompletion'] = 'Etkinlik tamamlama';
@@ -7,7 +7,7 @@ $string['badautocompletion'] = 'Otomatik tamamlamayı seçtiğinizde aşağıdan
 $string['completedunlocked'] = 'Tamamlama seçeneklerinin kilidi açıldı';
 $string['completedunlockedtext'] = 'Değişiklikleri kaydettiğinizde tüm kullanıcılar için tamamlama durumu silinir. Fikrinizi değiştirdiyseniz formu kaydetmeyin.';
 $string['completedwarning'] = 'Tamamlama seçenekleri kilitlendi';
-$string['completedwarningtext'] = 'Bir ya da daha fazla kullanıcı ($a) bu etkinliği tamamlandı olarak işaretledi. Tamamlama seçeneklerini değiştirmek tamamlama durumunu sileceğinden kafa karışıklığına yol açabilir. Seçenekler kilitlenmiştir ve kesin olarak gerekmedikçe seçeneklerin kilidini açmamanızı öneririz.';
+$string['completedwarningtext'] = 'Bir ya da daha fazla kullanıcı ($a) bu etkinliği tamamlandı olarak işaretledi. Tamamlama seçeneklerini değiştirmek tamamlama durumunu sileceğinden  karışıklığa sebep olabilir. Seçenekler kilitlenmiştir ve kesin olarak gerekmedikçe seçeneklerin kilidini açmamanızı öneririz.';
 $string['completion'] = 'Tamamlama izleme';
 $string['completion-alt-auto-enabled'] = 'Sistem koşullara göre bu ögeyi tamamlanmış olarak işaretliyor';
 $string['completion-alt-auto-fail'] = 'Tamamlandı (geçer not almayı başaramadı)';
@@ -15,8 +15,8 @@ $string['completion-alt-auto-n'] = 'Tamamlanmadı';
 $string['completion-alt-auto-pass'] = 'Tamamlandı (geçer not almayı başardı)';
 $string['completion-alt-auto-y'] = 'Tamamlandı';
 $string['completion-alt-manual-enabled'] = 'Kullanıcılar bu ögeyi el ile tamamlandı olarak işaretleyebilir';
-$string['completion-alt-manual-n'] = 'Tamamlanmadı';
-$string['completion-alt-manual-y'] = 'Tamamlandı';
+$string['completion-alt-manual-n'] = 'Tamamlanmadı; tamamlandı olarak işaretlemek için seçin';
+$string['completion-alt-manual-y'] = 'Tamamlandı; tamamlanmadı olarak işaretlemek için seçin';
 $string['completion-title-manual-n'] = 'Tamamlandı olarak işaretle';
 $string['completion-title-manual-y'] = 'Tamamlanmadı olarak işaretle';
 $string['completion_automatic'] = 'Şartlar sağlanırsa etkinliği tamamlandı olarak göster';
@@ -29,7 +29,7 @@ $string['completionicons'] = 'ilerleme simgeleri';
 $string['completionreport'] = 'Tamamlama ilerlemesi raporu';
 $string['completionusegrade'] = 'Not gerekir';
 $string['completionusegrade_text'] = 'Kullanıcı bir not almalı';
-$string['completionview'] = 'Görüntüleme iste';
+$string['completionview'] = 'Görüntülemesi gerekir';
 $string['completionview_text'] = 'Kullanıcı etkinliği görüntülemeli';
 $string['configenablecompletion'] = 'Bu etkin kılındığında tamamlama izleme (ilerleme) özelliklerini ders düzeyinde açmanıza izin verir.';
 $string['configprogresstrackedroles'] = 'İlerleme izleme ekranında görüntülenen roller. (genellikle yalnızca öğrenci ve eşdeğer rollerini içerir.)';
@@ -51,5 +51,6 @@ $string['restoringcompletiondata'] = 'Tamamlama verileri yazılıyor';
 $string['saved'] = 'Kaydedildi';
 $string['unlockcompletion'] = 'Tamamlama seçeneklerinin kilidini aç';
 $string['writingcompletiondata'] = 'Tamamlama verileri yazılıyor';
+$string['yourprogress'] = 'İlerlemeniz';
 
 ?>
