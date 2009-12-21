@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 2.0 dev (Build: 20090526) (2009051700)
+      // glossary.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['addcomment'] = 'Yorum ekle';
@@ -23,7 +23,6 @@ $string['attachment'] = 'Dosya';
 $string['author'] = 'yazar';
 $string['authorview'] = 'Yazara göre gözat';
 $string['back'] = 'Geri';
-$string['cantexportentry'] = 'Girdi, ana sözlüğe çıkartılamıyor';
 $string['cantinsertcat'] = 'Kategori eklenemez';
 $string['cantinsertrec'] = 'Kayıt eklenemez';
 $string['cantinsertrel'] = 'İlişkili kategori kaydı eklenemedi';
@@ -136,6 +135,7 @@ $string['glossary:rate'] = 'Kayıtları derecelendir';
 $string['glossary:view'] = 'Sözlüğe bak';
 $string['glossary:viewrating'] = 'Derecelendirmelere bak';
 $string['glossary:write'] = 'Yeni kayıt oluştur';
+$string['glossaryadministration'] = 'Sözlük yönetimi';
 $string['glossaryleveldefaultsettings'] = 'Sözlük Seviyesindeki Ayarlar';
 $string['glossarytype'] = 'Sözlük Tipi';
 $string['guestnoedit'] = 'Konukların sözlüğü düzenleme izni yoktur.';
@@ -144,8 +144,7 @@ $string['importedcategories'] = 'Alınan kategoriler';
 $string['importedentries'] = 'Alınan kayıtlar';
 $string['importentries'] = 'Kayıtları al';
 $string['importentriesfromxml'] = 'XML dosyasından kayıtları al';
-$string['invalidglossaryformat'] = 'Geçersiz Sözlük Biçimi';
-$string['invalidid'] = 'Hatalı sözlük id';
+$string['includegroupbreaks'] = 'Grup sonlarını dahil et';
 $string['invalidrate'] = 'Geçersiz sözlük derecelendirmesi ($a)';
 $string['isglobal'] = 'Genel sözlük';
 $string['letter'] = 'harf';
@@ -210,6 +209,9 @@ $string['withauthor'] = 'Kavramlar (yazarıyla birlikte)';
 $string['withoutauthor'] = 'Kavramlar (yazarı olmadan)';
 $string['writtenby'] = 'yazan';
 $string['youarenottheauthor'] = 'Bu yorumun yazarı olmadığınız için bu yorumu düzeltme izniniz yoktur.';
+$string['cantexportentry'] = 'Girdi, ana sözlüğe çıkartılamıyor'; // ORPHANED
+$string['invalidglossaryformat'] = 'Geçersiz Sözlük Biçimi'; // ORPHANED
+$string['invalidid'] = 'Hatalı sözlük id'; // ORPHANED
 $string['areaintro'] = 'Sözlük tanıtımı'; // ORPHANED
 $string['cantinsertent'] = 'Bu yeni girdi eklenemedi'; // ORPHANED
 $string['cantupdateglossary'] = 'Sözlüğünüz güncellenemedi'; // ORPHANED
