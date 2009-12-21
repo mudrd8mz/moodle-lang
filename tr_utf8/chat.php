@@ -1,18 +1,18 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // chat.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['ajax'] = 'Kullanılan ajax sürümü';
 $string['autoscroll'] = 'Otomatik kaydır';
 $string['beep'] = 'biip';
-$string['cantinsert'] = 'Sohbet mesajı eklenemedi!';
 $string['cantlogin'] = 'Sohbet odasına giriş yapılamadı!';
-$string['chat:chat'] = 'Sohbette konuş';
+$string['chat:chat'] = 'Sohbet odasında konuş';
 $string['chat:deletelog'] = 'Sohbet kayıtlarını sil';
 $string['chat:exportparticipatedsession'] = 'Katılımcı sohbet oturumlarını dışa ver';
 $string['chat:exportsession'] = 'Sohbet oturumunu dışa ver';
 $string['chat:readlog'] = 'Sohbet kayıtlarına bak';
 $string['chat:talk'] = 'Sohbet et';
+$string['chatadministration'] = 'Sohbet Yönetimi';
 $string['chatintro'] = 'Tanıtım metni';
 $string['chatname'] = 'Sohbet odasının adı';
 $string['chatreport'] = 'Sohbet oturumları';
@@ -41,11 +41,15 @@ $string['helpchatting'] = 'Sohbet yardımı';
 $string['idle'] = 'Boş geçen';
 $string['inputarea'] = 'Girdi alanı';
 $string['invalidid'] = 'Bu sohbet odası bulunamadı!';
+$string['list_all_sessions'] = 'Tüm oturumları listele';
+$string['list_complete_sessions'] = 'Sadece bitmiş oturumları listele';
+$string['listing_all_sessions'] = 'Tüm oturumların listesi';
 $string['messagebeepseveryone'] = '$a herkese sesleniyor!';
 $string['messagebeepsyou'] = '$a size sesleniyor!';
 $string['messageenter'] = '$a odaya girdi';
 $string['messageexit'] = '$a odadan ayrıldı';
 $string['messages'] = 'Mesajlar';
+$string['messageyoubeep'] = '$a kullanıcısına seslendiniz';
 $string['method'] = 'Sohbet yöntemi';
 $string['methoddaemon'] = 'Sohbet sunucusu daemonu';
 $string['methodnormal'] = 'Normal yöntem';
@@ -53,6 +57,7 @@ $string['modulename'] = 'Sohbet';
 $string['modulenameplural'] = 'Sohbetler';
 $string['neverdeletemessages'] = 'Mesajları asla silme';
 $string['nextsession'] = 'Sonraki oturum';
+$string['no_complete_sessions_found'] = 'Bitmiş oturum bulunamadı.';
 $string['nochat'] = 'Sohbet yok';
 $string['noguests'] = 'Sohbet odası konuklara açık değildir';
 $string['nomessages'] = 'Henüz mesaj yok';
@@ -82,9 +87,11 @@ $string['serverport'] = 'Sunucu bağlantı noktası';
 $string['sessions'] = 'Sohbet oturumları';
 $string['strftimemessage'] = '%%H:%%M';
 $string['studentseereports'] = 'Geçmiş oturumlara herkes gözatabilir';
+$string['talk'] = 'Sohbet et';
 $string['updatemethod'] = 'Güncelleme türü';
 $string['updaterate'] = 'Güncelleme Sıklığı:';
 $string['userlist'] = 'Kullanıcı listesi';
 $string['viewreport'] = 'Geçmiş sohbet oturumlarına gözat';
+$string['cantinsert'] = 'Sohbet mesajı eklenemedi!'; // ORPHANED
 
 ?>
