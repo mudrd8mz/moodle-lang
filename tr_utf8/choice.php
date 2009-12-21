@@ -1,17 +1,16 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // choice.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['addmorechoices'] = 'Daha fazla seçenek ekle';
 $string['allowupdate'] = 'Anketi tekrar yanıtlama izni';
 $string['answered'] = 'Yanıtlandı';
-$string['cannotsavechoice'] = 'Seçeneğiniz kaydedilemedi';
-$string['cannotupdatechoice'] = 'Veritabanı hatasından dolayı seçeneğiniz kaydedilemedi';
 $string['choice'] = 'Seçenek';
 $string['choice:choose'] = 'Oy kullan';
 $string['choice:deleteresponses'] = 'Yanıtları sil';
 $string['choice:downloadresponses'] = 'Yanıtları indir';
 $string['choice:readresponses'] = 'Yanıtları oku';
+$string['choiceadministration'] = 'Anket yönetimi';
 $string['choiceclose'] = 'Bitiş';
 $string['choicefull'] = 'Bu anket tamamlanmış ve yanıtlanabilecek bir seçenek yok.';
 $string['choicename'] = 'Anket adı';
@@ -55,5 +54,7 @@ $string['taken'] = 'Geçen';
 $string['timerestrict'] = 'Oylamayı şu zamana kadar kısıtla';
 $string['viewallresponses'] = '$a yanıta bak';
 $string['yourselection'] = 'Seçiminiz';
+$string['cannotsavechoice'] = 'Seçeneğiniz kaydedilemedi'; // ORPHANED
+$string['cannotupdatechoice'] = 'Veritabanı hatasından dolayı seçeneğiniz kaydedilemedi'; // ORPHANED
 
 ?>
