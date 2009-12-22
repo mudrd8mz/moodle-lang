@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // survey.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['actual'] = 'Gerçek';
@@ -61,7 +61,6 @@ $string['attlsname'] = 'Düşünme ve Öğrenme Yaklaşımları (20 maddelik)';
 $string['cannotfindanswer'] = 'Henüz bu anket için cevap yok.';
 $string['cannotfindquestion'] = 'Soru yok';
 $string['cannotfindsurveytmpt'] = 'Soru şablonu bulunamadı!';
-$string['cannotinsertanswer'] = 'Sonuçlarınız kaydedilirken bir sorun oluştu. Özür dileriz.';
 $string['ciq1'] = 'Bir öğrenci olarak, sınıfta hangi anda en fazla katılım gösterirsin?';
 $string['ciq1short'] = 'En fazla katılım';
 $string['ciq2'] = 'Bir öğrenci olarak, sınıftan hangi anda en fazla uzaklaşırsın?';
@@ -174,6 +173,7 @@ $string['done'] = 'Tamamlandı';
 $string['download'] = 'İndir';
 $string['downloadexcel'] = 'Verileri Excel olarak indir';
 $string['downloadinfo'] = 'Bu anketten elde edilebilecek ham bilgiyi Excel, SPSS veya benzeri programramlarda analiz etmeye uygun bir şekilde indirebilirsiniz.';
+$string['downloadresults'] = 'Sonuçları indir';
 $string['downloadtext'] = 'Verileri düz yazı dosyası olarak indir';
 $string['editingasurvey'] = 'Anket düzenleme';
 $string['guestsnotallowed'] = 'Anketi ziyaretçilerin yanıtlamasına izin verilmemektedir';
@@ -201,6 +201,7 @@ $string['question'] = 'Soru';
 $string['questions'] = 'Sorular';
 $string['questionsnotanswered'] = 'Bazı çoktan seçmeli sorular yanıtlanmadı.';
 $string['report'] = 'Anket raporu';
+$string['responsereports'] = 'Yanıt raporları';
 $string['responses'] = 'Yanıtlar';
 $string['savednotes'] = 'Notlarınız kaydedildi';
 $string['scaleagree5'] = 'Kesinlikle karşı,Oldukça karşı,Ne karşı ne de taraftar,Oldukça taraftar,Tamamen taraftar';
@@ -212,6 +213,7 @@ $string['summary'] = 'Özet';
 $string['survey:download'] = 'Yanıtları indir';
 $string['survey:participate'] = 'Anketi yanıtla';
 $string['survey:readresponses'] = 'Yanıtlara bak';
+$string['surveyadministration'] = 'Anket yönetimi';
 $string['surveycompleted'] = 'Bu anketi tamamladınız.  Aşağıdaki grafikte sınıf ortalamasına göre özet sonucunuz gösterilmektedir.';
 $string['surveygraph'] = 'Anket grafiği';
 $string['surveyname'] = 'Anket adı';
@@ -220,5 +222,6 @@ $string['surveytype'] = 'Anket türü';
 $string['thanksforanswers'] = 'Bu ankete katıldığınız için teşekkür ederiz, $a';
 $string['time'] = 'Süre';
 $string['viewsurveyresponses'] = 'Toplam $a anket sonucunu göster';
+$string['cannotinsertanswer'] = 'Sonuçlarınız kaydedilirken bir sorun oluştu. Özür dileriz.'; // ORPHANED
 
 ?>

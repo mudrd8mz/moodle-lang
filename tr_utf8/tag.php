@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20090322) (2009030501)
+      // tag.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['addedotag'] = '\"$a\" kurumsal etiket olarak eklendi.';
@@ -40,6 +40,7 @@ $string['reset'] = 'Temizle';
 $string['resetflag'] = 'Uygunsuz değil';
 $string['responsiblewillbenotified'] = 'İlgili kişi bilgilendirilecek';
 $string['rssdesc'] = 'Bu haber içeriği Moodle tarafından otomatikmen oluşturuldu ve kullanıcılar tarafından oluşturulan ders etiketlerini içerir.';
+$string['rsstitle'] = 'Bu kullanıcı için Ders Etiketi RSS Akışları: $a';
 $string['search'] = 'Ara';
 $string['searchresultsfor'] = 'Arama sonuçları: \"$a\"';
 $string['searchtags'] = 'Etiketleri ara';
