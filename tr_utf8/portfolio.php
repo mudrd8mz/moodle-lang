@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20091218) (2009112400)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['activeexport'] = 'Etkin dışa vermeyi çözümle';
@@ -37,6 +37,7 @@ $string['exportexpired'] = 'Portfolyo dışa verimi zaman aşımına uğradı';
 $string['exporting'] = 'Portfolyoya çıkartılıyor';
 $string['exportingcontentfrom'] = 'İçerik buradan dışa çıkarılıyor: $a';
 $string['exportqueued'] = 'Portfolyo dışa verimi aktarım için başarıyla sıraya alındı.';
+$string['exportqueuedforced'] = 'Portfolyo dışa verimi aktarım için başarıyla sıraya alındı';
 $string['failedtopackage'] = 'Paketlenecek dosya bulunamadı';
 $string['failedtosendpackage'] = 'Veriniz seçili portfolyo sistemine gönderilirken hata oluştu!';
 $string['filedenied'] = 'Bu dosyaya erişim engellendi';
@@ -56,18 +57,31 @@ $string['format_video'] = 'Video';
 $string['hidden'] = 'Gizli';
 $string['highdbsizethreshold'] = 'Yüksek aktarım veritabanı boyutu';
 $string['highfilesizethreshold'] = 'Yüksek aktarım dosya boyutu';
+$string['insanesubject'] = 'Bazı portfolyo kopyaları otomatikmen devre dışı bırakıldı';
 $string['instancedeleted'] = 'Portfolyo başarıyla silindi';
 $string['instanceismisconfigured'] = 'Portfolyo kopyası hatalı yapılandırılmış, atlandı. Hata: $a';
 $string['instancenotdelete'] = 'Portfolyo silinirken hata';
 $string['instancenotsaved'] = 'Portfolyo kaydedilirken hata';
 $string['instancesaved'] = 'Portfolyo başarıyla kaydedildi';
 $string['invalidformat'] = 'Dışa çıkartılan bazı şeyler yanlış biçimde, $a';
+$string['invalidinstance'] = 'Bu portfolyo kopyası bulunamadı';
+$string['invalidpreparepackagefile'] = 'Hatalı prepare_package_file çağrısı - ya tek ya da çoklu dosyalar ayarlanmalı';
+$string['invalidproperty'] = 'Özellik bulunamadı ($a->class::$a->property)';
+$string['invalidsha1file'] = 'Hatalı get_sha1_file çağrısı - ya tek ya da çoklu dosyalar ayarlanmalı';
+$string['invalidtempid'] = 'Hatalı dışa verme kimliği. Süresi dolmuş olabilir.';
+$string['invaliduserproperty'] = 'Kullanıcı ayar özelliği bulunamadı ($a->class::$a->property)';
 $string['logs'] = 'Aktarım kayıtları';
+$string['logsummary'] = 'Başarıyla tamamlanan önceki aktarımlar';
 $string['manageportfolios'] = 'Portfolyoları yönet';
 $string['manageyourportfolios'] = 'Portfolyonuzu yönetin';
+$string['mimecheckfail'] = '$a->plugin portfolyo eklentisi $a->mimetype içerik tipini desteklemiyor.';
+$string['missingcallbackarg'] = '$a->class sınıfı için eksik $a->arg argümanı';
+$string['moderatedbsizethreshold'] = 'Dengeli aktarım veritabanı boyutu';
+$string['moderatefilesizethreshold'] = 'Dengeli aktarım dosya boyutu';
 $string['noavailableplugins'] = 'Üzgünüz, sizin için dışa çıkartılacak portfolyo yok';
+$string['noinstanceyet'] = 'Seçilmemiş';
 $string['nologs'] = 'Gösterilecek kayıt yok!';
-$string['notyetselected'] = 'Henüz seçilmemiş';
+$string['notyetselected'] = 'Seçilmemiş';
 $string['nouploaddirectory'] = 'Verinizi paketlemek için geçici klasör oluşturulamıyor';
 $string['plugin'] = 'Portfolyo eklentisi';
 $string['plugincouldnotpackage'] = 'Veriniz dışa çıkarım için paketlenirken hata oluştu';

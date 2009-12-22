@@ -1,8 +1,10 @@
 <?PHP // $Id$ 
-      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // portfolio_boxnet.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
-$string['apikey'] = 'API anahtarı (Box.net adresinden edinebilirsiniz)';
+$string['apikey'] = 'API anahtarı';
+$string['apikeyhelp'] = 'Bu portfolyoyu edinebilmeniz için enabled.box.net e kaydolmanız ve bir uygulama eklemeniz gerekmektedir. Geri bildirim adresi bu şekilde olmalı: wwwrootdizini/portfolio/add.php?postcontrol=1&type=boxnet';
+$string['apikeyinlinehelp'] = '<p>Box.net yapılandırması için <a href=\"http://enabled.box.net/my-projects\">enabled.box.net/my-projects</a> adresini ziyaret edin ve giriş yapın.</p><p>Her Moodle siteniz için Projelerim (My Projects) altında yeni bir proje oluşturmanız gerekiyor.</p><p>Dikkate alınması gereken tek ayar geribildirim adresinin <strong>$a</strong> olması gerektiğidir. Diğer ayarlar için istediğiniz değeri girebilirsiniz. Kaydedin ve işlem tamamdır!';
 $string['err_noapikey'] = 'Bu eklenti için yapılandırılmış bir API anahtarı yok. Yeni bir anahtarı bu adresten alabilirsiniz: http://enabled.box.net';
 $string['existingfolder'] = 'Dosyaların yerleştirileceği mevcut klasör';
 $string['folderclash'] = 'İstenen klasör zaten var!';
