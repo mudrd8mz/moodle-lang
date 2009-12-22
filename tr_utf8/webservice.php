@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['accessexception'] = 'Erişim kontrolü istisnası';
@@ -27,9 +27,9 @@ $string['externalservices'] = 'Harici servisler';
 $string['externalserviceusers'] = 'Harici servis kullanıcıları';
 $string['function'] = 'İşlev';
 $string['functions'] = 'İşlevler';
+$string['generalstructure'] = 'Genel yapı';
 $string['iprestriction'] = 'IP sınırlaması';
 $string['manageprotocols'] = 'Protokolleri yönet';
-$string['noerrorcode'] = 'Hata kodu yok';
 $string['norequiredcapability'] = 'Gerekli yetki yok';
 $string['optional'] = 'İsteğe bağlı';
 $string['phpparam'] = 'XML-RPC (PHP yapısı)';
@@ -37,6 +37,7 @@ $string['phpresponse'] = 'XML-RPC (PHP yapısı)';
 $string['postrestparam'] = 'REST için PHP kodu (POST isteği)';
 $string['potusers'] = 'Yetkilendirilmiş kullanıcılar yok';
 $string['potusersmatching'] = 'Eşleşen yetkilendirilmiş kullanıcılar yok';
+$string['print'] = 'Tümünü Yazdır';
 $string['protocol'] = 'Protokol';
 $string['removefunction'] = 'Sil';
 $string['removefunctionconfirm'] = '\"$a->service\" servisinden \"$a->function\" işlevini gerçekten silmek istediğinizden emin misiniz?';
@@ -45,6 +46,7 @@ $string['required'] = 'Gerekli';
 $string['requiredcapability'] = 'Gerekli yetki';
 $string['response'] = 'Yanıt';
 $string['restcode'] = 'REST';
+$string['restexception'] = 'REST';
 $string['restparam'] = 'REST (POST parametreleri)';
 $string['restrictedusers'] = 'Sadece yetkilendirilmiş kullanıcılar';
 $string['selectedcapability'] = 'Seçili';
@@ -59,10 +61,13 @@ $string['testclient'] = 'Web servisi test istemcisi';
 $string['validuntil'] = 'Geçerlilik';
 $string['webservices'] = 'Web servisleri';
 $string['wsdocumentation'] = 'Web servisi belgesi';
+$string['wsdocumentationdisable'] = 'Web servisi belgelendirmesi etkin değil';
+$string['wsdocumentationintro'] = 'Aşağıda <b>$a</b> kullanıcısı için erişilebilir web servisi işlevleri listelenmiştir.<br/>Yeni bir istemci oluşturmak için <a href=\"http://docs.moodle.org/en/Development:Creating_a_web_service_and_a_web_service_function#Create_your_own_client\">Moodle belgesini</a> okumanızı tavsiye ederiz.';
 $string['wsdocumentationlogin'] = 'Web servisinizin kullanıcı adı ve şifresini girin.';
 $string['wspassword'] = 'Web servisi şifresi';
 $string['wsusername'] = 'Web servisi kullanıcı adı';
-$string['xmlrpcstructure'] = 'belgelendirme';
+$string['noerrorcode'] = 'Hata kodu yok'; // ORPHANED
+$string['xmlrpcstructure'] = 'belgelendirme'; // ORPHANED
 $string['amfdebug'] = 'AMF sunucu hata ayıklama modu'; // ORPHANED
 $string['fail'] = 'HATA'; // ORPHANED
 $string['functionlist'] = 'web servisi işlev listesi'; // ORPHANED
