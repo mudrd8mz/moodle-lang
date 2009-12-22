@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091021) (2009100605)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -95,7 +95,7 @@ $string['configallowuserblockhiding'] = 'Wil je gebruikers toelaten om blokken t
 $string['configallowusermailcharset'] = 'Door dit in te schakelen, kan elke gebruiker van de site zijn eigen tekenset kiezen voor het e-mailen.';
 $string['configallowuserswitchrolestheycantassign'] = 'Standaard is moodle/role:assign vereist om gebruikers toe te laten de schakelaar om van rol te wisselen te gebruiken. Deze instelling inschakelen verwijdert deze vereiste, waardoor de mogelijke rollen in het rolmenu alleen nog bepaald worden door de instellingen in de \"Toewijzen van rollen toestaan\"-tabel.
 Het is aangewezen in dde \"Toewijzen van rollen toestaan\"-tabel gebruikers niet het recht te geven rollen toe te wijzen met meer mogelijkheden dan hun eigen rol.';
-$string['configallowuserthemes'] = 'Als je dit inschakelt, dan kunnen gebruikers hun eigen thema kiezen. Gebruikersthema\'s gaan boven site-thema\'s (maar niet boven cursusthema\'s)';
+$string['configallowuserthemes'] = 'Als je dit inschakelt, dan kunnen gebruikers hun eigen thema kiezen. Gebruikersthema\'s gaan boven sitethema\'s (maar niet boven cursusthema\'s)';
 $string['configallusersaresitestudents'] = 'Moeten ALLE gebruikers als leerlingen beschouwd worden voor activiteiten op de startpagina van de site? Als je hier \"Ja\" kiest, dan zullen alle bevestigde accounts hier als leerling kunnen meedoen aan alle activiteiten. Als je hier \"Nee\" kiest, dan zullen alleen gebruikers die minstens van één cursus lid zijn kunnen meedoen aan die startpagina-activiteiten.';
 $string['configauthenticationplugins'] = 'Kies de authenticatieplugins die je wenst te gebruiken en rangschik ze in volgorde, zodat diegene met het meeste kans op succes heeft, bovenaan staat.
 Zelf een account aanmaken zal gebeuren door de plugin die je kiest in de \'Registratie\'-kolom (gewoonlijk \'e-mail\').';
@@ -213,7 +213,7 @@ $string['configmaxeditingtime'] = 'Dit bepaalt hoe lang mensen de tijd hebben om
 $string['configmaxevents'] = 'Aantal gebeurtenissen vooruit kijken';
 $string['configmemcachedhosts'] = 'Voor memcached. Kommagescheiden lijst van hosts die de memcached daemon lopen. Gebruik IP-adressen om vertragingen door DNS te voorkomen. Memcached gedraagt zich niet goed als je hosts toevoegd of verwijderd tijdens een installatie.';
 $string['configmemcachedpconn'] = 'Voor memcached. Gebruik persistent connections. Wees voorzichtig: kan Apache/PHP laten crashen na het herstarten van de memcached daemon';
-$string['configmessaging'] = 'Wil je dat het boodschappensysteem voor site-gebruikers ingeschakeld wordt?';
+$string['configmessaging'] = 'Wil je dat het boodschappensysteem voor sitegebruikers ingeschakeld wordt?';
 $string['configminpassworddigits'] = 'Minimum aantal cijfers voor wachtwoorden';
 $string['configminpasswordlength'] = 'Minimum aantal tekens voor wachtwoorden';
 $string['configminpasswordlower'] = 'Minimum aantal kleine letters voor wachtwoorden';
@@ -294,9 +294,9 @@ $string['configstatsruntimedays'] = 'Specifiëer het maximum aantal dagen die ve
 $string['configstatsruntimestart'] = 'Op welk tijdstip moet de crontaak die de statistieken verwerk <b>starten</b>?';
 $string['configstatsuserthreshold'] = 'Als je een getal anders dan nul of een niet-nummerieke waarde ingeeft voor het rangschikken van cursussen, dan zullen de cursussen met minder dan dat aantal aangemelde gebruikers (leerlingen + leraren) genegeerd worden.';
 $string['configstripalltitletags'] = 'Schakel deze optie uit om HTML-tags to te laten in activiteits- en bronnamen.';
-$string['configsupportemail'] = 'Dit e-mailadres zal gepubliceerd worden aan site-gebruikers als het e-mailadres dat ze kunnen contacteren om algemene hulp te krijgen (zoals bij het creëren van een nieuwe account). Als dit veld leeg gelaten wordt, dan wordt er zo geen e-mailadres aangeboden.';
+$string['configsupportemail'] = 'Dit e-mailadres zal gepubliceerd worden aan sitegebruikers als het e-mailadres dat ze kunnen contacteren om algemene hulp te krijgen (zoals bij het creëren van een nieuwe account). Als dit veld leeg gelaten wordt, dan wordt er zo geen e-mailadres aangeboden.';
 $string['configsupportname'] = 'Dit is de naam van een persoon of dienst die de algemene hulp aanbiedt.';
-$string['configsupportpage'] = 'Deze URL zal gepubliceerd worden aan site-gebruikers als de plaats waar naartoe  te gaan als ze algemene hulp nodig hebben (bijvoorbeeld wanneer nieuwe gebruikers hun eigen accounts aanmaken). Als dit veld leeggelaten wordt, dan wordt er geen link aangeboden.';
+$string['configsupportpage'] = 'Deze URL zal gepubliceerd worden aan sitegebruikers als de plaats waar naartoe  te gaan als ze algemene hulp nodig hebben (bijvoorbeeld wanneer nieuwe gebruikers hun eigen accounts aanmaken). Als dit veld leeggelaten wordt, dan wordt er geen link aangeboden.';
 $string['configteacherassignteachers'] = 'Zou een gewone leraar een andere leraar moeten kunnen aanwijzen binnen de cursussen waarin hij les geeft? Als je dit op \'nee\' zet, dan kunnen alleen cursus-aanmakers en beheerders leraren aanwijzen.';
 $string['configthemelist'] = 'Laat dit leeg om gelijk welk geldig thema te gebruiken. Geef hier een door komma\'s gescheiden lijst met thema-namen als je het thema-menu wil inkorten. Bijvoorbeeld: standard,orangewhite. Let op: geen spaties!';
 $string['configtimezone'] = 'Hier kun je de standaardtijdzone instellen. Dit is slechts de STANDAARD tijdzone voor het tonen van datums - elke gebruiker kan deze instelling voor zichzelf wijzigen in zijn profiel. Op deze plaats zal de optie \"Servertijd\" de standaardtijd in Moodle gelijkzetten met de tijd van het besturingssysteem van de server, maar in het profiel van de gebruikers zal de instelling \"Servertijd\" de hier ingestelde tijdzone zijn.';
@@ -600,7 +600,7 @@ $string['missinglangparent'] = 'Ontbrekende parent language <em>$a->parent</em> 
 $string['mnetrestore_extusers'] = '<strong>Opmerking:</strong> Dit backupbestand bevat Moodle Netwerk accounts, die zullen teruggezet worden als deel van dit proces';
 $string['mnetrestore_extusers_admin'] = '<strong>Opmerking:</strong> Dit backup-bestand komt blijkbaar van een andere Moodle-installatie en bevat Moodle Network accounts. Tijdens het terugzetten ervan zal Moodle proberen om die gebruikers aan de juiste Moodle Netwerk server te koppelen. Diegene die niet gekoppeld kunnen worden, zullen met interne aanmelding in plaats van mnet aangemaakt worden. Het logscherm van het terugzetten zal je hierover informeren.';
 $string['mnetrestore_extusers_mismatch'] = '<strong>Opmerking:</strong> Dit backupbestand komt blijkbaar van een andere Moodle-installatie en bevat Moodle Netwerk accounts die mogelijk niet teruggezet kunnen worden. Deze operatie wordt niet ondersteund. Als je er zeker van bent dat dit bestand op deze Moodle installatie werd gemaakt of je kunt er zeker van zijn dat alle nodige Moodle Netwerk Hosts geconfigureerd zijn, dan kun je toch proberen deze backup terug te zetten.';
-$string['mnetrestore_extusers_noadmin'] = '<strong>Opmerking:</strong> Dit backup-bestand komt blijkbaar van een andere Moodle-installatie en bevat Moodle Network accounts. Je hebt niet het recht om zo een backup terug te zetten. Contacteer je site-beheerder of zet deze cursus terug zonder gebruikersgegevens.';
+$string['mnetrestore_extusers_noadmin'] = '<strong>Opmerking:</strong> Dit backup-bestand komt blijkbaar van een andere Moodle-installatie en bevat Moodle Network accounts. Je hebt niet het recht om zo een backup terug te zetten. Contacteer je sitebeheerder of zet deze cursus terug zonder gebruikersgegevens.';
 $string['mnetrestore_extusers_switchuserauth'] = 'Moodle Netwerkgebruiker  $a->username (komt van $a->mnethosturl) is ombeschakeld naar een lokale  $a->auth geauthenticeerde gebruiker.';
 $string['modsettings'] = 'Beheer activiteiten';
 $string['modulesecurity'] = 'Module security';
@@ -753,7 +753,7 @@ $string['riskmanagetrust'] = 'Gebruikers kunnen vertrouwelijke instellingen van 
 $string['riskmanagetrustshort'] = 'Beheer vertrouwensrelaties';
 $string['riskpersonal'] = 'Gebruikers kunnen toegang krijgen tot privé-informatie van andere gebruikers';
 $string['riskpersonalshort'] = 'Privacy-risico';
-$string['riskspam'] = 'Gebruikers kunnen spam sturen naar site-gebruikers of anderen';
+$string['riskspam'] = 'Gebruikers kunnen spam sturen naar sitegebruikers of anderen';
 $string['riskspamshort'] = 'Spam-risico';
 $string['riskxss'] = 'Gebruikers kunnen bestanden en teksten toevoegen die  cross-site scripting (XSS) mogelijk maken.';
 $string['riskxssshort'] = 'XSS-risico';
@@ -808,7 +808,7 @@ $string['statsruntimestart'] = 'Start om';
 $string['statsuserthreshold'] = 'Gebruikermarge';
 $string['stickyblocks'] = 'Permanent blok';
 $string['stickyblockscourseview'] = 'Cursuspagina';
-$string['stickyblocksduplicatenotice'] = 'Als je hier een blok toevoegd dat al op een bepaalde pagina staat, krijg je er twee.<br />Alleen het vastgezette blok zul je niet kunnen bewerken, het tweede zul je wel kunnen bewerken.';
+$string['stickyblocksduplicatenotice'] = 'Als je hier een blok toevoegt dat al op een bepaalde pagina staat, krijg je er twee.<br />Alleen het vastgezette blok zul je niet kunnen bewerken, het tweede zul je wel kunnen bewerken.';
 $string['stickyblocksmymoodle'] = 'Mijn Moodle';
 $string['stickyblockspagetype'] = 'Te configureren paginatype';
 $string['stripalltitletags'] = 'Verwijder HTML-tags van alle activiteitsnamen';

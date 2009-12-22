@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20090313) (2009030501)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
 
 
 $string['abouttobeinstalled'] = 'zal geïnstalleerd worden';
@@ -76,7 +76,7 @@ $string['adminhelpuploadusers'] = 'Importeer nieuwe gebruikersaccounts vanuit ee
 $string['adminhelpusers'] = 'Definieer je gebruikers en stel de authenticatie in';
 $string['adminhelpxmldbeditor'] = 'Interface om de XMLDB-bestanden te bewerken. Enkel voor ontwikkelaars';
 $string['administration'] = 'Beheer';
-$string['administrationsite'] = 'Site beheer';
+$string['administrationsite'] = 'Sitebeheer';
 $string['administrator'] = 'Beheerder';
 $string['administratordescription'] = 'Beheerders kunnen gewoonlijk op de hele site alles doen, in alle cursussen.';
 $string['administrators'] = 'Beheerders';
@@ -454,7 +454,7 @@ $string['downloadtext'] = 'Download in tekstformaat';
 $string['doyouagree'] = 'Heb je deze voorwaarden gelezen en begrepen?';
 $string['duplicate'] = 'Dupliceer';
 $string['duplicatinga'] = '$a aan het dupliceren';
-$string['duplicatingain'] = '$a-<what in $a->in aan het dupliceren';
+$string['duplicatingain'] = '\$a-<what in $a->in aan het dupliceren';
 $string['edhelpaspellpath'] = 'Om spellingscontrole te kunnen gebruiken in de editor heb je <strong>aspell 0.50</strong> of later nodig op je server en moet je het juiste pad ingeven om de aspell-bestanden aan te spreken. Op een Unix/Linux systeem is dit pad gewoonlijk <strong>/usr/bin/aspell</strong>, maar het kan natuurlijk anders zijn.';
 $string['edhelpbgcolor'] = 'Definiëer de achtergrondkleur van het bewerkingsscherm.<br />Geldige waarden zijn bijvoorbeeld:#ffffff of white';
 $string['edhelpcleanword'] = 'Deze instelling schakelt Word-specifieke opmaakfiltering in of uit.';
@@ -1599,7 +1599,6 @@ $string['usernamenotfound'] = 'Deze gebruikersnaam komt niet voor in de databank
 $string['usernameoremail'] = 'Geef gebruikersnaam of e-mailadres';
 $string['usernotconfirmed'] = 'Kon $a niet bevestigen';
 $string['userpic'] = 'Gebruikersfoto';
-$string['userprofilefor'] = 'Het gebruikersprofiel van $a';
 $string['users'] = 'Gebruikers';
 $string['userselectorautoselectunique'] = 'Als slechts één gebruiker overeen komt met de zoekopdracht, selecteer hem dan automatisch';
 $string['userselectorpreserveselected'] = 'Houd de geselecteerde gebruikers in de lijst, zelfs als ze niet meer overeenkomen met de zoekopdracht';
@@ -1693,6 +1692,7 @@ $string['yourself'] = 'jezelf';
 $string['yourteacher'] = 'Jouw $a';
 $string['yourwordforx'] = 'Jouw woord voor \'$a\'';
 $string['zippingbackup'] = 'Backup zippen';
+$string['userprofilefor'] = 'Het gebruikersprofiel van $a'; // ORPHANED
 $string['courserequestdisabled'] = 'Sorry, maar het aanvragen van nieuwe cursussen is door de beheerder uitgeschakeld.'; // ORPHANED
 $string['remotemaharauser'] = 'Maharagebruiker'; // ORPHANED
 $string['repositoriesmanage'] = 'Beheer bibliotheken'; // ORPHANED
