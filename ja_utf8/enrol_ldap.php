@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_ldap.php - created with Moodle 2.0 dev (Build: 20090119) (2009011900)
+      // enrol_ldap.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
 
 
 $string['description'] = '<p>あなたのユーザ登録をコントロールするために、LDAPサーバを使用することができます。LDAPの使用は、あなたのLDAPツリーがコースに登録されているグループを含んでいること、それぞれのグループ/コース内に学生に対応したメンバーが登録されていることを前提とします。</p>
@@ -26,10 +26,10 @@ $string['enrol_ldap_objectclass'] = 'コース検索に使用するobjectClass�
 $string['enrol_ldap_roles'] = 'ロールマッピング';
 $string['enrol_ldap_search_sub'] = 'サブコンテクストよりグループメンバーシップを検索する。';
 $string['enrol_ldap_server_settings'] = 'LDAPサーバ設定';
-$string['enrol_ldap_student_contexts'] = '学生登録のグループが配置されているコンテクスト一覧です。異なるコンテクストは「;」で分けてください。例: 「ou=courses,o=org; ou=others,o=org」';
+$string['enrol_ldap_student_contexts'] = '学生登録のグループが配置されているコンテクスト一覧です。異なるコンテクストは「;」で区切ってください。例: 「ou=courses,o=org; ou=others,o=org」';
 $string['enrol_ldap_student_memberattribute'] = 'ユーザがグループに属して (登録されて) いる場合のメンバー属性です。通常、「member」または「memberUid」です。';
 $string['enrol_ldap_student_settings'] = '学生登録設定';
-$string['enrol_ldap_teacher_contexts'] = '教師登録のグループが配置されているコンテクスト一覧です。異なるコンテクストは「;」で分けてください。例: 「ou=courses,o=org; ou=others,o=org」';
+$string['enrol_ldap_teacher_contexts'] = '教師登録のグループが配置されているコンテクスト一覧です。異なるコンテクストは「;」で区切ってください。例: 「ou=courses,o=org; ou=others,o=org」';
 $string['enrol_ldap_teacher_memberattribute'] = 'ユーザがグループに属している (登録されている) 場合のメンバー属性です。通常、「member」または「memberUid」です。';
 $string['enrol_ldap_teacher_settings'] = '教師登録設定';
 $string['enrol_ldap_template'] = '任意: 自動的に作成されるコースは、テンプレートコースより設定をコピーすることができます。';

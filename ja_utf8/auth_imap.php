@@ -1,16 +1,16 @@
 <?PHP // $Id$ 
-      // auth_imap.php - created with Moodle 2.0 dev (Build: 20091215) (2009112400)
+      // auth_imap.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
 
 
 $string['auth_imapchangepasswordurl_key'] = 'パスワード変更URI';
 $string['auth_imapdescription'] = 'ここでは、ユーザ名およびパスワードが有効であるか確認するため、IMAPサーバを使用します。';
-$string['auth_imaphost'] = 'IMAPサーバアドレスです。IPアドレスではなくドメイン名を使用してください。';
+$string['auth_imaphost'] = 'IMAPサーバアドレスです。DNS名ではなく、IPアドレスを使用してください。';
 $string['auth_imaphost_key'] = 'ホスト';
 $string['auth_imapnotinstalled'] = 'IMAP認証を使用できません。PHP IMAPモジュールがインストールされていません。';
-$string['auth_imapport'] = 'IMAPサーバポート番号です。通常は143または993です。';
+$string['auth_imapport'] = 'IMAPサーバポート番号です。通常、143または993です。';
 $string['auth_imapport_key'] = 'ポート';
 $string['auth_imaptitle'] = 'IMAPサーバ';
-$string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバでは、異なる認証およびネゴシエーションを使用することができます。';
+$string['auth_imaptype'] = 'IMAPサーバタイプです。IMAPサーバでは、異なるタイプの認証およびネゴシエーションを使用することができます。';
 $string['auth_imaptype_key'] = 'タイプ';
 
 ?>
