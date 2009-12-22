@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_missingtype.php - created with Moodle 2.0 dev (Build: 20090319) (2009030501)
+      // qtype_missingtype.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
 
 
 $string['editingmissingtype'] = 'Bilinmeyen soru tipi düzenleniyor';

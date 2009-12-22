@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multianswer.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // qtype_multianswer.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
 
 
 $string['addingmultianswer'] = 'Tümleşik yanıtlar (Cloze) ekleniyor';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // qtype_multichoice.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
 
 
 $string['addingmultichoice'] = 'Çoktan seçmeli soru ekleniyor';
@@ -31,7 +31,7 @@ $string['overallfeedback'] = 'Tüm Gerilbildirim';
 $string['overallincorrectfeedback'] = 'Yanlış cevap geribildirimi';
 $string['overallpartiallycorrectfeedback'] = 'Kısmen doğru cevap geribildirimi';
 $string['partiallycorrectfeedback'] = 'Kısmen doğru yanıt için';
-$string['shuffleanswers'] = 'Yanıtları karıştır';
+$string['shuffleanswers'] = 'Cevap şıklarını karıştır';
 $string['singleanswer'] = 'Bir cevap seçin.';
 
 ?>

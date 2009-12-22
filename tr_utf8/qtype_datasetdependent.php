@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // qtype_datasetdependent.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
 
 
 $string['additem'] = 'Öge ekle';
@@ -9,7 +9,7 @@ $string['calcdistribution'] = 'Dağılım';
 $string['calclength'] = 'Ondalık yerleri';
 $string['calcmax'] = 'En fazla';
 $string['calcmin'] = 'En az';
-$string['dataitemdefined'] = '$a ile çoktan tanımlanmış sayısal değerler mevcuttur';
+$string['dataitemdefined'] = '$a ile zaten tanımlanmış sayısal değerler mevcuttur';
 $string['datasetrole'] = 'Joker kartlar <strong>{x..}</strong> veri kümesinden sayısal bir değerle değiştirilecektir.';
 $string['deletelastitem'] = 'Son öğeyi sil';
 $string['existingcategory1'] = 'Bu kategorideki başka sorular tarafından da kullanılan  mevcut bir hazır bilgi kümesinden çıkma hazır bilgi.';
@@ -44,7 +44,7 @@ $string['newlocal2'] = 'yalnızca bu soru tarafından kullanılacak yeni bir dos
 $string['newlocal3'] = 'yalnızca bu soru tarafından kullanılacak yeni bir bağlar kümesinden bir bağ';
 $string['nodataset'] = 'hiçbir şey - bu joker bir kart değildir';
 $string['param'] = 'Parametre {<strong>$a</strong>}';
-$string['replacewithrandom'] = 'Gelişigüzel bir değerle değiştir';
+$string['replacewithrandom'] = 'Rastgele bir değerle değiştir';
 $string['reuseifpossible'] = 'mümkünse önceki değeri tekrar kullan';
 $string['sharedwildcard'] = 'Paylaşılan joker kart';
 $string['sharedwildcards'] = 'Paylaşılan joker kartlar';
