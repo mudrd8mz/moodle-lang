@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 2.0 dev (Build: 20090505) (2009043000)
+      // wiki.php - created with Moodle 2.0 dev (Build: 20091221) (2009112400)
 
 
 $string['action'] = '-- Eylem --';
@@ -18,11 +18,10 @@ $string['binnoimg'] = 'Bu kabul edilmeyen bir dosya biçimidir!';
 $string['browse'] = 'Gözat';
 $string['canceledit'] = 'İptal';
 $string['cannotacceptbin'] = 'Bu wiki ikili (binary) dosyaları kabul etmiyor';
+$string['cannotaccessgroup'] = 'Bu wiki için herhangi gruba erişilemiyor';
 $string['cannotaddentry'] = 'Wiki girdisi eklenemedi.';
 $string['cannotchangepage'] = 'Bu sayfa değiştirilemez.';
-$string['cannotdeletelockrecored'] = 'Kilit kaydı silinemedi';
 $string['cannotgetentry'] = 'Girdi alınamıyor';
-$string['cannotinsertlockrecored'] = 'Kilit kaydı eklenemedi';
 $string['cannotstartwith'] = 'İkili (binary) girdi, ($a) ile başlamıyor';
 $string['changes'] = '$a değişiklik';
 $string['changesfield'] = 'Son değişiklikten beri kaç saat içinde';
@@ -32,7 +31,7 @@ $string['checklinkscheck'] = 'Bu sayfadaki bağlantıları kontrol etmek istedi�
 $string['checklinksnotice'] = 'Lütfen sayfa çalışırken sabırlı olun.';
 $string['chooseadministration'] = '-- Yönetim --';
 $string['chooseafile'] = 'Başlangıç sayfası seç/yükle';
-$string['choosewikilinks'] = '-- Wiki Bağlantılarını Seçin --';
+$string['choosewikilinks'] = '-- Wiki Bağlantılarını Seç --';
 $string['comment'] = 'Yorum';
 $string['contentsize'] = 'İçerik boyutu';
 $string['created'] = 'Oluşturuldu';
@@ -43,7 +42,7 @@ $string['deleteversions'] = 'Son sürümlerden kaç tanesi silinecek';
 $string['deleteversionserror'] = 'Lütfen geçerli bir sürüm no girin.';
 $string['diff'] = 'Fark';
 $string['differences'] = '$a->pagename sayfasının $a->new_ver ve $a->old_ver sürümleri arasındaki farklar.';
-$string['disablecamel'] = 'camelCase bağlantını pasifleştir';
+$string['disablecamel'] = 'CamelCase bağlantını pasifleştir';
 $string['disabledpage'] = 'Bu sayfaya şu anda ulaşılamaz.';
 $string['doesnotexist'] = 'Bu sayfa henüz yok, oluşturmak isterseniz \'Düzenle\' düğmesine basın.';
 $string['downloadaszip'] = 'İndirilebilir zip arşivi';
@@ -82,6 +81,7 @@ $string['flagtxt'] = 'TXT';
 $string['flagwr'] = 'WR';
 $string['for'] = ':';
 $string['forbidden'] = 'Bu sayfaya erişim hakkınız yok.';
+$string['groupmodeerror'] = 'Ders için gruplar yapılandırılmazsa, grup modunda wiki\'ye erişilemez';
 $string['groups'] = 'Gruplar';
 $string['hits'] = '$a hit';
 $string['howtooperate'] = 'Nasıl işlenecek';
@@ -103,7 +103,7 @@ $string['listall'] = 'Tümünü listele';
 $string['listcandidates'] = 'Adayları göster';
 $string['lockcancelled'] = 'Başka birisi şu anda bu sayfayı düzenlediğinden dolayı düzenleme kilidiniz geçersiz kılındı. Değişikliklerinizi saklamak istiyorsanız lütfen İptal\'e basmadan önce metni seçin ve kopyalayın; daha sonra yeniden düzenlemeyi deneyin.';
 $string['meta'] = 'Meta verisi';
-$string['moduledirectory'] = 'Modül Dizini';
+$string['moduledirectory'] = 'Eklenti Dizini';
 $string['modulename'] = 'Wiki';
 $string['modulenameplural'] = 'Wikiler';
 $string['mostoftenchangedpages'] = 'En sık değişen sayfalar';
@@ -207,5 +207,7 @@ $string['wikiusage'] = 'Wiki kullanımı';
 $string['withbinaries'] = 'İkili (binary) içeriği dahil et';
 $string['withvirtualpages'] = 'Wiki-Bağlantılarını dahil et';
 $string['wrongversionrange'] = '$a geçerli bir aralıkta değil!';
+$string['cannotdeletelockrecored'] = 'Kilit kaydı silinemedi'; // ORPHANED
+$string['cannotinsertlockrecored'] = 'Kilit kaydı eklenemedi'; // ORPHANED
 
 ?>
