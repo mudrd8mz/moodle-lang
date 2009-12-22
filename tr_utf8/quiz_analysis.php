@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20081012) (2008101000)
+      // quiz_analysis.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
 
 
 $string['analysis'] = 'Öge analizi';
@@ -8,7 +8,7 @@ $string['analysisoptions'] = 'Analiz seçenekleri';
 $string['analysisreport'] = 'Öge analiz raporu';
 $string['analysistitle'] = 'Öge Analiz Tablosu';
 $string['attemptsall'] = 'tüm uygulamalar';
-$string['attemptselection'] = 'Her bir kullanıcıyı analiz için uygulama';
+$string['attemptselection'] = 'Kullanıcı başına analiz uygulamaları';
 $string['attemptsfirst'] = 'ilk uygulama';
 $string['attemptshighest'] = 'en yüksek not';
 $string['attemptslast'] = 'son uygulama';
