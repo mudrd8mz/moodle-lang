@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
+      // editor.php - created with Moodle 2.0 dev (Build: 20091223) (2009112400)
 
 
 $string['about'] = 'Bu düzenleyici hakkında';
@@ -33,7 +33,7 @@ $string['createlink'] = 'Web Bağlantısı Ekle';
 $string['cut'] = 'Seçili olanı kes';
 $string['cutpastemozilla'] = 'Maalesef, şu anda bu çevrimiçi editöre metni yapıştırmak için normal klavye kısayollarını (Yapıştır butonunu bile) kullanamazsınız. Bu, Mozilla ve Firefox tarayıcılarının bazı sürümlerinin güvenlik özelliğinden kaynaklanır.<br /><br />Deneyebileceğiniz üç yöntem var:<br />(1) CTRL-v yerine SHIFT-Insert kullanın<br />Tarayıcınızın Düzenle->Yapıştır menüsünü kullanın<br />(3) user.js dosyasını düzenleyerek tarayıcınızın seçeneklerini değiştirin.<br /><br />Daha fazla yardım için TAMAM tuşuna veya editöre geri dönmek için İptal tuşuna basın.';
 $string['delete'] = 'Sil';
-$string['editors'] = 'Metin düzenleyeciler';
+$string['editors'] = 'Metin düzenleyiciler';
 $string['editorsettings'] = 'Düzenleyecileri yönet';
 $string['enterurlfirst'] = 'Öncelikle bir URL girmeniz gerekiyor';
 $string['filebrowser'] = 'Dosya Gezgini';
