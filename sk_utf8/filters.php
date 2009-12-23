@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+      // filters.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
 
 
 $string['actfilterhdr'] = 'Aktívne filtre';
@@ -21,6 +21,7 @@ $string['doesnotcontain'] = 'neobsahuje';
 $string['endswith'] = 'končí s';
 $string['firstaccess'] = 'Prvý prístup';
 $string['globalrolelabel'] = '$a->label je $a->value';
+$string['includenever'] = 'Nikdy zahrnuté';
 $string['isafter'] = 'je po';
 $string['isanyvalue'] = 'má ľubovoľnú hodnotu';
 $string['isbefore'] = 'je pred';

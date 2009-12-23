@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -159,6 +159,7 @@ $string['backuplogdetailed'] = 'Detailný záznam o vykonávaní';
 $string['backuploglaststatus'] = 'Posledný záznam o vykonávaní';
 $string['backuplogshelp'] = 'Ak povolené, potom záznamy kurzu budú zahrnuté do automatických záloh';
 $string['backupmetacoursehelp'] = 'Ak povolené, potom metainformácie o kurze budú zahrnuté do automatických záloh';
+$string['backupmissinguserinfoperms'] = 'Poznámka: táto záloha neobsahuje údaje používateľov. Aktivity cvičenie a tvorivá dielňa nebudú v tejto zálohe zahrnuté, pretože nie sú kompatibilné s týmto typom zálohy.';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnext'] = 'Ďalšia záloha';
 $string['backupnoneusersinfo'] = 'Všimnite si: Vybrali ste si zálohovať \"žiadnych\" používateľov, takže zálohy modulov boli prepnuté do módu \"bez údajov používateľa\". Berte prosím na vedomie, že moduly \"Cvičenie\" a \"Tvorivá dielňa\" nie sú kompatibilné s týmto typom zálohovania, a preto boli kompletne deaktivované.';
@@ -641,6 +642,8 @@ $string['firstaccess'] = 'Prvý prístup';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Krstné meno';
 $string['firsttime'] = 'Ste tu prvý raz?';
+$string['flashlinkmessage'] = 'Prosím aktualizujte teraz svoj prehliadač Flash:';
+$string['flashupgrademessage'] = 'Na prehranie tohto obsahu je potrebný zásuvný modul Flash, avšak verzia, ktorú máte, je príliš stará.';
 $string['folder'] = 'Priečinok';
 $string['folderclosed'] = 'Zavretý priečinok';
 $string['folderopened'] = 'Otvorený priečinok';

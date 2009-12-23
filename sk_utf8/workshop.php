@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.8.2+ (2007021520)
+      // workshop.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
 
 
 $string['absent'] = 'Chýba';
@@ -134,7 +134,7 @@ $string['mail1'] = 'Vaše zadanie \'$a\' ohodnotil(a)';
 $string['mail10'] = 'Stránku workshopu nájdete tu';
 $string['mail2'] = 'Komentáre a známku môžete vidieť na stránke workshopu \'$a\'';
 $string['mail3'] = 'Stránku workshopu nájdete tu';
-$string['mail4'] = 'K vašej práci \'$a\' bol pridaný komentár. Komentár vložil(a) ';
+$string['mail4'] = 'K vašej práci \'$a\' bol pridaný komentár. Komentár vložil(a)';
 $string['mail5'] = 'Nový komentár môžete vidieť v hodnotení workshopu \'$a\'';
 $string['mail6'] = 'Vašemu hodnoteniu práce \'$a\' bola pridelená známka';
 $string['mail7'] = 'Komentáre hodnotiteľa môžete vidieť na stránke workshopu';
@@ -206,7 +206,7 @@ $string['phase4'] = 'Povolené hodnotenie';
 $string['phase4short'] = 'Hodnotenie';
 $string['phase5'] = 'Ukázať celkové známky';
 $string['phase5short'] = 'Ukázať známky';
-$string['pleaseassesstheseexamplesfromtheteacher'] = 'Prosím, ohodnoťte tieto príklady od učiteľa'; 
+$string['pleaseassesstheseexamplesfromtheteacher'] = 'Prosím, ohodnoťte tieto príklady od učiteľa';
 $string['pleaseassessthesestudentsubmissions'] = 'Prosím, ohodnoťte tieto zadania';
 $string['pleaseassessyoursubmissions'] = 'Prosím, ohodnoťte svoje zadanie(a)';
 $string['poor'] = 'Slabo';
@@ -218,6 +218,7 @@ $string['releaseteachergrades'] = 'Zverejniť známky udelené učiteľom';
 $string['removeallattachments'] = 'Odstrániť všetky prílohy';
 $string['repeatanalysis'] = 'Opakovať analýzu';
 $string['reply'] = 'Odpovedať';
+$string['resetworkshopall'] = 'Vymazať odovzdané zadania, známky a hodnotenia';
 $string['returnto'] = 'Vrátiť sa k';
 $string['returntosubmissionpage'] = 'Vrátiť sa na stránku odovzdávania zadania';
 $string['rubric'] = 'Viacero kritérií';

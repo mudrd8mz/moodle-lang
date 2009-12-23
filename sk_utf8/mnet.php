@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samopodpísané)';
@@ -54,6 +54,7 @@ $string['expires'] = 'Platné do';
 $string['expireyourkey'] = 'Zmazať tento kľúč';
 $string['expireyourkeyexplain'] = 'Moodle automaticky obmeňuje vaše kľúče každých 28 dní (implicitne), ale môžete tento kľúč odvolať <em>ručne</em> kedykoľvek. To sa môže hodiť v prípade, že máte dojem, že tento kľúč bol prezradený. Okamžite bude vygenerovaná náhrada.<br /> Vymazanie tohto kľúča znemožní ostatným Moodle serverom komunikovať s Vami, kým ručne nedodáte ich administrátorom váš nový kľúč.';
 $string['failedaclwrite'] = 'Neprešiel zápis do zoznamu riadenia prístupu MNET pre používateľa \'$a\'.';
+$string['findlogin'] = 'Nájsť prihlásenie';
 $string['forbidden-function'] = 'Táto funkcia nebola sprístupnená pre RPC.';
 $string['forbidden-transport'] = 'Pokúšate sa použiť nepovolenú transportnú metódu.';
 $string['forcesavechanges'] = 'Vynútené uloženie zmien';
@@ -97,6 +98,8 @@ $string['mnet_concatenate_strings'] = 'Zlúčiť do 3 reťazcov a vrátiť výsl
 $string['mnet_session_prohibited'] = 'Používatelia Vášho domovského servera teraz nemajú povolený roaming na $a.';
 $string['mnetdisabled'] = 'Sieť Moodle <strong>nie je povolená</strong>.';
 $string['mnetenrol'] = 'Zápisy';
+$string['mnetidprovider'] = 'MNET ID poskytovateľ';
+$string['mnetidprovidermsg'] = 'Mali by ste byť schopný sa prihlásiť u svojho poskytovateľa $a.';
 $string['mnetlog'] = 'Záznamy';
 $string['mnetpeers'] = 'Partneri';
 $string['mnetservices'] = 'Služby';
