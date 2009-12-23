@@ -1,0 +1,23 @@
+<h1>Medieavspillere, relative URL-er og Hot Potatoes</h1>
+
+<h2>Definisjoner</h2>
+
+<div class="indent">
+    <p><i>URL</i><br />
+Adressen til en ressurs på internett, f.eks. en webside, et bilde eller en lydfil.</p>
+    <p>
+        <i>Absolutt URL</i><br />
+En URL som begynner med "http://" blir kalt en absolutt URL. Samme hvor den brukes vil den peke til samme ressurs.</p>
+    <p>
+        <i>Relativ URL</i><br />
+En URL som ikke starter med "http://" kalles en relativ URL. den kan kombineres med en absolutt URL for en annen side, slik at resultatet blir en absolutt UR.</p>
+</div>
+
+<h2>Relative URL-er i Hot Potatoes Quizzer</h2>
+<p>Relative URL-er er en effektiv måte å angi bilder, lyder og video på i en Hot Potatoes Quiz, fordi slike URL-er gjør at Quizzen kan åpnes på egen pc FØR den lastes opp til Moodle. Når quizzen er lastet opp må også multimediafilene lastes opp tilsvarende slik at de er tilgjengelige når quizzen skal administreres via Moodle.</p>
+<p>Av sikkerhetsgrunner tillater ikke Moodle direkte tilgang til kursfiler. Alle forespørsler om filer i et kurs ledes via et script som sjekker om vedkommende (som ber om fila) er logget inn i kurset. Likevel; dette scriptet kan finne på å bryte lenker som brukes i Quizzer fordi de vanlige reglene for å trekke ut en absolutt URL fra en relativ URL ikke virker.</p>
+<p>Løsningen er enkel nok:  <font color="red"><b>alle relative URL-er må da konverteres til absolutte URL-er</b></font> 
+fra det øyeblikk quizzen vises i nettleseren. I Hot Potatoes vil URL-er bli konvertert av Moodle, så du behøver strengt tatt ikke tenke så mye på absolutte/relative lenker.</p>
+
+<h2>Mediaavspillere i Hot Potatoes quizzer </h2>
+<p>Noen medieavspillere godtar ikke mediafiler som leveres via et script. I slike tilfeller er det noen ganger nødvendig å erstatte mediaavspilleren med en som er kompatibel med Moodle. Du kan gjøre det selv ved å legge inn referanse til en bestemt mediaavspiller i quizzen, eller du kan tvinge Moodle ved å sette "tving mediaavspiller" i Quizzens innstillinger.</p>
