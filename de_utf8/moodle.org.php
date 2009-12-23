@@ -2,7 +2,7 @@
       // moodle.org.php - created with Moodle 1.9.7+ (Build: 20091218) (2007101570)
 
 
-$string['aboutdemosite'] = 'Unsere Demo-Website ist eine vollständige Moodle-Instanz mit einigen Beispielkursen, die Sie in den Rollen Trainer, Teilnehmer und Administrator ausprobieren können. Haben Sie aber bitte keine Sorge etwas kaputt zu machen ... die gesamte Seite wird jede Stunde auf einen ordentlichen Zustand zurückgesetzt.';
+$string['aboutdemosite'] = 'Unsere Demo-Website ist eine vollständige Moodle-Instanz mit Beispielkursen, die Sie in den Rollen Trainer, Teilnehmer und Administrator ausprobieren können. Haben Sie bitte keine Sorge, dabei etwas kaputt zu machen ... die Website wird jede Stunde auf einen ordentlichen Zustand zurückgesetzt.';
 $string['aboutdemositetitle'] = 'Demo-Website';
 $string['aboutintro'] = 'Moodle ist ein Open Source Course Management System (CMS - deutsch: Kursverwaltungssystem), auch bekannt als ein Learning Management System (LMS - deutsch: Lernbetreuungssystem) oder ein Virtual Learning Environment (VLE - deutsch: Virtuelle Lernumgebung). Moodle ist inzwischen auf der ganzen Welt zu einem bei Unterrichtenden sehr beliebten Werkzeug geworden, um dynamische Webseiten für die Lernenden zu erstellen. Moodle muss irgendwo auf einem Webserver installiert werden, entweder auf einem Ihrer eigenen Computer oder bei einer Firma für Webhosting.';
 $string['aboutoverview'] = '<p>Im Mittelpunkt des gesamten Moodle-Projekts steht immer, Lehrenden die besten Werkzeuge zur Unterstützung und Verwaltung von Lernen bereitzustellen, aber es gibt zahlreiche weitere Möglichkeiten zur Moodle-Nutzung:</p>
@@ -28,7 +28,7 @@ $string['contactmoodlecom'] = 'Für alle Fragen zu Lizensierung, Warenzeichen od
 $string['contactmoodlecomhelpdesk'] = 'Hilfesystem von Moodle.com';
 $string['contactmoodlecomtitle'] = 'Moodle.com';
 $string['contactmoodleorgemail'] = 'Bei Problemen mit Ihren Zugangsdaten bei Moodle.org schreiben Sie bitte eine E-Mail an diese Adresse:';
-$string['contactmoodleorglogin'] = 'Melden Sie sich jetzt bitte für diese Website an';
+$string['contactmoodleorglogin'] = 'Melden Sie sich bitte für diese Website an';
 $string['contactmoodleorgother'] = 'Für alle weiteren Fragen nutzen Sie bitte das folgende Kontaktformular.';
 $string['contactmoodleorgtitle'] = 'Moodle.org';
 $string['contactsecurity'] = 'Erkannte Sicherheitprobleme können in den Tracker eingetragen werden, wobei Sie die Sicherheitsstufe ebenfalls einschätzen sollen.';
@@ -38,7 +38,7 @@ $string['contactsupporttitle'] = 'Anleitung';
 $string['developercontributors'] = 'Vertrauen';
 $string['developerlist'] = 'Vollständige Liste der Entwickler mit Schreibrechten';
 $string['developermeetings'] = 'Entwicklertreffen';
-$string['developers'] = 'Die Entwicklung von Moodle wird durch das Kernteam bei Moodle.com geleitet, unterstützt durch hunderte weiterer Entwickler weltweit. Viele dieser Entwickler sind dabei direkt verantwortlich für unterschiedliche Module, Plugins oder Sprachpakete.';
+$string['developers'] = 'Die Entwicklung von Moodle wird durch das Kernteam bei Moodle.com geleitet, unterstützt durch hunderte weiterer Entwickler weltweit. Viele dieser Entwickler sind direkt verantwortlich für unterschiedliche Module, Plugins oder Sprachpakete.';
 $string['developerstitle'] = 'Entwickler';
 $string['developmentdocs'] = 'Der Hauptteil unserer Dokumentation befindet sich in den Moodle Docs - einschließlich aller Spezifikationen, Gedanken, Diskussionen, Funktionen und Standards wie auch aller Anleitungen für die Endbenutzer.';
 $string['developmentdocstitle'] = 'Entwicklerdokumentation';
