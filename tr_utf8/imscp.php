@@ -1,11 +1,12 @@
 <?PHP // $Id$ 
-      // imscp.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
+      // imscp.php - created with Moodle 2.0 dev (Build: 20091223) (2009112400)
 
 
 $string['areabackup'] = 'Paket arşivi';
 $string['areacontent'] = 'İçerik';
 $string['contentheader'] = 'İçerik';
 $string['deploymenterror'] = 'İçerik paketi hatası!';
+$string['imscpadministration'] = 'IMSCP Yönetimi';
 $string['keepold'] = 'Arşiv paketleri';
 $string['keepoldexplain'] = 'Kaç adet paket arşivlenecek?';
 $string['modulename'] = 'IMS İçerik Paketi';
