@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // condition.php - created with Moodle 2.0 dev (Build: 20090318) (2009030501)
+      // condition.php - created with Moodle 2.0 dev (Build: 20091223) (2009112400)
 
 
 $string['addcompletions'] = 'Forma {no} etkinlik koşulu daha ekle';
@@ -22,6 +22,21 @@ $string['help_conditiondates'] = 'erişilebilme tarihleri';
 $string['help_showavailability'] = 'erişilemeyen etkinliklerin gösterimi';
 $string['none'] = '(hiçbiri)';
 $string['notavailableyet'] = 'Henüz ulaşılamaz';
-$string['userrestriction_visible'] = 'Etkinlik koşullu olarak sınırlandırıldı: &lsquo;$a&rsquo;';
+$string['requires_completion_0'] = '<strong>$a</strong> etkinliği tamamlanmadan ulaşılamaz.';
+$string['requires_completion_1'] = '<strong>$a</strong> etkinliği, tamamlanmış olarak işaretlenmeden ulaşılamaz.';
+$string['requires_completion_2'] = '<strong>$a</strong> etkinliği, tamamlanmadan ve geçer not almadan ulaşılamaz.';
+$string['requires_completion_3'] = '<strong>$a</strong> etkinliği, tamamlanmadan ve başarız olmadan ulaşılamaz.';
+$string['requires_date'] = 'Başlangıç: $a';
+$string['requires_date_before'] = 'Bitiş: $a';
+$string['requires_date_both'] = '$a->from ve $a->until tarihleri arasında ulaşılabilir.';
+$string['requires_grade_any'] = '<strong>$a</strong> etkinliğinden bir not almadan ulaşılamaz.';
+$string['requires_grade_max'] = '<strong>$a</strong> etkinliğinden uygun notu almadan ulaşılamaz.';
+$string['requires_grade_min'] = '<strong>$a</strong> etkinliğinden gerekli notu almadan ulaşılamaz.';
+$string['requires_grade_range'] = '<strong>$a</strong> etkinliğinden belirli notu almadan ulaşılamaz.';
+$string['showavailability'] = 'Etkinliğe ulaşılmadan önce';
+$string['showavailability_hide'] = 'Etkinliği tamamen gizle';
+$string['showavailability_show'] = 'Sınırlı bilgi ile soluk renkte göster';
+$string['userrestriction_hidden'] = 'Sınırlandırıldı (tamamen gizli, mesaj yok): &lsquo;$a&rsquo;';
+$string['userrestriction_visible'] = 'Sınırlandırıldı: &lsquo;$a&rsquo;';
 
 ?>
