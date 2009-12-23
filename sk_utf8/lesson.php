@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.3+ (Build: 20081204) (2007101532.08)
+      // lesson.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
 
 
 $string['accesscontrol'] = 'Kontrola prístupu';
@@ -112,7 +112,7 @@ $string['grade'] = 'Známkovať';
 $string['gradebetterthan'] = 'Známka lepšia ako (&#37;)';
 $string['gradebetterthanerror'] = 'Dosiahnuť viac ako $a percent z celkovej známky';
 $string['gradeessay'] = 'Známkovať otázky k úlohe ($a->notgradedcount neoznámkované a $a->notsentcount neodoslané)';
-$string['gradeis'] = 'Známka je  $a';
+$string['gradeis'] = 'Známka je $a';
 $string['gradeoptions'] = 'Možnosti známkovania';
 $string['handlingofretakes'] = 'Spracovanie opakovaného prechodu';
 $string['havenotgradedyet'] = 'Ešte nebolo oznámkované';
@@ -120,7 +120,7 @@ $string['here'] = 'tu';
 $string['highscore'] = 'Najvyššie skóre';
 $string['highscores'] = 'Najvyššie skóre';
 $string['hightime'] = 'Najlepší čas';
-$string['importcount'] = 'Importujem ??? otázok';
+$string['importcount'] = 'Importujem $a otázok';
 $string['importppt'] = 'Importovať prezentáciu z PowerPointu';
 $string['importquestions'] = 'Importovať otázky';
 $string['insertedpage'] = 'Vložená stránka';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9.5+ (Build: 20090617) (2007101550)
+      // xmldb.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
 
 
 $string['aftertable'] = 'Za tabuľkou:';
@@ -131,7 +131,7 @@ $string['wrongdefaults'] = 'Nájdené chybné východzie hodnoty';
 $string['wrongints'] = 'Boli nájdené nesprávne polia typu integer';
 $string['wronglengthforenum'] = 'Nesprávna dĺžka enum poľa';
 $string['wrongnumberoffieldsorvalues'] = 'Nesprávny počet polí alebo hodnôt vo vete';
-$string['wrongreservedwords'] = 'Súčasné rezervované slová<br />(názvy tabuliek nehrajú roľu, ak používate \$CFG->prefix)';
+$string['wrongreservedwords'] = 'Súčasné rezervované slová<br />(názvy tabuliek nehrajú rolu, ak používate $CFG->prefix)';
 $string['yesmissingindexesfound'] = 'Niektoré chýbajúce indexy boli nájdené vo vašej DB. Tu sú podrobnosti a potrebné SQL príkazy na vykonanie s vašim obľúbeným SQL rozhraním na ich vytvorenie. <br /><br /> Po vykonaní je vysoko doporučované spustiť tento skript znova na skontrolovanie, či nebudú nájdené žiadne ďalšie chýbajúce indexy.';
 $string['yeswrongdefaultsfound'] = 'Vo vašej databáze boli nájdené nesprávne typy niektorých celočíselných atribútov. Nasledujú bližšie informácie a potrebné SQL príkazy ku korektnej definícii vašich tabuliek. Pred spustením týchto príkazov vo vašom obľúbenom SQL klientovi si nezabudnite vytvoriť zálohu celej databázy.<br /><br />Pre istotu odporúčame, aby ste po spustení uvedených SQL príkazov spustili túto kontrolu znovu.';
 $string['yeswrongintsfound'] = 'Niektoré chýbajúce premenné typu integer boli nájdené vo vašej DB. Tu sú podrobnosti a potrebné SQL príkazy na vykonanie s vašim obľúbeným SQL rozhraním na ich vytvorenie (nezabudnite predtým zálohovať vaše údaje). <br /><br /> Po vykonaní je vysoko doporučované spustiť tento skript znova na skontrolovanie, či nebudú nájdené žiadne ďalšie chýbajúce indexy.';
