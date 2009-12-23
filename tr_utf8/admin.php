@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20091223) (2009112400)
 
 
 $string['accessdenied'] = 'Erişim engellendi';
@@ -831,7 +831,9 @@ $string['tablenosave'] = 'Yukarıdaki tablodaki değişiklikler otomatikmen kayd
 $string['tablesnosave'] = 'Yukarıdaki tablolardaki değişiklikler otomatikmen kaydedilir.';
 $string['tabselectedtofront'] = 'Sekmeleri kullanan tablolarda, şimdiki seçili sekme ön tarafa yerleştirilsin mi?';
 $string['tabselectedtofronttext'] = 'Seçili sekmeyi öne getir';
+$string['themedesignermode'] = 'Tema tasarımcısı modu';
 $string['themelist'] = 'Tema listesi';
+$string['themeresetcaches'] = 'Tema önbelleğini sil';
 $string['themeselector'] = 'Tema seçimi';
 $string['themesettings'] = 'Tema ayarları';
 $string['therewereerrors'] = 'Verinizde hatalar var';
@@ -883,6 +885,7 @@ $string['uploadpictures'] = 'Kullanıcı resimleri yükle';
 $string['uploaduserspreview'] = 'Kullanıcıların önizlemesini yükle';
 $string['uploadusersresult'] = 'Kullanıcı sonuçlarını yükle';
 $string['upwards'] = 'yukarısı';
+$string['useblogassociations'] = 'İlişkilendirmeleri etkinleştir';
 $string['useexternalyui'] = 'Çevrimiçi YUI kütüphanelerini kullan';
 $string['usehtmleditor'] = 'HTML düzenleyicisini kullan';
 $string['user'] = 'Kullanıcı';

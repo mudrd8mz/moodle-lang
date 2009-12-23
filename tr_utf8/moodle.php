@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091216) (2009112400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20091223) (2009112400)
 
 
 $string['abouttobeinstalled'] = 'yüklenmek üzere';
@@ -165,6 +165,7 @@ $string['backuplogdetailed'] = 'Ayrıntılı çalıştırma kaydı';
 $string['backuploglaststatus'] = 'Son çalıştırma kaydı';
 $string['backuplogshelp'] = 'Etkinleştirilirse ders logları otomatik yedeklemelere dahil edilecek';
 $string['backupmetacoursehelp'] = 'Etkinleştirirse, metaders bilgisi (miras öğrenci kayıtları) otomatik yedeklemelere dahil edilecek';
+$string['backupmissinguserinfoperms'] = 'Not: Yedekleme kullanıcı verisini içermiyor. Alıştırma ve Çalıştay etkinlikleri, bu tip yedeklemeyle uyumlu olmadığından yedeklemeye dahil edilmeyecek.';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
 $string['backupnext'] = 'Sonraki yedekleme';
 $string['backupnoneusersinfo'] = 'Uyarı: Kullanıcıların hiçbirini yedekleme için seçmediniz. Bundan dolayı tüm eklenti yedeklemeleri \"kullanıcı verisi olmadan\" moduna geçti. Lütfen \"alıştırma\" ve \"çalıştay\" eklentilerinin bu yedekleme tipiyle uyumlu olmadığını ve bundan dolayı bu eklentilerin tamamen pasifleştirildiğini dikkate alın.';
@@ -680,6 +681,7 @@ $string['forcedmode'] = 'zorunlu mod';
 $string['forcelanguage'] = 'Dil zorunluluğu';
 $string['forceno'] = 'Zorunlu değil';
 $string['forcepasswordchange'] = 'Şifre değişimini zorunlu tut';
+$string['forcepasswordchangecheckfull'] = '$a şifre değişimine zorlama yapmak istediğinizden emin misiniz?';
 $string['forcepasswordchangehelp'] = 'Kullanıcı bir sonraki girişi yaptığında değişim için onay iste';
 $string['forcepasswordchangenotice'] = 'Devam etmek için şifrenizi değiştirmelisiniz.';
 $string['forcetheme'] = 'Tema zorunluluğu';
@@ -1020,6 +1022,8 @@ $string['msnid'] = 'MSN ID';
 $string['mustchangepassword'] = 'Yeni şifre şu ankinden farklı olmalı';
 $string['mustconfirm'] = 'Girişinizi onaylamalısınız';
 $string['mycourses'] = 'Derslerim';
+$string['mymoodledashboard'] = 'Kontrol panelim';
+$string['myprofile'] = 'Profilim';
 $string['name'] = 'Ad';
 $string['namelams'] = 'LAMS';
 $string['namescorm'] = 'SCORM';
