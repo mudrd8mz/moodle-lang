@@ -1,5 +1,7 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9 + (Build: 20080324) (2007101509)
+      // filters.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
+
+
 $string['actfilterhdr'] = 'Aktive filtre';
 $string['addfilter'] = 'Legg til filter';
 $string['anycategory'] = 'alle kategorier';
@@ -19,6 +21,7 @@ $string['doesnotcontain'] = 'inneholder ikke';
 $string['endswith'] = 'slutter med';
 $string['firstaccess'] = 'Første tilgang';
 $string['globalrolelabel'] = '$a->label er $a->value';
+$string['includenever'] = 'Inkluder aldri';
 $string['isafter'] = 'er etter';
 $string['isanyvalue'] = 'er alle verdier';
 $string['isbefore'] = 'er før';
@@ -37,4 +40,5 @@ $string['startswith'] = 'starter med';
 $string['tablenosave'] = 'Endringer i tabellen over lagres automatisk.';
 $string['textlabel'] = '$a->label $a->operator $a->value';
 $string['textlabelnovalue'] = '$a->label $a->operator';
+
 ?>

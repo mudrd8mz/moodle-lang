@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -335,6 +335,12 @@ $string['getanothercaptcha'] = 'Få en CAPTCHA til';
 $string['guestloginbutton'] = 'Logg inn-knapp for gjester';
 $string['incorrectpleasetryagain'] = 'Feil. Vær vennlig å prøv en gang til.';
 $string['infilefield'] = 'Felt trengs i filen';
+$string['informminpassworddigits'] = 'minst $a tall';
+$string['informminpasswordlength'] = 'minst $a bokstaver';
+$string['informminpasswordlower'] = 'minst $a små bokstaver';
+$string['informminpasswordnonalphanum'] = 'minst $a spesialtegn';
+$string['informminpasswordupper'] = 'minst $a store bokstaver';
+$string['informpasswordpolicy'] = 'Passordet ditt må være på $a';
 $string['instructions'] = 'Instruksjoner';
 $string['internal'] = 'Intern';
 $string['locked'] = 'Låst';
