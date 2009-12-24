@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20091218) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -1057,7 +1057,7 @@ Viel Erfolg!
 $a->signoff';
 $string['newusers'] = 'Neue Nutzer/innen';
 $string['newwindow'] = 'Neues Fenster';
-$string['next'] = 'Nächste';
+$string['next'] = 'Weiter';
 $string['nextsection'] = 'Nächster Bereich';
 $string['no'] = 'Nein';
 $string['nobody'] = 'Niemand';
@@ -1210,7 +1210,7 @@ $string['preprocessingbackupfile'] = 'Vorbereitung der Sicherung';
 $string['preview'] = 'Vorschau';
 $string['previewhtml'] = 'Vorschau im HTML-Format';
 $string['previeworchoose'] = 'Vorschau oder Auswahl eines Designs';
-$string['previous'] = 'Frühere';
+$string['previous'] = 'zurück';
 $string['previoussection'] = 'Vorheriger Bereich';
 $string['primaryadminsetup'] = 'Account für Hauptadmin';
 $string['profile'] = 'Profil';
