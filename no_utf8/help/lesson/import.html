@@ -1,0 +1,87 @@
+<h1>Importere nye spørsmål</h1>
+
+<p>Denne funksjonen lar deg importere spørsmål fra eksterne tekstfiler - som du laster opp direkte.</p>
+
+<p>En rekke filformater støttes:</p>
+
+<h2>GIFT format</h2>
+<div class="indent">
+<p>GIFT er det mest omfattende importformatet for import av Moodle quiz fra en tekstfil. Det ble opprinnelig laget for å gjøre det enkelt for lærere å skrive spørsmålene rett i en tekstfil og deretter importere. Formatet støtter Flervalg, San/Usant, Kortsvar, Sammenfallende og Numeriske spørsmål. Det støtter også automatisk innlegging av  _____________ i formatet Manglende ord. Du kan blande flere spørsmålsformater i samme tekstfil og støtter også kommentarer, spørsmålsnavn, tilbakemelding og prosentvektede karakterer. Under finner du noen eksempler:</p>
+<pre>
+Who's buried in Grant's tomb?{~Grant ~Jefferson =no one}
+
+Grant is {~buried =entombed ~living} in Grant's tomb.
+
+Grant is buried in Grant's tomb.{FALSE}
+
+Who's buried in Grant's tomb?{=no one =nobody}
+
+When was Ulysses S. Grant born?{#1822}
+</pre>
+
+<p class="moreinfo"><a href="help.php?file=formatgift.html&amp;module=quiz">Mer informasjon om "GIFT" formatet</a></p>
+</div>
+
+<h2>Aiken format</h2>
+<div class="indent">
+<p>Aiken-formatet er en meget enkel måte å lage flersvar spørsmål på, ved at det brukes et klartekst lesbart format. Her er et eksempel:</p>
+<pre>
+What is the purpose of first aid?
+A. To save life, prevent further injury, preserve good health
+B. To provide medical treatment to any injured or wounded person
+C. To prevent further injury
+D. To aid victims who may be seeking help
+ANSWER: A
+</pre>
+
+<p class="moreinfo"><a href="help.php?file=formataiken.html&amp;module=quiz">Mer informasjon om "Aiken" formatet</a></p>
+</div>
+
+<h2>Manglende ord</h2>
+<div class="indent">
+<p>Dette formatet støtter bare flersvar spørsmål. Hvert svar skilles fra hverandre med en tilde (~), og korrekt svar merkes med et Er lik-tegn (=).  Under finner du et eksempel:</p>
+
+<blockquote><p>As soon as we begin to explore our body parts as infants
+we become students of {=anatomy and physiology ~reflexology 
+~science ~experiment}, and in a sense we remain students for life.</p>
+</blockquote>
+
+<p class="moreinfo"><a href="help.php?file=formatmissingword.html&amp;module=quiz">More info about the "Missing Word" format</a></p>
+</div>
+
+<h2>AON</h2>
+<div class="indent">
+<p>Dette er det samme som Manglende ord-formatet, unntatt at alle spørsmål blir konvertert fire om gangen til sammenfallende spørsmål etter import.</p>
+<p>I tillegg vil svarende på flervalgsspørsmålene bli vist i tilfeldig rekkefølge.</p>
+<p>AON-navnet er fra organisasjonen som sponset utviklingen av de mange funksjonene i dette formatet.</p>
+</div>
+
+<h2>Blackboard</h2>
+<div class="indent">
+<p>Denne modulen kan importere spørsmål som er lagret i Blackboards eksportformat. Det bruker XML-funksjoner som allerede finnes i PHP på din installasjon.</p>
+
+<p class="moreinfo"><a href="help.php?file=formatblackboard.html&amp;module=quiz">Mer informasjon om "Blackboard" formatet</a></p>
+</div>
+
+<h2>Course Test Manager</h2>
+<div class="indent">
+<p>Denne modulen kan importere spørsmål som er lagret i en Course Test Manager testbank. Den tillater forskjellige måter å koble seg til Microsoft Access-databasen på, avhengig av om Moodle kjører på en Windows eller Linux server.</p>
+<p>På Windows kan du laste opp Accessdatabasen som enhver annen importfil.</p>
+<p>På Linux må du sette opp en Windowsmaskin på samme nettverk som Course Test
+Manager databasen og installere softwaren ODBC Socket Server. Denne programvaren bruker  XML for å overføre data til Moodle på Linux-serveren.</p>  
+
+<p>Vennligst les HELE hjelp-filen før du bruker denne importmodulen.</p>
+
+<p class="moreinfo"><a href="help.php?file=formatctm.html&amp;module=quiz">Mer informasjon om "CTM" formatet</a></p>
+</div>
+
+<h2>Tilpasset</h2>
+<div class="indent">
+<p>Derso du har ditt eget format for import, kan du lage deg en importmodul selv ved å redigere filen  mod/quiz/format/custom.php</p>
+
+<p>Mengden ny kode som trengs er ganske liten - bare nok til å trekke ut et enkelt spørsmål fra en gitt tekst.</p>
+
+<p class="moreinfo"><a href="help.php?file=formatcustom.html&amp;module=quiz">Mer informasjon om  "Tilpasset" format</a></p>
+</div>
+
+<p>Det vil komme flere formatet, inkludert WebCT, IMS QTI og annet som Moodle-fellesskapet kan bidra med!</p>
