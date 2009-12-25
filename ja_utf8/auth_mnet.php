@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // auth_mnet.php - created with Moodle 2.0 dev (Build: 20090603) (2009060200)
+      // auth_mnet.php - created with Moodle 2.0 dev (Build: 20091225) (2009112400)
 
 
-$string['auth_mnet_auto_add_remote_users'] = '「Yes」にした場合、リモートユーザの初回ログイン時に、ローカルユーザのレコードが自動作成されます。';
+$string['auth_mnet_auto_add_remote_users'] = '「Yes」にした場合、リモートユーザの初回ログイン時、ローカルユーザのレコードが自動作成されます。';
 $string['auth_mnet_roamin'] = '次のホストのユーザは、あなたのサイトを散策できます';
 $string['auth_mnet_roamout'] = 'あなたのユーザは、次のホストを散策できます';
 $string['auth_mnet_rpc_negotiation_timeout'] = 'XMLRPCトランスポートによる認証のタイムアウト (秒)';

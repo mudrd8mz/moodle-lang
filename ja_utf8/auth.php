@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091225) (2009112400)
 
 
 $string['CASform'] = '認証選択';
@@ -127,7 +127,7 @@ $string['auth_fieldlocks'] = 'ユーザフィールドのロック';
 $string['auth_fieldlocks_help'] = '<p>あなたは、ユーザデータフィールドをロックすることができます。ユーザレコードを管理者が手動で管理する方法、または「ユーザのアップロード」機能を使用してユーザレコードをアップロードする方法をとっているサイトに有用です。Moodleが必要とするフィールドをロックする場合、ユーザアカウント作成時にそれらのデータを必ず提供してください。そうでない場合、アカウントを使用できなくなります。</p><p>この問題を避けるため、「空の場合はロックしない」に設定することをお勧めします。</p>';
 $string['auth_imapchangepasswordurl_key'] = 'パスワード変更URI';
 $string['auth_imapdescription'] = 'ユーザ名およびパスワードを確認するためIMAPサーバを使用します。';
-$string['auth_imaphost'] = 'IMAPサーバアドレスです。IPアドレスではなく、ドメイン名を使用してください。';
+$string['auth_imaphost'] = 'IMAPサーバアドレスです。DNS名ではなく、IPアドレスを使用してください。';
 $string['auth_imaphost_key'] = 'ホスト';
 $string['auth_imapnotinstalled'] = 'IMAP認証を使用できません。PHP IMAPモジュールがインストールされていません。';
 $string['auth_imapport'] = 'IMAPサーバポート番号です。通常、143または993です。';
@@ -217,7 +217,7 @@ $string['auth_mnettitle'] = 'Moodleネットワーク認証';
 $string['auth_multiplehosts'] = '複数のホストまたはアドレスを設定できます (例 host1.com;host2.com;host3.com) または (例 xxx.xxx.xxx.xxx;xxx.xxx.xxx.xxx)';
 $string['auth_nntpchangepasswordurl_key'] = 'パスワード変更URI';
 $string['auth_nntpdescription'] = 'ユーザ名およびパスワードを確認するため、NNTPサーバを使用します。';
-$string['auth_nntphost'] = 'NNTPサーバアドレスです。IPアドレスではなく、ドメイン名を使用してください。';
+$string['auth_nntphost'] = 'NNTPサーバアドレスです。DNS名ではなく、IPアドレスを使用してください。';
 $string['auth_nntphost_key'] = 'ホスト';
 $string['auth_nntpnotinstalled'] = 'NNTP認証を使用できません。PHP IMAPモジュールがインストールされていません。';
 $string['auth_nntpport'] = 'サーバポート (119が最も一般的です)';
