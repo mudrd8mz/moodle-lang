@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20091226) (2007101570)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -340,7 +340,7 @@ $string['guestloginbutton'] = 'Taste für das Gast-Login';
 $string['incorrectpleasetryagain'] = 'Leider falsch! Bitte probieren Sie es nochmal.';
 $string['infilefield'] = 'Erforderliches Feld in Datei';
 $string['informminpassworddigits'] = '$a Ziffer(n)';
-$string['informminpasswordlength'] = 'mindestens $a Zeichen lang';
+$string['informminpasswordlength'] = 'mindestens $a Zeichen';
 $string['informminpasswordlower'] = '$a Kleinbuchstabe(n)';
 $string['informminpasswordnonalphanum'] = '$a Sonderzeichen';
 $string['informminpasswordupper'] = '$a Großbuchstabe(n)';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091218) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20091226) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -27,17 +27,17 @@ $string['addedrecips'] = '$a neue Empfänger hinzugefügt';
 $string['addedtogroup'] = 'Zur Gruppe $a hinzugefügt';
 $string['addedtogroupnot'] = 'Nicht zur Gruppe $a hinzugefügt';
 $string['addedtogroupnotenrolled'] = 'Nicht zur Gruppe $a hinzugefügt, da nicht im Kurs eingeschrieben';
-$string['addinganew'] = 'Füge $a hinzu';
-$string['addinganewto'] = 'Füge $a->what zu $a->to hinzu';
-$string['addingdatatoexisting'] = 'Füge Daten zu bestehenden hinzu';
-$string['addnewcategory'] = 'Neuen Kursbereich hinzufügen';
+$string['addinganew'] = '$a hinzufügen';
+$string['addinganewto'] = '$a->what zu $a->to hinzufügen';
+$string['addingdatatoexisting'] = 'Daten zu bestehenden hinzufügen';
+$string['addnewcategory'] = 'Neuen Kursbereich anlegen';
 $string['addnewcourse'] = 'Neuen Kurs anlegen';
 $string['addnewuser'] = 'Nutzer/in neu anlegen';
 $string['addnousersrecip'] = 'Nutzer/innen hinzufügen, die sich nicht in diese $a Liste eingetragen haben';
 $string['addresource'] = 'Arbeitsmaterial anlegen...';
 $string['address'] = 'Adresse';
 $string['addstudent'] = 'Teilnehmer/in hinzufügen';
-$string['addsubcategory'] = 'Neuen Kursunterbereich hinzufügen';
+$string['addsubcategory'] = 'Neuen Kursunterbereich anlegen';
 $string['addteacher'] = 'Trainer/in anlegen';
 $string['admin'] = 'Admin';
 $string['adminbookmarks'] = 'Administratorlesezeichen';
@@ -46,7 +46,7 @@ $string['adminhelpassignadmins'] = 'Administrator/innen haben vollen Zugriff auf
 $string['adminhelpassigncreators'] = 'Kursverwalter/innen können neue Kurse anlegen und dort unterrichten.';
 $string['adminhelpassignsiteroles'] = 'Definierte Rollen der Website auf ausgewählte Nutzer/innen anwenden';
 $string['adminhelpassignstudents'] = 'Gehen Sie in einen Kurs und fügen Sie die Teilnehmer/innen über den Administrationsblock hinzu.';
-$string['adminhelpassignteachers'] = 'Wählen Sie einen Kurs und verwenden Sie zum Anlegen von Trainer/innen das Symbol';
+$string['adminhelpassignteachers'] = 'Wählen Sie einen Kurs und fügen Sie die Trainer/innen über den Administrationsblock hinzu.';
 $string['adminhelpauthentication'] = 'Sie können die interne Nutzerverwaltung oder externe Datenbanken verwenden.';
 $string['adminhelpbackup'] = 'Datensicherung konfigurieren';
 $string['adminhelpconfiguration'] = 'Aussehen und Aufbau der Website konfigurieren';
@@ -95,13 +95,13 @@ $string['allactions'] = 'Alle Aktionen';
 $string['allactivities'] = 'Alle Aktivitäten';
 $string['allchanges'] = 'Alle Änderungen';
 $string['alldays'] = 'Alle Tage';
-$string['allfieldsrequired'] = 'Alle Felder sind zwingend erforderlich';
+$string['allfieldsrequired'] = 'Alle Felder sind erforderlich';
 $string['allfiles'] = 'Alle Dateien';
 $string['allgroups'] = 'Alle Gruppen';
 $string['alllogs'] = 'Alle Logdaten';
 $string['allmods'] = 'Alle $a';
 $string['allow'] = 'Zulassen';
-$string['allowguests'] = 'In diesem Kurs sind Gäste zugelassen.';
+$string['allowguests'] = 'In diesem Kurs sind Gäste zugelassen';
 $string['allowinternal'] = 'Auch interne Verfahren zulassen';
 $string['allownone'] = 'Nichts zulassen';
 $string['allownot'] = 'Nicht zulassen';
