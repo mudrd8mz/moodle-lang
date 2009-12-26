@@ -1,0 +1,34 @@
+<h1>Oversikt</h1>
+
+<ol>
+<li>En leksjon er bygd opp av et antall <b>sider</b> og valgfrie <b>forgreninger</b>.</li>
+<li>En side inneholder noe <b>innhold</b> har vanligvis et <b>spørsmål</b> nederst på siden. Det er derfor dette kalles <b>spørsmålssider</b>.</li>
+<li>Fritekstspørsmål inneholder ingen svaralternativer, poengsum, tilbakemelding eller styrte sprang videre.</li>
+<li>Hvert svar kan ha en kort tekst som vises hvis alternativet velges. Denne teksten kalles <b>responsen</b>.</li>
+<li>Til hvert svaralternativ hører det til et <b>Gå til-sprang</b>. Denne lenken kan være relativ, som Denne siden/Neste side, eller absolutt, hvor en av sidene er valgt eller siste siden i leksjonen.</li>
+<li>Som standard er første svaralternativ satt opp med <b>Neste side</b> som Gå til-lenke. De andre svaralternativene viser bare samme side en gang til. Hvis du har satt opp et cluster med en sisteside for clusteret, kan du også velge å gå til en usett side innen clusteret. Du kan gjøre om et sett av spørsmål til et cluster når som helst ved å sette inn sider for start og slutt på cluster foran og etter.</li>
+<li>Neste side bestemmes av leksjonens <b>logiske rekkefølge</b>. Dette er den rekkefølgen som vises for læreren i redigeringsmodus. Sidene kan enkelt reorganiseres innen leksjonen.</li>
+<li>Leksjonen har også en <b>navigasjonsrekkefølge</b>. Dette er den rekkefølgen sidene vises i for studenter. Rekkefølgen bestemmes av de hopp/sprang som er angitt for hvert svaralternativ og kan være svært forskjellig fra den logiske rekkefølgen. Læreren har mulighet til å sjekke navigasjonsrekkefølgen.</li>
+<li>Svaralternativene vises vanligvis i tilfeldig rekkefølge fra gang til gang. Unntaket er spørsmålstypen "Sammenfallende", der svaralternativene vises i den rekkefølgen de er lagt inn av læreren. </li>
+<li>Antall svaralternativer kan variere fra side til side. F.eks. kan noen sider ha Sant/Usant spørsmål, mens andre har ett riktig svar og tre feilsvar for å distrahere.</li>
+<li>Det er også mulig å utelate spørsmål og svaralternativer. Da vises i stedet en "Fortsett"-knapp.</li>
+<li>Dersom egendefinert poenggiving er deaktivert: For at leksjonen skal kunne gis poeng oppfattes <b>riktige</b> svar som de sider hvor Gå til-lenken fører studenten videre i leksjonen. Dersom Gå til-lenken fører studenten til samme side eller en tidligere side (i leksjonens logiske rekkefølge), betraktes svaret som feil og gis 0 poeng.<br />
+Dersom egendefinert poenggiving er aktivert: Poengsummen beregnes da av verdien tilhørende valgt svaralternativ og endelig poengsum beregnes mot  maks oppnåelig - maks 100%.</li>
+<li>Spørsmål kan ha mer enn ett riktig svar. F.eks. dersom to av svaralternativene fører til neste side, blir begge betraktet som riktig svar. (Selv om de føres til samme side, kan du likevel tilpasse responsen individuelt via den teksten du skriver inn som respons til svaralternativene.)</li>
+<li>I lærerens visning av leksjonen har korrekte svar understrekede svartitler.</li>
+<li><b>Menysider</b> er ganske enkelt sider som har et sett av lenker til andre sider i leksjonen. Det er ganske vanlig at leksjonen starter med en leksjonsmeny som dermed fungerer som en innholdsfortegnelse.</li>
+<li>Hver lenke på en menyside har to deler, en beskrivelse og en side å gå til.</li>
+<li>Menysiden er anvendelig til å dele leksjonen opp i flere forgreninger/seksjoner. Hver forgrening kan ha et antall sider som vanligvis avsluttes med en <b>Slutt på forgrening</b>. Dette er en spesialside som fører studenten tilbake til menysiden for forgreningen. (Dersom du har behov for det kan Gå til-lenken på en "Slutt på forgrening"-side endres.)</li>
+<li>Det kan være mer enn en menyside i en leksjon. F.eks. kan en leksjon organiseres slik at spesielle emner behandles i egne forgreninger innen en forgrening.</li>
+<li>Det er viktig at du gir studentene en mulighet til å gå ut av leksjonen. Dette kan gjøres ved å legge inn en "Avslutt leksjonen"-knapp på hovedmenyen for leksjonen. En annen måte er å utelate "Slutt på forgrening"-siden i en av forgreningene og endre navigasjonen til å peke mot slutten av leksjonen.</li>
+<li>Med egentilpasset poenggiving deaktivert - og en leksjon med en eller flere menysider  -  er det et godt råd å sette "Minimum antall spørsmål" til en fornuftig verdi. Da angir du et minsteantall sider som skal være vist før leksjonen beregner en poengsum. Hvis du ikke gjør dette kan du oppleve at studenter gjennomfører EN forgrening av f.eks. fire, svarer riktig på alt og får dermed 100% riktig på leksjonen (selv om studenten bare har gjennomført en fjerdedel...)
+    <br /><br />
+Med egendefinert poenggiving aktivert vil en student få poengsummen beregnet ut i fra oppnådde poeng som en prosentskår av maks oppnåelig for leksjonen.</li>
+<li>Videre, med egendefinert poenggiving deaktivert, kombinert med en menyside, vil studentene kunne ta en forgrening flere ganger. Gjentatte svar på samme spørsmålssider øker ikke poengsummen siden hver side beregnes som en unik del av totalsummen. Gjentatte svar har faktisk motsatt effekt: Moodle teller antall sider vist som en del av beregningen av endelig karakter. Mange sider vist uten nye poeng vil derfor <b>redusere</b> karakteren! For å gi studentene en ide om hvordan de gjør det, vil det derfor vises en oversikt over hvor mange sider de har vist, riktige svar og poengsum oppnådd så langt.
+    <br /> <br />
+Med egendefiert poenggiving aktivert kan studenten ta spørsmålssider om igjen (hvis navigasjonen og gjentatte forsøk tillater det) og dermed øke poengsummen sin.</li>
+<li>Slutten på leksjonen nås enten via en Gå til-lenke som peker dit, ELLER fra siste side før slutten på leksjonen - slik den vises i logisk rekkefølge. Med egentilpasset poenggiving deaktivert vil studentene få en gratulasjonsmelding på siste siden og karakteren vises. De får også oversikt over hvor mange sider de har vist/spørsmål de har besvart. Med egendefinert poenggiving aktivert beregnes poengsummen som en % av mulige poeng.</li>
+<li>Dersom studenten ikke fullfører leksjonen vil de neste gang får muligheten til å fortsette med forrige forsøk eller begynne på nytt.</li>
+<li>Leksjoner som tillater flere forsøk kan settes opp med karakterberegning tilpasset dette. F.eks. kan leksjonen beregne karakteren som en gjennomsnitt av alle forsøk.</li>
+<li>Clustersider: Et cluster er et sett av spørsmålssider hvorav det trekkes tilfeldig ett eller flere spørsmål. Clustere må avsluttes med en "Slutt på cluster"-side. Spørsmål innen et cluster kan enten lenke til "Slutt på cluster"-siden for å gå ut av clusteret, eller "Vis et usett spørsmål" for å vise et annet spørsmål. Denne funksjonen åpner også for at du kan ha tilfeldige sider som en del av en leksjon.</li>
+</ol>

@@ -1,0 +1,102 @@
+<h1>Spørsmålstyper</h1>
+
+<p>Spørsmålstypene som for tiden støttes av leksjonsmodulen er:</p>
+
+<ol>
+<li><p><b>Flersvar</b></p><p>Dette er standard spørsmålstype for leksjon. Flersvar spørsmål er mye brukt når studenten skal velge blant et sett av alternativer. Det riktige svaret fører studenten videre i leksjonen - de gale svarene gjøre det ikke. De gale svarene kalles ofte for distraktorer og kvaliteten på disse er ofte viktigere enn spørsmålet med tilhørende riktig svar.</p>
+
+<p> Hvert svaralternativ kan ha egen responstekst. Dersom det ikke er lagt inn noen responstekst for svaret vil standardmeldingen brukes: "Det var korrekt svar"/"Svaret var feil".</p>
+
+<p>Det er mulig å ha mer enn ett riktig svar på et flersvarspørsmål. De forskjellige svaralternativene kan settes opp med egen tilbakemelding og føre studentene videre til helt forskjellige sider, men likevel gi samme poengsum. Det er også mulig å sette alle alternativene som korrekt og bruke svaralternativene til å føre studenten til bestemte sider tilpasset valget.</p>
+
+<p>Det finnes en variant av flervalgsspørsmål som kalles <b>flervalg/flersvar</b>-spørsmål. Dersom valget er avmerket må studenten merke av for ALLE alternativene som er riktig (mer enn ett) fra et sett svaralternativer. Spørsmålet kan inneholde informasjon om hvor mange alternativer som må krysses av for å få riktig svar. Mangler slik informasjon øker vanskelighetsgraden. Antallet riktige svar kan være fra mer enn 1 til alle alternativene. Du vil se at denne spørsmålstypen (flervalg/flersvar) skiller seg fra vanlig flersvar ved at det her er mulig å merke av mer enn ett alternativ samtidig. I flersvar kan bare ett alternativ velges.</p>
+
+<p>Også her flagges korrekte svar ved å føre studenten videre i leksjonen, feil svar lenker til samme side eller bakover. Hvis det er mer enn ett riktig svar må de lenkes til samme side - tilsvarende for feil svar. Tilbakemelding for korrekt svar skal skrives i tilbakemeldingsfeltet for første riktige alternativ, tilsvarende gjøres for tilbakemelding ved gale svar: Skriv denne tilbakemeldingen i første forekomst av galt alternativ. Tilbakemeldinger skrevet i de andre svaralternativene blir  utelatt.</p></li>
+
+<li><p><b>Kortsvar</b> </p>
+  <p>Studenten blir bedt om å skrive inn et kort svar. Dette svaret blir sjekket mot ett eller flere korrekte svar. Svaret kan være riktig eller galt. Hvert svar kan i tillegg ha egen tilbakemelding. Dersom det ikke er lagt inn noen tilbakemelding vil standard tilbakemeldingstekst vises. Dersom teksten som studenten legger inn ikke stemmer overens med noen av svaralternativene, blir svaret registrert som feil og standard tilbakemelding for feil svar vises.</p>
+  <p><strong>Det finnes to forskjellige sammenligningssystemer</strong> for å evaluere kortsvar. Det enkleste systemet brukes som standard, systemet for "Regulære uttrykk" brukes dersom det er merket av for dette.</p>
+  <ul>
+    <li><strong>Enkel analyse</strong>
+      <p>I dette enkle systemet blir store og små bokstaver oversett. Du kan bruke stjernetegn (*) som en del av svaret for å godta alle tegn fra og med (*). F.eks. vil svaret Lang* godta svar som Langenes, Langli og Langtvekkistan. Dersom ett av alternativene er stjernetegn (*) vil alle svar bli godtatt, så det mest vanlige er å bruke stjernetegnet på sluttet av ord. </p>
+      <p> Dersom du trenger stjernetegnet som en del av svaret må det legges inn med en backslash foran, slik: \*</p>
+    </li>
+  </ul>
+  <ul>
+    <li><strong>Regulærer uttrykk - analyse</strong>
+      <p>Dette systemet gir deg tilgang til en mye kraftigere, men samtidig mer komplisert form for, analyse av studentenes svar. For fullstendig beskrivelse av regulære uttrykk bør du besøke <a href="http://www.zend.com/zend/tut/tutorial-delin2.php" target="_blank">regular-expressions 
+          tutorial</a> eller <a href="http://perso.wanadoo.fr/joseph.rezeau/eao/developpement/expandRegexpToString.htm#" 
+          target="_blank">rezeau.org</a>. </p>
+
+      <h3>Korrekte svar som sammenfaller med regulære uttrykk</h3>
+      <p>Det er ikke mulig å gi noen komplett oversikt over alle de mulighetene som tilbys via regulære uttrykk, men her kommer noen muligheter du kan prøve ut:</p>
+      <p><strong>Eksempel 1.</strong> Anta at spørsmålet er: "Hva er fargene i det franske flagget?" I feltet for svar 1 skriver du inn dette regulære uttrykket: 
+&quot;<span class="c_computeroutput">Det er blå, hvit(,| og) 
+          rød</span>/i&quot;. Dette vil sammenfalle med en av følgende fire alternativer:</p>
+      <ul>
+        <li>Det er blå, hvit, rød</li>
+        <li>Det er blå, hvit og rød</li>
+        <li>det er blå, hvit, rød</li>
+        <li>det er blå, hvit og rød</li>
+      </ul>
+
+      <p>Vennligst merk at regulære uttrykk som standard er sensitive for store/små bokstaver.  For å dekke både store og små bokstaver må du legge til parameteren  <strong>/i</strong> på slutten av det regulære uttrykket</p>
+      <p><strong>Eksempel 2</strong>. Spørsmål: &quot;What is blue, or red, or yellow?&quot;. 
+          Answer: &quot;(|it's )a colou?r&quot;. This will match:</p>
+      <ul>
+        <li>a colour</li>
+        <li> a color</li>
+        <li>it's a colour</li>
+        <li>it's a color</li>
+      </ul>
+      <p>Merknader - Begynnelsen på dette regulære uttrykket vil sammenfalle med enten ingenting eller "it´s ". Spørsmålstegnet betyr at alle tegn på plassen før spørsmålstegnet godtas. </p>
+      <p><strong>Eksempel 3.</strong> Question: &quot;Name an animal whose name is made 
+          of 3 letters and the middle letter is the vowel <em>a</em>&quot;. Answer: 
+          &quot;[bcr]at&quot;. This will match: bat, cat and rat. </p>
+      <h3>Oppdate manglende påkrevde ord eller tekststrenger</h3>
+      <p>Reulære uttrykk alene kan ikke oppdage manglende tekststrenger, så du må legge inn litt kode i svaret ditt for å håndtere dette. Alle lærersvar som starter med doble anførselstegn vil bli tatt med i analysen av studentens svar for å finne ut om teksten finnes der eller ikke. Dersom den finnes, fortsetter analysen med neste spørsmål. Dersom tekststrengen ikke finnes vil analysen stoppe opp og relevant tilbakemelding vises.</p>
+      <p><strong>Eksempel 4.  </strong></p>
+      <ul>
+        <li>Svar 2: <span class="c_computeroutput">--.*blue.*</span>/i</li>
+        <li>studentsvar: &quot;it's red and white&quot; </li>
+        <li>Tilbakemelding 2: <span class="c_computeroutput">The color of the sky is missing!</span></li>
+        <li>Gå til 2: <span class="c_computeroutput">this page</span></li>
+      </ul>
+      <p>Her står .(punktum) for ethvert tegn og * (stjernetegn) betyr at alle tegn fra og med denne posisjonen godtas. Det regulære uttrykket i svar 2 betyr: Sjekk hvorvidt tekststrengen &quot;blue&quot;, innledet med hva som helst og avsluttet med hva som helst, er fraværende i studentens svar. Vennligst legg merke til at bruken av * er annerledes enn i den enkle analysen enn i regulære uttrykk.</p>
+      <p><strong>Eksempel 5.</strong> Spørsmål: &quot;Name an animal whose name is made of 
+          3 letters and the middle letter is the vowel <em>a</em>&quot;. Teacher Answer: &quot;--[b|c|r]&quot;. Response: &quot;Your answer should start with one of these letters: b, c or r&quot; </p>
+      <h3>Oppdage uønskede (feil) ord eller tekststrenger</h3>
+      <p>Du ønsker kanskje å finne ut, i studentens svar, om ett eller flere ord er tilstede eller ikke, og å skille dem ut med en bestemt tilbakemelding. Start din lærertilbakemelding med to plusstegn (++).</p>
+      <p><strong>Eksempel 6. </strong></p>
+      <ul>
+        <li>Svar 3: ++(yellow|black|orange|green|black|pink)/i</li>
+        <li>Studentsvar: &quot;it's blue, orange and white&quot; </li>
+        <li>Tilbakemelding 3: One or more colors are wrong!</li>
+        <li>Gå til 3: this page</li></ul>
+        <p>Dersom noen av disse (feil) farger oppdages i studentens svar vil den negative tilbakemelding 3 vises og de gale tekststrengene farges røde. (avhenger av at fargen for .incorrect class finnes i css i designet ditt).</p>
+      <p><strong>Eksempel 7</strong>. Question: &quot;Name an animal whose name is made 
+          of 3 letters and the middle letter is the vowel <em>a</em>&quot;. Teacher 
+          Answer: &quot;++hat&quot;. Response: &quot;You might wear one made of an 
+          animal's skin, but a hat can't be considered as an animal.&quot;   </p>
+      <h3>Unngå spesialtegn</h3>
+      <p>Dersom du har behov for spesialtegn som er en del av koden i regulære uttrykk, må de skilles ut med backslash-tegn \. Hvis du f.eks. skriver at "Min pc koster 1000$", må du skrive "Min pc koster 1000\$" for at ikke dollartegnet skal tolkes som kode i regulære uttrykk. Spesialtegn som må behandles på denne måten er: ^$*()[]+?|</p>
+    </li>
+  </ul>
+</li>
+
+<li><p><b>Sant/Usant</b> Svaret på denne spørsmålstypen har bare to valg; Sant/Usant. Studenten må velge hva som er korrekt. Dette er  egentlig en Flersvarsoppgave begrenset til to valgmuligheter.</p></li>
+
+<li><p><b>Sammenfallende</b> Dette er en ganske kraftig og fleksibel spørsmålstype. Den består av en liste over navn eller utsagn som skal kobles korrekt med  en annen liste med navn eller utsagn. F.eks. Hovedsteder med Land:
+Den ene listen har Japan, Canada, Italia den andre Tokyo, Ottawa og Roma. Det er mulig å ha flere lister i en, men vær forsiktig så gjentakelsene blir identiske.</p>
+
+<p>Når du lager spørsmål av denne typen skriver du inn den første listen i Svar-feltet og andre liste i Respons-feltet. Straks spørsmålet er opprettet vises et mer detaljert navneskjema. Når studenten har koblet alternativene korrekt vil Gå til-lenken på svar 1 bli benyttet. Svares det feil brukes Gå til-lenken for svaralternativ 2. Spørsmålstypen støtter <b>ikke</b> tilpasset tilbakemelding. Studenten får kun vite hvor mange koblinger som er korrekte eller om alle koblingene er det.</p>
+
+<p>Ulikt Flersvar-spørsmål, hvor alternativene vises i tilfeldig rekkefølge, vil den første listen ikke vises i tilfeldig rekkefølge. Dette åpner for spørsmål hvor studentene må sortere i rett rekkefølge. Liste nr.2 kan da inneholde tallene i rekkefølgen som skal kobles. Liste 2 vil alltid vises i tilfeldig rekkefølge.</p></li>
+
+<li><p><b>Numerisk</b> Denne spørsmålstypen krever et tall som svar. I sin enkleste form kreves det kun et tall i fasiten. f.eks. "Hva er 2 + 2?", hvor tallet 4 gir neste side. Likevel; det er bedre å angi en tallområde fordi intern avrund av numeriske verdier kan medføre at et tall treffer eller feiler. F.eks. "Hvor mye er 10 / 3?". Her vil det være nødvendig å angi en minimums- og maksimumsverdi, som er to verdier atskilt med kolon (:). 
+Et fornuftig tallområde for svaret kan være 3,33:3,34 og vil da godta 3,33, 3,333, 3,3333 osv. Feil svar vil f.eks. være 3,3 og 3,4.</p>
+
+<p>Mer enn ett riktig svar tillates og svarene kan enten være enkeltverdier eller par av verdier. Merk at svarene testes i rekkefølgen svar 1, svar 2 osv. så du må være oppmerksom slik at korrekt respons fremkommer. F.eks. kan spørsmålet "Når ble Larkin født" ha verdien 1922 som eksakt svar eller 1920:1929, tjueåra, som det mindre eksakte svaret. Rekkefølgen som bør testes er her åpenbart 1922 først, deretter 1920:1929 med litt mindre poeng og en annen tilbakemelding.</p>
+
+<p>Feil svaralternativer kan legges inn, men avhengig av tallområdet, skal du være oppmerksom på at de må plasseres ETTER de korrekte svaralternativene. F.eks. Legger du til det gale svaret 3,4 for oppgaven over, må dette plasseres etter de riktige alternativene.</p></li>
+</ol>
