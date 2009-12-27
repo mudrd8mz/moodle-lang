@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091225) (2009112400)
+      // auth.php - created with Moodle 2.0 dev (Build: 20091227) (2009122500)
 
 
 $string['CASform'] = '認証選択';
@@ -354,8 +354,8 @@ $string['rpc_negotiation_timeout'] = 'RPCネゴシエーションタイムアウ
 $string['selfregistration'] = '自己登録';
 $string['selfregistration_help'] = '「Eメールによる自己登録」のような認証プラグインが選択された場合、潜在的なユーザに対して、自分自身での登録およびユーザアカウント作成を許可します。この場合、フォーラム投稿、ブログエントリ等でスパムを発信するスパム発信者に対して、アカウントを作成させてしまうことになります。このリスクを避けるには、自己登録を無効にするか、「許可されるメールアドレスのドメイン」設定にて、使用できるメールアドレスを制限してください。';
 $string['sha1'] = 'SHA-1暗号化';
-$string['shib_no_attributes_error'] = 'あなたはShibbolethによりユーザ認証したようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているサービスプロバイダに対して必要な属性 ($a) をアイデンティティ・プロバイダが発行しているか確認、またはこのサーバの管理者に連絡してください。';
-$string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleが必要としているようです。属性は次のとおりです: $a<br />このサーバの管理者またはアイデンティティ・プロバイダにご連絡ください。';
+$string['shib_no_attributes_error'] = 'あなたはShibbolethによりユーザ認証したようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているサービスプロバイダに対して必要な属性 ($a) をアイデンティティプロバイダが発行しているか確認、またはこのサーバの管理者に連絡してください。';
+$string['shib_not_all_attributes_error'] = 'あなたの場合、存在していないShibboleth属性をMoodleが必要としているようです。属性は次のとおりです: $a<br />このサーバの管理者またはアイデンティティプロバイダにご連絡ください。';
 $string['shib_not_set_up_error'] = 'Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関する更なる情報は、<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。';
 $string['showguestlogin'] = 'あなたは、ログインページのゲストログインボタンを表示または非表示にできます。';
 $string['sso_idp_description'] = 'このサービスを公開することで、あなたのユーザは、再度ログインせずに $a のMoodleサイトを散策することができます。<ul><li><em>従属関係</em>: あなたは $a のSSO (サービスプロバイダ) サービスに<strong>登録</strong>する必要があります。</li></ul><br />このサービスに登録することで、$a からの認証済みユーザは、再度ログインせずにあなたのサイトにアクセスできます。<ul><li><em>従属関係</em>: あなたは $a にSSO (サービスプロバイダ) サービスを<strong>公開</strong>する必要があります。</li></ul><br />';
