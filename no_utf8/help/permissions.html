@@ -1,0 +1,32 @@
+<h1>Tillatelser</h1>
+
+<p>Tillatelser er innstillinger du gir ut for bestemte rettigheter.</p>
+<p>F.eks. er en rettighet å "Starte nye diskusjoner" i forum.</p>
+<p>For hver rolle kan du angi tillatelser for en rettighet ved hjelp av en av fire verdier:</p>
+<dl>
+<dt>IKKE SATT</dt>
+<dd>Dette er standardinnstillingen. Innstillingen er nøytral på den måten at den sier: "Bruk den innstillingen brukeren allerede har". Dersom en rolle er tildelt en bruker (oftest på kursnivå) og rollen har tillatelsen for en bestemt rettighet, vil brukeren få denne rettigheten så sant han ikke hadde den allerede fra et overordnet nivå (globalt eller kategori). Motsatt; dersom brukeren er <b>nektet</b> rettigheten på overordnet nivå, vil dette overstyre den rolletildelingen som gjøres på kursnivå.</dd>
+
+<dt>TILLAT</dt>
+<dd>Ved å velge TILLAT vil du tildele rettigheten til alle brukere som får denne rollen. Denne tillatelsen gjelder der den er tildelt og alle underliggende nivåer. En student som har fått rettigheten til å "Starte nye diskusjoner" vil kunne gjøre dette i alle forum i kurset, UNNTATT de forum hvor det er satt overstyring på samme rettighet.</dd>
+
+<dt>FORHINDRE</dt>
+<dd>Ved å angi denne vil du forhindre tillatelse for denne rettigheten, selv om brukeren har rettigheten i en overordnet kontekst. Er det satt FORHINDRE på overordnet nivå kan rettigheten overstyres på lavere nivå.</dd>
+<dt>NEKT</dt>
+<dd>Denne trengs ganske sjelden, men noen ganger har du bruk for å nekte fullstendig tilgangen til en rettighet i en rolle som IKKE kan overstyres på lavere nivå. Et eksempel kan være en bruker du ønsker å nekte å starte nye diskusjoner i hvilket som helst forum overalt på systemet. I slike tilfeller er det nødvendig å lage en ny rolle hvor denne rettighetene er satt til NEKT, og deretter tildele denne rollen på globalt nivå til aktuell bruker.</dd>
+</dl>
+<p> </p>
+<h1>Håndtering av konflikter mellom tillatelser</h1>
+<p>Tillatelser på et lavere nivå vil generelt overstyre innstillinger på overordnet nivå.  Unntaket er NEKT, som ikke kan overstyres på lavere nivå.</p>
+<p>Dersom det er tildelt to roller til samme person i samme kontekst, hvorav en med TILLAT og en med FORHINDRE, hvem vinner da? I slike tilfeller vil Moodle slå opp i konteksttreet for en avgjørelse.</p>
+<p>F.eks. kan en student være tildelt to roller i et kurs, en som tillater å starte diskusjoner og en som forhindrer det samme. I slike tilfeller sjekkes kategorier og systemkontekst for å se etter en annen definert rettighet som kan bidra til avgjørelsen. Finnes ingen, vil resultatet bli FORHINDRE, siden de to rettighetene nuller hverandre ut - og du har ingen tillatelse.</p>
+<p></p>
+<h1>Spesielle unntak</h1>
+<p>Merk at gjestebrukeren generelt vil bli forhindret i å bidra med noe som helst (forum, kalender, blogger etc), selv om det er gitt rettighet til rollen.</p>
+
+<p>Se også 
+<a href="help.php?file=roles.html">Roller</a>,
+<a href="help.php?file=contexts.html">Kontekster</a>,
+<a href="help.php?file=assignroles.html">Tildele roller</a> og
+<a href="help.php?file=overrides.html">Overstyringer</a>.
+</p>

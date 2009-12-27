@@ -1,0 +1,217 @@
+<h2>Formater tekst med Markdown</h2>
+
+<div id="Main">
+
+<div class="article">
+<p>Markdown utvider det enkle tekstformatet i Moodle ved å enkelt kunne legge til uthevet, kursiv, kulepunkter,  titler og lenker til bilder og andre webressurser. Du kan benytte Markdown mange steder i Moodle, ganske enkelt ved å velge det fra listeboksen under tekstfeltet du skal redigere.</p>
+
+<ul>
+<li><a href="#concepts">Hovedkonsept</a></li>
+<li><a href="#emphasis">Utheve tekst</a></li>
+<li><a href="#headings">Titler</a></li>
+<li><a href="#lists">Lister</a></li>
+<li><a href="#quotes">Sitert tekst</a></li>
+<li><a href="#links">Lenker</a></li>
+<li><a href="#images">Bilder</a></li>
+<li><a href="#advanced">Avanserte emner</a></li>
+</ul>
+
+<h2><a id="concepts">Hovedkonsept</a></h2>
+
+<p>Du skriver inn tekst ganske rett fram i tekstfeltet og trykker Retur-tasten TO ganger ved slutten av setningen for å lage en tom linje mellom avsnittet og begynnelsen på neste.</p>
+
+<h2><a id="emphasis">Utheve tekst</a></h2>
+
+<p>Du kan legge til tre nivåer av uthevet tekst med Markdown, dette er <em>kursiv</em> tekst, <strong>uthevet</strong> tekst, eller <strong><em>uthevet og kursiv</em></strong> tekst. Dette lager du ved å legge til stjernetegn foran og bak.</p>
+
+<p><strong><code>*kursiv*</code></strong> -> <em>kursiv</em> <br />
+<strong><code>**uthevet**</code></strong> -> <strong>uthevet</strong> <br />
+<strong><code>***uthevet kursiv***</code></strong> -> <strong><em>uthevet kursiv</em></strong></p>
+
+<p>Utheving kan gjøres med enkle ord, en sekvens eller til og med deler av et ord:</p>
+
+<p><strong><code>a *enkelt* ord</code></strong> -> a <em>enkelt</em> ord <br />
+<strong><code>***en sekvens av ord***</code></strong> -> <strong><em>en sekvens av ord</em></strong> <br />
+<strong><code>**for**midabelt</code></strong> -> <strong>for</strong>midabelt</p>
+
+<p>Underscore (_) kan benyttes i stedet for stjernetegn med samme resultat.</p>
+
+<h2><a id="headings">Titler</a></h2>
+
+<p>Markdown lar deg dele teksten inn  med titler og undertitler; seks nivåer er tilgjengelig selv om det er unormalt for en tekst å bruke mer enn tre. F.eks. er det tre tittelnivåer i den tektsten du leser nå.</p>
+
+<p>Du kan lage en tittel ved å starte linje med en eller flere krysstegn (#). Ett kryss er størst og tilsvarer Overskrift 1. Seks kryss gir deg laveste tittelnivå.</p>
+
+<p><strong><code># seksjonstittel</code></strong> <br />
+<strong><code>## undertittel</code></strong> <br />
+<strong><code>### under-undertittel</code></strong> <br />
+etc.</p>
+
+<p>De to første tittelnivåene er mest vanlige og kan lages på flere måter for å få dem bedre uthevet i teksten. Alternativet brukes en linje med "er lik"-tegn (=) eller bindestreker (-) under tittelen som vist under:</p>
+
+<p><strong><code>Seksjonstittel</code></strong> <br />
+<strong><code>===============</code></strong></p>
+
+<p><strong><code>undertittel</code></strong> <br />
+<strong><code>------------------</code></strong>   </p>
+
+<h2><a id="lists">Lister</a></h2>
+
+<h3>Punktmerkede lister</h3>
+
+<p>Punktmerkede lister kan lages ved å starte hver linje med et stjernetegn fulgt av et mellomrom før du skriver innholdet. Merk at mellomrommet er viktig for at det skal fungere!</p>
+
+<p><strong><code>* første kulepunkt</code></strong> <br />
+<strong><code>* andre kulepunkt</code></strong> <br />
+<strong><code>* tredje kulepunkt</code></strong>  </p>
+
+<p>blir da</p>
+
+<ul>
+<li>første kulepunkt</li>
+<li>andre kulepunkt</li>
+<li>tredje kulepunkt</li>
+</ul>
+
+<h3>Nummererte lister</h3>
+
+<p>Tilsvarende kan nummererte lister lages ved å starte hver linje med et nummer fulgt av et punktum og mellomrom før tekstens krives.</p>
+
+<p><strong><code>1. første punkt</code></strong> <br />
+<strong><code>2. andre punkt</code></strong> <br />
+<strong><code>3. tredje punkt</code></strong></p>
+
+<p>blir da</p>
+
+<ol>
+<li>første punkt</li>
+<li>andre punkt</li>
+<li>tredje punkt</li>
+</ol>
+
+<h3>Innrykkede lister</h3>
+
+<p>Du kan neste eller innrykke kulepunktmerkede- og nummererte lister, til og med blande begge typer i samme liste.</p>
+
+<pre>
+    * Toppnivå kulepunkt 1
+      * under-kulepunkt 
+      * under-kulepunkt 2 
+    * Toppnivå kulepunkt 2  
+    1. Nummerert punkt 1
+       1. nestet nummerert punkt 1  
+    2. Nummerert punkt 2
+</pre>
+
+<p>blir da</p>
+
+<ul>
+<li>Toppnivå kulepunkt 1
+<ul>
+<li>under-kulepunkt</li>
+<li>under-kulepunkt 2</li>
+</ul></li>
+<li>Toppnivå kulepunkt 2
+<ol>
+<li>Nummerert punkt 1
+<ol>
+<li>nestet nummerer punkt 1  </li>
+</ol></li>
+<li>Nummerert punkt 2</li>
+</ol></li>
+</ul>
+
+<h2><a id="quotes">Sitert tekst</a></h2>
+
+<p>Du kan merke sitert tekst ved å starte hver linje med en hakeparentes (>). Dette tegnet er valgt siden mange e-postprogrammer bruker det for å vise sitert tekst. Resultatet blir tekst som er innrykket fra begge sider.</p>
+
+<p><strong><code>&gt; Dette er en sitert setning</code> <br />
+<code>&gt; fordelt på to linjer</code></strong>  </p>
+
+<p>blir da</p>
+
+<blockquote>
+  <p>Dette er en sitert tekst<br />
+  fordelt på to linjer</p>
+</blockquote>
+
+<p>Du kan spare deg for en del tasting ved å bruke en hakeparentes på starten av første linje i en setning.</p>
+
+<p><strong><code>&gt; Dette er en enkel hakeparentes </code> <br />
+<code>selv om setningen er fordelt </code> <br />
+<code>over flere linjer.</code></strong></p>
+
+<p>blir da</p>
+
+<blockquote>
+  <p>Dette er en enkel hakeparentes 
+selv om setningen er fordelt 
+over flere linjer.</p>
+</blockquote>
+
+<h2><a id="links">Lenker</a></h2>
+
+<p>Det er to måter å opprette lenker til webressurser på: Første måten er å ta med lenken i teksten, og plassere teksten du vil de skal klikke på innenfor hakeparenteser. URL-en de skal føres til skrives inn i en parentes umiddelbart etter hakeparentesen uten noe mellomrom eller avstand mellom de to settene av parenteser. Du kan også legge til en valgfri tittel på lenken i anførselstegn etter URL-en.</p>
+
+<p><strong><code>En [eksempellenke](http://moodle.org/ "Optional Title") i en setning.</code></strong></p>
+
+<p>blir da </p>
+
+<p>An <a href="http://moodle.org/" target="_blank" title="Optional Title">eksempellenke</a> i en setning.</p>
+
+<p>Dersom du har lagt inn tittel vil denne vises som en merkelapp på muspekeren når den føres over lenken. Prøv det på lenken over.</p>
+
+<p>For lengre lenker kan du styre unna at lenken blir brukket om ved å bruke fotnotestil, dvs legge til et kort identifiserende navn på lenken i et nytt sett av hakeparenteser (enten ved å bruke korte forklarende ord, fraser eller ganske enkelt et nummer).</p>
+
+<p><strong><code>En [eksempellenke][ex] i en setning</code></strong></p>
+
+<p>Deretter, hvorsomhelst i dokumentet (men anbefaler rett etter avsnittet med lenken i) kan du definere hvilken URL som er assossiert med ID-en du har lagt inn.</p>
+
+<p><strong><code>[ex]: http://moodle.org/  "Optional Title"</code></strong></p>
+
+<p>Resultatet fra det andre eksempelet skiller seg fra det første ved at det først og fremst ivaretar at teksten blir godt lesbar og enkel å redigere videre siden.</p>
+
+<p>En siste snarvei, dersom du ønsker å lenke tekst til det samme som URL-en, kan du sette URL-en mellom hakeparenteser slik:</p>
+
+<p><strong><code>&lt;http://moodle.org/&gt;</code></strong></p>
+
+<p>som blir</p>
+
+<p><a href="http://moodle.org" target="_blank">http://moodle.org</a></p>
+
+<h2><a id="images">Bilder</a></h2>
+
+<p>Bilder legges til på neste samme måte som lenker, men innledes med anførselstegn. Alternativ tekst (<em>alt</em> betyr <em>alternative</em>) bør legges inn for de brukerne som ikke ser bildet av forskjellige årsaker og teksten bør være relevant for bildet. En alternativ tekst er også et hint til de som siden skal redigere teksten og lurer på hensikten med bildet.</p>
+
+<p>Tittelen vises i en merkelapp når brukeren fører musen over bildet - og kan derfor inneholde ekstra informasjon.</p>
+
+<p><strong><code>![alt text](/path/img.jpg "Optional Title")</code></strong></p>
+
+<p>Og, som weblenker, kan du organisere dokumentet ditt ved å samle alle lenker ved hjelp av fotnotestilen (som forklart over). Bare gi bildet et kort unikt navn som du kan referere til:</p>
+
+<p><strong><code>![alt text][photo]</code></strong></p>
+
+<p>Og hvorsomhelst i dokumentet kan du plassere fotnotekoden som inneholder bildets unike navn og filplassering:</p>
+
+<p><strong><code>[photo]: /url/to/img.jpg "Optional Title"</code></strong></p>
+
+<p>Her er et eksempel, fulgt av resultatet:</p>
+
+<p><strong><code>![Google logo](http://www.google.com/images/logo.gif "The Google logo")</code></strong></p>
+
+<p><img src="http://www.google.com/images/logo.gif" alt="Google logo" title="The Google logo" /></p>
+
+<p>'alt text', som er viktig av tilgjengelighetsårsaker, vil også ofte bli brukt til å angi at det mangler et bilde/er utilgjengelig:</p>
+
+<p><strong><code>![alt text for broken image](http://example.com/intentionally.broken.link "This image will never display")</code></strong></p>
+
+<p>blir da (eksakt resultat kan variere avhengig av nettleseren din)</p>
+
+<p><img src="http://example.com/intentionally.broken.link" alt="alt text for broken image" title="This image will never display" /></p>
+
+<h2><a id="advanced">Avanserte emner</a></h2>
+
+<p>Denne korte introduksjonen har kun omhandlet Markdownfunksjoner som er mest brukt. Det er mulig å gå enda lenger, særlig hvis du er komfortabel med html. Mer avansert bruk er beskrevet i et eget dokument på Advanced Use of Markdown</p>
+<p class="moreinfo"><a href="help.php?file=advanced_markdown.html">More info about advanced use of Markdown</a></p>
+</div>
+</div>
