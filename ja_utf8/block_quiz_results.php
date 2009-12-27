@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_quiz_results.php - created with Moodle 2.0 dev (Build: 20080503) (2008050200)
+      // block_quiz_results.php - created with Moodle 2.0 dev (Build: 20091227) (2009122500)
 
 
 $string['bestgrade'] = '最高得点:';
@@ -14,15 +14,15 @@ $string['config_name_format'] = '結果表示のプライバシーレベル:';
 $string['config_names_anon'] = '匿名結果';
 $string['config_names_full'] = 'フルネームを表示する';
 $string['config_names_id'] = 'IDナンバーのみ表示する';
-$string['config_no_quizzes_in_course'] = 'このコースには小テストが含まれていません。このブロックを使用するために、少なくとも1つのコースを追加してください。';
+$string['config_no_quizzes_in_course'] = 'このコースには、小テストが含まれていません。このブロックを使用するため、少なくとも1つのコースを追加してください。';
 $string['config_select_quiz'] = 'どの小テストの結果をこのブロックで表示しますか?';
 $string['config_show_best'] = '何件の最高評点を表示しますか (0 は非表示) ?';
 $string['config_show_worst'] = '何件の最低評点を表示しますか (0 は非表示) ?';
 $string['config_use_groups'] = '学生の代わりにグループを表示しますか (小テストがグループをサポートする場合のみ)?';
-$string['configuredtoshownothing'] = 'このブロックでは、小テスト結果を表示しない設定になっています。ブロックを表示するように設定するか、ブロックを非表示にしてください。';
-$string['error_emptyquizid'] = 'このブロックにエラーが発生しました: 結果を表示する小テストを選択してください。';
-$string['error_emptyquizrecord'] = 'このブロックにエラーが発生しました: 選択した小テストはデータベースに登録されていません。';
-$string['error_nogroupsexist'] = 'このブロックにエラーが発生しました: グループモードで表示するグループがコースに登録されていません。';
+$string['configuredtoshownothing'] = 'このブロックでは、小テスト結果を表示しないよう、設定されています。ブロックを表示するように設定するか、ブロックを非表示にしてください。';
+$string['error_emptyquizid'] = 'このブロックにエラーが発生しました: あなたは、結果を表示する小テストを選択する必要があります。';
+$string['error_emptyquizrecord'] = 'このブロックにエラーが発生しました: 選択した小テストは、データベースに存在していないようです。';
+$string['error_nogroupsexist'] = 'このブロックにエラーが発生しました: グループモードが設定されていますが、コースにグループが定義されていないようです。';
 $string['formaltitle'] = '小テストの結果';
 $string['worstgrade'] = '最低得点:';
 $string['worstgrades'] = 'ワースト $a:';

@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // block.php - created with Moodle 2.0 dev (Build: 20090730) (2009073000)
+      // block.php - created with Moodle 2.0 dev (Build: 20091227) (2009122500)
 
 
-$string['anypagematchingtheabove'] = '上記に合致するすべてのページ';
+$string['anypagematchingtheabove'] = '上記に合致するページすべて';
 $string['appearsinsubcontexts'] = 'サブコンテクストに表示する';
 $string['blocksettings'] = 'ブロック設定';
 $string['bracketfirst'] = '$a (最初)';
