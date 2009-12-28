@@ -1,11 +1,11 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9.7+ (Build: 20091205) (2007101570)
+      // blog.php - created with Moodle 1.9.7+ (Build: 20091226) (2007101570)
 
 
 $string['addnewentry'] = 'Neuer Eintrag';
 $string['backupblogshelp'] = 'Mit der Aktivierung dieser Funktion werden die Blogs in das automatische Backup der Website einbezogen.';
 $string['blockmenutitle'] = 'Blog-Menü';
-$string['blocktagstitle'] = 'Schlagworte';
+$string['blocktagstitle'] = 'Blog-Schlagworte';
 $string['blocktitle'] = 'Titel des Blocks für Schlagworte';
 $string['blog'] = 'Blog';
 $string['blogdeleteconfirm'] = 'Diesen Blog löschen?';
