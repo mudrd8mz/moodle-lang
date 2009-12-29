@@ -1,0 +1,34 @@
+<h1>Importere "Course Test Manager" filer</h1>
+
+<p>Course Test Manager (CTM) er en programvarepakke fra Course Technology. Den videreutvikles ikke lenger og er erstattet av en ny programpakke som kalles ExamView.  Likevel, det har aldri blitt laget noen migreringsløsning for overføring av dette formatet til andre mer vanlige testbankformater. Det er derfor denne modulen er skrevet.</p>
+
+<p>For å kunne importere spørsmål fra CTM må du ha CTM installert på en Windowsmaskin og tilgang til MS Access databasen på denne maskinen. Det trengs tilgang til to datafiler:</p>
+<ul><li>System.mda - Denne fila ligger i rotkatalogen for CTM-installasjonen og blir referert til i MS Access som "systemdatabasen".</li>
+<li>ctm.mdb - dette er databasen som inneholder spørsmålene i testbanken. Dette er en database for hvert kurs i CTM og plassert i en mappe ett nivå under CTM-rotkatalogen.</li>
+</ul>
+
+</p>Importprosessen er noe forskjellig avhengig av om du kjører Moodle på Windows eller Linux. Du må uansett ha et Windowssystem (Win2K eller WinXP) på samme nettverket som Moodle for å få tilgang til Accessdatabasen når du skal importere.</p>
+
+<p>Prosessen er noe enklere på et <b>Windows-basert</b> Moodle system.  Alt du trenger for å importere CTM import-klassen er:</p>
+
+<ol><li>laste opp system.mda databasen til Moodle via intern filbehandler. Det spiller ingen rolle hvilket kurs du laster opp til. Moodle finner den uansett.</li>
+<li>Opprett quizzen og gå til skjermbildet for "Importere spørsmål". Last opp valgt ctm.mdb database som importfil. Har du gjort dette korrekt vil neste skjermbilde gi deg mulighet til å velge hvilken underkategori fra databasen du ønsker å importere. Årsaken til dette trinnet er at CTM testbanker ofte inneholder et stort antall kategoriserte spørsmål, basert på kapitler av bøker eller emner i kurs.</li>
+</ol>
+
+<p>Prosessen på et <b>Linux-basert</b> Moodlesystem innbefatter en tredjeparts programvarekomponent som kalles 
+<a href="http://odbcsock.sourceforge.net/" target="_new"><b>ODBC Socket Server</b></a>.  For å kunne importere CTM-databasen på Linux på du først laste ned og installere dette lille nettverksprogrammet på Windowssystemet som kjører CTM-databasen. <b>IKKE</b> følg installasjonsbeskrivelsen som følger med programvaren. De er mye mer komplisert enn de trenger å være! I stedet skal du følge stegene under når  du installerer programvarekomponenten på ditt Windowssystem:
+follow the installation</p>
+
+<ol><li>Gå til Windows og unzip installasjonsfila du lastet ned fra <a href="http://odbcsock.sourceforge.net/" target="_new">denne siten</a>.</li>
+<li>Kopier binærfila ODBCSocketServer.exe til C:\WINNT\ eller C:\Windows) eller en mappe under C:\Programfiler.</li>
+
+<li>Installer ODBC Socket Server som en tjeneste med denne kommandoen: <br />
+<b>&lt;path you copied the file to in the step above&gt;ODBCSocketServer.exe /Service</b><br />
+Du kan gjøre dette fra en kommandovindu (Start > Kjør... > CMD)</li>
+
+<li>Åpne administrasjonspanelet for Tjenester og start  ODBC Socket Server. Merk at det er her du også  stopper tjenesten når du ikke har bruk for den lenger.</li>
+
+<li>Kontroller at system.mda og ctm.mdb access datafilene er på maskinen og at MS Access ODBC driveren er på plass. Den blir installert som en standard Windows installasjon og du kan sjekke om den finnes ved å åpne Administrative Verktøy og se på fanen Drivere. Du  må deretter finne full sti til de databasene du ønsker å importere fra CTM + IP.ADR til Windowsmaskinen. Denne informasjonen trengs under importprosessen.</li>
+
+<li>Nå kan du importere testbanken til Moodle. Opprett en quiz og gå til skjermbildet for "Importere spørsmål". <b>DET ER HERFRA TING ER FORSKJELLIGE PÅ ET LINUXSYSTEM - </b>DU MÅ ANGI EN DUMMYFIL I OPPLASTINGSFELTET FOR Å STARTE IMPORTPROSESSEN. DENNE FILEN VIL <b>IKKE</b> BLI PROSESSERT, DEN FUNGERER KUN SOM EN PLASSHOLDER FOR IMPORTSKJEMAET. DU VIL FÅ MULIGHET TIL Å ANGI WINDOWSSERVER INFORMASJONEN SOM NESTE STEG. I neste steg får du et skjermbilde hvor du kan skrive inn vertsnavnet for  Windows ODBC Socket Server maskinen og stien til system- og testbankdatabaser. Skriv inn informasjonen slik du har notert deg fra tidligere steg og klikk på "Koble til server". Dersom alt er korrekt satt opp vil du få et annet skjema som lar deg velge hvilken underkategori du ønsker å importere. Årsaken til dette trinnet er som beskrevet tidligere. DERSOM DU HAR KOMMET HIT UTEN FEILMELDINGER AV NOE SLAG HAR DU SATT OPP  SOCKET SERVER HELT KORREKT OG DU HAR STRAKS FULLFØRT IMPORTEN AV SPØRSMÅL TIL MOODLE!</li>
+</ol>

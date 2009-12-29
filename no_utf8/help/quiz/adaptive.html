@@ -1,0 +1,11 @@
+<h1>Tilpasningsmodus</h1>
+
+<p>Dersom du velger "Ja" på dette valget vil studenten kunne prøve flere ganger på samme spørsmål før han/hun fortsetter med neste spørsmål i quizzen. Hvis svaret blir merket som feil kan dermed studenten prøve igjen med det samme. Vanligvis kombineres dette med straffepoeng, slik at en ikke får fullt hus om en prøver flere ganger på samme spørsmål.</p>
+
+<p>Denne modusen tillater også tilpassede spørsmål som kan skifte tilbakemelding på studentens svar. Her kan du lese hvordan IMS QTI spesifikasjonen definerer tilpassede spørsmål:</p>
+
+<blockquote>
+<p>Et tilpasset element er et element som tilpasser enten sin visning, poenggiving, eller begge, som respons på kandidatens forsøk. F.eks. kan et tilpasset element starte med å be om et fritekstsvar, men hvis studentens bidrag er lite tilfredsstillende, deretter presentere et enkelt flersvarspørsmål i stedet og tildele mindre poeng siden dette var nødvendig. Tilpasningsmodus åpner for at forfattere kan lage elementer som kan brukes i slike formative situasjoner som både hjelper studenten gjennom oppgaven og samtidig gir en mulighet til å vurdere etter hvor mye hjelp som er gitt underveis.</p>
+</blockquote>
+
+<p>I tilpasningsmodus vises det en ekstra <?php print_string('mark', 'quiz') ?> knapp for hvert spørsmål. Dersom studenten klikker på denne vil svaret evalueres og poenggivingen vises for studenten. Dersom spørsmålet er av av den tilpassede typen vil den vise om spørsmålet er korrekt/feil besvart, ta med poengsummen videre og i mange tilfeller stille et nytt spørsmål. De aller enkleste tilpassede spørsmålene vil bare endre tilbakemeldingstekstene og be studenten forsøke en gang til hvis svaret er feil. De mer avanserte formene kan skifte ut spørsmålsteksten og til og med de interaktive elementene.</p>

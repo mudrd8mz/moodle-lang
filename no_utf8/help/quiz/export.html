@@ -1,0 +1,41 @@
+<h1>Eksportere spørsmål fra en kategori</h1>
+
+<p>Denne funksjonen lar det eksportere en komplett kategori (med underkategorier) med spørsmål til en tekstfil.</p> 
+
+<p>Vennligst merk deg at mange filformater kan miste noe informasjon når spørsmål blir eksportert.  Dette er fordi mange formater ikke utnytter alle funksjonene som finnes i Moodle-spørsmål. Du bør derfor ikke forvente at eksport og import av spørsmål gir deg et resultat som er identisk med startpunktet. Du bør derfor ALLTID sjekke eksporterte data før du bruker dem i et produksjonsmiljø.</p>
+
+<p>De formatene som støttes nå er:</p>
+
+<h2>GIFT formatet</h2>
+
+<p>GIFT er det mest avanserte tilgjengelige formatet for import/eksport av Moodle spørsmål til en tekstfil. Det ble opprinnelig laget for å tilby en enkel metode for lærere til å skrive spørsmål som en tekstfil og deretter importere den. GIFT støtter flersvar, sant/usant, kortsvar, sammenfallende og numeriske spørsmål og kan også sette inn ______________ for manglende ord-formatet. Merk at Cloze-spørsmål forelløpig ikke støttes. Forskjellige spørsmålstyper kan blandes i samme tekstfil for formatet støtter linjekommentarer, spørsmålsnavn, tiølbakemeldingstekst og prosentvektede karakterer.   Under finner du noen eksempler:</p>
+
+<pre>
+Who's buried in Grant's tomb?{~Grant ~Jefferson =no one}
+
+Grant is {~buried =entombed ~living} in Grant's tomb.
+
+Grant is buried in Grant's tomb.{FALSE}
+
+Who's buried in Grant's tomb?{=no one =nobody}
+
+When was Ulysses S. Grant born?{#1822}
+</pre>
+
+<p class="moreinfo"><a href="help.php?file=formatgift.html&amp;module=quiz">Mer om "GIFT" formatet</a></p>
+
+<h2>Moodle XML formatet</h2>
+
+<p>Dette er et Moodle-spesifikt format som eksporterer spørsmål via et enkelt XML-format. Filen kan enten importeres til en annen kategori eller brukes som en del av en XLST-overføring. XML-formatet vil eksportere bildevedlegg til spørsmål via kodesettet base64.</p>
+
+<h2>IMS QTI 2.0</h2>
+
+<p>Eksporterer i standard format for IMS QTI (version 2.0). Merk at dette genererer en rekke filer i en zip-fil.</p>
+<p class="moreinfo"><a href="http://www.imsglobal.org/question/" target="_qti">Mer informasjon på IMS QTI-webstedet</a>
+ (external site in new window)</p>
+
+<h2>XHTML</h2>
+
+<p>Eksporterer kategorien som en enkelt side via XHTML. Hvert spørsmål blir ordnet med sin egen "div" tagg. Dersom du vil bruke denne siden som den er, må du i det minste redigere "form" taggen i toppen av "body" seksjonen for å legge til en relevant handling for skjemaet, f.eks. "mailto".</p>
+
+<p>Import and Export formatene er ressurser som er lagt til som selvstendige moduler. Andre formater kan være tilgjengelige i moodle.org-databasen over moduler og tilleggsressurser.</p>

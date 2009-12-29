@@ -1,0 +1,66 @@
+<h1>Beregnede spørsmål</h1>
+
+<p>Beregnede spørsmål tilbyr en måte å lage individuelle numeriske spørsmål på, ved hjelp av stjernetegn som erstatning for enkeltverdier når quizzen kjøres. Under vises et begrenset utvalg av redigeringssiden med noen eksempler på spørsmål:</p>
+
+<table><tbody>
+<tr valign="top">
+    <th scope="col" align="right">Spørsmål:</th>
+    <td>
+        <textarea id="questiontext" name="questiontext" rows="5" cols="40" wrap="virtual">How much is {a} + {b} ?</textarea>
+</td>
+</tr>
+<tr valign="top">
+    <th scope="col" align="right">Bilde som skal vises:</th>
+    <td>
+    <select name="image"><option value="" selected="selected">None</option><option value="grevture.gif">grevture.gif</option></select>
+    </td>
+</tr>
+
+<tr valign="top">
+<th scope="col" align="right">Formel for riktig svar:</th>
+    <td>
+    <input align="left" type="text" id="formula0" name="answer[]" size="20" value="{a} + {b}" />&nbsp;&nbsp;
+    <input type="hidden" name="fraction[]" value="1.0" />
+    </td>
+</tr>
+<tr valign="top">
+    <th scope="col" align="right">Toleranse:</th>
+    <td>
+    <input align="left" type="text" id="tolerance0&quot;" name="tolerance[]" size="15" value="0.01" />±
+    </td>
+</tr>
+<tr valign="top">
+<th scope="col" align="right">Toleransetype:</th>
+    <td>
+    <select name="tolerancetype[]"><option value="1" selected="selected">Relative</option><option value="2">Nominal</option><option value="3">Geometric</option></select>
+    </td>
+</tr>
+<tr valign="top">
+<th scope="col" align="right">Signifikant avrunding:</th>
+    <td>
+    <select name="correctanswerlength[]"><option value="1">1</option><option value="2" selected="selected">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
+    </td>
+</tr>
+</tbody></table>
+
+<p>Både i spørsmålsteksten og formelen for korrekt svar kan  {a} and {b} sees. Disse og andre {name} kan brukes som variabel for å erstatte verdier når quizzen kjøres. Likeså blir korrekt svar beregnet når quizzen blir sendt inn (bruker formelen for korrekt svar og skifter ut variablene med de reelle verdiene). Disse og andre {name} kan bli benyttet som variabel til erstatning for noen verdier når quizzen kjøres. Likeså vil korrekt svar bli beregnet, ved hjelp av formelen for korrekt svar, når variablene er erstattet med verdier. Mulige variabelverdier blir satt eller generert på en annen side i "redigeringsguiden" for beregnede spørsmål...</p>
+
+<p>Eksempelformelen bruker operatoren +. Andre godkjente operatorer er -*/ og %, hvor % er modulo operatoren. Det er også mulig å bruke noe PHP-lignende matematiske funksjoner. Blant disse er 24 enkelt-argument funksjoner:<br /><b>
+abs, acos, acosh, asin, asinh, atan, atanh, ceil, cos, cosh, deg2rad, exp, expm1, floor, log, log10, log1p, rad2deg, round, sin, sinh, sqrt, tan, tanh
+</b><br />og to to-argument funksjoner<br /><b>
+atan2, pow
+</b><br />og funksjonene <b>min</b> and <b>max</b> som kan ta to eller flere argumenter. Det er også mulig å bruke funksjonen <b>pi</b> som ikke tar noen argumenter, men ikke glem å bruke parenteser - korrekt bruk er <b>pi()</b>. Tilsvarende må andre funksjoner plassere argumentene i parenteser. Mulig bruk er f.eks. <b>sin({a}) + cos({b}) * 2</b>. Det burde ikke være noe problem å innlemme funksjoner i hverandre som dette:  <b>cos(deg2rad({a} + 90))</b> etc.
+
+<br />Flere detaljer om hvordan du brukere disse PHP-lignende funksjonene kan du finne i  <a target="phpmathdoc" href="http://www.php.net/manual/en/ref.math.php">dokumentasjonen på PHP´s egen webside</a>
+</p>
+<p>Som for numeriske spørsmål er det mulig å tillate grenseverdier for hva som skal regnes som korrekt. Toleransefeltet brukes til dette. Likevel, det er tre toleransetyper du bør vite om: Disse er <b>Relativ, Nominell og Geometrisk</b>. Hvis vi sier at korrekt svar når quizzen kjøres blir beregnet til å være 200 og toleransen settes til 0,5, vil de forskjellige toleransetypene fungere slik:
+</p> <p><b>Relativ:</b> Et toleranseintervall beregnes ved å  multiplisere korrekt svar med 0,5. I dette tilfellet får vi 100 så toleransen for korrekt svar må være mellom 100 og 300.  (200 ± 100)<br />
+Dette er nyttig dersom størrelsen på riktig svar kan variere mye mellom forskjellige variabelverdier.
+</p> <p><b>Nominell:</b>  Dette er den enkleste toleransetypen, men ikke så veldig brukbar. Korrekt response å være mellom 199.5 og 200.5 (200 ± 0.5)<br />
+Denne toleransetypen kan være nyttig dersom differansen mellom de riktige svarene er liten.
+</p> <p><b>Geometrisk:</b> Øvre grense for toleranseintervallet beregnes ved at 200 + 0.5*200 og er det samme som for den relative typen. Laveste grense beregnes som  200/(1 + 0.5). Korrekt svar må derfor være mellom  133.33 and 300.<br />
+Denne toleransetypen er nyttig i komplekse beregninger som må ha stor toleranse, hvor relativ toleranse på 1 eller mer ville passet for øvre grense men absolutt ikke som nedre grenseverdi, da det ville gitt 0 som riktig svar i de fleste tilfeller.
+</p> <p>
+Feltet <b>Signifikante avrunding</b> er ikke bare relatert til korrekt svar men også presentert i gjennomgangen eller rapportene. Eks: Dersom satt til 3 vil et korrekt svar 13,333 bli vist som 13,3; 1236 ville bli vist som 1240; 23 ville bli vist som 23,0 osv.
+</p> <p>
+Tilbakemeldingsfeltet og det valgfrie elementfeltet virker på samme måte som for numeriske spørsmål.</p>
