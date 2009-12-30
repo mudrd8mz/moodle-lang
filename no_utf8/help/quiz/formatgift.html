@@ -1,0 +1,246 @@
+<h1>Importere "GIFT"-format filer</h1>
+<p>GIFT er det mest avanserte tilgjengelige formatet for import/eksport av Moodle spørsmål til en tekstfil. Det ble opprinnelig laget for å tilby en enkel metode for lærere til å skrive spørsmål som en tekstfil og deretter importere den. GIFT støtter flersvar, sant/usant, kortsvar, sammenfallende og numeriske spørsmål og kan også sette inn ______________ for manglende ord-formatet. Merk at Cloze-spørsmål forelløpig ikke støttes. Forskjellige spørsmålstyper kan blandes i samme tekstfil for formatet støtter linjekommentarer, spørsmålsnavn, tiølbakemeldingstekst og prosentvektede karakterer. </p>
+
+<p>Tegnsetter for tekstfilen må være utf-8 (så sant du ikke utelukkende bruker ascii-tegn). Her finner du et eksempel på en tekstfil med spørsmål: <a href="<?php echo $CFG->wwwroot; ?>/question/format/gift/examples.txt">gift/examples.txt</a>.</p>
+
+<h3>Grunnleggende</h3>
+
+<p>Hvert enkelt spørsmål i GIFT-fila må være uten blanke linjer. Hvert spørsmål blir atskilt av minst en blank linje. Dersom  du trenger en blank linje i spørsmålet ditt kan du bruke uttrykket  <b>\n</b>. Du kan kommentere hvor du vil, men kommentarer må starte med to skråstreker  (<b>//</b>)  helt i begynnelsen av linjen.</p>
+
+<h3>SPØRSMÅLSTYPER</h3>
+
+<p><u>Flersvar:</u><br />
+I Flersvarsoppgaver merkes gale svaralternativer med en tilde (~) og korrekte svaralternativer med et er lik-tegn  (=).</p>
+<pre>
+Who's buried in Grant's tomb?{~Grant ~Jefferson =no one}
+</pre>
+    <p><b>Manglende ord-</b>formatet vil automatisk legge til en understrekning som dette   _____  som erstatning for ordet som skal finnes. Når du bruker manglende ord-formatet skal svaret plasseres i setningen der hvor understrekningen skal vises. </p>
+<pre>
+Grant is {~buried =entombed ~living} in Grant's tomb.
+</pre>
+
+<p>Alle spørsmålstyper kan benyttes i Manglende ord-formatet. Det må være en blank linje (dobbelt linjeskift) mellom hvert spørsmål. For oversiktens skyld kan svar skrives på egne linjer og utheves. F.eks.:</p>
+<pre>
+The American holiday of Thanksgiving is celebrated on the {
+    ~second
+    ~third
+    =fourth
+} Thursday of November.
+
+Japanese characters originally came from what country? {
+    ~India
+    =China
+    ~Korea
+    ~Egypt
+}
+</pre>
+
+<p><u>Kortsvar:</u><br />
+Svaralternativene i spørsmålstypenk kortsvar merkes alle med likhetstegn (=), dette indikerer at alle er korrekte. Svaralternativene kan ikke inneholde tilder.</p>
+<pre>
+Who's buried in Grant's tomb?{=no one =nobody}
+
+Two plus two equals {=four =4}.
+</pre>
+    <p>Dersom det bare er <u>ett</u> korrekt kortsvar kan likhetstegnet droppes, siden det ikke kan forveksles med Sant/Usant.</p>
+
+<p><u>Sant/Usant:</u><br />
+I denne spørsmålstypen indikeres svaret ved at utsagnet er sant eller usant. Svarene må skrives som {TRUE} eller {FALSE}, eller forkortet til {T} or {F}.</p>
+<pre>
+Grant is buried in Grant's tomb.{F}
+
+The sun rises in the east.{T}
+</pre>
+
+<p><u>Sammenfallende/samsvarende:</u><br />
+Samsvarende par begynner med likhetstegn (=) og atskilles med dette symbolet  "->". Det må være minst tre samsvarende par.</p>
+<pre>
+Matching Question. {
+    =subquestion1 -> subanswer1
+    =subquestion2 -> subanswer2
+    =subquestion3 -> subanswer3
+}
+
+Match the following countries with their corresponding capitals. {
+    =Canada -> Ottawa
+    =Italy  -> Rome
+    =Japan  -> Tokyo
+    =India  -> New Delhi
+}
+</pre>
+
+<p>Samsvarende spørsmål støtter ikke tilbakemelding eller prosentvekting.</p>
+
+<p><u>Numerisk:</u><br />
+Svaralternativene for numeriske spørsmål må starte med kryss-tegnet (#). Numeriske svaralternativer kan oppgis med en feilmargin, som skrives rett etter korrektsvar, atskilt med kolon. Hvis f.eks. korrekt svar er noe mellom 1,5 og 2,5 skal fasit skrives slik: <u>{#2:0,5}</u>. 
+Dette betyr at 2 med en feilmargin på 0,5 er korrekt. (svaret kan altså være i området 1,5-2,5) Dersom det ikke angis feilmargin brukes standardverdien 0.</p>
+<pre>
+When was Ulysses S. Grant born? {#1822}
+
+What is the value of pi (to 3 decimal places)? {#3.1415:0.0005}.
+</pre>
+    <p>Det er også mulig å skrive numeriske svaralternativer på formen {#<i>Minimumsverdi</i>..<i>Maksimumsverdi</i>}.</p>
+<pre>
+What is the value of pi (to 3 decimal places)? {#3.141..3.142}.
+</pre>
+    <p>Moodles nettlesergrensesnitt støtter ikke flervalg numeriske svaralternativer (mer enn ett alternativ er korrekt), men det gjør Moodles kode og GIFT. Dette kan brukes til å angi flere numeriske tallområder og er spesielt nyttig i kombinasjon med prosentvektet poenggiving. Dersom flere svaralternativer brukes må de atskilles med likhetstegn, tilsvarende kortsvar.</p>
+<pre>
+When was Ulysses S. Grant born? {#
+    =1822:0
+    =%50%1822:2
+}
+</pre>
+
+<p>Siden Moodles nettlesergrensesnitt ikke støtter flervalg for numeriske spørsmål, er det ingen måte å se dem eller redigere dem på via Moodle. Eneste måte er å slette spørsmålet og reimportere den redigerte versjonen av spørsmålet. (Eller redigere rett i databasen via phpMyAdmin).</p>
+
+<p><u>Fritekst:</u><br />
+Et fritekstspørsmål er ganske enkelt et spørsmål med tomt svarfelt. Ingenting kan skrives mellom {}-parenteser i det hele tatt.</p>
+<pre>
+Write a short biography of Ulysses S. Grant {}
+</pre>
+
+<p><u>Beskrivelse:</u><br />
+En beskrivelse er en særform av spørsmål som ikke har noen svardel i det hele tatt.</p>
+<pre>
+The next set of questions will concern arithmatic
+</pre>
+
+<h3>EKSTRA VALG</h3>
+    <p>I tillegg til disse grunnleggende spørsmålstypene vil dette filteret tilby følgende muligheter: linjekommentarer, spørsmålsnavn, tilbakemelding og prosentvektet poenggiving.</p>
+
+<p><u>Linjekommentarer:</u><br />
+Kommentarer som ikke skal importeres i Moodle kan tas med i tekstfilen. Linjekommentarer kan brukes til overskrifter og mer info om de enkelte spørsmålene. Alle slike linjer som skal ignoreres ved import skal starte med dobbel skråstrek (ingen tab eller mellomrom).</p>
+<pre>
+// Subheading: Numerical questions below
+What's 2 plus 2? {#4}
+</pre>
+
+<p><u>Spørsmålsnavn:</u><br />
+Et spørsmålsnavn kan angis ved å plassere det først innenfor doble kolon.</p>
+<pre>
+::Kanji Origins::Japanese characters originally
+came from what country? {=China}
+
+::Thanksgiving Date::The American holiday of Thanksgiving is 
+celebrated on the {~second ~third =fourth} Thursday of November.
+</pre>
+
+<p>Dersom det ikke er oppgitt spørsmålsnavn vil hele spørsmålet brukes som spørsmålsnavn.</p>
+
+<p><u>Tilbakemelding:</u><br />
+Tilbakemelding kan legges inn i alle svaralternativer ved at svar og tilbakemelding skilles med et kryss-tegn (#).</p>
+<pre>
+What's the answer to this multiple-choice question? {
+    ~wrong answer#feedback comment on the wrong answer
+    ~another wrong answer#feedback comment on this wrong answer
+    =right answer#Very good!
+}
+     
+Who's buried in Grant's tomb? {
+    =no one#excellent answer!
+    =nobody#excellent answer!
+}
+     
+     Grant is buried in Grant's tomb.{FALSE#Wrong, No one is buried in Grant's tomb.#Right, well done.}
+</pre>
+
+    <p>For Flersvarspørsmål vises tilbakemeldinger bare for det svaralternativet studenten valgte. På kortsvar vises tilbakemelding bare når studenten har skrevet inn korrekt svar. På Sant/Usant spørsmål kan det legges til ett eller to tilbakemeldingsstrenger. Det første vises dersom svaret er feil, det andre hvis svaret er korrekt.</p>
+
+<p><u>Prosentvektet poenggiving:</u><br />
+Prosentvektet poenggiving er mulig både for flersvar og kortsvar spørsmål. Prosentvektet poenggiving kan legges inn etter en tilde (for flersvar) og likhetstegn (for kortsvar) med ønsket prosent mellom to prosenttegn.  (e.g., %50%). Dette valget kan kombineres med tilbakemelding.</p>
+<pre>
+Difficult question.{~wrong answer ~%50%half credit answer =full credit answer}
+
+::Jesus' hometown::Jesus Christ was from {
+    ~Jerusalem#This was an important city, but the wrong answer.
+    ~%25%Bethlehem#He was born here, but not raised here.
+    ~%50%Galilee#You need to be more specific.
+    =Nazareth#Yes! That's right!
+}.
+     
+::Jesus' hometown:: Jesus Christ was from {
+    =Nazareth#Yes! That's right!
+    =%75%Nazereth#Right, but misspelled.
+    =%25%Bethlehem#He was born here, but not raised here.
+}</pre>
+
+    <p>Merk at de to siste eksemplene egentlig er samme spørsmål, først som flersvar og deretter som kortsvar.</p>
+
+    <p><font size="-1">Merk at det er mulig å angi prosentvektet poenggiving som IKKE er tilgjengelig via nettlesergrensesnittet. Listeboksvalget "Koble karakterer" på Importsiden bestemmer hvordan dette håndteres.  Du kan enten be om at feil blir rapportert eller at vektingen av svar skal justeres til nærmeste gyldige verdi.</font></p>
+
+<p><u>Angi tekstformatering for spørsmålet</u><br />
+Spørsmålsteksten (bare den) kan ha ekstra tekstformatering. Tilgjengelige formater er  <b>moodle</b> (Moodle Auto-Format), <b>html</b> (HTML format), <b>ren tekst</b> (rent tekstformat) og <b>markdown</b> (Markdown format). Formatet angis i firkantparenteser rett foran spørsmålsteksten.<a href="help.php?file=textformat.html">MMer informasjon om tekstformater i Moodle.</a></p>
+
+<pre>
+[markdown]The *American holiday of Thanksgiving* is celebrated on the {
+    ~second
+    ~third
+    =fourth
+} Thursday of November.
+</pre>
+
+<p><u>Flersvar/Flervalg:</u><br />
+Spørsmål med flervalg (mer enn ett alternativ er korrekt) brukes når flere alternativer må krysses av for få fullt hus. Dette valget slås på ved å angi at mer enn ett svar er muig, kombinert med at hvert korrekt svar har en delpoengsum som tilsammen gir fullt hus. </p>
+<pre>
+What two people are entombed in Grant's tomb? {
+    ~No one
+    ~%50%Grant
+    ~%50%Grant's wife
+    ~Grant's father
+}
+</pre>
+
+    <p>Merk at det ikke skal være noe (=) tegn i noe svaralternativ og at svarenes total ikke skal være over 100%, ellers vil Moodle returnere en feilmelding. For å unngå at studenter får 100% bare ved å helgardere (klikke på alt), bør feil alternativer ha minuspoeng slik at helgardering gir 0% rett.</p>
+<pre>
+What two people are entombed in Grant's tomb? {
+    ~%-50%No one
+    ~%50%Grant
+    ~%50%Grant's wife
+    ~%-50%Grant's father
+}
+</pre>
+
+<p><u>Spesielle tegn ~ = # { } :</u><br />
+Disse symbolene <b> ~ = # { } : </b> styrer hvordan dette filteret fungerer og kan derfor ikke brukes som vanlig tekst i spørsmål. Slike tegn kalles kontrolltegn. Noen ganger har en likevel bruk for å skrive kontrolltegn uten at de skal bli forvekslet med det. Dette gjøres ved å starte med backslash (bakoverskråstrek) (\) FØR kontrolltegnet slik at filteret ser at dette brukes som vanlig skrifttegn i stedet for som et kontrolltegn.
+    For eksempel:</p>
+<pre>
+Which answer equals 5? {
+    ~ \= 2 + 2
+    = \= 2 + 3
+    ~ \= 2 + 4
+}
+
+::GIFT Control Characters::
+Which of the following is NOT a control character for the GIFT import format? {
+   ~ \~     # \~ is a control character.
+   ~ \=     # \= is a control character.
+   ~ \#     # \# is a control character.
+   ~ \{     # \{ is a control character.
+   ~ \}     # \} is a control character.
+   = \      # Correct! \ (backslash) is not a control character. BUT,
+              it is used to escape the control characters.
+}</pre>
+
+    <p>Når spørsmålet lagres vil bakoverskråstreken fjernes og lagres heller ikke i Moodle.</p>
+
+<h3>Angi kategorier</h3>
+
+<p>Det er mulig å skifte kategori som spørsmålene fra GIFT-filen skal importeres til. Du kan skifte kategori så mange ganger du vil i samme fil. Alle spørsmål etter en kategoriangivelse fram til neste angivelse vil alle bli importert til samme kategori. </p>
+
+<p>For å legge til kategoriangivelse må du ta med en linje som dette (med en tom linje før og etter):
+<pre>
+$CATEGORY: tom/dick/harry
+</pre>
+
+eller ganske enkelt
+
+<pre>
+$CATEGORY: mycategory
+</pre>
+
+...det første eksemplet angir en sti av nestede kategorier. I dette tilfeller vil spørsmålene havne i <i>harry</i>. Kategoriene blir opprettet dersom de ikke finnes fra før.</p>
+
+<p><u>Andre valg:</u><br />
+Kortsvar spørsmål kan gjøres case-sensitive ved å endre  &quot;0&quot; til &quot;1&quot; i følgende linje:<br />
+    <tt>$question-&gt;usecase = 0;  // Ignore case</tt></p>
+<p></p>
