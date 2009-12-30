@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // wiki.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // wiki.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['action'] = '-- Handling --';
@@ -96,7 +96,7 @@ $string['listall'] = 'Vis alle';
 $string['listcandidates'] = 'Vis kandidater';
 $string['lockcancelled'] = 'Der er en der har ophævet låsen på den side du er ved at rette. Hvis du ønsker at beholde det du har skrevet, skal du kopiere det ind i udklipsholderen før du trykker Annuller og sætter dine ændringer ind igen.';
 $string['meta'] = 'Metadata';
-$string['moduledirectory'] = 'Modulbibliotek';
+$string['moduledirectory'] = 'Modulmappe';
 $string['modulename'] = 'Wiki';
 $string['modulenameplural'] = 'Wiki\'er';
 $string['mostoftenchangedpages'] = 'Oftest ændrede side';

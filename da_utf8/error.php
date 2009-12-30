@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // error.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['adminprimarynoedit'] = 'Den primære administrator kan ikke ændres af andre';
@@ -30,9 +30,9 @@ $string['csvweirdcolumns'] = 'Ugyldig format i CVS-filen - antallet af kolonner 
 $string['dbupdatefailed'] = 'Opdatering af databasen mislykkedes';
 $string['downloadedfilecheckfailed'] = 'Downloadet fil-tjek fejlede';
 $string['duplicateusername'] = 'To ens brugernavne - posten skippes';
-$string['errorcleaningdirectory'] = 'Fejl under oprettelse af biblioteket  \"$a\"';
+$string['errorcleaningdirectory'] = 'Fejl under oprettelse af mappen \"$a\"';
 $string['errorcopyingfiles'] = 'Fejl under kopiering af filer';
-$string['errorcreatingdirectory'] = 'Fejl ved oprettelse af biblioteket \"$a\"';
+$string['errorcreatingdirectory'] = 'Fejl ved oprettelse af mappen \"$a\"';
 $string['errorcreatingfile'] = 'Fejl under oprettelse af filen \"$a\"';
 $string['erroronline'] = 'Fejl på linje $a';
 $string['errorreadingfile'] = 'Fejl under læsning af filen \"$a\"';
