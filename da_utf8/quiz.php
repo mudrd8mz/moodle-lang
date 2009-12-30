@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // quiz.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['1day'] = '1 dag';
@@ -16,7 +16,7 @@ $string['addingdescription'] = 'Tilføjer beskrivelse';
 $string['addingessay'] = 'Tilføjer tekstsvar';
 $string['addingmatch'] = 'Tilføjer match-spørgsmål';
 $string['addingmultianswer'] = 'Tilføjer cloze-spørgsmål';
-$string['addingmultichoice'] = 'Tilføjer multiple choice spørgsmål';
+$string['addingmultichoice'] = 'Tilføjer multiple choice-spørgsmål';
 $string['addingnumerical'] = 'Tilføjer numerisk spørgsmål';
 $string['addingquestion'] = 'Tilføjer spørgsmål';
 $string['addingquestions'] = 'Til venstre på siden er en liste med spørgsmålene i quizzen. Spørgsmålene ligger i kategorier ovenfor. Som udgangspunkt kan et spørgsmål kun bruges i det kursus det er oprettet i, med mindre du gør kategorien \"offentlig\", så den bliver tilgængelig for andre kurser. <br /><br />Efter at du har oprettet eller valgt en kategori kan du rette/oprette spørgsmål i den. Du kan så vælge de spørgsmål der skal med i quizzen.<br /> Du kan også oprette \"tilfældige spørgsmål\" som vælger et tilfældigt spørgsmål fra en kategori. <br />Når spørgsmålene er tilføjet quizzen, skal de tildeles et maks. antal points som gives hvis svaret er 100%% korrekt.';
@@ -75,6 +75,7 @@ $string['blackboard'] = 'Blackboard';
 $string['blackboard_6'] = 'Blackboard V6+';
 $string['bothattempts'] = 'Vis studerende som ikke har forsøgt';
 $string['braceerror'] = 'Ingen {...} omkring svar';
+$string['browsersecurity'] = 'Browsersikkerhed';
 $string['calculated'] = 'Beregnet';
 $string['calculatedquestion'] = 'Beregnet spørgsmål ikke understøttet på linje $a. Spørgsmålet vil blive ignoreret.';
 $string['cannotcreatepath'] = 'Mapper kan ikke oprettes ($a)';
@@ -261,6 +262,7 @@ $string['gift'] = 'GIFT format';
 $string['giftleftbraceerror'] = 'Manglende {';
 $string['giftmatchingformat'] = 'Match svar er ikke formatteret korrekt';
 $string['giftnonumericalanswers'] = 'Der blev ikke fundet nogen svar på numerisk spørgsmål';
+$string['giftnovalidquestion'] = 'Der blev ikke fundet valide spørgsmål';
 $string['giftqtypenotset'] = 'Mangler type på spørgsmål';
 $string['giftrightbraceerror'] = 'Manglende }';
 $string['grade'] = 'Vurdering';
@@ -429,6 +431,7 @@ $string['quiz:grade'] = 'Vurdér quizzer manuelt';
 $string['quiz:ignoretimelimits'] = 'Ignorerer tidsbegrænsning på quizzer';
 $string['quiz:manage'] = 'Administrer quizzer';
 $string['quiz:preview'] = 'Kontroller quizzer';
+$string['quiz:reviewmyattempts'] = 'Evaluer dine forsøg';
 $string['quiz:view'] = 'Vis quizinformation';
 $string['quiz:viewreports'] = 'Vis quizrapport';
 $string['quizavailable'] = 'Quizzen er åben indtil: $a';
@@ -494,10 +497,12 @@ $string['reviewclosed'] = 'Efter at quizzen er lukket';
 $string['reviewimmediately'] = 'Umiddelbart efter forsøget';
 $string['reviewnever'] = 'Tillad ikke at gennemse igen';
 $string['reviewofattempt'] = 'Resultat af forsøg $a';
+$string['reviewofpreview'] = 'Evaluer forhåndsvisningen';
 $string['reviewopen'] = 'Senere, mens quizzen stadig er åben';
 $string['reviewoptions'] = 'Studerende må gennemse';
 $string['reviewoptionsheading'] = 'Indstillinger for opsummering';
 $string['reviewresponse'] = 'Gennemse svar';
+$string['reviewresponsetoq'] = 'Evaluer respons (spørgsmål $a)';
 $string['rqp'] = 'Eksternt spørgsmål';
 $string['rqps'] = 'Eksterne spørgsmål';
 $string['save'] = 'Gem';
@@ -561,6 +566,7 @@ $string['timelimitmin'] = 'Tidsbegrænsning (minutter)';
 $string['timestr'] = '%%H:%%M:%%S d. %%d/%%m-%%y';
 $string['timesup'] = 'Tiden er gået!';
 $string['timetaken'] = 'Tidsforbrug';
+$string['tofile'] = 'til fil';
 $string['tolerance'] = 'Tolerance';
 $string['tolerancetype'] = 'Tolerancetype';
 $string['toomanyrandom'] = 'Der er defineret flere \"tilfældige spørgsmål\" end der er spørgsmål at vælge mellem i kategorien.';
