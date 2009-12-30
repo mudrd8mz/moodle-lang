@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091021) (2009100605)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20091225) (2007101570)
 
 
 $string['CASform'] = 'Authenticatiekeuze';
@@ -281,6 +281,7 @@ $string['auth_shib_convert_data'] = 'Data wijzigings-API';
 $string['auth_shib_convert_data_description'] = 'Je kunt deze API gebruiken om de gegevens die Shibboleth geeft verder aan te passen. Lees <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> voor verder instructies.';
 $string['auth_shib_convert_data_warning'] = 'Het bestand bestaat niet of is niet leesbaar voor het webserverproces!';
 $string['auth_shib_idp_list'] = 'Identiteitsproviders';
+$string['auth_shib_idp_list_description'] = 'Geef een lijst met Identity Provider ID\'s waaruit de gebruiker kan kiezen op de loginpagina.<br />Op elke lijn moet er een kommagescheiden tuple voor entityID van de ldP (zie Shibboleth metadata bestand) en Naam van ldP omdat dit getoond zal worden in het rolmenu.<br />Als optionele derde parameter kun je de locatie van de Shibboleth sessie-initiator geven die gebruikt zal worden als je Moodle-installatie deel uitmaakt van een multifederatiesetup.';
 $string['auth_shib_instructions'] = 'Gebruik de <a href=\"$a\">Shibboleth login</a> om toegang te krijgen via Shibboleth als je instituut dat ondersteund.<br />Gebruik anders het gewone loginformulier.';
 $string['auth_shib_instructions_help'] = 'Hier zou je aangepaste instructies moeten geven om je gebruikers Shibboleth uit te leggen. Die instructies zullen getoond worden op de login-pagina in het gedeelte voor instructies. Er zou een link naar \"<b>$a</b>\" moeten instaan, zodat gebruikers gemakkelijk kunnen inloggen. Als je dit blanco laat, dan zullen de standaardinstructies getoond worden (niet specifiek voor Shibboleth).';
 $string['auth_shib_integrated_wayf'] = 'Moodle WAYF Service';
@@ -320,7 +321,6 @@ $string['chooseauthmethod'] = 'Kies een methode van authenticatie:';
 $string['createpasswordifneeded'] = 'Maak een wachtwoord indien nodig';
 $string['enterthenumbersyouhear'] = 'Vul hier de cijfers in die je hoort';
 $string['enterthewordsabove'] = 'Vul hier bovenstaande woorden in';
-$string['errormaxconsecutiveidentchars'] = 'Wachtwoorden mogen maximum $a opeenvolgende gelijke tekens hebben';
 $string['errorminpassworddigits'] = 'Wachtwoorden moeten minstens $a cijfers hebben.';
 $string['errorminpasswordlength'] = 'Wachtwoorden moeten minstens $a tekens lang zijn.';
 $string['errorminpasswordlower'] = 'Wachtwoorden moeten minstens $a kleine letters hebben.';
@@ -338,6 +338,12 @@ $string['getanothercaptcha'] = 'Vraag een andere CAPTCHA';
 $string['guestloginbutton'] = 'Knop om in te loggen als gast';
 $string['incorrectpleasetryagain'] = 'Fout. Probeer opnieuw';
 $string['infilefield'] = 'Veld vereist in bestand';
+$string['informminpassworddigits'] = 'minstens $a cijfer(s)';
+$string['informminpasswordlength'] = 'minstens $a tekens';
+$string['informminpasswordlower'] = 'minstens $a kleine letter(s)';
+$string['informminpasswordnonalphanum'] = 'minstens $a niet-alphanumerieke teken(s)';
+$string['informminpasswordupper'] = 'minstens $a hoofdletter(s)';
+$string['informpasswordpolicy'] = 'Het wachtwoord moet bestaan uit $a';
 $string['instructions'] = 'Instructies';
 $string['internal'] = 'Intern';
 $string['locked'] = 'Geblokkeerd';
@@ -360,12 +366,6 @@ $string['shib_no_attributes_error'] = 'Het lijkt er op dat je door Shibboleth ge
 $string['shib_not_all_attributes_error'] = 'Moodle heeft verschillende Shibboleth attributen nodig die in jouw geval niet aanwezig zijn. De attributen zijn: $a<br />Contacteer aub de webmaster van deze server of je identiteitsprovidor';
 $string['shib_not_set_up_error'] = 'Shibboleth authenticatie lijkt niet juist geïnstalleerd te zijn. Raadpleeg het <a href=\"README.txt\">README</a>-bestand voor meer informatie over hoe je Shibboleht authenticatie installeert.';
 $string['showguestlogin'] = 'Je kunt de knop om in te loggen als gast verbergen of laten zien op de inlogpagina.';
-$string['sso_idp_description'] = 'Publiceer deze service om het voor gebruikers mogelijk te maken naar de $a Moodle site te gaan zonder daar opnieuw te moeten inloggen.
-<ul><li><em>Dependentie:</em>Je moet op de SSO service (service provider) ook <strong>inschrijven</strong> op $a.</li></ul><br />Schrijf je op deze service in om geautenticeerde gebruikers van $a toegang te geven tot jouw site zonder dat ze opnieuw moeten inloggen.<ul><li><em>Dependentie</em>: je moet de SSO service (service provider) <strong>publiceren</strong> voor $a.</li></ul><br />';
-$string['sso_idp_name'] = 'SSO (identiteits provider)';
-$string['sso_mnet_login_refused'] = 'Gebruikersnaam $a heeft geen toelating om in te loggen vanuit $a.';
-$string['sso_sp_description'] = 'Publiceer deze service om geautenticeerde gebruikers van $a toe te laten tot jouw site, zonder op nieuw te moeten inloggen. <ul><li><em>Dependentie</em>: je moet ook <strong>inschrijven</strong> op de SSO service (identiteits provider) op $a.</li></ul><br />Inschrijven op deze service zal het voor je gebruikers mogelijk maken naar de $a Moodle site te gaan zonder daar opnieuw te moeten inloggen<ul><li><em>Dependentie</em>: Je moet ook de SSO service (identiteitsprovider) <strong>publiceren</strong> voor $a.</li><ul><br />';
-$string['sso_sp_name'] = 'SSO (service provider)';
 $string['stdchangepassword'] = 'Gebruik de standaardpagina om het wachtwoord te wijzigen';
 $string['stdchangepassword_expl'] = 'Zet dit op ja als het externe systeem toelaat om wachtwoorden via Moodle te wijzigen. Deze instelling gaat voor op de \"Verander wachtwoord-URL\"';
 $string['stdchangepassword_explldap'] = 'Merk op: het is aan te raaden om LDAP te gebruiken met een SSL geëncrypteerde tunnel (ldaps://) als de LDAP-server op afstand staat.';
@@ -375,8 +375,15 @@ $string['update_never'] = 'Nooit';
 $string['update_oncreate'] = 'Bij het  aanmaken';
 $string['update_onlogin'] = 'Bij elke aanmelding';
 $string['update_onupdate'] = 'Bij het updaten';
-$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() ondersteunt het geselecteerde gebruikerstype niet: $a';
-$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() ondersteunt het geselecteerde gebruikerstype (nog) niet';
+$string['errormaxconsecutiveidentchars'] = 'Wachtwoorden mogen maximum $a opeenvolgende gelijke tekens hebben'; // ORPHANED
+$string['sso_idp_description'] = 'Publiceer deze service om het voor gebruikers mogelijk te maken naar de $a Moodle site te gaan zonder daar opnieuw te moeten inloggen.
+<ul><li><em>Dependentie:</em>Je moet op de SSO service (service provider) ook <strong>inschrijven</strong> op $a.</li></ul><br />Schrijf je op deze service in om geautenticeerde gebruikers van $a toegang te geven tot jouw site zonder dat ze opnieuw moeten inloggen.<ul><li><em>Dependentie</em>: je moet de SSO service (service provider) <strong>publiceren</strong> voor $a.</li></ul><br />'; // ORPHANED
+$string['sso_idp_name'] = 'SSO (identiteits provider)'; // ORPHANED
+$string['sso_mnet_login_refused'] = 'Gebruikersnaam $a heeft geen toelating om in te loggen vanuit $a.'; // ORPHANED
+$string['sso_sp_description'] = 'Publiceer deze service om geautenticeerde gebruikers van $a toe te laten tot jouw site, zonder op nieuw te moeten inloggen. <ul><li><em>Dependentie</em>: je moet ook <strong>inschrijven</strong> op de SSO service (identiteits provider) op $a.</li></ul><br />Inschrijven op deze service zal het voor je gebruikers mogelijk maken naar de $a Moodle site te gaan zonder daar opnieuw te moeten inloggen<ul><li><em>Dependentie</em>: Je moet ook de SSO service (identiteitsprovider) <strong>publiceren</strong> voor $a.</li><ul><br />'; // ORPHANED
+$string['sso_sp_name'] = 'SSO (service provider)'; // ORPHANED
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() ondersteunt het geselecteerde gebruikerstype niet: $a'; // ORPHANED
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() ondersteunt het geselecteerde gebruikerstype (nog) niet'; // ORPHANED
 $string['auth_dbrevive'] = 'Ontvangen gebruiker $a[0] id $a[1]'; // ORPHANED
 
 ?>

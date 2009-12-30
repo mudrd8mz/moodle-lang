@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20090929) (2009091700)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20091225) (2007101570)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (eigen certificaat)';
@@ -12,6 +12,7 @@ $string['accesslevel'] = 'Toegangsniveau';
 $string['addhost'] = 'Host toevoegen';
 $string['addnewhost'] = 'Voeg een nieuwe host toe';
 $string['addtoacl'] = 'Toevoegen aan toegangscontrole';
+$string['allhosts_no_options'] = 'Er zijn geen opties beschikbaar waneer je meerdere hosts bekijkt';
 $string['allow'] = 'Toestaan';
 $string['authfail_nosessionexists'] = 'Authorisatie mislukt: de mnet-sessie bestaat niet.';
 $string['authfail_sessiontimedout'] = 'Authorisatie mislukt: de tijd voor de mnet-sessie is verlopen.';
@@ -19,8 +20,6 @@ $string['authfail_usermismatch'] = 'Authorisatie mislukt: de gebruiker komt niet
 $string['authmnetautoadddisabled'] = '<em>Automatisch gebruikers toevoegen</em> in Moodle Networking Authenticatieplugin is <strong>uitgeschakeld</strong>.';
 $string['authmnetdisabled'] = 'Moodle Networking <em>Authenticatieplugin</em> is <strong>uitgeschakeld</strong>.';
 $string['badcert'] = 'Dit certificaat is niet geldig.';
-$string['certdetails'] = 'Cert Details';
-$string['configmnet'] = 'Moodle networking maakt communicatie mogelijk tussen deze server en andere servers of services.';
 $string['couldnotgetcert'] = 'Geen certificaat gevonden op <br />$a.<br />De host is misschien onbereikbaar of slecht geconfigureerd.';
 $string['couldnotmatchcert'] = 'Dit komt niet overeen met het certificaat dat door de webserver gepubliceerd wordt.';
 $string['courses'] = 'cursussen';
@@ -55,6 +54,7 @@ $string['expires'] = 'Geldig tot';
 $string['expireyourkey'] = 'Verwijder deze sleutel';
 $string['expireyourkeyexplain'] = 'Moodle roteert je sleutels automatisch om de 28 dagen (standaardinstelling), maar je hebt de optie om deze sleutel <em>manueel</em> te laten verlopen op gelijk welk moment. Dit is enkel nuttig als je denkt dat deze sleutel niet meer veilig is. Een vervangsleutel zal automatisch gegenereerd worden.<br />Het verwijderen van deze sleutel zal het voor andere Moodleïnstallaties onmogelijk maken  om met jou te communiceren, tot je manueel contact omneemt met elke beheerder en hen de nieuwe sleutel geeft.';
 $string['failedaclwrite'] = 'Het schrijven naar de MNET access control list voor gebruiker \'$a\' is mislukt.';
+$string['findlogin'] = 'Zoek login';
 $string['forbidden-function'] = 'Deze functie is niet ingeschakeld voor RPC.';
 $string['forbidden-transport'] = 'De transportmethode die je probeert te gebruiken is niet toegestaan.';
 $string['forcesavechanges'] = 'Forceer bewaren van de wijzigingen';
@@ -98,6 +98,8 @@ $string['mnet_concatenate_strings'] = 'Concatenate (tot maximum) 3 strings en ge
 $string['mnet_session_prohibited'] = 'Gebruikers van jouw server mogen op dit moment niet op $a aanmelden.';
 $string['mnetdisabled'] = 'Moodle Network is <strong>uitgeschakeld</strong>';
 $string['mnetenrol'] = 'Aanmeldingen';
+$string['mnetidprovider'] = 'MNET ID-Provider';
+$string['mnetidprovidermsg'] = 'Je zou moeten kunnen aanmelden bij je $a provider.';
 $string['mnetlog'] = 'Logs';
 $string['mnetpeers'] = 'Peer servers';
 $string['mnetservices'] = 'Sevices';
@@ -191,5 +193,7 @@ $string['wrong-ip'] = 'Je IP-adres komt niet overeen met het IP-adres dat we ger
 $string['xmlrpc-missing'] = 'Je moet XML-RPC in PHP geinstalleerd hebben om deze functie te kunnen gebruiken';
 $string['yourhost'] = 'Jouw host';
 $string['yourpeers'] = 'Jouw peers';
+$string['certdetails'] = 'Cert Details'; // ORPHANED
+$string['configmnet'] = 'Moodle networking maakt communicatie mogelijk tussen deze server en andere servers of services.'; // ORPHANED
 
 ?>

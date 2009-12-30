@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (2007101508)
+      // filters.php - created with Moodle 1.9.7+ (Build: 20091225) (2007101570)
 
 
 $string['actfilterhdr'] = 'Actieve filters';
@@ -21,6 +21,7 @@ $string['doesnotcontain'] = 'bevat niet';
 $string['endswith'] = 'eindigt op';
 $string['firstaccess'] = 'Eerste bezoek';
 $string['globalrolelabel'] = '$a->label is $a->value';
+$string['includenever'] = 'Nooit inbegrepen';
 $string['isafter'] = 'is na $a';
 $string['isanyvalue'] = 'is willekeurige waarde';
 $string['isbefore'] = 'is voor $a';
