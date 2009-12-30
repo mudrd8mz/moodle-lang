@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // search.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // search.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['advancedsearch'] = 'Avanceret søgning';
@@ -10,11 +10,12 @@ $string['back'] = 'Tilbage';
 $string['beadmin'] = 'Du skal være administrator for at bruge denne side.';
 $string['checkdb'] = 'Tjek databasen';
 $string['checkdbadvice'] = 'Tjek din database for problemer.';
-$string['checkdiradvice'] = 'Sørg for at databiblioteket eksisterer og at der kan skrives i det.';
+$string['checkdir'] = 'Tjek mappe';
+$string['checkdiradvice'] = 'Sørg for at datamappen eksisterer og at der kan skrives i den.';
 $string['createanindex'] = 'opret et indeks';
 $string['createdon'] = 'Oprettet';
 $string['database'] = 'Database';
-$string['datadirectory'] = 'Databibliotek';
+$string['datadirectory'] = 'Datamappe';
 $string['doctype'] = 'Dokumenttype';
 $string['documents'] = 'dokumenter';
 $string['documentsindatabase'] = 'Dokumenter i databasen';
@@ -22,7 +23,7 @@ $string['documentsinindex'] = 'Dokumenter i indekset';
 $string['duration'] = 'Varighed';
 $string['enteryoursearchquery'] = 'Indtast din forespørgsel';
 $string['errors'] = 'Fejl';
-$string['filesinindexdirectory'] = 'Filer i indeks-biblioteket';
+$string['filesinindexdirectory'] = 'Filer i indeksmappen';
 $string['globalsearchdisabled'] = 'Global søgning er ikke aktiveret.';
 $string['ittook'] = 'Det tog';
 $string['next'] = 'Næste';
