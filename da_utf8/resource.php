@@ -18,9 +18,9 @@ $string['configautofilerenamesettings'] = 'Opdater automatisk referencer og mapp
 $string['configblockdeletingfilesettings'] = 'Bloksletning af filer og mapper der bliver brugt af ressourcer. Vær opmærksom på at billeder eller andre filer, der bliver refereret til via HTML-links, ikke er beskyttet.';
 $string['configdefaulturl'] = 'Denne værdi bruges til at indsætte i URL formen når en ny URL-baseret ressource laves.';
 $string['configfilterexternalpages'] = 'Hvis du bruger denne indstilling, vil alle eksterne ressourcer (websider, uploadede HTML-filer) blive behandlet af de nuværende sidefiltre (såsom for eksempel opslagsværkers auto-links). Brugen af denne indstilling kan forårsage at sidevisningen bliver betydeligt langsommere. Brug den med omtanke og kun når det er virkelig nødvendigt.';
-$string['configframesize'] = 'Når en webside eller en uploadet fil vises i en <acronym =\"html-kode for en indlejret ramme\">frame</acronym>, så angiver denne værdi højden på den øverste frame (som indeholder navigationen)';
+$string['configframesize'] = 'Når en webside eller en uploadet fil vises i en <acronym =\"html-kode for en ramme\">frame</acronym>, så angiver denne værdi højden på den øverste frame (som indeholder navigationen)';
 $string['configparametersettings'] = 'Denne angiver standardværdien for parameterpanelet i dialogen når der tilføjes nye ressourcer. Efter første gang bliver disse individuelle brugerbestemte indstillinger.';
-$string['configpopup'] = 'Når en ny ressource som kan vises i et vindue, bliver tilføjet, skal denne mulighed da være aktiveret som standard?';
+$string['configpopup'] = 'Når en ny ressource som kan vises i et popup-vindue, bliver tilføjet, skal denne mulighed da være aktiveret som standard?';
 $string['configpopupdirectories'] = 'Skal popup-vinduer vise mappelinks som standard?';
 $string['configpopupheight'] = 'Hvad skal den normale højde for popup-vinduer være?';
 $string['configpopuplocation'] = 'Skal popup-vinduer som standard vise adresselinjen?';
@@ -50,8 +50,8 @@ $string['fetchservererror'] = 'Der er opstået en fejl på serveren i forbindels
 $string['filename'] = 'Filnavn';
 $string['filtername'] = 'Autolink ressource';
 $string['forcedownload'] = 'Tvungen download';
-$string['frameifpossible'] = 'Put ressourcen i en <acronym =\"html-kode for en indlejret ramme\">frame</acronym> for at beholde navigationsbaren synlig.';
-$string['framesize'] = '\"<acronym =\"html-kode for en indlejret ramme\">frame</acronym>\"-størrelse';
+$string['frameifpossible'] = 'Put ressourcen i en <acronym title=\"html-kode for ramme\">frame</acronym> og bevar navigationslinjen synlig.';
+$string['framesize'] = '\"<acronym title=\"html-kode for  ramme\">frame</acronym>\"-størrelse';
 $string['fulltext'] = 'Fuld tekst';
 $string['htmlfragment'] = 'HTML-del';
 $string['imspackageloaded'] = 'Pakken er loadet';
@@ -91,7 +91,7 @@ $string['notdeployed'] = 'Ikke anvendt';
 $string['note'] = 'Note';
 $string['notefile'] = 'Brug <a href=\"$a\" >File Manager</a> når du skal uploade filer til kurset (så de vises på denne liste).';
 $string['notypechosen'] = 'Du skal vælge en type. Brug tilbageknappen og prøv igen.';
-$string['packagechanged'] = 'Denne IMS-pakke er ændret';
+$string['packagechanged'] = 'Denne IMS-pakke er ændret.';
 $string['packagenotdeplyed'] = 'Denne IMS-pakke er ikke anvendt';
 $string['pagedisplay'] = 'Vis ressourcen i dette vindue';
 $string['pagewindow'] = 'Samme vindue';
@@ -135,5 +135,6 @@ $string['viewims'] = 'Gennemse IMS-pakke';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'ADVARSEL: Det kan ikke lade sig gøre at slette denne fil da den bliver brugt af en ressource. Du kan enten ændre eller slette ressourcen først, eller bede webadministrator om at deaktivere beskyttelsesmekanismen i de globale ressourceindstillinger.';
 $string['warningdisabledrename'] = 'ADVARSEL: Den automatiske omdøbning af referencer i ressourcer er deaktiveret. Du kan omdøbe referencerne manuelt hvis det er nødvendigt. Administratoren kan også aktivere en automatisk omdøbning i de globale indstillingerne for ressourcer.';
+$string['websearchdefault'] = 'Standard websøgning';
 
 ?>
