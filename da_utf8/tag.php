@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9.3+ (Build: 20081025) (2007101530)
+      // tag.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addedotag'] = '\"$a\" er tilføjet som et officielt nøgleord.';
@@ -14,6 +14,7 @@ $string['deleted'] = 'Slettet';
 $string['description'] = 'Beskrivelse';
 $string['edittag'] = 'Rediger dette nøgleord';
 $string['flag'] = 'Flag';
+$string['flagasinappropriate'] = 'Marker som upassende';
 $string['helprelatedtags'] = 'Relaterede kommaseparerede nøgleord';
 $string['id'] = 'id';
 $string['managetags'] = 'Administrer nøgleord';
