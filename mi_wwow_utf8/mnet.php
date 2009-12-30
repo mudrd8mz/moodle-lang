@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.3+ (Build: 20081125) (2007101532)
-      // local modifications from http://oplang.lms.eduforge.org/moodle
+      // mnet.php - created with Moodle 2.0 dev (Build: 20091226) (2009122500)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (haina whaiaro)';
@@ -176,7 +175,7 @@ $string['trustedhosts'] = 'Kaihautū XML-RPC';
 $string['trustedhostsexplain'] = '<p>Ko ngā tikanga whakawhirinaki kaihautū ka tuku ngā mīhini ake hei kawe waea mā te XML-RPC ki tētahi wāhanga o te API Mūtara.  Kei te wātea ēnei mō mngā tuhinga hei whakamana te whanonga Mūtara ā, ka noho hei kōwhiringa tino mōrearea hei whakaāhei. Me mea kei te māharahara waiho kia weto </p> <p>.  Kpo tēnei he <strong>not</strong> kua hiahiatia mō te whakawhatunga Mūtara .</p> <p>Hei whakaāhei, whakaurua he rārangi o ngā wāhitau IP, whakawhatunga, kotahi i ia raina. He tauira:</p>kō tō kaihautū paetata:<br />127.0.0.1<br />Ko tō kaihautū (me tētahi poroka whakawhatunga):<br />127.0.0.1/32<br /> ko te kaihautū anake me te kaihautū ,me te wāhitau IP 192.168.0.7:<br />192.168.0.7/32<br />Ko tētahi kaihautū me te wāhitau mai i waenga 192.168.0.1 me te 192.168.0.255:<br />192.168.0.0/24<br />Ko tētahi kaihautū ahakoa he aha: <br />192.168.0.0/0<br />Ariari ana ko te tauira whakamutunga he  <strong>not</strong> arā, he waihanga kua whakahōpututia.';
 $string['unknownerror'] = 'He hapa kua kore e mōhiotia kua ara mai i te wā o te whakaritenga.';
 $string['usercannotchangepassword'] = 'E kore e taea e koe te whakarerekē i tō kupuhipa i konei mai i te mea he kaihautū whakamahi koe.';
-$string['userchangepasswordlink'] = '<br /> E taea pea e koe te whakarerekē i tō kupuhipa i tō <a href=\"$a->wwwIomatua/takiuru/whakarerekē_kupuhipa.php\">$a->whakaāhuaranga</a> kaiwhakarite.';
+$string['userchangepasswordlink'] = '<br /> E taea pea e koe te whakarerekē i tō kupuhipa i tō <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a> kaiwhakarite.';
 $string['usersareonline'] = 'Whakatūpatotanga: Ko ngā ksaiwhakamahi $a mai i te tūmau kua takiurutia ī nāianei i tō tūnga.';
 $string['validated_by'] = 'Kua whakamanatia e te whakawhatunga: &nbsp;<code>$a</code>';
 $string['verifysignature-error'] = 'Ko te whakatatutanga mokotā kua whara. Kua tūpono he hapa.';

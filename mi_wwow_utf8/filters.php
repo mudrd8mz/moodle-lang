@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 1.9.3+ (Build: 20081125) (2007101532)
-      // local modifications from http://oplang.lms.eduforge.org/moodle
+      // filters.php - created with Moodle 2.0 dev (Build: 20091226) (2009122500)
 
 
 $string['actfilterhdr'] = 'Tātari hohe';
@@ -14,10 +13,10 @@ $string['categoryrole'] = 'Tūnga kāwai';
 $string['contains'] = 'Whai';
 $string['courserole'] = 'Tūnga mahinga';
 $string['courserolelabel'] = '$a->label is $a->rolename in $a->coursename from $a->categoryname';
-$string['courserolelabelerror'] = '$a->hapa tapanga: Mahinga $a->ingoamahinga kāore ōna mana';
+$string['courserolelabelerror'] = '$a->label tapanga: Mahinga $a->coursename kāore ōna mana';
 $string['datelabelisafter'] = '$a->label kei muri i $a->after';
 $string['datelabelisbefore'] = '$a->label kei mua i $a->before';
-$string['datelabelisbetween'] = '$a->label kei waentganui i te $a->after me $a->i mua';
+$string['datelabelisbetween'] = '$a->label kei waentganui i te $a->after me $a->before';
 $string['doesnotcontain'] = 'Kāore e whai mana';
 $string['endswith'] = 'ka mutu kme te';
 $string['firstaccess'] = 'Whakaāhei tuatahi';
@@ -31,14 +30,14 @@ $string['isequalto'] = 'kua ōrite ki';
 $string['isnotdefined'] = 'kāore anō kia tautuhia';
 $string['isnotequalto'] = 'kāore i te ōrite ki';
 $string['newfilter'] = 'Tātari hou';
-$string['profilelabel'] = '$a->tapanga: $a->kōtaha $a->kaiwhakamahi $a->uara';
-$string['profilelabelnovalue'] = '$a->tapanga: $a->kōtaha $a->kaiwhakamahi';
+$string['profilelabel'] = '$a->label: $a->profile $a->operator $a->value';
+$string['profilelabelnovalue'] = '$a->label: $a->profile $a->operator';
 $string['removeall'] = 'Tangohia ngā tātari katoa';
 $string['removeselected'] = 'Tangohia tīpakotanga';
-$string['selectlabel'] = '$a->tapanga $a->kaiwhakamahi $a->uara';
+$string['selectlabel'] = '$a->label $a->operator $a->value';
 $string['startswith'] = 'Tīmata ai ki te';
 $string['tablenosave'] = 'Hurihanga i te ripanga o runga ake kua tohua aunoa';
-$string['textlabel'] = '$a->tapanga $a->kaiwhakamahi $a->uara';
-$string['textlabelnovalue'] = '$a->tapanga $a->kaiwhakamahi';
+$string['textlabel'] = '$a->label $a->operator $a->value';
+$string['textlabelnovalue'] = '$a->label $a->operator';
 
 ?>

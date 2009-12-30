@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 1.9.3+ (Build: 20081125) (2007101532)
-      // local modifications from http://oplang.lms.eduforge.org/moodle
+      // tag.php - created with Moodle 2.0 dev (Build: 20091226) (2009122500)
 
 
 $string['addedotag'] = '\"$a\" i tāpiritia atu hei tūtohu whaimana';
@@ -45,13 +44,13 @@ $string['tagsaredisabled'] = 'I whakakorea ngā tūtohu';
 $string['tagtype'] = 'Momo tūtohu';
 $string['tagtype_default'] = 'Taunoa';
 $string['tagtype_official'] = 'Whaimana';
-$string['thingstaggedwith'] = '$a->tatau ngā mea whai \"$a->name\"';
+$string['thingstaggedwith'] = '$a->count ngā mea whai \"$a->name\"';
 $string['thistaghasnodesc'] = 'Ko tēnei tūtohu i nāianei kāore ōna whakaaturanga';
 $string['timemodified'] = 'Whakarerekē';
 $string['typechanged'] = 'Momo tūtohu kua whakarerekētia';
 $string['updated'] = 'Kua whakahou';
 $string['updatetag'] = 'Whakahou';
-$string['userstaggedwith'] = 'Tūtohu kaiwhakamahi mā te \"$a\"';
 $string['withselectedtags'] = 'Mā ngā tūtohu i tīpakohia';
+$string['userstaggedwith'] = 'Tūtohu kaiwhakamahi mā te \"$a\"'; // ORPHANED
 
 ?>

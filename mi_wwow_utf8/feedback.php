@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 1.9.3+ (Build: 20081125) (2007101532)
-      // local modifications from http://oplang.lms.eduforge.org/moodle
+      // feedback.php - created with Moodle 2.0 dev (Build: 20091226) (2009122500)
 
 
 $string['add_item'] = 'Tāpiri pātai ki te hohenga';
@@ -49,12 +48,12 @@ $string['dropdownrated'] = 'Rārangitakararo (kua whakataungia)';
 $string['edit_item'] = 'Whakatika pātai';
 $string['edit_items'] = 'Whakatika ngā pātai';
 $string['email_notification'] = 'Tonoa ngā whakamōhiotanga īmēra';
-$string['emailteachermail'] = '$a->ingoawhakamahi kua whakaoti i te hohenga urupare: \'$a->feedback\' 
+$string['emailteachermail'] = '$a->username kua whakaoti i te hohenga urupare: \'$a->feedback\' 
 
 E taea e koe te tiro i konei:
 
 $a->url';
-$string['emailteachermailhtml'] = '$a->ingoawhakamahi kua whakaoti i te hohenga urupare:<i>\'$a->feedback\'</i><br /><br /> 
+$string['emailteachermailhtml'] = '$a->username kua whakaoti i te hohenga urupare:<i>\'$a->feedback\'</i><br /><br /> 
 
 E taea e koe te tiro i konei:<a href=\"$a->url\">here</a>.';
 $string['entries_saved'] = 'Kua tohua ō whakautu. Tēnā koe.';
@@ -89,7 +88,6 @@ $string['insufficient_responses_for_this_group'] = 'He iti rawa ngā urupare iti
 $string['item_name'] = 'o tēnei rōpū';
 $string['items_are_required'] = 'Whakautu kei te hiahiatia ki ngā pātai kua wheturangitia';
 $string['label'] = 'Tapanga';
-$string['line_labels'] = 'Tapanga';
 $string['line_values'] = 'whakatauranga';
 $string['mapcourse'] = 'Mahoinga mapi';
 $string['mapcourseinfo'] = 'He urupare paewhānui e wātea ana ki ngā mahinga katoa e whakamahi ana i te paraka urupare. Ka taea te whakatepe i ngā mahinga e whakaputa ana kei te mapitia. Rapu  i te mahinga me te whakamapi ki tēnei urupare.';
@@ -139,7 +137,6 @@ $string['position'] = 'Tūnga';
 $string['preview'] = 'Arokite';
 $string['previous_page'] = 'Whārangi tōmua';
 $string['public'] = 'Tūmatanui';
-$string['publish_stats_on_students'] = 'Whakaatu tātari ki ngā ākonga';
 $string['question'] = 'Pātai';
 $string['questions'] = 'Ngā pātai';
 $string['radio'] = 'Kōwhiringa maha - whakautu kotahi';
@@ -161,7 +158,7 @@ $string['save_item'] = 'Tohua te pātai';
 $string['saving_failed'] = 'Kua hinga te tiaki';
 $string['saving_failed_because_missing_or_false_values'] = 'I hinga te tautuhi i te mea i te ngarongaro ngā uara he teka rānei';
 $string['search_course'] = 'Rapu mahinga';
-$string['selected_dump'] = 'Ngā taupū kōwhiri o te $SESSION tāupe ka mahue ki raro nei.';
+$string['selected_dump'] = 'Ngā taupū kōwhiri o te \$SESSION tāupe ka mahue ki raro nei.';
 $string['separator_decimal'] = '.';
 $string['separator_thousand'] = ',';
 $string['show_all'] = 'Whakaatu katoa';
@@ -189,5 +186,7 @@ $string['use_one_line_for_each_value'] = '<br /> whakamahia kia kotahi raina mō
 $string['use_this_template'] = 'Whakamahia tēnei tātauira';
 $string['using_templates'] = 'Whakamahia he tātauira';
 $string['vertical'] = 'poutū';
+$string['line_labels'] = 'Tapanga'; // ORPHANED
+$string['publish_stats_on_students'] = 'Whakaatu tātari ki ngā ākonga'; // ORPHANED
 
 ?>

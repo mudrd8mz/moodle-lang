@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.3+ (Build: 20081125) (2007101532)
-      // local modifications from http://oplang.lms.eduforge.org/moodle
+      // question.php - created with Moodle 2.0 dev (Build: 20091226) (2009122500)
 
 
 $string['adminreport'] = 'Whakamōhio atu i ngā momo rariuraru i tō patengi raraunga pātai';
@@ -50,7 +49,7 @@ $string['missingimportantcode'] = 'Ko te momo pātai kei te ngaro he waehere hir
 $string['modified'] = 'I tohua whakamutunga i';
 $string['move'] = 'Neke atu mai i $a me ngā hono rerekē.';
 $string['movecategory'] = 'whakaneke kāwai';
-$string['movedquestionsandcategories'] = 'I whakanekea ngā pātai me ngā kāwai pātai mai i $a->wāhi tahito to $a->wāhihou.';
+$string['movedquestionsandcategories'] = 'I whakanekea ngā pātai me ngā kāwai pātai mai i $a->oldplace tahito to $a->newplace.';
 $string['movelinksonly'] = 'Me whakarerekē ngā wāhi e whakaatu mai ana e hono, kaua ngā kōnae e nekehia, e kape rānei.';
 $string['moveq'] = 'Whakaneke i ngā pātai';
 $string['moveqtoanothercontext'] = 'Whakaneke pātai ki `tētahi atu horopaki';
@@ -71,7 +70,7 @@ $string['permissionmove'] = 'Nekea atu tēnei pātai hou';
 $string['permissionsaveasnew'] = 'Tohua tēnei hei pātai hou';
 $string['permissionto'] = 'E whai tikanga ana koe ki te:';
 $string['published'] = 'tiritahi';
-$string['questionaffected'] = '<a href=\"$a->qurl\">Pātai \"$a->name\" ($a->qtype)</a> kei roto i tēnei kāwai pātai engari e whakamahia ana i roto i <a href=\"$a->qurl\">kuihi \"$a->kuihiingoa\"</a> i tētahi atu \"$a->msahingaingoa\".';
+$string['questionaffected'] = '<a href=\"$a->qurl\">Pātai \"$a->name\" ($a->qtype)</a> kei roto i tēnei kāwai pātai engari e whakamahia ana i roto i <a href=\"$a->qurl\">kuihi \"$a->quizname\"</a> i tētahi atu \"$a->coursename\".';
 $string['questionbank'] = 'Pēke pātai';
 $string['questioncategory'] = 'Kāwai pātai';
 $string['questioncatsfor'] = 'Ngā kāwai pātai mō \'$a\'';

@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.9.3+ (Build: 20081125) (2007101532)
-      // local modifications from http://oplang.lms.eduforge.org/moodle
+      // qtype_calculated.php - created with Moodle 2.0 dev (Build: 20091226) (2009122500)
 
 
 $string['addmoreanswerblanks'] = 'Tāpiritia  tētahi atu whakautu pātea';
@@ -24,7 +23,7 @@ $string['nodataset'] = 'He kore - Ehara i te kārimākā';
 $string['nosharedwildcard'] = 'Kāore he kāramāka mahitahi i tēnei kāwai';
 $string['possiblehdr'] = 'Ko ngā kārimākā āhei kei roto i te kete kōrero pātai';
 $string['tolerance'] = 'He tukunga &plusmn;';
-$string['trueanswerinsidelimits'] = 'Whakautu tika: $a->tika i roto i ngā rohe o te uata pono $a-> pono';
+$string['trueanswerinsidelimits'] = 'Whakautu tika: $a->correct i roto i ngā rohe o te uata pono $a->true';
 $string['trueansweroutsidelimits'] = '<span class=\"error\">ERROR Whakautu tika : $a->correct kei waho o ngā uara pono $a->true</span>';
 $string['updatecategory'] = 'Whakahou i te kāwai';
 $string['usedinquestion'] = 'Whakamahia ai i rō pātai';

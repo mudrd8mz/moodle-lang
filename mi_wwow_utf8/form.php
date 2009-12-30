@@ -1,11 +1,10 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.7+ (2006101009)
+      // form.php - created with Moodle 2.0 dev (Build: 20091226) (2009122500)
 
 
 $string['addfields'] = 'Tāpiri $a āpure ki te puka';
 $string['advancedelement'] = 'Huānga ara atu anō';
 $string['day'] = 'rā';
-$string['denotesreq'] = '$a ka whakaatu i te āpure e hiahiatia ana.';
 $string['display'] = 'whakaatu';
 $string['err_alphanumeric'] = 'Me tino whakauru ko ngā pūreta anake, ko ngā tau rānei ki konei.';
 $string['err_email'] = 'Me whakauru koe i tētahi tauira tika o tō īmērā ki konei.';
@@ -15,7 +14,7 @@ $string['err_minlength'] = 'Me tino whakauru koe kia kaua e iti ake i ngā $a->f
 $string['err_nonzero'] = 'Me tino whakauru koe he tau kaua e tīmata ana i te 0 ki konei.';
 $string['err_nopunctuation'] = 'Me kaua koe e whakauru i ngā pūāhua kārawarawatanga ki konei.';
 $string['err_numeric'] = 'Me tino whakauru tau koe ki konei.';
-$string['err_rangelength'] = 'Me whakauru koe i waenganui {$a->hōputu[0]} me {$a->format[1]} pūahua ki konei.';
+$string['err_rangelength'] = 'Me whakauru koe i waenganui {$a->format[0]} me {$a->format[1]} pūahua ki konei.';
 $string['err_required'] = 'Me tino whakaratonga koe he uara ki konei';
 $string['general'] = 'pūnoa';
 $string['hideadvanced'] = 'Huna ara noa atu';
@@ -37,5 +36,6 @@ $string['somefieldsrequired'] = 'Tērā ētahi āpure e hiahiatia ana i roto i t
 $string['timing'] = 'whakahaere wā';
 $string['unmaskpassword'] = 'Hipoki kore';
 $string['year'] = 'tau';
+$string['denotesreq'] = '$a ka whakaatu i te āpure e hiahiatia ana.'; // ORPHANED
 
 ?>
