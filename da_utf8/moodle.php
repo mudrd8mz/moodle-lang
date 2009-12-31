@@ -22,7 +22,7 @@ $string['addactivity'] = 'Ny aktivitet...';
 $string['addadmin'] = 'Tilføj admin';
 $string['addcreator'] = 'Tilføj kursusadministrator';
 $string['added'] = 'Tilføjet $a';
-$string['addedrecip'] = 'Tilføjet $a nye modtager';
+$string['addedrecip'] = 'Tilføjet $a ny modtager';
 $string['addedrecips'] = 'Tilføjet $a nye modtagere';
 $string['addedtogroup'] = 'Tilføjet til gruppe $a';
 $string['addedtogroupnot'] = 'Ikke tilføjet til gruppen $a';
@@ -1127,7 +1127,7 @@ $string['passwordforgotten'] = 'Glemt adgangskode';
 $string['passwordforgotteninstructions'] = 'Din profil skal først findes i brugerdatabasen.
 Skriv <strong>enten</strong> dit brugernavn <strong>eller</strong> din e-mail-adresse i det rigtige felt.
 Du behøver ikke skrive dem begge.';
-$string['passwordnohelp'] = 'Der er ingen hjælp til finde din glemte adgangskode. Kontakt venligst din  administrator.';
+$string['passwordnohelp'] = 'Der er ingen hjælp til at finde din glemte adgangskode. Kontakt venligst din  administrator.';
 $string['passwordrecovery'] = 'Ja, hjælp mig med at logge ind';
 $string['passwordsdiffer'] = 'Disse koder matcher ikke';
 $string['passwordsent'] = 'Adgangskoden er sendt';
