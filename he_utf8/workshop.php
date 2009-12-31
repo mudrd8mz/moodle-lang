@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.8 dev (2006120700)
+      // workshop.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['absent'] = 'חסר';
@@ -218,6 +218,7 @@ $string['releaseteachergrades'] = 'שחרר את ציוני המורים';
 $string['removeallattachments'] = 'הסר את כל הקבצים המצורפים';
 $string['repeatanalysis'] = 'חזור שנית על הניתוח';
 $string['reply'] = 'השב';
+$string['resetworkshopall'] = 'מחק הגשות, ציונים והערכות';
 $string['returnto'] = 'חזור ל-';
 $string['returntosubmissionpage'] = 'חזור לעמוד ההגשה';
 $string['rubric'] = 'רובריקה';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
+      // role.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addrole'] = 'הוסף  תפקיד חדש';
@@ -10,6 +10,7 @@ $string['allsiteusers'] = 'כל משתמשי האתר';
 $string['assignglobalroles'] = 'מנה תפקידים חובקי-כל';
 $string['assignroles'] = 'מנה תפקידים';
 $string['assignrolesin'] = 'הקצה תפקידים ב $a';
+$string['backup:userinfo'] = 'גיבוי מידע המשתמש';
 $string['block:view'] = 'צפה בבלוק';
 $string['blog:create'] = 'צור רשומות חדשות בבלוג';
 $string['blog:manageentries'] = 'ערוך ונהל את הרשומות';
@@ -135,6 +136,7 @@ $string['resetrolenolegacy'] = 'נקה את ההרשאות';
 $string['resetrolesure'] = 'האם אתה בטוח שברצונך לאתחל לברירות המחדל את התפקיד \"$a->name ($a->shortname)\" ?<p></p> ברירות המחדל נלקחות מיכולות הירושה הנבחרת ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'האם אתה בטוח שברצונך לנקות את כל ההרשאות שמוגדרות לתפקיד זה תפקיד \"$a->name ($a->shortname)\"?';
 $string['restore:rolldates'] = 'מאפשר לגלול תאריכי הגדרת פעילות בשחזור';
+$string['restore:userinfo'] = 'שחזר מידע משתמש';
 $string['risks'] = 'סיכונים';
 $string['role:assign'] = 'מנה תפקידים למשתמשים';
 $string['role:manage'] = 'צור ונהל תפקידים';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'על סף התקנה';
@@ -159,7 +159,9 @@ $string['backuplogdetailed'] = 'דוח הפעלה מפורט';
 $string['backuploglaststatus'] = 'דוח הפעלה אחרון';
 $string['backuplogshelp'] = 'אם זמינים, אז דוחות הקורס יכללו בגיבויים אוטומטיים';
 $string['backupmetacoursehelp'] = 'אם תאפשר, המידע של קורסי-המטה (ישומים מורשים) יכללו בגיבויים הממוכנים.';
+$string['backupmissinguserinfoperms'] = 'הערה: גיבוי זה לא מכיל אף מידע על משתמש. פעילויות תרגיל וסדנה לא יכללו בגיבוי זה מפני שמודולים אלו לא תואמים סוג גיבוי זה.';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['backupnext'] = 'הגיבוי הבא';
 $string['backupnoneusersinfo'] = 'הודעה: בחרת לגבות \"אף אחד\" מהמשתמשים, כך שכל גיבויי המודולים שונו למצב \"ללא מידע משתמש\". אנא שים לב שמודולי ה\"תרגיל\" וה\"סדנה\" אינם מתאימים לסוג זה של גיבוי, כך שהם נוטרלו לחלוטין.';
 $string['backupnonisowarning'] = 'אזהרה: גיבוי זה הוא מגירסת non-Unicode ל-Moodle pre 1.6. אם גיבוי זה מכיל טקסטים שהם non-ISO כלשהם הם עלולים להיות פגומים כאשר תנסה את 1-8859 בכדי לשחזר אותם לגירסת ה-Unicode הזו של Moodle. ראה ב- <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a> למידע נוסף על-מנת לשחזר גיבוי זה בצורה נכונה.';
 $string['backuporiginalname'] = 'שם גיבוי';
@@ -587,6 +589,8 @@ $string['firstaccess'] = 'כניסה ראשונה';
 $string['firstdayofweek'] = 'יום ראשון';
 $string['firstname'] = 'שם פרטי';
 $string['firsttime'] = 'האם זהו הביקור הראשון שלך באתר זה?';
+$string['flashlinkmessage'] = 'אנא עדכן את נגן ה-Flash שלך כעת.';
+$string['flashupgrademessage'] = 'התקן ה-Flash נדרש בכדי לנגן את תוכן זה, הגרסה שיש לך ישנה מידי.';
 $string['folder'] = 'תיקייה';
 $string['folderclosed'] = 'תיקייה סגורה';
 $string['folderopened'] = 'תיקייה פתוחה';
@@ -597,7 +601,9 @@ $string['forcedmode'] = 'הכרח מצב';
 $string['forcelanguage'] = 'הכרח שפה';
 $string['forceno'] = 'אל תכריח';
 $string['forcepasswordchange'] = 'הכרח שינוי סיסמה';
+$string['forcepasswordchangecheckfull'] = 'האם אתה בטוח כי ברצונך לכפות שינוי סיסמה ל- $a ?';
 $string['forcepasswordchangehelp'] = 'בקש מהמשתמש לשנות בכניסה הבאה';
+$string['forcepasswordchangenot'] = 'לא היה ניתן לכפות שינוי סיסמה ל- $a';
 $string['forcepasswordchangenotice'] = 'הינך חייב לשנות את סיסמתך בכדי להמשיך';
 $string['forcetheme'] = 'אלץ ערכת נושא';
 $string['forgotaccount'] = 'שכחת סיסמה?';
@@ -997,6 +1003,7 @@ $string['noteachersyet'] = 'עדיין אין מורים בקורס זה';
 $string['notenrollable'] = 'קורס זה לא ניתן להרשמה בשלב זה.';
 $string['notenrolled'] = '$a אינו רשום בקורס זה.';
 $string['notenrolledprofile'] = 'פרופיל זה לא זמין מפני שמשתמש זה לא רשום לקורס זה.';
+$string['noteusercannotrolldatesoncontext'] = '<strong> הערה: </strong> היכולת לגלול תאריכים כאשר משחזרים גיבוי זה נוטרלה מכיוון שחסרת בהרשאות שנדרשו.';
 $string['noteuserschangednonetocourse'] = 'הערה: כאשר משחזרים מידע,משתמשי הקורס גם כן צריכים להיות משוחזרים. הגדרה זו שונתה למענך.';
 $string['nothingnew'] = 'אין חדש מאז התחברותך האחרונה';
 $string['nothingtodisplay'] = 'אין כלום להציג';
@@ -1174,10 +1181,13 @@ $string['resources'] = 'משאבים';
 $string['restore'] = 'שחזור';
 $string['restorecancelled'] = 'שחזור בוטל';
 $string['restorecoursenow'] = 'שחזר קורס זה כעת!';
+$string['restoredaccount'] = 'חשבון שוחזר';
+$string['restoredaccountinfo'] = 'חשבון זה הובא משרת אחר והסיסמה אבדה, בכדי ליצור סיסמה חדשה נא הקש \"המשך\".';
 $string['restorefinished'] = 'השחזור הושלם בהצלחה';
 $string['restoreto'] = 'שחזר ל';
 $string['restoretositeadding'] = 'אזהרה: אתה עומד לשחזר לעמוד הראשי של האתר, הוספת מידע עליו!';
 $string['restoretositedeleting'] = 'אזהרה: אתה עומד לשחזר לעמוד הראשי של האתר, מחיקת מידע ממנו קודם לכן!';
+$string['restoreuserinfofailed'] = 'תהליך השחזור הופסק מכיוון שאין לך הרשאות מתאימות לשחזר מידע משתמש.';
 $string['restricted'] = 'מוגבל';
 $string['restrictmodules'] = 'להגביל מודולי פעילויות?';
 $string['returningtosite'] = 'האם זהו ביקור חוזר שלך באתר זה?';

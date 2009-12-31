@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // forum.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addanewdiscussion'] = 'הוסף נושא חדש לדיון';
@@ -128,6 +128,7 @@ $string['introteacher'] = 'פורום לדיונים והערות בין מור�
 $string['invalidrate'] = 'דירוג לא תקין ($a)';
 $string['lastpost'] = 'הודעה אחרונה';
 $string['learningforums'] = 'פורומי למידה';
+$string['logblocked'] = 'רשימת כתובות דוא\"ל חסומות';
 $string['longpost'] = 'פרסום הודעה ארוך';
 $string['mailnow'] = 'שלח דוא\"ל עכשיו';
 $string['manydiscussions'] = 'דיונים לכל עמוד';

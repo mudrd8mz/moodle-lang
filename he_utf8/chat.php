@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // chat.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['autoscroll'] = 'גלילה אוטומטית';
@@ -35,6 +35,9 @@ $string['explainmethodnormal'] = 'הגדרות אלה משפיעות <strong>ר�
 $string['generalconfig'] = 'תצורה כללית';
 $string['helpchatting'] = 'עזרה עם שיחה בצ\'אט';
 $string['idle'] = 'בטל';
+$string['list_all_sessions'] = 'רשימות כל המושבים';
+$string['list_complete_sessions'] = 'רשימת המושבים שזה עתה הושלמו';
+$string['listing_all_sessions'] = 'הרשמת כל המושבים';
 $string['messagebeepseveryone'] = '$a ציפצף לכולם!';
 $string['messagebeepsyou'] = '$a ציפצף לך הרגע!';
 $string['messageenter'] = '$a כרגע נכנס לצ\'אט זה';
@@ -47,6 +50,7 @@ $string['modulename'] = 'צ\'אט';
 $string['modulenameplural'] = 'צ\'אטים';
 $string['neverdeletemessages'] = 'לעולם אל תמחוק הודעות';
 $string['nextsession'] = 'המושב המתוכן הבאה';
+$string['no_complete_sessions_found'] = 'לא נמצא אף מושב שהושלם.';
 $string['noguests'] = 'צ\'אט זה לא פתוח לאורחים';
 $string['nomessages'] = 'אין הודעות עדיין';
 $string['normalkeepalive'] = 'KeepAlive (שמור בחיים)';

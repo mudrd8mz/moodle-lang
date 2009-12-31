@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // glossary.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
+      // glossary.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addcomment'] = 'הוסף הערה';
@@ -26,6 +26,7 @@ $string['cantinsertcat'] = 'אין אפשרות לתחוב קטגוריה זו';
 $string['cantinsertrec'] = 'אין אפשרות לתחוב רשומה זו';
 $string['cantinsertrel'] = 'אין אפזרות לתחוב את ההקשר קטגוריה-מונח';
 $string['casesensitive'] = 'מונח זה תלוי אותיות רישיות';
+$string['cat'] = 'קטגוריה';
 $string['categories'] = 'קטגוריות';
 $string['category'] = 'קטגוריה';
 $string['categorydeleted'] = 'הקטגוריה נמחקה';
@@ -58,6 +59,9 @@ $string['currentglossary'] = 'אגרון מונחים נוכחי';
 $string['date'] = 'תאריך';
 $string['dateview'] = 'עיין לפי תאריך';
 $string['defaultapproval'] = 'מאושר לפי ברירת מחדל';
+$string['defaultmode'] = 'מצב ברירת המחדל';
+$string['defaultsortkey'] = 'מפתח מיון ברירת המחדל';
+$string['defaultsortorder'] = 'מפתח סידור ברירת המחדל';
 $string['definition'] = 'הגדרה';
 $string['definitions'] = 'הגדרות';
 $string['deleteentry'] = 'מחק מונח';
@@ -133,6 +137,7 @@ $string['importedcategories'] = 'קטגוריות מיובאות';
 $string['importedentries'] = 'מונחים מיובאים';
 $string['importentries'] = 'ייבא מונחים';
 $string['importentriesfromxml'] = 'יבא רשומות מקובץ XML';
+$string['includegroupbreaks'] = 'כלול הפסקות קבוצה';
 $string['invalidrate'] = 'דרוג אגרון מונחים לא חוקי ($a)';
 $string['isglobal'] = 'האם זהו אגרון המונחים הכולל?';
 $string['letter'] = 'אות';
