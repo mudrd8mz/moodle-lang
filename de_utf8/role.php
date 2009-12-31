@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.7+ (Build: 20091226) (2007101570)
+      // role.php - created with Moodle 1.9.7+ (Build: 20091231) (2007101571)
 
 
 $string['addrole'] = 'Neue Rolle hinzufügen';
@@ -136,7 +136,8 @@ $string['resetrole'] = 'Grundeinstellungen wiederherstellen';
 $string['resetrolenolegacy'] = 'Zugriffsrechte löschen';
 $string['resetrolesure'] = 'Sind Sie sicher, dass Sie die Rolle \"$a->name ($a->shortname)\" auf die Grundeinstellungen zurücksetzen möchten?<p></p>Die Standardwerte werden entsprechend der gewählten Grundberechtigungen ($a->legacytype) gesetzt.';
 $string['resetrolesurenolegacy'] = 'Sind Sie sicher, dass Sie alle Rechte entfernen möchten, die in der Rolle \"$a->name ($a->shortname)\" definiert wurden?';
-$string['restore:rolldates'] = 'Bei der Wiederherstellung ist das Hinzufügen von Konfigurationsdaten erlaubt';
+$string['restore:createuser'] = 'Beim Wiederherstellen Nutzerkonten anlegen';
+$string['restore:rolldates'] = 'Beim Wiederherstellen ist das Hinzufügen von Konfigurationsdaten erlaubt';
 $string['restore:userinfo'] = 'Nutzerdaten wiederherstellen';
 $string['risks'] = 'Risiken';
 $string['role:assign'] = 'Rollen an Nutzer/innen zuweisen';

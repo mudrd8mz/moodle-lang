@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091226) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20091231) (2007101571)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -1284,14 +1284,18 @@ $string['resource'] = 'Arbeitsmaterial';
 $string['resources'] = 'Arbeitsmaterialien';
 $string['restore'] = 'Wiederherstellen';
 $string['restorecancelled'] = 'Wiederherstellung abgebrochen';
-$string['restorecoursenow'] = 'Diesen Kurs wiederherstellen!';
+$string['restorecannotcreateuser'] = 'Bei der Wiederherstellung soll das Nutzerkonto \'$a\' angelegt werden, aber Sie sind nicht berechtigt, dies zu tun';
+$string['restorecoursenow'] = 'Kurs wiederherstellen';
 $string['restoredaccount'] = 'Wiederhergestelltes Nutzerkonto';
 $string['restoredaccountinfo'] = 'Dieses Nutzerkonto wurde ohne Passwort von einem anderen Server importiert. Um ein neues Passwort per E-Mail zu vergeben, klicken Sie bitte auf \"Weiter\".';
 $string['restorefinished'] = 'Wiederherstellung erfolgreich beendet';
 $string['restoreto'] = 'Wiederherstellen in';
-$string['restoretositeadding'] = 'Warnung: Sie beabsichtigen, Daten zur Startseite hinzuzufügen.';
-$string['restoretositedeleting'] = 'Warnung: Sie beabsichtigen, die Startseite wiederherzustellen und vorher Daten zu löschen.';
-$string['restoreuserinfofailed'] = 'Achtung: Um Nutzerdaten (Aktivitäten, Dateien, Mitteilungen, ...) wiederherstellen zu dürfen, wird die Fähigkeit \"moodle/restore:userinfo\" vorausgesetzt, die Sie aber nicht besitzen. Die Wiederherstellung wurde abgebrochen.';
+$string['restoretositeadding'] = 'Warnung: Sie beabsichtigen, Daten zur Startseite hinzuzufügen!';
+$string['restoretositedeleting'] = 'Warnung: Sie beabsichtigen, die Startseite wiederherzustellen und vorher alle vorhandenen Daten zu löschen!';
+$string['restoreuserconflict'] = 'Der Versuch, das Nutzerkonto \'$a\' wiederherzustellen, wird Probleme bereiten';
+$string['restoreuserinfofailed'] = 'Die Wiederherstellung des Kurses wurde abgebrochen, weil Sie kein Recht zur Wiederherstellung von Nutzerdaten haben.';
+$string['restoreusersprecheck'] = 'Nutzerinformationen prüfen';
+$string['restoreusersprecheckerror'] = 'Bei der Prüfung der Nutzerinformationen wurden Probleme erkannt';
 $string['restricted'] = 'Eingeschränkt';
 $string['restrictmodules'] = 'Aktivitäten-Module einschränken';
 $string['returningtosite'] = 'Zur Nutzung ist ein Login notwendig';
