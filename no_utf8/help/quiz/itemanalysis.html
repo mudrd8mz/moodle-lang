@@ -19,42 +19,28 @@ Dersom spørsmål kan fordeles dikotomisk i korrekte/feil svar, vil denne parame
 
 <h2>Diskrimineringsindeks (DI)</h2>
 
-<p>Diskrimineringsindeksen er en røff indikator på om kvaliteten på hvert spørsmål er slik at flinke studenter skille fra de mindre flinke. Parameteren beregnes ved at studentgruppen deles i tre, basert på resultatene på hele quizzen.  Deretter blir gjennomsnittlig poengsum
+<p>Diskrimineringsindeksen er en røff indikator på om kvaliteten på hvert spørsmål er slik at flinke studenter skille fra de mindre flinke. Parameteren beregnes ved at studentgruppen deles i tre, basert på resultatene på hele quizzen.  Deretter blir gjennomsnittlig poengsum for aktuelt element beregnet for den øvre og nedre tredjedelen av studentgruppen og den gjennomsnittlige poengsummen trukket fra. Formelen for dette er: 
 
- This parameter is calculated by first dividing learners into thirds 
-based on the overall score in the quiz. Then the average score at the analyzed item is calculated for 
-the groups of top and bottom performers, and the average scored substracted. The matematical expression is: 
 <br/>
 DI = (X<sub>top</sub> - X<sub>bottom</sub>)/ N 
 <br/>
-where X<sub>top</sub> is the sum of the fractional credit (achieved/maximum) obtained at this item by the 1/3 of users having tha highest 
-grades in the whole quiz (i.e. number of correct responses in this group), <br/>
-and X<sub>bottom</sub>) is the analog sum for users with the lower 1/3 grades for the whole quiz.</p> 
+hvor  X<sub>top</sub> er summen av poeng gitt til beste tredjedel, og  X<sub>bottom</sub>) er tilsvarende for brukere fra den laveste tredjedelen.</p> 
 
-<p>This parameter can take values between +1 and -1.  
-If the index goes below 0.0 it means that more of the weaker learners got the item right than the stronger learners.  
-Such items should be discarded as worthless.  In fact, they reduce the accuracy of the overall score for the quiz.</p>
+<p>Denne parameteren kan ha verdier mellom +1 og -1. Dersom indexen synker under 0 betyr det at flere svake studenter svarer korrekt på dette spørsmålet enn flinke. Slike spørsmål bør vrakes som verdiløse. De ødelegger faktisk for hvor presist en quiz måler kunnskapen til studentene.</p>
 
-<h2>Discrimination Coefficient (DC)</h2>
+<h2>Diskrimineringskoeffisient (DC)</h2>
 
-<p>This is another measure of the separating power of the item to distinguish proficient from weak learners.</p>
+<p>Dette er et annet mål på hvor effektivt svaralternativene skiller ut de flinke fra svake studenter.</p>
 
-<p>The discrimination coefficient is a correlation coefficient between scores at the item and at the whole quiz. Here it is calculated as:
+<p>Diskrimineringskoeffisienten er en korrelasjonskoeffisient på forholdet mellom poengsummen på det enkelte spørsmål mot quizzen som helhet. Den beregnes slik: 
 <br/>
 DC = Sum(xy)/ (N * s<sub>x</sub> * s<sub>y</sub>) 
 <br/>
-where Sum(xy) is the sum of the products of deviations for item scores and overall quiz scores, <br/>
-N is the number of responses given to this question<br/>
-s<sub>x</sub> is the standard deviation of fractional scores for this question and, <br/>
-s<sub>y</sub> is the standard deviation of scores at the quiz as a whole.</p>
+hvor Sum(xy) er summen av produkt av avvikt for poengsummen på hvert element og quizzen som helhet,<br/>
+N er antall responser som er gitt på spørsmålet<br/>
+s<sub>x</sub> er standardavviket på poengsumnene på spørsmålet og, <br/>
+s<sub>y</sub> er standardavviket på poengsummene i quizzen som helhet.</p>
 
-<p>Again, this parameter can take values between +1 and -1. Positive values indicate items that 
-do discriminate proficient learners, whereas negative indices mark items that are answered best by 
-those with lowest grades. Items with negative DC are answered incorrectly by the seasoned learners 
-and thus they are actually a penalty against the most proficient learners. Those items should be avoided.
-Note that, if all learners get exactly the same score for this question, then s<sub>x</sub> is zero, and DC will
-be undefined. This is indicated as DC = -999.00.</p>
+<p>Også denne parameteren kan ha verdier mellom +1 og -1. Positive verdier tyder på spørsmålet skiller ut de flinke studentene, mens negative verdier betyr at flest svake studenter får rett. Elementer med negativ DC blir besvart feil av studenter fra alle grupper og på denne måten rammer vilkårlig og neppe skiller de flinke fra de svake. Slike elementer bør unngås. Merk at dersom alle studentene får eksakt samme poengsum på dette spørsmålet vil  s<sub>x</sub> bli 0, og DC vil bli uendelig. Dette vises som en DC= -999.00.</p>
 
-<p>The advantage of Discrimination Coefficient vs. Discrimitation Index is that the former uses information 
-from the whole population of learners, not just the extreme upper and lower thirds. Thus, this parameter may be 
-more sensitive to detect item performance.</p>
+<p>Fordelen med diskrimineringskoeffisienten versus diskrimineringsindeksen er at den første bruker informasjon fra hele utvalget, og ikke bare øvre og nedre tredjedel. På denne måten kan diskrimineringskoeffisienten være en mer følsom indikator for å finne spørsmål som bør lukes ut.</p>
