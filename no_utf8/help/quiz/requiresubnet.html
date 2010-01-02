@@ -1,0 +1,20 @@
+<h1>Avgrense nettverksadresser</h1>
+
+<p>Dette felter er valgfritt.</p>
+
+<p>Du kan avgrense tilgangen til en quiz til bestemte subnett på nettverket eller Internett ved å angi en kommaseparert liste av deler eller hele IP-adressenumre.</p>
+
+<p>Dette er spesielt anvendelig ved overvåkede quizzer, hvor du ønsker å være sikker på at bare deltakere i et bestemt rom har tilgang til quizzen.</p>
+
+<p>For eksempel: <b>192.168. , 231.54.211.0/20, 231.3.56.211, 231.3.56.10-20</b></p>
+
+<p>Du kan bruke fire forskjellige nummertyper (du kan ikke bruke kanoniske navn som example.com):</p>
+   
+<ol>
+<li>Fulle IP addresser, som <b>192.168.10.1</b> som vil gi tilgang for en enkelt pc/proxy eller ruter.</li>
+<li>Delvise addresser, som <b>192.168</b> som vil gi tilgang for alle ip-adresser som starter med disse tallene.</li>
+<li>CIDR notasjon, som <b>231.54.211.0/20</b> som lar deg angi mer detaljert hvilket subnett som skal ha tilgang.</li>
+<li>Et IP-addresseområde <b>231.3.56.10-20</b> Adresseområdet angis ved de siste sifferelementene og betyr alle IP-adresser fra  231.3.56.10 til 231.3.56.20.</li>
+</ol>
+
+<p>Mellomrom blir ignorert.</p>
