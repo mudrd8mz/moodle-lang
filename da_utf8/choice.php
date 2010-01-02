@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.7+ (Build: 20091130) (2007101570)
+      // choice.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addmorechoices'] = 'Tilføj flere valgmuligheder';
@@ -14,6 +14,7 @@ $string['choiceclose'] = 'Indtil';
 $string['choicefull'] = 'Alle ledige valgmuligheder er taget.';
 $string['choicename'] = 'Afstemningens titel';
 $string['choiceopen'] = 'Åben';
+$string['choicesaved'] = 'Dit valg er gemt';
 $string['choicetext'] = 'Beskrivelse af afstemningen';
 $string['displayhorizontal'] = 'Vis vandret';
 $string['displaymode'] = 'Layout';
@@ -46,7 +47,7 @@ $string['responsesto'] = 'Besvarelser til $a';
 $string['savemychoice'] = 'Gem';
 $string['showunanswered'] = 'Vis kolonne for ubesvaret';
 $string['spaceleft'] = 'tilgængelig plads';
-$string['spacesleft'] = 'tilgængelig pladser';
+$string['spacesleft'] = 'tilgængelige pladser';
 $string['taken'] = 'Taget';
 $string['timerestrict'] = 'Begræns svartiden til denne periode.';
 $string['viewallresponses'] = 'Se $a besvarelser';
