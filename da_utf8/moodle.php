@@ -1154,7 +1154,7 @@ $string['phpinfo'] = 'PHP info';
 $string['pictureof'] = 'Billede af $a';
 $string['pleaseclose'] = 'Luk venligst dette vindue nu.';
 $string['plugincheck'] = 'Tjekker plugins';
-$string['pluginchecknotice'] = 'Disse tabeller viser de moduler, blokke og filtre der er detekteret i din Moodle-installation.
+$string['pluginchecknotice'] = 'Disse tabeller viser de moduler, blokke og filtre der er detekteret i din Moodleinstallation.
 De viser hvilke plugins der er standard og hvilke der ikke er. Alle plugins der ikke er standard, bør tjekkes og opgraderes til den seneste version inden du fortsætter opgraderingen af Moodle.';
 $string['pluginsetup'] = 'Indsætter tabeller til plugins';
 $string['policyaccept'] = 'Jeg forstår og er enig';
@@ -1201,17 +1201,17 @@ $string['recipientslist'] = 'Modtagerliste $a';
 $string['recreatedcategory'] = 'Genskabt kategori $a';
 $string['refresh'] = 'Genindlæs';
 $string['refreshingevents'] = 'Opdaterer begivenheder';
-$string['registration'] = 'Moodle-registrering';
+$string['registration'] = 'Moodleregistrering';
 $string['registrationcontact'] = 'Kontakt fra andre';
 $string['registrationcontactno'] = 'Nej, jeg ønsker ikke en kontaktformular i siteoversigten';
 $string['registrationcontactyes'] = 'Ja, jeg ønsker en kontaktformular hvor kommende moodlere kan kontakte mig';
 $string['registrationemail'] = 'E-mail-meddelelser';
-$string['registrationinfo'] = '<p>Denne side kan du registrere dit Moodle site hos moodle.org. 
+$string['registrationinfo'] = '<p>På denne side kan du registrere din Moodle hos moodle.org. 
 Registreringen er gratis.
 Hovedformålet med registreringen er at du vil blive tilføjet en sjældent brugt mailingliste der bruges til vigtige informationer såsom sikkerhedshuller, og nye versioner af Moodle.</p>
-<p>Som standard vil dine informationer blive hemmeligholdt, og aldrig solgt eller givet videre til nogen anden. Den eneste årsag til at opsamle denne information er udelukkende til at opbygge et statistisk billede af Moodle\'s udbredelse globalt set.</p>
-<p>Hvis du ønsker det kan du tillade at dit sitenavn, land og URL bliver tilføjet til en frit tilgængelig liste af Moodlesites på moodle.org.</p>
-<p>Alle nye registreringer er verificeret manuelt før de bliver tilføjet listen, men er du een gang blevet tilføjet kan du opdatere din registrering (og dine data på listen) hvornår det skal være ved at sende registreringen igen.</p>';
+<p>Som standard vil dine informationer blive hemmeligholdt, og aldrig solgt eller givet videre til nogen anden. Den eneste årsag til at opsamle denne information er udelukkende til at opbygge et statistisk billede af Moodles udbredelse globalt set.</p>
+<p>Hvis du ønsker det, kan du tillade at dit sitenavn, land og URL bliver tilføjet til en frit tilgængelig liste af Moodlesites på moodle.org.</p>
+<p>Alle nye registreringer er verificeret manuelt før de bliver tilføjet listen, men er du een gang blevet tilføjet kan du altid opdatere din registrering (og dine data på listen) ved at sende registreringen igen.</p>';
 $string['registrationinfotitle'] = 'Registreringsinformation';
 $string['registrationno'] = 'Nej, jeg ønsker ikke at modtage e-mail';
 $string['registrationsend'] = 'Send registreringsinformation til moodle.org';
