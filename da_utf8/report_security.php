@@ -64,8 +64,7 @@ $string['check_riskbackup_name'] = 'Backup af brugerdata';
 $string['check_riskbackup_ok'] = 'Ingen roller har eksplicit tilladelse til at tage backup af brugerdata';
 $string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) i $a->contextname</a>';
 $string['check_riskbackup_warning'] = 'Fandt $a->rolecount roller, $a->overridecount tilsidesættelser og $a->usercount brugere med tilladelse til at tage backup af brugerdata.';
-$string['check_unsecuredataroot_details'] = '<p>Mappen med moodledata må ikke være tilgængelig fra Internettet. Den bedste måde at sikre det på, er at placere mappen udenfor den offentlige webmappe.</p>
-<p>Hvis du flytter mappen skal du opdatere indstillingen for <code>\$CFG->dataroot</code> i <code>config.php</code> tilsvarende.</p>';
+$string['check_unsecuredataroot_details'] = '<p>Mappen med Moodledata må ikke være tilgængelig fra Internettet. Den bedste måde at sikre det på, er at placere mappen udenfor den offentlige webmappe.</p> <p>Hvis du flytter mappen skal du opdatere indstillingen for <code>\$CFG->dataroot</code> i <code>config.php</code> tilsvarende.</p>';
 $string['check_unsecuredataroot_error'] = 'Din datamappe <code>$a</code> er placeret forkert og er synlig på Internettet!';
 $string['check_unsecuredataroot_name'] = 'Usikker datamappe';
 $string['check_unsecuredataroot_ok'] = 'Datamappen må ikke være tilgængelig fra Internettet.';
