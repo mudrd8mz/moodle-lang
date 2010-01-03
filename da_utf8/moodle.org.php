@@ -130,7 +130,7 @@ $string['supportbooks'] = 'Vi vedligeholder en lister over mange tilgængelige b
 $string['supportbookstitle'] = 'Bøger og manualer';
 $string['supportcommercial'] = '<a href=\"http://moodle.com/\">Moodle Partners</a> er en verdensomspændende gruppe autoriserede servicevirksomheder der er forpligtede til at støtte det åbne kilde-projekt Moodle økonomisk. De driver en række kommercielle tjenester til Moodle-brugere over hele verden:';
 $string['supportcommercialtitle'] = 'Kommerciel service';
-$string['supportdocs1'] = 'Moodle Docs er et godt sted at starte, specielt vores sider med <acronym title=\"Frequently Asked Questions\">Ofte Stillede Spørgsmål</acronym> (<acronym title=\"FAQ\">OSS</acronym>) pages.';
+$string['supportdocs1'] = 'Moodle Docs er et godt sted at starte, specielt vores på sider med <acronym title=\"Frequently Asked Questions\">Ofte Stillede Spørgsmål</acronym> (<acronym title=\"FAQ\">OSS</acronym>).';
 $string['supportdocs2'] = 'En god måde at få relevant dokumentation på, er at bruge linket \"Moodle Docs for denne side\" i bunden af hver side på din Moodle.';
 $string['supportdocsfaq'] = 'Ofte Stillede Spørgsmål';
 $string['supportdocslang'] = 'Moodle Docs på andre sprog';
