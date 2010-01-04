@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 2.0 dev (Build: 20090603) (2009051700)
+      // question.php - created with Moodle 2.0 dev (Build: 20100104) (2010010300)
 
 
 $string['adminreport'] = 'Report su possibili problemi nel tuo database di domande.';
@@ -9,9 +9,7 @@ $string['broken'] = 'Questo è un \"link interrotto\", punta a un file inesisten
 $string['byandon'] = 'di <em>$a->user</em> di <em>$a->time</em>';
 $string['cannotcopybackup'] = 'Impossibile copiare il file di backup';
 $string['cannotcreate'] = 'Impossibile creare un nuovo elemento nella tabella dei tentativi del quiz';
-$string['cannotcreatedataset'] = 'Impossibile creare il dataset $a';
 $string['cannotcreatepath'] = 'Impossibile creare il path: $a';
-$string['cannotcreaterelation'] = 'Impossibile creare la relazione al dataset $a[0] $a[1]';
 $string['cannotdeletecate'] = 'Impossibile elimiare la categoria in quanto è quella default per questo contesto.';
 $string['cannotenable'] = 'Il tipo di domanda $a non può essere creato diretamente.';
 $string['cannotfindcate'] = 'Non è stato possibile trovare nessun record di categoria';
@@ -20,28 +18,15 @@ $string['cannotgetdsfordependent'] = 'Non è stato possibile ottenere il dataset
 $string['cannotgetdsforquestion'] = 'Non è stato possibile ottenere il dataset specificato per una domanda Calcolata!  (domanda: {$a[0]})';
 $string['cannothidequestion'] = 'Impossibile nascondere la domanda';
 $string['cannotimportformat'] = 'Il software per l\'importazione di questo formato non è ancora stato realizzato!';
-$string['cannotinsert'] = 'Errore: impossibile inserire l\'elemento di dataset';
-$string['cannotinsertitem'] = 'Impossibile inserire l\'elemento $a[0] di dataset con $a[1] per $a[2]';
 $string['cannotinsertquestion'] = 'Impossibile inserire una nuova domanda!';
-$string['cannotinsertquestioncate'] = 'Impossibile inserire la nuova categoria di domande: $a';
 $string['cannotinsertquestioncatecontext'] = 'Impossibile inserire la nuova categoria di domande $a[0] ID di contesto $a[1] illegale';
 $string['cannotloadquestion'] = 'Impossibile caricare la domanda';
-$string['cannotmovecate'] = 'Impossibile spostare la categoria $a. E\' l\'ultima di questo contesto.';
-$string['cannotmovefromto'] = 'Impossibile spostare la categoria $a[0] in $a[1]';
 $string['cannotmovequestion'] = 'Impossibile usare questo script per spostare domande che hanno file associati da aree differenti.';
 $string['cannotopenforwriting'] = 'Impossibile aprire per scrittura: $a';
 $string['cannotpreview'] = 'Impossibile vedere l\'anteprima di queste domande!';
 $string['cannotretrieveqcat'] = 'Non è stato possibile ottenere la categoria di dimande';
-$string['cannotsavequiz'] = 'Errore nel salvataggio del tentativo del quiz!';
 $string['cannotunhidequestion'] = 'Errore nel mostrare la domanda.';
 $string['cannotunzip'] = 'Impossibile unzippare il file.';
-$string['cannotupdatecate'] = 'Impossibile modificare la categoria $a';
-$string['cannotupdatecount'] = 'Errore: Impossibile aggiornare il numero di elementi';
-$string['cannotupdateitem'] = 'Errore: Impossibile aggiornare l\'elemento di dataset';
-$string['cannotupdatequestion'] = 'Impossibile modificare la domanda!';
-$string['cannotupdatequestionver'] = 'Impossibile modificare il campo versione della domanda';
-$string['cannotupdaterandomqname'] = 'Impossibile modificare il nome della domanda casuale';
-$string['cannotupdatesubcate'] = 'Impossibile modificare una categoria figlia!';
 $string['cannotwriteto'] = 'Impossibile scrivere le domande esportate su $a';
 $string['categorycurrent'] = 'Categoria corrente';
 $string['categorycurrentuse'] = 'Usa questa categoria';
@@ -69,6 +54,7 @@ $string['disterror'] = 'La distribuzione $a ha causato problemi';
 $string['donothing'] = 'Non copiare o spostare files o cambiare links.';
 $string['editingcategory'] = 'Modifica una categoria';
 $string['editingquestion'] = 'Modifica una domanda';
+$string['editthiscategory'] = 'Modifica questa categoria';
 $string['emptyxml'] = 'Errore sconosciuto - file imsmanifest.xml vuoto';
 $string['enabled'] = 'Abilitato';
 $string['erroraccessingcontext'] = 'Il contesto non può essere acceduto';
@@ -173,5 +159,20 @@ $string['upgradeproblemcouldnotupdatecategory'] = 'La categoria di domande $a->n
 $string['upgradeproblemunknowncategory'] = 'Rilevato un problema nell\'aggiornamento delle categorie di domande. La categoria $a->id sta sotto alla categoria $a->parent, che non esiste. La categoria superiore è stata cambiata per risolvere il problema.';
 $string['wrongprefix'] = 'Nameprefix $a formattato erroneamente';
 $string['yourfileshoulddownload'] = 'Il download del file di esportazione dovrebbe cominciare tra breve. Altrimenti cliccare <a href=\"$a\">qui</a>.';
+$string['cannotcreatedataset'] = 'Impossibile creare il dataset $a'; // ORPHANED
+$string['cannotcreaterelation'] = 'Impossibile creare la relazione al dataset $a[0] $a[1]'; // ORPHANED
+$string['cannotinsert'] = 'Errore: impossibile inserire l\'elemento di dataset'; // ORPHANED
+$string['cannotinsertitem'] = 'Impossibile inserire l\'elemento $a[0] di dataset con $a[1] per $a[2]'; // ORPHANED
+$string['cannotinsertquestioncate'] = 'Impossibile inserire la nuova categoria di domande: $a'; // ORPHANED
+$string['cannotmovecate'] = 'Impossibile spostare la categoria $a. E\' l\'ultima di questo contesto.'; // ORPHANED
+$string['cannotmovefromto'] = 'Impossibile spostare la categoria $a[0] in $a[1]'; // ORPHANED
+$string['cannotsavequiz'] = 'Errore nel salvataggio del tentativo del quiz!'; // ORPHANED
+$string['cannotupdatecate'] = 'Impossibile modificare la categoria $a'; // ORPHANED
+$string['cannotupdatecount'] = 'Errore: Impossibile aggiornare il numero di elementi'; // ORPHANED
+$string['cannotupdateitem'] = 'Errore: Impossibile aggiornare l\'elemento di dataset'; // ORPHANED
+$string['cannotupdatequestion'] = 'Impossibile modificare la domanda!'; // ORPHANED
+$string['cannotupdatequestionver'] = 'Impossibile modificare il campo versione della domanda'; // ORPHANED
+$string['cannotupdaterandomqname'] = 'Impossibile modificare il nome della domanda casuale'; // ORPHANED
+$string['cannotupdatesubcate'] = 'Impossibile modificare una categoria figlia!'; // ORPHANED
 
 ?>

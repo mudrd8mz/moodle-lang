@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // url.php - created with Moodle 2.0 dev (Build: 20090903) (2009082800)
+      // url.php - created with Moodle 2.0 dev (Build: 20100104) (2010010300)
 
 
 $string['chooseavariable'] = 'Scegli una variabile...';
@@ -35,5 +35,6 @@ $string['printheadingexplain'] = 'Consente di visualizzare il nome dell\'URL pri
 $string['printintro'] = 'Visualizza la descrizione dell\'URL';
 $string['printintroexplain'] = 'Consente di visualizzare la descrizione dell\'URL prima del contenuto.';
 $string['rolesinparams'] = 'Includi nei parametri i nomi dei ruoli';
+$string['urladministration'] = 'Gestione URL';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20090303) (2009030300)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20100104) (2010010300)
 
 
 $string['activation'] = 'Attivazione';
@@ -12,7 +12,6 @@ $string['allowtypeimsrepository'] = 'Abilita i pacchetti di tipo IMS';
 $string['allowtypelocalsync'] = 'Abilita i pacchetti di tipo download';
 $string['apidebugmask'] = 'API debug capture mask (simple regex on &lt;username&gt;:&lt;activityname&gt;)';
 $string['areacontent'] = 'File del contenuto';
-$string['areaintro'] = 'File di introduzione';
 $string['areapackage'] = 'File del pacchetto';
 $string['asset'] = 'Asset';
 $string['assetlaunched'] = 'Asset - Visualizzato';
@@ -164,6 +163,7 @@ $string['scorm:savetrack'] = 'Essere tracciato';
 $string['scorm:skipview'] = 'Saltare pagina introduttiva';
 $string['scorm:viewreport'] = 'Visualizzare report';
 $string['scorm:viewscores'] = 'Visualizzare punteggi';
+$string['scormadministration'] = 'Gestione SCORM/AICC';
 $string['scormclose'] = 'Al';
 $string['scormcourse'] = 'Corso';
 $string['scormloggingoff'] = 'API Logging: Off';
@@ -214,5 +214,6 @@ $string['whatgradedesc'] = 'Questa preferenza imposta il valore di default per l
 $string['width'] = 'Larghezza';
 $string['window'] = 'Finestra';
 $string['zlibwarning'] = 'Attenzione: in questo sito è attiva la compressione PHP Zlib, alcuni utenti potrebbero riscontrare problemi caricando i pacchetti SCORM su certi tipi di browser.';
+$string['areaintro'] = 'File di introduzione'; // ORPHANED
 
 ?>

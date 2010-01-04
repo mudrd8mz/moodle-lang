@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // page.php - created with Moodle 2.0 dev (Build: 20090831) (2009082800)
+      // page.php - created with Moodle 2.0 dev (Build: 20100104) (2010010300)
 
 
 $string['configdisplayoptions'] = 'Selezionate le opzioni di visualizzazione che desiderate rendere disponibili. Le impostazioni già in essere non saranno modificate. Per selezionare più opzioni tenete premuti il tasto CTRL.';
@@ -16,6 +16,7 @@ $string['legacyfilesdone'] = 'Completato';
 $string['modulename'] = 'Pagina';
 $string['modulenameplural'] = 'Pagine';
 $string['optionsheader'] = 'Opzioni';
+$string['pageadministration'] = 'Gestione Pagina';
 $string['popupheight'] = 'Altezza popup (in pixel)';
 $string['popupheightexplain'] = 'Altezza di default per le finestre popup.';
 $string['popupwidth'] = 'Larghezza popup (in pixel)';

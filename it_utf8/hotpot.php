@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 2.0 dev (Build: 20090402) (2009040100)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20100104) (2010010300)
 
 
 $string['abandoned'] = 'Abbandonato';
@@ -12,11 +12,7 @@ $string['attemptsbest'] = 'Tentativo migliore';
 $string['attemptsfirst'] = 'Primo tentativo';
 $string['attemptslast'] = 'Ultimo tentativo';
 $string['average'] = 'Media';
-$string['cannotaddquestionrecord'] = 'Non è stato possibile aggiungere il record della domanda';
-$string['cannotaddresprecord'] = 'Non è stato possibile aggiungere il record della risposta';
-$string['cannotaddstrrecord'] = 'Non è stato possibile aggiungere il record della stringa';
 $string['cannotfindmethod'] = 'Non è stato trovato un metodo per espandere il blocco template: ($a)';
-$string['cannotupdateattempt'] = 'Non è stato possibile aggiungere il record del tentativo: $a';
 $string['checks'] = 'Controlli';
 $string['clickreporting'] = 'Abilita report dei click';
 $string['clues'] = 'Indizi';
@@ -58,6 +54,7 @@ $string['hotpot:deleteattempt'] = 'Cancellare i tentativi';
 $string['hotpot:grade'] = 'Modificare le valutazioni';
 $string['hotpot:view'] = 'Usare il quiz';
 $string['hotpot:viewreport'] = 'Guardare i risultati';
+$string['hotpotadministration'] = 'Gestione quiz Hot Potatoes';
 $string['hotpotcloses'] = 'Il quiz Hot Potatoes  termina';
 $string['hotpotopens'] = 'Il quiz Hot Potatoes è attivo da';
 $string['ignored'] = 'Ignorato';
@@ -165,5 +162,9 @@ $string['unknownreport'] = 'Report sconosciuto ($a)';
 $string['updatequizchain'] = 'Aggiorna catena quiz';
 $string['weighting'] = 'Peso';
 $string['wrong'] = 'Errato';
+$string['cannotaddquestionrecord'] = 'Non è stato possibile aggiungere il record della domanda'; // ORPHANED
+$string['cannotaddresprecord'] = 'Non è stato possibile aggiungere il record della risposta'; // ORPHANED
+$string['cannotaddstrrecord'] = 'Non è stato possibile aggiungere il record della stringa'; // ORPHANED
+$string['cannotupdateattempt'] = 'Non è stato possibile aggiungere il record del tentativo: $a'; // ORPHANED
 
 ?>
