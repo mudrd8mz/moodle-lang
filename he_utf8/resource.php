@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
+      // resource.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addresource'] = 'הוסף משאב';
@@ -120,7 +120,7 @@ $string['resourcetype8'] = 'טקסט דמוי Wiki';
 $string['resourcetype9'] = 'ספריה';
 $string['resourcetypedirectory'] = 'הצג ספרייה';
 $string['resourcetypefile'] = 'קישור לקובץ או אתר אינטרנט';
-$string['resourcetypehtml'] = 'כתוב דף HTML';
+$string['resourcetypehtml'] = 'כתוב דף תוכן מעוצב';
 $string['resourcetypeims'] = 'הוסף חבילת תוכן IMS';
 $string['resourcetypelabel'] = 'הכנס כותרת';
 $string['resourcetyperepository'] = 'צור קישור למסמך בגנזך.';
