@@ -1,0 +1,30 @@
+<h1>Laste opp grupper</h1>
+
+<p>Denne modulen tillater opplasting av grupper til Moodle.</p>
+
+<ul>
+  <li>Hver linje i fila inneholder en oppføring</li>
+  <li>Hver oppføring er en serie data atskilt med komma</li>
+  <li>Den første raden i fila er spesiell og inneholder alle feltnavnene. Denne definerer formatet for resten av fila.
+    <blockquote>
+      <p><strong>Obligatoriske feltnavn:</strong> disse feltene må være med i første rad og definert for hver bruker:</p>
+      <p></p>
+      <code class="example1">groupname</code>
+      <p><strong>Standard feltnavn:</strong> disse er valgfrie - dersom de ikke er tatt med vil verdiene hentes fra gjeldende språk og kurs.</p>
+      <p><code class="example1">idnumber, coursename, lang</code> </p>
+      <p><strong>Valgfrie feltnavn: </strong> alle disse er helt valgfrie.</p>
+      <p> <code class="example1">description, enrolmentkey, picture, hidepicture</code></p>
+    </blockquote>
+    </li>
+  <li>Komma i dataene må kodes som  &amp;#44 - scriptet vil automatisk dekode dette tilbake til kommategn.</li>
+  <li>For Booleanske felter, bruk 0 for usant og 1 for sant. </li>
+  <li>Enten idnummer eller kursnavn kan brukes til å identifisere kurset. Idnummer overstyrer kursnavn. Dersom ingenting er angitt blir gruppene lagt til gjeldende kurs.</li>
+  <li>Coursename is the course shortname.</li>
+  <li>Merk: Dersom en gruppe allerede eksisterer i Moodledatabasen for dette kurset vil skriptet returnere gruppenavnet for denne gruppen. Lærere er de eneste som har lov til å laste opp grupper i kurs de administrerer.</li>
+</ul>
+   
+<p>Her er et eksempel på en gyldig importfil:</p>
+<p><code>groupname,idnumber,lang,description,picture <br />
+group1, Phil101, en, this group requires extra attention!, 0 <br />
+group2, Math243, , ,
+</code></p>
