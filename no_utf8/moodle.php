@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -561,7 +561,7 @@ $string['enrolmentnotyet'] = 'Beklager, du kommer ikke inn på dette kurset før
 $string['enrolmentplugins'] = 'Plugins for innmeldinger';
 $string['enrolments'] = 'Innmeldinger';
 $string['enrolmentstart'] = 'Innmelding begynte den';
-$string['enrolperiod'] = 'Innmeldingsperiode';
+$string['enrolperiod'] = 'Innmeldingsvarighet';
 $string['enrolstartdate'] = 'Startdato';
 $string['entercourse'] = 'Klikk her for å gå til kurset';
 $string['enteremailaddress'] = 'Skriv inn din e-postadresse for å slette det gamle passordet og få et nytt tilsendt på e-post.';

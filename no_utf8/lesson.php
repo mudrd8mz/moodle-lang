@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lesson.php - created with Moodle 1.9.5+ (Build: 20090909) (2007101551)
+      // lesson.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
 
 
 $string['accesscontrol'] = 'Tilgangskontroll';
@@ -168,7 +168,7 @@ $string['modulenameplural'] = 'Leksjoner';
 $string['movedpage'] = 'Siden er flyttet';
 $string['movepagehere'] = 'Flytt siden hit';
 $string['moving'] = 'Flytter side: $a';
-$string['multianswer'] = 'Flersvar';
+$string['multianswer'] = 'Flervalg/flersvar';
 $string['multipleanswer'] = 'Flere svar';
 $string['nameapproved'] = 'Navnet er akseptert';
 $string['namereject'] = 'Beklager, navnet ditt ble avvist av filteret. <br />Prøv et annet navn.';
