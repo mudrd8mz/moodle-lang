@@ -1,0 +1,46 @@
+<h1>Opplastingen av brukere</h1>
+
+<p>Først, merk at <strong>det vanligvis ikke er nødvendig å masseimportere brukere</strong>
+- for å spare tid og krefter bør du først sjekke ut prosedyrene for autentisering som IKKE krever manuell håndtering - som å bruke eksterne databaser eller la brukerne lage brukerkontoene sine selv. Se på autentiseringsdelen av portalmenyen for hvilke av metodene som kan passe for deg.</p>
+
+<p>Dersom du er sikker på at du vil masseimportere brukerkontoer fra en tekstfil, trenger du å formatere filen slik:</p>
+
+<ul>
+  <li>Hver linje skal bare inneholde en brukerkonto</li>
+  <li>Hver rad er en serie data atskilt med kommategn</li>
+  <li>Den første raden i fila er spesiell siden den inneholder en liste over alle feltnavnene som det skal importeres til. Den definerer formatet for resten av fila.
+    <blockquote>
+      <p><strong>Obligatoriske feltnavn:</strong> disse feltene må være med i første rad og definert for hver bruker:</p>
+      <p><code class="example1">username, password, firstname, lastname, email</code></p>
+
+      <p><strong>Standard feltnavn:</strong> disse er valgfrie. Dersom de ikke er med tas verdien fra hovedadministratorkontoen.</p>
+      <p><code class="example1">institution, department, city, country, lang, auth, timezone</code> </p>
+      <p><strong>Valgfrie feltnavn: </strong> alle disse feltnavnene er helt valgfrie. Kursnavnet skal være kortnavnet på kurset. Dersom det tas med vil brukerne bli påmeldt som studenter i de kursene. Gruppenavn må kobles til kurs;  group1 til course1, etc.</p>
+      <p> <code class="example1">idnumber,
+icq, phone1, phone2, address, url, description, mailformat,
+maildisplay, htmleditor, autosubscribe, course1, course2, course3,
+course4, course5, group1, group2, group3, group4, group5, type1, type2,
+type3, type4, type5, role1, role2, role3, role4, role5, emailstop</code></p>
+    </blockquote>
+    </li>
+  <li>Kommategn i dataene skal kodes som  &amp;#44 - skriptet vil konvertere dette automatisk tilbake til kommategn.</li>
+  <li>For Booleanske felt, bruk 0 for usant og 1 for sant. </li>
+  <li>"Types" brukes til å fortelle Moodle om brukeren er en student eller en lærer, dersom samsvarende kurs finnes. (type1 hører til course1 osv.) 1 =
+Student, 2 = Lærer, og 3 = Gjestelærer. Hvis Type-feltet er tomt eller det ikke er angitt et kurs, blir brukeren tildelt standardrollen "Student".</li>
+  <li>Bruk kortnavn for kurs, for grupper skal gruppenavn brukes, for roller skal rolleID brukes.</li>
+  <li>Merk: Dersom en bruker allerede finnes i Moodle database vil skriptet returnere brukerID for brukeren og vil melde brukeren inn som student i alle angitte kurs UTEN å oppdatere med angitte data forøvrig.</li>
+</ul>
+
+<p>Her er et eksempel på en gyldig importfil:</p>
+<p><code>username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br>
+jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br>
+reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3
+</code></p>
+
+<h2>Oppdatering av eksisterende kontoer</h2>
+
+<p>Som standard antar Moodle at du bare vil opprette nye kontoer og beholde eksisterende. Du kan likevel sette "Oppdater eksisterende kontoer" til "Ja" for også å oppdatere alle brukerkontoer som allerede eksisterte.</p>
+
+<p>Når eksisterende brukerkontoer endres, kan du også endre brukernavnet. Sett "Tillat endre navn" til "Ja" og ta med i importfila feltet <code class="example1">oldusername</code>.</p>
+
+<p><b>Advarsel:</b> vær forsiktig når du oppdaterer eksisterende brukere på denne måten. Du risikerer i verste fall å ødelegge brukerkontoer fullstendig.</p>
