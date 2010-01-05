@@ -1,0 +1,76 @@
+<?PHP // $Id$ 
+      // chat.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
+
+
+$string['autoscroll'] = 'Auto Scroll';
+$string['beep'] = 'Pitíu';
+$string['chat:chat'] = 'Falar nel chat';
+$string['chat:deletelog'] = 'Esborrar rexistros del chat';
+$string['chat:readlog'] = 'Lleer rexistros del chat';
+$string['chat:talk'] = 'Falar nel chat.';
+$string['chatintro'] = 'Testu introductoriu';
+$string['chatname'] = 'Nome d\'esta sala de chat.';
+$string['chatreport'] = 'Sesiones de chat';
+$string['chattime'] = 'Prósima hora de chat';
+$string['configmethod'] = 'El métodu normal de chat implica que los clientes contauten regularmente col servidor pa consiguir actualizaciones. Nun necesita configuración y funciona en cualquier parte, pero pue producir sobrecarga nel servidor si hai munches persones nel chat. L\'usu d\'un daemon nel servidor necesita del acceso shell d\'Unix, pero\'l resultáu ye un ambiente de chat más rápidu y escalable.';
+$string['confignormalupdatemode'] = 'Normalmente les actualizaciones de la sala de chat faense eficientemente usando\'l comandu <em>Keep-Alive</em> de HTTP 1.1, pero esto implica muncha carga nel servidor. El métodu más avanzáu ye usar la estratexa <em>Stream</em> pa unviar actualizaciones de los usuarios. Si usa <em>Stream</em> escala muncho meyor (apaecío al  métodu chat) pero pue ser que\'l so servidor nun lo soporte.';
+$string['configoldping'] = '¿Cuánto tiempu, como máximo (en segundos), pue pasar enantes de que se deteute qu\'un usuariu nun ta coneutáu? Esti namás ye una llende superior, normalmente les desconexones detéutense perrápido. Los valores más baxos van sern más demandaos nel so servidor. Si ta usando\'l métodu normal,  <strong>enxamás</strong> defina esta carauterística como más baxa de 2 * chat_refresh_room.\'';
+$string['configrefreshroom'] = '¿Con qué frecuencia deberíase actualizar la sala de chat? (en segundos). Si configura esti mínimu va facer que la sala de chat paeza más rápida, pero pue ser una carga mayor pal so servidor Web si hai muncha xente chateando. Si ta usando actualizaciones <em>Stream</em>, pue escoyer frecuencies de mayor actualización. Intente con 2.';
+$string['configrefreshuserlist'] = '¿Con qué frecuencia tendía d\'actualizase\'l llistáu d\'usuarios? (en segundos)';
+$string['configserverhost'] = 'El nome de servidor del computador nel que s\'abelluga\'l daemon do servidor';
+$string['configserverip'] = 'Direición IP numbérica qu\'equival al nome del servidor d\'enriba';
+$string['configservermax'] = 'Cantidá máxima d\'usuarios permitida';
+$string['configserverport'] = 'Puertu qu\'usa\'l daemon nel servidor';
+$string['currentchats'] = 'Sesiones de chat actives';
+$string['currentusers'] = 'Usuarios actuales';
+$string['deletesession'] = 'Esborrar esta sesión';
+$string['deletesessionsure'] = '¿Seguro que quier esborrar esta sesión?';
+$string['donotusechattime'] = 'Non espublizar hores de chat';
+$string['enterchat'] = 'Calque equí pa entrar nel chat agora mesmo.';
+$string['errornousers'] = '¡Nun s\'atopen usuarios!';
+$string['explaingeneralconfig'] = 'Estes configuraciones tán <strong>siempre</strong> actives.';
+$string['explainmethoddaemon'] = 'Estes configuraciones son importantes <strong>namás</strong> si escoyó un servidor Daemon de chat como método_chat';
+$string['explainmethodnormal'] = 'Estes configuraciones son importantes <strong>namás</strong> si escoyó Métodu normal como método_chat';
+$string['generalconfig'] = 'Configuración xeneral';
+$string['helpchatting'] = 'Ayuda de cómo usar el chat';
+$string['idle'] = 'Ensin coneutar';
+$string['messagebeepseveryone'] = '$a unvía pitíos a toos!';
+$string['messagebeepsyou'] = '¡$a acaba d\'unvia-y un pitíu!';
+$string['messageenter'] = '$a acaba d\'entrar nesti chat';
+$string['messageexit'] = '$a marchó d\'esti chat';
+$string['messages'] = 'Mensaxes';
+$string['method'] = 'Métodu de chat';
+$string['methoddaemon'] = 'Daemon del servidor de chat';
+$string['methodnormal'] = 'Métodu normal';
+$string['modulename'] = 'Chat';
+$string['modulenameplural'] = 'Chats';
+$string['neverdeletemessages'] = 'Nun esborrar mensaxes enxamás.';
+$string['nextsession'] = 'Prósima sesión programada';
+$string['noguests'] = 'El chat nun tá abiertu a los convidaos';
+$string['nomessages'] = 'Entá nun hai mensaxes';
+$string['normalkeepalive'] = 'Funcionando entá.';
+$string['normalstream'] = 'Stream';
+$string['noscheduledsession'] = 'Sesión non programada';
+$string['notallowenter'] = 'Nun tien permisu pa entrar nesta sala de chat.';
+$string['oldping'] = 'Tiempu pa desconeutar.';
+$string['pastchats'] = 'Sesiones de chat vieyes.';
+$string['refreshroom'] = 'Refrescar sala de chat.';
+$string['refreshuserlist'] = 'Refrescar llistáu d\'usuarios.';
+$string['removemessages'] = 'Esborrar tolos mensaxes.';
+$string['repeatdaily'] = 'Tolos díes a la mesma hora';
+$string['repeatnone'] = 'Ensin repeticiones. Publique namás el tiempu especificáu.';
+$string['repeattimes'] = 'Repetir sesiones';
+$string['repeatweekly'] = 'Toles selmanes a la mesma hora';
+$string['savemessages'] = 'Guardar sesiones vieyes.';
+$string['seesession'] = 'Ver esta sesión';
+$string['serverhost'] = 'Nome del servidor';
+$string['serverip'] = 'Ip del servidor';
+$string['servermax'] = 'Máximu d\'usuarios.';
+$string['serverport'] = 'Puertu del servidor.';
+$string['sessions'] = 'Sesiones de Chat';
+$string['strftimemessage'] = '%%H:%%M';
+$string['studentseereports'] = 'Toos puen ver sesiones vieyes.';
+$string['updatemethod'] = 'Métodu d\'actualización.';
+$string['viewreport'] = 'Ver les sesiones vieyes.';
+
+?>
