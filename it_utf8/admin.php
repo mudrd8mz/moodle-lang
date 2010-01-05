@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20091117) (2009111800)
+      // admin.php - created with Moodle 2.0 dev (Build: 20100105) (2010010400)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -57,8 +57,8 @@ $string['cannotdeletemissingqtype'] = 'Non è possibile eliminare il tipo di dom
 $string['cannotdeletemodfilter'] = 'Non puoi disinstallare \'$a->filter\' in quanto fa parte del modulo \'$a->module\'.';
 $string['cannotdeleteqtypeinuse'] = 'Il tipo domanda \'$a\' non può essere eliminato. Ci sono domande di questo tipo nel banco delle domande.';
 $string['cannotdeleteqtypeneeded'] = 'Il tipo domanda \'$a\' non può essere eliminato. Sono presenti tipi di domande che dipendono da questo tipo.';
-$string['cfgwwwrootslashwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. E\' stato incluso un carattere \'/\' alla fine. Deve essere rimosso o si verificheranno errori insoliti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
-$string['cfgwwwrootwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. Non corrisponde al URL usato per accedere a questa pagina. Deve essere modificato o si verificheranno errori insoliti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootslashwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. E\' stato incluso un carattere \'/\' alla fine. Deve essere rimosso o si verificheranno errori imprevisti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
+$string['cfgwwwrootwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. Non corrisponde al URL usato per accedere a questa pagina. Deve essere modificato o si verificheranno errori imprevisti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'cambia';
 $string['changesitelang'] = 'Cambia la lingua del sito';
 $string['checkboxno'] = 'No';
@@ -69,7 +69,7 @@ $string['cleanup'] = 'Pulizia';
 $string['clianswerno'] = 'n';
 $string['cliansweryes'] = 's';
 $string['cliincorrectvalueerror'] = 'Errore, il valore \"$a->value\" non è corretto per \"$a->option\"';
-$string['cliincorrectvalueretry'] = 'Valore non corretto, per favore riprovate';
+$string['cliincorrectvalueretry'] = 'Valore non corretto, per favore riprova';
 $string['clistatusdisabled'] = 'Stato: disabilitato';
 $string['clistatusenabled'] = 'Stato: abilitato';
 $string['clitypevalue'] = 'inserisci valore';
@@ -85,13 +85,13 @@ $string['componentinstalled'] = 'Componente installato';
 $string['computedfromlogs'] = 'Calcolato da log a partire da $a';
 $string['condifmodeditdefaults'] = 'I valori impostati sotto saranno i valori di default durante la creazione di nuove attività. E\' anche possibile stabilire quali impostazioni siano da considerarsi \"avanzate\".';
 $string['confeditorhidebuttons'] = 'Seleziona i pulsanti che non vanno mostrati nell\'editor HTML';
-$string['configallowassign'] = 'Tramite la matrice sottostante potete autorizzare i ruoli elencati nella colonna verticale a sinistra ad assegnare ad altri utenti uno o più tra i ruoli presenti sulla riga di intestazione';
+$string['configallowassign'] = 'Tramite la matrice sottostante puoi autorizzare i ruoli elencati nella colonna verticale a sinistra ad assegnare ad altri utenti uno o più tra i ruoli presenti sulla riga di intestazione';
 $string['configallowcategorythemes'] = 'Abilitando questa opzione, i temi possono essere impostati a livello di categoria. Questo influenzerà tutte le categorie dipendenti e i relativi corsi a meno che gli stessi non abbiamo in modo specifico impostato il proprio tema. ATTENZIONE: L\'abilitazione dei temi di categoria può influenzare le prestazioni.';
 $string['configallowcoursethemes'] = 'Se abilitato, sarà  possibile impostare un tema personalizzato diverso per ogni corso. Il tema del corso avrà precedenza su ogni altra preferenza (tema di sito, tema dell\'utente, tema di sessione).';
 $string['configallowemailaddresses'] = 'Se si desidera che le email utilizzabili appartengano solo a determinati domini, è possibile elencare i domini autorizzati in questa impostazione, avendo cura di separare i domini tra loro con uno spazio. Le email che non appartengono ai domini elencati non saranno accettate. Per autorizzare anche i sotto domini, elencare il dominio precedendolo con \'.\'. Ad esempio  <strong>ourcollege.edu.au .gov.au</strong>';
 $string['configallowobjectembed'] = 'Come misura di sicurezza standard, gli utenti normali non possono includere oggetti multimediali (come Flash) utilizzando esplicitamente i tag EMBED e OBJECT nei testi HTML (possono sempre utilizzare il filtro Plugin multimediali). Se preferite consentire l\'utilizzo di questi tag, allora dovete abilitare l\'opzione.';
 $string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di modificare i ruoli di ogni colonna';
-$string['configallowoverride2'] = 'Tramite la matrice sottostante potete autorizzare i ruoli elencati nella colonna verticale a sinistra a modificare i ruoli di altri utenti.<br>Si precisa che queste impostazioni avranno effetto solamente per i ruoli che hanno i privilegi moodle/role:override oppure moodle/role:safeoverride.';
+$string['configallowoverride2'] = 'Tramite la matrice sottostante puoi autorizzare i ruoli elencati nella colonna verticale a sinistra a modificare i ruoli di altri utenti.<br>Si precisa che queste impostazioni avranno effetto solamente per i ruoli che hanno i privilegi moodle/role:override oppure moodle/role:safeoverride.';
 $string['configallowswitch'] = 'E\' possibile selezionare i ruoli che possono \'Cambiare ruolo\', in funzione dei ruoli che già si possiedono. Oltre alla impostazione in questa tabella, un utente  deve anche possedere il privilegio moodle/role:switchroles.<br />Da notare che possono cambiare ruolo solo i ruoli che hanno il privilegio moodle/course:view e che non hanno il privilegio moodle/site:doanything. Per questo motivo alcune colonne nella tabella sono disabilitate.';
 $string['configallowthemechangeonurl'] = 'L\'impostazione consente di cambire il tema postponendo all\'URL di chiamata la seguente sintassi: theme={themename}&amp;sesskey={sesskey}';
 $string['configallowunenroll'] = 'Se impostato su \"Si\", gli studenti saranno autorizzati a revocarsi autonomamente da un corso in qualunque momento. In caso contrario non verranno autorizzati a farlo, demandando a docenti e amministratori questa possibilità .';
@@ -110,10 +110,10 @@ $string['configcachetype'] = 'E\' possibile impostare il tipo di cache che sarà
 $string['configcalendarexportsalt'] = 'Il seme generato a caso viene utilizzato per rendere più sicuri i token di autenticazione usati per l\'esportazione dei calendari. Potete cambiare il seme ma tutti i token di autenticazione al momento attivi non saranno più validi.';
 $string['configclamactlikevirus'] = 'Considera i file infetti';
 $string['configclamdonothing'] = 'Considera OK i file';
-$string['configclamfailureonupload'] = 'Se avete configurato Clam antivirus per esaminare i file trasferiti, ma la configurazione non è corretta o non riesce a funzionare per un certo motivo sconosciuto, come dovrebbe comportarsi?  Se scegliete \'Considera i file infetti\', i file saranno spostati nell\'area di quarantena o eliminati. Se scegliete \'Considera OK i file\', i file verranno trasferiti nel folder di destinazione.
+$string['configclamfailureonupload'] = 'Se hai configurato Clam antivirus per esaminare i file trasferiti, ma la configurazione non è corretta o non riesce a funzionare per un certo motivo sconosciuto, come dovrebbe comportarsi?  Se scegli \'Considera i file infetti\', i file saranno spostati nell\'area di quarantena o eliminati. Se scegli \'Considera OK i file\', i file verranno trasferiti nel folder di destinazione.
 In ogni caso, gli Amministratori verranno avvisati se Clam antivirus dovesse andare in errore.
 
-Se scegliete \'Considera i file infetti\' e per qualche motivo Clam antivirus dovesse andare in errore (spesso avviene se il valore di pathtoclam è errato), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o eliminati. Si consiglia di impostare questa variabile con molta attenzione!';
+Se scegli \'Considera i file infetti\' e per qualche motivo Clam antivirus dovesse andare in errore (spesso avviene se il valore di pathtoclam è errato), TUTTI i files trasferiti saranno spostati nell\'area di quarantena o eliminati. Si consiglia di impostare questa variabile con molta attenzione!';
 $string['configcookiehttponly'] = 'Abilita le caratteristiche del PHP 5.2.0. I browser verranno obbligati ad inviare cookie solo tramite protocollo http, in modo da non consentire l\'accesso ai cookie da linguaggi di scripting. Non tutti i browser supportano questa caratteristica che potrebbe non essere compatibile con l\'attuale codice. Questa impostazione aiuta a prevenire alcuni tipi di attacchi XSS.';
 $string['configcookiesecure'] = 'Se il server accetta solamente connessioni https, allora è opportuno abilitare l\'invio di cookie sicuri. Se abilitate questa impostazione, accertatevi che il server web non accetti connessioni http://, oppure impostate un reindirizzamento permanente al protocollo https://. Nel caso in cui l\'indirizzo specificato per <em>wwwroot</em> nella config.php non contenga https://, questa impostazione sarà automaticamente disabilitata.';
 $string['configcountry'] = 'Il Paese che comparirà per default nelle pagine di creazione di un nuovo account utente. Se non impostate un Paese di default, il campo diventerà a a compilazione obbligatoria.';
@@ -969,7 +969,8 @@ $string['webproxy'] = 'Proxy web';
 $string['webproxyinfo'] = 'Usate le impostazioni seguenti se il vostro server Moodle non può accedere direttamente ad Internet. L\'accesso ad Internet è necessario per scaricare dati di ambiente, language pack, feed RSS, timezone, eccetera.<br /><em>L\'estensione PHP cURL è fortemente raccomandata.</em>';
 $string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlrpc è utile per le funzionalità del Moodle Networking.';
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
-$string['ziprequired'] = 'Ora Moodle richiede l\'estensione Zip PHP. Gli eseguibili info-ZIP o la libreria PclZip non è più utilizzata.';
+$string['yuicomboloading'] = 'Caricamento YUI vombo';
+$string['ziprequired'] = 'Moodle adesso richiede l\'estensione Zip PHP. Gli eseguibili info-ZIP o la libreria PclZip non sono più utilizzati.';
 $string['ipwhitelist'] = 'IP whitelist'; // ORPHANED
 $string['ipwhitelistdesc'] = 'Se compilato, solo gli IP qui specificati saranno autorizzati ad usare i Web service con lo username: <strong>$a->username</strong>'; // ORPHANED
 $string['managews'] = 'Gestisci i web service'; // ORPHANED
