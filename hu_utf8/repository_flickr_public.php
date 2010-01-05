@@ -2,6 +2,21 @@
       // repository_flickr_public.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
       // local modifications from http://127.1.1.0
 
+$string['flickr_public:view'] = 'Nyilvános Flickr adattár megtekintése';
+$string['watermark'] = 'Hozzáad vízjelet a letöltött fényképekhez (szerző azonosítója és eredeti URL)?';
+
+$string['all'] = 'Mind';
+$string['by'] = 'Hozzárendeléses licenc';
+$string['by-nc'] = 'Hozzárendeléses nem kereskedelmi licenc';
+$string['by-nc-nd'] = 'Hozzárendeléses nem kereskedelmi, származékos fejlesztésekre nem jogosító licenc';
+$string['by-nc-sa'] = 'Hozzárendeléses nem kereskedelmi, azonos feltételekkel továbbadandó licenc';
+$string['by-nd'] = 'Hozzárendeléses, származékos fejlesztésekre nem jogosító licenc';
+$string['by-sa'] = 'Hozzárendeléses, azonos feltételekkel továbbadandó licenc';
+$string['commercialuse'] = 'Engedélyezi munkája kereskedelmi célú hasznosítását?';
+$string['creativecommonscommercial'] = 'Csak a Creative Commons szerinti kereskedelmi forgalomra';
+$string['license'] = 'Licenc';
+$string['modification'] = 'Engedélyezi munkája módosítását?';
+$string['sharealike'] = 'Igen, ha mások is ugyanezen feltételekkel adják tovább.';
 
 $string['apikey'] = 'API-kulcs';
 $string['callbackurl'] = 'Visszahívó URL';

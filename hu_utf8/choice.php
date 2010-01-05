@@ -1,5 +1,6 @@
 <?PHP // $Id$
       // choice.php - created with Moodle 1.7 beta + (2006101003)
+$string['choiceadministration'] = 'Válaszlehetőség kezelése';
 
 $string['choicesaved'] = 'Válaszlehetőség elmentve';
 $string['option'] = 'Választás';
@@ -11,9 +12,9 @@ $string['cannotupdatechoice'] = 'Választását adatbázishiba miatt nem lehetet
 $string['cannotsavechoice'] = 'Választását nem lehetett elmenteni:';
 $string['choice'] = 'Válaszlehetőség';
 $string['choice:choose'] = 'Válaszlehetőség rögzítése';
-$string['choice:deleteresponses'] = 'Viszontválaszok törlése';
-$string['choice:downloadresponses'] = 'Viszontválaszok letöltése';
-$string['choice:readresponses'] = 'Viszontválaszok olvasása';
+$string['choice:deleteresponses'] = 'Tanuló által adott válaszok törlése';
+$string['choice:downloadresponses'] = 'Tanuló által adott válaszok letöltése';
+$string['choice:readresponses'] = 'Tanuló által adott válaszok olvasása';
 $string['choiceclose'] = 'Meddig';
 $string['choicefull'] = 'Ez a válaszlehetőség betelt, többre nincs lehetőség.';
 $string['choicename'] = 'Válaszlehetőség neve';
@@ -44,16 +45,16 @@ $string['publishanonymous'] = 'Eredmények tanuló neve nélküli közzététele
 $string['publishnames'] = 'Eredmények teljes közzététele nevekkel és válaszlehetőségekkel együtt';
 $string['publishnot'] = 'Ne mutassa meg az eredményeket a tanulóknak';
 $string['removemychoice'] = 'Válaszlehetőségem törlése';
-$string['removeresponses'] = 'Az összes viszontválasz törlése';
-$string['responses'] = 'Viszontválaszok';
-$string['responsesto'] = 'Viszontválaszok erre: $a';
+$string['removeresponses'] = 'Az összes tanuló által adott válasz törlése';
+$string['responses'] = 'Tanuló által adott válaszok';
+$string['responsesto'] = 'Tanuló által adott válaszok erre: $a';
 $string['savemychoice'] = 'Válaszlehetőségem mentése';
 $string['showunanswered'] = 'Válasz nélküli oszlop megjelenítése';
 $string['spaceleft'] = 'felhasználható hely';
 $string['spacesleft'] = 'felhasználható helyek';
 $string['taken'] = 'Elvégezve';
 $string['timerestrict'] = 'Válaszadás korlátozása eddig az időpontig';
-$string['viewallresponses'] = '$a viszontválasz megtekintése';
+$string['viewallresponses'] = '$a tanuló által adott válasz megtekintése';
 $string['yourselection'] = 'Az Ön választása';
 
 ?>

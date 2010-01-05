@@ -1,7 +1,86 @@
 <?PHP // $Id$ 
       // admin.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+	  
+$string['allcountrycodes'] = 'Az összes országkód';
+$string['bloglevelupgrade'] = 'Blog láthatóságának frissítése';
+$string['bloglevelupgradebody'] = 'Ezt az üzenetet a $a->sitename portál rendszergazdájaként kapja.
 
-	  $string['cannotdeletemodfilter'] = 'A(z) \'$a->filter\' nem távolítható el, mert a(z) \'$a->module\' modul része.';
+A portált nemrégiben a Moodle 2.0 változatára frissítették.
+
+A blog láthatósága a 2.0 változatban egyszerűsödött, de az Ön portálja továbbra is régi típusú láthatóságot használ.
+
+Ahhoz, hogy portálján megőrizze a blogüzenetek kurzusalapú vagy csoportalapú láthatóságát, le kell futtatnia az alábbi frissítési kódot, mellyel minden blogüzenettel rendelkező felhasználót tartalmazó kurzusában létrejön egy külön blogszerű fórum, melybe ezek a blogüzenetek bemásolódnak.
+
+Ezt követően portálszinten a blogokat a rendszer kikapcsolja. A folyamat során a blogüzenetek nem törlődnek.
+
+A kód lefuttatásához látogasson el ide: $a->fixurl.';
+$string['bloglevelupgradehtml'] = '<p>Ezt az üzenetet a $a->sitename portál rendszergazdájaként kapja.</p>
+
+<p>A portált nemrégiben a Moodle 2.0 változatára frissítették.</p>
+
+<p>A blog láthatósága a 2.0 változatban egyszerűsödött, de az Ön portálja továbbra is régi típusú láthatóságot használ.</p>
+
+<p>Ahhoz, hogy portálján megőrizze a blogüzenetek kurzusalapú vagy csoportalapú láthatóságát, le kell futtatnia az alábbi frissítési kódot, mellyel minden blogüzenettel rendelkező felhasználót tartalmazó kurzusában létrejön egy külön blogszerű fórum, melybe ezek a blogüzenetek bemásolódnak. </p>
+
+<p>Ezt követően portálszinten a blogokat a rendszer kikapcsolja. A folyamat során a blogüzenetek nem törlődnek.</p>
+
+<p>A kód lefuttatásához látogasson el a  <a href=\"$a->fixurl\">blogszintű frissítés oldalára</a>.</p>';
+$string['bloglevelupgradeinfo'] = 'A blog láthatósága a 2.0 változatban egyszerűsödött, de az Ön portálja továbbra is régi típusú láthatóságot használ. Ahhoz, hogy portálján megőrizze a blogüzenetek kurzusalapú vagy csoportalapú láthatóságát, le kell futtatnia az alábbi frissítési kódot, mellyel minden blogüzenettel rendelkező felhasználót tartalmazó kurzusában létrejön egy külön blogszerű fórum, melybe ezek a blogüzenetek bemásolódnak.
+Ezt követően portálszinten a blogokat a rendszer kikapcsolja. A folyamat során a blogüzenetek nem törlődnek.';
+$string['bloglevelupgradenotice'] = 'Az Ön portálja továbbra is régi típusú láthatóságot használ, ajánlott a <a href=\"bloglevelupgrade.php\">blog láthatóságát frissíteni</a>.';
+$string['bloglevelupgradeprogress'] = 'Átalakítás folyamatban: $a->userscount felhasználó ellenőrizve, $a->blogcount üzenet átalakítva.';
+$string['condifmodeditdefaults'] = 'Az itt megadott értékek új tevékenység létrehozásakor a tevékenységbeállítás űrlapján alapértékként jelennek meg. Itt beállíthatja azt is, hogy mely tevékenységbeállítások legyenek különlegesek.';
+$string['configallcountrycodes'] = 'Ez a különféle helyeken, például a felhasználói profilban kiválasztható országok listája. Ha üresen hagyja (alaphelyzet), akkor az angol nyelvi alapcsomagban lévő felsorolás jelenik meg. Ez az ISO 3166-1 szerinti lista. Ellenkező esetben meghatározhat egy sor vesszővel elválasztott kódot, pl. GB,FR,ES. Ha új, nem szabvány szerinti kódokat ad meg, azokat hozzá kell adnia a nyelvi csomagjának megfelelő countries.php állományhoz.';
+$string['configenablesafebrowserintegration'] = 'Ezzel a tesztbeállítási űrlapon a böngésző biztonsági mezőjéhez hozzáadhatja a \'Biztonságos vizsgáztatási böngésző előírása\' opciót. További információk: http://www.safeexambrowser.org/ .';
+$string['confignavshowallcourses'] = 'Beállítása esetén a felhasználó által felvett összes kurzus folyamatosan látszik a navigációs részen. Alapesetben a navigációs részen csak az adott kurzus látható, ha arra a felhasználó áttér.';
+$string['confignavshowcategories'] = 'A navigációs sávon és a navigációs blokkokban látsszanak a kurzuskategóriák';
+$string['configregenloginsession'] = 'Feltétlenül tanácsos minden bejelentkezéskor újból előállítani a folyamatazonosítót. Előfordulhat, hogy a beállítás egyes hitelesítési segédprogramokkal nem használható.';
+$string['configrequiremodintro'] = 'Kapcsolja ki, ha nem írja elő a felhasználók számára, hogy minden egyes tevékenységhez mellékeljenek leírást.';
+$string['configuseblogassociations'] = 'A felhasználók szervezhessék blogjukat az üzenetek kurzusokhoz és kurzusmodulokhoz kapcsolása révén?';
+$string['enablesafebrowserintegration'] = 'A biztonságos vizsgáztatási böngésző integrálásának bekapcsolása';
+$string['modeditdefaults'] = 'Alapértékek tevékenységek beállításához';
+$string['navigationupgrade'] = 'Ez a frissítés két új navigációs blokkot ztartalmaz, melyek ezen blokkokat váltják fel: Adminisztráció, Kurzusok, Tevékenységek és Felhasználók. Ha ezekhez a blokkokhoz külön engedélyeket rendelt, ellenőrizze, hogy minden a kívánt módon működik-e.<br /><br />
+Az új stílusok betöltéséhez böngészőjének kijelzését is frissítenie kell, ellenkező esetben a blokkok nem fognak megfelelően működni.';
+$string['navshowallcourses'] = 'Az összes felhasználói kurzus megjelenítése';
+$string['navshowcategories'] = 'Kurzuskategóriák megjelenítése';
+$string['plugin'] = 'Segédprogram';
+$string['plugins'] = 'Segédprogramok';
+$string['regenloginsession'] = 'Folyamatazonosító újbóli előállítása bejelentkezéskor';
+$string['requiremodintro'] = 'Tevékenység leírásának előírása';
+$string['tablenosave'] = 'A fenti táblázat módosításainak mentése automatikus';
+$string['tablesnosave'] = 'A fenti táblázatok módosításainak mentése automatikus';
+$string['uninstallplugin'] = 'Eltávolítás';
+$string['useblogassociations'] = 'Társítások bekapcsolása';
+
+$string['allowthemechangeonurl'] = 'Stílusmódosítások engedélyezése az URL-ben';
+$string['configallowthemechangeonurl'] = 'Ha ezt a beállítást bekapcsolja, akkor a stílust bármely Moodle URL esetén módosíthatja a theme={themename}&amp;sesskey={sesskey} hozzáadásával.';
+$string['configdebugpageinfo'] = 'Ha bekapcsolja, az oldal láblécén megjelennek az oldallal kapcsolatos információk.';
+$string['configdebugvalidators'] = 'Ha bekapcsolja, az oldal láblécén ugrópontok jelennek meg a külső validálóhoz. Előfordulhat, hogy új felhasználót kell létrehoznia <em>w3cvalidator</em> névvel és engedélyeznie kell a vendégként való hozzáférést.';
+$string['configenablecomments'] = 'Megjegyzések engedélyezése';
+$string['debugpageinfo'] = 'Oldalra vonatkozó információk megjelenítése';
+$string['debugvalidators'] = 'Validáló ugrópontjainak megjelenítése';
+$string['enablecomments'] = 'Megjegyzések engedélyezése';
+	  
+	  
+$string['clianswerno'] = 'n';
+$string['cliansweryes'] = 'i';
+$string['cliincorrectvalueerror'] = 'Hiba, \"$a->value\" értéke \"$a->option\" esetén hibás';
+$string['cliincorrectvalueretry'] = 'Hibás érték, próbálja újra.';
+$string['clistatusdisabled'] = 'Állapot: kikapcsolva';
+$string['clistatusenabled'] = 'Állapot: bekapcsolva';
+$string['clitypevalue'] = 'érték beírása';
+$string['clitypevaluedefault'] = 'érték beírása, Enter esetén alapérték ($a) használata';
+$string['cliunknowoption'] = 'Ismeretlen paraméter: $a. Használja a --help paramétert.';
+$string['cliupgradefinished'] = 'A parancssori frissítés sikerült.';
+$string['cliyesnoprompt'] = 'írjon be i-t (igen) vagy n-t (nem)';
+$string['configdebugstringids'] = 'Ez a fordítókat segíti. Megmutatja a kiírt szöveg mellett a nyelvi állományt és a szöveg azonosítóját. (A beállítás módosítása csak az oldal következő betöltésétől lép érvénybe.)';
+$string['debugstringids'] = 'Nyelvi szövegek eredetének kijelzése';
+$string['mediapluginimg'] = 'Kapcsolt képek automatikus beágyazásának engedélyezése';
+$string['simplexmlrequired'] = 'A Moodle most már előírja a SimpleXML PHP-kiterjesztést .';
+$string['sitemaintenancewarning2'] = 'Portálja most karbantartási módban üzemel (csak rendszergazdák jelentkezhetnek be). A normál üzemmód visszaállításához  <a href=\"$a\">kapcsolja ki a karbantartási módot</a>.';
+
+
+$string['cannotdeletemodfilter'] = 'A(z) \'$a->filter\' nem távolítható el, mert a(z) \'$a->module\' modul része.';
 $string['commonfiltersettings'] = 'Általános szűrőbeállítások';
 $string['configallowswitch'] = 'Válassza ki, a meglévő szerepeik alapján a felhasználók mely szerepekre válthatnak át. Az átváltáshoz a tábla bejegyzésén túl a felhasználónak moodle/role:switchroles képességgel is rendelkeznie kell.<br />Ne feledje, hogy a szerepváltás csak akkor lehetséges, ha a felhasználó a  moodle/course:view képességgel rendelkezik, de nem rendelkezik moodle/site:doanything képességgel, ezért a tábla néhány oszlopa ki van kapcsolva.';
 $string['configcurlcache'] = 'A cURL gyorsítótár működési ideje másodpercekben.';
@@ -233,7 +312,7 @@ $string['configdefaultrequestcategory'] = 'A felhasználók által igényelt kur
 $string['configdefaultrequestedcategory'] = 'Alapkategória az igényelt kurzusok elhelyezésére, amennyiben megtörténik jóváhagyásuk.';
 $string['configdefaultuserroleid'] = 'Minden bejelentkezett felhasználó megkapja az itt megadott szerephez tartozó portálszintű jogosultságokat, az esetleges EGYÉB szerepei mellett. Az alapbeállítás a hitelesített felhasználói szerep (régebbi változatok esetén vendég). Ne feledje, hogy ez nem ütközik többi szerepükkel, csak biztosítja, hogy minden felhasználó rendelkezzen olyan lehetőségekkel, amelyek kurzusszinten nem rendelhetők hozzá (pl. blogbejegyzéseket helyezhetnek el, saját naptárukat kezelhetik stb.).';
 $string['configdeleteincompleteusers'] = 'Ezen idő eltelte után minden hiányosan beállított fiókot töröl a rendszer.';
-$string['configdeleteunconfirmed'] = 'Ha az e-mail hitelesítéssel működik, ez lesz az az idő, amely alatt a felhasználók viszontválaszát a rendszer elfogadja. Ezen időszak elteltével a korábbi, meg nem erősített felhasználói azonosítókat törli a rendszer.';
+$string['configdeleteunconfirmed'] = 'Ha az e-mail hitelesítéssel működik, ez lesz az az idő, amely alatt a felhasználók által adott választ a rendszer elfogadja. Ezen időszak elteltével a korábbi, meg nem erősített felhasználói azonosítókat törli a rendszer.';
 $string['configdenyemailaddresses'] = 'Ha nem kíván konkrét doménekről e-mailt fogadni, ugyanúgy sorolja fel őket itt. Minden egyéb domént a rendszer elfogad. Aldomének elutasításához a domént \'.\'-vel adja meg. Pl. hotmail.com yahoo.co.uk.';
 $string['configdigestmailtime'] = 'Azok, akik összesítve kérik az e-mailek kézbesítését, ezt naponta fogják megkapni. Ezzel állítható be, hogy a napi e-mail elküldése hány órakor történjék (az adott óra utáni első cron fogja elküldeni).';
 $string['configdisablecourseajax'] = 'Fő kurzusoldalak szerkesztésekor ne használjon AJAX-ot.';

@@ -1,6 +1,11 @@
 <?PHP // $Id$ 
       // calendar.php - created with Moodle 1.7 beta + (2006101003) 
       
+$string['invalidtimedurationminutes'] = 'A percekben megadott időtartam érvénytelen. Adjon meg 0 percnél hosszabb időtartamot, vagy ne válasszon időtartamot.';
+$string['invalidtimedurationuntil'] = 'A záró időtartam napja és időpontja az esemény kezdete előttre esik. Továbblépés előtt javítsa ki.';
+$string['repeatedevents'] = 'Ismétlődő események';
+$string['repeatevent'] = 'Esemény megismétlése';
+
 $string['allday'] = 'Egész nap';
 $string['advancedoptions'] = 'További lehetőségek';
 $string['calendar'] = 'Naptár';

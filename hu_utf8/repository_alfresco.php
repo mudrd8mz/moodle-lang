@@ -2,6 +2,8 @@
       // repository_alfresco.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
       // local modifications from http://127.1.1.0
 
+$string['alfresco:view'] = 'Alfresco-adattár megtekintése';
+$string['alfrescourltext'] = 'Az Afresco felületének url-je: http://yoursite.com/alfresco/api';
 
 $string['alfresco_url'] = 'Alfresco URL-je';
 $string['configplugin'] = 'Alfresco beállítása';

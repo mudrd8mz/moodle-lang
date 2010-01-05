@@ -1,6 +1,10 @@
 <?PHP // $Id$ 
       // editor.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['acteditorshhdr'] = 'Bekapcsolt szövegszerkesztők';
+$string['configeditorplugins'] = 'Válassza ki a szerkesztővel használni kívánt segédprogramokat és rendezze el őket az ajánlott sorrendbe.';
+$string['editors'] = 'Szövegszerkesztők';
+$string['editorsettings'] = 'Szövegszerkesztők kezelése';
 
 $string['about'] = 'A szerkesztő névjegye';
 $string['absbottom'] = 'Alulra';

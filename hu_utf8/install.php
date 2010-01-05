@@ -1,5 +1,11 @@
 <?PHP // $Id$ 
       // install.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+$string['cliadminpassword'] = 'Új rendszergazda jelszava';
+$string['clialreadyinstalled'] = 'A config.php már létezik, a portál frissítéséhez használja az admin/cli/upgrade.php állományt.';
+$string['cliinstallfinished'] = 'A telepítés sikeresen lezajlott.';
+$string['cliinstallheader'] = 'A Moodle $a parancssori telepítő programja';
+$string['climustagreelicense'] = 'Nem interaktív üzemmódban el kell fogadnia az engedélyt az --agree-license megadásával';
+$string['clitablesexist'] = 'Azt adatbázistáblák már léteznek, a cli telepítése leáll.';
 
 $string['databasehead'] = 'Az adatbázis beállításai';
 $string['databasesocket'] = 'Unix kommunikációs végpont';

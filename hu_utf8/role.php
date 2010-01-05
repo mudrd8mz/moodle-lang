@@ -1,6 +1,20 @@
 <?PHP // $Id$ 
       // role.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['block:edit'] = 'Blokk beállításainak szerkesztése';
+$string['blog:associatecourse'] = 'Blogüzenetek kurzusokhoz kapcsolása';
+$string['blog:associatemodule'] = 'Blogüzenetek tevékenységmodulokhoz kapcsolása';
+$string['blog:manageexternal'] = 'Külső blogok szerkesztése és kezelése';
+$string['blog:search'] = 'Keresés a blogüzenetek között';
+$string['blog:viewdrafts'] = 'Blogüzenetek piszkozatainak megtekintése';
+$string['course:changecategory'] = 'Kurzuskategória kiválasztása';
+$string['course:changesummary'] = 'Kurzusösszegzés módosítása';
+$string['restore:rolldates'] = 'Engedély helyreállításkor tevékenységek beállítási dátumainak görgetéséhez';
+
+$string['comment:delete'] = 'Megjegyzések törlése';
+$string['comment:post'] = 'Megjegyzések beküldése';
+$string['comment:view'] = 'Megjegyzések elolvasása';
+
 $string['allowroletoswitch'] = '$a->fromrole szereppel rendelkező felhasználók részére $a->targetrole szerepre váltás engedélyezése';
 $string['allowswitch'] = 'Szerepváltás engedélyezése';
 $string['filter:manage'] = 'Helyi szűrőbeállítások kezelése';

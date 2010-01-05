@@ -1,6 +1,9 @@
 <?PHP // $Id$ 
       // survey.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['downloadresults'] = 'A letöltés eredménye';
+$string['responsereports'] = 'Jelentések a tanulók által adott válaszokról';
+$string['surveyadministration'] = 'Felmérés kezelése';
 
 $string['actual'] = 'Aktuális';
 $string['actualclass'] = 'Osztályra vonatkozó tényleges';
@@ -177,7 +180,7 @@ $string['questionsnotanswered'] = 'Néhány feleletválasztós kérdésre nem é
 $string['deleteallanswers'] = 'Felmérésre adott összes válasz törlése';
 $string['deleteanalysis'] = 'Válaszelemzés törlése';
 $string['report'] = 'Felméréssel kapcsolatos jelentés';
-$string['responses'] = 'Viszontválaszok';
+$string['responses'] = 'Tanuló által adott válaszok';
 $string['savednotes'] = 'A megjegyzéseit elmentettük';
 $string['scaleagree5'] = 'Nagyon nem ért egyet, Valamelyest nem ért egyet, Semleges, Valamelyest egyetért, Teljesen egyetért';
 $string['scales'] = 'Skálák';

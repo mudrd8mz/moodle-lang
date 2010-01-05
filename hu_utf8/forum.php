@@ -1,5 +1,9 @@
 <?PHP // $Id$ 
       // forum.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+$string['blogforum'] = 'Standard fórum blogüzenetszerű megjelenítésben';
+$string['forumadministration'] = 'Fórum kezelése';
+$string['introblog'] = 'A fórum üzenetei a kurzus felhasználóinak blogjaiból automatikusan kerültek ide, mert a blogüzenetek már nem elérhetők.';
+$string['viewalldiscussions'] = 'Az összes vita megtekintése';
 
 $string['aggregatecountformat'] = '$a->count (pont: $a->grade)';
 $string['ajaxrating'] = 'AJAX-értékelés bekapcsolása';
@@ -245,7 +249,7 @@ $string['postadded'] = 'A hozzászólást sikeresen hozzáadtuk. Van $a a javít
 $string['postaddedsuccess'] = 'Hozzászólását sikeresen hozzáadtuk.';
 $string['postaddedtimeleft'] = 'Ha módosításokat kíván végrehajtani, szerkesztendő: $a';
 $string['postincontext'] = 'Nézze ezt a hozzászólást összefüggéseiben.';
-$string['postmailinfo'] = 'Ez a(z) $a portálra küldött üzenet másolata. Ha viszontválaszát a portálon keresztül kívánja hozzáadni, kattintson erre az ugrópontra:';
+$string['postmailinfo'] = 'Ez a(z) $a portálra küldött üzenet másolata. Ha tanulói válaszát a portálon keresztül kívánja hozzáadni, kattintson erre az ugrópontra:';
 $string['postmailnow'] = 'Ezt a hozzászólást minden fórumra feliratkozott haladéktalanul megkapja.';
 $string['postrating1'] = 'Főként elkülönült ismeretet tartalmaz';
 $string['postrating2'] = 'Elkülönült és kapcsolt ismeretet is tartalmaz';
@@ -260,7 +264,7 @@ $string['prune'] = 'Szétvágás';
 $string['prunedpost'] = 'A hozzászólás óta új vita jött létre';
 $string['pruneheading'] = 'Vita szétvágása és a hozzászólás áthelyezése egy új vitába';
 $string['qandaforum'] = 'Kérdések és válaszok jellegű fórum';
-$string['qandanotify'] = 'Ez egy kérdések és válaszok jellegű fórum. A kérdésekre adott többi viszontválasz megtekintéséhez előbb saját válaszát kell beküldenie.';
+$string['qandanotify'] = 'Ez egy kérdések és válaszok jellegű fórum. A kérdésekre adott többi tanulói válasz megtekintéséhez előbb saját válaszát kell beküldenie.';
 $string['rate'] = 'Értékel';
 $string['rating'] = 'Értékelés';
 $string['ratingeveryone'] = 'Mindenki értékelhet hozzászólásokat';

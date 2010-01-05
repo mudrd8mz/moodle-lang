@@ -1,19 +1,19 @@
-<?php
+<?PHP // $Id$ 
+      // auth_fc.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
-// All of the language strings in this file should also exist in
-// auth.php to ensure compatibility in all versions of Moodle.
-
-$string['auth_fcchangepasswordurl'] = 'Jelszó-módosítási URL';
-$string['auth_fcconnfail'] = 'Csatlakozási hiba, száma: $a[0], hibaszöveg: $a[1]';
-$string['auth_fccreators'] = 'Azon csoportok felsorolása, amelyek tagjai új kurzusokat hozhatnak létre. A csoportokat ;-vel válassza el. A nevek írása a FirstClass-szerveren megadottal azonos módon történjék. A rendszer különbséget tesz kis- és nagybetűk között.';
-$string['auth_fccreators_key'] = 'Szerkesztők';
-$string['auth_fcdescription'] = 'A rendszer FirstClass-szerverrel ellenőrzi, hogy a felhasználónév és a jelszó érvényes-e.';
-$string['auth_fcfppport'] = 'Szerverport (leggyakrabban a 3333)';
+$string['auth_fcchangepasswordurl'] = 'Jelszómódosító URL';
+$string['auth_fcconnfail'] = '$a[0] számú, $a[1] miatti csatlakozási hiba';
+$string['auth_fccreators'] = 'Azon csoportok, melyek tagjai új kurzusokat hozhatnak létre. A csoportokat pontosvesszővel válassza el. A nevek egyezzenek meg a FirstClass szerveren használtakkal. Ügyeljen a kis- és nagybetűk különbségére.';
+$string['auth_fccreators_key'] = 'Létrehozók';
+$string['auth_fcdescription'] = 'Ez a módszer FirstClass szerverrel ellenőrzi az adott felhasználónév és jelszó érvényességét.';
+$string['auth_fcfppport'] = 'Szerverport (leggyakrabban a 3333-as)';
 $string['auth_fcfppport_key'] = 'Port';
-$string['auth_fchost'] = 'A FirstClass-szerver címe. Használja az IP-számot vagy a DNS-nevet.';
-$string['auth_fchost_key'] = 'Gazdagép:';
-$string['auth_fcpasswd'] = 'Jelszó a fenti fiókhoz.';
+$string['auth_fchost'] = 'A FirstClass szerver címe. Használjon UIP-számot vagy DNS-nevet.';
+$string['auth_fchost_key'] = 'Gazdagép';
+$string['auth_fcpasswd'] = 'A fenti fiókhoz tartozó jelszó.';
 $string['auth_fcpasswd_key'] = 'Jelszó';
-$string['auth_fctitle'] = 'FirstClass-szerver';
-$string['auth_fcuserid'] = 'Segédrendszergazda-jogosultsággal rendelkező felhasználó FirstClass-azonosítója beállítva.';
+$string['auth_fctitle'] = 'FirstClass szerver';
+$string['auth_fcuserid'] = '\'Alrendszergazda\' jogosultsággal rendelkező FirstClass fiók felhasználói azonosítója';
 $string['auth_fcuserid_key'] = 'Felhasználói azonosító';
+
+?>

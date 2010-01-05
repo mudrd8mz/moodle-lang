@@ -1,6 +1,8 @@
 <?PHP // $Id$ 
       // completion.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['yourprogress'] = 'Folyamatjelző';
+	  
 $string['reportpage'] = '{$a->total} közül {$a->from} - {$a->to} felhasználó megjelenítése.';
 
 $string['activitycompletion'] = 'Tevékenység befejezése';

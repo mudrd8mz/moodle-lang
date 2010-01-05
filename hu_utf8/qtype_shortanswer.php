@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
       // qtype_shortanswer.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
-$string['addingshortanswer'] = 'Kiegészítendő kérdés hozzáadása';
-$string['editingshortanswer'] = 'Kiegészítendő kérdés szerkesztése';
-$string['shortanswer'] = 'Kiegészítendő kérdés';
+$string['addingshortanswer'] = 'Kiegészítő kérdés hozzáadása';
+$string['editingshortanswer'] = 'Kiegészítő kérdés szerkesztése';
+$string['shortanswer'] = 'Kiegészítő kérdés';
 $string['shortanswersummary'] = 'Lehetővé teszi egy vagy több szóból álló válasz megadását, amelynek a pontozása különféle, esetlegesen helyettesítő karaktereket tartalmazó mintaválaszokkal való összehasonlítás alapján történik.';
 
 $string['addingshortanswer'] = 'Kiegészítő kérdés hozzáadása';

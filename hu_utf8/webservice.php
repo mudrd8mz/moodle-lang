@@ -1,6 +1,43 @@
 <?PHP // $Id$ 
       // webservice.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
-      // local modifications from http://127.1.1.0
+
+$string['accessexception'] = 'Hozzáférés-szabályozási kivétel';
+$string['actwebserviceshhdr'] = 'Aktív webszolgáltatási protokollok';
+$string['addfunction'] = 'Feladat hozzáadása';
+$string['addfunctionhelp'] = 'Válassza ki a szolgáltatáshoz hozzáadandó feladatot.';
+$string['addrequiredcapability'] = 'Előírt képesség hozzárendelése/leválasztása';
+$string['configwebserviceplugins'] = 'Biztonsági okokból csak a használt protokollokat kapcsolja be.';
+$string['deleteserviceconfirm'] = 'Törli a külső \"$a\" szolgáltatást?';
+$string['disabledwarning'] = 'Minden webszolgáltatási protokoll ki van kapcsolva, a bekapcsolás a \"Részletes funkciók\" részben érhető el.';
+$string['enabled'] = 'Bekapcsolva';
+$string['execute'] = 'Végrehajtás';
+$string['executewarnign'] = 'VIGYÁZAT:  a Végrehajtás lenyomásakor adatbázisa módosulni fog, a változásokat pedig nem lehet automatikusan érvényteleníteni!';
+$string['externalservice'] = 'Külső szolgáltatás';
+$string['externalservicefunctions'] = 'Külső szolgáltatás feladatai';
+$string['externalservices'] = 'Külső szolgáltatások';
+$string['externalserviceusers'] = 'Külső szolgáltatást használók';
+$string['function'] = 'Feladat';
+$string['functions'] = 'Feladatok';
+$string['iprestriction'] = 'IP-korlátozás';
+$string['manageprotocols'] = 'Protokollok kezelése';
+$string['norequiredcapability'] = 'Nincs előírt képesség';
+$string['potusers'] = 'Jogosulatlan felhasználók';
+$string['potusersmatching'] = 'Egyező jogosulatlan felhasználók';
+$string['protocol'] = 'Protokoll';
+$string['removefunction'] = 'Eltávolítás';
+$string['removefunctionconfirm'] = 'Eltávolítja a(z) \"$a->function\" feladatot a(z) \"$a->service\" szolgáltatásból?';
+$string['requiredcapability'] = 'Előírt képesség';
+$string['restrictedusers'] = 'Csak jogosult felhasználók';
+$string['selectedcapability'] = 'Kiválasztott';
+$string['servicename'] = 'Szolgáltatás neve';
+$string['servicesbuiltin'] = 'Beépített szolgáltatások';
+$string['servicescustom'] = 'Egyedi szolgáltatások';
+$string['serviceusers'] = 'Jogosult felhasználók';
+$string['serviceusersmatching'] = 'Egyező jogosult felhasználók';
+$string['serviceuserssettings'] = 'Jogosult felhasználók beállításainak módosítása';
+$string['testclient'] = 'Webszolgáltatást tesztelő kliens';
+$string['validuntil'] = 'Érvényességi idő';
+$string['webservices'] = 'Webszolgáltatások';
 
 $string['amfdebug'] = 'AMF-szerver hibaszűrési üzemmódja';
 

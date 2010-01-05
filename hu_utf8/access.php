@@ -1,6 +1,8 @@
 <?PHP // $Id$ 
       // access.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['skipto'] = 'Ugrás ide:  $a';
+
 $string['access'] = 'Elérhetőség';
 $string['accesshelp'] = 'Elérhetőség súgója';
 $string['accesskey'] = 'Elérhetőség billentyűje, $a';

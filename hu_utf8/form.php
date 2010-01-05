@@ -1,4 +1,5 @@
 <?PHP // $Id$
+$string['selected'] = 'Kiválasztva';
 
 $string['time'] = 'Idő';
 $string['timeunit'] = 'Időegység';

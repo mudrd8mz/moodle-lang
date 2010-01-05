@@ -1,5 +1,50 @@
 <?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+$string['courseadministration'] = 'Kurzus kezelése';
+$string['disabledcomments'] = 'Megjegyzések kikapcsolva';
+$string['download'] = 'Letöltés';
+$string['downloadall'] = 'Az összes letöltése';
+$string['enteremail'] = 'Adja meg e-mail címét.';
+$string['enterusername'] = 'Adja meg felhasználónevét.';
+$string['frontpagesettings'] = 'Címoldal beállításai';
+$string['moveallsidetabstoblock'] = 'Az összes tabulátor visszaállítása blokkpozíciójába';
+$string['navigation'] = 'Navigáció';
+$string['noteusercannotrolldatesoncontext'] = '<strong>Megjegyzés:</strong> A biztonsági mentés visszaállításához nem görgethetők a dátumok, mert nincs meg ehhez az engedélye.';
+$string['participantslist'] = 'Résztvevők felsorolása';
+$string['passwordforgotteninstructions2'] = 'Jelszavának visszaállításához adja meg alább felhasználónevét vagy e-mail címét. Ha szerepel az adatbázisban, e-mailt küldünk az e-mail címére, melyben tájékoztatjuk, hogy léphet be ismét.';
+$string['path'] = 'Útvonal';
+$string['publicsitefileswarning3'] = 'Megjegyzés: Az itteni állományokat bárki elérheti, ha ismeri (vagy kitalálja) az URL-t. <br />A biztonság érdekében a biztonsági mentés állományait kizárólag a biztonságos Biztonsági mentések mappában tárolja.';
+$string['returntooriginaluser'] = 'Visszatérés ide: $a';
+$string['searchbyemail'] = 'Keresés e-mail cím alapján';
+$string['searchbyusername'] = 'Keresés felhasználónév alapján';
+$string['selectedfile'] = 'Kiválasztott állomány';
+$string['selectfiles'] = 'Válasszon ki állományokat.';
+$string['usercurrentsettings'] = 'Profilom beállításai';
+$string['userviewingsettings'] = '$a profilja';
+$string['viewprofile'] = 'Profil megtekintése';
+	  
+$string['addblock'] = 'Blokk hozzáadása';
+$string['addcomment'] = 'Megjegyzés hozzáadása...';
+$string['adddots'] = 'Hozzáadás...';
+$string['backtopageyouwereon'] = 'Vissza az előző oldalra';
+$string['choosedots'] = 'Választás...';
+$string['clickhelpiconformoreinfo'] = '... folytatódik ... A teljes cikk elolvasásához kattintson a súgóikonra.';
+$string['commentincontext'] = 'A megjegyzés megkeresése környezetében';
+$string['comments'] = 'Megjegyzések';
+$string['deleteablock'] = 'Blokk törlése';
+$string['deletecomment'] = 'A megjegyzés törlése';
+$string['hideshowblocks'] = 'Blokkok elrejtése vagy megjelenítése';
+$string['noblockstoaddhere'] = 'Nincs az oldalhoz hozzáadható blokk.';
+$string['pageshouldredirect'] = 'Az oldal automatikusan átirányítódik. Ha nem történik semmi, használja az alábbi Tovább gombot.';
+$string['redirect'] = 'Átirányítás';
+$string['showcomments'] = 'Megjegyzések megjelenítése/elrejtése';
+
+$string['moduleintro'] = 'Leírás';
+$string['publicsitefileswarning2'] = 'Megjegyzés: az ide kerülő állományokat bárki elérheti, aki ismeri (vagy kitalálja) az URL-t. Biztonsági okokból ajánlatos helyreállítás után törölni az összes biztonsági mentést.';
+$string['registrationinfotitle'] = 'Regisztrációra vonatkozó adatok';
+$string['restoretositeadding'] = 'Figyelmeztetés: a portál címoldalára készül helyreállítani és adatokat hozzáadni!';
+$string['restoretositedeleting'] = 'Figyelmeztetés: a portál címoldalára készül helyreállítani és onnan először adatokat törölni!';
+$string['url'] = 'URL';
 
 $string['english'] = 'Angol';
 $string['firstaccess'] = 'Első hozzáférés';

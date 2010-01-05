@@ -1,6 +1,30 @@
 <?PHP // $Id$ 
       // error.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+$string['cannotdeletefile'] = 'Az állomány nem törölhető';
+$string['cannotfindcourse'] = 'A kurzus nem található';
+$string['coursedoesnotbelongtocategory'] = 'A kurzus nem ebbe a kategóriába tartozik.';
+$string['errorfetchingrssfeed'] = 'Hiba az RSS-hír elérése közben';
+$string['filternotenabled'] = 'A szűrő nincs bekapcsolva!';
+$string['nopermissiontoviewgrades'] = 'A pontok nem láthatók.';
+$string['restorechecksumfailed'] = 'A folyamatban tárolt helyreállítási információval gondok vannak. Elenőrizze a PHP memóriájának / az adatbázis  csomagjának a méreteit. A helyreállítás leállítva.';
+$string['restrictedcontextexception'] = 'A külső függvény végrehajtása ellentétes a környezeti korlátozással.';
+$string['searchableselectorcannotbemultiple'] = 'A kereshető kiválasztó űrlapelem csak egyszeres lehet. A hívásból vegye ki a \'multiple\' attribútumot.';
+$string['unknownblockregion'] = 'Az oldalon nem ismerhető fel $a blokkrégió';
+$string['wrongusernamepassword'] = 'Hibás felhasználó/jelszó';
 
+$string['cannotaddthisblocktype'] = 'Az oldalhoz nem adhat hozzá $a blokkot.';
+$string['ddldependencyerror'] = '$a->targettype \"$a->targetname\" nem módosítható. Összefügg ezzel: $a->offendingtype \"$a->offendingname\"';
+$string['invalidrecord'] = 'A(z) $a adatbázistábla nem tartalmaz adatrekordot.';
+$string['invalidrecordunknown'] = 'Az adatbázis nem tartalmaz adatrekordot.';
+$string['modulerejectcomment'] = 'A modul nem engedi a megjegyzés hozzáadását.';
+$string['multiplerecordsfound'] = 'Több rekord fordul elő, csak egy használata lehetséges.';
+
+$string['blockdoesnotexistonpage'] = 'Ez a blokk  (id=$a->instanceid) nem létezik ezen az oldalon ($a->url).';
+$string['groupusernotmember'] = 'A felhasználó nem tagja a csoportnak.';
+$string['invalidstatedetected'] = 'Valamilyen gond támadt: $a. Általában ez nem fordulhat elő.';
+$string['sessiondiskfull'] = 'A folyamat partíciója betelt. Jelenleg nem jelentkezhet be.<br /><br />Értesítse a szerver rendszergazdáját.';
+$string['unknownjsinrequirejs'] = 'Nem található a JS $a könyvtár';
+  
 $string['authnotexisting'] = 'A hitelesítési segédprogram nem létezik.';
 $string['cannotaddmembergroupiddoesntexist'] = 'A tagcsoportot nem lehet fölvenni: nincs csoportazonosító.';
 $string['cannotcustomisefiltersblockuser'] = 'Felhasználó- és blokk-környezetben nem módosíthatja a szűrőbeállításokat.';

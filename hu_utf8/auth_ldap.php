@@ -1,40 +1,39 @@
-<?php
+<?PHP // $Id$ 
+      // auth_ldap.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
-// All of the language strings in this file should also exist in
-// auth.php to ensure compatibility in all versions of Moodle.
-
-$string['auth_ldap_ad_create_req'] = 'Az aktív könyvtárban nem hozható létre az új fiók. Ellenőrizze, teljesített-e minden ehhez szükséges követelményt (LDAPS-kapcsolat, felhasználó megfejelő jogosultságokkal való ellátása stb.)';
-$string['auth_ldap_attrcreators'] = 'Azon csoportok vagy környezetek listája, melyek tagjai létrehozhatnak új kurzusokat. A csoportokat válassza el pontosvesszővel egymástól. Általában például: \'cn=tanárok,ou=személyzet,o=szervezetem\'.';
+$string['auth_ldap_ad_create_req'] = 'Az aktív könyvtárban nem hozható létre az új fiók. Ellenőrizze, minden feltétel teljesült-e (LDAPS-csatlakozás, felhasználó megfelelő jogokkal stb.)';
+$string['auth_ldap_attrcreators'] = 'Azon csoportok vagy környezetek felsorolása, melyek tagjai attribútumokat hozhatnak létre. A csoportokat pontosvesszővel válassza el egymástól. Pl.: \'cn=teachers,ou=staff,o=myorg\'.';
 $string['auth_ldap_attrcreators_key'] = 'Attribútumok létrehozói';
-$string['auth_ldap_auth_user_create_key'] = 'Felhasználók létrehozása kívülről';
-$string['auth_ldap_bind_dn'] = 'Ha felhasználóhoz kötést (bind-user) kíván felhasználók keresésére használni, állítsa be itt. Pl.: \'cn=ldapuser,ou=public,o=org\'';
-$string['auth_ldap_bind_dn_key'] = 'Megkülönböztető név';
-$string['auth_ldap_bind_pw'] = 'A felhasználóhoz kötés jelszava';
+$string['auth_ldap_auth_user_create_key'] = 'Felhasználók külső létrehozása';
+$string['auth_ldap_bind_dn'] = 'Ha felhasználók kereséséhez felhasználó-társítást kíván használni, adja meg itt. Pl.: \'cn=ldapuser,ou=public,o=org\'.';
+$string['auth_ldap_bind_dn_key'] = 'Megkülönböztetett név';
+$string['auth_ldap_bind_pw'] = 'Társított felhasználó jelszava';
 $string['auth_ldap_bind_pw_key'] = 'Jelszó';
-$string['auth_ldap_bind_settings'] = 'A bind beállításai';
-$string['auth_ldap_changepasswordurl_key'] = 'Jelszó-módosítási URL';
-$string['auth_ldap_contexts'] = 'Környezetek listája, melyekben a felhasználók találhatók. A különböző környezeteket válassza el pontosvesszővel. Pl.: \'ou=users,o=org; ou=others,o=org\'.';
+$string['auth_ldap_bind_settings'] = 'Beállítások társítása';
+$string['auth_ldap_changepasswordurl_key'] = 'Jelszómódosító URL';
+$string['auth_ldap_contexts'] = 'A felhasználók helye szerinti környezetek. Pontosvesszővel válassza el a környezeteket. Pl.: \'ou=users,o=org; ou=others,o=org\'.';
 $string['auth_ldap_contexts_key'] = 'Környezetek';
-$string['auth_ldap_create_context'] = 'Ha engedélyezte felhasználók létrehozását e-maillel való visszaigazolással, adja meg itt azt a környezetet, amelyben a felhasználók létrejönnek. Ennek - biztonsági okokból - különböznie kell más felhasználókétól. Ezt nem kell hozzáadni az ldap_context változóhoz, a szoftver automatikusan ebben a környezetben keresi a felhasználókat. <b>Megjegyzés!</b> A felhasználók létrehozásának működéséhez módosítania kell az auth/ldap/auth.php állományban a user_create() metódust.';
-$string['auth_ldap_create_context_key'] = 'Környezet új felhasználók számára';
-$string['auth_ldap_create_error'] = 'Hiba felhasználó LDAP-ban való létrehozása közben.';
-$string['auth_ldap_creators'] = 'Azon csoportok vagy környezetek listája, amelyek tagjai létrehozhatnak kurzusokat. A csoportokat pontosvesszővel válassza el egymástól. Általában például: \'cn=tanárok,ou=személyzet,o=szervezetem\'.';
+$string['auth_ldap_create_context'] = 'Ha engedélyezi felhasználók létrehozását e-mailben való megerősítéssel, adja meg, mely környezetben jönnek létre a felhasználók. Biztonsági okokból ez a környezet térjen el a többi felhasználóétól. A környezetet nem kell hozzáadnia az ldap_context-variable változóhoz, a Moodle automatikusan ebből a környezetből keresi ki a felhasználókat.<br /><b>Vigyázat!</b> A felhasználók létrehozásához módosítania kell a user_create() metódust az auth/ldap/auth.php fájlban.
+auth_ldap_create_context';
+$string['auth_ldap_create_context_key'] = 'Új felhasználók környezete';
+$string['auth_ldap_create_error'] = 'Hiba felhasználó LDAP-ban való létrehozása közben';
+$string['auth_ldap_creators'] = 'Azon csoportok vagy környezetek felsorolása, melyek tagjai új kurzusokat hozhatnak létre. A csoportokat pontosvesszővel válassza el. Pl.: \'cn=teachers,ou=staff,o=myorg\'.';
 $string['auth_ldap_creators_key'] = 'Létrehozók';
 $string['auth_ldap_expiration_desc'] = 'A Nem kiválasztásával kapcsolhatja ki a lejárt jelszó LDAP-ellenőrzését ahhoz, hogy a jelszólejárati idő kiolvasása közvetlenül az LDAP-ból történjék.';
 $string['auth_ldap_expiration_key'] = 'Lejárat';
 $string['auth_ldap_expiration_warning_desc'] = 'A jelszó lejáratára figyelmeztetés hány nappal korábban történjék.';
 $string['auth_ldap_expiration_warning_key'] = 'Lejáratra figyelmeztetés';
 $string['auth_ldap_expireattr_desc'] = 'Opcionális: felülírja azt az ldap-attribútumot, amely a jelszólejárati időt tárolja';
-$string['auth_ldap_expireattr_key'] = 'Lejárati attribútum';
+$string['auth_ldap_expireattr_key'] = 'Lejárat attribútuma';
 $string['auth_ldap_graceattr_desc'] = 'Opcionális: felülírja a késedelmes bejelentkezés attribútumát';
 $string['auth_ldap_gracelogin_key'] = 'Késedelmes bejelentkezés attribútuma';
 $string['auth_ldap_gracelogins_desc'] = 'Az LDAP késedelmes bejelentkezési támogatásának bekapcsolása. A jelszó lejárata után a felhasználó bejelentkezhet, amíg a késedelmes bejelentkezés számlálója 0. Bekapcsolásakor a beállítás megjeleníti a lejárt bejelentkezési üzenetet, ha a jelszó lejárt.';
 $string['auth_ldap_gracelogins_key'] = 'Késedelmes bejelentkezések';
-$string['auth_ldap_groupecreators'] = 'Azon csoportok vagy környezetek listája, melyek tagjai létrehozhatnak csoportokat. A csoportokat válassza el pontosvesszővel egymástól. Általában például: \'cn=tanárok,ou=személyzet,o=szervezetem\'.';
+$string['auth_ldap_groupecreators'] = 'Azon csoportok vagy környezetek listája, melyek tagjai létrehozhatnak csoportokat. A csoportokat válassza el pontosvesszővel egymástól. Általában például: \'cn=teachers,ou=staff,o=myorg\'.';
 $string['auth_ldap_groupecreators_key'] = 'Csoportok létrehozói';
 $string['auth_ldap_host_url'] = 'LDAP-gazdagép megadása URL-szerűen, pl. \'ldap://ldap.myorg.com/\' vagy \'ldaps://ldap.myorg.com/\' formában. A hiba esetén szükséges támogatáshoz az egyes szervereket válassza el pontosvesszővel.';
 $string['auth_ldap_host_url_key'] = 'Gazdagép URL-je';
-$string['auth_ldap_ldap_encoding'] = 'Az LDAP-szerver által használt kódolás megadása. Feltehetőleg utf-8, de az MS AD v2 alapkódolásként használhatja a cp1252, cp1250 stb. kódolást.';
+$string['auth_ldap_ldap_encoding'] = 'Az LDAP-szerver által használt kódolás megadása. Feltehetőleg utf-8, de az MS AD v2 alapkódolásként használhatja pl. a cp1252, cp1250 stb. kódolást.';
 $string['auth_ldap_ldap_encoding_key'] = 'LDAP-kódolás';
 $string['auth_ldap_login_settings'] = 'Bejelentkezési beállítások';
 $string['auth_ldap_memberattribute'] = 'Opcionális: felülírja a felhasználók adott csoporthoz tartozást jellemző attribútumát. Ez általában a \'member\' [tag].';
@@ -44,24 +43,24 @@ $string['auth_ldap_memberattribute_key'] = 'Tag attribútuma';
 $string['auth_ldap_no_mbstring'] = 'Ha az aktív könyvtárban felhasználókat kíván létrehozni, az mbstring-bővítésre lesz szüksége.';
 $string['auth_ldap_noconnect'] = 'Az LDAP-modul nem tud erre a szerverre csatlakozni: $a.';
 $string['auth_ldap_noconnect_all'] = 'Az LDAP-modul nem tud semelyik szerverre csatlakozni: $a.';
-$string['auth_ldap_noextension'] = 'Figyelmeztetés: a PHP LDAP-modulja feltehetőleg nincs jelen. Telepítse és kapcsolja be.';
+$string['auth_ldap_noextension'] = 'Figyelmeztetés: a PHP LDAP-modulja feltehetőleg nem elérhető. Telepítse és kapcsolja be.';
 $string['auth_ldap_objectclass'] = 'Opcionális: felülírja az ldap_user_type-on a felhasználók elnevezésére/keresésére használt objectClass-t. Rendszerint nem szükséges módosítania.';
 $string['auth_ldap_objectclass_key'] = 'Objektumosztály';
 $string['auth_ldap_opt_deref'] = 'Meghatározza, hogy kereséskor a neveket hogyan kezelje a rendszer. A következő értékek közül választhat: \"Nem\" (LDAP_DEREF_NEVER) vagy \"Igen\" (LDAP_DEREF_ALWAYS).';
 $string['auth_ldap_opt_deref_key'] = 'Álnevek hivatkozásának megszüntetése';
-$string['auth_ldap_passtype'] = 'Az új vagy módosult jelszavak formájának megadása az LDAP-szerveren';
-$string['auth_ldap_passtype_key'] = 'Jelszóforma';
+$string['auth_ldap_passtype'] = 'Az új vagy módosult jelszavak formájának megadása az LDAP-szerveren.';
+$string['auth_ldap_passtype_key'] = 'A jelszó formája';
 $string['auth_ldap_passwdexpire_settings'] = 'Az LDAP-jelszó lejáratának beállításai';
 $string['auth_ldap_preventpassindb'] = 'Igen választása esetén a jelszavak nem kerülnek bele a Moodle adatbázisába.';
 $string['auth_ldap_preventpassindb_key'] = 'Jelszavak elrejtése';
-$string['auth_ldap_search_sub'] = 'Felhasználók keresése alkörnyezetekben';
+$string['auth_ldap_search_sub'] = 'Felhasználók keresése alkörnyezetekben.';
 $string['auth_ldap_search_sub_key'] = 'Keresés alkörnyezetekben';
 $string['auth_ldap_server_settings'] = 'Az LDAP-szerver beállításai';
-$string['auth_ldap_unsupportedusertype'] = 'az auth: ldap user_create() nem támogatja a kiválasztott felhasználótípust: $a (..még).';
-$string['auth_ldap_update_userinfo'] = 'Felhasználói adatok (keresztnév, vezetéknév, cím...) frissítése LDAP-ból a Moodle-ba. Az adatillesztési beállításokat igény szerint módosítsa.';
+$string['auth_ldap_unsupportedusertype'] = 'az auth: ldap user_create() nem támogatja a kiválasztott felhasználótípust: $a (...még).';
+$string['auth_ldap_update_userinfo'] = 'Felhasználói adatok (keresztnév, vezetéknév, cím...) frissítése az LDAP-ból a Moodle-ba. Az adatillesztési beállításokat módosítsa igény szerint.';
 $string['auth_ldap_user_attribute'] = 'Opcionális: felülírja a felhasználók elnevezésére/keresésére használt attribútumot. Rendszerint \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Felhasználói attribútum';
-$string['auth_ldap_user_exists'] = 'Az LDAP felhasználói név már létezik.';
+$string['auth_ldap_user_exists'] = 'Ez az LDAP felhasználói név már létezik.';
 $string['auth_ldap_user_settings'] = 'Felhasználók keresési beállításai';
 $string['auth_ldap_user_type'] = 'Válassza ki a felhasználók eltárolásának módját az LDAP-ben. Ugyancsak ezzel állítható be a bejelentkezések lejáratának, a késedelmes bejelentkezéseknek és a felhasználók létrehozásának a mikéntje.';
 $string['auth_ldap_user_type_key'] = 'Felhasználó típusa';
@@ -74,12 +73,14 @@ $string['auth_ldapextrafields'] = 'Ezek a mezők nem kötelezőek. Néhány felh
 $string['auth_ldapnotinstalled'] = 'Nem használható az LDAP-hitelesítés. A PHP LDAP-modulja nincs telepítve.';
 $string['auth_ldaptitle'] = 'LDAP-szerver';
 $string['auth_ntlmsso'] = 'NTLM SSO';
-$string['auth_ntlmsso_enabled'] = 'Állítsa igenre és próbálja meg az egyszeres bejelentkezést az NTLM-doménen. <strong>Figyelem:</strong> ehhez további beállítás szükséges a webszerveren, lásd: <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
+$string['auth_ntlmsso_enabled'] = 'Állítsa igenre és próbálja meg az egyszeres bejelentkezést az NTLM-doménen. <strong>Figyelem:</strong> ehhez további beállítás szükséges a webszerveren, lásd: <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>.';
 $string['auth_ntlmsso_enabled_key'] = 'Bekapcsolás';
 $string['auth_ntlmsso_ie_fastpath'] = 'Az NTLM SSO gyors útvonal bekapcsolásához állítsa Igen-re (kihagy egyes lépéseket és csak MS Internet Explorer esetén lép működésbe).';
 $string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE gyors útvonal?';
-$string['auth_ntlmsso_subnet'] = 'Beállítása esetén az SSO-val való próbálkozást csak ezen alhálózat kliensgépeivel hajtja végre. Formája: xxx.xxx.xxx.xxx/bitmask';
+$string['auth_ntlmsso_subnet'] = 'Beállítása esetén az SSO-val való próbálkozást csak ezen alhálózat kliensgépeivel hajtja végre. Formája: xxx.xxx.xxx.xxx/bitmask.';
 $string['auth_ntlmsso_subnet_key'] = 'Alhálózat';
-$string['ntlmsso_attempting'] = 'Egyszeres bejelentkezés megpróbálása az NTLM-en...';
+$string['ntlmsso_attempting'] = 'Egyszeres bejelentkezés megpróbálása NTLM-en keresztül...';
 $string['ntlmsso_failed'] = 'Az automatikus bejelentkezés nem sikerült, próbálkozzék a szokásos bejelentkezési oldallal...';
 $string['ntlmsso_isdisabled'] = 'Az NTLM SSO ki van kapcsolva.';
+
+?>

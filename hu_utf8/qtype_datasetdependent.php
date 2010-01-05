@@ -1,6 +1,10 @@
 <?PHP // $Id$ 
       // qtype_datasetdependent.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['hexanotallowed'] = 'A <strong>{$a->name}</strong> hexadecimális $a->value értékformájú adatkészlet használata nem engedélyezett';
+$string['nocommaallowed'] = 'Vesszőt nem használhat, használjon pontot, mint a 0.013 vagy a 1.3e-2 esetén';
+$string['notvalidnumber'] = 'A helyettesítő karakter értéke érvénytelen szám.';
+
 $string['answerstoleranceparam'] = 'Válasz toleranciaparaméterei';
 $string['oneanswertrueansweroutsidelimits'] = 'Legalább egy helyes válasz kívül esik az igaz értékhatáron.<br />Módosítsa a választolerancia beállításait, melyek További paraméterekkként érhetők el.';
 $string['updatetolerancesparam'] = 'Válasz toleranciaparamétereinek frissítése';

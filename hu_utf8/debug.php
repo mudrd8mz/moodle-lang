@@ -1,6 +1,6 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['invalidparameter'] = 'Érvénytelen paraméterérték, a végrehajtás leáll.';
 $string['codingerror'] = 'Kódolási hiba történt, melyet programozónak kell kijavítania: $a.';
 
 $string['authpluginnotfound'] = 'Nem található a(z) $a hitelesítési segédprogram.';

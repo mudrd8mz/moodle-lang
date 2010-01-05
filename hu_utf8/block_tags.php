@@ -1,7 +1,7 @@
 <?PHP // $Id$ 
       // block_tags.php - created with Moodle 1.9.2+ (Build: 20080730) (2007101520.03)
-      // local modifications from http://127.1.1.0
 
+$string['disabledtags'] = 'A címkék ki vannak kapcsolva';
 
 $string['add'] = 'Hozzáadás';
 $string['alltags'] = 'Minden címke';

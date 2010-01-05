@@ -1,5 +1,11 @@
 <?PHP // $Id$ 
       // assignment.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+$string['assignmentadministration'] = 'Feladat kezelése';
+$string['maxpublishstate'] = 'Blogüzenet maximális láthatósága leadási idő előtt';
+$string['noblogs'] = 'Nincs beküldendő blogüzenete!';
+$string['selectblog'] = 'Válassza ki a beküldendő blogüzenetet.';
+$string['typeblog'] = 'Blogüzenet';
+$string['viewmysubmission'] = 'Beküldött anyagaim megtekintése';
 
 $string['invaliduserid'] = 'Érvénytelen felhasználói azonosító';
 
@@ -56,7 +62,7 @@ $string['guestnosubmit'] = 'Vendégek nem adhatnak le feladatokat. A válasz lea
 $string['guestnoupload'] = 'Vendégek nem tölthetnek fel állományokat.';
 $string['helpoffline'] = '<p>Ez akkor hasznos, amikor a feladat végrehajtása a Moodle-on kívül történik. Erre sor kerülhet valahol máshol a weben, illetve tantermi órán.</p><p>A tanulók látják a feladat leírását, de nem tudnak állományokat feltölteni. A pontozás a szokásos módon történik, a tanulók pontjaikról értesítést kapnak.</p>';
 $string['helponline'] = '<p>Ezen feladattípus esetén a felhasználók szokásos szerkesztőjükkel szerkesztenek szöveget. A tanárok online pontozhatnak, sőt, sorközi megjegyzéseket tehetnek, illetve módosíthatják a szöveget. (A Moodle régebbi változataiban ez a feladattípus a régi naplómodullal volt azonos.)</p>';
-$string['helpupload'] = '<p>Ezen feladattípus esetén minden résztvevő tetszőleges formátumú és számú állományt feltölthet. Ezek lehetnek Word-dokumentumok, képek, tömörített weboldalak, bármi, amit le szeretne adatni velük. Emellett több viszontválasz is feltölthető. A válaszfájlokat leadás előtt is fel lehet tölteni, így megoldható, hogy az egyes résztvevők más-más állományon dolgozzanak. A résztvevők megjegyzéseket írhatnak a leadott állományokhoz, az előrehaladáshoz, illetve tetszőleges szöveget fűzhetnek hozzájuk. Az ilyen feladatok leadását a résztvevőknek kézzel kell befejezni. A pillanatnyi állapotot bármikor megtekintheti, a befejezetlen feladatok Piszkozat jelölést kapnak. A pontozatlan feladat sosem állítható vissza piszkozati állapotba.</p>';
+$string['helpupload'] = '<p>Ezen feladattípus esetén minden résztvevő tetszőleges formátumú és számú állományt feltölthet. Ezek lehetnek Word-dokumentumok, képek, tömörített weboldalak, bármi, amit le szeretne adatni velük. Emellett több tanuló által adott válasz is feltölthető. A válaszfájlokat leadás előtt is fel lehet tölteni, így megoldható, hogy az egyes résztvevők más-más állományon dolgozzanak. A résztvevők megjegyzéseket írhatnak a leadott állományokhoz, az előrehaladáshoz, illetve tetszőleges szöveget fűzhetnek hozzájuk. Az ilyen feladatok leadását a résztvevőknek kézzel kell befejezni. A pillanatnyi állapotot bármikor megtekintheti, a befejezetlen feladatok Piszkozat jelölést kapnak. A pontozatlan feladat sosem állítható vissza piszkozati állapotba.</p>';
 $string['helpuploadsingle'] = '<p>Ezen feladattípus esetén a résztvevők egyetlen, tetszőleges típusú állományt tölthetnek fel. Ez lehet egy Word-állomány, egy kép, egy tömörített honlap, bármi, amit a tanár előír.</p>';
 $string['hideintro'] = 'Leírás elrejtése az elérhetőség időpontjáig';
 $string['itemstocount'] = 'Szám';
@@ -86,7 +92,7 @@ $string['overwritewarning'] = 'Vigyázat: az újrafeltöltés FELÜLÍRJA a most
 $string['pagesize'] = 'Oldalanként látható leadott munkák száma';
 $string['preventlate'] = 'Kései leadások megakadályozása';
 $string['quickgrade'] = 'Gyors pontozás engedélyezése';
-$string['responsefiles'] = 'Viszontválaszok állományai';
+$string['responsefiles'] = 'Tanulók által adott válaszok állományai';
 $string['reviewed'] = 'Ellenőrizve';
 $string['saveallfeedback'] = 'Minden visszajelzésem mentése';
 $string['sendformarking'] = 'Beküldés értékelésre';

@@ -1,6 +1,40 @@
 <?PHP // $Id$ 
       // resource.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['clicktodownload'] = 'Az állomány letöltéséhez kattintson az alábbi ugrópontra: $a.';
+$string['clicktoopen2'] = 'Az állomány megtekintéséhez kattintson az alábbi ugrópontra: $a.';
+$string['configdisplayoptions'] = 'Válassza ki az elérendő opciókat; a létező beállítások nem módosulnak. Több mező kiválasztásához nyomja le a CTRL-billentyűt.';
+$string['contentheader'] = 'Tartalom';
+$string['displayauto'] = 'Automatikus';
+$string['displaydownload'] = 'Letöltés előírása';
+$string['displayembed'] = 'Beágyazás';
+$string['displayframe'] = 'Keretben';
+$string['displaynew'] = 'Új ablak';
+$string['displayopen'] = 'Megnyitás';
+$string['displayoptions'] = 'Elérhető megjelenítési lehetőségek';
+$string['displaypopup'] = 'Előbukkanó ablakban';
+$string['displayselect'] = 'Megjelenítés';
+$string['displayselectexplain'] = 'Válassza ki a megjelenítés típusát. Nem minden típus használható minden állománnyal.';
+$string['filenotfound'] = 'Nincs meg az állomány.';
+$string['filterfiles'] = 'Az állomány tartalmához használjon szűrőt.';
+$string['filterfilesexplain'] = 'Válassza ki az állománytartalom szűrőjének típusát. Ügyeljen arra, hogy ez egyes Flash és Java minialkalmazásoknál gondot okozhat. Minden szöveges állományt UTF8 kódolásban rögzítsen.';
+$string['foldercontent'] = 'Állományok és almappák';
+$string['legacyfiles'] = 'Régi kurzusállományok áttelepítése';
+$string['legacyfilesactive'] = 'Aktív';
+$string['legacyfilesdone'] = 'Kész';
+$string['notmigrated'] = 'Ezen korábbi forrástípus ($a) áttelepítése még nem történt meg.';
+$string['optionsheader'] = 'Lehetőségek';
+$string['popupheight'] = 'Felugró ablak magassága (képpontban)';
+$string['popupheightexplain'] = 'A felugró ablakok alapmagasságát határozza meg.';
+$string['popupwidth'] = 'Felugró ablak szélessége (képpontban)';
+$string['popupwidthexplain'] = 'A felugró ablakok alapszélességét határozza meg.';
+$string['printheading'] = 'Forrás nevének megjelenítése';
+$string['printheadingexplain'] = 'A forrás neve a tartalom fölött jelenjen meg? Egyes megjelenítési típusok esetén a forrás neve akkor sem jelenik meg, ha be van kapcsolva.';
+$string['printintro'] = 'Forrásleírás megjelenítése';
+$string['printintroexplain'] = 'A forrás leírása a tartalom alatt jelenjen meg? Egyes megjelenítési típusok esetén a forrás neve akkor sem jelenik meg, ha be van kapcsolva.';
+$string['resourcecontent'] = 'Állományok és almappák';
+$string['setmainfile'] = 'Fő állomány beállítása';
+
 $string['keepnavigationvisibleno'] = 'Nem';
 $string['keepnavigationvisibleyesframe'] = 'Igen, kerettel';
 $string['keepnavigationvisibleyesobject'] = 'Igen, keret nélkül';

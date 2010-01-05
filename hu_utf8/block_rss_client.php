@@ -1,5 +1,13 @@
 <?PHP // $Id$ 
       // block_rss_client.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+$string['addnewfeed'] = 'Új hír hozzáadása';
+$string['disabledrssfeeds'] = 'RSS-hírek kikapcsolva';
+$string['editafeed'] = 'Hír szerkesztése';
+$string['enableautodiscovery'] = 'Az automatikus hírkeresést bekapcsolja?';
+$string['errorloadingfeed'] = 'Hiba az RSS-hír ($a) betöltése közben';
+$string['feedsconfigurenewinstance2'] = 'Az RSS-hírek megjelenítéséhez a blokkot be kell állítania: szerkesztéséhez kattintson a felette lévő ikonra';
+$string['feedurl'] = 'Hír URL-je';
+$string['viewfeed'] = 'Hír megtekintése';
 
 $string['cannotmakemodification'] = 'Most ezt az RSS-hírt nem módosíthatja.';
 

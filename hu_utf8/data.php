@@ -1,6 +1,12 @@
 <?PHP // $Id$ 
       // data.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['dataadministration'] = 'Adatbázis-tevékenység kezelése';
+$string['notapproved'] = 'A bejegyzés még nincs jóváhagyva.';
+	  
+$string['invalidrate'] = 'Érvénytelen adatbázisérték ($a)';
+	  
+	  
 $string['csvfailed'] = 'A CSV-állományból nem sikerül kiolvasni a nyers adatokat.';
 $string['fieldnotmatched'] = 'Állományának alábbi mezői nem szerepelnek az adatbázisban: $a';
 

@@ -1,6 +1,5 @@
 <?PHP // $Id$ 
-      // dbtransfer.php - created with Moodle 1.9.2+ (Build: 20080723) (2007101520)
-      // local modifications from http://localhost
+
 
 $string['checkingsourcetables'] = 'Forrástábla szerkezetének ellenőrzése';
 $string['copyingtable'] = '$a tábla másolása';

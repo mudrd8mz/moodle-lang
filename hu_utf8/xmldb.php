@@ -1,7 +1,25 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+	  
+$string['edit_field_save'] = 'Mező mentése';
+$string['edit_index_save'] = 'Index mentése';
+$string['edit_key_save'] = 'Kulcs mentése';
+$string['edit_sentence_save'] = 'Mondat mentése';
+$string['edit_table_save'] = 'Táblázat mentése';
+$string['fieldsnotintable'] = 'A táblázatban nem szerepel a mező';
+
+$string['docindex'] = 'Dokumentációs index:';
+$string['documentationintro'] = 'A dokumentáció az XMLDB-adatbázis definíciójából automatikusan áll elő. Csak angol nyelven érhető el.';
+$string['float2numbernote'] = 'Megjegyzés: noha az XMLDB 100%%-ban támogatja a \"lebegőszámos\" mezőket, ajánlatos áttérni a \"számjegyes\" mezőkre.';
+$string['generate_all_documentation'] = 'Az összes dokumentáció';
+$string['masterprimaryuniqueordernomatch'] = 'Az idegen kulcsok mezőit ugyanabban a sorrendben kell felsorolni, mint a hivatkozott táblában szereplő UNIQUE KEY.';
+$string['nomasterprimaryuniquefound'] = 'Az idegen kulcsok által hivatkozott oszlopo(ka)t a hivatkozott táblában szereplő elsődleges vagy egyedi kulcsnak tartalmaznia kell. Az, hogy az oszlop egyedi indexben szerepel, nem elegendő.';
+$string['pendingchanges'] = 'Megjegyzés: módosította az állományt. Jelenleg nem menthető el.';
+$string['pendingchangescannotbesaved'] = 'Módosította ugyan az állományt, de nem menthető el. Ellenőrizze, hogy a webszerver számára a könyvtár és benne az \"install.xml\" írható-e.';
+$string['pendingchangescannotbesavedreload'] = 'Módosította ugyan az állományt, de nem menthető el. Ellenőrizze, hogy a webszerver számára a könyvtár és benne az \"install.xml\" írható-e. Ezután töltse be újra az oldalt és mentse el a módosításokat.';
+$string['viewxml'] = 'XML';
 $string['doc'] = 'Dokumentum';
+
 $string['extensionrequired'] = 'Ehhez  \'$a\' PHP-kibővítésre van szükség. Telepítse, ha használni kívánja.';
 $string['generate_documentation'] = 'Dokumentáció';
 

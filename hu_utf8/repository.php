@@ -1,6 +1,40 @@
 <?PHP // $Id$ 
       // repository.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+$string['cannotdownloaddir'] = 'A mappa nem tölthető le.';
+$string['choosealink'] = 'Válasszon ugrópontot...';
+$string['configuseexternallink'] = 'A külső ugrópontot külső állományok letöltése helyett állományválasztóhoz kapcsolja';
+$string['createfolderfail'] = 'A mappa létrehozása nem sikerült.';
+$string['createfoldersuccess'] = 'A mappa létrehozása sikerült.';
+$string['downloadfolder'] = 'Mappa letöltése';
+$string['entername'] = 'Adja meg a mappa nevét.';
+$string['enternewname'] = 'Adja meg az új állomány nevét.';
+$string['nomorefiles'] = 'Több állományt nem csatolhat.';
+$string['nopathselected'] = 'Nincs kiválasztva célútvonal (a fa csomópontjára kattintva válassza ki).';
+$string['popupblockeddownload'] = 'A letöltési ablakok blokkolva vannak. Engedélyezze a felugró ablakot és próbálkozzék ismét.';
+$string['useexternallink'] = 'Az állományok letöltése helyett használjon külső ugrópontot.';
+$string['ziped'] = 'A mappa tömörítése sikerült.';
+	  
+$string['emptylist'] = 'Üres eredmény';
+
+$string['accessiblefilepicker'] = 'Elérhető fájlválasztó';
+$string['addfile'] = 'Hozzáadás...';
+$string['attachedfiles'] = 'Csatolt állományok';
+$string['cannotaccessparentwin'] = 'Ha a szülőablak HTTPS-en keresztül érhető el, akkor a window.opener objektum nem elérhető, így adattárát nem lehet automatikusan frissíteni, de a folyamat már elkezdődött. Térjen vissza a fájlválasztáshoz és ismételten válassza ki az adattárat, a dolog működni fog.';
+$string['cannotdelete'] = 'Az állomány nem törölhető.';
+$string['cannotdownload'] = 'Az állomány nem tölthető le.';
+$string['enter'] = 'Belépés';
+$string['instancesforadmin'] = 'közös példány(ok)';
+$string['instancesforothers'] = 'magánpéldány(ok)';
+$string['nofilesattached'] = 'Nincs csatolva állomány';
+$string['openpicker'] = 'Állományválasztó megnyitása';
+$string['pluginerror'] = 'Hibák vanna az adattár-segédprogramban.';
+$string['refreshnonjsfilepicker'] = 'Zárja be az ablakot és frissítse a nem javascript fáljválasztót.';
+$string['select'] = 'Kiválasztás';
+$string['uploadsucc'] = 'Az állomány feltöltése sikerült.';
+$string['xhtmlerror'] = 'Valószínűleg szigorú fejlécű XHTML-t használ. Ebben az üzemmódban egyes YUI-alkotóelemek nem működnek, ezért Moodle-ban kapcsolja ki.';
+	  
+	  
 $string['createxxinstance'] = '\"$a\" előfordulás létrehozása';
 
 $string['cannotinitplugin'] = 'A plugin_init meghívása nem sikerült.';

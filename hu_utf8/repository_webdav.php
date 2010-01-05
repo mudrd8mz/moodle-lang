@@ -1,7 +1,11 @@
 <?PHP // $Id$ 
       // repository_webdav.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
-      // local modifications from http://127.1.0.1
+$string['webdav:view'] = 'WebDAV-adattár megtekintése';
 
+$string['configplugin'] = 'WebDAV-beállítás';
+$string['http'] = 'HTTP';
+$string['https'] = 'HTTPS';
+$string['webdav_type'] = 'A WebDAV típusa';
 
 $string['repositoryname'] = 'WebDAV-adattár';
 $string['webdav_password'] = 'WebDAV-szerver jelszava';

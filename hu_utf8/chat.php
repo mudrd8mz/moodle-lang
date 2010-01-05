@@ -1,6 +1,11 @@
 <?PHP // $Id$ 
       // chat.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+$string['chatadministration'] = 'Csevegés kezelése';
+$string['messageyoubeep'] = '$a csengetett';
+$string['talk'] = 'Beszéljen';
+
+	  
 $string['notallowenter'] = 'Nem léphet be a csevegőszobába!';
 	  
 $string['chat:talk'] = 'Beszélgetés csevegéssel';

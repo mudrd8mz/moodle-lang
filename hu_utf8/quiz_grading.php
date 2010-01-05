@@ -18,7 +18,7 @@ $string['gradinguser'] = '$a próbálkozásai';
 $string['gradingall'] = 'Az összes $a próbálkozás ezzel a kérdéssel';
 $string['gradingattempt'] = '$a->attempt számú próbálkozás $a->fullname esetén.';
 $string['gradingnextungraded'] = 'A következő $a pontozatlan próbálkozás';
-$string['gradingnotallowed'] = 'Nincs engedélye ezen teszt viszontválaszainak kézi pontozására';
+$string['gradingnotallowed'] = 'Nincs engedélye ezen teszt tanulók által adott válaszainak kézi pontozására';
 $string['gradingungraded'] = '$a pontozatlan próbálkozás';
 $string['questiontitle'] = '$a->number számú kérdés: \"$a->name\" ({$a->openspan}$a->gradedattempts{$a->closespan} / $a->totalattempts próbálkozás {$a->openspan}pontozva{$a->closespan}).';
 

@@ -1,6 +1,16 @@
 <?PHP // $Id$ 
       // grades.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['gradesforuser'] = '$a->user pontjai';
+$string['scaleconfirmdelete'] = 'Biztosan törli \"$a\" skáláját?';
+	  
+$string['cannotaccessgroup'] = 'A kiválasztott csoport pontjai nem érhetők el.';
+$string['errorsavegrade'] = 'A pontot nem lehetett elmenteni.';
+$string['incorrectcustomscale'] = '(Hibás egyéni tartomány, módosítsa.)';
+$string['selectauser'] = 'Válasszon ki egy felhasználót';
+$string['warningexcludedsum'] = 'Figyelmeztetés: a pontok kizárása nem egyeztethető össze az összesítéssel.';
+
+
 $string['aggregationsvisible'] = 'Használható összegzési típusok';
 $string['aggregationsvisiblehelp'] = 'Válassza ki az összes használandó összegzési típust. Több elem kiválasztásához nyomja le a Ctrl-billentyűt.';
 $string['categorytotalfull'] = '$a->category összesen';

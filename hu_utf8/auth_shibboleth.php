@@ -1,15 +1,14 @@
-<?php
+<?PHP // $Id$ 
+      // auth_shibboleth.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
-// All of the language strings in this file should also exist in
-// auth.php to ensure compatibility in all versions of Moodle.
 
 $string['auth_shib_auth_method'] = 'A hitelesítési módszer neve';
 $string['auth_shib_auth_method_description'] = 'Adjon meg egy nevet a felhasználói által ismert Shibboleth hitelesítési módszerhez. Ez lehet pl. a Shibboleth-föderáció neve, pl. <tt>SWITCHaai Login</tt>, <tt>InCommon Login</tt> vagy ehhez hasonló.';
-$string['auth_shib_changepasswordurl'] = 'Jelszó-módosítási URL';
-$string['auth_shib_convert_data'] = 'Adatmódosítási interfész';
-$string['auth_shib_convert_data_description'] = 'Ezzel az interfésszel tovább módosíthatja a Shibboleth adatait. További utasítások a  <a href=\"../auth/shibboleth/README.txt\">README</a> alatt találhatók.';
+$string['auth_shib_changepasswordurl'] = 'Jelszómódosító URL';
+$string['auth_shib_convert_data'] = 'Adatmódosítási felület';
+$string['auth_shib_convert_data_description'] = 'Ezen a felületen tovább módosíthatja a Shibboleth adatait. További utasítások a  <a href=\"../auth/shibboleth/README.txt\">README</a> alatt találhatók.';
 $string['auth_shib_convert_data_warning'] = 'Az állomány nem létezik, vagy a webszerver nem tudja olvasni!';
-$string['auth_shib_idp_list'] = 'Azonosítási szolgáltató';
+$string['auth_shib_idp_list'] = 'Azonosítási szolgáltatók';
 $string['auth_shib_idp_list_description'] = 'Azonosítási szolgáltatók entityID-inek listája, melyekből a felhasználók a bejelentkezési oldalon választhatnak.<br />Minden soron az IdP entityID-je (l. a Shibboleth metaadat-állományát) és az IdP lenyíló listán megjelenítendő nevének vesszővel elválasztott felsorolása látható.<br />Választható harmadik paraméterként hozzáadhatja a Shibboleth folyamatkezdeményezőjének a helyét, amely a több föderációs Moodle-telepítés részét képezi.';
 $string['auth_shib_instructions'] = 'Használja a <a href=\"$a\">Shibboleth-bejelentkezést</a> a Shibboleth-en keresztüli hozzáféréshez, ha az adott intézmény ezt támogatja.<br />Egyéb esetben használja az itt megjelenő szokásos bejelentkezést.';
 $string['auth_shib_instructions_help'] = 'Itt kell megadnia a Shibboleth használatával kapcsolatos utasításokat felhasználói számára. Ez a  bejelentkező oldalon az utasításokat tartalmazó részben jelenik meg. Az utasításoknak \"<b>$a</b>\" ugrópontot kell tartalmazni, hogy a felhasználók bejelentkezéskor rákattinthassanak.';
@@ -23,7 +22,7 @@ $string['auth_shib_no_organizations_warning'] = 'Ha az integrált WAYF-szolgált
 $string['auth_shib_only'] = 'Csak Shibboleth';
 $string['auth_shib_only_description'] = 'Jelölje be ezt a lehetőséget, ha Shibboleth-hitelesítést kell használni.';
 $string['auth_shib_username_description'] = 'A webszerver azon Shibboleth környezeti változójának a neve, amelyet Moodle-felhasználónévként fog használni.';
-$string['auth_shibboleth_contact_administrator'] = 'Ha nem kötődik a megadott szervezetek egyikéhez sem és a szerveren valamely kurzushoz szeretne hozzáférni, forduljon a(z):';
+$string['auth_shibboleth_contact_administrator'] = 'Ha nem kötődik a megadott szervezetek egyikéhez sem és a szerveren valamely kurzushoz szeretne hozzáférni, forduljon ide:';
 $string['auth_shibboleth_errormsg'] = 'Válassza ki, melyik szervezetnek a tagja!';
 $string['auth_shibboleth_login'] = 'Bejelentkezés Shibboleth-tel';
 $string['auth_shibboleth_login_long'] = 'Bejelentkezés a Moodle-ba Shibboleth-tel';
@@ -35,3 +34,5 @@ $string['auth_shibbolethtitle'] = 'Shibboleth';
 $string['shib_no_attributes_error'] = 'Úgy tűnik, rendelkezik Shibboleth-jogosultsággal, de a Moodle nem kapott semmilyen felhasználói attribútumot. Ellenőrizze, hogy az azonosítási szolgáltatója átadja-e a Moodle szolgáltatója részére a szükséges attribútumokat ($a), vagy értesítse a szerver webmesterét.';
 $string['shib_not_all_attributes_error'] = 'A Moodle-nak a Shibboleth néhány attribútumára van szüksége, melyek az Ön esetében hiányoznak. Ezek a következők: $a <br />Értesítse a szerver webmesterét vagy ay azonosítási szolgáltatóját.';
 $string['shib_not_set_up_error'] = 'A Shibboleth jogosultsága nincs megfelelően beállítva, mert az oldalhoz nincsenek meg a Shibboleth környezeti változói. A Shibboleth-jogosultsággal kapcsolatosan olvassa el a <a href=\"README.txt\">README</a> állományt vagy értesítse a Moodle ezen telepítésének webmesterét.';
+
+?>
