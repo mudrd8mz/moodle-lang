@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
+      // blog.php - created with Moodle 2.0 dev (Build: 20100106) (2010010502)
 
 
 $string['addnewentry'] = '新しいエントリを追加する';
@@ -54,21 +54,21 @@ $string['externalblogcrontime'] = '外部ブログのcronスケジュール';
 $string['externalblogs'] = '外部ブログ';
 $string['groupblog'] = 'グループブログ: $a';
 $string['groupblogdisable'] = 'グループブログは有効にされていません。';
-$string['groupblogs'] = 'ユーザはグループを共有しているユーザのブログのみ読むことができる';
+$string['groupblogs'] = 'ユーザはグループを共有しているユーザのブログのみ閲覧することができる';
 $string['incorrectblogfilter'] = '正しくないブログフィルタタイプが指定されました。';
 $string['intro'] = 'このRSSフィードは、1つまたはそれ以上のブログから自動生成されました。';
 $string['linktooriginalentry'] = 'オリジナルのブログエントリにリンクする';
 $string['maxexternalblogsperuser'] = 'ユーザあたりの外部ブログ最大数';
 $string['noentriesyet'] = '表示できるエントリはありません。';
 $string['noguestpost'] = 'ゲストはブログを投稿できません!';
-$string['norighttodeletetag'] = 'あなたはこのタグ ($a) を削除できません。';
+$string['norighttodeletetag'] = 'あなたは、このタグ ($a) を削除できません。';
 $string['nosuchentry'] = 'そのようなブログエントリはありません。';
-$string['notallowedtoedit'] = 'あなたはこのエントリを編集できません。';
+$string['notallowedtoedit'] = 'あなたは、このエントリを編集できません。';
 $string['numberofentries'] = 'エントリ: $a';
 $string['numberoftags'] = '表示するタグ数';
 $string['pagesize'] = '1ページあたりのブログエントリ数';
 $string['permalink'] = 'パーマリンク';
-$string['personalblogs'] = 'ユーザは自分のブログのみ読むことができる';
+$string['personalblogs'] = 'ユーザは、自分のブログのみ閲覧できる';
 $string['preferences'] = 'プリファレンス';
 $string['publishto'] = '公開先:';
 $string['publishtocourse'] = 'あなたとコースを共有しているユーザ';
@@ -80,8 +80,8 @@ $string['publishtoworld'] = '世界中の誰でも閲覧可';
 $string['searchterm'] = '検索: $a';
 $string['settingsupdatederror'] = 'エラーが発生したため、ブログ設定は更新されませんでした。';
 $string['siteblog'] = 'サイトブログ: $a';
-$string['siteblogdisable'] = 'サイトブログは有効にされていません。';
-$string['siteblogs'] = 'すべてのサイトユーザはすべてのブログを読むことができる';
+$string['siteblogdisable'] = 'サイトブログは、有効にされていません。';
+$string['siteblogs'] = 'すべてのサイトユーザは、すべてのブログを読むことができる';
 $string['tagdatelastused'] = '最後に使用された日付タグ';
 $string['tagparam'] = 'タグ: $a';
 $string['tags'] = 'タグ';

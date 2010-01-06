@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tags.php - created with Moodle 2.0 dev (Build: 20080630) (2008063002)
+      // block_tags.php - created with Moodle 2.0 dev (Build: 20100106) (2010010502)
 
 
 $string['add'] = '追加';
@@ -15,7 +15,7 @@ $string['coursetags1'] = 'コースタグ';
 $string['coursetags2'] = 'このコースのタグを表示する';
 $string['edit'] = '編集 ...';
 $string['editdeletemytag'] = 'このコースからタグを削除する:';
-$string['editmytags'] = 'マイタグ - あなたのタグ付けされた、すべてのコースへのショートカットです。';
+$string['editmytags'] = 'マイタグ - タグ付けされた、あなたのコースすべてへのショートカットです。';
 $string['editmytagsfor'] = '$a のマイタグを編集する';
 $string['editnopersonaltags'] = 'まだ、パーソナルタグは作成されていません。';
 $string['edittags'] = 'マイタグを編集する ...';
@@ -25,7 +25,7 @@ $string['edittitle'] = 'マイタグ';
 $string['entries'] = 'エントリ';
 $string['entry'] = 'エントリ';
 $string['jserror1'] = 'タグは、半角1文字以上50文字以下にしてください。あなたのタグを修正してください。';
-$string['jserror2'] = 'タグは、これらの特殊文字を含むことができません - バックスラッシュ、大なり記号、小なり記号。あなたのタグを修正してください。';
+$string['jserror2'] = 'タグは、これらの特殊文字を含むことができません - バックスラッシュ 、大なり記号、小なり記号。あなたのタグを修正してください。';
 $string['login'] = 'ログイン';
 $string['more'] = '詳細 ...';
 $string['moreorder'] = '並び替え順:';
