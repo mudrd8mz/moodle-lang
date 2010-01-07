@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 2.0 dev (Build: 20080504) (2008050200)
+      // calendar.php - created with Moodle 2.0 dev (Build: 20100106) (2010010601)
 
 
 $string['advancedoptions'] = '高度なオプション';
@@ -24,10 +24,10 @@ $string['durationminutes'] = '期間 (分)';
 $string['durationnone'] = '期間なし';
 $string['durationuntil'] = '終了日:';
 $string['editevent'] = 'イベントの編集';
-$string['errorbeforecoursestart'] = 'コースの開始日以前にはイベントを登録できません';
-$string['errorinvaliddate'] = '日付に間違いがあります';
+$string['errorbeforecoursestart'] = 'コースの開始日以前にイベントを登録できません';
+$string['errorinvaliddate'] = '日付が正しくありません';
 $string['errorinvalidminutes'] = '期間 (分) を1から999の間で指定してください。';
-$string['errorinvalidrepeats'] = 'イベント数を1から999の間で指定してください。';
+$string['errorinvalidrepeats'] = 'イベント数を1から99の間で指定してください。';
 $string['errornodescription'] = '説明を入力してください';
 $string['errornoeventname'] = '名称を入力してください';
 $string['eventdate'] = '日付';
@@ -47,11 +47,11 @@ $string['eventstarttime'] = '開始日時';
 $string['eventtime'] = '時間';
 $string['eventview'] = 'イベント詳細';
 $string['expired'] = '期間終了';
-$string['explain_lookahead'] = 'ここでは、イベントが直近のイベントとして表示されるための最大日数を設定します。この範囲より後に開催されるイベントは、直近イベントとして表示されません。すべてのイベントがこのスケジュールどおりに開始されることは<strong>保証されません</strong>。数多く (「直近イベントの最大表示件数」以上) のイベントが登録されている場合、時間が遅いイベントは表示されません。';
+$string['explain_lookahead'] = 'ここでは、イベントが直近のイベントとして表示されるための最大日数を設定します。この範囲より後に開催されるイベントは、直近イベントとして表示されません。すべてのイベントがこのスケジュールどおりに開始されることは<strong>保証されません</strong>。多数 (「直近イベントの最大表示件数」以上) のイベントが登録されている場合、時間が遅いイベントは表示されません。';
 $string['explain_maxevents'] = 'ここでは、直近イベントの最大表示件数を設定します。ここで大きな数を設定した場合、直近のイベントを大量に表示するための画面スペースが必要になります。';
-$string['explain_persistflt'] = 'この設定を行った場合、Moodleはあなたの最新のイベントフィルタ設定を記憶します。また、あなたがログインするたびに最新のイベントを自動的に表示します。';
-$string['explain_site_timeformat'] = 'あなたは、12時間表示または24時間表示を時間の表示方法として選択することができます。「デフォルト」を選択した場合、使用言語に合わせてフォーマットが自動的に選択されます。この設定は、ユーザ設定によりオーバーライドすることができます。';
-$string['explain_startwday'] = 'ここでは、すべての月間カレンダーの表示方法を設定します。あなたが慣れ親しんだ表示になるよう設定してください。';
+$string['explain_persistflt'] = 'この設定を有効にした場合、Moodleはあなたの最新のイベントフィルタ設定を記憶します。また、あなたがログインするたびに、最新のイベントを自動的に表示します。';
+$string['explain_site_timeformat'] = 'あなたは、12時間表示または24時間表示を時間の表示方法として選択することができます。「デフォルト」を選択した場合、使用言語に合わせて、フォーマットが自動的に選択されます。この設定は、ユーザ設定によりオーバーライドすることができます。';
+$string['explain_startwday'] = 'ここであなたが選択した曜日をもとに、カレンダーの週の開始日が表示されます。';
 $string['explain_timeformat'] = 'あなたは、12時間表示または24時間表示を時間の表示方法として選択することができます。「デフォルト」を選択した場合、使用言語に合わせてフォーマットが自動的に選択されます。';
 $string['export'] = 'エクスポート';
 $string['exportbutton'] = 'エクスポート';
@@ -107,14 +107,14 @@ $string['today'] = '今日';
 $string['tomorrow'] = '明日';
 $string['tt_deleteevent'] = 'イベントの削除';
 $string['tt_editevent'] = 'イベントの編集';
-$string['tt_hidecourse'] = 'コースイベントは表示中です(クリックで非表示)';
-$string['tt_hideglobal'] = '全体のイベントは表示中です(クリックで非表示)';
-$string['tt_hidegroups'] = 'グループイベントは表示中です(クリックで非表示)';
-$string['tt_hideuser'] = 'ユーザイベントは表示中です(クリックで非表示)';
-$string['tt_showcourse'] = 'コースイベントは非表示中です(クリックで表示)';
-$string['tt_showglobal'] = '全体のイベントは非表示中です(クリックで表示)';
-$string['tt_showgroups'] = 'グループイベントは非表示中です(クリックで表示)';
-$string['tt_showuser'] = 'ユーザイベントは非表示中です(クリックで表示)';
+$string['tt_hidecourse'] = 'コースイベントは、表示中です(クリックで非表示)';
+$string['tt_hideglobal'] = '全体のイベントは、表示中です(クリックで非表示)';
+$string['tt_hidegroups'] = 'グループイベントは、表示中です(クリックで非表示)';
+$string['tt_hideuser'] = 'ユーザイベントは、表示中です(クリックで非表示)';
+$string['tt_showcourse'] = 'コースイベントは、非表示中です(クリックで表示)';
+$string['tt_showglobal'] = '全体のイベントは、非表示中です(クリックで表示)';
+$string['tt_showgroups'] = 'グループイベントは、非表示中です(クリックで表示)';
+$string['tt_showuser'] = 'ユーザイベントは、非表示中です(クリックで表示)';
 $string['tue'] = '火';
 $string['tuesday'] = '火曜日';
 $string['typecourse'] = 'コースイベント';
