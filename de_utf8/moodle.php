@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091231) (2007101571)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20100107) (2007101571)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -1294,8 +1294,8 @@ $string['restoretositeadding'] = 'Warnung: Sie beabsichtigen, Daten zur Startsei
 $string['restoretositedeleting'] = 'Warnung: Sie beabsichtigen, die Startseite wiederherzustellen und vorher alle vorhandenen Daten zu löschen!';
 $string['restoreuserconflict'] = 'Der Versuch, das Nutzerkonto \'$a\' wiederherzustellen, wird Probleme bereiten';
 $string['restoreuserinfofailed'] = 'Die Wiederherstellung des Kurses wurde abgebrochen, weil Sie kein Recht zur Wiederherstellung von Nutzerdaten haben.';
-$string['restoreusersprecheck'] = 'Nutzerinformationen prüfen';
-$string['restoreusersprecheckerror'] = 'Bei der Prüfung der Nutzerinformationen wurden Probleme erkannt';
+$string['restoreusersprecheck'] = 'Nutzerdaten prüfen';
+$string['restoreusersprecheckerror'] = 'Bei der Prüfung der Nutzerdaten wurden Probleme erkannt';
 $string['restricted'] = 'Eingeschränkt';
 $string['restrictmodules'] = 'Aktivitäten-Module einschränken';
 $string['returningtosite'] = 'Zur Nutzung ist ein Login notwendig';
