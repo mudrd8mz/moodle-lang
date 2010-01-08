@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20100106) (2007101571)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1212,6 +1212,7 @@ $string['resource'] = 'Ressurs';
 $string['resources'] = 'Ressurser';
 $string['restore'] = 'Gjenoppretting';
 $string['restorecancelled'] = 'Gjenoppretting avbrutt';
+$string['restorecannotcreateuser'] = 'Gjenopprettingsmodulen har behov for å opprette brukeren  \'$a\'  fra sikkherhetskopien og du har ikke rett til å opprette brukere.';
 $string['restorecoursenow'] = 'Gjennopprett denne siden nå.';
 $string['restoredaccount'] = 'Gjenopprettet brukerkonto';
 $string['restoredaccountinfo'] = 'Denne brukerkontoen ble importert fra en annen installasjon og passorder er gått tapt. Klikk på \"Fortsett\" for å angi nytt passord via e-post';
@@ -1219,7 +1220,10 @@ $string['restorefinished'] = 'Gjenoppretting fullført';
 $string['restoreto'] = 'Gjenopprett til';
 $string['restoretositeadding'] = 'Advarsel: Du er i ferd med å gjenopprette hovedsiden ved å legge til data til den!';
 $string['restoretositedeleting'] = 'Advarsel: Du er i ferd med å gjenopprette/erstatte hovedsiden ved å først slette eksisterende!';
+$string['restoreuserconflict'] = 'Dersom du gjenopprette bruker \'$a\' fra sikkerhetskopien vil det gi konflikt med eksisterende bruker.';
 $string['restoreuserinfofailed'] = '<strong>ADVARSEL:</strong> For å kunne gjenopprette brukerdata (i aktiviteter, filer, meldinger osv...) må rettigheten \"moodle/restore:userinfo\" være på \"Tillat\" og denne rettigheten er ikke satt. Gjenopprettingsprosessen er derfor stoppet.';
+$string['restoreusersprecheck'] = 'Sjekker brukerdata';
+$string['restoreusersprecheckerror'] = 'Det ble oppdaget noen problemer under sjekk av brukerdata.';
 $string['restricted'] = 'Begrenset';
 $string['restrictmodules'] = 'Sett begrensninger på aktivitetsmodulene?';
 $string['returningtosite'] = 'Registrert bruker?';
