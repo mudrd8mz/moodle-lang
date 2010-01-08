@@ -964,7 +964,7 @@ $string['neverdeletelogs'] = 'Slett aldri logger';
 $string['new'] = 'Ny';
 $string['newaccount'] = 'Ny brukerkonto';
 $string['newcourse'] = 'Nytt kurs';
-$string['newpassword'] = 'Nytt passord';
+$string['newpassword'] = 'Ditt ønskede passord';
 $string['newpasswordfromlost'] = '<strong>NB:</strong> Ditt <strong>nåværende passord</strong> har blitt sendt til deg i den<strong>andre</strong> av de to meldinger sennt til deg i forbindelse med prosessen for å gjenopprette passordet. Pass på at du har mottatt erstatningspassordet før du fortsetter med dette skjermbildet.';
 $string['newpasswordtext'] = 'Hei $a->firstname,
 Ditt passord på \'$a->sitename\' er slettet
@@ -1074,7 +1074,7 @@ $string['numweeks'] = '$a uker';
 $string['numwords'] = '$a ord';
 $string['numyears'] = '$a år';
 $string['ok'] = 'OK';
-$string['oldpassword'] = 'Gjeldende passord';
+$string['oldpassword'] = 'Gjeldende passord <br />(eller nettopp tilsendt på e-post)';
 $string['olduserdirectory'] = 'Dette er den GAMLE brukerkatalogen og trengs ikke lenger. Du kan trygt fjerne den. Filene den inneholder har blitt kopiert til den NYE brukerkatalogen.';
 $string['opentoguests'] = 'Gjestetilgang';
 $string['optional'] = 'valgfri';
