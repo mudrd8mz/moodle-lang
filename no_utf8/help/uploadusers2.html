@@ -1,0 +1,82 @@
+<h1>Laste opp brukere</h1>
+
+<p>Aller  først: Merk at <strong>det vanligvis ikke er nødvendig å importere brukere fra fil</strong>. Hvis du kan unngå det sparer du mye manuelt arbeid med brukerhåndtering. Sjekk først om en av autentiseringsmodulene kan være det du trenger, f.eks. modulen for tilkobling til ekstern brukerdatabase.</p>
+<p>Dersom du er sikker på at du vil importere mange brukere fra en tekstfil, må du passe på å formatere tekstfilen slik: </p>
+
+<ul>
+  <li>Hver linje skal bare ha data for en bruker</li>
+  <li>Hver rad er en serie data atskilt med kommategn (eller andre skilletegn)</li>
+  <li>Den første raden er spesiell siden den inneholder alle feltnavnene. Denne raden definerer formatet for resten av fila.
+    <blockquote>
+      <p><strong>Obligatoriske feltnavn:</strong> disse feltene må være med i første rad og definert for hver bruker:</p>
+      <p><code class="example1">username, password, firstname, lastname, email</code></p>
+
+      <p><strong>Standard feltnavn:</strong> disse er valgfrie. Dersom de ikke er med tas verdien fra hovedadministratorkontoen.</p>
+      <p><code class="example1">institution, department, city, country, lang, auth, timezone</code> </p>
+      <p><strong>Valgfrie feltnavn: </strong> alle disse feltnavnene er helt valgfrie. Kursnavnet skal være kortnavnet på kurset. Dersom det tas med vil brukerne bli påmeldt som studenter i de kursene. Gruppenavn må kobles til kurs;  group1 til course1, etc.</p>
+      <p> <code class="example1">idnumber,
+icq, phone1, phone2, address, url, description, mailformat,
+maildisplay, htmleditor, autosubscribe, course1, course2, course3,
+course4, course5, group1, group2, group3, group4, group5, type1, type2,
+type3, type4, type5, role1, role2, role3, role4, role5, emailstop</code></p>
+    </blockquote>
+    </li>
+  <li>Kommategn i dataene skal kodes som  &amp;#44 - skriptet vil konvertere dette automatisk tilbake til kommategn.</li>
+  <li>For Booleanske felt, bruk 0 for usant og 1 for sant. </li>
+  <li>"Types" brukes til å fortelle Moodle om brukeren er en student eller en lærer, dersom samsvarende kurs finnes. (type1 hører til course1 osv.) 1 =
+Student, 2 = Lærer, og 3 = Gjestelærer. Hvis Type-feltet er tomt eller det ikke er angitt et kurs, blir brukeren tildelt standardrollen "Student".</li>
+  <li>Bruk kortnavn for kurs, for grupper skal gruppenavn brukes, for roller skal rolleID brukes.</li>
+  <li>Merk: Dersom en bruker allerede finnes i Moodle database vil skriptet returnere brukerID for brukeren og vil melde brukeren inn som student i alle angitte kurs UTEN å oppdatere med angitte data forøvrig.</li>
+</ul>
+
+<p>Her er et eksempel på en gyldig importfil:</p>
+<p><code>username, password, firstname, lastname, email, lang, idnumber, maildisplay, course1, group1, type1<br>
+jonest, verysecret, Tom, Jones, jonest@someplace.edu, en, 3663737, 1, Intro101, Section 1, 1<br>
+reznort, somesecret, Trent, Reznor, reznort@someplace.edu, en_us, 6736733, 0, Advanced202, Section 3, 3
+</code></p>
+
+<h2>Maler</h2>
+<p>Standardverdier blir behandlet som maler hvor følgende koder er tillatt:</p>
+<ul>
+<li><code>%l</code> - vil bli erstattet med etternavn</li>
+<li><code>%f</code> - vil bli erstattet med fornavn</li>
+<li><code>%u</code> - vil bli erstattet med brukernavn</li>
+<li><code>%%</code> - vil bli erstattet med %</li>
+</ul>
+<p>Mellom prosenttegnet  (%) og en kodebokstav (l, f eller u) er følgende modifikatorer tillatt:</p>
+<ul>
+<li>(-) minustegn - informasjonen som angis via kodebokstaven blir konvertert til små bokstaver</li>
+<li>(+) plusstegn - informasjonen som angis via kodebokstaven blir konvertert til STORE BOKSTAVER</li>
+<li>(~) tildetegn - informasjonen som angis via kodebokstaven blir formatert som tittel</li>
+<li>et desimaltall - informasjonen som angis via kodebokstaven vil bli avkortet til angitt antall tegn</li>
+</ul>
+
+<p>F.eks. dersom fornavnet er "John" og etternavnet er "Doe", vil følgende malvariabler gi resultatene:</p>
+<ul>
+<li>%l%f = DoeJohn</li>
+<li>%l%1f = DoeJ</li>
+<li>%-l%+f = doeJOHN</li>
+<li>%-f_%-l = john_doe</li>
+<li>http://www.example.com/~%u/ = http://www.example.com/~jdoe/ (dersom brukernavnet er jdoe eller %-1f%-l)</li>
+</ul>
+
+<p>Kjøring som mal gjøres kun med standard verdier og ikke på basis av verdiene som mottas fra CSV-fila.</p>
+<p>For å kunne opprette korrekte Moodle brukernavn, bli brukernavnet alltid konvertert til små bokstaver. Så sant "TIllat utvidet karaktersett i brukernavn" er deaktivert vil alle tegn som ikke er bokstaver, tall, bindestrek og punktum bli fjernet. Hvis f.eks. fornavnet er John Jr. og etternavnet Doe, vil brukernavnformelen  %-f_%-l gi som resultat:  "john jr._doe" når utvidede brukernavn er tillatt og  "johnjr.doe" når det ikke er tillatt.</p>
+
+<p>Dersom håndtering av duplikate brukernavn er aktivert, vil stigende nummer bli lagt til brukernavnet for å gjøre det unikt. Hvis f.eks. CSV-fila inneholder brukere med navnene John Doe, Jane Doe and Jenny Doe uten dedikerte brukernavn vil %-1f%-l og aktivert duplikathåndtering med stigende teller gi brukernavnene: jdoe, jdoe2 and jdoe3.</p>
+
+<h2>Oppdatering av eksisterende kontoer</h2>
+
+<p>Som standard antar Moodle at du bare vil opprette nye kontoer og beholde eksisterende. Du kan likevel sette "Oppdater eksisterende kontoer" til "Ja" for også å oppdatere alle brukerkontoer som allerede eksisterte.</p>
+
+<p>Når eksisterende brukerkontoer endres, kan du også endre brukernavnet. Sett "Tillat endre navn" til "Ja" og ta med feltet <code class="example1">oldusername</code> i importfila .</p>
+
+<p><b>Advarsel:</b> Vær forsiktig når du oppdaterer eksisterende brukere på denne måten. Du risikerer i verste fall å ødelegge brukerkontoer fullstendig.</p>
+
+<h2>Slette kontoer</h2>
+<p>Dersom feltet <code>deleted</code> tas med i CSV-fila vil brukere med verdien "1" bli slettet. I slike tilfeller kan alle andre felt på raden utelates, unntatt  <code>username</code>.</p>
+<p>Sletting og import av brukerkontoer kan gjøres i samme CSV-fil. F.eks. vil følgende kode legge til brukeren Tom Jones og slette brukeren reznort:</p>
+<p><code>username, firstname, lastname, deleted<br />
+jonest, Tom, Jones, 0<br />
+reznort, , , 1
+</code></p>
