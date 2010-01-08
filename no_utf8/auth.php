@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20100106) (2007101571)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -44,7 +44,8 @@ $string['auth_changepasswordhelp'] = 'Hjelp for passordendring';
 $string['auth_changepasswordhelp_expl'] = 'Vis mistet passordhjelp til brukere som har mistet sitt $a passord. Dette vil bli enten i tillegg eller i stedet for <strong>Endre Passord URL</strong> og Intern Moodle passordendring.';
 $string['auth_changepasswordurl'] = 'URL for å endre passord';
 $string['auth_changepasswordurl_expl'] = 'Angi url hvor en skal sende brukere som har mistet $a passordet sitt. Angi <strong>Bruk standard passordendringsside</strong> til <strong>Nei</strong>.';
-$string['auth_changingemailaddress'] = 'Du har bedt om å endre e-postadressen, fra $a->oldemail to $a->newemail. Av sikkerhetsgrunner sender vi deg en e-post til den nye adressen for å bekrefte at denne tilhører deg. E-postadressen din vil bli oppdatert straks du klikker på URL-en i den tilsendte meldingen.';
+$string['auth_changingemailaddress'] = 'Du har bedt om å endre e-postadressen, fra $a->oldemail to $a->newemail. Av sikkerhetsgrunner sender vi deg en e-post til den nye adressen for å bekrefte at denne tilhører deg. E-postadressen din vil bli oppdatert straks du klikker på URL-en i den tilsendte meldingen.<br />
+<strong>OBS!</strong> Bekreft via URL straks du har fått e-posten. Går det for lang tid vil bekreftelsesprosessen bli annulert automatisk og du må begynne på nytt!';
 $string['auth_common_settings'] = 'Vanlige instillinger';
 $string['auth_data_mapping'] = 'Datamapping';
 $string['auth_dbcantconnect'] = 'Kunne ikke kontakte den oppgitte autentiseringsdatabasen';
@@ -102,7 +103,7 @@ $string['auth_emailsettings'] = 'Innstillinger';
 $string['auth_emailtitle'] = 'E-postbasert autentisering';
 $string['auth_emailupdate'] = 'E-postadresse oppdatering';
 $string['auth_emailupdatemessage'] = 'Kjære $a->fullname,
-Du har bedt om å endre e-postadressen din på $a->site. Vennligst åpne følgende URL i nettleseren din for å bekrefte denne endringen.
+Du har bedt om å endre e-postadressen din på $a->site. Vennligst åpne følgende URL i nettleseren din for å bekrefte denne endringen. OBS: Bekreft via URL straks du har fått e-posten. Går det for lang tid vil bekreftelsesprosessen bli annullert automatisk og du må begynne på nytt!
 
 $a->url';
 $string['auth_emailupdatesuccess'] = 'E-postadressen til brukeren <em>$a->fullname</em> er bekreftet endret til <em>$a->email</em>.';

@@ -480,10 +480,13 @@ En forespørsel om at det opprettes en brukerkonto på \'$a->sitename\' er motta
 Gå til denne nettadressen for å bekrefte kontoen:
   $a->link
 I de fleste e-postlesere vil denne vises som en blå lenke som du kan klikke på. Hvis dette ikke virker, kan du kopiere adressen og lime den inn i adressefeiltet på nettleseren din.
+OBS: Bekreft via URL straks du har fått e-posten. Går det for lang tid vil bekreftelsesprosessen bli annulert automatisk og du må begynne på nytt!
+
 Hvis du trenger hjelp, ta kontakt med nettstedets administrator, $a->admin';
 $string['emailconfirmationsubject'] = '$a: kontobekreftelse';
 $string['emailconfirmsent'] = '<p>En e-post skal nå væresendt til deg på adressen <b>$a</b></p>
-<p>Den inneholder informasjon om hvordan du fullfører registreringen.</p>
+<p>Den inneholder informasjon om hvordan du fullfører registreringen.</p><br />
+<strong>OBS!</strong> Bekreft via URL straks du har fått e-posten. Går det for lang tid vil bekreftelsesprosessen bli annulert automatisk og du må begynne på nytt!
 <p>Hvis du fortsatt har problemer, vennligst ta kontakt med administrator for nettstedet.</p>';
 $string['emaildigest'] = 'Type samlepost';
 $string['emaildigestcomplete'] = 'Komplett (daglig epost-utsendelse med hele innlegg)';
@@ -522,7 +525,7 @@ $string['emailpasswordconfirmation'] = 'Hei $a->firstname,
 Noen (sannsynligvis deg) har bedt om et nytt passord for kontoen din på \'$a->sitename\'.
 For å bekrefte dette og få et nytt passord sendt til din e-post, må du gå til følgende adresse: 
 $a->link
-I de fleste e-postlesere vil denne vises som en blå lenke som du kan klikke på. Hvis dette ikke virker kan du kopiere adressen og lime den inn i nettleseren din. 
+I de fleste e-postlesere vil denne vises som en blå lenke som du kan klikke på. Hvis dette ikke virker kan du kopiere adressen og lime den inn i nettleseren din.  Bekreft via URL straks du har fått e-posten. Går det for lang tid vil bekreftelsesprosessen bli annulert automatisk og du må begynne på nytt. 
 Hvis du trenger hjelp, kan du ta kontakt med administrator
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: bytt passord - bekreftelse';
@@ -534,7 +537,7 @@ $string['emailpasswordconfirmsent'] = 'En e-post skal være sendt til din adress
 Hvis du fortsatt har problemer, kan du ta kontakt med administrator';
 $string['emailpasswordsent'] = '<p>Takk for bekreftelse av passordbytte.</p>
 <p>En e-post med ditt nye passord er sendt til din adresse <br /><b>$a->email</b>.<br />
-Det nye passordet ble automatisk laget - du vil kanskje <a href=\"$a->link\">endre passordet</a> til noe som er lettere å huske.</p>';
+Det nye passordet ble automatisk generert - du vil kanskje <a href=\"$a->link\">endre passordet</a> til noe som er lettere å huske.</p>';
 $string['enable'] = 'Slå på';
 $string['encryptedcode'] = 'Kryptert kode';
 $string['enroldate'] = 'Tidsperiode';
