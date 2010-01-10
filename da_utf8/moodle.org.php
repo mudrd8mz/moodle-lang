@@ -2,9 +2,9 @@
       // moodle.org.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
-$string['aboutdemosite'] = 'Vores demonstrationsside er en fuld installation af Moodle med eksempler på kurser du kan prøve som lærer eller elev. Vær ikke bange for at ødelægge noget, siden nulstilles hver hele time.';
+$string['aboutdemosite'] = 'På vores demonstrationsside finder du en fuld installation af Moodle med eksempler på kurser du kan afprøve som lærer eller elev. Vær ikke bange for at ødelægge noget, siden nulstilles hver hele time.';
 $string['aboutdemositetitle'] = 'Demonstrationsside';
-$string['aboutintro'] = 'Moodle er et Open Source Course Management System (CMS), også kaldet Learning Management System (LMS) eller et Virtual Learning Environment (VLE). Det er blevet meget populært blandt lærere i hele verden som et værktøj til oprettelse af dynamiske websider for deres studerende. For at fungere skal det installeres på en webserver et sted, enten på en af dine egne computere eller på en computer på et webhotel.';
+$string['aboutintro'] = 'Moodle er et Open Source Course Management System (CMS), også kaldet Learning Management System (LMS) eller et Virtual Learning Environment (VLE). Det er blevet meget populært blandt lærere over hele verden, som værktøj til oprettelse af dynamiske websider for deres studerende. For at fungere skal det installeres på en webserver et sted, enten på en af dine egne computere eller på en computer på et webhotel.';
 $string['aboutoverview'] = '<p>Moodleprojektet har altid fokus på at give undervisere det bedste værktøj til at administre og understøtte læring, men der er mange måder at bruge Moodle på:</p> <ul>
 <li>Moodle har funktioner der gør, at det kan skaleres til meget store organisationer med hundredtusinder studerende og samtidig kan det bruges af grundskoler eller til undervisning på hoppyniveau.</li>
 <li>Mange institutioner bruger det som deres platform til rene onlinekurser mens andre bruger det som et supplement til ansigt til ansigts-undervisningen i klassen (også kaldet blended learning).</li>
@@ -15,7 +15,7 @@ $string['aboutstatisticstitle'] = 'Statistik';
 $string['browsecvstitle'] = 'Gennemse vores kildekode';
 $string['communityintro'] = 'Moodle har et stort og bredt brugerfællesskab med over <a href=\"http://moodle.org/userpics\">$a->usercount registrerede brugere</a> alene på denne moodleside, der taler over <a href=\"http://download.moodle.org/lang16/\">$a->langcount sprog</a> i <a href=\"http://moodle.org/sites\">$a->countrycount lande</a> (vi har <a href=\"http://moodle.org/stats\">mere statistik her</a>).';
 $string['conferencecenter'] = 'Moodles konferencecenter';
-$string['connectedsites'] = 'Nogle moodlesites er forbundet til moodle.org ved brug af Moodle Netværk, så du kan logge ind der direkte så snart du er godkendt her.';
+$string['connectedsites'] = 'Nogle moodlesites er forbundet til moodle.org ved brug af Moodle Netværk. Således kan du kan ind der direkte så snart du er godkendt her.';
 $string['connectedsitestitle'] = 'Forbundne websteder';
 $string['contactbugs'] = 'Du kan rapportere problemer med Moodlesoftwaren og på alle sider på moodle.org ved at udfylde en formular i Moodles \"Tracker\".';
 $string['contactbugstitle'] = 'Rapportering af fejl';
@@ -44,12 +44,12 @@ $string['developmentintro'] = 'Vi sigter mod en transparent og åben udviklingsp
 $string['developmenttracker'] = 'Alle udviklingsspørgsmål (bugs, nye funktioner og forbedringer) registreres og administreres i Moodle Tracker\'en. Du kan se hvem der arbejder på hvad og bidrage til konversationen. Du bør starte med at søge i tracker\'en hvis du prøver at finde ud af noget om specielle problemer og du må endelig <strong>stemme</strong> på de sager du især gerne vil have bliver taget hånd om, da din stemme hjælper os med at prioritere arbejdet.';
 $string['donations'] = 'Moodle er helt fri for økonomiske forpligtelser for dig, men mange i fællesskabet har doneret et beløb til vores projekt til hjælp til at betale udviklere så det kan fortsætte.';
 $string['donationstitle'] = 'Donationer';
-$string['downloadcore'] = 'Vores hoveddistributionsmetode er via disse standard kernepakker. De indeholder et antal moduler, der vedligeholdes af kerneudviklere, og som fint kan installeres på så godt som alle platforme med PHP og en database installeret.';
-$string['downloadcoretitle'] = 'Standard moodlepakker';
+$string['downloadcore'] = 'Vores hoveddistributionsmetode er via disse standard kernepakker. De indeholder et antal moduler der vedligeholdes af kerneudviklere, og som fint kan installeres på så godt som alle platforme med PHP og en database installeret.';
+$string['downloadcoretitle'] = 'Standard Moodlepakker';
 $string['downloadcvs'] = 'En anden måde at få fat i kildekoden på, er ved hjælp af CVS til at forbinde direkte til et af vores spejlinger af kodedepotet, som Moodles udviklere bruger. Dette gør opgradering meget let, selv hivs du har lavet lokale ændringer i kildekoden.';
 $string['downloadcvstitle'] = 'Moodle via CVS';
 $string['downloadintro'] = 'Moodle er open source under <a href=\"http://docs.moodle.org/en/License\">GPL licens</a>. Alt hvad vi fremstiller, er frit tilgængeligt til download og brug.';
-$string['downloadlang'] = 'I de nuværende versioner af Moodle er installation af sprogpakker blevet automatiseret via administrationsmenuen på dit site. I ældre versioner af Moodle skal nye sprogpakker dog downloades manuelt.';
+$string['downloadlang'] = 'I de nuværende versioner af Moodle er installation af sprogpakker blevet automatiseret via administrationsmenuen på dit site. I ældre versioner af Moodle skal nye sprogpakker downloades manuelt.';
 $string['downloadlangtitle'] = 'Sprogpakker';
 $string['downloadlogotitle'] = 'Moodlelogoer';
 $string['downloadmac'] = 'Hvis ikke du allerede har en webserver sat op, gør disse alt i et-pakker det meget let at installere Moodle på enhver applecomputer med Mac OS X.';
@@ -60,10 +60,10 @@ $string['downloadthemes'] = 'Moodles udseende kan ændres markant ved brug af fo
 $string['downloadthemestitle'] = 'Layouts';
 $string['downloadwin'] = 'Hvis ikke du allerede har en webserver sat op, gør disse alt i et-pakker det meget let at installere Moodle på enhver computer med Microsoft Windows.';
 $string['downloadwintitle'] = 'Moodle til Windows';
-$string['events'] = 'Selv om vi er specialiseret i onlinelæring, er det stadig rart ses i et lokale! Disse links har mere information om vores konferencer (vi kalder dem MoodleMoots) og andre arrangementer.';
+$string['events'] = 'Selv om vi er specialiseret i onlinelæring, er det stadig rart fysisk at mødes i et lokale! Disse links har mere information om vores konferencer (vi kalder dem MoodleMoots) og andre arrangementer.';
 $string['eventstitle'] = 'Arrangementer';
-$string['frontpagewelcome1'] = 'Moodle er et Course Management System (CMS), også kendt som et Learning Management System (LMS) eller en Virtual Learning Environment (VLE). Det er en gratis webapplikation lærere kan bruge til at opbygge effektive online læringssites i.';
-$string['frontpagewelcome2'] = 'Moodle.org er vores fællesskabs websted hvor Moodle udvikles og diskuteres. Brug venligst menuerne til at se dig om og vær med!';
+$string['frontpagewelcome1'] = 'Moodle er et Course Management System (CMS), også kendt som et Learning Management System (LMS) eller et Virtual Learning Environment (VLE). Det er en gratis webapplikation lærere kan bruge til at opbygge effektive online læringsmiljøer i.';
+$string['frontpagewelcome2'] = 'Moodle.org er vores websted, hvor Moodle udvikles og diskuteres. Brug venligst menuerne til at se dig om og vær med!';
 $string['frontpagewelcometitle'] = 'Velkommen til fællesskabet om Moodle!';
 $string['generaldeveloperforum'] = 'Generelt udviklerforum';
 $string['jobs'] = 'Besøg vores jobdatabase og få information om Moodle-relaterede stillinger i hele verden.';
@@ -126,22 +126,22 @@ $string['roadmap'] = 'Moodlekøreplan';
 $string['shop'] = 'Er du på udkig efter en måde hvorpå du kan vise at du er en del af vores fællesskab? Se vores butik med bluser, krus og mange andre ting.';
 $string['shoptitle'] = 'Moodlebutik';
 $string['sourcecodetitle'] = 'Open source kode';
-$string['supportbooks'] = 'Vi vedligeholder en lister over mange tilgængelige bøger om Moodle, du kan købe.';
+$string['supportbooks'] = 'Vi vedligeholder en liste over mange tilgængelige bøger om Moodle, du kan købe.';
 $string['supportbookstitle'] = 'Bøger og manualer';
-$string['supportcommercial'] = '<a href=\"http://moodle.com/\">Moodle Partners</a> er en verdensomspændende gruppe autoriserede servicevirksomheder der er forpligtede til at støtte det åbne kilde-projekt Moodle økonomisk. De driver en række kommercielle tjenester til Moodle-brugere over hele verden:';
+$string['supportcommercial'] = '<a href=\"http://moodle.com/\">Moodle Partners</a> er en verdensomspændende gruppe autoriserede servicevirksomheder, der er forpligtede til at støtte open source-projektet, Moodle, økonomisk. De driver en række kommercielle tjenester til Moodlebrugere over hele verden:';
 $string['supportcommercialtitle'] = 'Kommerciel service';
-$string['supportdocs1'] = 'Moodle Docs er et godt sted at starte, specielt vores på sider med <acronym title=\"Frequently Asked Questions\">Ofte Stillede Spørgsmål</acronym> (<acronym title=\"FAQ\">OSS</acronym>).';
+$string['supportdocs1'] = 'Moodle Docs er et godt sted at starte, specielt på vores sider med <acronym title=\"Frequently Asked Questions\">Ofte Stillede Spørgsmål</acronym> (<acronym title=\"FAQ\">OSS</acronym>).';
 $string['supportdocs2'] = 'En god måde at få relevant dokumentation på, er at bruge linket \"Moodle Docs for denne side\" i bunden af hver side på din Moodle.';
 $string['supportdocsfaq'] = 'Ofte Stillede Spørgsmål';
 $string['supportdocslang'] = 'Moodle Docs på andre sprog';
 $string['supportdocstitle'] = 'Dokumentation';
-$string['supportforums'] = 'Vores brugerfællesskab kommunikerer hovedsagelig via forummer i \"kurser\" på denne Moodle-baserede side. Du må tilmelde dig et kursus for at kunne skrive i forummer (tilmelding er helt gratis).';
+$string['supportforums'] = 'Vores brugerfællesskab kommunikerer hovedsagelig via forummer i \"kurser\" på denne Moodlebaserede side. Du må tilmelde dig et kursus for at kunne skrive i forummer (tilmelding er helt gratis).';
 $string['supportforumsenglish'] = 'Hovedsupporten og udviklingsdiskussioner mellem brugere og udviklere på engelsk:';
 $string['supportforumsenglishname'] = 'Using Moodle';
 $string['supportforumslang'] = 'Hovedforummet til socialt \"samvær\" for moodlere på engelsk:';
 $string['supportforumslangname'] = 'Moodle Lounge';
 $string['supportforumslangurl'] = 'http://moodle.org/course/view.php?id=55';
-$string['supportforumslist'] = 'Vi har også mange andre forummer på adskillige sprog:';
+$string['supportforumslist'] = 'Vi har også mange andre forummer på bl.a. dansk og adskillige andre sprog:';
 $string['supportforumslistname'] = 'Liste over alle forummer';
 $string['supportforumstitle'] = 'Forummer';
 $string['supportintro'] = 'Du er ikke alene! Der er flere forskellige måde at få hjælp til Moodle på, hvis du har brug for det.';
