@@ -2,7 +2,7 @@
       // moodle.org.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
-$string['aboutdemosite'] = 'På vores demonstrationsside finder du en fuld installation af Moodle med eksempler på kurser du kan afprøve som lærer eller elev. Vær ikke bange for at ødelægge noget, siden nulstilles hver hele time.';
+$string['aboutdemosite'] = 'På vores demonstrationsside finder du en fuld installation af Moodle med eksempler på kurser du kan afprøve som lærer, elev eller endda administrator. Vær ikke bange for at ødelægge noget, siden nulstilles hver hele time.';
 $string['aboutdemositetitle'] = 'Demonstrationsside';
 $string['aboutintro'] = 'Moodle er et Open Source Course Management System (CMS), også kaldet Learning Management System (LMS) eller et Virtual Learning Environment (VLE). Det er blevet meget populært blandt lærere over hele verden, som værktøj til oprettelse af dynamiske websider for deres studerende. For at fungere skal det installeres på en webserver et sted, enten på en af dine egne computere eller på en computer på et webhotel.';
 $string['aboutoverview'] = '<p>Moodleprojektet har altid fokus på at give undervisere det bedste værktøj til at administre og understøtte læring, men der er mange måder at bruge Moodle på:</p> <ul>
