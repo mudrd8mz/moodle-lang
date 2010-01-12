@@ -111,6 +111,7 @@ $string['nocurl'] = 'La bibliothèque PHP cURL n\'est pas installée';
 $string['nohostid'] = 'Cette page requiert un identifiant de serveur, qui doit être un entier.';
 $string['noipmatch'] = 'L\'adresse du serveur distant : <br /><em>$a[0]</em><br />ne correspond pas à celle enregistrée :<br /><em>$a[1]</em>.';
 $string['nolocaluser'] = 'Aucun enregistrement local n\'existe pour cet utilisateur distant.';
+$string['nolocaluser2'] = 'Aucun enregistrement local n\'existe pour cet utilisateur distant. De plus, un tel enregistrement n\'a pas pu être créé, car ce serveur ne crée pas automatoquement les utilisateurs. Veuillez contacter votre administrateur !';
 $string['nomodifyacl'] = 'Vous n\'avez pas le droit de modifier les listes de contrôles d\'accès du Réseau Moodle.';
 $string['nonmatchingcert'] = 'Le sujet du certificat : <br /><em>$a[0]</em><br />ne correspond pas au serveur d\'où il provient :<br /><em>$a[1]</em>.';
 $string['nopubkey'] = 'Un problème est survenu lors de la récupération de la clef publique.<br />Il est possible que le serveur n\'accepte pas le Réseau Moodle ou que la clef ne soit pas valide.';
