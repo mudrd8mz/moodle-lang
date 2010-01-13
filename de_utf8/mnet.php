@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.7+ (Build: 20100112) (2007101571.01)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
@@ -101,7 +101,9 @@ $string['mnet_session_prohibited'] = 'Teilnehmer/innen Ihres Moodle-Servers sind
 $string['mnetdisabled'] = 'Moodle-Netzwerk ist <strong>ausgeschaltet</strong>.';
 $string['mnetenrol'] = 'Registrierungen';
 $string['mnetidprovider'] = 'MNET ID Provider';
+$string['mnetidproviderdesc'] = 'Falls Sie die richtige, zum eben eingegebenen Anmeldenamen passende E-Mail-Adresse übermitteln, könnten Sie umgehend einen Link zum Einloggen erhalten.';
 $string['mnetidprovidermsg'] = 'Das Login bei Ihrem Provider $a sollte möglich sein.';
+$string['mnetidprovidernotfound'] = 'Weitere Informationen konnten nicht gefunden werden.';
 $string['mnetlog'] = 'Logdaten';
 $string['mnetpeers'] = 'Peers';
 $string['mnetservices'] = 'Dienste';
