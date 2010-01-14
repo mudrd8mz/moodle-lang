@@ -1,22 +1,22 @@
 <?PHP // $Id$ 
-      // bulkusers.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
+      // bulkusers.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
-$string['addall'] = 'Adaugă pe toți';
-$string['addsel'] = 'Adaugă la selecție';
-$string['allfilteredusers'] = 'Toți filtrați ($a->count/$a->total)';
-$string['allselectedusers'] = 'Toți selectați ($a->count/$a->total)';
-$string['allusers'] = 'Toți utilizatorii ($a)';
+$string['addall'] = 'Adaugă pe toţi';
+$string['addsel'] = 'Adaugă la selecţie';
+$string['allfilteredusers'] = 'Toţi filtraţi ($a->count/$a->total)';
+$string['allselectedusers'] = 'Toţi selectaţi ($a->count/$a->total)';
+$string['allusers'] = 'Toţi utilizatorii ($a)';
 $string['available'] = 'Disponibili';
-$string['confirmmessage'] = 'Sigur doriți să trimiteți următorul mesaj tuturor acestor utilizatori? <br/> $a';
+$string['confirmmessage'] = 'Sigur doriţi să trimiteţi următorul mesaj tuturor acestor utilizatori? <br/> $a';
 $string['nofilteredusers'] = 'Niciun utilizator (0/$a)';
 $string['noselectedusers'] = 'Niciun utilizator selectat';
-$string['removeall'] = 'Șterge pe toți';
+$string['removeall'] = 'Şterge pe toţi';
 $string['removesel'] = 'Deselectează';
 $string['selected'] = 'Selectat';
-$string['selectedlist'] = 'Listă utilizatori selectați...';
+$string['selectedlist'] = 'Listă utilizatori selectaţi...';
 $string['usersfound'] = 'Găsit $a utilizator(i)';
 $string['usersinlist'] = 'Utilizatori în listă';
-$string['usersselected'] = '$a utilizatori selectați.';
+$string['usersselected'] = '$a utilizatori selectaţi.';
 
 ?>

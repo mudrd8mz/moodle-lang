@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
+      // survey.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['actual'] = 'Actual';
@@ -57,6 +57,18 @@ $string['attlsm1'] = 'Atitudine cu privire la Gândire şi Învăţare';
 $string['attlsm2'] = 'Învăţare Legată';
 $string['attlsm3'] = 'Învăţare Separată';
 $string['attlsmintro'] = 'În discuţii ...';
+$string['attlsname'] = 'ATTLS (20 item version)';
+$string['ciq1'] = 'Care a fost momentul din cadrul acestei lecţii când v-aţi simţit cel mai interesat de ceea ce vi se preda?';
+$string['ciq1short'] = 'Cel mai interesat';
+$string['ciq2'] = 'În care moment v-aţi simţit cel mai puţin interesat ce ceea ce vi se preda?';
+$string['ciq2short'] = 'Cel mai puţin interesat';
+$string['ciq3'] = 'Menţionaţi o acţiune realizată de unul din participanţii la forumuri care vi s-a părut foarte constructivă sau de ajutor';
+$string['ciq3short'] = 'Moment ajutător';
+$string['ciq4'] = 'Menţionaţi o acţiune realizată de unul din participanţii la forumuri care vi s-a părut deconcertantă sau producătoare de confuzii';
+$string['ciq4short'] = 'Care a fost evenimentul care v-a surprins cel mai tare?';
+$string['ciq5'] = 'Ce eveniment v-a surprins cel mai tare?';
+$string['ciq5short'] = 'Moment surprinzător';
+$string['ciqintro'] = 'Răspundeţi la întrebările de mai jos luând în considerare evenimente petrecute recent în cadrul acestei clase';
 $string['ciqname'] = 'Incidente critice';
 $string['clicktocontinue'] = 'Apasă aici pentru a continua';
 $string['clicktocontinuecheck'] = 'Apasă aici ca să verifici şi să continui';
@@ -163,12 +175,16 @@ este prezentată.
 
 Mulţumim foarte mult.';
 $string['collespname'] = 'COLLES (Preferată)';
+$string['customintro'] = 'Introducere personalizată';
+$string['deleteallanswers'] = 'Şterge răspunsuri la întrebările din cadrul studiului';
+$string['deleteanalysis'] = 'Şterge toate analizele răspunsurilor';
 $string['done'] = 'Terminat';
 $string['download'] = 'Descarcă';
 $string['downloadexcel'] = 'Descarcă datele ca foaie de calcul Excel';
 $string['downloadinfo'] = 'Poţi descărca datele acestui sondaj într-o formă favorabilă analizei în Excel, SPSS sau alte programe.';
 $string['downloadtext'] = 'Descarcă datele ca un simplu fişier text';
 $string['editingasurvey'] = 'Editează un sondaj';
+$string['guestsnotallowed'] = 'Utilizatorii vizitatori nu au permisiunea de a trimite studii';
 $string['helpsurveys'] = 'Ajutor pentru diferitele tipuri de sondaj';
 $string['howlong'] = 'Cât timp ti-a luat completarea acestui sondaj?';
 $string['howlongoptions'] = 'sub 1 min,1-2 min,2-3 min,3-4 min,4-5-min,5-10 min,peste 10';
@@ -191,6 +207,7 @@ $string['question'] = 'Întrebare';
 $string['questions'] = 'Întrebări';
 $string['questionsnotanswered'] = 'Nu s-a răspuns la câteva întrebări cu variante multiple.';
 $string['report'] = 'Raport sondaj';
+$string['responses'] = 'Răspunsuri';
 $string['savednotes'] = 'Notele tale au fost salvate';
 $string['scaleagree5'] = 'Nu sunt de acord,Oarecum nu sunt de acord,Nici de acord, nici împotrivă,Oarecum de acord,Total de acord';
 $string['scales'] = 'Scară de valori';
@@ -198,13 +215,16 @@ $string['scaletimes5'] = 'Aproape niciodată,Rareori,Uneori,Adesea,Aproape înto
 $string['seemoredetail'] = 'Apasă aici pentru mai multe detalii';
 $string['selectedquestions'] = 'Selectează întrebările dintr-o scală, toţi studenţii';
 $string['summary'] = 'Rezumat';
+$string['survey:download'] = 'Descarcă răspunsuri';
+$string['survey:participate'] = 'Răspundeţi la întrebările din cadrul studiului';
+$string['survey:readresponses'] = 'Afişează răspunsuri';
 $string['surveycompleted'] = 'Ai completat acest sondaj. Graficul de mai jos arată rezumatul rezultatelor tale comparat cu media clasei.';
+$string['surveygraph'] = 'Grafic studiu';
 $string['surveyname'] = 'Nume sondaj';
 $string['surveysaved'] = 'Sondaj salvat';
 $string['surveytype'] = 'Tip sondaj';
 $string['thanksforanswers'] = 'Multumesc că ai răspuns la acest sondaj, $a';
 $string['time'] = 'Timp';
 $string['viewsurveyresponses'] = 'Vizualizează răspunsurile la sondaj pentru $a';
-$string['attlsname'] = 'ATTLS (20 item version)'; // ORPHANED
 
 ?>

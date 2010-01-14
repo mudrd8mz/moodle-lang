@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
+      // xmldb.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['back'] = 'Înapoi';
@@ -9,8 +9,13 @@ $string['butis'] = 'dar este';
 $string['cannotuseidfield'] = 'Nu se poate insera câmpul \"id\". Este o coloană automatiă.';
 $string['change'] = 'Schimbă';
 $string['charincorrectlength'] = 'Lungime incorectă a câmpului caracter';
+$string['check_bigints'] = 'Caută numere întregi incorecte in baza de date';
+$string['check_defaults'] = 'Caută valori implicite inconsecvente';
+$string['check_indexes'] = 'Caută indecşi bază de date lipsă';
+$string['checkbigints'] = 'Verifică Bigints';
 $string['checkdefaults'] = 'Verifică valori implicite';
 $string['checkindexes'] = 'Verfică indecşii';
+$string['completelogbelow'] = '(vezi mai jos înregistrarea completă a tuturor detaliilor căutării)';
 $string['confirmdeletefield'] = 'Sunteți absolut siguri că doriți să eliminați acest câmp:';
 $string['confirmdeleteindex'] = 'Sunteţi absolut siguri că doriţi să eliminaţi acest index:';
 $string['confirmdeletekey'] = 'Sunteţi absolut siguri că doriţi să eliminaţi această cheie:';
@@ -18,6 +23,7 @@ $string['confirmdeletesentence'] = 'Sunteţi absolut siguri că doriţi să elim
 $string['confirmdeletestatement'] = 'Sunteţi absolut siguri că doriţi să eliminaţi această instrucţiune şi toate propoziţile asociate acesteia:';
 $string['confirmdeletetable'] = 'Sunteţi absolut siguri că doriţi să eliminaţi acest tabel:';
 $string['confirmdeletexmlfile'] = 'Sunteţi absolut siguri că doriţi să eliminaţi  acest fişier:';
+$string['confirmrevertchanges'] = 'Sunteţi absolut siguri că doriţi să anulaţi modificările realizate asupra:';
 $string['create'] = 'Creează';
 $string['createtable'] = 'Creează tabel';
 $string['defaultincorrect'] = 'Valoare implicită incorectă';
@@ -54,10 +60,15 @@ $string['indexes'] = 'Indecşi';
 $string['integerincorrectlength'] = 'Lungime incorectă pentru câmp de tip întreg';
 $string['key'] = 'Cheie';
 $string['keys'] = 'Chei';
+$string['listreservedwords'] = 'Lista de Cuvinte Rezervate <br />(se foloseşte la actualizarea listei cu cuvinte rezervate <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> updated)';
 $string['load'] = 'Încarcă';
 $string['missing'] = 'Lipsesc';
 $string['missingfieldsinsentence'] = 'Lipsesc câmpuri în propoziţie';
 $string['missingindexes'] = 'Indecşii care lipseau au fost găsiţi';
+$string['missingvaluesinsentence'] = 'Lipsesc valori din frază';
+$string['mustselectonefield'] = 'Pentru a putea vizualiza acţiunile legate de un câmp trebuie să selectaţi câmpul dorit!';
+$string['mustselectoneindex'] = 'Pentru a putea vizualiza acţiunile legate de un index trebuie să selectaţi indexul dorit!';
+$string['mustselectonekey'] = 'Pentru a putea vizualiza acţiunile legate de o cheie trebuie să selectaţi cheia dorită!';
 $string['new_statement'] = 'Instrucţiune nouă';
 $string['new_table_from_mysql'] = 'Tabel nou de la MySQL';
 $string['newfield'] = 'Câmp nou';
@@ -66,6 +77,9 @@ $string['newkey'] = 'Cheie nouă';
 $string['newsentence'] = 'Instrucţiune nouă';
 $string['newtable'] = 'Tabel nou';
 $string['newtablefrommysql'] = 'Tabel nou de la MySQL';
+$string['nomissingindexesfound'] = 'Nu există indecşi lipsă, nu este nevoie să realizaţi nicio acţiune asupra bazei de date.';
+$string['nowrongdefaultsfound'] = 'Nu au fost identificate valori implicite inconsecvente, nu este nevoie să realizaţi nicio acţiune asupra bazei de date.';
+$string['nowrongintsfound'] = 'Nu au fost identificate numere întregi greşite, nu este nevoie să realizaţi nicio acţiune asupra bazei de date.';
 $string['numberincorrectdecimals'] = 'Număr incorect de zecimale pentru câmp numeric';
 $string['numberincorrectlength'] = 'Lungime incorectă pentru câmp numeric';
 $string['reserved'] = 'Rezervat';
@@ -77,6 +91,8 @@ $string['searchresults'] = 'Rezultatele căutării';
 $string['selectaction'] = 'Selectaţi acţiunea:';
 $string['selectdb'] = 'Selectaţi baza de date:';
 $string['selectfieldkeyindex'] = 'Selectaţi câmp/cheie/index:';
+$string['selectonecommand'] = 'Pentru a vedea codul PHP al unei Acţiuni selectaţi-o din listă';
+$string['selectonefieldkeyindex'] = 'Pentru a vedea codul PHP al unui Câmp/Chei/Index selectaţi-l din listă';
 $string['selecttable'] = 'Selectaţi tabel:';
 $string['shouldbe'] = 'ar trebui să fie';
 $string['statements'] = 'Instrucţiuni';
@@ -99,6 +115,8 @@ $string['vieworiginal'] = 'Vizualizaţi originalul';
 $string['viewphpcode'] = 'Vizualizaţi codul PHP';
 $string['viewsqlcode'] = 'Vizualizaţi codul SQL';
 $string['wrong'] = 'Greșit';
+$string['wrongdefaults'] = 'Au fost identificaţi parametri impliciţi greşiţi';
+$string['wrongints'] = 'Au fost identificate numere întregi greşite';
 $string['wronglengthforenum'] = 'Lungime incorectă pentru câmpul de tip enumerare';
 
 ?>

@@ -1,0 +1,69 @@
+<?PHP // $Id$ 
+      // moodle.org.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+
+
+$string['aboutoverviewtitle'] = 'Ce este Moodle?';
+$string['aboutstatisticstitle'] = 'Statistici';
+$string['conferencecenter'] = 'Centru de conferinţe Moodle';
+$string['connectedsitestitle'] = 'Situri conectate';
+$string['contactmoodlecomhelpdesk'] = 'Moodle.com Helpdesk';
+$string['contactmoodlecomtitle'] = 'Moodle.com';
+$string['contactmoodleorgtitle'] = 'Moodle.org';
+$string['developerlist'] = 'Lista completă a dezvoltatorilor cu drepturi de scriere';
+$string['developerstitle'] = 'Dezvoltatori';
+$string['developmentdocstitle'] = 'Documentaţie dezvoltatori';
+$string['donationstitle'] = 'Donaţii';
+$string['downloadcvstitle'] = 'Moodle via CVS';
+$string['downloadlogotitle'] = 'Moodle Logos';
+$string['downloadmactitle'] = 'Moodle pentru Mac OS X';
+$string['downloadmodulestitle'] = 'Module şi plugin-uri';
+$string['downloadwintitle'] = 'Moodle pentru Windows';
+$string['eventstitle'] = 'Evenimente';
+$string['frontpagewelcometitle'] = 'Bine aţi venit în comunitatea Moodle!';
+$string['generaldeveloperforum'] = 'Forum general dezvoltatori';
+$string['jobstitle'] = 'Moodle Jobs';
+$string['moodlecertification'] = 'Moodle Certification';
+$string['moodleconsulting'] = 'Moodle Consulting';
+$string['moodlecourseware'] = 'Moodle Courseware';
+$string['moodlecustomisation'] = 'Moodle Customisation';
+$string['moodledocs'] = 'Moodle Docs';
+$string['moodlehosting'] = 'Moodle Hosting';
+$string['moodleinstallation'] = 'Moodle Installation';
+$string['moodleintegrations'] = 'Moodle Integrations';
+$string['moodlesupport'] = 'Moodle Support';
+$string['moodlethemes'] = 'Moodle Themes';
+$string['moodletrackertitle'] = 'Moodle Tracker';
+$string['moodletraining'] = 'Moodle Training';
+$string['nameabout'] = 'Despre';
+$string['nameaboutmoodle'] = 'Despre Moodle';
+$string['namecommercial'] = 'Servicii comerciale';
+$string['namecommunity'] = 'Comunitate';
+$string['namecontact'] = 'Contact';
+$string['namedevelopment'] = 'Dezvoltare';
+$string['namedocumentation'] = 'Documentaţie';
+$string['namedownloads'] = 'Downloads';
+$string['nameevents'] = 'Evenimente';
+$string['nameforums'] = 'Forumuri';
+$string['namemycourses'] = 'Cursurile mele';
+$string['namenetwork'] = 'Situri conectate';
+$string['namenews'] = 'Ştiri';
+$string['newsbuzz'] = 'Moodle Buzz';
+$string['newscalendar'] = 'Calendar';
+$string['newsplanet'] = 'Planeta Moodle';
+$string['newsrecent'] = 'Ştiri recente';
+$string['noenrolledcoursesyet'] = 'Nu v-aţi înscris încă la niciunul din cursurile de pe acest sit';
+$string['overviewmy'] = 'Afişează toate cursurile moodle.org la care sunteţi înscris';
+$string['recentpart'] = 'Această pagină afişează numele câtorva dintre utilizatorii care folosesc moodle.org în prezent';
+$string['recentparttitle'] = 'Participanţi recenţi';
+$string['registeredsitestitle'] = 'Situri înregistrate';
+$string['roadmap'] = 'Moodle Roadmap';
+$string['shoptitle'] = 'Magazin Moodle';
+$string['sourcecodetitle'] = 'Cod Open source';
+$string['supportbookstitle'] = 'Cărţi şi manuale';
+$string['supportcommercialtitle'] = 'Servicii comerciale';
+$string['supportdocsfaq'] = 'Întrebări frecvente';
+$string['supportdocslang'] = 'Moodle Docs în alte limbi';
+$string['supportdocstitle'] = 'Documentaţie';
+$string['supportforumslangname'] = 'Moodle Lounge';
+
+?>

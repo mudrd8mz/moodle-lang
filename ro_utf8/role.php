@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
+      // role.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addrole'] = 'Adaugă un nou rol';
@@ -10,6 +10,7 @@ $string['allsiteusers'] = 'Toți utilizatorii sit-ului';
 $string['assignglobalroles'] = 'Asociază roluri de sistem';
 $string['assignroles'] = 'Asociază roluri';
 $string['assignrolesin'] = 'Asociază roluri în $a';
+$string['backup:userinfo'] = 'Creează o copie de rezervă pentru informaţiile despre utilizator';
 $string['block:view'] = 'Vezi bloc';
 $string['blog:create'] = 'Creare articol nou';
 $string['blog:manageentries'] = 'Modificare și gestionare articole';
@@ -18,9 +19,25 @@ $string['blog:managepersonaltags'] = 'Administrează etichete personale';
 $string['blog:view'] = 'Vizualizare articole';
 $string['category:create'] = 'Creare categori';
 $string['category:delete'] = 'Ștergere categori';
+$string['category:update'] = 'Actualizează categorii';
+$string['category:viewhiddencategories'] = 'Afişează categorii ascunse';
+$string['category:visibility'] = 'Afişează categorii ascunse';
+$string['course:activityvisibility'] = 'Ascunde/afişează activităţi';
+$string['course:bulkmessaging'] = 'Trimite un mesaj la mai multe persoane';
+$string['course:changecategory'] = 'Schimbă categoria cursului';
 $string['course:changefullname'] = 'Modificare nume curs';
+$string['course:changeidnumber'] = 'Schimbă nr ID al cursului';
 $string['course:create'] = 'Creare cursuri';
 $string['course:delete'] = 'Ștergere cursuri';
+$string['course:update'] = 'Actualizează setări curs';
+$string['course:useremail'] = 'Activează/dezactivează adresă de email';
+$string['course:view'] = 'Afişează cursuri';
+$string['course:viewcoursegrades'] = 'Afişează note cursuri';
+$string['course:viewhiddenactivities'] = 'Afişează activităţi ascunse';
+$string['course:viewhiddencourses'] = 'Afişează cursuri ascunse';
+$string['course:viewhiddensections'] = 'Afişează secţiuni ascunse';
+$string['course:viewparticipants'] = 'Afişează participanţi';
+$string['course:visibility'] = 'Ascunde/afişează cursuri';
 $string['currentcontext'] = 'Context curent';
 $string['currentrole'] = 'Rol curent';
 $string['defaultrole'] = 'Rol implicit';
@@ -30,6 +47,9 @@ $string['editrole'] = 'Modifică rol';
 $string['errorbadrolename'] = 'Nume rol incorect';
 $string['errorbadroleshortname'] = 'Nume scurt rol incorect';
 $string['globalrole'] = 'Rol de sistem';
+$string['grade:edit'] = 'Modifică note';
+$string['grade:export'] = 'Exportă note';
+$string['grade:import'] = 'Importă note';
 $string['inherit'] = 'Moștenește';
 $string['listallroles'] = 'Listează toate rolurile';
 $string['localroles'] = 'Roluri atribuite local';
@@ -44,8 +64,34 @@ $string['overrideroles'] = 'Suprascrie roluri';
 $string['overriderolesin'] = 'Suprascrie roluri în $a';
 $string['overrides'] = 'Suprascrie';
 $string['permissions'] = 'Permisiuni';
+$string['question:add'] = 'Adaugă întrebări noi';
+$string['question:config'] = 'Configurează tipuri întrebări';
 $string['question:editall'] = 'Modifică toate întrebările';
 $string['question:editmine'] = 'Modifică propriile întrebări';
+$string['question:managecategory'] = 'Editează categorii întrebări';
+$string['question:moveall'] = 'Mută toate întrebările';
+$string['question:movemine'] = 'Mută doar întrebările proprii';
+$string['question:useall'] = 'Foloseşte toate întrebările';
+$string['question:usemine'] = 'Foloseşte întrebările proprii';
+$string['question:viewall'] = 'Afişează toate întrebările';
+$string['question:viewmine'] = 'Afişează toate întrebările proprii';
+$string['resetrole'] = 'Revenire la parametri impliciţi';
+$string['risks'] = 'Riscuri';
+$string['role:assign'] = 'Atribuie roluri utilizatorilor';
 $string['roles'] = 'Roluri';
+$string['selectrole'] = 'Selectaţi un rol';
+$string['showallroles'] = 'Afişează toate rolurile';
+$string['site:config'] = 'Schimbă configurare sit';
+$string['site:sendmessage'] = 'Trimite mesaje oricărui utilizator';
+$string['site:viewparticipants'] = 'Afişează participanţi';
+$string['site:viewreports'] = 'Afişează rapoarte';
+$string['tag:create'] = 'Creează etichete noi';
+$string['tag:edit'] = 'Modifică etichete existente';
+$string['user:changeownpassword'] = 'Schimbă parola proprie';
+$string['user:create'] = 'Creează utilizatori';
+$string['user:delete'] = 'Şterge utilizatori';
+$string['user:editownprofile'] = 'Modificare profil utilizator propriu';
+$string['user:editprofile'] = 'Modificare profil utilizator';
+$string['user:update'] = 'Actualizare profile utilizatori';
 
 ?>

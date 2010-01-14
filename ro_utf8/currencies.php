@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // currencies.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
+      // currencies.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['AED'] = 'dirham Emiratele Arabe Unite';
@@ -21,16 +21,21 @@ $string['BOB'] = 'bolivian bolivian';
 $string['BRR'] = 'real brazilia';
 $string['BSD'] = 'dolar Bahamas';
 $string['BTN'] = 'ngultrum Bhutan';
+$string['BUK'] = 'Myanmar Kyat';
 $string['BWP'] = 'pull Botswana';
 $string['BZD'] = 'dolar Belize';
 $string['CAD'] = 'dolar canadian';
+$string['CDZ'] = 'Zaire New Zaire';
 $string['CHF'] = 'franc elvețian';
+$string['CLF'] = 'Chilean Unidades de Fomento';
 $string['CLP'] = 'peso chilian';
 $string['CNY'] = 'yuam renminbi chinezesc';
 $string['COP'] = 'peso columbian';
 $string['CRC'] = 'colon Costa Rica';
+$string['CSD'] = 'dinar sârbesc';
 $string['CUP'] = 'peso cubanez';
 $string['CVE'] = 'escudo Capul Verde';
+$string['CYP'] = 'lira cipriotă';
 $string['CZK'] = 'coroana cehă';
 $string['DJF'] = 'franc Djibouti';
 $string['DKK'] = 'coroana daneză';
@@ -45,7 +50,9 @@ $string['GBP'] = 'lira sterlină';
 $string['GHC'] = 'cedi Ghana';
 $string['GIP'] = 'lira Gibraltar';
 $string['GMD'] = 'dalasi Gambia';
+$string['GNF'] = 'Guinea Franc';
 $string['GTQ'] = 'quetzal Guatemala';
+$string['GWP'] = 'Guinea-Bissau Peso';
 $string['GYD'] = 'dolar Guyana';
 $string['HKD'] = 'dolar Hong Kong';
 $string['HNL'] = 'lempira Honduras';
@@ -78,6 +85,7 @@ $string['MGF'] = 'franc Madagascar';
 $string['MNT'] = 'tugrik Mongolia';
 $string['MOP'] = 'pataca Macao';
 $string['MRO'] = 'ouguiya Mauritania';
+$string['MTL'] = 'Maltese Lira';
 $string['MUR'] = 'rupia Mauritius';
 $string['MVR'] = 'rufiyaa Maldive';
 $string['MWK'] = 'kwacha Malawi';
@@ -112,12 +120,14 @@ $string['SLL'] = 'leu Sierra Leone';
 $string['SOS'] = 'siling Somalia';
 $string['SRG'] = 'gulden Surinam';
 $string['STD'] = 'dobra Sao Tome și Principe';
+$string['SUR'] = 'rubla rusească';
 $string['SVC'] = 'colon El Salvador';
 $string['SYP'] = 'lira siriană';
 $string['SZL'] = 'lilangeni Swaziland';
 $string['THB'] = 'baht tailandez';
 $string['TND'] = 'dinar tunisian';
 $string['TOP'] = 'tongan Paranga';
+$string['TPE'] = 'East Timor Escudo';
 $string['TRL'] = 'lira turcească nouă';
 $string['TTD'] = 'dolar Trinidad & Tobago';
 $string['TWD'] = 'dolar nou Taiwan';

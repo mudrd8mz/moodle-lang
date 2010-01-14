@@ -1,0 +1,61 @@
+<?PHP // $Id$ 
+      // message.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+
+
+$string['addcontact'] = 'Adaugă prieten';
+$string['addsomecontacts'] = 'Dacă doriţi să trimiteţi un mesaj unui utilizator sau dacă doriţi să adăugaţi un shortcut pentru acel utilizator în cadrul acestei pagini folosiţi <a href=\"$a\">tab-ul Căutare</a> de mai sus.';
+$string['addsomecontactsincoming'] = 'Acestea sunt mesaje primite de la persoane care nu se află pe lista dumneavoastră de prieteni. Dacă doriţi să le adăugaţi la lista de prieteni folosiţi icon-ul Adaugă prieten alăturat fiecărui nume.';
+$string['ago'] = '$a în urmă';
+$string['allmine'] = 'Toate mesajele către mine sau de la mine';
+$string['allstudents'] = 'Toate mesajele schimbate de cursanţii acestui curs';
+$string['allusers'] = 'Toate mesajele de la toţi utilizatorii';
+$string['backupmessageshelp'] = 'Dacă activaţi acest parametru, mesajele în timp real vor fi incluse în procesul de realizare a cópiilor de siguranţă pentru ÎNTREGUL SIT';
+$string['beepnewmessage'] = 'Atenţionează-mă sonor atunci când primesc un mesaj (este posibil ca pentru această funcţionalitate să fie necesară instalarea unui plugin pentru redarea sunetelor)';
+$string['blocknoncontacts'] = 'Blochează toate mesajele noi de la persoane care nu se află în lista mea de prieteni';
+$string['contactlistempty'] = 'În lista dumneavoastră de prieteni nu se regăseşte nicio persoană';
+$string['contacts'] = 'Prieteni';
+$string['context'] = 'context';
+$string['deletemessagesdays'] = 'Numărul de zile după care mesajele vechi sunt şterse automat';
+$string['discussion'] = 'Discuţie';
+$string['emailmessages'] = 'Mesaje email dacă nu sunt conectat';
+$string['emailtagline'] = 'Acest email este o copie a unui mesaj pe care l-aţi primit de la \"$a\"';
+$string['keywords'] = 'Cuvinte cheie';
+$string['keywordssearchresults'] = 'Rezultate căutare: s-au găsit $a mesaje';
+$string['mailsent'] = 'Mesajul dumneavoastră a fost trimis prin email.';
+$string['maxmessages'] = 'Numărul maxim de mesaje care vor fi afişate în istoricul discuţiei';
+$string['message'] = 'Mesaj';
+$string['messagehistory'] = 'Istoric mesaj';
+$string['messages'] = 'Mesaje';
+$string['mycontacts'] = 'Prietenii mei';
+$string['newonlymsg'] = 'Afişează doar noi';
+$string['newsearch'] = 'Căutare nouă';
+$string['noframesjs'] = 'Versiune fără frame-uri şi JavaScript';
+$string['nomessagesfound'] = 'Nu s-a găsit niciun mesaj';
+$string['offline'] = 'Offline';
+$string['offlinecontacts'] = 'Prieteni offline ($a)';
+$string['online'] = 'Online';
+$string['onlinecontacts'] = 'Prieteni Online ($a)';
+$string['onlyfromme'] = 'Doar mesaje de la mine';
+$string['onlymycourses'] = 'Doar în cursurile mele';
+$string['onlytome'] = 'Doar mesaje către mine';
+$string['pagerefreshes'] = 'Această pagină se actualizează automat la fiecare $a secunde';
+$string['readmessages'] = '$a mesaje citite';
+$string['removecontact'] = 'Şterge prieten din listă';
+$string['savemysettings'] = 'Salvează setările mele';
+$string['search'] = 'Căutare';
+$string['searchforperson'] = 'Caută persoană';
+$string['searchmessages'] = 'Caută mesaj';
+$string['sendmessage'] = 'Trimite mesaj';
+$string['sendmessageto'] = 'Trimite mesaj la $a';
+$string['sendmessagetopopup'] = 'Trimite mesaj la $a - în fereastră nouă';
+$string['settings'] = 'Setări';
+$string['settingssaved'] = 'Setările dumneavoastră au fost salvate';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'Minute de când am fost văzut online  ultima oară';
+$string['timesent'] = 'Ora trimitere';
+$string['unreadmessages'] = '$a mesaje necitite';
+$string['userisblockingyou'] = 'Acest utilizator nu doreşte să primească mesaje de la dumneavoastră';
+$string['userisblockingyounoncontact'] = 'Acest utilizator doreşte să primească mesaje doar de la persoanele din lista lui/ei de prieteni şi dumneavoastră nu vă aflaţi în lista de prieteni.';
+$string['userssearchresults'] = 'Rezultate căutare: au fost găsiţi $a utilizatori';
+
+?>

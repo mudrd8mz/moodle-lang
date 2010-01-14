@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // access.php - created with Moodle 1.9.5+ (Build: 20091014) (2007101553)
+      // access.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['access'] = 'Accesibilitate';
@@ -21,8 +21,8 @@ $string['skipblock'] = 'Omite bloc';
 $string['skipnavigation'] = 'Omite navigare';
 $string['tabledata'] = 'Tabel date, $a';
 $string['tablelayout'] = 'Tabel așezare în pagină, $a';
-$string['tocontent'] = 'Sari la conținut';
+$string['tocontent'] = 'Mergi la conţinut';
 $string['tonavigation'] = 'Mergi la navigare';
-$string['youarehere'] = 'Ești aici';
+$string['youarehere'] = 'Vă aflaţi aici';
 
 ?>
