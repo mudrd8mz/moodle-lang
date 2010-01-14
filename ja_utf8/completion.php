@@ -1,13 +1,13 @@
 <?PHP // $Id$ 
-      // completion.php - created with Moodle 2.0 dev (Build: 20090703) (2009070100)
+      // completion.php - created with Moodle 2.0 dev (Build: 20100113) (2010011201)
 
 
 $string['activitycompletion'] = '活動完了';
 $string['badautocompletion'] = '「条件を満たした場合、活動完了を表示する」を選択した場合、あなたは少なくとも (下記の) 1つの必要条件も有効にする必要があります。';
 $string['completedunlocked'] = '完了オプションのロックが解除されました。';
-$string['completedunlockedtext'] = 'あなたが変更を保存した場合、すべてのユーザの完了状態は消去されます。完了状態の消去に関して、あなたが方針を変更する場合、フォームを保存しないでください。';
+$string['completedunlockedtext'] = 'あなたが変更を保存した場合、すべてのユーザの完了状態は消去されます。完了状態の消去に関して、あなたが方針を変更した場合、フォームを保存しないでください。';
 $string['completedwarning'] = '完了オプションがロックされました。';
-$string['completedwarningtext'] = 'すでに1名またはそれ以上のユーザ ($a) がこの活動の完了をマークしています。完了オプションを変更することで、それらの完了状況を消去しますので、混乱の原因となる可能性があります。完了オプションはロックされてます。あなたが絶対に必要な場合を除き、ロック解除しないことをお勧めします。';
+$string['completedwarningtext'] = 'すでに1名またはそれ以上のユーザ ($a) がこの活動の完了をマークしています。完了オプションを変更することで、それらの完了状況を消去しますので、混乱の原因となる可能性があります。完了オプションは、ロックされてます。あなたが絶対に必要な場合を除き、ロック解除しないことをお勧めします。';
 $string['completion'] = '完了トラッキング';
 $string['completion-alt-auto-enabled'] = 'システムは、このアイテムに対して、状態に応じて完了をマークします。';
 $string['completion-alt-auto-fail'] = '完了 (合格点未到達)';
@@ -28,15 +28,15 @@ $string['completionexpected'] = '期待される完了日';
 $string['completionicons'] = '進捗チェックボックス';
 $string['completionreport'] = '完了進捗レポート';
 $string['completionusegrade'] = '評定を必要とする';
-$string['completionusegrade_text'] = 'ユーザは活動を評定される必要があります。';
+$string['completionusegrade_text'] = 'ユーザは、活動を評定される必要があります。';
 $string['completionview'] = '閲覧を必要とする';
-$string['completionview_text'] = 'ユーザは活動を閲覧する必要があります。';
+$string['completionview_text'] = 'ユーザは、活動を閲覧する必要があります。';
 $string['configenablecompletion'] = 'この設定を有効にした場合、あなたはコースレベルで完了 (進捗) トラッキングすることができます。';
 $string['configprogresstrackedroles'] = '進捗トラッキング画面に表示されるロールです (通常、学生および同等のロールを含みます)。';
 $string['csvdownload'] = 'スプレッドシートフォーマットでダウンロードする (UTF-8 .csv)';
 $string['enablecompletion'] = '完了トラッキングを有効にする';
-$string['err_noactivities'] = 'すべての活動で完了情報は有効にされていないため、何も表示されません。活動の設定画面により、あなたは完了情報を有効にすることができます。';
-$string['err_nousers'] = 'このコースまたはグループには、完了情報を表示するユーザはいません (デフォルトでは、完了情報は学生のみに表示されます。学生が登録されていない場合、このエラーが表示されます。管理者は、このオプションを管理画面で変更することができます)。';
+$string['err_noactivities'] = 'すべての活動で完了情報が有効にされていないため、何も表示されません。活動の設定画面により、あなたは完了情報を有効にすることができます。';
+$string['err_nousers'] = 'このコースまたはグループには、完了情報を表示するユーザはいません (デフォルトでは、完了情報は、学生のみに表示されます。学生が登録されていない場合、このエラーが表示されます。管理者は、このオプションを管理画面で変更することができます)。';
 $string['err_system'] = '完了システムで内部エラーが発生しました (詳細情報を表示するため、システム管理者はデバッグ情報の表示を有効にできます)。';
 $string['excelcsvdownload'] = 'Excel互換フォーマットでダウンロードする (.csv)';
 $string['help_completion'] = '完了トラッキング';
