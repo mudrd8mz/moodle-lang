@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20100114) (2010011400)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20100114) (2007101571.01)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -169,7 +169,7 @@ $string['auth_ldap_groupecreators_key'] = 'Gruppenersteller';
 $string['auth_ldap_host_url'] = 'Geben Sie einen LDAP-Server in URL-Form an, wie etwa \'ldap://ldap.meinserver.de/\' oder \'ldaps://ldap. meinserver.de/\'. Möchten Sie im Fehlerfall einen zweiten LDAP-Server verwenden (LDAP-Failover), so trennen Sie Angaben bitte mit \';\' (Semikolon).';
 $string['auth_ldap_host_url_key'] = 'Host URL';
 $string['auth_ldap_ldap_encoding'] = 'Geben Sie die Codierung des LDAP-Servers an. Meistens ist dies utf-8, aber MS AD v2 verwendet eine andere Codierung, wie cp1252, cp1250, usw.';
-$string['auth_ldap_ldap_encoding_key'] = 'LDAP-Codierung';
+$string['auth_ldap_ldap_encoding_key'] = 'Codierung';
 $string['auth_ldap_login_settings'] = 'Login-Einstellungen';
 $string['auth_ldap_memberattribute'] = 'Optional: Mitgliedsmerkmal ändern, mit dem Nutzer/innen zu einer Gruppe gehören. Normalerweise \'member\'';
 $string['auth_ldap_memberattribute_isdn'] = 'Optional: Gebrauch von Mitgliedsmerkmalen ändern, entweder 0 oder 1';
@@ -311,8 +311,6 @@ $string['auth_updateremote_ldap'] = '<p><b>Anmerkung:</b> Das Update externer LD
 $string['auth_user_create'] = 'Nutzer-Erstellung aktivieren';
 $string['auth_user_creation'] = 'Neue (anonyme) Nutzer können Nutzerkonten außerhalb der Authentifizierungsquelle erstellen und per E-Mail bestätigen. Sofern Sie dies aktivieren, achten Sie darauf, ebenso modulspezifische Optionen für die Modulerstellung zu konfigurieren.';
 $string['auth_usernameexists'] = 'Der ausgewählte Anwendername existiert bereits - bitte wählen Sie einen anderen.';
-$string['auth_webservicedescription'] = 'Manuell erzeugte Konten für Web-Services';
-$string['auth_webservicetitle'] = 'Web-Services';
 $string['authenticationoptions'] = 'Authentifizierungsoptionen';
 $string['authinstructions'] = 'Hier können Sie Ihren Nutzern Anweisungen geben, welche Nutzernamen und Kennworte sie verwenden sollen. Der eingegebene Text erscheint auf der Anmeldeseite. Wenn Sie nichts eingeben, werden keine Anweisungen angezeigt.';
 $string['auto_add_remote_users'] = 'Automatisches Hinzufügen externer Nutzer';
@@ -322,7 +320,6 @@ $string['chooseauthmethod'] = 'Authentifizierungsmethode';
 $string['createpasswordifneeded'] = 'Kennwort anlegen, falls erforderlich';
 $string['enterthenumbersyouhear'] = 'Bitte tragen Sie die Zahlen ein, die Sie hören';
 $string['enterthewordsabove'] = 'Bitte tragen Sie die angegebenen Worte ein';
-$string['errormaxconsecutiveidentchars'] = 'Kennwörter dürfen bis zu $a aufeinander folgende identische Zeichen besitzen.';
 $string['errorminpassworddigits'] = 'Kennworte müssen mindestens $a Ziffer(n) enthalten';
 $string['errorminpasswordlength'] = 'Kennworte müssen mindestens $a Zeichen lang sein';
 $string['errorminpasswordlower'] = 'Kennworte müssen mindestens $a Kleinbuchstaben enthalten';
@@ -369,19 +366,6 @@ $string['shib_no_attributes_error'] = 'Sie versuchen vermutlich, die Shibboleth 
 $string['shib_not_all_attributes_error'] = 'Moodle benötigt einige Shibboleth-Attribute, die derzeit nicht bereitgestellt werden. Es handelt sich um die Attribute: $a<br />Benachrichtigen Sie bitte den Webmaster des Servers oder Ihren Identity Provider.';
 $string['shib_not_set_up_error'] = 'Die Shibboleth-Authentifizierung scheint nicht richtig eingerichtet zu sein. Beachten Sie die <a href=\"README.txt\">README-Datei</a> mit weiteren Informationen zur Einrichtung der Shibboleth-Authentifizierung.';
 $string['showguestlogin'] = 'Sie können die Gast-Login Schaltfläche auf der Anmeldeseite anzeigen oder verbergen.';
-$string['sso_idp_description'] = 'Veröffentlichen Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Service Provider) auf $a <strong>abonnieren </strong>.</li></ul>
-
-<br />Abonnieren Sie diesen Dienst, um allen angemeldeten Nutzer/innen von $a zu erlauben, auf Ihre Website zuzugreifen, ohne sich hier erneut anmelden zu müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Service Provider) für $a <strong>veröffentlichen </strong>.</li></ul>';
-$string['sso_idp_name'] = 'SSO (Identity Provider)';
-$string['sso_mnet_login_refused'] = 'Der Anmeldename $a[0] ist zum Login auf $a[1] nicht zugelassen.';
-$string['sso_sp_description'] = 'Veröffentlichen Sie diesen Dienst, um authetifizierten Nutzer/innen aus dem Moodle $a einen Zugriff auf Ihre Website zu gewähren, ohne dass sich diese hier erneut anmelden müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Identity Provider) auf $a <strong>abonnieren </strong>.</li></ul>
-
-<br />Abonnieren Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Identity Provider) für $a <strong> veröffentlichen </strong>.</li></ul>';
-$string['sso_sp_name'] = 'SSO (Service Provider)';
 $string['stdchangepassword'] = 'Standardseite zur Kennwortänderung nutzen';
 $string['stdchangepassword_expl'] = 'Stellen Sie Ja ein, wenn das externe Authentifizierungssystem eine Änderung des Kennwortes durch Moodle zulässt. Die Einstellungen überschreiben \'Kennwort-URL ändern\'';
 $string['stdchangepassword_explldap'] = 'Anmerkung: Es wird empfohlen LDAP über einen SSL verschlüsselten Tunnel (ldaps://) zu nutzen, wenn der LDAP Server remote verwendet wird.';
@@ -391,7 +375,23 @@ $string['update_never'] = 'Nie';
 $string['update_oncreate'] = 'Beim Anlegen';
 $string['update_onlogin'] = 'Bei jedem Login';
 $string['update_onupdate'] = 'Bei der Aktualisierung';
-$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"';
-$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"';
+$string['auth_webservicedescription'] = 'Manuell erzeugte Konten für Web-Services'; // ORPHANED
+$string['auth_webservicetitle'] = 'Web-Services'; // ORPHANED
+$string['errormaxconsecutiveidentchars'] = 'Kennwörter dürfen bis zu $a aufeinander folgende identische Zeichen besitzen.'; // ORPHANED
+$string['sso_idp_description'] = 'Veröffentlichen Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
+<ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Service Provider) auf $a <strong>abonnieren </strong>.</li></ul>
+
+<br />Abonnieren Sie diesen Dienst, um allen angemeldeten Nutzer/innen von $a zu erlauben, auf Ihre Website zuzugreifen, ohne sich hier erneut anmelden zu müssen.
+<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Service Provider) für $a <strong>veröffentlichen </strong>.</li></ul>'; // ORPHANED
+$string['sso_idp_name'] = 'SSO (Identity Provider)'; // ORPHANED
+$string['sso_mnet_login_refused'] = 'Der Anmeldename $a[0] ist zum Login auf $a[1] nicht zugelassen.'; // ORPHANED
+$string['sso_sp_description'] = 'Veröffentlichen Sie diesen Dienst, um authetifizierten Nutzer/innen aus dem Moodle $a einen Zugriff auf Ihre Website zu gewähren, ohne dass sich diese hier erneut anmelden müssen.
+<ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Identity Provider) auf $a <strong>abonnieren </strong>.</li></ul>
+
+<br />Abonnieren Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
+<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Identity Provider) für $a <strong> veröffentlichen </strong>.</li></ul>'; // ORPHANED
+$string['sso_sp_name'] = 'SSO (Service Provider)'; // ORPHANED
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"'; // ORPHANED
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"'; // ORPHANED
 
 ?>
