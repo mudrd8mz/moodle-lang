@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20100114) (2007101571.01)
 
 
 $string['CASform'] = 'Volba autentizace';
@@ -335,6 +335,12 @@ $string['getanothercaptcha'] = 'Získat jiné CAPTCHA';
 $string['guestloginbutton'] = 'Tlačítko pro hosta';
 $string['incorrectpleasetryagain'] = 'Špatně, zkuste to prosím znovu.';
 $string['infilefield'] = 'Pole je v souboru povinné';
+$string['informminpassworddigits'] = 'minimální počet číslic: $a';
+$string['informminpasswordlength'] = 'minimální počet znaků: $a';
+$string['informminpasswordlower'] = 'minimální počet malých písmen: $a';
+$string['informminpasswordnonalphanum'] = 'minimální počet znaků jiných než číslice nebo písmeno: $a';
+$string['informminpasswordupper'] = 'minimální počet velkých písmen: $a';
+$string['informpasswordpolicy'] = 'V hesle musí být $a';
 $string['instructions'] = 'Pokyny';
 $string['internal'] = 'Interní';
 $string['locked'] = 'Uzamknuto';

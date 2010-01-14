@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 1.9.4+ (Build: 20090426) (2007101546.02)
+      // chat.php - created with Moodle 1.9.7+ (Build: 20100114) (2007101571.01)
 
 
 $string['autoscroll'] = 'Automaticky rolovat';
@@ -34,6 +34,9 @@ $string['explainmethodnormal'] = 'Tato nastavení se uplatní, <strong>pouze</st
 $string['generalconfig'] = 'Obecná konfigurace';
 $string['helpchatting'] = 'Nápověda k chatování';
 $string['idle'] = 'Nečinný';
+$string['list_all_sessions'] = 'Seznam všech chatování';
+$string['list_complete_sessions'] = 'Seznam všech ukončených chatování';
+$string['listing_all_sessions'] = 'Zobrazení seznamu chatování';
 $string['messagebeepseveryone'] = '$a někoho prozvání!';
 $string['messagebeepsyou'] = '$a vás prozvání!';
 $string['messageenter'] = '$a právě vstoupil(a) do tohoto chatu';
@@ -46,6 +49,7 @@ $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chatování';
 $string['neverdeletemessages'] = 'Nikdy neodstraňovat zprávy';
 $string['nextsession'] = 'Příští naplánované chatování';
+$string['no_complete_sessions_found'] = 'Nenalezeno žádné ukončené chatování';
 $string['noguests'] = 'Tento chat není otevřen pro hosty';
 $string['nomessages'] = 'Zatím žádné zprávy';
 $string['normalkeepalive'] = 'KeepAlive';

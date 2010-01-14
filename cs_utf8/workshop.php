@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.8 + (2007021502)
+      // workshop.php - created with Moodle 1.9.7+ (Build: 20100114) (2007101571.01)
 
 
 $string['absent'] = 'Chybí';
@@ -218,6 +218,7 @@ $string['releaseteachergrades'] = 'Zveřejnit známky udělené učitelem';
 $string['removeallattachments'] = 'Odstranit všechny přílohy';
 $string['repeatanalysis'] = 'Opakovat analýzu';
 $string['reply'] = 'Odpovědět';
+$string['resetworkshopall'] = 'Odstranit odevzdané práce, známky a hodnocení';
 $string['returnto'] = 'Vrátit se k';
 $string['returntosubmissionpage'] = 'Vrátit se na stránku odevzdávání práce';
 $string['rubric'] = 'Sady charakteristik';

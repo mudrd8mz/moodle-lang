@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.6+ (Build: 20091124) (2007101563.03)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20100114) (2007101571.01)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -159,6 +159,7 @@ $string['backuplogdetailed'] = 'Podrobný protokol';
 $string['backuploglaststatus'] = 'Poslední protokol';
 $string['backuplogshelp'] = 'Zahrnout do automatických záloh protokoly kurzu';
 $string['backupmetacoursehelp'] = 'Zahrnout do automatických záloh informaci o metakurzech (zděděné zápisy do kurzů)';
+$string['backupmissinguserinfoperms'] = 'Poznámka: Tato záloha neobsahuje data uživatelů. Modul Workshop (a případně Cvičení) nebude do zálohy zahrnut, protože není s tímto typem zálohy kompatibilní.';
 $string['backupnameformat'] = '%%Y-%%m-%%d-%%H-%%M';
 $string['backupnext'] = 'Příští záloha';
 $string['backupnoneusersinfo'] = 'Poznámka: Zvolili jste, že nechcete zálohovat žádné uživatele. Zálohování všech modulů bylo proto přepnuto do režimu \"bez dat uživatelů\". Upozorňujeme, že moduly \"Cvičení\" a \"Workshop\" nejsou s tímto režimem kompatibilní, takže jejich zálohování bylo vypnuto úplně.';
@@ -628,6 +629,10 @@ $string['firstaccess'] = 'První přihlášení';
 $string['firstdayofweek'] = '1';
 $string['firstname'] = 'Křestní jméno';
 $string['firsttime'] = 'Jste tady poprvé?';
+$string['flashlinkmessage'] = 'Aktualizujte verzi vašeho přehrávače Flash';
+$string['flashupgrademessage'] = 'K zobrazení tohoto obsahu je zapotřebí novější verze přehrávače Flash.
+
+Po jeho aktualizaci se možná budete muset odhlásit a znovu přihlásit.';
 $string['folder'] = 'Složka';
 $string['folderclosed'] = 'Zavřená složka';
 $string['folderopened'] = 'Otevřená složka';
@@ -1251,6 +1256,7 @@ $string['resource'] = 'Zdroj';
 $string['resources'] = 'Zdroje';
 $string['restore'] = 'Obnovit';
 $string['restorecancelled'] = 'Obnova přerušena';
+$string['restorecannotcreateuser'] = 'Obnovení této zálohy by si vyžádalo vytvoření nového uživatele \"$a\", ale na to nemáte dostatečná práva';
 $string['restorecoursenow'] = 'Obnovit tento kurz!';
 $string['restoredaccount'] = 'Obnovený účet';
 $string['restoredaccountinfo'] = 'Tento uživatelský účet byl importován z jiného serveru a je potřeba u něj znovu nastavit heslo. Pro nastavení nového hesla pomocí emailu zvolte \"Pokračovat\"';
@@ -1258,7 +1264,10 @@ $string['restorefinished'] = 'Obnova úspěšně dokončena';
 $string['restoreto'] = 'Obnovit do';
 $string['restoretositeadding'] = 'Upozornění: Obnova přidá data na vaši titulní stránku!';
 $string['restoretositedeleting'] = 'Upozornění: Obnova odstraní stávající obsah z vaší titulní stránky a nahradí jej novým!';
+$string['restoreuserconflict'] = 'Obnovení uživatele \"$a\" ze zálohy by vedlo ke konfliktu v seznamu uživatelů';
 $string['restoreuserinfofailed'] = 'Proces obnovy byl přerušen, nemáte oprávnění obnovovat data uživatelů.';
+$string['restoreusersprecheck'] = 'Kontrola uživatelských účtů';
+$string['restoreusersprecheckerror'] = 'Při kontrole uživatelských účtů byly zjištěny problémy';
 $string['restricted'] = 'Nedostupné';
 $string['restrictmodules'] = 'Omezit moduly činností?';
 $string['returningtosite'] = 'Vracíte se na tyto stránky?';

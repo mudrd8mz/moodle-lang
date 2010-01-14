@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.6+ (Build: 20091124) (2007101563.03)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20100114) (2007101571.01)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samopodepsané)';
@@ -54,6 +54,7 @@ $string['expires'] = 'Platný do';
 $string['expireyourkey'] = 'Odstranit tento klíč';
 $string['expireyourkeyexplain'] = 'Moodle automaticky obměňuje vaše klíče každých 28 dnů (implicitně), ale můžete tento klíč odvolat <em>ručně</em> kdykoli. To se může hodit v případě, že máte dojem, že tento klíč byl zneužit. Okamžitě bude vygenerována náhrada.<br />Odstranění tohoto klíče znemožní ostatním serverům v síti MNet komunikovat s vaším serverem, dokud ručně nedodáte jejich správcům váš nový klíč.';
 $string['failedaclwrite'] = 'Pokus o přidání záznamu do seznamu pro řízení přístupu z MNet pro uživatele \'$a\' selhal.';
+$string['findlogin'] = 'Najít uživatelské jméno';
 $string['forbidden-function'] = 'Tato funkce nebyla zpřístupněna pro RPC.';
 $string['forbidden-transport'] = 'Pokoušíte se použít nepovolenou transportní metodu.';
 $string['forcesavechanges'] = 'Nucené uložení změn';
@@ -97,6 +98,10 @@ $string['mnet_concatenate_strings'] = 'Sloučit až do 3 řetězců a vrátit v�
 $string['mnet_session_prohibited'] = 'Uživatelé vašeho domovského serveru se momentálně nemohou připojit na $a.';
 $string['mnetdisabled'] = 'Síť MNet <strong>není povolena</strong>.';
 $string['mnetenrol'] = 'Zápisy';
+$string['mnetidprovider'] = 'Poskytovatel MNet identity';
+$string['mnetidproviderdesc'] = 'Pomocí tohoto nástroje můžete získat odkaz, na němž se budete moci přihlásit a poté přejít na tyto stránky. Tuto funkci lze použít pouze tehdy, pokud jste se již někdy v minulosti pomocí sítě MNet na tyto stránky přihlásili.';
+$string['mnetidprovidermsg'] = 'Přihlaste se na stránkách $a a poté přejděte na naše stránky pomocí MNet.';
+$string['mnetidprovidernotfound'] = 'Bohužel, nenalezen žádný záznam.';
 $string['mnetlog'] = 'Protokoly';
 $string['mnetpeers'] = 'Partneři';
 $string['mnetservices'] = 'Služby';
@@ -112,6 +117,7 @@ $string['nocurl'] = 'Knihovna PHP cURL není nainstalována';
 $string['nohostid'] = 'Tato stránka vyžaduje ID hostitele, což by mělo být celé číslo.';
 $string['noipmatch'] = 'Adresa vzdáleného stroje: <br /><em>$a[0]</em><br />neodpovídá uložené adrese:<br /><em>$a[1]</em>.';
 $string['nolocaluser'] = 'Pro vzdáleného uživatele neexistuje lokální záznam.';
+$string['nolocaluser2'] = 'Pro vzdáleného uživatele neexistuje lokální záznam a nemohl být automaticky vytvořen vzhledem k nastavení tohoto hostitele. Prosím, kontaktujte správce.';
 $string['nomodifyacl'] = 'Nemáte oprávnění měnit seznam pro řízení přístupu k MNet.';
 $string['nonmatchingcert'] = 'Předmět certifikátu:<br /><em>$a[0]</em><br /> neodpovídá hostiteli, ze kterého pochází:<br /><em>$a[1]</em>.';
 $string['nopubkey'] = 'Vyskytl se problém se získáním veřejného klíče.<br /> Je možné, že hostitel nemá povolenu síť MNet, nebo je klíč neplatný.';

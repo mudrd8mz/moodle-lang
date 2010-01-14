@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.6+ (Build: 20091124) (2007101563.03)
+      // report_security.php - created with Moodle 1.9.7+ (Build: 20100114) (2007101571.01)
 
 
 $string['check_configrw_details'] = '<p>Doporučuje se změnit práva k souboru config.php tak, aby do něj nemohl zapisovat sám webový server.
@@ -103,6 +103,16 @@ $string['check_riskadmin_name'] = 'Správci';
 $string['check_riskadmin_ok'] = 'Počet správců: $a';
 $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) překontrolujte přiřazení role</a>';
 $string['check_riskadmin_warning'] = 'Počet správců: $a->admincount, chybně  přidělených rolí: $a->unsupcount';
+$string['check_riskbackup_details_overriddenroles'] = '<p>Tato lokální přenastavení oprávnění dávají uživatelům možnost zahrnovat v zálohách kurzů data uživatelů. Ujistěte se, že toto oprávnění je opravdu nezbytné.</p> $a';
+$string['check_riskbackup_details_systemroles'] = '<p>Následující role dávají uživatelům možnost zahrnovat v zálohách kurzů data uživatelů. Ujistěte se, že toto oprávnění je opravdu nezbytné.</p> $a';
+$string['check_riskbackup_details_users'] = '<p>Díky nastavení role nebo lokálnímu přenastavení oprávnění mají následující uživatelé možnost vytvářet zálohy obsahující data uživatelů, včetně osobních údajů. Ujistěte se, že tito uživatelé jsou důvěryhodní a že jejich účty jsou chráněny dostatečně silnými hesly.</p> $a';
+$string['check_riskbackup_detailsok'] = 'Žádná role explicitně neumožňuje zálohovat uživatelská data. Nicméně, správci s pravomocí dělat cokoliv (\"doanything\") mají přístup k osobním údajům uživatelů implicitně.';
+$string['check_riskbackup_editoverride'] = '<a href=\"$a->url\">$a->name v $a->contextname</a>';
+$string['check_riskbackup_editrole'] = '<a href=\"$a->url\">$a->name</a>';
+$string['check_riskbackup_name'] = 'Zálohovat data uživatelů';
+$string['check_riskbackup_ok'] = 'Žádná role neumožňuje zálohovat data uživatelů';
+$string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) v $a->contextname</a>';
+$string['check_riskbackup_warning'] = 'Kdo může zálohovat data uživatelů - počet nalezených rolí: $a->rolecount, počet lokálních přenastavení oprávnění: $a->overridecount, celkem uživatelů: $a->usercount';
 $string['check_riskxss_details'] = '<p>Příznakem RISK_XSS jsou označena riskantní oprávnění, která by měla být přiznána pouze důvěryhodným uživatelům.</p>
 <p>Zkontrolujte následující seznam a ujistěte se, že se jedná o uživatele, kterým můžete ve věci bezpečnosti serveru důvěřovat:<br />$a</p>';
 $string['check_riskxss_name'] = 'XSS důvěryhodní uživatelé';
