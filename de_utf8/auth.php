@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20091226) (2007101570)
+      // auth.php - created with Moodle 2.0 dev (Build: 20100114) (2010011400)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -45,7 +45,7 @@ $string['auth_changepasswordurl'] = 'URL zur Kennwortänderung';
 $string['auth_changepasswordurl_expl'] = 'Tragen Sie hier eine URL ein, unter der die Nutzer/innen ein neues Kennworte anfordern können. Wenn Sie diese Option nutzen, sollten Sie die Standardeinstellung zur Kennwortänderung auf \"Nein\" setzen.';
 $string['auth_changingemailaddress'] = 'Sie haben eine Änderung der E-Mail-Adresse von $a->oldemail nach $a->newemail beantragt. Aus Sicherheitsgründen senden wir Ihnen eine Nachricht an Ihre neue E-Mail-Adresse. Sobald Sie zur Bestätigung die in der Nachricht enthaltene URL öffnen, wird Ihre E-Mail-Adresse aktualisiert.';
 $string['auth_common_settings'] = 'Gemeinsame Einstellungen';
-$string['auth_data_mapping'] = 'Data mapping';
+$string['auth_data_mapping'] = 'Datenzuordnung';
 $string['auth_dbcantconnect'] = 'Es konnte keine Verbindung zur angegebenen Authentifizierungsdatenbank hergestellt werden.';
 $string['auth_dbchangepasswordurl_key'] = 'URL zur Kennwortänderung';
 $string['auth_dbdebugauthdb'] = 'Debug ADOdb';
@@ -67,7 +67,7 @@ $string['auth_dbinsertuser'] = 'Eingefügte Nutzer/innen $a[0] id $a[1]';
 $string['auth_dbinsertusererror'] = 'Fehler beim Einfügen von Nutzer/in $a';
 $string['auth_dbname'] = 'Name der Datenbank';
 $string['auth_dbname_key'] = 'DB Name';
-$string['auth_dbpass'] = 'Kennwort, das zum Nutzernamen gehört';
+$string['auth_dbpass'] = 'Kennwort, das zum Anmeldenamen gehört';
 $string['auth_dbpass_key'] = 'Kennwort';
 $string['auth_dbpasstype'] = 'Spezifizieren Sie das Format, das das Kennwortfeld benutzt. MD5-Verschlüsselung ist nützlich dafür, mit anderen üblichen Netzanwendungen Verbindung aufzunehmen, wie z.B. PostNuke';
 $string['auth_dbpasstype_key'] = 'Kennwortformat';
@@ -141,8 +141,8 @@ $string['auth_ldap_ad_create_req'] = 'Im Active Directory konnte kein neuer Acco
 $string['auth_ldap_attrcreators'] = 'Liste von Gruppen oder Kontexten, deren Mitglieder zur Erstellung von Merkmalen berechtigt sind. Mehrere Gruppen werden durch ein \';\' (Semikolon) getrennt. Der Eintrag hat üblicherweise die folgende Form: \'cn=teacher,ou=staff,o=myorg\'.';
 $string['auth_ldap_attrcreators_key'] = 'Merkmal für Kursverwalter/innen';
 $string['auth_ldap_auth_user_create_key'] = 'Nutzer extern anlegen';
-$string['auth_ldap_bind_dn'] = 'Falls Sie für die Nutzerabfrage einen \'Bind-User\' verwenden möchen, so geben Sie dies hier an.  Der Eintrag hat üblicherweise die folgende Form: \'cn=ldapuser,ou=public,o=org\'';
-$string['auth_ldap_bind_dn_key'] = 'Anmeldename des Bind-Users';
+$string['auth_ldap_bind_dn'] = 'Falls Sie für die Nutzerabfrage einen \'Bind-User\' verwenden möchen, so geben Sie dessen Anmeldenamen hier an.  Der Eintrag hat üblicherweise die folgende Form: \'cn=ldapuser,ou=public,o=org\'';
+$string['auth_ldap_bind_dn_key'] = 'Anmeldename';
 $string['auth_ldap_bind_pw'] = 'Kennwort des Bind-Users';
 $string['auth_ldap_bind_pw_key'] = 'Kennwort';
 $string['auth_ldap_bind_settings'] = 'Bind-Einstellungen';
@@ -155,11 +155,11 @@ $string['auth_ldap_create_error'] = 'Fehler beim Anlegen des Nutzerkontos in LDA
 $string['auth_ldap_creators'] = 'Liste von Gruppen oder Kontexten, deren Mitglieder Kurse verwalten und neu anlegen dürfen (Liste der Kursverwalter/innen). Mehrere Gruppen werden durch ein \';\' (Semikolon) getrennt. Normalerweise etwas wie \'cn=teachers,ou=staff,o=myorg\'';
 $string['auth_ldap_creators_key'] = 'Kursverwalter/innen';
 $string['auth_ldap_expiration_desc'] = 'Setzen Sie \'Nein\' (bzw. \'no\'), um die Überprüfung der Gültigkeitsdauer für Kennworte auszuschalten. Wenn Sie \'LDAP\' wählen, wird die Überprüfung direkt über LDAP abgewickelt.';
-$string['auth_ldap_expiration_key'] = 'Gültigkeitsdauer von Kennworten';
-$string['auth_ldap_expiration_warning_desc'] = 'Diese Zahl gibt an, wie viele Tage vor dem Ende der Gültigkeitsdauer von Kennworten eine Warnung versandt wird.';
-$string['auth_ldap_expiration_warning_key'] = 'Warnung zum Ende der Gültigkeitsdauer von Kennworten';
+$string['auth_ldap_expiration_key'] = 'Gültigkeitsdauer';
+$string['auth_ldap_expiration_warning_desc'] = 'Diese Zahl gibt an, wie viele Tage vor dem Gültigkeitsende von Kennworten eine Warnung versandt wird.';
+$string['auth_ldap_expiration_warning_key'] = 'Warnung zum Gültigkeitsende';
 $string['auth_ldap_expireattr_desc'] = 'Optional: Gültigkeitsdauer von Kennworten ändern';
-$string['auth_ldap_expireattr_key'] = 'Merkmal zur Gültigkeitsdauer von Kennworten';
+$string['auth_ldap_expireattr_key'] = 'Merkmal zur Gültigkeitsdauer';
 $string['auth_ldap_graceattr_desc'] = 'Optional: GraceLogin ändern';
 $string['auth_ldap_gracelogin_key'] = 'Merkmal für GraceLogin';
 $string['auth_ldap_gracelogins_desc'] = 'Unterstützung für GraceLogin in LDAP aktivieren. Wenn das Ende der Gültigkeitsdauer von Kennworten erreicht ist, können sich die Nutzer/innen solange weiter einloggen, bis der GraceLogin-Zähler den Wert 0 hat. Nach dem Aktivieren der Einstellung wird eine GraceLogin-Mitteilung angezeigt, sobald die Gültigkeit des Kennwort abgelaufen ist.';
@@ -181,8 +181,8 @@ $string['auth_ldap_noconnect_all'] = 'LDAP-Modul kann keine Verbindung zu irgend
 $string['auth_ldap_noextension'] = 'Achtung: Die PHP-Erweiterung LDAP scheint nicht verfügbar zu sein. Prüfen Sie bitte, ob sie installiert und aktiviert ist.';
 $string['auth_ldap_objectclass'] = 'Optional: ObjectClass zur Nutzersuche in LDAP (ldap_user_type) ändern. Die Voreinstellung ist \'objectClass=*\' und liefert alle Objekte aus LDAP, was normalerweise nicht geändert werden muss.';
 $string['auth_ldap_objectclass_key'] = 'ObjectClass';
-$string['auth_ldap_opt_deref'] = 'Legt fest wie Aliasbezeichnungen bei der Suche behandelt werden. Wählen Sie einen der folgenden Werte: \"No\" (ldap_deref_never) or \"Yes\" (ldap_deref_always)';
-$string['auth_ldap_opt_deref_key'] = 'Alias berücksichtigen';
+$string['auth_ldap_opt_deref'] = 'Legt fest wie Aliasbezeichnungen bei der Suche behandelt werden. Wählen Sie einen der folgenden Werte: \"Nein\" (ldap_deref_never) oder \"Ja\" (ldap_deref_always)';
+$string['auth_ldap_opt_deref_key'] = 'Aliase berücksichtigen';
 $string['auth_ldap_passtype'] = 'Geben Sie das Format für neue oder geänderte Kennworte auf LDAP-Server an.';
 $string['auth_ldap_passtype_key'] = 'Kennwortformat';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAP-Einstellung für den Gültigkeitsablauf von Kennworten';
@@ -192,7 +192,7 @@ $string['auth_ldap_search_sub'] = 'Nutzer/innen in Subkontexten suchen';
 $string['auth_ldap_search_sub_key'] = 'Subkontexte suchen';
 $string['auth_ldap_server_settings'] = 'LDAP-Server-Einstellungen';
 $string['auth_ldap_unsupportedusertype'] = 'auth: ldap user_create() unterstützt den gewählten Nutzertyp nicht: \'$a\' (..yet)';
-$string['auth_ldap_update_userinfo'] = 'Nutzerdaten (Vorname, Name, Adresse...) von LDAP nach Moodle aktualisieren. Ändern Sie die Einstellungen im Bereich \"Datenübernahme\" entsprechend Ihren Anforderungen.';
+$string['auth_ldap_update_userinfo'] = 'Nutzerdaten (Vorname, Name, Adresse...) von LDAP nach Moodle aktualisieren. Ändern Sie die Einstellungen im Bereich \"Datenzuordnung\" entsprechend Ihren Anforderungen.';
 $string['auth_ldap_user_attribute'] = 'Optional: Merkmal ändern, das benutzt wird, um Nutzer zu benennen oder zu suchen. Normalerweise \'cn\'.';
 $string['auth_ldap_user_attribute_key'] = 'Nutzermerkmal';
 $string['auth_ldap_user_exists'] = 'Der LDAP-Anmeldename existiert bereits!';
@@ -202,9 +202,9 @@ $string['auth_ldap_user_type_key'] = 'Nutzertyp';
 $string['auth_ldap_usertypeundefined'] = 'config.user_type ist nicht definiert oder Funktion ldap_expirationtime2unix unterstützt den ausgewählten Typ nicht!';
 $string['auth_ldap_usertypeundefined2'] = 'config.user_type ist nicht definiert oder Funktion ldap_unixi2expirationtime unterstützt den ausgewählten Typ nicht!';
 $string['auth_ldap_version'] = 'Ihr Server benutzt diese Version des LDAP-Protokolls.';
-$string['auth_ldap_version_key'] = 'LDAP-Version';
-$string['auth_ldapdescription'] = 'Dieses Methode ermöglicht die Authentifizierung über einen externen LDAP-Server. <p>Wenn beim ersten Login der angegebene Anmeldename und das Kennwort für LDAP gültig sind, dann erstellt Moodle automatisch ein neues Nutzerkonto in seiner Datenbank, wobei auch ausgewählte Nutzerdaten aus LDAP ins Nutzerprofil in Moodle übertragen werden können. Für alle weiteren Logins werden dann nur noch der Anmeldename und das Kennwort überprüft.';
-$string['auth_ldapextrafields'] = 'Diese folgenden Felder sind optional. Im Nutzerprofil können automatisch einige Moodle-Felder mit ausgewählten Nutzerdaten aus <b>LDAP-Feldern</b> vorbelegt werden. <p>Wenn Sie die nachfolgenden Einträge leer lassen, wird nichts von LDAP übertragen und Moodle-Voreinstellungen werden verwendet. In diesem Fall muss das Nutzerprofil beim ersten Login selber ausgefüllt werden. <p>Zusätzlich wird eingestellt, welche Felder im Nutzerprofil editierbar sein sollen, nachdem das Nutzerprofil automatisch erstellt wurde.';
+$string['auth_ldap_version_key'] = 'Version';
+$string['auth_ldapdescription'] = 'Diese Methode ermöglicht die Authentifizierung über einen externen LDAP-Server. Wenn beim ersten Login der angegebene Anmeldename und das Kennwort für LDAP gültig sind, dann erstellt Moodle automatisch ein neues Nutzerkonto in seiner Datenbank, wobei auch ausgewählte Nutzerdaten aus LDAP ins Nutzerprofil in Moodle übertragen werden können. Für alle weiteren Logins werden dann nur noch der Anmeldename und das Kennwort überprüft.';
+$string['auth_ldapextrafields'] = 'Die folgenden Felder sind optional. Im Nutzerprofil können automatisch einige Moodle-Felder mit ausgewählten Nutzerdaten aus <b>LDAP-Feldern</b> vorbelegt werden. <p>Wenn Sie die nachfolgenden Einträge leer lassen, wird nichts von LDAP übertragen und Moodle-Voreinstellungen werden verwendet. In diesem Fall muss das Nutzerprofil beim ersten Login selber ausgefüllt werden. <p>Zusätzlich wird eingestellt, welche Felder im Nutzerprofil editierbar sein sollen, nachdem das Nutzerprofil automatisch erstellt wurde.';
 $string['auth_ldapnotinstalled'] = 'Die LDAP-Authentifizierung kann nicht genutzt werden, da die PHP-Erweiterung LDAP nicht auf dem Server installiert ist.';
 $string['auth_ldaptitle'] = 'LDAP-Server';
 $string['auth_manualdescription'] = 'Diese Methode verhindert, dass Personen ihre Zugänge selbst anlegen können. Jedes Nutzerprofil wird manuell vom Administrator eingerichtet.';
@@ -309,17 +309,20 @@ $string['auth_updateremote'] = 'Update externer Daten';
 $string['auth_updateremote_expl'] = '<p><b>Update externer Daten:</b> Wenn diese Einstellung aktiviert ist, dann wird die externe Authentifizierung aktualisiert, sobald der Nutzerdatzensatz aktualisiert wird. Die Felder sollten bearbeitbar bleiben, um Dateneinträge zuzulassen.</p>';
 $string['auth_updateremote_ldap'] = '<p><b>Anmerkung:</b> Das Update externer LDAP-Daten erfordert die Einstellung binddn und bindpw für einen Bind-Nutzer mit Schreibrechten für alle Nutzerdatensätze. Aktuell werden mehrfach gesetzte Eigenschaften nicht unterstützt und die zusätzlichen Werte bei einem Update entfernt.</p>';
 $string['auth_user_create'] = 'Nutzer-Erstellung aktivieren';
-$string['auth_user_creation'] = 'Neue (anonyme) Nutzer können Nutzer-Accounts erstellen außerhalb der Authentifizierungsquelle und per E-Mail bestätigen. Sofern Sie dies aktivieren, achten Sie darauf, ebenso modulspezifische Optionen für die Modulerstellung zu konfigurieren.';
+$string['auth_user_creation'] = 'Neue (anonyme) Nutzer können Nutzerkonten außerhalb der Authentifizierungsquelle erstellen und per E-Mail bestätigen. Sofern Sie dies aktivieren, achten Sie darauf, ebenso modulspezifische Optionen für die Modulerstellung zu konfigurieren.';
 $string['auth_usernameexists'] = 'Der ausgewählte Anwendername existiert bereits - bitte wählen Sie einen anderen.';
+$string['auth_webservicedescription'] = 'Manuell erzeugte Konten für Web-Services';
+$string['auth_webservicetitle'] = 'Web-Services';
 $string['authenticationoptions'] = 'Authentifizierungsoptionen';
 $string['authinstructions'] = 'Hier können Sie Ihren Nutzern Anweisungen geben, welche Nutzernamen und Kennworte sie verwenden sollen. Der eingegebene Text erscheint auf der Anmeldeseite. Wenn Sie nichts eingeben, werden keine Anweisungen angezeigt.';
 $string['auto_add_remote_users'] = 'Automatisches Hinzufügen externer Nutzer';
-$string['changepassword'] = 'Kennwort-URL ändern';
+$string['changepassword'] = 'URL zur Kennwortänderung';
 $string['changepasswordhelp'] = 'Hier können Sie eine Adresse angeben, unter der die Nutzer ihren Nutzernamen/Kennwort ändern können, sofern sie dies vergessen haben. Diese Option wird den Nutzern als Schaltfläche auf der Anmeldungsseite angeboten. Wenn Sie dieses Feld leer lassen, wird die Option nicht angeboten.';
 $string['chooseauthmethod'] = 'Authentifizierungsmethode';
 $string['createpasswordifneeded'] = 'Kennwort anlegen, falls erforderlich';
 $string['enterthenumbersyouhear'] = 'Bitte tragen Sie die Zahlen ein, die Sie hören';
 $string['enterthewordsabove'] = 'Bitte tragen Sie die angegebenen Worte ein';
+$string['errormaxconsecutiveidentchars'] = 'Kennwörter dürfen bis zu $a aufeinander folgende identische Zeichen besitzen.';
 $string['errorminpassworddigits'] = 'Kennworte müssen mindestens $a Ziffer(n) enthalten';
 $string['errorminpasswordlength'] = 'Kennworte müssen mindestens $a Zeichen lang sein';
 $string['errorminpasswordlower'] = 'Kennworte müssen mindestens $a Kleinbuchstaben enthalten';
@@ -366,6 +369,19 @@ $string['shib_no_attributes_error'] = 'Sie versuchen vermutlich, die Shibboleth 
 $string['shib_not_all_attributes_error'] = 'Moodle benötigt einige Shibboleth-Attribute, die derzeit nicht bereitgestellt werden. Es handelt sich um die Attribute: $a<br />Benachrichtigen Sie bitte den Webmaster des Servers oder Ihren Identity Provider.';
 $string['shib_not_set_up_error'] = 'Die Shibboleth-Authentifizierung scheint nicht richtig eingerichtet zu sein. Beachten Sie die <a href=\"README.txt\">README-Datei</a> mit weiteren Informationen zur Einrichtung der Shibboleth-Authentifizierung.';
 $string['showguestlogin'] = 'Sie können die Gast-Login Schaltfläche auf der Anmeldeseite anzeigen oder verbergen.';
+$string['sso_idp_description'] = 'Veröffentlichen Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
+<ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Service Provider) auf $a <strong>abonnieren </strong>.</li></ul>
+
+<br />Abonnieren Sie diesen Dienst, um allen angemeldeten Nutzer/innen von $a zu erlauben, auf Ihre Website zuzugreifen, ohne sich hier erneut anmelden zu müssen.
+<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Service Provider) für $a <strong>veröffentlichen </strong>.</li></ul>';
+$string['sso_idp_name'] = 'SSO (Identity Provider)';
+$string['sso_mnet_login_refused'] = 'Der Anmeldename $a[0] ist zum Login auf $a[1] nicht zugelassen.';
+$string['sso_sp_description'] = 'Veröffentlichen Sie diesen Dienst, um authetifizierten Nutzer/innen aus dem Moodle $a einen Zugriff auf Ihre Website zu gewähren, ohne dass sich diese hier erneut anmelden müssen.
+<ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Identity Provider) auf $a <strong>abonnieren </strong>.</li></ul>
+
+<br />Abonnieren Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
+<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Identity Provider) für $a <strong> veröffentlichen </strong>.</li></ul>';
+$string['sso_sp_name'] = 'SSO (Service Provider)';
 $string['stdchangepassword'] = 'Standardseite zur Kennwortänderung nutzen';
 $string['stdchangepassword_expl'] = 'Stellen Sie Ja ein, wenn das externe Authentifizierungssystem eine Änderung des Kennwortes durch Moodle zulässt. Die Einstellungen überschreiben \'Kennwort-URL ändern\'';
 $string['stdchangepassword_explldap'] = 'Anmerkung: Es wird empfohlen LDAP über einen SSL verschlüsselten Tunnel (ldaps://) zu nutzen, wenn der LDAP Server remote verwendet wird.';
@@ -375,21 +391,7 @@ $string['update_never'] = 'Nie';
 $string['update_oncreate'] = 'Beim Anlegen';
 $string['update_onlogin'] = 'Bei jedem Login';
 $string['update_onupdate'] = 'Bei der Aktualisierung';
-$string['errormaxconsecutiveidentchars'] = 'Kennwörter dürfen bis zu $a aufeinander folgende identische Zeichen besitzen.'; // ORPHANED
-$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"'; // ORPHANED
-$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"'; // ORPHANED
-$string['sso_idp_description'] = 'Veröffentlichen Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Service Provider) auf $a <strong>abonnieren </strong>.</li></ul>
-
-<br />Abonnieren Sie diesen Dienst, um allen angemeldeten Nutzer/innen von $a zu erlauben, auf Ihre Website zuzugreifen, ohne sich hier erneut anmelden zu müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Service Provider) für $a <strong>veröffentlichen </strong>.</li></ul>'; // ORPHANED
-$string['sso_idp_name'] = 'SSO (Identity Provider)'; // ORPHANED
-$string['sso_mnet_login_refused'] = 'Der Anmeldename $a[0] ist zum Login auf $a[1] nicht zugelassen.'; // ORPHANED
-$string['sso_sp_description'] = 'Veröffentlichen Sie diesen Dienst, um authetifizierten Nutzer/innen aus dem Moodle $a einen Zugriff auf Ihre Website zu gewähren, ohne dass sich diese hier erneut anmelden müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen ebenfalls den SSO-Dienst (Identity Provider) auf $a <strong>abonnieren </strong>.</li></ul>
-
-<br />Abonnieren Sie diesen Dienst, um den Nutzer/innen Ihres Moodles einen Wechsel zu $a zu ermöglichen, ohne dass sich diese dort erneut anmelden müssen.
-<ul><li><em>Voraussetzung</em>: Sie müssen zusätzlich den SSO-Dienst (Identity Provider) für $a <strong> veröffentlichen </strong>.</li></ul>'; // ORPHANED
-$string['sso_sp_name'] = 'SSO (Service Provider)'; // ORPHANED
+$string['user_activatenotsupportusertype'] = 'auth: ldap user_activate() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"';
+$string['user_disablenotsupportusertype'] = 'auth: ldap user_disable() unterstützt den ausgewählten Nutzertyp nicht: \"$a\"';
 
 ?>
