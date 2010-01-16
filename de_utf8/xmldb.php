@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
 
 
 $string['actual'] = 'Aktuell';
@@ -52,18 +52,25 @@ $string['delete_sentence'] = 'Satz löschen';
 $string['delete_statement'] = 'Anweisung löschen';
 $string['delete_table'] = 'Tabelle löschen';
 $string['delete_xml_file'] = 'XML-Datei löschen';
-$string['doc'] = 'Doc';
+$string['doc'] = 'Dokumentation';
+$string['docindex'] = 'Dokumentationsindex';
+$string['documentationintro'] = 'Diese Dokumentation wurde automatisch aus der Definition der XMLDB-Datenbank generiert. Sie ist ausschließlich in Englisch verfügbar.';
 $string['down'] = 'Nach unten';
 $string['duplicate'] = 'Kopieren';
 $string['duplicatefieldname'] = 'Es existiert bereits ein anderes Feld mit diesem Namen';
 $string['duplicatekeyname'] = 'Es existiert bereits ein anderer Schlüssel mit diesem Namen';
 $string['edit'] = 'Bearbeiten';
 $string['edit_field'] = 'Feld bearbeiten';
+$string['edit_field_save'] = 'Feld sichern';
 $string['edit_index'] = 'Index bearbeiten';
+$string['edit_index_save'] = 'Index sichern';
 $string['edit_key'] = 'Schlüssel bearbeiten';
+$string['edit_key_save'] = 'Schlüssel sichern';
 $string['edit_sentence'] = 'Satz bearbeiten';
+$string['edit_sentence_save'] = 'Satz sichern';
 $string['edit_statement'] = 'Anweisung bearbeiten';
 $string['edit_table'] = 'Tabelle bearbeiten';
+$string['edit_table_save'] = 'Tabelle sichern';
 $string['edit_xml_file'] = 'XML-Datei bearbeiten';
 $string['enumvaluesincorrect'] = 'Ungültige Feldwerte (enum)';
 $string['expected'] = 'Erwartet';
@@ -71,11 +78,13 @@ $string['extensionrequired'] = 'Entschuldigung, aber für diese Aktion wird die 
 $string['field'] = 'Feld';
 $string['fieldnameempty'] = 'Feldname ist leer';
 $string['fields'] = 'Felder';
-$string['fieldsusedinkey'] = 'Das Feld wird als Key genutzt.';
+$string['fieldsnotintable'] = 'Feld existiert nicht in der Tabelle';
+$string['fieldsusedinkey'] = 'Das Feld wird als Schlüssel genutzt';
 $string['filenotwriteable'] = 'Datei ist schreibgeschützt';
 $string['fkviolationdetails'] = 'Fremdschlüssel $a->keyname in der Tabelle $a->tablename ist zerstört in $a->numviolations von $a->numrows Zeilen.';
 $string['floatincorrectdecimals'] = 'Falsche Anzahl von Nachkommazahlen (float)';
 $string['floatincorrectlength'] = 'Falsche Feldlänge (float)';
+$string['generate_all_documentation'] = 'Gesamte Dokumentation';
 $string['generate_documentation'] = 'Dokumentation';
 $string['gotolastused'] = 'Zur zuletzt genutzten Datei';
 $string['incorrectfieldname'] = 'Falscher Name';
@@ -144,6 +153,7 @@ $string['viewedited'] = 'Bearbeitete anzeigen';
 $string['vieworiginal'] = 'Original anzeigen';
 $string['viewphpcode'] = 'PHP-Code anzeigen';
 $string['viewsqlcode'] = 'SQL-Code anzeigen';
+$string['viewxml'] = 'XML';
 $string['violatedforeignkeys'] = 'Zerstörte Fremdschlüssel';
 $string['violatedforeignkeysfound'] = 'Zerstörte Fremdschlüssel gefunden';
 $string['violations'] = 'Zerstörungen';

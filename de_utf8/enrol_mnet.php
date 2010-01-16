@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 1.9 Beta + (2007100903)
+      // enrol_mnet.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
 
 
 $string['allcategories'] = '$a mögliche Kategorien';
@@ -8,6 +8,10 @@ $string['allow_allcourses'] = 'Anmeldung in allen Remote-Kursen zulassen';
 $string['allowedcategories'] = '$a zugelassene Kategorien';
 $string['allowedcourses'] = '$a zugelassene Kurse';
 $string['allowedcourseslinktext'] = 'Zugelassene Kurs und Kategorien hier bearbeiten';
+$string['couldnotcreateuser'] = 'Beim Anlegen des Nutzers ist ein Fehler aufgetreten!';
+$string['couldnotenrol'] = 'Der Nutzer konnte nicht aus dem Kurs ausgetragen werden!';
+$string['coursenotfound'] = 'Der Kurs existiert nicht';
+$string['courseunavailable'] = 'Der Kurs ist nicht verfügbar';
 $string['description'] = 'Beschreibung der Anmeldung über das Moodle-Netzwerk';
 $string['enrolname'] = 'Moodle-Netzwerk';
 $string['mnet_enrol_description'] = 'Veröffentlichen Sie diesen Dienst, um Administrator/innen von $a zu erlauben, deren Teilnehmer/innen in Kursen anzumelden, die Sie auf Ihrem Server erstellt haben.<br/>
@@ -21,5 +25,6 @@ $string['mnet_enrol_name'] = 'Moodle-Netzwerk-Registrierung';
 $string['mnetlocalforexternal'] = 'Lokale Kurse für externe Nutzer/innen.';
 $string['nocategoriesdefined'] = 'Keine Kategorien gefunden. Definieren Sie neue Kategorien <a href=\"$a\">hier</a>.';
 $string['nocoursesdefined'] = 'Keine Kurse gefunden. Definieren Sie neue Kurse <a href=\"$a\">hier</a>.';
+$string['usernotfound'] = 'Die Nutzerdaten konnten nicht gefunden werden';
 
 ?>

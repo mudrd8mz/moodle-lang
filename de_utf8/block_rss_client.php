@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20081209) (2008120801)
+      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
 
 
 $string['addfeed'] = 'URL für Newsfeed hinzufügen';
 $string['addheadlineblock'] = 'RSS-Überschriftenblock hinzufügen';
 $string['addnew'] = 'Neue hinzufügen';
+$string['addnewfeed'] = 'Neuen Feed hinzufügen';
 $string['blockname'] = 'RSS-Client';
 $string['cannotmakemodification'] = 'Derzeit haben Sie nicht die Berechtigung Änderungen an diesem RSS-Feed vorzunehmen.';
 $string['choosefeedlabel'] = 'Wählen Sie die Feeds, die in diesem Block zur Verfügung stehen sollen:';
@@ -16,10 +17,13 @@ $string['configblock'] = 'Block konfigurieren';
 $string['couldnotfindfeed'] = 'Feed konnte mit id nicht gefunden werden';
 $string['customtitlelabel'] = 'Titel (wenn das Feld leer ist, wird der Titel der Quelle verwendet)';
 $string['deletefeedconfirm'] = 'Sind Sie sicher, dass Sie den Feed löschen wollen?';
+$string['disabledrssfeeds'] = 'RSS-Feeds sind deaktiviert';
 $string['displaydescriptionlabel'] = 'Anzeige der Beschreibung für jeden Link?';
+$string['editafeed'] = 'Feed bearbeiten';
 $string['editfeeds'] = 'Bearbeiten, Eintragen oder Austragen von RSS/Atom-Newsfeeds';
 $string['editnewsfeeds'] = 'Neue Feeds bearbeiten';
 $string['editrssblock'] = 'RSS-Überschriftenblock bearbeiten';
+$string['errorloadingfeed'] = 'Fehler beim Laden des RSS-Feeds ($a)';
 $string['feed'] = 'Feed';
 $string['feedadded'] = 'Newsfeed hinzugefügt';
 $string['feeddeleted'] = 'Newsfeed gelöscht';
@@ -27,7 +31,8 @@ $string['feeds'] = 'Newsfeeds';
 $string['feedsaddedit'] = 'Hinzufügen/Bearbeiten von Feeds';
 $string['feedsconfigurenewinstance'] = 'Klicken Sie hier, um den Block zur Anzeige von RSS-Feeds zu konfigurieren';
 $string['feedstitle'] = 'RSS-Feeds';
-$string['feedupdated'] = 'Newsfeed aktualisiert';
+$string['feedupdated'] = 'News-Feed aktualisiert';
+$string['feedurl'] = 'Feed-URL';
 $string['findmorefeeds'] = 'Weitere RSS-Feeds suchen';
 $string['managefeeds'] = 'Alle meine Feeds bearbeiten';
 $string['nofeeds'] = 'Es sind keine Feeds für diese Seite definiert.';
@@ -48,5 +53,6 @@ $string['timeout2'] = 'Timeout';
 $string['timeoutdesc'] = 'Speicherdauer für RSS-Feeds im Cache';
 $string['updatefeed'] = 'URL zum Update des Newsfeed';
 $string['validatefeed'] = 'Feed prüfen';
+$string['viewfeed'] = 'Feed anzeigen';
 
 ?>
