@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // form.php - created with Moodle 1.9.7+ (Build: 20091204) (2007101570)
+      // form.php - created with Moodle 2.0 dev (Build: 20100114) (2010011400)
 
 
 $string['addfields'] = '$a Felder zum Formular hinzufügen';
@@ -23,6 +23,7 @@ $string['minute'] = 'Minute';
 $string['miscellaneoussettings'] = 'Verschiedene Einstellungen';
 $string['modstandardels'] = 'Weitere Modul-Einstellungen';
 $string['month'] = 'Monat';
+$string['mustbeoverriden'] = 'Die Methode form_definition() in der Klasse $a muss außer Kraft gesetzt werden. Bitte korrigieren Sie den Code.';
 $string['nomethodforaddinghelpbutton'] = 'Es gibt keine Möglichkeit, einen Hilfebutton zum Formularelement $a->name (class $a->classname) hinzuzufügen.';
 $string['nonexistentformelements'] = 'Sie versuchen, Hilfebuttons zu nicht existierenden Formularelementen hinzuzufügen: $a';
 $string['optional'] = 'Optional';
@@ -31,14 +32,14 @@ $string['requiredelement'] = 'Pflichtfeld';
 $string['revealpassword'] = 'Aufdecken';
 $string['security'] = 'Sicherheit';
 $string['selectallornone'] = 'Alle/keine auswählen';
+$string['selected'] = 'Ausgewählt';
 $string['showadvanced'] = 'Zusätzliche Felder anzeigen';
 $string['somefieldsrequired'] = 'Die markierten Pflichtfelder müssen ausgefüllt werden! $a';
+$string['time'] = 'Zeit';
+$string['timeunit'] = 'Zeiteinheit';
 $string['timing'] = 'Zeitsteuerung';
 $string['unmaskpassword'] = 'Klartext';
 $string['year'] = 'Jahr';
-$string['mustbeoverriden'] = 'Die Methode form_definition() in der Klasse $a muss außer Kraft gesetzt werden. Bitte korrigieren Sie den Code.'; // ORPHANED
-$string['time'] = 'Zeit'; // ORPHANED
-$string['timeunit'] = 'Zeiteinheit'; // ORPHANED
 $string['requiredfield'] = 'Dies ist ein Pflichtfeld.'; // ORPHANED
 
 ?>

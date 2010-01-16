@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // scorm.php - created with Moodle 2.0 dev (Build: 20090109) (2009010801)
+      // scorm.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
 
 
 $string['activation'] = 'Aktivierung';
@@ -12,7 +12,6 @@ $string['allowtypeimsrepository'] = 'IMS Pakettyp aktivieren';
 $string['allowtypelocalsync'] = 'Download Paketyp aktivieren';
 $string['apidebugmask'] = 'API Debug Capture Mask (simple regex on &lt;username&gt;:&lt;activityname&gt;)';
 $string['areacontent'] = 'Inhaltsdateien';
-$string['areaintro'] = 'Einführungsdateien';
 $string['areapackage'] = 'Paketdatei';
 $string['asset'] = 'Anlage';
 $string['assetlaunched'] = 'Anlage gesehen';
@@ -38,7 +37,7 @@ $string['contents'] = 'Inhalte';
 $string['coursepacket'] = 'Lernpaket';
 $string['coursestruct'] = 'Kursstruktur';
 $string['datadir'] = 'Dateisystemfehler: Das Verzeichnis für Kursdaten konnte nicht erstellt werden';
-$string['deleteallattempts'] = 'Alle SCORM-Versuche löschen';
+$string['deleteallattempts'] = 'Alle Versuche im Lernpaket löschen';
 $string['details'] = 'Trackingdetails';
 $string['directories'] = 'Verzeichnislinks anzeigen';
 $string['display'] = 'Lernpaket anzeigen';
@@ -127,7 +126,7 @@ $string['nomanifest'] = 'Zeichen nicht gefunden';
 $string['noprerequisites'] = 'Sie haben die Voraussetzungen für den Zugang zu diesem Lernobjekt noch nicht erfüllt.';
 $string['noreports'] = 'Kein Bericht zum Anzeigen vorhanden';
 $string['normal'] = 'Normal';
-$string['noscriptnoscorm'] = 'Ihr Browser unterstützt kein Javascript oder Javascript ist ausgeschaltet. Dieses SCORM-Lernpaket wird daher nicht richtig abgespielt oder die Daten nicht korrektspeichern.';
+$string['noscriptnoscorm'] = 'Ihr Browser unterstützt kein Javascript oder Javascript ist ausgeschaltet. Dieses Lernpaket wird deswegen nicht richtig angezeigt oder die Daten nicht korrekt speichern.';
 $string['not_corr_type'] = 'Falsche Schreibweise im Tag $a->tag';
 $string['notattempted'] = 'Nicht versucht';
 $string['notopenyet'] = 'Entschuldigung, diese Aktivität ist nicht verfügbar bist $a';
@@ -148,7 +147,7 @@ $string['popupblocked'] = 'Wenn kein neues Fenster geöffnet wurde, klicken Sie 
 $string['popupblockedlinkname'] = 'hier';
 $string['popupmenu'] = 'In einem Dropdown-Menü';
 $string['popupopen'] = 'Lernpaket in neuem Fenster öffnen';
-$string['position_error'] = 'Das Tag $a-tag kann nicht Kind (Child) des Tags $a->parent sein';
+$string['position_error'] = 'Das Tag \$a-tag kann nicht Kind (Child) des Tags $a->parent sein';
 $string['prev'] = 'Zurück';
 $string['raw'] = 'Rohpunktwert';
 $string['regular'] = 'Reguläres Zeichen';
@@ -164,10 +163,11 @@ $string['scorm:savetrack'] = 'Trackingdaten speichern';
 $string['scorm:skipview'] = 'Übersicht überspringen';
 $string['scorm:viewreport'] = 'Berichte sehen';
 $string['scorm:viewscores'] = 'Bewertungen sehen';
+$string['scormadministration'] = 'Lernpaket-Administration';
 $string['scormclose'] = 'Bis';
 $string['scormcourse'] = 'Lernpaket-Kurs';
-$string['scormloggingoff'] = 'API - Logdatei ausgeschaltet';
-$string['scormloggingon'] = 'API - Logdatei eingeschaltet';
+$string['scormloggingoff'] = 'API-Logdatei ausgeschaltet';
+$string['scormloggingon'] = 'API-Logdatei eingeschaltet';
 $string['scormopen'] = 'Öffnen';
 $string['scormresponsedeleted'] = 'Versuche der Nutzer/innen löschen';
 $string['scormtype'] = 'Typ';
@@ -191,9 +191,9 @@ $string['too_many_attributes'] = 'Tag $a->tag hat zu viele Attribute';
 $string['too_many_children'] = 'Tag $a->tag hat zu viele Kinder (children)';
 $string['toolbar'] = 'Toolbar anzeigen';
 $string['totaltime'] = 'Zeit';
-$string['trackingloose'] = 'WARNUNG: Trackingdaten dieses SCORM Paketes gehen verloren!';
+$string['trackingloose'] = 'Achtung: Die Trackingdaten dieses Lernpaketes gehen verloren!';
 $string['type'] = 'Typ';
-$string['typeexternal'] = 'Externes SCORM Manifest';
+$string['typeexternal'] = 'Externe Lernpaket-Liste';
 $string['typeimsrepository'] = 'Lokales IMS Content Repository';
 $string['typelocal'] = 'Hochgeladenes Paket';
 $string['typelocalsync'] = 'Heruntergeladenes Paket';
@@ -204,15 +204,16 @@ $string['updatetime'] = 'Synchronisationszeitpunkt';
 $string['url'] = 'URL';
 $string['validateascorm'] = 'Überprüfen eines Lernpakets';
 $string['validation'] = 'Prüfergebnis';
-$string['validationtype'] = 'Die Einstellungen der DOMXML Library werden zur Prüfung des SCORM Manifests  verwandt. Wenn Sie sich nicht genau auskennen, lassen Sie die Einstellungen unverändert stehen.';
+$string['validationtype'] = 'Die Einstellungen der DOMXML Library werden zur Prüfung der Lernpaket-Liste verwandt. Wenn Sie sich nicht genau auskennen, lassen Sie die Einstellungen unverändert stehen.';
 $string['value'] = 'Wert';
-$string['versionwarning'] = 'Die Version des Manifests ist älter als 1.3, Warnung beim $a->tag Tag';
+$string['versionwarning'] = 'Die Version der Liste ist älter als 1.3, Warnung beim $a->tag Schlüsselwort';
 $string['viewallreports'] = 'Berichte für $a Versuche anzeigen';
 $string['viewalluserreports'] = 'Berichte für $a Nutzer anzeigen';
 $string['whatgrade'] = 'Bewertung der Versuche';
 $string['whatgradedesc'] = 'Diese Einstellung setzt den Standardwert für die Bewertung der Versuche';
 $string['width'] = 'Breite';
 $string['window'] = 'Rahmen/Fenster';
-$string['zlibwarning'] = 'Warnung: PHP Zlib Kompression ist auf dieser Seite ermöglicht worden, bei einigen Benutzern könnten Probleme beim Laden von SCORM-Objekten in bestimmten WWW-Browsern auftreten.';
+$string['zlibwarning'] = 'Warnung: PHP-Komprimierung Zlib ist auf dieser Website aktiviert worden, bei bestimmten Web-Browsern könnten Probleme beim Laden von Lernpaketen auftreten.';
+$string['areaintro'] = 'Einführungsdateien'; // ORPHANED
 
 ?>

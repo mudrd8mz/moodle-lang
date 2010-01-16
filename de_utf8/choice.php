@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
+      // choice.php - created with Moodle 2.0 dev (Build: 20100114) (2010011400)
 
 
 $string['addmorechoices'] = 'Weitere Auswahloptionen hinzufügen';
@@ -10,6 +10,7 @@ $string['choice:choose'] = 'An einer Abstimmung teilnehmen';
 $string['choice:deleteresponses'] = 'Stimmabgaben löschen';
 $string['choice:downloadresponses'] = 'Stimmabgaben herunterladen';
 $string['choice:readresponses'] = 'Stimmabgaben sehen';
+$string['choiceadministration'] = 'Abstimmungsadministration';
 $string['choiceclose'] = 'bis (Datum, Uhrzeit)';
 $string['choicefull'] = 'Diese Abstimmung ist voll und es gibt keine verfügbaren Plätze mehr.';
 $string['choicename'] = 'Name der Abstimmung';
@@ -32,6 +33,7 @@ $string['noguestchoose'] = 'Gäste dürfen nicht an Abstimmungen teilnehmen.';
 $string['noresultsviewable'] = 'Die Ergebnisse sind aktuell nicht sichtbar.';
 $string['notanswered'] = 'Noch nicht abgestimmt';
 $string['notopenyet'] = 'Diese Aktivität ist erst ab $a verfügbar.';
+$string['option'] = 'Option';
 $string['privacy'] = 'Anonymität';
 $string['publish'] = 'Ergebnisse veröffentlichen';
 $string['publishafteranswer'] = 'Nach der eigenen Stimmabgabe';
@@ -54,6 +56,5 @@ $string['viewallresponses'] = 'Zeige $a Stimmabgaben';
 $string['yourselection'] = 'Ihre Auswahl';
 $string['cannotsavechoice'] = 'Ihre Abstimmung konnte nicht gespeichert werden.'; // ORPHANED
 $string['cannotupdatechoice'] = 'Aufgrund eines Datenbankfehlers konnte der geänderte Eintrag zur Abstimmung nicht gespeichert werden.'; // ORPHANED
-$string['option'] = 'Option'; // ORPHANED
 
 ?>

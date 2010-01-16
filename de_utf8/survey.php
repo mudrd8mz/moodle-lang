@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // survey.php - created with Moodle 2.0 dev (Build: 20080720) (2008070701)
+      // survey.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
 
 
 $string['actual'] = 'Tatsächlich';
@@ -59,7 +59,6 @@ $string['attlsname'] = 'ATTLS (20 Punkte Version)';
 $string['cannotfindanswer'] = 'Bisher gibt es keine Antworten für diese Umfrage.';
 $string['cannotfindquestion'] = 'Frage existiert nicht';
 $string['cannotfindsurveytmpt'] = 'Keine Umfragemaske gefunden!';
-$string['cannotinsertanswer'] = 'Entschuldigung! Beim Speichern Ihrer Ergebnisse ist ein Problem aufgetreten.';
 $string['ciq1'] = 'Wann haben Sie sich in diesem Kurs als Lernende/r am meisten engagiert?';
 $string['ciq1short'] = 'Stark beteiligt';
 $string['ciq2'] = 'Wann hatten Sie als Lernende/r zu diesem Kurs die meiste Distanz?';
@@ -155,6 +154,7 @@ $string['done'] = 'Erledigt';
 $string['download'] = 'Herunterladen';
 $string['downloadexcel'] = 'Daten als Excel-Tabelle herunterladen';
 $string['downloadinfo'] = 'Sie können die Rohdaten dieser Umfrage vollständig in einer weiterverwendbaren Form für die Analyse in Excel, SPSS oder anderen Programmen herunterladen.';
+$string['downloadresults'] = 'Ergebnisse herunterladen';
 $string['downloadtext'] = 'Daten als reine Text-Datei herunterladen';
 $string['editingasurvey'] = 'Eine Umfrage bearbeiten';
 $string['guestsnotallowed'] = 'Gäste dürfen nicht an Umfragen teilnehmen';
@@ -182,6 +182,7 @@ $string['question'] = 'Frage';
 $string['questions'] = 'Fragen';
 $string['questionsnotanswered'] = 'Manche der Fragen mit Mehrfachantworten sind nicht beantwortet worden.';
 $string['report'] = 'Bericht zur Umfrage';
+$string['responsereports'] = 'Berichte';
 $string['responses'] = 'Antworten';
 $string['savednotes'] = 'Ihre Anmerkungen wurden gespeichert';
 $string['scaleagree5'] = 'Lehne ich vollständig ab, lehne ich überwiegend ab, kaum Ablehnung, kaum Zustimmung, stimme überwiegend zu, bin völlig einverstanden';
@@ -193,6 +194,7 @@ $string['summary'] = 'Zusammenfassung';
 $string['survey:download'] = 'Antworten herunterladen';
 $string['survey:participate'] = 'Umfrage beantworten';
 $string['survey:readresponses'] = 'Antworten ansehen';
+$string['surveyadministration'] = 'Umfrage-Administration';
 $string['surveycompleted'] = 'Sie haben die Umfrage beendet. Das folgende Diagramm zeigt Ihre Ergebnisse im Vergleich zum Durchschnitt Ihrer Lerngruppe.';
 $string['surveygraph'] = 'Umfragegrafik';
 $string['surveyname'] = 'Name der Umfrage';
@@ -201,5 +203,6 @@ $string['surveytype'] = 'Typ der Umfrage';
 $string['thanksforanswers'] = 'Danke $a, dass Sie sich an dieser Umfrage beteiligt haben.';
 $string['time'] = 'Zeit';
 $string['viewsurveyresponses'] = 'Zeige $a Antworten zur Umfrage';
+$string['cannotinsertanswer'] = 'Entschuldigung! Beim Speichern Ihrer Ergebnisse ist ein Problem aufgetreten.'; // ORPHANED
 
 ?>

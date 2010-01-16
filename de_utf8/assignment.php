@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
 
 
 $string['allowdeleting'] = 'Löschen erlauben';
@@ -12,6 +12,7 @@ $string['assignment:exportsubmission'] = 'Einreichung exportieren';
 $string['assignment:grade'] = 'Aufgabe bewerten';
 $string['assignment:submit'] = 'Aufgabe übermitteln';
 $string['assignment:view'] = 'Aufgabe ansehen';
+$string['assignmentadministration'] = 'Aufgaben-Administration';
 $string['assignmentdetails'] = 'Aufgabendetails';
 $string['assignmentmail'] = '$a->teacher hat einen Kommentar zu Ihrer eingereichten Aufgabe \'$a->assignment\' verfasst.
 
@@ -25,7 +26,6 @@ $string['assignmentname'] = 'Name der Aufgabe';
 $string['assignmenttype'] = 'Aufgabentyp';
 $string['availabledate'] = 'Verfügbar ab';
 $string['cannotdeletefiles'] = 'Es ist ein Fehler aufgetreten. Die Dateien konnten nicht gelöscht werden.';
-$string['cannotinsertempty'] = 'Eine weitere leere Einreichung war nicht möglich';
 $string['cannotviewassignment'] = 'Sie können diese Aufgabe nicht anzeigen';
 $string['comment'] = 'Kommentar';
 $string['commentinline'] = 'eingearbeiteter Kommentar';
@@ -78,13 +78,15 @@ $string['itemstocount'] = 'Anzahl';
 $string['late'] = '$a spät';
 $string['maximumgrade'] = 'Höchste Bewertung';
 $string['maximumsize'] = 'Maximale Größe';
+$string['maxpublishstate'] = 'Maximale Sichtbarkeit für Blog-Einträge vor dem Abgabetermin';
 $string['modulename'] = 'Aufgabe';
 $string['modulenameplural'] = 'Aufgaben';
 $string['newsubmissions'] = 'Aufgaben eingereicht';
-$string['noassignments'] = 'Es gibt derzeit keine  Aufgaben';
-$string['noattempts'] = 'Bisher wurden keine Arbeiten eingereicht.';
+$string['noassignments'] = 'Es gibt derzeit keine Aufgaben';
+$string['noattempts'] = 'Bisher wurden keine Arbeiten eingereicht';
+$string['noblogs'] = 'Sie haben keine Blog-Einträge zum Abgeben!';
 $string['nofiles'] = 'Keine Dateien abgegeben';
-$string['nofilesyet'] = 'Bisher wurden keine Dateien abgegeben.';
+$string['nofilesyet'] = 'Bisher wurden keine Dateien abgegeben';
 $string['nomoresubmissions'] = 'Es sind keine weiteren Einträge mehr möglich.';
 $string['nosubmitusers'] = 'Es wurden keine Nutzer/innen gefunden, die die Berechtigung zur Aufgabenabgabe hätten.';
 $string['notavailableyet'] = 'Entschuldigung, diese Aufgabe steht noch nicht zur Verfügung.<br />Anweisungen zur Aufgabe werden ab dem unten angegebenen Termin hier angezeigt.';
@@ -101,6 +103,7 @@ $string['quickgrade'] = 'Schnelle Bewertung ermöglichen';
 $string['responsefiles'] = 'Antwortdateien';
 $string['reviewed'] = 'Nachgeprüft';
 $string['saveallfeedback'] = 'Alle meine Rückmeldungen speichern';
+$string['selectblog'] = 'Wählen Sie bitte, welchen Blog-Eintrag Sie einreichen möchten';
 $string['sendformarking'] = 'Zur Bewertung freigeben';
 $string['showrecentsubmissions'] = 'Neueste Aufgabenabgaben anzeigen';
 $string['submission'] = 'Aufgabenabgabe';
@@ -114,7 +117,8 @@ $string['submitedformarking'] = 'Die Lösung der Aufgabe wurde jetzt zur Bewertu
 $string['submitformarking'] = 'Aufgabe zur Bewertung abgeben';
 $string['submitted'] = 'Eingereicht';
 $string['submittedfiles'] = 'Eingereichte Dateien';
-$string['trackdrafts'] = 'Button \"Zur Bewertung freigeben\" aktivieren';
+$string['trackdrafts'] = 'Button \'Zur Bewertung freigeben\' aktivieren';
+$string['typeblog'] = 'Blog-Beitrag';
 $string['typeoffline'] = 'Offline - Aktivität';
 $string['typeonline'] = 'Online - Texteingabe';
 $string['typeupload'] = 'Online - mehrere Dateien hochladen';
@@ -133,5 +137,6 @@ $string['usermisconf'] = 'Die Nutzereinstellungen sind fehlkonfiguriert';
 $string['viewfeedback'] = 'Aufgabenbewertung und Rückmeldung anzeigen';
 $string['viewsubmissions'] = '$a eingereichte Aufgabe(n) ansehen';
 $string['yoursubmission'] = 'Ihre eingereichten Aufgaben';
+$string['cannotinsertempty'] = 'Eine weitere leere Einreichung war nicht möglich'; // ORPHANED
 
 ?>

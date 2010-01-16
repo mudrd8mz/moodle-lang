@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 Beta 3 (2007101506)
+      // calendar.php - created with Moodle 2.0 dev (Build: 20100114) (2010011400)
 
 
 $string['advancedoptions'] = 'Erweiterte Optionen';
@@ -69,6 +69,8 @@ $string['groupevent'] = 'Gruppen-Termin';
 $string['groupevents'] = 'Gruppen-Termine';
 $string['hidden'] = 'verborgen';
 $string['ical'] = 'iCal';
+$string['invalidtimedurationminutes'] = 'Die von Ihnen angegebene Dauer in Minuten ist ungültig. Bitte tragen Sie eine Zahl größer als 0 ein oder wählen Sie \'Ohne Zeitangabe\' aus.';
+$string['invalidtimedurationuntil'] = 'Der von Ihnen gewählten Wert für Datum und Zeit der Einstellung \'Dauer bis\' liegt vor der Startzeit des Termins. Bitte korrigieren Sie dies, bevor Sie weitermachen.';
 $string['iwanttoexport'] = 'Export';
 $string['manyevents'] = '$a Termine';
 $string['mon'] = 'Mo';
@@ -88,8 +90,10 @@ $string['preferences'] = 'Einstellungen';
 $string['preferences_available'] = 'Ihre persönlichen Einstellungen';
 $string['quickdownloadcalendar'] = 'Schneller Download / Kalender-Abo';
 $string['recentupcoming'] = 'Vergangene und nachfolgende 60 Tage';
+$string['repeatedevents'] = 'Sich wiederholende Termine';
 $string['repeateditall'] = 'Veränderungen für alle $a Termine dieser Reihe bearbeiten';
 $string['repeateditthis'] = 'Veränderungen nur an diesem einen Termin vornehmen';
+$string['repeatevent'] = 'Diesen Termin wiederholen';
 $string['repeatnone'] = 'Keine Wiederholungen';
 $string['repeatweeksl'] = 'Wöchentliche Wiederholung, automatische Erstellung';
 $string['repeatweeksr'] = 'Termine';

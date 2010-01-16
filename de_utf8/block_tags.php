@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tags.php - created with Moodle 2.0 dev (Build: 20091117) (2009112000)
+      // block_tags.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
 
 
 $string['add'] = 'Hinzufügen';
@@ -48,7 +48,7 @@ $string['mycoursetag2'] = 'Meine Kurs-Schlagworte';
 $string['mycoursetags'] = 'Meine Kurs-Schlagworte:';
 $string['mytags'] = 'Meine Schlagworte';
 $string['mytags1'] = 'Meine Schlagworte';
-$string['mytags2'] = 'Mine persönlichen Schlagworte anzeigen';
+$string['mytags2'] = 'Meine persönlichen Schlagworte anzeigen';
 $string['notagsyet'] = 'Bisher keine Schlagworte';
 $string['officialtags'] = 'Offizielle Kurs-Schlagworte:';
 $string['officialtags1'] = 'Offizielle Schlagworte';

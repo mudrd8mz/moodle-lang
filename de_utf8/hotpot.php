@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // hotpot.php - created with Moodle 1.9.7+ (Build: 20091226) (2007101570)
+      // hotpot.php - created with Moodle 2.0 dev (Build: 20100114) (2010011400)
 
 
 $string['abandoned'] = 'Abgebrochen';
@@ -12,6 +12,7 @@ $string['attemptsbest'] = 'Bester Versuch';
 $string['attemptsfirst'] = 'Erster Versuch';
 $string['attemptslast'] = 'Letzter Versuch';
 $string['average'] = 'Durchschnitt';
+$string['cannotfindmethod'] = 'Die Erweiterungsmethode für den temporären Block wurde nicht gefunden: ($a)';
 $string['checks'] = 'Checks';
 $string['clickreporting'] = 'Ausführlicher Zugriffsbericht';
 $string['clues'] = 'Lösungshinweise';
@@ -53,10 +54,13 @@ $string['hotpot:deleteattempt'] = 'Versuche löschen';
 $string['hotpot:grade'] = 'Bewertungen ändern';
 $string['hotpot:view'] = 'HotPot-Test sehen';
 $string['hotpot:viewreport'] = 'Ergebnisse sehen';
+$string['hotpotadministration'] = 'HotPot-Administration';
 $string['hotpotcloses'] = 'HotPot-Test endet';
 $string['hotpotopens'] = 'HotPot-Test startet';
 $string['ignored'] = 'Ignoriert';
 $string['inprogress'] = 'In Bearbeitung';
+$string['invalidattemptid'] = 'Versuchs-ID ist falsch';
+$string['invalidhotpotid'] = 'Hotpot-ID ist falsch';
 $string['location'] = 'Speicherort für HotPot-Datei';
 $string['modulename'] = 'HotPot-Test';
 $string['modulenameplural'] = 'HotPot-Tests';
@@ -70,6 +74,7 @@ $string['navigation_none'] = 'Keine';
 $string['neverclosed'] = 'Nie';
 $string['noactivity'] = 'Keine Aktivität';
 $string['noresponses'] = 'Es wurden keine Informationen zu einzelnen Fragen und Antworten gefunden.';
+$string['notyourattempt'] = 'Dies ist nicht Ihr Versuch!';
 $string['outputformat'] = 'Anzeigeformat';
 $string['outputformat_best'] = 'Optimal';
 $string['outputformat_flash'] = 'Flash';
@@ -83,6 +88,7 @@ $string['outputformat_v6_plus'] = 'v6+';
 $string['penalties'] = 'Abzüge';
 $string['questionshort'] = 'Frage $a';
 $string['quiztype'] = 'Testtyp';
+$string['quizunavailable'] = 'Der Test steht zur Zeit nicht zur Verfügung';
 $string['rawdetails'] = 'Versuchsdetails';
 $string['regrade'] = 'Neubewertung';
 $string['regradecheck'] = 'Wollen Sie wirklich \"$a\" neu bewerten?';
@@ -152,18 +158,13 @@ $string['textsourcequiz'] = 'Vom Test übernehmen';
 $string['textsourcespecific'] = 'Spezifischer Text';
 $string['thiscourse'] = 'Dieser Kurs';
 $string['timedout'] = 'Zeit ist abgelaufen';
+$string['unknownreport'] = 'Kein Bericht bekannt ($a)';
 $string['updatequizchain'] = 'Test-Kette aktualisieren';
 $string['weighting'] = 'Gewichtung';
 $string['wrong'] = 'Falsch';
 $string['cannotaddquestionrecord'] = 'Die Frage konnte nicht hinzugefügt werden'; // ORPHANED
 $string['cannotaddresprecord'] = 'Die Antwort konnte nicht hinzugefügt werden'; // ORPHANED
 $string['cannotaddstrrecord'] = 'Der Text konnte nicht hinzugefügt werden'; // ORPHANED
-$string['cannotfindmethod'] = 'Die Erweiterungsmethode für den temporären Block wurde nicht gefunden: ($a)'; // ORPHANED
 $string['cannotupdateattempt'] = 'Die bisherigen Daten konnten nicht aktualisiert werden: $a'; // ORPHANED
-$string['invalidattemptid'] = 'Versuchs-ID ist falsch'; // ORPHANED
-$string['invalidhotpotid'] = 'Hotpot-ID ist falsch'; // ORPHANED
-$string['notyourattempt'] = 'Dies ist nicht Ihr Versuch!'; // ORPHANED
-$string['quizunavailable'] = 'Der Test steht zur Zeit nicht zur Verfügung'; // ORPHANED
-$string['unknownreport'] = 'Kein Bericht bekannt ($a)'; // ORPHANED
 
 ?>
