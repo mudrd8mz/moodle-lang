@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // role.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
 
 
 $string['addrole'] = 'Pridať novú rolu';
@@ -135,6 +135,7 @@ $string['resetrole'] = 'Resetovať na východzie hodnoty';
 $string['resetrolenolegacy'] = 'Vymazať oprávnenia';
 $string['resetrolesure'] = 'Naozaj chcete resetovať rolu \"$a->name ($a->shortname)\" na východziu hodnotu?</p><p>Tieto východzie hodnoty budú prevzaté z pôvodnej roly ($a->legacytype).';
 $string['resetrolesurenolegacy'] = 'Naozaj chcete vymazať všetky oprávnenia definované v roli \"$a->name ($a->shortname)\"?';
+$string['restore:createuser'] = 'Vytvoriť používateľov pri obnove kurzu';
 $string['restore:rolldates'] = 'Povolenie zmeniť dátumy aktivít pri obnove kurzu';
 $string['restore:userinfo'] = 'Obnoviť používateľské údaje';
 $string['risks'] = 'Riziká';

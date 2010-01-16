@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
 
 
 $string['CASform'] = 'Voľba overovania';
@@ -352,7 +352,7 @@ $string['informminpasswordlength'] = 'minimálne $a znakov';
 $string['informminpasswordlower'] = 'minimálne $a malých písmen';
 $string['informminpasswordnonalphanum'] = 'minimálne $a znakov (nie číslic alebo písmen)';
 $string['informminpasswordupper'] = 'minimálne $a veľkých písmen';
-$string['informpasswordpolicy'] = 'Vaše heslo musí mať $a';
+$string['informpasswordpolicy'] = 'Heslo musí mať $a';
 $string['instructions'] = 'Inštrukcie';
 $string['internal'] = 'Interný';
 $string['locked'] = 'Zamknutý/Zamknuté';

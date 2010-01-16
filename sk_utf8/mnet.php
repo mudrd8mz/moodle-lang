@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samopodpísané)';
@@ -115,6 +115,7 @@ $string['nocurl'] = 'Knižnica PHP Curl nie je inštalovaná';
 $string['nohostid'] = 'Táto stránka vyžaduje ID hostiteľa, čo by malo byť celé číslo.';
 $string['noipmatch'] = 'Adresa vzdialeného stroja: <br /><em>$a[0]</em><br />neodpovedá záznamu:<br /><em>$a[1]</em>.';
 $string['nolocaluser'] = 'Pre vzdialeného používateľa neexistuje miestny záznam.';
+$string['nolocaluser2'] = 'Neexistuje lokálny záznam pre vzdialeného používateľa a nemohol byť vytvorený, pretože tento hostiteľ nevytvára automaticky používateľov. Kontaktujte prosím svojho administrátora.';
 $string['nomodifyacl'] = 'Nemáte právo meniť zoznam riadenia prístupu MNET.';
 $string['nonmatchingcert'] = 'Predmet certifikátu <br /><em>$a[0]</em><br /> neodpovedá hostiteľovi prichádzajúcemu z <br /><em>$a[1]</em>.';
 $string['nopubkey'] = 'Vyskytol sa problém so získaním verejného kľúča.<br /> Možno, že hostiteľ nepovoľuje sieť Moodle alebo je kľúč neplatný.';

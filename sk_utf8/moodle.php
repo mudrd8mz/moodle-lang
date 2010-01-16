@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091223) (2007101570)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -1275,6 +1275,7 @@ $string['resource'] = 'Zdroj';
 $string['resources'] = 'Zdroje';
 $string['restore'] = 'Obnoviť zo zálohy';
 $string['restorecancelled'] = 'Obnova zrušená';
+$string['restorecannotcreateuser'] = 'Obnova kurzu zo zálohovacieho súboru potrebuje vytvoriť používateľa \'$a\' a vy na to nemáte oprávnenie.';
 $string['restorecoursenow'] = 'Obnoviť tento kurz teraz!';
 $string['restoredaccount'] = 'Obnovené konto';
 $string['restoredaccountinfo'] = 'Toto heslo bolo importované z iného servera, pričom sa nezachovalo heslo. Pre nastavenie nového hesla pomocou mailu kliknite na \"Pokračovať\".';
@@ -1282,7 +1283,10 @@ $string['restorefinished'] = 'Obnova prebehla úspešne';
 $string['restoreto'] = 'Obnoviť do';
 $string['restoretositeadding'] = 'Upozornenie: Chystáte sa obnoviť titulnú stránku portálu a pridať k údaje k existujúcej!';
 $string['restoretositedeleting'] = 'Upozornenie: Chystáte sa obnoviť titulnú stránku portálu a predtým vymazať údaje existujúcej!';
+$string['restoreuserconflict'] = 'Pokus o obnovenie používateľa \'$a\' zo zálohovacieho súboru spôsobí konflikt.';
 $string['restoreuserinfofailed'] = 'Proces obnovy kurzu bol zastavený, pretože nemáte oprávnenie obnoviť údaje používateľov.';
+$string['restoreusersprecheck'] = 'Kontrolovanie používateľských údajov';
+$string['restoreusersprecheckerror'] = 'Pri kontrole používateľských údajov boli zistené problémy';
 $string['restricted'] = 'Obmedzený';
 $string['restrictmodules'] = 'Obmedziť moduly aktivít?';
 $string['returningtosite'] = 'Vrátiť sa na túto webovú stránku?';
