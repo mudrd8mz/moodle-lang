@@ -4,6 +4,8 @@
 
 $string['chooseavariable'] = 'Variable auswählen ...';
 $string['clicktoopen'] = 'Klicken Sie auf den Link \'$a\', um die URL zu öffnen';
+$string['configframesize'] = 'Wenn eine Webseite oder eine hochgeladene Datei in einem Frame angezeigt wird, dann ist dieser Wert die Höhe (in Pixeln) des Top-Frames (der die Navigation enthält)';
+$string['configrolesinparams'] = 'Aktivieren Sie dies, falls Sie die lokalisierten Rollennamen in die Liste der verfügbaren Parametervariablen aufnehmen möchten.';
 $string['contentheader'] = 'Inhalt';
 $string['displayauto'] = 'Automatisch';
 $string['displayembed'] = 'Einbetten';
@@ -11,8 +13,9 @@ $string['displayframe'] = 'Im Frame';
 $string['displaynew'] = 'Neues Fenster';
 $string['displayopen'] = 'Öffnen';
 $string['displayoptions'] = 'Mögliche Anzeigeoptionen';
-$string['displaypopup'] = 'Im PopUp';
+$string['displaypopup'] = 'Im Popup';
 $string['displayselect'] = 'Anzeigen';
+$string['displayselectexplain'] = 'Anzeigetyp auswählen, aber leider nicht sind nicht alle Typen für alle URLs geeignet';
 $string['externalurl'] = 'Externe URL';
 $string['framesize'] = 'Frame-Höhe';
 $string['modulename'] = 'URL';
@@ -21,12 +24,15 @@ $string['neverseen'] = 'Nie gesehen';
 $string['optionsheader'] = 'Optionen';
 $string['parameterinfo'] = 'Parameter=Variable';
 $string['parametersheader'] = 'Parameter';
-$string['popupheight'] = 'PopUp-Höhe (in Pixeln)';
-$string['popupheightexplain'] = 'Standardhöhe von PopUp-Fenstern festlegen';
-$string['popupwidth'] = 'PopUp-Breite (in Pixeln)';
-$string['popupwidthexplain'] = 'Standardbreite von PopUp-Fenstern festlegen';
-$string['printheading'] = 'Name der URL anzeigen';
+$string['popupheight'] = 'Popup-Höhe (in Pixeln)';
+$string['popupheightexplain'] = 'Standardhöhe von Popup-Fenstern festlegen';
+$string['popupwidth'] = 'Popup-Breite (in Pixeln)';
+$string['popupwidthexplain'] = 'Standardbreite von Popup-Fenstern festlegen';
+$string['printheading'] = 'Namen der URL anzeigen';
+$string['printheadingexplain'] = 'Namen der URL über dem Inhalt anzeigen? Einige Anzeigetypen können den Namen der URL nicht anzeigen, selbst wenn dies aktiviert ist.';
 $string['printintro'] = 'Beschreibung der URL anzeigen';
+$string['printintroexplain'] = 'Beschreibung der URL unterhalb dem Inhalt anzeigen? Einige Anzeigetypen können die Beschreibung nicht anzeigen, selbst wenn dies aktiviert ist.';
+$string['rolesinparams'] = 'Rollennamen in Parameter übernehmen';
 $string['urladministration'] = 'URL-Administration';
 
 ?>
