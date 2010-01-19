@@ -1,0 +1,127 @@
+<h2>Slik bruker du Wiki</h2>
+
+<p>Moodles Wiki er basert på <a href="http://erfurtwiki.sourceforge.net/?id=ErfurtWiki" target="_blank">ErfurtWiki</a>, og er en implementering av <a href="http://c2.com/cgi/wiki?WikiWikiWeb" target="_blank">WikiWikiWeb</a> system for hypertekst. Den lar deg enkelt opprette og redigere websider sammen med andre.</p>
+
+<p><ul>
+<li>Lær å <a href="#createpages">Opprette nye sider</a></li>
+<li>Klikk på <img alt="edit" src="pix/t/edit.gif" /> eller velg "Endre denne siden" fra listeboksmenyen når du skal redigere innholdet på en side.</li>
+<li>Du kan formatere sidene dine med <a href="#wikimarkup">Wiki Markup</a>, eller HTML (dersom Wikien har aktivert denne funksjonen)</li>
+<li>Søkesider eller gå til en oversikt over nyeste sider</li>
+<li>Det finnes også en liste over mest besøkte tiser, oftest endrede sider og nylig oppdaterte sider</li>
+</ul></p>
+
+<p>
+<h3 id="createpages">Opprette nye sider:</h3>
+Du kan opprette en side ved å navngi den i teksten på en eksisterende side. En Wikiside kan navngis ved å bruke <a href="#camelcase">CamelCase</a> eller omslutte navnet med hakeparenteser ( [] ).</p>
+
+<p>
+For eksempel:
+</p>
+<ul>
+<li>MinWikiSide (Camel Case)</li>
+<li>[MinWikiSide] (enclosed in square brackets)</li>
+</ul>
+<p>Tekst som har fått et Wiki sidenavn vil ha et '?' etter seg. Når du klikker på '?'-tegnet, vil du komme direkte i redigeringsmodus for denne nye siden. Skriv inn tekst og du har opprettet en ny Wikiside.</p>
+
+<h3 id="wikimarkup">Wiki formatering:</h3>
+Dersom du bruker den innebygde WYSIWYG HTML editoren, kan alle format-funksjoner i denne brukes uten videre. Hvis du bruker en nettleser som ikke støtter WYSIWYG-editoren, kan du i stedet bruke Wikiens egne formateringsspråk. <b>Disse funksjonene gjelder IKKE når du bruker WYSIWYG-editoren</b>.   
+</p>
+
+<h4>Tekstavsnitt</h4>
+
+  <ul type="circle">
+  <li>Enkle linjeskift med tomme linjer i en tekst</li>
+  <li>Bruk tre prosent-tegn  %%<em></em>% for tvinge et linjeskift</li>
+  <li>Dersom du forskyver tekst med mellomrom eller tab-tasten vil den bli innrykket</li>
+  </ul>
+
+<h4> !! Overskrifter</h4>
+
+  <ul type="circle">
+  <li>Bruk et utropstegn ! ved starten på linja for å lage en liten overskrift</li>
+  <li> !! for medium overskrift</li>
+  <li> !!! for store overskrifter</li>
+  </ul>
+
+<h4>Tekststil</h4>
+
+  <ul type="circle">
+  <li>Dersom du vil <em>vektlegge tekst</em> skal den omsluttes av to enkle anførselstegn (ser vanligvis ut som skråstilt tekst)</li>
+  <li><strong>Tekst blir uthevet</strong> med to underscore __ (eller omsluttet av to stjerner **)</li>
+  <li>For å lage <big>teksten stor</big> omslutter du den av doble kryss ##</li>
+  <li>Du kan få <small> mindre bokstaver</small> ved å bruke  "µµ" på samme måte</li>
+  <li>En<tt>skrifttype som en gammel skrivemaskin</tt> brukes når du omslutter tekst i to likhetstegn (==)</li>
+  </ul>
+
+<h4> Lister</h4>
+
+  <ul type="circle">
+  <li>Begynn linja med en stjerne for å angi start på en liste med kulepunkter</li>
+  <li>Bruk # i stedet for nummererte lister
+    <ol>
+    <li>Du kan også opprette underlister</li>
+    <li>Underlister skal startes med samme miks av * og #</li>
+    </ol>
+  </li>
+  </ul>
+
+<h4>Lenker</h4>
+
+  <ul type="circle">
+  <li>Bare skriv inn et CamelCase WikiOrd i teksten for å lage en lenke</li>
+  <li>eller, omslutt noen <b>ord med hakeparenteser</b> for å opprette en lenke</li>
+  <li>alle gyldige internettadresser (som starter med <a href="http://">http://</a>) som http://www.example.com/ i teksten vil automatisk bli klikkbare</li>
+  <li>Dersom du omslutter en webadresse eller Wikilenke med hakeparenteser [<a href="http://www.moodle.org/">Moodle</a>] kan du gi lenken et mer forståelig navn ved å bruke anførselstegn eller  | tegnet
+
+    <ul type="circle">
+    <li> [title | http://example.com]</li>
+    <li> [WikiWord "tittel"] eller ["Tittel for" WikiLink]    </li>
+    </ul>
+  </li>
+
+  <li>Dersom du ikke ønsker at et WikiOrd eller en !http://www-addresse (eller [hvasomhelst] innenfor hakeparenteser) skal bli lenker, må de innledes med et anførselstegn eller en tilde.
+
+    <ul type="circle">
+    <li> !NoHyperLink, ~NoHyperLink</li>
+    <li> ![no hyperlink], !!http://nolink.org/    </li>
+    </ul>
+  </li>
+  </ul>
+
+<h4>Tabeller med |</h4>
+
+<table cellpadding="2" border="1" cellspacing="0">
+<tr>
+<td> bare omslutt </td>
+<td> tekst og tall med skillestrek </td>
+<td> tegnet </td>
+</tr><tr>
+<td>for å bygge en </td>
+<td> tabellstruktur  </td>
+</tr><tr>
+<td> nettleserne vil vanligvis</td>
+<td>utelate de manglende</td>
+<td> feltene </td>
+</tr>
+</table>
+
+<p>Husk på at du alltid har en tom linje før og etter tabellen, slik at den trer tydelig fram i teksten som et selvstendig avsnitt.</p>
+
+<h4>Bilder</h4>
+
+  <ul type="circle">
+  <li>For å legge inn et bilde på siden må du angi bildets absoluttet nettadresse i hakeparenteser, slik som  [http://www.example.com/pics/image.png] </li>
+  <li>alternativt kan du bruke funksjonen for å laste opp bilder</li>
+  </ul>
+
+<h4>Videre lesning</h4>
+
+Det finnes enda flere muligheter med Wiki-formatering. Vennligst sjekk ut  <a href="http://erfurtwiki.sourceforge.net" target="_blank">Erfurt Wiki hjemmesiden</a> for mer informasjon.
+
+<h5 id="camelcase">Camel Case:</h5>
+
+<p>CamelCase beskriver hvordan WikiOrd ser ut. Flere ord med stor forbokstav satt sammen uten mellomrom slik at de ser ut som en kamelrygg.</p>
+
+<p>Denne lenkemetoden er også kalt HompeteTekst.</p>
+
+<p>Selv om språkfolk hater Wikier for denne lenkemetoden, er den blitt veldig vanlig i dataverdenen og velkjent blant programmerere.</p>

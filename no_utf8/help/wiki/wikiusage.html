@@ -1,0 +1,116 @@
+<h1>Slik brukes Wiki</h1>
+
+<p>Wikki er en samarbeidsplattform for å lage websider. Prinsippene er enkle.</p>
+
+<ul>
+<li>En tekst skrives og lagres.</li>
+<li>Senere, når en annen person leser teksten og har endringsforslag eller korrigeringer, kan teksten redigeres direkte via "Endre"-lenken på siden.</li>
+<li>Straks den nye versjonen av siden er lagret er den synlig for alle.</li>
+</ul>
+
+<p>Med Wiki er det også enkelt å legge til sider eller lenke til eksisterende.</p>
+
+<ul>
+<li>En lenke er opprettet via WikiOrd. Dette er et ord som har mist to store bokstaver. Dersom det allerede eksisterer en side med dette navnet vil siden lenkes opp automatisk. Dersom ikke får lenkeordet et klikkbart spørsmålstegn etter seg.</li>
+<li>Når du klikker på dette spørsmålstegnet opprettes en ny tom side med lenkens navn - klar til redigering.</li>
+</ul>
+
+<h3 class="center">Wiki formateringsregler</h3>
+
+<h4> Avsnitt</h4>
+  <ul>
+  <li> separate avsnitt i teksten med tomme linjer</li>
+  <li> bruk tre prosentteng %%%% for å tvinge et linjeskift</li>
+  <li> dersom du innleder en tekst med mellomrom eller tab vil teksten bli innrykket</li>
+  </ul>
+
+<h4> !! Overskrifter</h4>
+
+  <ul type="circle">
+  <li> bruk et utropstegn ! ved starten på en linje for å lage en liten overskrift</li>
+  <li> !! for middels overskrift</li>
+  <li> !!! for stor overskrift  </li>
+  </ul>
+
+<h4>Tekststiler</h4>
+
+  <ul type="circle">
+  <li>Dersom du vil <em>vektlegge tekst</em> skal den omsluttes av to enkle anførselstegn (ser vanligvis ut som skråstilt tekst)</li>
+  <li><strong>Tekst blir uthevet</strong> med to underscore __ (eller omsluttet av to stjerner **)</li>
+  <li>For å lage <big>teksten stor</big> omslutter du den av doble kryss ##</li>
+  <li>Du kan få <small> mindre bokstaver</small> ved å bruke  "µµ" på samme måte</li>
+  <li>En<tt>skrifttype som en gammel skrivemaskin</tt> brukes når du omslutter tekst i to likhetstegn (==)</li>
+  </ul>
+
+<h4> Lister</h4>
+
+  <ul type="circle">
+  <li>Begynn linja med en stjerne for å angi start på en liste med kulepunkter</li>
+  <li>Bruk # i stedet for nummererte lister
+    <ol>
+    <li>Du kan også opprette underlister</li>
+    <li>Underlister skal startes med samme miks av * og #</li>
+    </ol>
+  </li>
+  </ul>
+
+<h4>Lenker</h4>
+
+  <ul type="circle">
+  <li>Bare skriv inn et CamelCase WikiOrd i teksten for å lage en lenke</li>
+  <li>eller, omslutt noen <b>ord med hakeparenteser</b> for å opprette en lenke</li>
+  <li>alle gyldige internettadresser (som starter med <a href="http://">http://</a>) som http://www.example.com/ i teksten vil automatisk bli klikkbare</li>
+  <li>Dersom du omslutter en webadresse eller Wikilenke med hakeparenteser [<a href="http://www.moodle.org/">Moodle</a>] kan du gi lenken et mer forståelig navn ved å bruke anførselstegn eller  | tegnet
+
+    <ul type="circle">
+    <li> [title | http://example.com]</li>
+    <li> [WikiWord "tittel"] eller ["Tittel for" WikiLink]    </li>
+    </ul>
+  </li>
+
+  <li>Dersom du ikke ønsker at et WikiOrd eller en !http://www-addresse (eller [hvasomhelst] innenfor hakeparenteser) skal bli lenker, må de innledes med et anførselstegn eller en tilde.
+
+    <ul type="circle">
+    <li> !NoHyperLink, ~NoHyperLink</li>
+    <li> ![no hyperlink], !!http://nolink.org/    </li>
+    </ul>
+  </li>
+  </ul>
+
+<h4>Tabeller med |</h4>
+
+<table cellpadding="2" border="1" cellspacing="0">
+<tr>
+<td> bare omslutt </td>
+<td> tekst og tall med skillestrek </td>
+<td> tegnet </td>
+</tr><tr>
+<td>for å bygge en </td>
+<td> tabellstruktur  </td>
+</tr><tr>
+<td> nettleserne vil vanligvis</td>
+<td>utelate de manglende</td>
+<td> feltene </td>
+</tr>
+</table>
+
+<p>Husk på at du alltid har en tom linje før og etter tabellen, slik at den trer tydelig fram i teksten som et selvstendig avsnitt.</p>
+
+<h4>Bilder</h4>
+
+  <ul type="circle">
+  <li>For å legge inn et bilde på siden må du angi bildets absoluttet nettadresse i hakeparenteser, slik som  [http://www.example.com/pics/image.png] </li>
+  <li>alternativt kan du bruke funksjonen for å laste opp bilder</li>
+  </ul>
+
+<h4>Videre lesning</h4>
+
+Det finnes enda flere muligheter med Wiki-formatering. Vennligst sjekk ut  <a href="http://erfurtwiki.sourceforge.net" target="_blank">Erfurt Wiki hjemmesiden</a> for mer informasjon.
+
+<h5 id="camelcase">Camel Case:</h5>
+
+<p>CamelCase beskriver hvordan WikiOrd ser ut. Flere ord med stor forbokstav satt sammen uten mellomrom slik at de ser ut som en kamelrygg.</p>
+
+<p>Denne lenkemetoden er også kalt HompeteTekst.</p>
+
+<p>Selv om språkfolk hater Wikier for denne lenkemetoden, er den blitt veldig vanlig i dataverdenen og velkjent blant programmerere.</p>
