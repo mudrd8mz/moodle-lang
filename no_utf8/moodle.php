@@ -479,7 +479,7 @@ $string['emailconfirmation'] = 'Hei $a->firstname,
 En forespørsel om at det opprettes en brukerkonto på \'$a->sitename\' er mottatt fra din epostadresse.
 Gå til denne nettadressen for å bekrefte kontoen:
   $a->link
-I de fleste e-postlesere vil denne vises som en blå lenke som du kan klikke på. Hvis dette ikke virker, kan du kopiere adressen og lime den inn i adressefeiltet på nettleseren din.
+<br />I de fleste e-postlesere vil denne vises som en blå lenke som du kan klikke på. Hvis dette ikke virker, kan du kopiere adressen og lime den inn i adressefeiltet på nettleseren din.
 OBS: Bekreft via URL straks du har fått e-posten. Går det for lang tid vil bekreftelsesprosessen bli annulert automatisk og du må begynne på nytt!
 
 Hvis du trenger hjelp, ta kontakt med nettstedets administrator, $a->admin';
@@ -583,9 +583,10 @@ $string['existingcreators'] = 'Eksisterende kursprodusenter';
 $string['existingstudents'] = 'Innmeldte studenter';
 $string['existingteachers'] = 'Eksisterende lærere';
 $string['expirynotify'] = 'Melding om at innmeldingen går ut på dato';
-$string['expirynotifyemail'] = '<strong>OBS!</strong> Følgende studenter blir automatisk utmeldt fra dette kurset etter nøyaktig $a->threshold dager:
+$string['expirynotifyemail'] = 'OBS! Følgende studenter blir automatisk utmeldt fra dette kurset etter nøyaktig $a->threshold dager:
 $a->current
-<br /><p>Andre studenter som blir automatisk utmeldt:</p>Følgende studenter på dette kurset har mindre enn $a->threshold dager før de automatisk blir utmeldt:
+Andre studenter som blir automatisk utmeldt:
+Følgende studenter på dette kurset har mindre enn $a->threshold dager før de automatisk blir utmeldt:
 $a->past
 Du kan gå til denne siden for å forlenge innmeldingsperioden:
 $a->extendurl';

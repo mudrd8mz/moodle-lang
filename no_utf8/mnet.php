@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (egensignert)';
@@ -115,6 +115,7 @@ $string['nocurl'] = 'PHP Curl-biblioteket er ikke installert';
 $string['nohostid'] = 'Denne siden krever en verts-ID, og det skal være et heltall.';
 $string['noipmatch'] = 'Den andre maskinens adresse: <br /><em>$a[0]</em><br />samsvarer ikke med oppgitt adresse i oppføringen:<br /><em>$a[1]</em>.';
 $string['nolocaluser'] = 'Det finnes ingen lokal oppføring for fjernbrukeren.';
+$string['nolocaluser2'] = 'Denne portalen tillater ikke auto-oppretting av nye fjernbrukere. Siden det ikke eksisterer noen lokal konto for fjernbrukeren må administrator kontaktes.';
 $string['nomodifyacl'] = 'Du har ikke tillatelse til å redigere MNET tilgangslista.';
 $string['nonmatchingcert'] = 'Emnefeltet på sertifikatet: <br /><em>$a[0]</em><br />samsvarer ikke med verten det kommer fra:<br /><em>$a[1]</em>.';
 $string['nopubkey'] = 'Det oppstod et problem under mottakelsen av offentlig nøkkel.<br/> Kan hende verten ikke tillater Moodle Nettverk eller at nøkkelen er ugyldig.';
