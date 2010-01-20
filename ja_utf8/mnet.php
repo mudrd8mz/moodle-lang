@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20091213) (2009112400)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20100118) (2010011400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (自己署名)';
@@ -99,7 +99,9 @@ $string['mnet_session_prohibited'] = 'あなたのホームサーバのユーザ
 $string['mnetdisabled'] = 'Moodleネットワーキングが<strong>無効</strong>にされています。';
 $string['mnetenrol'] = '登録';
 $string['mnetidprovider'] = 'MNET IDプロバイダ';
+$string['mnetidproviderdesc'] = '前回のログインに使用したユーザ名に合致する正しいメールアドレスを提供することで、あなたは、この機能を使用して、ログインリンクを検索することができます。';
 $string['mnetidprovidermsg'] = 'あなたは、 $a プロバイダにログインすることができます。';
+$string['mnetidprovidernotfound'] = '申し訳ございません、詳細情報は見つかりませんでした。';
 $string['mnetlog'] = 'ログ';
 $string['mnetpeers'] = 'ピア';
 $string['mnetservices'] = 'サービス';
@@ -115,6 +117,7 @@ $string['nocurl'] = 'PHP cURLライブラリがインストールされていま
 $string['nohostid'] = 'このページでは、整数のホストIDを入力してください。';
 $string['noipmatch'] = 'リモートマシンのIPアドレス <em>$a[0]</em> がレコードのIPアドレス <em>$a[1]</em> と合致しません。';
 $string['nolocaluser'] = 'リモートユーザのローカルレコードが存在しません。';
+$string['nolocaluser2'] = 'リモートユーザのローカルレコードが存在しません。このホストではユーザを自動作成しないため、ユーザを作成できませんでした。あなたの管理者にご連絡ください!';
 $string['nomodifyacl'] = 'あなたはMNETアクセスコントロールリストの変更を許可されていません。';
 $string['nonmatchingcert'] = '証明書のサブジェクト: <br /><em>$a[0]</em><br />が次のホストの証明書と合致しません:<br /><em>$a[1]</em>.';
 $string['nopubkey'] = '公開鍵の検索時に問題が発生しました。<br />ホストがMoodleネットワーキングを許可していないか、公開鍵が有効ではありません。';
