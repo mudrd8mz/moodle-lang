@@ -20,6 +20,8 @@ $string['authfail_usermismatch'] = '認証失敗: ユーザが合致しません
 $string['authmnetautoadddisabled'] = 'Moodleネットワーク認証プラグインの「リモートユーザを自動的に追加する」が<strong>無効</strong>にされています。';
 $string['authmnetdisabled'] = 'Moodleネットワーク「認証プラグイン」が<strong>無効</strong>にされています。';
 $string['badcert'] = 'これは有効な証明書ではありません。';
+$string['certdetails'] = '証明書の詳細';
+$string['configmnet'] = 'Moodleネットワーキングでは、このサーバと他のサーバまたはサービスとの通信を許可します。';
 $string['couldnotgetcert'] = '$a で証明書が見つかりませんでした。<br />ホストが停止しているか、正しく設定されていません。';
 $string['couldnotmatchcert'] = '現在ウェブサーバより公開されている証明書と合致しません。';
 $string['courses'] = 'コース';
@@ -117,7 +119,6 @@ $string['nocurl'] = 'PHP cURLライブラリがインストールされていま
 $string['nohostid'] = 'このページでは、整数のホストIDを入力してください。';
 $string['noipmatch'] = 'リモートマシンのIPアドレス <em>$a[0]</em> がレコードのIPアドレス <em>$a[1]</em> と合致しません。';
 $string['nolocaluser'] = 'リモートユーザのローカルレコードが存在しません。';
-$string['nolocaluser2'] = 'リモートユーザのローカルレコードが存在しません。このホストではユーザを自動作成しないため、ユーザを作成できませんでした。あなたの管理者にご連絡ください!';
 $string['nomodifyacl'] = 'あなたはMNETアクセスコントロールリストの変更を許可されていません。';
 $string['nonmatchingcert'] = '証明書のサブジェクト: <br /><em>$a[0]</em><br />が次のホストの証明書と合致しません:<br /><em>$a[1]</em>.';
 $string['nopubkey'] = '公開鍵の検索時に問題が発生しました。<br />ホストがMoodleネットワーキングを許可していないか、公開鍵が有効ではありません。';
@@ -192,7 +193,6 @@ $string['wrong-ip'] = 'あなたのIPアドレスが、記録されているレ�
 $string['xmlrpc-missing'] = 'この機能を使用するには、あなたのPHPビルドにXML-RPCをインストールしてください。';
 $string['yourhost'] = 'あなたのホスト';
 $string['yourpeers'] = 'あなたのピア';
-$string['certdetails'] = '証明書の詳細'; // ORPHANED
-$string['configmnet'] = 'Moodleネットワーキングでは、このサーバと他のサーバまたはサービスとの通信を許可します。'; // ORPHANED
+$string['nolocaluser2'] = 'リモートユーザのローカルレコードが存在しません。このホストではユーザを自動作成しないため、ユーザを作成できませんでした。あなたの管理者にご連絡ください!'; // ORPHANED
 
 ?>
