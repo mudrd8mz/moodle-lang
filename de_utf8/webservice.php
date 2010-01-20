@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20100118) (2010011400)
 
 
 $string['activatehttps'] = 'Über HTTPS verbinden, um das Token zu sehen';
@@ -10,6 +10,7 @@ $string['addservice'] = 'Neuen Service hinzufügen: $a->name (id: $a->id)';
 $string['apiexplorer'] = 'API Explorer';
 $string['apiexplorernotavalaible'] = 'API Explorer ist nicht verfügbar';
 $string['arguments'] = 'Argumente';
+$string['authmethod'] = 'Authentifizierungsmethode';
 $string['configwebserviceplugins'] = 'Zur Sicherheit sollten nur wirklich benutzte Protokolle aktiviert werden.';
 $string['context'] = 'Kontext';
 $string['createtoken'] = 'Token erzeugen';
@@ -22,6 +23,7 @@ $string['enabled'] = 'Aktiviert';
 $string['error'] = 'Fehler: $a';
 $string['errorcodes'] = 'Fehlermeldung';
 $string['execute'] = 'Ausführen';
+$string['executewarnign'] = 'Achtung: Wenn Sie \'Ausführen\' drücken, so wird Ihre Datenbank verändert und Änderungen können nicht rückgängig gemacht werden!';
 $string['externalservice'] = 'Externer Service';
 $string['externalservicefunctions'] = 'Externe Servicefunktionen';
 $string['externalservices'] = 'Externe Services';
@@ -30,9 +32,13 @@ $string['function'] = 'Funktion';
 $string['functions'] = 'Funktionen';
 $string['generalstructure'] = 'Generelle Struktur';
 $string['httpswarning'] = 'Tokens werden nur dann angezeigt, wenn Ihre Verbindung über HTTPS gesichert ist';
+$string['invalidiptoken'] = 'Ungültiges Token - Ihre IP-Adresse wird nicht unterstützt';
+$string['invalidtimedtoken'] = 'Ungültiges Token - Token ist abgelaufen';
+$string['invalidtoken'] = 'Ungültiges Token - Token wurde nicht gefunden';
 $string['iprestriction'] = 'IP-Beschränkung';
 $string['manageprotocols'] = 'Protokolle verwalten';
 $string['managetokens'] = 'Tokens verwalten';
+$string['norequiredcapability'] = 'Keine erforderliche Fähigkeit';
 $string['notoken'] = 'Sie haben kein Token erstellt.';
 $string['operation'] = 'Betrieb';
 $string['optional'] = 'Optional';
@@ -43,6 +49,8 @@ $string['print'] = 'Alles drucken';
 $string['protocol'] = 'Protokoll';
 $string['removefunction'] = 'Entfernen';
 $string['removefunctionconfirm'] = 'Möchten Sie wirklich die Funktion \'$a->function\' aus dem Service \'$a->service\' entfernen?';
+$string['required'] = 'Erforderlich';
+$string['requiredcapability'] = 'Erforderliche Fähigkeit';
 $string['restcode'] = 'REST';
 $string['restexception'] = 'REST';
 $string['restrictedusers'] = 'Nur für authorisierte Nutzer';

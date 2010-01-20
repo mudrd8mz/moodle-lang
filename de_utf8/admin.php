@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20100118) (2010011400)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -830,8 +830,9 @@ $string['tablenosave'] = 'Änderungen in der obigen Tabelle werden automatisch g
 $string['tablesnosave'] = 'Änderungen in den obigen Tabellen werden automatisch gesichert';
 $string['tabselectedtofront'] = 'Tabellen mit Tabulatoren: Soll die Reihe mit dem aktiven Tabulator im Vordergrund platziert werden?';
 $string['tabselectedtofronttext'] = 'Bringe die ausgewählte Reihe in den Vordergrund';
+$string['themedesignermode'] = 'Design-Bearbeitungsmodus';
 $string['themelist'] = 'Design-Liste';
-$string['themeresetcaches'] = 'Ungültiger Design-Speicher';
+$string['themeresetcaches'] = 'Design-Speicher löschen';
 $string['themeselector'] = 'Design-Auswahl';
 $string['themesettings'] = 'Einstellungen';
 $string['therewereerrors'] = 'Es gibt Fehler in Ihren Daten';
@@ -932,6 +933,7 @@ $string['webproxyinfo'] = 'Bitte füllen Sie die folgenden Optionen aus, falls I
 <br /><em>Die PHP-Erweiterung cURL wird dringend empfohlen!</em>';
 $string['xmlrpcrecommended'] = 'Die Installation der optionalen PHP-Erweiterung xmlrpc ist für die Moodle-Network Funktionen nötig.';
 $string['xmlstrictheaders'] = 'XML strict Header';
+$string['yuicomboloading'] = 'YUI combo wird geladen';
 $string['ziprequired'] = 'Die PHP-Erweiterung zip wird ab sofort von Moodle gefordert. Die Pakete info-ZIP oder PclZip werden nicht weiter eingesetzt.';
 $string['spamcleaner'] = 'Spam-Suche'; // ORPHANED
 $string['webserviceprotocols'] = 'Web-Service-Server'; // ORPHANED

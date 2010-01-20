@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100114) (2010011400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100120) (2010011400)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -894,7 +894,7 @@ $string['lastmodified'] = 'Zuletzt geändert';
 $string['lastname'] = 'Nachname';
 $string['lastyear'] = 'Letztes Jahr';
 $string['latestlanguagepack'] = 'Neuere Version des Sprachpakets bei moodle.org suchen';
-$string['latestnews'] = 'Neueste Nachrichten';
+$string['latestnews'] = 'Neue Nachrichten';
 $string['layouttable'] = 'Layout-Tabelle';
 $string['leavetokeep'] = 'Feld leer lassen, um das gegenwärtige Kennwort zu behalten';
 $string['license'] = 'GPL-Lizenz';
@@ -1288,7 +1288,7 @@ $string['question'] = 'Frage';
 $string['questionsinthequestionbank'] = 'Fragen in der Fragenliste';
 $string['readinginfofrombackup'] = 'Informationen der Sicherung lesen';
 $string['readme'] = 'README';
-$string['recentactivity'] = 'Neueste Aktivitäten';
+$string['recentactivity'] = 'Neue Aktivitäten';
 $string['recentactivityreport'] = 'Alle Aktivitäten der letzten Zeit';
 $string['recipientslist'] = 'Empfängerliste';
 $string['recreatedcategory'] = 'Wiederhergestellter Kursbereich $a';
@@ -1369,7 +1369,7 @@ $string['rolemappings'] = 'Rollenplanungen';
 $string['rolerenaming'] = 'Umbenennen der Rolle';
 $string['roles'] = 'Rollen';
 $string['rss'] = 'RSS-Feeds';
-$string['rssarticles'] = 'Zahl der neuesten RSS-Artikel';
+$string['rssarticles'] = 'Zahl neuer RSS-Artikel';
 $string['rsserror'] = 'Fehler beim Lesen der RSS-Daten';
 $string['rsstype'] = 'RSS-Feeds für diese Aktivität';
 $string['saveandnext'] = 'Speichern und nächste anzeigen';
@@ -1492,7 +1492,7 @@ $string['sizekb'] = 'KB';
 $string['sizemb'] = 'MB';
 $string['skipped'] = 'Übersprungen';
 $string['skypeid'] = 'Skype';
-$string['socialheadline'] = 'Soziales Forum - neueste Themen';
+$string['socialheadline'] = 'Soziales Forum - neue Themen';
 $string['someallowguest'] = 'Einige Kurse sind für Gäste zugelassen';
 $string['someerrorswerefound'] = 'Eine Information fehlte oder war unzutreffend. Beachten Sie die Hinweise weiter unten.';
 $string['sortby'] = 'Sortiert nach';
