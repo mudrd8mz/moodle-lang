@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20100120) (2007101571.01)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (egensignert)';
@@ -99,7 +99,9 @@ $string['mnet_session_prohibited'] = 'Brukere fra din hjemmeserver har ikke adga
 $string['mnetdisabled'] = 'Moodle Nettverk er <strong>slått av</strong>.';
 $string['mnetenrol'] = 'Påmeldinger';
 $string['mnetidprovider'] = 'MNET ID-tilbyder';
+$string['mnetidproviderdesc'] = 'Du kan bruke denne funksjonen til å motta en lenke som logger deg inn hvis e-postadressen du skriver inn stemmer med tilhørende brukernavn.';
 $string['mnetidprovidermsg'] = 'Du bør nå kunne logge inn hos din $a tilbyder.';
+$string['mnetidprovidernotfound'] = 'Beklager, men vi finner ikke mer informasjon.';
 $string['mnetlog'] = 'Logger';
 $string['mnetpeers'] = 'Andre verter';
 $string['mnetservices'] = 'Tjenester';

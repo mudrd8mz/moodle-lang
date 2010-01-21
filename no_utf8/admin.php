@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.7+ (Build: 20091216) (2007101570)
+      // admin.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -133,7 +133,6 @@ $string['configexcludeoldflashclients'] = 'Noen versjoner av Adobe Flash er kjen
 $string['configexperimentalsplitrestore'] = 'Dersom aktivert vil sikkerhetskopifilene bli sjekket for XML-feil og delt opp i mindre deler som skal brukes ved en gjenoppretting. Dette medfører mer robust gjenoppretting og mye raskere respons ved kjøring -særlig når du sikkerhetskopierer medium til store kurs.';
 $string['configextendedusernamechars'] = 'Slå på denne for å la studenter bruke alle tegn i sine brukernavn (merk at dette ikke påvirker deres virkelige navn). Standard er \"falsk\" som avgrenser brukernavn til å bestå av kun alfanumeriske tegn';
 $string['configextramemorylimit'] = 'Noen scripts, som Søk, Backup/Restore eller cron, krever mer minne. Angi derfor en høyere verdi på store portaler.';
-$string['configfilteraddthemecssandjs'] = 'Legger til design CSS og JavaScript når \"filteruploadedfiles\" er aktiv. Design CSS og JavaScript kan ofte komme i konflikt med egne filers CSS og JS. Standard er Nei.';
 $string['configfilterall'] = 'Filtrer alle tekststrenger, inkludert overskrifter, titler, navigasjonslinjer osv. Dette er nyttigst når du bruker filter for flere språk, ellers vil den kun skape ekstra belasting på nettstedet uten at du tjener på det.';
 $string['configfiltermatchoneperpage'] = 'Auto-lenking filtre vil bare generere en lenke for første treff på en side. Alle andre blir ignorert.';
 $string['configfiltermatchonepertext'] = 'Auto-lenking filtre vil bare generere en lenke for første treff i hver tekstblokk (i en ressurs, blokk osv). Alle andre blir ignorert. Denne innstillingen overstyres hvis du har aktivisert bare ett auto-lenke treff pr. side.';
@@ -392,7 +391,6 @@ $string['extramemorylimit'] = 'Utvidet minnegrense for PHP';
 $string['filecreated'] = 'Ny fil opprettet';
 $string['filestoredin'] = 'Lagre fil i mappen:';
 $string['filestoredinhelp'] = 'Hvor filen vil bli lagret';
-$string['filteraddthemecssandjs'] = 'Aktiver designets CSS og JS';
 $string['filterall'] = 'Filtrer alle strenger';
 $string['filtermatchoneperpage'] = 'Filtrer ett treff per side';
 $string['filtermatchonepertext'] = 'Filtrer ett treff per tekst';
@@ -700,7 +698,7 @@ $string['sitelangchanged'] = 'Endret nettstedspråk uten feil';
 $string['sitemailcharset'] = 'Karaktersett';
 $string['sitemaintenance'] = 'Nettstedet er midlertidig nede p.g.a vedlikehold';
 $string['sitemaintenancemode'] = 'Vedlikeholdsmodus';
-$string['sitemaintenanceoff'] = 'Vedlikeholsmodus er slått av, og nettstedet fungerer normalt igjen';
+$string['sitemaintenanceoff'] = 'Vedlikeholdsmodus er slått av, og nettstedet fungerer normalt igjen';
 $string['sitemaintenanceon'] = 'Nettstedet er i vedlikeholdsmodus(bare administratorer kan logge inn eller bruke nettstedet)';
 $string['sitemaintenancewarning'] = 'Dette nettstedet er i vedlikeholdsmodus for øyeblikket (kun administratorer kan logge inn). For å kunne returnere til normal operasjon, må du <a href=\"maintenance.php\">slå av vedlikeholdsmodus</a>.';
 $string['sitepolicies'] = 'Site regler';
@@ -834,6 +832,8 @@ $string['webproxyinfo'] = 'Fyll inn følgende valg hvis ikke Moodle-serveren din
 $string['xmlrpcrecommended'] = 'Å installere det valgfrie xmlrpc-tillegget er nyttig for Moodle Networking funksjonaliteten.';
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['ziprequired'] = 'ZIP PHP-tillegget kreves nå av Moodle. Info-ZIP eller PclZIP biblioteket er ikke lenger i bruk.';
+$string['configfilteraddthemecssandjs'] = 'Legger til design CSS og JavaScript når \"filteruploadedfiles\" er aktiv. Design CSS og JavaScript kan ofte komme i konflikt med egne filers CSS og JS. Standard er Nei.'; // ORPHANED
+$string['filteraddthemecssandjs'] = 'Aktiver designets CSS og JS'; // ORPHANED
 $string['requiredentrieschanged'] = '<strong>VIKTIG - VÆR VENNLIG LES<br/>(Denne advarselen vil kun vises ved denne oppgraderingen)</strong><br/>På grunn av en feilreting, vil aktiviteter ved bruk av \'Nødvendige tilføyelser\' og \'Nødvendige tilføyelser før en kan se innstillinger\' endres. En mer detaljert forklaring på endringene kan en lese (på engelsk) på <a href=\"http://moodle.org/mod/forum/discuss.php?110928\" target=\"_blank\">databaseforumet</a>. <br/><br/>Denne endringen påvirker følgende databaser i systemet ditt: (Vær vennlig å lagre denne listen nå, og etter at oppgraderingen er ferdig, sjekk at disse aktivitetene fremdeles virker slik lærerne ønsker).<br/><strong style?\"color:red\">$a->text</strong><br/>'; // ORPHANED
 $string['configenablerecordcache'] = 'Dersom du aktiverer denne, vil systemet lagre i hurtigminnet når det mottar data fra databasen. Dette betyr at databasen blir raskere i bruk, men på  den annen side vil minnekravet på serveren øke. Generelt anbefaler vi at innstillingen aktiviseres, så sant du ikke har lite minne på serveren. Noen prosesser vil likevel overstyre denne innstillingen (når utvikleren er sikker på at det er lurt).'; // ORPHANED
 
