@@ -6,6 +6,7 @@ $string['blockname'] = 'Youtube';
 $string['category'] = 'Catégorie';
 $string['comedy'] = 'Comédie';
 $string['configtitle'] = 'Titre';
+$string['education'] = 'Éducation';
 $string['entertainment'] = 'Entertainment';
 $string['filmsanimation'] = 'Films &amp; animations';
 $string['gadgetsgames'] = 'Gadgets &amp; jeux';
@@ -16,6 +17,7 @@ $string['newspolitics'] = 'Nouvelles &amp; politique';
 $string['numberofvideos'] = 'Nombre de vidéos';
 $string['peopleblogs'] = 'Personnes &amp; blogs';
 $string['petsanimals'] = 'Animaux domestiques &amp; autres animaux';
+$string['scienceandtech'] = 'Science &amp; Technologie';
 $string['sports'] = 'Sports';
 $string['travel'] = 'Voyages &amp; Lieux';
 
