@@ -1,5 +1,9 @@
-<?PHP // $Id$ 
+﻿<?PHP // $Id$ 
+      // question.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+
+      // $Id$ 
       // question.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+
 
 
 $string['adminreport'] = 'דווח על בעיות אפשריות במסד הנתונים של שאלותיך';
@@ -26,6 +30,7 @@ $string['deletecoursecategorywithquestions'] = 'קיימות שאלות בבנק
 $string['donothing'] = 'אל תעתיק או תזיז קבצים או שנה קישורים';
 $string['editingcategory'] = 'עריכת קטגוריה';
 $string['editingquestion'] = 'עריכת שאלה';
+$string['editthiscategory'] = 'עדכן קטגוריה זו';
 $string['erroraccessingcontext'] = 'לא מסוגל להתחבר להקשרים';
 $string['errordeletingquestionsfromcategory'] = 'שגיאה במחיקת שאלות מקטגוריה $a.';
 $string['errorfilecannotbecopied'] = 'שגיאה - לא ניתן להעתיק את קובץ $a';
@@ -57,7 +62,7 @@ $string['movelinksonly'] = 'שנה את ההצבעה של הקישורים, אל
 $string['moveq'] = 'שאלות נוספות';
 $string['moveqtoanothercontext'] = 'הסט השאלה להקשר';
 $string['movingcategory'] = 'הסטת קטגוריה';
-$string['movingcategoryandfiles'] = 'האם אתה בטוח שאתה רוצה להעביר את הקטגוריה  {$a->name} וכל צאצאי הקטגוריה לקונטקסט עבור \"{$a->contextto}\"?<br/> הבחנו {$a->urlcount} בקבצים המקושרים משאלות ב{$a-fromareaname}, האם תרצה להעתיק או להעביר אותם ל{$a->toareaname?';
+$string['movingcategoryandfiles'] = 'האם אתה בטוח שאתה רוצה להעביר את הקטגוריה  {$a->name} וכל צאצאי הקטגוריה לקונטקסט עבור \"{$a->contextto}\"?<br/> הבחנו {$a->urlcount} בקבצים המקושרים משאלות ב{\$a-fromareaname}, האם תרצה להעתיק או להעביר אותם ל{$a->toareaname?';
 $string['movingcategorynofiles'] = 'האם אתה בטוח שאתה רוצה להזיז את קטגוריה \"{$a->name}\" וכל קטגוריות הצאצאים להקשר עבור \"{$a->contextto}?';
 $string['movingquestions'] = 'הסטת שאלות וכל קובץ שהוא';
 $string['movingquestionsandfiles'] = 'האם אתה בטוח שאתה רוצה להעביר שאלות {$a->questions} לקונטקסט עבור <strong>\"{$a->tocontext}\"</strong>?<br /> הבחנו <strong>{$a->urlcount} בקבצים </strong> המקושרים משאלות אלו ב{$a->fromareaname}, האם תרצה להעתיק רו להעביר אותם ל{$a->toareaname}?';
