@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tag_youtube.php - created with Moodle 1.8.2+ (2007021520)
+      // block_tag_youtube.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['anycategory'] = 'Edozein kategoria';
@@ -8,6 +8,7 @@ $string['blockname'] = 'Youtube';
 $string['category'] = 'Kategoria';
 $string['comedy'] = 'Komedia';
 $string['configtitle'] = 'Izenburua';
+$string['education'] = 'Hezkuntza';
 $string['entertainment'] = 'Denbora-pasa';
 $string['filmsanimation'] = 'Filmak &amp; animazioa';
 $string['gadgetsgames'] = 'Trikimailuak &amp; jokoak';
@@ -18,6 +19,7 @@ $string['newspolitics'] = 'Albisteak &amp; Politika';
 $string['numberofvideos'] = 'Bideo-kopurua';
 $string['peopleblogs'] = 'Jendea &amp; blogak';
 $string['petsanimals'] = 'Animaliak';
+$string['scienceandtech'] = 'Zientzia &amp; Teknika';
 $string['sports'] = 'Kirolak';
 $string['travel'] = 'Bidaiak &amp; Herriak';
 

@@ -3,6 +3,7 @@
 
 
 $string['contentheader'] = 'Edukia';
+$string['folderadministration'] = 'Direktorioen kudeaketa';
 $string['foldercontent'] = 'Fitxategiak eta azpidirektorioak';
 $string['modulename'] = 'Direktorioa';
 $string['modulenameplural'] = 'Direktorioak';
