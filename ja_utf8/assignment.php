@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // assignment.php - created with Moodle 2.0 dev (Build: 20091109) (2009110605)
+      // assignment.php - created with Moodle 2.0 dev (Build: 20100118) (2010011400)
 
 
 $string['allowdeleting'] = '削除を許可する';
@@ -119,7 +119,7 @@ $string['submitformarking'] = '課題採点のために最後の提出を送信�
 $string['submitted'] = '提出';
 $string['submittedfiles'] = '提出ファイル';
 $string['trackdrafts'] = '「採点のために送信する」ボタンを有効にする';
-$string['typeblog'] = 'ブログ投稿';
+$string['typeblog'] = 'ブログ記事';
 $string['typeoffline'] = 'オフライン活動';
 $string['typeonline'] = 'オンラインテキスト';
 $string['typeupload'] = 'ファイルの高度なアップロード';
