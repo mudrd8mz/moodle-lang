@@ -12,7 +12,7 @@ $string['cannotsetuptable'] = '$a テーブルを正常に設定できません�
 $string['codingerror'] = 'コーディングエラーが検出されました。プログラマによって修正される必要があります: $a';
 $string['configmoodle'] = 'Moodleは、まだ設定されていません。最初にconfig.phpを編集してください。';
 $string['erroroccur'] = '処理中にエラーが発生しました。';
-$string['fixsetting'] = 'config.php設定を修正してください: <p>あなたは次のように設定していますが:<p>\\$CFG->dirroot = \'$a->current\';</p> <p>実際には次のように設定する必要があります:<p>\\$CFG->dirroot = \'$a->found\';</p>';
+$string['fixsetting'] = 'config.php設定を修正してください: <p>あなたは次のように設定していますが:<p>\$CFG->dirroot = \'$a->current\';</p> <p>実際には次のように設定する必要があります:<p>\$CFG->dirroot = \'$a->found\';</p>';
 $string['invalidarraysize'] = '$a の変数内の配列サイズが正しくありません。';
 $string['invalideventdata'] = '正しくないイベントデータが送信されました: $a';
 $string['invalidparameter'] = '無効なパラメータ値が検出されました。実行を続けることができません。';
@@ -20,7 +20,7 @@ $string['missingconfigversion'] = 'configテーブルにバージョンが含ま
 $string['modulenotexist'] = '$a モジュールがありません。';
 $string['morethanonerecordinfetch'] = 'fetch() で1レコード以上のレコードが見つかりました!';
 $string['mustbeoveride'] = '抽象メソッド $a は、オーバーライドする必要があります。';
-$string['noactivityname'] = 'page_generic_activityによりページオブジェクトが生成されましたが、\\$this->activitynameが定義されていません。';
+$string['noactivityname'] = 'page_generic_activityによりページオブジェクトが生成されましたが、\$this->activitynameが定義されていません。';
 $string['noadminrole'] = 'adminロールが見つかりませんでした。';
 $string['noblocks'] = 'ブロックがインストールされていません!';
 $string['nocate'] = 'カテゴリがありません!';
