@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20090914) (2009091310)
+      // debug.php - created with Moodle 2.0 dev (Build: 20100118) (2010011400)
 
 
 $string['authpluginnotfound'] = '認証プラグイン $a が見つかりませんでした。';
@@ -12,15 +12,15 @@ $string['cannotsetuptable'] = '$a テーブルを正常に設定できません�
 $string['codingerror'] = 'コーディングエラーが検出されました。プログラマによって修正される必要があります: $a';
 $string['configmoodle'] = 'Moodleは、まだ設定されていません。最初にconfig.phpを編集してください。';
 $string['erroroccur'] = '処理中にエラーが発生しました。';
-$string['fixsetting'] = 'config.php設定を修正してください: <p>あなたは次のように設定していますが:</p> <p>\$CFG->dirroot = \"$a->current\";</p> <p>実際には次のように設定する必要があります:</p> <p>\$CFG->dirroot = \"$a->found\"</p>';
+$string['fixsetting'] = 'config.php設定を修正してください: <p>あなたは次のように設定していますが:<p>\\$CFG->dirroot = \'$a->current\';</p> <p>実際には次のように設定する必要があります:<p>\\$CFG->dirroot = \'$a->found\';</p>';
 $string['invalidarraysize'] = '$a の変数内の配列サイズが正しくありません。';
 $string['invalideventdata'] = '正しくないイベントデータが送信されました: $a';
 $string['invalidparameter'] = '無効なパラメータ値が検出されました。実行を続けることができません。';
 $string['missingconfigversion'] = 'configテーブルにバージョンが含まれていません。申し訳ございません、続けることはできません。';
 $string['modulenotexist'] = '$a モジュールがありません。';
-$string['morethanonerecordinfetch'] = 'fetch() に1レコード以上のレコードが見つかりました!';
-$string['mustbeoveride'] = '抽象メソッド $a は、オーバーライドしてください。';
-$string['noactivityname'] = 'page_generic_activityによりページオブジェクトが生成されましたが、\$this->activitynameが定義されていません。';
+$string['morethanonerecordinfetch'] = 'fetch() で1レコード以上のレコードが見つかりました!';
+$string['mustbeoveride'] = '抽象メソッド $a は、オーバーライドする必要があります。';
+$string['noactivityname'] = 'page_generic_activityによりページオブジェクトが生成されましたが、\\$this->activitynameが定義されていません。';
 $string['noadminrole'] = 'adminロールが見つかりませんでした。';
 $string['noblocks'] = 'ブロックがインストールされていません!';
 $string['nocate'] = 'カテゴリがありません!';
@@ -31,10 +31,10 @@ $string['notables'] = 'テーブルがありません!';
 $string['phpvaroff'] = 'PHPサーバ変数「 $a->name 」をOffにしてください - $a->link';
 $string['phpvaron'] = 'PHPサーバ変数「 $a->name 」がOnにされていません - $a->link';
 $string['sessionmissing'] = 'セッションに $a オブジェクトがありません。';
-$string['siteisnotdefined'] = 'サイトが定義されていません!';
 $string['sqlrelyonobsoletetable'] = 'このSQLは古いテーブル $a を参照しています! あなたのコードは、開発者により修正される必要があります。';
 $string['withoutversion'] = 'メインversion.phpが存在しないか、読めない、または指定されていません。';
 $string['xmlizeunavailable'] = 'xmlize関数を利用できません。';
+$string['siteisnotdefined'] = 'サイトが定義されていません!'; // ORPHANED
 $string['cannotcreateadminuser'] = '深刻なエラー: adminユーザレコードを作成できませんでした!!!'; // ORPHANED
 $string['cannotsetupsite'] = '重大なエラー! サイトをセットアップできませんでした!'; // ORPHANED
 $string['cannotupdaterelease'] = 'エラー: データベース内のリリースバージョンを更新できませんでした!!'; // ORPHANED

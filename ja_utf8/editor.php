@@ -1,15 +1,15 @@
 <?PHP // $Id$ 
-      // editor.php - created with Moodle 2.0 dev (Build: 20090517) (2009051700)
+      // editor.php - created with Moodle 2.0 dev (Build: 20100118) (2010011400)
 
 
 $string['about'] = 'このエディタに関して';
 $string['absbottom'] = '下揃え (絶対指定)';
 $string['acteditorshhdr'] = 'アクティブテキストエディタ';
 $string['address'] = 'アドレス';
-$string['alertnoselectedtext'] = '最初にテキストを選択してください!';
+$string['alertnoselectedtext'] = 'あなたは、最初にテキストを選択する必要があります!';
 $string['alignment'] = '配置';
-$string['alternatetext'] = '代替表示テキスト';
-$string['anchorhelp'] = 'ここでは、アンカーのみを作成します。あなたはリンクを手動で作成する必要があります。';
+$string['alternatetext'] = '代替テキスト';
+$string['anchorhelp'] = 'ここでは、アンカーのみ作成します。あなたは、リンクを手動作成する必要があります。';
 $string['anchorname'] = 'アンカー名';
 $string['anchors'] = 'アンカー';
 $string['baseline'] = 'ベースライン揃え';
@@ -31,11 +31,11 @@ $string['createanchor'] = 'アンカーを作成する';
 $string['createfolder'] = 'フォルダを作成する';
 $string['createlink'] = 'リンクを挿入する';
 $string['cut'] = '選択したものを切り取る';
-$string['cutpastemozilla'] = '残念ですが、現在通常のキーボードショートカット (ペーストボタンも) を使うことができません。これはMozillaおよびFirefoxブラウザのいくつかのバージョンに、セキュリティ機能が組み込まれていることが原因しています。<br /><br />これに関して3つの対応方法があります: <br /> (1) CTRL + v を使う代わりに SHIFT + Insert を使う。<br /> (2) ブラウザの 編集->貼り付け メニューを使う。<br /> (3) user.jsファイルを編集することでブラウザの設定を変更する。<br /><br />下記のOKボタンを押して詳細情報を見るか、キャンセルを押してエディタに戻ってください。';
+$string['cutpastemozilla'] = '残念ですが、現在通常のキーボードショートカット (ペーストボタンも) を使うことができません。これはMozillaおよびFirefoxブラウザのいくつかのバージョンに、セキュリティ機能が組み込まれたことが原因しています。<br /><br />これに関して3つの対処方法があります: <br /> (1) CTRL + v を使用する代わりに SHIFT + Insert を使用する。<br /> (2) ブラウザの 編集->貼り付け メニューを使う。<br /> (3) user.jsファイルを編集することでブラウザ設定を変更する。<br /><br />下記のOKボタンを押して詳細情報を閲覧するか、キャンセルを押してエディタに戻ってください。';
 $string['delete'] = '削除';
 $string['editors'] = 'テキストエディタ';
 $string['editorsettings'] = 'エディタを管理する';
-$string['enterurlfirst'] = '最初にURIを入力してください。';
+$string['enterurlfirst'] = 'あなたは、最初にURIを入力する必要があります。';
 $string['filebrowser'] = 'ファイルブラウザ';
 $string['findwhat'] = '検索';
 $string['fontname'] = 'フォント名';
@@ -80,10 +80,10 @@ $string['middle'] = '中央揃え';
 $string['minimize'] = 'エディタを最小化する';
 $string['move'] = '移動';
 $string['multi'] = '多言語';
-$string['mustenterurl'] = 'URIを入力してください。';
+$string['mustenterurl'] = 'あなたは、URIを入力する必要があります。';
 $string['nolink'] = '用語集リンクを抑える';
 $string['normal'] = 'ノーマル';
-$string['notimage'] = '選択したファイルはイメージではありません。イメージを選択してください。';
+$string['notimage'] = '選択されたファイルは、イメージではありません。イメージを選択してください!';
 $string['notset'] = '未設定';
 $string['ok'] = 'OK';
 $string['options'] = 'オプション';
