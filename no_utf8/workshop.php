@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // workshop.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // workshop.php - created with Moodle 1.9.7+ (Build: 20100120) (2007101571.01)
 
 
 $string['absent'] = 'Fraværende';
@@ -294,7 +294,7 @@ $string['ungradedassessmentsofstudentsubmissions'] = '$a ikke karaktersatte vurd
 $string['ungradedassessmentsofteachersubmissions'] = '$a ikke karaktersatte vurderinger av lærerinnleveringer';
 $string['uploadsuccess'] = 'Lastet opp uten problem';
 $string['usepassword'] = 'Bruk passord';
-$string['verylax'] = 'Svært vagt';
+$string['verylax'] = 'Meget vagt';
 $string['verypoor'] = 'Veldig dårlig';
 $string['verystrict'] = 'Meget nøye';
 $string['view'] = 'Vis';
