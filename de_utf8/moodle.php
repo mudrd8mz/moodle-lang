@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100120) (2010011400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100124) (2010011400)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -1429,7 +1429,7 @@ $string['selectall'] = 'Alle auswählen';
 $string['selectamodule'] = 'Wählen Sie bitte ein Aktivitäten-Modul aus';
 $string['selectdefault'] = 'Standard auswählen';
 $string['selectedfile'] = 'Ausgewählte Datei';
-$string['selectednowmove'] = '$a Dateien zum Verschieben ausgewählt. Wählen Sie jetzt das Zielverzeichnis aus und klicken Sie auf \'Dateien hierhin verschieben\'.';
+$string['selectednowmove'] = 'Zum Verschieben ist $a Datei(en) ausgewählt. Öffnen Sie jetzt das Zielverzeichnis und klicken Sie auf \'Hierhin verschieben\'.';
 $string['selectfiles'] = 'Dateien auswählen';
 $string['selectnos'] = '\'Nein\' für alle auswählen';
 $string['selectperiod'] = 'Zeitraum auswählen';

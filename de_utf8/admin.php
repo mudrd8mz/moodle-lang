@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20100118) (2010011400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20100124) (2010011400)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -613,6 +613,8 @@ $string['mymoodle'] = 'MyMoodle';
 $string['mymoodleredirect'] = 'Nutzer/innen zu MyMoodle weiterleiten';
 $string['mysql416bypassed'] = 'Wenn Sie in Ihrer Website ausschließlich ISO-8859-1 (lateinische) Sprachen verwenden, können Sie eine MySQL-Version ab 4.1.12 (oder höher) verwenden.';
 $string['mysql416required'] = 'MySQL 4.1.16 (oder höher) ist für Moodle 1.6 unbedingt erforderlich, um eine Datenkonvertierung nach UTF-8 sicherzustellen.';
+$string['navshowallcourses'] = 'Alle eigenen Kurse anzeigen';
+$string['navshowcategories'] = 'Kursbereiche anzeigen';
 $string['nobookmarksforuser'] = 'Sie besitzen keinerlei Lesezeichen';
 $string['nochanges'] = 'Keine Änderungen';
 $string['nodatabase'] = 'Keine Datenbank';
@@ -662,7 +664,8 @@ $string['php50restricted'] = 'PHP 5.0.x hat eine Reihe bekannter Fehler! Sie sol
 $string['phpfloatproblem'] = 'Unerwartetes Problem bei der Behandlung von PHP-Dezimalzahlen (float) aufgetreten - $a';
 $string['pleaserefreshregistration'] = 'Ihre Website wurde am $a bei moodle.org registriert. <br />Bitte erneuern Sie die Registrierung bei entscheidenden Veränderungen.';
 $string['pleaseregister'] = 'Bitte registrieren Sie Ihre Website.';
-$string['plugins'] = 'Module';
+$string['plugin'] = 'Plugin';
+$string['plugins'] = 'Plugins';
 $string['profilecategory'] = 'Kategorie';
 $string['profilecategoryname'] = 'Name der Kategorie (muss eindeutig sein)';
 $string['profilecategorynamenotunique'] = 'Dieser Name wird bereits benutzt';
@@ -747,6 +750,7 @@ Infolge einer Fehlerkorrektur wird sich das Verhalten von Datenbankaktivitäten 
 Weitere Erklärungen entnehmen Sie bitte den  <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
 <br/><br/>Diese Änderung betrifft die folgenden Daten in Ihrem System . Bitte sichern Sie die nachfolgende Liste und prüfen Sie nach der Aktualisierung, ob alle Aktivitäten noch wie beabsichtigt funktionieren.<br/><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredtemplate'] = 'Erforderlich. Geben Sie hier die Vorlagestruktur ein (%%l = Nachname, %%f = Vorname, %%u = Anmeldename). In der Hilfedatei finden Sie weitere Details und Beispiele.';
+$string['requiremodintro'] = 'Beschreibung der Aktivität notwendig';
 $string['requires'] = 'Erfordernisse';
 $string['restrictbydefault'] = 'Module standardmäßig einschränken';
 $string['restrictmodulesfor'] = 'Module einschränken für';
@@ -798,6 +802,7 @@ $string['sitemaintenancemode'] = 'Wartungsmodus';
 $string['sitemaintenanceoff'] = 'Der Wartungsmodus wurde wieder abgeschaltet. Die Website steht wieder zur Verfügung.';
 $string['sitemaintenanceon'] = 'Die Website befindet sich zur Zeit im Wartungsmodus. Nur Administrator/innen können die Website nutzen.';
 $string['sitemaintenancewarning'] = 'Die Website befindet sich zur Zeit im Wartungsmodus. Nur Administrator/innen können sich weiterhin einloggen. Um in den Normalmodus zurückzukehren, klicken Sie auf <a href=\"maintenance.php\">Wartungsmodus ausschalten</a>.';
+$string['sitemaintenancewarning2'] = 'Die Website befindet sich aktuell im Wartungsmodus (nur Administratoren dürfen sich anmelden). Um die Website in den Normalbetrieb zu schalten deaktivieren Sie bitte den <a href=\"$a\">Wartungsmodus</a>.';
 $string['sitepolicies'] = 'Website-Rechte';
 $string['sitepolicy'] = 'URL zu den Website-Rechten';
 $string['sitesectionhelp'] = 'Falls Sie dies wählen, wird ein Themenbereich auf der Startseite angezeigt.';
