@@ -2,41 +2,55 @@
       // moodle.org.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
-$string['aboutdemosite'] = 'Gune demostrazio-gunea Moodle gune oso bat da eta  adibide gisa sortutako hainbat ikastaro ditu. Horietan ibili ahal izango zara ikasle, irakasle eta kudeatzaile gisa. Ez kezkatu dena nahaste baduzu, orduro garbitu egiten da eta lehengora itzuli.';
+$string['aboutdemosite'] = 'Gune demostrazio-gunea Moodle gune oso bat da eta  adibide gisa sortutako hainbat ikastaro ditu. Horietan ibili ahal izango zara ikasle, irakasle eta kudeatzaile gisa. Ez kezkatu dena nahasten baduzu, orduro garbitu egiten da eta lehengora itzuli.';
 $string['aboutdemositetitle'] = 'Demostrazio-gunea';
-$string['aboutintro'] = 'Moodle on-line moldeko ikastaroak sortzeko programa-multzoa da. Garabidean dagoen kode irekiko proiektua da eta giza konstruktibismoak gidatutako hezkuntza-egoerak bultzatu nahi ditu. Nonbaiteko web-zerbitzari batean egon behar du instalatuta (zeure ordenagailuetako bat izan daiteke edo web-ostatua eskaintzen duen entrepesaren bateko bat)';
+$string['aboutintro'] = 'Moodle Ikastaroak Kudeatzeko kode irekiko Sistema (IKS) da, edo bestela esanda, Ikaskuntza Kudeatzeko Sistema (IKS) edo Ikasteko Ingurune Birtuala (IIB). Oso ezaguna da hezitzaileen artean ikasleei begirako web-gune dinamikoak sortzeko. Nonbaiteko web-zerbitzari batean egon behar du instalatuta (zeure ordenagailuetako bat izan daiteke edo web-ostatua eskaintzen duen entrepesaren bateko bat).';
 $string['aboutoverviewtitle'] = 'Zer da Moodle?';
 $string['aboutstatisticstitle'] = 'Estatistikak';
 $string['browsecvstitle'] = 'Arakatu gure iturri-kodea';
 $string['communityintro'] = 'Moodle-k komunitate handi eta askotarikoa du <a href=\"http://moodle.org/userpics\">$a->usercount erregistratutako erabiltzailez osatua</a> Moodle gune honetan, <a href=\"http://download.moodle.org/lang16/\">$a->langcount hizkuntzatan</a> aritzen direnak <a href=\"http://moodle.org/sites\">$a->countrycount herrialdetan</a> (badira <a href=\"http://moodle.org/stats\">estatistika gehiago</a>)';
 $string['connectedsitestitle'] = 'Konektatutako guneak';
-$string['contactintro'] = 'Moodle-ren edozein gairekiko laguntza behar baduzu, begiratu <a href=\"/support\">Laguntza-orria</a>';
+$string['contactintro'] = 'Mesedez, harremanetarako aukeratu ondorengo aukeretatik:';
 $string['contactmoodlecomtitle'] = 'Moodle.com';
 $string['contactmoodleorglogin'] = 'Hasi saioa gune honetan orain';
 $string['contactmoodleorgother'] = 'Bestelako eskarietarako, mesedez erabili beheko formularioa.';
 $string['contactmoodleorgtitle'] = 'Moodle.org';
+$string['contactsent'] = 'Zure mezua e-posta bidez bidaliko zaio Moodle Komunitatearen Arduradunari.';
+$string['contactsupporttitle'] = 'Laguntza';
 $string['developercontributors'] = 'Kredituak';
 $string['developerlist'] = 'Idazteko baimena duten garatzaileen zerrenda osoa';
-$string['developermeetings'] = 'Garatzaileeen blkurak';
+$string['developermeetings'] = 'Garatzaileeen bilkurak';
 $string['developerstitle'] = 'Garatzaileak';
 $string['developmentdocs'] = 'Begiratu <a href=\"http://docs.moodle.org/en/Development\">Garatzaileen dokumentazioa</a> informazio gehiagorako!';
-$string['developmentdocstitle'] = 'Garatzaileen dokumentzioa';
+$string['developmentdocstitle'] = 'Garatzaileen dokumentazioa';
 $string['developmentintro'] = 'Gure helburua garapen-prozesu garden eta irekia da eta dei egiten diogu edozein erabiltzaile-taldera laguntzera. Garatzaileen zerrenda <a href=\"http://moodle.org/cvs\">luzeaz gain</a> gaur egun <a href=\"http://cvs.moodle.org/\">Moodle source code</a> idazten ari direnak, jendeak eztabaidetan, probetan, feedback-ean eta dokumentazioan har dezake parte.';
 $string['developmenttracker'] = 'Garapen-gai guztiak (besteak beste bug-ak, funtzio berriak eta hobekuntzak) <a href=\"http://tracker.moodle.org/\">Moodle Tracker</a>-ean gorde eta kudeatzen dira. Nor ari den hor lanean ikus dezakezu eta eztabaidetan parta hartu. Hemen bila dezakezu lehenik gai jakin baten inguruan ari bazara, eta mesedez ziurtatu eginda ikusi nahi dituzun kontuen inguruko BOTOA ematen duzula, horrexek ezartzen baitu garapenaren lehentasunaa.';
 $string['donationstitle'] = 'Dohaintzak';
 $string['downloadcoretitle'] = 'Moodle-ren pakete estandarrak';
 $string['downloadcvstitle'] = 'Moodle CVS bidez';
+$string['downloadintro'] = 'Moodle <a href=\"http://docs.moodle.org/eu/Lizentzia\"> GPL lizientziapeko </a> kode irekikoa da. Guk sortutako guztia doan jaitsi eta erabil dezakezu.';
 $string['downloadlangtitle'] = 'Hizkuntza-paketeak';
 $string['downloadlogotitle'] = 'Moodle-ren logoak';
 $string['downloadmactitle'] = 'Moodle Mac OS X-rako';
 $string['downloadmodulestitle'] = 'Moduluak eta pluginak';
+$string['downloadthemes'] = 'Moodle gune baten itxura erabat alda daiteke \"itxura\" ezberdina erabilita. Moodle-erabiltzaileek sortu eta sarean ipini duten itxura-datu base handia dugu.';
 $string['downloadthemestitle'] = 'Itxurak';
 $string['downloadwintitle'] = 'Moodle Windows-erako';
 $string['eventstitle'] = 'Ekitaldiak';
+$string['frontpagewelcome1'] = 'Moodle Ikastaroak Kudeatzeko Sistema (IKS) da, edo bestela esanda, Ikaskuntza Kudeatzeko Sistema (IKS) edo Ikasteko Ingurune Birtuala (IIB). Doako web-aplikazioa da, hezitzaileek on-line moldeko ikaskuntza-gune eraginkorrak sortzeko erabil dezaketena.';
+$string['frontpagewelcome2'] = 'Moodle.org Moodle erabiltzaileen komunitateko web-gunea da, eztabaidatu eta lan egiteko erabiltzen duguna. Mesedez, erabil itzazu menuak gehiago jakiteko eta parte hartzeko!';
 $string['frontpagewelcometitle'] = 'Ongi etorri Moodle komunitatera!';
+$string['generaldeveloperforum'] = 'Garatzaileen foro orokorra';
 $string['jobstitle'] = 'Moodle lanpostuak';
+$string['moodlecertification'] = 'Moodle ziurtagiriak';
+$string['moodleconsulting'] = 'Moodle aholkularitza';
+$string['moodlecourseware'] = 'Moodle ikastaro-biltegia';
+$string['moodlecustomisation'] = 'Moodle pertsonalizazioa';
 $string['moodledocs'] = 'Moodle Doc-ak';
+$string['moodlehosting'] = 'Moodle ostatu';
 $string['moodleinstallation'] = 'Moodle-ren instalazioa';
+$string['moodleintegrations'] = 'Moodle integrazioak';
+$string['moodlesupport'] = 'Moodle laguntza';
 $string['moodlethemes'] = 'Moodle-ren itxurak';
 $string['nameabout'] = 'Honi buruz';
 $string['nameaboutmoodle'] = 'Moodle-ri buruz';
@@ -51,18 +65,24 @@ $string['nameforums'] = 'Foroak';
 $string['namemycourses'] = 'Nire ikastaroak';
 $string['namenetwork'] = 'Konektatutako guneak';
 $string['namenews'] = 'Berriak';
-$string['namesecurity'] = 'Segurtasuna';
+$string['namesecurity'] = 'Segurtasunari buruzko berriak';
 $string['namesupport'] = 'Laguntza';
 $string['newscalendar'] = 'Egutegia';
+$string['newsofficial'] = 'Moodle-ri buruzko berri ofizialak';
 $string['newsplanet'] = 'Moodle planeta';
 $string['newsrecent'] = 'Azken albisteak';
 $string['newssecurity'] = 'Segurtasunari buruzko berriak';
+$string['overviewabout'] = 'Moodle-ri buruzko ikuspegi orokorra';
+$string['overviewcommunity'] = 'Moodle komunitateari buruzko ikuspegi orokorra';
+$string['overviewdevelopment'] = 'Moodle garapenari buruzko ikuspegi orokorra';
+$string['overviewmy'] = 'Ikusi matrikulatuta zauden moodle.org-eko ikastaro guztiak';
+$string['recentpart'] = 'Orri honek gaur egun moodle.org erabiltzen duen hainbat lagun erakusten du';
 $string['registeredsitestitle'] = 'Erregistratutako guneak';
 $string['shoptitle'] = 'Moodle Denda';
 $string['sourcecodetitle'] = 'Iturburu-kode irekia';
 $string['supportbooks'] = '<h3>Liburuak eta esku-liburuak</h3>
 Hainbatek sortu ditu Moodle-ren inguruko liburuak. Begiratu <a href=\"/books\">Liburuen zerrenda</a> zehaztasun gehiagorako.';
-$string['supportbookstitle'] = 'liburuak eta manualak';
+$string['supportbookstitle'] = 'Liburuak eta manualak';
 $string['supportcommercial'] = '<h3>Laguntza komertziala eta bestelako zerbitzuak</h3>
 Moodle-ren ostatu, kontsulta, abian jartze, zeure garapen, instalazio, ikastaroen mantenu, itxurak edota zertifikaziorako laguntza behar baduzu - jarri harremanetan nahiago duzun <a href=\"http://moodle.com/\">Moodle Partner-arekin</a>.
 Moodle Partner-ak Moodle-ren laguntza-konpainia ofizialak dira eta <a href=\"http://moodle.com/partners/list/\">mundu osoan daude</a>. Zerbitzu horietarako Moodle partner ofizial bat erabilita Moodle-ren garatzaileen laguntza zuzena ari zara jasotzen.';
@@ -77,8 +97,12 @@ Erabiltzaile-komunitate handia eta anitza du Moodle-k laguntzeko Moodle.org-eko 
 <li><a href=\"http://moodle.org/course/category.php?id=1\">Other interest groups</a> - hau ere ingelesez</li>
 <li><a href=\"http://moodle.org/course/category.php?id=3\">Komunitatearen eztabaidak beste hizkuntza batzuetan</a></li>
 </ul>';
+$string['supportforumsenglish'] = 'Erabiltzaile eta garatzaileen arteko eztabaidak nahiz lankidetza bideratzeko euskarri nagusia, ingelesez:';
 $string['supportforumsenglishname'] = 'Using Moodle';
+$string['supportforumslang'] = 'Moodler guztien oinarrizko foroa elkarren berri izateko, ingelesez:';
+$string['supportforumslangname'] = 'Moodle egongela';
 $string['supportforumslangurl'] = 'http://moodle.org/course/view.php?id=55';
+$string['supportforumslist'] = 'Beste hainbat foro ditugu, hizkuntza askotan:';
 $string['supportforumslistname'] = 'Foro guztien zerrenda';
 $string['supportforumstitle'] = 'Foroak';
 $string['supportintro'] = 'Ez zaude bakarrik! Laguntza eskuratzeko era asko daude Moodle-n behar baduzu.';
@@ -106,7 +130,6 @@ $string['contactcommercial'] = 'Helburu komertzialetarako, jarri harremanetan <a
 $string['contactcommunity'] = 'Zuzenean Moodle komunitateko kudeatzailearekin harremanetan jartzeko, bidali e-posta <a href=\"mailto:support@moodle.com\">support@moodle.com</a> helbidera'; // ORPHANED
 $string['developmentdiscussions'] = 'Gai orokorren inguruko garatzaileen arteko eztabaidak <a href=\"http://moodle.org/help\">Using Moodle</a> foroan egin daitezke, batez ere <a href=\"http://moodle.org/gdf\">General Developer Foroan</a>. Aldiro <a href=\"http://docs.moodle.org/en/Developer_conferences\">Garatzaileen Biltzarrak</a> deitzen dira on-line, eta noiz behinka daudenetako <a href=\"http://moodle.org/moots\">MoodleMoots</a> batera ere joan zaitezke.'; // ORPHANED
 $string['downloadaddons'] = ''; // ORPHANED
-$string['downloadintro'] = ''; // ORPHANED
 $string['downloadways'] = ''; // ORPHANED
 $string['namebooks'] = 'Liburuak'; // ORPHANED
 $string['nameconferences'] = 'Hitzaldiak'; // ORPHANED
