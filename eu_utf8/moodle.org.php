@@ -5,13 +5,22 @@
 $string['aboutdemosite'] = 'Gune demostrazio-gunea Moodle gune oso bat da eta  adibide gisa sortutako hainbat ikastaro ditu. Horietan ibili ahal izango zara ikasle, irakasle eta kudeatzaile gisa. Ez kezkatu dena nahasten baduzu, orduro garbitu egiten da eta lehengora itzuli.';
 $string['aboutdemositetitle'] = 'Demostrazio-gunea';
 $string['aboutintro'] = 'Moodle Ikastaroak Kudeatzeko kode irekiko Sistema (IKS) da, edo bestela esanda, Ikaskuntza Kudeatzeko Sistema (IKS) edo Ikasteko Ingurune Birtuala (IIB). Oso ezaguna da hezitzaileen artean ikasleei begirako web-gune dinamikoak sortzeko. Nonbaiteko web-zerbitzari batean egon behar du instalatuta (zeure ordenagailuetako bat izan daiteke edo web-ostatua eskaintzen duen entrepesaren bateko bat).';
+$string['aboutoverview'] = '<p>Moodle proiektuaren helburua hezitzaileei ikaskuntza kudeatu eta sustatzeko resnarik onenak eskaintzea da baina era askotara erabil daiteke Moodle:</p>
+<ul>
+<li>Moodle-k maila oso handiko erakundeetan eta ehundaka ikasleekin aritzeko funtzioak ditu baina eskola txikietan zein hezkuntza ez formalean ere erabil daiteke.</li>
+<li>Erakunde askok erabiltzen dute on-line ikastaroak bideratzeko plataforma gisa baina beste askok aurrez aurreko ikastaroen osagarri gisa erabiltzen dute (b-learnig).</li>
+<li>Gure erabiltzaile askori jarduera-moduluak erabiltzea gustatzen zaio (foroak, datu-baseak eta wikiak, adibidez) beren gaiaren inguruko ikaskuntza-komunitate kolaboratiboak aberasteko (giza-konstruktibismoaren tradizioaren arabera), eta beste batzuk, berriz, nahiago izaten dute Moodle ikasleei edukiak eskaintzeko (adibidez, SCORM pakete estandarrak) eta zeregina edo galdetegiak erabilita ikaskuntza ebaluatzeko erabili.</li>
+</ul>';
 $string['aboutoverviewtitle'] = 'Zer da Moodle?';
+$string['aboutstatistics'] = 'Moodle doan jaitsi daiteke eta erregistratzea aukerakoa da; beraz ez dugu erabiltzaile guztien informazio osoa. Hala ere, ezagutzen duguna erabilita oso grafika eta datu interesgarriak sortzen dira automatikoki gure Estatistika-orrian.';
 $string['aboutstatisticstitle'] = 'Estatistikak';
 $string['browsecvstitle'] = 'Arakatu gure iturri-kodea';
 $string['communityintro'] = 'Moodle-k komunitate handi eta askotarikoa du <a href=\"http://moodle.org/userpics\">$a->usercount erregistratutako erabiltzailez osatua</a> Moodle gune honetan, <a href=\"http://download.moodle.org/lang16/\">$a->langcount hizkuntzatan</a> aritzen direnak <a href=\"http://moodle.org/sites\">$a->countrycount herrialdetan</a> (badira <a href=\"http://moodle.org/stats\">estatistika gehiago</a>)';
+$string['connectedsites'] = 'Hainbat Moodle gune moodle.org-rekin daude konektatuta Moodle Sarea erabilita eta, beraz, horietan zuzenean sartuko zara bertan autentifikatzen zarenean.';
 $string['connectedsitestitle'] = 'Konektatutako guneak';
 $string['contactintro'] = 'Mesedez, harremanetarako aukeratu ondorengo aukeretatik:';
 $string['contactmoodlecomtitle'] = 'Moodle.com';
+$string['contactmoodleorgemail'] = 'moodle.org-eko kontuen konfirmazioren inguruko arazoetarako, bidali e-posta helbide honetara:';
 $string['contactmoodleorglogin'] = 'Hasi saioa gune honetan orain';
 $string['contactmoodleorgother'] = 'Bestelako eskarietarako, mesedez erabili beheko formularioa.';
 $string['contactmoodleorgtitle'] = 'Moodle.org';
@@ -52,6 +61,7 @@ $string['moodleinstallation'] = 'Moodle-ren instalazioa';
 $string['moodleintegrations'] = 'Moodle integrazioak';
 $string['moodlesupport'] = 'Moodle laguntza';
 $string['moodlethemes'] = 'Moodle-ren itxurak';
+$string['mycoursesintro'] = 'Une honetan komunitate-gune honetako ondorengo \"ikastaroetan\" zaude izena emanda eta bakoitzak foro bat edo gehiago ditu.';
 $string['nameabout'] = 'Honi buruz';
 $string['nameaboutmoodle'] = 'Moodle-ri buruz';
 $string['namecommercial'] = 'Zerbitzu komertzialak';
@@ -67,16 +77,19 @@ $string['namenetwork'] = 'Konektatutako guneak';
 $string['namenews'] = 'Berriak';
 $string['namesecurity'] = 'Segurtasunari buruzko berriak';
 $string['namesupport'] = 'Laguntza';
+$string['networkintro'] = 'Ondorengo Moodle guneak moodle.org-rekin daude konektatuta Moodle Sarea erabilita eta, beraz, horietan zuzenean sar zaitezke hemendik.';
 $string['newscalendar'] = 'Egutegia';
 $string['newsofficial'] = 'Moodle-ri buruzko berri ofizialak';
 $string['newsplanet'] = 'Moodle planeta';
 $string['newsrecent'] = 'Azken albisteak';
 $string['newssecurity'] = 'Segurtasunari buruzko berriak';
+$string['noenrolledcoursesyet'] = 'Ez zaude gune honetako inongo ikastarotan izena emanda.';
 $string['overviewabout'] = 'Moodle-ri buruzko ikuspegi orokorra';
 $string['overviewcommunity'] = 'Moodle komunitateari buruzko ikuspegi orokorra';
 $string['overviewdevelopment'] = 'Moodle garapenari buruzko ikuspegi orokorra';
 $string['overviewmy'] = 'Ikusi matrikulatuta zauden moodle.org-eko ikastaro guztiak';
 $string['recentpart'] = 'Orri honek gaur egun moodle.org erabiltzen duen hainbat lagun erakusten du';
+$string['registeredsites'] = 'Erakundeak ez daude behartuta Moodle erabiltzen dutela jakinaraztera, kode irekikoa baita. Hala ere, hainbat Moodle gunek gurean erregistratzea erabakitzen dute eta horrela zerrendetan sartzen ditugu.';
 $string['registeredsitestitle'] = 'Erregistratutako guneak';
 $string['shoptitle'] = 'Moodle Denda';
 $string['sourcecodetitle'] = 'Iturburu-kode irekia';
@@ -87,6 +100,8 @@ $string['supportcommercial'] = '<h3>Laguntza komertziala eta bestelako zerbitzua
 Moodle-ren ostatu, kontsulta, abian jartze, zeure garapen, instalazio, ikastaroen mantenu, itxurak edota zertifikaziorako laguntza behar baduzu - jarri harremanetan nahiago duzun <a href=\"http://moodle.com/\">Moodle Partner-arekin</a>.
 Moodle Partner-ak Moodle-ren laguntza-konpainia ofizialak dira eta <a href=\"http://moodle.com/partners/list/\">mundu osoan daude</a>. Zerbitzu horietarako Moodle partner ofizial bat erabilita Moodle-ren garatzaileen laguntza zuzena ari zara jasotzen.';
 $string['supportcommercialtitle'] = 'Zerbitzu komertzialak';
+$string['supportdocs1'] = 'Moodle Doc-ak hasteko gune egokia dira, bereziki gure Maiz egiten diren galderak (FAQ) orriak.';
+$string['supportdocs2'] = 'Dokumentazio esanguratsua eskuratzeko era egoki bat \"Moodle Doc-ak orro honetarako\" esteka erabiltzea da, zure Moodle guneko orri bakoitzaren beheko aldean.';
 $string['supportdocsfaq'] = 'Maiz egiten diren galderak';
 $string['supportdocslang'] = 'Moodle Doc-ak beste hizkuntza batzuetan';
 $string['supportdocstitle'] = 'Dokumentazioa';
