@@ -1,8 +1,8 @@
 <?PHP // $Id$ 
-      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20080704) (2008070300)
+      // enrol_authorize.php - created with Moodle 2.0 dev (Build: 20100126) (2010012500)
 
 
-$string['adminacceptccs'] = 'どのタイプのクレジットカードを受け入れますか?';
+$string['adminacceptccs'] = 'どのタイプのクレジットカードを受け付けますか?';
 $string['adminaccepts'] = '許可する支払方法およびタイプを選択してください。';
 $string['adminauthcode'] = 'ユーザのクレジットカードをインターネット経由で直接キャプチャできない場合、顧客の銀行から電話で認証コードを取得してください。';
 $string['adminauthorizeccapture'] = 'オーダーレビュー&amp;スケジュールキャプチャ設定';
