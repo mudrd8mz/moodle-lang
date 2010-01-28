@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // choice.php - created with Moodle 1.9.2+ (Build: 20080820) (2007101522)
+      // choice.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
 
 
 $string['addmorechoices'] = 'Pievienot papildu izvēles';
@@ -14,11 +14,12 @@ $string['choiceclose'] = 'Līdz';
 $string['choicefull'] = 'Šī izvēle ir pilna un vairs nav brīvu vietu.';
 $string['choicename'] = 'Izvēles nosaukums';
 $string['choiceopen'] = 'Atvērts';
+$string['choicesaved'] = 'Jūsu izvēle ir saglabāta';
 $string['choicetext'] = 'Izvēles teksts';
 $string['displayhorizontal'] = 'Rādīt horizontāli';
 $string['displaymode'] = 'Rādīšanas režīms';
 $string['displayvertical'] = 'Rādīt vertikāli';
-$string['expired'] = 'Atvainjiet, šī aktivitāte ir slēgta $a un vairs nav pieejama';
+$string['expired'] = 'Atvainojiet, šī aktivitāte ir slēgta $a un vairs nav pieejama';
 $string['fillinatleastoneoption'] = 'Ir jānorāda vismaz divas iespējamās atbildes.';
 $string['full'] = '(Pilns)';
 $string['havetologin'] = 'Lai varētu iesniegt savu izvēli, jums ir jāpieslēdzas.';
