@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.3+ (Build: 20081126) (2007101532)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['CASform'] = 'בחירת אימות';
@@ -266,6 +266,7 @@ $string['auth_radiusnasport_key'] = 'יציאה';
 $string['auth_radiussecret'] = 'סוד משותף';
 $string['auth_radiussecret_key'] = 'סוד';
 $string['auth_radiustitle'] = 'השתמש בשרת RADIUS';
+$string['auth_radiustype_key'] = 'אימות';
 $string['auth_remove_delete'] = 'מחיקה פנימית מלאה';
 $string['auth_remove_keep'] = 'שמור פנימי';
 $string['auth_remove_suspend'] = 'השהה פנימי';
@@ -360,16 +361,10 @@ $string['update_never'] = 'לעולם לא';
 $string['update_oncreate'] = 'בזמן יצירה';
 $string['update_onlogin'] = 'בזמן כל התחברות';
 $string['update_onupdate'] = 'בזמן עדכון';
-
-
-// Strings below here are module specific and will be duplicated in auth_* files
-// Module specific language strings should also be copied into their respective
-// auth_*.php files to ensure compatibility in all versions of Moodle
-
-$string['sso_idp_description'] = 'פרסם את השירות הזה כדי לאפשר למשתמשים שלך לשותת באתר המוודל $a מבלי שיצטרכו להתחבר שם מחדש. <ul><li><em>תלות</em>: בנוסף, חובה עלייך<strong>להירשם כמנוי</strong> ל-SSO (מספק שירות) service on $a.</li></ul><br />הירשם כמנוי לשירות זה כדי לאפשר למשתמשים שעברו אימות מ- $aלהיכנס לאתר שלך מבלי שיצטרכו להתחבר מחדש. <ul><li><em>תלות</em>: בנוסף, חובה עליך <strong>לפרסם</strong> את שירות ה- SSO (מספק השירות) ל-$a.</li></ul><br />';
-$string['sso_idp_name'] = 'SSO (מספק זהות)';
-$string['sso_mnet_login_refused'] = 'שם משתמש $a[0] אינו מורשה להתחבר מ-$a[1].';
-$string['sso_sp_description'] = 'פרסם את השירות הזה כדי לאפשר למשתמשים מ- $a שעברו אימות להיכנס לאתר שלך מבלי שיצטרכו להתחבר מחדש. <ul><li><em>תלות</em>: בנוסף, חובה עליך <strong>להירשם</strong> לשירות ה-SSO (מספק זהות) על $a.</li></ul><br /> הירשם לשירות הזה כדי לאפשר למשתמשים שלך לשותת באתר המוודל $a מבלי שיצטרכו להתחבר שם מחדש. <ul><li><em>תלות</em>: בנוסף, חובה עליך <strong>לפרסם</strong> את שירות ה- SSO (מספק השירות) ל-$a.</li></ul><br />';
-$string['sso_sp_name'] = 'SSO (מספק שירות)';
+$string['sso_idp_description'] = 'פרסם את השירות הזה כדי לאפשר למשתמשים שלך לשותת באתר המוודל $a מבלי שיצטרכו להתחבר שם מחדש. <ul><li><em>תלות</em>: בנוסף, חובה עלייך<strong>להירשם כמנוי</strong> ל-SSO (מספק שירות) service on $a.</li></ul><br />הירשם כמנוי לשירות זה כדי לאפשר למשתמשים שעברו אימות מ- $aלהיכנס לאתר שלך מבלי שיצטרכו להתחבר מחדש. <ul><li><em>תלות</em>: בנוסף, חובה עליך <strong>לפרסם</strong> את שירות ה- SSO (מספק השירות) ל-$a.</li></ul><br />'; // ORPHANED
+$string['sso_idp_name'] = 'SSO (מספק זהות)'; // ORPHANED
+$string['sso_mnet_login_refused'] = 'שם משתמש $a[0] אינו מורשה להתחבר מ-$a[1].'; // ORPHANED
+$string['sso_sp_description'] = 'פרסם את השירות הזה כדי לאפשר למשתמשים מ- $a שעברו אימות להיכנס לאתר שלך מבלי שיצטרכו להתחבר מחדש. <ul><li><em>תלות</em>: בנוסף, חובה עליך <strong>להירשם</strong> לשירות ה-SSO (מספק זהות) על $a.</li></ul><br /> הירשם לשירות הזה כדי לאפשר למשתמשים שלך לשותת באתר המוודל $a מבלי שיצטרכו להתחבר שם מחדש. <ul><li><em>תלות</em>: בנוסף, חובה עליך <strong>לפרסם</strong> את שירות ה- SSO (מספק השירות) ל-$a.</li></ul><br />'; // ORPHANED
+$string['sso_sp_name'] = 'SSO (מספק שירות)'; // ORPHANED
 
 ?>
