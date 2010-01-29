@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100124) (2010011400)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100128) (2010012600)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -757,6 +757,14 @@ Dieses Programm ist freie Software. Sie dürfen die Software weiterverbreiten un
 Dieses Programm wurde erstellt in der Hoffnung, das es nützlich sein könnte, allerdings OHNE JEDE GARANTIE und sogar ohne die implizierte Garantie der MARKTFÄHIGKEIT oder der MARKTREIFE FÜR EINEM BESONDEREN ZWECK.
 
 Mehr Details zur GNU General Public License unter http://www.gnu.org/copyleft/gpl.html';
+$string['gpl3'] = 'Copyright (c)1999 onwards Martin Dougiamas http://moodle.com
+
+Dieses Programm ist freie Software. Sie dürfen die Software weiterverbreiten und/oder verändern, und zwar im Rahmen der GNU General Public License, wie sie von der Free Software Foundation veröffentlicht wurde. Es gilt die Version 3 der Lizenz oder (falls Sie dies wünschen) auch jede spätere Version.
+
+Dieses Programm wurde in der Hoffnung erstellt, dass es für andere hilfreich und nützlich sein könnte, allerdings OHNE JEDE GARANTIE und sogar ohne die implizierte Garantie der MARKTFÄHIGKEIT oder der MARKTREIFE FÜR EINEM BESONDEREN ZWECK.
+
+Die vollständigen Details finden Sie in den Moodle-Lizenziangaben:
+http://docs.moodle.org/en/License';
 $string['grade'] = 'Bewertung';
 $string['grades'] = 'Bewertungen';
 $string['group'] = 'Gruppe';
@@ -1116,6 +1124,7 @@ $string['no'] = 'Nein';
 $string['noblockstoaddhere'] = 'Es gibt keine Blocks, die Sie zu dieser Seite hinzufügen können';
 $string['nobody'] = 'Niemand';
 $string['nochange'] = 'Keine Änderung';
+$string['nocourses'] = 'Keine Kurse';
 $string['nocoursesfound'] = 'Keine Kurse mit dem Begriff \'$a\' gefunden';
 $string['nocoursesyet'] = 'Keine Kurse in diesem Kursbereich';
 $string['nodstpresets'] = 'Die Sommerzeitumstellung wurde nicht aktiviert.';
@@ -1327,6 +1336,7 @@ $string['reports'] = 'Berichte';
 $string['repositories'] = 'Speicherorte';
 $string['requestcourse'] = 'Kurs beantragen';
 $string['requestedby'] = 'Antrag von';
+$string['requestedcourses'] = 'Beantrage Kurse';
 $string['requestreason'] = 'Antragsbegründung';
 $string['required'] = 'Erforderlich';
 $string['requireskey'] = 'Dieser Kurs setzt einen Zugangsschlüssel voraus';
