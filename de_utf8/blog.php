@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
+      // blog.php - created with Moodle 2.0 dev (Build: 20100129) (2010012902)
 
 
 $string['addnewentry'] = 'Neuer Eintrag';
@@ -37,6 +37,10 @@ $string['cannotviewcourseblog'] = 'Sie haben nicht die erforderlichen Berechtigu
 $string['cannotviewcourseorgroupblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, Blogs in diesem Kurs/Gruppe zu sehen';
 $string['cannotviewsiteblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, alle Blogs dieser Site zu sehen';
 $string['cannotviewuserblog'] = 'Sie haben nicht die erforderlichen Berechtigungen, Blogs der Nutzer zu lesen';
+$string['configexternalblogcrontime'] = 'Häufigkeit, mit der externe Blogs auf neue Einträge hin geprüft werden';
+$string['configmaxexternalblogsperuser'] = 'Anzahl von externen Blogs, die mit dem persönlichen Moodle-Blog verlinkt werden dürfen';
+$string['configuseblogassociations'] = 'Verbindung von Blog-Einträgen mit Kursen und Kursmodulen erlauben';
+$string['configuseexternalblogs'] = 'Hinzufügen von Links zu externen Blogs erlauben. Moodle prüft die Blogs und kopiert neue Einträge in den Nutzer-Blog in Moodle.';
 $string['courseblog'] = 'Kursblog: $a';
 $string['courseblogdisable'] = 'Blogfunktion ist nicht aktiviert';
 $string['courseblogs'] = 'Blogs von anderen im Kurs';
@@ -47,6 +51,7 @@ $string['donothaveblog'] = 'Sie haben zur Zeit keinen eigenen Blog.';
 $string['editentry'] = 'Blog-Eintrag bearbeiten';
 $string['editexternalblog'] = 'Externen Blog bearbeiten';
 $string['emptybody'] = 'Der Eingabetext darf nicht leer sein';
+$string['emptyrssfeed'] = 'Die eingegebene URL zeigt nicht auf ein gültiges RSS-Feed';
 $string['emptytitle'] = 'Der Titel darf nicht leer sein';
 $string['entrybody'] = 'Eingabetext';
 $string['entrybodyonlydesc'] = 'Beschreibung';
@@ -54,6 +59,8 @@ $string['entryerrornotyours'] = 'Dies ist kein eigener Eintrag';
 $string['entrysaved'] = 'Eintrag wurde gespeichert';
 $string['entrytitle'] = 'Titel';
 $string['entryupdated'] = 'Eintrag aktualisiert';
+$string['externalblogcrontime'] = 'Cronjob für externe Blogs';
+$string['externalblogdeleteconfirm'] = 'Diesen externen Blog abmelden?';
 $string['externalblogdeleted'] = 'Externer Blog ist nicht registriert';
 $string['externalblogs'] = 'Externe Blogs';
 $string['feedisinvalid'] = 'RSS-Feed ist nicht gültig';
@@ -62,6 +69,7 @@ $string['filterblogsby'] = 'Filtereinträge von ...';
 $string['filtertags'] = 'Externe Schlagworte';
 $string['groupblog'] = 'Gruppenblog: $a';
 $string['groupblogdisable'] = 'Gruppenblogs sind nicht aktiviert';
+$string['groupblogentries'] = 'Blog-Einträge mit \'$a->coursename\' über die Gruppe \'$a->groupname\' verbunden';
 $string['groupblogs'] = 'Blogs von anderen in einer Gruppen';
 $string['incorrectblogfilter'] = 'Es wurde ein falscher Blogfilter ausgewählt';
 $string['intro'] = 'Der RSS-Feed wurde automatisch von einem oder mehreren Blogs erstellt.';
@@ -70,6 +78,7 @@ $string['invalidurl'] = 'URL ist nicht erreichbar';
 $string['linktooriginalentry'] = 'Zum ursprünglichen Blog-Eintrag verlinken';
 $string['maxexternalblogsperuser'] = 'Maximale Anzahl externer Blogs pro Nutzer/in';
 $string['modulename'] = 'Blog';
+$string['mustassociatecourse'] = 'Wenn Sie für Kurse oder Gruppenmitglieder veröffentlichen, dann muss ein Kurs mit diesem Eintrag verbunden sein';
 $string['noentriesyet'] = 'Keine sichtbaren Einträge';
 $string['noguestpost'] = 'Gäste können in Blogs keine Beiträge veröffentlichen!';
 $string['nopermissionstodeleteentry'] = 'Sie besitzen nicht die erforderliche Berechtigung zum Löschen dieses Blog-Eintrags';

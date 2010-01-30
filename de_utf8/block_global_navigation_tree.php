@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_global_navigation_tree.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
+      // block_global_navigation_tree.php - created with Moodle 2.0 dev (Build: 20100129) (2010012902)
 
 
 $string['blockname'] = 'Navigation';
@@ -10,6 +10,7 @@ $string['enablehoverexpansiondesc'] = 'Blockerweiterung bei \'MouseOver\' erlaub
 $string['enablesidebarpopoutdesc'] = 'Verschieben des Blocks in ein Sidebar-Popup erlauben';
 $string['everything'] = 'Alles';
 $string['expansionlimit'] = 'Navigation für Folgendes erzeugen';
+$string['showemptybranchesdesc'] = 'Links zu leeren Kursbereiche zeigen';
 $string['showmycoursesdesc'] = 'Meine Kurse in der Navigation anzeigen';
 $string['showmyhistorydesc'] = 'Meinen Verlauf als eigenen Zweig in der Navigation anzeigen';
 $string['showmyhistorytitle'] = 'Mein Verlauf';
