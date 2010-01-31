@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20080925) (2008092400)
+      // quiz_overview.php - created with Moodle 2.0 dev (Build: 20100129) (2010012902)
 
 
 $string['allattempts'] = 'Alle Versuche anzeigen';
@@ -17,7 +17,7 @@ $string['needed'] = 'Benötigt';
 $string['noattemptsonly'] = 'Nur $a ohne Versuche anzeigen/downloaden';
 $string['noattemptstoregrade'] = 'Kein Versuch braucht eine Neubewertung';
 $string['nogradepermission'] = 'Sie haben kein Recht, diesen Test zu bewerten.';
-$string['onlyoneattemptallowed'] = 'In diesem Test ist nur ein Versuch/Nutzer möglich.';
+$string['onlyoneattemptallowed'] = 'In diesem Test ist nur ein Versuch pro Nutzer möglich.';
 $string['optallattempts'] = 'alle Versuche';
 $string['optallstudents'] = 'alle \'$a\'';
 $string['optattemptsonly'] = 'nur  \'$a\' mit Versuchen';

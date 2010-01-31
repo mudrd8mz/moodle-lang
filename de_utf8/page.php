@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // page.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
+      // page.php - created with Moodle 2.0 dev (Build: 20100129) (2010012902)
 
 
+$string['configdisplayoptions'] = 'Wählen Sie alle Optionen, die möglich sein sollen. Bestehende Einstellungen werden nicht verändert. Zur Mehrfachauswahl drücken Sie die Taste strg.';
 $string['content'] = 'Seiteninhalt';
 $string['contentheader'] = 'Inhalt';
 $string['displaynew'] = 'Neues Fenster';
