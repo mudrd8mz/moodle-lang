@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
+      // error.php - created with Moodle 2.0 dev (Build: 20100129) (2010012902)
 
 
 $string['TODO'] = 'TODO';
@@ -67,7 +67,6 @@ $string['cannotfindgroup'] = 'グループを見つけることができませ�
 $string['cannotfindhelp'] = '言語helpファイル「 $a 」を見つけることができません。';
 $string['cannotfindinfo'] = '次の情報が見つかりません: 「 $a 」';
 $string['cannotfindlang'] = '「 $a 」言語パックが見つかりません!';
-$string['cannotfindsite'] = 'サイトレベルのコースが見つかりません。';
 $string['cannotfindteacher'] = '教師が見つかりません。';
 $string['cannotfinduser'] = 'ユーザ名「 $a 」のユーザが見つかりません。';
 $string['cannotgetblock'] = 'データベースからブロックを検索できませんでした。';
@@ -382,7 +381,7 @@ $string['processingstops'] = 'ここで処理が停止します。残りのレ�
 $string['refoundto'] = '払戻し可能額: $a';
 $string['refoundtoorigi'] = '注文金額の払戻し: $a';
 $string['remotedownloaderror'] = 'あなたのサーバへのコンポーネントのダウンロードに失敗しました。プロクシ設定を確認してください。PHP cURL拡張モジュールの使用を強くお勧めします。<br /><br /><a href=\"$a->url\">$a->url</a>ファイルを手動でダウンロードした後、あなたのサーバの「$a->dest」にコピーおよび解凍してください。';
-$string['remotedownloadnotallowed'] = 'あなたのサーバーにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
+$string['remotedownloadnotallowed'] = 'あなたのサーバにコンポーネントをダウンロードすることができません (allow_url_fopen が無効)。<br /><br /><a href=\"$a->url\">$a->url</a> ファイルを手動でダウンロードして、サーバの「 $a->dest 」にコピーした後、解凍してください。';
 $string['reportnotavailable'] = 'このタイプのレポートは、サイトコースのみで利用できます。';
 $string['restorechecksumfailed'] = 'あなたのセッションに保存されているリストア情報に問題が生じました。あなたのPHPメモリ/DBパッケージサイズ制限を確認してください。リストアを停止しました。';
 $string['restrictedcontextexception'] = '申し訳ございません、外部関数の実行により、コンテクストの制限に違反します。';
@@ -475,20 +474,21 @@ $string['wrongsourcebase'] = 'ソースURIベースが正しくありません�
 $string['wrongusernamepassword'] = 'ユーザID/パスワードが正しくありません。';
 $string['wrongzipfilename'] = 'ZIPファイル名が正しくありません。';
 $string['wscouldnotcreateecoursenopermission'] = 'WS - コースを作成できませんでした - パーミッションがありません。';
-$string['wscouldnotcreateeusernopermission'] = 'WS - ユーザを作成できませんでした - パーミッションがありません。';
-$string['wscouldnotdeletenoexistinguser'] = 'WS - ユーザを削除できませんでした - ユーザが登録されていません。';
-$string['wscouldnotdeleteusernopermission'] = 'WS - ユーザを削除できませんでした - パーミッションがありません。';
-$string['wscouldnotupdatenoexistinguser'] = 'WS - ユーザを更新できませんでした - ユーザが登録されていません。';
-$string['wscouldnotupdateuserindb'] = 'WS - ユーザを更新できませんでした。';
-$string['wscouldnotupdateusernopermission'] = 'WS - ユーザを更新できませんでした - パーミッションがありません。';
-$string['wscouldnotvieweusernopermission'] = 'WS - ユーザを閲覧できませんでした - パーミッションがありません。';
-$string['wsdescriptionserviceisempty'] = 'ウェブサービス検索処理中にエラーが発生しました: 「 <b>$a->classname</b> 」クラスの「<b>$a->functionname()</b>」関数が、記述内容に「サービス」を指定していません。';
-$string['wsdoesntextendbaseclass'] = 'ウェブサービス検索処理中にエラーが発生しました: 「 <b>$a</b> 」クラスが、moodle_externalクラスから拡張されていません。';
 $string['wwwrootmismatch'] = '申し訳ございません、不正なアクセスが検知されたため、「 $a 」アドレスからのみサーバにアクセスできます。<br />サーバ管理者にご連絡くください。';
 $string['wwwrootslash'] = 'config.phpに正しくない \$CFG->wwwroot が検知されました。\$CFG->wwwrootでは、末尾にスラッシュを付ける必要があります。<br />サーバ管理者にご連絡くください。';
 $string['xmldberror'] = 'XMLDBエラー!';
 $string['youcannotdeletecategory'] = 'コンテンツを削除または移動できないため、あなたはカテゴリ「 $a 」を削除することはできません。';
 $string['younotteacher'] = 'あなたは、教師ではありません!';
+$string['cannotfindsite'] = 'サイトレベルのコースが見つかりません。'; // ORPHANED
+$string['wscouldnotcreateeusernopermission'] = 'WS - ユーザを作成できませんでした - パーミッションがありません。'; // ORPHANED
+$string['wscouldnotdeletenoexistinguser'] = 'WS - ユーザを削除できませんでした - ユーザが登録されていません。'; // ORPHANED
+$string['wscouldnotdeleteusernopermission'] = 'WS - ユーザを削除できませんでした - パーミッションがありません。'; // ORPHANED
+$string['wscouldnotupdatenoexistinguser'] = 'WS - ユーザを更新できませんでした - ユーザが登録されていません。'; // ORPHANED
+$string['wscouldnotupdateuserindb'] = 'WS - ユーザを更新できませんでした。'; // ORPHANED
+$string['wscouldnotupdateusernopermission'] = 'WS - ユーザを更新できませんでした - パーミッションがありません。'; // ORPHANED
+$string['wscouldnotvieweusernopermission'] = 'WS - ユーザを閲覧できませんでした - パーミッションがありません。'; // ORPHANED
+$string['wsdescriptionserviceisempty'] = 'ウェブサービス検索処理中にエラーが発生しました: 「 <b>$a->classname</b> 」クラスの「<b>$a->functionname()</b>」関数が、記述内容に「サービス」を指定していません。'; // ORPHANED
+$string['wsdoesntextendbaseclass'] = 'ウェブサービス検索処理中にエラーが発生しました: 「 <b>$a</b> 」クラスが、moodle_externalクラスから拡張されていません。'; // ORPHANED
 $string['usernotcreated'] = 'ユーザを作成できませんでした。'; // ORPHANED
 $string['wscouldnotcreateeuserindb'] = 'WS - ユーザを作成できませんでした。'; // ORPHANED
 $string['cannotaddmembergroupiddoesntexist'] = 'メンバーをグループに追加できません。グループIDが存在しません。'; // ORPHANED
