@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20100120) (2007101571.01)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1001,6 +1001,7 @@ $string['nextsection'] = 'Neste seksjon';
 $string['no'] = 'Nei';
 $string['nobody'] = 'Ingen';
 $string['nochange'] = 'Ingen endring';
+$string['nocourses'] = 'Ingen kurs';
 $string['nocoursesfound'] = 'Ingen kurs med ordene \'$a\' ble funnet';
 $string['nocoursesyet'] = 'Ingen kurs i denne kategorien';
 $string['nodstpresets'] = 'Administratoren har ikke skrudd på støtte for sommertid.';
@@ -1198,6 +1199,7 @@ $string['report'] = 'Rapport';
 $string['reports'] = 'Rapporter';
 $string['requestcourse'] = 'Søk om oppretting av kurs';
 $string['requestedby'] = 'Søknad fra';
+$string['requestedcourses'] = 'Ønskede kurs';
 $string['requestreason'] = 'Grunn for kurssøknaden';
 $string['required'] = 'Obligatorisk';
 $string['requireskey'] = 'Dette kurset krever en påmeldingsnøkkel';
