@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.9.7+ (Build: 20100106) (2007101571)
+      // role.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
 
 
 $string['addrole'] = 'Legg til ny rolle';
@@ -10,7 +10,7 @@ $string['allsiteusers'] = 'Alle nettstedsbrukere';
 $string['assignglobalroles'] = 'Tildel globale roller';
 $string['assignroles'] = 'Tildel roller';
 $string['assignrolesin'] = 'Tildel roller i $a';
-$string['backup:userinfo'] = 'Skikerhetskopi: brukerdata';
+$string['backup:userinfo'] = 'Sikkerhetskopiere brukerdata';
 $string['block:view'] = 'Vis blokk';
 $string['blog:create'] = 'Lag nye blogginnlegg';
 $string['blog:manageentries'] = 'Rediger og administrer innlegg';
