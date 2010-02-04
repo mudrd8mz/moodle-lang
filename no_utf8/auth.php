@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 1.9.7+ (Build: 20100106) (2007101571)
+      // auth.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
 
 
 $string['CASform'] = 'Autentiseringsvalg';
@@ -337,7 +337,7 @@ $string['guestloginbutton'] = 'Logg inn-knapp for gjester';
 $string['incorrectpleasetryagain'] = 'Feil. Vær vennlig å prøv en gang til.';
 $string['infilefield'] = 'Felt trengs i filen';
 $string['informminpassworddigits'] = 'minst $a tall';
-$string['informminpasswordlength'] = 'minst $a bokstaver';
+$string['informminpasswordlength'] = 'minst $a tegn';
 $string['informminpasswordlower'] = 'minst $a små bokstaver';
 $string['informminpasswordnonalphanum'] = 'minst $a spesialtegn';
 $string['informminpasswordupper'] = 'minst $a store bokstaver';

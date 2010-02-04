@@ -480,7 +480,7 @@ En forespørsel om at det opprettes en brukerkonto på \'$a->sitename\' er motta
 Gå til denne nettadressen for å bekrefte kontoen:
   $a->link
 <br />I de fleste e-postlesere vil denne vises som en blå lenke som du kan klikke på. Hvis dette ikke virker, kan du kopiere adressen og lime den inn i adressefeiltet på nettleseren din.
-OBS: Bekreft via URL straks du har fått e-posten. Går det for lang tid vil bekreftelsesprosessen bli annulert automatisk og du må begynne på nytt!
+OBS: Bekreft ved å klikke på denne lenken straks du har fått e-posten. Går det for lang tid vil bekreftelsesprosessen bli annulert automatisk og du må begynne på nytt!
 
 Hvis du trenger hjelp, ta kontakt med nettstedets administrator, $a->admin';
 $string['emailconfirmationsubject'] = '$a: kontobekreftelse';
