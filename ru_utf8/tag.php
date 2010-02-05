@@ -1,20 +1,26 @@
-<?php 
-$string['addedotag'] = '\"$a\" был добавлен как официальный тег.';
-$string['addotags'] = 'Добавить официальный тег';
-$string['addtagtomyinterests'] = 'Добавить \"$a\" в мои интересы';
+<?PHP // $Id$ 
+      // tag.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
+
+
+$string['addedotag'] = '\"$a\" был добавлен в качестве глобального тега';
+$string['addotags'] = 'Добавить глобальные теги';
+$string['addtagtomyinterests'] = 'Добавить \"$a\" к моим интересам';
 $string['blocktagstitle'] = 'Теги';
 $string['changename'] = 'Изменить название тега';
 $string['changetype'] = 'Изменить тип тега';
-$string['count'] = 'Кол-во';
+$string['count'] = 'Количество';
 $string['delete'] = 'Удалить';
-$string['deleted'] = 'Удален';
+$string['deleted'] = 'Удалённый';
 $string['description'] = 'Описание';
 $string['edittag'] = 'Редактировать этот тег';
-$string['flag'] = 'Неуместный';
+$string['flag'] = 'Флаг';
 $string['flagasinappropriate'] = 'Выделить как неуместный';
+$string['helprelatedtags'] = 'Разделённые запятым теги';
+$string['id'] = 'id';
 $string['managetags'] = 'Управление тегами';
 $string['name'] = 'Название тега';
-$string['newname'] = 'Новое название тега';
+$string['namesalreadybeeingused'] = 'Название тега уже используется';
+$string['newname'] = 'Новое имя тега';
 $string['noresultsfor'] = 'Не найдено ни одного тега, содержащего \"$a\"';
 $string['officialtag'] = 'Официальный тег';
 $string['otags'] = 'Официальные теги';
@@ -28,13 +34,18 @@ $string['searchresultsfor'] = 'Результаты поиска для \"$a\"';
 $string['searchtags'] = 'Поиск тегов';
 $string['seeallblogs'] = 'Посмотреть все записи блогов с этим тегом';
 $string['select'] = 'Выбрать';
+$string['tag'] = 'Тег';
+$string['tagdescription'] = 'Описание тега';
 $string['tags'] = 'Теги';
+$string['tagsaredisabled'] = 'Теги отключены';
 $string['tagtype'] = 'Тип тега';
 $string['tagtype_default'] = 'Обыкновенный';
 $string['tagtype_official'] = 'Официальный';
 $string['timemodified'] = 'Изменен';
+$string['typechanged'] = 'Тип тега изменен';
 $string['updated'] = 'Обновлен';
 $string['updatetag'] = 'Обновить';
 $string['userstaggedwith'] = 'Пользователи с тегом \"$a\"';
 $string['withselectedtags'] = 'С выделенными тегами...';
+
 ?>

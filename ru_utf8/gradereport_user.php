@@ -1,7 +1,8 @@
 <?PHP // $Id$ 
-      // gradereport_user.php - created with Moodle 1.9.5 (Build: 20090515) (2007101550)
+      // gradereport_user.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
 $string['modulename'] = 'Отчет по пользователю';
+$string['user:view'] = 'Просматривать свой отчет об оценках';
 
 ?>

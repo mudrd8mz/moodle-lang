@@ -1,20 +1,24 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.8 + (2007021502)
+      // calendar.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
 $string['advancedoptions'] = 'Дополнительные параметры';
+$string['allday'] = 'Все дни';
 $string['calendar'] = 'Календарь';
 $string['calendarheading'] = '$a Календарь';
 $string['clickhide'] = 'нажмите, чтобы скрыть';
 $string['clickshow'] = 'нажмите, чтобы показать';
 $string['commontasks'] = 'Настройки';
 $string['confirmeventdelete'] = 'Вы уверены, что необходимо удалить это событие?';
+$string['course'] = 'Курс';
 $string['courseevent'] = 'Событие курса';
 $string['courseevents'] = 'События курса';
+$string['courses'] = 'Курсы';
 $string['dayview'] = 'Дневной обзор';
 $string['daywithnoevents'] = 'В этот день не было никаких событий.';
 $string['default'] = 'По умолчанию';
 $string['deleteevent'] = 'Удалить событие';
+$string['deleteevents'] = 'Удалить события';
 $string['detailedmonthview'] = 'Детальный месячный обзор';
 $string['durationminutes'] = 'Продолжительность в минутах';
 $string['durationnone'] = 'Без продолжительности';
@@ -37,6 +41,7 @@ $string['eventnone'] = 'Нет событий';
 $string['eventrepeat'] = 'Повторения';
 $string['eventsall'] = 'Все события';
 $string['eventsfor'] = '$a: события';
+$string['eventskey'] = 'Легенда событий';
 $string['eventsrelatedtocourses'] = 'События курса';
 $string['eventstarttime'] = 'Время начала';
 $string['eventtime'] = 'Время';
@@ -54,9 +59,11 @@ $string['for'] = 'за';
 $string['fri'] = 'Пт';
 $string['friday'] = 'Пятница';
 $string['generateurlbutton'] = 'Получить URL-адрес календаря';
+$string['global'] = 'Глобально';
 $string['globalevent'] = 'Общее событие';
 $string['globalevents'] = 'Общие события';
 $string['gotocalendar'] = 'Перейти к календарю';
+$string['group'] = 'Группа';
 $string['groupevent'] = 'Групповое событие';
 $string['groupevents'] = 'Групповые события';
 $string['hidden'] = 'скрытый';
@@ -113,6 +120,7 @@ $string['typegroup'] = 'Групповое событие';
 $string['typesite'] = 'Событие на сайте';
 $string['typeuser'] = 'Событие пользователя';
 $string['upcomingevents'] = 'Наступающие события';
+$string['user'] = 'Пользователь';
 $string['userevent'] = 'Событие пользователя';
 $string['userevents'] = 'События пользователя';
 $string['wed'] = 'Ср';

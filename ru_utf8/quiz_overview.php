@@ -1,35 +1,31 @@
 <?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.6.3 (2006050530)
+      // quiz_overview.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
 $string['allattempts'] = 'Все попытки';
+$string['allattemptscontributetograde'] = 'Все попытки влияют на окончательную оценку студента';
 $string['allstudents'] = 'Все $a';
 $string['attemptsonly'] = '$a, которые сделали попытки';
-$string['noattemptsonly'] = '$a, которые не сделали попытки';
-$string['overview'] = 'Просмотр';
-$string['overviewdownload'] = 'Загрузить результаты просмотра';
-
-?>
-<?PHP // $Id$ 
-      // quiz_overview.php - created with Moodle 1.8 + (2007021505)
-      // local modifications from http://www.cdp.tsure.ru/moodle
-
-
-$string['attemptsonly'] = '$a, которые сделали попытки';
-$string['noattemptsonly'] = '$a, которые не сделали попытки';
-
-$string['allattemptscontributetograde'] = 'Все попытки, которые учитываются при вычислении результирующей оценки пользователя.';
+$string['attemptsprepage'] = 'Попыток на странице';
 $string['deleteselected'] = 'Удалить выбранные попытки';
-$string['onlyoneattemptallowed'] = 'В этом тесте разрешена только одна попытка для каждого пользователя.';
+$string['highlightinggraded'] = 'Попытки, влияющие на окончательный результат подсвечены.';
+$string['noattemptsonly'] = '$a, которые не сделали попытки';
+$string['onlyoneattemptallowed'] = 'В этом опросе разрешена только одна попытка для каждого пользователя';
 $string['optallattempts'] = 'все попытки';
 $string['optallstudents'] = 'все \'$a\'';
-$string['optattemptsonly'] = '\'$a\' с попытками';
-$string['optnoattemptsonly'] = '\'$a\' без попыток';
-$string['overviewreportgraph'] = 'Гистограмма числа учащихся, получивших оценку в определенных диапазонах';
+$string['optattemptsonly'] = 'только \'$a\' с попытками';
+$string['optnoattemptsonly'] = 'только \'$a\' без попыток';
+$string['optonlygradedattempts'] = 'только попытки, которые оцениваются для каждого пользователя ($a)';
+$string['overview'] = 'Просмотр';
+$string['overviewdownload'] = 'Загрузить результаты просмотра';
+$string['overviewreportgraph'] = 'Гистограмма колебания числа достижений студентов';
 $string['pagesize'] = 'Размер страницы';
-$string['preferencespage'] = 'Предпочтения для этой страницы';
-$string['preferencessave'] = 'Сохранить предпочтения';
-$string['preferencesuser'] = 'Предпочтения для этого отчета';
-$string['show'] = 'Показывать / скачивать';
-$string['showdetailedmarks'] = 'Показывать / скачивать баллы по каждому вопросу';
+$string['preferencespage'] = 'Настройки только для этой страницы';
+$string['preferencessave'] = 'Сохраниить настройки';
+$string['preferencesuser'] = 'Ваши настройки для этого отчёта';
+$string['show'] = 'Показать / скачать';
+$string['showdetailedmarks'] = 'Показать / скачать отметки для каждого вопроса';
+$string['showinggraded'] = 'Показывать только попытки, оцененные для каждого пользователя.';
+$string['showinggradedandungraded'] = 'Показывать оцененные и неоцененные попытки для каждого пользователя. Единственная оцененная попытка для каждого пользователя подсвечена. Для этого опроса выбран метод оценивания $a.';
+
 ?>

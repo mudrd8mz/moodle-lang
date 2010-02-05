@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // journal.php - created with Moodle 1.4.3 + (2004083132)
+      // journal.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
 $string['alwaysopen'] = 'Всегда открыта';
@@ -16,6 +16,7 @@ $string['journalquestion'] = 'Тема работы';
 $string['journalrating1'] = 'Неудовлетворительно';
 $string['journalrating2'] = 'Удовлетворительно';
 $string['journalrating3'] = 'Отлично';
+$string['mailsubject'] = 'Отзыв';
 $string['modulename'] = 'Рабочая тетрадь';
 $string['modulenameplural'] = 'Рабочие тетради';
 $string['newjournalentries'] = 'Новые записи';

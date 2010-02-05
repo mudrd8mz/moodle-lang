@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // qtype_calculated.php - created with Moodle 1.8.4+ (2007021541)
+      // qtype_calculated.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
 $string['addmoreanswerblanks'] = 'Добавить вариант ответа';
@@ -13,6 +13,8 @@ $string['keptcategory1'] = 'использовать ранее применяе
 $string['keptlocal1'] = 'использовать ранее применяемый частный набор данных';
 $string['makecopynextpage'] = 'Следующая страница (новый вопрос)';
 $string['mandatoryhdr'] = 'Обязательные шаблоны, использующиеся в вариантах ответа';
+$string['mustbenumeric'] = 'Здесь вы должны ввести номер';
+$string['mustnotbenumeric'] = 'Это не может быть номером';
 $string['newcategory1'] = 'использовать новый общий набор данных';
 $string['newlocal1'] = 'использовать новый частный набор данных';
 $string['nextitemtoadd'] = 'Следующий \'Элемент для добавления\'';

@@ -1,14 +1,15 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.8 + (2007021502)
+      // message.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
 $string['addcontact'] = 'Добавить собеседника';
 $string['addsomecontacts'] = 'Вы можете поискать кого-либо, используя <a href=\"$a\">закладку поиска</a> в верху этой страницы. Найденого человека можно будет добавить в список собеседников на этой странице. Кроме того, любому найденому человеку Вы можете сразу послать сообщение.';
 $string['addsomecontactsincoming'] = 'Эти сообщения получены от людей, отсутствующих в списке Ваших собеседников. Чтобы добавить их в список, нажимайте значки \"Добавить собеседника\" напротив их имён.';
 $string['ago'] = '$a назад';
-$string['allmine'] = 'В сообщениях ко мне, и от меня';
+$string['allmine'] = 'В сообщениях ко мне и от меня';
 $string['allstudents'] = 'В сообщених между учениками курса';
 $string['allusers'] = 'Во всех сообщения всех пользователей';
+$string['backupmessageshelp'] = 'Если включено, обмен сообщениями будет включён в автоматическое резервирование сайта';
 $string['beepnewmessage'] = 'Издавать звук, когда приходят новые сообщения (если браузер это умеет). Может потребоваться установка плагина типа QuickTime для воспроизведения звука';
 $string['blockcontact'] = 'Блокировать сообщения от этого человека';
 $string['blockedmessages'] = '$a сообшений от/к заблокированых пользователей';
@@ -26,12 +27,15 @@ $string['includeblockedusers'] = 'Включая сообщения заблок
 $string['incomingcontacts'] = 'Список людей, приславших сообщения ($a чел.)';
 $string['keywords'] = 'Слова';
 $string['keywordssearchresults'] = 'Найдено сообщений: $a';
+$string['mailsent'] = 'Ваше сообщение будет отправлено по e-mail';
 $string['maxmessages'] = 'Максимальное количество сообщений, отображаемое в истории дискуссии';
 $string['message'] = 'Сообщение';
 $string['messagehistory'] = 'История сообщений';
 $string['messages'] = 'Обмен сообщениями';
 $string['messaging'] = 'Обмен сообщениями';
+$string['messagingdisabled'] = 'На этом сайте отключены сообщения. Вместо них будут отправлены email';
 $string['mycontacts'] = 'Мои собеседники';
+$string['newonlymsg'] = 'Показывать только новые';
 $string['newsearch'] = 'Искать заново';
 $string['noframesjs'] = 'Версия без фреймов и Javascript';
 $string['nomessages'] = 'Нет новых сообщений';
@@ -45,6 +49,7 @@ $string['onlyfromme'] = 'В сообщениях от меня';
 $string['onlymycourses'] = 'В рамках моих курсов';
 $string['onlytome'] = 'В сообщениях ко мне';
 $string['pagerefreshes'] = 'Эта страница обновляется автоматически, каждые $a секунд';
+$string['readmessages'] = '$a прочитанных сообщений';
 $string['removecontact'] = 'Удалить собеседника из моего списка';
 $string['savemysettings'] = 'Сохранить настройки';
 $string['search'] = 'Искать';
@@ -52,17 +57,17 @@ $string['searchforperson'] = 'Искать человека';
 $string['searchmessages'] = 'Искать сообщения';
 $string['sendmessage'] = 'Отправить сообщение';
 $string['sendmessageto'] = 'Отправить сообщение человеку $a';
+$string['sendmessagetopopup'] = 'Отправить сообщение $a - в новом окне';
 $string['settings'] = 'Настройки';
 $string['settingssaved'] = 'Ваши настройки сохранены';
 $string['showmessagewindow'] = 'Автоматически показать окно сообщений при получении нового сообщения (если браузер это умеет)';
+$string['strftimedaydatetime'] = '%%A, %%d %%B %%Y, %%I:%%M %%p';
+$string['timenosee'] = 'минут с момента моего последнего появления в сети';
 $string['timesent'] = 'Дата/время';
 $string['unblockcontact'] = 'Разблокировать сообщения от этого собеседника';
 $string['unreadmessages'] = 'Не прочитанных сообщений: $a';
 $string['userisblockingyou'] = 'Пользователь заблокировал получение ваших сообщений';
 $string['userisblockingyounoncontact'] = 'Пользователь получает сообщения только от людей, которых он добавил себе в свой список собеседников.';
 $string['userssearchresults'] = 'Найдено пользователей: $a';
-
-$string['allmine'] = 'В сообщениях ко мне и от меня';
-$string['mailsent'] = 'Ваше сообщение было отправлено на e-mail.';
 
 ?>

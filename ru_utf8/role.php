@@ -1,24 +1,47 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 1.8 + (2007021502)
+      // role.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
 $string['addrole'] = 'Создать роль';
 $string['allow'] = 'Разрешить';
 $string['allowassign'] = 'Разрешить назначение ролей';
 $string['allowoverride'] = 'Разрешить переопределение ролей';
+$string['allsiteusers'] = 'Все пользователи сайта';
 $string['assignglobalroles'] = 'Назначить глобальные роли';
 $string['assignroles'] = 'Назначить роли';
+$string['assignrolesin'] = 'Назначить роли в $a';
+$string['block:view'] = 'Просмотреть блок';
+$string['blog:create'] = 'Создание записей в блоге';
+$string['blog:manageentries'] = 'Править и управлять записями';
+$string['blog:manageofficialtags'] = 'Управлять глобальными тегами';
+$string['blog:managepersonaltags'] = 'Управлять персональными тегами';
+$string['blog:view'] = 'Просматривать записи блога';
+$string['calendar:manageentries'] = 'Управлять любыми календарными записями';
+$string['calendar:managegroupentries'] = 'Управлять группами календарных записей';
+$string['calendar:manageownentries'] = 'Управлять своими календарными записями';
 $string['capabilities'] = 'Возможности';
 $string['capability'] = 'Возможность';
+$string['category:create'] = 'Создать категории';
+$string['category:delete'] = 'Удалить категории';
+$string['category:update'] = 'Обновить категории';
+$string['course:bulkmessaging'] = 'Отправить сообщение нескольким людям';
+$string['course:create'] = 'Создать курсы';
+$string['course:delete'] = 'Удалить курсы';
 $string['currentcontext'] = 'Текущий контекст';
 $string['currentrole'] = 'Текущая роль';
 $string['defaultrole'] = 'Роль по умолчанию';
 $string['defineroles'] = 'Определить роли';
 $string['existingusers'] = '$a пользователей с этой ролью';
+$string['globalrole'] = 'Роль в системе';
 $string['inherit'] = 'Наследовать';
 $string['listallroles'] = 'Список всех ролей';
+$string['localroles'] = 'Локальное назначенные ролей';
 $string['manageroles'] = 'Управление ролями';
+$string['morethan'] = 'Больше $a';
+$string['multipleroles'] = 'Несколько ролей';
 $string['notset'] = 'Не установлено';
+$string['overridepermissions'] = 'Переопределение разрешений';
+$string['overridepermissionsin'] = 'Переопределить разрешения в контексте $a';
 $string['overrideroles'] = 'Переопределить роли';
 $string['overrides'] = 'Переопределения';
 $string['permissions'] = 'Права';
@@ -30,23 +53,17 @@ $string['role:viewhiddenassigns'] = 'Просмотр скрытых назна�
 $string['roles'] = 'Роли';
 $string['roletoassign'] = 'Назначить роль';
 $string['roletooverride'] = 'Переопределить роль';
+$string['showallroles'] = 'Показать все роли';
+$string['site:accessallgroups'] = 'Доступ ко всем группам';
 $string['site:approvecourse'] = 'Одобрить создание курса';
 $string['site:doclinks'] = 'Отображать ссылку на оф. сайт документации';
 $string['user:update'] = 'Обновление профилей пользователей';
 $string['user:viewdetails'] = 'Просмотр профилей пользователей';
-$string['site:accessallgroups'] = 'Доступ ко всем группам';
-$string['xuserswiththerole'] = 'Пользователи с ролью \"$a->role\": $a->number';
-
-$string['allsiteusers'] = 'Все пользователи сайта';
-$string['assignrolesin'] = 'Назначить роли в контексте $a';
-$string['globalrole'] = 'Роль в системе';
-$string['localroles'] = 'Локальное назначенные ролей';
-$string['morethan'] = 'Больше $a';
-$string['multipleroles'] = 'Несколько ролей';
-$string['overridepermissions'] = 'Переопределение разрешений';
-$string['overridepermissionsin'] = 'Переопределить разрешения в контексте $a';
-$string['showallroles'] = 'Показать все роли';
-$string['site:accessallgroups'] = 'Доступ ко всем группам';
 $string['userhashiddenassignments'] = 'Этому пользователю назначена одна или более скрытых ролей.';
 $string['xuserswiththerole'] = 'Пользователи с ролью \"$a->role\"';
+$string['addinganewrole'] = 'Добавить новую роль'; // ORPHANED
+$string['comment:delete'] = 'Удалить комментарии'; // ORPHANED
+$string['comment:view'] = 'Прочитать комментарии'; // ORPHANED
+$string['context'] = 'Контекст'; // ORPHANED
+
 ?>
