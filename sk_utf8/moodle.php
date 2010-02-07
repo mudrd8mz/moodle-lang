@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -1057,6 +1057,7 @@ $string['nextsection'] = 'Ďalšia sekcia';
 $string['no'] = 'Nie';
 $string['nobody'] = 'Nikto';
 $string['nochange'] = 'Žiadna zmena';
+$string['nocourses'] = 'Žiadne kurzy';
 $string['nocoursesfound'] = 'Žiaden kurz neobsahuje slová \'$a\'';
 $string['nocoursesyet'] = 'Žiadne kurzy v tejto kategórii';
 $string['nodstpresets'] = 'Administrátor nezapol podporu pre letný a zimný čas.';
@@ -1257,6 +1258,7 @@ $string['report'] = 'Záznamy';
 $string['reports'] = 'Záznamy';
 $string['requestcourse'] = 'Požiadať o vytvorenie nového kurzu';
 $string['requestedby'] = 'Žiadané kým';
+$string['requestedcourses'] = 'Žiadané kurzy';
 $string['requestreason'] = 'Dôvod žiadosti';
 $string['required'] = 'Požadované';
 $string['requireskey'] = 'Tento kurz vyžaduje prihlasovací kľúč';

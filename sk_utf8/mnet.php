@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (samopodpísané)';
@@ -99,7 +99,9 @@ $string['mnet_session_prohibited'] = 'Používatelia Vášho domovského servera
 $string['mnetdisabled'] = 'Sieť Moodle <strong>nie je povolená</strong>.';
 $string['mnetenrol'] = 'Zápisy';
 $string['mnetidprovider'] = 'MNET ID poskytovateľ';
+$string['mnetidproviderdesc'] = 'Môžete použiť tento mechanizmus pre získanie odkazu, kde je možné sa prihlásiť. Predpokladom je poskytnutie správnej emailovej adresy, ktorá zodpovedná používateľskému menu, s ktorým ste sa snažili prihlásiť.';
 $string['mnetidprovidermsg'] = 'Mali by ste byť schopný sa prihlásiť u svojho poskytovateľa $a.';
+$string['mnetidprovidernotfound'] = 'Ľutujem, ale žiadne ďalšie informácie neboli nájdené.';
 $string['mnetlog'] = 'Záznamy';
 $string['mnetpeers'] = 'Partneri';
 $string['mnetservices'] = 'Služby';
