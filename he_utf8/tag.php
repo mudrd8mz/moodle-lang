@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // tag.php - created with Moodle 2.0 dev (Build: 20080327) (2008030700)
+      // tag.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addedotag'] = '\"$a\" הוכנס כתג רישמי';
@@ -17,7 +17,7 @@ $string['flag'] = 'דגלון';
 $string['flagasinappropriate'] = 'סמן כלא מתאים';
 $string['helprelatedtags'] = 'סמני של מופרדי פסיק';
 $string['id'] = 'זהות';
-$string['managetags'] = 'נהל תוויות';
+$string['managetags'] = 'נהל תגיות';
 $string['name'] = 'שם';
 $string['namesalreadybeeingused'] = 'שמות תגים משומשים כבר';
 $string['newname'] = 'שם תג חדש';
@@ -27,25 +27,25 @@ $string['otags'] = 'תגים רישמיים';
 $string['owner'] = 'בעלים';
 $string['ptags'] = 'תגי משתמש מוגדרים (מופרדים בפסיק)';
 $string['relatedblogs'] = 'ערכי בלוג אחרונים של תג זה';
-$string['relatedtags'] = 'תוויות קשורות';
+$string['relatedtags'] = 'תגיות קשורות';
 $string['removetagfrommyinterests'] = 'הסר \"$a\" מתחום ההתעניינות שלי';
 $string['reset'] = 'אפס';
 $string['resetflag'] = 'דגלון איפוס';
 $string['responsiblewillbenotified'] = 'לאדם האחרי תמסר הודעה';
 $string['search'] = 'חפש';
 $string['searchresultsfor'] = 'תוצאות החיפוש ל \"$a\"';
-$string['searchtags'] = 'חפש תוויות';
+$string['searchtags'] = 'חפש תגיות';
 $string['seeallblogs'] = 'הראה את כל הבלוגים של תג זה';
 $string['select'] = 'בחר';
-$string['tag'] = 'תווית';
-$string['tagdescription'] = 'תאור התווית';
-$string['tags'] = 'תוויות';
-$string['tagsaredisabled'] = 'התוויות מנוטרלות';
+$string['tag'] = 'תג';
+$string['tagdescription'] = 'תאור תג';
+$string['tags'] = 'תגיות';
+$string['tagsaredisabled'] = 'התגיות מנוטרלות';
 $string['tagtype'] = 'סוג תג';
 $string['tagtype_default'] = 'ברירת מחדל';
 $string['tagtype_official'] = 'רישמי';
-$string['thingstaggedwith'] = '$a->count פריטים שהותוו על ידי\"$a->name\"';
-$string['thistaghasnodesc'] = 'לתוויות זאת כרגע תיאור';
+$string['thingstaggedwith'] = '$a->count פריטים שתוייגו על ידי\"$a->name\"';
+$string['thistaghasnodesc'] = 'לתגית זו כרגע תיאור';
 $string['timemodified'] = 'שונה';
 $string['typechanged'] = 'שינוי סוג התג';
 $string['updated'] = 'עודכן';
