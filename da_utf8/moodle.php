@@ -283,7 +283,7 @@ $string['coursegrades'] = 'Kursuskarakterer';
 $string['coursehelpcategory'] = 'Placer kurset på kursuslisten og gør det nemmere for de studerende at finde det.';
 $string['coursehelpformat'] = 'Kursets forside vil blive vist i dette format.';
 $string['coursehelphiddensections'] = 'Hvordan skjulte sektioner i kurset vises for studerende.';
-$string['coursehelpmaximumupload'] = 'Maximum filstørrelse studerende kan uploade på kurset, begrænset af sitets generelle maximumindstilling.';
+$string['coursehelpmaximumupload'] = 'Maximum filstørrelse der kan uploades på kurset, begrænset af sitets generelle maximumindstilling.';
 $string['coursehelpmetacourse'] = 'Sæt kurset som metakursus. Et metakursus får deltagere fra \"del-kurser\".';
 $string['coursehelpnewsitemsnumber'] = 'Antal seneste nyheder der vises på kursets forside i nyhedsblokken som regel til højre <br />
 (0 betyder at der ikke vises nogen nyheder)';
@@ -1499,7 +1499,7 @@ $string['unenrolallstudents'] = 'Frameld alle studerende';
 $string['unenrolallstudentssure'] = 'Bekræft at du vil afmelde alle studerende fra dette kursus.';
 $string['unenrolme'] = 'Frameld mig $a';
 $string['unenrolroleusers'] = 'Frameld brugere';
-$string['unenrolsure'] = 'Bekræft at du vil fjerne $a fra dette kursus.';
+$string['unenrolsure'] = 'Bekræft at du vil framelde $a dette kursus.';
 $string['unfinished'] = 'Ufærdigt';
 $string['unknowncategory'] = 'Ukendt kategori';
 $string['unlimited'] = 'Ubegrænset';
