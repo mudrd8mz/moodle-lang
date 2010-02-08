@@ -1,6 +1,25 @@
 <?PHP // $Id$ 
 
 
+$string['check_passwordsaltmain_details'] = '<p>A jelszólopás elkerülése érdekében ajánlatos zajos jelszót beállítani.</p>
+<p>Zajos jelszó beállításához adja hozzá a config.php fájlhoz a következő sort:</p>
+<code>$CFG->passwordsaltmain = \'valamilyen hosszú, rengeteg karaktert tartalmazó füzér\';</code>
+<p>A véletlen karakterhalmazban vegyesen legyenek betűk, számok és egyéb karakterek. Használjon legalább 40 karakter hosszúságú füzért.</p>
+<p>Ha módosítani akarja a zajos jelszót, olvassa el a <a href=\"$a\" target=\"_blank\">jelszó zajossá tételéről szóló dokumentációt</a>. Beállítása után NE törölje ki zajos jelszavát, ellenkező esetben nem fog tudni bejelentkezni a portáljára!</p>';
+$string['check_passwordsaltmain_name'] = 'Zajos jelszó';
+$string['check_passwordsaltmain_ok'] = 'A zajos jelszó rendben.';
+$string['check_passwordsaltmain_warning'] = 'Nincs beállítva zajos jelszó.';
+$string['check_passwordsaltmain_weak'] = 'Gyenge zajos jelszót adott meg.';
+$string['check_riskbackup_details_overriddenroles'] = '<p>Az aktív felülírásokkal a felhasználók felhasználói adatokat rögzíthetnek a biztonsági mentésekben. Ügyeljen arra, hogy ehhez a jogosultság elő legyen írva.</p> $a';
+$string['check_riskbackup_details_systemroles'] = '<p>Az alábbi rendszerszerepekkel a felhasználók felhasználói adatokat rögzíthetnek a biztonsági mentésekben. Ügyeljen arra, hogy ehhez a jogosultság elő legyen írva.</p> $a';
+$string['check_riskbackup_details_users'] = '<p>A fenti szerepek vagy helyi felülírások miatt az alábbi felhasználói fiókok a kurzusba beiratkozott összes felhasználóról magánadatokat rögzíthetnek a biztonsági mentésekben. Ellenőrizze, hogy (a) megbízhatóak-e és (b) erős jelszavak védik-e az adatokat:</p> $a';
+$string['check_riskbackup_detailsok'] = 'A felhasználói adatok biztonsági mentésekben való rögzítését kifejezetten egyik szerep sem engedélyezi. Ettől függetlenül a korlátlan jogkörű rendszergazdák ezt feltehetőleg megtehetik.';
+$string['check_riskbackup_editoverride'] = '<a href=\"$a->url\">$a->name itt: $a->contextname</a>';
+$string['check_riskbackup_editrole'] = '<a href=\"$a->url\">$a->name</a>';
+$string['check_riskbackup_name'] = 'Felhasználói adatok biztonsági mentése';
+$string['check_riskbackup_ok'] = 'A felhasználói adatok biztonsági mentésekben való rögzítését kifejezetten egyik szerep sem engedélyezi.';
+$string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) itt: $a->contextname</a>';
+$string['check_riskbackup_warning'] = '$a->rolecount szerep, $a->overridecount felülírás és $a->usercount felhasználó rögzíthet biztonsági mentésekben felhasználói adatokat.';
 
 $string['check_configrw_details'] = '<p>Telepítés után ajánlatos a config.php-ben módosítani a fájlengedélyeket, nehogy a webszerver módosítsa az állományt. Ez nem növeli lényegesen a szerver biztonságát, a használatot viszont némileg lassíthatja vagy korlátozhatja.</p>';
 $string['check_configrw_name'] = 'Írható config.php';

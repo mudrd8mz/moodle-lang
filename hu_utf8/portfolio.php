@@ -2,6 +2,27 @@
       // portfolio.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
 
+
+$string['callbackclassinvalid'] = 'A megadott visszahívási osztály érvénytelen vagy nem része a portfolio_caller hierarchiának';
+$string['confirmcancel'] = 'Biztosan törli az exportálást?';
+$string['exportalreadyfinished'] = 'A portfolió exportálása végetért!';
+$string['exportalreadyfinisheddesc'] = 'A portfolió exportálása végetért!';
+$string['exportcomplete'] = 'A portfolió exportálása végetért!';
+$string['fileoutputnotsupported'] = 'Ez a forma nem támogatja az állománykimenet újraírását.';
+$string['format_document'] = 'Dokumentum';
+$string['format_file'] = 'Állomány';
+$string['format_leap2a'] = 'LEAP2A típusú portfolió';
+$string['format_pdf'] = 'PDF';
+$string['format_presentation'] = 'Bemutató';
+$string['format_spreadsheet'] = 'Számolótábla';
+$string['mimecheckfail'] = 'A beépülő $a->plugin portfolió-segédprogram nem támogatja a(z) $a->mimetype mimetípust';
+$string['multipleinstancesdisallowed'] = 'Próbáljon új példányt létrehozni azon beépülő segédprogramból, amely a több példányt ($a) nem engedélyezte.';
+$string['noinstanceyet'] = 'Nincs kiválasztva';
+$string['nologs'] = 'Nincs megjeleníthető napló!';
+$string['nomultipleexports'] = 'A portfolió segédprogramja ($a->plugin) nem támogatja egyszerre több exportálás végrehajtását. Előbb <a href=\"$a->link\">fejezze be a mostanit</a>, majd próbálja meg újra.';
+$string['singleinstancenomultiallowed'] = 'Csak egy példányban áll rendelkezésre a portfolió-segédprogram, és nem támogatja folyamatonként egyszerre több exportálás végrehajtását, a mostani folyamatban pedig már zajlik egy exportálás ezzel a segédprogrammal!';
+
+
 $string['activeexport'] = 'Aktív exportálás feloldása';
 $string['activeportfolios'] = 'Aktív portfoliók';
 $string['alreadyalt'] = 'Az exportálás már folyamatban van - kattintson ide az átvitel feloldásához.';

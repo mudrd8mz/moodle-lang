@@ -1,5 +1,12 @@
 <?PHP // $Id$ 
       // error.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+
+
+$string['cannotmigratedatacomments'] = 'Az adatmodul megjegyzéseit nem lehet áthelyezni';
+$string['dmltransactionexception'] = 'Hiba az adatbázis-művelet során';
+$string['maxbytes'] = 'Az állomány mérete nagyobb a maximálisnál';
+
+
 $string['cannotdeletefile'] = 'Az állomány nem törölhető';
 $string['cannotfindcourse'] = 'A kurzus nem található';
 $string['coursedoesnotbelongtocategory'] = 'A kurzus nem ebbe a kategóriába tartozik.';

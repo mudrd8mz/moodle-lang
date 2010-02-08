@@ -1,6 +1,9 @@
 <?PHP // $Id$ 
       // scorm.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+
+$string['scormadministration'] = 'SCORM/AICC kezelése';
+
 $string['scorm:deleteresponses'] = 'SCORM-próbálkozások törlése';
 
 $string['allowapidebug'] = 'API hibaszűrésének és nyomon követésének bekapcsolása (az elemzési maszkot állítsa be az apidebugmask segítségével)';

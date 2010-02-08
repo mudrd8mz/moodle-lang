@@ -1,5 +1,13 @@
 <?PHP // $Id$ 
       // auth.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
+
+$string['informminpassworddigits'] = 'legalább $a számjegy';
+$string['informminpasswordlength'] = 'legalább $a karakter';
+$string['informminpasswordlower'] = 'legalább $a kisbetű';
+$string['informminpasswordnonalphanum'] = 'legalább $a nem alfanumerikus karakter';
+$string['informminpasswordupper'] = 'legalább $a nagybetű';
+$string['informpasswordpolicy'] = 'A jelszó kötelező eleme: $a';
+
 $string['auth_webservicedescription'] = 'Kézzel létrehozott fiókok webszolgáltatásokhoz';
 $string['auth_webservicetitle'] = 'Webszolgáltatások';
 $string['sso_idp_description'] = 'A szolgáltatás közzétételével engedélyezze felhasználóinak a $a Moodle portálra való áttérést anélkül, hogy ott újból be kellene jelentkezniük. <ul><li><em>Összefüggés</em>: Fel <strong>kell</strong> iratkoznia az SSO (szolgáltató)-szolgáltatásra itt: $a.</li></ul><br />Iratkozzon fel a szolgáltatásra, hogy engedélyezhesse jogosultsággal rendelkező felhasználóinak a(z) $a portálról az Ön portáljára való áttérést anélkül, hogy újból be kellene jelentkezniük.<ul><li><em>Összefüggés</em>: Az SSO (szolgáltató)-szolgáltatást is közzé <strong>kell</strong> tennie ehhez: $a.</li></ul><br />';

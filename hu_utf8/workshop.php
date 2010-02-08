@@ -1,6 +1,7 @@
 <?PHP // $Id$ 
       // workshop.php - created with Moodle 1.7 beta + (2006101003)
 
+$string['resetworkshopall'] = 'Leadott munkák, pontok és értélekések törlése';
 
 $string['absent'] = 'Hiányzik';
 $string['accumulative'] = 'Gyűjtő';

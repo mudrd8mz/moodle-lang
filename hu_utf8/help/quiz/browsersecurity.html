@@ -1,0 +1,42 @@
+<h1>A böngésző biztonságossága</h1>
+
+<p>Ezen keresztül különféleképpen korlátozhatja a tanulókat abban, hogy egy teszt megoldása során csaljanak. A kérdés persze nem egyszerű, ami az egyik esetben csalás, az egy másik esetben az informatika hatékony kihasználásának minősülhet (például válaszok megtalálása egy keresőgéppel.)</p>
+
+<p>A technikán túl a tanárok is eszközökhöz jutnak a csalás felderítéséhez - például tesztjelentések formájában. Az itteni lehetőségek nem adnak százszázalékos biztonságot, de megnehezítik a csalást.</p>
+
+<p>Emellett vannak egyéb lehetőségek is a csalás megnehezítésére:</p>
+<ul>
+<li>Használhat nagy kérdésbankot véletlenszerű kérdéskiválasztással, így a tanulók hasonló, de eltérő kérdéseket látnak.</li>
+<li>Összekeverheti a válaszok sorrendjét.</li>
+<li>tehet fel olyan kérdéseket, amelyek megválaszolása az adott információ elemzésén, nem pedig egyszerű tények felidézésén múlik.</li>
+</p>
+
+<p>A fentieket szem előtt tartva az alábbi lehetőségekkel számolhat.</p>
+
+<h3>Semmilyen</h3>
+
+<p>A tanulók próbálkozását semmilyen körülmény nem nehezíti.</p>
+
+<h3>Teljes képernyős felugró ablak JavaScript által nyújtott biztonsággal</h3>
+
+<p>A webszerveren futó teszt bizonyos akadályokat gördíthet a csalás elé. Ez a lehetőség azonban a következőket teszi lehetővé:</p>
+<ul>
+    <li>A teszt csak akkor indul el, ha a tanuló böngészőjében engedélyezve van a JavaScript használata.</li>
+    <li>A teszt teljes képernyős felugró ablakban jelenik meg, navigációs elemek nélkül.</li>
+    <li>A tanulók nem másolhatnak és nem illeszthetnek be elemeket.</li>
+</ul>
+
+<h3>Biztonságos Vizsgáztatási Böngésző használatának előírása</h3>
+
+<p>Ez a lehetőség csak akkor érhető el, ha a rendszergazda bekapcsolja.</p>
+
+<p><a href="http://www.safeexambrowser.org/">A Biztonságos Vizsgáztatási Böngésző </a> olyan testre szabott böngésző, amelyet a tesztet megoldó tanuló gépére kell telepíteni. A korlátozások hasonlóak a felugró ablak kapcsán említettekkel, de mivel a Biztonságos Vizsgáztatási Böngésző a tanuló gépén fut, sokkal hatékonyabban használható. Ennek kiválasztása esetén:</p>
+<ul>
+    <li>a tanulók csak a Biztonságos Vizsgáztatási Böngészővel oldhatják meg a tesztet,</li>
+    <li>a böngésző ablaka a teljes képernyőt kitölti (navigációs elemek nélkül).</li>
+    <li>az ablak a teszt leadásáig nem zárható be,</li>
+    <li>A gyorsbillentyűk (pl. Win, Ctrl+Alt+Del, Alt+F4, F1, Ctrl+P, Printscreen) nem használhatók,</li>
+    <li>a másolás, beillesztés és a környezetmenü ki van kapcsolva,</li>
+    <li>más alkalmazásokra nem lehet átváltani,</li>
+    <li>más weboldalakra nem lehet ellátogatni.</li>
+</ul>

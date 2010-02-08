@@ -1,6 +1,11 @@
 <?PHP // $Id$ 
       // question.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+
+
+$string['adminreport'] = 'Jelentés a kérdéseinek adatbázisával kapcsolatos esetleges problémákról.';
+$string['editthiscategory'] = 'Kategória szerkesztése';
+
 $string['availableq'] = 'Elérhető?';
 $string['cannotenable'] = 'A(z) $a kérdéstípus közvetlenül nem hozható létre.';
 $string['chooseqtypetoadd'] = 'Válassza ki a hozzáadandó kérdéstípust.';

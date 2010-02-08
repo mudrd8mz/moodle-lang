@@ -2,6 +2,10 @@
       // page.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
 
+
+$string['pageadministration'] = 'Oldalkezelés';
+
+
 $string['configdisplayoptions'] = 'Válassza ki az elérendő opciókat; a létező beállítások nem módosulnak. Több mező kiválasztásához nyomja le a CTRL-billentyűt.';
 $string['content'] = 'Oldal tartalma';
 $string['contentheader'] = 'Tartalom';

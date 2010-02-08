@@ -19,5 +19,5 @@ $string['strftimerecentfull'] = '%%Y. %%b. %%d., %%H:%%M';
 $string['strftimetime'] = '%%H:%%M';
 $string['thischarset'] = 'UTF-8';
 $string['thisdirection'] = 'ltr';
-$string['thislanguage'] = 'Magyar';
+$string['thislanguage'] = 'magyar';
 ?>

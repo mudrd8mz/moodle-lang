@@ -2,6 +2,10 @@
 
       // hotpot.php - created with Moodle 1.7 beta + (2006101003)
 
+
+
+$string['hotpotadministration'] = 'A Hot Potatoes tesztjeinek kezelése';
+
 $string['removegradeitem'] = 'Pontozási tétel törlése';
 
 $string['deleteallattempts'] = 'Az összes próbálkozás törlése';

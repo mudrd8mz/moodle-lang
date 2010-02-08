@@ -1,6 +1,14 @@
 <?PHP // $Id$ 
       // repository.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+
+
+$string['allowexternallinks'] = 'Külső ugrópontok engedélyezése';
+$string['configallowexternallinks'] = 'Ezzel minden felhasználó eldöntheti, hogy a külső média bemásoldjon-e a Moodle-ba. Kikapcsolt állapotban a média mindig bemásolódik a Moodle-ba (a globális adatépség és biztonság érdekében ez általában a legjobb megoldás). Bekapcsolása esetén a felhasználók minden egyes alkalommal dönthetnek, ha valamely szöveghez médiumot adnak hozzá.';
+$string['linkexternal'] = 'Külső csatolása';
+$string['usercontextrepositorydisabled'] = 'Felhasználói környezetben nem szerkesztheti ezt az adattárat.';
+
+	  
 $string['cannotdownloaddir'] = 'A mappa nem tölthető le.';
 $string['choosealink'] = 'Válasszon ugrópontot...';
 $string['configuseexternallink'] = 'A külső ugrópontot külső állományok letöltése helyett állományválasztóhoz kapcsolja';

@@ -1,5 +1,9 @@
 <?php //$Id$ 
 
+
+
+$string['includenever'] = 'Sosem szerepel';
+
 $string['applyto'] = 'Mire alkalmazandó:';
 $string['content'] = 'Tartalom';
 $string['contentandheadings'] = 'Tartalom és fejlécek';

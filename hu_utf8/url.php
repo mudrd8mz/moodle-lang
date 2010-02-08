@@ -3,6 +3,9 @@
       // local modifications from http://127.1.0.1
 
 
+
+$string['urladministration'] = 'URL kezelése';
+
 $string['chooseavariable'] = 'Válasszon egy változót...';
 $string['clicktoopen'] = 'Az URL megnyitásához kattintson erre: $a.';
 $string['configdisplayoptions'] = 'Válassza ki az elérendő opciókat; a létező beállítások nem módosulnak. Több mező kiválasztásához nyomja le a CTRL-billentyűt.';

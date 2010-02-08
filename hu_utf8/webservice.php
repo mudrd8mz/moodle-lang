@@ -1,6 +1,45 @@
 <?PHP // $Id$ 
       // webservice.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
 
+
+
+$string['addservice'] = 'Új szolgáltatás hozzáadása: $a->name (azonosító: $a->id)';
+$string['apiexplorer'] = 'API explorer';
+$string['apiexplorernotavalaible'] = 'Az API explorer még nem elérhető.';
+$string['arguments'] = 'Argumentumok';
+$string['context'] = 'Környezet';
+$string['deleteservice'] = 'A szolgáltatás törlése: $a->name (azonosító: $a->id)';
+$string['editservice'] = 'A szolgáltatás szerkesztése: $a->name (azonosító: $a->id)';
+$string['error'] = 'Hiba: $a';
+$string['errorcodes'] = 'Hibaüzenet';
+$string['generalstructure'] = 'Általános struktúra';
+$string['httpswarning'] = 'Lexikális elemek csak akkor jelennek meg, ha kapcsolódása biztonságos (https)';
+$string['managetokens'] = 'Lexikális elemek kezelése';
+$string['notoken'] = 'Még nem hozott létre lexikális elemet.';
+$string['operation'] = 'Művelet';
+$string['optional'] = 'Választható';
+$string['phpparam'] = 'XML-RPC (PHP-struktúra)';
+$string['phpresponse'] = 'XML-RPC (PHP-struktúra)';
+$string['postrestparam'] = 'PHP-kód REST-hez (POST-kérés)';
+$string['print'] = 'Az összes nyomtatása';
+$string['requireauthentication'] = 'Ez a metódus xxx engedéllyel rnedelkező hitelesítést ír elő.';
+$string['required'] = 'Előírt';
+$string['response'] = 'Válasz';
+$string['restcode'] = 'REST';
+$string['restexception'] = 'REST';
+$string['restparam'] = 'REST (POST-paraméterek)';
+$string['selectedcapabilitydoesntexit'] = 'A beállított előírt képesség ($a) már nem létezik. Módosítsa és mentse el a változtatásokat.';
+$string['service'] = 'Szolgáltatás';
+$string['token'] = 'Lexikális elem';
+$string['webservicetokens'] = 'Webszolgáltatás lexikális elemei';
+$string['wsdocumentation'] = 'Webszolgáltatás dokumentációja';
+$string['wsdocumentationdisable'] = 'A webszolgáltatás dokumentációja ki van kapcsolva';
+$string['wsdocumentationintro'] = 'ALább látható a <b>$a</b> felhasználónévhez elérhető webszolgáltatások felsorolása.<br/>Kliens létrehozásához olvassa el a <a href=\"http://docs.moodle.org/en/Development:Creating_a_web_service_and_a_web_service_function#Create_your_own_client\">Moodle dokumentációját</a>.';
+$string['wsdocumentationlogin'] = 'Adja meg webszolgáltatási felhasználónevét és jelszavát.';
+$string['wspassword'] = 'Webszolgáltatási jelszó';
+$string['wsusername'] = 'Webszolgáltatási felhasználónév';
+
+
 $string['accessexception'] = 'Hozzáférés-szabályozási kivétel';
 $string['actwebserviceshhdr'] = 'Aktív webszolgáltatási protokollok';
 $string['addfunction'] = 'Feladat hozzáadása';

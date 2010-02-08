@@ -1,5 +1,9 @@
 <?php
 
+$string['common:browseimage'] = 'Kép megkeresése vagy feltöltése...';
+$string['common:browsemedia'] = 'Hang, videó vagy kis alkalmazás megkeresése vagy feltöltése...';
+$string['media_dlg:filename'] = 'Fájlnév';
+
 //== Custom Moodle strings that are not part of upstream TinyMCE ==
 $string['dragmath:dragmath_desc'] = 'Egyenlet beszúrása';
 $string['dragmath:dragmath_javaneeded'] = 'Az oldal használatához Javát használó böngészőre van szüksége. Töltse le a Java legfrissebb segédprogramját innen: $a.';

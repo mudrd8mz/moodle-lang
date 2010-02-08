@@ -1,5 +1,26 @@
 <?PHP // $Id$ 
       // admin.php - created with Moodle 1.9.2+ (Build: 20080910) (2007101522)
+
+$string['bloglevelupgradedescription'] = '<p>A portált nemrégen Moodle 2.0-ra frissítették.</p>
+<p>A blog láthatósága a 2.0 változatban egyszerűsödött, de az Ön portálja továbbra is régi típusú láthatóságot használ. Ahhoz, hogy portálján megőrizze a blogüzenetek kurzusalapú vagy csoportalapú láthatóságát, le kell futtatnia az alábbi frissítési kódot, mellyel minden blogüzenettel rendelkező felhasználót tartalmazó kurzusában létrejön egy külön blogszerű fórum, melybe ezek a blogüzenetek bemásolódnak.</p>
+<p>Ezt követően portálszinten a blogokat a rendszer kikapcsolja. A folyamat során a blogüzenetek nem törlődnek.</p>
+<p>A kód lefuttatásához látogasson el a <a href=\"$a->fixurl\">blogszintű frissítés oldalára</a>.</p>';
+$string['configenablewsdocumentation'] = 'Bekapcsolása esetén a webszolgáltatások dokumentációja automatikusan előállítódik. A webszolgáltatásokat használó saját dokumentációját elérheti anélkül, hogy a Moodle-ba bejelentkezne. Csak a bekapcsolt protokollok dokumentációját jeleníti meg.';
+$string['configexcludeoldflashclients'] = 'Some versions of the Adobe Flash plugin are known to be vulnerable to attacks from malicious Flash content. You can specify a minimum supported version here, and Moodle will not show Flash files to users with lower versions. Instead they will see an alternate Flash file telling them how to upgrade. Leave this empty to disable all checks.';
+$string['configthemedesignermode'] = 'A stílusokhoz tartozó képek és CSS régóta a böngésző és a szerver gyorsítótárában vannak. Stílusok kidolgozása vagy testreszabása esetén kapcsolja be. Fejlesztők is használhatják.
+A gyorsítótárban lévő stílusokat kézzel is törölheti a stílusválasztó oldalon. VIGYÁZAT: a stílustervezési üzemmód bekapcsolása számottevően kihat a szerver teljesítményére!';
+$string['configyuicomboloading'] = 'Ennek révén YUI-könyvtárak optimális kombinált állománybetöltésre nyílik lehetőség. Éles környezetben a teljesítmény érdekében bekapcsolandó.';
+$string['enablewsdocumentation'] = 'Webszolgáltatások dokumentációja';
+$string['excludeoldflashclients'] = 'A Flash-lejátszó előírt verziója';
+$string['iconvrequired'] = 'ICONV-kiegészítés telepítése szükséges';
+$string['soaprecommended'] = 'A soap-kiegészítés telepítése webszolgáltatások és egyes külső fejlesztésű modulok esetén hasznos lehet.';
+$string['themedesignermode'] = 'Stílustervező üzemmód';
+$string['themeresetcaches'] = 'Stílust tartalmazó gyorsítótárak kikapcsolása';
+$string['upgrade197notice'] = '<p>A Moodle 1.9.7 egy sor jelszóval és biztonsági mentéssel kapcsolatos biztonsági javítást tartalmaz a portálján tárolt felhasználói adatok védelme érdekében. Ezért egyes biztonsági mentéssel kapcsolatos beállításai és engedélyei módosulhattak.<br />
+A részleteket lásd itt: <a href=\"http://docs.moodle.org/en/Moodle_1.9.7_release_notes\" target=\"_blank\">A Moodle 1.9.7 verzió megjegyzései</a>.</p>';
+$string['upgrade197noticesubject'] = 'A Moodle 1.9.7 frissítésének biztonsági megjegyzései';
+$string['upgrade197salt'] = 'A jelszólopás elkerülése érdekében ajánlatos zajos jelszót beállítani.<br />A részleteket l. a <a href=\"$a\" target=\"_blank\">jelszó zajossá tételéről szóló dokumentációban</a>.';
+$string['yuicomboloading'] = 'YUI-kombó betöltése';
 	  
 $string['allcountrycodes'] = 'Az összes országkód';
 $string['bloglevelupgrade'] = 'Blog láthatóságának frissítése';

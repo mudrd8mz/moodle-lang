@@ -1,6 +1,37 @@
 <?PHP // $Id$ 
       // lesson.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+
+
+$string['addanewpage'] = 'Új oldal hozzáadása';
+$string['branch'] = 'Elágazás';
+$string['cluster'] = 'Tömb';
+$string['configactionaftercorrectanswer'] = 'Helyes válasz utáni tevékenység alaphelyzetben';
+$string['configmaxanswers'] = 'Oldalankénti válaszok/elágazások maximális száma alaphelyzetben';
+$string['configmaxhighscores'] = 'Megjelenített legjobb pontok száma';
+$string['configmediaclose'] = 'Megjelenít egy kapcsolt médiumállományhoz előállított felugró ablak bezárására való gombot';
+$string['configmediaheight'] = 'Beállítja a kapcsolt médiumállományhoz előállított felugró ablak magasságát';
+$string['configmediawidth'] = 'Beállítja a kapcsolt médiumállományhoz előállított felugró ablak szélességét';
+$string['configslideshowbgcolor'] = 'Bekapcsolt diavetítés esetén beállítja annak háttérszínét';
+$string['configslideshowheight'] = 'Bekapcsolt diavetítés esetén beállítja annak magasságát';
+$string['configslideshowwidth'] = 'Bekapcsolt diavetítés esetén beállítja annak szélességét';
+$string['displayleftmenuif'] = 'Bal menü kijelzése: pontozási feltétel';
+$string['editingquestionpage'] = 'A(z) $a kérdésoldal szerkesztése';
+$string['endofcluster'] = 'Tömb vége';
+$string['invalidfile'] = 'Érvénytelen állomány';
+$string['matching'] = 'Párosítás';
+$string['matchingpair'] = 'A(z) $a pár párosítása';
+$string['multichoice'] = 'Feleletválasztós';
+$string['new'] = 'új';
+$string['numerical'] = 'Számjegyes';
+$string['options'] = 'Lehetőségek';
+$string['pptsuccessfullimport'] = 'A feltöltött PowerPoint-bemutató oldalainak importálása sikerült';
+$string['selectaqtype'] = 'Válasszon kérdéstípust';
+$string['shortanswer'] = 'Kiegészítendő';
+$string['truefalse'] = 'Igaz/hamis';
+$string['unabledtosavefile'] = 'A feltöltött állományt nem lehetett elmenteni';
+$string['unknownqtypesnotimported'] = 'A nem támogatott kérdéstípusú $a kérdés importálása nem történt meg';
+
 $string['addbranchtable'] = 'Elágazási táblázat hozzáadása';
 $string['confirmdelete'] = 'Oldal törlése';
 $string['editpage'] = 'Oldal tartalmának szerkesztése';

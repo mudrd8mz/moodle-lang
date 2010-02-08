@@ -1,6 +1,12 @@
 <?PHP // $Id$ 
       // mnet.php - created with Moodle 1.8.4+ (2007021540)
 
+$string['allhosts_no_options'] = 'Több gazdagép megtekintése esetén nincsenek választási lehetőségek';
+$string['findlogin'] = 'Bejelentkezés megkeresése';
+$string['mnetidprovider'] = 'MNET-azonosító szolgáltatója';
+$string['mnetidprovidermsg'] = '$a szolgáltatójánál kell a bejelentkezést megejtenie';
+
+
 $string['configmnet'] = 'A Moodle-hálózat révén ez a szerver más szerverekkel vagy szolgáltatásokkal kommunikálhat.';
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (saját aláírású)';

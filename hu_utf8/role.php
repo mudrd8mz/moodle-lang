@@ -1,6 +1,12 @@
 <?PHP // $Id$ 
       // role.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
 
+$string['assignrolesrelativetothisuser'] = 'Szerepek hozzárendelése ezen felhasználót illetően';
+$string['backup:userinfo'] = 'Felhasználói adatok biztonsági mentése';
+$string['restore:createuser'] = 'Felhasználók létrehozása helyreállítás során';
+$string['restore:userinfo'] = 'Felhasználói adatok helyreállítása';
+
+
 $string['block:edit'] = 'Blokk beállításainak szerkesztése';
 $string['blog:associatecourse'] = 'Blogüzenetek kurzusokhoz kapcsolása';
 $string['blog:associatemodule'] = 'Blogüzenetek tevékenységmodulokhoz kapcsolása';

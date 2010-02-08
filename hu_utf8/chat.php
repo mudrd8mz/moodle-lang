@@ -1,6 +1,13 @@
 <?PHP // $Id$ 
       // chat.php - created with Moodle 1.9.3 (Build: 20081015) (2007101530)
 
+
+$string['list_all_sessions'] = 'Az összes kurzusrész felsorolása';
+$string['list_complete_sessions'] = 'Csak a befejezett kurzusrészek felsorolása';
+$string['listing_all_sessions'] = 'Az összes kurzusrész felsorolása folyamatban';
+$string['no_complete_sessions_found'] = 'Nincsenek befejezett kurzusrészek.';
+
+	  
 $string['chatadministration'] = 'Csevegés kezelése';
 $string['messageyoubeep'] = '$a csengetett';
 $string['talk'] = 'Beszéljen';

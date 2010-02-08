@@ -1,0 +1,29 @@
+<h1>Plusz kreditpont</h1>
+<h2>A pontösszeg szerinti összesítéshez</h2>
+<p>A pontösszeg szerinti összesítés alkalmazása esetén a pontozási tétel lehet az adott kategóriához tartozó plusz kreditpont. 
+Vagyis a kategória összes maximális pontjához nem a pontozási tételre adott maximális pont adódik hozzá, hanem a tételre adott pont. Íme egy példa:</p>
+
+<ul>
+    <li>Az 1. tétel 0-100 pontozású.</li>
+    <li>A 2. tétel 0-75 pontozású.</li>
+    <li>Az 1. tételnél a "Plusz kreditpontként működik" jelölőnégyzet be van jelölve, szemben a 2. tétellel.</li>
+    <li>Mindkét tétel az 1. kategóriához tartozik, amely a pontösszeg szerinti összesítést alkalmazza.</li>
+    <li>Az 1. kategóriához tartozó összesen 0-75 pontozású lesz.</li>
+    <li>Egy tanuló 20 pontot kap az 1. és 70-et a 2. tételre.</li>
+    <li>A tanuló esetén az 1. kategóriához tartozó összesen 75/75 lesz (20+70 = 90, de az 1. tétel csak plusz kreditpontként működik, 
+    így annak összesenje eléri a maximumot).</li>
+</ul>
+<h2>Pontok súlyozott átlaga esetén (plusz kreditpont)</h2>
+<p>Összesítés során egy 0-nál nagyobb érték esetén a pontozási tételre adott pontokat a rendszer plusz kreditpontként kezeli. 
+A szám az a tényező, amellyel a pontértéket meg kell szorozni, mielőtt hozzáadódik az összes pont összegéhez, 
+de maga a tétel kimarad az osztásból. Pl.:</p>
+
+<ul>
+    <li>Az 1. tétel 0-100 pontozású, plusz kreditpontjának értéke 2.</li>
+    <li>A 2. tétel  0-100 pontozású, plusz kreditpontjának értéke megmarad 0.0000.</li>
+    <li>A 3. tétel  0-100 pontozású, plusz kreditpontjának értéke megmarad 0.0000.</li>
+    <li>Mindhárom tétel az 1. kategóriához tartozik, amely a pontok súlyozott átlagát alkalmazza (plusz kreditpontokkal).</li>
+    <li>Egy tanuló 20 pontot kap az 1., 40-et a 2. és 70-et a 3. tételre.</li>
+    <li>A tanuló esetén az 1. kategóriához tartozó összesen 95/100 lesz, mivel 20*2 + (40 + 70)/2 = 95.</li>
+</ul>
+

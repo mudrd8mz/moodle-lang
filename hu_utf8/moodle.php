@@ -1,5 +1,22 @@
 <?PHP // $Id$ 
       // moodle.php - created with Moodle 1.9.3+ (Build: 20081217) (2007101532.11)
+
+$string['backupmissinguserinfoperms'] = 'Megjegyzés: ez a biztonsági mentés nem tartalmaz felhasználói adatokat. A gyakorlatokkal és a műhelymunkával kapcsolatos tevékenységek kimaradnak a biztosnági mentésből, mivel ezek a modulok nem részei az effajta biztonsági mentésnek.';
+$string['backupnext'] = 'Következő biztonsági mentés';
+$string['flashlinkmessage'] = 'Frissítse Flash-lejátszóját most:';
+$string['flashupgrademessage'] = 'A tartalom lejátszásához beépülő Flash-segédprogramra van szükség, de az Ön által használt változat túl régi.';
+$string['forcepasswordchangecheckfull'] = 'Biztosan jelszómódosítást kíván előírni $a esetén?';
+$string['forcepasswordchangenot'] = '$a esetén nem lehetett jelszómódosítást előírni';
+$string['mymoodledashboard'] = 'Moodle- 	 irányítópultom';
+$string['myprofile'] = 'Profilom';
+$string['restorecannotcreateuser'] = 'A helyreállításhoz a mentett állományból a(z) \'$a\' felhasználót létre kell hozni, Önnek azonban nincs ehhez jogosultsága';
+$string['restoredaccount'] = 'Helyreállít fiók';
+$string['restoredaccountinfo'] = 'A fiók másik szerverről került át, a jelszó pedig elveszett. Új jelszó e-mailen keresztüli beállításához kattinson a \"Tovább\" gombra';
+$string['restoreuserconflict'] = 'Ha a mentett állományból a(z) \'$a\' felhasználót megpróbálja helyreállítani, az ütközéshez vezet.';
+$string['restoreuserinfofailed'] = 'A helyreállítás leállt, mert Önnek nincs engedélye felhasználói adatok helyreállításához';
+$string['restoreusersprecheck'] = 'Felhasználói adatok ellenőrzése';
+$string['restoreusersprecheckerror'] = 'Felhasználói adatok ellenőrzése közben gondok merültek föl';
+
 $string['courseadministration'] = 'Kurzus kezelése';
 $string['disabledcomments'] = 'Megjegyzések kikapcsolva';
 $string['download'] = 'Letöltés';
