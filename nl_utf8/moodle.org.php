@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle_org.php - created with Moodle 2.0 dev (Build: 20091222) (2009112400)
+      // moodle.org.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
 
 
 $string['aboutdemosite'] = 'Onze demo-site is een volledige Moodle site met enkele demonstratiecursussen die je als leraar, leerling en zelfs als beheerder kunt uitproberen. Je kunt gerust experimenteren: de hele site wordt elk uur opgeschoond.';
@@ -85,6 +85,7 @@ $string['moodletrackertitle'] = 'Moodle Tracker';
 $string['moodletraining'] = 'Moodle training';
 $string['mycoursesintro'] = 'Je bent nu aangemeld in volgende \"cursussen\" op deze site. Elke cursus bevat meerdere forums.';
 $string['nameabout'] = 'Over Moodle';
+$string['nameaboutmoodle'] = 'Over Moodle';
 $string['namecommercial'] = 'Commerciële diensten';
 $string['namecommunity'] = 'Gemeenschap';
 $string['namecontact'] = 'Contact';

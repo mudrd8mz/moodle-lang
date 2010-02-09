@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.7+ (Build: 20091225) (2007101570)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (eigen certificaat)';
@@ -99,7 +99,9 @@ $string['mnet_session_prohibited'] = 'Gebruikers van jouw server mogen op dit mo
 $string['mnetdisabled'] = 'Moodle Network is <strong>uitgeschakeld</strong>';
 $string['mnetenrol'] = 'Aanmeldingen';
 $string['mnetidprovider'] = 'MNET ID-Provider';
+$string['mnetidproviderdesc'] = 'Je kunt dit gebruiken om een link te bekomen waar je kunt inloggen als je het juiste e-mailadres kunt geven dat overeen komt met de gebruikersnaam waarmee je net probeerde in te loggen';
 $string['mnetidprovidermsg'] = 'Je zou moeten kunnen aanmelden bij je $a provider.';
+$string['mnetidprovidernotfound'] = 'Er kon niet meer informatie gevonden worden.';
 $string['mnetlog'] = 'Logs';
 $string['mnetpeers'] = 'Peer servers';
 $string['mnetservices'] = 'Sevices';
@@ -115,6 +117,7 @@ $string['nocurl'] = 'PHP Curl bibliotheek is niet geïnstalleerd';
 $string['nohostid'] = 'Deze pagina vraagt een host ID. Dat zou een geheel getal moeten zijn.';
 $string['noipmatch'] = 'Het adres van de externe machine is  <br /><em>$a[0]</em><br /> komt niet overeen met het adres op record: <br /><em>$a[1]</em>.';
 $string['nolocaluser'] = 'Er bestaat geen locale record voor de externe gebruiker.';
+$string['nolocaluser2'] = 'Er bestaat geen lokale record voor de gebruiker op afstand en die kon niet aangemaakt worden omdat deze server geen gebruikers automatisch aanmaakt. Contacteer je beheerder.';
 $string['nomodifyacl'] = 'Je mag de MNET access control list niet wijzigen.';
 $string['nonmatchingcert'] = 'Het certificaat <br /><em>$a[0]</em><br /> komt niet overeen met de host waar het vandaan kwam <br /><em>$a[1]</em>.';
 $string['nopubkey'] = 'Er was een probleem bij het opvragen van de publieke sleutel.<br />Misschien is de host niet ingeschakeld voor Moodle Networking of de sleutel is ongeldig.';
