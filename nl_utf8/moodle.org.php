@@ -138,7 +138,7 @@ $string['supportdocstitle'] = 'Documentatie';
 $string['supportforums'] = 'Onze gebruikersgemeenschap communiceert vooral via forums in \"cursussen\" op deze Moodlegebaseerde site. Je moet je \"aanmelden\" in een cursus om berichten te kunnen posten (aanmelden is volledig gratis).';
 $string['supportforumsenglish'] = 'De belangrijkste ondersteunings- en ontwikkelingsdiscussies tussen gebruikers en ontwikkelaars zijn in het Engels en hier te vinden:';
 $string['supportforumsenglishname'] = 'Moodle gebruiken';
-$string['supportforumslang'] = 'Het belangrijkste forum om te kletsen in het Engels is hier:';
+$string['supportforumslang'] = 'Het belangrijkste forum om te kletsen in het Nederlands is hier:';
 $string['supportforumslangname'] = 'Moodle lounge';
 $string['supportforumslangurl'] = 'http://moodle.org/course/view.php?id=13';
 $string['supportforumslist'] = 'We hebben nog vele ander forums, in vele talen:';
