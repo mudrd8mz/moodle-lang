@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_tag_youtube.php - created with Moodle 1.9 Beta + (2007081600)
+      // block_tag_youtube.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
 
 
 $string['anycategory'] = 'Alle categorieën';
@@ -8,6 +8,7 @@ $string['blockname'] = 'Youtube';
 $string['category'] = 'Categorie';
 $string['comedy'] = 'Humor';
 $string['configtitle'] = 'Titel';
+$string['education'] = 'Onderwijs';
 $string['entertainment'] = 'Ontspanning';
 $string['filmsanimation'] = 'Films en animatie';
 $string['gadgetsgames'] = 'Gadgets en spelletjes';
@@ -18,6 +19,7 @@ $string['newspolitics'] = 'Nieuws en politiek';
 $string['numberofvideos'] = 'Aantal filmpjes';
 $string['peopleblogs'] = 'Mensen en blogs';
 $string['petsanimals'] = 'Huisdieren';
+$string['scienceandtech'] = 'Wetenschap &amp; Techniek';
 $string['sports'] = 'Sport';
 $string['travel'] = 'Reizen';
 

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_search.php - created with Moodle 1.9.7+ (Build: 20091225) (2007101570)
+      // block_search.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
 
 
 $string['asynchronous'] = 'Asynchroon (Ajax)';
@@ -15,6 +15,7 @@ $string['configpdftotextcmd'] = 'Pad naar commando pdftotext';
 $string['configsearchtext'] = 'Zoek tekst';
 $string['configtypetotxtcmd'] = 'Converter\'s command line';
 $string['configtypetotxtenv'] = 'Omgevingsdefinitie voor converter';
+$string['configusingsoftlock'] = 'Software interlocking (voor NFS-gemounte clusters)';
 $string['configutf8transcoding'] = 'UTF8-transcoding resultaten';
 $string['configwordtotextcmd'] = 'Pad naar commando doctotext';
 $string['configwordtotextenv'] = 'Omgevingsinstellingen voor de MSWord-convertor';
