@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
+      // block_rss_client.php - created with Moodle 2.0 dev (Build: 20100207) (2010020700)
 
 
 $string['addfeed'] = 'URL für Newsfeed hinzufügen';
@@ -23,6 +23,7 @@ $string['editafeed'] = 'Feed bearbeiten';
 $string['editfeeds'] = 'Bearbeiten, Eintragen oder Austragen von RSS/Atom-Newsfeeds';
 $string['editnewsfeeds'] = 'Neue Feeds bearbeiten';
 $string['editrssblock'] = 'RSS-Überschriftenblock bearbeiten';
+$string['enableautodiscovery'] = 'Automatische Suche von Feeds erlauben?';
 $string['errorloadingfeed'] = 'Fehler beim Laden des RSS-Feeds ($a)';
 $string['feed'] = 'Feed';
 $string['feedadded'] = 'Newsfeed hinzugefügt';
@@ -30,6 +31,7 @@ $string['feeddeleted'] = 'Newsfeed gelöscht';
 $string['feeds'] = 'Newsfeeds';
 $string['feedsaddedit'] = 'Hinzufügen/Bearbeiten von Feeds';
 $string['feedsconfigurenewinstance'] = 'Klicken Sie hier, um den Block zur Anzeige von RSS-Feeds zu konfigurieren';
+$string['feedsconfigurenewinstance2'] = 'Klicken Sie auf das Symbol \'Bearbeiten\', um diesen Block für die Anzeige von RSS-Feeds zu konfigurieren';
 $string['feedstitle'] = 'RSS-Feeds';
 $string['feedupdated'] = 'News-Feed aktualisiert';
 $string['feedurl'] = 'Feed-URL';

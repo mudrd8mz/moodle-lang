@@ -1,21 +1,22 @@
 <?PHP // $Id$ 
-      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20081110) (2008110603)
+      // repository_remotemoodle.php - created with Moodle 2.0 dev (Build: 20100207) (2010020700)
 
 
-$string['configplugin'] = 'Konfiguration für ein externes Moodle Datei-Repository';
-$string['connectionfailure'] = 'Fehler beim Abfragen der Dateiliste - Die Version der Haupt-Moodle-Installation ist älter als 2.0 oder der Dienst für das externe Moodle Datei-Repository wurde nicht aktiviert.';
-$string['emptyfilelist'] = 'Keine Dateien zur Anzeige vorhanden.';
-$string['failtoretrievelist'] = 'Liste kann nicht abgefragt werden oder ist leer.';
-$string['hostnotfound'] = 'Das externe Moodle kann nicht in der Datenbank gefunden werden - kontaktieren Sie Ihren System-Administrator';
-$string['nopeer'] = '<div style=\"font-size:0.8em\">Bitte richten Sie einige <a href=\"http://docs.moodle.org/en/admin/mnet/peers#Peer_to_Peer_Network\">Moodle Peers</a> für Ihre Moodle-Installation ein. </div>';
+$string['configplugin'] = 'Einstellungen für ein externes Moodle Datei-Repository';
+$string['connectionfailure'] = 'Fehler beim Abfragen der Dateiliste! Die Version der Moodle-Instanz ist älter als 2.0 oder der Dienst für das externe Moodle Datei-Repository wurde nicht aktiviert';
+$string['emptyfilelist'] = 'Keine Dateien zur Anzeige vorhanden';
+$string['failtoretrievelist'] = 'Liste kann nicht abgefragt werden oder ist leer';
+$string['hostnotfound'] = 'Das externe Moodle kann nicht in der Datenbank gefunden werden - melden Sie sich bei Ihren System-Administrator';
+$string['nopeer'] = 'Bitte richten Sie einige <a href=\"http://docs.moodle.org/en/admin/mnet/peers#Peer_to_Peer_Network\">Moodle Peers</a> für Ihre Moodle-Instanz ein.';
 $string['notitle'] = 'Kein Titel';
 $string['peer'] = 'Peer';
-$string['remember'] = 'Merke';
-$string['remoterep_description'] = 'Erlauben Sie dem Dienst, entdeckt zu werden<br /><br />';
-$string['remoterep_name'] = 'Entferntes Moodle-Repository';
-$string['repositorydesc'] = 'Repository auf dem entfernten Moodle Server';
-$string['repositoryname'] = 'Entferne Moodle Dateien';
-$string['usercannotaccess'] = 'Sie ($a) können auf das File nicht zugreifen.';
-$string['usernotfound'] = 'Der/die Nutzer/in $a ist im entfernten Moodle nicht registriert.';
+$string['remember'] = 'Erinnern';
+$string['remotemoodle:view'] = 'Externes Moodle-Repository sehen';
+$string['remoterep_description'] = 'Entdecken des Dienstes erlauben';
+$string['remoterep_name'] = 'Externer Moodle-Server';
+$string['repositorydesc'] = 'Dateien auf einem externen Moodle-Server';
+$string['repositoryname'] = 'Externer Moodle-Server';
+$string['usercannotaccess'] = 'Nutzerkonto \'$a\' darf auf die Datei nicht zugreifen';
+$string['usernotfound'] = 'Nutzerkonto \'$a\' ist im externen Moodle nicht registriert';
 
 ?>

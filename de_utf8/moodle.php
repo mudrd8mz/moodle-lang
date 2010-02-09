@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100128) (2010012600)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100207) (2010020700)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -23,6 +23,7 @@ $string['addactivity'] = 'Aktivität anlegen...';
 $string['addadmin'] = 'Administrator/in hinzufügen';
 $string['addblock'] = 'Block hinzufügen';
 $string['addcomment'] = 'Kommentar hinzufügen...';
+$string['addcountertousername'] = 'Nutzerkonto durch Anhängen einer Zahl erzeugen';
 $string['addcreator'] = 'Kursverwalter/in hinzufügen';
 $string['adddots'] = 'Hinzufügen...';
 $string['added'] = '$a hinzugefügt';
@@ -1672,6 +1673,7 @@ $string['uploadextension'] = 'Datei-Upload wurde wegen der Dateiendung angehalte
 $string['uploadfailednotrecovering'] = 'Beim Hochladen ist ein Problem mit einer der Dateien $a->name aufgetreten.<br />Folgende Fehlermeldung ist aufgetreten:<br />$a->problem<br/>
 Das Hochladen wurde erfolglos abgebrochen.';
 $string['uploadfilecontainerror'] = 'Die hochgeladene Datei wurde wegen eines Fehlers nicht verarbeitet. Bitte ändern Sie die Datei, bevor Sie sie erneut hochladen.';
+$string['uploadfilecontentsnovaliddata'] = 'Die hochgeladene Datei enthält keine gültigen Daten';
 $string['uploadfilelog'] = 'Upload-Log für Datei $a';
 $string['uploadformlimit'] = 'Die hochzuladene Datei ist größer als zulässig';
 $string['uploadinvalidpreprocessedcount'] = 'Anzahl der ungültig verarbeiteten Datensätze: $a';
@@ -1716,6 +1718,7 @@ $string['userselectorsearchanywhere'] = 'Vergleiche den Suchtext irgendwo im Nam
 $string['usersnew'] = 'Neue Nutzer/innen';
 $string['usersnoaccesssince'] = 'Nutzer/innen anzeigen, deren Inaktivität länger dauert als';
 $string['userswithfiles'] = 'Nutzer/innen mit Dateien';
+$string['useruploadtype'] = 'Art des Nutzeruploads';
 $string['userviewingsettings'] = 'Profil von $a';
 $string['userzones'] = 'Nutzerzonen';
 $string['usethiscourse'] = 'Diesen Kurs benutzen';

@@ -1,15 +1,16 @@
 <?PHP // $Id$ 
-      // repository_webdav.php - created with Moodle 2.0 dev (Build: 20090409) (2009040100)
+      // repository_webdav.php - created with Moodle 2.0 dev (Build: 20100207) (2010020700)
 
 
-$string['configplugin'] = 'WebDav-Konfiguration';
+$string['configplugin'] = 'WebDAV-Konfiguration';
 $string['http'] = 'HTTP';
 $string['https'] = 'HTTPS';
 $string['repositoryname'] = 'WebDAV Repository';
-$string['webdav_password'] = 'WebDAV Server Passwort';
-$string['webdav_port'] = 'WebDAV Server Port';
+$string['webdav:view'] = 'WebDAV Repository sehen';
+$string['webdav_password'] = 'WebDAV Server-Passwort';
+$string['webdav_port'] = 'WebDAV Server-Port';
 $string['webdav_server'] = 'WebDAV Server';
-$string['webdav_type'] = 'WebDav-Typ';
-$string['webdav_user'] = 'WebDAV Server Benutzer';
+$string['webdav_type'] = 'WebDAV-Typ';
+$string['webdav_user'] = 'WebDAV Server-Nutzer';
 
 ?>
