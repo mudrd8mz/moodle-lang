@@ -1,12 +1,12 @@
 <?PHP // $Id$ 
-      // block_section_links.php - created with Moodle 1.9.7+ (Build: 20091225) (2007101570)
+      // block_section_links.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
 
 
 $string['blockname'] = 'Sectie hyperlinks';
 $string['incby1'] = 'Verhoog met';
 $string['incby2'] = 'Alternatief verhoog met';
-$string['incbydesc1'] = 'Dit is de waarde waarmee de sectie verhoogd wordt, telkens een sectielink getood wordt die begint bij 1';
-$string['incbydesc2'] = 'Dit is de waarde waarmee de sectie verhoogd wordt, telkens een sectielink getood wordt die begint bij 1';
+$string['incbydesc1'] = 'Dit is de waarde waarmee de sectie verhoogd wordt, telkens een sectielink getoond wordt die begint bij 1';
+$string['incbydesc2'] = 'Dit is de waarde waarmee de sectie verhoogd wordt, telkens een sectielink getoond wordt die begint bij 1';
 $string['jumptocurrenttopic'] = 'Ga naar het huidige onderwerp';
 $string['jumptocurrentweek'] = 'Ga naar deze week';
 $string['numsections1'] = 'Aantal secties';
