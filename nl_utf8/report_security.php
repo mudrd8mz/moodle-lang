@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20090929) (2009091700)
+      // report_security.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
 
 
 $string['check_configrw_details'] = '<p>We raden aan om de rechten op het bestand config.php te wijzigen na installatie, zodat het bestand niet door de webserver gewijzigd kan worden.
@@ -86,6 +86,15 @@ $string['check_passwordpolicy_details'] = '<p>Aangeraden wordt om een wachtwoord
 $string['check_passwordpolicy_error'] = 'Wachtwoordbeleid niet ingesteld';
 $string['check_passwordpolicy_name'] = 'Wachtwoordbeleid';
 $string['check_passwordpolicy_ok'] = 'Wachtwoordbeleid ingeschakeld';
+$string['check_passwordsaltmain_details'] = '<p>SHet instellen van een password salt vermindert het risico op het gestolen worden van wachtwoorden.</p>
+<p>Om een password salt in te stellen, voeg je volgende lijn toe aan je  config.php file:</p>
+<code>\$CFG->passwordsaltmain = \'een willekeurig hele lange string met heel veel tekens\';</code>
+<p>De willekeurige string moet een mengeling zijn van letters, cijfers en andere tekens en minstens 40 tekens wordt aangeraden.</p>
+<p>Lees de <a href=\"$a\" target=\"_blank\">password salting documentatie</a> als je het password salt wil wijzigen. Eens ingesteld mag je je  password salt NIET verwijderen want anders kun je niet meer inloggen in je site!</p>';
+$string['check_passwordsaltmain_name'] = 'Password salt';
+$string['check_passwordsaltmain_ok'] = 'Password salt is goed';
+$string['check_passwordsaltmain_warning'] = 'Geen password salt ingesteld';
+$string['check_passwordsaltmain_weak'] = 'Password salt is zwak';
 $string['check_riskadmin_detailsok'] = '<p>Controleer aub volgende lijst beheerders:<br />$a</p>';
 $string['check_riskadmin_detailswarning'] = '<p>Controleer onderstaande lijst beheerders::<br />$a->admins</p>
 <p>Aangeraden wordt om de beheerdersrol enkel toe te wijzen in de systeemcontext. Volgende gebruikers hebben een niet-ondersteunde beheerdersrol:<br />$a->unsupported</p>';
@@ -93,6 +102,16 @@ $string['check_riskadmin_name'] = 'Beheerders';
 $string['check_riskadmin_ok'] = '$a serverbeheerders gevonden';
 $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) roltoewijzing nakijken</a>';
 $string['check_riskadmin_warning'] = '$a->admincount beheerdersaccounts gevonden en $a->unsupcount niet-ondersteunde beheerdersrollen toegewezen.';
+$string['check_riskbackup_details_overriddenroles'] = '<p>Dit instellen geeft gebruikers het recht om gebruikersgegevens in backups te zetten. Laat dit alleen toe als het echt nodig is.</p> $a';
+$string['check_riskbackup_details_systemroles'] = '<p>Volgende systeemrollen kunnen gebruikersgegevens in de backups zetten. Laat dit alleen toe als het echt nodig is.</p> $a';
+$string['check_riskbackup_details_users'] = '<b>Door de bovenstaande roloverschrijvingen kunnen volgende gebruikers backups maken met daaring privégegevens van alle gebruikers in hun cursus. Zorg ervoor dat ze te vertrouwen zijn en beschermd door sterke wachtwoorden:<p> $a';
+$string['check_riskbackup_detailsok'] = 'Er is geen enkele rol die toelaat om gebruikersgegevens in backups te zetten. Merk op dat beheerders met de \"doe alles\"-mogelijkheid dit wel nog kunnen.';
+$string['check_riskbackup_editoverride'] = '<a href=\"$a->url\">$a->name in $a->contextname</a>';
+$string['check_riskbackup_editrole'] = '<a href=\"$a->url\">$a->name</a>';
+$string['check_riskbackup_name'] = 'Backup van gebruikersgegevens';
+$string['check_riskbackup_ok'] = 'Er zijn geen rollen die expliciet het backuppen van gebruikersgegevens toelaten';
+$string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) in $a->contextname</a>';
+$string['check_riskbackup_warning'] = '$a->rolecount rolen gevonden, $a->overridecount overschijvingen en  $a->usercount gebruikers met de mogelijkheid gebruikersgegevens te backuppen.';
 $string['check_riskxss_details'] = '<p>RISK_XSS wijst alle gevaarlijk mogelijkheden aan die alleen vertrouwde gebruikers zouden mogen krijgen.</p>
 <p>Controleer volgende gebruikerslijst en zorg er voor dat je ze volledig kunt vertrouwen op deze server.<br />$a</p>';
 $string['check_riskxss_name'] = 'XSS vertrouwde gebruikers';
