@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // data.php - created with Moodle 1.9.7+ (Build: 20091225) (2007101570)
+      // data.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
 
 
 $string['action'] = 'Actie';
@@ -134,6 +134,7 @@ $string['importsuccess'] = 'De sjabloonset is met succes toegepast';
 $string['insufficiententries'] = 'meer items nodig om deze databank te kunnen bekijken';
 $string['intro'] = 'Inleiding';
 $string['invalidfieldname'] = 'Kies een andere naam voor dit veld';
+$string['invalidrate'] = 'Ongeldige databank-beoordeling ($a)';
 $string['invalidurl'] = 'De URL die je net gaf is niet geldig';
 $string['jstemplate'] = 'Javascript sjabloon';
 $string['latitude'] = 'Breedtegraad';

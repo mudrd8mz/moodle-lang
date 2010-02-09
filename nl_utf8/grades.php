@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.7+ (Build: 20091225) (2007101570)
+      // grades.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
 
 
 $string['activities'] = 'Activiteiten';
@@ -281,6 +281,10 @@ $string['hidelocks'] = 'Verberg blokkering';
 $string['hidenooutcomes'] = 'Toon competenties';
 $string['hidequickfeedback'] = 'Verberg snelle feedback';
 $string['hideranges'] = 'Verberg marges';
+$string['hidetotalifhiddenitems'] = 'Totalen verbergen als ze verborgen items bevatten?';
+$string['hidetotalifhiddenitemsdescription'] = 'Totalen verbergen als ze één of meer verborgen items bevatten?';
+$string['hidetotalshowexhiddenitems'] = 'Toon totalen zonder verborgen items';
+$string['hidetotalshowinchiddenitems'] = 'Toon totalen met verborgen items';
 $string['hideverbose'] = 'Verberg $a->category$a->itemmodule $a->itemname';
 $string['highgradeascending'] = 'Sorteer cijfers oplopend';
 $string['highgradedescending'] = 'Sorteer cijfers aflopend';
