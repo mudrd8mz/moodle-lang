@@ -1,7 +1,6 @@
-<?php
+<?PHP // $Id$ 
+      // auth_ldap.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
-// All of the language strings in this file should also exist in
-// auth.php to ensure compatibility in all versions of Moodle.
 
 $string['auth_ldap_ad_create_req'] = 'Ezin da sortu kontu berria Active Directory-n. Ziurtatu lan honetarako baldintza guztiak betetzen dituzula (LDAPS konexioa, eskubide egokiak dituen erabiltzailea,e.a.).';
 $string['auth_ldap_attrcreators'] = 'Talde edo testuinguru zerrenda, zeinetako partaideek atributuak sortzeko baimena duten. Banatu taldeak \',\' erabilita. Orokorrean, honelako zerbait: \'cn=teachers,ou=staff,o=myorg\'';
@@ -76,6 +75,14 @@ $string['auth_ldapextrafields'] = 'Eremu hauek aukerazkoak dira.  Moodle erabilt
 $string['auth_ldapnotinstalled'] = 'Ezin da LDAP autentifikazioa erabili. PHP LDAP modulua ez dago instalatuta.';
 $string['auth_ldaptitle'] = 'LDAP zerbitzari bat erabili';
 $string['auth_ntlmsso'] = 'NTLM SSO';
+$string['auth_ntlmsso_enabled'] = 'Bai ezarri Single Sign On NTLM domeinuan saiatzeko. <strong>Oharra:</strong> bestelako ezarpen behar du web zerbitzarian funtzionatzeko, begiratu <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Gaitu';
+$string['auth_ntlmsso_ie_fastpath'] = 'Ezarri bai NTLM SSO sarbide azkarra gaitzeko (hainbat pausu aurreratzen ditu eta MS Internet Explorer nabigatzailearekin bakarrik funtzionatzen du).';
+$string['auth_ntlmsso_ie_fastpath_key'] = 'MS IE bide azkarra?';
+$string['auth_ntlmsso_subnet'] = 'Ezarrita, SSO saiatuko da azpi-sare honetako bezeroekin bakarrik. Formatua: xxx.xxx.xxx.xxx/bitmask';
 $string['auth_ntlmsso_subnet_key'] = 'Azpisarea';
+$string['ntlmsso_attempting'] = 'Single Sign On saiatzen NTLM bidez...';
+$string['ntlmsso_failed'] = 'Kale egin du saio-hasiera automatikoak, jo normal sartzeko orrira...';
 $string['ntlmsso_isdisabled'] = 'NTLM SSO ez dago gaitua.';
+
+?>
