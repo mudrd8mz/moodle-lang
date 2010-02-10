@@ -48,7 +48,8 @@ $string['auth_common_settings'] = 'Ezarpen komunak';
 $string['auth_data_mapping'] = 'Datuen mapa';
 $string['auth_dbcantconnect'] = 'Ezin izan da zehaztutako autentifikaziorako datu-basearekin konektatu';
 $string['auth_dbchangepasswordurl_key'] = 'Pasahitza aldatzeko URLa';
-$string['auth_dbdebugauthdb'] = 'ADOdb garbitu';
+$string['auth_dbdebugauthdb'] = 'ADOdb araztu';
+$string['auth_dbdebugauthdbhelp'] = 'Kanpoko datu-base baterako ADOdb konexioa araztu  - saio hastean orri zuria lortzen denean erabili. Ez da komeni produkzioan dauden guneetan.';
 $string['auth_dbdeleteuser'] = '$a[0] id $a[1] erabiltzailea ezabatuta';
 $string['auth_dbdeleteusererror'] = 'Eorrea $a erabiltzailea ezabatzean';
 $string['auth_dbdescription'] = 'Metodo honek kanpoko datu-base taula bat erabiltzen du emandako erabiltzaile-izen eta pasahitz bat baliozkoa den egiaztatzeko.  kontua berria bada, beste eremuetako informazioa ere zeharka kopiatu daiteke Moddlen.';
@@ -77,7 +78,7 @@ $string['auth_dbsuspendusererror'] = 'Errorea $a erabiltzailea suspenditzean';
 $string['auth_dbsybasequoting'] = 'Sybase-ren aipuak (quotes) erabili';
 $string['auth_dbtable'] = 'Taularen izena datu-basean';
 $string['auth_dbtable_key'] = 'Taula';
-$string['auth_dbtitle'] = 'Kanpoko datu-base bat erabili';
+$string['auth_dbtitle'] = 'Kanpoko datu-basea';
 $string['auth_dbtype'] = 'Datu-base mota (Ikus <A HREF=../lib/adodb/readme.htm#drivers>ADOdb documentation</A> xehetasun gahiagorako)';
 $string['auth_dbtype_key'] = 'Datu-basea';
 $string['auth_dbupdatinguser'] = '~$a[0] id $a[1] erabiltzailea eguneratzen';
@@ -254,19 +255,24 @@ $string['auth_radiusnasport_key'] = 'Ataka';
 $string['auth_radiussecret'] = 'Elkarbanatutako sekretua';
 $string['auth_radiussecret_key'] = 'Sekretua';
 $string['auth_radiustitle'] = 'RADIUS zerbitzaria erabili';
+$string['auth_radiustype'] = 'Aukera ezazu autentifikazio-eskema bat RADIUS zerbitzariarekin erabiltzeko.';
 $string['auth_radiustype_key'] = 'Autentifikazioa';
+$string['auth_radiustypechapmd5'] = 'CHAP MD5';
 $string['auth_radiustypemschapv1'] = 'Microsoft CHAP 1 bertsioa';
 $string['auth_radiustypemschapv2'] = 'Microsoft CHAP 2 bertsioa';
 $string['auth_radiustypepap'] = 'PAP';
 $string['auth_remove_delete'] = 'Osorik ezabatu';
 $string['auth_remove_keep'] = 'Barruan gorde';
 $string['auth_remove_user_key'] = 'Kanpoko erabiltzailea ezabatuta';
+$string['auth_shib_auth_method'] = 'Autentifikazio-metodoaren izena';
 $string['auth_shib_changepasswordurl'] = 'Pasahitza aldatzeko URLa';
 $string['auth_shib_convert_data'] = 'Datuen aldaketarako APIa';
 $string['auth_shib_convert_data_description'] = 'API hau aurrerago Shibboleth-ek emandako datuak aldatzeko erabil dezakezu. <a href=\"../auth/shibboleth/README.txt\" target=\"_blank\">README</a> irakurri argibide gehigarriak ikusteko.';
 $string['auth_shib_convert_data_warning'] = 'Fitxategirik ez dago, edo zerbitzariaren prozesuak ezin du irakurri.';
+$string['auth_shib_idp_list'] = 'Identitate-hornitzaileak';
 $string['auth_shib_instructions'] = '<a href=\"$a\">Shibboleth login</a> erabili Shibboleth-en bidez sartzeko zure erakundeak onartzen badu.<br />Bestela, hemen erakusten den sarrera arrunteko formularioa erabili.';
 $string['auth_shib_instructions_help'] = 'Hemen zure erabiltzaileei Shibboleth erabiltzeko argibide pertsonalizatuak eman beharko zenizkieke. Sarbide orriko argibideen atalean agertu beharko lirateke, eta \"<b>$a</b>\" esteka erakutsi, Shibboletheko erabiltzaileak erraz sar daitezen. Zuriz utziz gero, argibide estandarrak erakutsiko dira (ez Shibboleth-enak berak)';
+$string['auth_shib_integrated_wayf'] = 'Moodle WAYF Zerbitzua';
 $string['auth_shib_only'] = 'Shibboleth soilik';
 $string['auth_shib_only_description'] = 'Aukera hau hartu soilik Shibboleth autentikazioa bortxatu nahi baduzu.';
 $string['auth_shib_username_description'] = 'Moodlen erabiltzaile izen gisa erabiliko den Shibboleth zerbitzariaren testuinguru aldagaiaren izena';
@@ -275,8 +281,10 @@ $string['auth_shibboleth_login'] = 'Shibboleth sarbidea';
 $string['auth_shibboleth_login_long'] = 'Saioa hasi Moodle-n  Shibboleth-en bidez';
 $string['auth_shibboleth_manual_login'] = 'Eskuko sarbidea';
 $string['auth_shibboleth_select_member'] = 'Ni hemengo kidea naiz:';
+$string['auth_shibboleth_select_organization'] = 'Shibboleth bidez autentifikatzeko, mesedez aukera ezazu zure erakundea zabaltzen den zerrenda honetatik';
 $string['auth_shibbolethdescription'] = 'Metodo honen bidez Shibboleth zerbitzari batera konekta zaitezke kontu berriak sortu eta konprobatzeko';
 $string['auth_shibbolethtitle'] = 'Shibboleth';
+$string['auth_sync_script'] = 'Cron-a sinkronizatzeko script-a';
 $string['auth_updatelocal'] = 'Datu lokalak eguneratu';
 $string['auth_updatelocal_expl'] = '<p><b>Datu lokalak eguneratu:</b> Aktibatuta badago, eremua eguneratu behar da (kanpoko autentikazioz) erabiltzailea sartu edo erabiltzaileen sinkronizazioa gertatzen den bakoitzean. Modu lokalean eguneratu beharreko eremuak blokeatu beharko lirateke.</p>';
 $string['auth_updateremote'] = 'Kanpoko datuak eguneratu';
@@ -285,6 +293,8 @@ $string['auth_updateremote_ldap'] = '<p><b>Oharra:</b> LDAP kanpoko datuen egune
 $string['auth_user_create'] = 'Erabiltzailearen sorrera ahalbidetu';
 $string['auth_user_creation'] = 'Erabiltzaile anonimo berriek erabiltzaile-kontuak autentifikazioko kanpo kodearen gainean sor ditzakete eta e-mailez baieztatu. Hau indarrean jartzen baduzu, erabiltzaileen sorrerarako moduluaren aukerak ere ezarri behar dituzula gogoratu.';
 $string['auth_usernameexists'] = 'Aukeratutako erabiltzailearen izena honez gero badago. Beste bat aukeratu, mesedez.';
+$string['auth_webservicedescription'] = 'Eskuz sortutako kontuak web zerbitzuetarako.';
+$string['auth_webservicetitle'] = 'Web zerbitzuak';
 $string['authenticationoptions'] = 'Autentifikazio-aukerak';
 $string['authinstructions'] = 'Hemen zure erabiltzaileentzat argibideak eman ditzakezu, erabili behar duten erabiltzaile-izena eta pasahitza zein diren jakin dezaten. Hemen sartutako testua saio-hasiera pantailan agertuko da. Zurian uzten baduzu, ez da argibiderik emango.';
 $string['auto_add_remote_users'] = 'Gehitu automatikoki urrutiko erabiltzaileak';
@@ -329,6 +339,11 @@ $string['shib_no_attributes_error'] = 'Badirudi Shibboleth-ek autentikatu zaitue
 $string['shib_not_all_attributes_error'] = 'Moodle Shibboleth-en atributu batzuk behar ditu, kasu honetan agertzen ez direnak. Atributuak hauek dira: $a<br />Mesedez, web masterrarekin edo nortasun-emailearekin harremanetan jarri.';
 $string['shib_not_set_up_error'] = 'Ez dirudi Shibboleth autentifikazioa zuzena denik orri honetan Shibboleth-en testuinguruko aldagaiak ez daudelako. Shibboleth autentikazioa nola definitzen den jakin nahi baduzu, <a href=\"README.txt\">README</a> fitxategia kontsultatu edo Moodle-ren instalazio honetako web masterrarekin harremanetan jarri, mesedez.';
 $string['showguestlogin'] = 'Bisitariek saioa hasteko botoia erakuts edo ezkuta dezakezu saioa hasteko pantailan.';
+$string['sso_idp_description'] = 'Publika ezazu zerbitzu hau zure erabiltzaileak zure $a Moodle gunera bertan berriz identifikatu gabe joan ahal izateko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzuan (Zerbitzu-hornitzailea) <strong>harpidetu</strong> beharko duzu $a.</li></ul><br />-n. Harpidetu zerbitzu honetan $a-n autentifikatutako erabiltzaileei zure gunean saioa berriz hasi beharrik izan gabe sartzen uzteko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzua (Zerbitzu-hornitzailea) <strong>publikatu</strong> beharko duzu $a.</li></ul><br />-n.';
+$string['sso_idp_name'] = 'SSO (Nortasun-hornitzailea)';
+$string['sso_mnet_login_refused'] = '$a[0] izeneko erabiltzaileak ezin du $a[1]-tik saioa hasi.';
+$string['sso_sp_description'] = 'Publika ezazu zerbitzu hau autentifikatutako erabiltzaileak zure gunera $a-tik bertan berriz identifikatu gabe sartu ahal izateko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzuan (Zerbitzu-hornitzailea) <strong>harpidetu</strong> beharko duzu $a.</li></ul><br />-n. Publika ezazu zerbitzu hau zure erabiltzaileak zure $a Moodle gunera bertan berriz identifikatu gabe joan ahal izateko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzua (Zerbitzu-hornitzailea) <strong>publikatu</strong> beharko duzu $a.</li></ul><br />-n.';
+$string['sso_sp_name'] = 'SSO (Zerbitzu-hornitzailea)';
 $string['stdchangepassword'] = 'Pasahitz-aldaketa arrunta erabili.';
 $string['stdchangepassword_expl'] = 'Kanpoko autentifikazio-sistemak Moodle-n pasahitz aldaketa ahalbidetzen badu,  aukera ezazu BAI. Ezarpen honek \'URL pasahitza aldatu\' gainditzen du.';
 $string['stdchangepassword_explldap'] = 'OHARRA: LDAP SSL enkripzio-tunel baten gainean erabiltzea aholkatzen da (ldaps://) LDAP zerbitzaria urrutikoa bada.';
@@ -340,16 +355,5 @@ $string['update_onlogin'] = 'Sarrera bakoitzean';
 $string['update_onupdate'] = 'Eguneratzean';
 $string['user_activatenotsupportusertype'] = 'auth: ldap user_activate()-k ez du onartzen aukeratutako erabiltzaile-mota: $a';
 $string['user_disablenotsupportusertype'] = 'auth: ldap user_disable()-k ez du onartzen aukeratutako erabiltzaile-mota (..oraingoz)';
-
-
-// Strings below here are module specific and will be duplicated in auth_* files
-// Module specific language strings should also be copied into their respective
-// auth_*.php files to ensure compatibility in all versions of Moodle
-
-$string['sso_idp_description'] = 'Publika ezazu zerbitzu hau zure erabiltzaileak zure $a Moodle gunera bertan berriz identifikatu gabe joan ahal izateko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzuan (Zerbitzu-hornitzailea) <strong>harpidetu</strong> beharko duzu $a.</li></ul><br />-n. Harpidetu zerbitzu honetan $a-n autentifikatutako erabiltzaileei zure gunean saioa berriz hasi beharrik izan gabe sartzen uzteko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzua (Zerbitzu-hornitzailea) <strong>publikatu</strong> beharko duzu $a.</li></ul><br />-n.';
-$string['sso_idp_name'] = 'SSO (Nortasun-hornitzailea)';
-$string['sso_mnet_login_refused'] = '$a[0] izeneko erabiltzaileak ezin du $a[1]-tik saioa hasi.';
-$string['sso_sp_description'] = 'Publika ezazu zerbitzu hau autentifikatutako erabiltzaileak zure gunera $a-tik bertan berriz identifikatu gabe sartu ahal izateko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzuan (Zerbitzu-hornitzailea) <strong>harpidetu</strong> beharko duzu $a.</li></ul><br />-n. Publika ezazu zerbitzu hau zure erabiltzaileak zure $a Moodle gunera bertan berriz identifikatu gabe joan ahal izateko. <ul><li><em>Dependentzia</em>: Era berean, SSO zerbitzua (Zerbitzu-hornitzailea) <strong>publikatu</strong> beharko duzu $a.</li></ul><br />-n.';
-$string['sso_sp_name'] = 'SSO (Zerbitzu-hornitzailea)';
 
 ?>
