@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20091014) (2009100605)
+      // auth.php - created with Moodle 2.0 dev (Build: 20100210) (2010020700)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -346,6 +346,12 @@ $string['getanothercaptcha'] = 'Chiedi un altro CAPTCHA';
 $string['guestloginbutton'] = 'Pulsante login ospite';
 $string['incorrectpleasetryagain'] = 'Sbagliato. Prova ancora.';
 $string['infilefield'] = 'Il campo è presente nel file';
+$string['informminpassworddigits'] = 'contenere almeno $a numero(i)';
+$string['informminpasswordlength'] = 'almeno $a caratteri';
+$string['informminpasswordlower'] = 'contenere almeno $a lettera(e)  non alfanumerica(e)';
+$string['informminpasswordnonalphanum'] = 'contenere almeno $a carattere(i)  non alfanumerico(i)';
+$string['informminpasswordupper'] = 'contenere almeno $a lettera(e) maiuscola(e)';
+$string['informpasswordpolicy'] = 'La password deve essere lunga $a';
 $string['instructions'] = 'Istruzioni';
 $string['internal'] = 'Interna';
 $string['locked'] = 'Bloccato';

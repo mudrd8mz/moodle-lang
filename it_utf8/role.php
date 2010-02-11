@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20091023) (2009102201)
+      // role.php - created with Moodle 2.0 dev (Build: 20100210) (2010020700)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
@@ -24,6 +24,7 @@ $string['assignroles'] = 'Ruoli';
 $string['assignrolesin'] = 'Assegna ruoli nel contesto \'$a\'';
 $string['assignrolesrelativetothisuser'] = 'Assegna ruoli relativi a questo utente';
 $string['backtoallroles'] = 'Torna all\'elenco di tutti i ruoli';
+$string['backup:userinfo'] = 'Eseguire backup dei dati utente';
 $string['block:edit'] = 'Modificare le impostazioni dei blocco';
 $string['block:view'] = 'Visualizza blocco';
 $string['blog:associatecourse'] = 'Associare interventi blog ai corsi';
@@ -200,6 +201,8 @@ $string['resetrole'] = 'Ripristina il default';
 $string['resetrolenolegacy'] = 'Annulla le autorizzazioni';
 $string['resetrolesure'] = 'Sei sicuro di voler ripristinare i defaults del ruolo \"<b>$a->name ($a->shortname)</b>\"?<p></p>I defaults sono presi dai privilegi del tipo di ruolo origine selezionato (<b>$a->legacytype</b>).';
 $string['resetrolesurenolegacy'] = 'Sei sicuro di voler azzerare tutte le autorizzazioni definite in questo ruolo  \"<b>$a->name ($a->shortname)</b>\"?';
+$string['restore:createuser'] = 'Creare utenti durante il ripristino';
+$string['restore:userinfo'] = 'Ripristinare dati utente';
 $string['risks'] = 'Rischi';
 $string['role:assign'] = 'Assegnare ruoli agli utenti';
 $string['role:manage'] = 'Creare e gestire ruoli';
@@ -236,7 +239,6 @@ $string['site:restore'] = 'Ripristinare corsi';
 $string['site:sendmessage'] = 'Mandare messaggi a ogni utente';
 $string['site:trustcontent'] = 'Fidarsi dei contenuti inviati';
 $string['site:uploadusers'] = 'Caricare nuovi utenti da file';
-$string['site:usewebservices'] = 'Utilizzare web service';
 $string['site:viewfullnames'] = 'Visualizzare sempre nome e cognome degli utenti';
 $string['site:viewparticipants'] = 'Visualizzare i partecipanti';
 $string['site:viewreports'] = 'Visualizzare i report';
@@ -271,9 +273,11 @@ $string['userswiththisrole'] = 'Utenti col ruolo';
 $string['useshowadvancedtochange'] = 'Utilizza \'Mostra impostazioni avanzate\' per modificare';
 $string['viewingdefinitionofrolex'] = 'Visualizzazione della definizione del ruolo \'$a\'';
 $string['viewrole'] = 'Visualizzazione dettagliata del ruolo';
+$string['webservice:createtoken'] = 'Creare token web service';
 $string['whydoesuserhavecap'] = 'Come mai $a->fullname ha il privilegio $a->capability nel contesto $a->context?';
 $string['whydoesusernothavecap'] = 'Come mai $a->fullname non ha il privilegio $a->capability nel contesto $a->context?';
 $string['xroleassignments'] = 'Ruoli assegnati a $a';
 $string['xuserswiththerole'] = 'Utenti con il ruolo \"<b>$a->role</b>\"';
+$string['site:usewebservices'] = 'Utilizzare web service'; // ORPHANED
 
 ?>
