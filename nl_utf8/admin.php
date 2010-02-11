@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.7+ (Build: 20091225) (2007101570)
+      // admin.php - created with Moodle 1.9.7+ (Build: 20100208) (2007101571.04)
 
 
 $string['accessdenied'] = 'Toegang geweigerd';
@@ -19,7 +19,7 @@ $string['allowuserswitchrolestheycantassign'] = 'Gebruikers zonder het recht om 
 $string['allowuserthemes'] = 'Gebruikersthema\'s toestaan';
 $string['allowvisiblecoursesinhiddencategories'] = 'Zichtbare cursussen in verborgen categorieën toestaan';
 $string['antivirus'] = 'Anti-virus';
-$string['appearance'] = 'Uitzicht';
+$string['appearance'] = 'Uiterlijk';
 $string['aspellpath'] = 'Pad naar aspell';
 $string['authentication'] = 'Authenticatie';
 $string['authsettings'] = 'Beheer authenticatie';
