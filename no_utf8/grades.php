@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.7+ (Build: 20100120) (2007101571.01)
+      // grades.php - created with Moodle 1.9.7+ (Build: 20100210) (2007101571.04)
 
 
 $string['activities'] = 'Aktiviteter';
@@ -280,6 +280,10 @@ $string['hidelocks'] = 'Skjul låser';
 $string['hidenooutcomes'] = 'Vis læringsutbytte';
 $string['hidequickfeedback'] = 'Skjul hurtigtilbakemelding';
 $string['hideranges'] = 'Skjul rangering';
+$string['hidetotalifhiddenitems'] = 'Skjule totaler dersom de inneholder skjulte elementer?';
+$string['hidetotalifhiddenitemsdescription'] = 'Skjule totaler dersom de inneholder ett eller flere skjulte elementer?';
+$string['hidetotalshowexhiddenitems'] = 'Vis totaler hvor skjulte elementer er utelatt';
+$string['hidetotalshowinchiddenitems'] = 'Vis totaler hvor skjulte elementer er regnet med';
 $string['hideverbose'] = 'Skjul $a->category$a->itemmodule $a->itemname';
 $string['highgradeascending'] = 'Sorter med høy karakter stigende';
 $string['highgradedescending'] = 'Sorter med høy karakter synkende';

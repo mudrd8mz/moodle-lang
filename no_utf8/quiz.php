@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.6+ (Build: 20091111) (2007101560)
+      // quiz.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
 
 
 $string['1day'] = '1 dag';
@@ -405,7 +405,7 @@ $string['popupwithjavascriptsupport'] = 'Fullskjerms popup med en viss Javascrip
 $string['preview'] = 'Forhåndsvisning';
 $string['previewquestion'] = 'Forhåndsvisning av spørsmålet';
 $string['previewquiz'] = 'Forhåndsvis $a';
-$string['previewquiznow'] = 'Forhåndsvis testen nå';
+$string['previewquiznow'] = 'Ta testen nå';
 $string['previous'] = 'Tidligere tilstand';
 $string['publish'] = 'Publiser';
 $string['publishedit'] = 'For å legge til eller redigere spørsmål i denne kategorien må ha tillatelse fra kurset som har publisert den.';
