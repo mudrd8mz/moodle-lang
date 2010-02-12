@@ -4,13 +4,13 @@
 
 $string['alfresco_url'] = 'URL Alfresco'; // ORPHANED
 $string['alfresco:view'] = 'Ver repositorio alfresco'; // ORPHANED
-$string['alfrescourltext'] = 'La URL API alfresco debería ser: http://su_sitio.com/alfresco/api'; // ORPHANED
-$string['configplugin'] = 'Configuración Alfresco'; // ORPHANED
-$string['notitle'] = 'sin título'; // ORPHANED
+$string['alfrescourltext'] = 'La URL API alfresco deberÃ­a ser: http://su_sitio.com/alfresco/api'; // ORPHANED
+$string['configplugin'] = 'ConfiguraciÃ³n Alfresco'; // ORPHANED
+$string['notitle'] = 'sin tÃ­tulo'; // ORPHANED
 $string['repositoryname'] = 'Repositorio Alfresco'; // ORPHANED
 $string['repositorydesc'] = 'Un plug-in para CMS Alfresco'; // ORPHANED
 $string['username'] = 'Nombre de usuario'; // ORPHANED
-$string['password'] = 'Contraseña'; // ORPHANED
-$string['soapmustbeenabled'] = 'Se debe habilitar la extensión SOAP para el plugin alfresco'; // ORPHANED
+$string['password'] = 'ContraseÃ±a'; // ORPHANED
+$string['soapmustbeenabled'] = 'Se debe habilitar la extensiÃ³n SOAP para el plugin alfresco'; // ORPHANED
 
 ?>
