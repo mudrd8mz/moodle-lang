@@ -75,6 +75,7 @@ $string['itemstocount'] = 'Zenbakia';
 $string['late'] = '$a berandu';
 $string['maximumgrade'] = 'Gehienezko kalifikazioa';
 $string['maximumsize'] = 'Gehienezko tamaina';
+$string['maxpublishstate'] = 'Gehieneko ikusgarritasuna blog-sarrerentzat amaiera-data baino lehen';
 $string['modulename'] = 'Zeregina';
 $string['modulenameplural'] = 'Zereginak';
 $string['newsubmissions'] = 'Zereginak bidalita';
