@@ -576,8 +576,6 @@ $string['writinggradebookinfo'] = 'Instelling cijferlijst wegschrijven';
 $string['xml'] = 'XML';
 $string['yes'] = 'Ja';
 $string['yourgrade'] = 'Jouw cijfer';
-<<<<<<< grades.php
-=======
 $string['errorupdatinggradecategoryaggregateonlygraded'] = 'Fout bij het updaten van de \"Aggregeer alleen beoordeelde items\"-instelling van cijfercategorie ID $a->id'; // ORPHANED
 $string['errorupdatinggradecategoryaggregateoutcomes'] = 'Fout bij het updaten van de \"Aggregeer competenties\"-instelling van de cijfercategorie ID $a->id'; // ORPHANED
 $string['errorupdatinggradecategoryaggregatesubcats'] = 'Fout bij het updaten van de \"Aggregeer sub-categorieën\"-instelling van cijfercategorie ID $a->id'; // ORPHANED
@@ -585,7 +583,6 @@ $string['errorupdatinggradecategoryaggregation'] = 'Fout bij het aanpassen van h
 $string['errorupdatinggradeitemaggregationcoef'] = 'Fout bij het updaten van de aggregatiecoëfficiënt (weging of bonus) van beoordelingsitem ID $a->id'; // ORPHANED
 $string['norolesdefined'] = 'Geen rollen gedefiniëerd in Beheer -> Uitzicht -> graderoles'; // ORPHANED
 $string['nousersloaded'] = 'Geen gebruikers geladen'; // ORPHANED
->>>>>>> 1.33
 $string['configbulkcheckboxes'] = 'Selectievakjes naast elk cijfer voor bulkoperaties'; // ORPHANED
 $string['configquickfeedback'] = 'Snelle feedback voegt een tekstveld in elke beoordelingscel toe op het rapport, waarmee je tegelijk de cijfers kunt wijzigen. Je kunt dan op de Aanpassen-knop klikken om al deze wijzigingen in één keer door te voeren i.p.v. één voor één.'; // ORPHANED
 $string['errornocategorizedid'] = 'Kon geen id zonder categorie vinden!'; // ORPHANED
