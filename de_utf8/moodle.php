@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100207) (2010020700)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100213) (2010020701)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -914,6 +914,9 @@ $string['listofallpeople'] = 'Liste aller Nutzer/innen';
 $string['livelogs'] = 'Aktuelle Logdaten der letzten Stunde';
 $string['local'] = 'Lokal';
 $string['locale'] = 'de_DE.UTF-8';
+$string['localplugindeleteconfirm'] = 'Sie sind dabei, das lokale Plugin \'{$a}\' zu löschen. Der Vorgang wird endgültig alle Daten in der Datenbank löschen, die mit diesem Plugin verknüpft sind. Sind Sie wirklich sicher, dass Sie weitermachen möchten?';
+$string['localplugins'] = 'Lokale Plugins';
+$string['localpluginsmanage'] = 'Lokale Plugins verwalten';
 $string['location'] = 'Ort';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
 $string['loggedinas'] = 'Sie sind angemeldet als $a';
@@ -1058,7 +1061,7 @@ $string['msnid'] = 'MSN';
 $string['mustchangepassword'] = 'Das neue Kennwort darf nicht mit dem alten Kennwort identisch sein.';
 $string['mustconfirm'] = 'Sie müssen Ihren Zugang bestätigen';
 $string['mycourses'] = 'Meine Kurse';
-$string['mymoodledashboard'] = 'Meine Instrumententafel';
+$string['mymoodledashboard'] = 'Mein Bereich';
 $string['myprofile'] = 'Mein Profil';
 $string['name'] = 'Name';
 $string['namelams'] = 'LAMS';
@@ -1257,8 +1260,10 @@ $string['pictureof'] = 'Nutzerbild $a';
 $string['pleaseclose'] = 'Bitte schließen Sie jetzt dieses Fenster.';
 $string['pleasesearchmore'] = 'Bitte suchen Sie weiter';
 $string['pleaseusesearch'] = 'Bitte benutzen Sie die Suchfunktion';
+$string['plugin'] = 'Plugin';
 $string['plugincheck'] = 'Plugin-Prüfung';
 $string['pluginchecknotice'] = 'Die folgende Übersicht zeigt alle Module, Blöcke und Filter, die in Ihrer aktuellen Moodle-Installation vorhanden sind. Es ist gekennzeichnet, welche Plugins bei Moodle standardmäßig enthalten sind und welche nicht. Für alle nicht standardmäßigen Plugins sollten Updates durchgeführt werden, falls neuere Versionen verfügbar sind.';
+$string['plugindeletefiles'] = 'Alle mit dem Plugin \'{$a->name}\' verknüpften Daten wurden in der Datenbank gelöscht. Um zu verhindern, dass sich das Plugin selbst wieder zurückinstalliert, sollten Sie nun folgendes Verzeichnis von Ihrem Server löschen:  {$a->directory}';
 $string['pluginsetup'] = 'Lege Plugin-Tabellen an';
 $string['policyaccept'] = 'Ich verstehe den Text und stimme ihm zu';
 $string['policyagree'] = 'Lesen Sie diese Zustimmungserklärung sorgfältig. Sie müssen erst zustimmen, um diese Website weiter nutzen zu können. Stimmen Sie zu?';
@@ -1696,7 +1701,7 @@ $string['usedinnplaces'] = 'An $a Stellen verwendet';
 $string['usemessageform'] = 'oder verwenden Sie das untenstehende Formular, um eine Mitteilung an die ausgewählten Teilnehmer/innen zu versenden';
 $string['user'] = 'Nutzer';
 $string['userconfirmed'] = '$a bestätigt';
-$string['usercurrentsettings'] = 'Meine Profileinstellungen';
+$string['usercurrentsettings'] = 'Mein Profil';
 $string['userdata'] = 'Nutzerdaten';
 $string['userdeleted'] = 'Dieser Nutzerzugang wurde gelöscht';
 $string['userdescription'] = 'Beschreibung';
