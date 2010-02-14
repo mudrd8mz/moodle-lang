@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20091029) (2009102700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20100214) (2010020701)
 
 
 $string['activities'] = '活動';
@@ -177,11 +177,6 @@ $string['errornocategorisedid'] = 'カテゴリなしIDを取得できません�
 $string['errornocourse'] = 'コース情報を取得できませんでした。';
 $string['errorreprintheadersnonnumeric'] = 'ヘッダの再表示の値が数値ではありません:';
 $string['errorsavegrade'] = '申し訳ございません、評定を保存できませんでした。';
-$string['errorupdatinggradecategoryaggregateonlygraded'] = '評定カテゴリID $a->id の「評定項目のみ総計する」設定更新中にエラーが発生しました。';
-$string['errorupdatinggradecategoryaggregateoutcomes'] = '評定カテゴリID $a->id の「アウトカムを総計する」設定更新中にエラーが発生しました。';
-$string['errorupdatinggradecategoryaggregatesubcats'] = '評定カテゴリID $a->id の「サブカテゴリを総計する」設定更新中にエラーが発生しました。';
-$string['errorupdatinggradecategoryaggregation'] = '評定カテゴリID $a->id の総計タイプ更新中にエラーが発生しました。';
-$string['errorupdatinggradeitemaggregationcoef'] = '評定カテゴリID $a->id の総計係数 (加重または追加点) 更新中にエラーが発生しました。';
 $string['exceptions'] = '例外';
 $string['excluded'] = '除外';
 $string['excludedhelp'] = '除外が有効にされた場合、この評点は、すべての親評定項目またはカテゴリで実行されるすべての総計から除外されます。';
@@ -285,6 +280,10 @@ $string['hidelocks'] = 'ロックを隠す';
 $string['hidenooutcomes'] = 'アウトカムを表示する';
 $string['hidequickfeedback'] = 'クイックフィードバックを隠す';
 $string['hideranges'] = '範囲を隠す';
+$string['hidetotalifhiddenitems'] = '非表示項目が含まれている場合、合計を隠しますか?';
+$string['hidetotalifhiddenitemsdescription'] = '非表示項目が含まれている場合、合計を隠しますか?';
+$string['hidetotalshowexhiddenitems'] = '非表示項目を除いて合計を表示する';
+$string['hidetotalshowinchiddenitems'] = '非表示項目を含んで合計を表示する';
 $string['hideverbose'] = '$a->category$a->itemmodule $a->itemname を隠す';
 $string['highgradeascending'] = '高評点の昇順で並び替え';
 $string['highgradedescending'] = '高評点の降順で並び替え';
@@ -388,12 +387,10 @@ $string['nonweightedpct'] = '加重なし%%';
 $string['nooutcome'] = 'アウトカムなし';
 $string['nooutcomes'] = 'アウトカム項目は、コースアウトカムにリンクされる必要がありますが、このコースにアウトカムがありません。アウトカムを追加しますか?';
 $string['nopublish'] = '公開しない';
-$string['norolesdefined'] = '「管理 -> 評定 -> 一般設定 -> 評定表のロール (gradebookroles)」にロールが定義されていません。';
 $string['noscales'] = 'アウトカムは、コース評価尺度または標準評価尺度にリンクされる必要がありますが、評価尺度が登録されていないようです。評価尺度を追加しますか?';
 $string['noselectedcategories'] = 'カテゴリを選択してください。';
 $string['noselecteditems'] = '項目を選択してください。';
 $string['notteachererror'] = 'この機能は教師のみ使用できます。';
-$string['nousersloaded'] = 'ユーザが読み込まれていません。';
 $string['numberofgrades'] = '評定数';
 $string['onascaleof'] = '尺度の適用範囲: $a->grademin - $a->grademax';
 $string['operations'] = '操作';
@@ -472,7 +469,6 @@ $string['respectingcurrentdata'] = '現在の設定は変更されません。';
 $string['rowpreviewnum'] = 'プレビュー行数';
 $string['savechanges'] = '変更を保存する';
 $string['savepreferences'] = '設定を保存する';
-$string['scaleconfirmdelete'] = '本当に尺度「 $a 」を削除してもよろしいですか?';
 $string['scaledpct'] = '伸縮%%';
 $string['scaleidhelp'] = '「尺度」評定タイプを使用する場合、評価尺度を選択することができます。活動ベースの評価尺度は、活動の更新ページで選択します。';
 $string['scalestandardhelp'] = '標準評価尺度はサイト全体およびすべてのコースで利用可能な評価尺度です。';
@@ -578,6 +574,14 @@ $string['writinggradebookinfo'] = '評定表設定の書き込み';
 $string['xml'] = 'XML';
 $string['yes'] = 'Yes';
 $string['yourgrade'] = 'あなたの評定';
+$string['errorupdatinggradecategoryaggregateonlygraded'] = '評定カテゴリID $a->id の「評定項目のみ総計する」設定更新中にエラーが発生しました。'; // ORPHANED
+$string['errorupdatinggradecategoryaggregateoutcomes'] = '評定カテゴリID $a->id の「アウトカムを総計する」設定更新中にエラーが発生しました。'; // ORPHANED
+$string['errorupdatinggradecategoryaggregatesubcats'] = '評定カテゴリID $a->id の「サブカテゴリを総計する」設定更新中にエラーが発生しました。'; // ORPHANED
+$string['errorupdatinggradecategoryaggregation'] = '評定カテゴリID $a->id の総計タイプ更新中にエラーが発生しました。'; // ORPHANED
+$string['errorupdatinggradeitemaggregationcoef'] = '評定カテゴリID $a->id の総計係数 (加重または追加点) 更新中にエラーが発生しました。'; // ORPHANED
+$string['norolesdefined'] = '「管理 -> 評定 -> 一般設定 -> 評定表のロール (gradebookroles)」にロールが定義されていません。'; // ORPHANED
+$string['nousersloaded'] = 'ユーザが読み込まれていません。'; // ORPHANED
+$string['scaleconfirmdelete'] = '本当に尺度「 $a 」を削除してもよろしいですか?'; // ORPHANED
 $string['configbulkcheckboxes'] = 'バルク評定処理のため、評点の近くにチェックボックスを表示します。'; // ORPHANED
 $string['configquickfeedback'] = '多くの評定のフィードバックを1度に編集できるようにするため、クイックフィードバックは評定レポートのそれぞれの評定セルにテキスト入力欄を追加します。1つずつ変更する代わりに、更新ボタンをクリックすることで、すべての変更を1度に実行することができます。'; // ORPHANED
 $string['errornocategorizedid'] = 'カテゴリなしIDを取得できませんでした!'; // ORPHANED
