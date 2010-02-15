@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // xmldb.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
+      // xmldb.php - created with Moodle 2.0 dev (Build: 20100215) (2010021400)
 
 
 $string['actual'] = 'Aktuell';
@@ -82,6 +82,7 @@ $string['fieldsnotintable'] = 'Feld existiert nicht in der Tabelle';
 $string['fieldsusedinkey'] = 'Das Feld wird als Schlüssel genutzt';
 $string['filenotwriteable'] = 'Datei ist schreibgeschützt';
 $string['fkviolationdetails'] = 'Fremdschlüssel $a->keyname in der Tabelle $a->tablename ist zerstört in $a->numviolations von $a->numrows Zeilen.';
+$string['float2numbernote'] = 'Hinweis: Auch wenn Felder im Format \"float\" 100%%-ig durch XMLDB unterstützt werden, wird trotzdem die Migration ins Format \"number\" empfohlen.';
 $string['floatincorrectdecimals'] = 'Falsche Anzahl von Nachkommazahlen (float)';
 $string['floatincorrectlength'] = 'Falsche Feldlänge (float)';
 $string['generate_all_documentation'] = 'Gesamte Dokumentation';
@@ -121,6 +122,9 @@ $string['nowrongdefaultsfound'] = 'Es wurden keine inkonsistenten Defaultwerte g
 $string['nowrongintsfound'] = 'Es wurden keine ungültigen Zahlenwerte (integer) gefunden. Die Datenbank benötigt keine weitere Bearbeitung.';
 $string['numberincorrectdecimals'] = 'Falsche Anzahl von Stellen (number)';
 $string['numberincorrectlength'] = 'Falsche Feldlänge (number)';
+$string['pendingchanges'] = 'Hinweis: Sie haben Veränderungen in dieser Datei vorgenommen. Sie können jederzeit gespeichert werden.';
+$string['pendingchangescannotbesaved'] = 'Die Änderungen in dieser Datei können nicht gespeichert werden! Bitte prüfen Sie, dass das Verzeichnis und die darin enthaltene Datei \"install.xml\" eine Schreibbereichtigung für den Webserver besitzen.';
+$string['pendingchangescannotbesavedreload'] = 'Die Änderungen in dieser Datei können nicht gespeichert werden! Bitte prüfen Sie, dass das Verzeichnis und die darin enthaltene Datei \"install.xml\" eine Schreibbereichtigung für den Webserver besitzen. Wenn Sie danach diese Seite neu laden, sollten Sie diese Änderungen speichern können.';
 $string['reserved'] = 'Reserviert';
 $string['reservedwords'] = 'Reservierte Wörter';
 $string['revert'] = 'Rückgängig';

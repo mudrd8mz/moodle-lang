@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20100213) (2010020701)
+      // admin.php - created with Moodle 2.0 dev (Build: 20100215) (2010021400)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -100,6 +100,7 @@ $string['configallowobjectembed'] = 'Aus Sicherheitsgründen dürfen normale Nut
 $string['configallowoverride'] = 'Die Rollen auf der linken Seite können die Rollen in jeder Spalte ändern.';
 $string['configallowoverride2'] = 'Wählen Sie, welche Rollen durch eine Rolle aus der linken Spalte verändert werden dürfen. <br />Beachten Sie dabei, dass diese Einstellungen ausschließlich für Nutzer/innen gelten, für die die Rechte moodle/role:override oder moodle/role:safeoverride gesetzt sind.';
 $string['configallowswitch'] = 'Legen Sie fest, in welche anderen Rollen ein Nutzer von der aktuellen Rollen aus wechseln kann. Zusätzlich zu dieser Einstellung ist die Berechtigung moodle/role:switchroles für die aktuelle Rolle erforderlich. <br />Anmerkung: Der Wechsel in eine Rolle kann nur erfolgen, wenn diese die Berechtigung moodle/course:view besitzen und nicht die Berechtigung moodle/site:doanything. Einige Spalten sind daher u.U. deaktiviert.';
+$string['configallowthemechangeonurl'] = 'Wenn Sie diese Option aktivieren, kann das Design über den Zusatz \'theme={themename}&amp;sesskey={sesskey}\' zu jeder Moodle-URL gewechselt werden.';
 $string['configallowunenroll'] = 'Wenn Sie diese Einstellung aktivieren, können sich die Teilnehmer/innen jederzeit selbst aus ihren Kursen austragen. Normalerweise wird das allein von den Trainer/innen und Administrator/innen erledigt.';
 $string['configallowuserblockhiding'] = 'Wollen Sie zulassen, dass Nutzer/innen selbst Blöcke ein-/ausblenden können? Dieses Feature verwendet JavaScript und Cookies, um den Status zu speichern. Die Einstellung steuert ausschließlich die eigene Nutzeransicht.';
 $string['configallowusermailcharset'] = 'Mit der Aktivierung erlauben Sie allen Nutzer/innen der Website, den Zeichensatz für E-Mails selber festzulegen.';
@@ -138,6 +139,7 @@ $string['configdebugdisplay'] = 'Wenn diese Einstellung aktiviert ist, werden Fe
 $string['configdebugpageinfo'] = 'Wenn diese Option aktiviert ist, werden Seiteninformationen in der Fußzeile angezeigt.';
 $string['configdebugsmtp'] = 'Umfassende Debuginformation beim Versand von Email-Nachrichten an SMTP Server erstellen.';
 $string['configdebugstringids'] = 'Diese Option soll bei der Übersetzung helfen. Neben jeder Textausgabe werden zusätzlich die Sprachdatei und die Text-ID angezeigt. Eine Änderung der Einstellung ist erst bei einem Neuladen der  betreffenden Seite wirksam.';
+$string['configdebugvalidators'] = 'Aktivieren Sie diese Option, um Links zu externen Validierungsservern in der Fußzeile anzuzeigen. Möglicherweise müssen Sie einen neuen Nutzer mit dem Anmeldenamen <em>w3cvalidator</em> erstellen und den Gastzugang freischalten. Diese Änderungen erlauben unauthorisierte Serverzugriffe und sollten nicht auf Produktivsystemen eingeschaltet werden!';
 $string['configdefaultallowedmodules'] = 'Welche Module sollen in den Kursen der oben genannten Kategorie standardmäßig bei der Kurs-Einrichtung aktiviert sein?';
 $string['configdefaultcourseroleid'] = 'Nutzer/innen erhalten automatisch diese Rolle zugewiesen, wenn sie sich in einen Kurs einschreiben.';
 $string['configdefaultrequestcategory'] = 'Von Nutzer/innen beantrage Kurse werden automatisch in diesem Kursbereich angelegt.';
@@ -314,9 +316,11 @@ $string['configsupportemail'] = 'Diese E-Mail-Adresse wird Nutzer/innen dieser W
 $string['configsupportname'] = 'Dies ist der Name der Person oder Einrichtung, die allgemeine Hilfe über E-Mail oder eine Internetseite anbieten.';
 $string['configsupportpage'] = 'Diese Web-Adresse wird Nutzer/innen dieser Website übermittelt, wenn sie allgemeine Hilfe benötigen und dazu auf einer Hilfeseite die entsprechende Unterstützung erhalten (z.B. wenn neue Nutzeraccounts selber angelegt werden sollen). Wenn das Feld leer bleibt, dann wird keine helfende Web-Adresse angeboten.';
 $string['configteacherassignteachers'] = 'Sollen Trainer/innen in ihren Kursen selber weitere Trainer/innen eintragen können? Falls \'Nein\', sind nur Kursverwalter/innen und Administrator/innen dazu berechtigt.';
+$string['configthemedesignermode'] = 'Alle Bilder und CSS-Dateien eines Designs werden lange Zeit im Browser und im Servers zwischengespeichert. Schalten Sie diese Option aus, wenn Sie neue Designs entwickeln oder optimieren. Sie können auch alle Zwischenspeicher manuell in der Design-Auswahl ausschalten. Achtung: Die Aktivierung des Design-Entwickler-Modus wirkt sich negativ auf die Serverleistung aus!';
 $string['configthemelist'] = 'Wenn das Feld leer bleibt, kann jedes Design ausgewählt werden. Wenn das Auswahlmenü für Designs verkürzt werden soll, können Sie hier die auswählbaren Designs eintragen. Trennen Sie die Namen der Themes mit Kommas, z.B.: standard,orangewhite. Verzichten Sie auf Leerzeichen!';
 $string['configtimezone'] = 'Stellen Sie hier die bevorzugte Zeitzone ein. Dies steuert die Zeitanzeige in allen Kursen. Die Einstellung \"Serverzeit\" verwendet die Zeiteinstellung Ihres Internetservers. Im Nutzerprofil greift die Einstellung \"Serverzeit\" für die Zeitzone auf die hier vorgenommenen Einstellung zurück. Cronjobs, die von der Tageszeit abhängig sind, nutzen ebenfalls diese Einstellung.';
 $string['configunzip'] = 'Geben Sie hier die Lage (Pfad und Dateiname) des Programms unzip an (nur Unix). Das Programm wird für das Entpacken von ZIP-Archiven auf dem Server benötigt. Wenn Sie dieses Feld leer lassen, benutzt Moodle interne Routinen.';
+$string['configuseblogassociations'] = 'Soll es für Nutzer/innen möglich sein, ihre Blogeinträge über die Zuordnung an Kurse und Kursmodule zu organisieren?';
 $string['configuseexternalyui'] = 'An Stelle der lokalen Dateien können Dateien von Yahoo-Servern verwendet werden. ACHTUNG: Es ist dann eine Internetverbindung notwendig, damit Ajax mit ihrer Website funktioniert.';
 $string['configusetags'] = 'Soll die Kennzeichen-Funktionalität für die gesamte Website aktiviert werden?';
 $string['configvariables'] = 'Variablen konfigurieren';
@@ -324,6 +328,7 @@ $string['configverifychangedemail'] = 'Aktiviert die Prüfung der von Nutzern ge
 $string['configvisiblecourses'] = 'Kurse werden in verborgenen Kursbereichen normal angezeigt.';
 $string['configwarning'] = 'Vorsicht bei der Veränderung dieser Einstellungen! <br />Ungeeignete Werte könnten Probleme verursachen.';
 $string['configxmlstrictheaders'] = 'Mit dieser Funktion werden auf jeder Seite  XML http Header und Prologs erstellt. Der Browser zeigt dann XHTML Fehlermeldungen an. Diese Funktion ist nur für Entwickler sinnvoll.';
+$string['configyuicomboloading'] = 'Diese Option erlaubt eine Ladeoptimierung für Dateien der YUI Libraries. Zur Performance-Steigerung sollte die Einstellung auf Produktivsystemen aktiviert sein.';
 $string['configzip'] = 'Geben Sie hier die Lage (Pfad und Dateiname) des Programms zip an (nur Unix). Das Programm wird für die Erstellung ZIP-Archiven auf dem Server benötigt. Wenn Sie dieses Feld leer lassen, benutzt Moodle interne Routinen.';
 $string['confirmation'] = 'Bestätigung';
 $string['confirmed'] = 'Bestätigt';
@@ -639,6 +644,8 @@ $string['mymoodle'] = 'MyMoodle';
 $string['mymoodleredirect'] = 'Nutzer/innen zu MyMoodle weiterleiten';
 $string['mysql416bypassed'] = 'Wenn Sie in Ihrer Website ausschließlich ISO-8859-1 (lateinische) Sprachen verwenden, können Sie eine MySQL-Version ab 4.1.12 (oder höher) verwenden.';
 $string['mysql416required'] = 'MySQL 4.1.16 (oder höher) ist für Moodle 1.6 unbedingt erforderlich, um eine Datenkonvertierung nach UTF-8 sicherzustellen.';
+$string['navigationupgrade'] = 'Diese Aktualisierung liefert zwei neue Navigationsblöcke, die einige bisherige Blöcke ablösen (Administration, Kurse, Aktivitäten und Personen). Wenn Sie spezielle Zugriffsrechte für diese Blöcke gesetzt haben, sollten Sie unbedingt prüfen, ob sich alles so verhält wie Sie es wünschen.<br /><br />
+Sie sollten über \"Shift-Neuladen\" sicherstellen, dass Ihr Browser auch das neue CSS lädt, weil sonst die neuen Blöcke nicht richtig funktionieren.';
 $string['navshowallcourses'] = 'Alle eigenen Kurse anzeigen';
 $string['navshowcategories'] = 'Kursbereiche anzeigen';
 $string['nobookmarksforuser'] = 'Sie besitzen keinerlei Lesezeichen';
@@ -917,6 +924,7 @@ $string['uploadpictures'] = 'Nutzerbilder hochladen';
 $string['uploaduserspreview'] = 'Vorschau Nutzer-Upload';
 $string['uploadusersresult'] = 'Ergebnisse Nutzer-Upload';
 $string['upwards'] = 'aufwärts';
+$string['useblogassociations'] = 'Blogverbund erlauben';
 $string['useexternalyui'] = 'YUI Libraries online nutzen';
 $string['usehtmleditor'] = 'HTML-Editor benutzen';
 $string['user'] = 'Nutzer/in';

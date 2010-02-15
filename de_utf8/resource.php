@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 2.0 dev (Build: 20100116) (2010011400)
+      // resource.php - created with Moodle 2.0 dev (Build: 20100215) (2010021400)
 
 
 $string['addresource'] = 'Arbeitsmaterial hinzufügen';
@@ -20,6 +20,7 @@ $string['configallowlocalfiles'] = 'Beim Erstellen neuer Arbeitsmaterialien kön
 $string['configautofilerenamesettings'] = 'Referenzen zu Dateien und Verzeichnissen automatisch erneuern, wenn sie im Dateimanager umbenannt werden.';
 $string['configblockdeletingfilesettings'] = 'Block-Löschen von Dateien und Verzeichnissen, auf die von Arbeitsmaterialien verwiesen wird. Bitte beachten Sie, dass Bilder und andere in HTML eingebundene Dateien nicht geschützt sind.';
 $string['configdefaulturl'] = 'Wenn Sie eine neue URL-basierte Ressource anlegen, wird dieser Wert als Voreinstellung bereits angezeigt.';
+$string['configdisplayoptions'] = 'Wählen Sie alle Optionen aus, die verfügbar sein sollen. Bestehende Einstellungen werden nicht geändert. Für  die Mehrfachauswahl drücken Sie die Taste \'strg\'.';
 $string['configfilterexternalpages'] = 'Diese Option wendet den eingestellten Filter (Wörterbuch, Autolinks, etc.) auch für alle externen Quellen (Webseiten und hochgeladene HTML-Seiten) an. Wenn Sie diese Option aktivieren, werden Ihre Kursseiten wesentlich langsamer laufen. Nutzen Sie diese Option daher nur, wenn Sie sie wirklich benötigen.';
 $string['configframesize'] = 'Wenn eine Webseite oder eine hochgeladene Datei in einem Frame angezeigt wird, so gibt dieser Wert die Größe des Top-Frames, der die Navigation beinhaltet, in Pixeln an.';
 $string['configparametersettings'] = 'Stellen Sie die Anfangswerte für die Parameter im Formular zur Bereitstellung neuer Arbeitsmaterialien ein. Nach dem ersten Öffnen kann diese individuell angepasst werden.';
@@ -63,6 +64,7 @@ $string['fetchservererror'] = 'Ein Fehler ist beim Remoteserver aufgetreten (evt
 $string['filename'] = 'Dateiname';
 $string['filenotfound'] = 'Datei nicht gefunden';
 $string['filterfiles'] = 'Filter für den Dateiinhalt benutzen';
+$string['filterfilesexplain'] = 'Bitte wählen Sie die Art der Filterung von Dateiinhalten aus. Beachten Sie dabei, dass dies Probleme mit Flash und JavaApplets verursachen könnte. Stellen Sie sicher, dass alle Textdateien in der Kodierung utf-8 vorliegen.';
 $string['filtername'] = 'Automatische Verlinkung zu den Namen der Arbeitsmaterialien';
 $string['foldercontent'] = 'Dateien und Unterordner';
 $string['forcedownload'] = 'Download erzwingen';
@@ -111,6 +113,7 @@ $string['notallowedlocalfileaccess'] = 'Der Zugriff auf lokale Dateiressourcen i
 $string['notdeployed'] = 'Nicht genutzt';
 $string['note'] = 'Anmerkung';
 $string['notefile'] = 'Um mehr als eine Datei für diesen Kurs hochzuladen (damit diese in der Liste erscheinen), benutzen Sie bitte den <a href=\"$a\">Datei-Manager</a>.';
+$string['notmigrated'] = 'Dieser Ressource-Type ($a) wurde bisher noch nicht migriert.';
 $string['notypechosen'] = 'Sie müssen einen Typ auswählen. Verwenden Sie den Zurück-Knopf und probieren Sie es erneut.';
 $string['optionsheader'] = 'Optionen';
 $string['packagechanged'] = 'IMS-Content-Paket wurde geändert';
@@ -130,7 +133,9 @@ $string['portfolionotimplemented'] = 'Der Materialientyp ($a) kann nicht exporti
 $string['preview'] = 'Vorschau';
 $string['previous'] = 'Zurück';
 $string['printheading'] = 'Ressource-Name anzeigen';
+$string['printheadingexplain'] = 'Ressource-Namen oberhalb des Inhalts anzeigen? Einige Anzeigetypen können den Ressourcenamen nicht anzeigen, selbst wenn diese Option aktiviert ist.';
 $string['printintro'] = 'Ressource-Beschreibung anzeigen';
+$string['printintroexplain'] = 'Ressource-Beschreibung unterhalb des Inhalts anzeigen? Einige Anzeigetypen können den Ressourcenamen nicht anzeigen, selbst wenn diese Option aktiviert ist.';
 $string['redeploy'] = 'Nochmal verwenden';
 $string['repository'] = 'IMS-Verzeichnis';
 $string['resource:exportresource'] = 'Arbeitsmaterial exportieren';
