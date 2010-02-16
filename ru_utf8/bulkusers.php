@@ -1,24 +1,22 @@
-<?php
-// $Id$ 
-// bulkusers.php - created with Moodle 1.9.2+ (Build: 20080827) (2007101522)
-// local modifications from http://www.cdp.tsure.ru/moodle
+<?PHP // $Id$ 
+      // bulkusers.php - created with Moodle 1.9.6 (Build: 20091021) (2007101560)
 
 
-$string['addall'] = 'Добавить всех к выбранным';
+$string['addall'] = 'Добавить всех';
 $string['addsel'] = 'Добавить к выбранным';
 $string['allfilteredusers'] = 'Все отфильтрованные ($a->count/$a->total)';
 $string['allselectedusers'] = 'Все выбранные ($a->count/$a->total)';
 $string['allusers'] = 'Все пользователи ($a)';
 $string['available'] = 'Доступные';
-$string['confirmmessage'] = 'Вы действительно хотите отправить сообщение всем этим пользователям?<br />$a';
+$string['confirmmessage'] = 'Вы действительно хотите отправить вышеприведенное сообщение всем этим пользователям?<br />$a';
 $string['nofilteredusers'] = 'Пользователей не найдено (0/$a)';
-$string['noselectedusers'] = 'Пользователи не выбраны';
-$string['removeall'] = 'Удалить всех из выбранных';
+$string['noselectedusers'] = 'Не выбрано пользователей';
+$string['removeall'] = 'Удалить всех';
 $string['removesel'] = 'Удалить из выбранных';
 $string['selected'] = 'Выбранные';
-$string['selectedlist'] = 'С выделенными пользователями...';
-$string['usersfound'] = '$a пользователей найдено.';
-$string['usersinlist'] = 'Список пользователей';
-$string['usersselected'] = '$a пользователей выбрано.';
+$string['selectedlist'] = 'Список выбранных пользователей...';
+$string['usersfound'] = 'Найдено пользователей - $a.';
+$string['usersinlist'] = 'Пользователи в списке';
+$string['usersselected'] = 'Выбрано пользователей - $a.';
 
 ?>
