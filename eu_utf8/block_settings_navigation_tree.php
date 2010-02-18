@@ -3,5 +3,7 @@
 
 
 $string['blockname'] = 'Ezarpenak';
+$string['enablehoverexpansion'] = 'Gaitu sagua bloke hau zabaltzeko';
+$string['enablesidebarpopout'] = 'Utzi erabiltzaileari blokea alboko zutabe batera eramaten';
 
 ?>

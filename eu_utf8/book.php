@@ -1,8 +1,15 @@
 <?PHP // $Id$ 
-      // book.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // book.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['addafter'] = 'Atala gehitu';
+$string['book:edit'] = 'Editatu liburuaren atalak';
+$string['book:exportimscp'] = 'Esportatu liburua IMS eduki-pakete gisa';
+$string['book:import'] = 'Inportatu atalak';
+$string['book:print'] = 'Inprimatu liburua';
+$string['book:read'] = 'Irakurri liburua';
+$string['book:viewhiddenchapters'] = 'Ikusi liburuaren ezkutuko atalak';
+$string['book_tocwidth'] = 'Eduki-taularen zabalera';
 $string['chapterscount'] = 'Atalak';
 $string['chaptertitle'] = 'Atalaren izenburua';
 $string['confchapterdelete'] = 'Ziur al zaude atal hau ezabatu nahi duzula?';
@@ -15,6 +22,7 @@ $string['doimport'] = 'Inportatu';
 $string['editingchapter'] = 'Atala editatzen';
 $string['faq'] = 'FAQ motako liburua';
 $string['fileordir'] = 'Fitxategia edo direktorioa';
+$string['generateimscp'] = 'IMS eduki-paketea sortu';
 $string['import'] = 'Inportatu';
 $string['importinfo'] = 'Inportatu aukeratutako HTML fitxategia edo direktorioa.<br/>Kapituluak alfabetikoki ordenatuko dira izenaren arabera.<br/>\'sub_*\' izeneko fitxategiak beti atal gisa inportatuko dira.';
 $string['importing'] = 'Inportatzen';

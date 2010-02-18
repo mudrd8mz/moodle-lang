@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9 + (Build: 20080409) (2007101509)
+      // calendar.php - created with Moodle 1.9.4+ (Build: 20090218) (2007101541)
 
 
 $string['advancedoptions'] = 'Aukera aurreratuak';
@@ -69,6 +69,8 @@ $string['groupevent'] = 'Talde-ekitaldia';
 $string['groupevents'] = 'Talde-ekitaldiak';
 $string['hidden'] = 'ezkutuan';
 $string['ical'] = 'iCal';
+$string['invalidtimedurationminutes'] = 'Minututan sartu duzun iraupena ez da egokia. Mesedez, sartu iraupen egoki bat minututan edo aukeratu \"iraupenik ez\".';
+$string['invalidtimedurationuntil'] = 'Iraupenerako aukeratu duzun data eta denbora ekitaldiariaren hasiera-ordua baina aurrekoa da. Mesedez zuzendu hau aurrera egin aurretik.';
 $string['iwanttoexport'] = 'Esportatu';
 $string['manyevents'] = '$a ekitaldi';
 $string['mon'] = 'Al';
@@ -88,8 +90,10 @@ $string['preferences'] = 'Hobespenak';
 $string['preferences_available'] = 'Zure hobespenak';
 $string['quickdownloadcalendar'] = 'Deskarga arina / egutegira harpidetu';
 $string['recentupcoming'] = 'Azkenak eta hurrengo 60 egun';
+$string['repeatedevents'] = 'Errepikatutako ekitaldiak';
 $string['repeateditall'] = 'Aplikatu aldaketak $a ekitaldiaren errepikapen-serieari';
 $string['repeateditthis'] = 'Aldaketak ekitaldi honi bakarrik aplikatu';
+$string['repeatevent'] = 'Errepikatu ekitaldi hau';
 $string['repeatnone'] = 'Ez errepikatu';
 $string['repeatweeksl'] = 'Errepikatu astero, denak batera sortuz';
 $string['repeatweeksr'] = 'ekitaldiak';

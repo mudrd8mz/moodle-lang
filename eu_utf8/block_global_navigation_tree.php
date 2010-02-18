@@ -6,9 +6,14 @@ $string['blockname'] = 'Nabigazioa';
 $string['courseactivities'] = 'Kategoriak, ikastaroak eta ikastaroko Jarduerak';
 $string['courses'] = 'Kategoriak eta ikastaroak';
 $string['coursestructures'] = 'Kategoriak, ikastaroak eta ikastaro-egiturak';
+$string['enablehoverexpansiondesc'] = 'Gaitu sagua bloke hau zabaltzeko';
+$string['enablesidebarpopoutdesc'] = 'Utzi erabiltzaileari blokea alboko zutabe batera eramaten';
 $string['everything'] = 'Guztia';
+$string['expansionlimit'] = 'Sortu nabigazioa ondorengoetarako';
+$string['showemptybranchesdesc'] = 'Erakutsi hutsik ikastaro-ataleko adarrak';
 $string['showmycoursesdesc'] = 'Erakutsi nire ikastaroak nabigazioan';
+$string['showmyhistorydesc'] = 'Erakutsi nire historia nabigazio-adar batean';
 $string['showmyhistorytitle'] = 'Nire historia';
-$string['toggleblockdisplay'] = 'Mugitu blokearen kokapena';
+$string['toggleblockdisplay'] = 'Mugitu blokearen kokapena'; // ORPHANED
 
 ?>
