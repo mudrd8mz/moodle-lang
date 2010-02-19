@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // simpletest.php - created with Moodle 2.0 dev (Build: 20090706) (2009070100)
+      // simpletest.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['addconfigprefix'] = 'Aggiungi prefisso al file config';
@@ -10,7 +10,7 @@ $string['codecoveragedisabled'] = 'In questo server non è possibile abilitare i
 $string['codecoveragelatestdetails'] = '(al $a->date su $a->files l\'analisi è al $a->percentage)';
 $string['codecoveragelatestreport'] = 'visualizza il report di code coverage più recente';
 $string['confignonwritable'] = 'Il file config.php non è scrivibile dal web server. Cambia i suoi attributi, o modificalo con un account abilitato. e aggiungi la seguente riga prima del tag di chiusura del php: <br />
-$CFG->unittestprefix = \'tst_\' // Modificare tst_  in un prefisso diverso da \$CFG->prefix';
+\$CFG->unittestprefix = \'tst_\' // Modificare tst_  in un prefisso diverso da \$CFG->prefix';
 $string['coveredlines'] = 'Linee analizzate';
 $string['coveredpercentage'] = 'Code Coverage complessivo';
 $string['deletingnoninsertedrecord'] = 'Tentativo di eliminazione di un record che non è stato inserito da queste unità di test (id $a->id in tabella $a->table).';
@@ -40,6 +40,7 @@ $string['runtests'] = 'Esegui';
 $string['rununittests'] = 'Esegui i test';
 $string['showpasses'] = 'Mostra sia successi che errori';
 $string['showsearch'] = 'Mostra la ricerca dei file di test';
+$string['skip'] = 'Salta';
 $string['stacktrace'] = 'Traccia dello stack:';
 $string['summary'] = '{$a->run}/{$a->total} casi di test completi: <strong>{$a->passes}</strong> successi, <strong>{$a->fails}</strong> errori e <strong>{$a->exceptions}</strong> eccezioni.';
 $string['tablesnotsetup'] = 'Le tabelle per l\'unità di test non sono ancora state create. Le vuoi creare adesso?';

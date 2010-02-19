@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20091117) (2009111800)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['check_configrw_details'] = '<p>Si raccomanda di modificare i permessi del file config.php subito dopo l\'installazione per evitare che il file possa essere modificato da processi del web server.
@@ -101,6 +101,16 @@ $string['check_riskadmin_name'] = 'Amministratori';
 $string['check_riskadmin_ok'] = 'Sono stati individuati $a amministratore(i) del server.';
 $string['check_riskadmin_unassign'] = 'Controllare l\'attribuzione di ruolo <a href=\"$a->url\">$a->fullname ($a->email)';
 $string['check_riskadmin_warning'] = 'Sono stati individuati $a->admincount amministratori del server e $a->unsupcount assegnazioni non supportate del ruolo amministratore.';
+$string['check_riskbackup_details_overriddenroles'] = '<p>Queste modifiche ai ruoli danno agli utenti il privilegio di effettuare backup con dati utente. Accertati che tale privilegio sia realmente necessario.</p>$a';
+$string['check_riskbackup_details_systemroles'] = '<p>I ruoli sotto elencati hanno il privilegio di eseguire backup con dati utente. Accertati che il privilegio sia realmente necessario.</p>$a';
+$string['check_riskbackup_details_users'] = '<p>Come conseguenza dei privilegi assegnati ai ruoli sopra elencati, i seguenti account dispongono del privilegio di effettuare backup con dati utente. Accertati che (a) siano utenti affidabili e che (b) le loro credenziali siano protette con password forti.</p>$a';
+$string['check_riskbackup_detailsok'] = 'Nessun ruolo possiede il privilegio di eseguire backup con dati utente. Ciononostante, gli amministratori con il privilegio \"doanything\" potrebbero riuscire comunque ad effettuare backup con dati utente.';
+$string['check_riskbackup_editoverride'] = '<a href=\"$a->url\">$a->name in $a->contextname</a>';
+$string['check_riskbackup_editrole'] = '<a href=\"$a->url\">$a->name</a>';
+$string['check_riskbackup_name'] = 'Backup di dati utente';
+$string['check_riskbackup_ok'] = 'Non ci sono ruoli con il privilegio di eseguire backup di dati utente';
+$string['check_riskbackup_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) in $a->contextname</a>';
+$string['check_riskbackup_warning'] = 'Sono stati individuati $a->rolecount ruoli,$a->overridecount modifiche ai ruoli e $a->usercount utenti con il privilegio di eseguire backup di dati utente';
 $string['check_riskxss_details'] = '<p>RISK_XSS indica privilegi che devono essere dati solamente ad utenti affidabili.</p>
 <p>Per favore verificate la seguente lista di utenti e accertatevi che tutti gli utenti elencati meritano la vostra fiducia:<br/>$a</p>';
 $string['check_riskxss_name'] = 'Utenti affidabili per XSS';

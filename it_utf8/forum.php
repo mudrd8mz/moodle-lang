@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // forum.php - created with Moodle 2.0 dev (Build: 20091028) (2009102700)
+      // forum.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['addanewdiscussion'] = 'Aggiungi un nuovo argomento di discussione';
@@ -31,6 +31,7 @@ $string['attachments'] = 'Allegati';
 $string['blockafter'] = 'Soglia massima interventi';
 $string['blockperiod'] = 'Intervallo di controllo';
 $string['blockperioddisabled'] = 'Nessun intervallo di controllo';
+$string['blogforum'] = 'Forum standard visualizzato in stile blog';
 $string['bynameondate'] = 'di $a->name - $a->date';
 $string['cannotadd'] = 'La discussione non può essere aggiunta in questo forum';
 $string['cannotadddiscussion'] = 'Per aggiungere discussioni in questo forum è necessario appartenere ad un gruppo.';
@@ -165,6 +166,7 @@ $string['forumtype'] = 'Tipo di forum';
 $string['generalforum'] = 'Forum standard per uso generale';
 $string['generalforums'] = 'Forum per uso generale';
 $string['inforum'] = 'in $a';
+$string['introblog'] = 'I post di questo forum sono stati copiati automaticamente dai blog degli utenti iscritti al corso poiché tali interventi blog non sono più disponibili';
 $string['intronews'] = 'Annunci e news di carattere generale';
 $string['introsocial'] = 'Un forum aperto per dialogare su qualsiasi argomento di tuo interesse.';
 $string['introteacher'] = 'Un forum riservato agli insegnanti per annotazioni e discussioni.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20091117) (2009111800)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20100217) (2010021400)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -14,13 +14,14 @@ $string['addnewhost'] = 'Aggiungi un nuovo host';
 $string['addtoacl'] = 'Aggiungi al Controllo Accessi';
 $string['allhosts_no_options'] = 'Non ci sono opzioni disponibili quando si visualizzano host multipli';
 $string['allow'] = 'Consenti';
+$string['applicationtype'] = 'Tipo applicazione';
 $string['authfail_nosessionexists'] = 'Autorizzazione fallita: la sessione mnet non esiste.';
 $string['authfail_sessiontimedout'] = 'Autorizzazione fallita: la sessione mnet è scaduta.';
 $string['authfail_usermismatch'] = 'Autorizzazione fallita: l\'utente non corrisponde.';
 $string['authmnetautoadddisabled'] = 'L\'<em>auto inserimento utenti</em> nel plugin di autenticazione del Moodle Networking è <strong>disabilitato</strong>.';
 $string['authmnetdisabled'] = 'Il <em>plugin di autenticazione </em>Moodle Networking è <strong>disabilitato</strong>.';
 $string['badcert'] = 'Questo non è un certificato valido.';
-$string['certdetails'] = 'Dettagli del certificato';
+$string['certdetails'] = 'Dettagli certificato';
 $string['configmnet'] = 'Il Moodle Networking permette a questo server di comunicare con altri server o altri servizi.';
 $string['couldnotgetcert'] = 'Non è stato trovato nessun certificato su <br />$a. <br />. L\'host può essere spento o non configurato correttamente.';
 $string['couldnotmatchcert'] = 'Questo non corrisponde al certificato attualmente pubblicato dal webserver.';
@@ -55,6 +56,7 @@ $string['expired'] = 'Questa chiave è scaduta il';
 $string['expires'] = 'Valido fino al';
 $string['expireyourkey'] = 'Elimina questa chiave';
 $string['expireyourkeyexplain'] = 'Moodle per default ruota automaticamente le tue chiavi ogni 28 giorni, ma c\'è l\'opzione far scadere la chiave attuale <em>manualmente</em> in qualunque momento. Questo può essere utile se si ritiene che la chiave attuale sia stata compromessa. Una sostituzione automatica sarà prodotta immediatamente.<br/>Elimianre la chiave attuale impedirà a tutti gli altri Moodle di comunicare con te, finché non contatterai ogni amministratore e gli comunicherai la nuova chiave.';
+$string['exportfields'] = 'Campi da esporatre';
 $string['failedaclwrite'] = 'Scrittura non riuscita sulla access control list MNET per l\'utente \'$a\'.';
 $string['forbidden-function'] = 'Tale funzione non è stata abilitata per RPC.';
 $string['forbidden-transport'] = 'Il metodo di trasporto che stai cercando di usare non è consentito.';
@@ -78,6 +80,8 @@ $string['id'] = 'ID';
 $string['idhelp'] = 'Questo valore è assegnato automaticamente e non può essere modificato.';
 $string['illegalchar-host'] = 'Il tuo nome host contiene il carattere illegale: $a';
 $string['illegalchar-moodlehome'] = 'Il tuo indirizzo Moodle contiene caratteri illegali';
+$string['importfields'] = 'Campi da importare';
+$string['inspect'] = 'Ispeziona';
 $string['invalidaccessparam'] = 'Parametro d\'accesso non valido.';
 $string['invalidactionparam'] = 'Parametro d\'azione non valido.';
 $string['invalidhost'] = 'Devi inserire un identificatore host valido';
@@ -92,13 +96,17 @@ $string['keymismatch'] = 'La chiave pubblica che hai di questo host è different
 $string['last_connect_time'] = 'Ora ultima connessione';
 $string['last_connect_time_help'] = 'L\'ora della tua ultima connessione a tale host.';
 $string['last_transport_help'] = 'Il trasporto usato nella tua ultima connessione a tale host.';
+$string['listservices'] = 'Elenca servizi';
 $string['loginlinkmnetuser'] = '<br/>Se sei un utente remoto di Moodle Network e puoi <a href=\"$a\">confermare qui il tuo indirizzo email</a>, puoi essere ridiretto alla tua pagina di login.<br/>';
 $string['logs'] = 'logs';
+$string['method'] = 'Metodo';
+$string['methodsavailableonhost'] = 'Metodi disponibili su $a';
 $string['mnet'] = 'Moodle Networking';
 $string['mnet_concatenate_strings'] = 'Concatena (fino a) 3 stringhe e riporta il risultato';
 $string['mnet_session_prohibited'] = 'Agli utenti del tuo server non è al momento consentito di accedere a $a.';
 $string['mnetdisabled'] = 'Moodle Network è <strong>disabilitato</strong>.';
 $string['mnetenrol'] = 'Iscrizioni';
+$string['mnetidprovider'] = 'Provider MNET ID';
 $string['mnetlog'] = 'Log';
 $string['mnetpeers'] = 'Nodi';
 $string['mnetservices'] = 'Servizi';
@@ -106,6 +114,7 @@ $string['mnetsettings'] = 'Impostazioni Moodle Network';
 $string['mnetthemes'] = 'Temi';
 $string['moodle_home_help'] = 'Il percorso alla homepage di Moodle sul host remoto, per es. /moodle/';
 $string['moodleloc'] = 'Indirizzo Moodle';
+$string['name'] = 'Nome';
 $string['net'] = 'Networking';
 $string['networksettings'] = 'Importazioni networking';
 $string['never'] = 'Mai';
@@ -131,10 +140,14 @@ $string['notpermittedtojump'] = 'Non hai il permesso di iniziare una sessione re
 $string['notpermittedtoland'] = 'Non hai il permesso di iniziare una sessione remota.';
 $string['off'] = 'Off';
 $string['on'] = 'On';
+$string['options'] = 'Opzioni';
 $string['otherenrolledusers'] = 'Altri utenti iscritti.';
 $string['permittedtransports'] = 'Trasporti permessi';
 $string['phperror'] = 'Un errore PHP interno ha impedito di soddisfare la tua richiesta.';
+$string['position'] = 'Posizione';
 $string['postrequired'] = 'La funzione di eliminazione richiede una richiesta POST.';
+$string['profileexportfields'] = 'Campi da inviare';
+$string['profileimportfields'] = 'Campi da importare';
 $string['promiscuous'] = 'Promiscuo';
 $string['publickey'] = 'Chiave pubblica';
 $string['publickey_help'] = 'La chiave pubblica viene ottenuta automaticamente dal server remoto.';
@@ -156,6 +169,9 @@ $string['reviewhostdetails'] = 'Rivedi Dettagli Host';
 $string['reviewhostservices'] = 'Rivedi Servizi Host';
 $string['selectaccesslevel'] = 'Seleziona un livello d\'accesso dalla lista.';
 $string['selectahost'] = 'Scegli un host Moodle remoto.';
+$string['service'] = 'Nome servizio';
+$string['serviceid'] = 'ID Servizio';
+$string['servicesavailableonhost'] = 'Servizi disponibili su $a';
 $string['serviceswepublish'] = 'Servizi che rendiamo pubblici a $a.';
 $string['serviceswesubscribeto'] = 'Servizi su $a cui siamo iscritti.';
 $string['settings'] = 'Impostazioni';
@@ -177,6 +193,8 @@ $string['trustedhosts'] = 'Host XML-RPC';
 $string['trustedhostsexplain'] = '<p>Il meccanismo di abilitazione degli host permette a specifiche macchine di effettuare chiamate via XML-RPC a qualunque API di Moodle. Grazie a questa <b>opzione molto pericolosa</b> da abilitare, script esterni possono controllare il comportamento di Moodle. Se hai qualche dubbio, tienila disattivata.</p>
 <p><strong>Non è</strong> necessaria per il funzionamento di Moodle Networking.</p>
 <p>Per abilitarla, inserisci una lista di indirizzi IP o reti, uno per ogni riga. Alcuni esempi:</p>Il tuo host locale:<br/>127.0.0.1<br/>Il tuo host locale (con un blocco di rete):<br/>127.0.0.1/32<br/>Solo l\'host con l\'indirizzo IP 192.168.0.7:<br/>192.168.0.7/32<br/>Ogni host con indirizzo IP compreso tra 192.168.0.1 e 192.168.0.255:<br/>192.168.0.0/24<br/>Qualunque host:<br/>192.168.0.0/0<br/>Ovviamente l\'ultimo esempio <b>non é</b> una configurazione raccomandata.';
+$string['type'] = 'Tipo';
+$string['unknown'] = 'Sconosciuto';
 $string['unknownerror'] = 'Si è verificato un errore sconosciuto durante la negoziazione.';
 $string['usercannotchangepassword'] = 'Non puoi cambiare la tua password qui poiché sei un utente remoto.';
 $string['userchangepasswordlink'] = '</br>Puoi cambiare la tua password presso il tuo provider <a href=\"$a->wwwroot/login/change_password.php\">$a->description</a>.';

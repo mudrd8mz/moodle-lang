@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20100210) (2010020700)
+      // role.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
@@ -202,6 +202,7 @@ $string['resetrolenolegacy'] = 'Annulla le autorizzazioni';
 $string['resetrolesure'] = 'Sei sicuro di voler ripristinare i defaults del ruolo \"<b>$a->name ($a->shortname)</b>\"?<p></p>I defaults sono presi dai privilegi del tipo di ruolo origine selezionato (<b>$a->legacytype</b>).';
 $string['resetrolesurenolegacy'] = 'Sei sicuro di voler azzerare tutte le autorizzazioni definite in questo ruolo  \"<b>$a->name ($a->shortname)</b>\"?';
 $string['restore:createuser'] = 'Creare utenti durante il ripristino';
+$string['restore:rolldates'] = 'Posticipare date di attività durante il ripristino';
 $string['restore:userinfo'] = 'Ripristinare dati utente';
 $string['risks'] = 'Rischi';
 $string['role:assign'] = 'Assegnare ruoli agli utenti';

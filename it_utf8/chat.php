@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // chat.php - created with Moodle 2.0 dev (Build: 20091102) (2009103000)
+      // chat.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['ajax'] = 'Versione Ajax';
@@ -41,6 +41,9 @@ $string['helpchatting'] = 'Aiuto per la chat';
 $string['idle'] = 'Inattivo';
 $string['inputarea'] = 'Area di input';
 $string['invalidid'] = 'Non è stato possibile trovare la chat!';
+$string['list_all_sessions'] = 'Elenca tutte le sessioni';
+$string['list_complete_sessions'] = 'Elenca solo  le sessioni terminate';
+$string['listing_all_sessions'] = 'Elenco di tutte le sessioni';
 $string['messagebeepseveryone'] = '$a richiama tutti!';
 $string['messagebeepsyou'] = '$a ti ha richiamato!';
 $string['messageenter'] = '$a è entrato nella chat';
@@ -54,6 +57,7 @@ $string['modulename'] = 'Chat';
 $string['modulenameplural'] = 'Chat';
 $string['neverdeletemessages'] = 'Sempre';
 $string['nextsession'] = 'Prossima sessione programmata';
+$string['no_complete_sessions_found'] = 'Non ci sono sessioni terminate.';
 $string['nochat'] = 'Non sono state trovate chat';
 $string['noguests'] = 'La chat non è disponibile agli ospiti';
 $string['nomessages'] = 'Non ci sono ancora messaggi';

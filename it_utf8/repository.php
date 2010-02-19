@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
+      // repository.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['accessiblefilepicker'] = 'File picker accessibile';
@@ -66,6 +66,7 @@ $string['filenotnull'] = 'Devi selezionare il file da caricare.';
 $string['filesaved'] = 'Il file è stato slavato';
 $string['getfile'] = 'Scegli questo file';
 $string['hiddenshow'] = 'Mostra/Nascondi';
+$string['iconview'] = 'Visualizza ad icone';
 $string['instance'] = 'istanza';
 $string['instancedeleted'] = 'Istanza eliminata';
 $string['instances'] = 'Istanze di repository';
@@ -125,8 +126,9 @@ $string['updown'] = 'Ordine';
 $string['upload'] = 'Carica questo file';
 $string['uploading'] = 'Caricamento in corso...';
 $string['uploadsucc'] = 'Il file è stato caricato correttamente';
+$string['usercontextrepositorydisabled'] = 'Nel contesto utente non puoi modificare questo repository';
 $string['wrongcontext'] = 'Non puoi accedere a questo contesto';
-$string['xhtmlerror'] = 'Probabilmente state usando header XHTML strict, con le quali alcune componenti YUI non funzionano correttamente. Per favore disabilitate le componenti YUI in Moodle.';
+$string['xhtmlerror'] = 'Probabilmente stai usando header XHTML strict, con le quali alcune componenti YUI non funzionano correttamente. Per favore disabilita le componenti YUI in Moodle.';
 $string['ziped'] = 'La cartella è stata compressa correttamente';
 $string['configuseexternallink'] = 'Il file picker riporterà i link ai file esterni invece di scaricarli.'; // ORPHANED
 $string['useexternallink'] = 'Utilizza i link ai file senza scaricarli'; // ORPHANED

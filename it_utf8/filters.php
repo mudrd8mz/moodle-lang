@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // filters.php - created with Moodle 2.0 dev (Build: 20090419) (2009041700)
+      // filters.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['actfilterhdr'] = 'Filtri attivi';
@@ -29,6 +29,7 @@ $string['filtersettingsforin'] = 'Impostazione di $a->filter in $a->context';
 $string['filtersettingsin'] = 'Impostazione filtri $a';
 $string['firstaccess'] = 'Primo accesso';
 $string['globalrolelabel'] = '$a->label è $a->value';
+$string['includenever'] = 'Mai incluso';
 $string['isactive'] = 'Attivo?';
 $string['isafter'] = 'è dopo';
 $string['isanyvalue'] = 'è qualsiasi valore';

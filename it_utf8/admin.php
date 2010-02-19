@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20100105) (2010010400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20100217) (2010021400)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -11,6 +11,7 @@ $string['advancedfeatures'] = 'Funzionalità avanzate';
 $string['allcountrycodes'] = 'Tutti i codici nazione';
 $string['allowbeforeblock'] = 'L\'elenco degli indirizzi autorizzati sarà elaborato per primo';
 $string['allowbeforeblockdesc'] = 'Per default l\'elenco degli IP bloccati viene elaborato per primo. Se abilitate questa opzione, allora sarà elaborato per primo l\'elenco degli IP autorizzati.';
+$string['allowblockstodock'] = 'Consenti ai blocchi di usare il dock';
 $string['allowcategorythemes'] = 'Consenti la scelta dei temi per le categorie';
 $string['allowcoursethemes'] = 'Consenti la scelta dei temi per i corsi';
 $string['allowdeletes'] = 'Eliminazione utenti';
@@ -86,6 +87,7 @@ $string['computedfromlogs'] = 'Calcolato da log a partire da $a';
 $string['condifmodeditdefaults'] = 'I valori impostati sotto saranno i valori di default durante la creazione di nuove attività. E\' anche possibile stabilire quali impostazioni siano da considerarsi \"avanzate\".';
 $string['confeditorhidebuttons'] = 'Seleziona i pulsanti che non vanno mostrati nell\'editor HTML';
 $string['configallowassign'] = 'Tramite la matrice sottostante puoi autorizzare i ruoli elencati nella colonna verticale a sinistra ad assegnare ad altri utenti uno o più tra i ruoli presenti sulla riga di intestazione';
+$string['configallowblockstodock'] = 'Se il tema in uso supporta questa funzione, gli utenti potranno spostare i blocchi laterali nel dock.';
 $string['configallowcategorythemes'] = 'Abilitando questa opzione, i temi possono essere impostati a livello di categoria. Questo influenzerà tutte le categorie dipendenti e i relativi corsi a meno che gli stessi non abbiamo in modo specifico impostato il proprio tema. ATTENZIONE: L\'abilitazione dei temi di categoria può influenzare le prestazioni.';
 $string['configallowcoursethemes'] = 'Se abilitato, sarà  possibile impostare un tema personalizzato diverso per ogni corso. Il tema del corso avrà precedenza su ogni altra preferenza (tema di sito, tema dell\'utente, tema di sessione).';
 $string['configallowemailaddresses'] = 'Se si desidera che le email utilizzabili appartengano solo a determinati domini, è possibile elencare i domini autorizzati in questa impostazione, avendo cura di separare i domini tra loro con uno spazio. Le email che non appartengono ai domini elencati non saranno accettate. Per autorizzare anche i sotto domini, elencare il dominio precedendolo con \'.\'. Ad esempio  <strong>ourcollege.edu.au .gov.au</strong>';
@@ -166,8 +168,10 @@ $string['configenablesafebrowserintegration'] = 'L\'impostazione aggiunge l\'opz
 $string['configenablestats'] = 'Attivando le statistiche Moodle elaborerà il log con cadenza giornaliera. La durata dell\'elaborazione  dipenderà dal traffico del sito. Le statistiche permettono di visualizzare graficamente dati sui corsi e sul sito.';
 $string['configenabletrusttext'] = 'Moodle per default ripulisce attentamente tutti i testi che provengono dagli utenti per rimuovere ogni possibile script malevolo, oggetto multimediale od altro che possa mettere a repentaglio la sicurezza. Il sistema di Contenuto Affidabile è un modo per dare a particolari utenti degni di fiducia la possibilità di usare funzioni evolute nei loro contenuti senza alcuna interferenza. Per attivare il sistema dovete abilitare l\'impostazione e poi attribuire il privilegio Contenuto Affidabile ad uno specifico ruolo. I testi creati o caricati dagli utenti che hanno tale ruolo saranno contrassegnati come \"affidabili\" e non saranno ripuliti prima della visualizzazione.';
 $string['configenablewebservices'] = 'I Web service consentono agli utenti di altri sistemi di collegarsi a Moodle e di effettuare varie operazioni. Per maggiore sicurezza, abilitate i Web service solo se avete realmente bisogno di usarli.';
+$string['configenablewsdocumentation'] = 'Abilita la generazione automatica della documentazione dei web service. Un utente web service può accedere alla propria documentazione senza autenticarsi in Moodle. La documentazione visualizzata è relativa solamente ai protocolli abilitati.';
 $string['configenrolmentplugins'] = 'In questa pagina è possibile attivare una o più plugin per regolare le iscrizioni ai corsi. E\' importante curare di impostare i plugin in modo corretto.<br /><br />Potete selezionare i plugin da attivare ma ricordatevi che <strong>dovete necessariamente indicare il plugin che Moodle userà di default per le iscrizioni interattive</strong>, ossia le iscrizioni ai corsi che gli utenti autenticati possono effettuare spontaneamente. Se non desiderate che gli utenti possano iscriversi spontaneamente a determinati corsi, nelle impostazioni di questi corsi impostate a \"No\" la proprietà \"Iscrizione spontanea\".';
 $string['configerrorlevel'] = 'Scegliete il numero di messaggi di errore di PHP che si desidera visualizzare. \'Normale\' è solitamente l\'opzione migliore.';
+$string['configexcludeoldflashclients'] = 'Alcune versioni del plugin Adobe Flash player sono note per la loro vulnerabilità ad attacchi provenienti da contenuti Flash malevoli. Questa impostazione permette di stabilire la versione minima necessaria al di sotto della quale Moodle non visualizzerà contenuti Flash agli utenti. Al posto del contenuto Flash verrà visualizzato un file alternativo  con i suggerimenti per aggiornare il plugin. Per disabilitare il controllo lasciare vuota l\'impostazione.';
 $string['configexperimentalsplitrestore'] = 'Se abilitate questa impostazione, i file di backup dei corsi verranno analizzati per verificare la presenza di errori XML e saranno suddivisi in parti prima del ripristino. Questa impostazione migliora la robustezza ed il tempo di esecuzione del processo di ripristino, specialmente per backup di corsi medi e grandi.';
 $string['configextendedusernamechars'] = 'Attivate questa opzione per permettere agli studenti di utilizzare qualsiasi carattere nel loro nome utente (da notare che questo non influisce sui loro nomi reali).
 L\'impostazione predefinita limita l\'uso dei caratteri ai soli caratteri alfanumerici (esclude quindi caratteri speciali, caratteri accentati, ecc).';
@@ -447,6 +451,7 @@ $string['enablesafebrowserintegration'] = 'Abilita integrazione Safe Exam Browse
 $string['enablestats'] = 'Abilita statistiche';
 $string['enabletrusttext'] = 'Abilita Contenuto Affidabile';
 $string['enablewebservices'] = 'Abilita Web service';
+$string['enablewsdocumentation'] = 'Documentazione web service';
 $string['encoding'] = 'Codifica';
 $string['enrolmultipleusers'] = 'Iscrivi gli utenti';
 $string['environment'] = 'Ambiente';
@@ -469,6 +474,7 @@ $string['errorsetting'] = 'Non è possibile salvare l\'impostazione:';
 $string['errorwithsettings'] = 'Alcune impostazioni non saranno cambiate a causa di un errore:';
 $string['everyonewhocan'] = 'Chiunque possa \'$a\'';
 $string['exceptions'] = 'eccezioni';
+$string['excludeoldflashclients'] = 'Versione minima Flash player';
 $string['experimental'] = 'Sperimentale';
 $string['experimentalsettings'] = 'Impostazioni sperimentali';
 $string['experimentalsplitrestore'] = 'Ripristino frazionato sperimentale';
@@ -864,6 +870,7 @@ $string['tablenosave'] = 'Le modifiche apportate nella tabella soprastante saran
 $string['tablesnosave'] = 'Le modifiche apportate nelle tabelle soprastanti saranno salvate automaticamente.';
 $string['tabselectedtofront'] = 'Nelle tabelle con tab, il tab selezionato deve essere portato in primo piano?';
 $string['tabselectedtofronttext'] = 'Porta in primo piano il tab selezionato';
+$string['themedesignermode'] = 'Modalità Theme designer';
 $string['themelist'] = 'Elenco temi';
 $string['themeselector'] = 'Selezione tema';
 $string['themesettings'] = 'Impostazioni tema';
@@ -899,16 +906,15 @@ $string['upgradelogs'] = 'Per la piena funzionalità, i vostri vecchi log devono
 $string['upgradelogsinfo'] = 'Alcune modifiche hanno cambiato il modo in cui vengono salvati alcuni log. Per poter visualizzare tutti i vecchi log su una base di per-attività , è necessario aggiornarli. In base al tuo sito questa operazione può richiedere molto tempo (es alcune ore) e può essere grosso lavoro per la base dati dei siti grandi. Una volta che l\'aggiornamento è iniziato devi lasciarlo terminare (mantenendo la finestra del browser aperta). Non preoccuparti - il tuo sito continuerà  a lavorare correttamente mentre i log vengono aggiornati.<br /><br />Vuoi aggiornare i log ora?';
 $string['upgradesettings'] = 'Nuove impostazioni';
 $string['upgradesettingsintro'] = 'Le impostazioni sotto elencate sono state aggiunte durante l\'ultimo aggiornamento di Moodle. Apportare tutti i cambiamenti necessari ai valori default e poi cliccare su \"Salva modifiche\" in fondo a questa pagina';
-$string['upgradesure'] = 'I file di Moodle sono modificati, e si sta per aggiornare automaticamente la versione del server alla seguente versione:
-<p><b>$a</b></p>
-<p>Una volta effettuato questo non è possibile tornare indietro.</p>
-<p>Siete sicuri di voler aggiornare questo server a questa versione?</p>';
-$string['upgradetimedout'] = 'L\'upgrade è andato in timeout. Per favore riavviate l\'upgrade.';
+$string['upgradesure'] = 'I file di Moodle sono stati aggornati alla versione:
+<p><strong>$a</strong></p>
+<p>Si sta per procedere all\'aggiornamento automatico del server a tale versione. Una volta effettuato questo aggiornamento non sarà  possibile tornare indietro.<br />Desideri procedere?</p>';
+$string['upgradetimedout'] = 'L\'aggiornamento è andato in timeout. Per favore riavvia l\'aggiornamento.';
 $string['upgradingdata'] = 'Aggiornamento dei dati';
 $string['upgradinglogs'] = 'Aggiornamento dei log';
 $string['upgradingversion'] = 'Aggiornamento alla nuova versione';
 $string['uploadpicture_baduserfield'] = 'L\'attributo utente specificato non è valido. Provare ancora.';
-$string['uploadpicture_cannotmovezip'] = 'Un file zip non può essere spostato in una directory temporanea.';
+$string['uploadpicture_cannotmovezip'] = 'Un file zip non può essere spostato in una cartella temporanea.';
 $string['uploadpicture_cannotprocessdir'] = 'Non è stato possibile elaborare il file zip decompresso.';
 $string['uploadpicture_cannotsave'] = 'Non è stato possibile salvare l\'immagine dell\'utente $a. Controllate le caratteristiche dell\'immagine.';
 $string['uploadpicture_cannotunzip'] = 'Non è possibile decomprimere il file zip contenente le immagini.';

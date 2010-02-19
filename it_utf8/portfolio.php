@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // portfolio.php - created with Moodle 2.0 dev (Build: 20100104) (2010010300)
+      // portfolio.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['activeexport'] = 'Decisioni sulle esportazioni già in corso';
@@ -48,6 +48,7 @@ $string['failedtopackage'] = 'Non è stato possibile trovare file da impacchetta
 $string['failedtosendpackage'] = 'Non è stato possibile trasferire dati nel portfolio scelto: l\'errore è $a';
 $string['filedenied'] = 'L\'accesso a questo file è stato negato';
 $string['filenotfound'] = 'File non trovato';
+$string['fileoutputnotsupported'] = 'La riscrittura del file di output non è supportata per questo formato';
 $string['format_document'] = 'Documento';
 $string['format_file'] = 'File';
 $string['format_image'] = 'Immagine';

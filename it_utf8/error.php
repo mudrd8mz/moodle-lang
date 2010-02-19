@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20091117) (2009111800)
+      // error.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['TODO'] = 'TODO';
@@ -271,7 +271,7 @@ $string['invalidmodule'] = 'Modulo non valido';
 $string['invalidmoduleid'] = 'ID modulo non valido: $a';
 $string['invalidmodulename'] = 'Nome modulo non valido: $a';
 $string['invalidnum'] = 'Valore numerico non valido';
-$string['invalidnumkey'] = 'L\'array $condition non può contenere chiavi numeriche, per favore correggete il codice!';
+$string['invalidnumkey'] = 'L\'array \$condition non può contenere chiavi numeriche, per favore correggete il codice!';
 $string['invalidoutcome'] = 'Id obiettivo errata';
 $string['invalidpagesize'] = 'Dimensione pagina non valida';
 $string['invalidpaymentmethod'] = 'Metodo di pagamento non valido: $a';
@@ -332,6 +332,7 @@ $string['needcoursecategroyid'] = 'E\' necessario specificare la id del corso o 
 $string['needphpext'] = 'Devi aggiungere il supporto $a alla tua installazione PHP';
 $string['noadmins'] = 'Non ci sono amministratori!';
 $string['noblocks'] = 'Non sono stati trovati blocchi!';
+$string['nocapabilitytousethisservice'] = 'L\'utente non possiede il privilegio necessario per utilizzare questo servizio';
 $string['nocategorydelete'] = 'Non è possibile eliminare la categoria \'$a\'';
 $string['nocontext'] = 'Spiacente, ma quel corso non è un contesto valido';
 $string['nodata'] = 'Non ci sono dati';
@@ -394,10 +395,10 @@ $string['restricteduser'] = 'Spiacente, ma il suo account corrente  \"$a\" non h
 $string['reverseproxyabused'] = 'Spiacente ma il server non può essere raggiunto direttamente, è stato abilitato un reverse proxy.<br />Per favore contattate l\'amministratore del server.';
 $string['rpcerror'] = 'RPC enrol/mnet/available_courses: ($a)';
 $string['scheduledbackupsdisabled'] = 'I backup periodici sono stati disabilitati dall\'amministratore del server.';
-$string['searchableselectorcannotbemultiple'] = 'Il form element searchableselector non può essere multiplo. Rimuovere l\'attributo \'multiple\' dalla chiamata.';
 $string['secretalreadyused'] = 'Il link di conferma cambio password è già stato utilizzato, la password non è stata cambiata';
 $string['sectionnotexist'] = 'Questa sezione non esiste';
 $string['sendmessage'] = 'Invia messaggio';
+$string['servicedonotexist'] = 'Il servizio non esiste';
 $string['sessioncookiesdisable'] = 'E\' stato rilevato un uso errato di require_key_login() - i cookie di sessione devono essere disabilitati!';
 $string['sessiondiskfull'] = 'La partizione contenente le sessioni è piena. Al momento non è possibile autenticarsi.<br /><br />Per favore avvertite l\'amministratore del server.';
 $string['sessionerroruser'] = 'La sessione è scaduta o è stato rilevato un errore. Si prega effettuare nuovamente il login.';
@@ -420,6 +421,7 @@ $string['tagdisabled'] = 'I tag non sono abilitati!';
 $string['tagnotfound'] = 'Il tag specificato non è stato trovato nel database';
 $string['targetdatabasenotempty'] = 'Il database destinazione non è vuoto. Per sicurezza il trasferimento è stato interrotto.';
 $string['themenotinstall'] = 'Questo tema non è installato!';
+$string['tokenalreadyexist'] = 'Il token generato è già esistente, riprova.';
 $string['transactionvoid'] = 'La transazione non può essere annullata in quanto è già stata annullata';
 $string['unenrolerror'] = 'Si è verificato un errore durante la disiscrizione dei quella persona';
 $string['unicodeupgradeerror'] = 'Spiacente, ma la vostra base di dati non è ancora in  Unicode, e questa versioen di Moodle non è in grado di migrare la vostra base di dati in Unicode. Si prega di aggiornare a Moodle 1.7.x prima ed effettuare la migrazione a Unicode dalla pagina di Amministrazione. Fatto questo vi sarà possibile migrare a Moodle $a';
@@ -485,6 +487,7 @@ $string['wwwrootslash'] = 'E\' stato individuata una \$CFG->wwwroot errata nel f
 $string['xmldberror'] = 'Errore XMLDB!';
 $string['youcannotdeletecategory'] = 'Non puoi eliminare la categoria \'$a\" poiché non puoi cancellarne i contenuti né spostarli altrove.';
 $string['younotteacher'] = 'Non sei un docente!';
+$string['searchableselectorcannotbemultiple'] = 'Il form element searchableselector non può essere multiplo. Rimuovere l\'attributo \'multiple\' dalla chiamata.'; // ORPHANED
 $string['wscouldnotcreateeusernopermission'] = 'WS - Non è stato possibile creare l\'utente - Mancanza di autorizzazioni'; // ORPHANED
 $string['wscouldnotdeletenoexistinguser'] = 'WS - Non è stato possibile eliminare l\'utente - L\'utente non esiste'; // ORPHANED
 $string['wscouldnotdeleteusernopermission'] = 'WS - Non è stato possibile eliminare l\'utente - Mancanza di autorizzazioni'; // ORPHANED

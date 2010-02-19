@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20091110) (2009110605)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -23,6 +23,7 @@ $string['addactivity'] = 'Aggiungi un\'attività ...';
 $string['addadmin'] = 'Aggiungi amministratore';
 $string['addblock'] = 'Aggiungi un blocco';
 $string['addcomment'] = 'Scrivi un commento...';
+$string['addcountertousername'] = 'Crea gli utenti aggiungendo un numero allo username';
 $string['addcreator'] = 'Aggiungi creatore corsi';
 $string['adddots'] = 'Aggiungi...';
 $string['added'] = 'Aggiunto $a';
@@ -165,7 +166,9 @@ $string['backuplogdetailed'] = 'Log dettagliato';
 $string['backuploglaststatus'] = 'Ultimo log';
 $string['backuplogshelp'] = 'Se abilitato, i log del corso saranno inclusi nelle copie di sicurezza automatiche';
 $string['backupmetacoursehelp'] = 'Se abilitato, allora le informazioni del metacorso (iscrizioni ereditate) saranno incluse nei backup automatici';
+$string['backupmissinguserinfoperms'] = 'Nota: questo backup non contiene dati utente. Le attività Esercizio e workshop non saranno incluse nel backup poiché queste attività non sono compatibili con i backup privi di dati utente.';
 $string['backupnameformat'] = '%%Y%%m%%d-%%H%%M';
+$string['backupnext'] = 'Prossimo backup';
 $string['backupnoneusersinfo'] = 'Avvertenza: Hai selezionato di \"non\" effettuare il backup degli utenti, quindi le impostazioni di backup dei moduli sono state cambiate nella modalità  \"senza i dati utente\". Nota che i moduli esercizio e workshop non sono compatibili con questa impostazione e pertanto, ove presenti,  sono stati esclusi da questo backup.';
 $string['backupnonisowarning'] = 'Attenzione: questo backup proviene da una versione di Moodle (pre 1.6) non-Unicode. Se il backup contiene qualche testo non-ISO-8859-1, questo potrebbe essere ALTERATO se ne viene fatto il ripristino sulla presente versione Unicode di Moodle. Leggere <a href=\"http://docs.moodle.org/en/Backup_FAQ\">Backup FAQ</a> per maggiori informazioni su come ripristinare correttamente questo backup.';
 $string['backuporiginalname'] = 'Nome backup';
@@ -669,6 +672,8 @@ $string['firstaccess'] = 'Primo accesso';
 $string['firstdayofweek'] = '0';
 $string['firstname'] = 'Nome';
 $string['firsttime'] = 'È la prima volta che accedi qui?';
+$string['flashlinkmessage'] = 'Aggiorna Flash player adesso:';
+$string['flashupgrademessage'] = 'Per visualizzare il contenuto è necessario il plugin Flash player, tuttavia la tua versione è troppo antiquata. Dovresti scollegarti, aggiornare il plugin e ricollegarti.';
 $string['folder'] = 'Cartella';
 $string['folderclosed'] = 'Cartella chiusa';
 $string['folderopened'] = 'Cartella aperta';
@@ -679,7 +684,9 @@ $string['forcedmode'] = 'Modo forzato';
 $string['forcelanguage'] = 'Forza lingua';
 $string['forceno'] = 'Non forzare';
 $string['forcepasswordchange'] = 'Forza il cambiamento della password';
+$string['forcepasswordchangecheckfull'] = 'Sei sicuro di voler obbligare $a a cambiare la password ?';
 $string['forcepasswordchangehelp'] = 'Obbliga l\'utente a cambiare la password al prossimo accesso';
+$string['forcepasswordchangenot'] = 'Non è stato possibile obbligare il cambio di password per $a';
 $string['forcepasswordchangenotice'] = 'È necessario cambiare la password per proseguire.';
 $string['forcetheme'] = 'Tema obbligato';
 $string['forgotaccount'] = 'Hai dimenticato la password?';
@@ -732,12 +739,20 @@ $string['gotoyourserver'] = '(Torna al tuo server)';
 $string['gpl'] = 'Copyright (C) dal 1999 in poi  Martin Dougiamas 
 (http://moodle.com)
 
-Questo programma è gratuito; puoi ridistribuirlo e/o modificarlo alle condizioni previste dal GNU General Public License così come pubblicate dalla \'Free Software Foundation\'; sia la versione 2 della Licenza che, (a tua scelta) ogni versione successiva.
+Questo programma è software libero; puoi ridistribuirlo e/o modificarlo secondo le condizioni previste dalla licenza GNU General Public License  pubblicata dalla \'Free Software Foundation\'; versione 2 della Licenza oppure, (a tua scelta) qualsiasi versione successiva.
 
-Questo programma è distribuito con la speranza che possa essere utile, ma SENZA ALCUNA GARANZIA; senza neanche la garanzia implicita di COMMERCIABILITÀ o di IDONEITÀ PER UNO SCOPO PRECISO. 
+Questo programma è distribuito con la speranza che possa essere utile, ma SENZA ALCUNA GARANZIA; ivi inclusa la garanzia implicita di COMMERCIABILITÀ o di IDONEITÀ PER UN USO SPECIFICO. 
 
-Si legga la pagina informativa sulla Licenza Moodle per i dettagli:
+Per maggiori dettagli leggere la pagina informativa sulla Licenza Moodle:
+http://docs.moodle.org/en/License';
+$string['gpl3'] = 'Copyright (C) dal 1999 in poi  Martin Dougiamas 
+(http://moodle.com)
 
+Questo programma è software libero; puoi ridistribuirlo e/o modificarlo secondo le condizioni previste dalla licenza GNU General Public License  pubblicata dalla \'Free Software Foundation\'; versione 3 della Licenza oppure, (a tua scelta) qualsiasi versione successiva.
+
+Questo programma è distribuito con la speranza che possa essere utile, ma SENZA ALCUNA GARANZIA; ivi inclusa la garanzia implicita di COMMERCIABILITÀ o di IDONEITÀ PER UN USO SPECIFICO. 
+
+Per maggiori dettagli leggere la pagina informativa sulla Licenza Moodle:
 http://docs.moodle.org/en/License';
 $string['grade'] = 'Valutazione';
 $string['grades'] = 'Valutazioni';
@@ -858,6 +873,8 @@ $string['interests'] = 'Interessi';
 $string['interestslist'] = 'Elenco interessi';
 $string['invalidemail'] = 'Indirizzo email non valido';
 $string['invalidlogin'] = 'Login errato, riprova';
+$string['invalidusername'] = 'Lo username può contenere solamente caratteri alfanumerici minuscoli, trattino basso (_), segno meno (-), punto (.) ed il simbolo \'at\' (@)';
+$string['invalidusernameupload'] = 'Username non valido';
 $string['ip_address'] = 'Indirizzo IP';
 $string['jump'] = 'Vai';
 $string['jumpto'] = 'Vai a...';
@@ -885,6 +902,9 @@ $string['listofallpeople'] = 'Elenco di tutte le persone';
 $string['livelogs'] = 'Live log dell\'ultima ora';
 $string['local'] = 'Locale';
 $string['locale'] = 'it_IT.UTF-8';
+$string['localplugindeleteconfirm'] = 'Stai per eliminare il pugin \'{$a}\'. Tutti i dati nel database andranno perduti. Intendi procedere?';
+$string['localplugins'] = 'Plugin locali';
+$string['localpluginsmanage'] = 'Gestione plugin locali';
 $string['location'] = 'File o sito web';
 $string['log_excel_date_format'] = 'yyyy mmmm d h:mm';
 $string['loggedinas'] = 'Sei collegato come $a.';
@@ -1010,7 +1030,6 @@ $string['moreinformation'] = 'Maggiori informazioni su questo errore';
 $string['moreprofileinfoneeded'] = 'Per cortesia, dicci di più su te stesso';
 $string['mostrecently'] = 'più recentemente';
 $string['move'] = 'Sposta';
-$string['moveallsidetabstoblock'] = 'Riporta a blocco tutti i pannelli laterali';
 $string['movecategorycontentto'] = 'Sposta in';
 $string['movecategoryto'] = 'Sposta categoria in:';
 $string['movecontentstoanothercategory'] = 'Sposta i corsi in un altra categoria';
@@ -1029,6 +1048,8 @@ $string['msnid'] = 'MSN ID';
 $string['mustchangepassword'] = 'La nuova password deve essere diversa da quella che hai scelto';
 $string['mustconfirm'] = 'È necessario confermare il tuo accesso';
 $string['mycourses'] = 'I miei corsi';
+$string['mymoodledashboard'] = 'Dashboard My Moodle';
+$string['myprofile'] = 'Il mio profilo';
 $string['name'] = 'Nome';
 $string['namelams'] = 'LAMS';
 $string['namescorm'] = 'SCORM';
@@ -1091,6 +1112,7 @@ $string['no'] = 'No';
 $string['noblockstoaddhere'] = 'Non ci sono blocchi da aggiungere alla pagina';
 $string['nobody'] = 'Nessuno';
 $string['nochange'] = 'Nessun cambiamento';
+$string['nocourses'] = 'Nessun corso';
 $string['nocoursesfound'] = 'Non è stato trovato nessun corso contente \'$a\'';
 $string['nocoursesyet'] = 'Nessun corso in questa categoria';
 $string['nodstpresets'] = 'L\'amministratore non ha attivato il supporto per l\'ora legale.';
@@ -1134,6 +1156,7 @@ $string['noteachersyet'] = 'Non ci sono ancora docenti in questo corso';
 $string['notenrollable'] = 'Al momento non è possibile iscriversi al corso.';
 $string['notenrolled'] = '$a non è iscritto a questo corso.';
 $string['notenrolledprofile'] = 'Questo profilo non è disponibile perché questo utente non è iscritto a questo corso.';
+$string['noteusercannotrolldatesoncontext'] = '<strong>Nota:</strong> La possibilità di posticipare date di attività durante il ripristino è stato disabilitato poiché non possiedi questo privilegio.';
 $string['noteuserschangednonetocourse'] = 'Nota: devono essere recuperati gli studenti del corso quando vengono recuperati i dati degli utenti. Questa configurazione è stata cambiata per te.';
 $string['nothingnew'] = 'Nessuna novità dal tuo ultimo login';
 $string['nothingtodisplay'] = 'Non c\'è niente da visualizzare';
@@ -1221,9 +1244,11 @@ $string['pictureof'] = 'Immagine $a';
 $string['pleaseclose'] = 'Si prega di chiudere questa finestra adesso.';
 $string['pleasesearchmore'] = 'Per favore cercate ancora';
 $string['pleaseusesearch'] = 'Per favore usate la ricerca';
-$string['plugincheck'] = 'Controllo delle plugin';
+$string['plugin'] = 'Plugin';
+$string['plugincheck'] = 'Controllo dei plugin';
 $string['pluginchecknotice'] = 'Le tabelle che seguono mostrano i moduli, i blocchi ed i filtri individuati nella vostra installazione di Moodle.
 Nelle tabelle sono indicati anche quali plugin sono standard e quali non lo sono. Prima di proseguire con l\'aggiornamento di Moodle, tutti i plugin che non sono standard dovrebbero essere controllati ed aggiornati alla più recente versione disponibile.';
+$string['plugindeletefiles'] = 'Tutti i dati relativi al plugin \'{$a->name}\' sono stati eliminati dal database. Per evitare che il plugin si installi nuovamente da solo, devi rimuovere questa cartella dal tuo server: {$a->directory}';
 $string['pluginsetup'] = 'Impostazione tabelle plugin';
 $string['policyaccept'] = 'Ho letto le condizioni e le accetto';
 $string['policyagree'] = 'Per continuare ad usare questo sito, è necessario accettare le condizioni riportate.';
@@ -1299,6 +1324,7 @@ $string['reports'] = 'Report';
 $string['repositories'] = 'Repository';
 $string['requestcourse'] = 'Richiedi l\'attivazione di un corso';
 $string['requestedby'] = 'Richiesto da';
+$string['requestedcourses'] = 'Corsi richesti';
 $string['requestreason'] = 'Motivazione della richiesta del corso';
 $string['required'] = 'Necessario';
 $string['requireskey'] = 'Questo corso richiede una chiave di iscrizione';
@@ -1317,11 +1343,18 @@ $string['resource'] = 'Risorsa';
 $string['resources'] = 'Risorse';
 $string['restore'] = 'Ripristina';
 $string['restorecancelled'] = 'Recupero annullato';
+$string['restorecannotcreateuser'] = 'Il ripristino deve creare l\'utente \'$a\' ma non hai il permesso di farlo.';
 $string['restorecoursenow'] = 'Recupera questo corso ora!';
+$string['restoredaccount'] = 'Account ripristinato';
+$string['restoredaccountinfo'] = 'Questo account è stato importato da un altro server e la password è stata perduta. Per impostare una nuova password tramite email, fai click su \"Continua\"';
 $string['restorefinished'] = 'Recupero completato con successo';
 $string['restoreto'] = 'Recupera a';
 $string['restoretositeadding'] = 'Attenzione: state per ripristinare la pagina home del sito in modalità aggiunta dati!';
 $string['restoretositedeleting'] = 'Attenzione: state per ripristinare la pagina home del sito in modalità eliminazione dati esistenti!';
+$string['restoreuserconflict'] = 'Tentare di ripristinare l\'utente \'$a\' causerà dei conflitti';
+$string['restoreuserinfofailed'] = 'Il ripristino è stato interrotto poiché non hai il permesso di ripristinare dati utente.';
+$string['restoreusersprecheck'] = 'Controllo dati utente';
+$string['restoreusersprecheckerror'] = 'Si sono verificati alcuni problemi durante il controllo dei dati utente';
 $string['restricted'] = 'Ridotto';
 $string['restrictmodules'] = 'Ridurre moduli attività?';
 $string['returningtosite'] = 'Ciao, sei ritornato?';
@@ -1611,9 +1644,13 @@ $string['uploadedfileto'] = 'File $a->file salvato nella directory $a->directory
 $string['uploadedfiletoobig'] = 'Spiacente, ma questo file è troppo grande (il limite è $a byte)';
 $string['uploadextension'] = 'Upload interrotto a causa dell\'estensione del file';
 $string['uploadfailednotrecovering'] = 'L\'invio del file è fallito perché c\'è stato un problema con uno dei file, $a->name.<br />Qui c\'è il log dei problemi:<br />$a->problem<br />Non recuperabile.';
+$string['uploadfilecontainerror'] = 'Il file caricato non è stato elaborato a causa di uno o più errori. Modificare il file prima di caricarlo di nuovo.';
+$string['uploadfilecontentsnovaliddata'] = 'Il file caricato non contiene dati validi';
 $string['uploadfilelog'] = 'Upload del log per il file  $a';
 $string['uploadformlimit'] = 'Il file caricato eccede la dimensione massima impostata per il modulo';
+$string['uploadinvalidpreprocessedcount'] = 'Numero di record pre elaborati ma non validi: $a';
 $string['uploadlabel'] = 'Titolo:';
+$string['uploadnewfile'] = 'Carica un nuovo file';
 $string['uploadnofilefound'] = 'Non è stato trovato alcun file. Sei sicuro di averne selezionato uno per l\'upload?';
 $string['uploadnotallowed'] = 'Gli upload di file non sono consentiti';
 $string['uploadnotempdir'] = 'Manca una cartella temporanea';
@@ -1653,7 +1690,8 @@ $string['userselectorsearchanywhere'] = 'Cerca corrispondenze dei criteri di ric
 $string['usersnew'] = 'Nuovi utenti';
 $string['usersnoaccesssince'] = 'Visualizza gli utenti che sono stati inattivi per più di';
 $string['userswithfiles'] = 'Utenti con file';
-$string['userviewingsettings'] = 'Profilo di $a';
+$string['useruploadtype'] = 'Tipo caricamento utente: $a';
+$string['userviewingsettings'] = 'Impostazioni profilo per $a';
 $string['userzones'] = 'Zone utenti';
 $string['usethiscourse'] = 'Utilizza questo corso';
 $string['usingexistingcourse'] = 'Utilizza un corso già esistente';
@@ -1741,6 +1779,7 @@ $string['yourself'] = 'te stesso';
 $string['yourteacher'] = 'il tuo $a';
 $string['yourwordforx'] = 'Denomina il ruolo \'$a\' come';
 $string['zippingbackup'] = 'Compressione Backup';
+$string['moveallsidetabstoblock'] = 'Riporta a blocco tutti i pannelli laterali'; // ORPHANED
 $string['userprofilefor'] = 'Profilo utente di $a'; // ORPHANED
 $string['viewmyprofile'] = 'Visualizza'; // ORPHANED
 

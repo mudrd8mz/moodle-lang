@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 2.0 dev (Build: 20091028) (2009102700)
+      // grades.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
 
 
 $string['activities'] = 'Attività';
@@ -288,6 +288,10 @@ $string['hidelocks'] = 'Nascondi icona blocca/sblocca';
 $string['hidenooutcomes'] = 'Mostra obiettivi';
 $string['hidequickfeedback'] = 'Nascondi Feedback rapido';
 $string['hideranges'] = 'Nascondi intervalli';
+$string['hidetotalifhiddenitems'] = 'Nascondere i totali se contengono elementi nascosti?';
+$string['hidetotalifhiddenitemsdescription'] = 'Nascondere i totali se contengono uno o più elementi nascosti?';
+$string['hidetotalshowexhiddenitems'] = 'Visualizza i totali escludendo gli elementi nascosti';
+$string['hidetotalshowinchiddenitems'] = 'Visualizza i totali inclusivi di elementi nascosti';
 $string['hideverbose'] = 'Nascondi $a->category$a->itemmodule $a->itemname';
 $string['highgradeascending'] = 'Ordina per voti alti crescenti';
 $string['highgradedescending'] = 'Ordinamento decrescente dei voti migliori';
