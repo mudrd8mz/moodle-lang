@@ -18,7 +18,7 @@ $string['auth_ldap_contexts_key'] = 'Kontexty';
 $string['auth_ldap_create_context'] = 'Ak umožníte vytváranie používateľov s emailovým potvrdzovaním, špecifikujte kontext, kde budú používatelia vytvorení. Tento kontext by mal byť iný, ako pre ostatných používateľov, v záujme bezpečnosti. Nepotrebujete pridať tento kontext do premennej ldap-context, Moodle bude vyhľadávať používateľov z tohto kontextu automaticky.<br />
 <b>Pozor!</b> Musíte upraviť funkciu auth_user_create() v súbore auth/ldap/lib.php, aby mohli byť takýmto spôsobom vytváraní noví používatelia.';
 $string['auth_ldap_create_context_key'] = 'Kontexty pre nových používateľov';
-$string['auth_ldap_create_error'] = 'Chyb pri vytváraní používateľov v LDAP.';
+$string['auth_ldap_create_error'] = 'Chyba pri vytváraní používateľov v LDAP.';
 $string['auth_ldap_creators'] = 'Zoznam skupín, ktorých členovia majú povolené vytvárať nové kurzy. Jednotlivé skupiny oddeľujte bodkočiarkou. Obyčajne niečo ako cn=ucitelia,ou=ostatni,o=univ\'';
 $string['auth_ldap_creators_key'] = 'Tvorcovia';
 $string['auth_ldap_expiration_desc'] = 'Vyberte si \'Nie\', aby sa deaktivovalo kontrolovanie neaktívneho hesla alebo LDAP na čítanie \'passwordexpiration time\' priamo z LDAP';
@@ -29,7 +29,7 @@ $string['auth_ldap_expireattr_desc'] = 'Nepovinné: toto potlačí ldap-vlastnos
 $string['auth_ldap_expireattr_key'] = 'Atribút vypršania';
 $string['auth_ldap_graceattr_desc'] = 'Nepovinné: Potlačí vlastnosť gracelogin';
 $string['auth_ldap_gracelogin_key'] = 'Atribút \'gracelogin\'';
-$string['auth_ldap_gracelogins_desc'] = 'Umožniť podporu LDAP gracelogin (tzv. prihlásenie z milosti). Po tom, ako vyprší platnosť hesla, používateľ sa môže prihlásiť, pokým nie je hodnota gracelogin 0. Ak povolíte toto nastavenie, používatelia budú informovaní, v prípade, že im vyprší platnosť hesla.';
+$string['auth_ldap_gracelogins_desc'] = 'Umožniť podporu LDAP gracelogin (tzv. prihlásenie z milosti). Po tom, ako vyprší platnosť hesla, používateľ sa môže prihlásiť, kým nie je hodnota gracelogin 0. Ak povolíte toto nastavenie, používatelia budú informovaní, v prípade, že im vyprší platnosť hesla.';
 $string['auth_ldap_gracelogins_key'] = 'Prihlásenie z milosti';
 $string['auth_ldap_groupecreators'] = 'Zoznam skupín alebo kontextov, ktorých členovia majú právo vytvárať skupiny. Oddeľujte viaceré skupiny bodkočiarkou. Väčšinou je to niečo ako \'cn=teachers,ou=staff,o=myorg\'.';
 $string['auth_ldap_groupecreators_key'] = 'Tvorcovia skupín';
@@ -50,10 +50,10 @@ $string['auth_ldap_objectclass'] = 'Nepovinné: voľba potlačí funkciu objectC
 $string['auth_ldap_objectclass_key'] = 'Trieda objektu';
 $string['auth_ldap_opt_deref'] = 'Táto voľba určuje, ako sa zaobchádza s aliasmi pri vyhľadávaní. Vyberte jednu z nasledujúcich hodnôt: \"Nie\"(LDAP_DEREF_NEVER) alebo \"Áno\"(LDAP_DEREF_ALWAYS)';
 $string['auth_ldap_opt_deref_key'] = 'Zrušiť prepojenie s aliasmi';
-$string['auth_ldap_passtype'] = 'Upresnite formát nováho alebo zmeneného hesla v LDAP serveri.';
+$string['auth_ldap_passtype'] = 'Upresnite formát nového alebo zmeneného hesla v LDAP serveri.';
 $string['auth_ldap_passtype_key'] = 'Formát hesla';
 $string['auth_ldap_passwdexpire_settings'] = 'LDAP nastavenia pri vypršaní platnosti hesla.';
-$string['auth_ldap_preventpassindb'] = 'Má sa zabrániť ukladaniu hesiel v databáze Moodle? Ak zvolíte \"áno\", nebudú heslá v databáze ukládané.';
+$string['auth_ldap_preventpassindb'] = 'Má sa zabrániť ukladaniu hesiel v databáze Moodle? Ak zvolíte \"áno\", nebudú heslá v databáze ukladané.';
 $string['auth_ldap_preventpassindb_key'] = 'Skryť heslá';
 $string['auth_ldap_search_sub'] = 'Uveďte hodnotu <> 0, ak chcete hľadať používateľov v subkontextoch.';
 $string['auth_ldap_search_sub_key'] = 'Prehľadať subkontexty';
