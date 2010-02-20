@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 2.0 dev (Build: 20091125) (2009112400)
+      // report_security.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
 
 
 $string['check_configrw_details'] = '<p>ウェブサーバからファイルが修正されないよう、インストール後、config.phpのファイルパーミッションを変更することをお勧めします。この方法は、サーバのセキュリティを著しく向上させるものではありませんが、一般的なセキュリティ上の弱点 (exploits) をスローダウンしたり、制限することはできます。</p>';
@@ -119,7 +119,7 @@ $string['check_riskxss_warning'] = 'RISK_XSS - $a 名のユーザが信頼され
 $string['check_unsecuredataroot_details'] = '<p>datarootディレクトリは、ウェブからアクセスできないようにしてください。ウェブからアクセスできないディレクトリを使用する最良の方法は、パブリックウェブディレクトリ外のディレクトリを使用することです。</p>
 <p>あなたがディレクトリを移動した場合、それに応じて<code>config.php</code>の<code>\$CFG->dataroot</code>設定を変更してください。</p>';
 $string['check_unsecuredataroot_error'] = 'あなたのdatarootディレクトリ <code>$a</code> は、正しくない場所に配置され、ウェブにさらされた状態です!';
-$string['check_unsecuredataroot_name'] = '安全でないdataroot';
+$string['check_unsecuredataroot_name'] = '安全ではないdataroot';
 $string['check_unsecuredataroot_ok'] = 'datarootディレクトリは、ウェブからアクセスできないようにしてください。';
 $string['check_unsecuredataroot_warning'] = 'あなたのdatarootディレクトリ <code>$a</code> は、正しくない場所に配置され、ウェブにさらされた状態です。';
 $string['configuration'] = '設定';
