@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // lams.php - created with Moodle 1.8 dev (2006120700)
+      // lams.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['createSequence'] = 'צור רצף חדש';
@@ -20,6 +20,9 @@ $string['openmonitor'] = 'פתח צג LAMS';
 $string['refreshSequenceList'] = 'רענן את רשימת הרצפים';
 $string['selectExistingSequence'] = 'בחר ברצף קיים או צור רצף חדש.';
 $string['sequence'] = 'בחר רצף';
+$string['server_id'] = 'ID השרת';
+$string['server_key'] = 'מפתח השרת';
+$string['server_url'] = 'URL של השרת';
 $string['serverid'] = 'הקלד את ה-ID של השרת שנתקבל מ-<a href=http://www.lamsinternational.com target=_blank>LAMS בינלאומי</a>.';
 $string['serverkey'] = 'הקלד את מפתח השרת שהתקבל מ-<a href=http://www.lamsinternational.com target=_blank>LAMS בינלאומי</a>.';
 $string['serverurl'] = 'הקלד את כתובת ה-URL הבסיסית שמספקת כניסה לשרת של LAMS. לדוגמא: http://localhost:8080/lams';

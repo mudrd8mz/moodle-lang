@@ -59,6 +59,7 @@ $string['currentglossary'] = 'אגרון מונחים נוכחי';
 $string['date'] = 'תאריך';
 $string['dateview'] = 'עיין לפי תאריך';
 $string['defaultapproval'] = 'מאושר לפי ברירת מחדל';
+$string['defaulthook'] = 'ברירת המחדל של הוו';
 $string['defaultmode'] = 'מצב ברירת המחדל';
 $string['defaultsortkey'] = 'מפתח מיון ברירת המחדל';
 $string['defaultsortorder'] = 'מפתח סידור ברירת המחדל';

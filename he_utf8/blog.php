@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9.5 (Build: 20090513) (2007101550)
+      // blog.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['addnewentry'] = 'הוסף רשומה חדשה';
@@ -34,6 +34,7 @@ $string['notallowedtoedit'] = 'אתה לא מורשה לערוך את הרשומ
 $string['numberofentries'] = 'רשומות: $a';
 $string['numberoftags'] = 'מספר התגים להצגה';
 $string['pagesize'] = 'מספר רשומות הבלוגים שיופיעו בכל עמוד';
+$string['permalink'] = 'קישור קבע';
 $string['personalblogs'] = 'משתמשים יכולים לראות את הבלוג האישי שלהם בלבד';
 $string['publishto'] = 'פרסם ל';
 $string['publishtonoone'] = 'עצמך (טיוטא)';

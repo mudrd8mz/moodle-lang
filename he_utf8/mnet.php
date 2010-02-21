@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 1.9.4+ (Build: 20090211) (2007101540)
+      // mnet.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (self-signed)';
@@ -12,6 +12,7 @@ $string['accesslevel'] = 'רמת גישה';
 $string['addhost'] = 'הוסף מארח';
 $string['addnewhost'] = 'הוסף מארח חדש';
 $string['addtoacl'] = 'הוסף לבקרת גישה';
+$string['allhosts_no_options'] = 'כאשר צופים במארחים רבים האפשרויות לא תהיינה זמינות';
 $string['allow'] = 'הרשה';
 $string['authfail_nosessionexists'] = 'הרשאה נכשלה: מושב ה-mnet לא קיים.';
 $string['authfail_sessiontimedout'] = 'הרשאה נכשלה: זמן מושב ה-mnet חלף.';
@@ -55,6 +56,7 @@ $string['expires'] = 'יחידה תקפה';
 $string['expireyourkey'] = 'מחק את מפתח זה';
 $string['expireyourkeyexplain'] = 'Moodle מסובב את המפתחות שלל באופן אוטומטי כל 28 ימים (כברירת מחדל). ניתנת לך האפשרות לסיים את תוקף מפתח זה באופן ידני בכל זמן שתרצה. דבר זה יועיל אם מפתח זה בעמדת סכנה. תחליף לכך היווצר אוטומטית באופן מיידי.<br /> מחיקת מפתח זה לא יאפשר למשתמשי Moodle אחרים לתקשר איתך, עד שבאופן ידני תיצור קשר עם כל מנהל מערכת שיש ותספק לו את המפתח החדש שלך.';
 $string['failedaclwrite'] = 'נכשל בנסיון לכתובת לרשימת בקרת גישת MNET .';
+$string['findlogin'] = 'מצא התחברות';
 $string['forbidden-function'] = 'פונקציה זו לא אופשרה עבור RCP.';
 $string['forbidden-transport'] = 'שיטת המשלוח שהינך מנסה להשתמש לא מורשית.';
 $string['forcesavechanges'] = 'הכרח שמירת שינויים';
@@ -100,6 +102,8 @@ $string['mnet_concatenate_strings'] = 'חבר בשרשרת (עד) 3 מחרוזו
 $string['mnet_session_prohibited'] = 'משתמשים משרת הבית שלך לא מורשים כרגע לשוטט ב-$a';
 $string['mnetdisabled'] = 'Moodle Network  <strong>מנוטרל</strong>';
 $string['mnetenrol'] = 'הרשמות';
+$string['mnetidprovider'] = 'ספק MNET ID';
+$string['mnetidprovidermsg'] = 'תוכל להתחבר דרך ספק ה$a שלך.';
 $string['mnetlog'] = 'יומני מעקב';
 $string['mnetpeers'] = 'שווי מעמד';
 $string['mnetservices'] = 'שירותים';
@@ -185,7 +189,7 @@ Your local host:<br />127.0.0.1<br />Your local host (with a network block):<br 
 ברור כי הדוגמא האחרונה <strong> איננה </strong> הגדרה מומלצת.';
 $string['unknownerror'] = 'שגיאה בלתי ידועה התרחשה במהלך ההתקשרות.';
 $string['usercannotchangepassword'] = 'אינך יכול לשנות את סיסמתך כאן בגלל היותך משתמש מרוחק.';
-$string['userchangepasswordlink'] = '<br/> תוכל לשנות את סיסמתך אצל<a href=\"$a-<wwwroot/login/change_password.php\">$a-<description</a>הספק שלך';
+$string['userchangepasswordlink'] = '<br/> תוכל לשנות את סיסמתך אצל<a href=\"\$a-<wwwroot/login/change_password.php\">\$a-<description</a>הספק שלך';
 $string['usersareonline'] = 'אזהרה: $a משתמשים משרת זה מחוברים כרגע לאתר שלך.';
 $string['validated_by'] = 'מאושר ע\"י הרשת
 &nbsp;<code>$a</code>';

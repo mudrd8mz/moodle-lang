@@ -25,6 +25,7 @@ $string['aggregateoutcomes'] = 'כלול תוצאות שבצבירה';
 $string['aggregateoutcomeshelp'] = 'הכללת תוצאות בצבירה עשויה לא לתת את התוצאה הכללית הרצויה, לכן יש באפשרותך לכלול או לוותר עליהם';
 $string['aggregatesonly'] = 'רק צבירות';
 $string['aggregatesubcats'] = 'צבירה אשר כוללת תתי-קטגוריות';
+$string['aggregatesubcatshelp'] = 'הצבירה נעשית על פי רוב רק עם הצאצאים המיידיים, ניתן גם לצבור ציונים בכל קטגוריות המשנה, תוך כדי אי הכללה של ציונים נצברים אחרים.';
 $string['aggregatesum'] = 'סכום הציונים';
 $string['aggregateweightedmean'] = 'ממוצע ציונים משוקלל';
 $string['aggregateweightedmean2'] = 'ממוצע ציונים משוקלל רגיל';
