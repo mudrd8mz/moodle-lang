@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20100217) (2010021400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20100222) (2010021900)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -45,6 +45,14 @@ $string['blockmultiple'] = 'Multiplo';
 $string['blocksettings'] = 'Gestione blocchi';
 $string['bloglevel'] = 'Visibilità del Blog';
 $string['bloglevelupgrade'] = 'Aggiornamento Visibilità del Blog';
+$string['bloglevelupgradedescription'] = '<p>Il sito è stato aggiornato da poco a Moodle 2.0.</p>
+<p>In Moodle 2.0 la visibilità dei Blog è stata semplificata, tuttavia il tuo sito sta ancora utilizzando impostazioni di visibilità Blog obsolete.</p>
+<p>Per conservare la visibilità dei blog per corso e per gruppo, devi lanciare lo script di aggiornamento che creerà un forum di tipo \"blog\" in tutti i corsi dove gli iscritti hanno inserito post di blog, copiandoci poi gli interventi. </p>
+<p>I Blog verranno poi disattivati a livello di sito. Nessun intervento verrà eliminato durante l\'elaborazione dello script.</p>
+<p>Puoi lanciare lo script  accedendo alla <a href=\"$a->fixurl\">pagina di aggiornamento Blo</a>.</p>';
+$string['bloglevelupgradeinfo'] = 'In Moodle 2.0 la visibilità dei Blog è stata semplificata, tuttavia il tuo sito sta ancora utilizzando impostazioni di visibilità Blog obsolete. Per conservare la visibilità dei blog per corso e per gruppo, devi lanciare lo script di aggiornamento che creerà un forum di tipo \"blog\" in tutti i corsi dove gli iscritti hanno inserito post di blog, copiandoci poi gli interventi.I Blog verranno poi disattivati a livello di sito. Nessun intervento verrà eliminato durante l\'elaborazione dello script.';
+$string['bloglevelupgradenotice'] = 'il tuo sito sta ancora utilizzando impostazioni di visibilità Blog obsolete, si raccomanda di eseguire <a href=\"bloglevelupgrade.php\">l\'aggiornamento della visibilità blog</a>.';
+$string['bloglevelupgradeprogress'] = 'Avanzamento conversione: analizzati $a->userscount utenti, convertiti $a->blogcount interventi.';
 $string['bookmarkadded'] = 'Segnalibro aggiunto.';
 $string['bookmarkalreadyexists'] = 'Questa pagina è già presente nei tuoi segnalibri.';
 $string['bookmarkdeleted'] = 'Segnalibro eliminato.';
@@ -54,10 +62,10 @@ $string['cachetype'] = 'Tipo di cache';
 $string['calendar_weekend'] = 'Giorni del weekend';
 $string['calendarexportsalt'] = 'Seme per l\'esportazione del calendario';
 $string['calendarsettings'] = 'Calendario';
-$string['cannotdeletemissingqtype'] = 'Non è possibile eliminare il tipo di domanda \'mancante\', è necessaria al sistema.';
+$string['cannotdeletemissingqtype'] = 'Non è possibile eliminare il tipo di domanda \'mancante\', poiché è necessaria al sistema.';
 $string['cannotdeletemodfilter'] = 'Non puoi disinstallare \'$a->filter\' in quanto fa parte del modulo \'$a->module\'.';
-$string['cannotdeleteqtypeinuse'] = 'Il tipo domanda \'$a\' non può essere eliminato. Ci sono domande di questo tipo nel banco delle domande.';
-$string['cannotdeleteqtypeneeded'] = 'Il tipo domanda \'$a\' non può essere eliminato. Sono presenti tipi di domande che dipendono da questo tipo.';
+$string['cannotdeleteqtypeinuse'] = 'Il tipo di domanda \'$a\' non può essere eliminato. Domande di questo tipo dono presenti nel deposito delle domande.';
+$string['cannotdeleteqtypeneeded'] = 'Il tipo di domanda \'$a\' non può essere eliminato. Sono presenti tipi di domande che dipendono da questo tipo.';
 $string['cfgwwwrootslashwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. E\' stato incluso un carattere \'/\' alla fine. Deve essere rimosso o si verificheranno errori imprevisti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['cfgwwwrootwarning'] = 'Nel file config.php &#36;CFG->wwwroot è stato definito in modo errato. Non corrisponde al URL usato per accedere a questa pagina. Deve essere modificato o si verificheranno errori imprevisti come <a href=\'http://tracker.moodle.org/browse/MDL-11061\'>MDL-11061</a>.';
 $string['change'] = 'cambia';
@@ -327,6 +335,7 @@ $string['configsupportemail'] = 'Questo indirizzo email, per gli utenti di quest
 $string['configsupportname'] = 'Questo è il nome della persona o altra entità in grado di offrire assistenza generale tramite la email o il sito web di supporto.';
 $string['configsupportpage'] = 'Questo indirizzo web, per gli utenti di questo sito, sarà quello da linkare se si ha bisogno di assistenza (per esempio, quando nuovi utenti creano il proprio account). Se tale indirizzo è lasciato vuoto, non sarà fornito alcun link.';
 $string['configteacherassignteachers'] = 'Possono i docenti assegnare altri docenti ai corsi in cui insegnano? Se \'No\', gli unici che possono assegnare docenti sono i creatori di corsi e gli amministratori.';
+$string['configthemedesignermode'] = 'Le immagini ed i CSS appartenenti al tema sono conservati nella cache del browser e del server per un periodo di tempo molto lungo. Se state sviluppando od ottimizzando un tema attivate questa impostazione, utile anche per gli sviluppatori di codice. E\' anche possibile annullare manualmente la cache del tema nella pagina di selezione temi. ATTENZIONE: la modalità theme designer ha un impatto negativo sulle performance del server!';
 $string['configthemelist'] = 'Lasciate in bianco se volete permettere l\'utilizzo di uno qualunque tema installato. Se desiderate invece accorciare il menu di selezione dei temi, specificate un elenco di temi disponibili, separato da virgole. Per esempio: standard, orangewhite.';
 $string['configtimezone'] = 'Questo è il fuso orario di default. E\' l\'unico fuso orario standard per la visualizzazione delle date - ogni utente nel profilo può scegliere il proprio fuso orario. Scegliendo \"Ora locale del server\", il fuso orario di default coinciderà con il fuso orario del sistema operativo che ospita il sito e tale impostazione sarà usata anche come valore di default nel profilo degli utenti. Anche l\'esecuzione del cron per svolgere alcune operazioni pianificate terrà conto del fuso orario di default.';
 $string['configunzip'] = 'Indica il percorso del programma Unzip di decompressione dati (Solo per Unix). Se specificato, questo programma si occuperà  di spacchettare i files compressi lato server. Se lasciato in bianco, Moodle utilizzerà le proprie routine interne.';
@@ -872,6 +881,7 @@ $string['tabselectedtofront'] = 'Nelle tabelle con tab, il tab selezionato deve 
 $string['tabselectedtofronttext'] = 'Porta in primo piano il tab selezionato';
 $string['themedesignermode'] = 'Modalità Theme designer';
 $string['themelist'] = 'Elenco temi';
+$string['themeresetcaches'] = 'Annulla la cahce del tema';
 $string['themeselector'] = 'Selezione tema';
 $string['themesettings'] = 'Impostazioni tema';
 $string['therewereerrors'] = 'Si sono verificati errori nei vostri dati';

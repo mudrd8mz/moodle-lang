@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20090923) (2009091700)
+      // debug.php - created with Moodle 2.0 dev (Build: 20100222) (2010021900)
 
 
 $string['authpluginnotfound'] = 'La plugin di autenticazione $a non è stata trovata';
@@ -16,6 +16,7 @@ $string['fixsetting'] = 'Per favore aggiustate le impostazioni nel file config.p
 $string['invalidarraysize'] = 'La dimensione degli array è errata nei parametri di $a';
 $string['invalideventdata'] = 'E\' stato inviato un eventdata non corretto: $a';
 $string['invalidparameter'] = 'E\' stato rilevato un parametro non valido, il processo non può proseguire.';
+$string['invalidresponse'] = 'E\' stata individuata una riposta non valida, l\'attività non può proseguire.';
 $string['missingconfigversion'] = 'La tabella di configurazione non contiene la versione, non è possibile continuare.';
 $string['modulenotexist'] = 'Il modulo $a non esiste';
 $string['morethanonerecordinfetch'] = 'Nella fetch() è stato trovato più di un record!';
@@ -31,9 +32,9 @@ $string['notables'] = 'Non ci sono tabelle!';
 $string['phpvaroff'] = 'La variabile PHP \'$a->name\' dovrebbe essere impostata ad Off - $a->link';
 $string['phpvaron'] = 'La variabile PHP \'$a->name\' non è impostata ad On - $a->link';
 $string['sessionmissing'] = 'L\'oggetto $a manca dalla sessione';
-$string['siteisnotdefined'] = 'Il sito non è definito!';
 $string['sqlrelyonobsoletetable'] = 'Questo SQL fa affidamento su tabelle obsolete: $a!. Il tuo codice deve essere sistemato da uno sviluppatore.';
 $string['withoutversion'] = 'Il file version.php principale è mancante, illeggibile o rovinato.';
 $string['xmlizeunavailable'] = 'Le funzioni xmlize non sono disponibili';
+$string['siteisnotdefined'] = 'Il sito non è definito!'; // ORPHANED
 
 ?>

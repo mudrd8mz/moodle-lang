@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
+      // role.php - created with Moodle 2.0 dev (Build: 20100222) (2010021900)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
@@ -24,6 +24,8 @@ $string['assignroles'] = 'Ruoli';
 $string['assignrolesin'] = 'Assegna ruoli nel contesto \'$a\'';
 $string['assignrolesrelativetothisuser'] = 'Assegna ruoli relativi a questo utente';
 $string['backtoallroles'] = 'Torna all\'elenco di tutti i ruoli';
+$string['backup:backupcourse'] = 'Eseguire backup di corsi';
+$string['backup:downloadfile'] = 'Scaricare fiele dalle aree di backup';
 $string['backup:userinfo'] = 'Eseguire backup dei dati utente';
 $string['block:edit'] = 'Modificare le impostazioni dei blocco';
 $string['block:view'] = 'Visualizza blocco';
@@ -202,7 +204,10 @@ $string['resetrolenolegacy'] = 'Annulla le autorizzazioni';
 $string['resetrolesure'] = 'Sei sicuro di voler ripristinare i defaults del ruolo \"<b>$a->name ($a->shortname)</b>\"?<p></p>I defaults sono presi dai privilegi del tipo di ruolo origine selezionato (<b>$a->legacytype</b>).';
 $string['resetrolesurenolegacy'] = 'Sei sicuro di voler azzerare tutte le autorizzazioni definite in questo ruolo  \"<b>$a->name ($a->shortname)</b>\"?';
 $string['restore:createuser'] = 'Creare utenti durante il ripristino';
+$string['restore:restorecourse'] = 'Ripristinare corsi';
+$string['restore:restoretargetimport'] = 'Ripristinare da file contrassegnati  per l\'importazione';
 $string['restore:rolldates'] = 'Posticipare date di attività durante il ripristino';
+$string['restore:uploadfile'] = 'Caricare file dalle aree di backup';
 $string['restore:userinfo'] = 'Ripristinare dati utente';
 $string['risks'] = 'Rischi';
 $string['role:assign'] = 'Assegnare ruoli agli utenti';
