@@ -1,8 +1,9 @@
 <?php // $Id$
 
-$string['description'] = 'Description de l\'inscription via Réseau Moodle.';
+$string['description'] = 'La méthode d\'inscription Réseau Moodle permet à des sites connectés d\'inscrire leurs utilisateurs à des cours de ce site Moodle.';
 $string['enrolname'] = 'Réseau Moodle';
 $string['allow_allcourses'] = 'Permettre l\'inscription dans tous les cours distants.';
+$string['allow_allcourses2'] = 'Permettre l\'inscription des utilisateurs distants à tous les cours de ce site Moodle.';
 $string['allcategories'] = '$a catégories potentielles';
 $string['allowedcategories'] = '$a catégories autorisées';
 $string['nocategoriesdefined'] = 'Aucune catégorie trouvée. Veuillez définir de nouvelles catégories <a href=\"$a\">ici</a>.';
