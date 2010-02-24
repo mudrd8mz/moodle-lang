@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20100210) (2007101571.04)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -529,7 +529,7 @@ I de fleste e-postlesere vil denne vises som en blå lenke som du kan klikke på
 Hvis du trenger hjelp, kan du ta kontakt med administrator
 $a->admin';
 $string['emailpasswordconfirmationsubject'] = '$a: bytt passord - bekreftelse';
-$string['emailpasswordconfirmmaybesent'] = '<p>Hvis du la inn korrekt brukernavn eller adresse, skulle en e-post være sendt til deg. </p>
+$string['emailpasswordconfirmmaybesent'] = '<p>Hvis du la inn korrekt informasjon er det nå sendt deg en e-post. </p>
 <p>Den inneholder enkle instruksjoner for å bekrefte og fullføre endring av passord. 
 Hvis du fortsatt har problemer, være vennlig ta kontakt med administrator.</p>';
 $string['emailpasswordconfirmsent'] = 'En e-post skal være sendt til din adresse <b>$a</b>.

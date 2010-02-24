@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_security.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // report_security.php - created with Moodle 1.9.7+ (Build: 20100210) (2007101571.04)
 
 
 $string['check_configrw_details'] = '<p>Det anbefales at fil-rettighetene til config.php endres etter installasjonen slik at webserveren ikke kan gjøre endringer. Vennligst merk at denne sjekken ikke forbedrer serverens generelle sikkerhet, selv om den forsinker og eventuelt begrenser generelle sikkerhetshull.</p>';
@@ -101,7 +101,7 @@ $string['check_riskadmin_ok'] = 'Fant $a administratorer';
 $string['check_riskadmin_unassign'] = '<a href=\"$a->url\">$a->fullname ($a->email) Vis rolletildeling</a>';
 $string['check_riskadmin_warning'] = 'Fant  $a->admincount administratorer og  $a->unsupcount med administratorrettigheter andre steder på systemet.';
 $string['check_riskbackup_details_overriddenroles'] = '<p>Disse aktiverte overstyringene gir brukere rett til å inkludere brukerdata i sikkerhetskopier. Du bør sjekke om disse tillatelsene er nødvendige.</p> $a';
-$string['check_riskbackup_details_systemroles'] = '<p>Følgende systemroller er satt til å tillate brukere å ta med brukerdata i sikkerhetskopier. Du bør sjekke m disse tillatelsene er nødvendige.</p> $a';
+$string['check_riskbackup_details_systemroles'] = '<p>Følgende systemroller er satt til å tillate brukere å ta med brukerdata i sikkerhetskopier. Du bør sjekke om disse tillatelsene er nødvendige.</p> $a';
 $string['check_riskbackup_details_users'] = '<p>På grunn av overordnede roller eller lokale overstyringer har følgende brukerkontoer rett til å ta sikkerhetskopier med private data fra alle påmeldte brukere i kurs. Du bør sjekke om du stoler på disse brukerne og at brukerpassord er beskyttet med sterke passord:</p> $a';
 $string['check_riskbackup_detailsok'] = 'Ingen roller har eksplisitt tillatelse til å ta sikkerhetskopi av brukerdata. Likevel, merk at administratorer med tillatelsen \"Gjøre alt\" kan utføre dette.';
 $string['check_riskbackup_editoverride'] = '<a href=\"$a->url\">$a->name in $a->contextname</a>';
