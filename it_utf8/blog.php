@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // blog.php - created with Moodle 2.0 dev (Build: 20100222) (2010021900)
+      // blog.php - created with Moodle 2.0 dev (Build: 20100224) (2010021900)
 
 
 $string['addnewentry'] = 'Nuovo intervento';
@@ -10,6 +10,7 @@ $string['associatewithcourse'] = 'Blog sul corso $a->coursename';
 $string['associatewithmodule'] = 'Blog su $a->modtype: $a->modname';
 $string['association'] = 'Associazione';
 $string['associations'] = 'Associazioni';
+$string['associationunviewable'] = 'Questo intervento non può essere visualizzato da altri utenti finché un corso non sarà associato con l\'intervento oppure non sarà cambiato il campo \'Pubblica nel\'';
 $string['autotags'] = 'Tag associati con ciascun intervento blog importato';
 $string['backupblogshelp'] = 'Se abilitato, i blog verranno inclusi nei backup automatici di SITO';
 $string['blockexternalstitle'] = 'Blog esterni';
@@ -59,6 +60,8 @@ $string['entrysaved'] = 'Il tuo intervento è stato salvato';
 $string['entrytitle'] = 'Titolo intervento';
 $string['entryupdated'] = 'Intervento del blog aggiornato';
 $string['externalblogcrontime'] = 'Frequenza controllo blog esterni tramite cron';
+$string['externalblogdeleteconfirm'] = 'Eliminare la registrazione al blog esterno?';
+$string['externalblogdeleted'] = 'La registrazione al blog esterno è stata eliminata';
 $string['externalblogs'] = 'Blog esterni';
 $string['feedisinvalid'] = 'Il feed non è valido';
 $string['feedisvalid'] = 'Il feed è valido';
@@ -66,13 +69,16 @@ $string['filterblogsby'] = 'Filtra gli interventi per...';
 $string['filtertags'] = 'Tag esterni';
 $string['groupblog'] = 'Blog del gruppo: $a';
 $string['groupblogdisable'] = 'I blog di gruppo non sono abilitati';
+$string['groupblogentries'] = 'Interventi blog associati con $a->coursename dal gruppo $a->groupname';
 $string['groupblogs'] = 'Gli utenti possono vedere solo i blog  delle persone che appartengono allo stesso gruppo';
 $string['incorrectblogfilter'] = 'E\' stato specificato un tipo di filtro blog errato';
 $string['intro'] = 'Questo RSS è stato creato automaticamente da uno o più blog.';
 $string['invalidgroupid'] = 'ID gruppo non valida';
 $string['invalidurl'] = 'L\'URL non è raggiungibile';
+$string['linktooriginalentry'] = 'Collegamento all\'intervento originale';
 $string['maxexternalblogsperuser'] = 'Numero massimo di blog esterni per ciascun utente';
 $string['modulename'] = 'Blog';
+$string['mustassociatecourse'] = 'Sei stai pubblicando in un corso o verso membri di un gruppo, devia anche associare l\'intervento con un corso';
 $string['noentriesyet'] = 'Non ci sono interventi visibili';
 $string['noguestpost'] = 'Gli ospiti non possono inserire interventi nel blog!';
 $string['nopermissionstodeleteentry'] = 'Non hai i privilegi necessari per eliminare questo intervento';
@@ -87,12 +93,17 @@ $string['personalblogs'] = 'Gli utenti possono vedere solo i propri blog';
 $string['preferences'] = 'Preferenze';
 $string['publishto'] = 'Pubblicazione';
 $string['publishtocourse'] = 'Utenti iscritti ai tuoi stessi corsi';
+$string['publishtocourseassoc'] = 'Membri del corso associato';
 $string['publishtocourseassocparam'] = 'Membri di $a';
 $string['publishtogroup'] = 'Utenti membri dei tuoi stessi gruppi';
+$string['publishtogroupassoc'] = 'I membri del tuo gruppo nel corso associato';
 $string['publishtogroupassocparam'] = 'I membri del tuo gruppo in $a';
 $string['publishtonoone'] = 'Personale (Bozza)';
 $string['publishtosite'] = 'Su questo sito';
 $string['publishtoworld'] = 'Su tutto il web';
+$string['readfirst'] = 'Leggi subito';
+$string['relatedblogentries'] = 'Interventi blog collegati';
+$string['retrievedfrom'] = 'Ripresi da';
 $string['searchterm'] = 'Cerca: $a';
 $string['settingsupdatederror'] = 'Si è verificato un errore, non è stato possibile aggiornare le preferenze del blog.';
 $string['siteblog'] = 'Blog del sito: $a';
@@ -124,7 +135,7 @@ $string['viewmyentries'] = 'Miei interventi';
 $string['viewsiteentries'] = 'Tutti gli interventi';
 $string['viewuserentries'] = 'Interventi dell\'utente';
 $string['worldblogs'] = 'Chiunque può leggere gli interventi impostati come pubblici';
-$string['wrongpostid'] = 'Id dell\'intervento blog errata';
+$string['wrongpostid'] = 'Id errata dell\'intervento blog';
 $string['deleteposterror'] = 'Si è verificato un errore durante l\'eliminazione dell\'intervento'; // ORPHANED
 $string['viewcourseentries'] = 'Interventi del corso'; // ORPHANED
 
