@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100214) (2010020701)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
 
 
 $string['abouttobeinstalled'] = 'インストールされます';
@@ -248,7 +248,7 @@ $string['confirmcheckfull'] = '本当に $a を承認してもよろしいです
 $string['confirmed'] = '登録が完了しました。';
 $string['confirmednot'] = '登録はまだ完了していません！';
 $string['continue'] = '続ける';
-$string['continuetocourse'] = 'コースに入るにはここをクリックしてください。';
+$string['continuetocourse'] = 'あなたのコースに入るには、ここをクリックしてください';
 $string['convertingwikitomarkdown'] = 'MarkdownのWikiへの変換';
 $string['cookiesenabled'] = 'ブラウザのクッキー設定を有効にしてください。';
 $string['cookiesnotenabled'] = '残念ですが、あなたのブラウザーでは、クッキーの設定が有効にされていません。';
