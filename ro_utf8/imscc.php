@@ -4,6 +4,7 @@
 
 $string['cc2moodle_checking_schema'] = 'Format CCt! Se verifică schema...';
 $string['cc2moodle_invalid_schema'] = 'Aceasta nu este o schemă corectă!';
+$string['cc2moodle_manifest_dont_load'] = 'Cannot load the XML manifest.';
 $string['cc2moodle_req_auth'] = 'EROARE: pentru a putea folosi pachetul Common Cartridge este necesară autorizarea.';
 $string['cc2moodle_valid_schema'] = 'Schemă corectă!';
 $string['cc_import_req_dom'] = 'EROARE: pentru a realiza operaţiunea de import Common Cartridge este necesară extensia DOM.';
@@ -13,5 +14,6 @@ $string['cc_import_req_php5'] = 'EROARE: pentru a realiza operaţiunea de import
 $string['cc_import_req_xsl'] = 'EROARE: pentru a realiza operaţiunea de import Common Cartridge este necesar XLS.';
 $string['checkingforimscc'] = 'Se verifică existenţa IMS-CC...';
 $string['enable_cc_import'] = 'Activează CC Import';
+$string['enable_cc_import_description'] = 'This setting enables the import of Common Cartridge (IMS-CC) packages using the standard restore functionality. Note it requires PHP5, DOM, XSL and LIBXML (2.6.30 or newer) extensions to be installed in the server.';
 
 ?>

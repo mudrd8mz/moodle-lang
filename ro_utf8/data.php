@@ -99,6 +99,7 @@ $string['fieldallowautolink'] = 'Permite autolink';
 $string['fielddeleted'] = 'Câmp şters';
 $string['fielddelimiter'] = 'Delimitator câmp';
 $string['fielddescription'] = 'Descriere câmp';
+$string['fieldenclosure'] = 'Delimitare câmp';
 $string['fieldheight'] = 'Înălţime';
 $string['fieldheightlistview'] = 'Înălţime la vizualizarea în listă';
 $string['fieldheightsingleview'] = 'Înălţime la vizualizarea individuală';
@@ -214,6 +215,8 @@ $string['recordsnotsaved'] = 'Nu s-a salvat niciun articol. Vă rugăm verifica�
 $string['recordssaved'] = 'articole salvate';
 $string['requireapproval'] = 'Necesită aprobare?';
 $string['requiredentries'] = 'Articole obligatorii';
+$string['requiredentrieschanged'] = '<p><strong>IMPORTANT - VĂ RUGĂM CITIŢI </strong></p><p>În urma reparării unui defect operaţiunile din baza de date legate de parametrii \"Informaţii obligatorii\" şi \"Informaţii obligatorii anterior vizualizării setărilor\" se vor realiza diferit. Detalii şi explicaţii despre impactul acestor modificări sunt disponibile aici <a href=\"http://moodle.org/mod/forum/discuss.php?d=110928\" target=\"_blank\">the database module forum</a>. Despre noul mod de funcţionare găsiţi detalii aici <a href=\"http://docs.moodle.org/en/Adding/editing_a_database#Required_entries\" target=\"_blank\">Moodle Docs</a>.
+</p><p>Aceste modificări vor avea impact asupra următoarelor baze de date din cadrul sistemului dumneavoastră: (Vă rugăm salvaţi această listă acum şi după finalizarea operaţiunii de actualizare verificaţi că aceste activităţi funcţionează aşa cum doreşte profesorul.)</p><strong style=\"color:red\">$a->text</strong><br/>';
 $string['requiredentriestoview'] = 'Articole obligatorii înainte de vizualizare';
 $string['resetsettings'] = 'Resetează filtre';
 $string['resettemplate'] = 'Resetează şablon';

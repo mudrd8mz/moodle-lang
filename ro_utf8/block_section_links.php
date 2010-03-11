@@ -5,6 +5,8 @@
 $string['blockname'] = 'Linkuri secţiune';
 $string['incby1'] = 'Măreşte cu';
 $string['incby2'] = 'Sau măreşte cu';
+$string['incbydesc1'] = 'Cu această valoare creşte numerotarea secţiunii de fiecare dată când se afişează un link la secţiune, începând cu valoarea 1.';
+$string['incbydesc2'] = 'Cu această valoare creşte numerotarea secţiunii de fiecare dată când se afişează un link la secţiune, începând cu valoarea 1.';
 $string['jumptocurrenttopic'] = 'Treci la tema curentă';
 $string['jumptocurrentweek'] = 'Treci la săptămâna curentă';
 $string['numsections1'] = 'Număr de secţiuni';

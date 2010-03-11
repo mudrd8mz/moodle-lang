@@ -79,6 +79,7 @@ $string['monththis'] = 'Luna aceasta';
 $string['newevent'] = 'Eveniment nou';
 $string['noupcomingevents'] = 'Nu există evenimente în viitorul apropiat';
 $string['oneevent'] = '1 eveniment';
+$string['pref_lookahead'] = 'Perioadă căutare evenimente ce urmează';
 $string['pref_maxevents'] = 'Număr maxim de evenimente ce urmează';
 $string['pref_persistflt'] = 'Memorează setări filtru';
 $string['pref_startwday'] = 'Prima zi a săptămânii';

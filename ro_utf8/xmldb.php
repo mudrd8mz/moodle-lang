@@ -2,6 +2,7 @@
       // xmldb.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
 
 
+$string['aftertable'] = 'After Table:';
 $string['back'] = 'Înapoi';
 $string['backtomainview'] = 'Înapoi la început';
 $string['binaryincorrectlength'] = 'Lungime incorectă a câmpului binar';
@@ -16,6 +17,18 @@ $string['checkbigints'] = 'Verifică Bigints';
 $string['checkdefaults'] = 'Verifică valori implicite';
 $string['checkindexes'] = 'Verfică indecşii';
 $string['completelogbelow'] = '(vezi mai jos înregistrarea completă a tuturor detaliilor căutării)';
+$string['confirmcheckbigints'] = 'Această funcţionalitate va căuta <a href=\"http://tracker.moodle.org/browse/MDL-11038\">potential wrong integer fields</a> în cadrul serverului dumneavoastră Moodle şi va genera (însă nu va executa) statement-urile SQL necesare care ar asigura corectitudinea valorilor implicite.<br /><br />
+Odată generate aceste statement-uri le veţi putea copia şi rula din interfaţa favorită SQL (nu uitaţi să realizaţi o copie de rezervă a datelor înainte de a rula aceste statement-uri).<br /><br />
+Înainte de a lansa căutarea de potential wrong integer fields asiguraţi-vă că rulaţi cea mai recentă versiune a Moodle (1.8, 1.9, 2.x ...).<br /><br />
+Această funcţionalitate nu realizează niciun fel de operaţiune de modificare a bazei de date DB (realizează doar o operaţiune de citire), şi de aceea poate fi rulată în siguranţă în orice moment.';
+$string['confirmcheckdefaults'] = 'Această funcţionalitate va căuta inconsecvenţe în valorile implicite setate în cadrul serverului dumneavoastră Moodle şi va genera (însă nu va executa) statement-urile SQL necesare care ar asigura corectitudinea valorilor implicite.<br /><br />
+Odată generate aceste statement-uri le veţi putea copia şi rula din interfaţa favorită SQL (nu uitaţi să realizaţi o copie de rezervă a datelor înainte de a rula aceste statement-uri).<br /><br />
+Înainte de a lansa căutarea de numere întregi asiguraţi-vă că rulaţi cea mai recentă versiune a Moodle (1.8, 1.9, 2.x ...).<br /><br />
+Această funcţionalitate nu realizează niciun fel de operaţiune de modificare a bazei de date DB (realizează doar o operaţiune de citire), şi de aceea poate fi rulată în siguranţă în orice moment.';
+$string['confirmcheckindexes'] = 'Această funcţionalitate va căuta indecşii care ar putea să lipsească în cadrul serverului dumneavoastră Moodle şi va genera (însă nu va executa) statement-urile SQL necesare astfel încât totul să fie la actualizat zi.<br /><br />
+Odată generate aceste statement-uri le veţi putea copia şi rula din interfaţa favorită SQL (nu uitaţi să realizaţi o copie de rezervă a datelor înainte de a rula aceste statement-uri).<br /><br />
+Înainte de a lansa căutarea de indecşi care ar putea să lipsească asiguraţi-vă că rulaţi cea mai recentă versiune a Moodle (1.8, 1.9, 2.x ...).<br /><br />
+Această funcţionalitate nu realizează niciun fel de operaţiune de modificare a bazei de date DB (realizează doar o operaţiune de citire), şi de aceea poate fi rulată în siguranţă în orice moment.';
 $string['confirmdeletefield'] = 'Sunteți absolut siguri că doriți să eliminați acest câmp:';
 $string['confirmdeleteindex'] = 'Sunteţi absolut siguri că doriţi să eliminaţi acest index:';
 $string['confirmdeletekey'] = 'Sunteţi absolut siguri că doriţi să eliminaţi această cheie:';
@@ -62,6 +75,7 @@ $string['key'] = 'Cheie';
 $string['keys'] = 'Chei';
 $string['listreservedwords'] = 'Lista de Cuvinte Rezervate <br />(se foloseşte la actualizarea listei cu cuvinte rezervate <a href=\"http://docs.moodle.org/en/XMLDB_reserved_words\" target=\"_blank\">XMLDB_reserved_words</a> updated)';
 $string['load'] = 'Încarcă';
+$string['main_view'] = 'Pagina principală';
 $string['missing'] = 'Lipsesc';
 $string['missingfieldsinsentence'] = 'Lipsesc câmpuri în propoziţie';
 $string['missingindexes'] = 'Indecşii care lipseau au fost găsiţi';
@@ -69,12 +83,14 @@ $string['missingvaluesinsentence'] = 'Lipsesc valori din frază';
 $string['mustselectonefield'] = 'Pentru a putea vizualiza acţiunile legate de un câmp trebuie să selectaţi câmpul dorit!';
 $string['mustselectoneindex'] = 'Pentru a putea vizualiza acţiunile legate de un index trebuie să selectaţi indexul dorit!';
 $string['mustselectonekey'] = 'Pentru a putea vizualiza acţiunile legate de o cheie trebuie să selectaţi cheia dorită!';
+$string['mysqlextracheckbigints'] = 'Sub MySQL va căuta şi incorrectly signed bigints şi va genera statementurile SQL necesare pentru corectarea tuturor acestora.';
 $string['new_statement'] = 'Instrucţiune nouă';
 $string['new_table_from_mysql'] = 'Tabel nou de la MySQL';
 $string['newfield'] = 'Câmp nou';
 $string['newindex'] = 'Index nou';
 $string['newkey'] = 'Cheie nouă';
 $string['newsentence'] = 'Instrucţiune nouă';
+$string['newstatement'] = 'New Statement';
 $string['newtable'] = 'Tabel nou';
 $string['newtablefrommysql'] = 'Tabel nou de la MySQL';
 $string['nomissingindexesfound'] = 'Nu există indecşi lipsă, nu este nevoie să realizaţi nicio acţiune asupra bazei de date.';
@@ -94,6 +110,7 @@ $string['selectfieldkeyindex'] = 'Selectaţi câmp/cheie/index:';
 $string['selectonecommand'] = 'Pentru a vedea codul PHP al unei Acţiuni selectaţi-o din listă';
 $string['selectonefieldkeyindex'] = 'Pentru a vedea codul PHP al unui Câmp/Chei/Index selectaţi-l din listă';
 $string['selecttable'] = 'Selectaţi tabel:';
+$string['sentences'] = 'Sentences';
 $string['shouldbe'] = 'ar trebui să fie';
 $string['statements'] = 'Instrucţiuni';
 $string['statementtable'] = 'Tabel de instrucţiuni:';
@@ -118,5 +135,10 @@ $string['wrong'] = 'Greșit';
 $string['wrongdefaults'] = 'Au fost identificaţi parametri impliciţi greşiţi';
 $string['wrongints'] = 'Au fost identificate numere întregi greşite';
 $string['wronglengthforenum'] = 'Lungime incorectă pentru câmpul de tip enumerare';
+$string['wrongnumberoffieldsorvalues'] = 'Număr incorect de câmpuri sau valori în sentence.';
+$string['wrongreservedwords'] = 'Cuvinte rezervate utilizate în prezent<br />(numele tablelelor nu sunt importante dacă utilizaţi \$CFG->prefix)';
+$string['yesmissingindexesfound'] = 'În baza dumneavoastră de date a fost identificată lipsa unor indecşi. În continuare vă prezentăm detalii despre aceştia precum şi statement-urile SQL ce vor putea fi rulate, din interfaţa SQL pe care o preferaţi pentru corectarea acestora (nu uitaţi să realizaţi o copie de siguranţă a datelor înainte de a realiza această operaţiune). <br /><br /> După realizarea corecturii se recomandă să rulaţi din nou căutarea pentru a vă asigura că toţi indecşii sunt prezenţi în baza de date.';
+$string['yeswrongdefaultsfound'] = 'În baza dumneavoastră de date au fost identificate valori implicite inconsecvente. În continuare vă prezentăm detalii despre aceştia precum şi statement-urile SQL ce vor putea fi rulate, din interfaţa SQL pe care o preferaţi pentru corectarea acestora (nu uitaţi să realizaţi o copie de siguranţă a datelor înainte de a realiza această operaţiune). <br /><br /> După realizarea corecturii se recomandă să rulaţi din nou căutarea pentru a vă asigura că toate valorile implicite din baza dumneavoastră de date sunt consecvente.';
+$string['yeswrongintsfound'] = 'În baza dumneavoastră de date au fost identificate numere întregi incorecte. În continuare vă prezentăm detalii despre acestea precum şi statement-urile SQL ce vor putea fi rulate, din interfaţa SQL pe care o preferaţi pentru corectarea acestora (nu uitaţi să realizaţi o copie de siguranţă a datelor înainte de a realiza această operaţiune). <br /><br /> După realizarea corecturii se recomandă să rulaţi din nou căutarea pentru a vă asigura că într-adevăr nu mai există în baza de date numere întregi greşite.';
 
 ?>

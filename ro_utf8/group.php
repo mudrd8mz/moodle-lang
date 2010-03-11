@@ -91,6 +91,7 @@ $string['noallocation'] = 'Fără alocare';
 $string['nogroups'] = 'În cadrul acestui curs nu au fost definite încă grupuri';
 $string['nogroupsassigned'] = 'Nu au fost atribuite grupuri';
 $string['nopermissionforcreation'] = 'Grupul \"$a\" nu a putut fi creat deoarece nu aveţi permisiunea de a crea grupuri';
+$string['nosmallgroups'] = 'Prevent last small group';
 $string['notingrouping'] = '[Nu face parte dintr-o grupare]';
 $string['nousersinrole'] = 'Nu există utilizatori care să aibă rolul selectat şi să îndeplinească condiţiile cerute';
 $string['number'] = 'Număr grupuri/membri';
