@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20100310) (2007101571.04)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -43,7 +43,7 @@ $string['admin'] = 'Administrátor';
 $string['adminbookmarks'] = 'Záložky administrátora';
 $string['adminhelpaddnewuser'] = 'Manuálne vytvoriť nové používateľské konto';
 $string['adminhelpassignadmins'] = 'Administrátori môžu robiť všetko a všade v rámci prostredia Moodle';
-$string['adminhelpassigncreators'] = 'Tvorcovia kurzov môžu vytvárať nové kurzy a vyučovať v nich';
+$string['adminhelpassigncreators'] = 'Tvorcovia kurzov môžu vytvárať nové kurzy';
 $string['adminhelpassignsiteroles'] = 'Aplikovať roly v rámci celého portálu vybraným používateľom';
 $string['adminhelpassignstudents'] = 'Ísť do kurzu a pridať študentov cez administrátorské menu';
 $string['adminhelpassignteachers'] = 'Vyhľadať kurz a potom použiť ikonu na pridanie učiteľov';
@@ -278,7 +278,7 @@ $string['coursecategories'] = 'Kategórie kurzu';
 $string['coursecategory'] = 'Kategória kurzu';
 $string['coursecategorydeleted'] = 'Vymazaná kategória kurzov $a';
 $string['coursecreators'] = 'Tvorca kurzu';
-$string['coursecreatorsdescription'] = 'Tvorcovia kurzov môžu vytvárať nové kurzy a učiť v nich.';
+$string['coursecreatorsdescription'] = 'Tvorcovia kurzov môžu vytvárať nové kurzy.';
 $string['coursedeleted'] = 'Vymazaný kurz $a';
 $string['courseenrolenddate'] = 'Dátum ukončenia zápisu v kurze';
 $string['courseenrolstartdate'] = 'Dátum začatia zápisu v kurze';

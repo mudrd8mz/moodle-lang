@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.6+ (Build: 20091104) (2007101560)
+      // grades.php - created with Moodle 1.9.7+ (Build: 20100310) (2007101571.04)
 
 
 $string['activities'] = 'Aktivity';
@@ -25,7 +25,7 @@ $string['aggregateoutcomes'] = 'Zahrnúť ciele do súhrnnej známky';
 $string['aggregateoutcomeshelp'] = 'Zahrnutie cieľov do súhrnnej známky nemusí viesť k požadovanej celkovej známke, takže máte možnosť ich zahrnúť alebo vynechať.';
 $string['aggregatesonly'] = 'Iba súhrnné známky';
 $string['aggregatesubcats'] = 'Súhrnná známka zahŕňa podkategórie';
-$string['aggregatesubcatshelp'] = 'Výpočet súhrnnej známky je normálne vykonávaný iba na priamych podkategóriách. Je tiež možno vypočítať známky vo všetkých podkategóriách s výmimkou iných súhrnných známok.';
+$string['aggregatesubcatshelp'] = 'Výpočet súhrnnej známky je normálne vykonávaný iba na priamych podkategóriách. Je tiež možno vypočítať vybrané známky vo všetkých podkategóriách s výnimkou iných súhrnných známok.';
 $string['aggregatesum'] = 'Súčet známok';
 $string['aggregateweightedmean'] = 'Vážený priemer známok';
 $string['aggregateweightedmean2'] = 'Jednoduchý vážený priemer známok';
@@ -280,6 +280,10 @@ $string['hidelocks'] = 'Skryť zámky';
 $string['hidenooutcomes'] = 'Zobraziť ciele';
 $string['hidequickfeedback'] = 'Skryť rýchly komentár';
 $string['hideranges'] = 'Skryť rozsahy';
+$string['hidetotalifhiddenitems'] = 'Skryť súhrnné známky, ak obsahujú skryté položky?';
+$string['hidetotalifhiddenitemsdescription'] = 'Skryť súhrnné známky, ak obsahujú jednu alebo viac skrytých položiek?';
+$string['hidetotalshowexhiddenitems'] = 'Zobraziť súhrnné známky nezahrňujúc skryté položky';
+$string['hidetotalshowinchiddenitems'] = 'Zobraziť súhrnné známky zahrňujúc skryté položky';
 $string['hideverbose'] = 'Skryť $a->category$a->itemmodule $a->itemname';
 $string['highgradeascending'] = 'Triediť podľa známok vzostupne';
 $string['highgradedescending'] = 'Triediť podľa známok zostupne';

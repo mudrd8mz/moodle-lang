@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 1.8.2+ (2007021520)
+      // enrol_mnet.php - created with Moodle 1.9.7+ (Build: 20100310) (2007101571.04)
 
 
 $string['allcategories'] = '$a možných kategórií';
 $string['allcourses'] = '$a možných kurzov';
 $string['allow_allcourses'] = 'Povoliť zápis do všetkých vzdialených kurzov.';
+$string['allow_allcourses2'] = 'Povoliť zápis pre vzdialených používateľov do všetkých kurzov na tomto moodle portáli.';
 $string['allowedcategories'] = '$a povolených kategórií';
 $string['allowedcourses'] = '$a povolených kurzov';
 $string['allowedcourseslinktext'] = 'Tu upravte povolené kurzy a kategórie.';
