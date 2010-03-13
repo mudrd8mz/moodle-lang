@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // enrol_mnet.php - created with Moodle 2.0 dev (Build: 20090130) (2009012901)
+      // enrol_mnet.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
 
 
 $string['allcategories'] = '潜在的なカテゴリ $a';
 $string['allcourses'] = '潜在的なコース $a';
 $string['allow_allcourses'] = 'すべてのリモートコースで登録を許可します。';
+$string['allow_allcourses2'] = 'このMoodleサイト内すべてのコースでリモートユーザの登録を許可します。';
 $string['allowedcategories'] = '許可されたカテゴリ $a';
 $string['allowedcourses'] = '許可されたコース $a';
 $string['allowedcourseslinktext'] = '許可するコースおよびカテゴリをここで編集してください。';
