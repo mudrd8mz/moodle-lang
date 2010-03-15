@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20100210) (2007101571.04)
+      // moodle.php - created with Moodle 1.9.7+ (Build: 20100303) (2007101571.04)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -536,8 +536,8 @@ $string['emailpasswordconfirmsent'] = 'En e-post skal være sendt til din adress
 <br />Den inneholder enkle instruksjoner for åbekrefte og fullføre endringen av passord. 
 Hvis du fortsatt har problemer, kan du ta kontakt med administrator';
 $string['emailpasswordsent'] = '<p>Takk for bekreftelse av passordbytte.</p>
-<p>En e-post med ditt nye passord er sendt til din adresse <br /><b>$a->email</b>.<br />
-Det nye passordet ble automatisk generert - du vil kanskje <a href=\"$a->link\">endre passordet</a> til noe som er lettere å huske.</p>';
+<p>En e-post med brukernavnet og ditt midlertidige passord er sendt til din adresse <br /><b>$a->email</b>.<br />
+Det nye passordet ble automatisk generert og du vil måtte bytte passordet straks etter innlogging.</p>';
 $string['enable'] = 'Slå på';
 $string['encryptedcode'] = 'Kryptert kode';
 $string['enroldate'] = 'Tidsperiode';
@@ -968,15 +968,12 @@ $string['newcourse'] = 'Nytt kurs';
 $string['newpassword'] = 'Ditt ønskede passord';
 $string['newpasswordfromlost'] = '<strong>NB:</strong> Ditt <strong>nåværende passord</strong> har blitt sendt til deg i den<strong>andre</strong> av de to meldinger sennt til deg i forbindelse med prosessen for å gjenopprette passordet. Pass på at du har mottatt erstatningspassordet før du fortsetter med dette skjermbildet.';
 $string['newpasswordtext'] = 'Hei $a->firstname,
-Ditt passord på \'$a->sitename\' er slettet
-og du har fått et midlertidig passord.
+Ditt passord på \'$a->sitename\' er slettet og du har fått et midlertidig passord.
 Din innloggingsinformasjon er nå:
    brukernavn: $a->username
       passord: $a->newpassword
-Gå til denne siden for å endre passordet ditt:
-   $a->link
-Hvis du ikke du kan klikke på lenken, klipp og lim den inn i nettleseren.
-Med vennlig hilsen \'$a->sitename\' administrator,
+
+Med vennlig hilsen
 $a->signoff';
 $string['newpicture'] = 'Nytt bilde';
 $string['newsitem'] = 'nyhet';
