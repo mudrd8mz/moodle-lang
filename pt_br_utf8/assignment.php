@@ -3,7 +3,7 @@
 
 
 $string['allowdeleting'] = 'Permitir cancelamento';
-$string['allowmaxfiles'] = 'Número máximo de archivos carregados';
+$string['allowmaxfiles'] = 'Número máximo de arquivos carregados';
 $string['allownotes'] = 'Permitir notas';
 $string['allowresubmit'] = 'Permitir novo envio';
 $string['alreadygraded'] = 'A sua tarefa já foi avaliada. Não é possível enviar outros documentos.';
@@ -47,7 +47,7 @@ $string['emailteachermailhtml'] = '$a->username atualizou a sua tarefa <i>\'$a->
 Esta pode ser acessada <a href=\"$a->url\">no site web</a>.';
 $string['emailteachers'] = 'Avisos por email aos professores';
 $string['emptysubmission'] = 'Você ainda não enviou nada';
-$string['enableemailnotification'] = 'Enviar promemória via email';
+$string['enableemailnotification'] = 'Enviar notificação via email';
 $string['existingfiledeleted'] = 'Este arquivo foi cancelado: $a';
 $string['failedupdatefeedback'] = 'Falhou a atualização do feedback da tarefa do usuário $a';
 $string['feedback'] = 'Feedback';

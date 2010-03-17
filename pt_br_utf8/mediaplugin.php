@@ -4,7 +4,7 @@
 
 $string['filtername'] = 'Plugins Multimídia';
 $string['flashanimation'] = 'Animação Flash';
-$string['flashvideo'] = 'Video Flash';
-$string['mp3audio'] = 'Audio MP3';
+$string['flashvideo'] = 'Vídeo Flash';
+$string['mp3audio'] = 'Áudio MP3';
 
 ?>

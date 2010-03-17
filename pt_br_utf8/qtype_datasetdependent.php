@@ -10,7 +10,7 @@ $string['calclength'] = 'Casas decimais';
 $string['calcmax'] = 'Máximo';
 $string['calcmin'] = 'Mínimo';
 $string['dataitemdefined'] = 'com $a valores numéricos já definidos e disponíveis';
-$string['datasetrole'] = 'Os caracteres curingas <strong>{x..}</strong> serão substituidos por um valor numérico vindo do seu conjunto de dados';
+$string['datasetrole'] = 'Os caracteres coringas <strong>{x..}</strong> serão substituídos por um valor numérico vindo do seu conjunto de dados';
 $string['deletelastitem'] = 'Apagar último item';
 $string['existingcategory1'] = 'um literal de um conjunto de literais já existente que também é usado por outras questões nesta categoria';
 $string['existingcategory2'] = 'um arquivo de um grupo de arquivos já existente que também são usados por outras questões nessa categoria';
@@ -43,7 +43,7 @@ $string['reuseifpossible'] = 'reutilizar valor anterior se disponível';
 $string['sharedwildcard'] = 'Caractere curinga compartilhado';
 $string['sharedwildcards'] = 'Caracteres curingas compartilhados';
 $string['uniform'] = 'Uniforme';
-$string['updatedatasetparam'] = 'Atualizar os parametros dos conjuntos  de dados';
+$string['updatedatasetparam'] = 'Atualizar os parâmetros dos conjuntos  de dados';
 $string['youmustaddatleastoneitem'] = 'Você deve adicionar pelo menos um conjunto de dados antes de poder salvar esta questão.';
 
 ?>

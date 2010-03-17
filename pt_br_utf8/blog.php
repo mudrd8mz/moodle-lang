@@ -3,7 +3,7 @@
 
 
 $string['addnewentry'] = 'Acrescentar novo texto';
-$string['backupblogshelp'] = 'Se habilitada os blogs serão incluidos no backup automático do Site';
+$string['backupblogshelp'] = 'Se habilitada, os blogs serão incluídos no backup automático do site';
 $string['blockmenutitle'] = 'Menu do Blog';
 $string['blocktagstitle'] = 'Tags do Blog';
 $string['blocktitle'] = 'Título do bloco de tags do Blog';
