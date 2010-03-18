@@ -4,17 +4,17 @@ in your language. Please use whichever is used in your spreadsheet application. 
 
 <p>Os cálculos para o relatório de notas seguem o padrão de fórmulas/funções de planilhas eletrônicas. Eles começam com um sinal de igual(=) e usam operadores e funções matemáticas comuns para produzir uma única solução numérica. Esta saída é, então, usada como o valor computado para o item de avaliação que você está editando.</p>
 
-<p>Segue uma lista de funções suportadas. A vírgula(,) é usada para separar argumentos dentro de parênteses.</p>
+<p>Segue uma lista de funções suportadas. O ponto-e-vírgula(;) é usado para separar argumentos dentro de parênteses.</p>
 
 <ul>
-    <li><strong>average</strong>([[item1]], [[item2]]...): Retorna a média de uma amostra</li>
-    <li><strong>max</strong>([[item1]], [[item2]]...): Retorna o valor máximo de uma lista de argumentos</li>
-    <li><strong>min</strong>([[item1]], [[item2]]...): Retorna o valor mínimo de uma lista de argumentos</li>
-    <li><strong>mod</strong>(dividendo, divisor): Calcula o resto de uma divisão</li>
+    <li><strong>average</strong>([[item1]]; [[item2]]...): Retorna a média de uma amostra</li>
+    <li><strong>max</strong>([[item1]]; [[item2]]...): Retorna o valor máximo de uma lista de argumentos</li>
+    <li><strong>min</strong>([[item1]]; [[item2]]...): Retorna o valor mínimo de uma lista de argumentos</li>
+    <li><strong>mod</strong>(dividendo; divisor): Calcula o resto de uma divisão</li>
     <li><strong>pi</strong>(): Retorna o valor do número Pi</li>
-    <li><strong>power</strong>(base, potência): Eleva um número a potência de outro</li>
-    <li><strong>round</strong>(número, casas decimais): Arredonda um número para uma precisão predefinida</li>
-    <li><strong>sum</strong>([[item1]], [[item2]]...): Retorna a soma de todos os argumentos</li>
+    <li><strong>power</strong>(base; potência): Eleva um número a potência de outro</li>
+    <li><strong>round</strong>(número; casas decimais): Arredonda um número para uma precisão predefinida</li>
+    <li><strong>sum</strong>([[item1]]; [[item2]]...): Retorna a soma de todos os argumentos</li>
 </ul>
 
 <p>Várias funções matemáticas também são suportadas:</p>
@@ -34,6 +34,6 @@ in your language. Please use whichever is used in your spreadsheet application. 
 <p>Segue uma lista de exemplos práticos de cálculos que podem ser utilizados:</p>
 
 <ul>
-    <li>=average([[Questionário.1]], [[Questionário.4]], [[Tarefa.1]])</li>
-    <li>=average(max([[Questionário.1]], [[Questionário.4]], [[Tarefa.1]]), min([[Questionário.1]], [[Questionário.4]], [[Tarefa.1]]))</li>
+    <li>=average([[Questionário.1]]; [[Questionário.4]]; [[Tarefa.1]])</li>
+    <li>=average(max([[Questionário.1]]; [[Questionário.4]]; [[Tarefa.1]]); min([[Questionário.1]]; [[Questionário.4]]; [[Tarefa.1]]))</li>
 </ul>

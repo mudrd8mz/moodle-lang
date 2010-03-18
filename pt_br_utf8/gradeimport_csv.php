@@ -1,8 +1,6 @@
-<?PHP // $Id$ 
-      // gradeimport_csv.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+<?PHP
 
-
-$string['csv:view'] = 'Importar boletim de notas do CSV';
+$string['csv:view'] = 'Importar notas de arquivo CSV';
 $string['modulename'] = 'Arquivo CSV';
 
 ?>

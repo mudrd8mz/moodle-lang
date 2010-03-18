@@ -36,6 +36,5 @@ $string['somefieldsrequired'] = 'Este form contém campos obrigatórios';
 $string['timing'] = 'Tempo';
 $string['unmaskpassword'] = 'Mostrar';
 $string['year'] = 'Ano';
-$string['requiredfield'] = 'Campo obrigatório'; // ORPHANED
 
 ?>

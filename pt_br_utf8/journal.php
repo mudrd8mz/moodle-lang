@@ -14,8 +14,7 @@ $string['journalmail'] = '$a->teacher comentou a sua anotação no diário \'$a-
 Leia os comentários anexos à sua anotação:
 
 $a->url';
-$string['journalmailhtml'] = '$a->teacher comentou a sua anotação no diário \'<i>$a->journal</i>\'<br /><br />
-Leia os comentários anexos à sua <a href=\"$a->url\">anotação</a>.';
+$string['journalmailhtml'] = '$a->teacher comentou a sua anotação no diário \'<i>$a->journal</i>\'<br /><br />Leia os comentários anexos à sua <a href=\"$a->url\">anotação</a>.';
 $string['journalname'] = 'Nome do diário';
 $string['journalquestion'] = 'Pergunta do diário';
 $string['journalrating1'] = 'Não satisfatório';

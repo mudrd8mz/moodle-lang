@@ -1,16 +1,14 @@
-<?PHP // $Id$ 
-      // gradeimport_xml.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+<?PHP
 
-
-$string['errbadxmlformat'] = 'Erro de formatação XML';
-$string['errduplicategradeidnumber'] = 'Erro: dois itens de avaliação com o mesmo ID neste curso - \'$a\'.';
-$string['errduplicateidnumber'] = 'Erro: número ID repetido';
-$string['errincorrectgradeidnumber'] = 'Erro: número ID \'$a\' do arquivo de importação não corresponde a nenhum item.';
-$string['errincorrectidnumber'] = 'Erro: número ID errado';
-$string['errincorrectuseridnumber'] = 'Erro: número ID \'$a\' do arquivo de importação não corresponde a nenhum usuário.';
-$string['fileurl'] = 'URL do arquivo';
-$string['modulename'] = 'Arquivo URL';
-$string['xml:publish'] = 'Publicar notas importadas do XML';
-$string['xml:view'] = 'Importar notas do XML';
+$string['errbadxmlformat'] = 'Erro - XML mal formado';
+$string['errduplicategradeidnumber'] = 'Erro - existem dois itens de nota com idnumber \'$a\' neste curso. Isto deveria ser impossível.';
+$string['errduplicateidnumber'] = 'Erro - idnumber duplicado.';
+$string['errincorrectgradeidnumber'] = 'Erro - idnumber \'$a\' do arquivo importado não é igual a nenhum item de nota.';
+$string['errincorrectidnumber'] = 'Erro - idnumber incorreto.';
+$string['errincorrectuseridnumber'] = 'Erro - idnumber \'$a\' do arquivo importado não confere com nenhum usuário.';
+$string['fileurl'] = 'URL do arquivo remoto';
+$string['modulename'] = 'Arquivo XML';
+$string['xml:publish'] = 'Publicar notas importadas de XML';
+$string['xml:view'] = 'Importar notas de XML';
 
 ?>

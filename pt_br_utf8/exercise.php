@@ -1,5 +1,4 @@
-<?PHP // $Id$ 
-      // exercise.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+<?php
 
 
 $string['absent'] = 'Ausente';
@@ -66,7 +65,7 @@ $string['hidenamesfromstudents'] = 'Esconder nomes dos estudantes';
 $string['incorrect'] = 'Errado';
 $string['late'] = 'Tarde';
 $string['lax'] = 'Vago';
-$string['leaguetable'] = 'Tabela dos trabalhos enviados';
+$string['leaguetable'] = 'Tabela classificativa dos trabalhos enviados';
 $string['mail1'] = 'O seu exercício \'$a\'  foi avaliado por';
 $string['mail2'] = 'Os comentários e as notas podem ser consultados no exercício \'$a\'';
 $string['mail3'] = 'Isto pode ser visto na página do exercício';
@@ -100,7 +99,7 @@ $string['notitlegiven'] = 'nenhum título';
 $string['numberofassessmentelements'] = 'Número de comentários, Elementos da Avaliação, Notas, Definições de critérios ou categorias de uma rubrica';
 $string['numberofcriterionelements'] = 'O número de elementos de critério deve ser superior a um.';
 $string['numberofentries'] = 'Número de registros';
-$string['numberofentriesinleaguetable'] = 'Número de entradas na tabela';
+$string['numberofentriesinleaguetable'] = 'Número de itens na tabela classificativa';
 $string['numberofnegativeresponses'] = 'Número de respostas negativas';
 $string['onesubmission'] = 'Um envio';
 $string['optionaladjustment'] = 'Ajuste opcional';
@@ -111,7 +110,7 @@ $string['phase1'] = 'Configurar exercício';
 $string['phase1short'] = 'Configurar';
 $string['phase2'] = 'Permitir $a envios e avaliações';
 $string['phase2short'] = 'Abrir';
-$string['phase3'] = 'Mostrar notas gerais e tabela';
+$string['phase3'] = 'Mostrar notas gerais e tabela classificativa';
 $string['phase3short'] = 'Mostrar';
 $string['pleasegradetheassessment'] = 'Dar notas de avaliação do trabalho enviado por $a';
 $string['pleasemakeyourownassessment'] = 'Por favor, avalie o trabalho de $a. <br /> O formulário de avaliação está atualmente preenchido com os dados de avaliação feitas pelo estudante.<br /> Modifique o que você achar necessário e clique <br />um dos botões no final da página';
@@ -147,7 +146,7 @@ $string['studentallowedtoresubmit'] = '$a autorizado a enviar novamente';
 $string['studentassessments'] = '$a Avaliações';
 $string['studentnotallowed'] = '$a não autorizado a enviar novamente (ou não é necessário)';
 $string['studentsubmissions'] = '$a Envios';
-$string['studentsubmissionsforassessment'] = '$a Envios de avaliação dos estudantes';
+$string['studentsubmissionsforassessment'] = '$a envios de avaliação dos estudantes';
 $string['submission'] = 'Envio';
 $string['submissions'] = 'Envios';
 $string['submissionsnowclosed'] = 'A data final para entrega já passou';
@@ -155,7 +154,7 @@ $string['submitexercisedescription'] = 'Enviar descrição do exercício';
 $string['submitted'] = 'Enviado';
 $string['submittedby'] = 'Enviado por';
 $string['suggestedgrade'] = 'Nota sugerida';
-$string['teacherassessment'] = '$a  Avaliação';
+$string['teacherassessment'] = '$a  avaliação';
 $string['teacherassessmenttable'] = '$a  tabela de avaliação';
 $string['teacherscomment'] = 'Comentário';
 $string['theexercise'] = 'O exercício';

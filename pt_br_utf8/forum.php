@@ -1,6 +1,4 @@
-<?PHP // $Id$ 
-      // forum.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
-
+<?PHP
 
 $string['addanewdiscussion'] = 'Acrescentar um novo tópico de discussão';
 $string['addanewquestion'] = 'Acrescentar uma nova questão';
@@ -284,8 +282,8 @@ $string['unreadpostsone'] = '1 mensagem não lida';
 $string['unsubscribe'] = 'Suspender o recebimento de mensagens deste fórum via email';
 $string['unsubscribeall'] = 'Suspender o recebimento de mensagens de todos os fóruns via email';
 $string['unsubscribeallconfirm'] = 'Você é assinante de $a foruns. Você quer anular todas as assinaturas e a opção de assinatura automática?';
-$string['unsubscribealldone'] = 'Todas as suas assinaturas assinaturas foram anuladas, com exclusão dos fóruns configurados com assinatura obrigatória. Para evitar totalmente o recebimento de emails deste server é necessario desabilitar o endereço email no seu perfil de usuário.';
-$string['unsubscribeallempty'] = 'Sinto muito mas você não é assinante de nenhum fórum. Para evitar totalmente o recebimento de emails deste servidor é necessario desabilitar o endereço de email no seu perfil de usuário.';
+$string['unsubscribealldone'] = 'Todas as suas assinaturas foram removidas, mas você ainda pode receber notificações de fóruns configurados com assinatura obrigatória. Se você não deseja receber qualquer e-mail deste site, por favor altere seu perfil desativando seu endereço de e-mail.';
+$string['unsubscribeallempty'] = 'Sinto muito mas você não é assinante de nenhum fórum. Se você não deseja receber qualquer e-mail deste site, por favor altere seu perfil desativando seu endereço de e-mail.';
 $string['unsubscribed'] = 'Cancelado o recebimento de cópias das mensagens via email';
 $string['unsubscribeshort'] = 'Cancelar assinatura';
 $string['usermarksread'] = 'Marcar como lido manualmente';

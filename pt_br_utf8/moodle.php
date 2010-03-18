@@ -135,6 +135,7 @@ $string['autosubscribeyes'] = 'Sim, quando eu envio mensagens a um fórum, sou a
 $string['availability'] = 'Disponibilidade';
 $string['availablecourses'] = 'Cursos disponíveis';
 $string['back'] = 'Voltar';
+$string['backtocourselisting'] = 'Voltar para a lista de cursos';
 $string['backtoparticipants'] = 'Voltar à lista de participantes';
 $string['backup'] = 'Backup';
 $string['backupactivehelp'] = 'Escolher se fazer ou não backups automáticos';
@@ -539,9 +540,7 @@ $string['emailpasswordconfirmationsubject'] = '$a: confirmação da mudança de 
 $string['emailpasswordconfirmmaybesent'] = '<p>Se o nome de usuário e o email estiverem corretos, você receberá uma mensagem por correio eletrônico.</p>
 <p>A mensagem contém todas as instruções necessárias para confirmar e completar a mudança de senha.
 Em caso de dificuldades, contate o administrador do site.</p>';
-$string['emailpasswordconfirmsent'] = 'Um Email será enviado para o seguinte endereço: <b>$a</b>.
-Siga as instruções contidas no Email para completar a mundança de senha.
-Em caso de dificuldades contate o administrador do site.';
+$string['emailpasswordconfirmsent'] = '<p>Um email será enviado para o seu endereço: <b>$a</b>.</p> <p>Siga as instruções contidas no email para completar a mundança de senha. Em caso de dificuldades contate o administrador do site.</p><p>Caso você não veja este email na sua caixa de entrada, por favor, procure por ele na pasta de lixo eletrônico.</p>';
 $string['emailpasswordsent'] = '<p>Um Email com a sua nova senha foi enviada ao seguinte endereço: <b>$a->email</b>.</p>
 <p>A nova senha foi criada automaticamente. Se você quiser, é possível <a href=$a->link>mudar a senha</a>.</p>';
 $string['enable'] = 'Ativar';

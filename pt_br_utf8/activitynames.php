@@ -1,7 +1,6 @@
-<?PHP // $Id$ 
-      // activitynames.php - created with Moodle 1.6 development (2006031600)
+<?php
 
 
-$string['filtername'] = 'Link automático ao nome das atividades';
+$string['filtername'] = 'Link automático para as atividades';
 
 ?>

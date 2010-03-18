@@ -1,5 +1,4 @@
-<?PHP // $Id$ 
-      // message.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+<?php
 
 
 $string['addcontact'] = 'Acrescentar Contato';
@@ -27,13 +26,13 @@ $string['includeblockedusers'] = 'Incluir usuários bloqueados';
 $string['incomingcontacts'] = 'Contatos recebidos ($a)';
 $string['keywords'] = 'Palavras-chave';
 $string['keywordssearchresults'] = 'Resultados da busca: $a mensagens encontradas';
-$string['mailsent'] = 'Sua mensagem foi enviada.';
+$string['mailsent'] = 'Sua mensagem foi enviada por email.';
 $string['maxmessages'] = 'Número máximo de mensagens a serem mostradas no histórico de uma discussão';
 $string['message'] = 'Mensagem';
 $string['messagehistory'] = 'Histórico das mensagens';
 $string['messages'] = 'Mensagens';
 $string['messaging'] = 'Mensageria';
-$string['messagingdisabled'] = 'O serviço de mensagens está desativado neste site, ao invés de mensagens serão enviados e-mails';
+$string['messagingdisabled'] = 'O serviço de mensagens está desativado neste site. Ao invés de mensagens, serão enviados e-mails.';
 $string['mycontacts'] = 'Meus contatos';
 $string['newonlymsg'] = 'Mostrar apenas os novos';
 $string['newsearch'] = 'Nova busca';

@@ -1,6 +1,4 @@
-<?PHP // $Id$ 
-      // question.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
-
+<?PHP
 
 $string['adminreport'] = 'Reportar possíveis problemas no banco de questões.';
 $string['broken'] = 'Este é um \"link quebrado\", ele aponta para um arquivo inexistente.';
@@ -87,6 +85,6 @@ $string['unpublished'] = 'Não-compartilhado';
 $string['upgradeproblemcategoryloop'] = 'Problema atualizando categorias de questões. Loop na árvore de categorias. O id da categoria com problemas é $a.';
 $string['upgradeproblemcouldnotupdatecategory'] = 'Não foi possível modificar a categoria $a->name ($a->id).';
 $string['upgradeproblemunknowncategory'] = 'Problema atualizando categorias de questões. A categoria $a->id aponta para $a->parent,que não existe. O problema foi resolvido apontando para uma categoria existente.';
-$string['yourfileshoulddownload'] = 'Se o seu arquivo de exportação não for baixado automaticamente, <a href=\"$a\">clickar aqui</a>.';
+$string['yourfileshoulddownload'] = 'O download do seu arquivo deve começar automaticamente, caso contrário <a href=\"$a\">clique aqui</a>.';
 
 ?>

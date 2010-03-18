@@ -1,5 +1,4 @@
-<?PHP // $Id$ 
-      // block_rss_client.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+<?php
 
 
 $string['addfeed'] = 'Adicionar URL do alimentador de notícias:';
@@ -30,7 +29,7 @@ $string['feedupdated'] = 'Alimentador de notícias atualizado';
 $string['findmorefeeds'] = 'Procurar outros alimentadores RSS';
 $string['managefeeds'] = 'Administrar todos os meus alimentadores';
 $string['nofeeds'] = 'Nenhum alimentador RSS definido neste site.';
-$string['numentries'] = 'Itens do alimentador de notícias';
+$string['numentries'] = 'Itens por alimentador de notícias';
 $string['pickfeed'] = 'Selecionar um alimentador de notícias';
 $string['remotenewsfeed'] = 'Alimentador de notícias remoto';
 $string['rss_client:createprivatefeeds'] = 'Criar canais RSS privados';
@@ -41,9 +40,9 @@ $string['seeallfeeds'] = 'Mostrar todos os alimentadores';
 $string['sharedfeed'] = 'RSS compartilhado';
 $string['shownumentrieslabel'] = 'Número máximo de itens mostrados em cada bloco.';
 $string['submitters'] = 'Quem pode definir novos alimentadores RSS? Os alimentadores definidos serão disponibilizados em todas as páginas do site.';
-$string['submitters2'] = 'Editores de RSS';
+$string['submitters2'] = 'Solicitantes';
 $string['timeout'] = 'Tempo em minutos antes que a cache do alimentador termine. Este é o tempo mínimo. O RSS será atualizado na próxima execução do cron. Escolha um valor superior a 30 min.';
-$string['timeout2'] = 'Timeout';
+$string['timeout2'] = 'Tempo limite';
 $string['timeoutdesc'] = 'Duração em minutos do alimentador RSS na cache.';
 $string['updatefeed'] = 'Atualizar URL do alimentador de notícias :';
 $string['validatefeed'] = 'Validar alimentador';

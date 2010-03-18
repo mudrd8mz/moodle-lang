@@ -1,6 +1,4 @@
-<?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9.5+ (Build: 20091007) (2007101553)
-
+<?PHP
 
 $string['addresource'] = 'Acrescentar um recurso';
 $string['affectedresources'] = 'Recursos atingidos';
@@ -13,7 +11,7 @@ $string['choose'] = 'Escolher';
 $string['chooseafile'] = 'Escolher ou enviar arquivo';
 $string['chooseparameter'] = 'Escolher parâmetro';
 $string['clicktoopen'] = 'Para abrir este documento, clique neste link:';
-$string['configallowlocalfiles'] = 'Ao criar um novo recurso, permite links a arquivos do sistema local, como um CD ou um disco rígido. Isto pode ser útil numa classe onde todos os estudantes tem acesso ao mesmo dispositivo da rede ou quando é necessário acessar arquivos de um CD. O uso desta funcionalidade pode exigir a mudança da configuração de segurança de seu navegador.';
+$string['configallowlocalfiles'] = 'Ao criar um novo recurso, permitir links a arquivos do sistema local, como um CD ou um disco rígido. Isto pode ser útil numa classe onde todos os estudantes tem acesso ao mesmo dispositivo da rede ou quando é necessário acessar arquivos de um CD. O uso desta funcionalidade pode exigir a mudança da configuração de segurança de seu navegador.';
 $string['configautofilerenamesettings'] = 'Atualizar automaticamente as referências a arquivos e diretórios quando forem renomeados no gerenciador de arquivos.';
 $string['configblockdeletingfilesettings'] = 'Bloquear a exclusão de arquivos e diretórios ligados a recursos. Imagens e arquivos que são ligados a páginas html não são protegidos.';
 $string['configdefaulturl'] = 'Este valor é usado para completar o formulário da URL automaticamente quando o recurso é baseado em endereço web.';
@@ -54,7 +52,7 @@ $string['framesize'] = 'Tamanho do Frame';
 $string['fulltext'] = 'Texto completo';
 $string['htmlfragment'] = 'Fragmento de HTML';
 $string['imspackageloaded'] = 'Pacote carregado';
-$string['keepnavigationvisible'] = 'Mantenha a navegação na mesma página';
+$string['keepnavigationvisible'] = 'Mostrar navegação';
 $string['keepnavigationvisibleno'] = 'Não';
 $string['keepnavigationvisiblewarning'] = 'Atenção: alguns arquivos multimeios ignoram esta configuração';
 $string['keepnavigationvisibleyesframe'] = 'Sim, com frame';
@@ -62,7 +60,7 @@ $string['keepnavigationvisibleyesobject'] = 'Sim, sem frame';
 $string['localfile'] = 'Arquivo local';
 $string['localfilechoose'] = 'Escolha um arquivo local (CD-ROM)';
 $string['localfilehelp'] = 'Ajuda para visualização dos arquivos locais';
-$string['localfileinfo'] = '<p>Escolha um arquivo local em seu computador. O arquivo não será enviado para o servidor mas o sistema vai procurar este mesmo arquivo no computador de qualquer pessoa que esteja acessando este material.</p><p>Isto é útil quando você tem arquivos multimediais grandes armazenados em CD-ROMs standard que são distribuídos a todos os participantes. Cada participante pode escolher seu próprio caminho de acesso a estes arquivos, <a href=\"$a\" target=\"_blank\">editando seu perfil de usuário</a>.</p>';
+$string['localfileinfo'] = '<p>Escolha um arquivo local em seu computador. O arquivo não será enviado para o servidor mas o sistema vai procurar este mesmo arquivo no computador de qualquer pessoa que esteja acessando este material.</p><p>Isto é útil quando você tem grandes arquivos armazenados em CD-ROMs que são distribuídos a todos os participantes. Cada participante pode escolher seu próprio caminho de acesso a estes arquivos, <a href=\"$a\" target=\"_blank\">editando seu perfil de usuário</a>.</p>';
 $string['localfilepath'] = 'Para definir o percurso de acesso deste recurso, escolha qualquer arquivo do dispositivo do seu computador que contém o material (normalmente um CD-ROM) . Este arquivo não será enviado, mas a informação sobre o dispositivo será arquivada e usada para futuros acessos aos recursos locais.';
 $string['localfileselect'] = 'Escolha o caminho de acesso a este arquivo';
 $string['maindirectory'] = 'Diretório principal';
@@ -134,6 +132,6 @@ $string['viewims'] = 'Ver pacote IMS CP';
 $string['vol'] = 'Vol';
 $string['warningblockingdelete'] = 'Atenção: Não é possível apagar este arquivo pois é utilizado por um recurso. Atualize os seus recursos ou solicite o administrador para desabilitar esta proteção no painel de configuração global dos recursos.';
 $string['warningdisabledrename'] = 'Atenção: Atualmente não está habilitada a operação de renomeação automática das referências nos recurso. Atualize os recursos afetados manualmente. O Administrador pode habilitar a renomeação automática no painel de configuração global dos recursos.';
-$string['websearchdefault'] = 'Pesquisa web padrão';
+$string['websearchdefault'] = 'Buscador web padrão';
 
 ?>

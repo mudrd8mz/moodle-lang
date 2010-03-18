@@ -1,6 +1,4 @@
-<?PHP // $Id$ 
-      // block_tag_flickr.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
-
+<?PHP
 
 $string['blockname'] = 'Flickr';
 $string['configtitle'] = 'Título';
@@ -9,8 +7,8 @@ $string['date-posted-desc'] = 'Data Envio DESC';
 $string['date-taken-asc'] = 'Data Tomada ASC';
 $string['date-taken-desc'] = 'Data Tomada DESC';
 $string['defaulttile'] = 'Flickr';
-$string['getfromphotoset'] = 'Obter fotos do album com id';
-$string['includerelatedtags'] = 'Incluir etiquetas associadas';
+$string['getfromphotoset'] = 'Obter fotos do álbum com id';
+$string['includerelatedtags'] = 'Inclui tags relacionadas na consulta';
 $string['interestingness-asc'] = 'Interesse ASC';
 $string['interestingness-desc'] = 'Interesse DESC';
 $string['numberofphotos'] = 'Número de fotos';

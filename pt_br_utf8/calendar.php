@@ -1,5 +1,4 @@
-<?PHP // $Id$ 
-      // calendar.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
+<?php
 
 
 $string['advancedoptions'] = 'Opções avançadas';
@@ -24,7 +23,7 @@ $string['durationminutes'] = 'Duração em minutos';
 $string['durationnone'] = 'Sem duração';
 $string['durationuntil'] = 'Até';
 $string['editevent'] = 'Editando evento';
-$string['errorbeforecoursestart'] = 'Não é possível definir um evento com data anterior ao inicio do curso';
+$string['errorbeforecoursestart'] = 'Não é possível criar um evento em uma data anterior à data inicial do curso';
 $string['errorinvaliddate'] = 'Data não válida';
 $string['errorinvalidminutes'] = 'Definir duração em minutos utilizando uma numeração entre 1 e 999.';
 $string['errorinvalidrepeats'] = 'Definir número de eventos utilizando uma numeração entre 1 e 99.';

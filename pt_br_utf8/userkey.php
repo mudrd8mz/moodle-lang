@@ -1,6 +1,4 @@
-<?PHP // $Id$ 
-      // userkey.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
-
+<?PHP
 
 $string['createnewkey'] = 'Criar uma nova chave de usuário';
 $string['createuserkey'] = 'Criar chave de usuário';
@@ -12,6 +10,6 @@ $string['keyvaliduntil'] = 'Chave válida até';
 $string['keyvalue'] = 'Valor da chave';
 $string['newuserkey'] = 'Nova chave de usuário';
 $string['userkey'] = 'Chave do usuário';
-$string['userkeys'] = 'Chaves de usuários';
+$string['userkeys'] = 'Chaves do usuário';
 
 ?>

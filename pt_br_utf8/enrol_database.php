@@ -45,6 +45,5 @@ $string['teacher_table'] = 'O nome da tabela em que as inscrições de professor
 $string['template'] = 'Opcional: cursos auto-criados podem copiar as configurações a partir de um modelo de curso. Inserir um nome breve deste modelo de curso.';
 $string['type'] = 'Tipo de servidor de base de dados';
 $string['user'] = 'Nome do usuário para acessar o servidor';
-$string['local_coursefield'] = 'O nome do campo da tabela do curso que usamos para inserir itens da base de dados remota (ex. idnumber)'; // ORPHANED
 
 ?>

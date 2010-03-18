@@ -1,6 +1,4 @@
-<?PHP // $Id$ 
-      // blog.php - created with Moodle 1.9.2+ (Build: 20080903) (2007101522)
-
+<?PHP
 
 $string['addnewentry'] = 'Acrescentar novo texto';
 $string['backupblogshelp'] = 'Se habilitada, os blogs serão incluídos no backup automático do site';
@@ -14,7 +12,7 @@ $string['blogs'] = 'Blogs';
 $string['blogtags'] = 'Tags do Blog';
 $string['courseblog'] = 'Blog do Curso: $a';
 $string['courseblogs'] = 'Os usuários podem acessar apenas os blogs de outros participantes do curso';
-$string['deleteotagswarn'] = 'Tem certeza que quer cancelar estas tags de todas as mensagens dos blogs e apagar estas tags em todo o sistema?';
+$string['deleteotagswarn'] = 'Você tem certeza que deseja remover esta(s) tags de todos os posts do blog e removê-la(s) do sistema?';
 $string['disableblogs'] = 'Desabilitar completamente o sistema de blogs';
 $string['emptybody'] = 'O corpo do texto não pode ficar em branco';
 $string['emptytitle'] = 'O título do texto não pode ficar em branco';
@@ -53,10 +51,6 @@ $string['userblog'] = 'Blog do usuário: $a';
 $string['viewcourseentries'] = 'Ver textos do curso';
 $string['viewmyentries'] = 'Ver os meus textos';
 $string['viewsiteentries'] = 'Ver os textos do site';
-$string['worldblogs'] = 'Qualquer pessoa, mesmo se não for um usuário do site, pode ler os textos configurados como acessíveis por Todo o Mundo';
-$string['addotags'] = 'Acrescentar etiquetas oficiais'; // ORPHANED
-$string['addptags'] = 'Acrescentar etiquetas definidas pelo usuário'; // ORPHANED
-$string['otags'] = 'Etiquetas oficiais'; // ORPHANED
-$string['ptags'] = 'Etiquetas definidas pelos usuários'; // ORPHANED
+$string['worldblogs'] = 'Qualquer pessoa, mesmo se não for um usuário do site, pode ler os textos configurados como acessíveis por todos';
 
 ?>
