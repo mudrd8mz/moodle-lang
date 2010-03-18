@@ -36,6 +36,5 @@ $string['somefieldsrequired'] = '有 {$a} 标记的字段必填';
 $string['timing'] = '时间选择';
 $string['unmaskpassword'] = '显示密码';
 $string['year'] = '年';
-$string['denotesreq'] = '{$a}表明此处不能为空。'; // ORPHANED
 
 ?>

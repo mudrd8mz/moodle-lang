@@ -135,6 +135,5 @@ $string['vol'] = '音量';
 $string['warningblockingdelete'] = '警告：删除操作被现存的资源阻止。首先更新您的资源，或者请管理员在全局资源配置中禁止这项安全机制。';
 $string['warningdisabledrename'] = '警告：自动重命名资源中的引用的机制被禁止。如需要，请手动更新受影响的资源。管理员也可以在全局资源配置中使自动重命名有效。';
 $string['websearchdefault'] = '默认 Web 搜索引擎';
-$string['resourcetypejmol'] = '分子结构3D图'; // ORPHANED
 
 ?>

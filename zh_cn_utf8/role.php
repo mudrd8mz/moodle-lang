@@ -105,8 +105,8 @@ $string['morethan'] = '更多{$a}';
 $string['multipleroles'] = '多角色';
 $string['my:manageblocks'] = '管理我的Moodle页面的版块';
 $string['nocapabilitiesincontext'] = '在此环境中没有有效的能力';
-$string['notes:manage'] = '管理评语';
-$string['notes:view'] = '查看评语';
+$string['notes:manage'] = '管理备注';
+$string['notes:view'] = '查看备注';
 $string['notset'] = '未设置';
 $string['overridepermissions'] = '修改权限许可';
 $string['overridepermissionsin'] = '在{$a}中修改权限许可';
@@ -190,8 +190,5 @@ $string['userhashiddenassignments'] = '本课程中有一个或多个隐藏的�
 $string['userswithrole'] = '全站某角色用户';
 $string['viewrole'] = '浏览角色详细信息';
 $string['xuserswiththerole'] = '具有\"{$a->role}\"角色权力的用户数：{$a->number}';
-$string['question:export'] = '导出题目'; // ORPHANED
-$string['question:import'] = '导入题目'; // ORPHANED
-$string['question:manage'] = '管理题目'; // ORPHANED
 
 ?>

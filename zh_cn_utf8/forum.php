@@ -192,8 +192,8 @@ $string['parent'] = '显示父帖子';
 $string['parentofthispost'] = '该帖的父帖';
 $string['postadded'] = '<p>您的帖子已经成功发表。</p>
 <p>如果需要，可以在 {$a} 内修改它。</p>';
-$string['postaddedsuccess'] = '您提交成功';
-$string['postaddedtimeleft'] = '您可以对 {$a} 进行编辑修改';
+$string['postaddedsuccess'] = '您的帖子已成功发布';
+$string['postaddedtimeleft'] = '{$a}内您可以对其进行修改';
 $string['postincontext'] = '在上下文中看此帖';
 $string['postmailinfo'] = '这是一份来自网站 {$a} 的帖子。
 点击下面的链接便可在网站上回帖:';
@@ -297,6 +297,5 @@ $string['youratedthis'] = '您对此评分';
 $string['yournewquestion'] = '您的新问题';
 $string['yournewtopic'] = '您的新讨论话题';
 $string['yourreply'] = '您的回复';
-$string['nopostdiscussion'] = '很抱歉，您不能在此话题发帖子'; // ORPHANED
 
 ?>

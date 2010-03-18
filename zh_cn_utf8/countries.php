@@ -240,7 +240,7 @@ $string['VE'] = '委内瑞拉';
 $string['VG'] = '英属维金岛';
 $string['VI'] = '美属维金岛';
 $string['VN'] = '越南';
-$string['VU'] = '万那杜';
+$string['VU'] = '瓦努阿图';
 $string['WF'] = '沃利斯福特拉群岛';
 $string['WS'] = '萨摩亚';
 $string['YE'] = '也门';
@@ -248,11 +248,5 @@ $string['YT'] = '马约特岛';
 $string['ZA'] = '南非';
 $string['ZM'] = '赞比亚';
 $string['ZW'] = '津巴布韦';
-$string['CS'] = '塞尔维亚'; // ORPHANED
-$string['FX'] = '法国'; // ORPHANED
-$string['KO'] = '科索沃'; // ORPHANED
-$string['TP'] = '东帝汶'; // ORPHANED
-$string['WA'] = '威尔士'; // ORPHANED
-$string['ZR'] = '扎伊尔'; // ORPHANED
 
 ?>

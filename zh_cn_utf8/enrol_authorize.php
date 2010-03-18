@@ -197,18 +197,14 @@ $string['voidyes'] = '请确定处理将被取消';
 $string['welcometocoursesemail'] = '亲爱的同学，
 感谢您的付款。您已经注册了这些课程：
 
-$a->courses
+{$a->courses}
 
 您可以编辑个人资料：
-$a->profileurl
+{$a->profileurl}
 
 您可以查看您的付款细目:
-$a->paymenturl';
+${a->paymenturl}';
 $string['youcantdo'] = '您不能做这部分: {$a->action}';
 $string['zipcode'] = '邮政编码';
-$string['admincronsetup'] = 'cron.php 维持脚本至少24个小时不被运行 <br />如果您想使用预定获取功能那么Cron 必须被激活<br /><b>起作用</b> \'Authorize.net 
-
-插件\'和<b>安装cron</b>适当的;或者<b>不阻止复习</b> 再次.<br />如果您不使用预定获取, 设置会被取消除非您在30天内回顾它们<br />阻止 <b>复习</b>进入 <b>\'0\' to 获取日期</b> 地址<br />如果您想<b>手动的</b>在30天内接受/拒绝付费.'; // ORPHANED
-$string['adminemailexpired'] = '发送警告邮件给管理员<b>{$a}</b>在这里有多少已通过验证的/未决的处理状况，在处理期满之前（0=不能发送邮件，缺省=2，最大=5）<br /> 如果您是手动激活获取(an_review=checked, an_capture_day=0).'; // ORPHANED
 
 ?>

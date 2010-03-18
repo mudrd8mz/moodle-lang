@@ -54,9 +54,5 @@ $string['viewcourseentries'] = '显示课程记录';
 $string['viewmyentries'] = '显示我的记录';
 $string['viewsiteentries'] = '显示站点记录';
 $string['worldblogs'] = '用户可以浏览开放的博客';
-$string['addotags'] = '添加官方标签'; // ORPHANED
-$string['addptags'] = '添加用户定义标签'; // ORPHANED
-$string['otags'] = '官方标签'; // ORPHANED
-$string['ptags'] = '用户定义的标签'; // ORPHANED
 
 ?>

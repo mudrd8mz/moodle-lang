@@ -802,6 +802,5 @@ $string['webproxyinfo'] = '如果您的 Moodle 服务器不能直接访问 Inter
 $string['xmlrpcrecommended'] = '安装可选的xmlrpc扩展对于Moodle网络功能有用。';
 $string['xmlstrictheaders'] = 'XML strict headers';
 $string['ziprequired'] = 'Moodle 需要 PHP Zip 扩展，info-ZIP 命令行程序和 PclZip 库已经不再使用了。';
-$string['configenablerecordcache'] = '开启这个选项，那么在检索数据库信息期间会在内存进行缓存。这意味着您的数据库吞吐率将会更好，但是另一方面，您web服务器内存的要求将有少量增加。通常我们建议此项有效，除非您的服务器内存配置较低。当开发者确信能提升性能的时候，可能会在做一些处理时无视此选项。'; // ORPHANED
 
 ?>

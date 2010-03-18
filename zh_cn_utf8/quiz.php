@@ -605,20 +605,5 @@ $string['xmltypeunsupported'] = '从XML导入功能不支持试题类型：{$a}'
 $string['youneedtoenrol'] = '试答前需要选修该课程。';
 $string['yourfinalgradeis'] = '这个测验您的最后得分是 {$a}';
 $string['zerosignificantfiguresnotallowed'] = '正确答案不能有0位有效数字';
-$string['existingcategory1'] = '在被这个类别中的其他问题也使用的现有文字集中的文字'; // ORPHANED
-$string['existingcategory2'] = '在被这个类别中的其他问题也使用的现有文件集中的文件'; // ORPHANED
-$string['existingcategory3'] = '在被这个类别中的其他问题也使用的现有链接集中的链接'; // ORPHANED
-$string['keptcategory1'] = '已有的可被同分类复用的文字集中的文字'; // ORPHANED
-$string['keptcategory2'] = '已有的可被同分类复用的文件集中的文件'; // ORPHANED
-$string['keptcategory3'] = '已有的可被同分类复用的链接集中的链接'; // ORPHANED
-$string['keptlocal1'] = '已有的可被同一个题目复用的文字集中的文字'; // ORPHANED
-$string['keptlocal2'] = '已有的可被同一个题目复用的文件集中的文件'; // ORPHANED
-$string['keptlocal3'] = '已有的可被同一个题目复用的链接集中的链接'; // ORPHANED
-$string['newcategory1'] = '同类别中的其他题目也可使用的新文字集中的文字'; // ORPHANED
-$string['newcategory2'] = '同类别中的其他题目也可使用的新文件集中的文件'; // ORPHANED
-$string['newcategory3'] = '同类别中的其他题目也可使用的新链接集中的链接'; // ORPHANED
-$string['newlocal1'] = '只有此题目可使用的新文字集中的文字'; // ORPHANED
-$string['newlocal2'] = '只有此题目可使用的新文件集中的文件'; // ORPHANED
-$string['newlocal3'] = '只有此题目可使用的新链接集中的链接'; // ORPHANED
 
 ?>

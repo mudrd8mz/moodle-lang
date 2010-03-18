@@ -24,6 +24,5 @@ $string['tablelayout'] = '布局表 {$a}';
 $string['tocontent'] = '看主要内容';
 $string['tonavigation'] = '看导航';
 $string['youarehere'] = '您位于';
-$string['showhideblock'] = '显示或隐藏版块'; // ORPHANED
 
 ?>

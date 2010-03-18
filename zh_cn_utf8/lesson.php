@@ -301,10 +301,5 @@ $string['youranswer'] = '您的答案';
 $string['yourcurrentgradeis'] = '您当前的分数是{$a}';
 $string['yourcurrentgradeisoutof'] = '您目前的分数是{$a->grade}（总分{$a->total}）';
 $string['youshouldview'] = '您最少应该浏览：{$a}';
-$string['outoftime'] = '超时'; // ORPHANED
-$string['studentoutoftime'] = '注意：您已经超出本课规定的时间。您最后的回答没有计算因为它是在超时后回答的。请按 继续 按钮来结束此程序教学。'; // ORPHANED
-$string['editlesson'] = '编辑{$a}'; // ORPHANED
-$string['mainmenu'] = '课程菜单'; // ORPHANED
-$string['returnmainmenu'] = '返回主菜单'; // ORPHANED
 
 ?>
