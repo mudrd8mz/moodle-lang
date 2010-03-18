@@ -293,7 +293,9 @@ $string['courserejectemail'] = 'Infelizmente o seu pedido de abertura de curso n
 $a';
 $string['courserejectreason'] = 'Descreva as razões para rejeitar este curso<br />(uma cópia será mandada por email ao autor do pedido)';
 $string['courserejectsubject'] = 'O seu curso não foi aceito';
+$string['coursereports'] = 'Relatórios do curso';
 $string['courserequest'] = 'Pedido de curso';
+$string['courserequestdetails'] = 'Detalhes do curso requisitado';
 $string['courserequestfailed'] = 'O seu pedido não foi enviado em razão de problema desconhecido';
 $string['courserequestintro'] = 'Use este formulário para pedir a criação de um novo curso.<br /> Forneça o maior número de informações possível<br />para que os administradores possam entender e aceitar o seu pedido.';
 $string['courserequestreason'] = 'Razões para abrir este curso';
