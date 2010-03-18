@@ -138,6 +138,6 @@ $string['usernotupdatednotexists'] = 'Usuário não foi atualizado - ele não ex
 $string['wrongdestpath'] = 'Percurso do destino errado';
 $string['wrongsourcebase'] = 'URL do recurso errado';
 $string['wrongzipfilename'] = 'Nome do arquivo ZIP errado';
-$string['youcannotdeletecategory'] = 'Não é possível apagar a categoria \'$a\' nem cancelar ou mover os conteúdos.';
+$string['youcannotdeletecategory'] = 'Não é possível excluir a categoria \'$a\' nem excluir ou mover os conteúdos.';
 
 ?>

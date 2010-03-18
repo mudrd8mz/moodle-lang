@@ -110,7 +110,7 @@ $string['logindesc'] = 'Esta opção deve estar ativa.
 Você pode configurar a opção <a href=\"$a->url\">loginhttps</a> na seção Variáveis/Segurança.
 <br /><br />
 Com esta opção ativada Moodle usa o https seguro no hora do login e na página de pagamentos.';
-$string['logininfo'] = 'Nome de usuário, senha e código de transação não são visualizados como precaução de segurança. Não é necessário inserir de novo os dados se já foram configurados antes. Neste caso, ao lado dos campos é visualizado um bloco verde. Se esta é a primeira vez que você está inserindo estes dados, o nome de usuário (*) é obrigatório assim como o código da transação (#1) ou a senha (#2). Inseri o código da transação é a opção mais segura. Para cancelar a senha atual, selecione a caixa de opção correspondente.';
+$string['logininfo'] = 'Nome de usuário, senha e código de transação não são visualizados como precaução de segurança. Não é necessário inserir de novo os dados se já foram configurados antes. Neste caso, ao lado dos campos é visualizado um bloco verde. Se esta é a primeira vez que você está inserindo estes dados, o nome de usuário (*) é obrigatório assim como o código da transação (#1) ou a senha (#2). Inserir o código da transação é a opção mais segura. Para cancelar a senha atual, selecione a caixa de opção correspondente.';
 $string['methodcc'] = 'Cartão de crédito';
 $string['methodecheck'] = 'eCheck (ACH)';
 $string['missingaba'] = 'Falta o número ABA';

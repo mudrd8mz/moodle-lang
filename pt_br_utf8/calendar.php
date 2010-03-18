@@ -8,7 +8,7 @@ $string['calendarheading'] = '$a Calendário';
 $string['clickhide'] = 'clique para esconder';
 $string['clickshow'] = 'clique para mostrar';
 $string['commontasks'] = 'Opções';
-$string['confirmeventdelete'] = 'Você tem certeza que quer cancelar este evento?';
+$string['confirmeventdelete'] = 'Você tem certeza que quer excluir este evento?';
 $string['course'] = 'Curso';
 $string['courseevent'] = 'Evento do curso';
 $string['courseevents'] = 'Eventos do curso';
@@ -130,6 +130,6 @@ $string['wednesday'] = 'Quarta-feira';
 $string['weeknext'] = 'Próxima semana';
 $string['weekthis'] = 'Esta semana';
 $string['yesterday'] = 'Ontem';
-$string['youcandeleteallrepeats'] = 'Este evento é parte de uma série de eventos repetidos. Você pode cancelar apenas este evento ou todos os $a eventos de uma vez só.';
+$string['youcandeleteallrepeats'] = 'Este evento é parte de uma série de eventos repetidos. Você pode excluir apenas este evento ou todos os $a eventos de uma vez só.';
 
 ?>

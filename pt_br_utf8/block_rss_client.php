@@ -1,6 +1,5 @@
 <?php
 
-
 $string['addfeed'] = 'Adicionar URL do alimentador de notícias:';
 $string['addheadlineblock'] = 'Adicionar título do bloco RSS';
 $string['addnew'] = 'Adicionar Novo';
@@ -13,7 +12,7 @@ $string['clientshowimagelabel'] = 'Mostrar imagem do canal, se disponível :';
 $string['configblock'] = 'Configurar este bloco';
 $string['couldnotfindfeed'] = 'Nenhum alimentador encontrado com este id';
 $string['customtitlelabel'] = 'Título padrão (deixar em branco para usar o título fornecido pelo alimentador):';
-$string['deletefeedconfirm'] = 'Tem certeza que deseja cancelar este alimentador?';
+$string['deletefeedconfirm'] = 'Tem certeza que deseja excluir este alimentador?';
 $string['displaydescriptionlabel'] = 'Mostrar todas as descrições dos links?';
 $string['editfeeds'] = 'Editar, fazer ou cancelar assinatura de alimentadores de notícias RSS/Atom';
 $string['editnewsfeeds'] = 'Editar alimentadores de notícias';

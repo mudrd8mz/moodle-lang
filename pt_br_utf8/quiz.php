@@ -152,10 +152,9 @@ $string['defaultgrade'] = 'Avaliação predefinida';
 $string['defaultinfo'] = 'Categoria predefinida para perguntas';
 $string['delay1'] = 'Intervalo entre a primeira e a segunda tentativa';
 $string['delay2'] = 'Intervalo entre a segunda e outras tentativas';
-$string['deleteattemptcheck'] = 'Você tem certeza que quer cancelar estas tentativas completamente?';
+$string['deleteattemptcheck'] = 'Você tem certeza que quer excluir estas tentativas completamente?';
 $string['deletequestioncheck'] = 'Você tem certeza absoluta que quer apagar \'$a\'?';
-$string['deletequestionscheck'] = 'tem certeza que quer cancelar definitivamente as seguintes questões? 
-?<br /><br />$a';
+$string['deletequestionscheck'] = 'Você tem certeza que quer excluir definitivamente as seguintes questões?<br /><br />$a';
 $string['deleteselected'] = 'Apagar selecionadas';
 $string['deletingquestionattempts'] = 'Apagar tentativas';
 $string['description'] = 'Descrição';

@@ -14,7 +14,7 @@ $string['deleteusers'] = 'Cancelar contas de usuários quando especificado em IM
 $string['description'] = 'Este método controla repetidamente e processa textos com formatação especial no endereço que você indicar. O arquivo deve seguir as <a href=\'../help.php?module=enrol/imsenterprise&file=formatoverview.html\' target=\'_blank\'>IMS Enterprise specifications</a> e conter elemento XML relativos às pessoas, grupos e associações.';
 $string['doitnow'] = 'fazer importação IMS Enterprise imediatamente';
 $string['enrolname'] = 'Arquivo IMS Enterprise';
-$string['filelockedmail'] = 'O arquivo de texto que você está usando para inscrições baseadas em IMS ($a) não pode ser cancelado pelo processo cron. Isto significa que as autorizações do arquivo estão configuradas em modo errado. Por favor, corrija as permissões para que o Moodle possa cancelar o arquivo. Assim você evita que o arquivo seja processado repetidamente.';
+$string['filelockedmail'] = 'O arquivo de texto que você está usando para inscrições baseadas em IMS ($a) não pode ser excluído pelo processo cron. Isto significa que as autorizações do arquivo estão configuradas em modo errado. Por favor, corrija as permissões para que o Moodle possa excluir arquivo. Assim você evita que o arquivo seja processado repetidamente.';
 $string['filelockedmailsubject'] = 'Erro importante no arquivo de inscrição';
 $string['fixcasepersonalnames'] = 'Mudar primeira letra de nomes pessoais para maiúsculas';
 $string['fixcaseusernames'] = 'Mudar nomes de usuários para minúsculas';
