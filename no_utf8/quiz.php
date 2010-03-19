@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.7+ (Build: 20100203) (2007101571.03)
+      // quiz.php - created with Moodle 1.9.7+ (Build: 20100317) (2007101571.04)
 
 
 $string['1day'] = '1 dag';
@@ -12,7 +12,7 @@ $string['action'] = 'Handling';
 $string['adaptive'] = 'Tilpasningsmodus';
 $string['addcategory'] = 'Legg til kategori';
 $string['addingcalculated'] = 'Legger til et Kalkulert spørsmål';
-$string['addingdescription'] = 'Legger til en beskrivelse';
+$string['addingdescription'] = 'Legger til et informasjonsfelt';
 $string['addingessay'] = 'Legger til Fritekst';
 $string['addingmatch'] = 'Legger til Samsvarende spørsmål';
 $string['addingmultianswer'] = 'Legger til utfyllingsspørsmål (Cloze)';
@@ -156,7 +156,7 @@ $string['deletequestioncheck'] = 'Er du helt sikker på at du vil slette \'$a\'?
 $string['deletequestionscheck'] = 'Er du helt sikker på at du vil slette følgende spørsmål? <div>$a</div>';
 $string['deleteselected'] = 'Slett valgte';
 $string['deletingquestionattempts'] = 'Sletter forsøk';
-$string['description'] = 'Beskrivelse';
+$string['description'] = 'Informasjonsfelt';
 $string['discrimination'] = 'Diskrimineringsindeks';
 $string['displayoptions'] = 'Vis valgmuligheter';
 $string['download'] = 'Klikk for å laste ned den eksporterte kategorifila';
@@ -168,7 +168,7 @@ $string['editcategory'] = 'Rediger kategori';
 $string['editcatquestions'] = 'Rediger kategorispørsmål';
 $string['editdatasets'] = 'Rediger datasettene';
 $string['editingcalculated'] = 'Editerer et beregnet spørsmål';
-$string['editingdescription'] = 'Redigerer en beskrivelse';
+$string['editingdescription'] = 'Redigerer et informasjonsfelt';
 $string['editingessay'] = 'Editerer essay';
 $string['editingmatch'] = 'Rediger et sammenfallende spørsmål';
 $string['editingmultianswer'] = 'Rediger lukesvar';
@@ -450,7 +450,7 @@ $string['quiztimelimit'] = 'Tidsbegrensning';
 $string['quiztimer'] = 'Prøvetidtaker';
 $string['random'] = 'Tilfeldig';
 $string['randomcreate'] = 'Lag tilfeldige spørsmål';
-$string['randomsamatch'] = 'TIlfeldig kort-svar samsvar';
+$string['randomsamatch'] = 'Tilfeldig kort-svar samsvar';
 $string['randomsamatchcreate'] = 'Opprett tilfeldig Kortsvar Samsvarende spørsmål';
 $string['randomsamatchintro'] = 'For hvert av de følgende spørsmålene må du velge et svar som passer fra menyen.';
 $string['randomsamatchnumber'] = 'Antall spørsmål å velge';
