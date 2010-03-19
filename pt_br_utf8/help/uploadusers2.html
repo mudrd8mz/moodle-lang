@@ -14,7 +14,7 @@
       <p><code>institution, department, city, country, lang, auth, ajax, timezone, idnumber, icq, phone1, phone2, address, url, description, mailformat, maildisplay, htmleditor, autosubscribe, emailstop</code></p>
       <p><strong>Nomes de campos customizados para perfis:</strong> opcional, com xxxxx como o nome real do usuário a ser atualizado (o nome breve, que é único)</p>
       <p><code>profile_field_xxxxx</code></p>
-      <p><strong>Nomes de campos especiais:</strong> usados para alterar nomes de usuário e apagar contas, veja abaixo</p>
+      <p><strong>Nomes de campos especiais:</strong> usados para alterar nomes de usuário e excluir contas, veja abaixo</p>
       <p><code>deleted, oldusername</code></p>
       <p><strong>Nomes de campos para inscrição (opcional):</strong> Os nomes dos cursos são os nomes breves dos mesmos - se presentes, o usuário será inscrito neles. &quot;Type&quot; define o tipo de função associada à inscrição.
          O valor 1 é o papel de aluno normal, 2 é o de professor que edita e 3 é o de professor que não pode editar. Você pode usar o campo de funções, em vez de especificá-las diretamente - use o nome breve da função ou o id (os nomes numéricos não são suportados). Usuários também podem ser atríbuidos a grupos nos cursos(group1 no course1, group2 no course2, etc.). Grupos, como os outros, são identificados pelos nomes ou ids (nomes númericos não funcionam).</p>
@@ -71,7 +71,7 @@ Por exemplo, se um arquivo CSV contém usuários chamados John Doe, Jane Doe e J
 
 <h2>Apagando contas</h2>
 <p>Se o código <code>deleted</code> estiver presente nas colunas, usuários com o valor 1 serão apagados. Nesse caso, todos os campos podem ser omitidos, exceto <code>username</code>.</p>
-<p>O apagamento e o envio de contas podem ser feitos com um arquivo CSV único. Por exemplo, o arquivo a seguir criaria um usuário Tom Jones e apagaria o usuário reznort:</p>
+<p>O apagamento e o envio de contas podem ser feitos com um arquivo CSV único. Por exemplo, o arquivo a seguir criaria um usuário Tom Jones e excluiria o usuário reznort:</p>
 <p><code>username, firstname, lastname, deleted<br />
 jonest, Tom, Jones, 0<br />
 reznort, , , 1

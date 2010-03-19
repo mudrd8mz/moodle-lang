@@ -2,7 +2,7 @@
 
 $string['createnewkey'] = 'Criar uma nova chave de usuário';
 $string['createuserkey'] = 'Criar chave de usuário';
-$string['deletekeyconfirm'] = 'Você realmente deseja remover esta chave de usuário?';
+$string['deletekeyconfirm'] = 'Você realmente deseja excluir esta chave de usuário?';
 $string['edituserkey'] = 'Editar chave de usuário';
 $string['keyiprestriction'] = 'Restrição IP da chave';
 $string['keymanager'] = 'Gerenciador de chaves';

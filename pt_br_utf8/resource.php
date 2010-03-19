@@ -130,7 +130,7 @@ $string['upbutton'] = 'Para cima';
 $string['variablename'] = 'Nome da variável';
 $string['viewims'] = 'Ver pacote IMS CP';
 $string['vol'] = 'Vol';
-$string['warningblockingdelete'] = 'Atenção: Não é possível apagar este arquivo pois é utilizado por um recurso. Atualize os seus recursos ou solicite o administrador para desabilitar esta proteção no painel de configuração global dos recursos.';
+$string['warningblockingdelete'] = 'Atenção: Não é possível excluir este arquivo pois ele é utilizado por um recurso. Atualize os seus recursos ou solicite o administrador para desabilitar esta proteção no painel de configuração global dos recursos.';
 $string['warningdisabledrename'] = 'Atenção: Atualmente não está habilitada a operação de renomeação automática das referências nos recurso. Atualize os recursos afetados manualmente. O Administrador pode habilitar a renomeação automática no painel de configuração global dos recursos.';
 $string['websearchdefault'] = 'Buscador web padrão';
 

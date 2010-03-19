@@ -29,7 +29,7 @@ $string['configmaxbytes'] = 'Maior tamanho definido para todas as tarefas do sit
 $string['configshowrecentsubmissions'] = 'Todos podem ver listas de novos envios no relatório de atividades recentes';
 $string['confirmdeletefile'] = 'Tem certeza que quer cancelar este arquivo?
 <br /><strong>$a</strong>';
-$string['deleteallsubmissions'] = 'Apagar todos os arquivos enviados';
+$string['deleteallsubmissions'] = 'Excluir todos os arquivos enviados';
 $string['deletefilefailed'] = 'Não foi cancelado o arquivo';
 $string['description'] = 'Descrição';
 $string['draft'] = 'Esboço';

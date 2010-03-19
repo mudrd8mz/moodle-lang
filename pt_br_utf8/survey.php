@@ -178,8 +178,8 @@ Não há respostas certas ou erradas; nós estamos interessados apenas na sua op
 Agradecemos a sua colaboração.';
 $string['collespname'] = 'COLLES (expectativas)';
 $string['customintro'] = 'Introdução padrão';
-$string['deleteallanswers'] = 'Apagar todas as respostas';
-$string['deleteanalysis'] = 'Apagar a análise das respostas';
+$string['deleteallanswers'] = 'Excluir todas as respostas';
+$string['deleteanalysis'] = 'Excluir a análise das respostas';
 $string['done'] = 'Feito';
 $string['download'] = 'Baixar';
 $string['downloadexcel'] = 'Baixar os dados como arquivo Excel';
