@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // debug.php - created with Moodle 2.0 dev (Build: 20100114) (2010011400)
+      // debug.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
 
 
 $string['authpluginnotfound'] = 'Plugin $a zur Authentifierung nicht gefunden';
@@ -16,6 +16,7 @@ $string['fixsetting'] = 'Bitte korrigieren Sie die Einstellungen in der Datei co
 $string['invalidarraysize'] = 'Falsche Feldgröße bei den Einstellungen von $a';
 $string['invalideventdata'] = 'Falscher Kalendereintrag übermittelt: $a';
 $string['invalidparameter'] = 'Die Ausführung wird abgebrochen, weil ein ungültiger Parameterwert gefunden wurde.';
+$string['invalidresponse'] = 'Die Ausführung wird abgebrochen, weil ein ungültiger Rückgabewert gefunden wurde.';
 $string['missingconfigversion'] = 'Der Vorgang wird abgebrochen, weil die Konfigurationstabelle keine Versionsangabe beinhaltet.';
 $string['modulenotexist'] = 'Modul $a existiert nicht';
 $string['morethanonerecordinfetch'] = 'Mehr als einen Datensatz in  fetch() gefunden!';

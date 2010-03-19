@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // mnet.php - created with Moodle 2.0 dev (Build: 20100215) (2010021400)
+      // mnet.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
 
 
 $string['RPC_HTTPS_SELF_SIGNED'] = 'HTTPS (selbstsigniert)';
@@ -71,7 +71,7 @@ $string['hideremote'] = 'Entfernte Nutzer/innen verbergen';
 $string['host'] = 'Rechner';
 $string['hostcoursenotfound'] = 'Rechner oder Kurs nicht gefunden';
 $string['hostdeleted'] = 'Ok - Rechner entfernt';
-$string['hostexists'] = 'Es gibt bereits einen Datensatz für diesen Rechner und die Moodle-Verknüpfung mit der ID $a. <br />Klicken Sie auf <em>Weiter</em>, um den Datensatz zu bearbeiten .';
+$string['hostexists'] = 'Es gibt bereits einen Datensatz für diesen Rechnernamen (er könnte auch gelöscht sein). <a href=\"$a\">Datensatz bearbeiten</a>.';
 $string['hostlist'] = 'Liste von verbundenen Servern';
 $string['hostname'] = 'Rechnername';
 $string['hostnamehelp'] = 'Vollständiger Domainname des Remote-Rechners, z.B. www.beispiel.de';
@@ -136,6 +136,7 @@ $string['net'] = 'Netzwerk';
 $string['networksettings'] = 'Netzwerk-Einstellungen';
 $string['never'] = 'Nie';
 $string['noaclentries'] = 'Keine Einträge in der SSO-Access-Kontrollliste';
+$string['noaddressforhost'] = 'Dieser Rechnername kann nicht gefunden werden: $a';
 $string['nocurl'] = 'PHP-Library cURL wurde nicht installiert';
 $string['nohostid'] = 'Diese Seite benötigt eine Rechner-ID, die eine Zahl sein sollte.';
 $string['noipmatch'] = 'Die Remote-Rechner-Adresse <br /><em>$a[0]</em><br /> passt nicht zu der Adresse im Datensatz<br /><em>$a[1]</em>.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20091128) (2009112400)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
 
 
 $string['add_item'] = 'Element hinzufügen';
@@ -7,6 +7,7 @@ $string['add_items'] = 'Elemente hinzufügen';
 $string['add_pagebreak'] = 'Seitenumbruch hinzufügen';
 $string['adjustment'] = 'Ausrichtung';
 $string['after_submit'] = 'Nach dem Einreichen';
+$string['allowfullanonymous'] = 'Völlige Anonymität erlauben';
 $string['analysis'] = 'Auswertung';
 $string['anonymous'] = 'Anonym';
 $string['anonymous_edit'] = 'Anonym ausfüllen';
@@ -30,6 +31,7 @@ $string['chosen_feedback_response'] = 'gewählte Feedback-Antwort';
 $string['complete_the_form'] = 'Formular ausfüllen...';
 $string['completed'] = 'Ausgefüllt';
 $string['completed_feedbacks'] = 'Ausgefüllte Feedbacks';
+$string['configallowfullanonymous'] = 'Wenn diese Option gesetzt ist, dann kann das Feedback ohne eine vorhergehende Anmeldung abgegeben werden. Dies betrifft ausschließlich Feedbacks auf der Startseite.';
 $string['confirmdeleteentry'] = 'Sind Sie sicher, dass dieser Eintrag gelöscht werden soll?';
 $string['confirmdeleteitem'] = 'Sind Sie sicher, dass dieses Element gelöscht werden soll?';
 $string['confirmdeletetemplate'] = 'Sind Sie sicher, dass diese Vorlage gelöscht werden soll?';
@@ -132,8 +134,8 @@ $string['numeric'] = 'Numerische Antwort';
 $string['numeric_range_from'] = 'Bereich von';
 $string['numeric_range_to'] = 'Bereich bis';
 $string['of'] = 'von';
-$string['oldvaluespreserved'] = 'Alle alten Fragen und die eingegebenen Werte werden aufbewahrt';
-$string['oldvalueswillbedeleted'] = 'Die aktuelle Frage und alle Nutzer-Antworten werden gelöscht';
+$string['oldvaluespreserved'] = 'Alle alten Fragen und eingegebenen Werte werden aufbewahrt';
+$string['oldvalueswillbedeleted'] = 'Die aktuelle Frage und alle Nutzerantworten werden gelöscht';
 $string['overview'] = 'Überblick';
 $string['page'] = 'Seite';
 $string['page_after_submit'] = 'Seite nach dem Absenden';
@@ -154,7 +156,7 @@ $string['radiobutton'] = 'Single Choice - Radiobutton';
 $string['radiobutton_rated'] = 'Radiobutton (skaliert)';
 $string['radiorated'] = 'Radiobutton (skaliert)';
 $string['ready_feedbacks'] = 'ausgefüllte Feedbacks';
-$string['relateditemsdeleted'] = 'Alle Nutzer-Antworten für diese Frage werden gelöscht';
+$string['relateditemsdeleted'] = 'Alle Nutzerantworten für diese Frage werden gelöscht';
 $string['required'] = 'Erforderlich';
 $string['resetting_data'] = 'Feedback-Antworten zurücksetzen';
 $string['resetting_feedbacks'] = 'Feedbacks werden zurückgesetzt';
@@ -211,6 +213,6 @@ $string['are_you_sure_to_delete_this_template'] = 'Wollen Sie diese Vorlage wirk
 $string['are_you_sure_to_use_this_template'] = 'Wollen Sie diese Vorlage wirklich verwenden?'; // ORPHANED
 $string['feedback:deletecompleteds'] = 'Antworten löschen'; // ORPHANED
 $string['this_feedback_is_already_submittet'] = 'Dieser Fragebogen wurde bereits ausgefüllt'; // ORPHANED
-$string['select_item_type'] = 'Elementtyp wählen';  // ORPHANED
+$string['select_item_type'] = 'Elementtyp wählen'; // ORPHANED
 
 ?>

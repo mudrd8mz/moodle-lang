@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100213) (2010020701)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -46,13 +46,13 @@ $string['addsubcategory'] = 'Neuen Kursunterbereich anlegen';
 $string['addteacher'] = 'Trainer/in anlegen';
 $string['admin'] = 'Admin';
 $string['adminbookmarks'] = 'Administratorlesezeichen';
-$string['adminhelpaddnewuser'] = 'Neuen Nutzerzugang manuell anlegen';
+$string['adminhelpaddnewuser'] = 'Neues Nutzerkonto manuell anlegen';
 $string['adminhelpassignadmins'] = 'Administrator/innen haben vollen Zugriff auf die gesamte Website';
-$string['adminhelpassigncreators'] = 'Kursverwalter/innen können neue Kurse anlegen und dort unterrichten.';
+$string['adminhelpassigncreators'] = 'Kursverwalter/innen können neue Kurse anlegen';
 $string['adminhelpassignsiteroles'] = 'Definierte Rollen der Website auf ausgewählte Nutzer/innen anwenden';
 $string['adminhelpassignstudents'] = 'Gehen Sie in einen Kurs und fügen Sie die Teilnehmer/innen über den Administrationsblock hinzu.';
 $string['adminhelpassignteachers'] = 'Wählen Sie einen Kurs und fügen Sie die Trainer/innen über den Administrationsblock hinzu.';
-$string['adminhelpauthentication'] = 'Sie können die interne Nutzerverwaltung oder externe Datenbanken verwenden.';
+$string['adminhelpauthentication'] = 'Sie können die interne Nutzerkonten oder externe Datenbanken verwenden';
 $string['adminhelpbackup'] = 'Datensicherung konfigurieren';
 $string['adminhelpconfiguration'] = 'Aussehen und Aufbau der Website konfigurieren';
 $string['adminhelpconfigvariables'] = 'Allgemeine Einstellungen der Website konfigurieren';
@@ -291,7 +291,7 @@ $string['coursecategories'] = 'Kursbereiche';
 $string['coursecategory'] = 'Kursbereich';
 $string['coursecategorydeleted'] = 'Gelöschter Kursbereich $a';
 $string['coursecreators'] = 'Kursverwalter/in';
-$string['coursecreatorsdescription'] = 'Kursverwalter/innen dürfen neue Kurse anlegen und in ihnen unterrichten.';
+$string['coursecreatorsdescription'] = 'Kursverwalter/innen können neue Kurse anlegen.';
 $string['coursedeleted'] = 'Gelöschter Kurs $a';
 $string['courseenrolend'] = 'Ende der Kurseinschreibung';
 $string['courseenrolenddate'] = 'Ende der Kurseinschreibung';

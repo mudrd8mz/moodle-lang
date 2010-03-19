@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20100114) (2010011400)
+      // auth.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
 
 
 $string['CASform'] = 'Wahl der Authentifizierung';
@@ -360,6 +360,7 @@ $string['passwordhandling'] = 'Nutzung des Kennwortfeldes';
 $string['plaintext'] = 'Reiner Text';
 $string['pluginnotenabled'] = 'Authentifizierungsplugin \'$a\' ist nicht aktiviert.';
 $string['pluginnotinstalled'] = 'Authentifizierungsplugin \'$a\' ist nicht installiert.';
+$string['potentialidps'] = 'Melden Sie sich normalerweise irgendwo an, bevor Sie diese Stelle erreichen?<br />Wählen Sie aus der folgenden Liste Ihre übliche Seite zum Anmelden aus:';
 $string['recaptcha'] = 'ReCaptcha';
 $string['rpc_negotiation_timeout'] = 'RPC negotiation timeout';
 $string['selfregistration'] = 'Selbstregistrierung';

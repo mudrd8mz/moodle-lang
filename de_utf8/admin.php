@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20100215) (2010021400)
+      // admin.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
 
 
 $string['accessdenied'] = 'Kein Zugriff';
@@ -83,6 +83,8 @@ $string['clistatusdisabled'] = 'Status: deaktiviert';
 $string['clistatusenabled'] = 'Status: aktiviert';
 $string['clitypevalue'] = 'Wert eingeben';
 $string['clitypevaluedefault'] = 'Wert eingeben. Drücken Sie Enter, um den Standardwert zu benutzen ($a)';
+$string['cliunknowoption'] = 'Nicht erkannte Optionen: $a.
+Für Hilfe nutzen Sie bitte die Option --help';
 $string['cliupgradefinished'] = 'Die Kommandozeilen-Aktualisierung wurde erfolgreich beendet';
 $string['commonfiltersettings'] = 'Einfache Filtereinstellungen';
 $string['commonsettings'] = 'Einfache Einstellungen';
@@ -262,7 +264,7 @@ $string['configrcache'] = 'Der Cache-Speicher wird benutzt, um Datenbankeinträg
 $string['configrcachettl'] = 'Gültigkeitsdauer für zwischengespeicherte Inhalte (in Sekunden). Wählen Sie hier einen Wert kleiner als 15.';
 $string['configrecaptchaprivatekey'] = 'Codierung für die Kommunikation zwischen dem Moodle Server und dem recaptcha.net Server.  Dieser Code wird durch http://recaptcha.net zur Verfügung gestellt.';
 $string['configrecaptchapublickey'] = 'Code, der zur Anzeige des ReCaptcha Elements bei der Nutzerregistrierung verwandt wird. Dieser wird von http://recaptcha.net zur Verfügung gestellt.';
-$string['configregenloginsession'] = 'Die Neugenerierung der Session-ID während jeder Login-Anforderung ist dringend empfohlen. Diese Einstellung könnte eventuell mit einigen Plugins zur Authentifizierung nicht kompatibel sein.';
+$string['configregenloginsession'] = 'Die Neugenerierung der Session-ID während jeder Login-Anforderung wird aus Sicherheitsgründen dringend empfohlen. Diese Einstellung könnte eventuell mit einigen Authentifizierungsplugins nicht kompatibel sein.';
 $string['configrequestedstudentname'] = 'Begriff für Teilnehmer/in in beantragten Kursen';
 $string['configrequestedstudentsname'] = 'Begriff für Teilnehmer/innen in beantragten Kursen';
 $string['configrequestedteachername'] = 'Begriff für Trainer/in in beantragten Kursen';
