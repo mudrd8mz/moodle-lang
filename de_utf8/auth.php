@@ -52,7 +52,7 @@ $string['auth_dbdebugauthdb'] = 'Debug ADOdb';
 $string['auth_dbdebugauthdbhelp'] = 'Debug der ADOdb Verbindung zu externer Datenbank. Diese Funktion kann ausgeführt werden wenn beim Login eine leere Seite erscheint. Die Funktion sollte nicht auf Produktivinstallationen eingesetzt werden.';
 $string['auth_dbdeleteuser'] = 'Gelöschte Nutzer/innen $a[0] id $a[1]';
 $string['auth_dbdeleteusererror'] = 'Fehler beim Löschen von Nutzer/in $a';
-$string['auth_dbdescription'] = 'Diese Methode benutzt eine externe Datenbank-Tabelle, um die Gültigkeit von angegebenem Anmeldenamen und Kennwort zu überprüfen, Wenn der Zugang neu ist, werden die Informationen der übrigen Felder ebenso zu Moodle hinüberkopiert.';
+$string['auth_dbdescription'] = 'Diese Methode benutzt eine externe Datenbank-Tabelle, um die Gültigkeit von angegebenem Anmeldenamen und Kennwort zu überprüfen. Wenn der Zugang neu ist, werden die Informationen der übrigen Felder ebenso zu Moodle hinüberkopiert.';
 $string['auth_dbextencoding'] = 'Externe db Codierung';
 $string['auth_dbextencodinghelp'] = 'Codierung in externer Datenbank verwandt';
 $string['auth_dbextrafields'] = 'Diese Felder sind optional. Sie können auswählen, einige Moodle-Nutzerfelder mit Informationen des <b>externen Datenbank-Feldes</b> vorauszufüllen, das Sie hier angeben.
@@ -92,7 +92,7 @@ $string['auth_dbuserstoadd'] = 'Nutzereinträge zum Hinzufügen: $a';
 $string['auth_dbuserstoremove'] = 'Nutzereinträge zum Entfernen: $a';
 $string['auth_emailchangecancel'] = 'E-Mail-Änderung abbrechen';
 $string['auth_emailchangepending'] = 'Die Änderung ist noch nicht abgeschlossen. Öffnen Sie den zugesandten Link in $a->preference_newemail';
-$string['auth_emaildescription'] = 'E-Mail-Bestätigung ist die Standard-Authentifizierungsmethode. Wenn sich Nutzer/innen neu anmelden, ihren eigenen Anmeldenamen und ihr Kennwort auswählen, dann wird zur Bestätigung eine E-Mail an die angegebene E-Mail-Adresse gesendet. Diese E-Mail enthält einen sicheren Verweis auf eine Seite, wo die Nutzer/innen ihren Zugang bestätigen müssen. Spätere Anmeldungen prüfen nur  Anmeldenamen und Kennwort anhand der in der Moodle-Datenbank gespeicherten Daten.';
+$string['auth_emaildescription'] = 'E-Mail-Bestätigung ist die Standard-Authentifizierungsmethode. Wenn sich Nutzer/innen neu anmelden, ihren eigenen Anmeldenamen und ihr Kennwort auswählen, dann wird zur Bestätigung eine E-Mail an die angegebene E-Mail-Adresse gesendet. Diese E-Mail enthält einen sicheren Verweis auf eine Seite, wo die Nutzer/innen ihren Zugang bestätigen müssen. Spätere Anmeldungen prüfen nur Anmeldenamen und Kennwort anhand der in der Moodle-Datenbank gespeicherten Daten.';
 $string['auth_emailnoemail'] = 'Der Versuch Ihnen eine E-Mail zu senden ist gescheitert!';
 $string['auth_emailnoinsert'] = 'Der Datensatz konnte nicht zur Datenbank hinzugefügt werden!';
 $string['auth_emailnowexists'] = 'Die E-Mail-Adresse, die Sie in Ihrem Nutzerprofil zuweisen wollten, wird bereits von jemand anders verwendet. Der Änderungsvorgang wird hiermit abgebrochen, wobei Sie aber nochmals versuchen können, eine andere Adresse einzugeben.';
@@ -281,7 +281,7 @@ $string['auth_shib_convert_data_warning'] = 'Die Datei existiert nicht oder ist 
 $string['auth_shib_idp_list'] = 'Identity-Provider';
 $string['auth_shib_idp_list_description'] = 'Stellen Sie eine Liste der Identity-Provider zur Verfügung aus der die Nutzer auf der Loginseite auswählen können. <br />In jeder Zeile muss ein kommagetrenntes Tupple für identityID der IdP (siehe Shibboleth Medatadtendatei) und Name des IdP wie es in der Drowndopwnliste gezeigt werden soll eingetragen werden.<br />
 Als optionaler dritter Parameter kann der Ort des Shibboleth Session Initators eingetragen werden falls die Moodle-Installation im Verbund genutzt wird.';
-$string['auth_shib_instructions'] = 'Nutzen Sie den <a href=\"$a\">Shibboleth Login</a>, um Zugangüber Shibboleth zu erhalten, wenn Ihr Unternehmen dies unterstützt. <br />Sonst verwenden Sie das normale hier angezeigte Loginformular.';
+$string['auth_shib_instructions'] = 'Nutzen Sie den <a href=\"$a\">Shibboleth Login</a>, um Zugang über Shibboleth zu erhalten, wenn Ihr Unternehmen dies unterstützt. <br />Sonst verwenden Sie das normale hier angezeigte Loginformular.';
 $string['auth_shib_instructions_help'] = 'Tragen Sie hier Informationen für Ihre Nutzer/innen ein, die ihnen den Zugang mit Hilfe von Shibboleth erklären. Diese werden auf der Loginseite angzeigt. Der Text sollte einen Link \"<b>$a</b>\" enthalten, damit ein einfachere Login möglich ist. Wenn Sie das Feld leer lassen, werden die Standard-Texte angezeigt und keine Hinweise auf den Shibboleth Login.';
 $string['auth_shib_integrated_wayf'] = 'Moodle WAYF Service';
 $string['auth_shib_integrated_wayf_description'] = 'Nach der Aktivierung verwendet Moodle den eigenen WAYF Service an Stelle des für Shibboleth konfigurierten. Moodle zeigt dann eine Dropdownliste der verfügbaren alternativen Login-Seiten wo der Nutzer seinen Identity Provider auszuwählen hat.';

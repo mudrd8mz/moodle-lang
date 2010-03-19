@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100220) (2010021900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100318) (2010031800)
 
 
 $string['abouttobeinstalled'] = 'Was wird installiert?';
@@ -23,7 +23,7 @@ $string['addactivity'] = 'Aktivität anlegen...';
 $string['addadmin'] = 'Administrator/in hinzufügen';
 $string['addblock'] = 'Block hinzufügen';
 $string['addcomment'] = 'Kommentar hinzufügen...';
-$string['addcountertousername'] = 'Nutzerkonto durch Anhängen einer Zahl erzeugen';
+$string['addcountertousername'] = 'Nutzernamen durch Anhängen einer Zahl erzeugen';
 $string['addcreator'] = 'Kursverwalter/in hinzufügen';
 $string['adddots'] = 'Hinzufügen...';
 $string['added'] = '$a hinzugefügt';

@@ -970,7 +970,7 @@ $string['validateerror'] = 'Dieser Wert war ungültig:';
 $string['verifychangedemail'] = 'Gesperrte Domains bei Änderung der E-Mail-Adresse';
 $string['warningcurrentsetting'] = 'Aktueller Wert ist ungültig: $a';
 $string['webproxy'] = 'Web-Proxy';
-$string['webproxyinfo'] = 'Bitte füllen Sie die folgenden Optionen aus, falls Ihr Moodle-Server das Internet nicht direkt erreichen kann. Ein Internet-Zugang ist notwendig, um Updates, Sprachpakete, RSS-Feeds, Zeitzonen-Daten usw. laden zu können. 
+$string['webproxyinfo'] = 'Bitte füllen Sie die folgenden Optionen aus, falls Ihr Moodle-Server das Internet nicht direkt erreichen kann. Ein Internetzugang ist notwendig, um Updates, Sprachpakete, RSS-Feeds, Zeitzonen-Daten usw. laden zu können. 
 <br /><em>Die PHP-Erweiterung cURL wird dringend empfohlen!</em>';
 $string['xmlrpcrecommended'] = 'Die Installation der optionalen PHP-Erweiterung xmlrpc ist für die Moodle-Network Funktionen nötig.';
 $string['xmlstrictheaders'] = 'XML strict Header';
