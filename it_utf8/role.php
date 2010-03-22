@@ -1,10 +1,11 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20100222) (2010021900)
+      // role.php - created with Moodle 2.0 dev (Build: 20100322) (2010031900)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
 $string['addingrolebycopying'] = 'Aggiungi un nuovo ruolo basato su $a';
 $string['addrole'] = 'Aggiungi un nuovo ruolo';
+$string['advancedoverride'] = 'Modifica avanzata ruolo';
 $string['allow'] = 'Consenti';
 $string['allowassign'] = 'Autorizzati ad assegnare ruoli';
 $string['allowed'] = 'Consentito';
@@ -59,6 +60,8 @@ $string['chooseroletoassign'] = 'Scegli il ruolo da assegnare';
 $string['comment:delete'] = 'Eliminare commenti';
 $string['comment:post'] = 'Scrivere commenti';
 $string['comment:view'] = 'Leggere commenti';
+$string['confirmroleprevent'] = 'Sei sicuro di rimuovere il ruolo <strong>$a->role</strong> dall\'elenco dei ruoli che possiedono il privilegio $a->cap nel contesto $a->context?';
+$string['confirmroleunprohibit'] = 'Sei sicuro di rimuovere il ruolo <strong>$a->role</strong> dall\'elenco dei ruoli che non possiedono il privilegio $a->cap nel contesto $a->context?';
 $string['context'] = 'Contesto';
 $string['course:activityvisibility'] = 'Nascondere/Mostrare attività';
 $string['course:bulkmessaging'] = 'Inviare un messaggio a più persone';
@@ -160,6 +163,7 @@ $string['metaunassignerror'] = 'Il ruolo dell\'utente \"$a\" è stato riassegnat
 $string['morethan'] = 'Più di $a';
 $string['multipleroles'] = 'Ruoli multipli';
 $string['my:manageblocks'] = 'Gestire blocchi nella pagina \'Il mio Moodle\'';
+$string['neededroles'] = 'Ruoli con autorizzazione';
 $string['nocapabilitiesincontext'] = 'Nessun privilegio disponibile in questo contesto';
 $string['noneinthisx'] = 'Non c\'è nulla in questo $a';
 $string['noneinthisxmatching'] = 'Non ci sono utenti corrispondenti alla ricerca \'$a->search\' in questo $a->contexttype';
@@ -181,12 +185,14 @@ $string['overridesbycontext'] = 'Modifiche (per contesto)';
 $string['permission'] = 'Autorizzazione';
 $string['permissions'] = 'Autorizzazioni';
 $string['permissionsforuser'] = 'Autorizzazioni per l\'utente $a';
+$string['permissionsincontext'] = 'Autorizzazioni in $a';
 $string['portfolio:export'] = 'Esportare in un portfolio';
 $string['potentialusers'] = '$a utenti potenziale';
 $string['potusers'] = 'Utenti potenziali';
 $string['potusersmatching'] = 'Utenti potenziali che corrispondono a \'$a\'';
 $string['prevent'] = 'Previeni';
 $string['prohibit'] = 'Nega';
+$string['prohibitedroles'] = 'Non autorizzati';
 $string['question:add'] = 'Aggiungere domande';
 $string['question:config'] = 'Configurare tipi di domande';
 $string['question:editall'] = 'Modificare qualsiasi domanda';
@@ -217,9 +223,14 @@ $string['role:safeoverride'] = 'Modificare autorizzazioni sicure di altri utenti
 $string['role:switchroles'] = 'Utilizzare altri ruoli';
 $string['role:unassignself'] = 'Rimuovere assegnazione dei propri ruoli';
 $string['role:viewhiddenassigns'] = 'Visualizzare assegnazione dei ruoli nascosti';
+$string['roleallowheader'] = 'Autorizza ruolo:';
+$string['roleallowinfo'] = 'Scegli un ruolo da aggiungere all\'elenco dei ruoli autorizzati nel contesto $a->context, privilegio $a->cap:';
 $string['roleassignments'] = 'Assegnazioni di ruolo';
 $string['roledefinitions'] = 'Definizioni dei ruoli';
+$string['roleprohibitheader'] = 'Ruolo da non autorizzare';
+$string['roleprohibitinfo'] = 'Scegli un ruolo da aggiungere all\'elenco dei ruoli non autorizzati nel contesto $a->context, privilegio $a->cap:';
 $string['roles'] = 'Ruoli';
+$string['roleselect'] = 'Seleziona ruolo';
 $string['roletoassign'] = 'Ruolo da assegnare';
 $string['roletooverride'] = 'Ruolo da modificare';
 $string['safeoverridenotice'] = 'Nota: I privilegi con rischi più alti sono bloccati perché si ha solo il permesso di modificare i privilegi sicuri.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // feedback.php - created with Moodle 2.0 dev (Build: 20090922) (2009091700)
+      // feedback.php - created with Moodle 2.0 dev (Build: 20100310) (2010021901)
 
 
 $string['add_item'] = 'Aggiungi domanda';
@@ -7,6 +7,7 @@ $string['add_items'] = 'Aggiungi domande al feedback';
 $string['add_pagebreak'] = 'Interruzione di pagina';
 $string['adjustment'] = 'Allineamento';
 $string['after_submit'] = 'Dopo l\'invio del feedback';
+$string['allowfullanonymous'] = 'Modalità completamente anonima';
 $string['analysis'] = 'Analisi';
 $string['anonymous'] = 'Anonimo';
 $string['anonymous_edit'] = 'Privacy';
@@ -30,6 +31,7 @@ $string['chosen_feedback_response'] = 'risposte selezionate';
 $string['complete_the_form'] = 'Rispondi alle domande ...';
 $string['completed'] = 'completato';
 $string['completed_feedbacks'] = 'Risposte inviate';
+$string['configallowfullanonymous'] = 'L\'impostazione permette di completare un feedback senza essersi autenticati. E\' valida solo per feedback nella home page.';
 $string['confirmdeleteentry'] = 'Confermi l\'eliminazione di questo elemento?';
 $string['confirmdeleteitem'] = 'Confermi l\'eliminazione di questa domanda?';
 $string['confirmdeletetemplate'] = 'Confermi l\'eliminazione di questo modello?';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // report_capability.php - created with Moodle 2.0 dev (Build: 20090123) (2009011900)
+      // report_capability.php - created with Moodle 2.0 dev (Build: 20100310) (2010021901)
 
 
 $string['capability'] = 'Report dei privilegi';
@@ -10,8 +10,8 @@ $string['changeroles'] = 'Modifica le definizioni del ruolo';
 $string['forroles'] = 'Per il ruolo $a';
 $string['getreport'] = 'Mostra il report';
 $string['intro'] = 'Questo report permette di visualizzare lo stato di un dato privilegio all\'interno della definizione dei ruoli. Il report permette anche di visualizzare in quale parte del sito è stato modificato il privilegio.';
-$string['reportforcapability'] = 'Report per il privilegio \"$a\"';
-$string['reportsettings'] = 'Report dei privilegi';
+$string['reportforcapability'] = 'Report per il privilegio \'$a\'';
+$string['reportsettings'] = 'Impostazioni report';
 $string['roleslabel'] = 'Ruoli:';
 
 ?>

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20100222) (2010021900)
+      // auth.php - created with Moodle 2.0 dev (Build: 20100322) (2010031900)
 
 
 $string['CASform'] = 'Scelta autenticazione';
@@ -127,7 +127,7 @@ $string['auth_fcuserid_key'] = 'ID utente';
 $string['auth_fieldlock'] = 'Campi bloccati nel profilo utente';
 $string['auth_fieldlock_expl'] = '<p><b>Blocca valore:</b>Se abilitato, impedirà  agli utenti e agli amministratori di Moodle di modificare il campo direttamente. Utilizzare questa opzione se si sta gestendo questi dati in un sistema di autenticazione esterno.</p>';
 $string['auth_fieldlocks'] = 'Campi bloccati nel profilo utente';
-$string['auth_fieldlocks_help'] = '<p>È possibile bloccare uno o più campi del profilo utente. La funzione può risultare particolarmente utile in quei siti dove i dati dei profili utente sono gestiti a mano dagli amministratori, i quali possono modificare i record degli utenti oppure caricarli utilizzando la funzione \'Importa utenti\'.</p><p>Se si bloccano campi che Moodle considera indispensabili, accertatevi di fornire tali dati quando create gli account, altrimenti gli account incompleti non saranno utilizzabili.</p><p>Per evitare questo problema, potete utilizzare l\'opzione \'Libero se vuoto\'.</p>';
+$string['auth_fieldlocks_help'] = '<p>È possibile bloccare uno o più campi del profilo utente. La funzione può risultare particolarmente utile in quei siti dove i dati dei profili utente sono gestiti a mano dagli amministratori, i quali possono modificare i record degli utenti oppure caricarli utilizzando la funzione \'Importa utenti\'.</p><p>Se si bloccano campi che Moodle considera indispensabili, accertatevi di fornire tali dati quando create gli account, altrimenti gli account incompleti non saranno utilizzabili.</p><p>Per evitare questo problema, puoi utilizzare l\'opzione \'Libero se vuoto\'.</p>';
 $string['auth_imapchangepasswordurl_key'] = 'URL per cambiare password';
 $string['auth_imapdescription'] = 'Questo metodo usa un server IMAP per controllare se il nome utente e la password dati sono validi.';
 $string['auth_imaphost'] = 'Indirizzo server IMAP. Usa il numero IP, non il nome DNS.';
@@ -208,9 +208,9 @@ $string['auth_ldap_usertypeundefined'] = 'config.user_type non definito o la fun
 $string['auth_ldap_usertypeundefined2'] = 'config.user_type non definito o la funzione ldap_unix2expirationtime non sopporta il tipo selezionato!';
 $string['auth_ldap_version'] = 'La versione del protocollo LDAP utilizzata dal vostro server.';
 $string['auth_ldap_version_key'] = 'Versione';
-$string['auth_ldapdescription'] = 'Questo metodo fornisce l\'autenticazione tramite un server LDAP esterno.
-Se il nome utente e la password forniti sono validi, Moodle crea un nuovo utente nel suo database. Questo modulo può leggere gli attributi dell\'utente da LDAP e riempire i campi richiesti da Moodle. Ai successivi login verranno controllati solo il nome utente e la password.';
-$string['auth_ldapextrafields'] = 'Questi campi sono opzionali. Potete scegliere di riempire alcuni campi dell\'utente in Moodle con i dati provenienti dai <b>campi LDAP</b> qui specificati. <p>Se lasciate questi campi vuoti, non verrà  trasferito niente dal LDAP e verranno usati i dati default di Moodle.</p><p>In entrambi i casi, gli utenti possono modificare tutti questi campi dopo essersi loggati.</p>';
+$string['auth_ldapdescription'] = 'Questo plugin fornisce l\'autenticazione tramite un server LDAP esterno.
+Se il nome utente e la password forniti sono validi, Moodle crea un nuovo utente nel proprio database. Il plugin può leggere gli attributi dell\'utente da LDAP e popolare i campi necessari a Moodle. Ai login successivi verranno verificati solo il nome utente e la password.';
+$string['auth_ldapextrafields'] = 'Questi campi sono opzionali. Potete scegliere di riempire alcuni campi dell\'utente in Moodle con i dati provenienti dai <b>campi LDAP</b> specificati qui .<p>Se lasci questi campi vuoti, non verrà  trasferito niente dal LDAP e verranno usati i dati default di Moodle.</p><p>In entrambi i casi, gli utenti possono modificare tutti questi campi dopo essersi loggati.</p>';
 $string['auth_ldapnotinstalled'] = 'L\'autenticazione LDAP non può essere usata. Il modulo PHP LDAP non è installato.';
 $string['auth_ldaptitle'] = 'Server LDAP';
 $string['auth_manualdescription'] = 'Questo metodo non consente agli utenti di creare un proprio account in autonomia. Gli account degli utenti devono essere creati a mano da un amministratore.';
@@ -230,7 +230,7 @@ $string['auth_nntpnotinstalled'] = 'L\'autenticazione NNTP non può essere usata
 $string['auth_nntpport'] = 'Porta server (119 è la più comune)';
 $string['auth_nntpport_key'] = 'Porta';
 $string['auth_nntptitle'] = 'Server NNTP';
-$string['auth_nologindescription'] = 'Plugin ausiliario che impedisce a un utente di fare login nel sistema e annulla ogni email inviata allo stesso. Può essere usato per <em>sospendere</em> la registrazione di uno o più utenti.';
+$string['auth_nologindescription'] = 'Plugin ausiliario che impedisce ad un utente di autenticarsi, annullando anche il recapito di email. Può essere usato per <em>sospendere</em> la registrazione di uno o più utenti.';
 $string['auth_nologintitle'] = 'Account disabilitato';
 $string['auth_nonedescription'] = 'Gli utenti possono registrarsi e creare iscrizioni valide immediatamente, senza autenticazione di un server esterno e senza conferma tramite email. Fare attenzione ad usare questa opzione - riflettete sulla sicurezza e ai problemi di amministrazione che questa scelta può causare.';
 $string['auth_nonetitle'] = 'Senza autenticazione';
