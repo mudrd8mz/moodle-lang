@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100324) (2010031900)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -1343,7 +1343,10 @@ $string['resource'] = 'Risorsa';
 $string['resources'] = 'Risorse';
 $string['restore'] = 'Ripristina';
 $string['restorecancelled'] = 'Recupero annullato';
+$string['restorecannotassignroles'] = 'Il ripristino ha bisogno di assegnare ruoli ma tu non sei autorizzato a farlo';
+$string['restorecannotcreateorassignroles'] = 'Il ripristino ha bisogno di creare o assegnare ruoli ma tu non sei autorizzato a farlo';
 $string['restorecannotcreateuser'] = 'Il ripristino deve creare l\'utente \'$a\' ma non hai il permesso di farlo.';
+$string['restorecannotoverrideperms'] = 'Il ripristino ha bisogno di modificare i privilegi ma tu non sei autorizzato a farlo';
 $string['restorecoursenow'] = 'Recupera questo corso ora!';
 $string['restoredaccount'] = 'Account ripristinato';
 $string['restoredaccountinfo'] = 'Questo account è stato importato da un altro server e la password è stata perduta. Per impostare una nuova password tramite email, fai click su \"Continua\"';

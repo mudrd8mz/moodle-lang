@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // webservice.php - created with Moodle 2.0 dev (Build: 20100222) (2010021900)
+      // webservice.php - created with Moodle 2.0 dev (Build: 20100324) (2010031900)
 
 
 $string['accessexception'] = 'Eccezione nel controllo accesso';
@@ -125,7 +125,7 @@ $string['simpleauthlog'] = 'Login con autenticazione semplice';
 $string['step'] = 'Passo';
 $string['testauserwithtestclientdescription'] = 'Simula l\'accesso al web service dall\'esterno  tramite il client di test. Prima di effettuare il test, autenticati con un account che ha il privilegio \"moodle/webservice:createtoken\" e ricava il token dell\'utente dal blocco \"My Moodle\". Potrai usare questo token nel client di test, dove sceglierai anche il protocolla abilitato. <strong>Attenzione: la funzione che testerai SARA\' REALMENTE ESEGUITA, fai molta attenzione su cosa scegli di provare!</strong>';
 $string['testclient'] = 'Test Client web service';
-$string['testclientdescription'] = '* Il client per il test dei web service  <strong>esegue</strong> la funzione <strong>REALMENTE</strong>. Evitare di provare funzioni che non su conoscono.<br/>* Non tutte le funzioni web service sono supportate dal client di test. <br/>* Per testare se un utente non è abilitato ad accedere determinate funzioni, provate con le funzioni che non gli sono consentite.<br/>* Per un debugging più approfondito, impostare il debug a<strong>$a->mode</strong> in $a->atag';
+$string['testclientdescription'] = '* Il client di test web service  <strong>esegue</strong> la funzione <strong>REALMENTE</strong>. Evitare di provare funzioni che non su conoscono.<br/>* Non tutte le funzioni web service sono supportate dal client di test. <br/>* Per testare se un utente non è abilitato ad accedere determinate funzioni, provate con le funzioni che non gli sono consentite.<br/>* Per un debugging più approfondito, impostare il debug a <strong>$a->mode</strong> in $a->atag';
 $string['testwithtestclient'] = 'Prova il funzionamento del servizio';
 $string['testwithtestclientdescription'] = 'Simula l\'accesso al web service dall\'esterno  tramite il client di test. Puoi utilizzare un protocollo abilitato con l\'autenticazione token.<strong>Attenzione: la funzione che testerai SARA\' REALMENTE ESEGUITA, fai molta attenzione su cosa scegli di provare!</strong>';
 $string['token'] = 'Token';

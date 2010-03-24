@@ -1,14 +1,14 @@
 <?PHP // $Id$ 
-      // auth.php - created with Moodle 2.0 dev (Build: 20100322) (2010031900)
+      // auth.php - created with Moodle 2.0 dev (Build: 20100324) (2010031900)
 
 
 $string['CASform'] = 'Scelta autenticazione';
 $string['accesCAS'] = 'Utenti CAS';
 $string['accesNOCAS'] = 'altri utenti';
 $string['actauthhdr'] = 'Plugin di autenticazione installate';
-$string['alternatelogin'] = 'Specificando un URL come Pagina di login sostitutiva, Moodle la utilizzerà al posto della pagina di login standard. La Pagina di login sostitutiva deve contenere un form con la \"action property\" impostata a <strong>\'$a\'</strong> e deve contenere i campi <strong>username</strong> e <strong>password</strong>.<br/> Fate attenzione a non inserire un URL errato  perché potreste chiudervi fuori dal sito. <br/>
-Non compilate questo campo se preferite utilizzare la pagina di login standard.';
-$string['alternateloginurl'] = 'URL pagina sostitutiva per il login';
+$string['alternatelogin'] = 'Specificando un URL come Pagina di login sostitutiva, Moodle la utilizzerà al posto della pagina di login standard. La Pagina di login sostitutiva deve contenere un form con la \"action property\" impostata a <strong>\'$a\'</strong> e deve contenere i campi <strong>username</strong> e <strong>password</strong>.<br/> Fai attenzione a non inserire URL errati  perché ti chiuderai  fuori dal sito. <br/>
+Non compilare questo campo se preferisci utilizzare la pagina di login standard.';
+$string['alternateloginurl'] = 'URL pagina di login sostitutiva';
 $string['auth_cas_auth_user_create'] = 'Creare utenti esternamente';
 $string['auth_cas_baseuri'] = 'URI del server (lasciare vuoto se non è definito baseURI)<br/>Per esempio, se il server CAS risponde a host.dominio.it/CAS/ <br/>allora, utilizzare: cas_baseuri=CAS/';
 $string['auth_cas_baseuri_key'] = 'Base URI';
@@ -369,7 +369,7 @@ $string['potentialidps'] = 'Di solito su quale sito ti autentichi?<br />Scegli i
 $string['recaptcha'] = 'reCAPTCHA';
 $string['rpc_negotiation_timeout'] = 'Timeout negoziazione RPC';
 $string['selfregistration'] = 'Auto creazione account';
-$string['selfregistration_help'] = 'Se impostate un plugin per l\'auto creazione di account, come ad esempio il plugin per la creazione di account via email, allora qualsiasi visitatore del vostro sito potrà crearsi un account. Tale funzione espone il sito al rischio che spammer possano creare account per inviare post indesiderati attraverso forum, blog od altre funzioni. Per evitare questo rischio è bene disabilitare l\' Auto creazione di account  oppure limitarla attraverso l\'impostazione <em>Domini di posta autorizzati</em> oppure ancora attivando il reCAPTCHA.';
+$string['selfregistration_help'] = 'Impostando un plugin per l\'auto creazione di account, come ad esempio il plugin per la creazione di account via email, qualsiasi visitatore del sito potrà crearsi un account. Tale funzione espone il sito al rischio che spammer possano creare account per inviare post indesiderati attraverso forum, blog od altre funzioni. Per evitare questo rischio è bene disabilitare l\' Auto creazione di account  oppure limitarla attraverso l\'impostazione <em>Domini di posta autorizzati</em> oppure ancora attivando il reCAPTCHA.';
 $string['sha1'] = 'Hash SHA-1';
 $string['shib_no_attributes_error'] = 'Sembra che dobbiate essere autenticati da Shibboleth ma Moodle non ha ricevuto gli attributi dell\'utente. Vi preghiamo di controllare che il vostro Identity Provider rilasci gli attributi necessari ($a) al Service Provider dove funziona Moodle o informate il webmaster di questo server.';
 $string['shib_not_all_attributes_error'] = 'Moodle richiede alcuni attributi Shibboleth che, nel vostro caso, non sono presenti. Gli attributi sono: $a<br />Vi preghiamo di contattare il webmaster di questo server o il vostro Identity Provider.';

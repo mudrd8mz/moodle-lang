@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20100222) (2010021900)
+      // admin.php - created with Moodle 2.0 dev (Build: 20100324) (2010031900)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -94,6 +94,7 @@ $string['componentinstalled'] = 'Componente installato';
 $string['computedfromlogs'] = 'Calcolato da log a partire da $a';
 $string['condifmodeditdefaults'] = 'I valori impostati sotto saranno i valori di default durante la creazione di nuove attività. E\' anche possibile stabilire quali impostazioni siano da considerarsi \"avanzate\".';
 $string['confeditorhidebuttons'] = 'Seleziona i pulsanti che non vanno mostrati nell\'editor HTML';
+$string['configallcountrycodes'] = 'Questo è l\'elenco delle nazioni, utilizzato in varie parti di Moodle, come ad esempio il profilo utente. Se lasciato vuoto (default), verrà utilizzato l\'elenco presente in countries.php del language pack inglese standard, coincidente con l\'elenco ISO 3166-1. E\' possibile specificare un elenco di codici separati da virgola, ad esempio \'GB,FR,ES\'. Se inseriaci codici non standard, devi anche aggiungerli al file countries.php nel tuo language pack.';
 $string['configallowassign'] = 'Tramite la matrice sottostante puoi autorizzare i ruoli elencati nella colonna verticale a sinistra ad assegnare ad altri utenti uno o più tra i ruoli presenti sulla riga di intestazione';
 $string['configallowblockstodock'] = 'Se il tema in uso supporta questa funzione, gli utenti potranno spostare i blocchi laterali nel dock.';
 $string['configallowcategorythemes'] = 'Abilitando questa opzione, i temi possono essere impostati a livello di categoria. Questo influenzerà tutte le categorie dipendenti e i relativi corsi a meno che gli stessi non abbiamo in modo specifico impostato il proprio tema. ATTENZIONE: L\'abilitazione dei temi di categoria può influenzare le prestazioni.';
@@ -103,7 +104,7 @@ $string['configallowobjectembed'] = 'Come misura di sicurezza standard, gli uten
 $string['configallowoverride'] = 'Permetti ai ruoli sulla sinistra di modificare i ruoli di ogni colonna';
 $string['configallowoverride2'] = 'Tramite la matrice sottostante puoi autorizzare i ruoli elencati nella colonna verticale a sinistra a modificare i ruoli di altri utenti.<br>Si precisa che queste impostazioni avranno effetto solamente per i ruoli che hanno i privilegi moodle/role:override oppure moodle/role:safeoverride.';
 $string['configallowswitch'] = 'E\' possibile selezionare i ruoli che possono \'Cambiare ruolo\', in funzione dei ruoli che già si possiedono. Oltre alla impostazione in questa tabella, un utente  deve anche possedere il privilegio moodle/role:switchroles.<br />Da notare che possono cambiare ruolo solo i ruoli che hanno il privilegio moodle/course:view e che non hanno il privilegio moodle/site:doanything. Per questo motivo alcune colonne nella tabella sono disabilitate.';
-$string['configallowthemechangeonurl'] = 'L\'impostazione consente di cambire il tema postponendo all\'URL di chiamata la seguente sintassi: theme={themename}&amp;sesskey={sesskey}';
+$string['configallowthemechangeonurl'] = 'L\'impostazione consente di cambiare il tema postponendo all\'URL di chiamata la seguente sintassi: theme={themename}&amp;sesskey={sesskey}';
 $string['configallowunenroll'] = 'Se impostato su \"Si\", gli studenti saranno autorizzati a revocarsi autonomamente da un corso in qualunque momento. In caso contrario non verranno autorizzati a farlo, demandando a docenti e amministratori questa possibilità .';
 $string['configallowuserblockhiding'] = 'Si desidera permettere agli utenti di mostrare/nascondere i blocchi laterali di tutto il sito? <br>Questa caratteristica utilizza Javascript e i cookies per ricordare lo stato di ogni blocco, e influenza solo la vista personale dell\'utente.';
 $string['configallowusermailcharset'] = 'Abilitando questa opzione, ogni utente sarà in grado di definire il proprio set di caratteri per le email.';
@@ -282,7 +283,6 @@ $string['configrcache'] = 'Utilizzo della cache per memorizzare i record del dat
 $string['configrcachettl'] = 'Time-To-Live (tempo di permanenza) dei record in cache. Si consiglia di usare un valore basso (<15).';
 $string['configrecaptchaprivatekey'] = 'Stringa di caratteri usata per comunicare tra il proprio server Moodle e il server recaptcha.net. E\' possibile richiedere una chiave visitando il sito http://recaptcha.net';
 $string['configrecaptchapublickey'] = 'Stringa di caratteri usata per visualizzare l\'immagine reCAPTCHA nella pagina di creazione account. L\'immagine è generata dal sito http://recaptcha.net';
-$string['configregenloginsession'] = 'Si consiglia fortemente di rigenerare la id di sessione ad ogni login. L\'impostazione potrebbe però non essere compatibile con alcuni plugin di autenticazione.';
 $string['configrequestedstudentname'] = 'Termine per \'studente\' da utilizzare nel corsi richiesti';
 $string['configrequestedstudentsname'] = 'Termine per \'studenti\' da utilizzare nel corsi richiesti';
 $string['configrequestedteachername'] = 'Termine per \'docente\' da utilizzare nel corsi richiesti';
@@ -339,6 +339,7 @@ $string['configthemedesignermode'] = 'Le immagini ed i CSS appartenenti al tema 
 $string['configthemelist'] = 'Lasciate in bianco se volete permettere l\'utilizzo di uno qualunque tema installato. Se desiderate invece accorciare il menu di selezione dei temi, specificate un elenco di temi disponibili, separato da virgole. Per esempio: standard, orangewhite.';
 $string['configtimezone'] = 'Questo è il fuso orario di default. E\' l\'unico fuso orario standard per la visualizzazione delle date - ogni utente nel profilo può scegliere il proprio fuso orario. Scegliendo \"Ora locale del server\", il fuso orario di default coinciderà con il fuso orario del sistema operativo che ospita il sito e tale impostazione sarà usata anche come valore di default nel profilo degli utenti. Anche l\'esecuzione del cron per svolgere alcune operazioni pianificate terrà conto del fuso orario di default.';
 $string['configunzip'] = 'Indica il percorso del programma Unzip di decompressione dati (Solo per Unix). Se specificato, questo programma si occuperà  di spacchettare i files compressi lato server. Se lasciato in bianco, Moodle utilizzerà le proprie routine interne.';
+$string['configuseblogassociations'] = 'Consente agli utenti di organizzare i propri blog associandoli ai cori ed ai moduli di attività.';
 $string['configuseexternalyui'] = 'E\' possibile usare i file online disponibili sui server Yahoo&#145;s al posto dei file locali. ATTENZIONE: è necessaria la connessione ad internet, altrimenti AJAX smetterà di funzionare sul tuo sito.';
 $string['configusetags'] = 'Abilita la funzionalità Tag nel sito.';
 $string['configvariables'] = 'Variabili';
@@ -346,6 +347,7 @@ $string['configverifychangedemail'] = 'Abilita la funzione di verifica degli ind
 $string['configvisiblecourses'] = 'Permette la visualizzazione e l\'accesso ai corsi presenti in categorie di corso nascoste.';
 $string['configwarning'] = 'Fate attenzione a modificare queste impostazioni, valori anomali potrebbero causare problemi.';
 $string['configxmlstrictheaders'] = 'L\'opzione permette di generare pagine  usando http headers e prolog XML, consentendo ai browser di visualizzare online gli errori XHTML. E\' utile esclusivamente per gli sviluppatori.';
+$string['configyuicomboloading'] = 'L\'impostazione abilita il caricamento combinato ottimizzato dei file delle librerie YUI. Per motivi di performace l\'impostazione dovrebbe essere attiva nei siti in produzione.';
 $string['configzip'] = 'Indica il percorso del programma Zip di compressione dati (Solo per Unix).
 Se specificato, questo programma si occuperà  di creare archivi di files compressi lato server. Se lasciato in bianco, Moodle utilizzerà  le proprie routine interne.';
 $string['confirmation'] = 'Conferma';
@@ -556,7 +558,7 @@ $string['importlangreminder'] = 'Il processo di migrazione della base di dati st
 $string['importtimezones'] = 'Aggiorna l\'elenco dei fusi orari';
 $string['importtimezonescount'] = '$a->count fusi orari aggiornati da $a->source';
 $string['importtimezonesfailed'] = 'Non è stata trovata nessuna sorgente! (Brutta notizia)';
-$string['includemoduleuserdata'] = 'Includi i dati utente di modulo';
+$string['includemoduleuserdata'] = 'Includi i dati utente presenti nei moduli';
 $string['incompatibleblocks'] = 'Blocchi non compatibili';
 $string['install'] = 'Installa i Language Pack selezionati';
 $string['installedlangs'] = 'Language Pack installati';
@@ -786,7 +788,6 @@ $string['rcache'] = 'Cache dei record';
 $string['rcachettl'] = 'TTL della cache dei record';
 $string['recaptchaprivatekey'] = 'Chiave privata reCAPTCHA';
 $string['recaptchapublickey'] = 'Chiave pubblica reCAPTCHA';
-$string['regenloginsession'] = 'Rigenera la id di sessione ad ogni login';
 $string['registration'] = 'Registrazione';
 $string['releasenoteslink'] = 'Per informazioni su questa versione di Moodle, si prega di consultare le <a target=\"_new\" href=\"$a\">Note di rilascio</a> in linea';
 $string['remotelangnotavailable'] = 'Non è possibile installare automaticamente i language pack perché Moodle non riesce a connettersi a download.moodle.org. Si prega di scaricare i file compressi appropriati dalla lista qui sotto, copiarli nella vostra cartella $a e scompattarli manualmente.';
@@ -827,6 +828,7 @@ $string['sendcoursewelcomemessage'] = 'Invia messaggio di benvenuto nel corso';
 $string['server'] = 'Server';
 $string['serverchecks'] = 'Controlli Server';
 $string['serverlimit'] = 'Limite server';
+$string['sessionautostartwarning'] = '<p>E\' stato individutao un errore di configurazione grave, per favore avverti l\'ammnistratore</p><p> Moodle per funzionare correttamente ha bisogno di modifiche alle impostazioni PHP.</p><p><code>session.auto_start</code> deve essere impostato a <code>off</code>.</p><p>E\' possibile cambiare l\'impostazione modificando il file <code>php.ini</code>, la configurazione di Apache/IIS <br />oppure tramite il file  <code>.htaccess</code> sul server.</p>';
 $string['sessioncookie'] = 'Prefisso cookie';
 $string['sessioncookiedomain'] = 'Dominio cookie';
 $string['sessioncookiepath'] = 'Percorso cookie';
@@ -835,9 +837,9 @@ $string['sessiontimeout'] = 'Timeout di sessione';
 $string['settingfileuploads'] = 'Il caricamento di file è necessario per usare l\'ambiente, per favore abilitatelo nelle impostazioni del PHP.';
 $string['settingmemorylimit'] = 'E\' stato riscontrato un limite di memoria troppo basso. Per favore aumentate il limite della memoria nelle impostazioni del PHP.';
 $string['settingsafemode'] = 'Moodle non è del tutto compatibile con il safe mode, per favore chiedete all\'amministratore del server di impostare il safe mode ad off. Far girare Moodle con il safe mode ad on non è supportato e potrete riscontrare numerosi problemi.';
-$string['showblocksonmodpages'] = 'Mostra i blocchi sulle pagine di modulo';
+$string['showblocksonmodpages'] = 'Mostra i blocchi sulle pagine dei moduli';
 $string['showdetails'] = 'Mostra dettagli';
-$string['simpletest'] = 'Test';
+$string['simpletest'] = 'Unit test';
 $string['simplexmlrequired'] = 'Moodle richiede l\'estensione PHP SimpleXML.';
 $string['sitelangchanged'] = 'L\'impostazione della lingua del sito è stata cambiata correttamente';
 $string['sitemailcharset'] = 'Set di caratteri';
@@ -857,6 +859,7 @@ $string['smtpmaxbulk'] = 'Limite per sessione SMTP';
 $string['smtppass'] = 'SMTP password';
 $string['smtpuser'] = 'SMTP username';
 $string['soaprecommended'] = 'L\'estensione opzionale SOAP è utile per i Web service ed acluni moduli contrib.';
+$string['spellengine'] = 'Correttore ortografico';
 $string['stats'] = 'Statistiche';
 $string['statscatdepth'] = 'Num. massimo categorie genitrici';
 $string['statsfirstrun'] = 'Intervallo massimo di elaborazione';
@@ -987,6 +990,8 @@ $string['xmlrpcrecommended'] = 'L\'installazione della estensione opzionale xmlr
 $string['xmlstrictheaders'] = 'Intestazioni XML Strict';
 $string['yuicomboloading'] = 'Caricamento YUI vombo';
 $string['ziprequired'] = 'Moodle adesso richiede l\'estensione Zip PHP. Gli eseguibili info-ZIP o la libreria PclZip non sono più utilizzati.';
+$string['configregenloginsession'] = 'Si consiglia fortemente di rigenerare la id di sessione ad ogni login. L\'impostazione potrebbe però non essere compatibile con alcuni plugin di autenticazione.'; // ORPHANED
+$string['regenloginsession'] = 'Rigenera la id di sessione ad ogni login'; // ORPHANED
 $string['ipwhitelist'] = 'IP whitelist'; // ORPHANED
 $string['ipwhitelistdesc'] = 'Se compilato, solo gli IP qui specificati saranno autorizzati ad usare i Web service con lo username: <strong>$a->username</strong>'; // ORPHANED
 $string['managews'] = 'Gestisci i web service'; // ORPHANED
