@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.7 (Build: 20091126) (2007101570)
+      // admin.php - created with Moodle 1.9.8 (Build: 20100326) (2007101580)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -208,7 +208,7 @@ $string['configrcache'] = 'Používať vyrovnávaciu pamäť k dočasnému uklad
 $string['configrcachettl'] = 'Na aký čas (v sekundách) majú byť záznamy udržované vo vyrovnávacej pamäti. Zvoľte hodnotu menšiu než 15.';
 $string['configrecaptchaprivatekey'] = 'Reťazec, ktorý sa používa pri komunikácii vášho Moodle servera a recaptcha.net servera. Získate ho pri návšteve webu http://recaptcha.net.';
 $string['configrecaptchapublickey'] = 'Reťazec, ktorý sa používa pri zobrazení reCAPTCHA elementu pri vytváraní konta. Je generovaný serverom http://recaptcha.net.';
-$string['configregenloginsession'] = 'Dôrazne sa doporučuje opätovné vytvorenie identifikátora sedenia počas každého prihlásenia. Toto nastavenie však nemusí byť kompatibilné s niektorými autentifikačnými zásuvnými modulmi.';
+$string['configregenloginsession'] = 'Z dôvodov bezpečnosti sa dôrazne doporučuje opätovné vytvorenie identifikátora sedenia počas každého prihlásenia. Toto nastavenie však nemusí byť kompatibilné s niektorými autentifikačnými zásuvnými modulmi.';
 $string['configrequestedstudentname'] = 'Slovo označujúce jedného študenta v požadovaných kurzoch';
 $string['configrequestedstudentsname'] = 'Slovo označujúce viacerých študentov v požadovaných kurzoch';
 $string['configrequestedteachername'] = 'Slovo označujúce jedného učiteľa v požadovaných kurzoch';

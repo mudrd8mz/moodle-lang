@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20100310) (2007101571.04)
+      // moodle.php - created with Moodle 1.9.8 (Build: 20100326) (2007101580)
 
 
 $string['abouttobeinstalled'] = 'pripravený k inštalácii';
@@ -1277,7 +1277,10 @@ $string['resource'] = 'Zdroj';
 $string['resources'] = 'Zdroje';
 $string['restore'] = 'Obnoviť zo zálohy';
 $string['restorecancelled'] = 'Obnova zrušená';
+$string['restorecannotassignroles'] = 'Pri obnove je potrebné priradiť roly a nemáte na to oprávnenie.';
+$string['restorecannotcreateorassignroles'] = 'Pri obnove je potrebné vytvoriť alebo priradiť roly a nemáte na to oprávnenie.';
 $string['restorecannotcreateuser'] = 'Obnova kurzu zo zálohovacieho súboru potrebuje vytvoriť používateľa \'$a\' a vy na to nemáte oprávnenie.';
+$string['restorecannotoverrideperms'] = 'Pri obnove je potrebné prepísať oprávnenia a nemáte na to oprávnenie.';
 $string['restorecoursenow'] = 'Obnoviť tento kurz teraz!';
 $string['restoredaccount'] = 'Obnovené konto';
 $string['restoredaccountinfo'] = 'Toto heslo bolo importované z iného servera, pričom sa nezachovalo heslo. Pre nastavenie nového hesla pomocou mailu kliknite na \"Pokračovať\".';
