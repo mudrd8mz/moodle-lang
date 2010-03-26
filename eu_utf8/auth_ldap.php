@@ -70,10 +70,10 @@ $string['auth_ldap_usertypeundefined2'] = 'config.user_type ez dago definituta e
 $string['auth_ldap_version'] = 'Zure zerbitzariak erabiltzen duen LDAP protokoloaren bertsioa.';
 $string['auth_ldap_version_key'] = 'Bertsioa';
 $string['auth_ldapdescription'] = 'Metodo honek kanpo LDAP zerbitzari baten aurkako autentifikazioa eskaintzen du.
-Emandako erabiltzaile izen eta pasahitza baliozkoak badira, Moodle-k erabiltzaile   sarrera berri bat sortuko du bere datu-basean. Modulu honek erabiltzaile atributuak LDAP zerbitzaritik irakurri ditzake eta eremuak Moodle-n bete.  Hurrengo saio-hasieretan soilik izen eta pasahitza egiaztatuko dira.';
-$string['auth_ldapextrafields'] = 'Eremu hauek aukerazkoak dira.  Moodle erabiltzaile eremu batzuk hemen zehaztutako <b>LDAP eremu</b>etako informazioz betetzea aukeratu dezakezu. <P>Zurian uzten badituzu, ez da ezer transferituko LDAP-tik eta Moodlek lehenetsitako balioak erabiliko dira ordez.<P>Edozein kasutan, erabiltzaileak eremu guzti hauek editatzeko gaitasuna izango du behin saioa hasita.';
+Emandako erabiltzaile izen eta pasahitza baliozkoak badira, Moodle-k erabiltzaile-sarrera berri bat sortuko du bere datu-basean. Modulu honek erabiltzaile atributuak LDAP zerbitzaritik irakurri ditzake eta eremuak Moodle-n bete.  Hurrengo saio-hasieretan soilik izen eta pasahitza egiaztatuko dira.';
+$string['auth_ldapextrafields'] = 'Eremu hauek aukerazkoak dira. Moodle erabiltzaile eremu batzuk hemen zehaztutako <b>LDAP eremu</b>etako informazioz betetzea aukeratu dezakezu. <P>Zurian uzten badituzu, ez da ezer transferituko LDAP-tik eta Moodlek lehenetsitako balioak erabiliko dira ordez.<P>Edozein kasutan, erabiltzaileak eremu guzti hauek editatzeko gaitasuna izango du behin saioa hasita.';
 $string['auth_ldapnotinstalled'] = 'Ezin da LDAP autentifikazioa erabili. PHP LDAP modulua ez dago instalatuta.';
-$string['auth_ldaptitle'] = 'LDAP zerbitzari bat erabili';
+$string['auth_ldaptitle'] = 'LDAP zerbitzaria';
 $string['auth_ntlmsso'] = 'NTLM SSO';
 $string['auth_ntlmsso_enabled'] = 'Bai ezarri Single Sign On NTLM domeinuan saiatzeko. <strong>Oharra:</strong> bestelako ezarpen behar du web zerbitzarian funtzionatzeko, begiratu <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>';
 $string['auth_ntlmsso_enabled_key'] = 'Gaitu';

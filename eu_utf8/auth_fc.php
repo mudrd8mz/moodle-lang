@@ -13,7 +13,7 @@ $string['auth_fchost'] = 'FirstClass zerbitzariaren helbidea. IP zenbakia edo DN
 $string['auth_fchost_key'] = 'Ostalaria';
 $string['auth_fcpasswd'] = 'Aurreko kontuaren pasahitza.';
 $string['auth_fcpasswd_key'] = 'Pasahitza';
-$string['auth_fctitle'] = 'FirstClass zerbitzaria erabili';
+$string['auth_fctitle'] = 'FirstClass zerbitzaria';
 $string['auth_fcuserid'] = 'FirstClass kontuko erabiltzailearen identifikazioa \'Kudeatzaile-ordea\'.';
 $string['auth_fcuserid_key'] = 'Erabiltzailearen IDa';
 

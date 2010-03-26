@@ -31,10 +31,10 @@ $string['auth_cas_proxycas'] = '\'bai\' aldatu CAS proxy moduan  erabili nahi ba
 $string['auth_cas_proxycas_key'] = 'Proxy modua';
 $string['auth_cas_server_settings'] = 'CAS zerbitzariaren ezarpenak';
 $string['auth_cas_text'] = 'Konexio segurua';
-$string['auth_cas_use_cas'] = 'CAS erabilera';
+$string['auth_cas_use_cas'] = 'Erabili CAS';
 $string['auth_cas_version'] = 'CAS bertsioa';
 $string['auth_casdescription'] = 'Metodo honek CAS zerbitzaria erabiltzen du (Central Authentication Service) erabiltzaileak SSO (Single Sign On) inguruan autentifikatzeko. Nahi baduzu LDAP autentifikazio xumea erabil dezakezu. Erabiltzaile-izena eta pasahitza CASen arabera egokiak badira, Moodle-k erabiltzaile berri bat sortzen du datu-basean, beharko balitz LDAPetik atributuak hartuz. Hurrengo konexioetan erabiltzaile-izena eta pasahitza baieztatzen dira, besterik ez.';
 $string['auth_casnotinstalled'] = 'Ezin da CAS autentifikazioa erabili. PHP LDAP modulua ez dago instalatuta.';
-$string['auth_castitle'] = 'CAS zerbitzaria erabili (SSO)';
+$string['auth_castitle'] = 'CAS zerbitzaria (SSO)';
 
 ?>
