@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // repository.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
+      // repository.php - created with Moodle 2.0 dev (Build: 20100329) (2010032405)
 
 
 $string['accessiblefilepicker'] = 'File picker accessibile';
@@ -18,6 +18,7 @@ $string['areauserpersonal'] = 'Personale';
 $string['areauserprofile'] = 'Profilo';
 $string['attachedfiles'] = 'File allegati';
 $string['attachment'] = 'Allegato';
+$string['author'] = 'Autore';
 $string['back'] = '&lt; Indietro';
 $string['cachecleared'] = 'I file in cache sono stati eliminati';
 $string['cacheexpire'] = 'Permanenza in cache';
@@ -27,6 +28,7 @@ $string['cannotdownload'] = 'Non è possibile scaricare il file';
 $string['cannotdownloaddir'] = 'Non è possibile scaricare il folder';
 $string['cannotinitplugin'] = 'La chiamata plugin_init non è andata a buon fine';
 $string['choosealink'] = 'Scegli link...';
+$string['chooselicense'] = 'Tipo di licenza';
 $string['cleancache'] = 'Elimina i miei file dalla cache';
 $string['clicktohide'] = 'Click qui per nascondere';
 $string['clicktoshow'] = 'Click qui per mostrare';

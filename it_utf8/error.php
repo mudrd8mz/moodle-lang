@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // error.php - created with Moodle 2.0 dev (Build: 20100212) (2010020701)
+      // error.php - created with Moodle 2.0 dev (Build: 20100329) (2010032405)
 
 
 $string['TODO'] = 'TODO';
@@ -20,7 +20,6 @@ $string['cannotaddmodule'] = 'Non è stato possibile aggiungere il modulo $a nel
 $string['cannotaddnewmodule'] = 'Non è stato possibile aggiungere un nuovo modulo $a';
 $string['cannotaddrss'] = 'Non siete autorizzati ad aggiungere feed RSS';
 $string['cannotaddthisblocktype'] = 'Non è possibile aggiungere il blocco $a su questa pagina';
-$string['cannotassignanthing'] = 'Non è possibile dare il privilegio moodle/site:doanything';
 $string['cannotassignrole'] = 'Non è possibile assegnare ruoli nel corso';
 $string['cannotassignrolehere'] = 'Non sei autorizzato ad attribuire questo ruolo (id = $a->roleid) nel contesto ($a->context)';
 $string['cannotassignselfasparent'] = 'Non è possibile assegnare se stesso come genitore!';
@@ -384,6 +383,7 @@ $string['prefixcannotbeempty'] = '<p>Errore: il prefisso del database non può e
 $string['prefixtoolong'] = '<p>Errore: il prefisso delle tabelle del database è troppo lungo ($a->dbfamily)</p>
 <p>L\'amministratore del sito deve risolvere questo problema. La lunghezza massima del prefisso delle tabelle per $a->dbfamily è $a->maxlength caratteri.</p>';
 $string['processingstops'] = 'L\'elaborazione si è fermata qui. Rimangono dei record ignorati.';
+$string['redirecterrordetected'] = 'E\' stata indiviuato un redirect non supportato, l\'elaborazione dello script è stata interrotta';
 $string['refoundto'] = 'Può essere restituito a $a';
 $string['refoundtoorigi'] = 'Ammontare pagato restituito a $a';
 $string['remotedownloaderror'] = 'Lo scaricamento delle componenti non è andato a buon fine. Verificate le impostazioni del proxy. L\'estensione PHP cURL è fortemente consigliata.<br /><br />Dovete scaricare manualmente il file <a href=\"$a->url\">$a->url</a>, copiarlo in \"$a->dest\" e decomprimerlo.';
@@ -487,6 +487,7 @@ $string['wwwrootslash'] = 'E\' stato individuata una \$CFG->wwwroot errata nel f
 $string['xmldberror'] = 'Errore XMLDB!';
 $string['youcannotdeletecategory'] = 'Non puoi eliminare la categoria \'$a\" poiché non puoi cancellarne i contenuti né spostarli altrove.';
 $string['younotteacher'] = 'Non sei un docente!';
+$string['cannotassignanthing'] = 'Non è possibile dare il privilegio moodle/site:doanything'; // ORPHANED
 $string['searchableselectorcannotbemultiple'] = 'Il form element searchableselector non può essere multiplo. Rimuovere l\'attributo \'multiple\' dalla chiamata.'; // ORPHANED
 $string['wscouldnotcreateeusernopermission'] = 'WS - Non è stato possibile creare l\'utente - Mancanza di autorizzazioni'; // ORPHANED
 $string['wscouldnotdeletenoexistinguser'] = 'WS - Non è stato possibile eliminare l\'utente - L\'utente non esiste'; // ORPHANED

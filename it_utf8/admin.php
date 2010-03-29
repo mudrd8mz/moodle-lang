@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 2.0 dev (Build: 20100324) (2010031900)
+      // admin.php - created with Moodle 2.0 dev (Build: 20100329) (2010032405)
 
 
 $string['accessdenied'] = 'Accesso negato';
@@ -88,6 +88,7 @@ $a
 . Per favore utilizzate l\'opzione --help.';
 $string['cliupgradefinished'] = 'L\'aggiornamento via linea di comando è stato completato correttamente.';
 $string['cliyesnoprompt'] = 'inserisci s (per Si) o n (per No)';
+$string['commentsperpage'] = 'Commenti visualizzati per pagina';
 $string['commonfiltersettings'] = 'Impostazioni comuni';
 $string['commonsettings'] = 'Impostazioni comuni';
 $string['componentinstalled'] = 'Componente installato';
@@ -310,6 +311,8 @@ $string['configsessioncookiepath'] = 'E\' possibile personalizzare dove i browse
 $string['configsessiontimeout'] = 'la sessione degli utenti autenticati che non svolgono attività per un dato periodo di tempo (ad esempio caricare pagine), viene conclusa automaticamente. Questa variabile specifica il tempo massimo di inattività oltre la quale la sessione sarà considerata conclusa.';
 $string['configshowblocksonmodpages'] = 'Alcuni moduli supportano l\'inserimento di blocchi sulle loro pagine. Se l\'opzione viene attivata darete la possibilità  ai docenti di attivare i blocchi; in caso contrario, l\'opzione non verrà  visualizzata.';
 $string['configshowsiteparticipantslist'] = 'Tutti gli studenti di questo sito e i docenti del sito saranno mostrati nell\'elenco dei partecipanti. Chi è abilitato a visualizzare la lista dei partecipanti di questo sito?';
+$string['configsitedefaultlicense'] = 'Licenza di default del sito';
+$string['configsitedefaultlicensehelp'] = 'La licenza di default sarà quella usata per pubblicare contenuti in questo sito';
 $string['configsitemailcharset'] = 'Tutte le email generate dal vostro sito saranno inviate utilizzando il set di caratteri impostato qui. Comunque ogni utente può personalizzarlo se è abilitata la prossima impostazione.';
 $string['configsitemaxcategorydepth'] = 'Numero max. sotto categorie';
 $string['configsitemaxcategorydepthhelp'] = 'Numero massimo visualizzabile di sotto categorie';
@@ -602,6 +605,7 @@ $string['langupdatecomplete'] = 'Aggiornamento Language Pack completato';
 $string['latexpreamble'] = 'Preambolo LaTex';
 $string['latexsettings'] = 'Impostazioni di elaborazione LaTex';
 $string['latinexcelexport'] = 'Codifica Excel';
+$string['licensesettings'] = 'Impostazioni licenza';
 $string['localetext'] = 'Localizzazione del sito';
 $string['localstringcustomization'] = 'Personalizzazione locale stringhe';
 $string['location'] = 'Localizzazione';
@@ -617,6 +621,7 @@ $string['maintenancemode'] = 'In manutenzione';
 $string['maintfileopenerror'] = 'Errore aprendo i file di manutenzione!';
 $string['maintinprogress'] = 'Manutenzione in corso...';
 $string['managelang'] = 'Gestione';
+$string['managelicenses'] = 'Gestione licenze';
 $string['manageqtypes'] = 'Gestione tipi domande';
 $string['maxbytes'] = 'Dimensione massima upload';
 $string['maxconsecutiveidentchars'] = 'Caratteri identici consecutivi';

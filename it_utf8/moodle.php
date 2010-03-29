@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 2.0 dev (Build: 20100324) (2010031900)
+      // moodle.php - created with Moodle 2.0 dev (Build: 20100329) (2010032405)
 
 
 $string['abouttobeinstalled'] = 'in procinto di essere installati';
@@ -754,6 +754,7 @@ Questo programma è distribuito con la speranza che possa essere utile, ma SENZA
 
 Per maggiori dettagli leggere la pagina informativa sulla Licenza Moodle:
 http://docs.moodle.org/en/License';
+$string['gpllicense'] = 'Licenza GPL';
 $string['grade'] = 'Valutazione';
 $string['grades'] = 'Valutazioni';
 $string['group'] = 'Gruppo';
@@ -953,6 +954,7 @@ $string['makeeditable'] = 'Se si rende \'$a\' modificabile dal processo del serv
 $string['manageblocks'] = 'Blocchi';
 $string['managecourses'] = 'Gestisci i corsi';
 $string['managedatabase'] = 'Gestione database';
+$string['manageeditorfiles'] = 'Gestione file usati dall\'editor';
 $string['managefilters'] = 'Filtri';
 $string['managemeta'] = 'Meta corso';
 $string['managemetadisabled'] = 'Disabilitato in quanto questo corso fa già parte di un meta corso';
@@ -1159,7 +1161,7 @@ $string['notenrolledprofile'] = 'Questo profilo non è disponibile perché quest
 $string['noteusercannotrolldatesoncontext'] = '<strong>Nota:</strong> La possibilità di posticipare date di attività durante il ripristino è stato disabilitato poiché non possiedi questo privilegio.';
 $string['noteuserschangednonetocourse'] = 'Nota: devono essere recuperati gli studenti del corso quando vengono recuperati i dati degli utenti. Questa configurazione è stata cambiata per te.';
 $string['nothingnew'] = 'Nessuna novità dal tuo ultimo login';
-$string['nothingtodisplay'] = 'Non c\'è niente da visualizzare';
+$string['nothingtodisplay'] = 'Non ci sono elementi da visualizzare';
 $string['notice'] = 'Nota';
 $string['noticenewerbackup'] = 'Questo backup è stato creato con Moodle $a->backuprelease ($a->backupversion) che è più recente della versione di Moodle attualmente installata $a->serverrelease ($a->serverversion). Questo può provocare alcune inconsistenze perché la compatibilità con versioni precedenti dei backup non può essere garantita.';
 $string['notifications'] = 'Notifiche';

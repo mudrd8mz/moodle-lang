@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // role.php - created with Moodle 2.0 dev (Build: 20100322) (2010031900)
+      // role.php - created with Moodle 2.0 dev (Build: 20100329) (2010032405)
 
 
 $string['addinganewrole'] = 'Aggiungi un nuovo ruolo';
@@ -163,7 +163,7 @@ $string['metaunassignerror'] = 'Il ruolo dell\'utente \"$a\" è stato riassegnat
 $string['morethan'] = 'Più di $a';
 $string['multipleroles'] = 'Ruoli multipli';
 $string['my:manageblocks'] = 'Gestire blocchi nella pagina \'Il mio Moodle\'';
-$string['neededroles'] = 'Ruoli con autorizzazione';
+$string['neededroles'] = 'Ruoli autorizzati';
 $string['nocapabilitiesincontext'] = 'Nessun privilegio disponibile in questo contesto';
 $string['noneinthisx'] = 'Non c\'è nulla in questo $a';
 $string['noneinthisxmatching'] = 'Non ci sono utenti corrispondenti alla ricerca \'$a->search\' in questo $a->contexttype';
@@ -185,7 +185,7 @@ $string['overridesbycontext'] = 'Modifiche (per contesto)';
 $string['permission'] = 'Autorizzazione';
 $string['permissions'] = 'Autorizzazioni';
 $string['permissionsforuser'] = 'Autorizzazioni per l\'utente $a';
-$string['permissionsincontext'] = 'Autorizzazioni in $a';
+$string['permissionsincontext'] = 'Autorizzazioni per $a';
 $string['portfolio:export'] = 'Esportare in un portfolio';
 $string['potentialusers'] = '$a utenti potenziale';
 $string['potusers'] = 'Utenti potenziali';
