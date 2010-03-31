@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20100303) (2007101571.04)
+      // moodle.php - created with Moodle 1.9.8+ (Build: 20100331) (2007101580)
 
 
 $string['abouttobeinstalled'] = 'vil bli installert';
@@ -1215,7 +1215,10 @@ $string['resource'] = 'Ressurs';
 $string['resources'] = 'Ressurser';
 $string['restore'] = 'Gjenoppretting';
 $string['restorecancelled'] = 'Gjenoppretting avbrutt';
+$string['restorecannotassignroles'] = 'Gjenopprettingen medfører rolletildelinger og du har ikke tillatelse til å gjøre dette';
+$string['restorecannotcreateorassignroles'] = 'Gjenopprettingen medfører oppretting eller tildeling av roller og du har ikke tillatelse til å gjøre dette';
 $string['restorecannotcreateuser'] = 'Gjenopprettingsmodulen har behov for å opprette brukeren  \'$a\'  fra sikkherhetskopien og du har ikke rett til å opprette brukere.';
+$string['restorecannotoverrideperms'] = 'Gjenopprettingen medfører at tillatelser må overstyres og du har ikke tillatelse til å gjøre dette';
 $string['restorecoursenow'] = 'Gjennopprett denne siden nå.';
 $string['restoredaccount'] = 'Gjenopprettet brukerkonto';
 $string['restoredaccountinfo'] = 'Denne brukerkontoen ble importert fra en annen installasjon og passorder er gått tapt. Klikk på \"Fortsett\" for å angi nytt passord via e-post';
