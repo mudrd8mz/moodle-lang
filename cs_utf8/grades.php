@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.6+ (Build: 20091027) (2007101560)
+      // grades.php - created with Moodle 1.9.8+ (Build: 20100402) (2007101580)
 
 
 $string['activities'] = 'Činnosti';
@@ -281,6 +281,10 @@ $string['hidelocks'] = 'Skrýt zámky';
 $string['hidenooutcomes'] = 'Zobrazit očekávané výstupy';
 $string['hidequickfeedback'] = 'Skrýt Rychlý komentář';
 $string['hideranges'] = 'Skrýt rozsahy';
+$string['hidetotalifhiddenitems'] = 'Skrýt výsledky zahrnující skryté položky?';
+$string['hidetotalifhiddenitemsdescription'] = 'Pokud je výsledná známka počítána z položek, z nichž alespoň jedna je skrytá, má se skrýt i výsledná známka?';
+$string['hidetotalshowexhiddenitems'] = 'Zobrazovat výslednou známku bez započítání skrytých známek';
+$string['hidetotalshowinchiddenitems'] = 'Zobrazovat výslednou známku vypočítanou i ze skrytých známek';
 $string['hideverbose'] = 'Skrýt $a->category$a->itemmodule $a->itemname';
 $string['highgradeascending'] = 'Třídit podle známky vzestupně';
 $string['highgradedescending'] = 'Třídit podle známky sestupně';

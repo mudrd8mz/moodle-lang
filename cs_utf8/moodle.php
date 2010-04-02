@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20100114) (2007101571.01)
+      // moodle.php - created with Moodle 1.9.8+ (Build: 20100402) (2007101580)
 
 
 $string['abouttobeinstalled'] = 'připraveno k instalaci';
@@ -1038,6 +1038,7 @@ $string['nextsection'] = 'Další sekce';
 $string['no'] = 'Ne';
 $string['nobody'] = 'Nikdo';
 $string['nochange'] = 'Beze změny';
+$string['nocourses'] = 'Žádné kurzy';
 $string['nocoursesfound'] = 'Nebyly nalezeny žádné kurzy obsahující \'$a\'';
 $string['nocoursesyet'] = 'Žádný kurz v této kategorii';
 $string['nodstpresets'] = 'Správce nepovolil podporu letního a zimního času (DST).';
@@ -1238,6 +1239,7 @@ $string['report'] = 'Sestava';
 $string['reports'] = 'Sestavy';
 $string['requestcourse'] = 'Požádat o založení kurzu';
 $string['requestedby'] = 'Žadatel';
+$string['requestedcourses'] = 'Požadované kurzy';
 $string['requestreason'] = 'Důvody pro založení';
 $string['required'] = 'Vyžadováno';
 $string['requireskey'] = 'Tento kurz vyžaduje klíč k zápisu';
@@ -1256,7 +1258,10 @@ $string['resource'] = 'Zdroj';
 $string['resources'] = 'Zdroje';
 $string['restore'] = 'Obnovit';
 $string['restorecancelled'] = 'Obnova přerušena';
-$string['restorecannotcreateuser'] = 'Obnovení této zálohy by si vyžádalo vytvoření nového uživatele \"$a\", ale na to nemáte dostatečná práva';
+$string['restorecannotassignroles'] = 'Pro obnovení této zálohy by bylo potřeba přiřadit uživatelské role, ale na to nemáte dostatečná oprávnění';
+$string['restorecannotcreateorassignroles'] = 'Pro obnovení této zálohy by bylo potřeba vytvořit nebo přiřadit uživatelské role, ale na to nemáte dostatečná oprávnění';
+$string['restorecannotcreateuser'] = 'Pro obnovení této zálohy by bylo potřeba vytvořit nového uživatele \"$a\", ale na to nemáte dostatečná oprávnění';
+$string['restorecannotoverrideperms'] = 'Pro obnovení této zálohy by bylo potřeba lokálně přenastavit pravomoci rolí, ale na to nemáte dostatečná oprávnění';
 $string['restorecoursenow'] = 'Obnovit tento kurz!';
 $string['restoredaccount'] = 'Obnovený účet';
 $string['restoredaccountinfo'] = 'Tento uživatelský účet byl importován z jiného serveru a je potřeba u něj znovu nastavit heslo. Pro nastavení nového hesla pomocí emailu zvolte \"Pokračovat\"';
