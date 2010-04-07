@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // question.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
+      // question.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['adminreport'] = 'Atskaite par iespējamajām problēmām jautājumu datubāzē.';
@@ -19,13 +19,21 @@ $string['cwrqpfsinfo'] = '<p>Vietnes jaunināšanas procesā uz Moodle 1.9 jaut�
 $string['cwrqpfsnoprob'] = 'Jūsu vietnē nav jautājumu, kas tiek skarti ar “nejaušās izvēles jautājumu, kas atlasa jautājumus no apakškategorijām” problēmu.';
 $string['defaultfor'] = '$a noklusējuma kategorija';
 $string['defaultinfofor'] = '\"$a\" kontekstā koplietoto jautājumu noklusējuma kategorija.';
+$string['deletecoursecategorywithquestions'] = 'Ar šo kursa kategoriju jautājumu bankā ir saistīti jautājumi. Ja jūs turpināsiet, šie jautājumi tiks izdzēsti. Jūs varat vēlēties šos jautājumus sākumā pārvietot, izmantojot jautājumu bankas saskarni.';
 $string['donothing'] = 'Nekopēt vai nepārcelt failus, nemainīt saites.';
 $string['editingcategory'] = 'Kategorijas rediģēšana';
 $string['editingquestion'] = 'Jautājuma rediģēšana';
+$string['editthiscategory'] = 'Rediģēt šo kategoriju';
 $string['erroraccessingcontext'] = 'Nevar piekļūt kontekstam';
+$string['errordeletingquestionsfromcategory'] = 'Kļūda, dzēšot jautājumus no kategorijas $a.';
 $string['errorfilecannotbecopied'] = 'Kļūda, neizdodas kopēt failu $a.';
 $string['errorfilecannotbemoved'] = 'Kļūda, neizdodas pārvietot failu $a.';
 $string['errorfileschanged'] = 'Kopš pēdējās veidlapas parādīšanas jautājumiem piesaistītie kļūdu faili ir mainījušies.';
+$string['errormanualgradeoutofrange'] = 'Jautājuma $a->name vērtējums $a->grade nav robežās starp 0 un $a->maxgrade. Punkti un komentārs nav saglabāti.';
+$string['errormovingquestions'] = 'Kļūda, pārvietojot jautājumus ar id $a.';
+$string['errorprocessingresponses'] = 'Jūsu atbilžu procesēšanas laikā notika kļūda.';
+$string['errorsavingcomment'] = 'Kļūda, saglabājot datubāzē jautājuma $a->name komentāru.';
+$string['errorupdatingattempt'] = 'Kļūda, atjauninot datubāzē mēģinājumu $a->id.';
 $string['exportcategory'] = 'Eksportēšanas kategorija';
 $string['filesareacourse'] = 'kursa failu apgabal';
 $string['filesareasite'] = 'vietnes failu apgabal';
@@ -34,12 +42,15 @@ $string['fractionsnomax'] = 'Lai vērtējums par atbildēm uz šo jautājumu bū
 $string['getcategoryfromfile'] = 'Iegūt kategoriju no faila';
 $string['getcontextfromfile'] = 'Iegūt kontekstu no faila';
 $string['ignorebroken'] = 'Ignorēt nederīgās saites';
+$string['invalidcontextinhasanyquestions'] = 'question_context_has_any_questions nodots nederīgs konteksts.';
 $string['linkedfiledoesntexist'] = 'Piesaistītais fails $a nepastāv';
+$string['makechildof'] = 'Izveidot \"$a\" bērnkategoriju';
 $string['maketoplevelitem'] = 'Izveidot augšējo līmeni';
 $string['missingimportantcode'] = 'Šim jautājuma veidam nav norādīts svarīgs kods: $a.';
 $string['modified'] = 'Pēdējoreiz saglabājis/usi';
 $string['move'] = 'Pārvietot no $a un nomainīt saites.';
 $string['movecategory'] = 'Pārvietot kategoriju';
+$string['movedquestionsandcategories'] = 'Jautājumi un jautājumu kategorijas pārvietoti no $a->oldplace uz $a->newplace.';
 $string['movelinksonly'] = 'Tikai izmainīt saišu norādes, nepārvietot vai nekopēt failus.';
 $string['moveq'] = 'Pārvietot jautājumu(s)';
 $string['moveqtoanothercontext'] = 'Pārvietot jautājumu uz citu kontekstu.';
@@ -51,6 +62,7 @@ $string['movingquestionsandfiles'] = 'Vai esat pārliecināts, ka vēlaties pār
 $string['movingquestionsnofiles'] = 'Vai esat pārliecināts, ka vēlaties pārvietot jautājumu(s) {$a->questions} uz kontekstu <strong>\"{$a->tocontext}\"</strong>?<br /> Šajā(os) jautājumā(os) nav piesaistīto failu no {$a->fromareaname}a.';
 $string['needtochoosecat'] = 'Jums ir jānorāda kategorija, uz kuru pārvietot šo jautājumu, vai arī jāklikšķina \"Atcelt\".';
 $string['nopermissionadd'] = 'Jums nav pilnvaru šeit pievienot jautājumus.';
+$string['nopermissionmove'] = 'Jums nav pilnvaru pārvietot jautājumus no šejienes. Jums jautājums jāsaglabā šajā kategorijā, vai tas jāsaglabā kā jauns jautājums.';
 $string['noprobs'] = 'Jautājumu datubāzē problēmas nav atrastas.';
 $string['notenoughdatatoeditaquestion'] = 'Nav norādīts ne jautājuma ID, ne kategorijas ID, ne jautājuma veids.';
 $string['notenoughdatatomovequestions'] = 'Jums ir jānorāda jautājumu, kurus vēlaties pārvietot, ids.';
@@ -61,8 +73,12 @@ $string['permissionto'] = 'Jums ir pilnvaras:';
 $string['published'] = 'koplietoti';
 $string['questionaffected'] = '<a href=\"$a->qurl\">Jautājums \"$a->name\" ($a->qtype)</a> ir jautājumu kategorijā, bet tiek arī izmantots cita kursa \"$a->coursename\" <a href=\"$a->qurl\">testā \"$a->quizname\"</a>.';
 $string['questionbank'] = 'Jautājumu banka';
+$string['questioncategory'] = 'Jautājumu kategorija';
 $string['questioncatsfor'] = '\"$a\" jautājumu kategorijas';
 $string['questiondoesnotexist'] = 'Šāds jautājums nepastāv.';
+$string['questionsmovedto'] = 'Joprojām izmantotie jautājumi ir pārcelti uz \"$a\" kursa vecākkategorijā.';
+$string['questionsrescuedfrom'] = 'Jautājumi no konteksta $a saglabāti.';
+$string['questionsrescuedfrominfo'] = 'Kad konteksts $a tika dzēsts, jautājumi (daži no tiem var būt slēpti) tika saglabāti, jo tie joprojām tiek izmantoti dažos testos vai citās aktivitātēs.';
 $string['questionuse'] = 'Izmantot jautājumu šajā aktivitātē';
 $string['shareincontext'] = 'Koplietot kontekstā $a';
 $string['tofilecategory'] = 'Saglabāt kategoriju failā';
@@ -70,5 +86,9 @@ $string['tofilecontext'] = 'Saglabāt kontekstu failā';
 $string['unknown'] = 'Nezināms';
 $string['unknownquestiontype'] = 'Nezināms jautājuma veids: $a.';
 $string['unpublished'] = 'ne-koplietoti';
+$string['upgradeproblemcategoryloop'] = 'Atjauninot jautājumu kategorijas, tika atrasta problēma. Kategoriju kokā ir cilpa. Skarto kategoriju id ir $a.';
+$string['upgradeproblemcouldnotupdatecategory'] = 'Neizdevās atjaunināt jautājumu kategoriju $a->name ($a->id).';
+$string['upgradeproblemunknowncategory'] = 'Atjauninot jautājumu kategorijas, tika atrasta problēma. Kategorija $a->id norāda uz vecākkategoriju $a->parent, kura neeksistē. Lai novērstu problēmu, vecākkategorija nomainīta';
+$string['yourfileshoulddownload'] = 'Jūsu eksporta faila lejupielādei ir drīz jāiesākas. Ja tas tā nav, lūdzu <a href=\"$a\">noklikšķiniet šeit</a>. Lai novērstu problēmu, vecākkategorija nomainīta.';
 
 ?>

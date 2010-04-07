@@ -1,12 +1,15 @@
 <?PHP // $Id$ 
-      // qtype_datasetdependent.php - created with Moodle 1.9 + (Build: 20080305) (2007101509)
+      // qtype_datasetdependent.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['additem'] = 'Pievienot vienumu';
+$string['atleastonerealdataset'] = 'Testa jautājumā būtu jābūt vismaz vienai reālai datu kopai';
+$string['atleastonewildcard'] = 'Atbildes formulā vai jautājuma tekstā būtu jābūt vismaz vienai aizstājējzīmei';
 $string['calcdistribution'] = 'Sadalījums';
 $string['calclength'] = 'Cipari aiz komata';
 $string['calcmax'] = 'Maksimums';
 $string['calcmin'] = 'Minimums';
+$string['dataitemdefined'] = 'ar $a pieejamām jau definētām skaitliskām vērtībām';
 $string['datasetrole'] = 'Aizstājējzīmju <strong>(x...)</strong> vietā tiks lietotas skaitliskās vērtības no to datu kopas';
 $string['deletelastitem'] = 'Dzēst pēdējo vienumu';
 $string['existingcategory1'] = 'literālis no jau esošas literāļu kopas, ko lieto arī citos šīs kategorijas jautājumos';
@@ -16,7 +19,7 @@ $string['forceregeneration'] = 'uzspiest atkārtotu izveidi';
 $string['getnextnow'] = 'Tūlīt iegūt jaunu objektu “Pievienojamais vienums”';
 $string['item(s)'] = 'vienums(i)';
 $string['itemno'] = 'Vienums $a';
-$string['itemscount'] = 'Items<br/>Count';
+$string['itemscount'] = 'Vienības<br/>Skaits';
 $string['itemtoadd'] = 'Pievienojamais vienums';
 $string['keptcategory1'] = 'literālis no iepriekšējās atkārtoti lietojamās literāļu kopas kategorijas';
 $string['keptcategory2'] = 'fails no iepriekšējās atkārtoti lietojamās failu kopas kategorijas';
@@ -37,6 +40,8 @@ $string['nodataset'] = 'nekas — tā nav aizstājējzīme';
 $string['param'] = 'Parametrs {<strong>$a</strong>}';
 $string['replacewithrandom'] = 'Aizstāt ar nejauši izraudzītu vērtību';
 $string['reuseifpossible'] = 'atkārtoti izmantot iepriekšējo vērtību, ja tāda ir pieejama';
+$string['sharedwildcard'] = 'Koplietota aizstājējzīme';
+$string['sharedwildcards'] = 'Koplietotas aizstājējzīmes';
 $string['uniform'] = 'Vienots';
 $string['updatedatasetparam'] = 'Atjaunināt datu kopu parametrus';
 $string['youmustaddatleastoneitem'] = 'Lai varētu saglabāt šo jautājumu, vispirms jāpievieno vismaz viena datu kopa.';

@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // resource.php - created with Moodle 1.9 + (Build: 20080325) (2007101509)
+      // resource.php - created with Moodle 1.9.8 (Build: 20100325) (2007101580)
 
 
 $string['addresource'] = 'Pievienot resursu';
@@ -55,6 +55,10 @@ $string['fulltext'] = 'Pilns teksts';
 $string['htmlfragment'] = 'HTML fragments';
 $string['imspackageloaded'] = 'Pakotne ir ielādēta';
 $string['keepnavigationvisible'] = 'Saglabāt lapas navigāciju redzamu tajā pašā lapā';
+$string['keepnavigationvisibleno'] = 'Nē';
+$string['keepnavigationvisiblewarning'] = 'Piezīme: daži multimediju faili var ignorēt šo iestatījumu';
+$string['keepnavigationvisibleyesframe'] = 'Jā, ar ietvaru';
+$string['keepnavigationvisibleyesobject'] = 'Jā, bez ietvara';
 $string['localfile'] = 'Lokālais fails';
 $string['localfilechoose'] = 'Izvēlieties lokālo failu (CD-ROM)';
 $string['localfilehelp'] = 'Palīdzība par lokālo failu parādīšanu';
@@ -109,7 +113,7 @@ $string['resourcetype4'] = 'Vienkāršs teksts';
 $string['resourcetype5'] = 'Tīmekļa saite';
 $string['resourcetype6'] = 'HTML teksts';
 $string['resourcetype7'] = 'Programma';
-$string['resourcetype8'] = 'Wiki-like teksts';
+$string['resourcetype8'] = 'Viki-tipa teksts';
 $string['resourcetype9'] = 'Direktorijs';
 $string['resourcetypedirectory'] = 'Parādīt direktoriju';
 $string['resourcetypefile'] = 'Saite uz failu vai tīmekļa vietni';
