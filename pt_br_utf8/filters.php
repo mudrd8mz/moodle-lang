@@ -21,6 +21,7 @@ $string['doesnotcontain'] = 'não contém';
 $string['endswith'] = 'termina com';
 $string['firstaccess'] = 'Primeiro acesso';
 $string['globalrolelabel'] = '$a->label é $a->value';
+$string['includenever'] = 'Nunca incluído';
 $string['isafter'] = 'está depois de';
 $string['isanyvalue'] = 'é qualquer valor';
 $string['isbefore'] = 'está antes de';

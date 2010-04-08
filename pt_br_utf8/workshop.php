@@ -223,6 +223,7 @@ $string['releaseteachergrades'] = 'Publicar as notas do Professor';
 $string['removeallattachments'] = 'Remover todos os anexos';
 $string['repeatanalysis'] = 'Repetir análise';
 $string['reply'] = 'Responder';
+$string['resetworkshopall'] = 'Excluir envios, notas e avaliações';
 $string['returnto'] = 'Voltar para';
 $string['returntosubmissionpage'] = 'Voltar à pagina de envio da tarefa';
 $string['rubric'] = 'Rubrica';

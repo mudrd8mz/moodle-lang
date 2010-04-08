@@ -20,6 +20,7 @@ $string['deletecoursecategorywithquestions'] = 'Existem questões deste banco as
 $string['donothing'] = 'Não copie, mova arquivos ou mude os links.';
 $string['editingcategory'] = 'Editando a categoria';
 $string['editingquestion'] = 'Editando uma questão';
+$string['editthiscategory'] = 'Editar esta categoria';
 $string['erroraccessingcontext'] = 'Não pode acessar o contexto';
 $string['errordeletingquestionsfromcategory'] = 'Erro excluindo questões da categoria $a.';
 $string['errorfilecannotbecopied'] = 'Erro, impossível copiar arquivo $a.';
