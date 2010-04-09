@@ -5,6 +5,7 @@
 $string['allcategories'] = '$a potenciais categorias';
 $string['allcourses'] = '$a potenciais cursos';
 $string['allow_allcourses'] = 'Permitir inscrição em todos os cursos remotos';
+$string['allow_allcourses2'] = 'Permitir inscrição de usuários remotos em todos os cursos deste site moodle.';
 $string['allowedcategories'] = '$a categorias permitidas';
 $string['allowedcourses'] = '$a cursos permitidos';
 $string['allowedcourseslinktext'] = 'Edite cursos e categorias permitidos aqui.';
