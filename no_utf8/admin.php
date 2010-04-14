@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.7+ (Build: 20100113) (2007101571.01)
+      // admin.php - created with Moodle 1.9.8+ (Build: 20100414) (2007101580)
 
 
 $string['accessdenied'] = 'Ingen tilgang';
@@ -80,6 +80,7 @@ $string['configcalendarexportsalt'] = 'Denne tilfeldige teksten brukes for å fo
 $string['configclamactlikevirus'] = 'Filer behandles som virusinfiserte';
 $string['configclamdonothing'] = 'Filer behandles som virusfrie';
 $string['configclamfailureonupload'] = 'Hvis du har konfigurert <i>clam</i> til å scanne opplastede filer, men den er konfigurert feil eller ikke klarer å kjøre av en eller annen ukjent grunn, hvordan ønsker du at den skal oppføre seg? Hvis du har valgt \'Filer behandles som virusinfiserte\', vil de flyttes til et karanteneområde eller slettes. Hvis du har valgt \'Filer behandles som virusfrie\', vil filene lastes opp som normalt. Uansett vil administratorer bli varslet om at <i>clam</i> har feilet. Hvis du valgte \'Filer behandles som virusinfiserte\' og <i>clam</i> av en eller annen grunn feiler (som regel pga. du har lagt inn en feil sti til clam), vil ALLE filer som har blitt lastet opp flyttes til det angitt karanteneområdet eller slettes. Vær forsiktig med denne innstillingen.';
+$string['configconvertformat'] = 'Dersom <i>latex</i>, <i>dvips</i> og <i>convert</i> er aktivert, vil grafikk konverteres til angitt format. Dersom ikke, vil mimeTeX automatisk benyttes og oppretter GIF grafikk.';
 $string['configcookiehttponly'] = 'Slår på ny PHP 5.2.0 egenskaper - nettlesere er instruert til å send cookies med virkelige http forespørsler, cookies bør ikke være tilgjengelig for scriptspråk. Dette er ikke støttet i alle nettlesere og behøver ikke å være fullstendig kompatibelt med nåværende kode. Dette hjelper til å forhindre enkelte XSS angrep.';
 $string['configcookiesecure'] = 'Hvis serveren bare aksepterer https forbindelser er det anbefalt å slå på at du kan sende sikre cookies. Hvis dette er slått på pass på at webserveren ikke aksepterer http:// eller sett opp permanent viderekopling til en https:// adresse. Når <em>wwwroot<em> adressen ikke starter med https:// blir denne innstillingen automatisk slått av.';
 $string['configcountry'] = 'Hvis du velger et land her, vil dette landet brukes som standard for nye brukerkonti. For å tvinge brukere til å velge land, lar du denne stå usatt.';
@@ -275,6 +276,7 @@ $string['configzip'] = 'Indiker hvor ditt zip-program finnes (kun Unix, valgfrit
 $string['confirmation'] = 'Bekreftelse';
 $string['confirmed'] = 'Bekreftet';
 $string['confirminstall'] = 'Du er i ferd med å innstallere en språkpakke($a). Er du sikker på at du vil?';
+$string['convertformat'] = '<i>convert</i> filformat';
 $string['cookiehttponly'] = 'Bare http cookies';
 $string['cookiesecure'] = 'Bare sikre cookies';
 $string['country'] = 'Standard land';
