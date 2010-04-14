@@ -9,7 +9,7 @@ $string['description'] = 'Este é o formulário padrão de inscrição. Existem 
 </ul>';
 $string['enrol_manual_requirekey'] = 'Requerer chaves de inscrição nos novos cursos e evitar a remoção das chaves existentes.';
 $string['enrol_manual_showhint'] = 'Habilitar esta opção para mostrar como dica a primeira letra da chave de inscrição em casos de erros dos usuários.';
-$string['enrol_manual_usepasswordpolicy'] = 'Utilizar o atual protocolo de passwords do curso nas chaves de inscrição.';
+$string['enrol_manual_usepasswordpolicy'] = 'Utilizar a atual política de senhas do curso nas chaves de inscrição.';
 $string['enrolmentkeyerror'] = 'A chave de inscrição utilizada é errada, é necessário utilizar outra chave.';
 $string['enrolname'] = 'Inscrição Interna';
 $string['keyholderrole'] = 'A função do usuário que possui o código de inscrição no curso. Mostrado para estudantes tentando inscrição no curso.';
