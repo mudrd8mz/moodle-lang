@@ -1,0 +1,50 @@
+<?php
+
+$string['configuration'] = 'Configuração';
+$string['check_configrw_details'] = '<p>É recomendado que as permissões do arquivo config.php sejam alteradas após a instalação de forma que o arquivo não possa ser alterado pelo servidor web. Por favor, note que esta medida não aumenta a segurança do servidor significantemente, mas retarda ou limita exploits em geral.</p>';
+$string['check_configrw_name'] = 'config.php gravável';
+$string['check_configrw_ok'] = 'config.php não pode ser modificado por scripts PHP';
+$string['check_configrw_warning'] = 'Scripts PHP podem modificar o arquivo config.php';
+$string['check_displayerrors_details'] = '<p>Habilitar a configuração do PHP <code>display_errors</code> não é recomendável em sites em produção pois as mensagens de erro podem revelar informações sigilosas sobre seu servidor.</p>';
+$string['check_displayerrors_error'] = 'A configuração do PHP para exibir os erros está habilitada. É recomendável que seja desabilitada.';
+$string['check_displayerrors_name'] = 'Exibição de erros do PHP';
+$string['check_displayerrors_ok'] = 'A exibição de erros do PHP está desabilitada';
+$string['check_embed_details'] = '<p>A inclusão ilimitada de object é muito perigosa - qualquer usuário registrado pode lançar um ataque XSS contra outros usuários do servidor. Esta configuração deve ser desabilitada em servidores em produção.</p>';
+$string['check_embed_error'] = 'Inclusão ilimitada de object está habilitada - isto é muito perigoso para a maioria dos servidores.';
+$string['check_embed_name'] = 'Permitir EMBED e OBJECT';
+$string['check_embed_ok'] = 'A inclusão ilimitada de object está desabilitada';
+$string['check_frontpagerole_error'] = 'Encontrado papel \"$a\" da página inicial incorretamente definido!';
+$string['check_frontpagerole_name'] = 'Papel da página inicial';
+$string['check_frontpagerole_notset'] = 'O papel da página inicial não está definido';
+$string['check_frontpagerole_ok'] = 'A definição do papel da página inicial está ok';
+$string['check_globals_details'] = '<p>Register globals é considerado uma configuração do PHP altamente insegura.</p><p><code>register_globals=off</code> deve ser definido na configuração do PHP. Esta configuração é feita editando o seu arquivo <code>php.ini</code>, a configuração do Apache/IIS ou o arquivo <code>.htaccess</code>.</p>';
+$string['check_globals_error'] = 'Register global DEVE estar desabilitado. Por favor, conserte as configurações do servidor PHP imediatamente!';
+$string['check_globals_name'] = 'Register globals';
+$string['check_globals_ok'] = 'Register globals está desabilitado';
+$string['check_mediafilterswf_details'] = '<p>A inclusão automática de swf é muito perigosa - qualquer usuário registrado pode lançar um ataque XSS contra outros usuários do servidor. Esta configuração deve ser desabilitada em servidores em produção.</p>';
+$string['check_mediafilterswf_error'] = 'O filtro de mídia Flash está habilitado - isto é muito perigoso para a maioria dos servidores.';
+$string['check_mediafilterswf_name'] = 'Filtro de mídia .swf habilitado';
+$string['check_mediafilterswf_ok'] = 'O filtro de mídia Flash está desabilitado.';
+$string['check_noauth_details'] = '<p>O plugin <em>Nenhuma autenticação</em> não é destinado a sites em produção. Por favor, desabilite-o a menos que este seja um site de desenvolvimento ou testes.</p>';
+$string['check_noauth_error'] = 'O plugin Nenhum autenticação não pode ser utilizado em sites em produção.';
+$string['check_noauth_name'] = 'Nenhuma autenticação';
+$string['check_noauth_ok'] = 'O plugin Nenhuma autenticação está desabilitado.';
+$string['check_unsecuredataroot_details'] = '<p>O diretório dataroot não deve ser acessível via web. A melhor maneira de garantir que este diretório não está acessível é utilizar um diretório fora do diretório público da web.</p> Se você mover o diretório, você deve atualizar a configuração <code>\$CFG->dataroot</code> no arquivo <code>config.php</code> para ficar de acordo.';
+$string['check_unsecuredataroot_error'] = 'Seu diretório dataroot <code>\$a</code> está em um local errado está exposto à web!';
+$string['check_unsecuredataroot_name'] = 'Dataroot inseguro';
+$string['check_unsecuredataroot_ok'] = 'O diretório dataroot não é acessível via web.';
+$string['check_unsecuredataroot_warning'] = 'Seu diretório dataroot <code>\$a</code> está em um local errado e pode estar exposto à web.';
+$string['description'] = 'Descrição';
+$string['details'] = 'Detalhes';
+$string['issue'] = 'Item';
+$string['reportsecurity'] = 'Visão geral da segurança';
+$string['security:view'] = 'Visualizar relatório de segurança';
+$string['status'] = 'Estado';
+$string['statuscritical'] = 'Crítico';
+$string['statusinfo'] = 'Informação';
+$string['statusok'] = 'OK';
+$string['statusserious'] = 'Sério';
+$string['statuswarning'] = 'ATENÇÃO';
+$string['timewarning'] = 'O processamento dos dados pode levar muito tempo, por favor, seja paciente';
+
+?>
