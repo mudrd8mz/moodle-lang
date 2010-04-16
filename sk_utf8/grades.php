@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // grades.php - created with Moodle 1.9.7+ (Build: 20100310) (2007101571.04)
+      // grades.php - created with Moodle 1.9.8+ (Build: 20100414) (2007101580)
 
 
 $string['activities'] = 'Aktivity';
@@ -280,8 +280,8 @@ $string['hidelocks'] = 'Skryť zámky';
 $string['hidenooutcomes'] = 'Zobraziť ciele';
 $string['hidequickfeedback'] = 'Skryť rýchly komentár';
 $string['hideranges'] = 'Skryť rozsahy';
-$string['hidetotalifhiddenitems'] = 'Skryť súhrnné známky, ak obsahujú skryté položky?';
-$string['hidetotalifhiddenitemsdescription'] = 'Skryť súhrnné známky, ak obsahujú jednu alebo viac skrytých položiek?';
+$string['hidetotalifhiddenitems'] = 'Skryť súhrnné známky, ak obsahujú skryté položky';
+$string['hidetotalifhiddenitemsdescription'] = 'Určiť, či súhrnné známky obsahujúce skryté položky sú zobrazené študentom (s výpočtom zahrňujúcim alebo nezahrňujúcim skryté položky) alebo či sú nahradené pomlčkou.';
 $string['hidetotalshowexhiddenitems'] = 'Zobraziť súhrnné známky nezahrňujúc skryté položky';
 $string['hidetotalshowinchiddenitems'] = 'Zobraziť súhrnné známky zahrňujúc skryté položky';
 $string['hideverbose'] = 'Skryť $a->category$a->itemmodule $a->itemname';

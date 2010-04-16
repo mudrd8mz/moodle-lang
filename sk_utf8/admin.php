@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // admin.php - created with Moodle 1.9.8 (Build: 20100326) (2007101580)
+      // admin.php - created with Moodle 1.9.8+ (Build: 20100414) (2007101580)
 
 
 $string['accessdenied'] = 'Prístup zamietnutý';
@@ -81,6 +81,7 @@ $string['configcalendarexportsalt'] = 'Tento náhodný text sa používa na zvý
 $string['configclamactlikevirus'] = 'Považovať súbory za napadnuté vírusom';
 $string['configclamdonothing'] = 'Považovať súbory za normálne';
 $string['configclamfailureonupload'] = 'Ak ste nastavili clam, aby skenoval prenášané súbory, ale nie je správne nastavený alebo z neznámych dôvodov nereaguje tak, ako má, ako sa má systém správať? Ak si vyberiete \'Považovať súbory za napadnuté vírusom\', budú súbory presunuté do karanténnej oblasti alebo vymazané. Ak si vyberiete \'Považovať súbory za normálne\', budú súbory presunuté na to miesto, ktoré si Vy určíte bez problémov. Samozrejme, administrátori budú upozornení, ak clam nebude fungovať. Ak si vyberiete \'Považovať súbory za napadnuté vírusom\' a z neznámych dôvodov clam nebude reagovať správne (väčšinou je nesprávne nastavená cesta ku clam), všetky prenášané súbory budú presunuté do zadanej karanténnej oblasti alebo vymazané. Buďte opatrní pri tomto nastavení.';
+$string['configconvertformat'] = 'Ak sú dostupné programy <i>latex</i>, <i>dvips</i> a <i>convert</i> potom sa obrázky vytvoria pre špecifikovaný formát. Ak nie, bude použitý mimeTeX a vytvorí obrázky GIF.';
 $string['configcookiehttponly'] = 'Povoľuje novú vlastnosť PHP 5.2.0 - web prehliadače dostanú pokyn posielať cookie so skutočnými http požiadavkami, cookie ale nebudú dostupné skriptovacím jazykom. Nie všetky prehliadače to ale podporujú a nemusí to byť úplne kompatibilné so súčasným kódom. Zabraňuje to niektorým XSS napadnutiam.';
 $string['configcookiesecure'] = 'Ak server prijíma iba https spojenia, doporučuje sa povoliť posielanie bezpečných cookie. Ak povolíte, ubezpečte sa, že server neakceptuje http:// alebo zabezpečte trvalé presmerovanie na https:// adresu. Ak adresa <em>wwwroot</em> nezačína na https://, je toto nastavenie automaticky vypnuté.';
 $string['configcountry'] = 'Ak si tu vyberiete krajinu, tak bude táto krajina nastavená aj pre nové používateľské kontá. Ak chcete, aby si používatelia sami vybrali krajinu, nenastavujte ju tu.';
@@ -271,6 +272,7 @@ $string['configzip'] = 'Uveďte cestu k Vášmu zip programu (len pre UNIX, nepo
 $string['confirmation'] = 'Potvrdenie';
 $string['confirmed'] = 'Potvrdené';
 $string['confirminstall'] = 'Chcete naozaj nainštalovať jazykový balíček $a?';
+$string['convertformat'] = 'Výstupný formát programu <i>convert</i>';
 $string['cookiehttponly'] = 'Iba http cookies';
 $string['cookiesecure'] = 'Iba bezpečné cookies';
 $string['country'] = 'Východzia krajina';
