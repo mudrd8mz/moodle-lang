@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // quiz.php - created with Moodle 1.9.6+ (Build: 20091028) (2007101560)
+      // quiz.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['1day'] = 'יום 1';
@@ -350,7 +350,7 @@ $string['nogradewarning'] = 'לא ניתן ציון לבוחן זה. לא תוכ
 $string['nomatchinganswer'] = 'עלייך לפרט תשובה שתתאים לשאלה \'$a\'.';
 $string['nominal'] = 'נומינלי';
 $string['nomoreattempts'] = 'אין באפשרותך לעשות עוד ניסיונות לענות על בוחן זה.';
-$string['none'] = 'אף אחד';
+$string['none'] = 'ללא';
 $string['nopossibledatasets'] = 'אין מערכי נתונים אפשריים';
 $string['noquestionintext'] = 'טקסט השאלה אינו מכיל שאלות משובצות.';
 $string['noquestions'] = 'עדיין לא נוספו שאלות';
