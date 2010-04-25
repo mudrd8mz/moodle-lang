@@ -188,8 +188,8 @@ $string['bypassed'] = '忽视';
 $string['cachecontrols'] = '缓存控制';
 $string['cancel'] = '取消';
 $string['cancelled'] = '取消';
-$string['categories'] = '课程类别';
-$string['category'] = '课程类别';
+$string['categories'] = '课程分类';
+$string['category'] = '课程分类';
 $string['categoryadded'] = '已经添加类别‘{$a}’';
 $string['categorycontents'] = '课程子目录和课程';
 $string['categorycurrentcontents'] = '{$a}的内容';
@@ -492,13 +492,13 @@ $string['emaildigest'] = 'E-mail摘要类型';
 $string['emaildigestcomplete'] = '完整的(每天一封，包含完整内容)';
 $string['emaildigestoff'] = '无摘要(每个帖子发送一封E-mail)';
 $string['emaildigestsubjects'] = '主题(每天一封，只包含主题)';
-$string['emaildisable'] = '这个电子邮件地址无效。';
+$string['emaildisable'] = '这个电子邮件地址无效';
 $string['emaildisableclick'] = '点击此处不再向此地址发送任何邮件';
 $string['emaildisplay'] = '显示E-mail';
 $string['emaildisplaycourse'] = 'E-mail对同一课程的成员可见';
 $string['emaildisplayno'] = '公开E-mail地址';
 $string['emaildisplayyes'] = '隐藏E-mail地址';
-$string['emailenable'] = '该E-mail已激活。';
+$string['emailenable'] = '该E-mail已激活';
 $string['emailenableclick'] = '点击此处重新向此地址发送邮件';
 $string['emailexists'] = '该E-mail已经注册过了。';
 $string['emailformat'] = 'E-mail格式';
@@ -561,9 +561,7 @@ $string['enrolme'] = '将我加入此课程';
 $string['enrolmentconfirmation'] = '您将成为本课程的一员。<br />您确实想这么做吗?';
 $string['enrolmentend'] = '选课结束时间';
 $string['enrolmentkey'] = '选课密钥';
-$string['enrolmentkeyfrom'] = '该课程需要“选课密钥”――<br />
-
-一个从{$a}获得的只需使用一次的密码';
+$string['enrolmentkeyfrom'] = '该课程需要“选课密钥”―― 一个只需使用一次的密码。<br />您应该已经知道它是什么了。如果忘记了，请询问{$a}';
 $string['enrolmentkeyfromguest'] = '该课程作为访客登录需要选课密钥<BR/>每次进入课程都需要输入密钥，您可以通过{$a}接收该密钥。';
 $string['enrolmentkeyhint'] = '这个选课密钥不正确，请再试一次<br />
 (提示: 以“{$a}”开头)';
@@ -640,7 +638,7 @@ $string['forcepasswordchangehelp'] = '在用户下次登录时提示其修改';
 $string['forcepasswordchangenotice'] = '继续下去之前，您必须修改您的密码。';
 $string['forcetheme'] = '强制使用主题';
 $string['forgotaccount'] = '忘记了密码？';
-$string['forgotten'] = '忘了用户名或密码了?';
+$string['forgotten'] = '忘记用户名或密码了?';
 $string['forgottenduplicate'] = '该邮件地址已被几个账户使用了，请键入用户名来代替。';
 $string['forgotteninvalidurl'] = '无效的重置密码链接';
 $string['format'] = '格式';
@@ -814,9 +812,9 @@ $string['langltr'] = '文字书写方向从左到右';
 $string['langrtl'] = '文字书写方向从右到左';
 $string['language'] = '语言';
 $string['languagegood'] = '该语言包是最新的! :-)';
-$string['lastaccess'] = '最近登录';
+$string['lastaccess'] = '最近访问';
 $string['lastedited'] = '最近编辑';
-$string['lastlogin'] = '最后登录';
+$string['lastlogin'] = '最近登录';
 $string['lastmodified'] = '最后修改';
 $string['lastname'] = '姓';
 $string['lastyear'] = '去年';
@@ -844,18 +842,15 @@ $string['loginas'] = '登录为';
 $string['loginaspasswordexplain'] = '<p>要使用此功能，您需要特别的“登录为密码”。<br />如果您没有，请和服务器管理员联系。</p>';
 $string['loginguest'] = '以访客身份浏览';
 $string['loginsite'] = '登录';
-$string['loginsteps'] = '如果您希望以教师或学生的权限使用本平台，请先注册。注册的步骤是: 
-
+$string['loginsteps'] = '嗨！为了能完全访问本站，您需要花费一分钟在本站建立一个新帐号。某些课程可能还设有只需输入一次的“选课密钥”，但目前还不需要。下面是步骤：
    <ol>
-
-   <li>填写<a href=\"{$a}\">注册表单</a>上的相关资料。</li>
-
-   <li>提交后系统将自动发送E-mail到您注册的信箱中。</li>
-
-   <li>阅读这封E-mail，点击信中包含的网页链接。</li>
-
-   <li>您的帐号会马上得到确认，同时也完成了首次登录。</li>
-
+   <li>将您个人的详细信息填入<a href=\"{$a}\">注册表单</a>中。</li>
+   <li>一封E-mail将被立刻发送到您的E-mail地址。</li>
+   <li>阅读您收到的E-mail，点击信中包含的网页链接。</li>
+   <li>您的帐号会得到确认，并且可以登录了。</li>
+   <li>现在，选择您想要参与的课程。</li>
+   <li>如果您被提示要求输入“选课密钥”，请输入教师给您的密钥。这样，您就选课成功了。</li>
+   <li>现在，您可以完全访问此课程了。从现在开始，您只需要输入用户名和密码（在本页的表单中），就可以登录并访问任何您已经加入的课程。</li>
    </ol>';
 $string['loginstepsnone'] = '<p>嗨! </p>
 <p>为了完全访问课程您必须申请一个新帐号。</p>
@@ -864,7 +859,7 @@ $string['loginstepsnone'] = '<p>嗨! </p>
 $string['loginto'] = '登录到{$a}';
 $string['loginusing'] = '请使用用户名和密码登录';
 $string['logout'] = '退出';
-$string['logoutconfirm'] = '您真要注销吗？';
+$string['logoutconfirm'] = '您真要退出吗？';
 $string['logs'] = '日志';
 $string['logtoomanycourses'] = '[<a href=\"{$a->url}\">更多</a>]';
 $string['logtoomanyusers'] = '[<a href=\"{$a->url}\">更多</a>]';
@@ -1062,7 +1057,7 @@ $string['notenrolledprofile'] = '此资料无效，因为该用户没有注册�
 $string['noteuserschangednonetocourse'] = '注意：恢复用户数据（活动中的数据、文件或消息）时用户资料也要恢复。此项设置已经替您更改。';
 $string['nothingnew'] = '自从您上次登录以来尚无新东西';
 $string['nothingtodisplay'] = '没有可显示内容';
-$string['notice'] = '通知';
+$string['notice'] = '注意';
 $string['noticenewerbackup'] = '这个备份文件是使用Moodle {$a->backuprelease}({$a->backupversion})创建的，它比您正在使用的Moodle {$a->serverrelease}({$a->serverversion})新。由于备份文件的向后兼容无法保证，这可能会导致恢复的内容和备份时不一致。';
 $string['notifications'] = '通告';
 $string['notify'] = '是否启用通告';
@@ -1116,7 +1111,7 @@ $string['passwordextlink'] = '下面的链接提供恢复您忘记的密码。�
 $string['passwordforgotten'] = '忘记了密码';
 $string['passwordforgotteninstructions'] = '必须先在用户数据库中找到您的详细信息。请将您的用户名<strong>或</strong>注册时使用的email地址输入到相应的文本框中。两者不用都输入。';
 $string['passwordnohelp'] = '无法找到您丢失的密码。请联系您的moodle管理员';
-$string['passwordrecovery'] = '找回密码';
+$string['passwordrecovery'] = '是的，请帮我登录';
 $string['passwordsdiffer'] = '这些密码不对';
 $string['passwordsent'] = '密码已被发送';
 $string['passwordsenttext'] = '<p>一封E-mail已经送到您的邮箱{$a->email}。</p>
@@ -1208,7 +1203,7 @@ $string['rename'] = '重命名';
 $string['renamefileto'] = '将<b>{$a}</b>重命名为';
 $string['report'] = '报表';
 $string['reports'] = '报表';
-$string['requestcourse'] = '申请一门课程';
+$string['requestcourse'] = '申请新建一门课程';
 $string['requestedby'] = '申请人';
 $string['requestreason'] = '申请理由';
 $string['required'] = '必需的';
@@ -1240,7 +1235,7 @@ $string['restoreusersprecheck'] = '检查用户数据';
 $string['restoreusersprecheckerror'] = '检查用户数据时发现一些问题';
 $string['restricted'] = '受限的';
 $string['restrictmodules'] = '限制活动模块？';
-$string['returningtosite'] = '登录';
+$string['returningtosite'] = '再次访问本站？';
 $string['revert'] = '重置';
 $string['role'] = '角色';
 $string['rolemappings'] = '角色映射';
@@ -1335,7 +1330,7 @@ $string['site'] = '站点';
 $string['sitedefault'] = '站点缺省';
 $string['siteerrors'] = '本站错误';
 $string['sitefiles'] = '本站文件';
-$string['sitefilesused'] = '站点文件已在该课程中使用';
+$string['sitefilesused'] = '在该课程中使用的站点文件';
 $string['sitelogs'] = '本站日志';
 $string['sitenews'] = '本站新闻';
 $string['sitepartlist'] = '您无权查看参加者名单';
@@ -1475,19 +1470,19 @@ $string['trysearching'] = '试试搜索';
 $string['turneditingoff'] = '关掉编辑功能';
 $string['turneditingon'] = '打开编辑功能';
 $string['undecided'] = '未定';
-$string['unenrol'] = '注销';
-$string['unenrolallstudents'] = '注销全部学生';
-$string['unenrolallstudentssure'] = '您确定要从此课程中注销全部学生么?';
-$string['unenrolme'] = '我要从{$a}注销';
-$string['unenrolroleusers'] = '注销用户';
-$string['unenrolsure'] = '您确定要从该课程注销{$a}?';
+$string['unenrol'] = '撤销选课';
+$string['unenrolallstudents'] = '撤销全部学生的选课';
+$string['unenrolallstudentssure'] = '您确定要从此课程中撤销全部学生的选课么?';
+$string['unenrolme'] = '从{$a}撤销选课';
+$string['unenrolroleusers'] = '撤销用户的选课';
+$string['unenrolsure'] = '您确定要从本课程撤销{$a}的选课身份?';
 $string['unfinished'] = '未完';
 $string['unknowncategory'] = '未知类别';
 $string['unlimited'] = '无限制';
 $string['unpacking'] = '对{$a}解包';
 $string['unsafepassword'] = '不安全的密码――试试别的吧';
 $string['untilcomplete'] = '直到完成';
-$string['unusedaccounts'] = '帐号{$a}天不用将视作注销。';
+$string['unusedaccounts'] = '帐号{$a}天不用将视作自动撤销选课';
 $string['unzip'] = '解压';
 $string['unzippingbackup'] = '解压备份文件';
 $string['up'] = '向上';
