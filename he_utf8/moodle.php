@@ -1,5 +1,5 @@
 <?PHP // $Id$ 
-      // moodle.php - created with Moodle 1.9.7+ (Build: 20091209) (2007101570)
+      // moodle.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['abouttobeinstalled'] = 'על סף התקנה';
@@ -1385,10 +1385,10 @@ $string['summaryof'] = 'תקציר של $a';
 $string['supplyinfo'] = 'אנא ספק מספר נתונים על עצמך';
 $string['switchrolereturn'] = 'חזור לתפקיד הרגיל שלי';
 $string['switchroleto'] = 'החלף תפקיד ל...';
-$string['tag'] = 'תווית';
-$string['tagalready'] = 'תווית זו כבר קיימת';
-$string['tagmanagement'] = 'הוסף/הסר תוויות';
-$string['tags'] = 'תוויות';
+$string['tag'] = 'תג';
+$string['tagalready'] = 'תג זה כבר קיים';
+$string['tagmanagement'] = 'הוסף/הסר תגים';
+$string['tags'] = 'תגים';
 $string['targetrole'] = 'תפקיד מטרה';
 $string['teacheronly'] = 'בשביל ה$a בלבד';
 $string['teacherroles'] = '$a תפקידים';

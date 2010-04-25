@@ -1,9 +1,9 @@
 <?PHP // $Id$ 
-      // message.php - created with Moodle 1.9.5+ (Build: 20090805) (2007101550)
+      // message.php - created with Moodle 1.9.8+ (Build: 20100407) (2007101580)
 
 
 $string['addcontact'] = 'הוסף איש קשר';
-$string['addsomecontacts'] = 'כדי לשלוח מסר למישהו, או כדי להוסיף אליהם קיצור דרך בעמוד זה, השתמש ב<a href=\"$a\">תווית החיפוש </a> לעיל.';
+$string['addsomecontacts'] = 'כדי לשלוח מסר למישהו, או כדי להוסיף אליהם קיצור דרך בעמוד זה, השתמש ב<a href=\"$a\">לשונית החיפוש </a> לעיל.';
 $string['addsomecontactsincoming'] = 'מסרים אלה הן מאנשים שלא נמצאים ברשימת אנשי הקשר שלך. כדי להוסיף אותם לאנשי הקשר שלך לחץ על הסמל \"הוסף איש קשר\" שנמצא ליד השם שלהם.';
 $string['ago'] = 'לפני $a';
 $string['allmine'] = 'כל המסרים אלי או ממני.';
